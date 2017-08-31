@@ -1,9 +1,9 @@
 ---
-redirect_url: /Teams/Welcome_to_Microsoft_Teams
+redirect_url: /MicrosoftTeams/Overview_of_Microsoft_Teams
 redirect_document_id: True
-ms.openlocfilehash: 6acb3b8a104c5e72f8274da3470e6722b9f20d16
-ms.sourcegitcommit: 41c623bc0fe9267000f296472a2ee2be8f65a43a
+ms.openlocfilehash: 01a5437bca1680c70ee8bbc35a4909849ac44907
+ms.sourcegitcommit: 3b9b3f07f4f67cd5f43da68f48d62222d7e49167
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 08/31/2017
 ---
