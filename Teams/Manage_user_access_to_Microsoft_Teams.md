@@ -1,0 +1,60 @@
+---
+title: Verwalten des Benutzerzugriffs auf Microsoft Teams | Microsoft-Support
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdar
+ms.date: 08/10/2017
+ms.topic: overview
+ms.prod: teams
+description: Hier erfahren Sie, wie Sie den Zugriff auf Benutzerebene pro Benutzer aktivieren oder deaktivieren.
+ms.openlocfilehash: fe269efe3d083964b6c86b268d245d02bfce6e0c
+ms.sourcegitcommit: 3b9b3f07f4f67cd5f43da68f48d62222d7e49167
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 08/31/2017
+---
+<a name="manage-user-access-to-microsoft-teams"></a>Verwalten des Benutzerzugriffs auf Microsoft Teams
+=====================================
+
+Auf Benutzerebene kann der Zugriff auf Microsoft Teams pro Benutzer aktiviert oder deaktiviert werden, indem die Produktlizenz für Microsoft Teams zugewiesen oder entfernt wird.
+
+Zurzeit gibt es keine Richtlinienoptionen für das Aktivieren oder Deaktivieren von Microsoft Teams oder einer Teilmenge der Funktionen von Microsoft Teams für einzelne Benutzer außerhalb der Lizenzierung.
+
+| | |
+|---------|---------|
+|![](media/Manage_user_access_to_Microsoft_Teams_image1.png)<br></br>Hinweis |Microsoft empfiehlt, Microsoft Teams für alle Benutzer in einer Firma zu aktivieren, damit Teams organisch für Projekte und andere dynamische Aktivitäten gebildet werden können. Auch wenn Sie sich für ein Pilotprojekt entscheiden, kann es hilfreich sein, Microsoft Teams für alle Benutzer aktiviert zu lassen, während Sie die Kommunikation auf die Pilotbenutzergruppe beschränken. |
+
+Microsoft Teams-Lizenzen auf Benutzerebene werden direkt über die Benutzerverwaltungsschnittstellen im Office 365 Admin Center verwaltet. Ein Administrator kann neuen Benutzern Lizenzen zuweisen, wenn neue Benutzerkonten erstellt werden, oder Benutzern mit vorhandenen Konten Lizenzen zuweisen. Der Administrator muss über Berechtigungen eines globalen Office 365-Administrators oder eines Benutzerverwaltungsadministrators verfügen, um Microsoft Teams-Lizenzen zu verwalten.
+
+Wenn einem Benutzer eine Lizenz-SKU wie E3 oder E5 zugewiesen wird, wird automatisch eine Microsoft Teams-Lizenz zugewiesen, und der Benutzer wird für Microsoft Teams aktiviert. Administratoren können alle Office 365-Dienste und -Lizenzen präzise steuern, und die Microsoft Teams-Lizenz für einen bestimmten Benutzer oder eine bestimmte Gruppe von Benutzern kann aktiviert oder deaktiviert werden.
+
+![](media/Manage_user_access_to_Microsoft_Teams_image2.png) ![](media/Manage_user_access_to_Microsoft_Teams_image3.png)
+
+Eine Microsoft Teams-Benutzerlizenz kann jederzeit deaktiviert werden. Wenn die Lizenz deaktiviert ist, wird der Zugriff der Benutzer auf Microsoft Teams verhindert, und sie können Microsoft Teams nicht mehr im App-Startprogramm und auf der Homepage von Office 365 sehen.
+
+![](media/Manage_user_access_to_Microsoft_Teams_image4.png)
+
+Neben dem Office 365 Admin Center können Office 365-Administratoren auch Office 365 PowerShell verwenden, um Benutzerlizenzen zuzuweisen und zu entfernen. Verwenden Sie die folgende Syntax, um eine Lizenz zu einem Benutzer zuzuweisen:
+
+Set-MsolUserLicense -UserPrincipalName "\<Konto\>" -AddLicenses "\<AccountSkuId\>"
+
+Im folgenden Beispiel wird eine Lizenz aus dem Lizenzplan „litwareinc:ENTERPRISEPACK“ (Office 365 Enterprise E3) dem nicht über eine Lizenz verfügenden Benutzer „belindan@litwareinc.com“ zugewiesen.
+
+Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
+
+Weitere Details und Beispiele finden Sie unter [*Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell*](https://go.microsoft.com/fwlink/?linkid=855755).
+
+Mit der folgenden Syntax entfernen Sie Lizenzen von einem vorhandenen Benutzerkonto:
+
+Set-MsolUserLicense -UserPrincipalName \<Konto\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
+
+Im folgenden Beispiel wird die Lizenz „litwareinc:ENTERPRISEPACK“ (Office 365 Enterprise E3) vom Benutzerkonto „BelindaN@litwareinc.com“ entfernt.
+
+Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
+
+Weitere Details und Beispiele finden Sie unter [*Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell*](https://go.microsoft.com/fwlink/?linkid=855756).
+
+| | | |
+|---------|---------|---------|
+|![](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Entscheidungspunkt         |<ul><li>Wie sieht der Plan Ihrer Organisation für das organisationsweite Microsoft Teams-Onboarding aus?  (Pilotprojekt oder offen)</li></ul>         |
+|![](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Nächste Schritte         |<ul><li>Wenn Sie das Onboarding über ein geschlossenes Pilotprojekt durchführen, entscheiden Sie, ob Sie dies über die Lizenzierung oder durch zielgerichtete Kommunikation tun möchten.</li><li>Stellen Sie abhängig von der Entscheidung durch die entsprechenden Schritte sicher, dass nur Pilotbenutzer auf Microsoft Teams zugreifen dürfen (wenn dies notwendig ist).</li><li>Dokumentieren Sie unten die Richtlinien dafür, welche Benutzer auf Microsoft Teams zugreifen dürfen (oder nicht zugreifen dürfen).</li></ul>         |
