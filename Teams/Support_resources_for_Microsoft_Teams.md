@@ -8,10 +8,10 @@ ms.topic: overview
 ms.prod: teams
 description: "Eine Liste mit Supportressourcen für Microsoft Teams, damit Sie das Produkt effizienter und effektiver nutzen können"
 ms.openlocfilehash: fa0e4792ea780c8edc437a70c9aa1d564bbafa9c
-ms.sourcegitcommit: 41c623bc0fe9267000f296472a2ee2be8f65a43a
+ms.sourcegitcommit: 3b9b3f07f4f67cd5f43da68f48d62222d7e49167
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2017
+ms.lasthandoff: 08/31/2017
 ---
 <a name="support-resources-for-microsoft-teams"></a>Supportressourcen für Microsoft Teams
 =====================================
