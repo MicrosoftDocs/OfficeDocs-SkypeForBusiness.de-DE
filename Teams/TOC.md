@@ -12,7 +12,7 @@
 ## [Interaktion von Skype for Business und Microsoft Teams](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
 ## [Upgrade auf Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 
-# PLAN
+# Planen
 ## [Übersicht über eine Microsoft Teams-Bereitstellung](Overview_of_a_Microsoft_Teams_deployment.md)
 ## [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](Plan_for_Office_365_groups_when_creating_teams_in_Microsoft_Teams.md)
 ## [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
@@ -28,7 +28,7 @@
 
 
 # Verwalten
-## [](Get_clients_for_Microsoft_Teams.md)
+## [Beziehen von Clients für Microsoft Teams](Get_clients_for_Microsoft_Teams.md)
 ## [Microsoft Teams in Ihrer Office 365-Organisation einrichten](Set_up_Microsoft_Teams_in_your_Office_365_organization.md)
 ## [Verwalten des Benutzerzugriffs auf Microsoft Teams](Manage_user_access_to_Microsoft_Teams.md)
 ## [Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](Enable_Microsoft_Teams_features_in_your_Office_365_organization.md)
