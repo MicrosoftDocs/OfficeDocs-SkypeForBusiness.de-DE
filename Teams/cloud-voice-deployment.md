@@ -2,17 +2,17 @@
 title: Cloud Voice-Bereitstellung
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdarss
+manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: Praktische Anleitungen zur Bereitstellung von Cloud Voice in Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 708ddd18235e28aa2d469c1556317733cb23ad5e
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: e9877712def7350fd534ea455887a627a9ac38d7
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="cloud-voice-deployment"></a>Cloud Voice-Bereitstellung
 ======================

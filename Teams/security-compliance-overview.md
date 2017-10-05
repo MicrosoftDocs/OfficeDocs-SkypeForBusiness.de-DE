@@ -4,26 +4,26 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Eine Übersicht über die Sicherheits- und Compliance-Funktionen von Microsoft Teams, einschließlich Überwachung und Berichterstellung, Compliancesuche in Inhalten, eDiscovery und vielem mehr"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f86344671c0a8e2d800540b609afed18ab74d25b
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
 
 Microsoft Teams basiert auf der Office 365-Cloud auf Unternehmensniveau mit Hyperskalierung und bietet die erweiterten Sicherheits- und Compliance-Funktionen, die unsere Kunden erwarten.
 
-Microsoft Teams ist von der Einführung an mit Stufe C konform. Dazu gehören die folgenden Standards: ISO 27001, ISO 27018, SSAE16 SOC 1 und SOC 2, HIPAA und EU-Standardvertragsklauseln (EU Model Clauses, EUMC). Microsoft klassifiziert innerhalb des Microsoft-Compliance-Frameworks Office 365-Anwendungen und -Dienste in vier Kategorien. Jede Kategorie wird durch bestimmte Compliance-Verpflichtungen definiert, die ein Office 365-Dienst oder ein zugehöriger Microsoft-Dienst erfüllen muss, um in dieser Kategorie geführt zu werden.
+Teams ist von der Einführung an mit Stufe C konform. Dazu gehören die folgenden Standards: ISO 27001, ISO 27018, SSAE16 SOC 1 und SOC 2, HIPAA und EU-Standardvertragsklauseln (EU Model Clauses, EUMC). Microsoft klassifiziert innerhalb des Microsoft-Compliance-Frameworks Office 365-Anwendungen und -Dienste in vier Kategorien. Jede Kategorie wird durch bestimmte Compliance-Verpflichtungen definiert, die ein Office 365-Dienst oder ein zugehöriger Microsoft-Dienst erfüllen muss, um in dieser Kategorie geführt zu werden.
 
 Dienste in den Compliance-Kategorien C und D, für die branchenführende Compliance-Verpflichtungen gelten, sind standardmäßig aktiviert. Dienste der Kategorien A und B verfügen über Steuermöglichkeiten, mit denen diese Dienste organisationsweit aktiviert oder deaktiviert werden können. Details hierzu finden Sie im Dokument zum [Compliance-Framework für Branchenstandards und -bestimmungen](https://go.microsoft.com/fwlink/?linkid=855777). Microsoft Teams unterstützt außerdem Cloud Security Alliance-Compliance.
 
-Microsoft Teams erzwingt außerdem teamweite und organisationsweite zweistufige Authentifizierung, einmaliges Anmelden über Active Directory und Verschlüsselung der übertragenen Daten sowie der ruhenden Daten. Dateien werden in SharePoint gespeichert und mit dem entsprechenden SharePoint-Mechanismus verschlüsselt. Notizen werden in OneNote gespeichert und mit dem entsprechenden OneNote-Mechanismus verschlüsselt.
+Teams erzwingt außerdem teamweite und organisationsweite zweistufige Authentifizierung, einmaliges Anmelden über Active Directory und Verschlüsselung der übertragenen Daten sowie der ruhenden Daten. Dateien werden in SharePoint gespeichert und mit dem entsprechenden SharePoint-Mechanismus verschlüsselt. Notizen werden in OneNote gespeichert und mit dem entsprechenden OneNote-Mechanismus verschlüsselt.
 
 Außerdem haben wir Unterstützung für Überwachungsprotokollsuche, eDiscovery und gesetzliche Aufbewahrungspflicht für Kanäle, Chats und Dateien sowie mobile Anwendungsverwaltung mit Microsoft Intune hinzugefügt.
 
@@ -41,7 +41,7 @@ Diese Tools befinden sich im Office 365 Security & Compliance-Portal und bieten
 
     -   Bei eDiscovery handelt es sich um den elektronischen Aspekt beim Identifizieren, Sammeln und Erzeugen von elektronisch gespeicherten Informationen (ESI) als Reaktion auf die Aufforderung zur Vorlage dieser Informationen in einem Rechtsstreit oder einer Untersuchung.
 
-    -   Zu den Funktionen gehören Fallmanagement, Aufbewahrung, Analyse und Export von Microsoft Teams-Daten. Dies schließt Chat-, Messaging- und Dateidaten ein.
+    -   Zu den Funktionen gehören Fallmanagement, Aufbewahrung, Analyse und Export von Teams-Daten. Dies schließt Chat-, Messaging- und Dateidaten ein.
 
     -   Kunden können In-Situ-eDiscovery oder [Advanced eDiscovery](https://support.office.com/en-us/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4) nutzen.
 
@@ -71,11 +71,10 @@ Die folgende Abbildung zeigt den Workflow von Teams-Daten zu Exchange und ShareP
 ![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
-| | |
-|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image2.png)<br>Wichtig</br>    |Beim Ermitteln von Teams-Inhalten ist eine Verzögerung von bis zu 24 Stunden möglich.         |
+> [!IMPORTANT]
+> Beim Ermitteln von Teams-Inhalten ist eine Verzögerung von bis zu 24 Stunden möglich.
 
-Außerdem zieht Microsoft die Bereitstellung der folgenden Sicherheitsfunktionen für Microsoft Teams in Betracht. Wenn die Funktionen verfügbar sind, werden Leitfäden dazu bereitgestellt, wie Kunden die Funktionen nutzen können.
+Außerdem zieht Microsoft die Bereitstellung der folgenden Sicherheitsfunktionen für Teams in Betracht. Wenn die Funktionen verfügbar sind, werden Leitfäden dazu bereitgestellt, wie Kunden die Funktionen nutzen können.
 
 -   Mandantenspezifische Aufbewahrungsrichtlinie
 
@@ -120,11 +119,11 @@ Die Suche in Inhalten und eDiscovery müssen nicht im Security & Compliance Cent
 <a name="location-of-data-in-microsoft-teams"></a>Speicherort von Daten in Microsoft Teams
 -----------------------------------
 
-Die Daten in Microsoft Teams befinden sich in der Region, die der Mandantenaffinität entspricht. Zurzeit unterstützt Microsoft Teams die Regionen Amerika, EMEA und APAC. Microsoft Teams wird in Zukunft GoLocal unterstützen. In diesem Fall bleiben die Daten im Land (nicht nur in der Region). Über Updates halten wir Sie in der [*Office 365-Roadmap*](https://go.microsoft.com/fwlink/?linkid=855778) auf dem Laufenden.
+Die Daten in Teams befinden sich in der Region, die der Mandantenaffinität entspricht. Zurzeit unterstützt Teams die Regionen Amerika, EMEA und APAC. Teams wird in Zukunft GoLocal unterstützen. In diesem Fall bleiben die Daten im Land (nicht nur in der Region). Über Updates halten wir Sie in der [*Office 365-Roadmap*](https://go.microsoft.com/fwlink/?linkid=855778) auf dem Laufenden.
 
 <a name="privacy-in-microsoft-teams"></a>Datenschutz in Microsoft Teams
 --------------------------
 
 Als Kunde von Office 365 sind Sie der Besitzer der Daten und verfügen auch über die vollständige Kontrolle. Microsoft verwendet Ihre Daten ausschließlich für die Bereitstellung des Diensts, den Sie abonniert haben. Als Dienstanbieter scannen wir nicht Ihre E-Mails, Dokumente oder Teams zu Werbezwecken oder nicht dienstbezogenen Zwecken. Microsoft hat keinen Zugriff auf hochgeladene Inhalte. Genau wie bei OneDrive for Business und SharePoint Online bleiben die Kundendaten im Mandanten.
 
-Weitere Informationen zu den Themen „Vertrauensstellung“ und „Sicherheit“ finden Sie im [*Office 365 Trust Center*](https://go.microsoft.com/fwlink/?linkid=855779). Microsoft Teams folgt den gleichen Leitlinien und Prinzipien wie das Office 365 Trust Center.
+Weitere Informationen zu den Themen „Vertrauensstellung“ und „Sicherheit“ finden Sie im [*Office 365 Trust Center*](https://go.microsoft.com/fwlink/?linkid=855779). Teams folgt den gleichen Leitlinien und Prinzipien wie das Office 365 Trust Center.

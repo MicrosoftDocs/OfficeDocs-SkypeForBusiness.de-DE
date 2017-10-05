@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: Hier erfahren Sie, wie eine Bereitstellung von Microsoft Teams eingerichtet wird.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: aed20591afa8a53aad13ee537497aff398b4c24e
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: e582be2aeab3724fa70cc7c2f242538384d0f1c9
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Übersicht über eine Microsoft Teams-Bereitstellung
 ========================================
@@ -38,7 +38,7 @@ Hier finden Sie ein Beispiel dafür, wie Sie eine Team- bzw. Kanalstruktur einri
 
 |Teamname |Kanäle  |Registerkarten  |
 |---------|---------|---------|
-|Teams bereitstellen<br></br>Mitglieder:<ul><li>Projektsponsor</li><li>Business Analyst</li><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li><li>Netzwerk IT Pro</li><li>Übernahme-Lead </li><li>Support-Lead</li></ul>Besitzer: <ul><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li></ul>      |Planung und Bereitschaft<br></br> Übernahme<br></br> Rollout<br></br> Support<br></br> Einblicke<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Verknüpfung zu praktischen Anleitungen für die Microsoft Teams-Webseite ([www.SuccessWithTeams.com](https://go.microsoft.com/fwlink/?linkid=854396)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|Teams bereitstellen<br></br>Mitglieder:<ul><li>Projektsponsor</li><li>Business Analyst</li><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li><li>Netzwerk IT Pro</li><li>Übernahme-Lead </li><li>Support-Lead</li></ul>Besitzer: <ul><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li></ul>      |Planung und Bereitschaft<br></br> Übernahme<br></br> Rollout<br></br> Support<br></br> Einblicke<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Verknüpfung zu praktischen Anleitungen für die Microsoft Teams-Webseite ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 Dieses Setup entspricht demjenigen in Microsoft Teams:
 
@@ -53,4 +53,4 @@ Dieses Setup entspricht demjenigen in Microsoft Teams:
 
  
 
-*Um diese Entscheidungspunkte nachzuvollziehen, laden Sie das Dokument „Microsoft Teams Workshop Decision Points Summary.docx“ herunter.*
+*Um diese Entscheidungspunkte nachzuvollziehen, laden Sie das Dokument [Microsoft Teams Workshop Decision Points Summary.docx](https://www.microsoft.com/en-us/download/55981) herunter.*

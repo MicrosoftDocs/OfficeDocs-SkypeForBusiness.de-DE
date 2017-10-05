@@ -4,22 +4,22 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie mehr über die Inhaltssuche in Microsoft Teams und wie Kanalchats über Exchange, Dateiuploads/-änderungen über SharePoint und OneNote durchsucht werden können."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1da6cb82c1e88ed1517ad16109cbc4c126aa2f1c
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 39f293f7ffd754fbb22271685859f81c10df5b06
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================
 
-Mit der Inhaltssuche können Sie Informationen in Microsoft Teams-Informationen im Ad-hoc-Verfahren abrufen. Die Abfragen schließen Exchange, SharePoint und OneDrive for Business ebenfalls ein.
+Mit der Inhaltssuche können Sie Informationen in Microsoft Teams-Informationen im Ad-hoc-Verfahren abrufen. Die Abfragen schließen Exchange, SharePoint Online und OneDrive for Business ebenfalls ein.
 
-Im Beispiel unten haben wir eine neue **Inhaltssuche** erstellt. Anschließend haben wir das Produktionsspezifikations-Postfach und die SharePoint-Site für Produktionsspezifikationen ausgewählt. Auf diese Weise können wir Kanalchats über Exchange, Dateiuploads/-änderungen über SharePoint sowie OneNote-Änderungen durchsuchen.
+Im Beispiel unten haben wir eine neue **Inhaltssuche** erstellt. Anschließend haben wir das Produktionsspezifikations-Postfach und die SharePoint-Site für Produktionsspezifikationen ausgewählt. Auf diese Weise können wir Kanalchats über Exchange, Dateiuploads/-änderungen über SharePoint Online sowie OneNote-Änderungen durchsuchen.
 
 ![](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
 

@@ -6,7 +6,6 @@
 ## [Übersicht über Teams und Kanäle in Teams](teams-channels-overview.md)
 ## [Bewährte Methoden zum Organisieren von Teams in Teams](best-practices-organizing.md)
 ## [Office 365-Gruppen und Teams](Office-365-groups.md)
-## [Interaktion von Skype for Business und Teams](SkypeforBusiness-interact.md)
 ## [Interaktion von Exchange und Teams](Exchange-Teams-interact.md)
 ## [Interaktion von SharePoint Online und OneDrive for Business mit Teams](SharePoint-OneDrive-interact.md)
 
@@ -55,23 +54,18 @@
 
 # [Cloud Voice-Bereitstellung](cloud-voice-deployment.md)
 ## [Audiokonferenzen](audio-conferencing.md)
-### [Einführung](audio-conferencing.md#introduction)
-### [Definieren von Geschäftsanwendungsfällen für Festnetzanrufe](audio-conferencing.md#define-business-use-cases-for-pstn-calling)
-### [Identifizieren der wichtigsten Beteiligten](audio-conferencing.md#identify-key-stakeholders)
-### [Definieren von Zielen und wesentlichen Ergebnissen, wichtigen Erfolgsindikatoren und Risiken](audio-conferencing.md#define-objectives-and-key-results-key-success-indicators-and-risks)
-### [Bewerten der Umgebung und überprüfen der Übernahmebereitschaft](audio-conferencing.md#assess-environment-and-evaluate-adoption-readiness)
-### [Onboarding in Bezug auf Personen](audio-conferencing.md#people-onboarding)
-### [Onboarding in Bezug auf Technik](audio-conferencing.md#technical-onboarding)
-### [Verstärken des Benutzerengagements und Vorantreiben der Übernahme](audio-conferencing.md#boost-user-engagement-and-drive-adoption)
-### [Messen, Teilen des Erfolgs und schneller Durchlauf](audio-conferencing.md#measure-share-success-and-iterate)
-### [Verwalten und Vorbereiten auf Veränderungen](audio-conferencing.md#manage-and-prepare-for-change)
+### [Ausblick](audio-conferencing.md#Envision_AudioConferencing)
+### [Planen](audio-conferencing.md#Planning_AudioConferencing)
 
 # [Reise von Skype for Business zu Teams](Journey-SkypeforBusiness-Teams.md)
-## [Wichtiges für den Anfang: Starten Sie Ihre Microsoft Teams-Reise](pilot-essentials.md)
-## [Anleitungen für beide Lösungen: Skype for Business und Teams](guidance-SkypeforBusiness.md)
-## [Häufig gestellten Fragen: Reise von Skype for Business zu Teams](FAQ-journey.md)
+## [1 - Optimieren Sie Ihre aktuelle Skype for Business-Umgebung für Microsoft Teams](prepare-teams.md)
+## [2 - Fördern Sie neben Skype for Business die Akzeptanz von Teams](pilot-essentials.md)
+## [3 - Aktivieren Sie Teams Seite an Seite mit Skype for Business](guidance-SkypeforBusiness.md)
+## [4 - Erzielen Sie eine höhere Wertschöpfung durch Benutzerakzeptanz](continue-journey.md)
+## [Häufig gestellte Fragen – Vision von Skype for Business & Teams](FAQ-journey.md)
 
 # Videos und Schulungen
-## [Ressourcen für IT-Administratoren, um die Bereitschaft für Teams zu fördern](ITAdmin-readiness.md)
+## [Bereitschaft von IT-Administratoren für Teams](ITAdmin-readiness.md)
+### [Videos - Audiokonferenzen in Teams](audio-conferencing-videos.md)
 ## [Teams-Schulungen für Endbenutzer](enduser-training.md)
 

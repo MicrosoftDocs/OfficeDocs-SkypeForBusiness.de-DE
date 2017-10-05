@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, auf was Sie achten müssen, wenn Sie die Bereitschaft Ihrer Umgebung für Microsoft Teams überprüfen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d7f6573482afb85b671f5cdd93d3d631a30a6692
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 473e86cd7f11fe4623d4bf8004b9d6a5f4df121b
+ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/25/2017
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Überprüfen der Bereitschaft Ihrer Umgebung für Microsoft Teams
 ===========================================
@@ -25,10 +25,10 @@ Um optimales Arbeiten mit Microsoft Teams sicherzustellen, muss Ihre Organisatio
 
 -   Wenn Ihre Organisation keine verifizierte Domäne für Office 365 hinzugefügt oder konfiguriert hat, finden Sie weitere Informationen unter [Überprüfen Ihrer Office 365-Domäne](https://support.office.com/en-us/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
--   Wenn Ihre Organisation keine Identitäten mit Azure Active Directory synchronisiert hat, finden Sie weitere Informationen unter „Identitäts- und Authentifizierungsmethoden“.
+-   Wenn Ihre Organisation keine Identitäten mit Azure Active Directory synchronisiert hat, finden Sie weitere Informationen unter [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md).
 
--   Wenn Ihre Organisation nicht über Exchange Online verfügt, finden Sie weitere Informationen unter „Exchange“.
+-   Wenn Ihre Organisation Exchange Online nicht implementiert hat, finden Sie weitere Informationen unter [Interaktion von Exchange und Microsoft Teams](Exchange-Teams-interact.md).
 
--   Wenn Ihre Organisation nicht über SharePoint Online verfügt, finden Sie weitere Informationen unter „SharePoint Online und OneDrive for Business“.
+-   Wenn Ihre Organisation nicht über SharePoint Online verfügt, finden Sie weitere Informationen unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](SharePoint-OneDrive-interact.md).
 
--   Wenn Ihre Organisation Skype for Business bereitstellt, finden Sie weitere Informationen unter „Interoperabilität von Skype for Business“.
+                                                                               

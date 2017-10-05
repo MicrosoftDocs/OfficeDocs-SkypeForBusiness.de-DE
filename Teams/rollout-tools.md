@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, welche Tools das Rollout von Microsoft Teams unterstützen. Dazu zählen E-Mail-Vorlagen, Erste Schritte-Handbücher, Customer Success Kit-Ressourcen usw."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 34f7d5aca231bd825b52c838a1cd939764781907
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: d1b55c00109f60005fe7813bcfb82c4e56ed5aef
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Beziehen von Tools zur Unterstützung eines Rollouts von Microsoft Teams
 =================================================

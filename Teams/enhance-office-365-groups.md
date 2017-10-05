@@ -4,15 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: solution
+ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie Office 365-Gruppen mit Microsoft Teams erweitern, indem Sie eine Verteilerliste in ein Team einladen, für E-Mail aktivierte Sicherheitsgruppen hinzufügen usw."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 90f9596a9fa4a75c499ec7face422fb69c999db4
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 55f979fbc07465cd56b9ee3c27f799d4b4e54767
+ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/22/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Erweitern von vorhandenen Office 365-Gruppen mit Microsoft Teams
 =======================================================

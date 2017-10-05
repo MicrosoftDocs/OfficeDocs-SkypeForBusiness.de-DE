@@ -4,17 +4,18 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, welche Entscheidungen Sie beim Planen von Office 365-Gruppen treffen sollten, zum Beispiel Auswählen von öffentlichen und privaten Gruppen, Verwenden des Teams-Clients oder der Office 365-Verwaltungswebkonsole und Schulen Ihrer Teams in der Verwendung von Unterhaltungen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 82ca7b83962325437216c5fa832ae4fd06fd0034
-ms.sourcegitcommit: 9e217129451afae32eb3cd27fb3ee591874c29c9
+ms.openlocfilehash: 2f2267542d9b582416c219d01f40e7853ec24ae8
+ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 09/23/2017
 ---
-### <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
+<a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
+==========================================================
 
 Berücksichtigen Sie bei Ihren Überlegungen zur Verwendung von Office 365-Gruppen oder beim Erstellen von Teams, wozu das Team verwendet werden soll, wer Zugriff haben soll und welches Ergebnis das Team erzielen möchte. Widmen Sie der Anzahl der Kanäle, die Sie erstellen, besondere Aufmerksamkeit, da Benutzer zu weit (über zu viele Kanäle) verteilte Inhalte schnell als überwältigend empfinden.
 
