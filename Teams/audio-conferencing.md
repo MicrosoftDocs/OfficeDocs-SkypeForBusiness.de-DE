@@ -619,7 +619,7 @@ Wenn die Nutzung des Audiokonferenzdiensts durch Ihre Organisation bestätigt is
 </tr>
 <tr class="even">
 <td align="left">32 London Bridge Street</td>
-<td align="left">Großbritannien</td>
+<td align="left">Vereinigtes Königreich</td>
 <td align="left">Audiokonferenzen</td>
 </tr>
 <tr class="odd">
@@ -645,7 +645,7 @@ Um gebührenfreie Telefonnummern für Konferenzbrücken zur Verfügung zu stelle
 
 
 > [!IMPORTANT]
-> Für einige Länder gibt es nur gebührenfreie Telefonnummern für Konferenzbrücken. In diesem Fall ist die Verwendung von Kommunikationsguthaben verpflichtend, um die Einwahl für diese Länder zu unterstützen.
+> Für einige Länder/Regionen gibt es nur gebührenfreie Telefonnummern für Konferenzbrücken. In diesem Fall ist die Verwendung von Kommunikationsguthaben verpflichtend, um die Einwahl für diese Länder/Regionen zu unterstützen.
 
 Bei der Implementierung von Kommunikationsguthaben müssen Sie zunächst überlegen, wie hoch der anfängliche Betrag für das Guthaben sein soll. In der Dokumentation [Communications Credits](https://support.office.com/en-us/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) finden Sie eine Auflistung der empfohlenen Beträge.
 
