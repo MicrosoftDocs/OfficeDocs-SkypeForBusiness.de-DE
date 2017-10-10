@@ -8,42 +8,41 @@ ms.topic: article
 ms.service: msteams
 description: "Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e8cce3faa65de9c0cbd5ffdbb4cb4a6f43a1229d
-ms.sourcegitcommit: 1bc2abb2acabe0357d3770284b2710ed9c7f59ee
+ms.openlocfilehash: f440e1d67166931365a24cb18e855a179fc532ef
+ms.sourcegitcommit: 34abc255257716ab135e8eda7b07f8abb55a6bc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 10/02/2017
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Benutzerzugriffs in Microsoft Teams
 ======================================
 
-
-# <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 
 Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird. Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein.
   
     
     
 
-Organisationen, die Microsoft Teams verwenden, können ihren Partnern externen Zugriff auf Teams, Dokumente in Kanälen, Ressourcen, Chats und Anwendungen gewähren und gleichzeitig die vollständige Kontrolle über ihre eigenen Unternehmensdaten behalten.
-Microsoft Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freigegebene Ressourcen für eine Office 365-Gruppe zuzugreifen. Microsoft Teams ist die beste Lösung für beständigen Chat zwischen Gruppen- bzw. Teammitgliedern. Office 365-Gruppen ist ein Dienst, der anwendungsübergreifende Mitgliedschaft für bestimmte freigegebene Teamressourcen (beispielsweise eine SharePoint-Website oder ein Power BI-Dashboard) bietet, damit das Team effektiv und sicher zusammenarbeiten kann.
+Organisationen, die Teams verwenden, können ihren Partnern externen Zugriff auf Teams, Dokumente in Kanälen, Ressourcen, Chats und Anwendungen gewähren und gleichzeitig die vollständige Kontrolle über ihre eigenen Unternehmensdaten behalten.
+
+Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freigegebene Ressourcen für eine Office 365-Gruppe zuzugreifen. Teams ist die beste Lösung für beständigen Chat zwischen Gruppen- bzw. Teammitgliedern. Office 365-Gruppen ist ein Dienst, der anwendungsübergreifende Mitgliedschaft für bestimmte freigegebene Teamressourcen (beispielsweise eine SharePoint-Website oder ein Power BI-Dashboard) bietet, damit das Team effektiv und sicher zusammenarbeiten kann.
   
     
     
 
-### <a name="how-a-guest-joins-a-team"></a>Wie ein Gast einem Team beitritt
+## <a name="how-a-guest-joins-a-team"></a>Wie ein Gast einem Team beitritt
 
 
   
     
     
-Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Nur Benutzer, die über eine E-Mail-Adresse verfügen, die einem Azure Active Directory- oder Office 365-Geschäfts-, Schul- oder Unikonto entspricht, können als Gastbenutzer hinzugefügt werden.
+Ein Teambesitzer in Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Nur Benutzer, die über eine E-Mail-Adresse verfügen, die einem Azure Active Directory- oder Office 365-Geschäfts-, Schul- oder Unikonto entspricht, können als Gastbenutzer hinzugefügt werden.
   
     
     
 
 > [!NOTE]
-> Bevor Gäste einem Team beitreten können, muss ein Administrator den Gastzugriff in Microsoft Teams aktivieren. [Melden Sie sich](https://portal.office.com/adminportal/home) hierfür mit Ihrem globalen Office 365-Administratorkonto an. Wählen Sie dann **Einstellungen** > **Dienste&amp; Add-Ins** > **Microsoft Teams** aus. Wählen Sie unter **Zu konfigurierenden Benutzer-/Lizenztyp auswählen** die Option **Guest** und unter **Microsoft Teams für alle Benutzer dieses Typs aktivieren oder deaktivieren** die Option **Ein** aus. Es kann bis zu einer Stunde dauern, bis diese Einstellungen wirksam werden. Weitere Einzelheiten finden Sie unter „Microsoft Teams für alle Benutzer dieses Typs aktivieren oder deaktivieren“ auf der Registerkarte „Verwalten“ dieses Artikels. 
+> Bevor Gäste einem Team beitreten können, muss ein Administrator den Gastzugriff in Teams aktivieren. [Melden Sie sich](https://portal.office.com/adminportal/home) hierfür mit Ihrem globalen Office 365-Administratorkonto an. Wählen Sie dann **Einstellungen** > **Dienste&amp; Add-Ins** > **Microsoft Teams** aus. Wählen Sie unter **Zu konfigurierenden Benutzer-/Lizenztyp auswählen** die Option **Guest** und unter **Microsoft Teams für alle Benutzer dieses Typs aktivieren oder deaktivieren** die Option **Ein** aus. Es kann bis zu einer Stunde dauern, bis diese Einstellungen wirksam werden. Weitere Einzelheiten finden Sie unter „Microsoft Teams für alle Benutzer dieses Typs aktivieren oder deaktivieren“ auf der Registerkarte „Verwalten“ dieses Artikels. 
   
     
     
@@ -59,10 +58,10 @@ So wird ein Gast ein Mitglied eines Teams:
 - **Schritt 2** Der Office 365-Administrator oder der Teambesitzer kann die Funktionen für einen Gast nach Bedarf verwalten. So kann er beispielsweise zulassen, dass ein Gast Kanäle hinzufügen oder löschen kann, oder den Zugriff auf Dateien deaktivieren.
     
   
-- **Schritt 3** Der Gast empfängt eine Willkommens-E-Mail vom Teambesitzer mit einer Einladung zur Teilnahme am Team. Nach dem Akzeptieren der Einladung kann der Gast [in Teams und Kanälen teilnehmen](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), Kanalnachrichten empfangen und darauf reagieren, [auf Dateien in Kanälen zugreifen](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e) und an einem Chat teilnehmen- In Microsoft Teams werden alle Teammitglieder unter Verwendung einer Kombination aus Text und Symbolen über eine Gastteilnahme im Team informiert. Nähere Einzelheiten finden Sie unter [Gastbenutzererfahrung](#guestexp).
+- **Schritt 3** Der Gast empfängt eine Willkommens-E-Mail vom Teambesitzer mit einer Einladung zur Teilnahme am Team. Nach dem Akzeptieren der Einladung kann der Gast [in Teams und Kanälen teilnehmen](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), Kanalnachrichten empfangen und darauf reagieren, [auf Dateien in Kanälen zugreifen](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e) und an einem Chat teilnehmen- In Teams werden alle Teammitglieder durch eine Kombination aus Text und Symbolen über eine Gastteilnahme im Team informiert. Nähere Einzelheiten finden Sie unter [Gastbenutzererfahrung](#guestexp).
     
   
-Gäste können ein Team jederzeit über Microsoft Teams-Web- und Desktopclients verlassen. Einzelheiten finden Sie unter [Wie verlasse ich ein Team?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
+Gäste können ein Team jederzeit über Teams-Webclients und -Desktopclients verlassen. Einzelheiten finden Sie unter [Wie verlasse ich ein Team?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
   
     
     
@@ -74,7 +73,7 @@ Gäste können ein Team jederzeit über Microsoft Teams-Web- und Desktopclients 
     
 
 <a name="guestexp"></a>
-### <a name="what-the-guest-experience-is-like"></a>Gastbenutzererfahrung
+## <a name="what-the-guest-experience-is-like"></a>Gastbenutzererfahrung
 
 Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willkommensnachricht mit einigen Informationen über das Team und darüber, was er als Teammitglied zu erwarten hat. Der Gast muss die Einladung in der E-Mail-Nachricht annehmen, bevor er auf das Team und dessen Kanäle zugreifen kann.
   
@@ -88,7 +87,7 @@ Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willk
   
     
     
-Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt.  Wie im folgenden Screenshot eines Beispielteams gezeigt, wird ein Banner mit dem Text „Dieses Team hat Gäste“ angezeigt, und neben jedem Gästenamen wird die Bezeichnung „GAST“ eingeblendet.
+Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispielteams gezeigt, wird ein Banner mit dem Text „Dieses Team hat Gäste“ angezeigt, und neben jedem Gästenamen wird die Bezeichnung „GAST“ eingeblendet.
   
     
     
@@ -108,7 +107,6 @@ In der folgenden Tabelle werden die für die Teammitglieder einer Organisation v
 
 |**Funktionen in Teams**|**Teams-Benutzer in der Organisation**|**Gastbenutzer**|
 |:-----|:-----|:-----|
-||||
 |Kanal erstellen  <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |An einem privaten Chat teilnehmen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |An einer Kanalunterhaltung teilnehmen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
@@ -128,36 +126,36 @@ In der folgenden Tabelle werden die für die Teammitglieder einer Organisation v
 > Office 365-Administratoren steuern die für Gäste verfügbaren Funktionen. 
   
     
-###<a name="manage-guests"></a>Gäste verwalten
+## <a name="manage-guests"></a>Gäste verwalten
 
 
 Gastzugriff ist in allen Office 365 Business Premium-, Office 365 Enterprise- und Office 365 Education-Abonnements enthalten. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich.
   
     
     
-Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist.  Administratoren können Gastzugriff über das Office 365 Admin Center verwalten. Weitere Einzelheiten finden Sie unter [Verwalten von Gastzugriff auf Microsoft Teams](#manageguest) und [Steuern von Gastzugriff auf Microsoft Teams](#controlguest).
+Der Gastzugriff auf Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Administratoren können Gastzugriff über das Office 365 Admin Center verwalten. Weitere Einzelheiten finden Sie unter [Verwalten von Gastzugriff auf Microsoft Teams](#manageguest) und [Steuern von Gastzugriff auf Microsoft Teams](#controlguest).
   
     
     
 
 > [!NOTE]
-> Die Einstellung für den Gastzugriff auf Microsoft Teams für Mandanten verhindert nur die Gastanmeldung. Teambesitzer können neue Gäste einladen und vorhandene Gastbenutzer zu ihren jeweiligen hinzufügen. Zur Erinnerung: Microsoft Teams berücksichtigt immer externe Azure Active Directory-Einstellungen, um Gastbenutzerzugriff für den Mandanten zu aktivieren bzw. zu deaktivieren. 
+> Die Einstellung für den Gastzugriff auf Teams für Mandanten verhindert nur die Gastanmeldung. Teambesitzer können neue Gäste einladen und vorhandene Gastbenutzer zu ihren jeweiligen hinzufügen. Zur Erinnerung: Teams berücksichtigt immer externe Azure Active Directory-Einstellungen, um das Hinzufügen von Gästen zum Mandanten zuzulassen bzw. zu verhindern. 
   
     
     
 
-Zudem können Sie das Azure Active Directory-Portal zum Verwalten von Gästen deren Zugriff auf Office 365- und Microsoft Teams-Ressourcen verwenden. Die Microsoft Teams guest-Einstellung für Gastzugriff nutzt die Azure Active Directory-B2B (Business-to-Business)-Funktionen zur Zusammenarbeit als zugrunde liegende Infrastruktur zum Speichern der Informationen über Sicherheitsprinzipien, wie zum Beispiel Einstellungen für Identitätseigenschaften, Mitgliedschaften und für die mehrstufige Authentifizierung. Weitere Informationen zu Azure Active Directory B2B finden Sie unter [Was ist Azure AD B2B-Zusammenarbeit?](https://go.microsoft.com/fwlink/p/?linkid=853011) und [Häufig gestellte Fragen zur Azure Active Directory B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/p/?linkid=853020).
+Zudem können Sie das Azure Active Directory-Portal zum Verwalten von Gästen und deren Zugriff auf Office 365- und Teams-Ressourcen verwenden. Die Teams-Einstellung für Gastzugriff nutzt die Azure Active Directory-B2B-Funktionen (Business-to-Business) zur Zusammenarbeit als zugrunde liegende Infrastruktur zum Speichern der Informationen über Sicherheitsprinzipien, wie zum Beispiel Einstellungen für Identitätseigenschaften, Mitgliedschaften und für die mehrstufige Authentifizierung. Weitere Informationen zu Azure Active Directory B2B finden Sie unter [Was ist Azure AD B2B-Zusammenarbeit?](https://go.microsoft.com/fwlink/p/?linkid=853011) und [Häufig gestellte Fragen zur Azure Active Directory B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/p/?linkid=853020).
   
     
     
 
 #### <a name="related-key-services-and-dependencies"></a>Zugehörige wichtige Dienste und Abhängigkeiten
 
-Microsoft Teams nutzt SharePoint Online und OneDrive for Business zum Speichern von Dateien und Dokumenten für Kanäle und Chatunterhaltungen. Microsoft Teams nutzt zudem Office 365-Gruppen zum Speichern von Teammitgliedschaften und anderen Eigenschaften, wie zum Beispiel Einstellungen zum Klassifizierung von Teamdaten.
+Teams nutzt SharePoint Online und OneDrive for Business zum Speichern von Dateien und Dokumenten für Kanäle und Chatunterhaltungen. Teams nutzt zudem Office 365-Gruppen zum Speichern von Teammitgliedschaften und anderen Eigenschaften, wie zum Beispiel Einstellungen zur Klassifizierung von Teamdaten.
   
     
     
-Um alle Gastzugriffsfunktionen unter Microsoft Teams zu aktivieren, müssen Office 365-Administratoren für die folgenden Einstellungen die Option **Ein** auswählen:
+Um alle Gastzugriffsfunktionen in Teams zu aktivieren, müssen Office 365-Administratoren für die folgenden Einstellungen die Option **Ein** auswählen:
   
     
     
@@ -184,51 +182,28 @@ Um alle Gastzugriffsfunktionen unter Microsoft Teams zu aktivieren, müssen Offi
     
      ![Melden Sie sich bei Office 365 an, wechseln Sie zum Office 365 Admin Center, wechseln Sie zu „Einstellungen“, und wählen Sie „Dienste &amp; Add-Ins“ aus.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
   
-
-  
+ 
 
   
 3. Wählen Sie **Microsoft Teams** aus.
     
      ![Screenshot, der die im Office 365 Admin Center ausgewählte Option für das Microsoft Teams-Add-In abbildet.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
   
-
-  
-
   
 4. Wählen Sie unter **Zu konfigurierenden Benutzer-/Lizenztyp auswählen** die Option **Gast** aus.
     
-    
   
-    
-    
 ![Screenshot des Microsoft Teams-Add-Ins, der die ausgewählte Gastlizenz und die aktivierte Microsoft Teams-Option abbildet.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
   
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-
-    
   
 5. Klicken oder tippen Sie auf die Umschaltfläche neben **Microsoft Teams für alle Benutzer dieses Typs aktivieren oder deaktivieren** auf **Ein**, um Teams und Gastzugriff für Ihre Organisation zu aktivieren, und wählen Sie dann **Speichern** aus. 
     
   
-
 > [!NOTE]
 > Es kann bis zu einer Stunde dauern, bis diese Einstellungen wirksam werden. 
   
     
-    
-
-
-#### <a name="control-adding-guest-users-to-microsoft-teams-and-office-365-groups"></a>Steuern des Hinzufügens von Gastbenutzern zu Microsoft Teams und Office 365-Gruppen
+## <a name="control-adding-guest-users-to-microsoft-teams-and-office-365-groups"></a>Steuern des Hinzufügens von Gastbenutzern zu Microsoft Teams und Office 365-Gruppen
 <a name="bkmk_ControlAddingGuestUsers"> </a>
 
 
@@ -254,21 +229,10 @@ Um alle Gastzugriffsfunktionen unter Microsoft Teams zu aktivieren, müssen Offi
     
 ![Dieser Screenshot bildet den Office 365 Groups-Bereich mit den aktivierten Optionen für den Zugriff von Gruppenmitgliedern außerhalb der Organisation auf Gruppeninhalte sowie für das Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer ab.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
   
-    
-    
-
   
-    
-    
-
-  
-    
-    
-
-    
   
 <a name="controlguest"> </a>
-### <a name="turn-on-or-off-the-sharing-option-for-office-365"></a>Aktivieren oder Deaktivieren der Freigabeoption für Office 365
+## <a name="turn-on-or-off-the-sharing-option-for-office-365"></a>Aktivieren oder Deaktivieren der Freigabeoption für Office 365
 
 
 Mit der Freigabeoption können Gäste zu Ihrer Organisation hinzugefügt werden. Standardmäßig ist die Freigabeoption aktiviert. Weitere Informationen zur Deaktivierung der Freigabeoption finden Sie unter [Aktivieren oder Deaktivieren der Freigabeoption](https://support.office.com/en-us/article/Turn-on-or-off-the-Sharing-option-7c713d74-a144-4eab-92e7-d50df526ff96#bkmk_beforeyoubegin).
@@ -279,14 +243,11 @@ Mit der Freigabeoption können Gäste zu Ihrer Organisation hinzugefügt werden.
 > [!IMPORTANT]
 > Wenn Sie die Freigabeoption deaktivieren, ist kein Gastzugriff verfügbar. 
   
-    
-    
 
-
-#### <a name="use-powershell-to-control-guest-access"></a>Verwenden von PowerShell zum Steuern des Gastzugriffs
+## <a name="use-powershell-to-control-guest-access"></a>Verwenden von PowerShell zum Steuern des Gastzugriffs
 <a name="bkmk_UsePowerShell"> </a>
 
-Zusätzlich zur Verwendung des Office 365 Admin Center und des Azure Active Directory-Portals können Sie Windows PowerShell verwenden, um den Gastzugriff zu steuern.  Mit PowerShell können Sie folgende Aktionen durchführen:
+Zusätzlich zur Verwendung des Office 365 Admin Center und des Azure Active Directory-Portals können Sie Windows PowerShell verwenden, um den Gastzugriff zu steuern. Mit PowerShell können Sie folgende Aktionen durchführen:
   
     
     
@@ -326,22 +287,22 @@ Sie können PowerShell auch zum Zulassen oder Blockieren eines Gastbenutzers bas
   
     
 
-#### <a name="invite-guest-users"></a>Einladen von Gastbenutzern
+## <a name="invite-guest-users"></a>Einladen von Gastbenutzern
 <a name="bkmk_UsePowerShell"> </a>
 
-Ein Teambesitzer oder Office 365-Administrator kann auf individueller Basis [einen Gast zu einem Team einladen](https://support.office.com/en-us/article/invite-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember).  Administratoren können das Office 365 Admin Center oder das Azure Active Directory-Portal jedoch nicht zum gleichzeitigen Einladen von mehreren Gästen verwenden.  Um Gäste zentral einzuladen, können Sie die Vorschau von Azure Active Directory B2B-Zusammenarbeit verwenden.  Weitere Informationen finden Sie unter [Informationen zur Vorschau von Azure AD B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/p/?linkid=853011).
+Ein Teambesitzer oder Office 365-Administrator kann auf individueller Basis [einen Gast zu einem Team einladen](https://support.office.com/en-us/article/invite-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember). Administratoren können das Office 365 Admin Center oder das Azure Active Directory-Portal jedoch nicht zum gleichzeitigen Einladen von mehreren Gästen verwenden. Um Gäste zentral einzuladen, können Sie die Vorschau von Azure Active Directory B2B-Zusammenarbeit verwenden. Weitere Informationen finden Sie unter [Informationen zur Vorschau von Azure AD B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/p/?linkid=853011).
   
     
     
 
-#### <a name="edit-guest-user-information"></a>Bearbeiten von Gastbenutzerinformationen
+## <a name="edit-guest-user-information"></a>Bearbeiten von Gastbenutzerinformationen
 <a name="bkmk_UsePowerShell"> </a>
 
 Derzeit können Sie keine Gastinformationen aus dem Office 365 Admin Center oder dem Exchange Admin Center bearbeiten. Um Gastkonten zu bearbeiten (wie zum Beispiel den Namen oder das Profilfoto anzeigen), navigieren Sie zu Ihrem Azure Active Directory-Portal. Weitere Informationen finden Sie unter [Grundlegendes zu Office 365-Identitäten und Azure Active Directory](https://support.office.com/en-us/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
   
     
     
-### <a name="frequently-asked-questions-for-admins"></a>Häufig gestellte Fragen für Administratoren
+## <a name="frequently-asked-questions-for-admins"></a>Häufig gestellte Fragen für Administratoren
 <a name="bkmk_UsePowerShell"> </a>
 
 Im Folgenden finden Sie allgemeine Fragen vonOffice 365-Administratoren über das Einladen von Gästen zur Teilnahme an einem Team in Microsoft Teams.
@@ -465,7 +426,7 @@ Ja. Sie können SharePoint Online-Einstellungen für externe Benutzer für die m
 
 #### <a name="how-does-conditional-access-work-with-guest-access"></a>Wie funktioniert bedingter Zugriff mit Gastzugriff?
 
-Mit Azure Active Directory B2B-Zusammenarbeit können Organisationen Richtlinien für bedingten Zugriff und mehrstufige Authentifizierung für B2B-Benutzer erzwingen. Diese Richtlinien können auf der Mandanten-, App- oder individuellen Benutzerebene genau so erzwungen werden, wie sie für Vollzeitmitarbeiter und Mitglieder der Organisation aktiviert werden.  Solche Richtlinien werden bei der Ressourcenorganisation erzwungen. Weitere Informationen finden Sie unter [Bedingter Zugriff für Benutzer von B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/?linkid=857454).
+Mit Azure Active Directory B2B-Zusammenarbeit können Organisationen Richtlinien für bedingten Zugriff und mehrstufige Authentifizierung für B2B-Benutzer erzwingen. Diese Richtlinien können auf der Mandanten-, App- oder individuellen Benutzerebene genau so erzwungen werden, wie sie für Vollzeitmitarbeiter und Mitglieder der Organisation aktiviert werden. Solche Richtlinien werden bei der Ressourcenorganisation erzwungen. Weitere Informationen finden Sie unter [Bedingter Zugriff für Benutzer von B2B-Zusammenarbeit](https://go.microsoft.com/fwlink/?linkid=857454).
   
     
     

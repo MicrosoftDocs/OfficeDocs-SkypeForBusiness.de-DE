@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Anleitung zur gleichzeitigen Verwendung von Skype for Business und Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ee7c44bcfe2e451684f4cd9ce6402d8781dc6535
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Aktivieren von Teams Seite an Seite mit Skype for Business 
 =============================================================
@@ -194,7 +194,7 @@ Um den Schwerpunkt der Teams-Version auf Zusammenarbeit und privaten Chat zu leg
 <tr class="odd">
 <td align="left"><strong><br>Anrufe und Besprechungen</strong></td>
 <td align="left"><p>Planen von privaten Besprechungen zulassen: <strong>Aus</strong></p><p>Planen von Kanalbesprechungen zulassen: <strong>Aus</strong></p><p>Private Anrufe zulassen: <strong>Aus</strong></p></td>
-<td align="left"><p>Wenn diese Einstellung deaktiviert ist, können Benutzer keine privaten Besprechungen planen</p><p>Wenn diese Einstellung deaktiviert ist, können Benutzer keine Kanalbesprechungen planen</p><p>Wenn diese Einstellung deaktiviert ist, können Benutzer keine privaten Anrufe (Audio oder Video) tätigen </p></td>
+<td align="left"><p>Wenn diese Einstellung deaktiviert ist, können Benutzer keine privaten Besprechungen planen</p><p>Wenn diese Einstellung deaktiviert ist, können Benutzer keine Kanalbesprechungen planen</p><p>Wenn diese Einstellung deaktiviert ist, können Benutzer keine privaten Anrufe (Audio oder Video) tätigen</p></td>
 </tr>
 </tbody>
 </table>
@@ -223,7 +223,7 @@ Darüber hinaus kann ein erfolgreiches Teams-Pilotprojekt für Zusammenarbeit un
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Hinweis</p></td>
-<td align="left">Während des Pilotprojekts und in Phase 2, wenn die Funktion für privaten Chat aktiviert ist, kann ein Teams-Benutzer, der mit einem Skype for Business-Benutzer chattet, folgende Aktionen nicht ausführen:<br><br>
+<td align="left">Während des Pilotprojekts und in Phase 2, wenn die Funktion für privaten Chat aktiviert ist, kann ein Teams-Benutzer, der mit einem Skype for Business-Benutzer chattet, folgende Aktionen nicht ausführen:<br>
 - Starten eines Videoanrufs über eine Chatsitzung<br>
 - Übertragen von Dateien <br>
 - Initiieren eines Anrufs mit mehreren Parteien in der Chatsitzung<br>

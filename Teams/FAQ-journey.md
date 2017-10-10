@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 description: "Häufig gestellten Fragen zur Reise von Skype for Business Online zu Microsoft Teams"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 459f4971b1727cc777f1acfd5748a10dd36658ed
-ms.sourcegitcommit: 2c4e56908f2ba5ce9c99e6cb6867961e08b2daf8
+ms.openlocfilehash: 11b01e3ad0797f697775b3459d9925527baec856
+ms.sourcegitcommit: 769d817c2d487ea8b5f4339acef21d5f1ff137d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2017
+ms.lasthandoff: 10/04/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Reise von Skype for Business zu Teams
 ==========================================================
 
-<a name="uc-vision"></a>UC-Vision
----------
+<a name="intelligent-communications-vision"></a>Vision für intelligente Kommunikation
+----------------------------------
 
 ### <a name="what-is-microsofts-new-vision-for-intelligent-communications-aka-unified-communications-vision"></a>Wie lautet die neue Vision von Microsoft für intelligente Kommunikation (auch als Unified Communications-Vision bekannt)? 
 
@@ -110,13 +110,11 @@ Einer der vielen Vorteile von Microsoft Teams liegt darin, dass Benutzer Zugriff
 
 ### <a name="what-is-the-plan-for-video-interoperability-support-for-teams-meetings"></a>Wie ist der Plan für die Unterstützung von Videointeroperabilität in Teams-Besprechungen?
 
-Geräte für Besprechungsräume sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes.  Am 25. September haben wir bei Ignite die Zusammenarbeit mit Blue Jeans und Pexip für die Bereitstellung von Cloud-Videointeroperabilität mit Microsoft Teams bekannt gegeben. Kunden können weiterhin Polycom Real Connect für Office 365 mit Skype for Business Online verwenden. Wir stellen unsere Roadmap bereit, sodass Kunden für Ihre Kommunikationsanforderungen auf Microsoft Teams zugreifen können.
+Geräte für Besprechungsräume sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes.  Am 25. September haben wir bei Ignite die Zusammenarbeit mit Blue Jeans und Pexip für die Bereitstellung von Cloud-Videointeroperabilität mit Microsoft Teams bekannt gegeben. Kunden können weiterhin Polycom Real Connect für Office 365 mit Skype for Business Online verwenden. Wir stellen unsere Roadmap bereit, sodass Kunden für Ihre Kommunikationsanforderungen auf Microsoft Teams zugreifen können.
 
 ### <a name="will-the-latest-generation-of-skype-room-systems-support-meetings-in-teams"></a>Bietet die neueste Generation von Skype Room Systems Unterstützung für Besprechungen in Teams?
 
-Geräte für Besprechungsräume sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes, und wir setzen diese Dynamik mit Skype Room Systems fort. Bei Ignite hat Lenovo bekannt gegeben, dass
-
-Skype Rooms Systems Besprechungen in Teams unterstützt. Zunächst bietet Skype Room Systems Unterstützung die Teilnahme an Teams-Besprechungen durch Einfachlick sowie für die meisten Skype Room Systems-Funktionen (außer Doppelbildschirm-Modus und Panoramavideogeräte). Unterstützung für Doppelbildschirm-Modus und Panoramavideogeräte ist für spätere Versionen geplant.
+Geräte für Besprechungsräume sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes, und wir setzen diese Dynamik mit Skype Room Systems fort. Zunächst bietet Skype Room Systems Unterstützung die Teilnahme an Teams-Besprechungen durch Einfachlick sowie für die meisten Skype Room Systems-Funktionen (außer Doppelbildschirm-Modus und Panoramavideogeräte). Unterstützung für Doppelbildschirm-Modus und Panoramavideogeräte ist für spätere Versionen geplant.
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-microsoft-teams-meetings"></a>Wird Skype Room Systems V1 zwecks Unterstützung für Microsoft Teams-Besprechungen aktualisiert? 
 
@@ -126,3 +124,6 @@ Geräte für Besprechungsräume sind ein wesentlicher Bestandteil unserer Vision
 
 Microsoft plant die Einführung eines neuen Verwaltungsportals für IT-Experten innerhalb des Office 365 Admin Center. Wie die Skype for Business-Verwaltungskonsole wird dieses neue Portal ein zentraler Ort für die Verwaltung von neuen Funktionen sein. Die erstmalige für das Geschäftsjahr 2018 geplante Veröffentlichung des Portals dient der Unterstützung der Verwaltung über ein unternehmensgerechtes Richtlinienmodell nur für Teams-Kunden, wobei die vorhandene Verwaltungsschnittstelle für Teams ersetzt wird. Mit diesem Portal können wir Richtlinien für Kundenpräsenz, Chats, Apps, Besprechungen und VoIP schaffen und diese Richtlinien zu Teams-Benutzern zuweisen. 
 
+### <a name="can-i-use-microsoft-teams-on-surface-hub"></a>Kann ich Microsoft Teams auf einem Surface Hub verwenden?
+
+Viele der Teams-Funktionen können über den Microsoft Edge-Browser auf Surface Hub-Geräten verwendet werden. Melden Sie sich über die Willkommensseite auf Ihrem Surface Hub an, öffnen Sie Microsoft Edge, und geben Sie **teams.microsoft.com** ein, um auf Ihre Teams, Kanäle, Dokumente, Unterhaltungen und Besprechungen zuzugreifen. Surface Hub unterstützt Teams-Besprechungen, und wir werden zu einem späteren Zeitpunkt weitere Details zu zusätzlichen integrierten Teams-Funktionen auf Surface Hub-Geräten nennen.   

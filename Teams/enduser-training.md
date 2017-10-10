@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Schulungsressourcen können von einem Administrator verwendet werden, um Microsoft Teams erfolgreich bereitzustellen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 6c206d9fcbb7566d71e531712519e4cf102cf915
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 86c5b5625e41e9c7513ccefbcfb84acd6b2c1453
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================
@@ -21,7 +21,7 @@ Verwenden Sie diese Schulungsressourcen, um Ihrer Organisation einen problemlose
 
 |  |  |
 |---------|---------|
-| [Office Training Center](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) | Mit diesen Schulungen können Ihre Benutzer das meiste aus Microsoft Teams herausholen |
+| [Office Training Center](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | Mit diesen Schulungen können Ihre Benutzer das meiste aus Microsoft Teams herausholen |
 | [Hilfe für Microsoft Teams](https://support.office.com/teams) | Produktdokumentation für Teams-Endbenutzer |
 | [Tipps und Tricks für Microsoft Teams](https://support.office.com/office-training-center/Teams-tips) |  |
 | [Was ist Microsoft Teams? ](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Kurzeinführung in Teams, Ihre Drehscheibe für Teamarbeit  |

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Praktische Anleitungen zur Bereitstellung von Cloud Voice in Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: cf50e6468bdf4fc96419d39fbc889c5b5a220a8d
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
+ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 09/28/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Audiokonferenzen in Microsoft Teams
 =====================================
@@ -20,7 +20,7 @@ ms.lasthandoff: 09/25/2017
 > [!IMPORTANT]
 > Die Funktion „Audiokonferenzen“ ist als Public Preview-Funktion verfügbar. Early Adopters (EA) und Preview-Kunden können auf diese Funktion zugreifen und sie nach der Veröffentlichung oder Aktualisierung ändern.
 
-Mit der Funktion „Audiokonferenzen“ in Office 365 (ehemals als PSTN-Konferenzen bezeichnet) können Teilnehmer mit einem beliebigen Telefon an Ihren Besprechungen teilnehmen. Diese Funktion ist jetzt auch in Microsoft Teams verfügbar – Benutzer können sich mit ihren Telefonen in Teams-Besprechungen einwählen. Die praktischen Anleitungen in diesem Artikel begleiten Sie schrittweise auf Ihrer Office 365 FastTrack-Customer Journey für Audiokonferenzen. Die Themen lauten: Ausblick, Onboarding und Wertschöpfung.
+Mit der Funktion „Audiokonferenzen“ in Office 365 (ehemals als PSTN-Konferenzen bezeichnet) können Teilnehmer mit einem beliebigen Telefon an Ihren Besprechungen teilnehmen. Diese Funktion ist jetzt auch in Microsoft Teams als Public Preview verfügbar – Benutzer können über ihre Telefone an Teams-Besprechungen teilnehmen. Die praktischen Anleitungen in diesem Artikel begleiten Sie schrittweise auf Ihrer Office 365 FastTrack-Customer Journey für Audiokonferenzen. Die Themen lauten: Ausblick, Onboarding und Wertschöpfung.
 
 Das bekommen Sie mit [Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.
 
@@ -37,7 +37,7 @@ Ausblick <a name="Envision_AudioConferencing"> </a>
 
 Die Ausblick-Phase bietet die Grundlage für die Office 365 Customer Journey und kann auf alle Arbeitsauslastungen wie zum Beispiel Audiokonferenzen angewendet werden.
 
-In dieser Phase formulieren die jeweiligen Projektbeteiligten die Geschäftsziele und stellen Folgendes bereit: 
+In dieser Phase formulieren die jeweiligen Projektbeteiligten die Geschäftsziele und stellen Folgendes bereit:
 
 -   Ein umfassendes Erfolgskonzept mit Geschäftsanwendungsfällen, wichtigen Projektbeteiligen, Zielen und wesentlichen Ergebnissen, wichtigen Erfolgsindikatoren, Risiken, einer Einschätzung der Umgebung, Übernahmebereitschaft und Einsatzplanung.
 
@@ -111,7 +111,7 @@ Die im vorherigen Schritte definierten Geschäftsanwendungsfälle enthalten die 
 <td align="left"><strong>Leitender Projektsponsor</strong></td>
 <td align="left"><ul><li>Hat höchste Entscheidungsbefugnis und Rechenschaftspflicht für das Projekt und die Bereitstellung von Projektzielen</li>
 <li>Bietet Unterstützung bei der Lösung der vom Projektleiter eskalierten Probleme</li>
-<li>Bietet Unterstützung bei die Kommunikation innerhalb des Unternehmens </li>
+<li>Bietet Unterstützung bei die Kommunikation innerhalb des Unternehmens</li>
 <li>Ist für wichtige strategische Entscheidungen verantwortlich</li>
 <li>Trägt Verantwortung für die Verfügbarkeit der erforderlichen Ressourcen und das benötigte Budget</p>
 <li>Verfasst vierteljährliche Geschäftsberichte</li>
@@ -167,7 +167,7 @@ Die im vorherigen Schritte definierten Geschäftsanwendungsfälle enthalten die 
 </tr>
 <tr class="odd">
 <td align="left"><strong>Netzwerkleiter</strong></td>
-<td align="left"><ul><li>Liefert Beiträge zum Netzwerkdesign in der Entdeckungsphase </li>
+<td align="left"><ul><li>Liefert Beiträge zum Netzwerkdesign in der Entdeckungsphase</li>
 <li>Nimmt an der Planung während des Ausblick-Workshops teil</li>
 <li>Koordiniert die Arbeit des Netzwerkteams während der Projektausführung</li></ul></td>
 <td align="left">TBA</td>
@@ -311,7 +311,7 @@ Mit den wichtigen Erfolgsindikatoren werden die Qualität und der Erfolg der Ker
 <td align="left"><strong>Verwendung/Übernahme</strong></td>
 <td align="left">Anrufqualität entspricht der vorherigen Lösung oder übertrifft diese</td>
 <td align="left">Umfrage</td>
-<td align="left">Zustimmung oder starke Zustimmung bei 80 % der Benutzer </td>
+<td align="left">Zustimmung oder starke Zustimmung bei 80 % der Benutzer</td>
 <td align="left">Nach der Aktivierung und vierteljährlich</td>
 <td align="left">IT-Team</td>
 </tr>
@@ -319,7 +319,7 @@ Mit den wichtigen Erfolgsindikatoren werden die Qualität und der Erfolg der Ker
 <td align="left"><strong>Verwendung/Übernahme</strong></td>
 <td align="left">Teams hat den Kommunikationsprozess vereinfacht</td>
 <td align="left">Umfrage</td>
-<td align="left">Zustimmung oder starke Zustimmung bei 80 % der Benutzer </td>
+<td align="left">Zustimmung oder starke Zustimmung bei 80 % der Benutzer</td>
 <td align="left">Nach der Aktivierung und vierteljährlich</td>
 <td align="left">Change Management-Team</td>
 </tr>
@@ -351,7 +351,7 @@ Mit den wichtigen Erfolgsindikatoren werden die Qualität und der Erfolg der Ker
 <td align="left"><strong>Nutzung/Support</strong></td>
 <td align="left">Ich bin zufrieden mit der Qualität des technischen Supports</td>
 <td align="left">Umfrage</td>
-<td align="left">Zustimmung oder starke Zustimmung bei 80 % der Benutzer </td>
+<td align="left">Zustimmung oder starke Zustimmung bei 80 % der Benutzer</td>
 <td align="left">Nach jedem Vorfall</td>
 <td align="left">IT-Team</td>
 </tr>
@@ -387,7 +387,7 @@ Als Teil dieser Übung müssen Sie Geschäftsrisiken sowie einen Risikominderung
 <td align="left">Hoch</td>
 <td align="left">Hoch</td>
 <td align="left">Hoch</td>
-<td align="left"><p>Separate Ziele und wesentliche Ergebnisse mit eigenem Prozess (Ausblick, Onboarding und Wertschöpfung) für fusioniertes Unternehmen </p>
+<td align="left"><p>Separate Ziele und wesentliche Ergebnisse mit eigenem Prozess (Ausblick, Onboarding und Wertschöpfung) für fusioniertes Unternehmen</p>
 <p>Beziehen Sie diesen Prozess nicht in vorhandene Ziele und wesentliche Ergebnisse ein.</p></td>
 </tr>
 <tr class="even">
