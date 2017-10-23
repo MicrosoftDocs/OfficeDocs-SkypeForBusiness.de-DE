@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Hier erfahren Sie, wie eine Bereitstellung von Microsoft Teams eingerichtet wird.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e582be2aeab3724fa70cc7c2f242538384d0f1c9
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: e5cebc5102cb8a5e43b4542eba0817efe36ac5e4
+ms.sourcegitcommit: a32e7860a34918198ab9fa388f5bb217c15f9e6c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/10/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Übersicht über eine Microsoft Teams-Bereitstellung
 ========================================
+
+Neu bei Microsoft Teams? Lesen Sie zuerst die [Übersicht](teams-overview.md), um sich zu informieren.
 
 Das Verfahren bei einer typischen Microsoft Teams-Bereitstellung lautet wie folgt:
 

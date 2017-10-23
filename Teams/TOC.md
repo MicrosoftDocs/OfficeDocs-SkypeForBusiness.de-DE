@@ -39,8 +39,8 @@
 ## [Administratoreinstellungen für Apps in Teams](admin-settings.md)
 
 # Sicherheit und Compliance
-## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
 ## [Übersicht über Sicherheit und Compliance in Teams](security-compliance-overview.md)
+## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
 ## [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
 ## [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](eDiscovery-investigation.md)
 ## [Verwenden der Inhaltssuche in Teams](content-search.md)
