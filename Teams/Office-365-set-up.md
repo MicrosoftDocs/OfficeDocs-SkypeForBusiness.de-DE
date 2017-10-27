@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Erfahren Sie, wie Sie Microsoft Teams in Ihrer Office 365-Organisation einrichten können."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d149586ffe7f01aafef627f7016a4a6dba5418d8
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 5a35ad50fdbd1c99bfeb11b9f90948ef7490f8fc
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Microsoft Teams in Ihrer Office 365-Organisation einrichten
 ======================================================
@@ -21,7 +21,7 @@ Standardmäßig ist Microsoft Teams für Organisationen aktiviert, die Microsoft
 
 Als Administrator für Ihre Organisation können Sie Benutzerlizenzen für die Steuerung des individuellen Zugriffs auf Microsoft Teams zuweisen. Weiterhin können Sie zulassen oder blockieren, welche Inhaltsquellen in Microsoft Teams verwendet werden können. Weitere Informationen erhalten Sie unter [Administratoreinstellungen für Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2).
 
-Organisationen, die ändern möchten, ob Microsoft Teams aktiviert ist oder nicht, können die unten aufgeführten Schritte in dem dazugehörigen Office 365-Mandanten befolgen:
+Organisationen, die ändern möchten, ob Microsoft Teams aktiviert ist oder nicht, können die unten aufgeführten Schritte in ihrem Office 365-Mandanten ausführen:
 
 1.  Melden Sie sich beim [Office 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=854665) mit einem Konto mit globalen Administratorberechtigungen an.
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erhalten Sie Informationen zu den bewährten Methoden für Benutzerfeedback in Microsoft Teams, um optimales Arbeiten im Team sicherzustellen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d69eadf88d0e102e460ec4c0ae9718dd57296c1c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: b3e495052ddf8b8e1642d9b740107338165aaa35
+ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/22/2017
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Bewährte Methoden für Benutzerfeedback in Microsoft Teams
 ===========================================================
 
 Bei der Einführung neuer Zusammenarbeitsfunktionen geht es darum, das Verhalten Ihrer Benutzer zu ändern. Für diese Änderungen des menschlichen Verhaltens sind Schulung, Ermutigung und positive Beispiele erforderlich. Sehr wichtig ist auch, dass die Benutzer während des Übergangs das Gefühl haben, angehört zu werden. Wenn Sie in Ihrer Organisation bereits erfolgreiche Feedbackmethoden eingerichtet haben, könnten Sie diese erweitern, um Ihre Teams-Implementierung einzubeziehen. Wenn Sie dies noch nicht getan haben, ziehen Sie einen der folgenden Ansätze in Betracht:
 
--   Erstellen Sie ein öffentliches Team in Microsoft Teams, an dem alle Benutzer teilnehmen können, um Feedback zu ihren Erfahrungen zu geben (berücksichtigen Sie dabei, dass öffentliche Gruppen zurzeit auf 999 Benutzer begrenzt sind).
+-   Erstellen Sie ein öffentliches Team in Microsoft Teams, an dem alle Benutzer teilnehmen können, um Feedback zu ihren Erfahrungen zu geben (berücksichtigen Sie dabei, dass öffentliche Gruppen auf 2.500 Benutzer begrenzt sind).
 
 -   Verwenden Sie Yammer, um eine offene Community für bewährte Methoden und Unterstützung für die Funktionen bereitzustellen.
 

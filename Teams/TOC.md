@@ -39,7 +39,7 @@
 ## [Administratoreinstellungen für Apps in Teams](admin-settings.md)
 
 # Sicherheit und Compliance
-## [Übersicht über Sicherheit und Compliance in Teams](security-compliance-overview.md)
+## [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md)
 ## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
 ## [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
 ## [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](eDiscovery-investigation.md)
@@ -52,7 +52,7 @@
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Teams](log-files.md)
 
-# [Cloud Voice-Bereitstellung](cloud-voice-deployment.md)
+# [Bereitstellung von Cloud-VoIP-Funktionen](cloud-voice-deployment.md)
 ## [Audiokonferenzen](audio-conferencing.md)
 ### [Ausblick](audio-conferencing.md#Envision_AudioConferencing)
 ### [Planen](audio-conferencing.md#Planning_AudioConferencing)

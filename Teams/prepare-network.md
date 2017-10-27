@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie Ihr Microsoft Teams-Netzwerk vorbereiten und verwalten. Unter anderem erhalten Sie Informationen zu den Netzwerkanforderungen, den Bandbreitenanforderungen und zusätzlichen Überlegungen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9572b6ff52631bc41b57c8a4a44191ee79caee8e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 79e7cd9e9ebef793c138e9482c7bc56c692e4ed1
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
@@ -29,7 +29,7 @@ Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt b
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Wichtig    |Zurzeit gibt es im Hinblick auf Echtzeitmedien keine Funktionsparität zwischen den Clients. Die Desktopclients (Windows/Mac) unterstützen sowohl Peer-zu-Peer als auch Konferenzmedien (einschließlich Desktopfreigabe), während die mobilen Clients nur Peer-zu-Peer-Audio unterstützen.         |
+|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Wichtig    |Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone (Unterstützung für Windows Phone kommt bald).       |
 
 Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein (weitere Details finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität für Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)).
 

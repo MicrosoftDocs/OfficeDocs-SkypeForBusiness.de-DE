@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erhalten Sie Informationen zu Microsoft Teams, zur Infrastruktur und zur Verwendung von Teams mit Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 319b2483b12e130fe6de48bc5b311d79362dddf7
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b19e75db5f83403c7381046595d07e445a13cb0d
+ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/21/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Übersicht über Microsoft Teams
 ===========================
@@ -107,3 +107,11 @@ Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 36
 -   Eine SharePoint-Teamwebsite mit vollem Funktionsumfang für Dateispeicherung, Teamnachrichten, Seiten, Listen und vieles mehr wird automatisch für jedes Team in Microsoft Teams bereitgestellt.
 
 -   Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Teams](SharePoint-OneDrive-interact.md)
+
+## <a name="what-happened-to-the-teams-admin-faq"></a>Was ist mit den häufig gestellten Fragen für Microsoft Teams-Administratoren geschehen?
+
+Die häufig gestellten Fragen für Microsoft Teams-Administratoren waren anfangs bei der Veröffentlichung von Microsoft Teams praktisch. Sie sind aber schnell so unübersichtlich geworden, dass es schwer war, etwas Bestimmtes zu finden. Daher haben wir die häufig gestellten Fragen aufgeteilt und diese wertvollen Informationen in die Microsoft Teams-Dokumentation integriert, die Sie gerade lesen. In dieser Dokumentation finden Sie alle Informationen aus den häufig gestellten Fragen im entsprechenden Kontext.
+
+Wenn Sie etwas suchen, das Sie hier nicht finden können, lassen Sie es uns bitte unten im Abschnitt **Kommentare** wissen. Wir versuchen, innerhalb von 24 Stunden auf Ihre Kommentare zu antworten.
+
+Übrigens **gibt** es nach wie vor häufig gestellte Fragen zur [Reise von Skype for Business zu Microsoft Teams](FAQ-journey.md). 
