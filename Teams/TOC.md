@@ -29,28 +29,26 @@
 ## [Zuweisen von Rollen und Berechtigungen in Teams](assign-roles-permissions.md)
 ## [Aktivieren von Teams-Funktionen in Ihrer Office 365-Organisation](enable-features-office-365.md)
 ## [Verwalten des Benutzerzugriffs auf Teams](user-access.md)
-## [Verwalten des Benutzerzugriffs in Teams](guest-access.md)
-## [Erweitern von vorhandenen Office 365-Gruppen mit Teams](enhance-office-365-groups.md)
+## [Erweitern von vorhandenen Office 365-Gruppen mit Microsoft Teams](enhance-office-365-groups.md)
 ## [Konfigurieren einer hybriden Exchange-Organisation zur Verwendung in Teams](Exchange-hybrid-organization.md)
 ## [Hinzufügen der SMTP-Domäne von Teams als akzeptierte Domäne in Exchange Online](SMTP-accepted-domain.md)
 ## [Verwenden von integrierten und benutzerdefinierten Registerkarten in Teams](built-in-custom-tabs.md)
 ## [Verwenden von Office 365 und benutzerdefinierten Connectors in Teams](Office-365-custom-connectors.md)
 ## [Hinzufügen von Bots für private Chats und Kanäle in Teams](add-bots.md)
-## [Administratoreinstellungen für Apps in Teams](admin-settings.md)
+## [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
 
-# Sicherheit und Compliance
-## [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md)
-## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
-## [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
-## [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](eDiscovery-investigation.md)
-## [Verwenden der Inhaltssuche in Teams](content-search.md)
-## [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
 
-# Problembehandlung
-## [Supportressourcen für Microsoft Teams](support-resources.md)
-## [Überprüfen der Dienstintegrität für Teams](service-health.md)
-## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
-## [Verwenden von Protokolldateien bei der Problembehandlung in Teams](log-files.md)
+# [Gastzugriff in Microsoft Teams](guest-access.md)
+## [Beitritt eines Gasts zu einem Team](guest-joins.md)
+## [Gastfunktionalität](guest-experience.md)
+## [Office 365-Abhängigkeiten für Microsoft Teams](Teams-dependencies.md)
+## [Einrichten des Gastzugriffs auf Microsoft Teams](set-up-guests.md)
+## [Verwalten des Gastzugriffs in Microsoft Teams](manage-guests.md)
+## [Hinzufügen eines Gasts zu einem Team](add-guests.md)
+## [Anzeigen von Gastbenutzern in einem Team](view-guests.md)
+## [Bearbeiten von Gastbenutzerinformationen](edit-guests-information.md)
+## [Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team](guest-access-PowerShell.md)
+
 
 # [Bereitstellung von Cloud-VoIP-Funktionen](cloud-voice-deployment.md)
 ## [Audiokonferenzen](audio-conferencing.md)
@@ -67,5 +65,20 @@
 # Videos und Schulungen
 ## [Bereitschaft von IT-Administratoren für Teams](ITAdmin-readiness.md)
 ### [Videos - Audiokonferenzen in Teams](audio-conferencing-videos.md)
-## [Teams-Schulungen für Endbenutzer](enduser-training.md)
+## [Microsoft Teams-Schulungen für Endbenutzer](enduser-training.md)
 
+
+# Sicherheit und Compliance
+## [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md)
+## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
+## [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
+## [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](eDiscovery-investigation.md)
+## [Verwenden der Inhaltssuche in Teams](content-search.md)
+## [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
+
+
+# Problembehandlung
+## [Supportressourcen für Microsoft Teams](support-resources.md)
+## [Überprüfen der Dienstintegrität für Teams](service-health.md)
+## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
+## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)

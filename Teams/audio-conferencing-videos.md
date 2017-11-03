@@ -14,19 +14,19 @@ ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/25/2017
 ---
-<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="c1683-103">Videos: Audiokonferenzen in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c1683-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
+<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="8b20b-103">Videos: Audiokonferenzen in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="8b20b-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
 =============================================
 
-<span data-ttu-id="c1683-104">Verpassen Sie nicht die [Audiokonferenzen in Microsoft Teams](audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="c1683-104">Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).</span></span>
+<span data-ttu-id="8b20b-104">Verpassen Sie nicht die [Audiokonferenzen in Microsoft Teams](audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="8b20b-104">Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c1683-105">Audiokonferenzen wurden ehemals als PSTN-Konferenzen bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="c1683-105">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
+> <span data-ttu-id="8b20b-105">Audiokonferenzen wurden ehemals als PSTN-Konferenzen bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="8b20b-105">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
 
 
 |  |  |
 |---------|---------|
-| <span data-ttu-id="c1683-106">Einführung in Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="c1683-106">Introduction to Audio Conferencing</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="c1683-107">Planen von Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="c1683-107">Plan for Audio Conferencing</span></span>  | <iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe>   |
-| <span data-ttu-id="c1683-108">Nummernportierung für Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="c1683-108">Number porting for Audio Conferencing</span></span> | <iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe>  |
+| <span data-ttu-id="8b20b-106">Einführung in Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="8b20b-106">Introduction to Audio Conferencing</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe>   |
+| <span data-ttu-id="8b20b-107">Planen von Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="8b20b-107">Plan for Audio Conferencing</span></span>  | <iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe>   |
+| <span data-ttu-id="8b20b-108">Nummernportierung für Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="8b20b-108">Number porting for Audio Conferencing</span></span> | <iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe>  |
 
 
