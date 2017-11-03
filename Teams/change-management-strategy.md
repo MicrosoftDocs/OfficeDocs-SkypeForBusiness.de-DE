@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie durch die Identifizierung von wichtigen Beteiligten, Geschäftsergebnissen und Erfolgskennzahlen sowie das Management Ihrer Initiative eine Change Management-Strategie für Microsoft Teams erstellen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 97f835f60777b5c6c907790fabc76dfaeeb1e268
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: faa2bf8247c4b4a3fc8827011423f8205e5c6b35
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 =======================================================
@@ -48,16 +48,16 @@ Die erste Regel für eine erfolgreiche Einführung ist die Bildung eines dynamis
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**Befürworter aus der Führungsebene** sind wichtige Führungskräfte innerhalb der Organisation. Ihre Beteiligung spielt eine wichtige Rolle dabei, die Einführung durch die Mitarbeiter voranzutreiben. Sie haben den größten Einfluss auf die Firmenkultur und können aktiv den Wert und die Vorteile einer neuen Technologie und Arbeitsweise vermitteln.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Dienstbesitzer** sind dafür verantwortlich, sicherzustellen, dass die Benutzer den Dienst verwenden und davon profitieren. Dienstbesitzer in der Organisation zu bestimmen, ist wichtig, um sicherzustellen, dass die für Office 365 festgelegten Geschäftsziele erreicht werden.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Die Akzeptanz aller Benutzer in einer Organisation zu erreichen, ist eine Herausforderung. **Pioniere** können dazu beitragen, diese Herausforderung abzuschwächen. Sie spielen eine wichtige Rolle bei der Einführung von Office 365. Sie sind gut informiert, engagieren sich dafür, ihre Kenntnisse zu erweitern, und sind bereit, Kollegen zu unterweisen und zu unterstützen. Sie tragen dazu bei, Office 365 in ihrer Abteilung oder ihrem Teams Realität werden zu lassen.         |
+|![Symbol für Befürworter aus der Führungsebene](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**Befürworter aus der Führungsebene** sind wichtige Führungskräfte innerhalb der Organisation. Ihre Beteiligung spielt eine wichtige Rolle dabei, die Einführung durch die Mitarbeiter voranzutreiben. Sie haben den größten Einfluss auf die Firmenkultur und können aktiv den Wert und die Vorteile einer neuen Technologie und Arbeitsweise vermitteln.         |
+|![Symbol für Dienstbesitzer](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Dienstbesitzer** sind dafür verantwortlich, sicherzustellen, dass die Benutzer den Dienst verwenden und davon profitieren. Dienstbesitzer in der Organisation zu bestimmen, ist wichtig, um sicherzustellen, dass die für Office 365 festgelegten Geschäftsziele erreicht werden.         |
+|![Symbol für Pioniere](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Die Akzeptanz aller Benutzer in einer Organisation zu erreichen, ist eine Herausforderung. **Pioniere** können dazu beitragen, diese Herausforderung abzuschwächen. Sie spielen eine wichtige Rolle bei der Einführung von Office 365. Sie sind gut informiert, engagieren sich dafür, ihre Kenntnisse zu erweitern, und sind bereit, Kollegen zu unterweisen und zu unterstützen. Sie tragen dazu bei, Office 365 in ihrer Abteilung oder ihrem Teams Realität werden zu lassen.         |
 
 Wir empfehlen regelmäßige Besprechungen mit diesen Beteiligten, um sie über den Fortschritt Ihres Programms auf dem Laufenden zu halten. Je nach Unternehmenskultur kann es hilfreich sein, einen „Zusammenarbeitsrat“ einzuberufen, um Feedback und Diskussionen zu ermöglichen.
 
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Tipp    |Diese Personen, die die größten Hindernisse für Veränderungen darstellen können, können bei einer derartigen Bereitstellung zu Ihren besten Verbündeten werden. Treten Sie frühzeitig und häufig mit diesen Mitgliedern Ihrer Organisation in Verbindung, um ihre Bedenken und Probleme zu erfahren. Sie können Ihnen oft wertvolles Feedback geben, durch das Ihre Initiative erfolgreicher wird.         |
+|![Tippsymbol](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Tipp    |Diese Personen, die die größten Hindernisse für Veränderungen darstellen können, können bei einer derartigen Bereitstellung zu Ihren besten Verbündeten werden. Treten Sie frühzeitig und häufig mit diesen Mitgliedern Ihrer Organisation in Verbindung, um ihre Bedenken und Probleme zu erfahren. Sie können Ihnen oft wertvolles Feedback geben, durch das Ihre Initiative erfolgreicher wird.         |
 
 <a name="user-profiles"></a>Benutzerprofile
 -------------
@@ -71,7 +71,7 @@ Wenn Sie verstehen, wie der Arbeitsalltag Ihrer Benutzer aussieht, können Sie I
 
 Wenn Sie die Personen identifizieren, die zu Ihren Pionieren für Zusammenarbeit werden können, erhalten Sie ein erweitertes Supportteam für Ihre Implementierung. Schaffen Sie eine Community, indem Sie ihnen frühe Einblicke gewähren und Feedback zu Ihren Plänen ermöglichen. Jede Investition in diese Community – sei es Zeit, Aufmerksamkeit oder Anerkennung – rentiert sich in Form ihrer Unterstützung und Befürwortung der Implementierung.
 
-![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
+![Diagramm der Aktionen, die Pioniere ausführen können](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
 
 Weitere Informationen zum Einrichten eines Pionierprogramms finden Sie unter [Einrichten eines Pionierprogramms](https://go.microsoft.com/fwlink/?linkid=854665).
 

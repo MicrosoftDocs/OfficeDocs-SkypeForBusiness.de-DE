@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Hier erfahren Sie, wie eine Bereitstellung von Microsoft Teams eingerichtet wird.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e5cebc5102cb8a5e43b4542eba0817efe36ac5e4
-ms.sourcegitcommit: a32e7860a34918198ab9fa388f5bb217c15f9e6c
+ms.openlocfilehash: 3ed2ee9377c871b36407c5777f0829e9cd71ade3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Übersicht über eine Microsoft Teams-Bereitstellung
 ========================================
@@ -31,7 +31,7 @@ Das Verfahren bei einer typischen Microsoft Teams-Bereitstellung lautet wie folg
 
 5.  Entwickeln Sie die Strategie(n) weiter und nutzen Sie Ihre Erfahrungen für ein breiteres Rollout.
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
+![Diagramm der Phasen der Microsoft Teams-Reise: technische und rechtliche Bewertung, Bewerten/Vorbereiten, IT-Pilotprojekt, Pilotprojekt im Unternehmen und schließlich Rollout.](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
 
 Während dieses Prozesses stellt das IT-Pilotprojekt einer der ersten Einsätze von Microsoft Teams in Ihrer Umgebung dar. Ziehen Sie den Einsatz dieses Pilotprojekts in Betracht, um Ihr Team bei der Planung, Bereitstellung und Verwendung von Microsoft Teams zu unterstützen und die Geschäftsbenutzer ins Boot zu holen.
 
@@ -42,15 +42,15 @@ Hier finden Sie ein Beispiel dafür, wie Sie eine Team- bzw. Kanalstruktur einri
 |---------|---------|---------|
 |Teams bereitstellen<br></br>Mitglieder:<ul><li>Projektsponsor</li><li>Business Analyst</li><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li><li>Netzwerk IT Pro</li><li>Übernahme-Lead </li><li>Support-Lead</li></ul>Besitzer: <ul><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li></ul>      |Planung und Bereitschaft<br></br> Übernahme<br></br> Rollout<br></br> Support<br></br> Einblicke<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Verknüpfung zu praktischen Anleitungen für die Microsoft Teams-Webseite ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
-Dieses Setup entspricht demjenigen in Microsoft Teams:
+So würde dieses Setup in Microsoft Teams aussehen:
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
+![Screenshot eines Teams und seiner Kanäle in Microsoft Teams](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
 
 
 ||||
 |---------|---------|---------|
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Entscheidungspunkt         |Welche anfänglichen Teams und Kanäle möchten Sie für Ihr IT-Pilotprojekt erstellen?         |
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Nächste Schritte         |Dokumentieren Sie, welche anfänglichen Teams/Kanäle Sie für Ihr IT-Pilotprojekt erstellen möchten         |
+|![Entscheidungspunktsymbol](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Entscheidungspunkt         |Welche anfänglichen Teams und Kanäle möchten Sie für Ihr IT-Pilotprojekt erstellen?         |
+|![Symbol für „Nächste Schritte“](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Nächste Schritte         |Dokumentieren Sie, welche anfänglichen Teams/Kanäle Sie für Ihr IT-Pilotprojekt erstellen möchten         |
 
 
  

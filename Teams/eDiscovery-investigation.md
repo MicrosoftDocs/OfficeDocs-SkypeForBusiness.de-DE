@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, was Sie tun müssen, wenn Sie eine eDiscovery durchführen, zum Beispiel, wenn Sie alle elektronisch gespeicherten Informationen für Gerichtsverfahren eingereicht müssen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 52827781811e991df30250adb353ba90a7b333d6
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c9650604a65975058d10e2ca73eaadc985c73495
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 ============================
@@ -25,8 +25,6 @@ Alle 1:1- oder Gruppenchats in Teams werden in den Journalen der Benutzerpostfä
 
 2.  Microsoft Teams-Daten werden als **Sofortnachricht oder Unterhalten** in der Excel-Ausgabe angezeigt. Wahlweise können Sie die **PST**-Datei in Outlook bereitstellen.
 
-    a.  Beachten Sie bei der Bereitstellung der PST-Datei für das Team, dass alle Unterhaltungen im Ordner „Teamchat“ unter „Aufgezeichnete Unterhaltungen“ beibehalten werden. Der Titel der Nachricht richtet sich nach dem Team und dem Kanal. Beim Überprüfen der Abbildung unten können Sie diese Nachricht von Bob sehen, der den Projekt 7-Kanal des Produktionsspezifikationsteams benachrichtigt hat.
+    a. Beachten Sie bei der Bereitstellung der PST-Datei für das Team, dass alle Unterhaltungen im Ordner „Teamchat“ unter „Aufgezeichnete Unterhaltungen“ beibehalten werden. Der Titel der Nachricht richtet sich nach dem Team und dem Kanal. Beim Überprüfen der Abbildung unten können Sie diese Nachricht von Bob sehen, der den Projekt 7-Kanal des Produktionsspezifikationsteams benachrichtigt hat. ![Screenshot des Ordners „Teamchat“ im Postfach eines Benutzers in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-![](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
-
-3.  Um private Chats in einem Benutzerpostfach zu sehen, befinden sich diese ebenfalls im Ordner „Teamchat“ unter „Aufgezeichnete Unterhaltungen“.
+3.  Wenn Sie private Chats in einem Benutzerpostfach sehen möchten – diese befinden sich ebenfalls im Ordner „Teamchat“ unter „Aufgezeichnete Unterhaltungen“.

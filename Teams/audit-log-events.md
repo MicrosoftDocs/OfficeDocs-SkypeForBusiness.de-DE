@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Microsoft Teams-Daten aus dem Überwachungsprotokoll abgerufen werden."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 558db88d32229fcaef70ea5278d7437fbea92198
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 90de6c2267eb2828f2f681287d4b43c001d0ceb4
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 ==================================================
@@ -34,23 +34,23 @@ Bevor Sie sich einen näheren Einblick verschaffen ist die Aktivierung der Über
 
 | |  |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Wichtig     |Überprüfungsdaten sind erst ab dem Zeitpunkt verfügbar, an dem die Überwachung aktiviert wurde.         |
+|![Screenshot der Homepage im Security & Compliance Center](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Wichtig     |Überwachungsdaten sind erst ab dem Zeitpunkt verfügbar, an dem die Überwachung aktiviert wurde.         |
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
+![Screenshot der Seite „Überwachungsprotokollsuche“ im Security & Compliance Center](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
-Erfahren Sie jetzt, wie Microsoft Teams-Daten aus dem Überwachungsprotokoll abgerufen werden.
+Sehen wir uns nun an, wie Microsoft Teams-Daten aus dem Überwachungsprotokoll abgerufen werden.
 
 1.  Um die Überwachungprotokolldaten abzurufen, navigieren Sie zum [Admin Center „Sicherheit und Compliance“](https://go.microsoft.com/fwlink/?linkid=855775). Wählen Sie unter *Suche und Untersuchung* die Option **Überwachungsprotokollsuche** aus.
 
-    a.  Microsoft Teams hat Überwachungsaktivitäten definiert, die wie unten gezeigt ausgewählt werden können.
+    a. Microsoft Teams hat Überwachungsaktivitäten definiert, die wie unten gezeigt ausgewählt werden können.
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+![Screenshot der Seite „Überwachungsprotokollsuche“ im Security & Compliance Center](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
 2.  Geben Sie nach Auswahl der gewünschten Aktivitäten einen Datumsbereich sowie die Benutzer an, für die Microsoft Teams-Daten abgerufen werden sollen. Klicken Sie auf **Suchen**, um die Ergebnisse abzurufen.
 
-3.  Diese Daten können nach Excel exportiert und nach Bedarf gefiltert werden.
+3.  Diese Informationen können nach Excel exportiert und nach Bedarf gefiltert werden.
 
 
 |  | |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Wichtig |Wenn die Überprüfung zuvor nicht aktiviert war, müssen Sie diesen Vorgang nachholen, damit die Daten im Überprüfungsprotokoll angezeigt werden.         |
+|![Ausrufezeichensymbol](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Wichtig |Wenn die Überprüfung zuvor nicht aktiviert war, müssen Sie diesen Vorgang nachholen, damit die Daten im Überprüfungsprotokoll angezeigt werden.         |

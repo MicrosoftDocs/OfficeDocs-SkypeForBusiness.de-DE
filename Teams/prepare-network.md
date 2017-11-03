@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie Ihr Microsoft Teams-Netzwerk vorbereiten und verwalten. Unter anderem erhalten Sie Informationen zu den Netzwerkanforderungen, den Bandbreitenanforderungen und zusätzlichen Überlegungen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 79e7cd9e9ebef793c138e9482c7bc56c692e4ed1
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 81285ee2ff2a2f7939a025609656ae723947fb73
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
@@ -29,7 +29,7 @@ Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt b
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Wichtig    |Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone (Unterstützung für Windows Phone kommt bald).       |
+|![Symbol für „Wichtig“](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Wichtig    |Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone (Unterstützung für Windows Phone kommt bald).       |
 
 Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein (weitere Details finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität für Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)).
 
@@ -49,7 +49,7 @@ Um beide Netzwerksegmente zu testen, können Sie ein Netzwerkbewertungstool verw
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Dabei handelt es sich um die gleiche Bewertung der Netzwerkbereitschaft, deren Ausführung Kunden empfohlen wird, die Skype for Business erfolgreich bereitstellen möchten.         |
+|![Hinweissymbol](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Dabei handelt es sich um die gleiche Bewertung der Netzwerkbereitschaft, deren Ausführung Kunden empfohlen wird, die Skype for Business erfolgreich bereitstellen möchten.         |
 
 <a name="bandwidth-requirements"></a>Bandbreitenanforderungen
 ----------
@@ -60,7 +60,7 @@ Den folgenden Inhalt können Sie als ergänzende Hintergrundinformationen nutzen
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Wenn die erforderliche Bandbreite nicht verfügbar ist, verringert der Medienstapel in Microsoft Teams die Qualität der Audio/Video-Sitzung, um der niedrigeren verfügbaren Bandbreite Rechnung zu tragen. Dies wirkt sich auf die Qualität des Anrufs bzw. der Besprechung aus. Der Microsoft Teams-Client versucht, die Audioqualität gegenüber der Videoqualität zu priorisieren. Daher ist es äußerst wichtig, dass die erwartete Bandbreite verfügbar ist.       |
+|![Hinweissymbol](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Wenn die erforderliche Bandbreite nicht verfügbar ist, verringert der Medienstapel in Microsoft Teams die Qualität der Audio/Video-Sitzung, um der niedrigeren verfügbaren Bandbreite Rechnung zu tragen. Dies wirkt sich auf die Qualität des Anrufs bzw. der Besprechung aus. Der Microsoft Teams-Client versucht, die Audioqualität gegenüber der Videoqualität zu priorisieren. Daher ist es äußerst wichtig, dass die erwartete Bandbreite verfügbar ist.       |
 
 
 |Aktivität  |Downloadbandbreite  |Uploadbandbreite  |Datenverkehrsfluss |
@@ -103,6 +103,6 @@ Falls diese Kriterien nicht erfüllt sind, sollten Sie in Betracht ziehen, das P
 
 |  |  |  |
 |---------|---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Entscheidungspunkt         |Haben Sie die Möglichkeiten für die Unterstützung von Echtzeitmedien in Ihrem Netzwerk bewertet?<br></br>Werden Sie, wenn das Netzwerk nicht ordnungsgemäß bewertet wurde oder Sie wissen, dass Echtzeitmedien nicht unterstützt werden, Video- und Bildschirmübertragungsfunktionen deaktivieren, um die Auswirkungen auf das Netzwerk und Beeinträchtigungen der Verwendung von Teams zu verringern?         |
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Nächste Schritte         |Netzwerkqualität unbekannt: Ermitteln Sie anhand des Leitfadens zur Bewertung der Netzwerkbereitschaft unter skypeoperationsframework.com, ob Ihr Netzwerk für Echtzeitmedien bereit ist.<br></br>Netzwerkqualität schlecht: Führen Sie die Netzwerkwiederherstellungsschritte aus, um eine geeignete Umgebung für Echtzeitmedien von hoher Qualität bereitzustellen.<br></br>Netzwerk zufriedenstellend: Stellen Sie sicher, dass der Zugriff auf alle IP-Adressen und Ports ordnungsgemäß möglich ist.           |
+|![Entscheidungspunktsymbol](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Entscheidungspunkt         |Haben Sie die Möglichkeiten für die Unterstützung von Echtzeitmedien in Ihrem Netzwerk bewertet?<br></br>Werden Sie, wenn das Netzwerk nicht ordnungsgemäß bewertet wurde oder Sie wissen, dass Echtzeitmedien nicht unterstützt werden, Video- und Bildschirmübertragungsfunktionen deaktivieren, um die Auswirkungen auf das Netzwerk und Beeinträchtigungen der Verwendung von Teams zu verringern?         |
+|![Symbol für „Nächste Schritte“](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Nächste Schritte         |Netzwerkqualität unbekannt: Ermitteln Sie anhand des Leitfadens zur Bewertung der Netzwerkbereitschaft unter skypeoperationsframework.com, ob Ihr Netzwerk für Echtzeitmedien bereit ist.<br></br>Netzwerkqualität schlecht: Führen Sie die Netzwerkwiederherstellungsschritte aus, um eine geeignete Umgebung für Echtzeitmedien von hoher Qualität bereitzustellen.<br></br>Netzwerk zufriedenstellend: Stellen Sie sicher, dass der Zugriff auf alle IP-Adressen und Ports ordnungsgemäß möglich ist.           |
 

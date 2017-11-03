@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Anleitung zur gleichzeitigen Verwendung von Skype for Business und Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b1a635fe4abb607064a0e26240ed58715fa43a8d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Aktivieren von Teams Seite an Seite mit Skype for Business 
 =============================================================
@@ -33,7 +33,7 @@ Im Allgemeinen gibt es zwei Szenarien für Kunden, beide Lösungen auszuführen.
 
     Das IT-Team steuert die Verwendung von beiden Lösungen, nimmt die Benutzer mit auf die Reise der schrittweisen Einführung in Teams und führt zuerst einen neuen chatbasierten Arbeitsbereich für Zusammenarbeit mit privatem Chat, dann die Besprechungsfunktionen und schließlich die Anruffunktionen von Teams ein.
 
-![](media/guidance_SkypeforBusiness_image1.png)
+![Diagramm, von zwei parallelen Customer Journeys: verwaltet und nicht verwaltet.](media/guidance_SkypeforBusiness_image1.png)
 
 <a name="side-by-side-benefits-and-considerations"></a>Vorteile und Überlegungen zum gleichzeitigen Einsatz beider Lösungen
 ----------------------------------------
@@ -103,7 +103,7 @@ Um den richtigen Weg in Abhängigkeit vom Profil Ihrer Organisation zu beschreit
 ---------------------------------------
 
 
-![](media/guidance_SkypeforBusiness_image4.png)
+![Diagramm der nicht verwalteten Customer Journey beim Einsatz beider Lösungen](media/guidance_SkypeforBusiness_image4.png)
 
 Auf einer nicht verwalteten Customer Journey beim Einsatz beider Lösungen wird Teams als Lösung zur Zusammenarbeit eingeführt (chatbasierter Arbeitsbereich, Kanäle, Apps, Integration in andere Office 365-Arbeitsauslastungen usw.), die Clientsoftware und einen Webclient auf Desktopcomputern (PC oder Mac) und Mobilgeräte mit einschließen.
 
@@ -123,9 +123,9 @@ Diese Customer Journey beim Einsatz beider Lösungen kann für Ihre Organisation
 <a name="managed-side-by-side-customer-journey"></a>Verwaltete Customer Journey beim Einsatz beider Lösungen
 -------------------------------------
 
-![](media/guidance_SkypeforBusiness_image2.png)
+![Diagramm der verwalteten Customer Journey beim Einsatz beider Lösungen](media/guidance_SkypeforBusiness_image2.png)
 
-Eine verwaltete Customer Journey beim Einsatz beider Lösungen startet damit, dass die Organisation mehr Kontrolle über die Art und Weise der Einführung von Teams einfordert.
+Eine verwaltete Customer Journey beim Einsatz beider Lösungen beginnt damit, dass die Organisation mehr Kontrolle über die Art und Weise der Einführung von Teams wünscht.
 
 -   Der **erste Schritt** dieser Reise ist ein limitiertes Teams-Pilotprojekt auf Basis von Anforderungen für moderne Zusammenarbeit (chatbasierter Arbeitsbereich, Kanäle, Apps, Integration in andere Office 365-Auslastungen usw.) Ad-hoc-Kanalbesprechungen und private Chats in Teams sind ebenfalls aktiviert, um Teilnehmern des Pilotprojekts die Chance zu geben, die Teams-Besprechungsfunktionen und die Funktionen für private Chats zu bewerten. In dieser Phase sind geplante Besprechungen und private Anruffunktionen in Teams deaktiviert. Um ein Pilotprojekt zu starten, navigieren Sie zu [Teams als Pilotprojekt neben Skype for Business](pilot-essentials.md).
     

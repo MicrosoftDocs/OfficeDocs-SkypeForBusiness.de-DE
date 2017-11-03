@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erhalten Sie Informationen zu den verschiedenen verfügbaren Teams, Kanälen und Apps für die verschiedensten Anforderungen wie zum Beispiel Finanzen, Planung von Veranstaltungen, Vertrieb und vieles mehr."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1c73bc8aed92557e3a18837d6f252ce0590c5ad1
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: a25a53dc9abd7f77e90cc8d63762934f80991e89
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -31,7 +31,7 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 
     -   Kanäle können mit Apps erweitert werden, die Registerkarten, Connectors und Bots enthalten.
 
-![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Diagramm einer Hierarchie der Organisation von Teams und Kanälen in Microsoft Teams](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
 Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Microsoft Teams im Arbeitsalltag besser zusammenarbeiten können.
 
@@ -45,7 +45,7 @@ Die folgenden Funktionsbeispiele zeigen, wie verschiedene Benutzertypen ihre Tea
 Microsoft Teams ist gut darin, organisatorische Silos aufzubrechen und funktionsübergreifende Teams zu fördern. Ermutigen Sie also die Benutzer, sich dieses Konzept als funktionale Teams und nicht als organisatorische Silos vorzustellen.
 
 
-|Teamtypen  |Mögliche Kanäle  |Apps (Registerkarten![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Teamtypen  |Mögliche Kanäle  |Apps (Registerkarten ![Registerkartensymbol](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Connectorsymbol](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Botsymbol](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Vertrieb     |Jährliche Vertriebsbesprechung<br></br> Vierteljährlicher Geschäftsbericht<br></br> Monatlicher Vertriebspipelinebericht<br></br> Vertriebsleitfaden |Power BI<br></br>Trello<br></br>CRM<br></br>Zusammenfassungsbot         |
 |Public Relations     |Pressemitteilungen<br></br>Neuigkeiten und Updates<br></br>Überprüfung der Fakten         |RSS-Feed<br></br>Twitter         |

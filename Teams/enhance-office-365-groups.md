@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie Office 365-Gruppen mit Microsoft Teams erweitern, indem Sie eine Verteilerliste in ein Team einladen, für E-Mail aktivierte Sicherheitsgruppen hinzufügen usw."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c39a1098e15f8656dad71ea85d069a46c642d73c
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: 80e76b5dbdaddaca2d4c917e33a3d0870626042e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Erweitern von vorhandenen Office 365-Gruppen mit Microsoft Teams
 =======================================================
@@ -24,11 +24,11 @@ Benutzer sollten hierfür die Schritte zum Erstellen eines neuen Teams im Micros
 
 |  |  |
 |---------|---------|
-|![](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Wichtig     |Nur Besitzer einer Office 365-Gruppe verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Microsoft Teams.         |
+|![Symbol für „Wichtig“](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Wichtig     |Nur Besitzer einer Office 365-Gruppe verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Microsoft Teams.         |
 
 Benutzer können auch eine Verteilerliste in ein Team einladen, und die Mitglieder dieser Verteilerliste werden zum Team hinzugefügt. Dies ist eine einmalige Synchronisierung, und spätere Änderungen an der Gruppenmitgliedschaft in der Verteilerliste werden in Teams nicht übernommen. 
 
-![](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![Die Screenshots zeigen der Reihenfolge nach die Einladung einer Verteilerliste und ihrer Mitglieder in ein Team.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 Sie könne auch für E-Mail aktivierte Sicherheitsgruppen als Mitglieder eines Teams hinzufügen. Wenn Sie danach jedoch weitere Mitglieder zur Sicherheitsgruppe hinzufügen, werden diese Mitglieder nicht automatisch zum Team hinzugefügt. Sie müssen neue Mitglieder separat hinzufügen oder die Sicherheitsgruppe erneut zum Team hinzufügen. (Wenn Sie die Sicherheitsgruppe erneut hinzufügen, wird durch die Deduplizierung sichergestellt, dass Mitglieder nur einmal hinzugefügt werden.)
 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Eine Übersicht über die Sicherheits- und Compliance-Funktionen von Microsoft Teams, einschließlich Überwachung und Berichterstellung, Compliancesuche in Inhalten, eDiscovery und vielem mehr"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -68,11 +68,11 @@ Diese Tools befinden sich im Office 365 Security & Compliance-Portal und bieten
 
 Die folgende Abbildung zeigt den Workflow von Teams-Daten zu Exchange und SharePoint.
 
-![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Diagramm des Workflows von Microsoft Teams-Daten zu Exchange und SharePoint](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
 > [!IMPORTANT]
-> Beim Ermitteln von Teams-Inhalten ist eine Verzögerung von bis zu 24 Stunden möglich.
+> Beim Ermitteln von Microsoft Teams-Inhalten ist eine Verzögerung von bis zu 24 Stunden möglich.
 
 Außerdem zieht Microsoft die Bereitstellung der folgenden Sicherheitsfunktionen für Teams in Betracht. Wenn die Funktionen verfügbar sind, werden Leitfäden dazu bereitgestellt, wie Kunden die Funktionen nutzen können.
 
@@ -87,8 +87,8 @@ Außerdem zieht Microsoft die Bereitstellung der folgenden Sicherheitsfunktionen
 
 | | | |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Entscheidungspunkt         |Welche Sicherheits- und Compliance-Funktionen benötigt Ihre Organisation? Verfügt Ihre Organisation über die erforderlichen Lizenzen, um die geschäftlichen Sicherheits- und Compliance-Anforderungen zu erfüllen?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Nächste Schritte         |Dokumentieren Sie die erforderlichen Sicherheits- und Compliance-Funktionen in der folgenden Tabelle.         |
+|![Entscheidungspunktsymbol](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Entscheidungspunkt         |Welche Sicherheits- und Compliance-Funktionen benötigt Ihre Organisation? Verfügt Ihre Organisation über die erforderlichen Lizenzen, um die geschäftlichen Sicherheits- und Compliance-Anforderungen zu erfüllen?         |
+|![Symbol für „Nächste Schritte“](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Nächste Schritte         |Dokumentieren Sie die erforderlichen Sicherheits- und Compliance-Funktionen in der folgenden Tabelle.         |
 
 <a name="licensing"></a>Lizenzierung
 ---------------
@@ -109,8 +109,8 @@ Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abo
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Entscheidungspunkt         |Verfügt Ihre Organisation über die erforderlichen Lizenzen, um die geschäftlichen Compliance- und Sicherheitsanforderungen zu erfüllen?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Nächste Schritte         |Überprüfen Sie die aktuellen Lizenzen Ihrer Organisation, und vergewissern Sie sich, dass diese alle geschäftlichen Anforderungen in Bezug auf Compliance und Sicherheit erfüllen.         |
+|![Entscheidungspunktsymbol](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Entscheidungspunkt         |Verfügt Ihre Organisation über die erforderlichen Lizenzen, um die geschäftlichen Compliance- und Sicherheitsanforderungen zu erfüllen?         |
+|![Symbol für „Nächste Schritte“](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Nächste Schritte         |Überprüfen Sie die aktuellen Lizenzen Ihrer Organisation, und vergewissern Sie sich, dass diese alle geschäftlichen Anforderungen in Bezug auf Compliance und Sicherheit erfüllen.         |
 
 Bevor Sie diese Funktionen aktivieren, müssen Sie sicherstellen, dass Sie auf das Security & Compliance Center im Office 365 Admin Center zugreifen können. Mandantenadministratoren verfügen standardmäßig über Zugriff.
 

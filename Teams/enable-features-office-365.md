@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e789e83e02f226d09c67fece89b72ed52aee5711
-ms.sourcegitcommit: 5e56010494a1325cec5a090dee04887a46093054
+ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 ======================================================
@@ -34,19 +34,19 @@ In **Mandantenweite Einstellungen** können Sie Optionen unter „Allgemein“, 
 
 Im Abschnitt „Allgemein“ können Sie die folgenden Einstellungen für Ihre Organisation konfigurieren:
 
-> ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
+> ![Screenshot des Abschnitts „Allgemein“ in „Mandantenweite Einstellungen“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
 -   **„Show organizational chart in personal profile“ (Organigramm in persönlichem Profil anzeigen):** Wenn diese Einstellung aktiviert ist, wird das Organigrammsymbol auf der Visitenkarte des Benutzers angezeigt. Wenn auf das Symbol geklickt wird, wird das detaillierte Organigramm angezeigt.
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
+    ![Screenshot des Organigrammsymbols auf der Visitenkarte eines Benutzers](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
+    ![Screenshot eines Organigramms](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
 -   **„Use Skype for Business for recipients who don’t have Microsoft Teams“ (Für Empfänger, die Microsoft Teams nicht haben, Skype for Business verwenden):** Wenn diese Einstellung aktiviert ist, können Microsoft Teams-Benutzer Kontakt zu anderen Benutzern in der Organisation aufnehmen, die nicht über Skype for Business für Microsoft Teams aktiviert sind.
 
 -   **„Allow T-bot proactive help messages“ (Proaktive Hilfenachrichten von T-Bot zulassen):** Wenn diese Einstellung aktiviert ist, initiiert T-Bot eine private Chatsitzung mit Benutzern, um sie bei der Verwendung von Microsoft Teams zu unterstützen.
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
+    ![Screenshot des T-Bot-Abschnitts auf der Benutzeroberfläche von Microsoft Teams](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
 <a name="email-integration"></a>E-Mail-Integration
 -----------------
@@ -55,7 +55,7 @@ Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse ein
 
 Im Abschnitt „E-Mail-Integration“ können Sie die folgenden Einstellungen für Ihre Organisation konfigurieren:
 
-   ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![Screenshot des Abschnitts „E-Mail-Integration“ in „Mandantenweite Einstellungen“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
 
 -   **„Allow users to send emails to channels“ (Zulassen, dass Benutzer E-Mails an Kanäle senden):** Wenn diese Option aktiviert ist, werden Mailhooks aktiviert, und Benutzer können Nachrichten in einem Kanal posten, indem sie eine E-Mail an die E-Mail-Adresse des Microsoft Teams-Kanals senden.
 
@@ -70,10 +70,10 @@ Mit Apps in Microsoft Teams können Sie die für Ihr Team wichtigen Tools und Di
 
 Im Abschnitt **Apps** können Sie die folgenden Einstellungen für Ihre Organisation konfigurieren:
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+![Screenshot des Abschnitts „Apps“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
 
 -   **Externe Apps in Microsoft Teams zulassen:** Wenn diese Option aktiviert ist, können Benutzer Registerkarten und Bots hinzufügen, die für den Office 365-Mandanten verfügbar sind.
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![Screenshot des Steuerelements zum Zulassen externer Apps im Abschnitt „Apps“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
 -   **Querladen von externen Apps zulassen:** Wenn diese Option aktiviert ist, können Benutzer benutzerdefinierte Bots und Registerkarten installieren und aktivieren.
 
@@ -82,7 +82,7 @@ Im Abschnitt **Apps** können Sie die folgenden Einstellungen für Ihre Organisa
 
 Zu den Optionen für Cloudspeicher in Microsoft Teams gehören zurzeit Box, Dropbox, Google Drive und ShareFile. Benutzer können Dateien aus Cloudspeicherdiensten in Microsoft Teams-Kanäle und -Chats hochladen und dort freigeben. Klicken oder tippen Sie auf die Umschaltfläche neben den Cloudspeicheranbietern, die Ihre Organisation verwenden möchte.
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+![Screenshot des Abschnitts „Custom cloud storage“ (Benutzerdefinierter Cloudspeicher)](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
 <a name="user-settings-by-license"></a>Benutzereinstellungen nach Lizenz
 ------------------------
@@ -104,7 +104,7 @@ Standardmäßig können alle Benutzer Teams oder Gruppen erstellen. Benutzer kö
 
 Zurzeit kann ein Office 365-Mandant maximal 500.000 Teams enthalten. Ein globaler Administrator kann beliebig viele Teams erstellen. Ein Benutzer kann 250 Teams erstellen. Ein Teambesitzer kann 2.500 Mitglieder zu einem Team hinzufügen.
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
+![Screenshot des Abschnitts „Benutzereinstellungen nach Lizenz“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 
 Kanäle sind Unterkategorien von Teams. Alle Teammitglieder können Kanäle hinzufügen und sich an den Unterhaltungen im Kanal beteiligen. Sie können einen Kanal für eine Aktivität oder eine Abteilung erstellen. Unterhaltungen, Dateien und Wikis sind zwar kanalspezifisch, aber für alle Teammitglieder sichtbar.
 
@@ -114,7 +114,7 @@ Kanäle sind Unterkategorien von Teams. Alle Teammitglieder können Kanäle hinz
 
 Im Abschnitt **Anrufe und Besprechungen** können Sie die folgenden Einstellungen für Ihre Organisation konfigurieren:
 
-> ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+> ![Screenshot des Abschnitts „Anrufe und Besprechungen“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
 -   **„Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen):** Wenn diese Option aktiviert ist, können Benutzer private Besprechungen planen, die nicht in einem Kanal aufgeführt sind.
 
@@ -134,7 +134,7 @@ An einer Besprechung können maximal 80 Personen teilnehmen. In einem privaten 
 
 Im Abschnitt „Messaging“ können Sie die folgenden Einstellungen für Ihre Organisation konfigurieren:
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
+![Screenshot des Abschnitts „Messaging“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
 
 -   **Giphy aktivieren, damit Benutzer GIF-Dateien zu Unterhaltungen hinzufügen können:** Wenn diese Option aktiviert ist, können Benutzer animierte Bilder in den Unterhaltungen verwenden.
 
@@ -161,6 +161,6 @@ Im Abschnitt „Messaging“ können Sie die folgenden Einstellungen für Ihre O
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Entscheidungspunkt         |Welche Einstellungen für Microsoft Teams wird Ihre Organisation aktivieren?         |
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Nächste Schritte        |Dokumentieren Sie diese Entscheidungen in [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md).         |
+|![Entscheidungspunktsymbol](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Entscheidungspunkt         |Welche Einstellungen für Microsoft Teams wird Ihre Organisation aktivieren?         |
+|![Symbol für „Nächste Schritte“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Nächste Schritte        |Dokumentieren Sie diese Entscheidungen in [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md).         |
 

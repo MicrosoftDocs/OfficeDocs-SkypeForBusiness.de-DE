@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, welche Tools das Rollout von Microsoft Teams unterstützen. Dazu zählen E-Mail-Vorlagen, Erste Schritte-Handbücher, Customer Success Kit-Ressourcen usw."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d1b55c00109f60005fe7813bcfb82c4e56ed5aef
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: db70e78e57895497183d20e99282ccc1e7654e1d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Beziehen von Tools zur Unterstützung eines Rollouts von Microsoft Teams
 =================================================
@@ -27,6 +27,6 @@ Microsoft Teams fördert die Zusammenarbeit und stellt gleichzeitig einen benutz
 
 ||||
 |---------|---------|---------|
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | Entscheidungspunkt        | <ul><li>Wie lautet Ihre Change Management-Strategie?</li><li>Wie ist Ihr Unternehmen mit dem Change Management für andere Technologie-Rollouts verfahren?</li><li>Wer sind Ihre Befürworter aus der Führungsebene, Pioniere, Dienstbesitzer/IT-Administratoren, die den Erfolg von Teams in Ihrer Organisation beeinflussen?</li><li>Aus wem setzt sich Ihre Pilotgruppe zusammen?</li></ul>  |
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |Nächste Schritte | <ul><li>Entwickeln Sie eine Change Management- und Übernahmestrategie für Microsoft Teams unter Verwendung von bewährten Methoden.</li><li>Führen Sie die Pioniere, Teamleiter für Ihre Strategie, das Customer Success Kit und die Erste Schritte-Handbücher ein, um das interne Team aus Pionieren für Microsoft Teams zu erstellen.</li></ul> |
+|![Entscheidungspunktsymbol](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | Entscheidungspunkt        | <ul><li>Wie lautet Ihre Change Management-Strategie?</li><li>Wie ist Ihr Unternehmen mit dem Change Management für andere Technologie-Rollouts verfahren?</li><li>Wer sind Ihre Befürworter aus der Führungsebene, Pioniere, Dienstbesitzer/IT-Administratoren, die den Erfolg von Teams in Ihrer Organisation beeinflussen?</li><li>Aus wem setzt sich Ihre Pilotgruppe zusammen?</li></ul>  |
+|![Symbol für „Nächste Schritte“](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |Nächste Schritte | <ul><li>Entwickeln Sie eine Change Management- und Übernahmestrategie für Microsoft Teams unter Verwendung von bewährten Methoden.</li><li>Führen Sie die Pioniere, Teamleiter für Ihre Strategie, das Customer Success Kit und die Erste Schritte-Handbücher ein, um das interne Team aus Pionieren für Microsoft Teams zu erstellen.</li></ul> |
 

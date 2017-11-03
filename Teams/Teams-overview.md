@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erhalten Sie Informationen zu Microsoft Teams, zur Infrastruktur und zur Verwendung von Teams mit Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b19e75db5f83403c7381046595d07e445a13cb0d
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 10d4297f8b4cfcf3bf28a2a64177f078130166eb
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-microsoft-teams"></a>Übersicht über Microsoft Teams
 ===========================
@@ -63,7 +63,7 @@ Verschiedene Gruppen haben unterschiedliche Anforderungen, die auf ihrer jeweili
 
 Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 365. Einen detaillierten Leitfaden zur Verwendung finden Sie unter [FastTrack Productivity Library](https://go.microsoft.com/fwlink/?linkid=854630).
 
-![](media/Overview_of_Microsoft_Teams_image1.png)
+![Microsoft Teams-Symbol](media/Overview_of_Microsoft_Teams_image1.png)
 
 -   Wird von Benutzern und Teams genutzt, die in Echtzeit mit dem gleichen Personenkreis zusammenarbeiten möchten.
 
@@ -71,7 +71,7 @@ Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 36
 
 -   Ermöglicht Benutzern das Einbinden einer breiten Palette von Tools in ihren Arbeitsbereich (z. B. Planner, Power BI, GitHub usw.).
 
-![](media/Overview_of_Microsoft_Teams_image2.png)
+![Microsoft Outlook-Symbol](media/Overview_of_Microsoft_Teams_image2.png)
 
 -   Wird von Benutzern genutzt, die es vorziehen, in der vertrauten Umgebung mit E-Mail und/oder formeller und strukturierter zu arbeiten.
 
@@ -79,7 +79,7 @@ Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 36
 
 -   Kommuniziert und unterhält Verbindungen mit Benutzern außerhalb unmittelbarer Arbeitsgruppen oder Organisationen.
 
-![](media/Overview_of_Microsoft_Teams_image3.png)
+![Yammer-Symbol](media/Overview_of_Microsoft_Teams_image3.png)
 
 -   Wird genutzt, um Benutzer aus der gesamten Organisation miteinander zu verbinden, praxisbezogene Communitys zu bilden und bewährte Methoden auszutauschen.
 
@@ -89,7 +89,7 @@ Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 36
 
 -   Regt Ihre an vorderster Front stehenden Mitarbeiter dazu an, Wissen und Fachkenntnisse weiterzugeben und zu erwerben.
 
-![](media/Overview_of_Microsoft_Teams_image4.png)
+![Skype for Business-Symbol](media/Overview_of_Microsoft_Teams_image4.png)
 
 -   Wird für Echtzeitkommunikation und Zusammenarbeit, intern und extern mit Kunden bzw. Partnern, genutzt.
 
@@ -98,7 +98,7 @@ Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 36
 -   Bietet Telefoniefunktionen für Unternehmen.
 
 
-![](media/Overview_of_Microsoft_Teams_image5.png)
+![Microsoft SharePoint-Symbol](media/Overview_of_Microsoft_Teams_image5.png)
 
 -   Wird für Websites und Portale genutzt (zum Beispiel Firmennachrichten und -ankündigungen, Suche und Zusammenarbeit an Dokumenten).
 

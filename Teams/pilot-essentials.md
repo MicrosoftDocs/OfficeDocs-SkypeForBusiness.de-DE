@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Anleitung zum Starten eines Microsoft Teams-Pilotprojekts, um die gesamte Funktionalität zu erfassen, die Teams Ihrem Unternehmen bieten kann, während Skype for Business weiterhin genutzt wird."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4340e3fa6b6ebdaf20105cfa568d17d9d3802b4e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Microsoft Teams als Pilotprojekt neben Skype for Business
 ============================================
@@ -32,9 +32,9 @@ Für Skype for Business-Bestandskunden maßgeschneidert bietet diese Ressource A
 
 Das zur Überprüfung der Organisationsbereitschaft entworfene Pilotprojekt stellt eine realistische Überprüfung Ihrer Ressourcen und Vorgehensweisen dar, die im größeren Umfang erforderlich ist, bevor ein Rollout in der gesamten Organisation vorgenommen werden kann.  Um Ergebnisse auf einem hohen realistischen Niveau zu erzielen, sollte das Pilotprogramm eine Imitation davon sein, wie Benutzer in der heutigen Zeit kommunizieren und zusammenarbeiten, und ein ideales Bereitstellungszenario mit Skype for Business und Microsoft Teams bieten. Unabhängig davon, ob Ihre Organisation die gleichzeitige Ausführung von Skype for Business und Teams plant oder zu einem späteren Zeitpunkt zu Teams wechseln möchte, kann ein Pilotprojekt Ihrer Organisation helfen, den richtigen Pfad zu beschreiten. *Los geht's!*
 
-![](media/pilot_essentials_image3.png)
+![Diagramm der Prozessschritte für ein Pilotprojekt](media/pilot_essentials_image3.png)
 
-## <a name="step-one-define-your-pilot-program-logistics"></a>Schritt 1: Definieren der Logistik für das Pilotprogramm
+## <a name="step-one-define-your-pilot-program-logistics"></a>Schritt 1: Definieren der Logistik für das Pilotprogramm
 
 Ein formales Pilotprogramm sollte Ihre weiteren Schritte festlegen und ein Projektteam, [INTELLIGENTE](https://wikipedia.org/wiki/SMART_criteria) Ziele, einen festen Zeitplan, einen detaillierten Testplan und Feedbackmechanismen enthalten. Nehmen Sie sich Zeit für diese Punkte, und arbeiten Sie die Logistik für das Pilotprogramm aktiv aus.
 

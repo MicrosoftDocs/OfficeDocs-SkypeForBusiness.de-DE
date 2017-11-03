@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier finden Sie Informationen zu den verschiedenen Office 365-Lizenzen und darüber, welche Lizenzen für die Aktivierung von Microsoft Teams erforderlich sind und wie diese Lizenzen aktiviert bzw. deaktiviert werden."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d3c49ab67d3f3b80f8501941a2223b7a4435f514
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: bb78ffd86183ae35800fc709ad74df691a43a4e8
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Office 365-Lizenzierung für Microsoft Teams
 ========================================
@@ -30,7 +30,7 @@ Mit den folgenden Office 365-Abonnements können Benutzer Microsoft Teams verwen
 
 |||
 |---------|---------|
-|![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Hinweis     |Microsoft Teams ist auch für gemeinnützige Organisationen verfügbar. Die Lizenzierung für den öffentlichen Dienst wird derzeit nicht unterstützt, ist aber für die Zukunft in Planung.         |
+|![Hinweissymbol](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Hinweis     |Microsoft Teams ist auch für gemeinnützige Organisationen verfügbar. Die Lizenzierung für den öffentlichen Dienst wird derzeit nicht unterstützt, ist aber für die Zukunft in Planung.         |
         
 
 
@@ -43,8 +43,8 @@ Microsoft Teams ist nicht als eigenständiger Dienst verfügbar.
 <a name="microsoft-teams-license"></a>Microsoft Teams-Lizenz
 ---------------------
 
-Die Microsoft Teams-Lizenz ist für alle Benutzer mit einem gültigen Office 365-Abonnement aktiviert.
+Die Microsoft Teams-Lizenz ist standardmäßig für alle Benutzer aktiviert, denen die berechtigten Office 365-Abonnements zugewiesen sind.
 
-![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
+![Screenshot der Einstellungen im Lizenzabschnitt im Office 365 Admin Center mit aktivierter Option „Microsoft Teams“](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
 
 Microsoft Teams kann für die gesamte Organisation aktiviert oder deaktiviert werden und ist standardmäßig aktiviert. **Sie können Microsoft Teams auch nur für einen Teil der Organisation aktivieren.** Wenn eine Organisation ein Microsoft Teams-Pilotprojekt mit einer ausgewählten Benutzergruppe starten und den Zugriff auf Microsoft Teams für andere Benutzer aktiv einschränken möchte, muss die Microsoft Teams-Lizenz für alle Benutzer deaktiviert werden, die nicht Teil der Pilotgruppe sind.

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Erfahren Sie, wie Sie Microsoft Teams in Ihrer Office 365-Organisation einrichten können."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5a35ad50fdbd1c99bfeb11b9f90948ef7490f8fc
-ms.sourcegitcommit: a052a9d4db0a543f491bbd4708ca5a453145e2ef
+ms.openlocfilehash: 8dafe7ce0f6531f37c85b0fa0bea7c824b276ed2
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Microsoft Teams in Ihrer Office 365-Organisation einrichten
 ======================================================
@@ -25,19 +25,19 @@ Organisationen, die ändern möchten, ob Microsoft Teams aktiviert ist oder nich
 
 1.  Melden Sie sich beim [Office 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=854665) mit einem Konto mit globalen Administratorberechtigungen an.
 
-2.  Navigieren Sie zu **Dienste und Add-Ins**.
+2.  Navigieren Sie zu **Einstellungen** > **Dienste und Add-Ins**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
+    ![Screenshot des Abschnitts „Einstellungen“ im Office 365 Admin Center mit ausgewählter Option „Dienste und Add-Ins“ ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
 
-3.  Klicken Sie auf der Seite für Dienste und Add-Ins auf **Microsoft Teams**.
+3.  Klicken Sie auf der Seite „Dienste und Add-Ins“ auf **Microsoft Teams**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+    ![Screenshot der Seite „Dienste und Add-Ins“ mit ausgewählter Option „Microsoft Teams“](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  Um Microsoft Teams für die Organisation zu aktivieren, legen Sie die **Umschaltfläche** auf **Ein** fest und klicken Sie anschließend auf **Speichern**.
+4.  Um Microsoft Teams für die Organisation zu aktivieren, legen Sie die **Umschaltfläche** auf **Ein** fest, und klicken Sie anschließend auf **Speichern**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![Screenshot der Seite mit den Microsoft Teams-Einstellungen, auf der die Umschaltfläche auf „Ein“ festgelegt ist, um Microsoft Teams zu aktivieren](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
 
 
 |  | |
 |---------|---------|
-|![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Hinweis     |Die Funktion auf Mandantenebene für die Steuerung des Ein/Aus-Status von Microsoft Teams ist vorübergehend verfügbar und wird zu einem späteren Zeitpunkt entfernt. Zu diesem Zeitpunkt wird der Zugriff auf Microsoft Teams nur über eine Lizenzierung auf Benutzerebene gesteuert.         |
+|![Hinweissymbol](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Hinweis     |Die Funktion auf Mandantenebene für die Steuerung des Ein/Aus-Status von Microsoft Teams ist vorübergehend verfügbar und wird zu einem späteren Zeitpunkt entfernt. Zu diesem Zeitpunkt wird der Zugriff auf Microsoft Teams nur über eine Lizenzierung auf Benutzerebene gesteuert.         |

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Erfahren Sie, wie Office 365-Gruppen und -Gruppenmitgliedschaften mit Microsoft Teams funktionieren.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: de8e4298345145c8caf9d03397cf026187b11c29
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 45a3607778d87e1de075468101a9f7e1a081688e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365-Gruppen und Microsoft Teams
 =====================================
@@ -28,7 +28,7 @@ Wenn Sie ein Microsoft Team erstellen, erstellen Sie am Backend eine Office 365-
 
 |||
 |---------|---------|
-|  ![](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Hinweis    |Beim Löschen einer Office 365-Gruppe wird der Postfach-Alias für permanente Outlook/OWA-Unterhaltungen und Teams-Besprechungseinladungen entfernt, und die SharePoint-Site wird zum Löschen markiert. Es dauert ungefähr 20 Minuten, bis sich das Löschen eines Teams in Outlook auswirkt. Beim Löschen eines Teams aus dem Teams-Client wird dieses sofort aus allen Ansichten der Mitglieder des Teams entfernt. Wenn Sie ein Mitglied aus einer Office 365-Gruppe entfernen, in der die Teams-Funktionen aktiviert sind, kann es zu einer Verzögerung von ungefähr einer Stunde kommen, bevor das Team aus der Ansicht im Teams-Client entfernt wird.         |
+|  ![Hinweissymbol](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Hinweis    |Beim Löschen einer Office 365-Gruppe wird der Postfach-Alias für permanente Outlook/OWA-Unterhaltungen und Teams-Besprechungseinladungen entfernt, und die SharePoint-Site wird zum Löschen markiert. Es dauert ungefähr 20 Minuten, bis sich das Löschen eines Teams in Outlook auswirkt. Beim Löschen eines Teams aus dem Teams-Client wird dieses sofort aus allen Ansichten der Mitglieder des Teams entfernt. Wenn Sie ein Mitglied aus einer Office 365-Gruppe entfernen, in der die Teams-Funktionen aktiviert sind, kann es zu einer Verzögerung von ungefähr einer Stunde kommen, bevor das Team aus der Ansicht im Teams-Client entfernt wird.         |
 
 
 <a name="group-membership"></a>Gruppenmitgliedschaft:
