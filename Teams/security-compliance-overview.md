@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Eine Übersicht über die Sicherheits- und Compliance-Funktionen von Microsoft Teams, einschließlich Überwachung und Berichterstellung, Compliancesuche in Inhalten, eDiscovery und vielem mehr"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 6cca28ee5cd96d24e4b0da0a29748e0cf383eb0c
+ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/02/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -119,7 +119,14 @@ Die Suche in Inhalten und eDiscovery müssen nicht im Security & Compliance Cent
 <a name="location-of-data-in-microsoft-teams"></a>Speicherort von Daten in Microsoft Teams
 -----------------------------------
 
-Die Daten in Teams befinden sich in der Region, die der Mandantenaffinität entspricht. Zurzeit unterstützt Teams die Regionen Amerika, EMEA und APAC. Teams wird in Zukunft GoLocal unterstützen. In diesem Fall bleiben die Daten im Land (nicht nur in der Region). Über Updates halten wir Sie in der [*Office 365-Roadmap*](https://go.microsoft.com/fwlink/?linkid=855778) auf dem Laufenden.
+Die Daten in Teams befinden sich in der Region, die der Mandantenaffinität entspricht. Zurzeit unterstützt Teams die Regionen Amerika, EMEA und APAC. 
+
+Ab dem 1. November 2017 bietet Microsoft Teams nur für neue Mandanten die Datenspeicherung im Vereinigten Königreich an. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat.
+
+> [!NOTE]
+> Vorhandene Mandanten aus dem Vereinigten Königreich bleiben bis zur Veröffentlichung eines Migrationsplans (voraussichtlich im Jahr 2018) in der Region EMEA.
+
+Weitere Informationen finden Sie in der Microsoft Teams Tech Community im [Blogbeitrag](https://go.microsoft.com/fwlink/p/?linkid=862275) zur Einführung der Datenspeicherung im Vereinigten Königreich.
 
 <a name="privacy-in-microsoft-teams"></a>Datenschutz in Microsoft Teams
 --------------------------
