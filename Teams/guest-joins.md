@@ -1,18 +1,18 @@
 ---
 title: Beitritt eines Gasts zu einem Team
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast eingeladen wird, einem Team in Microsoft Teams beizutreten."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 50889f9d048f90f5857ce8190f821c89b20d2843
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 68aa176d3a1ab75a7d6d3baec01c18242ebea341
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================

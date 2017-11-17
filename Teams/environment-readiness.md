@@ -2,17 +2,17 @@
 title: "Überprüfen der Bereitschaft Ihrer Umgebung für Microsoft Teams | Microsoft-Support"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, auf was Sie achten müssen, wenn Sie die Bereitschaft Ihrer Umgebung für Microsoft Teams überprüfen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 473e86cd7f11fe4623d4bf8004b9d6a5f4df121b
-ms.sourcegitcommit: e0efee5350da54a1f1ae1c317f8613652c820bc6
+ms.openlocfilehash: 4ddf7401f0797b0d3617686ff4e8f6aeb8cda7b6
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Überprüfen der Bereitschaft Ihrer Umgebung für Microsoft Teams
 ===========================================

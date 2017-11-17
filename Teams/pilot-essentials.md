@@ -2,24 +2,24 @@
 title: Microsoft Teams als Pilotprojekt neben Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Anleitung zum Starten eines Microsoft Teams-Pilotprojekts, um die gesamte Funktionalität zu erfassen, die Teams Ihrem Unternehmen bieten kann, während Skype for Business weiterhin genutzt wird."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Microsoft Teams als Pilotprojekt neben Skype for Business
 ============================================
 
 Als Skype for Business- und Office 365-Bestandskunde ist Ihre Organisation bereits ein Teil der modernen Arbeitsplatzbewegung, die Benutzer ermutigt, kreativer, innovativer und produktiver zu sein. Mit mehr Funktionalität, wie zum Beispiel Zusammenarbeit-Hubs für Teamarbeit, App-Integration und Dateispeicherung, geht Microsoft Teams sogar noch einen Schritt weiter. Wenn Sie die aktuellen Funktionen von Skype for Business mit dem Mehrwert von Teams vereinen, haben Sie eine leistungsstarke Kommunikations- und Zusammenarbeitslösung, mit der die Arbeit der Benutzer revolutioniert werden kann.
 
-Ihre Teams-Reise sowie die Empfehlungen für zukünftige Handlungsschritte basieren auf den Ergebnissen Ihres Pilotprojekts. Während Sie weiterhin Skype for Business nutzen, empfehlen wir Ihnen zu ermitteln, welchen Mehrwert Teams für Ihre Organisation darstellen kann. Da es einige sich überschneidenden Funktionen in Teams und Skype for Business gibt, sollten Sie mit einem Benutzerpilotprojekt beginnen. Das Pilotprojekt ist eine Bereitstellung mit geringem Umfang, mit der Sie die Interoperabilität mit Skype for Business in Ihrer Umgebung prüfen und herausfinden können, wie Ihre Endbenutzer ihre Produktivität steigern und dabei möglicherweise auftretende Probleme bei der gleichzeitigen Ausführung beider Produkte minimieren können.
+Ihre Teams-Reise sowie die Empfehlungen für zukünftige Handlungsschritte basieren auf den Ergebnissen Ihres Pilotprojekts. Während Sie weiterhin Skype for Business nutzen, empfehlen wir Ihnen zu ermitteln, welchen Mehrwert Teams für Ihre Organisation darstellen kann. Da sich einige der Funktionen von Microsoft Teams und Skype for Business überschneiden, sollten Sie mit einem Benutzerpilotprojekt beginnen. Das Pilotprojekt ist eine Bereitstellung mit geringem Umfang, mit der Sie die Interoperabilität mit Skype for Business in Ihrer Umgebung überprüfen und herausfinden können, wie Ihre Endbenutzer ihre Produktivität steigern und dabei mögliche Probleme bei der gleichzeitigen Ausführung beider Produkte minimieren können.
 
 Für Skype for Business-Bestandskunden maßgeschneidert bietet diese Ressource Anleitungen und empfohlene Vorgehensweisen für Ihre Reise. Dabei können Sie:
 
@@ -79,7 +79,7 @@ Ein formales Pilotprogramm sollte Ihre weiteren Schritte festlegen und ein Proje
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Nächste Aktion:</strong><ul><li>Stellen Sie Ihr Team für das Pilotprogramm zusammen</li><li>Benennen Sie die Geschäftsszenarien und Funktionen, die Sie als Teil Ihres Pilotprojeks testen</li><li>Formulieren Sie abschließend Ihre Erfolgskriterien und Zielvorgaben</li><li>Legen Sie einen festen Zeitraum für das Pilotprojekt fest</li></ul></td>
+<td align="left"><strong>Nächste Aktionen:</strong><ul><li>Stellen Sie Ihr Team für das Pilotprogramm zusammen</li><li>Benennen Sie die Geschäftsszenarien und Funktionen, die Sie als Teil Ihres Pilotprojeks testen</li><li>Formulieren Sie abschließend Ihre Erfolgskriterien und Zielvorgaben</li><li>Legen Sie einen festen Zeitraum für das Pilotprojekt fest</li></ul></td>
 </tr>
 </thead>
 <tbody>
@@ -141,7 +141,11 @@ Schulen Sie die Teilnehmern Ihres Pilotprojekts darüber, was passiert, wann und
 
 Mit einer gut vorbereiteten Logistik können Sie Ihr Pilotprojekt jetzt starten. Die Durchführung Ihres Pilotprojekts beinhaltet die Kommunikation mit Ihren Pilotprojektteilnehmern, die Überwachung Ihres Netzwerks sowie der Nutzung, um sicherzustellen, das Ihr Netzwerk und Ihre Qualität stabil bleiben, das Sammeln von Teilnehmer-Feedback und die Überprüfung von Helpdesk-Tickets in Bezug auf Fragen zu Teams.
 
-Vorgeschlagene Zeitschiene im Hinblick auf ein 30-Tage-Pilotprojekt:
+> [!IMPORTANT]
+> Microsoft Teams ist standardmäßig aktiviert. Vergewissern Sie sich dennoch vor Beginn des Pilotprojekts, dass alle Pilotbenutzer für Microsoft Teams aktiviert sind. Hilfe hierzu finden Sie unter [Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](enable-features-office-365.md).
+> 
+
+Hier ist ein vorgeschlagener Zeitplan für ein 30-tägiges Pilotprojekt:
 
 -   Eine Woche vor dem Kickoff des Pilotprojekts: Schreiben Sie die Teilnehmer des Pilotprojekts erstmalig an.
 

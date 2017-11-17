@@ -2,17 +2,17 @@
 title: "Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation | Microsoft-Support"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 ======================================================
@@ -23,7 +23,8 @@ Unten sehen Sie eine Liste der Funktionen, die Office 365-Administratoren in Mi
 
 Wenn nichts anderes angegeben ist, lautet der Standardwert für die jeweilige Option „Ein“.
 
-Hinweis: Office 365-Administratoren können Microsoft Teams jederzeit über das Office 365 Admin Center deaktivieren. Beachten Sie, dass Benutzer mit aktiven Lizenzen für Microsoft Teams die Kachel der Teams-App auch dann noch sehen, wenn Sie Teams deaktiviert haben. Details zum Entfernen von Lizenzen von Benutzern finden Sie unter „Verwalten des Benutzerzugriffs auf Microsoft Teams-Lizenzen“. Wenn Teams deaktiviert wurde, ist der Zugriff über den Microsoft Teams-Client blockiert, aber die über andere Clients und Dienste verfügbaren Daten sind nach wie vor verfügbar. Dies gilt zum Beispiel für Dateien aus SharePoint und OneDrive. Alle Daten verbleiben an Ort und Stelle, solange die Teams nicht explizit gelöscht werden.
+> [!NOTE]
+> Office 365-Administratoren können Microsoft Teams jederzeit im Office 365 Admin Center deaktivieren. Beachten Sie, dass Benutzer mit aktiven Lizenzen für Microsoft Teams die Kachel der Microsoft Teams-App auch dann noch sehen, wenn Sie Microsoft Teams deaktiviert haben. Details zum Entfernen von Lizenzen von Benutzern finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md). Wenn Teams deaktiviert wurde, ist der Zugriff über den Microsoft Teams-Client blockiert, aber die über andere Clients und Dienste verfügbaren Daten sind nach wie vor verfügbar. Dies gilt zum Beispiel für Dateien aus SharePoint und OneDrive. Alle Daten verbleiben an Ort und Stelle, solange die Teams nicht explizit gelöscht werden.
 
 <a name="tenant-wide-settings"></a>Mandantenweite Einstellungen 
 ---------------------

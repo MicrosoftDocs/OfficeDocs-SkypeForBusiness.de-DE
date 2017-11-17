@@ -1,18 +1,18 @@
 ---
 title: "Hinzufügen eines Gasts zu einem Team"
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier lernen Sie die verfügbaren Tools kennen, mit denen Administratoren neue Gastbenutzer zu einer Organisation hinzufügen können. Dies schließt den Microsoft Teams-Desktop, Webclients und das Portal für Azure Active Directory B2B-Zusammenarbeit ein."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 640eb72c55d58e931fff7d52212b1a7dc9e6cdbf
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: 7764b05a3c3e945e505800ddf30372a2438236a6
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="add-a-guest-to-a-team"></a>Hinzufügen eines Gasts zu einem Team
 =====================
