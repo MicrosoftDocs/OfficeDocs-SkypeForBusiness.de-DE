@@ -3,25 +3,28 @@ title: "Bekannte Probleme für Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/15/2017
 ms.topic: article
 ms.service: msteams
 description: "Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0f90929f2af5d72df5851d25a2456b4613fd5613
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
- [Hilfe für Microsoft Teams](microsoft-teams-help.md) > [Desktop und Web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Bekannte Probleme für Microsoft Teams Aktualisierung: 14. September 2017 
   
 In der folgenden Tabelle finden Sie die bekannten Probleme für Microsoft Teams.
 ## 
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
+|Kunden aus der EU und der APAC-Region wird eine Fehlermeldung angezeigt, wenn sie einen Gastbenutzer aus einem anderen Mandanten hinzufügen.    <br/> | Bei Kunden in der EU und in der APAC-Region tritt eine Replikationsverzögerung zwischen Microsoft Teams und Azure Active Directory auf. Wenn Benutzer eines EU- oder APAC-Mandanten versuchen, einen Gastbenutzer aus einem anderen Mandanten hinzuzufügen, werden sie in einer Fehlermeldung aufgefordert, es erneut zu versuchen.   <br/> |Klicken Sie erneut auf die Schaltfläche zum Wiederholen, um den Gastbenutzer hinzuzufügen.  <br/> |08.11.2017  <br/> |
+|Wenn Sie Microsoft Teams über Internet Explorer oder Microsoft Edge beitreten, entsteht im Programm eine Dauerschleife, oder das Programm stürzt ab, und die Anmeldung funktioniert nicht.   <br/> | Ihre Organisation nutzt die Option „Vertrauenswürdige Sites“ in Internet Explorer, und die Anmeldung über die webbasierte Microsoft Teams-Anwendung funktioniert nicht richtig, da vertrauenswürdige Sites für Microsoft Teams nicht zulässig sind. <br/>|Nehmen Sie mit Administratorrechten oder über ein Gruppenrichtlinienobjekt die folgenden Änderungen an den Internet Explorer-Einstellungen vor:<br/><ol><li>Akzeptieren Sie unter „Internetoptionen &gt; Datenschutz &gt; Erweitert“ Cookies von Erstanbietern und Cookies von Drittanbietern, und aktivieren Sie das Kontrollkästchen „Sitzungscookies immer zulassen“.</li><li>Klicken Sie auf „Internetoptionen &gt; Vertrauenswürdige Sites &gt; Sites“, und fügen Sie alle folgenden Sites hinzu:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>HINWEIS</b>: Validieren Sie immer alle vertrauenswürdigen URLs für Microsoft Teams, und lassen Sie sie zu. Die Anforderungen finden Sie im folgenden Dokument: [URLs und IP-Adressbereiche von Office 365](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> <br/>|01.11.2017  <br/> |
+|Der Upload von Fotos in Microsoft Teams wird in OWA/Outlook nicht gemäß der Richtlinie blockiert.   <br/> | Microsoft Teams lässt zu, dass Benutzer Fotos direkt in Office 365 hochladen, obwohl Richtlinieneinstellungen vorhanden sind, die Fotouploads für OWA verhindern.   <br/> <br/> ||16.10.2017  <br/> |
+|Eine Microsoft Teams-URL mit Parametern wird nach einer Anmeldungsumleitung abgeschnitten.  <br/> | Wenn Sie zum ersten Mal nach der Anmeldung in einer Microsoft Teams-Web-App in Internet Explorer und Microsoft Edge einen Link zu einer freigegebenen Microsoft Teams-Datei öffnen, werden Sie an ein falsches Dokument umgeleitet. Wenn Sie bereits bei der Microsoft Teams-Web-App angemeldet sind und auf den Link zu der freigegebenen Datei klicken, funktioniert der Link wie erwartet.   <br/> <br/> ||11.10.2017  <br/> |
 |Unterstützung des Webclients in Safari  <br/> |Benutzer, die den Microsoft Teams-Webclient in Safari zu öffnen versuchen, werden aufgefordert, den Desktopclient herunterzuladen. Microsoft überprüft die Safari-Unterstützung und informiert in der öffentlichen Office 365-Roadmap über Updates.  <br/> |Verwenden Sie unterstützte Browser wie zum Beispiel Microsoft Edge 12+, Internet Explorer 11+, Firefox 47.0+ und Chrome 51.0+.  <br/> |2.11.2016  <br/> |
 |Benutzer können einen bereits vorhandenen Kanalnamen nicht erneut erstellen.  <br/> |Ein erstellter Kanalname kann nicht erneut erstellt werden, selbst dann nicht, wenn er gelöscht wird. Unser System behält diese Daten für Szenarien im Zusammenhang mit dem Schutz von Informationen bei.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/> |
 |In der mobilen App ist es nicht möglich, Aufkleber einzufügen.  <br/> |In den mobilen Apps können Sie keine Aufkleber verwenden.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/> |

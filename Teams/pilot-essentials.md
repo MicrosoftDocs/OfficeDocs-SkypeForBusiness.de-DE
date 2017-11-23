@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Anleitung zum Starten eines Microsoft Teams-Pilotprojekts, um die gesamte Funktionalität zu erfassen, die Teams Ihrem Unternehmen bieten kann, während Skype for Business weiterhin genutzt wird."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 4cfbf9fa1e5f06281564e5e9fa61e66aaa9090b3
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Microsoft Teams als Pilotprojekt neben Skype for Business
 ============================================
@@ -109,7 +109,7 @@ Zwecks optimaler Auswertung wird die Einbeziehung Ihrer Benutzerbasis zu 2 bis 5
 
 ## <a name="step-three-design-your-test-plan-and-feedback-survey"></a>Schritt 3: Entwerfen Sie Ihren Testplan und Ihre Feedbackumfrage
 
-Ein erfolgreiches Pilotprojekt bietet Ihren Teilnehmern klar definierte Aufgabenstellungen sowie eine Feedback-Schleife. Möglicherweise möchte Ihre Organisation alle Funktionen auf einmal in einem Pilotprojekt testen, oder sie entscheidet sich für einen graduellen Ansatz (z. B. Zusammenarbeit, dann Besprechungen und anschließend Chat und Anrufe). Eine vordefinierte Umfrage ist eine einfache Methode zum Erfassen und Auswerten Pilotprojektergebnissen und sollte basierend auf den Szenarien/Funktionen im Testplan entworfen werden.
+Ein erfolgreiches Pilotprojekt bietet Ihren Teilnehmern klar definierte Aufgabenstellungen sowie eine Feedback-Schleife. Gruppieren Sie Aufgaben, um Ihren Benutzern realitätsnahe Szenarien zu präsentieren, die für ihre täglichen Aktivitäten relevant sind. Möglicherweise möchte Ihre Organisation alle Funktionen auf einmal in einem Pilotprojekt testen, oder sie entscheidet sich für einen graduellen Ansatz (z. B. erst Testen der Zusammenarbeit, dann Besprechungen und anschließend Chats und Anrufe). Stellen Sie sicher, dass Sie über einen offenen Kanal für Feedback verfügen, um den Fortschritt zu verfolgen und die Ergebnisse zu messen. Eine vordefinierte Umfrage ist eine einfache Methode zum Erfassen und Auswerten von Pilotprojektergebnissen und sollte basierend auf den Szenarien und Funktionen im Testplan entworfen werden.
 
 <table>
 <thead>

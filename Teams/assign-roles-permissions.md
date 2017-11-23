@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie Teambesitzer- und Mitgliederrollen sowie Berechtigungen (einschließlich Berechtigungen zum Erstellen von Teams) in Microsoft Teams zuweisen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9cc8a72cdabacb76638acb689c6622642c524c8e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 21e9a1cb3f77d657824f5d532469b7b5efe62ede
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Zuweisen von Rollen und Berechtigungen in Microsoft Teams
 ===============================================
@@ -40,7 +40,7 @@ Die folgende Tabelle zeigt den Unterschied zwischen Berechtigungen eines Besitze
 
 | | |
 |---------|---------|
-|![Glühbirnensymbol](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Hinweis     |Besitzer können in der Option „View Teams“ (Teams anzeigen) andere Mitglieder zu Besitzern ernennen. Ein Team kann maximal zehn Besitzer haben.         |
+|![Glühbirnensymbol](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Hinweis     |Besitzer können in der Option „View Teams“ (Teams anzeigen) andere Mitglieder zu Besitzern ernennen. Ein Team kann maximal 100 Besitzer haben. Es wird empfohlen, mindestens ein paar Besitzer festzulegen, die beim Verwalten des Teams helfen. Dadurch verhindern Sie auch verwaiste Gruppen, wenn der einzige Besitzer Ihre Organisation verlässt. Weitere Informationen zu verwaisten Gruppen finden Sie unter [Zuweisen eines neuen Besitzers zu einer verwaisten Gruppe](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).        |
 
 <a name="permissions-to-create-teams"></a>Berechtigungen zum Erstellen von Teams
 ---------------------------
