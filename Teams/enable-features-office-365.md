@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
+ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/20/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 ======================================================
@@ -110,8 +110,6 @@ Zurzeit kann ein Office 365-Mandant maximal 500.000 Teams enthalten. Ein globa
 Kanäle sind Unterkategorien von Teams. Alle Teammitglieder können Kanäle hinzufügen und sich an den Unterhaltungen im Kanal beteiligen. Sie können einen Kanal für eine Aktivität oder eine Abteilung erstellen. Unterhaltungen, Dateien und Wikis sind zwar kanalspezifisch, aber für alle Teammitglieder sichtbar.
 
 ### <a name="calls-and-meetings"></a>Anrufe und Besprechungen
-
-Kanäle sind Unterkategorien von Teams. Alle Teammitglieder können Kanäle hinzufügen und sich an den Unterhaltungen im Kanal beteiligen. Sie können einen Kanal für eine Aktivität oder eine Abteilung erstellen. Unterhaltungen, Dateien und Wikis sind zwar kanalspezifisch, aber für alle Teammitglieder sichtbar.
 
 Im Abschnitt **Anrufe und Besprechungen** können Sie die folgenden Einstellungen für Ihre Organisation konfigurieren:
 
