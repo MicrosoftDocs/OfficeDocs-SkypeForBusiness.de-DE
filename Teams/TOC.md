@@ -85,4 +85,6 @@
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 
+
 # [Entwicklerdokumentation für Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
+
