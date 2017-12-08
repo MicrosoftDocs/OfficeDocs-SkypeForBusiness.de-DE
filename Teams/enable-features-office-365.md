@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
-ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
+ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 ======================================================
@@ -56,7 +56,7 @@ Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse ein
 
 Im Abschnitt „E-Mail-Integration“ können Sie die folgenden Einstellungen für Ihre Organisation konfigurieren:
 
-   ![Screenshot des Abschnitts „E-Mail-Integration“ in „Mandantenweite Einstellungen“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![Screenshot des Abschnitts „E-Mail-Integration“ in „Mandantenweite Einstellungen“](media/QS-edu-email-integration.png)
 
 -   **„Allow users to send emails to channels“ (Zulassen, dass Benutzer E-Mails an Kanäle senden):** Wenn diese Option aktiviert ist, werden Mailhooks aktiviert, und Benutzer können Nachrichten in einem Kanal posten, indem sie eine E-Mail an die E-Mail-Adresse des Microsoft Teams-Kanals senden.
 
