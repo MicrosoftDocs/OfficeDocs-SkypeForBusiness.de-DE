@@ -1,5 +1,5 @@
 ---
-title: "Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams | Microsoft-Support"
+title: "Durchführen einer eDiscovery-Untersuchung von Inhalten in Microsoft Teams | Microsoft-Support"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, was Sie tun müssen, wenn Sie eine eDiscovery durchführen, zum Beispiel, wenn Sie alle elektronisch gespeicherten Informationen für Gerichtsverfahren eingereicht müssen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 976806b8deb77ca947782146dec5dccaa8b8429e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 2ca867ccdb3efb7a7d80152a4f55063cafc3bb28
+ms.sourcegitcommit: bbce24b59b31552a92eb76a8e360e8c72b4fdd8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/28/2017
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 ============================

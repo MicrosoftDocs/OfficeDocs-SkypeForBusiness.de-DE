@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Häufig gestellten Fragen zur Reise von Skype for Business Online zu Microsoft Teams"
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ffb09f4ef21828a8f0613bfa9402aa69263237d6
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 4303b59bb7044af57973fa1606338f5c4f6e2e5e
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Reise von Skype for Business zu Teams
 ==========================================================
@@ -31,6 +31,8 @@ Da Benutzer in mehreren Teams arbeiten, betrachten wir es als Chance, unsere Kom
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Gibt es eine verbindliche Frist, innerhalb derer die Kunden den Wechsel von Skype for Business Online zu Teams durchführen müssen? 
 
 Wir stellen unsere Roadmap für Microsoft Teams zur Verfügung, damit die Kunden die Funktionen von Teams in Bezug auf Ihre Anforderungen testen und ihren Wechsel zu Teams planen können. Die Kunden können einen Zeitpunkt für den Wechsel zu Team wählen, der ihren Anforderungen am besten gerecht wird.
+
+Eine gute Möglichkeit, sich über das Neueste zur Reise von Skype for Business zu Microsoft Teams auf dem Laufenden zu halten, ist die [Roadmap für die Funktionen von Skype for Business in Microsoft Teams](https://aka.ms/skype2teamsroadmap). In dieser herunterladbaren PDF-Datei (zumindest vorerst nur auf Englisch verfügbar) erfahren Sie, wie Microsoft zurzeit die Integration von Skype for Business-Funktionen in Microsoft Teams plant.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Was ist die Zukunft von Skype for Business Server? 
 

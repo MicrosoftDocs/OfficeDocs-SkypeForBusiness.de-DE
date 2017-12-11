@@ -63,6 +63,7 @@
 ## [3 - Aktivieren Sie Teams Seite an Seite mit Skype for Business](guidance-SkypeforBusiness.md)
 ## [4 - Erzielen Sie eine höhere Wertschöpfung durch Benutzerakzeptanz](continue-journey.md)
 ## [Häufig gestellte Fragen – Vision von Skype for Business & Teams](FAQ-journey.md)
+## [Tutorial: Reise von Skype for Business zu Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 # Videos und Schulungen
 ## [Bereitschaft von IT-Administratoren für Teams](ITAdmin-readiness.md)

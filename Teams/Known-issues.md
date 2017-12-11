@@ -3,16 +3,16 @@ title: "Bekannte Probleme für Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 11/15/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.service: msteams
 description: "Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
-ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
+ms.openlocfilehash: 8e459f8a77780bdc04b07a74f243635c07677a48
+ms.sourcegitcommit: bbce24b59b31552a92eb76a8e360e8c72b4fdd8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -37,7 +37,6 @@ In der folgenden Tabelle finden Sie die bekannten Probleme für Microsoft Teams.
 |Die Liste der Arbeitsbereiche ist nicht alphabetisch sortiert.  <br/> |Wenn Benutzer eine Power BI-Registerkarte hinzufügen und dabei zwischen Arbeitsbereichen wechseln, wird eine nicht alphabetisch sortierte Liste der Arbeitsbereiche, zwischen denen sie wechseln können, angezeigt.  <br/> |Keine Problemumgehung.  <br/> ||
 |Die Scrollleiste wird beim Auswählen von Berichten nicht mehr angezeigt.  <br/> |Benutzer können beim Hinzufügen von Power BI-Berichten nicht durch eine Liste mit Berichten scrollen, die nicht auf den Bildschirm passt, ohne die Scrollleiste zu verlieren.  <br/> |Scrollen Sie mit der NACH-OBEN- und der NACH-UNTEN-TASTE durch die Liste.  <br/> ||
 |Es ist nicht möglich, mehr als fünf Benutzer gleichzeitig hinzuzufügen.  <br/> |Für öffentliche Teams wird das gleichzeitige Hinzufügen von mehr als fünf Benutzern zurzeit nicht unterstützt. Das Limit für die Gesamtanzahl der Mitglieder beträgt nach wie vor 2.500.  <br/> |Dieses Problem wird in einer späteren Version behoben.  <br/> |13.03.2017  <br/> |
-|Kein externer Zugriff auf den Teams-Arbeitsbereich.  <br/> |Externer Zugriff ist zurzeit nicht verfügbar, aber Gastzugriff ist in der Microsoft Teams-Roadmap für August 2017 vorgesehen.  <br/> |Keine Problemumgehung.  <br/> |2.11.2016  <br/> |
 |Benutzer können kein Team erstellen.  <br/> |Möglicherweise hat Ihre Firma eine Richtlinie festgelegt, mit der eingeschränkt wird, wer Office 365-Gruppen oder Teams erstellen kann.  <br/> |Erkundigen Sie sich bei Ihrem IT-Administrator nach der Richtlinie Ihrer Firma für das Erstellen von Gruppen und Teams.  <br/> |13.03.2017  <br/> |
 |Maximale Anzahl von 2500 Mitgliedern pro Team  <br/> |Jedes Team in Microsoft Teams kann maximal 2500 Mitglieder enthalten.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/> |
 |Beim Löschen eines Teams wird auch die zugeordnete Gruppe gelöscht.  <br/> |Benutzer wissen möglicherweise nicht, dass zusammen mit dem Team auch die zugrunde liegende Office 365-Gruppe gelöscht wird. Außerdem wird, wenn die zugrunde liegende Office 365-Gruppe gelöscht wird, auch das Team gelöscht.  <br/> |Diese Informationen werden in zusätzlichen Benutzermeldungen in Microsoft Teams angezeigt. Auf der Benutzeroberfläche von Office 365-Gruppen werden diese Informationen nicht angezeigt.  <br/> |13.03.2017  <br/> |
@@ -56,13 +55,7 @@ In der folgenden Tabelle finden Sie die bekannten Probleme für Microsoft Teams.
 |Besprechungen sind nicht verfügbar.  <br/> |Die Besprechungsfunktion und das zugehörige Symbol sind nicht verfügbar, wenn das Exchange-Postfach lokal gehostet (verwaltet) wird.  <br/> |Führen Sie ein Upgrade der lokalen Bereitstellung auf Exchange 2016 CU3 oder höher aus.  <br/> |28.02.2017  <br/> |
 |Einschränkungen für Outlook-Add-Ins  <br/> |Um das Outlook-Add-In zu verwenden, müssen Sie sich mit mehrstufiger Authentifizierung (MFA) bei Teams anmelden. Wenn bei der Anmeldung mit MFA ein Fehler auftritt, können Sie sich zwar bei Teams anmelden, aber wenn Sie versuchen, das Add-In zu verwenden, wird eine Fehlermeldung angezeigt.  <br/> Das Add-In ist zurzeit nur für Windows-Benutzer verfügbar.  <br/> Das Add-In funktioniert nicht, wenn Sie einen Authentifizierungsproxy verwenden.  <br/> | Keine Problemumgehung. <br/> |02.08.2017  <br/> |
 |Grüne Artefakte beim Videorendering in Chrome  <br/> |Beim Anzeigen von Videos oder Übertragen des Bildschirms in einem Anruf oder MeetUp in Chrome sind grüne Artefakte zu sehen.  <br/> |Deaktivieren Sie die Einstellung für die Hardwarebeschleunigung in Chrome.  <br/> |03.08.2017  <br/> |
-|Gastzugriffseinstellungen für Office 365-Gruppen werden von Teams nicht berücksichtigt.  <br/> |Teams ermöglicht das Einladen von Gästen in ein Team, auch wenn der Gastzugriff in Office 365-Gruppen deaktiviert ist. Gäste erhalten eine Einladung, können aber nicht dem Team beitreten.  <br/> |Keine Problemumgehung.  <br/> |14.09.2017  <br/> |
-|Gäste ohne Lizenz können nur über einen direkten Link oder eine Einladungs-E-Mail teilnehmen.  <br/> |Gäste, die nicht in ihrem Basismandanten über eine Lizenz verfügen, können nur über einen direkten Link oder die Einladungs-E-Mail als Gäste teilnehmen.  <br/> |Gäste müssen über ihren Mandanten einen direkten Link zu einem Kanal als Lesezeichen festlegen.  <br/> |14.09.2017  <br/> |
-|Beim Einladen von Gästen zu einer Teams-Besprechung über den Teams-Client wird manchmal ein Unzustellbarkeitsbericht generiert.  <br/> |Wenn Benutzer Gäste über den Teams-Client zu einer Besprechung einladen, erhalten sie manchmal einen Unzustellbarkeitsbericht.  <br/> | Windows: Verwenden Sie das Outlook-Add-In, um Gäste zu Besprechungen einzuladen. <br/> Mac: Erstellen Sie manuell eine Outlook-Besprechungseinladung, und fügen Sie die Besprechungsdetails aus Ihrer Teams-Besprechung hinzu.  <br/> |14.09.2017  <br/> |
-| Es ist nicht möglich, Gäste mit numerischer E-Mail-Adresse einzuladen. <br/> | Es ist nicht möglich, Gäste, deren E-Mail-Adresse vor dem @-Zeichen nur Ziffern enthält, in Teams einzuladen. <br/> |Laden Sie die Benutzer gegebenenfalls über ihre sekundäre E-Mail-Adresse ein.  <br/> |14.09.2017  <br/> |
-| eDiscovery funktioniert bei Gästen nicht. <br/> |Nachrichten von Gästen in einem Kanal sind nicht für eDiscovery verfügbar.  <br/> | Keine Problemumgehung. <br/> eDiscovery für Chats, an denen Gäste beteiligt sind, wird bald verfügbar sein. Alle Nachrichten, auch die von Gästen gesendeten, werden an Benutzerpostfächer in Exchange Online geleitet.  <br/> eDiscovery für Chats zwischen Gästen wird nicht in absehbarer Zeit ermöglicht.  <br/> |14.09.2017  <br/> |
 |Für von Gästen erstellte Kanäle wird kein Wiki erstellt.  <br/> |Wenn Gäste einen neuen Kanal erstellen, wird die **Wiki**-Registerkarte nicht erstellt. Es gibt keine Möglichkeit, eine **Wiki**-Registerkarte manuell an den Kanal anzufügen. <br/> |Keine Problemumgehung.  <br/> ||
-|Gäste, die MFA verwenden, haben möglicherweise Probleme, auf die Registerkarte **Dateien** zuzugreifen. <br/> |Gäste, die mehrstufige Authentifizierung (MFA) verwenden, haben möglicherweise zeitweise Probleme, auf die Registerkarte **Dateien** zuzugreifen. <br/> |Wenn die Probleme dauerhaft auftreten, deaktivieren Sie MFA für diese Benutzer.  <br/> ||
 |Benutzer können möglicherweise auf mit Intune verwalteten mobilen Geräten nicht zwischen Konten wechseln.  <br/> |Benutzer können möglicherweise auf mit Intune verwalteten mobilen Geräten nicht zwischen Konten wechseln.  <br/> |Keine Problemumgehung.  <br/> ||
    
 
