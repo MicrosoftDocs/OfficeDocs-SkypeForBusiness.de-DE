@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Erfahren Sie, wie Office 365-Gruppen und -Gruppenmitgliedschaften mit Microsoft Teams funktionieren.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 15989e5a846aa3bdf94f17218105d56336c8cfb9
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 2d6851a0c7ac44a5738ac4ee8de8f92bf257a77b
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365-Gruppen und Microsoft Teams
 =====================================
@@ -26,10 +26,11 @@ Ein Office 365-Administrator kann eine Office 365-Gruppe definieren, Mitglieder 
 
 Wenn Sie ein Microsoft Team erstellen, erstellen Sie am Backend eine Office 365-Gruppe zusammen mit der zugehörigen SharePoint-Dokumentbibliothek, dem OneNote-Notizbuch sowie Verbindungen zu anderen Office 365-Cloud-Anwendungen. Wenn die Person, die das Team erstellt, ein Besitzer einer vorhandenen öffentlichen oder privaten Office 365-Gruppe ist, kann diese Person Teamfunktionen zur Gruppe hinzufügen. Dadurch wird ein standardmäßiger „allgemeiner“ Kanal erstellt, in dem sich Chatnachrichten, Dokumente, OneNote-Notizbücher und andere Objekte befinden. Bei der Anzeige der Dokumentbibliothek für den Kanal wird der Ordner „Allgemein“ angezeigt, der den Kanal im Team repräsentiert. Wenn Sie darüber hinaus Ihre eigene Ordnerstruktur innerhalb einer Dokumentbibliothek erstellen, **wird diese nicht** an Teams als ein Kanal übertragen. Zum gegenwärtigen Zeitpunkt findet nur eine Übertragung von Teams nach SharePoint statt.
 
-|||
-|---------|---------|
-|  ![Hinweissymbol](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Hinweis    |Beim Löschen einer Office 365-Gruppe wird der Postfach-Alias für permanente Outlook/OWA-Unterhaltungen und Teams-Besprechungseinladungen entfernt, und die SharePoint-Site wird zum Löschen markiert. Es dauert ungefähr 20 Minuten, bis sich das Löschen eines Teams in Outlook auswirkt. Beim Löschen eines Teams aus dem Teams-Client wird dieses sofort aus allen Ansichten der Mitglieder des Teams entfernt. Wenn Sie ein Mitglied aus einer Office 365-Gruppe entfernen, in der die Teams-Funktionen aktiviert sind, kann es zu einer Verzögerung von ungefähr einer Stunde kommen, bevor das Team aus der Ansicht im Teams-Client entfernt wird.         |
 
+
+
+> [!NOTE]
+> Beim Löschen einer Office 365-Gruppe wird der Postfach-Alias für permanente Outlook/OWA-Unterhaltungen und Teams-Besprechungseinladungen entfernt, und die SharePoint-Site wird zum Löschen markiert. Es dauert ungefähr 20 Minuten, bis sich das Löschen eines Teams in Outlook auswirkt. Beim Löschen eines Teams aus dem Teams-Client wird dieses sofort aus allen Ansichten der Mitglieder des Teams entfernt. Wenn Sie ein Mitglied aus einer Office 365-Gruppe entfernen, in der die Teams-Funktionen aktiviert sind, kann es zu einer Verzögerung von ungefähr einer Stunde kommen, bevor das Team aus der Ansicht im Teams-Client entfernt wird.
 
 <a name="group-membership"></a>Gruppenmitgliedschaft:
 ----------------
