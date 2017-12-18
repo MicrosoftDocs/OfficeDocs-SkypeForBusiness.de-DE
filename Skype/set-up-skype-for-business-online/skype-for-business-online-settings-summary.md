@@ -17,7 +17,7 @@ description: "This summary of Skype for Business organization and user settings 
 # Zusammenfassung der Skype for Business Online-Einstellungen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](da3386ab-0397-4c55-b9f0-9dbeade93455.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Das **Skype for Business Admin Center**enthält Einstellungen für die gesamte Organisation und für einzelne Benutzer.
   

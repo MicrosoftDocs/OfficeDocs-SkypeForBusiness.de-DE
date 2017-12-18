@@ -14,7 +14,7 @@ description: "Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwa
 # Phone Number Management für die Niederlande
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](f3b75104-bdb9-435a-bec5-9858db9df402.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwalten von Telefonnummern Niederlande für Skype für Business Online.
   

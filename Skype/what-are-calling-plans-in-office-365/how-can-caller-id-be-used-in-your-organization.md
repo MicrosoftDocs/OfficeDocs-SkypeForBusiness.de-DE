@@ -15,7 +15,7 @@ description: "Anrufer-ID kann für eingehende und ausgehende Anrufe für Telefon
 # Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](5a0bd8ba-3334-46ee-becf-1025597737f6.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Anrufer-ID kann für eingehende und ausgehende Anrufe für Telefonsystem Benutzer mithilfe einer Richtlinie mit der Bezeichnung CallingLineIdentity gesteuert werden.
   

@@ -19,7 +19,7 @@ description: "If you have more than 999 phone numbers to transferred to Skype fo
 # Senden einer Dienstanforderung für das Portieren lokaler Rufnummern
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](99e3b7e9-fd0e-48a8-88c9-3ec5561db68e.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wenn Sie mehr als 999 Telefonnummern (für Benutzer oder Dienst Zahlen, einschließlich weder eine gebührenpflichtige oder gebührenfreie) in Skype for Business Online übertragen müssen, finden Sie unter [Telefonnummern für Ihre Organisation verwalten.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)
   

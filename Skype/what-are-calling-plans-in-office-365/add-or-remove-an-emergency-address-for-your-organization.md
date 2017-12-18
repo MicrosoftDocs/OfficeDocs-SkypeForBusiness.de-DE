@@ -19,7 +19,7 @@ description: "Learn how to add an emergency address to your Skype for Business a
 # Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](f954c67c-b73c-4473-b6cd-a0fbcd0fd4c9.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Eine notrufdienste Adresse muss eine Telefonnummer - zugeordnet werden, aber in diesem Fall hängt von der jeweiligen Länder/Regionen. In den USA müssen Sie beispielsweise eine notrufdienste Adresse zuordnen möchten, wenn Sie die Telefonnummer des Benutzers zuweisen. In Großbritannien müssen Sie eine notrufdienste Adresse, um die Telefonnummer zuordnen, beim Abrufen von Telefonnummern aus Office 365 oder Übertragen von Telefonnummern von Ihrem aktuellen Dienstanbieter.
   

@@ -16,7 +16,7 @@ description: "Suchen Sie nach und Telefonnummern für Ihre Organisation abrufen,
 # Wie viele Telefonnummern zu erhalten, können Sie abrufen?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](61dfb27c-5bfa-4481-a930-9c026e73ff3a.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Suchen Sie nach und Telefonnummern für Ihre Organisation abrufen, erhalten Sie weitere Telefonnummern zu erhalten, als Sie Lizenzen zugewiesen haben. Dies hängt jedoch die Typen von Telefonnummern Arten von Lizenzen gekauft und zugewiesen. Klicken Sie auf [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) herausfinden Informationen zu den verschiedenen Telefonnummern zu erhalten, die in Skype für Business Online verwendet werden.
   

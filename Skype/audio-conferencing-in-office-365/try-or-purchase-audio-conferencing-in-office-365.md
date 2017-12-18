@@ -17,7 +17,7 @@ description: "See how to try or purchase Audio Conferencing (PSTN conferencing) 
 # Ausprobieren oder Kaufen der Audiokonferenzfunktion in Office 365
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](d080bb8c-3465-47bb-ad2b-9428f1a3fd24.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Manchmal müssen Benutzer in Ihrer Organisation mit einem Mobiltelefon in eine Besprechung einwählen. Skype for Business und Microsoft Teams gehören das Audio Konferenzen Feature für nur diese Situation! Benutzer können sich Skype for Business und Microsoft Teams Besprechungen mit einem Mobiltelefon, statt mit dem Skype for Business oder mit Microsoft Teams app auf einem PC oder mobilen Gerät aufrufen.
   

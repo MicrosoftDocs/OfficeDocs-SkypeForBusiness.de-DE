@@ -16,7 +16,7 @@ description: "Die Skype für Business Customer Preview-Programm bietet frühen Z
 # Einstellungen für die Vorschau von Skype-Livekonferenzen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](651d4773-cbd8-49e9-b55e-7abb8064060a.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Die Skype für Business Customer Preview-Programm bietet frühen Zugriff auf neuer Produkte und Funktionen. Sie können Ihrer Organisation, um eine Vorschau auf was kommt, die neuen Features in Ihrer eigenen Umgebung testen und Feedback zu geben, bevor wir Produktbuilds in der Öffentlichkeit freigeben, erhalten. Wenn Sie mehr erfahren möchten, finden Sie unter [Skype für Business Preview](https://www.skypepreview.com/).
   

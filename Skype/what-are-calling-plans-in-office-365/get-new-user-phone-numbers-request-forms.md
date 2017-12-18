@@ -18,7 +18,7 @@ description: "Manchmal (je nach Land/Region) können Sie nicht mehr Abrufen Ihre
 # Neue Benutzer Telefon Zahlen Anforderungsformular abrufen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](c0295253-32cc-44ad-99bf-d4737a91a4aa.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Manchmal (je nach Land/Region) können Sie nicht mehr Abrufen Ihrer neuen Zahlen mithilfe der **Skype für Business Administrationscenter** oder bestimmte Telefonnummern oder Ortsvorwahl Sprachmodule benötigen. In diesem Fall müssen Sie ein Formular herunterladen und senden Sie es an uns. Unsere Service-Desk wird bringen Sie ihn von dort aus und lassen Sie den Fortschritt oder Ihre Bestellung kennen.
   

@@ -14,7 +14,7 @@ description: "Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwa
 # Phone Number Management für Irland
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](4ae9b75f-d5e8-4afb-b17d-4ea668c00669.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwalten von Telefonnummern in Irland für Skype für Business Online.
   

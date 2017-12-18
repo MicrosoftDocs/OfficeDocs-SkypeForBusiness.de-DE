@@ -19,7 +19,7 @@ description: "See how to select the auto-attendant lanugages for a dial-in confe
 # Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](26d73dda-ab26-4af4-8aec-d17f3479ae50.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Die Audio-Konferenzen automatische Telefonzentrale für Skype for Business und Microsoft Teams kann Einwahlnummern Anrufer in einer Reihe von verschiedenen Sprachen begrüßen, wenn sie an eine Besprechung teilnehmen.
   

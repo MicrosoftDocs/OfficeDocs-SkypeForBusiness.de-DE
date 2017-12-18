@@ -14,7 +14,7 @@ description: "Dieser Artikel ist als Leitfaden für die Verwendung eines Proxyse
 # Proxyserver für Skype for Business Online
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](7acaf2c2-35fa-490f-84cd-822e446e0fc7.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Dieser Artikel ist als Leitfaden für die Verwendung eines Proxyservers in Verbindung mit Skype for Business gedacht.
   

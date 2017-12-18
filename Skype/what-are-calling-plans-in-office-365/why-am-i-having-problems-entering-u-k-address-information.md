@@ -16,7 +16,7 @@ description: "Hier finden Sie einige hilfreiche Hinweise dazu, warum Sie Problem
 # Warum habe ich Probleme bei der Eingabe von Adressinformationen für Adressen außerhalb der USA?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](e2376646-f0d6-4d33-a8fd-68ecbd46fb7a.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Hier finden Sie einige hilfreiche Hinweise dazu, warum Sie Probleme bei der korrekten Validierung von Adressen in Großbritannien (Vereinigtes Königreich, UK) haben könnten.
   

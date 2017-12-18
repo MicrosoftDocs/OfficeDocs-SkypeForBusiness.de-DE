@@ -22,7 +22,7 @@ description: "Learn how to get the Skype for Business Activity reports, what it 
 # Skype for Business-Aktivitätsbericht
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](8cbe2eb2-1194-4fd7-b1ee-9f9287c82424.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie mit dem Bericht **Skype for Business-Aktivität** feststellen, in welchem Umfang Ihre Benutzer Peer-zu-Peer verwenden sowie Konferenzsitzungen organisieren und daran teilnehmen. Sehen Sie sich die[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) an.
   

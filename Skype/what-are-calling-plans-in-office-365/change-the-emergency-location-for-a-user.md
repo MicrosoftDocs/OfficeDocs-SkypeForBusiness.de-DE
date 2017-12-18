@@ -19,7 +19,7 @@ description: "Learn how to change the emergency location for your users. With an
 # Ändern des Notfallstandorts für einen Benutzer
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](2d5d3c87-af1e-487e-b86c-261f2e5a0661.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Jede aktive Telefonnummer muss über eine Notfalladresse verfügen. Diese wird zugewiesen, wenn Sie eine Telefonnummer in Office 365 erhalten oder wenn Sie eine Telefonnummer übertragen, d. h. wenn die Telefonnummer dem Benutzer zugewiesen wird. Wenn Sie die Nummer einer Notfalladresse zuweisen, können Sie auch einen Notfallstandort hinzufügen, um einen genaueren Standort innerhalb eines physischen Standorts anzugeben. Ein Notfallstandort kann die Etage, der Gebäudeflügel oder die Nummer des Büros, in dem sich der Benutzer befindet, sein. Sie können für die jeweilige Notfalladresse eine unbegrenzte Anzahl an Standorten haben, und Sie können den Notfallstandort ändern, wenn der Benutzer in ein anderes Büro oder Gebäude umzieht - wie beispielsweise, wenn der Benutzer von Etage 34 auf Etage 35 umzieht.
   

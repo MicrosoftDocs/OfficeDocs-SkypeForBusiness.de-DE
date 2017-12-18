@@ -23,7 +23,7 @@ description: "Learn about the features, availability, and how to plan and set up
 # Hier ist das Ergebnis mit Telefonsystem in Office 365
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](bc9756d1-8a2f-42c4-98f6-afb17c29231c.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Eine PBX ist ein Telefonsystem in Business an. Das Telefonsystem in Office 365-Add-On bietet PBX-Funktionen, aber ohne komplizierte und teure Geräte.
   

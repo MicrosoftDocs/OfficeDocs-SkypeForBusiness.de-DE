@@ -15,7 +15,7 @@ description: "Das Telefonsystem in Office 365 bietet eine standardmäßige Anruf
 # Festlegen der Anrufer-ID für einen Benutzer
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](c7323490-d9b7-421a-aa76-5bd485f80583.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Das Telefonsystem in Office 365 bietet eine standardmäßige Anrufer-ID, die Ihnen zugewiesenen Telefonnummer des Benutzers ist. Sie können ändern oder die Anrufer-ID (auch als eine aufrufen Linie ID bezeichnet) für einen Benutzer sperren. Weitere Informationen zum Anrufer-ID in Ihrer Organisation verwenden, indem Sie wechseln [Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation](how-can-caller-id-be-used-in-your-organization.md).
   

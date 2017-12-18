@@ -18,7 +18,7 @@ description: "Learn known issues with the calling plan for Office 365 (PSTN Call
 # Aufrufen der Pläne bekannte Probleme
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](baa3645a-0518-472e-942e-971c63ba4ca0.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Calling Plans in Office 365 are a new feature found in Skype for Business Online. There are current issues that are being tracked, actively investigated and will be potentially resolved when the feature is updated in future builds in Office 365 and Skype for Business Online and are listed below.
   

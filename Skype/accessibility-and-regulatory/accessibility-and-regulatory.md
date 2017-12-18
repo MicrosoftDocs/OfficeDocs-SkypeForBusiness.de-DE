@@ -14,7 +14,7 @@ description: ""
 # Eingabehilfen und behördliche
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](bfda8317-12a9-4594-9fb3-c0061a82711e.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## 
 <a name="MT_Footer"> </a>

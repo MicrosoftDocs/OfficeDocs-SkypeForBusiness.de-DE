@@ -19,7 +19,7 @@ description: "See steps on how to change the emergency address for a user to wor
 # Ändern der Notfalladresse für einen Benutzer
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](5412636c-ad0e-48a5-b199-5925156abee4.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wenn Sie in Office 365-Pläne aufrufen einrichten, müssen Sie eine notrufdienste Adresse jeder Telefonnummer oder Benutzer zuzuweisen. Europäische Länder ist die notrufdienste Adresse zugeordnet die Telefonnummer, wenn es sich hierbei Abrufen von Office 365 oder handelt bei der Übertragung einer Rufnummer über in Office 365. In den USA ist die notrufdienste Adresse zugeordnet die Telefonnummer, wenn es dem Benutzer zugeordnet ist. Wenn der Benutzer, dem sie zugewiesen wurde an eine neue Position verschoben wird, kann die notrufdienste Adresse geändert werden. Weitere Informationen zu notrufdienste Adressen und Orte, finden Sie unter [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md) Details.
   

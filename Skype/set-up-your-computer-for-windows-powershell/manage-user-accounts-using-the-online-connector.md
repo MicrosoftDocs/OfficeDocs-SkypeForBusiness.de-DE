@@ -15,7 +15,7 @@ description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get infor
 # Verwalten von Benutzerkonten mithilfe der Skype für Online Business-Connector
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](a226b0d4-6359-42b8-808d-4b8ab3736d3b.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## Verwalten von Benutzerkonten
 

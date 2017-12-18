@@ -19,7 +19,7 @@ description: "Learn how to set up an emergency address and phone number for each
 # Zuweisen oder Ändern einer Notfalladresse für einen Benutzer
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](1411b594-1e88-44c9-9f60-2202f9bb8553.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wenn Sie in Office 365-Pläne aufrufen einrichten, müssen Sie eine Telefonnummer und die Adresse notrufdienste jedem Benutzer zuweisen. Bevor sie eine Telefonnummer zugeordnet werden können, muss die notrufdienste Adresse erstellt werden. Angezeigt wird, [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
   

@@ -16,7 +16,7 @@ description: "Sie können Skype-Livekonferenz aktivieren und Änderungen an den 
 # Änderungen an den Einstellungen für Skype-Livekonferenzen für Ihre Organisation vornehmen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](8e46e857-f046-4e87-a633-0d7fb88d66d5.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Sie können Skype-Livekonferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Konferenzen vornehmen.
   

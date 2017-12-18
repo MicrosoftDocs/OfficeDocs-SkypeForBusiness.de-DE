@@ -19,7 +19,7 @@ description: "See where to assign a valid service plan for a user after a Skype 
 # Der Dienstplan des Benutzers für Skype for Business Online ist nicht gültig
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](3631967e-d342-4a8a-905d-9b65d2ab554b.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Es tut uns leid, der diesem Benutzer zugewiesene Skype for Business Online-Serviceplan wurde nicht erkannt oder ist ungültig.
   

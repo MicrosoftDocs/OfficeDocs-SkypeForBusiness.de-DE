@@ -19,7 +19,7 @@ description: "Adressüberprüfung ist ein wichtiger Bestandteil der Einrichtung 
 # Warum ist die Nummernaktivierung nur ausstehend?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](e51880ae-d09d-46ba-8eaf-7b8b330e37a6.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Adressüberprüfung ist ein wichtiger Bestandteil der Einrichtung in Office 365-Pläne aufrufen. Es bietet einem Benutzer in Ihrer Organisation zu eine notrufdienste einen Adresse, die von notrufdienste Antwort-Diensten verwendet werden kann.
   

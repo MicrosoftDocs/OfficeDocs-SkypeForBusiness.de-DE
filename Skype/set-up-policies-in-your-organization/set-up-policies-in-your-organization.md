@@ -14,7 +14,7 @@ description: ""
 # Einrichten von Richtlinien in Ihrer Organisation
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](91f9655f-1e9d-4688-9801-a6dc8d6efd87.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## 
 <a name="MT_Footer"> </a>

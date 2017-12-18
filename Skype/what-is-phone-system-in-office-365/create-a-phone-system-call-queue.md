@@ -16,7 +16,7 @@ description: "Learn how to set up phone system for Office 365 (Cloud PBX) call q
 # Erstellen einer Telefonsystem Anruf Warteschlange
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](67ccda94-1210-43fb-a25b-7b9785f8a061.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Telefon Anruf Systemwarteschlangen einschließen Grußformeln, die verwendet werden, wenn Sie angerufen werden in eine Telefonnummer für Ihre Organisation, die Möglichkeit, automatisch Anrufe parken, und suchen Sie für den nächsten verfügbaren Anruf Agent zum Bearbeiten Sie den Anruf, während Sie die Personen, die Anruf sind Anhören von Musik in der Warteschleife. Sie können einen Anruf einzelnen oder mehrere Warteschlangen für Ihre Organisation erstellen.
   

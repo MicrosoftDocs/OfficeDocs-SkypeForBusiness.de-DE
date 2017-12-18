@@ -20,7 +20,7 @@ description: "Learn what Skype for business user statistics are available, such 
 # Benutzerstatistiken und Organisationsinformationen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](3e55c5a2-baad-4573-9ad9-37d0c42dcb53.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Das Skype for Business-Dashboard gibt Ihnen eine schnelle Übersicht darüber, wie der Dienst für Ihr Unternehmen eingerichtet ist. Wenn Sie Skype for Business noch nicht konfiguriert haben, finden Sie unter [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md) schrittweise Anleitungen.
   

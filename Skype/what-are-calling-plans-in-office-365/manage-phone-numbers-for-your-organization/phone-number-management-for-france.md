@@ -14,7 +14,7 @@ description: "Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwa
 # Phone Number Management für Frankreich
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](8de49037-905c-4757-a6e7-cf212173e7f3.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwalten von Telefonnummern in Frankreich für Skype für Business Online.
   

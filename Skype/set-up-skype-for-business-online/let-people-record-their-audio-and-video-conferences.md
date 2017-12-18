@@ -19,7 +19,7 @@ description: "How to turn on recording for audio and video conferences, and lear
 # Zulassen, dass Personen ihre Audio- und Videokonferenzen aufzeichnen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](122cb43d-b57a-4b93-b902-a1a432e7de28.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## Festlegen der standardmäßigen Aufzeichnungseinstellung für eine Person oder alle Personen in Ihrer Organisation
 

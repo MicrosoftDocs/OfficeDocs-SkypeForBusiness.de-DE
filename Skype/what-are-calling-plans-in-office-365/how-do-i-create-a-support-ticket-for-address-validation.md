@@ -16,7 +16,7 @@ description: "Adressüberprüfung ist ein wichtiger Bestandteil der Einrichtung 
 # Wie erstelle ich ein Support-Ticket für die Adressvalidierung?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](6e7c4964-b7b4-4f87-af00-220a2cd5a1c2.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Adressüberprüfung ist ein wichtiger Bestandteil der Einrichtung in Office 365-Pläne aufrufen. Es bietet einem Benutzer in Ihrer Organisation zu eine notrufdienste einen Adresse, die von notrufdienste Antwort-Diensten verwendet werden kann.
   

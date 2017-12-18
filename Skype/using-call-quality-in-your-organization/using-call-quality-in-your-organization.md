@@ -15,7 +15,7 @@ description: ""
 # Verwenden von Anrufqualität in Ihrer Organisation
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](57c0568a-78b0-4167-b1d1-af782f70f24b.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## 
 <a name="MT_Footer"> </a>

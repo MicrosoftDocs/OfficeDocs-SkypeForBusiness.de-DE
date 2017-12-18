@@ -15,7 +15,7 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
 # Was sind Wählpläne?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Ein Wählplan ist ein Norminalisierungsregelsatz, der die von einem einzelnen Benutzer gewählten Telefonnummern zur Anrufautorisierung und Anrufweiterleitung in ein anderes Format (normalerweise E.164) übersetzt.
   

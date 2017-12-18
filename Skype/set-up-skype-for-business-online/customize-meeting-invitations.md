@@ -19,7 +19,7 @@ description: "Customize Skype meeting invitations with graphic logos, help and l
 # Anpassen von Besprechungseinladungen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](9af52080-dd56-4b66-b056-41ed1a7aaae3.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Als Administrator können Sie sicherstellen, dass alle Skype for Business besprechungseinladungen einige hilfreiche Informationen, die Ihre Benutzer müssen möglicherweise, wie z. B. Links zu Ihrer Supportwebsite und Haftungsausschluss, Ihr Firmenlogo und anderen Text, die Sie einschließen möchten enthalten.
   

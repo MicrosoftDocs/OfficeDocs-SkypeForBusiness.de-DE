@@ -19,7 +19,7 @@ description: "Learn to add, change, or remove an emergency location used by  Sky
 # Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](11cadb26-534d-41db-af6b-1f648edfd907.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
  Je nach Anzahl physischer Standorte in Ihrer Organisation können Sie Notfallstandorte für Gebäude, Etagen und Büros erstellen, um eine genauere Notfalladresse anzulegen. Weitere Informationen erhalten Sie unter[Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md).
   

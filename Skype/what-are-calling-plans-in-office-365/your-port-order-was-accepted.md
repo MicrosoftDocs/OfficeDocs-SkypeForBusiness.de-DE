@@ -19,7 +19,7 @@ description: "What it means when your port order has been accepted, and what you
 # Ihr Portierungsantrag wurde akzeptiert.
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](5c2e57c2-76c4-4a36-9d01-92cd15c5eb3e.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Ihr Portierungsauftrag ist genehmigt! Ihre Telefonnummern finden Sie unter **Skype for Business Admin Center** > **VoIP** > **Telefonnummern**.
   

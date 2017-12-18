@@ -20,7 +20,7 @@ description: "Use this reference guide to learn about Skype for Business Online 
 # Skype for Business Online-Berichterstellung
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](4935cddf-fafa-442d-91a3-246af01f8373.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Als Administrator Ihrer Organisation wäre es für Sie praktisch, eine vollständige Liste aller verschiedenen Berichte zu haben, die in UNRESOLVED_TOKEN_VAL( Skype_for_Business_Online) zur Verfügung stehen. Dazu gehören alle verschiedenen Berichte und die Informationen, die in den einzelnen Berichten enthalten sein können.
   

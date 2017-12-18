@@ -19,7 +19,7 @@ description: "Learn what your service address is, how it differes from your bill
 # Was muss ich als Dienstadresse eingeben?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](b7bcf334-1dc6-4fd7-8145-f89ce695fca0.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Die Dienst Adresse unterscheidet sich von der Rechnungsadresse oder notrufdienste-Adresse, die Sie bei Ihrem Mobilfunkanbieter oder Carrier registriert haben. Wenn Sie dies nicht kennen, können Sie Ihrem Service Provider oder Carrier, um herauszufinden, die Serviceadresse für Ihr Konto aufgelistet kontaktieren.
   

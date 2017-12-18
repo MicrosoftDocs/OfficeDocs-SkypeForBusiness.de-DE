@@ -25,7 +25,7 @@ description: "Learn what add-on licenses, what features you'll get with it, how 
 # Add-On-Lizenzierung für Skype for Business und Microsoft Teams
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](3ed752b1-5983-43f9-bcfd-760619ab40a7.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Sie möchten mit jemandem über die vielfältigen Add-On-Optionen sprechen? [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   

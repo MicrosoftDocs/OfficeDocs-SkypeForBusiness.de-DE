@@ -15,7 +15,7 @@ description: ""
 # Audiokonferenzen in Office 365
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](a5a696c3-d321-4e61-9aad-e3a87041196e.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## 
 <a name="MT_Footer"> </a>

@@ -22,7 +22,7 @@ description: "Learn how to get the Skype for Business Conference Participant Act
 # Skype for Business: Konferenzteilnehmer-Aktivitätsbericht
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](c3c89995-65dd-4715-9e38-bb244c742c6b.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Als ein Office 365-Administrator zeigt das neue **Berichte** Dashboard Daten auf der Nutzung der Office 365-Produkte innerhalb Ihrer Organisation. Sie können den Bericht **Skype für geschäftliche Konferenz Teilnehmer Aktivität**, wie viele Chat, Audio und Video, Anwendungsfreigabe, finden Sie unter Web verwenden und und Konferenzen in/durchführen werden von Benutzern in Ihrer Organisation teilgenommen wird.
   

@@ -14,7 +14,7 @@ description: "Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwa
 # Phone Number Management für Deutschland
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](62077251-f24e-4a43-95a2-67a2dc54e9de.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwalten von Telefonnummern in Deutschland für Skype für Business Online.
   

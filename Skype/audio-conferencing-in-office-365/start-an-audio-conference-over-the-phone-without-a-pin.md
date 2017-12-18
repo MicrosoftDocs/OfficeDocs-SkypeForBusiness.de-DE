@@ -19,7 +19,7 @@ description: "Learn how to enable or disable anonymous callers from joining a me
 # Starten einer Audiokonferenz per Telefon ohne PIN
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](d5b1f775-d7ed-4d30-853a-1d49f81e8fde.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Es möglicherweise für Benutzer frustrierend sein, die sich einwählen, um eine Besprechung an, in die Musik hören, da die Skype für Business- oder Microsoft Teams Organisator die Besprechung noch nicht gestartet Besprechungslobby stattfinden soll.
   

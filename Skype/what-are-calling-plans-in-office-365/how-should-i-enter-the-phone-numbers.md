@@ -19,7 +19,7 @@ description: "Learn how to set up phone numbers when you port them to Skype for 
 # Wie sollte ich die Telefonnummern eingeben?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](28aa24b4-8c81-4327-9752-989ea7540db2.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Beim Portieren Telefonnummern zu erhalten, müssen Sie diese im korrekten Format eingeben.
   

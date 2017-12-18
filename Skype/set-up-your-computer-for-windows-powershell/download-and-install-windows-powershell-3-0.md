@@ -18,7 +18,7 @@ description: "Download, install, and then use Windows PowerShell 3.0 to create a
 # Herunterladen und Installieren von Windows PowerShell 3.0
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](d739cd71-3c18-42ea-879f-b408bf53b1f4.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wenn Sie Windows 8.1, Windows 8, Windows Server 2012 R2 oder Windows Server 2012 verwenden, sollten Sie bereits über Windows PowerShell 3.0 verfügen. Das liegt daran, dass die Anwendung unter diesen Betriebssystemen vorinstalliert ist. 
   

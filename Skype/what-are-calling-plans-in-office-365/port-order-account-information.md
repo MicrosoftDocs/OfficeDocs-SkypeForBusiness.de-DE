@@ -19,7 +19,7 @@ description: "Learn what account information you'll need when working with a New
 # Kontoinformationen für Portierungsantrag
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](bf4ea2ea-4f7c-4f41-8e4c-d9ceb11626cc.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wenn Sie im Assistenten **Antrag zur Portierung der neuen lokalen Rufnummern** die Seite **Kontoinformationen** verwenden, um einen Portierungsauftrag zu übermitteln, benötigen Sie fast alle der Informationen, die Sie auch im LOA bereitstellen, darunter die folgenden:
   

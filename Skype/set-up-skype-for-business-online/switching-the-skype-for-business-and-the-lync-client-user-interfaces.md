@@ -19,7 +19,7 @@ description: "Learn how to switch between Skype for Business and Lync client use
 # Wechseln zwischen den Client-Benutzeroberflächen von Skype for Business- und Lync
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](a2394a4c-7522-484c-a047-7b3289742be0.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Skype for Business Online-Organisationen können mit Remote-PowerShell in Office 365 für Benutzer von Skype for Business die Verwendung des Skype for Business-Clients oder der Clientbenutzeroberfläche von Skype for Business (Lync) aktivieren. Die Standardeinstellung sieht für Benutzer die Verwendung der Clientbenutzeroberfläche von Skype for Business vor. Wenn Sie die Lync-Clientumgebung bevorzugen, können Sie das Clientverhalten beim ersten Start so steuern, dass die Lync-Benutzeroberfläche angezeigt wird. Befolgen Sie dazu die später in diesem Abschnitt beschriebenen Schritte.
   

@@ -15,7 +15,7 @@ description: "Learn what Phone System (Cloud PBX) auto attendents are and how to
 # Was sind Telefonsystem Telefonzentralen?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](ab9f05a2-22cb-4692-a585-27f82d1b37c7.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Telefonsystem in Office 365-Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, können internen und externen Anrufer, Menü System suchen und platzieren oder übertragen Anrufe an Benutzer Unternehmen oder Abteilungen in Ihrer Organisation verschieben.
   

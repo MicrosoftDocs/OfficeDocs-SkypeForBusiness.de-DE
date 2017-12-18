@@ -14,7 +14,7 @@ description: "Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwa
 # Phone Number Management für Großbritannien.
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](104dea98-6d0a-4c45-ba79-ea568e588c77.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwalten von Telefonnummern in Großbritannien für Skype für Business Online.
   

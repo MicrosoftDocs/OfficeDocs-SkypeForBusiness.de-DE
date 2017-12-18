@@ -17,7 +17,7 @@ description: "Find the dial-in conferencing language for each country or region 
 # Audiokonferenzanbieter unterstützte Sprachen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](572ca0c8-b9f0-4948-9409-e12ee0b94aa0.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Einrichten und Konfigurieren von Audio Konferenzen in Office 365, können Sie den primären und sekundären auswählen (bis zu 4) Sprachen, die verwendet werden, wenn ein Anrufer in einer Skype für Business- oder Microsoft Teams Besprechung einwählen. Es folgt eine Liste der unterstützten Sprachen für Audio Konferenzen:
   

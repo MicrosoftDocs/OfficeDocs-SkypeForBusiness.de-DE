@@ -16,7 +16,7 @@ description: "Die neue Skype für Business-Verwaltungskonsole, Berichte Bereich 
 # Bericht zum PSTN-Verbrauch in Skype for Business
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](74eda791-c41f-4fd9-ae0b-913342e7ab04.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Die neue Skype für Business-Verwaltungskonsole, **Berichte** Bereich zeigt anrufen und Konferenzen Aktivität in Ihrer Organisation. Sie können in Berichten zur Verfügung, eine genauere Einblicke zu den Aktivitäten von jedem Benutzer einen Drilldown ausführen. Den Bericht **Skype für Business PSTN Verwendungsdetails** können Sie beispielsweise die Anzahl der Minuten in ein-/ausgehende Anrufe aufgewendet und Kosten für diese Aufrufe finden Sie unter. Sie können anzeigen einwahlkonferenzen PSTN-Verwendungsdetails einschließlich der die Kosten des Anrufs, damit Sie Ihre Verwendung verstehen und anrufen Abrechnungsinformationen Verwendung innerhalb Ihrer Organisation ermitteln können.
   

@@ -19,7 +19,7 @@ description: "Learn how to enable or disable whether your users can record their
 # Aktivieren der Aufzeichnung des Benutzernamens beim Beitreten einer Besprechung
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](1d649328-ada7-422d-a074-d6da4da36970.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wenn Sie einen Audiokonferenzanbieter für Skype for Business und Microsoft Teams einrichten, erhalten Sie Telefonnummern und was eine audio Konferenzbrücke aufgerufen wird. Eine Konferenzbrücke kann eine oder mehrere Telefonnummern enthalten, die eine dedizierte oder freigegebene Telefonnummer werden können.
   

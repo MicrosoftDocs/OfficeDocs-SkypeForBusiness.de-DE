@@ -19,7 +19,7 @@ description: "Learn how to see a list of all the phone numbers for your organiza
 # Telefonnummernliste für Ihre Organisation anzeigen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](93098bc5-df63-4a1f-8734-0b72a6280a69.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Es gibt verschiedene Typen von Telefonnummern zu erhalten, die Benutzern oder anderen Diensten (Service Zahlen), z. B. für Audio Konferenzen in Office 365 zugewiesen werden können.
   

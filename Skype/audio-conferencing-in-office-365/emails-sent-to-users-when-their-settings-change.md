@@ -19,7 +19,7 @@ description: "Learn about what information is sent automatically to users by ema
 # E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einwahlkonferenzeinstellungen ändern
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](1b46da6d-f93a-4cc0-9ae8-af765935b007.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 E-Mails werden automatisch an die Benutzer gesendet, die für [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md) mit Microsoft als Einwahlkonferenzanbieter aktiviert sind.
   

@@ -19,7 +19,7 @@ description: "Learn what you can and can't use in Skype for Business admin cente
 # Warum kann ich das Skype for Business Online Admin Center gerade nicht verwenden?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](c182d564-1674-4491-b1d9-3e0cb657d4cc.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wir wissen, dass es frustrierend ist, wenn Sie Ihre Arbeit nicht erreicht werden kann, damit wir erläutern, was hier geschieht und warum es sich warten sein werden vertraut sind.
   

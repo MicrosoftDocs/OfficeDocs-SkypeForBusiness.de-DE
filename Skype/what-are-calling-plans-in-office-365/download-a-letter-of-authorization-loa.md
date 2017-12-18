@@ -16,7 +16,7 @@ description: "Die Buchstaben der Autorisierung (LOA) gibt uns über die Berechti
 # Schriftliche Vollmacht herunterladen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](c0ab5bc9-44f1-46dd-b401-828e4f10b7ac.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Die  * **Buchstaben der Autorisierung (LOA)*** gibt uns über die Berechtigung zum anfordern, in Ihrem Auftrag, die vorhandenen Zahlen von einem anderen Dienstanbieter bei einer Unstimmigkeit übertragen. Verwenden Sie eine Geladene Wenn Dienst Zahlen für audio Konferenzbrücken, Telefonzentralen oder anderen Dienst Zahlen, gebührenfreie Telefonnummern oder haben, stehen Ihnen mehr als 999 Benutzer (Abonnent) Telefonnummern zu erhalten, die Sie benötigen, um in Skype for Business übertragen (oder wenn Sie nicht möchten, verwenden Sie die **Lokale Rufnummer Portieren-Assistenten** ). Sie müssen[Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage](manually-submit-a-custom-service-request.md) mit diesem Geladene zum Übertragen von Ihrem aktuellen Dienstanbieter Telefonnummern zu erhalten.
   

@@ -16,7 +16,7 @@ description: "Get detailed information about the dimensions and measures exposed
 # Dimensionen und Measures anrufen Qualitätsdashboard für Microsoft Teams und Skype für Business Online zur Verfügung
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](e97aeeee-9e43-416f-b433-9cdd63d8874b.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Den Anruf Quality Dashboard (CQD) für Microsoft Teams und Skype for Business Online können Sie Einblicke in die Qualität des Anrufe über Microsoft Teams und Skype for Business-Dienste zu erhalten. Dieses Thema enthält ausführliche Informationen zu den Dimensionen und Measures, CQD bereitgestellt werden. Weitere Informationen zum CQD und wie Sie es aktivieren, finden Sie unter [Aktivieren und Verwenden des Anrufqualitäts-Dashboards für Microsoft Teams und Skype for Business Online](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md).
   

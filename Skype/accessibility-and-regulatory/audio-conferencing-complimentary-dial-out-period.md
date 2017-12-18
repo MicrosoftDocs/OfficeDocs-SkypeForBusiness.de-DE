@@ -19,7 +19,7 @@ description: ""
 # Audio-Konferenzen Grußformeln durchführen Periode
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](dc6e95cd-51e8-49ca-bcd3-78dc9dae486a.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## Skype for Business-PSTN-Dienste
 

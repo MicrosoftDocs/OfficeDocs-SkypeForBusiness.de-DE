@@ -15,7 +15,7 @@ description: "Learn common causes for Skype for Business Online sign-errors and 
 # Problembehebung von Anmeldefehlern (Administratoren) in Skype for Business Online
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Starten Sie Skype for Business Online-Anmeldefehler zur Problembehandlung, durch die häufigsten Ursachen der Anmeldung Probleme beseitigen. Bei Bedarf können Sie dann bestimmte Schritte auf den Typ des Fehlers entsprechend Auflösung folgen. Wenn der Benutzer trotzdem nicht anmelden kann, sammeln Sie zusätzlicher Informationen und dann anfordern Sie weiterer Unterstützung.
   

@@ -15,7 +15,7 @@ description: "Learn how to create calling dial plans (PSTN Calling dial plans) i
 # Erstellen und Verwalten von Wählpläne
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](7af17c94-5f8f-4452-ae1d-01f495b4dc94.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Nachdem Sie geplanter Wählpläne für Ihre Organisation und fest, die Normalisierungsregeln, die erstellt werden, für das Anrufrouting müssen alle haben, müssen Sie mithilfe von Windows PowerShell Wählpläne erstellen und ändern Sie die Einstellung.
   

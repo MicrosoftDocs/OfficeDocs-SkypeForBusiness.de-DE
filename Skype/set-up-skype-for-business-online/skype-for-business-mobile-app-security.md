@@ -14,7 +14,7 @@ description: ""
 # Skype für Business mobile-app-Sicherheit
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](d2be8c74-3ba2-4b2d-9807-634904e1f0e8.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## Skype for Business Client-Sicherheitstabelle
 

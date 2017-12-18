@@ -15,7 +15,7 @@ description: ""
 # Phone System-voicemail
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](92f5a3ac-beec-4af5-bfe9-0cbf3d660298.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## 
 <a name="MT_Footer"> </a>

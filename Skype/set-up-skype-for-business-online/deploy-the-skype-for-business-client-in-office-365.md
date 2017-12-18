@@ -21,7 +21,7 @@ description: "Learn how to plan and deploy Skype for Business in small, medium, 
 # Den Skype for Business-Client in Office 365 bereitstellen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](8c563b81-22c9-4024-9efe-9fe28c7bbc96.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 In diesem Artikel wird beschrieben, wie Sie als **[Zuweisen von Administratorrollen in Office 365](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** die Skype for Business-App für die Personen Ihrer Organisation bereitstellen können.
   

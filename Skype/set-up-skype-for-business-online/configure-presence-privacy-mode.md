@@ -19,7 +19,7 @@ description: "Learn how to set up privacy mode for your users so they can better
 # Konfigurieren des vertraulichen Anwesenheitsmodus
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](b33d57fe-b9cf-43c1-961a-edf28db738e8.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Der Skype for Business Online anwesenheitseinstellung bietet Personen besser steuern, wer sehen können, ob sie verfügbar ist, in einer Besprechung oder nicht im Büro sind. Details zu Skype for Business Anwesenheit und datenschutzeinstellungen finden Sie unter [Konfigurieren der Anwesenheit in Skype for Business Online](configure-presence-in-skype-for-business-online.md).
   

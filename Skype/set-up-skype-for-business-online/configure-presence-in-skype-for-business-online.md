@@ -19,7 +19,7 @@ description: "Learn how to set up Skype for Business so you can see the availabi
 # Konfigurieren der Anwesenheit in Skype for Business Online
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](ce59ac0b-8115-4c6b-8174-e3aef982d3cb.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Standardmäßig wird jedem Benutzer, der mit einer Person in Ihrer Organisation über Skype for Business kommunizieren kann, angezeigt, ob diese Person online ist. Skype for Business zeigt an, ob eine Person online, in einem Meeting oder offline ist oder es wird ein anderer Indikator angezeigt. 
   

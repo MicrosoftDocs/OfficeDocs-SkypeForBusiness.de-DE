@@ -14,7 +14,7 @@ description: "Outlook im Web (Outlook Web App) in Office 365 bietet eine einfach
 # Skype for Business Online-Support in Outlook im Web
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](305984ec-3da8-4509-bb2b-6643dcf2cb7d.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Outlook im Web (Outlook Web App) in Office 365 bietet eine einfache Skype für Business WebClient aus der Navigationsleiste. Dieses einfache Client ist für Online-Benutzer, dessen Administrator eine Eitelkeit-URL für ihre Organisation Office 365 konfiguriert noch nicht, verfügbar. Solange Sie das Konto des Benutzers ist online und verfügt nicht über eine Eitelkeit-URL, wird immer noch die Oberfläche angezeigt, auch wenn ihre Organisation einige Benutzerkonten hat, die verwalteten lokalen sind. Benutzer, Benutzerkonten lokalen (, ob sie die URL einer Eitelkeit oder nicht verfügen) oder von Microsoft verwaltet werden, werden die Lync-Oberfläche in Outlook Web app angezeigt.
   

@@ -19,7 +19,7 @@ description: "Learn how to enable or disable Skype from sending emails to users 
 # Aktivieren Sie oder deaktivieren Sie beim Senden von e-Mails aus, wenn Audio Konferenzen Einstellungen ändern
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](26ea19d3-e420-4fc1-baa3-2692d17e5e1d.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Audiokonferenzanbieter standardmäßig senden e-Mail an die Benutzer an, wenn sie für Audiokonferenzanbieter aktiviert sind. Es kann vorkommen durch, wenn Sie zum Verringern der Anzahl der e-Mail-Nachrichten, die an Skype für Business und Microsoft Teams Benutzer gesendet werden sollen, und in diesem Fall Sie können diese Option deaktivieren.
   

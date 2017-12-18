@@ -15,7 +15,7 @@ description: "Set up and use Call Analytics to identify and troubleshoot Skype f
 # Einrichten der Anrufanalyse von Skype for Business
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](fbf7247a-84ae-46cc-9204-2c45b1c734cd.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Analytics aufrufen, können Sie als Administrator Skype for Business Online um Skype for Business und Microsoft Teams Anruf Qualität und Verbindung Probleme zu beheben. Möglicherweise finden Sie es sinnvoll, um die folgenden Funktionen in anrufen Analytics einzurichten:
   

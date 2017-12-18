@@ -24,7 +24,7 @@ description: "Get a Skype for Business Peer-to-peer activity report, and learn h
 # Skype for Business - Bericht über Peer-zu Peer-Aktivitäten
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](d3b2d569-4ee9-44b8-92bf-d518142f0713.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Das neue Office 365- **Berichte** Dashboard zeigt den Übersicht über die Aktivität über die Office 365-Produkte in Ihrer Organisation. Sie können auf einzelne Produkt Ebene Berichte zur Verfügung, eine genauere Einblicke zu den Aktivitäten in jedes Produkt einen Drilldown ausführen. Beispielsweise können Sie den Bericht **Skype für geschäftliche Peer-to-Peer-Aktivität** um zu sehen, wie viel Ihre Benutzer Chat, Audio, video, Anwendung freigeben und Übertragen von Dateien verwenden. Schauen Sie sich[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   

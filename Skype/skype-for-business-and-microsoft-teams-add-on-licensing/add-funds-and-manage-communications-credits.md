@@ -31,7 +31,7 @@ description: "Learn how to pay for Communication credits (PSTN Consumption) for 
 # Mittel hinzufügen und Verwalten von Kommunikation Gutschriften
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](691c9301-1f66-41fe-9b2c-ca24ae987463.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Kommunikation Gutschriften eignen sich hervorragend für Telefonsystem und in Office 365-Pläne Aufrufen von Interesse. Sie können Sie sicherstellen, dass Sie und Ihre Benutzer nie abgefangen werden, ohne können:
   

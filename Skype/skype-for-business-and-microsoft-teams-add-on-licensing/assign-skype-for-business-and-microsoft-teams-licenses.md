@@ -20,7 +20,7 @@ description: "Learn how to assign Skype for Business licenses for Cloud PBX, PST
 # Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](fd41934d-f2eb-4a1b-89d8-32cb37702b33.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Dieser Artikel enthält Tipps zum Zuweisen von Lizenzen für Ihre Benutzer für Features wie Audio Konferenzen, Telefonsystem und Pläne aufrufen. Darüber hinaus Skripts zum Zuweisen von Lizenzen in Massen.
   

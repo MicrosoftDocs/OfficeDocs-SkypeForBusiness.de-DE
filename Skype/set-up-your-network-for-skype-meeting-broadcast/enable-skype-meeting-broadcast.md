@@ -21,7 +21,7 @@ description: "Bevor Sie die Personen in Ihrer Organisation Skype Meeting Broadca
 # Aktivieren von Skype-Livekonferenz
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](5299cce0-850e-42dc-b6ae-2d0ee775c4a9.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Bevor Sie die Personen in Ihrer Organisation Skype Meeting Broadcast verwenden können, müssen Sie es aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell verwenden möchten. Wenn Sie nicht, dass Windows PowerShell wissen, erwägen Sie das Einstellen von einem [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) , führen Sie diesen Schritt für Sie.
   

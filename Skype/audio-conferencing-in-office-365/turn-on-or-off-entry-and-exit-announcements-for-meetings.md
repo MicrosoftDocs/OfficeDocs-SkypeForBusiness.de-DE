@@ -19,7 +19,7 @@ description: "Learn how to turn entry and exit announcements on or off in a Skyp
 # Aktivieren bzw. Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](f2c7b5ea-07b6-4b77-8023-bec9596fcc32.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wenn Sie in Office 365 Audiokonferenzanbieter einrichten, erhalten Sie eine Audio-Konferenzbrücke. Eine Konferenzbrücke kann es sich um eine oder mehrere Telefonnummern enthalten, die benutzt werden bei einem Skype für Business- oder Microsoft Teams Besprechungen einwählen.
   

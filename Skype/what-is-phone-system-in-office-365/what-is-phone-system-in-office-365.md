@@ -14,7 +14,7 @@ description: ""
 # Was ist Telefonsystem in Office 365?
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](5e87c9ed-c3e8-43b1-b95d-077ee9351c99.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 ## 
 <a name="MT_Footer"> </a>

@@ -19,7 +19,7 @@ description: "Der Dienst Audio Konferenzen wird aktualisiert um jede Skype für 
 # Verwenden von Audiokonferenzanbieter dynamische IDs in Ihrer Organisation
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](e55e4bff-fb67-4389-8695-f03024baa9b6.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Der Dienst Audio Konferenzen wird aktualisiert um jede Skype für Business und Microsoft Teams Besprechungen anderen Konferenz IDs bereitzustellen. Dynamische Konferenz-IDs sind eine deutliche Verbesserung über statische Konferenz IDs, da sie bieten:
   

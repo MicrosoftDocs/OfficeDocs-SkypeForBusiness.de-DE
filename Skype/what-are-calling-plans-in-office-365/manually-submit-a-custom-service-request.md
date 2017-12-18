@@ -21,7 +21,7 @@ description: "Learn the steps you need to do to submit a port order request when
 # Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](6310f07f-9d07-4cb1-bd6e-51ef6eb3c335.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Wenn Sie den Dienst Zahlen für einwahlkonferenzen Brücken, Telefonzentralen oder anderen Dienst Zahlen haben, Sie müssen in [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   

@@ -16,7 +16,7 @@ description: "Learn how to set up and test Phone System (Cloud PBX) auto attende
 # Einrichten einer automatischen Telefonzentrale für Telefonsystem
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Automatische Telefonzentralen sind sehr nützlich und ermöglichen Personen, die Ihre Organisation anrufen, die Navigation in einem Menüsystem. Dort können sie die richtige Abteilung, die Anrufwarteschleife, eine Person oder die Vermittlung erreichen. Sie können im Skype for Business Admin Center eine automatische Telefonzentrale für Ihre Organisation erstellen. Um eine neue automatische Telefonzentrale zu erstellen, navigieren Sie auf der linken Seite zu **Anrufweiterleitung** und wählen dann **Automatische Telefonzentralen** > **Neu hinzufügen** aus.
   

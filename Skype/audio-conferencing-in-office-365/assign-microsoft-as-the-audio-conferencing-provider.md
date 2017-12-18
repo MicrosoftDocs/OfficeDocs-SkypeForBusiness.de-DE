@@ -20,7 +20,7 @@ description: "Learn how to assign Microsoft the dial-in conferencing provider fo
 # Zuweisen von Microsoft als Audiokonferenzanbieter
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](d935a90d-ea61-433d-a820-b400ed9c1f5d.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Ein Audiokonferenzanbieter stellt die  *Konferenz Bridge*  . Die Konferenz Brücke stellt die Einwahlnummern Telefonnummern, Stifte und Konferenz IDs für Besprechungen, die erstellt werden. Sie müssen nur Personen zu planen, oder führen Skype for Business oder Microsoft Teams Besprechungen, die einen Audiokonferenzanbieter zuweisen.
   

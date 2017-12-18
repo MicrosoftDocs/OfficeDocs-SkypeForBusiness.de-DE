@@ -19,7 +19,7 @@ description: "Find possible causes and action suggestions when you get a Skype f
 # Diese Skype for Business Online-Funktion ist nicht aktiviert.
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](e95a7d09-0c45-4b95-956e-f099b7b0e659.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Es tut uns Leid, aber es sieht so aus, als würde der Benutzer nicht über eine Lizenz für diese Funktion verfügen.
   

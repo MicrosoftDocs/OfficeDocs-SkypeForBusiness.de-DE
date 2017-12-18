@@ -19,7 +19,7 @@ description: "Learn how to turn mobile phone notirications on or off so your use
 # Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
 > [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den [Haftungsausschluss](2de47013-4f09-493c-abc5-372f56ad69e3.md#MT_Footer).  
+> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
   
 Als **[Zuweisen von Administratorrollen in Office 365](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation können Sie auswählen, ob Ihre Benutzer Skype for Business erhalten Benachrichtigungen über eingehende und verpassten Chatnachrichten aus, wenn sie auf ihren Mobiltelefonen oder Tablets befinden.
   
