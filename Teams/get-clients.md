@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verwenden."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b127b0bd5c0e1f1b8f438c1955d1f028977118f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f555208aba849b77d648e5e9561d0daf3ba199b3
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -22,7 +22,7 @@ Microsoft Teams-Clients sind für Web, Desktop (Windows und Mac) und mobile Betr
 <a name="web-client"></a>Webclient 
 ----------------
 
-Beim Webclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) handelt es sich um einen vollständigen funktionsfähigen Client, der in einer Vielzahl von Browsern verwendet werden kann. Zurzeit unterstützt der Webclient keine Echtzeitkommunikation (das heißt Teilnehmen an Besprechungen und Tätigen von Einzelanrufen). Außerdem muss der Browser so konfiguriert sein, dass Drittanbietercookies zulässig sind.
+Beim Webclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) handelt es sich um einen vollständigen funktionsfähigen Client, der in einer Vielzahl von Browsern verwendet werden kann. Zurzeit ist Microsoft Edge der einzige Webclient mit Unterstützung für Echtzeitkommunikation (das heißt Teilnehmen an Besprechungen und Tätigen von Einzelanrufen). Außerdem muss der Browser so konfiguriert sein, dass Drittanbietercookies zulässig sind.
 
 Zum Nutzen von Microsoft Teams in einem Webbrowser ist kein Plug-In oder Download erforderlich.
 

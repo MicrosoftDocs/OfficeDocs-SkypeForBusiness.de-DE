@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a59b525a8162c5ad5cab84c4ca36389d362816d2
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 3409b607c92d58cd80c8b4e896eb1cecb3ec06bb
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -48,7 +48,7 @@ Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freige
 |  |  |
 |---------|---------|
 | Deep Dive into Guest Access (Tiefe Einblicke in die Gastzugriffsfunktion)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-
-  
+| Aktivieren des Gastzugriffs in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+ | Hinzufügen von Gästen in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 
