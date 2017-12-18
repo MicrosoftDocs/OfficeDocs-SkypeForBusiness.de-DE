@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie durch die Identifizierung von wichtigen Beteiligten, Geschäftsergebnissen und Erfolgskennzahlen sowie das Management Ihrer Initiative eine Change Management-Strategie für Microsoft Teams erstellen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7fb8c2f7804cd51ac74bcc06878572e0c2c605ad
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: ec0bea3c69ba9931727d9917246f71920d09cc7e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 =======================================================
@@ -55,9 +55,10 @@ Die erste Regel für eine erfolgreiche Einführung ist die Bildung eines dynamis
 Wir empfehlen regelmäßige Besprechungen mit diesen Beteiligten, um sie über den Fortschritt Ihres Programms auf dem Laufenden zu halten. Je nach Unternehmenskultur kann es hilfreich sein, einen „Zusammenarbeitsrat“ einzuberufen, um Feedback und Diskussionen zu ermöglichen.
 
 
-|  |  |
-|---------|---------|
-|![Tippsymbol](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Tipp    |Diese Personen, die die größten Hindernisse für Veränderungen darstellen können, können bei einer derartigen Bereitstellung zu Ihren besten Verbündeten werden. Treten Sie frühzeitig und häufig mit diesen Mitgliedern Ihrer Organisation in Verbindung, um ihre Bedenken und Probleme zu erfahren. Sie können Ihnen oft wertvolles Feedback geben, durch das Ihre Initiative erfolgreicher wird.         |
+
+
+> [!TIP]
+> Diese Personen, die die größten Hindernisse für Veränderungen darstellen können, können bei einer derartigen Bereitstellung zu Ihren besten Verbündeten werden. Treten Sie frühzeitig und häufig mit diesen Mitgliedern Ihrer Organisation in Verbindung, um ihre Bedenken und Probleme zu erfahren. Sie können Ihnen oft wertvolles Feedback geben, durch das Ihre Initiative erfolgreicher wird.
 
 <a name="user-profiles"></a>Benutzerprofile
 -------------

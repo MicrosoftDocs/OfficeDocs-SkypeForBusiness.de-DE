@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier finden Sie Informationen zu den verschiedenen Office 365-Lizenzen und darüber, welche Lizenzen für die Aktivierung von Microsoft Teams erforderlich sind und wie diese Lizenzen aktiviert bzw. deaktiviert werden."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 62b603bdbd2cd370e6c09dbfc877ccef9884404b
-ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
+ms.openlocfilehash: 9853bab16fead0ed4da766a6d9d59f2f93b34191
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Office 365-Lizenzierung für Microsoft Teams
 ========================================
@@ -21,10 +21,10 @@ Mit den folgenden Office 365-Abonnements können Benutzer Microsoft Teams verwe
 
 |Small Business-Pläne  |Enterprise-Pläne  |Education-Pläne  |
 |---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Enterprise E1         |Office 365 for Education         |
-|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 for Education Plus         |
-|     |Office 365 Enterprise E4 (veraltet)         |Office 365 for Education E3 (veraltet)         |
-|     |Office 365 Enterprise E5         |Office 365 for Education E5   
+|Office 365 Business Essentials     |Office 365 Enterprise E1         |Office 365 Education         |
+|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |
+|     |Office 365 Enterprise E4 (veraltet)         |Office 365 Education E3 (veraltet)         |
+|     |Office 365 Enterprise E5         |Office 365 Education E5   
       |Office 365 Enterprise F1 |  |
 
 > [!NOTE]
@@ -49,3 +49,20 @@ Die Microsoft Teams-Lizenz ist standardmäßig für alle Benutzer mit berechtigt
 Microsoft Teams kann für einen gesamten Lizenztyp in einer Organisation aktiviert oder deaktiviert werden und ist standardmäßig für alle Lizenztypen mit Ausnahme von Gastbenutzern aktiviert. **Es ist nicht möglich, Microsoft Teams mithilfe der Option für Microsoft Teams im Office 365 Admin Center nur für einen Teil eines Lizenztyps zu aktivieren.** Wenn Sie Microsoft Teams für einen Teil Ihrer Organisation aktivieren und für einen anderen Teil deaktivieren möchten (beispielsweise wenn Sie ein Microsoft Teams-Pilotprojekt mit einer ausgewählten Benutzergruppe planen), können Sie die Option für die Microsoft Teams-Lizenz für alle Benutzer aktivieren und sie dann für einzelne Benutzer deaktivieren.
 
 ![Screenshot der Einstellung für Microsoft Teams-Benutzer und Lizenztypen im Office 365 Admin Center mit aktivierter Option „Microsoft Teams“](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image3.png)
+
+
+**Tipp:** Das Aktivieren und Deaktivieren von Microsoft Teams als Arbeitsauslastungslizenz über PowerShell funktioniert genau wie bei jeder anderen Arbeitsauslastung. Der Name des Dienstplans für Microsoft Teams lautet TEAMS1. (Weitere Informationen finden Sie unter [Deaktivieren des Zugriffs auf Dienste mit Office 365 PowerShell](https://technet.microsoft.com/en-us/library/dn771769.aspx).)
+
+**Beispiel:** Das folgende kurze Beispiel zeigt, wie Sie Microsoft Teams für alle Benutzer mit einem bestimmten Lizenztyp deaktivieren. Sie müssen dies zuerst tun und dann den Lizenztyp für die Benutzer, die im Rahmen von Pilottests Zugriff haben sollen, einzeln aktivieren.
+
+*Um die in Ihrer Organisation vorhandenen Abonnementtypen anzuzeigen, verwenden Sie den folgenden Befehl:*
+
+      Get-MsolAccountSku
+
+*Tragen Sie den Namen Ihres Plans einschließlich des Organisationsnamens und des Plans für Ihre Bildungseinrichtung ein (zum Beispiel „ContosoSchool:ENTERPRISEPACK_STUDENT“), und führen Sie dann die folgenden Befehle aus:*
+
+      $acctSKU="<plan name>
+      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+*Um Microsoft Teams für alle Benutzer mit einer aktiven Lizenz für Ihren benannten Plan zu deaktivieren, führen Sie den folgenden Befehl aus:*
+
+      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
