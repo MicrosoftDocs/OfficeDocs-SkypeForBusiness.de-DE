@@ -51,11 +51,11 @@
 ## [Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team](guest-access-PowerShell.md)
 
 
-# [Bereitstellung von Cloud-VoIP-Funktionen](cloud-voice-deployment.md)
+# [Cloud-VoIP](cloud-voice-deployment.md)
 ## [Audiokonferenzen](audio-conferencing.md)
 ### [Ausblick](audio-conferencing.md#Envision_AudioConferencing)
-### [Planen](audio-conferencing.md#Planning_AudioConferencing)
-### [Videos - Audiokonferenzen in Teams](audio-conferencing-videos.md)
+## Video
+### [Audiokonferenzen](audio-conferencing-videos.md)
 
 # [Reise von Skype for Business zu Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimieren Sie Ihre aktuelle Skype for Business-Umgebung für Microsoft Teams](prepare-teams.md)
@@ -85,6 +85,7 @@
 ## [Überprüfen der Dienstintegrität für Teams](service-health.md)
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
+
 
 
 # [Entwicklerdokumentation für Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
