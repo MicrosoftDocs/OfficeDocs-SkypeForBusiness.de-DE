@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3409b607c92d58cd80c8b4e896eb1cecb3ec06bb
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 53fac61c9e8c36c572e77fd302f410ce5dce45d0
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================

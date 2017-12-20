@@ -7,12 +7,11 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 description: "Aktivieren oder Deaktivieren der Funktion für den Gastzugriff in Microsoft Teams"
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 208d82b1e40b86f17d6ff412a20ed917a1fe6ff0
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.openlocfilehash: 5d65e63aab189ef252bde5d14774d8008aaf1872
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
 ======================================
