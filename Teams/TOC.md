@@ -8,7 +8,11 @@
 ## [Office 365-Gruppen und Teams](Office-365-groups.md)
 ## [Interaktion von Exchange und Teams](Exchange-Teams-interact.md)
 ## [Interaktion von SharePoint Online und OneDrive for Business mit Teams](SharePoint-OneDrive-interact.md)
+## [Interoperabilität von Microsoft Teams und Skype for Business](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [Schnellstarthandbücher](quick-start-guides.md)
+## [Schnellstart: Microsoft Teams-Planungshandbuch](quick-start-enable-Teams.md)
+## [Konfigurieren von Anrufplänen](configuring-teams-calling-quickstartguide.md)
 
 # Planen
 ## [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
@@ -54,10 +58,14 @@
 # [Cloud-VoIP](cloud-voice-deployment.md)
 ## [Audiokonferenzen](audio-conferencing.md)
 ### [Ausblick](audio-conferencing.md#Envision_AudioConferencing)
+## [Telefonsystem mit Anrufplänen](phone-system-with-calling-plans.md)
+### [Ausblick](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
+## Schnellstarthandbücher
+### [Konfigurieren von Anrufplänen](configuring-teams-calling-quickstartguide.md)
 ## Video
 ### [Audiokonferenzen](audio-conferencing-videos.md)
 
-# [Reise von Skype for Business zu Teams](Journey-SkypeforBusiness-Teams.md)
+# [Reise von Skype for Business zu Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimieren Sie Ihre aktuelle Skype for Business-Umgebung für Microsoft Teams](prepare-teams.md)
 ## [2 - Fördern Sie neben Skype for Business die Akzeptanz von Teams](pilot-essentials.md)
 ## [3 - Aktivieren Sie Teams Seite an Seite mit Skype for Business](guidance-SkypeforBusiness.md)

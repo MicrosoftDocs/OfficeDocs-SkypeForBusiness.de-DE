@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Verwenden Sie PowerShell, um den Gastzugriff auf Teams in Microsoft Teams zuzulassen oder zu blockieren.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563a1a56449be289572020dc226df69795596d1c
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 0e087aadced6980db80890f423e3e6e3c4b7a701
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/15/2017
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team
 ================================================
@@ -31,7 +31,7 @@ Zusätzlich zur Verwendung des Office 365 Admin Center und des Azure Active Dire
 - Zulassen oder Blockieren von Gastbenutzern für ein bestimmtes Team oder eine bestimmte Office 365-Gruppe
     
   
-Weitere Einzelheiten finden Sie unter [Verwenden von PowerShell zum Steuern von Gastzugriff](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
+Weitere Details finden Sie unter [Gastzugriff in Office 365-Gruppen](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell) im Abschnitt „Verwenden von PowerShell zum Steuern des Gastzugriffs“ auf der Registerkarte „Verwalten“.
   
     
     
@@ -39,3 +39,4 @@ Sie können PowerShell auch zum Zulassen oder Blockieren eines Gastbenutzers bas
   
  
 Wenn Sie Gäste in Teams blockieren möchten und den Gästen dennoch den Zugriff auf SharePoint-Websites ermöglichen möchten, können Sie mithilfe von PowerShell-Cmdlets für Azure Active Directory den Parameter „AllowGuestAccessToGroups“ für das Objekt „Company“ deaktivieren. Dabei wird angenommen, dass externe Freigaben für SharePoint-Websites aktiviert sind.   
+

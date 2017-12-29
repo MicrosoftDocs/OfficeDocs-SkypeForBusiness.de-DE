@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie Office 365-Gruppen mit Microsoft Teams erweitern, indem Sie eine Verteilerliste in ein Team einladen, für E-Mail aktivierte Sicherheitsgruppen hinzufügen usw."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dc9126aa84c91a4124ba58613ba34111eeffb61c
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: db092c3d0c88ff82893eef4b6ea26fe9ba68a02e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Erweitern von vorhandenen Office 365-Gruppen mit Microsoft Teams
 =======================================================
@@ -22,9 +22,9 @@ Microsoft Teams-Benutzer können eine vorhandene Office 365-Gruppe mit Microsof
 Benutzer sollten hierfür die Schritte zum Erstellen eines neuen Teams im Microsoft Teams-Client durchführen. Wählen Sie unten im Bildschirm **„Ja, Microsoft Teams-Funktionen hinzufügen“** und anschließend eine vorhandene Gruppe aus, die mit Microsoft Teams erweitert werden soll. Vorhandene Gruppenmitglieder werden automatisch als Mitglieder zum Team hinzugefügt.
 
 
-|  |  |
-|---------|---------|
-|![Symbol für „Wichtig“](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Wichtig     |Nur Besitzer einer Office 365-Gruppe verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Microsoft Teams.         |
+
+> [!IMPORTANT]
+> Nur Besitzer einer Office 365-Gruppe verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Microsoft Teams. 
 
 Benutzer können auch eine Verteilerliste in ein Team einladen, und die Mitglieder dieser Verteilerliste werden zum Team hinzugefügt. Dies ist eine einmalige Synchronisierung, und spätere Änderungen an der Gruppenmitgliedschaft in der Verteilerliste werden in Teams nicht übernommen. 
 

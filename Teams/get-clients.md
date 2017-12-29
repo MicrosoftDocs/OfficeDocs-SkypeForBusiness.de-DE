@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verwenden."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f555208aba849b77d648e5e9561d0daf3ba199b3
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.openlocfilehash: fa0e91acd0847ab7b37113383348cb8be9a7a1c6
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -22,7 +22,7 @@ Microsoft Teams-Clients sind für Web, Desktop (Windows und Mac) und mobile Betr
 <a name="web-client"></a>Webclient 
 ----------------
 
-Beim Webclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) handelt es sich um einen vollständigen funktionsfähigen Client, der in einer Vielzahl von Browsern verwendet werden kann. Zurzeit ist Microsoft Edge der einzige Webclient mit Unterstützung für Echtzeitkommunikation (das heißt Teilnehmen an Besprechungen und Tätigen von Einzelanrufen). Außerdem muss der Browser so konfiguriert sein, dass Drittanbietercookies zulässig sind.
+Beim Webclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) handelt es sich um einen vollständigen funktionsfähigen Client, der in einer Vielzahl von Browsern verwendet werden kann. Zurzeit unterstützt der Webclient keine Echtzeitkommunikation (das heißt Teilnehmen an Besprechungen und Tätigen von Einzelanrufen). Außerdem muss der Browser so konfiguriert sein, dass Drittanbietercookies zulässig sind. 
 
 Zum Nutzen von Microsoft Teams in einem Webbrowser ist kein Plug-In oder Download erforderlich.
 
@@ -39,9 +39,9 @@ Microsoft Teams unterstützt die folgenden Browser und Versionen:
 -   **Firefox**: 47.0+
 
 
-| | |
-|---------|---------|
-|![Symbol für „Wichtig“](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>Wichtig     |Safari wird noch nicht unterstützt, die Unterstützung kommt jedoch bald.         |
+
+> [!NOTE]
+> Safari wird noch nicht unterstützt, die Unterstützung kommt jedoch bald.
 
 <a name="desktop-clients"></a>Desktopclients
 ------------------------
@@ -55,17 +55,19 @@ Desktopclients können unter [https://teams.microsoft.com/downloads](https://go.
 IT-Administratoren können ihre bevorzugte Methode für die Verteilung der Installationsdateien an die Computer in ihrer Organisation auswählen, beispielsweise System Center Configuration Manager (Windows) oder Casper Suite (MacOS).
 
 
-| | |
-|---------|---------|
-|![Hinweissymbol](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Die Verteilung des Clients über diese Mechanismen ist nur für die anfängliche Installation von Microsoft Team-Clients gedacht, nicht für zukünftige Updates.         |
+
+> [!NOTE]
+> Die Verteilung des Clients über diese Mechanismen ist nur für die anfängliche Installation von Microsoft Team-Clients gedacht, nicht für zukünftige Updates.
+       |
 
 #### <a name="windows"></a>Windows
 
 Für die Microsoft Teams-Installation unter Windows können Installationsprogramme mit 32-Bit- und 64-Bit-Architektur heruntergeladen werden. Die Architektur sollte mit der des Betriebssystems übereinstimmen und wird beim Onlinedownload standardmäßig ausgewählt.
 
-| | |
-|---------|---------|
-|![Hinweissymbol](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Die Architektur (32-Bit oder 64-Bit) von Microsoft Teams ist unabhängig von der Architektur der installierten Office-Version.        |
+
+
+> [!NOTE]
+> Die Architektur (32-Bit oder 64-Bit) von Microsoft Teams ist unabhängig von der Architektur der installierten Office-Version.
 
 Der Windows-Client wird im Ordner „AppData“ im Profil des Benutzers bereitgestellt. Durch die Bereitstellung im lokalen Profil des Benutzers kann der Client installiert werden, ohne dass erhöhte Rechte erforderlich sind. Der Windows-Client wird an den folgenden Speicherorten installiert:
 
@@ -77,15 +79,14 @@ Wenn Benutzer erstmals mit dem Microsoft Teams-Client einen Anruf einleiten, seh
 
 ![Screenshot des Dialogfelds „Windows-Sicherheitshinweis“](media/Get_clients_for_Microsoft_Teams_image3.png)
 
-| | |
-|---------|---------|
-|![Hinweissymbol](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Die Konfiguration der Windows-Firewall wird auch dann geändert, wenn die Eingabeaufforderung durch Auswählen von „Abbrechen“ geschlossen wird. Zwei eingehende Regeln für „teams.exe“ werden mit der Aktion „Blockieren“ für die Protokolle TCP und UDP erstellt.        |
+
+> [!NOTE]
+> Die Konfiguration der Windows-Firewall wird auch dann geändert, wenn die Eingabeaufforderung durch Auswählen von „Abbrechen“ geschlossen wird. Zwei eingehende Regeln für „teams.exe“ werden mit der Aktion „Blockieren“ für die Protokolle TCP und UDP erstellt.
 
 #### <a name="mac"></a>Mac
 
-Microsoft stellt auch eine DMG-Installationsdatei für Mac OS X-Computer bereit. Zum Installieren des Mac-Clients ist Administratorzugriff erforderlich. Der Mac OS X-Client wird an den folgenden Speicherorten installiert:
+Microsoft stellt auch eine DMG-Installationsdatei für Mac OS X-Computer bereit. Zum Installieren des Mac-Clients ist Administratorzugriff erforderlich. Der Mac OS X-Client wird im Ordner „/Applications“ installiert.
 
-\~/Library/Application Support/Microsoft/Teams
 
 <a name="mobile-clients"></a>Mobile Clients
 --------------

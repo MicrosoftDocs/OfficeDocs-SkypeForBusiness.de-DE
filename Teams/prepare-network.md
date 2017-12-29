@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie Ihr Microsoft Teams-Netzwerk vorbereiten und verwalten. Unter anderem erhalten Sie Informationen zu den Netzwerkanforderungen, den Bandbreitenanforderungen und zusätzlichen Überlegungen."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 399a0a6ed6ac5bfabeac97f41e82e0237bca0b74
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 64d7ba35e8882fc0baa3522e1a5779b3e7ef8aaf
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
@@ -27,9 +27,10 @@ Microsoft Teams kombiniert drei Arten von Datenverkehr:
 
 Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt bei Peer-zu-Peer-Kommunikation direkt zwischen den Microsoft Teams-Clients und in Besprechungsszenarien zwischen der Office 365-Umgebung und den Microsoft Teams-Clients. Um den optimalen Datenverkehrsfluss sicherzustellen, muss der Datenverkehr zwischen den internen Netzwerksegmenten (zum Beispiel zwischen den Standorten über das WAN) sowie zwischen den Netzwerkstandorten und Office 365 fließen können. Wenn Sie nicht die richtigen Ports öffnen oder bestimmte Ports aktiv blockieren, führt dies zu Beeinträchtigungen.
 
-|  |  |
-|---------|---------|
-|![Symbol für „Wichtig“](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Wichtig    |Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone (Unterstützung für Windows Phone kommt bald).       |
+
+
+> [!IMPORTANT]
+> Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone (Unterstützung für Windows Phone kommt bald).
 
 Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein (weitere Details finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität für Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)).
 
@@ -47,9 +48,10 @@ Die beiden definierenden Netzwerksegmente (Client zu Microsoft Edge und Kundened
 
 Um beide Netzwerksegmente zu testen, können Sie ein Netzwerkbewertungstool verwenden (Quelle: [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799)). Dieses Tool kann direkt auf dem Client-PC sowie auf einem PC oder Laptop, der mit dem Netzwerkedge des Kunden verbunden ist, bereitgestellt werden. Das Tool enthält begrenzte Dokumentation, eine eingehendere Dokumentation zur Verwendung des Tools finden Sie hier: [Bewertung der Netzwerkbereitschaft](https://go.microsoft.com/fwlink/?linkid=855800). Indem Sie diese Bewertung der Netzwerkbereitschaft ausführen, können Sie die Bereitschaft Ihres Netzwerks für die Ausführung von Echtzeitmedienanwendungen wie beispielsweise Microsoft Teams validieren.
 
-|  |  |
-|---------|---------|
-|![Hinweissymbol](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Dabei handelt es sich um die gleiche Bewertung der Netzwerkbereitschaft, deren Ausführung Kunden empfohlen wird, die Skype for Business erfolgreich bereitstellen möchten.         |
+
+
+> [!NOTE]
+> Dabei handelt es sich um die gleiche Bewertung der Netzwerkbereitschaft, deren Ausführung Kunden empfohlen wird, die Skype for Business erfolgreich bereitstellen möchten.
 
 <a name="bandwidth-requirements"></a>Bandbreitenanforderungen
 ----------
@@ -58,9 +60,10 @@ Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützu
 
 Den folgenden Inhalt können Sie als ergänzende Hintergrundinformationen nutzen. Kunden wird jedoch empfohlen, ihren Bedarf mit dem [Bandbreitenrechner](https://aka.ms/bwcalc) zu ermitteln.
 
-|  |  |
-|---------|---------|
-|![Hinweissymbol](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Hinweis    |Wenn die erforderliche Bandbreite nicht verfügbar ist, verringert der Medienstapel in Microsoft Teams die Qualität der Audio/Video-Sitzung, um der niedrigeren verfügbaren Bandbreite Rechnung zu tragen. Dies wirkt sich auf die Qualität des Anrufs bzw. der Besprechung aus. Der Microsoft Teams-Client versucht, die Audioqualität gegenüber der Videoqualität zu priorisieren. Daher ist es äußerst wichtig, dass die erwartete Bandbreite verfügbar ist.       |
+
+
+> [!IMPORTANT]
+>Wenn die erforderliche Bandbreite nicht verfügbar ist, verringert der Medienstapel in Microsoft Teams die Qualität der Audio/Video-Sitzung, um der niedrigeren verfügbaren Bandbreite Rechnung zu tragen. Dies wirkt sich auf die Qualität des Anrufs bzw. der Besprechung aus. Der Microsoft Teams-Client versucht, die Audioqualität gegenüber der Videoqualität zu priorisieren. Daher ist es äußerst wichtig, dass die erwartete Bandbreite verfügbar ist.
 
 
 |Aktivität  |Downloadbandbreite  |Uploadbandbreite  |Datenverkehrsfluss |
