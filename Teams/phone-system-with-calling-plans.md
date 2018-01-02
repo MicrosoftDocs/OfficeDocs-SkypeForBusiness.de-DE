@@ -182,7 +182,7 @@ Die Planung der Ausführung und die Benennung der Teams, die den Telefonsystemdi
 >|Übernahme/Change Management|Sensibilisierung, Schulung und Übernahme für die Lösung|TBA|TBA|
 >|Exchange-Aufgaben|Verwalten der Exchange-Umgebung|TBA|TBA|
 
-Sie können die detailliertere Zuordnung der operativen Rollen (einschließlich der mit jeder operativen Rolle verbundenen Aufgaben), vereinfachen, indem Sie in der [Arbeitsmappe für die Zuordnung von operativen Rollen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) die Details erfassen, die Ihnen einen Überblick über die Rollen und Verantwortlichkeiten für die Unterstützung des Telefonsystemdiensts mit Anrufplänen geben.
+Sie können die detailliertere Zuordnung der operativen Rollen (einschließlich der mit jeder operativen Rolle verbundenen Aufgaben) vereinfachen, indem Sie in der [Arbeitsmappe für die Zuordnung von operativen Rollen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) die Details erfassen, die Ihnen einen Überblick über die Rollen und Verantwortlichkeiten für die Unterstützung des Telefonsystemdiensts mit Anrufplänen geben.
 
 <a name="document-success-plan"></a>Dokumentieren des Erfolgsplans
 ---------------------
@@ -235,7 +235,7 @@ Unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Re
 > [!IMPORTANT]
 > Aufgrund von rechtlichen Beschränkungen müssen multinationale Organisationen, die Anrufpläne nutzen möchten, den Vertrag für Office 365-Abonnements in Ländern und Regionen abschließen, die vom Anrufplandienst abgedeckt sind oder in denen dieser kommerziell erhältlich ist.
 
-Nachdem Sie sich vergewissert haben, dass Ihre Organisation berechtigt ist, das Add-On „Anrufpläne“ zu beziehen, erstellen Sie die Liste der Benutzerstandorte oder Niederlassungen, an bzw. in denen der Anrufplandienst wird. Die Grundlage stellt dabei die Liste der verfügbaren Länder und Regionen dar.
+Nachdem Sie sich vergewissert haben, dass Ihre Organisation berechtigt ist, das Add-On „Anrufpläne“ zu beziehen, erstellen Sie die Liste der Benutzerstandorte oder Niederlassungen, an bzw. in denen der Anrufplandienst implementiert wird. Die Grundlage stellt dabei die Liste der verfügbaren Länder und Regionen dar.
 
 <br>
 |         |         |         |

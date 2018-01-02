@@ -88,7 +88,7 @@ Wie in der reinen Skype for Business Online-Bereitstellungstopologie müssen Ben
 > Die Interop-Unterstützung für hybride Skype for Business-Bereitstellungen umfasst keine Hybridtelefoniefunktionen, die über CCE (Cloud Connector Edition) oder lokale PSTN-Anbindung mithilfe einer vorhandenen Bereitstellung bereitgestellt werden – dies wird allgemein auch als OPCH (On Prem Config Hybrid, hybride lokale Konfiguration) bezeichnet. Microsoft Teams-Benutzer können nicht für PSTN-Anruffunktionen mit CCE oder OPCH aktiviert werden.
 
 ### <a name="interop-experiences-limitations"></a>Einschränkungen der Interop-Funktionen
-Zurzeit fehlen nicht nur einheitliche Anwesenheitsstatus in Microsoft Teams und Skype for Business, was zu eigenen unabhängigen Anwesenheitsstatus in Microsoft Teams und Skype for Business führt, sondern gibt auch Funktionen, die für Interop-Chats und -Anrufe zwischen Microsoft Teams und Skype for Business nicht verfügbar sind.
+Zurzeit fehlen nicht nur einheitliche Anwesenheitsstatus in Microsoft Teams und Skype for Business, was zu eigenen unabhängigen Anwesenheitsstatus in Microsoft Teams und Skype for Business führt, sondern es gibt auch Funktionen, die für Interop-Chats und -Anrufe zwischen Microsoft Teams und Skype for Business nicht verfügbar sind.
 
 Für Interop bei Chats gelten zurzeit die folgenden Einschränkungen:
 - Bei Unterhaltungen mit mehreren Teilnehmern (Gruppen-Chats) in Microsoft Teams müssen alle Teilnehmer Microsoft Teams verwenden.
@@ -129,7 +129,7 @@ Der Parameter `CallingDefaultClient` definiert, wie Anrufe zwischen Microsoft Te
 
 In der folgenden Tabelle wird im Detail erläutert, wie die einzelnen Einstellungen dieses Parameters das Verhalten von Microsoft Teams- und Skype for Business-Clients beeinflussen.
 
-|Anrufer aus  |Einstellung: „Default“ (Standard), Empfang des Anrufs in  |Einstellung: „Teams“ (Microsoft Teams), Empfang des Anrufs in  |Einstellung: „SfB“ (Microsoft Teams), Empfang des Anrufs in  |
+|Anrufer aus  |Einstellung: „Default“ (Standard), Empfang des Anrufs in  |Einstellung: „Teams“ (Microsoft Teams), Empfang des Anrufs in  |Einstellung: „SfB“ (Skype for Business), Empfang des Anrufs in  |
 |---------|---------|---------|---------|
 |**Skype for Business**     |Skype for Business         |Microsoft Teams        |Skype for Business         |
 |**Microsoft Teams**     |Microsoft Teams         |Microsoft Teams         |Skype for Business         |
