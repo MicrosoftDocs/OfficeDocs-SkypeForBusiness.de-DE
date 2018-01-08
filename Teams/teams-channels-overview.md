@@ -1,5 +1,5 @@
 ---
-title: "Übersicht über Teams und Kanäle in Microsoft Teams | Microsoft-Support"
+title: "Übersicht über Teams und Kanäle in Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erhalten Sie Informationen zu den verschiedenen verfügbaren Teams, Kanälen und Apps für die verschiedensten Anforderungen wie zum Beispiel Finanzen, Planung von Veranstaltungen, Vertrieb und vieles mehr."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f7c69f85862396dd31b69c034521fae01c4a400a
-ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 42b1b1f10fdc06dc83b8c4b985afcf3fcae9d895
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================

@@ -1,5 +1,5 @@
 ---
-title: "Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams | Microsoft-Support"
+title: "Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5adef4ea4c540523a0efffcf007a516f0a4efbbc
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 2e852f88cffefdc259b1a0dbf20349bbaf5e3686
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams
 =======================================================

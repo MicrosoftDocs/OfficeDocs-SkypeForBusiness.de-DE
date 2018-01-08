@@ -1,5 +1,5 @@
 ---
-title: "Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams | Microsoft-Support"
+title: "Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,46 +7,31 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie in Microsoft Teams Bots für private Chats und Kanäle hinzufügen, benutzerdefinierte Bots erstellen und Ihren eigenen Bot für private Chats querladen."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1ada4bbc135498abe62fa721ad6814f1f67fb841
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: c7f2aec398728f310fab780e96d4df09e4b7f582
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams
 ==========================================================
 
-Bots sind automatisierte Programme, die so eingerichtet sind, dass sie auf Abfragen reagieren oder Updates und Benachrichtigungen zu Details bereitstellen, für die Benutzer sich interessieren oder über die sie stets informiert sein möchten. Über Bots können Benutzer durch Chatunterhaltungen in Microsoft Teams mit Clouddiensten wie Aufgabenverwaltung, Planung und Umfragen interagieren. Bots für Microsoft Teams basieren auf [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370), und die mit diesem Framework entwickelten Bots können leicht für Microsoft Teams aktiviert werden.
+Bots sind automatisierte Programme, die Fragen beantworten oder Updates und Benachrichtigungen zu Details bereitstellen, für die Benutzer sich interessieren oder über die sie stets informiert sein möchten. Über Bots können Benutzer in Form von Chatunterhaltungen in Microsoft Teams mit Clouddiensten wie Aufgabenverwaltung, Planung und Umfragen interagieren. Bots für Microsoft Teams basieren auf [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370), und die mit diesem Framework entwickelten Bots können leicht für Microsoft Teams aktiviert werden. Weitere Informationen finden Sie unter [Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](enable-features-office-365.md).
 
 Zurzeit unterstützt Microsoft Teams Bots in privaten Chats und in Kanälen in einem Team. Administratoren können steuern, ob die Verwendung von Bots innerhalb des Office 365-Mandanten zulässig oder untersagt ist.<span id="_T-Bot" class="anchor"></span>
 
-In Microsoft Teams können Bots genutzt werden, die von der Community entwickelt und verfügbar gemacht wurden. Die Funktionen des Bots und das Querladen von Bots müssen auf Mandantenebene aktiviert werden, damit benutzerdefinierte Bots funktionieren. Bots können in privaten Chats oder in Kanälen verwendet werden. Für Kanäle können Teambesitzer oder -mitglieder Bots hinzufügen.
+In Microsoft Teams können Bots genutzt werden, die von der Community entwickelt wurden. Die Funktionen des Bots und das Querladen von Bots müssen auf Mandantenebene aktiviert werden, damit benutzerdefinierte Bots funktionieren. Bots können in privaten Chats oder in Kanälen verwendet werden. Für Kanäle können Teambesitzer oder -mitglieder Bots hinzufügen.
 
-<a name="add-bots-for-private-chat-and-channels"></a>Hinzufügen von Bots für private Chats und Kanäle
---------------------------------------
+Weitere Informationen finden Sie unter [Apps und Dienste](https://support.office.com/en-us/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) im Abschnitt „Verwenden von Bots“. 
 
-Es gibt zwei Möglichkeiten, einen Bot für private Chats und Kanäle zu integrieren:
 
-1.  Installieren Sie öffentlich verfügbare Bots für **private Chats** oder für **Kanäle**. (Das ist die erste Option.)
 
-2.  Alternativ können Sie Bots suchen, indem Sie zu **Chat** navigieren, nach einem **Kontakt** suchen und dann auf **Apps entdecken** klicken.
 
-![Screenshot des Suchfensters mit dem Suchergebnis „Apps entdecken“](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
 
-3.  Wählen Sie wie unten gezeigt aus, mit welchem **Bot** Sie eine Unterhaltung führen möchten.
 
-![Screenshot des Fensters „Apps entdecken“ mit ausgewählter Registerkarte „Bots“](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
 
-4.  Erteilen Sie dem ausgewählten Bot **Berechtigungen**, und wählen Sie aus, ob Sie **Bots in einem privaten Chat** verwenden möchten, oder wählen Sie ein **Team** aus, in dem Sie den Bot verwenden möchten.
 
-![Screenshot der App-Seite für AzureBot](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
-
-5.  Alternativ können Sie einen Bot in einem Kanal eines Teams verwenden, indem Sie einfach auf **View Team and Bots** (Team und Bots anzeigen) klicken. Hier können Sie weitere Bots entdecken.
-
-6.  Ein Bot kann jederzeit aus dem Team entfernt werden. Klicken Sie einfach auf **View Team and Bots** (Team und Bots anzeigen), um alle Bots zu sehen, und **entfernen** Sie dann den gewünschten Bot.
-
-![Screenshot der Registerkarte „Bots“ mit der Beschreibung von AzureBot](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
+ 
 
 <a name="create-custom-bots-for-microsoft-teams"></a>Erstellen von benutzerdefinierten Bots für Microsoft Teams
 --------------------------------------
@@ -60,12 +45,12 @@ Bots können mit dem [Bot Framework-Emulator](https://go.microsoft.com/fwlink/?l
 <a name="side-load-your-own-bot-for-private-chat"></a>Querladen Ihres eigenen Bots für private Chats
 ---------------------------------------
 
-1.  Wenn Sie Ihren Bot erstellt haben, navigieren Sie zur **Botdashboard**-[Seite](https://go.microsoft.com/fwlink/?linkid=854374) für den entwickelten Bot, und kopieren Sie unter **Details** die **Microsoft-App-ID**.
+1.  Wenn Sie Ihren Bot erstellt haben, navigieren Sie zur **Botdashboard**-[Seite](https://go.microsoft.com/fwlink/?linkid=854374) für den entwickelten Bot, und kopieren Sie unter **Details** die **Microsoft-App-ID**.![Screenshot der Detailseite für einen Bot mit hervorgehobener Microsoft-App-ID](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png) 
 
-![Screenshot der Detailseite für einen Bot mit hervorgehobener Microsoft-App-ID](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
-2.  Wählen Sie in Microsoft Teams im Bereich **Chat** das **Symbol zum Hinzufügen eines Chats** aus. Fügen Sie in **An:** die **Microsoft-App-ID** Ihres Bots ein.
 
-![Screenshot eines Chatbereichs mit dem Symbol zum Hinzufügen eines Chats und der Zeile „An“ mit hervorgehobener Microsoft-App-ID](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+2.  Wählen Sie in Microsoft Teams im Bereich **Chat** das **Symbol zum Hinzufügen eines Chats** aus. Fügen Sie in **An:** die **Microsoft-App-ID** Ihres Bots ein. ![Screenshot eines Chatbereichs mit dem hervorgehobenen Symbol zum Hinzufügen eines Chats und der hervorgehobenen Zeile „An“ mit der Microsoft-App-ID](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+
+
 
 3.  Die App-ID wird in den **Botnamen** aufgelöst. Dann können Sie eine Chatunterhaltung mit dem Bot beginnen.

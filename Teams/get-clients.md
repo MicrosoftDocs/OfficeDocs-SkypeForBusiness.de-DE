@@ -1,5 +1,5 @@
 ---
-title: "Beziehen von Clients für Microsoft Teams | Microsoft-Support"
+title: "Beziehen von Clients für Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verwenden."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa0e91acd0847ab7b37113383348cb8be9a7a1c6
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+ms.openlocfilehash: 8037d765e304aa6e950fdd0b9b5ad55079ec1700
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/22/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -24,7 +23,7 @@ Microsoft Teams-Clients sind für Web, Desktop (Windows und Mac) und mobile Betr
 
 Beim Webclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) handelt es sich um einen vollständigen funktionsfähigen Client, der in einer Vielzahl von Browsern verwendet werden kann. Zurzeit unterstützt der Webclient keine Echtzeitkommunikation (das heißt Teilnehmen an Besprechungen und Tätigen von Einzelanrufen). Außerdem muss der Browser so konfiguriert sein, dass Drittanbietercookies zulässig sind. 
 
-Zum Nutzen von Microsoft Teams in einem Webbrowser ist kein Plug-In oder Download erforderlich.
+Zum Ausführen von Microsoft Teams in einem Webbrowser ist kein Plug-In oder Download erforderlich.
 
 Der Webclient erkennt die Browserversion beim Herstellen der Verbindung mit [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Wenn eine nicht unterstützte Browserversion erkannt wird, wird der Zugriff auf die Webschnittstelle blockiert, und dem Benutzer wird empfohlen, den Desktopclient oder die mobile App herunterzuladen.
 
@@ -58,7 +57,7 @@ IT-Administratoren können ihre bevorzugte Methode für die Verteilung der Insta
 
 > [!NOTE]
 > Die Verteilung des Clients über diese Mechanismen ist nur für die anfängliche Installation von Microsoft Team-Clients gedacht, nicht für zukünftige Updates.
-       |
+
 
 #### <a name="windows"></a>Windows
 

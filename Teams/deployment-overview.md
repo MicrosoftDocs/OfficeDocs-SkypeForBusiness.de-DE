@@ -1,18 +1,18 @@
 ---
-title: "Übersicht über eine Microsoft Teams-Bereitstellung | Microsoft-Support"
+title: "Übersicht über eine Microsoft Teams-Bereitstellung"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: Hier erfahren Sie, wie eine Bereitstellung von Microsoft Teams eingerichtet wird.
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2f53424c034e578cd7feba33fe10e25107582a3d
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "Hier erfahren Sie, wie Sie eine Bereitstellung von Microsoft Teams durchführen."
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 02901ea151d27dd520f5f541e78445b3082f9109
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Übersicht über eine Microsoft Teams-Bereitstellung
 ========================================
@@ -55,4 +55,4 @@ So würde dieses Setup in Microsoft Teams aussehen:
 
  
 
-*Um diese Entscheidungspunkte nachzuvollziehen, laden Sie das Dokument [Microsoft Teams Workshop Decision Points Summary.docx](https://www.microsoft.com/en-us/download/55981) herunter.*
+Um diese Entscheidungspunkte nachzuverfolgen, laden Sie den Fragebogen zur technischen Planung unter [Schnellstart: erfolgreiche Aktivierung von Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) herunter.

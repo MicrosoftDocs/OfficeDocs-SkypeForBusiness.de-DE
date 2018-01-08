@@ -7,12 +7,12 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "Hier erhalten Sie Informationen zu der für Gastbenutzer verfügbaren Microsoft Teams-Funktionalität."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 596d0dd3bb754e6f6c983beb9ba62d775768d252
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 7ce64b92d5b51c7bfc154b955ed0c9c5ea1bab99
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -57,7 +57,7 @@ In der folgenden Tabelle werden die für die Teammitglieder einer Organisation v
 |Chatdatei freigeben  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Apps hinzufügen (Registerkarten, Bots oder Connectors)  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Mandantenweite Gastzugriffsrichtlinien für Teams/Kanäle erstellen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Benutzer außerhalb der Office 365-Mandantendomäne einladen  <br/> ||![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Benutzer außerhalb der Office 365-Mandantendomäne einladen <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Team erstellen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Öffentliches Team finden und daran teilnehmen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Organisationschat anzeigen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

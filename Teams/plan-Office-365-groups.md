@@ -1,5 +1,5 @@
 ---
-title: "Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams | Microsoft-Support"
+title: "Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, welche Entscheidungen Sie beim Planen von Office 365-Gruppen treffen sollten, zum Beispiel Auswählen von öffentlichen und privaten Gruppen, Verwenden des Teams-Clients oder der Office 365-Verwaltungswebkonsole und Schulen Ihrer Teams in der Verwendung von Unterhaltungen."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f52b71ede74edf6de949f5efb8d609cede12c222
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 49d8a78f4d3c2d7c03567992479d09d4fe06ca5d
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
 ==========================================================

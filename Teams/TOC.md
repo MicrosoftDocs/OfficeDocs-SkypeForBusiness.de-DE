@@ -10,16 +10,17 @@
 ## [Interaktion von SharePoint Online und OneDrive for Business mit Teams](SharePoint-OneDrive-interact.md)
 ## [Interoperabilität von Microsoft Teams und Skype for Business](Teams-and-SkypeforBusiness-interoperability.md)
 
-# [Schnellstarthandbücher](quick-start-guides.md)
+# [Schnellstarthandbücher für Microsoft Teams-Administratoren](quick-start-guides.md)
 ## [Schnellstart: Microsoft Teams-Planungshandbuch](quick-start-enable-Teams.md)
 ## [Konfigurieren von Anrufplänen](configuring-teams-calling-quickstartguide.md)
+## [Schnellstart – Microsoft Teams Education](Teams-quick-start-edu.yml)
 
 # Planen
 ## [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
 ## [Planen von Office 365-Gruppen beim Erstellen von Teams in Teams](plan-Office-365-groups.md)
 ## [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
 ## [URLs und IP-Adressbereiche von Office 365](Office-365-URLs-IP-address-ranges.md)
-## [Planen des Workshop-Kits und praktische Anleitungen für Microsoft Teams](planning-workshop-practical-guide.md)
+## [Workshop-Kit: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
 
 # Übernehmen
 ## [Erstellen einer Change Management-Strategie für Microsoft Teams](change-management-strategy.md)
@@ -65,7 +66,7 @@
 ## Video
 ### [Audiokonferenzen](audio-conferencing-videos.md)
 
-# [Reise von Skype for Business zu Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
+# [Reise von Skype for Business zu Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimieren Sie Ihre aktuelle Skype for Business-Umgebung für Microsoft Teams](prepare-teams.md)
 ## [2 - Fördern Sie neben Skype for Business die Akzeptanz von Teams](pilot-essentials.md)
 ## [3 - Aktivieren Sie Teams Seite an Seite mit Skype for Business](guidance-SkypeforBusiness.md)
@@ -94,7 +95,8 @@
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 
-
+# Microsoft Teams Education
+## [Schnellstart für Administratoren – Microsoft Teams Education](Teams-quick-start-edu.yml)
 
 # [Entwicklerdokumentation für Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
 

@@ -1,5 +1,5 @@
 ---
-title: "Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation | Microsoft-Support"
+title: "Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,29 +7,31 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c785e554034cd87fd27f5137f206c8dc0e5f972a
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: d6a4a8d10e20b57df16fac3c7ffeba0bacd64d2e
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/22/2017
 ---
-<a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
+<a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 ======================================================
 
-Microsoft Teams hat mehrere Einstellungen, die auf Mandantenebene aktiviert oder deaktiviert werden können. Wenn Microsoft Teams für den Mandanten aktiviert ist, erben alle Benutzer, die ebenfalls für Microsoft Teams aktiviert sind, die Einstellungen auf Mandantenebene.
+Microsoft Teams hat mehrere Einstellungen, die auf Office 365-Mandantenebene aktiviert oder deaktiviert werden können. Wenn Microsoft Teams für einen Mandanten aktiviert ist, erben alle Benutzer, die ebenfalls für Microsoft Teams aktiviert sind, die Einstellungen auf Mandantenebene.
 
 Unten sehen Sie eine Liste der Funktionen, die Office 365-Administratoren in Microsoft Teams wahlweise aktivieren oder deaktivieren können.
 
 Wenn nichts anderes angegeben ist, lautet der Standardwert für die jeweilige Option „Ein“.
 
 > [!NOTE]
-> Office 365-Administratoren können Microsoft Teams jederzeit im Office 365 Admin Center deaktivieren. Beachten Sie, dass Benutzer mit aktiven Lizenzen für Microsoft Teams die Kachel der Microsoft Teams-App auch dann noch sehen, wenn Sie Microsoft Teams deaktiviert haben. Details zum Entfernen von Lizenzen von Benutzern finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md). Wenn Teams deaktiviert wurde, ist der Zugriff über den Microsoft Teams-Client blockiert, aber die über andere Clients und Dienste verfügbaren Daten sind nach wie vor verfügbar. Dies gilt zum Beispiel für Dateien aus SharePoint und OneDrive. Alle Daten verbleiben an Ort und Stelle, solange die Teams nicht explizit gelöscht werden.
+> Office 365-Administratoren können Microsoft Teams jederzeit im Office 365 Admin Center deaktivieren. Beachten Sie, dass Benutzer mit aktiven Lizenzen für Microsoft Teams die Kachel der Microsoft Teams-App auch dann noch sehen, wenn Sie Microsoft Teams deaktiviert haben. Details zum Entfernen von Lizenzen von Benutzern finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md). Wenn Microsoft Teams deaktiviert wurde, ist der Zugriff über den Microsoft Teams-Client blockiert, aber die über andere Clients und Dienste verfügbaren Daten sind nach wie vor verfügbar. Dies gilt zum Beispiel für Dateien aus SharePoint und OneDrive. Alle Daten verbleiben an Ort und Stelle, solange die Teams nicht explizit gelöscht werden.
 
-<a name="tenant-wide-settings"></a>Mandantenweite Einstellungen 
+<a name="office-365-tenant-wide-settings"></a>Mandantenweite Einstellungen in Office 365 
 ---------------------
 
 In **Mandantenweite Einstellungen** können Sie Optionen unter „Allgemein“, „E-Mail-Integration“, „Apps“ und „Custom cloud storage“ (Benutzerdefinierter Cloudspeicher) aktivieren oder deaktivieren.
+
+Um **mandantenweite Einstellungen** für Microsoft Teams zu bearbeiten, wechseln Sie zum Office 365 Admin Center. Wählen Sie **Einstellungen** > **Dienste und Add-Ins** > **Microsoft Teams** aus.
 
 ### <a name="general"></a>Allgemein
 
@@ -43,9 +45,9 @@ Im Abschnitt „Allgemein“ können Sie die folgenden Einstellungen für Ihre O
 
     ![Screenshot eines Organigramms](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
--   **„Use Skype for Business for recipients who don’t have Microsoft Teams“ (Für Empfänger, die Microsoft Teams nicht haben, Skype for Business verwenden):** Wenn diese Einstellung aktiviert ist, können Microsoft Teams-Benutzer Kontakt zu anderen Benutzern in der Organisation aufnehmen, die nicht über Skype for Business für Microsoft Teams aktiviert sind.
+-   **Use Skype for Business for recipients who don’t have Microsoft Teams** (Für Empfänger, die Microsoft Teams nicht haben, Skype for Business verwenden): Wenn diese Einstellung aktiviert ist, können Microsoft Teams-Benutzer Kontakt zu anderen Benutzern in der Organisation aufnehmen, die nicht über Skype for Business für Microsoft Teams aktiviert sind.
 
--   **„Allow T-bot proactive help messages“ (Proaktive Hilfenachrichten von T-Bot zulassen):** Wenn diese Einstellung aktiviert ist, initiiert T-Bot eine private Chatsitzung mit Benutzern, um sie bei der Verwendung von Microsoft Teams zu unterstützen.
+-   **Allow T-bot proactive help messages** (Proaktive Hilfenachrichten von T-Bot zulassen): Wenn diese Einstellung aktiviert ist, initiiert T-Bot private Chatsitzungen mit Benutzern, um sie bei der Verwendung von Microsoft Teams zu unterstützen.
 
     ![Screenshot des T-Bot-Abschnitts auf der Benutzeroberfläche von Microsoft Teams](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
@@ -58,11 +60,11 @@ Im Abschnitt „E-Mail-Integration“ können Sie die folgenden Einstellungen f�
 
    ![Screenshot des Abschnitts „E-Mail-Integration“ in „Mandantenweite Einstellungen“](media/QS-edu-email-integration.png)
 
--   **„Allow users to send emails to channels“ (Zulassen, dass Benutzer E-Mails an Kanäle senden):** Wenn diese Option aktiviert ist, werden Mailhooks aktiviert, und Benutzer können Nachrichten in einem Kanal posten, indem sie eine E-Mail an die E-Mail-Adresse des Microsoft Teams-Kanals senden.
+-   **Allow users to send emails to channels** (Zulassen, dass Benutzer E-Mails an Kanäle senden): Wenn diese Option aktiviert ist, werden Mailhooks aktiviert, und Benutzer können Nachrichten in einem Kanal posten, indem sie eine E-Mail an die E-Mail-Adresse des Microsoft Teams-Kanals senden.
 
 > Um die E-Mail-Adresse des Kanals zu finden, klicken Sie neben dem Kanalnamen auf **Weitere Optionen**, und wählen Sie dann **E-Mail-Adresse abrufen** aus.
 
--   **„Restricted Senders List“ (Liste eingeschränkter Absender):** Die Domänen von Absendern können weiter eingeschränkt werden, um sicherzustellen, dass nur zulässige SMTP-Domänen E-Mails an die Microsoft Teams-Kanäle senden können.
+-   **Restricted Senders List** (Liste eingeschränkter Absender): Die Domänen von Absendern können weiter eingeschränkt werden, um sicherzustellen, dass nur E-Mails aus zulässigen SMTP-Domänen an die Microsoft Teams-Kanäle gesendet werden können.
 
 <a name="apps"></a>Apps
 ----
@@ -99,9 +101,10 @@ Als Administrator können Sie Teambesitzer und -mitglieder über das Dashboard �
 
 Sie können steuern, welche Benutzer in der Organisation Teams in Microsoft Teams erstellen können. Für Microsoft Teams gelten die gleichen Erstellungseinstellungen, die durch Office 365-Gruppen definiert werden. Weitere Informationen zum Verwalten von Office 365-Gruppen finden Sie unter [Erstellen von Office 365-Gruppen](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) und [Steuern, wer Office 365-Gruppen erstellen kann](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
-HINWEIS: Sie können keine Teams über das Dashboard „Gruppen“ erstellen Teams müssen mit dem Microsoft Teams-Desktopclient oder der Web-App erstellt werden.
+> [!NOTE]
+> Sie können keine Teams über das Dashboard „Gruppen“ erstellen Teams müssen mit dem Microsoft Teams-Desktopclient oder der Web-App erstellt werden.
 
-Standardmäßig können alle Benutzer Teams oder Gruppen erstellen. Benutzer können Teams erstellen, indem sie links im Microsoft Teams-Client (Desktop- oder Web-App) die Option „Teams“ auswählen. Anschließend wählen sie unten im Client unter der Teamliste die Option „Team erstellen“ aus.
+Standardmäßig können alle Benutzer Teams oder Gruppen erstellen. Wählen Sie links im Microsoft Teams-Client (Desktopclient oder Web-App) die Option **Teams** aus. Wählen Sie dann unten im Client unter der Teamliste die Option **Create and join team** (Team erstellen und beitreten) aus.
 
 Zurzeit kann ein Office 365-Mandant maximal 500.000 Teams enthalten. Ein globaler Administrator kann beliebig viele Teams erstellen. Ein Benutzer kann 250 Teams erstellen. Ein Teambesitzer kann 2.500 Mitglieder zu einem Team hinzufügen.
 

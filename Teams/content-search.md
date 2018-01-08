@@ -1,5 +1,5 @@
 ---
-title: Verwenden der Inhaltssuche in Microsoft Teams | Microsoft-Support
+title: Verwenden der Inhaltssuche in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie mehr über die Inhaltssuche in Microsoft Teams und wie Kanalchats über Exchange, Dateiuploads/-änderungen über SharePoint und OneNote durchsucht werden können."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ca75c0150cc6d4d61db2155b6164ed2200e74d10
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 91f8e0f94b8665e58b25ee0aa5f6a1f8cded39e0
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================
