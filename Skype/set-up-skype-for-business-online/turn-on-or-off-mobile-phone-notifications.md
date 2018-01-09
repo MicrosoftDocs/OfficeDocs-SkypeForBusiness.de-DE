@@ -1,62 +1,56 @@
 ---
-title: "Aus- oder Einschalten von Mobiltelefonbenachrichtigungen"
-ms.author: TONYSMIT
+title: Aktivieren Sie oder Deaktivieren von Benachrichtigungen Mobiltelefon
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgMobileNotification
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
-description: "Learn how to turn mobile phone notirications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.OrgMobileNotification
+ms.custom: Setup
+description: "Erfahren Sie, wie Mobiltelefon Benachrichtigungen aktivieren oder deaktivieren, damit die Benutzer die Benachrichtigungen über eingehende, Voicemail empfangen können und entgangene Sofortnachrichten."
+ms.openlocfilehash: 7345859c265c8f300046a22aaac73e17292d0946
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-mobile-phone-notifications"></a>Aktivieren Sie oder Deaktivieren von Benachrichtigungen Mobiltelefon
 
-# Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
+Als das **[Zuweisen von Administratorrollen in Office 365 für Unternehmen](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation können Sie auswählen, ob Ihre Skype für Unternehmensbenutzer erhalten Warnungen zu ein- und verpassten Sofortnachrichten, wenn sie sich auf ihre Mobiltelefone oder Tablets befinden.
   
-Als **[Zuweisen von Administratorrollen in Office 365](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation können Sie auswählen, ob Ihre Benutzer Skype for Business erhalten Benachrichtigungen über eingehende und verpassten Chatnachrichten aus, wenn sie auf ihren Mobiltelefonen oder Tablets befinden.
+Android und Windows-Telefonen Skype für Business Benachrichtigungen pop-in Echtzeit. Für Windows Phone, iPhone und iPad-Geräten jedoch Push-Benachrichtigung wird die Warnungen angezeigt werden, sobald Sie nicht mehr aktiv Skype Business auf Ihrem Mobiltelefon oder Tablet nutzen.
   
-Auf Mobiltelefonen unter Android und Windows Phone werden Skype for Business-Benachrichtigungen in Echtzeit angezeigt. Bei Geräten mit Windows Phone, bei iPhone und iPad werden hingegen Pushbenachrichtigungen verwendet, um immer dann Benachrichtigungen anzuzeigen, wenn Sie Skype for Business auf dem Mobiltelefon oder Tablet-PC gerade nicht aktiv verwenden.
-  
-## So schalten Sie Pushbenachrichtigungen für alle Windows Phone- oder Apple-Geräte in Ihrer Organisation aus
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Deaktivieren Sie Pushbenachrichtigungen für alle Windows Phone oder Apple-Geräte in Ihrer Organisation
 <a name="__top"> </a>
 
-1. Melden Sie sich bei Office 365 an.
+1. Melden Sie sich bei Office 365.
     
-2. Wechseln Sie zu der **Office 365-Verwaltungskonsole** > **Skype für Unternehmen**.
+2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Wechseln Sie zu **Organisation** > **Allgemein**.
+3. Wechseln Sie zu **Organisation** > **Allgemein**. 
     
-4. Deaktivieren Sie unter **Mobiltelefonbenachrichtigungen** das Kontrollkästchen neben dem Benachrichtigungsdienst, den Sie deaktivieren möchten, und klicken Sie dann auf **Speichern**.
+4. Klicken Sie unter **Mobile Phone Benachrichtigungen**deaktivieren Sie das Kontrollkästchen neben den Notification Service, den Sie deaktivieren möchten, und klicken Sie dann auf **Speichern**.
     
-Bitte beachten Sie:
+Bitte beachten Sie: 
   
-- Wenn Sie Pushbenachrichtigungen deaktivieren, erhalten die Benutzer weiterhin alle Benachrichtigungen, wenn sie Skype for Business auf ihren mobilen Geräten neu starten.
+- Wenn Sie Pushbenachrichtigungen deaktivieren, erhalten Benutzer weiterhin alle Benachrichtigungen, wenn sie Skype für Unternehmen erneut auf ihrem mobilen Gerät gestartet.
     
-- Pushbenachrichtigungen sind standardmäßig aktiviert. Sie können von einzelnen Benutzern deaktiviert werden, indem die geeignete Skype for Business-Option auf dem mobilen Gerät festgelegt wird.
+- Pushbenachrichtigungen sind standardmäßig aktiviert. Einzelne Benutzer können sie deaktivieren durch Auswählen der entsprechenden Skype für Business Option auf ihrem mobilen Gerät.
     
-- Nachdem Sie Pushbenachrichtigungen ausgeschaltet haben, können sie benutzerseitig nicht wieder eingeschaltet werden.
+- Wenn Sie Pushbenachrichtigungen deaktivieren, können nicht Benutzer sie wieder zu aktivieren.
     
 > [!IMPORTANT]
-> Microsoft verwendet die anderen Unternehmen in Echtzeit Skype for Business mobile Benachrichtigungen für Windows Phone, iPhone und iPad Benutzer bereitstellen. Finden Sie unter den [Datenschutzbestimmungen für Microsoft Skype für Business-Produkte](https://go.microsoft.com/fwlink/p/?linkid=247732). 
+>  Microsoft verwendet bei anderen Firmen, Real-Time Skype für mobile Business-Benachrichtigungen für Windows Phone, iPhone und iPad-Benutzer bereitzustellen. Finden Sie unter den [Datenschutzbestimmungen für Microsoft Skype für Business-Produkte](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-## Siehe auch
-<a name="MT_Footer"> </a>
-
-#### Weitere Ressourcen
+## <a name="related-topics"></a>Verwandte Themen
 
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
