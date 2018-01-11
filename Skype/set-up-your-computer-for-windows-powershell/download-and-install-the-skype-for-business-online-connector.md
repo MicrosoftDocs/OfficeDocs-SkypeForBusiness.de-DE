@@ -1,22 +1,30 @@
 ---
-title: "Herunterladen und Installieren des Skype for Business Online-Connectormoduls"
+title: Herunterladen und Installieren des Skype for Business Online-Connectormoduls
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 5/31/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 9c1cc3dc-7d6d-43ca-8e4a-7763a3f78cb3
-description: "Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
-"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: PowerShell
+description: 'Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online. '
+ms.openlocfilehash: b95b41937fea2ec87cb484cf557d85dcb3a77a8e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Herunterladen und Installieren des Skype for Business Online-Connectormoduls
 
-# Herunterladen und Installieren des Skype for Business Online-Connectormoduls
-
-Das Skype for Business Online-Konnektormodul umfasst das **New-CsOnlineSession** -Cmdlet, mit dem Sie eine Windows PowerShell-Remotesitzung erstellen können, die eine Verbindung mit Skype for Business Online herstellt. Das Modul, das nur auf 64-Bit-Computern unterstützt wird (weitere Informationen finden Sie unter[Einrichten des Computers für Skype für Business Online Management mithilfe von Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)) kann aus dem Microsoft Download Center unter [https://www.microsoft.com/de-de/download/details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366) heruntergeladen werden. Laden Sie die Datei „SkypeOnlinePowershell.exe" herunter, und gehen Sie dann wie folgt vor:
+Die Skype für Business Online Connector Modul enthält das **New-CsOnlineSession** -Cmdlet, das können Sie eine remote Windows PowerShell-Sitzung zu erstellen, die mit Skype für Business Online verbindet. In diesem Modul wird nur auf 64-Bit-Computern (siehe [Einrichten des Computers für Skype für das Business Online Management mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md) für Weitere Informationen) unterstützt, können im Microsoft Download Center unter [https:// heruntergeladen werden www.Microsoft.com/en-US/Download/Details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Laden Sie die Datei SkypeOnlinePowershell.exe, und führen Sie dann die folgende Schritte aus:
   
 1. Doppelklicken Sie auf die Datei **SkypeOnlinePowershell.exe**.
     
@@ -24,7 +32,7 @@ Das Skype for Business Online-Konnektormodul umfasst das **New-CsOnlineSession**
     
 3. Klicken Sie auf der Seite **Completed the Skype for Business Online, Windows PowerShell Module** (Windows PowerShell-Modul für Skype for Business Online abgeschlossen) auf **Fertig stellen**.
     
-Das Setupprogramm kopiert das Skype for Business Online-Konnektormodul (und das **New-CsOnlineSession** -Cmdlet) auf den Computer. Um auf das Modul zuzugreifen, starten Sie eine Windows PowerShell-Sitzung mit Administratoranmeldeinformationen, und führen Sie dann den folgenden Befehl aus:
+Das Setupprogramm kopiert das Skype for Business Online-Connectormodul (und das **New-CsOnlineSession** -Cmdlet) auf den Computer. Um auf das Modul zuzugreifen, starten Sie eine Windows PowerShell-Sitzung mit Administratoranmeldeinformationen, und führen Sie dann den folgenden Befehl aus:
   
 ```
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
@@ -42,10 +50,11 @@ notepad.exe $profile
 Import-Module SkypeOnlineConnector
 ```
 
-Speichern Sie die Datei. Wenn Sie Windows PowerShell das nächste Mal starten, wird das Skype for Business Online-Konnektormodul automatisch importiert. Beachten Sie: Wenn Sie Windows PowerShell nicht mit Administratoranmeldeinformationen ausführen, wird eine Fehlermeldung angezeigt, und das Modul wird nicht geladen.
+Speichern Sie die Datei. Wenn Sie Windows PowerShell das nächste Mal starten, wird das Skype for Business Online-Connectormodul automatisch importiert. Beachten Sie: Wenn Sie Windows PowerShell nicht mit Administratoranmeldeinformationen ausführen, wird eine Fehlermeldung angezeigt, und das Modul wird nicht geladen.
   
-Neben dem Skype for Business Online-Konnektormodul installiert „SkypeOnlinePowershell.exe" drei weitere Komponenten: 1) Identity Service Client Runtime Library (IDCRL) zum Verarbeiten der Clientauthentifizierung gegenüber Skype for Business Online, 2) .NET Framework 4.5 und 3) das Microsoft Visual C++ 2012 Redistributable (x64)-Paket (Version 11.0.50727). .NET Framework 4.5 stellt die Infrastruktur zum Erstellen und Ausführen von .NET-Anwendungen bereit, einschließlich Windows PowerShell. Das Visual C++ Redistributable-Paket installiert Visual C++-Laufzeitkomponenten für Computer, auf denen Microsoft Visual Studio 2012 nicht installiert ist.
+Neben dem Skype for Business Online-Connectormodul installiert „SkypeOnlinePowershell.exe" drei weitere Komponenten: 1) Identity Service Client Runtime Library (IDCRL) zum Verarbeiten der Clientauthentifizierung gegenüber Skype for Business Online, 2) .NET Framework 4.5 und 3) das Microsoft Visual C++ 2012 Redistributable (x64)-Paket (Version 11.0.50727). .NET Framework 4.5 stellt die Infrastruktur zum Erstellen und Ausführen von .NET-Anwendungen bereit, einschließlich Windows PowerShell. Das Visual C++ Redistributable-Paket installiert Visual C++-Laufzeitkomponenten für Computer, auf denen Microsoft Visual Studio 2012 nicht installiert ist.
   
 Um die Versionsnummer des zurzeit auf dem Computer installierten Connectormoduls zu überprüfen, öffnen Sie die Systemsteuerung, öffnen Sie **Programme und Features**, und überprüfen Sie dann die Versionsnummer von **Skype for Business Online, Windows PowerShell Module** (Windows PowerShell-Modul für Skype for Business Online).
   
-
+## <a name="related-topics"></a>Verwandte Themen
+[Einrichten des Computers für Skype für das Business online Management mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

@@ -1,25 +1,31 @@
 ---
-title: "Herunterladen und Installieren von Windows PowerShell 3.0"
+title: Herunterladen und Installieren von Windows PowerShell 3.0
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 10/3/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: LIL_Placement
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
-
-description: "Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
+- LIL_Placement
+description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
+ms.openlocfilehash: cdcabf75bbcdf53a1553f115af8f678d922a694b
+ms.sourcegitcommit: 622dccfbcf2c7a13ac7400dcf9f3900c58ffd37d
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/16/2017
 ---
+# <a name="download-and-install-windows-powershell-30"></a>Herunterladen und Installieren von Windows PowerShell 3.0
 
-# Herunterladen und Installieren von Windows PowerShell 3.0
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
 Wenn Sie Windows 8.1, Windows 8, Windows Server 2012 R2 oder Windows Server 2012 verwenden, sollten Sie bereits über Windows PowerShell 3.0 verfügen. Das liegt daran, dass die Anwendung unter diesen Betriebssystemen vorinstalliert ist. 
   
 Wenn Sie Windows 7 oder Windows Server 2008 R2 ausführen, führen Sie möglicherweise auch Windows PowerShell 3.0 aus. Es kann jedoch auch sein, dass Sie stattdessen Version 2.0 ausführen - die Version, die ursprünglich mit diesen Betriebssystemen ausgeliefert wurde. Um zu ermitteln, welche Version von Microsoft PowerShell Sie verwenden, gehen Sie auf Ihrem Computer unter Windows 7 oder Windows Server 2008 R2 wie folgt vor:
@@ -28,19 +34,19 @@ Wenn Sie Windows 7 oder Windows Server 2008 R2 ausführen, führen Sie mögliche
     
 2. Geben Sie in der PowerShell-Konsole den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
     
-  ```
-  Get-Host | Select-Object Version
-  ```
+    ```
+   Get-Host | Select-Object Version
+   ```
 
 3. Im Konsolenfenster sollten dann etwa die folgenden Informationen angezeigt werden:
     
-  ```
-  Version
--------
-3.0
-  ```
+    ```
+    Version
+    -------
+    3.0
+    ```
 
-Wenn die Versionsnummer 3.0 zurückgegeben wird, führen Sie Windows PowerShell 3.0 aus. Wenn anstelle von 3.0 eine andere Versionsnummer zurückgegeben wird, müssen Sie Windows PowerShell 3.0 installieren. Sie können Windows Management Framework 3.0 (einschließlich Windows PowerShell 3.0) aus dem [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=34595) herunterladen.
+    Wenn die Versionsnummer 3.0 zurückgegeben wird, führen Sie Windows PowerShell 3.0 aus. Wenn anstelle von 3.0 eine andere Versionsnummer zurückgegeben wird, müssen Sie Windows PowerShell 3.0 installieren. Sie können Windows Management Framework 3.0 (einschließlich Windows PowerShell 3.0) aus dem [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=34595) herunterladen.
   
 Wenn Sie sich vergewissert haben, dass Windows PowerShell 3.0 installiert ist, müssen Sie sicherstellen, dass PowerShell für die Ausführung von Remoteskripts konfiguriert ist. Starten Sie dazu PowerShell als Administrator. Unter Windows 7, Windows Server 2008 R2, Windows Server 2012 oder Windows Server 2012 R2 gehen Sie wie folgt vor:
   
@@ -57,13 +63,11 @@ Unter Windows 8 gehen Sie stattdessen so vor:
 3. Wenn das Dialogfeld **Benutzerkontensteuerung** angezeigt wird, klicken Sie auf **Ja**. Damit bestätigen Sie, dass Sie PowerShell mit Administratoranmeldeinformationen ausführen möchten.
     
 Wenn PowerShell ausgeführt wird, müssen Sie die Ausführungsrichtlinie ändern, um die Ausführung von Remoteskripts zuzulassen. Geben Sie in der PowerShell-Konsole den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
-  
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
-
-> [!NOTE]
->  Wenn Sie den vorstehenden Befehl ausführen, wird möglicherweise die folgende Fehlermeldung angezeigt:> „Set-ExecutionPolicy: Zugriff auf Registrierungsschlüssel ‚HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' wurde verweigert." > Diese Fehlermeldung wird in der Regel angezeigt, wenn Sie PowerShell nicht mit Administratoranmeldeinformationen ausführen. Schließen Sie die PowerShell-Sitzung, und starten Sie als Administrator eine neue Sitzung. 
+    > [!NOTE]
+    >  When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
   
 Um zu überprüfen, ob die Ausführungsrichtlinie richtig konfiguriert ist, geben Sie Folgendes an der PowerShell-Eingabeaufforderung ein, und drücken Sie dann die EINGABETASTE:
   
@@ -139,16 +143,9 @@ Auth
     CredSSP = false
 ```
 
-Wenn die Standardauthentifizierung auf „true" festgelegt ist, können Sie PowerShell verwenden, um eine Verbindung mit Skype for Business Online herzustellen.
+Wenn die Standardauthentifizierung festgelegt wurde auf "true", und klicken Sie dann Sie PowerShell verwenden, um eine Verbindung mit Skype für Business Online bereit sind.
   
-||
-|:-----|
-|![Symbol für LinkedIn Learning](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Neu bei Office 365?**         Entdecken Sie kostenlose Videokurse für **Office 365-Administratoren und IT-Experten**, bereitgestellt von LinkedIn Learning. |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-
+## <a name="related-topics"></a>Verwandte Themen
+[Einrichten des Computers für Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 

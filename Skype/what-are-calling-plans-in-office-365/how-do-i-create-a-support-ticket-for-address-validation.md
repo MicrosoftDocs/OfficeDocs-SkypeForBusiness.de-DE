@@ -1,91 +1,107 @@
 ---
-title: "Wie erstelle ich ein Support-Ticket für die Adressvalidierung?"
+title: "Wie erstelle ich eine Support-Ticket für die Validierung der Adresse?"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/21/2017
-ms.audience: End User
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.CivicAddressValidationOpenSupportTicket
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 6e7c4964-b7b4-4f87-af00-220a2cd5a1c2
-description: "Adressüberprüfung ist ein wichtiger Bestandteil der Einrichtung in Office 365-Pläne aufrufen. Es bietet einem Benutzer in Ihrer Organisation zu eine notrufdienste einen Adresse, die von notrufdienste Antwort-Diensten verwendet werden kann."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Adresse Validierung stellen einen wichtigen Bestandteil der Einrichtung in Office 365-Pläne aufrufen. Es enthält einem Benutzer in Ihrer Organisation eine Notfall aufrufende Adresse, die von den Diensten für Notfallmaßnahmen verwendet werden kann."
+ms.openlocfilehash: e1f4cfe276f50b80f66a1d20d5c38a18b15b2071
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Wie erstelle ich eine Support-Ticket für die Validierung der Adresse?
 
-# Wie erstelle ich ein Support-Ticket für die Adressvalidierung?
+Adresse Validierung stellen einen wichtigen Bestandteil der Einrichtung in Office 365-Pläne aufrufen. Es enthält einem Benutzer in Ihrer Organisation eine Notfall aufrufende Adresse, die von den Diensten für Notfallmaßnahmen verwendet werden kann. Die Vorgehensweise basiert auf der Größe Ihrer Organisation.
 
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
-Adressüberprüfung ist ein wichtiger Bestandteil der Einrichtung in Office 365-Pläne aufrufen. Es bietet einem Benutzer in Ihrer Organisation zu eine notrufdienste einen Adresse, die von notrufdienste Antwort-Diensten verwendet werden kann.
-  
-## Eine Serviceanfrage zur Validierung einer Notfalladresse erstellen
+> [!NOTE]
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+
+## <a name="for-organizations-150-or-less-follow-these-steps"></a>Gehen folgendermaßen Sie vor für Organisationen 150 oder weniger
+1. Wählen Sie in der **Office 365 Administrationscenter** **benötigen Sie Hilfe**?
+2. In der **benötigen Sie Hilfe?** Bereich Teilen Sie uns mit, was Sie benötigen Hilfe zur und anschließend auf **Hilfe**.
+3. Wenn die Ergebnisse im Abschnitt **Ansicht Lösungen** nicht hilfreich sind, wählen Sie eine der folgenden:
+    - **Lassen Sie uns anrufen (empfohlen)**: die Nummer des Kontakte zu bestätigen, und drücken Sie **Mich anrufen**. Die erwartete Wartezeit für einen Anruf wieder wird gemäß der **benötigen Sie Hilfe?** Bereich.
+    - **E-Mail mit Vorschlägen**: Vergewissern Sie sich Ihre e-Mail-Adresse und anschließend auf **Senden**. Die Antwortzeit Anruf wird angegeben, der **benötigen Sie Hilfe?** Bereich.
+
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Erstellen Sie für Organisationen mit mehr als 150 Benutzer eine Service-Anforderung an eine Notfall Adresse überprüfen
 
 1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto als Administrator bei Office 365 an.
     
-2. Klicken Sie in der Office 365-Verwaltungskonsole im linken Navigationsbereich auf **Support** > **neue Serviceanfrage**
+2. Klicken Sie in der Office 365-Verwaltungskonsole im linken Navigationsbereich auf **Support** > **neue Serviceanfrage**.
     
-3. Klicken Sie auf **Hinzufügen**, wählen Sie unter **Serviceanfragen**
+3. Klicken Sie unter **Serviceanfragen**klicken Sie auf **Hinzufügen**.
     
-4. Klicken Sie auf der Seite **Erstellen Sie eine Serviceanfrage** auf **Onlinezusammenarbeit**.
+4. Klicken Sie auf der Seite **Serviceanfrage erstellen** auf **Onlinezusammenarbeit**.
     
-5. Wählen Sie auf der Seite **Das Problem identifizieren** Folgendes aus, bzw. geben Sie Folgendes ein:
+5. Klicken Sie auf der Seite **Identifizieren Sie das Problem** wählen Sie aus, und geben Sie in den folgenden:
     
-  - **Funktion** auswählen **Nationalen aufrufen planen** und/oder **Internationalen planen**.
+  - **Feature:** Wählen Sie **nationalen Plan aufrufen** und/oder **nationalen und internationalen Plan**.
     
-  - **Symptom**: Geben Sie **Notrufe** ein.
+  - **Symptom:** Geben Sie **Emergency aufrufen**.
     
-  - Geben Sie **Zusammenfassung Problem** **Adressüberprüfung** aus.
+  - **Problem Zusammenfassung:** Geben Sie **die Bestätigung**.
     
-  - **Problemdetails**: Geben Sie Details zu der Adresse ein, die Sie überprüfen möchten, z. B.
+  - **Einzelheiten:** Geben Sie Informationen zu den Address(s) wie überprüfen soll die:
     
-  - Hausnummer
+      - Hausnummer
     
-  - Straßenname
+      - Straße
     
-  - Ort
+      - Stadt oder Ort
     
-  - Land oder Region
+      - Land oder region
     
     > [!IMPORTANT]
-    > **Geben Sie das Land/die Region, in dem/der wir Anrufpläne in Office 365 anbieten, für die Sie eine Notfalladresse überprüfen möchten, an, wenn Sie eine Telefonnummer zuweisen.**
+    > **Platzieren Sie das Land/Region, in dem bieten wir aufrufen plant in Office 365, die Sie versuchen, eine Notfall Adresse in überprüfen, wenn Sie die Telefonnummer zuordnen möchten.**
   
-  - Postleitzahl
+      - Postleitzahl oder Postleitzahl
     
-6. Auf der **nächsten** Seite, und klicken Sie auf **Ja, fortsetzen**, um den Vorgang fortzusetzen.
+6. Klicken Sie auf **Nächste Seite** und dann auf **Ja, fortfahren**, um den Vorgang fortzusetzen.
     
-7. Klicken Sie auf der Seite **Details hinzufügen** wählen Sie aus, und geben Sie Folgendes ein:
+7. Wählen Sie auf der Seite **Details hinzufügen** Folgendes aus, bzw. geben Sie Folgendes ein:
     
-  - **Ist Ihr Dienst nicht verfügbar?**: Wählen Sie **Nein** aus.
+  - **Ist der Dienst nicht verfügbar?** Wählen Sie **Nein**.
     
-  - **Wie viele Benutzer sind betroffen?**: Wählen Sie **Einige Benutzer** aus.
+  - **Wie viele Benutzer sind betroffen?** Wählen Sie **einige Benutzer**.
     
-  - **Geben Sie eine E-Mail-Adresse einer von diesem Problem betroffenen Person ein**, oder lassen Sie dieses Feld leer.
+  - **Geben Sie eine e-Mail-Adresse einer Person von diesem Problem betroffen** oder leer lassen.
     
-  - **Wählen Sie die Domäne(n) aus, die Sie auflisten möchten**
+  - **Wählen Sie Domänen, die Sie auflisten möchten**
     
-  - **Fügen Sie eine Datei an**, wenn mehrere Adressen überprüft werden müssen. 
+  - **Anfügen einer Datei** , wenn Sie mehrere Adressen Menschen, mit denen überprüft haben.
     
   - Klicken Sie auf **Weiter**.
     
   - Geben Sie die Telefonnummer Ihres Kontakts ein.
     
-8. Lesen Sie die Informationen, und klicken Sie dann auf **Anfrage senden**.
+8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Anforderung einreichen**.
     
 > [!TIP]
 > Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** aufgelistet.
   
-## Verwandte Themen
+## <a name="related-topics"></a>Verwandte Themen
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Telefonnummern für Ihre Organisation verwalten](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)

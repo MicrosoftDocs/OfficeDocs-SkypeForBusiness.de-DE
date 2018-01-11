@@ -1,26 +1,26 @@
 ---
-title: "Audiokonferenzen in Office 365"
+title: Audiokonferenzen in Office 365
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Audio Conferencing
+ms.openlocfilehash: 84d404db000a89783b83e03ea3608e19a125aadc
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="audio-conferencing-in-office-365"></a>Audiokonferenzen in Office 365
 
-# Audiokonferenzen in Office 365
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
 

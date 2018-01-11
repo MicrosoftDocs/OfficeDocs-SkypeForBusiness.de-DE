@@ -1,92 +1,90 @@
 ---
-title: "Einrichten der Anrufanalyse von Skype for Business"
+title: "Einrichten von Skype für BA aufrufen"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 9/25/2017
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: 
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
+ms.appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
-description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Einrichten und Analytics anrufen zu identifizieren und Problembehandlung bei Skype für Geschäfts- und Microsoft-Teams, Anruf Qualitätsprobleme verwenden."
+ms.openlocfilehash: 287b45cf8363c03bf6b62cd68f8e2be681996101
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="set-up-skype-for-business-call-analytics"></a>Einrichten von Skype für BA aufrufen
 
-# Einrichten der Anrufanalyse von Skype for Business
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
+Einen Skype für Business Online Admin können Analytics rufen Sie für die Problembehandlung bei Skype für Business und Microsoft-Teams, rufen Sie die Qualität und Verbindung Probleme. Es kann so richten Sie die folgenden Funktionen in Analytics rufen Sie ein hilfreich sein:
   
-Analytics aufrufen, können Sie als Administrator Skype for Business Online um Skype for Business und Microsoft Teams Anruf Qualität und Verbindung Probleme zu beheben. Möglicherweise finden Sie es sinnvoll, um die folgenden Funktionen in anrufen Analytics einzurichten:
-  
-- Legen Sie Berechtigungen fest, mit denen andere Mitarbeiter wie beispielsweise Helpdesk-Agents zwar die Anrufanalyse verwenden, aber auf die übrigen Funktionen im Skype for Business Admin Center nicht zugreifen können. 
+- Festlegen von Berechtigungen, die andere Mitarbeiter, wie etwa Helpdesk Agents können, verwenden Analytics aufrufen, aber verhindern, dass sie den Zugriff auf die restlichen der Skype für Business Administrationscenter. 
     
-- Fügen Sie Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzu, indem Sie eine TSV- oder CSV-Datendatei hochladen.
+- Fügen Sie zum Erstellen von, Website und Mandanten Informationen durch Hochladen einer Datendatei TSV oder CSV Analytics aufrufen.
     
 > [!NOTE]
 > Die Anrufanalyse wird zurzeit als Vorschau bereitgestellt. Die hier beschriebenen Texte und Bilder entsprechen möglicherweise nicht dem, was Sie tatsächlich sehen. 
   
-## Festlegen von Berechtigungen für die Anrufanalyse
-<a name="BKMK_SetCAPerms"> </a>
+## <a name="set-call-analytics-permissions"></a>Festlegen von Berechtigungen Analytics aufrufen
+<a name="BKMK_SetCAPerms"></a>
 
-Als Administrator verfügen Sie über Vollzugriff auf alle Funktionen der Anrufanalyse. Darüber hinaus können Sie in der Anrufanalyse ein Helpdesk-Modell verwenden, das Berechtigungsgruppen der Stufen 1 und 2 umfasst. Benutzer mit Berechtigungen der Stufe 1 können nur auf eine begrenzte Ansicht der Anrufanalyse zugreifen. Benutzer mit Berechtigungen der Stufe 2 können auf die gesamte Funktionalität der Anrufanalyse zugreifen. Beide Berechtigungsstufen verhindern den Zugriff auf die übrigen Funktionen im Skype for Business Admin Center. Sie können den Zugriff auf die Stufen gewähren, indem Sie zum Abschnitt für Stufe 1 oder für Stufe 2 auf der Seite „Berechtigungen" eine Gruppe hinzufügen, in der der jeweilige Benutzer enthalten ist. Weitere Details finden Sie unter [Einrichten von mehrstufigen Berechtigungen in der Anrufanalyse](fbf7247a-84ae-46cc-9204-2c45b1c734cd.md#BKMK_SetUpTier).
+Als Administrator erhalten Sie Vollzugriff auf alle Funktionen von Analytics aufrufen. Darüber hinaus können Sie ein Helpdesk-Modell in Analytics anrufen verwenden, die Stufe 1 und Stufe 2 Berechtigungsgruppen enthält. Benutzer mit Berechtigungen der Stufe 1 können nur eine begrenzte Ansicht des Analytics aufrufen zugreifen. Benutzer mit Berechtigungen der Stufe 2 können den vollen Funktionsumfang von Anrufen Analytics zugreifen. Beide Berechtigungsstufen verhindern des Zugriffs auf den Rest der der Skype für Business Administrationscenter. Gewähren von Zugriff auf den Ebenen können Sie durch Hinzufügen einer Gruppe, die den Benutzer der Stufe 1 oder Seite Berechtigungen der Stufe 2 im Abschnitt enthält. Weitere Informationen hierzu finden Sie unter [gestuften Berechtigungen in Aufrufen Analytics einrichten](set-up-call-analytics.md#BKMK_SetUpTier).
   
-Helpdesk-Agents der Stufe 1 bearbeiten Standardprobleme im Zusammenhang mit der Anrufqualität. Agents der Stufe 1 untersuchen keine Probleme im Zusammenhang mit Besprechungen. Sie sammeln zugehörige Informationen und eskalieren dann an einen Agent der Stufe 2. Agents der Stufe 2 sehen Informationen in detaillierten Anruflisten, die für Agents der Stufe 1 ausgeblendet sind. Die folgende Tabelle enthält eine Übersicht über die Informationen, die für Agents in der Anrufanalyse verfügbar sind.
-  
-|
-|
-|**Aktivität**|**Informationen in der Anrufanalyse**|**Für Agents der Stufe 1 sichtbar**|**Für Agents der Stufe 2 sichtbar**|
+Stufe 1 Helpdesk Agents behandeln Sie grundlegende Anrufqualität Probleme. Stufe 1 Agents untersuchen Sie Probleme bei Besprechungen nicht; Sammeln von Informationen, und klicken Sie dann auf einen Agent Stufe 2 ausweiten. Schicht 2-Agents finden Sie Informationen im detaillierten mithilfe von Anruflisten, die von Stufe 1 Agents ausgeblendet ist. Die folgende Tabelle bietet eine Übersicht über Informationen verfügbar Analytics Aufrufen von Agents.
+
+
+|**Aktivität**|**Informationen in Anruf Analytics**|**Was sieht der Stufe 1-agent**|**Was sieht der Stufe 2-agent**|
 |:-----|:-----|:-----|:-----|
-|**Anrufe** <br/> |Name des Anrufers  <br/> |Nur der Name des Benutzers, nach dem der Agent gesucht hat.  <br/> |Benutzername  <br/> |
-||Name des Angerufenen  <br/> |Wird als „Interner Benutzer" oder „Externer Benutzer" angezeigt.  <br/> |Name des Angerufenen  <br/> |
-||Telefonnummer des Anrufers  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |
-||Telefonnummer des Angerufenen  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823***.  <br/> |
-||**Anrufdetails** > Registerkarte **Erweitert** <br/> |Es werden keine Informationen angezeigt.  <br/> |Es werden alle Details angezeigt, beispielsweise Gerätenamen, IP-Adresse, Subnetzzuordnung und mehr.  <br/> |
-||**Anrufdetails** > **Erweitert** > Registerkarte **Debug** <br/> |Es werden keine Informationen angezeigt.  <br/> |Es werden alle Details angezeigt, beispielsweise DNS-Suffix und SSID.  <br/> |
-|**Besprechungen** <br/> |Namen der Teilnehmer  <br/> |Nur der Name des Benutzers, nach dem der Agent gesucht hat. Andere Teilnehmer werden als „Interner Benutzer" oder „Externer Benutzer" identifiziert.  <br/> |Es werden alle Namen angezeigt.  <br/> |
-||Anzahl der Teilnehmer  <br/> |Anzahl der Teilnehmer  <br/> |Anzahl der Teilnehmer  <br/> |
-||Sitzungsdetails  <br/> |Die Sitzungsdetails werden mit Ausnahmen angezeigt. Angezeigt wird nur der Name des Benutzers, nach dem der Agent gesucht hat. Andere Teilnehmer werden als „Interner Benutzer" oder „Externer Benutzer" identifiziert. Die letzten drei Ziffern der Telefonnummer werden durch Sternchen verschleiert.  <br/> |Die Sitzungsdetails werden angezeigt. Benutzernamen und Sitzungsdetails werden angezeigt. Die letzten drei Ziffern der Telefonnummer werden durch Sternchen verschleiert.  <br/> |
+|**Anrufe** <br/> |Name des Anrufers  <br/> |Nur der Name des Benutzers, auf denen der Agent gesucht.  <br/> |Name des Benutzers.  <br/> |
+||Name des Empfängers  <br/> |Zeigt an, dass interne oder externe Benutzer.  <br/> |Name des Empfängers.  <br/> |
+||Telefonnummer des Anrufers  <br/> |Gesamte Telefonnummer außer den letzten drei Ziffern mit Sternchen Symbole verborgen sind. Beispielsweise 15552823 ***.  <br/> |Gesamte Telefonnummer außer den letzten drei Ziffern mit Sternchen Symbole verborgen sind. Beispielsweise 15552823 ***.  <br/> |
+||Telefonnummer des Empfängers  <br/> |Gesamte Telefonnummer außer den letzten drei Ziffern mit Sternchen Symbole verborgen sind. Beispielsweise 15552823 ***.  <br/> |Gesamte Telefonnummer außer den letzten drei Ziffern mit Sternchen Symbole verborgen sind. Beispielsweise 15552823 ***.  <br/> |
+||**Rufen Sie Details** > Registerkarte**Erweitert** <br/> |Informationen nicht angezeigt.  <br/> |Alle Details dargestellt, wie etwa Gerätenamen, IP-Adresse, Subnetz Zuordnung und vieles mehr.  <br/> |
+||**Rufen Sie Details** > **Erweitert** > Registerkarte**Debuggen** <br/> |Informationen nicht angezeigt.  <br/> |Alle Details dargestellt, wie DNS-Suffix und SSID.  <br/> |
+|**Besprechungen** <br/> |Namen der Teilnehmer  <br/> |Nur der Name des Benutzers, auf denen der Agent gesucht. Andere Teilnehmer, die als interne oder externe Benutzer identifiziert.  <br/> |Alle Namen angezeigt.  <br/> |
+||Teilnehmeranzahl  <br/> |Anzahl der Teilnehmer.  <br/> |Anzahl der Teilnehmer.  <br/> |
+||Sitzungsdetails  <br/> |Sitzungsdetails mit Ausnahmen dargestellt. Nur der Name des Benutzers, auf denen der Agent gesucht wird angezeigt. Andere Teilnehmer, die als interne oder externe Benutzer identifiziert. Die letzten Sie drei Ziffern der Telefonnummer mit Sternchen Symbole verborgen.  <br/> |Sitzungsdetails dargestellt. Benutzernamen und Sitzungsdetails dargestellt. Die letzten Sie drei Ziffern der Telefonnummer mit Sternchen Symbole verborgen.  <br/> |
    
- **Einrichten von mehrstufigen Berechtigungen in der Anrufanalyse**
+ **Einrichten von gestuften Berechtigungen in Aufrufen Analytics** 
+ <a name="BKMK_SetUpTier"> </a>
   
-1. Erstellen Sie Office 365-Sicherheitsgruppen für Stufe 1 und Stufe 2, und fügen Sie die gewünschten Personen zu den einzelnen Gruppen hinzu. Sie können auch vorhandene Sicherheitsgruppen wiederverwenden. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten oder Löschen einer Sicherheitsgruppe im Office 365 Admin Center](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
+1. Erstellen Sie Office 365-Sicherheitsgruppen für Ebene 1 und Ebene 2 zu, und fügen Sie die gewünschten Personen jeder Gruppe. Sie können auch vorhandene Sicherheitsgruppen wiederverwenden. Weitere Informationen finden Sie unter [erstellen, bearbeiten oder Löschen einer Sicherheitsgruppe in Office 365 Administrationscenter](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     
-2. Gehen Sie im Office 365 Admin Center zu **Admin Center** > **Skype for Business**.
+2. Wechseln Sie in das Office 365 Administrationscenter zu **Admin zentriert** > **Skype für Unternehmen**.
     
     > [!NOTE]
-    > Wenn das alte Skype for Business Admin Center angezeigt wird, wechseln Sie zur neuen Version, indem Sie auf **Lernen Sie unser neues Admin Center kennen** klicken.
+    > Wenn Sie in der alten Skype für Business Administrationscenter sorgt, wechseln Sie auf die neue Version durch Klicken auf **unser neues Administrationscenter versuchen stammen**. 
   
-3. Klicken Sie im neuen Skype for Business Admin Center auf **Berechtigungen**.
+3. Die neue Skype für Business Administrationscenter klicken Sie auf **Berechtigungen**.
     
-4. Fügen Sie die Office 365-Sicherheitsgruppen zu den Feldern **Stufe 1** und **Stufe 2** hinzu. Sie können jeder Rolle mehrere Gruppen hinzufügen.
+4. Fügen Sie die Office 365-Sicherheitsgruppen in die Felder **Stufe 1** und **Stufe 2** . Sie können mehrere Gruppen für jede Rolle hinzufügen.
     
-     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![Screenshot zeigt die Berechtigungen für aufrufen Analytics-Seite mit den Optionen für Ebene 1 und Ebene 2-Berechtigungen.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- Benutzer beider Berechtigungsstufen können die Anrufanalyse über die dedizierte URL „https://adminportal.services.skypeforbusiness.com" aufrufen.
+ Benutzer mit einem der folgenden Berechtigungsstufen erhalten Sie über die dedizierte URL *https://adminportal.services.skypeforbusiness.com*auf Analytics aufrufen.
   
-## Hochladen einer TSV- oder CSV-'Datei, um Informationen zu Gebäuden, Standorten und Mandanten hinzuzufügen
+## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Hochladen einer TSV oder CSV-Datei zum Hinzufügen, Erstellen von Website und Mandanten für Informationen
 <a name="BKMK_UploadFiles"> </a>
 
-Sie können Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzufügen, indem Sie eine CSV- oder TSV-Datei hochladen. Anhand aller dieser Informationen kann die Anrufanalyse IP-Adressen zu physischen Standorten zuordnen. Sie oder die Helpdesk-Agents können diese Informationen nutzen, um Trends bei Anrufproblemen zu erkennen. Beispiel: Warum haben zahlreiche Benutzer im gleichen Gebäude ähnliche Probleme mit der Anrufqualität? 
+Durch Hochladen einer CSV- oder TSV-Datei können Sie rufen Analytics erstellen, Website und Mandanten Informationen hinzufügen. Mit diesen Informationen können aufrufen Analytics physischen Standorten IP-Adressen zuordnen. Sie oder Helpdesk Agents sinnvoll, diese Informationen, die entsprechende Trends erkennen Anruf Probleme unterstützen. Angenommen, warum viele Benutzer im gleichen Gebäude müssen ähneln Qualitätsprobleme aufzurufen? 
   
-![Screenshot shows the Sites page with values for Number of sites and Number of subnets, and the Select file button to import site data by uploading a .tsv or a .csv file.](../images/b2f3a5cb-32b5-4f60-a9af-0691aa6ff1e8.png)
+![Screenshot zeigt die Seite Websites mit Werten für die Anzahl von Websites und die Anzahl der Subnetze und die Schaltfläche Wählen Sie Datei-Websitedaten durch Hochladen einer TSV oder einer CSV-Datei importieren.](../images/b2f3a5cb-32b5-4f60-a9af-0691aa6ff1e8.png)
   
-Wenn Sie Skype for Business-Administrator sind, können Sie eine vorhandene Datendatei aus dem Skype for Business Online-Anrufqualitätsdashboard verwenden. Zuerst laden Sie die Datei aus dem Anrufqualitätsdashboard herunter, und dann laden Sie sie in die Anrufanalyse hoch. Um eine vorhandene Datendatei herunterzuladen, wechseln Sie zu **Skype for Business Admin Center** > **Extras** > **Qualitätsdashboard für Anrufe mit Skype for Business Online** > **Jetzt hochladen**. Klicken Sie in der Liste **Meine Uploads** neben der gewünschten Datei auf **Herunterladen**.
+Wenn Sie einen Skype für Business-Administrator sind, können Sie eine vorhandene Datendatei aus der Skype für Business Online aufrufen Qualitätsdashboard. Zuerst, laden Sie die Datei aus aufrufen Qualitätsdashboard, und klicken Sie dann Sie hochladen auf Analytics aufrufen. Um eine vorhandene Datendatei herunterzuladen, besuchen Sie die **Skype für Business Admin Center** > **Tools** > **Skype für Business Online aufrufen Qualitätsdashboard** > **jetzt hochladen**. Klicken Sie auf **Download** neben der gewünschten Datei, in der Liste **Meine Uploads** .
   
-Wenn Sie eine TSV- oder CSV-Datei von Grund auf neu erstellen, lesen Sie [Dateiformat der Mandantendaten und Dateistruktur der Gebäudedaten](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md#BKMK_TenantDataFile).
+Wenn Sie die TSV oder CSV-Datei von Grund auf neu erstellen, finden Sie unter [Mandantendaten file Format und Erstellen von Daten-Dateistruktur](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Verwandte Themen
+<a name="BKMK_UploadFiles"> </a>
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-## Siehe auch
-<a name="MT_Footer"> </a>
+[Verwendung aufrufen Analytics für die Problembehandlung bei schlechter Skype für Unternehmen die Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-#### Weitere Ressourcen
-
-[Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
-  
-[Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
-
+[Was ist der Unterschied zwischen Analytics aufrufen, und rufen Sie Qualitätsdashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)

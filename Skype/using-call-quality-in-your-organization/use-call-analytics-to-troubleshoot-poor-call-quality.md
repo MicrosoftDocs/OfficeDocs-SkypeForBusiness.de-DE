@@ -1,77 +1,76 @@
 ---
-title: "Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business"
+title: "Verwendung aufrufen Analytics für die Problembehandlung bei schlechter Skype für Unternehmen die Anrufqualität"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 6/22/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.prod: office-online-server
-localization_priority: Normal
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
-description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Verwenden Sie Analytics rufen Sie Informationen zu Geräten, Netzwerke und Konnektivität Benutzer bei Problemen mit Skype für geschäftliche Anrufe und Besprechungen."
+ms.openlocfilehash: 043c7eac6099f23217c155ad91bf818aa4e57892
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Verwendung aufrufen Analytics für die Problembehandlung bei schlechter Skype für Unternehmen die Anrufqualität
 
-# Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business
+Anruf Analytics hilft Ihnen beim Aufruf der Realität bei Problemen mit der Skype für Unternehmen. Rufen Sie Analytics zeigt detaillierte Informationen zu den Geräten, Netzwerke und Konnektivität für die Aufrufe und Besprechungen von jedem Benutzer in Ihrer Skype für Business-Konto ein. Beim Erstellen von Websites und Mandanten Informationen hinzugefügt wurde Analyse aufrufen, wird auch für jeden Anruf und die Sitzung angezeigt. Informationen über Analytics aufrufen kann Ihnen herauszufinden, warum ein Benutzer einen Anruf schlechter Qualität aufwies oder meeting wünschen. 
+  
+    > [!NOTE]
+    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+  
+## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Problembehandlung bei Aufruf Qualitätsprobleme mit Analytics aufrufen
 
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
+Die Ihnen zugewiesenen Berechtigungsstufen bestimmt, welche Art von Informationen haben Sie Zugriff auf in Analytics aufrufen:
   
-Mithilfe der Anrufanalyse können Sie Probleme im Zusammenhang mit Anrufen oder Verbindungen in Skype for Business behandeln. Die Anrufanalyse zeigt detaillierte Informationen zu den Geräten und Netzwerken sowie zur Konnektivität für die Anrufe und Besprechungen der einzelnen Benutzer in Ihrem Skype for Business-Konto. Wenn Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzugefügt wurden, werden auch diese für jeden Anruf und jede Sitzung angezeigt. Anhand der über die Anrufanalyse verfügbaren Informationen können Sie herausfinden, warum bestimmte Benutzer eine schlechte Anruf- oder Besprechungsqualität wahrnehmen. 
-  
-> [!NOTE]
-> Die Anrufanalyse wird zurzeit als Vorschau bereitgestellt. Die hier beschriebenen Texte und Bilder entsprechen möglicherweise nicht dem, was Sie tatsächlich sehen. 
-  
-## Behandeln von Problemen mit der Anrufqualität mithilfe der Anrufanalyse
-
-Die Ihnen zugewiesene Berechtigungsstufe entscheidet, auf welche Informationen Sie in der Anrufanalyse zugreifen können:
-  
-- **Skype for Business-Administrator**: Sie können auf alle Informationen in der Anrufanalyse und im Skype for Business Admin Center zugreifen.
+- **Skype für Business Admin**: haben Sie Zugriff auf alle Informationen in Analytics aufrufen und die Skype für Business Admin Center.
     
-- **Helpdesk-Agent mit Berechtigungen der Stufe 1**: Sie sehen in der Anrufanalyse begrenzte Daten. Sie können Problembehandlungen für Anrufe ausführen, geben aber Probleme mit Besprechungen an einen Agent der Stufe 2 weiter. Auf die übrigen Funktionen im Skype for Business Admin Center können Sie nicht zugreifen.
+- **Helpdesk-Agent mit den Berechtigungen der Stufe 1**: eine begrenzte Auswahl von Daten in Aufrufen Analytics angezeigt. Sie können Anrufe Problembehandlung, aber Sie werden Probleme bei Besprechungen an einem Agent Stufe 2 übergeben. Sie haben keinen Zugriff auf den Rest der der Skype für Business Admin Center.
     
-- **Helpdesk-Agent mit Berechtigungen der Stufe 2**: Sie sehen in der Anrufanalyse alle verfügbaren Daten und können bei Problembehandlungen für Anrufe und Besprechungen helfen. Auf die übrigen Funktionen im Skype for Business Admin Center können Sie nicht zugreifen.
+- **Helpdesk-Agent mit den Berechtigungen der Stufe 2**: finden Sie unter alle verfügbaren Daten in Analytics aufrufen und Problembehandlung bei Anrufen und Besprechungen helfen. Sie haben keinen Zugriff auf den Rest der der Skype für Business Admin Center.
     
-Wenden Sie sich an Ihren Skype for Business-Administrator, wenn Sie Hilfe im Zusammenhang mit Berechtigungen benötigen.
+Wenn Sie Hilfe mit Berechtigungen benötigen, finden Sie unter Ihrer Skype für Business Admin.
   
- **Öffnen der Anrufanalyse als Helpdesk-Agent der Stufe 1 oder 2**
+ **Öffnen Sie als Agent Helpdesk Stufe 1 oder Stufe 2 Analytics aufrufen**
   
-1. Gehen Sie zu [https://adminportal.services.skypeforbusiness.com](https://adminportal.services.skypeforbusiness.com), und melden Sie sich mit Ihrem Benutzernamen und dem zugehörigen Kennwort an.
+1. Besuchen Sie das Office 365 Administrationscenter, und melden Sie sich mit Ihrem Konto arbeiten oder Schule. Wechseln Sie in Ihrem Webbrowser zu *https://adminportal.services.skypeforbusiness.com*.
     
-2. Beginnen Sie in **Benutzersuche**, den Namen oder die SIP-Adresse des Benutzers einzugeben, für dessen Anrufe Sie eine Problembehandlung ausführen möchten. Wählen Sie dann den Benutzer in der Liste aus.
+2. Bei der **Benutzersuche**, beginnen Sie mit den Namen oder die Sip-Adresse des Benutzers, dessen Anrufe zu behandeln, und wählen Sie dann den Benutzer aus der Liste.
     
-    ![Screenshot of the User Search box of Call Analytics in the Skype for Business Admin Center.](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
+    ![Screenshot des Suchfelds für Benutzer von Anrufen Analytics in der Skype für Business Admin Center.](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
   
-3. Wählen Sie in **Call history** (Anrufliste) den Anruf oder die Besprechung aus, für den bzw. für die Sie eine Problembehandlung ausführen möchten.
+3. Wählen Sie in **die Anrufliste...**den Anruf oder Besprechung, den Sie behandeln möchten.
     
-    ![Screenshot shows the call history page for a user with information such as the user's contact details, a summary of the 7-day quality and activity for meetings and calls, and an overview of dates and times, recipients, and audio quality,](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
+    ![Screenshot zeigt die Seite ' Versionsverlauf Anruf ' für einen Benutzer mit Informationen wie Kontaktdetails für den Benutzer, eine Übersicht über die 7-Tage-Qualität und Aktivität für Besprechungen und Telefonkonferenzen und eine Übersicht über Datumsangaben und Uhrzeiten, Empfänger und Audioqualität,](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
   
-4. Wählen Sie die Registerkarte **Erweitert** aus, und suchen Sie dann nach gelben und roten Elementen, die auf eine schlechte Anrufqualität oder auf Verbindungsprobleme hinweisen.
+4. Wählen Sie die Registerkarte **Erweitert** , und suchen Sie nach gelbe und rote Elemente, die Anruf schlechter Qualität oder Verbindung Probleme hinweisen.
     
-    In den Sitzungsdetails für die einzelnen Anrufe oder Besprechungen werden geringfügige Probleme gelb dargestellt. (Im folgenden Screenshot zum Beispiel werden die Werte für „Durchschnittlicher Jitter", „Max. Jitter" und „Durchschnittliche Paketverlustrate" in Gelb angezeigt.) Gelbe Elemente befinden sich außerhalb des normalen Bereichs und können zum Problem beitragen. Sie sind aber wahrscheinlich nicht die Hauptursache des Problems. Rote Elemente weisen auf ein wichtiges Problem hin und stellen wahrscheinlich die Hauptursache für die schlechte Anrufqualität in dieser Sitzung dar. 
+    Kleinere Probleme werden in der Sitzungsdetails für jeden Anruf oder Besprechung gelb angezeigt. (Beispielsweise sind im folgenden Screenshot, der Werte in Gelb für durchschnittliche Jitter, Max Jitter und durchschnittliche paketverlustrate.) Ist etwas Gelb, es ist außerhalb der normalen Bereich und als Beitrag für dieses Problem, aber es ist wahrscheinlich nicht die wichtigste Ursache des Problems. Wenn etwas rot angezeigt wird, ist ein Problem, und es ist wahrscheinlich die wichtigste Ursache für die Qualität der Anrufe schlechter Qualität für diese Sitzung. 
     
-    ![Screenshot shows the Advanced tab of a user's Call history with the Inbound network section expanded to reveal that the data for average jitter, max jitter, and average packet loss rate are shown in a yellow color, meaning they are minor issues.](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
+    ![Screenshot zeigt die Registerkarte Erweitert des Anrufverlaufs eines Benutzers mit dem eingehenden Netzwerkabschnitt erweitert, um anzuzeigen, dass die Daten für die durchschnittliche Jitter, max Jitter und durchschnittliche paketverlustrate in einer gelb angezeigt werden, was bedeutet, dass sie kleinere Probleme sind.](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
   
-In rare cases, quality of experience data isn't received for audio sessions. Often this is caused by the call dropping and connection with the client terminating. When this occurs, the session rating is "unavailable".
+In seltenen Fällen ist nicht für audiositzungen Daten Quality of Experience empfangen. Häufig ist dies durch den Aufruf ablegen und Verbindung mit dem Client beenden verursacht. In diesem Fall ist die Sitzung Bewertung "nicht verfügbar".
   
-For audio sessions that do have quality of experience (QoE) data, the following table describes major issues that qualify a session as "poor."
+Für audio-Sitzungen, die Daten Quality of Experience (QoE) verfügen, wird beschrieben, in der folgenden Tabelle Hauptprobleme, die für die Verwendung eine Sitzung als "schlecht".
   
 |**Problem**|**Bereich**|**Beschreibung**|
 |:-----|:-----|:-----|
-|Call setup  <br/> |Session  <br/> |The error code Ms-diag 20-29 indicates the call setup failed. The user couldn't join the call or meeting.  <br/> |
-|Audio network classified poor call  <br/> |Session  <br/> |Network quality issues were encountered in areas such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio. For more information about the conditions used to classify poor calls, see this [Microsoft blog post](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
-|Device not functioning  <br/> |Gerät  <br/> | A device isn't functioning correctly. Device not functioning ratios are : <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
+|Verbindungsaufbau  <br/> |Sitzung  <br/> |Der Fehlercode 20-29 Ms-Diagnose zeigt den Anruf ist ein Fehler aufgetreten. Der Benutzer konnte nicht dem Anruf oder der Besprechung teilnehmen.  <br/> |
+|Audio Netzwerk klassifiziert Anrufe schlechter Qualität  <br/> |Sitzung  <br/> |Qualität Netzwerkprobleme aufgetreten in Bereichen wie Paketverlust, Jitter, NMOS-Beeinträchtigung, Zeit, oder Verhältnis verborgen. Weitere Informationen über die Bedingungen, die zum Klassifizieren von schlechter Anrufe verwendet finden Sie unter in diesem [Blogbeitrag Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|Gerät nicht funktionsfähig  <br/> |Gerät  <br/> | Ein Gerät ist nicht ordnungsgemäß funktioniert. Gerät nicht funktioniert Verhältnisse verwendet werden: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Verwandte Themen
+[Einrichten von Skype für BA aufrufen](set-up-call-analytics.md)
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-## Siehe auch
-<a name="MT_Footer"> </a>
-
-#### Weitere Ressourcen
-
-[Einrichten der Anrufanalyse von Skype for Business](set-up-skype-for-business-call-analytics.md)
+[Was ist der Unterschied zwischen Analytics aufrufen, und rufen Sie Qualitätsdashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 

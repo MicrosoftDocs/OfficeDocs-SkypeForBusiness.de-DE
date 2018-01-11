@@ -1,78 +1,79 @@
 ---
-title: "Kontoinformationen für Portierungsantrag"
+title: Port Reihenfolge Kontoinformationen
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfo
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: bf4ea2ea-4f7c-4f41-8e4c-d9ceb11626cc
-description: "Learn what account information you'll need when working with a New Local Number Port Order wizard. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderAccountInfo
+ms.custom: Calling Plans
+description: "Hier erfahren Sie, welche Kontoinformationen, die Sie beim Arbeiten mit dem Assistenten für eine neue lokale Anzahl Port Reihenfolge benötigen. "
+ms.openlocfilehash: 789e474200945decb5b5189df75c9d781f85dae3
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="port-order-account-information"></a>Port Reihenfolge Kontoinformationen
 
-# Kontoinformationen für Portierungsantrag
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
+Wenn Sie die Seite **Kontoinformationen** im Assistenten für **Neue lokale Anzahl Port Reihenfolge** verwenden eine Port-Reihenfolge zu übermitteln, benötigen Sie fast alle dieselben Informationen, die Sie in das Geladene bereitstellen würde einschließlich:
   
-Wenn Sie im Assistenten **Antrag zur Portierung der neuen lokalen Rufnummern** die Seite **Kontoinformationen** verwenden, um einen Portierungsauftrag zu übermitteln, benötigen Sie fast alle der Informationen, die Sie auch im LOA bereitstellen, darunter die folgenden:
-  
-- Kontonummer beim Dienstanbieter oder Netzbetreiber
+- Account-Nummer für den Dienstanbieter oder Netzbetreiber
     
 - Abrechnungstelefonnummer (BTN, Billing Telephone Number)
     
-- PIN - falls bei Ihrem aktuellen Dienstanbieter oder Netzbetreiber erforderlich
+- PIN - bei Bedarf vom aktuellen Dienstanbieter oder Netzbetreiber
     
-- Firmenname
+- Name des Unternehmens
     
     > [!NOTE]
-    > In dieses Feld können max. 25 Zeichen einschließlich Leerzeichen eingegeben werden. Wenn der Firmenname länger als 25 Zeichen ist, werden die ersten 25 Zeichen des Namens eingereicht, und der Portierungsauftrag wird ausgeführt. 
+    > Dadurch werden nur 25 Zeichen, einschließlich Leerzeichen akzeptiert. Wenn Sie den Namen des Unternehmens 25 Zeichen nicht überschreitet, zuerst 25 Zeichen des Namens gesendet werden und die Port Reihenfolge noch verarbeitet werden. 
   
-- Name des autorisierten Benutzers.
+- Name des autorisierten Benutzers
     
     > [!NOTE]
-    > In dieses Feld können max. 15 Zeichen einschließlich Leerzeichen eingegeben werden. Wenn der Name der autorisierten Person länger als 15 Zeichen ist, werden die ersten 15 Zeichen des Namens eingereicht, und der Portierungsauftrag wird ausgeführt. 
+    > Dadurch werden nur 15 Zeichen, einschließlich Leerzeichen akzeptiert. Wenn der autorisierten Person Name länger als 15 Zeichen ist, die ersten 15 Zeichen des Namens gesendet werden und die Port Reihenfolge noch verarbeitet werden. 
   
 - Dienstadresse
     
-- Ort, Bundesland und Postleitzahl der Rechnungsadresse
+- Ort, Bundesland und Postleitzahl der Abrechnung-Adresse
     
     > [!NOTE]
-    > Sie benötigen nicht die Unterschrift der autorisierenden Person. 
+    > Sie brauchen nicht die autorisieren Person Signatur. 
   
-Gehen Sie unbedingt folgendermaßen vor, damit die Übertragung des Portierungsauftrags einfach und fehlerfrei verläuft:
+Damit Bestellung Port einfach und Fehler zu vermeiden, stellen Sie sicher, dass Sie die folgenden Schritte ausführen:
   
-- Entfernen Sie alle Funktionen (d. h. Sammelanschlüsse), die Ihren Nummern zugewiesen sind. Stellen Sie sicher, dass für diese Telefonnummern keine erweiterten Anrufsteuerungsfunktionen wie Sammelanschlüsse oder unterschiedliches Klingeln aktiviert sind.
+- Entfernen Sie alle Funktionen im Zusammenhang mit Ihrer Rufnummern (beispielsweise Sammelanschlüsse). Stellen Sie sicher, dass es sind keine erweiterten remoteanrufsteuerungsfunktionen wie aufrufen Sammelanschlüsse oder charakteristischen anrufen, die auf diese Telefonnummern per aktiviert.
     
-- Stellen Sie sicher, dass Sie bei Ihrem aktuellen Dienstanbieter keine neuen Dienstaufträge oder Trennungen in Auftrag gegeben haben.
+- Stellen Sie sicher, dass Sie hatte keine neue Serviceaufträge platziert oder trennt die Verbindung mit Ihren aktuellen Dienstanbieter.
     
-- Stellen Sie sicher, dass alle Nummern vom selben Netzbetreiber und Konto stammen.
+- Stellen Sie sicher, dass alle Zahlen aus der gleichen Netzbetreiber und das gleiche Konto sind.
     
-- Stellen Sie sicher, dass die von Ihnen angegebenen Kontodaten genau jenen entsprechen, die Ihr Telefonanbieter für Sie registriert hat. Nicht übereinstimmende Daten sind die häufigste Fehlerursache, durch die sich Ihr Portierungsauftrag verzögern kann.
+- Stellen Sie sicher, dass die Kontoinformationen, die Sie vorführen entspricht genau was Ihr Telefon Netzbetreiber auf Datensatz wurde. Nicht übereinstimmende Informationen ist die am häufigsten verwendeten Ursache für Fehler und Ihre Bestellung Port verzögern kann.
     
 > [!CAUTION]
 > **Kündigen Sie Ihre Dienste bei Ihrem Dienstanbieter oder Netzbetreiber nicht.**> **Sie müssen Ihren vorherigen Dienst aktiv halten, um Ihre Telefonnummern zu Skype for Business Online portieren zu können.**> **Frieren Sie Ihr Konto bei Ihrem Dienstanbieter oder Netzbetreiber nicht ein. Das Einfrieren des Kontos verhindert die Änderung von Netzbetreibern für das Konto. Der autorisierte Benutzer muss einen Antrag an den aktuellen Netzbetreiber übermitteln, um das Einfrieren aufzuheben. Dieser Vorgang kann je nach Netzbetreiber 1-3 Wochen dauern.**> 
   
- **Umfassende Schritt-für-Schritt-Anweisungen erhalten Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## 
-<a name="MT_Footer"> </a>
+ **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
+ > [!NOTE]
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
-## Siehe auch
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Verwandte Themen
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-#### Weitere Ressourcen
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+(.. / what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)

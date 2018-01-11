@@ -2,37 +2,42 @@
 title: "Senden einer Dienstanforderung für das Portieren lokaler Rufnummern"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.PortOrderQuickViewPanelO365Support
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 99e3b7e9-fd0e-48a8-88c9-3ec5561db68e
-description: "If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderQuickViewPanelO365Support
+ms.custom: Calling Plans
+description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
+ms.openlocfilehash: 233eafcf0f8985b897230001175e060761e75e71
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="submitting-a-service-request-for-local-number-porting"></a>Senden einer Dienstanforderung für das Portieren lokaler Rufnummern
 
-# Senden einer Dienstanforderung für das Portieren lokaler Rufnummern
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
-Wenn Sie mehr als 999 Telefonnummern (für Benutzer oder Dienst Zahlen, einschließlich weder eine gebührenpflichtige oder gebührenfreie) in Skype for Business Online übertragen müssen, finden Sie unter [Telefonnummern für Ihre Organisation verwalten.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)
-  
-## Verwandte Themen
-
-[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-## 
-<a name="MT_Footer"> </a>
+Wenn Sie mehr als 999 Rufnummern (für Benutzer oder Dienst Zahlen einschließlich gebührenpflichtige oder gebührenfreie Rufnummer) in Skype für Business Online übertragen müssen, finden Sie unter [Rufnummern für Ihre Organisation verwalten.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 > [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+  
+## <a name="related-topics"></a>Verwandte Themen
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Telefonnummern für Ihre Organisation verwalten](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
+[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
   
 

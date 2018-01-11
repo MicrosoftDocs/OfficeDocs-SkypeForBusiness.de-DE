@@ -1,50 +1,49 @@
 ---
-title: "Ihr Portierungsantrag wurde akzeptiert."
+title: Ihr Portierungsantrag wurde akzeptiert.
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 5c2e57c2-76c4-4a36-9d01-92cd15c5eb3e
-description: "What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
+ms.custom: Calling Plans
+description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
+ms.openlocfilehash: 70768646a46ed9b7ce916013228bfabaa60a6a08
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="your-port-order-was-accepted"></a>Ihr Portierungsantrag wurde akzeptiert.
 
-# Ihr Portierungsantrag wurde akzeptiert.
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
-Ihr Portierungsauftrag ist genehmigt! Ihre Telefonnummern finden Sie unter **Skype for Business Admin Center** > **VoIP** > **Telefonnummern**.
+Die Reihenfolge Ihrer Port wurde genehmigt! Suchen Sie nach Ihre Rufnummern in den **Skype für Business Administrationscenter** > **VoIP** > **Rufnummern**.
   
  **WICHTIG**: Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
   
-Nachdem nun die Genehmigung vorliegt und Ihre Telefonnummern bereit sind, müssen Sie noch einige Dinge erledigen, um alles einzurichten.
+Nun, es genehmigt wurde und Ihre Rufnummern bereit sind, müssen Sie einige Dinge können Sie alles einrichten abrufen.
   
-- Stellen Sie sicher, dass Sie [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Sie benötigen eine **Telefonsystem** und **Nationalen aufrufen planen** oder **Internationalen planen**.
+- Stellen Sie sicher, dass Sie [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Sie benötigen ein **Telefonsystem** und **Nationalen aufrufen planen** oder **International aufrufen planen**.
     
-- Erstellen Sie Ihre [Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen](add-or-remove-an-emergency-address-for-your-organization.md) sowie gegebenenfalls[Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md) (wenn dies notwendig ist, erhalten Sie in manchen Ländern/Regionen zusammen mit der Telefonnummer eine Notfalladresse).
+- Erstellen Sie Ihre [Hinzufügen oder entfernen, die einem Notfall Webadresse für Ihre Organisation](add-or-remove-an-emergency-address-for-your-organization.md) und zum[Hinzufügen, ändern oder Entfernen von einem Notfall Speicherort für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md) soll (in einigen Ländern/Regionen, erhalten Sie eine Notfall-Adresse mit der Telefonnummer).
     
-- Jetzt können Sie [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md).
-    
-## 
-<a name="MT_Footer"> </a>
+- Fahren Sie fort und [zuweisen, ändern oder entfernen Sie eine Rufnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 > [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-## Siehe auch
-<a name="MT_Footer"> </a>
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+    
+## <a name="related-topics"></a>Verwandte Themen
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-#### Weitere Ressourcen
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)

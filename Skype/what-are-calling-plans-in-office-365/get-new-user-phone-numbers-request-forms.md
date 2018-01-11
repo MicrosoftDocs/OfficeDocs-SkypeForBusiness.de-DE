@@ -1,61 +1,62 @@
 ---
-title: "Neue Benutzer Telefon Zahlen Anforderungsformular abrufen"
+title: Neue Benutzer Telefon Zahlen Anfrageformular abrufen
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/12/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.GetNewNumbers
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
-
-description: "Manchmal (je nach Land/Region) können Sie nicht mehr Abrufen Ihrer neuen Zahlen mithilfe der Skype für Business Administrationscenter oder bestimmte Telefonnummern oder Ortsvorwahl Sprachmodule benötigen. In diesem Fall müssen Sie ein Formular herunterladen und senden Sie es an uns. Unsere Service-Desk wird bringen Sie ihn von dort aus und lassen Sie den Fortschritt oder Ihre Bestellung kennen."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.GetNewNumbers
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neuen Rufnummern, die mit der Skype für Business Administrationscenter zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und senden sie uns. Unser Kundendienst wird dafür von dort aus und informieren Sie zur Bearbeitung oder Ihrer Reihenfolge."
+ms.openlocfilehash: cb4723d7e417f98da5e7e5877375b437e83b70e6
+ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/02/2018
 ---
+# <a name="get-new-user-phone-numbers-request-form"></a>Neue Benutzer Telefon Zahlen Anfrageformular abrufen
 
-# Neue Benutzer Telefon Zahlen Anforderungsformular abrufen
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
-Manchmal (je nach Land/Region) können Sie nicht mehr Abrufen Ihrer neuen Zahlen mithilfe der **Skype für Business Administrationscenter** oder bestimmte Telefonnummern oder Ortsvorwahl Sprachmodule benötigen. In diesem Fall müssen Sie ein Formular herunterladen und senden Sie es an uns. Unsere Service-Desk wird bringen Sie ihn von dort aus und lassen Sie den Fortschritt oder Ihre Bestellung kennen.
+In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neuen Rufnummern, die mit der **Skype für Business Administrationscenter**zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und senden sie uns. Unser Kundendienst wird dafür von dort aus und informieren Sie zur Bearbeitung oder Ihrer Reihenfolge.
   
 > [!CAUTION]
-> In **Belgien, Irland, Deutschland und die Niederlande** erhalten Sie können keine neuen Telefon Telefonnummern der **Skype für Business-Verwaltungskonsole** verwenden, müssen Sie herunterladen und füllen Sie das Formular, und senden Sie diese an uns.
+> In **Belgien, Irland, Deutschland und den Niederlanden**können nicht erhalten Sie neue Telefon Telefonnummern mit der **Skype für Business Administrationscenter**; Sie müssen herunterladen, und füllen Sie das Formular senden sie uns. 
   
-Bei der Verwaltung von Telefonnummern ist wichtig, dass es [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) gibt, die beim Verbinden von Telefonnummern in Skype for Business Online verwendet werden. Wenn Sie nach anderen Aufgaben für die Verwaltung von Telefonnummern suchen, lesen Sie[Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Es ist wichtig, zu wissen, dass Sie das Telefon Nummer Verwaltungsaufgaben durchführen, stehen Ihnen die [verschiedenen Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md) , die beim Herstellen einer Verbindung mit Telefonnummern in Skype für Business Online verwendet werden. Wenn Sie für andere Phone Number Verwaltungsaufgaben suchen, finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
-|**Land/Region**|**Direkter Link zum benötigten Formular**|
+|**Land/Region**|**Direkter Link zu dem Formular benötigten**|
 |:-----|:-----|
-|Belgien  <br/> > [!NOTE]> Nur für Vorschau-Kunden und frühzeitige Anwender verfügbar. Weitere Informationen finden Sie unter [Skype-Vorschau](https://www.skypepreview.com) und durch Klicken auf **Organisationen**.           |Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Belgien (En-US)Abrufen neuer Abonnenten (Benutzer) Telefonnummern Belgien (de-werden)Abrufen neuer Abonnenten (Benutzer) Telefonnummern Belgien (Französisch-werden)Abrufen neuer Abonnenten (Benutzer) Telefonnummern Belgien (nl-werden)|
-|Frankreich  <br/> |Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Frankreich (En-US)Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Frankreich (Französisch-Französisch)|
-|Deutschland  <br/> > [!NOTE]> Nur für Vorschau-Kunden und frühzeitige Anwender verfügbar. Weitere Informationen finden Sie unter [Skype-Vorschau](https://www.skypepreview.com) und durch Klicken auf **Organisationen**.           |Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Deutschland (En-US)Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Deutschland (de-DE)|
-|Irland  <br/> |Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Irland (En-US)|
-|Niederlande  <br/> |Abrufen von neuen Abonnenten (Benutzer) Telefonnummern Niederlande (En-US)Abrufen von neuen Abonnenten (Benutzer) Telefonnummern Niederlande (nl-NL)|
-|Spanien  <br/> |Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Spanien (En-US)Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Spanien (es-ES)|
-|Vereinigtes Königreich (UK)  <br/> |Abrufen von neuen Abonnenten (Benutzer) Telefonnummern in Großbritannien (En-US)|
-|Vereinigte Staaten (USA) (und Puerto Rico)  <br/> |Neue Telefonnummern für Teilnehmer (Benutzer) in den USA anfordern|
+|Belgien  <br/> | [Neue Nummer Telefon-Anforderung für Belgien (v.2) (En-US)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [Neue Nummer Telefon-Anforderung für Belgien (v. 3) (de-werden)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(de.be).pdf) <br/> [Neue Nummer Telefon-Anforderung für Belgien (v. 3) (fr-werden)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(fr.be).pdf) <br/> [Neue Nummer Telefon-Anforderung für Belgien (v. 3) (nl-werden)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(nl.be).pdf) <br/> 
+|Frankreich  <br/> |[Neue Nummer Telefon-Anforderung für Frankreich (v.2) (En-US)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [Neue Nummer Telefon-Anforderung für Frankreich (v. 3) (fr-FR)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3)-(fr.fr).pdf)|
+|Deutschland  <br/> |[Neue Nummer Telefon-Anforderung für Deutschland (v.2) (En-US)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [Neue Nummer Telefon-Anforderung für Deutschland (v. 3) (de-DE)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3)-(de.de).pdf)|
+|Irland  <br/> |[Neue Nummer Telefon-Anforderung für Irland (v. 3) (En-US)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3)-(en.us).pdf)|
+|Niederlande  <br/> | [Neue Nummer Telefon-Anforderung für die Niederlande (v.2) (En-US)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [Neue Nummer Telefon-Anforderung für die Niederlande (v. 3) (nl-NL)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands(geographic-numbers)-(v.3)-(nl.nl).pdf)|
+|Spanien  <br/> | [Neue Nummer Telefon-Anforderung für Spanien (v.2) (En-US)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-geographic-numbers-v2-en-us.pdf) <br/> [Neue Nummer Telefon-Anforderung für Spanien (v. 3) (es-ES)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-geographic-numbers-v3-es-es.pdf)| 
+Vereinigtes Königreich (UK) <br/> |[Neue Nummer Telefon-Anforderung für Großbritannien](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(user-geographic-numbers)-(v.3)-(en.us).pdf) 
+|Vereinigte Staaten (US) (und Puerto Rico)<br/>|[Neue Nummer Telefon-Anforderung für die USA](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3)-(en.us).pdf)|
    
-## Formulardownloads für die Telefonnummernverwaltung
+## <a name="downloads-for-phone-number-management-forms"></a>Formulardownloads für die Telefonnummernverwaltung
 
 - Eine Liste und Downloads aller schriftlichen Vollmachten finden Sie unter [Schriftliche Vollmachten für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkID=623745).
     
-- Eine Liste und Downloads aller verfügbaren Formulare für den Bezug neuer Telefonnummern finden Sie unter [Anforderung für neue Telefonnummern für Skype for Business](https://go.microsoft.com/fwlink/?linkid=851581).
+- Sie können hier finden Sie eine Liste und herunterladen alle Formulare, die zum Abrufen von neuen Telefonnummern auf [Skype für Business neue Telefon Anzahl Anfragen](https://go.microsoft.com/fwlink/?linkid=851581)verfügbar sind.
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Verwandte Themen
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-## Siehe auch
-<a name="MT_Footer"> </a>
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-#### Weitere Ressourcen
+[Telefonnummern für Ihre Organisation verwalten](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)

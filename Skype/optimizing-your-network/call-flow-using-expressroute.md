@@ -1,26 +1,34 @@
 ---
-title: "Anruffluss mit ExpressRoute"
+title: Anruffluss mit ExpressRoute
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 413acb29-ad83-4393-9402-51d88e7561ab
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
 description: "In diesem Artikel werden die wichtigsten Grundsätze zum Anruffluss für Skype for Business Online und ExpressRoute mit detaillierten Beispielen für Anrufflüsse erläutert, um Sie bei einer adäquaten Planung zu unterstützen."
+ms.openlocfilehash: 757dc1c918a6d7a78cc636fa5269ce8cad334909
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
-
-# Anruffluss mit ExpressRoute
+# <a name="call-flow-using-expressroute"></a>Anruffluss mit ExpressRoute
 
 In diesem Artikel werden die wichtigsten Grundsätze zum Anruffluss für Skype for Business Online und ExpressRoute mit detaillierten Beispielen für Anrufflüsse erläutert, um Sie bei einer adäquaten Planung zu unterstützen.
   
 Wenn Sie Skype for Business Online im Rahmen von Office 365, Skype for Business Server Hybrid oder Skype for Business Cloud Connector Edition bereitstellen, müssen Sie die Kommunikation zwischen dem Skype for Business-Client und den Servern sowie den Anruffluss verstehen. Dann können Sie Ihre Skype for Business Online-Dienste effektiv planen, bereitstellen und betreiben und Probleme effektiv behandeln. 
   
-## Übersicht über Anruffluss
+## <a name="call-flow-overview"></a>Übersicht über Anruffluss
 
 In diesem Dokument werden die Netzwerksegmente beschrieben, die Daten für diese Anrufflüsse übertragen können. Es wird erläutert, welcher Datenverkehr lokal in Ihrem Netzwerk verarbeitet wird und welcher Datenverkehr über das Internet oder über ExpressRoute geleitet wird. Die Kenntnis darüber, welcher Datenverkehr ExpressRoute nutzt, ist für Sie hilfreich bei der Beurteilung der Vorteile, die sich für Ihre Firma durch die Nutzung von ExpressRoute ergeben. Ferner erhalten Sie eine Anleitung zur Bereitstellung von ExpressRoute, damit Sie Ihre Bereitstellung validieren und etwaige Probleme darin behandeln können, nachdem Sie sich für die Nutzung von ExpressRoute entschieden haben.
   
@@ -30,19 +38,19 @@ Die hier beschriebenen Anrufflüsse können durch diverse Faktoren beeinflusst w
     
 - [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
     
-- [Azure ExpressRoute für Office 365](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd)
+- [Übersicht über die ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-introduction)
     
-- [Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/)
+- [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)
     
 Eine vom Einrichtungsverfahren in der oben genannten Dokumentation abweichende Einrichtung und Konfiguration kann dazu führen, dass die Anrufflüsse anders sind als in dieser Dokumentation. Außerdem treten bei Ihnen möglicherweise Konfigurationsprobleme auf, wie zum Beispiel asymmetrische und suboptimale Netzwerkrouten oder suboptimale Transportprotokolle. Das asymmetrische Routing ist im Zusammenhang mit ExpressRoute immer ein wichtiger Aspekt, denn ExpressRoute führt einen zweiten Pfad in Office 365 ein. Dadurch entsteht die Möglichkeit, den Datenverkehr über zwei verschiedene Routen zu leiten: eine Richtung über das Internet und die andere über ExpressRoute. Dies kann dazu führen, dass der zurückfließende Datenverkehr blockiert wird, wenn er auf eine zustandsbehaftete Firewall trifft.
   
-## Netzwerksegmente und Arten von Datenverkehr
+## <a name="network-segments-and-traffic-types"></a>Netzwerksegmente und Arten von Datenverkehr
 
-### Netzwerksegmente
+### <a name="network-segments"></a>Netzwerksegmente
 
 Bevor wir den Anruffluss erläutern können, müssen wir einige Grundbegriffe im Zusammenhang mit den in Skype for Business Online verwendeten Netzwerksegmenten und Arten von Medien definieren. 
   
-In den nachfolgenden Anrufflussdiagrammen sehen Sie vier verschiedene Netzwerksegmente. Jedes dieser Segmente wird von einer anderen Organisation verwaltet: Ihrem internen Netzwerk, Ihrem Netzwerkdienstanbieter und dessen Internet-Peering-Partnern sowie Microsoft. Die Segmente weisen jeweils unterschiedliche Leistungsmerkmale auf. Leitlinien für Netzwerkleistungsziele finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](media-quality-and-network-connectivity-performance-in-skype-for-business-online.md).
+In den nachfolgenden Anrufflussdiagrammen sehen Sie vier verschiedene Netzwerksegmente. Jedes dieser Segmente wird von einer anderen Organisation verwaltet: Ihrem internen Netzwerk, Ihrem Netzwerkdienstanbieter und dessen Internet-Peering-Partnern sowie Microsoft. Die Segmente weisen jeweils unterschiedliche Leistungsmerkmale auf. Leitlinien für Netzwerkleistungsziele finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
   
 Unten sehen Sie die einzelnen Netzwerksegmente, die hier erläutert werden sollen.
   
@@ -50,15 +58,15 @@ Unten sehen Sie die einzelnen Netzwerksegmente, die hier erläutert werden solle
   
  **Ihr Netzwerk** Dies ist das Netzwerksegment in Ihrem Gesamtnetzwerk, das Sie selbst steuern und verwalten. Hierzu gehören alle Verbindungen innerhalb Ihrer Geschäftsräume - verkabelt oder über Funk, zwischen Bürogebäuden, mit lokalen Datencentern - und Ihre Verbindungen mit Internetdienstanbietern oder ExpressRoute-Partnern.
   
-Normalerweise befindet sich am Rand Ihres Netzwerks mindestens eine DMZ mit Firewalls und/oder Proxyservern, die die Sicherheitsrichtlinien Ihrer Organisation durchsetzen und die nur bestimmten Netzwerkdatenverkehr zulassen, den Sie eingerichtet und konfiguriert haben. Da Sie dieses Netzwerk verwalten, haben Sie die direkte Kontrolle über die Leistung Ihres Netzwerks. Es wird dringend empfohlen, die Leistung Ihres Netzwerks sowohl innerhalb der Sites im Netzwerk als auch vom Netzwerk zu Skype for Business Online mithilfe von Netzwerkbewertungen zu validieren. Die Leistungsanforderungen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](media-quality-and-network-connectivity-performance-in-skype-for-business-online.md).
+Normalerweise befindet sich am Rand Ihres Netzwerks mindestens eine DMZ mit Firewalls und/oder Proxyservern, die die Sicherheitsrichtlinien Ihrer Organisation durchsetzen und die nur bestimmten Netzwerkdatenverkehr zulassen, den Sie eingerichtet und konfiguriert haben. Da Sie dieses Netzwerk verwalten, haben Sie die direkte Kontrolle über die Leistung Ihres Netzwerks. Es wird dringend empfohlen, die Leistung Ihres Netzwerks sowohl innerhalb der Sites im Netzwerk als auch vom Netzwerk zu Skype for Business Online mithilfe von Netzwerkbewertungen zu validieren. Die Leistungsanforderungen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
   
  **Internet** Dies ist das Netzwerksegment innerhalb Ihres Gesamtnetzwerks, das die Benutzer verwenden, wenn sie sich außerhalb des Netzwerks mit Skype for Business Online verbinden. Wenn ExpressRoute nicht konfiguriert ist, wird dieses Segment für alle Verbindungen verwendet. Das Internet und alle Verbindungen darin werden nicht von Ihnen oder von Microsoft verwaltet. Darum können die Leistung und die Routingpfade nicht bestimmt werden. Dies hat die größten Auswirkungen auf den Anruffluss und die Qualität insgesamt.
   
- **ExpressRoute** Dies ist das Netzwerksegment innerhalb Ihres Gesamtnetzwerks, das für Sie eine dedizierte, private Verbindung mit dem Microsoft-Netzwerk bereitstellt. Diese Option wird für alle Workloads, bei denen Netzwerkgeschwindigkeit und Leistung von besonders hoher Bedeutung sind (z. B. Echtzeitkommunikation über Skype for Business Online), für die Verbindung Ihres Netzwerks mit dem Microsoft-Netzwerk (Office 365-Datencenter) empfohlen. ExpressRoute-Verbindungen zwischen Ihrem Netzwerk und dem Microsoft-Netzwerk werden über[ExpressRoute-Verbindungsanbieter](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/) hergestellt. Dadurch genießen Sie ein privates und verwaltetes Netzwerk mit 99,9 % Betriebszeit und QoS-Unterstützung (Quality of Service, Dienstqualität). Dies ermöglicht eine bessere Leistung für Echtzeitmedien, wenn die Netzwerke überlastet sind.
+ **ExpressRoute** Dies ist das Netzwerksegment, das Teil des gesamten Netzwerks ist, die Sie eine dedizierte Verbindung mit dem Microsoft-Netzwerk übergeben wird. Dies ist die empfohlene Option zum Herstellen einer Verbindung Ihr Netzwerk mit dem Microsoft-Netzwerk (Office 365 Rechenzentren) für alle Arbeitslast, die auf Geschwindigkeit und Leistung, wie etwa Skype für Business Online Echtzeitkommunikation abhängig sind. ExpressRoute Verbindungen zwischen dem Netzwerk und die Verwendung von Microsoft Network [ExpressRoute Connectivity Anbieter](https://azure.microsoft.com/documentation/articles/expressroute-locations/) erfolgen anzugebende ein Netzwerk privaten und verwalteten mit Betriebszeit von 99,9 % und Unterstützung für Quality of Service (QoS), die Leistung verbessert werden kann für Real-Time Media während der Zeiträume, in denen Überlastung des Netzwerks.
   
  **Microsoft-Netzwerk** Dies ist das Netzwerksegment innerhalb Ihres Gesamtnetzwerks, das die Office 365-Dienste unterstützt. Hierzu gehört die gesamte Kommunikation zwischen Onlineservern für Office 365, beispielsweise Datenverkehr, der den Backbone des Microsoft-Netzwerks durchläuft und zwischen verschiedenen geografischen Regionen übermittelt wird.
   
-### Arten von Datenverkehr
+### <a name="types-of-traffic"></a>Arten von Datenverkehr
 
 Der Netzwerkdatenverkehr für Skype for Business Online lässt sich in zwei Hauptkategorien unterteilen. Diese werden im Anruffluss jeweils als eigener Pfad angezeigt:
   
@@ -66,11 +74,11 @@ Der Netzwerkdatenverkehr für Skype for Business Online lässt sich in zwei Haup
   
  **Signalisierung** ist die Kommunikationsverbindung zwischen Client und Server oder mit anderen Clients, die zur Steuerung von Aktivitäten (z. B. wenn ein Anruf initiiert wird) und für die Zustellung von Chatnachrichten verwendet wird. Der Signalisierungsverkehr verwendet überwiegend das SIP-Protokoll. Einige Clients verwenden jedoch HTTP-basierte REST-Schnittstellen. Einfach gesagt, haben wir es bei dieser Art des Datenverkehrs mit diversen Signalisierungen zu tun, die über HTTP- und HTTPS- oder TLS-Verbindungen übermittelt werden können. Ein wichtiger Aspekt ist, dass dieser Datenverkehr wesentlich weniger latenzsensitiv ist. Allerdings kann es zu Dienstausfällen oder zur Unterbrechung von Anrufen wegen Zeitüberschreitungen kommen, wenn die Latenz zwischen den Endpunkten mehrere Sekunden überschreitet.
   
-Die Ziele für diesen Datenverkehr finden Sie für alle Office 365-Dienste unter [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). Für jede URL wird angegeben, ob dieser Teil des Datenverkehrs über ExpressRoute für Office 365 laufen kann. Diagramme, die zeigen, dass das Internet auch bei Aktivierung von ExpressRoute noch für bestimmten Datenverkehr verwendet wird, finden Sie unter [Azure ExpressRoute für Office 365](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd). Wichtig ist die Erkenntnis, dass selbst URLs, die nominell über ExpressRoute geroutet werden können, auch über das Internet geroutet werden können. Dies bedeutet, dass die Entscheidung, ob das Internet oder ExpressRoute verwendet wird, in einigen Szenarien vom Clientstandort und von der Konfiguration der Proxyserver und Firewalls abhängt. Wichtig ist auch, dass Internetverbindung erforderlich ist, selbst wenn Sie ExpressRoute bei einem ExpressRoute-Partner erwerben, weil nicht alle mit Office 365 verbundenen URLs ExpressRoute nutzen können. 
+Die Ziele für diesen Datenverkehr befinden sich in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) für alle Office 365-Dienste. Für jede URL angegeben, ob sich der Teil des Datenverkehrs der ExpressRoute für Office 365 durchqueren kann. Diagramme, die zeigen, dass das Internet weiterhin für einige-Datenverkehr verwendet wird, wenn ExpressRoute aktiviert ist, finden Sie unter [Azure ExpressRoute für Office 365](http://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd). Es ist wichtig zu verstehen, dass auch URLs, die als routingfähige über ExpressRoute aufgelistet sind auch über das Internet geroutet werden. Dies bedeutet, dass in einigen Szenarien die Entscheidung, ob das Internet oder ExpressRoute verwendet werden auf den Speicherort des Clients und die Konfiguration von Proxyserver und Firewalls hängt ab. Es ist außerdem wichtig zu verstehen, da nicht alle URLs zugeordnet Office 365 verwendet werden können ExpressRoute, dem Internet verbunden ist erforderlich, auch wenn Sie von einem Partner ExpressRoute ExpressRoute erwerben. 
   
-Folgender Datenverkehr kann nur über das Internet gesendet werden: allgemein vom Internet abhängiger Datenverkehr wie Zertifikatsperrlisten (Certificate Revocation Lists, CRLs), DNS-Lookups und Namensauflösungen, URLs für freigegebene Office 365-Dienste wie z. B. das Office 365 Admin Center sowie einige nicht an Echtzeit gebundene Kommunikationsfunktionen von Skype for Business Online, wie zum Beispiel Telemetrie und Partnerverbund für die Interoperabilität mit Skype für Heimanwender. Auch für Skype-Livekonferenzen gestreamte Medien gehören hierzu. Weitere Überlegungen für die Planung Ihres Netzwerkroutings, die für Ihre Entscheidungen relevant sein können, finden Sie unter [Routing mit ExpressRoute für Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408). 
+Folgender Datenverkehr kann nur über das Internet gesendet werden: allgemein vom Internet abhängiger Datenverkehr wie Zertifikatsperrlisten (Certificate Revocation Lists, CRLs), DNS-Lookups und Namensauflösungen, URLs für freigegebene Office 365-Dienste wie z. B. das Office 365 Admin Center sowie einige nicht an Echtzeit gebundene Kommunikationsfunktionen von Skype for Business Online, wie zum Beispiel Telemetrie und Partnerverbund für die Interoperabilität mit Skype für Heimanwender. Auch für Skype-Livekonferenzen gestreamte Medien gehören hierzu. Weitere Überlegungen für die Planung Ihres Netzwerkroutings, die für Ihre Entscheidungen relevant sein können, finden Sie unter [Routing mit ExpressRoute für Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408).
   
-## Grundsätze für Anrufflüsse bei Skype for Business
+## <a name="principles-for-call-flows-with-skype-for-business"></a>Grundsätze für Anrufflüsse bei Skype for Business
 
 Bevor wir die spezifischen Anruffluss-Szenarien näher betrachten, sollen hier sechs allgemeine Grundsätze erläutert werden, die für das Verständnis von Anrufflüssen bei Skype for Business wichtig sind.
   
@@ -88,7 +96,7 @@ Bevor wir die spezifischen Anruffluss-Szenarien näher betrachten, sollen hier s
     
 Nähere Informationen zum gewählten Medienpfad finden Sie unter [ICE - Edge-Medienverbindungen](https://aka.ms/AVEdge). In diesem Video wird Lync Server 2013 behandelt. Die Grundsätze und Protokolle gelten aber auch für Skype for Business.
   
-## Skype for Business-Anrufflüsse mit ExpressRoute
+## <a name="skype-for-business-call-flows-with-expressroute"></a>Skype for Business-Anrufflüsse mit ExpressRoute
 
 Sie kennen jetzt die vier verschiedenen Netzwerksegmente und einige allgemeine Grundsätze für Skype for Business-Anrufflüsse. Anhand dieser Informationen können Sie nun nachvollziehen, welcher Skype for Business-Datenverkehr ein ExpressRoute-Netzwerksegment durchläuft.
   
@@ -96,14 +104,14 @@ Im Allgemeinen durchläuft Netzwerkdatenverkehr die ExpressRoute-Verbindung, wen
   
 Der Datenverkehr läuft nicht über die ExpressRoute-Verbindung, wenn beide Endpunkte direkt über das Internet miteinander kommunizieren können oder wenn sich beide innerhalb Ihres Netzwerks befinden. Dies gilt auch für Medien bei Peer-zu-Peer-Anrufen, Datenverkehr aus dem Internet, der an eine lokale Bereitstellung gesendet wird, oder jeglichen Datenverkehr zwischen dem Internet und Office 365-Edgeservern. Ein Beispiel hierfür ist ein Benutzer, der von einem Hotel aus an einer Onlinekonferenz teilnimmt.
   
-## Allgemeines zum Skype for Business-Anruffluss
+## <a name="basic-skype-for-business-call-flow"></a>Allgemeines zum Skype for Business-Anruffluss
 
 Damit Sie die oben beschriebenen Grundsätze über Skype for Business-Anrufflüsse anwenden können, enthält der nächste Abschnitt in diesem Artikel eine Reihe von Diagrammen als Referenz. Dabei handelt es sich nicht um eine vollständige Liste aller denkbaren Anrufflüsse. Vielmehr sollen Ihnen diese Informationen als Orientierung für die Anwendung der oben beschriebenen Grundsätze dienen. Die Szenarios in den Diagrammen wurden außerdem unter dem Gesichtspunkt ausgewählt, dass sie häufige Bereitstellungstypen abdecken: Online, Hybrid, Cloud Connector und in einem speziellen Fall Skype-Livekonferenz.
   
 > [!NOTE]
 > Ein Teil des von Skype for Business genutzten Datenverkehrs kann nicht über ExpressRoute geleitet werden und verwendet daher immer einen Internetpfad. Anhand der Informationen unter [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) können Sie feststellen, welche URLs betroffen sein können.
   
-### Von einem Kundennetzwerk aus initiierter Peer-zu-Peer-Anruf für Office 365-Benutzer
+### <a name="peer-to-peer-call-for-office-365-users-from-within-customer-network"></a>Von einem Kundennetzwerk aus initiierter Peer-zu-Peer-Anruf für Office 365-Benutzer
 <a name="bk_Figure2"> </a>
 
 Der Medienverkehr für Peer-to-Peer-Anrufe wird immer auf der direktesten verfügbaren Route an das Ziel übermittelt. Der Signalisierungsverkehr wird jedoch an ein Office 365-Datencenter geleitet, in dem der Online-Benutzer beheimatet ist. Da sich beide Benutzer im selben WAN befinden und nichts eine direkte Kommunikation der Clients verhindert, erfolgt der Medienfluss direkt zwischen den beiden. Der Signalisierungsverkehr läuft bei beiden Benutzern über die ExpressRoute-Verbindung, deren Ziel das Rechenzentrum der jeweiligen Organisation ist. Die folgende Darstellung zeigt den Anruffluss in diesem Szenario.
@@ -112,7 +120,7 @@ Der Medienverkehr für Peer-to-Peer-Anrufe wird immer auf der direktesten verfü
   
 ![Call Flow with Peer to Peer call.](../images/f460369e-bfce-4a03-a031-d7e92c4ace89.png)
   
-### Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt
+### <a name="online-user-on-your-network-joining-a-conference-that-is-hosted-online"></a>Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt
 <a name="bk_Figure3"> </a>
 
 In dem Peer-zu-Peer-Beispiel nimmt der Medienverkehr immer die direkteste Route zu seinem Ziel. Bei einer Onlinekonferenz befindet sich das Ziel jedoch in der Office 365-Cloud. Dies bedeutet, dass der Medienverkehr für alle Benutzer, die von Ihrem Netzwerk aus an der Konferenz teilnehmen, über die ExpressRoute-Verbindung läuft und dass der Signalisierungsverkehr zur Office 365-Cloud geleitet wird. Die nachfolgende Grafik zeigt, dass sowohl Medien als auch Signalisierungen für einen Benutzer innerhalb Ihres Netzwerks über die ExpressRoute-Verbindung laufen. Für Benutzer, die sich außerhalb Ihres Netzwerks (beispielsweise von einem Café oder Hotel aus) mit dem Internet verbunden haben, werden diese Daten hingegen direkt über das Internet geleitet.
@@ -131,7 +139,7 @@ Das Gute an der Verwendung von ExpressRoute in diesem Szenario ist, dass Daten, 
   
 ![Call flow for an online hosted conference call.](../images/22d9ee64-b20c-4079-b3d1-a7a806b9a0bc.png)
   
-### Teilnahme an einer Konferenz, die von einem lokalen Benutzer in einer Hybrid-Bereitstellung gehostet wird
+### <a name="joining-a-conference-hosted-by-on-premises-user-in-hybrid-deployment"></a>Teilnahme an einer Konferenz, die von einem lokalen Benutzer in einer Hybrid-Bereitstellung gehostet wird
 <a name="bk_Figure3"> </a>
 
 Bedenken Sie, dass sich die Frage, welche Konferenzserver die gehosteten Konferenzen unterstützen, danach richtet, wo der Besprechungsorganisator verwaltet wird. In diesem Szenario fließen die Medien für alle Benutzer, die an einer von einem lokalen Benutzer in einer Hybridbereitstellung geplanten Konferenz teilnehmen, zu einem lokalen Datencenter. Die Signalisierung für online verwaltete Benutzer fließt über deren Organisation in der Office 365-Cloud, während die Medien eine Direktverbindung zu nutzen versuchen. In diesem Szenario verbinden sich beide Benutzer innerhalb Ihres Netzwerks. Daher ist eine direkte Medienverbindung möglich. ExpressRoute wird also nur für den Signalisierungsverkehr für den online verwalteten Benutzer verwendet. Wenn sich ein online verwalteter Benutzer vom Internet aus verbindet und die Verbindung über einen Online-Edgeserver hergestellt wird, können die Medien über ExpressRoute laufen.
@@ -140,7 +148,7 @@ Bedenken Sie, dass sich die Frage, welche Konferenzserver die gehosteten Konfere
   
 ![Call flow hosted onprem.](../images/9e669859-19f3-4a86-95b7-7185eb421ccd.png)
   
-### Lokale Edgeserver mit in Office 365 gehosteten Konferenzen
+### <a name="on-premises-edge-server-with-office-365-hosted-conferences"></a>Lokale Edgeserver mit in Office 365 gehosteten Konferenzen
 <a name="bk_Figure5"> </a>
 
 Wenn ein Hybridbenutzer an einer online gehosteten Konferenz teilnimmt, wissen wir, dass die Signalisierung und die Medien an die Office 365-Cloud geleitet werden. Da der Benutzer vom Internet aus teilnimmt, würde normalerweise ein direkter Internetpfad verwendet. In einigen Fällen ist jedoch kein direkter Internetpfad verfügbar, beispielsweise aufgrund von Firewallbeschränkungen. In diesem Fall kann ein lokaler Edgeserver den Medienverkehr übermitteln. Hierdurch wird der Medienverkehr an Ihr lokales Netzwerk zurückgeleitet, bevor er über die ExpressRoute-Verbindung zur Office 365-Cloud übermittelt wird.
@@ -149,7 +157,7 @@ Wenn ein Hybridbenutzer an einer online gehosteten Konferenz teilnimmt, wissen w
   
 ![Call flow for a conference call going through an edge server.](../images/0178c170-5837-430d-84f1-582784bfef55.png)
   
-### PSTN-Anruf mit Skype for Business Cloud Connector Edition
+### <a name="pstn-call-using-skype-for-business-cloud-connector-edition"></a>PSTN-Anruf mit Skype for Business Cloud Connector Edition
 <a name="bk_Figure6"> </a>
 
 Mit [Skype for Business Online Cloud Connector Edition](https://aka.ms/CloudConnectorInstaller) wird die Anbindung an das Festnetz (PSTN-Anbindung) ermöglicht. Dabei werden lokale Ressourcen genutzt, zum Beispiel ein SIP-Trunk oder ein PSTN-Gateway oder ein minimales Hardwaregerät für die Integration mit Skype for Business. Mit Cloud Connector Edition werden Benutzer online verwaltet und handeln als normale Onlinebenutzer, wenn keine Anrufpläne beteiligt sind. Die Signalisierungen in PSTN-Szenarien fließen zwischen dem Client und der Cloud über eine ExpressRoute-Verbindung, sofern diese verfügbar ist. Der Medienverkehr bleibt in Ihrem WAN. In diesem Fall kehren die Signalisierungen bei der Office 365-Cloud um und enden bei Cloud Connector.
@@ -158,7 +166,7 @@ Mit [Skype for Business Online Cloud Connector Edition](https://aka.ms/CloudConn
   
 ![Call flow for a PSTN call using Cloud PBX Cloud Connector.](../images/e48d0f2b-fa1e-4b43-b3dd-d34a33dcdf36.png)
   
-### Skype-Livekonferenz mit Benutzern, die von einem Kundennetzwerk aus teilnehmen
+### <a name="skype-meeting-broadcast-with-users-joining-from-customer-network"></a>Skype-Livekonferenz mit Benutzern, die von einem Kundennetzwerk aus teilnehmen
 <a name="bk_Figure6"> </a>
 
 Skype-Livekonferenz ist ein besonderer Anwendungsfall. In diesem Fall handelt es sich um eine zweiteilige Besprechung, deren Teile unterschiedliche Netzwerktransportprofile aufweisen. Der erste Teil ist die innere Besprechung. Im Hinblick auf die Netzwerkleistung ist dies der bedeutendere Teil. Dies ist der Echtzeitanteil der Besprechung. Er enthält einen oder mehrere Clientendpunkte, die sich mit dem Konferenzserver in der Office 365-Cloud verbinden. Die Daten, die über diesen Teil der Besprechung übermittelt werden, entsprechen genau dem Beispiel oben, in dem ein Office 365-Benutzer an einer Onlinekonferenz teilnimmt. 
@@ -169,13 +177,13 @@ Das Besondere an einer Skype-Livekonferenz ist die Tatsache, dass die Konferenz 
   
 ![Call flow for Skype Meeting Broadcast.](../images/cbe0e9f3-7eee-47e9-b61e-f2780b525dea.png)
   
-## Anrufflussmuster nach Entwicklungstyp
+## <a name="call-flow-patterns-by-deployment-type"></a>Anrufflussmuster nach Entwicklungstyp
 
 Anhand der oben angeführten Beispiele für häufig auftretende Anrufflüsse wurden die allgemeinen Grundsätze erläutert, die die Datenverkehrsmuster steuern. Die nachfolgenden Tabellen enthalten eine Übersicht über die Datenverkehrsmuster für eine große Kombination von Bereitstellungs- und Benutzerszenarien. Diese Tabellen erfassen nicht jede mögliche Kombination von Anrufflüssen. Sie können aber hilfreich sein, um die allgemeinen Grundsätze bei Anrufflüssen nachzuvollziehen.
   
 Die Daten werden übermittelt und aufgeführt, als seien sie für die Organisation lokal. Sie verlassen das Kundennetzwerk, das Internet oder ExpressRoute dabei nicht. Die nachfolgend aufgeführten Muster basieren auf den häufigsten Netzwerkeinstellungen. Hierzu gehören beispielsweise Firewalls, Partnerverbund und Internet. Dabei wird von der Annahme ausgegangen, dass alle Organisationen, die an Anrufflüssen mit mehreren Parteien oder mit Partnerverbunden beteiligt sind, ExpressRoute haben. In der Praxis könnte das Vorhandensein unterschiedlicher Einstellungen zu Datenverkehrsmustern führen, die von den nachfolgend aufgeführten Mustern abweichen.
   
-### Anrufflüsse bei Skype for Business Online
+### <a name="call-flows-for-skype-for-business-online"></a>Anrufflüsse bei Skype for Business Online
 
 Die Verwendungsszenarien für Skype for Business Online umfassen Benutzer, die online verwaltet werden und entweder von Ihrem internen Netzwerk aus oder vom Internet aus anrufen. Lokale Server kommen in diesen Szenarien nicht vor. Daher werden alle Medien in Bezug auf Konferenzen oder PSTN-Anrufe zur Office 365-Cloud fließen, und der Edgeserver der Onlinebenutzer befindet sich ebenfalls in der Cloud.
   
@@ -196,7 +204,7 @@ Die Verwendungsszenarien für Skype for Business Online umfassen Benutzer, die o
 > [!NOTE]
 > ExpressRoute wird auf dem Medienpfad von einem Benutzer im Unternehmensnetz zu einem Online-Edgeserver verwendet. ExpressRoute wird jedoch nicht verwendet, wenn der Edgeserver für die lokale Bereitstellung eines anderen Kunden verwendet wird. 
   
-### Anrufflüsse bei Skype for Business Hybrid
+### <a name="call-flows-for-skype-for-business-hybrid"></a>Anrufflüsse bei Skype for Business Hybrid
 
 Hybridanrufflüsse kommen zum Tragen, wenn Sie eine Skype for Business-Bereitstellung haben, bei der mindestens einige Benutzer lokal verwaltet werden. Die Anrufflüsse in diesem Abschnitt umfassen sowohl lokale Konferenzen als auch Peer-zu-Peer- oder PSTN-Anrufe mit mindestens einem lokal verwalteten Benutzer.
   
@@ -205,11 +213,11 @@ Hybridanrufflüsse kommen zum Tragen, wenn Sie eine Skype for Business-Bereitste
 |**Nutzungsszenario** <br/> |**Endpunkte** <br/> |**Signalisierungspfad** <br/> |**Medienpfad** <br/> |**Beispielfluss** <br/> |**Notizen** <br/> |
 |Peer-to-Peer-Anruf  <br/> |Zwei Clients, beide auf dem Kundennetzwerk und lokal beheimatet  <br/> |Lokal  <br/> |lokal  <br/> |[Von einem Kundennetzwerk aus initiierter Peer-zu-Peer-Anruf für Office 365-Benutzer](call-flow-using-expressroute.md#bk_Figure2) <br/> |Da die Benutzer lokal beheimatet sind, fließen die Signalisierungen lokal zum lokalen Rechenzentrum statt zur Office 365-Cloud.  <br/> |
 |Peer-to-Peer-Anruf  <br/> |Zwei Clients, die sich beide vom Kundennetzwerk aus verbinden. Einer ist online beheimatet, der andere lokal.  <br/> |Online-Benutzer: ExpressRoute  <br/> Lokaler Benutzer: lokal  <br/> |lokal  <br/> |[Von einem Kundennetzwerk aus initiierter Peer-zu-Peer-Anruf für Office 365-Benutzer](call-flow-using-expressroute.md#bk_Figure2) <br/> |Nur der online beheimatete Benutzer sendet Signalisierungsverkehr zur Office 365-Cloud.  <br/> |
-|Peer-zu-Peer-Anruf an einen Benutzer in einer Partnerorganisation  <br/> |Zwei Clients, ein lokaler Benutzer im Kundennetzwerk (intern) und ein Online-Benutzer im Netzwerk des Partnerunternehmens (Verbund).  <br/> |Interner Benutzer: lokal  <br/> Partnerbenutzer: ExpressRoute  <br/> |Internet oder ExpressRoute (je nachdem, ob ein Online- oder lokaler Edgeserver verwendet wird)  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) und Teil eines[Lokale Edgeserver mit in Office 365 gehosteten Konferenzen](call-flow-using-expressroute.md#bk_Figure5) (für Medienverkehr). <br/> |Dabei wird vorausgesetzt, dass eine Firewall direkte Verbindungen zwischen Clients blockiert, sodass ein Online-Edgeserver erforderlich ist. ICE-Aushandlung bietet sowohl Online-Edgeserver (durch den Onlinebenutzer) als auch lokale Edgeserver (durch den lokalen Benutzer) für die Verbindung an.  <br/> |
+|Peer-zu-Peer-Anruf an einen Benutzer in einer Partnerorganisation  <br/> |Zwei Clients, ein lokaler Benutzer im Kundennetzwerk (intern) und ein Online-Benutzer im Netzwerk des Partnerunternehmens (Verbund).  <br/> |Interner Benutzer: lokal  <br/> Partnerbenutzer: ExpressRoute  <br/> |Internet oder ExpressRoute (je nachdem, ob ein Online- oder lokaler Edgeserver verwendet wird)  <br/> |[Online-Benutzer in Ihrem Netzwerk teilnehmen an einer Konferenz, die ist, Online gehostet](call-flow-using-expressroute.md#bk_Figure3) und Teil des [lokalen Edge-Server mit Office 365 gehostete Konferenzen](call-flow-using-expressroute.md#bk_Figure5) (für Mediendatenverkehr). <br/> |Dabei wird vorausgesetzt, dass eine Firewall direkte Verbindungen zwischen Clients blockiert, sodass ein Online-Edgeserver erforderlich ist. ICE-Aushandlung bietet sowohl Online-Edgeserver (durch den Onlinebenutzer) als auch lokale Edgeserver (durch den lokalen Benutzer) für die Verbindung an.  <br/> |
 |Teilnahme an einer Telefonkonferenz durch einen Benutzer im Kundennetzwerk (von Online-Benutzer geplante Konferenz)  <br/> |Lokaler Benutzer auf Ihrem Netzwerk und Konferenzserver in der Office 365-Cloud.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> |Serverressourcen für die Telefonkonferenz werden durch den Besprechungsorganisator definiert. In diesem Fall wurde die Konferenz durch einen Onlinebenutzer geplant. Die Ressourcen befinden sich also in der Office 365-Cloud.  <br/> |
 |PSTN-Anruf  <br/> |Lokaler Benutzer in Ihrem Netzwerk und lokalen Skype for Business-Rechenzentrum.  <br/> |Lokal  <br/> |Lokal  <br/> |[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> |Vergleichbares Szenario für die Verwendung von Cloud Connector Edition, außer dass der Benutzer lokal beheimatet ist, sodass die Signalisierung in Ihrem Netzwerk verbleibt.  <br/> |
    
-### Anrufflüsse für Skype for Business mit Cloud Connector
+### <a name="call-flows-for-skype-for-business-with-cloud-connector"></a>Anrufflüsse für Skype for Business mit Cloud Connector
 
 Benutzer, die sich mit Cloud Connector Edition verbinden, sind alle online beheimatet. Dies bedeutet, dass die Konferenzen online sind und dass die Signalisierung den gleichen Mustern folgt wie für Online-Benutzer. Für Szenarien außer PSTN-Anrufen ist der Anruffluss genau so, wie oben für Skype for Business Online beschrieben.
   
@@ -217,6 +225,8 @@ Benutzer, die sich mit Cloud Connector Edition verbinden, sind alle online behei
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Nutzungsszenario** <br/> |**Endpunkte** <br/> |**Signalisierungspfad** <br/> |**Medienpfad** <br/> |**Beispielfluss** <br/> |**Notizen** <br/> |
 |PSTN-Anruf  <br/> |Online-Benutzer in Ihrem Netzwerk, der Cloud Connector Edition nutzt.  <br/> |lokal  <br/> |lokal  <br/> |[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
-|PSTN-Anruf  <br/> |Online-Benutzer im Internet, der Cloud Connector Edition nutzt.  <br/> |Internet  <br/> |Internet  <br/> |Kombination von [Lokale Edgeserver mit in Office 365 gehosteten Konferenzen](call-flow-using-expressroute.md#bk_Figure5) und[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internetbenutzer verbinden sich über den Edgeserver, der in Cloud Connector enthalten ist, und Cloud Connector verbindet sich mit dem Festnetz.  <br/> |
+|PSTN-Anruf  <br/> |Online-Benutzer im Internet, der Cloud Connector Edition nutzt.  <br/> |Internet  <br/> |Internet  <br/> |Kombination aus [lokalen Edge-Server mit Office 365 gehostete Konferenzen](call-flow-using-expressroute.md#bk_Figure5) und [PSTN Anrufen über Skype für Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internetbenutzer verbinden sich über den Edgeserver, der in Cloud Connector enthalten ist, und Cloud Connector verbindet sich mit dem Festnetz.  <br/> |
    
+## <a name="related-topics"></a>Verwandte Themen
 
+[ExpressRoute-Dokumentation](https://go.microsoft.com/fwlink/?LinkId=690285)

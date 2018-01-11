@@ -1,396 +1,390 @@
 ---
-title: "Verwalten der Audiokonferenzeinstellungen für meine Organisation"
+title: "Die Audiokonferenz Einstellungen für meine Organisation verwalten"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
-description: "See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Finden Sie unter Schritte aus, um einem Benutzer, richten Sie ein Drittanbieter-Konferenzanbieter und viele andere Einstellungen für einwahlkonferenzen eine einwahlkonferenzen Lizenz und Konferenz-ID zuweisen. "
+ms.openlocfilehash: 6bca89f60c5ee4e9b840d2094500077cfa972902
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Die Audiokonferenz Einstellungen für meine Organisation verwalten
 
-# Verwalten der Audiokonferenzeinstellungen für meine Organisation
-
-Möglicherweise ist es einfacher für Sie, alle Audiokonferenzeinstellungen für Skype for Business und Microsoft Teams an derselben Stelle zu sehen. 
+Alle für die Audiokonferenz für Skype für Unternehmen und die Microsoft-Teams, an einem Ort finden Sie unter erleichtert möglicherweise. 
   
-## Zuweisen einer Lizenz für Audiokonferenzen
+## <a name="assign-an-audio-conferencing-license"></a>Zuweisen einer Audiokonferenz-Lizenzvertrags
 
 > [!NOTE]
-> Sie können Lizenzen nicht über das **Skype for Business Admin Center**zuweisen. Sie müssen das Office 365 Admin Center verwenden. Weitere Informationen finden Sie unter [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
+> Sie können nicht mithilfe der **Skype für Business Administrationscenter**Lizenzen zuweisen. Sie müssen das Office 365 Administrationscenter verwenden. Finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
   
- **So weisen Sie eine Lizenz für einen Benutzer zu**
+ **So weisen eine Lizenz für einen Benutzer**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie in der linken Navigationsleiste des **Office 365 Admin Center** zu **Benutzer** > **Aktive Benutzer**, und wählen Sie die entsprechenden Benutzer aus der Liste der verfügbaren Benutzer aus. 
+2. Wechseln Sie im linken Navigationsbereich des **Office 365 Administrationscenter**, **Benutzern** > **aktive Benutzer**, und wählen Sie dann den oder die Benutzer aus der Liste der verfügbaren Benutzer aus.
     
     > [!NOTE]
-    > Wenn Sie Lizenzen für bis zu 20 Benutzer gleichzeitig zuweisen, können Sie eine der Optionen in der Dropdownliste **Ansicht auswählen** auswählen oder eine eigene Ansicht erstellen. Klicken Sie dann auf **Bearbeiten** und zweimal auf **Weiter**, wählen Sie die Lizenz aus, und klicken Sie auf **Übermitteln**. Mit Windows PowerShell können Sie auch mehreren Benutzern Lizenzen zuweisen. Anleitungen und PowerShell-Beispielskripts finden Sie unter [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
+    > Wenn Sie Lizenzen für bis zu 20 Benutzer gleichzeitig zuweisen, können Sie die Dropdownliste **Wählen Sie eine Ansicht** verwenden und klicken Sie dann wählen Sie eine der Optionen oder Ihre eigene Ansicht erstellen. Klicken Sie dann auf **Bearbeiten**, **Weiter** zweimal und klicken Sie dann wählen Sie die Lizenz aus, und klicken Sie auf **Absenden**. Sie können mehrere Benutzer auch mithilfe von Windows Powershell Lizenzen zuweisen. Anweisungen und PowerShell-Skriptbeispiele finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). 
   
 3. Klicken Sie im Aktionsbereich unter **Produktlizenzen** auf **Bearbeiten**. 
     
-4. Aktivieren Sie auf der Seite **Produktlizenzen** die Option **Audio Conferencing** (Audiokonferenz), und klicken Sie dann auf **Speichern**. Weitere Informationen zur Lizenzierung finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+4. Klicken Sie auf der Seite **Lizenzen** aktivieren Sie **Audiokonferenzen** , und klicken Sie dann auf **Speichern**. Weitere Informationen zur Lizenzierung finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
-> Unter Umständen wird Microsoft nach dem Zuweisen der Lizenz nicht sofort in der Liste als Audiokonferenzanbieter angezeigt. Melden Sie sich in diesem Fall im Office 365 Admin Center ab, oder drücken Sie STRG+F5, um das Browserfenster zu aktualisieren. 
+> Nachdem Sie die Lizenz zugewiesen haben, kann Microsoft nicht zunächst in der Liste als Audiokonferenzanbieter angezeigt. In diesem Fall melden Sie sich im Office 365 Administrationscenter, oder drücken Sie STRG + F5, um das Browserfenster zu aktualisieren. 
   
-## Zuweisen einer Konferenzkennung für einen Benutzer
+## <a name="assign-a-conference-id-for-a-user"></a>Weisen Sie eine Konferenz-ID für einen Benutzer
 
-Wenn Sie für einen Benutzer Audiokonferenzen einrichten und Microsoft der Audiokonferenzanbieter ist, wird dem Benutzer automatisch eine Konferenzkennung zugewiesen. Die zugewiesene Konferenzkennung kann statisch oder dynamisch sein und wird in der Einladung zur geplanten Besprechung gesendet. 
+Eine Konferenz-ID wird automatisch zu einem Benutzer zugewiesen, wenn sie für Audiokonferenzen mit Microsoft als Anbieter von Audiokonferenzen festgelegt sind. Die Konferenz-ID zugewiesen werden kann, statische oder dynamische und wird in der besprechungseinladung gesendet, wenn die Besprechung geplant ist. 
   
-Statische Kennungen werden verwendet, wenn sich die Mitarbeiter Ihrer Organisation keine Zufallszahlen merken möchten und es bevorzugen, eine bestimmte bzw. leicht zu merkende Zahl auszuwählen. Bei der Verwendung von dynamischen Konferenzkennungen wird jeder von einem Benutzer geplanten Besprechung eine eindeutige Konferenzkennung zugewiesen. Wenn Sie dynamische Konferenzkennungen anstelle von statischen Konferenzkennungen zuweisen möchten, klicken Sie [Verwenden von Audiokonferenzanbieter dynamische IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Statische-IDs werden verwendet, wenn Personen in Ihrer Organisation keine Zufallszahl merken möchten; Sie können wählen Sie eine bestimmte Zahl oder wählen Sie eine, die leicht zu merken ist. Wenn dynamische Konferenz-IDs verwendet werden, jeder Sitzung, die eine vom Benutzer geplant werden eine eindeutige Konferenz-ID. zugewiesen So weisen Sie dynamische statt statische Konferenz-IDs, finden Sie unter [Audiokonferenzen mithilfe von dynamischen IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md).
   
-Das Skype for Business Admin Center kann nicht zum Zuweisen von Konferenz-IDs zu Benutzern verwendet werden. Verwenden Sie stattdessen das Windows PowerShell-Cmdlet.
+Die Skype für Business-Verwaltungskonsole kann nicht verwendet werden, um eine Konferenz-ID, die einem Benutzer zuweisen, aber Sie können dazu das Windows PowerShell-Cmdlet verwenden.
   
-Führen Sie zum Einrichten einer Konferenz-ID für einen Benutzer Folgendes aus:
+Wenn die Konferenz-ID für einen Benutzer festlegen möchten, führen Sie Folgendes aus:
   
 ```
 Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
 ```
 
 > [!IMPORTANT]
-> Eine Konferenzkennung muss sieben Ziffern umfassen. Sie kann nicht im Skype for Business Admin Center oder mit Windows PowerShell geändert werden. 
+> Eine Konferenz-ID muss 7 Ziffern enthalten, und Sie ihn in die Skype für Business-Verwaltungskonsole oder mithilfe von Windows PowerShell nicht ändern können. 
   
-Weitere Informationen zum Cmdlet finden Sie unter [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
+Finden Sie unter [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) erfahren Sie mehr über das Cmdlet.
   
 > [!IMPORTANT]
->  Nachdem eine neue Konferenzkennung erstellt wurde, können Anrufer die alte Konferenzkennung nicht mehr verwenden. Sie sollten Benutzer benachrichtigen, dass sie ihre angesetzten Besprechungseinladungen neu planen müssen, damit die neue Konferenzkennung den Einladungen hinzugefügt wird. Die Benutzer können angesetzte Besprechungen mit Skype for Business Meeting Migration Tool aktualisieren. Informationen zum Herunterladen, Installieren und Ausführen von Skype for Business Meeting Update Tool finden Sie unter:> [Skype for Business (Lync) Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)> [Skype for Business Online, Meeting Migration Tool (64 Bit)](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online, Meeting Migration Tool (32-Bit)](https://go.microsoft.com/fwlink/?LinkID=626046)
+>  Nachdem eine neue Konferenz-ID erstellt wurde, kann nicht die alte Konferenz-ID BSSID verwendet werden. Informieren Sie Benutzer von Plänen ihrer vorhandenen meeting-Einladungen für sicher, dass die neue Konferenz ansetzen, die ID der Einladungen hinzugefügt wird. Die Benutzer können die Skype für Business Besprechung Migrationstool aktualisieren vorhandenen Besprechungen. Informationen zum Herunterladen, installieren und führen Sie die Skype für Business Besprechung Update-Tools finden Sie unter: [Meeting Aktualisierungstool für Skype für Unternehmen und Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype für Online Business Besprechung Migrationstool (64-Bit)](http://go.microsoft.com/fwlink/?LinkID=626047)und Skype für Online Business [Besprechung Migrationstool (32-Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
-Siehe [Anzeigen, Bearbeiten und Zurücksetzen einer Konferenz-ID, die einem Nutzer zugewiesen wurde](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
+Finden Sie unter [finden Sie unter, ändern, und setzen Sie eine Konferenz-ID, die einem Benutzer zugewiesenen zurück](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
   
-## Ändern des Audiokonferenzanbieters von Microsoft in einen Drittanbieter
+## <a name="change-the-audio-conferencing-provider-from-microsoft-to-a-third-party-provider"></a>Ändern des Audiokonferenz-Anbieters von Microsoft mit einem Drittanbieter-Anbieter
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **Audio conferencing** (Audiokonferenz) > **Benutzer**, und wählen Sie den Benutzer aus, dessen Audiokonferenzanbieter Sie ändern möchten.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**, und klicken Sie dann, und wählen Sie den Benutzer, die Sie den Audiokonferenz-Anbieter für ändern möchten.
     
 4. Klicken Sie im Bereich „Aktion" auf **Bearbeiten**. 
     
-5. Wählen Sie auf der Seite **Eigenschaften** unter **Anbietername** den Audiokonferenzanbieter für den Benutzer aus.
+5. Wählen Sie auf **der Eigenschaftenseite unter **Anbietername**** den Anbieter von Audiokonferenzen für den Benutzer.
     
     > [!NOTE]
-    > Wenn Sie mehrere Benutzer ausgewählt haben, können Sie nur Microsoft oder **Kein** als Audiokonferenzanbieter auswählen.
+    > Wenn Sie mehrere Benutzer ausgewählt haben, können Sie nur Microsoft als Anbieter von Audiokonferenzen oder **keine** auswählen.
   
 6. Klicken Sie auf **Speichern**. 
     
-Siehe [Ändern des Anbieters von Einwahlkonferenzen für Benutzer](https://support.office.com/article/9b74f053-4d23-485f-9232-3d30370a8c6e).
   
-## Aktivieren oder Deaktivieren der an Audiokonferenzbenutzer gesendeten E-Mails
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Aktivieren Sie oder deaktivieren Sie e-Mails senden audiokonferenzbenutzer
 
-Sie können die an Benutzer gesendeten E-Mails über das Skype for Business Admin Center oder über Windows PowerShell aktivieren oder deaktivieren.
+Sie können die Skype für Business Administrationscenter oder mit Windows PowerShell verwenden, aktivieren oder Deaktivieren von e-Mail an Benutzer gesendet.
   
- **Verwenden des Skype for Business Admin Center**
+ **Verwenden die Skype für Business-Verwaltungskonsole**
   
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zu **Office 365 Admin Center** > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing** (Audiokonferenz).
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Skype für Unternehmen** , und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
     
-3. Aktivieren oder deaktivieren Sie auf der Seite **Einstellungen von Microsoft Bridge** die Option **Automatically send emails to users if any of the audio conferencing configuration changes** (Bei einer Änderung der Audiokonferenzeinstellungen automatisch E-Mails an Benutzer senden).
+3. Aktivieren Sie auf der Seite **Microsoft-Brücke Einstellungen** , oder deaktivieren Sie, die **automatisch e-Mails an Benutzer senden, wenn Ändern ihrer Einstellungen für die Audiokonferenz**.
     
 4. Klicken Sie auf **Speichern**.
     
-    Sie können dem Benutzer auch eine E-Mail mit den Audiokonferenzeinstellungen senden. Navigieren Sie dazu zu den Audiokonferenzeigenschaften für den Benutzer, und klicken Sie auf **Konferenzinformationen per E-Mail senden**. Die Konferenzkennung und die Standardtelefonnummer für die Audiokonferenz sind in der Besprechungseinladung enthalten, die PIN jedoch nicht.
+    Sie können auch den-e-Mails für den Benutzer mit den Einstellungen Audiokonferenzen senden, indem Sie die Eigenschaften des Benutzers Audiokonferenzen und sollte und auf **Konferenz Informationen per e-Mail senden**. Die Konferenz-ID und Standardwerte in der Audiokonferenz Telefonnummer ist auf die Besprechung einladen, aber nicht die PIN enthalten.
     
-    Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-audio-conferencing-information.md).
+    Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md).
     
- **Verwenden von Windows PowerShell**
+ **Mithilfe von Windows PowerShell**
   
-- Sie können auch Windows PowerShell verwenden und Folgendes ausführen: 
+- Sie können auch die Windows PowerShell verwenden und ausführen: 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) können Sie weitere Einstellungen für Ihre Organisation (unter anderem E-Mail) verwalten.
+    Das [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) können Sie um andere Einstellungen für Ihre Organisation, einschließlich e-Mail zu verwalten.
     
-## Ändern der Kontaktinformationen des Absenders in E-Mails an Benutzer
+## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Ändern von Kontaktinformationen des Absenders in e-Mail-Nachrichten an Benutzer gesendet
 
-Sie können die E-Mail, die automatisch an Ihre Benutzer gesendet wird, ändern, unter anderem die E-Mail-Adresse und den Anzeigenamen der Kontaktinformationen des Absenders. Standardmäßig ist Office 365 als Absender der E-Mails angegeben. Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mit Windows PowerShell und dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) ändern. Um Änderungen an der E-Mail-Adresse vorzunehmen, über die die E-Mail an die Benutzer gesendet wird, müssen Sie:
+Sie können die e-Mail-Nachricht ändern, die automatisch an Ihre Benutzer, einschließlich der tatsächliche e-Mail-Adresse und den Anzeigenamen der Kontaktinformationen des Absenders gesendet wird. Standardmäßig ist des Absenders der e-Mail Office 365, aber Sie können die e-Mail-Adresse ändern und den Anzeigenamen von Windows PowerShell und das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Um die e-Mail-Adresse ändern, die die e-Mail-Nachricht an die Benutzer senden, müssen Sie folgende Aktionen ausführen:
   
-- Die E-Mail-Adresse in den Parameter  _SendEmailFromAddress_ eingeben.
+- Geben Sie die e-Mail-Adresse in der _SendEmailFromAddress_ -Parameter.
     
 - Den in der E-Mail angezeigten Namen in den Parameter  _SendEmailFromDisplayName_ eingeben.
     
-- Den Parameter  _SendEmailOverride_ auf _True_ einstellen.
+- Den Parameter _SendEmailOverride_ auf _True_festgelegt.
     
-Sie können Änderungen an der E-Mail vornehmen, die an Benutzer gesendet wird, z. B. die E-Mail-Adresse, von der die E-Mail gesendet wird, oder den in der E-Mail angezeigten Namen. Führen Sie dazu Folgendes aus:
+Sie können die Änderungen an der e-Mail an Benutzer, wie die e-Mail-Adresse, der von die e-Mail gesendet wird oder den Anzeigenamen für die e-Mail-durch Ausführen von vornehmen:
   
 ```
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
-Wenn Sie die E-Mail-Adressinformationen ändern möchten, müssen Sie sicherstellen, dass die Richtlinien Ihres Unternehmens für eingehende E-Mails es zulassen, dass E-Mails von der benutzerdefinierten Absenderadresse gesendet werden.
+Wenn Sie die Informationen der e-Mail-Adresse ändern möchten, müssen Sie sicherstellen, dass die eingehenden e-Mail-Adressrichtlinien Ihrer Organisation-e-Mails zulassen, die von der benutzerdefinierten e-Mail-Adresse stammen.
   
-Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) können Sie weitere Einstellungen für Ihre Organisation (unter anderem E-Mail) verwalten.
+Das Cmdlet " [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) " können Sie um andere Einstellungen für Ihre Organisation, einschließlich e-Mail zu verwalten.
   
-Weitere Informationen finden Sie unter [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einwahlkonferenzeinstellungen ändern](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md).
+Finden Sie unter [-e-Mails, die Benutzern beim Ändern ihrer Einstellungen für die Audiokonferenz automatisch gesendet werden](emails-sent-to-users-when-their-settings-change.md).
   
-## Zurücksetzen der Konferenz-ID der Besprechung
+## <a name="reset-the-meeting-conference-id"></a>Zurücksetzen die Besprechung Konferenz-ID
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **Audio conferencing** (Audiokonferenz), und klicken Sie im Aktionsbereich unter **Konferenzkennung** auf **Zurücksetzen**.
+3. Wechseln Sie an der **Audiokonferenz**, und klicken Sie im Aktionsbereich unter **Konferenz-ID**der **Skype für Business Administrationscenter**, im Navigationsbereich, klicken Sie auf **Zurücksetzen**.
     
-4. Klicken Sie im Fenster **Konferenz-ID zurücksetzen?** auf **Ja**. Daraufhin wird automatisch eine neue Konferenzkennung generiert und per E-Mail an den Benutzer gesendet, wenn das Senden von E-Mails an Ihre Benutzer aktiviert ist. Standardmäßig ist dies aktiviert.
+4. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Ja**. Eine Konferenz-ID wird automatisch erstellt und eine e-Mail an den Benutzer mit der neuen Konferenz-ID gesendet, wenn Senden von e-Mails an Ihre Benutzer aktiviert ist. Es ist standardmäßig aktiviert.
     
     > [!IMPORTANT]
-    >  Nachdem eine neue Konferenzkennung erstellt wurde, können Anrufer die alte Konferenzkennung nicht mehr verwenden. Sie sollten Benutzer benachrichtigen, dass sie ihre angesetzten Besprechungseinladungen neu planen müssen, damit die neue Konferenzkennung den Einladungen hinzugefügt wird. Die Benutzer können angesetzte Besprechungen mit Skype for Business Meeting Migration Tool aktualisieren. Informationen zum Herunterladen, Installieren und Ausführen von Skype for Business Meeting Update Tool finden Sie unter:> [Skype for Business (Lync) Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)> [Skype for Business Online, Meeting Migration Tool (64 Bit)](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online, Meeting Migration Tool (32-Bit)](https://go.microsoft.com/fwlink/?LinkID=626046)
+    >  Nachdem eine neue Konferenz-ID erstellt wurde, kann nicht die alte Konferenz-ID BSSID verwendet werden. Informieren Sie Benutzer von Plänen ihrer vorhandenen meeting-Einladungen für sicher, dass die neue Konferenz ansetzen, die ID der Einladungen hinzugefügt wird. Die Benutzer können die Skype für Business Besprechung Migrationstool aktualisieren vorhandenen Besprechungen. Informationen zum Herunterladen, installieren und führen Sie die Skype für Business Besprechung Update-Tools finden Sie unter: [Besprechung Update-Tool für Skype für Unternehmen und Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype für Online Business Meeting-Migrationstool (64-Bit)](http://go.microsoft.com/fwlink/?LinkID=626047), und [Skype für Unternehmen Online, Besprechung Migrationstool (32-Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
-Siehe [Einrichten einer Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user.md).
+Finden Sie unter [Zurücksetzen eine Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user.md).
   
-## Zurücksetzen der PIN eines Organisators einer Konferenz
+## <a name="reset-a-conference-organizers-pin"></a>Zurücksetzen der PIN eines Organisators einer Konferenz
 
-Statische Kennungen werden verwendet, wenn sich die Mitarbeiter Ihrer Organisation keine Zufallszahlen merken möchten und es bevorzugen, eine bestimmte bzw. leicht zu merkende Zahl zu verwenden. Bei der Verwendung von dynamischen Konferenzkennungen wird jeder von einem Benutzer geplanten Besprechung eine eindeutige Konferenzkennung zugewiesen. Wenn Sie dynamische Konferenzkennungen anstelle von statischen Konferenzkennungen zuweisen möchten, klicken Sie [Verwenden von Audiokonferenzanbieter dynamische IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Statische-IDs werden verwendet, wenn Personen in Ihrer Organisation keine Zufallszahl merken möchten; Sie können wählen Sie eine bestimmte Zahl oder verwenden Sie eine, die leicht zu merken ist. Wenn dynamische Konferenz-IDs verwendet werden, jeder Sitzung, die eine vom Benutzer geplant werden eine eindeutige Konferenz-ID. zugewiesen Wenn Sie zuweisen dynamische statt statische-Konferenz-IDs, [Audiokonferenzen mithilfe von dynamischen IDs in Ihrer Organisation möchten](using-audio-conferencing-dynamic-ids-in-your-organization.md).
   
-Obwohl statische Konferenzkennungen automatisch generiert und Benutzern zugewiesen werden, kann es vorkommen, dass Benutzer diese Nummer nicht verwenden möchten und Sie daher eine bestimmte Nummer festlegen müssen. Wenn Benutzer eine leichter zu merkende Konferenzkennung wünschen oder ihre Kennung vergessen oder verloren haben, können Sie sie im Skype for Business Admin Center und mit Windows PowerShell anzeigen, ändern und zurücksetzen.
+Zwar eine statische Konferenz-ID wird automatisch erstellt und einem Benutzer zugewiesen werden, kann es jedoch Zeiten, wenn ein Benutzer nicht für diese verwenden möchten und es eine bestimmte Anzahl festgelegt werden soll, oder Ihre Benutzer können nicht merken oder verloren haben ihre Konferenz-ID. Sie können die Skype für Business Administrationscenter und Windows PowerShell verwenden, anzeigen, ändern und Zurücksetzen ihrer Konferenz-ID.
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zu **Office 365 Admin Center** > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing** (Audiokonferenz).
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Skype für Unternehmen** , und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
     
-3. Klicken Sie auf **Benutzer**, und wählen Sie den Benutzer aus, dessen PIN Sie zurücksetzen möchten.
+3. Klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer, dem Sie für die PIN zurücksetzen möchten.
     
-4. Klicken Sie im Aktionsbereich unter **PIN** auf **Zurücksetzen**.
+4. Klicken Sie im Aktionsbereich unter **PIN**, auf **Zurücksetzen**.
     
-Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen aktiviert werden oder wenn die PIN zurückgesetzt wird. Wenn Sie das automatische Senden von E-Mails deaktiviert haben, wird allerdings keine E-Mail zum Zurücksetzen der PIN gesendet. In diesem Fall müssen Sie die PIN manuell an den Benutzer senden. Die PIN wird nach dem Zurücksetzen nur einmal angezeigt. Nachdem sie unmittelbar nach dem Zurücksetzen angezeigt wurde, wird die PIN in den Benutzereigenschaften nicht mehr angezeigt. Stattdessen wird ***** angezeigt. 
+Benutzer erhalten eine e-Mail mit ihrer PIN, wenn sie aktiviert sind, für Audiokonferenzen oder wenn die PIN zurückgesetzt wird. Aber wenn Sie automatisch deaktiviert haben Senden von e-Mails, eine PIN zurücksetzen-e-Mail wird nicht gesendet werden und Sie müssen die PIN für den Benutzer manuell veranlassen. Die PIN-Nummer wird nur einmal angezeigt, nachdem er zurückgesetzt wurde. Nachdem sie direkt nach der zurückzusetzende angezeigt wird, wird nicht die PIN nicht mehr auf die Benutzereigenschaften angezeigt; Stattdessen *** angezeigt werden soll. 
   
-Siehe [Zurücksetzen der Einwahlkonferenz-PIN für einen Benutzer](reset-the-audio-conferencing-pin-for-a-user.md).
+Finden Sie unter [Audio Conferencing PIN eines Benutzers zurücksetzen](reset-the-audio-conferencing-pin-for-a-user.md).
   
-## Senden einer E-Mail mit den Informationen zur Audiokonferenz an einen Benutzer
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden Sie eine e-Mail mit Audiokonferenz Informationen zu einem Benutzer
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zu **Office 365 Admin Center** > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing** (Audiokonferenz).
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Skype für Unternehmen** , und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
     
-3. Klicken Sie auf **Benutzer**, und wählen Sie den Benutzer aus, dessen PIN Sie zurücksetzen möchten.
+3. Klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer, dem Sie für die PIN zurücksetzen möchten.
     
 4. Klicken Sie im Bereich „Aktion" auf **Konferenzinformationen per E-Mail senden**.
     
     > [!NOTE]
-    > Damit wird die Audiokonferenz-PIN nicht an den Benutzer gesendet. 
+    > Wenn Sie dies tun, wird nicht die Audiokonferenz PIN an den Benutzer gesendet. 
   
-Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-audio-conferencing-information.md).
+Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md).
   
-## Festlegen der Standardtelefonnummer für Audiokonferenzen für Besprechungsorganisatoren
+## <a name="setting-the-default-audio-conferencing-phone-number-for-meeting-organizers"></a>Festlegen von Audiokonferenzen Standardrufnummer für Besprechungsorganisatoren
 
- **So legen Sie die Standardtelefonnummer für Audiokonferenzen für Besprechungsorganisatoren fest, wenn Sie einen Benutzer für Audiokonferenzen aktivieren**
+ **Festlegen der Audiokonferenz Standardrufnummer für Besprechungsorganisatoren, wenn Sie einen Benutzer für Audiokonferenzen aktivieren**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste zu **Audio conferencing** (Audiokonferenz) > **Benutzer**. Wählen Sie den Benutzer aus, den Sie für Audiokonferenzen aktivieren möchten.
+3. Wechseln Sie im linken Navigationsbereich zur **Audiokonferenz** > **Benutzer**. Wählen Sie den Benutzer, den Sie für Audiokonferenzen aktivieren möchten.
     
 4. Klicken Sie im Aktionsbereich in den Eigenschaften des Benutzers auf **Bearbeiten**.
     
-5. Wählen Sie auf der Seite **Eigenschaften** unter **Anbietername** in der Dropdownliste den Audiokonferenzanbieter aus.
+5. Verwenden Sie auf der Seite **Eigenschaften** unter **Anbietername**der Dropdown Liste den Anbieter von Audiokonferenzen auswählen.
     
-  - Wenn Sie Microsoft als Audiokonferenzanbieter auswählen, können Sie die Standardtelefonnummer für Audiokonferenzen aus der Liste auswählen.
+  - Wenn Sie Microsoft als Anbieter von Audiokonferenzen auswählen, können Sie Audiokonferenzen Standardrufnummer aus der Liste auswählen.  
     
-  - Wenn Sie einen Drittanbieter-ACP als Audiokonferenzanbieter auswählen, müssen Sie die gebührenpflichtige und gegebenenfalls die gebührenfreie Telefonnummer manuell eingeben. Bei diesen Telefonnummern handelt es sich um die Standardtelefonnummer.
+  - Wenn Sie ein Drittanbieter-ACP als der Audiokonferenz-Anbieter auswählen, müssen Sie die gebührenpflichtige manuell eingeben und gegebenenfalls die gebührenfreie Telefonnummer. Diese Rufnummern werden die Standardrufnummer.
     
-    Die Standardtelefonnummer für Audiokonferenzen eines Benutzers ist die Nummer, die beim Planen einer Besprechung in der Besprechungseinladung angezeigt wird.
+    Audiokonferenzen Standardrufnummer eines Benutzers ist die Nummer, die auf der besprechungseinladung angezeigt wird, wenn sie eine Besprechung planen.
     
-6. Klicken Sie auf **Speichern**.
+6. Klicken Sie auf **Speichern**. 
     
-Siehe [Festlegen der in Einladungen enthaltenen Audiokonferenz-Telefonnummern für Besprechungsorganisatoren](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
+Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md).
   
- **So legen Sie die Standardtelefonnummer für Audiokonferenzen für Besprechungsorganisatoren fest, nachdem Sie einen Benutzer für Audiokonferenzen aktiviert haben**
+ **Festlegen der Audiokonferenz Standardrufnummer für Besprechungsorganisatoren, nachdem Sie einen Benutzer für die Audiokonferenz aktiviert haben**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **Audio conferencing** (Audiokonferenz) > **Benutzer**, und wählen Sie den gewünschten Benutzer aus. Klicken Sie dann auf der Seite „Aktion" auf **Bearbeiten**.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**, wählen Sie den Benutzer werden soll, und klicken Sie auf der Seite Aktion auf **Bearbeiten**.
     
-4. Wählen Sie auf der Seite **Eigenschaften** unter **Anbietername** in der Dropdownliste den Audiokonferenzanbieter aus.
+4. Verwenden Sie auf der Seite **Eigenschaften** unter **Anbietername**der Dropdown Liste den Anbieter von Audiokonferenzen auswählen.
     
-  - Wenn der Benutzer Microsoft als Audiokonferenzanbieter verwendet, können Sie die Standardtelefonnummer für Audiokonferenzen aus der Liste auswählen.
+  - Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet wird, können Sie die Standardrufnummer Audiokonferenzen aus der Liste auswählen.  
     
-  - Wenn der Benutzer einen Drittanbieter-ACP als Audiokonferenzanbieter verwendet, müssen Sie die gebührenpflichtige und gegebenenfalls die gebührenfreie Telefonnummer manuell eingeben.
+  - Wenn der Benutzer ein Drittanbieter-ACP als Anbieter von Audiokonferenzen verwendet wird, müssen Sie die gebührenpflichtige manuell eingeben und gegebenenfalls die gebührenfreie Telefonnummer.
     
-    Die Standardtelefonnummer für Audiokonferenzen eines Benutzers ist die Nummer, die beim Planen einer Besprechung in der Besprechungseinladung angezeigt wird.
+    Audiokonferenzen Standardrufnummer eines Benutzers ist die Nummer, die auf der besprechungseinladung angezeigt wird, wenn sie eine Besprechung planen.
     
-5. Klicken Sie auf **Speichern**.
+5. Klicken Sie auf **Speichern**. 
     
-Siehe [Festlegen der in Einladungen enthaltenen Audiokonferenz-Telefonnummern für Besprechungsorganisatoren](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
+Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md).
   
-## Festlegen von Einstellungen für die Audiokonferenzbrücke
+## <a name="setting-audio-conferencing-bridge-settings"></a>Audiokonferenzen Bridge Einstellungen festlegen
 
- **Festlegen des Besprechungsverhaltens, wenn Anrufer an einer Besprechung teilnehmen**
+ **Die besprechungsumgebung festgelegt, wenn der Anrufer an einer Besprechung teilnehmen**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz) > **Einstellungen von Microsoft Bridge**.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Microsoft Bridge-Einstellungen**.
     
-4. Wählen Sie unter **Besprechungsteilnahme** die folgenden Aktionen aus:
+4. Wählen Sie unter **Erleben Sie die Teilnahme an einer Besprechung**die folgenden Aktionen aus:
     
-  - **Benachrichtigungen beim Betreten oder Verlassen einer Besprechung aktivieren**: Diese Option ist standardmäßig aktiviert. Wenn Sie das Kontrollkästchen deaktivieren, werden Benutzer, die bereits standardmäßig an der Besprechung teilnehmen, nicht benachrichtigt, wenn ein Teilnehmer der Besprechung beitritt oder diese verlässt.
+  - **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden** Diese Option ist standardmäßig ausgewählt. Wenn Sie dieses Kontrollkästchen deaktivieren, werden nicht Benutzer, die bereits an der Besprechung standardmäßig benachrichtigt, wenn ein Benutzer eingibt oder die Besprechung verlässt.
     
-    Dies kann für jede Besprechung individuell festgelegt werden, wenn Benutzer über eine Skype for Business- oder Microsoft Teams-App an der Besprechung teilnehmen. Ändern Sie dazu in der Skype-Besprechungs-App oder der Microsoft Teams-App im Menü **Optionen** für die Besprechung die Einstellung **Zu- und Abgang von Personen ankündigen**.
+    Dies kann für einzelne Besprechung von Besprechungen festgelegt werden, wenn ein Benutzer eine Besprechung mit einer Skype für Business oder Microsoft-Teams app Beitritt und diese ändern Sie die Einstellung **Announce Wenn Personen eingeben oder diese verlassen** Skype-Besprechung oder Microsoft-Teams, **Optionen** im Menü des der Besprechung.
     
-  - **Anrufer zur Aufnahme ihres Namens auffordern, bevor sie an der Besprechung teilnehmen**: Diese Option ist standardmäßig aktiviert. Wenn Sie das Kontrollkästchen deaktivieren, werden Anrufer nicht aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen.
+  - **Ask Anrufer ihren Namen vor der Teilnahme an der Besprechung aufzeichnen** Diese Option ist standardmäßig ausgewählt. Wenn Sie dieses Kontrollkästchen deaktivieren, werden nicht Anrufer aufgefordert, ihren Namen aufzeichnen müssen, bevor sie an einer Besprechung teilnehmen.
     
 5. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
     
-Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md).
+Finden Sie unter [ändern die Einstellungen für eine Audiokonferenz-Brücke](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Festlegen der Länge der PIN für Besprechungen**
+ **Legen Sie die PIN-Mindestlänge für Besprechungen**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz) > **Einstellungen von Microsoft Bridge**.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Microsoft Bridge-Einstellungen**.
     
-4. Geben Sie unter **Sicherheit** in der Liste **PIN-Länge** die gewünschte Anzahl der Ziffern für die PIN ein, und klicken Sie dann auf **Speichern**.
+4. Klicken Sie unter **Sicherheit**Geben Sie die Anzahl der Ziffern, die Sie für die PIN-Nummer in der Liste der **PIN-Länge** verwenden möchten, und klicken Sie dann auf **Speichern**.
     
-    Die PIN muss aus 4 bis 12 Ziffern bestehen. Der Standardwert beträgt 5.
+    Die PIN muss zwischen 4 und 12 Ziffern. Der Standardwert ist 5.
     
-Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md).
+Finden Sie unter [ändern die Einstellungen für eine Audiokonferenz-Brücke](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Aktivieren oder Deaktivieren des Sendens von E-Mails an Audiobenutzer**
+ **Aktivieren oder Deaktivieren von e-Mail an audio-Benutzer gesendet wird**
   
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zu **Office 365 Admin Center** > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing** (Audiokonferenz).
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Skype für Unternehmen** , und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
     
-3. Aktivieren oder deaktivieren Sie auf der Seite **Einstellungen von Microsoft Bridge** die Option **Automatically send emails to users if any of the audio conferencing configuration changes** (Bei einer Änderung der Audiokonferenzeinstellungen automatisch E-Mails an Benutzer senden).
+3. Aktivieren Sie auf der Seite **Microsoft-Brücke Einstellungen** , oder deaktivieren Sie, die **automatisch e-Mails an Benutzer senden, wenn Ändern ihrer Einstellungen für die Audiokonferenz**.
     
 4. Klicken Sie auf **Speichern**.
     
-    Sie können dem Benutzer auch eine E-Mail mit den Audiokonferenzeinstellungen senden. Navigieren Sie dazu zu den Audiokonferenzeigenschaften des Benutzers, und klicken Sie auf **Konferenzinformationen per E-Mail senden**.
+    Sie können auch den e-Mail an den Benutzer mit den Einstellungen für Audiokonferenzen senden, indem Sie die Eigenschaften des Benutzers Audiokonferenzen und sollte und auf **Konferenz Informationen per e-Mail senden**.
     
-    Damit wird eine E-Mail gesendet, die nur die Konferenz-ID und die Konferenztelefonnummer enthält, nicht aber die PIN.
+    Wenn Sie dies tun, wird eine e-Mail gesendet werden, die nur enthält Konferenz-ID und Konferenztelefonnummer, doch die PIN nicht enthalten.
     
-    Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-audio-conferencing-information.md).
+    Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md).
     
-## Anzeigen und Festlegen der primären und sekundären Sprachen für eine Audiokonferenzbrücke
+## <a name="see-and-set-the-primary-and-secondary-languages-on-an-audio-conferencing-bridge"></a>Finden Sie unter, und legen Sie die primären und sekundären Sprachen für eine audiokonferenzbrücke
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz), und klicken Sie dann auf **Microsoft Bridge**.
+3. In der **Skype für Business Administrationscenter**, im linken Navigationsbereich wechseln Sie zur **Audiokonferenz**, und klicken Sie dann auf **Microsoft-Brücke**.
     
-4. Wählen Sie eine Telefonnummer aus der Liste aus, klicken Sie im Aktionsbereich auf **Sprachen festlegen** und dann auf der Seite **Sprachen festlegen** auf die Liste **Primäre Sprache**. In dieser Liste werden alle unterstützten Sprachen angezeigt.
+4. Wählen Sie eine Telefonnummer aus der Liste aus, klicken Sie im Aktionsbereich auf **Sprachen festgelegt** , und klicken Sie dann auf der Seite **festlegen Sprachen** auf der Verwendung der Liste der **primären Sprache** , um die vollständige Liste der unterstützten Sprachen anzuzeigen.
     
-    Außerdem können Sie die primären und sekundären Sprachen festlegen, die unterstützt werden, wenn Sie Microsoft als Audiokonferenzanbieter auswählen. Die Reihenfolge, in der Sie Ihre Auswahl in den Dropdownlisten treffen, entspricht der Reihenfolge, in der die Sprachen Anrufern genannt werden.
+    Sie können auch die primären und sekundären Sprachen festlegen, die unterstützt werden, wenn Sie Microsoft als Anbieter von Audiokonferenzen auswählen. Die Reihenfolge, die Sie in den Listen auswählen ist der gleichen Reihenfolge, in der Sprachen zu den Anrufern dargestellt werden.
     
-Siehe [Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen](set-auto-attendant-languages-for-audio-conferencing.md).
+Finden Sie unter [Festlegen von automatischen Telefonzentralen Sprachen für Audiokonferenzen](set-auto-attendant-languages-for-audio-conferencing.md).
   
-## Anzeigen von Einwahlnummern für Audiokonferenzen
+## <a name="see-audio-conferencing-dial-in-numbers"></a>Finden Sie unter Einwahlnummern Audiokonferenzen
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz) > **Microsoft Bridge**. Hier haben Sie folgende Möglichkeiten:
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Microsoft-Brücke**. Hier können Sie:
     
-  - Zeigen Sie die Telefonnummern an, die von Office 365 zur Verwendung für Audiokonferenzen festgelegt werden. 
+  - Zeigen Sie die Telefonnummern, die vom Office 365 festgelegt werden, für die Audiokonferenz verwendet werden soll. 
     
-  - Zeigen Sie den Standort sowie die primären und sekundären Sprachen an, die von der automatischen Telefonzentrale für Audiokonferenzen verwendet werden.
+  - Lesen Sie den Speicherort und der primären und sekundären Sprachen, die von der automatischen Telefonzentrale Audiokonferenzen verwendet werden.
     
-  - Wählen Sie die Standardtelefonnummer aus, die Benutzer erhalten, wenn sie für Audiokonferenzen aktiviert werden. Wenn jedoch die Standardtelefonnummer für die Audiokonferenzbrücke geändert wird, ändert sich die Standardtelefonnummer für vorhandene Benutzer nicht.
+  - Wählen Sie die Standardrufnummer, die Benutzern gewährt wird, wenn sie für Audiokonferenzen aktiviert sind. Jedoch wird nicht die Standardrufnummer über die audiokonferenzbrücke geändert wird, die Standardrufnummer für vorhandene Benutzer ändern.
     
-Sie können unter **Audio conferencing** (Audiokonferenz) > **Benutzer** die Eigenschaften des Benutzers auswählen und die Standardtelefonnummer für einen Benutzer ändern. Wählen Sie dazu eine neue Nummer aus der Liste der für Ihre Organisation verfügbaren Telefonnummern aus.
+Sie können wechseln Sie zur **Audiokonferenz** > **Benutzer** und wählen Sie die Eigenschaften des Benutzers ändern des Standard für einen Benutzer Zahlenformatvorlage wählen Sie eine neue Nummer aus der Liste von Zahlen, die in Ihrer Organisation zur Verfügung stehen.
   
-Siehe [Anzeigen einer Liste mit Einwahlnummern für Einwahlkonferenzen](see-a-list-of-audio-conferencing-numbers.md).
+Finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers.md).
   
-## Anzeigen einer Liste der aktivierten Benutzer
+## <a name="see-a-list-of-users-that-are-enabled"></a>Anzeigen einer Liste der Benutzer, die aktiviert sind
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz) und dann zu **Benutzer**.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen**> und anschließend **Benutzer**.
     
-Siehe [Anzeigen einer Liste der Benutzer, die für Einwahlkonferenzen aktiviert sind](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
+Sehen Sie [eine Liste von Benutzern, die für Audiokonferenzen aktiviert sind](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
   
-## Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Sie können verschiedene Einstellungen auf Organisationsebene mithilfe von Windows PowerShell verwalten. Dies erleichtert das Anwenden von Einstellungen auf alle Ihre Benutzer. Es gibt folgende Einstellungen auf Organisationsebene:
+Es gibt mehrere Einstellungen, die auf Organisationsebene mithilfe von Windows PowerShell verwaltet werden können. Dies vereinfacht die Einstellungen gelten für alle Benutzer. 
     
-    Weitere Hilfe zu den einzelnen Cmdlets finden Sie unter [Skype for Business Online-Cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).
-    
+Wenn Sie weitere Hilfe auf jedes Cmdlet erhalten möchten, finden Sie unter [Skype für Business Online Cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).
+
+Hier sind die Einstellungen auf Organisationsebene: 
 > 
+- **Eintrag/Exit Benachrichtigungen festlegen** Der Standardwert ist _$true_.
   ```
-  Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 
   ```
 
-    Der Standardwert ist  _$true_.
-    
-> 
+- **Festlegen von Namen Aufzeichnung** Der Standardwert ist _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
-    Der Standardwert ist  _$true_.
-    
-> 
+- **Festlegen der PIN-Länge** Der Standardwert ist 5.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
-    Der Standardwert beträgt 5.
-    
-> 
+- **Festlegen von nur Einwahl Besprechungen über ein Telefon** Die standardmäßige _$false_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
-    Der Standardwert ist  _$false_.
-    
-> 
+- **Festlegen, ob e-Mail an Benutzer senden** Der Standardwert ist _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    Der Standardwert ist  _$true_.
-    
-> 
+- **Festlegen, ob e-Mail von einem anderen Konto gesendet** Der Standardwert ist _$false_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
-    Der Standardwert ist  _$false_.
-    
-> 
+- **Festlegen der Absenderadresse auf e-Mail, die an Benutzer gesendet wird** Der Standardwert ist _$null_an. 
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
-    Der Standardwert ist  _$null_.
-    
-> 
+- **Festlegen der Anzeigename für die e-Mail, die an Benutzer gesendet wird** Der Standardwert ist _$null_an.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
-    Der Standardwert ist  _$null_.
+ ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie wissen, Weitere Informationen zu Windows PowerShell   
+- Windows PowerShell ist alles über das Verwalten von Benutzern und welche Benutzer zugelassen oder Aktionen nicht zulässig sind. Mit Windows PowerShell können Sie eine zentrale Verwaltung Ihrer täglichen Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen, die mit Office 365 verwalten. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
-    
-  - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum müssen Sie mithilfe von Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell bietet gegenüber der alleinigen Verwendung des Office 365 Admin Center unzählige Vorteile in Bezug auf Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. In den folgenden Themen erfahren Sie mehr über diese Vorteile: 
+- Windows PowerShell hat viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität über nur über das Office 365 Administrationscenter, beispielsweise wenn Sie Einstellungen Änderungen für viele Benutzer gleichzeitig durchführen. Informationen Sie zu dieser Vorteile in den folgenden Themen: 
     
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Eine Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -398,9 +392,9 @@ Siehe [Anzeigen einer Liste der Benutzer, die für Einwahlkonferenzen aktiviert 
     
     Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
     
-## Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
-#### Weitere Ressourcen
+[Verwalten der Audiokonferenz Einstellungen für einen Benutzer](manage-the-audio-conferencing-settings-for-a-user.md)
 
-[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)
 

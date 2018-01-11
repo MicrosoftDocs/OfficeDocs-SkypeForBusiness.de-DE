@@ -1,36 +1,46 @@
 ---
-title: "Phone Number Management für Deutschland"
+title: "Telefon Nummer Management für Deutschland"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 62077251-f24e-4a43-95a2-67a2dc54e9de
-description: "Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwalten von Telefonnummern in Deutschland für Skype für Business Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Telefonnummern in Deutschland für Skype für Business Online erhalten."
+ms.openlocfilehash: 7f09d30a59d289bec814601deb9965979586e861
+ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/02/2018
 ---
+# <a name="phone-number-management-for-germany"></a>Telefon Nummer Management für Deutschland
 
-# Phone Number Management für Deutschland
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
+Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Telefonnummern in Deutschland für Skype für Business Online erhalten. 
   
-Mithilfe dieser Tabelle finden Informationen zum Abrufen und Verwalten von Telefonnummern in Deutschland für Skype für Business Online.
+Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
-Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
-  
-|**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
+|**Was möchten Sie tun?**|**Laden Sie die richtige Formulare**|
 |:-----|:-----|
-|Neue Telefonnummern für Benutzer beziehen  <br/> | In Deutschland zugreifen nicht Sie Telefonnummern für Ihre Organisation mithilfe der Skype für Business Administrationscenter. Sie müssen eine neue Nummer Telefon-Anforderung senden. Laden Sie eines der folgenden Formate: <br/> [Abrufen von neuen Telefonnummern in Deutschland (En-US)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Germany %28Geographic numbers%29 (v.2) (en.US).pdf) <br/> [Abrufen von neuen Telefonnummern in Deutschland (de-DE)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Germany %28Geographic numbers%29 (v.3) (de.DE).pdf) <br/>  Füllen Sie das Formular aus, und[senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
-|Sie möchten Telefonnummern zu uns übertragen.  <br/> | Laden Sie eines dieser Formulare herunter: <br/> [Buchstaben des Autorisierung (LOA) für Deutschland (geografischen Zahlen) (v.1.0) (En-US)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Germany (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [Buchstaben des Autorisierung (LOA) für Deutschland (geografischen Zahlen) (v.1.0) (de-DE)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Germany (Geographic numbers) (v.1.0) (de-DE).pdf) <br/>  Füllen Sie das Formular aus, und[senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
-|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
-|Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com ) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Rufen Sie neue Benutzer Rufnummern.  <br/> | In Deutschland kann nicht für Ihre Organisation die Skype für Business Administrationscenter mit Telefonnummern abgerufen werden. Sie müssen eine neue Nummer Telefon-Anforderung einreichen. Laden Sie eines der folgenden Form: <br/> [Neue Nummer Telefon-Anforderung für Deutschland (v.2)(en-US)](../../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [Neue Nummer Telefon-Anforderung für Deutschland (v.3)(de-DE)](../../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3)-(de.de).pdf) <br/>  Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com).  <br/> |
+|Sie müssen Telefonnummern für uns übertragen möchten.  <br/> | Laden Sie eines der folgenden Form: <br/> [Buchstaben des Autorisierung (Geladene) für Deutschland (geografische Zahlen) (v.1.0) (En-US)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> [Buchstaben des Autorisierung (Geladene) für Deutschland (geografische Zahlen) (v.1.0) (de-DE)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/>  Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com).  <br/> |
+|Sie müssen veröffentlichen/Telefonnummern im Telefonverzeichnis national Aufheben der Veröffentlichung.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) die Liste von Telefonnummern, den, die Sie veröffentlichen/deren Veröffentlichung Sie aufheben möchten. <br/> |
+|Sie müssen eines Benutzers Zahl in eine Zahl Dienst zu ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com ) die Liste der Benutzer Zahlen, den, die Sie in Dienst Zahlen konvertieren möchten. <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Verwandte Themen
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
+[Telefonnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization.md)
+
+[Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 

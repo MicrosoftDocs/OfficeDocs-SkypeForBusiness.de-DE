@@ -1,111 +1,114 @@
 ---
-title: "Warum habe ich Probleme bei der Eingabe von Adressinformationen für Adressen außerhalb der USA?"
+title: "Warum habe ich Probleme beim Eingeben von Großbritannien Adressinformationen?"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
-ms.prod: office-online-server
-localization_priority: Normal
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
-description: "Hier finden Sie einige hilfreiche Hinweise dazu, warum Sie Probleme bei der korrekten Validierung von Adressen in Großbritannien (Vereinigtes Königreich, UK) haben könnten."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.CivicAddressGBSyntaxError
+ms.custom: Calling Plans
+description: "Hier sind einige Gründe, warum Sie Ihre-Adressen in Großbritannien (Großbritannien) ordnungsgemäß validiert Probleme beim werden können."
+ms.openlocfilehash: 7752a6d0f1ff802b8b54ec70f8d51ba1a7f286ea
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Warum habe ich Probleme beim Eingeben von Großbritannien Adressinformationen?
 
-# Warum habe ich Probleme bei der Eingabe von Adressinformationen für Adressen außerhalb der USA?
+Hier sind einige Gründe, warum Sie Ihre-Adressen in Großbritannien (Großbritannien) ordnungsgemäß validiert Probleme beim werden können.
+  
+## <a name="whats-wrong-with-the-company-name"></a>Was ist mit den Namen des Unternehmens falsch?
 
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
+Wenn Sie ein Problem eingeben den Namen des Unternehmens haben, denken Sie daran:
   
-Hier finden Sie einige hilfreiche Hinweise dazu, warum Sie Probleme bei der korrekten Validierung von Adressen in Großbritannien (Vereinigtes Königreich, UK) haben könnten.
-  
-## Wo liegt der Fehler beim Unternehmensnamen?
-
-Wenn Sie Probleme bei der Eingabe des Unternehmensnamens haben, beachten Sie Folgendes:
-  
-- Er darf Buchstaben, Zahlen und die folgenden Sonderzeichen enthalten: , / - + - ' &amp; " _ 
+- Es kann Buchstaben, Zahlen und Sonderzeichen aufweisen:, / - +. ' &amp; " _ 
     
     > [!CAUTION]
-    > Wenn Sie sich in Großbritannien (Großbritannien) kann nicht den Namen des Unternehmens haben das Pluszeichen. 
+    > Kann nicht in Großbritannien (Großbritannien), den Namen des Unternehmens haben die Pluszeichen. 
   
-- Er darf maximal 80 Zeichen lang sein.
+- Dies ist nur 80 Zeichen lang sein oder weniger.
     
-- Er darf nicht mit einem Sonderzeichen beginnen. 
+- Es kann nicht mit einem Sonderzeichen gestartet.
     
-## Wo liegt der Fehler bei der Hausnummer?
+## <a name="whats-wrong-with-the-house-number"></a>Was ist falsch an die Hausnummer?
 
-Wenn Sie Probleme bei der Eingabe der Hausnummer haben, beachten Sie Folgendes:
+Wenn Sie ein Problem eingeben die Hausnummer haben, denken Sie daran:
   
-- Sie darf Buchstaben, Zahlen und die folgenden Sonderzeichen enthalten: - / [ ]
+- Es kann Buchstaben, Zahlen und Sonderzeichen aufweisen:-/]
     
-- Sie muss mit einer Zahl beginnen.
+- Dies ist nur mit einer Zahl beginnen.
     
-- Sie darf maximal 20 Zeichen lang sein.
+- Dies ist nur 20 Zeichen lang sein oder weniger.
     
-- Sie darf einen Groß- oder Kleinbuchstaben enthalten.
+- Es kann einen Großbuchstaben oder Kleinbuchstaben haben.
     
-## Wo liegt der Fehler beim Hausnamen?
+## <a name="whats-wrong-with-the-house-name"></a>Was ist mit dem Namen House falsch?
 
-Wenn Sie Probleme bei der Eingabe des Hausnamens haben, beachten Sie Folgendes:
+Wenn Sie einem Problem mit der Eingabe des Namens House haben, denken Sie daran:
   
-- Er darf Buchstaben, Zahlen und die folgenden Sonderzeichen enthalten: , / - + . ' &amp; " _
+- Es kann Buchstaben, Zahlen und Sonderzeichen aufweisen:, / - +. ' &amp; " _
     
-- Er darf maximal 50 Zeichen lang sein.
+- Dies ist nur 50 Zeichen lang sein oder weniger.
     
-- Er darf nicht mit einem Sonderzeichen beginnen.
+- Es kann nicht mit einem Sonderzeichen gestartet.
     
-## Wo liegt der Fehler beim Straßennamen?
+## <a name="whats-wrong-with-the-street-name"></a>Was ist mit der Straßenname falsch?
 
-Wenn Sie Probleme bei der Eingabe des Straßennamens haben, beachten Sie Folgendes:
+Wenn Sie ein Problem eingeben der Straßenname haben, denken Sie daran:
   
-- Er darf Buchstaben, Zahlen und die folgenden Sonderzeichen enthalten: , / - + . ' &amp; " _ 
+- Es kann Buchstaben, Zahlen und Sonderzeichen aufweisen:, / - +. ' &amp; " _ 
     
-- Er darf maximal 50 Zeichen lang sein.
+- Dies ist nur 50 Zeichen lang sein oder weniger.
     
-- Er darf nicht mit einem Sonderzeichen beginnen. 
+- Es kann nicht mit einem Sonderzeichen gestartet. 
     
-## Wo liegt der Fehler bei der Stadt bzw. dem Ort?
+## <a name="whats-wrong-with-the-city-or-town"></a>Was ist mit der Stadt oder Ort falsch?
 
-Wenn Sie Probleme bei der Eingabe des Namens der Stadt oder des Orts haben, beachten Sie Folgendes:
+Wenn Sie ein Problem eingeben den Namen der Stadt oder Ort haben, denken Sie daran:
   
-- Er darf Buchstaben, Zahlen und die folgenden Sonderzeichen enthalten: , / - + . ' &amp; " _
+- Es kann Buchstaben, Zahlen und Sonderzeichen aufweisen:, / - +. ' &amp; " _
     
-- Er darf maximal 50 Zeichen lang sein.
+- Dies ist nur 50 Zeichen lang sein oder weniger.
     
-- Er darf nicht mit einem Sonderzeichen beginnen. 
+- Es kann nicht mit einem Sonderzeichen gestartet. 
     
-## Wo liegt der Fehler bei der Postleitzahl?
+## <a name="whats-wrong-with-the-postal-code"></a>Was ist falsch an die Postleitzahl?
 
-Wenn Sie Probleme bei der Eingabe der Postleitzahl haben, beachten Sie Folgendes:
+Wenn Sie ein Problem, das die Postleitzahl eingeben haben, denken Sie daran:
   
-- Sie darf nur aus Buchstaben, Zahlen oder Leerzeichen bestehen.
+- Es kann nur Buchstaben, Zahlen oder Leerzeichen aufweisen.
     
-- Sie darf bis zu acht Buchstaben, Zahlen und Leerzeichen enthalten.
+- Es muss maximal 8 Buchstaben, Zahlen und Leerzeichen aufweisen.
     
-- **Beachten Sie, dass Sie für das Vereinigte Königreich (UK) eines der folgenden Formate für Postleitzahlen verwenden** **müssen**. Dabei gilt: Buchstabe A = Buchstabe A-Z, Zeichen # = Zahl von 0-9 und _ (Unterstrich) = Leerzeichen. Einige Beispiele sind:
+- **, Die Denken Sie daran, wenn Sie in Großbritannien (Großbritannien) sind**, **müssen** Sie die Postleitzahl in einem der folgenden Formate, platzieren, in dem der Buchstabe A = Zeichen A-Z, das Zeichen # = eine Zahl zwischen 0-9 und _ (Unterstrich) = ein Leerzeichen. Es folgen einige Beispiele:
     
 |**Format**|**Beispiel**|
 |:-----|:-----|
-|AA#A_#AA  <br/> |EC3B 2BD  <br/> |
-|A#A_#AA  <br/> |E1W 1AP  <br/> |
-|A#_#AA  <br/> |F1 2AG  <br/> |
-|A##_#AA  <br/> |C44 8HT  <br/> |
-|AA#_#AA  <br/> |DR3 6HG  <br/> |
-|AA##_#AA  <br/> |FN35 1TH  <br/> |
-   
-## 
-<a name="MT_Footer"> </a>
+|AA #A_ #AA  <br/> |EC3B 2BD  <br/> |
+|EIN #A_ #AA  <br/> |E1W 1AP  <br/> |
+|EIN #_ #AA  <br/> |F1 2AG  <br/> |
+|EINE ## _ #AA  <br/> |C44 8HT  <br/> |
+|AA #_ #AA  <br/> |DR3 6HG  <br/> |
+|AA ## _ #AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-## Siehe auch
-<a name="MT_Footer"> </a>
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### Weitere Ressourcen
+   
+## <a name="related-topics"></a>Verwandte Themen
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)

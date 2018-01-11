@@ -1,22 +1,28 @@
 ---
-title: "Aktivieren und Verwenden des Anrufqualitäts-Dashboards für Microsoft Teams und Skype for Business Online"
+title: "Aktivieren und verwenden Qualität Dashboards aufrufen"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 11/17/2017
-ms.audience: Admin
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.ToolsCallQualityDashboard
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
-description: "See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.ToolsCallQualityDashboard
+ms.custom: Setup
+description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
+ms.openlocfilehash: a3838906532aad5d583ddc786e85516c7b78cf01
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
-
-# Aktivieren und Verwenden des Anrufqualitäts-Dashboards für Microsoft Teams und Skype for Business Online
+# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
 
 Hier erfahren Sie, wie Sie Ihre Office 365-Organisation konfigurieren können, um das Anrufqualitäts-Dashboard zur Überwachung der Anrufqualität zu verwenden.
   
@@ -25,7 +31,7 @@ Mit dem Anrufqualitäts-Dashboard (AQD) für Microsoft Teams und Skype for Busin
 > [!NOTE]
 > Die detaillierten CQD-Berichte sind derzeit als technische Vorschau für alle Kunden verfügbar. 
   
-## Aktuelle Änderungen und Updates
+## <a name="latest-changes-and-updates"></a>Aktuelle Änderungen und Updates
 
 Dies sind die neuesten Änderungen am AQD:
   
@@ -33,12 +39,12 @@ Dies sind die neuesten Änderungen am AQD:
     
 - Zusammenfassungsberichte enthalten einen Produktfilter, mit dem Sie alle Daten, Microsoft Teams-Daten oder Skype for Business Online-Daten auswählen können.
     
-In diesem Artikel finden Sie eine Liste der [Dimensionen und Measures anrufen Qualitätsdashboard für Microsoft Teams und Skype für Business Online zur Verfügung](dimensions-and-measures-available-in-call-quality-dashboard-for-microsoft-teams.md).
+Finden Sie in diesem Artikel finden Sie eine Liste von [Dimensionen und Measures in Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verfügbar](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> Informationen zu Updates und Änderungen am Dashboard erhalten Sie, wenn Sie auf dem Dashboard auf **Gute Neuigkeiten!** klicken. Sie können auch zum[Anrufqualitäts-Dashboard](https://aka.ms/CQDOnline) gehen.
+> Informationen zu Updates und Änderungen an das Dashboard kann gefunden werden, indem Sie auf **daran!** im Dashboard. Navigieren Sie zu [Anrufqualität Dashboard](https://aka.ms/CQDOnline). 
   
-## Aktivieren von Zusammenfassungsberichten des Microsoft-Anrufqualitäts-Dashboards (AQD)
+## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Aktivieren von Zusammenfassungsberichten des Microsoft-Anrufqualitäts-Dashboards (AQD)
 
 Bevor Sie mit der Verwendung des AQD beginnen können, müssen Sie es für Ihre Office 365-Organisation aktivieren.
   
@@ -59,8 +65,8 @@ Sobald Sie sich angemeldet und die Aktivierung vorgenommen haben, beginnt das AQ
 > [!NOTE]
 > Es kann einige Stunden dauern, bis genügend Daten verarbeitet worden sind, um in den Berichten aussagekräftige Ergebnisse anzuzeigen. 
   
-## Funktionen des Anrufqualitäts-Dashboards für Skype for Business Online
-<a name="BKMK_FeaturesOfTheCQD"> </a>
+## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Funktionen des Anrufqualitäts-Dashboards für Skype for Business Online
+<a name="BKMKFeaturesOfTheCQD"> </a>
 
 CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detaillierte Berichte geplant sind. Die Unterschiede zwischen den zwei Versionen werden hier zusammengefasst:
   
@@ -79,11 +85,11 @@ CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detailli
 |Verfügbare Datenmenge  <br/> |Letzte 6 Monate  <br/> |Letzte 6 Monate  <br/> |
 |Microsoft Teams-Daten  <br/> |Ja  <br/> |Ja  <br/> |
    
-### Sofort einsatzbereite Berichte
+### <a name="out-of-the-box-reports"></a>Sofort einsatzbereite Berichte
 
 Beide Versionen des AQD sind sofort einsatzbereit. So erhalten Sie Kennzahlen zur Anrufqualität, ohne neue Berichte erstellen zu müssen. Sobald Daten im Back-End verarbeitet wurden, können Sie die Daten zur Anrufqualität in den Berichten einsehen.
   
-### Übersichtsberichte
+### <a name="overview-reports"></a>Übersichtsberichte
 
 Beide Versionen von CQD bieten einen hervorragenden Einstiegspunkt in Bezug auf die Informationen zur allgemeinen Anrufqualität. Jedoch unterscheidet sich die Art der Darstellung der Informationen in den Zusammenfassungsberichten und den detaillierten Berichten.
   
@@ -99,13 +105,13 @@ Die vier Registerkarten umfassen:
     
 - **SLA zur Sprachqualität** - Bietet Informationen zu den Anrufen, die im SLA zur Sprachqualität für Skype for Business Online enthalten sind.
     
-### Registerkarte „Gesamtanrufqualität"
+### <a name="overall-call-quality-tab"></a>Registerkarte „Gesamtanrufqualität"
 
 Verwenden Sie die Daten auf dieser Registerkarte, um den Status und die Trends der Anrufqualität auszuwerten, indem Sie sich die Anzahl der Datenströme und die Prozentzahlen zu Anrufen mit schlechter Qualität ansehen. Die Legende oben rechts zeigt an, welche Farbe und welche visuellen Elemente diese Kennzahlen darstellen.
   
 ![CQD Data key](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Datenströme werden in drei Gruppen klassifiziert: „Gut", „Schlecht" und „Nicht klassifiziert". Es werden auch Werte für  *% Schlecht*  berechnet. Damit erhalten Sie den Anteil der Datenströme, die als *Schlecht*  klassifiziert wurden, im Vergleich zur Gesamtzahl der klassifizierten Datenströme. Da *% Schlecht*  sich aus *% Schlecht = Schlechte Datenströme / (Schlechte Datenströme + Gute Datenströme) * 100*  berechnet, ändert sich dieser Wert nicht, auch wenn mehrere *nicht klassifizierte*  Datenströme vorhanden sind. Weitere Informationen zur Basis für die Klassifizierung eines Datenstroms als „schlecht" oder „gut" finden Sie unter[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds). 
+Datenströme werden in drei Gruppen unterteilt: gut, schlecht und nicht klassifizierte. Es werden auch berechnet, geben Sie das Verhältnis von Datenströmen als klassifiziert Werte für *unzureichende %* * schlecht *, um die Anzahl der insgesamt geschützte Stream. Da *schlechter % = schlecht Datenströme / (schlechter Datenströme + gute Streams) * 100* , auf diese Weise werden die *schlechter %* durch die Anwesenheit mit mehreren *Unclassified* Strömen nicht betroffen. Was für die Klassifizierung eines Stream-Objekts als schlecht oder eine gute verwendet wird finden Sie unter [Qualität Schwellenwerte aufrufen](https://aka.ms/cqd_quality_thresholds).
   
 Verwenden Sie die Skala links, um die Werte für die Anrufanzahl zu ermitteln.
   
@@ -124,7 +130,7 @@ Sie erhalten auch die tatsächlichen numerischen Werte, indem Sie mit der Maus �
   
 Das gesamte Datenstromvolumen ist ein wichtiger Faktor bei der Bestimmung der Relevanz der berechneten Prozentsätze für die Klassifizierung „Schlecht". Je kleiner das Volumen des gesamten Datenstroms ist, desto unzuverlässiger sind die im Bericht enthaltenen Werte für die Klassifizierung „Schlecht".
   
-### Registerkarten „Server-Client" und „Client-Client"
+### <a name="server-client-tab-and-client-client-tabs"></a>Registerkarten „Server-Client" und „Client-Client"
 
 Diese zwei Registerkarten bieten zusätzliche Details für die Datenströme, die in ihren entsprechenden Endpunkt-zu-Endpunkt-Szenarien aufgetreten sind. Beide Registerkarten haben vier reduzierbare Bereiche, die vier Szenarien darstellen, in denen die Medienströme sich bewegen würden.
   
@@ -136,19 +142,19 @@ Diese zwei Registerkarten bieten zusätzliche Details für die Datenströme, die
     
 - Außen WLAN
     
-#### Innentest
+#### <a name="inside-test"></a>Innentest
 
 Bei der Verarbeitung klassifiziert das AQD-Back-End einen Datenstrom als  *Innen*  oder *Außen*  anhand von Gebäudeinformationen, falls diese vorhanden sind. Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. Falls das Subnetz in der Liste der Subnetze in den hochgeladenen Gebäudeinformationen enthalten ist, gilt dieses als „Innen". Falls die Gebäudeinformationen noch nicht hochgeladen wurden, wird der Innentest die Datenströme stets als *Außen*  klassifizieren. Beachten Sie, dass beim Innentest für das Server-Client-Szenario nur der Clientendpunkt berücksichtigt wird. Da sich Server aus der Perspektive des Benutzers stets außerhalb befinden, werden sie beim Test nicht berücksichtigt.
   
-#### Verkabelt oder WLAN
+#### <a name="wired-vs-wifi"></a>Verkabelt oder WLAN
 
 Wie es der Name bereits besagt, handelt es sich hier um das Klassifizierungskriterium basierend auf der Art der Clientverbindungen. Um es noch einmal zu verdeutlichen: Ein Server ist immer verkabelt und wird nicht in die Berechnung einbezogen.
   
 > [!NOTE]
 > Wenn wir von einem Datenstrom ausgehen und einer der beiden Endpunkte mit einem WLAN verbunden ist, wird er im AQD als WLAN klassifiziert. 
   
-## Auswählen der Produktdaten, die in Berichten angezeigt werden sollen
-<a name="BKMK_FeaturesOfTheCQD"> </a>
+## <a name="selecting-product-data-to-see-in-reports"></a>Auswählen der Produktdaten, die in Berichten angezeigt werden sollen
+<a name="BKMKFeaturesOfTheCQD"> </a>
 
 In den Zusammenfassungsberichten und erweiterten Standortberichten können Sie mithilfe der Dropdownliste **Produktfilter** alle Produktdaten, nur Microsoft Teams-Daten oder nur Skype for Business Online-Daten anzeigen.
   
@@ -156,8 +162,8 @@ In den Zusammenfassungsberichten und erweiterten Standortberichten können Sie m
   
 In detaillierten Berichten können Sie beim Definieren des Berichts die Daten mithilfe der Microsoft Teams-Dimension nach Microsoft Teams- oder Skype for Business Online-Daten filtern.
   
-## Hochladen von Gebäudeinformationen
-<a name="BKMK_FeaturesOfTheCQD"> </a>
+## <a name="upload-building-information"></a>Hochladen von Gebäudeinformationen
+<a name="BKMKFeaturesOfTheCQD"> </a>
 
 Das Dashboard für AQD-Zusammenfassungsberichte enthält die Seite **Upload von Mandantendaten**, auf die Sie zugreifen können, indem Sie rechts oben im Einstellungsmenü die Option **Upload von Mandantendaten** auswählen. Diese Seite wird von Administratoren zum Hochladen ihrer eigenen Informationen verwendet, wie z. B. Zuordnung von IP-Adressen und geografischen Informationen, Zuordnung der einzelnen Funkzugriffspunkte und ihrer MAC-Adressen usw.
   
@@ -187,8 +193,8 @@ Das Dashboard für AQD-Zusammenfassungsberichte enthält die Seite **Upload von 
     
      ![CQD My Uploads table](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### Dateiformat der Mandantendaten und Dateistruktur der Gebäudedaten
-<a name="BKMK_TenantDataFile"> </a>
+### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Dateiformat der Mandantendaten und Dateistruktur der Gebäudedaten
+<a name="BKMKTenantDataFile"> </a>
 
 Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um die Validierungsprüfung vor dem Hochladen zu bestehen.
   
@@ -205,14 +211,14 @@ Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um
 |**Spaltenname**|**Datentyp**|**Beispiel**|
 |:-----|:-----|:-----|
 |Netzwerk  <br/> |Zeichenfolge  <br/> |192.168.1.0  <br/> |
-|NetworkName  <br/> |Zeichenfolge  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
+|Netzwerkname  <br/> |Zeichenfolge  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
 |NetworkRange  <br/> |Zahl  <br/> |26  <br/> |
 |BuildingName  <br/> |Zeichenfolge  <br/> |SEATTLE-SEA-1  <br/> |
 |OwnershipType  <br/> |Zeichenfolge  <br/> |Contoso  <br/> |
 |BuildingType  <br/> |Zeichenfolge  <br/> |IT Termination  <br/> |
 |BuildingOfficeType  <br/> |Zeichenfolge  <br/> |Engineering  <br/> |
 |Ort  <br/> |Zeichenfolge  <br/> |Seattle  <br/> |
-|ZipCode  <br/> |Zeichenfolge  <br/> |98001  <br/> |
+|Postleitzahl  <br/> |Zeichenfolge  <br/> |98001  <br/> |
 |Land  <br/> |Zeichenfolge  <br/> |USA  <br/> |
 |Bundesland  <br/> |Zeichenfolge  <br/> |WA  <br/> |
 |Region  <br/> |Zeichenfolge  <br/> |MSUS  <br/> |
@@ -220,10 +226,10 @@ Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um
 |ExpressRoute  <br/> |Bool  <br/> |0  <br/> |
    
 > [!IMPORTANT]
-> Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. > Bestimmte VPN-Implementierungen melden die Subnetzinformationen nicht präzise. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich). 
+> Der Netzwerkbereich kann zur Darstellung einer Supernetting (Kombination aus mehreren Subnetzen mit einem einzelnen routing Präfix) verwendet werden. Grenzen Sie überlappende Bereiche werden alle neuen Erstellen von Uploads überprüft werden soll. Wenn Sie eine Datei zum Erstellen von zuvor hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um eine beliebige überlappt identifizieren und beheben Sie das Problem, bevor Sie erneut hochladen. Alle Überlappung in zuvor hochgeladenen Dateien möglicherweise falschen Zuordnungen von Subnetzen zu Gebäude in den Berichten. Bestimmte VPN-Implementierungen meldet nicht genau die Subnetzinformationen. Empfiehlt es sich, die beim Hinzufügen einer VPN-Subnetz in der Datei zum Erstellen von anstelle eines Eintrags für das Subnetz werden separate Einträge für jede Adresse in das VPN-Subnetz als ein separates 32-Bit-Netzwerk hinzugefügt. Jede Zeile kann die gleiche Erstellen von Metadaten haben. Statt eine Zeile für 172.16.18.0/24, sollten Sie beispielsweise 256 Zeilen, mit einer Zeile für jeden Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32, inklusive verfügen. 
   
-## Auswählen eines Medientyps in detaillierten Berichten
-<a name="BKMK_FeaturesOfTheCQD"> </a>
+## <a name="selecting-media-type-in-detailed-reports"></a>Auswählen eines Medientyps in detaillierten Berichten
+<a name="BKMKFeaturesOfTheCQD"> </a>
 
 Mit detaillierten Berichten können die Qualität und die Medienzuverlässigkeit von Medientypen für Audio, Video, Anwendungsfreigabe und videobasierte Bildschirmübertragung ermittelt werden. Die für einen Medientyp spezifischen Dimensionen, Kennzahlen und Filter weisen das Präfix „Audio", „Video", „AppSharing" oder „VBSS" auf.
   
@@ -232,5 +238,10 @@ Mit detaillierten Berichten können die Qualität und die Medienzuverlässigkeit
 Wenn Sie die Dimensionen und Kennzahlen für einen einzelnen Medientyp anzeigen möchten, müssen Sie möglicherweise die neue MediaType-Dimension sowie den neuen MediaType-Filter verwenden. Beispiel: Wenn ein Bericht die Gesamtzahl aller Sitzungen für verschiedene Medientypen enthalten soll, müssen Sie die MediaType-Dimension einbeziehen.
   
 ![Call Quality Dashboard Total Stream Count.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
-  
 
+## <a name="related-topics"></a>Verwandte Themen
+[Einrichten von Skype für BA aufrufen](set-up-call-analytics.md)
+
+[Verwenden Sie Analytics rufen Sie für die Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[Unterschied zwischen Anruf Analytics und Anrufqualität Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)

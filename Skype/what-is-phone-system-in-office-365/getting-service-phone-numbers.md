@@ -1,45 +1,57 @@
 ---
-title: "Abrufen von Skype for Business-Leistungsnummern"
+title: Erste Service-Rufnummern
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
-
-description: "Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Einwahlkonferenzen (für Konferenzbrücken) und automatische Telefonzentralen - so genannte Leistungsnummern - suchen und anfordern. Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Leistungsnummern eine höhere Kapazität für gleichzeitige Anrufe. Beispiel: Eine Leistungsnummer kann Hunderte von Anrufen gleichzeitig verarbeiten, wohingegen eine Benutzertelefonnummer nur einige wenige Anrufe gleichzeitig verarbeiten kann."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "Sie können zusätzlich zum Abrufen von Telefonnummern für Ihre Benutzer aus Office 365, suchen und erwerben gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für die Konferenzbrücken), automatischen Telefonzentralen und Anruf Warteschlangen (auch als Dienst Zahlen bezeichnet). Telefonnummern Service haben eine höhere aufrufende belasten als Benutzer oder den Teilnehmerzugriff Rufnummern."
+ms.openlocfilehash: a2d4319f1d2b7714a228e0a16c391ec769e9b88b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="getting-service-phone-numbers"></a>Erste Service-Rufnummern
 
-# Abrufen von Skype for Business-Leistungsnummern
-
-Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Einwahlkonferenzen (für Konferenzbrücken) und automatische Telefonzentralen - so genannte Leistungsnummern - suchen und anfordern. Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Leistungsnummern eine höhere Kapazität für gleichzeitige Anrufe. Beispiel: Eine Leistungsnummer kann Hunderte von Anrufen gleichzeitig verarbeiten, wohingegen eine Benutzertelefonnummer nur einige wenige Anrufe gleichzeitig verarbeiten kann.
+Sie können zusätzlich zum Abrufen von Telefonnummern für Ihre Benutzer aus Office 365, suchen und erwerben gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für die Konferenzbrücken), automatischen Telefonzentralen und Anruf Warteschlangen (auch als Dienst Zahlen bezeichnet). Telefonnummern Service haben eine höhere aufrufende belasten als Benutzer oder den Teilnehmerzugriff Rufnummern. Beispielsweise kann eine Zahl Service 100 s Anrufe gleichzeitig während die Telefonnummer des Benutzers nur ein paar Anrufe gleichzeitig verarbeitet werden kann.
   
-> [!IMPORTANT]
-> Sie müssen zunächst die Funktion „PSTN-Verbrauch" konfigurieren, bevor Sie gebührenfreie Nummern anfordern. 
+> [!NOTE]
+> Office 365 Communications haben muss, um die gebührenfreie Nummern erwerben zuerst festgelegt werden. Finden Sie unter [Einrichten von Communications haben für Ihre Organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md). 
   
-Sie haben zwei Möglichkeiten, Leistungsnummern zwecks Verwendung in Skype for Business abzurufen: 
+Ihnen stehen zwei Arten der erste Service Zahlen, damit Sie sie mit Skype für Unternehmen und die Microsoft-Teams verwenden können:
   
-- Abrufen neuer Telefonnummern aus Office 365 und Skype for Business.
+- Holen Sie neue Rufnummern, die von Office 365.
     
-- Portieren oder Übertragen Ihrer vorhandenen Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber
+- Port oder Ihre vorhandenen Zahlen von Ihrem Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen.
     
     > [!NOTE]
-    > Beim Übertragen von Leistungsnummern sollten Sie sich unbedingt an den [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) wenden, um sicherzustellen, dass die höhere Kapazität für gleichzeitige Anrufe berücksichtigt und ordnungsgemäß konfiguriert wird.
+    > Bei der Übertragung von Ihrem Dienst Zahlen wird dringend empfohlen, wenden Sie sich an [Microsoft support](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) , um sicherzustellen, dass die höhere aufrufende belasten berücksichtigt und ordnungsgemäß konfiguriert ist.
   
-## Abrufen von neuen Leistungsnummern
+## <a name="get-new-service-numbers"></a>Abrufen von neuen Leistungsnummern
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern** > **Hinzufügen**, und klicken Sie auf **Neue Leistungsnummern**.
+3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Telefonnummern** > **Hinzufügen neue Nummer**, und klicken Sie dann auf **neue Dienst Nummern**.
     
-    **WICHTIG**: Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
+    > [!IMPORTANT] 
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. Verwenden Sie auf der Seite **Neue Leistungsnummern hinzufügen** die Dropdownlisten, um Folgendes auszuwählen:
+4. Wählen Sie auf der Seite **neue Service-Nummern hinzufügen** Folgendes ein:
     
   - **Land/Region**
     
@@ -47,46 +59,27 @@ Sie haben zwei Möglichkeiten, Leistungsnummern zwecks Verwendung in Skype for B
     
   - **Ort**
     
-5. Geben Sie unter **Menge** die Anzahl der Telefonnummern ein, die Sie für Ihre Organisation benötigen, und klicken Sie auf **Hinzufügen**, um eine Reservierung zu erstellen. Sie haben 10 Minuten Zeit, um Ihre Telefonnummern auszuwählen. Wenn Sie länger als 10 Minuten brauchen, werden die Telefonnummern wieder an den Telefonnummernpool zurückgegeben.
+5. Geben Sie unter **Menge**die Anzahl der Rufnummern, dass Sie für Ihre Organisation verwenden möchten, und klicken Sie auf **Hinzufügen** , um eine Reservierung zu erstellen. Sie müssen 10 Minuten, um Ihre Rufnummern auszuwählen. Wenn Sie mehr als 10 Minuten in Anspruch nehmen, werden die Telefonnummern in den Pool von Telefonnummern zurückgegeben.
     
     > [!NOTE]
-    > Sie können die Anzahl der Telefonnummern sehen, die auf der Anzahl der Lizenzen neben **Benutzernummern insgesamt, die Sie erhalten können** basiert.
+    > Sie können die Anzahl von Rufnummern, die auf die Anzahl der Lizenzen, neben aufgeführten basiert finden Sie unter **Total Service können Zahlen erwerben**. Weitere Informationen hierzu finden Sie unter [wie viele Rufnummern erhalten Sie?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
   
-6. Sie können auf **Nummern anzeigen** klicken, um eine vollständige Liste der Telefonnummern aufzurufen. Das ist nützlich, wenn Sie keine bestimmte Telefonnummer aus der Liste auswählen möchten.
+6. Klicken Sie auf **Anzeigen von Zahlen** , um die vollständige Liste der Rufnummern finden Sie unter. Dies ist hilfreich, wenn Sie nicht, wählen eine bestimmte Rufnummer in der Liste möchten.
     
-7. Wählen Sie die gewünschten Telefonnummern aus und klicken Sie auf **Acquire numbers** (Nummern erwerben).
+7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Abrufen von Rufnummern**.
     
-### Zuweisen von Leistungsnummern
+### <a name="assign-service-numbers"></a>Zuweisen von Leistungsnummern
 
-Sobald Sie Ihre Leistungsnummern erhalten haben, können diese Nummern zu einer Einwahlkonferenzbrücke zugewiesen werden. Informationen zu diesem Verfahren finden Sie unter [Ändern der gebührenpflichtigen oder gebührenfreien Telefonnummern in Ihrer Audiokonferenzbrücke](../audio-conferencing-in-office-365/change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md).
+Nachdem Sie die Rufnummern Service haben, können sie dann eine audiokonferenzbrücke zugewiesen werden. Hierzu finden Sie unter [Ändern der gebührenpflichtige oder gebührenfreie Nummern für die Audiokonferenz-Brücke](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
   
-### Portieren oder Übertragen von vorhandenen Leistungsnummern
+### <a name="port-or-transfer-existing-service-numbers"></a>Portieren oder Übertragen von vorhandenen Leistungsnummern
 
-Wenn Sie Leistungsnummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber übertragen möchten, müssen Sie eine Anforderung für einen Portierungsauftrag manuell an Microsoft übermitteln. Sie müssen separate Portierungsaufträge für jeden Leistungsnummerntyp (gebührenpflichtig oder gebührenfrei) übermitteln, den Sie mit einem Genehmigungsschreiben (Letter of Authorization; LOA) übermitteln. Im Genehmigungsschreiben (Letter of Authorization; LOA) müssen Sie den richtigen Leistungsnummerntyp auswählen. Wenn Sie sich an den Microsoft-Support wenden, geben Sie an, dass Sie eine Leistungsnummer übertragen ( *und keine Benutzer- oder Abonnentennummer*  ) oder dass die Kapazität für gleichzeitige Anrufe für das Anrufvolumen nicht ausreicht. Weitere Informationen zur Übermittlung einer Anforderung für einen Portierungsauftrag finden Sie unter[Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage](../what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request.md).
-  
-## Erweitern, um zu sehen, wie viele Telefonnummern Sie erhalten können?
+Wenn Sie Service Zahlen aus Ihrem aktuellen Dienstanbieter oder Netzbetreiber übertragen möchten, müssen Sie manuell eine Port Reihenfolge an Microsoft zu senden. Sie müssen separate Port Aufträge für jede Art von Service-Nummer (gebührenpflichtige oder gebührenfreie) senden, dass Sie mit Buchstaben der Autorisierung (Geladene) übertragen werden soll. In den Buchstaben der Autorisierung (Geladene), müssen Sie den richtigen Zahlentyp Dienst auswählen. Wenn Sie Microsoft-Supportmitarbeiter kontaktieren, stellen Sie sicher, dass Sie angeben, dass Sie beim Übertragen einer Service-Nummer (*und keine Benutzer oder den Teilnehmerzugriff Zahl*) oder die aufrufende belasten möglicherweise nicht ausreichend Anrufaufkommen behandeln. Weiterleiten von Telefonnummern oder andere Aktionen mit Ihrer Rufnummern, finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-Wenn Sie Telefonnummern für Ihre Organisation reservieren möchten, kann die Anzahl der reservierten Telefonnummern die Anzahl der zugewiesenen Lizenzen übersteigen. Dies richtet sich jedoch nach der Art der Telefonnummern und der Art der Lizenzen, die Sie gekauft haben und die Ihnen zugewiesen wurden.
-  
-Sie können die Telefonnummern, die Sie erhalten können, auf der Seite **Telefonnummern** im Skype for Business Admin Center sehen, oder Sie können den das Cmdlet[Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx) ausführen.
-  
-> [!IMPORTANT]
-> Die Beschränkungen unten beinhalten nicht die Telefonnummern, die Sie an Microsoft portiert oder übertragen haben. 
-  
-||||
-|:-----|:-----|:-----|
-|**Art der Telefonnummern** <br/> |**Wie reservieren Sie alle Telefonnummern?** <br/> |**Nachfolgend ein Beispiel** <br/> |
-|Nummer des Benutzers (Abonnenten)  <br/> |Die Anzahl der Telefonnummern entspricht der Gesamtanzahl der Lizenzen für einen  *Inland + In- und Ausland*  -Sprachtarif multipliziert mit 1,1 + 10 zusätzliche Telefonnummern. <br/> |Bei insgesamt 50 Benutzern mit einem Inland- und In- und Ausland-Sprachtarif können Sie **65** Telefonnummern **(50 x 1,1 + 10)** reservieren. <br/> |
-|Gebührenpflichtige Leistungsnummer  <br/> | Die Anzahl der Telefonnummern entspricht der Gesamtanzahl der *Cloud PBX + PSTN-Konferenzen*  -Lizenzen. Folgende Zuordnung wird vorgenommen: <br/>  Wenn Sie über **1-25 Lizenzen** verfügen, werden **5** Telefonnummern zugeteilt. <br/>  Wenn Sie über **26-49 Lizenzen** verfügen, werden **10** Telefonnummern zugeteilt. <br/>  Wenn Sie über **50-99 Lizenzen** verfügen, werden **20** Telefonnummern zugeteilt. <br/>  Wenn Sie über **100-149 Lizenzen** verfügen, werden **30** Telefonnummern zugeteilt. <br/>  Wenn Sie über **150-199 Lizenzen** verfügen, werden **40** Telefonnummern zugeteilt. <br/>  Wenn Sie über **200-499 Lizenzen** verfügen, werden **65** Telefonnummern zugeteilt. <br/>  Wenn Sie über **500-749 Lizenzen** verfügen, werden **90** Telefonnummern zugeteilt. <br/>  Wenn Sie über **750-999 Lizenzen** verfügen, werden **110** Telefonnummern zugeteilt. <br/>  Wenn Sie über **1.000-1.249 Lizenzen** verfügen, werden **125** Telefonnummern zugeteilt. <br/>  Wenn Sie über **1.250-1.499 Lizenzen** verfügen, werden **135** Telefonnummern zugeteilt. <br/>  Wenn Sie über **1.500-1.999 Lizenzen** verfügen, werden **160** Telefonnummern zugeteilt. <br/>  Wenn Sie über **2.000-2.999 Lizenzen** verfügen, werden **210** Telefonnummern zugeteilt. <br/>  Wenn Sie über **3.000-6.999 Lizenzen** verfügen, werden **420** Telefonnummern zugeteilt. <br/>  Wenn Sie über **7.000-9.999 Lizenzen** verfügen, werden **500** Telefonnummern zugeteilt. <br/>  Wenn Sie über **10.000-14.999 Lizenzen** verfügen, werden **600** Telefonnummern zugeteilt. <br/>  Wenn Sie über **15.000-19.999 Lizenzen** verfügen, werden **700** Telefonnummern zugeteilt. <br/>  Wenn Sie über **20.000-49.999 Lizenzen** verfügen, werden **1000** Telefonnummern zugeteilt. <br/>  Wenn Sie über **mehr als 50.000 Lizenzen** verfügen, werden **1.500** Telefonnummern zugeteilt. <br/> |Wenn Sie insgesamt über **51** Lizenzen für Cloud-PBX- und PSTN-Konferenzen verfügen, können Sie **20** gebührenpflichtige Leistungsnummern reservieren. <br/> |
-|Gebührenfreie Leistungsnummer  <br/> | Die Anzahl der Telefonnummern entspricht der Gesamtanzahl der *Cloud PBX + PSTN-Konferenzen*  -Lizenzen. Folgende Zuordnung wird vorgenommen: <br/>  Wenn Sie über **1-25 Lizenzen** verfügen, werden **5** Telefonnummern zugeteilt. <br/>  Wenn Sie über **26-49 Lizenzen** verfügen, werden **10** Telefonnummern zugeteilt. <br/>  Wenn Sie über **50-99 Lizenzen** verfügen, werden **20** Telefonnummern zugeteilt. <br/>  Wenn Sie über **100-149 Lizenzen** verfügen, werden **30** Telefonnummern zugeteilt. <br/>  Wenn Sie über **150-199 Lizenzen** verfügen, werden **40** Telefonnummern zugeteilt. <br/>  Wenn Sie über **200-499 Lizenzen** verfügen, werden **65** Telefonnummern zugeteilt. <br/>  Wenn Sie über **500-749 Lizenzen** verfügen, werden **90** Telefonnummern zugeteilt. <br/>  Wenn Sie über **750-999 Lizenzen** verfügen, werden **110** Telefonnummern zugeteilt. <br/>  Wenn Sie über **1.000-1.249 Lizenzen** verfügen, werden **125** Telefonnummern zugeteilt. <br/>  Wenn Sie über **1.250-1.499 Lizenzen** verfügen, werden **135** Telefonnummern zugeteilt. <br/>  Wenn Sie über **1.500-1.999 Lizenzen** verfügen, werden **160** Telefonnummern zugeteilt. <br/>  Wenn Sie über **2.000-2.999 Lizenzen** verfügen, werden **210** Telefonnummern zugeteilt. <br/>  Wenn Sie über **3.000-6.999 Lizenzen** verfügen, werden **420** Telefonnummern zugeteilt. <br/>  Wenn Sie über **7.000-9.999 Lizenzen** verfügen, werden **500** Telefonnummern zugeteilt. <br/>  Wenn Sie über **10.000-14.999 Lizenzen** verfügen, werden **600** Telefonnummern zugeteilt. <br/>  Wenn Sie über **15.000-19.999 Lizenzen** verfügen, werden **700** Telefonnummern zugeteilt. <br/>  Wenn Sie über **20.000-49.999 Lizenzen** verfügen, werden **1000** Telefonnummern zugeteilt. <br/>  Wenn Sie über **mehr als 50.000 Lizenzen** verfügen, werden **1.500** Telefonnummern zugeteilt. <br/> |Wenn Sie insgesamt über **1.001** Lizenzen für Cloud-PBX- und PSTN-Konferenzen verfügen, können Sie **125** gebührenfreie Leistungsnummern reservieren. <br/> > [!IMPORTANT]> [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md) ist für die Reservierung und Verwendung von gebührenfreien Telefonnummern erforderlich.          |
-   
 > [!NOTE]
-> Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte - Admin-Hilfe](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
-## Verwandte Themen
+## <a name="related-topics"></a>Verwandte Themen
+[Hier ist das Ergebnis in das Telefonsystem in Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Nutzungsbedingungen für Notrufe](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-
+[Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

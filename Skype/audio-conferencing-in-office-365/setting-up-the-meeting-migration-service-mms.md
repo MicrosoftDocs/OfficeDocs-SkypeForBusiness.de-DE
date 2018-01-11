@@ -1,18 +1,30 @@
 ---
-title: "Einrichten des Meeting Migration Service (MMS)"
+title: Einrichten des Meeting Migration Service (MMS)
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/25/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 031f09c0-9d2a-487a-b6db-b5d4bed6d16a
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
 description: "Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren."
+ms.openlocfilehash: 66cfd8ef0c11aa481e095b406f0dd1264b611b61
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
-
-# Einrichten des Meeting Migration Service (MMS)
+# <a name="setting-up-the-meeting-migration-service-mms"></a>Einrichten des Meeting Migration Service (MMS)
 
 Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.
   
@@ -22,7 +34,7 @@ Für MMS müssen sich die Postfächer der Besprechungsorganisatoren in Exchange 
   
  **Primäre Szenarien**
   
-MMS aktualisiert Skype-Besprechungen für einen Benutzer in den folgenden beiden primären Szenarien: 
+MMS aktualisiert Skype-Besprechungen für einen Benutzer in den folgenden beiden primären Szenarien:
   
 - Der Benutzer wird von einer lokalen Skype for Business Server-Instanz zu Skype for Business Online migriert.
     
@@ -38,11 +50,11 @@ Im Folgenden werden einige häufige Szenarien vorgestellt, die auf Sie zutreffen
     
 - Migrieren von Benutzern von Skype for Business Online zu einem lokalen Skype-Server
     
-## Aktualisieren von Besprechungen, wenn ein lokaler Benutzer zu Skype for Business Online migriert wird
+## <a name="updating-meetings-when-an-on-premises-user-is-migrated-to-skype-for-business-online"></a>Aktualisieren von Besprechungen, wenn ein lokaler Benutzer zu Skype for Business Online migriert wird
 
 Dies ist das häufigste Szenario, in dem MMS dazu beitragen kann, dass die Umstellung für Ihre Benutzer reibungslos verläuft. Wenn ein Benutzer von einer lokalen Skype for Business Server-Instanz zu Skype for Business Online migriert wird, erkennt MMS den neuen Benutzer und scannt den Kalender des Benutzers nach Skype for Business- und Microsoft Teams-Besprechungen. Alle zukünftigen Besprechungen werden mit den neuen Informationen für diesen Benutzer aktualisiert.
   
-### Wenn Sie zurzeit Skype Server 2015 für Audiokonferenzen verwenden
+### <a name="if-youre-currently-using-skype-server-2015-for-audio-conferencing"></a>Wenn Sie zurzeit Skype Server 2015 für Audiokonferenzen verwenden
 
 Es wird empfohlen, den bewährten Methoden unten zu folgen, um in diesem Szenario größtmögliche Benutzerfreundlichkeit bei Verwendung von MMS zu erreichen:
   
@@ -50,7 +62,7 @@ Es wird empfohlen, den bewährten Methoden unten zu folgen, um in diesem Szenari
     
 - Weisen Sie dem Benutzer die Lizenz für **Audiokonferenzen** zu, bevor Sie das `Move-CSUser`-Cmdlet zum Migrieren des Benutzers ausführen. Der Grund ist, dass MMS Besprechungen auch aktualisiert, wenn Audiokonferenzeinstellungen für einen Benutzer geändert werden. Wenn Sie die Lizenz nicht zuerst zuweisen, aktualisiert MMS alle Besprechungen erneut, nachdem Sie die Lizenz zugewiesen haben.
     
-### Wenn Sie derzeit einen externen Audiokonferenzanbieter (ACP) verwenden
+### <a name="if-youre-currently-using-a-third-party-audio-conferencing-provider-acp"></a>Wenn Sie derzeit einen externen Audiokonferenzanbieter (ACP) verwenden
 
 Im Fall eines Drittanbieter-ACP hängt es von den Audiokonferenzeinstellungen Ihrer Organisation ab, ob MMS ausgeführt wird oder nicht. Sie können wählen, die Einwahlnummern von Ihrem ACP automatisch zu ersetzen, wenn Sie einem Benutzer eine Lizenz für **Audiokonferenzen** zuweisen. Andererseits müssen Sie dies möglicherweise verhindern und die Einwahlnummern Ihres ACP beibehalten. Um die Einstellung Ihrer Organisation anzuzeigen, führen Sie den folgenden Windows PowerShell-Befehl aus, und überprüfen Sie den Wert des Parameters `AutomaticallyReplaceAcpProvider`. Wenn Sie Hilfe mit PowerShell benötigen, finden Sie weitere Informationen im Abschnitt [Verwenden von PowerShell zum Verwalten der Skype for Business-Organisation](setting-up-the-meeting-migration-service-mms.md#WPSInfo) am Ende dieses Artikels.
   
@@ -62,7 +74,7 @@ Get-CsOnlineDialInConferencingTenantSettings
     
 - Wenn der Wert dieses Parameters $false lautet, aktualisiert MMS die Besprechungen nicht, selbst wenn einem Benutzer eine Lizenz für **Audiokonferenzen** zugewiesen wird. Die Einwahlnummern von Ihrem ACP werden beibehalten, bis der Benutzer im Skype for Business Admin Center oder über Windows PowerShell manuell für Audiokonferenzen bereitgestellt wird.
     
-## Aktualisieren von Besprechungen, wenn sich die Audiokonferenzeinstellungen eines Benutzers ändern
+## <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>Aktualisieren von Besprechungen, wenn sich die Audiokonferenzeinstellungen eines Benutzers ändern
 
 MMS aktualisiert die vorhandenen Skype for Business- und Microsoft Teams-Besprechungen in den folgenden Fällen:
   
@@ -74,10 +86,10 @@ MMS aktualisiert die vorhandenen Skype for Business- und Microsoft Teams-Besprec
     
 - Wenn Sie den Benutzer zu einer neuen Audiokonferenzbrücke verschieben
     
-- Wenn die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wird. Dies ist ein komplexes Szenario, für das zusätzliche Schritte erforderlich sind. Weitere Informationen finden Sie unter [Ändern der gebührenpflichtigen oder gebührenfreien Telefonnummern in Ihrer Audiokonferenzbrücke](change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md).
+- Wenn die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wird. Dies ist ein komplexes Szenario, für das zusätzliche Schritte erforderlich sind. Weitere Informationen finden Sie unter [Ändern der gebührenpflichtigen oder gebührenfreien Telefonnummern in Ihrer Audiokonferenzbrücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
     
 > [!IMPORTANT]
-> MMS aktualisiert Besprechungen nur, wenn Sie die Microsoft-Brücke verwenden. Wenn Sie einen Drittanbieter für Audiokonferenzen verwenden, müssen die Benutzer ihre Besprechungen manuell aktualisieren. In diesem Fall können Sie [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) verwenden.
+> MMS aktualisiert Besprechungen nur, wenn Sie die Microsoft-Brücke verwenden. Wenn Sie einen Drittanbieter für Audiokonferenzen verwenden, müssen die Benutzer ihre Besprechungen manuell aktualisieren. In diesem Fall können Sie [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) verwenden. 
   
 Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen MMS aus. Insbesondere die folgenden beiden Änderungen führen nicht dazu, dass MMS Besprechungen aktualisiert:
   
@@ -85,7 +97,7 @@ Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen
     
 - Ändern der Besprechungs-URL Ihrer Organisation anhand des Befehls [Update-CsTenantMeetingUrl](https://go.microsoft.com/fwlink/p/?linkid=836442).
     
-## Was geschieht, wenn MMS Besprechungen aktualisiert?
+## <a name="what-happens-when-mms-updates-meetings"></a>Was geschieht, wenn MMS Besprechungen aktualisiert?
 
 Wenn MMS feststellt, dass die Besprechungen eines Benutzers aktualisiert werden müssen, werden folgende Schritte ausgeführt:
   
@@ -107,7 +119,7 @@ Wie lange es dauert, bis MMS die Besprechungen migriert hat, hängt davon ab, wi
   
 - Es werden nur die Skype for Business- oder Microsoft Teams-Besprechungen migriert, die durch Klicken auf die Schaltfläche **Skype-Besprechung hinzufügen** in Outlook im Web oder über das Skype-Besprechungs-Add-In für Outlook geplant wurden. Wenn ein Benutzer also die Informationen einer Skype-Onlinebesprechung von einer Besprechung in eine neue Besprechung kopiert, wird diese neue Besprechung nicht aktualisiert.
     
-- MMS ersetzt alles im Informationsblock für die Onlinebesprechung, wenn eine Besprechung migriert wird. Wenn daher ein Benutzer diesen Block bearbeitet hat, werden seine Änderungen überschrieben. Alle Inhalte, die sich in den Besprechungsdetails außerhalb des Informationsblocks der Onlinebesprechung befinden, sind nicht betroffen. 
+- MMS ersetzt alles im Informationsblock für die Onlinebesprechung, wenn eine Besprechung migriert wird. Wenn daher ein Benutzer diesen Block bearbeitet hat, werden seine Änderungen überschrieben. Alle Inhalte, die sich in den Besprechungsdetails außerhalb des Informationsblocks der Onlinebesprechung befinden, sind nicht betroffen.
     
      ![The meeting block that gets updated by MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
   
@@ -115,19 +127,19 @@ Wie lange es dauert, bis MMS die Besprechungen migriert hat, hängt davon ab, wi
     
 - Der Link zu freigegebenen Besprechungsnotizen im Kalenderelement und von innerhalb der Skype-Besprechung wird ebenfalls überschrieben. Beachten Sie, dass die in OneNote gespeicherten Besprechungsnotizen selbst noch vorhanden sind; nur der Link zu den freigegebenen Notizen wird überschrieben.
     
-- Besprechungen mit mehr als 250 Teilnehmern (einschließlich des Organisators) werden nicht migriert. 
+- Besprechungen mit mehr als 250 Teilnehmern (einschließlich des Organisators) werden nicht migriert.
     
 - Einige Unicode-Zeichen im Text der Einladung werden möglicherweise fälschlich in eines der folgenden Sonderzeichen aktualisiert: ï, ¿, ½, �.
     
-### Was sehen die Benutzer, wenn MMS ihre Besprechungen aktualisiert?
+### <a name="what-will-the-users-see-when-mms-updates-their-meetings"></a>Was sehen die Benutzer, wenn MMS ihre Besprechungen aktualisiert?
 
 Wie Meeting Migration Tool sendet auch MMS Besprechungsaktualisierungen im Namen der Benutzer. Das Einzige, was Ihre Benutzer daher sehen, ist eine weitere Runde Besprechungszusagebenachrichtungen für ihre Besprechungen. Das kann für die Benutzer verwirrend sein. Daher empfehlen wir, Ihre Benutzer im Voraus nicht nur über den Zeitpunkt der Migration von der lokalen Version zu Skype for Business Online zu informieren, sondern auch, wenn Sie die Audiokonferenzänderungen vornehmen, die MMS auslösen.
   
-## Verwalten von MMS
+## <a name="managing-mms"></a>Verwalten von MMS
 
 Sie müssen Windows PowerShell verwenden, um MMS zu verwalten und den Status von laufenden Migrationen zu prüfen. Bei den Informationen in diesem Abschnitt wird davon ausgegangen, dass Sie mit der Nutzung von PowerShell zur Verwaltung Ihrer Skype for Business-Organisation vertraut sind. Wenn Sie neu bei PowerShell sind, finden Sie weitere Informationen im Abschnitt [Verwenden von PowerShell zum Verwalten der Skype for Business-Organisation](setting-up-the-meeting-migration-service-mms.md#WPSInfo) am Ende dieses Artikels.
   
-### Wie prüfe ich den Status von Besprechungsmigrationen?
+### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>Wie prüfe ich den Status von Besprechungsmigrationen?
 
 Sie verwenden das  `Get-CsMeetingMigrationStatus`-Cmdlet, um den Status von Besprechungsmigrationen zu prüfen. Unten sind einige Beispiele aufgeführt.
   
@@ -139,9 +151,9 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 Damit erhalten Sie eine Übersicht in Tabellenformat aller Migrationsstatus wie im folgenden Beispiel:
   
-State UserCount----- ---------Pending 21InProgress 6Failed 2Succeeded 131
+State UserCount---<br/> Ausstehende 21<br/>In Bearbeitung 6<br/> Fehlerhafte 2 <br/> Erfolgreiche 131
 > [!IMPORTANT]
-> Wenn Sie fehlgeschlagene Migrationen sehen, ergreifen Sie die nötigen Schritte, um diese Probleme so bald wie möglich zu beheben. Die Teilnehmer können sich nicht bei den von diesen Benutzern organisierten Besprechungen einwählen, bis Sie die Probleme behoben haben. Weitere Informationen finden Sie im Abschnitt [Was tue ich, wenn ein Fehler auftritt?](setting-up-the-meeting-migration-service-mms.md#Troubleshooting). 
+> Wenn Sie fehlgeschlagene Migrationen sehen, ergreifen Sie die nötigen Schritte, um diese Probleme so bald wie möglich zu beheben. Die Teilnehmer können sich nicht bei den von diesen Benutzern organisierten Besprechungen einwählen, bis Sie die Probleme behoben haben. Weitere Informationen finden Sie im Abschnitt [Was tue ich, wenn ein Fehler auftritt?](setting-up-the-meeting-migration-service-mms.md#Troubleshooting).
   
 Um umfassende Details aller Migrationen innerhalb eines bestimmten Zeitraums anzuzeigen, können Sie die Parameter  `StartTime` und `EndTime` verwenden. Der folgende Befehl gibt zum Beispiel alle Einzelheiten aller Migrationen zurück, die vom 1. Oktober 2016 bis zum 8. Oktober 2016 stattgefunden haben.
   
@@ -155,7 +167,7 @@ Wenn Sie den Status der Migration für einen bestimmten Benutzer prüfen möchte
 Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
 ```
 
-### Was tue ich, wenn ein Fehler auftritt?
+### <a name="what-do-i-do-if-there-is-an-error"></a>Was tue ich, wenn ein Fehler auftritt?
 <a name="Troubleshooting"> </a>
 
 Wenn Sie das  `Get-CsMeetingMigrationStatus`-Cmdlet ausführen, um eine Übersicht zu erhalten, und feststellen, dass Migrationen im Status Fehlervorhanden sind, müssen Sie folgendermaßen vorgehen:
@@ -174,7 +186,7 @@ Wenn Sie das  `Get-CsMeetingMigrationStatus`-Cmdlet ausführen, um eine Übersic
     
   - [Wenden Sie sich an den Support](https://go.microsoft.com/fwlink/p/?LinkID=518322).
     
-### Aktivieren und Deaktivieren von MMS
+### <a name="enabling-and-disabling-mms"></a>Aktivieren und Deaktivieren von MMS
 <a name="Troubleshooting"> </a>
 
 MMS ist standardmäßig für alle Organisationen aktiviert, kann aber bei Bedarf deaktiviert werden. Wenn Sie z. B. alle Besprechungen manuell migrieren möchten oder einen Drittanbieter für Audiokonferenzen verwenden, ist die Ausführung von MMS nicht erforderlich. Sie können auch wählen, MMS vorübergehend zu deaktivieren. Beispiel: Sie nehmen größere Änderungen an den Audiokonferenzeinstellungen für Ihre Organisation vor, und MMS soll erst ausgeführt werden, wenn alle Änderungen abgeschlossen sind.
@@ -197,7 +209,7 @@ Führen Sie zum Aktivieren von MMS den folgenden Befehl aus:
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $true
 ```
 
-### Aktivieren und Deaktivieren von MMS nur für Audiokonferenzänderungen
+### <a name="enabling-and-disabling-mms-only-for-audio-conferencing-changes"></a>Aktivieren und Deaktivieren von MMS nur für Audiokonferenzänderungen
 <a name="Troubleshooting"> </a>
 
 Sie können MMS auch nur für Audiokonferenzänderungen deaktivieren. MMS wird nach wie vor ausgeführt, wenn ein Benutzer von der lokalen Skype for Business-Version zu Skype for Business Online migriert wird. Um den aktuellen MMS-Status für Audiokonferenzaktualisierungen zu überprüfen, führen Sie den folgenden Befehl aus, und überprüfen Sie den Wert für den Parameter  `AutomaticallyMigrateUserMeetings`. Wenn dieser Parameter auf $true festgelegt ist, ist für MMS festgelegt, dass die Benutzerbesprechungen bei Änderungen an Audiokonferenzeinstellungen aktualisiert werden.
@@ -218,7 +230,7 @@ Führen Sie zum Aktivieren von MMS für Audiokonferenzen den folgenden Befehl au
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $true
 ```
 
-### Wie führe ich die Besprechungsmigration manuell für Benutzer aus?
+### <a name="how-do-i-run-meeting-migration-manually-for-a-user"></a>Wie führe ich die Besprechungsmigration manuell für Benutzer aus?
 <a name="Troubleshooting"> </a>
 
 Neben den automatischen Besprechungsmigrationen können Sie die Besprechungsmigration manuell für einen Benutzer ausführen, indem Sie das **Start-CsExMeetingMigration** -Cmdlet ausführen. Dieses Cmdlet fügt den Benutzer in der Besprechungsmigrations-Warteschlange hinzu. Meeting Migration Service liest die Benutzeranforderung und migriert die zugehörigen Besprechungen. Den Status der Besprechungsmigration können Sie mit dem **Get-CsMeetingMigrationStatus** -Cmdlet überprüfen.
@@ -229,12 +241,12 @@ Hier ist ein Beispiel, in dem die Besprechungsmigration für den Benutzer ashaw@
 Start-CsExMeetingMigration -Identity ashaw@contoso.com
 ```
 
-## Verwenden von PowerShell zum Verwalten der Skype for Business-Organisation
+## <a name="using-powershell-to-manage-your-skype-for-business-organization"></a>Verwenden von PowerShell zum Verwalten der Skype for Business-Organisation
 <a name="WPSInfo"> </a>
 
  **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
   
-1. Zum Überprüfen, ob Version 3.0 oder höher ausgeführt wird, gehen Sie wie folgt vor: Klicken Sie im Startmenü **** auf **Windows PowerShell**.
+1. Um sicherzustellen, dass Sie Version 3.0 oder höher ausgeführt werden: **Im Menü Start** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster **Windows PowerShell** die Zeichenfolge _Get-Host_ eingeben.
     
@@ -242,11 +254,11 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
     
 4. Sie müssen auch das Windows PowerShell-Modul für Skype for Business Online installieren, mit dem Sie eine Windows PowerShell-Remotesitzung erstellen können, die eine Verbindung mit Skype for Business Online herstellt. Dieses Modul, das nur auf 64-Bit-Computern unterstützt wird, kann aus dem Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden. Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
     
-Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx).
+Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
   
  **Starten einer Windows PowerShell-Sitzung**
   
-1. Wechseln Sie über das Startmenü **** zu **Windows PowerShell**.
+1. Über das **Startmenü** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
@@ -256,30 +268,17 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
 > 
   ```
   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
-
-> 
-  ```
   $credential = Get-Credential
-  ```
-
-> 
-  ```
   $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
   Import-PSSession $session
   ```
-
-Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 - In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Sechs Gründe für die Verwendung von Windows PowerShell zum Verwalten von Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum müssen Sie mithilfe von Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell verfügt im Vergleich zur ausschließlichen Verwendung des Office 365 Admin Centers über viele Vorteile in puncto Geschwindigkeit, Einfachheit und Produktivität, beispielsweise wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
@@ -287,6 +286,8 @@ Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbi
     
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
+## <a name="related-topics"></a>Verwandte Themen
 
+[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)

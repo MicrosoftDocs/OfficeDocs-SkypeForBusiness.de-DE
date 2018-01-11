@@ -3,55 +3,65 @@ title: "Bereitstellen von Telefonen für Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 11/10/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: faa17eb3-7483-4984-87f2-815d981b68ae
-description: "Learn the deployment steps to get the correct firmware, update it if needed, assign licences, and configure settings for Skype for Business online phones"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "Informationen Sie zu den Bereitstellungsschritten, um die richtige Firmware erhalten möchten, aktualisieren sie bei Bedarf, Zuweisen von Lizenzen und Konfigurieren von Einstellungen für Skype für online Business-Telefone"
+ms.openlocfilehash: c62a3512929152dabe8f9ea0e8e748d38f82f127
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
-
-# Bereitstellen von Telefonen für Skype for Business Online
+# <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
 
 Dieses Bereitstellungshandbuch soll Sie beim Bereitstellen von IP-Telefonen für Skype for Business Online unterstützen.
   
 In Unternehmen jeder Art ist eine wichtige Voraussetzung für die Geschäftstätigkeit, dass die Benutzer eine Telefonnummer besitzen, über die sie Sprachanrufe tätigen und empfangen können. Benutzer mit Telefonnummern können Sprachanrufe über alle Skype for Business-Geräte (beispielsweise IP-Telefone, PCs und mobile Geräte) tätigen. Weitere Informationen zu IP-Telefonen für Skype for Business finden Sie unter [Kauf von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md).
   
-## Bereitstellungsschritte für IP-Telefone
+## <a name="deployment-steps-for-ip-phones"></a>Bereitstellungsschritte für IP-Telefone
 
-### Schritt 1 - Herunterladen der Administratorhandbücher und Telefonhandbücher des Herstellers
+### <a name="step-1---download-the-manufacturers-administrator-guides-and-phone-manuals"></a>Schritt 1 - Herunterladen der Administratorhandbücher und Telefonhandbücher des Herstellers
 
 Bevor Sie beginnen, sollten Sie die Administratorhandbücher und Telefonhandbücher des Telefonherstellers herunterladen.
   
-- Polycom-Telefone: [Polycom-Bereitstellungshandbuch](https://support.polycom.com/PolycomService/support/us/support/voice/polycom_uc/polycom_uc_software_for_lync.mdl)
+- Telefone Polycom finden Sie unter [Polycom Bereitstellungshandbuch] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
-- Yealink-Telefone: [Yealink-HD-SIP-Telefonlösung für Skype for Business](http://www.yealink.com/solution_7.mdl).
+- Yealink-Telefone: [Yealink-HD-SIP-Telefonlösung für Skype for Business](http://www.yealink.com/products_top_2.html).
     
-- AudioCodes-Telefone: [AudioCodes-Handbuch für die Bereitstellungsverwaltung](https://www.audiocodes.com/products/ems).
+- AudioCodes-Telefone: [AudioCodes-Handbuch für die Bereitstellungsverwaltung](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
     
-### Schritt 2 - Sicherstellen, dass Sie von Skype for Business unterstützte IP-Telefone und Firmware kaufen oder migrieren
+### <a name="step-2---make-sure-youre-purchasing-or-migrating-a-skype-for-business-supported-ip-phone-and-firmware"></a>Schritt 2 - Sicherstellen, dass Sie von Skype for Business unterstützte IP-Telefone und Firmware kaufen oder migrieren
 
 Von Skype for Business Online unterstützte Telefone und Firmware sind auch mit Skype for Business Server kompatibel, umgekehrt ist dies allerdings nicht immer der Fall. Wie Sie sicherstellen, dass Sie unterstützte Telefone und Firmware kaufen oder bereitstellen, erfahren Sie unter [Kauf von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md).
   
-### Schritt 3 - Überprüfen, ob die richtige Firmware installiert ist, und gegebenenfalls Aktualisieren der Firmware
+### <a name="step-3---checking-that-the-right-firmware-is-installed-and-update-the-firmware-if-required"></a>Schritt 3 - Überprüfen, ob die richtige Firmware installiert ist, und gegebenenfalls Aktualisieren der Firmware
 
 Überprüfen Sie die Firmwareversion Ihrer Telefone:
   
-- **Polycom VVX-Telefone**: Navigieren Sie zu **Settings** (Einstellungen) > **Status** (Status) > **Platform** (Plattform) > **Application** (Anwendung) > **Main** (Hauptmenü).
+- **Polycom VVX Telefone**, navigieren Sie zur **Einstellungen** > **Status** > **Plattform** > **Anwendung** > **Main**.
     
 - **Yealink-Telefone**: Navigieren Sie auf dem Hauptbildschirm des Telefons zu **Status** (Status).
     
-- **AudioCodes-Telefone**: Navigieren Sie vom Startbildschirm aus zu **Menu** (Menü) > **Device Status** (Gerätestatus) > **Firmware version** (Firmwareversion).
+- **AudioCodes Telefone**, navigieren Sie zum **Menü** > **Gerätestatus** > **Firmwareversion** auf der Startseite.
     
     > [!NOTE]
     > Informationen zum Remotezugriff auf Telefondetails finden Sie in den Administratorhandbüchern der Hersteller. Links zu den Benutzer- und Telefonhandbüchern finden Sie weiter oben. 
   
 - **Telefone mit Lync Phone Edition (LPE)**: Navigieren Sie vom Startbildschirm aus zu **Menü** > **Systeminformationen**.
     
-### Schritt 4 - Überlegungen zu Geräteupdates
+### <a name="step-4---device-update-considerations"></a>Schritt 4 - Überlegungen zu Geräteupdates
 
 > [!NOTE]
 > Polycom-Firmware vor Version 5.5.1.X enthielt einen herstellerspezifischen Mechanismus zum Sperren von Geräten, der durch die Skype for Business-Implementierung „Telefonsperre" ersetzt wird. Beim Upgrade eines mit der „Gerätesperre" gesicherten Telefons von Version 5.4.X.X auf 5.5.1.X mit „Telefonsperre" wird der PIN-Code der „Gerätesperre" nicht vererbt, sodass das Telefon dann möglicherweise ungesichert ist. Benutzer, die die „Gerätesperre" aktiviert haben, müssen den folgenden Parameter im Polycom-Geräteprofil aktivieren, um Benutzern die Kontrolle über den Upgradezeitpunkt zu geben: „lync.deviceUpdate.popUpSK.enabled=1". 
@@ -73,15 +83,15 @@ Wahlweise können Sie Firmwareupdates auch mit einem Partnerbereitstellungssyste
 > [!CAUTION]
 > Achten Sie darauf, eine einzige Autorität für Geräteupdates (In-Band-Geräteupdate oder Bereitstellungsserver eines Drittanbieters) zu verwenden, um Updateschleifen zu verhindern. 
   
-### Schritt 5 - Konfiguration und Infrastruktureinstellungen für Telefone
+### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>Schritt 5 - Konfiguration und Infrastruktureinstellungen für Telefone
 
 Sie können die am häufigsten verwendeten Telefonoptionen und Richtlinien mithilfe von Windows PowerShell-Cmdlets für die In-Band-Verwaltung von Skype for Business einrichten. Details zu den Parametern und Einstellungen finden Sie unter [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
   
 Informationen zur Planung der Netzwerkinfrastruktur finden Sie unter [Skype Operations Framework](https://www.skypeoperationsframework.com/).
   
-### Schritt 6 - Vorbereiten der Anmeldung der Benutzer
+### <a name="step-6---preparing-for-users-to-sign-in"></a>Schritt 6 - Vorbereiten der Anmeldung der Benutzer
 
-Damit sich Benutzer erfolgreich bei einem Skype for Business Online-Telefon anmelden und Anrufe tätigen können, müssen Sie sicherstellen, dass den Benutzern die richtigen Lizenzen zugewiesen sind. Sie müssen mindestens eine Telefonsystemlizenz und einen Anrufplan zuweisen. Weitere Informationen finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) und[Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+Damit Benutzer erfolgreich anmelden, um einen Skype für Business Online Telefon und tätigen von Anrufen müssen Sie sicherstellen, dass Benutzer die richtigen Lizenzen zugewiesen sind. Zumindest müssen Sie zum Zuweisen einer Lizenz Telefonsystem und Aufrufen von planen. Weitere Informationen sehen Sie [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) und [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
 Weitere Informationen zu Anrufplänen finden Sie unter [Was sind Anrufpläne in Office 365?](../../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md).
   
@@ -104,7 +114,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter [Was sind Anrufpläne in 
     > [!NOTE]
     > PIN-Authentifizierung wird für Skype for Business Online in Verbindung mit LPE- und Partner-IP-Telefonen nicht unterstützt. 
   
-- **Verwendung eines PCs**: Wenn auf den PCs von Benutzern BToE-Software (Better Together over Ethernet) installiert und aktiviert ist, können sich die Benutzer über das Authentifizierungsfenster in ihrer Skype for Business-App für Windows bei ihrem Telefon anmelden. Weitere Informationen finden Sie unter[Schritt 7 (optional) - Wenn Sie Gerätekopplung und Better Together over Ethernet (BToE) verwenden](deploying-skype-for-business-online-phones.md#BK_BTOE).
+- **Verwenden von einem PC** Wenn Better Together over Ethernet (BToE) Software ist auf dem PC des Benutzers installiert und aktiviert, können Benutzer an ihre Telefone mithilfe des Fensters-Authentifizierung auf ihren Windows Skype für Geschäfts-App anmelden. Weitere Informationen finden Sie unter [Schritt 7 (optional) – Wenn Sie eine Kopplung Gerät und Better Together over Ethernet (BToE) verfügen](deploying-skype-for-business-online-phones.md#BK_BTOE) .
     
     > [!NOTE]
     > Die Benutzer müssen den Benutzernamen und das Kennwort der Organisation eingeben, um sich bei dem Telefon anzumelden. Für den Benutzernamen müssen sie das UPN-Format verwenden (zum Beispiel  *amosm@contoso.com*  ).
@@ -167,13 +177,13 @@ Weitere Informationen zu Anrufplänen finden Sie unter [Was sind Anrufpläne in 
 |Lokal  <br/> |Online/lokal  <br/> |Benutzername/Kennwort  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |
 |Lokal  <br/> |Online/lokal  <br/> |Anmelden über PC (BToE)  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |
    
-- **Telefonfunktionen**: Die Funktionen können sich je nach IP-Telefonpartner geringfügig unterscheiden. Eine Liste sämtlicher Funktionen und weitere Informationen zu den Funktionen der einzelnen Telefonhersteller finden Sie unter[Kauf von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md).
+- **Telefonfunktionen** Die Featuregruppe variieren etwas basierend auf der IP-Telefon Partner. Für das vollständige Feature festlegen und Weitere Informationen zu den Features für jeden Hersteller des Telefons, finden Sie unter [Getting Telefone für Skype für Business Online](getting-phones-for-skype-for-business-online.md).
     
 - Die **Telefonsperre** ist eine kürzlich eingeführte Funktion von Skype for Business-zertifizierten Telefonen, mit der Telefone gesichert werden können. Wenn die Funktion aktiviert ist, werden die Benutzer aufgefordert, nach der erfolgreichen Authentifizierung eine PIN zu erstellen. Nach der Erstellung der PIN werden die Telefone gesperrt, wenn das von Ihnen definierte Leerlauftimeout abgelaufen ist, Benutzer ihr Telefon manuell sperren oder ihre Telefonsperre über die Telefonkopplung mit ihrem PC synchronisieren. Wenn die PIN für die Telefonsperre mehrmals falsch eingegeben wird, wird der Benutzer entweder abgemeldet oder das Telefon muss mit einem Administratorcode entsperrt werden. Dies ist jedoch je nach Telefonpartner unterschiedlich. Die PIN des Benutzers muss aus 6 bis 15 Ziffern bestehen.
     
     Sie können die standardmäßig aktivierte Telefonsperre für Ihre Organisation deaktivieren, das Leerlauftimeout ändern und mithilfe von In-Band-Einstellungen auswählen, ob Benutzer trotz der Sperre Telefonanrufe tätigen können. Weitere Details zu diesen Einstellungen finden Sie unter [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
     
-## Schritt 7 (optional) - Wenn Sie Gerätekopplung und Better Together over Ethernet (BToE) verwenden
+## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Schritt 7 (optional) - Wenn Sie Gerätekopplung und Better Together over Ethernet (BToE) verwenden
 <a name="BK_BTOE"> </a>
 
 BToE ist ein Telefonkopplungsmechanismus für Partner-IP-Telefone, bei dem die Telefone der Benutzer mit ihrer Skype for Business-App für Windows gekoppelt werden. BToE bietet den Benutzern folgende Möglichkeiten:
@@ -194,15 +204,22 @@ BToE kann für den Betrieb in zwei Modi konfiguriert werden:  *Automatisch*  (St
   
 2. Laden Sie über die folgenden Links die neueste BToE-Software von der Website des entsprechenden Herstellers herunter. Sie können die Benutzerfreundlichkeit erhöhen, indem Sie die BToE-Software mit einer Administratorverteilungslösung wie System Center Configuration Manager (SCCM) verteilen und installieren. Hilfe zur Verwendung von SCCM finden Sie unter [Pakete und Programme in System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/apps/deploy-use/packages-and-programs).
     
-  - [Polycom-Downloadwebsite für BToE-Software](https://support.polycom.com/PolycomService/support/us/support/voice/polycom_uc/polycom_uc_software_for_lync.mdl)
+  - [Polycom-Downloadwebsite für BToE-Software](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
-  - [Yealink-Downloadwebsite für BToE-Software](http://www.yealink.com/solution_info.aspx?ProductsCateID=1471&amp;parentcateid=1471&amp;cateid=1471&amp;BaseInfoCateId=1328&amp;Cate_Id=1471)
+  - [Yealink-Downloadwebsite für BToE-Software](http://www.yealink.com/products_list_10.html)
     
-  - [AudioCodes-Downloadwebsite für BToE-Software](ftp://VoP-C12:IPPLync@ftp.audiocodes.com/Release/3.0.0.Beta/BToE_1.1.8/)
+  - [AudioCodes-Downloadwebsite für BToE-Software](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. Die Servereinstellung für BToE ist standardmäßig auf **Aktiviert** und **Automodus** festgelegt. Wie Sie diese Einstellungen ändern, erfahren Sie unter[Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
+3. Die Einstellung des Servers für BToE ist standardmäßig **aktiviert** und **Auto-Modus** festgelegt. Um diese Einstellungen zu ändern, finden Sie unter [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
     
 > [!NOTE]
 > BToE wird zurzeit auf Mac- und VDI-Plattformen nicht unterstützt. 
   
+## <a name="related-topics"></a>Verwandte Themen
+[Abrufen von Telefonnummern Service für Skype für Unternehmen und die Microsoft-Teams](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+[Hier ist das Ergebnis in das Telefonsystem in Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+
+[Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
 

@@ -1,77 +1,83 @@
 ---
-title: "Vergleich zwischen Audiokonferenzanbietern"
+title: Vergleichen von Audiokonferenzen
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: b0d2b50e-def3-4bd8-82d4-a27f4b6f205c
-description: "Wenn Sie Audiokonferenzen für Skype for Business und Microsoft Teams einrichten, müssen Sie einen Audiokonferenzanbieter auswählen. Sie können Microsoft oder einen Drittanbieter als Audiokonferenzanbieter auswählen."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Wenn Sie Audiokonferenzen für Skype für Unternehmen und die Microsoft-Teams, einrichten, müssen Sie einen Anbieter von Audiokonferenzen auswählen. Sie können Microsoft oder einer dritten Partei als Anbieter von Audiokonferenzen auswählen."
+ms.openlocfilehash: f46801ae58e2d7f955ee347e4bf1af9567b19b0b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="compare-audio-conferencing-providers"></a>Vergleichen von Audiokonferenzen
 
-# Vergleich zwischen Audiokonferenzanbietern
-
-Wenn Sie Audiokonferenzen für Skype for Business und Microsoft Teams einrichten, müssen Sie einen Audiokonferenzanbieter auswählen. Sie können Microsoft oder einen Drittanbieter als Audiokonferenzanbieter auswählen. 
+Wenn Sie Audiokonferenzen für Skype für Unternehmen und die Microsoft-Teams, einrichten, müssen Sie einen Anbieter von Audiokonferenzen auswählen. Sie können Microsoft oder einer dritten Partei als Anbieter von Audiokonferenzen auswählen. 
   
 > [!IMPORTANT]
-> Microsoft Teams-Benutzer können keinen Drittanbieter für Audiokonferenzen verwenden. 
+> Microsoft-Teams, Benutzer können einen Drittanbieter-Audiokonferenzen nicht verwenden. 
   
-Audiokonferenzanbieter übernehmen folgende Aufgaben: 
+Audiokonferenzen wie folgt vor: 
   
-- Bereitstellen einer  *Audiokonferenzbrücke*  . Die Konferenzbrücke legt Einwahltelefonnummern, PINs und Konferenzkennungen für Besprechungen fest.
+- Geben Sie eine *audiokonferenzbrücke*. Die Konferenzbrücke wird die Zugriffsnummer für Einwahl Telefonnummern, PINs und Konferenz-IDs für Besprechungen festgelegt.
     
-- Bereitstellen von gebührenpflichtigen, gebührenfreien und internationalen Telefonnummern, über die sich Benutzer einwählen. Die Telefonnummern sind in der Besprechungseinladung enthalten.
+- Übergeben Sie gebührenpflichtige, gebührenfreie, und internationalen Rufnummern, denen Benutzer in einwählen werden. Dies sind die Telefonnummern, die in der besprechungseinladung enthalten.
+    
+- Legen Sie die Sprache, die Benutzer hören, wenn sie in einer Besprechung einwählen.
     
 - Festlegen der Sprache, die Benutzer hören, wenn sie sich in eine Besprechung einwählen
     
-- Erstellen von Konferenz-IDs, die bei der Teilnahme an einer Besprechung verwendet werden
+- Erteilen Sie des Organisators PIN, Besprechungen über das Telefon zu starten.
     
-- Bereitstellen der PIN für den Organisator, um telefonische Besprechungen starten zu können
-    
-Vergleichen Sie anhand der folgenden Tabelle, wie sich die Entscheidung für Microsoft oder einen Drittanbieter für Audiokonferenzen auswirkt. 
+Verwenden Sie die folgende Tabelle zum Vergleichen von eigenständigen erhalten Sie bei Auswahl von Microsoft oder einem Drittanbieter-Audiokonferenz-Anbieter.
   
 ||||
 |:-----|:-----|:-----|
-|**Funktion** <br/> |**Microsoft (Office 365)** <br/> |**Extern** <br/> |
-|Einrichtung von Anbietern  <br/> |Einfach einzurichten. Die meisten Einstellungen werden automatisch festgelegt.  <br/> |Schwierig einzurichten. Erfordert manuelle Schritte.  <br/> |
-|Lizenzierung  <br/> |Eine Lizenz für **Audiokonferenzen** ist erforderlich. Siehe[Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).  <br/> |Keine Lizenz, Sie zahlen jedoch pro Benutzer.  <br/> |
-|Verwaltung  <br/> |In das Office 365 Admin Center eingebunden  <br/> |Manuelle Verwaltung mit Drittanbieter  <br/> |
-|Einrichtung von Benutzern  <br/> |Einfach  <br/> |Schwierig  <br/> |
-|Abrechnung  <br/> |Über Office 365  <br/> | Zusätzlich über den Drittanbieter <br/> |
-|Zuweisung einer Audiokonferenzbrücke  <br/> |Automatisch  <br/> |Erfordert die manuelle Eingabe der Konferenzbrücke für jeden Benutzer.  <br/> |
-|Konferenz-ID-Verwaltung  <br/> |Automatisch  <br/> |Manuell  <br/> |
-|Zurücksetzen der Konferenz-ID der Besprechung  <br/> |Ja. Siehe [Einrichten einer Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user.md).  <br/> |Ja, aber Sie müssen sie manuell eingeben.  <br/> |
+|Vergleichen Sie anhand der folgenden Tabelle, wie sich die Entscheidung für Microsoft oder einen Drittanbieter für Audiokonferenzen auswirkt. <br/> |**Funktion** <br/> |**Microsoft (Office 365)** <br/> |
+|Provider-setup  <br/> |Einfach zu konfigurieren. Die meisten Einstellungen werden automatisch.  <br/> |So richten Sie schwierig; sind manuelle Schritte erforderlich  <br/> |
+|Lizenzierung  <br/> |Ist eine **Audiokonferenz** -Lizenz erforderlich. Finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).  <br/> |Keine Lizenz, aber Sie bezahlen weiterhin pro Benutzer  <br/> |
+|Keine Lizenz, Sie zahlen jedoch pro Benutzer.  <br/> |Verwaltung  <br/> |Manuelle Management mit Drittanbieter  <br/> |
+|Benutzer-setup  <br/> |Einrichtung von Benutzern  <br/> |Einfach  <br/> |
+|Schwierig  <br/> |Über Office 365  <br/> | Zusätzliche, durch einen Drittanbieter <br/> |
+|Audiokonferenzen Bridge-Zuordnung  <br/> |Konferenz-ID-Verwaltung  <br/> |Erfordert eine manuelle Eingabe des Konferenzbrücke für alle Benutzer  <br/> |
+|Erfordert die manuelle Eingabe der Konferenzbrücke für jeden Benutzer.  <br/> |Konferenz-ID-Verwaltung  <br/> |Automatisch  <br/> |
+|Manuell  <br/> |Zurücksetzen der Konferenz-ID der Besprechung<br/> |Ja, aber es manuell eingeben  <br/> |
 |Gebührenfreie Telefonnummern  <br/> |Ja  <br/> |Ja  <br/> |
-|Gebührenpflichtige Inlandsnummern  <br/> |Ja  <br/> |Ja  <br/> |
-|Internationale, gebührenpflichtige Telefonnummern  <br/> |Ja  <br/> |Ja  <br/> |
-|Portieren von vorhandenen Telefonnummern  <br/> |Ja  <br/> |Nein  <br/> |
-|Auswählen/Rückruf - Inland  <br/> |Ja  <br/> |Ja  <br/> |
-|Auswählen/Rückruf - International  <br/> |Ja, aber nur in einigen Ländern/Regionen verfügbar. Eine Liste der unterstützten Länder/Regionen finden Sie unter [Länder und Region Verfügbarkeit für Audio - Konferenzen und Aufrufen-Pläne](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).  <br/> |Ja  <br/> |
-|Besprechungsorganisator kann sich über eine PIN authentifizieren  <br/> |Ja  <br/> |Nein  <br/> |
-|Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.  <br/> |Nein  <br/> |Nein  <br/> |
-|Seite für Besprechungseinladungen mit Standardeinwahlnummern  <br/> |Ja  <br/> |Ja  <br/> |
-|Zusätzliche Audioseite mit einer vollständigen Liste der unterstützten Einwahltelefonnummern  <br/> |Ja  <br/> |Ja  <br/> |
-|Option, externe Besprechungen ohne PIN zu starten  <br/> |Ja  <br/> |Nein  <br/> |
-|Unterstützung für mehrere Sprachen  <br/> |Ja. Siehe [Audiokonferenzanbieter unterstützte Sprachen](audio-conferencing-supported-languages.md).  <br/> |Ja  <br/> |
-|Verwalten der Sprachen für die automatische Konferenzzentrale  <br/> |Ja  <br/> |Ja  <br/> |
-|Unterstützung für mehrere Länder/Regionen  <br/> |Ja. Siehe [Länder und Region Verfügbarkeit für Audio - Konferenzen und Aufrufen-Pläne](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).  <br/> |Ja  <br/> |
-|Benutzer in der Warteschleife hören Musik, falls eine Besprechung noch nicht angefangen hat oder gesperrt wurde.  <br/> |Ja  <br/> |Nein  <br/> |
-|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer  <br/> |Ja  <br/> |Nein  <br/> |
-|Integrierte Funktionen für Skype for Business Online- oder Microsoft Teams-Benutzer zum Zurücksetzen von Konferenzkennungen und PINs für Besprechungen  <br/> |Ja  <br/> |Nein  <br/> |
-|Unterstützung privater Besprechungen mit dynamischen Konferenz-IDs  <br/> |Ja  <br/> |Nein  <br/> |
+|Ja  <br/> |Gebührenpflichtige Inlandsnummern  <br/> |Ja  <br/> |
+|Ja  <br/> |Internationale, gebührenpflichtige Telefonnummern  <br/> |Ja  <br/> |
+|Ja  <br/> |Portieren von vorhandenen Telefonnummern  <br/> |Ja  <br/> |
+|Nein  <br/> |Auswählen/Rückruf - Inland  <br/> |Ja  <br/> |
+|Ja  <br/> |Ja, aber nur einige Länder/Regionen verfügbar. Eine Liste der unterstützten Ländern/Regionen finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . <br/> |Ja  <br/> |
+|Ja  <br/> |Besprechungsorganisator kann sich über eine PIN authentifizieren  <br/> |Nein  <br/> |
+|Jeder Benutzer in der Organisation kann mit einer PIN authentifizieren.  <br/> |Nein  <br/> |Nein  <br/> |
+|Meeting-Einladung zur Seite mit Standard-Einwahl von Telefonnummern  <br/> |Ja  <br/> |Ja  <br/> |
+|Zusätzliche audio Seite mit vollständige Liste der unterstützten von Telefonnummern  <br/> |Ja  <br/> |Ja  <br/> |
+|Ja  <br/> |Option, externe Besprechungen ohne PIN zu starten  <br/> |Ja  <br/> |
+|Nein  <br/> |Ja. Finden Sie unter [Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md).  <br/> |Ja  <br/> |
+|Verwalten von Sprachen für die automatische konferenzzentrale  <br/> |Ja  <br/> |Ja  <br/> |
+|Unterstützung für mehrere Land/region  <br/> |Ja. Siehe [Ländern und Regionen Availability für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).  <br/> |Ja  <br/> |
+|Ja  <br/> |Benutzer in der Warteschleife hören Musik, falls eine Besprechung noch nicht angefangen hat oder gesperrt wurde.  <br/> |Nein  <br/> |
+|Festlegen Sie internationale Rufnummer für einen Benutzer als Standard Einwahlnummer (die in der besprechungseinladung zeigt)  <br/> |Ja  <br/> |Nein  <br/> |
+|Integrierte Funktionalität für Skype für Business Online oder Microsoft-Teams, Benutzer an die Besprechung zurücksetzen Konferenz-ID und PIN-Nummer  <br/> |Ja  <br/> |Ja  <br/> |
+|Nein  <br/> |Ja  <br/> |Nein  <br/> |
    
-Wenn Sie Microsoft als Audiokonferenzanbieter auswählen, lesen Sie auch [Problembehandlung und bekannte Probleme bei Audiokonferenzen](audio-conferencing-troubleshooting-and-known-issues.md).
+Wenn Sie Microsoft als Anbieter von Audiokonferenzen auswählen, auch finden Sie unter [Problembehandlung Audiokonferenzen und zu bekannten Problemen](audio-conferencing-troubleshooting-and-known-issues.md).
   
-## Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
-#### Weitere Ressourcen
-
-[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)
 

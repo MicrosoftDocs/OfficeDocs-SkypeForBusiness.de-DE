@@ -2,38 +2,42 @@
 title: "Übertragen von Telefonnummern zu Office 365"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.PortingNumbersOverview
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
 ms.assetid: 47b3af8e-4171-4dec-8333-c956f108664e
-
-description: "Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.PortingNumbersOverview
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+- LIL_Placement
+description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
+ms.openlocfilehash: 13054913e73b21627f29bfb6038b44c97070417b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="transfer-phone-numbers-to-office-365"></a>Übertragen von Telefonnummern zu Office 365
 
-# Übertragen von Telefonnummern zu Office 365
-
-Ihre Telefonnummern lassen sich ganz leicht von Ihrem derzeitigen Dienstanbieter an Skype for Business übertragen. Nachdem Sie Ihre Telefonnummern an Skype for Business portiert haben, wird Microsoft zu Ihrem Dienstanbieter und stellt Ihnen diese Telefonnummern in Rechnung. 
+Ihre Telefonnummern lassen sich ganz leicht von Ihrem derzeitigen Dienstanbieter an Skype for Business übertragen. Nachdem Sie Ihre Telefonnummern an Skype for Business portiert haben, wird Microsoft zu Ihrem Dienstanbieter und stellt Ihnen diese Telefonnummern in Rechnung.
   
-Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Informationen unter [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md) lesen.Wenn Sie über Servicenummern für Einwahlkonferenzbrücken oder automatische Telefonzentralen bzw. über andere Servicenummern, gebührenfreie Telefonnummern oder mehr als 999 Telefonnummern von Benutzern (Teilnehmern) verfügen, die Sie an Skype for Business übertragen müssen, laden Sie unter [Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage](manually-submit-a-custom-service-request.md) die entsprechenden Formulare herunter, und senden Sie sie an uns.
-> [!NOTE]
-> Wir bearbeiten Portierungsaufträge für Telefonnummern nur an Werktagen (USA), nicht an gesetzlichen Feiertagen oder an Wochenenden. 
+Bevor Sie beginnen, Übertragen von Rufnummern, wird empfohlen, die Informationen in [übertragen Telefon Zahlen häufig gestellte Fragen](transferring-phone-numbers-common-questions.md)zu lesen. Wenn Sie Service Nummern für einwahlkonferenzen Brücken, automatischen Telefonzentralen oder andere Zahlen Service verfügen, gebührenfreie Telefonnummer Zahlen oder mehr als 999 Benutzer (Abonnent) Telefonnummern, die Sie benötigen zum Weiterleiten an Skype für Unternehmen finden Sie unter [Verwalten von Rufnummern für haben Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) die richtige Formulare herunterladen und diese für uns senden.
+  > [!NOTE]
+  > Wir bearbeiten Portierungsaufträge für Telefonnummern nur an Werktagen (USA), nicht an gesetzlichen Feiertagen oder an Wochenenden. 
   
-## So erstellen Sie einen Portierungsauftrag und übertragen Ihre Telefonnummern an Skype for Business
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-skype-for-business"></a>So erstellen Sie einen Portierungsauftrag und übertragen Ihre Telefonnummern an Skype for Business
 <a name="bk_LNPcountries_1"> </a>
 
-> [!NOTE]
-> Wenn Sie über Servicenummern für Einwahlkonferenzbrücken oder automatische Telefonzentralen bzw. über andere Servicenummern, gebührenfreie Telefonnummern oder mehr als 999 Telefonnummern von Benutzern (Teilnehmern) verfügen, die Sie an Skype for Business übertragen müssen, laden Sie unter [Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage](manually-submit-a-custom-service-request.md) die entsprechenden Formulare herunter, und senden Sie sie an uns.
+  > [!NOTE]
+  > Wenn Sie Service Nummern für einwahlkonferenzen Brücken, automatischen Telefonzentralen oder andere Zahlen Service verfügen, gebührenfreie Telefonnummer Zahlen oder mehr als 999 Benutzer (Abonnent) Telefonnummern, die Sie benötigen zum Weiterleiten an Skype für Unternehmen finden Sie unter [Verwalten von Rufnummern für haben Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)) Wählen Sie das richtige Land/Region und die richtige Formulare herunterladen und diese für uns senden.
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -80,32 +84,28 @@ Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Infor
     
 10. Geben Sie auf der Seite **Übermitteln** unter **Andere Personen benachrichtigen** die E-Mail-Adressen der gewünschten Personen ein, und klicken Sie auf **Portierungsauftrag übermitteln**. Der Portierungsauftrag wird jetzt auf der Seite **Portierungsaufträge** aufgeführt. Den Status des Auftrags können Sie der Spalte **Status** entnehmen. Sie können Details des Portierungsauftrags wie zum Beispiel **Auftrags-ID**, **Übermittelt**, **Übertragungsdatum** und **Status** anzeigen. Im Aktionsbereich werden weitere Details des Portierungsauftrags angezeigt, darunter auch der Name des Netzbetreibers.
     
-## Wie geht es weiter?
+## <a name="what-happens-next"></a>Wie geht es weiter?
 <a name="bk_LNPcountries_1"> </a>
 
-Nachdem der Portierungsauftrag übermittelt und erhalten wurde, wird eine E-Mail zur Verifizierung Ihres Portierungsauftrags an Sie gesendet.
+Nachdem der Portierungsauftrag übermittelt und erhalten wurde, wird eine E-Mail zur Verifizierung Ihres Portierungsauftrags an Sie gesendet. 
   
-Ihr Portierungsauftrag wird täglich überprüft und aktualisiert, und Sie werden per E-Mail über den Fortschritt und Status benachrichtigt. Falls Ihre Anforderung abgelehnt wird, werden Sie aufgefordert, ein Supportticket zu öffnen, in dem Sie die **Portierungsauftrags-ID** angeben müssen. Die Portierungsauftrags-ID finden Sie im Skype for Business Admin Center unter **VoIP** > **Portierungsaufträge** > Spalte **Auftrags-ID**.
+Ihre Bestellung Port überprüft und täglich aktualisiert werden, und Sie werden von der Fortschritt und den Status in e-Mail benachrichtigt. Wenn Ihre Anforderung zurückgewiesen wird, werden Sie aufgefordert, eine Support-Ticket öffnen und unterstützt in, das Ticket, wir bitten, dass Sie **Port Bestell-Nr.**bereitstellen. Der Port Reihenfolge ID Sie in der Skype für Business Administrationscenter unter **VoIP finden** > **Port Orders** > **Auftrags-ID** -Spalte.
   
-## Was ist, wenn Probleme auftreten?
+## <a name="what-if-i-have-problems"></a>Was ist, wenn Probleme auftreten?
 <a name="bk_LNPcountries_1"> </a>
 
  **Die Dienstadresse entspricht nicht der Rechnungsadresse. Warum wird der Auftrag abgelehnt, obwohl die von mir im Auftrag übermittelten Adressinformationen mit meiner Rechnungskopie übereinstimmen?** Die meisten Netzbetreiber identifizieren die Portierungsinformationen anhand der Dienstadresse, nicht anhand der Rechnungsadresse. Da eine Rechnungskopie ein Abrechnungsdokument ist, enthält sie möglicherweise nicht dieselben Informationen wie die Dienstadresse für die zu portierenden Telefonnummern.
   
  **Was soll ich tun, wenn die Bearbeitung meines Auftrags zu lange dauert?** Wir möchten, dass die Nummernportierung sehr einfach und schnell abläuft. Wenn der Auftrag Ihrer Ansicht nach zu viel Zeit in Anspruch nimmt und der Status im Skype for Business Admin Center immer noch nicht als abgeschlossen angezeigt wird, öffnen Sie ein Supportticket, und geben Sie dabei die Portierungsauftrags-ID an.
-  
-## 
-<a name="bk_LNPcountries_1"> </a>
 
-||
-|:-----|
-|![Symbol für LinkedIn Learning](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Neu bei Office 365?**         Entdecken Sie kostenlose Videokurse für **Office 365-Administratoren und IT-Experten**, bereitgestellt von LinkedIn Learning. |
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## Verwandte Themen
-<a name="bk_LNPcountries_1"> </a>
-
-[Einrichten von Anrufplänen](set-up-calling-plans.md)
-  
+## <a name="related-topics"></a>Verwandte Themen
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
-  
 
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)

@@ -1,93 +1,95 @@
 ---
-title: "Wie sollte ich die Telefonnummern eingeben?"
+title: Wie sollte ich die angezeigten Rufnummern eingeben?
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/13/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderNumbers
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 28aa24b4-8c81-4327-9752-989ea7540db2
-description: "Learn how to set up phone numbers when you port them to Skype for Business. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderNumbers
+ms.custom: Calling Plans
+description: "Erfahren Sie, wie Telefonnummern einrichten, wenn Sie diese zu Skype für Unternehmen port. "
+ms.openlocfilehash: 1906fc98f47402ec740d71ff69b67b07392ae57d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="how-should-i-enter-the-phone-numbers"></a>Wie sollte ich die angezeigten Rufnummern eingeben?
 
-# Wie sollte ich die Telefonnummern eingeben?
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
-Beim Portieren Telefonnummern zu erhalten, müssen Sie diese im korrekten Format eingeben.
+Wenn Sie Rufnummern portieren, müssen Sie diese im richtigen Format eingeben. 
   
 > [!NOTE]
-> Jede Telefonnummer oder jeder Telefonnummernbereich muss in die jeweilige Zeile separat eingegeben werden. 
+> Jede Telefonnummer oder der Bereich der Telefonnummer muss separat in jeder Zeile eingegeben werden. 
   
-- Bei der Eingabe einzelner Telefonnummern:
+- Wenn Sie einzelne Rufnummern eingeben:
     
-  - Werden alle Sonderzeichen ignoriert (auch der Bindestrich „-"). Beispiel:
+  - Alle Sonderzeichen ignoriert (einschließlich Strich "-"). Beispiel:
     
-  - Für eine 10-stellige Zahl: **&amp;*(425*()(*&amp;4&amp;*())(*250649** wird korrigiert zu **+14255550649**.
+  - Für eine Zahl 10: ** &amp; \*(425\*() (\*&amp;4&amp;\*()) (\*250649** wird auf **+14255550649**korrigiert werden.
     
-  - Für eine 11-stellige Zahl: **1*()(*&amp;42&amp;*()(*&amp;55550649** wird korrigiert zu **+14255550649**.
+  - Für eine Nummer 11: **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** wird auf **+14255550649**korrigiert werden.
     
-  - Alle Tags werden ignoriert, wenn sie 10 oder 11 Ziffern umfassen. Beispiel: **<div> 4255551234</div>** wird zu **+14255551234**.
+  - Alle Tags werden ignoriert, wenn 10 oder 11 Ziffern vorhanden sind. Beispielsweise ** \<Div > 4255551234\</div >** **+ 14255551234**werden.
     
-  - „-", Leerzeichen und Klammern werden ignoriert. Beispiel:
+  - "-", Leerzeichen und Klammern werden ignoriert. Beispiel:
     
-  - Für eine 10-stellige Zahl: **(425) 555-6776** wird korrigiert zu **+14255556776**.
+  - Für eine Zahl 10: **(425) 555-6776** wird zu **+14255556776**korrigiert werden.
     
-  - Für eine 11-stellige Zahl: **1(425) 555-6776** wird korrigiert zu **+14255556776**.
+  - Für eine Nummer 11: **1(425) 555-6776** wird auf **+14255556776**korrigiert werden.
     
-  - Aller Buchstaben werden ignoriert, wenn es eine Telefonnummer 10 Ziffern oder 11 zweistellig ist und als Sonderzeichen behandelt werden. Zum Beispiel:
+  - Alle Buchstaben werden als Sonderzeichen behandelt und eine Telefonnummer Ziffern 10 oder 11 Ziffer wird ignoriert, wenn werden. Beispiel:
     
-  - Für eine 10-stellige Zahl: **14jaosia2reoij05jof55506ajfoj49isdjf** wird korrigiert zu **+14255550649**.
+  - Für eine Zahl 10: **14jaosia2reoij05jof55506ajfoj49isdjf** wird zu **+14255550649**korrigiert werden.
     
-  - Für eine 11-stellige Zahl: **1ade4jaoda2rfoij05ojof55506dsfoj49if** wird korrigiert zu **+14255550649**.
+  - Für eine Nummer 11: **1ade4jaoda2rfoij05ojof55506dsfoj49if** wird zu **+14255550649**korrigiert werden.
     
-  - Jede Kombination von Sonderzeichen, selbst in anderen Sprachen, wird korrigiert. Beispiel: 
+  - Eine beliebige Kombination von Sonderzeichen, auch in anderen Sprachen werden korrigiert. Beispiel: 
     
-  - Für eine 10-stellige Zahl: **中文4中文2ajj5*（）（*（5()...551345** wird korrigiert zu **+14555551345**.
+  - Für eine Zahl 10:**中文4中文2ajj5\*() (\*(5()... 551345** wird auf **+14555551345**korrigiert werden.
     
-  - Für eine 11-stellige Zahl: **中文4中文2$a5*（）（*（5()...55(.1345** wird korrigiert zu **+14555551345**.
+  - Für eine Nummer 11:**中文4中文2$ a5\*() (\*(5()... 55 (.1345** wird auf **+14555551345**korrigiert werden.
     
-  - Wenn die Nummer ein, die weniger als 10 Ziffern oder mehr als 11 Stellen enthalten, werden sie für den Benutzer zur Behebung hervorgehoben:
+  - Wenn alle Zahlen weniger als 10 Ziffern oder mehr als 11 Ziffern enthalten, werden sie für den Benutzer an den richtigen hervorgehoben:
     
-  - ** 5551245** wird hervorgehoben und muss korrigiert werden.
+  - \*\*5551245\* \* wird hervorgehoben und behoben werden müssen.
     
-  - **1234567891011** wird hervorgehoben und muss korrigiert werden.
+  - **1234567891011** wird hervorgehoben und korrigiert werden müssen.
     
-  - Alle Zahlen, die weniger als 10 Ziffern oder mehr als 11 Stellen mit dieser Sonderzeichen, sind werden ohne, die automatisch korrigiert hervorgehoben.
+  - Ohne wird automatisch korrigiert werden alle Zahlen, die weniger als 10 Ziffern oder mehr als 11 Stellen mit keine Sonderzeichen sind hervorgehoben.
     
-  - Für 7 zweistellig Zahl ohne Sonderzeichen, die eingegeben werden: **123456abcdefg7** wird hervorgehoben werden und korrigiert werden müssen, aber die Buchstaben wird nicht ignoriert werden.
+  - Für eine 7 Ziffer Zahl ohne Sonderzeichen, die eingegeben wird: **123456abcdefg7** wird hervorgehoben und behoben werden, müssen jedoch die Buchstaben werden nicht ignoriert werden.
     
-  - Für Zahl 7 zweistellig mit Sonderzeichen, die eingegeben werden: **12345!@#$%^ &amp; * () - @# $% ^ &amp; * (7)** werden hervorgehoben werden, um korrigiert werden. Die Sonderzeichen wird nicht ignoriert.
+  - Für 7 Ziffer Zahl mit Sonderzeichen, die eingegeben werden: **12345!@#$%^&amp;\*() – @# $% ^&amp;\*(7)** wird hervorgehoben werden, um korrigiert werden. Sonderzeichen werden nicht ignoriert.
     
-- Bei der Eingabe eines Telefonnummernbereichs.
+- Wenn Sie einen Bereich von Rufnummern eingeben.
     
-  - Es sind nur zwei Telefonnummern zulässig. Die kleinere Nummer muss die erste Nummer im Bereich sein.
+  - Nur zwei Telefonnummern sind zulässig. Die kleinere Anzahl muss die erste Zahl im Bereich.
     
-  - Alle Sonderzeichen (mit Ausnahme der Gedankenstrich "-") werden wie einzelne Zahlen behandelt. Beispielsweise **(425) 555 0 &amp; * (123-(1425) 5557899nm** werden korrigiert werden, um **+14255550123 - +13202040659**.
+  - Alle Sonderzeichen (mit Ausnahme der Strich "-") sind wie einzelne Zahlen behandelt. Beispielsweise **(425) 555 0&amp;\*(123-(1425) 5557899nm** wird zum behoben **+ 14255550123 - +13202040659**.
     
-  - Die "-" wird zum Extrahieren nur der zwei Zahlen verwendet. Es nicht unterstützt, wenn Sie mehrere "-" im Bereich Zahl. Beispiel:, **(425) 555-0649-(425) 555-1115** eingegeben werden soll, als **(425) 5550649 - +(425) 5551115**.
+  - Die "-" wird zur Trennung nur zweier Zahlen verwendet. Es wird nicht unterstützt, um mehrere einschließen "-" in den Nummernbereich. Beispielsweise sollte **(425) 555-0649-(425) 555-1115** eingegeben werden, als **(425) 5550649 - (425) 5551115**.
     
- **Vollständige schrittweise Anweisungen finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## 
-<a name="MT_Footer"> </a>
+ **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-## Siehe auch
-<a name="MT_Footer"> </a>
+ > [!NOTE]
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### Weitere Ressourcen
+  
+## <a name="related-topics"></a>Verwandte Themen
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Telefonnummern für Ihre Organisation verwalten](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)

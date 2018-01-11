@@ -1,65 +1,73 @@
 ---
-title: "Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?"
+title: Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.AddressAndLocation
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
-description: "Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.AddressAndLocation
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
+ms.openlocfilehash: b6f9ffcbba68a7892a137a68565de97fe390d00f
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-emergency-locations-addresses-and-call-routing"></a>Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?
 
-# Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?
+Wenn Sie plant Aufrufen in Office 365 konfigurieren, ist es erforderlich, dass jede Telefonnummer eine Notfall-Adresse zugewiesen werden, wenn Sie entweder die Telefonnummer abrufen oder seine zugewiesenen zu einem Benutzer zur Unterstützung von notrufdienste. Bevor Sie eine Telefonnummer ein Notruf-Adresse zuweisen, muss eine Notfall-Adresse erstellt und überprüft werden. Überprüfung wird sichergestellt, dass die Notfall Adresse erkannt wird und im richtigen Format ist, die von den Diensten für Notfallmaßnahmen verwendet werden können. Optional kann ein Speicherort innerhalb der Notfall Adresse hinzugefügt werden, um eine bestimmte Position für den Benutzer bereitzustellen. Beispielsweise könnte der Notruf Speicherort ein Floor, Flügel oder Office, die mit einer bestimmten Notfall Adresse verknüpft ist. Obwohl Notfall Adresse überprüft werden, sind nicht Speicherorte.
+  
+## <a name="what-are-emergency-addresses"></a>Was sind Notfalladressen?
 
-Wenn Sie Anrufpläne in Office 365 konfigurieren, müssen Sie jeder Telefonnummer eine Notfalladresse zuweisen, um Notrufe zu unterstützen. Dies muss geschehen, wenn Sie die Telefonnummer erwerben oder wenn Sie sie einem Benutzer zuweisen. Bevor Sie eine Notfalladresse einer Telefonnummer zuweisen, müssen Sie die Notfalladresse erstellen und validieren. Durch die Validierung wird sichergestellt, dass die Notfalladresse erkannt wird, das heißt, dass sie im richtigen Format vorliegt, das von Notdiensten verwendet werden kann. Optional kann innerhalb der Notfalladresse ein Standort hinzugefügt werden, um den Standort des Benutzers genauer anzugeben. Als Notfallstandort können Sie zum Beispiel ein Stockwerk, einen Flügel oder ein Büro mit einer bestimmten Notfalladresse verknüpfen. Im Gegensatz zu Notfalladressen werden Standorte nicht validiert.
+Eine Notfall-Adresse ist erforderlich für die aktive Telefonnummern, aber wenn erforderlich ist das Land/Region abhängig. In den USA ist eine Notfall-Adresse **erforderlich** , wenn eine Zahl, die einem Benutzer zugewiesen ist. Für andere Länder ist wie in Europa, dem Nahen Osten und Afrika (EMEA), eine Notfall-Adresse **erforderlich** , wenn erhalten Sie die Telefonnummer von Office 365 oder wenn er von einer anderen Dienstanbieter oder Netzbetreiber übertragen wird.
   
-## Was sind Notfalladressen?
+Eine Notfall Adresse kann als eine Anschrift, Straße oder eine physische Adresse bezeichnet werden. Es ist die Straße oder allgemeinen-Adresse des Unternehmens für Ihre Organisation einen Ort. Beispielsweise die Adresse, die *12345 North Main Street, Redmond, WA 98052* zum Weiterleiten von Notrufen an den entsprechenden Versendung Behörden und zur Unterstützung bei der Suche nach den Notruf tätigt verwendet wird. Es ist wahrscheinlich, dass Sie mehr als eine Adresse Notfall benötigen, wenn Ihr Unternehmen mehr als einen physischen Business Speicherort verfügt.
+  
+Eine Notruf Adresse validieren umfasst, und stellen Sie sicher, dass es sich um legitime und für Notfallmaßnahmen Services richtig formatiert ist. Es ist möglich, erstellen und speichern Sie eine Notfall Adresse, die wird nicht überprüft, aber nur überprüfte Adressen können ein Benutzer zugeordnet werden. Nach eine Notfall Adresse überprüft und gespeichert ist, kann es zu einem Benutzer zugewiesen werden. Wenn Sie eine gespeicherte überprüfte Notfall Adresse ändern müssen, müssen Sie einen neuen Anwendungspool erstellen.
+  
+## <a name="what-are-emergency-locations"></a>Was sind Notfallstandorte?
 
-Eine Notfalladresse ist für aktive Telefonnummern erforderlich, dies hängt jedoch vom Land bzw. der Region ab. In den USA ist eine Notfalladresse **erforderlich**, wenn eine Nummer einem Benutzer zugewiesen wird. In anderen Ländern wie etwa in Europa, dem Nahen Osten und Afrika (EMEA) ist eine Notfalladresse **erforderlich**, wenn Sie die Telefonnummer über Office 365 erhalten oder wenn die Telefonnummer von einem anderen Dienstanbieter oder Netzbetreiber übertragen wird.
+Notfallstandorten sind eine Notfall-Adresse Geben Sie eine genauere Standort Gebäude zugeordnet. Ein Notruf Speicherort ist in der Regel ein Floor, Erstellen von Flügel oder geschäftliche Rufnummer der Benutzer gespeichert ist. Sie können eine unbegrenzte Anzahl von einem Notfall Adresse zugeordneten Speicherorte haben. 
   
-Eine Notfalladresse wird häufig als Adresse, Postanschrift oder physische Adresse bezeichnet. Es handelt sich um die Postanschrift oder Adresse eines Bürostandorts Ihrer Organisation. Zum Beispiel wird die Adresse  *12345 North Main Street, Redmond, WA 98052, USA*  verwendet, um Notrufe an die entsprechenden Einsatzleitstellen weiterzuleiten und den Standort des Anrufers zu ermitteln. Wenn Ihr Unternehmen mehrere physische Standorte hat, benötigen Sie wahrscheinlich mehrere Notfalladressen.
+Wenn einem Benutzer eine Notfall-Adresse zuweisen, ist es tatsächlich einen Standort-ID, auf die verwiesen wird, wenn Sie die Adresse zuweisen. Die ID enthält die referenzierte Notfall Adresse (Straße oder allgemeinen-Adresse). Ein Standardspeicherort für den Notfall gehört zum Lieferumfang von einer Notfall-Adresse für die Groß-/Kleinschreibung beim in Erstellen von Speicherorten nicht erforderlich sind. 
   
-Beim Validieren einer Notfalladresse wird sichergestellt, dass die Adresse legitim und für Notdienste richtig formatiert ist. Es ist zwar möglich, eine Notfalladresse zu erstellen und zu speichern, ohne diese zu validieren, jedoch können nur validierte Adressen einem Benutzer zugewiesen werden. Sobald eine Notfalladresse validiert und gespeichert ist, kann sie einem Benutzer zugewiesen werden. Wenn Sie eine gespeicherte und validierte Notfalladresse ändern möchten, müssen Sie eine neue Notfalladresse erstellen.
-  
-## Was sind Notfallstandorte?
+## <a name="what-is-emergency-call-routing"></a>Was ist Notrufweiterleitung?
 
-Notfallstandorte werden mit einer Notfalladresse verknüpft, um den genauen Standort innerhalb eines Gebäudes anzugeben. Ein Notfallstandort kann die Nummer eines Stockwerks, Gebäudeflügels oder Büros sein, in dem sich der Benutzer befindet. Sie können beliebig viele Standorte mit einer Notfalladresse verknüpfen.
+Notfall-Adressen und Speicherorte werden beim ersten entsendet abgesetzt während der Verarbeitung Weiterleitung von Notrufen an der Mitte des entsprechenden Versendung verwendet werden. Wenn eine Skype für Geschäftsbenutzer eine Notrufnummer wählt, variieren wie der Anruf an die Bereitstellung von öffentlichen Sicherheit beantworten Point (PSAP) weitergeleitet wird nach Land/Region. In einigen Ländern wie den USA und im Vereinigten Königreich werden die Anrufe zuerst überwacht werden, um den aktuellen Speicherort des Benutzers zu bestimmen, bevor Sie den Anruf an das entsprechende Versendung Center anschließen. In anderen Ländern/Regionen werden Anrufe direkt zum Übermitteln von Suchabfragen die den Notruf tätigt zugeordnete Telefonnummer Versendung Center weitergeleitet.
   
-Wenn Sie einem Benutzer eine Notfalladresse zuweisen, handelt es sich eigentlich um eine Standort-ID, die referenziert wird, wenn Sie die Adresse zuweisen. Die Standort-ID enthält die Notfalladresse (die Postanschrift oder Adresse). Jede Notfalladresse erhält einen Standardnotfallstandort für den Fall, dass keine Standorte innerhalb des Gebäudes erforderlich sind. 
-  
-## Was ist Notrufweiterleitung?
+## <a name="creating-adding-and-assigning-emergency-locations-and-addresses-to-your-users"></a>Erstellen, hinzufügen und Zuweisen von notfallstandorten und Adressen für Ihre Benutzer
 
-Notfalladressen und -standorte werden beim Weiterleiten von Notrufen an die entsprechende Rettungsleitstelle verwendet, wenn diese Ersthelfer entsendet. Wenn Skype for Business-Benutzer eine Notrufnummer wählen, hängt es vom Land bzw. der Region ab, wie der Anruf an den zuständigen PSAP (Public Safety Answering Point) weitergeleitet wird. In einigen Ländern bzw. Regionen wie beispielsweise den USA und dem Vereinigten Königreich werden die Anrufe zunächst überprüft, um den aktuellen Standort des Benutzers zu ermitteln. Erst dann wird die Verbindung mit der zuständigen Rettungsleitstelle hergestellt. In anderen Ländern/Regionen werden Notrufe direkt an die Rettungsleitstelle weitergeleitet. Dabei wird die Telefonnummer übermittelt, die dem Anrufer zugeordnet ist.
-  
-## Erstellen, Hinzufügen und Zuweisen von Notfallstandorten und Notfalladressen für Ihre Benutzer
-
-1. **Planen von Notfallstandorten** Im ersten Schritt planen Sie Ihre Notfallstandorte. Sie müssen alle Ihre physischen Adressen aufführen. Auf dieser Grundlage ermitteln Sie dann, ob Standorte für die Notfalladressen erforderlich sind und um welche es sich gegebenenfalls handelt. Wenn ein Unternehmen zum Beispiel drei Bürogebäude mit je vier Stockwerken besitzt, werden wahrscheinlich drei Notfalladressen mit jeweils den Stockwerken 1 bis 4 als Standorte benötigt.
+1. **Planen von notfallstandorten** Der erste Schritt ist zum Planen der notfallstandorte. Sie müssen alle Ihre physischen Adressen aufgeführt. Klicken Sie dann auf Grundlage, ermittelt, ob die Speicherorte für die Notfall-Adressen erforderlich sind, und wenn Ja, was sind. Beispielsweise wenn ein Unternehmen 3 Bürogebäude jedes mit 4 Etagen aufweist, ist es wahrscheinlich, dass es 3 Notfall Adressen mit Etagen 1 bis 4 für jede als Speicherort aufgeführt werden müssen.
     
-2. **Erstellen und Überprüfen der Notfallstandorte** Der nächste Schritt besteht darin, die Notfalladressen zu erstellen und zu überprüfen. Sie können eine Notfalladresse bei der Erstellung überprüfen. Weitere Informationen zum Erstellen einer Notfalladresse finden Sie unter[Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen](add-or-remove-an-emergency-address-for-your-organization.md).
+2. **Erstellen und überprüfen Sie Ihre notfallstandorten** Im nächste Schritt wird zum Erstellen und überprüfen Ihre Notfall-Adressen. Wenn Sie eine Notfall Adresse erstellen, können Sie es überprüfen. Zum Erstellen einer Notfall Adresse finden Sie unter [Hinzufügen oder entfernen, die einem Notfall Webadresse für Ihre Organisation](add-or-remove-an-emergency-address-for-your-organization.md).
     
     > [!IMPORTANT]
-    > Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse legitim und richtig formatiert ist. Es ist möglich, dass eine teilweise korrekte Notfalladresse, wie z. B. ein falsch geschriebener Name einer Stadt, bei der Validierung anerkannt wird. Die Validierung bestimmt anhand aller Teile der jeweiligen Adresse, ob genug Informationen enthalten sind, um den Anruf an die entsprechende Rettungsleitstelle weiterzuleiten. Wenn dies der Fall ist, wird sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden. 
+    > Überprüfen der allgemeinen Straße oder die Adresse eine umfasst, und stellen Sie sicher, dass es sich um legitime und richtig formatiert ist. Es ist möglich, dass eine teilweise richtige Notfall Adresse, beispielsweise einen Tippfehler Namen der Stadt ein, weiterhin Durchlauf Validierung kann. Validierungsprozess verwendet alle Teile einer angegebenen Adresse um zu ermitteln, ob sie über ausreichend Informationen zum Weiterleiten des Anrufs im entsprechenden Notfällen Center enthält. Ist dies der Fall ist, wird als überprüft zurückgegeben und dann an eine Telefonnummer zugewiesen werden können. 
   
-3. **Beziehen von Telefonnummern** Der nächste Schritt besteht darin, Telefonnummern für Ihre Benutzer zu beziehen. Dazu können Sie neue Telefonnummern über Office 365 beziehen oder vorhandene Telefonnummern portieren, das heißt nach Office 365 übertragen. Die vollständigen Schritte können Sie sich unter[Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) ansehen.
+3. **Abrufen von Telefonnummern** Der nächste Schritt besteht darin Rufnummern für Ihre Benutzer abzurufen. Dies ist durch die erste neue Telefonnummern von Office 365 oder durch "Portieren" oder übertragen Ihre vorhandenen Telefonnummern über an Office 365 möglich. Die vollständigen Schritte finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
     
-4. **Zuweisen von Telefonnummern** Der letzte Schritt besteht darin, Benutzern das Tätigen und Annehmen von Telefonanrufen zu ermöglichen. Dazu müssen Sie jedem Benutzer eine Telefonnummer zuweisen. Wie Sie eine Telefonnummer zuweisen, erfahren Sie unter[Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md).
-    
-## Siehe auch
+4. **Zuweisen von Rufnummern** Der letzte Schritt besteht, damit Benutzer tätigen und Entgegennehmen von Anrufen. Zu diesem Zweck müssen Sie eine Rufnummer für jeden Benutzer zuweisen. Finden Sie unter [zuweisen, ändern oder entfernen Sie eine Rufnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md) an eine Telefonnummer zuweisen.
 
-#### Weitere Ressourcen
+> [!NOTE]
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+    
+## <a name="related-topics"></a>Verwandte Themen
+[Was ist die Bestätigung?](what-is-address-validation.md)
+
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Nutzungsbedingungen für Notrufe](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
-  
-[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-

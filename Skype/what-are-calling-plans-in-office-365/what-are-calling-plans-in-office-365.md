@@ -1,59 +1,68 @@
 ---
-title: "Was sind Anrufpläne in Office 365?"
+title: "Was sind in Office 365-Pläne aufrufen?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
-ms.topic: overview
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 3dc773b9-95e0-4448-b2f1-887c54022429
-
-description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+- LIL_Placement
+description: "Hier erfahren Sie, welche Office 365 Callings plant (PSTN-Anrufe) sind, welche Bereiche in verfügbar ist und, wo Sie Schritt-für-Schritt-Anleitung zum einrichten. "
+ms.openlocfilehash: cfc7f25a5887717a1ebb28fe690e3a5b8651d73d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-calling-plans-in-office-365"></a>Was sind in Office 365-Pläne aufrufen?
 
-# Was sind Anrufpläne in Office 365?
+Aufrufen von Plänen sind ein Add-on-Telefon-service, die in Kombination mit Telefonsystem in Office 365, kann das Telefonsystem für die gesamte Organisation werden. Ein Aufruf von planen bietet die Personen in Ihrem Unternehmen eine primäre Rufnummer und ermöglicht ihnen das tätigen und Entgegennehmen von Anrufen außerhalb Ihrer Organisation. Es gibt zwei Arten von Aufrufen plant: **Nationalen aufrufen planen** und einen **in- und International aufrufen planen**. Finden Sie weitere Informationen finden Sie unter [Für Office 365-Pläne aufrufen](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
+  
+Benutzer, die Rufnummern zugewiesen sind, können Sprachanrufe aus allen Skype für Business-Geräte, einschließlich [erste Telefone für Skype für Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md), PCs und mobilen Geräten. Sie können ihre Anrufe über Tischtelefonen mithilfe von Features wie beispielsweise Stummschalten/stummschaltung aufheben steuern, halten/fortsetzen, rufen Sie übertragen und anrufweiterleitung.
+  
+## <a name="start-here"></a>Beginnen Sie hier
 
-Bei Anrufplänen handelt es sich um einen Add-On-Telefondienst, der in Kombination mit dem Telefonsystem in Office 365 als Telefonsystem für Ihre gesamte Organisation genutzt werden kann. Über einen Anrufplan erhalten die Mitarbeiter in Ihrem Unternehmen eine primäre Telefonnummer und können Telefonanrufe außerhalb Ihrer Organisation tätigen und empfangen. Es gibt zwei Arten von Anrufplänen: **Plan für Inlandsanrufe** und **Plan für Auslandsanrufe**. Weitere Informationen finden Sie unter [Anrufpläne für Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
+Bevor Sie diese einrichten, sehen Sie sich in diesen Themen für Fragen, die Sie möglicherweise müssen:
   
-Benutzer, denen Telefonnummern zugewiesen sind, können Sprachanrufe über alle Skype for Business-Geräte tätigen, einschließlich [Kauf von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md), PCs und mobilen Geräten. Sie können ihre Anrufe beispielsweise mit den folgenden Funktionen über Festnetztelefone steuern: Stummschalten/Aufheben der Stummschaltung, Halten/Fortsetzen, Anrufdurchstellung und Anrufweiterleitung.
-  
-## Beginnen Sie hier
-
-Sehen Sie sich, bevor Sie mit der Einrichtung beginnen, die folgenden Themen an, in denen Sie Antworten auf mögliche Fragen finden:
-  
-- Wenn Sie wissen möchten, ob Anrufpläne für Ihr Land/Ihre Region verfügbar sind und wie viele Minuten Sie erhalten, wählen Sie in der Dropdownliste [Länder und Region Verfügbarkeit für Audio - Konferenzen und Aufrufen-Pläne](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md) aus.
+- Um festzustellen, ob Ihr Land aufrufen Pläne verfügbar hat und die Anzahl der Minuten erhalten Sie wählen Sie die [Länder/Regionen und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) aus der Dropdownliste nach unten.
     
-- Wenn Sie meinen, dass die Anzahl der Minuten nicht ausreicht, lesen Sie [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+- Wenn Sie glauben, navigieren Sie über die Anzahl der Minuten, [Communications haben für Ihre Organisation einrichten](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     
-- Die Preisinformationen finden Sie [hier](https://go.microsoft.com/fwlink/?linkid=799761).
+- Sie können hier finden Sie Preisinformationen [hier](https://go.microsoft.com/fwlink/?linkid=799761).
     
-## Einrichten
+## <a name="setting-it-up"></a>Einrichten
 
-Anrufpläne können Sie ganz leicht einrichten. Sie können nach Telefonnummern für Benutzer suchen, neue Telefonnummern erwerben und diese Benutzern zuweisen. Sie können auch vorhandene Nummern zu Office 365 übertragen.
+Einrichten von Aufrufen Pläne ist einfach. Sie können für suchen, erwerben und neue Rufnummern Benutzern zuweisen. Sie können auch die vorhandenen Rufnummern zu Office 365 übertragen.
   
- **Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](set-up-calling-plans.md).**
+ **Schrittweise setupanweisungen finden Sie unter [Einrichten von plant aufrufen](set-up-calling-plans.md).**
   
-Weitere Informationen zu Telefonsystem, Anrufplänen und Audiokonferenzen finden Sie in diesem YouTube-Video: [Office 365-Telefonsystem und PSTN-Besprechungen in Skype for Business ](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28).
-  
-||
-|:-----|
-|![Symbol für LinkedIn Learning](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Neu bei Office 365?**         Entdecken Sie kostenlose Videokurse für **Office 365-Administratoren und IT-Experten**, bereitgestellt von LinkedIn Learning. |
-   
-## Siehe auch
+Weitere Informationen zum Telefonsystem, plant aufrufen und Audiokonferenzen finden Sie unter diese YouTube-Video: [Office 365-Telefonsystem und Einwahl Besprechungen in Skype für Unternehmen](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28).
 
-#### Weitere Ressourcen
+> [!NOTE]
+> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte - Admin-Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+
+## <a name="related-topics"></a>Verwandte Themen
 [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Verwalten von Rufnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Emergency aufrufende Geschäftsbedingungen](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)

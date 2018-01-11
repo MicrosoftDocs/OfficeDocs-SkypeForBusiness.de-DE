@@ -1,25 +1,25 @@
 ---
-title: "Was ist Telefonsystem in Office 365?"
+title: Was ist Telefonsystem in Office 365?
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 5e87c9ed-c3e8-43b1-b95d-077ee9351c99
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: None
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: None
+description: "Erfahren Sie, was Telefonsystem für Sie möglich ist. "
+ms.openlocfilehash: cbb3ac6582c11e04e9ba7cfaec1c1b387ceb9b3b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
-
-# Was ist Telefonsystem in Office 365?
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-
+# <a name="what-is-phone-system-in-office-365"></a>Was ist Telefonsystem in Office 365?

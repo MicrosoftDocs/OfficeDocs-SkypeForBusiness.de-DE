@@ -1,104 +1,109 @@
 ---
-title: "Telefonnummernliste für Ihre Organisation anzeigen"
+title: Anzeigen einer Liste mit Telefonnummern in Ihrer Organisation
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
-description: "Learn how to see a list of all the phone numbers for your organizaton, all the numbers assigned to users, and all the numbers that are assigned to voice users from the Skype for Business admin center."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Erfahren Sie, wie eine Liste der Rufnummern in Ihrer Organisation, alle Zahlen, die Benutzern zugewiesen und die Nummern, die VoIP-Benutzern, aus der Skype für Business Administrationscenter zugewiesen sind, angezeigt."
+ms.openlocfilehash: cfba58f7bb84d7cd67185c7c4ce8c6623c69fa7e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Anzeigen einer Liste mit Telefonnummern in Ihrer Organisation
 
-# Telefonnummernliste für Ihre Organisation anzeigen
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
+Es gibt verschiedene Arten von Rufnummern, die Sie auf Benutzer oder andere Dienste (Service Zahlen), wie beispielsweise für Audiokonferenzen in Office 365 zuweisen können.
   
-Es gibt verschiedene Typen von Telefonnummern zu erhalten, die Benutzern oder anderen Diensten (Service Zahlen), z. B. für Audio Konferenzen in Office 365 zugewiesen werden können.
-  
-## So zeigen Sie eine Liste aller Telefonnummern für Ihre Organisation an
+## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Zum Anzeigen einer Liste mit allen Telefonnummern, die Ihnen für Ihre Organisation
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **Telefonnummern**.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich auf **Stimme** > **Rufnummern**.
     
-    **WICHTIG**: Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
+    > [!IMPORTANT]
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. Um die Telefonnummern anzuzeigen, die zugewiesen werden, finden Sie unter der Spalte **Zahl**.
+4. Die Telefonnummern, die zugewiesen sind, finden Sie unter der Spalte **Anzahl** .
     
-5. Im Dropdown Listenfeld können Sie Ihre Ansicht durch Filtern:
+5. Die Dropdown-Liste können Sie Ihrer Meinung nach filtern:
     
-  - **Alle** Telefonnummern einschließlich Servicetelefonnummern
+  - **Alle** Rufnummern, einschließlich Service Telefonnummern.
     
-  - Ein Telefon **Bereich Zahl**, die Sie festlegen.
+  - Ein Telefon **Nummern** , die Sie festlegen.
     
-  - Telefonnummern zu erhalten, die **Benutzer zugewiesen** sind.
+  - Rufnummern, die **Benutzer zugewiesen**sind.
     
-  - Telefonnummer, die **zugeordnet zur Konferenz** für einwahlkonferenzen.
+  - Telefonnummern, **zugewiesene Konferenz** für einwahlkonferenzen.
     
-  - Telefonnummern zu erhalten, die **nicht zugewiesene** sind.
+  - Rufnummern, die **nicht zugewiesen**sind.
     
-  - Die **Position** des Telefonnummern.
+  - Der **Speicherort** der aufgeführten Rufnummern.
     
-## So zeigen Sie alle Benutzern zugewiesenen Telefonnummern an
+## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Alle Rufnummern anzeigen, die Benutzern zugewiesen sind
 
-Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonnummern sehen, die bereits Benutzern zugewiesen sind. Außerdem möchten Sie wissen, welche Telefonnummern den Benutzern zugewiesen werden können.
+Wenn Sie Benutzer einrichten, möchten Sie möglicherweise nur finden in der Liste der Rufnummern, die bereits Benutzern zugewiesen sind, und welche Rufnummern zugewiesen werden können.
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **VoIP-Benutzer**.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich auf **Stimme** > **VoIP-Benutzer**.
     
-    **WICHTIG**: Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
+    > [!IMPORTANT]
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. Sie können Ihre Ansicht für Telefonnummern zu erhalten, die Benutzern zugewiesen sind, oder Telefonnummern zu erhalten, die Sie einem Benutzer zuweisen können filtern. Sie können nach filtern:
+4. Sie können Ihre Ansicht für Rufnummern, die Benutzern zugewiesen sind, oder Rufnummern, die Sie einem Benutzer zuweisen können filtern. Sie können nach filtern:
     
-  - **Alle** Telefonnummern einschließlich Servicetelefonnummern
+  - **Alle** Rufnummern, einschließlich Service Telefonnummern.
     
   - **Zugewiesene Nummer** Benutzer.
     
-  - **Keine Nummer zugewiesen** Benutzer.
+  - Benutzer **keine Zahl zugewiesen** .
     
-## So zeigen Sie die VoIP-Benutzern zugewiesenen Telefonnummern an
+## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Um die Telefonnummern, die VoIP-Benutzern zugewiesen sind, finden Sie unter
 
-Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen und empfangen sollen, müssen Sie zuerst die Telefonnummern abrufen und diese dann den Benutzern zuweisen. Wenn Sie die Telefonnummern haben, möchten Sie vielleicht nur eine Liste der Benutzer sehen, denen Telefonnummern zugewiesen sind, oder eine Liste der Benutzer, denen keine Telefonnummern zugewiesen sind, oder Sie möchten wissen, ob bestimmte Benutzer online oder lokal gehostet werden.
+Beim Einrichten von Benutzern in Ihrer Organisation tätigen und Entgegennehmen von Anrufen, Sie müssen zunächst die Telefonnummern, und weisen Sie diese dann an die Benutzer. Nachdem Sie Ihre Rufnummern gelangt sind, Sie sollten nur die Liste der Benutzer anzeigen, die Telefonnummern, die Benutzern zugewiesen haben, dies nicht der Fall, und gibt an, ob ein Benutzer ist gehostet Online oder lokalen.
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **VoIP-Benutzer**.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich auf **Stimme** > **VoIP-Benutzer**.
     
-    **WICHTIG**: Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
+    > [!IMPORTANT]
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. Im Dropdown Listenfeld können Sie Ihre Ansicht für aktive Benutzer filtern, ob der Benutzer Online oder lokal oder Zustand und gewünschte Lizenz für einen Benutzer ist. Sie können nach filtern:
+4. Sie können die Dropdown-Liste verwenden, zum Filtern der Ansicht für aktive Benutzer, ob der Benutzer Online oder lokal, oder der Status und Typ der Lizenzierung für einen Benutzer ist. Sie können nach filtern:
     
-  - **Aktive Benutzer** sowie Online-Benutzer oder lokale Benutzer
+  - **Aktive Benutzer** und gibt an, ob ein Benutzer Online oder lokalen ist.
     
-  - **Ausstehende Lizenzen** sowie Online-Benutzer oder lokale Benutzer
+  - **Ausstehende Lizenzen** und gibt an, ob ein Benutzer Online oder lokalen ist.
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Verwandte Themen
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-## Siehe auch
-<a name="MT_Footer"> </a>
+[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-#### Weitere Ressourcen
+[Telefonnummern für Ihre Organisation verwalten](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-  
-[Audio-Konferenzen Grußformeln durchführen Periode](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+
 
