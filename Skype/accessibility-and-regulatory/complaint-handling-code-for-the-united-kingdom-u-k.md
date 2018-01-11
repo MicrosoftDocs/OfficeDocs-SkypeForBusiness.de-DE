@@ -1,29 +1,40 @@
 ---
-title: "Skype for Business - PSTN-Anruf - Handhabung von Beanstandungen für Großbritannien"
+title: "Kompatibles Behandeln von Code für Großbritannien (Großbritannien)"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/20/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
-description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
+ms.openlocfilehash: eb98b00f7301e29a0a0039f78bd86b4bcfa999c5
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Kompatibles Behandeln von Code für Großbritannien (Großbritannien)
 
-# Skype for Business - PSTN-Anruf - Handhabung von Beanstandungen für Großbritannien
-
-Dieser Code gilt für Kleinunternehmen-Kunden (Organisationen mit max. 10 Mitarbeitern) im Vereinigten Königreich (UK) im Hinblick auf den Skype for Business - PSTN-Anrufdienst (den „Dienst") gemäß den UK-Kommunikationsbestimmungen. Andere Skype for Business-Dienste unterliegen unserem Servicevertrag mit Microsoft und anderen Konditionen, die für Ihre Nutzung des speziellen Dienstes gelten.
+Dieser Code gilt für small Business-Kunden (Organisationen mit 10 Mitarbeitern oder weniger) in Großbritannien (Großbritannien) im Hinblick auf den Dienst aufrufen Planen von Office 365 (der "Dienst") gemäß den Vorschriften von Großbritannien Communications. Andere Skype für BusinessServices unterliegen Service-Vereinbarung mit Microsoft und andere Begriffe für die Verwendung eines bestimmten Service gelten.
   
-## So erstellen Sie eine Beanstandung
+## <a name="how-to-make-a-complaint"></a>So erstellen Sie eine Beanstandung
 
 Kundenzufriedenheit steht bei Skype for Business an erster Stelle. Sollten Sie mit dem Dienst jedoch aus irgendeinem Grund unzufrieden sein, können Sie telefonisch oder online eine Beanstandung durchgeben:
   
 - Gebührenfreie Telefonnummer: 0800 032 6417
     
-- Online: Melden Sie sich beim Office 365 Admin Center an und reichen Sie eine Serviceanfrage ein. Dazu wählen Sie unter **Support** die Option **Neue Serviceanfrage** aus.
+- Online: Melden Sie sich beim Office 365 Admin Center an und reichen Sie eine Serviceanfrage ein. Dazu wählen Sie unter **Support** die Option **Neue Serviceanfrage** aus. 
     
-## Zeitachsen
+## <a name="timelines"></a>Zeitachsen
 
 Wenn Sie während der normalen Geschäftszeiten telefonisch eine Beanstandung durchgeben, sprechen Sie live mit einem/einer Skype for Business-Mitarbeiter(in), die/der versuchen wird, das Problem während des Telefonats zu beheben.
   
@@ -33,9 +44,9 @@ Ist ein(e) Skype for Business-Mitarbeiter/Mitarbeiterin nicht in der Lage, das P
   
 Skype for Business ist bestrebt, alle Beanstandungen in Bezug auf den Dienst innerhalb von (7) Werktagen nach Eingang der Beanstandung zu klären. 
   
-Wenn Sie mit der Art und Weise, in der Ihre Beanstandung bezüglich des Dienstes gehandhabt wird, unzufrieden sind, können Sie den/die Skype for Business-Mitarbeiter(in), welche Ihre Beanstandung bearbeitet, telefonisch oder per E-Mail bitten, die Beanstandung gemäß Ihrem Servicevertrag zu eskalieren. Microsoft evaluiert die Beanstandung innerhalb von sieben (7) Tagen nach dem Eingang.
+Wenn Sie die Art und Weise zufrieden sind, in denen Ihre Benachrichtigung zum-Dienst verwaltet wird, können Sie die Skype für Business Vertreter behandeln Ihre Benachrichtigung, per Telefon oder e-Mail, um die Benachrichtigung an gemäß Ihren Servicevertrag ausweiten bitten. Microsoft wird binnen sieben (7) nach Erhalt der kompatibles ausgewertet werden soll.
   
-## Alternative Schlichtung der Streitigkeit
+## <a name="alternative-dispute-resolution"></a>Alternative Schlichtung der Streitigkeit
 
 Wenn Ihre Beanstandung bezüglich des Dienstes acht (8) Wochen nach der Einreichung noch nicht geklärt wurde, oder wenn Sie ein Schreiben mit der Information, dass wir eine endgültige Entscheidung gefällt haben, von uns erhalten haben, können Sie die Beanstandung an die Ombudsman Services übergeben. Dabei handelt es sich um einen von Ofcom für die Klärung von Beanstandungen bezüglich der Kommunikationsdienste genehmigten Drittservice. Wir werden Sie darüber hinaus schriftlich über die Verfügbarkeit solcher alternativer Schlichtungsdienste informieren. 
   
@@ -45,9 +56,9 @@ Alle Beanstandungen müssen innerhalb von zwölf (12) Monaten nach dem Einreiche
   
 Diesen Schritt zum Einreichen einer Beanstandung bei den Ombudsman Services finden Sie auf der Website der Ombudsman Services [](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809).
   
-Sie können die Ombudsmann Services auch über das Kontaktformular auf der Website von Ombudsman Services oder telefonisch, schriftlich oder per E-Mail erreichen.
+Sie können Bürgerbeauftragten Services durch Ausfüllen von einem Kontaktformular auf die Bürgerbeauftragten-Dienste-Website oder per Telefon, Buchstaben oder e-Mail-erreichen:
   
-- Kontaktformular: [https://www.ombudsman-services.org/contact-us-communications.html](https://www.ombudsman-services.org/contact-us-communications.mdl)
+- Kontaktformular: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - Telefon: 0330 440 1614
     
@@ -68,3 +79,5 @@ Sie können die Ombudsmann Services auch über das Kontaktformular auf der Websi
     WA4 6WU
     
 
+## <a name="related-topics"></a>Verwandte Themen
+[Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

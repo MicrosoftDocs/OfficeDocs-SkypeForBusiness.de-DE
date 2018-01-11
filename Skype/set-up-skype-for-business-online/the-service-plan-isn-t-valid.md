@@ -1,34 +1,36 @@
 ---
-title: "Der Dienstplan des Benutzers für Skype for Business Online ist nicht gültig"
-ms.author: TONYSMIT
+title: "Skype für Business Online Dienstplan des Benutzers ist nicht zulässig"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.ServicePlanNotValid
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 3631967e-d342-4a8a-905d-9b65d2ab554b
-description: "See where to assign a valid service plan for a user after a Skype for Business Online service plan isn't valid error. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.ServicePlanNotValid
+ms.custom: Setup
+description: "Finden Sie unter Where Zuweisen einer gültigen Dienstplan für einen Benutzer nach einer Skype für Business Online Dienstplan gültige Fehler nicht zur Verfügung. "
+ms.openlocfilehash: 276ec94eda2cdc721085e8605ccaa6bbb61d5f55
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype für Business Online Dienstplan des Benutzers ist nicht zulässig
 
-# Der Dienstplan des Benutzers für Skype for Business Online ist nicht gültig
+Es ist leider die Skype für Business Online Dienstplan, die diesem Benutzer zugewiesen wird nicht erkannt, oder ist ungültig.
+  
+Wechseln Sie zu der **Office 365 Administrationscenter** > **aktiven Benutzern** und Zuweisen einer gültigen Dienst an diesen Benutzer planen.
 
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
-  
-Es tut uns leid, der diesem Benutzer zugewiesene Skype for Business Online-Serviceplan wurde nicht erkannt oder ist ungültig.
-  
-Wechseln Sie zu der **Office 365-Verwaltungskonsole** > **aktive Benutzer** und weisen einen gültigen Serviceplan, diesem Benutzer.
-  
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Verwandte Themen
+[Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
+[Können Sie Skype für Unternehmensbenutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
   
 

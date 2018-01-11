@@ -2,43 +2,49 @@
 title: "Zuweisen eines Drittanbieters für Audiokonferenzen"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
+ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - ms.lync.lac.DialInExportImport
 - ms.lync.lac.DialInProvider
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
 - Strat_SB_PSTN
-ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
-description: "Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. "
+- Audio Conferencing
+description: 'Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. '
+ms.openlocfilehash: a53a2e63f15aa40eb6a88ab13daba2022b35e3b6
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="assign-a-third-party-as-the-audio-conferencing-provider"></a>Zuweisen eines Drittanbieters für Audiokonferenzen
 
-# Zuweisen eines Drittanbieters für Audiokonferenzen
-
-Ein Audiokonferenzanbieter stellt die  *Konferenzbrücke*  bereit. Über die Konferenzbrücke werden Einwahltelefonnummern, PINs und Konferenzkennungen für die erstellten Besprechungen bereitgestellt. Sie müssen nur den Mitarbeitern, die Skype for Business- oder Microsoft Teams-Besprechungen planen oder leiten werden, einen Audiokonferenzanbieter zuweisen.
+Kein Audiokonferenzanbieter stellt die *Konferenzbrücke*. Die Konferenzbrücke bietet die Zugriffsnummer für Einwahl Telefonnummer, PINs und Konferenz-IDs für Besprechungen, die erstellt werden. Sie müssen nur Personen zu planen, oder führen Skype für Business oder Microsoft-Teams, Besprechungen, die kein Audiokonferenzanbieter zugewiesen.
   
 > [!NOTE]
 > Für Microsoft Teams können Benutzer keinen Drittanbieter für Audiokonferenzen verwenden, sie müssen Audiokonferenzen in Office 365 verwenden. Dadurch wird Microsoft als Audiokonferenzanbieter festgelegt. 
   
-## Schritte VOR dem Zuweisen eines Drittanbieters für Audiokonferenzen
+## <a name="steps-to-do-before-you-can-assign-a-third-party-audio-conferencing-provider"></a>Schritte VOR dem Zuweisen eines Drittanbieters für Audiokonferenzen
 
-1. Je nach Ihrem Office 365-Plan müssen Sie möglicherweise Add-On-Lizenzen für **Audiokonferenzen** für die Mitarbeiter in Ihrer Organisation erwerben, die Skype for Business- oder Microsoft Teams-Besprechungen mit Audiokonferenzen planen oder leiten werden. Weitere Informationen finden Sie unter[Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+1. Je nach Ihrer Office 365-Plan müssen Sie möglicherweise **Audiokonferenzen** Add-On-Lizenzen für die Personen in Ihrer Organisation, die beabsichtigen, planen, oder führen Skype für Business oder Microsoft-Teams, Besprechungen, die mithilfe von Audiokonferenzen kaufen. Finden Sie weitere Informationen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-2. Wenn Sie Add-On-Lizenzen für **Audiokonferenzen** erworben haben, weisen Sie diese den Mitarbeitern in Ihrer Organisation zu, die Besprechungen mit Audiokonferenzen planen oder leiten werden. Weitere Informationen finden Sie unter[Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+2. Wenn Sie **Audiokonferenzen** Add-on Lizenzen erworben haben, ordnen sie die Personen in Ihrer Organisation, die planen, oder führen Besprechungen, die Audiokonferenz verwenden möchten. Finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
     
     > [!NOTE]
     > Wenn Sie einem Benutzer eine Lizenz für **Audiokonferenzen** zuweisen, **NACHDEM** Sie ihm einen Drittanbieter für Audiokonferenzen zugewiesen haben, wird für diesen Benutzer automatisch Microsoft als Audiokonferenzanbieter festgelegt. In diesem Fall müssen Sie zuerst Microsoft als Audiokonferenzanbieter entfernen, bevor Sie einen Drittanbieter für Audiokonferenzen zuweisen können.
   
 3. Suchen Sie unter [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530) einen Drittanbieter für Audiokonferenzen. Nehmen Sie Kontakt zu ihm auf, und informieren Sie sich über die Einrichtung.
     
-    Vom Anbieter erhalten Sie: 
+    Vom Anbieter erhalten Sie:
     
   - **Einwahlnummern (gebührenpflichtig)** und gebührenfreie Telefonnummern, falls verfügbar
     
@@ -50,13 +56,13 @@ Ein Audiokonferenzanbieter stellt die  *Konferenzbrücke*  bereit. Über die Kon
     > [!NOTE]
     > Wenn Sie einen Benutzer für Audiokonferenzen aktivieren und ihm einen Drittanbieter für Audiokonferenzen zuweisen, werden die Audionummern und Konferenzkennungen (Passcodes) automatisch zu allen **neuen** Skype for Business Online-Besprechungen hinzugefügt, die er erstellt.
   
-## Zuweisen eines Drittanbieters für Audiokonferenzen zu einem Benutzer
+## <a name="how-to-assign-a-third-party-audio-conferencing-provider-to-a-user"></a>Zuweisen eines Drittanbieters für Audiokonferenzen zu einem Benutzer
 
 1. Wählen Sie im **Skype for Business Admin Center**die Option **Benutzer** aus. Wählen Sie den Benutzer in der Liste aus, und klicken Sie im Aktionsbereich auf **Bearbeiten**.
     
 2. Klicken Sie auf der Seite mit den Eigenschaften des Benutzers auf **Audio conferencing** (Audiokonferenz), und geben Sie die folgenden Informationen ein:
     
-  - **Anbietername**: Wählen Sie den Drittanbieter in der Liste aus.
+  - **Name des Anbieters** Wählen Sie aus der Liste des Anbieters von Drittanbietern.
     
   - **Gebührenpflichtige Standardnummer**: Diese Angabe ist erforderlich.
     
@@ -71,14 +77,14 @@ Ein Audiokonferenzanbieter stellt die  *Konferenzbrücke*  bereit. Über die Kon
     > [!NOTE]
     > Wenn Sie einen Drittanbieter für Audiokonferenzen verwenden, können Sie keine PINs für Besprechungsorganisatoren anzeigen oder festlegen. 
   
-## Zuweisen eines Drittanbieters für Audiokonferenzen zu zahlreichen Benutzern gleichzeitig
+## <a name="how-to-assign-a-third-party-audio-conferencing-provider-to-many-people-at-the-same-time"></a>Zuweisen eines Drittanbieters für Audiokonferenzen zu zahlreichen Benutzern gleichzeitig
 
-1. Wählen Sie im **Skype for Business Admin Center**die Optionen **Audio conferencing** (Audiokonferenz) > **Microsoft Bridge** aus. Klicken Sie am Seitenende auf den Link in **Wenn Sie stattdessen einen externen Audiokonferenzanbieter konfigurieren möchten, klicken Sie auf**.
+1. Wählen Sie in der **Skype für Business Administrationscenter**, **Audiokonferenzen** > **Microsoft-Brücke**. Klicken Sie am unteren Rand der Seite auf den Link **, wenn Sie, konfigurieren Sie einen Drittanbieter - Audiokonferenzen stattdessen möchten klicken Sie hier**.
     
     > [!NOTE]
-    > Wenn Sie das Anfangssetup für einen Drittanbieter-ACP durchgeführt haben und Änderungen vornehmen müssen, klicken Sie unten auf der Seite **Microsoft Bridge** auf **Klicken Sie hier, um einen Drittanbieter für Audiokonferenzen zu konfigurieren**. 
+    > Wenn dies ist der ersten Einrichten von Drittanbietern ACPS, aber jetzt müssen Sie den Änderungen am unteren Rand der Seite **Microsoft Bridge** , **Klicken Sie hier, um einen Drittanbieter - Audiokonferenzen konfigurieren**. 
   
-2. Klicken Sie auf der Seite **Konfigurieren eines externen Audiokonferenzanbieters** unter **Benutzer importieren und exportieren** auf **Export-Assistent**. Befolgen Sie dann die Schritte im **Assistenten zum Exportieren von Benutzern**. Wenn Sie fertig sind, haben Sie eine Datei, in der die Benutzer aufgelistet sind, die Sie für Audiokonferenzen einrichten möchten. 
+2. Klicken Sie auf der Seite **Konfigurieren eines externen Audiokonferenzanbieters** unter **Benutzer importieren und exportieren** auf **Export-Assistent**. Befolgen Sie dann die Schritte im **Assistenten zum Exportieren von Benutzern**. Wenn Sie fertig sind, haben Sie eine Datei, in der die Benutzer aufgelistet sind, die Sie für Audiokonferenzen einrichten möchten.
     
 3. Senden Sie die erstellte Datei an Ihren Drittanbieter für Audiokonferenzen. Er fügt die Audiokonferenzinformationen für die in der Datei aufgelisteten Personen hinzu und sendet die Datei an Sie zurück.
     
@@ -91,11 +97,11 @@ Ein Audiokonferenzanbieter stellt die  *Konferenzbrücke*  bereit. Über die Kon
     > [!NOTE]
     > Wenn Sie einen Drittanbieter für Audiokonferenzen verwenden, können Sie keine PINs für Besprechungsorganisatoren anzeigen oder festlegen. 
   
-## Verwendung eines Drittanbieters für Audiokonferenzen
+## <a name="when-to-use-a-third-party-audio-conferencing-provider"></a>Verwendung eines Drittanbieters für Audiokonferenzen
 
 Wenn Sie sich in einem Land/einer Region befinden, in dem/der Audiokonferenzen in Office 365 nicht verfügbar sind, die Servicequalität aufgrund des Standorts schlecht ist oder Sie einen Vertrag mit einem Drittanbieter für Audiokonferenzen abgeschlossen haben, sollten Sie einen Drittanbieter für Audiokonferenzen verwenden. Andernfalls empfehlen wir Microsoft als Audiokonferenzanbieter.
   
-## Automatisieren der Zuweisung des externen Audiokonferenzanbieters anhand von Windows PowerShell
+## <a name="automate-assigning-the-third-party-audio-conferencing-provider-by-using-windows-powershell"></a>Automatisieren der Zuweisung des externen Audiokonferenzanbieters anhand von Windows PowerShell
 
 - Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsUserAcp](https://go.microsoft.com/fwlink/?LinkId=716851) nutzen.
     
@@ -104,13 +110,13 @@ Wenn Sie sich in einem Land/einer Region befinden, in dem/der Audiokonferenzen i
   
 - Weitere Informationen zur Nutzung von Windows PowerShell finden Sie unter [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038).
     
-## Was muss ich sonst noch wissen?
+## <a name="what-else-do-i-need-to-know"></a>Was muss ich sonst noch wissen?
 
-Jeder Benutzer in der Organisation kann nur einen Audiokonferenzanbieter verwenden. Informationen zum Ändern des Audiokonferenzanbieters für einen Benutzer in Microsoft finden Sie unter [Wechseln zu Microsoft als Audiokonferenzanbieter für einen Benutzer](moving-a-user-s-audio-conferencing-provider-to-microsoft.md) oder[Zuweisen von Microsoft als Audiokonferenzanbieter](assign-microsoft-as-the-audio-conferencing-provider.md).
+Eine Person in Ihrer Organisation kann nur einem Anbieter von Audiokonferenzen verwenden. Um eine Person für Audiokonferenzen an Microsoft zu ändern, finden Sie unter [Verschieben eines Benutzers für Audiokonferenzen an Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md) oder [Microsoft als Anbieter von Audiokonferenzen zuweisen](assign-microsoft-as-the-audio-conferencing-provider.md).
   
-## Verwandte Themen
+## <a name="related-topics"></a>Verwandte Themen
 
-[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)
   
 [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   

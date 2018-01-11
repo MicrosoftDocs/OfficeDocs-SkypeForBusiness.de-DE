@@ -1,103 +1,113 @@
 ---
-title: "Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer"
+title: Senden einer e-Mails an einen Benutzer mit ihren Einwahlinformationen
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
-description: "Send your users an email with their dial-in conferencing information."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: Senden Sie Ihre Benutzer eine e-Mail mit ihren Audiokonferenzinformationen.
+ms.openlocfilehash: cb7aaa956b6a679b918603e2aef2ff15ff04a779
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer
 
-# Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer
-
-Es kann erforderlich sein, Benutzern ihre Einwahlkonferenzdaten zuzusenden. Dazu können Sie im Skype for Business Admin Center unter den Einwahleigenschaften für einen Benutzer auf **Konferenzinformationen per E-Mail senden** klicken. Wenn Sie diese E-Mail senden, enthält sie alle Einwahldaten, wie zum Beispiel:
+Manchmal Skype für Business oder Microsoft-Teams, Benutzer benötigen Sie möglicherweise dies ihre Informationen Audiokonferenzen veranlassen. Sie können diese Schritte durchführen, indem Sie mithilfe der **Skype für Business Administrationscenter** und unter den Eigenschaften für einen Benutzer auf **Konferenz Informationen per e-Mail senden** . Wenn Sie diese e-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
   
 - Die Konferenztelefon- oder Einwahltelefonnummer für den Benutzer.
     
 - Die Konferenz-ID des Benutzers.
     
     > [!NOTE]
-    > Feste Nummern werden verwendet, wenn sich die Mitarbeiter Ihres Unternehmens keine Zufallszahlenkombinationen merken möchten und es bevorzugen, eine bestimmte bzw. leicht zu merkende Nummer auszuwählen. Bei der Verwendung von dynamischen Konferenz-IDs wird für jede, vom Benutzer geplante Besprechung, eine eindeutige Konferenz-ID zugewiesen. Wenn Sie dynamische Konferenz-IDs zuweisen möchten, klicken Sie [Verwenden von Audiokonferenzanbieter dynamische IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md)
+    > Statische-IDs werden verwendet, wenn Personen in Ihrer Organisation keine Zufallszahl merken möchten; Sie können wählen Sie eine bestimmte Zahl oder verwenden Sie eine, die leicht zu merken ist. Wenn dynamische Konferenz-IDs verwendet werden, jeder Sitzung, die eine vom Benutzer geplant werden eine eindeutige Konferenz-ID. zugewiesen Wenn Sie zuweisen dynamische statt statische Konferenz-IDs, [Wechseln Sie hier möchten](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
-So kann diese gesendete E-Mail aussehen:
+Es folgt ein Beispiel der e-Mail, die gesendet wird:
   
-![E-Mail zu einer Dial-In-Konferenz](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
+![E-Mail zu einer Dial-In-Konferenz](../images/audio-conferencing-info.png)
   
-## Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden Sie eine e-Mail mit Audiokonferenzinformationen an einen Benutzer
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Gehen Sie auf das **Office 365 Admin Center** > **Skype for Business** und klicken Sie in der linken Navigationsleiste auf **Einwahlkonferenzen**.
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Skype für Unternehmen**, und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
     
-3. Klicken Sie auf **Benutzer mit eingehenden Verbindungen** und wählen Sie dann den Benutzer aus.
+3. Klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus.
     
 4. Klicken Sie im Bereich „Aktion" auf **Konferenzinformationen per E-Mail senden**.
     
 > [!TIP]
-> Sie können dem Benutzer auch eine E-Mail über die Einwahlkonferenzeinstellungen senden. Navigieren Sie dazu zu den Benutzereigenschaften > **Einwahlkonferenzen** > **Konferenzinformationen per E-Mail senden**. 
+> Sie können e-Mail auch für den Benutzer mit den Einstellungen Audiokonferenzen senden, indem die Eigenschaften des Benutzers bearbeiten und dann auf **Audiokonferenzen** > **Konferenz Informationen per e-Mail senden**. 
   
-## Was sollten Sie sonst über diese E-Mails wissen?
+## <a name="what-else-should-you-know-about-this-email"></a>Was sollten Sie sonst über diese E-Mails wissen?
 
-- Es gibt mehrere E-Mails, die Ihren Benutzern im Unternehmen nach ihrer Aktivierung für Einwahlkonferenzen gesendet werden:
+- Es gibt mehrere e-Mails, die gesendet werden, um Benutzer in Ihrer Organisation, nachdem sie aktiviert sind für Audiokonferenzen:
     
-  - Wenn ihnen eine Lizenz für **Skype for Business PSTN Conferencing** zugewiesen wird.
+  - Wenn Ihnen eine **Audiokonferenz** -Lizenz zugewiesen wird.
     
-  - Wenn Sie die Einwahlkonferenz-PIN des Benutzers manuell zurücksetzen.
+  - Wenn Sie manuell des Benutzers Audiokonferenzen PIN zurücksetzen.
     
-  - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
+  - Wenn Sie die Konferenz-PIN des Benutzers manuell zurücksetzen.
     
-  - Wenn ihnen die Lizenz für **Skype for Business PSTN Conferencing** entzogen wird.
+  - Wenn eine **Audiokonferenz** Lizenz daraus entfernt wird.
     
-  - Wenn sich der Anbieter von Einwahlkonferenzen eines Benutzers von Microsoft auf einen anderen Anbieter oder **Kein** ändert.
+  - Wenn der Anbieter von Audiokonferenzen für einen Benutzer von Microsoft auf einen anderen Anbieter oder **None**geändert wird.
     
-  - Wenn sich der Anbieter von Einwahlkonferenzen eines Benutzers von einem anderen auf Microsoft ändert.
+  - Wenn der Anbieter von Audiokonferenzen für einen Benutzer an Microsoft geändert wird.
     
-- Standardmäßig ist Office 365 als Absender der E-Mails angegeben. Sie können jedoch die E-Mail-Adresse und den angezeigten Namen mithilfe von Windows PowerShell und des Cmdlets [Set-CsOnlineDialInConferencingTenantSettings](http://go.microsoft.com/fwlink/?LinkId=708983) ändern. Um Änderungen an der E-Mail-Adresse vorzunehmen, über die die E-Mail an die Benutzer gesendet wird, müssen Sie:
+- Standardmäßig der Absender der e-Mail-Nachrichten werden von Office 365, aber Sie können die e-Mail-Adresse ändern und den Anzeigenamen mithilfe von Windows PowerShell und das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) . Um die e-Mail-Adresse ändern, die die e-Mail an Benutzer senden, müssen Sie folgende Aktionen ausführen:
+    
+  - Geben Sie die e-Mail-Adresse in der SendEmailFromAddress-Parameter.
+    
+  - Den SendEmailOverride-Parameter auf "true" festlegen.
+    
+  - Geben Sie den e-Mail-Anzeigenamen im SendEmailFromDisplayName-Parameter.
+    
+     `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
     > [!NOTE]
     > Wenn Sie die E-Mail-Adressinformationen ändern möchten, müssen Sie sicherstellen, dass die Richtlinien Ihres Unternehmens für eingehende E-Mails es zulassen, dass E-Mails von der festgelegten benutzerdefinierten Absenderadresse gesendet werden. 
   
-  - Die E-Mail-Adresse in den Parameter  _SendEmailFromAddress_ eingeben.
-    
-  - Den Parameter  _SendEmailOverride_ auf _True_ einstellen.
-    
-  - Den in der E-Mail angezeigten Namen in den Parameter  _SendEmailFromDisplayName_ eingeben.
-    
-     `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
-    
-## Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688 ) nutzen.
+- Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) nutzen.
     
-    So senden Sie eine E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer:
+    Um eine e-Mail an den Benutzer mit ihren Audiokonferenzinformationen senden möchten, führen Sie folgenden Befehl:
     
   ```
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+-  In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
-  - [Sechs Gründe für die Verwendung von Windows PowerShell zur Verwaltung von Office 365 ](http://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum müssen Sie mithilfe von Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell bietet gegenüber einer alleinigen Verwendung von Office 365 Admin Center in Bezug auf Geschwindigkeit, Einfachheit und Produktivität unzählige Vorteile, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. In den folgenden Themen erfahren Sie mehr über diese Vorteile:
+- Windows PowerShell hat viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität über nur über das Office 365 Administrationscenter, beispielsweise wenn Sie ändert sich die Einstellung für viele Benutzer gleichzeitig durchführen. Informationen Sie zu dieser Vorteile in den folgenden Themen: 
     
-  - [Eine Einführung in Windows PowerShell und Skype for Business Online](http://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Eine Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-    [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](http://go.microsoft.com/fwlink/?LinkId=525453)
+    [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](http://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](http://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
+    > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
+## <a name="related-topics"></a>Verwandte Themen
 
+[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)

@@ -1,47 +1,52 @@
 ---
-title: "Starten einer Audiokonferenz per Telefon ohne PIN"
+title: "Beginnen einer Audio-Konferenz über das Telefon ohne PIN"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/16/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: d5b1f775-d7ed-4d30-853a-1d49f81e8fde
-description: "Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
+ms.openlocfilehash: c77921af87cab23b475c31205da4661755c56961
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Beginnen einer Audio-Konferenz über das Telefon ohne PIN
 
-# Starten einer Audiokonferenz per Telefon ohne PIN
-
-> [!IMPORTANT]
-> Dieser Artikel wurde maschinell übersetzt. Bitte beachten Sie den Haftungsausschluss.  
+Es kann für Benutzer frustrierend sein, die sich in in eine Besprechung einwählen gehalten werden, in der Besprechung Wartebereich Musik hören, weil die Skype für Business oder Microsoft-Teams Organisator die Besprechung noch nicht gestartet. 
   
-Es möglicherweise für Benutzer frustrierend sein, die sich einwählen, um eine Besprechung an, in die Musik hören, da die Skype für Business- oder Microsoft Teams Organisator die Besprechung noch nicht gestartet Besprechungslobby stattfinden soll.
+Wenn Organisator einer Besprechung die Besprechung standardmäßig in Aufrufe ist eine PIN erforderlich, um eine Besprechung zu starten. Sie können es einrichten, damit alle Benutzer an einer Besprechung einwählen kann und keine Aufforderung des Benutzers für eine PIN, um die Besprechung zu starten. Sie können die Skype für Business Administrationscenter aktivieren oder deaktivieren diese Einstellung für einen einzelnen Benutzer verwenden.
   
-Wenn sich der Organisator einer Besprechung in seine Besprechung einwählt, benötigt er zum Starten der Besprechung standardmäßig eine PIN. Sie können dies so einrichten, dass sich jeder in die Besprechung einwählen kann, ohne zur Eingabe einer PIN zum Starten der Besprechung aufgefordert zu werden. Sie können sie so einrichten, dass ein einzelner Benutzer oder alle Benutzer mit eingehenden Verbindungen in Ihrem Unternehmen ihre Besprechungen ohne PIN starten können. Sie können diese Einstellung für einen einzelnen Benutzer im Skype for Business Admin Center aktivieren oder deaktivieren.
+Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine Person die Besprechung aus einem Skype für Business oder Microsoft-Teams app gestartet wurde. Eine PIN ist nur erforderlich, wenn der Organisator einer Besprechung über ein Telefon ihrer Besprechung teilnehmen. Die PIN für Besprechungen wird an den audio-Benutzer gesendet, die **Audiokonferenz** Lizenz zugewiesen werden und für Audiokonferenzen aktiviert sind. Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md) und [E-Mails, die Benutzern beim Ändern ihrer Einstellungen für die Audiokonferenz automatisch gesendet werden](emails-sent-to-users-when-their-settings-change.md).
   
-Eine PIN ist nicht erforderlich, damit der Besprechungsorganisator, wenn jemand die Besprechung aus einem Skype for Business- oder Microsoft Teams-app gestartet hat. Eine PIN ist nur erforderlich, wenn Sie eine Besprechung Organisieren ihrer Besprechung über ein Telefon verknüpft. Die PIN für Besprechungen ist für den Benutzer einwählen gesendet, wenn sie die Lizenz **Audiokonferenzanbieter** zugewiesen sind und für Audiokonferenzanbieter aktiviert sind. Finden Sie unter[Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-audio-conferencing-information.md) und[E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einwahlkonferenzeinstellungen ändern](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md).
-  
-## Aktivieren oder Deaktivieren anonymer Anrufer für die Teilnahme an einer Besprechung
+## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Aktivieren oder Deaktivieren anonymer Anrufer für die Teilnahme an einer Besprechung
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Wechseln Sie in der **Skype for Business Admin Center**, im linken Navigationsbereich auf **Audio Konferenzen** > **Benutzer mit eingehenden Verbindungen**.
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**. 
     
-4. Wählen Sie den Benutzer aus der Liste aus und klicken Sie im Bereich „Aktion" auf **Bearbeiten**.
+4. Klicken Sie in der Liste Wählen Sie den Benutzer aus, und klicken Sie im Bereich Aktion auf **Bearbeiten**. 
     
-5. Aktivieren oder deaktivieren Sie auf der Seite „Eigenschaften" unter **Besprechungsoptionen** die Option **Zulassen, dass nicht authentifizierte Benutzer als erste Teilnehmer an einer Besprechung teilnehmen Wenn nicht, warten sie im Wartebereich, bis ein authentifizierter Benutzer an der Besprechung teilnimmt**.
+5. Eigenschaftenseite des Benutzers unter **Besprechungsoptionen**aktivieren oder Deaktivieren von **zulassen, die nicht authentifizierte Anrufer, um die ersten Personen in einer Besprechung werden. Wenn nicht, klicken Sie dann sie im Wartebereich wartet, bis ein authentifizierter Benutzer Beitritt**.
     
-6. Klicken Sie auf **Speichern**.
+6. Klicken Sie auf **Speichern**. 
     
- **So aktivieren oder Deaktivieren von anonymen Anrufern alle des Benutzers Besprechungen mithilfe von Windows Powershell**
+ **Aktivieren oder Deaktivieren der anonyme Anrufern für alle Ihre Benutzer Besprechungen mithilfe von Windows Powershell**
   
 - Führen Sie Folgendes aus: 
     
@@ -49,35 +54,35 @@ Eine PIN ist nicht erforderlich, damit der Besprechungsorganisator, wenn jemand 
   Set-CsOnlineDialInConferencingTenantSetting -AllowPSTNOnlyMeetingsByDefault $true | $false
   ```
 
-## Was sollten Sie noch wissen?
+## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
-- Wenn Sie die PIN zurücksetzen möchten, finden Sie unter [Zurücksetzen der Einwahlkonferenz-PIN für einen Benutzer](reset-the-audio-conferencing-pin-for-a-user.md).
+- Informationen zum Zurücksetzen der PIN finden Sie unter [Zurücksetzen der Einwahlkonferenz-PIN für einen Benutzer](reset-the-audio-conferencing-pin-for-a-user.md).
     
-- Wenn der anonyme Zugriff oder das Starten einer Besprechung ohne PIN aktiviert ist:
+- Wenn anonymer Zugriff oder keine erfordern eine PIN an eine Besprechung starten aktiviert ist:
     
-  - Wenn die Besprechung noch nicht gestartet (es ist keine in der Besprechung noch): ein Anrufer aufgefordert werden, ist er der Organisator, wenn sagt er auf Ja, er nach He Eingaben die PIN für seine PIN aufgefordert werden werden, die Besprechung gestartet wird und der Benutzer wird an der Besprechung teilnehmen.
+  - Wenn die Besprechung noch nicht gestartet (es ist keine Empfänger in der Besprechung noch): ein Anrufer aufgefordert werden, wenn er der Organisator ist; Wenn er Ja angezeigt wird, wird er für seine PIN aufgefordert, und nachdem er die PIN eingibt, die Besprechung wird gestartet, und der Benutzer wird an der Besprechung teilnehmen.
     
-  - Wenn die Besprechung bereits gestartet (Person ist bereits in der Besprechung): ein Anrufer nicht aufgefordert werden, ist er des Organisators und er werden nie für die PIN aufgefordert werden, die Besprechung bereits gestartet wird, wird der Anrufer verknüpfen Sie ihn.
+  - Wenn die Besprechung bereits gestartet (eine andere Person ist bereits in der Besprechung): ein Anrufer nicht aufgefordert werden, wenn er der Organisator ist und er nie für die PIN aufgefordert; die Besprechung wurde bereits gestartet, und der Anrufer wird verknüpfen, um.
     
-- Wenn anonymer Zugriff oder eine PIN zum Starten einer Besprechung keine Anmeldung deaktiviert ist:
+- Wenn anonymer Zugriff oder keine erfordern eine PIN an eine Besprechung starten deaktiviert ist:
     
-  - Wenn die Besprechung noch nicht gestartet (es ist keine in der Besprechung noch): ein Anrufer nicht aufgefordert werden, wenn er des Organisators ist, und er nie für die PIN aufgefordert werden werden. Da die Einstellung für des Organisators deaktiviert festgelegt ist, wird die Besprechung starten und anonymen Anrufern werden an der Besprechung teilnehmen.
+  - Wenn die Besprechung noch nicht gestartet (es ist keine Empfänger in der Besprechung noch): ein Anrufer nicht aufgefordert, wenn er der Organisator ist und er nie für die PIN aufgefordert werden werden. Da die Einstellung der Organisator der OFF festgelegt ist, die Besprechung wird gestartet, und anonyme Anrufer werden an der Besprechung teilnehmen.
     
-  - Wenn die Besprechung bereits gestartet (Person ist bereits in der Besprechung): ein Anrufer nicht aufgefordert werden, ist er des Organisators und er werden nie für die PIN aufgefordert werden, die Besprechung bereits gestartet wird, wird der Anrufer verknüpfen Sie ihn.
+  - Wenn die Besprechung bereits gestartet (eine andere Person ist bereits in der Besprechung): ein Anrufer nicht aufgefordert, wenn er der Organisator ist und er nie für die PIN aufgefordert; die Besprechung bereits gestartet, und der Anrufer wird verknüpfen, um.
     
-## Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Wenn Sie Zeit sparen, oder dies für mehrere Benutzer automatisieren, können Sie das Cmdlet " [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) " verwenden.
+- Um Zeit zu sparen bzw. den Vorgang für mehrere Benutzer zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) nutzen.
     
-- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+-  In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
-  - [Sechs Gründe für die Verwendung von Windows PowerShell zur Verwaltung von Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum müssen Sie mithilfe von Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell bietet gegenüber einer alleinigen Verwendung von Office 365 Admin Center in Bezug auf Geschwindigkeit, Einfachheit und Produktivität unzählige Vorteile, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. In den folgenden Themen erfahren Sie mehr über diese Vorteile:
+- Windows PowerShell hat viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität über nur über das Office 365 Administrationscenter, beispielsweise wenn Sie Einstellungen Änderungen für viele Benutzer gleichzeitig durchführen. Informationen Sie zu dieser Vorteile in den folgenden Themen: 
     
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Eine Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -86,10 +91,6 @@ Eine PIN ist nicht erforderlich, damit der Besprechungsorganisator, wenn jemand 
     > [!NOTE]
     > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Verwandte Themen
 
-> [!NOTE]
-> **Haftungsausschluss für maschinelle Übersetzungen**: Dieser Artikel wurde mithilfe eines Computersystems und ohne jegliche Bearbeitung durch Personen übersetzt. Microsoft bietet solche maschinellen Übersetzungen als Hilfestellung für Benutzer ohne Englischkenntnisse an, damit Sie von den Informationen zu Produkten, Diensten und Technologien von Microsoft profitieren können. Da es sich bei diesem Artikel um eine maschinelle Übersetzung handelt, enthält er möglicherweise Fehler in Bezug auf (Fach-)Terminologie, Syntax und/oder Grammatik. 
-  
-
+[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)

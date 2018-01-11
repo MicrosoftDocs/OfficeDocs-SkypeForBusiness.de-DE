@@ -1,25 +1,34 @@
 ---
-title: "Aktivieren oder Deaktivieren von Feedbackberichten im Skype for Business-Client"
+title: Aktivieren oder Deaktivieren von Feedbackberichten im Skype for Business-Client
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
-description: "Diese Funktion ist derzeit in der Vorschau und kann vor der Veröffentlichung oder bei Aktualisierungen geändert werden."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Sie können Ihre Skype für Unternehmensbenutzer mithilfe der integrierten Skype für Business app-Feedback-Tool, damit Benutzer Probleme melden, und geben Sie Feedback direkt an Microsoft zu ihren Wünschen aktivieren."
+ms.openlocfilehash: 72a72a7ac71f3d6e7707ce2a70109b9432f034f7
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Aktivieren oder Deaktivieren von Feedbackberichten im Skype for Business-Client
 
-# Aktivieren oder Deaktivieren von Feedbackberichten im Skype for Business-Client
-
- **Diese Funktion ist derzeit in der Vorschau und kann vor der Veröffentlichung oder bei Aktualisierungen geändert werden.**
-  
-Sie können Ihren Skype for Business-Benutzern die Verwendung des Feedbacktools in der Skype for Business-App ermöglichen. Über dieses integrierte Tool können Benutzer Probleme melden und Feedback zur Verwendung der App direkt an Microsoft senden. 
+Sie können Ihre Skype für Unternehmensbenutzer mithilfe der integrierten Skype für Business app-Feedback-Tool, damit Benutzer Probleme melden, und geben Sie Feedback direkt an Microsoft zu ihren Wünschen aktivieren. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
-Benutzer können mit dem Tool die Protokolle aus der App auf ihrem Gerät kopieren, um Microsoft die Untersuchung und Behandlung von eventuellen Problemen zu erleichtern. 
+Mit diesem Tool kann Benutzer kopieren die Protokolle von der app auf ihrem Gerät Microsoft besser zu untersuchen und Behandeln von Problemen, die sie möglicherweise helfen. 
   
 ![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
@@ -27,14 +36,14 @@ Sie können auch die Einstellung  _EnableOnlineFeedbackScreenshot_ verwenden, da
   
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
-> [!SICHERHEITSHINWEIS]
-> Die vom Feedbacktool der App erfassten Protokolle werden maximal 90 Tage lang in den USA gespeichert, während das Problem untersucht wird. Aktivieren Sie daher das Feedbacktool nicht, wenn dies einen Verstoß gegen die Datenschutzrichtlinien Ihrer Organisation darstellt. 
+> [!IMPORTANT]
+> Die Protokolle von der app Feedbacktool gesammelt werden gespeichert für bis zu maximal 90 Tage in den USA, während das Problem untersucht wird. Aus diesem Grund aktivieren Sie nicht dieses Feedbacktool Wenn dies Ihres Unternehmens Data Protection Richtlinie verstößt. 
   
-## Überprüfen und Starten von Windows PowerShell
+## <a name="verify-and-start-windows-powershell"></a>Überprüfen und Starten von Windows PowerShell
 
 - **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
     
-1. Zum Überprüfen, ob Version 3.0 oder höher ausgeführt wird, gehen Sie wie folgt vor: Klicken Sie im Startmenü **** auf **Windows PowerShell**.
+1. Um sicherzustellen, dass Sie Version 3.0 oder höher ausgeführt werden: **Im Menü Start** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster **Windows PowerShell** die Zeichenfolge _Get-Host_ eingeben.
     
@@ -42,51 +51,33 @@ Sie können auch die Einstellung  _EnableOnlineFeedbackScreenshot_ verwenden, da
     
 4. Sie müssen auch das Windows PowerShell-Modul für Skype for Business Online installieren, mit dem Sie eine Windows PowerShell-Remotesitzung erstellen können, die eine Verbindung mit Skype for Business Online herstellt. Dieses Modul, das nur auf 64-Bit-Computern unterstützt wird, kann aus dem Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden. Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
     
-    Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx).
+Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
     
 - **Starten einer Windows PowerShell-Sitzung**
     
-1. Wechseln Sie über das Startmenü **** zu **Windows PowerShell**.
+1. Über das **Startmenü** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
-  
 > 
   ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
-
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-## Aktivieren von Feedbackberichten in der Client-App für alle Benutzer in Ihrer Organisation
+## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Aktivieren von Feedbackberichten in der Client-App für alle Benutzer in Ihrer Organisation
 
-Um Feedbackberichte für die Benutzer in Ihrer Organisation zu aktivieren und ihnen das Übermitteln von Gerätescreenshots zu ermöglichen, führen Sie Folgendes aus:
-  
+Um Feedback reporting für Benutzer in Ihrer Organisation zu aktivieren, und ermöglicht es ihnen, Screenshots Gerät übermitteln, führen Sie Folgendes aus:
 > 
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
-
   ```
-
-## Möchten Sie mehr über Windows PowerShell erfahren?
-
+## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 - In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
@@ -100,5 +91,8 @@ Um Feedbackberichte für die Benutzer in Ihrer Organisation zu aktivieren und ih
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
 
+## <a name="related-topics"></a>Verwandte Themen
+[Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
+
+[Können Sie Skype für Unternehmensbenutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)

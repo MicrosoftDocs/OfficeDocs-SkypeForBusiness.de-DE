@@ -1,71 +1,83 @@
 ---
-title: "Anzeigen einer Liste mit Einwahlnummern für Einwahlkonferenzen"
+title: Anzeigen einer Liste der Audiokonferenz Zahlen
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
-description: "Learn how to look up your dial-in conferencing numbers from within Skype for Business. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Informationen Sie zum Nachschlagen von Ihrer einwahlkonferenzen Zahlen zwischen in Skype für Unternehmen. "
+ms.openlocfilehash: 45e4dd113845c9c565162c4ef3047df83e1aeb43
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="see-a-list-of-audio-conferencing-numbers"></a>Anzeigen einer Liste der Audiokonferenz Zahlen
 
-# Anzeigen einer Liste mit Einwahlnummern für Einwahlkonferenzen
-
-Wenn Sie Einwahlkonferenzen in Skype for Business Online einrichten, können Sie die für Ihre Benutzer bei Einwahlkonferenzen verfügbaren Telefonnummern anzeigen. Diese Liste enthält alle Einwahlkonferenz-Telefonnummern, die für Ihre Organisation verfügbar sind. Es wird nicht jede für Einwahlkonferenzen verfügbare Telefonnummer aufgelistet, Sie können jedoch durch Klicken auf [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing.md) die Länder/Regionen anzeigen, in denen Telefonnummern für Einwahlkonferenzen verfügbar sind.
+Wenn Sie Audiokonferenzen für Skype für Unternehmen und die Microsoft-Teams, einrichten, können Sie die angezeigten Rufnummern anzeigen, die Ihnen für Audiokonferenzen verfügbar sind. Diese Liste müssen alle Rufnummern Audiokonferenzen, die für Ihre Organisation verfügbar sind.
   
-Wenn für Ihre Organisation nur eine Telefonnummer verfügbar ist, wird sie als Standardtelefonnummer für alle Benutzer verwendet. Wenn mehrere Telefonnummern verfügbar sind, können Sie für jeden Benutzer eine Standardtelefonnummer auswählen. Diese Standardnummer ist in den Einladungen für Besprechungen über Skype for Business Online angegeben.
+ **Suchen Sie nach Preise?** Finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
-Weitere Informationen zum Ändern der Einwahl-Telefonnummer für einen Benutzer finden Sie unter [Festlegen der in Einladungen enthaltenen Audiokonferenz-Telefonnummern für Besprechungsorganisatoren](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
+> [!IMPORTANT]
+> **Es ist keine Ressource, die eine Auflistung aller die Einwahlnummern für Audiokonferenzen enthält.** Wenn Sie suchen, um festzustellen, ob in Ihrer Stadt oder Land/Region-Einwahl Telefonnummern vorhanden sind, gehen Sie zu **Skype für Business Administrationscenter** > **VoIP** > **Telefonnummern**klicken Sie auf **Hinzufügen**, und klicken Sie dann auf **neuen Dienst Zahlen**. Verwenden Sie die Listen für **Land/Region**, Bundesland/Kanton ****, und **Ort** zum Filtern der Suche. Auch wenn Sie für gebührenfreie Service Zahlen suchen, wählen Sie **gebührenfreie Rufnummer** aus **Bundesland/Kanton** Liste.
+  
+Wenn es nur eine Rufnummer in Ihrer Organisation verfügbar sind ist, wird es für alle Benutzer als die Standardnummer verwendet werden. Wenn mehrere Telefonnummern verfügbar sind, können Sie die Standardrufnummer für jeden Benutzer auswählen. Diese Standardrufnummer wird in Skype für Geschäfts- und Microsoft-Teams, besprechungseinladungen enthalten sein.
+  
+Finden Sie unter So ändern Sie die Telefonnummer Zugriffsnummer für Einwahl für einen einzelnen Benutzer [gewählte Nummern auf enthalten invites Telefonnummern festgelegt](set-the-phone-numbers-included-on-invites.md) .
   
 > [!NOTE]
-> Inländische Einwahlnummern sind Ihrer Organisation zugeordnet. Nur solche Nummern können als Standardtelefonnummer eingestellt werden. Internationale Einwahlnummern können von mehreren Organisationen gemeinsam verwendet werden. 
+> Nationalen Einwahlnummern für Ihre Organisation dediziert werden und werden nur diejenigen aus, die als Standardrufnummer festgelegt werden können. Internationale Nummern können jedoch in mehreren Organisationen gemeinsam genutzt werden. 
   
-## So zeigen Sie Ihre Einwahlnummern für Einwahlkonferenzen an:
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Rufnummern Audiokonferenzen an
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Schalten Sie in **Skype for Business Admin Center** in der linken Navigationsleiste zu **Einwahlkonferenz** > **Microsoft Bridge**. Nächster Schritt:
+3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Microsoft Bridge**, und führen Sie dann:
     
-  - Sie können die Telefonnummern anzeigen, die zur Verwendung für Einwahlkonferenzen verfügbar sind.
+  - Sie können die Telefonnummern anzeigen, die für Audiokonferenzen verfügbar sind.
     
-  - Sie können zudem den Standort sowie die primären und sekundären Sprachen anzeigen, die von der automatischen Telefonzentrale für Einwahlkonferenzen verwendet werden.
+  - Sie können auch den Speicherort anzeigen, und die primären und sekundären Sprachen, die durch die Audiokonferenz verwendet werden automatische Telefonzentrale.
     
 > [!NOTE]
-> Sie können unter **Einwahlkonferenzen** > **Benutzer mit eingehenden Verbindungen** die Eigenschaften des Benutzers auswählen und die Standardtelefonnummer ändern. Wählen Sie dazu eine neue Nummer aus der Liste der für Ihr Unternehmen verfügbaren Telefonnummern aus. Siehe[Festlegen der in Einladungen enthaltenen Audiokonferenz-Telefonnummern für Besprechungsorganisatoren](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md). 
+> Sie können wechseln Sie zur **Audiokonferenz** > **Benutzer** und wählen Sie Eigenschaften so ändern Sie die Standardeinstellung des Benutzers zu nummerieren, indem Sie eine neue Nummer aus der Liste der verfügbaren Nummern in Ihrer Organisation auswählen. Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md). 
   
-## Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Get-CsOnlineDialInConferencingServiceNumber](http://go.microsoft.com/fwlink/?LinkId=617691) nutzen.
+- Um Zeit sparen oder dies automatisieren, können Sie das Cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) verwenden.
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Windows PowerShell ist alles über das Verwalten von Benutzern und welche Benutzer zugelassen oder Aktionen nicht zulässig sind. Mit Windows PowerShell können Sie eine zentrale Verwaltung Ihrer täglichen Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen, die mit Office 365 verwalten. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
-  - [Sechs Gründe für die Verwendung von Windows PowerShell zur Verwaltung von Office 365 ](http://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum müssen Sie mithilfe von Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell bietet gegenüber einer alleinigen Verwendung von Office 365 Admin Center in Bezug auf Geschwindigkeit, Einfachheit und Produktivität unzählige Vorteile, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. In den folgenden Themen erfahren Sie mehr über diese Vorteile:
+- Windows PowerShell hat viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität über nur über das Office 365 Administrationscenter, beispielsweise wenn Sie ändert sich die Einstellung für viele Benutzer gleichzeitig durchführen. Informationen Sie zu dieser Vorteile in den folgenden Themen:
     
-  - [Eine Einführung in Windows PowerShell und Skype for Business Online](http://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Eine Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](http://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](http://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](http://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
+    > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
-## Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
-#### Weitere Ressourcen
-
-[Einwahlkonferenzen in Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
+[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)
+  
 
