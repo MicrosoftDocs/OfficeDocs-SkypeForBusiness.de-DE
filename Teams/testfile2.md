@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: afe1e1eef51399bf5ff9843aef19ad3e265cf4c3
-ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
+ms.openlocfilehash: 0bbef52ce06440aeb9d279937396f381a3ab408b
+ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="welcome-to-sharepoint-and-onedrive"></a>Willkommen bei SharePoint und OneDrive
 

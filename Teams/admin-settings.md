@@ -7,16 +7,21 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Apps in Microsoft Teams aktiviert werden. Dazu zählt auch das Querladen von externen Apps."
-ms.openlocfilehash: ca969e073cf35309b65aeedf93acda31d388629c
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 4265866bb346da1aa773d337d02fc1c11149f579
+ms.sourcegitcommit: ee1c79b6d6d73e5fc702fe55b9e5aee8a7aae793
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/10/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
 
-In diesem Abschnitt beziehen wir uns auf Registerkarten, Connectors und Bots bzw. eine beliebige Kombination dieser Funktionen, die von einem einzelnen Drittanbieterdienst bereitgestellt werden. Im Office 365-Verwaltungsportal können Administratorrichtlinien konfiguriert werden, um zu steuern, welche externen Drittanbieter-Apps zulässig sind. Mit diesen Richtlinien können festlegen, welche Apps zulässig bzw. nicht zulässige sind, neues externes App-Verhalten definieren und angeben, ob Querlade-Apps zulässig sind.
+Apps sind Registerkarten, Connectors und Bots bzw. eine beliebige Kombination dieser drei Elemente, die von einem Drittanbieterdienst bereitgestellt werden. Im Office 365 Admin Center können Administratorrichtlinien konfiguriert werden, um zu steuern, welche externen Drittanbieter-Apps zulässig sind. Mit diesen Richtlinien können Sie festlegen, welche Apps zulässig bzw. nicht zulässig sind, das Verhalten neuer externer Apps definieren und angeben, ob das Querladen von Apps zulässig ist.
+
+> [!NOTE]
+> Um die Administratoreinstellungen für Apps in Microsoft Teams zu verwalten, wechseln Sie zum Office 365 Admin Center. Öffnen Sie **Einstellungen** > **Dienste und Add-Ins**, und wählen Sie dann **Microsoft Teams** aus. Wenn Sie als Office 365-Administrator angemeldet sind, können Sie diesen Link verwenden:
+> 
+> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 **Externe Apps in Microsoft Teams zulassen**
 
