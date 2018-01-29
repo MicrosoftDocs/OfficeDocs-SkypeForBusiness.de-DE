@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: f2ed48030033436cecebb73e6cafba2d8494b6ed
-ms.sourcegitcommit: 3a85439009e9b3f85d5757c63db82d4ba3b622df
+ms.openlocfilehash: d2576d254865e7f97ff614cc80689d952d8a3997
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Willkommen bei den Office-Inhalten auf „docs.microsoft.com“
 ## <a name="this-is-a-level-2-heading"></a>Dies ist eine Überschrift der Ebene 2.
@@ -13,7 +13,7 @@ ms.lasthandoff: 11/15/2017
 *kursiv*
 **fett** Text [Dies ist ein Link.](Office-365-groups.md)
 
-![Beliebiger Alternativtext](media/Overview-Microsoft-Teams-image1.png) Hallo
+![Beliebiger Alternativtext](media/Overview-Microsoft-Teams-image1.png) Hallo Testupdate
 1. Element 2
 2. Element 3
 3. Element 4

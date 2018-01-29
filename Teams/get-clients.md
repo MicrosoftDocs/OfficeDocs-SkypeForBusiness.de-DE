@@ -7,11 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verwenden."
-ms.openlocfilehash: 2f07ba9fc8c7f08adf608c5d3a0708e680967632
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
+ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/18/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -27,20 +27,12 @@ Zum Ausführen von Microsoft Teams in einem Webbrowser ist kein Plug-In oder Dow
 
 Der Webclient erkennt die Browserversion beim Herstellen der Verbindung mit [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Wenn eine nicht unterstützte Browserversion erkannt wird, wird der Zugriff auf die Webschnittstelle blockiert, und dem Benutzer wird empfohlen, den Desktopclient oder die mobile App herunterzuladen.
 
-Microsoft Teams unterstützt die folgenden Browser und Versionen:
-
--   **Microsoft Edge**: 12+
-
--   **Internet Explorer:** 11+
-
--   **Chrome**: 51.0+
-
--   **Firefox**: 55+
-
-
+<a name="internet-browser-support"></a>Unterstützung für Internetbrowser
+------------------------------
+Microsoft Teams unterstützt die folgenden Internetbrowser: Internet Explorer 11, Microsoft Edge, die neueste Version von Chrome und die neueste Version von Firefox.
 
 > [!NOTE]
-> Safari wird noch nicht unterstützt, die Unterstützung kommt jedoch bald.
+> Safari wird zurzeit nicht unterstützt. Neuigkeiten zu den neuen Funktionen in Microsoft Teams finden Sie in der [Microsoft Teams-Roadmap](http://aka.ms/TeamsRoadmap). Benutzer, die Microsoft Teams in Safari zu öffnen versuchen, werden aufgefordert, den Microsoft Teams-Desktopclient herunterzuladen.
 
 <a name="desktop-clients"></a>Desktopclients
 ------------------------

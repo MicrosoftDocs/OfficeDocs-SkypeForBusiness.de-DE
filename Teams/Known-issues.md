@@ -7,11 +7,11 @@ ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
 description: "Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen."
-ms.openlocfilehash: b4335a9d3f85b00706b7f6d61c9b232f01193abe
-ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
+ms.openlocfilehash: 32eb38ed3e90a3a57f789b2ba5c4566d2a52e115
+ms.sourcegitcommit: f332028d01a15272da0b09c6d751dbf227cb2d30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -52,6 +52,6 @@ In der folgenden Tabelle finden Sie die bekannten Probleme für Microsoft Teams.
 |Ein Profilbild kann nicht gespeichert werden.  <br/> |Benutzer können ihr Profilbild nicht speichern, wenn das Exchange-Postfach lokal gehostet (verwaltet) wird.  <br/> |Keine Problemumgehung.  <br/> |28.02.2017  <br/> |
 |Besprechungen sind nicht verfügbar.  <br/> |Die Besprechungsfunktion und das zugehörige Symbol sind nicht verfügbar, wenn das Exchange-Postfach lokal gehostet (verwaltet) wird.  <br/> |Führen Sie ein Upgrade der lokalen Bereitstellung auf Exchange 2016 CU3 oder höher aus.  <br/> |28.02.2017  <br/> |
 |Gruppenpostfächer sind nicht für Archivierungszwecke (zusätzlicher Speicher) aktiviert.  <br/> |Im Office 365 Security & Compliance Center können globale Administratoren die Archivierung für Gruppenpostfächer nicht aktivieren. Dies ist nur für Benutzerpostfächer möglich.  <br/> |Wenn die Kapazität des Gruppenpostfachs fast erreicht ist, bitten Sie den Microsoft Office-Support, die Postfachgröße zu erweitern.  <br/> |01.02.2017  <br/> |
-|Unterstützung des Webclients in Safari  <br/> |Benutzer, die den Microsoft Teams-Webclient in Safari zu öffnen versuchen, werden aufgefordert, den Desktopclient herunterzuladen. Microsoft überprüft die Safari-Unterstützung und informiert in der öffentlichen Office 365-Roadmap über Updates.  <br/> |Verwenden Sie unterstützte Browser wie zum Beispiel Microsoft Edge 12+, Internet Explorer 11+, Firefox 55+ und Chrome 51.0+.  <br/> |2.11.2016  <br/> |  
+|Unterstützung des Webclients in Safari  <br/> |Benutzer, die den Microsoft Teams-Webclient in Safari zu öffnen versuchen, werden aufgefordert, den Desktopclient herunterzuladen. Microsoft überprüft die Safari-Unterstützung und informiert in der [Microsoft Teams-Roadmap](http://aka.ms/TeamsRoadmap) über Updates.  <br/> |Verwenden Sie die folgenden unterstützten Internetbrowser: Internet Explorer 11, Microsoft Edge, die neueste Version von Chrome und die neueste Version von Firefox.  <br/> |2.11.2016  <br/> |  
 |Teammitglieder sind für Ad-hoc-Besprechungen nicht erreichbar.  <br/> |Ad-hoc-Besprechungen werden unterstützt, wenn beide Benutzer die aktuelle App verwenden. In der Windows Phone-App werden Besprechungen noch nicht unterstützt.  <br/> |Laden Sie die aktuelle Desktop-, iOS- oder Android-App herunter, und installieren Sie sie, um an der Besprechung teilzunehmen.  <br/> |2.11.2016  <br/> |
 |Lokale Skype for Business-Benutzer erhalten meine Nachrichten nicht.  <br/> |Nachrichten werden nicht abgeschlossen, wenn Microsoft Teams-Benutzer versuchen, Nachrichten an andere Personen zu senden, die Skype for Business lokal verwenden.  <br/> | Interoperabilität zwischen Teams und in Skype for Business Online gehosteten Benutzern wird unterstützt. Teams-Benutzer können Einzelchats an Nicht-Teams-Benutzer senden, die Skype for Business Online verwenden. <br/> Interoperabilität zwischen Teams und in Skype for Business lokal gehosteten Benutzern wird nicht unterstützt. Teams-Benutzer können keine Einzelchats an Nicht-Teams-Benutzer senden, die Skype for Business lokal verwenden.  <br/> |2.11.2016  <br/> |
