@@ -20,7 +20,7 @@
 ## [Planen von Office 365-Gruppen beim Erstellen von Teams in Teams](plan-Office-365-groups.md)
 ## [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
 ## [URLs und IP-Adressbereiche von Office 365](Office-365-URLs-IP-address-ranges.md)
-## [Workshop-Kit: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
+## [Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
 
 # Übernehmen
 ## [Erstellen einer Change Management-Strategie für Microsoft Teams](change-management-strategy.md)

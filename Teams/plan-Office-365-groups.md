@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, welche Entscheidungen Sie beim Planen von Office 365-Gruppen treffen sollten, zum Beispiel Auswählen von öffentlichen und privaten Gruppen, Verwenden des Teams-Clients oder der Office 365-Verwaltungswebkonsole und Schulen Ihrer Teams in der Verwendung von Unterhaltungen."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 49d8a78f4d3c2d7c03567992479d09d4fe06ca5d
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 330cb6e8eb572fc2fb4141a2cea8a0ad6055d309
+ms.sourcegitcommit: 9861cc3eca070ef1c6b7375896ae1978a438c772
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/25/2018
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
 ==========================================================
@@ -24,9 +24,14 @@ Es gibt zwei Szenarien im Zusammenhang mit der Planung von Office 365-Gruppen u
 -   Erstens: Da Kunden möglicherweise bereits Gruppen nutzen, unterstützen wir zurzeit sowohl öffentliche als auch private Gruppen mit weniger als 2.500 Mitgliedern. Wie bereits erwähnt sollten Sie die Mitgliedschaft von Benutzern in einem Team mit dem Microsoft Teams-Client anstatt mit der Office 365-Verwaltungswebkonsole verwalten. In diesem Szenario ist Folgendes wichtig: Wenn Benutzer Unterhaltungsthreads in Office 365-Gruppen gewohnt sind, handelt es sich bei einer Gruppenunterhaltung im Grunde um E-Mails (im Gegensatz zu Chatnachrichten in einem Teamkanal). Informieren Sie die Benutzer über diesen Unterschied, und regen Sie sie dazu an, das flexiblere Chatformat in Microsoft Teams zu verwenden, anstatt mit Outlook oder OWA E-Mails an die Gruppe zu senden.
 
 -   Zweitens: Kunden, für die keine definierten Gruppen in Office 365 vorhanden sind, können Sie die Gruppen im Office 365-Verwaltungsportal, im Teams-Web oder in den Desktopclients erstellen. Wie bereits erwähnt sollten Sie alle zukünftigen Mitgliedschaften in der Office 365-Gruppe mit dem Teams-Client verwalten. Da die Mitgliedschaft in einem Team auch die Mitgliedschaft in Office 365-Gruppen definiert, sollten Sie die Benutzer auf diese Änderung vorbereiten.
+ 
 
-## <a name="teams-respects-office-365-groups-naming-policy"></a>Teams respektiert Benennungsrichtlinien für Office 365-Gruppen
+
+## <a name="teams-respects-office-365-groups-naming-policy-in-private-preview"></a>Microsoft Teams respektiert Benennungsrichtlinien für Office 365-Gruppen (private Vorschau)
 Benennungsrichtlinien für Office 365-Gruppen, die Ihr Administrator festgelegt hat, werden in Teams angewendet, wenn Benutzer Teamnamen erstellen oder bearbeiten. Dies gilt unter anderem für erforderliche Präfixe oder Suffixe und das Ausschließen von gesperrten Wörtern.
+
+> [!NOTE]
+> Diese Funktion ist als private Vorschau verfügbar. Das heißt, wenn Sie nicht an dieser Vorschau teilnehmen, hält Microsoft Teams diese Benennungsrichtlinien für Office 365-Gruppen noch nicht ein.
 
 Weitere Informationen finden Sie unter [Benennungsrichtlinie für Office 365-Gruppen](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 

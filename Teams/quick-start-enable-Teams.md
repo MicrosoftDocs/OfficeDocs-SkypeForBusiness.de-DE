@@ -3,16 +3,16 @@ title: "Schnellstart – Microsoft Teams-Planungshandbuch"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: "Nehmen Sie dieses Handbuch beim Planen, Implementieren und Einführen von Microsoft Teams in Ihrer Organisation zu Hilfe."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dad9788c15c958876dc9a3b4adf637f88fe53b0a
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 0dc620789a0ca2bf904c3a5795d01aabb755109a
+ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Schnellstart – Microsoft Teams-Planungshandbuch
 ==========================================================
@@ -73,10 +73,10 @@ Vergessen Sie bei der Bereitstellung von Microsoft Teams nicht, die mobilen Funk
 
 Mit der Bereitstellung von Software allein ist es nicht getan, wenn Sie Veränderungen in Ihrer Organisation vorantreiben möchten. Bei der Unterstützung von Zusammenarbeit geht es mehr um Menschen als um Technologien. Um die Einführung von Office 365 und Microsoft Teams erfolgreich voranzutreiben, müssen Sie sich ganz auf die Benutzerfreundlichkeit für die Mitarbeiter konzentrieren. Hier ist für den Anfang eine kurze Checkliste mit unseren bewährten Methoden. Bei der Ausarbeitung des richtigen Einführungsplans für Ihre Organisation können Ihnen auch Microsoft-Partner helfen.
 
-1. **Bewährte Methoden finden Sie in den [Anleitungen für die Office 365-Einführung](https://microsoft.sharepoint.com/:b:/t/ToolkitforTeamwork/ETCwPQo47a1IveJmot1vvb4BywRpFjqfRPrtjPtgF_i_hg?e=bfc85a9e74cd4cac8163286b6ef5ae74)**.  Dokumentieren Sie Ihre Vorgehensweise mithilfe unseres Artikels zum [Erstellen einer Change Management-Strategie für Microsoft Teams](change-management-strategy.md).
+1. **Bewährte Methoden finden Sie in den [Anleitungen für die Office 365-Einführung]( https://aka.ms/office365adoptionguide)**. Dokumentieren Sie Ihre Vorgehensweise mithilfe unseres Artikels zum [Erstellen einer Change Management-Strategie für Microsoft Teams](change-management-strategy.md).
 1. **Informieren Sie sich mit den [Office 365-Aktivitätsberichten](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)** über die Verwendung in der gesamten Umgebung. Wenn Sie nicht Office 365-Administrator für Ihre Firma sind, bitten Sie den Administrator, Ihnen die Berechtigung zum Lesen von Berichten zu erteilen, damit Sie auf Aktivitätsberichte zugreifen können.
 2. **Erfassen Sie das Feedback Ihrer Mitarbeiter** zur Verwendung von Office 365 und Microsoft Teams. Verwenden Sie einen öffentlichen Kanal in Microsoft Teams, wenn Ihre Organisation aus weniger als 2.500 Personen besteht. Verwenden Sie eine öffentliche Gruppe in Yammer, wenn die Größe Ihrer Organisation dieses aktuelle Mitgliederlimit in Microsoft Teams überschreitet. 
-3. **Nutzen Sie die Materialien unter [Your Digital Day](https://microsoft.sharepoint.com/teams/ToolkitforTeamwork/SitePages/A%20Day%20in%20the%20Digital%20Life.aspx), um die Verwendung allgemeiner Funktionen voranzutreiben**. Regen Sie die Benutzer dazu an, Chat, @Erwähnungen und Cloudspeicher (OneDrive und SharePoint Online über Microsoft Teams) zu verwenden, um sich mit den Funktionen vertraut zu machen. Schluss mit dem Hin-und-her-Senden von Arbeitsblättern per E-Mail! 
+
 4. **Unterstützen Sie Ihre Pioniere, und streichen Sie Ihre Erfolge heraus.** Loben Sie Mitarbeiter, die diese neuen Tools einsetzen und durch innovative Verwendung die Geschäftsergebnisse Ihrer Firma positiv beeinflussen. Dies ist der ausschlaggebende Faktor für die kontinuierliche Einführung von Office 365 und Microsoft Teams.
 
 

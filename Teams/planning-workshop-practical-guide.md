@@ -1,23 +1,29 @@
 ---
-title: "Workshop-Kit – Planen, Bereitstellen und Ausführen von Microsoft Teams"
+title: "Tools und Workshops – Planen, Bereitstellen und Ausführen von Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
-description: "Planungstools und Workshop-Kit für die ersten Schritte von Administratoren mit Microsoft Teams"
+description: "Planungstools, Workshops und Kits für die ersten Schritte von Administratoren mit Microsoft Teams"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0142ced9edd10a64f142e0f8dbb4f92d79593214
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
+ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/24/2018
 ---
-<a name="workshop-kit-plan-deliver-and-operate-microsoft-teams"></a>Workshop-Kit: Planen, Bereitstellen und Ausführen von Microsoft Teams
+<a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams
 =============================================================
 
 Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und Ausführen von Microsoft Teams in Ihrer Organisation unterstützen.
+
+- [Kit für die ersten Schritte mit Microsoft Teams](http://microsoft.com/en-us/download/56505) 
+    
+    In diesem Handbuch finden Sie Tipps, mit denen Sie Microsoft Teams für verschiedene Funktionen in Ihrer Organisation optimal nutzen können, zum Beispiel für Marketing, Vertrieb, Finanzen, Personalwesen, Informationstechnologie, Technik und Projektmanagement.
+
+
 
 - [Schnellstarthandbuch: erfolgreiche Aktivierung von Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
