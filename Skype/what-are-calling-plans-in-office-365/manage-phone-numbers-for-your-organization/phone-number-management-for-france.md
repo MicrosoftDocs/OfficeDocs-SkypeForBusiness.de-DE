@@ -1,44 +1,48 @@
 ---
-title: "Telefon Nummer Management für Frankreich"
+title: "Telefonnummernverwaltung für Frankreich"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Telefonnummern in Frankreich für Skype für Business Online erhalten."
-ms.openlocfilehash: d36ccb9db60baa233b9827eba01a46d02ff137a5
-ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Frankreich für Skype for Business Online."
+ms.openlocfilehash: 8b29aacd584c31634546c9166fbf78e779a040b0
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/02/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-france"></a>Telefon Nummer Management für Frankreich
+# <a name="phone-number-management-for-france"></a>Telefonnummernverwaltung für Frankreich
 
-Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Telefonnummern in Frankreich für Skype für Business Online erhalten. 
+In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Frankreich für Skype for Business Online. 
   
-Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
+Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
-|**Was möchten Sie tun?**|**Laden Sie die richtige Formulare und senden sie uns**|
+|**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Sie benötigen Benutzer Zahlen, die nicht aufgelistet werden in der Skype für Business Administrationscenter.  <br/> | Laden Sie eines der folgenden Form: <br/> [Neue Nummer Telefon-Anforderung für Frankreich (v.2)(en-US)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [Neue Nummer Telefon-Anforderung für Frankreich (v.3)(fr-FR)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3)-(fr.fr).pdf) <br/>  Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com).  <br/> |
-|Sie müssen Telefonnummern für uns übertragen möchten.  <br/> | Laden Sie eines der folgenden Form: <br/> [Buchstaben des Autorisierung (Geladene) für Frankreich (gebührenfreien Nummern)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> [Buchstaben des Autorisierung (Geladene) für Frankreich (geografische Zahlen)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/>  Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com).  <br/> |
-|Sie müssen veröffentlichen/Telefonnummern im Telefonverzeichnis national Aufheben der Veröffentlichung.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) die Liste von Telefonnummern, den, die Sie veröffentlichen/deren Veröffentlichung Sie aufheben möchten. <br/> |
-|Sie müssen eines Benutzers Zahl in eine Zahl Dienst zu ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com ) die Liste der Benutzer Zahlen, den, die Sie in Dienst Zahlen konvertieren möchten. <br/> |
+|Sie möchten Benutzernummern anfordern, die nicht im Skype for Business Admin Center aufgeführt sind.  <br/> | Laden Sie das Formular zur <br/> [Anforderung neuer Telefonnummern für Frankreich (ortsgebundene Nummern) (v.3.0) (fr.fr)](../../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf) herunter. <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Sie möchten Telefonnummern zu uns übertragen.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Schriftliche Vollmacht für Frankreich (Gratistelefonnummern) (v.2.0) (fr.fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> [Schriftliche Vollmacht für Frankreich (ortsgebundene Nummern) (v.2.0) (fr-fr)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com ) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Telefonnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
 

@@ -1,106 +1,108 @@
 ---
-title: "Wie erstelle ich eine Support-Ticket für die Validierung der Adresse?"
+title: "Wie erstelle ich ein Supportticket für die Adressvalidierung?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6e7c4964-b7b4-4f87-af00-220a2cd5a1c2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
-description: "Adresse Validierung stellen einen wichtigen Bestandteil der Einrichtung in Office 365-Pläne aufrufen. Es enthält einem Benutzer in Ihrer Organisation eine Notfall aufrufende Adresse, die von den Diensten für Notfallmaßnahmen verwendet werden kann."
-ms.openlocfilehash: e1f4cfe276f50b80f66a1d20d5c38a18b15b2071
-ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
-ms.translationtype: MT
+description: "Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann."
+ms.openlocfilehash: 3d6ab2d8b21b3ea2a85b3d7a2379cd5589cb392c
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2017
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Wie erstelle ich eine Support-Ticket für die Validierung der Adresse?
+# <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Wie erstelle ich ein Supportticket für die Adressvalidierung?
 
-Adresse Validierung stellen einen wichtigen Bestandteil der Einrichtung in Office 365-Pläne aufrufen. Es enthält einem Benutzer in Ihrer Organisation eine Notfall aufrufende Adresse, die von den Diensten für Notfallmaßnahmen verwendet werden kann. Die Vorgehensweise basiert auf der Größe Ihrer Organisation.
+Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
 
 > [!NOTE]
-> Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
-## <a name="for-organizations-150-or-less-follow-these-steps"></a>Gehen folgendermaßen Sie vor für Organisationen 150 oder weniger
-1. Wählen Sie in der **Office 365 Administrationscenter** **benötigen Sie Hilfe**?
-2. In der **benötigen Sie Hilfe?** Bereich Teilen Sie uns mit, was Sie benötigen Hilfe zur und anschließend auf **Hilfe**.
-3. Wenn die Ergebnisse im Abschnitt **Ansicht Lösungen** nicht hilfreich sind, wählen Sie eine der folgenden:
-    - **Lassen Sie uns anrufen (empfohlen)**: die Nummer des Kontakte zu bestätigen, und drücken Sie **Mich anrufen**. Die erwartete Wartezeit für einen Anruf wieder wird gemäß der **benötigen Sie Hilfe?** Bereich.
-    - **E-Mail mit Vorschlägen**: Vergewissern Sie sich Ihre e-Mail-Adresse und anschließend auf **Senden**. Die Antwortzeit Anruf wird angegeben, der **benötigen Sie Hilfe?** Bereich.
+## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
+1. Wählen Sie im **Office 365 Admin Center** die Option **Need help?** (Benötigen Sie Hilfe?) aus.
+2. Teilen Sie uns im Bereich **Need help?** (Benötigen Sie Hilfe?) mit, wobei Sie Hilfe benötigen. Wählen Sie dann **Get help** (Hilfe erhalten) aus.
+3. Wenn die Ergebnisse im Abschnitt **View solutions** (Lösungen anzeigen) für Sie nicht hilfreich sind, wählen Sie eine der folgenden Optionen aus:
+    - **Let us call you (Recommended)** (Anruf von uns (empfohlen)): Bestätigen Sie Ihre Kontaktnummer, und klicken Sie dann auf **Call me** (Rückruf). Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es voraussichtlich dauert, bis Sie zurückgerufen werden.
+    - **Email us** (E-Mail an uns): Bestätigen Sie Ihre E-Mail-Adresse, und wählen Sie dann **Senden** aus. Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es dauert, bis Sie eine Antwort erhalten.
 
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Erstellen Sie für Organisationen mit mehr als 150 Benutzer eine Service-Anforderung an eine Notfall Adresse überprüfen
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Erstellen Sie für Organisationen mit mehr als 150 Benutzern eine Serviceanfrage, um eine Notfalladresse zu validieren.
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto als Administrator bei Office 365 an.
+1. Melden Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto als Administrator bei Office 365 an.
     
-2. Klicken Sie in der Office 365-Verwaltungskonsole im linken Navigationsbereich auf **Support** > **neue Serviceanfrage**.
+2. Klicken Sie im Office 365 Admin Center in der linken Navigationsleiste auf **Support** > **Neue Serviceanfrage**.
     
-3. Klicken Sie unter **Serviceanfragen**klicken Sie auf **Hinzufügen**.
+3. Klicken Sie unter **Serviceanfragen** auf **Hinzufügen**.
     
 4. Klicken Sie auf der Seite **Serviceanfrage erstellen** auf **Onlinezusammenarbeit**.
     
-5. Klicken Sie auf der Seite **Identifizieren Sie das Problem** wählen Sie aus, und geben Sie in den folgenden:
+5. Wählen Sie auf der Seite **Identify the issue** (Das Problem identifizieren) Folgendes aus, bzw. geben Sie Folgendes ein:
     
-  - **Feature:** Wählen Sie **nationalen Plan aufrufen** und/oder **nationalen und internationalen Plan**.
+  - **Funktion**: Wählen Sie **Domestic Calling Plan** (Anrufplan für Inland) und/oder **Domestic and International Plan** (Anrufplan für Inland und Ausland) aus.
     
-  - **Symptom:** Geben Sie **Emergency aufrufen**.
+  - **Symptom**: Geben Sie **Notrufe** ein.
     
-  - **Problem Zusammenfassung:** Geben Sie **die Bestätigung**.
+  - **Issue summary** (Problemzusammenfassung): Geben Sie **Adressvalidierung** ein.
     
-  - **Einzelheiten:** Geben Sie Informationen zu den Address(s) wie überprüfen soll die:
+  - **Issue details** (Problemdetails): Geben Sie Details zu den Adressen ein, die Sie validieren möchten:
     
       - Hausnummer
     
       - Straße
     
-      - Stadt oder Ort
+      - Ort oder Stadt
     
-      - Land oder region
+      - Land oder Region
     
     > [!IMPORTANT]
-    > **Platzieren Sie das Land/Region, in dem bieten wir aufrufen plant in Office 365, die Sie versuchen, eine Notfall Adresse in überprüfen, wenn Sie die Telefonnummer zuordnen möchten.**
+    > **Geben Sie das Land bzw. die Region ein, in dem bzw. in der wir Anrufpläne in Office 365 anbieten und in dem bzw. in der Sie beim Zuweisen einer Telefonnummer eine Notfalladresse validieren möchten.**
   
-      - Postleitzahl oder Postleitzahl
+      - Postleitzahl
     
-6. Klicken Sie auf **Nächste Seite** und dann auf **Ja, fortfahren**, um den Vorgang fortzusetzen.
+6. Klicken Sie auf **Weiter** und dann auf **Yes, continue** (Ja, fortfahren), um fortzufahren.
     
 7. Wählen Sie auf der Seite **Details hinzufügen** Folgendes aus, bzw. geben Sie Folgendes ein:
     
-  - **Ist der Dienst nicht verfügbar?** Wählen Sie **Nein**.
+  - **Is your service unavailable?** (Ist Ihr Dienst nicht verfügbar?): Wählen Sie **Nein** aus.
     
-  - **Wie viele Benutzer sind betroffen?** Wählen Sie **einige Benutzer**.
+  - **How many users are affected?** (Wie viele Benutzer sind betroffen?): Wählen Sie **Some users** (Einige Benutzer) aus.
     
-  - **Geben Sie eine e-Mail-Adresse einer Person von diesem Problem betroffen** oder leer lassen.
+  - **Enter an email address of someone affected by this issue** (Geben Sie die E-Mail-Adresse einer von diesem Problem betroffenen Person ein): Geben Sie eine E-Mail-Adresse ein, oder lassen Sie dieses Feld leer.
     
-  - **Wählen Sie Domänen, die Sie auflisten möchten**
+  - **Select Domain(s) you want to list** (Wählen Sie die Domänen aus, die Sie auflisten möchten)
     
-  - **Anfügen einer Datei** , wenn Sie mehrere Adressen Menschen, mit denen überprüft haben.
+  - **Datei anfügen**: Fügen Sie eine Datei an, wenn Sie mehrere Adressen validieren möchten.
     
   - Klicken Sie auf **Weiter**.
     
-  - Geben Sie die Telefonnummer Ihres Kontakts ein.
+  - Geben Sie Ihre Kontakttelefonnummer ein.
     
-8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Anforderung einreichen**.
+8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     
 > [!TIP]
-> Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** aufgelistet.
+> Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** angezeigt.
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
 
-[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Telefonnummern für Ihre Organisation verwalten](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 

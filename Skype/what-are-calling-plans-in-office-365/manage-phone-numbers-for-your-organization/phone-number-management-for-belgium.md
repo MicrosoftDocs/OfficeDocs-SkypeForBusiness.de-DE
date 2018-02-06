@@ -1,44 +1,48 @@
 ---
-title: "Telefon Nummer Management für Belgien"
+title: "Telefonnummernverwaltung für Belgien"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: ee10dde6-55ab-4141-92ca-dc97d8ca67f9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Telefonnummern in Belgien für Skype für Business Online erhalten."
-ms.openlocfilehash: 75bfa2f460c1ed9d47996ad8516cddf05469d2f6
-ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Belgien für Skype for Business Online."
+ms.openlocfilehash: ddd39a2a7d8f8421a99dc251064ea8e70a5b743c
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/02/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-belgium"></a>Telefon Nummer Management für Belgien
+# <a name="phone-number-management-for-belgium"></a>Telefonnummernverwaltung für Belgien
 
-Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Telefonnummern in Belgien für Skype für Business Online erhalten. 
+In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Belgien für Skype for Business Online. 
   
-Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
+Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
-|**Was möchten Sie tun?**|**Laden Sie die richtige Formulare und senden sie uns**|
+|**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer Rufnummern.  <br/> | Belgien Rufnummern für Ihre Organisation mithilfe der Skype für Business-Verwaltungskonsole kann nicht abgerufen werden können, müssen Sie eine neue Nummer Telefon-Anforderung einreichen. Laden Sie eines der folgenden Form: <br/> [Neue Nummer Telefon-Anforderung für Belgien (v.2)(en-US)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [Neue Nummer Telefon-Anforderung für Belgien (v.3)(de-BE)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(de.be).pdf) <br/> [Neue Nummer Telefon-Anforderung für Belgien (v.3)(fr-BE)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(fr.be).pdf) <br/> [Neue Nummer Telefon-Anforderung für Belgien (v.3)(nl-BE)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(nl.be).pdf) <br/>  Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com).  <br/> |
-|Sie müssen Telefonnummern für uns übertragen möchten.  <br/> | Laden Sie eines der folgenden Form: <br/> [Buchstaben des Autorisierung (Geladene) für Belgien (geografische Zahlen) (v.1.0) (En-US)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> [Buchstaben des Autorisierung (Geladene) für Belgien (geografische Zahlen) (v.1.0) (nl-werden)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl.be).pdf) <br/> [Buchstaben des Autorisierung (Geladene) für Belgien (geografische Zahlen) (v.1.0) (fr-werden)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr.be).pdf) <br/> [Buchstaben des Autorisierung (Geladene) für Belgien (geografische Zahlen) (v.1.0) (de-werden)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de.be).pdf) <br/>  Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com).  <br/> |
-|Sie müssen veröffentlichen/Telefonnummern im Telefonverzeichnis national Aufheben der Veröffentlichung.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) die Liste von Telefonnummern, den, die Sie veröffentlichen/deren Veröffentlichung Sie aufheben möchten.           <br/> |
-|Sie müssen eines Benutzers Zahl in eine Zahl Dienst zu ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) die Liste der Benutzer Zahlen, den, die Sie in Dienst Zahlen konvertieren möchten. <br/> |
+|Neue Telefonnummern für Benutzer anfordern  <br/> |In Belgien können Sie Telefonnummern für Ihre Organisation nicht über das Skype for Business Admin Center beziehen, sondern Sie müssen eine Anforderung für neue Telefonnummern senden. Laden Sie eines dieser Formulare herunter: <br/> [Anforderung neuer Telefonnummern für Belgien (ortsgebundene Nummern) (v.3.0) (de.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de.be).pdf) <br/> [Anforderung neuer Telefonnummern für Belgien (ortsgebundene Nummern) (v.3.0) (fr.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr.be).pdf) <br/> [Anforderung neuer Telefonnummern für Belgien (ortsgebundene Nummern) (v.3.0) (nl.be)](../../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl.be).pdf) <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Sie möchten Telefonnummern zu uns übertragen.  <br/> | Laden Sie eines dieser Formulare herunter: <br/> [Schriftliche Vollmacht für Belgien (ortsgebundene Nummern) (v.1.0) (nl.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl.be).pdf) <br/> [Schriftliche Vollmacht für Belgien (ortsgebundene Nummern) (v.1.0) (fr.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr.be).pdf) <br/> [Schriftliche Vollmacht für Belgien (ortsgebundene Nummern) (v.1.0) (de.be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de.be).pdf) <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/> |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen.      <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
-[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Telefonnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
 

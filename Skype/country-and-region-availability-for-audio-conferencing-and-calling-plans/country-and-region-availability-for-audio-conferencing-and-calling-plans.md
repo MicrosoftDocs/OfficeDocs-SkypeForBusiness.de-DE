@@ -3,32 +3,38 @@ title: "Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
+ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+ms.date: 01/24/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- Strat_SB_PSTN
 - LIL_Placement
 description: "Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind."
-ms.openlocfilehash: c1d378a37850d8fdb9fb8d4cda68cedb929ba204
-ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+ms.openlocfilehash: 2024b5df01cd1cfa787883fa3b2337500b2dea61
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
 Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne und Guthaben für Kommunikationen verfügbar sind.
+
+> [!Note]
+> Wenn Sie eine Aufstellung aller Länder und Regionen suchen, laden Sie das [Arbeitsblatt mit allen Ländern und Regionen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/downloads/country-region-availabilty/country-and-region-availability-(v.01242018)-(en.us).xlsx?raw=true) herunter, und speichern Sie es.
 
 ## <a name="select-your-country-or-region-to-see-whats-available-for-you"></a>Wählen Sie Ihr Land oder Ihre Region aus, um die verfügbaren Dienste anzuzeigen!
 
@@ -47,7 +53,7 @@ Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Tel
 > - [Kanada](availability-in-canada.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
-> - [Kolumbien](availability-in-columbia.md)
+> - [Kolumbien](availability-in-colombia.md)
 > - [Costa Rica](availability-in-costa-rica.md)
 > - [Kroatien](availability-in-croatia.md)
 > - [Zypern](availability-in-cyprus.md)
@@ -165,7 +171,7 @@ Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abru
 Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer Region suchen, um zu ermitteln, welche Dienste dort verfügbar sind.
 
 ### <a name="calling-plans"></a>Anrufpläne
-Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe tätigen und empfangen. Zunächst müssen Sie einem Benutzer eine Telefonnummer für Benutzer (Abonnenten) (keine Servicenummer) zuweisen. Anschließend weisen Sie einen Anrufplan zu. Es sind zwei Arten von Anrufplänen verfügbar: **Inland** und **In- und Ausland**. Weitere Informationen finden Sie unter [Was sind Anrufpläne?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md).
+Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe tätigen und empfangen. Zunächst müssen Sie einem Benutzer eine Telefonnummer für Benutzer (Abonnenten) (keine Servicenummer) zuweisen. Anschließend weisen Sie einen Anrufplan zu. Zur Verfügung stehen zwei Arten von Anrufplänen: **Inland** und **Inland und Ausland**. Weitere Informationen finden Sie unter [Was sind Anrufpläne?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md).
 
 Informationen zur Lizenzierung finden Sie zudem unter [Lizenzierung von Telefonsystem und Anrufplänen](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 

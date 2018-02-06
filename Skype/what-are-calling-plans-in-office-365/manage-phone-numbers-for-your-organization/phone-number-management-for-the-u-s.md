@@ -1,44 +1,48 @@
 ---
-title: "Telefon Nummer Management für die USA"
+title: "Telefonnummernverwaltung für die USA"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 09c8ca24-d018-422f-8485-9610171016a9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Telefonnummern in den USA oder (Puerto Rico) für Skype für Business Online erhalten."
-ms.openlocfilehash: 17314cd1c00f98d7790d3454d5934081b3c76be6
-ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Vereinigten Staaten (und in Puerto Rico) für Skype for Business Online."
+ms.openlocfilehash: e89c244d00d221da3ec6e9de0a0209be6ee35a7e
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/02/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-the-us"></a>Telefon Nummer Management für die USA
+# <a name="phone-number-management-for-the-us"></a>Telefonnummernverwaltung für die USA
 
-Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Telefonnummern in den USA oder (Puerto Rico) für Skype für Business Online erhalten. 
+In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Vereinigten Staaten (und in Puerto Rico) für Skype for Business Online. 
   
-Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
+Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
-|**Was möchten Sie tun?**|**Führen Sie diese Schritte aus, und Laden Sie die richtige Formulare**|
+|**Was möchten Sie tun?**|**Führen Sie diese Schritte aus, und laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Sie benötigen Benutzer Zahlen, die nicht aufgelistet werden in der Skype für Business Administrationscenter.  <br/> |Laden Sie das [neue Telefon Nummer für die USA](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3)-(en.us).pdf) Anfrageformular, füllen Sie es aus, und [Senden sie uns](mailto:gcstnmsd@microsoft.com).  <br/> |
-|Sie müssen Telefonnummern für uns übertragen möchten.  <br/> | Laden Sie eines der folgenden Form: <br/> [Buchstaben des Autorisierung (Geladene) für die USA (Benutzer- und Zahlen)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf) <br/> [Buchstaben des Autorisierung (Geladene) für die USA (gebührenfreie Nummern)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.1)-(en.us).pdf) <br/><br/>**Hinweis:** Wenn Sie versuchen, mehr als 999 Abonnenten oder Benutzer Rufnummern erhalten möchten, müssen Sie die fill out einen Buchstaben der Autorisierung (Geladene), und senden sie uns. Weitere Informationen finden Sie unter [Übertragen von Telefonnummern zu Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) .           Füllen Sie es aus, und [Senden sie uns](mailto:ptn@microsoft.com).  <br/> |
-|Sie müssen eines Benutzers Zahl in eine Zahl Dienst zu ändern.  <br/> |[Senden Sie uns](mailto:ptn@microsoft.com) Ihre PIN und die Liste der Benutzer Zahlen, die Sie in Dienst Zahlen konvertieren möchten. So richten Sie eine PIN ein [hier](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md)).  <br/> |
-|Sie müssen Zahlen von einer Office 365-Organisation in eine andere zu übertragen.  <br/> |[Senden Sie uns](mailto:ptn@microsoft.com) die Liste der Benutzer (Abonnent) Telefonnummern zu übertragen zusammen mit der PIN-Nummer der Quellorganisation, in dem die Zahlen von übertragen werden soll. So richten Sie eine PIN ein wechseln Sie [hier](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
+|Sie möchten Benutzernummern anfordern, die nicht im Skype for Business Admin Center aufgeführt sind.  <br/> |Laden Sie das Formular zur [Anforderung neuer Telefonnummern für die USA (Benutzernummern) (v.3.0) (en.us)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf) herunter, füllen Sie es aus, und [senden Sie es an uns](mailto:gcstnmsd@microsoft.com).  <br/> |
+|Sie möchten Telefonnummern zu uns übertragen.  <br/> | Laden Sie eines dieser Formulare herunter: <br/> [Schriftliche Vollmacht für die USA (Benutzer- und Servicenummern) (v.3.1) (en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf) <br/> [Schriftliche Vollmacht für die USA (gebührenfreie Telefonnummern) (v.3.1) (en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.1)-(en.us).pdf) <br/><br/>**Hinweis:** Wenn Sie mehr als 999 Teilnehmer- oder Benutzertelefonnummern benötigen, müssen Sie eine schriftliche Vollmacht ausfüllen und an uns senden. Weitere Informationen finden Sie unter [Übertragen von Telefonnummern zu Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).           Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptn@microsoft.com).  <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <br/> |[Senden Sie uns](mailto:ptn@microsoft.com) Ihre PIN und eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
+|Sie müssen Nummern von einer Office 365-Organisation zu einer anderen übertragen.  <br/> |[Senden Sie uns](mailto:ptn@microsoft.com) eine Liste der Benutzertelefonnummern (Teilnehmernummern), die Sie übertragen möchten, sowie die PIN der Quellorganisation, von der Sie die Nummern übertragen möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
-[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Telefonnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
 

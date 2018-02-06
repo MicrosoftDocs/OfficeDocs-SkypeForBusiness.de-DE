@@ -1,44 +1,48 @@
 ---
-title: "Telefon Nummer Management für die Niederlande"
+title: "Telefonnummernverwaltung für die Niederlande"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: f3b75104-bdb9-435a-bec5-9858db9df402
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Rufnummern in den Niederlanden für Skype für Business Online erhalten."
-ms.openlocfilehash: fd9c30f741b7e206906738af24c2ca7cd9c90504
-ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Niederlanden für Skype for Business Online."
+ms.openlocfilehash: 51fe345903577ce319f90ed10183445ec2279e3f
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/02/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-the-netherlands"></a>Telefon Nummer Management für die Niederlande
+# <a name="phone-number-management-for-the-netherlands"></a>Telefonnummernverwaltung für die Niederlande
 
-Verwenden Sie diese Tabelle Informationen zum Abrufen und Verwalten von Rufnummern in den Niederlanden für Skype für Business Online erhalten. 
+In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Niederlanden für Skype for Business Online. 
   
-Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
+Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
-|**Was möchten Sie tun?**|**Laden Sie die richtige Formulare**|
+|**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer Rufnummern.  <br/> | Laden Sie eines der folgenden Form: <br/> [Neue Nummer Telefon-Anforderung für die Niederlande (v.2)(en-US)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [Neue Nummer Telefon-Anforderung für die Niederlande (v.3)(nl-NL)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands(geographic-numbers)-(v.3)-(nl.nl).pdf) <br/>  Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com).  <br/> |
-|Sie müssen Telefonnummern für uns übertragen möchten.  <br/> | Laden Sie eines der folgenden Form: <br/> [Schriftliche Vollmacht für die Niederlande (ortsgebundene Nummern) (v.2.0) (nl-NL)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> [Schriftliche Vollmacht für die Niederlande (ortsgebundene Nummern) (v.1.0) (en-US)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> [Buchstaben des Autorisierung (Geladene) für die Niederlande (Non-geografische Zahlen) (v.2.0)(nl-NL)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl.nl).pdf)<br/> [Buchstaben des Autorisierung (Geladene) für die Niederlande (Non-geografische Zahlen) (v.1.0)(en-US)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.1.0)-(en.us).pdf) <br/>  Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com).  <br/> |
-|Sie müssen veröffentlichen/Telefonnummern im Telefonverzeichnis national Aufheben der Veröffentlichung.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) die Liste von Telefonnummern, den, die Sie veröffentlichen/deren Veröffentlichung Sie aufheben möchten. <br/> |
-|Sie müssen eines Benutzers Zahl in eine Zahl Dienst zu ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) die Liste der Benutzer Zahlen, den, die Sie in Dienst Zahlen konvertieren möchten. <br/> |
+|Neue Telefonnummern für Benutzer anfordern  <br/> | Laden Sie das Formular zur [Anforderung neuer Telefonnummern für die Niederlande (ortsgebundene Nummern) (v.3.0) (nl.nl)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl.nl).pdf) herunter. <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Sie möchten Telefonnummern zu uns übertragen.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Schriftliche Vollmacht für die Niederlande (ortsgebundene Nummern) (v.2.0) (nl.nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> [Schriftliche Vollmacht für die Niederlande (nicht ortsgebundene Nummern) (v.2.0) (nl.nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Telefonnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
 
