@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, welche Entscheidungen Sie beim Planen von Office 365-Gruppen treffen sollten, zum Beispiel Auswählen von öffentlichen und privaten Gruppen, Verwenden des Teams-Clients oder der Office 365-Verwaltungswebkonsole und Schulen Ihrer Teams in der Verwendung von Unterhaltungen."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 330cb6e8eb572fc2fb4141a2cea8a0ad6055d309
-ms.sourcegitcommit: 9861cc3eca070ef1c6b7375896ae1978a438c772
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2b421d2a87a6c70f1d663366b65a47d35260b484
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
 ==========================================================
@@ -37,8 +39,8 @@ Weitere Informationen finden Sie unter [Benennungsrichtlinie für Office 365-Gru
 
 In den folgenden Artikeln finden Sie Vorbereitungs- und Einführungsinhalte für Ihre Office 365-Gruppen:
 
--   [Mehr Möglichkeiten mit Gruppen in Outlook](https://support.office.com/en-us/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
+-   [Mehr Möglichkeiten mit Gruppen in Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
 <!-- -->
 
--   [Verwalten von Gruppenmitgliedschaften im Office 365 Admin Center](https://support.office.com/en-us/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Verwalten von Gruppenmitgliedschaften im Office 365 Admin Center](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)

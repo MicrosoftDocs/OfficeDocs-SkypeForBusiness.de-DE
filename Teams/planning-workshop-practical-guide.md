@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lolaj, rowille
 description: "Planungstools, Workshops und Kits für die ersten Schritte von Administratoren mit Microsoft Teams"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e14c16ddd71114e90af15174266f14bbbbc5982e
-ms.sourcegitcommit: 6f5fc17ffdc1ef3b3eec42e17f7bebda88cb000b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf4b7dad507ee10743df986ca6c489af2bf165b3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/15/2018
 ---
 <a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams
 =============================================================
 
 Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und Ausführen von Microsoft Teams in Ihrer Organisation unterstützen.
 
-- [Kit für die ersten Schritte mit Microsoft Teams](http://microsoft.com/en-us/download/56505) 
+- [Kit für die ersten Schritte mit Microsoft Teams](http://microsoft.com/download/56505) 
     
     In diesem Handbuch finden Sie Tipps, mit denen Sie Microsoft Teams für verschiedene Funktionen in Ihrer Organisation optimal nutzen können, zum Beispiel für Marketing, Vertrieb, Finanzen, Personalwesen, Informationstechnologie, Technik und Projektmanagement.
 

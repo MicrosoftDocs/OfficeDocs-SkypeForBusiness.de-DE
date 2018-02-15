@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Hier erfahren Sie, was Sie tun müssen, wenn Sie eine eDiscovery durchführen, zum Beispiel, wenn Sie alle elektronisch gespeicherten Informationen für Gerichtsverfahren eingereicht müssen."
-ms.openlocfilehash: 8746e08e6714902ee6923286c79861321916dd6d
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 9ee252bc114ec7972506b8fa6408fcaa33d20a73
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 ============================
@@ -20,7 +23,7 @@ Große Unternehmen sind häufig Gerichtsverfahren mit einem hohen Streitwert kon
 
 Alle 1:1- oder Gruppenchats in Teams werden in den Journalen der Benutzerpostfächer erfasst, und alle Kanalnachrichten werden in den Journalen des Gruppenpostfachs erfasst, das das Team darstellt. Hochgeladene Dateien fallen unter die eDiscovery-Funktionen von SharePoint Online und OneDrive for Business.
 
-1.  Informationen zum Durchführen einer eDiscovery-Untersuchung mit Microsoft Teams-Inhalten finden Sie über [diese](https://support.office.com/en-us/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1) Verknüpfung.
+1.  Informationen zum Durchführen einer eDiscovery-Untersuchung mit Microsoft Teams-Inhalten finden Sie über [diese](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1) Verknüpfung.
 
 2.  Microsoft Teams-Daten werden als **Sofortnachricht oder Unterhalten** in der Excel-Ausgabe angezeigt. Wahlweise können Sie die **PST**-Datei in Outlook bereitstellen.
 
