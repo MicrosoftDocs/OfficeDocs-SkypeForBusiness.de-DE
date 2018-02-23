@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Office 365-Überwachungsprotokoll abrufen."
-ms.openlocfilehash: 229ddc5fb1e8a775524564c27ffeecce96483fe1
-ms.sourcegitcommit: 9f185be910855f6312344ea906e96e5e6449cf4c
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c1980bb84138570d9e9a221d7ccdc0b8fc62d203
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 ==================================================
@@ -40,9 +43,9 @@ Damit Sie Überwachungsdaten untersuchen können, müssen Sie zuerst im **Securi
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Abrufen von Microsoft Teams-Daten aus dem Überwachungsprotokoll
 
-1.  Um Überwachungsprotokolle abzurufen, navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Wählen Sie unter **Suche und Untersuchung** die Option **Überwachungsprotokollsuche** aus.
+1.  Um Überwachungsprotokolle abzurufen, navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Wählen Sie unter **Search & Investigation** (Suche und Untersuchung) die Option **Audit log search** (Überwachungsprotokollsuche) aus.![Screenshot der Seite „Audit log search“ (Überwachungsprotokollsuche) im Security & Compliance Center](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
-![Screenshot der Seite „Überwachungsprotokollsuche“ im Security & Compliance Center](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+
 
 2.  Verwenden Sie die Option **Suchen**, um nach den Aktivitäten, Datumswerten und Benutzern zu filtern, die Sie überwachen möchten.
 

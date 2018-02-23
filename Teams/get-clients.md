@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: "Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verwenden."
-ms.openlocfilehash: c10dde0e2893bc11f1d5a01eed1c30ed37ff30a0
-ms.sourcegitcommit: 6ddf8daf3aa1f43c67cb5a57721cb01a9c409f7b
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 6fd2edaa5d751cf323b3a866463811ee0ae633b3
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -29,7 +32,11 @@ Der Webclient erkennt die Browserversion beim Herstellen der Verbindung mit [htt
 
 <a name="internet-browser-support"></a>Unterstützung für Internetbrowser
 ------------------------------
-Microsoft Teams unterstützt die folgenden Internetbrowser: Internet Explorer 11, Microsoft Edge, die neueste Version von Chrome und die neueste Version von Firefox.
+Microsoft Teams unterstützt die folgenden Internetbrowser: 
+- Internet Explorer 11
+- Microsoft Edge
+- Chrome (neueste Version sowie die zwei vorhergehenden Versionen)
+- Firefox (neueste Version sowie die zwei vorhergehenden Versionen)
 
 > [!NOTE]
 > Safari wird zurzeit nicht unterstützt. Neuigkeiten zu den neuen Funktionen in Microsoft Teams finden Sie in der [Microsoft Teams-Roadmap](http://aka.ms/TeamsRoadmap). Benutzer, die Microsoft Teams in Safari zu öffnen versuchen, werden aufgefordert, den Microsoft Teams-Desktopclient herunterzuladen.

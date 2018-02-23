@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: Hier erfahren Sie, wie Sie den Zugriff auf Benutzerebene pro Benutzer aktivieren oder deaktivieren.
-ms.openlocfilehash: 66ec29077b83b799c85acce1b5869b82fb0b83f7
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 318d9467bf1565a50987b6716f2b0a1ad86999bf
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Verwalten des Benutzerzugriffs auf Microsoft Teams
 =====================================
@@ -37,25 +40,33 @@ Eine Microsoft Teams-Benutzerlizenz kann jederzeit deaktiviert werden. Wenn die 
 
 Neben dem Office 365 Admin Center können Office 365-Administratoren auch Office 365 PowerShell verwenden, um Benutzerlizenzen zuzuweisen und zu entfernen. Verwenden Sie die folgende Syntax, um eine Lizenz zu einem Benutzer zuzuweisen:
 
-Set-MsolUserLicense -UserPrincipalName "\<Konto\>" -AddLicenses "\<AccountSkuId\>"
+```
+Set-MsolUserLicense -UserPrincipalName "\<Account\>" -AddLicenses "\<AccountSkuId\>"
+```
 
 Im folgenden Beispiel wird eine Lizenz aus dem Lizenzplan „litwareinc:ENTERPRISEPACK“ (Office 365 Enterprise E3) dem nicht über eine Lizenz verfügenden Benutzer „belindan@litwareinc.com“ zugewiesen.
 
+```
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-Weitere Details und Beispiele finden Sie unter [*Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell*](https://go.microsoft.com/fwlink/?linkid=855755).
+Weitere Details und Beispiele finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell](https://go.microsoft.com/fwlink/?linkid=855755).
 
 Mit der folgenden Syntax entfernen Sie Lizenzen von einem vorhandenen Benutzerkonto:
 
-Set-MsolUserLicense -UserPrincipalName \<Konto\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
+```
+Set-MsolUserLicense -UserPrincipalName \<Account\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
+```
 
 Im folgenden Beispiel wird die Lizenz „litwareinc:ENTERPRISEPACK“ (Office 365 Enterprise E3) vom Benutzerkonto „BelindaN@litwareinc.com“ entfernt.
 
+```
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-Weitere Details und Beispiele finden Sie unter [*Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell*](https://go.microsoft.com/fwlink/?linkid=855756).
+Weitere Details und Beispiele finden Sie unter [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](https://go.microsoft.com/fwlink/?linkid=855756).
 
 | | | |
 |---------|---------|---------|
 |![Entscheidungspunktsymbol](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Entscheidungspunkt         |<ul><li>Wie sieht der Plan Ihrer Organisation für das organisationsweite Microsoft Teams-Onboarding aus? (Pilotprojekt oder offen)</li></ul>         |
-|![Symbol für „Nächste Schritte“](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Nächste Schritte         |<ul><li>Wenn Sie das Onboarding über ein geschlossenes Pilotprojekt durchführen, entscheiden Sie, ob Sie dies über die Lizenzierung oder durch zielgerichtete Kommunikation tun möchten.</li><li>Stellen Sie abhängig von der Entscheidung durch die entsprechenden Schritte sicher, dass nur Pilotbenutzer auf Microsoft Teams zugreifen dürfen (wenn dies notwendig ist).</li><li>Dokumentieren Sie unten die Richtlinien dafür, welche Benutzer auf Microsoft Teams zugreifen dürfen (oder nicht zugreifen dürfen).</li></ul>         |
+|![Symbol für „Nächste Schritte“](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Nächste Schritte         |<ul><li>Wenn Sie das Onboarding über ein geschlossenes Pilotprojekt durchführen, entscheiden Sie, ob Sie dies über die Lizenzierung oder durch zielgerichtete Kommunikation tun möchten.</li><li>Stellen Sie abhängig von der Entscheidung durch die entsprechenden Schritte sicher, dass nur Pilotbenutzer auf Microsoft Teams zugreifen dürfen (wenn dies notwendig ist).</li><li>Dokumentieren Sie die Richtlinien dafür, welche Benutzer auf Microsoft Teams zugreifen dürfen (oder nicht zugreifen dürfen).</li></ul>         |

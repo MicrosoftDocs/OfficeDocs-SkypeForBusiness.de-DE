@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Hier erhalten Sie Informationen zu den bewährten Methoden für Benutzerfeedback in Microsoft Teams, um optimales Arbeiten im Team sicherzustellen."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5422c29bdb7de43649b329ff2aee2203c925b604
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: b57814b27d9102d68b5036eec3050d2cb869b9fd
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Bewährte Methoden für Benutzerfeedback in Microsoft Teams
 ===========================================================

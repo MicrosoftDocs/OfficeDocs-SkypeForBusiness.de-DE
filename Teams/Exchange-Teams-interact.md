@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: crowe
 description: "Lernen Sie die Funktionen kennen, die in Microsoft Teams und den zahlreichen Exchange-Setups gemeinsam verwendet werden, wie zum Beispiel das Erstellen von und die Teilnahme an Teams, das Erstellen von Kanälen usw."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4fc7da7d68c13bbadec935573c827cf767c9afe4
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 63a464234877c8a93ad0c6aeb61d9a4e8ee3068e
+ms.sourcegitcommit: e01d5af6fca7e8339d80f46c1a6c3f7a8d228bff
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/05/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -50,6 +53,6 @@ Weitere Informationen:
 
 -   In Microsoft Teams funktionieren Sicherheits- und Compliance-Funktionen wie eDiscovery, Inhaltssuche, Archivierung und gesetzliche Aufbewahrungspflicht am besten in Exchange Online- und SharePoint Online-Umgebungen. Für Kanalunterhalten werden Nachrichten im Gruppenpostfach in Exchange Online als Journal erfasst und stehen für eDiscovery zur Verfügung. Bei Aktivierung von SharePoint Online und OneDrive for Business (mit Geschäfts- oder Schulkonto) für Benutzer in der gesamten Organisation stehen diese Compliance-Funktionen auch für alle Dateien innerhalb von Teams zur Verfügung.
 
-**Wichtig:**   Benutzer, die an Unterhaltungen teilnehmen, die Teil der Chatliste in Microsoft Teams sind, müssen über ein Exchange Online-Postfach (cloudbasiert) verfügen, damit ein Administrator Chatunterhaltungen suchen kann. Dies liegt daran, dass Unterhalten, die Teil der Chatliste sind, in den cloudbasierten Postfächern der Chatteilnehmer gespeichert werden. Wenn ein Chatteilnehmer kein Exchange Online-Postfach hat, kann der Administrator keine Chatunterhaltungen suchen oder diese vormerken. Beispielsweise können in einer Exchange-Hybridbereitstellung Benutzer mit lokalen Postfächern möglicherweise an Unterhaltungen teilnehmen, die Teil der Chatliste in Microsoft Teams sind. In diesem Falls können die Inhalte aus diesen Unterhaltungen aber nicht durchsucht und vorgemerkt werden, da die Benutzer keine cloudbasierten Postfächer haben. Weitere Details zur Inhaltssuche und Microsoft Teams finden Sie unter [*Microsoft Teams und Office 365-Gruppen*](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+**Wichtig:** Benutzer, die an Unterhaltungen teilnehmen, die in der Chatliste in Microsoft Teams enthalten sind, müssen über ein (cloudbasiertes) Exchange Online-Postfach verfügen, damit Administratoren Chatunterhaltungen durchsuchen können. Das liegt daran, dass Unterhaltungen, die in der Chatliste enthalten sind, in den cloudbasierten Postfächern der Chatteilnehmer gespeichert werden. Wenn Chatteilnehmer kein Exchange Online-Postfach haben, können Administratoren die Chatunterhaltungen nicht durchsuchen oder im In-Situ-Speicher ablegen. In einer hybriden Exchange-Bereitstellung zum Beispiel können Benutzer mit lokalen Postfächern möglicherweise an Unterhaltungen teilnehmen, die Teil der Chatliste in Microsoft Teams sind. In diesem Fall kann der Inhalt dieser Unterhaltungen jedoch nicht durchsucht und nicht im In-Situ-Speicher abgelegt werden, da die Benutzer nicht über cloudbasierte Postfächer verfügen. Weitere Details zur Inhaltssuche und zu Microsoft Teams finden Sie unter [Ausführen einer Inhaltssuche im Office 365 Security & Compliance Center](https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
 **Tipp:**   Informationen zur Verwendung von Azure AD Connect zwecks Synchronisierung mit Azure Active Directory finden Sie unter [*Integrieren Ihrer lokalen Identitäten mit Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).

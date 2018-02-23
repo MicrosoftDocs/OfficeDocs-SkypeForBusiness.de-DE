@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: arachman
 description: "Hier erfahren Sie, wie Sie Ihr Microsoft Teams-Netzwerk vorbereiten und verwalten. Unter anderem erhalten Sie Informationen zu den Netzwerkanforderungen, den Bandbreitenanforderungen und zusätzlichen Überlegungen."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a89d4f201a0ea8f9392146e23629e6dd671bb7c3
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: db9dc97d117ad1844d56c59191bb92ec496a9a83
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
@@ -70,7 +73,7 @@ Den folgenden Inhalt können Sie als ergänzende Hintergrundinformationen nutzen
 |---------|---------|---------|---------|
 |**Peer-zu-Peer-Audioanruf**     |0,1 MB         |0,1 MB         |Client <> Client         |
 |**Peer-zu-Peer-Videoanruf (Vollbild)**     |4 MB         |4 MB         |Client <> Client          |
-|**Peer-zu-Peer-Desktopfreigabe (Auflösung 1920x*1080)**     |4 MB         |4 MB         |Client <> Client          |
+|**Peer-zu-Peer-Desktopfreigabe (Auflösung 1920x1080)**     |4 MB         |4 MB         |Client <> Client          |
 |**Besprechung mit zwei Teilnehmern**     |4 MB         |4 MB         |Client <> Office 365         |
 |**Besprechung mit drei Teilnehmern**     |8 MB         |6,5 MB         |Client <> Office 365           |
 |**Besprechung mit vier Teilnehmern**     |5,5 MB         |4 MB         |Client <> Office 365           |

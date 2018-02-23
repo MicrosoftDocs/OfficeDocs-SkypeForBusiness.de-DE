@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: "Hier erfahren Sie, wie Sie Teambesitzer- und Mitgliederrollen sowie Berechtigungen (einschließlich Berechtigungen zum Erstellen von Teams) in Microsoft Teams zuweisen."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec15844064a88cf1e6aa8af9e510107e342dd369
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: b5fb972106200306f64db27a33f16df98e56b8c0
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Zuweisen von Rollen und Berechtigungen in Microsoft Teams
 ===============================================
@@ -61,9 +64,11 @@ Wenn Ihre Organisation daran interessiert ist, werden in der folgenden Anleitung
 
     a. **Aktion:** Führen Sie das folgende PowerShell-Skript aus, und überprüfen Sie, ob der Parameter „UsersPermissiontoCreateGroupsEnabled“ auf **True** festgelegt ist.
 
+    ```
     Connect-MsolService
 
     Get-MsolCompanyInformation
+    ```
 
     b.  Wenn hier nicht „True“ festgelegt ist, führen Sie das Cmdlet „Set-MsolCompanySettings“ aus, um **„True“ festzulegen**.
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
@@ -74,6 +79,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     a. **Aktion:** Erstellen Sie ein Gruppeneinstellungsobjekt, das die Konfigurationseinstellungen der Gruppe enthält, der delegierte Berechtigungen zum Erstellen von Gruppen zugewiesen werden sollen. 
 
+    ```
     Connect-AzureAD
 
     $Template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
@@ -82,9 +88,10 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     $setting["EnableGroupCreation"] = "false"
 
-    $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId der Gruppe, die Gruppen erstellen darf>"
+    $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 
     New-AzureADDirectorySetting -DirectorySetting $settings
+    ```
 
     b. Weitere Informationen finden Sie unter [Verwalten der Erstellung von Office 365-Gruppen](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
 

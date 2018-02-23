@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Eine Übersicht über die Sicherheits- und Compliance-Funktionen von Microsoft Teams, einschließlich Überwachung und Berichterstellung, Compliancesuche in Inhalten, eDiscovery und vielem mehr"
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f0b01c70a313e3e9e1cd6240a1eb0b42fa744622
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 1cb2bfe08736f355f01d55d05be7c7091b79f396
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/11/2018
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -35,7 +38,7 @@ Diese Tools befinden sich im Office 365 Security & Compliance-Portal und bieten
 
 -   Compliancesuche in Inhalten
 
-    -   Die Suche in Inhalten kann verwendet werden, um Microsoft Teams mit umfangreichen Filterfunktionen zu durchsuchen. Die Inhalte können zur Unterstützung von Compliance und Rechtsstreitigkeiten in einen speziellen Container exportiert werden. Dies kann mit oder ohne eDiscovery-Fall geschehen.
+    -   Die Inhaltssuche kann verwendet werden, um Microsoft Teams mit umfangreichen Filterfunktionen zu durchsuchen. Die Inhalte können zur Unterstützung von Compliance und Rechtsstreitigkeiten in einen speziellen Container exportiert werden. Dies kann mit oder ohne eDiscovery-Fall geschehen.
 
 -   eDiscovery
 
@@ -43,7 +46,7 @@ Diese Tools befinden sich im Office 365 Security & Compliance-Portal und bieten
 
     -   Zu den Funktionen gehören Fallmanagement, Aufbewahrung, Analyse und Export von Teams-Daten. Dies schließt Chat-, Messaging- und Dateidaten ein.
 
-    -   Kunden können In-Situ-eDiscovery oder [Advanced eDiscovery](https://support.office.com/en-us/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4) nutzen.
+    -   Kunden können In-Situ-eDiscovery oder [Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4) nutzen.
 
     -   In der folgenden Tabelle sind die Unterschiede zwischen den beiden Funktionen aufgeführt:
 
@@ -116,19 +119,21 @@ Bevor Sie diese Funktionen aktivieren, müssen Sie sicherstellen, dass Sie auf d
 
 Die Suche in Inhalten und eDiscovery müssen nicht im Security & Compliance Center aktiviert werden.
 
-<a name="location-of-data-in-microsoft-teams"></a>Speicherort von Daten in Microsoft Teams
------------------------------------
+<a name="location-of-data-in-teams"></a>Speicherort von Daten in Microsoft Teams
+-------------------------
 
-Die Daten in Teams befinden sich in der Region, die der Mandantenaffinität entspricht. Zurzeit unterstützt Teams die Regionen Amerika, EMEA und APAC. 
+Die Microsoft Teams-Daten befinden sich in der geografischen Region, die Ihrem Office 365-Mandanten zugeordnet ist. Zurzeit unterstützt Teams die Regionen Amerika, EMEA und APAC. 
 
-Ab dem 1. November 2017 bietet Microsoft Teams nur für neue Mandanten die Datenspeicherung im Vereinigten Königreich an. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat.
+> [!IMPORTANT]
+> Microsoft Teams bietet zurzeit nur für neue Mandanten die Datenspeicherung im Vereinigten Königreich und in Indien an. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat. Vorhandene Mandanten aus dem Vereinigten Königreich und aus Indien bleiben bis zur Ankündigung eines Migrationsplans (voraussichtlich im Jahr 2018) in der Region EMEA bzw. APAC.
 
-> [!NOTE]
-> Vorhandene Mandanten aus dem Vereinigten Königreich bleiben bis zur Veröffentlichung eines Migrationsplans (voraussichtlich im Jahr 2018) in der Region EMEA.
+Weitere Informationen zur Einführung der Datenspeicherung für Microsoft Teams in Indien und im Vereinigten Königreich finden Sie in Ansuman Acharyas Blogbeitrag zur [Einführung der Datenspeicherung für Microsoft Teams in Indien und zu geplanten weiteren geografischen Regionen](https://go.microsoft.com/fwlink/?linkid=867773).
 
-Weitere Informationen finden Sie in der Microsoft Teams Tech Community im [Blogbeitrag](https://go.microsoft.com/fwlink/p/?linkid=862275) zur Einführung der Datenspeicherung im Vereinigten Königreich.
+Wenn Sie wissen möchten, in welcher Region sich die Daten für Ihren Mandanten befinden, wechseln Sie zu [Office 365 Admin Center](https://portal.office.com/adminportal/home) > **Einstellungen** > **Organisationsprofil**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
 
-<a name="privacy-in-microsoft-teams"></a>Datenschutz in Microsoft Teams
+![Screenshot der Tabelle „Data location“ (Datenspeicherort) einschließlich Microsoft Teams im Office 365 Admin Center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+
+<a name="privacy-in-teams"></a>Datenschutz in Microsoft Teams
 --------------------------
 
 Als Kunde von Office 365 sind Sie der Besitzer der Daten und verfügen auch über die vollständige Kontrolle. Microsoft verwendet Ihre Daten ausschließlich für die Bereitstellung des Diensts, den Sie abonniert haben. Als Dienstanbieter scannen wir nicht Ihre E-Mails, Dokumente oder Teams zu Werbezwecken oder nicht dienstbezogenen Zwecken. Microsoft hat keinen Zugriff auf hochgeladene Inhalte. Genau wie bei OneDrive for Business und SharePoint Online bleiben die Kundendaten im Mandanten.

@@ -7,11 +7,13 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Hier erfahren Sie, wie Sie durch die Identifizierung von wichtigen Beteiligten, Geschäftsergebnissen und Erfolgskennzahlen sowie das Management Ihrer Initiative eine Change Management-Strategie für Microsoft Teams erstellen."
-ms.openlocfilehash: dae718a94dae1995de406544e9b2385ed7210785
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cf01ea1466b79021ef741d663cc598a487dfa206
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 =======================================================
