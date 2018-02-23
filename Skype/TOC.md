@@ -1,3 +1,4 @@
+
 # Skype for Business-Administrator
 
 ## [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -51,6 +52,7 @@
 ### [So erhalten Sie Anrufpläne für Office 365](what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [Verwalten von Telefonnummern für Ihre Organisation](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 #### [Telefonnummernverwaltung für Belgien](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
+#### [Telefonnummernverwaltung für Kanada](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Telefonnummernverwaltung für Frankreich](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [Telefonnummernverwaltung für Deutschland](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [Telefonnummernverwaltung für Irland](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
