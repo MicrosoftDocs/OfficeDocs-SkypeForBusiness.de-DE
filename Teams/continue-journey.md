@@ -2,7 +2,7 @@
 title: "Höhere Wertschöpfung mit Microsoft Teams durch Nutzerakzeptanz"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,38 +10,38 @@ description: "Anleitung für das Fortsetzen Ihrer Reise von Skype for Business n
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 803795bb5c6cf3617105938ad964ccc9e3d84fdd
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 69585fd4caf17b299bf0261189bfd473702db8ab
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
-<a name="drive-value-with-microsoft-teams-through-user-adoption"></a><span data-ttu-id="cd285-103">Höhere Wertschöpfung mit Microsoft Teams durch Nutzerakzeptanz</span><span class="sxs-lookup"><span data-stu-id="cd285-103">Drive value with Microsoft Teams through user adoption</span></span>
+<a name="drive-value-with-microsoft-teams-through-user-adoption"></a><span data-ttu-id="63f1f-103">Höhere Wertschöpfung mit Microsoft Teams durch Nutzerakzeptanz</span><span class="sxs-lookup"><span data-stu-id="63f1f-103">Drive value with Microsoft Teams through user adoption</span></span>
 ================================================================
 
 
-<span data-ttu-id="cd285-104">Veränderungen dauern. Sie aber können jetzt schon damit beginnen, den Wert und Nutzen dieser Veränderung zu realisieren.</span><span class="sxs-lookup"><span data-stu-id="cd285-104">Change takes time, but you can start to realize value and benefit today.</span></span> <span data-ttu-id="cd285-105">Während Sie weiterhin Skype for Business verwenden, ermutigen wir Sie, sich mit Ihrer Organisation auf die Reise nach Teams zu machen. Setzen Sie den Wert der intelligenten Kommunikationen mit Office 365 frei und helfen Sie dabei, dass der zukünftige Übergang zu Teams ein erfolgreiches Unterfangen sein wird.</span><span class="sxs-lookup"><span data-stu-id="cd285-105">While you continue to use Skype for Business, we encourage you to progress along your organization’s journey to Teams, unlocking the value of intelligent communications with Office 365 and helping facilitate a successful move to Teams in the future.</span></span>
+<span data-ttu-id="63f1f-104">Veränderungen dauern. Sie aber können jetzt schon damit beginnen, den Wert und Nutzen dieser Veränderung zu realisieren.</span><span class="sxs-lookup"><span data-stu-id="63f1f-104">Change takes time, but you can start to realize value and benefit today.</span></span> <span data-ttu-id="63f1f-105">Während Sie weiterhin Skype for Business verwenden, ermutigen wir Sie, sich mit Ihrer Organisation auf die Reise nach Teams zu machen. Setzen Sie den Wert der intelligenten Kommunikationen mit Office 365 frei und helfen Sie dabei, dass der zukünftige Übergang zu Teams ein erfolgreiches Unterfangen sein wird.</span><span class="sxs-lookup"><span data-stu-id="63f1f-105">While you continue to use Skype for Business, we encourage you to progress along your organization’s journey to Teams, unlocking the value of intelligent communications with Office 365 and helping facilitate a successful move to Teams in the future.</span></span>
 
-<span data-ttu-id="cd285-106">Wir bei Microsoft setzen alles daran, Ihnen einen maßgeschneiderten praktischen Leitfaden zur Verfügung zu stellen, der einen langfristigen Erfolg garantiert.</span><span class="sxs-lookup"><span data-stu-id="cd285-106">Microsoft is working hard to bring you tailored practical guidance to ensure that you're set up for long-term success.</span></span> <span data-ttu-id="cd285-107">Nutzen Sie die Ressourcen unten, um Ihren Weg zu Teams fortzusetzen, und seien Sie gespannt auf die in den nächsten Monaten anstehenden Veröffentlichungen.</span><span class="sxs-lookup"><span data-stu-id="cd285-107">Leverage the resources below to continue your path to Teams and look for more resources to be released in the months ahead.</span></span>
+<span data-ttu-id="63f1f-106">Wir bei Microsoft setzen alles daran, Ihnen einen maßgeschneiderten praktischen Leitfaden zur Verfügung zu stellen, der einen langfristigen Erfolg garantiert.</span><span class="sxs-lookup"><span data-stu-id="63f1f-106">Microsoft is working hard to bring you tailored practical guidance to ensure that you're set up for long-term success.</span></span> <span data-ttu-id="63f1f-107">Nutzen Sie die Ressourcen unten, um Ihren Weg zu Teams fortzusetzen, und seien Sie gespannt auf die in den nächsten Monaten anstehenden Veröffentlichungen.</span><span class="sxs-lookup"><span data-stu-id="63f1f-107">Leverage the resources below to continue your path to Teams and look for more resources to be released in the months ahead.</span></span>
 
-## <a name="promote-adoption-of-teams-alongside-skype-for-business"></a><span data-ttu-id="cd285-108">Fördern Sie neben Skype for Business die Akzeptanz von Teams</span><span class="sxs-lookup"><span data-stu-id="cd285-108">Promote adoption of Teams alongside Skype for Business</span></span> 
+## <a name="promote-adoption-of-teams-alongside-skype-for-business"></a><span data-ttu-id="63f1f-108">Fördern Sie neben Skype for Business die Akzeptanz von Teams</span><span class="sxs-lookup"><span data-stu-id="63f1f-108">Promote adoption of Teams alongside Skype for Business</span></span> 
 
-- <span data-ttu-id="cd285-109">Passen Sie Ressourcen für [Benutzerbereitschaft](https://go.microsoft.com/fwlink/?linkid=859044) an und teilen Sie sie – sowohl für Skype, als auch für Teams.</span><span class="sxs-lookup"><span data-stu-id="cd285-109">Customize and share Skype and Teams side-by-side [User Readiness](https://go.microsoft.com/fwlink/?linkid=859044) resources</span></span>
+- <span data-ttu-id="63f1f-109">Passen Sie Ressourcen für [Benutzerbereitschaft](https://go.microsoft.com/fwlink/?linkid=859044) an und teilen Sie sie – sowohl für Skype, als auch für Teams.</span><span class="sxs-lookup"><span data-stu-id="63f1f-109">Customize and share Skype and Teams side-by-side [User Readiness](https://go.microsoft.com/fwlink/?linkid=859044) resources</span></span>
 
-- <span data-ttu-id="cd285-110">Teilen Sie [Schulungsressourcen](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) für Teams, um die Lernkurve zu vereinfachen</span><span class="sxs-lookup"><span data-stu-id="cd285-110">Share Teams [Training](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) resources to facilitate the learning curve</span></span>
+- <span data-ttu-id="63f1f-110">Teilen Sie [Schulungsressourcen](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) für Teams, um die Lernkurve zu vereinfachen</span><span class="sxs-lookup"><span data-stu-id="63f1f-110">Share Teams [Training](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) resources to facilitate the learning curve</span></span>
 
-- <span data-ttu-id="cd285-111">Statten Sie Benutzer mit [Hilfethemen](https://support.office.com/teams) über Teams aus, um das Onboarding voranzutreiben</span><span class="sxs-lookup"><span data-stu-id="cd285-111">Provide Teams [Help](https://support.office.com/teams) topics for users to accelerate their onboarding</span></span>
+- <span data-ttu-id="63f1f-111">Statten Sie Benutzer mit [Hilfethemen](https://support.office.com/teams) über Teams aus, um das Onboarding voranzutreiben</span><span class="sxs-lookup"><span data-stu-id="63f1f-111">Provide Teams [Help](https://support.office.com/teams) topics for users to accelerate their onboarding</span></span>
 
-- <span data-ttu-id="cd285-112">Ist Akzeptanz und Change Management Neuland für Sie?</span><span class="sxs-lookup"><span data-stu-id="cd285-112">New to adoption and change management?</span></span> <span data-ttu-id="cd285-113">Nutzen Sie den [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) (Leitfaden für die Nutzerakzeptanz von Office 365)</span><span class="sxs-lookup"><span data-stu-id="cd285-113">Leverage the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045)</span></span>
+- <span data-ttu-id="63f1f-112">Ist Akzeptanz und Change Management Neuland für Sie?</span><span class="sxs-lookup"><span data-stu-id="63f1f-112">New to adoption and change management?</span></span> <span data-ttu-id="63f1f-113">Nutzen Sie den [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) (Leitfaden für die Nutzerakzeptanz von Office 365)</span><span class="sxs-lookup"><span data-stu-id="63f1f-113">Leverage the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045)</span></span>
 
 
-## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a><span data-ttu-id="cd285-114">Bereiten Sie Ihre Organisation auf den zukünftigen Wechsel zu Teams vor</span><span class="sxs-lookup"><span data-stu-id="cd285-114">Get your organizaton ready for your future move to Teams</span></span>
+## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a><span data-ttu-id="63f1f-114">Bereiten Sie Ihre Organisation auf den zukünftigen Wechsel zu Teams vor</span><span class="sxs-lookup"><span data-stu-id="63f1f-114">Get your organizaton ready for your future move to Teams</span></span>
 
-- <span data-ttu-id="cd285-115">Verwenden Sie die [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) für Ihre Reise nach Teams</span><span class="sxs-lookup"><span data-stu-id="cd285-115">Use the [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) to navigate your journey to Teams</span></span>
+- <span data-ttu-id="63f1f-115">Verwenden Sie die [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) für Ihre Reise nach Teams</span><span class="sxs-lookup"><span data-stu-id="63f1f-115">Use the [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) to navigate your journey to Teams</span></span>
 
-- <span data-ttu-id="cd285-116">Laden Sie zur Unterstützung bei der Bereitstellung von Teams [Teams-Ressourcen](https://go.microsoft.com/fwlink/?linkid=859048) und [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) herunter</span><span class="sxs-lookup"><span data-stu-id="cd285-116">Check out [Teams Resources](https://go.microsoft.com/fwlink/?linkid=859048) and [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) for assistance with deploying Teams</span></span>
+- <span data-ttu-id="63f1f-116">Laden Sie zur Unterstützung bei der Bereitstellung von Teams [Teams-Ressourcen](https://go.microsoft.com/fwlink/?linkid=859048) und [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) herunter</span><span class="sxs-lookup"><span data-stu-id="63f1f-116">Check out [Teams Resources](https://go.microsoft.com/fwlink/?linkid=859048) and [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) for assistance with deploying Teams</span></span>
 
-- <span data-ttu-id="cd285-117">Wenden Sie sich an [Partner](https://go.microsoft.com/fwlink/?linkid=859050), wenn Sie Hilfe bei der Bereitstellung von Teams und Ihrer Reise benötigen</span><span class="sxs-lookup"><span data-stu-id="cd285-117">Contact [Partners](https://go.microsoft.com/fwlink/?linkid=859050) if you need help with your Teams deployment or journey</span></span>
+- <span data-ttu-id="63f1f-117">Wenden Sie sich an [Partner](https://go.microsoft.com/fwlink/?linkid=859050), wenn Sie Hilfe bei der Bereitstellung von Teams und Ihrer Reise benötigen</span><span class="sxs-lookup"><span data-stu-id="63f1f-117">Contact [Partners](https://go.microsoft.com/fwlink/?linkid=859050) if you need help with your Teams deployment or journey</span></span>
 
 
 
