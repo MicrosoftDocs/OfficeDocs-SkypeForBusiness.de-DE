@@ -2,18 +2,20 @@
 title: "Administratorschulungen für Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Schulungsvideos mit einer Einführung von Microsoft Teams und Erläuterungen für Administratoren zur Planung, Bereitstellung und Ausführung von Microsoft Teams."
+description: "Schulungsvideos mit einer Einführung in Microsoft Teams und Erläuterungen für Administratoren zur Planung, Bereitstellung und Ausführung von Microsoft Teams"
+ms.custom:
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: 1f5c37becb8fd82953e07dc948e82a51b7c9cf6e
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 ==================================
@@ -32,7 +34,7 @@ Hier erhalten Sie Informationen zu Microsoft Teams und zum Vorantreiben der Nutz
 | Deep Dive into Guest Access (Tiefe Einblicke in die Gastzugriffsfunktion) <br>„Coffee in the Cloud“-Sitzung mit Laith Al und Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery in Microsoft Teams <br> „Coffee in the Cloud“-Sitzung mit Ansuman Acharya und Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams: Schrittweise Einführung in die Verwendung, Aktivierung und Verwaltung von Funktionen <br> „Microsoft Mechanics“-Sitzung mit Dan Stevenson und Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-
+| Verwalten der App-Funktionen in Microsoft Teams <br> „Coffee in the Cloud“-Sitzung mit Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

@@ -2,7 +2,7 @@
 title: "Bewährte Methoden für Benutzerfeedback in Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Hier erhalten Sie Informationen zu den bewährten Methoden für Be
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b57814b27d9102d68b5036eec3050d2cb869b9fd
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 36a2c69fbdc2b7d6e8e200cecb0f097250e33661
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Bewährte Methoden für Benutzerfeedback in Microsoft Teams
 ===========================================================

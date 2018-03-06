@@ -20,7 +20,8 @@
 ## [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
 ## [Planen von Office 365-Gruppen beim Erstellen von Teams in Teams](plan-Office-365-groups.md)
 ## [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
-## [URLs und IP-Adressbereiche von Office 365](Office-365-URLs-IP-address-ranges.md)
+## [QoS in Microsoft Teams](QoS-in-Teams.md)
+## [URLs und IP-Adressbereiche von Office 365](Office-365-URLs-IP-address-ranges.md)
 ## [Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
 
 # Übernehmen
@@ -61,9 +62,7 @@
 
 # [Cloud-VoIP](cloud-voice-deployment.md)
 ## [Audiokonferenzen](audio-conferencing.md)
-### [Ausblick](audio-conferencing.md#Envision_AudioConferencing)
 ## [Telefonsystem mit Anrufplänen](phone-system-with-calling-plans.md)
-### [Konzeptionierung](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
 ## Anrufpläne
 ### [Schnellstart: Konfigurieren von Anrufplänen](configuring-teams-calling-quickstartguide.md)
 ### [Grundlegendes zu Anrufen in Microsoft Teams](Tutorial-Calling-in-Teams.yml)
@@ -98,6 +97,7 @@
 ## [Überprüfen der Dienstintegrität für Teams](service-health.md)
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
+
 
 # Microsoft Teams Education
 ## [Schnellstart für Administratoren – Microsoft Teams Education](Teams-quick-start-edu.yml)

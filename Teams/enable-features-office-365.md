@@ -2,20 +2,22 @@
 title: "Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: "Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren oder deaktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr."
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d91d166651cce5adf0ff07a19b29b90047e98e0
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 ======================================================
@@ -119,7 +121,7 @@ Zurzeit kann ein Office 365-Mandant maximal 500.000 Teams enthalten. Ein globa
 
 Als Administrator können Sie Teambesitzer und -mitglieder über das Dashboard „Gruppen“ im Office 365 Admin Center verwalten. Wenn Sie mehr wissen möchten, klicken Sie unter **Teams und Kanäle** auf **Use the Groups dashboard in the Office 365 admin center to manage teams** (Dashboard „Gruppen“ im Office 365 Admin Center zum Verwalten von Teams verwenden).
 
-Sie können steuern, welche Benutzer in der Organisation Teams in Microsoft Teams erstellen können. Für Microsoft Teams gelten die gleichen Erstellungseinstellungen, die durch Office 365-Gruppen definiert werden. Weitere Informationen zum Verwalten von Office 365-Gruppen finden Sie unter [Erstellen von Office 365-Gruppen](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) und [Steuern, wer Office 365-Gruppen erstellen kann](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Sie können steuern, welche Benutzer in der Organisation Teams in Microsoft Teams erstellen können. Für Microsoft Teams gelten die gleichen Erstellungseinstellungen, die durch Office 365-Gruppen definiert werden. Weitere Informationen zum Verwalten von Office 365-Gruppen finden Sie unter [Erstellen von Office 365-Gruppen](https://support.office.com/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) und [Steuern, wer Office 365-Gruppen erstellen kann](https://support.office.com/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 > [!NOTE]
 > Sie können keine Teams über das Dashboard „Gruppen“ erstellen Teams müssen mit dem Microsoft Teams-Desktopclient oder der Web-App erstellt werden.

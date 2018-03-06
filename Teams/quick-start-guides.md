@@ -2,7 +2,7 @@
 title: "Schnellstarthandbücher für Microsoft Teams-Administratoren"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,13 @@ ms.reviewer: lolaj
 description: "Hier finden Sie Schnellstarthandbücher, mit denen Sie sich vorbereiten und Microsoft Teams verwenden können."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9e7ed491ecb40abe870724abcbc3abd66c46732
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.custom:
+- NewAdminCenter_Update
+ms.openlocfilehash: 3e0cc06fbd0e97446371508270d02d02b1daa727
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="quick-start-guides-for-microsoft-teams-admins"></a>Schnellstarthandbücher für Microsoft Teams-Administratoren
 =====================================

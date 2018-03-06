@@ -8,17 +8,17 @@ metadata:
   displayType: one-column
   interactive: azurecli
   ms.author: tbinder
-  manager: lolaj
+  manager: serdars
   ms.service: msteams
   ms.topic: tutorial
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: d11c027317eb3e239ac80a3ca81af1d550a9c8b6
-  ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+  ms.openlocfilehash: 17b53204e88dae14628a8d4f2cd07842bfdf345c
+  ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/15/2018
+  ms.lasthandoff: 02/19/2018
 items:
 - durationInMinutes: 1
   content: "In dieser Schulung stellen wir die Anruffunktionen in Microsoft Teams vor, die von der Telefonsystemfunktion in Office 365 unterstützt werden. Wir erläutern die erforderliche technische Planung für die Implementierung des Telefonsystems, die Konfiguration und die Überwachung der Verwendung und der Anrufqualität in Ihrer Implementierung.\n\nDiese Schulung richtet sich an Sie, wenn Folgendes auf Sie zutrifft: \n\n- Sie sind IT-Spezialist.\n\n- Sie sind für die Planung, Bereitstellung oder Verwaltung von Microsoft Teams zuständig.\n\n- Sie planen die Einführung von Anruffunktionen in Ihrer Microsoft Teams-Bereitstellung.\n\nFolgende Punkte werden behandelt:\n\n- Was sind Anrufe in Microsoft Teams?\n\n- Planen von Anrufen in Microsoft Teams\n\n- Konfigurieren von Anrufen in Microsoft Teams\n\nWenn Sie Fragen oder Feedback zu dieser Schulung haben:\n\n- Verwenden Sie dafür den Abschnitt für Kommentare unten auf der Seite „Nächste Schritte“ dieses Tutorials.</a>\n\n- Senden Sie eine E-Mail an [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling).\n\nWenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"

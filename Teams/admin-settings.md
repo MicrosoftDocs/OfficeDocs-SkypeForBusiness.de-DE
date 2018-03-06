@@ -2,20 +2,22 @@
 title: "Administratoreinstellungen für Apps in Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: "Hier erfahren Sie, wie Apps in Microsoft Teams aktiviert werden. Dazu zählt auch das Querladen von externen Apps."
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cdca98cca13ffb49575b808a5cfa82f784d1752
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0fb8d7680338ebda68624a765068d4c386ea46b3
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
@@ -26,6 +28,12 @@ Apps sind Registerkarten, Connectors und Bots bzw. eine beliebige Kombination di
 > Um die Administratoreinstellungen für Apps in Microsoft Teams zu verwalten, wechseln Sie zum Office 365 Admin Center. Öffnen Sie **Einstellungen** > **Dienste und Add-Ins**, und wählen Sie dann **Microsoft Teams** aus. Wenn Sie als Office 365-Administrator angemeldet sind, können Sie diesen Link verwenden:
 > 
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+
+Weitere Informationen zu Administratoreinstellungen für Apps erhalten Sie im folgenden Video: 
+ 
+|  |  |
+|---------|---------|
+| Verwalten der App-Funktionen in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 ## <a name="allow-external-apps-in-teams"></a>Zulassen von externen Apps in Microsoft Teams
 

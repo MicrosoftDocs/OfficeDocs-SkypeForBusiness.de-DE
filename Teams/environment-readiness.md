@@ -2,7 +2,7 @@
 title: "Überprüfen der Bereitschaft Ihrer Umgebung für Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,22 +11,22 @@ description: "Hier erfahren Sie, auf was Sie achten müssen, wenn Sie die Bereit
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bd50af24bab2699e6638adeed3b33e602ec5bb6
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
+ms.openlocfilehash: c94d6729f27a2f172b736805aae98d02f865c9b1
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Überprüfen der Bereitschaft Ihrer Umgebung für Microsoft Teams
 ===========================================
 
-Der Übergang zur Cloud unterscheidet sich bei jeder Organisation, und der aktuelle Zustand kann sich auf die Funktionsweise von Microsoft Teams auswirken.
+Der Übergang zur Cloud verläuft bei jeder Organisation anders, und der aktuelle Zustand kann sich auf die Funktionsweise von Microsoft Teams auswirken.
 
-Um optimales Arbeiten mit Microsoft Teams sicherzustellen, müssen Exchange Online und SharePoint Online in Ihrer Organisation bereitgestellt sein. Wenn dies nicht der Fall ist oder wenn Sie über ein anderes Setup verfügen, finden Sie unter diesen Links weitere Informationen:
+Um optimales Arbeiten mit Microsoft Teams sicherzustellen, müssen Exchange Online und SharePoint Online in Ihrer Organisation bereitgestellt sein. Wenn diese Dienste nicht bereitgestellt sind oder wenn Sie über ein anderes Setup verfügen, finden Sie unter diesen Links weitere Informationen:
 
--   Wenn Ihre Organisation keine Office 365-Arbeitsauslastungen bereitgestellt hat, finden Sie weitere Informationen unter [Erste Schritte mit Office 365 for Business](https://support.office.com/en-us/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+-   Wenn Ihre Organisation keine Office 365-Arbeitsauslastungen bereitgestellt hat, finden Sie weitere Informationen unter [Erste Schritte mit Office 365 for Business](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
--   Wenn Ihre Organisation keine verifizierte Domäne für Office 365 hinzugefügt oder konfiguriert hat, finden Sie weitere Informationen unter [Überprüfen Ihrer Office 365-Domäne](https://support.office.com/en-us/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+-   Wenn Ihre Organisation keine verifizierte Domäne für Office 365 hinzugefügt oder konfiguriert hat, finden Sie weitere Informationen unter [Überprüfen Ihrer Office 365-Domäne](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
 -   Wenn Ihre Organisation keine Identitäten mit Azure Active Directory synchronisiert hat, finden Sie weitere Informationen unter [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md).
 

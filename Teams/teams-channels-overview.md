@@ -2,7 +2,7 @@
 title: "Übersicht über Teams und Kanäle in Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,16 +10,16 @@ description: "Hier erhalten Sie Informationen zu den verschiedenen verfügbaren 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a35e8f7412240fdf3ecc7161a2f79441f9051ec2
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: b9586a321c74cdb3d16bf78cf8b63c67b1e46a05
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
 
-Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst organisieren können:
+Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst organisieren und in verschiedenen Geschäftsszenarien zusammenarbeiten können:
 
 -   **Teams** sind Sammlungen von Personen, Inhalten und Tools für unterschiedliche Projekte und Aufgaben innerhalb einer Organisation.
 
@@ -31,13 +31,16 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 
     -   In Teamkanälen können alle Teammitglieder offene Unterhaltungen führen. Private Chats sind nur für die am Chat beteiligten Personen sichtbar.
 
-    -   Kanäle können mit Apps erweitert werden, die Registerkarten, Connectors und Bots enthalten.
-
-![Diagramm einer Hierarchie der Organisation von Teams und Kanälen in Microsoft Teams](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
-
-Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Microsoft Teams im Arbeitsalltag besser zusammenarbeiten können.
+    -   Kanäle können mit Apps erweitert werden, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern.
+    
+Nehmen Sie sich fünf Minuten Zeit, und sehen Sie sich dieses Video zu den bewährten Methoden für das Organisieren von Teams, Kanälen und Registerkarten an:
+|  |  |
+|---------|---------|
+| 5 Minuten zum Einrichten von sinnvollen Teams, Kanälen und Registerkarten   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
 
 Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Microsoft Teams zu erstellen (wie Sie dies ändern, erfahren Sie unter [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md)). Benutzer einer vorhandenen Office 365-Gruppe können diese Gruppe mit Microsoft Teams-Funktionen erweitern.
+
+Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Microsoft Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten.  Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse. 
 
 <a name="sample-team-set-up"></a>Beispiele für Teamkonfigurationen
 ------------------
@@ -59,4 +62,8 @@ Microsoft Teams ist gut darin, organisatorische Silos aufzubrechen und funktions
 |Logistik     |Lagerbetrieb<br></br>Fahrzeugwartung<br></br>Fahrerdienstpläne         |Wetterdienst<br></br>Verkehrsstörungen<br></br>Planner<br></br>Tubot<br></br>UPS-Bot         |
 |Personalwesen     |Talentmanagement<br></br>Personalsuche<br></br>Leistungsbewertungsplanung<br></br>Arbeitsmoral         |Tools für das Personalwesen<br></br>Externe Websites für Stellenausschreibungen<br></br>Growbot         |
 |Organisationsübergreifendes <br></br>virtuelles Team |Strategie<br></br>Mitarbeiterentwicklung<br></br>Wettbewerb und Forschung         |Power BI<br></br>Microsoft Stream         |
+
+Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln.  Diese Vorgehensweise eignet sich am besten für Führungskräfte, die die Motivation steigern, teamspezifische Überprüfungen durchführen, für Klarheit bezüglich der Onboardingprozesse für die Mitarbeiter sorgen, Personalpläne besprechen und die Transparenz für die Mitarbeiter in den verschiedenen Bereichen erhöhen möchten.  
+
+![Diagramm einer Hierarchie der Organisation von Teams und Kanälen in Microsoft Teams](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png
 

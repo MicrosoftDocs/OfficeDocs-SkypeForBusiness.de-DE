@@ -2,7 +2,7 @@
 title: "Microsoft Teams-Schulungen für Endbenutzer"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: lolaj, ninadara
 description: "Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1af76ead0cedd411000fcedc162662c9e29775
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
+ms.openlocfilehash: d9889e88f031abc08a5052e87f8cffcfa814a42b
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================
@@ -31,7 +31,7 @@ Verwenden Sie diese Schulungsressourcen, um Ihrer Organisation die optimale Nutz
 | [Microsoft Teams-Kanal auf YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [YouTube-Kanal „Coffee in the Cloud“](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Videos mit Anleitungen, bewährten Methoden und Funktionsbeschreibungen  |
 | Einführung in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
-| 5 Minuten zum Einrichten von sinnvollen Teams, Kanälen und Registerkarten   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| 5 Minuten zum Einrichten von sinnvollen Teams, Kanälen und Registerkarten   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 29
 
 

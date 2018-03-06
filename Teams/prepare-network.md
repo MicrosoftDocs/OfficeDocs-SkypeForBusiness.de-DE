@@ -2,7 +2,7 @@
 title: "Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -11,18 +11,18 @@ description: "Hier erfahren Sie, wie Sie Ihr Microsoft Teams-Netzwerk vorbereite
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db9dc97d117ad1844d56c59191bb92ec496a9a83
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0528d958f7e7f8f06f4dbfb1e38b297577436c56
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
 
 Microsoft Teams kombiniert drei Arten von Datenverkehr:
 
--   Datenverkehr zwischen der Office 365 Online-Umgebung und dem Microsoft Teams-Client (Signalisierung, Anwesenheit, Chat, Dateiupload und -download, OneNote-Synchronisierung)
+-   Datenverkehr zwischen der Office 365-Onlineumgebung und dem Microsoft Teams-Client (Signalisierung, Anwesenheit, Chat, Dateiupload und -download, OneNote-Synchronisierung)
 
 -   Datenverkehr für Peer-zu-Peer-Echtzeitkommunikation (Audio, Video, Desktopfreigabe)
 
@@ -33,9 +33,9 @@ Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt b
 
 
 > [!IMPORTANT]
-> Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone (Unterstützung für Windows Phone kommt bald).
+> Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone.
 
-Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein (weitere Details finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität für Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US)).
+Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein (weitere Details finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität für Skype for Business Online](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)). 
 
 Die beiden definierenden Netzwerksegmente (Client zu Microsoft Edge und Kundenedge zu Microsoft Edge) müssen die folgenden Anforderungen erfüllen:
 
@@ -49,7 +49,7 @@ Die beiden definierenden Netzwerksegmente (Client zu Microsoft Edge und Kundened
 |**Jitter zwischen der Ankunftszeit von Paketen**    |< 30 ms in einem Intervall von 15 s         |< 15 ms in einem Intervall von 15 s         |
 |**Neuanordnung von Paketen**    |< 0,05 % Pakete in falscher Reihenfolge         |< 0,01 % Pakete in falscher Reihenfolge         |
 
-Um beide Netzwerksegmente zu testen, können Sie ein Netzwerkbewertungstool verwenden (Quelle: [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799)). Dieses Tool kann direkt auf dem Client-PC sowie auf einem PC oder Laptop, der mit dem Netzwerkedge des Kunden verbunden ist, bereitgestellt werden. Das Tool enthält begrenzte Dokumentation, eine eingehendere Dokumentation zur Verwendung des Tools finden Sie hier: [Bewertung der Netzwerkbereitschaft](https://go.microsoft.com/fwlink/?linkid=855800). Indem Sie diese Bewertung der Netzwerkbereitschaft ausführen, können Sie die Bereitschaft Ihres Netzwerks für die Ausführung von Echtzeitmedienanwendungen wie beispielsweise Microsoft Teams validieren.
+Um beide Netzwerksegmente zu testen, können Sie das [Network Assessment-Tool](https://go.microsoft.com/fwlink/?linkid=855799) herunterladen. Dieses Tool kann direkt auf dem Client-PC sowie auf einem PC, der mit dem Netzwerkedge des Kunden verbunden ist, bereitgestellt werden. Das Tool selbst enthält begrenzte Dokumentation. Sehen Sie sich daher die im Download enthaltene umfassende Dokumentation an. Indem Sie diese Bewertung der Netzwerkbereitschaft ausführen, können Sie die Bereitschaft Ihres Netzwerks für die Ausführung von Echtzeitmedienanwendungen wie beispielsweise Microsoft Teams validieren.
 
 
 
@@ -59,7 +59,7 @@ Um beide Netzwerksegmente zu testen, können Sie ein Netzwerkbewertungstool verw
 <a name="bandwidth-requirements"></a>Bandbreitenanforderungen
 ----------
 
-Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützung wurde ein Rechner erstellt. Hier können Sie auf den Rechner zugreifen: <http://aka.ms/bwcalc/>.
+Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützung wurde ein Rechner erstellt, auf den Sie hier zugreifen können: <http://aka.ms/bwcalc>.
 
 Den folgenden Inhalt können Sie als ergänzende Hintergrundinformationen nutzen. Kunden wird jedoch empfohlen, ihren Bedarf mit dem [Bandbreitenrechner](https://aka.ms/bwcalc) zu ermitteln.
 
@@ -110,5 +110,5 @@ Falls diese Kriterien nicht erfüllt sind, sollten Sie in Betracht ziehen, das P
 |  |  |  |
 |---------|---------|---------|
 |![Entscheidungspunktsymbol](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Entscheidungspunkt         |Haben Sie die Möglichkeiten für die Unterstützung von Echtzeitmedien in Ihrem Netzwerk bewertet?<br></br>Werden Sie, wenn das Netzwerk nicht ordnungsgemäß bewertet wurde oder Sie wissen, dass Echtzeitmedien nicht unterstützt werden, Video- und Bildschirmübertragungsfunktionen deaktivieren, um die Auswirkungen auf das Netzwerk und Beeinträchtigungen der Verwendung von Teams zu verringern?         |
-|![Symbol für „Nächste Schritte“](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Nächste Schritte         |Netzwerkqualität unbekannt: Ermitteln Sie anhand des Leitfadens zur Bewertung der Netzwerkbereitschaft unter skypeoperationsframework.com, ob Ihr Netzwerk für Echtzeitmedien bereit ist.<br></br>Netzwerkqualität schlecht: Führen Sie die Netzwerkwiederherstellungsschritte aus, um eine geeignete Umgebung für Echtzeitmedien von hoher Qualität bereitzustellen.<br></br>Netzwerk zufriedenstellend: Stellen Sie sicher, dass der Zugriff auf alle IP-Adressen und Ports ordnungsgemäß möglich ist.           |
+|![Symbol für „Nächste Schritte“](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Nächste Schritte         |Netzwerkqualität unbekannt: Ermitteln Sie anhand des Leitfadens zur [Bewertung der Netzwerkbereitschaft](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness), ob Ihr Netzwerk für Echtzeitmedien bereit ist.<br></br>Netzwerkqualität schlecht: Führen Sie die Netzwerkwiederherstellungsschritte aus, um eine geeignete Umgebung für Echtzeitmedien von hoher Qualität bereitzustellen.<br></br>Netzwerk zufriedenstellend: Stellen Sie sicher, dass der Zugriff auf alle IP-Adressen und Ports ordnungsgemäß möglich ist.           |
 
