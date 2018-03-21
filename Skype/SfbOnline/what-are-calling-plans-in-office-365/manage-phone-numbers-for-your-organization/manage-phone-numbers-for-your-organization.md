@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 02/06/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Je nach Land bzw. Region gelten unterschiedliche Anweisungen für das Beziehen von Telefonnummern für Benutzer in Skype for Business Online und Microsoft Teams. Folgen Sie unten dem Link für Ihr Land bzw. Ihre Region, um die benötigten Informationen anzuzeigen."
-ms.openlocfilehash: 600d1370d0823c0cf5efab0c75ce0f26d6867828
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 01c6f3bbb01d74d021594612561d035163378ba5
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 Es gibt drei Möglichkeiten zum Abrufen von Benutzer- und Service (gebührenpflichtige und gebührenfreie) Zahlen für Ihre Organisation.
@@ -37,7 +37,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzer- und Service (gebührenpfli
 - Weiterleiten oder "port" Ihre vorhandenen Zahlen über uns.
 
 > [!IMPORTANT]
-> In **Belgien, Irland, Deutschland und den Niederlanden**können nicht erhalten Sie neue Telefon Telefonnummern mit der **Skype für Business Administrationscenter**; Sie müssen Sie herunterladen und Ausfüllen eines Formulars.
+> In **Belgien, Irland, Deutschland und den Niederlanden**können nicht erhalten Sie neue Telefon Telefonnummern mit der **Skype für Business Administrationscenter**; Sie müssen Sie herunterladen und Ausfüllen eines Formulars. Neue Rufnummern in Australien finden Sie unter [Telstra Voice Services](http://aka.ms/TelstraVoicePlan). 
 
 ***
 Wählen Sie Land/Region, in dem Sie Zahlen erhalten, wenn Sie wissen, welche Art von Formularen, denen Sie für die Verwendung der Dropdown-Liste suchen.
