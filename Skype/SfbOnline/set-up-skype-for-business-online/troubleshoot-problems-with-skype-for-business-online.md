@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 3e6663c3e24e9124f83fb83a30a66f6c494b68cf
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: de36db163387d7edf08f1c7a98f7555f208b00f9
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Behandeln von Problemen mit Skype for Business
 
@@ -85,3 +85,6 @@ Als Administrator für Office 365 for Business haben Sie kostenlosen Zugriff auf
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

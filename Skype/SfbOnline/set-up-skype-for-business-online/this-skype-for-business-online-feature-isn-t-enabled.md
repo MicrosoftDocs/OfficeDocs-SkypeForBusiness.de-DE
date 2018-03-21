@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Hier finden Sie mögliche Ursachen und Vorschläge Aktion beim Abrufen einer Skype für Business Online Feature nicht aktiviert ist. "
-ms.openlocfilehash: ff8e8dca2dc4a196a31f979c6aced400d5a7b194
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e6b025ad9e53d520a5e79c380de80e71c5f0fe04
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Diese Skype für Business Online Feature ist nicht aktiviert.
 
@@ -39,3 +39,6 @@ Es ist leider sieht sie wie der Benutzer für dieses Feature lizenziert nicht zu
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

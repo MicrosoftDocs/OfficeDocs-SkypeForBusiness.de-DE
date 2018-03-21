@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Hier erfahren Sie, warum Sie autorisierte Personen hinzufügen, die Änderungen an das Konto vornehmen können, wenn Sie den Assistenten für neue lokale Anzahl Port Reihenfolge verwenden müssen."
-ms.openlocfilehash: f12bb42b3ae74f0d487e25f935c2c129545008c1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: f4ee09d0d76e76b5b52277362b3ea2f5aa725315
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="authorized-person-on-the-account"></a>Autorisierte Personen auf das Konto
 
@@ -49,3 +49,6 @@ Im Assistenten **Neue lokale Anzahl Port Reihenfolge** Geben Sie den Namen der P
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

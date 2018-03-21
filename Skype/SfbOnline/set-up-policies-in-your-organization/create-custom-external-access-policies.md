@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Skype für Business Online können Sie zusätzliche externe Zugriffsrichtlinien erstellen. Im Gegensatz zu Client oder für Konferenzen Richtlinien, wenn Sie mehrere Kombinationen verfügen, gibt es drei vordefinierten externen Zugriff-Richtlinien, die meisten Szenarien abdecken können."
-ms.openlocfilehash: 7a5e347f3f9629f603544ad9ab06e11d4b649868
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8ed4549aa1b32ccfb13bda559394e6aa79ab47ed
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externe Zugriffsrichtlinien
 
@@ -115,3 +115,6 @@ Zu diesem Zweck führen Sie Folgendes aus:
 [Einrichten von Clientrichtlinien für Ihre Organisation](set-up-client-policies-for-your-organization.md)
 
 [Einrichten von konferenzrichtlinien in Ihrer Organisation](set-up-conferencing-policies-for-your-organization.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "Dieser Bericht bietet Ihnen mit den anderen Skype for Business-Berichten nähere Einzelheiten zur jeweiligen Aktivität, einschließlich der PSTN-Nutzung in der gesamten Organisation. "
-ms.openlocfilehash: 4a3ca5b29a6be75f2f03890d4447b9c62c966c92
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ff8fe5d7dfd47f19e98c1663793b91729e54acda
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="users-blocked-report"></a>Benutzer, die blockiert Bericht
 
@@ -83,3 +83,6 @@ Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier
    
 ## <a name="related-topics"></a>See Also
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

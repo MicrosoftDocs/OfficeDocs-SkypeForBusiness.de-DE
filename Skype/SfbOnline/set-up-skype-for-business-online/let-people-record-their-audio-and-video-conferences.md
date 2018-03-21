@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'How to turn on recording for audio and video conferences, and learn what is and isn''t included in recordings. '
-ms.openlocfilehash: 040bc86ec65f5e0c4fd50ec09f8517b6d7f5699c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9c8f3107272eaad7911c86f6b914a67bed3902ee
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Zulassen, dass Personen ihre Audio- und Videokonferenzen aufzeichnen
 
@@ -46,3 +46,6 @@ Weitere Informationen hierzu finden Sie unter [Lync Aufzeichnung speichern und v
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Hier sind einige Gründe, warum Sie Ihre-Adressen in Großbritannien (Großbritannien) ordnungsgemäß validiert Probleme beim werden können."
-ms.openlocfilehash: 6f77a9f69751df04d995c098768d99d85a6e2c70
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e012de9ba4371063bc16e2896a5bd4e3b8814a4d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Warum habe ich Probleme beim Eingeben von Großbritannien Adressinformationen?
 
@@ -117,3 +117,6 @@ Wenn Sie ein Problem, das die Postleitzahl eingeben haben, denken Sie daran:
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

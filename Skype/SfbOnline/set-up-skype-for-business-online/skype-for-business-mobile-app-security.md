@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Hier erfahren Sie, mobile app-Sicherheit für Ihre Benutzer eingerichtet. "
-ms.openlocfilehash: 150eb50c4e2c57b3e51b9400d9fdb79d49990174
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 98a748ca626d9b27a3e75ce5d75641155af7853d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype für Business mobile app-Sicherheit
 
@@ -42,3 +42,6 @@ Dieser Artikel beinhaltet Informationen zur Datenverschlüsselung für mobile Sk
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

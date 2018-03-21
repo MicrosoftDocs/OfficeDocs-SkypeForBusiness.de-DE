@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardnachrichten des Systems festlegen können. "
 ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
-ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Sprachen für Voicemail-Ansagen und -nachrichten
 

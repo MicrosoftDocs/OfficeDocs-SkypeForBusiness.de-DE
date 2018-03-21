@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Hier erfahren Sie, was Sie können und nicht in Skype für Business-Verwaltungskonsole und andere Features verwenden, wenn Ihren Dienst auf einem anderen Microsoft-Rechenzentrum migriert wird. "
-ms.openlocfilehash: b310bdc431edb890002bebd8d79271c78b841b38
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e9d0f2b56ebe11ef95b59ff125434dcf3dd4574d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum verwenden kann nicht ich die Skype für Business Online Administrationscenter sofort?
 
@@ -67,3 +67,6 @@ Sicher. Während wir Ihre Skype für Business Onlinedienst migrieren, können Si
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

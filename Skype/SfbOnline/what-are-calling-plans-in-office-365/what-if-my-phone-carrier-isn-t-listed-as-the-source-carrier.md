@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Hier erfahren Sie, wie Sie vorgehen, wenn Ihr Netzbetreiber nicht in Skype für Unternehmen aufgeführt ist. "
-ms.openlocfilehash: cd6d8db589fbc56d40faad0f948d012f02b5ad9d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: da9f5603c477f67b68ed02b00434b10318de31c8
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was geschieht, wenn mein Mobilfunkbetreibers als der Quelle Netzbetreiber nicht aufgeführt ist?
 
@@ -47,3 +47,6 @@ Ein Beispiel:
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

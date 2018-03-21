@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: "Erfahren Sie, wie die Skype für organisierte Konferenz Tätigkeit Bericht abgerufen und das interpretieren und passen Sie es. "
-ms.openlocfilehash: ec7292f1651123d05466cb24bcce4ef7a84f2323
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 5765234e4ef4fd931e6b8433bbd4d721cb23421a
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="conference-organizer-activity-report"></a>Organizer konferenzaktivitätsbericht
 
@@ -121,3 +121,5 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 ## <a name="related-topics"></a>See Also
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

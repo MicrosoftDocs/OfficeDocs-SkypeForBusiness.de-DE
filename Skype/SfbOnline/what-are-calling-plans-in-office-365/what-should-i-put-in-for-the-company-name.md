@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Was für das Unternehmen in Skype für Unternehmen eingefügt, und wo Sie ihn finden können. "
-ms.openlocfilehash: 875ae462ad2ade0e486adb90c06bcd3463465fbc
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3bde0daaebdaf6a3f615629c2d23f083e84e6465
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>Was sollte ich für den Namen des Unternehmens tragen Sie?
 
@@ -46,3 +46,5 @@ Dies ist der Name Ihrer Firma oder Organisation. Der Name des Unternehmens ist a
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

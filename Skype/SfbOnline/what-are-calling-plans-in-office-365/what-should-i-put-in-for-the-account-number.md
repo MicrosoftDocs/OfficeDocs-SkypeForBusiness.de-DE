@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Finden Sie unter Was Sie als eine Kontonummer in Skype für Unternehmen halten sollten, und finden Sie auf, die. "
-ms.openlocfilehash: 1853e8c6d63db37d89f41c49a6302d2f765a0302
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a56413aaf7d4bbb5924b4c3744bc899fcb5ddeef
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>Was sollte ich für die Kontonummer tragen Sie?
 
@@ -48,4 +48,5 @@ In der Regel die Kontonummer finden Sie auf eine beliebige Bill oder Rechnung vo
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

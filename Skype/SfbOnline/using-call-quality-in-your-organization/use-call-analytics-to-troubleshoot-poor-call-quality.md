@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings.
-ms.openlocfilehash: 4f43c517beba318889e12fca8b09a488f6da5916
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: cbb728c14c58393a5ec71cc538ad958ba58fb947
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business
 
@@ -77,3 +77,5 @@ Für audio-Sitzungen, die Daten Quality of Experience (QoE) verfügen, wird besc
 
 [Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

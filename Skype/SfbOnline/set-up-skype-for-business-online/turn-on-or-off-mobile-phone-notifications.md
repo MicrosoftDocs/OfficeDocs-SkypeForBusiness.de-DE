@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Erfahren Sie, wie Mobiltelefon Benachrichtigungen aktivieren oder deaktivieren, damit die Benutzer die Benachrichtigungen über eingehende, Voicemail empfangen können und entgangene Sofortnachrichten."
-ms.openlocfilehash: bd1c72f4c67b093db2970be3eae17c31149404e2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 5f783c45fa198d02a44bbd2f7501a5bc4f0b5e1e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
@@ -56,3 +56,5 @@ Bitte beachten Sie:
 
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: f58a5650da1b6f489c63fdb5e5870321e0f06727
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9eaebe086e65b68cb13013931b753285f63bd9de
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -117,4 +117,7 @@ Wenn Sie Office 365 über 21Vianet in China nutzen, finden Sie weiterführende I
 ## <a name="related-topics"></a>See Also
 [Programm zur Verbesserung der Benutzerfreundlichkeit](https://www.microsoft.com/products/ceip/en-US/default.mspx)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

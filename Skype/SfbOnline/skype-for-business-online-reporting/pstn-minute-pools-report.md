@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "Die neue Skype für Bereich Business Admin Center Berichte zeigt Sie aufrufende und audio Conferencing Aktivität in Ihrer Organisation. Sie können in Berichte bieten mehr Granularität Aufschluss über die Aktivitäten der einzelnen Benutzer zur Verfügung, der Drilldown erfolgen soll. Die Skype für Business PSTN Minute Pools Bericht können Sie beispielsweise die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht finden Sie unter."
-ms.openlocfilehash: f0cb22187fe8b791ef143524eeae6b453f89f4f4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 320b316d6d2ba3986212880a76847e878c109677
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN-Minute Pools-Bericht
 
@@ -92,4 +92,6 @@ Der Bericht sieht folgendermaßen aus:
     
 ## <a name="related-topics"></a>See Also
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
-  
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).  

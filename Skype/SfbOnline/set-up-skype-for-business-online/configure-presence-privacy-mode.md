@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Informationen Sie zum Einrichten von datenschutzmodus für Ihre Benutzer, damit sie besser steuern können, wie Personen ihrer Verfügbarkeit anzeigen. "
-ms.openlocfilehash: c548a0b85b4b458472da0d9196ac0271a92a16c2
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>Konfigurieren der datenschutzmodus für Anwesenheitsinformationen
 
@@ -44,3 +44,6 @@ Die Skype Business Online Einstellung kann Personen besser steuern, wer anzeigen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

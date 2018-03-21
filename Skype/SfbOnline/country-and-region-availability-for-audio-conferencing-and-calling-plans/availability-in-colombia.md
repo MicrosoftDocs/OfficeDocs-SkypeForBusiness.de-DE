@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "In Kolumbien sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar."
-ms.openlocfilehash: 3b4c9250b47f63ee8c745d47211068fdc52bfce1
-ms.sourcegitcommit: 9f185be910855f6312344ea906e96e5e6449cf4c
-ms.translationtype: HT
+ms.openlocfilehash: d96f2c22ea80d10b411dd5a43355aed1aca6e80d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-colombia"></a>Verfügbarkeit in Kolumbien
 
@@ -83,4 +83,5 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Skype-besprechungseinladungen mit Grafik Logos, Hilfe und rechtliche URLs und Fußzeilentext anpassen. "
-ms.openlocfilehash: 9d53c59b574cd21333c8749ee2868e918f6bbe6f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 374060876bcf12c5d7283586d3a04710a9b203b4
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von besprechungseinladungen
 
@@ -73,3 +73,5 @@ Als Administrator können Sie sicherstellen, dass alle Skype für Business bespr
 
 [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

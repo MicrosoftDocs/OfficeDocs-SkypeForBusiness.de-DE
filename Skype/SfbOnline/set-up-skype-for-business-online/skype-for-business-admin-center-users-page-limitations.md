@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Erfahren Sie, wie in den Einschränkungen des Skype für die Anzeige von Benutzern Business Online Admin arbeiten. "
-ms.openlocfilehash: b7154c8b8aae4f8f28cd2ebc9e70d1c966507db8
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7f7189536d1c859b25eb6cacb3fc75c57995d464
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype für Business Online Admin Center Benutzer Seite Einschränkungen
 
@@ -44,3 +44,6 @@ Sie können die Anzahl der Benutzer, die auf jeder Seite mit dem Steuerelement a
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Feedback?
+Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
