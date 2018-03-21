@@ -2,8 +2,8 @@
 title: "Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
-ms.date: 09/25/2017
+manager: lolaj
+ms.date: 02/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
@@ -11,11 +11,11 @@ description: "Hier erfahren Sie, wie Sie Ihr Microsoft Teams-Netzwerk vorbereite
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0528d958f7e7f8f06f4dbfb1e38b297577436c56
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: e734014ff72c8b7eb6ba0e9f27cce7489ec3daf9
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
@@ -28,14 +28,12 @@ Microsoft Teams kombiniert drei Arten von Datenverkehr:
 
 -   Datenverkehr für Echtzeitkommunikation in Konferenzen (Audio, Video, Desktopfreigabe)
 
-Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt bei Peer-zu-Peer-Kommunikation direkt zwischen den Microsoft Teams-Clients und in Besprechungsszenarien zwischen der Office 365-Umgebung und den Microsoft Teams-Clients. Um den optimalen Datenverkehrsfluss sicherzustellen, muss der Datenverkehr zwischen den internen Netzwerksegmenten (zum Beispiel zwischen den Standorten über das WAN) sowie zwischen den Netzwerkstandorten und Office 365 fließen können. Wenn Sie nicht die richtigen Ports öffnen oder bestimmte Ports aktiv blockieren, führt dies zu Beeinträchtigungen.
-
-
+Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt in Peer-zu-Peer-Szenarien direkt zwischen den Microsoft Teams-Clients und in Besprechungsszenarien zwischen der Office 365-Umgebung und den Microsoft Teams-Clients. Um den optimalen Datenverkehrsfluss sicherzustellen, muss der Datenverkehr zwischen den internen Netzwerksegmenten (zum Beispiel zwischen den Standorten über das WAN) sowie zwischen den Netzwerkstandorten und Office 365 fließen können. Wenn Sie nicht die richtigen Ports öffnen oder bestimmte Ports aktiv blockieren, führt dies zu Beeinträchtigungen.
 
 > [!IMPORTANT]
 > Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone.
 
-Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein (weitere Details finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität für Skype for Business Online](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)). 
+Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
 
 Die beiden definierenden Netzwerksegmente (Client zu Microsoft Edge und Kundenedge zu Microsoft Edge) müssen die folgenden Anforderungen erfüllen:
 
@@ -47,11 +45,9 @@ Die beiden definierenden Netzwerksegmente (Client zu Microsoft Edge und Kundened
 |**Burstverlust von Paketen**    |< 10 % in einem Intervall von 200 ms         |< 1% in einem Intervall von 200 ms         |
 |**Paketverlust**     |< 1% in einem Intervall von 15 s          |< 0,1% in einem Intervall von 15 s         |
 |**Jitter zwischen der Ankunftszeit von Paketen**    |< 30 ms in einem Intervall von 15 s         |< 15 ms in einem Intervall von 15 s         |
-|**Neuanordnung von Paketen**    |< 0,05 % Pakete in falscher Reihenfolge         |< 0,01 % Pakete in falscher Reihenfolge         |
+|**Neuanordnung von Paketen**    |< 0,05 % Pakete in falscher Reihenfolge         |< 0,01% Pakete in falscher Reihenfolge         |
 
-Um beide Netzwerksegmente zu testen, können Sie das [Network Assessment-Tool](https://go.microsoft.com/fwlink/?linkid=855799) herunterladen. Dieses Tool kann direkt auf dem Client-PC sowie auf einem PC, der mit dem Netzwerkedge des Kunden verbunden ist, bereitgestellt werden. Das Tool selbst enthält begrenzte Dokumentation. Sehen Sie sich daher die im Download enthaltene umfassende Dokumentation an. Indem Sie diese Bewertung der Netzwerkbereitschaft ausführen, können Sie die Bereitschaft Ihres Netzwerks für die Ausführung von Echtzeitmedienanwendungen wie beispielsweise Microsoft Teams validieren.
-
-
+Um beide Netzwerksegmente zu testen, können Sie das [Network Assessment-Tool](https://go.microsoft.com/fwlink/?linkid=855799) verwenden. Dieses Tool kann direkt auf dem Client-PC sowie auf einem PC, der mit dem Netzwerkedge des Kunden verbunden ist, bereitgestellt werden. Das Tool selbst enthält eine begrenzte Dokumentation, eine umfassendere Dokumentation zur Verwendung des Tools finden Sie hier: [Bewertung der Netzwerkbereitschaft](https://go.microsoft.com/fwlink/?linkid=855800). Indem Sie diese Bewertung der Netzwerkbereitschaft ausführen, können Sie die Bereitschaft Ihres Netzwerks für die Ausführung von Echtzeitmedienanwendungen wie beispielsweise Microsoft Teams validieren.
 
 > [!NOTE]
 > Dabei handelt es sich um die gleiche Bewertung der Netzwerkbereitschaft, deren Ausführung Kunden empfohlen wird, die Skype for Business erfolgreich bereitstellen möchten.
@@ -59,11 +55,9 @@ Um beide Netzwerksegmente zu testen, können Sie das [Network Assessment-Tool](h
 <a name="bandwidth-requirements"></a>Bandbreitenanforderungen
 ----------
 
-Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützung wurde ein Rechner erstellt, auf den Sie hier zugreifen können: <http://aka.ms/bwcalc>.
+Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützung wurde ein Rechner erstellt. Den Rechner finden Sie unter [„Netzwerkplaner“ in MyAdvisor](http://aka.ms/bwcalc/).
 
-Den folgenden Inhalt können Sie als ergänzende Hintergrundinformationen nutzen. Kunden wird jedoch empfohlen, ihren Bedarf mit dem [Bandbreitenrechner](https://aka.ms/bwcalc) zu ermitteln.
-
-
+Den folgenden Inhalt können Sie als ergänzende Hintergrundinformationen nutzen. Wir empfehlen jedoch, Ihren Bedarf mit dem [Netzwerkplaner](https://aka.ms/bwcalc) zu ermitteln.
 
 > [!IMPORTANT]
 >Wenn die erforderliche Bandbreite nicht verfügbar ist, verringert der Medienstapel in Microsoft Teams die Qualität der Audio/Video-Sitzung, um der niedrigeren verfügbaren Bandbreite Rechnung zu tragen. Dies wirkt sich auf die Qualität des Anrufs bzw. der Besprechung aus. Der Microsoft Teams-Client versucht, die Audioqualität gegenüber der Videoqualität zu priorisieren. Daher ist es äußerst wichtig, dass die erwartete Bandbreite verfügbar ist.
@@ -91,7 +85,7 @@ Stellen Sie sicher, dass alle Clientcomputer, auf denen Microsoft Teams ausgefü
 
 Wenn mehrere Benutzer/Geräte mit NAT (Network Address Translation, Netzwerkadressenübersetzung) oder PAT (Port Address Translation, Portadressenübersetzung) auf Office 365 zugreifen, müssen Sie sicherstellen, dass die hinter den einzelnen öffentlich routingfähigen IP-Adressen verborgenen Geräte nicht die unterstützte Anzahl überschreiten.
 
-Verringern Sie dieses Risiko, indem Sie sicherstellen, dass den NAT-Pools entsprechend viele öffentliche IP-Adressen zugewiesen sind, um Portauslastung zu verhindern. Portauslastung führt dazu, dass für interne Endbenutzer und Geräte Probleme beim Herstellen der Verbindung mit den Office 365-Diensten auftreten. Weitere Informationen finden Sie im Leitfaden [NAT-Unterstützung für Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
+Verringern Sie dieses Risiko, indem Sie sicherstellen, dass den NAT-Pools entsprechend viele öffentliche IP-Adressen zugewiesen sind, um Portauslastung zu verhindern. Portauslastung führt dazu, dass für interne Endbenutzer und Geräte Probleme beim Herstellen der Verbindung mit den Office 365-Diensten auftreten. Weitere Informationen finden Sie unter [NAT-Unterstützung für Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
 
 #### <a name="intrusion-detection-and-prevention-guidance"></a>**Leitfaden zur Angriffserkennung und zum Eindringschutz**
 

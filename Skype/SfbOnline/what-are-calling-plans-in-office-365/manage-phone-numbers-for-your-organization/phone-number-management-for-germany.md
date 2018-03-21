@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Deutschland für Skype for Business Online und Microsoft Teams."
 ms.openlocfilehash: e9b222dce2379281fda2e2baa654a3230990c11d
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="phone-number-management-for-germany"></a>Telefonnummernverwaltung für Deutschland
 

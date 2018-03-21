@@ -21,10 +21,10 @@ ms.custom:
 - Setup
 description: "Hier erfahren Sie, welche Benutzerstatistiken für Skype for Business verfügbar sind, beispielsweise die Anzahl der aktivierten Benutzer, der für Konferenzen aktivierten Benutzer oder der für Office 365 aktivierten Benutzer."
 ms.openlocfilehash: 9a3336c061b69b951d2ec8cb6b927dd9115c7b7c
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="user-statistics-and-organization-information"></a>Benutzerstatistiken und Organisationsinformationen
 

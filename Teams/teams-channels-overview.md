@@ -10,11 +10,11 @@ description: "Hier erhalten Sie Informationen zu den verschiedenen verfügbaren 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9586a321c74cdb3d16bf78cf8b63c67b1e46a05
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
+ms.openlocfilehash: 849eade2acc91286a0d2f78b2d0289432e8ef52c
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -26,17 +26,29 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
     -   Teams können als private Teams nur für eingeladene Benutzer erstellt werden.
 
     -   Teams können auch als öffentliche und offene Teams erstellt werden, an denen alle in der Organisation teilnehmen können (maximal 2.500 Mitglieder).
+    
+Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Möglich sind dynamische Teams für projektbasierte Aufgaben (zum Beispiel Einführung eines Produkts oder Einrichtung eines gemeinsamen digitalen Arbeitsraums). Eine weitere Möglichkeit sind ständige Teams, die die interne Struktur Ihrer Organisation widerspiegeln (z. B. Abteilungen und Bürostandorte). Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
+
+**Teammitgliedschaft** Wenn Microsoft Teams für Ihre gesamte Organisation aktiviert ist, können festgelegte Teambesitzer alle Mitarbeiter, mit denen sie zusammenarbeiten, einladen, ihrem Team beizutreten. Teambesitzer können in Microsoft Teams ganz leicht Personen aus der Organisation anhand ihres Namens hinzufügen. Je nach den Einstellungen Ihrer Organisation können auch Gäste, die zwar Teammitglieder sind, aber nicht der Organisation angehören, zu Ihren Teams hinzugefügt werden. Weitere Informationen finden Sie unter [Gastzugriff in Microsoft Teams](guest-access.md). Darüber hinaus können Teambesitzer ein Team auf der Grundlage einer vorhandenen Office 365-Gruppe erstellen. Alle an der Gruppe vorgenommenen Änderungen werden automatisch mit Microsoft Teams synchronisiert. Durch die Erstellung eines Teams auf der Grundlage einer vorhandenen Office 365-Gruppe wird nicht nur das Einladen und Verwalten von Mitgliedern vereinfacht, sondern die Gruppendateien in Microsoft Teams werden ebenfalls synchronisiert.
+
+**Teamrollen** Es gibt in Microsoft Teams zwei Hauptrollen: einen Teambesitzer (die Person, die das Team erstellt) und Teammitglieder (die Personen, die eingeladen werden, dem Team beizutreten). Teambesitzer können jedes Mitglied ihres Teams zum Mitbesitzer ernennen – entweder dann, wenn sie das Mitglied in das Team einladen, oder auch jederzeit später, nachdem die Person dem Team beigetreten ist. Mit mehreren Teambesitzern können Sie sich die Zuständigkeit für das Verwalten der Einstellungen und der Mitgliedschaft, einschließlich Einladungen, teilen.   
+
+**Teameinstellungen** Teambesitzer können teamweite Einstellungen direkt in Microsoft Teams verwalten. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Kanälen für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden. 
+
+Wenn Sie in Office 365 als Administrator für Microsoft Teams festgelegt sind, haben Sie im Admin Center Zugriff auf systemweite Einstellungen. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 
 -   **Kanäle** sind spezielle Abschnitte innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen oder anderen für Ihr Team wichtigen Aspekten organisiert werden.
 
     -   In Teamkanälen können alle Teammitglieder offene Unterhaltungen führen. Private Chats sind nur für die am Chat beteiligten Personen sichtbar.
 
-    -   Kanäle können mit Apps erweitert werden, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern.
+    -   Die Vorteile von Kanälen werden am deutlichsten, wenn Sie sie mit Apps erweitern, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern.
     
 Nehmen Sie sich fünf Minuten Zeit, und sehen Sie sich dieses Video zu den bewährten Methoden für das Organisieren von Teams, Kanälen und Registerkarten an:
+
 |  |  |
 |---------|---------|
 | 5 Minuten zum Einrichten von sinnvollen Teams, Kanälen und Registerkarten   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+
 
 Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Microsoft Teams zu erstellen (wie Sie dies ändern, erfahren Sie unter [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md)). Benutzer einer vorhandenen Office 365-Gruppe können diese Gruppe mit Microsoft Teams-Funktionen erweitern.
 
@@ -65,5 +77,5 @@ Microsoft Teams ist gut darin, organisatorische Silos aufzubrechen und funktions
 
 Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln.  Diese Vorgehensweise eignet sich am besten für Führungskräfte, die die Motivation steigern, teamspezifische Überprüfungen durchführen, für Klarheit bezüglich der Onboardingprozesse für die Mitarbeiter sorgen, Personalpläne besprechen und die Transparenz für die Mitarbeiter in den verschiedenen Bereichen erhöhen möchten.  
 
-![Diagramm einer Hierarchie der Organisation von Teams und Kanälen in Microsoft Teams](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png
+![Diagramm einer Hierarchie der Organisation von Teams und Kanälen in Microsoft Teams](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 

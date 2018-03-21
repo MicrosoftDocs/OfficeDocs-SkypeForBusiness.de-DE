@@ -9,32 +9,36 @@ ms.service: msteams
 description: "Hier erfahren Sie, wie Sie durch die Identifizierung von wichtigen Beteiligten, Geschäftsergebnissen und Erfolgskennzahlen sowie das Management Ihrer Initiative eine Change Management-Strategie für Microsoft Teams erstellen."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8b09f9799de676e3af389448a9f851ef558a7b
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 73fa7f0decc5080166e85049bb7619b9b3c29ad5
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 =======================================================
 
-Eine Change Management-Strategie für das Informieren der Endbenutzer und die Akzeptanz neuer Technologien ist ausschlaggebend für den erfolgreichen Rollout jeder neuen Technologie in einer Organisation. Der erfolgreiche Abschluss dieser Phase der Bereitstellung stellt sicher, dass die Benutzer die neuen Funktionen akzeptieren und mit ihnen zufrieden sind.
+Eine Change Management-Strategie für das Informieren der Endbenutzer und die Akzeptanz neuer Technologien ist ausschlaggebend für den erfolgreichen Rollout jeder neuen Technologie in einer Organisation. Mit der erfolgreichen Durchführung dieser Maßnahmen stellen Sie sicher, dass die Benutzer die neuen Funktionen akzeptieren und mit ihnen zufrieden sind.  Die unten genannten Schritte können Sie je nach Größe Ihrer Organisation ändern. Achten Sie aber darauf, ständig mit den Beteiligten, Pionieren, IT-Administratoren und Benutzern zu kommunizieren, da dies für erfolgreiche Veränderungen unerlässlich ist.  
 
-Wir haben in diesem Bereich bewährte Kernmethoden identifiziert:
+Bewährte Methoden für Change Management für Microsoft Teams:
 
-1.  Identifizieren Ihrer wichtigsten Beteiligten und Benutzergruppen
+1.  Identifizieren Ihrer wichtigsten Beteiligten, Pioniere und Benutzerprofile
 
-2.  Identifizieren und Auswählen Ihrer Geschäftsergebnisse
+2.  Identifizieren und Auswählen Ihrer Geschäftsszenarien
 
-3.  Entwerfen, Starten und Verwalten Ihrer Einführungsinitiative einschließlich der folgenden Elemente:
+3.  Durchführen eines Pilotprojekts mit Geschäftsbenutzern, Pionieren und IT-Spezialisten  
 
-    a. Interne Informationsmaterialien wie beispielsweise Poster, digitale Beschilderung und Veranstaltungen
+4.  Entwerfen, Starten und Verwalten Ihrer Einführungsinitiative. Laden Sie als Ausgangspunkt unser [Customer Success Kit](https://aka.ms/TeamsSuccessKit) herunter. Eine sinnvolle Einführungsinitiative umfasst Folgendes:
 
-    b. Integrieren von Selbsthilfe- und Schulungsinformationen an einem einzigen Ort
+    a.  Interne Informationsmaterialien wie beispielsweise Poster, digitale Beschilderung und Veranstaltungen
 
-    c. Auswählen von Erfolgskennzahlen
+    b.  Zentral verfügbare Selbsthilfe- und Schulungsinformationen
+    
+    c.  Einen definierten Feedbackmechanismus
 
-4.  Einrichten eines Pionierprogramms
+    d.  Vordefinierte Erfolgskennzahlen (Einführung der Lösung, Aufrufe von wichtigen Materialien, Teilnahme an Kursen)
+
+4.  Einrichten eines Pionierprogramms parallel zur Bereitstellung des Diensts
 
 5.  Bereitstellen einer Standardmethode für Feedback
 
@@ -42,10 +46,10 @@ Wir haben in diesem Bereich bewährte Kernmethoden identifiziert:
 
 7.  Anpassen Ihrer Kommunikation und Ihrer Methoden auf der Grundlage des Feedbacks, Wiederholen
 
-<a name="identify-key-stakeholders-users-and-champions"></a>Identifizieren der wichtigsten Beteiligten sowie von Benutzern und Experten
+<a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifizieren der wichtigsten Beteiligten, Pioniere und Benutzerprofile
 -----------------------------------------------
 
-Die erste Regel für eine erfolgreiche Einführung ist die Bildung eines dynamischen Teams aus den wichtigsten Beteiligten und den richtigen Personen, die Änderungen bei anderen vorantreiben und bewirken können. Eine erfolgreiche Einführungsstrategie beginnt mit einem Team aus engagierten Einzelpersonen, die einen Querschnitt Ihrer Organisation darstellen. Wichtige Rollen von Beteiligten sind unter anderem Befürworter aus der Führungsebene, Dienstbesitzer, IT-Spezialist und Pionier.
+Die erste Regel für eine erfolgreiche Einführung ist die Bildung eines dynamischen Teams, das sich aus den wichtigsten Beteiligten und den richtigen Personen zusammensetzt, und die Änderungen bei anderen vorantreiben und bewirken können. Eine erfolgreiche Einführungsstrategie beginnt mit einem Team aus engagierten Einzelpersonen, die einen Querschnitt Ihrer Organisation darstellen. Wichtige Rollen von Beteiligten sind unter anderem Befürworter aus der Führungsebene, Dienstbesitzer, IT-Spezialisten und Pioniere.
 
 |  |  |
 |---------|---------|
@@ -77,22 +81,22 @@ Wenn Sie die Personen identifizieren, die zu Ihren Pionieren für Zusammenarbeit
 
 Weitere Informationen zum Einrichten eines Pionierprogramms finden Sie unter [Einrichten eines Pionierprogramms](https://go.microsoft.com/fwlink/?linkid=854665).
 
-<a name="identify-and-select-your-business-outcomes-and-success-measures"></a>Identifizieren Ihrer Geschäftsergebnisse und Erfolgskennzahlen
+<a name="identify-and-select-your-business-scenarios"></a>Identifizieren und Auswählen Ihrer Geschäftsszenarien
 ---------------------------------------------------------------
 
-Wenn Sie die wichtigsten Beteiligten und Benutzersegmente identifiziert haben, können Sie Ihre Geschäftsergebnisse wesentlich leichter identifizieren. Hier sind ein paar Beispiele für Geschäftsergebnisse:
+Wenn Sie die wichtigsten Beteiligten und Benutzersegmente identifiziert haben, können Sie Ihre Geschäftsszenarien wesentlich leichter identifizieren. Hier sind ein paar Beispiele für Geschäftsergebnisse:
 
--   Unterstützen Ihrer Mitarbeiter
+-   Vereinfachter Vertriebsprozess
 
--   Transformieren Ihrer Produkte
+-   Schnellere Behebung von Kundenproblemen
 
--   Einbinden Ihrer Kunden
+-   Stärkeres Engagement der Mitarbeiter
 
--   Optimieren Ihres Betriebs
+-   Kürzere Produktentwicklungszyklen
 
-Haben Ihre Vertriebsmitarbeiter Probleme damit, durch Koordinierung gut zu arbeiten? Benötigen Sie bessere Koordinierung bei der Bereitstellung Ihres Produkts oder Diensts? Was ist mit der Zusammenarbeit zwischen der Personalabteilung und Ihren eigenen Mitarbeitern? Jede Organisation wird ihre eigenen Prioritäten finden. Wir empfehlen, nicht mehr als drei Prioritäten auszuwählen, die in Ihren anfänglichen Pilotprojekten berücksichtigt werden sollen.
+Haben Ihre Vertriebsmitarbeiter Probleme damit, durch Koordinierung effektiv zu arbeiten? Benötigen Sie bessere Koordinierung bei der Bereitstellung Ihres Produkts oder Diensts? Was ist mit der Zusammenarbeit zwischen der Personalabteilung und Ihren eigenen Mitarbeitern? Jede Organisation wird ihre eigenen Prioritäten finden. Wir empfehlen, nicht mehr als drei Prioritäten auszuwählen, die in Ihren anfänglichen Pilotprojekten berücksichtigt werden sollen, und Benutzer und Fachleute aus den jeweiligen Organisationen einzubeziehen. 
 
-Außerdem ist es ratsam, die Benutzer zu berücksichtigen, die in diese Szenarien eingebettet sind. Sind sie Veränderungen gegenüber aufgeschlossen? Arbeiten die Benutzer mobil oder vor Ort bei Ihnen? Wie nah befinden sie sich beim Hub der Befürworter aus der Führungsebene und Pioniere, die sie unterstützen? Haben sie eine vorhandene Community und Kommunikationsmethoden, die Sie nutzen können, um andere für diese Veränderung zu begeistern?
+Außerdem ist es ratsam, die Benutzer zu berücksichtigen, die in diese Szenarien eingebettet sind. Sind sie Veränderungen gegenüber aufgeschlossen? Arbeiten die Benutzer mobil oder vor Ort bei Ihnen? Wie nah befinden sie sich beim Hub der Befürworter aus der Führungsebene und Pioniere, die sie unterstützen? Haben sie eine vorhandene Community und Kommunikationsmethoden, die Sie nutzen können, um andere für diese Veränderung zu begeistern?  
 
 Technologieprojekte werden vor Herausforderungen gestellt, wenn den menschlichen Anforderungen an das Change Management wenig oder gar keine Aufmerksamkeit gewidmet wird. Wenn Sie sich an diese Empfehlungen halten, vergrößern Sie Ihre Erfolgschancen!
 
@@ -109,11 +113,11 @@ Zu erfolgreichen Pilotphasen gehören mindestens diese Schritte:
 
 -   Halten Sie die Projektbeteiligten mit regelmäßigen geplanten Besprechungen auf dem Laufenden.
 
--   Nutzen Sie eine Feedbackmethode, um Informationen von den am Pilotprojekt teilnehmenden Personen zu sammeln. Firmen können einen öffentlichen Kanal in Microsoft Teams verwenden, über den die Benutzer teilnehmen und Feedback geben können.
+-   Entscheiden Sie sich für eine Feedbackmethode, um Informationen von den am Pilotprojekt teilnehmenden Personen zu sammeln. Kleinere Organisationen können einen öffentlichen Kanal in Microsoft Teams verwenden, über den die Benutzer teilnehmen und Feedback geben können. In größeren Organisationen können Sie eine Yammer-Community einrichten, um Produktsupport bereitzustellen.  
 
 -   Stellen Sie eine Dokumentation zur Selbsthilfe zur Verfügung, die auch Produktvideos umfasst.
 
--   Halten Sie eine Kick-off-Besprechung mit den Pilotbenutzern ab, um sie positiv auf ihre Teilnahme einzustimmen. Die Vorteile der Bildung eines Zusammengehörigkeitsgefühls durch Enthusiasmus sind nicht zu unterschätzen.
+-   Halten Sie eine Kick-off-Besprechung mit den Pilotbenutzern ab, um sie positiv auf ihre Teilnahme einzustimmen. So erhalten die Teilnehmer auch die Möglichkeit, sich auszutauschen oder neue Ideen zu entwickeln.
 
 Wenn Sie die anfänglichen Pilotphasen durchgearbeitet haben, können die oben genannten Schritte auf die gesamte Organisation ausgeweitet werden. Je nach Größe kann dies Zeit beanspruchen und phasenweise nach Regionen, Benutzerprofilen oder Organisationen durchgeführt werden. Bei diesem Rollout im größeren Maßstab ist es äußerst hilfreich, das professionelle Know-how der Kommunikationsexperten in Ihrer Organisation zu nutzen. Wir empfehlen, diese Personen frühzeitig und häufig einzubeziehen, wenn Sie die [verfügbaren Einführungsmaterialien](https://go.microsoft.com/fwlink/?linkid=854598) nutzen oder eigene Materialien entwerfen.
 
@@ -130,3 +134,21 @@ Wie bei jeder Kommunikations- und Einführungsinitiative sollten Sie Ihre Erfolg
 -   Zugriffe auf Ihre Schulungsvideos
 
 -   Teilnahme an Schulungsveranstaltungen
+
+<a name="measure-and-share-success"></a>Messen und Teilen des Erfolgs
+-------------------------------------------------
+
+Dem Projektteam sollten IT-Administratoren aus Ihrer Organisation angehören. Diese Personen haben Zugriff auf die Nutzungsberichte für Microsoft Teams, die im Office 365-Verwaltungsportal zur Verfügung stehen. Diese Informationen können Aufschluss über die Nutzung von Microsoft Teams in Ihrer Firma geben. Wir empfehlen auch, direktes Feedback von den Benutzern einzuholen: Wie beurteilen sie ihre Erfahrungen mit Microsoft Teams? Haben sie Ideen für weitere Verwendungsmöglichkeiten? Die Weitergabe dieser Beispiele aus der Praxis in Ihrer eigenen Firma ist äußerst wertvoll, um im Lauf der Zeit nachhaltige Veränderungen in Ihrer Benutzercommunity zu erreichen.  
+
+Weitere Informationen zu den Microsoft Teams-Nutzungsberichten im Office 365-Verwaltungsportal finden Sie [hier](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524).
+
+> [!TIP]
+> Nutzen Sie Ihr öffentliches Team oder Ihre Yammer-Community, um sich Einblicke in die Nutzung zu verschaffen. Teilen Sie sie mit dem Tag #TeamsStories, sodass sie leicht abgerufen werden können.  Machen Sie jeden Monat mit #TeamsStories in Ihrem Intranet auf Mitarbeiter aufmerksam, die die Veränderungen annehmen, um die Produktivität und Zusammenarbeit in Ihrer Umgebung zu verbessern.  
+
+## <a name="ongoing-adoption"></a>Kontinuierliche Einführung
+
+Veränderungen in einer Organisation voranzutreiben, ist kein einzelnes Ereignis, sondern ein kontinuierlicher Prozess. Ihre Kick-off-Besprechung bildet nur den Anfang dabei, Benutzern effektivere Zusammenarbeit zu ermöglichen. Es ist wichtig, Momente auf dieser Reise zu planen, die Ihre Erfolge hervorheben, neue Funktionen einführen und mit der von Ihrer IT-Abteilung erarbeiteten Gesamtstrategie für Office 365-Dienste verzahnt sind. Wenn Sie sicherstellen, dass Ihre Benutzer nicht überfordert, sondern engagiert sind, verringern Sie ihre Veränderungsmüdigkeit und unterstützen sie dabei, von alten Gewohnheiten – beispielsweise dem Senden von E-Mail-Anlagen – zu lassen und stattdessen etwas Neues zu akzeptieren, zum Beispiel das Speichern von Dokumenten in der Cloud.
+
+Stellen Sie in der [Driving Adoption-Community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) auf der Website der Microsoft Technical Community Fragen zur Einführung von Microsoft Teams- und Office 365-Diensten. Wir freuen uns immer, von Ihnen zu hören und Sie bei Ihrer Einführung zu unterstützen.  
+
+

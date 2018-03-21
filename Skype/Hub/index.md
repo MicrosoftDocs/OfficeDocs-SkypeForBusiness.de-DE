@@ -1,13 +1,13 @@
 ---
 layout: HubPage
-hide_bc: True
+hide_bc: 
 title: Skype for Business
 description: Skype for Business
 ms.openlocfilehash: cb4d447f38362ab35fc6968beef84fcecbb5659a
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/19/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -49,7 +49,7 @@ ms.lasthandoff: 12/08/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Administrator-PowerShell</h3>
+                                                    <h3>Skype for Business Online</h3>
                                                     <p>Hier finden Sie Ressourcen für die Verwaltung von Skype für Business Online in Office 365-Umgebung.</p>
                                                 </div>
                                             </div>
