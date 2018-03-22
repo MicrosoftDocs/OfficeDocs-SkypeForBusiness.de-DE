@@ -6,7 +6,6 @@ manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: f6fac40d-bc9e-4038-a537-587942d99066
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Ägypten verfügbar."
-ms.openlocfilehash: 76a84e6cc9b639b5b72c7babaae534daa4abd98e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 5ed1349d921c3810032ff95d8e5b0a9cfcfc0807
+ms.sourcegitcommit: ddd923c871b5cd92499cd2bd4ac1f708aeae6467
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="availability-in-egypt"></a>Verfügbarkeit in Ägypten
 
@@ -65,7 +64,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Nicht zutreffend  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
-|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
@@ -83,5 +82,3 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
