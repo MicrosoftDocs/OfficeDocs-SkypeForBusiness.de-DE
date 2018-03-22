@@ -56,6 +56,12 @@
         "live": "live",
         "master": "master"
       }
+    },
+    {
+	    "path_to_root": "Skype/common",
+	    "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
+	    "branch": "live",
+	    "branch_mapping": {}
     }
   ],
   "need_generate_pdf_url_template": false

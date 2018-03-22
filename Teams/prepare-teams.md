@@ -1,15 +1,17 @@
 ---
-title: "Optimieren Ihrer aktuellen Skype for Business-Umgebung für Microsoft Teams"
+title: Optimieren Ihrer aktuellen Skype for Business-Umgebung für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Anleitung für den Start Ihrer Reise von Skype for Business nach Microsoft Teams"
+ms.reviewer: dearbeen
+description: Anleitung für den Start Ihrer Reise von Skype for Business nach Microsoft Teams
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
+<<<<<<< HEAD
 ms.openlocfilehash: 15b989e69f637697a1ea9bde676382eeccb0e019
 ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
@@ -69,6 +71,67 @@ ms.lasthandoff: 03/05/2018
 - [<span data-ttu-id="940c4-141">Office 365-Gruppen und Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="940c4-141">Office 365 groups and Microsoft Teams </span></span>](Office-365-groups.md)
 - [<span data-ttu-id="940c4-142">Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="940c4-142">How SharePoint Online and OneDrive for Business interact with Microsoft Teams</span></span>](SharePoint-OneDrive-interact.md) 
 - [<span data-ttu-id="940c4-143">Interaktion von Exchange und Teams</span><span class="sxs-lookup"><span data-stu-id="940c4-143">How Exchange and Teams interact </span></span>](Exchange-Teams-interact.md)
+=======
+ms.openlocfilehash: 3a9c9d4ccdbe3f3f1a2107c832b5437860e17d73
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/15/2018
+---
+<a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a><span data-ttu-id="aaf52-103">Optimieren Ihrer aktuellen Skype for Business-Umgebung für Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="aaf52-103">Optimize your current Skype for Business environment for Microsoft Teams</span></span>
+==============================================================
+
+<span data-ttu-id="aaf52-104">Veränderungen dauern.</span><span class="sxs-lookup"><span data-stu-id="aaf52-104">Change takes time.</span></span> <span data-ttu-id="aaf52-105">Ihre Organisation muss über Bereitstellungs-Lebenszyklen, Ressourcenplanung, technische Bereitschaft und Change Management nachdenken.</span><span class="sxs-lookup"><span data-stu-id="aaf52-105">Your organization has deployment lifecycles, resource planning, technical readiness and change management to consider.</span></span> <span data-ttu-id="aaf52-106">Microsoft Teams erfüllt die Anforderungen für einen langfristigen Erfolg – das stellen wir mit unserer harten Arbeit sicher.</span><span class="sxs-lookup"><span data-stu-id="aaf52-106">We are working hard to ensure Microsoft Teams meets your needs for long-term success.</span></span> <span data-ttu-id="aaf52-107">Während wir daran arbeiten, Dinge für Sie zu erledigen, erläutern wir im Folgenden ein paar Möglichkeiten, wie Sie sich vorbereiten können.</span><span class="sxs-lookup"><span data-stu-id="aaf52-107">While we work to get things ready for you, here are a few ways you can get started with your preparations today.</span></span> <span data-ttu-id="aaf52-108">Nach Durchsicht dieses Leitfadens ist eine erfolgreiche Implementierung von Teams in Ihrer Organisation garantiert.</span><span class="sxs-lookup"><span data-stu-id="aaf52-108">By completing this guidance, you can drive a successful Teams implementation within your organization.</span></span>
+
+## <a name="environmental-readiness"></a><span data-ttu-id="aaf52-109">Bereitschaft der Umgebung</span><span class="sxs-lookup"><span data-stu-id="aaf52-109">Environmental readiness</span></span>
+
+
+<span data-ttu-id="aaf52-110">Der Leitfaden unten sollte verwendet werden, um eine erfolgreiche und fehlerfreie Implementierung von Teams sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="aaf52-110">The guidance below should be used to ensure a successful and healthy Teams implementation.</span></span> <span data-ttu-id="aaf52-111">Dieser Leitfaden unterstützt Sie bei der Bewertung Ihrer derzeitigen Skype for Business-Umgebung und bereitet Sie für die Bereitstellung von Teams vor.</span><span class="sxs-lookup"><span data-stu-id="aaf52-111">This guidance will help validate your current Skype for Business environment to prepare for your Teams deployment.</span></span>   
+
+
+### <a name="network-readiness-assessment"></a><span data-ttu-id="aaf52-112">Bewertung der Netzwerkbereitschaft.</span><span class="sxs-lookup"><span data-stu-id="aaf52-112">Network readiness assessment</span></span>
+
+
+<span data-ttu-id="aaf52-113">Führen Sie eine *Bewertung der Netzwerkbereitschaft* durch, bevor Sie ein Produkt für Echtzeitkommunikation wie Teams implementieren.</span><span class="sxs-lookup"><span data-stu-id="aaf52-113">You should perform a *Network Readiness Assessment* before implementing any real-time communications product such as Teams.</span></span> <span data-ttu-id="aaf52-114">Eine *Bewertung der Netzwerkbereitschaft* richtet ihren Fokus auf Netzwerkleistung, Netzwerkplanung und andere allgemeine Netzwerkaspekte, wie zum Beispiel Ports und Protokolle, die geöffnet werden müssen.</span><span class="sxs-lookup"><span data-stu-id="aaf52-114">A *Network Readiness Assessment* focuses on network performance, network planning, and other general networking aspects such as ports and protocols that must be opened.</span></span> <span data-ttu-id="aaf52-115">Selbst wenn Sie derzeit ein Produkt für Echtzeitkommunikation wie Skype for Business verwenden, hilft Ihnen die *Bewertung der Netzwerkbereitschaft* bei der Bewertung Ihrer Netzwerkbereitschaft.</span><span class="sxs-lookup"><span data-stu-id="aaf52-115">Even if you are currently using a real-time communications product, such as Skype for Business, the *Network Readiness Assessment* will help validate your network readiness.</span></span>
+
+<span data-ttu-id="aaf52-116">Laden Sie den Leitfaden [Bewertung der Netzwerkbereitschaft](https://go.microsoft.com/fwlink/?linkid=859069) herunter.</span><span class="sxs-lookup"><span data-stu-id="aaf52-116">Get the [Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=859069) guide.</span></span>
+
+### <a name="my-advisor"></a><span data-ttu-id="aaf52-117">Mein Ratgeber</span><span class="sxs-lookup"><span data-stu-id="aaf52-117">My Advisor</span></span>
+
+
+<span data-ttu-id="aaf52-118">Während Ihrer gesamten Reise empfehlen wir Ihnen die unter [Mein Ratgeber](http://aka.ms/myadvisor) enthaltenen praktischen Anleitungen.</span><span class="sxs-lookup"><span data-stu-id="aaf52-118">Throughout your journey, we recommend the practical guidance you'll find in [My Advisor](http://aka.ms/myadvisor).</span></span> <span data-ttu-id="aaf52-119">„Mein Ratgeber“ ist ein umfassender Self-Service-Leitfaden und ein Toolset für das Planen und Verwalten von Teams und Skype for Business Online für den operativen Erfolg.</span><span class="sxs-lookup"><span data-stu-id="aaf52-119">My Advisor is a comprehensive, self-service guide and toolset for planning and managing Teams and Skype for Business Online for operational success.</span></span>
+
+
+### <a name="quality-assessment"></a><span data-ttu-id="aaf52-120">Qualitätsbewertung</span><span class="sxs-lookup"><span data-stu-id="aaf52-120">Quality assessment</span></span>
+
+
+<span data-ttu-id="aaf52-121">Bevor Sie das Teams-Onboarding Ihrer Benutzer starten, vergewissern Sie sich, dass Ihre aktuelle Skype for Business-Bereitstellung den Qualitätsansprüchen in puncto Echtzeitmedien gerecht wird.</span><span class="sxs-lookup"><span data-stu-id="aaf52-121">Before you start onboarding your users to Teams, make sure that your current Skype for Business deployment meets the quality bar when it comes to real-time media.</span></span> <span data-ttu-id="aaf52-122">Arbeiten Sie mit dem Anrufqualitätsdashboard, um die Nutzung zu überwachen und Qualitätstrends zu erkennen. Verwenden Sie die Anrufanalysen, um Probleme zu beheben, oder schauen Sie sich Qualitätsindikatoren von einzelnen Anrufen an.</span><span class="sxs-lookup"><span data-stu-id="aaf52-122">Use Call Quality Dashboard (CQD) to monitor usage and identify quality trends and Call Analytics to troubleshoot or look at quality indicators of individual calls.</span></span>
+
+<span data-ttu-id="aaf52-123">Schauen Sie sich [CQD-Videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) an, die Ihnen Anleitungen zur Verwendung des Anrufqualitätsdashboards zwecks Überprüfung der Medienqualität bieten.</span><span class="sxs-lookup"><span data-stu-id="aaf52-123">Watch the [CQD videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) for guidance on how to use Call Quality Dashboard to investigate media quality.</span></span>
+
+<span data-ttu-id="aaf52-124">Weitere Informationen zum Aufrufen Analytics gelesen Sie [Skype für BA aufrufen](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).</span><span class="sxs-lookup"><span data-stu-id="aaf52-124">To learn more about Call Analytics, read [Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).</span></span>
+
+### <a name="quality-champion-role"></a><span data-ttu-id="aaf52-125">Rolle „Qualitätspionier“</span><span class="sxs-lookup"><span data-stu-id="aaf52-125">Quality champion role</span></span>
+
+
+<span data-ttu-id="aaf52-126">Organisationen sollten eine Person oder eine Gruppe von Personen für die Rolle „Qualitätspionier“ benennen.</span><span class="sxs-lookup"><span data-stu-id="aaf52-126">Organizations should identify a person, or group of people, for the role of Quality Champion.</span></span> <span data-ttu-id="aaf52-127">Der Qualitätspionier überprüft Qualitätsmetriken gegenüber der Nutzung und ermittelt Qualitätstrends und Verbesserungsbereiche.</span><span class="sxs-lookup"><span data-stu-id="aaf52-127">The quality champion reviews quality metrics against usage, identifying quality trends and areas for improvement.</span></span>
+
+<span data-ttu-id="aaf52-128">Der Qualitätspionier ist der Ansprechpartner für alle Probleme im Zusammenhang mit der Anrufqualität und sollte als Fachbereichsexperte für die Erkennung von Qualitätsproblemen agieren, indem er die fortlaufende Nutzungs- und Qualitätstrends überprüft und Aktionspunkte ermittelt.</span><span class="sxs-lookup"><span data-stu-id="aaf52-128">The quality champion is the go-to person for any call quality related issues and should act as the subject matter expert (SME) for the identification of quality issues by reviewing ongoing usage and quality trends and identifying action items.</span></span> <span data-ttu-id="aaf52-129">Der Qualitätspionier sollte mit den jeweiligen Teams zusammenarbeiten und Verbesserungsmaßnahmen vorantreiben und eine Lenkungsgruppe über den Fortschritt und die offenen Probleme unterrichten.</span><span class="sxs-lookup"><span data-stu-id="aaf52-129">The quality champion should work with the respective teams to drive remediation actions, reporting to a steering committee on the progress and open issues.</span></span> <span data-ttu-id="aaf52-130">Der beste Kandidat für einen Qualitätspionier ist normalerweise der Leiter des Kundendiensts.</span><span class="sxs-lookup"><span data-stu-id="aaf52-130">The best candidate for the quality champion is typically the customer service owner.</span></span> <span data-ttu-id="aaf52-131">Je nach Größe und Komplexität der Organisation kommt jede Person als Qualitätspionier in Frage, der die Benutzererfahrung sehr am Herzen liegt und die über die erforderlichen Qualifikationen verfügt, Trends zu ermitteln. Hierbei ist das richtige Maß an Unterstützung erforderlich, um Abhilfe bei Problemen zusammen mit anderen Teams zu schaffen.</span><span class="sxs-lookup"><span data-stu-id="aaf52-131">Depending on the organization size and complexity, any person who is passionate about user experience and has the skills to identify trends can act as a quality champion, supported by the right level of sponsorship to work with other teams to drive remediation.</span></span>
+
+<span data-ttu-id="aaf52-132">Informationen zum Qualitätspionier-Konzept und zu den Tools und Techniken zur Qualitätsüberprüfung finden Sie im [Workshop zur Verwaltung einer qualitativ hochwertigen und verlässlichen Dienstbereitstellung](https://go.microsoft.com/fwlink/?linkid=859071).</span><span class="sxs-lookup"><span data-stu-id="aaf52-132">Get information on the quality champion concept and the quality review tools and techniques from [Manage a quality and reliable service delivery workshop](https://go.microsoft.com/fwlink/?linkid=859071).</span></span>
+
+## <a name="environmental-dependencies"></a><span data-ttu-id="aaf52-133">Abhängigkeiten von der Umgebung</span><span class="sxs-lookup"><span data-stu-id="aaf52-133">Environmental dependencies</span></span>
+
+
+<span data-ttu-id="aaf52-134">Teams kombiniert mehrere Office 365-Dienste und ist daher abhängig von der richtigen Implementierung und Ausführung dieser Dienste.</span><span class="sxs-lookup"><span data-stu-id="aaf52-134">Teams combines multiple Office 365 services and is therefore dependent on the correct implementation and operation of these services.</span></span> <span data-ttu-id="aaf52-135">Diese Dienste enthalten, sind aber nicht beschränkt auf, SharePoint Online, Exchange Online und OneDrive for Business.</span><span class="sxs-lookup"><span data-stu-id="aaf52-135">These services include but are not limited to SharePoint Online, Exchange Online, and OneDrive for Business.</span></span>
+
+<span data-ttu-id="aaf52-136">Obwohl nicht alle Dienste erforderlich sind, wird deren Implementierung jedoch empfohlen.</span><span class="sxs-lookup"><span data-stu-id="aaf52-136">While not all services are required it is highly recommended to implement them.</span></span> <span data-ttu-id="aaf52-137">Wenn Sie bestimmte Dienste nicht implementieren möchten, wirkt sich dies auf die Funktionalität aus, die Teams Ihrer Organisation bereitstellen kann.</span><span class="sxs-lookup"><span data-stu-id="aaf52-137">If you choose to not implement certain services, this will impact the functionality that Teams can offer your organization.</span></span> <span data-ttu-id="aaf52-138">Während die Implementierung von SharePoint Online beispielsweise nicht erforderlich ist, wird SharePoint Online dennoch für bestimmte Funktionen, wie zum Beispiel die Dateifreigabe in Gruppen, von Teams genutzt.</span><span class="sxs-lookup"><span data-stu-id="aaf52-138">For example, while you are not required to implement SharePoint Online, Teams does rely on SharePoint Online for certain functionality such as file sharing in groups.</span></span> <span data-ttu-id="aaf52-139">Wenn Sie SharePoint Online nicht implementieren, wirkt sich dies auf die über den Client bereitgestellten Funktionen aus.</span><span class="sxs-lookup"><span data-stu-id="aaf52-139">Not implementing SharePoint Online will affect functionality offered through the client.</span></span>
+
+<span data-ttu-id="aaf52-140">Informationen zu den Anforderungen finden Sie in den folgenden Artikeln:</span><span class="sxs-lookup"><span data-stu-id="aaf52-140">Go to the following articles to learn about the requirements:</span></span>
+- [<span data-ttu-id="aaf52-141">Office 365-Gruppen und Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="aaf52-141">Office 365 groups and Microsoft Teams </span></span>](Office-365-groups.md)
+- [<span data-ttu-id="aaf52-142">Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="aaf52-142">How SharePoint Online and OneDrive for Business interact with Microsoft Teams</span></span>](SharePoint-OneDrive-interact.md) 
+- [<span data-ttu-id="aaf52-143">Interaktion von Exchange und Teams</span><span class="sxs-lookup"><span data-stu-id="aaf52-143">How Exchange and Teams interact </span></span>](Exchange-Teams-interact.md)
+>>>>>>> d35080a47f5dfe74511fef792bebd70e09a2e978
 
 
 
