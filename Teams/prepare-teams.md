@@ -1,20 +1,21 @@
 ---
-title: "Optimieren Ihrer aktuellen Skype for Business-Umgebung für Microsoft Teams"
+title: Optimieren Ihrer aktuellen Skype for Business-Umgebung für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Anleitung für den Start Ihrer Reise von Skype for Business nach Microsoft Teams"
+ms.reviewer: dearbeen
+description: Anleitung für den Start Ihrer Reise von Skype for Business nach Microsoft Teams
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cae04416438d08771324b5227014ab4f3043a71
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 3a9c9d4ccdbe3f3f1a2107c832b5437860e17d73
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>Optimieren Ihrer aktuellen Skype for Business-Umgebung für Microsoft Teams
 ==============================================================
@@ -47,7 +48,7 @@ Bevor Sie das Teams-Onboarding Ihrer Benutzer starten, vergewissern Sie sich, da
 
 Schauen Sie sich [CQD-Videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) an, die Ihnen Anleitungen zur Verwendung des Anrufqualitätsdashboards zwecks Überprüfung der Medienqualität bieten.
 
-Weitere Informationen zu Anrufanalysen finden Sie unter [Skype for Business-Anrufanalyse](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-fbf7247a-84ae-46cc-9204-2c45b1c734cd).
+Weitere Informationen zum Aufrufen Analytics gelesen Sie [Skype für BA aufrufen](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 ### <a name="quality-champion-role"></a>Rolle „Qualitätspionier“
 

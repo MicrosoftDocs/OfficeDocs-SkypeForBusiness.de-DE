@@ -1,5 +1,5 @@
 ---
-title: "Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams"
+title: Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,14 +7,14 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Hier erfahren Sie, wie Sie die gesetzliche Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams unter Verwendung des Security & Compliance Center festlegen können und welche Datenanforderungen für eine gesetzliche Aufbewahrung notwendig sind."
+description: Hier erfahren Sie, wie Sie die gesetzliche Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams unter Verwendung des Security & Compliance Center festlegen können und welche Datenanforderungen für eine gesetzliche Aufbewahrung notwendig sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66dbf943c34c095db39b9b5399f44872c28d583e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 7a4c62eb41131d43a3873499f1d562a30ffff946
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 ==================================================
@@ -25,7 +25,7 @@ Um die gesetzliche Aufbewahrung für einen Benutzer oder ein Team festzulegen, n
 > Beim Aufbewahren von Daten eines Benutzers werden nicht automatisch die Daten einer Gruppe aufbewahrt (oder umgekehrt).
 
 > [!IMPORTANT]
-> Wenn für Daten eines Benutzers oder einer Gruppe die In-Situ-Speicherung aktiviert ist, werden alle Nachrichtenkopien beibehalten. Beispiel: Clay hat eine Nachricht in einem Kanal gepostet und die Nachricht dann verändert. In einem Aufbewahrungsszenario werden beide Kopien der Nachricht beibehalten. Ohne die gesetzliche Aufbewahrungspflicht wird nur die aktuelle Nachricht beibehalten.
+> Wenn die Daten eines Benutzers oder einer Gruppe aufbewahrt werden, werden alle Nachrichtenkopien beibehalten. Beispiel: Clay hat eine Nachricht in einem Kanal gepostet und die Nachricht dann verändert. In einem Aufbewahrungsszenario werden beide Kopien der Nachricht beibehalten. Ohne die gesetzliche Aufbewahrungspflicht wird nur die aktuelle Nachricht beibehalten.
 
 
 

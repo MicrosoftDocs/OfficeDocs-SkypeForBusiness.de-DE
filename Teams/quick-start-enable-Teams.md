@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart – Microsoft Teams-Planungshandbuch"
+title: Schnellstart – Microsoft Teams-Planungshandbuch
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
-description: "Nehmen Sie dieses Handbuch beim Planen, Implementieren und Einführen von Microsoft Teams in Ihrer Organisation zu Hilfe."
+description: Nehmen Sie dieses Handbuch beim Planen, Implementieren und Einführen von Microsoft Teams in Ihrer Organisation zu Hilfe.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94d5150ff929afbdc188924fe1c79b2ee0287365
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Schnellstart – Microsoft Teams-Planungshandbuch
 ==========================================================
@@ -29,7 +29,9 @@ Nehmen Sie dieses Handbuch beim Planen, Implementieren und Einführen von Micros
 
 Stellen Sie eine Gruppe von Personen aus Ihren Geschäfts-, IT- und Benutzercommunitys zusammen, die als Beteiligte und Entscheidungsträger für Ihre Microsoft Teams-Bereitstellung fungieren. In kleineren Organisationen können dies zwei oder drei Personen sein. Beziehen Sie auf jeden Fall Personen aus allen drei Communitys ein, um eine erfolgreiche Umstellung sicherzustellen.  
 
-## <a name="step-2--prioritize-your-business-scenarios"></a>Schritt 2: Festlegen der Prioritäten für Ihre Geschäftsszenarien
+Jede Gruppe steuert wichtiges Know-how bei, wobei sich diese allgemeinen Funktionen zum Teil auch überschneiden. IT-Spezialisten konzentrieren sich oft auf die Integrität, Sicherheit und Verwaltbarkeit der Lösung und stellen gleichzeitig die End-to-End-Kohäsion sämtlicher Office 365-Dienste sicher. Geschäftsbenutzer steuern praktische Szenarien und Geschäftsanforderungen bei, die sich als wertvolle Testfälle eignen. Ein erfolgreicher Plan für Tests und die allgemeine Bereitstellung setzt beide Perspektiven voraus.    
+
+## <a name="step-2-prioritize-your-business-scenarios"></a>Schritt 2: Festlegen der Prioritäten für Ihre Geschäftsszenarien
 
 Bei Zusammenarbeit und Kommunikation geht es um Menschen. Sprechen Sie daher nicht über Möglichkeiten und Funktionen, sondern wählen Sie die für Ihre Organisation wichtigsten Geschäftsszenarien aus. Unter [Microsoft 365 FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) finden Sie Beispiele, mit deren Hilfe Sie Szenarien für Ihre Firma definieren können. Erfolgreiche Microsoft Teams-Bereitstellungen konzentrieren sich häufig auf Teams, bei denen es auf hohe Geschwindigkeit und enge Zusammenarbeit ankommt, beispielsweise Teams für die Produktentwicklung oder für Marketingveranstaltungen, Finanzabteilungen oder Supportorganisationen. Wählen Sie eines dieser Szenarien aus, und führen Sie eine kurze Bestandsaufnahme der heutigen Arbeitsweise dieser Benutzer durch, damit Sie die Verwendung von Microsoft Teams für diese Personen effektiv und sinnvoll gestalten können.
 
@@ -37,6 +39,12 @@ Bei Zusammenarbeit und Kommunikation geht es um Menschen. Sprechen Sie daher nic
 **Setzen Sie Microsoft Teams schon bei der Planung ein!** Kunden, die Microsoft Teams zum Planen der Bereitstellung nutzen, vereinfachen die Veränderungskurve für die wichtigsten Beteiligten. Sie können zum Beispiel ein Team namens „Microsoft 365-Bereitstellung“ und Kanäle für die verschiedenen Arbeitsauslastungen, die Sie bereitstellen möchten, erstellen. Ihr Team kann etwa so aussehen:
 
 ![Screenshot eines Beispielteams für die Microsoft 365-Bereitstellung](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
+
+Sehen Sie sich dieses kurze Video mit einfachen Ratschlägen an, die Sie beim Planen Ihrer Teams, Kanäle und Registerkarten in Microsoft Teams berücksichtigen sollten. 
+
+<iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
+
+Wenn Microsoft-Teams, nicht in Ihrem Office 365-Mandanten aktiviert ist und Sie sind ein Office 365 Administrator Folgen haben die Anweisungen im Artikel [Verwalten des Benutzerzugriffs für Teams](user-access.md) , um sicherzustellen, dass Ihre Benutzer Zugriff auf die Anwendung.
 
 ## <a name="step-3-complete-technical-planning"></a>Schritt 3: Durchführen der technischen Planung
 
@@ -84,6 +92,6 @@ Mit der Bereitstellung von Software allein ist es nicht getan, wenn Sie Verände
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-1. Wechseln Sie zu [Workshop-Kit: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md).
+1. Wechseln Sie zu [Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams](planning-workshop-practical-guide.md).
 2. Laden Sie den Fragebogen zur technischen Planung unter [Schnellstarthandbuch: erfolgreiche Aktivierung von Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) herunter, und füllen Sie ihn aus.
 3. Laden Sie den Workshop zur Einführung von Microsoft Teams in Ihrer Organisation herunter: [Planen, Bereitstellen und Ausführen von Microsoft Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx).

@@ -1,28 +1,30 @@
 ---
-title: "Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation"
+title: Verwalten Sie Microsoft-Teams-Features in Office 365-Organisation
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren oder deaktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr."
+description: Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren oder deaktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: d4e450f4ffcb178a19d185b14d65b7adb880924b
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
+<a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten Sie Microsoft-Teams-Features in Office 365-Organisation
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams hat mehrere Einstellungen, die auf Office 365-Mandantenebene aktiviert oder deaktiviert werden können. Wenn Microsoft Teams für einen Mandanten aktiviert ist, erben alle Benutzer, die ebenfalls für Microsoft Teams aktiviert sind, die Einstellungen auf Mandantenebene.
+Teams hat mehrere Einstellungen, die aktiviert oder deaktiviert werden können, auf der Ebene der Office 365-Mandanten. Mit den Teams, die aktiviert werden wird jeder Benutzer, die auch für Teams aktiviert ist die Einstellungen der Mandanten-Ebene erben.
 
 Unten sehen Sie eine Liste der Funktionen, die Office 365-Administratoren in Microsoft Teams aktivieren oder deaktivieren können. 
 
@@ -70,9 +72,7 @@ Konfigurieren Sie unter **Email integration** (E-Mail-Integration) die folgenden
 
    ![Screenshot des Abschnitts „E-Mail-Integration“ in „Mandantenweite Einstellungen“](media/QS-edu-email-integration.png)
 
--   **Allow users to send emails to channels** (Zulassen, dass Benutzer E-Mails an Kanäle senden): Wenn diese Option aktiviert ist, werden Mailhooks aktiviert, und Benutzer können Nachrichten in einem Kanal posten, indem sie eine E-Mail an die E-Mail-Adresse des Microsoft Teams-Kanals senden. 
 
- 
 -   **Allow users to send emails to channels** (Zulassen, dass Benutzer E-Mails an Kanäle senden): Wenn diese Option aktiviert ist, werden Mailhooks aktiviert, und Benutzer können Nachrichten in einem Kanal posten, indem sie eine E-Mail an die E-Mail-Adresse des Microsoft Teams-Kanals senden. 
 
     Um die E-Mail-Adresse des Kanals zu finden, klicken Sie auf das Menü **Weitere Optionen** für den Kanal, und wählen Sie dann **E-Mail-Adresse abrufen** aus. 
@@ -107,10 +107,17 @@ Zu den Optionen für Cloudspeicher in Microsoft Teams gehören zurzeit Box, Drop
 
 ![Screenshot des Abschnitts „Custom cloud storage“ (Benutzerdefinierter Cloudspeicher)](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
-<a name="user-settings-by-license"></a>Benutzereinstellungen nach Lizenz
+<a name="settings-by-userlicense-type"></a>Geben Sie die Einstellungen von User-Lizenz
 ------------------------
+Wenn Sie Microsoft-Teams für Ihre Organisation zunächst einrichten, verwendet Sie die **Einstellungen werden vom Typ User-Lizenz** -Dropdownmenü, wählen Sie einen Lizenztyp und Teams dann für alle Benutzer des betreffenden Lizenztyps eingeschaltet.
 
-In **Benutzereinstellungen nach Lizenz** können Sie Optionen unter „Teams und Kanäle“, „Anrufe und Besprechungen“ und „Messaging“ aktivieren oder deaktivieren.
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+
+ Einige Beispiele für User-Lizenz-Typen sind **Business & Enterprise** und **Gast**. (Wenn Sie eine Education SKU-Lizenz verfügen, **Education - Fakultät und Mitarbeiter** oder **Education - Student** sind verfügbar.) ![-Steuerelement für Set-Benutzerlizenz](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
+
+Sie können mehrere Lizenztypen innerhalb Ihrer Organisation, **beispielsweise sowohl Business & Enterprise** und **Gast**haben. Microsoft-Teams können nur von Benutzern basierend auf der Lizenzen, die ihnen zugewiesenen unterscheiden. Sie können die aktivieren oder deaktivieren Sie Optionen für diese Benutzer in **Teams und Kanäle**, **Anrufe und Besprechungen**und **Messaging**. Wenn Sie nur einen Lizenztyp verwenden, sollten Sie die Einstellungen als Mandanten geltende Einstellungen.
+> [!NOTE]
+> Weitere Informationen zu Gast Access finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff auf Microsoft-Teams](set-up-guests.md).
 
 <a name="teams-and-channels"></a>Teams und Kanäle
 ------------------
@@ -142,7 +149,7 @@ An einer Besprechung können maximal 80 Personen teilnehmen. In einem privaten 
 
 -   **Allow scheduling for private meetings** (Planen von privaten Besprechungen zulassen): Wenn diese Option aktiviert ist, können Benutzer private Besprechungen planen, die nicht in einem Kanal aufgeführt sind.
 
--   **Allow ad-hoc channel meetup** (Ad-hoc-Kanal-MeetUps zulassen)
+-   **Allow ad-hoc channel meetup** (Ad-hoc-Kanal-MeetUps zulassen): Wenn diese Option aktiviert ist, können Benutzer schnell eine Besprechung für einen Kanal starten, der zur sofortigen Verwendung oder für einen bestimmten Zweck erstellt wurde.
 
 -   **Allow scheduling for channel meetings** (Planen von Kanalbesprechungen zulassen): Wenn diese Option aktiviert ist, können Benutzer eine Besprechung für einen Kanal planen, an der alle Kanalmitglieder ganz leicht mit einem einzigen Klick teilnehmen können.
 

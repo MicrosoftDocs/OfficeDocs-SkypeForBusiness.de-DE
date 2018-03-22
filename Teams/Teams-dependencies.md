@@ -7,14 +7,14 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 ms.reviwer: laal
-description: "Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen."
+description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19d7bd54e63e67dc02a116cbd06cdfec9de4e180
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================
@@ -40,21 +40,23 @@ Diese verschiedenen Autorisierungsebenen bieten Ihnen Flexibilität beim Einrich
 
 Mit Azure AD B2B-Zusammenarbeit ist das Senden von Einladungen an potenzielle Gastbenutzer nicht auf Mandantenadministratoren beschränkt. Sie können stattdessen Richtlinien verwenden, um das Senden von Einladungen an Benutzer zu delegieren, die aufgrund ihrer Rollen Einladungen senden können.
 
-Die Einstellungen für Einladungen gelten auf Mandantenebene und steuern den Gastzugriff auf Verzeichnis-, Mandanten- und Anwendungsebene.
+Die Einstellungen für Einladungen gelten auf Mandantenebene und steuern den Gastzugriff auf Verzeichnis-, Mandanten- und Anwendungsebene. Mindestens zur Unterstützung von Gäste müssen **Mitglieder einladen können** auf **Ja**festgelegt werden.
 
 
 ![Screenshot der Benutzereinstellungen im Azure Active Directory-Portal](media/teams_dependencies_image2.png)
 
+Azure AD umfasst die folgenden Einstellungen zum Konfigurieren von externer Benutzern:
+- **Benutzerberechtigungen Gast sind beschränkt**: **Ja** bedeutet, dass Gäste nicht über die Berechtigung für bestimmte Verzeichnisaufgaben verfügen, wie Aufzählen von Benutzern, Gruppen oder andere Directory Ressourcen. Darüber hinaus können nicht Gäste Administratorrollen in Ihrem Verzeichnis zugewiesen werden. **Keine** Möglichkeit, die Gäste haben den gleichen Zugriff auf Directory-Daten, die in Ihrem Verzeichnis reguläre Benutzer haben.
+- **Administratoren und Benutzer in die Guest-Rolle eingeladenen können einladen**: **Ja** bedeutet, dass Administratoren und Benutzer in der Rolle "Gast eingeladenen" Gäste, die dem Mandanten einladen können. **No** bedeutet, dass Administratoren und Benutzer können keine Gäste, die dem Mandanten einladen.
+- **Mitglieder können einladen**: **Ja** bedeutet, dass nicht-Administrator Mitglieder Ihres Verzeichnisses Gäste auf Ressourcen, die durch Ihre Azure AD, wie SharePoint-Websites oder Azure Ressourcen gesichert Zusammenarbeit einladen können. **No** bedeutet, dass nur Administratoren einladen können, die in das Verzeichnis Gäste.
+- **Gäste können einladen**: **Ja** bedeutet, dass Gäste in Ihrem Verzeichnis selbst anderen Gast auf Ressourcen, die durch Ihre Azure AD, wie SharePoint-Websites oder Azure Ressourcen gesichert Zusammenarbeit einladen können. **Keine** Möglichkeit, die Gäste einladen nicht andere Gäste für die Zusammenarbeit mit Ihrer Organisation.
+ 
 
-Sie können die folgenden Einladungsrichtlinien festlegen:
-- Einladungen deaktivieren
-- Nur Administratoren und Benutzer in der Rolle „Gasteinladender“ können jemanden einladen.
-- Administratoren, die Rolle „Gasteinladender“ und Mitglieder können jemanden einladen.
-- Alle Benutzer, einschließlich Gästen, können jemanden einladen. (Dies ist die Standardrichtlinie für Mandanten.)
 
+> [!NOTE]
+> Sie können auch verwalten, welche Domänen in Ihrem Mandanten als Gäste eingeladen werden können. Finden Sie unter [Zulassen/Blockieren Gast des Zugriffs auf Office 365-Gruppen](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
 
 ##<a name="microsoft-teams"></a>Microsoft Teams
-
 Sie können in Microsoft Teams steuern, ob der Gastzugriff für Ihre Organisation aktiviert oder deaktiviert ist. Die Einstellung ist standardmäßig deaktiviert und gilt auf Mandantenebene nur für Microsoft Teams.
 
 

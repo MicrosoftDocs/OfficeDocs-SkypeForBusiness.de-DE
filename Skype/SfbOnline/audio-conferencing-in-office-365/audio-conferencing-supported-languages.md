@@ -1,5 +1,5 @@
 ---
-title: "Unterstützte Sprachen für Einwahlkonferenzen"
+title: Unterstützte Sprachen für Einwahlkonferenzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

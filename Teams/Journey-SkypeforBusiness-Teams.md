@@ -3,19 +3,19 @@ title: Reise von Skype for Business zu Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, dearbeen
-description: "Hier erfahren Sie alles, was Sie über die Reise von Skype for Business Online zu Microsoft Teams wissen müssen."
+description: Hier erfahren Sie alles, was Sie über die Reise von Skype for Business Online zu Microsoft Teams wissen müssen.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81e016fd16e4f651515cdb56a18662e538dc4038
-ms.sourcegitcommit: 4f72e9fd65a2f759752fde5169d1152d0f5ce39c
-ms.translationtype: HT
+ms.openlocfilehash: a8d89f0f24f8dc056617ab06890deca74e8fcf60
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 03/08/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Reise von Skype for Business zu Teams
 ==================================================
@@ -44,7 +44,7 @@ Um optimale Ergebnisse zu erzielen, empfehlen wir Ihnen, die Verfahren in den fo
 
 [Häufig gestellte Fragen – Vision von Skype for Business & Teams](FAQ-journey.md)
 
-[Von Skype for Business zu Microsoft Teams: Roadmap der Funktionen](https://aka.ms/skype2teamsroadmap)
+[Wegweiser für Microsoft-Teams](https://aka.ms/teamsroadmap)
 
 [Von Skype for Business zu Microsoft Teams: Roadmap der Funktionen](https://aka.ms/skype2teamsroadmap)
 

@@ -1,26 +1,28 @@
 ---
-title: Microsoft Teams in Ihrer Office 365-Organisation einrichten
+title: Aktivieren Sie in Office 365-Organisation Microsoft-Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Erfahren Sie, wie Sie Microsoft Teams in Ihrer Office 365-Organisation einrichten können."
+description: Erfahren Sie, wie Microsoft-Teams für Office 365-Organisation zu aktivieren.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a6ec5e59471ed6527bbaefd4969f5b8e7e5a5bc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ac66fd152a5880d23169c93a26d4dcd6d2056942
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Microsoft Teams in Ihrer Office 365-Organisation einrichten
+<a name="turn-on-microsoft-teams-in-your-office-365-organization"></a>Aktivieren Sie in Office 365-Organisation Microsoft-Teams
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Microsoft Teams ist standardmäßig für alle Organisationen aktiviert. Wenn Sie Microsoft Teams im Vorschauzeitraum verwendet haben, bleibt die Einstellung erhalten, die Sie in der Microsoft Teams-Vorschau festgelegt haben.
 
@@ -31,7 +33,7 @@ Weitere Informationen zum Verwalten von einzelnen Lizenzen finden Sie unter [Off
 
 
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Aktivieren oder Deaktivieren von Microsoft Teams für die gesamte Organisation
-
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 1.  Melden Sie sich mit einem Konto mit globalen Administratorberechtigungen beim [Office 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=854614) an.
 
@@ -46,7 +48,3 @@ Weitere Informationen zum Verwalten von einzelnen Lizenzen finden Sie unter [Off
 4.  Um Microsoft Teams für die Organisation zu aktivieren, verwenden Sie die Lizenzauswahl. Wählen Sie die einzelnen Lizenzen aus, legen Sie die Umschaltfläche auf **Ein** fest, und klicken Sie dann auf **Speichern**.
 
     ![Screenshot der Seite mit den Microsoft Teams-Einstellungen, auf der die Umschaltfläche auf „Ein“ festgelegt ist, um Microsoft Teams zu aktivieren](media/Services-and-addins-control-Microsoft-Teams.PNG)
-
-
-> [!NOTE]
-> Die Steuerung des Ein/Aus-Status von Microsoft Teams auf Mandantenebene ist vorübergehend verfügbar und wird zu einem späteren Zeitpunkt entfernt. Zu diesem Zeitpunkt wird der Zugriff auf Microsoft Teams nur über Lizenzierung auf Benutzerebene gesteuert. 

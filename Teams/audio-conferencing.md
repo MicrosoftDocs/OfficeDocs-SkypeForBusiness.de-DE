@@ -1,24 +1,26 @@
 ---
-title: "Praktische Anleitungen für Audiokonferenzen in Microsoft Teams"
+title: Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/22/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "Praktische Anleitungen für die Planung, Bereitstellung und Verwaltung von Audiokonferenzen in Microsoft Teams mithilfe eines Frameworks, das die Phasen „Konzeptionierung“ (Planung), „Onboarding“ (Bereitstellung) und „Wertschöpfung“ (Einsatz) vorsieht"
+description: Praktische Anleitungen für die Planung, Bereitstellung und Verwaltung von Audiokonferenzen in Microsoft Teams mithilfe eines Frameworks, das die Phasen „Konzeptionierung“ (Planung), „Onboarding“ (Bereitstellung) und „Wertschöpfung“ (Einsatz) vorsieht
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f845be7ddf83605adad119f7efa53725033a7823
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: cb41f929f477a058ee8c811f357caa6ff3de62ac
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 ============================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Mit der Funktion für Audiokonferenzen in Office 365 können Teilnehmer mit einem beliebigen Telefon an Ihren Microsoft Teams-Besprechungen teilnehmen.
 
@@ -359,7 +361,7 @@ Sie können auch konfigurieren, wie nicht authentifizierte Anrufer von jedem ein
 Zusätzliche für jeden Benutzer anwendbare Konfigurationen sind verfügbar, um die Verwendung von gebührenfreien Telefonnummern für Konferenzbrücken sowie das Anrufen aus einer Konferenz heraus zu steuern.
 
 > [!NOTE]
-> Diese mit Kosten verbundenen Steuerelemente sind derzeit nur für Preview-Kunden verfügbar. Über die Seite [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013) können Sie Ihre Organisation für das Preview-Programm registrieren.
+> Diese mit Kosten verbundenen Steuerelemente sind derzeit nur für Preview-Kunden verfügbar. Sie können registrieren Sie Ihre Organisation in der Vorschau-Anwendung aus [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
 
 Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren gebührenfreie Telefonnummern für Konferenzbrücken für die von ihnen organisierten Besprechungen zur Verfügung stellen können, und ob sie steuern können, ob Teilnehmer Anrufe aus den von ihnen organisierten Besprechungen heraus tätigen können. Die Steuerungsebene rangiert hierbei vom Nichtzulassen von ausgehenden Anrufen, Zulassen von ausgehenden Anrufen an Inlandsnummern bis zum Zulassen von ausgehenden Anrufen an Inlands- und Auslandsnummern.
 

@@ -3,18 +3,18 @@ title: Microsoft Teams als Pilotprojekt neben Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
-description: "Anleitung zum Starten eines Microsoft Teams-Pilotprojekts, um die gesamte Funktionalität zu erfassen, die Teams Ihrem Unternehmen bieten kann, während Skype for Business weiterhin genutzt wird."
+description: Anleitung zum Starten eines Microsoft Teams-Pilotprojekts, um die gesamte Funktionalität zu erfassen, die Teams Ihrem Unternehmen bieten kann, während Skype for Business weiterhin genutzt wird.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6898c1dd7e55434e9ecbcc08c2c6cc926e1a6e0
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
+ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/20/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Microsoft Teams als Pilotprojekt neben Skype for Business
 ============================================
@@ -102,7 +102,7 @@ Zwecks optimaler Auswertung wird die Einbeziehung Ihrer Benutzerbasis zu 2 bis 5
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Nächste Aktion</strong>: Bestimmen Sie Ihre Testgruppe(n) für das Pilotprojekt.</td>
+<td align="left"><strong>Nächste Aktion:</strong> Identifizieren Sie Ihre Pilottest Gruppen [Wählen Sie Benutzer für Ihren Piloten Teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) Anweisungen verwenden.</td>
 </tr>
 </thead>
 <tbody>
@@ -126,7 +126,9 @@ Ein erfolgreiches Pilotprojekt bietet Ihren Teilnehmern klar definierte Aufgaben
 
 ## <a name="step-four-create-your-communications"></a>Schritt 4: Erstellen Sie Ihre Kommunikationen
 
-Schulen Sie die Teilnehmern Ihres Pilotprojekts darüber, was passiert, wann und warum etwas passiert sowie was von ihnen erwartet wird. Schulungen bilden einen wesentlicher Bestandteil des Erfolgs Ihres Projekts. Um eine maximale Begeisterung der Teilnehmer zu erzielen, sollten Sie den Wert für Endbenutzer bei der Kommunikation mit den Pilotprojektteilnehmern immer wieder herausstellen. Stellen Sie zudem sicher, dass Ihre Kommunikation immer Links zu Schulungen und Support beinhalten. So können die Teilnehmer im Verlauf des Pilotprojekts auf zusätzliche Informationen zugreifen.
+Schulen Sie die Teilnehmern Ihres Pilotprojekts darüber, was passiert, wann und warum etwas passiert sowie was von ihnen erwartet wird. Schulungen bilden einen wesentlicher Bestandteil des Erfolgs Ihres Projekts. Um eine maximale Begeisterung der Teilnehmer zu erzielen, sollten Sie den Wert für Endbenutzer bei der Kommunikation mit den Pilotprojektteilnehmern immer wieder herausstellen.
+
+Stellen Sie zudem sicher, dass Ihre Kommunikation immer Links zu Schulungen und Support beinhalten. So können die Teilnehmer im Verlauf des Pilotprojekts auf zusätzliche Informationen zugreifen. Eine gute Hilfethema eingeschlossen ist [Schalter, mit dem Teams von Skype für Unternehmen](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), der zeigt einige bekannte Funktionen als auch einige neue Features, die nur in Microsoft-Teams zur Verfügung stehen.
 
 <table>
 <thead>
@@ -144,7 +146,7 @@ Schulen Sie die Teilnehmern Ihres Pilotprojekts darüber, was passiert, wann und
 Mit einer gut vorbereiteten Logistik können Sie Ihr Pilotprojekt jetzt starten. Die Durchführung Ihres Pilotprojekts beinhaltet die Kommunikation mit Ihren Pilotprojektteilnehmern, die Überwachung Ihres Netzwerks sowie der Nutzung, um sicherzustellen, das Ihr Netzwerk und Ihre Qualität stabil bleiben, das Sammeln von Teilnehmer-Feedback und die Überprüfung von Helpdesk-Tickets in Bezug auf Fragen zu Teams.
 
 > [!IMPORTANT]
-> Microsoft Teams ist standardmäßig aktiviert. Vergewissern Sie sich dennoch vor Beginn des Pilotprojekts, dass alle Pilotbenutzer für Microsoft Teams aktiviert sind. Hilfe hierzu finden Sie unter [Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](enable-features-office-365.md).
+> Microsoft Teams ist standardmäßig aktiviert. Vergewissern Sie sich dennoch vor Beginn des Pilotprojekts, dass alle Pilotbenutzer für Microsoft Teams aktiviert sind. Lesen Sie auf diese Weise Hilfe [Verwalten des Benutzerzugriffs für Teams](user-access.md).
 > 
 
 Hier ist ein vorgeschlagener Zeitplan für ein 30-tägiges Pilotprojekt:

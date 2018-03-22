@@ -1,20 +1,20 @@
 ---
-title: "Höhere Wertschöpfung mit Microsoft Teams durch Nutzerakzeptanz"
+title: Höhere Wertschöpfung mit Microsoft Teams durch Nutzerakzeptanz
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Anleitung für das Fortsetzen Ihrer Reise von Skype for Business nach Microsoft Teams"
+description: Anleitung für das Fortsetzen Ihrer Reise von Skype for Business nach Microsoft Teams
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69585fd4caf17b299bf0261189bfd473702db8ab
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Höhere Wertschöpfung mit Microsoft Teams durch Nutzerakzeptanz
 ================================================================
@@ -35,7 +35,7 @@ Wir bei Microsoft setzen alles daran, Ihnen einen maßgeschneiderten praktischen
 - Ist Akzeptanz und Change Management Neuland für Sie? Nutzen Sie den [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) (Leitfaden für die Nutzerakzeptanz von Office 365)
 
 
-## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a>Bereiten Sie Ihre Organisation auf den zukünftigen Wechsel zu Teams vor
+## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>Bereiten Sie Ihre Organisation für die zukünftige Move Teams
 
 - Verwenden Sie die [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) für Ihre Reise nach Teams
 

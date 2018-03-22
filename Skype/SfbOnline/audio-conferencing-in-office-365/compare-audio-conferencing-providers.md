@@ -21,7 +21,7 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Wenn Sie Audiokonferenzen für Skype for Business und Microsoft Teams einrichten, müssen Sie einen Audiokonferenzanbieter auswählen. Sie können Microsoft oder einen Drittanbieter als Audiokonferenzanbieter auswählen."
+description: Wenn Sie Audiokonferenzen für Skype for Business und Microsoft Teams einrichten, müssen Sie einen Audiokonferenzanbieter auswählen. Sie können Microsoft oder einen Drittanbieter als Audiokonferenzanbieter auswählen.
 ms.openlocfilehash: e2b08b9d5db41cd9f6a0bff6d000c65ecbe6dfba
 ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT

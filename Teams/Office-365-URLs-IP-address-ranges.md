@@ -1,28 +1,28 @@
 ---
-title: "URLs und IP-Adressbereiche von Office 365"
+title: URLs und IP-Adressbereiche von Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
-description: "Hier erfahren Sie, wie Sie URLs und IP-Adressen von Office 365 ordnungsgemäß konfigurieren und den Weiterleitungsproxy umgehen, wenn dieser für Verbindungen mit dem Microsoft Teams-Dienst verfügbar ist. Zudem werden Sie über die Anforderungen für Netzwerk- und Sicherheitsrichtlinien informiert."
+description: Hier erfahren Sie, wie Sie URLs und IP-Adressen von Office 365 ordnungsgemäß konfigurieren und den Weiterleitungsproxy umgehen, wenn dieser für Verbindungen mit dem Microsoft Teams-Dienst verfügbar ist. Zudem werden Sie über die Anforderungen für Netzwerk- und Sicherheitsrichtlinien informiert.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597d9ceb2f72fcd624b3071d26264ce74650cc0c
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 713815836b2edcad31528abc01c74a2332ecf88a
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URLs und IP-Adressbereiche von Office 365
 =====================================
 
-Über die folgende Verknüpfung erhalten Sie eine detaillierte und aktuelle Liste der genauen IP-Adressen und Ports, die ordnungsgemäß konfiguriert werden müssen: [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US). Microsoft verbessert fortlaufend den Office 365-Dienst und fügt neue Funktionen hinzu. Aus diesem Grund können sich die erforderlichen Ports, URLs und IP-Adressen von Zeit zu Zeit ändern. Informationen zu den aktuellen Port- und Protokollversionen finden Sie im Handbuch [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). Das [Abonnieren eines RSS-Feeds](https://go.microsoft.com/fwlink/p/?linkid=236301) wird ebenfalls dringend empfohlen, um Benachrichtigungen über aktualisierte oder geänderte Endpunkte zu erhalten.
+Wechseln Sie zu [Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) , eine Liste eine detaillierte und auf dem neuesten Stand mit den URLs, IP-Adressen, Ports und Protokolle, die für Teams ordnungsgemäß konfiguriert werden müssen. Office 365-Dienst wird von Microsoft ständig verbessert und hinzufügen neuen Funktionen, was bedeutet, dass die erforderlichen Ports, URLs und IP-Adressen mit der Zeit ändern können. Es wird empfohlen, Sie [über RSS abonnieren](https://go.microsoft.com/fwlink/p/?linkid=236301) von Benachrichtigungen empfangen, wenn diese Informationen aktualisiert oder geändert wird.
 
-Wie bereits erwähnt, basieren die Anruf- und Besprechungsfunktionen von Microsoft Teams auf der cloudbasierten Infrastruktur der nächsten Generation, die auch von Skype und Skype for Business genutzt wird. Zu diesen Technologieinvestitionen gehören Azure-basierte Clouddienste für Medienverarbeitung und Signalisierung, der Videocodec H.264, die Audiocodecs SILK und Opus, Netzwerkresilienz, Telemetrie und Qualitätsdiagnose. Es gibt daher erforderliche URLs und IP-Adressen, die möglicherweise sowohl Skype als auch Skype for Business zugeordnet sind.
+Die Teams Anruf- und Besprechungen Erfahrung basiert auf der nächsten Generation cloudbasierten-Infrastruktur, die auch von Skype und Skype für Unternehmen verwendet wird. Zu diesen Technologieinvestitionen gehören Azure-basierte Clouddienste für Medienverarbeitung und Signalisierung, der Videocodec H.264, die Audiocodecs SILK und Opus, Netzwerkresilienz, Telemetrie und Qualitätsdiagnose. Als solche vorhanden URLs und IP-Adressen, die erforderlich sind, die möglicherweise Skype und Skype für Unternehmen zugeordnet werden.
 
-Für alle Office 365-Arbeitsauslastungen besteht die empfohlene Verbindungsmethode zu Microsoft Teams-Diensten darin, den Weiterleitungsproxy zu umgehen (falls möglich). Wenn sich ein Proxyserver zwischen einem Client und den Office 365-Datencentern befindet, werden die Medien möglicherweise über TCP anstelle von UDP erzwungen, wodurch die Medienqualität eingeschränkt wird. Proxy-PAC-Beispieldateien können zum Konfigurieren der Umgehung des Datenverkehrs über das Handbuch [Verwalten von Office 365-Endpunkten](https://support.office.com/article/managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) heruntergeladen werden.
+Für alle Office 365-Arbeitslasten ist die empfohlene Verbindungsmethode Teams Services dem Weiterleitungsproxy möglichst umgehen. Wenn ein Proxyserver zwischen einem Client und der Office 365-Rechenzentren befindet sich, möglicherweise Media über TCP anstelle von UDP, erzwungen werden die Medienqualität auswirken würde. Laden Sie Proxy PAC Beispieldateien, mit denen Umgehung der Datenverkehr von [Verwalten von Office 365-Endpunkten](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)konfiguriert werden können.
 
-Wenn es aufgrund Ihrer Netzwerk- und Sicherheitsrichtlinien erforderlich ist, dass der Office 365-Datenverkehr über eine Proxyserver geleitet wird, stellen Sie sicher, dass die Anforderungen oben bereits erfüllt sind, bevor Sie Microsoft Teams in einer Produktionsumgebung bereitstellen (Informationen dazu finden Sie unter [Proxyserver für Skype for Business Online](https://support.office.com/article/Proxy-Servers-for-Skype-for-Business-Online-7acaf2c2-35fa-490f-84cd-822e446e0fc7?ui=en-US&rs=en-US&ad=US)).
+Wenn Ihre Netzwerke und Sicherheitsrichtlinien Office 365-Datenverkehr über einen Proxyserver benötigen, stellen Sie sicher, dass die oben genannten Anforderungen bereits vor der Bereitstellung von Teams in die Produktion erfüllt sind ( [Proxyserver für Skype für Business Online](https://support.office.com/article/Proxy-Servers-for-Skype-for-Business-Online-7acaf2c2-35fa-490f-84cd-822e446e0fc7?ui=en-US&rs=en-US&ad=US) überprüfen Anleitung).

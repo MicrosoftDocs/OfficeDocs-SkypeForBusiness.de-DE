@@ -1,26 +1,28 @@
 ---
-title: "Administratoreinstellungen für Apps in Microsoft Teams"
+title: Administratoreinstellungen für Apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Hier erfahren Sie, wie Apps in Microsoft Teams aktiviert werden. Dazu zählt auch das Querladen von externen Apps."
+description: Hier erfahren Sie, wie Apps in Microsoft Teams aktiviert werden. Dazu zählt auch das Querladen von externen Apps.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fb8d7680338ebda68624a765068d4c386ea46b3
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
-ms.translationtype: HT
+ms.openlocfilehash: 58fb8598f8e63aa3e8abc943dcffde64452da462
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Apps sind Registerkarten, Connectors und Bots bzw. eine beliebige Kombination dieser drei Elemente, die von einem Drittanbieterdienst bereitgestellt werden. Im Office 365 Admin Center können Microsoft Teams-Administratorrichtlinien konfiguriert werden, um zu steuern, welche externen Drittanbieter-Apps zulässig sind. Mit diesen Richtlinien können Sie festlegen, welche Apps zulässig bzw. nicht zulässig sind, das Verhalten neuer externer Apps definieren und angeben, ob das Querladen von Apps zulässig ist.
 
@@ -51,7 +53,8 @@ Querladen ist das Verfahren zum Hinzufügen einer App in Microsoft Teams, indem 
 
 Nur Teambesitzer oder Mitglieder mit den entsprechenden Berechtigungen können Apps in Microsoft Teams querladen.  
 
-![Screenshot des Abschnitts „Apps“ in den Microsoft Teams-Einstellungen](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png) 
+![Screenshot des Abschnitts erweiterte Apps in den Mandanten geltende-Einstellungen.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+
 
 ## <a name="creating-and-uploading-app-packages"></a>Erstellen und Hochladen von App-Paketen 
 

@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: b58c4759fc66bd9f573123bebf1772609a7a79e2
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
-ms.translationtype: HT
+ms.openlocfilehash: c6ed5d7cd16456414991fd08c127cddf3653a40c
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Willkommen bei den Office-Inhalten auf „docs.microsoft.com“
 ## <a name="this-is-a-level-2-heading"></a>Dies ist eine Überschrift der Ebene 2.
@@ -19,7 +19,7 @@ ms.lasthandoff: 02/23/2018
 3. Element 4
 
 
-Änderung an Testdatei
+Hinzufügen von dieser Datei hier finden Sie eine einschließen:[!INCLUDE [sample-include-file](includes/sample-include-file.md)]
 
 
 Es ist möglich, eine Markdowntabelle mit HTML-Symbolen und nur dem Linebreak-Tag so aussehen zu lassen, als enthielte sie eine Aufzählung:

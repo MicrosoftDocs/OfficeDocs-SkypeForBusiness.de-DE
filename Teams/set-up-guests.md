@@ -3,25 +3,26 @@ title: Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 11/10/17
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
-description: "Aktivieren oder Deaktivieren der Funktion für den Gastzugriff in Microsoft Teams"
+description: Aktivieren oder Deaktivieren der Funktion für den Gastzugriff in Microsoft Teams
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9112494945cf97905853c827fbfdb0688e9c7fc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ddf9f3b2597300ca872a5ab4135538e9cc6cc5ed
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
 ======================================
 
-
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 
 
@@ -37,7 +38,7 @@ Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca.
 > [!IMPORTANT]
 > Um die Nutzung der Gastzugriffsfunktion in vollem Umfang zu ermöglichen, müssen Sie die gegenseitige Abhängigkeit bezüglich der Kernautorisierung von Microsoft Teams, Azure Active Directory und Office 365 verstehen. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
 
-1. Melden Sie sich mit Ihrem globalen Office 365-Administratorkonto bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
+1. Melden Sie sich mit dem Konto Globaler Office 365-Administrator bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
     
   
 2. Wählen Sie im Navigationsmenü **Einstellungen** und dann **Dienste &amp; Add-Ins** aus.

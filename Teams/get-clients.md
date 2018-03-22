@@ -1,56 +1,51 @@
 ---
-title: "Beziehen von Clients für Microsoft Teams"
+title: Beziehen von Clients für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
-description: "Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verwenden."
+description: Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verwenden.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2208ed21eb2db33f8d8ff90af97caa5b4912dfd
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 6cc06497da95f6c9e0f4e6a39d851125922e8b31
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Microsoft Teams-Clients sind für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verfügbar. Alle diese Clients erfordern eine aktive Internetverbindung. Ein Offlinemodus wird nicht unterstützt.
 
 <a name="web-client"></a>Webclient 
 ----------------
 
-Beim Webclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) handelt es sich um einen vollständigen funktionsfähigen Client, der in einer Vielzahl von Browsern verwendet werden kann. Zurzeit unterstützt der Webclient keine Echtzeitkommunikation (das heißt Teilnehmen an Besprechungen und Tätigen von Einzelanrufen). Außerdem muss der Browser so konfiguriert sein, dass Drittanbietercookies zulässig sind. 
+WebClient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) ist ein vollständiger, funktionsfähige Client, der aus einer Vielzahl von Browsern verwendet werden kann. Zurzeit unterstützt der Webclient keine Echtzeitkommunikation (das heißt Teilnehmen an Besprechungen und Tätigen von Einzelanrufen). Außerdem muss der Browser so konfiguriert sein, dass Drittanbietercookies zulässig sind. 
 
 Zum Ausführen von Microsoft Teams in einem Webbrowser ist kein Plug-In oder Download erforderlich.
 
-Der Webclient erkennt die Browserversion beim Herstellen der Verbindung mit [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Wenn eine nicht unterstützte Browserversion erkannt wird, wird der Zugriff auf die Webschnittstelle blockiert, und dem Benutzer wird empfohlen, den Desktopclient oder die mobile App herunterzuladen.
+Der Webclient führt die Erkennung des Clientbrowsers Version beim Herstellen einer Verbindung mit [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) und eine nicht unterstützte Browserversion erkannt wird, blockieren Sie den Zugriff auf die Weboberfläche und wird empfohlen, dass der Benutzer den Desktopclient oder mobilen app herunterladen.
 
 <a name="internet-browser-support"></a>Unterstützung für Internetbrowser
 ------------------------------
-Microsoft Teams unterstützt die folgenden Internetbrowser: 
-- Internet Explorer 11
-- Microsoft Edge
-- Chrome (neueste Version sowie die zwei vorhergehenden Versionen)
-- Firefox (neueste Version sowie die zwei vorhergehenden Versionen)
-
-> [!NOTE]
-> Safari wird zurzeit nicht unterstützt. Neuigkeiten zu den neuen Funktionen in Microsoft Teams finden Sie in der [Microsoft Teams-Roadmap](http://aka.ms/TeamsRoadmap). Benutzer, die Microsoft Teams in Safari zu öffnen versuchen, werden aufgefordert, den Microsoft Teams-Desktopclient herunterzuladen.
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
 <a name="desktop-clients"></a>Desktopclients
 ------------------------
 
-Beim Microsoft Teams-Desktopclient handelt es sich um eine eigenständige Anwendung, die zurzeit nicht Bestandteil von Office Pro Plus ist. Microsoft Teams ist für die 32-Bit- und 64-Bit-Versionen von Windows (7+) sowie für MacOS (10.10+) verfügbar.
+Der Microsoft-Teams Desktopclient ist eine eigenständige Anwendung und derzeit kein Bestandteil von Office Pro Plus. Teams ist für Windows (7 +), 32-Bit- und 64-Bit-Versionen und Mac OS (10.10. +) verfügbar. Unter Windows-Teams erfordert .NET Framework 4.5 oder höher. Das Installationsprogramm Teams bietet es für Sie installieren, wenn Sie nicht vorhanden ist.
 
-Die Desktopclients bieten Unterstützung für Echtzeitkommunikation (Audio, Video und Inhaltsfreigabe) für Teambesprechungen, Gruppenanrufe und private Einzelanrufe.
+Desktop-Clients unterstützen Echtzeitkommunikation (Audio-, Video- und Content Freigabe) Team Besprechungen, Gruppe aufrufende und privaten Angebot Anrufe.
 
-Desktopclients können unter [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) von Endbenutzern direkt heruntergeladen und installiert werden, sofern sie über die entsprechenden lokalen Berechtigungen verfügen (Administratorrechte sind zum Installieren des Teams-Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich).
+Desktop-Clients können heruntergeladen und installiert werden durch Endbenutzer direkt aus [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) Wenn sie die entsprechenden lokalen Berechtigungen verfügen (Administratorrechte ist nicht erforderlich, den Teams-Client auf einem PC zu installieren, aber sind erforderlich für Mac).
 
 IT-Administratoren können ihre bevorzugte Methode für die Verteilung der Installationsdateien an die Computer in ihrer Organisation auswählen, beispielsweise System Center Configuration Manager (Windows) oder Casper Suite (MacOS).
 

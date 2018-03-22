@@ -1,20 +1,20 @@
 ---
-title: "Microsoft Teams-Schulungen für Endbenutzer"
+title: Microsoft Teams-Schulungen für Endbenutzer
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, ninadara
-description: "Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen."
+description: Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9889e88f031abc08a5052e87f8cffcfa814a42b
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 22ebbf36fbd511ed0ddb2431c0b3e64a89cd832e
+ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/20/2018
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================
@@ -25,7 +25,8 @@ Verwenden Sie diese Schulungsressourcen, um Ihrer Organisation die optimale Nutz
 |---------|---------|
 | [Office Training Center](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | Mit diesen Schulungen können Ihre Benutzer das meiste aus Microsoft Teams herausholen |
 | [Hilfe für Microsoft Teams](https://support.office.com/teams) | Produktdokumentation für Teams-Endbenutzer |
-| [Willkommen bei Microsoft Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)  |  Dieses Handbuch soll Ihnen helfen, sich schnell vorzubereiten und Microsoft Teams, den chatbasierten Arbeitsbereich in Office 365, zu verwenden. |
+| [Willkommen bei Microsoft Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)  |  Eine Anleitung, die Ihnen den Einstieg erleichtern und schnell mit der Chat zentriert Arbeitsbereich in Office 365-Teams |
+| [Wechseln Sie zu Teams von Skype für Unternehmen](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)  |  Finden Sie unter bekannte Funktionen verwenden, und informieren Sie sich über neue features |
 | [Tipps und Tricks für Microsoft Teams](https://support.office.com/office-training-center/Teams-tips) |  |
 | [Was ist Microsoft Teams? ](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Kurzeinführung in Teams, Ihre Drehscheibe für Teamarbeit  |
 | [Microsoft Teams-Kanal auf YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |

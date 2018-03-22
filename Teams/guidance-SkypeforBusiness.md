@@ -3,7 +3,7 @@ title: Aktivieren von Teams Seite an Seite mit Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -11,11 +11,11 @@ description: Anleitung zur gleichzeitigen Verwendung von Skype for Business und 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3052c406675ac8f8423469783c9831c84b3e0e05
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 27e6f4449f4568f9777be92c8520215721154e2f
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Aktivieren von Teams Seite an Seite mit Skype for Business 
 =============================================================
@@ -183,7 +183,7 @@ Durch die Optimierung von Office 365-Gruppen wurde Microsoft Teams im Kern um be
 
 Da Benutzer in Ihrer Organisation mit einer Office 365-Abonnementlizenz standardmäßig für Teams aktiviert, wird in einem limitierten Teams-Pilotprojekt unter anderem die Teams-Lizenz für alle Benutzer deaktiviert, die nicht der Pilotprojektgruppe angehören.
 
-Um den Schwerpunkt der Teams-Version auf Zusammenarbeit und privaten Chat zu legen und die Benutzerkonfusion aufgrund von sich mit Skype for Business-Funktionen überlappenden Funktionen zu verringern, können Sie die folgenden Einstellungen auf der Office 365-Mandantenebene vornehmen. Informationen zum Ändern dieser Office 365-Einstellungen finden Sie unter [Einrichten von Microsoft Teams in Ihrer Office 365-Organisation](Office-365-set-up.md).
+Um den Schwerpunkt der Teams-Version auf Zusammenarbeit und privaten Chat zu legen und die Benutzerkonfusion aufgrund von sich mit Skype for Business-Funktionen überlappenden Funktionen zu verringern, können Sie die folgenden Einstellungen auf der Office 365-Mandantenebene vornehmen. Wenn diese Office 365-Einstellungen ändern möchten, finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md).
 
 <table>
 <thead>
