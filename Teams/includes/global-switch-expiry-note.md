@@ -1,0 +1,2 @@
+> [!NOTE]
+> Die Steuerung des Ein/Aus-Status von Microsoft Teams auf Mandantenebene ist vorübergehend verfügbar und wird bis Mai 2018 entfernt. Zu diesem Zeitpunkt wird der Zugriff auf Microsoft Teams nur über Lizenzierung auf Benutzerebene gesteuert. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft Teams](../user-access.md).
