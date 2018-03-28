@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b556a7293ecd6c6158a3fb1f7e882fa87defbc45
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: cbbd2cad0b84ccdcc887d5bcdf272c1556c9c546
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Übersicht über Microsoft Teams
 ===========================
@@ -122,6 +122,6 @@ Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 36
 
 Die häufig gestellten Fragen für Microsoft Teams-Administratoren waren anfangs bei der Veröffentlichung von Microsoft Teams praktisch. Sie sind aber schnell so unübersichtlich geworden, dass es schwer war, etwas Bestimmtes zu finden. Daher haben wir die häufig gestellten Fragen aufgeteilt und diese wertvollen Informationen in die Microsoft Teams-Dokumentation integriert, die Sie gerade lesen. In dieser Dokumentation finden Sie alle Informationen aus den häufig gestellten Fragen im entsprechenden Kontext.
 
-Wenn Sie etwas suchen, das Sie hier nicht finden können, lassen Sie es uns bitte unten im Abschnitt **Kommentare** wissen. Wir versuchen, innerhalb von 24 Stunden auf Ihre Kommentare zu antworten.
+Wenn Sie nach einem Thema suchen, die Sie hier nicht finden können, teilen Sie uns darüber im Abschnitt **Feedback** . Versuchen wir, innerhalb von 24 Stunden auf Ihr Feedback zu reagieren.
 
 Übrigens **gibt** es nach wie vor häufig gestellte Fragen zur [Reise von Skype for Business zu Microsoft Teams](FAQ-journey.md). 

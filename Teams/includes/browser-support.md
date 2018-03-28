@@ -1,7 +1,10 @@
 Microsoft Teams unterstützt die folgenden Internetbrowser: 
 - Internet Explorer 11
 - Microsoft Edge
+  - Anruf- und Besprechungen auf Edge-RS2 oder höher unterstützt
 - Chrome (neueste Version sowie die zwei vorhergehenden Versionen)
+  - Unterstützte aufrufen, Chrome 59 oder höher
+  - Besprechungen unterstützen bald verfügbar
 - Firefox (neueste Version sowie die zwei vorhergehenden Versionen)
 
 > [!NOTE]

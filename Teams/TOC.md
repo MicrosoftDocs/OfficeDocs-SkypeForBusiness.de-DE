@@ -13,9 +13,12 @@
 # Einrichtung
 ## [Verwalten des Benutzerzugriffs auf Teams](user-access.md)
 ## [Beziehen von Clients für Microsoft Teams](get-clients.md)
+## [Melden Sie sich bei Teams](sign-in-teams.md)
 ## [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
 ## [Teams in Ihrer Office 365-Organisation einrichten](Office-365-set-up.md)
 ## [Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](enable-features-office-365.md)
+## [Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+## [Installieren Sie die MSI-Datei von Microsoft-Teams](msi-deployment.md)
 ## [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Einrichten der Anrufanalyse von Skype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -123,6 +126,7 @@
 
 
 ## Audiokonferenz
+### [Lernprogramm: Audiokonferenzen in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Zuweisen eines Drittanbieters für Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Zuweisen von Microsoft als Audiokonferenzanbieter](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Allgemeine Fragen zu Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -158,6 +162,7 @@
 ### [Videos - Audiokonferenzen in Teams](audio-conferencing-videos.md)
 
 ## Anrufpläne
+### [Lernprogramm: Einwählen, Teams](Tutorial-calling-in-teams.yml)
 ### [Schnellstarthandbuch – Konfigurieren von Anrufplänen in Microsoft Teams](configuring-teams-calling-quickstartguide.md)
 ### [Einrichten von Anrufplänen](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Hinzufügen, Ändern oder Entfernen einer Notfalladresse für Ihre Organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

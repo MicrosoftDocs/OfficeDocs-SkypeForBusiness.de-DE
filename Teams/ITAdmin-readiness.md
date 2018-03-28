@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7157f412cc28e44b6149b74a12be98a717496b8f
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: a2dbb006fa9e44d1f2f08efc716063c1c6b1540c
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 ==================================
@@ -28,8 +28,9 @@ Hier erhalten Sie Informationen zu Microsoft Teams und zum Vorantreiben der Nutz
 |  |  |
 |---------|---------|
 | [Tutorial: Reise von Skype for Business zu Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Hier erfahren Sie alles, was Sie über die Reise von Skype for Business Online zu Microsoft Teams wissen müssen.  |
-| [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml) |Für IT-Administratoren in Bildungseinrichtungen: Stellen Sie Microsoft Teams in der gesamten Organisation bereit.   |
-[Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Schnellstarthandbuch für das Konfigurieren von Anrufplänen in Microsoft Teams |
+| [Lernprogramm: Audiokonferenzen in Teams](Tutorial-Audio-Conferencing.yml) | Dieser interaktiven Schulung durchlaufen Audiokonferenzen in Teams. |
+| [Schnellstart: Microsoft-Teams für Bildungseinrichtungen-Admins](teams-quick-start-edu.yml) |Für IT-Administratoren in Bildungseinrichtungen: Stellen Sie Microsoft Teams in der gesamten Organisation bereit.   |
+| [Schnellstart: Konfigurieren von Aufrufen plant in Microsoft-Teams](configuring-teams-calling-quickstartguide.md)| Schnellstarthandbuch für das Konfigurieren von Anrufplänen in Microsoft Teams |
 | [Tutorial: Grundlegendes zu Anrufen in Microsoft Teams](tutorial-calling-in-teams.yml)  |  Diese Schulung stellt die Anruffunktionen in Microsoft Teams vor, die von der Telefonsystemfunktion in Office 365 unterstützt werden. Enthält Erläuterungen zur erforderlichen technischen Planung für die Implementierung des Telefonsystems, zur Konfiguration und zur Überwachung der Verwendung und der Anrufqualität in Ihrer Implementierung.  |
 | [Videos für Audiokonferenzen](audio-conferencing-videos.md) |Videos für IT-Administratoren, in denen Audiokonferenzen in Microsoft Teams vorgestellt werden  |
 | [Tutorial: Besprechungen in Microsoft Teams](tutorial-meetings-in-teams.yml) | Diese Schulung werden Besprechungen in Teams vorgestellt. Es werden Funktionen für die Besprechung, plus Anforderungen und Hinweise zur Planung behandelt. |

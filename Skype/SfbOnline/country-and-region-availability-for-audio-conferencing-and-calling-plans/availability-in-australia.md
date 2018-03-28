@@ -1,5 +1,5 @@
 ---
-title: "Verfügbarkeit in Australien"
+title: Verfügbarkeit in Australien
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Australien verfügbar."
-ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Australien verfügbar.
+ms.openlocfilehash: ec5ac53fc0688aeb6ed960f64c5ffb35ceb216f9
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="availability-in-australia"></a>Verfügbarkeit in Australien
 
@@ -53,13 +53,13 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
    
 ## <a name="calling-plans"></a>Anrufpläne
 > [!IMPORTANT]
-> Australien ist nur in der Vorschau und frühe Übernahmen Kunden zur Verfügung. Weitere Informationen finden Sie unter [Telstra VoIP](http://aka.ms/TelstraVoicePlan). 
+> Derzeit nur für Vorschau und frühe Anpassung in Australien verfügbar. Weitere Informationen finden Sie unter [Telstra für Office 365 aufrufen](http://aka.ms/TelstraVoicePlan). 
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, finden Sie unter [Telstra Voice Services](http://aka.ms/TelstraVoicePlan).  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Finden Sie unter [Telstra Services](http://aka.ms/TelstraVoicePlan). <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Finden Sie unter [Telstra Services](http://aka.ms/TelstraVoicePlan). <br/> |
+|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, finden Sie unter [Telstra für Office 365 aufrufen](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> |Finden Sie unter [Telstra für Office 365 aufrufen](http://aka.ms/TelstraVoicePlan). <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Finden Sie unter [Telstra für Office 365 aufrufen](http://aka.ms/TelstraVoicePlan). <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
@@ -69,7 +69,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
-Wenn Sie gebührenpflichtige oder gebührenfreie Telefonnummern für automatische Telefonzentralen und Anruf Warteschlangen abrufen möchten, finden Sie unter [Telstra Voice Services](http://aka.ms/TelstraVoicePlan). Audiokonferenzen Service Zahlen, [wenden Sie sich uns an](mailto:ptnapac@microsoft.com).
+Wenn Sie gebührenpflichtige oder gebührenfreie Telefonnummern für automatische Telefonzentralen und Anruf Warteschlangen abrufen möchten, finden Sie unter [Telstra für Office 365 aufrufen](http://aka.ms/TelstraVoicePlan). Audiokonferenzen Service Zahlen, [wenden Sie sich uns an](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
