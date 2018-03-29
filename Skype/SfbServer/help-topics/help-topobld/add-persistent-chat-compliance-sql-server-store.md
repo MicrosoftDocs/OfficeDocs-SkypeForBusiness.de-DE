@@ -1,0 +1,58 @@
+---
+title: Hinzufügen des SQL Server-Speichers für Konformität für den beständigen Chat
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.date: 3/27/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AddPersistentChatComplianceStorePage
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
+description: Konfigurieren Sie die Konformität, den, die SQL Server-Speicher, die Datenbanken für die Persistent Chat Server oder die Funktion zur Einhaltung von Persistent Chat Server bereitgestellt werden.
+ms.openlocfilehash: 7854255195e73dcf03ce9027cdd7390c8f4bde54
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/28/2018
+---
+# <a name="add-persistent-chat-compliance-sql-server-store"></a><span data-ttu-id="3ae36-103">Hinzufügen des SQL Server-Speichers für Konformität für den beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="3ae36-103">Add Persistent Chat Compliance SQL Server Store</span></span>
+ 
+<span data-ttu-id="3ae36-104">Konfigurieren Sie die Konformität, den, die SQL Server-Speicher, die Datenbanken für die Persistent Chat Server oder die Funktion zur Einhaltung von Persistent Chat Server bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="3ae36-104">You configure the compliance SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server compliance feature.</span></span>
+  
+ <span data-ttu-id="3ae36-105">**SQL Server-Speicher**: Wählen Sie eine vorhandene SQL Server-Instanz und optional eine Instanz für den beständigen Chat aus.</span><span class="sxs-lookup"><span data-stu-id="3ae36-105">**SQL Server store**: Select an existing SQL Server and optionally an instance for Persistent Chat.</span></span>
+  
+<span data-ttu-id="3ae36-106">Klicken Sie auf **neu** , um eine neue SQL Server-Instanz und optional eine neue Instanz für die Konformitätsdaten beständigen Chat definieren.</span><span class="sxs-lookup"><span data-stu-id="3ae36-106">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat compliance data.</span></span>
+  
+<span data-ttu-id="3ae36-107">Aktivieren Sie das Kontrollkästchen **Aktivieren SQL Server-Speicher für Spiegelung** Konfigurieren einer SQL Server-Datenbank und optional eine Instanz, die eine gespiegelte Datenbank für die Konformitätsdaten beständigen Chat bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="3ae36-107">Select the **Enable SQL Server store mirroring** checkbox to configure a SQL Server database and optional instance that will provide a mirrored database for the Persistent Chat compliance data.</span></span>
+  
+<span data-ttu-id="3ae36-108">Wählen Sie in der Liste **SQL Server-Spiegelung Speicher** einen SQL Server und optional eine Instanz, die als SQL Server-Spiegel für die Konformität des beständigen Chats SQL Server fungiert.</span><span class="sxs-lookup"><span data-stu-id="3ae36-108">Select from the list **Mirroring SQL Server store** a SQL Server and optional instance to act as the SQL Server mirror for the Persistent Chat compliance SQL Server.</span></span>
+  
+<span data-ttu-id="3ae36-109">Klicken Sie auf **neu** , um eine neue SQL Server-Instanz und optional eine neue Instanz für den beständigen Chat SQL Server-Spiegelung zu definieren.</span><span class="sxs-lookup"><span data-stu-id="3ae36-109">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat SQL Server mirroring.</span></span>
+  
+<span data-ttu-id="3ae36-110">Wählen Sie in der Liste **Automatisches Failover mithilfe des SQL Server-Spiegelungszeugen aktivieren** eine SQL Server-Instanz aus, die als Zeugenserver für Failoverszenarios dient.</span><span class="sxs-lookup"><span data-stu-id="3ae36-110">Select the list **Use SQL Server mirroring witness to enable automatic failover** a SQL Server that will act as the witness server in failover scenarios.</span></span> <span data-ttu-id="3ae36-111">Der Zeugenserver werden nicht Spiegelung oder Host Daten für den Server für beständigen Chat, sondern wird sichergestellt, dass nur eine SQL Server in einer gespiegelten Konfiguration können Sie jederzeit die aktiven SQL Server ist.</span><span class="sxs-lookup"><span data-stu-id="3ae36-111">The witness server does not mirror or host data for the Persistent Chat servers, but ensures that only one SQL Server in a mirrored configuration is the active SQL Server at any time.</span></span>
+  
+<span data-ttu-id="3ae36-112">Klicken Sie auf **neu** , um einen neuen SQL Server-Zeugen definieren optional eine Instanz für die Konformität des beständigen Chats SQL Server-spiegelungszeugen.</span><span class="sxs-lookup"><span data-stu-id="3ae36-112">Click **New** to define a new SQL Server witness optionally an instance for the Persistent Chat compliance SQL Server mirroring witness.</span></span>
+  
+<span data-ttu-id="3ae36-113">Klicken Sie auf **Zurück**, um zum vorherigen Dialogfeld für die Pooldefinition zurückzukehren.</span><span class="sxs-lookup"><span data-stu-id="3ae36-113">Click **Back** to go back to the previous pool definition dialog.</span></span>
+  
+<span data-ttu-id="3ae36-114">Klicken Sie auf **Weiter** , nachdem Sie die Eingabe der Optionen für diesen Pool backup SQL Server-Speicher-Konfiguration und Fortfahren mit der Definition der Persistent Chat Server Pool abgeschlossen haben.</span><span class="sxs-lookup"><span data-stu-id="3ae36-114">Click **Next** after you have finished entering the options for this pool's backup SQL Server store configuration and to proceed with the Persistent Chat Server pool definition.</span></span>
+  
+<span data-ttu-id="3ae36-115">Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assistenten **Neuen Pool für beständigen Chat definieren** zu beenden.</span><span class="sxs-lookup"><span data-stu-id="3ae36-115">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+  
+<span data-ttu-id="3ae36-116">Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite) zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="3ae36-116">Click **Help** to access context sensitive help, such as this page.</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="3ae36-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3ae36-117">See also</span></span>
+
+#### 
+
+[<span data-ttu-id="3ae36-118">Planen Sie für Persistent Chatserver in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="3ae36-118">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+  
+[<span data-ttu-id="3ae36-119">Serveranforderungen für Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="3ae36-119">Server requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+  
+[<span data-ttu-id="3ae36-120">Hardware und Software-Anforderungen für Persistent Chat Server in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="3ae36-120">Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+  
+[<span data-ttu-id="3ae36-121">Konfigurieren des kompatibilitätsdiensts für Persistent Chat Server in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="3ae36-121">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../manage/persistent-chat/configure-compliance.md)
+

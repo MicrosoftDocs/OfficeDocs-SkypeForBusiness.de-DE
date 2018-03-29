@@ -1,0 +1,79 @@
+---
+title: Erstellen von Standortrichtlinien in Skype for Business Server 2015
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.date: 8/17/2016
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.custom: Strat_SB_Admin
+ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
+description: Lesen Sie in diesem Thema erfahren, wie konfigurieren erweiterten notrufunterstützung (E9-1-1) anhand von Standortrichtlinien in Skype für Business Server Enterprise-VoIP.
+ms.openlocfilehash: 7635199810e21f33bdbe30d5bf6f229987fa8c77
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/28/2018
+---
+# <a name="create-location-policies-in-skype-for-business-server-2015"></a><span data-ttu-id="b8930-103">Erstellen von Standortrichtlinien in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="b8930-103">Create location policies in Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="b8930-104">Lesen Sie in diesem Thema erfahren, wie konfigurieren erweiterten notrufunterstützung (E9-1-1) anhand von Standortrichtlinien in Skype für Business Server Enterprise-VoIP.</span><span class="sxs-lookup"><span data-stu-id="b8930-104">Read this topic to learn how to configure enhanced emergency service (E9-1-1) location policies in Skype for Business Server Enterprise Voice.</span></span> 
+  
+<span data-ttu-id="b8930-105">Skype für Business Server verwendet eine ortungsrichtlinie, um Skype für Business-Clients für E9-1-1 bei der Clientregistrierung aktivieren.</span><span class="sxs-lookup"><span data-stu-id="b8930-105">Skype for Business Server uses a location policy to enable Skype for Business clients for E9-1-1 during client registration.</span></span> <span data-ttu-id="b8930-106">Eine Standortrichtlinie enthält die Einstellungen für die Definition der Notrufdienstimplementierung.</span><span class="sxs-lookup"><span data-stu-id="b8930-106">A location policy contains the settings that define how E9-1-1 will be implemented.</span></span> <span data-ttu-id="b8930-107">Weitere Informationen finden Sie unter [Planen von Richtlinien für Skype für Business Server 2015 Speicherort](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).</span><span class="sxs-lookup"><span data-stu-id="b8930-107">For more information, see [Plan location policies for Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).</span></span>
+  
+<span data-ttu-id="b8930-108">Sie können mithilfe der Skype für die Business-Systemsteuerung oder mithilfe des Cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Standortrichtlinien definieren.</span><span class="sxs-lookup"><span data-stu-id="b8930-108">You define location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="b8930-109">Skype für Business Server unterstützt jetzt die Konfiguration von mehreren Notfall Zahlen für einen Client an.</span><span class="sxs-lookup"><span data-stu-id="b8930-109">Skype for Business Server now supports the configuration of multiple emergency numbers for a client.</span></span> <span data-ttu-id="b8930-110">Wenn Sie mehrere Notfall Nummern konfigurieren möchten, müssen Sie die Informationen in [mehrere Notfall Zahlen in Skype für Business Server 2015 planen](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) und [Konfigurieren von mehreren Notfall Zahlen in Skype für Business 2015](configure-multiple-emergency-numbers.md)befolgen.</span><span class="sxs-lookup"><span data-stu-id="b8930-110">If you want to configure multiple emergency numbers, you must follow the information in [Plan for multiple emergency numbers in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) and [Configure multiple emergency numbers in Skype for Business 2015](configure-multiple-emergency-numbers.md).</span></span> 
+  
+<span data-ttu-id="b8930-p103">Sie können die globale Standortrichtlinie bearbeiten und bereichsspezifische Standortrichtlinien erstellen. Ein Client, der sich nicht in einem Subnetz mit zugeordneter Standortrichtlinie befindet oder dem nicht direkt eine Standortrichtlinie zugeordnet wurde, ruft eine globale Richtlinie ab. Bereichsspezifische Standortrichtlinien werden Subnetzen oder Benutzern zugewiesen.  </span><span class="sxs-lookup"><span data-stu-id="b8930-p103">You can edit the global location policy and create new tagged location policies. A client obtains a global policy when it is not located within a subnet with an associated location policy, or when the client has not been directly assigned a location policy. Tagged policies are assigned to subnets or users.</span></span> 
+  
+<span data-ttu-id="b8930-114">Zum Erstellen einer Standortrichtlinie müssen Sie ein Konto verwenden, das Mitglied der Gruppe „RTCUniversalServerAdmins“ oder der Administratorrolle „CsVoiceAdministrator“ ist oder entsprechende Administratorrechte und -berechtigungen besitzt.</span><span class="sxs-lookup"><span data-stu-id="b8930-114">To create a location policy, you must use an account that is a member of the RTCUniversalServerAdmins group, or is a member of the CsVoiceAdministrator administrative role, or has equivalent administrator rights and permissions.</span></span>
+  
+<span data-ttu-id="b8930-115">Weitere Informationen finden Sie unter [Planen von Richtlinien für Skype für Business Server 2015 Speicherort](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).</span><span class="sxs-lookup"><span data-stu-id="b8930-115">For more information, see [Plan location policies for Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).</span></span> <span data-ttu-id="b8930-116">Cmdlets in diesem Verfahren verwenden eine Standortrichtlinie, die mit den folgenden Werten definiert ist.</span><span class="sxs-lookup"><span data-stu-id="b8930-116">Cmdlets in this procedure use a location policy defined using the following values.</span></span> <span data-ttu-id="b8930-117">Eine vollständige Beschreibung des Cmdlet-Parameter und Werte finden Sie unter [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="b8930-117">For a complete description of cmdlet parameters and values, see [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).</span></span>
+  
+|<span data-ttu-id="b8930-118">**Element**</span><span class="sxs-lookup"><span data-stu-id="b8930-118">**Element**</span></span>|<span data-ttu-id="b8930-119">**Wert**</span><span class="sxs-lookup"><span data-stu-id="b8930-119">**Value**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="b8930-120">EnhancedEmergencyServicesEnabled</span><span class="sxs-lookup"><span data-stu-id="b8930-120">EnhancedEmergencyServicesEnabled</span></span>  <br/> |<span data-ttu-id="b8930-121">**True**</span><span class="sxs-lookup"><span data-stu-id="b8930-121">**True**</span></span> <br/> |
+|<span data-ttu-id="b8930-122">LocationRequired</span><span class="sxs-lookup"><span data-stu-id="b8930-122">LocationRequired</span></span>  <br/> |<span data-ttu-id="b8930-123">**Haftungsausschluss**</span><span class="sxs-lookup"><span data-stu-id="b8930-123">**Disclaimer**</span></span> <br/> |
+|<span data-ttu-id="b8930-124">EnhancedEmergencyServiceDisclaimer</span><span class="sxs-lookup"><span data-stu-id="b8930-124">EnhancedEmergencyServiceDisclaimer</span></span>  <br/> |<span data-ttu-id="b8930-p105">Die Unternehmensrichtlinie erfordert, dass Sie einen Standort festlegen. Wenn Sie keinen Standort festlegen, können Sie im Ernstfall nicht von Notfalldiensten lokalisiert werden. Bitte legen Sie einen Standort fest.</span><span class="sxs-lookup"><span data-stu-id="b8930-p105">Your company policy requires you to set a location. If you do not set a location, emergency services will not be able to locate you in an emergency. Please set a location.</span></span>  <br/> |
+|<span data-ttu-id="b8930-128">UseLocationForE911Only</span><span class="sxs-lookup"><span data-stu-id="b8930-128">UseLocationForE911Only</span></span>  <br/> |<span data-ttu-id="b8930-129">**False**</span><span class="sxs-lookup"><span data-stu-id="b8930-129">**False**</span></span> <br/> |
+|<span data-ttu-id="b8930-130">PstnUsage</span><span class="sxs-lookup"><span data-stu-id="b8930-130">PstnUsage</span></span>  <br/> |<span data-ttu-id="b8930-131">**EmergencyUsage**</span><span class="sxs-lookup"><span data-stu-id="b8930-131">**EmergencyUsage**</span></span> <br/> |
+|<span data-ttu-id="b8930-132">EmergencyDialString</span><span class="sxs-lookup"><span data-stu-id="b8930-132">EmergencyDialString</span></span>  <br/> |<span data-ttu-id="b8930-133">**911**</span><span class="sxs-lookup"><span data-stu-id="b8930-133">**911**</span></span> <br/> |
+|<span data-ttu-id="b8930-134">EmergencyDialMask</span><span class="sxs-lookup"><span data-stu-id="b8930-134">EmergencyDialMask</span></span>  <br/> |<span data-ttu-id="b8930-135">**112**</span><span class="sxs-lookup"><span data-stu-id="b8930-135">**112**</span></span> <br/> |
+|<span data-ttu-id="b8930-136">NotificationUri</span><span class="sxs-lookup"><span data-stu-id="b8930-136">NotificationUri</span></span>  <br/> |<span data-ttu-id="b8930-137">**SIP:Security@litwareinc.com**</span><span class="sxs-lookup"><span data-stu-id="b8930-137">**sip:security@litwareinc.com**</span></span> <br/> |
+|<span data-ttu-id="b8930-138">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="b8930-138">ConferenceUri</span></span>  <br/> |<span data-ttu-id="b8930-139">**SIP:+14255550123@litwareinc.com**</span><span class="sxs-lookup"><span data-stu-id="b8930-139">**sip:+14255550123@litwareinc.com**</span></span> <br/> |
+|<span data-ttu-id="b8930-140">ConferenceMode</span><span class="sxs-lookup"><span data-stu-id="b8930-140">ConferenceMode</span></span>  <br/> |<span data-ttu-id="b8930-141">**twoway**</span><span class="sxs-lookup"><span data-stu-id="b8930-141">**twoway**</span></span> <br/> |
+|<span data-ttu-id="b8930-142">LocationRefreshInterval</span><span class="sxs-lookup"><span data-stu-id="b8930-142">LocationRefreshInterval</span></span>  <br/> |<span data-ttu-id="b8930-143">**2**</span><span class="sxs-lookup"><span data-stu-id="b8930-143">**2**</span></span> <br/> |
+   
+### <a name="to-create-location-policies"></a><span data-ttu-id="b8930-144">So erstellen Sie Standortrichtlinien</span><span class="sxs-lookup"><span data-stu-id="b8930-144">To create location policies</span></span>
+
+1. <span data-ttu-id="b8930-145">Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="b8930-145">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+    
+    > [!NOTE]
+    > <span data-ttu-id="b8930-146">Bei Ausführung von „CsLocationPolicy“ tritt ein Fehler auf, wenn sich die Einstellung für **PstnUsage** nicht bereits in der globalen Liste „PstnUsages“ befindet.</span><span class="sxs-lookup"><span data-stu-id="b8930-146">CsLocationPolicy will fail if the setting for **PstnUsage** is not already in the Global list of PstnUsages.</span></span>
+  
+2. <span data-ttu-id="b8930-147">Optional können Sie auch das folgende Cmdlet ausführen, um die globale Standortrichtlinie zu bearbeiten:</span><span class="sxs-lookup"><span data-stu-id="b8930-147">Optionally, run the following cmdlet to edit the global Location Policy:</span></span>
+    
+   ```
+   Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
+
+   ```
+
+3. <span data-ttu-id="b8930-148">Führen Sie folgendes Cmdlet aus, um eine bereichsspezifische Standortrichtlinie zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="b8930-148">Run the following to create a tagged Location Policy.</span></span>
+    
+   ```
+   New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
+
+   ```
+
+4. <span data-ttu-id="b8930-149">Führen Sie das folgende Cmdlet aus, um die in Schritt 3 erstellte bereichsspezifische Standortrichtlinie auf eine Benutzerrichtlinie anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="b8930-149">Run the following cmdlet to apply the tagged Location Policy created in step 3 to a user policy.</span></span>
+    
+   ```
+   (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
+   ```
+
+
