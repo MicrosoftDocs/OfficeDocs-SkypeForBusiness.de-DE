@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Summary: Learn about the Call Admission Control Reports used in Skype for Business Server 2015.'
+description: 'Zusammenfassung: Erfahren Sie mehr über die aufrufen Admission Control-Berichte in Skype für Business Server 2015 verwendet.'
 ms.openlocfilehash: 53c3767ad93b7faa4c7f9a7f33213dde21dd7ca5
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server-2015"></a>Bericht über Anrufsteuerung in Skype for Business Server 2015
  
-**Summary:** Learn about the Call Admission Control Reports used in Skype for Business Server 2015.
+**Zusammenfassung:** Lernen Sie die aufrufen Admission Control-Berichte in Skype für Business Server 2015 verwendet.
   
 Der Bericht über Anrufsteuerung bietet Informationen über Peer-to-Peer- und Konferenzsitzungen, die unter Beschränkungen durchgeführt wurden, die über die Anrufsteuerung eingeführt wurden. Die Anrufsteuerung bietet Administratoren eine Möglichkeit, Kommunikationssitzungen auf der Grundlage von Bandbreitenbeschränkungen zuzulassen (oder nicht zuzulassen). Beispielsweise kann ein Administrator Richtlinien erstellen, die die verfügbare Bandbreite für Sprach- und Videoanrufe beschränken. Sobald diese Bandbreitengrenze erreicht ist, können keine neuen Sprach- oder Videoanrufe mehr getätigt werden, bis einer der aktuellen Anrufe beendet worden ist und damit die erforderlichen Netzwerkressourcen freigegeben worden sind.
   
@@ -26,9 +26,9 @@ Der Bericht über Anrufsteuerung bietet Informationen über Peer-to-Peer- und Ko
 
 Auf den Bericht über Anrufsteuerung greifen Sie über die Startseite für Überwachungsberichte zu. Vom Bericht über Anrufsteuerung aus können Sie einen Drilldown zu einem der folgenden Berichte durchführen:
   
-- Conference Detail Report - To access this report, click the Details metric from a conference session. 
+- Konferenzdetailbericht – zum Öffnen dieses Berichts klicken Sie auf die Metrik Details für eine konferenzsitzung. 
     
-- Peer-to-Peer Session Detail Report - To access this report, click the Details metric for a peer-to-peer session.
+- Peer-zu-Peer-Sitzungsbericht - zum Öffnen dieses Berichts klicken Sie auf die Metrik Details für eine Peer-zu-Peer-Sitzung.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Optimales Nutzen des Berichts über Anrufsteuerung
 
@@ -44,7 +44,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Anrufsteuerungsbericht verwenden können.
   
-**Call Admission Control Report Filters**
+**Call Admission Control Berichtsfilter**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -58,9 +58,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Anrufsteuerun
 
 In der folgenden Tabelle sind die im Anrufsteuerungsbericht für Peer-to-Peer-Sitzungen (d. h. Sitzungen mit nur zwei Teilnehmern) enthaltenen Informationen aufgeführt.
   
-**Metrics for Peer-to-Peer Sessions**
+**Metriken für Peer-zu-Peer-Sitzungen**
 
-|**Name**|**Can you sort on this item?**|**Beschreibung**|
+|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Detail** <br/> |Nein  <br/> |Wenn Sie auf dieses Element klicken, zeigt der Bericht einen detaillierten Peer-to-Peer-Sitzungsbericht für die angegebene Sitzung an.  <br/> |
 |**Absenderbenutzer** <br/> |Ja  <br/> |SIP-Adresse des Benutzers, der die Sitzung initiiert hat.  <br/> |
@@ -75,9 +75,9 @@ In der folgenden Tabelle sind die im Anrufsteuerungsbericht für Peer-to-Peer-Si
 
 In der folgenden Tabelle sind die im Anrufsteuerungsbericht für Konferenzsitzungen (d. h. Sitzungen mit mindestens drei Teilnehmern) enthaltenen Informationen aufgeführt.
   
-**Metrics for Conferencing Sessions**
+**Metriken für Konferenzsitzungen**
 
-|**Name**|**Can you sort on this item?**|**Beschreibung**|
+|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Konferenz-URI** <br/> |Ja  <br/> |Eindeutige ID für die Konferenz. Wenn Sie auf dieses Element klicken, zeigt der Bericht die einzelnen Konferenzteilnehmer an.  <br/> |
 |**Organisator** <br/> |Ja  <br/> |SIP-Adresse des Benutzers, der die Sitzung organisiert hat.  <br/> |
@@ -89,9 +89,9 @@ In der folgenden Tabelle sind die im Anrufsteuerungsbericht für Konferenzsitzun
 
 In der folgenden Tabelle sind die im Anrufsteuerungsbericht für einzelne Konferenzteilnehmer enthaltenen Informationen aufgeführt.
   
-**Metrics for Individual Conference Participants**
+**Metriken für einzelne Konferenzteilnehmer**
 
-|**Name**|**Can you sort on this item?**|**Beschreibung**|
+|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Rolle** <br/> |Nein  <br/> |Rolle (z. B. Referent) des Konferenzteilnehmers.  <br/> |
 |**Teilnehmer** <br/> |Nein  <br/> |SIP-Adresse des Konferenzteilnehmers.  <br/> |
