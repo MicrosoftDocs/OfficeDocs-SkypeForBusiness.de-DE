@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: "Hierbei handelt es sich um Inhalte, die veröffentlicht werden muss, um Eingabehilfen Compliance erfüllen und rechtliche Vorschriften für Skype für Business Online in Frankreich. "
-ms.openlocfilehash: 65f2fd1ce748c80bcb6a448ea0d12e8099051078
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: e7898502544b9a72be42f29751356c09d08d9e7d
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="accessibility-declaration-of-conformance-for-skype-for-business-online-in-france"></a>Eingabehilfen-Deklaration der Übereinstimmung für Skype for Business in Frankreich Online
 
@@ -221,5 +221,3 @@ LE Présent Dokument est Fourni À Titer Indicatif. MICROSOFT NE FOURNIT AUCUNE 
 ## <a name="related-topics"></a>See Also
 [Barrierefreiheitslösungen für Skype for Business Online in Frankreich](accessibility-solutions-in-france.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

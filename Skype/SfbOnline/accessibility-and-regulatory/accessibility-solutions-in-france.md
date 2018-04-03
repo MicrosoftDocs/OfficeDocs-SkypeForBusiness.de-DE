@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: "Gemeinschaft à ses Utilisateurs des expériences Accessibles est au Cœur De La geschäftskritischen Que s'est Fixée Microsoft: Permettre À Chaque Personne et À Chaque Organisation De La Planète d'accomplir Davantage Quelles Que Ausrichtungsstiften aus ses berufsspezifischen. Microsoft eine le Plaisir de-Gemeinschaft Avec Skype Entreprise, heben bestimmte Nombre de Lösungen d 'Accessibilité Qui s'inscrivent Dans Son Engagements Fort gefüllt l' Accessibilité et l'inclusion Numérique."
-ms.openlocfilehash: 45cc85ba3cca82a2f7064da0718dc56d0cc88df5
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 723746dcc61335f3eb0b655b51d177e804ab4166
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-in-france"></a>Eingabehilfen-Lösungen für Skype für Business Online in Frankreich
 
@@ -73,5 +73,3 @@ Gießen Aider ses Clients À Évaluer l'Accessibilité de Skype Entreprise, Micr
 ## <a name="related-topics"></a>See Also
 [Konformitätserklärung zur Barrierefreiheit von Skype for Business Online in Frankreich](accessibility-declaration-of-conformance-in-france.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
