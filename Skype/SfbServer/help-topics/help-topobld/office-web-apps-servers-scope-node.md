@@ -11,7 +11,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: You right click Office Web Apps Servers and select New Office Web Apps Server to open the Office Online wizard.
+description: Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server, und wählen Sie Neuer Office Web Apps Server zum Öffnen des Assistenten für die Office Online.
 ms.openlocfilehash: 796ddee08de9410fe68ae412f177c88f7cd488c4
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -32,5 +32,5 @@ Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server**, und wähle
 
 #### 
 
-[Configuring Integration with Office Web Apps Server and Lync Server 2013](http://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013](http://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
 

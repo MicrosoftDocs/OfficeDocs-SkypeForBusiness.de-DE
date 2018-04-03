@@ -1,5 +1,5 @@
 ---
-title: Prepare Single Standard Edition Server (Invoke)
+title: Vorbereiten der einzelnen Standard Edition-Servers (Aufruf)
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,18 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
-description: On the Executing commands page, the tasks of installing the SQL Server Express and configuring to act as the Central Management store can be viewed in the task pane. By default, an instance of a SQL Server-based database named RTC is created. Firewall rules are also created to allow inbound and outbound access for servers and clients to communicate with the database and instance. After the task is completed, you can select the log file from the drop-down list. The log file is named Bootstrap local machine. After selecting the log file, click View Log. Review the log file for any errors and warnings. When you are ready to proceed, click Finish. You should now define your topology with Topology Builder if you have not already done so.
+description: Klicken Sie auf der Seite Befehle ausführen können die Aufgaben von SQL Server Express installieren und Konfigurieren von um als dem zentralen Verwaltungsspeicher fungieren im Aufgabenbereich angezeigt werden. Standardmäßig wird eine Instanz einer SQL Server-basierten ist RTC-Datenbank erstellt. Firewall-Regeln werden auch erstellt, um eingehende und ausgehende Zugriff für Server und Clients zur Kommunikation mit der Datenbank und eine Instanz zulässig. Nachdem der Vorgang abgeschlossen ist, können Sie die Protokolldatei aus der Dropdown-Liste auswählen. Die Protokolldatei heißt Bootstrap lokalen Computer. Klicken Sie nachdem Sie die Protokolldatei ausgewählt haben auf Protokoll anzeigen. Überprüfen Sie die Protokolldatei für alle Fehler und Warnungen. Wenn Sie zum Fortfahren bereit sind, klicken Sie auf Fertig stellen. Wenn Sie nicht bereits getan haben, sollten Sie jetzt Ihre Topologie mit Topology Builder definieren.
 ms.openlocfilehash: d900c383d0f434176ff18b3f310c41042df75b2e
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---
-# <a name="prepare-single-standard-edition-server-invoke"></a>Prepare Single Standard Edition Server (Invoke)
+# <a name="prepare-single-standard-edition-server-invoke"></a>Vorbereiten der einzelnen Standard Edition-Servers (Aufruf)
  
-On the **Executing commands** page, the tasks of installing the SQL Server Express and configuring to act as the Central Management store can be viewed in the task pane. By default, an instance of a SQL Server-based database named RTC is created. Firewall rules are also created to allow inbound and outbound access for servers and clients to communicate with the database and instance. After the task is completed, you can select the log file from the drop-down list. The log file is named **Bootstrap local machine**. After selecting the log file, click **View Log**. Review the log file for any errors and warnings. When you are ready to proceed, click **Finish.** You should now define your topology with Topology Builder if you have not already done so.
+Auf der Seite **Befehle ausführen** können die Aufgaben von SQL Server Express installieren und Konfigurieren von um als dem zentralen Verwaltungsspeicher fungieren im Aufgabenbereich angezeigt werden. Standardmäßig wird eine Instanz einer SQL Server-basierten ist RTC-Datenbank erstellt. Firewall-Regeln werden auch erstellt, um eingehende und ausgehende Zugriff für Server und Clients zur Kommunikation mit der Datenbank und eine Instanz zulässig. Nachdem der Vorgang abgeschlossen ist, können Sie die Protokolldatei aus der Dropdown-Liste auswählen. Die Protokolldatei heißt **Bootstrap lokalen Computer**. Klicken Sie nachdem Sie die Protokolldatei ausgewählt haben auf **Protokoll anzeigen**. Überprüfen Sie die Protokolldatei für alle Fehler und Warnungen. Wenn Sie zum Fortfahren bereit sind, klicken Sie auf **Fertig stellen.** Wenn Sie nicht bereits getan haben, sollten Sie jetzt Ihre Topologie mit Topology Builder definieren.
   
 > [!IMPORTANT]
-> The installation of the SQL Server Express can take some time to complete. During the installation, there is no progress visible on the screen or the task pane. To monitor the installation, you should use Windows Task Manager and look for the MSIExec processes and the Setup files for SQL Server. In this way, you can view the status of the install and be sure that the install is proceeding. Depending on factors beyond the scope of this help topic, it can take up to 15 minutes or more for the install the SQL Server instance to complete. 
+> Die Installation von SQL Server Express kann einige Zeit in Anspruch nehmen. Während der Installation ist kein Fortschritt auf dem Bildschirm oder im Aufgabenbereich angezeigt. Um die Installation zu überwachen, sollten Sie Windows Task-Manager verwenden und suchen Sie nach der MSIExec-Prozesse und die Installationsdateien für SQL Server. Auf diese Weise können Sie den Status der Installation anzeigen und achten Sie darauf, dass die Installation fortfahren ist. Je nach Faktoren Gegenstand dieses Hilfethema kann es bis zu 15 Minuten dauern oder mehr für die Installation der SQL Server-Instanz um abzuschließen. 
   
 

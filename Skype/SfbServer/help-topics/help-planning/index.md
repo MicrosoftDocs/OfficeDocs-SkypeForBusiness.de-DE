@@ -1,6 +1,6 @@
 ---
 redirect_url: help-planning
-redirect_document_id: ''
+redirect_document_id: true
 ms.openlocfilehash: 98354dbb2278ffbd67ff0add0b898312301b82f3
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT

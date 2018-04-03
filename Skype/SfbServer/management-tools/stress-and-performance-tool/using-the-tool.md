@@ -1,5 +1,5 @@
 ---
-title: Using the Skype for Business Server 2015 Stress and Performance Tool
+title: Verwenden die Skype für Business Server 2015 Stress and Performance-Tool
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/13/2018
@@ -9,112 +9,112 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
+description: Um die Skype für Business Server 2015 Stress and Performance-Tool auszuführen, müssen Sie Benutzer, Kontakte und Benutzerprofile verwalten können konfigurieren das Tool zum Ausführen, und überprüfen Sie die Ausgabe oder Ergebnisse, die von dem Tool erstellt werden.
 ms.openlocfilehash: 5f73ef6733c2f09cdf3e06bc8a6495c743d8b423
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---
-# <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Using the Skype for Business Server 2015 Stress and Performance Tool
+# <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Verwenden die Skype für Business Server 2015 Stress and Performance-Tool
  
-To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
+Um die Skype für Business Server 2015 Stress and Performance-Tool auszuführen, müssen Sie Benutzer, Kontakte und Benutzerprofile verwalten können konfigurieren das Tool zum Ausführen, und überprüfen Sie die Ausgabe oder Ergebnisse, die von dem Tool erstellt werden.
   
-There are four areas involved with running the Skype for Business Server 2015 Stress and Performance Tool (the executable is LyncPerfTool.exe):
+Es gibt vier Aspekte bei der Skype für Business Server 2015 Stress and Performance-Tool (die ausführbare Datei ist LyncPerfTool.exe) ausgeführt:
   
-- [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts)
+- [Erstellen von Benutzern und Kontakten](using-the-tool.md#BKMK_CreateUsersAndContacts)
     
-- [Configure User Profile](using-the-tool.md#BKMK_UserProfile)
+- [Konfigurieren des Benutzerprofils](using-the-tool.md#BKMK_UserProfile)
     
-- [Run LyncPerfTool](using-the-tool.md#BKMK_RunTool)
+- [Führen Sie LyncPerfTool](using-the-tool.md#BKMK_RunTool)
     
-- [Interpreting the Results](using-the-tool.md#BKMK_Interpret)
+- [Ergebnisse interpretieren](using-the-tool.md#BKMK_Interpret)
     
-## <a name="create-users-and-contacts"></a>Create Users and Contacts
+## <a name="create-users-and-contacts"></a>Erstellen von Benutzern und Kontakten
 <a name="BKMK_CreateUsersAndContacts"> </a>
 
-You need to use the Skype for Business Server 2015 (SB 2015) User Provisioning Tool (UserProvisioningTool.exe) to create users and contacts for your stress and performance testing.
+Sie müssen die Skype für Business Server 2015 (SB 2015) Benutzer Provisioning Tool (UserProvisioningTool.exe) verwenden, um Benutzer und Kontakte für belastungs- und Leistungstests zu erstellen.
   
-This is a list of helpful terms that might be useful as you read through the topics:
+Dies ist eine Liste der hilfreich Begriffe, die hilfreich sein können, wie Sie in den Themen lesen:
   
-- **Organizational Unit** - The Active Directory Domain Services (AD DS) organizational unit (OU).
+- **Organisationseinheit** - der Active Directory-Domänendienste (AD DS)-Organisationseinheit (OU).
     
-- **Federated / Cross Pool** - Users who can communicate with users from other Instant Messaging (IM) services.
+- **Federated / schneidet Pool** - Benutzer, die mit Benutzern von anderen Instant Messaging (IM)-Diensten kommunizieren können.
     
-- **Distribution Lists** - Or DLs. These are objects in AD DS that contain a list of AD DS users. They're used to facilitate communications across groups of people.
+- **Verteilerlisten** - oder Verteilerlisten. Dies sind Objekte in AD DS, das eine Liste von AD DS-Benutzer enthalten. Sie sind verwendet, um Kommunikation zwischen Gruppen von Personen zu vereinfachen.
     
-- **Location Info Service** - The Skype for Business Server 2015 service that, when it's enabled and configured per phone, allows for the retrieval of physical location for Enhanced 911 (E911) services.
+- **Info Ortungsdienstes** - der Skype für Business Server 2015-Dienst, der, wenn es aktiviert und pro Telefon konfiguriert wurde für das Abrufen von physischen Standort für Dienste Enhanced 911 (E911) ermöglicht.
     
-- **U.S. Phone Numbers** - Phone numbers assigned to user in addition to the SIP URI that's used for routing inbound and outbound calls in Reverse Number Lookup (RNL).
+- **US-Rufnummern** - Telefonnummern, Benutzer zusätzlich zu den SIP-URI, die eingehende und ausgehende Anrufe in umgekehrte Anzahl Lookup (RNL) verwendet wird.
     
-### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Create Users and Contacts by using UserProvisioningTool.exe
+### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Erstellen von Benutzern und Kontakten mithilfe von UserProvisioningTool.exe
 
 > [!NOTE]
-> Before you even begin, be absolutely sure you're logged in as a member of the Domain Admins security group to run this tool. You need to do this, because you're going to be creating Active Directory users. 
+> Bevor Sie sogar beginnen, werden Sie absolut sicher, dass Sie als Mitglied der Sicherheitsgruppe "Domänen-Admins" zum Ausführen des Tools angemeldet sind. Sie müssen dazu, da die Active Directory-Benutzer erstellt werden soll. 
   
-You have to use the Skype for Business Server User Provisioning Tool to create users and contacts for load simulation.
+Sie müssen die Skype für Business Server User Provisioning Tool zum Erstellen von Benutzern und Kontakten für Load Simulation verwenden.
   
-The **Skype for Business Server User Provisioning Tool** is installed with the **Skype for Business Server Stress and Performance Tool** package. Be sure that the package installer (CapacityPlanningTool.msi) has been run on the Front End Server or the Standard Edition server you intend to test.
+Die **Skype für Business Server User Provisioning Tool** ist mit dem Paket **Skype für Business Server Stress and Performance-Tool** installiert. Stellen Sie sicher, dass der Paket-Installer (CapacityPlanningTool.msi) ausgeführt wurde, auf dem Front-End-Server oder Standard Edition-Servers, den Sie testen möchten.
   
-You can start the Skype for Business Server User Provisioning Tool by running the file UserProvisioningTool.exe (located at %InstalledDirectory%LyncStressAndPerfTool\LyncStress) on the Front End Server or on the Standard Edition server.
+Sie können die Skype für Business Server User Provisioning Tool starten, durch Ausführen der Datei UserProvisioningTool.exe (befindet sich unter % InstalledDirectory%LyncStressAndPerfTool\LyncStress) auf dem Front-End-Server oder auf dem Standard Edition-Server.
   
 > [!IMPORTANT]
-> When you create a large number of users (for example, 10,000 or more), run the UserProvisioningTool.exe. You'll need to do this because the tool will be creating and configuring  *new*  AD users.
+> Wenn Sie eine große Anzahl von Benutzern (beispielsweise 10.000 oder mehr) erstellen, führen Sie die UserProvisioningTool.exe. Sie müssen dazu, da das Tool erstellen und Konfigurieren von Benutzern *neue* AD werden.
   
-When the User Provisioning Tool opens, click Configuration and select the Load Configuration. 
+Wenn der Benutzer Provisioning Tool geöffnet wird, klicken Sie auf Konfiguration, und wählen Sie die Konfiguration des. 
   
-To begin configuring users and contacts, load the default file included with the package, called "SampleData.xml". This will prepopulate fields with sample data that you'll need to change to make it relevant for your deployment.
+Zum Konfigurieren von Benutzern und Kontakten beginnen, laden Sie die Standarddatei mit dem Paket, mit dem Namen "SampleData.xml" enthalten. Dadurch werden Felder mit Beispieldaten vorab auszufüllen, die Sie benötigen, sodass sie für Ihre Bereitstellung relevant ändern.
   
-If you have a preconfigured XML file that already contains your customized settings, you can load that file instead. Fill in the fields in the User Provisioning Tool, as described in the sections below.
+Wenn Sie eine vorkonfigurierte XML-Datei, die bereits Ihre benutzerdefinierten Einstellungen enthält verfügen, können Sie stattdessen diese Datei laden. Füllen Sie die Felder im Benutzer Provisioning-Tool aus, wie in den nachfolgenden Abschnitten beschrieben.
   
-### <a name="to-configure-server-options"></a>To configure server options:
+### <a name="to-configure-server-options"></a>So konfigurieren Sie Serveroptionen
 
-1. In the **Front End Pool FQDN** field, type the fully qualified domain name (FQDN) of the Standard Edition server, or the Front End pool where you want to host the users.
+1. Geben Sie im Feld **Front-End-Pool-FQDN** den vollqualifizierten Domänennamen (FQDN) des Standard Edition-Server oder den Front-End-Pool, in dem der Benutzer gehostet werden soll.
     
-2. In the **User Name Prefix** field, type a prefix that you want to use to bust your user names for testing purposes (such as "TestUser").
+2. Geben Sie im Feld **Benutzernamenpräfix** ein Präfix, das Sie verwenden, um Ihre Benutzernamen zu Testzwecken (beispielsweise "Testbenutzer") bust möchten.
     
-3. In the **Password** field, type a password that will be used across all the test user accounts.
+3. Geben Sie im Feld **Kennwort** ein Kennwort, die über die Test-Benutzerkonten verwendet werden.
     
-4. In the **Account Domain** field, type the domain name of your current AD domain (the one in which you want to create your test users).
+4. Geben Sie im Feld **Kontodomäne** den Domänennamen Ihrer aktuellen AD-Domäne (demjenigen, der in dem Sie Ihre Testbenutzer erstellen möchten).
     
-5. In the **Organizational Unit** field, type the name of the AD domain where you want to create these test users. (If the OU doesn't already exist, it'll be created for you).
+5. Geben Sie im Feld **Organisationseinheit** den Namen der AD-Domäne, in dem Sie erstellen möchten, diese Benutzer testen. (Wenn die Organisationseinheit nicht bereits vorhanden ist, wird es für Sie erstellt werden).
     
-6. In the **Phone Area Code** field, type the three-digit area code to be used across all test user accounts. Make certain that the area code you chose doesn't conflict with other users' area codes in AD.
+6. Geben Sie im Feld **Vorwahl** den dreistelligen Bereich Code über alle Testbenutzerkonten verwendet werden. Stellen Sie sicher, dass die Ortskennzahl nicht ausgewählte Element in Konflikt mit Ortskennzahlen anderer Benutzer in AD.
     
-7. Click to select the **Voice Enabled** check box, if you want to enable the test users for Enterprise Voice.
+7. Aktivieren Sie das Kontrollkästchen **Voice aktiviert** , wenn Sie die Testbenutzern für Enterprise-VoIP aktivieren möchten.
     
-8. In the **Number of Users** field, give the total number of test users you want to create.
+8. Geben Sie im Feld **Anzahl der Benutzer** die Gesamtzahl der Testbenutzer, den, die Sie erstellen möchten.
     
-9. In the **Start Index** field, give the starting number that'll be used as a suffix to the user name prefix (for example, the prefix is "TestUser", and the first name will end in "0" in the example below.)
+9. Geben Sie im Feld **Start Index** die Startnummer, die als Suffix Präfix der Benutzer verwendet werden kann (beispielsweise das Präfix ist "Testbenutzer" und "0" im folgenden Beispiel wird der erste Name enden.)
     
      ![Benutzerbereitstellungstool mit der Registerkarte für die Erstellung von Benutzern](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
   
 #### <a name="create-users-button"></a>Schaltfläche für Benutzer erstellen
 
-When you click on the **Create Users** button, the input parameters you've entered are validated. If there are any validation errors, you'll be prompted to fix them. Or, if all the values are correct, users will start appearing in AD (in whichever OU you specified). You'll see a progress bar at the bottom of the tool as it runs. Don't close the application while the progress bar is active.
+Wenn Sie auf die Schaltfläche **Erstellen Benutzer** klicken, werden die von Ihnen eingegebene Eingabeparameter überprüft. Wenn Validierungsfehler vorhanden sind, werden Sie aufgefordert, sie zu beheben. Oder, wenn alle Werte korrekt sind, Benutzer werden gestartet angezeigt wird in Active Directory (in günstigsten Sie angegeben haben, OU). Während der Ausführung, sehen Sie eine Statusanzeige am unteren Rand des Tools. Schließen Sie die Anwendung nicht, während die Statusanzeige aktiv ist.
   
-User creation takes time, so please plan accordingly. This process can take anywhere from several minutes for a few users, to a few hours for a large number of users.
+Die Erstellung des Benutzers dauert, also bitte entsprechend planen. Dieser Prozess kann einige Stunden für eine große Anzahl von Benutzern an einer beliebigen Stelle in einige Minuten für einige Benutzer nutzen.
   
-If you don't have access to the AD Domain Controller in your test environment, you can still validate user creation by logging in as one of the users in the range of users you specified to create. Remember to use the prefix, and the suffix, along with the @sipDomain as the username. Here is an example:  *TestUser20@contoso.net*  .
+Wenn Sie keinen Zugriff auf die Active Directory-Domänencontroller in Ihrer testumgebung haben, können Sie die Erstellung des Benutzers immer noch durch Anmelden als einer der Benutzer im Bereich von Benutzern erstellen, um die eingegebenen überprüfen. Denken Sie daran, das Präfix und das Suffix wird zusammen mit der @sipDomain als Benutzernamen verwenden. Es folgt ein Beispiel: *TestUser20@contoso.net* .
   
 > [!NOTE]
-> If the users already exist, clicking the Create Users button will update them with any configuration changes. 
+> Wenn die Benutzer bereits vorhanden ist, wird durch Klicken auf die Schaltfläche Benutzer erstellen diese mit konfigurationsänderungen aktualisiert. 
   
-#### <a name="delete-users-button"></a>Delete Users button
+#### <a name="delete-users-button"></a>Benutzer-Schaltfläche "löschen"
 
-When you click on the **Delete Users** button, the tab's input parameters will be validated. If there are validation errors, you'll be prompted to fix them, and if the input values are correct, the specified test users will be disabled and deleted from Active Directory. Again, a progress bar will appear on the bottom of this tab, and you shouldn't close the application while the progress bar is active.
+Wenn Sie auf die Schaltfläche **Benutzer löschen** klicken, werden die Registerkarte Eingabeparameter überprüft werden. Wenn Validierungsfehler vorliegen, werden Sie aufgefordert, sie zu beheben, und wenn die Eingabewerte korrekt sind, die angegebene Testbenutzer werden deaktiviert und aus Active Directory gelöscht. Erneut, eine Statusanzeige wird am unteren Rand auf dieser Registerkarte angezeigt, und sollte nicht schließen Sie die Anwendung, während die Statusanzeige aktiv ist.
   
 > [!NOTE]
-> Only U.S.-formatted phone numbers are supported. Rufnummern werden immer, die Benutzern zugewiesen, und alle Benutzer, UserProvisioningTool.exe erstellt für Enterprise-VoIP standardmäßig aktiviert sind. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason,  *every user*  must have a *unique phone number*  .
+> Nur US-formatierte Telefonnummern werden unterstützt. Rufnummern werden immer, die Benutzern zugewiesen, und alle Benutzer, UserProvisioningTool.exe erstellt für Enterprise-VoIP standardmäßig aktiviert sind. Alle Szenarien, die die Telefonnummer ein, wie die automatische Konferenzzentrale oder UC-zu-PSTN-Anrufe verwenden diese Telefonnummer ordnungsgemäß Anrufe weitergeleitet. Aus diesem Grund muss *jedem Benutzer* eine *eindeutige Telefonnummer* verfügen.
   
 > [!NOTE]
-> **If you have to create users twice, the command will fail unless you use a different area code, or if the previous users have been disabled by using the Disable-CsUser cmdlet.**
+> **Wenn Sie zum Erstellen von Benutzern zweimal verfügen, wird der Befehl, wenn Sie einen anderen Bereich Code verwenden, oder wenn die vorherigen Benutzer mit dem Cmdlet Disable-CsUser deaktiviert wurden fehl.**
   
 > [!IMPORTANT]
-> Before you create contacts, you first need to complete user replication (which is done from the Users tab). 
+> Bevor Sie Kontakte erstellen, müssen Sie zuerst Benutzerreplikation ausführen (die von der Registerkarte Benutzer erfolgt). 
   
 > [!IMPORTANT]
-> If you've just created your users, you'll need to wait until Skype for Business Server replication completes and populates the user accounts in the database. **If the users haven't finished replicating, you'll see an error.** You'll know when users have finished replicating if the Skype for Business Server 2015 Front End service has started, or by successfully running the Get-CsUser cmdlet on the last user of the total number you specified.
+> Wenn Sie Ihre Benutzer gerade erstellt haben, müssen Sie warten, bis Skype für Business Server-Replikation abgeschlossen ist, und die Benutzerkonten in der Datenbank füllt. **Wenn die Benutzer Replikation abgeschlossen ist, sehen Sie einen Fehler.** Sie wissen, wenn Benutzer haben replizieren, wenn die Skype für Business Server 2015 Front-End-Dienst gestartet wurde, oder durch Ausführen erfolgreich mit dem Cmdlet Get-CsUser auf den letzten Benutzer über die Gesamtzahl an, den, die Sie angegeben haben.
   
 #### <a name="contacts-creation-tab"></a>Erstellen der Registerkarte Kontakte
 
@@ -124,15 +124,15 @@ Auf dieser Registerkarte können Sie Details zu den Kontakten der Benutzer für 
   
 ### <a name="to-configure-users-contacts-do-the-following"></a>Zum Konfigurieren der Kontakte der Benutzer folgendermaßen Sie vor:
 
-1. In the **Average Contacts per User** field, enter the average number of contacts to populate in contact lists for each user.
+1. Geben Sie im Feld **Durchschnittliche Kontakten pro Benutzer** die durchschnittliche Anzahl von Kontakten in Kontaktlisten für jeden Benutzer aufgefüllt.
     
 2. Aktivieren Sie das Kontrollkästchen **feste** , wenn Sie die gleiche Anzahl von Kontakten für jeden Benutzer erstellen möchten. Wenn Sie die Anzahl von Kontakten für Benutzer erstellt variieren möchten, deaktivieren Sie das Kontrollkästchen.
     
-3. Geben Sie im Feld **Durchschnittliche Kontaktgruppen pro Benutzer** die Anzahl der Kontaktgruppen pro Benutzer. This number needs to be smaller than **Average Contacts per User**.
+3. Geben Sie im Feld **Durchschnittliche Kontaktgruppen pro Benutzer** die Anzahl der Kontaktgruppen pro Benutzer. Diese Nummer muss kleiner als **Durchschnittliche Kontakten pro Benutzer**sein.
     
-4. In the **Federated / Cross Pool Contacts Percentage** field, give a number between 0 and 100. Dieser Prozentsatz der Kontakte werden die Verbundbenutzer erstellt.
+4. Geben Sie im Feld **Federated / Pool Kontakte Prozentsatz schneidet** eine Zahl zwischen 0 und 100. Dieser Prozentsatz der Kontakte werden die Verbundbenutzer erstellt.
     
-5. In the **Federated / Cross Pool User Prefix** field, give the username for federated users that will be added to the contact lists of local users.
+5. Geben Sie im Feld **Federated / Pool Benutzerpräfix schneidet** den Benutzernamen für Verbundbenutzer, die Kontaktlisten der lokalen Benutzer hinzugefügt werden soll.
     
 6. Geben Sie im Feld **Federated / schneidet Pool Benutzer-SIP-Domäne** den SIP-Domänennamen des die Verbundbenutzer.
     

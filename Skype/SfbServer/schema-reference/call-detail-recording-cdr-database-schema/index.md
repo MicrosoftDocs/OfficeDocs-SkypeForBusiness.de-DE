@@ -1,6 +1,6 @@
 ---
 redirect_url: call-detail-recording-cdr-database-schema
-redirect_document_id: ''
+redirect_document_id: true
 ms.openlocfilehash: 7e8509100400b568ee5ddda89c4819a55a62e404
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT

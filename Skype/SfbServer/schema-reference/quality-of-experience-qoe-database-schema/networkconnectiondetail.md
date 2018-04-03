@@ -1,5 +1,5 @@
 ---
-title: NetworkConnectionDetail table
+title: NetworkConnectionDetail-Tabelle
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +9,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
-description: The NetworkConnectionDetail table maps network connection types to the network connection identifiers used elsewhere in the Quality of Experience database. This table was introduced in Microsoft Lync Server 2013.
+description: NetworkConnectionDetail-Tabelle ordnet Netzwerkverbindungstypen den Netzwerk Verbindung-IDs, die anderswo in der Quality of Experience-Datenbank verwendet. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
 ms.openlocfilehash: cc1eb91d3c633ed9455a0476b613430dfa8e3d6b
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---
-# <a name="networkconnectiondetail-table"></a>NetworkConnectionDetail table
+# <a name="networkconnectiondetail-table"></a>NetworkConnectionDetail-Tabelle
  
-The NetworkConnectionDetail table maps network connection types to the network connection identifiers used elsewhere in the Quality of Experience database. This table was introduced in Microsoft Lync Server 2013.
+NetworkConnectionDetail-Tabelle ordnet Netzwerkverbindungstypen den Netzwerk Verbindung-IDs, die anderswo in der Quality of Experience-Datenbank verwendet. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
   
-|**Column**|**Data Type**|**Key/Index**|**Details**|
+|**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**NetworkConnectionDetailKey** <br/> |tinyint  <br/> |Primary  <br/> |Unique identifier for the network connection type.  <br/> |
-|**NetworkConnectionDetail** <br/> |varchar(256)  <br/> |Unique  <br/> |Network connection type that corresponds to the NetworkConnectionDetailKey. Zulässige Werte:  <br/> 0 -- Wired  <br/> 1 -- WiFi  <br/> 2 -- Ethernet  <br/> 3 -- MobileBB  <br/> 4 -- Other  <br/> 5 -- Tunnel  <br/> |
+|**NetworkConnectionDetailKey** <br/> |tinyint  <br/> |Primary  <br/> |Eindeutiger Bezeichner für den Netzwerkverbindungstyp.  <br/> |
+|**NetworkConnectionDetail** <br/> |varchar(256)-Wert  <br/> |Eindeutige  <br/> |Typ der Netzwerkverbindung, die die NetworkConnectionDetailKey entspricht. Zulässige Werte:  <br/> 0 – verkabelt  <br/> 1--WiFi  <br/> 2--Ethernet  <br/> 3 – MobileBB  <br/> 4 – andere  <br/> 5 – tunnel  <br/> |
    
 
