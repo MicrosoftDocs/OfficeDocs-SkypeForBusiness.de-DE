@@ -1,5 +1,5 @@
 ---
-title: "Gebührenfreie Rufnummer einwählen Einschränkungen in Honduras."
+title: Toll-free dialing restrictions in Honduras
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,21 +19,21 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer."
-ms.openlocfilehash: 9d72d459dc78bd2629fc933e8239419e79f8d4a0
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number.
+ms.openlocfilehash: e8ded971205c4d373bd6ac62dfbce59220f6be86
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-honduras"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Honduras.
+# <a name="toll-free-dialing-restrictions-in-honduras"></a>Toll-free dialing restrictions in Honduras
 
-[Suchen Sie nach einem anderen Land oder Region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über die gebührenfreie Nummer Grenzen und Einschränkungen.
+[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
 
 |**Details**|**Beschreibung**|
 |:-----|:-----|
-|Ist gebührenfreie aufrufen verfügbar?  <br/> |Ja  <br/> |
+|Is toll-free calling available?  <br/> |Ja  <br/> |
 |Wählformate  <br/> |800 XXXX XXXX  <br/> |
 |ISO-Code des Lands/der Region  <br/> |HN  <br/> |
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
@@ -44,9 +44,9 @@ ms.lasthandoff: 02/27/2018
    
 ## <a name="related-topics"></a>See Also
 
-[Gebührenfreie Rufnummer einwählen einschränken](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+[Toll-free dialing limitations and restrictions](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

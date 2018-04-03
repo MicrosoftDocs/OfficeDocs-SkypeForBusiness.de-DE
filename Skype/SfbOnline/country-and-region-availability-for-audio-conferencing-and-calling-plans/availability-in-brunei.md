@@ -1,5 +1,5 @@
 ---
-title: "Verfügbarkeit in Brunei"
+title: Verfügbarkeit in Brunei
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Brunei verfügbar."
-ms.openlocfilehash: eec2edad282d4bcc34a40b2c669a5c97a10859ee
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Brunei verfügbar.
+ms.openlocfilehash: 0a375722169ea38a4a027a1a84284f583d0791dc
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-brunei"></a>Verfügbarkeit in Brunei
 
@@ -82,6 +82,3 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

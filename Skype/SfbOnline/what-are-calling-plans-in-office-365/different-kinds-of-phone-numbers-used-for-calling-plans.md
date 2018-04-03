@@ -1,5 +1,5 @@
 ---
-title: "Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet"
+title: Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Skype für Business Online verwendet die Typen der verschiedenen Telefon Nummer je nach den Zweck die Telefonnummer verwendet werden soll."
-ms.openlocfilehash: 82cf5b69ae61559b4cf5fa973ed2e0a5220f1ff1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Skype für Business Online verwendet die Typen der verschiedenen Telefon Nummer je nach den Zweck die Telefonnummer verwendet werden soll.
+ms.openlocfilehash: 8cbb68639b5fda89cb93604985880b1934819af8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet
 
@@ -65,4 +67,5 @@ Skype für Business Online verwendet die Typen der verschiedenen Telefon Nummer 
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+  
+ 

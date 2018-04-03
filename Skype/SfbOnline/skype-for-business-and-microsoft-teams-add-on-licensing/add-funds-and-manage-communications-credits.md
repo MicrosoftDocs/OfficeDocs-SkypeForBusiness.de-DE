@@ -1,5 +1,5 @@
 ---
-title: "Kapital hinzufügen und Verwalten von Communications haben"
+title: Kapital hinzufügen und Verwalten von Communications haben
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Erfahren Sie, wie Bezahlung für Kommunikation haben (PSTN Verbrauch) Skype für BusinessServices und finden Sie unter Pläne, die Benutzer mit Zugriff auf das System kontinuierliche Telefon zu halten. "
-ms.openlocfilehash: a97b0d3b47e8062ae47def379b22dd73c7909700
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Erfahren Sie, wie Bezahlung für Kommunikation haben (PSTN Verbrauch) Skype für BusinessServices und finden Sie unter Pläne, die Benutzer mit Zugriff auf das System kontinuierliche Telefon zu halten. '
+ms.openlocfilehash: c9eb2cb23b4d7be58970a28c928d7c839c30db4b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Kapital hinzufügen und Verwalten von Communications haben
 
@@ -82,10 +84,11 @@ Eine Tabelle mit den Lizenzen für die jeweilige Funktion finden Sie unter [Add-
 
 - [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Einrichten von Voicemail für Telefonsysteme - Administratorhilfe](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Einrichten von Aufrufen plant](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) und [Aufrufen Pläne für Office 365](calling-plans-for-office-365.md)
         
 - [Konfigurieren Sie den Connector Cloud](https://technet.microsoft.com/en-us/library/mt605228.aspx) , und [Laden Sie den Cloud-Connector](https://aka.ms/CloudConnectorInstaller)
+
+  
+ 

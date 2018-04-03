@@ -1,5 +1,5 @@
 ---
-title: "Eingabehilfen-Lösungen in Frankreich"
+title: Eingabehilfen-Lösungen in Frankreich
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: "Gemeinschaft à ses Utilisateurs des expériences Accessibles est au Cœur De La geschäftskritischen Que s'est Fixée Microsoft: Permettre À Chaque Personne et À Chaque Organisation De La Planète d'accomplir Davantage Quelles Que Ausrichtungsstiften aus ses berufsspezifischen. Microsoft eine le Plaisir de-Gemeinschaft Avec Skype Entreprise, heben bestimmte Nombre de Lösungen d 'Accessibilité Qui s'inscrivent Dans Son Engagements Fort gefüllt l' Accessibilité et l'inclusion Numérique."
 ms.openlocfilehash: 723746dcc61335f3eb0b655b51d177e804ab4166
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-in-france"></a>Eingabehilfen-Lösungen für Skype für Business Online in Frankreich
 

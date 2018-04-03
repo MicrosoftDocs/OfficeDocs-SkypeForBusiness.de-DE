@@ -1,5 +1,5 @@
 ---
-title: "Übersicht über Portierungsaufträge"
+title: Übersicht über Portierungsaufträge
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderOverview
 ms.custom:
 - Calling Plans
-description: "Hier erhalten Sie einen kurzen Überblick über das Übertragen von Telefonnummern eines Dienstanbieters an Skype for Business. "
-ms.openlocfilehash: 6006f03b8780ba499240f2f3c816dda71d457e1c
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Hier erhalten Sie einen kurzen Überblick über das Übertragen von Telefonnummern eines Dienstanbieters an Skype for Business. '
+ms.openlocfilehash: 503c160e11eaab62b815f0f66a13a30546f6dfd6
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="port-order-overview"></a>Übersicht über Portierungsaufträge
 
@@ -49,5 +49,5 @@ Nach der Portierung Ihrer Telefonnummern zu Skype for Business Online in Office�
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

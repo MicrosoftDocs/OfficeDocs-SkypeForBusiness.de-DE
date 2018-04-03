@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: "Informationen Sie zum Einrichten Ihrer Domäne, Benutzer Sofortnachrichten und Anwesenheitsinformationen für Ihre Organisation Skype für Unternehmen zu installieren. Außerdem finden Sie unter Audiokonferenzen Telefonsystem und plant aufrufen und Skype Besprechung Übertragung einrichten. "
-ms.openlocfilehash: 122ff43fd13a2bd9e2207d9e4e1c2b6e5d8be2a8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Informationen Sie zum Einrichten Ihrer Domäne, Benutzer Sofortnachrichten und Anwesenheitsinformationen für Ihre Organisation Skype für Unternehmen zu installieren. Außerdem finden Sie unter Audiokonferenzen Telefonsystem und plant aufrufen und Skype Besprechung Übertragung einrichten. '
+ms.openlocfilehash: ad0608dbb637b4b2343bf39d47b2beea0ca9e12c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online
   
@@ -130,8 +130,6 @@ Vergewissern Sie sich vor dem Einrichten weiterer Features, dass Sie über die e
 
 Manchmal müssen Mitarbeiter in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Für genau diese Situation ist die Audiokonferenzfunktion in Skype for Business gedacht. Teilnehmer können sich mit einem Telefon in Skype for Business-Besprechungen einwählen, anstatt die Skype for Business-App auf einem Mobilgerät oder PC zu verwenden.
   
-Eine schrittweise Anleitung finden Sie unter [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md) in Office 365.
-  
 ### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>Einrichten des Telefonsystems und der Anrufpläne in Office 365
 
 Mit der Telefonsystemfunktion in Office 365 erhalten Sie ein Telefonsystem für Ihr Unternehmen. Anrufe an andere Skype for Business-Benutzer in Ihrer Organisation sind kostenlos, und Ihre Mitarbeiter können Voicemail voneinander sowie von Anrufern von außen empfangen. Das bietet Ihnen das Telefonsystem-Add-On.
@@ -152,7 +150,7 @@ Hier ist eine Übersicht über die Schritte zum Einrichten von Skype-Livekonfere
     
 3. [Richten Sie Ihr Netzwerk für die Besprechung übertragen werden Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): Wenn Sie Host Webinare und andere Übertragungen mit Teilnehmer außerhalb Ihrer Organisation möchten, müssen Sie Ihr Netzwerk konfiguriert haben.
     
-4. [Planen einer Besprechung Skype-Übertragung](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) und haben eine [Verknüpfung einer Skype Besprechung Übertragung](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Stellen Sie sicher, versuchen Sie arbeiten, broadcast-Besprechungen die Planung einer Skype Besprechung Übertragung unter *https://portal.broadcast.skype.com* und dass eine Person zur Teilnahme an der Besprechung.
+4. [Planen einer Besprechung Skype-Übertragung](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) und haben eine [Verknüpfung einer Skype Besprechung Übertragung](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Stellen Sie sicher, dass broadcast Besprechungen arbeiten, indem Sie einen Skype Besprechung Broadcast unter Planen *https://portal.broadcast.skype.com* und dass eine Person versuchen, an der Besprechung teilzunehmen.
     
 ## <a name="learn-about-network-connectivity-requirements"></a>Erfahren Sie mehr über Anforderungen an die Netzwerkkonnektivität
 <a name="bkmk_more"> </a>
@@ -177,5 +175,5 @@ Die Qualität der End-to-End-Netzwerkkonnektivität hat großen Einfluss auf die
 
 [Planen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online](https://go.microsoft.com/fwlink/p/?linkid=400791)
   
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

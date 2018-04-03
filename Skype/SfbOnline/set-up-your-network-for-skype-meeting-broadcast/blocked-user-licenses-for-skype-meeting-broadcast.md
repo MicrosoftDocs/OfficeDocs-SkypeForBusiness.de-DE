@@ -1,5 +1,5 @@
 ---
-title: "Blockiert Benutzerlizenzen für die Besprechung übertragen werden Skype"
+title: Blockiert Benutzerlizenzen für die Besprechung übertragen werden Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,16 +17,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: "Leider sind bestimmte Lizenzen für Benutzer, die blockiert werden Wenn Benutzer wechseln Sie zur https://broadcast.skype.com und Skype Besprechung übertragen verwenden möchten. Wenn ein Benutzer diese Meldung angezeigt wird, müssen sie eine blockierte Lizenz zugewiesen werden. Wenn Sie weiterhin verwenden möchten, weisen Sie ihnen eine andere Office 365-Lizenz."
-ms.openlocfilehash: b1de6b116793d74fc01d6c95138aa1d9a10ab2c9
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Leider sind bestimmte Lizenzen für Benutzer, die blockiert werden Wenn Benutzer zu wechseln https://broadcast.skype.com und Skype Besprechung übertragen verwenden möchten. Wenn ein Benutzer diese Meldung angezeigt wird, müssen sie eine blockierte Lizenz zugewiesen werden. Wenn Sie weiterhin verwenden möchten, weisen Sie ihnen eine andere Office 365-Lizenz.
+ms.openlocfilehash: 59b00fd9b7557177994a1d4279756c56aa5ba613
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Blockiert Benutzerlizenzen für die Besprechung übertragen werden Skype
 
-Leider stehen bestimmte Lizenzen für Benutzer, die blockiert werden, wenn Benutzer wechseln Sie zur https://broadcast.skype.com und Skype Besprechung übertragen verwenden möchten. Wenn ein Benutzer diese Meldung angezeigt wird, müssen sie eine blockierte Lizenz zugewiesen werden. Wenn Sie weiterhin verwenden möchten, weisen Sie ihnen eine andere Office 365-Lizenz.
+Leider sind bestimmte Lizenzen für Benutzer, die blockiert werden, wenn der Benutzer wechseln Sie zur https://broadcast.skype.com und Skype Besprechung übertragen verwenden möchten. Wenn ein Benutzer diese Meldung angezeigt wird, müssen sie eine blockierte Lizenz zugewiesen werden. Wenn Sie weiterhin verwenden möchten, weisen Sie ihnen eine andere Office 365-Lizenz.
   
  *"Die Unternehmensrichtlinie nicht für die Verwendung von Skype Besprechung übertragen kann. Überprüfen Sie mit Ihren Systemadministrator, um sicherzustellen, dass der Dienst aktiviert ist und dass Sie die richtige Lizenz verfügen."* 
   
@@ -70,5 +70,5 @@ Skype Besprechung übertragen werden blockiert werden, wenn keines der folgenden
   
 [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

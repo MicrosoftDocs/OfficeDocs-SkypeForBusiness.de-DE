@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 6f280e6345fb8a6af72cac35f4844f7a63caab48
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 4ddd99dec5e8c283741380b68e01ef97363fda85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
 
@@ -33,7 +33,7 @@ Nachstehend die Voraussetzungen:
     
 - Computer zum Testen der einzelnen Konten. Richten Sie die Computer so ein, wie ein normaler Computer in Ihrer Organisation eingerichtet würde.
     
-- Ein Konto bei einem Audiokonferenzanbieter für Skype for Business Online. Weitere Informationen finden Sie unter [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+- Ein Konto bei einem Audiokonferenzanbieter für Skype for Business Online. 
     
 ## <a name="what-do-you-want-to-do"></a>Was möchten Sie tun?
 
@@ -73,8 +73,6 @@ Richten Sie ein Konto bei einem Audiokonferenzanbieter ein, um den Zugriff per T
 - Für jeden Benutzer in der Organisation, der Besprechungen plant oder moderiert, einen Konferenzcode und eine PIN (persönliche Identifikationsnummer).
     
 Nachdem Sie die Benutzer für Audiokonferenzen eingerichtet haben, erhalten sie eine automatisierte E-Mail-Nachricht mit den Einwahlnummern und dem Konferenzcode. Diese Informationen werden auch automatisch allen neuen Skype for Business-Besprechungsanfragen hinzugefügt.
-  
-Details finden Sie unter [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md). 
   
  **So fügen Sie dem Konto eines Ihrer Testbenutzer Audiokonferenzinformationen hinzu**
   
@@ -141,5 +139,5 @@ Sie können sich nicht anmelden? Weitere Informationen finden Sie unter [Behebun
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

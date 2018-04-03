@@ -1,5 +1,5 @@
 ---
-title: "Proxyserver für Skype for Business Online"
+title: Proxyserver für Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "Dieser Artikel ist als Leitfaden für die Verwendung eines Proxyservers in Verbindung mit Skype for Business gedacht."
-ms.openlocfilehash: 29438474524c7c1e518fb3130fdaf436e562d76e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Dieser Artikel ist als Leitfaden für die Verwendung eines Proxyservers in Verbindung mit Skype for Business gedacht.
+ms.openlocfilehash: 0f4d0b82eeaedd4b81ea84a8d8d3a67993d7be96
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Proxyserver für Skype for Business Online
 
@@ -71,11 +71,11 @@ Für Organisationen, die **Bluecoat-Proxylösungen** verwenden, wurde eine neue 
     
 Die systemeigene Unterstützung von Bluecoat für Skype for Business kann leicht aktiviert werden, sodass relevanter Datenverkehr identifiziert und entsprechend verwaltet werden kann. Dies gewährleistet optimale Authentifizierung und Signalisierung sowie einen optimalen Fluss des Mediendatenverkehrs, damit Sie hohe Benutzerfreundlichkeit ohne Sicherheitsbedenken bereitstellen können.
     
-Entnehmen Sie den folgenden Link Bluecoat Proxy eines Teils der Topologie des Netzwerks ist: https://support.symantec.com/en_US/article.DOC9757.html
+Finden Sie in den folgenden Link Bluecoat Proxy eines Teils der Topologie des Netzwerks ist:https://support.symantec.com/en_US/article.DOC9757.html
 
 ## <a name="related-topics"></a>See Also
 
 [Optimieren Ihres Netzwerks für Skype for Business Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

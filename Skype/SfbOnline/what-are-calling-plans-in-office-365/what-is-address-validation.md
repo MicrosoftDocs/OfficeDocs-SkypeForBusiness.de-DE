@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, was Adressvalidierung ist, warum sie wichtig ist und was sie mit Notfalladressen und -diensten zu tun hat. '
-ms.openlocfilehash: 11e53a817eb8e7a759a450f81c699a0e9d745642
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: d67277490afc12d8bdb2c5433d55e70ea6f5395e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-address-validation"></a>Was ist Adressvalidierung?
 
@@ -44,5 +44,5 @@ Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

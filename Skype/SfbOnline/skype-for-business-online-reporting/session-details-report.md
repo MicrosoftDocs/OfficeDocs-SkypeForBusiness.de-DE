@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Das neue Office 365-Berichte Dashboard zeigt, über die Office 365-Produkte in Ihrer Organisation der Übersicht über die Aktivität. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten."
-ms.openlocfilehash: 3760a5dc6caf3ebf5f70290031f1014af9e04ef6
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Das neue Office 365-Berichte Dashboard zeigt, über die Office 365-Produkte in Ihrer Organisation der Übersicht über die Aktivität. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
+ms.openlocfilehash: 3f33c08f271e638aa160319d39f2e66f97f61a1a
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="session-details-report"></a>Session-Detailbericht
 
@@ -119,5 +119,5 @@ Für jede Sitzung ist eine Sub-Tabelle mit unterschiedlichen Daten je nach Szena
 ## <a name="related-topics"></a>See Also
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

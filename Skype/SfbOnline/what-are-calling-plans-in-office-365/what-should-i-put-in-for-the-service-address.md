@@ -1,5 +1,5 @@
 ---
-title: "Was sollte ich für die Dienst-Adresse tragen Sie?"
+title: Was sollte ich für die Dienst-Adresse tragen Sie?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoServiceAddress
 ms.custom:
 - Calling Plans
-description: "Hier erfahren Sie, was Ihre Dienst-Adresse ist, wie es von der Adresse abweicht und es dort können Sie. "
-ms.openlocfilehash: 4c07c9724db61894fad659343470dfc50a76e494
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Hier erfahren Sie, was Ihre Dienst-Adresse ist, wie es von der Adresse abweicht und es dort können Sie. '
+ms.openlocfilehash: c5791e2bb48bc6fb8a42c1941ed3b6b225b22460
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>Was sollte ich für die Dienst-Adresse tragen Sie?
 
@@ -46,5 +46,5 @@ Die Dienst-Adresse unterscheidet sich von der Art der Rechnungslegung oder Notfa
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

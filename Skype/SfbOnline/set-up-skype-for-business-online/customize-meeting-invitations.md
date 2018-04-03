@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: "Skype-besprechungseinladungen mit Grafik Logos, Hilfe und rechtliche URLs und Fußzeilentext anpassen. "
-ms.openlocfilehash: 374060876bcf12c5d7283586d3a04710a9b203b4
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Skype-besprechungseinladungen mit Grafik Logos, Hilfe und rechtliche URLs und Fußzeilentext anpassen. '
+ms.openlocfilehash: 202669b67cb8feb3af7216a2faf9400a014da88e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von besprechungseinladungen
 
@@ -70,8 +70,7 @@ Als Administrator können Sie sicherstellen, dass alle Skype für Business bespr
 ## <a name="related-topics"></a>Verwandte Themen
 <a name="__top"> </a>
 
+[Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: "Erfahren Sie, wie Mobiltelefon Benachrichtigungen aktivieren oder deaktivieren, damit die Benutzer die Benachrichtigungen über eingehende, Voicemail empfangen können und entgangene Sofortnachrichten."
-ms.openlocfilehash: 5f783c45fa198d02a44bbd2f7501a5bc4f0b5e1e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Erfahren Sie, wie Mobiltelefon Benachrichtigungen aktivieren oder deaktivieren, damit die Benutzer die Benachrichtigungen über eingehende, Voicemail empfangen können und entgangene Sofortnachrichten.
+ms.openlocfilehash: 111d225b77c735dcf139a207f7c338cd228c873f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
@@ -56,5 +56,5 @@ Bitte beachten Sie:
 
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

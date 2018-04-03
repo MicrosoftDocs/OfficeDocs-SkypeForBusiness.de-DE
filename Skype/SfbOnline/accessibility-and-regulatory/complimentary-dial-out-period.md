@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Kunden können aufrufen Planen von Office 365 und Office 365-Audiokonferenzen verwenden, wie in der Skype für Business Online PSTN-Dienste verwenden von Ausdrücken und des Kunden Volumenlizenzvertrag zulässig."
+hideEdit: true
+description: Kunden können aufrufen Planen von Office 365 und Office 365-Audiokonferenzen verwenden, wie in der Skype für Business Online PSTN-Dienste verwenden von Ausdrücken und des Kunden Volumenlizenzvertrag zulässig.
 ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audio Conferencing kostenlosen Dial-Out-Punkt
 

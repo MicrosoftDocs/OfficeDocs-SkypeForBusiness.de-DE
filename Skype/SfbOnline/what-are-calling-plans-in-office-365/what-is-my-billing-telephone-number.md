@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoBTN
 ms.custom:
 - Calling Plans
-description: "Hier erfahren Sie, was Ihre Skype für geschäftliche Telefonnummer Abrechnung ist, und wechseln um zu Schritt-für-Schritt-Anleitung zum Übertragen von einer Zahl zu erhalten."
-ms.openlocfilehash: 9ec02914e9ad8e097f701efc9d86ed26d612cbe5
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Hier erfahren Sie, was Ihre Skype für geschäftliche Telefonnummer Abrechnung ist, und wechseln um zu Schritt-für-Schritt-Anleitung zum Übertragen von einer Zahl zu erhalten.
+ms.openlocfilehash: 3cfb34fb26a55a756d910a417da030df2dba64a0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-my-billing-telephone-number"></a>Was ist mein Abrechnung Telefonnummer?
 
@@ -46,5 +46,5 @@ Die Art der Rechnungslegung Telefonnummer (BTN) ist die Haupttelefonnummer des, 
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

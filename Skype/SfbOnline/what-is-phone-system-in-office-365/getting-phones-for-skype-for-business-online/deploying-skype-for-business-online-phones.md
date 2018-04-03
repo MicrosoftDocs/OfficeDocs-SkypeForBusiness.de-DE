@@ -1,5 +1,5 @@
 ---
-title: "Bereitstellen von Telefonen für Skype for Business Online"
+title: Bereitstellen von Telefonen für Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: faa17eb3-7483-4984-87f2-815d981b68ae
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Informationen Sie zu den Bereitstellungsschritten, um die richtige Firmware erhalten möchten, aktualisieren sie bei Bedarf, Zuweisen von Lizenzen und Konfigurieren von Einstellungen für Skype für online Business-Telefone"
-ms.openlocfilehash: 86756fb1033e2928a7427c9352fbf6fbb24dc154
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Informationen Sie zu den Bereitstellungsschritten, um die richtige Firmware erhalten möchten, aktualisieren sie bei Bedarf, Zuweisen von Lizenzen und Konfigurieren von Einstellungen für Skype für online Business-Telefone
+ms.openlocfilehash: ee6f8e0b892b8cef1c70c7bc01ba7e7d9c4cb8e8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
 
@@ -38,7 +40,7 @@ In Unternehmen jeder Art ist eine wichtige Voraussetzung für die Geschäftstät
 
 Bevor Sie beginnen, sollten Sie die Administratorhandbücher und Telefonhandbücher des Telefonherstellers herunterladen.
   
-- Telefone Polycom finden Sie unter [Polycom Bereitstellungshandbuch] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- Telefone Polycom, finden Sie unter [Polycom Deployment Guide] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
 - Yealink-Telefone: [Yealink-HD-SIP-Telefonlösung für Skype for Business](http://www.yealink.com/products_top_2.html).
     
@@ -224,4 +226,5 @@ BToE kann für den Betrieb in zwei Modi konfiguriert werden:  *Automatisch*  (St
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Anzeigen einer Liste der Benutzer, die für Einwahlkonferenzen aktiviert sind"
+title: Anzeigen einer Liste der Benutzer, die für Einwahlkonferenzen aktiviert sind
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 9b9f50c0c3fca60f352d53355d538adfcf32896d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: c58a8e2475b1b41e02d0abced47fcc9d076d5f25
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Anzeigen einer Liste der Benutzer, die für Einwahlkonferenzen aktiviert sind
 
@@ -86,5 +88,4 @@ Nachdem Sie Skype für Business oder Microsoft-Teams, Benutzer in Ihrer Organisa
     
 ## <a name="related-topics"></a>See Also
 
-[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)
-
+[Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie das Skype Room Systems v2-Konsolengerät und die entsprechenden Peripheriegeräte einrichten.
-ms.openlocfilehash: 6ca029fa7f5560dfdfebd789938d9b53ff2e9abc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6e2ec8384387cefd074342abb3da316288af1f0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -70,13 +70,9 @@ Jetzt müssen Sie das erstellte Image anwenden. Das Tablet wird als Appliance au
     
 5. Wenn Windows Setup gestartet wurde, lassen Sie die Leiser-Taste (-) los.
     
-6. Wenn das Skype Raum Systemen v2 Gerät zum ersten Mal startet, das Verhalten hängt welche Version von Sysprep.exe in der Datei AutoUnattend.xml verwendet wird (siehe Schritt 7 [Prepare Abbild der Installation](console.md#Prep_Image)):
+6. Das System wird heruntergefahren, sobald die Installation abgeschlossen ist.
     
-   - Wenn die /shutdown-Version des Befehls aktiviert wurde, führt das System die Installation fort und fährt zum Schluss herunter. Sobald es heruntergefahren ist, können Sie über externe Medien starten, die Windows PE enthalten, und DISM zum Installieren von Sprachpaketen, Anwenden von Images, Erfassen des Referenzimage vom Computer oder Durchführen anderer Aktionen verwenden.
-    
-   - Wenn die /reboot-Version des Befehls aktiviert wurde, führt das System die Installation fort und fordert den Benutzer zum Schluss auf, die Gebietsschemaeinstellungen auszuwählen. Nach Abschluss dieser Auswahl, startet das Skype Raum Systemen v2 Gerät in den ersten Startvorgang. Siehe [Anfangssetup der Konsole](console.md#Initial)
-    
-Nachdem das System heruntergefahren oder neu gestartet wurde, können Sie den USB-Installationsdatenträger gefahrlos entfernen. Jetzt können Sie das Tablet im Dock platzieren und die für Ihren Besprechungsraum benötigten Peripheriegeräte anschließen. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
+Nachdem das System heruntergefahren hat, ist es sicher, entfernen Sie die Installationsdiskette USB. Jetzt können Sie das Tablet im Dock platzieren und die für Ihren Besprechungsraum benötigten Peripheriegeräte anschließen. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>Auswählen einer Sprache in Creators Update

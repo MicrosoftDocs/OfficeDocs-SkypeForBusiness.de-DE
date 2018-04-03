@@ -1,5 +1,5 @@
 ---
-title: "Nutzungsbedingungen für Notrufe"
+title: Nutzungsbedingungen für Notrufe
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "Hier erfahren Sie, wie Notdienste (911) von herkömmlichen Telefondienste unterscheiden und wie Sie einen Anruf zu tätigen. "
-ms.openlocfilehash: 09be5b96e3a5b695caeefca17352587c60051220
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Hier erfahren Sie, wie Notdienste (911) von herkömmlichen Telefondienste unterscheiden und wie Sie einen Anruf zu tätigen. '
+ms.openlocfilehash: 5ba29f0020f17ecb3cd1e0b1abe39f27576a5657
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Nutzungsbedingungen für Notrufe
 
@@ -43,5 +43,5 @@ Die Unterschiede in unseren Emergency Services Funktionen aufrufen lauten wie fo
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

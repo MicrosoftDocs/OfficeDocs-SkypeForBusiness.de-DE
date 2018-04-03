@@ -1,5 +1,5 @@
 ---
-title: "Verfügbarkeit in Peru."
+title: Verfügbarkeit in Peru.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Peru verfügbar."
-ms.openlocfilehash: a9bcfadc975a302fc05c1243544b4fd241e955dd
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Peru verfügbar.
+ms.openlocfilehash: 4250f9dffb0f8bd8379bf2f993bf616599345221
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-peru"></a>Verfügbarkeit in Peru.
 
@@ -83,5 +83,5 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

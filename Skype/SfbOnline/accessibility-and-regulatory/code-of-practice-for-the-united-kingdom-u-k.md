@@ -1,5 +1,5 @@
 ---
-title: "Code Praktiken für Großbritannien (Großbritannien)"
+title: Code Praktiken für Großbritannien (Großbritannien)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: ec34b528ed31f78e3c6075f357ff96c702371514
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c1528d1ec28dd940b5b696dd03f9c389f6d16844
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Code Praktiken für Großbritannien (Großbritannien)
 
@@ -114,7 +114,7 @@ Ein Internet-Dialler ist ähnlich wie ein Computervirus eine Software, welche au
   
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-Alle Dienstanbieter müssen sich bei PhonepayPlus, einer unabhängigen, von Ofcom genehmigten Organisation, registrieren. PhonepayPlus regelt die Premium-Preis-Dienste und prüft von Konsumenten eingereichte Beanstandungen. Alle-Dienstanbieter muss den PhonepayPlus-Code der praktischen entsprechen die [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice)nachlesen können. Wenn ein Dienstanbieter die Verfahrensregel verletzt, kann PhonepayPlus:
+Alle Dienstanbieter müssen sich bei PhonepayPlus, einer unabhängigen, von Ofcom genehmigten Organisation, registrieren. PhonepayPlus regelt die Premium-Preis-Dienste und prüft von Konsumenten eingereichte Beanstandungen. Alle Dienstanbieter müssen die PhonepayPlus Verfahrensregel befolgen, die unter [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) einsehbar ist. Wenn ein Dienstanbieter die Verfahrensregel verletzt, kann PhonepayPlus:
   
 - Verlangen, dass eine Partei eine Entschädigung für die entsprechende Verletzung entrichtet
     
@@ -124,7 +124,7 @@ Alle Dienstanbieter müssen sich bei PhonepayPlus, einer unabhängigen, von Ofco
     
 ### <a name="service-provider-contact-information"></a>Dienstanbieter-Kontaktdaten
 
-Damit die Kontaktinformationen für einen Dienstanbieter ermittelt wird, können Sie PhonepayPlus #NumberChecker Tool unter [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)verwenden. Wenn Sie der Ansicht sind, dass Ihnen fälschlicherweise ein Premium-Preis-Dienst in Rechnung gestellt wurde, sollten Sie den Dienstanbieter direkt kontaktieren.
+Um Kontaktdaten für einen Serviceanbieter zu finden, können Sie das #NumberChecker-Tool von PhonepayPlus unter [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry) verwenden. Wenn Sie der Ansicht sind, dass Ihnen fälschlicherweise ein Premium-Preis-Dienst in Rechnung gestellt wurde, sollten Sie den Dienstanbieter direkt kontaktieren.
   
 ### <a name="complaints"></a>Beanstandungen
 
@@ -148,5 +148,3 @@ Gebühren für nationale Übersetzungsdienste, persönliche Nummern und 0870er N
 ## <a name="related-topics"></a>Verwandte Themen
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).

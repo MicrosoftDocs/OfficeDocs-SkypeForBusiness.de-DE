@@ -1,5 +1,5 @@
 ---
-title: "Übertragen von Telefon Zahlen häufig gestellte Fragen"
+title: Übertragen von Telefon Zahlen häufig gestellte Fragen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Finden Sie unter Weiterleiten von Telefonnummern zu Office 365 Anweisungen."
-ms.openlocfilehash: a7b6b9ea1b028f6578b13f29706c25fb182befc1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Finden Sie unter Weiterleiten von Telefonnummern zu Office 365 Anweisungen.
+ms.openlocfilehash: ce62365c337d94c05c7ca1b3ff1703cb39086f97
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Übertragen von Telefon Zahlen häufig gestellte Fragen
 
@@ -62,7 +64,7 @@ Im Allgemeinen können Sie eine beliebige Telefonnummer übertragen, die von ein
     
 - VoIP-Telefonnummern von einem Anbieter Telefon wie Vonage oder RingCentral.
     
-- Skype für hybride Business Telefonnummern. Wenn Sie diese Nummern übertragen möchten, müssen Sie e-Mail uns an <ptn@microsoft.com>senden.
+- Skype für hybride Business Telefonnummern. Wenn Sie diese Nummern übertragen möchten, müssen Sie e-Mail senden, um uns <ptn@microsoft.com>.
     
  **KANN NICHT ÜBERTRAGEN WERDEN:**
   
@@ -117,7 +119,7 @@ Nachfolgend finden Sie weitere Informationen zur Übermittlung von Zahl Portiere
     
 - **Gebührenfreie Nummern** mit Ortskennzahlen z. B.: 800, 844, 855, 866, 877 und 888 kann nicht in einer Zahl Portieren Anforderung durch andere Typen von Zahlen einbezogen werden. Um diese kostenlose gebührenfreie Nummern port, müssen Sie [manuell zu senden, eine benutzerdefinierte Serviceanfrage](manually-submit-a-custom-service-request.md); Sie können nicht in der Skype für Business Administrationscenter abgesendet werden. Finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    Es ist wichtig, die richtige Geladene für das Land ein, und geben der Telefonnummern, verwenden Sie Port möchten. Sie können die Koordinations [Buchstaben der Autorisierung (Geladene) herunterladen](download-a-letter-of-authorization-loa.md)herunterladen. Finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+    Es ist wichtig, die richtige Geladene für das Land ein, und geben der Telefonnummern, verwenden Sie Port möchten. Sie können die Geladene herunterladen, benötigen Sie [die Buchstaben der Autorisierung (Geladene), die Sie hier herunterladen](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
 - **Mobiltelefonnummer** erfordern einen PIN-Code, um die Übertragung zu autorisieren. Aus diesem Grund müssen sie Nummern Portieren Anforderung getrennt.
     
@@ -176,4 +178,5 @@ Für die Übertragung oder *Port out* Telefonnummern von Skype für Business Onl
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-
+  
+ 

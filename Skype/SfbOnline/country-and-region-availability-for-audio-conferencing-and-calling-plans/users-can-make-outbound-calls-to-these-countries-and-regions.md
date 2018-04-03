@@ -1,5 +1,5 @@
 ---
-title: "Benutzer können ausgehende Anrufe an diese Ländern und Regionen"
+title: Benutzer können ausgehende Anrufe an diese Ländern und Regionen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Dieses Thema enthält alle Länder/Regionen Benutzer ausgehende Anrufe an tätigen können, wenn sie einen Aufruf von Plan verfügen."
-ms.openlocfilehash: 455f677827006921335cb30f09a0da5720ea0bd8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Dieses Thema enthält alle Länder/Regionen Benutzer ausgehende Anrufe an tätigen können, wenn sie einen Aufruf von Plan verfügen.
+ms.openlocfilehash: 9cac97144bec681773eca2811751525e0c2950d5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Benutzer können ausgehende Anrufe an diese Ländern und Regionen
 
@@ -91,5 +91,5 @@ ms.lasthandoff: 02/27/2018
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

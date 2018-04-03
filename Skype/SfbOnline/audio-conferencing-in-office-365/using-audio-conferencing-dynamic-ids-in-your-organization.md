@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: e55e4bff-fb67-4389-8695-f03024baa9b6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Der Audio-Konferenzdienst wird aktualisiert, um jeden Skype für Geschäfts- und Microsoft-Teams Besprechung mit anderen Konferenz-IDs bereitstellen. Dynamische Konferenz-IDs werden eine wesentliche Verbesserung über statische Konferenz-IDs, da sie bieten:"
-ms.openlocfilehash: 146e09843fbd9234d4d1b651663d59d7ec48fc49
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Der Audio-Konferenzdienst wird aktualisiert, um jeden Skype für Geschäfts- und Microsoft-Teams Besprechung mit anderen Konferenz-IDs bereitstellen. Dynamische Konferenz-IDs werden eine wesentliche Verbesserung über statische Konferenz-IDs, da sie bieten:'
+ms.openlocfilehash: 418e6f486b8108791930c7843bfed8bdc56e83ef
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="using-audio-conferencing-dynamic-ids-in-your-organization"></a>Verwenden dynamische Audiokonferenzen-IDs in Ihrer Organisation
 
@@ -60,8 +62,4 @@ Diese Beispiele zeigen Sie die neue Oberfläche für zwei Skype für Business Be
 
 - [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)
-    
 - [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
-    
-

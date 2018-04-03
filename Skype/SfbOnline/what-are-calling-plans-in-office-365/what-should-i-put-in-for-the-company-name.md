@@ -1,5 +1,5 @@
 ---
-title: "Was sollte ich für den Namen des Unternehmens tragen Sie?"
+title: Was sollte ich für den Namen des Unternehmens tragen Sie?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoCompanyName
 ms.custom:
 - Calling Plans
-description: "Was für das Unternehmen in Skype für Unternehmen eingefügt, und wo Sie ihn finden können. "
-ms.openlocfilehash: 3bde0daaebdaf6a3f615629c2d23f083e84e6465
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Was für das Unternehmen in Skype für Unternehmen eingefügt, und wo Sie ihn finden können. '
+ms.openlocfilehash: 9664879695a79a485b034667feff2c4486878bae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>Was sollte ich für den Namen des Unternehmens tragen Sie?
 
@@ -46,5 +46,5 @@ Dies ist der Name Ihrer Firma oder Organisation. Der Name des Unternehmens ist a
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

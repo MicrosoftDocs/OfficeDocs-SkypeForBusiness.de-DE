@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Zusammenfassung: Erkunden Sie diese Links, um Informationen zum Installieren und Konfigurieren von Skype für Business Server 2015 und zum Upgrade von früheren Versionen von Lync Server.'
-ms.openlocfilehash: d628c6a8c3e942c61d19f4ddfce1f45337110587
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: abce331272dc457bf3444281b810a1e571b1a545
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Bereitstellen von Skype for Business Server 2015
  
@@ -59,6 +59,7 @@ Die folgenden Ressourcen zur Planung für Skype für Business Server sind von an
 |:-----|:-----|:-----|
 |![Symbol für TechCenter](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype für Business Server für IT-Experten](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Im TechCenter und den Ressourcencentern können Sie auf Videos, Communitywebsites, Dokumentation, Downloads und mehr zugreifen.  <br/> |
 |![Symbol für Entwicklerinhalt](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype-Entwickler-Plattform](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Hier finden Sie Entwicklerressourcen für Skype für Business Server, einschließlich Codebeispielen, Schulungen und SDKs.  <br/> |
-|![Symbol für News, Blogs usw.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Änderungsmanagement und Akzeptanz](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365: technischer Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Halten Sie sich mit Neuigkeiten aus der Teams, die erstellt und dem Dokument Skype für Business Server an.  <br/> |
+|![Symbol für News, Blogs usw.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Änderungsmanagement und Akzeptanz](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> 
+[Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Halten Sie sich mit Neuigkeiten aus der Teams, die erstellt und dem Dokument Skype für Business Server an.  <br/> |
    
 

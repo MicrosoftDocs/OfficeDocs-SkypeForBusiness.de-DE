@@ -1,5 +1,5 @@
 ---
-title: "Verfügbarkeit in Kenia"
+title: Verfügbarkeit in Kenia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Kenia verfügbar."
-ms.openlocfilehash: 87691f4653b0171eb91484dbd9e743329dd99654
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Kenia verfügbar.
+ms.openlocfilehash: 6530ba17decbede7b3c2e6b572afe6760edfb705
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-kenya"></a>Verfügbarkeit in Kenia
 
@@ -83,6 +83,6 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 
 

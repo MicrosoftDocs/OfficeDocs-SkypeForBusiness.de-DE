@@ -1,5 +1,5 @@
 ---
-title: "Wobei benötigen Sie nach dem Sie über Ihre Rufnummern übertragen haben?"
+title: Wobei benötigen Sie nach dem Sie über Ihre Rufnummern übertragen haben?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: "Finden Sie unter Was Sie benötigen die nächsten Schritte, nachdem Sie Ihre Rufnummern zu Skype für Unternehmen übertragen haben."
-ms.openlocfilehash: 007e4199e656294c5a649a8f684ef57a4353024a
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Finden Sie unter Was Sie benötigen die nächsten Schritte, nachdem Sie Ihre Rufnummern zu Skype für Unternehmen übertragen haben.
+ms.openlocfilehash: d190d642edc932d1c620493afc893e03d85a4fb4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Wobei benötigen Sie nach dem Sie über Ihre Rufnummern übertragen haben?
 
@@ -52,5 +52,5 @@ Nachdem Sie Ihre Bestellung Port gesendet haben, wir wenden Sie sich an Ihren Ne
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

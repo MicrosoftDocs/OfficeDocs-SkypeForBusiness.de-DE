@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing häufig gestellte Fragen"
+title: Audio Conferencing häufig gestellte Fragen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,19 +21,17 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten."
-ms.openlocfilehash: 512b0d1ed52513323aba6152011663d912f07c40
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten.
+ms.openlocfilehash: f31f6744fa04697aa2ff24455aa440769f0f824b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>Audio Conferencing häufig gestellte Fragen
 
 Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten. 
   
-Eine schrittweise Anleitung zum Einrichten von Audiokonferenzen finden Sie unter [Einrichten von Audiokonferenzen für Skype für Unternehmen und die Microsoft-Teams](set-up-audio-conferencing.md).
-
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>Was sind die Vorteile der Audiokonferenz?
 
 Aufrufen von Besprechungen in ist sehr nützlich, wenn Personen auf Reisen, beispielsweise sind und können nicht teilnehmen an einer Besprechung mit der Skype für Business oder Microsoft-Teams app auf ihren Laptop oder mobilen Geräten. Aber es gibt andere Szenarien, in denen die Verwendung eines Telefons für die Teilnahme an einer Skype für Geschäftskunden und Microsoft-Teams Besprechung eine bessere Lösung als mithilfe einer app auf einem Computer werden kann:
@@ -150,10 +150,7 @@ Planen einer Besprechung, die von allen Teilnehmern mit einem Telefon auf Zugrif
    
 ## <a name="related-topics"></a>See Also
 
-[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)
-  
 [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
 [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing.md)
   
-

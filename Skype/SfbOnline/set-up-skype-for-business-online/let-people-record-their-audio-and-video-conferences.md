@@ -17,12 +17,12 @@ f1keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
-description: 'How to turn on recording for audio and video conferences, and learn what is and isn''t included in recordings. '
-ms.openlocfilehash: 9c8f3107272eaad7911c86f6b914a67bed3902ee
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
+ms.openlocfilehash: bbf9eb07354be68467968265e1a714e2090272b9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Zulassen, dass Personen ihre Audio- und Videokonferenzen aufzeichnen
 
@@ -47,5 +47,5 @@ Weitere Informationen hierzu finden Sie unter [Lync Aufzeichnung speichern und v
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

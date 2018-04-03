@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Wenn Sie Telefonnummern für Ihre Organisation reservieren möchten, kann die Anzahl der reservierten Telefonnummern die Anzahl der zugewiesenen Lizenzen übersteigen. Dies richtet sich jedoch nach der Art der Telefonnummern und der Art der Lizenzen, die Sie gekauft haben und die Ihnen zugewiesen wurden. Sie können klicken Sie auf verschiedene Arten von Rufnummern für plant Aufrufen verwendet, um Informationen zu den verschiedenen Rufnummern finden Sie heraus, die in Skype für Business Online verwendet werden."
-ms.openlocfilehash: 7925b5b19e0ef60bd4bde2bac5c3632b0c30ef42
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Wenn Sie Telefonnummern für Ihre Organisation reservieren möchten, kann die Anzahl der reservierten Telefonnummern die Anzahl der zugewiesenen Lizenzen übersteigen. Dies richtet sich jedoch nach der Art der Telefonnummern und der Art der Lizenzen, die Sie gekauft haben und die Ihnen zugewiesen wurden. Sie können klicken Sie auf verschiedene Arten von Rufnummern für plant Aufrufen verwendet, um Informationen zu den verschiedenen Rufnummern finden Sie heraus, die in Skype für Business Online verwendet werden.
+ms.openlocfilehash: 729f99b2b0f0a3507c6ecba0e119fe12083ac6c2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Wie viele Rufnummern erhalten Sie?
 
@@ -56,3 +58,6 @@ Sehen Sie die Anzahl der Rufnummern, die Sie auf der Seite **Telefonnummern** in
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Telefonnummernliste für Ihre Organisation anzeigen"
+title: Telefonnummernliste für Ihre Organisation anzeigen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Erfahren Sie, wie eine Liste der Rufnummern in Ihrer Organisation, alle Zahlen, die Benutzern zugewiesen und die Nummern, die VoIP-Benutzern, aus der Skype für Business Administrationscenter zugewiesen sind, angezeigt."
-ms.openlocfilehash: b7ed36308e91d3ff93126355c604b48a92eaa61a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Erfahren Sie, wie eine Liste der Rufnummern in Ihrer Organisation, alle Zahlen, die Benutzern zugewiesen und die Nummern, die VoIP-Benutzern, aus der Skype für Business Administrationscenter zugewiesen sind, angezeigt.
+ms.openlocfilehash: c58932544e64041eb93404a3f9477a8ca953bafb
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
@@ -108,4 +110,5 @@ Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen u
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+  
+ 

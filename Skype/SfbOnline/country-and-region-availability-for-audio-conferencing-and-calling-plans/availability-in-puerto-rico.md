@@ -1,5 +1,5 @@
 ---
-title: "Verfügbarkeit in Puerto Rico"
+title: Verfügbarkeit in Puerto Rico
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Puerto Rico verfügbar."
-ms.openlocfilehash: db1670a8fc392c7accb1a1fd4176221bb246a778
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Puerto Rico verfügbar.
+ms.openlocfilehash: 2fb3d4662ff72a11bcc7d6bb084b218038540674
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-puerto-rico"></a>Verfügbarkeit in Puerto Rico
 
@@ -83,4 +83,5 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 

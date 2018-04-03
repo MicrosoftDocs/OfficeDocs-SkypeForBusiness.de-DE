@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
-description: "Erfahren Sie, wie Telefonnummern einrichten, wenn Sie diese zu Skype für Unternehmen port. "
-ms.openlocfilehash: a7364c5ebf72730179c6848dc79172f4f971ff6a
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Erfahren Sie, wie Telefonnummern einrichten, wenn Sie diese zu Skype für Unternehmen port. '
+ms.openlocfilehash: 68fe698612c095e657dab56723df7de6eb13b858
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Wie sollte ich die angezeigten Rufnummern eingeben?
 
@@ -98,5 +98,5 @@ Wenn Sie Rufnummern portieren, müssen Sie diese im richtigen Format eingeben.
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +22,12 @@ f1keywords:
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Informationen Sie zum Testen oder erwerben Audiokonferenzen (PSTN-Konferenz) Lizenzen für Office 365 zum Einrichten von Telefonkonferenzen, die Personen in einwählen können. "
-ms.openlocfilehash: 2c2b76bb207d5463c4b431e4cf9be4f0ecdba472
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: 'Informationen Sie zum Testen oder erwerben Audiokonferenzen (PSTN-Konferenz) Lizenzen für Office 365 zum Einrichten von Telefonkonferenzen, die Personen in einwählen können. '
+ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>Versuchen Sie es oder Audiokonferenzen in Office 365 kaufen
 
@@ -73,7 +75,7 @@ Wenn Sie ein Volume und Lizenzierung-Kunde sind, können Sie Bezahlung pro Minut
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Anbieters von Audiokonferenzen für Personen, die dazu führen oder Besprechungen planen
 
-Wenn Sie eine **Audiokonferenz** -Lizenz an die Personen in Ihrer Organisation führen oder Besprechungen planen zuweisen, werden sie alle Set up und einsatzbereit! (Nicht müssen Sie ihren Anbieter von Audiokonferenzen festgelegt.) Aber wenn Benutzer vorhanden, die einen Drittanbieter-Audiokonferenzen (ACP) verwendet haben sind, müssen Sie zum [Verschieben eines Benutzers für Audiokonferenzen an Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
+Wenn Sie eine **Audiokonferenz** -Lizenz an die Personen in Ihrer Organisation führen oder Besprechungen planen zuweisen, werden sie alle Set up und einsatzbereit! (Nicht müssen Sie ihren Anbieter von Audiokonferenzen festgelegt.) 
   
 > [!NOTE]
 > Wenn Sie ein Drittanbieter-ACP verwenden möchten, wählen Sie **Audiokonferenzen** > **Microsoft-Brücke**. Klicken Sie am unteren Rand der Seite auf, **Wenn Sie einen Drittanbieter - Audiokonferenzen stattdessen konfigurieren möchten, klicken Sie hier**. 

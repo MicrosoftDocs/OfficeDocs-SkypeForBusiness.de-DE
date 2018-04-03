@@ -1,5 +1,5 @@
 ---
-title: "Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage"
+title: Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 765a25f37480151033ca99aefcedfa069bf7032d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 70e4272abdf42ed2fe80752ab3b9f9c1a42b0834
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage
 
@@ -119,8 +119,8 @@ In einigen Ländern/Regionen müssen Sie auch eine benutzerdefinierte Serviceanf
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 
 
   
 

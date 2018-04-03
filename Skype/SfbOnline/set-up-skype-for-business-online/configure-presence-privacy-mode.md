@@ -1,5 +1,5 @@
 ---
-title: "Konfigurieren der datenschutzmodus für Anwesenheitsinformationen"
+title: Konfigurieren der datenschutzmodus für Anwesenheitsinformationen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
-description: "Informationen Sie zum Einrichten von datenschutzmodus für Ihre Benutzer, damit sie besser steuern können, wie Personen ihrer Verfügbarkeit anzeigen. "
-ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Informationen Sie zum Einrichten von datenschutzmodus für Ihre Benutzer, damit sie besser steuern können, wie Personen ihrer Verfügbarkeit anzeigen. '
+ms.openlocfilehash: f053ca555ee17f4c1421ae16d76a071a253e4738
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>Konfigurieren der datenschutzmodus für Anwesenheitsinformationen
 
@@ -45,5 +45,5 @@ Die Skype Business Online Einstellung kann Personen besser steuern, wer anzeigen
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

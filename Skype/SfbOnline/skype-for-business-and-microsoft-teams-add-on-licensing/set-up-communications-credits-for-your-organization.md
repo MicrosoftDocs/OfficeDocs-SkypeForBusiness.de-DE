@@ -1,5 +1,5 @@
 ---
-title: "Einrichten von Guthaben für Kommunikationen für Ihre Organisation"
+title: Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: b2eb4616e9f79392558d421723ee013759a455fd
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8a60efc9318354b9873c976cf717d3dd2cf73b3d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -41,7 +43,7 @@ Dazu **müssen Sie Ihren Benutzern eine Lizenz für Audiokonferenzen oder für T
   
 - Weisen Sie Ihren Benutzern eine Lizenz für **Audiokonferenzen** zu. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](assign-skype-for-business-and-microsoft-teams-licenses.md).
     
-    Nachdem Sie diese Lizenz zugewiesen haben, müssen Sie Audiokonferenzen einrichten. Eine schrittweise Anleitung finden Sie unter [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+    Nachdem Sie diese Lizenz zugewiesen haben, müssen Sie Audiokonferenzen einrichten. Schrittweise Anweisungen finden Sie unter [Testen oder erwerben Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
     
 - Weisen Sie **Telefonsystem** und eine nationalen oder nationalen und internationalen aufrufen Planen der Lizenz für die Benutzer. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](assign-skype-for-business-and-microsoft-teams-licenses.md).
     
@@ -112,8 +114,6 @@ Eine Tabelle mit den Lizenzen für die jeweilige Funktion finden Sie unter [Add-
 
 - [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Einrichten von Voicemail für Telefonsysteme - Administratorhilfe](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Einrichten von Aufrufen plant](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) und [Aufrufen Pläne für Office 365](calling-plans-for-office-365.md)
@@ -121,3 +121,6 @@ Eine Tabelle mit den Lizenzen für die jeweilige Funktion finden Sie unter [Add-
 - [Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
     
 - [Konfigurieren Sie den Connector Cloud](https://technet.microsoft.com/en-us/library/mt605228.aspx) , und [Laden Sie den Cloud-Connector](https://aka.ms/CloudConnectorInstaller)
+
+  
+ 

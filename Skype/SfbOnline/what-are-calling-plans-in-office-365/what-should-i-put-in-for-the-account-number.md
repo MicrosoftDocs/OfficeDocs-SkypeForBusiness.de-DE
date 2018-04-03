@@ -1,5 +1,5 @@
 ---
-title: "Was sollte ich für die Kontonummer tragen Sie?"
+title: Was sollte ich für die Kontonummer tragen Sie?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAccountNumber
 ms.custom:
 - Calling Plans
-description: "Finden Sie unter Was Sie als eine Kontonummer in Skype für Unternehmen halten sollten, und finden Sie auf, die. "
-ms.openlocfilehash: a56413aaf7d4bbb5924b4c3744bc899fcb5ddeef
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Finden Sie unter Was Sie als eine Kontonummer in Skype für Unternehmen halten sollten, und finden Sie auf, die. '
+ms.openlocfilehash: 14a95d5f4061216fbf0dfef077bdac9ac4294206
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>Was sollte ich für die Kontonummer tragen Sie?
 
@@ -48,5 +48,5 @@ In der Regel die Kontonummer finden Sie auf eine beliebige Bill oder Rechnung vo
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

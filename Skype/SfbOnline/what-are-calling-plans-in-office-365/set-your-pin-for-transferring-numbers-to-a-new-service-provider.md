@@ -1,5 +1,5 @@
 ---
-title: "Legen Sie Ihre PIN für die Übertragung von Zahlen mit einem neuen Dienstanbieter"
+title: Legen Sie Ihre PIN für die Übertragung von Zahlen mit einem neuen Dienstanbieter
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Zum Weiterleiten oder port out Telefonnummern von Skype für Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie eine PIN manuell festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie es einschließen aus, wenn Sie eine Telefonnummer ein, port anzufordern."
-ms.openlocfilehash: 03e2e0ca76ea434e2458f1dec4a236996a19f7aa
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Zum Weiterleiten oder port out Telefonnummern von Skype für Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie eine PIN manuell festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie es einschließen aus, wenn Sie eine Telefonnummer ein, port anzufordern.
+ms.openlocfilehash: f4ff20f4252686d047b3e9d83cf8beb4b3a9daae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Legen Sie Ihre PIN für die Übertragung von Zahlen mit einem neuen Dienstanbieter
 
@@ -73,6 +75,7 @@ Nachfolgend finden Sie einige bestimmte Informationen über diese PIN-Nummer, di
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+  
+ 
   
 

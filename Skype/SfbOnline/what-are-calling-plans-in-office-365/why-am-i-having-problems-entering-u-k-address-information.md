@@ -1,5 +1,5 @@
 ---
-title: "Warum habe ich Probleme beim Eingeben von Großbritannien Adressinformationen?"
+title: Warum habe ich Probleme beim Eingeben von Großbritannien Adressinformationen?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: "Hier sind einige Gründe, warum Sie Ihre-Adressen in Großbritannien (Großbritannien) ordnungsgemäß validiert Probleme beim werden können."
-ms.openlocfilehash: e012de9ba4371063bc16e2896a5bd4e3b8814a4d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Hier sind einige Gründe, warum Sie Ihre-Adressen in Großbritannien (Großbritannien) ordnungsgemäß validiert Probleme beim werden können.
+ms.openlocfilehash: 75373098af599768aa654f5327c1f40069ed51c7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Warum habe ich Probleme beim Eingeben von Großbritannien Adressinformationen?
 
@@ -118,5 +118,5 @@ Wenn Sie ein Problem, das die Postleitzahl eingeben haben, denken Sie daran:
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

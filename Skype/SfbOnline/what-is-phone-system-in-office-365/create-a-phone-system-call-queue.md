@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 363c6d7eefd63d1f89eb5d1420e516894d432b6b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a6eac4b7fec191d9e897f41e3c32b270ab21abcf
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>Erstellen einer Telefonsystem Anruf Warteschleife
 
@@ -95,7 +97,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
 Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. Nachdem Sie die gebührenpflichtige oder gebührenfreie Service Telefonnummern erhalten möchten, sie werden angezeigt, in **Skype für Business Administrationscenter** > **VoIP** > **Telefonnummern**und **Datentyp Zahl** aufgeführt wird als **-Dienst - gebührenfreie Rufnummer aufgeführt werden **. Wenn die Rufnummern Service erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen und die Microsoft-Teams,](getting-service-phone-numbers.md) oder für Übertragung und vorhandenen Service-Nummer, finden Sie unter [Übertragen von Telefonnummern zu Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> Wenn Sie sich außerhalb der USA sind, können der Skype für Business Administrationscenter Sie um Service Zahlen zu erhalten. Wechseln Sie stattdessen [Rufnummern für Ihre Organisation verwalten](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , wie Sie von außerhalb der USA finden Sie unter.
+> Wenn Sie sich außerhalb der USA sind, können der Skype für Business Administrationscenter Sie um Service Zahlen zu erhalten. Wechseln Sie zum [Verwalten von Rufnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) stattdessen, wie Sie von außerhalb der USA finden Sie unter.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Schritt 3 - Erstellen einer neuen Anrufwarteschleife
 
@@ -138,6 +140,9 @@ Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > 
  1. Öffnen Sie **Optionen** in ihren desktop Skype für Business-Client. 
  2. Klicken Sie auf der Registerkarte **Anrufweiterleitung** auf den Link **online Einstellungen bearbeiten** .
  3. Klicken Sie auf der Einstellungsseite für Benutzer klicken Sie auf **Aufrufen, Warteschlangen**, und deaktivieren Sie die Kontrollkästchen für alle Warteschlangen für die sie kündigen möchten.
+ 
+    > [!NOTE] 
+    > Mithilfe der Mac-Agenten, Mobile Lync 2013-Clients oder Hybrid-VoIP-Benutzer gehostet lokalen mithilfe von Skype für Business 2015 Server gelangen zu [https://aka.ms/cqsettings](https://aka.ms/cqsettings) der lehnen Sie die Option Zugriff auf.
    
 ### <a name="add-call-agents-to-a-call-queue"></a>Hinzufügen von Telefonisten zu einer Anrufwarteschleife
 
@@ -161,7 +166,7 @@ Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > 
 ![Nummer 2](../images/sfbcallout2.png)<br/><br/>**Wenn die maximale Anzahl von Anrufen erreicht wird** Wenn die Anruf Warteschlange die maximale Größe (unter Verwendung der Einstellung **Maximum von Anrufen in der Warteschlange** festgelegt) erreicht, können Sie auswählen, was passiert, um neue eingehende Anrufe.
 *    **Mit Besetztzeichen trennen**: Der Anruf wird getrennt.
 *    **In diesem Anruf weiterleiten an** Wenn Sie diese Option wählen, müssen Sie diese Optionen:
-     *    **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder aufrufen planen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. <br/>
+     *    **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder aufrufen planen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. <br/> <br/>Informationen zur Lizenzierung für Voicemail erforderlich sind, finden Sie unter [Einrichten von Voicemail Telefonsystem](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
      
         > [!Note]
         > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.<br/>
@@ -175,7 +180,7 @@ Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > 
 ![Nummer 4](../images/sfbcallout4.png)<br/><br/>**Wenn das Zeitlimit eines Anrufs überschritten ist**: Wenn der Anruf das Limit erreicht, das Sie für die Einstellung **Wie lange ein Anruf in der Warteschlange warten kann** festgelegt haben, können Sie auswählen, was mit den in der Anrufwarteschleife wartenden Anrufen geschieht:
 *    **Trennen**: Der Anruf wird getrennt.
 *    **In diesem Anruf weiterleiten an** Wenn Sie diese Option wählen, müssen Sie diese Optionen:
-     *    **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder plant aufrufen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. 
+     *    **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder plant aufrufen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. </br><br/>  Informationen zur Lizenzierung für Voicemail erforderlich sind, finden Sie unter [Einrichten von Voicemail Telefonsystem](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
 
         > [!Note]
         > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.<br/>
@@ -239,3 +244,6 @@ Zum Verwalten einer Anrufwarteschleife benötigen Sie die folgenden Cmdlets.
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 

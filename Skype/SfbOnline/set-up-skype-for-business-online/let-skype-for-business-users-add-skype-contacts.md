@@ -1,5 +1,5 @@
 ---
-title: "Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen"
+title: Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,11 +18,11 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 961fc75aec1c01cbee3199c4c576a42e2c626849
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c9867478474bd344674b1392af4d909931760b8c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen
 
@@ -102,5 +102,5 @@ Skype-Kontakten, die sich mit ihrem Microsoft-Konto (ehemals Windows Live ID) a
   
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

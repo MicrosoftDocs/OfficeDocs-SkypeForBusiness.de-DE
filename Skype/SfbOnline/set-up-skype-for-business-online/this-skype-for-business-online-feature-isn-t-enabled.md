@@ -1,5 +1,5 @@
 ---
-title: "Diese Skype für Business Online Feature ist nicht aktiviert."
+title: Diese Skype für Business Online Feature ist nicht aktiviert.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: "Hier finden Sie mögliche Ursachen und Vorschläge Aktion beim Abrufen einer Skype für Business Online Feature nicht aktiviert ist. "
-ms.openlocfilehash: e6b025ad9e53d520a5e79c380de80e71c5f0fe04
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Hier finden Sie mögliche Ursachen und Vorschläge Aktion beim Abrufen einer Skype für Business Online Feature nicht aktiviert ist. '
+ms.openlocfilehash: 5d0167ed53f5396d3d048815986dea7600f9182f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Diese Skype für Business Online Feature ist nicht aktiviert.
 
@@ -40,5 +40,5 @@ Es ist leider sieht sie wie der Benutzer für dieses Feature lizenziert nicht zu
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Feedback?
-Geben Sie Feedback zu Produkten oder uns Ihre Meinung kennen, finden Sie unter [Skype für Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Verfügbarkeit in Indien"
+title: Verfügbarkeit in Indien
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Indien verfügbar."
+description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Indien verfügbar.
 ms.openlocfilehash: 1243724c6b0a4433a4235a45daf57e92d503beba
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-india"></a>Verfügbarkeit in Indien
 
