@@ -23,11 +23,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Informationen Sie zum Testen oder erwerben Audiokonferenzen (PSTN-Konferenz) Lizenzen für Office 365 zum Einrichten von Telefonkonferenzen, die Personen in einwählen können. '
-ms.openlocfilehash: 1dda3a2ecc24e512e9d614b42292233471525805
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: eec26ca81cf9ee29d0d341720c2fdb353038a1e1
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365"></a>Versuchen Sie es oder Audiokonferenzen in Office 365 kaufen
 
@@ -75,10 +75,7 @@ Wenn Sie ein Volume und Lizenzierung-Kunde sind, können Sie Bezahlung pro Minut
   
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Anbieters von Audiokonferenzen für Personen, die dazu führen oder Besprechungen planen
 
-Wenn Sie eine **Audiokonferenz** -Lizenz an die Personen in Ihrer Organisation führen oder Besprechungen planen zuweisen, werden sie alle Set up und einsatzbereit! (Nicht müssen Sie ihren Anbieter von Audiokonferenzen festgelegt.) 
-  
-> [!NOTE]
-> Wenn Sie ein Drittanbieter-ACP verwenden möchten, wählen Sie **Audiokonferenzen** > **Microsoft-Brücke**. Klicken Sie am unteren Rand der Seite auf, **Wenn Sie einen Drittanbieter - Audiokonferenzen stattdessen konfigurieren möchten, klicken Sie hier**. 
+Wenn Sie eine **Audiokonferenz** -Lizenz an die Personen in Ihrer Organisation führen oder Besprechungen planen zuweisen, werden sie alle Set up und einsatzbereit! (Nicht müssen Sie ihren Anbieter von Audiokonferenzen festgelegt.)  
   
 ## <a name="step-3-other-admin-tasks"></a>Schritt 3: Andere Administratoraufgaben
 

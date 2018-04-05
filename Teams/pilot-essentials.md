@@ -10,11 +10,11 @@ description: Anleitung zum Starten eines Microsoft Teams-Pilotprojekts, um die g
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: ccb09692991eeacc43d035389d245a0735030f1c
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Microsoft Teams als Pilotprojekt neben Skype for Business
 ============================================
@@ -199,7 +199,7 @@ Basierend auf den Ergebnissen finden Sie im Folgenden einige empfohlene Pfade, d
 <br>-und-<br><br>
 <li>Zufriedenstellende Netzwerkintegrität</li></ul></td>
 <td align="left"><p>Gleichzeitige Verwendung von Teams und Skype for Business für einige bzw. alle verfügbaren Szenarien. Um die Lernkurve zu vereinfachen, empfehlen wir ein gestaffeltes Rollout der Funktionen und raten dringend von einer einmaligen Komplettbereitstellung ab.</p>
-<p>Weitere Informationen zur [gleichzeitigen Ausführung von Skype for Business und Teams](guidance-SkypeforBusiness.md).</p>
+<p>Hier erfahren Sie mehr über die [Reise Upgrade und Koexistenz von Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>Laden Sie <a href="https://go.microsoft.com/fwlink/?linkid=859044">Vorlagen für Benutzerakzeptanz</a> herunter, um die Kommunikation mit Ihren Endbenutzern zur Ausführung der Programme nebeneinander zu vereinfachen.</p></td>
 </tr>
 <tr class="odd">
@@ -207,7 +207,7 @@ Basierend auf den Ergebnissen finden Sie im Folgenden einige empfohlene Pfade, d
 <br>-und-<br><br>
 <li>Zufriedenstellende Netzwerkintegrität</li></ul></td>
 <td align="left"><p>Gleichzeitige Verwendung von Teams und Skype for Business für alle Szenarien, wobei die Benutzer angehalten werden, häufiger Teams einzusetzen (falls möglich) Wenden Sie sich ebenfalls an Ihr Kontoteam oder an den Microsoft Support, um mitzuteilen, dass Ihre Organisation bereit für den Wechsel zu Teams ist.</p>
-<p>Weitere Informationen zur [gleichzeitigen Ausführung von Skype for Business und Teams](guidance-SkypeforBusiness.md).</p>
+<p>Hier erfahren Sie mehr über die [Reise Upgrade und Koexistenz von Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>Laden Sie <a href="https://go.microsoft.com/fwlink/?linkid=859044">Vorlagen die Benutzerakzeptanz</a> herunter, um die Kommunikation mit Ihren Benutzern zur Ausführung der Programme nebeneinander zu vereinfachen.</p></td>
 </tr>
 <tr class="even">

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: Zum Aktivieren der Remote Call Control und Funktionen in der Office 365-Cloud (Private Branch Exchange, PBX) Hier finden Sie Informationen zu Microsoft Telefonsystem in Office 365 (PBX zu Cloud)-Lösungen.
-ms.openlocfilehash: cb4a1548e973d264d30c1dafb966863952b7e6d4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: abef43d3d90f14272beb2eb71d2cc344b80db8bf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>Planen Sie Ihr Telefonsystem in Office 365 (PBX zu Cloud)-Lösung
  
@@ -133,9 +133,8 @@ Bevor Sie Ihre entscheiden darüber, welche Lösung für Ihr Unternehmen geeigne
 
 ![Cloud PBX Entscheidungs-Flussdiagramm 2](../../media/6a2d15e6-2846-433f-b449-2f511a13c234.png)
   
-|||
-|:-----|:-----|
 |**Ihre Situation** <br/> |**Telefonsystem in Office 365-Lösung** <br/> |
+|:-----|:-----|
 |![Beschriftung für Endpunkt A](../../media/85b51a4e-3984-4ef2-bacb-586f998da632.png)PBX-System bietet einzigartigen Merkmale, die Sie benötigen, die beibehalten werden.  <br/> |**Untersuchen Sie die Möglichkeit, Ihre Nebenstellenanlage durch Skype for Business Server zu ersetzen.** Sie können Skype für Business Server Enterprise-VoIP für Ihre Organisation, einschließlich PSTN-Anbindung über Ihre lokalen Operator als vollständige PBX-System verwenden. Wenn die Notwendigkeit einer Nebenstellenanlage in der Zukunft Änderungen enthält, können Sie in Office 365 Telefonsystem überdenken. <br/> Weitere Informationen zu Microsoft Enterprise-VoIP-Lösungen finden Sie unter [Planen Ihrer Enterprise-VoIP-Lösung in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).  <br/> Wenn nicht alle Ihre Benutzer benötigen einzigartigen Merkmale von bereitgestellt durch Ihre aktuelle Nebenstellenanlage, verschieben diese Benutzer in Skype für Business Online in Betracht.  <br/> |
 |![Beschriftung für Endpunkt B](../../media/f47d89d4-5f3a-4dfc-9c29-f09295e4a912.png)Der Nebenstellenanlage bietet keine einzigartigen Merkmale, die Sie benötigen, die beibehalten werden, Planen von Aufrufen in Office 365 in Ihrer Region verfügbar ist und Sie Microsoft bereitgestellten PSTN-Dienste verwenden möchten.  <br/> |**Abonnieren Sie den Plan in Office 365 aufrufen.** Alle Ihre Benutzer können in der Cloud auf Skype for Business Online verwaltet werden und Ihr Unternehmen kann sowohl Nebenstellen- als auch Festnetzdienste aus der Microsoft Cloud heraus in Anspruch nehmen. Wenn Ihre Benutzer bereits Telefonnummern aus Ihrem aktuellen Netzbetreiber verfügen, können die Telefonnummern in Telefonsystem in Office 365 übertragen werden. Je nach Bedarf können Sie zusätzliche Telefonnummern von Microsoft beziehen. <br/> Weitere Informationen finden Sie unter [Neuigkeiten PSTN aufrufen?](https://support.office.com/en-us/article/What-is-PSTN-calling-3dc773b9-95e0-4448-b2f1-887c54022429?ui=en-US&amp;rs=en-US&amp;ad=US) <br/> |
 |![Beschriftung für Endpunkt C](../../media/c9ba0a6f-d3bb-41e0-925b-0e94cf59e034.png)Der Nebenstellenanlage bietet keine einzigartigen Merkmale, die Sie benötigen, die beibehalten werden, Planen von Aufrufen in Office 365 ist nicht verfügbar in Ihrer Region und Sie einer vorhandenen Lync oder Skype für Business Server-Bereitstellung verfügen.  <br/> In diesem Szenario ist es auch möglich, dass alle Benutzer in den Vereinigten Staaten werden, aber Sie können nicht erwägen, um Microsoft bereitgestellten PSTN aus anderen Gründen – beispielsweise vertragliche Verpflichtungen mit Ihren vorhandenen Netzbetreiber.  <br/> |**Verbinden Sie Ihre vorhandenen Skype für Business Server-Bereitstellung mit Telefonsystem in Office 365.** PSTN-Anbindung über Enterprise-VoIP auf Ihrem lokalen Skype für die Bereitstellung von Business Server bereitgestellt wird, aber Ihrer Organisation kann PBX-Dienste von Microsoft-Cloud empfangen. Sie können Ihrer Benutzer Sprachfunktionen beibehalten, wenn Sie beginnen, die sie in Skype für Business Online zu verschieben. Sie können Ihre Benutzer im eigenen Tempo migrieren, weil Sie wissen, das ihre VoIP-Funktionen weiterhin bereitstehen – unabhängig davon, wo die Benutzer verwaltet werden. <br/> Wenn Sie sich, dass Sie Ihre aktuelle Netzbetreiber lassen können entscheiden, können in der Zukunft der Cloud-Benutzer mit vollständigen Telefonsystem in Office 365 mit Aufrufen planen, mit Microsoft bietet alle Funktionen von Festnetzanlage und des Microsoft port.  <br/> Weitere Informationen zu dieser Option finden Sie unter [Planen von Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype für Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md) und [Aktivieren von Benutzern für Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype für Business Server ](enable-users-for-phone-system.md).  <br/> |

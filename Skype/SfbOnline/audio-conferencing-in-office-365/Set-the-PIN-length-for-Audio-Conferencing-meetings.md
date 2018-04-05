@@ -22,27 +22,35 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 442ec6f4395b71acaf3296bdd6ec6317451dc36f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: d8e6073bd60612131e54e10be6498370d8dfe3bb
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Legen Sie die PIN-Mindestlänge für Audiokonferenzen Besprechungen
 
-Wenn Sie Audiokonferenzen im für Skype für Geschäftskunden und Microsoft-Teams, einrichten, erhalten Sie eine audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen. Die Telefonnummer, die Sie festlegen, wird auf die Besprechung einladen für Skype für Geschäfts- und Microsoft-Teams, apps enthalten sein.
+Wenn Sie Audiokonferenzen für Skype für Geschäftskunden und Microsoft-Teams, einrichten, erhalten Sie eine audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen. Die Telefonnummer, die Sie festlegen, wird auf die Besprechung einladen für Skype für Geschäfts- und Microsoft-Teams, apps enthalten sein.
   
 Die audiokonferenzbrücke beantwortet einen Anruf für Personen, die in einer Besprechung mit einem Telefon einwählen. Von einer automatischen Telefonzentrale und aktivieren Sie dann je nach Ihrer Einstellungen für den Anrufer mit Ansagen Fragen, können Benachrichtigungen wiedergeben, und bitten Anrufer, ihren Namen aufzuzeichnen. **Microsoft-Brücke Einstellungen** können Sie die Einstellungen für Benachrichtigungen für Besprechungen zu ändern und die Besprechung-Teilnahme an, und legen Sie die Länge der Stifte, die von Besprechungsorganisatoren verwendet werden. Besprechungsorganisatoren verwenden PINs Besprechungen starten, wenn die Besprechung mithilfe der Skype für Business oder Microsoft-Teams app aufgenommen werden können.
   
 ## <a name="setting-the-pin-length"></a>Konfigurieren der PIN-Länge
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
+
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
+
+3. Wählen Sie im Bereich **Bridge Einstellungen** unter **PIN-Mindestlänge**die Anzahl der Ziffern, die Sie für die PIN verwenden möchten.
+
+4. Klicken Sie auf **Anwenden**.
+
+**Verwenden des Skype for Business Admin Center**
+ 
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. Klicken Sie unter **Sicherheit** > **PIN-Mindestlänge**, wählen Sie die Anzahl der Nachkommastellen für die PIN werden soll, und klicken Sie dann auf **Speichern**.
+2. Klicken Sie unter **Sicherheit** > **PIN-Mindestlänge**, wählen Sie die Anzahl der Nachkommastellen für die PIN werden soll, und klicken Sie dann auf **Speichern**.
     
 > [!NOTE]
 > Eine PIN hat nichts mit einer Konferenz-ID zu tun. Konferenz-IDs werden von Anrufern bei der Teilnahme an einer Besprechung verwendet. Sie dienen der Kennzeichnung der Besprechung. Anhand der PIN wird ein Anrufer als Organisator der Besprechung authentifiziert. 

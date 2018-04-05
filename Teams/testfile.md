@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: c6ed5d7cd16456414991fd08c127cddf3653a40c
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: c3d89338f761f8937267b79774ea39a7c88ce4b2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Willkommen bei den Office-Inhalten auf „docs.microsoft.com“
 ## <a name="this-is-a-level-2-heading"></a>Dies ist eine Überschrift der Ebene 2.
@@ -31,7 +31,6 @@ Es ist möglich, eine Markdowntabelle mit HTML-Symbolen und nur dem Linebreak-Ta
 
 <p>Ich zeige „&#9744“; an.</p>
 <p>Ich zeige „&#x2610;“ an.</p>
-
 
 Die Microsoft Teams-Inhalte sind jetzt verfügbar.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)

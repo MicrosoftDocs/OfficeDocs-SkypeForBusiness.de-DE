@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: f01d9457fee181615b8a30467ec558eb36a32e7a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6f1c5c9c86f4b0296340c9185acdc9d505baeda7
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Aktivieren der Aufzeichnung des Benutzernamens beim Beitreten einer Besprechung
 
@@ -36,19 +36,28 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Festlegen, ob Anrufer ihren Namen aufzeichnen sollen
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
+
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
+
+3. Aktivieren oder Deaktivieren von **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden**.
+
+4. Klicken Sie auf **Anwenden**.
+
+
+**Verwenden die Skype für Business-Verwaltungskonsole**
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. Unter **Teilnahme an einer Besprechung auftreten**finden Sie unter das Kontrollkästchen **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden**.
+2. Unter **Teilnahme an einer Besprechung auftreten**finden Sie unter das Kontrollkästchen **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden**.
     
   - **Aktivierte** Anrufer werden aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen. Diese Option ist standardmäßig aktiviert.
     
   - **Nicht aktivierte** Anrufer werden nicht aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen.
     
-5. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
+3. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
@@ -62,7 +71,7 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
     
 - Windows PowerShell bietet gegenüber der alleinigen Verwendung des Office 365 Admin Center unzählige Vorteile in Bezug auf Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. In den folgenden Themen erfahren Sie mehr über diese Vorteile: 
     
-  - [Eine Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

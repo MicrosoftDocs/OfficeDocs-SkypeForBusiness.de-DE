@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 0cf1eabd25a6be5d6104c2593e5bc286d15d59f0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>E-Mails an Benutzer gesendet werden, wenn ihre Einstellungen ändern
 
@@ -104,21 +104,27 @@ Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microso
 
 Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails an die Benutzer gesendet, auch nicht, wenn ihnen eine Lizenz zugewiesen wird. In diesem Fall die Konferenz-ID default Conferencing Telefonnummer und wichtiger, ihre PIN-Audiokonferenzen wird nicht an den Benutzer gesendet werden. Wenn dies geschieht, müssen Sie dem Benutzer eine separate E-Mail schreiben oder ihn anrufen, um ihm diese Mitteilung zu machen.
   
-In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu empfangen von e-Mail für Audiokonferenzen verhindern möchten, können Sie die Skype Business-Verwaltungskonsole oder Windows PowerShell. 
+In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu den Empfang von e-Mails für Audiokonferenzen verhindern möchten, können Sie Microsoft-Teams, die Skype Business-Verwaltungskonsole oder Windows PowerShell. 
+
+**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
+
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
+
+3. Klicken Sie im Bereich **Bridge-Einstellungen** aktivieren oder Deaktivieren von **Benutzern Wenn Ändern ihrer Einstellungen für die Zugriffsnummer für Einwahl-e-Mails automatisch gesendet**.
+
+4. Klicken Sie auf **Anwenden**.
   
- **Verwenden des Skype for Business Admin Center**
-  
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+**Verwenden des Skype for Business Admin Center**
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
+2. Klicken Sie auf der Seite **Einstellungen für Microsoft-Brücke** de- **automatisch e-Mails an Benutzer senden, wenn Ändern ihrer Einstellungen für die Audiokonferenz**. 
     
-4. Klicken Sie auf der Seite **Einstellungen für Microsoft-Brücke** de- **automatisch e-Mails an Benutzer senden, wenn Ändern ihrer Einstellungen für die Audiokonferenz**. 
+3. Klicken Sie auf **Speichern**. 
     
-5. Klicken Sie auf **Speichern**. 
-    
- **Verwenden von Windows PowerShell**
+**Verwenden von Windows PowerShell**
   
 1. Führen Sie das Folgende aus, um das Senden von E-Mails an alle Benutzer zu deaktivieren:
     

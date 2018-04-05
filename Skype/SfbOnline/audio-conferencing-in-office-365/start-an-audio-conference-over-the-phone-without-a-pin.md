@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: b4244647674f25a10b6ca447a6ee8b4d23b36a9f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 7c6f0e70780b04e75be52ead1eaf08602bcba003
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Beginnen einer Audio-Konferenz über das Telefon ohne PIN
 
@@ -38,19 +38,29 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Aktivieren oder Deaktivieren anonymer Anrufer für die Teilnahme an einer Besprechung
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+
+1. Klicken Sie im linken Navigationsbereich auf **Benutzer**. 
+
+2. Wählen Sie einen Benutzer in der Liste aus, und klicken Sie dann auf am oberen Rand der Seite **Bearbeiten** . 
+
+3. Klicken Sie auf das Menü neben **Konferenz Brücken**, und klicken Sie dann auf **Bearbeiten**.
+
+4. Klicken Sie im Bereich **Konferenz Bridge Anbieter** aktivieren Sie oder deaktivieren Sie **zulassen, die nicht authentifizierte Anrufer, um die ersten Personen in einer Besprechung werden. Wenn nicht, klicken Sie dann sie im Wartebereich wartet, bis ein authentifizierter Benutzer Beitritt**.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+4. Klicken Sie auf **Anwenden**. 
+
+**Verwenden des Skype for Business Admin Center**
     
-3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**. 
+1. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**. 
     
-4. Klicken Sie in der Liste Wählen Sie den Benutzer aus, und klicken Sie im Bereich Aktion auf **Bearbeiten**. 
+2. Klicken Sie in der Liste Wählen Sie den Benutzer aus, und klicken Sie im Bereich Aktion auf **Bearbeiten**. 
     
-5. Eigenschaftenseite des Benutzers unter **Besprechungsoptionen**aktivieren oder Deaktivieren von **zulassen, die nicht authentifizierte Anrufer, um die ersten Personen in einer Besprechung werden. Wenn nicht, klicken Sie dann sie im Wartebereich wartet, bis ein authentifizierter Benutzer Beitritt**.
+3. Eigenschaftenseite des Benutzers unter **Besprechungsoptionen**aktivieren oder Deaktivieren von **zulassen, die nicht authentifizierte Anrufer, um die ersten Personen in einer Besprechung werden. Wenn nicht, klicken Sie dann sie im Wartebereich wartet, bis ein authentifizierter Benutzer Beitritt**.
     
-6. Klicken Sie auf **Speichern**. 
+4. Klicken Sie auf **Speichern**. 
     
- **Aktivieren oder Deaktivieren der anonyme Anrufern für alle Ihre Benutzer Besprechungen mithilfe von Windows Powershell**
+ **Mithilfe von Windows Powershell**
   
 - Führen Sie Folgendes aus: 
     
@@ -86,7 +96,7 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
     
 - Windows PowerShell bietet gegenüber einer alleinigen Verwendung von Office 365 Admin Center in Bezug auf Geschwindigkeit, Einfachheit und Produktivität unzählige Vorteile, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. In den folgenden Themen erfahren Sie mehr über diese Vorteile: 
     
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Eine Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

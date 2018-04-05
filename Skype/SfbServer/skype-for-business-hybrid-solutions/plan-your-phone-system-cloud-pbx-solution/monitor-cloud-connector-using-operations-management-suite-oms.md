@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lesen Sie in diesem Thema erfahren, wie Ihre Cloud-Connector-Version 2.1 und höher Bereitstellung überwachen, mithilfe von Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 5e03504f27eadbb235c1b5c84e8c7a19d66aea7d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud-Connector mithilfe von Operationen Management Suite (OMS)
  
@@ -221,9 +221,8 @@ Um Probleme mit Ereignisprotokollen und Leistungsindikatoren zu ermitteln:
     
 Die folgende Tabelle enthält die Dienste, dass Microsoft empfiehlt die Überwachung durch die Stopp und Start-Ereignis-IDs aufgelistet:
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Dienstname  <br/> |Ziel-Serverrolle  <br/> |Ereignis-ID beenden  <br/> |Start-Ereignis-ID  <br/> |
+|:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |Vermittlungsserver  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |Edgeserver  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |Edgeserver  <br/> |19003  <br/> |19002  <br/> |
@@ -231,9 +230,8 @@ Die folgende Tabelle enthält die Dienste, dass Microsoft empfiehlt die Überwac
    
 Die folgende Tabelle enthält die Netzwerkprobleme, die Microsoft überwachen empfiehlt:
   
-||||||
-|:-----|:-----|:-----|:-----|:-----|
 |Name des Monitors  <br/> |Ziel-Serverrolle  <br/> |Ereignis-ID-Ausdruck Erfolg  <br/> |Ausdruck, der Ereignis-ID  <br/> |Fehler bei diesem Beispiel wird  <br/> |
+|:-----|:-----|:-----|:-----|:-----|
 |Vermittlungsserver zu Verbindungsproblemen gateway  <br/> |Vermittlungsserver  <br/> |25062 || 25002  <br/> |25061  <br/> |Fehler bei MS PING (Option) Gateway  <br/> |
 |Vermittlungsserver an Gateway rufen Sie nach Abschluss Fehler  <br/> |Vermittlungsserver  <br/> |25064 || 25002  <br/> |25063  <br/> |MS möchten, müssen Sie Gateway aufrufen, ist fehlgeschlagen.  <br/> |
 |Kritische Netzwerkprobleme  <br/> |Edgeserver  <br/> |14353 || 12288  <br/> |14624  <br/> |Transport TLS konnte nicht gestartet werden auf lokale IP-Adresse 192.168.231.14 an Port 5061  <br/> |

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Zusammenfassung: Implementieren IPv6 vor der Installation von Skype für Business Server 2015.'
-ms.openlocfilehash: e91b0a3afabf8088d6fed2f21124fb17a4f7e94f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 40c5209a582aeb55657e8e1f0b8971f2c8ed79d0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Plan für IPv6 in Skype for Business
  
@@ -128,9 +128,8 @@ Die folgende Tabelle zeigt die Matrix der unterstützten zwischen den Front-End-
   
 **Front-End-Pool und Matrix der Edge-Pool (interner Edge)**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Edgepool: IPv4** <br/> |**Edgepool: Dualer Stapel** <br/> |**Edgepool: IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Front-End-Pool: IPv4** <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |**Front-End-Pool: Dualer Stapel** <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |**Front-End-Pool: IPv6** <br/> |Nein  <br/> |Nein  <br/> |"Ja"\*  <br/> |
@@ -141,9 +140,8 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und exter
   
 **Edgepool (interner Edge) und Edge-pool-Matrix (externer Edge)**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Edgepool (Externer Edge): IPv4** <br/> |**Edgepool (Externer Edge): Dualer Stapel** <br/> |**Edgepool (Externer Edge): IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Edgepool (Interner Edge): IPv4** <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |**Edgepool (Interner Edge): Dualer Stapel** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |
 |**Edgepool (Interner Edge): IPv6** <br/> |Nein  <br/> |Nein  <br/> |"Ja"\*  <br/> |

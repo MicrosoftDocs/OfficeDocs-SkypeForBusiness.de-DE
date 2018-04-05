@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: In diesem Artikel erfahren Sie, welche Onlinetopologien und lokalen Topologien mit moderner Authentifizierung in Skype for Business unterstützt werden und welche Sicherheitsmerkmale die Topologien jeweils aufweisen.
-ms.openlocfilehash: 13721b9d489b85fa6895469310240eebccc180ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a6be001bf1aeeeba9823c291ee9726c33ec9009a
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Mit moderner Authentifizierung unterstützte Skype for Business-Topologien
  
@@ -73,9 +73,8 @@ Betrachten wir zunächst MA mit Skype for Business in rein lokalen Topologien un
 > [!IMPORTANT]
 > Sind Sie bereit für Business Online modernen Authentifizierung in Skype einrichten? Die Schritte zum Aktivieren dieser Funktion die richtige Wahl ist [hier](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Topologiename  <br/> |Beispiel  <br/> |Beschreibung  <br/> |Unterstützt  <br/> |
+|:-----|:-----|:-----|:-----|
 |Nur Cloud  <br/> |![Unterstützung für SFB mit MA-Topologie, nur Cloud.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Verwaltung der Benutzer/Speicherort der Postfächer: online   <br/> |MA ist für EXO und SFBO aktiviert.  <br/> Daher ist Azure AD der Autorisierungsserver.  <br/> |Mehrstufige Authentifizierung (mehrstufiger Authentifizierung das), Client-zertifikatbasierte Authentifizierung (CLIENTZERTIFIKATS-) bedingten Zugriff (CA) / Mobile Application Management (MAM) mit Intune. \*  <br/> |
 |Nur lokal  <br/> |![Unterstützung für SFB mit MA-Topology, nur lokal.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Verwaltung der Benutzer/Speicherort der Postfächer: lokal  <br/> |MA ist für SFB (lokal) aktiviert.  <br/> Daher ist AD FS der Autorisierungsserver.  <br/> Details zur Konfiguration finden Sie unter [in diesem Artikel.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (Nur Windows-Desktop – mobile Clients werden nicht unterstützt.) Keine Exchange-Integrationsfunktionen.  <br/> |
    
@@ -84,9 +83,8 @@ Betrachten wir zunächst MA mit Skype for Business in rein lokalen Topologien un
   
 Bei gemischten Topologien sind Kombinationen von SFB-Hybriden mit geteilter Domäne beteiligt. Diese gemischten Topologien werden zurzeit unterstützt:
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Topologiename  <br/> |Beispiel  <br/> |Beschreibung  <br/> |Unterstützt   <br/> |
+|:-----|:-----|:-----|:-----|
 |Gemischt 1  <br/> |![Unterstützung für SFB mit MA-Topologie, Gemischt 1 (EXO + SFB).](../../media/7b2e607a-c83a-4bb3-9b48-a43566516129.PNG)           <br/> Verwaltung der Benutzer/Speicherort der Postfächer: EXO und SFB  <br/> |MA ist für SFB nicht aktiviert, in dieser Topologie sind keine MA-Funktionen für SFB verfügbar.  <br/> |Keine MA-Funktionen für SFB  <br/> |
 |Gemischt 2  <br/> |![Unterstützung für MA mit gemischter S4B-Topologie 2, SFBO plus MA in lokaler Zusammenarbeit mit EXCH.](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> Verwaltung der Benutzer/Speicherort der Postfächer: EXCH und SFBO  <br/> |Verwaltungs-Agent ist auf SFBO nur für. Der autorisierungsserver ist Azure AD für Benutzer in SFBO, aber AD für EXCH lokal verwaltet.  <br/> |Mehrstufiger Authentifizierung das, CLIENTZERTIFIKATS-Zertifizierungsstelle/MAM mit Intune.\*  <br/> |
 |Gemischt 3  <br/> |![Unterstützung für MA mit SFB, EXO mit aktiviertem MA plus lokalem EXCH und SFB.](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> Verwaltung der Benutzer/Speicherort der Postfächer: EXO + SFB oder EXCH + SFB  <br/> |In dieser Topologie sind keine MA-Funktionen für SFB verfügbar.  <br/> |Keine MA-Funktionen für SFB  <br/> |

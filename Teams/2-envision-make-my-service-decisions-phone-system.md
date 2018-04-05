@@ -1,5 +1,5 @@
 ---
-title: Make Phone System with Calling Plans service decisions - Microsoft Teams
+title: Stellen Sie Telefonsystem mit Aufrufen plant Service Entscheidungen - Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
@@ -7,66 +7,68 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Choose from calling plans and licensing, configure emergency locations and features like voicemail and caller ID, acquire or transfer phone numbers.
+description: Wählen Sie aus dem Aufruf von Plänen und Lizenzierung, notfallstandorten und Funktionen wie die Voicemail und Anrufer-ID konfigurieren, erwerben oder Rufnummern übertragen.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e382992f3170f16718eac8d2c6f0902dbaff3b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 4b7b1aaff60d6aa35fa10334c8d55e6a057eccaf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="make-my-service-decisions"></a>Make my service decisions
+# <a name="make-my-service-decisions"></a>Meine Service treffe
+
+Um die technischen Implementierung der Telefonsystem mit Aufrufen plant planen, müssen Sie eine Reihe von Dienst Entscheidungen zum besseren vorausschauendes bereiten Sie Ihre Organisation zum Implementieren einer Lösung, die Ihren definierten geschäftlichen Anforderungen erfüllt vornehmen.
 
 ## <a name="calling-in-teams"></a>Anrufe in Microsoft Teams
 
-With Microsoft Teams, your users can place and receive phone calls to or from the public switched telephone network (PSTN). Your users can use their own dedicated phone numbers for placing and receiving domestic and international phone calls from Teams client applications, with advanced features that include voicemail and emergency calling (enhanced 911).
+Mit Microsoft-Teams können Ihre Benutzer tätigen und Entgegennehmen von Anrufen zu oder aus dem öffentlichen Telefonfestnetz (PSTN). Ihre Benutzer können ihre eigenen dedizierten Rufnummern für tätigen und Empfangen von nationalen und internationalen Telefonanrufe in Teams-Clientanwendungen mit erweiterten Features, die Voicemail und notrufdienste (Erweiterte 911) enthalten.
 
 > [!NOTE]
-> The latest Teams roadmap for identifying Teams Audio Conferencing features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
+> Die neueste Teams-Roadmap für die Identifizierung von Teams Telefonsystem mit Aufrufen planen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/skype2teamsroadmap>.
 
-## <a name="phone-system-in-teams"></a>Phone System in Teams
+## <a name="phone-system-in-teams"></a>Telefonsystem in Teams
 
-For Teams users to be able to place and receive PSTN calls, they need to be enabled for Phone System, a feature in Office 365.
+Teams benötigen können PSTN-Anrufe tätigen und empfangen diese Benutzer, für ein Feature in Office 365 Telefonsystem aktiviert werden soll.
 
-To enable connectivity to the PSTN, your organization can use Microsoft as its telecommunications service provider. Eventually, you’ll also have the option to “bring your own” telecommunications service provider to enable connectivity to PSTN for Phone System.
+Um die Konnektivität mit dem PSTN zu aktivieren, kann Ihrer Organisation Microsoft als Telekommunikation Dienstanbieter verwenden. Schließlich müssen Sie auch die Option "bringen eigene" Telekommunikation-Dienstanbieter um Konnektivität mit PSTN für Telefonsystem aktivieren.
 
 > [!IMPORTANT]
-> The ability to choose your own telecommunications service provider for Phone System will be available in the future. To learn more about the projected timeline, please review the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
+> Die Möglichkeit, Ihre eigenen Telekommunikation Dienstanbieter für Telefonsystem wird in der Zukunft verfügbar sein. Weitere Informationen zu der projizierten Zeitachse überprüfen Sie die [Skype für Unternehmen in Microsoft Teams Funktionen Roadmap](https://aka.ms/skype2teamsroadmap).
 
 ## <a name="phone-system-with-calling-plans"></a>Telefonsystem mit Anrufplänen
 
-To use Microsoft as your telecommunications service provider, you need to obtain Calling Plan licenses and assign them to your Phone System users.
+Um Microsoft wie Ihre Telekommunikation Internetdienstanbieter zu verwenden, müssen Sie planen der Aufruf von Lizenzen zu erhalten, und weisen Sie diese den Benutzern Telefonsystem.
 
-There are two major types of calling plans:
+Es gibt zwei Haupttypen von aufrufende Plänen:
 
--   Domestic calling plan
+-   Nationalen aufrufende plan
 
--   Domestic and international calling plan
+-   Nationalen und internationalen Plan aufrufen
 
-Each type of calling plan allocates a certain number of call minutes per month to each user who has been assigned the license. When the call minutes allocation is exhausted, the user won’t be able to place outbound calls—except for emergency calls—until the next month’s billing cycle. If you want users to be able to continue to place outbound call even after they’ve exhausted their allocation of call minutes, or to let users who have a domestic calling plan place international calls, you can set up Communications Credits for your organization.
+Jede Art von aufrufende Plan weist eine bestimmte Anzahl von Minuten pro Monat Aufruf an jeden Benutzer, die die Lizenz zugewiesen wurde. Wenn die Anruf Minuten Zuweisung leer ist, der Benutzer nicht möglich, ausgehende Anrufe tätigen – mit Ausnahme von Notrufen – bis vermutlich im nächste Monat Cycle Abrechnung des. Wenn Benutzer weiterhin ausgehenden Anrufe tätigen, auch nach haben sie deren Zuordnung der Minuten pro Anruf leer, oder um Benutzern ermöglichen, die über einen nationalen aufrufende Plan Ausland telefonieren verfügen, Sie Communications haben für Ihre Organisation einrichten können werden soll.
 
 <!--ENDOFSECTION-->
 
 ## <a name="availability-of-calling-plans"></a>Verfügbarkeit von Anrufplänen
 
-Before you plan for the implementation of Calling Plans in Teams, verify that the Calling Plans service is available in your area by reviewing [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Vor der Planung für die Implementierung von Aufrufen in Teams plant, stellen Sie sicher, dass der Aufruf von plant Dienst verfügbar in Ihrer Region durch die Überprüfung von [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 > [!IMPORTANT]
-> Due to legal constraints, for Calling Plans to be available to multinational organizations, the contract for Office 365 subscriptions must be based in a country or region where the Calling Plans service is available, or where the Calling Plans service can be purchased.
+> Aufgrund der rechtlichen Nebenbedingungen für aufrufen plant, internationale Unternehmen zur Verfügung muss der Vertrag für Office 365-Abonnements in einem Land oder Region basieren, wenn der Dienst aufrufen Pläne verfügbar ist oder der Dienst aufrufen plant werden können erworben haben.
 
-After confirming that your organization can obtain the Calling Plans service, compile the list of user locations or offices where you’ll be implementing the Calling Plans service, based on the list of available countries and regions.
+Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen plant erhalten die Liste der Standorte oder Büros, in dem Sie den Dienst aufrufen plant, basierend auf der Liste der verfügbaren Ländern und Regionen implementieren können.
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide which user locations or offices you’ll implement the Calling Plans service in.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Document the user locations or offices to be enabled for the Calling Plans service.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Standorte oder Büros aufrufen plant Sie implementieren, werden in service.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Standorte oder Büros für den Aufruf von plant-Dienst aktiviert werden soll.</li></ul>|
 
 > [!TIP]
-> Below is an example of a Phone System with Calling Plans site enablement list.
->|Niederlassung   |Standort |Phone System service  |
+> Es folgt ein Beispiel für ein Telefonsystem mit Aufrufen plant Websiteliste-Aktivierung.
+>|Niederlassung   |Standort |Phone-Dienst  |
 >|---------|---------|---------|
 >|One Epping Road|Australien|Legacy-PSTN-Dienst|
 >|100 Cyberport Road|Hong Kong SAR (香港特別行政區)|Legacy-PSTN-Dienst|
@@ -78,16 +80,16 @@ After confirming that your organization can obtain the Calling Plans service, co
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Telefonnummern und Notfallstandorte
 
-With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dialing (DID) phone number and a corresponding validated emergency address. Review [Manage cloud voice telephone numbers](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) to plan the phone number acquisition for your Calling Plans implementation.
+Mit Aufrufen in Office 365-Pläne muss jeder Benutzer in Ihrer Organisation eine eindeutige direkte nach innen einwählen Telefonnummer (DID) und eine entsprechende überprüfte Notfall Adresse haben. Überprüfen Sie [Verwalten Cloud VoIP Telefonnummern](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) klicken, um das Telefon Nummer Erwerb für die Implementierung des Plans aufrufen planen.
 
-When you’re configuring phone numbers for Calling Plans, you must assign an emergency address to each telephone number before you assign the number to a user. Dieser Schritt ist für die Unterstützung von Notrufen erforderlich. The emergency address must be validated to ensure that it’s in the correct format to be used by emergency response services.
+Beim Konfigurieren von Telefonnummern für den Aufruf von plant müssen Sie eine Notfall Adresse an jede Telefonnummer zuweisen, bevor Sie die Nummer, die einem Benutzer zuweisen. Dieser Schritt ist für die Unterstützung von Notrufen erforderlich. Die Notfall-Adresse muss überprüft werden, um sicherzustellen, dass es im richtigen Format von den Diensten für Notfallmaßnahmen geeignet ist.
 
 > [!IMPORTANT]
-> Emergency Services calling operates differently in the Calling Plans service than in traditional telephone services. It’s important that you understand these differences and communicate them to all users. See [Emergency Calling Terms and Conditions](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions) for more details.
+> Notdienste aufrufen funktioniert anders im Dienst aufrufen plant als in herkömmlichen Telefondienste. Es ist wichtig, dass Sie diese Unterschiede und allen Benutzern zu kommunizieren. Einzelheiten finden Sie unter [Emergency Aufrufen von allgemeinen Geschäftsbedingungen](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions) .
 
-In addition to supplying a validated emergency address, you can define emergency locations and associate them with the validated emergency address to give a more exact location within an address. Ein Notfallstandort ist meist die Gebäudenummer, das Stockwerk, der Gebäudeflügel oder die Nummer des Zimmers, in dem sich der Benutzer befindet.
+Zusätzlich zur Bereitstellung einer validierten Notfall Adresse, können Sie notfallstandorten definieren und die überprüften Notfall-Adresse Geben Sie eine genauere Position innerhalb einer Adresse zuordnen. Ein Notfallstandort ist meist die Gebäudenummer, das Stockwerk, der Gebäudeflügel oder die Nummer des Zimmers, in dem sich der Benutzer befindet.
 
-To learn more about emergency locations in relation to Calling Plans, review the following articles:
+Weitere Informationen zum notfallstandorten im Verhältnis zum Aufrufen von plant, überprüfen Sie in den folgenden Artikeln:
 
 -   [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
@@ -96,44 +98,44 @@ To learn more about emergency locations in relation to Calling Plans, review the
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the granularity of emergency location information to be collected for user locations or offices in scope for the Calling Plans implementation.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Document the detailed emergency address and emergency locations for each user location or office in scope for the Calling Plans implementation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, die Granularität von Notfall Standortinformationen für Standorte oder Büros im Bereich für die Implementierung plant aufrufen gesammelt werden.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die ausführliche Notfall Adresse und notfallstandorten für jeden Benutzerstandort oder Office im Bereich für die Implementierung plant aufrufen.</li></ul>|
 
 > [!TIP]
-> You can use the following template to document the details of phone numbers and emergency location details.
->|Benutzer |Emergency location and address |Phone number |
+> Die folgende Vorlage können Sie um die Details der Telefonnummern und Details zum Besprechungsort Notfall zu dokumentieren.
+>|Benutzer |Notruf Speicherort und Adresse |Telefonnummer |
 >|-----|-------------------------------|-------------|
->|Emily Braun |1034/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+44 23 4567 8901 |
->|Lidia Holloway |1065/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 89112 |
->|Louis Lahr |1023/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+44 23 4567 8921 |
+>|Emily Braun |1034/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8901 |
+>|Lidia Holloway |1065/32 London Bridge Straße, London, SE1, Vereinigtes Königreich |+ 44 23 4567 89112 |
+>|Louis Lahr |1023/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8921 |
 >|Marcel Beauchamp |07E15D/39 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Frankreich | TBA |
->|Rachelle Cormier |07N15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
->|Isabell Potvin |07F05E/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+>|Rachelle Cormier |07N15D/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
+>|Isabell Potvin |07F05E/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
 
 <!--ENDOFSECTION-->
 
 ## <a name="voicemail"></a>Voicemail
 
-Phone System voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems.
+Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt.
 
-By default, Phone System voicemail works with Exchange Online; however it has a minimum supported Exchange on-premises version and deployment model to allow delivery of voicemail messages to user mailboxes in the on-premises Exchange deployment.
+Die Standardeinstellung ist Telefonsystem Voicemail mit Exchange Online; Es wurde jedoch eine minimale unterstützte Exchange lokale Version und Bereitstellungsmodell um Übermittlung von Voicemailnachrichten auf Benutzerpostfächer in der lokalen Exchange-Bereitstellung zu ermöglichen.
 
-Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization. If your organization decided to keep voicemail transcription enabled, you need to also consider whether voicemail transcription profanity masking need to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) for more details.
+Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung aktiviert werden müssen. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
 
 >[!NOTE]
-> Als Ausweichmechanismus kann Voicemail für Telefonsysteme Nachrichten über SMTP erneut senden. Das bedeutet, dass Benutzer mit einem Postfach in einem E-Mail-System eines Drittanbieters ihre Voicemailnachrichten erhalten. This mechanism doesn’t include guaranteed service uptime or other voicemail features, such as changing voicemail greeting.
+> Als Ausweichmechanismus kann Voicemail für Telefonsysteme Nachrichten über SMTP erneut senden. Das bedeutet, dass Benutzer mit einem Postfach in einem E-Mail-System eines Drittanbieters ihre Voicemailnachrichten erhalten. Dieser Mechanismus umfasst nicht garantiert Service Betriebszeit oder andere Voicemail-Features, beispielsweise Voicemail-Ansage ändern.
 
-For more information about voicemail in a Phone System implementation, see [Azure PBX voicemail support for Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
+Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Azure PBX-Voicemail für Exchange Server unterstützt](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you’ll enable Phone System voicemail in your Calling Plans implementation.</li><li>If using Exchange on-premises and your existing deployment doesn’t meet your requirements to support Phone System voicemail, choose from the available options (upgrade and setup for Phone System voicemail support, migrate to Exchange Online, or leverage the fallback mechanism described earlier).</li><li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>If applicable, document the Exchange decision points to support Phone System voicemail.</li><li>If you’ll enable/disable voicemail, voicemail transcription, and voicemail transcription profanity masking only for specific users, document that list of users.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie in der Implementierung aufrufen plant Telefonsystem Voicemail ermöglichen.</li><li>Wenn Exchange lokal und Ihre vorhandene Bereitstellung mit Ihren Anforderungen zur Unterstützung von Telefonsystem Voicemail nicht erfüllt, wählen Sie aus den verfügbaren Optionen (aktualisieren und für die Unterstützung von Telefonsystem Voicemail Einrichtung, Migrieren zu Exchange Online oder Nutzung der Fallback-Mechanismus wie oben beschrieben).</li><li>Entscheiden Sie, ob Sie aktivieren oder Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung in der gesamten Organisation oder für bestimmte Benutzer deaktivieren benötigen.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Falls zutreffend, dokumentieren Sie die Exchange-Entscheidungspunkte zur Unterstützung der Telefonsystem Voicemail.</li><li>Wenn Sie aktivieren/Voicemail, Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung nur für bestimmte Benutzer deaktivieren müssen, dokumentieren Sie dieser Liste von Benutzern.</li></ul>|
 
 > [!TIP]
-> Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following.
->|Benutzer |Exchange mailbox |Enable voicemail? |Voicemail transcription |Voicemail transcription profanity masking |
+> Telefon System Voicemail Details für das Telefonsystem mit Implementierung plant aufrufen können wie folgt dokumentiert werden.
+>|Benutzer |Exchange-Postfach |Aktivieren Sie Voicemail? |Voicemail Lautschrift |Voicemail Lautschrift Gotteslästerung-Maskierung |
 >|------------------|------------------|-------------------|----------|----------|
 >|Emily Braun      |Online      |Ja |Aktiviert |Aktiviert |
 >|Lidia Holloway   |Online      |Ja |Aktiviert |Deaktiviert |
@@ -146,16 +148,16 @@ For more information about voicemail in a Phone System implementation, see [Azur
 
 ## <a name="calling-identity"></a>Anrufer-ID
 
-Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer als Anrufer-ID verwendet. Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by the Auto Attendant configuration—as Caller ID, or to block Caller ID presentation altogether.
+Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer als Anrufer-ID verwendet. Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte. In einigen Fällen sind legitimen geschäftlichen Anforderungen an die Anrufer-ID, um die Identität des Aufrufers mithilfe der Office Main Zeilennummer schützen maskieren – Dies ist üblicherweise ein Service-Nummer bedient durch die automatische Telefonzentrale-Konfiguration – als Anrufer-ID, oder Blockieren von Anrufer-ID Präsentation vollständig.
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether Caller ID manipulation is required for your Calling Plans implementation.</li><li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented.</li><li>If applicable, decide which users require Caller ID manipulation and the type of Caller ID manipulation to be assigned to each user.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob die Änderung von Anrufer-IDs für die Implementierung des Plans aufrufen erforderlich ist.</li><li>Entscheiden Sie gegebenenfalls die Typen der Änderung von Anrufer-IDs (maskieren mit Service-Nummer oder Patientenmetadaten) implementiert werden.</li><li>Gegebenenfalls entscheiden Sie, welche Benutzer benötigen, Änderung von Anrufer-IDs und den Typ der Bearbeitung der Anrufer-ID für jeden Benutzer zugewiesen werden soll.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Benutzer aus, um die Änderung von Anrufer-IDs und den Typ der Bearbeitung Zuweisen von Anrufer-ID zugewiesen werden.</li></ul>|
 
 > [!TIP]
-> The following is an example of Caller ID masking details documentation.
+> Es folgt ein Beispiel für Anrufer-ID Maskierung Details-Dokumentation.
 >|Benutzer  |Maskierung für ausgehende Anrufer-IDs aktivieren  |Art der Anrufer-ID-Maskierung  |Außerkraftsetzung durch Benutzer zulassen  | Maskierung für eingehende Anrufer-IDs aktivieren  |
 >|---------|---------|---------|---------|---------|
 >|Emily Braun|Nein|n/v|Ja|Nein|
@@ -217,7 +219,7 @@ Weitere Informationen zum Telefonsystem und Pläne aufrufen, überprüfen Sie in
 >|Louis Lahr |32 London Bridge Street |Office 365 E5 |Plan für Inlandsanrufe |
 >|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Plan für Inlandsanrufe |
 >|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Anrufplan für Ausland und Inland |
->|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |Plan für Inlandsanrufe |
+>|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Plan für Inlandsanrufe |
 
 <!--ENDOFSECTION-->
 
@@ -235,7 +237,7 @@ Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Commu
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Communications haben für die Implementierung des Audiokonferenzen oder plant aufrufen.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Document the division, department, office, or user groups you’ll enable Communications Credits for.</li><li>Dokumentieren Sie Ihre Kommunikation haben Plan für die Implementierung des Audiokonferenzen oder plant aufrufen.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Division, Abteilung, Office oder Benutzer Gruppen, denen Sie haben für Communications aktivieren können.</li><li>Dokumentieren Sie Ihre Kommunikation haben Plan für die Implementierung des Audiokonferenzen oder plant aufrufen.</li></ul>|
 
 > [!TIP]
 > Sie mithilfe des folgenden Beispiels, um die Liste der Communications haben Zuordnung für Benutzer plant aufrufen zu dokumentieren.
@@ -250,7 +252,7 @@ Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Commu
 
 <br>
 > [!TIP]
-> Your Communications Credits planning numbers can be documented as in the following example.
+> Ihre Planung Zahlen Communications haben können wie im folgenden Beispiel dokumentiert werden.
 >|         |         |
 >|---------|---------|
 >|Anfangsbetrag|1.000 US-Dollar|
@@ -284,12 +286,12 @@ Weitere Informationen über die Gesamtzahl der Telefonnummern, die Sie herunterl
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Document the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Document the type of telephone numbers to be acquired from Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie die Standorte oder Büros, in dem neue Telefonnummern von Microsoft erfasst wird.</li><li>Legen Sie die Art der Telefonnummern von Microsoft erworben werden.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Standorte oder Büros, in dem neue Telefonnummern von Microsoft erfasst wird.</li><li>Dokumentieren Sie den Typ der Telefonnummern von Microsoft erworben werden.</li></ul>|
 
-## <a name="transfer-existing-telephone-numbers"></a>Transfer existing telephone numbers
+## <a name="transfer-existing-telephone-numbers"></a>Übertragen der vorhandenen Telefonnummern
 
-If your organization wants to transfer (or port) existing telephone numbers to Microsoft, you can do so by submitting a port order request to Microsoft.
+Wenn Ihre Organisation für die Übertragung (oder Port) einer vorhandenen Telefonnummern an Microsoft möchte, können Sie dazu Port Reihenfolge Microsoft eine Anforderung einreichen.
 
 Sie können alle Ihre vorhandenen Telefonnummern gleichzeitig (vollständige Port) übertragen und – in einigen Märkten – Sie können eine Teilmenge der vorhandenen Telefonnummern (teilweise Port) übertragen. Ein partieller Port kann in Fällen nützlich sein, auf dem Sie einfach Ihre Benutzer in Telefonsystem mit Aufrufen plant schrittweise verschieben möchten.
 
@@ -306,14 +308,14 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Legen Sie die Art der Telefonnummern an Microsoft übertragen werden.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Document the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Document the type of telephone numbers to be transferred to Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie die Standorte oder Büros, auf dem vorhandenen Telefonnummern an Microsoft übertragen wird.</li><li>Legen Sie die Art der Telefonnummern an Microsoft übertragen werden.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Standorte oder Büros, auf dem vorhandenen Telefonnummern an Microsoft übertragen wird.</li><li>Dokumentieren Sie den Typ der Telefonnummern an Microsoft übertragen werden.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="dial-plans"></a>Wählpläne
 
-A Dial Plan in the Phone System feature of Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. The Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial-out scenarios (for example, invite participants via PSTN and dial back, “call me” feature).
+A Dial Plan im Telefonsystem Feature von Office 365 handelt es sich um eine Gruppe von Normalisierungsregeln, die übersetzt Rufnummern für Anrufberechtigungen und Anrufrouting in ein anderes Format (normalerweise e. 164-Format) gewählt. Der Audio-Konferenzdienst nutzt die gleichen Funktionen von Telefonsystem verwendet, um die gewählte Rufnummern in Konferenz Dial-Out-Szenarien (z. B. Teilnehmer einladen über PSTN und Rückruf, Feature "Rückruf") übersetzen.
 
 In das Telefonsystem Feature von Office 365 gibt es zwei Arten von Wählplänen:
 
@@ -330,28 +332,28 @@ Die effektive Wähleinstellungen, die Benutzern zugewiesen ist eine Kombination 
 ![Tabelle werden die drei Kombinationen Quality of Service und Mandanten Wählplänen.] (media/audio_conferencing_image8.png "Tabelle werden die drei Kombinationen Quality of Service und Mandanten Wählplänen.")
 
 > [!IMPORTANT]
-> There can be a maximum of 25 normalization rules in each tenant dial plan; therefore, it’s important to avoid duplicating normalization rules that are already available as part of the service dial plan.
+> In jeder Mandant Wähleinstellungen kann bis zu 25 Normalisierungsregeln sein. Daher ist es wichtig, zu vermeiden, Duplizierung von Normalisierungsregeln, die bereits verfügbar sind als Teil des Diensts Wählplan.
 
-For more information about dial plans, see [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization requires customized dial plans (business requirements, adoption requirements, and so on).</li><li>If applicable, decide the scope of the tenant dial plan (tenant-global or tenant-user) to support your requirements for customized dial plans.</li><li>If applicable, decide the tenant dial plans that you’ll create to support user locations or offices in scope for the cloud voice implementation.</li><li>If applicable, decide which users require a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of cloud voice implementation.</li><li>Document the users to be assigned a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation angepasste Wählpläne (geschäftlichen Anforderungen, Annahme Anforderungen usw.) erforderlich sind.</li><li>Entscheiden, falls zutreffend, den Bereich des Wählplans Mandanten (Mandanten globalen oder Mandanten Benutzer) zur Unterstützung von Ihren Anforderungen für angepasste Wähleinstellungen.</li><li>Entscheiden Sie gegebenenfalls die Mandanten-Wählpläne, die Sie erstellen, um Standorte oder Büros im Bereich für die Cloud VoIP-Implementierung unterstützt.</li><li>Gegebenenfalls entscheiden Sie, welche Benutzer benötigen, eine angepasste Wählplan und die Wähleinstellungen Mandanten für jeden Benutzer zugewiesen werden soll.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie angepasste Wählpläne und die zugehörigen Normalisierungsregeln als Teil einer Cloud-VoIP-Implementierung konfiguriert werden soll.</li><li>Dokumentieren Sie die Benutzer um einen benutzerdefinierten Wählplan und die Mandanten-Wähleinstellungen für jeden Benutzer zugewiesen werden zugewiesen werden.</li></ul>|
 
 > [!TIP]
-> If it’s applicable to your project, you can use the following template to document the tenant dial plan configurations.
+> Wenn sie für Ihr Projekt gilt, können Sie die folgende Vorlage verwenden, um die Konfigurationen für den Mandanten Dial Plan zu dokumentieren.
 >|Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
 >||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^([2-9]\d{7})$<br>+612$1<br>Falsch|
 >||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^(1[38]\d{4,8})\d*$<br>+61$1<br>Falsch|
 >||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^(000\|1[0125]\d{1,8})$<br>$1<br>Falsch|
->|**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Internal number (x8000 â€“ x8999) for OMB office, Singapore_|^(8\d{3})$<br>+656888$1<br>Wahr|
+>|**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (X8000 Â €"x 8999) für Office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
 >||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7})\d*$<br>+65$1<br>Falsch|
 >||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^(1\d{3,4}\|9\d{2})$<br>$1<br>Falsch|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Internal number (x7000 â€“ x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>Wahr|
+>|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (X7000 Â €"x 7999) für 39 Quai du Président Roosevelt Office, Issy-Les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
 >||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^0?(80\d{7})\d*$<br>+33$1<br>Falsch|
 >||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>Falsch|
 
@@ -375,9 +377,9 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 
 <!--ENDOFSECTION-->
 
-## <a name="document-service-decisions"></a>Document service decisions 
+## <a name="document-service-decisions"></a>Dokument Service Entscheidungen 
 
-Use the information from the previous sections of this article to document your service decisions. In general, this documentation will contain the following main sections:
+Verwenden Sie die Informationen aus den vorherigen Abschnitten dieses Artikels, um Ihre Entscheidungen Service zu dokumentieren. Im Allgemeinen enthält diese Dokumentation die folgenden Hauptabschnitte:
 
 -   Aktivierungsliste für Standorte mit dem Telefonsystem mit Anrufplänen
 

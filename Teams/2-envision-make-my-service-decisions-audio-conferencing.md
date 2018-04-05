@@ -11,15 +11,17 @@ description: Erfahren Sie mehr über Besprechungen, Lizenzierung und Verfügbark
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a4007b328ec66bed0ccae0160491b4ee20f858
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
 Um die technischen Implementierung der Audiokonferenz planen, müssen Sie eine Reihe von Dienst Entscheidungen vorausschauendes besser Vorbereiten Ihrer Organisation zum Implementieren einer Lösung, die Ihren definierten geschäftlichen Anforderungen erfüllt vornehmen.
+
+## <a name="audio-conferencing-in-teams"></a>Audiokonferenzen in Teams
 
 Als Teil des erforderlichen Audiokonferenzen-Features in Microsoft-Teams definieren wird einer der ersten Schritte für die neuesten öffentlichen Roadmap bestimmen ausgewertet werden soll:
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lesen Sie dieses Thema und erfahren Sie, wie Konferenzrichtlinien für Skype Room System-Konten zugewiesen werden.
-ms.openlocfilehash: 73ab8f48bc399f4478b0a9c22aceb68d7a54a11b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Konferenzrichtlinie für Skype Room System-Konten
  
@@ -24,9 +24,8 @@ Lesen Sie dieses Thema und erfahren Sie, wie Konferenzrichtlinien für Skype Ro
 
 Die dem Konto Skype Raum System zugeordnete konferenzrichtlinie muss bestimmte Merkmale aufweisen. In den meisten Fällen, der Skype Raum System Client eine geplante Besprechung teilnimmt, und daher die konferenzrichtlinie des Besprechungsorganisators wirkt sich der Konferenz. Jedoch in Skype für Business Server, bestimmte Funktionen des Teilnehmers Konfiguration abhängig. Beispielsweise wenn Richtlinie für die Teilnehmer eine maximale Auflösung von 1080p zulässt, werden die Teilnehmer einer höheren Auflösung video Funktion in der Konferenz bemerken, auch wenn der Organisator Richtlinie nicht zulässt. Die folgende Tabelle beschreibt mehrere diese Einstellung, die Sie beim Einrichten von konferenzrichtlinien für Skype Raum Systemkonten in Ihrer Organisation berücksichtigen sollten. 
   
-||||
-|:-----|:-----|:-----|
 |Funktion  <br/> |Wert  <br/> |Kommentar  <br/> |
+|:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Für Audio Skype Raum System wahr sein müssen  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Für Audio in "Jetzt besprechen" (ad-hoc-) Whiteboardsitzungen in Skype Raum System arbeiten Skype Raum System wahr sein müssen  <br/> |
 |AllowMultiView  <br/> |TRUE  <br/> |Skype Raum System zum Rendern mit mehreren Ansicht mehrere Videostreams ermöglicht  <br/> |

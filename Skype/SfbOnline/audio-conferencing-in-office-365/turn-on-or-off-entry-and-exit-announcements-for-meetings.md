@@ -1,5 +1,5 @@
 ---
-title: "Aktivieren bzw. Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen"
+title: Aktivieren bzw. Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: ca353400d78a37a4b7cc362df6ed44a7f25fd869
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 0e15116061d35af39e8010c8e079395aaa7c4a8b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Aktivieren bzw. Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen
 
@@ -34,19 +36,31 @@ Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, die in einer B
   
 ## <a name="setting-meeting-join-options"></a>Festlegen von Optionen für die Besprechungsteilnahme
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
+
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
+
+3. Klicken Sie im Bereich **Einstellungen Bridge** **und**aktivieren Sie oder deaktivieren Sie aktivieren Besprechungseintrag beenden Benachrichtigungen aktiviert werden. Diese Option ist standardmäßig aktiviert. Wenn Sie ihn deaktivieren, werden nicht Benutzer, die bereits an der Besprechung benachrichtigt, wenn ein Benutzer eingibt oder die Besprechung verlässt.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+4. Wählen Sie unter **Entry/Exit Ankündigung Typ** **Namen oder Rufnummern** oder **Töne**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
+5. Aktivieren oder Deaktivieren von **Ask Anrufer ihren Namen vor der Teilnahme an der Besprechung aufzeichnen**.
     
-4. Unter **Erleben Sie die Teilnahme an einer Besprechung**de- **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden**. Diese Option ist standardmäßig aktiviert. Wenn Sie ihn deaktivieren, werden nicht Benutzer, die bereits an der Besprechung benachrichtigt, wenn ein Benutzer eingibt oder die Besprechung verlässt.
+6. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Übernehmen**.
+
+**Verwenden des Skype for Business Admin Center**
     
-5. Wählen Sie unter **Entry/Exit Ankündigung Typ** **Namen oder Rufnummern** oder **Töne**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-6. Überprüfen Sie, oder deaktivieren Sie **Ask Anrufer ihren Namen vor der Teilnahme an der Besprechung aufzeichnen**.
+2. Unter **Erleben Sie die Teilnahme an einer Besprechung**de- **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden**. Diese Option ist standardmäßig aktiviert. Wenn Sie ihn deaktivieren, werden nicht Benutzer, die bereits an der Besprechung benachrichtigt, wenn ein Benutzer eingibt oder die Besprechung verlässt.
     
-7. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
+3. Wählen Sie unter **Entry/Exit Ankündigung Typ** **Namen oder Rufnummern** oder **Töne**.
+    
+4. Überprüfen Sie, oder deaktivieren Sie **Ask Anrufer ihren Namen vor der Teilnahme an der Besprechung aufzeichnen**.
+    
+5. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
@@ -72,4 +86,3 @@ Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, die in einer B
 ## <a name="related-topics"></a>See Also
 
 [Allgemeine Fragen zu Audiokonferenzen](audio-conferencing-common-questions.md)
-

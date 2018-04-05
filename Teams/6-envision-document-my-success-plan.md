@@ -11,13 +11,15 @@ description: Auswählen eines Bereitstellungsmodells, entwickeln Matrix (RACI) v
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8352608eca00062ed2b8dbdce4682e7bdd437351
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 70ed024e606e7419a5cd2645cb60ef487fa72982
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren Sie meine Erfolg
+
+Dieser Artikel bietet eine Übersicht über die Anforderungen für Ihre Cloud-VoIP-Bereitstellung ordnungsgemäß dokumentieren. Durch das Definieren und dokumentieren alle Entscheidungspunkte und nächste Schritte beim Planen der VoIP-Cloudbereitstellung, Sie können sicherstellen, dass alle Beteiligten und Mitglieder des Projektteams erfolgreiche Ergebnisse liefern ausgerichtet werden. 
 
 ## <a name="execution-planning"></a>Planen der Ausführung 
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: "\"TblNode\" enthält die Objektstruktur (mit Kategorie oder Chatroom-Knoten) wie in der Systemsteuerung und administrativen Cmdlets verwaltet."
-ms.openlocfilehash: b743453225fda70db18a7bc616a5f7b647d5ebff
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0b5e752856272ad7021666822694cd27bb3660ee
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -34,7 +34,6 @@ ms.lasthandoff: 03/28/2018
 |protokolliert  <br/> |bit  <br/> | Für Kategorien: <br/>  True, wenn der Chatverlauf aktiviert ist. <br/>  False, wenn der Chatverlauf deaktiviert ist. <br/>  Für Räume: <br/>  NULL. <br/> |
 |filePost  <br/> |bit  <br/> | Für Kategorien: <br/>  True, wenn Dateiuploads zugelassen sind. <br/>  False, wenn Dateiuploads nicht zugelassen sind. <br/>  Für Räume: <br/>  NULL. <br/> |
 |deaktiviert  <br/> |Bit, nicht null  <br/> |True, wenn Sie den Chatroom deaktiviert ist. Gilt nur für Chatrooms. (False für Kategorien).  <br/> |
-|||
 |Verhalten  <br/> |Smallint, nicht null  <br/> | Verhalten (in der Tabelle "EnumValue" ermittelt): <br/>  4: Normal (normale Chatrooms). <br/>  5: Auditorium (auditoriumchatrooms, nur Referenten können Beiträge veröffentlichen). <br/>  Gilt nur für Chatrooms. <br/> |
 |Sichtbarkeit  <br/> |Smallint, nicht null  <br/> | Sichtbarkeit (für Tabelle "EnumValue" ermittelt): <br/>  2: private <br/>  3: bezogenen <br/>  6: Öffnen <br/>  Gilt nur für Chatrooms. <br/> |
 |siopID  <br/> |GUID  <br/> |Add-in-GUID, wenn ein Add-in in Chatrooms zugeordnet ist. (Kategorien haben keinen-add-ins.)  <br/> Die Add-in-Informationen in der Tabelle "SiopWhiteList" gesucht werden.  <br/> |

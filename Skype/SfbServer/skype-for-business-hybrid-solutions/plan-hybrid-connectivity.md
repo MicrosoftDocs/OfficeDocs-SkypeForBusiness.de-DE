@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online. Die Einrichtung von hybrider Konnektivität ist der erste Schritt bei der Implementierung zahlreicher hybrider Skype for Business-Lösungen.'
-ms.openlocfilehash: 86478b373ccc9c39d1a79668ca13487305319cb8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 28ddfa42f11ad76cb353200cf00a4ca4d05a9da0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online
  
@@ -271,9 +271,8 @@ Beim Erstellen von DNS-Einträgen für hybridbereitstellungen sollten alle Skype
   
 Darüber hinaus müssen Sie sicherstellen, dass die in der folgenden Tabelle erläuterte DNS-Auflösung in Ihrer lokalen Bereitstellung funktioniert:
   
-||||
-|:-----|:-----|:-----|
 |DNS-Eintrag  <br/> |Aufzulösen durch  <br/> |DNS-Anforderung  <br/> |
+|:-----|:-----|:-----|
 |DNS-SRV-Eintrag für _sipfederationtls. \<sipdomain.com\> für alle unterstützten SIP-Domänen, die zum Auflösen von in externen IP(s) Zugriffs-Edgeservers  <br/> |Edgeserver  <br/> |Aktivieren Sie Partnerverbundkommunikation in einer Hybridkonfiguration. Der Edgeserver muss wissen, wohin der Datenverkehr im Partnerverbund für die zwischen lokal und online aufgeteilte SIP-Domäne geleitet werden soll.  <br/> Es muss strenge DNS-Namensübereinstimmung zwischen der Domäne im Benutzernamen und dem SRV-Eintrag verwendet werden.  <br/> |
 |DNS-A-Eintrag/Einträge für den Edge-Webkonferenzdienst-FQDN, zum Beispiel „webcon.contoso.com“, aufgelöst zu der externen IP/den IPs des Webkonferenzdienst-Edgeservers  <br/> |Interne Firmennetzwerk den Computern der Benutzer verbunden  <br/> |Versetzen Sie Onlinebenutzer in die Lage, in lokal gehosteten Besprechungen Inhalte zu präsentieren oder zu betrachten. Entsprechende Inhalte sind unter anderem PowerPoint-Dateien, Whiteboards, Umfragen und freigegebene Notizen.   <br/> |
    

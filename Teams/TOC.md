@@ -127,7 +127,7 @@
 
 ## Audiokonferenz
 ### [Lernprogramm: Audiokonferenzen in Teams](Tutorial-Audio-Conferencing.yml)
-### [Zuweisen eines Drittanbieters für Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Audiokonferenzen in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Zuweisen von Microsoft als Audiokonferenzanbieter](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Allgemeine Fragen zu Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Audiokonferenz mit Minutenabrechnung](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -141,7 +141,6 @@
 ### [Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Verwalten der Audiokonferenzeinstellungen für einen Benutzer](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Verwalten der Audiokonferenzeinstellungen für meine Organisation](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Wechseln zu Microsoft als Audiokonferenzanbieter für einen Benutzer](/SkypeForBusiness/audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Telefonnummern für Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Zurücksetzen einer Konferenzkennung für einen Benutzer](/SkypeForBusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -153,7 +152,6 @@
 ### [Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Festlegen der in Einladungen enthaltenen Telefonnummern](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Festlegen der Länge der PIN für Audiokonferenzbesprechungen](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Einrichten von Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Einrichten von Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 ### [Starten einer Audiokonferenz per Telefon ohne PIN](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Testen oder Erwerben von Audiokonferenzen in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -226,7 +224,7 @@
 ### [1.1 - Umwelt Discovery für Microsoft-Teams, Einführung](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - Fördern Sie neben Skype for Business die Akzeptanz von Teams](pilot-essentials.md)
 ### [2.1 - Wählen Sie Benutzer für Ihren Piloten Teams](select-users-for-your-teams-pilot.md)
-## [3 - Aktivieren Sie Teams Seite an Seite mit Skype for Business](guidance-SkypeforBusiness.md)
+## [3 - upgrade Reise und Koexistenz von Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - Erzielen Sie eine höhere Wertschöpfung durch Benutzerakzeptanz](continue-journey.md)
 ## [Häufig gestellte Fragen – Vision von Skype for Business & Teams](FAQ-journey.md)
 ## [Tutorial: Reise von Skype for Business zu Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

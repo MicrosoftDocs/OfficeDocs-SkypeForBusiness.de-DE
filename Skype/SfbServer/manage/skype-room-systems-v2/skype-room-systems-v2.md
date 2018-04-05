@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Lesen Sie in diesem Thema, um Informationen zur Verwaltung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme zu erfahren.
-ms.openlocfilehash: 5ef699bed1a77fc48f59ba4c5f8eb78ccc286ef7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 562dbeea19fb732caf9348e2bfd632da3579e71a
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="manage-skype-room-systems-v2"></a>Verwalten von Skype Room Systems v2
  
@@ -64,7 +64,6 @@ In der folgenden Tabelle sind die möglichen Remotevorgänge und die Methoden zu
 |App-Update  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
 |Skype-Kontokonfiguration  <br/> |Zurzeit nicht unterstützt  <br/> |Zurzeit nicht unterstützt  <br/> |
 |Zugriff auf Protokolle  <br/> |Zurzeit nicht unterstützt  <br/> |Zurzeit nicht unterstützt  <br/> |
-||||
    
 ## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Konfigurieren von Gruppenrichtlinie für Skype Room Systems v2
 <a name="GroupPolicy"> </a>

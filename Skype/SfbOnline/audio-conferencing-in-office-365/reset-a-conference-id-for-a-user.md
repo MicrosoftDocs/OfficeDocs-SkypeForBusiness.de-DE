@@ -1,5 +1,5 @@
 ---
-title: "Einrichten einer Konferenz-ID für einen Benutzer"
+title: Einrichten einer Konferenz-ID für einen Benutzer
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn the steps to reset a user''s meeting conference ID, and get links to meeting update and migration tools. '
-ms.openlocfilehash: ba76f3afb5d92dadc66d09e07aa16d3589f57e4d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
+ms.openlocfilehash: 6cc73876d188f1ae00ec267e14af4771ded7b957
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Einrichten einer Konferenz-ID für einen Benutzer
 
@@ -39,16 +41,24 @@ Konferenz-IDs werden nur für Skype für Geschäfts- und Microsoft-Teams für Au
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+
+3. Klicken Sie auf das Menü neben **Konferenz Brücken**, und klicken Sie dann auf **Zurücksetzen Konferenz-Id** in der Dropdown-Liste.
+
+2. Klicken Sie im Fenster **Konferenz-Id zurücksetzen** klicken Sie auf **Ok**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.   
+
+**Verwenden des Skype for Business Admin Center**
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+1. Klicken Sie in der **Skype für Business Administrationscenter**auf **Audiokonferenzen** > **Benutzer**, wählen einen Benutzer aus, und klicken Sie dann im Aktionsbereich unter **Konferenz-ID** **Zurücksetzen**.
     
-3. Klicken Sie in der **Skype für Business Administrationscenter**auf **Audiokonferenzen** > **Benutzer**, wählen einen Benutzer aus, und klicken Sie dann im Aktionsbereich unter **Konferenz-ID** **Zurücksetzen**.
+2. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Ja**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.
     
-4. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Ja**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.
-    
-    > [!NOTE]
-    > Nach dem Zurücksetzen der Konferenz-ID wird die neue Konferenz-ID per E-Mail an den Benutzer geschickt. Diese E-Mail wird an die Haupt-E-Mail-Adresse geschickt. Dabei handelt es sich oftmals um das Office 365-Postfach. Die E-Mail umfasst die neue Konferenz-ID, die Standardeinwahlnummer(n) und Anweisungen, wie bestehende Besprechungen mithilfe des Skype for Business Meeting Update Tool aktualisiert werden können. 
+> [!NOTE]
+> Nach dem Zurücksetzen der Konferenz-ID wird die neue Konferenz-ID per E-Mail an den Benutzer geschickt. Diese E-Mail wird an die Haupt-E-Mail-Adresse geschickt. Dabei handelt es sich oftmals um das Office 365-Postfach. Die E-Mail umfasst die neue Konferenz-ID, die Standardeinwahlnummer(n) und Anweisungen, wie bestehende Besprechungen mithilfe des Skype for Business Meeting Update Tool aktualisiert werden können. 
   
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 

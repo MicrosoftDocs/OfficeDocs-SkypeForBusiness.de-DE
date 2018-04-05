@@ -11,13 +11,15 @@ description: Verwenden Sie Rollen und Netzwerk-Analyse ermitteln Sie die Bereits
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5d22bd46006b3bdd1f874da021045c36975b4ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="evaluate-my-environment"></a>Meine Umgebung bewerten
+
+Dieser Artikel bietet eine Übersicht über die Anforderungen für ordnungsgemäß bewerten der aktuellen Umgebung für die Verwendung von Clouddiensten VoIP. Bewerten der Umgebung, geben Sie an Risiken und Anforderungen, die Ihrer gesamten Cloud VoIP-Bereitstellung beeinflussen werden. Durch das Identifizieren von dieser Elemente im voraus, können Sie die Planung für Laufwerk Erfolg anpassen.
 
 ## <a name="introduction-to-evaluating-your-environment"></a>Einführung in die Bewerten der Umgebung 
 
@@ -46,20 +48,19 @@ Dieses Wissen hilft Ihrer Organisation den Projektplan entsprechend anpassen und
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>Übernahme- und ein Änderungsprotokoll Assessment Management-Funktionen 
 
-Die Annahme Bereitschaft Ihrer Organisation können Sie durch Ausführen von Persona Analyse mit einer Liste von Rollen stammen, die für die Implementierung der Audiokonferenzen und Telefonsystem mit Services planen Aufrufen verwendet werden kann, um bewerten. Persona Analyse umfasst, die zusätzliche Peripheriegeräte oder andere Geräte erforderlich, um die gewünschten Geschäftsergebnisse Realisierung identifiziert.
+Bereitstellung eine neue Technologie zur Hand eines Benutzers werden, aber realisiert Geschäftsergebnisse nur nach Benutzern dieser Lösung als eigene tatsächlich übernommen. Um anhaltend Annahme einer neuen Lösung sicherzustellen, müssen Sie konzentrieren auf benutzervorbereitung und change Management. Durchführen Sie für optimale Ergebnisse benutzervorbereitung planen als eine parallele Arbeitsabläufe auf Ihre technische Bereitschaft Aktivitäten, und integrieren Sie die folgenden Aktivitäten:
 
-Um Persona Analyse durchzuführen, können Sie einen Workshop durch Einbeziehung relevanten Projektbeteiligten, mit der [Rolle Ausrichtung](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7) Workshop Deck und [Persona Featurematrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8)durchführen.
-Sie können die Ergebnisse des Workshops Analysis Rolle in einem Bericht mithilfe der Vorlage [Persona Analysebericht](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9) zusammenfassen.
+-   **Organisationseinheit und Benutzerprofile:** Analyse der Organisationseinheit Receptiveness neben Groß-/Kleinschreibung und Persona Analyse ändern
 
->[!NOTE]
->Obwohl die Rolle Anlagen zunächst für Skype für Business Online geschrieben wurden, ist die größte Teil des Inhalts für Teams relevant. Gerne ändern und Entfernen von Elementen, die nicht für Ihre Projektziele relevant sind.
+-   **Vorbereitung Bereitschaft und Ressource:** Erstellung von zielgerichteten und großer Reichweite zur Förderung des Bekanntheitsgrads, Schulung und Supportressourcen, einschließlich praxisorientierte Wert zur Beschleunigung von erwerben Benutzer in messaging
+
+Verwenden Sie die folgenden Aspekte Bewerten Ihrer Organisation Bereitschaft zu Verwaltung der Adresse Benutzer ändern.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li> Wer wird für die Durchführung einer Rolle Ausrichtung und der Funktion zur Bewertung verantwortlich sein?</li><li>Bewerten Sie die Möglichkeit zum Ausführen der Annahme und Änderungsmanagement für Ihre Organisation.</li></ol></td></tr>
-
-
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ergebnisse der Bewertung Persona Ausrichtung und der Funktion.</li><li>Falls erforderlich, ausschließlich zu externen Ressourcen zur Unterstützung bei der Akzeptanz fördern und Änderungsmanagement für Ihre Organisation.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Hatten Sie vorherige Erfolg mit Akzeptanz Software oder Dienste?</li><li>Können Sie die Verwendung Aufnahme-verfolgen?</li><li>Verfügen Sie über die Ressourcen zum Entwerfen und Verwalten einer Erstinstallation&mdash;und laufende&mdash;Annahme Kampagne (zur Förderung des Bekanntheitsgrads, Schulung und Support)?</li><li>Verfügen Sie über eine dedizierte Benutzer Annahme/ändern Managementteam, oder können Sie in diese Ressourcen, um sicherzustellen, dass Geschäftsergebnisse investieren?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Wenn Sie alle oben genannten mit "Ja" beantwortet haben, identifizieren Sie die richtigen Benutzer Änderung Management Beteiligten und beginnen Sie der User Readiness Planung.</li><li>Wenn Sie "Nein", um einige oder alle der oben genannten beantwortet haben, sollten Sie ansprechender externe Ressourcen mit gesteuerter Änderungsmanagement und Aktivitäten im Zusammenhang mit der Annahme für Ihre Organisation unterstützen.</li></ol></td></tr>
 </table>
+
 
 <!--ENDOFSECTION-->
 

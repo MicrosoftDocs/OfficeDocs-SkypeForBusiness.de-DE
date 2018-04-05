@@ -11,13 +11,15 @@ description: Führen Sie regelmäßige Verkaufschancen Sie Verbesserung des Dien
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00fa4db5a2e25cf2a258f85328653f6a28f476d5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 0c10f4da1c6619ae0f17976a8039c2a77eaadab6
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enhance-my-service"></a>Meine Service zu verbessern
+
+Dieser Artikel bietet eine Übersicht über die Anforderungen für die optimale Nutzung Cloud VoIP-Dienste für Ihre Organisation. Durch die ständig Überwachung Cloud-Dienst Sprachfunktionen, können Sie sein sicher, dass Sie den größten Nutzen für Ihre Organisation liefern sind.
 
 ## <a name="enhance-my-service-overview"></a>Verbessern Sie meine Service (Übersicht)
 Nachdem Sie erfolgreich Audiokonferenzen oder Telefonsystem mit Diensten aufrufen Pläne für Ihre Organisation bereitgestellt haben und den Betrieb von sind des Diensts mit Qualität, Zuverlässigkeit und im nächsten Schritt besteht darin, regelmäßig bewerten, ob Sie alle Verkaufschancen zu haben Verbessern Sie Ihre Dienste.

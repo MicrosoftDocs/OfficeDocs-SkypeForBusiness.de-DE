@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Dieser Artikel enthält Anleitungen für wie viele Server Sie an einem Standort für die Anzahl von Benutzern an diesem Standort benötigen gemäß der Verwendung in Benutzermodelle in Skype for Business Server 2015 beschrieben.
-ms.openlocfilehash: b8395e1fdec1a9d4ed100a911fccd6177b03c665
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 313bd440188b1d97afa95d71fcca4e74b5cb8217
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server-2015"></a>Kapazitätsplanung mithilfe der Benutzermodelle für Skype for Business Server 2015
  
@@ -163,9 +163,8 @@ Wenn Sie die Überwachung und den Archivierungsserver bereitstellen, die Front-E
   
 Die folgende Tabelle zeigt, wie viele Datenbankspeicher pro Benutzer und Tag für die Daten aus der Überwachung und Archivierung in etwa benötigt wird.
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**KDS (Überwachung)** <br/> |**QoE (Überwachung)** <br/> |**Archiving** <br/> |
+|:-----|:-----|:-----|:-----|
 |Pro Benutzer und Tag benötigter Festplattenspeicher  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
    
 Microsoft hat bei den Leistungstests für den Datenbankserver die in der folgenden Tabelle aufgeführte Hardware für die Überwachung und Archivierung eingesetzt. Für die Tests erfasst die Daten von zwei Front-End-Pools, von die jedes 80.000 Benutzern enthalten.
@@ -181,9 +180,8 @@ Microsoft hat bei den Leistungstests für den Datenbankserver die in der folgend
    
 **Empfohlene Konfigurationen**
 
-||||
-|:-----|:-----|:-----|
 |**Laufwerk** <br/> |**RAID-Konfiguration** <br/> |**Anzahl Festplatten** <br/> |
+|:-----|:-----|:-----|
 |KDS-, QoE- und Archivdatenbankdateien auf einem einzigen Laufwerk  <br/> |1+0  <br/> |16  <br/> |
 |KDS-Datenbankprotokolldatei  <br/> |1  <br/> |2  <br/> |
 |QoE-Datenbankprotokolldatei  <br/> |1  <br/> |2  <br/> |

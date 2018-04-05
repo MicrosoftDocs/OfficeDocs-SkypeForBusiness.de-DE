@@ -1,5 +1,5 @@
 ---
-title: "Ändern der Einstellungen für eine Audiokonferenzbrücke"
+title: Ändern der Einstellungen für eine Audiokonferenzbrücke
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that''s used to prompt callers and gather names and pins for meeting organizers when they''re not using Skype for Business clients. '
-ms.openlocfilehash: f37af15b4ab66eb5765cccbdba63b3bb6bb14597
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
+ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
 
@@ -32,20 +34,42 @@ Beim Einrichten von Audiokonferenzen in Office 365 erhalten Sie von einer sogena
   
 Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automatischen Telefonzentrale aus. Je nach Ihren Einstellungen kann sie dann Benachrichtigungen wiedergeben, Anrufer auffordern, ihren Namen aufzuzeichnen, und die PIN-Einstellungen steuern. Besprechungsorganisatoren erhalten PINs, damit sie eine Besprechung starten können, wenn sie keine Skype for Business- oder Microsoft Teams-App verwenden.
 
-    > [!IMPORTANT]
-    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
+  > [!IMPORTANT]
+  > Der Besprechungsorganisator benötigt nur dann eine PIN, wenn die Besprechung nicht bereits von einem Benutzer einer Skype for Business- oder Microsoft Teams-App gestartet wurde. Wenn sich alle Teilnehmer in die Besprechung einwählen, benötigt der Besprechungsorganisator die PIN zum Starten der Besprechung. 
   
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
+## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke 
+
+### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
+
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
+
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
+
+3. Klicken Sie im Bereich **Bridge Einstellungen** auswählen: 
+  - **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden** Wenn Sie diese Option aktivieren, werden nicht Benutzer, die bereits an der Besprechung benachrichtigt, wenn jemand Beitritt oder die Besprechung verlässt.
+    
+    Bei Auswahl von **Benachrichtigungen beim Betreten oder Verlassen einer Besprechung aktivieren** können Sie diese Optionen in der Liste **Entry/exit announcement type** (Typ der Benachrichtigung bei Zu- oder Abgang) auswählen:
+    
+  - **Names or phone numbers** (Namen oder Telefonnummern): Wenn sich Benutzer in eine Besprechung einwählen und teilnehmen, wird ihre Telefonnummer wiedergegeben.
+    
+  - **Tones** (Töne): Wenn sich Benutzer in eine Besprechung einwählen und teilnehmen, wird ein Ton wiedergegeben.
+      
+  - **Ask Anrufer ihren Namen vor der Teilnahme an der Besprechung aufzeichnen** Wenn Sie diese Option aktivieren, werden nicht Anrufer aufgefordert, ihren Namen aufzeichnen müssen, bevor sie an einer Besprechung teilnehmen.
+
+4. Um die PIN-Mindestlänge für Besprechungen festzulegen, wählen Sie die Anzahl der Nachkommastellen für die PIN-Nummer in der Liste der **PIN-Länge** gewünschte.
+
+5. Um anzugeben, ob e-Mail an die Benutzer senden, aktivieren oder deaktivieren **für Benutzer-e-Mails automatisch gesendet, wenn die Konfiguration ihrer Audiokonferenzen ändert**.
+    Weitere Informationen finden Sie unter [e-Mails werden automatisch für Benutzer, wenn Ändern ihrer Einstellungen für die Audiokonferenz gesendet](emails-sent-to-users-when-their-settings-change.md) .
+ 
+6. Klicken Sie auf **Anwenden**. 
+
+### <a name="using-skype-for-business-online"></a>Verwendung von Skype Online für Unternehmen
 
  **Festlegen des Besprechungsverhaltens, wenn Anrufer an einer Besprechung teilnehmen**
-  
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+1. In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.
     
-3. In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. Wählen Sie auf der Seite **Einstellungen von Microsoft Bridge** unter **Besprechungsteilnahme** Folgendes aus:
+2. Wählen Sie auf der Seite **Einstellungen von Microsoft Bridge** unter **Besprechungsteilnahme** Folgendes aus:
     
   - **Benachrichtigungen beim Betreten oder Verlassen einer Besprechung aktivieren**: Diese Option ist standardmäßig aktiviert. Wenn Sie das Kontrollkästchen deaktivieren, werden Benutzer, die bereits an der Besprechung teilnehmen, nicht benachrichtigt, wenn ein Teilnehmer der Besprechung beitritt oder diese verlässt.
     
@@ -60,7 +84,7 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
   
   - **Anrufer zur Aufnahme ihres Namens auffordern, bevor sie an der Besprechung teilnehmen**: Diese Option ist standardmäßig aktiviert. Wenn Sie das Kontrollkästchen deaktivieren, werden Anrufer nicht aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen.
     
-5. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
+3. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
     
 **Festlegen der Länge der PIN für Besprechungen**
   
@@ -110,5 +134,4 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
   
 ## <a name="related-topics"></a>See Also
 
-[Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](set-up-audio-conferencing.md)
-
+[Einrichten von Audiokonferenzen](set-up-audio-conferencing.md)

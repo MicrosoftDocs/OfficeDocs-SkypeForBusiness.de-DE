@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Finden Sie unter Wählen Sie die Audiokonferenz Auto attendant Sprachen für eine Audiokonferenz Zahl.
-ms.openlocfilehash: e7c4adb2129a737ec34e5641a9724bdab665cd23
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4cd40a54c90559d3886b737b8e9f66f02346358f
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen
 
@@ -39,22 +39,33 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die prim�
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Festlegen der Konferenzen Auto attendant Sprachen
 
+**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**.
+
+2. Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie am oberen Rand der Seite aus, klicken Sie auf **Bearbeiten**.
+
+3. Wählen Sie im Bereich auf der rechten Seite die gewünschten Standardsprache und alle alternativen Sprachen. 
+ 
+    > [!NOTE]
+    > Der standardmäßige und alternative Sprachen, die unterstützt werden, sind aufgeführt. Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden. 
+
+4. Klicken Sie auf **Anwenden**.
+
+**Verwendung von Skype online für Unternehmen**
+
 Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder [Skype für Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieses Schritts sein.
-  
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+1. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz), und klicken Sie dann auf **Microsoft Bridge**.
     
-3. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz), und klicken Sie dann auf **Microsoft Bridge**.
+2. Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich, klicken Sie auf **Sprachen festlegen**. 
     
-4. Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich, klicken Sie auf **Sprachen festlegen**. 
-    
-5. Klicken Sie auf der Seite **festlegen Sprachen** auf der Liste der **primären Sprache** , um die vollständige Liste der verfügbaren Sprachen anzuzeigen. Wenn Sie möchten, klicken Sie auf die **sekundären Sprachen** Listen sekundären Sprache auszuwählen.
+3. Klicken Sie auf der Seite **festlegen Sprachen** auf der Liste der **primären Sprache** , um die vollständige Liste der verfügbaren Sprachen anzuzeigen. Wenn Sie möchten, klicken Sie auf die **sekundären Sprachen** Listen sekundären Sprache auszuwählen.
     
     > [!NOTE]
     > Die primären und sekundären Sprachen, die unterstützt werden, sind aufgeführt. Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden. 
   
-6. Klicken Sie auf **Speichern**.
+4. Klicken Sie auf **Speichern**.
     
 ## <a name="want-else-should-i-know"></a>Was sollte ich noch wissen?
 

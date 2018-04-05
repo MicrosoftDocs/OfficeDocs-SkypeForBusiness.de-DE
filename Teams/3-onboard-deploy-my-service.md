@@ -11,13 +11,15 @@ description: Laden Sie die Website-Aktivierung Playbook zur Planung der Einführ
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ddccd9c52e25ae9d0069119641aa7e8a8077d56
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: f59b7568f5ec0d3d9b6ef3b04f4094b222d0702b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="deploy-my-service"></a>Stellen Sie meine Dienst
+
+Dieser Artikel bietet eine Übersicht über die Anforderungen für die Bereitstellung von ordnungsgemäß Clouddiensten VoIP. Indem Sie die folgenden Anweisungen für die Bereitstellung von VoIP-Clouddiensten, stellen Sie sicher, Sie erfolgreich für alle Anforderungen berücksichtigt und liefern wiederholbare Ergebnisse.
 
 ## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Website-Aktivierung (Playbook) für Microsoft-Teams, VoIP-Arbeitslasten
 

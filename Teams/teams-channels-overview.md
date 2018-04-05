@@ -1,20 +1,20 @@
 ---
-title: "Übersicht über Teams und Kanäle in Microsoft Teams"
+title: Übersicht über Teams und Kanäle in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Hier erhalten Sie Informationen zu den verschiedenen verfügbaren Teams, Kanälen und Apps für die verschiedensten Anforderungen wie zum Beispiel Finanzen, Planung von Veranstaltungen, Vertrieb und vieles mehr."
+description: Hier erhalten Sie Informationen zu den verschiedenen verfügbaren Teams, Kanälen und Apps für die verschiedensten Anforderungen wie zum Beispiel Finanzen, Planung von Veranstaltungen, Vertrieb und vieles mehr.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849eade2acc91286a0d2f78b2d0289432e8ef52c
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: a3e614cc7ad1f4e803ef6d725eba68a699fb7477
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -52,7 +52,7 @@ Nehmen Sie sich fünf Minuten Zeit, und sehen Sie sich dieses Video zu den bewä
 
 Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Microsoft Teams zu erstellen (wie Sie dies ändern, erfahren Sie unter [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md)). Benutzer einer vorhandenen Office 365-Gruppe können diese Gruppe mit Microsoft Teams-Funktionen erweitern.
 
-Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Microsoft Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten.  Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse. 
+Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Microsoft Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit Personen und helfen Sie ihnen, wählen Sie Geschäftsszenarien, in dem sie derzeit fragmentierte Weise zusammenarbeiten.  Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse. 
 
 <a name="sample-team-set-up"></a>Beispiele für Teamkonfigurationen
 ------------------

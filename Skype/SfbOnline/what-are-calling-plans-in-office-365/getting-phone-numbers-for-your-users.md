@@ -22,21 +22,23 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: 94d68c9caa11057393be66ca38c465f39fad9d7a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: dc75a47f9e2de6c124675b4ae2cd9f3a9ff17036
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
 Bevor Sie Benutzer in Ihrer Organisation für das Tätigen und Erhalten von Telefonanrufen einrichten können, müssen Sie Telefonnummern für sie abrufen.
   
-Ihnen stehen zwei Methoden zum Abrufen von Telefonnummern für Ihre Benutzer zur Verfügung:
-  
-- Rufen Sie neue Nummern über das **Skype for Business Admin Center** ab.
+Es gibt drei Möglichkeiten, um neue Benutzernummern vorzubereiten:
+
+- **Verwenden Sie die Skype für Business Administrationscenter.** Einige Länder/Regionen, können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [Rufnummern für Ihre Benutzer erste.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
     
-- Portieren oder übertragen Sie Ihre vorhandenen Telefonnummern von Ihrem derzeitigen Dienstanbieter oder Netzbetreiber zu Office 365.
+- **Port Ihrer vorhandenen Rufnummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
+  
+- **Verwenden Sie ein Anforderungsformular für neue Zahlen.** In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neue Rufnummern, die mit der Skype für Business Administrationscenter zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
     
 Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Seite **Neue Benutzernummern hinzufügen** verwenden. Sie können nach **Land/Region**, **Bundesland** und **Ort** suchen und dann die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen.
   
