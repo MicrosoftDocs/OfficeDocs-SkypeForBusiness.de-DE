@@ -1,9 +1,9 @@
 
 # [Skype für Business Online Admin](../skype-for-business-online.md)
 
-## [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Audiokonferenzen in Office 365 
+## Audiokonferenzen in Office 365 (... / audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Zuweisen von Microsoft als Audiokonferenzanbieter](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Allgemeine Fragen zu Audiokonferenz](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Unterstützte Sprachen für Audiokonferenz](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -26,6 +26,7 @@
 ### [Anzeigen einer Liste der Benutzer, die für Audiokonferenz aktiviert sind](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
 ### [Senden einer E-Mail mit den Einwahlinformationen an einen Benutzer](../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [Festlegen der Länge der PIN für Audiokonferenzbesprechungen](../audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
+### [Einrichten von Audiokonferenz](../audio-conferencing-in-office-365//set-up-audio-conferencing.md)
 ### [Festlegen der Sprachen für die automatische Telefonzentrale](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
 ### [Festlegen der in Einladungen enthaltenen Telefonnummern](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)
 ### [Einrichten des Meeting Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
