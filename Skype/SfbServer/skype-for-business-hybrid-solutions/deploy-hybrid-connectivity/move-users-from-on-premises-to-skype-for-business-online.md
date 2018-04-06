@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: 'Zusammenfassung: Informationen Sie zum Migrieren von benutzereinstellungen und Verschieben von Benutzern in Skype für Business Online.'
-ms.openlocfilehash: dada94d1bc198a86a06c468dc959fa0684e706d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 352798c217cb7495134cb32996db783f7e498ded
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Verschieben von Benutzern aus der lokalen Bereitstellung nach Skype for Business Online
  
@@ -30,7 +30,7 @@ Bevor Sie Nutzer tatsächlich nach Office 365 migrieren, müssen Sie zunächst 
   
 ### <a name="to-confirm-that-an-on-premises-user-account-has-been-synchronized-with-office-365"></a>Wie Sie sicherstellen, dass ein lokales Benutzerkonto mit Office 365 synchronisiert worden ist
 
-1. Öffnen Sie [Office 365 Administrationscenter](https://portal.office.com/) mit einem Mandanten-Admin-Konto, für Ihre Mandanten.
+1. Öffnen Sie [Office 365 Administrationscenter](https://portal.office.com/) mit einem Mandanten-Admin-Konto, für Ihre Mandanten.  Mandanten Administratorkonten sollten beide den Skype für Business-Administratorrolle und der Verwaltungsrolle Benutzer (oder der globalen Administratorrolle) zum Ausführen dieser Funktion in Office 365 gewährt werden
     
 2. Klicken Sie in der linken Navigationsleiste auf **Benutzer** und anschließend auf **Aktive Benutzer**.
     
