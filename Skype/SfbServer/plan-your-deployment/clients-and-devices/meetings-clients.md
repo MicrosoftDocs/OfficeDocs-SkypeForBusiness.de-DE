@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App sollten beim Planen von Skype für Business Server 2015. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.'
-ms.openlocfilehash: 608a85e36d436bbcee21e4ed86dc9b5c815088ed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4cbfead665d6e325d43f274311d44b5dc48d712e
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungen-Clients (Web App und Besprechungen App)
  
@@ -49,7 +49,7 @@ Verwendung der Skype für Business Web App, die ein Benutzer muss eine der folge
 **Betriebssystem und minimale Browserunterstützung für Skype für Business Web App**
 
 
-|**Betriebssystem**|**Edge**|**32- und 64-Bit InternetExplorer 11 oder höher**|**32-Bit- und 64-Bit-InternetExplorer 10 oder höher**|**32-Bit- und 64-Bit-InternetExplorer 9 oder höher**|**32-Bit- und 64-Bit-Version von Firefox 12.X oder höher**|**32-Bit- und 64-Bit-Version von Chrome 18.X oder höher**|
+| Betriebssystem | Edge | 32- und 64-Bit InternetExplorer 11 oder höher | 32- und 64-Bit InternetExplorer 10 oder höher | 32- und 64-Bit InternetExplorer 9 oder höher | 32- und 64-Bit Version von Firefox 12.X oder höher | 32- und 64-Bit Version von Chrome 18.X oder höher |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Windows 10  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
 | Windows 8.1 & #x 2776; <br/> |n/v  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
@@ -95,49 +95,49 @@ Wenn der Benutzer ist in einem Netzwerk nicht wie beschrieben konfiguriert, viel
 Die folgende Tabelle vergleicht die besprechungsfunktionen für Benutzer des Skype für Business-Client, der Skype für Web-Geschäfts-App, Skype Besprechungen App und Lync Web App. Lync Web App wird zu Vergleichszwecken Feature aufgelistet: ein Benutzer würde nur herunterladen und Lync Web App verwenden, wenn die Besprechung auf einem Lync 2013-Server gehostet wurde.
   
 
-|**Feature/Funktion**|**Skype für Business 2016-client**|**Skype für Unternehmen auf Mac-client**|**Skype-Besprechungen-App**|**Skype für Business Web App**|**Lync Web App**|
+| Feature/Funktion | Skype für Business 2016-client | Skype für Unternehmen auf Mac-client | Skype-Besprechungs-App | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Computeraudio hinzufügen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(erfordert Plug-In)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(erfordert Plug-In)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(erfordert Plug-In)  <br/> |
-|Video hinzufügen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(erfordert Plug-In)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(erfordert Plug-In)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(erfordert Plug-In)  <br/> |
-|Audio für authentifizierte Teilnehmer zu einem Telefon wechseln  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Audio für Gastteilnehmer zu einem Telefon wechseln  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||
-|Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Videobasierte Bildschirmübertragung  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png) (für Besprechungen in Skype für Business Online gehostet werden, nur) <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(Nur Anzeigen)  <br/> |||
-|Steuerelemente für Referenten in Besprechungen verwenden  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Auf detaillierte Teilnehmerliste der Besprechung zugreifen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|An Chats mit mehreren Teilnehmern teilnehmen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|„Hohe Priorität“ für Chatnachrichten festlegen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Desktop freigeben (sofern aktiviert)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![Fußnote 1 lesen](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)(erfordert Plug-In)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![Fußnote 1 lesen](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)(erfordert Plug-In)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![Fußnote 1 lesen](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)(erfordert Plug-In)  <br/> |
-|Programm freigeben (sofern aktiviert)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(Nur Windows erfordert plug-in)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(Nur Windows erfordert plug-in)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(Nur Windows erfordert plug-in)  <br/> |
-|Übernehmen der Steuerung eines freigegebenen Desktops oder Programms eines anderen Benutzers  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(Nur Windows erfordert plug-in)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(Nur Windows erfordert plug-in)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(Nur Windows erfordert plug-in)  <br/> |
-|Einem anderen Benutzer die Steuerung Ihres freigegebenen Desktops oder Programms überlassen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Anonyme Teilnehmer hinzufügen (sofern aktiviert)  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Teilnehmer nach Namen einladen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|Teilnehmer nach Telefonnummern einladen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Teilnehmer nach E-Mail-Adressen einladen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Dial-in-Audiobesprechungen verwenden  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![Fußnote 2 lesen](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![Fußnote 2 lesen](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![Fußnote 2 lesen](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![Fußnote 2 lesen](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![Fußnote 2 lesen](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|
-|Besprechung mit „Jetzt besprechen“ initiieren  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|Eine Besprechung aufzeichnen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Anlagen hinzufügen und herunterladen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Microsoft PowerPoint-Dateien hinzufügen und präsentieren  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|In Microsoft PowerPoint-Dateien navigieren  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|OneNote-Besprechungsnotizen hinzufügen und bearbeiten  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||Nur bearbeiten (nicht hinzufügen)  <br/> |Nur bearbeiten (nicht hinzufügen)  <br/> |Nur bearbeiten (nicht hinzufügen)  <br/> |
-|Whiteboard verwenden  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Umfragen durchführen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Dateien zur gemeinsamen Verwendung mit anderen hochladen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|Computeraudio hinzufügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
+|Video hinzufügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
+|Audio für authentifizierte Teilnehmer zu einem Telefon wechseln  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Audio für Gastteilnehmer zu einem Telefon wechseln  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
+|Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Videobasierte Bildschirmübertragung  <br/> |& #x 2714;|& #x 2714; (für Besprechungen in Skype für Business Online gehostet werden, nur) <br/> |& #x2714;(View-only)  <br/> |||
+|Steuerelemente für Referenten in Besprechungen verwenden  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Auf detaillierte Teilnehmerliste der Besprechung zugreifen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|An Chats mit mehreren Teilnehmern teilnehmen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|„Hohe Priorität“ für Chatnachrichten festlegen  <br/> |& #x 2714;|||||
+|Desktop freigeben (sofern aktiviert)  <br/> |& #x 2714;|& #x 2714;|& #x 2714; & #x 2776; (erfordert plug-in)  <br/> |& #x 2714; & #x 2776; (erfordert plug-in)  <br/> |& #x 2714; & #x 2776; (erfordert plug-in)  <br/> |
+|Programm freigeben (sofern aktiviert)  <br/> |& #x 2714;||& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |
+|Übernehmen der Steuerung eines freigegebenen Desktops oder Programms eines anderen Benutzers  <br/> |& #x 2714;||& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |
+|Einem anderen Benutzer die Steuerung Ihres freigegebenen Desktops oder Programms überlassen  <br/> |& #x 2714;|||||
+|Anonyme Teilnehmer hinzufügen (sofern aktiviert)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Teilnehmer nach Namen einladen  <br/> |& #x 2714;|& #x 2714;||||
+|Teilnehmer nach Telefonnummern einladen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Teilnehmer nach E-Mail-Adressen einladen  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Dial-in-Audiobesprechungen verwenden  <br/> |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
+|Besprechung mit „Jetzt besprechen“ initiieren  <br/> |& #x 2714;|& #x 2714;||||
+|Eine Besprechung aufzeichnen  <br/> |& #x 2714;|||||
+|Anlagen hinzufügen und herunterladen  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Microsoft PowerPoint-Dateien hinzufügen und präsentieren  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|In Microsoft PowerPoint-Dateien navigieren  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|OneNote-Besprechungsnotizen hinzufügen und bearbeiten  <br/> |& #x 2714;||Nur bearbeiten (nicht hinzufügen)  <br/> |Nur bearbeiten (nicht hinzufügen)  <br/> |Nur bearbeiten (nicht hinzufügen)  <br/> |
+|Whiteboard verwenden  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Umfragen durchführen  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Dateien zur gemeinsamen Verwendung mit anderen hochladen  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Besprechung oder Konferenz planen  <br/> |Outlook oder Skype für Business-Webplaner  <br/> |Outlook oder Skype für Business-Webplaner  <br/> |Skype für Business-Webplaner  <br/> |Skype für Business-Webplaner  <br/> |Skype für Business-Webplaner  <br/> |
-|Q&amp;ein Manager  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Teilnehmervideo deaktivieren  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Besprechungschat deaktivieren  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Teilnehmer stummschalten  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Alle zu Teilnehmern machen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Skype Meeting Broadcast erstellen  <br/> |![Auschecken der Prüfliste](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
+|Q&amp;ein Manager  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Teilnehmervideo deaktivieren  <br/> |& #x 2714;|||||
+|Besprechungschat deaktivieren  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Teilnehmer stummschalten  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Alle zu Teilnehmern machen  <br/> |& #x 2714;|||||
+|Skype Meeting Broadcast erstellen  <br/> |& #x 2714;|||||
    
-![Fußnote 1 lesen](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) Teilnehmer können keine Desktops steuern, die von Lync für Mac 2011 oder Communicator für Mac 2011 Benutzer gemeinsam genutzt werden. Lync für Mac 2011- und Communicator für Mac 2011-Benutzer können keine Desktops steuern, die von Windows-Benutzern freigegeben wurden. Auch für die Skype for Business Web App unter Mac OS X funktioniert das nicht.
+ & #x 2776;  Teilnehmer können keine Desktops steuern, die von Lync für Mac 2011 oder Communicator für Mac 2011 Benutzer gemeinsam genutzt werden. Lync für Mac 2011- und Communicator für Mac 2011-Benutzer können keine Desktops steuern, die von Windows-Benutzern freigegeben wurden. Auch für die Skype for Business Web App unter Mac OS X funktioniert das nicht.
   
-![Fußnote 2 lesen](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png) Dieses Feature erfordert Microsoft PSTN-Konferenz, Exchange Unified Messaging, Skype für Business Online oder ein 3rd von Drittanbietern für Audiokonferenzen.
+ & #x 2777;  Dieses Feature erfordert Microsoft PSTN-Konferenz, Exchange Unified Messaging, Skype für Business Online oder ein 3rd von Drittanbietern für Audiokonferenzen.
   
-![Fußnote 3 lesen](../../media/f58a4c2c-e4b3-4954-9eee-1d5f7a89da53.png) Lync für Mac 2011-Client kann nicht Microsoft Office 2013 PowerPoint-Präsentationen anzeigen, wenn sie an einer Konferenz mithilfe der Skype für Business Web App freigegeben wurden.
+ & #x 2778;  Lync für Mac 2011-Client kann nicht Microsoft Office 2013 PowerPoint-Präsentationen anzeigen, wenn sie an einer Konferenz mithilfe der Skype für Business Web App freigegeben wurden.
   
 ## <a name="known-issues-and-troubleshooting"></a>Bekannte Probleme und Problembehandlung
 <a name="BKMK_Conferencing"> </a>
