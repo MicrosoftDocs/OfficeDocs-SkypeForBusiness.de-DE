@@ -1,12 +1,27 @@
 ---
-Titel: "Translation Regel Typ einen regulären Ausdruck" ms.author: Kenwith Autor: Kenwith Manager: Serdars ms.date: 11/17/2014 ms.audience: IT-Experten ms.topic: f1_keywords Artikel:
-- ms.lync.lscp.VoiceRuleRegexEdit ms.prod: Skype für Business Itpro Localization_priority: normalen ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4 Beschreibung: "Geben Sie In den in diesem Feld Muster übereinstimmen, das Muster, das verwendet wird, um entsprechen den zu übersetzenden Nummern. Geben Sie im Feld Übersetzungsregel ein Muster für das Format der übersetzten Nummern. Beispiel: bei Eingabe ^\+(\d{9}\d+)$ in der Übereinstimmung dieses Feld und 011$ 1 im Feld Übersetzungsregel Muster, übersetzt die Regel + 441235551010 in 011441235551010. "
+title: Translation Rule Type a Regular Expression
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.VoiceRuleRegexEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
+description: In the Match this pattern field, specify the pattern that will be used to match the numbers to be translated. In the Translation rule field, specify a pattern for the format of translated numbers. For example, if you enter ^\+(\d{9}\d+)$ in the Match this pattern field and 011$1 in the Translation rule field, the rule will translate +441235551010 to 011441235551010.
+ms.openlocfilehash: b5fc6c33bea5c7eca59fb06bee089fab0c9df061
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 04/16/2018
 ---
-
-# <a name="translation-rule-type-a-regular-expression"></a>Übersetzungsregel: Eingeben eines regulären Ausdrucks
+# <a name="translation-rule-type-a-regular-expression"></a>Translation Rule: Type a Regular Expression
  
-Geben Sie im Feld **dieses Muster** das Muster, das entsprechend die zu übersetzenden Nummern verwendet wird. Geben Sie im Feld **übersetzungsregel** ein Muster für das Format der übersetzten Nummern. Beispiel: bei Eingabe ^\+(\d{9}\d+)$ im Feld **dieses Muster abgleichen** und 011$ 1 im Feld **übersetzungsregel** die Regel + 441235551010 in 011441235551010 übersetzt.
+In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated. In the **Translation rule** field, specify a pattern for the format of translated numbers. For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

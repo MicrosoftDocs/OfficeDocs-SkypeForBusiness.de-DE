@@ -22,25 +22,25 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: de220c3ce9ab2fd17fb65589d721f41a7bc0ebb2
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 6609a0393e2b0f641f843b917f8b14a079aeb923
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
 Skype for Business Online qualifiziert und unterstützt Festnetztelefone für Benutzer, die lieber auf herkömmliche Weise als über die Skype for Business-App telefonieren möchten. In diesem Thema werden die Telefone und Firmwareversionen behandelt, die für die Verwendung in Skype for Business Online unterstützt werden. Außerdem finden Sie weitere Informationen, die Sie beim Einrichten von Telefonen in Ihrer Organisation unterstützen sollen.
   
-Um die neuesten Updates und die meisten aktuelle Informationen über die unterstützten Geräte erhalten möchten, finden Sie unter der [Skype für Geschäftsdatenkatalog-Gerät](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+To get the latest updates and most up-to-date information on supported devices, see the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 ## <a name="supported-phones"></a>Unterstützte Telefone
 
-Skype für Business Online-Benutzern Sie können mehrere Modelle innerhalb der *Zertifiziert für Skype für Telefone in Business* auswählen und Telefone mit Lync Phone Edition (LPE) aufgeführten unter der Skype für Business Online Kategorie in der [Skype für Business-Gerät Katalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+For Skype for Business Online users, you can choose from several models within the *Certified for Skype for Business Phones*  and phones running Lync Phone Edition (LPE) listed under the Skype for Business Online category in the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 Microsoft arbeitet in enger Partnerschaft mit Polycom, Yealink und AudioCodes zusammen, um über das Partner IP Phone Program (PIP) für das Telefonsystem in Office 365 und Skype for Business Server eine breite Palette von Geräten zu entwickeln und zu zertifizieren.
   
-Bei der neue Telefonen für Skype für Unternehmen Bestellung, ist es wichtig, zum Erwerben von Telefonen mit der *rechten Produkt-ID*. Durch diese Produkt-IDs ist sichergestellt, dass Sie Telefone erhalten, in denen die qualifizierte Version von Skype for Business Online bereits installiert ist.
+When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. Durch diese Produkt-IDs ist sichergestellt, dass Sie Telefone erhalten, in denen die qualifizierte Version von Skype for Business Online bereits installiert ist.
   
 |||
 |:-----|:-----|
@@ -51,7 +51,7 @@ Bei der neue Telefonen für Skype für Unternehmen Bestellung, ist es wichtig, z
    
 Weitere Details zu Polycom-Telefonen finden Sie unter [Audiolösungen für Microsoft](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
   
-Weitere Details zu Yealink-Telefonen finden Sie unter [IP-Telefone für Skype for Business](http://www.yealink.com/products_top_2.html).
+Weitere Details zu Yealink-Telefonen finden Sie unter [IP-Telefone für Skype for Business](http://www.yealink.com/products_list_10.html#filter2).
   
 Weitere Details zu AudioCodes-Telefonen finden Sie unter [IP-Telefone für Skype for Business](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
@@ -88,7 +88,7 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 |**Funktion** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |Anmelden mit Benutzeranmeldeinformationen  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Anmelden über PC (Kopplung), nur Windows  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die unterstützbarkeitsmatrix im Bereitstellungshandbuch.           |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Anmelden über Webanmeldung  <br/>  <br/> **Note:** Check the supportability matrix in deployment guide.           |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Teilnehmen an einer Besprechung mit Einfachklick  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Wählen durch Klicken (Kopplung)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Besprechungssteuerelemente  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
@@ -97,15 +97,18 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 |Geräteupdate  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |In-Band-Bereitstellung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |QoE  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden nur die Microsoft-Support-Team alle Protokolle hochgeladen; Kundenzugriffs auf Gesprächsnotizen sind noch nicht verfügbar.           |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Protokoll-Upload  <br/> <br/> **Note:** Currently, all logs are uploaded to the Microsoft Support team only; customer access to phone logs aren't yet available.           |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Moderne Authentifizierung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Mehrere Notrufnummern  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |
-|Integration von Exchange-Kalendern*  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> <br/> **Hinweis:** Erfordert tethering PC           |
+|Integration von Exchange-Kalendern*  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> <br/> **Note:** Requires PC tethering           |
 |Integration von Anwesenheitsfunktionen  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Unternehmensverzeichnis  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Delegierung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Integration von Kontaktbildern  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |
 ||||||
+
+    > [!NOTE]
+    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
    
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 Schrittweise Anweisungen finden Sie unter [Bereitstellen von Telefonen für Skype for Business Online](deploying-skype-for-business-online-phones.md).

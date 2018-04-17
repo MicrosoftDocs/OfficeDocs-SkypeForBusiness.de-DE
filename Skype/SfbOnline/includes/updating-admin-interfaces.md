@@ -1,0 +1,1 @@
+Es werden gerade häufig aktualisieren, wie Sie Features von Skype für Unternehmen und die Microsoft-Teams, damit die Schritte möglicherweise geringfügig was finden Sie unter verwalten. Verwenden Sie den nachfolgenden Link, um uns zu informieren, wenn Sie Feedback.

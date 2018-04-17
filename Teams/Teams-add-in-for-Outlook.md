@@ -3,21 +3,23 @@ title: Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 03/12/2018
+audience: Admin
+ms.date: 04/09/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
+localization_priority: Normal
 description: Microsoft Teams installiert in Outlook ein Add-In, mit dem Benutzer Microsoft Teams-Besprechungen über Outlook planen können.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 811c27a48a0e9bbccfbea7ac12e54ef0697b3f2b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 109911e27a881ea09fb9854bb84ab19222722c39
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -62,7 +64,16 @@ Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwic
 - Das Add-In ist für geplante Besprechungen mit bestimmten Teilnehmern gedacht, nicht für Besprechungen in einem Kanal. Kanalbesprechungen müssen in Microsoft Teams geplant werden. Zurzeit ist das Microsoft Teams-Besprechungs-Add-In in Outlook nur für Windows-Benutzer verfügbar, aber die Unterstützung für Mac wird noch hinzugefügt.
 - Das Add-In funktioniert nicht, wenn sich im Netzwerkpfad zwischen dem PC des Benutzers und den Microsoft Teams-Diensten ein Authentifizierungsproxy befindet.
 
+## <a name="troubleshooting"></a>Problembehandlung
+
+Wenn Sie die Besprechung Teams add-in für Outlook installieren nicht, versuchen Sie diese Schritte zur Problembehandlung.
+
+- Starten Sie den Desktopclient Teams neu.
+- Melden Sie sich ab und dann wieder anmelden auf dem Desktopclient Teams.
+- Starten Sie den desktop Outlook-Client neu. (Stellen Sie sicher, dass Outlook nicht im Admin-Modus ausgeführt wird.)
+- Stellen Sie sicher, dass der Kontoname angemeldeten Benutzer keine Leerzeichen enthalten. (Dies ist ein bekanntes Problem und wird in einem zukünftigen Update behoben werden.)
+- Stellen Sie sicher, dass einmaliges Anmelden (SSO) aktiviert ist.
+
 Eine allgemeine Anleitung zum Deaktivieren von Add-Ins finden Sie unter [Anzeigen, Verwalten und Installieren von Add-Ins in Office-Programmen](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 Weitere Informationen zu [Besprechungen und Anrufen in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)
-

@@ -6,16 +6,16 @@ manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbean
 description: Anleitung für den Start Ihrer Reise von Skype for Business nach Microsoft Teams
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a9c9d4ccdbe3f3f1a2107c832b5437860e17d73
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: ee2ca43a9338798cd59a64c03f53d0b692d30c35
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 <a name="optimize-your-current-skype-for-business-environment-for-microsoft-teams"></a>Optimieren Ihrer aktuellen Skype for Business-Umgebung für Microsoft Teams
 ==============================================================
@@ -48,7 +48,7 @@ Bevor Sie das Teams-Onboarding Ihrer Benutzer starten, vergewissern Sie sich, da
 
 Schauen Sie sich [CQD-Videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) an, die Ihnen Anleitungen zur Verwendung des Anrufqualitätsdashboards zwecks Überprüfung der Medienqualität bieten.
 
-Weitere Informationen zum Aufrufen Analytics gelesen Sie [Skype für BA aufrufen](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+To learn more about Call Analytics, read [Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 ### <a name="quality-champion-role"></a>Rolle „Qualitätspionier“
 

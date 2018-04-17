@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: dc75a47f9e2de6c124675b4ae2cd9f3a9ff17036
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: d43770b03dafdfba25630fe5cab73990a0b3e92c
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -34,7 +34,7 @@ Bevor Sie Benutzer in Ihrer Organisation für das Tätigen und Erhalten von Tele
   
 Es gibt drei Möglichkeiten, um neue Benutzernummern vorzubereiten:
 
-- **Verwenden Sie die Skype für Business Administrationscenter.** Einige Länder/Regionen, können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [Rufnummern für Ihre Benutzer erste.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
+- **Verwenden Sie die Skype für Business Administrationscenter.** Einige Länder/Regionen, können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [Rufnummern für Ihre Benutzer erste.](getting-phone-numbers-for-your-users.md).
     
 - **Port Ihrer vorhandenen Rufnummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
   

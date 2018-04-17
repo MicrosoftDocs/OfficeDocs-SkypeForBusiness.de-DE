@@ -1,5 +1,5 @@
 ---
-title: Aktivieren und verwenden Qualität Dashboards aufrufen
+title: Turning on and using Call Quality Dashboard
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -20,13 +20,13 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: 5e1bf4a112e36761c18a11d3173b263002ad5e3f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 463567d46da9f7fa50aa54880e017ae886cba57d
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
+# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online
 
 Hier erfahren Sie, wie Sie Ihre Office 365-Organisation konfigurieren können, um das Anrufqualitäts-Dashboard zur Überwachung der Anrufqualität zu verwenden.
   
@@ -43,10 +43,10 @@ Dies sind die neuesten Änderungen am AQD:
     
 - Zusammenfassungsberichte enthalten einen Produktfilter, mit dem Sie alle Daten, Microsoft Teams-Daten oder Skype for Business Online-Daten auswählen können.
     
-Finden Sie in diesem Artikel finden Sie eine Liste von [Dimensionen und Measures in Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verfügbar](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> Informationen zu Updates und Änderungen am Dashboard erhalten Sie, wenn Sie auf dem Dashboard auf **Gute Neuigkeiten!** klicken. Navigieren Sie zu [Anrufqualität Dashboard](https://aka.ms/CQDOnline). 
+> Information about updates and changes to the dashboard can be found by clicking the link in the **Good news!** banner when it is displayed on the dashboard.
   
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Aktivieren von Zusammenfassungsberichten des Microsoft-Anrufqualitäts-Dashboards (AQD)
 
@@ -115,9 +115,9 @@ Verwenden Sie die Daten auf dieser Registerkarte, um den Status und die Trends d
   
 ![CQD Data key](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as * Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. Was für die Klassifizierung eines Stream-Objekts als schlecht oder eine gute verwendet wird finden Sie unter [Qualität Schwellenwerte aufrufen](https://aka.ms/cqd_quality_thresholds).
+Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as *Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to [Call Quality Thresholds](https://aka.ms/cqd_quality_thresholds).
   
-Verwenden Sie die Skala links, um die Werte für die Anrufanzahl zu ermitteln.
+Use the scale on the left to measure the stream count values.
   
 ![CQD data count](../images/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
@@ -132,7 +132,7 @@ Sie erhalten auch die tatsächlichen numerischen Werte, indem Sie mit der Maus �
   
 ![CQD Data numeric](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
-Das gesamte Datenstromvolumen ist ein wichtiger Faktor bei der Bestimmung der Relevanz der berechneten Prozentsätze für die Klassifizierung „Schlecht". Je kleiner das Volumen des gesamten Datenstroms ist, desto unzuverlässiger sind die im Bericht enthaltenen Werte für die Klassifizierung „Schlecht".
+Das gesamte Datenstromvolumen ist ein wichtiger Faktor bei der Bestimmung der Relevanz der berechneten Prozentsätze für die Klassifizierung „Schlecht". The smaller the volume of overall streams, the less reliable the reported Poor percentage values are.
   
 ### <a name="server-client-tab-and-client-client-tabs"></a>Registerkarten „Server-Client" und „Client-Client"
 
@@ -148,7 +148,7 @@ Diese zwei Registerkarten bieten zusätzliche Details für die Datenströme, die
     
 #### <a name="inside-test"></a>Innentest
 
-Bei der Verarbeitung klassifiziert das AQD-Back-End einen Datenstrom als  *Innen*  oder *Außen*  anhand von Gebäudeinformationen, falls diese vorhanden sind. Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. Falls das Subnetz in der Liste der Subnetze in den hochgeladenen Gebäudeinformationen enthalten ist, gilt dieses als „Innen". Falls die Gebäudeinformationen noch nicht hochgeladen wurden, wird der Innentest die Datenströme stets als *Außen*  klassifizieren. Beachten Sie, dass beim Innentest für das Server-Client-Szenario nur der Clientendpunkt berücksichtigt wird. Da sich Server aus der Perspektive des Benutzers stets außerhalb befinden, werden sie beim Test nicht berücksichtigt.
+Bei der Verarbeitung klassifiziert das AQD-Back-End einen Datenstrom als  *Innen*  oder *Außen*  anhand von Gebäudeinformationen, falls diese vorhanden sind. Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test will always classify the streams as *Outside*. Beachten Sie, dass beim Innentest für das Server-Client-Szenario nur der Clientendpunkt berücksichtigt wird. Da sich Server aus der Perspektive des Benutzers stets außerhalb befinden, werden sie beim Test nicht berücksichtigt.
   
 #### <a name="wired-vs-wifi"></a>Verkabelt oder WLAN
 
@@ -164,7 +164,7 @@ In den Zusammenfassungsberichten und erweiterten Standortberichten können Sie m
   
 ![Screenshot shows the Product Filter control with options for All, Microsoft Teams, and Skype for Business.](../images/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-In detaillierten Berichten können Sie beim Definieren des Berichts die Daten mithilfe der Microsoft Teams-Dimension nach Microsoft Teams- oder Skype for Business Online-Daten filtern.
+In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
   
 ## <a name="upload-building-information"></a>Hochladen von Gebäudeinformationen
 <a name="BKMKFeaturesOfTheCQD"> </a>
@@ -177,7 +177,7 @@ Das Dashboard für AQD-Zusammenfassungsberichte enthält die Seite **Upload von 
     
 2. Klicken Sie nach Auswahl des Dateidatentyps auf **Durchsuchen**, um eine Datendatei auszuwählen.
     
-  - Bei der Datendatei muss es sich um eine TSV-Datei (Datei mit tabulatorgetrennten Werten) oder eine CSV-Datei (Datei mit durch Trennzeichen getrennten Werten) handeln. Bei Verwendung einer CSV-Datei müssen alle Felder, die ein Komma enthalten, Anführungszeichen enthalten, oder das Komma muss entfernt werden. Beispiel: Wenn Ihr Gebäudename NY,NY lautet, muss er in der CSV-Datei als „NY,NY" eingegeben werden.
+  - Bei der Datendatei muss es sich um eine TSV-Datei (Datei mit tabulatorgetrennten Werten) oder eine CSV-Datei (Datei mit durch Trennzeichen getrennten Werten) handeln. If using a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. Beispiel: Wenn Ihr Gebäudename NY,NY lautet, muss er in der CSV-Datei als „NY,NY" eingegeben werden.
     
   - Die Datendatei darf maximal 50 MB groß sein.
     
@@ -193,7 +193,7 @@ Das Dashboard für AQD-Zusammenfassungsberichte enthält die Seite **Upload von 
   
 5. Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
     
-    Jeder Eintrag zeigt eine hochgeladene Mandantendatendatei an, einschließlich Dateityp, letzter Aktualisierungszeit, Zeitraum, Beschreibung sowie Symbolen zum Entfernen und Herunterladen. Um eine Datei zu entfernen, wählen Sie das Papierkorbsymbol in der Tabelle aus. Um eine Datei herunterzuladen, wählen Sie das Downloadsymbol in der Spalte **Download** der Tabelle aus.
+    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. Um eine Datei zu entfernen, wählen Sie das Papierkorbsymbol in der Tabelle aus. Um eine Datei herunterzuladen, wählen Sie das Downloadsymbol in der Spalte **Download** der Tabelle aus.
     
      ![CQD My Uploads table](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
@@ -208,21 +208,21 @@ Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um
     
 - In jeder Spalte kann der Datentyp nur eine Zeichenfolge, eine Zahl oder der boolesche Datentyp sein. Falls es eine Zahl ist, muss es sich um einen numerischen Wert handeln; falls es der boolesche Datentyp ist, muss der Wert entweder 0 oder 1 betragen.
     
-- In jeder Spalte können die Daten leer sein, falls der Datentyp „Zeichenfolge" verwendet wird (jedoch müssen sie durch ein passendes Trennzeichen wie zum Beispiel einen Tabstopp oder ein Komma getrennt werden). Dadurch wird dem Feld eine leere Zeichenfolge zugewiesen.
+- For each column, if the data type is string, the data can be empty (but still must be separated by an appropriate delimiter (i.e., a tab or comma). Dadurch wird dem Feld eine leere Zeichenfolge zugewiesen.
     
-- Es müssen 14 Spalten für jede Zeile vorhanden sein. Jede Spalte muss den folgenden Datentyp enthalten, und die Spalten müssen in der Reihenfolge angeordnet sein, die in der folgenden Tabelle angegeben ist:
+- There must be 14 columns for each row, each column must have the following data type, and the columns must be in the order listed in the following table:
     
 |**Spaltenname**|**Datentyp**|**Beispiel**|
 |:-----|:-----|:-----|
 |Netzwerk  <br/> |Zeichenfolge  <br/> |192.168.1.0  <br/> |
-|Netzwerkname  <br/> |Zeichenfolge  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
+|NetworkName  <br/> |Zeichenfolge  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
 |NetworkRange  <br/> |Zahl  <br/> |26  <br/> |
 |BuildingName  <br/> |Zeichenfolge  <br/> |SEATTLE-SEA-1  <br/> |
 |OwnershipType  <br/> |Zeichenfolge  <br/> |Contoso  <br/> |
 |BuildingType  <br/> |Zeichenfolge  <br/> |IT Termination  <br/> |
 |BuildingOfficeType  <br/> |Zeichenfolge  <br/> |Engineering  <br/> |
 |Ort  <br/> |Zeichenfolge  <br/> |Seattle  <br/> |
-|Postleitzahl  <br/> |Zeichenfolge  <br/> |98001  <br/> |
+|ZipCode  <br/> |Zeichenfolge  <br/> |98001  <br/> |
 |Land  <br/> |Zeichenfolge  <br/> |USA  <br/> |
 |Bundesland  <br/> |Zeichenfolge  <br/> |WA  <br/> |
 |Region  <br/> |Zeichenfolge  <br/> |MSUS  <br/> |
@@ -230,12 +230,12 @@ Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um
 |ExpressRoute  <br/> |Bool  <br/> |0  <br/> |
    
 > [!IMPORTANT]
-> Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bestimmte VPN-Implementierungen meldet nicht genau die Subnetzinformationen. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich). 
+> Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Certain VPN implementations do not accurately report the subnet information. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich). 
   
 ## <a name="selecting-media-type-in-detailed-reports"></a>Auswählen eines Medientyps in detaillierten Berichten
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-Mit detaillierten Berichten können die Qualität und die Medienzuverlässigkeit von Medientypen für Audio, Video, Anwendungsfreigabe und videobasierte Bildschirmübertragung ermittelt werden. Die für einen Medientyp spezifischen Dimensionen, Kennzahlen und Filter weisen das Präfix „Audio", „Video", „AppSharing" oder „VBSS" auf.
+Mit detaillierten Berichten können die Qualität und die Medienzuverlässigkeit von Medientypen für Audio, Video, Anwendungsfreigabe und videobasierte Bildschirmübertragung ermittelt werden. Dimensions, measures, and filters that are specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
 ![Call Quality Dashboard Dimensions.](../images/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
@@ -246,9 +246,9 @@ Wenn Sie die Dimensionen und Kennzahlen für einen einzelnen Medientyp anzeigen 
 ## <a name="related-topics"></a>See Also
 [Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md)
 
-[Verwenden Sie Analytics rufen Sie für die Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Use Call Analytics to troubleshoot poor  call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Unterschied zwischen Anruf Analytics und Anrufqualität Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
