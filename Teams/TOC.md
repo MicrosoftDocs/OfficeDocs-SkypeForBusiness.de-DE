@@ -5,7 +5,8 @@
 ## [Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
 ## [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
 ## [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
-## [URLs und IP-Adressbereiche von Office 365](Office-365-URLs-IP-address-ranges.md)
+## [URLs und IP-Adressbereiche von Office 365](Office-365-URLs-IP-address-ranges.md)
+## [Grenzwerte und Spezifikationen für Teams](limits-specifications-teams.md)
 
 
 
@@ -224,7 +225,7 @@
 ### [1.1 - Umwelt Discovery für Microsoft-Teams, Einführung](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - Fördern Sie neben Skype for Business die Akzeptanz von Teams](pilot-essentials.md)
 ### [2.1 - Wählen Sie Benutzer für Ihren Piloten Teams](select-users-for-your-teams-pilot.md)
-## [3 - upgrade Reise und Koexistenz von Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+## [3 - Koexistenz zu verstehen und Aktualisieren von Modi für Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - Erzielen Sie eine höhere Wertschöpfung durch Benutzerakzeptanz](continue-journey.md)
 ## [Häufig gestellte Fragen – Vision von Skype for Business & Teams](FAQ-journey.md)
 ## [Tutorial: Reise von Skype for Business zu Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
