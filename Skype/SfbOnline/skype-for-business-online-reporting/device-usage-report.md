@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Das neue Office 365-Berichte Dashboard zeigt, über die Office 365-Produkte in Ihrer Organisation der Übersicht über die Aktivität. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Angenommen, Sie können die Skype für Business Gerät Verwendungsbericht verwenden, um die Geräte, einschließlich Windows-Betriebssystemen finden Sie unter und mobile Geräten, denen die Skype für Geschäfts-app installiert und es für Instant Messaging und Besprechungen verwenden. Checken Sie Aktivitätsberichte im Office 365 Administrationscenter, um mehr zu erfahren.
-ms.openlocfilehash: ce749a1439a0cab0edcc0bdd85b34ff0b462bad8
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e03719fc48609ce490e311015927df9a426dbbcd
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="device-usage-report"></a>Gerät-Verwendungsbericht
 

@@ -3,7 +3,6 @@ title: Point-Block dateiübertragungen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
 ms.tgt.pltfrm: cloud
@@ -17,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: In Skype für Business Online haben Sie die Kontrolle über dateiübertragungen Point (P2P) als Teil des vorhandenen konferenzrichtlinieneinstellungen aufgeführt. Jedoch auf diese Weise können oder Blöcke Datei überträgt für Benutzer, unabhängig davon, ob sie Dateien an Benutzer, die innerhalb derselben Organisation sind oder an ein Verbundbenutzer aus einer anderen Organisation übertragen werden. Die folgenden Schritte ausführen, können Sie P2P dateiübertragungen mit verbundorganisationen oder Partnern blockieren.
-ms.openlocfilehash: 8e3fd112d46a88752b0d6d19cf2e1fbb1787df32
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e73a2baa8368d3ed1c20a79e8f78010749c05fb2
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="block-point-to-point-file-transfers"></a>Point-Block dateiübertragungen
 

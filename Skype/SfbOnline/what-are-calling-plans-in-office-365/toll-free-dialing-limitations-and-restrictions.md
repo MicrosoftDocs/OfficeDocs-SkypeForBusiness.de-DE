@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
-ms.openlocfilehash: 9ece5f4cf978b00cc782d936251d013c4cf43f8c
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: b683c5e09beef434111379d108b3d09b1ba684a9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Gebührenfreie Rufnummer einwählen einschränken
 

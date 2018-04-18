@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 0f39dc9d-eb60-4c5a-9ae3-e34a01834d9b
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Als ein Office 365-Administrator können Sie die Einstellungen für die Audiokonferenz bearbeiten – wie der Anbieter, Standard gebührenpflichtige oder gebührenfreie Telefonnummer, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation. Wenn Sie Einstellungen für die Organisation bearbeiten möchten, finden Sie unter Verwalten der Audiokonferenz Einstellungen für meine Organisation.
-ms.openlocfilehash: cf9db4b2191b7b8152dc5c831b098de4143402b9
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 29eb81881bf768b4b398e0fdac38a908ab5833ce
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Verwalten der Audiokonferenz Einstellungen für einen Benutzer
 

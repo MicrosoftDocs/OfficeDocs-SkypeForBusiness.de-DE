@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 4f4947b1-3760-46f9-8367-877aaf405d6c
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: e63ba2fa1c6720228863f040df5c6f8f8ec44263
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 80b29a823465fcd36f599d7b1627323482d134a6
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in China - Süd (10 800 140 XXXX Bereich)
 

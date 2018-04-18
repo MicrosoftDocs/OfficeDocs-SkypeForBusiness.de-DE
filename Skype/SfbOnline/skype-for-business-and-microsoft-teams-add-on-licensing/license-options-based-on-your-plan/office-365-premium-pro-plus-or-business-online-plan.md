@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,11 +21,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Premium, Office 365 ProPlus oder Skype für Business Online – Plan 2. '
-ms.openlocfilehash: a47f50e33d0b5ba63fc6b57f069ed5ba3094294a
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 1117b5abe6fd3af2155332bc8ecdc707016da7f5
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="office-365-premium-office-365-proplus-or-skype-for-business-online-plan-2"></a>Office 365 Premium, Office 365 ProPlus oder Skype for Business Online Plan 2
 

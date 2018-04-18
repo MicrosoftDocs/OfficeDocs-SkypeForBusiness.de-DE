@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 999aa4b0-6084-4fbe-83c9-eed030bf9560
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: bacc4013b1152fe5107fecbcf6059aba729bd7d9
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 772cfc7cb371c23279a2a207b1ce861027b0ace1
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-hong-kong"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Hongkong
 

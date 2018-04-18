@@ -1,10 +1,9 @@
 ---
-title: Was sind Wählpläne?
+title: What are dial plans?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
@@ -21,29 +20,29 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: 'Hier erfahren Sie, welche Art von Dial Plans (Aufrufen von PSTN-Wählpläne) aufrufen mit Office 365 verfügbar sind und wie Sie eine für Ihre Organisation wählen.  '
+description: 'Learn what type of dial calling plans (PSTN Calling dial plans) are available with Office 365 and how to choose one for your organization.  '
 search.appverid:
 - MED150
 - MOE150
-ms.openlocfilehash: 8e32143b78d9ed6da81910f24ecf2bcbe9baaf70
-ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.openlocfilehash: c24727dec0a9d938b3b0e40ef6f47501944e70e1
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="what-are-dial-plans"></a>Was sind Wählpläne?
+# <a name="what-are-dial-plans"></a>What are dial plans?
 
 Ein Wählplan ist ein Norminalisierungsregelsatz, der die von einem einzelnen Benutzer gewählten Telefonnummern zur Anrufautorisierung und Anrufweiterleitung in ein anderes Format (normalerweise E.164) übersetzt.
   
-Ein Wählplan umfasst eine oder mehrere Normalisierungsregeln, die definieren, wie Rufnummern in unterschiedlichen Formaten in ein anderes Format übersetzt werden. Die gleichen Dial-Zeichenfolge kann sein und unterschiedlich übersetzt in verschiedene Wählpläne, damit je nach einem bestimmten Benutzer der Wählplan zugewiesen ist, dieselbe gewählte Nummer übersetzt und weitergeleitet werden anders.
+A dial plan consists of one or more normalization rules that define how phone numbers expressed in various formats are translated to an alternate format. The same dial string may be interpreted and translated differently in different dial plans, so depending on which dial plan is assigned to a given user, the same dialed number may be translated and routed differently.
   
-Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Mandanten-Wählpläne.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage tenant dial plans.
   
 ## <a name="tenant-dial-plan-scope"></a>Mandantenwählplanbereich
 
-Ein Wählplan Bereich bestimmt die Hierarchieebene, an der die Wähleinstellungen angewendet werden kann. Die Bereiche werden anders als in einer Skype für Business Server 2015: Bereitstellung lokal. Clients erhalten die entsprechenden Wähleinstellungen über die Bereitstellung von Einstellungen, die automatisch bereitgestellt werden, wenn Benutzer Skype für Business Online anmelden. Sie können als Administrator verwalten und Bereichsebenen mithilfe von Remote-PowerShell zuweisen.
+A dial plan's scope determines the hierarchical level at which the dial plan can be applied. The scopes are different than in a Skype for Business Server 2015 on-premises deployment. Clients obtain the appropriate dial plan through provisioning settings that are automatically provided when users log on to Skype for Business Online. As an administrator, you can manage and assign dial plan scope levels by using Remote PowerShell.
   
-In Skype für Business Online gibt es zwei Arten von Wählplänen - bezogenen Service und Mandant (bei dem es sich um für Ihre Organisation handelt) beschränkt. Ein Wählplan bezogenen Service ist für jedes Land/Region definiert, in dem das Telefonsystem für Office 365 verfügbar ist. Jeder Benutzer wird automatisch den Dienst Land Wählplan zugewiesen, der die Office 365 Usage Standort zugewiesen, die dem Benutzer entspricht. Den Dienst Land Wählplan kann nicht geändert werden, aber Sie können Mandanten bezogenen-Wählpläne, die den Dienst Land Wählplan ergänzen erstellen. Wie Clients bereitgestellt werden, ein "effektiven Wählplan," ist eine Kombination aus dem Dienst Land Wählplan und die Wähleinstellungen entsprechend bereichsbezogenen Mandanten abgerufen. Aus diesem Grund ist es nicht erforderlich, alle Normalisierungsregeln in Wählpläne Mandanten definieren, wie sie in den Dienst Land Wähleinstellungen noch vorhanden sind möglicherweise.
+In Skype for Business Online, there are two types of dial plans - service scoped and tenant (which is for your organization) scoped. A service scoped dial plan is defined for every country/region where the Office 365 Phone System is available. Each user is automatically assigned the service country dial plan that matches the Office 365 Usage Location assigned to the user. You can't change the service country dial plan, but you can create tenant scoped dial plans, which augment the service country dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country dial plan.
   
 Mandantenwählpläne können weiter in zwei Bereiche unterteilt werden: Mandantenbereich oder Benutzerbereich. Wenn ein Mandant einen Wählplan mit Bereichszuweisung eines Benutzers definiert und zuweist, erhält dieser Benutzer einen gültigen Wählplan des Wählplans eines landesspezifischen Diensts und den zugewiesenen Benutzerwählplan. Wenn ein Mandant einen Wählplan mit Bereichszuweisung eines Mandanten definiert, ohne einen Wählplan mit Bereichszuweisung eines Benutzers zuzuweisen, erhält dieser Benutzer einen gültigen Wählplan des Wählplans eines landesspezifischen Diensts und den Mandantenwählplan.
   
@@ -53,27 +52,27 @@ So sieht das Vererbungsmodell für Wahlpläne in Skype for Business Online aus:
   
 Mögliche gültige Wählpläne:
   
- **Dienst Land** Wenn kein Wählplan Mandanten bezogenen definiert ist und keine Mandanten bezogenen benutzerwähleinstellungen der bereitgestellten Benutzer zugewiesen ist, erhält der Benutzer eine effektive Wählplan zugeordnet sind, in das Service Land ihre Office 365 Usage Standort zugeordnet.
+ **Service Country** If no tenant scoped dial plan is defined and no tenant user scoped dial plan is assigned to the provisioned user, the user will receive an effective dial plan mapped to the service country associated with their Office 365 Usage Location.
   
- **Globale - Mandanten Service Land** Wenn ein Mandant benutzerwähleinstellungen wird definiert, aber nicht zu einem Benutzer zugewiesen, erhält der bereitgestellte Benutzer eine effektive Wählplan bestehend aus einem Wählplan zusammengeführten Mandanten und den Dienst Land Wählplan ihre Office 365 Usage Standort zugeordnet.
+ **Tenant Global - Service Country** If a tenant user dial plan is defined but not assigned to a user, the provisioned user will receive an effective dial plan consisting of a merged tenant dial plan and the service country dial plan associated with their Office 365 Usage Location.
   
- **Mandanten-Benutzer - Dienst Land** Wenn ein Mandant benutzerwähleinstellungen definiert und einem Benutzer zugewiesen ist, erhält der bereitgestellte Benutzer eine effektive Wählplan bestehend aus der zusammengeführten Mandanten benutzerwählplan und den Dienst Land Wählplan ihre Office 365 Usage Standort zugeordnet.
+ **Tenant User - Service Country** If a tenant user dial plan is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service country dial plan associated with their Office 365 Usage Location.
   
-Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) Ihres Mandanten Wählpläne erstellen.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
   
 ## <a name="planning-for-tenant-dial-plans"></a>Planen von Mandantenwählplänen
 
 Führen Sie die folgenden Schritte aus, um benutzerdefinierte Wählpläne zu planen:
   
-- **Schritt 1** Entscheiden Sie, ob eine benutzerdefinierte einwählen Plan so benötigt werden, um der Benutzer wählt Erfahrung zu verbessern. In der Regel die Notwendigkeit für eine zur Unterstützung von nicht e. 164-Nummer, wie Erweiterungen wäre oder abgekürzt national wählen.
+- **Step 1** Decide whether a custom dial plan is needed to enhance the user dialing experience. Typically, the need for one would be to support non-E.164 dialing, such as extensions or abbreviated national dialing.
     
-- **Schritt 2** Bestimmen Sie, ob globale Mandanten oder Mandanten Benutzer bezogenen Wählpläne erforderlich sind, oder beides. Wählpläne mit Bereichszuweisung eines Benutzers sind erforderlich, wenn Benutzer über unterschiedliche Anforderungen an lokale Wählvorgänge verfügen.
+- **Step 2** Determine whether tenant global or tenant user scoped dial plans are needed, or both. Wählpläne mit Bereichszuweisung eines Benutzers sind erforderlich, wenn Benutzer über unterschiedliche Anforderungen an lokale Wählvorgänge verfügen.
     
 - **Schritt 3**: Identifizieren Sie gültige Nummernmuster für jeden erforderlichen Wählplan. Es sind nur die Nummernmuster erforderlich, die nicht in den Wählplänen auf der Ebene von landesspezifischen Diensten definiert sind.
     
 - **Schritt 4**: Entwickeln Sie ein organisationsweites Schema für die Benennung von Wählplänen. Die Übernahme eines Standardbenennungsschemas stellt die Konsistenz innerhalb einer Organisation sicher und vereinfacht Wartungsaufgaben und Updates.
     
-Die [schnelle](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) verfügt über zusätzliche Ressourcen und Partnerunternehmen aufgeführt, die mit der Durchführung der Mandanten-Wählpläne helfen können.
+The [FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) has additional resources and partners that can assist you with implementing tenant dial plans.
   
 ## <a name="creating-your-new-tenant-dial-plan"></a>Erstellen Ihres neuen Mandantenwählplans
 
@@ -81,7 +80,7 @@ Wenn Sie einen neuen Wählplan erstellen, müssen Sie die erforderlichen Informa
   
 ### <a name="name-and-simple-name"></a>Name und einfacher Name
 
-Für Benutzer-Wählpläne sollten Sie angeben, dass ein beschreibender Namen, der den Benutzern den Wählplan identifiziert zugewiesen wird. Der Wählplan einfacher Name ist vorab aufgefüllten durch eine Zeichenfolge, die von der Wählplanname abgeleitet ist. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. Der Wert des einfachen Name darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
+For user dial plans, you should specify a descriptive name that identifies to the users the dial plan will be assigned. The dial plan Simple Name is prepopulated with a string that is derived from the dial plan name. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. The Simple Name value cannot be empty and must be unique. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
   
 ### <a name="description"></a>Beschreibung
 
@@ -97,13 +96,13 @@ Sie können ein Präfix für externen Zugriff von bis zu vier Zeichen (#, * und 
 > [!NOTE]
 > Wenn Sie ein Präfix für externen Zugriff angeben, müssen Sie keine zusätzliche Normalisierungsregel erstellen, um das Präfix aufzunehmen. 
   
-Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) Ihres Mandanten Wählpläne erstellen.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
   
 ## <a name="normalization-rules"></a>Normalisierungsregeln
 
 Normalisierungsregeln definieren, wie die in verschiedenen Formaten ausgedrückten Telefonnummern übersetzt werden. Je nach dem lokalen Standort, von dem aus eine Nummernzeichenfolge gewählt wird, kann diese unterschiedlich interpretiert und übersetzt werden. Normalisierungsregeln sind unter Umständen notwendig, wenn Benutzer interne oder externe Kurzwahlnummern wählen müssen.
   
-Eine oder mehrere Normalisierungsregeln müssen mit dem Wählplan zugewiesen werden. Normalisierungsregeln werden von oben nach unten, abgeglichen werden, damit die Reihenfolge, in der sie in einem Wählplan Mandanten angezeigt werden, wichtig ist. Beispielsweise weist ein Mandanten Wählplan 10 Normalisierungsregeln, die gewählte Nummer übereinstimmende Logik versucht, beginnend mit die erste Normalisierungsregel, wenn es keine Übereinstimmung klicken Sie dann auf die zweite usw.. Wenn eine Übereinstimmung vorliegt, diese Regel wird verwendet, und es wird kein Aufwand für alle anderen Regeln entspricht, die definiert sind. In einem bestimmten Mandanten Wählplan können maximal 25 Normalisierungsregeln vorhanden sein.
+One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic will be tried starting with the first normalization rule, if there isn't a match then the second, and so forth. If a match is made, that rule is used and there is no effort to match any other rules that are defined. There can be a maximum of 25 normalization rules in a given tenant dial plan.
   
 ### <a name="determining-the-required-normalization-rules"></a>Festlegen der erforderlichen Normalisierungsregeln
 
@@ -113,32 +112,32 @@ Da jeder Mandantenwählplan effektiv mit einem Wählplan eines landesspezifische
 
 Normalisierungsregeln verwenden reguläre Ausdrücke von .NET Framework, um numerische Vergleichsmuster anzugeben, mit denen der Server zum Zweck der umgekehrten Nummernsuche Wählzeichenfolgen in das E.164-Format übersetzen kann. Sie können Normalisierungsregeln erstellen, indem Sie den regulären Ausdruck für den Abgleich angeben sowie die Übersetzung, die für gefundene Übereinstimmungen durchgeführt werden soll. Abschließend können Sie eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
   
-Weitere Informationen zur Verwendung von regulärer .NET Framework-Ausdrücken finden Sie unter [Reguläre Ausdrücke von .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
+For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
   
-Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Normalisierungsregeln Regeln für Ihre Mandanten-Wählpläne.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
   
 ### <a name="sample-normalization-rules"></a>Beispiele für Normalisierungsregeln
 
 Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als reguläre Ausdrücke von .NET Framework formuliert sind. Diese Regeln sind nur Beispiele und stellen keine verbindliche Referenz für die Erstellung Ihrer eigenen Normalisierungsregeln dar.
   
- **Normalisierungsregeln werden mithilfe von regulären Ausdrücken in .NET Framework**
+ **Normalization rules using .NET Framework regular expressions**
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Regelname** <br/> |**Beschreibung** <br/> |**Nummernmuster** <br/> |**Übersetzung** <br/> |**Beispiel** <br/> |
 |4digitExtension  <br/> |Übersetzt vierstellige Durchwahlnummern.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 wird in +14255550100 übersetzt.  <br/> |
-|5stellendurchwahl).  <br/> |Übersetzt fünfstellige Durchwahlnummern.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
+|5digitExtension  <br/> |Übersetzt fünfstellige Durchwahlnummern.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
 |7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt.  <br/>|
 |RedmondOperator  <br/> |Übersetzt 0 in die Vorwahl des Netzbetreibers von Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 wird in +14255550100 übersetzt.  <br/> |
 |RedmondSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 wird in +14255550100 übersetzt.  <br/> |
 |5digitRange  <br/> |Übersetzt fünfstellige Durchwahlnummern beginnend mit dem Ziffernbereich von 3 bis einschließlich 7.  <br/> |^([3-7]\\d{4})$  <br/> |+142570$1  <br/> |54567 wird in +14255554567 übersetzt.  <br/> |
 |PrefixAdded  <br/> |Fügt ein Länderpräfix vor einer neunstelligen Nummer mit Einschränkungen für die erste und dritte Ziffer hinzu.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 wird in 14255554567 übersetzt.  <br/> |
-|Keine Übersetzung  <br/> |Gleicht 5 Ziffern ab, ohne eine Übersetzung durchzuführen.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 wird in 34567 übersetzt.  <br/> |
+|NoTranslation  <br/> |Gleicht 5 Ziffern ab, ohne eine Übersetzung durchzuführen.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 wird in 34567 übersetzt.  <br/> |
    
  **Wählplan für Redmond, basierend auf den oben gezeigten Normalisierungsregeln**
   
 Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert.
-|:-----| | **Redmond-Wählplan** <br/> | | 5stellendurchwahl). <br/> | | 7digitcallingRedmond <br/> | | RedmondSitePrefix <br/> | | RedmondOperator <br/> |
+|:-----| |**Redmond dial plan** <br/> | |5digitExtension <br/> | |7digitcallingRedmond <br/> | |RedmondSitePrefix <br/> | |RedmondOperator <br/> |
    
 > [!NOTE]
 > Die Namen der Normalisierungsregeln in der vorstehenden Tabelle enthalten keine Leerzeichen, aber dies ist nicht obligatorisch. Beispielsweise ist der erste Name in der Tabelle auch gültig, wenn er „5 digit extension" oder „5-digit Extension" lautet. 

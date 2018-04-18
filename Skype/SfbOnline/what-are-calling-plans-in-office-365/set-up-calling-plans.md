@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -23,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 4f591807dcfb4ed4b4d9fceb8340ba18b11549ec
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 194f38811766f96ad192b38730158f01ce9ab234
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 Anrufe an andere Skype for Business-Benutzer sind kostenlos. Wenn Sie Ihren Benutzern jedoch ermöglichen möchten, Telefone außerhalb Ihres Unternehmens anzurufen, benötigen Sie einen Plan für Inlandsanrufe oder einen Plan für Auslandsanrufe in Office 365. Dies können Sie ganz leicht für Ihr Unternehmen einrichten. 
@@ -46,7 +45,7 @@ Wechseln Sie zur [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und
 ## <a name="step-3-get-phone-numbers"></a>Schritt 3: Abrufen von Telefonnummern
 Es gibt drei Möglichkeiten, um neue Benutzernummern vorzubereiten:
 
-- **Verwenden Sie die Skype für Business Administrationscenter.** Einige Länder/Regionen, können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [e Rufnummern für Ihre Benutzer erste.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
+- **Verwenden Sie die Skype für Business Administrationscenter.** Einige Länder/Regionen, können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [e Rufnummern für Ihre Benutzer erste.](getting-phone-numbers-for-your-users.md).
     
 - **Port Ihrer vorhandenen Rufnummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
   

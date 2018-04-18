@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 51c2f7ac-2b72-488d-b1ea-f00e1e88ee7a
 ms.tgt.pltfrm: cloud
@@ -18,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Die neue Skype für Bereich Business Admin Center Berichte zeigt Sie aufrufende und audio Conferencing Aktivität in Ihrer Organisation. Sie können in Berichte bieten mehr Granularität Aufschluss über die Aktivitäten der einzelnen Benutzer zur Verfügung, der Drilldown erfolgen soll. Die Skype für Business PSTN Minute Pools Bericht können Sie beispielsweise die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht finden Sie unter.
-ms.openlocfilehash: 3db3e0394bc7af9394b4b6988bc28fbaa1da42a5
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 850a6659311b030fff6ca6c10660491694c50c27
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN-Minute Pools-Bericht
 

@@ -3,7 +3,6 @@ title: Einrichten von Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Informationen Sie zum Einrichten Ihrer Domäne, Benutzer Sofortnachrichten und Anwesenheitsinformationen für Ihre Organisation Skype für Unternehmen zu installieren. Außerdem finden Sie unter Audiokonferenzen Telefonsystem und plant aufrufen und Skype Besprechung Übertragung einrichten. '
-ms.openlocfilehash: ad0608dbb637b4b2343bf39d47b2beea0ca9e12c
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 2b542d3d2f19d03db3137c6e7939ed3cd4a26d31
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online
   

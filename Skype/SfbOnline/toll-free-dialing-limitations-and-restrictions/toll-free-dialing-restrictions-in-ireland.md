@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: aa902873-3444-4c10-972e-2c245ab31b34
 ms.tgt.pltfrm: cloud
@@ -20,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: f9917aa8fc9f8a4a6087dc0353d2de6b2880b9fc
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 68be2ad3c45e02a17964152c15867c15be62b2e0
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Irland
 

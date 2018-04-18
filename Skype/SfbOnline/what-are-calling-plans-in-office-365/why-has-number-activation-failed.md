@@ -1,10 +1,9 @@
 ---
-title: Warum hat Zahl Fehler bei der Aktivierung?
+title: Why has number activation failed?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c4e54d00-e096-474c-a457-56e785439ff6
 ms.tgt.pltfrm: cloud
@@ -21,14 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 0da05c5cdcc3c0c28d92d44d7433ec1a1abcabce
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: eca7d50bdc33c12f6cea11f1d37e054516891aae
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="why-has-number-activation-failed"></a>Warum hat Zahl Fehler bei der Aktivierung?
-Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn aus irgendeinem Grund eine Telefonnummer ein aufgrund von Adresse Validierung aktiviert nicht zur Verfügung, müssen Sie eine Serviceanfrage erstellen. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
+# <a name="why-has-number-activation-failed"></a>Why has number activation failed?
+Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. If for some reason a phone number isn't activated because of address validation, you will need to create a service request. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
 1. Wählen Sie im **Office 365 Admin Center** die Option **Need help?** (Benötigen Sie Hilfe?) aus.

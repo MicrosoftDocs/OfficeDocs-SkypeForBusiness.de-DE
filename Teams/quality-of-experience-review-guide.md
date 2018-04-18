@@ -3,7 +3,7 @@ title: Quality of Experience überprüfen Handbuch für Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: Handbuch für die Analyse der Leistung für Microsoft-Teams, Real-T
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65591f364cd40db5307208e089b6897cfb60e878
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 42af71e9062b68da6e9d3bc77a6c067eee35ec92
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
@@ -495,7 +495,7 @@ Dieses Handbuch umfasst [zwei curated CQD Vorlagen](https://github.com/Microsoft
 
 ![Screenshot des ein Popup-Fenster, das dem Benutzer benachrichtigt, dass die Vorlage erfolgreich importiert wurde.](media/quality-of-experience-review-guide-imagestep5.png)
 
-1.  Wiederholen Sie die Schritte 4 und 5 für die zweite CQD-Vorlage.
+6.  Wiederholen Sie die Schritte 4 und 5 für die zweite CQD-Vorlage.
 
 > [!NOTE]
 > Die Vorlagen CQD werden pro Benutzer importiert. Wenn weitere Benutzer den Bericht verwenden müssen, müssen sie anmelden und die Vorlagen in ihrer Instanz CQD importieren. 

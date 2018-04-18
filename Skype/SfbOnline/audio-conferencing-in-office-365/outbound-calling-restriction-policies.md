@@ -3,7 +3,6 @@ title: Ausgehende aufrufende einschränkungsrichtlinien für Audiokonferenzen un
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 2/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -18,11 +17,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Administratoren können den Typ des audio-Konferenzen und Endbenutzer-PSTN-Anrufe steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: ab6f34e46ceb6a9811830ba1444278db667de73c
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a842366a5788de960cf5f0338219903ebe3d93f7
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Ausgehende aufrufende einschränkungsrichtlinien für Audiokonferenzen und Benutzer PSTN-Anrufe
 

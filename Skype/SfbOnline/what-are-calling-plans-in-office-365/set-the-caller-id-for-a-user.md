@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c7323490-d9b7-421a-aa76-5bd485f80583
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Das Telefonsystem in Office 365 bietet eine Standard Anrufer-ID, die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Erfahren Sie mehr dazu, wie Sie die Anrufer-ID in Ihrer Organisation mithilfe der Wechsel zu verwenden, wie die Anrufer-ID in Ihrer Organisation verwendet werden kann.
-ms.openlocfilehash: 07fc6db1a161f8eca83ea601e1a8f5d70e1f1d5e
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: ac3732be84d44b7f42c8a76c51dd1aeb72b7cac3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
 Das Telefonsystem in Office 365 bietet eine Standard Anrufer-ID, die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Erfahren Sie mehr über die Anrufer-ID in Ihrer Organisation verwenden, [wie kann Anrufer-ID werden in Ihrer Organisation verwendeten](how-can-caller-id-be-used-in-your-organization.md)zugreifen, indem.

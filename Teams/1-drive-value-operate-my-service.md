@@ -3,7 +3,7 @@ title: Betriebshandbuch für Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: 'Aufgaben und Aktivitäten für Teams Servicemanagement, einschlie�
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 4d9b76d62457c541924c6f72eb246bf63f1fe026
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="operate-my-service"></a>Meine Dienst betreiben
 
@@ -372,7 +372,7 @@ Diese Rolle erfordert die Fähigkeiten Trends in der Umgebung und der Unterstüt
 Die Qualität Champion nutzt vorhandenen Tools und dokumentierte Prozessen, wie etwa aufrufen Quality Dashboard (CQD) und eine Anleitung Qualität erleben Sie die Überprüfung zum Überwachen der Benutzer wünschen, identifizieren Qualität Trends und-Wartung Laufwerk bei Bedarf.
 Die Qualität Champion sollten mit den jeweiligen Teams auf Laufwerk Remediation Aktionen und Bericht zu einem Lenkungsausschuss zu des Fortschritts und der Probleme open arbeiten.
 
-[Erleben Sie die Überprüfung Handbuch für Quality of](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) enthält Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten zur Verbesserung der benutzerfreundlichkeit auswirken. Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt CQD Online als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die Maximieren Verwendung. Versucht, das Netzwerk zur Verbesserung der Audioqualität Optimierungen übersetzt auch direkt in Verbesserungen bei video sowie die Desktopfreigabe.
+[Erleben Sie die Überprüfung Handbuch für Quality of](https://aka.ms/qerguide) enthält Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten zur Verbesserung der benutzerfreundlichkeit auswirken. Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt CQD Online als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die Maximieren Verwendung. Versucht, das Netzwerk zur Verbesserung der Audioqualität Optimierungen übersetzt auch direkt in Verbesserungen bei video sowie die Desktopfreigabe.
 
 Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollten sie beginnen mit dem Inhalt im Handbuch für die Qualität Experience-Überprüfung und zugehörige Schulungsmaterial vertraut machen.
 
@@ -394,7 +394,7 @@ Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Na
 
 [Informationen zum Erstellen von hochladen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Quality of Experience überprüfen Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+[Quality of Experience überprüfen Guide](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -443,7 +443,7 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Anforderungen für Endpunkt    | Stellen Sie sicher, dass der Teams Endpunkt weiterhin alle erforderliche Software für Teams [erhalten die Clients für Microsoft-Teams](https://docs.microsoft.com/microsoftteams/get-clients)erfüllen.                                                                                                                                                                                       | Monatlich   |               |
 | Endpunkt firewalls       | Verwalten Sie die entsprechenden Ausnahmen auf dem Endpunkt Firewall anhand der Informationen im Artikel [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) . Ihre Drittanbieter müssen bestimmte Richtlinien zum Verwalten der Ausschlüsse. Abonnieren Sie den [RSS-feed](https://support.office.com/en-us/o365ip/rss) Änderungen automatisch benachrichtigt werden sollen. | Bei Bedarf |               |
-| Wi-Fi-Treiber            | Testen Sie und aktualisieren Sie die Wi-Fi-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Qualität überprüfen Handbuch für of Experience](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)).                                                                                                                                                                                                                                                                   | Bei Bedarf |               |
+| Wi-Fi-Treiber            | Testen Sie und aktualisieren Sie die Wi-Fi-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Qualität überprüfen Handbuch für of Experience](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Bei Bedarf |               |
 | Endpunkt-Verwaltung      | Verwalten des Katalogs der unterstützten Endpunkten und Geräte (wie Headsets) Schnittstelle. Hersteller Verträge, Garantie, Verteilung, Replacement verwalten und Richtlinien zu reparieren.                                                                                                                                                                                                        | Monatlich   |               |
 | Endpunkt-Problembehandlung | Problembehandlung bei Aufgaben kann einschließen. Überprüfen der Konnektivität, konsultieren die Liste der bekannten Probleme, Log sammeln, Analyse und Weiterleitung zu Support von Microsoft oder von Drittanbietern.                                                                                                                                                                                               | Bei Bedarf |               |
 
@@ -564,6 +564,6 @@ Ständig bewerten und Korrigieren von den in diesem Dokument beschriebenen Gebie
 
 Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt Verwendung Online aufrufen Quality Dashboard (CQD) als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche beschrieben, mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die maximieren. Versucht, das Netzwerk zur Verbesserung der Audioqualität Optimierungen übersetzt auch direkt in Verbesserungen bei video sowie die Desktopfreigabe.
 
-Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollten sie beginnen mit dem Inhalt im [Handbuch für die Qualität Experience-Überprüfung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)vertraut machen.
+Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollten sie beginnen mit dem Inhalt im [Handbuch für die Qualität Experience-Überprüfung](https://aka.ms/qerguide)vertraut machen.
 
 <!--ENDOFSECTION-->

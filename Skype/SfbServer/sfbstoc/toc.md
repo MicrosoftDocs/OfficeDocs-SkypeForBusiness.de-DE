@@ -518,6 +518,7 @@
 ### [Skype Room System, Version 2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML-Konfigurationsdatei](../manage/skype-room-systems-v2/xml-config-file.md)
+#### [Verwenden Sie das Wiederherstellungstool](../manage/skype-room-systems-v2/recovery-tool.md)
 ### [Benutzerkonten](../manage/user-accounts/user-accounts.md)
 #### [Anpassen von Eigenschaften](../manage/user-accounts/customize-properties.md)
 ### [Verwalten von Diensten](../manage/manage-services.md)

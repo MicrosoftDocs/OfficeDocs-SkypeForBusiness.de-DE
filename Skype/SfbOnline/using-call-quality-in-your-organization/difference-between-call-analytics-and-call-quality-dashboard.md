@@ -4,7 +4,6 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business.
-ms.openlocfilehash: 934b0cfec28fa4a67e1dad699db504bda25b2978
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 869b4373d6e1bea65700532b52959aa2126d94d9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?
 

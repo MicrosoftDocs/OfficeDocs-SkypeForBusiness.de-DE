@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 04/03/2018
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Get the steps you need to change settings for a conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business or Microsoft Teams apps. "
-ms.openlocfilehash: 727392bc81bce2fb3cfd84029e6a275e1eed3e24
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: 'Hier finden Sie die Schritte, die Sie Einstellungen für eine Konferenzbrücke ändern, mit der Aufforderung Anrufer und Namen und Pins für Besprechungsorganisatoren sammeln, wenn sie nicht Skype für apps Business oder Microsoft-Teams verwenden, müssen. '
+ms.openlocfilehash: 1ab6f5f82d8282f9062439f875ea15d2ab6d7fd5
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
 
@@ -40,31 +39,31 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
 > [!CAUTION]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Using the Microsoft Teams and Skype for Business Admin Center
+## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
 
-1. In the left navigation, go to **Meetings** > **Conference bridges**. 
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenzbrücken**. 
 
-2. At the top of the **Conference bridges** page, click **Bridge settings**. 
+2. Klicken Sie am oberen Rand der Seite **Konferenzbrücken** **Bridge-Einstellungen**auf. 
 
-3. In the **Bridge settings** pane, select: 
-  - **Meeting entry and exit notifications** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+3. Klicken Sie im Bereich **Bridge Einstellungen** auswählen: 
+  - **Meeting-Eintrag, und beenden Sie Benachrichtigungen** Wenn Sie diese Option aktivieren, werden nicht Benutzer, die bereits an der Besprechung benachrichtigt, wenn jemand Beitritt oder die Besprechung verlässt.
     
-    When you turn on **Meeting entry and exit notifications**, you can select these options:
+    Wenn Sie **Meeting Beitritts- und Benachrichtigungen**aktivieren, können Sie diese Optionen auswählen:
     
   - **Names or phone numbers** (Namen oder Telefonnummern): Wenn sich Benutzer in eine Besprechung einwählen und teilnehmen, wird ihre Telefonnummer wiedergegeben.
     
   - **Tones** (Töne): Wenn sich Benutzer in eine Besprechung einwählen und teilnehmen, wird ein Ton wiedergegeben.
       
-  - **Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.
+  - **Ask Anrufer ihren Namen vor der Teilnahme an der Besprechung aufzeichnen** Wenn Sie diese Option aktivieren, werden nicht Anrufer aufgefordert, ihren Namen aufzeichnen müssen, bevor sie an einer Besprechung teilnehmen.
 
-4. To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.
+4. Um die PIN-Mindestlänge für Besprechungen festzulegen, wählen Sie die Anzahl der Nachkommastellen für die PIN-Nummer in der Liste der **PIN-Länge** gewünschte.
 
-5. To specify whether to send email to your users, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**.
-    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+5. Um anzugeben, ob e-Mail an die Benutzer senden, aktivieren oder deaktivieren **für Benutzer-e-Mails automatisch gesendet, wenn die Konfiguration ihrer Audiokonferenzen ändert**.
+    Weitere Informationen finden Sie unter [e-Mails werden automatisch für Benutzer, wenn Ändern ihrer Einstellungen für die Audiokonferenz gesendet](emails-sent-to-users-when-their-settings-change.md) .
  
 6. Klicken Sie auf **Anwenden**. 
 
-## <a name="using-skype-for-business-admin-center"></a>Using Skype for Business admin center
+## <a name="using-skype-for-business-admin-center"></a>Verwenden von Skype für Business-Verwaltungskonsole
 
  **Festlegen des Besprechungsverhaltens, wenn Anrufer an einer Besprechung teilnehmen**
     
@@ -105,9 +104,9 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-4. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their dial-in information changes**, and then click **Save**.
+4. Klicken Sie auf der Seite **Microsoft-Brücke Einstellungen** aktivieren Sie oder deaktivieren Sie **automatisch für Benutzer-e-Mails gesendet, wenn sich ihre Einwahlinformationen ändert**, und klicken Sie dann auf **Speichern**.
     
-    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+    Weitere Informationen finden Sie unter [e-Mails werden automatisch für Benutzer, wenn Ändern ihrer Einstellungen für die Audiokonferenz gesendet](emails-sent-to-users-when-their-settings-change.md) .
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 

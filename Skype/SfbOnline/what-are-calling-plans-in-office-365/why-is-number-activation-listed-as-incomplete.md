@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 98fc0e56-fad3-4e9b-9543-1b4f584b48ac
 ms.tgt.pltfrm: cloud
@@ -21,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 6297fe3badaf933a62230f51b41066d18c0c04e3
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 65713e58a660dcc4a72f44c4418107c5346cd35f
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Warum ist die Nummer Aktivierung wie unvollständig aufgeführt?
 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Skype für Business Online verwendet die Typen der verschiedenen Telefon Nummer je nach den Zweck die Telefonnummer verwendet werden soll.
-ms.openlocfilehash: 8cbb68639b5fda89cb93604985880b1934819af8
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: d901a849edce6d579d0dfbe1cc43a17ca3112499
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet
 

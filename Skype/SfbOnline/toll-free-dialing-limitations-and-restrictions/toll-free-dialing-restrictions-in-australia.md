@@ -3,7 +3,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6efa769d-f6a1-4164-a264-439431180081
 ms.tgt.pltfrm: cloud
@@ -19,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 479187556d0033e4006940a1608f49e376c9e73b
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: ec0faa223fe5d9436c2de4d613d7480a3a94db92
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Australien
 
