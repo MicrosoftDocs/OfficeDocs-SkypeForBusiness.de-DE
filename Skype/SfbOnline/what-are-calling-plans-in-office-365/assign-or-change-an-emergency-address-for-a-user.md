@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 1411b594-1e88-44c9-9f60-2202f9bb8553
 ms.tgt.pltfrm: cloud
@@ -22,50 +21,50 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
-ms.openlocfilehash: d1323f400e15b629d6fc623636c4060028ec42c1
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 8b8fbb98de35115b5e8f6dea76cfa2175c95826e
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="assign-or-change-an-emergency-address-for-a-user"></a><span data-ttu-id="ad891-103">Zuweisen oder Ändern einer Notfalladresse für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="ad891-103">Assign or change an emergency address for a user</span></span>
+# <a name="assign-or-change-an-emergency-address-for-a-user"></a><span data-ttu-id="2b43d-103">Zuweisen oder Ändern einer Notfalladresse für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="2b43d-103">Assign or change an emergency address for a user</span></span>
 
-<span data-ttu-id="ad891-104">Wenn Sie in Office 365-Pläne aufrufen einrichten, müssen Sie eine Telefonnummer und Notfall Adresse jeden Ihrer Benutzer zuweisen.</span><span class="sxs-lookup"><span data-stu-id="ad891-104">When you are setting up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span> <span data-ttu-id="ad891-105">Die Notfalladresse muss angelegt werden, bevor Sie sie einer Telefonnummer zuweisen können.</span><span class="sxs-lookup"><span data-stu-id="ad891-105">The emergency address must be created before you can associate it with a phone number.</span></span> <span data-ttu-id="ad891-106">Finden Sie unter [Was notfallstandorten, Adressen und Anrufrouting sind?](what-are-emergency-locations-addresses-and-call-routing.md) Weitere Informationen.</span><span class="sxs-lookup"><span data-stu-id="ad891-106">See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.</span></span>
+<span data-ttu-id="2b43d-104">Wenn Sie in Office 365-Pläne aufrufen einrichten, müssen Sie eine Telefonnummer und Notfall Adresse jeden Ihrer Benutzer zuweisen.</span><span class="sxs-lookup"><span data-stu-id="2b43d-104">When you are setting up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span> <span data-ttu-id="2b43d-105">Die Notfalladresse muss angelegt werden, bevor Sie sie einer Telefonnummer zuweisen können.</span><span class="sxs-lookup"><span data-stu-id="2b43d-105">The emergency address must be created before you can associate it with a phone number.</span></span> <span data-ttu-id="2b43d-106">Finden Sie unter [Was notfallstandorten, Adressen und Anrufrouting sind?](what-are-emergency-locations-addresses-and-call-routing.md) Weitere Informationen.</span><span class="sxs-lookup"><span data-stu-id="2b43d-106">See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.</span></span>
   
-<span data-ttu-id="ad891-107">Möchten Sie wissen, wie plant Aufrufen in Office 365 abrufen und wie viel Kosten, [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="ad891-107">Want to know how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="2b43d-107">Möchten Sie wissen, wie plant Aufrufen in Office 365 abrufen und wie viel Kosten, [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="2b43d-107">Want to know how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
   
-## <a name="assign-or-change-an-emergency-address"></a><span data-ttu-id="ad891-108">Zuweisen oder Ändern einer Notfalladresse</span><span class="sxs-lookup"><span data-stu-id="ad891-108">Assign or change an emergency address</span></span>
+## <a name="assign-or-change-an-emergency-address"></a><span data-ttu-id="2b43d-108">Zuweisen oder Ändern einer Notfalladresse</span><span class="sxs-lookup"><span data-stu-id="2b43d-108">Assign or change an emergency address</span></span>
 
-1. <span data-ttu-id="ad891-109">Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.</span><span class="sxs-lookup"><span data-stu-id="ad891-109">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="2b43d-109">Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.</span><span class="sxs-lookup"><span data-stu-id="2b43d-109">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="ad891-110">Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="ad891-110">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="2b43d-110">Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.</span><span class="sxs-lookup"><span data-stu-id="2b43d-110">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="ad891-111">Klicken Sie im linken Navigationsbereich Gehe zu **VoIP**und dann auf **VoIP-Benutzer**.</span><span class="sxs-lookup"><span data-stu-id="ad891-111">In the left navigation go to **Voice**, then click **Voice users**.</span></span>
+3. <span data-ttu-id="2b43d-111">Klicken Sie im linken Navigationsbereich Gehe zu **VoIP**und dann auf **VoIP-Benutzer**.</span><span class="sxs-lookup"><span data-stu-id="2b43d-111">In the left navigation go to **Voice**, then click **Voice users**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="ad891-112">Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.</span><span class="sxs-lookup"><span data-stu-id="ad891-112">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+    > <span data-ttu-id="2b43d-112">Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.</span><span class="sxs-lookup"><span data-stu-id="2b43d-112">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
     
-4. <span data-ttu-id="ad891-113">Suchen Sie auf der Seite **VoIP-Benutzer** nach dem Benutzer, dessen Notfalladresse Sie ändern möchten und wählen Sie ihn aus.</span><span class="sxs-lookup"><span data-stu-id="ad891-113">On the **Voice users** page, locate and select the user you want to change the emergency address for.</span></span>
+4. <span data-ttu-id="2b43d-113">Suchen Sie auf der Seite **VoIP-Benutzer** nach dem Benutzer, dessen Notfalladresse Sie ändern möchten und wählen Sie ihn aus.</span><span class="sxs-lookup"><span data-stu-id="2b43d-113">On the **Voice users** page, locate and select the user you want to change the emergency address for.</span></span>
     
-5. <span data-ttu-id="ad891-114">Klicken Sie im Bereich „Aktion" unter **Notfallstandort** auf **Ändern**.</span><span class="sxs-lookup"><span data-stu-id="ad891-114">In the Action pane, under **Emergency location**, click **Change**.</span></span>
+5. <span data-ttu-id="2b43d-114">Klicken Sie im Bereich „Aktion" unter **Notfallstandort** auf **Ändern**.</span><span class="sxs-lookup"><span data-stu-id="2b43d-114">In the Action pane, under **Emergency location**, click **Change**.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="ad891-115">Sie können nur eine bereits überprüfte Notfalladresse ändern.</span><span class="sxs-lookup"><span data-stu-id="ad891-115">You can only change an emergency address that has already been validated.</span></span> <span data-ttu-id="ad891-116">Um eine Notfall-Adresse zu ändern, die noch nicht validiert wurde, löschen Sie ihn, und erstellen Sie eine andere Adresse Notfall.</span><span class="sxs-lookup"><span data-stu-id="ad891-116">To change an emergency address that hasn't been validated, delete it and create another emergency address.</span></span> 
+    > <span data-ttu-id="2b43d-115">Sie können nur eine bereits überprüfte Notfalladresse ändern.</span><span class="sxs-lookup"><span data-stu-id="2b43d-115">You can only change an emergency address that has already been validated.</span></span> <span data-ttu-id="2b43d-116">Um eine Notfall-Adresse zu ändern, die noch nicht validiert wurde, löschen Sie ihn, und erstellen Sie eine andere Adresse Notfall.</span><span class="sxs-lookup"><span data-stu-id="2b43d-116">To change an emergency address that hasn't been validated, delete it and create another emergency address.</span></span> 
   
-6. <span data-ttu-id="ad891-117">Klicken Sie auf der Seite **Nummer zuweisen** auf **Standort ändern**.</span><span class="sxs-lookup"><span data-stu-id="ad891-117">On the **Assign number** page, click **Change location**.</span></span>
+6. <span data-ttu-id="2b43d-117">Klicken Sie auf der Seite **Nummer zuweisen** auf **Standort ändern**.</span><span class="sxs-lookup"><span data-stu-id="2b43d-117">On the **Assign number** page, click **Change location**.</span></span>
     
-7. <span data-ttu-id="ad891-118">Geben Sie unter **Notfall Adresse zu ändern**den Namen der Stadt ein, und klicken Sie auf **Suchen**.</span><span class="sxs-lookup"><span data-stu-id="ad891-118">Under **Change emergency address to**, enter the name of the city and click **Search**.</span></span>
+7. <span data-ttu-id="2b43d-118">Geben Sie unter **Notfall Adresse zu ändern**den Namen der Stadt ein, und klicken Sie auf **Suchen**.</span><span class="sxs-lookup"><span data-stu-id="2b43d-118">Under **Change emergency address to**, enter the name of the city and click **Search**.</span></span>
     
-8. <span data-ttu-id="ad891-119">Wählen Sie die Notfall Adresse aus der Dropdownliste Adresse aus, und klicken Sie dann auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="ad891-119">Select the emergency address from the address drop-down list, and then click **Save**.</span></span> 
+8. <span data-ttu-id="2b43d-119">Wählen Sie die Notfall Adresse aus der Dropdownliste Adresse aus, und klicken Sie dann auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="2b43d-119">Select the emergency address from the address drop-down list, and then click **Save**.</span></span> 
     
-## <a name="related-topics"></a><span data-ttu-id="ad891-120">See Also</span><span class="sxs-lookup"><span data-stu-id="ad891-120">Related topics</span></span>
-[<span data-ttu-id="ad891-121">Was ist Adressvalidierung?</span><span class="sxs-lookup"><span data-stu-id="ad891-121">What is address validation?</span></span>](what-is-address-validation.md)
+## <a name="related-topics"></a><span data-ttu-id="2b43d-120">See Also</span><span class="sxs-lookup"><span data-stu-id="2b43d-120">Related topics</span></span>
+[<span data-ttu-id="2b43d-121">Was ist Adressvalidierung?</span><span class="sxs-lookup"><span data-stu-id="2b43d-121">What is address validation?</span></span>](what-is-address-validation.md)
 
-[<span data-ttu-id="ad891-122">Verwalten von Telefonnummern für Ihre Organisation</span><span class="sxs-lookup"><span data-stu-id="ad891-122">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="2b43d-122">Verwalten von Telefonnummern für Ihre Organisation</span><span class="sxs-lookup"><span data-stu-id="2b43d-122">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="ad891-123">Nutzungsbedingungen für Notrufe</span><span class="sxs-lookup"><span data-stu-id="ad891-123">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="2b43d-123">Nutzungsbedingungen für Notrufe</span><span class="sxs-lookup"><span data-stu-id="2b43d-123">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="ad891-124">Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe</span><span class="sxs-lookup"><span data-stu-id="ad891-124">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="2b43d-124">Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe</span><span class="sxs-lookup"><span data-stu-id="2b43d-124">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
  

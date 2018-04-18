@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
 ms.tgt.pltfrm: cloud
@@ -21,32 +20,32 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorgehen, wenn Ihr Netzbetreiber nicht in Skype für Unternehmen aufgeführt ist. '
-ms.openlocfilehash: 7ca5b0b959066dec5841862ac9270dcc023aecd4
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 1cebfb2858161f03c4a688592454b8602b6606f0
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a><span data-ttu-id="b4b4e-103">Was geschieht, wenn mein Mobilfunkbetreibers als der Quelle Netzbetreiber nicht aufgeführt ist?</span><span class="sxs-lookup"><span data-stu-id="b4b4e-103">What if my phone carrier isn't listed as the source carrier?</span></span>
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a><span data-ttu-id="00745-103">Was geschieht, wenn mein Mobilfunkbetreibers als der Quelle Netzbetreiber nicht aufgeführt ist?</span><span class="sxs-lookup"><span data-stu-id="00745-103">What if my phone carrier isn't listed as the source carrier?</span></span>
 
-<span data-ttu-id="b4b4e-104">Es ist etwas verwirrend, wenn Sie sehen, dass der Name der Ihr Netzbetreiber nicht aufgeführt ist.</span><span class="sxs-lookup"><span data-stu-id="b4b4e-104">It's a little confusing when you see that the name of your carrier isn't listed.</span></span> <span data-ttu-id="b4b4e-105">Wenn der Dienstanbieter oder Netzbetreiber, unterscheidet, sind wahrscheinlich in den meisten Fällen, dass die Telefonnummern, denen Sie über übertragen werden von einem anderen Dienstanbieter oder Netzbetreiber gehören.</span><span class="sxs-lookup"><span data-stu-id="b4b4e-105">In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier.</span></span> <span data-ttu-id="b4b4e-106">Wenn der Dienstanbieter oder Netzbetreiber, die aufgeführt wird vom aktuellen Dienstanbieter abweichen konnte, da vom aktuellen-Dienstanbieter möglicherweise mit einem Drittanbieter-Dienstanbieter arbeiten Zeiten können vorhanden sein.</span><span class="sxs-lookup"><span data-stu-id="b4b4e-106">There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider.</span></span> 
+<span data-ttu-id="00745-104">Es ist etwas verwirrend, wenn Sie sehen, dass der Name der Ihr Netzbetreiber nicht aufgeführt ist.</span><span class="sxs-lookup"><span data-stu-id="00745-104">It's a little confusing when you see that the name of your carrier isn't listed.</span></span> <span data-ttu-id="00745-105">Wenn der Dienstanbieter oder Netzbetreiber, unterscheidet, sind wahrscheinlich in den meisten Fällen, dass die Telefonnummern, denen Sie über übertragen werden von einem anderen Dienstanbieter oder Netzbetreiber gehören.</span><span class="sxs-lookup"><span data-stu-id="00745-105">In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier.</span></span> <span data-ttu-id="00745-106">Wenn der Dienstanbieter oder Netzbetreiber, die aufgeführt wird vom aktuellen Dienstanbieter abweichen konnte, da vom aktuellen-Dienstanbieter möglicherweise mit einem Drittanbieter-Dienstanbieter arbeiten Zeiten können vorhanden sein.</span><span class="sxs-lookup"><span data-stu-id="00745-106">There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider.</span></span> 
   
-<span data-ttu-id="b4b4e-107">Ein Beispiel:</span><span class="sxs-lookup"><span data-stu-id="b4b4e-107">An example:</span></span>
+<span data-ttu-id="00745-107">Ein Beispiel:</span><span class="sxs-lookup"><span data-stu-id="00745-107">An example:</span></span>
   
-- <span data-ttu-id="b4b4e-108">Wenn Sie die Anzahl von Skype für Unternehmen als Ihr Netzbetreiber portieren, möglicherweise angezeigt, dass Level3 aufgeführt.</span><span class="sxs-lookup"><span data-stu-id="b4b4e-108">If you are porting number from Skype for Business as your carrier, you might see Level3 listed.</span></span>
+- <span data-ttu-id="00745-108">Wenn Sie die Anzahl von Skype für Unternehmen als Ihr Netzbetreiber portieren, möglicherweise angezeigt, dass Level3 aufgeführt.</span><span class="sxs-lookup"><span data-stu-id="00745-108">If you are porting number from Skype for Business as your carrier, you might see Level3 listed.</span></span>
     
- <span data-ttu-id="b4b4e-109">**Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="b4b4e-109">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="00745-109">**Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="00745-109">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="b4b4e-110">Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="b4b4e-110">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+    > <span data-ttu-id="00745-110">Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="00745-110">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="b4b4e-111">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="b4b4e-111">Related topics</span></span>
-[<span data-ttu-id="b4b4e-112">Allgemeine Fragen zum Übertragen von Telefonnummern</span><span class="sxs-lookup"><span data-stu-id="b4b4e-112">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="00745-111">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="00745-111">Related topics</span></span>
+[<span data-ttu-id="00745-112">Allgemeine Fragen zum Übertragen von Telefonnummern</span><span class="sxs-lookup"><span data-stu-id="00745-112">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="b4b4e-113">Nutzungsbedingungen für Notrufe</span><span class="sxs-lookup"><span data-stu-id="b4b4e-113">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="00745-113">Nutzungsbedingungen für Notrufe</span><span class="sxs-lookup"><span data-stu-id="00745-113">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="b4b4e-114">Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe</span><span class="sxs-lookup"><span data-stu-id="b4b4e-114">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="00745-114">Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe</span><span class="sxs-lookup"><span data-stu-id="00745-114">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
  

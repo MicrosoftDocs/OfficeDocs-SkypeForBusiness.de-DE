@@ -1,10 +1,9 @@
 ---
-title: "Voicemail für Telefonsystem"
+title: Voicemail für Telefonsystem
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 92f5a3ac-beec-4af5-bfe9-0cbf3d660298
 ms.tgt.pltfrm: cloud
@@ -18,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: None
 description: Informationen Sie zu Telefonsystem Voicemail.
-ms.openlocfilehash: f7079e0ef187c7d0573291e9ba5cd7a5aab5c48c
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 3823609bf89f9bd531b2198bce62e4852e75bbaa
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="phone-system-voicemail"></a><span data-ttu-id="04a79-103">Voicemail für Telefonsystem</span><span class="sxs-lookup"><span data-stu-id="04a79-103">Phone System voicemail</span></span>
+# <a name="phone-system-voicemail"></a><span data-ttu-id="916f8-103">Voicemail für Telefonsystem</span><span class="sxs-lookup"><span data-stu-id="916f8-103">Phone System voicemail</span></span>
 
 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
@@ -20,32 +19,32 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: f12ea9e4478e8c2a7fad942101845427e8a7ec95
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: e9c7cfbebb6d4e1ada21627968eb8358606bd330
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="toll-free-dialing-restrictions-in-denmark"></a><span data-ttu-id="a5f46-105">Gebührenfreie Rufnummer einwählen Einschränkungen in Dänemark</span><span class="sxs-lookup"><span data-stu-id="a5f46-105">Toll-free dialing restrictions in Denmark</span></span>
+# <a name="toll-free-dialing-restrictions-in-denmark"></a><span data-ttu-id="2441e-105">Gebührenfreie Rufnummer einwählen Einschränkungen in Dänemark</span><span class="sxs-lookup"><span data-stu-id="2441e-105">Toll-free dialing restrictions in Denmark</span></span>
 
-<span data-ttu-id="a5f46-106">[Suchen Sie nach einem anderen Land oder Region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über die gebührenfreie Nummer Grenzen und Einschränkungen.</span><span class="sxs-lookup"><span data-stu-id="a5f46-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="2441e-106">[Suchen Sie nach einem anderen Land oder Region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über die gebührenfreie Nummer Grenzen und Einschränkungen.</span><span class="sxs-lookup"><span data-stu-id="2441e-106">[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="a5f46-107">**Details**</span><span class="sxs-lookup"><span data-stu-id="a5f46-107">**Details**</span></span>|<span data-ttu-id="a5f46-108">**Beschreibung**</span><span class="sxs-lookup"><span data-stu-id="a5f46-108">**Description**</span></span>|
+|<span data-ttu-id="2441e-107">**Details**</span><span class="sxs-lookup"><span data-stu-id="2441e-107">**Details**</span></span>|<span data-ttu-id="2441e-108">**Beschreibung**</span><span class="sxs-lookup"><span data-stu-id="2441e-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="a5f46-109">Ist gebührenfreie aufrufen verfügbar?</span><span class="sxs-lookup"><span data-stu-id="a5f46-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="a5f46-110">Ja</span><span class="sxs-lookup"><span data-stu-id="a5f46-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="a5f46-111">Wählformate</span><span class="sxs-lookup"><span data-stu-id="a5f46-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="a5f46-112">808 8XXXX</span><span class="sxs-lookup"><span data-stu-id="a5f46-112">808 8XXXX</span></span> <br/>  <span data-ttu-id="a5f46-113">808 2XXXX</span><span class="sxs-lookup"><span data-stu-id="a5f46-113">808 2XXXX</span></span> <br/>  <span data-ttu-id="a5f46-114">802 5XXXX</span><span class="sxs-lookup"><span data-stu-id="a5f46-114">802 5XXXX</span></span> <br/> |
-|<span data-ttu-id="a5f46-115">ISO-Code des Lands/der Region</span><span class="sxs-lookup"><span data-stu-id="a5f46-115">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="a5f46-116">DK</span><span class="sxs-lookup"><span data-stu-id="a5f46-116">DK</span></span>  <br/> |
-|<span data-ttu-id="a5f46-117">Abgedeckte Inseln/Gebiete</span><span class="sxs-lookup"><span data-stu-id="a5f46-117">Island/territory covered</span></span>  <br/> |<span data-ttu-id="a5f46-118">Nicht zutreffend</span><span class="sxs-lookup"><span data-stu-id="a5f46-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="a5f46-119">Nicht abgedeckte Inseln/Gebiete</span><span class="sxs-lookup"><span data-stu-id="a5f46-119">Island/territory not covered</span></span>  <br/> | <span data-ttu-id="a5f46-120">Kein Zugriff von den Faröer-Inseln oder von Grönland</span><span class="sxs-lookup"><span data-stu-id="a5f46-120">No access from Faroe Islands or Greenland.</span></span> <br/> |
-|<span data-ttu-id="a5f46-121">Verfügbarkeit über drahtgebundene Leitungen/Festnetz</span><span class="sxs-lookup"><span data-stu-id="a5f46-121">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="a5f46-122">Ja</span><span class="sxs-lookup"><span data-stu-id="a5f46-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="a5f46-123">Verfügbarkeit über Mobilnetze</span><span class="sxs-lookup"><span data-stu-id="a5f46-123">Mobile network availability</span></span>  <br/> | <span data-ttu-id="a5f46-p102">Ja. Zum Premium-Tarif verfügbar.</span><span class="sxs-lookup"><span data-stu-id="a5f46-p102">Yes. Available at premium rate.</span></span> <br/> |
-|<span data-ttu-id="a5f46-126">Kommentare, Einschränkungen und Zugriffsaspekte</span><span class="sxs-lookup"><span data-stu-id="a5f46-126">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="a5f46-127">Keine</span><span class="sxs-lookup"><span data-stu-id="a5f46-127">None</span></span>  <br/> |
+|<span data-ttu-id="2441e-109">Ist gebührenfreie aufrufen verfügbar?</span><span class="sxs-lookup"><span data-stu-id="2441e-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="2441e-110">Ja</span><span class="sxs-lookup"><span data-stu-id="2441e-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="2441e-111">Wählformate</span><span class="sxs-lookup"><span data-stu-id="2441e-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="2441e-112">808 8XXXX</span><span class="sxs-lookup"><span data-stu-id="2441e-112">808 8XXXX</span></span> <br/>  <span data-ttu-id="2441e-113">808 2XXXX</span><span class="sxs-lookup"><span data-stu-id="2441e-113">808 2XXXX</span></span> <br/>  <span data-ttu-id="2441e-114">802 5XXXX</span><span class="sxs-lookup"><span data-stu-id="2441e-114">802 5XXXX</span></span> <br/> |
+|<span data-ttu-id="2441e-115">ISO-Code des Lands/der Region</span><span class="sxs-lookup"><span data-stu-id="2441e-115">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="2441e-116">DK</span><span class="sxs-lookup"><span data-stu-id="2441e-116">DK</span></span>  <br/> |
+|<span data-ttu-id="2441e-117">Abgedeckte Inseln/Gebiete</span><span class="sxs-lookup"><span data-stu-id="2441e-117">Island/territory covered</span></span>  <br/> |<span data-ttu-id="2441e-118">Nicht zutreffend</span><span class="sxs-lookup"><span data-stu-id="2441e-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="2441e-119">Nicht abgedeckte Inseln/Gebiete</span><span class="sxs-lookup"><span data-stu-id="2441e-119">Island/territory not covered</span></span>  <br/> | <span data-ttu-id="2441e-120">Kein Zugriff von den Faröer-Inseln oder von Grönland</span><span class="sxs-lookup"><span data-stu-id="2441e-120">No access from Faroe Islands or Greenland.</span></span> <br/> |
+|<span data-ttu-id="2441e-121">Verfügbarkeit über drahtgebundene Leitungen/Festnetz</span><span class="sxs-lookup"><span data-stu-id="2441e-121">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="2441e-122">Ja</span><span class="sxs-lookup"><span data-stu-id="2441e-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="2441e-123">Verfügbarkeit über Mobilnetze</span><span class="sxs-lookup"><span data-stu-id="2441e-123">Mobile network availability</span></span>  <br/> | <span data-ttu-id="2441e-p102">Ja. Zum Premium-Tarif verfügbar.</span><span class="sxs-lookup"><span data-stu-id="2441e-p102">Yes. Available at premium rate.</span></span> <br/> |
+|<span data-ttu-id="2441e-126">Kommentare, Einschränkungen und Zugriffsaspekte</span><span class="sxs-lookup"><span data-stu-id="2441e-126">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="2441e-127">Keine</span><span class="sxs-lookup"><span data-stu-id="2441e-127">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="a5f46-128">See Also</span><span class="sxs-lookup"><span data-stu-id="a5f46-128">Related topics</span></span>
-[<span data-ttu-id="a5f46-129">Gebührenfreie Rufnummer einwählen einschränken</span><span class="sxs-lookup"><span data-stu-id="a5f46-129">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="2441e-128">See Also</span><span class="sxs-lookup"><span data-stu-id="2441e-128">Related topics</span></span>
+[<span data-ttu-id="2441e-129">Gebührenfreie Rufnummer einwählen einschränken</span><span class="sxs-lookup"><span data-stu-id="2441e-129">Toll-free dialing limitations and restrictions</span></span>](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="a5f46-130">Anfordern von Servicenummern für Skype for Business und Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a5f46-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[<span data-ttu-id="2441e-130">Anfordern von Servicenummern für Skype for Business und Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2441e-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
   
  
