@@ -266,7 +266,7 @@
 
 # Problembehandlung und Support
 ## [Beziehen von Tools zur Unterstützung eines Rollouts von Teams](rollout-tools.md)
-## [Bekannte Probleme für Microsoft Teams](known-issues.md)
+## [Bekannte Probleme für Microsoft Teams](Known-issues.md)
 ## [Supportressourcen für Microsoft Teams](support-resources.md)
 ## [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
