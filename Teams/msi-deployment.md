@@ -11,11 +11,11 @@ description: Administratoren können die Teams MSI-Datei zu Massen Bereitstellen
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a2031a567b96db6987c6c9c035631f17fd3d03f
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: e8d1f8b77b4b362b95fb03d3f0202bfc6da619e8
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/20/2018
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installieren Sie die MSI-Datei von Microsoft-Teams
 ===========================================
@@ -37,7 +37,7 @@ Die Teams MSI-Datei wird Program Files ein Installationsprogramm versehen. Wenn 
 Verwenden Sie die MSI-Datei nicht zum Bereitstellen von Updates, der Client automatisch aktualisieren, wenn es erkennt, dass eine neue Version aus dem Dienst verfügbar ist. Verwenden Sie erneut bereitstellen, um der neueste Version von Installer den Prozess der erneutes Bereitstellen von MSI-Datei weiter unten beschriebenen. Wenn Sie eine ältere Version von MSI-Paket bereitstellen, den Client wird automatisch nach Möglichkeit für den Benutzer aktualisieren. Wenn eine sehr alte Version bereitgestellt, ruft ab, wird die MSI-Datei eine Anwendung Aktualisierung auszulösen, bevor der Benutzer Teams nutzen kann. 
 
 > [!Important] 
-> Wir empfohlen nicht, die Standardspeicherorte Installation zu ändern, wie dies den Update-Ablauf unterbrechen könnten. Klicken Sie dann wird dem Benutzer Zugriff auf den Dienst schließlich blockieren. 
+> Wir empfohlen nicht, die Standardspeicherorte Installation zu ändern, wie dies den Update-Ablauf unterbrechen könnten. Mit einer zu alten Version wird schließlich Benutzer Zugriff auf den Dienst blockieren. 
 
 
 ## <a name="target-machine-requirements"></a>Ziel-Computer-Anforderungen
