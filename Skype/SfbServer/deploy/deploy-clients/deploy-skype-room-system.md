@@ -9,23 +9,23 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
-description: Lesen Sie dazu, wie Sie sollten Sie Skype Raum System, einer Besprechung bereitstellen Raum-Lösung mit integrierter Hardware und Software, die Skype für Business-Besprechungen teilnehmen optimiert ist.
+description: Erfahren Sie, wie Sie  bereitstellen, eine Besprechungsraum-Lösung aus integrierter Hardware und Software, die für die Teilnahme an -Besprechungen optimiert ist.
 ms.openlocfilehash: 11cbae1cdbdd0585a2ea67625179ee7862309723
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---
 # <a name="deploy-skype-room-system-in-skype-for-business-server"></a>Bereitstellen von Skype Room System in Skype for Business Server
  
-Lesen Sie dazu, wie Sie sollten Sie Skype Raum System, einer Besprechung bereitstellen Raum-Lösung mit integrierter Hardware und Software, die Skype für Business-Besprechungen teilnehmen optimiert ist.
+Erfahren Sie, wie Sie  bereitstellen, eine Besprechungsraum-Lösung aus integrierter Hardware und Software, die für die Teilnahme an -Besprechungen optimiert ist.
   
 > [!NOTE]
-> Im Rahmen dieser Inhalte Skype für Unternehmen für intelligente Raum-System, Crestron RL, and Polycom CX8000 werden als Skype Raum System bezeichnet. 
+> Der Einfachheit halber wird im Rahmen dieses Themas  für SMART Room System, Crestron RL und Polycom CX8000 als  bezeichnet. 
   
- Skype Raum System ist eine Skype für Business unified Communications-Client, der für Skype für Besprechungen in physischen Konferenzräume Business optimiert wurde.
+ Skype Room System is a Skype for Business unified communications client that has been optimized for Skype for Business meetings in physical conference rooms.
   
-Der Client Skype Raum System wurde aus der Skype für Business Client mithilfe der Skype für Business SDK entwickelt. Die Skype für Business-Client im Hintergrund im teilweise unterdrückt Benutzeroberflächenmodus ausgeführt wird. Die Skype für Business Client steuert die video-Katalog und Stufe für Inhalt auf dem Bildschirm am Anfang des Raums. Der Client Skype Raum System bietet die Konsole auf die Anzeige als Desktop für Besprechungen steuern. Skype-Chatroom-System bietet: 
+The Skype Room System client was developed from the Skype for Business client by using the Skype for Business SDK. Der -Client wird im Modus mit teilweise unterdrückter Benutzeroberfläche im Hintergrund ausgeführt. Der -Client steuert die Videogalerie und das Inhaltsfenster auf dem Bildschirm vorn im Raum. Der -Client stellt für die Besprechungssteuerung auf der Schreibtischanzeige eine Konsole bereit. Skype Room System 
   
 - One Touch-Teilnahme an Besprechungen
     
@@ -37,45 +37,45 @@ Der Client Skype Raum System wurde aus der Skype für Business Client mithilfe d
     
 - Inhaltsfreigabe und -wechsel 
     
-Dieses Dokument leitet Sie durch eine Skype Raum System in Skype für Business Server und Exchange Server-Bereitstellung. Siehe auch das Skype Raum System Installationshandbuch von Ihrem Administrator, der Sie beim Einrichten der Appliance PCs und Geräte im Besprechungsraum führt. 
+This document guides you through provisioning Skype Room System in Skype for Business Server and Exchange Server. Weitere Informationen finden Sie auch im -Installationshandbuch, das von Ihrem Administrator bereitgestellt wird und Sie durch die Einrichtung des Anwendungs-PCs und der entsprechenden Geräte im Besprechungsraum führt. 
   
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Im folgenden sind die Anforderungen für Skype Raum System: 
+Following are the requirements for Skype Room System: 
   
 - Ein Exchange-Ressourcenpostfachkonto zur Erleichterung der Kalenderplanung für die Besprechungsräume mit aktiviertem AutoErmittlungsdienst auf Exchange Server (2013 bevorzugt).
     
-- Eine Skype für Business-aktivierten Skype Raum Systemkonto auf einen Skype für Business Serverpool (Enterprise oder Standard Edition).
+- A Skype for Business-enabled Skype Room System account on a Skype for Business Server pool (Enterprise or Standard Edition).
     
-- Eine Skype Raum System Client Appliance PC mit erforderlichen Softwareprogramme installiert. Auf dem Anwendungs-PC muss das Betriebssystem Windows 7 Embedded Standard laufen. Entsprechende Hardware wird von OEM-Partnern komplett mit allen Geräten (Displays, Kamera, Mikrofon, Lautsprechern) bereitgestellt.
+- Ein Anwendungs-PC mit , auf dem die gesamte erforderliche Software installiert ist. Auf dem Anwendungs-PC muss das Betriebssystem Windows 7 Embedded Standard laufen. Entsprechende Hardware wird von OEM-Partnern komplett mit allen Geräten (Displays, Kamera, Mikrofon, Lautsprechern) bereitgestellt.
     
-- Wenn Sie die Skype Raum System Appliance PC in einer Active Directory-Domänendienste (AD DS) Domäne einbinden möchten, müssen Sie gruppenrichtlinieneinstellungen angeben, die Skype Raum System nicht stören. Alternativ können Sie den Anwendungs-PC in der Arbeitsgruppe belassen. 
+- Wenn Sie sich entschließen, den -Anwendungs-PC an eine „Active Directory Domain Services“-(AD DS-)Domäne anzuschließen, müssen Sie Gruppenrichtlinieneinstellungen angeben, die  nicht beeinträchtigen. Alternativ können Sie den Anwendungs-PC in der Arbeitsgruppe belassen. 
     
 - Entsprechende Benutzerrechte zum Ausführen der in diesem Dokument angegebenen Cmdlets. Die „CsMeetingRoom“-Cmdlets sind nach dem Vorbild des „CsUser“-Cmdlets ausgebildet. Deshalb treffen alle für die Ausführung von CsUser-Cmdlets erforderlichen rollenbasierten Zugriffssteuerungsrollen (RBAC, Role-Based Access Control) auch für „CsMeetingRoom“-Cmdlets zu. 
     
 ## <a name="supported-topologies"></a>Unterstützte Topologien
 
-In der folgenden Tabelle angegeben Skype Raum System-Client-Interoperabilität zwischen verschiedenen Bereitstellungen von Skype für Geschäfts- und Exchange-Topologien, entweder lokal oder in der Cloud: 
+Die folgende Tabelle zeigt -Client-Interoperabilität im Rahmen verschiedener Bereitstellungen von - und Exchange-Topologien, entweder lokal oder in der Cloud: 
   
 
 |**Topologie**|**AD**|**Skype for Business**|**Exchange**|
 |:-----|:-----|:-----|:-----|
 |Lokal  <br/> |Lokal  <br/> |Lokal  <br/> |Lokal  <br/> |
-|Office 365 mit mehreren Mandanten (O365MT)  <br/> |Online  <br/> |Online  <br/> |Online  <br/> |
-|Office 365 Dedicated  <br/> (Wenden Sie sich an Ihren Dienstanbieter)  <br/> |Lokal  <br/> |Online  <br/> |Online  <br/> |
+|Office 365 Multi-tenant (O365MT)  <br/> |Online  <br/> |Online  <br/> |Online  <br/> |
+|Office 365 Dedicated  <br/> Wenden Sie sich an Ihren Dienstanbieter.  <br/> |Lokal  <br/> |Online  <br/> |Online  <br/> |
 |Hybrid (Getrennte Domäne)  <br/> Nicht unterstützt  <br/> |Lokal  <br/> Lokal  <br/> Lokal  <br/> |Lokal  <br/> Online  <br/> Online  <br/> |Online  <br/> Online  <br/> Lokal  <br/> |
    
-Versionen vor der Lync Server 2013 werden teilweise unterstützt. In diesen Szenarien Skype Raum System in Skype für Business-Konferenzen (die, die von Benutzern geplant werden, die sich in Lync Server 2010) teilnehmen können, solange die Konferenzen "öffentlich" sind, d. h., die Konferenzen werden nicht speziell für das beschränktem Zugriff. 
+Releases prior to Lync Server 2013 are partially supported. Versionen vor Lync Server 2013 werden teilweise unterstützt. In diesen Szenarien kann  an -Konferenzen teilnehmen (an denjenigen, die durch Nutzer unter Lync Server 2010 geplant werden), sofern diese Konferenzen „öffentlich“ sind. Das heißt, die Besprechungen dürfen nicht für den eingeschränkten Zugang angepasst sein. 
   
-Skype-Chatroom-System kann nicht früher als Lync Server 2013 in einer Lync Server-Version verwaltet werden. Beim Herstellen der Verbindung einen Skype Raum-System zu Exchange kalendereinstellungen – abrufen kann nicht beispielsweise Exchange kann nicht zugegriffen werden--oder ist kein Exchange-Postfach konfiguriert für das Konto Skype Raum System jetzt besprechen und ad-hoc-Konferenzen funktioniert, aber zu einer geplante Besprechung wird nicht. 
+ kann nicht auf einer Lync-Serverversion vor Lync Server 2013 untergebracht werden. Wenn ein  keine Verbindung zu Exchange herstellen kann, um Kalendereinstellungen abzurufen (wenn zum Beispiel kein Exchange-Postfach für das -Konto konfiguriert oder wenn der Zugriff auf Exchange nicht möglich ist), funktionieren zwar Meet Now und Ad-hoc-Besprechungen, aber die Teilnahme an einer geplanten Besprechung funktioniert nicht. 
   
-In der folgenden Tabelle angegeben Skype Raum System Client Supportability mit Versionen von Exchange Server: 
+Die folgende Tabelle zeigt, welche Versionen von Exchange Server  unterstützen können: 
   
 
 |**Exchange**|**Lokal**|**Online**|**Hybrid**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Ja (nur einzelne Gesamtstruktur)  <br/> |-  <br/> |-  <br/> |
 |Exchange 2013  <br/> |Ja (Mehrfach-Gesamtstruktur-Unterstützung verfügbar für Exchange 2013 CU6 und höhere Versionen)  <br/> |Ja  <br/> |Ja  <br/> |
-|Exchange 2016  <br/> |Ja (mit mehreren Gesamtstrukturen Unterstützung verfügbar)  <br/> |Ja  <br/> |Ja  <br/> |
+|Exchange 2016  <br/> |Yes (multi forest support available)  <br/> |Ja  <br/> |Ja  <br/> |
    
 

@@ -12,7 +12,7 @@ ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Dieser Artikel beschreibt die für den Skype for Business für Mac-Client verfügbaren Clienteinstellungen und Standardwerte sowie deren Bearbeitung außerhalb der App.
 ms.openlocfilehash: 8c779ad35d82b42bc8e162599265f6a25f7a65c3
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---
@@ -22,18 +22,18 @@ Dieser Artikel beschreibt die für den Skype for Business für Mac-Client verfü
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Einstellungen für Skype for Business für Mac-Client
 
-Bestimmte Features und Verhaltensweisen, die Skype für Unternehmen auf Mac-Clients zur Verfügung stehen, werden über Voreinstellungen auf dem Client festgelegt. Die Skype für Mac Vorlieben Unternehmen befinden sich in einer Datei auf Macs, der die Skype für befindet sich unter folgendem Pfad Business-Client installiert ist: 
+Bestimmte für  für Mac-Clients verfügbaren Funktionen und Verhalten werden durch die Einstellungen auf dem Client vorgegeben. Die  für Mac-Einstellungen befinden sich in einer Datei auf Macs, auf denen der -Client unter dem folgenden Pfad installiert ist: 
   
- **~/Library/Containers/com.Microsoft.SkypeForBusiness/Data/Library/Preferences/com.Microsoft.SkypeForBusiness.plist**
+ **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Wenn diese Einstellungen festlegen möchten, erhalten Sie auf einer terminal ein auf dem Client-Mac und als benötigt, geben Sie Standardeinstellungen Write com.microsoft.SkypeForBusiness wichtige Befehle mithilfe der Einstellungsschlüssel in der folgenden Tabelle beschrieben.
+Um diese Einstellungen festzulegen, navigieren Sie zur Terminaleingabeaufforderung auf dem Client-Mac und geben Sie nach Bedarf -Befehle unter Verwendung der in der folgenden Tabelle beschriebenen Einstellungsschlüssel ein.
   
-**-Einstellung Clientschlüssel**
+**Client-Einstellungsschlüssel**
 
 
 |**Schlüssel**|**Typ**|**Wert**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standardwert)  <br/> |Geben Sie an, wie Skype für Unternehmen Transportprotokoll und Server, die während der Anmeldung verwendet identifiziert. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben. <br/> |
+|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standardwert)  <br/> |Geben Sie an, wie  die während der Anmeldung zu verwendende Transportmethode und den zu verwendenden Server identifiziert. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben. <br/> |
 |internalAutoDiscoveryURL  <br/> |String  <br/> |Vollständige URL zur automatischen Erkennung  <br/> |Interne URL zur automatischen Erkennung  <br/> |
 |externalAutoDiscoveryURL  <br/> |String  <br/> |Vollständige URL zur automatischen Erkennung  <br/> |Externe URL zur automatischen Erkennung  <br/> |
 |httpProxyDomain  <br/> |String  <br/> ||HTTP-Proxy-Domäne  <br/> |
@@ -42,21 +42,21 @@ Wenn diese Einstellungen festlegen möchten, erhalten Sie auf einer terminal ein
 |trustedDomainList  <br/> |Array  <br/> ||Liste mit vertrauenswürdigen Domänen für HTTP-Umleitungen.  <br/> |
 |autoAcceptTimeout  <br/> |Number  <br/> |300 (Standardwert)  <br/> |Automatisch akzeptiertes Timeout für Benutzer mit serverseitigem Konversationsverlauf.  <br/> |
 |warnWhenUnknownLocationForE911  <br/> |Bool  <br/> |0 = Deaktiviert  <br/> 1 = Aktiviert  <br/> |Warnt den Benutzer beim Wählen einer Notrufnummer von einem unbekannten Standort aus.  <br/> |
-|"SipAddress"  <br/> |String  <br/> ||Die SIP-Adresse (e) verwendet, um Skype für Unternehmen anmelden.  <br/> |
-|Benutzername  <br/> |String  <br/> ||Der UPN (UserName) verwendet, um Skype für Unternehmen anmelden.  <br/> |
-|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = das Feld Benutzername auf das Hauptfenster im Anmeldebildschirm und im Dialogfeld Erweiterte Eigenschaften anzeigen  <br/> 1 = zeigt das Feld Benutzername nur in das Dialogfeld Erweiterte Eigenschaften (Standard)  <br/> |Geben Sie an, wo das Feld Benutzername bei der Anmeldung angezeigt wird.  <br/> |
+|SIPAddress  <br/> |String  <br/> ||Die für die Anmeldung bei  verwendete SIP-Adresse (E-Mail).  <br/> |
+|Username  <br/> |String  <br/> ||Der für die Anmeldung bei  verwendete UPN (Benutzername).  <br/> |
+|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = display the User Name field on the main sign-in screen and in the Advanced Properties dialog box  <br/> 1 = display the User Name field only in the Advanced Properties dialog box (default)  <br/> |Specify where the User Name field is displayed during sign-in.  <br/> |
    
 ### <a name="usage-examples"></a>Nutzungsbeispiele
 
-Zum Hinzufügen einer einzelnen Domäne (Contoso.com) in die Liste der vertrauenswürdigen Domäne verwenden Sie die Taste TrustedDomainList wie dargestellt:
+Um eine einzelne Domäne (Contoso.com) zur Liste der vertrauenswürdigen Domänen hinzuzufügen, verwenden Sie den trustedDomainList-Schlüssel (siehe unten):
   
-Standardwerte schreiben com.microsoft.SkypeForBusiness TrustedDomainList-Array-"Contoso.com" hinzufügen
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
 Um mehrere Domänen zur Liste der vertrauenswürdigen Domänen hinzuzufügen, verwenden Sie den trustedDomainList-Schlüssel (siehe unten):
   
-Standardwerte schreiben com.microsoft.SkypeForBusiness TrustedDomainList-Array-"sfb.com" "abc.com" "test.org" hinzufügen
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-Leitfaden zur Verwendung des Befehls Standardeinstellungen finden Sie im [Apple Referenzbibliothek](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl). Obwohl diese Seite veraltet ist und nicht mehr gewartet wird, sind die Informationen zum Standardbefehl nach wie vor aktuell und können angewendet werden.
+Empfehlungen zur Verwendung des Standardbefehls finden Sie in der [Apple-Referenzbibliothekhttps://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.html](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl). Obwohl diese Seite veraltet ist und nicht mehr gewartet wird, sind die Informationen zum Standardbefehl nach wie vor aktuell und können angewendet werden.
   
 ### <a name="sample-unedited-settings"></a>Nicht bearbeitete Beispieleinstellungen
 
