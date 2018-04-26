@@ -13,7 +13,7 @@ ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Summary: Review integration steps for Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.'
 ms.openlocfilehash: c8cbecd6b78e3dc14ad2133a93d9fc2d1f6bb3d6
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---

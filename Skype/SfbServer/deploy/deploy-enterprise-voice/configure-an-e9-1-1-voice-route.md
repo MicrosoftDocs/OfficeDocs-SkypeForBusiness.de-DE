@@ -14,7 +14,7 @@ ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configure E9-1-1 voice routes in Skype for Business Server Enterprise Voice.
 ms.openlocfilehash: 17614a4daedfdfe437a09858649972ca1c3e779d
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---

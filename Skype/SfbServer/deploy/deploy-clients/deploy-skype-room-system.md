@@ -12,7 +12,7 @@ ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: Erfahren Sie, wie Sie  bereitstellen, eine Besprechungsraum-Lösung aus integrierter Hardware und Software, die für die Teilnahme an -Besprechungen optimiert ist.
 ms.openlocfilehash: 11cbae1cdbdd0585a2ea67625179ee7862309723
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---

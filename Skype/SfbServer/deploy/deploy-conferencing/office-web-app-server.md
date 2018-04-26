@@ -12,7 +12,7 @@ ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Summary: Read this topic to learn how to configure integration between Office Web Apps Server and Skype for Business Server 2015 to enable PowerPoint presentations for web conferencing.'
 ms.openlocfilehash: da6b5765cf62fc97fcc20b72e2411db306b37f0e
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---

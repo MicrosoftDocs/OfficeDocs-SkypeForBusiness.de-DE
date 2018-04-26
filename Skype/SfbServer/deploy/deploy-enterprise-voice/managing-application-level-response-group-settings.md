@@ -14,7 +14,7 @@ ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Managing application-level Response Group settings, such as music-on-hold and ringback settings, in Skype for Business Server Enterprise Voice.
 ms.openlocfilehash: c202ce60f23594389c7f49f0108f7d03cb1deef5
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---

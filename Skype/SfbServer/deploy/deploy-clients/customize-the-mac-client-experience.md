@@ -12,7 +12,7 @@ ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Dieser Artikel beschreibt die für den Skype for Business für Mac-Client verfügbaren Clienteinstellungen und Standardwerte sowie deren Bearbeitung außerhalb der App.
 ms.openlocfilehash: 8c779ad35d82b42bc8e162599265f6a25f7a65c3
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---

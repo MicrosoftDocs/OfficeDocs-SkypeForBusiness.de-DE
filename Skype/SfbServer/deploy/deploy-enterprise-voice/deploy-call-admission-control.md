@@ -14,7 +14,7 @@ ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: Bei der Anrufsteuerung (Call Admission Control, CAC) handelt es sich um eine Lösung, die basierend auf der verfügbaren Bandbreite bestimmt, ob eine Echtzeitsitzung hergestellt werden kann. Auf diese Weise lässt sich schlechte Audio/Videoübertragungsqualität für Benutzer in überlasteten Netzwerken verhindern. Weitere Informationen finden Sie unter . Planen der Anrufsteuerung in Skype for Business Server 2015
 ms.openlocfilehash: 0302663546a099e682b5dc405625d4519fe998d9
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---

@@ -13,7 +13,7 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: In diesem Thema erfahren Sie, wie Sie  in einer Hybridumgebung mit einer lokalen -Bereitstellung bereitstellen.
 ms.openlocfilehash: a0a53b7f8be916d1c0c1a69a23a0f8c604420d9a
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/28/2018
 ---
