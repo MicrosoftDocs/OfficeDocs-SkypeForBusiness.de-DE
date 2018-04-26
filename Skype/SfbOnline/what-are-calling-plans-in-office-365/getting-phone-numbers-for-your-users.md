@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: c9e5d08879f9ec176cbe4659d49e351ba08ffce7
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: daa722993d0734f0601c9ac5d02f39041d0d082d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -73,7 +73,7 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
 7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Abrufen von Rufnummern**.
     
     > [!IMPORTANT]
-    > Die Anzahl der Rufnummern für Benutzer (Abonnenten) ist gleich der Gesamtzahl der **Nationalen aufrufen planen** und/oder **in- und International aufrufen planen** Lizenzen, die Sie zugeordnet haben multipliziert 1.1, plus 10 weitere Telefonnummern. Wenn Sie 50 Benutzer in insgesamt mit einer nationalen aufrufen planen und/oder nationalen und internationalen aufrufen planen, können Sie beispielsweise **65** Telefon Zahlen **(50 x 1.1 + 10)**erwerben. Weitere Informationen hierzu finden Sie unter [wie viele Rufnummern erhalten Sie?](how-many-phone-numbers-can-you-get.md). Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+    > Die Anzahl der Rufnummern für Benutzer (Abonnenten) ist gleich der Gesamtzahl der **Nationalen aufrufen planen** und/oder **in- und International aufrufen planen** Lizenzen, die Sie zugeordnet haben multipliziert 1.1, plus 10 weitere Telefonnummern. Wenn Sie 50 Benutzer in insgesamt mit einer nationalen aufrufen planen und/oder nationalen und internationalen aufrufen planen, können Sie beispielsweise **65** Telefon Zahlen **(50 x 1.1 + 10)** erwerben. Weitere Informationen hierzu finden Sie unter [wie viele Rufnummern erhalten Sie?](how-many-phone-numbers-can-you-get.md). Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
  **Portieren oder Übertragen von Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber**
   
@@ -110,9 +110,9 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
 
 [Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

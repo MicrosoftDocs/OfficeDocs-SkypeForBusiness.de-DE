@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, was Ihre Dienst-Adresse ist, wie es von der Adresse abweicht und es dort können Sie. '
-ms.openlocfilehash: 2c5155c83f950f4840f351b686aa458e70016d0f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: ca435b2fb91d36996d13d94dea4f071abe1c8684
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>Was sollte ich für die Dienst-Adresse tragen Sie?
 
@@ -41,9 +41,9 @@ Die Dienst-Adresse unterscheidet sich von der Art der Rechnungslegung oder Notfa
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Kanada für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: d64a58f1b270079e8f12fd34611cdd252723c774
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f240892f6bc20f28ef640842a5f0123988d7b458
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-canada"></a>Telefonnummernverwaltung für Kanada
 > [!IMPORTANT]
@@ -48,9 +48,9 @@ Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <
 
 [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md)
 
-[Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
   
  

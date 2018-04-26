@@ -1,5 +1,5 @@
 ---
-title: Why has number activation failed?
+title: Warum hat Zahl Fehler bei der Aktivierung?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: eca7d50bdc33c12f6cea11f1d37e054516891aae
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8deaaccadb88f4c304358f958d016415a622eecc
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="why-has-number-activation-failed"></a>Why has number activation failed?
-Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. If for some reason a phone number isn't activated because of address validation, you will need to create a service request. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
+# <a name="why-has-number-activation-failed"></a>Warum hat Zahl Fehler bei der Aktivierung?
+Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn aus irgendeinem Grund eine Telefonnummer ein aufgrund von Adresse Validierung aktiviert nicht zur Verfügung, müssen Sie eine Serviceanfrage erstellen. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
 1. Wählen Sie im **Office 365 Admin Center** die Option **Need help?** (Benötigen Sie Hilfe?) aus.
@@ -101,9 +101,9 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

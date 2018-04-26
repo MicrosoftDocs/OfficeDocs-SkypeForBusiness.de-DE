@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: In diesem Thema werden die Tools in der Skype für Business Server 2015 Resource Kit, einschließlich des Zwecks der einzelnen Tools und Beispiele für deren Verwendung beschrieben. Die Skype für Business Server 2015 Resource Kit können Sie Routineaufgaben für IT-Administratoren erleichtern, die Bereitstellung und Verwaltung von Skype für Business Server 2015. Beispielsweise kann das Tool Web Conf Daten verwendet werden, auf einfache Weise Daten steuern, die Benutzer während einer onlinebesprechung hochgeladen wird. Das Tool SEFAUtil kann zum Einrichten von Delegaten Anruf weiterleiten und-Annahme für Benutzer verwendet werden. Wir empfehlen IT-Administratoren mit diesen Tools Skype für Business Server 2015 effektiver verwalten.
-ms.openlocfilehash: 8367400ea7730eabbd2686c3bb2b7c16cdf9a1f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7178b7e5566badfea8096e314b1ac23213173a35
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Dokumentation zu den Tools im Resource Kit von Skype for Business Server 2015
  
@@ -82,6 +82,9 @@ Dies sind die primären Verwendungsszenarien für das Tool:
 - Administratoren das Wiederherstellen der Standardeinstellungen des Adressbuchdiensts ermöglichen
     
 Das Tool ABSConfig kann mithilfe der Datei ABSConfig.exe gestartet werden. Das Tool zur Registerkarte **Attribute konfigurieren** wird geöffnet. Diese Tabelle enthält die Optionen zum Zuordnen von Attribute von Active Directory-Domänendienste zu Attributfelder für Skype für Business Server 2015 und welche Benutzer ein-oder ausschließen in Adressbuchdienst-Dateien basierend auf bestimmten Attribut Filter angeben. Außerdem bietet die Optionen zum Anpassen der Wert der Telefonnummer an, die in der Adressbuch-Datei eingeschlossen werden. Die Option **Wiederherstellen** kann Administratoren Adressbuchdienst Standardwerte wiederherstellen.
+
+> [!NOTE]
+> Erneut Zuordnung von Active Directory-Attributen zu verschiedenen OC Feldnamen wird nur Arbeit für Address Book Dateidownload und wird vom Adressbuch-Webabfragedienst nicht unterstützt.
   
 ### <a name="output"></a>Ausgabe
 

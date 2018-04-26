@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: " In diesem Artikel werden Planungsüberlegungen für die Verwendung von Operations Management Suite zur Verwaltung von Skype Room System V2-Geräten in Ihrer Skype for Business Server 2015-Implementierung beschrieben."
-ms.openlocfilehash: e6409370da3597623526379581081e617f48dd81
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planen der Verwaltung von Skype Room System V2 mit OMS
  
@@ -42,9 +42,9 @@ Machen Sie sich nach Bedarf mit der Verwendung des OMS-Ansicht-Designers vertrau
   
 ### <a name="related-tasks"></a>Verwandte Aufgaben
 
-1. Nachdem OMS abonniert haben, erstellen Sie benutzerdefinierte Felder (siehe [Zuordnen von benutzerdefinierten Feldern](../../deploy/deploy-clients/with-oms.md#Custom_fields)) erforderlich, um die Informationen zu analysieren, die von Skype Raum Systemen v2 Konsolen gesendet werden soll. Dazu gehören Grundlegendes zum Schema der JSON in [die Protokolleinträge verstehen](../../manage/skype-room-systems-v2/oms.md#Telemetry)dokumentiert.
+1. Nachdem OMS abonniert haben, Erstellen der benutzerdefinierten Felder (wie in [benutzerdefinierte Felder zuordnen](../../deploy/deploy-clients/with-oms.md#Custom_fields)beschrieben) benötigt, um die Informationen zu analysieren, die von Skype Raum Systemen v2 Konsolen gesendet werden soll. Dazu gehören Grundlegendes zum Schema der JSON in [die Protokolleinträge verstehen](../../manage/skype-room-systems-v2/oms.md#Telemetry)dokumentiert.
     
-2. Entwickeln eine Skype Raum Systemen v2 Management-Ansicht in OMS (finden Sie unter [Definieren der SRS v2-Ansichten in OMS](../../deploy/deploy-clients/with-oms.md#Views)) verwenden Sie die zuvor genannten Ansichts-Designer.
+2. Entwickeln einer Skype Raum Systemen v2 Management-Ansicht in OMS. Sie können entweder [eine Skype Raum Systemen v2 Dashboard mithilfe der Importmethode erstellen](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ), oder [Erstellen Sie manuell einen Skype Raum Systemen v2 Dashboard](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>Einzelne Skype Raum Systemen v2 Konsole Anforderungen
 

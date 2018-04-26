@@ -1,166 +1,186 @@
 ---
-title: Quality of Service (QoS) in Microsoft Teams
+title: QoS in Microsoft-Teams - Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
-ms.date: 02/16/2018
+ms.date: 04/23/2018
 ms.topic: article
 ms.service: msteams
-description: "Bereiten Sie das Netzwerk Ihrer Organisation für Quality of Service (QoS) in Microsoft Teams vor."
+ms.reviewer: rowille
+description: Bereiten Sie das Netzwerk Ihrer Organisation für Quality of Service (QoS) in Microsoft Teams vor.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 61bebd64c7d1478c16e114631b696dee2bf59625
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 884055dce490b9db8fd31f6e52042a4315633e00
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/26/2018
 ---
-<a name="quality-of-service-qos-in-microsoft-teams"></a>Quality of Service (QoS) in Microsoft Teams
-==========================================
-Dieses Handbuch soll Sie beim Vorbereiten des Netzwerks Ihrer Organisation für Quality of Service (QoS) in Microsoft Teams unterstützen.
+# <a name="quality-of-service-qos-in-microsoft-teams"></a>Quality of Service (QoS) in Microsoft Teams
 
+In diesem Artikel helfen Ihnen bei der Vorbereitung des Netzwerks Ihrer Organisation für Quality of Service (QoS) in Microsoft-Teams.
+QoS ist ein Mechanismus, mit denen Sie bestimmte Arten von Netzwerkverkehr zu priorisieren. Datenfluss für die Echtzeitkommunikation Diensten wie etwa Teams Priorisierung ist wichtig, Business-Klasse Benutzer-Erlebnis. Für QoS tatsächlich wirksam wird müssen Sie eine QoS-fähigen Verbindung von Ende zu Ende (PC, Netzwerk-Switches und Router in die Cloud) konfigurieren, da jeder Teil des Pfads, die zur Unterstützung von QoS fehlschlägt, die Qualität der gesamten Kommunikation beeinträchtigt werden kann.
 
-Quality of Service (QoS) ist ein Mechanismus, mit dem Sie bestimmte Typen von Netzwerkdatenverkehr priorisieren können. Die Priorisierung des Datenverkehrs für Echtzeitkommunikationsdienste wie Microsoft Teams spielt eine wichtige Rolle dabei, Geschäftsbenutzern optimales Arbeiten zu ermöglichen. Damit QoS wirklich effektiv ist, muss eine QoS-fähige End-to-End-Verbindung konfiguriert werden (PC, Netzwerkswitches und Router für die Cloud), da Pfadbestandteile ohne QoS-Unterstützung die Qualität des gesamten Anrufs beeinträchtigen können.
+![Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste: lokale Netzwerk und Geräte Kontaktaufnahme mit einem Interconnect-Netzwerk, das wiederum eine Verbindung mit Office 365-Cloud-VoIP und Audiokonferenzen Services herstellt.] (media/Qos-in-Teams-Image1.png "Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste: lokale Netzwerk und Geräte Kontaktaufnahme mit einem Interconnect-Netzwerk, das wiederum eine Verbindung mit Office 365-Cloud-VoIP und Audiokonferenzen Services herstellt.")
 
-
-![Screenshot eines Diagramms, das die Beziehung zwischen den Netzwerken einer Organisation und Office 365-Diensten veranschaulicht](media/Qos-in-Teams-Image1.png)
-
+_Abbildung 1. Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste_
  
 
-In den meisten Fällen ist das Verbindungsnetzwerk ein nicht verwaltetes Netzwerk oder eine Internetverbindung. [ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/) ist eine der verfügbaren Optionen für End-to-End-QoS. Wir empfehlen, QoS auch in den Teilen des Netzwerks zu implementieren, über die Sie die Kontrolle haben, also in Ihrem lokalen Netzwerk. Dadurch können Sie die Qualität der Arbeitsauslastungen für Echtzeitkommunikation in der gesamten Bereitstellung erhöhen und Engpässe in der vorhandenen Bereitstellung abschwächen. 
+In den meisten Fällen werden im Netzwerk Interconnect einer nicht verwalteten Internet Netzwerkverbindung. Eine Option zum Beheben von End-to-End-Dienstqualität ist [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Empfohlen, Sie QoS implementieren auf die Teile des Netzwerks können Sie steuern, welche, nämlich auf Ihrem lokalen Netzwerk. Die Qualität der Kommunikation in Echtzeit Arbeitslasten in Ihrer Bereitstellung zu erhöhen wird und so genannten Chokepunkten gewährleistet in Ihrer bestehenden Bereitstellung verringern. 
 
-## <a name="objectives"></a>Ziele 
 
-Schwerpunkt des Handbuchs ist die Priorisierung des Datenverkehrs für die Echtzeitkommunikation von Microsoft Teams, das heißt Sprache und Video. Andere Datenverkehrstypen können ebenfalls gemäß Ihren Anforderungen priorisiert werden.
+## <a name="prioritize-teams-network-traffic-for-qos"></a>Priorisieren von Teams Netzwerkdatenverkehr für QoS 
 
-Es gibt mehrere Möglichkeiten zum Priorisieren des Datenverkehrs, am häufigsten werden jedoch DSCP-Markierungen (Differentiated Services Code Point) verwendet. Sie können basierend auf Portbereichen, aber auch über Gruppenrichtlinienobjekte angewendet werden. Wir gehen in diesem Dokument auf beide Möglichkeiten ein.
+Dieser Artikel befasst sich Teams Echtzeitkommunikation Datenverkehr zu priorisieren – nämlich Sprach- und Videofunktionen. Sie können auch andere Arten von Datenverkehr, basierend auf Ihren Anforderungen priorisieren.
 
-Durch Steuern der DSCP-Markierungen mithilfe von Gruppenrichtlinienobjekten (Group Policy Objects, GPOs) stellen Sie sicher, dass in eine Domäne eingebundene Computer die richtigen Einstellungen erhalten und dass diese Einstellungen nur von einem Administrator verwaltet werden können. 
+Es gibt mehrere Möglichkeiten zum Priorisieren des Datenverkehrs, am häufigsten werden jedoch DSCP-Markierungen (Differentiated Services Code Point) verwendet. Sie können ("mit Tags") angewendet werden basierend auf Portbereiche und auch über den Gruppenrichtlinienobjekten. In diesem Artikel behandelt wird. Es wird empfohlen, für die Verwendung tagging basierend auf Portbereiche, da es für alle Geräte, nicht nur die der Domäne beigetreten funktionsfähig ist.
 
-Sie müssen sich dessen bewusst sein, dass QoS nur funktioniert, wenn sie für alle Verbindungen zwischen Anrufer und Angerufenem implementiert ist. Wenn Sie QoS im internen Netzwerk verwenden und Benutzer sich von einem Remotestandort aus anmelden, können Sie nur innerhalb des internen verwalteten Netzwerks Prioritäten festlegen. Verwaltete Verbindungen mit Remotestandorten durch Implementierung eines VPNs sind zwar möglich, aber es wird nicht empfohlen, Datenverkehr für Echtzeitkommunikation über das VPN zu übertragen.
+Steuern der DSCP-Markierung über Gruppenrichtlinienobjekte wird sichergestellt, dass die Domäne eingebundenen Computer die richtigen Einstellungen erhalten und nur von einem Administrator verwaltet werden kann.
+ 
+Es ist wichtig zu verstehen, dass QoS nur, funktioniert Wenn für alle Hyperlinks implementiert, die Anrufer zum angerufenen verbinden. Wenn Sie QoS auf das interne Netzwerk und ein Benutzer von einem Remotestandort aus anmeldet, können Sie nur innerhalb des internen, verwalteten Netzwerks priorisieren. Obwohl Remotestandorten eine verwaltete Verbindung durch die Implementierung eines virtuellen privaten Netzwerks (VPN) empfangen können, wird empfohlen, dass Sie vermeiden Sie die Ausführung von Real-Time Communications Datenverkehr über VPN.
 
 > [!NOTE]
-> Wir empfehlen, für über ein VPN verbundene Remotebenutzer getrenntes Tunneln zu implementieren, um die Benutzerfreundlichkeit zu maximieren. Weitere Informationen finden Sie im [Bereitstellungsleitfaden für geteilte Tunnel für VPN-Verbindungen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ).
+> Es wird empfohlen, dass Sie Split-tunneling für Remotebenutzer VPN-Verbindung implementieren, um die Qualität des Benutzererlebnisses zu maximieren. Herunterladen des Dokuments [Bereitstellen-Anweisungen-VPN-Split Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) aus MyAdvisor Weitere Informationen.
 
-In einer globalen Organisation mit verwalteten Verbindungen über mehrere Kontinente hinweg wird QoS dringend empfohlen, da die Bandbreite im Vergleich zum lokalen Netzwerk (LAN) begrenzt ist.
+In einem globalen Unternehmen mit verwalteten Links, die Kontinente erstrecken wird QoS dringend empfohlen, da Bandbreite für diese Links im Vergleich zu den LAN beschränkt ist.
 
-## <a name="quality-of-service"></a>Quality of Service
+## <a name="qos-queues"></a>QoS-Warteschlangen
 
-Um ein garantiertes Dienstniveau für eine Anwendung im Netzwerk zu gewährleisten, müssen die zugrunde liegenden Netzwerkgeräte in der Lage sein, verschiedene Datenverkehrstypen zu klassifizieren. So muss zum Beispiel ein Router zwischen Sprachdatenverkehr und normalem Datenverkehr für Webbrowsen unterscheiden können, wenn der Sprachdatenverkehr vorrangig behandelt werden soll. 
+Um eine garantierter Ebene des Diensts für eine Anwendung im Netzwerk bereitstellen, benötigen die zugrunde liegenden Netzwerkgeräte eine Möglichkeit zum Klassifizieren unterschiedliche Arten von Datenverkehr. Wenn Ihre Organisation VoIP-Datenverkehr Priorität über andere Datenverkehr übergeben möchte, muss ein Router (z. b) VoIP und normalen Browsen Datenverkehr unterscheiden können. 
 
-Differenzierte Dienste (DiffServ) stellen ein Framework bereit, in dem der Datenverkehr von Netzwerkgeräten mit Prioritäten behandelt wird, die auf dem Feld für den Diensttyp (Type of Service, ToS) im Header von IPv4-/IPv6-Paketen basieren. Die sechs wichtigsten Bits des DiffServ-Felds werden als Differentiated Services Code Point oder DSCP bezeichnet. Mithilfe dieses Frameworks kann Datenverkehr als ein bestimmter Typ (Sprache) klassifiziert und dann markiert werden (101110 oder in Dezimalschreibweise 46). Wenn dann Netzwerkgeräte diese Markierungen verarbeiten, kann der Datenverkehr entsprechend priorisiert werden (in diesem Beispiel als „Expedited Forwarding“).
+Differenzierte Dienste (DiffServ) stellt einen Rahmen in der Datenverkehr von Netzwerkgeräten basierend auf den Typ des Felds in der Kopfzeile der IPv4/IPv6-Paket (ToS) Dienste andere Priorität zugewiesen ist. Die wichtigsten sechs Bits des Felds DiffServ sind die differentiated Services Code Point oder DSCP. Durch die Verwendung dieses Frameworks Datenverkehr kann werden als einen bestimmten Typ Datenverkehr (beispielsweise Voice) klassifiziert, und klicken Sie dann markiert (101110 oder 46 Dezimal für VoIP-Datenverkehr), sodass Wenn Netzwerkgeräte diese Auswahlmöglichkeiten verarbeiten, der Datenverkehr werden kann priorisiert entsprechend () Expedited Forwarding, in diesem Beispiel).
 
-Wenn Netzwerkdatenverkehr einen Router erreicht, wird er in einer Warteschlange platziert. Wenn QoS nicht implementiert ist, ist im Wesentlichen nur eine Warteschlange vorhanden, und die Daten werden nach dem FIFO-Prinzip (First In, First Out) behandelt. Das heißt, Sprachdatenverkehr (bei dem sich Verzögerungen sehr deutlich bemerkbar machen) könnte durch Datenverkehr von Onlinestreamingdiensten ausgebremst werden. Bei der Implementierung von QoS können mehrere Warteschlangen mit unterschiedlichen Funktionen für die Verwaltung von Überlastungen (z. B. Priority Queuing (PQ) und Class Based Weighted Fair Queue (CBWFQ) von Cisco) und die Vermeidung von Überlastungen (z. B. Weighted Random Early Detection (WRED)) definiert werden.
+Netzwerkverkehr einen Router eingibt, wird der Datenverkehr in einer Warteschlange platziert – Wenn keine QoS besteht im Wesentlichen nur eine einzige Warteschlange vorhanden ist und Daten, wie First in behandelt werden, First out. Dies bedeutet, dass VoIP-Datenverkehr (, sehr groß-und Kleinschreibung zu Verzögerungen) hinter Datenverkehr über streaming Onlinedienste Neustartzyklus möglicherweise. Wenn Sie QoS zu implementieren, können Sie mehrere Warteschlangen definieren, mit anderen Überlastung Management-Features (wie Cisco Reihenfolge in der Warteschlange und Klassen basierende gewichteten fair Warteschlange [CBWFQ]) und eine Überlastung Vermeidung Features (beispielsweise gewichteten zufällige frühe Erkennung [ WRED]).
 
-![Screenshot eines Diagramms, das QoS-Warteschlangen in Microsoft Teams veranschaulicht](media/Qos-in-Teams-Image2.png)
+![Gesamten verfügbaren Bandbreite auf mehrere Warteschlangen aufgeteilt ist – Audio-, Video- und anderen Datenverkehr – unterschiedliche Prioritäten zugewiesen wurden.] (media/Qos-in-Teams-Image2.png "Gesamten verfügbaren Bandbreite auf mehrere Warteschlangen aufgeteilt ist – Audio-, Video- und anderen Datenverkehr – unterschiedliche Prioritäten zugewiesen wurden.")
 
-Abbildung 1: Visualisierung von QoS-Warteschlangen
+_Abbildung 2. Dargestellte QoS-Warteschlangen_
 
-Wenn diese Elemente implementiert sind, kann eine vorhersagbare Quality of Service bereitgestellt werden, da jetzt im zugrunde liegenden verwalteten Netzwerk festgelegt ist, wie der Datenverkehr klassifiziert, markiert und priorisiert werden soll. Im Hinblick auf Microsoft Teams ist das wichtigste Konfigurationselement die Klassifizierung und Markierung von Paketen. Um die Konfiguration der Anwendung mit der zugrunde liegenden Netzwerkkonfiguration in Einklang zu bringen und eine erfolgreiche End-to-End-QoS zu implementieren, ist jedoch sorgfältige Planung erforderlich.
+Nachdem diese vorhanden sind, ist es möglich, vorhersehbare QoS übermittelt werden, da die zugrunde liegenden verwalteten Netzwerks nun weiß, wie klassifizieren, markieren und Priorisieren von Datenverkehr. Aus der Sicht Teams die wichtigsten Konfigurationsschritt ist die Klassifizierung und Kennzeichnung der Pakete, aber für End-to-End-QoS erfolgreich durchgeführt werden müssen Sie auch die Konfiguration der Anwendung mit der zugrunde liegenden Netzwerkkonfiguration sorgfältig ausrichten.
 
-## <a name="qos-scenarios"></a>QoS-Szenarien
+## <a name="teams-qos-scenarios"></a>Teams QoS-Szenarien
 
-Unsere Ratschläge für die Implementierung von QoS für Microsoft Teams basieren auf vier Ausgangsszenarien:
+Die Anleitung für die Implementierung von QoS für Teams basiert auf vier Szenarien:
 
-1.  Sie haben Microsoft Teams bereitgestellt oder nehmen die Bereitstellung gerade vor, und Sie planen die Implementierung von QoS über portbasierte Markierungen. Portbasierte Markierungen stellen die zuverlässigste Methode dar, da sie universell auf allen Plattformen funktionieren und sich am einfachsten implementieren lassen. 
+*  **Szenario 1:** Sie bereitgestellt haben, oder bereitstellen, Teams und zum Implementieren von QoS über Port-basierte tagging planen. Port-basierte tagging ist die zuverlässigste-Methode, da es universell in der gesamten alle Plattformen funktioniert und einfachste besteht darin zu implementieren.  
 
-2.  Sie haben Microsoft Teams bereitgestellt oder nehmen die Bereitstellung gerade vor, und Sie planen die Implementierung von QoS über Markierungen durch Gruppenrichtlinienobjekte. Diese Vorgehensweise wird manchmal in Verbindung mit Szenario 1 verwendet. Dieses unten beschriebene Szenario ist zwar absolut zulässig, aber Sie müssen sich dessen bewusst sein, dass es nur für Windows-Clients funktioniert, die in eine Domäne eingebunden sind. Geräte, die nicht als Windows-Clients in eine Domäne eingebunden sind, sind nicht für QoS-/DSCP-Markierungen aktiviert. 
+*  **Szenario 2:** Sie bereitgestellt haben, oder bereitstellen, Teams und planen, implementieren Sie QoS über tagging Group Policy Object. Diese Vorgehensweise wird manchmal in Verbindung mit Szenario 1 verwendet. Obwohl dieses Szenario vollständig gültig ist, ist es wichtig zu verstehen, dass es nur für die Domäne eingebundener Windows-Clients eingesetzt wird. Jedes Gerät, das ein in die Domäne eingebundener Windows-Client wird nicht nicht aktiviert werden, für DSCP markieren.
 
-3.  Sie haben Skype for Business Online einschließlich QoS-Markierungen bereitgestellt und stellen jetzt Microsoft Teams bereit. Wenn dies auf Sie zutrifft, respektiert Microsoft Teams die vorhandene Konfiguration und verwendet die gleichen Portbereiche und Markierungen wie der Skype for Business-Client. Es sollte keine zusätzliche Konfiguration erforderlich sein. 
+*  **Szenario 3:** Sie haben Skype für Business Online, einschließlich QoS-tagging, bereitgestellt und sind nun Teams bereitstellen. Wenn dies auf Sie zutrifft, respektiert Microsoft Teams die vorhandene Konfiguration und verwendet die gleichen Portbereiche und Markierungen wie der Skype for Business-Client. In den meisten Fällen wird keine zusätzliche Konfiguration erforderlich sein. 
+ 
     > [!NOTE]
-    > Wenn Sie QoS-Markierungen mit Anwendungsnamen über Gruppenrichtlinien verwenden, sollten Sie „Teams.exe“ als Anwendungsnamen hinzufügen.
-4.  Sie haben Microsoft Teams bereitgestellt oder nehmen die Bereitstellung gerade vor, und Sie möchten QoS über portbasierte Markierungen mit einem benutzerdefinierten Portbereich implementieren.
+    > Wenn Sie Anwendung Namen QoS tagging über Gruppenrichtlinien verwenden, müssen Sie Teams.exe als den Namen der Anwendung hinzufügen.
 
-## <a name="recommended-differentiated-services-code-point-dscp-markings"></a>Empfohlene DSCP-Markierungen (Differentiated Services Code Point)
+*  **Szenario 4:** Sie bereitgestellt haben, oder bereitstellen, Teams und QoS über Port-basierte mithilfe einen benutzerdefinierten Portbereich tagging implementieren möchten.
 
-Im ersten Schritt klassifizieren Sie die Datenverkehrsflüsse (beispielsweise Audio und Video). Dazu nutzen Sie die eindeutigen, nicht überlappenden Portbereiche mit einem DSCP-Wert. Der hier zugewiesene DSCP-Wert bestimmt die Priorität des Datenverkehrs im Netzwerk (basierend auf der Netzwerkkonfiguration). Jede Arbeitsauslastung erhält einen eigenen DSCP-Wert. Manche Kunden legen möglicherweise für Sprache und Video den gleichen Wert fest, sodass beide im Netzwerk die gleiche Priorität haben. 
+## <a name="recommended-dscp-markings"></a>Empfohlene DSCP Auswahlmöglichkeiten
 
-Welchen DSCP-Wert Sie verwenden sollten, hängt von der Priorität der Arbeitsauslastung ab. Beispielsweise kann es aufgrund von Geschäftsanforderungen notwendig sein, die Anwendungsfreigabe mit der gleichen Priorität wie Video zu behandeln (und sie entsprechend mit dem gleichen DSCP-Wert wie Video zu markieren). In anderen Umgebungen ist möglicherweise bereits eine QoS-Strategie vorhanden. 
+Der erste Schritt besteht zum Klassifizieren der Datenverkehr fließt (wie Audio und Video), indem Sie die eindeutige, nicht überlappende Portbereiche DSCP-Werte zuweisen. Hier zugewiesene DSCP-Wert wird die Priorität des Datenverkehrs über das Netzwerk, basierend auf der Netzwerkkonfiguration laufen bestimmen. Jede Arbeitslast eigenen DSCP-Wert, jedoch nicht unbedingt eindeutig Ruft einen Wert ab, einige Kunden möglicherweise den gleichen Wert für Sprach- und Videofunktionen Arbeitslasten festlegen die gleiche Priorität im Netzwerk gewähren.  
 
-Tabelle 1 zeigt die erforderlichen DSCP-Markierungen bei Nutzung von Microsoft Teams mit ExpressRoute. Dies kann ein guter Ausgangspunkt für Kunden sein, die nicht sicher sind, welche Markierungen sie in ihrer eigenen Umgebung verwenden sollen. Weitere Informationen finden Sie unter [QoS-Anforderungen für ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+Der zu verwendende DSCP-Wert hängt davon ab, wie Sie die Arbeitslast priorisieren möchten. Beispielsweise die geschäftlichen möglicherweise Abläufe, dass die Anwendung geben die gleiche Priorität als Video Freigabe (und markieren Sie diese daher mit denselben DSCP-Wert wie Video). Anderen Umgebungen möglicherweise eine vorhandene QoS-Strategie an, die Hilfe Sie die Priorität der Netzwerk-Arbeitslasten zu bestimmen. 
+
+Tabelle 1 zeigt die DSCP-Auswahlmöglichkeiten bei der Verwendung von Teams mit ExpressRoute erforderlich. Diese Auswahlmöglichkeiten können als Ausgangspunkt für Kunden verwendet werden, die sich nicht sicher sind, was für die Verwendung in ihrer eigenen Umgebung befinden. Weitere Informationen finden Sie unter [QoS-Anforderungen für ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 
-| Clientquellport|Protokoll|Medienkategorie|Allgemeiner DSCP-Wert|DSCP-Klasse|
+_In Tabelle 1. DSCP Auswahlmöglichkeiten_
+    
+| Client-Quellportbereich |Protokoll|Medienkategorie|DSCP-Wert|DSCP-Klasse|
 |---------|---------|---------|---------|---------|
-| 50000–50019|TCP/UDP|Audio|46|Expedited Forwarding (EF)|
-| 50020–50039|TCP/UDP|Video|34|Assured Forwarding (AF41)|
-| 50040–50059|TCP/UDP|Anwendungs-/Desktopfreigabe und Dateiübertragung|18|Klassenauswahl (CS3)|
-
-Tabelle 1: DSCP-Markierungen
+| 50.000 – 50,019|TCP/UDP|Audio|46|Expedited Forwarding (EF)|
+| 50,020 – 50,039|TCP/UDP|Video|34|Assured Forwarding (AF41)|
+| 50,040 – 50,059|TCP/UDP|Anwendung/Desktopfreigabe|18|Assured Forwarding (AF21)|
 
 Hier sind ein paar Bedingungen, die Sie verstehen müssen, wenn Sie die Informationen in Tabelle 1 verwenden:
-
-- Dateifreigabe und Anwendungsfreigabe verwenden den gleichen Quellportbereich und würden daher bei Verwendung von portbasierten Markierungen die gleichen DSCP-Markierungen verwenden. Aus diesem Grund sollten Sie ermitteln, welche Priorität für *beide* Modalitäten am besten geeignet ist („Interactive“ oder „Default“).
     
-- Wenn Sie für die Zukunft die Implementierung von ExpressRoute planen und QoS noch nicht implementiert ist, empfehlen wir, den oben genannten Ratschlägen zu folgen, sodass die DSCP-Werte vom Absender bis zum Empfänger identisch sind. 
+-  Wenn Sie in der Zukunft ExpressRoute implementieren möchten und noch nicht noch QoS implementiert, wird empfohlen, dass Sie die Anleitung in Tabelle 1 befolgen, sodass DSCP-Werte vom Absender zum Empfänger identisch sind. 
+
+-  Alle Clients, einschließlich mobilen Clients und Geräten von Teams, verwenden diese Portbereiche und von einer DSCP-Richtlinie, die Sie implementieren, die diese Quelle Portbereiche verwendet betroffen sind. Die nur Clients, die weiterhin dynamische Ports verwenden, sind die Clients browserbasierte (d. h., diese Clients, mit denen Teilnehmer Besprechungen beitreten, indem Sie mit ihrem Browser).
+
+-  Auch wenn der Mac-Client dieselben Portbereiche verwendet wird, verwendet der Mac-Client auch hartcodierte Werte für (Expedited FORWARDING)-Audio und Video (AF41). Diese Werte sind nicht konfigurierbar.
+ 
     
 ## <a name="source-ports-used-by-teams"></a>Von Microsoft Teams verwendete Quellports
 
-In Microsoft Teams sollte QoS basierend auf den Quellports konfiguriert werden, die von den verschiedenen Arbeitsauslastungen verwendet werden. Die serverseitigen und clientseitigen Portbereiche sind an dieser Stelle nicht konfigurierbar. 
+In Microsoft Teams sollte QoS basierend auf den Quellports konfiguriert werden, die von den verschiedenen Arbeitsauslastungen verwendet werden. Weder serverseitige und clientseitige Portbereiche können derzeit konfiguriert werden. 
 
-Verwenden Sie zum Bereitstellen von QoS die Clientquellportbereiche aus Tabelle 2 mit den zugehörigen QoS-DSCP-Markierungen.
+Beachten Sie die in Tabelle 2 aufgelisteten Client Quelle Portbereiche und verwenden Sie deren zugeordneten QoS DSCP Auswahlmöglichkeiten.
 
-| Clientquellport|Protokoll|Medienkategorie|Allgemeiner DSCP-Wert|DSCP-Klasse|
+_In Tabelle 2. Quelle clientportbereiche_
+
+| Client-Quellportbereich |Protokoll|Medienkategorie|DSCP-Wert|DSCP-Klasse|
 |---------|---------|---------|---------|---------|
-| 50000–50019|TCP/UDP|Audio|46|Expedited Forwarding (EF)|
-| 50020–50039|TCP/UDP|Video|34|Assured Forwarding (AF41)|
-| 50040–50059|TCP/UDP|Anwendungs-/Desktopfreigabe und Dateiübertragung|18|Klassenauswahl (CS3)|
+| 50.000 – 50,019|TCP/UDP|Audio|46|Expedited Forwarding (EF)|
+| 50,020 – 50,039|TCP/UDP|Video|34|Assured Forwarding (AF41)|
+| 50,040 – 50,059|TCP/UDP|Anwendung/Desktopfreigabe|18|Assured Forwarding (AF21)|
 
-Tabelle 2: Clientquellportbereiche
+Die empfohlene Methode implementieren dieser QoS-Richtlinien ist die Verwendung der Quelle Clientports mit einer Quell- und Ziel-IP-Adresse des "beliebigen". Dies fängt beide ein- und ausgehenden Datenverkehr im internen Netzwerk. 
 
 > [!NOTE]
-> Wenn Sie QoS bereits basierend auf den Quellportbereichen für Skype for Business Online konfiguriert haben, gilt die gleiche Konfiguration auch für Microsoft Teams. Sie müssen keine weiteren Änderungen vornehmen. Wenn Sie Skype for Business Server (lokal) bereitgestellt haben, müssen Sie Ihre QoS-Richtlinien überarbeiten.
+> Wenn Sie QoS basierend auf Quelle Portbereiche für Skype für Business Online bereits konfiguriert haben, gilt die gleiche Konfiguration für Teams und werden keine weiteren Änderungen erforderlich. Wenn Sie Skype für Business Server lokal bereitgestellt haben, müssen Sie die QoS-Richtlinien Umgestalten.
 
-## <a name="setting-differentiated-services-code-point-dscp-markings"></a>Festlegen von DSCP-Markierungen (Differentiated Services Code Point)
+## <a name="setting-dscp-markings"></a>Festlegen von DSCP Auswahlmöglichkeiten
 
-Es gibt mehrere Methoden zum Festlegen der richtigen DSCP-Markierungen für die Klassifizierung des Datenverkehrs.
+Es gibt mehrere Ansätze zum Festlegen der richtigen DSCP Auswahlmöglichkeiten für Datenverkehr Klassifizierung:
 
-- DSCP-Markierungen am Endpunkt: Diese Option wird im Allgemeinen bevorzugt, da der Endpunkt selbst die richtigen Markierungen bereitstellt. Zurzeit können Sie dazu ein GPO verwenden. Dies ist aber nur auf Windows-Clients möglich, die in eine Domäne eingebunden sind. Mac OS X-Clients oder mobile Clients zum Beispiel stellen keinen Mechanismus zum Markieren des Datenverkehrs mit DSCP-Werten bereit.
+-  **DSCP-Markierung am Endpunkt:** Dies ist im Allgemeinen die bevorzugte Option, da der Endpunkt selbst die richtigen Auswahlmöglichkeiten stellt. Derzeit können dazu mithilfe eines Gruppenrichtlinienobjekts, jedoch kann nur auf die Domäne eingebundener Windows-Clients verwendet werden. Mobile-Clients enthalten keinen Mechanismus zum Kennzeichnen Datenverkehr mit DSCP-Werte. Obwohl Sie nicht konfigurieren können nicht&ndash;in die Domäne eingebundener Windows-Clients für den Tag Verkehr, Clients wie Mac OS hartcodierte Tags haben und Datenverkehr immer markieren, wie oben beschrieben.
 
-- Portbasierte Markierungen mithilfe von ACLs in Routern: Diese Option wird sehr häufig verwendet, vor allem in heterogenen Umgebungen mit Windows- und Mac-Computern. In diesem Szenario markiert das Netzwerkteam den Datenverkehr an den Routern für eingehenden/ausgehenden Datenverkehr (normalerweise im WAN (Wide Area Network, Fernnetz)) basierend auf den für die einzelnen Modalitäten definierten Quellportbereichen. Diese Vorgehensweise funktioniert zwar plattformübergreifend, allerdings wird dabei nur der WAN-Edge markiert (nicht die gesamte Strecke bis zum Clientcomputer). Außerdem entsteht Verwaltungsaufwand.
+-  **Port-basierte DSCP mithilfe von Zugriffssteuerungslisten (ACLs) auf Routern tagging:** Dies ist ein sehr häufiges Option in heterogenen Windows- und Mac-Umgebungen ist aufgetreten. In diesem Szenario markiert das Netzwerkteam des Datenverkehrs an die eingehende/Ausgang Router (in der Regel befindet sich auf das WAN) basierend auf der Quelle Portbereiche für jede Modalität definiert ist. Obwohl dies plattformübergreifend funktioniert, er nur Datenverkehr an den WAN-Rand kennzeichnet – ganz nicht auf den Clientcomputer – und daher birgt Verwaltungsaufwand.
     
-- Eine Kombination aus DSCP-Markierungen auf dem Client und portbasierten ACLs in Routern
+-  **Eine Kombination von DSCP Auswahlmöglichkeiten an den Endpunkt und Port-basierte ACLs für Router:** Sie sollten diese Kombination Wenn möglich in Ihrer Umgebung. Verwenden Sie ein Gruppenrichtlinienobjekt, um die meisten Clients abzufangen und auch verwenden Sie, Port-basierte DSCP-Markierung um sicherzustellen, dass diese Mobile, Mac und andere Clients weiterhin QoS-Behandlung (zumindest teilweise) relevanten Informationen erhalten.
     
-Wir empfehlen nach Möglichkeit eine Kombination aus beiden, das heißt die Verwendung eines GPOs für die Mehrheit der Clients sowie die Verwendung von portbasierten Markierungen. Dadurch können Sie sicherstellen, dass QoS zumindest teilweise auf mobile Clients, Macs und andere Clients angewendet wird.
+Sie können Richtlinienbasierte QoS innerhalb der Gruppenrichtlinien verwenden, um den DSCP-Wert für den Portbereich vordefinierten Quelle im Client Teams festzulegen. Verwenden Sie die in Tabelle 3 angegebenen Portbereiche zum Erstellen einer Richtlinie für jeden Workload.
 
-Zum Festlegen des DSCP-Werts für den vordefinierten Quellportbereich im Microsoft Teams-Client können Sie richtlinienbasierte QoS innerhalb von Gruppenrichtlinien verwenden. In der folgenden Tabelle wird anhand der genannten Portbereiche für jede Arbeitsauslastung eine Richtlinie erstellt.
-
+_Tabelle 3. Portbereiche nach Datenverkehrstyp_
 | Datenverkehrstyp des Clients|Anfang des Portbereichs|Ende des Portbereichs|DSCP-Wert|
 |---------|---------|---------|--------|
 | Audio|50000|50019|46|
 | Video|50020|50039|34|
 | Anwendungsfreigabe|50040|50059|18|
-| Dateiübertragung|50040|50059|18|
 
-Tabelle 3: Portbereiche nach Datenverkehrstyp
+> [!NOTE]
+> Festlegen von Teams, die die Portbereiche können nicht geändert werden. Lesen Sie [in diesem Artikel Unterstützung](https://support.microsoft.com/kb/2409256) für die neuesten Informationen. 
 
-Hinweis: Die von Microsoft Teams festgelegten Portbereiche können nicht geändert werden. Die neuesten Informationen finden Sie auf dieser Seite: https://support.microsoft.com/kb/2409256.
+Nachdem Sie die Portbereiche identifiziert haben, besteht der nächste Schritt konfigurieren Sie die Richtlinienbasierte QoS-Einstellungen innerhalb eines Gruppenrichtlinienobjekts. Weitere Informationen zu diesen Schritten finden Sie im [TechNet-Artikel](https://technet.microsoft.com/library/jj205371(v=ocs.15).aspx). 
 
-Wenn Sie die Portbereiche festgelegt haben, konfigurieren Sie im nächsten Schritt die Einstellungen für richtlinienbasierte QoS in einem Gruppenrichtlinienobjekt (Group Policy Object, GPO). Details zu diesen Schritten finden Sie auf [TechNet](https://technet.microsoft.com/library/jj205371(v=ocs.15).aspx). 
+Die neuen Richtlinien, die von die Ihnen erstellten werden nicht erst wirksam, Gruppenrichtlinien auf den Clientcomputern aktualisiert wurde. Obwohl Gruppenrichtlinien allein in regelmäßigen Abständen aktualisiert wurde, können Sie eine sofortige Aktualisierung erzwingen.
 
-Die neuen Richtlinien, die Sie erstellt haben, werden erst nach einer Aktualisierung der Gruppenrichtlinien auf den Clientcomputern wirksam. Die Gruppenrichtlinien werden zwar automatisch regelmäßig aktualisiert, aber Sie können die sofortige Aktualisierung erzwingen. Dazu führen Sie auf allen Computern, auf denen die Gruppenrichtlinien aktualisiert werden sollen, den folgenden Befehl aus:
+### <a name="force-group-policy-refresh"></a>Force Group Policy aktualisieren
 
-        gpudate.exe /force
+1. Öffnen Sie auf jedem Computer, für die Sie die Gruppenrichtlinie aktualisieren möchten eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole festgelegt ist, als Administrator ausführen.
 
-Diesen Befehl können Sie über ein beliebiges Befehlsfenster ausführen, das mit Administratoranmeldeinformationen ausgeführt wird. Um ein Befehlsfenster mit Administratoranmeldeinformationen auszuführen, klicken Sie auf **Start**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung**, und klicken Sie dann auf **Als Administrator ausführen**.
+2. Geben Sie an der Befehlszeile
+```
+    gpudate.exe /force
+```
 
-## <a name="verifying-the-dscp-markings-in-gpo"></a>Überprüfen der DSCP-Markierungen aus dem GPO
+## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Überprüfen Sie die DSCP-Auswahlmöglichkeiten in das Gruppenrichtlinienobjekt
 
-Um zu überprüfen, ob die Werte aus dem GPO festgelegt wurden, führen Sie die folgenden Schritte aus:
+Führen Sie die folgenden Schritte aus, um zu überprüfen, dass die Werte aus dem Gruppenrichtlinienobjekt festgelegt wurden.
 
-1.  Überprüfen Sie mit „gpresult“, ob der lokale PC die Einstellungen aus dem GPO erhalten hat. Mit „gpresult /R >gp.txt“ generieren Sie einen Bericht und senden ihn an eine Textdatei („gp.txt“).
+1.  Öffnen Sie eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole festgelegt ist, als Administrator ausführen.
 
-    ![Screenshot der Administratoreingabeaufforderung, in der der Befehl „gpresult“ ausgeführt wird](media/Qos-in-Teams-Image3.png)
+2.  Geben Sie an der Befehlszeile 
+    ```
+    gpresult /R >gp.txt
+    ```
 
-    Abbildung 2: Überprüfen der angewendeten Gruppenrichtlinienobjekte
-    > [!NOTE]
-    > Alternativ können Sie „gpresult /H gp.html“ ausführen, um die gleichen Daten in Form eines benutzerfreundlicheren HTML-Berichts zu erzeugen. 
-2.  Suchen Sie in der generierten Datei nach der Überschrift „Angewendete Gruppenrichtlinienobjekte“, und vergewissern Sie sich, dass die Namen der zuvor erstellten GPOs in der Liste der angewendeten Richtlinien enthalten sind. 
+    Dies einen Bericht generiert und in eine Textdatei mit dem Namen gp.txt zu senden. Alternativ können Sie den folgenden Befehl aus, um die gleichen Daten in einem besser lesbar HTML-Bericht mit dem Namen gp.html zu erzeugen eingeben:
+    ```
+    gpresult /H >gp.html
+    ```
+ 
+   ![Screenshot des Konsolenfenster des Befehls Gpresult.] (media/Qos-in-Teams-Image3.png "Screenshot des Konsolenfenster des Befehls Gpresult.")
 
-3.  Öffnen Sie den Registrierungs-Editor, und navigieren Sie zu:
+3.  Suchen Sie in der generierten Datei nach der Überschrift **Gruppenrichtlinienobjekte angewendet** , und stellen Sie sicher, dass die Namen der zuvor erstellten Gruppenrichtlinienobjekte in der Liste der Richtlinien angewendet werden. 
+
+4.  Öffnen Sie den Registrierungs-Editor, und wechseln Sie zu:
 
     HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-    Überprüfen Sie die unten in Tabelle 3 aufgeführten Registrierungswerte.
+    Überprüfen Sie die Werte für die in Tabelle 3 aufgeführten Registrierungseinträge.
+
+    _Tabelle 3. Werte für Windows-Registrierungseinträge für QoS_
     
     | Name | Typ | Daten|
     |---------|---------|---------
@@ -171,97 +191,42 @@ Um zu überprüfen, ob die Werte aus dem GPO festgelegt wurden, führen Sie die 
     | Local Port|REG_SZ|50000-50019|
     | Protokoll|REG_SZ|*|
     | Remote IP|REG_SZ|*|
-    | Remote Ip Prefix|REG_SZ|*|
+    | Remote-IP-Präfix|REG_SZ|*|
     | Remote Port|REG_SZ|*|
     | Throttle Rate|REG_SZ|-1|
     
-    Tabelle 3: Windows-Registrierungswerte für QoS
+5.  Stellen Sie sicher, dass der Wert für den Anwendungsnamen-Eintrag für den Client korrekt ist, den Sie verwenden, und stellen Sie sicher, dass sowohl die DSCP-Wert und der lokalen Port Einträge die Einstellungen in das Gruppenrichtlinienobjekt aktualisiert.
 
-4.  Vergewissern Sie sich, dass die Angabe für „Application Name“ für den verwendeten Client richtig ist, und dass „DSCP Value“ und „Local Port“ den Einstellungen im GPO entsprechen.
+## <a name="validate-qos-by-analyzing-teams-traffic-on-the-network"></a>Überprüfen von QoS durch Analysieren Teams Datenverkehr im Netzwerk
 
-## <a name="validating-qos-analyzing-teams-traffic-on-the-network"></a>Validieren von QoS: Analysieren des Microsoft Teams-Datenverkehrs im Netzwerk
+Die DSCP-Wert festlegen, indem die Gruppenrichtlinien-Objekt muss vom Anrufer zum angerufenen in Reihenfolge für QoS effektiv vorhanden sein. Verfolgen Sie den Datenverkehr vom Client Teams generiert, stellen Sie sicher, dass der DSCP-Wert wird nicht geändert oder entfernt, wenn der Teams Arbeitslast Datenverkehr im Netzwerk durchläuft. 
 
-QoS ist nur wirksam, wenn der durch das GPO festgelegte DSCP-Wert vom Anrufer bis zum Angerufenen vorhanden ist. Durch Untersuchen des vom Microsoft Teams-Client generierten Datenverkehrs können wir sicherstellen, dass der DSCP-Wert beim Durchqueren des Netzwerks nicht geändert oder entfernt wird. 
+Vorzugsweise, erfassen Sie Datenverkehr am Netzwerk Austritt. Sie können Anschluss Spiegelung für eine Switch- oder Router um dabei zu unterstützen.
 
-Am besten wäre es, den Datenverkehr an der Stelle aufzuzeichnen, an der er das Netzwerk verlässt. Sie können Portspiegelung in einem Switch oder Router verwenden, um die Aufzeichnung des Datenverkehrs im Netzwerk zu erleichtern. 
+### <a name="use-network-monitor-to-verify-dscp-values"></a>Verwenden des Netzwerkmonitors DSCP-Werte überprüfen
 
-### <a name="looking-at-network-traffic-using-network-monitor"></a>Untersuchen des Netzwerkdatenverkehrs mit dem Netzwerkmonitor
+Netzwerkmonitor ist ein Tool, um den Netzwerkverkehr zu analysieren [von Microsoft herunterladen](https://www.microsoft.com/download/4865) können.
 
-Der Netzwerkmonitor ist ein Tool von Microsoft, das Sie herunterladen können, um den Netzwerkdatenverkehr zu analysieren. Laden Sie [Netzwerkmonitor 3.4](https://www.microsoft.com/download/4865) herunter.
+1.  Verbinden Sie auf dem PC Netzwerkmonitor ausgeführt wird auf den Port, der für die Spiegelung von Port und Erfassung von Paketen Start konfiguriert wurde. 
 
-Stellen Sie eine Verbindung mit dem PC her, auf dem der Netzwerkmonitor ausgeführt wird, und zwar an dem Port, der für Portspiegelung konfiguriert ist. Starten Sie die Aufzeichnung von Paketen. Tätigen Sie einen Anruf mit dem Skype for Business-Client. Stellen Sie vor dem Auflegen sicher, dass die Medienverbindung hergestellt wurde. Beenden Sie die Aufzeichnung, und erstellen Sie einen Anzeigefilter, der der Quell-IP des PCs entspricht, von dem aus der Anruf getätigt wurde. Optimieren Sie den Filter, indem Sie den DSCP-Wert 46 (in Hexadezimalschreibweise 0xb8) als Suchkriterium definieren:
+2.  Tätigen eines Anrufs mithilfe der Skype für Business-Client. Stellen Sie sicher, dass Media hergestellt wurde, bevor der Anruf wird beendet. 
 
-Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8 
+3.  Beenden Sie die Aufzeichnung.
 
-![Screenshot des Dialogfelds „Display Filter“ im Netzwerkmonitor mit den Filtern, die angewendet werden können](media/Qos-in-Teams-Image4.png)
+4. Klicken Sie im Feld **Anzeigefilter** verwenden Sie die Quell-IP-Adresse des Computers, der den Anruf getätigt hat, und verfeinern Sie den Filter, indem Sie definieren DSCP-Wert (hex-0xb8) 46 als Suchkriterien, wie im folgenden Beispiel dargestellt:
 
+    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8 
 
-Klicken Sie auf **Apply** (Anwenden), um den Filter zu aktivieren. Wählen Sie im Fenster **Frame Summary** (Framezusammenfassung) das erste UDP-Paket aus, und betrachten Sie die Framedetails:
+    ![Screenshot des Dialogfelds in Microsoft Netzwerkmonitor mit Filter für Anzeigefilter.] (media/Qos-in-Teams-Image4.png "Screenshot des Dialogfelds in Microsoft Netzwerkmonitor mit Filter für Anzeigefilter.")
 
-![Screenshot des Dialogfelds „Frame Details“ (Framedetails) im Netzwerkmonitor mit hervorgehobenen DSCP-Einstellungen](media/Qos-in-Teams-Image5.png)
+5.  **Übernehmen** Sie den Filter aktivieren auswählen.
 
-Erweitern Sie „IPv4“, und betrachten Sie den Wert am Ende der Zeile „DSCP“. In diesem Beispiel ist der DSCP-Wert auf „46“ festgelegt. Das ist richtig, da der Quellport 50019 verwendet wird, das heißt, bei der Arbeitsauslastung handelt es sich um Sprache. 
+6.  Wählen Sie im Fenster **Zusammenfassung Frame** das erste UDP-Paket aus.
+
+7.  In Frame im Dialogfeld **Details** der erweitern Sie das Listenelement IPv4, und notieren Sie den Wert am Ende der Zeile, die mit **DSCP**beginnt. 
+
+    ![Screenshot des Frames im Dialogfeld Details der in Microsoft Netzwerkmonitor DSCP-Einstellungen der Hervorhebung.] (media/Qos-in-Teams-Image5.png "Screenshot des Frames im Dialogfeld Details der in Microsoft Netzwerkmonitor DSCP-Einstellungen der Hervorhebung.")
+
+In diesem Beispiel wird der DSCP-Wert auf 46 festgelegt. Dies ist korrekt, da der verwendete Quellport 50019, ist gibt an, dass es sich um eine VoIP-Arbeitslast handelt. 
 
 Wiederholen Sie die Überprüfung für alle Arbeitsauslastungen, die durch das GPO markiert wurden. 
-
-> [!NOTE]
-> Vergewissern Sie sich, dass die Markierungen auch für Peer-zu-Peer-Datenverkehr berücksichtigt werden. Dazu können Sie den Netzwerkmonitor auf zwei Clients installieren und Anrufe zwischen den beiden Clients tätigen. Untersuchen Sie den zwischen den Clients fließenden Mediendatenverkehr auf die gleiche Weise wie oben beschrieben.
-
-### <a name="sample-filters-to-use-for-network-monitor-or-wireshark"></a>Beispielfilter zur Verwendung mit dem Netzwerkmonitor oder mit Wireshark
-
-|Verwendung  |Beispielfilter  |
-|---------|---------|
-|Sprache (Hinweis: Multiplexing muss deaktiviert sein.)     |   udp.port==3479 AND Ipv4.DifferentiatedServicesField.DSCP==46      |
-|Video     | udp.port==3480 AND Ipv4.DifferentiatedServicesField.DSCP==34        |
-|Bildschirmübertragung     |  udp.port==3481 AND Ipv4.DifferentiatedServicesField.DSCP==18       |
-
-### <a name="filter-media-traffic-from-microsoft-relays-requires-azure-expressroutehttpsazuremicrosoftcomservicesexpressroute"></a>Filter: Mediendatenverkehr von Microsoft-Relays (Erfordert [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/).)
-
-ip.src in {52.114.188.0/22 52.114.220.0/22 52.114.124.0/22 52.114.60.0/22} and (udp.srcport in {3479 3480 3481} or (udp.srcport ge 50000 and udp.srcport lt 60000))
-
-### <a name="filter-media-traffic-to-microsoft-relays"></a>Filter: Mediendatenverkehr zu Microsoft-Relays
-
-ip.dst in {52.114.188.0/22 52.114.220.0/22 52.114.124.0/22 52.114.60.0/22} and (udp.dstport in {3479 3480 3481} or (udp.dstport ge 50000 and udp.dstport lt 60000))
-
-
-Sie sollten Datenverkehr zu und von den Microsoft-Relays sehen. Sie können wie im nächsten Abschnitt gezeigt die DSCP-Markierungen auf der IP-Ebene in Wireshark überprüfen.
-
-### <a name="expected-dscp-markings"></a>Erwartete DSCP-Markierungen
-
-Audiodatenströme: 46
-
-Videodatenströme: 34
-
-Datenströme: 18
-
-### <a name="filter-dscp-condition-to-network"></a>Filter: DSCP-Bedingung für Netzwerk
-
-ip.dsfield.dscp in {46 34 18}
-
-
-
-### <a name="looking-at-network-traffic-using-wireshark"></a>Untersuchen des Netzwerkdatenverkehrs mit Wireshark
-
-Wireshark (https://www.wireshark.org/) ist ein leistungsstarkes Tool, mit dem Sie Netzwerkdaten zur weiteren Analyse filtern und aufzeichnen können. Stellen Sie eine Verbindung mit einem PC her, auf dem Wireshark ausgeführt wird, und zwar an dem Port, der für Portspiegelung konfiguriert ist. Starten Sie die Aufzeichnung von Paketen. Tätigen Sie einen Anruf mit dem Microsoft Teams-Client. Stellen Sie vor dem Auflegen sicher, dass die Medienverbindung hergestellt wurde.
-
-Beenden Sie die Paketablaufverfolgung, und erstellen Sie einen Filter, der nur die Quell-IP des PCs anzeigt, auf dem der Microsoft Teams-Client installiert ist (z. B. *ip.src_host == 192.168.137.201*). Außerdem soll der Filter nach Paketen suchen, die einen Quellport aus dem für Sprache angegebenen Bereich verwenden (50000–50019):
-
-![Screenshot von Wireshark mit Filtereinstellungen](media/Qos-in-Teams-Image6.png)
- 
-
-Markieren Sie das Paket, und erweitern Sie den IPv4-Header (Internetprotokoll, Version 4) im Detailbereich für das Paket:
-
-![Screenshot von Wireshark mit hervorgehobenen DSCP-Einstellungen](media/Qos-in-Teams-Image7.png)
- 
-
-Vergewissern Sie sich, dass der Wert für *Differentiated Services Code Point* mit dem Wert für die entsprechende Arbeitsauslastung übereinstimmt, in diesem Fall „46“ (in Binärschreibweise 101110) für Sprache.
-
-Wiederholen Sie die Überprüfung für alle Arbeitsauslastungen, die durch das GPO markiert wurden.
-
-> [!NOTE]
-> Vergewissern Sie sich, dass die Markierungen für Peer-zu-Peer-Datenverkehr berücksichtigt werden. Dazu können Sie Wireshark oder den Netzwerkmonitor auf zwei Clients installieren und Anrufe zwischen den beiden Clients tätigen. Untersuchen Sie den zwischen den Clients fließenden Mediendatenverkehr auf die gleiche Weise wie oben beschrieben.
-
-## <a name="summary"></a>Zusammenfassung
-
-Quality of Service spielt bei der Bereitstellung von Funktionen auf Unternehmensniveau mit Microsoft Teams eine wichtige Rolle. Dabei müssen Sie jedoch immer bedenken, dass QoS nur in ordnungsgemäß verwalteten Netzwerken effektiv ist. Daher muss das Bereitstellungsteam eng mit den Netzwerkteams zusammenarbeiten, um sicherzustellen, dass in der Vermittlungsschicht die richtigen Informationen übergeben werden, idealerweise mit End-to-End-Verwaltung.
-

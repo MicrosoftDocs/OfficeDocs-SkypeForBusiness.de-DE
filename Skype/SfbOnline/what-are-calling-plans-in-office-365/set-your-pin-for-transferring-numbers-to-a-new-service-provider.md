@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Zum Weiterleiten oder port out Telefonnummern von Skype für Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie eine PIN manuell festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie es einschließen aus, wenn Sie eine Telefonnummer ein, port anzufordern.
-ms.openlocfilehash: fea179df1533553fe78601b31d6048797ff7a844
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 80b782880f8acc2767ed6743ddf2e89f24299308
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Legen Sie Ihre PIN für die Übertragung von Zahlen mit einem neuen Dienstanbieter
 
@@ -70,9 +70,9 @@ Nachfolgend finden Sie einige bestimmte Informationen über diese PIN-Nummer, di
 
 [Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

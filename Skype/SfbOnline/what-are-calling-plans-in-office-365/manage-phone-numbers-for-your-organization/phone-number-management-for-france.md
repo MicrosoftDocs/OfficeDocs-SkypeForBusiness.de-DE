@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Frankreich für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: 3c6bd48f25e4d627701963ee09c3b0cb6428d63c
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 125de99f7334c36da4ddba6330c57ee9ea323c06
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-france"></a>Telefonnummernverwaltung für Frankreich
 
@@ -46,9 +46,9 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 
 [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md)
 
-[Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Notruf aufrufende Etiketten](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

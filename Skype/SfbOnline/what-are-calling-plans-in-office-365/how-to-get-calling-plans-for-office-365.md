@@ -25,11 +25,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 4e2dba9b7a73c36f823a4f73a49c4980dc98e305
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 317659a868deff0827d23debb454eaaa35392216
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Aufrufen von Pläne für Office 365
 
@@ -47,7 +47,7 @@ Monatliche Minuten verfügbar für jede Organisation und jedes Land/Region befin
 > Land/Region basiert auf den Speicherort des die Lizenz des Benutzers in der **Office 365 Administrationscenter** > **aktive Benutzer** und **nicht** die Art der Rechnungslegung Adresse aufgeführt, unter dem **Profil des Unternehmens** im **Office 365 Administrationscenter **.   
 ![Lizenz-Standort des Benutzers](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-Ausführliche Informationen zu Einschränkungen und rechtliche Hinweise finden Sie unter [Audiokonferenzen kostenlosen Dial-Out - Zeitraum](../accessibility-and-regulatory/complimentary-dial-out-period.md).
+Ausführliche Informationen zu Einschränkungen und rechtliche Hinweise finden Sie unter [Audiokonferenzen kostenlosen Dial-Out - Zeitraum](../legal-and-regulatory/complimentary-dial-out-period.md).
   
 ## <a name="how-to-buy-a-calling-plan"></a>Informationen zum Erwerben von Aufrufen planen
 

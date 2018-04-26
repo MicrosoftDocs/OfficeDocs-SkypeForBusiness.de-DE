@@ -34,6 +34,8 @@
 ### [Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Aktivieren oder Deaktivieren von Benachrichtigungen bei Zu- oder Abgang für Besprechungen](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
+
+
 ## [Anrufpläne in Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Hinzufügen oder Entfernen einer Notfalladresse für Ihre Organisation](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -59,7 +61,7 @@
 #### [Telefonnummernverwaltung für die USA](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [Wie viele Telefonnummern können Sie anfordern?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-### [Weitere Informationen zum Aufrufen von Zeile-ID und Aufrufen von Anrufernamens](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
+###[Weitere Informationen zum Aufrufen von Zeile-ID und Aufrufen von Anrufernamens](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [Suchen nach Telefonnummern für Benutzer](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Anzeigen einer Liste der Telefonnummern in Ihrer Organisation](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Festlegen der Anrufer-ID für einen Benutzer](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -169,11 +171,12 @@
 ### [Verwalten von Benutzerkonten](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Verwalten Ihrer Organisation mit dem Skype for Business Online Connector](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## Barrierefreiheit und Bestimmungen
-### [Konformitätserklärung zur Barrierefreiheit für Skype for Business Online in Frankreich](../accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Lösungen zur Barrierefreiheit für Skype for Business Online in Frankreich](../accessibility-and-regulatory/accessibility-solutions-in-france.md)
-### [Zeitraum für kostenlose ausgehende Anrufe](../accessibility-and-regulatory/complimentary-dial-out-period.md)
-### [Verfahrensregel für das Vereinigte Königreich (UK)](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
-### [Beanstandungshandling-Code für das Vereinigte Königreich (UK)](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Datensammlungsverfahren](../accessibility-and-regulatory/data-collection-practices.md)
-### [Ende der Lebensdauer Programm für die Integration von Skype für Unternehmen mit Drittanbietern von Audiokonferenzen](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+## Rechtliche Hinweise und behördlichen
+### [Konformitätserklärung zur Barrierefreiheit von Skype for Business Online in Frankreich](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
+### [Lösungen zur Barrierefreiheit für Skype for Business Online in Frankreich](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Zeitraum für kostenlose ausgehende Anrufe](../legal-and-regulatory/complimentary-dial-out-period.md)
+### [Verfahrensregel für das Vereinigte Königreich (UK)](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
+### [Beanstandungshandling-Code für das Vereinigte Königreich (UK)](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Datensammlungsverfahren](../legal-and-regulatory/data-collection-practices.md)
+### [Notruf aufrufende Etiketten](../legal-and-regulatory/emergency-calling-labels.md)
+### [Ende der Lebensdauer Programm für die Integration von Skype für Unternehmen mit Drittanbietern von Audiokonferenzen](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)

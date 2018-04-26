@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: 7d0a7efd6c524050f53e168a85ca652095a35c3e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -158,7 +158,7 @@ Audiokonferenz enthält die Funktion „*Rückruf*“, mit der andere Personen a
 Ausgehende Anrufe aus einer Besprechung in ein anderes Land/eine andere Region in der Welt, das bzw. die nicht in der Liste unten aufgeführt ist, ist mithilfe von [Office 365-Guthaben für Kommunikationen](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) möglich. Für diese Benutzer müssen Sie [Guthaben für Kommunikationen in Ihrer Organisation einrichten](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
 > [!NOTE]
-> Während der Einführungsphase können Benutzer in allen Organisationen bei Verwendung der Rückruffunktion oder beim Hinzufügen von Personen zu einer Besprechung ohne zusätzliche Kosten aus einer Besprechung Anrufe in die folgenden Länder/Regionen tätigen. Dafür gelten jedoch die Bestimmungen unter [Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe](../accessibility-and-regulatory/complimentary-dial-out-period.md). 
+> Während der Einführungsphase können Benutzer in allen Organisationen bei Verwendung der Rückruffunktion oder beim Hinzufügen von Personen zu einer Besprechung ohne zusätzliche Kosten aus einer Besprechung Anrufe in die folgenden Länder/Regionen tätigen. Dafür gelten jedoch die Bestimmungen unter [Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe](../legal-and-regulatory/complimentary-dial-out-period.md). 
   
 ### <a name="phone-system"></a>Telefonsystem
 Mit Telefonsystem können Sie automatische Telefonzentralen und Anrufwarteschleifen (mit gebührenpflichtigen und gebührenfreien Telefonnummern) zur Beantwortung von eingehenden Anrufen in Ihrer Organisation erstellen. Und wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business nutzen, um grundlegende Aufgaben zur Anrufkontrolle durchzuführen. Beispiele sind das Tätigen und Annehmen von Anrufen, das Weiterleiten von Anrufen und das Stummschalten bzw. Aufheben der Stummschaltung für Anrufe. **Telefonsystem**-Benutzer können auf einen Namen in ihrem Adressbuch klicken, und Skype for Business wird diese Person anrufen. Um Anrufe zu tätigen oder anzunehmen, können **Telefonsystem**-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eins der zahlreichen IP-Telefone nutzen, die mit Skype for Business verwendet werden können.

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Niederlanden für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: 8a1bc4941c9bd79282af5894e6f45079dbc9946d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f52e7fc4e0328d7b5c9b5d3e4a5e2cc59c58c9f6
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Telefonnummernverwaltung für die Niederlande
 
@@ -46,9 +46,9 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 
 [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md)
 
-[Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: In diesem Artikel wird erläutert, die relevanten Planungsaspekte für die Bereitstellung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme.
-ms.openlocfilehash: 3d958c5d07cfafd2eeddd6076182a635cfff19de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>Planung für Skype Room Systems v2
  
@@ -55,11 +55,11 @@ Skype-Chatroom-Systemen v2 ist Microsofts neueste konferenzlösung entwickelt, u
     
 - Integrierte verkabelte Erfassung zum Projizieren der Desktopfreigabe in den Raum und die Skype-Besprechung
     
-- In app-Benutzerauswahl von meeting Room Audio- und USB-Geräte U1
+- Auswahl der Besprechung in app-Benutzers Raum Audio- und USB-Geräte & #x 2776;
     
-- Dual-Bildschirm Unterstützung (älterer Systeme Parität) U2
+- Dual-Bildschirm Unterstützung (älterer Systeme Parität) & #x 2777;
     
-- Themability (integrierten Designs und die Möglichkeit zum Festlegen der benutzerdefinierten Designs) U2
+- Themability (integrierten Designs und die Möglichkeit zum Festlegen der benutzerdefinierten Designs) & #x 2777;
     
  **Leicht bereitzustellen, einfach zu verwalten**
   
@@ -77,39 +77,39 @@ Skype-Chatroom-Systemen v2 ist Microsofts neueste konferenzlösung entwickelt, u
     
 - Führt auf Surface Pro 4-tablet
     
-- Integrierte Raum Konsole Statusberichte für Kunden mit Microsoft Operations Management Suite (finden Sie unter [Planen von Skype Raum v2 systemverwaltung mit OMS](oms-management.md)) U1
+- Integrierte Raum Konsole Statusberichte für Kunden mit Microsoft Operations Management Suite (finden Sie unter [Planen von Skype Raum v2 systemverwaltung mit OMS](oms-management.md)) & #x 2776;
     
-- Die Möglichkeit, Feedback geben für Öffentliche builds U2
+- Die Möglichkeit, Feedback geben für Öffentliche Builds & #x 2777;
     
-- Verbesserte Telemetrie an Besprechung teilnehmen Zuverlässigkeit U2
+- Verbesserte Telemetrie um Besprechung teilnehmen, Zuverlässigkeit und #x 2777;
     
-- Zusätzliche OMS reporting U2
+- Zusätzliche OMS reporting & #x 2777;
     
-- Möglichkeit für IT-Administrator zum Konfigurieren von Geräten Remote U2
+- Möglichkeit für IT-Administrator zum Konfigurieren von Geräten Remote & #x 2777;
     <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- Führt auf Surface Pro Tablet U3
+- Führt auf Surface Pro Tablet & #x 2778;
     
-- Unterstützt Windows 10 Enterprise Creator Update (englische, Build 1703) U3
+- Unterstützt Windows 10 Enterprise Creator Update (englische, Build 1703) & #x 2778;
     
-- Unterstützung für [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Andocken Hardware U3
+- Unterstützung für [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Andocken Hardware & #x 2778;
     
-- OEM-Unterstützung für die Umgebung steuert U3 (Crestron)
+- OEM-Unterstützung für die Umgebung-Steuerelemente (Crestron) & #x 2778;
     
-- Unterstützung für [Polycom MSR Datenreihe](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) Andocken hardwareU4
+- Unterstützung für [Polycom MSR Datenreihe](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) Andocken Hardware & #x 2779;
     
-- Unterstützung für die [Logitech Brio](https://www.logitech.com/en-us/product/brio)U4
+- Unterstützung für die [Logitech Brio](https://www.logitech.com/en-us/product/brio) & #x 2779;
 
-- Unterstützung für [da Hub 500](https://www3.lenovo.com/us/en/hub500)U5 Andocken hardware  
+- Unterstützung für [da Hub 500](https://www3.lenovo.com/us/en/hub500) Andocken Hardware & #x277A;  
     
-U1 - Feature in Update 1 (SW Ver. eingeführt. 2.0.2.0).
+& #x 2776; -Feature in Update 1 (SW Ver. eingeführt 2.0.2.0).
   
-U2 - Feature in Update 2 (SW Ver. eingeführt 3.0.6.0). 
+& #x 2777; -Eingeführt in Update 2 (SW Ver.-Funktion 3.0.6.0). 
   
-U3 - Feature in Update 3 (SW Ver. eingeführt 3.0.12.0). 
+& #x 2778; -Eingeführt in Update 3 (SW Ver.-Funktion 3.0.12.0). 
   
-U4 - Feature in Update 4 (SW Ver. eingeführt 3.0.15.0). 
+& #x 2779; -Eingeführt in Update 4 (SW Ver.-Funktion 3.0.15.0). 
 
-U5 - Feature in Update 5 (SW Ver. eingeführt 3.1.98.0). 
+& #x277A; -Eingeführt in Update 5 (SW Ver.-Funktion 3.1.98.0). 
   
 ## <a name="preparing-your-skype-for-business-environment"></a>Vorbereiten Ihrer Skype for Business-Umgebung
 

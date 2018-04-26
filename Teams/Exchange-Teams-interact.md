@@ -11,11 +11,11 @@ description: Lernen Sie die Funktionen kennen, die in Microsoft Teams und den za
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3162de2ff5ab5e4aa15fe63545382f1c48378d
-ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
+ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/26/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -30,12 +30,12 @@ Die folgende Tabelle enthält Informationen für Benutzer, für die Exchange Onl
 
 **Unterstützte Aktionen:** 
 
-| Benutzerpostfach ist gehostet in:   | Teams erstellen   |An Teams teilnehmen|Kanäle erstellen|Besprechungen erstellen und anzeigen|Benutzerprofilbild bearbeiten|Connectors hinzufügen und konfigurieren|Registerkarten hinzufügen und konfigurieren|Bots hinzufügen und konfigurieren|
-|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
-|**Exchange Online Dedicated vNext**|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
-|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja|Ja|Ja|Nein|Nein|Nein|Ja| Ja|
-|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja|Ja|Ja|Ja*|Nein|Nein|Ja|Ja|
+| Benutzerpostfach ist gehostet in: | eDisovery| Gesetzliche Aufbewahrungspflicht | Aufbewahrung| Teams und der DDE-Kanal-mgmt |Besprechungen erstellen und anzeigen| Benutzerprofilbild bearbeiten | Die Anrufliste... | Verwalten von Kontakten | Zugriff auf Outlook-Kontakte | Voicemail |Connectors hinzufügen und konfigurieren|Registerkarten hinzufügen und konfigurieren|Bots hinzufügen und konfigurieren| 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**Exchange Online**|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
+|**Exchange Online Dedicated vNext**|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
+|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja (Liste zulässiger)|Nein|Nein|Ja|Nein|Nein|Ja|Ja|Nein|Ja (Exchange 2013 oder höher)|Nein|Ja|Ja|
+|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja (Liste zulässiger)|Nein|Nein|Ja|Ja (Exchange 2016 CU3 oder höher)|Nein|Ja|Ja|Nein|Ja (Exchange 2013 oder höher)|Nein|Ja|Ja|
                                                             
 *\*Exchange 2016 CU3 und höher unterstützt*
 
