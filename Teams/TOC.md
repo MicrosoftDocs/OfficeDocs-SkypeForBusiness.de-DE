@@ -152,7 +152,6 @@
 ### [Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Festlegen der in Einladungen enthaltenen Telefonnummern](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Festlegen der Länge der PIN für Audiokonferenzbesprechungen](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Einrichten von Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 ### [Starten einer Audiokonferenz per Telefon ohne PIN](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Testen oder Erwerben von Audiokonferenzen in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Aktivieren oder Deaktivieren von Benachrichtigungen bei Zu- oder Abgang für Besprechungen](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -209,10 +208,10 @@
 
 
 # Sicherheit und Compliance
+## [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md)
 ## [Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](ediscovery-investigation.md)
 ## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
-## [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md)
 ## [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
 ## [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
 ## [Verwenden der Inhaltssuche in Teams](content-search.md)
