@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: In diesem Artikel wird erläutert, die relevanten Planungsaspekte für die Bereitstellung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme.
-ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 7b36e9bc9c85a57b81be542f09d65c357f6020c0
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>Planung für Skype Room Systems v2
  
@@ -24,12 +24,12 @@ In diesem Artikel wird erläutert, die relevanten Planungsaspekte für die Berei
   
 Skype-Chatroom-Systemen v2 verwendet eine spezielle UWP app fungiert als der Besprechung Skype-Benutzeroberfläche. Es wird auf einem Surface Pro 4 oder Surface Pro in einem Konsolenmodus (nach der Bereitstellung der app UWP ist die einzige app, die auf dem Gerät ausgeführt wird) und ein eigenen Konto Gerät auf Ihre Skype für Business Implementierung erfordert. Es nutzt die vorhandene Geräte wie LCD-Bereiche und relativ kostengünstige peripherer Kameras und Mikrofone anzugebende einen Besprechungsraum Qualität auftreten. Software wird über den Windows Store und Windows Update aktualisiert.
   
-Vergewissern Sie sich, bevor Sie mit dem Vorbereiten der Umgebung beginnen, dass Sie über die notwendige Hardware und Software verfügen. Weitere Informationen finden Sie unter [Skype Raum Systemen v2 Requirements](requirements.md). 
+Bevor Sie beginnen, Ihre Umgebung vorbereiten, müssen Sie unbedingt, dass Sie die erforderliche Hardware und Software verfügen. Weitere Informationen finden Sie unter [Skype Raum Systemen v2 Requirements](requirements.md). 
   
 > [!NOTE]
 > Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2015 oder Skype für Business Online vorgesehen. Nicht vorgesehen frühere Plattformen wie Lync Server 2013 Skype Raum Systemen v2 entwickelt. 
   
-Skype-Chatroom-Systemen v2 ist Microsofts neueste konferenzlösung entwickelt, um Ihre Besprechungsraum in einer umfassenden, gemeinsame Skype Business wünschen umgewandelt. Die Benutzer finden sich dank der vertrauten Benutzeroberfläche von Skype for Business schnell zurecht, und IT-Administratoren werden die Skype-Besprechungs-App für Windows 10 aufgrund der einfachen Bereitstellung und Verwaltung zu schätzen wissen. Skype Raum Systemen v2 dient zur Nutzung von vorhandenen Ausrüstung, wie Bereiche der LCD-Anzeige zur Erleichterung der Installation in Ihrem Besprechungsraum Skype für Unternehmen eingefügt werden sollen.
+
   
  **Für Skype for Business konzipiert**
   

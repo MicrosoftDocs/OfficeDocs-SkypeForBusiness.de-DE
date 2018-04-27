@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung einer Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: ca922efa719b956da5516958ce6f684b013ddc62
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6b0265c8fc6269b7451a7757b8266078433ec9d5
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
@@ -53,7 +53,7 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
-  - [Polycom MSR Datenreihe](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+  - [Polycom MSR Datenreihe](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
   - [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  
 <!-- HP dock is still pending  -->  

@@ -10,11 +10,11 @@ ms.reviewer: lolaj, ninadara
 description: Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22ebbf36fbd511ed0ddb2431c0b3e64a89cd832e
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 1b095d25f4b414eda58e8030264139b7fdf5b42a
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/27/2018
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================
@@ -31,9 +31,9 @@ Verwenden Sie diese Schulungsressourcen, um Ihrer Organisation die optimale Nutz
 | [Was ist Microsoft Teams? ](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Kurzeinführung in Teams, Ihre Drehscheibe für Teamarbeit  |
 | [Microsoft Teams-Kanal auf YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [YouTube-Kanal „Coffee in the Cloud“](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Videos mit Anleitungen, bewährten Methoden und Funktionsbeschreibungen  |
-| Einführung in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
+| Einführung in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
 | 5 Minuten zum Einrichten von sinnvollen Teams, Kanälen und Registerkarten   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
-29
-
+| Hinzufügen von Gäste an Ihr Team von Microsoft Allgemein - Zusammenarbeit  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
+| Beschleunigen der Zusammenarbeit - mithilfe der Befehlsleiste in Microsoft-Teams  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
 
 

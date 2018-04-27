@@ -11,24 +11,24 @@ description: Führen Sie regelmäßige Verkaufschancen Sie Verbesserung des Dien
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c10f4da1c6619ae0f17976a8039c2a77eaadab6
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 4fecbd659d03a3335a79aaf43bfcc751da504171
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="enhance-my-service"></a>Meine Service zu verbessern
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für die optimale Nutzung Cloud VoIP-Dienste für Ihre Organisation. Durch die ständig Überwachung Cloud-Dienst Sprachfunktionen, können Sie sein sicher, dass Sie den größten Nutzen für Ihre Organisation liefern sind.
 
 ## <a name="enhance-my-service-overview"></a>Verbessern Sie meine Service (Übersicht)
-Nachdem Sie erfolgreich Audiokonferenzen oder Telefonsystem mit Diensten aufrufen Pläne für Ihre Organisation bereitgestellt haben und den Betrieb von sind des Diensts mit Qualität, Zuverlässigkeit und im nächsten Schritt besteht darin, regelmäßig bewerten, ob Sie alle Verkaufschancen zu haben Verbessern Sie Ihre Dienste.
+Nachdem Sie erfolgreich Audiokonferenzen oder Telefonsystem mit Diensten aufrufen Pläne für Ihre Organisation bereitgestellt haben und den Betrieb von sind des Diensts mit Qualität, Zuverlässigkeit und im nächsten Schritt besteht darin, regelmäßig bewerten, ob Sie alle Verkaufschancen zu haben Verbessern Sie Ihre Dienste. Dies ist ein Teil der Planung, d. h. eines modernen Standards für das Cloud-Service-Management zur Verbesserung der kontinuierlichen Service. 
 
-Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://aka.ms/skype2teamsroadmap) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können.
+Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben erhalten bereitstellen regelmäßiger Updates Sie von uns über neue und geänderte Features über unsere Nachrichtencenter. 
 
-Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.
+Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie in der Praxis Feedback von Ihren Benutzern und internen Champions erhalten von Feedback Kanäle in Ihrer Organisation herstellen. Diese können informelle Unterhaltungen, regulären Meeetings sein oder über eine Teams channel oder Yammer-Community. 
 
-Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Schleife zurück an den Anfang des Bereitstellungsprozesses für die gesamte und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
+Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Besuchen Sie unsere Implementierungsphasen (https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams) und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
 
 
 <table>

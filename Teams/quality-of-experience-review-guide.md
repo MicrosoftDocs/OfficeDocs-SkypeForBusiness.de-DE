@@ -11,11 +11,11 @@ description: Handbuch für die Analyse der Leistung für Microsoft-Teams, Real-T
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42af71e9062b68da6e9d3bc77a6c067eee35ec92
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 1f0f5eb9ff2521d56214a9e07be715da21a5bed3
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
@@ -1095,7 +1095,7 @@ Durch Bereitstellen von Benutzern mit Geräten zertifiziert für Teams und Skype
 
 #### <a name="organizational-usage-of-capture-devices-microphones-by-volume"></a>Organisatorische Verwendung der Capture-Geräte (Mikrofone) nach volume
 
-In diesem Bericht wird verwendet, um Mikrofon Usage bewerten und MOS Score und finden Sie in den zugehörigen Vorlagen unter Clients und Geräte*.*
+In diesem Bericht wird verwendet, um Mikrofon Usage bewerten und MOS Score und finden Sie in den zugehörigen Vorlagen unter Clients und Geräte *.*
 
 > [!IMPORTANT]
 > Gerät Berichte müssen Sie federated Teilnehmer Daten ausgeschlossen werden. Um Verbund Teilnehmer Daten auszuschließen, müssen Sie einen Abfragefilter für **Zweiten Mandanten-ID** in Ihrer Organisation [Mandanten-ID](#tenant-id)festlegen hinzufügen. 

@@ -173,7 +173,9 @@
 
 ## Rechtliche Hinweise und behördlichen
 ### [Konformitätserklärung zur Barrierefreiheit von Skype for Business Online in Frankreich](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Lösungen zur Barrierefreiheit für Skype for Business Online in Frankreich](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Barrierefreiheitslösungen für Skype for Business Online in Frankreich](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [IP-Relay in Kanada - registrieren](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [IP-Relay in Kanada - Benutzerhandbuch](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Zeitraum für kostenlose ausgehende Anrufe](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [Verfahrensregel für das Vereinigte Königreich (UK)](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Beanstandungshandling-Code für das Vereinigte Königreich (UK)](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
