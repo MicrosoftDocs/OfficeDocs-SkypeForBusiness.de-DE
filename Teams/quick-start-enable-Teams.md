@@ -11,7 +11,6 @@ description: Nehmen Sie dieses Handbuch beim Planen, Implementieren und Einführ
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-<<<<<<< HEAD
 ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
 ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
