@@ -73,8 +73,7 @@
 ### [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [Was Sind Wählpläne?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## Telefonsystem in Office 365
-### [Was ist Telefonsystem in Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Telefonsystem in Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Erstellen einer Telefonsystem-Anrufwarteschleife](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Erwerben von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Bereitstellen von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -86,7 +85,8 @@
 #### [Einrichten von Voicemail für Telefonsystem - Administratorhilfe](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Einrichten einer automatischen Telefonzentrale für Telefonsystem](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Einrichten von Telefonsystem in Ihrer Organisation](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
-### [Was sind automatische Telefonzentralen für Telefonsystem?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+### [Was sind automatische Telefonzentralen für das Telefonsystem?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 ## [Einrichten Ihres Netzwerks für Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Blockierte Benutzerlizenzen für Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
