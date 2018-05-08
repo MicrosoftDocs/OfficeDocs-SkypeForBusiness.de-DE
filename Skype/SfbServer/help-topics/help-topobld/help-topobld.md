@@ -8,23 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
-description: Einführung hier einfügen.
-ms.openlocfilehash: 4f78365e47c5f15916c21641c2a11e44af05fcab
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Topologie-Generator-Themen
+ms.openlocfilehash: 87d64bd6282386903dfcdc08f476b5b99ec602d8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="help-topobld"></a><span data-ttu-id="2872c-103">Hilfe-TopoBld</span><span class="sxs-lookup"><span data-stu-id="2872c-103">Help-TopoBld</span></span>
+# <a name="help-topobld"></a><span data-ttu-id="565af-103">Hilfe-TopoBld</span><span class="sxs-lookup"><span data-stu-id="565af-103">Help-TopoBld</span></span>
  
-<span data-ttu-id="2872c-104">Einführung hier einfügen.</span><span class="sxs-lookup"><span data-stu-id="2872c-104">Insert introduction here.</span></span>
+<span data-ttu-id="565af-104">Dieser Knoten enthält die Themen der Onlinehilfe für die Skype für Business Server-Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="565af-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
   
-## <a name="section-heading"></a><span data-ttu-id="2872c-105">Abschnittsüberschrift</span><span class="sxs-lookup"><span data-stu-id="2872c-105">Section Heading</span></span>
 
-<span data-ttu-id="2872c-106">Abschnittstext hier einfügen.</span><span class="sxs-lookup"><span data-stu-id="2872c-106">Insert section body here.</span></span>
-  
-### <a name="subsection-heading"></a><span data-ttu-id="2872c-107">Unterabschnittsüberschrift</span><span class="sxs-lookup"><span data-stu-id="2872c-107">Subsection Heading</span></span>
-
-<span data-ttu-id="2872c-108">Unterabschnittstext hier einfügen.</span><span class="sxs-lookup"><span data-stu-id="2872c-108">Insert subsection body here.</span></span>
   
 

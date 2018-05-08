@@ -20,7 +20,7 @@
 ### [Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](../audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
 ### [Telefonnummern für Audiokonferenz](../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
 ### [Zurücksetzen einer Konferenzkennung für einen Benutzer](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
-### [Zurücksetzen der Audiokonferenz-PIN für einen Benutzer](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user.md)
+### [Die Audiokonferenz PIN zurücksetzen](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md)
 ### [Anzeigen, Ändern und Zurücksetzen einer Konferenz-ID, die einem Nutzer zugewiesen wurde](../audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md)
 ### [Anzeigen einer Liste mit Telefonnummern für Audiokonferenz](../audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md)
 ### [Anzeigen einer Liste der Benutzer, die für Audiokonferenz aktiviert sind](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
