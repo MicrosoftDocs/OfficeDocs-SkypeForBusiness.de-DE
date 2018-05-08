@@ -7,16 +7,18 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server 2015 planen.
-ms.openlocfilehash: f24f895a6d6b0fd5095ef0e03f487fcdf8a98dca
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f70132e555b79e88ca09c54c0ce02544bf3d9bf8
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server-2015"></a>Planen mehrerer Notrufnummern in Skype for Business Server 2015
  

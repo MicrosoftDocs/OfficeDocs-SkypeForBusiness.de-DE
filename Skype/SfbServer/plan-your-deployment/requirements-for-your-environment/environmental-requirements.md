@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren der nicht-Server-Anforderungen für Skype für Business Server 2015. Es gibt verschiedene Dinge, die Sie konfigurierten sollten vor Ihrer Bereitstellung, einschließlich Active Directory, DNS, Zertifikate und Dateifreigaben.'
-ms.openlocfilehash: ed01b466abe46a83ca4d44b2cb555c85ab9af248
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 61b5d0a9bbce1fc2549f01f7f13209e87f74caf0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Anforderungen an die Umgebung für Skype for Business Server 2015
  
@@ -358,9 +358,9 @@ Skype für Business Server 2015 kann die gleiche Dateifreigabe für alle Dateisp
   
 - Eine Dateifreigabe muss sich entweder auf DAS (Direct Attached Storage) oder auf einem SAN (Storage Area Network) befinden, einschließlich des DFS (Distributed File System) sowie von RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Für Weitere DFS für Windows Server 2012 lesen, sollten checken Sie [Diese Seite DFS aus](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- Es wird empfohlen, einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie eine verwenden, sollten Sie Windows Server 2012 oder Windows Server 2012 R2 Cluster bilden. Windows Server 2008 R2 ist ebenfalls zulässig. Warum die neuesten Windows? Ältere Versionen möglicherweise nicht die richtigen Berechtigungen für alle Features zu aktivieren. Sie können Clusterverwaltung verwenden, um die Dateifreigaben erstellen, und dieser [Erstellen eines Clusters](https://support.microsoft.com/kb/284838) KB-Artikel helfen Ihnen mit diesen Details.
+- Es wird empfohlen, einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie eine verwenden, sollten Sie Windows Server 2012 oder Windows Server 2012 R2 Cluster bilden. Windows Server 2008 R2 ist ebenfalls zulässig. Warum die neuesten Windows? Ältere Versionen möglicherweise nicht die richtigen Berechtigungen für alle Features zu aktivieren. Sie können Clusterverwaltung verwenden, um die Dateifreigaben erstellen, und in diesem Artikel [zum Erstellen von Dateifreigaben in einem Cluster](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) helfen Ihnen mit diesen Details.
     
-> [!CAUTION]
+> [!CAUTION] 
 > Beachten Sie, dass Network Attached Storage (NAS) als Dateifreigabe nicht unterstützt wird. Verwenden Sie daher eine der oben genannten Optionen. 
   
 

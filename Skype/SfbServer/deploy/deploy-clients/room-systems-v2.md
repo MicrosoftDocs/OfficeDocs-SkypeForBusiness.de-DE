@@ -7,15 +7,17 @@ ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie in diesem Thema erfahren Sie Skype Raum Systemen v2 und wie es mit Exchange und Skype für Business Server 2015 integriert ist.
-ms.openlocfilehash: 54dc3d42d406fea2bdefcac5eb726dd77fde078f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cde5f1cdfe379c14c71c07ea10c5a1cd5f22c24b
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="deploy-skype-room-systems-v2"></a>Bereitstellen von Skype Room Systems v2
  

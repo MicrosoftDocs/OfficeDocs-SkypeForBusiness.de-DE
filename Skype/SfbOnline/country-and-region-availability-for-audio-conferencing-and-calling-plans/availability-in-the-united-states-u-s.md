@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die USA verfügbar.
-ms.openlocfilehash: 34ef8a3ead8dfc37690f3588b8b61c8f1b467f95
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
@@ -55,7 +55,16 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |3000 Minuten für Inlandsanrufe oder 600 Minuten für Auslandsanrufe (je nachdem, welche Grenze pro Kalendermonat zuerst erreicht wird) Die Inlandsanrufe in den USA schließen Anrufe in alle 50 US-Bundesstaaten und nach Puerto Rico ein. Benutzer, denen der Lizenzverwendungsort USA und/oder Puerto Rico zugewiesen ist, nutzen den gleichen Minutenpool.  <br/> |
+|Minuten für den Aufruf von Plänen zur Verfügung. |Es sind drei Optionen zum Plan pro Kalendermonat verfügbar:
+- 120 Minuten nationalen aufrufen Plan (Verfügbarkeit ist begrenzt)
+- 240 Minuten nationalen aufrufen Plan (Verfügbarkeit ist begrenzt)
+- 1200 Minute nationalen aufrufen Plan
+- 1200 Minute nationalen aufrufen Plan
+- 600 Minuten für Auslandsgespräche (Wenn Sie eine National & International aufrufen planen erworben haben)
+
+Vereinigte Staaten nationalen aufrufen enthält Anrufe an alle 50 USA und Puerto Rico. Benutzer, die durch die Lizenz Usage Speicherort der USA und/oder Puerto Rico zugewiesen freigeben selben Pool von Minuten.
+|||
+|:-----|:-----|
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
