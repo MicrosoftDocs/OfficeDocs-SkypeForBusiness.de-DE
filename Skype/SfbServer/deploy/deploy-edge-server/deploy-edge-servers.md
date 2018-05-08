@@ -7,15 +7,17 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Zusammenfassung: Informationen Sie zum Edge-Server in Ihrer Skype für Business Server 2015 Umgebung bereitstellen.'
-ms.openlocfilehash: ec69655ad5a614e9a2a22e82b7c1e56eed52102b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c7dfdfeef9eea4ffae0e113665b487da4856b83c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server-2015"></a>Bereitstellen von Edgeservern in Skype for Business Server 2015
  
@@ -85,7 +87,7 @@ Um diese Schritte erfolgreich abgeschlossen werden, müssen Sie die Schritte im 
     
 5. Der Assistent wird ausgeführt, überprüft, um festzustellen, ob etwas bereits installiert ist. Da es sich beim ersten Ausführen des Assistenten handelt, sollten Sie unter Schritt 1 **starten. Installieren des lokalen Konfigurationsspeichers.**
     
-6. Das Dialogfeld **Speichern lokalen Replikat des zentralen Management konfigurieren** wird angezeigt. Sie müssen auf **Import aus einer Datei (für Edgeserver empfohlen)**klicken.
+6. Das Dialogfeld **Speichern lokalen Replikat des zentralen Management konfigurieren** wird angezeigt. Sie müssen auf **Import aus einer Datei (für Edgeserver empfohlen)** klicken.
     
 7. Gehen Sie von hier aus zum Speicherort der Topologie, die Sie zuvor exportiert haben. Wählen Sie die ZIP-Datei aus, klicken Sie auf **Öffnen** und anschließend auf **Weiter**.
     
@@ -140,7 +142,7 @@ Die zertifikatanforderungen für den Edge-Server finden Sie in der Edge-Zertifik
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Klicken Sie in der MMC-Konsole auf **Datei** und dann auf **Snap-In hinzufügen/entfernen**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. In der Liste **Hinzufügen oder Entfernen von-Snap-ins** Dialogfeld Wählen Sie **Zertifikate**aus, und klicken Sie dann auf **Hinzufügen**. Wenn Sie aufgefordert werden, wählen Sie **Computerkonto**und anschließend auf **Weiter**. Wählen Sie **Lokaler Computer**, klicken Sie im Dialogfeld **Computer auswählen** . Klicken Sie auf **Fertig stellen,**und klicken Sie dann auf **OK**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. In der Liste **Hinzufügen oder Entfernen von-Snap-ins** Dialogfeld Wählen Sie **Zertifikate**aus, und klicken Sie dann auf **Hinzufügen**. Wenn Sie aufgefordert werden, wählen Sie **Computerkonto**und anschließend auf **Weiter**. Wählen Sie **Lokaler Computer**, klicken Sie im Dialogfeld **Computer auswählen** . Klicken Sie auf **Fertig stellen,** und klicken Sie dann auf **OK**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV. Erweitern Sie den Knoten Sie **Zertifikate (lokaler Computer)**. Erweitern Sie **Vertrauenswürdige Stammzertifizierungsstellen**. Die Option **Zertifikate**aus.
     

@@ -7,16 +7,18 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Zusammenfassung: Informationen Sie zum definieren, erstellen und Ändern einer Normalisierungsregel in Skype für Business Server 2015.'
-ms.openlocfilehash: 5b55e5e930680d3c51908b77d44a80e2e74ef89c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5ee0b138d118d0c437255cb3e90321019119aedf
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business-2015"></a>Erstellen oder Ändern einer Normalisierungsregel in Skype for Business 2015
  
@@ -50,11 +52,11 @@ Definieren, erstellen und Ändern von Normalisierungsregeln in Skype für Busine
     
 6. Geben Sie in **Übersetzungsregel** ein Muster für das Format der übersetzten E.164-Telefonnummern ein:
     
-   - Ein Wert, der die Anzahl von Ziffern repräsentiert, die im Vergleichsmuster angegeben ist. Wenn das Vergleichsmuster beispielsweise ^ (\d{7})$ dann$ 1 in der übersetzungsregel stellt 7 Ziffer gewählte Nummern.
+   - Ein Wert, der die Anzahl von Ziffern repräsentiert, die im Vergleichsmuster angegeben ist. Wenn das Vergleichsmuster beispielsweise ^(\d{7})$ dann$ 1 in der Regel stellt 7 Ziffer gewählter Nummern.
     
    - (Optional) Geben Sie einen Wert in das Feld **hinzuzufügende Ziffern** an Stellen die übersetzte Nummer (beispielsweise + 1425) vorangestellt werden.
     
-    Z. B., wenn **Muster abgleichen** contains^(\d{7})$ dem Muster für gewählter Nummern und **übersetzungsregel** enthält + 1425 Telefonnummern $1 als das Muster für das e. 164, übersetzt die Regel 5550100 in + 14255550100.
+    Wenn enthält **Muster an,** beispielsweise ^(\d{7})$ als das Muster für die gewählten Nummern und **übersetzungsregel** enthält + 1425$ 1 als das Muster für das e. 164 Telefonnummern, übersetzt die Regel 5550100 in + 14255550100.
     
 7. (Optional) Falls die Normalisierungsregel eine interne Telefonnummer des Unternehmens ergibt, klicken Sie auf **Interne Durchwahl**.
     
@@ -90,7 +92,7 @@ Definieren, erstellen und Ändern von Normalisierungsregeln in Skype für Busine
     
    - Geben Sie in **Übersetzungsregel** ein Muster für das Format der übersetzten E.164-Telefonnummern ein.
     
-    Beispiel: bei Eingabe ^ (\d{7})$ in **dieses Muster** und + 1425$ 1 in **übersetzungsregel**, die Regel 5550100 in + 14255550100 normalisiert.
+    Beispiel: bei Eingabe von ^(\d{7})$ in **dieses Muster abgleichen** und + 1425$ 1 in **übersetzungsregel**, die Regel 5550100 in + 14255550100 normalisiert.
     
 7. (Optional) Falls die Normalisierungsregel eine interne Telefonnummer des Unternehmens ergibt, klicken Sie auf **Interne Durchwahl**.
     

@@ -7,19 +7,20 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Für einen Benutzer in Office 365 (Cloud, PBX) Telefonsystem verwenden müssen Sie zuerst für Enterprise-VoIP zu aktivieren und weisen Sie ihnen eine Telefonnummer ein. Dieser Schritt wird mithilfe der lokalen bereitstellungs während der Benutzer noch in der lokalen Bereitstellung verwaltet wird.
-ms.openlocfilehash: c661d6da46cc42843346541b29841a728ab0fc16
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1099aa825d76017df3afe64cf6d7b3c39391a883
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Aktivieren Sie die Benutzer für Enterprise Voice lokal
  

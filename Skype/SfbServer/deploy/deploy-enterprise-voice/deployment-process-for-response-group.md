@@ -7,16 +7,18 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Bereitstellungsprozess und Schritte für die Reaktionsgruppe in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: ca390f19b98921f6c8d7fa2a02c8e5065e605a94
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e84d8507ca64228a1bf6773110b5122d25286636
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business-2015"></a>Bereitstellungsprozess für Reaktionsgruppen in Skype for Business 2015
  

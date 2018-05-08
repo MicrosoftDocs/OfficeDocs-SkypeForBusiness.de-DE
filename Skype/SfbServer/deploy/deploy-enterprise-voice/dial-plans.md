@@ -7,16 +7,18 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Zusammenfassung: Informationen Sie zum Erstellen oder Ändern von Wähleinstellungen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: eaa2446c86b117558953416d0815a38371b205b1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 573633d6281cf6abe966e90f38f99a4f96e25604
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server-2015"></a>Erstellen oder Ändern eines Wählplans in Skype for Business Server 2015
  
@@ -79,7 +81,7 @@ ms.lasthandoff: 03/28/2018
 10. Stellen Sie sicher, dass die Wähleinstellungen Normalisierungsregeln in der richtigen Reihenfolge angeordnet sind. Um eine Regel Position in der Liste zu ändern, markieren Sie den Namen der Regel und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
     
     > [!IMPORTANT]
-    > Skype für Business Server der Regelliste Normalisierung von oben nach unten durchläuft und verwendet die erste Regel, die mit die gewählte Nummer übereinstimmt. Wenn Sie einen Wählplan so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. > Die Standardeinstellung **Alle beibehalten** Normalisierung rule^(\d{11})$ ermittelt eine beliebige Anzahl von Ziffern 11. Wenn Sie eine Normalisierungsregel hinzuzufügen, die 11 Ziffern entspricht, die mit 1425 beginnen, stellen Sie beispielsweise sicher, dass **Alle beibehalten** unterhalb der weitere restrictive^(1425\d{7})$ Regel sortiert ist.
+    > Skype für Business Server der Regelliste Normalisierung von oben nach unten durchläuft und verwendet die erste Regel, die mit die gewählte Nummer übereinstimmt. Wenn Sie einen Wählplan so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. > Normalisierungsregel die Standardeinstellung **Alle beibehalten** ^(\d{11})$ entspricht einer beliebigen 11 Ziffern Anzahl. Beispielsweise wenn Sie eine Normalisierungsregel hinzuzufügen, 11 Ziffern entspricht, die mit 1425 beginnen, stellen Sie sicher, dass **Alle beibehalten** unterhalb der restriktiveren sortiert ist ^(1425\d{7})$ Regel.
   
 11. (Optional) Geben Sie eine Nummer zum Testen des Wählplans ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
     
@@ -138,7 +140,7 @@ ms.lasthandoff: 03/28/2018
 10. Stellen Sie sicher, dass die Wähleinstellungen Normalisierungsregeln in der richtigen Reihenfolge angeordnet sind. Um eine Regel Position in der Liste zu ändern, markieren Sie den Namen der Regel und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
     
     > [!IMPORTANT]
-    > Skype für Business Server der Regelliste Normalisierung von oben nach unten durchläuft und verwendet die erste Regel, die mit die gewählte Nummer übereinstimmt. Wenn Sie einen Wählplan so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. > Die Standardeinstellung **Alle beibehalten** Normalisierung rule^(\d{11})$ ermittelt eine beliebige Anzahl von Ziffern 11. Wenn beispielsweise Sie eine Normalisierungsregel hinzuzufügen, die 11 Ziffern entspricht, die mit 1425 beginnen, stellen Sie sicher, dass **Alle beibehalten** unterhalb der weitere restrictive^(1425\d{7})$ Regel sortiert ist.
+    > Skype für Business Server der Regelliste Normalisierung von oben nach unten durchläuft und verwendet die erste Regel, die mit die gewählte Nummer übereinstimmt. Wenn Sie einen Wählplan so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. > Normalisierungsregel die Standardeinstellung **Alle beibehalten** ^(\d{11})$ entspricht einer beliebigen 11 Ziffern Anzahl. Wenn beispielsweise Sie eine Normalisierungsregel hinzuzufügen, 11 Ziffern entspricht, die mit 1425 beginnen, stellen Sie sicher, dass **Alle beibehalten** unterhalb der restriktiveren sortiert ist ^(1425\d{7})$ Regel.
   
 11. (Optional) Geben Sie eine Nummer zum Testen des Wählplans ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
     

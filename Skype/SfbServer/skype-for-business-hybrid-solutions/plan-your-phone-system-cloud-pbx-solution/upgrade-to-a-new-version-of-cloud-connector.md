@@ -7,15 +7,17 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Informationen Sie zum Aktualisieren der Cloud Connector Edition-bereitstellungs.
-ms.openlocfilehash: 0538b5d43c6e11aa11f7d265e43eb5f283e2b74e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 925b19360115e74a147f8b32c6faa42b84971f60
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Aktualisieren auf eine neue Version von Cloud Connector
  

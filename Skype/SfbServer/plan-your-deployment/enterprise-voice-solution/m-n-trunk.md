@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: 'Skype für Business Server Enterprise-VoIP unterstützt die m: n-Trunking zwischen Vermittlungsserver und Komponenten wie PSTN-Gateways, Session Border Controller und IP-Nebenstellenanlage.'
-ms.openlocfilehash: 2f94bc0981a4fe1a171a02259db399b7cbaf6e48
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8f85cce1eaca8f37b6acc87f7ad4beed74fc788f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="mn-trunk-in-skype-for-business-server-2015"></a>M:N-Trunk in Skype for Business Server 2015
  

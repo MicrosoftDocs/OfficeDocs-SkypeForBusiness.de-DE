@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Sind die erforderlichen Schritte zum Aktivieren von E9-1-1 in Skype für Business Server Enterprise-VoIP, je nachdem, ob Sie einem SIP-Trunk-E9-1-1-Dienstanbieter oder ein ELIN-Gateway ist zusammengefasst.
-ms.openlocfilehash: 69f6f9189db9293e0c171072db4a6a6fcf7a935c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 20e741c9bdffb51b2e210c506dfd3ad2dc52d792
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server-2015"></a>Definieren der Anforderungen für Notrufe in Skype for Business Server 2015
  

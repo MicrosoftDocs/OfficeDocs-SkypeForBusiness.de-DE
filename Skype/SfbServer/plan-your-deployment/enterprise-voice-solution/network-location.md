@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Entscheidungen zur Planung der Netzwerkkomponenten, mit denen Sie Anrufer Speicherorte für E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP zugeordnet werden.
-ms.openlocfilehash: 2d371b2abfd8e3c871f0d9f49409d2b8169268c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ddf769a6389b7affcabacd936dba6e560d4a887c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server-2015"></a>Definieren der Netzwerkelemente zum Ermitteln des Standorts in Skype for Business Server 2015
  

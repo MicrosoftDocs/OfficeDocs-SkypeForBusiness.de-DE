@@ -7,16 +7,18 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Lernen Sie die anrufsteuerung, die verhindern kann Anrufe von stattfinden, wenn schlechte Medienqualität in Skype für Business Server Enterprise-VoIP vorhanden wäre.
-ms.openlocfilehash: 69dc2bd15b5ca8866ce38d96bfaf5cab2f878728
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 11a73cb6065802b700694d6c3ffd589d935659db
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server-2015"></a>Planen der Anrufsteuerung in Skype for Business Server 2015
  

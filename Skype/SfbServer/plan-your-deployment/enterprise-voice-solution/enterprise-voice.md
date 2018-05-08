@@ -7,16 +7,18 @@ ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise-VoIP Grundlagen in Skype für Business Server planen, einschließlich Websites, Regionen, Netzwerkverbindungen zwischen Standorten und Nutzung Sprachdatenverkehr schätzen.
-ms.openlocfilehash: a04c379e3a616a511306db62fd908af26e325418
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f1bd8f2f8514f34390cd085bd1407894e9788620
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server-2015"></a>Plan für Enterprise-VoIP in Skype for Business Server 2015
  

@@ -3,18 +3,18 @@ title: Bekannte Probleme für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c8ce7b7d53e03ae265f41105dabd09978a62e61
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 303e2d14e009d2a0f6493646f3f2466b94920fa4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -137,6 +137,11 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |Besprechungen sind nicht verfügbar.  <br/> |Die Besprechungsfunktion und das zugehörige Symbol sind nicht verfügbar, wenn das Exchange-Postfach lokal gehostet (verwaltet) wird.  <br/> |Führen Sie ein Upgrade der lokalen Bereitstellung auf Exchange 2016 CU3 oder höher aus.  <br/> |28.02.2017  <br/> |
 
 ## <a name="mobile"></a>Mobil
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Kann nicht automatisch favorisierte Kanäle finden Sie unter  <br/> |Einige Member können automatische favorisierte Kanäle auf dem mobilen app finden Sie unter nicht.  <br/> |Mitglieder müssen auf dem Desktop oder Web app erstmaligen Anmelden bei automatische favorisierte Kanäle auf ihren mobilen app angezeigt.  <br/> |4/30/18  <br/>|
+
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Benutzer können möglicherweise auf mit Intune verwalteten mobilen Geräten nicht zwischen Konten wechseln.  <br/> |Benutzer können möglicherweise auf mit Intune verwalteten mobilen Geräten nicht zwischen Konten wechseln.  <br/> |Keine Problemumgehung.  <br/> |20.09.2017  <br/>|
@@ -148,6 +153,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Unterschiede bei der Mobile Client Teams Layout  <br/> |Teams sind in alphabetischer Reihenfolge aufgeführt und die Kanäle nicht auf dem mobilen Client reduziert werden.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/>|
+
 
 ## <a name="people"></a>Personen
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|

@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Erfahren Sie, wie VoIP-ausfallsicherheit für Business Server Enterprise-VoIP an zentralen Standorten und Zweigniederlassungen in Skype zu unterstützen. Branch-Site-Optionen umfassen Survivable Branch Appliances oder Survivable Branch Servern bereitstellen.
-ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planen der Ausfallsicherheit für Enterprise-VoIP in Skype for Business Server 2015
  
@@ -296,14 +298,14 @@ In einem Szenario, in dem die WAN-Verbindung zwischen einer Zweigstelle und eine
   
 |**Regelname**|**Beschreibung**|**Nummernmuster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|:-----|
-|5digitExtensions  <br/> |5-Ziffern werden nicht übersetzt werden.  <br/> |^ (\d{5})$  <br/> |$1  <br/> |10001 wird nicht übersetzt.  <br/> |
+|5digitExtensions  <br/> |5-Ziffern werden nicht übersetzt werden.  <br/> |^(\d{5})$  <br/> |$1  <br/> |10001 wird nicht übersetzt.  <br/> |
    
 Sie müssen auch Durchwahlnummern für bestimmte Szenarien erfüllen, z. B., wenn die WAN-Verbindung zwischen einer Zweigstelle und dem zentralen Standort ist nicht verfügbar und ein Anruf von einem Zweigstellenstandort über das Telefonfestnetz weitergeleitet werden muss. Während eines WAN-Ausfalls Falls ein Websitebenutzer Branch zentralen Standort Benutzer anrufen, nur durch wählen den zentralen Standort des Benutzers Erweiterung, müssen Sie eine ausgehende übersetzungsregel verfügen, die vollständige Telefonnummer des Benutzers, der den zentralen Standort hinzufügt. Wenn Anschluss-URI des Benutzers enthält die vollständige Telefonnummer Ihrer Organisation und eindeutige Durchwahlnummer des Benutzers, anstatt eine vollständige Telefonnummer ein, die für den Benutzer eindeutig ist, muss eine ausgehende übersetzungsregel sein, die vollständige Telefonnummer Ihrer Organisation stattdessen hinzufügt . Beispiel:
   
 |**Beschreibung**|**Übereinstimmendes Muster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|
-|Übersetzt 5-stellige Nummern in Telefonnummer und die Erweiterung eines Benutzers  <br/> |^ (\d{5})$  <br/> |+ 14255550123; Ext = $1  <br/> |10001 wird übersetzt in + 14255550123; Ext = 10001 übersetzt  <br/> |
-|Übersetzt 5-stellige Nummern in Ihrer Organisation Telefon- und Durchwahlnummer eines Benutzers  <br/> |^ (\d{5})$  <br/> |+ 14255550100; Ext = $1  <br/> |10001 wird in + 14255550100; übersetzt Ext = 10001 übersetzt  <br/> |
+|Übersetzt 5-stellige Nummern in Telefonnummer und die Erweiterung eines Benutzers  <br/> |^(\d{5})$  <br/> |+ 14255550123; Ext = $1  <br/> |10001 wird übersetzt in + 14255550123; Ext = 10001 übersetzt  <br/> |
+|Übersetzt 5-stellige Nummern in Ihrer Organisation Telefon- und Durchwahlnummer eines Benutzers  <br/> |^(\d{5})$  <br/> |+ 14255550100; Ext = $1  <br/> |10001 wird in + 14255550100; übersetzt Ext = 10001 übersetzt  <br/> |
    
 In diesem Szenario Wenn der trunkpeer, der die Weiterleitung an das Telefonfestnetz behandelt Durchwahlnummern, nicht unterstützt muss die ausgehende übersetzungsrichtlinie auch die Durchwahlnummer entfernen. Beispiel:
   

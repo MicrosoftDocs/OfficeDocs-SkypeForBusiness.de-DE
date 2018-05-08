@@ -7,16 +7,17 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Zusammenfassung: Überprüfen der Clientanforderungen für video beim Planen von Skype für Business Server 2015.'
-ms.openlocfilehash: fea2ae1aaa0e75248f9b1102bdfd9ebd5d03afb5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ea4c7e1cf9e0e1df24b00e817cac22128df1d0b8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype für Business Client Auflösung
  

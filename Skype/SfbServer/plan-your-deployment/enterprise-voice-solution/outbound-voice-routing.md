@@ -7,16 +7,18 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Erfahren Sie mehr über ausgehende VoIP-routing in Skype für Business Server Enterprise-VoIP, einschließlich Aufruf für Routen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-verwendungsdatensätzen, und VoIP-Routen.
-ms.openlocfilehash: 9a26f734faaa7bb070c826a427b47f805ad7438f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 35ba2a8991b35a22b6abcacc42f1323d167c0d4d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>Plan für ausgehendes VoIP-Routing in Skype for Business Server 2015
  
@@ -144,16 +146,16 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 |**Regelname**|**Beschreibung**|**Nummernmuster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |Übersetzt vierstellige Durchwahlnummern  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 wird in +14255550100 übersetzt.  <br/> |
-|5stellendurchwahl).  <br/> |Übersetzt fünfstellige Durchwahlnummern  <br/> |^5(\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
+|5stellendurchwahl).  <br/> |Übersetzt fünfstellige Durchwahlnummern  <br/> |^ 5(\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
 |7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt  <br/> |
 |7digitcallingDallas  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Dallas  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 wird in +19725550100 übersetzt  <br/> |
 |10digitcallingUS  <br/> |Übersetzt zehnstellige Rufnummern in US-Rufnummern  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 wird in +12065550100 übersetzt  <br/> |
-|LDCallingUS  <br/> |Übersetzt Rufnummern mit Vorwahlen für Ferngespräche in US-Rufnummern  <br/> |^1(\d{10})$  <br/> |+$1  <br/> |12145550100 wird in +2145550100 übersetzt  <br/> |
+|LDCallingUS  <br/> |Übersetzt Rufnummern mit Vorwahlen für Ferngespräche in US-Rufnummern  <br/> |^ 1(\d{10})$  <br/> |+$1  <br/> |12145550100 wird in +2145550100 übersetzt  <br/> |
 |IntlCallingUS  <br/> |Übersetzt Rufnummern mit internationalen Vorwahlen in US-Rufnummern  <br/> |^ 011(\d\*)$  <br/> |+$1  <br/> |01191445550100 wird in +91445550100 übersetzt  <br/> |
 |RedmondOperator  <br/> |Übersetzt 0 in die Vorwahl des Netzbetreibers von Redmond  <br/> |^0$  <br/> |+14255550100  <br/> |0 wird in +14255550100 übersetzt.  <br/> |
-|RedmondSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222)  <br/> |^6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 wird in +14255550100 übersetzt  <br/> |
-|NYSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von New York (333)  <br/> |^6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 wird in +12025550100 übersetzt  <br/> |
-|DallasSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Dallas-Vorwahl (444)  <br/> |^6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 wird in +19725550100 übersetzt  <br/> |
+|RedmondSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222)  <br/> |^ 6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 wird in +14255550100 übersetzt  <br/> |
+|NYSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von New York (333)  <br/> |^ 6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 wird in +12025550100 übersetzt  <br/> |
+|DallasSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Dallas-Vorwahl (444)  <br/> |^ 6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 wird in +19725550100 übersetzt  <br/> |
    
 Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert.
   

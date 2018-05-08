@@ -7,19 +7,20 @@ ms.date: 1/27/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 2475674a-f592-4fa8-ae99-f71cbea54dc0
 description: 'Zusammenfassung: Informationen zum Verschieben von lokalen Benutzern Skype für Business Online.'
-ms.openlocfilehash: 9aa4c87d713af437f1fbb81cd23e354792559aa8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 09eb62c59ccea1334d7f565a0a49989bff72745b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="move-on-premises-users-to-skype-for-business-online"></a>Migrieren von lokalen Benutzern zu Skype für Business Online
  

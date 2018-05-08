@@ -7,22 +7,24 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
-description: Erstellen oder Ändern eines Orbitbereichs für das Parken von Anrufen in Skype for Business 2015
-ms.openlocfilehash: 3617fb739d56e395c31359c6cedae74e9fb63756
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Erstellen Sie oder ändern Sie einer Parken Bereich orbittabelle in Skype für Business Server Enterprise-VoIP.
+ms.openlocfilehash: 805323783cee06f76ee4bf0c1c2ecdb427070a8f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business-2015"></a>Erstellen oder Ändern eines Orbitbereichs für das Parken von Anrufen in Skype for Business 2015
  
-Erstellen oder Ändern eines Orbitbereichs für das Parken von Anrufen in Skype for Business 2015
+Erstellen Sie oder ändern Sie einer Parken Bereich orbittabelle in Skype für Business Server Enterprise-VoIP.
   
-Call Park uses orbits for parking calls. Before users can park and retrieve calls, you must configure the Call Park orbit table. You need to specify the ranges of extension numbers (orbits) that your organization will reserve for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range. When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services. You can create multiple Call Park orbit ranges for each Skype for Business Server pool where the Call Park application is deployed. Each Call Park orbit range must have a globally unique name and a unique set of extensions.
+Parken von Anrufen verwendet Orbits für das Parken von Anrufen. Bevor Benutzer Parken und Abrufen von anrufen können, müssen Sie die orbittabelle für das Parken von Anrufen konfigurieren. Durch angeben, welcher Pool zum Parken von Anrufen verarbeitet den jeweiligen Bereich möchten legen die Bereiche Durchwahlnummern (Orbits), dass Ihre Organisation reserviert für das Parken von Anrufen und das routing für diese Bereiche definieren. Wenn Sie Bereiche für den anrufparkorbit definieren, ist das Ziel genügend Orbits verfügen, damit alle eine Orbit nicht zu schnell ein, jedoch nicht so viele Orbits erneut verwendet wird,, die Anzahl der Erweiterungen für Benutzer verfügbar oder andere Dienste beschränken. Sie können mehrere Bereiche für das Parken von Anrufen für den anrufparkorbit für jede Skype für Business Server-Pool erstellen, in dem die Anwendung zum Parken bereitgestellt wird. Jede orbitbereich zum Parken von Anrufen muss einen global eindeutigen Namen und einen eindeutigen Satz von Erweiterungen verfügen.
   
 > [!IMPORTANT]
 > Ein Orbitbereich umfasst normalerweise 100 oder weniger Orbits. Jeder Bereich kann deutlich größer sein, solange der Höchstwert von 10.000 Orbits pro Bereich nicht überschritten wird und Sie über weniger als 50.000 Orbits pro Pool verfügen. Ist ein Bereich zu klein, werden die Orbits zu schnell wiederverwendet. 
@@ -30,15 +32,15 @@ Call Park uses orbits for parking calls. Before users can park and retrieve call
 Verwenden Sie für Ihre Orbitbereiche Blöcke virtueller Durchwahlnummern (Durchwahlnummern, denen kein Benutzer oder Telefon zugewiesen ist). 
   
 > [!NOTE]
-> Das Zuweisen von DID-Nummern (Direct Inward Dialing) als Orbitnummern in der Orbittabelle für das Parken von Anrufen wird nicht unterstützt. 
+> Zuweisen von direkten (Nummern Inward DIALING) als orbitnummern in der Parken wird orbittabelle nicht unterstützt. 
   
 Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Parken von Anrufen erstellen oder bearbeiten. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>So erstellen oder bearbeiten Sie mit  einen Nummernbereich für das Parken von Anrufen
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Verwenden Sie zum Erstellen oder ändern einen Nummernbereich für das Parken von Anrufen Skype Business Server-Systemsteuerung
 
-1. Melden Sie sich beim Computer als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Rolle Cs-VoiceAdministrator, Cs-ServerAdministrator oder CsAdministrator an. For details, see **Delegate Setup Permissions**.
+1. Melden Sie sich an dem Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder csadministrator an. Weitere Informationen hierzu finden Sie unter **Delegate Setup Permissions**.
     
-2. Alternativ können Sie ein Browserfenster öffnen und dort die Admin-URL eingeben, um zur Systemsteuerung von Skype for Business Server zu gelangen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP-Funktionen** und dann auf **Anruf parken**.
     
@@ -51,7 +53,7 @@ Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Park
   
   - Um einen bestehenden Orbitbereich zu bearbeiten, geben Sie den Namen des Bereichs teilweise oder vollständig in das Suchfeld ein. Klicken Sie anschließend in der Ergebnisliste auf den Orbit, den Sie bearbeiten möchten, und dann auf **Bearbeiten** und auf **Details anzeigen**.
     
-5. Geben Sie im ersten Feld **Nummernbereich** die Startnummer für den Bereich von Durchwahlen für diesen Orbit zum Parken von Anrufen ein und geben Sie dann im zweiten Feld **Nummernbereich** die letzte Nummer für den Bereich ein. Be aware:
+5. Geben Sie im ersten Feld **Nummernbereich** die Startnummer für den Bereich von Durchwahlen für diesen Orbit zum Parken von Anrufen ein und geben Sie dann im zweiten Feld **Nummernbereich** die letzte Nummer für den Bereich ein. Beachten Sie:
     
    - Die Startnummer für den Bereich muss kleiner oder gleich der Endnummer sein.
     
@@ -59,23 +61,23 @@ Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Park
     
    - Der Orbitbereich muss eindeutig sein. Für diesen Bereich sind keine Überschneidungen mit einem anderen Bereich zulässig.
     
-   - Wenn der Orbitbereich mit dem Zeichen * oder # beginnt, muss der Bereich größer als 100 sein.
+   - Wenn der orbitbereich mit dem Zeichen beginnt \* oder #, der Bereich muss größer als 100 sein.
     
-   - Gültige Werte müssen mit dem regulären Ausdruck [\*|#]?[1-9]\d{0,7})|([1-9]\d{0,8} übereinstimmen. Dies bedeutet, dass es sich bei dem Wert um eine Zeichenfolge handeln muss, die entweder mit dem Zeichen * oder # oder einer Zahl zwischen 1 und 9 beginnt (das erste Zeichen darf keine Null sein). Wenn das erste Zeichen ein Sternchen (*) oder ein Rautenzeichen (#) ist, muss das folgende Zeichen eine Zahl zwischen 1 und 9 sein (keine Null). Bei den nachfolgenden Zeichen kann es sich um eine beliebige Zahl zwischen 0 und 9 und zusätzlich sieben Zeichen handeln (Beispiel: „#6000“, „*92000“, „*95551212“ und „915551212“). Wenn es sich bei dem ersten Zeichen nicht um * oder # handelt, muss das erste Zeichen eine Zahl zwischen 1 und 9 sein (keine Null), gefolgt von bis zu acht Zeichen, bei denen es sich jeweils um eine Zahl zwischen 0 und 9 handeln muss (z. B. „915551212“, „41212“ oder „300“).
+   - Gültige Werte: Zeichenfolge des regulären Ausdrucks muss übereinstimmen ([\\* | #] ? [1-9] \d{0,7}) | ([1-9] \d{0,8}). Dies bedeutet, dass der Wert muss eine Zeichenfolge beginnend mit entweder die Zeichen \* oder # oder eine Zahl zwischen 1 und 9 (das erste Zeichen darf nicht NULL sein). Wenn das erste Zeichen ist \* oder #, in das folgende Zeichen muss eine Zahl zwischen 1 und 9 (es kann nicht NULL sein). Nachfolgende Zeichen können eine beliebige Zahl von 0 bis 9 bis zu sieben zusätzliche Zeichen sein (z. B. "#6000", "\*92000", "\*95551212" und "915551212"). Wenn das erste Zeichen nicht ist \* oder #, in das erste Zeichen muss eine Zahl zwischen 1 und 9 (es kann nicht NULL sein), gefolgt von bis zu acht Zeichen jedes eine Zahl von 0 bis 9 (beispielsweise "915551212", "41212", "300").
     
    - Sie sollten über maximal 50.000 Orbits pro Pool verfügen. Jeder Orbitbereich umfasst typischerweise maximal 100 Orbits, Sie können jedoch einen deutlich höheren Wert festlegen (bis maximal 10.000 Orbits). Geben Sie anstelle eines Bereichs mit der Startnummer „7000000“ und der Endnummer „8000000“ als Startnummer beispielsweise „7000000“ und als Endnummer „7000100“ an.
     
-6. Klicken Sie in FQDN des Zielservers auf den vollqualifizierten Domänennamen oder die Dienst-ID des Anwendungsdiensts, der die  hostet. Alle Anrufe, die im Bereich geparkt werden, der über die Start- und Endnummer des Orbitbereichs angegeben wird, werden an diesen Server oder Pool weitergeleitet.
+6. Klicken Sie in **FQDN des Zielservers**auf den vollqualifizierten Domänennamen (FQDN) oder die Dienst-ID des Anwendungsdiensts, die die Anwendung zum Parken von Anrufen gehostet wird. Alle Anrufe, die im Bereich geparkt werden, der über die Start- und Endnummer des Orbitbereichs angegeben wird, werden an diesen Server oder Pool weitergeleitet.
     
 7. Klicken Sie auf **Commit ausführen**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>So erstellen oder bearbeiten Sie mit  einen Nummernbereich für das Parken von Anrufen
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Verwenden von Skype für Business Server-Verwaltungsshell zum Erstellen oder ändern einen Nummernbereich für das Parken von Anrufen
 
-1. Melden Sie sich auf dem Computer, auf dem die  installiert ist, als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder mit den erforderlichen Benutzerrechten an, wie beschrieben unter .
+1. Melden Sie sich an dem Computer, auf dem Skype für Business Server-Verwaltungsshell, als Mitglied der Gruppe RTCUniversalServerAdmins oder mit den erforderlichen Benutzerrechten installiert ist wie beschrieben unter **Delegate Setup Permissions**.
     
 2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
-3. Mit **** können Sie einen neuen Orbitnummernbereich erstellen. Mit **** können Sie einen bestehenden Orbitnummernbereich bearbeiten.
+3. Verwenden Sie **New-CsCallParkOrbit** , um einen neuen Bereich von orbitnummern erstellen. Verwenden Sie **Set-CsCallParkOrbit** , um einen bestehenden Bereich von orbitnummern ändern.
     
     Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
     
@@ -103,5 +105,5 @@ Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Park
   
 [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
   
-[Delete a Call Park Orbit Range](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[Löschen eines Orbitbereichs für das Parken von Anrufen](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
 

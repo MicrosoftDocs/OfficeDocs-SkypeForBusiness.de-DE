@@ -7,16 +7,18 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine übersetzungsregel definieren, indem Sie mit dem Erstellen einer Übersetzungsregel-Tool in Skype für Business Server 2015.'
-ms.openlocfilehash: aa433375ad4dfa2dcc0c141d36b6d51ae28647f1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dab0b2c2b808b873a443c14849e69f2b33ed9e31
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server-2015"></a>Erstellen oder Ändern einer Übersetzungsregel für die Darstellung der ID des Angerufenen in Skype for Business Server 2015
  

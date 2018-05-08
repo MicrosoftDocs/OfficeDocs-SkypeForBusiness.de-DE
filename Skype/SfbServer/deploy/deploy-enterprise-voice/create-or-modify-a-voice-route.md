@@ -7,16 +7,18 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Zusammenfassung: Informationen Sie zum Erstellen oder Ändern einer VoIP-Route in Skype für Business Server 2015 mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 2adc4d2a1277f229c1fcfbf230a49d5e91855a97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a999cf8ce068aeca217995bf9f8b0395beaa1d2b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>Erstellen oder Ändern einer VoIP-Route in Skype for Business 2015
  

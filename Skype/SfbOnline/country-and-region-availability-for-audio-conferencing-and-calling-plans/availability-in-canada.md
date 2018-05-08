@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: abc0ecee302e3f646e43fcbb54e5ecf2e19ee5bd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="availability-in-canada"></a>Verfügbarkeit in Kanada
 
@@ -51,8 +51,6 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 |Voicemail  <br/> |Verfügbar  <br/> |
 
 ## <a name="calling-plans"></a>Anrufpläne
-> [!IMPORTANT]
-> In Kanada sind die Dienste nur für Vorschaukunden und Early Adopter verfügbar. Weitere Informationen finden Sie unter [Skype-Vorschauprogramme](https://www.skypepreview.com).
     
 |**Funktion**|**Details**|
 |:-----|:-----|
@@ -69,6 +67,9 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+
+> [!Note] 
+> Wenn ein Aufruf von planen (nationalen oder nationalen und internationalen) Wählt Benutzer in den USA eine Telefonnummer in Kanada als nationalen Anruf behandelt wird. Dies ist auch der Fall, wenn ein Benutzer in Kanada eine US-Nummer anrufen wird.
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

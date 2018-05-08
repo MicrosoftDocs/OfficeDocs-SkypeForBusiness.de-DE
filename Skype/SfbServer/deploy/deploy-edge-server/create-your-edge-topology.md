@@ -7,15 +7,17 @@ ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server 2015.'
-ms.openlocfilehash: 336bef93fbb0d58c07ebd845fff2751e85464900
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 335713fdcc8c8a88fb31f180ab4553bd64497d9f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server-2015"></a>Erstellen Ihrer Edgetopologie für Skype for Business Server 2015
  

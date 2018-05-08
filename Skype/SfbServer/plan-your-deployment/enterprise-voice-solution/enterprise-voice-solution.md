@@ -7,16 +7,18 @@ ms.date: 12/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Zusammenfassung: Erfahren Sie mehr über die Optionen für die Planung einer einheitlichen Sprach- und Communications-Lösung in Skype für Business Server 2015.'
-ms.openlocfilehash: 3468c13e4cf3441aa06ffe59235dd1e34e89c3c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9e0b0be7652f8f400e697086b09b447f7f97e958
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server-2015"></a>Planen Sie Ihre Enterprise-VoIP-Lösung in Skype für Business Server 2015
  

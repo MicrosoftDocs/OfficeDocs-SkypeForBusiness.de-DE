@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Passen Sie die Musik in der Warteschleife in Skype für Business Server Enterprise-VoIP Parken.
-ms.openlocfilehash: 5af98ee95c59f7fd945232f77d713255ca1c42d5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 95e332aad7d96c366cfc73ca1bcf3f289b5f14ab
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business-2015"></a>Anpassen der Wartemusik für das Parken von Anrufen in Skype for Business 2015
  
