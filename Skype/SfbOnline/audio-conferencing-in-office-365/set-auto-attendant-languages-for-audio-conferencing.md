@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Finden Sie unter Wählen Sie die Audiokonferenz Auto attendant Sprachen für eine Audiokonferenz Zahl.
-ms.openlocfilehash: 6b3d0f2fd9a74429a0b1817fc3987c0fdef8698e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen
 
@@ -38,7 +37,7 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die prim�
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Festlegen der Konferenzen Auto attendant Sprachen
 
-**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**.
 
@@ -51,7 +50,7 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die prim�
 
 4. Klicken Sie auf **Anwenden**.
 
-**Verwendung von Skype online für Unternehmen**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **Skype für Unternehmen online verwenden**
 
 Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder [Skype für Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieses Schritts sein.
     
@@ -66,6 +65,9 @@ Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/a
   
 4. Klicken Sie auf **Speichern**.
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="want-else-should-i-know"></a>Was sollte ich noch wissen?
 
 - Die Liste der unterstützten Sprachen für Audiokonferenzen, finden Sie unter [Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md).

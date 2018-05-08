@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: cb38da52bd2c67a66e354b21712b8cc0d986796c
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: de5959a6182e354a9f12669100b60f66fd70f88f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern Sie die Telefonnummern für die Audiokonferenz-Brücke
 
@@ -53,6 +52,9 @@ Neben die Telefonnummern, die Konferenzbrücke bereits zugewiesen, Sie können [
     > [!NOTE]
     > Nachdem eine neue Telefonnummer zugewiesen wurde, ändert sich die Standardnummer für vorhandene Benutzer nicht, selbst wenn die Nummer als neue Standardnummer festgelegt wurde. Legen Sie die standardmäßige gebührenpflichtige oder eine gebührenfreie Telefonnummer, die hinzugefügt wird, um Organisator der Besprechung eingeladen werden, finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md). 
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Schritt 2 - Ändern der Standardrufnummern, die in den Besprechungseinladungen von Benutzern enthalten sind (optional)
 
 Bei den Standardtelefonnummern für Benutzer handelt es sich um die Nummern, die in ihren Besprechungseinladungen enthalten sind, wenn sie eine Besprechung planen. Weitere Informationen finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md).

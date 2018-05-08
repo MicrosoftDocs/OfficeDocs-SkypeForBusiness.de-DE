@@ -14,18 +14,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
 description: 'Informationen Sie zu Features in Skype Raum Systemen v2 verfügbar. '
-ms.openlocfilehash: 420fd8dcd7f97ef9ab4844b485eaf84e112b3856
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 65e40f0a040e5c901e69123135075e01bf183333
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="skype-room-systems-v2"></a>Skype Room Systems V2
 <a name="bkmk_srs"> </a>

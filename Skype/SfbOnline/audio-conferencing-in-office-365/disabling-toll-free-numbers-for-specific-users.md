@@ -12,17 +12,16 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen verwenden können.
-ms.openlocfilehash: 0d2b4d16d6475587dd85223e0a88f64562664429
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreie Nummern für bestimmte Benutzer
 
@@ -43,7 +42,7 @@ Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreie Nummern für bestimmte Benutzer 
 
-**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
@@ -55,7 +54,7 @@ Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:
 
 5. Klicken Sie auf **anwenden.** 
 
-**Verwenden des Skype for Business Admin Center**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer. 
 
@@ -64,6 +63,9 @@ Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:
 3. Deaktivieren **von gebührenfreie Nummern zum Teilnehmen an Besprechungen dieses Benutzers zulassen**. 
  
 4. Klicken Sie auf **Speichern**. 
+ 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **Verwenden von PowerShell**  
 

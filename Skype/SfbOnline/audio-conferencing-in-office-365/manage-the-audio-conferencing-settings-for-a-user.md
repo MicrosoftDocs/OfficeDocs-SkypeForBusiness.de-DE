@@ -15,24 +15,25 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Als ein Office 365-Administrator können Sie die Einstellungen für die Audiokonferenz bearbeiten – wie der Anbieter, Standard gebührenpflichtige oder gebührenfreie Telefonnummer, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation. Wenn Sie Einstellungen für die Organisation bearbeiten möchten, finden Sie unter Verwalten der Audiokonferenz Einstellungen für meine Organisation.
-ms.openlocfilehash: 29eb81881bf768b4b398e0fdac38a908ab5833ce
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d842d2cfeb126b799ed1d763834c9a6e90662a2a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Verwalten der Audiokonferenz Einstellungen für einen Benutzer
 
 Als ein Office 365-Administrator können Sie die Einstellungen für die Audiokonferenz bearbeiten – wie der Anbieter, Standard gebührenpflichtige oder gebührenfreie Telefonnummer, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation. Wenn Sie Einstellungen für die Organisation bearbeiten möchten, finden Sie unter [die Audiokonferenz Einstellungen für meine Organisation verwalten](manage-the-audio-conferencing-settings-for-my-organization.md).
   
 ![Zeigt die Seite Audio Webkonferenz-Eigenschaften für einen Benutzer](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
-  
+ 
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+ 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Wählen Sie **Admin Center** > **Skype for Business** aus.
@@ -51,10 +52,13 @@ Als ein Office 365-Administrator können Sie die Einstellungen für die Audiokon
 |**Zulassen Sie mit dem gebührenfreie Nummern in der Microsoft-Bridge Ihrer Organisation zur Teilnahme an Besprechungen dieses Benutzers** <br/> |Wählen Sie diese Option, wenn Sie den Benutzer über gebührenfreie Nummern zum Teilnehmen an Besprechungen zulassen möchten.  <br/> |
 |**Konferenz-Informationen per e-Mail senden** <br/> |Klicken Sie auf diesen Link, nur, wenn Sie eine e-Mail an den Benutzer mit seinem Konferenz-ID und Telefonnummer sofort senden möchten. (Diese e-Mail ist die PIN nicht enthalten.) Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
 |**Konferenz-ID** <br/> |Wählen Sie **Zurücksetzen** aus, wenn Sie die Konferenz-ID für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Zurücksetzen eine Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user.md).  <br/> |
-|**PIN-NUMMER** <br/> |Wählen Sie **Zurücksetzen** aus, wenn Sie die PIN für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Audio Conferencing PIN eines Benutzers zurücksetzen](reset-the-audio-conferencing-pin-for-a-user.md).  <br/> |
+|**PIN-NUMMER** <br/> |Wählen Sie **Zurücksetzen** aus, wenn Sie die PIN für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Audio Conferencing PIN zurücksetzen](reset-the-audio-conferencing-pin.md).  <br/> |
 |**Anrufern Sie nicht authentifizierte werden die ersten Personen in einer Besprechung** <br/> |Wählen Sie diese Option, ob nicht authentifizierter Anrufer werden die erste an Besprechungen teilnehmen können.  <br/> |
 |**DFÜ-Outs von Besprechungen dieses Benutzers Einschränkungen** <br/> |Wählen Sie eine Option in dieser Liste, wenn Sie auf nur DFÜ-Outs beschränken möchten, oder wenn Sie verhindern möchten, alle DFÜ-Outs von Besprechungen.  <br/> |
    
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="related-topics"></a>See Also
 
 [Verwalten der Audiokonferenzeinstellungen für meine Organisation](manage-the-audio-conferencing-settings-for-my-organization.md)

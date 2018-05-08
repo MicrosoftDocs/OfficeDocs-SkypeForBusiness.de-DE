@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 8a4b9c9cbb21c8a269e9d07285e4ecf68d2f2a7a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4deb415e9fd7154d72b7d598bcc5dfb8eabed6ed
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Beginnen einer Audio-Konferenz über das Telefon ohne PIN
 
@@ -37,7 +36,7 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Aktivieren oder Deaktivieren anonymer Anrufer für die Teilnahme an einer Besprechung
 
-**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
 1. Klicken Sie im linken Navigationsbereich auf **Benutzer**. 
 
@@ -49,7 +48,7 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
     
 4. Klicken Sie auf **Anwenden**. 
 
-**Verwenden des Skype for Business Admin Center**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
     
 1. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**. 
     
@@ -58,6 +57,9 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
 3. Eigenschaftenseite des Benutzers unter **Besprechungsoptionen**aktivieren oder Deaktivieren von **zulassen, die nicht authentifizierte Anrufer, um die ersten Personen in einer Besprechung werden. Wenn nicht, klicken Sie dann sie im Wartebereich wartet, bis ein authentifizierter Benutzer Beitritt**.
     
 4. Klicken Sie auf **Speichern**. 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
  **Mithilfe von Windows Powershell**
   
@@ -69,7 +71,7 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
 
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
-- Informationen zum Zurücksetzen der PIN finden Sie unter [Zurücksetzen der Einwahlkonferenz-PIN für einen Benutzer](reset-the-audio-conferencing-pin-for-a-user.md).
+- Wenn Sie die PIN zurücksetzen möchten, finden Sie unter [Audio Conferencing PIN zurücksetzen](reset-the-audio-conferencing-pin.md).
     
 - Wenn anonymer Zugriff oder keine erfordern eine PIN an eine Besprechung starten aktiviert ist:
     

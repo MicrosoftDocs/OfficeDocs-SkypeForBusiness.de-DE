@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: df4e85dbe0549035984a518ad378307a41740fa9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>E-Mails an Benutzer gesendet werden, wenn ihre Einstellungen ändern
 
@@ -59,7 +58,7 @@ Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audi
   
 - **Die PIN eines Benutzers-Audiokonferenzen wird zurückgesetzt.**
     
-    Diese e-Mail enthält der Organisator Audiokonferenzen PIN, die vorhandene Konferenz-ID und die Standardrufnummer Konferenz für den Benutzer. Senden einer E-Mail mit den Informationen zur Audiokonferenz an einen Benutzer
+    Diese e-Mail enthält der Organisator Audiokonferenzen PIN, die vorhandene Konferenz-ID und die Standardrufnummer Konferenz für den Benutzer. Finden Sie unter [der Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin.md).
     
     > [!NOTE]
     > Wenn Ihre Organisation für dynamische Konferenz-IDs aktiviert wurde, weisen alle geplanten Besprechungen eines Benutzers eine eindeutige Konferenz-ID auf. Sie können die [dynamische Audiokonferenzen-IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md)einrichten. 
@@ -105,7 +104,7 @@ Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails an die Benutz
   
 In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu den Empfang von e-Mails für Audiokonferenzen verhindern möchten, können Sie Microsoft-Teams, die Skype Business-Verwaltungskonsole oder Windows PowerShell. 
 
-**Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole**
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
 
@@ -113,16 +112,19 @@ In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu d
 
 3. Klicken Sie im Bereich **Bridge-Einstellungen** aktivieren oder Deaktivieren von **Benutzern Wenn Ändern ihrer Einstellungen für die Zugriffsnummer für Einwahl-e-Mails automatisch gesendet**.
 
-4. Klicken Sie auf **Anwenden**.
+4. Klicken Sie auf **Speichern**.
   
-**Verwenden des Skype for Business Admin Center**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png)  **mithilfe der Skype für Business Administrationscenter**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
 2. Klicken Sie auf der Seite **Einstellungen für Microsoft-Brücke** de- **automatisch e-Mails an Benutzer senden, wenn Ändern ihrer Einstellungen für die Audiokonferenz**. 
     
 3. Klicken Sie auf **Speichern**. 
-    
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+  
 **Verwenden von Windows PowerShell**
   
 1. Führen Sie das Folgende aus, um das Senden von E-Mails an alle Benutzer zu deaktivieren:
