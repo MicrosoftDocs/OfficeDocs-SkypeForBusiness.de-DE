@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung einer Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 1c9e998c096b92788a2e214220987dfe4aafffca
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
@@ -108,13 +108,16 @@ In den folgenden Tabellen enthalten Empfehlungen für Peripheriegeräte basieren
    
 **Skype-Raum Systemen v2 Certified Video Peripheriegeräte**
 
-|**Raum-Typ**|**Anzahl der Personen**|**Gerät nach optimale Raumgröße**|**Anmerkungen**|
+|Raumart|Anzahl der Personen|Gerät nach optimale Raumgröße|Kommentare|
 |:-----|:-----|:-----|:-----|
 |**Fokus** <br/> 10' x 9'  <br/> |2 bis 4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
 |**Kleine** <br/> 16' x 16'  <br/> |4 bis 6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro häufig gebündelt mit Logitech Gruppe  <br/> |
 |**Mittel** <br/> 18' x 20'  <br/> |6 bis 12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
 |**Große** <br/> 15' x 32'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
    
+ > [!NOTE]
+ > Am Anfang Raum Auflösung sollte nicht mehr als 1920x1080p festgelegt werden.
+
 ## <a name="required-software-downloads"></a>Erforderliche Softwaredownloads
 
 Sie benötigen ein eigenes Bild Skype Raum Systemen v2 erstellen die folgenden Downloads:

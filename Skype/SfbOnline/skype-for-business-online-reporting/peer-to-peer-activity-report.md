@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: ad2e9745d68a3c47e60aa03f957054a1eeef1deb
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 96878a2deb9a75ab0c927c2e1cd2c9e4dd34c2bd
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="peer-to-peer-activity-report"></a>Bericht über Peer-zu-Peer-Aktivität
 
@@ -55,7 +55,7 @@ Einen Einblick in die Peer-zu-Peer-Aktivitäten in Skype for Business erhalten S
 ![Skype-Peer-zu-Peer-Bericht mit Legenden.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>Im Bericht **Skype for Business - Peer-zu-Peer-Aktivität** werden die Trends in den letzten 7 Tagen, 30 Tagen, 90 Tagen oder 180 Tagen angezeigt.
+![Nummer 1](../images/sfbcallout1.png)<br/>Im Bericht **Skype for Business - Peer-zu-Peer-Aktivität** werden die Trends in den letzten 7 Tagen, 30 Tagen, 90 Tagen oder 180 Tagen angezeigt. Wenn Sie in einen bestimmten Tag im Bericht klicken, die Tabelle (siehe Nummer 7) zeigt jedoch Daten für 30 Tage, bis zu dem Datum (siehe Nummer 2) für Wenn der Bericht generiert wurde.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

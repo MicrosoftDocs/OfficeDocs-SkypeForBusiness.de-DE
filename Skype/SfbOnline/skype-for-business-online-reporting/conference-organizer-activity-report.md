@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Erfahren Sie, wie die Skype für organisierte Konferenz Tätigkeit Bericht abgerufen und das interpretieren und passen Sie es. '
-ms.openlocfilehash: 900aece095c2053e028e8934f80e97f0e3d56615
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: ed65aaed214a35b961c9c13c0d789a224e41258f
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="conference-organizer-activity-report"></a>Organizer konferenzaktivitätsbericht
 
@@ -53,7 +53,7 @@ Sie können eine Ansicht in Ihrer Skype für Business Konferenzen erhalten, die 
 ![Skype für Business organisierten Konferenzen Bericht](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>Der Bericht **Skype für geschäftliche Konferenz organisieren Aktivität** kann für Trends über den letzten sieben Tagen 30 Tage, 90 Tage oder nach 180 Tagen angezeigt werden.
+![Nummer 1](../images/sfbcallout1.png)<br/>Der Bericht **Skype für geschäftliche Konferenz organisieren Aktivität** kann für Trends über den letzten sieben Tagen 30 Tage, 90 Tage oder nach 180 Tagen angezeigt werden. Wenn Sie in einen bestimmten Tag im Bericht klicken, die Tabelle (siehe Nummer 7) zeigt jedoch Daten für 30 Tage, bis zu dem Datum (siehe Nummer 2) für Wenn der Bericht generiert wurde.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
