@@ -19,9 +19,9 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: b2759e4ee1f8e8cac2f753eb5afecbf13642abb0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: 'Finden Sie unter Schritte aus, um eine einwahlkonferenzen Lizenz und Konferenz-ID eines Benutzers und viele andere Einstellungen für einwahlkonferenzen zuweisen. '
+ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/08/2018
@@ -51,28 +51,6 @@ Möglicherweise ist es einfacher für Sie, alle Audiokonferenzeinstellungen für
 > [!NOTE]
 > Unter Umständen wird Microsoft nach dem Zuweisen der Lizenz nicht sofort in der Liste als Audiokonferenzanbieter angezeigt. Melden Sie sich in diesem Fall im Office 365 Admin Center ab, oder drücken Sie STRG+F5, um das Browserfenster zu aktualisieren. 
   
-## <a name="assign-a-conference-id-for-a-user"></a>Zuweisen einer Konferenzkennung für einen Benutzer
-
-Eine Konferenz-ID wird automatisch zu einem Benutzer zugewiesen, wenn sie für Audiokonferenzen mit Microsoft als Anbieter von Audiokonferenzen festgelegt sind. Wenn die Besprechung geplant ist, wird die Konferenz-ID in der besprechungseinladung gesendet. Jede Besprechung, die ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen
-  
-Führen Sie zum Einrichten einer Konferenz-ID für einen Benutzer Folgendes aus:
-  
-Führen Sie zum Einrichten einer Konferenz-ID für einen Benutzer Folgendes aus:
-  
-```
-Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
-```
-
-> [!IMPORTANT]
-> Eine Konferenzkennung muss sieben Ziffern umfassen. Sie kann nicht im Skype for Business Admin Center oder mit Windows PowerShell geändert werden. 
-  
-Weitere Informationen zum Cmdlet finden Sie unter [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
-  
-> [!IMPORTANT]
->  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Die Benutzer können die Skype für Business Besprechung Migrationstool aktualisieren vorhandenen Besprechungen. Informationen zum Herunterladen, installieren und führen Sie die Skype für Business Besprechung Update-Tools finden Sie unter: [Meeting Aktualisierungstool für Skype für Unternehmen und Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype für Online Business Besprechung Migrationstool (64-Bit)](http://go.microsoft.com/fwlink/?LinkID=626047)und Skype für Online Business [Besprechung Migrationstool (32-Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
-  
-Ändern des Audiokonferenzanbieters von Microsoft in einen Drittanbieter
-    
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Aktivieren oder Deaktivieren der an Audiokonferenzbenutzer gesendeten E-Mails
 
 ![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
@@ -212,9 +190,19 @@ Finden Sie unter [der Audiokonferenz PIN zurücksetzen](reset-the-audio-conferen
   
 Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information.md).
   
-## <a name="setting-the-default-audio-conferencing-phone-number-for-meeting-organizers"></a>Festlegen der Standardtelefonnummer für Audiokonferenzen für Besprechungsorganisatoren
+## <a name="setting-the-phone-numbers-included-on-invites"></a>Festlegen des Telefons, die Zahlen enthalten auf invites
 
- **So legen Sie die Standardtelefonnummer für Audiokonferenzen für Besprechungsorganisatoren fest, wenn Sie einen Benutzer für Audiokonferenzen aktivieren**
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**.
+ 
+3. Klicken Sie im Bereich **Audiokonferenzen** können Sie die **gebührenpflichtige Telefonnummer** festlegen und, falls zulässig, die **gebührenfreie Telefonnummer**.
+
+4. Klicken Sie auf **Speichern**.
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**  
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -222,39 +210,12 @@ Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen B
     
 3. Wechseln Sie im linken Navigationsbereich zur **Audiokonferenz** > **Benutzer**. Wählen Sie den Benutzer, den Sie für Audiokonferenzen aktivieren möchten.
     
-4. Klicken Sie im Aktionsbereich in den Eigenschaften des Benutzers auf **Bearbeiten**.
-    
-5. Wählen Sie auf der Seite **Eigenschaften** unter **Anbietername** in der Dropdownliste den Audiokonferenzanbieter aus.
-    
-  - Wenn Sie Microsoft als Audiokonferenzanbieter auswählen, können Sie die Standardtelefonnummer für Audiokonferenzen aus der Liste auswählen.  
-    
-  - Wenn Sie einen Drittanbieter-ACP als Audiokonferenzanbieter auswählen, müssen Sie die gebührenpflichtige und gegebenenfalls die gebührenfreie Telefonnummer manuell eingeben. Bei diesen Telefonnummern handelt es sich um die Standardtelefonnummer.
-    
-    Die Standardtelefonnummer für Audiokonferenzen eines Benutzers ist die Nummer, die beim Planen einer Besprechung in der Besprechungseinladung angezeigt wird.
-    
-6. Klicken Sie auf **Speichern**. 
+4. Klicken Sie im Aktionsbereich können Sie die **gebührenpflichtige Telefonnummer** festlegen und, falls zulässig, die **gebührenfreie Telefonnummer**.
+
+5. Klicken Sie auf **Speichern**.
     
 Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md).
   
- **So legen Sie die Standardtelefonnummer für Audiokonferenzen für Besprechungsorganisatoren fest, nachdem Sie einen Benutzer für Audiokonferenzen aktiviert haben**
-  
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
-    
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
-    
-3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**, wählen Sie den Benutzer werden soll, und klicken Sie auf der Seite Aktion auf **Bearbeiten**.
-    
-4. Wählen Sie auf der Seite **Eigenschaften** unter **Anbietername** in der Dropdownliste den Audiokonferenzanbieter aus.
-    
-  - Wenn der Benutzer Microsoft als Audiokonferenzanbieter verwendet, können Sie die Standardtelefonnummer für Audiokonferenzen aus der Liste auswählen.  
-    
-  - Wenn der Benutzer einen Drittanbieter-ACP als Audiokonferenzanbieter verwendet, müssen Sie die gebührenpflichtige und gegebenenfalls die gebührenfreie Telefonnummer manuell eingeben.
-    
-    Die Standardtelefonnummer für Audiokonferenzen eines Benutzers ist die Nummer, die beim Planen einer Besprechung in der Besprechungseinladung angezeigt wird.
-    
-5. Klicken Sie auf **Speichern**. 
-    
-Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md).
   
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>Audiokonferenzen Bridge Einstellungen auswählen
 
@@ -378,7 +339,20 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-set
     
 Siehe [Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen](set-auto-attendant-languages-for-audio-conferencing.md).
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--see-audio-conferencing-dial-in-numbers"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png)  Anzeigen von Einwahlnummern für Audiokonferenzen
+## <a name="see-audio-conferencing-dial-in-numbers"></a>Anzeigen von Einwahlnummern für Audiokonferenzen
+
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
+
+2. Wählen Sie eine Telefonnummer aus der Liste aus, und klicken Sie auf **Bearbeiten**. Hier können Sie:
+    
+  - Zeigen Sie die Telefonnummern an, die von Office 365 zur Verwendung für Audiokonferenzen festgelegt werden. 
+    
+  - Schauen Sie den Speicherort und die primäre Sprache, die von der automatischen Telefonzentrale Audiokonferenzen verwendet werden.
+
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**  
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -413,7 +387,7 @@ Es gibt mehrere Einstellungen, die auf Organisationsebene mithilfe von Windows P
 Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
 Hier sind die Einstellungen auf Organisationsebene: 
-> 
+ 
 - **Eintrag/Exit Benachrichtigungen festlegen** Der Standardwert ist _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 

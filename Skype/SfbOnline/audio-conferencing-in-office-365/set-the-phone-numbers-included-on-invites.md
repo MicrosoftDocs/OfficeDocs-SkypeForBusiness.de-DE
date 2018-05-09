@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 03b6f3b2ce270d1dd6e2855dec4ee2af9a2447c8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Legen Sie das Telefon, die Zahlen enthalten auf invites
 
@@ -38,7 +38,28 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
 > [!NOTE]
 > Für einen Besprechungsorganisator kann maximal eine gebührenpflichtige und eine gebührenfreie Telefonnummer in der Besprechungseinladung angegeben werden. Im unteren Bereich jeder Besprechungseinladung befindet sich jedoch auch ein Link, über den eine vollständige Liste aller Einwahlnummern aufgerufen werden kann, über die Benutzer an einer Besprechung teilnehmen können. 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) Festlegen der Zugriffsnummer für Einwahl Standardrufnummer für Organisator einer Besprechung
+## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Festlegen der Zugriffsnummer für Einwahl Standardrufnummer für Organisator einer Besprechung
+
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+    ![Zeigt die Auswahl von Benutzern in der Microsoft-Teams und Skype für Business Admin Center](../images/teamsselectusers.png)
+
+2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+
+    ![Klicken Sie auf Bearbeiten in der Microsoft-Teams und Skype für Business Admin Center](../images/teamsedituser.png)
+
+3. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**. 
+    
+    ![Klicken Sie auf Bearbeiten neben Audiokonferenzen](../images/teamseditaudioconf.png)
+
+4. Verwenden Sie die Felder **gebührenpflichtige** oder **gebührenfreie Nummer** , die Zahlen für den Benutzer eingeben.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -70,11 +91,23 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
     > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Wenn Sie eine gebührenfreie Telefonnummer erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen und die Microsoft-Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **Ein Drittanbieter ist der Dienstanbieter**: Verwenden Sie die Felder **die gebührenpflichtige Telefonnummer** und **gebührenfreie Nummer** die Zahlen für den Benutzer eingeben.
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-audio-conferencing-phone-numbers"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) Zurücksetzen von Audiokonferenz-Telefonnummern
+
+## <a name="change-the-audio-conferencing-phone-number-for-users"></a>Ändern der Audiokonferenz Rufnummer für Benutzer
+
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+
+3. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**. 
+    
+4. Verwenden Sie die Felder **gebührenpflichtige** oder **gebührenfreie Nummer** , die Zahlen für den Benutzer eingeben.
+
+## <a name="reset-audio-conferencing-phone-numbers"></a>Zurücksetzen von Audiokonferenz-Telefonnummern
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Wählen Sie im **Skype for Business Admin Center**die Option **Audio conferencing** (Audiokonferenz) aus.
     

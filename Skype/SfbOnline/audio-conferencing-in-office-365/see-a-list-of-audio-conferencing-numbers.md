@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Anzeigen einer Liste der Audiokonferenz Zahlen
 
@@ -42,7 +42,19 @@ Finden Sie unter So ändern Sie die Telefonnummer Zugriffsnummer für Einwahl f�
 > [!NOTE]
 > Inländische Einwahlnummern sind Ihrer Organisation zugeordnet. Nur solche Nummern können als Standardtelefonnummer eingestellt werden. Internationale Einwahlnummern können von mehreren Organisationen gemeinsam verwendet werden. 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png)  So zeigen Sie Ihre Rufnummern Audiokonferenzen an
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Rufnummern Audiokonferenzen an
+
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenzbrücken**. 
+2.  Zeigen Sie die Telefonnummern, die für Audiokonferenzen verfügbar sind.
+
+- Sie können auch den Speicherort und die primäre Sprache, die von der automatischen Telefonzentrale Audiokonferenzen verwendet werden, anzeigen.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -57,8 +69,6 @@ Finden Sie unter So ändern Sie die Telefonnummer Zugriffsnummer für Einwahl f�
 > [!NOTE]
 > Sie können wechseln Sie zur **Audiokonferenz** > **Benutzer** und wählen Sie Eigenschaften so ändern Sie die Standardeinstellung des Benutzers zu nummerieren, indem Sie eine neue Nummer aus der Liste der verfügbaren Nummern in Ihrer Organisation auswählen. Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md). 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 

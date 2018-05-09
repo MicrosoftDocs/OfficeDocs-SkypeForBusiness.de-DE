@@ -20,13 +20,13 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
-ms.openlocfilehash: 4922f896daa2bec976d7fb72dd519e9dd91d74f4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 73c5d3cc95b7967cd9d6eaae83a14e19143e431b
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>Anzeigen, Bearbeiten und Zurücksetzen einer Konferenz-ID, die einem Nutzer zugewiesen wurde
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user"></a>Anzeigen und eine Konferenz-ID, die einem Benutzer zugewiesenen zurücksetzen
 
 Eine Konferenz-ID wird automatisch auf einen Skype für Business oder Microsoft-Teams, Benutzer zugewiesen, für Audiokonferenzen in Office 365 einrichten und Verwenden von Microsoft als Anbieter von Audiokonferenzen. Die Konferenz-ID zugewiesen wird in der besprechungseinladung gesendet, wenn die Besprechung geplant ist. Jede Besprechung, die ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen 
   
@@ -34,9 +34,35 @@ Zwar eine Konferenz-ID wird automatisch erstellt und einem Benutzer zugewiesen w
   
 Dem Benutzer mit der Konferenz-ID und die Telefonnummern der Standard-Audiokonferenzen wird eine e-Mail gesendet werden, oder wenn Sie die Konferenz-ID zurücksetzen eine e-Mail gesendet wird, die die Konferenz-ID, aber nicht mit einer PIN enthalten wird. Weitere Informationen zum Zurücksetzen einer Konferenzorganisator PIN, [Wechseln Sie hier](reset-a-conference-id-for-a-user.md). 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-view-and-change-conference-ids"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) Anzeigen und Ändern der Konferenz-IDs
+## <a name="view-and-reset-conference-ids"></a>Anzeigen und Zurücksetzen der Konferenz-IDs
 
 ### <a name="to-view-the-conference-id"></a>So zeigen Sie die Konferenz-ID an.
+
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+
+3. Suchen Sie unter **Audiokonferenzen**klicken Sie unter **Konferenz-ID**ein.
+
+    > [!TIP]
+    > Sie können alle Konferenzinformationen in einer e-Mail an den Benutzer senden, die die Konferenz-ID und audio Telefonnummern enthält durch Klicken auf den Link **Konferenz Informationen in e-Mail-Nachricht senden** .
+
+  
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+Sie können Windows PowerShell verwenden, um die Konferenz-ID für einen Benutzer anzuzeigen. Führen Sie dazu Folgendes aus:
+    
+  ```
+  Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"  
+  ```
+
+    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 Sie können ihre Konferenz-ID anzeigen und an Benutzer senden.
   
@@ -50,9 +76,6 @@ Sie können ihre Konferenz-ID anzeigen und an Benutzer senden.
     
     > [!TIP]
     > Sie können alle Konferenzinformationen in einer e-Mail an den Benutzer senden, die die Konferenz-ID und audio Telefonnummern durch Klicken auf den Link **Konferenz Informationen per e-Mail senden** , nachdem Sie den Benutzer auf der Seite **Benutzer** auswählen enthält.
-  
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 Sie können Windows PowerShell verwenden, um die Konferenz-ID für einen Benutzer anzuzeigen. Führen Sie dazu Folgendes aus:
     
@@ -62,26 +85,29 @@ Sie können Windows PowerShell verwenden, um die Konferenz-ID für einen Benutze
 
     See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
     
-### <a name="to-assign-or-change-the-conference-id"></a>Zuweisen oder ändern die Konferenz-ID
-
-Sie können zuweisen oder eine Konferenz-ID für einen Benutzer ändern, wenn Sie beispielsweise eine Person eine Konferenz-ID möchte, die leicht zu merken ist.
-
-  > [!NOTE]
-  > Die Skype für Business-Verwaltungskonsole kann nicht verwendet werden, so bearbeiten Sie eine Konferenz-ID, die automatisch erstellt wurde, aber Sie können Windows PowerShell verwenden, bearbeiten oder ändern eine Konferenz-ID, die Sie festgelegt haben. 
-     
-Zum Bearbeiten oder ändern die Konferenz-ID für einen Benutzer, führen Sie Folgendes aus:
-    
-  ```
-  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964
-  ```
-
-  > [!TIP]
-  > Eine Konferenzkennung muss sieben Ziffern umfassen. Sie kann nicht im Skype for Business Admin Center oder mit Windows PowerShell geändert werden. 
   
-### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-to-reset-the-conference-id"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) So setzen Sie die Konferenz-ID zurück.
+### <a name="to-reset-the-conference-id"></a>So setzen Sie die Konferenz-ID zurück.
 
 Sie können eine Konferenz-ID für einen Benutzer zurücksetzen "If"; beispielsweise, wenn sie es vergessen.
   
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+
+3. Klicken Sie unter **Audiokonferenzen**auf **Konferenz-ID zurückgesetzt**.
+
+4. Klicken Sie auf **Zurücksetzen**, klicken Sie im Fenster **Konferenz-ID zurückgesetzt** . A conference ID will be automatically created and an email sent to the user with the new conference ID.
+    
+    Sie können die Konferenz-ID für einen Benutzer mithilfe der Windows PowerShell zurücksetzen. Zu diesem Zweck führen Sie Folgendes aus:
+    
+  ```
+  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
+  ```
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.

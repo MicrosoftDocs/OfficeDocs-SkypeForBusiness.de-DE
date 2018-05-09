@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Senden Sie Ihre Benutzer eine e-Mail mit ihren Audiokonferenzinformationen.
-ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer
 
@@ -39,7 +39,25 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
   
 ![E-Mail zu einer Dial-In-Konferenz](../images/audio-conferencing-info.png)
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) Senden Sie eine e-Mail mit Audiokonferenzinformationen an einen Benutzer
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden Sie eine e-Mail mit Audiokonferenzinformationen an einen Benutzer
+
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+
+3. Klicken Sie unter **Audiokonferenzen**auf **Konferenz Informationen in e-Mail-Nachricht senden**.
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -51,9 +69,6 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
     
 > [!TIP]
 > Sie können e-Mail auch für den Benutzer mit den Einstellungen Audiokonferenzen senden, indem die Eigenschaften des Benutzers bearbeiten und dann auf **Audiokonferenzen** > **Konferenz Informationen per e-Mail senden**. 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Was sollten Sie sonst über diese E-Mails wissen?
 

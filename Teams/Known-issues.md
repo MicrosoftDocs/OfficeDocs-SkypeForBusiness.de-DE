@@ -3,15 +3,15 @@ title: Bekannte Probleme für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/30/2018
+ms.date: 5/8/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 087273d7d5d4d1eb20b83925087479ac702e72a3
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/08/2018
@@ -22,6 +22,10 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 ## 
 
 ## <a name="administration"></a>Verwaltung
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Hinzufügen von Mitgliedern zu Teams bei UsersPermissionToReadOtherUsersEnabled auf False festgelegt ist nicht möglich  <br/> |Wenn dieser Wert wird in AAD auf False festgelegt, Kunden nicht an externe/interne Mitglieder im Microsoft-Teams hinzuzufügen kann und die folgende Fehlermeldung wird angezeigt: "Es konnte nicht Mitglied hinzugefügt. Wir haben ein Problem ausgeführt. Versuchen Sie es später erneut." Mitglieder können jedoch direkt zu Office 365-Gruppen hinzugefügt werden.    <br/> |Diese Einstellung auf "true" in AAD geändert.  <br/> |4/10/18  <br/> |
+
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Admin-Verwaltung von Mandanten geltende Connectors ist nicht mehr verfügbar  <br/> |Beim Hinzufügen eines Connectors im Client und online-Version werden wir den Fehler: ein unerwarteter Fehler aufgetreten. Versuchen Sie es erneut. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Deaktivieren Sie mit Einstellungen für Teams. Finden Sie unter Support-Artikelhttps://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |21.06.2017  <br/> |
@@ -179,6 +183,10 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |Benutzer können kein Team erstellen.  <br/> |Möglicherweise hat Ihre Firma eine Richtlinie festgelegt, mit der eingeschränkt wird, wer Office 365-Gruppen oder Teams erstellen kann.  <br/> |Erkundigen Sie sich bei Ihrem IT-Administrator nach der Richtlinie Ihrer Firma für das Erstellen von Gruppen und Teams.  <br/> |13.03.2017  <br/> |
 
 ## <a name="tabs"></a>Registerkarten
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Website-Registerkarte, was zu Verwirrung führt Kunden  <br/> |Website-Registerkarten sind nicht gleichbedeutend mit Ihrem Browser. Eine Anzahl von Websites, insbesondere solche, die eine Authentifizierung erforderlich ist, oder verwenden Popups, funktionieren nicht, wenn als Website Registerkarte fixiert.  <br/> |Wir arbeiten auf die Verbesserung der Benutzeroberfläche, um für Kunden klarer zu machen.  <br/> |5/2/18  <br/> |
+
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Registerkarten nicht funktionsfähig, da bedingten Zugriff aktiviert wurde <br/> |Einige Registerkarten möglicherweise nicht mehr auf dem Desktop Client geladen, da bedingten Zugriff auf den Mandanten aktiviert wurde. Die Registerkarten geladen werden, wenn die Web-Client verwenden. Einige Registerkarten, die möglicherweise betroffen sind: PowerBI, Formulare, VSTS, PowerApps und SharePoint-Liste.  <br/> |Um die betroffenen Registerkarten finden Sie unter müssen Sie mit der Windows-10-Konten Erweiterung installiert Teams in Edge, Internet Explorer oder Chrome verwenden. Einige Registerkarten hängen weiterhin Webauthentifizierung, die nicht in den Desktopclient funktioniert, wenn die Zertifizierungsstelle aktiviert ist. Wir arbeiten mit Partnern diese Szenarien zu ermöglichen; Bisher haben wir Planner, OneNote und Stream aktiviert. <br/> |4/5/18  <br/>|

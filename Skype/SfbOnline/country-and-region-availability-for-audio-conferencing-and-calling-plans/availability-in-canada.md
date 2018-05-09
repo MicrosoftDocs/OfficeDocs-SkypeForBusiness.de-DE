@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: 6a5f5f0c73d82880acfd9adfa824825ed41b4f85
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e79b8960366881ae4f5e6d2205cd5b935b468b08
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="availability-in-canada"></a>Verfügbarkeit in Kanada
 
@@ -55,8 +55,10 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |3000 Minuten für Inlandsanrufe oder 600 Minuten für Auslandsanrufe (je nachdem, welche Grenze pro Kalendermonat zuerst erreicht wird) <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen  <br/> |
+|Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>600 Minute für in- und International plant aufrufen</li></li> 
+|Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
+> [!Note]
+> Aufrufe der USA werden als Gespräche behandelt.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

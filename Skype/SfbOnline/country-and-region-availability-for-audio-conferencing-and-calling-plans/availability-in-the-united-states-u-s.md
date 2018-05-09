@@ -21,8 +21,8 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die USA verfügbar.
-ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 36a33915108d11a65349e8c1fca73c57fe1feae7
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/08/2018
@@ -55,17 +55,10 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Minuten für den Aufruf von Plänen zur Verfügung. |Es sind drei Optionen zum Plan pro Kalendermonat verfügbar:
-- 120 Minuten nationalen aufrufen Plan (Verfügbarkeit ist begrenzt)
-- 240 Minuten nationalen aufrufen Plan (Verfügbarkeit ist begrenzt)
-- 1200 Minute nationalen aufrufen Plan
-- 1200 Minute nationalen aufrufen Plan
-- 600 Minuten für Auslandsgespräche (Wenn Sie eine National & International aufrufen planen erworben haben)
-
-Vereinigte Staaten nationalen aufrufen enthält Anrufe an alle 50 USA und Puerto Rico. Benutzer, die durch die Lizenz Usage Speicherort der USA und/oder Puerto Rico zugewiesen freigeben selben Pool von Minuten.
-|||
-|:-----|:-----|
-|Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen  <br/> |
+|Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li><li>240 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>600 Minuten für in- und International plant aufrufen</li></li> 
+|Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
+>[!Note] 
+> Vereinigte Staaten nationalen aufrufen enthält Anrufe an alle 50 USA und Puerto Rico. Benutzer, die durch die Lizenz Usage Speicherort der USA und/oder Puerto Rico zugewiesen freigeben selben Pool von Minuten.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
