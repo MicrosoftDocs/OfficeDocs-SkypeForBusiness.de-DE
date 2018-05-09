@@ -768,8 +768,8 @@
 #### [Änderungen, die durch die domänenvorbereitung](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)
 #### [Änderungen, die durch Grant-CsSetupPermission](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-cssetuppermission.md)
 #### [Änderungen, die durch Grant-CsOUPermission](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-csoupermission.md)
-## [Die Themen der Onlinehilfe](../help-topics/help-topics.md)
-### [Hilfe-DepWiz](../help-topics/help-depwiz/help-depwiz.md)
+## Die Themen der Onlinehilfe
+### Hilfe-DepWiz
 #### [Vorbereiten der einzelnen Standard Edition-Servers (Einführung)](../help-topics/help-depwiz/prepare-single-standard-edition-server-intro.md)
 #### [Vorbereiten der einzelnen Standard Edition-Servers (Aufruf)](../help-topics/help-depwiz/prepare-single-standard-edition-server-invoke.md)
 #### [Zertifikat anzeigen](../help-topics/help-depwiz/view-certificate.md)
@@ -840,7 +840,7 @@
 #### [Bereitstellungs-Assistenten: Pfad zur MSI-installer](../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md)
 #### [Bereitstellungs-Assistenten: Windows-Updates](../help-topics/help-depwiz/deployment-wizard-windows-update.md)
 #### [Bereitstellungs-Assistenten: Unified Communications API](../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md)
-### [Hilfe-LSCP](../help-topics/help-lscp/help-lscp.md)
+### Hilfe-LSCP
 #### [Verwenden Sie die Systemsteuerungsoption](../help-topics/help-lscp/use-the-control-panel.md)
 #### [Clientversionsrichtlinie: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen](../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md)
 #### [Clientversionsrichtlinie](../help-topics/help-lscp/client-version-policy.md)
@@ -1009,7 +1009,7 @@
 #### [Hybrid-Assistent: Benutzer verschieben](../help-topics/help-lscp/hybrid-wizard-move-user.md)
 #### [Hybride Verwaltbarkeit-Assistent](../help-topics/help-lscp/hybrid-manageability-wizard.md)
 #### [Hybrid-Assistent: Melden Sie sich bei Office 365](../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md)
-### [Hilfe-Planung](../help-topics/help-planning/help-planning.md)
+### Hilfe-Planung
 #### [Archiving](../management-tools/planning-tool/archiving.md)
 #### [Audio-Video-Konferenzen](../management-tools/planning-tool/audio-video-conferencing.md)
 #### [Zweigstellen](../management-tools/planning-tool/branch-sites.md)
@@ -1035,7 +1035,7 @@
 #### [VoIP-Infrastruktur](../management-tools/planning-tool/voice-infrastructure.md)
 #### [VoIP-Datenverkehr](../management-tools/planning-tool/voice-traffic.md)
 #### [Webkonferenzen](../management-tools/planning-tool/web-conferencing.md)
-### [Hilfe-TopoBld](../help-topics/help-topobld/help-topobld.md)
+### Hilfe-TopoBld
 #### [Fügen zusätzlicher SIP-Domänen hinzu](../help-topics/help-topobld/add-additional-sip-domains.md)
 #### [Hinzufügen eines Dateispeichers Archivierungsserver](../help-topics/help-topobld/add-archiving-server-file-store.md)
 #### [Hinzufügen des Archivierungsservers](../help-topics/help-topobld/add-archiving-server.md)
