@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams, für die nach Großbritannien verfügbar.
-ms.openlocfilehash: d8b6bbea48828e30a48ff8e63db7071bcdca3a3a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 51509ecbd2f1944cb8f0406efab557756536bbcf
+ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Verfügbarkeit in Großbritannien (Großbritannien)
 
@@ -51,12 +51,12 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |Voicemail  <br/> |Verfügbar  <br/> |
    
 ## <a name="calling-plans"></a>Anrufpläne
-
+    
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |1.200 Minuten für Inlandsanrufe oder 600 Minuten für Auslandsanrufe (je nachdem, welche Grenze pro Kalendermonat zuerst erreicht wird)  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen  <br/> |
+|Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>600 Minute für in- und International plant aufrufen</li></li> 
+|Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
