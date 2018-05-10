@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Bereitstellen von dem Tool SEFAUtil in Skype für Business Server ein.
-ms.openlocfilehash: 48fa0077315169e6a80e65e91d7ce9a31583cdb5
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Bereitstellen des SEFAUtil-Tools in Skype for Business 2015
  
@@ -29,7 +29,7 @@ Zum Bereitstellen und Verwalten der Gruppe anrufen Pickup-, müssen Sie die Skyp
 > [!IMPORTANT]
 > Microsoft Unified Communications Managed API (UCMA) 5 Runtime muss auf jedem Computer installiert sein, auf dem Sie das Tool SEFAUtil ausführen möchten. Hier herunterladen: [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344). Sie können auch die UCMA 5-SDK, einschließlich die Laufzeit hier herunterladen: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
   
-Sie können das Tool SEFAUtil in Ihrer Bereitstellung in einem beliebigen Front-End-Pool ausführen.
+Sie können das Tool SEFAUtil in Ihrer Bereitstellung in einem beliebigen Front-End-Pool ausführen. Zum Ausführen des Tools SEFAUtil müssen Sie die Schritte 1, 2 und 3 aus der Skype für Business Bereitstellungs-Assistenten auf dem Computer für die vertrauenswürdige Anwendung ausführen. SEFAUtil ist der lokale Konfigurationsspeicher vorhanden sein muss, sowie ein Zertifikat erforderlich.
   
 > [!NOTE]
 > Weitere Informationen zum Ausführen von SEFAUtil, finden Sie im Technet-Blog-Artikel "[SEFAutil unter Abrufen von?](https://go.microsoft.com/fwlink/?LinkId=278940)". 

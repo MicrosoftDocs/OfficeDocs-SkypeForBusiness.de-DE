@@ -1,7 +1,24 @@
 ---
-Titel: "Block eingehende Anrufe in Skype für Business Online" ms.author: Tonysmit Autor: Tonysmit Manager: Serdars ms.date: 05/07/2018 ms.topic: Artikel ms.assetid: ms.tgt.pltfrm: cloud ms.service: Skype-für-Business-online ms.collection: Adm_Skype4B_ Online ms.audience: Admin Appliesto: Skype für Business Localization_priority: normalen f1keywords: None ms.custom: PowerShell Beschreibung: "Verwenden von PowerShell zum Verwalten von eingehenden Anrufen in Skype Business Online blockieren."
+title: Blockieren Sie eingehende Anrufe in Skype Online für Unternehmen
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 05/07/2018
+ms.topic: article
+ms.assetid: ''
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto: Skype for Business
+localization_priority: Normal
+ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
+ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/10/2018
 ---
-
  # <a name="block-inbound-calls"></a>Eingehende Anrufe blockieren
 
 Skype für Business Online aufrufen plant unterstützt jetzt die Blockierung von eingehende Anrufe aus dem öffentlichen Telefonfestnetz (PSTN). Dieses Feature ermöglicht, dass eine globale Liste Mandanten rufnummernmuster definiert werden, sodass die Anrufer-ID von jeder eingehende PSTN-Anruf, um den Mandanten für eine Übereinstimmung mit der Liste eingecheckt werden kann. Wenn eine Übereinstimmung vorliegt, wird ein eingehender Anruf zurückgewiesen. 
@@ -14,7 +31,6 @@ Dieses Feature ist noch nicht für die direkte Weiterleitung verfügbar.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Rufen Sie die blockierenden Admin-Steuerelemente und Informationen
 Admin-Steuerelementen für blockierende Zahlen werden nur von PowerShell bereitgestellt. Block rufnummernmuster sind als Muster für reguläre Ausdrücke definiert. Die Reihenfolge der Ausdrücke ist nicht von Bedeutung – führt das erste in der Liste übereinstimmendes Muster zu den Anruf blockiert. Eine neue Nummer oder ein Muster hinzugefügt oder entfernt, in der Blockier-Anrufer Liste kann bis zu 24 Stunden dauern für das Muster aktiv wird.
-
 ## <a name="call-blocking-powershell-commands"></a>Rufen Sie die Blockierung von PowerShell-Befehlen
 
 *InboundBlockedNumberPattern* Rufnummernmuster werden über die *CsInboundBlockedNumberPattern* Befehle **New**, **Abrufen**, **festlegen**und **Entfernen von**verwaltet.  
@@ -57,4 +73,4 @@ Mithilfe von integrierten PowerShell Fähigkeiten Filtern um nach Bedarf die zur
 Wie bereits erwähnt, erfolgt die Mustervergleichs für das Blockieren von Anrufer mithilfe von regulären Ausdrücken (Regex). Es gibt mehrere Tools online zu helfen, eine Übereinstimmung mit einem Muster überprüft. Wenn Sie nicht mit Regex-Muster vertraut sind, wird empfohlen, dass Sie eine Weile dauern, machen Sie sich mit den Grundlagen vertraut, und verwenden Sie ein Tool für Mustervergleiche überprüfen, bevor Sie neue blockierte übereinstimmt Ihres Mandanten hinzufügen, um sicherzustellen, dass Sie die erwarteten Ergebnisse erhalten. 
 
 ## <a name="related-topics"></a>See Also
-[Einrichten des Computers für Skype für das Business online Management mithilfe von Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
+[Einrichten des Computers für Skype für das Business Online Management mithilfe von Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
