@@ -1,0 +1,159 @@
+---
+title: Anmerkungen zu dieser Version
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 4/17/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
+ms.openlocfilehash: 145934fbc68fd25d1535be3d1a09cef058bd9272
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2018
+---
+# <a name="release-notes"></a>Anmerkungen zu dieser Version 
+
+In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
+
+
+##  <a name="version-history"></a>Versionsverlauf
+
+| Version | Veröffentlicht <br>Microsoft Store | Ende der Unterstützung |
+| ---     | ---                              | ---         |
+| 3.1.104.0|            |            |
+| 3.1.100.0|            |            |
+| 3.1.98.0 |            |            |
+| 3.0.15.0 |            |            |
+| 3.0.12.0 |            |            |
+| 3.0.6.0 | 11/16/2017 | 11/16/2018 |
+| 2.0.2.0  | 03/15/2017 | 03/15/2018 |
+| RTM-VERSION (1.0.8)       | 7/12/2016  | 12/07/2017 |
+
+
+
+## <a name="skype-room-systems-v2-feature-introduction"></a>Einführung in die Skype Raum Systemen v2-feature
+
+
+### <a name="311040-04162018"></a>3.1.104.0 (04/16/2018)
+**Neue Features** in diesem Update eingeführt: 
+- IT-Experten Verbesserungen? 
+- Admin Verbesserungen?
+- Verbesserungen der Client-Benutzer?
+
+
+### <a name="311000-03162018"></a>3.1.100.0 (03/16/2018)
+**Neue Features** in diesem Update eingeführt: 
+- Anwendung zum Verbessern der Telemetrie aktualisiert.
+
+### <a name="31990-03142018"></a>3.1.99.0 (14/03/2018)
+**Neue Features** in diesem Update eingeführt: 
+- Updates ein Problem zeitweilige Besprechung beitreten, in dem Probleme auftreten.
+- Ein Problem wissen zu einem Gerät führt Updates "hängen" wünschen.
+
+
+### <a name="31980-00000000"></a>3.1.98.0 (00/00/0000)
+**Neue Features** in diesem Update eingeführt: 
+- Unterstützung für [da Hub 500](https://www3.lenovo.com/us/en/hub500) Andocken Hardware.
+- Hinweis: Erstellen ein Bild mit 3.1.98.0 und Windows 10 Version 1709 das Hinzufügen von Win10 Januar Update KB4056892 erfordert.  Darüber hinaus hat ein PS1-Skript für Bilder schneller erstellen verfügbar gemacht wurde.
+
+
+### <a name="30150-00000000"></a>3.0.15.0 (00/00/0000)
+**Neue Features** in diesem Update eingeführt: 
+- Unterstützung für [Polycom MSR Datenreihe](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) Andocken hardware
+- Unterstützung für die [Logitech Brio](https://www.logitech.com/en-us/product/brio)
+
+
+### <a name="30120-00000000"></a>3.0.12.0 (00/00/0000)
+**Neue Features** in diesem Update eingeführt:  
+- Führt auf Surface Pro (2017) tablet  
+- Unterstützt Windows 10 Enterprise Creator Update (englische, Build 1703)    
+- Unterstützung für [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Andocken hardware    
+- OEM-Unterstützung für Umgebung-Steuerelemente (Crestron)
+    
+Die 64-Bit-Version von Windows 10 Enterprise Jahrestag Edition (englische, Version 1607) wird nicht mehr Skype Raum Systemen v2 Version 3.0.12.0 (Update 3) unterstützt. 
+
+
+### <a name="3060-11162017"></a>3.0.6.0 (11/16/2017) 
+**Neue Features** in diesem Update eingeführt:  
+- Dual-Bildschirm Unterstützung (älterer Systeme Parität)   
+- Themability (integrierten Designs und die Möglichkeit, benutzerdefinierte Designs festgelegt) 
+- Die Möglichkeit, Feedback geben für Öffentliche builds     
+- Verbesserte Telemetrie an Besprechung teilnehmen Zuverlässigkeit     
+- Zusätzliche OMS reporting     
+- Möglichkeit für IT-Administrator können Sie Geräte Remote konfigurieren 
+    <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+
+
+### <a name="2020-03152017"></a>2.0.2.0 03/15/2017
+**Neue Features** in diesem Update eingeführt: 
+
+- Auswahl des meeting Room Audio- und USB-Geräte in app-Benutzers
+- Integrierte Raum Konsole Statusberichte für Kunden mit Microsoft Operations Management Suite (finden Sie unter [Planen von Skype Raum v2 systemverwaltung mit OMS](oms-management.md)) 
+
+### <a name="release-to-market"></a>Version auf den Markt 
+##### <a name="1272016"></a>7/12/2016
+**Features:** 
+
+ **Für Skype for Business konzipiert**
+  
+- One-Touch-Teilnahme an Skype-Besprechungen
+    
+- Optimierte Skype-Besprechungsumgebung für Räume mit bildschirmfüllendem HD-Video und HD-Breitbandaudio
+    
+- Alle Teilnehmer können über ihr bevorzugtes Gerät eine Verbindung mit der Skype-Besprechung herstellen – ganz gleich, wo sie sich gerade aufhalten.
+    
+- Sie können Personen aus Ihrem Verzeichnis, wo Sie ihre Verfügbarkeit sofort sehen können, oder telefonisch einladen.
+    
+- Unterstützt Skype for Business-PSTN-Konferenzen und -PSTN-Anrufe als Ersatz für das eigenständige Konferenztelefon in Ihrem Raum.
+    
+ **Neue Möglichkeiten für Besprechungsräume**
+  
+- Eigene Skype-Besprechungs-App mit Optimierung für einen Touchcontroller in der Tischmitte und einen großen Bildschirm vorn im Raum
+    
+- Nutzung vorhandener Investitionen in Bildschirme oder Projektoren
+    
+- Für alle Arten von Besprechungsräumen geeignet – von kleinen Besprechungsräumen bis hin zu großen Konferenzräumen
+    
+- Für Skype for Business zertifizierte Audio- und Videogeräte für verschiedene Raumgrößen
+    
+- Integrierte verkabelte Erfassung zum Projizieren der Desktopfreigabe in den Raum und die Skype-Besprechung
+    
+    
+ **Leicht bereitzustellen, einfach zu verwalten**
+  
+- Immer aktive Appliance, die die Bildschirme automatisch reaktiviert, sobald Personen im Raum erkannt werden
+    
+- Einfache Bereitstellung und Aktualisierung der UWP-App (Universal Windows Platform) für Skype-Besprechungen
+    
+- Feste Bindung des Geräts an die Skype-Besprechungs-App durch Windows AppLocker
+    
+- Überwachung und Verwaltung als Windows 10 Enterprise-Gerät über Intune und SCCM (MDM)
+    
+- Zuverlässigkeit der Unternehmensklasse
+    
+- Geringer Aufwand für Endbenutzerschulungen dank der vertrauten Skype-Benutzeroberfläche
+    
+- Führt auf Surface Pro 4-tablet
+ 
+
+<a name="See"> </a>  
+## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+
+
+#### 
+[Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+
+[Vorbereiten Sie Ihrer Skype Geschäftsumgebung](srs-v2-prep.md)
+
+[Unterstützung für Skype Raum Systemen v2 aktuellen Branch Versionen](srs2-lifecycle-support.md)
+
+[Bekannte Probleme bei Skype Raum Systemen v2](../../manage/skype-room-systems-v2/known-issues.md)
+
+[Planen von Skype Raum Systemen v2](skype-room-systems-v2-0.md)
+
+[Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+#### 
