@@ -1,6 +1,5 @@
 ---
 title: Einrichten von Telefonen in öffentlichen Bereichen
-description: Hier erfahren Sie die Schritte zur Bereitstellung, um die richtige Firmware erhalten möchten, aktualisieren sie bei Bedarf, Zuweisen von Lizenzen und Konfigurieren von Einstellungen für Telefone in öffentlichen Bereichen.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,107 +17,129 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
-ms.openlocfilehash: b7e3a20bc08af0900a64ceacc817bdeaffd5f326
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+description: Hier erfahren Sie die Schritte zur Bereitstellung, um die richtige Firmware erhalten möchten, aktualisieren sie bei Bedarf, Zuweisen von Lizenzen und Konfigurieren von Einstellungen für Telefone in öffentlichen Bereichen.
+ms.openlocfilehash: bcf7d8eaf287af0b801168c62e7c22915f735aa2
+ms.sourcegitcommit: 6b868f683e1f2354eb42fdf33911e77b7a3a83e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="set-up-common-area-phones"></a>Einrichten von Telefonen in öffentlichen Bereichen
-
-Ein Telefon im öffentlichen Bereich oder Cap hat, wird in der Regel in einem freigegebenen Bereich platziert und nicht mit einem einzelnen Benutzer verknüpft. Beispielsweise ein Empfang für Telefone, Tür Telefon- oder Meeting Room Telefon, CAPs Geräte, sondern als Benutzer eingerichtet sind, und automatisch mit dem Netzwerk anmelden. In den folgenden Schritten helfen wir Ihnen richten Sie ein Konto für Microsoft Telefonsystem mit Aufrufen plant und anschließendem Bereitstellen einer Cap hat.
+Ein Telefon im öffentlichen Bereich (CAP) platziert wird in der Regel im Bereich der ein Wartebereich oder einem anderen Bereich, der viele Personen zur Verfügung steht. Angenommen, ein Empfang für Telefone, Tür Telefon- oder Meeting Room Telefon, CAPs Geräte, sondern als Benutzer eingerichtet sind, und melden Sie sich automatisch in einem Netzwerk. In den folgenden Schritten helfen wir Ihnen richten Sie ein Konto für Telefonsystem mit plant aufrufen, damit Sie diese Typen von Telefonen für Ihre Organisation bereitstellen können.
 
 ## <a name="prerequisites-for-common-area-phones"></a>Erforderliche Komponenten für Telefone in öffentlichen Bereichen
 
-Vergewissern Sie sich, dass Sie über Folgendes verfügen:
+Erstes müssen Sie besteht darin, sicherzustellen, dass Sie über Folgendes verfügen:
 
--   - Telefone in öffentlichen Bereichen SKU erworben 
--   - Aktualisierte Firmware (unterstützt Firmware in diesem Thema finden Sie unter:https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
--   - Genehmigung Telefone (Anzeigen der Liste an:            
-        https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones)
+ - Kaufen Sie Telefone in öffentlichen Bereichen Lizenz und Aufrufen von planen.
+ - Suchen nach und genehmigte Telefone kaufen (Anzeigen der Liste [hier](deploying-skype-for-business-online-phones.md)).         
+ - Aktualisieren Sie die Firmware auf Ihrer Telefone (Siehe unterstützt Firmware [in diesem Thema](getting-phones-for-skype-for-business-online.md).  Sie können die Firmware auf Sie Telefon auf diese Weise überprüfen:       
+    - **Telefone Polycom VVX**: Rufen Sie die **Einstellungsseite** > **Status** > **Plattform** > **Anwendung** > **Main**.
+    - **Yealink Telefone**: Wechseln Sie auf **Status** auf dem Bildschirm Telefon.
+    - **AudioCodes Telefone**: Gehen Sie zum **Menü** > **Gerätestatus** > **Firmwareversion** auf der Startseite. 
+    - **Lync Phone Edition (LPE) Telefone**: Gehen Sie zum **Menü** > **Systeminformationen** aus dem Startbildschirm.
 
-## <a name="check-the-firmware-for-your-phone"></a>Überprüfen Sie die Firmware für Ihr Telefon
-- **Polycom VVX phones**, go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
-- **Yealink-Telefone**: Navigieren Sie auf dem Hauptbildschirm des Telefons zu **Status** (Status).
-- **AudioCodes phones**, go to **Menu** > **Device Status** > **Firmware version** from the start screen. 
-- **Telefone mit Lync Phone Edition (LPE)**: Navigieren Sie vom Startbildschirm aus zu **Menü** > **Systeminformationen**.
+    Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware für alle Skype for Business-zertifizierten Telefone wird auf den Skype for Business-Updateserver hochgeladen, und Geräteupdates sind in allen Telefonen standardmäßig aktiviert. 
 
-Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware für alle Skype for Business-zertifizierten Telefone wird auf den Skype for Business-Updateserver hochgeladen, und Geräteupdates sind in allen Telefonen standardmäßig aktiviert. 
+    Je nachdem, wann die Telefone inaktiv sind und welche Abrufintervalle festgelegt sind, werden die neuesten zertifizierten Builds automatisch heruntergeladen und installiert. Sie können die Device Update Einstellungen deaktivieren, indem Sie mithilfe des Cmdlets [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) und Festlegen des Parameters *EnableDeviceUpdate* auf `false`.
 
-Je nachdem, wann die Telefone inaktiv sind und welche Abrufintervalle festgelegt sind, werden die neuesten zertifizierten Builds automatisch heruntergeladen und installiert. Sie können die Einstellungen für Geräteupdates mit dem [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)-Cmdlet deaktivieren und den  _EnableDeviceUpdate_-Parameter auf  `false` festlegen.
+## <a name="setting-up-a-common-area-phone"></a>Einrichten einer Telefone in öffentlichen Bereichen
+Sie müssen die folgenden Schritte ausführen:
 
-## <a name="create-cap"></a>CAP erstellen
-Erstellen Sie die CAP durch Konfigurieren der Einstellungen, bevor Sie die Telefonapparat einrichten.
+### <a name="set-up-your-user-account-for-the-phone"></a>Richten Sie Ihr Benutzerkonto für das Telefon
 
-#### <a name="purchase-the-common-area-phone-sku"></a>Kaufen Sie das Telefon im öffentlichen Bereich SKU. 
-    In the Office 365 admin center, go to **Billing > Purchase Services**, and add **Common Area Phone**.
+#### <a name="step-1---buy-the-licenses"></a>Schritt 1: Erwerben von Lizenzen
+1. Wechseln Sie in das Office 365 Administrationscenter zu **Abrechnung** > **Dienste erwerben**, und fügen Sie **andere Pläne**.
 
-#### <a name="set-up-the-common-area-phone-----this-section-could-use-a-screen-shot--"></a>Richten Sie das Telefon im öffentlichen Bereich<!-- this section could use a screen shot-->
+    ![CAP license.png](../../images/cap-license.png)
+2. Klicken Sie auf **Telefon im öffentlichen Bereich** > **Jetzt kaufen** > auf der Seite auf **Auschecken** , klicken Sie auf **Jetzt kaufen**.
+3. Klicken Sie auf erweitern **Add-on-Abonnements** , und klicken Sie dann auf Kaufen aufrufen planen. Wählen Sie die **nationalen Plan aufrufen** oder **nationalen und internationalen aufrufen planen**.
 
-**Benutzer erstellen** 
-1. Zuweisen von Kontaktobjekten für Telefone SKU
-2. Zuweisen von Aufrufen planen (bei Verwendung von Microsoft Telefonsystem mit Aufrufen plant). 
-3. Zuweisen einer verfügbaren Telefonnummer in die Skype für Business Admin Center, oder fordern Sie eine neue Telefonnummer.
+> [!Note]
+> Eine Lizenz Telefonsystem ist nicht erforderlich. Es wurde mit der Lizenz für **Telefone in öffentlichen Bereichen** enthalten.
 
-**Erstellen Sie neuen Benutzer**
+Weitere Informationen zu Lizenzen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
-1. Klicken Sie im Bereich Bereitstellung müssen Sie eine Option, um einen ersten und letzten Namen (beispielsweise Empfang Main) eingeben.
-2. Geben Sie einen Anzeigenamen (erforderlich), z. B. "Main Empfang."
-3. Geben Sie einen Benutzernamen (erforderlich), zum Beispiel "MainReception" @"Domäne" (Name des Unternehmens oder Enterprise)
-4. Geben Sie Speicherort (Land).
+#### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 – Erstellen eines neuen Benutzerkontos für das Telefon und die Lizenzen zuweisen
+1. Wechseln Sie in das Office 365 Administrationscenter zu **Benutzern** > **Aktive Benutzer** > **Benutzer hinzufügen**.
+2. Tragen Sie einen **Benutzernamen ein** , wie "Main" für den ersten Namen und "Empfang" für den zweiten Namen.
+3. Wenn dies nicht der Fall einer standardbrowserformulare wie "Main Empfang" einen **Anzeigenamen** zu platzieren.
+4. Tragen Sie einen **Benutzernamen ein** , wie "MainReception" oder "Mainlobby".
+5. Für Telefone in öffentlichen Bereichen möchten Sie möglicherweise ein Kennwort manuell festlegen oder das gleiche Kennwort für alle von Ihnen Telefone in öffentlichen Bereichen haben. Darüber hinaus glauben Sie zum Aufheben der Auswahl **stellen diesen Benutzer ändern ihres Kennworts beim erstmaligen Anmelden**.
 
-**Zuweisen von Kontaktobjekten für Telefone SKU** Wechseln Sie in das Office 365 Administrationscenter zu **Abrechnung > Dienste erwerben** und Hinzufügen von **Kontaktobjekten für Telefone**
+    > [!Tip]
+    > Warte!! Klicken Sie nicht auf **Hinzufügen**. Ugh, wenn Sie **Hinzufügen** die klicken, dies: Office 365 Administrationscenter > **Benutzer** > **aktive Benutzer** und suchen Sie anschließend den Benutzer. Klicken Sie dann auf der Eigenschaftenseite des Benutzers auf **Lizenzen** , und klicken Sie dann auf **Bearbeiten**. Klicken Sie auf der Seite **Lizenzen** aktivieren Sie **Telefone in öffentlichen Bereichen** , und wählen Sie entweder einen **Nationalen aufrufen planen** oder eine National und **International aufrufen**.
 
-**Aufrufen von Plan CAP SKU zuweisen**
+6. Wenn Sie noch vorhanden sind, weisen Sie die Lizenzen an diesen Benutzer. Klicken Sie auf der gleichen Seite **um Lizenzen**zu erweitern. Aktivieren Sie die folgenden:
+    - Telefone in öffentlichen Bereichen
+    - Klicken Sie dann müssen Sie entweder einen **Nationalen aufrufen planen** oder eine National und **International aufrufen**auswählen.
+     
+    Zuweisen von Lizenzen wird wie folgt aus:
 
-1. Wählen Sie eine Aufrufen des Telefons aktivieren möchten. 
-2. Fügen Sie der Caps um Telefonsystem und Skype für Business Online – Plan 2 in der CAP SKU zu aktivieren. <!-- odd order for step -->
+    ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
 
-**Weisen Sie eine Telefonnummer**
-1. Überprüfen Sie unter Verfügbare Telefonnummern **VoIP > Telefonnummern**.
-2. Wählen Sie eine Rufnummer aus der Liste der verfügbaren Nummern Telefonnummer.
-3. Bestätigen Sie Ihre Auswahl durch Auswählen von **Sprach-** und **Rufnummern**.
+    > [!Note]
+    > Nur, damit Sie wissen, ist Skype für Business Plan 2 enthalten, mit der Lizenz für **Telefone in öffentlichen Bereichen** .
 
-    >[!NOTE]
-    VoIP-Benutzer werden nur anzeigen, wenn sie Telefonsystem Lizenz angewendet, obwohl auch nach dem anwenden, es aktualisieren dauern kann verfügen. Können erneut öffnen irgendwann Skype für Business Admin Center.
-    
-## <a name="configure-phone"></a>Konfigurieren des Telefons
+Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).
 
-**Vorbereiten der physischen Telefone**
+#### <a name="step-3---assign-a-phone-number-to-the-user"></a>Schritt 3: dem Benutzer eine Telefonnummer zuweisen
+![SFB-Logo-30x30.png](../../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+1. Im Office 365 Administrationscenter > **Admin zentriert** > **Skype für Unternehmen**.
+2. In der **Skype für Business Administrationscenter** >  **VoIP** > **Rufnummern**.
+3. Wählen Sie eine Rufnummer aus der Liste der Rufnummern, und klicken Sie auf **zuweisen**.
+4. Geben Sie auf der Seite **zuweisen** im Feld **Voice-Benutzer** den Namen des Benutzers, der für das Telefon und wählen Sie dann der Benutzer in der **ein VoIP-Benutzer auswählen** Dropdown-Liste verwendet wird. 
+5. Nutzen Sie dort auch müssen Sie zum Hinzufügen einer Notfall Adresse. Nachdem Sie durchsuchen, suchen Sie unter **Wählen Sie Notfall Adresse** auf die richtige für Sie auswählen.
+6. Klicken Sie auf **Speichern** , und die Benutzer sollte wie folgt aussehen:
 
-Das ausgewählte Telefon muss den Modus für Telefone in öffentlichen Bereichen haben. 
+    ![Cap-Benutzer-number.png](../../images/cap-user-number.png)
 
-***Beispiel Polycom VVX Telefon***
+   > [!Note]
+   > Benutzer werden nur angezeigt, wenn sie eine **Telefonsystem** Lizenz angewendet haben. Wenn Sie nur dies, erst dann manchmal etwas für den Benutzer in der Liste angezeigt wird.
 
-Aktivieren von Common Area Phone Mode für die Polycom VVX folgende Schritte:
-1. Verwenden Sie in Ihrem Browser die Weboberfläche, um auf die VVX CAP-Modus aktivieren
-2. Wechseln Sie zur **Einstellung** und in der Skype für Business Festlegen der Option, und wählen Sie **Telefone in öffentlichen Bereichen**.
-3. Klicken Sie auf **Ja** , um die Konfigurationseinstellungen speichern.
+Mehr Inhalte finden Sie unter [Getting Rufnummern für Ihre Benutzer](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
 
-Nun, dass der CAP Telefon-Modus aktiviert ist, richten Sie das Telefon mit Display des Telefons. Die Anzeige sollte angezeigt werden "CaAP aktiviert ist."
+Wenn Sie wissen möchten, können Sie auch Ihre Telefonnummer nutzen, indem Sie mit einem anderen Netzbetreiber und "*Port*" oder zu Office 365 übertragen. Angezeigt wird, [Übertragen von Telefonnummern zu Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
 
-1. Klicken Sie auf **Einstellungen**.
-2. Klicken Sie auf **Erweitert**.
-3. Geben Sie das Kennwort ein.
-4. Wählen Sie im administrationseinstellungen **Common Area Phone Settings**.
-5. Aktivieren Sie **CAP** und **CAP-Admin-Modus**.
-6. Klicken Sie auf **Konfiguration speichern**.
+## <a name="step-4---setting-up-your-phone"></a>Schritt 4: Einrichten des Telefons
 
-Ihr Telefon kann jetzt bereitgestellt werden, was werden Sie bei der Anmeldung auf dem Startbildschirm.
+**Festlegen des Modus auf einem Telefon**
 
-1. Melden Sie sich, indem Sie **Einstellungen**auswählen > **Features** > **Skype für Business.**
-2. Wählen Sie **Anmeldeinformationen des Benutzers**und **Web - Anmeldung (CAP)** um einen Code zu generieren.
-3. Wechseln Sie zu der Bereitstellung-Portal unter http://aka.ms/skypecap, und melden Sie sich als **Administrator**.
-4. Geben Sie Anzeigenamen ein (beispielsweise Main Empfang), um Ihre CAP anzuzeigen.
+Das Telefon oder Telefone, die Sie benötigen den Telefone in öffentlichen Bereichen-Modus aktiviert. Möglicherweise möchten Sie überprüfen, um sicherzustellen, dass dies der Fall ist. 
 
->[!NOTE]
-Wenn "-Suche für Telefone in öffentlichen Bereichen nur" ist ausgecheckt, deaktivieren Sie das Kontrollkästchen, und wiederholen Sie die Suche.
+**Es folgt ein Beispiel dafür, wie Sie ein Telefon Polycom VVX einrichten**
 
-5. Klicken Sie im Codefenster paarungs Geben Sie den Code auf dem Telefon angezeigt, und klicken Sie auf **Bereitstellung**.
+- Aktivieren Sie Telefone in öffentlichen Bereichen Modus für das Polycom VVX, durch die folgenden Schritte ausführen:
+    1. In Ihrem Browser eine Verbindung mit der Webschnittstelle, damit Sie CAP-Modus aktivieren können.
+    2. Wechseln Sie zur **Einstellung** und die Option **Skype für Business-Einstellung** , und wählen Sie **Telefone in öffentlichen Bereichen**.
+    3. Klicken Sie auf **Ja,** um die Einstellungen zu speichern.
 
-Nach diesem letzten Schritt sollte das Telefon automatisch anmelden.
+- Nun, dass der CAP-Modus aktiviert ist, richten Sie das Telefon mit Display des Telefons. Die Anzeige sollte anzeigen **CaAP ist aktiviert**. Klicken Sie dann folgendermaßen Sie vor:
 
-Weitere Informationen zu verfügbaren Telefonen unter [Bereitstellen von Skype für Business Online-Telefone](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
+    1. Klicken Sie auf **Einstellungen**.
+    2. Klicken Sie auf **Erweitert**.
+    3. Geben Sie das Kennwort ein.
+    4. Wählen Sie unter **Einstellungen für die** **Common Area Phone Settings**.
+    5. Aktivieren Sie **CAP** und **CAP-Admin-Modus**.
+    6. Klicken Sie auf **Konfiguration speichern**.
+
+- OK, kann nun Ihr Telefon, damit Sie auf der Startseite anmelden können.
+
+    1. Melden Sie sich, indem Sie **Einstellungen**auswählen > **Features** > **Skype für Business.**
+    2. Wählen Sie **Anmeldeinformationen des Benutzers**aus, und wählen Sie **Web - Anmeldung (CAP)** um einen Code zu generieren.
+    3. Besuchen Sie die [Bereitstellung Portal](http://aka.ms/skypecap), und melden Sie sich als **Administrator**.
+    4. Geben Sie den Anzeigenamen (beispielsweise Main Empfang).
+
+       > [!Note]
+       > Wenn **Suchen für Telefone in öffentlichen Bereichen nur** aktiviert ist, deaktivieren Sie das Kontrollkästchen, und suchen Sie erneut. "
+
+    5. Klicken Sie im Codefenster paarungs Geben Sie den Code auf dem Telefon angezeigt, und klicken Sie auf **Bereitstellung**.
+
+        Nach diesem letzten Schritt sollte das Telefon automatisch anmelden.
+
+### <a name="related-topics"></a>See Also
+
+- Weitere Informationen zu verfügbaren Telefonen unter [Bereitstellen von Skype für Business Online-Telefone](deploying-skype-for-business-online-phones.md).
+- [Kauf von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md)
 
 
