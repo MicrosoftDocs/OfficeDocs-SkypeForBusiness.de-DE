@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung einer Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 0fb1fbcde28c343787967485dd6cae36491311b7
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: b1216989dd5ac18f8cd4b4f97e7be975ca7289d7
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
@@ -28,35 +28,37 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
   
 - Eine 32GB oder größeren USB-Laufwerk als startbare Windows-Installationsmedium konfigurieren Sie für Windows 10 Enterprise. 
     
-- Einer der folgenden Tablet-PCs:
+- Einer der folgenden Tablets oder Konsolen:
     
 **Unterstützte tablets**
-
-
-|**Tablet**|**Prozessor**|**RAM**|**Datenträger**|
+|Tablet|Prozessor|RAM|Festplatte|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 & sup1;  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro 4 & sup1;  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro & sup1; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro 4    |Core i5  |4GB  |128GB  |
+|Surface Pro 4    |Core i5  |8GB  |256GB  |    
+|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
+|Surface Pro (2017)  |Core i7  |8GB  |128GB  |
+|Surface Pro (2017)  |Core i7  |16GB  |512GB  |
+|Surface Pro (2017) |Core i7  |16GB  |1TB  |
    
-& sup1; – Core M3-Prozessoren werden nicht auf dieses Modell unterstützt.
+> [!NOTE]
+> Core M3-Prozessoren werden nicht unterstützt.
+
+**Unterstützte Konsolen**
+|Konsole|Prozessor|RAM|Festplatte|
+|:-----|:-----|:-----|:-----|
+|[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+ <!-- HP dock is still pending  -->  
     
- 
+- Eine der folgenden docking Station Optionen auf einen Tablet zur Besprechung sichere Raum Tabelle. 
     
-- Eine der folgenden docking Station Optionen zum Sichern des Tabletts zur Besprechung Raum Tabelle. 
-    
-  - [Logitech SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [Polycom MSR Datenreihe](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **Certified-Firmware-Versionen für USB-audio und video Peripheriegeräte**
 |**Skype-Chatroom-Systemen v2 Peripheriegeräte**|**Firmwareversion zertifiziert für Skype Raum Systemen v2**|
@@ -133,7 +135,7 @@ Sie benötigen ein eigenes Bild Skype Raum Systemen v2 erstellen die folgenden D
     
 Diese Downloads müssen in einer startbare Windows Media-Installationsdatenträger auf eine bestimmte Weise kombiniert werden in [Configure Skype Raum Systemen v2 Konsole](../../deploy/deploy-clients/console.md)beschrieben. 
   
-Darüber hinaus sollten Sie wahrscheinlich eine Kopie des [Powershell-Skripts](https://go.microsoft.com/fwlink/?linkid=870105) zum Bereitstellen von Skype Raum Systemen v2 Konten verwendet.
+Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioningScript.ps1](../../deploy/deploy-clients/room-systems-v2-scripts.md), zum Bereitstellen von Skype Raum Systemen v2 Konten verwendet.
   
 ## <a name="see-also"></a>Siehe auch
 

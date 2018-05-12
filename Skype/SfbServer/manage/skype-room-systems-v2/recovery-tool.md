@@ -8,13 +8,12 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: In diesem Artikel wird erläutert, wie das Wiederherstellungstool verwenden für Skype Raum Systemen v2, Sie verwenden würden, um ein veraltet System in einem unterstützten Zustand bringen.
-ms.openlocfilehash: 7c7a6188ec1cbd1153c09b768e81789fcffd266e
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: fd71fc189b7471e4e315b6602014a967be09f9c0
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-the-skype-room-systems-v2-recovery-tool"></a>Verwenden Sie das Skype Raum Systemen v2 Recovery-tool
  
@@ -64,6 +63,7 @@ Sie müssen auch [KB4089848](http://download.windowsupdate.com/d/msdownload/upda
 
 
 #### 
+[Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Verwalten von Skype Raum Systemen v2](skype-room-systems-v2.md)
 #### 

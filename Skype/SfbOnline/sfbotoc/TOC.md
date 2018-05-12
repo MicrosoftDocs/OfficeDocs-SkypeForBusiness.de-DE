@@ -34,14 +34,13 @@
 ### [Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Aktivieren oder Deaktivieren von Benachrichtigungen bei Zu- oder Abgang für Besprechungen](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-
-
 ## [Anrufpläne in Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Hinzufügen oder Entfernen einer Notfalladresse für Ihre Organisation](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md).
 ### [Zuweisen oder Ändern einer Notfalladresse für einen Benutzer](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Bekannte Probleme mit Anrufplänen](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
+### [Eingehende Anrufe blockieren](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
+### [Bekannte Probleme bei Anrufplänen](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Ändern der Notfalladresse für einen Benutzer](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Ändern der Notfallstandorts für einen Benutzer](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Erstellen und Verwalten von Wählplänen](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
@@ -77,6 +76,7 @@
 ### [Erstellen einer Telefonsystem-Anrufwarteschleife](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Erwerben von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Bereitstellen von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+#### [Festlegen von allgemeinen Bereich Telefone (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Dies erhalten Sie mit Telefonsystem](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Voicemail für Telefonsystem

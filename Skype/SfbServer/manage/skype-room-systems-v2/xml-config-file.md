@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Gerät Skype Raum Systemen v2, einschließlich eines benutzerdefinierten Designs verwendet.
-ms.openlocfilehash: 14891401c8cd13f35879ea064f2be49f88b1c68a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74f098e44e3b25eafd48d1309e0454034f56d1f5
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Verwalten einer Skype Room Systems v2-Konsoleneinstellung auf einem Remote-Gerät mit einer XML-Konfigurationsdatei
  
@@ -72,7 +72,7 @@ Wenn die XML-Datei falsch formatiert wurde (Elemente sind nicht funktionsfähig,
 |\<SkypeSettings\>  <br/> |Container für alle Elemente.  <br/> ||Erforderlich.  <br/> |
 | \<AutoScreenShare\> <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert. <br/> |
 |\<HideMeetingName\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Falls zutreffend, sind die Besprechungsnamen ausgeblendet.  <br/> |
-|\<"Useraccount" bei\>  <br/> |Container  <br/> |Erste & #x 2776; <br/> |Container für Anmeldeinformationen-Parameter.  <br/> Die Anmeldeadresse, Exchange-Adresse, oder E-Mail-Adresse sind in der Regel gleich, wie zum Beispiel RanierConf@contoso.com.   <br/> |
+|\<"Useraccount" bei\>  <br/> |Container  <br/> |Erste & #x 2776; <br/> |Container für Anmeldeinformationen-Parameter.  <br/> Anmelden bei Adresse, die Exchange-Adresse oder die e-Mail-Adresse in der Regel identisch sind, wie etwa RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig aktiviert.  <br/> |
 |\<TeamsMeetingsEnabled\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig deaktiviert.  <br/> Die XML-Datei wird nicht wohlgeformten betrachtet, wenn beide \<SkypeMeetingsEnabled\> und\<TeamsMeetingsEnabled\> sind deaktiviert, aber es ist akzeptabel, beide Einstellungen zur selben Zeit aktiviert haben.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |Zeichenfolge 3 <br/> ||Der Anmeldename für das Skype for Business-Gerätekonto der Konsole.  <br/> |
@@ -109,16 +109,16 @@ Beim Start eine Skype Raum Systemen v2 Konsole findet eine XML-Datei mit dem Nam
   
 Je nach wie vielen Geräten von Skype Raum Systemen v2 Ihr Unternehmen hat und wie verwalten sie konfiguriert werden soll, es gibt eine Reihe von Methoden, um die XML-Konfigurationsdatei zu platzieren. Sobald die Datei  in die Konsole verschoben wurde, starten Sie das Gerät, um die Konfigurationsänderungen zu verarbeiten. Die XML-Datei wird nach erfolgreicher Verarbeitung entfernt. Die Management-Methoden für Skype Raum Systemen v2 Geräte vorgeschlagen werden in erläutert:
   
-- [Konfigurieren von Gruppenrichtlinie für Skype Room Systems v2](skype-room-systems-v2.md#GroupPolicy)
+- [Konfigurieren von Gruppenrichtlinie für Skype Room Systems v2](room-systems-v2-operations.md#GroupPolicy)
     
-- [Remoteverwaltung mithilfe von PowerShell](skype-room-systems-v2.md#RemotePS) und [Konfigurieren einer Datei](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+- [Remoteverwaltung mithilfe von PowerShell](room-systems-v2-operations.md#RemotePS) und [Konfigurieren einer Datei](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
 Sie können eine beliebige-Methode verwenden, solange Sie es zum Übertragen von Dateien und lösen einen Neustart des Geräts Konsole verwenden können möchten. Die Datei muss lesbar, nicht schreibgeschützt und durch das Gerät lokales Benutzerkonto (vorzugsweise, es sollte Besitz und besitzen vollständige Berechtigungen gewährt, die diesem Benutzer) löschen können. Wenn die Dateiberechtigungen nicht richtig eingestellt sind, wird die Software scheitern mitunter Anwendung die Einstellungen, scheitern mitunter So löschen Sie die Datei beim erfolgreiche Verarbeitung und sogar potenziell abstürzt.
   
 ## <a name="custom-theme-images"></a>Benutzerdefinierte Designbilder
 <a name="Themes"> </a>
 
-Benutzerdefiniertes Design Bilddatei muss platziert werden in **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, geben den Dateinamen und die Erweiterung in der <CustomThemeImageUrl> Variable.
+Benutzerdefiniertes Design Bilddatei muss platziert werden in **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, geben den Dateinamen und die Erweiterung in der \<CustomThemeImageUrl\> Variable.
   
 Die Bilddatei muss genau 3840X1080 Pixel enthalten und eines der folgenden Formate aufweisen: jpg, jpeg, png und bmp. Wenn Ihre Organisation ein benutzerdefiniertes Bild möchte, wird ein Graphic Designer unsere [Benutzerdefinierte Designs Photoshop Vorlage](https://go.microsoft.com/fwlink/?linkid=870441) hilfreich. Sie enthält weitere Details auf verschiedenen Elemente in einem Design-Abbild platzieren und welche Bereiche auf Konsolen und zeigt angezeigt.
   
@@ -132,5 +132,5 @@ Die XML-Konfigurationsdatei muss beim Starten des Geräts aktualisiert werden, d
 [Verwalten von Skype Raum Systemen v2](skype-room-systems-v2.md)
 #### 
 
-[Konfigurieren eines Dateielements für](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+[Konfigurieren eines Dateielements für](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 

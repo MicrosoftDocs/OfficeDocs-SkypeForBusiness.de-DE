@@ -13,11 +13,11 @@ ms.audience: Admin
 appliesto: Skype for Business
 localization_priority: Normal
 ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 7a9d9637973f18e5322e1c39d38627b0883f2c9f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 05/11/2018
 ---
  # <a name="block-inbound-calls"></a>Eingehende Anrufe blockieren
 
@@ -27,7 +27,8 @@ Dieses Feature zum Blockieren von eingehenden Anruf funktioniert nur für eingeh
 
 Dieses Feature ist noch nicht für die direkte Weiterleitung verfügbar.
 
->[Hinweis] Blockierte Anrufer können geringfügig Symptome auftreten, wenn sie blockiert wurden. Das Verhalten basiert auf wie der blockierten Anrufer Netzbetreiber die Benachrichtigung behandelt, die der Anruf nicht zulässig ist, erfolgreich ausgeführt werden. Beispiele Netzbetreiber Meldung an, der Anruf kann nicht abgeschlossen werden, wie gewählt, oder löschen einfach den Anruf.
+>[!NOTE]
+ Blockierte Anrufer können geringfügig Symptome auftreten, wenn sie blockiert wurden. Das Verhalten basiert auf wie der blockierten Anrufer Netzbetreiber die Benachrichtigung behandelt, die der Anruf nicht zulässig ist, erfolgreich ausgeführt werden. Beispiele Netzbetreiber Meldung an, der Anruf kann nicht abgeschlossen werden, wie gewählt, oder löschen einfach den Anruf.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Rufen Sie die blockierenden Admin-Steuerelemente und Informationen
 Admin-Steuerelementen für blockierende Zahlen werden nur von PowerShell bereitgestellt. Block rufnummernmuster sind als Muster für reguläre Ausdrücke definiert. Die Reihenfolge der Ausdrücke ist nicht von Bedeutung – führt das erste in der Liste übereinstimmendes Muster zu den Anruf blockiert. Eine neue Nummer oder ein Muster hinzugefügt oder entfernt, in der Blockier-Anrufer Liste kann bis zu 24 Stunden dauern für das Muster aktiv wird.

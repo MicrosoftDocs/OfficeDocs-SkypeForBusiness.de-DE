@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie in Microsoft Operations Management Suite mit Weise integrierte, End-to-End-Verwaltung von Skype Raum Systemen v2 Geräte bereitstellen.
-ms.openlocfilehash: e401981c1bdb35f78212451db231a882c07d57d1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 13648c9a74cbd30f69884eb19fde5004999cc4e3
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Bereitstellen der Verwaltung von Skype Room System V2 mit OMS
  
@@ -169,7 +169,7 @@ Nachdem Daten erfasst werden und benutzerdefinierte Felder zugeordnet sind, kön
 
 Sie können ein Dashboard Vorgänge Management Suite importieren und Überwachung Ihrer Geräte sofort zu starten. Führen Sie die folgenden Schritte aus, um das Dashboard zu importieren:
 
-1.  Laden Sie das [Dashboard](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview).
+1.  Rufen Sie die [SkypeRoomSystems_v2.omsview](room-systems-v2-scripts.md) -Dashboard-Datei.
 2.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](http://aka.ms/omsportal).
 3.  Öffnen Sie **Designer anzeigen**.
 4.  Die Option **Importieren**aus, und wählen Sie dann die Datei **SkypeRoomSystems_v2.omsview** aus.

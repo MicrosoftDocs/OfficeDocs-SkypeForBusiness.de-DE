@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie das Skype Room Systems v2-Konsolengerät und die entsprechenden Peripheriegeräte einrichten.
-ms.openlocfilehash: b9b786de35af63202b168b0664440d28302492e5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -49,7 +49,7 @@ Installieren der Skype Raum Systemen v2-app in einem Surface Pro 4 oder Surface 
 > Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise Jahrestag Update verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben. 
   
 1. Laden Sie die [MSU für KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Laden Sie das [Skript CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+2. Laden Sie das [Skript CreateSrsMedia.ps1](room-systems-v2-scripts.md).
 3. Platzieren Sie die MSU für KB4056892 im gleichen Verzeichnis befindet wie das Skript CreateSrsMedia.ps1.
 4. Führen Sie das Skript CreateSrsMedia.ps1 aus einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows-10-Computer.
 
@@ -164,7 +164,7 @@ Das Skype Raum Systemen v2-Gerät muss Zertifikate von der Skype für Geschäfts
 
 1. Laden Sie das Zertifizierungsstellenzertifikat auf Ihren Computer herunter, und speichern Sie es unter „C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer“.
     
-2. Platzieren Sie die Fläche 4 im Admin-Modus (siehe [Admin-Modus und Gerät Management](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).
+2. Platzieren Sie die Fläche 4 im Admin-Modus (siehe [Admin-Modus und Gerät Management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 3. Führen Sie den folgenden Befehl aus:
     
@@ -175,11 +175,11 @@ Das Skype Raum Systemen v2-Gerät muss Zertifikate von der Skype für Geschäfts
 ### <a name="join-an-active-directory-domain-optional"></a>Beitritt zu einer Active Directory-Domäne (optional)
 <a name="Certs"> </a>
 
-Sie können an Ihre Domäne Skype Raum Systemen v2 Geräte teilnehmen. Skype Raum Systemen v2 Geräte sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht mit Skype Raum Systemen v2 kompatibel sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die verhindern Skype Raum Systemen v2 automatisch gestartet. Informationen über die Verwaltung der Gruppenrichtlinienergebnisse finden Sie unter [Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md). 
+Sie können an Ihre Domäne Skype Raum Systemen v2 Geräte teilnehmen. Skype Raum Systemen v2 Geräte sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht mit Skype Raum Systemen v2 kompatibel sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die verhindern Skype Raum Systemen v2 automatisch gestartet. Informationen über die Verwaltung der Gruppenrichtlinienergebnisse finden Sie unter [Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md). 
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>So verbinden Sie Skype Room Systems v2 durch einen Domänenbeitritt mit einer Domäne
 
-1. Melden Sie sich bei der Konsole aus der Administrator beifügen (siehe [Admin-Modus und Gerät Management](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).
+1. Melden Sie sich bei der Konsole aus der Administrator beifügen (siehe [Admin-Modus und Gerät Management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 2. Starten Sie eine PowerShell-Eingabeaufforderung mit erhöhten Rechten.
     
