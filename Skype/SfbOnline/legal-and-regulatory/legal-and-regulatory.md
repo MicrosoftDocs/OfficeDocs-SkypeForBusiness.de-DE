@@ -18,10 +18,10 @@ f1keywords: None
 ms.custom:
 - Legal
 description: 'Hierbei handelt es sich um Inhalte, die veröffentlicht werden muss, um Eingabehilfen Compliance erfüllen und rechtliche Vorschriften für Skype für Business Online in Frankreich. '
-ms.openlocfilehash: 498fbb07ab5d2dd6ea036e1ceeb1e5598203a8cf
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 7c17cd60f7ba693a182e22aeba8d160942a6bf37
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="legal-and-regulatory"></a>Rechtliche Hinweise und behördlichen
