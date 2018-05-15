@@ -1,0 +1,1 @@
+# <a name="welcome-to-officedocs-skypeforbusinessserver"></a><span data-ttu-id="4ecc1-101">Willkommen beim OfficeDocs SkypeForBusinessServer!</span><span class="sxs-lookup"><span data-stu-id="4ecc1-101">Welcome to OfficeDocs-SkypeForBusinessServer!</span></span>

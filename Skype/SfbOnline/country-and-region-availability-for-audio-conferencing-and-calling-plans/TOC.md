@@ -77,6 +77,7 @@
 ### [Erstellen einer Telefonsystem-Anrufwarteschleife](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Erwerben von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Bereitstellen von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+###[Festlegen von allgemeinen Bereich Telefone (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Dies erhalten Sie mit Telefonsystem](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Voicemail für Telefonsystem
