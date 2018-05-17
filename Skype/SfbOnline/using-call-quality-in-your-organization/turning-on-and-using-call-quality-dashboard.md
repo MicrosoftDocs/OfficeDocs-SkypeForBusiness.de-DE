@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: 10826d22d2110d73b5233c36837fc5d20d34e382
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f8a7a71a0e0c0e64ceb7447c53c15483d977e16a
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
 
@@ -247,7 +247,7 @@ Wenn Sie die Dimensionen und Kennzahlen für einen einzelnen Medientyp anzeigen 
 
 [Verwenden Sie Analytics rufen Sie für die Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Unterschied zwischen Anruf Analytics und Anrufqualität Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Cll Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

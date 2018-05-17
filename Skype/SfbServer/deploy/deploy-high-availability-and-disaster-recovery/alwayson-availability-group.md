@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe auf einem Back-End-Server in Skype for Business Server 2015
+title: Bereitstellen einer immer auf Verfügbarkeitsgruppe auf einem Back-End-Server in Skype für Business Server 2015
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,35 +10,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
-description: Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe in Ihrer Skype (Installation) für Business Server-Bereitstellung.
-ms.openlocfilehash: 858f8cd317ecccde315475bc6489c74d79bf72c6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Bereitstellen Sie Bereitstellung (Installation) immer auf Verfügbarkeit in eine Gruppe Ihrer Skype zu Business Server.
+ms.openlocfilehash: ed6155ca1d3c7b24450bd8ca5099c2f6fc75e8a4
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="deploy-an-alwayson-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe auf einem Back-End-Server in Skype for Business Server 2015
+# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>Bereitstellen einer immer auf Verfügbarkeitsgruppe auf einem Back-End-Server in Skype für Business Server 2015
  
-Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe in Ihrer Skype (Installation) für Business Server-Bereitstellung.
+Bereitstellen Sie Bereitstellung (Installation) ein immer auf Availability Group (AG) in Ihrer Skype zu Business Server.
   
-Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie in einen neuen Pool, einem vorhandenen Pool, das Spiegelung verwendet oder einen vorhandenen Pool aus, der derzeit keine hohen Verfügbarkeit für die Back-End-Datenbank verfügt.
+Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie in einen neuen Pool, einem vorhandenen Pool, das Spiegelung verwendet oder einen vorhandenen Pool aus, der derzeit keine hohen Verfügbarkeit für die Back-End-Datenbank verfügt.
   
 > [!NOTE]
-> Verwendung einer Verfügbarkeitsgruppe "AlwaysOn" mit einer Persistent Chat Server-Rolle wird nicht unterstützt. 
+> Verwendung einer AG mit einer Persistent Chat Server-Rolle wird nicht unterstützt. 
   
-> [!IMPORTANT]
-> Instanznamen für mehrere Instanzen von AlwaysOn Availability Group müssen identisch sein. 
-  
-- [Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe in einem neuen Front-End-Pool](alwayson-availability-group.md#BKMK_NewPool_CreateAlwaysOnGroup)
+- [Bereitstellen einer immer auf Availability Group auf einen neuen Front-End-pool](alwayson-availability-group.md#BKMK_NewPool_CreateAlwaysOnGroup)
     
-- [Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe in einem bereits vorhandenen Pool, der Datenbankspiegelung verwendet](alwayson-availability-group.md#BKMK_MirroredPool_CreateAlwaysOnGroup)
+- [Bereitstellen einer immer auf Availability Group in einem vorhandenen Pool, das der datenbankspiegelung verwendet](alwayson-availability-group.md#BKMK_MirroredPool_CreateAlwaysOnGroup)
     
-- [Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe in einem bereits vorhandenen Pool, der keine Datenbankspiegelung verwendet](alwayson-availability-group.md#BKMK_NoHAPool_CreateAlwaysOnGroup)
+- [Bereitstellen einer immer auf Availability Group in einem vorhandenen Pool, das nicht-datenbankspiegelung verwendet wird](alwayson-availability-group.md#BKMK_NoHAPool_CreateAlwaysOnGroup)
     
-## <a name="deploy-an-alwayson-availability-group-on-a-new-front-end-pool"></a>Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe in einem neuen Front-End-Pool
+## <a name="deploy-an-always-on-availability-group-on-a-new-front-end-pool"></a>Bereitstellen einer immer auf Availability Group auf einen neuen Front-End-pool
 <a name="BKMK_NewPool_CreateAlwaysOnGroup"> </a>
 
-1. Einrichten von Windows Server Failover Clustering ein, auf allen Datenbankservern, die Teil der AlwaysOn Availability Group sein werden. Führen Sie auf jedem Server die folgenden Schritte aus:
+1. Aktivieren Sie das Feature Failover-Clusterunterstützung auf allen Datenbankservern, die Teil der AG sein wird. Führen Sie auf jedem Server die folgenden Schritte aus:
     
    - Öffnen Sie Server-Manager und klicken Sie auf **Rollen und Funktionen hinzufügen**.
     
@@ -62,7 +59,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
     Der Assistent zeigt wahrscheinlich mehrere Warnungen an, vor allem dann, wenn Sie keine freigegebenen Speicher verwenden. Sie sind nicht daran gebunden, freigegebene Speicher zu verwenden. Sie müssen jedoch angezeigte **Fehler** zuerst beheben, bevor Sie fortfahren.
     
-3. Erstellen Sie den Cluster.
+3. Erstellen Sie die Windows Server-Failovercluster (WSFC).
     
    - Klicken Sie im Assistenten **Failovercluster-Management**mit der rechten Maustaste auf **Failovercluster-Management** und dann auf **Cluster erstellen**.
     
@@ -86,7 +83,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Klicken Sie auf der Seite **Bestätigung** auf **Weiter**.
     
-5. Aktivieren Sie im SQL Server-Konfigurations-Manager jedes Clusters „Always On“.
+5. Aktivieren Sie auf jedem Server im Cluster das AG-Feature in SQL Server-Konfigurations-Manager.
     
    - Öffnen Sie den SQL Server-Konfigurations-Manager. Klicken Sie in der Struktur am linken Bildschirmrand auf **SQL Server-Dienste** und doppelklicken Sie darauf.  
     
@@ -96,7 +93,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Öffnen Sie SQL Server Management Studio und verbinden Sie sich mit der SQL Server-Instanz.
     
-   - Erweitern Sie im Objekt-Explorer den Ordner **Hohe Verfügbarkeit AlwaysOn**. Klicken Sie mit der rechten Maustaste auf den Ordner **Verfügbarkeitsgruppen** und klicken Sie auf **Neuer Verfügbarkeitsgruppen-Assistent**.
+   - Erweitern Sie im Objekt-Explorer den Ordner **Immer auf hohe Verfügbarkeit** . Klicken Sie mit der rechten Maustaste auf den Ordner **Verfügbarkeitsgruppen** und klicken Sie auf **Neuer Verfügbarkeitsgruppen-Assistent**.
     
    - Wenn sich die Seite **Einführung** öffnet, klicken Sie auf **Weiter**.
     
@@ -124,19 +121,19 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Prüfen Sie auf der Seite**Zusammenfassung** alle Einstellungen, und klicken Sie auf Fertig stellen.
     
-7. Topologie-Generator zum Erstellen des Front-End-Pools verwenden, wie im erläutert [Erstellen und veröffentlichen Sie die neue Topologie in Skype für Business Server 2015](../../deploy/install/create-and-publish-new-topology.md). Wenn Sie dies tun, geben Sie die AlwaysOn Availability Group als SQL-Speicher für den Pool.
+7. Topologie-Generator zum Erstellen des Front-End-Pools verwenden, wie im erläutert [Erstellen und veröffentlichen Sie die neue Topologie in Skype für Business Server 2015](../../deploy/install/create-and-publish-new-topology.md). Wenn Sie dies tun, geben Sie die AG als SQL-Speicher für den Pool.
     
-8. Nachdem die Pools und der AlwaysOn Availability Group bereitgestellt werden, führen Sie einige abschließende Schritte, um sicherzustellen, dass die SQL-Anmeldungen auf den einzelnen Replikate in der AlwaysOn Availability Group sind. 
+8. Führen Sie nach dem Pool und die AG bereitgestellt werden, einige abschließende Schritte, um sicherzustellen, dass die SQL-Anmeldungen auf den einzelnen Replikate in der AlwaysOn Availability Group sind. 
     
    - Öffnen Sie Topologie-Generator zu, wählen Sie **Topologie aus einer vorhandenen Bereitstellung herunterladen**aus, und klicken Sie auf **OK**.
     
    - Erweitern Sie erst „Skype for Business Server“, dann Ihre Topologie und dann **SQL Server-Speicher**. Mit der rechten Maustaste in des SQL-Speichers der neuen AlwaysOn Availability Group, und klicken Sie auf ** Bearbeiten Eigenschaften **.
     
-    - Ändern Sie den Wert am unteren Rand der Seite in das Feld **SQL Server-FQDN** dem vollqualifizierten Domänennamen des der Listener die AlwaysOn Availability Group.
+    - Ändern Sie den Wert am unteren Rand der Seite in das Feld **SQL Server-FQDN** dem vollqualifizierten Domänennamen des dem die AG-Listener.
     
    - Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und anschließend auf **Veröffentlichen**. Klicken Sie als Nächstes auf der Bestätigungsseite auf **Weiter**. Warten Sie einige Minuten, bis sich die neue Topologie repliziert hat.
     
-   - Öffnen Sie SQL Server Management Studio, und navigieren Sie zu der AlwaysOn Availability Group. Führen Sie ein Failover zu einem sekundären Replikat aus.
+   - Öffnen Sie SQL Server Management Studio, und navigieren Sie zu der AG. Führen Sie ein Failover zu einem sekundären Replikat aus.
     
    - Öffnen von Skype für Business Server-Verwaltungsshell, und geben Sie das folgende Cmdlet aus, um die SQL-Anmeldungen auf dieses Replikat zu erstellen:
     
@@ -146,11 +143,11 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
 
    - Wiederholen Sie die vorherigen beiden Schritte (verwenden Sie ein Failover der Gruppe sein, um ein sekundäres Replikat `Install-CsDatabase -Update`) für jedes Replikat in der Gruppe.
     
-## <a name="deploy-an-alwayson-availability-group-on-an-existing-pool-that-uses-database-mirroring"></a>Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe in einem bereits vorhandenen Pool, der Datenbankspiegelung verwendet
+## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-uses-database-mirroring"></a>Bereitstellen einer immer auf Availability Group in einem vorhandenen Pool, das der datenbankspiegelung verwendet
 <a name="BKMK_MirroredPool_CreateAlwaysOnGroup"> </a>
 
 > [!NOTE]
-> Wenn für Ihre Organisation eine AlwaysOn Availability Group Hosts zentralen zum Aktualisieren auf Pool gespeichert werden sollen, müssen Sie zuerst die CMS in einen anderen Pool verschieben, vor dem upgrade in diesem Pool. Verschieben Sie den Pool mit dem Cmdlet „Move-CsManagementServer“. Wenn Sie einen anderen Pool nicht in Ihrer Organisation verfügen, können Sie vorübergehend Standard Edition-Server bereitstellen und CMS an diesen Server verschieben, bevor Sie ein des Pools auf der AlwaysOn Availability Group Upgrade. 
+> Wenn der Pool, für den Sie zu einer AG Upgrade des zentralen Verwaltungsspeichers für Ihre Organisation gehostet wird, müssen Sie zuerst die CMS in einen anderen Pool verschieben, vor dem upgrade in diesem Pool. Verschieben Sie den Pool mit dem Cmdlet „Move-CsManagementServer“. Wenn Sie einen anderen Pool nicht in Ihrer Organisation verfügen, können Sie vorübergehend Standard Edition-Server bereitstellen und CMS an diesen Server verschieben, bevor Sie den Pool auf die AG aktualisieren. 
   
 1. Alle Daten aus dem Spiegel zum Prinzipal Knoten, Öffnen von Skype für Business Server-Verwaltungsshell und geben das folgende Cmdlet ein Failover.
     
@@ -176,9 +173,9 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Öffnen SQL Server Management Studio, navigieren Sie zu Ihren Datenbanken, klicken Sie mit der rechten Maustaste auf **Aufgaben** und klicken Sie auf **Spiegel**. Klicken Sie dann auf **Spiegel entfernen** und klicken Sie auf **OK**.
     
-   - Wiederholen Sie diesen Schritt für alle Datenbanken im Pool die einer AlwaysOn-verfügbarkeitsgruppe konvertiert werden.
+   - Wiederholen Sie diesen Schritt für alle Datenbanken im Pool die an ein AG konvertiert werden.
     
-5. Einrichten von Windows Server Failover Clustering ein, auf allen Datenbankservern, die Teil der AlwaysOn Availability Group sein werden. Führen Sie auf jedem Server die folgenden Schritte aus:
+5. Richten Sie die Failover-Clusterunterstützung auf allen Datenbankservern, die Teil der AG sein wird. Führen Sie auf jedem Server die folgenden Schritte aus:
     
    - Öffnen Sie Server-Manager und klicken Sie auf **Rollen und Funktionen hinzufügen**.
     
@@ -202,7 +199,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
     Der Assistent zeigt wahrscheinlich mehrere Warnungen an, vor allem dann, wenn Sie keine freigegebenen Speicher verwenden. Sie sind nicht daran gebunden, freigegebene Speicher zu verwenden. Sie müssen jedoch angezeigte **Fehler** zuerst beheben, bevor Sie fortfahren.
     
-7. Erstellen Sie den Cluster.
+7. Erstellen Sie Windows Server-Failovercluster.
     
    - Klicken Sie im Assistenten **Failovercluster-Management**mit der rechten Maustaste auf **Failovercluster-Management** und dann auf **Cluster erstellen**.
     
@@ -226,7 +223,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Klicken Sie auf der Seite **Bestätigung** auf **Weiter**.
     
-9. Aktivieren Sie im SQL Server-Konfigurations-Manager jedes Clusters „Always On“.
+9. Aktivieren Sie auf jedem Server im Cluster das AG-Feature in SQL Server-Konfigurations-Manager.
     
    - Öffnen Sie den SQL Server-Konfigurations-Manager. Klicken Sie in der Struktur am linken Bildschirmrand auf **SQL Server-Dienste** und doppelklicken Sie darauf.  
     
@@ -236,7 +233,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
     - Öffnen Sie SQL Server Management Studio und verbinden Sie sich mit der SQL Server-Instanz.
     
-    - Erweitern Sie im Objekt-Explorer den Ordner **Hohe Verfügbarkeit AlwaysOn**. Klicken Sie mit der rechten Maustaste auf den Ordner **Verfügbarkeitsgruppen** und klicken Sie auf **Neuer Verfügbarkeitsgruppen-Assistent**.
+    - Erweitern Sie im Objekt-Explorer den Ordner **Immer auf hohe Verfügbarkeit** . Klicken Sie mit der rechten Maustaste auf den Ordner **Verfügbarkeitsgruppen** und klicken Sie auf **Neuer Verfügbarkeitsgruppen-Assistent**.
     
     - Wenn sich die Seite **Einführung** öffnet, klicken Sie auf **Weiter**.
     
@@ -264,7 +261,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
     - Überprüfen Sie auf der Seite **Zusammenfassung** alle Einstellungen und klicken Sie dann auf „Fertig stellen“.
     
-11. Erstellen eines neuen Speichers den Listener AlwaysOn Availability Group, und Angeben des Prinzipals der alten Spiegelung als primäre Knoten die AlwaysOn Availability Group.
+11. Erstellen eines neuen Speichers AG Listener angeben und den Prinzipal der alten Spiegelung als dem primären Knoten, der die AG angeben.
     
     - Topologie-Generator zu öffnen. Erweitern Sie in Ihrer Topologie den Eintrag **Freigegebene Komponenten**, klicken Sie mit der rechten Maustaste auf **SQL Server-Speicher**, und klicken Sie auf **Neuer SQL Server-Speicher**.
     
@@ -272,15 +269,15 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
     - Geben Sie in das Kästchen **FQDN des SQL Server Verfügbarkeitslisteners** die FQDN des Listeners ein, die sie erstellt haben, als Sie die Verfügbarkeitsgruppe erstellt haben.
     
-    - Geben Sie den FQDN des primären Knotens die AlwaysOn Availability Group im Feld **SQL Server-FQDN** , und klicken Sie dann auf **OK**. Dies sollte der Prinzipal des alten Spiegels dieses Speichers sein.
+    - Klicken Sie im **SQL Server-FQDN** Geben Sie den FQDN für den primären Knoten des dem AG, und klicken Sie dann auf **OK**. Dies sollte der Prinzipal des alten Spiegels dieses Speichers sein.
     
-12. Ordnen Sie den Front-End-Pool mit der neuen AlwaysOn Availability Group.
+12. Ordnen Sie den Front-End-Pool mit die neue AG.
     
-    - Klicken Sie im Topologie-Generator mit der rechten Maustaste in des Pools der AlwaysOn Availability Group zugeordnet, und klicken Sie auf **Eigenschaften bearbeiten**.
+    - Klicken Sie im Topologie-Generator mit der rechten Maustaste in des Pools, die die AG zugeordnet, und klicken Sie auf **Eigenschaften bearbeiten**.
     
-    - Wählen Sie unter **Zuordnungen**klicken Sie im **SQL Server-Speicher** der AlwaysOn Availability Group. Wählen Sie die gleiche Gruppe für andere Datenbanken im Pool, die Sie in der AlwaysOn Availability Group verschieben möchten.
+    - Wählen Sie unter **Zuordnungen**klicken Sie im **SQL Server-Speicher** die AG aus. Wählen Sie die gleiche Gruppe für andere Datenbanken im Pool, die Sie in der AG verschieben möchten.
     
-    - Wenn Sie sicher sind, dass alle benötigte Datenbanken auf die AlwaysOn Availability Group festgelegt sind, klicken Sie auf **OK**.
+    - Wenn Sie sicher sind, dass alle benötigte Datenbanken auf die AG festgelegt sind, klicken Sie auf **OK**.
     
 13. Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und dann auf **Veröffentlichen**. Klicken Sie dann auf der Bestätigungsseite auf **Weiter**.
     
@@ -288,13 +285,13 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
     - Öffnen Sie Topologie-Generator zu, wählen Sie **Topologie aus einer vorhandenen Bereitstellung herunterladen**aus, und klicken Sie auf **OK**.
     
-    - Erweitern Sie erst „Skype for Business Server“, dann Ihre Topologie und dann **SQL Server-Speicher**. Mit der rechten Maustaste in des SQL-Speichers der neuen AlwaysOn Availability Group, und klicken Sie auf **Eigenschaften bearbeiten**.
+    - Erweitern Sie erst „Skype for Business Server“, dann Ihre Topologie und dann **SQL Server-Speicher**. Mit der rechten Maustaste in des SQL-Speichers, der die neue AG, und klicken Sie auf **Eigenschaften bearbeiten**.
     
-    - Ändern Sie den Wert am unteren Rand der Seite in das Feld **SQL Server-FQDN** dem vollqualifizierten Domänennamen des der Listener die AlwaysOn Availability Group.
+    - Ändern Sie den Wert am unteren Rand der Seite in das Feld **SQL Server-FQDN** dem vollqualifizierten Domänennamen des dem die AG-Listener.
     
     - Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und anschließend auf **Veröffentlichen**. Klicken Sie als Nächstes auf der Bestätigungsseite auf **Weiter**. Warten Sie einige Minuten, bis sich die neue Topologie repliziert hat.
     
-    - Öffnen Sie SQL Server Management Studio, und navigieren Sie zu der AlwaysOn Availability Group. Führen Sie ein Failover zu einem sekundären Replikat aus.
+    - Öffnen Sie SQL Server Management Studio, und navigieren Sie zu der AG. Führen Sie ein Failover zu einem sekundären Replikat aus.
     
     - Öffnen von Skype für Business Server-Verwaltungsshell, und geben Sie das folgende Cmdlet aus, um die SQL-Anmeldungen auf dieses Replikat zu erstellen:
     
@@ -304,13 +301,13 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
 
     - Wiederholen Sie die vorherigen beiden Schritte (verwenden Sie ein Failover der Gruppe sein, um ein sekundäres Replikat `Install-CsDatabase -Update`) für jedes Replikat in der Gruppe.
     
-## <a name="deploy-an-alwayson-availability-group-on-an-existing-pool-that-does-not-use-database-mirroring"></a>Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe in einem bereits vorhandenen Pool, der keine Datenbankspiegelung verwendet
+## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-does-not-use-database-mirroring"></a>Bereitstellen einer immer auf Availability Group in einem vorhandenen Pool, das nicht-datenbankspiegelung verwendet wird
 <a name="BKMK_NoHAPool_CreateAlwaysOnGroup"> </a>
 
 > [!NOTE]
-> Wenn für Ihre Organisation eine AlwaysOn Availability Group Hosts zentralen zum Aktualisieren auf Pool gespeichert werden sollen, müssen Sie zuerst die CMS in einen anderen Pool verschieben, vor dem upgrade in diesem Pool. Verschieben Sie den Pool mit dem Cmdlet „Move-CsManagementServer“. Wenn Sie einen anderen Pool nicht in Ihrer Organisation verfügen, können Sie vorübergehend Standard Edition-Server bereitstellen und CMS an diesen Server verschieben, bevor Sie ein des Pools auf der AlwaysOn Availability Group Upgrade. 
+> Wenn der Pool, für den Sie zu einer AG Upgrade des zentralen Verwaltungsspeichers für Ihre Organisation gehostet wird, müssen Sie zuerst die CMS in einen anderen Pool verschieben, vor dem upgrade in diesem Pool. Verschieben Sie den Pool mit dem Cmdlet „Move-CsManagementServer“. Wenn Sie einen anderen Pool nicht in Ihrer Organisation verfügen, können Sie vorübergehend Standard Edition-Server bereitstellen und CMS an diesen Server verschieben, bevor Sie den Pool auf die AG aktualisieren. 
   
-1. Einrichten von Windows Server Failover Clustering ein, auf allen Datenbankservern, die Teil der AlwaysOn Availability Group sein werden. Führen Sie auf jedem Server die folgenden Schritte aus:
+1. Richten Sie die Failover-Clusterunterstützung auf allen Datenbankservern, die Teil der AG sein wird. Führen Sie auf jedem Server die folgenden Schritte aus:
     
    - Öffnen Sie Server-Manager und klicken Sie auf **Rollen und Funktionen hinzufügen**.
     
@@ -334,7 +331,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
     Der Assistent zeigt wahrscheinlich mehrere Warnungen an, vor allem dann, wenn Sie keine freigegebenen Speicher verwenden. Sie sind nicht daran gebunden, freigegebene Speicher zu verwenden. Sie müssen jedoch angezeigte **Fehler** zuerst beheben, bevor Sie fortfahren.
     
-3. Erstellen Sie den Cluster.
+3. Erstellen Sie die Windows Server-Failovercluster (WSFC).
     
    - Klicken Sie im Assistenten **Failovercluster-Management**mit der rechten Maustaste auf **Failovercluster-Management** und dann auf **Cluster erstellen**.
     
@@ -358,7 +355,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Klicken Sie auf der Seite **Bestätigung** auf **Weiter**.
     
-5. Aktivieren Sie im SQL Server-Konfigurations-Manager jedes Clusters „Always On“.
+5. Aktivieren Sie auf jedem Server im Cluster AG in SQL Server-Konfigurations-Manager.
     
    - Öffnen Sie den SQL Server-Konfigurations-Manager. Klicken Sie in der Struktur am linken Bildschirmrand auf **SQL Server-Dienste** und doppelklicken Sie darauf.  
     
@@ -368,17 +365,17 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Öffnen Sie SQL Server Management Studio und verbinden Sie sich mit der SQL Server-Instanz.
     
-   - Erweitern Sie im Objekt-Explorer den Ordner **Hohe Verfügbarkeit AlwaysOn**. Klicken Sie mit der rechten Maustaste auf den Ordner **Verfügbarkeitsgruppen** und klicken Sie auf **Neuer Verfügbarkeitsgruppen-Assistent**.
+   - Erweitern Sie im Objekt-Explorer den Ordner **Immer auf hohe Verfügbarkeit** . Klicken Sie mit der rechten Maustaste auf den Ordner **Verfügbarkeitsgruppen** und klicken Sie auf **Neuer Verfügbarkeitsgruppen-Assistent**.
     
    - Wenn sich die Seite **Einführung** öffnet, klicken Sie auf **Weiter**.
     
    - Geben Sie auf der Seite **Verfügbarkeitsgruppennamen angeben** den Namen der Verfügbarkeitsgruppe ein und klicken Sie dann auf **Weiter**.
     
-   - Datenbanken wählen Sie auf der Seite Wählen Sie die Datenbanken, die Sie in der AlwaysOn Availability Group einschließen möchten. Klicken Sie dann auf **Weiter**.
+   - Datenbanken wählen Sie auf der Seite Wählen Sie die Datenbanken, die Sie in der AG einschließen möchten. Klicken Sie dann auf **Weiter**.
     
-    Schließen Sie nicht die **ReportServer**, **ReportServerTempDB**oder Datenbanken beständigen Chat in der AlwaysOn Availability Group, wie diese in diesem Szenario nicht unterstützt werden. Sie können alle anderen Skype für Business Server-Datenbanken in der AlwaysOn Availability Group einschließen.
+    Schließen Sie nicht die **ReportServer**, **ReportServerTempDB**oder Datenbanken beständigen Chat in AG, wie diese in diesem Szenario nicht unterstützt werden. Sie können alle anderen Skype für Business Server-Datenbanken in der AG einschließen.
     
-   - Klicken Sie auf der Seite **Replikat angeben** auf die Registerkarte **Replikate**. Klicken Sie dann auf die Schaltfläche **Replikate hinzufügen** und verbinden Sie sich mit den anderen SQL-Instanzen, die sie über Knoten des Windows Server Failoverclusters verbunden haben.
+   - Klicken Sie auf der Registerkarte **Replikate** , auf der Seite **Replikate angeben** . Anschließend klicken Sie auf die Schaltfläche **Hinzufügen Replikate** und Verbinden mit anderen SQL-Instanzen, die Sie als Knoten des dem WSFC verbunden.
     
    - Wählen Sie für jede Instanz die Optionen **Automatisches Failover** und **Synchrones Commit**. Wählen Sie nicht die Option **Lesbare sekundäre Rolle** aus.
     
@@ -396,7 +393,7 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Überprüfen Sie auf der Seite **Zusammenfassung** alle Einstellungen und klicken Sie dann auf „Fertig stellen“.
     
-7. Erstellen eines neuen Speichers angeben des Listeners AlwaysOn Availability Group.
+7. Erstellen eines neuen Speichers AG Listener angeben.
     
    - Topologie-Generator zu öffnen. Erweitern Sie in Ihrer Topologie den Eintrag **Freigegebene Komponenten**, klicken Sie mit der rechten Maustaste auf **SQL Server-Speicher**, und klicken Sie auf **Neuer SQL Server-Speicher**.
     
@@ -404,29 +401,29 @@ Wie Sie eine AlwaysOn Availability Group bereitstellen, hängt davon ab, ob Sie 
     
    - Geben Sie in das Kästchen **FQDN des SQL Server Verfügbarkeitslisteners** die FQDN des Listeners ein, die sie erstellt haben, als Sie die Verfügbarkeitsgruppe erstellt haben.
     
-   - Geben Sie den FQDN des primären Knotens die AlwaysOn Availability Group im Feld **SQL Server-FQDN** , und klicken Sie dann auf **OK**.
+   - Klicken Sie im **SQL Server-FQDN** Geben Sie den FQDN für den primären Knoten des dem AG, und klicken Sie dann auf **OK**.
     
-8. Ordnen Sie den Front-End-Pool mit der neuen AlwaysOn Availability Group.
+8. Ordnen Sie den Front-End-Pool mit der neuen immer auf Availability Group.
     
-   - Klicken Sie im Topologie-Generator mit der rechten Maustaste in des Pools der AlwaysOn Availability Group zugeordnet, und klicken Sie auf **Eigenschaften bearbeiten**.
+   - Klicken Sie im Topologie-Generator mit der rechten Maustaste in des Pools, die die AG zugeordnet, und klicken Sie auf **Eigenschaften bearbeiten**.
     
-   - Wählen Sie unter **Zuordnungen**klicken Sie im **SQL Server-Speicher** der AlwaysOn Availability Group. Wählen Sie die gleiche Gruppe für andere Datenbanken im Pool, die Sie in der AlwaysOn Availability Group verschieben möchten.
+   - Wählen Sie unter **Zuordnungen**klicken Sie im **SQL Server-Speicher** die AG aus. Wählen Sie die gleiche Gruppe für andere Datenbanken im Pool, die Sie in der AG verschieben möchten.
     
-   - Wenn Sie sicher sind, dass alle benötigte Datenbanken auf die AlwaysOn Availability Group festgelegt sind, klicken Sie auf **OK**.
+   - Wenn Sie sicher sind, dass alle benötigte Datenbanken auf die AG festgelegt sind, klicken Sie auf **OK**.
     
 9. Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und dann auf **Veröffentlichen**. Klicken Sie dann auf der Bestätigungsseite auf **Weiter**.
     
-10. Führen Sie einige abschließende Schritte, um sicherzustellen, dass die SQL-Anmeldungen auf den einzelnen Replikate in der AlwaysOn Availability Group sind.
+10. Führen Sie einige abschließende Schritte, um sicherzustellen, dass die SQL-Benutzernamen aller Replikate in die AG sind.
     
     - Öffnen Sie Topologie-Generator zu, wählen Sie **Topologie aus einer vorhandenen Bereitstellung herunterladen**aus, und klicken Sie auf **OK**.
     
-    - Erweitern Sie erst „Skype for Business Server“, dann Ihre Topologie und dann **SQL Server-Speicher**. Mit der rechten Maustaste in des SQL-Speichers der neuen AlwaysOn Availability Group, und klicken Sie auf ** Bearbeiten Eigenschaften **.
+    - Erweitern Sie erst „Skype for Business Server“, dann Ihre Topologie und dann **SQL Server-Speicher**. Mit der rechten Maustaste in des SQL-Speichers, der die neue AG, und klicken Sie auf ** Bearbeiten Eigenschaften **.
     
-    - Ändern Sie den Wert am unteren Rand der Seite in das Feld **SQL Server-FQDN** dem vollqualifizierten Domänennamen des der Listener die AlwaysOn Availability Group.
+    - Ändern Sie den Wert am unteren Rand der Seite in das Feld **SQL Server-FQDN** dem vollqualifizierten Domänennamen des dem die AG-Listener.
     
     - Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und anschließend auf **Veröffentlichen**. Klicken Sie als Nächstes auf der Bestätigungsseite auf **Weiter**. Warten Sie einige Minuten, bis sich die neue Topologie repliziert hat.
     
-    - Öffnen Sie SQL Server Management Studio, und navigieren Sie zu der AlwaysOn Availability Group. Führen Sie ein Failover zu einem sekundären Replikat aus.
+    - Öffnen Sie SQL Server Management Studio, und navigieren Sie zu der AG. Führen Sie ein Failover zu einem sekundären Replikat aus.
     
     - Öffnen von Skype für Business Server-Verwaltungsshell, und geben Sie das folgende Cmdlet aus, um die SQL-Anmeldungen auf dieses Replikat zu erstellen:
     

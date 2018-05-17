@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online. Die Einrichtung von hybrider Konnektivität ist der erste Schritt bei der Implementierung zahlreicher hybrider Skype for Business-Lösungen.'
-ms.openlocfilehash: ef2ecb665baf5942d1ad9ee9d5175192e348a2f6
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dbd7d2e00bf31b926ec4d54a0717c000459e8479
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online
  
@@ -298,10 +298,10 @@ Sie müssen nicht nur die Portanforderungen für die interne Kommunikation berü
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Zugriffs-Edge  <br/> |Office 365  <br/> |Beliebig  <br/> |5061  <br/> |Signalisierung  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Zugriffs-Edge  <br/> |Beliebig  <br/> |5061  <br/> |Signalisierung  <br/> |
-|STUN  <br/> |TCP  <br/> |A/V-Edge  <br/> |Office 365  <br/> |50000–59999  <br/> |443, 50000–59999  <br/> |Geöffnet für Audio-, Video- und Anwendungsfreigabesitzungen  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V-Edge  <br/> |443  <br/> |50000–59999  <br/> |Geöffnet für Audio-, Video- und Anwendungsfreigabesitzungen  <br/> |
+|STUN  <br/> |TCP  <br/> |A/V-Edge  <br/> |Office 365  <br/> |50000–59999  <br/> |443  <br/> |Geöffnet für Audio-, Video- und Anwendungsfreigabesitzungen  <br/> |
+|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V-Edge  <br/> |Beliebig  <br/> |443  <br/> |Geöffnet für Audio-, Video- und Anwendungsfreigabesitzungen  <br/> |
 |STUN  <br/> |UDP  <br/> |A/V-Edge  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Geöffnet für Audio- und Videositzungen  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V-Edge  <br/> |3478  <br/> |3478  <br/> |Geöffnet für Audio- und Videositzungen  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V-Edge  <br/> |Beliebig  <br/> |3478  <br/> |Geöffnet für Audio- und Videositzungen  <br/> |
    
 Weitere Informationen zu Ports und Planen von Edge-Server-Firewall finden Sie unter [umgebungsanforderungen in Skype für Business Server 2015 Edge-Server](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Siehe auch [Ports und Protokolle-Anforderungen für Server](../plan-your-deployment/network-requirements/ports-and-protocols.md) und das [Protokoll Arbeitslasten Diagramm](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   

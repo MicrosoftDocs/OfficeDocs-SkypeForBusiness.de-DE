@@ -146,11 +146,12 @@
 ### [Proxyserver für Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
 ## Verwenden von Anrufqualität in Ihrer Organisation
+### [Anruf Analyse- und Anrufqualität Dashboard](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Einrichten von Skype for Business-Anrufanalyse](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Aktivieren und Verwenden des Anrufqualitäts-Dashboards](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Unterschiede zwischen der Anrufanalyse und dem Anrufqualitäts-Dashboard](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+
 
 ## [Skype for Business Online-Berichterstellung](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Bericht „Aktivität“](../skype-for-business-online-reporting/activity-report.md)

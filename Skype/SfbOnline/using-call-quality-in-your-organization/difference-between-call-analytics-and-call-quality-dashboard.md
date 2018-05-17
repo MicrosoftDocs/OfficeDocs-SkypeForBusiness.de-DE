@@ -1,5 +1,5 @@
 ---
-title: Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?
+title: Anruf Analyse- und Anrufqualität Dashboard
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,13 +18,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business.
-ms.openlocfilehash: 869b4373d6e1bea65700532b52959aa2126d94d9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c8d73ee128425f106174ccad60a0b0c947cc07e5
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?
+# <a name="call-analytics-and-call-quality-dashboard"></a>Anruf Analyse- und Anrufqualität Dashboard
 
 Sie haben in Skype for Business zwei Möglichkeiten, Probleme mit der Anrufqualität zu überwachen und zu behandeln: die Anrufanalyse und das Anrufqualitätsdashboard. In diesem Artikel werden beide Methoden beschrieben, und Sie erfahren, welche Sie jeweils verwenden sollten.
   
