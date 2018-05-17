@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Zusammenfassung: Informationen Sie zu Skype für die Integration mit Exchange und SharePoint Business Server 2015.'
-ms.openlocfilehash: 12f6974a6a0d3641242eda072332667ece31c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integration mit Exchange und SharePoint
  
@@ -35,7 +35,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
   
  **Skype für Business Server lokal und Exchange lokal**
   
-| |
+
 |**Funktion**|**Notizen**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter [Sofortnachrichten und Anwesenheit](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
@@ -55,7 +55,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
    
  **Skype für Business Server lokal und Exchange Online**
   
-| |
+
 |**Funktion**|**Notizen**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Integration zwischen lokalen Skype für Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
@@ -75,7 +75,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
    
  **Skype für Business Online und Exchange lokal**
   
-| |
+ 
 |**Funktion**|**Notizen**|
 |:-----|:-----|
 |Anwesenheit in Outlook  <br/> ||
@@ -92,7 +92,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
    
  **Skype für Unternehmen Online und Exchange Online**
   
-| |
+
 |**Funktion**|**Notizen**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> ||

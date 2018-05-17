@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die USA verfügbar.
-ms.openlocfilehash: 5ecc646fc00725d05c2623d0097b236ee4ff1f80
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b1d5f66f1ebb63553904a9b1992bf9e08d46a98a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
@@ -56,6 +56,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li><li>240 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>600 Minuten für in- und International plant aufrufen</li></li> 
+|Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Zu diesem Zeitpunkt unterstützt nicht. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
 >[!Note] 
 > Vereinigte Staaten nationalen aufrufen enthält Anrufe an alle 50 USA und Puerto Rico. Benutzer, die durch die Lizenz Usage Speicherort der USA und/oder Puerto Rico zugewiesen freigeben selben Pool von Minuten.

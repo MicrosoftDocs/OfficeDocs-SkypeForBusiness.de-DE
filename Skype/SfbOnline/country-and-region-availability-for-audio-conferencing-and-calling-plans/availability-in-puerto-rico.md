@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Puerto Rico verfügbar.
-ms.openlocfilehash: 92bde6e252f750a065e0068e18f1003f4efdcb49
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8032f38bf51db5762e0256e4aadb005b6b7caf8a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-puerto-rico"></a>Verfügbarkeit in Puerto Rico
 
@@ -56,6 +56,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |3000 Minuten für Inlandsanrufe oder 600 Minuten für Auslandsanrufe (je nachdem, welche Grenze pro Kalendermonat zuerst erreicht wird) Die Inlandsanrufe in den USA schließen Anrufe in alle 50 US-Bundesstaaten und nach Puerto Rico ein. Benutzer, denen der Lizenzverwendungsort USA und/oder Puerto Rico zugewiesen ist, nutzen den gleichen Minutenpool.  <br/> |
+|Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Zu diesem Zeitpunkt unterstützt nicht. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste

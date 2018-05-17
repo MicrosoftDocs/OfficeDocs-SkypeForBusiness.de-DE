@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams, für die nach Großbritannien verfügbar.
-ms.openlocfilehash: fd81f016ede49843a1f2ae8b431514d07ba55c5f
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 9d4fc73f3ccc1d6bda1b7d5c2ab308de02a37ed9
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Verfügbarkeit in Großbritannien (Großbritannien)
 
@@ -56,6 +56,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>600 Minute für in- und International plant aufrufen</li></li> 
+|Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Teilweise unterstützt: Anrufe freigegeben Kosten Zahlen aus (Präfixen 44843, 44844, 44845, 44870, 44871, 44872) werden unterstützt.  Anrufe an 449XX Präfixe werden nicht unterstützt. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
