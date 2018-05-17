@@ -143,10 +143,9 @@
 ### [Anruffluss mit ExpressRoute](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [ExpressRoute und QoS in Skype for Business Online](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [Medienqualität und Leistung der Netzwerkkonnektivität](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Proxyserver für Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
+### [Proxyserver für Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md) 
 
-## Verwenden von Anrufqualität in Ihrer Organisation
-### [Anruf Analyse- und Anrufqualität Dashboard](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [Anruf Analyse- und Anrufqualität Dashboard](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Einrichten von Skype for Business-Anrufanalyse](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Aktivieren und Verwenden des Anrufqualitäts-Dashboards](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)

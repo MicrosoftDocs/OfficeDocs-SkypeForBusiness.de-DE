@@ -10,8 +10,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: 9809c4acb5d80f18dc076b07e81c052caa6fbc0d
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 3e7a0899fd7a79003a522d59fe1f4f7508978a51
+ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/17/2018
@@ -190,9 +190,9 @@ In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären un
 |Im dritten Datencenter (sip3.pstnhub.microsoft.com)|ASIEN|ASIEN|EU|
 |||||
 
-## <a name="media-traffic-ip-addresses-and-port-ranges"></a>Mediendatenverkehr: IP-Adressen und Port ranges
+## <a name="media-traffic-port-ranges"></a>Mediendatenverkehr: Port Bereiche
 
-Media-Datenverkehr fließt zu und von einem separaten Dienst in der Microsoft-Cloud. Der IP-Bereich der Media Prozessoren wird in der folgenden Tabelle gezeigt:
+Media-Datenverkehr fließt zu und von einem separaten Dienst in der Microsoft-Cloud. Der Portbereich von des Prozessors Medien wird in der folgenden Tabelle gezeigt: 
 
 |**Datenverkehr**|**Von**|**Bis**|**Quellport**|**Zielport**|
 |:--- |:--- |:--- |:--- |:--- |
