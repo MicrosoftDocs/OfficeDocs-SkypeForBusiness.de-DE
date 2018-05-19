@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten.
-ms.openlocfilehash: bc902c8c01abc7edab52c8e5341b93d2aaaaaeb7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1162b8550eac78f72d64202c681961f4b0eb723c
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>Audio Conferencing häufig gestellte Fragen
 
@@ -54,7 +54,7 @@ Ob Sie sich mit einem Telefon oder die Skype für Business oder Microsoft-Teams 
   
 ## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Kann ich eine gebührenfreie Telefonnummer für meine Benutzer Audiokonferenzen hinzufügen?
 
-Ja, sind gebührenfreien Telefonnummern (Service Zahlen) verfügbar, aber nur in einigen Ländern/Regionen. Zum Anzeigen einer Liste der Rufnummern, die verfügbar sind, klicken Sie [hier](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Ja, sind gebührenfreien Telefonnummern (Service Zahlen) verfügbar, aber nur in einigen Ländern/Regionen. Eine Liste mit Zahlen, die verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>Wie viele lokale Einwahlnummern werden derzeit unterstützt?
 

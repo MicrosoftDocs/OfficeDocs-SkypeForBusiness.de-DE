@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2dbb006fa9e44d1f2f08efc716063c1c6b1540c
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 5913b67c8c15fbff7f59b1155f7c2e366d6bb93c
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 ==================================
@@ -35,6 +35,7 @@ Hier erhalten Sie Informationen zu Microsoft Teams und zum Vorantreiben der Nutz
 | [Videos für Audiokonferenzen](audio-conferencing-videos.md) |Videos für IT-Administratoren, in denen Audiokonferenzen in Microsoft Teams vorgestellt werden  |
 | [Tutorial: Besprechungen in Microsoft Teams](tutorial-meetings-in-teams.yml) | Diese Schulung werden Besprechungen in Teams vorgestellt. Es werden Funktionen für die Besprechung, plus Anforderungen und Hinweise zur Planung behandelt. |
 | Bereitstellen und Ausführen von Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Direktes Routing für Microsoft-Teams (Preview)   | <iframe width="350" height="200" src="https://www.youtube.com/watch?v=RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
 | Deep Dive into Guest Access (Tiefe Einblicke in die Gastzugriffsfunktion) <br>„Coffee in the Cloud“-Sitzung mit Laith Al und Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery in Microsoft Teams <br> „Coffee in the Cloud“-Sitzung mit Ansuman Acharya und Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams: Schrittweise Einführung in die Verwendung, Aktivierung und Verwaltung von Funktionen <br> „Microsoft Mechanics“-Sitzung mit Dan Stevenson und Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |

@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: e5e11adb4bf02e87de316d70be48b60d3ecd1d7f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: abb9a526a73951c3b3d4326fff67dc928691e2f1
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
@@ -74,7 +74,7 @@ Sie können einer PowerShell-Skriptdatei das folgende Skript speichern und führ
    
   ```
 Script.ps1 -UserList <List of users>
-./Script.ps1 -UserList "user01@constoso.com,    user02@contoso.com, user03@contoso.com"
+./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **Beispiel 2:** Sie können dieses Skript ausführen, indem Sie eine CSV-Datei bereitstellen, die die E-Mail-Adresse (den Alias) jedes Benutzers enthält, der aktualisiert werden soll.

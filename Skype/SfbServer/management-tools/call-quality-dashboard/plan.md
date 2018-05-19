@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Erfahren Sie mehr über welche Aspekte bei der Planung für das Anrufqualität Dashboard zu.'
-ms.openlocfilehash: 25438b759e367d70df6ae09b7d4a5cc093dc1e7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b54b151fbf9777311af68fcba1611f2bd174a9b7
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>Planen Sie für die Qualitätsdashboard Anruf Skype für Business Server 2015
  
@@ -186,8 +186,8 @@ In diesem Abschnitt wird davon ausgegangen, dass eine einzelne QoEMetrics DB in 
 
 |**Computer**|**CPU-Kerne**|**RAM**|**QoE-Archiv und des Cubes auf dem gleichen Datenträger**|**QoE-Archiv und SQL Temp DB auf demselben Datenträger**|
 |:-----|:-----|:-----|:-----|:-----|
-|Virtuelle mmachine  <br/> |4  <br/> |7 GB  <br/> |Ja  <br/> |Ja  <br/> |
-|4 Ccore  <br/> |4  <br/> |20 GB  <br/> |Ja  <br/> |Nein  <br/> |
+|Virtueller Computer  <br/> |4  <br/> |7 GB  <br/> |Ja  <br/> |Ja  <br/> |
+|4-core  <br/> |4  <br/> |20 GB  <br/> |Ja  <br/> |Nein  <br/> |
 |8-core  <br/> |8  <br/> |32 GB  <br/> |Ja  <br/> |Nein  <br/> |
 |16 Prozessorkerne  <br/> |16  <br/> |128 GB  <br/> |Nein  <br/> |Nein  <br/> |
    

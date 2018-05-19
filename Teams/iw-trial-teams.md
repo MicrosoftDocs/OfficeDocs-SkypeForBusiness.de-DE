@@ -1,9 +1,9 @@
 ---
-title: Verwalten der Information Worker Testangebot für Microsoft-Teams
+title: Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsoft
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 04/27/2018
+ms.date: 05/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,16 +11,16 @@ ms.service: msteams
 localization_priority: Normal
 description: Office 365-Benutzer, die nicht für Microsoft-Teams lizenziert sind, können eine 1 Jahr Testversion von Teams initiieren.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 491f7503843d1feebbff88579fba1eae11895e0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e282481cc8cdb5eba23a56ef32adff2e812fefbf
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
-<a name="manage-the-iw-trial-offer-for-microsoft-teams"></a>Verwalten der Information Worker Testangebot für Microsoft-Teams
-=============================================
+<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsoft
+=======================================================
 
-Microsoft-Teams, ist ein hervorragendes collaborative Tool für Ihre Organisation. Sie können Personen und Teams zu besprechen und Veränderungen Ideen mithilfe der Vorteile von Office 365. Der Information Worker Testangebot für Microsoft-Teams bietet vorhandenen Office 365-Benutzer in Ihrer Organisation, die für Microsoft-Teams zum Initiieren einer 1 Jahr Testversion des Produkts nicht lizenziert sind. Administratoren haben die Möglichkeit zum ein-oder Ausschalten dieses Feature für Benutzer innerhalb ihrer Mandanten.
+Microsoft-Teams, ist ein hervorragendes collaborative Tool für Ihre Organisation. Sie können Personen und Teams zu besprechen und Veränderungen Ideen mithilfe der Vorteile von Office 365. Die Microsoft-Teams kommerziellen Cloud Studien bietet vorhandenen Office 365-Benutzer in Ihrer Organisation, die für Microsoft-Teams zum Initiieren einer 1 Jahr Testversion des Produkts nicht lizenziert sind. Administratoren haben die Möglichkeit zum ein-oder Ausschalten dieses Feature für Benutzer innerhalb ihrer Mandanten.
 
 ## <a name="whats-in-the-offer"></a>Was ist in dem Angebot
 
@@ -38,11 +38,16 @@ Die Servicepläne in dieses Angebot enthalten sind:
 
 ## <a name="who-is-eligible"></a>Wer berechtigt ist
 
-Benutzer, die nicht mit eine Office 365-Lizenz verfügen, die Teams können der Information Worker Testangebot initiieren. Wenn ein Benutzer über Office 365 Business Premium (einschließlich Teams) verfügt, und die Teams Dienstplan deaktiviert ist, werden sie beispielsweise nicht für die Testversion berechtigt.
+Benutzer, die nicht mit eine Office 365-Lizenz verfügen, die Teams können das Angebot Teams kommerziellen Cloud-Testversion von Microsoft initiieren. Wenn ein Benutzer über Office 365 Business Premium (einschließlich Teams) verfügt, und die Teams Dienstplan deaktiviert ist, werden sie beispielsweise nicht für die Testversion berechtigt.
 
-Auf der Ebene des Mandanten Teams als Dienst muss (in der Verwaltungskonsole des Teams) aktiviert werden soll. (Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md). Darüber hinaus müssen Benutzer für apps und Testversionen (im Office 365 Administrationscenter) anmelden aktiviert werden. Weitere Informationen finden Sie unter [Verwalten der Information Worker Studien](#manage-the-iw-trial) weiter unten in diesem Artikel.
+Darüber hinaus Ihres Mandanten ist nicht für die Testversion If: 
+- Sie sind ein Syndication Partner-Kunden
+- Sie sind Kunden Händlerkanäle Partner
+- Sie sind ein Kunde GCC, GOV oder EDU
 
-GOV und EDU Mandanten sind nicht berechtigt, für die Testversion Information Worker.
+Darüber hinaus Wenn Ihres Mandanten nicht für die Microsoft-Teams kommerziellen Cloud Testangebot ist, werden Sie nicht die Option **dazu, Benutzern das Installieren Studien apps und Dienste aus** angezeigt.
+
+Auf der Ebene des Mandanten Teams als Dienst muss (in der Verwaltungskonsole des Teams) aktiviert werden soll. Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md). Darüber hinaus müssen Benutzer für apps und Testversionen (im Office 365 Administrationscenter) anmelden aktiviert werden. Weitere Informationen finden Sie unter [Verwalten der Information Worker Studien](#manage-the-iw-trial) weiter unten in diesem Artikel.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Wie Benutzer für die Testversion anmelden
 

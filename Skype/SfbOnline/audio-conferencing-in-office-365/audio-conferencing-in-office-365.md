@@ -17,11 +17,11 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: c43a49ee62fe20d8f74e0968a13ef7f40d6a3eaf
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4157485cc29334585430701b703218217663bb24
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audiokonferenzen in Office 365
 Audiokonferenzen in Office 365 ermöglicht dem Benutzer zu Besprechungen aus Telefone aufrufen. Audiokonferenzen kann bis zu 250 Telefon Teilnehmer.
@@ -46,9 +46,9 @@ Info Preisgestaltung, finden Sie unter [Preise für Audiokonferenzen](https://pr
 ## <a name="where-is-it-available"></a>Wo ist das verfügbar?
 Mit der Audiokonferenz können Ihre Benutzer gebührenpflichtigen und gebührenfreien Telefonnummern Sie in Konferenzen einwählen. Gebührenpflichtige oder (Dienst) werden automatisch als freigegebene Audiokonferenzen Zahlen für Organisationen zugewiesen, wenn sie für die Audiokonferenz aktiviert sind. Dedizierte gebührenpflichtige und gebührenfreie Nummern, die Ihrer Organisation aus anderen Städten zugewiesen werden können.
 
-Gebührenfreien Telefonnummern (Service Zahlen) sind verfügbar, aber nur in einigen Ländern/Regionen. Sehen, was in Ihrem Land oder Region, ist [hier](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Gebührenfreien Telefonnummern (Service Zahlen) sind verfügbar, aber nur in einigen Ländern/Regionen. Um herauszufinden, was in Ihrem Land oder Region verfügbar ist, finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-Nachdem Sie sich für die Nutzung von Audiokonferenz in Ihrer Organisation entschieden haben, müssen Sie 1 **Audiokonferenz**-Lizenz für jede Person in Ihrer Organisation kaufen, die eine Audiobesprechung planen bzw. hosten möchte.
+Nachdem Sie sich, dass Sie Audiokonferenzen für Ihre Organisation verwenden möchten entschieden haben, müssen Sie eine **Audiokonferenz** -Lizenz für jede Person in Ihrer Organisation kaufen, wer wird Zeitplan-Host einer audio-Besprechung.
 
 ## <a name="how-do-conferencing-bridges-work"></a>Wie funktionieren Konferenzbrücken?
 Wenn Sie Audiokonferenzen für Skype für Geschäftskunden und Microsoft-Teams, einrichten, erhalten Sie eine audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen. Die Telefonnummer, die Sie festlegen, wird auf die Besprechung einladen für Skype für Geschäfts- und Microsoft-Teams, apps enthalten sein. Sie können [die Telefonnummern auf Ihre Konferenzbrücke ändern](change-the-phone-numbers-on-your-audio-conferencing-bridge.md), und Sie können auch [andere Audiokonferenzen Bridge Einstellungen ändern](change-the-settings-for-an-audio-conferencing-bridge.md). 
@@ -87,7 +87,7 @@ Dedizierte Audiokonferenzen Telefonnummern sind Service Zahlen, die Sie erhalten
 - **Verwenden Sie ein Anforderungsformular für neue Zahlen.** In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neue Rufnummern, die mit der Skype für Business Administrationscenter zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
 
 ## <a name="how-do-you-set-it-up"></a>Wie eingerichtet Sie es?
-Nachdem Sie zum Einrichten von Audiokonferenzen für Ihre Benutzer entschieden haben, führen Sie die Schritte [hier](set-up-audio-conferencing.md) dazu.
+Nachdem Sie zum Einrichten von Audiokonferenzen für Ihre Benutzer entschieden haben, finden Sie unter [Einrichten von Audiokonferenzen für Skype für Unternehmen und die Microsoft-Teams](set-up-audio-conferencing.md) Schritte, mit denen, die Sie folgen können, um dies zu bewerkstelligen.
 
 ## <a name="related-topics"></a>See Also
 

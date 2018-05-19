@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: 5707784f04dc52697ecd3d65b4c48ec105d10247
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: c106f90cee586fccbeb87b9b45757691191b449e
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -163,7 +163,7 @@ Ausgehende Anrufe aus einer Besprechung in ein anderes Land/eine andere Region i
 ### <a name="phone-system"></a>Telefonsystem
 Mit Telefonsystem können Sie automatische Telefonzentralen und Anrufwarteschleifen (mit gebührenpflichtigen und gebührenfreien Telefonnummern) zur Beantwortung von eingehenden Anrufen in Ihrer Organisation erstellen. Und wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business nutzen, um grundlegende Aufgaben zur Anrufkontrolle durchzuführen. Beispiele sind das Tätigen und Annehmen von Anrufen, das Weiterleiten von Anrufen und das Stummschalten bzw. Aufheben der Stummschaltung für Anrufe. **Telefonsystem**-Benutzer können auf einen Namen in ihrem Adressbuch klicken, und Skype for Business wird diese Person anrufen. Um Anrufe zu tätigen oder anzunehmen, können **Telefonsystem**-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eins der zahlreichen IP-Telefone nutzen, die mit Skype for Business verwendet werden können.
 
-Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenz (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen suchen und anfordern. Diese werden Servicenummern genannt. Finden Sie unter [Getting Service Telefonnummern](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) abzurufenden Rufnummern. Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Diese Telefonnummern finden Sie [hier](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
+Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenz (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen suchen und anfordern. Diese werden Servicenummern genannt. Finden Sie unter [Getting Service Telefonnummern](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) abzurufenden Rufnummern. Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Damit diese Nummern ermittelt wird, wechseln Sie zum [Abrufen von Telefonnummern für Ihre Benutzer](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
 
 [Preise für Telefonsystem](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 
