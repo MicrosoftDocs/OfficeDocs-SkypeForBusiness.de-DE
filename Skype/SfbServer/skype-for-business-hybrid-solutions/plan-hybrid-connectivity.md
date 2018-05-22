@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online. Die Einrichtung von hybrider Konnektivität ist der erste Schritt bei der Implementierung zahlreicher hybrider Skype for Business-Lösungen.'
-ms.openlocfilehash: 31c10423c6ba838e595de75e39d6f166de30c756
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online
  
@@ -301,7 +301,7 @@ Sie müssen nicht nur die Portanforderungen für die interne Kommunikation berü
 |STUN  <br/> |TCP  <br/> |A/V-Edge  <br/> |Office 365  <br/> |50000–59999  <br/> |443  <br/> |Geöffnet für Audio-, Video- und Anwendungsfreigabesitzungen  <br/> |
 |STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V-Edge  <br/> |50000–59999  <br/> |443  <br/> |Geöffnet für Audio-, Video- und Anwendungsfreigabesitzungen  <br/> |
 |STUN  <br/> |UDP  <br/> |A/V-Edge  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Geöffnet für Audio- und Videositzungen  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V-Edge  <br/> |443  <br/> |3478  <br/> |Geöffnet für Audio- und Videositzungen  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V-Edge  <br/> |3478  <br/> |3478  <br/> |Geöffnet für Audio- und Videositzungen  <br/> |
    
 Weitere Informationen zu Ports und Planen von Edge-Server-Firewall finden Sie unter [umgebungsanforderungen in Skype für Business Server 2015 Edge-Server](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Siehe auch [Ports und Protokolle-Anforderungen für Server](../plan-your-deployment/network-requirements/ports-and-protocols.md) und das [Protokoll Arbeitslasten Diagramm](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   

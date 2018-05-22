@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App sollten beim Planen von Skype für Business Server 2015. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.'
-ms.openlocfilehash: d99d718f02950cd643f7ccf79064eae3b0b83f72
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 921afbb6c446633128b2e2ead3c714dcdad91dd3
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungen-Clients (Web App und Besprechungen App)
  
@@ -49,7 +49,6 @@ Skype-Besprechungen App bietet eine vereinfachte Browserumgebung zum Herunterlad
 Verwendung der Skype für Business Web App, die ein Benutzer muss eine der folgenden Betriebssystem und Browser Kombinationen unterstützt haben. 
   
 **Betriebssystem und minimale Browserunterstützung für Skype für Business Web App**
-
 
 | Betriebssystem | Edge | 32- und 64-Bit InternetExplorer 11 oder höher | 32- und 64-Bit InternetExplorer 10 oder höher | 32- und 64-Bit InternetExplorer 9 oder höher | 32- und 64-Bit Version von Firefox 12.X oder höher | 32- und 64-Bit Version von Chrome 18.X oder höher |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -95,7 +94,6 @@ Wenn der Benutzer ist in einem Netzwerk nicht wie beschrieben konfiguriert, viel
 <a name="BKMK_Conferencing"> </a>
 
 Die folgende Tabelle vergleicht die besprechungsfunktionen für Benutzer des Skype für Business-Client, der Skype für Web-Geschäfts-App, Skype Besprechungen App und Lync Web App. Lync Web App wird zu Vergleichszwecken Feature aufgelistet: ein Benutzer würde nur herunterladen und Lync Web App verwenden, wenn die Besprechung auf einem Lync 2013-Server gehostet wurde.
-  
 
 | Feature/Funktion | Skype für Business 2016-client | Skype für Unternehmen auf Mac-client | Skype-Besprechungs-App | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -178,9 +176,7 @@ Weitere unterstützte Werte:
 <a name="BKMK_Conferencing"> </a>
 
 #### 
-
 [Bereitstellen von herunterladbaren Webclients in Skype für Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+
 #### 
-
 [Unterstützte Plattformen für Skype Besprechungen App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-
