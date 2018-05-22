@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lesen Sie dieses Thema aus, um weitere Informationen zu konfigurieren in Exchange-Konten für Skype Raum Systemen v2 und Skype für Business Server 2015.
-ms.openlocfilehash: 0514d1b542e8fa53f7210992d5cb219f7e9a7719
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 2db3d07fe12aa5dd2f6e311481da113303db93cc
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Konfigurieren von Konten für Skype Raum Systemen v2
  
@@ -75,7 +75,7 @@ Während die Eigenschaften für die grundlegende Konfiguration das Benutzerkonto
 |:-----|:-----|
 |Zertifikatbasierte Authentifizierung  <br/> |Zertifikate möglicherweise für Exchange und Skype für Business Server erforderlich. Zum Bereitstellen von Zertifikaten können Sie diese laden, wenn Sie als Administrator angemeldet sind.  <br/> |
    
-Die beste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](room-systems-v2-scripts.md), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen.
+Die beste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen.
   
 Wenn Sie die Benutzeroberfläche von Office 365 über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Finden Sie unter [Erstellen eines Geräts-Kontos mithilfe von Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   

@@ -12,11 +12,11 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie das Skype Room Systems v2-Konsolengerät und die entsprechenden Peripheriegeräte einrichten.
-ms.openlocfilehash: b82343f98304b0607bb3525b508aecf81e80a031
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -49,7 +49,7 @@ Installieren der Skype Raum Systemen v2-app in einem Surface Pro 4 oder Surface 
 > Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise Jahrestag Update verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben. 
   
 1. Laden Sie die [MSU für KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Laden Sie das [Skript CreateSrsMedia.ps1](room-systems-v2-scripts.md).
+2. Laden Sie das [Skript CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 3. Platzieren Sie die MSU für KB4056892 im gleichen Verzeichnis befindet wie das Skript CreateSrsMedia.ps1.
 4. Führen Sie das Skript CreateSrsMedia.ps1 aus einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows-10-Computer.
 

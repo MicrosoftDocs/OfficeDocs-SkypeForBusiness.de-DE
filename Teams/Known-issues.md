@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -84,7 +84,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Umbenennen eines Kanals in Microsoft-Teams, werden den entsprechenden Ordner in SharePoint Online nicht umbenannt  <br/> |Wird ein Kanal in Microsoft-Teams, umbenannt, wird der Ordner in der SharePoint Online-Dokumentbibliothek, die an das Team entspricht nicht entsprechend geändert. Stattdessen wird ein neuer Ordner entsprechend den neuen Kanalnamen erstellt. Die Dateien in den ursprünglichen Ordner der Dokumentbibliothek werden nicht migriert.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/> |
+|Umbenennen eines Kanals in Microsoft-Teams, werden den entsprechenden Ordner in SharePoint Online nicht umbenannt  <br/> |Wird ein Kanal in Microsoft-Teams, umbenannt, wird der Ordner in der SharePoint Online-Dokumentbibliothek, die an das Team entspricht nicht entsprechend geändert. Die richtigen SharePoint Online Ordnername wird am oberen Rand der Registerkarte umbenannte Channel Dateien angezeigt.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/> |
 
 ## <a name="chat"></a>Chat
 

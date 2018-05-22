@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung einer Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: b1216989dd5ac18f8cd4b4f97e7be975ca7289d7
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 39ea680d3f7a1b45531b038e5465e74647fea12a
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
@@ -135,7 +135,7 @@ Sie benötigen ein eigenes Bild Skype Raum Systemen v2 erstellen die folgenden D
     
 Diese Downloads müssen in einer startbare Windows Media-Installationsdatenträger auf eine bestimmte Weise kombiniert werden in [Configure Skype Raum Systemen v2 Konsole](../../deploy/deploy-clients/console.md)beschrieben. 
   
-Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioningScript.ps1](../../deploy/deploy-clients/room-systems-v2-scripts.md), zum Bereitstellen von Skype Raum Systemen v2 Konten verwendet.
+Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), zum Bereitstellen von Skype Raum Systemen v2 Konten verwendet.
   
 ## <a name="see-also"></a>Siehe auch
 
