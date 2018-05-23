@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lesen Sie dieses Thema bietet Informationen zum Skype Raum Systemen v2 mit Office 365 bereitstellen.
-ms.openlocfilehash: 87ae4f7e846cce1cfeca2c7f64fdee93476ae350
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: ac6cbd53f16fb9fe07e24ef288eddbc5acca1b00
+ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Bereitstellen von Skype Room Systems v2 mit Office 365 
  
@@ -92,7 +92,7 @@ Um Skype für Unternehmen zu aktivieren, müssen Sie über Folgendes verfügen:
    Sie können auch wie folgt eine Telefonnummer für den Raum festlegen:
     
    ```
-   Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
 
 6. Das Gerät Konto muss eine gültige Office 365-Lizenz verfügen, oder Exchange und Skype für Unternehmen funktionieren nicht. Wenn Sie die Lizenz haben, müssen Sie einen Verwendungsspeicherort mit Ihrem Konto Gerät zuweisen – diese Einstellung bestimmt, was Lizenz-SKUs für Ihr Konto zur Verfügung stehen. Get-MsolAccountSku können Sie wie folgt eine Liste der verfügbaren SKUs für Ihre Office 365-Mandanten abzurufen:
