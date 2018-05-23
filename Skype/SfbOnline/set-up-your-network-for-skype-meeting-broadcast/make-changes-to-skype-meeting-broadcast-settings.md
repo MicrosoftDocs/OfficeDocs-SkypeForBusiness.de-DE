@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - SMB
 description: Sie können aktivieren Skype Besprechung übertragen und nehmen Sie Änderungen Einstellungen und Richtlinien für Besprechungen.
-ms.openlocfilehash: e4e51e7e23138fe2e0b0cd1ce05d19f275c085b9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7cba3f66713d76e32da01d3dd318a6096dbed35c
+ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Nehmen Sie Änderungen Skype Besprechung übertragen werden Einstellungen für die Organisation
 
@@ -32,7 +32,7 @@ Sie können aktivieren Skype Besprechung übertragen und nehmen Sie Änderungen 
     
 - **Aktivieren Sie Skype Besprechung übertragen Preview-Features für meine Organisation** Die Skype für Business Customer Programme bieten Sie frühen Zugriff auf neue Produkte und Features. Dies bietet Ihrer Organisation eine Vorschau auf was kommt und die Möglichkeit, die neuen Funktionen in Ihrer Umgebung testen und Feedback geben, bevor wir Produktbuilds der Öffentlichkeit freigeben.<br/>[Skype für die Business-Vorschau](https://www.skypepreview.com/)
     
-- **Organisatoren anonyme Besprechungstermine zulassen** Auf diese Weise Organisatoren geschlossenen Untertitel und eine Übersetzung broadcast Besprechungen führen können.
+- **Organisatoren anonyme Besprechungstermine zulassen** Auf diese Weise können die Organisatoren broadcast Ereignisse erstellen, die damit alle Benutzer außerhalb ihrer Organisation ohne eine Anforderung zur Anmeldung bei beitreten können.
     
 - **Zulassen broadcast Besprechungen aufgezeichnet werden sollen** Auf diese Weise können alle Besprechungen, die Sie vom Organisator oder Referent aufgezeichnet werden sollen.
     

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Zusammenfassung: Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015.'
-ms.openlocfilehash: 9d5117f2774a928e520aa211007fffb0740a2b52
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 43ca3ca0444339ff61811c8aad5860989e45ca33
+ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server-2015"></a>Konfigurieren der Verwendung von hochauflösenden Fotos in Skype for Business Server 2015
  
@@ -35,12 +35,12 @@ In Skype für Business Server 2015 können Fotos in Exchange Server 2016 oder Ex
 Fotos mit hoher Auflösung, die mithilfe der Exchange-Webdienste zugegriffen werden, können von Benutzern hochgeladen werden, die Outlook 2013 Web App ausführen; Benutzer dürfen nur eigene Foto zu aktualisieren. Administratoren können das Foto für jeden Benutzer jedoch mithilfe der Exchange-Verwaltungsshell und eine Reihe von Windows PowerShell-Befehle wie folgt aktualisieren:
   
 ```
-$photo = ([Byte ] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
+$photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
 Set-UserPhoto -Identity "Ken Myer" -PictureData -Preview $photo -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-Im ersten Befehl des obigen Beispiels wird das Cmdlet „Get-Content“ verwendet, um die Inhalte der Datei „C:\Photos\Kenmyer.jpg“ zu lesen und diese Daten in der Variablen „Preview$photo“ zu speichern. Im zweiten Befehl wird das Exchange-Cmdlet Set-UserPhoto uploaden Sie das Foto, und fügen Sie dieses Foto Ken Myers Benutzerkonto.
+Der erste Befehl im vorstehenden Beispiel verwendet die `Get-Content` -Cmdlet zum Lesen Sie den Inhalt der Datei C:\Photos\Kenmyer.jpg, und speichern diese Daten in einer Variablen mit dem Namen $photo. Im zweiten Befehl, mit dem Exchange-Cmdlet `Set-UserPhoto` wird verwendet, um das Foto hochladen, und fügen Sie dieses Foto Ken Myers Benutzerkonto.
   
 > [!NOTE]
 > In diesem Beispiel wird der Active Directory-Anzeigename von Ken Myer als Benutzerkontoidentität verwendet. Sie können ein Benutzerkonto auch über andere IDs wie die SMTP-Adresse des Benutzers oder dessen Benutzerprinzipalnamen referenzieren. Finden Sie in der Dokumentation für das Cmdlet Set-UserPhoto bei [https://go.microsoft.com/fwlink/p/?LinkId=268536](https://go.microsoft.com/fwlink/p/?LinkId=268536) Weitere Informationen
@@ -59,6 +59,4 @@ https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmy
 
 Wenn der Administrator kann das Foto mit Internet Explorer anzeigen, aber der Benutzer nicht sein eigenes Foto, in Skype für Unternehmen anzeigen kann kann ein Verbindungsproblem mit Exchange-Webdienste oder mit der Exchange-AutoErmittlungsdienst vorhanden sein.
   
-Beachten Sie außerdem, dass keine zusätzliche Konfiguration erforderlich ist, um dieses Foto in Skype für Unternehmen verfügbar zu machen. Stattdessen ist das Foto unmittelbar verfügbar, nachdem es hochgeladen und das Cmdlet „Set-UserPhoto“ ausgeführt wurde.
-  
-
+Beachten Sie außerdem, dass keine zusätzliche Konfiguration erforderlich ist, um dieses Foto in Skype für Unternehmen verfügbar zu machen. Stattdessen das Foto werden sofort zur Verfügung stehen, nachdem er hochgeladen wurde und die `Set-UserPhoto` Cmdlet ausgeführt wurde.
