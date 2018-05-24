@@ -10,16 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Zusammenfassung: Informationen Sie zum Bereitstellen der Überwachung in Skype für Business Server 2015.'
-ms.openlocfilehash: a963db346f5d9f7904b43fc2032aa881295d1b77
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a25165add0ca6f9acd08e77efeda42cf7a8819ef
+ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server-2015"></a>Bereitstellen der Überwachung in Skype for Business Server 2015
  
 **Zusammenfassung:** Informationen Sie zum Bereitstellen der Überwachung in Skype für Business Server 2015.
-  
+ 
+Überprüfen Sie vor dem Ausführen dieser Aufgaben [Planen der Überwachung in Skype für Business Server 2015](../../plan-your-deployment/monitoring.md).
+ 
 Anhand der folgenden beiden Schritte können Sie Überwachungsdienste in Ihrer Topologie implementieren:
   
 1. Aktivieren der Überwachung gleichzeitig richten Sie eine neue Skype für Business Server-Pool. (In Skype für Business Server 2015, Überwachung aktiviert oder deaktiviert ist auf Basis von Pools.) Beachten Sie, dass Sie für einen Pool ohne tatsächlich Sammeln von Überwachungsdaten, Überwachung aktivieren können, ein Prozesses im Abschnitt Konfigurieren von Call Detail Recording and Quality of Experience Settings in dieser Dokumentation beschrieben.
@@ -92,4 +94,8 @@ Wenn Sie es vorziehen, können Sie auch die QoE-Überwachung von innerhalb der S
     
 Wie bereits erwähnt, wird in den vorherigen Beispielen Überwachung auf globaler Ebene aktivieren; d. h., aktivieren sie KDS und QoE-Überwachung in der gesamten Organisation. Alternativ, Sie können erstellen separate KDS und QoE-Konfigurationseinstellungen auf Standortebene, und klicken Sie dann selektiv aktivieren oder deaktivieren monitoring für jeden Standort. Beispielsweise konnten Sie KDS-Überwachung für Ihr Standort "Redmond" noch deaktivieren KDS für Ihre Website Dublin Überwachung aktivieren. Weitere Informationen zum Verwalten der Konfigurationseinstellungen finden Sie unter Deployment Guide Thema [Configure die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server 2015](call-detail-recording-and-qoe.md).
   
+## <a name="see-also"></a>Siehe auch
 
+#### 
+
+[Planen der Überwachung in Skype für Business Server 2015](../../plan-your-deployment/monitoring.md)
