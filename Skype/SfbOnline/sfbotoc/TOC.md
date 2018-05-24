@@ -39,8 +39,7 @@
 ### [Hinzufügen oder Entfernen einer Notfalladresse für Ihre Organisation](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md).
 ### [Zuweisen oder Ändern einer Notfalladresse für einen Benutzer](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Eingehende Anrufe blockieren](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
-### [Bekannte Probleme bei Anrufplänen](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
+### [Bekannte Probleme mit Anrufplänen](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Ändern der Notfalladresse für einen Benutzer](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Ändern der Notfallstandorts für einen Benutzer](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Erstellen und Verwalten von Wählplänen](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
@@ -150,7 +149,6 @@
 ### [Einrichten von Skype for Business-Anrufanalyse](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Aktivieren und Verwenden des Anrufqualitäts-Dashboards](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
 
 ## [Skype for Business Online-Berichterstellung](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Bericht „Aktivität“](../skype-for-business-online-reporting/activity-report.md)
