@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lesen Sie dieses Thema und erfahren Sie, wie Sie Ihrer Domäne einen Skype Room System-Anwendungs-PC hinzufügen.
-ms.openlocfilehash: 93aa983080ee93f38143224b6c74bdcd6490842c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e858122b8c931c53a7cb2eff0fe58ff225547a07
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Überlegungen zur Domänenzusammenführung in Skype Room System
  
@@ -62,6 +62,12 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
 
 Sogar wenn Sie eine separate OU erstellen und die Vererbung blockieren, gibt es einige Richtlinien, die Probleme auf einer höheren Ebene verursachen könnten. Eine Gruppenrichtlinie mit „Nicht aufheben“-Einstellung hat Vorrang gegenüber einer OU mit „Richtlinienvererbung aufheben“-Einstellung. Weitere Informationen finden Sie im Artikel "No außer Kraft setzen As im Vergleich zu blockieren der Vererbung von Gruppenrichtlinien" in der Gruppenrichtlinien-Dokumentation unter http://technet.microsoft.com/en-us/library/cc978255.aspx.
   
-Unter Umständen stehen Ihnen mehrere Ansätze zur Lösung dieser Probleme zur Verfügung. Es wird empfohlen, dass Sie sich an Ihre Active Directory-Experten wenden, um sicherzustellen, dass Sie über eine OU mit den angemessenen GPO-Einstellungen oder wenigstens über eine OU verfügen, in der die weiter oben beschriebenen Richtlinien nicht vorhanden sind. Es wird empfohlen, um Quality of Service (QoS) für Skype Raum System zu aktivieren.
-  
+Unter Umständen stehen Ihnen mehrere Ansätze zur Lösung dieser Probleme zur Verfügung. Es wird empfohlen, dass Sie sich an Ihre Active Directory-Experten wenden, um sicherzustellen, dass Sie über eine OU mit den angemessenen GPO-Einstellungen oder wenigstens über eine OU verfügen, in der die weiter oben beschriebenen Richtlinien nicht vorhanden sind. Es wird empfohlen, um Quality of Service (QoS) für Geräte Skype Raum System zu aktivieren.
 
+## <a name="see-also"></a>Siehe auch
+
+#### 
+  
+[Gerätekonfiguration: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+
+[Verwalten von Quality of Service](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

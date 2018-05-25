@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 81fbb40aad10687d3a75020a23b20cbeee7d5c2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>Erstellen einer Telefonsystem Anruf Warteschleife
 
@@ -127,7 +127,10 @@ Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > 
 ![Zeigt den Aufruf Verteilungsoptionen-Methode](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>**Rufen Sie Verteilungsmethode** Sie können für Ihre Anruf Warteschlange Verteilungsmethode **Attendant** oder **seriellen** auswählen. Alle neuen und vorhandenen Anruf Warteschlangen werden attendant routing standardmäßig ausgewählt haben. Wenn serielles routing verwenden möchten, müssen Sie explizit die **seriellen** routing-Option in der Benutzeroberfläche und -Cmdlets auswählen. <br/><br/> Wenn serielles routing ausgewählt wird, und die Warteschlange Anruf wird gespeichert, klingelt der Aufrufe aus der Warteschlange der Agents nacheinander ab dem Anfang der Liste Agent. Wenn ein Agent schließt oder nicht von einem Aufruf aufzunehmen, wird der Anruf klingelt den nächsten Agenten in der Liste und versucht, alle Agents nacheinander, bis es aufgenommene oder Timeout warten in der Warteschlange.  <br/><br/>  **Hinweis:** Serielles routing überspringt Agents, die sind **Offline**, deren Anwesenheitsstatus auf **nicht stören**festgelegt haben, oder der erste Anrufe aus dieser Warteschlange **bestätigt** .  
+![Nummer 1](../images/sfbcallout1.png)<br/>**Rufen Sie Verteilungsmethode** Sie können für Ihre Anruf Warteschlange Verteilungsmethode **Attendant** oder **seriellen** auswählen. Alle neuen und vorhandenen Anruf Warteschlangen werden attendant routing standardmäßig ausgewählt haben. Wenn serielles routing verwenden möchten, müssen Sie explizit die **seriellen** routing-Option in der Benutzeroberfläche und -Cmdlets auswählen. <br/><br/> Wenn serielles routing ausgewählt wird, und die Warteschlange Anruf wird gespeichert, klingelt der Aufrufe aus der Warteschlange der Agents nacheinander ab dem Anfang der Liste Agent. Wenn ein Agent schließt oder nicht von einem Aufruf aufzunehmen, wird der Anruf klingelt den nächsten Agenten in der Liste und versucht, alle Agents nacheinander, bis es aufgenommene oder Timeout warten in der Warteschlange.   
+
+> [!NOTE]
+> Serielles routing überspringt Agents, die sind **Offline**, deren Anwesenheitsstatus auf **nicht stören**festgelegt haben, oder der erste Anrufe aus dieser Warteschlange **bestätigt** . 
    
 ### <a name="select-an-agent-opt-out-option"></a>Wählen Sie einen Agent Aufheben der Bestätigung für option
 
@@ -222,7 +225,7 @@ Zum Verwalten einer Anrufwarteschleife benötigen Sie die folgenden Cmdlets.
     
 ### <a name="more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 
-- In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Das neue Office 365-Berichte Dashboard zeigt, über die Office 365-Produkte in Ihrer Organisation der Übersicht über die Aktivität. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Angenommen, Sie können die Skype für Business Gerät Verwendungsbericht verwenden, um die Geräte, einschließlich Windows-Betriebssystemen finden Sie unter und mobile Geräten, denen die Skype für Geschäfts-app installiert und es für Instant Messaging und Besprechungen verwenden. Checken Sie Aktivitätsberichte im Office 365 Administrationscenter, um mehr zu erfahren.
-ms.openlocfilehash: 711138e62b6614606b8532004591547cb2acd525
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 415522c9b8999229e32c90b2ac3be0a69a068a9c
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="device-usage-report"></a>Gerät-Verwendungsbericht
 
@@ -54,8 +54,9 @@ Sie können eine Ansicht in die Geräte zu erhalten, die der Skype verfolgen die
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Der Bericht **Skype für die Verwendung der Business-Gerät** kann für Trends über den letzten sieben Tagen 30 Tage, 90 Tage oder nach 180 Tagen angezeigt werden. Wenn Sie in einen bestimmten Tag im Bericht klicken, die Tabelle (siehe Nummer 7) zeigt jedoch Daten für 30 Tage, bis zu dem Datum (siehe Nummer 2) für Wenn der Bericht generiert wurde.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Wenn Sie die Details eines bestimmten Tags klicken, zeigt die Tabelle Daten für die 30 Tage bis zu dem Datum nur wenn der Bericht generiert wurde.
+    
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. 
 ***

@@ -19,11 +19,11 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: 46a292e462708b77b60aa1c8a52c2148fbc82775
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 8ea357aefe96505285d9c7bb870ef852ea2649a4
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -77,8 +77,9 @@ Die Sammlung der Nutzungsdaten ist standardmäßig aktiviert, lokale Administrat
 Benutzer können die Sammlung der Nutzungsdaten nicht aktivieren oder deaktivieren.
   
 Die Telemetrie für die Webseiten der Skype-Besprechungs-App und von Join Launcher kann durch diese Richtlinie gesteuert werden:
-  
-Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
+ 
+`Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
+
   
 Diese Richtlinie ist standardmäßig auf „False" festgelegt, das heißt, die Telemetriesammlung ist standardmäßig deaktiviert. Diese Einstellung gilt pro Pool und für alle Benutzer, die über die Skype-Besprechungs-App eine Verbindung mit einer Besprechung herstellen, die auf dem jeweiligen Server gehostet wird.
   
@@ -99,9 +100,9 @@ Für die Fehlerberichterstattung müssen zwei Voraussetzungen erfüllt sein:
   
 - Die DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung muss auf dem Server oder im Mandanten-Admin Center auf False festgelegt sein (das ist der Standardzustand). Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) finden Sie weitere Informationen.
     
-- Benutzer erteilen die Erlaubnis über die Registerkarte „Allgemein" (durch Klicken auf das Zahnradsymbol wird das Dialogfeld „Optionen" geöffnet, in dem die Registerkarte „Allgemein" angezeigt wird) im Skype for Business-Client.
+- Endbenutzer einzeln bestätigen auf der Registerkarte Allgemein (klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , und klicken Sie dann im Dialogfeld **Optionen** wird geöffnet, wobei die Registerkarte **Allgemein** angezeigt) in die Skype für Business-Client.
     
-     ![Zahnradsymbol](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
+ 
   
 ![Skype for Business data collection checkbox in the Options > General dialog](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   

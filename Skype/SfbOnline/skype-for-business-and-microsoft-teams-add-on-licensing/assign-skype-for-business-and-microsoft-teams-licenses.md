@@ -20,17 +20,19 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Informationen Sie zum Zuweisen von Skype für Business-Lizenzen für Telefonsystem, Audiokonferenzen, plant aufrufen und Communications haben. '
-ms.openlocfilehash: 00c80637e4b94a66f63c43e51f0bc3e562d42bea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9cc11ea1e527ccfae205152ae869316bbb3ffa88
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen
 
 Dieser Artikel enthält Tipps zum Zuweisen von Lizenzen für Ihre Benutzer für Funktionen wie Audiokonferenzen Telefonsystem und plant aufrufen. Darüber hinaus Skripts zum Zuweisen von Lizenzen in einer Sammeloperation.
+
+> [!IMPORTANT]
+> Informationen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-on-Lizenzierung](skype-for-business-and-microsoft-teams-add-on-licensing.md) zu **kaufen** und welche Lizenzen, die Sie kaufen müssen sie - je nach Ihrer Office 365 planen - damit Benutzer Audiokonferenzen und gebührenfreie Nummern anrufen erhalten Telefonnummern außerhalb Ihres Unternehmens.
   
- **Wichtig**: Siehe [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](skype-for-business-and-microsoft-teams-add-on-licensing.md) für Informationen zu vorhandenen Lizenzen benötigen zum erwerben und **Informationen zum Erwerben von** - je nach Ihrer Office 365-Plan - damit Benutzer Audiokonferenzen, gebührenfreie Nummern erhalten und die Möglichkeit zum Anrufen von Telefonnummern außerhalb Ihres Unternehmens.
   
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Telefonsystem und Anrufpläne: Tipps und Skripts für das Zuweisen von Lizenzen
 

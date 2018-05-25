@@ -16,11 +16,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 470b171800cbfec29a412a7d92e9849f5bf9ba13
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7daf8702d2e21ff83bc5d246aff61bfcdb945418
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -51,7 +51,7 @@ Mithilfe der PowerShell-Ausführungsrichtlinie kann ermittelt werden, welche Kon
   
 - **Fehler**: *Import-Module: Datei C:\\Program Files\\gemeinsame Dateien\\Microsoft Lync Server 2013\\Module\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 kann nicht geladen werden, da ausgeführt Skripts ist auf diesem System deaktiviert. Weitere Informationen finden Sie unter About_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170.*
 
-- **Lösung** Um dieses Problem zu beheben, starten Sie PowerShell als Administrator, und führen Sie dann den folgenden Befehl aus:
+- **Lösung**: Starten Sie PowerShell als Administrator, um dieses Problem zu beheben, und führen Sie dann den folgenden Befehl aus:
     ```
     Set-ExecutionPolicy RemoteSigned
     ```

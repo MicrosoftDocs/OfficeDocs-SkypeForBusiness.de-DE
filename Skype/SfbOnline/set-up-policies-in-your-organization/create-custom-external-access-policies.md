@@ -16,11 +16,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype für Business Online können Sie zusätzliche externe Zugriffsrichtlinien erstellen. Im Gegensatz zu Client oder für Konferenzen Richtlinien, wenn Sie mehrere Kombinationen verfügen, gibt es drei vordefinierten externen Zugriff-Richtlinien, die meisten Szenarien abdecken können.
-ms.openlocfilehash: 424102ddf9570ac4b3a8d02917b2d9cafe6bff6f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8d0cff680ebf225a9dc62e585f39ab3f0b27e3c3
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externe Zugriffsrichtlinien
 
@@ -94,7 +94,7 @@ Zu diesem Zweck führen Sie Folgendes aus:
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
