@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: In diesem Thema werden die Tools in der Skype für Business Server 2015 Resource Kit, einschließlich des Zwecks der einzelnen Tools und Beispiele für deren Verwendung beschrieben. Die Skype für Business Server 2015 Resource Kit können Sie Routineaufgaben für IT-Administratoren erleichtern, die Bereitstellung und Verwaltung von Skype für Business Server 2015. Beispielsweise kann das Tool Web Conf Daten verwendet werden, auf einfache Weise Daten steuern, die Benutzer während einer onlinebesprechung hochgeladen wird. Das Tool SEFAUtil kann zum Einrichten von Delegaten Anruf weiterleiten und-Annahme für Benutzer verwendet werden. Wir empfehlen IT-Administratoren mit diesen Tools Skype für Business Server 2015 effektiver verwalten.
-ms.openlocfilehash: 7178b7e5566badfea8096e314b1ac23213173a35
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 29ec63c387802e86144f5b1aa24e5441edec9939
+ms.sourcegitcommit: 4f5f298d59ecd914db9393b8b54e2abfc10e725a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Dokumentation zu den Tools im Resource Kit von Skype for Business Server 2015
  
@@ -279,7 +279,6 @@ Nach erfolgreicher Überprüfung der Eingabe wird die unten wiedergegebene Meldu
   
 Klicken Sie auf **OK**. „BandwidthUtilizationAnalyzer.xlsm“ wird automatisch gestartet. Befolgen Sie die im Meldungsfeld angezeigten Anweisungen. Ausführliche Informationen finden Sie im nächsten Abschnitt unter **Verwenden von „BandwidthUtilizationAnalyzer.xlsm“**.
   
-#### 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>Verwenden von „BandwidthUtilizationAnalyzer.xlsm“
 
