@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Zusammenfassung: Informationen Sie zum Installieren und Testen von Skype für Unternehmen auf Ihrem Windows Phone.'
-ms.openlocfilehash: c3f9fcf20726c4fd33dc4de462b64a1397373a0f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 12916e26857e5d456338519adee6190c11bace7b
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype for Business Server 2015: Installieren und Testen von Skype for Business für Windows Phone
  
@@ -112,7 +112,6 @@ Um die Skype für Business für Windows Phone-app von Ihrem mobilen Gerät zu en
 ## <a name="see-also"></a>Siehe auch
 
 #### 
-
 
 [Erste Schritte mit Skype für Business für Windows Phone 8.1]()
 

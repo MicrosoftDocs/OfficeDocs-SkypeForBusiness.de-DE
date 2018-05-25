@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: 3bb3a5d28be508b1070baa62e1fc1b269157c906
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3d66e70166e69e1d7e248b80bc4c8ff9c0773799
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="install-database-create-mirror-database-page"></a>Installieren der Datenbank – Seite Spiegelung erstellen
  
@@ -29,7 +29,6 @@ Wenn Sie nicht die SQL Server-Spiegeldatenbanken während der Veröffentlichungs
 #### 
 
 [Bereitstellen von SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Server in Skype für Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
-#### 
 
 [Install-csmirrordatabase Anfügen](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
   

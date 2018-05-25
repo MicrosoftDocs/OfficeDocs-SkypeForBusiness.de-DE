@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Zusammenfassung: Konfigurieren eines Trunks ohne medienumgehung für Skype für Business Server 2015 aktiviert.'
-ms.openlocfilehash: 1885ef2a599398fa0ef9d36075d80e0a9f588dd5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 399ee06eeddb309fe9820ad13a5c30e931b3486d
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server-2015"></a>Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server 2015
  
@@ -167,7 +167,6 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 #### 
 
 [Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server 2015](configure-trunk-with-media-bypass.md)
-#### 
 
 [Definieren von Übersetzungsregeln](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
 

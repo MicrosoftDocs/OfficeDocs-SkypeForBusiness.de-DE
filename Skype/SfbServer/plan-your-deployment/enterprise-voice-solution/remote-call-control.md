@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Remoteanrufsteuerung wurde Feature in früheren Versionen von Lync Server die Benutzer ihre Nebenstellentelefone über mit Lync Server steuern aktiviert. Dieses Feature wurde in Skype für Business Server mit über Arbeitsplatz anrufen ersetzt. In die Clientversionen für Skype für Business Server 2015 und Wechsel zu weiterleiten, remote Call Control ist nicht mehr verfügbar in den Client konfiguriert und wurde für die Verwendung entfernt.
-ms.openlocfilehash: dc71f8307fe17b9a4654bc931a621f934fd3eb02
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e3a8031a79d547a279b377a45e1e8461cd47a2e7
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business-2015"></a>Planen der Remoteanrufsteuerung in Skype for Business 2015
  
@@ -43,7 +43,6 @@ Weitere Informationen finden Sie unter [Remote Call Control](https://go.microsof
 [Planen der Anruf über den Arbeitsplatz in Skype für Business Server 2015](call-via-work.md)
   
 [Desktopclient Featurevergleich für Skype für Unternehmen](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
-#### 
 
 [Stellen Sie einen Skype für Business Anruf jedoch verwenden Telefonapparat PBX für audio](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
 

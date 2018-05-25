@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Zusammenfassung: Bereitstellung der Skype für Business Web App und Skype Besprechungen App mit Skype für Unternehmen verwendet.'
-ms.openlocfilehash: e1cee2741e1538da1e4c5ed8e25509415cb16ac3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a81e8744208261934635aee4f8a872a81b179c90
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Bereitstellen von aus dem Web herunterladbaren Clients in Skype for Business Server 2015
  
@@ -154,7 +154,6 @@ Dieses Verfahren ist optional. Wenn Sie nicht verwenden, weiterhin externe Benut
 [Planen von Besprechungen-Clients (Web App und Besprechungen App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
   
 [Planen von Besprechungen-Clients (Web App und Besprechungen App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-#### 
 
 [Konfigurieren der Seite für den Besprechungsbeitritt](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
   

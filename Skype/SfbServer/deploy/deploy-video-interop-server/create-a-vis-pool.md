@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Zusammenfassung: Erstellen Sie einen Video Interop-Serverpool in Skype für Business Server 2015 des Topologie-Generators.'
-ms.openlocfilehash: ab34cf5b547301314bf169b56481818f78e9908a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 89fcdf34480bc9b99295993d28e32ca547f07893
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Erstellen eines VIS-Pools in Skype for Business Server 2015
  
@@ -67,7 +67,6 @@ Alle mithilfe des Topologie-Generators durchgeführten Aufgaben sollten jetzt ab
 #### 
 
 [Bereitstellen der Serverrolle gegenüber in Skype für Business Server 2015](deploy-the-vis-server-role.md)
-#### 
 
 [Planen der Interop-Videoserver in Skype für Business Server 2015](../../plan-your-deployment/video-interop-server.md)
   

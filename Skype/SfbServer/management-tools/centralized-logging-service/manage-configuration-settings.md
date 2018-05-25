@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Zusammenfassung: Informationen Sie zum Abrufen, aktualisieren und Erstellen von Konfigurationseinstellungen für den Dienst für die zentralisierte Protokollierung in Skype für Business Server 2015.'
-ms.openlocfilehash: 0c4d03119a61fccd062e650c38815bee069852f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8fe02cc4d2c04f9433736c4bced429f84f84d915
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Verwalten von Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  
@@ -54,7 +54,7 @@ Ein einzelner Computer Bereich kann während der Ausführung von ["Search-csclsl
 > [!TIP]
 > Sie können auch - Pools und definieren eine durch Kommas getrennte Liste von Pools, die die protokollierungsbefehle ausgeführt werden soll. 
   
-Website- und Global Bereiche sind in die Cmdlets **New-**, **Set-**und **Remove -** Centralized Logging Service definiert. Die folgenden Beispiele zeigen, wie ein Standortbereich und ein globaler Bereich festgelegt werden.
+Website- und Global Bereiche sind in die Cmdlets **New-**, **Set-** und **Remove -** Centralized Logging Service definiert. Die folgenden Beispiele zeigen, wie ein Standortbereich und ein globaler Bereich festgelegt werden.
   
 > [!IMPORTANT]
 > Parameter und Konzepte, die in anderen Abschnitten besprochen werden, können mit den Befehlen enthalten. Die Beispielbefehle sollen veranschaulichen die Verwendung von der **-Identität** Parameter Bereich zu definieren, und die anderen Parameter auf Vollständigkeit und an den Bereich enthalten sind. Ausführliche Informationen zu den Cmdlets **"Set-csclsconfiguration"** finden Sie unter [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) in der Betriebsdokumentation.
@@ -69,7 +69,7 @@ Website- und Global Bereiche sind in die Cmdlets **New-**, **Set-**und **Remove 
   Get-CsClsConfiguration
   ```
 
-Verwenden Sie die Cmdlets **New-CsClsConfiguration** und **Set-CsClsConfiguration** , um eine neue Konfiguration zu erstellen oder eine vorhandene Konfiguration zu aktualisieren. Beim Ausführen von **"Get-csclsconfiguration"**werden Informationen ähnlich dem folgenden Screenshot, bei die Bereitstellung aktuell die standardmäßige globale Konfiguration, aber keine Standortkonfigurationen definiert hat angezeigt:
+Verwenden Sie die Cmdlets **New-CsClsConfiguration** und **Set-CsClsConfiguration** , um eine neue Konfiguration zu erstellen oder eine vorhandene Konfiguration zu aktualisieren. Beim Ausführen von **"Get-csclsconfiguration"** werden Informationen ähnlich dem folgenden Screenshot, bei die Bereitstellung aktuell die standardmäßige globale Konfiguration, aber keine Standortkonfigurationen definiert hat angezeigt:
   
 ![Beispielausgabe von Get-CsClsConfiguration](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   
@@ -185,10 +185,8 @@ Wenn Sie eine Konfiguration auf Standortebene löschen, verwendet der Standort a
 [Konfigurieren von Anbietern für zentralisierte Protokollierungsdienst in Skype für Business Server 2015](configure-providers.md)
   
 [Konfigurieren von Szenarien für die zentralisierte Protokollierungsdienst in Skype Business Server 2015](configure-scenarios.md)
-#### 
 
 [Zentraler Protokollierungsdienst in Skype für Business 2015](centralized-logging-service.md)
-#### 
 
 ["Set-csclsconfiguration"](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
   

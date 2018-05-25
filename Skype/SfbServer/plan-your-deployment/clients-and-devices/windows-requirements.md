@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Zusammenfassung: Überprüfen der Windows-Client-Support-Anforderungen beim Planen der Business Server 2015 Skype.'
-ms.openlocfilehash: 3dac3a8e15e53cec5605aa2b003150f491d8f2b5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 72e34e334a9b43139b77aec93f29adb76dd56241
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Clientanforderungen für Windows und Software-support
  
@@ -75,7 +75,6 @@ Die Skype für Unternehmen auf Mac-Support-Anforderungen werden in [Skype für U
 [Planen von Besprechungen-Clients (Web App und Besprechungen App)](meetings-clients.md)
   
 [Skype für Unternehmen auf Mac-Clientanforderungen](mac-requirements.md)
-#### 
 
 [Laden Sie für alle Ihre Geräte Skype für Unternehmen](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)
   

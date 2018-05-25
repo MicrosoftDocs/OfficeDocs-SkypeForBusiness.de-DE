@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 'Definieren Sie einen neuen Session Initiation Protocol (SIP) Trunk, indem Sie die folgenden Informationen bereitstellen:'
-ms.openlocfilehash: ec0832c0e9cd103b034ada5b0ddc23391294b5ed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: acc40b4dc1075ab77baa65c607b5445502daa1fb
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="define-a-new-trunk"></a>Definieren eines neuen Trunks
  
@@ -39,7 +39,6 @@ Definieren Sie einen neuen Session Initiation Protocol (SIP) Trunk, indem Sie di
 #### 
 
 [M: n-Trunk in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
-#### 
 
 [Implementierung SIP-trunking](http://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
 
