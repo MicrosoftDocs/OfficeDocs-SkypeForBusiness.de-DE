@@ -16,6 +16,7 @@
 ## [Verwalten des Benutzerzugriffs auf Teams](user-access.md)
 ## [Beziehen von Clients für Microsoft Teams](get-clients.md)
 ## [Hardwareanforderungen für die app Teams](hardware-requirements-for-the-teams-app.md)
+## [Migration und Interoperabilität mit Skype für Unternehmen](migration-interop-guidance-for-teams-with-skype.md)
 ## [Melden Sie sich bei Teams](sign-in-teams.md)
 ## [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
 ## [Teams in Ihrer Office 365-Organisation einrichten](Office-365-set-up.md)
