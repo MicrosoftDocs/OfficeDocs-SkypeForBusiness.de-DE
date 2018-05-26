@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 47238d1c1ac092a9a314c2df25c9cf1293366f45
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 125624406e3e7f0350c4e48126a51359fdedce54
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="url-filter"></a><span data-ttu-id="88b32-104">URL-Filter</span><span class="sxs-lookup"><span data-stu-id="88b32-104">URL Filter</span></span>
+# <a name="url-filter"></a><span data-ttu-id="94e58-104">URL-Filter</span><span class="sxs-lookup"><span data-stu-id="94e58-104">URL Filter</span></span>
  
-<span data-ttu-id="88b32-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="88b32-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="94e58-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="94e58-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="88b32-107">Ändern des Standard-URL-Filters</span><span class="sxs-lookup"><span data-stu-id="88b32-107">Modify the Default URL Filter</span></span>](http://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [<span data-ttu-id="94e58-107">Ändern des Standard-URL-Filters</span><span class="sxs-lookup"><span data-stu-id="94e58-107">Modify the Default URL Filter</span></span>](http://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
     
-- [<span data-ttu-id="88b32-108">Erstellen Sie einen neuen URL-Filter zur Verarbeitung von links in Sofortnachrichtenunterhaltungen</span><span class="sxs-lookup"><span data-stu-id="88b32-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [<span data-ttu-id="94e58-108">Erstellen Sie einen neuen URL-Filter zur Verarbeitung von links in Sofortnachrichtenunterhaltungen</span><span class="sxs-lookup"><span data-stu-id="94e58-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
     
-<span data-ttu-id="88b32-109">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="88b32-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="94e58-109">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="94e58-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 

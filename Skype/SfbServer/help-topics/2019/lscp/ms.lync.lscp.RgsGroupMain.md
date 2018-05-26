@@ -12,46 +12,46 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows. Eine agentgruppe ist eine Gruppe von Personen, die Annahme von Anrufen für Reaktionsgruppen vorgesehen sind.
-ms.openlocfilehash: 78acb2219b5db0598a262812c6127ae7f8d56715
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c2636da9d21532a9f449f1663b9458ac253ecf27
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="response-groups-group"></a><span data-ttu-id="344e6-104">Reaktionsgruppen: Gruppe</span><span class="sxs-lookup"><span data-stu-id="344e6-104">Response Groups: Group</span></span>
+# <a name="response-groups-group"></a><span data-ttu-id="98bcc-104">Reaktionsgruppen: Gruppe</span><span class="sxs-lookup"><span data-stu-id="98bcc-104">Response Groups: Group</span></span>
  
-<span data-ttu-id="344e6-105">Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows.</span><span class="sxs-lookup"><span data-stu-id="344e6-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="344e6-106">Eine agentgruppe ist eine Gruppe von Personen, die Annahme von Anrufen für Reaktionsgruppen vorgesehen sind.</span><span class="sxs-lookup"><span data-stu-id="344e6-106">An agent group is a group of people who are designated to answer Response Group calls.</span></span> 
+<span data-ttu-id="98bcc-105">Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows.</span><span class="sxs-lookup"><span data-stu-id="98bcc-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="98bcc-106">Eine agentgruppe ist eine Gruppe von Personen, die Annahme von Anrufen für Reaktionsgruppen vorgesehen sind.</span><span class="sxs-lookup"><span data-stu-id="98bcc-106">An agent group is a group of people who are designated to answer Response Group calls.</span></span> 
   
-<span data-ttu-id="344e6-107">Die **Reaktionsgruppen** - **Gruppe** Seite zeigt eine Liste aller Agent-Gruppen, die für Ihre Organisation definiert sind.</span><span class="sxs-lookup"><span data-stu-id="344e6-107">The **Response Groups** - **Group** page displays a list of all the agent groups that are defined for your organization.</span></span>
+<span data-ttu-id="98bcc-107">Die **Reaktionsgruppen** - **Gruppe** Seite zeigt eine Liste aller Agent-Gruppen, die für Ihre Organisation definiert sind.</span><span class="sxs-lookup"><span data-stu-id="98bcc-107">The **Response Groups** - **Group** page displays a list of all the agent groups that are defined for your organization.</span></span>
   
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="344e6-108">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="344e6-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="98bcc-108">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="98bcc-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="344e6-109">Sie können die folgenden Aufgaben ausführen, aus der **Reaktionsgruppen** - Seite**Gruppe** :</span><span class="sxs-lookup"><span data-stu-id="344e6-109">You can perform the following tasks from the **Response Groups** - **Group** page:</span></span>
+<span data-ttu-id="98bcc-109">Sie können die folgenden Aufgaben ausführen, aus der **Reaktionsgruppen** - Seite**Gruppe** :</span><span class="sxs-lookup"><span data-stu-id="98bcc-109">You can perform the following tasks from the **Response Groups** - **Group** page:</span></span>
   
-- <span data-ttu-id="344e6-110">Erstellen einer neuen agentgruppe</span><span class="sxs-lookup"><span data-stu-id="344e6-110">Create a new agent group</span></span>
+- <span data-ttu-id="98bcc-110">Erstellen einer neuen agentgruppe</span><span class="sxs-lookup"><span data-stu-id="98bcc-110">Create a new agent group</span></span>
     
-- <span data-ttu-id="344e6-111">Ändern einer vorhandenen agentgruppe</span><span class="sxs-lookup"><span data-stu-id="344e6-111">Change an existing agent group</span></span>
+- <span data-ttu-id="98bcc-111">Ändern einer vorhandenen agentgruppe</span><span class="sxs-lookup"><span data-stu-id="98bcc-111">Change an existing agent group</span></span>
     
-- <span data-ttu-id="344e6-112">Löschen einer agentgruppe</span><span class="sxs-lookup"><span data-stu-id="344e6-112">Delete an agent group</span></span>
+- <span data-ttu-id="98bcc-112">Löschen einer agentgruppe</span><span class="sxs-lookup"><span data-stu-id="98bcc-112">Delete an agent group</span></span>
     
-## <a name="ui-reference"></a><span data-ttu-id="344e6-113">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="344e6-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="98bcc-113">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="98bcc-113">UI Reference</span></span>
 
-<span data-ttu-id="344e6-114">In der folgenden Liste sind die Befehle der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="344e6-114">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="98bcc-114">In der folgenden Liste sind die Befehle der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="98bcc-114">The following list describes the commands on the page.</span></span>
   
-- <span data-ttu-id="344e6-115">**Neue** Ermöglicht die Erstellung einer neuen agentgruppe.</span><span class="sxs-lookup"><span data-stu-id="344e6-115">**New** Starts a new agent group.</span></span>
+- <span data-ttu-id="98bcc-115">**Neue** Ermöglicht die Erstellung einer neuen agentgruppe.</span><span class="sxs-lookup"><span data-stu-id="98bcc-115">**New** Starts a new agent group.</span></span>
     
-- <span data-ttu-id="344e6-116">**Bearbeiten** Öffnet die ausgewählte agentgruppe zur Bearbeitung, wählt alle agentgruppen in der Liste oder löscht die ausgewählte agentgruppe.</span><span class="sxs-lookup"><span data-stu-id="344e6-116">**Edit** Opens the selected agent group to edit it, selects all agent groups in the list, or deletes the selected agent groups.</span></span>
+- <span data-ttu-id="98bcc-116">**Bearbeiten** Öffnet die ausgewählte agentgruppe zur Bearbeitung, wählt alle agentgruppen in der Liste oder löscht die ausgewählte agentgruppe.</span><span class="sxs-lookup"><span data-stu-id="98bcc-116">**Edit** Opens the selected agent group to edit it, selects all agent groups in the list, or deletes the selected agent groups.</span></span>
     
-- <span data-ttu-id="344e6-117">**Aktualisieren** Aktualisiert die Liste der agentgruppen.</span><span class="sxs-lookup"><span data-stu-id="344e6-117">**Refresh** Refreshes the list of agent groups.</span></span>
+- <span data-ttu-id="98bcc-117">**Aktualisieren** Aktualisiert die Liste der agentgruppen.</span><span class="sxs-lookup"><span data-stu-id="98bcc-117">**Refresh** Refreshes the list of agent groups.</span></span>
     
-<span data-ttu-id="344e6-118">In der folgenden Liste werden die Felder der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="344e6-118">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="98bcc-118">In der folgenden Liste werden die Felder der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="98bcc-118">The following list describes the fields on the page.</span></span>
   
-- <span data-ttu-id="344e6-119">**Name** Der eindeutige Name, der die agentgruppe.</span><span class="sxs-lookup"><span data-stu-id="344e6-119">**Name** The unique name that identifies the agent group.</span></span>
+- <span data-ttu-id="98bcc-119">**Name** Der eindeutige Name, der die agentgruppe.</span><span class="sxs-lookup"><span data-stu-id="98bcc-119">**Name** The unique name that identifies the agent group.</span></span>
     
-- <span data-ttu-id="344e6-120">**Dienst** Der **ApplicationServer** -Dienst, der die agentgruppe hostet.</span><span class="sxs-lookup"><span data-stu-id="344e6-120">**Service** The **ApplicationServer** service that hosts the agent group.</span></span>
+- <span data-ttu-id="98bcc-120">**Dienst** Der **ApplicationServer** -Dienst, der die agentgruppe hostet.</span><span class="sxs-lookup"><span data-stu-id="98bcc-120">**Service** The **ApplicationServer** service that hosts the agent group.</span></span>
     
-- <span data-ttu-id="344e6-121">**Beschreibung** Die Beschreibung für die agentgruppe.</span><span class="sxs-lookup"><span data-stu-id="344e6-121">**Description** The description for the agent group.</span></span>
+- <span data-ttu-id="98bcc-121">**Beschreibung** Die Beschreibung für die agentgruppe.</span><span class="sxs-lookup"><span data-stu-id="98bcc-121">**Description** The description for the agent group.</span></span>
     
-<span data-ttu-id="344e6-122">Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="344e6-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="344e6-123">Ausführliche Informationen zur Verwendung von agentgruppen finden Sie unter [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="344e6-123">For details about working with agent groups, see [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="98bcc-122">Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="98bcc-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="98bcc-123">Ausführliche Informationen zur Verwendung von agentgruppen finden Sie unter [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="98bcc-123">For details about working with agent groups, see [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
   
 

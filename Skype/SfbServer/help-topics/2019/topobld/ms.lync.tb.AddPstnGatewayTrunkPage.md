@@ -12,34 +12,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Sie definieren den stammtrunk für die IP-Adresse oder das Telefonfestnetz (PSTN), indem Sie Folgendes konfigurieren:'
-ms.openlocfilehash: e9f42114e64351290322b9ae0e520c9556c457f0
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 230c6def2706df1f7ef274ead174d8b603c248d8
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a><span data-ttu-id="60584-103">Definieren des Stammtrunks für eine neue IP- oder PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="60584-103">Define the Root Trunk for a New IP or PSTN Gateway</span></span>
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a><span data-ttu-id="475f9-103">Definieren des Stammtrunks für eine neue IP- oder PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="475f9-103">Define the Root Trunk for a New IP or PSTN Gateway</span></span>
  
-<span data-ttu-id="60584-104">Sie definieren den stammtrunk für die IP-Adresse oder das Telefonfestnetz (PSTN), indem Sie Folgendes konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="60584-104">You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:</span></span>
+<span data-ttu-id="475f9-104">Sie definieren den stammtrunk für die IP-Adresse oder das Telefonfestnetz (PSTN), indem Sie Folgendes konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="475f9-104">You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:</span></span>
   
-- <span data-ttu-id="60584-105">**Trunkname**: Definieren des vollqualifizierten Domänennamens dem Trunk zugeordnet</span><span class="sxs-lookup"><span data-stu-id="60584-105">**Trunk name**: define the fully qualified domain name associated with the trunk</span></span>
+- <span data-ttu-id="475f9-105">**Trunkname**: Definieren des vollqualifizierten Domänennamens dem Trunk zugeordnet</span><span class="sxs-lookup"><span data-stu-id="475f9-105">**Trunk name**: define the fully qualified domain name associated with the trunk</span></span>
     
-- <span data-ttu-id="60584-106">**Überwachungsport für IP/PSTN-Gateway**: definiert den Port, der diesem Trunk überwacht wird</span><span class="sxs-lookup"><span data-stu-id="60584-106">**Listening port for IP/PSTN gateway**: define the port that this trunk will listen on</span></span>
+- <span data-ttu-id="475f9-106">**Überwachungsport für IP/PSTN-Gateway**: definiert den Port, der diesem Trunk überwacht wird</span><span class="sxs-lookup"><span data-stu-id="475f9-106">**Listening port for IP/PSTN gateway**: define the port that this trunk will listen on</span></span>
     
-- <span data-ttu-id="60584-107">**SIP-Transportprotokoll**: Wählen Sie aus der Liste entweder **TCP** oder **TLS**, basierend auf trunkanforderungen</span><span class="sxs-lookup"><span data-stu-id="60584-107">**SIP Transport Protocol**: select from the list either **TCP** or **TLS**, based on the trunk requirements</span></span>
+- <span data-ttu-id="475f9-107">**SIP-Transportprotokoll**: Wählen Sie aus der Liste entweder **TCP** oder **TLS**, basierend auf trunkanforderungen</span><span class="sxs-lookup"><span data-stu-id="475f9-107">**SIP Transport Protocol**: select from the list either **TCP** or **TLS**, based on the trunk requirements</span></span>
     
-- <span data-ttu-id="60584-108">**Zugeordneter Vermittlungsserver**: Wählen Sie aus der Liste der verfügbaren Mediation Server in Ihrer Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="60584-108">**Associated Mediation Server**: select from the list of available Mediation Servers in your deployment</span></span>
+- <span data-ttu-id="475f9-108">**Zugeordneter Vermittlungsserver**: Wählen Sie aus der Liste der verfügbaren Mediation Server in Ihrer Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="475f9-108">**Associated Mediation Server**: select from the list of available Mediation Servers in your deployment</span></span>
     
-- <span data-ttu-id="60584-109">**Zugeordneter Vermittlungsserver Port**: definiert den Port, die den ausgewählten Mediation Server abgehört wird</span><span class="sxs-lookup"><span data-stu-id="60584-109">**Associated Mediation Server port**: define the port that the selected Mediation Server is listening on</span></span>
+- <span data-ttu-id="475f9-109">**Zugeordneter Vermittlungsserver Port**: definiert den Port, die den ausgewählten Mediation Server abgehört wird</span><span class="sxs-lookup"><span data-stu-id="475f9-109">**Associated Mediation Server port**: define the port that the selected Mediation Server is listening on</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="60584-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="60584-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="475f9-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="475f9-110">See also</span></span>
 
 #### 
 
-[<span data-ttu-id="60584-111">Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="60584-111">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[<span data-ttu-id="475f9-111">Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="475f9-111">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
   
-[<span data-ttu-id="60584-112">Konfigurieren eines Trunks ohne medienumgehung in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="60584-112">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[<span data-ttu-id="475f9-112">Konfigurieren eines Trunks ohne medienumgehung in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="475f9-112">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 #### 
 
-[<span data-ttu-id="60584-113">Unterstützung für SIP-Trunking</span><span class="sxs-lookup"><span data-stu-id="60584-113">SIP Trunking Support</span></span>](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[<span data-ttu-id="475f9-113">Unterstützung für SIP-Trunking</span><span class="sxs-lookup"><span data-stu-id="475f9-113">SIP Trunking Support</span></span>](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
 

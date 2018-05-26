@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 76b0f0ad06c0afcbe42ac1b29cb312d3a5324fd0
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3e520c789af1d0eabf11d7fec89bd7046423aff8
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a><span data-ttu-id="c3401-104">VoIP-Route: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="c3401-104">Voice Route: Create New or Edit Existing</span></span>
+# <a name="voice-route-create-new-or-edit-existing"></a><span data-ttu-id="8469c-104">VoIP-Route: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="8469c-104">Voice Route: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="c3401-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="c3401-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="8469c-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="8469c-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="c3401-107">Erstellen oder Ändern einer VoIP-Route in Skype für Business 2015</span><span class="sxs-lookup"><span data-stu-id="c3401-107">Create or modify a voice route in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="8469c-107">Erstellen oder Ändern einer VoIP-Route in Skype für Business 2015</span><span class="sxs-lookup"><span data-stu-id="8469c-107">Create or modify a voice route in Skype for Business 2015</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
     
-- [<span data-ttu-id="c3401-108">Ändern Sie eine VoIP-Route</span><span class="sxs-lookup"><span data-stu-id="c3401-108">Modify a Voice Route</span></span>](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="8469c-108">Ändern Sie eine VoIP-Route</span><span class="sxs-lookup"><span data-stu-id="8469c-108">Modify a Voice Route</span></span>](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
     
-<span data-ttu-id="c3401-109">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="c3401-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="8469c-109">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="8469c-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 

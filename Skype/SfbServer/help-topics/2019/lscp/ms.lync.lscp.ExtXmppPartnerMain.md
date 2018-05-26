@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 04ac429160f3480bd33c2df30f53977f03d554a7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c5a50bfb0fb80dfe83037b7d877ca02c82ad5994
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="xmpp-federated-partners"></a><span data-ttu-id="a98cb-104">XMPP-Verbundpartner</span><span class="sxs-lookup"><span data-stu-id="a98cb-104">XMPP Federated Partners</span></span>
+# <a name="xmpp-federated-partners"></a><span data-ttu-id="b66d0-104">XMPP-Verbundpartner</span><span class="sxs-lookup"><span data-stu-id="b66d0-104">XMPP Federated Partners</span></span>
  
-<span data-ttu-id="a98cb-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="a98cb-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b66d0-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="b66d0-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="a98cb-107">Verwalten von XMPP-Verbundpartner für Ihre Organisation</span><span class="sxs-lookup"><span data-stu-id="a98cb-107">Manage XMPP Federated Partners for Your Organization</span></span>](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+- [<span data-ttu-id="b66d0-107">Verwalten von XMPP-Verbundpartner für Ihre Organisation</span><span class="sxs-lookup"><span data-stu-id="b66d0-107">Manage XMPP Federated Partners for Your Organization</span></span>](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
     
-<span data-ttu-id="a98cb-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="a98cb-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="b66d0-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b66d0-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 
