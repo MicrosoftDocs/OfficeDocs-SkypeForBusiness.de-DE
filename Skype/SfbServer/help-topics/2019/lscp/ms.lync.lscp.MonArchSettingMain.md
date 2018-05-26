@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Verwenden Sie Archivierungskonfigurationen Steuerelement Archivierungsoptionen für Ihre Skype für Business Server-Bereitstellung, einschließlich aktivieren und deaktivieren die folgenden Optionen aus:'
-ms.openlocfilehash: e32c42d5ef945b360ce4992ea9a33658bcc4068a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c35991318159196fd131a20ef3f36719eefa9dd1
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="archiving-configuration"></a>Archivierungskonfiguration
  
@@ -64,5 +64,5 @@ Auf der Seite **Archivierungskonfiguration** werden die einzelnen Archivierungsr
     
 - **Aktualisieren** Sie können den Status der Optionen aller Archivierungskonfigurationen zu überprüfen, um die Seite **Archivierungskonfiguration** aktualisieren.
     
-Weitere Informationen über die Archivierungsfunktion und Funktionen, einschließlich Exchange-Integration finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Archivierung für Skype für Business Server 2015 bereitstellen](../../deploy/deploy-archiving/deploy-archiving.md)und verwalten [Archivierung in Skype für Business Server 2015](../../manage/archiving/archiving.md).
+Weitere Informationen über die Archivierungsfunktion und Funktionen, einschließlich Exchange-Integration finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Archivierung für Skype für Business Server 2015 bereitstellen](../../../deploy/deploy-archiving/deploy-archiving.md)und verwalten [Archivierung in Skype für Business Server 2015](../../../manage/archiving/archiving.md).
 

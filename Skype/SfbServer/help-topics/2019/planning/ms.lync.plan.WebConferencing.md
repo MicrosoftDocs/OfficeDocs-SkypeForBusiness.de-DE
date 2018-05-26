@@ -13,11 +13,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype für Webkonferenzen Business Server 2015 enthält Zusammenarbeit an Dokumenten, Anwendungsfreigabe und Desktopfreigabe.
-ms.openlocfilehash: 3755a922970942451f08e19c2ba59884cd8b91d3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1e2863895e9e0666381d6095e5846456029205b7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="web-conferencing-planning-tool"></a>Webkonferenzen (Planungstool)
  
@@ -28,12 +28,12 @@ Skype für Webkonferenzen Business Server 2015 enthält Zusammenarbeit an Dokume
   
 Ausführliche Informationen zur Planung der Aktivierung von Webkonferenzen in Ihrer Organisation finden Sie in den folgenden Themen: 
   
-- [Planen von Konferenzen in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Planen von Konferenzen in Skype for Business Server 2015](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server 2015](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Planen von einwahlkonferenzen in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Planen von einwahlkonferenzen in Skype for Business Server 2015](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Planen von großen Besprechungen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [Planen von großen Besprechungen in Skype für Business Server 2015](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

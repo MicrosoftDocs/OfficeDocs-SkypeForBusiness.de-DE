@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Geben Sie zum Definieren eines Vermittlungsservers Einstellungen, die der Vermittlungsserver mit einem Front-End-Server und mit einem Edge-Server oder Pool zuzuordnen. Gehen Sie wie folgt vor, um mit einem Edge-Server oder Pool für Edge-Server Mediation Server oder Pool zuzuordnen:'
-ms.openlocfilehash: 543f0c9c7faa767d429693cd8f5f3ff7396a6169
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 105c379e2740db099df73dc5d534a8c94992d7ea
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="associate-mediation-server-with-edge"></a>Zuordnen des Vermittlungsservers zur Edgekomponente
  
@@ -29,6 +29,6 @@ Geben Sie zum Definieren eines Vermittlungsservers Einstellungen, die der Vermit
 > [!NOTE]
 > Wenn Sie noch kein Edge-Server oder Pool für Edge-Server in Ihrer Bereitstellung definiert haben, wird die Dropdown Liste keine Einträge enthalten. Sie können klicken Sie auf **Weiter** , um fortzufahren, und bearbeiten die Einstellungen für den Vermittlungsserver, nachdem Sie Ihre Bereitstellung ein Edge-Server oder Pool hinzugefügt haben.
   
-Weitere Informationen hierzu finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Weitere Informationen hierzu finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

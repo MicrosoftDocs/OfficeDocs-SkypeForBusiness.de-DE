@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: Das Dialogfeld VoIP-Konfigurationseinstellungen ohne Commit können Sie um alle Änderungen zu überprüfen, die Sie vorgenommen haben. Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte. Wenn Sie fertig sind, klicken Sie auf Commit, um diese Änderungen zu übernehmen, oder klicken Sie auf Abbrechen, um zurückzugehen und Ihre Änderungen zu ändern.
-ms.openlocfilehash: 9010bea8b79f1d8cbf2eeae1b27bfa551c71dae7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d6c7b95329709732f42289f616e21929a0ed976d
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>VoIP-Konfigurationseinstellungen ohne Commit: Commit ausführen
  
@@ -25,6 +25,6 @@ Sie können das Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Com
 > [!IMPORTANT]
 > Wenn Sie auf **Commit ausführen** klicken, werden **alle** im Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Commit ausgeführt wurde** aufgeführten Änderungen übernommen.
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 

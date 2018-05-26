@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Willkommen Sie bei der Skype für Business Server-Systemsteuerung, die webbasierte Benutzeroberfläche für die Administration und Verwaltung von Skype für Business Server. Mit der Systemsteuerung können Sie diejenigen Arten von administrativen Aufgaben ausführen, die in früheren Versionen über die Microsoft Management Console ausgeführt wurden.
-ms.openlocfilehash: ec8331e3f25b2042718c934871a46209d3aed6da
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 23440c0aae1fbb447cbdefcbab8a0162f514cc1c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Checkliste vor dem ersten Ausführen für die Skype for Business Server-Systemsteuerung
  
@@ -38,6 +38,6 @@ Es wird dringend empfohlen, dass Sie überprüfen Sie die Aufgaben, die in diese
 |Wenn Sie Enterprise-VoIP bereitgestellt haben oder dies für die Zukunft planen, konfigurieren Sie eine SIP-Trunkverbindung, um Verbindungen mit dem Telefonfestnetz zu ermöglichen.  <br/> |**VoIP-Routing** <br/> |[Konfigurieren von Trunks und Übersetzungsregeln](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
 |Wenn Sie Enterprise-VoIP bereitgestellt haben, überprüfen Sie die Enterprise-VoIP-Routingeinstellungen.  <br/> |**VoIP-Routing** <br/> |[Testen des VoIP-Routings](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
 |Wenn Sie einen Archivierungsserver bereitgestellt haben, überprüfen Sie, ob die Archivierungsrichtlinien und -einstellungen die Anforderungen im Hinblick auf die Einhaltung rechtlicher Bestimmungen Ihrer Organisation erfüllen.  <br/> |**Überwachen und Archivieren** <br/> |[Verwalten der Archivierung](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|Wenn Sie einen Monitoring Server bereitgestellt haben, zeigen Sie die Monitoring Server-Berichte mit Nutzungs- und Diagnoseinformationen an.  <br/> |**Pos1** <br/> |[Verwalten von Integritäts- und Überwachung in Skype für Business Server 2015](../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+|Wenn Sie einen Monitoring Server bereitgestellt haben, zeigen Sie die Monitoring Server-Berichte mit Nutzungs- und Diagnoseinformationen an.  <br/> |**Pos1** <br/> |[Verwalten von Integritäts- und Überwachung in Skype für Business Server 2015](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
    
 

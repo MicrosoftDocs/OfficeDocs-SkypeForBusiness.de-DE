@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: A Persistent Chat Administrator können erstellen und Verwalten von Kategorien für Chatrooms. Als Teil des erstellen und Verwalten von Kategorien für Chatrooms kann ein Persistent Chat Administrator Prinzipale (Active Directory Domain Services Gruppen/Container/Benutzer) zu konfigurieren, die Zugriff auf Member/Ersteller von einer bestimmten Kategorie Chatrooms sein. A Persistent Chat Administrator können auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden zur Liste zugelassenen explizite Ausschlüsse. DeniedMembers außer Kraft setzen, was in AllowedMembers ist.
-ms.openlocfilehash: f8fc7179df8facb98408e4506cf681cbefb97c62
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 98e57342296f181971c799bafa1b77eccd24b509
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-denied-members"></a>Auswählen abgelehnter Mitglieder
  
@@ -30,7 +30,7 @@ Auf der Seite **Abgelehnte Mitglieder auswählen** können Sie die folgenden Auf
     
 - [Neue Features für Persistent Chat Server](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>So konfigurieren Sie Kategorien für Chatrooms
 

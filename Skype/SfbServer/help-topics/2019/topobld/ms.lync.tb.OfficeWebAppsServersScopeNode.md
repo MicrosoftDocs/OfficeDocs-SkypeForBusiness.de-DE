@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server, und wählen Sie Neuer Office Web Apps Server zum Öffnen des Assistenten für die Office Online.
-ms.openlocfilehash: 796ddee08de9410fe68ae412f177c88f7cd488c4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c8aadd94d79f5fd99b1eb28fcea684b9057513c7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps-Server - Bereichsknoten
  
 Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server**, und wählen Sie **Neuer Office Web Apps-Server**, um den Office Online-Assistenten zu öffnen.
   
-![Office WebApps Server – Bereichsknoten](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![Office WebApps Server – Bereichsknoten](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
   
 - **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten vorheriger Versionen zusammenführen oder die Bereitstellung entfernen.
     

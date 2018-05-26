@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Reaktionsgruppenwarteschleifen halten Anrufe an eine reaktionsgruppe, bis ein Agent den Anruf annimmt.
-ms.openlocfilehash: f5223aaca700c10a25631131db69a55de1362ddc
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7927efe94ee913921c2ddf139d2643084127bfc0
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Reaktionsgruppenwarteschleife: Erstellen einer neuen oder Bearbeiten einer vorhandenen Reaktionsgruppenwarteschleife
  
@@ -68,6 +68,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
     
   - **Weiterleiten an eine andere Warteschlange** Wenn Sie diese Option auswählen, wechseln Sie zu der Warteschleife, Anrufe, die für die Warteschlange Überlauf durchgeführt wird.
     
-Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Warteschlangen finden Sie unter [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Warteschlangen finden Sie unter [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in der Betriebsdokumentation.
   
 

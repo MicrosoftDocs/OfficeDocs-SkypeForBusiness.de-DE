@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung von Microsoft Lync Server 2013 konfigurieren. Beim Starten zeigt Topology Builder ein Dialogfeld mit der Aufforderung, was die Quelle des Dokuments Topologie sein wird. Wählen Sie eine der drei Optionen zur Verfügung:'
-ms.openlocfilehash: 754d7a4e9f69c97891714dc02b325bf1d2b8b168
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f7e41d99b24f7064bd68f8c8a44565078eba87cf
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="topology-builder-startup-dialog"></a>Topologie-Generator – Startdialogfeld
  
@@ -28,7 +28,7 @@ Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihre
     
 - **Neue Topologie** Wählen Sie diese Option, um die Konfiguration eines neuen Dokuments Topologie zu beginnen. Diese Option öffnet eine neue topologiedokument, die Sie konfigurieren, um die Mindestanforderungen für die Bereitstellung, die Sie konfigurieren möchten.
     
-![Topologie-Generator – Startdialogfeld](../../media/Topology_Builder_Startup_Dialog.jpg)
+![Topologie-Generator – Startdialogfeld](../../../media/Topology_Builder_Startup_Dialog.jpg)
   
 ## <a name="see-also"></a>Siehe auch
 

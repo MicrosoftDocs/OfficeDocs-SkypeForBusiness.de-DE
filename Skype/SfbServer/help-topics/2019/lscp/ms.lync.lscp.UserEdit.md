@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 507c70863513809a37fc1722a4272e2e726a3836
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7e3d357932032d67642dd9a116551c9e79e4d1b0
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-edit-user"></a>Benutzer: Bearbeiten von Benutzern
  
@@ -24,13 +24,13 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
   
 - [Aktivieren oder Deaktivieren von Benutzern für Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Zuweisen einer Konferenzrichtlinie zum Ändern der standardmäßigen Besprechungseinstellungen für einen Benutzer](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     
 - [Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server 2015](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -44,5 +44,5 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
     
 - [Zuweisen einer Richtlinie für beständigen Chat pro Benutzer](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
 

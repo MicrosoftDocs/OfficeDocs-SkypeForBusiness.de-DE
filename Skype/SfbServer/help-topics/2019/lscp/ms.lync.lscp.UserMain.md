@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Die Ergebnisse einer Suchabfrage können Sie Benutzer für Skype für Business Server konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen. Ferner können Sie Benutzer über die Lync Server-Systemsteuerung oder das Snap-In „Active Directory-Benutzer und -Computer“ suchen.
-ms.openlocfilehash: 9cf6384d10cc4b6d2931fb21c75fd09da873d383
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 188c60467f5579a56cd4b5fa85a616f2e4639663
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="control-panel---updated-user-search"></a>Systemsteuerung – aktualisiert: Benutzersuche
  
@@ -30,19 +30,19 @@ Auf der Systemsteuerungsseite **Benutzersuche** können Sie die folgenden Aufgab
     
 - [Aktivieren oder Deaktivieren von Benutzern für Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Verschieben von Benutzern](move-user.md)
+- [Verschieben von Benutzern](ms.lync.lscp.UserMove.md)
     
-- [Verschieben Sie alle Benutzer](move-all-users.md)
+- [Verschieben Sie alle Benutzer](ms.lync.lscp.UserMoveAll.md)
     
 - [Zuweisen von Richtlinien für Benutzer](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
 - [Konfigurieren von Telefonieoptionen für Benutzer](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
@@ -72,9 +72,9 @@ Fügen Sie je nach Bedarf weiteren Beschreibungstext hinzu.
   
 ### <a name="search-results-menus"></a>Suchergebnismenüs
 
-- **Aktivieren von Benutzern** Klicken Sie zum Öffnen der [Benutzer: neuer Lync Server-Benutzer](users-new-lync-server-user.md) Dialogfeld, in dem Sie einen neuen Benutzer zu Skype für Business Server hinzufügen können.
+- **Aktivieren von Benutzern** Klicken Sie zum Öffnen der [Benutzer: neuer Lync Server-Benutzer](ms.lync.lscp.UserNew.md) Dialogfeld, in dem Sie einen neuen Benutzer zu Skype für Business Server hinzufügen können.
     
-    Hinzufügen eines neuen Kontakts, klicken Sie auf den Pfeil nach unten aus, und wählen Sie anschließend **Aktivieren von Kontakten** , zum Öffnen der [Benutzer: New Contact Objects](users-new-contact-objects.md) Dialogfeld.
+    Hinzufügen eines neuen Kontakts, klicken Sie auf den Pfeil nach unten aus, und wählen Sie anschließend **Aktivieren von Kontakten** , zum Öffnen der [Benutzer: New Contact Objects](ms.lync.lscp.UserNewContact.md) Dialogfeld.
     
 - **Bearbeiten** Klicken Sie auf **Bearbeiten** , und klicken Sie dann auf **Details anzeigen** , um die Details zu den ausgewählten Benutzer anzuzeigen, oder klicken Sie auf **alle Suchergebnisse auswählen** , aktivieren Sie alle Benutzer in der Ergebnistabelle angezeigt.
     
@@ -84,11 +84,11 @@ Fügen Sie je nach Bedarf weiteren Beschreibungstext hinzu.
     
   - **Deaktivieren Sie vorübergehend für Lync Server** Wird das Benutzerkonto in Skype für Business Server deaktiviert, bis Sie ihn wieder aktivieren, ohne Entfernen des Benutzerkontos.
     
-  - **Zuweisen von Richtlinien** Öffnet die [Benutzer: Zuweisen von Richtlinien](users-assign-policies.md) Dialogfeld, in dem Sie die dem Benutzer zugewiesenen Richtlinien konfigurieren können.
+  - **Zuweisen von Richtlinien** Öffnet die [Benutzer: Zuweisen von Richtlinien](ms.lync.lscp.UserAssignPolicy.md) Dialogfeld, in dem Sie die dem Benutzer zugewiesenen Richtlinien konfigurieren können.
     
-  - **PIN-Status anzeigen** Öffnet die [Benutzer: View PIN Status](users-view-pin-status.md) Dialogfeld, in dem die PIN-Daten für den ausgewählten Benutzer angezeigt werden.
+  - **PIN-Status anzeigen** Öffnet die [Benutzer: View PIN Status](ms.lync.lscp.UserViewPin.md) Dialogfeld, in dem die PIN-Daten für den ausgewählten Benutzer angezeigt werden.
     
-  - **PIN festlegen** Öffnet das Dialogfeld [Set PIN](set-pin.md) , in dem Sie die PIN für den ausgewählten Benutzer festlegen können.
+  - **PIN festlegen** Öffnet das Dialogfeld [Set PIN](ms.lync.lscp.UserSetPin.md) , in dem Sie die PIN für den ausgewählten Benutzer festlegen können.
     
   - **PIN Sperren** Sperrt die PIN für den Benutzer.
     
@@ -98,8 +98,8 @@ Fügen Sie je nach Bedarf weiteren Beschreibungstext hinzu.
     
   - **Benutzerzertifikat entfernen** Entfernt alle Zertifikate, die dem Benutzer gewährt wurden.
     
-  - **Ausgewählte Benutzer in Pool verschieben** Öffnet das Dialogfeld [Benutzer verschieben](move-user.md) , in dem Sie einen Pool verschieben den ausgewählten Benutzer auswählen können.
+  - **Ausgewählte Benutzer in Pool verschieben** Öffnet das Dialogfeld [Benutzer verschieben](ms.lync.lscp.UserMove.md) , in dem Sie einen Pool verschieben den ausgewählten Benutzer auswählen können.
     
-  - **Alle Benutzer in Pool verschieben** Öffnet das Dialogfeld [Benutzer verschieben](move-user.md) , in dem Sie einen Pool an alle ausgewählten Benutzer verschieben auswählen können.
+  - **Alle Benutzer in Pool verschieben** Öffnet das Dialogfeld [Benutzer verschieben](ms.lync.lscp.UserMove.md) , in dem Sie einen Pool an alle ausgewählten Benutzer verschieben auswählen können.
     
 

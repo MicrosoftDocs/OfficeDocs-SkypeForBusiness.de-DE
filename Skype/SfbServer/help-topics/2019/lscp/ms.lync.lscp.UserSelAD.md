@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
 description: Verwenden Sie auswählen aus Active Directory-Dialogfeld, um Benutzer zu suchen, die Sie für Skype für Business Server aktivieren möchten. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Benutzers ein, nach dem gesucht werden soll. Wenn Sie alle verfügbaren Benutzer abrufen möchten, geben Sie im Suchfeld keine Suchzeichenfolge ein.
-ms.openlocfilehash: 0c3dfa1878adb310c30870ede26fada16072c9f3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c41ec7cd0ab8b143cdda1274e150d49003ba454e
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-from-active-directory"></a>Auswählen aus Active Directory
  
 Verwenden Sie das Dialogfeld **auswählen aus Active Directory** , um Benutzer finden, die Sie für Skype für Business Server aktivieren möchten. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Benutzers ein, nach dem gesucht werden soll. Wenn Sie alle verfügbaren Benutzer abrufen möchten, geben Sie im Suchfeld keine Suchzeichenfolge ein.
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 

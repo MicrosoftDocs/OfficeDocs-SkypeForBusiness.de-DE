@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: Konfigurieren Sie die Konformität, den, die SQL Server-Speicher, die Datenbanken für die Persistent Chat Server oder die Funktion zur Einhaltung von Persistent Chat Server bereitgestellt werden.
-ms.openlocfilehash: 7854255195e73dcf03ce9027cdd7390c8f4bde54
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 467d90e88b50bc4ea5505c322d5be5eab3a7d719
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Hinzufügen des SQL Server-Speichers für Konformität für den beständigen Chat
  
@@ -48,11 +48,11 @@ Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite)
 
 #### 
 
-[Planen Sie für Persistent Chatserver in Skype für Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planen Sie für Persistent Chatserver in Skype für Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Serveranforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Serveranforderungen für Skype für Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Hardware und Software-Anforderungen für Persistent Chat Server in Skype für Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Hardware und Software-Anforderungen für Persistent Chat Server in Skype für Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Konfigurieren des kompatibilitätsdiensts für Persistent Chat Server in Skype für Business Server 2015](../../manage/persistent-chat/configure-compliance.md)
+[Konfigurieren des kompatibilitätsdiensts für Persistent Chat Server in Skype für Business Server 2015](../../../manage/persistent-chat/configure-compliance.md)
 

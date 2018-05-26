@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: Klicken Sie auf der Seite neue Gerätekonfiguration oder Gerätekonfiguration bearbeiten können Sie erstellen oder Ändern einer Auflistung von Einstellungen zum Verwalten von Skype für Business Phone Edition verwendet. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und die Festlegung, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
-ms.openlocfilehash: c6d8f291b6602ad41ca2942e2d4b507d2727bcd1
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 36ea2c25cbf95cedaf6303a92e8bf77f9611aa3b
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Gerätekonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration
  
@@ -62,7 +62,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 #### 
 
-[Gerätekonfiguration](device-configuration.md)
+[Gerätekonfiguration](ms.lync.lscp.ClientDeviceCfgMain.md)
 #### 
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

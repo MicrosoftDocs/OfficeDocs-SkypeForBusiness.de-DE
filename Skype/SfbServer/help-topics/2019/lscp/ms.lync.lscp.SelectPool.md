@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Verwenden Sie wählen Sie im Dialogfeld Dienst zur Dienste in Ihrer Umgebung zur Verfügung stehen. Um einen vorhandenen Dienst zu verwenden, klicken Sie auf einen Dienst in der Liste, und klicken Sie dann auf OK.
-ms.openlocfilehash: fa302a1ed6273d54dbd1e6ea74e6e2c6acb0daba
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8e7d96479a0c5703a8b480ce88267ba74e5a35d7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-service"></a>Auswählen eines Diensts
  
 Verwenden Sie das Dialogfeld **Dienst auswählen**, um nach den in Ihrer Umgebung verfügbaren Diensten zu suchen. Klicken Sie auf einen Dienst in der Liste und anschließend auf **OK**, um einen vorhandenen Dienst zu verwenden. 
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
@@ -34,7 +34,7 @@ Auf der Seite **Dienst auswählen** können Sie die folgenden Aufgaben ausführe
     
 - [Konfigurieren von Persistent Chat Server Options Globally or for Persistent Chat Server-Pool](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>So konfigurieren Sie Kategorien für Chatrooms
 

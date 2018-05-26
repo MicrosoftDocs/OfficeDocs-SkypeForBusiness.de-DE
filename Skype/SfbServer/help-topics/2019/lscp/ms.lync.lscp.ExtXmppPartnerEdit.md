@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 3a7b4efe4f79b43ad9613e9bb0b60975960c7d65
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 1cc2718b740f141f29d6a8eb24342079a2813232
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP-Verbundpartner: Erstellen Sie einer neuen oder bearbeiten Sie eines vorhandenen
  
@@ -26,5 +26,5 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
     
 - [Tabelle mit Einstellungen für Aushandlung für XMPP-Verbundpartner](http://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
 

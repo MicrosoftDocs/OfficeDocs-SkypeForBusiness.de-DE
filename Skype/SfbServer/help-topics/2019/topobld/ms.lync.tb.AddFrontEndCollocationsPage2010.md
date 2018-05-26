@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Für eine Enterprise Edition-Bereitstellung möglich, entweder den A / V-Konferenzdienst, den Vermittlungsserver oder beides auf den Front-End-Pool, oder Sie können jede als eigenständige Server bereitstellen. Für einen Standard Edition-Server-Bereitstellung, A / V-Konferenzdienst ist immer verbunden, wenn die Konferenz aktiviert ist.
-ms.openlocfilehash: f8a1abf168447af7f45ed8f222ef80f029aff2bc
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 555f23cc9a6cf07f9a095edb56c8307c495def6c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Hinzufügen von Front-End-Server-Kollokationen – 2010
  
@@ -33,6 +33,6 @@ Sie können die Mediation Server-Rolle auf einem Standard Edition-Front-End-Serv
     
 Sie können die Microsoft Lync Server 2013, Planungstool untersuchen, ob der Front-End-Pool, wo Sie den Vermittlungsserver verbinden möchten, die Last verarbeiten kann. Wenn Ihre Umgebung diesen Anforderungen nicht erfüllen kann, müssen Sie einen eigenständigen vermittlungsserverpool bereitstellen.
   
-Im Allgemeinen, Verbinden von A / V-Konferenzserver oder Vermittlungsserver wird nicht empfohlen, wenn Ihre Organisation hohe Verfügbarkeit und Skalierbarkeit herangehen Details über diese Serverrollen in einem Front-End-Pool in einer Enterprise Edition Verbindung verfügt. Bereitstellung, finden Sie unter [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in der Bereitstellungsdokumentation. Ausführliche Informationen zu den A / V-Konferenzen Features und Komponenten, finden unter [Planning for Conferencing](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in der Planungsdokumentation. Ausführliche Informationen zu Enterprise-VoIP-Features und Komponenten, einschließlich des Vermittlungsservers finden Sie unter [Planen für Enterprise-VoIP in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) in der Planungsdokumentation.
+Im Allgemeinen, Verbinden von A / V-Konferenzserver oder Vermittlungsserver wird nicht empfohlen, wenn Ihre Organisation hohe Verfügbarkeit und Skalierbarkeit herangehen Details über diese Serverrollen in einem Front-End-Pool in einer Enterprise Edition Verbindung verfügt. Bereitstellung, finden Sie unter [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in der Bereitstellungsdokumentation. Ausführliche Informationen zu den A / V-Konferenzen Features und Komponenten, finden unter [Planning for Conferencing](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in der Planungsdokumentation. Ausführliche Informationen zu Enterprise-VoIP-Features und Komponenten, einschließlich des Vermittlungsservers finden Sie unter [Planen für Enterprise-VoIP in Skype für Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) in der Planungsdokumentation.
   
 

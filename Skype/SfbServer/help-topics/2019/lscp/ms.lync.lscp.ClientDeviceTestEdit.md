@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: Die Funktion „Testgerät“ wird zusammen mit der Funktion „Geräteaktualisierung“ verwendet. Sie können ein Testgerät der Seite Testgerät hinzufügen und dann dieses Gerät verwenden, um die Funktionalität des neuen Updates vor der Bereitstellung von Updates für Geräte Produktion zu überprüfen. Sie können ein Gerät global (innerhalb Ihrer gesamten Umgebung) oder innerhalb eines einzelnen Standorts testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird sie in der Liste auf der Seite Testgerät der Skype Business Server-Systemsteuerung.
-ms.openlocfilehash: 022a56797952986f52772cb5fbed6d1f09bf7d75
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0eb79ad604b228ce4531738b4f7f1423ab5b98e2
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Testgerät: Erstellen eines neuen oder Bearbeiten eines vorhandenen Testgeräts
  
@@ -53,7 +53,7 @@ Ausführliche Informationen zu Testgeräten finden Sie unter [Add a Device to Te
 
 #### 
 
-[Testgerät](test-device.md)
+[Testgerät](ms.lync.lscp.ClientDeviceTestMain.md)
 #### 
 
 [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)

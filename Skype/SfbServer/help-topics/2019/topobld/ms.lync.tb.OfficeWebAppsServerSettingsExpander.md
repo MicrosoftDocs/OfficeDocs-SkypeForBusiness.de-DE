@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Sie bearbeiten die Eigenschaften des konfigurierten Office Web Apps Server. Die folgenden Eigenschaften stehen zur Bearbeitung zur Verfügung:'
-ms.openlocfilehash: 44f9218ff8e125389dae06396a9b06e5cc197e44
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b7da5e19d6d9c300d96442c97bf4866116a60af3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Bearbeiten der Einstellungen von Office Web Apps-Servern
  
@@ -28,7 +28,7 @@ Sie bearbeiten die Eigenschaften des konfigurierten Office Web Apps Server. Die 
   
 Aktivieren Sie das Kontrollkästchen **Der Office Web Apps-Server ist in einem externen Netzwerk bereitgestellt**, wenn dieser Server in Ihrem Umkreisnetzwerk oder in einer anderen Netzwerkzone bereitgestellt wird, die sich außerhalb Ihrer internen Firewall befindet, mit der das Umkreisnetzwerk, weniger vertrauenswürdige Netzwerke und das Internet von der internen Bereitstellung getrennt werden.
   
-![Office Web Apps-Einstellungserweiterung](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office Web Apps-Einstellungserweiterung](../../../media/OfficeWebApps_Settings_Expander.jpg)
   
 ## <a name="see-also"></a>Siehe auch
 

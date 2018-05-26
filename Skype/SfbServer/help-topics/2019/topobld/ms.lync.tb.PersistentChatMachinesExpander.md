@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Aktivieren oder Deaktivieren einer bereitgestellten Persistent Chat-Server oder Persistent Chat Server Pool mithilfe der Server oder Pools im Computer Zustand Einstellungen aufgeführt. Wählen Sie einen Server oder Pool in der Liste aus, und klicken Sie auf die aktive Stellen-Schaltfläche, um einen Server oder Pool als aktiv festlegen.
-ms.openlocfilehash: 4005cbd2aa6973023321fe198876a6b4149b9476
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 30ffdd1f136f738ea21bec38242f86c6b3a5e360
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-machines-expander"></a>Computer für beständigen Chat - Erweiterung
  
@@ -34,7 +34,7 @@ Sie einer bereitgestellten Persistent Chat-Server oder Persistent Chat Server Po
 
 #### 
 
-[Planen Sie für Persistent Chatserver in Skype für Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planen Sie für Persistent Chatserver in Skype für Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Hinzufügen von Persistent Chat Server zu Ihrer Skype für Business Server 2015 Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Hinzufügen von Persistent Chat Server zu Ihrer Skype für Business Server 2015 Topologie](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

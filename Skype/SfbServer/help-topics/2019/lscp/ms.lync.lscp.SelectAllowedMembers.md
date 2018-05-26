@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Erstellen und Verwalten von Chatrooms für beständigen Chat ist wesentlich einfacher mit die richtige Verwendung von Kategorien. A Persistent Chat Administrator können das Definieren von AllowedMembers und Creators für jede Kategorie, und Sie können auch definieren, die Standardeinstellungen für die Chatroom und Verhaltensweisen, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Administratoren für den beständigen Chat erstellen und Verwalten von Kategorien mithilfe der Systemsteuerung oder Windows PowerShell-Cmdlets.
-ms.openlocfilehash: 3ced3c26147038cfaba23a8e532982fcf8810592
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0f5dc076b5eacc896e2de8f93373632d57c5c1a2
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-allowed-members"></a>Auswählen zugelassener Mitglieder
  
@@ -32,7 +32,7 @@ Auf der Seite **Zugelassene Mitglieder auswählen** können Sie die folgenden Au
     
 - [Neue Features für Persistent Chat Server](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>So konfigurieren Sie Kategorien für Chatrooms
 

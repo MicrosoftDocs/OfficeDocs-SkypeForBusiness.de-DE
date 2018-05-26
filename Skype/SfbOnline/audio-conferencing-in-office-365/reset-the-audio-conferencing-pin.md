@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, was Sie Drehbezugspunkten wissen sollten und wie diese zurückzusetzen. '
-ms.openlocfilehash: 092d51061c374e14485527993a95e03e8e29649d
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>Die Audiokonferenz PIN zurücksetzen
 
@@ -32,7 +32,17 @@ Eine PIN ist ein Code bestehend aus Zahlen, die für jeden Skype für Geschäfts
   
 Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer mithilfe einer Skype für Business oder Microsoft-Teams app oder Beitritt Wenn der Organisator mit seinem PIN über das Telefon Beitritt. Wenn die Besprechung zum Starten eine PIN erfordert, werden alle Benutzer, die sich per Telefon einwählen standardmäßig im Wartebereich platziert und hören Warteschleifenmusik, bis die Besprechung beginnt. Wenn der Organisator einer Besprechung keine PIN zum Starten der Besprechung per Telefon benötigt, werden Anrufer nicht nach einer PIN gefragt, wenn sie sich für die Besprechung einwählen.
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-a-users-pin"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) Zurücksetzen der PIN eines Benutzers
+## <a name="reset-a-users-pin"></a>Zurücksetzen der PIN eines Benutzers
+
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+
+3. Klicken Sie unter **Audiokonferenzen**klicken Sie auf **PIN zurücksetzen**.
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png)  **mithilfe der Skype für Business Administrationscenter**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -45,9 +55,16 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer mith
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-have-a-user-reset-his-or-her-own-pin"></a>![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) Ein Benutzer seine PIN zurücksetzen
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>Ein Benutzer seine PIN zurücksetzen
 
-Ein Benutzer kann eine PIN zurücksetzen, mithilfe der Option **PIN zurücksetzen** auf der Seite **Einwahlkonferenzen** . Dieses Seite kann auf drei Arten zugegriffen werden:
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+
+1. Bitten Sie den Benutzer, wechseln Sie zur [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+2. Klicken Sie auf **Zurücksetzen PIN**. 
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png)  **mithilfe der Skype für Business Administrationscenter**
+
+Ein Benutzer kann eine PIN zurücksetzen, mithilfe der Option **PIN zurücksetzen** auf der Seite **Einwahlkonferenzen** . Auf dieser Seite kann auf drei Arten zugegriffen werden:
 
 * Wechseln Sie in einem Browser zu [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
 * In Skype für Unternehmen, klicken Sie auf den Pfeil **Menü anzeigen** neben **Optionen**, und klicken Sie dann auf **Extras** > **Konferenz Einwähleinstellungen**.

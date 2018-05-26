@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 2a252e4d8c09cd45121bb28f78413ef0586da216
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 288041c67b5a18bf7b3ea9bd9a18d4524c65c653
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="network-configuration-global-setting"></a>Netzwerkkonfiguration: Globale Einstellung
  
@@ -26,5 +26,5 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
     
 - [Aktivieren der Medienumgehung](http://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
 

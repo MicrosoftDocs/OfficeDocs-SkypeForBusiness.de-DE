@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: Geben Sie einen regulären .NET Framework-Ausdruck, um das Vergleichsmuster für Zielrufnummern anzugeben, dem die Route angewendet wird.
-ms.openlocfilehash: d1a17074f6a6013107ce1a754a5d6815af4dfd74
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 545119aa03301a124efb82af399c8e76232b61d5
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>Normalisierungsregel: Eingeben eines regulären Ausdrucks
  
 Geben Sie einen regulären .NET Framework-Ausdruck, um das Vergleichsmuster für Zielrufnummern anzugeben, dem die Route angewendet wird. 
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 

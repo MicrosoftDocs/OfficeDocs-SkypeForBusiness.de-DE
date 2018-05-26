@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: Parken Nummernbereiche definieren die temporären Nummern, in dem Geparkte Anrufe gehalten werden, bis eine Person oder Timeout abgerufen.
-ms.openlocfilehash: 840caf654e1264d7355f117303e8ded9efbca7d3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2bea2933cd61f5f3ea327f06436b736f5bddb4fc
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Funktion zum Parken von Anrufen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Funktion zum Parken von Anrufen
  
@@ -44,6 +44,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
     
 - **FQDN des Zielservers** Wählen Sie den vollqualifizierten Domänennamen (FQDN) oder die Dienst-ID des Anwendungsdiensts, die die Anwendung zum Parken von Anrufen gehostet wird. Alle Anrufe, die im Bereich geparkt werden, der über die Start- und Endnummer des Nummernbereichs angegeben wird, werden an diesen Server oder Pool weitergeleitet.
     
-Weitere Informationen zu parken Features und Funktionen finden Sie unter [Planen des Parkens von Anrufen in Skype für Business 2015](../../plan-your-deployment/enterprise-voice-solution/call-park.md). Ausführliche Informationen zum Arbeiten mit Parken Nummernbereiche finden Sie unter [Konfigurieren Telefon Anzahl Erweiterungen für das Parken von Anrufen](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
+Weitere Informationen zu parken Features und Funktionen finden Sie unter [Planen des Parkens von Anrufen in Skype für Business 2015](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Ausführliche Informationen zum Arbeiten mit Parken Nummernbereiche finden Sie unter [Konfigurieren Telefon Anzahl Erweiterungen für das Parken von Anrufen](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
   
 

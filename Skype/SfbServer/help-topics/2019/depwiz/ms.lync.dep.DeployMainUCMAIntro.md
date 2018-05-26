@@ -12,14 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 description: Weitere Informationen zur Verwendung von Bereitstellungs-Assistenten zum Installieren von Skype für Business Server 2015 finden Sie unter Business Server 2015 Skype installieren.
-ms.openlocfilehash: 93a95116930c69476881c3899ad349aaf70e7757
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 12d7424abd3c9781e86cf7c37fb00c61d10e46a9
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>Bereitstellungs-Assistent: Unified Communications-API
  
-Weitere Informationen zur Verwendung von Bereitstellungs-Assistenten zum Installieren von Skype für Business Server 2015 finden Sie unter [Installieren von Skype für Business Server 2015](../../deploy/install/install.md).
+Weitere Informationen zur Verwendung von Bereitstellungs-Assistenten zum Installieren von Skype für Business Server 2015 finden Sie unter [Installieren von Skype für Business Server 2015](../../../deploy/install/install.md).
   
 

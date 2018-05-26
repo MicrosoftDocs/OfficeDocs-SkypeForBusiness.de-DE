@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: Mithilfe von Agentgruppen wird definiert, wer Anrufe bei einer Reaktionsgruppe entgegennehmen kann (so genannte Agents). Außerdem werden damit die Einstellungen festgelegt, die für alle Agents der Gruppe gelten.
-ms.openlocfilehash: 4ae2869e335bc8d7d8b774f7daf7f5915dcba462
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f1802c77c991f91b317f6ac6f6a405259c1bec30
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Reaktionsgruppen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Agentgruppe
  
@@ -61,12 +61,12 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
     > Die Reihenfolge, in der Agents in der Verteilerliste aufgeführt sind, wirkt sich auf die Reihenfolge aus, in der Agents Anrufe beim Roundrobin- und seriellen Routing angeboten bekommen. 
   
     > [!NOTE]
-    > Verborgene Mitgliedschaften oder Listen möglicherweise für reaktionsgruppenadministratoren oder Benutzer sichtbar werden. Weitere Informationen hierzu finden Sie unter [Erstellen oder Ändern einer agentgruppe in Skype für Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md). 
+    > Verborgene Mitgliedschaften oder Listen möglicherweise für reaktionsgruppenadministratoren oder Benutzer sichtbar werden. Weitere Informationen hierzu finden Sie unter [Erstellen oder Ändern einer agentgruppe in Skype für Business 2015](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md). 
   
   - Wählen Sie **Benutzerdefinierte Gruppe von Agents definieren**, um die Benutzer auszuwählen, die Sie als Agents für die Reaktionsgruppe zuweisen möchten. Klicken Sie auf **Auswählen**, um der Liste einen Agent hinzuzufügen. Klicken Sie auf **Entfernen**, um einen ausgewählten Agent aus der Liste zu löschen.
     
     Mit dem Pfeil nach oben bzw. nach unten können Sie einen ausgewählten Agent in der Liste mit den Agents nach oben oder unten verschieben. Die Reihenfolge der Agents in der Liste wirkt sich auf die Reihenfolge aus, in der Agents Anrufe beim Roundrobin- und seriellen Routing angeboten bekommen.
     
-Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von agentgruppen finden Sie unter [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von agentgruppen finden Sie unter [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.
   
 

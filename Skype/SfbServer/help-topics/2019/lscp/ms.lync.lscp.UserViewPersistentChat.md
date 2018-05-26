@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Mitglieder der CsPersistentChatAdministrator-Rolle (Persistent Chat-Administratoren) können Chatroom Managerrechte und-Berechtigungen anderen Benutzern und sich selbst erteilen.
-ms.openlocfilehash: 3a740b77407e954e8537af6f9413328cd39e1f66
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bc19f9d4ae7592bf1d3451bee01355c763cf3b1f
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="users-view-persistent-chat"></a>Benutzer: Anzeigen des beständigen Chats
  
@@ -44,6 +44,6 @@ Sie können die folgenden Aufgaben ausführen, auf dem **Benutzer: beständigen 
     
 - [Grundlegendes zur Persistent Chat-Mitgliedschaft](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
   
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: Anhand von Standortrichtlinien wird bestimmt, ob E9-1-1 aktiviert ist, wie es verwendet wird und wie Standortinformationen für Benutzer und Kontakte verwendet werden.
-ms.openlocfilehash: fa1ca0907d3316066e2ca6e1fcf8a1d09a9c315a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0a4d438ac208af88229f75e7fc8f9eec4d3e7697
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="location-policy"></a>Standortrichtlinie
  
@@ -31,7 +31,7 @@ Zu den Standortrichtlinien gehören die globale Richtlinie und optional eine ode
 - **Richtlinien für Benutzer (optional):** Sie können eine oder mehrere Benutzer Standortrichtlinien erstellen, von die jedes auf einen bestimmten Benutzer oder eine Gruppe von Benutzern angewendet wird. Benutzerrichtlinien setzen die globale Richtlinie und Standortrichtlinien außer Kraft.
     
 > [!NOTE]
-> Außerdem können Sie Standortrichtlinien Netzwerkstandorten hinzufügen, wobei es sich um Gruppen von Subnetzen handelt. Netzwerkstandorten zugewiesene Standortrichtlinien haben Vorrang vor allen anderen Benutzerrichtlinien. Weitere Informationen zum Zuweisen von Standortrichtlinien zu Netzwerkstandorten mithilfe von Cmdlets finden Sie unter [Hinzufügen einer ortungsrichtlinie zu einem Netzwerkstandort in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Weitere Informationen zur Verwendung von Skype Business Server-Systemsteuerung einem Netzwerkstandort eine Standortrichtlinie zugewiesen finden Sie unter [Konfigurieren von Netzwerkstandorten](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx). 
+> Außerdem können Sie Standortrichtlinien Netzwerkstandorten hinzufügen, wobei es sich um Gruppen von Subnetzen handelt. Netzwerkstandorten zugewiesene Standortrichtlinien haben Vorrang vor allen anderen Benutzerrichtlinien. Weitere Informationen zum Zuweisen von Standortrichtlinien zu Netzwerkstandorten mithilfe von Cmdlets finden Sie unter [Hinzufügen einer ortungsrichtlinie zu einem Netzwerkstandort in Skype für Business Server 2015](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Weitere Informationen zur Verwendung von Skype Business Server-Systemsteuerung einem Netzwerkstandort eine Standortrichtlinie zugewiesen finden Sie unter [Konfigurieren von Netzwerkstandorten](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx). 
   
 Auf der Seite **Standortrichtlinie** wird eine Liste mit allen Standortrichtlinien angezeigt, die für Ihre Organisation definiert sind.
   

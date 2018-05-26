@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Sie können auf der Seite Protokolleinstellungen bearbeiten eine geräteprotokollkonfiguration hinzufügen, die bestimmt, die maximale Cachegröße, die maximale Größe der Protokolldatei oder die Zeitdauer, die eine Protokolldatei gespeichert wird, bevor es gelöscht wird. Sie können diese Einstellungen entsprechend den Anforderungen der Organisation ändern.
-ms.openlocfilehash: 8003014f7b94824d0ef36a8d1328c6430e98d894
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f933d71016b626648e6fb142af91872da4ed04ff
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="device-log-configuration-edit"></a>Geräteprotokollkonfiguration: Bearbeiten
  
@@ -53,5 +53,5 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 #### 
 
-[Geräteprotokollkonfiguration](device-log-configuration.md)
+[Geräteprotokollkonfiguration](ms.lync.lscp.ClientDeviceCfgMain.md)
 
