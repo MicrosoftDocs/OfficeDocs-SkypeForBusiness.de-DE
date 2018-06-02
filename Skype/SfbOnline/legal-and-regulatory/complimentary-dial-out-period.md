@@ -18,23 +18,23 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: Kunden können den Office 365 Anrufplan und die Office 365-Audiokonferenz nutzen, die nach den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste zulässig sind.
-ms.openlocfilehash: b1661b5f7b18be8b466cd5028e2b42e5c06faf1a
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenz gemäß den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste verwenden.
+ms.openlocfilehash: 1a76831e81c2d4d13cd87ab6d608e98bbdee557d
+ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "19436523"
+ms.lasthandoff: 05/14/2018
+ms.locfileid: "19146563"
 ---
-# <a name="audio-conferencing-complimentary-dial-out-period"></a>Zeitraum für kostenlose ausgehende Anrufe
+# <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
 ## <a name="skype-for-business-pstn-services"></a>PSTN-Dienste für Skype for Business
 
-Kunden können den Office 365 Anrufplan und die Office 365-Audiokonferenz nutzen, die nach den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste zulässig sind. Die Nutzungsbedingungen für PSTN-Dienste finden Sie unter [Lizenzbedingungen und Dokumentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
+Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenz gemäß den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste verwenden. Die Nutzungsbedingungen für PSTN-Dienste finden Sie unter [Lizenzbedingungen und Dokumentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
 ### <a name="complimentary-dial-out-period"></a>Zeitraum für kostenlose ausgehende Anrufe
 
-Als zusätzlichen Vorteil für Kunden, die unseren Office 365-Audiokonferenz-Service nutzen, bietet Microsoft zusätzliche Vorteile im Zusammenhang mit der Wahl aus Meetings, die von Benutzern organisiert werden, denen bis zum 30. Juni 2018 eine Office 365-Audiokonferenz-Lizenz zugewiesen wurde. Für den Zeitraum bis zum 30. Juni 2018 haben Benutzer, die an von lizenzierten Benutzern organisierten Besprechungen teilnehmen, auf der Grundlage der vom Besprechungsorganisator erteilten Berechtigungen die Möglichkeit, aus der Besprechung heraus Anrufe an Telefonnummern in den folgenden 44 Ländern zu tätigen:
+Microsoft bietet Kunden, die unseren Office 365-Audiokonferenzdienst nutzen, zusätzliche Vorteile im Zusammenhang mit ausgehenden Anrufen in Besprechungen, die von Benutzern organisiert wurden und denen bis zum 30. Juni 2018 eine Office 365-Audiokonferenz-Lizenz zugewiesen wurde. Für den Zeitraum bis zum 30. Juni 2018 können Benutzer, die an von lizenzierten Benutzern organisierten Besprechungen teilnehmen, aufgrund der vom Besprechungsorganisator erteilten Berechtigungen in der Besprechung ausgehende Anrufe an Telefonnummern in den folgenden 44 Ländern tätigen:
   
 |    |
 |-----|
@@ -81,10 +81,10 @@ Als zusätzlichen Vorteil für Kunden, die unseren Office 365-Audiokonferenz-Ser
 |Taiwan  <br/> |
 |Thailand  <br/> |
 |Großbritannien  <br/> |
-|USA  <br/> |
+|Vereinigte Staaten  <br/> |
    
 > [!CAUTION]
-> Ab dem 1. Juli 2018 gelten für alle Office 365-Audiokonferenz-Abonnements wieder die Standard-Servicebedingungen für die Wahl aus Besprechungen, die von Benutzern mit zugewiesenen Office 365-Audiokonferenz-Lizenzen organisiert werden 
+> Ab dem 1. Juli 2018 gelten für alle Office 365-Audiokonferenz-Abonnements wieder die Standard-Servicebedingungen für ausgehende Anrufe in Besprechungen, die von Benutzern mit zugewiesenen Office 365-Audiokonferenz-Lizenzen organisiert werden 
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

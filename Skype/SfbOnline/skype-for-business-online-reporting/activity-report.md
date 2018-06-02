@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 0b376ddecf13a1346e17f23bbc1780e2780255dc
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 3240f26159e39169e1e31dcdb278acbd43a13f11
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19516864"
 ---
 # <a name="activity-report"></a>Bericht über Benutzeraktivität
 
@@ -56,8 +57,9 @@ Sie erhalten einen Einblick in die Skype for Business-Aktivität Ihrer Benutzer,
 ![Nummer 1](../images/sfbcallout1.png)<br/>
 Der **Skype für geschäftliche Aktivität** e-Mail Aktivitätsbericht kann über den letzten sieben Tagen 30 Tage, 90 Tage oder nach 180 Tagen für Trends angezeigt werden. Wenn Sie in einen bestimmten Tag im Bericht klicken, zeigt die Tabelle (siehe Nummer 7) jedoch Daten für bis zu 28 Tage nach dem aktuellen Datum (nicht das Datum, die der Bericht generiert wurde).
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Wenn Sie die Details eines bestimmten Tags klicken, zeigt die Tabelle Daten für die 30 Tage bis zu dem Datum nur wenn der Bericht generiert wurde.
+
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. 
 ***
@@ -76,7 +78,10 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 ***
 ![Anzahl 7](../images/sfbcallout7.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Konferenzaktivitäten pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie ihre Konferenzaktivitäten. Sie können zusätzliche Spalten zur Tabelle hinzufügen.
 *    **Benutzername** ist der Name des Benutzers.
-*    **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde. <br/> <br/> **Hinweis:** Aktivitäten für eine gelöschte Benutzer wird weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums lizenziert wurde. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.<br/><br/>
+*    **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde.<br/><br/>
+    > [!NOTE]
+    > Aktivitäten für eine gelöschte Benutzer wird weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums lizenziert wurde. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
+     
 *    **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde.
 *    **Datum der letzten Aktivität (UTC)** ist der letzte Zeitpunkt, zu dem der Benutzer an einer Peer-to-Peer-Sitzung teilgenommen, eine Konferenz organisiert oder an einer Konferenz teilgenommen hat.
 *    **Peer-zu-Peer** zeigt die Gesamtzahl der Peer-zu-Peer-Konferenzsitzungen an, die der Benutzer verwendet hat.
