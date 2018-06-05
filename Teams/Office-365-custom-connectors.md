@@ -1,5 +1,5 @@
 ---
-title: "Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams"
+title: Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,21 +7,22 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lucarras
-description: "Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden."
+description: Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 119d2a7bac94f3695a068e64f56b5613b5687e2f
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 0a5243e32b100f648a71b5e07e55061bd8b3d6aa
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570080"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams
 =======================================================
 
 Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden. Mit Connectors können Ihre Microsoft Teams-Benutzer Updates von beliebten Diensten wie Twitter, Trello, Wunderlist, GitHub und VSTS innerhalb des Chatstroms in ihrem Team erhalten.
 
-Jedes Mitglied eines Teams kann das Team über die Connectors mit beliebten Clouddiensten verbinden, und alle Teammitglieder werden über Aktivitäten aus diesem Dienst benachrichtigt. Wenn ein Benutzer aus einem Team entfernt wird, funktionieren Connectors, die dieser Benutzer zum Team hinzugefügt hat, nicht mehr. Geplante Besprechungen funktionieren weiterhin, da sie im Gruppenkalender enthalten sind.
+Ein beliebiges Mitglied eines Teams kann ihr Team mit beliebte Clouddiensten mit Connectors verbinden, wenn die Teamberechtigungen zulassen, und alle Teammitglieder Aktivitäten von diesem Dienst benachrichtigt werden. Verbinder bleiben auch nach der Member-Funktion, die Anfangs Setup hat, die der Connector verlassen hat. Jedes Teammitglied mit den Berechtigungen zum hinzufügen/entfernen kann Konnektoren Setup anderer Mitglieder ändern.
 
 Office 365-Connectors können für Microsoft Teams- und Office 365-Gruppen verwendet werden, sodass alle Mitglieder leichter auf dem Laufenden bleiben und relevante Informationen schnell erhalten können. Da Microsoft Teams und Exchange das gleiche Connector-Modell nutzen, können Sie auf beiden Plattformen die gleichen Connectors verwenden.
 

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 'Zusammenfassung: Erfahren Sie mehr über die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015.'
-ms.openlocfilehash: 7fb30b5ac068b9f87e68cb98b975b87e06c455f1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 815158fbe7d477dd263591f161312d054480808c
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569023"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server-2015"></a>Nutzungsbericht über die Reaktionsgruppe in Skype for Business Server 2015
  
@@ -75,20 +76,18 @@ Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 
 Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
   
-```
+<pre>
 Name                            PrimaryUri
 ----                            ----------
 Customer Support                sip:support@litwareinc.com
 Help Desk                       sip:helpdesk@litwareinc.com
 New Ad Campaign                 sip:newads@litwareinc.com
-
-```
+</pre>
 
 Mit diesem Befehl werden Informationen für einen einzelnen Workflow mit dem Namen „New Ad Campaign“ zurückgegeben:
   
 ```
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
-
 ```
 
 ## <a name="filters"></a>Filter

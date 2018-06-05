@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Zusammenfassung: Erfahren Sie mehr über das PSTN-Konferenz Zusammenfassungsbericht in Skype für Business Server 2015.'
-ms.openlocfilehash: 1897b6ebf25e4de4f60af91d76ada539ea3561f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cda98ec62d8f59992f028cd9189e5f696ffaf2ac
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569292"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server-2015"></a>Zusammenfassender Bericht über PSTN-Konferenzen in Skype for Business Server 2015
  
@@ -40,7 +41,7 @@ Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
 Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
   
-```
+<pre>
 Identity                                EnableDialInConferencing
 --------                                ------------------------
 Global                                                      True
@@ -48,8 +49,7 @@ site:Redmond                                               False
 site:Dublin                                                False
 Tag:RedmondDialInUsers                                      True
 Tag:DublinDialInUsers                                       True
-
-```
+</pre>
 
 ## <a name="filters"></a>Filter
 

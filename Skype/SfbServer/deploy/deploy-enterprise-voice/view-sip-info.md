@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Zusammenfassung: Informationen Sie zum Anzeigen von Informationen zu SIP-Trunks in Skype für Business Server 2015.'
-ms.openlocfilehash: 9a27c5c78f15fbdc64aa52cf842697ab0b002252
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: fb9990ec4315ffd26f51adaee2414810a053a97f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568242"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server-2015"></a>Anzeigen von Informationen zu einzelnen SIP-Trunks in Skype for Business Server 2015
  
@@ -51,5 +52,3 @@ In Skype für Business Server können jedoch mehrere Trunks jetzt ein einzelnes 
   ```
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```
-
-

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Chatrooms in Skype Persistent Chat Server for Business Server 2015.'
-ms.openlocfilehash: fd927e3a54f1f3a8df429677f481ea224534b984
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7febc9736f43f3168d7bc62b0ddf833fa6b5864b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569400"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -76,7 +77,7 @@ Zusätzlich zu den oben genannten Parametern kann mit dem Cmdlet **"Set-cspersis
   
 ## <a name="create-a-new-room"></a>Einen neuen Chatroom erstellen
 
-Mit dem Cmdlet **New-CsPersistentChatRoom** können Sie einen neuen Chatroom erstellen. Der folgende Befehl wird beispielsweise einen neuen Chatroom mit dem Namen "itchatroom" auf den Pool Atl-Cs-001.contoso.com erstellt. In diesem Beispiel wird die IT-Kategorie den Chatroom hinzugefügt:
+Mit dem Cmdlet **New-CsPersistentChatRoom** können Sie einen neuen Chatroom erstellen. Der folgende Befehl erstellt beispielsweise einen neuen Chatroom namens „ITChatRoom“ im Pool „atl-cs-001.contoso.com“. In diesem Beispiel wird der Chatroom der IT-Kategorie zugeordnet:
   
 ```
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
@@ -130,7 +131,6 @@ Zum Aktivieren eines Chatrooms legen Sie den Parameter „Disabled“ auf „Fal
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
-
 ```
 
 ## <a name="get-information-about-rooms"></a>Abrufen von Informationen über Räume

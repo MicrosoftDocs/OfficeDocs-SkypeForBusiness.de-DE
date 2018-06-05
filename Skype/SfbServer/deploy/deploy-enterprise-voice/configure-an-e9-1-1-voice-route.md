@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Konfigurieren von E9-1-1-VoIP-Routen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: c31ac7c264fb931c127375eca5a383d10998c3f1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568228"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>Konfigurieren einer E9-1-1-VoIP-Route für Skype for Business Server 2015
  
@@ -49,7 +50,6 @@ Für die Bereitstellung von E9-1-1 müssen Sie zunächst eine VoIP-Route für No
     
    ```
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
-
    ```
 
 5. Optional können Sie sollten für SIP-Trunk-Verbindungen, führen Sie das folgende Cmdlet aus, um eine lokale Route für Anrufe erstellen, die nicht von der E9-1-1-Dienstanbieter SIP-Trunk behandelt werden. Diese Route wird verwendet, wenn die Verbindung zum E9-1-1-Dienstanbieter nicht verfügbar ist. 

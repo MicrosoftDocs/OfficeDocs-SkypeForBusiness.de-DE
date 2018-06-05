@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Zusammenfassung: Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server 2015 ändern.'
-ms.openlocfilehash: f03ddc0799868e825c46fad2f93ba93d3b8a071a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569407"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Bearbeiten einer vorhandenen Archivierungsrichtlinie in Skype for Business Server 2015
  
@@ -59,21 +60,18 @@ Setzen Sie den Wert des Parameters „ArchiveInternal“ auf „True ($True)“,
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
-
 ```
 
 Setzen Sie den Wert des Parameters „ArchiveExternal“ auf „True ($True)“, um die Archivierung von externen Kommunikationssitzungen zu aktivieren. 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
-
 ```
 
 Um die Archivierung sowohl interne und externe kommunikationssitzungen zu aktivieren, legen Sie den Wert der Parameter sowohl die ArchiveInternal und ArchiveExternal auf "true": 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
-
 ```
 
 ### <a name="disable-archiving-policies"></a>Archivierungsrichtlinien deaktivieren
@@ -82,5 +80,4 @@ Setzen Sie die Werte der Parameter für „ArchiveInternal“ und „ArchiveExte
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
-
 ```

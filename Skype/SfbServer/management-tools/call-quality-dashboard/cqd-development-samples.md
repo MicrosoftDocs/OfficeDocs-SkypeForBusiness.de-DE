@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Zusammenfassung: Überprüfen einer Lernprogramm und Entwicklung Beispiele für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 40e6defd85cc9e8dd86956a3539b51e1846b6da5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 567e6e22e3763183158562a6cf733a0127893ba6
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569819"
 ---
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
  
@@ -63,8 +64,7 @@ Lassen Sie uns zuerst ein einfaches Beispiel anschauen. Angenommen, wir möchten
   
 Dazu müssen wir eine Abfrage mit den entsprechenden Parametern an den Datendienst senden und die Ergebnisse in einer HTML-Tabelle darstellen. Im Folgenden sehen Sie ein Beispiel für den JavaScript-Code:
   
-```
-        
+```        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -94,7 +94,6 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
            }
             });
         });
-
 ```
 
 Dieses Beispiel lässt sich weiter in drei Schritte unterteilen:
@@ -188,7 +187,6 @@ Nach Einfügen des Java Script-Codes in eine HTML-Seite erhält man eine ähnlic
     </table>
 </body>
 </html>
-
 ```
 
 Bis hierher war der Bericht noch sehr einfach. Der Benutzer kann aber weitere Messwerte, Dimensionen oder Filter hinzufügen, um den Bericht nach seinen Wünschen zu gestalten. Wenn Sie beispielsweise den Prozentsatz an Anrufen schlechter Qualität für AppSharing darstellen möchten, müssen Sie einen neuen Messwert für AppSharing hinzufügen. Wenn Sie sämtliche TCP-Anrufe vs. UDP-Anrufe anzeigen möchten, müssen Sie eine neue Dimension für den Transporttyp hinzufügen. Wenn Sie die Anzahl an Anrufen schlechter Qualität innerhalb eines bestimmten Gebäudes anzeigen möchten, müssen Sie einen neuen Filter hinzufügen, damit nur die ein- und ausgehenden Anrufe dieses Gebäudes berücksichtigt werden.
@@ -310,7 +308,6 @@ Ein kurzes Beispiel ist wie folgt der Code einen Block enthält, die ein einfach
     </script>
 </body>
 </html>
-
 ```
 
 Die oben genannten führt zu einer Webseite wie in der Abbildung (ohne die Definition des Berichts beim ersten Besuch). Rufen Sie die Bericht Satz-ID aus CQD Portal (es wird nach dem Signieren / #/ CQD Portal URL (z. B. in der ersten Abbildung des Berichts Satz-ID ist 3024), und platzieren Sie diese Berichts Satz-ID in der eingabeabschnitt dieser Webseite. Drücken Sie die Taste "Load", und sehen Sie die vollständige Definition (Maßangaben, Dimensionen, Filter Listen) des Berichts ein.
@@ -735,7 +732,4 @@ HTML-Code für Beispiel 3 (Scorecard-Beispiel):
     </script>
 </body>
 </html>
-
 ```
-
-

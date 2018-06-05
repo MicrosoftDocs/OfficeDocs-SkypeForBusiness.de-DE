@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Zusammenfassung: Erfahren Sie mehr über die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015.'
-ms.openlocfilehash: b01ba945740216e38c37c35cbfc519d682916dda
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6f7d2938f02b84942b2dc09e4fc3058ab6ee63db
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568999"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server-2015"></a>Anruflistenbericht für Reaktionsgruppen in Skype for Business Server 2015
  
@@ -73,7 +74,7 @@ $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -
 
 Dadurch werden Informationen bereitgestellt, die den Folgenden ähneln:
   
-```
+<pre>
 Count    Name
 -----    ----
   160    Redmond Help Desk
@@ -81,7 +82,7 @@ Count    Name
    31    North America Customer Support
    16    EMEA Customer Support
    14    Employment Opportunities
-```
+</pre>
 
 ## <a name="filters"></a>Filter
 

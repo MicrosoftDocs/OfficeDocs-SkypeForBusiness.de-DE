@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Zusammenfassung: Informationen Sie zu den Failure List Report in Skype für Business Server 2015.'
-ms.openlocfilehash: ef5b11f92997e6919de0fd9056acdeebddc898d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569320"
 ---
 # <a name="failure-list-report-in-skype-for-business-server-2015"></a>Fehlerlistenbericht in Skype for Business Server 2015
  
@@ -59,15 +60,15 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
 Die Ausgabe für den Befehl ist eine Liste, die der folgenden Liste ähnelt:
   
-```
-From user
-----
-Pilar.Ackerman@litwareinc.com
-Henrik.Jensen@litwareinc.com
-Gilead.Amosnino@litwareinc.com
-David.Ahs@litwareinc.com
-Ken.Myer@litwareinc.com
-```
+<pre>
+    From user
+    ----
+    Pilar.Ackerman@litwareinc.com
+    Henrik.Jensen@litwareinc.com
+    Gilead.Amosnino@litwareinc.com
+    David.Ahs@litwareinc.com
+    Ken.Myer@litwareinc.com
+</pre>
 
 Diese beiden Befehle melden die Gesamtzahl der fehlerhaften Sitzungen zurück, an denen Benutzer beteiligt waren:
   
@@ -78,7 +79,7 @@ $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -
 
 Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
   
-```
+<pre>
 Count    Name
  -----    ----
     20    Pilar.Ackerman@litwareinc.com
@@ -86,7 +87,7 @@ Count    Name
     16    Gilead.Amosnino@litwareinc.com
     16    Ken.Myero@litwareinc.com
     14    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 ## <a name="filters"></a>Filter
 

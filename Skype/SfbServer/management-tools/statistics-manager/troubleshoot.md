@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server 2015 zu beheben.'
-ms.openlocfilehash: 6fa9011ed3ff6ac18e64539bbe8f7a2314857188
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3af372effd41fd679733324e1615de6b2c49ce0b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569833"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server 2015
  
@@ -46,7 +47,6 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
-
   ```
 
     > [!NOTE]
