@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Zusammenfassung: Erfahren Sie mehr über das IP-Telefonbestand in Skype für Business Server 2015.'
-ms.openlocfilehash: a161fae573a10f8da875736387284f0771a363e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569554"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Inventurbericht über IP-Telefon in Skype for Business Server 2015
  
@@ -46,7 +47,7 @@ $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Na
 
 Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
   
-```
+<pre>
 Count    Name
 -----    ----
   267    POLYCOM, CX700
@@ -60,8 +61,7 @@ Count    Name
    11    Microsoft, CPE_A
     9    POLYCOM, CX500
     7    Aastra, 6721ip
-
-```
+</pre>
 
 Gleichermaßen erhalten Sie mithilfe dieser beiden Befehle Informationen dazu, welche Telefone zwar beim System angemeldet, aber tatsächlich nie zum Telefonieren genutzt wurden (der Wert der Metrik „Letzte Aktivität“ ist leer und gibt somit an, dass es keine letzte Aktivität gab):
   
@@ -72,7 +72,7 @@ $phones | Where-Object {$_."Last activity" -eq ""}
 
 Dabei werden für alle nicht verwendeten Telefone Daten zurückgegeben, die den Folgenden ähneln:
   
-```
+<pre>
 Manufacturer     : POLYCOM
 Hardware version : CX600
 MAC address      : 00-04-F2-00-01-76
@@ -81,7 +81,7 @@ User agent       : CPE/4.0.7423.1 OCPhone/4.0.7423.1 (Microsoft Lync 2010 (Beta)
 Last logon time  : 8/30/2010 4:44:48 PM
 Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
-```
+</pre>
 
 Eine andere interessante Möglichkeit, verwenden Sie die IP-Telefonbestand ist dies: Wenn Sie die MAC-Adresse eines IP-Telefons verfügen, Sie, die Benutzer, die zuletzt dieses Telefon verwendet einfach herausfinden können, indem Sie diese Adresse in das Textfeld MAC-Adresse eingeben. Der IP-Telefonbestand-Bericht melden zurück (unter anderem) die SIP-Adresse des Benutzers, die zuletzt mit dieses Telefon angemeldet. Alternativ können Sie einen Benutzer-SIP-Adresse (im Feld Benutzer-URI Präfix) eingeben, um herauszufinden, alle Telefone, die von diesem Benutzer verwendet wurden.
   
