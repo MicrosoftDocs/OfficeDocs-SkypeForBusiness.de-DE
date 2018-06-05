@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: Damit eine SQL-Spiegelung bereitgestellt werden kann, müssen Ihre Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern (primärer Server, Spiegel und Zeuge) ausgeführt werden. Weitere Informationen hierzu finden Sie unter kumulative Paket 9 für SQL Server 2008 Service Pack 1 aktualisiert.
-ms.openlocfilehash: 8de94fc0e15b1d851b43b386b476abfa776fad2d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569138"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015
  
@@ -128,19 +129,17 @@ Die einfachste Möglichkeit zum Einrichten der Spiegelung wird mithilfe des Topo
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 
-
    ```
 
     Beispiel:
     
    ```
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose 
-
    ```
 
     Folgendes wird angezeigt:
     
-  ```
+ <pre>
   Database Name:rtcxds 
         Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf 
          Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf 
@@ -214,8 +213,7 @@ Die einfachste Möglichkeit zum Einrichten der Spiegelung wird mithilfe des Topo
      Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
           Account: LOS_A\AB14-lct$
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): 
-
-  ```
+</pre>
 
 2. Überprüfen Sie die folgenden Punkte:
     
@@ -253,14 +251,12 @@ Wenn Sie die SQL-Spiegelung eines Pools im Topologie-Generator entfernen möchte
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
-
 ```
 
 Geben Sie beispielsweise Folgendes ein, um die Spiegelung zu entfernen und die Datenbanken für die Benutzerdatenbanken zu verwerfen:
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
-
 ```
 
 Die `-DropExistingDatabasesOnMirror` Option bewirkt, dass die betreffenden Datenbanken aus dem Spiegel gelöscht werden soll.

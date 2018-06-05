@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'Das Cmdlet „Get-CcCredential“ gibt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung zurück. '
-ms.openlocfilehash: 4d8c9d95b9de0930e0c332f419f00947ca271821
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569994"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -53,7 +54,6 @@ $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
 $text = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr);
 [System.Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr);
 Write-Host $text
-
 ```
 
 ## <a name="parameters"></a>Parameter

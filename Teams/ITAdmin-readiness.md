@@ -11,11 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e93a69394c1de57c32a9ce8185dbbd406890d55d
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+ms.openlocfilehash: aae2fb4118a5069c7f1f85a90326ec9c158037db
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569597"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 ==================================
@@ -35,7 +36,7 @@ Hier erhalten Sie Informationen zu Microsoft Teams und zum Vorantreiben der Nutz
 | [Videos für Audiokonferenzen](audio-conferencing-videos.md) |Videos für IT-Administratoren, in denen Audiokonferenzen in Microsoft Teams vorgestellt werden  |
 | [Tutorial: Besprechungen in Microsoft Teams](tutorial-meetings-in-teams.yml) | Diese Schulung werden Besprechungen in Teams vorgestellt. Es werden Funktionen für die Besprechung, plus Anforderungen und Hinweise zur Planung behandelt. |
 | Bereitstellen und Ausführen von Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| Direktes Routing für Microsoft-Teams (Preview)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
+| Direktes Routing für Microsoft-Teams (Preview)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
 | Deep Dive into Guest Access (Tiefe Einblicke in die Gastzugriffsfunktion) <br>„Coffee in the Cloud“-Sitzung mit Laith Al und Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery in Microsoft Teams <br> „Coffee in the Cloud“-Sitzung mit Ansuman Acharya und Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams: Schrittweise Einführung in die Verwendung, Aktivierung und Verwaltung von Funktionen <br> „Microsoft Mechanics“-Sitzung mit Dan Stevenson und Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |

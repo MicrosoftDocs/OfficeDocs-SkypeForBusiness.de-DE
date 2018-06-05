@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Ändern des Parkens von Anrufen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 15dc57d5a069ead8fd18dbf6489f748df4ff30a6
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568304"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business-2015"></a>Konfigurieren von Einstellungen für das Parken von Anrufen in Skype for Business 2015
  
@@ -49,7 +50,7 @@ Verwenden Sie Cmdlet **New-CsCpsConfiguration** oder **Set-CsCpsConfiguration** 
    ```
 
    > [!TIP]
-   > Verwenden Sie das Cmdlet " **Get-CsSite** ", um die Website zu identifizieren. Weitere Informationen hierzu finden Sie unter Dokumentation zur Lync Server-Verwaltungsshell.
+   > Verwenden Sie das Cmdlet " **Get-CsSite** ", um die Website zu identifizieren. Weitere Informationen hierzu finden Sie unter Skype Dokumentation Business Server Management Shell.
   
     Beispiel:
     
@@ -59,8 +60,6 @@ Verwenden Sie Cmdlet **New-CsCpsConfiguration** oder **Set-CsCpsConfiguration** 
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Anpassen des Parkens von Anrufen Musik in der Warteschleife InSkype für Business 2015](customize-call-park-music-on-hold.md)
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
@@ -68,4 +67,3 @@ Verwenden Sie Cmdlet **New-CsCpsConfiguration** oder **Set-CsCpsConfiguration** 
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
   
 [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
-

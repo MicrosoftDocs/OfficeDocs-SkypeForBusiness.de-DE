@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Zusammenfassung: Erfahren Sie mehr über User Activity Report in Skype für Business Server 2015.'
-ms.openlocfilehash: b3a69f067f2acbc27b84b58c7ebc9ba53c979f92
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569393"
 ---
 # <a name="user-activity-report-in-skype-for-business-server-2015"></a>Bericht über Benutzeraktivität in Skype for Business Server 2015
  
@@ -24,7 +25,7 @@ Der Bericht über Benutzeraktivität stellt eine detaillierte Liste der Peer-to-
   
 Der Bericht über Benutzeraktivität wird auch als „Helpdesk“-Bericht bezeichnet. Der Grund ist, dass der Bericht häufig vom Helpdesk-Personal verwendet wird, um Sitzungsinformationen für einen bestimmten Benutzer abzurufen. Sie können den Bericht nach Anrufen filtern, die von einem bestimmten Benutzer entgegengenommen oder initiiert wurden, indem Sie einfach den SIP-URI dieses Benutzers in das Feld „Präfix des Benutzer-URI“ eingeben.
   
-Wenn Sie dies tun, gibt User Activity Report Informationen für alle Benutzer zurück, deren SIP-URI mit der angegebenen Zeichenfolge beginnt. Wenn Sie im Feld URI **Ken** eingeben, wird beispielsweise User Activity Report **Ken**suchen. Myer@litwareinc.com. jedoch finden sie auch diese Benutzer:
+Wenn Sie dies tun, gibt User Activity Report Informationen für alle Benutzer zurück, deren SIP-URI mit der angegebenen Zeichenfolge beginnt. Wenn Sie beispielsweise **Klaus** in das Feld für den URI eingeben, findet der Bericht über Benutzeraktivität **Klaus**.Buzov@litwareinc.com. Er findet aber auch die folgenden Benutzer:
   
 - **Ken** azi@litwareinc.com
     
@@ -69,7 +70,7 @@ $x | Group-Object "From user" | Select Name | Sort-Object Name
 
 Anders ausgedrückt:
   
-```
+<pre>
 Name
 ----
 David.Ahs@litwareinc.com
@@ -77,7 +78,7 @@ Gilead.Amosnino@litwareinc.com
 Henrik.Jensen@litwareinc.com
 Ken.Myer@litwareinc.com
 Pilar.Ackerman@litwareinc.com
-```
+</pre>
 
 Mit diesem Befehl werden eindeutige Benutzer aufgelistet (basierend auf der Gesamtanzahl der Sitzungen, an denen sie teilgenommen haben:
   
@@ -87,7 +88,7 @@ $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descendi
 
 Der Befehl gibt ähnliche Daten wie die folgenden zurück:
   
-```
+<pre>
 Count    Name
 -----    ----
   523    Ken.Myer@litwareinc.com
@@ -95,7 +96,7 @@ Count    Name
    29    Pilar.Ackerman@litwareinc.com
    17    Gilead.Amosnino@litwareinc.com
    10    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 Dieser Befehl beschränkt die gemeldeten Sitzungen auf diejenigen mit Audio als Modalität ein:
   

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Zusammenfassung: Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server 2015 zu testen.'
-ms.openlocfilehash: 9df525710513dbccc2fd488dc9bb5a6f7ed49200
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569271"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Testen der Einwahlkonferenzen in Skype for Business Server 2015
  
@@ -75,7 +76,6 @@ Sie müssen die folgenden Aufgaben ausführen, um sicherzustellen, dass die Webs
    User name:  testuser1@contoso.com
    Password:  ********
 Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-
   ```
 
     In den Berichtergebnissen wird der Test entweder als erfolgreich oder mit Fehlern angezeigt, zusammen mit spezifischen Diagnoseinformationen. Die - Verbose Flag enthält weitere detaillierte Informationen über wie viele Nummern gefunden und Details.

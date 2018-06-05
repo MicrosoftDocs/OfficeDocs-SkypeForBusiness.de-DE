@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: ebe3388578b74041802afc12f47e0b484cb88bd7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569435"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>Verwalten der Zugriffsnummern für Einwahlkonferenzen in Skype for Business Server 2015
  
@@ -48,12 +49,11 @@ Der folgende Befehl gibt eine Auflistung von allen einwahlkonferenzen Zugriffsnu
   
 ```
 Get-CsDialInConferencingAccessNumber
-
 ```
 
 Im Folgenden finden Sie ein Beispiel für die Art der zurückgegebenen Informationen:
   
-```
+<pre>
 Identity           : CN={20ca8dc8-5ff8-41f4-b5bb-22ba9972ae2e},
                      CN=Application Contacts,CN=RTCService=Services,
                      CN=Configuration,DC=litwareinc,DC=com
@@ -66,8 +66,7 @@ SecondaryLanguages : {}
 Pool               : atl-cs-001.litwareinc.com
 HostingProvider    :
 Regions            : {US}
-
-```
+</pre>
 
 Weitere Informationen finden Sie unter [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
@@ -137,14 +136,12 @@ Der folgende Befehl ändert die Eigenschaft „DisplayName“ für die Zugriffsn
   
 ```
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
-
 ```
 
 In nächsten Beispiel wird die Zugriffsnummer für Einwahlkonferenzen mit dem Identitätswert „sip:RedmondDialIn@litwareinc.com“ geändert, um zwei Regionen anzugeben: „Redmond“ und „Seattle“. Hierzu wird der Parameter „Region“ aufgerufen, gefolgt von den beiden Regionen (zwei durch Kommas voneinander getrennte Werte). Beachten Sie, dass beim Ausführen dieses Befehls ein Fehler auftreten kann, wenn die beiden Regionen („Redmond“ und „Seattle“) noch nicht in den Wähleinstellungen definiert wurden.
   
 ```
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
-
 ```
 
 Weitere Informationen finden Sie unter [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).

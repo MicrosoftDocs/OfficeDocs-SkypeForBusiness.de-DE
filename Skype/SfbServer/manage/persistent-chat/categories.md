@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Persistent Chat Server-Kategorien in Skype für Business Server 2015.'
-ms.openlocfilehash: e24beb1c4e1ebe7bb541a7bd6226f098c1bcb58b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 418cdc395a611c880da5b9455c10367fe19c6843
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568619"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -102,7 +103,7 @@ Umfassende Informationen zum Cmdlet Syntax, einschließlich aller Parameter find
   
 ### <a name="create-a-new-category"></a>Erstellen einer neuen Kategorie
 
-Mithilfe des Cmdlets **New-CsPersistentChatCategory** können Sie eine neue Kategorie erstellen. Der folgende Befehl wird beispielsweise eine neue Kategorie mit dem Namen HelpDesk auf Pool Atl-Cs-001.contoso.com erstellt. In diesem Beispiel wird die Dateiupload aktiviert:
+Mithilfe des Cmdlets **New-CsPersistentChatCategory** können Sie eine neue Kategorie erstellen. Beispielsweise wird mit dem folgenden Befehl eine neue Kategorie mit dem Namen „HelpDesk“ im Pool atl-cs-001.contoso.com erstellt. In diesem Beispiel ist das Hochladen von Dateien aktiviert:
   
 ```
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
@@ -134,5 +135,3 @@ Mithilfe des Cmdlets **Remove-CsPersistentChatCategory** können Sie eine Katego
 ```
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```
-
-
