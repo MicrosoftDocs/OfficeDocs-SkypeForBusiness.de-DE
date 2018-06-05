@@ -17,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: 6ee6606ae37e02d07e3c3e57ca9fee529b150626
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e69595c9aa85e181ecc74afbfa949679b4b3f561
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500941"
 ---
 # <a name="pstn-usage-report"></a>PSTN-Verwendungsbericht
 
@@ -35,6 +36,8 @@ In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalt
 > Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Abrufen des Berichts zu den PSTN-Verbrauchsdetails in Skype for Business
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 - Wechseln Sie zu **Office 365 Administrationscenter** > **Admin zentriert** > **Skype für Business Administrationscenter** > **Berichte** > **PSTN-Verwendungsdetails**.
     

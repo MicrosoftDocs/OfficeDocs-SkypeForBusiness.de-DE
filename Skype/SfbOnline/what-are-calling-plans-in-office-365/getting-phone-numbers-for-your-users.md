@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: ff7716a057ee2b3bb27b01a4912f718d28e3739b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a4ede7e5bac4b7e1fe5931f404a6d2c9e4f63056
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500863"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -44,6 +45,8 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
 > Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, lesen Sie [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Rufen Sie neue Rufnummern für Ihre Benutzer
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -81,6 +84,8 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
 - Wenn Sie mehr als 999 Telefonnummern portieren müssen, finden Sie unter [Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage](manually-submit-a-custom-service-request.md) weitere Informationen zum Übermitteln einer Serviceanfrage für einen Portierungsauftrag oder einen Auftrag für die Portierung dieser Telefonnummern zu Office 365.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Anzeigen von Telefonnummern für Ihr Unternehmen
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     

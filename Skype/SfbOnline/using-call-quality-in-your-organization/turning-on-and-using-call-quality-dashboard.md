@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: f8a7a71a0e0c0e64ceb7447c53c15483d977e16a
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 966dc71705344b1cece9b0e706539d64df95bf50
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501268"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
 
@@ -50,7 +51,9 @@ Finden Sie in diesem Artikel finden Sie eine Liste von [Dimensionen und Measures
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Aktivieren von Zusammenfassungsberichten des Microsoft-Anrufqualitäts-Dashboards (AQD)
 
 Bevor Sie mit der Verwendung des AQD beginnen können, müssen Sie es für Ihre Office 365-Organisation aktivieren.
-  
+ 
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+ 
 1. Melden Sie sich mit einem Administratorkonto bei Ihrer Office 365-Organisation an, und wählen Sie dann die Kachel **Admin** aus, um das Admin Center zu öffnen.
     
 2. Wählen Sie im linken Bereich unter **Admin Center** die Option **Skype for Business** aus, um das Skype for Business Admin Center zu öffnen.
@@ -59,11 +62,11 @@ Bevor Sie mit der Verwendung des AQD beginnen können, müssen Sie es für Ihre 
     
      ![Skype for Business tools](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. Melden Sie sich auf der daraufhin geöffneten Seite mit Ihrem globalen Administratorkonto an, und geben Sie dann auf die entsprechende Aufforderung hin die Anmeldeinformationen für das Konto ein.
+4. Klicken Sie auf der Seite, die geöffnet wird, melden Sie sich mit Ihrem globale Administratorkonto ein, und geben Sie die Anmeldeinformationen für das Konto, wenn Sie aufgefordert werden.
     
      ![CQD Login](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-Sobald Sie sich angemeldet und die Aktivierung vorgenommen haben, beginnt das AQD, Daten zu erfassen und zu verarbeiten.
+Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitung von Daten.
   
 > [!NOTE]
 > Es kann einige Stunden dauern, bis genügend Daten verarbeitet worden sind, um in den Berichten aussagekräftige Ergebnisse anzuzeigen. 
@@ -243,7 +246,7 @@ Wenn Sie die Dimensionen und Kennzahlen für einen einzelnen Medientyp anzeigen 
 ![Call Quality Dashboard Total Stream Count.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## <a name="related-topics"></a>See Also
-[Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md)
+[Einrichten von Skype for Business-Anrufanalyse](set-up-call-analytics.md)
 
 [Verwenden Sie Analytics rufen Sie für die Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 

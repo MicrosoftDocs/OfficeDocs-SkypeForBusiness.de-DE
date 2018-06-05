@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
-ms.openlocfilehash: e718c5c64a3778f6a3acaedcaed9b77d955446a1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 07feefa28fa43c4b279ca57b02f92c558dfee47c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500737"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -41,7 +42,7 @@ In der Skype für Business-Client die Telefonnummer, die Sie zuweisen werden in 
 > [!IMPORTANT]
 > Einzeln [ändern seine Rufnummer für Skype für Unternehmen](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) und die Telefonnummer in die Skype für Geschäfts-app kann nicht geändert werden oder abgeblendet, dass bedeutet, die ein Administrator für diese und sie festgelegt hat, dass diese nicht geändert werden kann.
   
-## <a name="assigning-a-number"></a>Zuweisen einer Nummer
+
 
 Wenn Sie einrichten Benutzer, sodass sie tätigen und Entgegennehmen von anrufen können, Sie müssen zuerst die Skype für Business Administrationscenter und weisen Sie eine Telefonnummer ein, ändern oder entfernen Sie die Telefonnummer ein, bei Bedarf können.
   
@@ -50,15 +51,19 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 > [!NOTE]
 > Eine Möglichkeit, zu überprüfen, ob einem Benutzer eine Lizenz zugewiesen ist: Wechseln Sie zu **Skype for Business Admin Center** > **VoIP** > **VoIP-Benutzer**, und wählen Sie den Benutzer aus. Wenn eine Lizenz zugewiesen ist, wird sie unter **Zugewiesene Lizenz** angezeigt. Sie können auch das Office 365 Admin Center verwenden. 
   
- **Zuweisen einer Telefonnummer zu einem Benutzer**
-  
+ ## <a name="assign-a-phone-number-to-a-user"></a>Weisen Sie eine Telefonnummer ein, die einem Benutzer
+ 
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+ 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business**.
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **VoIP-Benutzer**.
-    
-    **WICHTIG**: Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
+   > [!NOTE]
+ Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
+ 
+   
     
 4. Wählen Sie auf der Seite **VoIP-Benutzer** die Benutzer aus, denen Sie eine Telefonnummer zuweisen möchten.
     
@@ -76,10 +81,12 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
     > [!NOTE]
     > Aufgrund der Latenz zwischen Office 365 und Skype for Business Online kann die Aktivierung von Benutzern bis zu 24 Stunden dauern. Wenn die Telefonnummer nach 24 Stunden noch nicht richtig zugewiesen ist, [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Wir helfen gern! 
   
-## <a name="changing-a-number"></a>Ändern einer Nummer
 
- **So ändern Sie die Telefonnummer eines Benutzers**
-  
+
+ ## <a name="change-a-phone-number-for-a-user"></a>Ändern Sie eine Rufnummer für einen Benutzer
+ 
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+ 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business**.
@@ -98,10 +105,12 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
     
 9. Klicken Sie auf **Speichern**.
     
-## <a name="removing-a-number"></a>Entfernen einer Nummer
 
- **So entfernen Sie die Telefonnummer eines Benutzers**
-  
+
+ ## <a name="remove-a-phone-number-from-a-user"></a>Entfernen Sie eine Telefonnummer ein von einem Benutzer
+ 
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+ 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business**.

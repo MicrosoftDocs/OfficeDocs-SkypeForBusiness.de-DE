@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Die Administratorberichte stellen detaillierte Informationen zu Bereitstellung und Betrieb bereit. Die Berichte werden generiert basierend auf der Auswahl im Design Sites gekennzeichnet. Der für den Entwurf verantwortliche Nutzer kann die Administratorberichte durch Bearbeiten der Netzwerkdiagramme und Definieren der vollständigen IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für Server, Pools und Lastenausgleich ergänzen.
-ms.openlocfilehash: 989623fe8966a7f26f43bae0470da2cc57c3ddc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1d2cea3b1e0b4e19192f19734b2dcd278ca8a38b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504761"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Überprüfen von Administratorberichten in Skype for Business Server 2015
  
@@ -84,7 +85,4 @@ Sie sollten den DNS-Bericht von Ihrem DNS-Verwaltungsteam sorgfältig überprüf
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="DNS_Report"> </a>
 
-#### 
-
 [Überprüfen der Administratorberichte](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
-

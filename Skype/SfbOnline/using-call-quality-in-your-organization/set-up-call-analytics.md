@@ -18,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
-ms.openlocfilehash: 0fea9e37933908ef64f1b2eb100f3851f84a6690
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 5cba53e1a01b1aff3a08f4ec84cea60dc455fb35
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500693"
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Einrichten der Anrufanalyse von Skype for Business
 
@@ -57,6 +58,8 @@ Helpdesk-Agents der Stufe 1 bearbeiten Standardprobleme im Zusammenhang mit der 
    
  **Einrichten von gestuften Berechtigungen in Aufrufen Analytics** 
  <a name="BKMK_SetUpTier"> </a>
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
   
 1. Erstellen Sie Office 365-Sicherheitsgruppen für Stufe 1 und Stufe 2, und fügen Sie die gewünschten Personen zu den einzelnen Gruppen hinzu. Sie können auch vorhandene Sicherheitsgruppen wiederverwenden. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten oder Löschen einer Sicherheitsgruppe im Office 365 Admin Center](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     

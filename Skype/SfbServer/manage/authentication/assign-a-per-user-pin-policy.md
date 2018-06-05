@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Zusammenfassung: Phase AV- und OAuth Zertifikate für Skype für Business Server 2015.'
-ms.openlocfilehash: fd794fa3bc689a04967ac52b66c3ef905926cd18
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a103d6463a02cd00d71769b8f86b43fae514a19d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504957"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Zuweisen einer benutzerbasierten PIN-Richtlinie in Skype for Business Server 2015
 
@@ -108,7 +109,4 @@ Weitere Informationen hierzu finden Sie unter [Grant-CsPinPolicy](https://docs.m
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Erstellen einer neuen PIN-Richtlinie in Skype für Business Server 2015](create-a-new-pin-policy.md)
-

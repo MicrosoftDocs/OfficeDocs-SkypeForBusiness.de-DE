@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 894637bbde15a80f377098e61d1eba77fbef4bf2
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19494012"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
@@ -56,7 +57,7 @@ Weitere Details zu AudioCodes-Telefonen finden Sie unter [IP-Telefone für Skype
 > [!NOTE]
 > Lync Phone Edition wird für Skype for Business Online unterstützt. Der grundlegende Support für die LPE-Plattform endete am 10. April 2014, und der erweiterte Support wird am 11. April 2023 enden, um Übereinstimmung mit dem Produktsupport-Lebenszyklus von Lync Server 2013 zu erzielen. Details zum LPE-Lebenszyklus finden Sie unter [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO). LPE-CAP-Modelle werden für Skype for Business Online nicht unterstützt.
   
-## <a name="supported-firmware"></a>Unterstützte Firmware
+## <a name="supported-firmware"></a>Unterstützte firmware
 
 Für unterstützte Telefone ist die folgende Mindestsoftwareversion erforderlich, damit sie mit dem Telefonsystem in Office 365 funktionieren:
   
@@ -71,13 +72,13 @@ Für unterstützte Telefone ist die folgende Mindestsoftwareversion erforderlich
 > [!NOTE]
 Telefone mit Lync Phone Edition (LPE), die Sie für die lokale Bereitstellung eingerichtet haben, müssen auf die Mindestversion oder höher der notwendigen Firmware aktualisiert werden, bevor die entsprechenden Benutzer zu Skype for Business Online transferiert werden. Wenn Sie Ihre Benutzer von lokal auf Skype for Business Online transferieren, bevor Sie die Firmware auf den Telefonen aktualisieren, können diese Telefone nicht mit Skype for Business Online verbunden werden. 
   
-## <a name="required-licenses"></a>Erforderliche Lizenzen
+## <a name="required-licenses"></a>Erforderlichen Lizenzen
 
 Für Skype for Business Online benötigen Sie neben den Benutzerlizenzen keine weiteren Microsoft-Lizenzen. Weitere Informationen zu den erforderlichen Benutzerlizenzen finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 Für Open SIP-Firmware und Skype for Business-zertifizierte Firmware können unterschiedliche Lizenzierungsmodelle der Hersteller gelten. Wenn Sie ein zertifiziertes Modell mit Open SIP-Firmware einem anderen Zweck zuführen, müssen Sie die Firmware-Lizenzanforderungen des Herstellers überprüfen.
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Funktionen von mit Skype for Business Online verbundenen Telefonen
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype für Business Online verbunden Featuregruppe Telefone
 
 Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in den Benutzerhandbüchern der Hersteller.
   
@@ -105,9 +106,10 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 |Integration von Kontaktbildern  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |
 ||||||
 
-    > [!NOTE]
-    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
-   
+     
+> [!NOTE]
+> CX 600 oder alle anderen Aries Telefone unterstützen keine mehrstufige Authentifizierung (mehrstufiger Authentifizierung das). Wenn Sie mehrstufiger Authentifizierung das erzwingen, können diese Geräte nicht anmelden. Diese Geräte müssen nur Organisations-ID für Authetication verwenden.
+ 
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 Schrittweise Anweisungen finden Sie unter [Bereitstellen von Telefonen für Skype for Business Online](deploying-skype-for-business-online-phones.md).
 

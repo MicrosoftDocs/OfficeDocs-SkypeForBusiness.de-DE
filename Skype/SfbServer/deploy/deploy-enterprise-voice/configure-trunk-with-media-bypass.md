@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Zusammenfassung: Konfigurieren eines Trunks mit medienumgehung für Skype für Business Server 2015 aktiviert. Dadurch können Sie die Anzahl der Vermittlungsserver minimieren, vorausgesetzt, Ihr SIP-Trunk-Anbieter unterstützt dies.'
-ms.openlocfilehash: 08853388e17956be64fe11e18efd9f436007312d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f8e353e7d11bb3921839f957be25e0bfb6804a03
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501294"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server 2015
  
@@ -183,8 +184,6 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
 Nachdem Sie den Trunk konfiguriert haben, weiterhin Konfigurieren von Medien durch die Wahl zwischen globalen Media Bypass umgehen die Optionen, wie unter [medienumgehung in Skype für Business Server 2015 bereitstellen](deploy-media-bypass.md) in der Dokumentation zur Bereitstellung beschrieben.
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Konfigurieren eines Trunks ohne medienumgehung in Skype für Business Server 2015](configure-trunk-without-media-bypass.md)
 
 [Bereitstellen von medienumgehung in Skype für Business Server 2015](deploy-media-bypass.md)
@@ -192,4 +191,3 @@ Nachdem Sie den Trunk konfiguriert haben, weiterhin Konfigurieren von Medien dur
 [Definieren von Übersetzungsregeln](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
   
 [Konfigurieren der Medienumgehung](http://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
-

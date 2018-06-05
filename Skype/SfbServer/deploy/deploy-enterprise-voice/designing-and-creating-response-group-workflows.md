@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype für Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows abgedeckt.
-ms.openlocfilehash: 21c4b5beb8b4653bc31481d956f235a2c4fe722e
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: a1fe613d006378f8908b038ed0f03449c06b3fdf
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501301"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business 2015
  
@@ -643,8 +644,6 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [(Optional) Feiertagssätze in Skype für Business 2015 definieren "Reaktionsgruppe"](optional-define-response-group-holiday-sets.md)
 
 [(Optional) Reaktionsgruppe Definieren von Geschäftszeiten in Skype für Business 2015](optional-define-response-group-business-hours.md)
@@ -656,4 +655,3 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 [Neue CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [Mit New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
-

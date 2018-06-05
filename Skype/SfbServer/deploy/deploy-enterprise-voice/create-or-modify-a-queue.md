@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Erstellen Sie oder ändern Sie einer Warteschleife für Reaktionsgruppen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 5ff696de582a1d0238e9b67bbe0b53affb33ffd2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d959ca00829200ac8ad54168d72ca108adabb39f
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500984"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business-2015"></a>Erstellen oder Ändern einer Warteschleife in Skype for Business 2015
  
@@ -200,8 +201,6 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Mit New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
 [Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
@@ -215,4 +214,3 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
 [Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
-

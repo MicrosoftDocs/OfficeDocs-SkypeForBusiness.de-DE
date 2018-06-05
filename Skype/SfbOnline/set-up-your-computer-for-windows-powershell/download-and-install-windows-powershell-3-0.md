@@ -17,11 +17,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online.
-ms.openlocfilehash: e3f1ca14b5c9e134ee5186b6c441fc948d1ef65b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6679e9749efd6ee09a7c26f383b1b411caadb43e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19493992"
 ---
 # <a name="download-and-install-windows-powershell-30"></a>Herunterladen und Installieren von Windows PowerShell 3.0
 
@@ -65,9 +66,11 @@ Wenn PowerShell ausgeführt wird, müssen Sie die Ausführungsrichtlinie ändern
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
-    > [!NOTE]
-    >  When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
-  
+   
+ 
+> [!NOTE]
+> Wenn Sie mit dem vorstehenden Befehl ausführen, erhalten Sie die folgende Fehlermeldung angezeigt: > *Set-ExecutionPolicy: Zugriff auf den Registrierungsschlüssel "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' wird verweigert.* Diese Fehlermeldung tritt typischerweise auf, wenn Sie PowerShell nicht unter Administratoranmeldeinformationen ausgeführt werden. Schließen der PowerShell-Sitzung, und starten Sie eine neue Sitzung als Administrator.
+ 
 Um zu überprüfen, ob die Ausführungsrichtlinie richtig konfiguriert ist, geben Sie Folgendes an der PowerShell-Eingabeaufforderung ein, und drücken Sie dann die EINGABETASTE:
   
 ```

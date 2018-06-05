@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1eb72cd0260826c845b033aca849e85a94d6ba6b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 849e3329bce87414c9544b79429a295a2c72a22e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500900"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -89,7 +90,7 @@ Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung 
     
 3. Klicken Sie im Aktionsbereich unter **Produktlizenzen** auf **Bearbeiten**.
     
-4. On the **Product licenses** page, toggle ** Communications Credits** to **On** to assign this license, and then click **Save**.
+4. Klicken Sie auf der Seite **Lizenzen** umschalten Sie **Communications haben** **auf** diese Lizenz zuweisen, und klicken Sie dann auf **Speichern**.
     
     > [!NOTE]
     > Selbst wenn Sie über Benutzer verfügen, denen eine **Enterprise E5** -Lizenz zugewiesen ist, wird diese Vorgehensweise dennoch empfohlen.
@@ -112,7 +113,7 @@ Eine Tabelle mit den Lizenzen für die jeweilige Funktion finden Sie unter [Add-
 
 - [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Einrichten von Voicemail für Telefonsysteme - Administratorhilfe](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
+- [Einrichten von Voicemail für Telefonsystem - Administratorhilfe](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Einrichten von Aufrufen plant](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) und [Aufrufen Pläne für Office 365](calling-plans-for-office-365.md)
     

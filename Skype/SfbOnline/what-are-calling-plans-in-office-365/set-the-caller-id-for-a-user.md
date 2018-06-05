@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Das Telefonsystem in Office 365 bietet eine Standard Anrufer-ID, die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Erfahren Sie mehr dazu, wie Sie die Anrufer-ID in Ihrer Organisation mithilfe der Wechsel zu verwenden, wie die Anrufer-ID in Ihrer Organisation verwendet werden kann.
-ms.openlocfilehash: 8e1ba6806ea48b0a33e70b0dcc21dfdece8e52a8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a48edfd6f0b6967f1f9c628b415f781b8c4832c7
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500853"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
 Das Telefonsystem in Office 365 bietet eine Standard Anrufer-ID, die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Erfahren Sie mehr über die Anrufer-ID in Ihrer Organisation verwenden, [wie kann Anrufer-ID werden in Ihrer Organisation verwendeten](how-can-caller-id-be-used-in-your-organization.md)zugreifen, indem.
@@ -160,7 +161,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -181,7 +182,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Weitere Informationen zum Aufrufen von Zeile-ID und Aufrufen von Anrufernamens](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+[Mehr über Telefonnummer-ID und Name des Anrufers](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 
 [Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 

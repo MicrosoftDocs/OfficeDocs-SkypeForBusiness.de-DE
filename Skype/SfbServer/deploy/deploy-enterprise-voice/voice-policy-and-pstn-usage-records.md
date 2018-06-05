@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Zusammenfassung: Erstellen Sie oder ändern Sie der VoIP-Richtlinien und konfigurieren Sie PSTN-verwendungsdatensätzen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: fc1d60cb66dd0cf73c63b9896f153bb83c8fec24
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501049"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business 2015
  
@@ -335,8 +336,6 @@ ms.lasthandoff: 05/03/2018
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Anzeigen von PSTN-Verwendungseinträge in Skype für Business 2015](view-pstn-usage-records.md)
   
 [Erstellen oder Ändern einer VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md)
@@ -344,4 +343,3 @@ ms.lasthandoff: 05/03/2018
 [Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md)
   
 [Konfigurieren des Wechsels der Voicemail in Skype für Business 2015](configure-voice-mail-escape.md)
-

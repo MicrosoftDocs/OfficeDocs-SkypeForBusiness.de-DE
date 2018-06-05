@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Erstellen oder Ändern einer agentgruppe in Reaktionsgruppe in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 05237b5e3d86cf7d85b89205f71c30dcc5ac9efd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 213abb8416ce416f7cfbf7736ece7629d943525c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500909"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>Erstellen oder Ändern einer Agent-Gruppe in Skype for Business 2015
  
@@ -144,8 +145,6 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
 [Mit New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
@@ -153,4 +152,3 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 [Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
 [Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)
-

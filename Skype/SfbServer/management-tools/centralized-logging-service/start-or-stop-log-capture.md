@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Zusammenfassung: Informationen Sie zum Starten oder Beenden einer Centralized Logging Service Log Capture-Sitzung in Skype für Business Server 2015.'
-ms.openlocfilehash: 81db8c521f96306e118ebe5fe8053ff6e849dd54
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3a66e9320734900c3f944b2a7abce55359a765d8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504726"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Starten oder Beenden der CLS-Protokollerfassung in Skype for Business Server 2015
  
@@ -139,7 +140,4 @@ Das Cmdlet „Stop-CsClsLogging“ fungiert als Begleitbefehl zu „Start-CsClsL
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="stop"> </a>
 
-#### 
-
 [Zentraler Protokollierungsdienst in Skype für Business 2015](centralized-logging-service.md)
-

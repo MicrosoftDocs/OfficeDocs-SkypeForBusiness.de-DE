@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: 8da3aaabdd772c5de8f110996585f1386f9eeb05
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f81c394d676da951cf98f34f080fb26f135b9550
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500999"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Einrichten des Meeting Migration Service (MMS)
 
@@ -139,7 +140,7 @@ Wie Meeting Migration Tool sendet auch MMS Besprechungsaktualisierungen im Namen
   
 ## <a name="managing-mms"></a>Verwalten von MMS
 
-Sie müssen Windows PowerShell verwenden, um MMS zu verwalten und den Status von laufenden Migrationen zu prüfen. Bei den Informationen in diesem Abschnitt wird davon ausgegangen, dass Sie mit der Nutzung von PowerShell zur Verwaltung Ihrer Skype for Business-Organisation vertraut sind. Wenn Sie neu bei PowerShell sind, finden Sie weitere Informationen im Abschnitt [Verwenden von PowerShell zum Verwalten der Skype for Business-Organisation](setting-up-the-meeting-migration-service-mms.md#WPSInfo) am Ende dieses Artikels.
+Sie müssen mithilfe von Windows PowerShell zum Verwalten von MMS und überprüfen Sie den Status der laufenden Migrationen. Bei den Informationen in diesem Abschnitt wird davon ausgegangen, dass Sie mit der Nutzung von PowerShell zur Verwaltung Ihrer Skype for Business-Organisation vertraut sind. Wenn Sie mit PowerShell vertraut sind, finden Sie im Abschnitt [Mithilfe von PowerShell zum Verwalten von Ihrer Skype für Unternehmensorganisation](setting-up-the-meeting-migration-service-mms.md#WPSInfo) am Ende dieses Artikels.
   
 ### <a name="how-do-i-check-the-status-of-meeting-migrations"></a>Wie prüfe ich den Status von Besprechungsmigrationen?
 

@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: f180dc41bb76c8ceba0ce657232b543afebd5e6b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fdb0b7585c2462b64d4735bc4c59d9020e6466e3
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500761"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
 
@@ -47,7 +48,7 @@ Nachstehend die Voraussetzungen:
 ## <a name="set-up-test-accounts"></a>Einrichten von Testkonten
 <a name="__toc328126910"> </a>
 
-1. Wechseln Sie zu **Administrator** > **Office 365** > **Benutzer und Gruppen**, wählen Sie anschließend „Hinzufügen"![Hinzufügen](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) aus und geben Sie die erforderlichen Informationen ein.
+1. Wechseln Sie zu **Admin** > **Office 365** > **Benutzer und Gruppen**, und wählen Sie dann hinzufügen![hinzufügen](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) , und geben Sie die erforderliche Informationen.
     
 2. Wenn Sie zu Schritt 4 (E-Mail) gelangen, geben Sie Ihre eigene E-Mail-Adresse ein. Sie besitzen dann einen Eintrag für den Namen und das Kennwort des neuen Benutzers. 
     
@@ -75,7 +76,7 @@ Nachdem Sie die Benutzer für Audiokonferenzen eingerichtet haben, erhalten sie 
   
  **So fügen Sie dem Konto eines Ihrer Testbenutzer Audiokonferenzinformationen hinzu**
   
-1. Click **Audio Conferencing** > **Uusers**.
+1. Klicken Sie auf **Audiokonferenzen** > **Benutzer**.
     
 2. Klicken Sie auf die Namen der Benutzer, für die Sie Einwahlkonferenzen einrichten möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeiten](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     

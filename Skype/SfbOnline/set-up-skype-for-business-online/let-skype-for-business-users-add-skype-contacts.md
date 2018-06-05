@@ -17,17 +17,20 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 4385ca2a5d8654d9619c353932462f2d32a1c9a3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 37f028c6a7347f13c6f41d88bfdb23907dfa92c3
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500615"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen
 
 Mit Skype for Business können Ihre Benutzer nach beliebigen Benutzern von Skype - der kostenlosen App - suchen und Chatnachrichten mit ihnen austauschen. In diesem Artikel wird erläutert, was Sie tun müssen, damit die Benutzer Skype-Kontakte hinzufügen können. 
   
 Sie benötigen [Informationen zu Administratorrollen von Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) in Office 365 zu diesem Zweck.
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
   
 1. Melden Sie sich mit Ihrem Office 365-Administratorkonto bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) an.
     
@@ -97,7 +100,7 @@ Skype-Kontakten, die sich mit ihrem Microsoft-Konto (ehemals Windows Live ID) a
    
 ## <a name="related-topics"></a>See Also
 
-[Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren](allow-users-to-contact-external-skype-for-business-users.md)
+[Benutzern gestatten, externe Skype for Business-Benutzer zu kontaktieren](allow-users-to-contact-external-skype-for-business-users.md)
   
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 

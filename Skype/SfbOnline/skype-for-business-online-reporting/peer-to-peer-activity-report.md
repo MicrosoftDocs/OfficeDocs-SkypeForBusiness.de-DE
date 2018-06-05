@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 96878a2deb9a75ab0c927c2e1cd2c9e4dd34c2bd
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7303a87d263148f091d6cd2f1b44d79a4b9c0ae8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500510"
 ---
 # <a name="peer-to-peer-activity-report"></a>Bericht über Peer-zu-Peer-Aktivität
 
 Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie den Bericht **Skype für geschäftliche Peer-zu-Peer-Aktivität** verwenden, sehen, wie viel die Benutzer Sofortnachrichten, Audio, video, Anwendung freigeben und Übertragen von Dateien verwendet werden. 
 
-Checken Sie die [Berichte (Übersicht)](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Übersicht über die Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)Auschecken.
   
 In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalten Sie Details auf Aktivität innerhalb Ihrer Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich. 
   
@@ -57,8 +58,9 @@ Einen Einblick in die Peer-zu-Peer-Aktivitäten in Skype for Business erhalten S
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Im Bericht **Skype for Business - Peer-zu-Peer-Aktivität** werden die Trends in den letzten 7 Tagen, 30 Tagen, 90 Tagen oder 180 Tagen angezeigt. Wenn Sie in einen bestimmten Tag im Bericht klicken, die Tabelle (siehe Nummer 7) zeigt jedoch Daten für 30 Tage, bis zu dem Datum (siehe Nummer 2) für Wenn der Bericht generiert wurde.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Wenn Sie die Details eines bestimmten Tags klicken, zeigt die Tabelle Daten für die 30 Tage bis zu dem Datum nur wenn der Bericht generiert wurde.
+
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. 
 ***

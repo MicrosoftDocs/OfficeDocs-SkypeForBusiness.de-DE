@@ -25,11 +25,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 59ef459db2af5fe42c7a84fbef2d2a09b70ee783
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: d8cac3838550530666c2e7550c616a0b77cfd820
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500683"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren
 
@@ -48,6 +49,8 @@ Führen Sie die Schritte in diesem Artikel in folgenden Fällen aus:
 <a name="bk_preview"> </a>
 
 Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in beiden Organisationen möchten.
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
   
 1. Melden Sie sich mit Ihrem Office 365-Admin-Konto. 
     
