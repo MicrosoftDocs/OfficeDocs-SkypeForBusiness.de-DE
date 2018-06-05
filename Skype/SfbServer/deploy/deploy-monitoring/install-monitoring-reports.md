@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Zusammenfassung: Erfahren Sie, wie einen Dienst installiert, der Monitoring Server-Berichte in Skype für Business Server 2015 generiert wird.'
-ms.openlocfilehash: cfb07f7e36f798e394c7a66bfcd5f2cab018377a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 239274c6692358c06863d2e074bda1daf9d6c6b3
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569547"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server-2015"></a>Installieren von Überwachungsberichten in Skype for Business Server 2015
  
