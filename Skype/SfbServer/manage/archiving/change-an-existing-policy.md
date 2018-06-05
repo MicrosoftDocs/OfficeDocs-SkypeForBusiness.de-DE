@@ -10,77 +10,74 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Zusammenfassung: Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server 2015 ändern.'
-ms.openlocfilehash: f03ddc0799868e825c46fad2f93ba93d3b8a071a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569407"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a><span data-ttu-id="ade4e-103">Bearbeiten einer vorhandenen Archivierungsrichtlinie in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="ade4e-103">Change an existing archiving policy in Skype for Business Server 2015</span></span>
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a><span data-ttu-id="a11dd-103">Bearbeiten einer vorhandenen Archivierungsrichtlinie in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="a11dd-103">Change an existing archiving policy in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="ade4e-104">**Zusammenfassung:** Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server 2015 ändern.</span><span class="sxs-lookup"><span data-stu-id="ade4e-104">**Summary:** Learn how to change user archiving policies for Skype for Business Server 2015.</span></span>
+<span data-ttu-id="a11dd-104">**Zusammenfassung:** Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server 2015 ändern.</span><span class="sxs-lookup"><span data-stu-id="a11dd-104">**Summary:** Learn how to change user archiving policies for Skype for Business Server 2015.</span></span>
   
-<span data-ttu-id="ade4e-105">Bei der ersten Bereitstellung von Skype für Business Server 2015 richten Sie die anfänglichen Archivierungsrichtlinien, die bestimmen, wie die Archivierung für die Benutzer in Ihrer Bereitstellung implementiert wird.</span><span class="sxs-lookup"><span data-stu-id="ade4e-105">When you first deploy Skype for Business Server 2015, you set up initial archiving policies that determine how archiving is implemented for the users in your deployment.</span></span> <span data-ttu-id="ade4e-106">In diesem Thema wird beschrieben, wie Richtlinien verwaltet und bearbeitet werden.</span><span class="sxs-lookup"><span data-stu-id="ade4e-106">This topic describes how to manage and amend policies.</span></span> 
+<span data-ttu-id="a11dd-105">Bei der ersten Bereitstellung von Skype für Business Server 2015 richten Sie die anfänglichen Archivierungsrichtlinien, die bestimmen, wie die Archivierung für die Benutzer in Ihrer Bereitstellung implementiert wird.</span><span class="sxs-lookup"><span data-stu-id="a11dd-105">When you first deploy Skype for Business Server 2015, you set up initial archiving policies that determine how archiving is implemented for the users in your deployment.</span></span> <span data-ttu-id="a11dd-106">In diesem Thema wird beschrieben, wie Richtlinien verwaltet und bearbeitet werden.</span><span class="sxs-lookup"><span data-stu-id="a11dd-106">This topic describes how to manage and amend policies.</span></span> 
   
-## <a name="change-archiving-policies-by-using-the-control-panel"></a><span data-ttu-id="ade4e-107">Bearbeiten von Archivierungsrichtlinien über die Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="ade4e-107">Change archiving policies by using the Control Panel</span></span>
+## <a name="change-archiving-policies-by-using-the-control-panel"></a><span data-ttu-id="a11dd-107">Bearbeiten von Archivierungsrichtlinien über die Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="a11dd-107">Change archiving policies by using the Control Panel</span></span>
 
-1. <span data-ttu-id="ade4e-108">Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsArchivingAdministrator“ oder „CsAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="ade4e-108">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
+1. <span data-ttu-id="a11dd-108">Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsArchivingAdministrator“ oder „CsAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="a11dd-108">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
     
-2. <span data-ttu-id="ade4e-109">Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="ade4e-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="a11dd-109">Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="a11dd-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="ade4e-110">Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungsrichtlinie**.</span><span class="sxs-lookup"><span data-stu-id="ade4e-110">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
+3. <span data-ttu-id="a11dd-110">Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungsrichtlinie**.</span><span class="sxs-lookup"><span data-stu-id="a11dd-110">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
     
-4. <span data-ttu-id="ade4e-111">Führen Sie in der Liste der Richtlinie einen der folgenden Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="ade4e-111">In the list of policies, do one of the following:</span></span> 
+4. <span data-ttu-id="a11dd-111">Führen Sie in der Liste der Richtlinie einen der folgenden Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="a11dd-111">In the list of policies, do one of the following:</span></span> 
     
-   - <span data-ttu-id="ade4e-112">Um die Richtlinie für Ihre gesamte Bereitstellung zu ändern, klicken Sie in der Liste der Richtlinien auf **Global**, klicken Sie auf **Bearbeiten** und anschließend auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="ade4e-112">To change the policy for your entire deployment, click **Global** in the list of policies, click **Edit**, and then click **Show details**.</span></span>
+   - <span data-ttu-id="a11dd-112">Um die Richtlinie für Ihre gesamte Bereitstellung zu ändern, klicken Sie in der Liste der Richtlinien auf **Global**, klicken Sie auf **Bearbeiten** und anschließend auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="a11dd-112">To change the policy for your entire deployment, click **Global** in the list of policies, click **Edit**, and then click **Show details**.</span></span>
     
-   - <span data-ttu-id="ade4e-113">Um die Richtlinie für einen einzelnen Standort zu ändern, klicken Sie in der Liste der Richtlinien auf den Standortnamen, klicken Sie auf **Bearbeiten** und klicken Sie dann auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="ade4e-113">To change the policy for a single site, click the site name in the list of policies, click **Edit**, and then click **Show details**.</span></span>
+   - <span data-ttu-id="a11dd-113">Um die Richtlinie für einen einzelnen Standort zu ändern, klicken Sie in der Liste der Richtlinien auf den Standortnamen, klicken Sie auf **Bearbeiten** und klicken Sie dann auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="a11dd-113">To change the policy for a single site, click the site name in the list of policies, click **Edit**, and then click **Show details**.</span></span>
     
-   - <span data-ttu-id="ade4e-114">Um die Richtlinie für einen einzelnen Benutzer oder eine Benutzergruppe zu ändern, klicken Sie in der Liste der Richtlinien auf den Benutzer- oder Gruppennamen, klicken Sie auf **Bearbeiten** und klicken Sie dann auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="ade4e-114">To change the policy for a single user or user group, click the user or user group name in the list of policies, click **Edit**, and then click **Show details**.</span></span>
+   - <span data-ttu-id="a11dd-114">Um die Richtlinie für einen einzelnen Benutzer oder eine Benutzergruppe zu ändern, klicken Sie in der Liste der Richtlinien auf den Benutzer- oder Gruppennamen, klicken Sie auf **Bearbeiten** und klicken Sie dann auf **Details anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="a11dd-114">To change the policy for a single user or user group, click the user or user group name in the list of policies, click **Edit**, and then click **Show details**.</span></span>
     
-5. <span data-ttu-id="ade4e-115">Führen Sie auf der Seite **Bearbeiten der Archivierungsrichtlinien** die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="ade4e-115">On the **Edit Archiving Policy** page, do the following:</span></span>
+5. <span data-ttu-id="a11dd-115">Führen Sie auf der Seite **Bearbeiten der Archivierungsrichtlinien** die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="a11dd-115">On the **Edit Archiving Policy** page, do the following:</span></span>
     
-   - <span data-ttu-id="ade4e-116">Markieren Sie das Kontrollkästchen **Interne Kommunikation archivieren** oder entfernen Sie die Markierung, um die interne Archivierung für die Richtlinie zu aktivieren oder zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="ade4e-116">To enable or disable internal archiving for the policy, select or clear the **Archive internal communications** check box.</span></span>
+   - <span data-ttu-id="a11dd-116">Markieren Sie das Kontrollkästchen **Interne Kommunikation archivieren** oder entfernen Sie die Markierung, um die interne Archivierung für die Richtlinie zu aktivieren oder zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="a11dd-116">To enable or disable internal archiving for the policy, select or clear the **Archive internal communications** check box.</span></span>
     
-   - <span data-ttu-id="ade4e-117">Markieren Sie das Kontrollkästchen **Externe Kommunikation archivieren** oder entfernen Sie die Markierung, um die externe Archivierung für die Richtlinie zu aktivieren oder zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="ade4e-117">To enable or disable external archiving for the policy, select or clear the **Archive external communications** check box.</span></span>
+   - <span data-ttu-id="a11dd-117">Markieren Sie das Kontrollkästchen **Externe Kommunikation archivieren** oder entfernen Sie die Markierung, um die externe Archivierung für die Richtlinie zu aktivieren oder zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="a11dd-117">To enable or disable external archiving for the policy, select or clear the **Archive external communications** check box.</span></span>
     
-6. <span data-ttu-id="ade4e-118">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="ade4e-118">Click **Commit**.</span></span>
+6. <span data-ttu-id="a11dd-118">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="a11dd-118">Click **Commit**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="ade4e-119">Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden.</span><span class="sxs-lookup"><span data-stu-id="ade4e-119">The settings of a user policy only apply to the specific users and user groups to which you apply the policy.</span></span> <span data-ttu-id="ade4e-120">Weitere Informationen hierzu finden Sie unter [Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server 2015](apply-a-policy-to-users.md).</span><span class="sxs-lookup"><span data-stu-id="ade4e-120">For details, see [Apply an archiving policy to users in Skype for Business Server 2015](apply-a-policy-to-users.md).</span></span> 
+    > <span data-ttu-id="a11dd-119">Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden.</span><span class="sxs-lookup"><span data-stu-id="a11dd-119">The settings of a user policy only apply to the specific users and user groups to which you apply the policy.</span></span> <span data-ttu-id="a11dd-120">Weitere Informationen hierzu finden Sie unter [Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server 2015](apply-a-policy-to-users.md).</span><span class="sxs-lookup"><span data-stu-id="a11dd-120">For details, see [Apply an archiving policy to users in Skype for Business Server 2015](apply-a-policy-to-users.md).</span></span> 
   
-## <a name="change-archiving-policies-by-using-windows-powershell"></a><span data-ttu-id="ade4e-121">Bearbeiten von Archivierungsrichtlinien mit Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="ade4e-121">Change archiving policies by using Windows PowerShell</span></span>
+## <a name="change-archiving-policies-by-using-windows-powershell"></a><span data-ttu-id="a11dd-121">Bearbeiten von Archivierungsrichtlinien mit Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a11dd-121">Change archiving policies by using Windows PowerShell</span></span>
 
-<span data-ttu-id="ade4e-122">Archivierungsrichtlinien können auch mit dem Windows PowerShell-Cmdlet **Set-CsArchivingPolicy** bearbeitet werden.</span><span class="sxs-lookup"><span data-stu-id="ade4e-122">You can also change archiving policies by using the Windows PowerShell **Set-CsArchivingPolicy** cmdlet.</span></span>
+<span data-ttu-id="a11dd-122">Archivierungsrichtlinien können auch mit dem Windows PowerShell-Cmdlet **Set-CsArchivingPolicy** bearbeitet werden.</span><span class="sxs-lookup"><span data-stu-id="a11dd-122">You can also change archiving policies by using the Windows PowerShell **Set-CsArchivingPolicy** cmdlet.</span></span>
   
-### <a name="enable-archiving-policies"></a><span data-ttu-id="ade4e-123">Archivierungsrichtlinien aktivieren</span><span class="sxs-lookup"><span data-stu-id="ade4e-123">Enable archiving policies</span></span>
+### <a name="enable-archiving-policies"></a><span data-ttu-id="a11dd-123">Archivierungsrichtlinien aktivieren</span><span class="sxs-lookup"><span data-stu-id="a11dd-123">Enable archiving policies</span></span>
 
-<span data-ttu-id="ade4e-124">Setzen Sie den Wert des Parameters „ArchiveInternal“ auf „True ($True)“, um die Archivierung von internen Kommunikationssitzungen zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="ade4e-124">To enable the archiving of internal communication sessions, set the value of the ArchiveInternal parameter to True ($True):</span></span> 
+<span data-ttu-id="a11dd-124">Setzen Sie den Wert des Parameters „ArchiveInternal“ auf „True ($True)“, um die Archivierung von internen Kommunikationssitzungen zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="a11dd-124">To enable the archiving of internal communication sessions, set the value of the ArchiveInternal parameter to True ($True):</span></span> 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
-
 ```
 
-<span data-ttu-id="ade4e-125">Setzen Sie den Wert des Parameters „ArchiveExternal“ auf „True ($True)“, um die Archivierung von externen Kommunikationssitzungen zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="ade4e-125">To enable the archiving of external communication sessions, set the value of the ArchiveExternal parameter to True ($True):</span></span> 
+<span data-ttu-id="a11dd-125">Setzen Sie den Wert des Parameters „ArchiveExternal“ auf „True ($True)“, um die Archivierung von externen Kommunikationssitzungen zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="a11dd-125">To enable the archiving of external communication sessions, set the value of the ArchiveExternal parameter to True ($True):</span></span> 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
-
 ```
 
-<span data-ttu-id="ade4e-126">Um die Archivierung sowohl interne und externe kommunikationssitzungen zu aktivieren, legen Sie den Wert der Parameter sowohl die ArchiveInternal und ArchiveExternal auf "true":</span><span class="sxs-lookup"><span data-stu-id="ade4e-126">To enable the archiving of both internal and external communication sessions, set the value of both the ArchiveInternal and ArchiveExternal parameters to True:</span></span> 
+<span data-ttu-id="a11dd-126">Um die Archivierung sowohl interne und externe kommunikationssitzungen zu aktivieren, legen Sie den Wert der Parameter sowohl die ArchiveInternal und ArchiveExternal auf "true":</span><span class="sxs-lookup"><span data-stu-id="a11dd-126">To enable the archiving of both internal and external communication sessions, set the value of both the ArchiveInternal and ArchiveExternal parameters to True:</span></span> 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
-
 ```
 
-### <a name="disable-archiving-policies"></a><span data-ttu-id="ade4e-127">Archivierungsrichtlinien deaktivieren</span><span class="sxs-lookup"><span data-stu-id="ade4e-127">Disable archiving policies</span></span>
+### <a name="disable-archiving-policies"></a><span data-ttu-id="a11dd-127">Archivierungsrichtlinien deaktivieren</span><span class="sxs-lookup"><span data-stu-id="a11dd-127">Disable archiving policies</span></span>
 
-<span data-ttu-id="ade4e-128">Setzen Sie die Werte der Parameter für „ArchiveInternal“ und „ArchiveExternal“ auf „False ($False)“, um die Archivierung vollständig zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="ade4e-128">To disable archiving altogether, set the value of both the ArchiveInternal and ArchiveExternal parameters to False ($False):</span></span> 
+<span data-ttu-id="a11dd-128">Setzen Sie die Werte der Parameter für „ArchiveInternal“ und „ArchiveExternal“ auf „False ($False)“, um die Archivierung vollständig zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="a11dd-128">To disable archiving altogether, set the value of both the ArchiveInternal and ArchiveExternal parameters to False ($False):</span></span> 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
-
 ```
