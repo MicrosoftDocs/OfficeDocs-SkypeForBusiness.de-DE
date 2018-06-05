@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Zusammenfassung: Informationen Sie zu den Device Report in Skype für Business Server 2015.'
-ms.openlocfilehash: e9fa190c73deaee275c49bfa04f338b41579ce55
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: af09f26bc91c132363367c8145846837734ad73f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569484"
 ---
 # <a name="device-report-in-skype-for-business-server-2015"></a>Gerätebericht in Skype for Business Server 2015
  
@@ -115,11 +116,7 @@ $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
 $x
 ```
 
-Damit wird ein einzelner Wert zurückgegeben, der die Gesamtzahl der Anrufe angibt, die mit einem Aastra-Aufnahmegerät ausgeführt wurden. Beispiel:
-  
-```
-384
-```
+Damit wird ein einzelner Wert zurückgegeben, der die Gesamtzahl der Anrufe angibt, die mit einem Aastra-Aufnahmegerät ausgeführt wurden. Beispiel: 384
 
 ## <a name="filters"></a>Filter
 
