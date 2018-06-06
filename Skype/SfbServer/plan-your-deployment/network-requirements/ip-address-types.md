@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Zusammenfassung: Überprüfen der Faktoren für den IP-Adresse unter vor der Implementierung von Skype für Business Server 2015.'
-ms.openlocfilehash: d94995e75ecbb4df973a01ebfa5f00ed91575c19
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630147"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Konfigurieren von IP-Adresstypen in Skype for Business
  
@@ -78,20 +79,15 @@ Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahre
     > [!NOTE]
     > Die Installation von zusätzlichen Netzwerkschnittstellenkarten (NICs) zur Unterstützung der Konfiguration der PSTN-IP-Adresse in den eigenständigen Vermittlungsserver wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server finden Sie unter [Server Hardware Platforms für Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
   
-## <a name="deploy-ip-address-types-on-a-edge-server"></a>Bereitstellen von IP-Adresstypen auf einem Edgeserver
+## <a name="deploy-ip-address-types-on-an-edge-server"></a>Bereitstellen von IP-Adresstypen auf einem Edgeserver
 
-Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahren zum Bereitstellen von IP-Adresstypen auf einem Edge-Server.
+Führen Sie Topologie-Generator verwenden, die folgenden Schritte aus:
   
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>So stellen Sie IP-Adresstypen auf dem Edgeserver bereit
 
 1. Im Topologie-Generator unter **edgepools**mit der rechten Maustaste des Servers in einem Pool, und wählen Sie dann auf **Eigenschaften bearbeiten**. (Sie können auch den Server auswählen und dann im Menü **Aktion** auf **Eigenschaften bearbeiten** klicken.)
     
-2. Wählen Sie im Fenster **Eigenschaften bearbeiten** die IP-Adresskonfiguration, die Sie unterstützen möchten. In den folgenden Abbildungen wird eine Dualstapelkonfiguration für die interne und die externe Schnittstelle dargestellt.
-    
-   **Duale gestapelte internen Edge-Server-Schnittstelle**
-
-   **Duale gestapelte externen Edge-Server-Schnittstelle**
+2. Wählen Sie im Fenster **Eigenschaften bearbeiten** die IP-Adresskonfiguration, die Sie unterstützen möchten.    
 
 3. Für jeden Adresstyp, den Sie auswählen, müssen Sie die geeigneten internen und externen Adressen auswählen.
     
-
