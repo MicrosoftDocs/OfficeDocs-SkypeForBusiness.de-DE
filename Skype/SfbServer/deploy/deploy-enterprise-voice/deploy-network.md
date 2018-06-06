@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Erstellen oder Ändern von netzwerkregionen, Netzwerkstandorten, und ordnen Sie Subnetze in Skype Netzwerk für Business Server. Alle diese für den erweiterten Enterprise-VoIP-Funktionen verwendet werden: Medien umgehen, call Admission Control und Standortbasierte Weiterleitung.'
-ms.openlocfilehash: 17696844d20bda6a709b3ae609e6963d8fb4a090
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501018"
+ms.locfileid: "19568382"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business 2015
  
@@ -53,7 +53,6 @@ Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregi
     
    ```
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
-
    ```
 
     In diesem Beispiel wird eine netzwerkregion namens "NorthAmerica" erstellt haben, einer zentralen Website mit Website-ID "Chicago" zugeordnet ist.
@@ -94,7 +93,6 @@ Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregi
     
    ```
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
-
    ```
 
     In diesem Beispiel können Sie durch Ändern der Beschreibung eine vorhandenen netzwerkregion namens "NorthAmerica" (mit den Verfahren in diesem Thema erstellt) geändert. Wenn eine Beschreibung für die Region "Nordamerika" vorhanden ist, überschreibt dieser Befehl es mit diesem Wert. Wenn keine Beschreibung festgelegt wurde hatte, wird mit diesem Befehl es aus.
@@ -137,7 +135,6 @@ Wenn Sie Netzwerkstandorte für eines der folgenden Features bereits erstellt ha
     
    ```
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
-
    ```
 
     In diesem Beispiel wird einen Netzwerkstandort namens "Chicago" erstellt haben, ist in der netzwerkregion "NorthAmerica befindet".
@@ -191,7 +188,6 @@ Wenn Sie Netzwerkstandorte für eines der folgenden Features bereits erstellt ha
     
    ```
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
-
    ```
 
     In diesem Beispiel wird die Website aufgerufen "Albuquerque" in der netzwerkregion "NorthAmerica" verschoben. Bearbeiten Sie zum Ändern der Netzwerkstandortkonfiguration für die Bereitstellung von Anrufsteuerung, E9-1-1 oder Medienumgehung die Netzwerkstandorteinstellungen, indem Sie das Cmdlet Set-CsNetworkSite mit dem Parameter BWPolicyProfileID oder LocationPolicy ausführen.

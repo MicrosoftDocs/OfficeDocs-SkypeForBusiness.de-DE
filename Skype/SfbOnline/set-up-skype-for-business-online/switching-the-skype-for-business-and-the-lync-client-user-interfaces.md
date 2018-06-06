@@ -17,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 9edbc3642a0b8459cc658d32d135eb21e0b3edf8
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 27d6d29f3a3e8528e0d9c5076249ff821a5c666d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568373"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Wechseln zwischen den Client-Benutzeroberflächen von Skype for Business- und Lync
 
@@ -128,37 +129,37 @@ Diese Tabelle zeigt die Installationsoptionen für Benutzer, denen die Richtlini
 |**Administrator-Richtlinieneinstellung**|**Angezeigte Benutzeroberfläche**|
 |:-----|:-----|
 |Die Richtlinie ist nicht eingerichtet. |Der Benutzer wird weiterhin die Client-Benutzeroberfläche von Skype for Business verwenden.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```<br/>|Der Benutzer wird weiterhin die Client-Benutzeroberfläche von Skype for Business verwenden.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```<br/>|Der Benutzer wird aufgefordert die Client-Benutzeroberfläche von Skype for Business (Lync) zu wechseln. Sie können den Wechsel später ausführen.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>```|Der Benutzer wird die Client-Benutzeroberfläche von Skype for Business verwenden. |
-```Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>```|Der Benutzer werden aufgefordert, die Skype für Clientbenutzeroberfläche Business (Lync) wechseln. Ein Administrator kann die Einstellung in Zukunft ändern, damit Benutzer auf die Client-Benutzeroberfläche von Skype for Business wechseln können. |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|Der Benutzer wird weiterhin die Client-Benutzeroberfläche von Skype for Business verwenden.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|Der Benutzer wird aufgefordert die Client-Benutzeroberfläche von Skype for Business (Lync) zu wechseln. Sie können den Wechsel später ausführen.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|Der Benutzer wird die Client-Benutzeroberfläche von Skype for Business verwenden. |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|Der Benutzer werden aufgefordert, die Skype für Clientbenutzeroberfläche Business (Lync) wechseln. Ein Administrator kann die Einstellung in Zukunft ändern, damit Benutzer auf die Client-Benutzeroberfläche von Skype for Business wechseln können. |
    
 Diese Tabelle zeigt die Installationsoptionen für Benutzer, bei denen die Richtlinie geändert wird:
   
 |**Administrator-Richtlinieneinstellung**|**Benutzeroberfläche von Skype for Business (Lync)**|**Skype for Business-Benutzeroberfläche**|
 |:-----|:-----|:-----|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```|Der Benutzer wird aufgefordert die Client-Benutzeroberfläche von Skype for Business zu wechseln.  <br/> |Der Benutzer wird weiterhin die Client-Benutzeroberfläche von Skype for Business verwenden.  <br/> |
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```|Der Benutzer weiterhin die Skype für Business (Lync) Schnittstelle verwenden.  <br/> |Der Benutzer werden aufgefordert, die Skype für Clientbenutzeroberfläche Business (Lync) wechseln.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|Der Benutzer wird aufgefordert die Client-Benutzeroberfläche von Skype for Business zu wechseln.  <br/> |Der Benutzer wird weiterhin die Client-Benutzeroberfläche von Skype for Business verwenden.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|Der Benutzer weiterhin die Skype für Business (Lync) Schnittstelle verwenden.  <br/> |Der Benutzer werden aufgefordert, die Skype für Clientbenutzeroberfläche Business (Lync) wechseln.  <br/> |
 |Die Richtlinie ist nicht eingerichtet.  <br/> |Die Skype für Business (Lync) Clientbenutzeroberfläche wird nie angezeigt, wenn die Richtlinie nicht festgelegt ist. Sie werden immer die Client-Benutzeroberfläche von Skype for Business verwenden.  <br/> |Der Benutzer wird weiterhin die Client-Benutzeroberfläche von Skype for Business verwenden.  <br/> |
    
 Diese Tabelle enthält alle verfügbaren benutzerdefinierten Online-Richtlinien. Es gibt neue Richtlinien, die den Administratoren beim Wechsel zwischen den EnableSkypeUI-Flags mehr Flexibilität bei der Nutzung alter benutzerdefinierter Richtlinien bieten sollen. Mit den obigen Cmdlets können Sie Ihren Benutzern eine der nachstehenden Richtlinien übergeben.
   
 |**Richtlinienname**|**EnableSkypeUI**|
 |:-----|:-----|
-```ClientPolicyDefaultPhoto```||
-```ClientPolicyDefaultPhotoDisableSkypeUI``` |False|
-```ClientPolicyNoIMURL```||
-```ClientPolicyNoIMURLDisableSkypeUI``` |False|
-```ClientPolicyNoIMURLPhoto```||
-```ClientPolicyNoIMURLPhotoDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingI```||
-```ClientPolicyNoSaveIMNoArchivingDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingNoIMURL```||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto``` ||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI```|False|
-```ClientPolicyNoSaveIMNoArchivingPhoto```||
-```ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI``` |False|
+`ClientPolicyDefaultPhoto`||
+`ClientPolicyDefaultPhotoDisableSkypeUI` |False|
+`ClientPolicyNoIMURL`||
+`ClientPolicyNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoIMURLPhoto`||
+`ClientPolicyNoIMURLPhotoDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingI`||
+`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURL`||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto` ||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|False|
+`ClientPolicyNoSaveIMNoArchivingPhoto`||
+`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |False|
 
    
 Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
@@ -203,9 +204,7 @@ Erstellen Sie im Schlüssel **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\1
   
 Der Schlüssel sollte wie folgt aussehen:
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>Ausschalten des Client-Lernprogramms
 
