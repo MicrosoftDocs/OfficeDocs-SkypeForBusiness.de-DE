@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
-ms.openlocfilehash: 62caf2cd70b16f0a8e85a38b381478d49e4ee37c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649643"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Konfigurieren der Cloud Connector-Integration mit Ihrem Office 365-Mandanten
  
@@ -165,7 +166,7 @@ Wenn ein P2P-Aufruf für eine PSTN-Konferenz eskaliert wird, sendet die Skype f�
     
     Verwenden Sie die standardmäßige SIP-Domäne der Cloud-Verbindung (die erste SIP-Domäne in der INI-Datei) als Domäne des Benutzers ein.
     
-    Weisen Sie dem von Ihnen erstellten Konto keine Office 365-Lizenzen (wie zum Beispiel E5) zu. Warten Sie, bis die AD-Synchronisierung von Office 365 abgeschlossen ist.
+    Weisen Sie das Konto, das Sie erstellen ein Office 365-Lizenzen (beispielsweise E5).
     
 2. Starten Sie eine mit Mandanten remote PowerShell-Sitzung mithilfe Ihrer Mandanten-Admin-Anmeldeinformationen, und führen Sie dann das folgende Cmdlet für diesen Benutzer dem Vermittlungsserver und Edge-Server-FQDN festzulegen berücksichtigt, ersetzt \<DisplayName\> mit dem Anzeigenamen des Benutzers für die Konto, das Sie erstellt haben:
     
