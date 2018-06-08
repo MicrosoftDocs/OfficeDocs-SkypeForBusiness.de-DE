@@ -20,38 +20,42 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 66cf9e662231a9afefe605649e8bae0d4652713b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31d81b1a61838d4fcb8151ef467b14a9c1240c4b
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703384"
 ---
-# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a><span data-ttu-id="e210a-103">Anruf aus einer Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können</span><span class="sxs-lookup"><span data-stu-id="e210a-103">Dialing out from a meeting so other people can join it</span></span>
+# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a><span data-ttu-id="85b42-103">Anruf aus einer Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können</span><span class="sxs-lookup"><span data-stu-id="85b42-103">Dialing out from a meeting so other people can join it</span></span>
 
-<span data-ttu-id="e210a-p101">Als Besprechungsorganisator können Sie mit einer Skype for Business- oder Microsoft Teams-App einen Anruf aus einer Besprechung heraus tätigen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:</span><span class="sxs-lookup"><span data-stu-id="e210a-p101">As the meeting organizer, you can dial out using a Skype for Business or Microsoft Teams app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:</span></span>
+<span data-ttu-id="85b42-p101">Als Besprechungsorganisator können Sie mit einer Skype for Business- oder Microsoft Teams-App einen Anruf aus einer Besprechung heraus tätigen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:</span><span class="sxs-lookup"><span data-stu-id="85b42-p101">As the meeting organizer, you can dial out using a Skype for Business or Microsoft Teams app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:</span></span>
   
-- <span data-ttu-id="e210a-107">Sie können nur dann einen Anruf aus einer Besprechung heraus tätigen, wenn Sie über eine Skype for Business- oder Microsoft Teams-App an einer Besprechung teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="e210a-107">You can dial-out only if you join a meeting using a Skype for Business or Microsoft Teams app.</span></span>
+- <span data-ttu-id="85b42-107">Sie können nur dann einen Anruf aus einer Besprechung heraus tätigen, wenn Sie über eine Skype for Business- oder Microsoft Teams-App an einer Besprechung teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="85b42-107">You can dial-out only if you join a meeting using a Skype for Business or Microsoft Teams app.</span></span>
     
-- <span data-ttu-id="e210a-108">Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.</span><span class="sxs-lookup"><span data-stu-id="e210a-108">You as the meeting organizer have been enabled for audio conferencing.</span></span>
+- <span data-ttu-id="85b42-108">Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.</span><span class="sxs-lookup"><span data-stu-id="85b42-108">You as the meeting organizer have been enabled for audio conferencing.</span></span>
 
- <span data-ttu-id="e210a-109">**Schritt 1:** Verwenden Sie bei der Einladung zur Besprechung die Option **Weitere Personen einladen**, um eine Telefonnummer anzurufen.</span><span class="sxs-lookup"><span data-stu-id="e210a-109">**Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.</span></span>
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+ <span data-ttu-id="85b42-109">**Schritt 1:** Verwenden Sie bei der Einladung zur Besprechung die Option **Weitere Personen einladen**, um eine Telefonnummer anzurufen.</span><span class="sxs-lookup"><span data-stu-id="85b42-109">**Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.</span></span>
   
 ![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- <span data-ttu-id="e210a-111">**Schritt 2:** Geben Sie die vollständige Telefonnummer einschließlich Landes- und Ortsvorwahl in das Feld ein.</span><span class="sxs-lookup"><span data-stu-id="e210a-111">**Step 2:** Enter the full phone number, including the country/region code in the box.</span></span>
+ <span data-ttu-id="85b42-111">**Schritt 2:** Geben Sie die vollständige Telefonnummer einschließlich Landes- und Ortsvorwahl in das Feld ein.</span><span class="sxs-lookup"><span data-stu-id="85b42-111">**Step 2:** Enter the full phone number, including the country/region code in the box.</span></span>
   
 ![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## <a name="supported-countries-and-regions"></a><span data-ttu-id="e210a-113">Unterstützte Länder und Regionen</span><span class="sxs-lookup"><span data-stu-id="e210a-113">Supported countries and regions</span></span>
+## <a name="supported-countries-and-regions"></a><span data-ttu-id="85b42-113">Unterstützte Länder und Regionen</span><span class="sxs-lookup"><span data-stu-id="85b42-113">Supported countries and regions</span></span>
 
-<span data-ttu-id="e210a-114">Dial-out is only available to some countries/regions.</span><span class="sxs-lookup"><span data-stu-id="e210a-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="e210a-115">Vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span><span class="sxs-lookup"><span data-stu-id="e210a-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
+<span data-ttu-id="85b42-114">Dial-out is only available to some countries/regions.</span><span class="sxs-lookup"><span data-stu-id="85b42-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="85b42-115">Vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span><span class="sxs-lookup"><span data-stu-id="85b42-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
   
-## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="e210a-116">Möchten Sie mehr über Audiokonferenzen erfahren?</span><span class="sxs-lookup"><span data-stu-id="e210a-116">Want to know more about audio conferencing?</span></span>
+## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="85b42-116">Möchten Sie mehr über Audiokonferenzen erfahren?</span><span class="sxs-lookup"><span data-stu-id="85b42-116">Want to know more about audio conferencing?</span></span>
 
-[<span data-ttu-id="e210a-117">Testen oder Erwerben von Audiokonferenzen in Office 365</span><span class="sxs-lookup"><span data-stu-id="e210a-117">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[<span data-ttu-id="85b42-117">Testen oder Erwerben von Audiokonferenzen in Office 365</span><span class="sxs-lookup"><span data-stu-id="85b42-117">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [<span data-ttu-id="e210a-118">Add-On-Lizenzierung für Skype for Business und Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e210a-118">Skype for Business and Microsoft Teams add-on licensing</span></span>](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [<span data-ttu-id="85b42-118">Add-On-Lizenzierung für Skype for Business und Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="85b42-118">Skype for Business and Microsoft Teams add-on licensing</span></span>](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a><span data-ttu-id="e210a-119">See Also</span><span class="sxs-lookup"><span data-stu-id="e210a-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="85b42-119">See Also</span><span class="sxs-lookup"><span data-stu-id="85b42-119">Related topics</span></span>
 
-[<span data-ttu-id="e210a-120">Installieren von Skype for Business</span><span class="sxs-lookup"><span data-stu-id="e210a-120">Install Skype for Business</span></span>](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+[<span data-ttu-id="85b42-120">Installieren von Skype for Business</span><span class="sxs-lookup"><span data-stu-id="85b42-120">Install Skype for Business</span></span>](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
