@@ -101,6 +101,7 @@
 ### [Meine Erfolg definieren](1-envision-define-my-success-cloud-voice.md)
 ### [Treffe Meine Service - Audiokonferenzen](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [Treffe Meine Service - Telefonsystem mit Aufrufen Pläne](2-envision-make-my-service-decisions-phone-system.md)
+### [Treffe Meine Service - Telefon System direkten Routing](2-envision-make-my-service-decisions-direct-routing.md)
 ### [Meine Umgebung bewerten](3-envision-evaluate-my-environment.md)
 ### [Planen der Verwaltung von Meine service](4-envision-plan-my-service-management.md)
 ### [Planen von Meine Benutzer-Erlebnis](5-envision-plan-my-users-experience.md)
