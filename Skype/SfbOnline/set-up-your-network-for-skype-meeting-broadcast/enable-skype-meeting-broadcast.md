@@ -17,20 +17,21 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Bevor Personen in Ihrem Unternehmen Skype-Livekonferenz verwenden können, müssen Sie diese Funktion aktivieren. Um diesen Schritt durchzuführen, müssen Sie wissen, wie Windows PowerShell verwendet wird. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen Microsoft-Partner für diese Aufgabe heranziehen.
-ms.openlocfilehash: 847630e92d0a8ea26edcc7bb70213ee9f932517d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 2564cf8acc809cb3b3973519bfea3518c851eb34
+ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19744261"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 
 Bevor Personen in Ihrem Unternehmen Skype-Livekonferenz verwenden können, müssen Sie diese Funktion aktivieren. Um diesen Schritt durchzuführen, müssen Sie wissen, wie Windows PowerShell verwendet wird. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) für diese Aufgabe heranziehen.
-  
-> [!CAUTION]
-> Skype-Livekonferenz ist standardmäßig deaktiviert, weil die Verteilung von Medieninhalten einer Livekonferenz Content Delivery Network (CDN) von Microsoft Azure verwendet, um eine sehr hohe Skalierung zu erreichen, damit die optimale Unterstützung von Tausenden von Konferenzteilnehmern gewährleistet ist. Die gesammelten Medieninhalte, die über das CDN übertragen werden, sind verschlüsselt, und der CDN-Cache hat nur eine eingeschränkte Lebensdauer. Die Azure CDN-Komponente erfüllt möglicherweise auch noch nicht alle Elemente der EU-Modellklauseln, die von der EU-Richtlinie zum Datenschutz stammen. Mit der Aktivierung dieser Funktion stimmen Sie diesem Hinweis zu. 
+
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Aktivieren von Skype-Livekonferenz im Skype for Business Admin Center
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Melden Sie sich mit dem Konto Globaler Office 365-Administrator bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
     
