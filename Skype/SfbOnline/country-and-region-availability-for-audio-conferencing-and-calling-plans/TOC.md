@@ -1,7 +1,7 @@
 
 # [Skype for Business Online-Administrator](../skype-for-business-online.md)
 
-## [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ## [Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Zuweisen von Microsoft als Audiokonferenzanbieter](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
@@ -19,7 +19,7 @@
 ### [Verwalten der Audiokonferenzeinstellungen für einen Benutzer](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user.md)
 ### [Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](../audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
 ### [Telefonnummern für Audiokonferenz](../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
-### [Zurücksetzen einer Konferenz-ID für einen Benutzer](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
+### [Zurücksetzen einer Konferenzkennung für einen Benutzer](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
 ### [Zurücksetzen der Audiokonferenz-PIN](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md)
 ### [Anzeigen, Ändern und Zurücksetzen einer Konferenz-ID, die einem Nutzer zugewiesen wurde](../audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md)
 ### [Anzeigen einer Liste mit Telefonnummern für Audiokonferenz](../audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md)
@@ -74,11 +74,11 @@
 ### [Was Sind Wählpläne?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
 ## [Telefonsystem in Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
-### [Erstellen einer Telefonsystem-Anrufwarteschlange](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+### [Erstellen einer Telefonsystem-Anrufwarteschleife](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Erwerben von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Bereitstellen von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 ###[Einrichten von Telefonen für gemeinsame Bereiche (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
-### [Anfordern von Dienst-Telefonnummern für Skype for Business und Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+### [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Dies erhalten Sie mit Telefonsystem](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Voicemail für Telefonsystem
 #### [Ändern der Standardsprache für Voicemail-Begrüßungen und E-Mails in Ihrer Organisation](../what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails.md)
@@ -97,7 +97,7 @@
 ## [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### Lizenzoptionen basierend auf Ihrem Plan
 #### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-#### [Office 365 Premium, Office 365 ProPlus oder Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [Office 365 Premium, Office 365 ProPlus oder Skype for Business Online-Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 #### [Office 365 Enterprise E1, E3 und E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 #### [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 #### [Office 365 Enterprise E5 (ohne Audiokonferenz)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -146,7 +146,7 @@
 ### [Medienqualität und Leistung der Netzwerkkonnektivität](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Proxyserver für Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
-## [Anrufanalyse und dem Anrufqualitäts-Dashboard] (../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [Anruf-Analytics und Anrufqualitäts-Dashboard](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Einrichten von Skype for Business-Anrufanalyse](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Aktivieren und Verwenden des Anrufqualitäts-Dashboards](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
