@@ -13,15 +13,16 @@
 
 
 # Einrichtung
+## [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
 ## [Verwalten des Benutzerzugriffs auf Teams](user-access.md)
 ## [Beziehen von Clients für Microsoft Teams](get-clients.md)
 ## [Hardwareanforderungen für die app Teams](hardware-requirements-for-the-teams-app.md)
 ## [Melden Sie sich bei Teams](sign-in-teams.md)
-## [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
 ## [Teams in Ihrer Office 365-Organisation einrichten](Office-365-set-up.md)
 ## [Aktivieren von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](enable-features-office-365.md)
 ## [Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ## [Installieren Sie die MSI-Datei von Microsoft-Teams](msi-deployment.md)
+## [Kommunizieren Sie mit Benutzern in anderen Organisationen Teams](let-your-teams-users-communicate-with-other-people.md)
 ## [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Einrichten der Anrufanalyse von Skype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -258,6 +259,7 @@
 ### [Tutorial: Erstellen eines firmenweiten Teams mithilfe von PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Verwalten
+### [Können Sie Benutzer die Kommunikation mit anderen Personen](let-your-teams-users-communicate-with other-people.md)
 ### [Quality of Experience überprüfen Guide](quality-of-experience-review-guide.md)
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
 ### [Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
@@ -266,8 +268,6 @@
 ### [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
 ### [Erstellen eines firmenweiten Teams mithilfe von PowerShell](company-wide-team-creation-powershell.yml)
 ### [PowerShell-Cmdlet-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
-
-
 
 
 # Problembehandlung und Support
