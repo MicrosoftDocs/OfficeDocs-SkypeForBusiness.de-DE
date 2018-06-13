@@ -12,12 +12,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: e92f5fdf9aa3b7d60ccf956d0eca872fd7b3f43f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 8df54547474376266cabad2f70be6877f12f246d
+ms.sourcegitcommit: 75f9d15ec5c6284191c28e783761619326b57d53
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546460"
+ms.lasthandoff: 06/13/2018
+ms.locfileid: "19862900"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online-Administrator
 
@@ -118,7 +118,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
 
 ---
 
-<h2>Was gibt es Neues?</h2>
+<h2>Neuigkeiten</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -132,7 +132,9 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                     </div>
                     <div class="cardText">
                         <h3>Artikel</h3>
-                        <p><a href=" ">Link-Name</a></p>
+                        <p><a 
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Einrichten des Telefonsystems in Ihrer Organisation</a></p>
+                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integration von Drittanbietern mit Audiokonferenz</a></p>
                     </div>
                 </div>
             </div>
@@ -149,7 +151,8 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                     </div>
                     <div class="cardText">
                         <h3>Neue Funktionen</h3>
-                        <p><a href=" ">Link-Name</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Anrufpläne in Kanada (Allgemeine Verfügbarkeit)</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Anrufpläne in Australien (nur Vorschauversion)</a></p>
                     </div>
                 </div>
             </div>
@@ -166,7 +169,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                     </div>
                     <div class="cardText">
                         <h3>Aktualisierung Hauptversionen</h3>
-                        <p><a href=" ">Link-Name</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">Einrichten von Audiokonferenz</a></p>
                     </div>
                 </div>
             </div>
