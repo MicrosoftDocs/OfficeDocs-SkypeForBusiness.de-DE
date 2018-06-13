@@ -259,7 +259,7 @@
 ### [Tutorial: Erstellen eines firmenweiten Teams mithilfe von PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Verwalten
-### [Können Sie Benutzer die Kommunikation mit anderen Personen](let-your-teams-users-communicate-with other-people.md)
+### [Können Sie Benutzer die Kommunikation mit anderen Personen](let-your-teams-users-communicate-with-other-people.md)
 ### [Quality of Experience überprüfen Guide](quality-of-experience-review-guide.md)
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
 ### [Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
