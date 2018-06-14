@@ -8,19 +8,21 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: In diesem Artikel werden bekannte Probleme bei Skype Raum Systemen v2 aktuellen Branch Versionen.
-ms.openlocfilehash: 9214a1b198431decda70687d7e1dd3aa08069554
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: In diesem Artikel werden bekannte Probleme bei Skype Raum Systemen v2, nach Funktionsbereich.
+ms.openlocfilehash: 2fde12d616260963dc342df2d9cef94acf616756
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19881542"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  
 In diesem Artikel werden die bekannten Probleme für Skype Raum Systemen v2 nach Funktionsbereich.
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
 
-<a name="update"></a> ## Update 
+<a name="update"> </a>  
+## <a name="update"></a>Update 
 
 | Problemtitel |  Verhalten \/ Symptom | Abhilfe | KB-Artikel |
 |  ---        |      ---             |   ---            | --- |
@@ -53,14 +55,12 @@ Verwenden Sie immer eine drahtgebundene 1 Gbit/s-Netzwerk-Verbindung, um sicherz
 ***
 Wenn Ihre Skype Raum Systemen v2-Gerät verliert Vertrauensstellung mit der Domäne (beispielsweise, wenn Sie die Skype Raum Systemen v2 aus der Domäne entfernen, nach der Domäne beigetreten ist), werden nicht Sie an das Gerät authentifizieren und Einstellungen zu öffnen. Zur Problemumgehung können Sie sich mit dem lokalen Administratorkonto anmelden. 
 ***
-Die 64-Bit-Version von Windows 10 Enterprise Jahrestag Edition (englische, Version 1607) wird nicht mehr Skype Raum Systemen v2 Version 3.0.12.0 (Update 3) unterstützt. 
+Die 64-Bit-Version von Windows 10 Enterprise Jahrestag Edition (englische, Version 1607) ist Skype Raum Systeme 3.0.12.0 v2-Version nicht mehr unterstützt. 
 ***
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 
-
-#### 
 [Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Verwalten von Skype Raum Systemen v2](skype-room-systems-v2.md)
