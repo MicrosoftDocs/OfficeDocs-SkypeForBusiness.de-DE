@@ -13,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server 2015.
-ms.openlocfilehash: 49d52b866c210554d66bf7cd9f59d1b5d8539070
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887827"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Bereitstellen von Skype Room Systems v2 mit Skype for Business Server 2015
- 
-Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server 2015.
   
 In diesem Thema wird erläutert, wie Sie ein Gerät Konto für Skype Raum Systemen v2 hinzufügen, wenn Sie eine einzelnen Gesamtstruktur, lokale Bereitstellung vorhanden sind.
   
 Wenn Sie einer einzelnen Gesamtstruktur, lokalen Bereitstellung von Exchange 2013 SP1 oder höher und Skype für Business Server 2015 oder höher verfügen, können Sie bereitgestellte Windows PowerShell-Skripts verwenden, um Gerät Konten zu erstellen. Wenn Sie eine Bereitstellung mit mehreren Gesamtstrukturen verwenden, können Sie die entsprechenden-Cmdlets verwenden, die die gleichen Ergebnisse erzeugt. Diese Cmdlets werden in diesem Abschnitt beschrieben.
+
+Die einfachste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen. Auf Wunsch können Sie die Schritte unten, um Geräts v2 Skype Raum Systemen verwendeten Konten zu konfigurieren.
   
 ## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Bereitstellen von Skype Room Systems v2 mit Skype for Business Server 2015
 
@@ -101,7 +102,6 @@ Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, 
    Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
    Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
-
    ```
 
    Auch hier müssen Sie die bereitgestellten Beispiele für den Domänencontroller und die Telefonnummer durch Ihre eigenen Informationen ersetzen. Der Parameterwert „$true“ bleibt unverändert.
@@ -120,12 +120,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com
 Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
 Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
-
 ```
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
+[Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md)
 
 [Planen von Skype Raum Systemen v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
@@ -134,4 +133,3 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 [Konfigurieren einer Skype Raum Systemen v2-Konsole](console.md)
   
 [Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

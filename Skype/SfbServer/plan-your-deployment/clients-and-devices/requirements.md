@@ -9,16 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-description: In diesem Artikel werden die Anforderungen für die Unterstützung einer Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 7259e82be2ed0e57ba784a96774c12b10f990170
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
+ms.openlocfilehash: 1d44178beb69cda78b72bb8d0e599af81be39321
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887877"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
-In diesem Artikel werden die Anforderungen für die Unterstützung einer Skype Raum Systemen v2 zusammengefasst. 
+In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst. 
   
 Die Bereitstellung planungslösung Kontenerstellung gemäß der Beschreibung unter [Bereitstellen von Skype Raum Systemen v2](../../deploy/deploy-clients/room-systems-v2.md) und Einrichten von einem Meeting-Konsole, wie beschrieben unter [Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md). Sie müssen auch auf [Skype für Business Add-on Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)verweisen.
   
@@ -135,11 +136,9 @@ Sie benötigen ein eigenes Bild Skype Raum Systemen v2 erstellen die folgenden D
     
 Diese Downloads müssen in einer startbare Windows Media-Installationsdatenträger auf eine bestimmte Weise kombiniert werden in [Configure Skype Raum Systemen v2 Konsole](../../deploy/deploy-clients/console.md)beschrieben. 
   
-Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), zum Bereitstellen von Skype Raum Systemen v2 Konten verwendet.
+Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), häufig zum Bereitstellen von Skype Raum Systemen v2 Konten verwendet.
   
 ## <a name="see-also"></a>Siehe auch
-
-#### 
 
 [Planen von Skype Raum Systemen v2](skype-room-systems-v2-0.md)
   
@@ -150,4 +149,3 @@ Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioning
 [Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype für Business Add-on Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
-

@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Skype Room Systems v2 mit Exchange Online (Hybrid)
+title: Bereitstellen von Skype Room Systems v2 mit Exchange Online
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +13,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Skype Raum Systemen v2 mit Exchange Online.
-ms.openlocfilehash: bb9f236db41b4eabd2dd73f2e9344f1ff3681cf7
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881574"
+ms.locfileid: "19887891"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Bereitstellen von Skype Room Systems v2 mit Exchange Online (Hybrid)
+# <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Bereitstellen von Skype Room Systems v2 mit Exchange Online 
  
-Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Skype Raum Systemen v2 mit Exchange Online.
+Lesen Sie dieses Thema bietet Informationen zum Skype Raum Systemen v2 mit Exchange Online und Skype für Business Server lokal bereitstellen.
   
-Wenn Ihre Organisation eine Kombination von Diensten, mit einigen an lokalen und online gehostet gehostet hat, wird die Konfiguration abhängen, wo jeden Dienst gehostet wird. In diesem Thema werden für Skype Raum Systemen v2 hybridbereitstellungen mit Exchange online gehostet. Da so viele verschiedene Variationen bei dieser Art von Bereitstellung vorhanden sind, ist nicht möglich, detaillierte Informationen für alle bereitzustellen. Der folgende Prozess wird für viele Konfigurationen verwendet werden. Wenn der Vorgang nicht für die Installation die richtige ist, es wird empfohlen, dass Sie Windows PowerShell verwenden (finden Sie in Anhang: PowerShell) um die gleiche Endergebnis zu erzielen, wie hier und für andere Bereitstellungsoptionen dokumentiert. Sie sollten klicken Sie dann das bereitgestellte Windows PowerShell-Skript verwenden, überprüfen Sie das Skype Raum Systemen v2 Setup. (Siehe Konto Überprüfungsskript).
+Wenn Ihre Organisation eine Kombination von Diensten, mit einigen an lokalen und online gehostet gehostet hat, wird die Konfiguration abhängen, wo jeden Dienst gehostet wird. In diesem Thema werden für Skype Raum Systemen v2 hybridbereitstellungen mit Exchange online gehostet. Da so viele verschiedene Variationen bei dieser Art von Bereitstellung vorhanden sind, ist nicht möglich, detaillierte Informationen für alle bereitzustellen. Der folgende Prozess wird für viele Konfigurationen verwendet werden. Wenn der Vorgang nicht für die Installation die richtige ist, wird empfohlen, dass Sie Windows PowerShell verwenden, um das gleiche Endergebnis zu erzielen, wie hier und für andere Bereitstellungsoptionen dokumentiert. 
+
+Die einfachste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen. Auf Wunsch können Sie die Schritte unten, um Geräts v2 Skype Raum Systemen verwendeten Konten zu konfigurieren.
+
+
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Bereitstellen von Skype Room Systems v2 mit Exchange Online
 
@@ -141,6 +145,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 Für die Validierung sollten Sie alle Skype für Business-Client verwenden Sie dieses Konto anzumelden sein.
   
 ## <a name="see-also"></a>Siehe auch
+
+[Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md)
 
 [Planen von Skype Raum Systemen v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
