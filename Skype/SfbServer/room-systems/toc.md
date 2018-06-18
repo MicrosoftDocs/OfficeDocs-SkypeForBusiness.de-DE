@@ -23,3 +23,22 @@
 ### [Geräte mit OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Einstellungen für eine XML-Datei](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Verwenden Sie das Wiederherstellungstool](../manage/skype-room-systems-v2/recovery-tool.md)
+# Skype-Chatroom-Systeme (v1)
+## Planen
+### [Bereitstellen von Skype Raum System in Skype für Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
+## Bereitstellen
+### [Bereitstellung von Skype Raum System Exchange und Skype-Konten](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+#### [Einzelne Gesamtstruktur Skype Raum System lokalen Bereitstellungen](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
+#### [Skype-Chatroom-System mit mehreren Gesamtstrukturen lokalen Bereitstellungen](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
+#### [Skype Raum Systemkonten in Office 365-Bereitstellung](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [Skype-Chatroom-System-hybridbereitstellungen](../deploy/deploy-clients/hybrid-deployments.md)
+#### [Skype-Chatroom-System und Skype für Unternehmen Verbundpartner](../deploy/deploy-clients/room-system-and-federated-partners.md)
+### [Richtlinie für Webkonferenzen für Skype Raum Systemkonten](../deploy/deploy-clients/conferencing-policy.md)
+### [Skype Raum System vertrauenswürdige Domänen](../deploy/deploy-clients/trusted-domains.md)
+### [Überlegungen zur Migration von Skype Raum System](../deploy/deploy-clients/migration-considerations.md)
+### [Skype Raum System Domäne beitreten Aspekte](../deploy/deploy-clients/domain-joining-considerations.md)
+### [Skype-Raum System: Skype für Business-Lizenz](../deploy/deploy-clients/skype-for-business-software-liicense.md)
+### [Skype Raum System Verwaltbarkeit und tools](../deploy/deploy-clients/manageability-and-tools.md)
+### [Skype Raum System Raum Setup-Skripts](../deploy/deploy-clients/room-setup-scripts.md)
+## Verwalten
+### [Verwalten von Skype Raum Systemkonten](../deploy/deploy-clients/manage-skype-room-system-accounts.md)

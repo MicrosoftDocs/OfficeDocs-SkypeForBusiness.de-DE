@@ -11,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Die relevanten planungsüberlegungen für die Bereitstellung von Skype Raum Systemen v2 und das Bereitstellen und Verwalten des Systems.
-ms.openlocfilehash: 649899f31cdc0e584f954408f269b77fce891b9d
-ms.sourcegitcommit: fecc87046d16a973499403f6cd097a608b6272f8
+ms.openlocfilehash: a5bc788c1e0a3fab68ea70ef417567ed37e47783
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927795"
 ---
 <h2>Skype-Raum Systemen v2 & #x 2013; <br>die nächste Generation von Skype-Chatroom-Systemen </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -107,4 +108,7 @@ ms.lasthandoff: 05/17/2018
 > [!NOTE]
 > Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2015 oder Skype für Business Online vorgesehen. Microsoft-Teams Support kommt sehr bald. <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
 
-In diesen Artikeln sind für Personen mit planen, bereitstellen und Verwalten von Skype Raum Systemen v2 Geräten beauftragt, und nicht für die Benutzer des Systems vorgesehen. Benutzer können mehr Interesse in der [Onlinehilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+In diesen Artikeln sind für Personen, die mit der Planung, Bereitstellung und Verwaltung von diesen Geräten beauftragt und nicht für die Benutzer des Systems vorgesehen. Benutzer können mehr interessiert der Skype Raum Systemen v2- [Onlinehilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+
+> [!NOTE]
+> Skype-Chatroom-System und Skype Raum Systeme v2 sind verschiedene Produkte mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren. 
