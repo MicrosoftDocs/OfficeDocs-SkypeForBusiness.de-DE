@@ -10,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: In diesem Thema wird die Bereitstellungsverfahren für die Verwendung von Skype für Unternehmen beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop.
-ms.openlocfilehash: a8f95903f3c06fd953b8d97ba829d4f23e8d72b6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e4193998a9374c1aa0160999ad53a9ec3d8aab7
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927852"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>Bereitstellen des Lync VDI-Plug-Ins in Skype for Business Server 2015
  
-In diesem Thema wird die Bereitstellungsverfahren für die Verwendung von Skype für Unternehmen beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop. 
+In diesem Thema wird die Bereitstellungsverfahren für die Verwendung von Skype für Unternehmen beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop. Planungsüberlegungen befinden sich in [Skype für Unternehmen in einer VDI-Umgebung planen](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
 Eine VDI-Umgebung (Virtual Desktop Infrastructure) wird in einigen Organisationen verwendet, in denen Sicherheits- und Complianceprobleme besonders sensibel sind. Die Benutzer arbeiten mit lokalen Windows-Computern und verwenden Clients auf einem virtuellen Desktop. Verwendung von Skype für Unternehmen für eine Verbindung auf dem erfordert zusätzlichen VDI-Plug-in-Software.
   
@@ -123,7 +124,4 @@ Nachfolgend finden Sie mögliche Gründe für Fehler und Maßnahmen, mit denen S
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="tshoot_VDI"> </a>
 
-#### 
-
 [Planen von Skype für Unternehmen in einer VDI-Umgebung](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
-

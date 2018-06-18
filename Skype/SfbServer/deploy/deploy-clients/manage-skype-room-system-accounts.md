@@ -10,15 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 description: Lesen Sie dieses Thema und erfahren Sie, wie Sie Skype Room System-Konten verwalten.
-ms.openlocfilehash: c47765b617e0856d1db25c7ed4902fe0af9924f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4d3535c9583481273f7a511143244b511cdb5819
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927788"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Verwalten von Skype Room System-Konten
  
-Lesen Sie dieses Thema und erfahren Sie, wie Sie Skype Room System-Konten verwalten.
+Lesen Sie dieses Thema und erfahren Sie, wie Sie Skype Room System-Konten verwalten. 
+
+> [!NOTE]
+> Skype-Chatroom-Systemen v2 ist ein anderes Produkt mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Skype Raum Systemen v2 finden Sie unter Skype Raum Systemen v2 [(Übersicht)](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Das Systemkonto von Skype Platz zwischen Pools verschieben
 
