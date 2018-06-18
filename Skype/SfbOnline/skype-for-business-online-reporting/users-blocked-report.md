@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Dieser Bericht bietet Ihnen mit den anderen Skype for Business-Berichten nähere Einzelheiten zur jeweiligen Aktivität, einschließlich der PSTN-Nutzung in der gesamten Organisation. '
-ms.openlocfilehash: 90de47e67307b90b3f1e375237654cf48e0cb84a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933047"
 ---
 # <a name="users-blocked-report"></a>Benutzer, die blockiert Bericht
 
@@ -30,9 +32,11 @@ Im neuen Skype for Business-Dashboard **Berichte** wird eine Aktivitätsübersic
  Checken Sie der [Übersicht über die Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) für weitere Berichte, die verfügbar sind.
   
 > [!NOTE]
-> Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
+> Sie können beim Anmelden als Administrator, um das Office 365 Administrationscenter alle der Skype für Business Berichte angezeigt. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Wie abgerufen, der Skype für Unternehmensbenutzer blockiert Bericht
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 - Wechseln Sie zu **Office 365 Administrationscenter** > **Admin zentriert** > **Skype für Business Administrationscenter** > **Berichte** > **Benutzer blockiert**.
     

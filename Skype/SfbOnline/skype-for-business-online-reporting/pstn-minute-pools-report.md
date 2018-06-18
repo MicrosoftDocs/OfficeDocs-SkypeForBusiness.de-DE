@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Die neue Skype für Bereich Business Admin Center Berichte zeigt Sie aufrufende und audio Conferencing Aktivität in Ihrer Organisation. Sie können in Berichte bieten mehr Granularität Aufschluss über die Aktivitäten der einzelnen Benutzer zur Verfügung, der Drilldown erfolgen soll. Die Skype für Business PSTN Minute Pools Bericht können Sie beispielsweise die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht finden Sie unter.
-ms.openlocfilehash: 850a6659311b030fff6ca6c10660491694c50c27
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933057"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN-Minute Pools-Bericht
 
@@ -38,6 +40,8 @@ In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalt
 > Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Wie Sie auf die Skype für Business PSTN Minute Pools Bericht abrufen
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 - Wechseln Sie zu **Office 365 Administrationscenter** > **Admin zentriert** > **Skype für Business Administrationscenter** > **Berichte** > **Minute PSTN-Pools**.
     
@@ -57,12 +61,11 @@ Der Bericht sieht folgendermaßen aus:
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt Sie eine Aufschlüsselung der Minute Pools nach Lizenz (Funktion) und Speicherort der Verwendungsanalyse. 
 *    **Funktion** ist die Lizenz/Dienstplan für den Anruf verwendet. Die Lizenz-Dienst-Pläne, die in diesem Bericht angezeigt werden umfassen:
-     * MCOPSTNPP - Communications haben
      * MCOPSTN1 - nationalen aufrufen planen (3000-minütigen US/1200-minütigen EU-Pläne
      * MCOPSTN2 - internationaler Plan
      * MCOPSTN5 - nationalen aufrufen Plan (aufrufende Plan 120 Minuten)
+     * MCOPSTN6 - nationalen aufrufen Plan (aufrufende Plan 240 Minuten)
      * MCOMEETADD - Audiokonferenzen
-     * MCOMEETACPEA - Bezahlung pro Minute Audiokonferenzen
 *    **Beschreibung der Funktion** ist eine Beschreibung des Typs Lizenz für den Anruf verwendet.
 *    **Land Minute Pool** ist der Lizenz Usage-Speicherort den Benutzer, die den Minuten Pool gemeinsam nutzen. 
 *    **Minuten verwendet,** ist die Anzahl der Minuten pro Monat verwendet.

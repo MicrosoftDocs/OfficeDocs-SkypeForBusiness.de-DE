@@ -18,11 +18,13 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Erfahren Sie, wie die Skype für organisierte Konferenz Tätigkeit Bericht abgerufen und das interpretieren und passen Sie es. '
-ms.openlocfilehash: ed65aaed214a35b961c9c13c0d789a224e41258f
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+search.appverid: MET150
+ms.openlocfilehash: 14d82764a177d1bc483bc1c3457546352a2b4f03
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933155"
 ---
 # <a name="conference-organizer-activity-report"></a>Organizer konferenzaktivitätsbericht
 
@@ -55,8 +57,9 @@ Sie können eine Ansicht in Ihrer Skype für Business Konferenzen erhalten, die 
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Der Bericht **Skype für geschäftliche Konferenz organisieren Aktivität** kann für Trends über den letzten sieben Tagen 30 Tage, 90 Tage oder nach 180 Tagen angezeigt werden. Wenn Sie in einen bestimmten Tag im Bericht klicken, die Tabelle (siehe Nummer 7) zeigt jedoch Daten für 30 Tage, bis zu dem Datum (siehe Nummer 2) für Wenn der Bericht generiert wurde.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Wenn Sie die Details eines bestimmten Tags klicken, zeigt die Tabelle Daten für die 30 Tage bis zu dem Datum nur wenn der Bericht generiert wurde.
+
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. 
 ***
@@ -80,7 +83,9 @@ Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Lege
 ![Zahl 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt Sie eine Aufschlüsselung der organisierte Konferenz Aktivitäten pro Benutzer. Zeigt alle Benutzer, die Skype für Unternehmen und Konferenzen, die sie organisiert zugewiesen haben. Sie können zusätzliche Spalten zur Tabelle hinzufügen. 
 *    **Benutzername** ist der Name des Benutzers. 
 *    **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde.<br/><br/>
-     **Hinweis:**  Aktivitäten für eine gelöschte Benutzer wird weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums lizenziert wurde. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.<br/> <br/>
+    > [!NOTE]
+    > Aktivitäten für eine gelöschte Benutzer wird weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums lizenziert wurde. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
+     
 *    **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde. 
 *    **Datum der letzten Aktivität (UTC)** ist das Datum der letzten Aktivität (UTC) für diesen Benutzer. 
 *    **Instant Messaging** zeigt die Gesamtanzahl der Instant Messaging-Konferenzen, die organisiert wurden. 

@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: b1bec06b0155b2e8a127f46de16dbb9afd5904f3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 54fa46f64989e796628d36f0af7d2f59b0c253d8
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933087"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online-Berichterstellung
 
