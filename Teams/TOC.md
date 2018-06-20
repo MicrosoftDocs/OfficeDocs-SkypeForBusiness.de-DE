@@ -287,6 +287,7 @@
 
 #Microsoft Teams Education
 ## [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
+## [Ressourcen für Administratoren Education Teams](resources-teams-edu.md)
 
 # [Entwicklerdokumentation für Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
 
