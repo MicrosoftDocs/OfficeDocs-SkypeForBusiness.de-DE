@@ -3,7 +3,6 @@ title: XMPP-Verbundpartner Erstellen einer neuen oder Bearbeiten einer vorhanden
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 1cc2718b740f141f29d6a8eb24342079a2813232
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 662c8e9893055f732d70349f61ccb436fd9bb41c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978560"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP-Verbundpartner: Erstellen Sie einer neuen oder bearbeiten Sie eines vorhandenen
  

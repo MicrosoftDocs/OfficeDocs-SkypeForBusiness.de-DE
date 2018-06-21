@@ -3,7 +3,6 @@ title: Erweiterung der Porteinstellungen für den Video-Interoperabilität-Serve
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
-ms.openlocfilehash: cd495eca87b53a48f642a8f7eda0cc7138cab627
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 9575a35ebfb492d6adfad59345cc356e3bff3d2d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979673"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Erweiterung der Porteinstellungen für den Video-Interoperabilität-Server
  
@@ -32,7 +32,4 @@ Die Konfigurationsschritte für einen neuen Video Interop-Server mithilfe von Wi
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Planen der Interop-Videoserver in Skype für Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

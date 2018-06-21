@@ -3,7 +3,6 @@ title: Erstellen der Datenbank
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: Topologie-Generator bietet die Möglichkeit, Datenbanken auf SQL Server-Speicher zu installieren. Wenn Sie die Datenbanken mithilfe des Topologie-Generator installieren, wird die Anwendung liest Informationen aus der Topologie und installiert dann die erforderlichen Datenbanken auf dem angegebenen Computer mit SQL Server oder SQL Server-Cluster. Dies ist die einzige Art von Datenbankinstallation, die bei Verwendung des Topologie-Generators verfügbar ist. Wenn Sie eine bestimmte Datenbank auf einem bestimmten Computer installieren müssen oder wenn Sie eine verbundene Datenbank installieren müssen, müssen Sie Windows PowerShell-Befehlszeilenschnittstelle und das Cmdlet "Install-CsDatabase" stattdessen verwenden.
-ms.openlocfilehash: 9bee333e0b56a6eeb8f4363e6657be2fabfa1ace
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f9d351d4b6b7cb37d2daeb889caabb1f4090e74e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979799"
 ---
 # <a name="create-database"></a>Erstellen der Datenbank
  
@@ -24,7 +24,7 @@ Topologie-Generator bietet die Möglichkeit, Datenbanken auf SQL Server-Speicher
   
 ### <a name="creating-a-database"></a>Erstellen einer Datenbank
 
-1. Klicken Sie auf die Skype für Business Server 2015 Knoten, und klicken Sie dann auf **Datenbank installieren**.
+1. Klicken Sie auf die Skype für Business Server-Knoten, und klicken Sie dann auf **Datenbank installieren**.
     
 2. Wählen Sie im Dialogfeld **Datenbanken installieren** auf der Seite **Datenbank erstellen** den vollqualifizierten Domänennamen (FQDN) des SQL Server-Speichers, in dem die neuen Datenbanken erstellt werden soll.
     

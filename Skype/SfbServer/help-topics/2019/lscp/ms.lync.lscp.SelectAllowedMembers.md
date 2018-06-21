@@ -3,7 +3,6 @@ title: Auswählen zugelassener Mitglieder
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Erstellen und Verwalten von Chatrooms für beständigen Chat ist wesentlich einfacher mit die richtige Verwendung von Kategorien. A Persistent Chat Administrator können das Definieren von AllowedMembers und Creators für jede Kategorie, und Sie können auch definieren, die Standardeinstellungen für die Chatroom und Verhaltensweisen, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Administratoren für den beständigen Chat erstellen und Verwalten von Kategorien mithilfe der Systemsteuerung oder Windows PowerShell-Cmdlets.
-ms.openlocfilehash: 0f5dc076b5eacc896e2de8f93373632d57c5c1a2
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: f83ff99905a9c2ada133c6a21d235a8385261545
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974670"
 ---
 # <a name="select-allowed-members"></a>Auswählen zugelassener Mitglieder
  
@@ -44,7 +44,4 @@ Ausführliche Informationen zur Persistent Chat Server-Features und Funktionen f
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Grundlegendes zur Persistent Chat-Mitgliedschaft](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-

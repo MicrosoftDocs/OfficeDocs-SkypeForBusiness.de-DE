@@ -3,7 +3,6 @@ title: Archivierungsrichtlinie
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Zum Aktivieren von Archivierungsrichtlinien verwendet und Archivierung für Benutzer deaktivieren auf Skype für Business Server verwaltet. In einer Archivierungsrichtlinie können Sie die Archivierung jeweils für eine oder beide der folgenden Kommunikationsarten aktivieren oder deaktivieren:'
-ms.openlocfilehash: 6bdccd0f717314fb36a698ee8dd9d237a47d6bdd
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: efe2a17e5f3e85b83e937e38613b630e3a78f7d9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979967"
 ---
 # <a name="archiving-policy"></a>Archivierungsrichtlinie
  
@@ -35,7 +35,7 @@ Zu den Archivierungsrichtlinien gehören die globale Richtlinie und optional ein
 - **Richtlinie für Benutzer (optional)** Sie können eine oder mehrere Benutzer Archivierungsrichtlinien angeben, von denen jedes Sie zum Aktivieren und Deaktivieren der Archivierung von interner oder externer Kommunikation für einen bestimmten Benutzer oder eine Benutzergruppe konfigurieren können. Eine Benutzerrichtlinie setzt die globale Richtlinie und die Standortrichtlinien außer Kraft, jedoch nur für die Benutzer und Benutzergruppen, denen Sie Archivierungsrichtlinien auf Benutzerebene zuweisen. Sie können Benutzerrichtlinien bearbeiten oder löschen.
     
 > [!NOTE]
-> Archivierungsrichtlinien gelten nur für Benutzer, die auf Skype für Business Server verwaltet. Wenn Sie zum Speichern von Exchange-Integration verwenden, Archivieren von Daten in Microsoft Exchange, klicken Sie dann auf Exchange 2013 Richtlinien Steuerelement Archivierung für Benutzer auf Exchange 2013 verwaltet. Zum Aktivieren der Archivierung für die Benutzer muss das Postfach des Benutzers auf Compliance-Archiv platziert werden. 
+> Archivierungsrichtlinien gelten nur für Benutzer, die auf Skype für Business Server verwaltet. Wenn Sie Exchange-Integration zum Speichern von archivierten Daten in Microsoft Exchange verwenden, Richtlinien Steuerelement Archivierung für Exchange, der auf Exchange-Benutzer verwaltet. Zum Aktivieren der Archivierung für die Benutzer muss das Postfach des Benutzers auf Compliance-Archiv platziert werden. 
   
 Auf der Seite **Archivierungsrichtlinie** sind die einzelnen Archivierungsrichtlinien aufgeführt, die für die Bereitstellung konfiguriert sind. Außerdem werden der Richtlinienname und -bereich (Global, Standort oder Benutzer) sowie die für eine Archivierungsrichtlinie aktivierten Archivierungsoptionen angezeigt. Auf der Seite **Archivierungsrichtlinie** haben Sie die folgenden Möglichkeiten:
 - **Neue** Sie können eine oder mehrere der folgenden optionalen Archivierungsrichtlinien hinzufügen:

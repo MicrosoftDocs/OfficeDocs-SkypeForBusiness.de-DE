@@ -3,7 +3,6 @@ title: Installieren und Erstellen von Datenbanken
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Sie wählen Sie die Datenbanken, die Sie für Ihre Bereitstellung erstellen möchten. In der Standardeinstellung wird die Datenbank erstellt werden, auf dem definierten SQL Server in der definierten Site und automatisch bereitstellen und konfigurieren die Datenbankdateien basierend auf dem SQL Server, die Sie die Datenbanken auf platzieren.
-ms.openlocfilehash: cf838e66dc5e9592ba71dd9d44fa5fc333c6dbc7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 70bd185b4e559215df7d3623dc5591648e718ed9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979358"
 ---
 # <a name="install-and-create-databases"></a>Installieren und Erstellen von Datenbanken
  
@@ -25,7 +25,7 @@ Sie wählen Sie die Datenbanken, die Sie für Ihre Bereitstellung erstellen möc
  **Wählen Sie die Datenbanken, den Sie erstellen möchten**: Aktivieren Sie das Kontrollkästchen alle Datenbanken, die Sie bereitstellen und konfigurieren möchten. Wählen Sie das Kontrollkästchen für einige oder alle Datenbanken, die Sie bereitstellen. 
   
 > [!CAUTION]
-> SQL Server muss bereits konfiguriert wurden für die Instanz (sofern vorhanden) und Firewallports geöffnet werden müssen, um die Instanz aufzunehmen, der Sie für die Datenbanken bereitstellen. Weitere Informationen hierzu finden Sie unter [Konfigurieren von SQL Server für Lync Server 2013 Preview](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> SQL Server muss bereits konfiguriert wurden für die Instanz (sofern vorhanden) und Firewallports geöffnet werden müssen, um die Instanz aufzunehmen, der Sie für die Datenbanken bereitstellen. Weitere Informationen hierzu finden Sie unter [Konfigurieren von SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
   
  **Erweitert**: Klicken Sie auf dem SQL Server, und klicken Sie auf die Schaltfläche **Erweitert** , um Optionen für die Datenbank Speicherorte auf dem SQL Server auszuwählen. Ausführliche Informationen zum Platzieren der erweiterten Datenbankdatei finden Sie unter [Datenbank Installation mithilfe von Lync Server-Verwaltungsshell](http://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
   

@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
 search.appverid: MET150
-ms.openlocfilehash: 62b6bff4952a590bfeef47a6d1fe23e1fe3d49d5
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933127"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973368"
 ---
 # <a name="pstn-usage-report"></a>PSTN-Verwendungsbericht
 
@@ -89,6 +89,7 @@ Der Bericht sieht wie folgt aus:
      *    **MCOPSTNPP**: Guthaben für Kommunikationen <br/> **MCOPSTN1**: Plan für Inlandsanrufe (US-Plan mit 3.000 Min./EU-Plan mit 1.200 Min.) 
      *    **MCOPSTN2**: Plan für Auslandsanrufe 
      *    **MCOPSTN5**: Plan für Inlandsanrufe (Anrufplan mit 120 Min.) 
+     *    **MCOPSTN6** - nationalen aufrufen Plan (240 min aufrufende Plan) Hinweis: eingeschränkter Verfügbarkeit
      *    **MCOMEETADD**: Audiokonferenz
      *    **MCOMEETACPEA**: Audiokonferenz mit Minutenabrechnung 
 ***

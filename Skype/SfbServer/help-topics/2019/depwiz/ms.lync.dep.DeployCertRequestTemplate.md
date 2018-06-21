@@ -3,7 +3,6 @@ title: Zertifikatsanforderung (mit Angabe der Vorlage)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: Die Seite Alternative Zertifikatvorlage angeben können Sie eine andere Zertifikatvorlage als die WebServer-Zertifikatvorlage definieren, die standardmäßig verwendet wird. Wählen Sie das Kontrollkästchen alternative Zertifikatvorlage verwenden für ausgewählte Zertifizierungsstelle aus, und klicken Sie dann definieren Sie den Namen der alternative Zertifikatvorlage in Text im Feld Name der Zertifikatvorlage. Sie müssen den Namen der Vorlage entsprechend der Definition der Zertifizierungsstelle verwenden. Klicken Sie auf zurück, um zur vorherigen Seite zurückzukehren. Klicken Sie auf Abbrechen, um die zertifikatanforderung ab zu beenden.
-ms.openlocfilehash: 856ad66b4bf2974e43e8684ca6016494df26019f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 730992312f13557145ebe88aef757bd0fdf433d8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979932"
 ---
 # <a name="certificate-request-specify-termplate"></a>Zertifikatsanforderung (mit Angabe der Vorlage)
  

@@ -3,7 +3,6 @@ title: Vorbereiten der aktuellen Domäne
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 'Um eine Domäne und Hostservern, die mit Skype für Business Server 2015 oder Skype für Benutzer von Business Server vorzubereiten, müssen Sie Schritt 5: aktuelle Domäne vorbereiten, wie im Thema Verwenden des Setups zum Ausführen der Domänenvorbereitung beschrieben. Zum Abschließen des Schritts müssen Sie als Mitglied der Gruppe „Domänenadmins“ in der Domäne, die Sie vorbereiten, oder der Gruppe „Organisations-Admins“ der Gesamtstruktur, zu der die Domäne gehört, angemeldet sein. So bereiten Sie die Domäne vor:'
-ms.openlocfilehash: e34498dd44d7518300b0e7d4df6a5135b8e51a2d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Um eine Domäne und Hostservern, die mit Skype für Business Server oder Skype für Benutzer von Business Server vorzubereiten, müssen Sie Schritt 5: aktuelle Domäne vorbereiten, wie im Thema Verwenden des Setups zum Ausführen der Domänenvorbereitung beschrieben. Zum Abschließen des Schritts müssen Sie als Mitglied der Gruppe „Domänenadmins“ in der Domäne, die Sie vorbereiten, oder der Gruppe „Organisations-Admins“ der Gesamtstruktur, zu der die Domäne gehört, angemeldet sein. So bereiten Sie die Domäne vor:'
+ms.openlocfilehash: 7b67521cef97efd2bdfc0da344a8619272899340
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979890"
 ---
 # <a name="prepare-current-domain"></a>Vorbereiten der aktuellen Domäne
  
-Um eine Domäne und Hostservern, die mit Skype für Business Server 2015 oder Skype für Benutzer von Business Server vorzubereiten, müssen Sie **Schritt 5: aktuelle Domäne vorbereiten**, wie im Thema [Verwenden des Setups zum Ausführen der Domänenvorbereitung](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx)beschrieben. Zum Abschließen des Schritts müssen Sie als Mitglied der Gruppe „Domänenadmins“ in der Domäne, die Sie vorbereiten, oder der Gruppe „Organisations-Admins“ der Gesamtstruktur, zu der die Domäne gehört, angemeldet sein. So bereiten Sie die Domäne vor:
+Um eine Domäne und Hostservern, die mit Skype für Business Server oder Skype für Benutzer von Business Server vorzubereiten, müssen Sie **Schritt 5: aktuelle Domäne vorbereiten**, wie im Thema [Verwenden des Setups zum Ausführen der Domänenvorbereitung](http://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx)beschrieben. Zum Abschließen des Schritts müssen Sie als Mitglied der Gruppe „Domänenadmins“ in der Domäne, die Sie vorbereiten, oder der Gruppe „Organisations-Admins“ der Gesamtstruktur, zu der die Domäne gehört, angemeldet sein. So bereiten Sie die Domäne vor:
   
 1. Führen Sie aus der Skype für Business Server 2015-Installationsordner oder auf dem Installationsmedium Setup.exe, um die Skype für Business Server-Bereitstellungs-Assistenten zu starten.
     

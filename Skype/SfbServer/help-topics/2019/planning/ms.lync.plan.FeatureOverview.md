@@ -3,7 +3,6 @@ title: Übersicht über die Features (Planungstool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/6/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: Skype for Business Server 2015 – Planungstool
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Skype für Business Server-Planungstool
+ms.openlocfilehash: a5c482dadf2ffd39e8927e1924e50117dd13e1c8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974029"
 ---
 # <a name="feature-overview-planning-tool"></a>Übersicht über die Features (Planungstool)
  
-Skype for Business Server 2015 – Planungstool
+Skype für Business Server-Planungstool
   
 Die Seite **Zentralen Standorten** mit dem Planungstool können Sie um die Skype für Business Server-Bereitstellung zu entwerfen. Sie können entweder eine zentralisierte oder eine verteilte Bereitstellung erstellen. Eine zentrale Bereitstellung verfügt nur über einen zentralen Standort, die alle Skype für Unternehmensbenutzer in Ihrer Organisation befinden. Bei einer verteilten Bereitstellung sind mehrere zentrale Standorte vorhanden. Wenn Sie Skype für Business Server an mehreren zentralen Standorten bereitstellen, können Sie die Anzahl der Benutzer bei jeder zentrale Standort im Planungstool eingeben.
   
@@ -75,15 +75,15 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Partnerverbund mit XMOO-basierten Dienstanbietern**
     
-    Skype für Business Server 2015 führt einen voll integrierte XMPP-Proxy (auf dem Edge-Servern bereitgestellt) und einem XMPP-Gateway auf Front-End-Servern bereitgestellt. Sie können bereitstellen, hinzufügen und Konfigurieren des XMPP-Proxys und XMPP-Gateway ansetzt, kann Ihre Skype für Business Server 2015 Benutzer Kontakte von XMPP-basierten Partnern für instant messaging (IM) und Anwesenheit hinzufügen.
+    Skype für Business Server führt eine voll integrierte XMPP-Proxy (auf dem Edge-Servern bereitgestellt) und einem XMPP-Gateway auf Front-End-Servern bereitgestellt. Können Sie hinzufügen und Konfigurieren des XMPP-Proxys bereitstellen und XMPP-Gateway ansetzt, kann Ihre Skype für Business Server-Benutzer Kontakte von XMPP-basierten Partnern für instant messaging (IM) und Anwesenheit hinzufügen.
     
 - **Mobilität**
     
-    Wenn Sie die Skype für Business Server 2015 Mobility Service bereitstellen, können Benutzer unterstützte Apple iOS, Android, Windows Phone oder mobilen Nokia-Geräten solche Aktivitäten als senden und Empfangen von Sofortnachrichten, Anzeigen von Kontakten und Anzeigen von Anwesenheitsinformationen ausführen verwenden.
+    Wenn Sie die Skype für Business Server Mobility Service bereitstellen, können Benutzer unterstützte Apple iOS, Android, Windows Phone oder mobilen Nokia-Geräten solche Aktivitäten als senden und Empfangen von Sofortnachrichten, Anzeigen von Kontakten und Anzeigen von Anwesenheitsinformationen ausführen verwenden.
     
 - **W15 Exchange-Postfach**
     
-    Skype für Business Server 2015 können Sie Voicemail-Nachrichten in Exchange Unified Messaging (UM) gespeichert haben. Diese Voicemailnachrichten werden dann als e-Mail-Nachrichten in die Posteingänge der Benutzer angezeigt.
+    Skype für Business Server können Sie Voicemail-Nachrichten in Exchange Unified Messaging (UM) gespeichert haben. Diese Voicemailnachrichten werden dann als e-Mail-Nachrichten in die Posteingänge der Benutzer angezeigt.
     
 ### <a name="voice"></a>VoIP
 
@@ -95,7 +95,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) kombiniert Voicemail und e-Mail in einer einzigen Messaginginfrastruktur. Skype für Business Server 2015 verwendet Exchange UM-Mailboxansage, Teilnehmerzugriff, anrufbenachrichtigungen und automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype für Business Server in einer freigegebenen Active Directory-Topologie zu integrieren.
+    Exchange Unified Messaging (UM) kombiniert Voicemail und e-Mail in einer einzigen Messaginginfrastruktur. Skype für Business Server verwendet Exchange UM-Mailboxansage, Teilnehmerzugriff, anrufbenachrichtigungen und automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype für Business Server in einer freigegebenen Active Directory-Topologie zu integrieren.
     
 ### <a name="additional-deployment-options"></a>Weitere Bereitstellungsoptionen
 
@@ -119,7 +119,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Exchange-Archivierungsintegration**
     
-    Wenn Sie Benutzer, die sich auf Exchange 2013 befinden und ihren Postfächern zu Compliance-Archiv platzieren wurde haben, können Sie die Option zum Integrieren von Skype für Business Server 2015 Storage mit Exchange auswählen.
+    Wenn Sie Benutzer, die sich auf Exchange befinden und ihren Postfächern zu Compliance-Archiv platzieren wurde haben, können Sie die Option zum Integrieren von Skype für Business Server-Speicher mit Exchange-Speicher auswählen.
     
 - **IPv4**
     

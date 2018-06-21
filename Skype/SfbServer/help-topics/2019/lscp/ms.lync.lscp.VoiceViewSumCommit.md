@@ -3,7 +3,6 @@ title: Ohne Commit VoIP Configuration Settings Commit
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: Das Dialogfeld VoIP-Konfigurationseinstellungen ohne Commit können Sie um alle Änderungen zu überprüfen, die Sie vorgenommen haben. Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte. Wenn Sie fertig sind, klicken Sie auf Commit, um diese Änderungen zu übernehmen, oder klicken Sie auf Abbrechen, um zurückzugehen und Ihre Änderungen zu ändern.
-ms.openlocfilehash: d6c7b95329709732f42289f616e21929a0ed976d
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 30c006da73a086df1d84f4b9049006ea5096da5c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976002"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>VoIP-Konfigurationseinstellungen ohne Commit: Commit ausführen
  

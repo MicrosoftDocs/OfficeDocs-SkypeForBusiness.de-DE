@@ -3,7 +3,6 @@ title: Checkliste vor dem ersten Ausführen für die Skype for Business Server-S
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: Willkommen Sie bei der Skype für Business Server-Systemsteuerung, die webbasierte Benutzeroberfläche für die Administration und Verwaltung von Skype für Business Server. Mit der Systemsteuerung können Sie diejenigen Arten von administrativen Aufgaben ausführen, die in früheren Versionen über die Microsoft Management Console ausgeführt wurden.
-ms.openlocfilehash: 23440c0aae1fbb447cbdefcbab8a0162f514cc1c
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 78c9943145e0dd12feb5b73e165610fef19bf396
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978083"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Checkliste vor dem ersten Ausführen für die Skype for Business Server-Systemsteuerung
  

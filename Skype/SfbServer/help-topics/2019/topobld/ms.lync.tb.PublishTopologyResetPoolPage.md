@@ -3,7 +3,6 @@ title: Veröffentlichen der Topologie - Seite "Pool zurücksetzen"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: 7a56f502e5e0f6f2747076e5eab423e91d363f20
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 20cea17c618ecab64e9d18668b63dd5d9d2b93b7
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974915"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Veröffentlichen der Topologie - Seite "Pool zurücksetzen"
  
@@ -26,7 +26,4 @@ Zum Hinzufügen neuer Computer zu einem vorhandenen Pool müssen Sie den Pool zu
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Erstellen Sie und veröffentlichen Sie die neue Topologie in Skype für Business Server 2015](../../../deploy/install/create-and-publish-new-topology.md)
-
+[Erstellen Sie und veröffentlichen Sie neue Topologie in Skype für Business Server](../../../deploy/install/create-and-publish-new-topology.md)
