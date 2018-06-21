@@ -3,7 +3,6 @@ title: DFÜ-Zugriff Anzahl Erstellen einer neuen oder Bearbeiten einer vorhanden
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 6080da4f8ee15e707066a68dba58a67f553b74a7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 97bda95c77d667cde2742fbec70cbafc0438aa69
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973496"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Zugriffsnummer für Einwahlkonferenzen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Zugriffsnummer für Einwahlkonferenzen
  

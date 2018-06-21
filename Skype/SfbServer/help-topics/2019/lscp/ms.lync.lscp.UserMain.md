@@ -3,7 +3,6 @@ title: Systemsteuerung - aktualisierte Benutzersuche
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/21/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Die Ergebnisse einer Suchabfrage können Sie Benutzer für Skype für Business Server konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen. Ferner können Sie Benutzer über die Lync Server-Systemsteuerung oder das Snap-In „Active Directory-Benutzer und -Computer“ suchen.
-ms.openlocfilehash: 188c60467f5579a56cd4b5fa85a616f2e4639663
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 6bd837326e70b3712eb478d662cd6b5a41336953
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19971405"
 ---
 # <a name="control-panel---updated-user-search"></a>Systemsteuerung – aktualisiert: Benutzersuche
  
@@ -36,7 +36,7 @@ Auf der Systemsteuerungsseite **Benutzersuche** können Sie die folgenden Aufgab
     
 - [Zuweisen von Richtlinien für Benutzer](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

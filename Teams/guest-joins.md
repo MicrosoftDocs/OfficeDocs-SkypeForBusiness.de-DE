@@ -10,11 +10,12 @@ ms.reviewer: laal
 description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast eingeladen wird, einem Team in Microsoft Teams beizutreten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5887182835258a4ee20884d401a4ee5d311df6ff
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: cb8672168b3f9f249f5f2d538c6f152c9012e29f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969372"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
@@ -25,7 +26,7 @@ Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den De
     
 
 > [!NOTE]
-> Bevor Gäste einem Team beitreten können, muss ein Administrator den Gastzugriff in Teams aktivieren. [Melden Sie sich](https://portal.office.com/adminportal/home) hierfür mit Ihrem globalen Office 365-Administratorkonto an. Wählen Sie dann **Einstellungen** > **Dienste&amp; Add-Ins** > **Microsoft Teams** aus. Wählen Sie unter **Zu konfigurierenden Benutzer-/Lizenztyp auswählen** die Option **Guest** und unter **Microsoft Teams für alle Benutzer dieses Typs aktivieren oder deaktivieren** die Option **Ein** aus. Es kann bis zu einer Stunde dauern, bis diese Einstellungen wirksam werden. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff für Microsoft-Teams](set-up-guests.md). 
+> Bevor Gäste einem Team beitreten können, muss ein Administrator den Gastzugriff in Teams aktivieren. Klicken Sie dazu finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff für Microsoft-Teams](set-up-guests.md). 
   
     
     
@@ -40,9 +41,9 @@ So wird ein Gast Mitglied eines Teams:
   
 - **Schritt 3** Der Gast erhält eine Willkommen-e-Mail vom Teambesitzer mit Informationen zu dem Team und Absicht nun, dass sie Mitglied sind. Gastbenutzer, eine e-Mail-Adresse, die mit einer Azure Active Directory oder Office 365 Arbeit gehört oder Schule Konto, können direkt die Einladung annehmen. Wenn der Gast noch eine ihrer e-Mail-Adresse zugeordneten Microsoft Account vorhanden ist, werden sie einen kostenlos erstellen geleitet. Nach dem akzeptieren die Einladung die Gast können [Teams und Kanäle teilzunehmen](https://support.office.com/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), empfangen und Antworten auf Nachrichten, die [Access-Dateien in der Kanäle](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)channel, Chats teilnehmen, an Besprechungen teilnehmen, Zusammenarbeit an Dokumenten und vieles mehr. 
     
-Bei Verwendung von Teams, übergeben Sie Text und Symbole alle Teammitglieder klar Angabe der Gast Teilnahme an ein Team. Gast den Namen eines Benutzers enthält die Bezeichnung **(Gast)**und ein Kanal enthält ein Symbol, um darauf hinzuweisen, dass Gäste auf das Team vorhanden sind. Weitere Details finden Sie unter [Gastfunktionalität](guest-experience.md).
+Bei Verwendung von Teams, übergeben Sie Text und Symbole alle Teammitglieder klar Angabe der Gast Teilnahme an ein Team. Gast den Namen eines Benutzers enthält die Bezeichnung **(Gast)** und ein Kanal enthält ein Symbol, um darauf hinzuweisen, dass Gäste auf das Team vorhanden sind. Weitere Details finden Sie unter [Gastfunktionalität](guest-experience.md).
   
 Gäste können ein Team jederzeit über Teams-Webclients und -Desktopclients verlassen. Einzelheiten finden Sie unter [Wie verlasse ich ein Team?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> Benutzer können zwar selbst ein Team verlassen, aber nur Administratoren können Benutzer aus dem Mandanten entfernen. 
+> Das Team verlassen entfernen nicht das Gastkonto von der Organisation-Mandanten. Finden Sie [eine Organisation als Gast](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) , selbst aus der Organisationen zu entfernen. Alternativ kann der Organisation Admin Gastbenutzer aus den Mandanten entfernen.

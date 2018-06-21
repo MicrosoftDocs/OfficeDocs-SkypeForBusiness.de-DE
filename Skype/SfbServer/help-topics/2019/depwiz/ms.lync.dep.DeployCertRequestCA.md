@@ -3,7 +3,6 @@ title: Zertifikatsanforderung (Zertifizierungsstelle)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: 'Wenn eine Anforderung an eine Onlinezertifizierungsstelle (CA) zu tätigen (normalerweise sind Server, die im internen Netzwerk) auf der Seite Zertifizierungsstelle (Certification Authority, CA) für die auswählen, werden Sie zwei Optionen angezeigt:'
-ms.openlocfilehash: 6fea8ba9500e1612ff13796f4c58550687baa99a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 0092e29f7cb477686cb873aa7318519d12381f72
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973115"
 ---
 # <a name="certificate-request-certificate-authority"></a>Zertifikatsanforderung (Zertifizierungsstelle)
  

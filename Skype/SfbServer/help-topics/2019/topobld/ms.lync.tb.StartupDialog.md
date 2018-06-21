@@ -3,7 +3,6 @@ title: Topologie-Generator – Startdialogfeld
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,15 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung von Microsoft Lync Server 2013 konfigurieren. Beim Starten zeigt Topology Builder ein Dialogfeld mit der Aufforderung, was die Quelle des Dokuments Topologie sein wird. Wählen Sie eine der drei Optionen zur Verfügung:'
-ms.openlocfilehash: f7e41d99b24f7064bd68f8c8a44565078eba87cf
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: e37fdde74a7bfc3dab0dda94327aaa6198f9854c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966907"
 ---
 # <a name="topology-builder-startup-dialog"></a>Topologie-Generator – Startdialogfeld
  
-Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung von Microsoft Lync Server 2013 konfigurieren. Beim Starten zeigt Topology Builder ein Dialogfeld mit der Aufforderung, was die Quelle des Dokuments Topologie sein wird. Wählen Sie eine der drei Optionen zur Verfügung:
+Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung konfigurieren. Beim Starten zeigt Topology Builder ein Dialogfeld mit der Aufforderung, was die Quelle des Dokuments Topologie sein wird. Wählen Sie eine der drei Optionen zur Verfügung:
   
 - **Herunterladen der Topologie aus einer vorhandenen Bereitstellung** Wählen Sie diese Option, wenn Sie die Topologie-Generator ausgeführt haben und Ihrer Topologie an den zentralen Verwaltungsserver erfolgreich veröffentlicht haben. Diese Option fordert und Downloads für eine lokale Kopie der aktuellen Konfiguration, ermöglicht es Ihnen, bearbeiten und konfigurieren die vorhandene Bereitstellung.
     
@@ -32,9 +32,6 @@ Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihre
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Einführung in Lync Server 2013 Preview](http://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[Einführung in Lync Server 2013](http://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
   
 [Lync Server-Verwaltungstools](http://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
-

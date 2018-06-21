@@ -3,7 +3,6 @@ title: Die Aufzeichnung von Kommunikationsdatensätzen Erstellen einer neuen ode
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 3e097e7051960a24b247e60833c3c0b7ad8d8dfc
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 59e84d4db7a31b0c7ae7fd6630026f55e4d77745
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969449"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Die Aufzeichnung von Kommunikationsdatensätzen: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
  

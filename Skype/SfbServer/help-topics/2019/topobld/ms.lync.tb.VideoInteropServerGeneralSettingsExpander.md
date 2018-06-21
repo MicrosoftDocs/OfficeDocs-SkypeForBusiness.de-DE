@@ -3,7 +3,6 @@ title: Allgemeine Einstellungen für den Video-Interoperabilität-Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
-ms.openlocfilehash: af3bd4e7d03406fd95d8a652483a1e7ec41a2437
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 824e270edc1bcd2add2bc9d4c9fd0aa59fea3c4d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19972672"
 ---
 # <a name="video-interop-server-general-settings"></a>Allgemeine Einstellungen für den Video-Interoperabilität-Server
  
@@ -32,7 +32,4 @@ Die Konfigurationsschritte für einen neuen Video Interop-Server mithilfe von Wi
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Planen der Interop-Videoserver in Skype für Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

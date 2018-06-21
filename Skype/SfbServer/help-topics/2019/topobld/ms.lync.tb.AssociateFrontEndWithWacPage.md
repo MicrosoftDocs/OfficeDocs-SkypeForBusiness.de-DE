@@ -3,7 +3,6 @@ title: Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Der Office Web Apps-Server stellt Dienste wie ein Referent zur Verfügung, der ein Dokument zur Verwendung in einer Besprechung hochlädt, jedoch weitere Funktionen ermöglicht, die in den vorherigen Versionen nicht verfügbar waren.
-ms.openlocfilehash: af9d5667f425309dc097afa62081cedfee02791c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: ea7df7254dc17b3db0107df9d92ba69d8c51b128
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19970661"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
  
@@ -34,7 +34,4 @@ Bei den Optionen in diesem Dialogfeld haben Sie die folgenden Auswahlmöglichkei
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Veröffentlichen von Office Web Apps Server über einen Reverse-Proxyserver](http://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
-

@@ -3,7 +3,6 @@ title: Videogatewaybereich
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
-ms.openlocfilehash: 198f6631cd295f862cc89b064827c7893300ec66
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: c95f68573a7b6bc46765071425d499aa91fb29a1
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964070"
 ---
 # <a name="video-gateway-scope"></a>Videogatewaybereich
  
@@ -32,7 +32,4 @@ Die Konfigurationsschritte für einen neuen Video Interop-Server mithilfe von Wi
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Planen der Interop-Videoserver in Skype für Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

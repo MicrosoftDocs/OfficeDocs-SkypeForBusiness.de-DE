@@ -3,7 +3,6 @@ title: Zertifikatzuweisung (nach Anforderung)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 description: Die Seite Zertifikatzuweisung startet die angeforderten Verwendungen auf dem Server für die Rolle ein Zertifikat zuweisen. Klicken Sie auf das Zertifikat-Details anzeigen, um das Zertifikat anzuzeigen. Wählen Sie die Registerkarte Allgemein, auf der Registerkarte Details oder die Registerkarte Zertifizierungspfad. Die Registerkarte Allgemein zeigt grundlegende Informationen über das Zertifikat, wie die ausstellende Zertifizierungsstelle und den Status eines privaten Schlüssels. Auf der Registerkarte „Details“ werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Die Registerkarte Zertifizierungspfad zeigt die Certificatechain des Trustfrom das Zertifikat über alle ausstellenden oder intermediate Zertifizierungsstellen (Wenn sie vorhanden sind) für das Stammzertifikat der Zertifizierungsstelle.
-ms.openlocfilehash: c90993b1a793a7013a094258be52ca47be54f98f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 22a1a2762e0bde715d41e45f042b1318600666cc
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19969568"
 ---
 # <a name="certificate-assignment-from-request"></a>Zertifikatzuweisung (nach Anforderung)
  

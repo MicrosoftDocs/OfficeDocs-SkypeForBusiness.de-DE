@@ -3,7 +3,6 @@ title: Hinzufügen eines Videogateway-FQDN
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
-description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
-ms.openlocfilehash: d075fe680c87da1b01b1fd0e1ba40d9cf6892947
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator sind online unter Erstellen eines Pools gegenüber in Skype für Business Server beschrieben.
+ms.openlocfilehash: a5980b54eaa8ed8a7e559acafd4208bd039dd8df
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964084"
 ---
 # <a name="add-video-gateway-fqdn"></a>Hinzufügen eines Videogateway-FQDN
  
@@ -32,7 +32,4 @@ Die Konfigurationsschritte für einen neuen Video Interop-Server mithilfe von Wi
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Planen der Interop-Videoserver in Skype für Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

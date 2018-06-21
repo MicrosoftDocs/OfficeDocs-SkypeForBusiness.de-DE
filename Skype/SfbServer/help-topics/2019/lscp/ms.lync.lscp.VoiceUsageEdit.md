@@ -3,7 +3,6 @@ title: PSTN-Verwendung Erstellen einer neuen oder Bearbeiten einer vorhandenen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,19 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 27397fde86c658bd0b6a729a028f48f096459467
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 70c5c6a085187a8664863ea5455440334990a35e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19970381"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN-Verwendung: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
  
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
   
-- [Anzeigen von PSTN-Verwendungseinträge in Skype für Business 2015](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
     
-- [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business 2015](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
     
 - [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
     

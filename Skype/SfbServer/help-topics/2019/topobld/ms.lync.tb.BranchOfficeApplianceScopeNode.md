@@ -3,7 +3,6 @@ title: Filialanwendung  – Bereichsknoten
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), Pools und Server und Resiliency Informationen über diese Survivable Branch Appliance zugeordnet. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 0a4290ad15b9484f7410f8f490c636d45f2def27
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8de93c1041e19f00c7f7f61ce61c3cdd028d540d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964091"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Filialanwendung  – Bereichsknoten
  
