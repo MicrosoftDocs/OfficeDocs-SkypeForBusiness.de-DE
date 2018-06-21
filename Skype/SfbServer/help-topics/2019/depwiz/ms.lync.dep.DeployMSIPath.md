@@ -3,7 +3,6 @@ title: Assistenten Bereitstellungspfad MSI-Installer
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
-description: Weitere Informationen zur Verwendung von Bereitstellungs-Assistenten zum Installieren von Skype für Business Server 2015 finden Sie unter Business Server 2015 Skype installieren.
-ms.openlocfilehash: 62b4e962f2d03cc2f1e8312cf4507a1a71670989
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Weitere Informationen zur Verwendung von Bereitstellungsassistenten Skype für Business Server installieren finden Sie unter Installieren von Skype Business Server.
+ms.openlocfilehash: 58011d8a12339e846ab766795b0e2e9fa8aecc1d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975953"
 ---
-# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="b1051-103">Bereitstellungs-Assistent: Pfad zum MSI-Installer</span><span class="sxs-lookup"><span data-stu-id="b1051-103">Deployment Wizard: Path to MSI installer</span></span>
+# <a name="deployment-wizard-path-to-msi-installer"></a><span data-ttu-id="60e8b-103">Bereitstellungs-Assistent: Pfad zum MSI-Installer</span><span class="sxs-lookup"><span data-stu-id="60e8b-103">Deployment Wizard: Path to MSI installer</span></span>
  
-<span data-ttu-id="b1051-104">Weitere Informationen zur Verwendung von Bereitstellungs-Assistenten zum Installieren von Skype für Business Server 2015 finden Sie unter [Installieren von Skype für Business Server 2015](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="b1051-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="60e8b-104">Weitere Informationen zur Verwendung von Bereitstellungsassistenten Skype für Business Server installieren finden Sie unter [Skype für Business Server installieren](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="60e8b-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 
