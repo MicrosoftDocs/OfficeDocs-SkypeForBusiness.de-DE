@@ -3,7 +3,6 @@ title: Bearbeiten von Hybridbenutzer-Assistenten
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 description: Verwenden Sie den Assistenten zum Bearbeiten von Benutzern, um die Benutzerkonten in Ihrer Bereitstellung zu ändern. Weitere Informationen finden Sie unter Hybrid Verwaltbarkeit Assistenten verwenden.
-ms.openlocfilehash: 8998aad096fab793a70f9d26c6b9f987f4ef08ed
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8ec062fbb1edd09ebafc047470788826ef824ec4
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997045"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Hybrid-Assistent: Bearbeiten von Benutzern
  

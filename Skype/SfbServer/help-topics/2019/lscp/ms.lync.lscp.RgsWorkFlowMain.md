@@ -3,7 +3,6 @@ title: Workflow für reaktionsgruppen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows. Workflows für Reaktionsgruppen definieren die Aktionen, die ausgeführt werden, wenn die Anwendung "Reaktionsgruppe" einen Telefonanruf empfängt.
-ms.openlocfilehash: 1ba3d977aca60e40a5ba09f75a31dfe8f569e4c9
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 6af4d40b75ae090cd3e99746ea111e3d804aed60
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997024"
 ---
 # <a name="response-groups-workflow"></a>Workflow für reaktionsgruppen
  
@@ -56,6 +56,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
     
 - **Aktiviert** Gibt an, ob der Workflow Anrufe aktiviert ist.
     
-Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Workflows für Reaktionsgruppen finden Sie unter [Verwalten von Reaktionsgruppenworkflows](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in der Betriebsdokumentation.
+Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Ausführliche Informationen zur Verwendung von Workflows für Reaktionsgruppen finden Sie unter [Verwalten von Reaktionsgruppenworkflows](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in der Betriebsdokumentation.
   
 
