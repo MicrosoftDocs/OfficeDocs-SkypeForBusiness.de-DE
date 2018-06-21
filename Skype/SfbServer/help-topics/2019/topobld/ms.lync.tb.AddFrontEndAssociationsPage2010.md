@@ -3,7 +3,6 @@ title: Hinzufügen von Front-End-Zuordnungen – 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 'Sie können die Unterstützung für bestimmte Features aktivieren, die die Bereitstellung von anderen Servern erfordern, durch die Server-Rollen mit dem Front-End-Pool zu diesem Zeitpunkt zuordnen. Sie können Serverrollen auch zu einem späteren Zeitpunkt dem Front-End-Pool zuordnen. Die folgenden Serverrollen können einem Front-End-Pool zugeordnet werden:'
-ms.openlocfilehash: 74cf2ca8e04043d9cf6556bc220b42502e014a07
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8362b2989b9845ba070af30cca0fd3bad19674fb
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990639"
 ---
 # <a name="add-front-end-associations-2010"></a>Hinzufügen von Front-End-Zuordnungen – 2010
  

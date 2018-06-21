@@ -3,7 +3,6 @@ title: Hinzufügen des SQL Server-Konformitätssicherungsspeichers für den best
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Sie konfigurieren die Sicherung Compliance, den SQL Server-Speicher, die Sicherungsdatenbanken für Persistent Chat-Server bereitstellen oder Persistent Chat Server Compliance, den SQL Server-Speicher.
-ms.openlocfilehash: 7143ecdc51caf941196f1499e9cc1dc35764b0d3
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 5dd121facf9008cb1698b0b9ee46eb0dbaa76afa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987375"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Hinzufügen des SQL Server-Konformitätssicherungsspeichers für den beständigen Chat
  
@@ -46,8 +46,6 @@ Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite)
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Planen Sie für Persistent Chatserver in Skype für Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Serveranforderungen für Skype für Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
@@ -57,4 +55,3 @@ Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite)
 [Konfigurieren des kompatibilitätsdiensts für Persistent Chat Server in Skype für Business Server 2015](../../../manage/persistent-chat/configure-compliance.md)
   
 [Konfigurieren von hoher Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-

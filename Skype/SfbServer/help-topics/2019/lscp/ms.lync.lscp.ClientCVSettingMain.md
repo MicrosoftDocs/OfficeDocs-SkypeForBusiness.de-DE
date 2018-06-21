@@ -1,9 +1,8 @@
 ---
 title: Clientversionskonfiguration
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: Zusätzlich zur Angabe der Version des Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie eine Standardaktion für Clients angeben, die noch keine Versionsrichtlinie definiert haben. So können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, das Sie zum Steuern der Kosten aufgrund der Unterstützung mehrerer Clientversionen hilfreich sein können.
-ms.openlocfilehash: 4b5f76d17c92d0dd478aa9a1a3fe902ccbf35c48
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f40a95956b2cee855dbdde0d9646afc44e187958
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990730"
 ---
 # <a name="client-version-configuration"></a>Clientversionskonfiguration
  
@@ -51,5 +51,5 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
 - **Aktualisieren** Sie können die Liste der Client-Version-Konfiguration zum Überprüfen des Status der Optionen aller clientversionskonfigurationen aktualisieren.
     
-Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability in Lync 2013 Preview](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von clientversionskonfigurationen finden Sie unter [Ändern der Standardaktion für Clients nicht explizit unterstützt oder eingeschränkt](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von clientversionskonfigurationen finden Sie unter [Ändern der Standardaktion für Clients nicht explizit unterstützt oder eingeschränkt](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in der Betriebsdokumentation.
 

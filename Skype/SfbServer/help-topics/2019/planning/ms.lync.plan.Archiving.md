@@ -3,7 +3,6 @@ title: Archivierung (Planungstool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -13,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: Archivierung in Skype für Business Server bietet eine Möglichkeit zur Kommunikation zu archivieren, die über Skype für Business Server gesendet werden.
-ms.openlocfilehash: df8346a27e9c61cf3f081401846810c4e35df2fe
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 77f7710492e5e251c30c8701fab4a7dc14b7530c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19989944"
 ---
 # <a name="archiving-planning-tool"></a>Archivierung (Planungstool)
  

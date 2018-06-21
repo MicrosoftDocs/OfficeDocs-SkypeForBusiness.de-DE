@@ -3,7 +3,6 @@ title: Mediation Server Allgemeine Einstellungen – Erweiterung für Lync Serve
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Sie können die Eigenschaften der Mediation Server in diesem Dialogfeld bearbeiten. Auf der linken Seite ist eine Reihe von Quicklinks zu gelangen Sie zur Einstellungen für allgemeine Einstellungen, die Einstellungen für den nächsten Hop und Einstellungen für PSTN-Gateway. In jedem Abschnitt sind die folgenden Einstellungen:'
-ms.openlocfilehash: bc5016c9dbeb6b0693444f930c9883b1736258d2
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 39e9f57efd695c7bb90386dddc3f106106bb867e
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990975"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Mediation Server Allgemeine Einstellungen – Erweiterung für Lync Server 2010
  
@@ -45,9 +45,6 @@ Sie können die Eigenschaften der Mediation Server in diesem Dialogfeld bearbeit
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Übersicht über SIP-Trunking](http://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
   
 [Bereitstellungsoptionen für PSTN-Gateway](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
-

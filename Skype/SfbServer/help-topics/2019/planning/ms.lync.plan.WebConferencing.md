@@ -3,7 +3,6 @@ title: Webkonferenzen (Planungstool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,19 +11,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: Skype für Webkonferenzen Business Server 2015 enthält Zusammenarbeit an Dokumenten, Anwendungsfreigabe und Desktopfreigabe.
-ms.openlocfilehash: 1e2863895e9e0666381d6095e5846456029205b7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Skype für Webkonferenzen Business Server umfasst die Zusammenarbeit an Dokumenten, Anwendungsfreigabe und Desktopfreigabe.
+ms.openlocfilehash: 9f375f280ec43d90bcab7ded65e0ce0c08562a0d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19989083"
 ---
 # <a name="web-conferencing-planning-tool"></a>Webkonferenzen (Planungstool)
  
-Skype für Webkonferenzen Business Server 2015 enthält Zusammenarbeit an Dokumenten, Anwendungsfreigabe und Desktopfreigabe.
+Skype für Webkonferenzen Business Server umfasst die Zusammenarbeit an Dokumenten, Anwendungsfreigabe und Desktopfreigabe.
   
 > [!NOTE]
-> Skype für Business Server 2015 verwendet Office Web Apps und Office Web Apps Server Freigabe verarbeiten und Rendern von PowerPoint-Präsentationen. Webkonferenzfeatures funktionieren genau wie in Microsoft Lync 2013. Ausführliche Informationen zum Installieren und Konfigurieren von Office Web Apps-Server finden Sie unter [Konfigurieren von Integration mit Office Web Apps Server und Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
+> Skype für Business Server verwendet Office Web Apps und Office Web Apps Server Freigabe verarbeiten und Rendern von PowerPoint-Präsentationen. Webkonferenzfeatures funktionieren genau wie in Microsoft Lync 2013. Ausführliche Informationen zum Installieren und Konfigurieren von Office Web Apps-Server finden Sie unter [Konfigurieren von Integration mit Office Web Apps Server und Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
   
 Ausführliche Informationen zur Planung der Aktivierung von Webkonferenzen in Ihrer Organisation finden Sie in den folgenden Themen: 
   

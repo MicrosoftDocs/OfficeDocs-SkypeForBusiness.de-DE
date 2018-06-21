@@ -3,7 +3,6 @@ title: Zertifikatliste
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: Wenn Sie ein Zertifikat zuweisen möchten, wählen Sie im lokalen Zertifikatspeicher ein Zertifikat aus. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 268d2215aa0a56bc8c86243d99b345831b8d42d1
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f9e1a37054206375eacf0fa4287e8148745fbcf0
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19992027"
 ---
 # <a name="certificate-list"></a>Zertifikatliste
  

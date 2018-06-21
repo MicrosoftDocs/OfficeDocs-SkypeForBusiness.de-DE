@@ -3,7 +3,6 @@ title: ERFOLGREICHES festlegen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: Um e-Mail verwenden, um die PIN für den Benutzer zu senden, klicken Sie auf Öffnen Meine e-Mail-Anwendung auf die neue PIN an den Benutzer zu senden. Wählen Sie PIN anzeigen, um die PIN-Nummer in der e-Mail-Nachricht zu kopieren.
-ms.openlocfilehash: 88c1d74af401dea9ebfd9f3e1207605de41691df
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 8c99b3ea4ee489ded500cf4b6cde0fbcf71d0063
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991115"
 ---
 # <a name="pin-set-successfully"></a>ERFOLGREICHES festlegen
  

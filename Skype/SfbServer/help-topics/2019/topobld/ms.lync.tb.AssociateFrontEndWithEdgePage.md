@@ -3,7 +3,6 @@ title: Zuordnen des Front-Ends zur Edgekomponente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: Jedem Front-End-Pool kann nur ein Edgeserver bzw. Edgepool zugeordnet werden. Wenn Sie für einen Standort den Zugriff externer Benutzer aktivieren, können Sie Unterstützung für Remotebenutzer bereitstellen. Sie können auch Unterstützung für Partnerbenutzer, z. B. für Benutzer öffentlicher Instant Messaging-Dienste wie Windows Live sowie für anonyme Benutzer aktivieren.
-ms.openlocfilehash: ab8ee5ae7ca44b6b4aa70b355cf9d406f69e64f7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b4faaf7e6708af6b369846391087ac35742e1d42
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987340"
 ---
 # <a name="associate-front-end-with-edge"></a>Zuordnen des Front-Ends zur Edgekomponente
  

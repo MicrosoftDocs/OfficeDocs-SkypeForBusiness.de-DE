@@ -3,7 +3,6 @@ title: Aufzeichnung von kommunikationsdatensätzen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 28f418a3f37a405599cac4044529f8e6c756f5ba
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 15bb329f74060aecfa5e7e2c357ca9bd0eba1833
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987466"
 ---
 # <a name="call-detail-recording"></a>Aufzeichnung von kommunikationsdatensätzen
  

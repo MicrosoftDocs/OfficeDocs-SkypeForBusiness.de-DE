@@ -1,26 +1,26 @@
 ---
-title: Verschieben von Dateispeicherdaten in einen neuen Dateispeicher in Skype for Business Server 2015
+title: Move-Dateispeicherdaten in einen neuen Dateispeicher in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/30/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 'Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Dateispeicher für Ihre Skype für die Bereitstellung von Business Server 2015 ist oder wenn Sie andere vornehmen müssen Änderungen, die die aktuelle Datei vornehmen würden nicht verfügbar speichern, müssen Sie zuerst eine neue Freigabe erstellen. Dann müssen Sie folgende Schritte ausführen:'
-ms.openlocfilehash: 0fe535bef6878406f60560a256d6c89f91b91375
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Wenn müssen Sie den Dateiserver entfernen, der derzeit fungiert als den Dateispeicher für Ihre Skype für Business Server-Bereitstellung ist oder wenn Sie andere vornehmen müssen Änderungen, die die aktuelle Datei vornehmen würden nicht verfügbar speichern, müssen Sie zuerst eine neue Freigabe erstellen. Dann müssen Sie folgende Schritte ausführen:'
+ms.openlocfilehash: fd8869a7cd0ca5f29d839de373e3e7d2f3d76faa
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988271"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Verschieben von Dateispeicherdaten in einen neuen Dateispeicher in Skype for Business Server 2015
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Move-Dateispeicherdaten in einen neuen Dateispeicher in Skype für Business Server
  
-Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Dateispeicher für Ihre Skype für die Bereitstellung von Business Server 2015 ist oder wenn Sie andere vornehmen müssen Änderungen, die die aktuelle Datei vornehmen würden nicht verfügbar speichern, müssen Sie zuerst eine neue Freigabe erstellen. Dann müssen Sie folgende Schritte ausführen:
+Wenn müssen Sie den Dateiserver entfernen, der derzeit fungiert als den Dateispeicher für Ihre Skype für Business Server-Bereitstellung ist oder wenn Sie andere vornehmen müssen Änderungen, die die aktuelle Datei vornehmen würden nicht verfügbar speichern, müssen Sie zuerst eine neue Freigabe erstellen. Dann müssen Sie folgende Schritte ausführen:
   
-1. Fahren Sie den Skype für Business Server 2015 Dienste, die den Dateispeicher zu verwenden, den Sie entfernen möchten.
+1. Fahren Sie den Skype für Business Server-Dienste, die den Dateispeicher zu verwenden, den Sie entfernen möchten.
     
 2. Definieren Sie des Dateispeichers im Topologie-Generator, und veröffentlichen Sie die Änderungen der neuen Dateispeicher für Ihre Bereitstellung zur Verfügung zu stellen.
     
@@ -32,7 +32,7 @@ Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Date
     
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>So verschieben Sie Dateispeicherdaten von einem Dateispeicher in einen neuen Dateispeicher
 
-1. Melden Sie sich an einem Computer als Mitglied der Gruppe RTCUniversersalServerAdmins oder CsServerAdministrator, auf dem die Skype für Business Server 2015, Verwaltungstools installiert sind.
+1. Melden Sie sich an einem Computer als Mitglied der Gruppe RTCUniversersalServerAdmins oder CsServerAdministrator, auf dem die Skype für Business Server Administrative Tools installiert sind.
     
 2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
@@ -42,7 +42,7 @@ Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Date
     
 5. Melden Sie sich auf dem Computer, auf dem der Topologie-Generator installiert ist, als Mitglied der Gruppe "Domänen-Admins" oder "RTCUniversalServerAdmins" an.
     
-6. Starten des Topologie-Generators: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype für Business Server 2015**, und klicken Sie dann auf **Skype für Business Server 2015Topology-Generator**.
+6. Starten des Topologie-Generators: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype für Business Server**, und klicken Sie dann auf **Skype für Business Server-Topologie-Generator**.
     
 7. Wählen Sie einen Server oder Pool aus, der den Dateispeicher verwendet, und gehen Sie wie folgt vor:
     
@@ -69,7 +69,6 @@ Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Date
     
   ```
   Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
   ```
 
     > [!TIP]
@@ -85,9 +84,6 @@ Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Date
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Erneutes Zuweisen eines Servers auf einen anderen Dateispeicher](http://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
   
 [Entfernen eines Dateispeichers](http://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

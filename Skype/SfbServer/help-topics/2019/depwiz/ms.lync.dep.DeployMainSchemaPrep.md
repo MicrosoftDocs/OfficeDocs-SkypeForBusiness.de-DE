@@ -3,7 +3,6 @@ title: Vorbereiten des Schemas
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Führen Sie zur Vorbereitung des Schemas für Active Directory Domain Services im Schema vorbereiten Schritt in der Skype für Business Server-Bereitstellungs-Assistenten auf. Klicken Sie auf Ausführen, um die Vorbereitung des Schemas beginnen. Der Schritt Schema vorbereiten liest Definitionsdateien bereitgestellte Schema in das Verzeichnis/Program Files/Microsoft Lync Server 2013/Bereitstellung/Setup auf dem System, das den Bereitstellungs-Assistenten ausgeführt wird. Diese Dateien sind auch verfügbar, auf dem Installationsmedium im Verzeichnis Support-Schema. Der Schritt „Schema vorbereiten“ dient zum Erweitern des Schemas und zum Melden des Prozessstatus. Ferner wird in diesem Schritt der Abschluss des Prozesses gemeldet. Auf dem Zusammenfassungsbildschirm können Sie die Protokolle des Prozesses überprüfen. Vergewissern Sie sich mithilfe der Protokolle, dass die Vorbereitung erfolgreich abgeschlossen wurde.
-ms.openlocfilehash: 190ee654984916e1f3417769ea65863f82566853
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7aea3a6f99182ba164d27e95ca2f34296d45c831
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987711"
 ---
 # <a name="prepare-schema"></a>Vorbereiten des Schemas
  
@@ -25,7 +25,7 @@ Führen Sie zur Vorbereitung des Schemas für Active Directory Domain Services i
 > [!IMPORTANT]
 > Zum Erweitern des Schemas müssen Sie bei der Domäne als Mitglied der Gruppen „Schema-Admins“ und „Organisations-Admins“ angemeldet sein. 
   
-Zum Erweitern des Schemas Active Directory Domain Services zur Unterstützung von Skype für Business Server 2015 Server Service und User-Objekte werden Klassen und Attribute hinzugefügt. Vor dem Erweitern des Schemas müssen Sie eine Systemstatussicherung des Domänencontrollers mit der Schemamasterrolle ausführen. Ausführliche Informationen zu den Sicherungsvorgang für Windows Server 2008 R2 mit SP1, finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198). Windows Server 2003 und Windows Server 2003 R2 finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199).
+Zum Erweitern des Schemas Active Directory Domain Services zur Unterstützung von Skype für Business Server Server-Dienst und User-Objekte werden Klassen und Attribute hinzugefügt. Vor dem Erweitern des Schemas müssen Sie eine Systemstatussicherung des Domänencontrollers mit der Schemamasterrolle ausführen. Ausführliche Informationen zu den Sicherungsvorgang für Windows Server 2008 R2 mit SP1, finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198). Windows Server 2003 und Windows Server 2003 R2 finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199).
   
 > [!CAUTION]
 > Das Erweitern des Schemas ist nicht umkehrbar. Versuchen Sie immer, die potenziellen Auswirkungen einer fehlerhaften Schemaerweiterung einzudämmen und sicherzustellen, dass die Erweiterung des Schemas erfolgreich ist. Dies ist besonders bei einem Ausfall der Kommunikation oder einem anderen Ausfall auf dem Server wichtig. Sie sollten eine Sicherung der Schemamaster-Domänencontroller und eine vollständige Sicherung von Active Directory ausführen. 
