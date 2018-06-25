@@ -24,11 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: 5a8ccbda886b72b0ad960a92152d37d68784197d
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: d4fd54348cf1897a60c235f3f4fa408c051b3f0b
+ms.sourcegitcommit: 18ae1505642e985f7fb62d2e70e37e8489b5ef15
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/25/2018
+ms.locfileid: "20034646"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -124,7 +125,7 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Wenn Sie ein Arbeitsblatt mit allen Ländern und Regionen, suchen herunterladen und speichern Sie die [Cloud VoIP-Feature Land/Region Verfügbarkeit Spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-05042018)-(en-us).xlsx?raw=true)**.
+**Wenn Sie ein Arbeitsblatt mit allen Ländern und Regionen, suchen herunterladen und speichern Sie die [Cloud VoIP-Feature Land/Region Verfügbarkeit Spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-06252018)-(en-us).xlsx?raw=true)**.
 
 ***
 
