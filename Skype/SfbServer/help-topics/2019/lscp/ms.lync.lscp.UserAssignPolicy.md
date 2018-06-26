@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: d5b283658b0e38efb0c0e153e9058578f31be056
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cf071e29a12aca3f52deed997e2767ecb5e8426b
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992111"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045274"
 ---
 # <a name="users-assign-policies"></a>Benutzer: Zuweisen von Richtlinien
  
@@ -26,7 +26,7 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
     
 - [Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server 2015](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
@@ -40,5 +40,5 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
     
 - [Zuweisen einer Richtlinie für beständigen Chat pro Benutzer](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
+ 
 

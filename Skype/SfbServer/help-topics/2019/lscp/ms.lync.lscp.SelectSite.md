@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Verwenden der auswählen klicken Sie im Dialogfeld Website in Ihrer Umgebung verfügbaren Websites suchen. Um eine vorhandene Website verwenden möchten, klicken Sie auf einer Website in der Liste, und klicken Sie dann auf OK.
-ms.openlocfilehash: 7aba1089d73188c2d65771a87f01a20f93c48c4a
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 7ebf146d6887ec0f2fafc8655c6d448fbd0573fb
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044109"
 ---
 # <a name="select-a-site"></a>Auswählen eines Standorts
  
@@ -25,7 +26,7 @@ Im Dialogfeld **Standort auswählen** suchen Sie nach den in Ihrer Umgebung verf
 > [!NOTE]
 > Zum Abrufen aller verfügbaren Standorte geben Sie im Suchfeld keine Suchzeichenfolge ein und klicken Sie dann auf das Suchsymbol. 
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
@@ -35,7 +36,7 @@ Auf der Seite **Standort auswählen** können Sie die folgenden Aufgaben ausfüh
     
 - [Erstellen einer Standortrichtlinie für Persistent Chat](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>So konfigurieren Sie Optionen für beständigen Chat Global
 

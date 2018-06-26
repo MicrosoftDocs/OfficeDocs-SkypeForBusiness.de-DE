@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'Topologie: Statusseite zeigt den Status der Server in Ihrer Skype für Business-Topologie.'
-ms.openlocfilehash: c225e4a4c3b448f37467096f417a6e27954baa86
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 59bb21d2b7199f40a991b2e42768f6c29dd41e11
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974064"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046277"
 ---
 # <a name="topology-status"></a>Topologie: Status
  
@@ -34,6 +34,6 @@ Auf der Seite **Topologie**: **Status** können Sie die folgenden Aufgaben ausf�
     
 - [Verhindern Sie neuer Verbindungen mit Diensten](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
+ 
   
 

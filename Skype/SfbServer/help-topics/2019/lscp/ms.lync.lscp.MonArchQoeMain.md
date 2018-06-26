@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 1a2482e259000d290ce62564358d64702d03e693
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 0d0108cef812dd6eea72bb7a0fef9fb5c7723298
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997066"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044137"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Daten Quality of Experience (QoE)
  
@@ -28,5 +28,5 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
     
 - [Erstellen von Quality of Experience-Konfigurationseinstellungen in Skype für Business Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
+ 
 

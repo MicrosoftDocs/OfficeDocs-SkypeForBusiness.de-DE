@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: Wenn die Änderungen nicht abgeschlossen werden konnten, lesen Sie die Meldungen in diesem Dialogfeld, ändern Sie Ihre VoIP-Routingkonfiguration, und versuchen Sie es erneut.
-ms.openlocfilehash: 35bfd4298e4dc88555a1f2518a7d96e2517540fe
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e098b3e5eb6ad7e64e0c5587307c34924657d64a
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967691"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044053"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>VoIP-Routing: Status von übernommenen Änderungen für VoIP-Routingkonfiguration
  
 Wenn die Änderungen nicht abgeschlossen werden konnten, lesen Sie die Meldungen in diesem Dialogfeld, ändern Sie Ihre VoIP-Routingkonfiguration, und versuchen Sie es erneut.
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
+ 
   
 

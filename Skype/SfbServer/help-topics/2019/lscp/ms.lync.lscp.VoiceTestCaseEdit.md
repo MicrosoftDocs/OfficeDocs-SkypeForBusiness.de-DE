@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: f0b2783ca887d7b465e8ba6f82020d0f0fa58e97
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 268010c1c9002faecb39d7df5ce4adc695f1218b
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989860"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043962"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>VoIP-Routing testen: Erstellen Sie einer neuen oder bearbeiten Sie vorhandener Testfälle
  
@@ -26,5 +26,5 @@ Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
     
 - [Ausführen von Testfällen für die VoIP-Routing](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
     
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).
+ 
 
