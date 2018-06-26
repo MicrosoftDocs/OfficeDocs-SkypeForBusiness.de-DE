@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 9208bc2d48770e2a66706a64f9bc3aa4b24ee649
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aeb75a8c87401a3fd42138597d4ebbba2fbe4772
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992167"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045568"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="644d6-104">Übersetzungsregel: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="644d6-104">Translation Rule: Create New or Edit Existing</span></span>
+# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="e3ec0-104">Übersetzungsregel: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="e3ec0-104">Translation Rule: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="644d6-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="644d6-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="e3ec0-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="e3ec0-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="644d6-107">Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="644d6-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="e3ec0-107">Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="e3ec0-107">Create or modify a translation rule for called ID presentation in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
-- [<span data-ttu-id="644d6-108">Manuelles Erstellen oder Ändern einer Übersetzungsregel</span><span class="sxs-lookup"><span data-stu-id="644d6-108">Create or Modify a Translation Rule Manually</span></span>](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="e3ec0-108">Manuelles Erstellen oder Ändern einer Übersetzungsregel</span><span class="sxs-lookup"><span data-stu-id="e3ec0-108">Create or Modify a Translation Rule Manually</span></span>](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
     
-<span data-ttu-id="644d6-109">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="644d6-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 

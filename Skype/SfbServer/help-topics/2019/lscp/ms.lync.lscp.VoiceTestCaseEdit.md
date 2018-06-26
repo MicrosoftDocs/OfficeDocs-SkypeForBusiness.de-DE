@@ -11,20 +11,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: f0b2783ca887d7b465e8ba6f82020d0f0fa58e97
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 268010c1c9002faecb39d7df5ce4adc695f1218b
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989860"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043962"
 ---
-# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a><span data-ttu-id="6f455-103">VoIP-Routing testen: Erstellen Sie einer neuen oder bearbeiten Sie vorhandener Testfälle</span><span class="sxs-lookup"><span data-stu-id="6f455-103">Test Voice Routing: Create New or Edit Existing Test Cases</span></span>
+# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a><span data-ttu-id="cca17-103">VoIP-Routing testen: Erstellen Sie einer neuen oder bearbeiten Sie vorhandener Testfälle</span><span class="sxs-lookup"><span data-stu-id="cca17-103">Test Voice Routing: Create New or Edit Existing Test Cases</span></span>
  
-<span data-ttu-id="6f455-104">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="6f455-104">What do you want to do?</span></span> <span data-ttu-id="6f455-105">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.)</span><span class="sxs-lookup"><span data-stu-id="6f455-105">Click the link to the task that you want to perform.)</span></span>
+<span data-ttu-id="cca17-104">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="cca17-104">What do you want to do?</span></span> <span data-ttu-id="cca17-105">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.)</span><span class="sxs-lookup"><span data-stu-id="cca17-105">Click the link to the task that you want to perform.)</span></span>
   
-- [<span data-ttu-id="6f455-106">Erstellen einer VoIP-Routing Testfall</span><span class="sxs-lookup"><span data-stu-id="6f455-106">Create a Voice Routing Test Case</span></span>](http://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [<span data-ttu-id="cca17-106">Erstellen einer VoIP-Routing Testfall</span><span class="sxs-lookup"><span data-stu-id="cca17-106">Create a Voice Routing Test Case</span></span>](http://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
     
-- [<span data-ttu-id="6f455-107">Ausführen von Testfällen für die VoIP-Routing</span><span class="sxs-lookup"><span data-stu-id="6f455-107">Run Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [<span data-ttu-id="cca17-107">Ausführen von Testfällen für die VoIP-Routing</span><span class="sxs-lookup"><span data-stu-id="cca17-107">Run Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
     
-<span data-ttu-id="6f455-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="6f455-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 
