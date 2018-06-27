@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 description: Verwenden Sie die auswählen aus Active Directory-Dialogfeld, um Kontakte suchen, die Sie für Skype für Unternehmen aktivieren möchten. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Kontakts ein, nach dem gesucht werden soll. Wenn Sie alle verfügbaren Kontakte abrufen möchten, geben Sie im Suchfeld keine Suchzeichenfolge ein.
-ms.openlocfilehash: f01ad28d128245e2edafb490d37eb0929d012334
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3861b5e659c113bff50fcc3d163535ee635f5dbb
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970521"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049156"
 ---
-# <a name="select-contacts-from-active-directory"></a><span data-ttu-id="b4063-105">Auswählen von Kontakten aus Active Directory</span><span class="sxs-lookup"><span data-stu-id="b4063-105">Select Contacts from Active Directory</span></span>
+# <a name="select-contacts-from-active-directory"></a><span data-ttu-id="4023d-105">Auswählen von Kontakten aus Active Directory</span><span class="sxs-lookup"><span data-stu-id="4023d-105">Select Contacts from Active Directory</span></span>
  
-<span data-ttu-id="b4063-106">Verwenden Sie das Dialogfeld **aus Active Directory auswählen** , um Kontakte suchen, die Sie für Skype für Unternehmen aktivieren möchten.</span><span class="sxs-lookup"><span data-stu-id="b4063-106">Use the **Select from Active Directory** dialog box to find contacts who you want to enable for Skype for Business.</span></span> <span data-ttu-id="b4063-107">Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Kontakts ein, nach dem gesucht werden soll.</span><span class="sxs-lookup"><span data-stu-id="b4063-107">In the search box, type the SIP address or display name of the contact you want to find.</span></span> <span data-ttu-id="b4063-108">Wenn Sie alle verfügbaren Kontakte abrufen möchten, geben Sie im Suchfeld keine Suchzeichenfolge ein.</span><span class="sxs-lookup"><span data-stu-id="b4063-108">To retrieve all available contacts, do not type anything in the search box.</span></span>
+<span data-ttu-id="4023d-106">Verwenden Sie das Dialogfeld **aus Active Directory auswählen** , um Kontakte suchen, die Sie für Skype für Unternehmen aktivieren möchten.</span><span class="sxs-lookup"><span data-stu-id="4023d-106">Use the **Select from Active Directory** dialog box to find contacts who you want to enable for Skype for Business.</span></span> <span data-ttu-id="4023d-107">Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Kontakts ein, nach dem gesucht werden soll.</span><span class="sxs-lookup"><span data-stu-id="4023d-107">In the search box, type the SIP address or display name of the contact you want to find.</span></span> <span data-ttu-id="4023d-108">Wenn Sie alle verfügbaren Kontakte abrufen möchten, geben Sie im Suchfeld keine Suchzeichenfolge ein.</span><span class="sxs-lookup"><span data-stu-id="4023d-108">To retrieve all available contacts, do not type anything in the search box.</span></span>
   
-<span data-ttu-id="b4063-109">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b4063-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
   
 
