@@ -80,9 +80,6 @@
 ## [Einrichten von Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
 
-
-
-
 # [Gastzugriff](guest-access.md)
 ## [Beitritt eines Gasts zu einem Team](guest-joins.md)
 ## [Gastfunktionalität](guest-experience.md)
@@ -213,6 +210,13 @@
 ### [Einrichten von Voicemail für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Was sind automatische Telefonzentralen für das Telefonsystem?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
+## Telefon System direkten Routing
+### [Planen der direkten Routing](direct-routing-plan.md)
+### [Konfigurieren der Weiterleitung von direkten](direct-routing-configure.md)
+### [Migrieren zu direkten Routing](direct-routing-migrating.md)
+### [Benutzerkonten in einer hybridumgebung mit PSTN-Anbindung](direct-routing-user-accounts-in-a-hybrid-environment.md)
+### [Konfigurieren eines Session Border Controller für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
+### [Session Border Controller für die direkte Weiterleitung zertifiziert](direct-routing-border-controllers.md)
 
 # Sicherheit und Compliance
 ## [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md)
