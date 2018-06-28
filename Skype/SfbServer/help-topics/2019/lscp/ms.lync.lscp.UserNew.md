@@ -11,42 +11,42 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 80952cec03913db1576cec5a6c7b8345ff6aad94
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 2a45181b15fa3bb2a4766491e193a9770193e47b
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049093"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088518"
 ---
-# <a name="users-new-lync-server-user"></a><span data-ttu-id="b6e9a-104">Benutzer: Neuer Lync Server-Benutzer</span><span class="sxs-lookup"><span data-stu-id="b6e9a-104">Users: New Lync Server User</span></span>
+# <a name="users-new-lync-server-user"></a><span data-ttu-id="8e946-104">Benutzer: Neuer Lync Server-Benutzer</span><span class="sxs-lookup"><span data-stu-id="8e946-104">Users: New Lync Server User</span></span>
  
-<span data-ttu-id="b6e9a-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="b6e9a-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="8e946-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="8e946-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="b6e9a-107">Hinzufügen eines neuen Benutzers zu Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="b6e9a-107">Add a New User to Lync Server 2010</span></span>](http://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
+- [<span data-ttu-id="8e946-107">Hinzufügen eines neuen Benutzers</span><span class="sxs-lookup"><span data-stu-id="8e946-107">Add a New User</span></span>](http://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
     
-- [<span data-ttu-id="b6e9a-108">Aktivieren oder Deaktivieren von Benutzern für Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="b6e9a-108">Enable or Disable Users for Lync Server 2010</span></span>](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [<span data-ttu-id="8e946-108">Aktivieren oder Deaktivieren von Benutzern</span><span class="sxs-lookup"><span data-stu-id="8e946-108">Enable or Disable Users</span></span>](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [<span data-ttu-id="b6e9a-109">Zuweisen einer Konferenzrichtlinie zum Ändern der standardmäßigen Besprechungseinstellungen für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="b6e9a-109">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="8e946-109">Zuweisen einer Konferenzrichtlinie zum Ändern der standardmäßigen Besprechungseinstellungen für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="8e946-109">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     
-- [<span data-ttu-id="b6e9a-110">Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen</span><span class="sxs-lookup"><span data-stu-id="b6e9a-110">Specify Client Versions Supported for Sign-in by a User</span></span>](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="8e946-110">Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen</span><span class="sxs-lookup"><span data-stu-id="8e946-110">Specify Client Versions Supported for Sign-in by a User</span></span>](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [<span data-ttu-id="b6e9a-111">Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="b6e9a-111">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [<span data-ttu-id="8e946-111">Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="8e946-111">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
     
-- [<span data-ttu-id="b6e9a-112">Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer</span><span class="sxs-lookup"><span data-stu-id="b6e9a-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="8e946-112">Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer</span><span class="sxs-lookup"><span data-stu-id="8e946-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
-- [<span data-ttu-id="b6e9a-113">Konfigurieren der Archivierung der Benutzerkommunikation</span><span class="sxs-lookup"><span data-stu-id="b6e9a-113">Configure Archiving of a User's Communications</span></span>](http://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="8e946-113">Konfigurieren der Archivierung der Benutzerkommunikation</span><span class="sxs-lookup"><span data-stu-id="8e946-113">Configure Archiving of a User's Communications</span></span>](http://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
     
-- [<span data-ttu-id="b6e9a-114">Zuweisen einer Ortungsrichtlinie zu einem Benutzer</span><span class="sxs-lookup"><span data-stu-id="b6e9a-114">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="8e946-114">Zuweisen einer Ortungsrichtlinie zu einem Benutzer</span><span class="sxs-lookup"><span data-stu-id="8e946-114">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-- [<span data-ttu-id="b6e9a-115">Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="b6e9a-115">Enable users for Enterprise Voice in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [<span data-ttu-id="8e946-115">Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="8e946-115">Enable users for Enterprise Voice in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
-- [<span data-ttu-id="b6e9a-116">Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer</span><span class="sxs-lookup"><span data-stu-id="b6e9a-116">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="8e946-116">Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer</span><span class="sxs-lookup"><span data-stu-id="8e946-116">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
-- [<span data-ttu-id="b6e9a-117">Konfigurieren von Telefonieoptionen für Benutzer</span><span class="sxs-lookup"><span data-stu-id="b6e9a-117">Configure Telephony for Users</span></span>](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [<span data-ttu-id="8e946-117">Konfigurieren von Telefonieoptionen für Benutzer</span><span class="sxs-lookup"><span data-stu-id="8e946-117">Configure Telephony for Users</span></span>](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-- [<span data-ttu-id="b6e9a-118">Zuweisen einer Richtlinie auf Benutzerebene Mobilität</span><span class="sxs-lookup"><span data-stu-id="b6e9a-118">Assign a Per-User Mobility Policy</span></span>](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+- [<span data-ttu-id="8e946-118">Zuweisen einer Richtlinie auf Benutzerebene Mobilität</span><span class="sxs-lookup"><span data-stu-id="8e946-118">Assign a Per-User Mobility Policy</span></span>](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
     
-- [<span data-ttu-id="b6e9a-119">Zuweisen einer Richtlinie für beständigen Chat pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="b6e9a-119">Assign a Per-User Persistent Chat Policy</span></span>](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+- [<span data-ttu-id="8e946-119">Zuweisen einer Richtlinie für beständigen Chat pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="8e946-119">Assign a Per-User Persistent Chat Policy</span></span>](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
     
  
 
