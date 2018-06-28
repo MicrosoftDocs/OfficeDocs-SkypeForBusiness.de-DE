@@ -1,5 +1,5 @@
 ---
-title: Aktivieren und verwenden Qualität Dashboards aufrufen
+title: Aktivieren und Verwenden des Anrufqualitäts-Dashboards
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: 856cf70085bbd0c7ca5cd5e253aec991bb970d62
-ms.sourcegitcommit: dfcdb18d0eb3205ef9180f048674f586aac92de0
+ms.openlocfilehash: 6651525ced62b89b690a8100ec69a36b5fd5695c
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570316"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091608"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
 
@@ -42,7 +42,9 @@ Dies sind die neuesten Änderungen am AQD:
 - Microsoft Teams-Daten sind zusätzlich zu Skype for Business Online-Daten enthalten.
     
 - Zusammenfassungsberichte enthalten einen Produktfilter, mit dem Sie alle Daten, Microsoft Teams-Daten oder Skype for Business Online-Daten auswählen können.
-    
+
+- Video und VBSS Stream Qualität Klassifizierung Logik wurde aktualisiert. Die neuesten Klassifizierung Definitionen finden Sie unter [Stream-Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md) .
+
 Finden Sie in diesem Artikel finden Sie eine Liste von [Dimensionen und Measures in Aufrufen Qualitätsdashboard zur Verfügung](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
@@ -117,7 +119,7 @@ Verwenden Sie die Daten auf dieser Registerkarte, um den Status und die Trends d
   
 ![CQD Data key](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Streams are classified in three groups: Good, Poor, and Unclassified. Es sind auch berechneten Werte *schlechter %* , mit denen Sie das Verhältnis von Datenströmen als *schlechte* der Anzahl insgesamt geschützte Stream klassifiziert. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. Was für die Klassifizierung eines Stream-Objekts als schlecht oder eine gute verwendet wird finden Sie unter [Qualität Schwellenwerte aufrufen](https://aka.ms/cqd_quality_thresholds).
+Streams are classified in three groups: Good, Poor, and Unclassified. Es sind auch berechneten Werte *schlechter %* , mit denen Sie das Verhältnis von Datenströmen als *schlechte* der Anzahl insgesamt geschützte Stream klassifiziert. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. Was für die Klassifizierung eines Stream-Objekts als schlecht oder eine gute verwendet wird finden Sie unter [Stream-Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md).
   
 Verwenden Sie die Skala auf der linken Seite, um den Datenstrom zählen von Werten zu messen.
   

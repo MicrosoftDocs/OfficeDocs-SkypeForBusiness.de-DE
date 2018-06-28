@@ -10,11 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b095d25f4b414eda58e8030264139b7fdf5b42a
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: bcfefb62ab0c9bbe7b24addd8ee74c3e188edcf6
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091574"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================
@@ -32,6 +33,7 @@ Verwenden Sie diese Schulungsressourcen, um Ihrer Organisation die optimale Nutz
 | [Microsoft Teams-Kanal auf YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [YouTube-Kanal „Coffee in the Cloud“](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Videos mit Anleitungen, bewährten Methoden und Funktionsbeschreibungen  |
 | Einführung in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
+| Einführung in die Microsoft-Teams für Bildungseinrichtungen  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
 | 5 Minuten zum Einrichten von sinnvollen Teams, Kanälen und Registerkarten   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 | Hinzufügen von Gäste an Ihr Team von Microsoft Allgemein - Zusammenarbeit  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
 | Beschleunigen der Zusammenarbeit - mithilfe der Befehlsleiste in Microsoft-Teams  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
