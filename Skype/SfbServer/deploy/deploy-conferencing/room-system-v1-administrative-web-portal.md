@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 description: Die Skype für Server 2015 Skype Raum Geschäftssystemen v1 (SRS v1, früher bekannt als Lync Raum System) Administrative Webportal ist ein Webportal, mit denen Organisationen können der Konferenzräume Skype Raum Systeme verwalten. Administratoren können dem SRS v1 Administrative Webportal Gerät Zustand, beispielsweise zu überwachen, durch die Überwachung der a/v-Geräte verwenden. Mit diesem Portal können Administratoren über Remoteverbindungen Diagnoseinformationen sammeln, um die Konferenzraumintegrität zu überwachen.
-ms.openlocfilehash: d87241cc983fabf76a952bce4941063169f787c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088532"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>Stellen Sie das Webportal zur Verwaltung von SRS v1 in Skype for Business Server 2015 bereit
  
@@ -29,9 +30,9 @@ Nach der SRS v1, den administrativen Webportal auf dem Server bereitgestellt wir
   
 In diesem Thema:
   
-- [Konfigurieren der Umgebung für die SRS v1 Administrative Webportal](room-system-v1-administrative-web-portal.md#Config_Env)
+- [Konfigurieren Sie Ihre Umgebung für das Webportal zur Verwaltung von SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)
     
-- [Installieren Sie das SRS v1 Administrative Web-Portal](room-system-v1-administrative-web-portal.md#Install_SRS)
+- [Installieren Sie das Webportal zur Verwaltung von SRS v1](room-system-v1-administrative-web-portal.md#Install_SRS)
     
 - [Verwenden Sie das Webportal zur Verwaltung von SRS](room-system-v1-administrative-web-portal.md#Use_Portal)
     
@@ -65,7 +66,7 @@ Zur Nutzung des Webportals für die Verwaltung des SRS v1 müssen Sie die folge
     
     Erstellen Sie die Gruppe mit dem Gruppenbereich  Global  und dem Gruppentyp  Sicherheit . SIP-aktivierten Benutzer, die dieser Gruppe hinzugefügt werden alle einschließlich Massen Verwaltung von Skype für Räume Business Portal Admin-Funktionen verwenden dürfen. 
     
-6. Fügen Sie die Gruppe SRSFullAccessAdminGroup als ein Mitglied von LRSSupportAdminGroup hinzu.
+6. Fügen Sie als Mitglied der LRSSupportAdminGroup LRSFullAccessAdminGroup hinzu.
     
      ![LRSSupportAdminGroup-Eigenschaftenmember (Seite)](../../media/LRS_Add_LRSSupportAdminGroup.png)
   
@@ -106,7 +107,7 @@ Wenn Sie das Webportal zur Verwaltung von SRS v1 installieren möchten, gehen S
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
-6. Wenn der verwendete Port als 5061 ist, fügen Sie die folgende Zeile in der Datei Web.Config hinzu: 
+6. Wenn der verwendete Port nicht der Port 5061 ist, fügen Sie folgende Zeile in die Datei Web.Config ein:  
     
    ```
    <add key="PortalUserRegistrarPort" value="5061" />

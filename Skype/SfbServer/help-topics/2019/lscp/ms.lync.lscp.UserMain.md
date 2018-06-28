@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Die Ergebnisse einer Suchabfrage können Sie Benutzer für Skype für Business Server konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen. Ferner können Sie Benutzer über die Lync Server-Systemsteuerung oder das Snap-In „Active Directory-Benutzer und -Computer“ suchen.
-ms.openlocfilehash: 253dfd6a2e454b7d68211b18a5c1c3e8c6c4a837
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: eb123d3fcbf13b75687f40d7311d8d9af8cb8fda
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046438"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088546"
 ---
 # <a name="control-panel---updated-user-search"></a>Systemsteuerung – aktualisiert: Benutzersuche
  
@@ -26,13 +26,13 @@ Die Ergebnisse einer Suchabfrage können Sie Benutzer für Skype für Business S
 
 Auf der Systemsteuerungsseite **Benutzersuche** können Sie die folgenden Aufgaben ausführen:
   
-- [Suchen nach Lync Server 2010-Benutzern](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Suchen nach Benutzern](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
     
-- [Aktivieren oder Deaktivieren von Benutzern für Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Aktivieren oder Deaktivieren von Benutzern](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [Verschieben von Benutzern](ms.lync.lscp.UserMove.md)
     
-- [Verschieben Sie alle Benutzer](ms.lync.lscp.UserMoveAll.md)
+- [Verschieben aller Benutzer](ms.lync.lscp.UserMoveAll.md)
     
 - [Zuweisen von Richtlinien für Benutzer](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     

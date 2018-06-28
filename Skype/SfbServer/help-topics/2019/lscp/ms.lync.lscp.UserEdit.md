@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 437346f430f0454b1c06338864b42b8863e46970
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 51417dd7fa69d82326d7d6dc04155636eee47ba9
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043906"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088476"
 ---
 # <a name="users-edit-user"></a>Benutzer: Bearbeiten von Benutzern
  
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
   
-- [Aktivieren oder Deaktivieren von Benutzern für Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Aktivieren oder Deaktivieren von Benutzern](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
