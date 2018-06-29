@@ -6,15 +6,16 @@ manager: serdars
 ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara, v-leslc
+ms.reviewer: marcl, ninadara
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
+ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "20136934"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -22,6 +23,10 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 ## 
 
 ## <a name="administration"></a>Verwaltung
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Überwachungsprotokolle können eine falsche Benutzername als Initiator melden, wenn eine Person aus einem Team entfernt wurde  <br/> |Teams Team ist eine moderne Gruppe in AAD. Wenn Sie ein Element über die Benutzeroberfläche des Teams Software, der Fluss weiß genau mit der der Benutzer die Änderung initiiert, und das Überwachungsprotokoll die korrekte Informationen widerspiegelt. Jedoch, wenn ein Benutzer fügt/Mitglied über AAD entfernt, wird die Änderung synchronisiert an die Teams Back-End-ohne Teams, die die Aktion initiiert hat. Microsoft-Teams, wählt den ersten Besitzer des Teams als der Initiator, der in das Überwachungsprotokoll sowie schließlich wiedergegeben wird.    <br/> |  <br/> |5/11/18  <br/> |
+
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Hinzufügen von Mitgliedern zu Teams bei UsersPermissionToReadOtherUsersEnabled auf False festgelegt ist nicht möglich  <br/> |Wenn dieser Wert wird in AAD auf False festgelegt, Kunden nicht an externe/interne Mitglieder im Microsoft-Teams hinzuzufügen kann und die folgende Fehlermeldung wird angezeigt: "Es konnte nicht Mitglied hinzugefügt. Wir haben ein Problem ausgeführt. Versuchen Sie es später erneut." Mitglieder können jedoch direkt zu Office 365-Gruppen hinzugefügt werden.    <br/> |Diese Einstellung auf "true" in AAD geändert.  <br/> |4/10/18  <br/> |
@@ -76,7 +81,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 ## <a name="channels"></a>Kanäle
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Wenn ein Benutzer das Unternehmen verlässt, wird sie im Microsoft-Teams, als "Unbekannte Benutzer"<br/> |Wenn ein Benutzer das Unternehmen verlässt, wird sie im Microsoft-Teams, als "Unbekannte Benutzer". Zusätzlich wird auf die Registerkarte Unterhaltung angezeigt: "Unbekannte Benutzer wurde hinzugefügt, das Team." <br/> |Keine Problemumgehung.  <br/> |9/12/17  <br/> |
+|Wenn ein Benutzer das Unternehmen verlässt, wird sie im Microsoft-Teams, als "Unbekannte Benutzer"<br/> |Wenn ein Benutzer das Unternehmen verlässt, wird sie im Microsoft-Teams, als "Unbekannte Benutzer". Zusätzlich wird auf die Registerkarte Unterhaltung angezeigt: "Unbekannte Benutzer wurde hinzugefügt, das Team." <br/> |Keine Problemumgehung  <br/> |9/12/17  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -204,6 +209,10 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |Teams Planner Integration in Planner online <br/> |Buckets in Planner Aufgaben werden in Planner online-Erfahrung nicht angezeigt.  <br/> |Keine Problemumgehung. <br/> |28.02.2017  <br/>|
 
 ## <a name="teams"></a>Microsoft Teams
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Überwachungsprotokolle können eine falsche Benutzername als Initiator melden, wenn eine Person aus einem Team entfernt wurde  <br/> |Teams Team ist eine moderne Gruppe in AAD. Wenn Sie ein Element über die Benutzeroberfläche des Teams Software, der Fluss weiß genau mit der der Benutzer die Änderung initiiert, und das Überwachungsprotokoll die korrekte Informationen widerspiegelt. Jedoch, wenn ein Benutzer fügt/Mitglied über AAD entfernt, wird die Änderung synchronisiert an die Teams Back-End-ohne Teams, die die Aktion initiiert hat. Microsoft-Teams, wählt den ersten Besitzer des Teams als der Initiator, der in das Überwachungsprotokoll sowie schließlich wiedergegeben wird.    <br/> |  <br/> |5/11/18  <br/> |
+
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Der Upload von Fotos in Microsoft Teams wird in OWA/Outlook nicht gemäß der Richtlinie blockiert.   <br/> | Microsoft Teams lässt zu, dass Benutzer Fotos direkt in Office 365 hochladen, obwohl Richtlinieneinstellungen vorhanden sind, die Fotouploads für OWA verhindern.   <br/> |<br/>  |16.10.2017  <br/> |
