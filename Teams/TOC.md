@@ -30,6 +30,7 @@
 ## [Beziehen von Clients für Microsoft Teams](get-clients.md)
 ### [Hardwareanforderungen für die app Teams](hardware-requirements-for-the-teams-app.md)
 ### [Installieren Sie die MSI-Datei von Microsoft-Teams](msi-deployment.md)
+### [Bereitstellen des Teams für Fläche Hub](teams-surface-hub.md)
 ## [Aktivieren Sie in Ihrer Organisation Microsoft-Teams](Office-365-set-up.md)
 ## [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
 ### [Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
@@ -130,6 +131,7 @@
 ### [Hinzufügen der SMTP-Domäne von Teams als akzeptierte Domäne in Exchange Online](smtp-accepted-domain.md)
 ### [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
 ## [Interaktion von SharePoint Online und OneDrive for Business mit Teams](sharepoint-onedrive-interact.md)
+## [Teams Erfahrung in Office 365-Mandanten Multi-Geo-enabled](teams-experience-o365odb-spo-multi-geo.md)
 <!-- ============================================================ -->
 
 
