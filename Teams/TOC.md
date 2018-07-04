@@ -246,6 +246,13 @@
 #### [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Einrichten von Voicemail für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Was sind automatische Telefonzentralen für das Telefonsystem?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### Telefon System direkten Routing
+#### [Planen der direkten Routing](direct-routing-plan.md)
+#### [Konfigurieren der Weiterleitung von direkten](direct-routing-configure.md)
+#### [Migrieren zu direkten Routing](direct-routing-migrating.md)
+#### [Benutzerkonten in einer hybridumgebung mit PSTN-Anbindung](direct-routing-user-accounts-in-a-hybrid-environment.md)
+#### [Konfigurieren eines Session Border Controller für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
+#### [Liste der Session Border Controller für die direkte Weiterleitung zertifiziert](direct-routing-border-controllers.md)
 ### [Microsoft-Teams, Online aufrufen fließt](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
