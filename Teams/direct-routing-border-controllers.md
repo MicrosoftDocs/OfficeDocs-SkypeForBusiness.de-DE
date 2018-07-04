@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft-Partner mit ausgewählten SBC-Anbietern für ihren SBC Zertifizierung arbeiten mit direktem Routing.
-ms.openlocfilehash: d5cb169aaf1545d496e19e533c1466e68258d35c
-ms.sourcegitcommit: 13bec625269307e5988acecd3b765c29594d66fe
+ms.openlocfilehash: de006d216b81b3aaa2b07749855f1313be646d05
+ms.sourcegitcommit: b7b6bdaf9d40b70151ce7b5d1b659b5466f0841c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/04/2018
-ms.locfileid: "20192660"
+ms.locfileid: "20195388"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der Session Border Controller für die direkte Weiterleitung zertifiziert
 
@@ -33,7 +33,7 @@ Mit jedem Anbieter Microsoft:
 
 Die folgende Tabelle enthält die Geräte, die für die direkte Weiterleitung zertifiziert. 
 
-[Erfahren Sie mehr über die direkte Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-NOW-in-Public-Preview/ba-p/193915). 
+[Erfahren Sie mehr über die direkte Routing](https://aka.ms/dr). 
 
 
 |Hersteller  |Produkt  |Nicht die Medienumgehung  |Die Medienumgehung  |Softwareversion|
