@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
-ms.openlocfilehash: 5cba53e1a01b1aff3a08f4ec84cea60dc455fb35
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: d9483d702280bfe7119ff64431e5d42b168f9021
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500693"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205015"
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Einrichten der Anrufanalyse von Skype for Business
 
@@ -34,7 +34,7 @@ Einen Skype für Business Online Admin können Analytics rufen Sie für die Prob
 - Fügen Sie Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzu, indem Sie eine TSV- oder CSV-Datendatei hochladen.
     
 > [!NOTE]
-> Die Anrufanalyse wird zurzeit als Vorschau bereitgestellt. Die hier beschriebenen Texte und Bilder entsprechen möglicherweise nicht dem, was Sie tatsächlich sehen. 
+> Anruf Analytics ist jetzt verfügbar in den Microsoft-Teams und Skype für Business Administrationscenter unter https://admin.teams.microsoft.com. Helpdesk-Agent-Berechtigungen und Netzwerk-Topologie hochladen verfügbar in das neue Administratorportal in den nächsten Monaten. In der Zwischenzeit Sie können auch weiterhin mithilfe den Endpunkt an https://adminportal.services.skypeforbusiness.com für Ebene 1 und Ebene 2 Helpdesk-Zugriff. 
   
 ## <a name="set-call-analytics-permissions"></a>Festlegen von Berechtigungen für die Anrufanalyse
 <a name="BKMK_SetCAPerms"></a>
