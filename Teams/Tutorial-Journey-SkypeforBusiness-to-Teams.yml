@@ -15,14 +15,15 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: c4fc0b4e75a7e4e3cd2c391102580c37c0b826af
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: d072c7f8d1ca0998fbe0a1ddee152717b6c69843
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/17/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201358"
 items:
 - durationInMinutes: 1
-  content: "In dieser Schulung stellen wir die neue Vision für intelligente Kommunikation vor und erläutern die Zukunft von Skype for Business und Microsoft Teams.\n\nDiese Schulung richtet sich an Sie, wenn Folgendes auf Sie zutrifft: \n\n- Sie sind IT-Spezialist. \n\n- Sie sind für die Planung, Bereitstellung oder Verwaltung von Skype for Business zuständig.\n\n- Sie möchten wissen, wie Sie Microsoft Teams in Ihrer Organisation einführen können.\n\nWir erläutern im Detail, wie sich diese beiden Produkte zusammenfügen und welche Maßnahmen Sie schon jetzt ergreifen können, um eine vorhandene Skype for Business-Umgebung auf Microsoft Teams vorzubereiten. Die wichtigsten Lernergebnisse dieses Tutorials:\n\n- Sie verstehen die Vision für intelligente Kommunikation.\n\n- Sie verstehen die Reise von Skype for Business Online zu Microsoft Teams.\n\n- Sie verstehen, welche Maßnahmen schon jetzt eingeleitet werden sollten.\n\nWir befassen uns nicht mit Anleitungen für die Aktivierung von Microsoft Teams oder für die gleichzeitige Verwendung von Skype for Business und Microsoft Teams. Weitere Informationen finden Sie in den folgenden Ressourcen:\n\n- Microsoft Ignite 2017-Sitzung: [Aktivieren und Konfigurieren von Microsoft Teams für Ihre Benutzer](https://myignite.microsoft.com/sessions/53318)\n\n- [Upgrade-Strategie und Koexistenz von Skype for Business und Microsoft Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nWenn Sie Fragen oder Feedback zu dieser Schulung haben:\n\n- Verwenden Sie dafür den Abschnitt für Kommentare unten auf der Seite „Nächste Schritte“ dieses Tutorials.</a>\n\n- Senden Sie eine E-Mail an [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey).\n\n- Wenn Sie Produktfeedback geben möchten, beispielsweise Funktionswünsche, wechseln Sie zur [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)-Website.\n"
+  content: "In dieser Schulung stellen wir die neue Vision für intelligente Kommunikation vor und erläutern die Zukunft von Skype for Business und Microsoft Teams.\n\nDiese Schulung richtet sich an Sie, wenn Folgendes auf Sie zutrifft: \n\n- Sie sind IT-Spezialist. \n\n- Sie sind für die Planung, Bereitstellung oder Verwaltung von Skype for Business zuständig.\n\n- Sie möchten wissen, wie Sie Microsoft Teams in Ihrer Organisation einführen können.\n\nWir erläutern im Detail, wie sich diese beiden Produkte zusammenfügen und welche Maßnahmen Sie schon jetzt ergreifen können, um eine vorhandene Skype for Business-Umgebung auf Microsoft Teams vorzubereiten. Die wichtigsten Lernergebnisse dieses Tutorials:\n\n- Sie verstehen die Vision für intelligente Kommunikation.\n\n- Sie verstehen die Reise von Skype for Business Online zu Microsoft Teams.\n\n- Sie verstehen, welche Maßnahmen schon jetzt eingeleitet werden sollten.\n\nWir befassen uns nicht mit Anleitungen für die Aktivierung von Microsoft Teams oder für die gleichzeitige Verwendung von Skype for Business und Microsoft Teams. Weitere Informationen finden Sie in den folgenden Ressourcen:\n\n- Microsoft Ignite 2017-Sitzung: [Aktivieren und Konfigurieren von Microsoft Teams für Ihre Benutzer](https://myignite.microsoft.com/sessions/53318)\n\n- [Upgrade-Strategie und Koexistenz von Skype for Business und Microsoft Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nWenn Sie Fragen oder Feedback zu dieser Schulung haben:\n\n- Verwenden Sie dafür den Abschnitt für Kommentare unten auf der Seite „Nächste Schritte“ dieses Tutorials.</a>\n\n- Wenn Sie Produktfeedback geben möchten, beispielsweise Funktionswünsche, wechseln Sie zur [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)-Website.\n"
 - title: Grundlegendes zur intelligenten Kommunikation
   durationInMinutes: 4
   content: >
@@ -111,5 +112,4 @@ items:
 
     5.  Senden Sie uns Feedback.
         - Im Abschnitt **Kommentare** unten auf dieser Seite können Sie uns Feedback geben oder Fragen stellen.
-        - Senden Sie eine E-Mail an [AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey).
         - Um Produktfeedback zu Microsoft Teams zu geben oder sich eine neue Funktion zu wünschen, wechseln Sie zur [Microsoft Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)-Website.

@@ -16,11 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 5f72133bacc1c299ad47eb3bc928827f733e87a8
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/16/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201415"
 items:
 - durationInMinutes: 1
   content: >
@@ -58,8 +59,6 @@ items:
 
 
     -   Stellen Sie in der Kommentarabschnitt am unteren Rand der Seite "Nächste Schritte" des Lernprogramms
-
-    -   Senden Sie eine E-Mail an [AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing).
 
 
     Wenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
@@ -105,7 +104,6 @@ items:
 
     3.  Senden Sie uns Feedback:
         - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.
-        - Uns eine e-Mail an [AskTeams\@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Audio%20Conferencing)
         - Um Produktfeedback zu Microsoft Teams zu geben oder sich eine neue Funktion zu wünschen, wechseln Sie zur [Microsoft Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)-Website.
     4.  Bleiben Sie auf dem aktuellen Stand:
         - Führen Sie im [Blog des Teams](https://aka.ms/teamsblog).
