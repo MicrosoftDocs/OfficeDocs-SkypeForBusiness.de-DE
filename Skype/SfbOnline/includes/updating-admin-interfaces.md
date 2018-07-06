@@ -1,1 +1,1 @@
-Wir sind häufig aktualisieren, wie Sie die Features von Microsoft-Teams verwalten können. Schritte möglicherweise ein wenig anders lauten.
+Wir aktualisieren regelmäßig die Verwaltung der Features in Microsoft Teams, daher können sich die Schritte hier von denen in Microsoft Teams und im Admin-Center von Skype for Business etwas unterscheiden.
