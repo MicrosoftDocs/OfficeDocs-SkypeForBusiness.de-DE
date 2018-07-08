@@ -18,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Dieser Artikel ist als Leitfaden für die Verwendung eines Proxyservers in Verbindung mit Skype for Business gedacht.
-ms.openlocfilehash: a4369208ab277e0eb5490a637421de605235a0cd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fcae4ec366845818d515a4d78c79ea77d038a4a5
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211022"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Proxyserver für Skype for Business Online
 
@@ -54,24 +55,6 @@ Microsoft empfiehlt außerdem dringend Folgendes:
     
 Wenn Sie sich an diesem Leitfaden orientieren, können Sie potenzielle Probleme auf ein Minimum reduzieren.
   
-## <a name="proxy-vendors-with-built-in-skype-for-business-support-or-configuration-options"></a>Proxyanbieter mit integrierter Skype for Business-Unterstützung oder entsprechenden Konfigurationsoptionen
-
-Dieser Abschnitt enthält Informationen zu Proxyanbietern, die Produkte oder Dienste bereitstellen, die nachweislich erfolgreich für Skype for Business-Datenverkehr verwendet werden können.
-  
-Für Organisationen, die **Bluecoat-Proxylösungen** verwenden, wurde eine neue Firmware veröffentlicht, die verschiedene Probleme im Zusammenhang mit folgenden Aspekten behebt:
-    
-  - Abfangen von Daten über SSL
-    
-  - OCSP-/SRL-Überprüfungen
-    
-  - SIP über TLS
-    
-  - Unterstützung für TURN
-    
-Die systemeigene Unterstützung von Bluecoat für Skype for Business kann leicht aktiviert werden, sodass relevanter Datenverkehr identifiziert und entsprechend verwaltet werden kann. Dies gewährleistet optimale Authentifizierung und Signalisierung sowie einen optimalen Fluss des Mediendatenverkehrs, damit Sie hohe Benutzerfreundlichkeit ohne Sicherheitsbedenken bereitstellen können.
-    
-Finden Sie in den folgenden Link Bluecoat Proxy eines Teils der Topologie des Netzwerks ist:https://support.symantec.com/en_US/article.DOC9757.html
-
 ## <a name="related-topics"></a>See Also
 
 [Optimieren Ihres Netzwerks für Skype for Business Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)

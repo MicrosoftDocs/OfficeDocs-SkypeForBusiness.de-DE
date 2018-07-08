@@ -1,5 +1,5 @@
 ---
-title: Einrichten der Anrufanalyse von Skype for Business
+title: Einrichten von Anrufen Analytics
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
-ms.openlocfilehash: d9483d702280bfe7119ff64431e5d42b168f9021
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 748f421a9ec2d5d44ca41192db50c48cc6edcf05
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205015"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211042"
 ---
-# <a name="set-up-skype-for-business-call-analytics"></a>Einrichten der Anrufanalyse von Skype for Business
+# <a name="set-up-call-analytics"></a>Einrichten von Anrufen Analytics
 
 Einen Skype für Business Online Admin können Analytics rufen Sie für die Problembehandlung bei Skype für Business und Microsoft-Teams, rufen Sie die Qualität und Verbindung Probleme. Dabei kann es hilfreich sein, die folgenden Funktionen in der Anrufanalyse einzurichten:
   
@@ -33,13 +33,15 @@ Einen Skype für Business Online Admin können Analytics rufen Sie für die Prob
     
 - Fügen Sie Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzu, indem Sie eine TSV- oder CSV-Datendatei hochladen.
     
-> [!NOTE]
-> Anruf Analytics ist jetzt verfügbar in den Microsoft-Teams und Skype für Business Administrationscenter unter https://admin.teams.microsoft.com. Helpdesk-Agent-Berechtigungen und Netzwerk-Topologie hochladen verfügbar in das neue Administratorportal in den nächsten Monaten. In der Zwischenzeit Sie können auch weiterhin mithilfe den Endpunkt an https://adminportal.services.skypeforbusiness.com für Ebene 1 und Ebene 2 Helpdesk-Zugriff. 
+**Anruf Analytics wird jetzt in der Microsoft-Teams und Skype für Business Admin Center verfügbar.** Um alle diese Informationen und Daten für einen Benutzer anzuzeigen, verwenden Sie die Registerkarte **Anrufverlauf** . Hierzu können Sie auf der Profilseite des Benutzers suchen, indem Sie entweder suchen für den Benutzer aus dem Dashboard, oder suchen den Benutzer von **Benutzern** im linken Navigationsbereich.
+
+> [!IMPORTANT]
+> Helpdesk-Agent-Berechtigungen und Netzwerk-Topologie hochladen verfügbar in das neue Administratorportal in den nächsten Monaten. Sie können in der Zwischenzeit weiterhin verwenden https://adminportal.services.skypeforbusiness.com für Ebene 1 und Ebene 2 Helpdesk-Zugriff.
   
 ## <a name="set-call-analytics-permissions"></a>Festlegen von Berechtigungen für die Anrufanalyse
 <a name="BKMK_SetCAPerms"></a>
 
-Als Administrator verfügen Sie über Vollzugriff auf alle Funktionen der Anrufanalyse. Darüber hinaus können Sie in der Anrufanalyse ein Helpdesk-Modell verwenden, das Berechtigungsgruppen der Stufen 1 und 2 umfasst. Benutzer mit Berechtigungen der Stufe 1 können nur auf eine begrenzte Ansicht der Anrufanalyse zugreifen. Benutzer mit Berechtigungen der Stufe 2 können auf die gesamte Funktionalität der Anrufanalyse zugreifen. Beide Berechtigungsstufen verhindern den Zugriff auf die übrigen Funktionen im Skype for Business Admin Center. Sie können den Zugriff auf die Stufen gewähren, indem Sie zum Abschnitt für Stufe 1 oder für Stufe 2 auf der Seite „Berechtigungen" eine Gruppe hinzufügen, in der der jeweilige Benutzer enthalten ist. Weitere Details finden Sie unter [Einrichten von mehrstufigen Berechtigungen in der Anrufanalyse](set-up-call-analytics.md#BKMK_SetUpTier).
+Als Administrator verfügen Sie über Vollzugriff auf alle Funktionen der Anrufanalyse. Darüber hinaus können Sie in der Anrufanalyse ein Helpdesk-Modell verwenden, das Berechtigungsgruppen der Stufen 1 und 2 umfasst. Benutzer mit Berechtigungen der Stufe 1 können nur auf eine begrenzte Ansicht der Anrufanalyse zugreifen. Benutzer mit Berechtigungen der Stufe 2 können auf die gesamte Funktionalität der Anrufanalyse zugreifen. Beide Berechtigungsstufen verhindern des Zugriffs auf den Rest der Microsoft-Teams und Skype für Business Admin Center. Sie können den Zugriff auf die Stufen gewähren, indem Sie zum Abschnitt für Stufe 1 oder für Stufe 2 auf der Seite „Berechtigungen" eine Gruppe hinzufügen, in der der jeweilige Benutzer enthalten ist. Weitere Details finden Sie unter [Einrichten von mehrstufigen Berechtigungen in der Anrufanalyse](set-up-call-analytics.md#BKMK_SetUpTier).
   
 Helpdesk-Agents der Stufe 1 bearbeiten Standardprobleme im Zusammenhang mit der Anrufqualität. Agents der Stufe 1 untersuchen keine Probleme im Zusammenhang mit Besprechungen. Sie sammeln zugehörige Informationen und eskalieren dann an einen Agent der Stufe 2. Agents der Stufe 2 sehen Informationen in detaillierten Anruflisten, die für Agents der Stufe 1 ausgeblendet sind. Die folgende Tabelle enthält eine Übersicht über die Informationen, die für Agents in der Anrufanalyse verfügbar sind.
 
@@ -59,16 +61,16 @@ Helpdesk-Agents der Stufe 1 bearbeiten Standardprobleme im Zusammenhang mit der 
  **Einrichten von gestuften Berechtigungen in Aufrufen Analytics** 
  <a name="BKMK_SetUpTier"> </a>
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
   
 1. Erstellen Sie Office 365-Sicherheitsgruppen für Stufe 1 und Stufe 2, und fügen Sie die gewünschten Personen zu den einzelnen Gruppen hinzu. Sie können auch vorhandene Sicherheitsgruppen wiederverwenden. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten oder Löschen einer Sicherheitsgruppe im Office 365 Admin Center](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     
 2. Gehen Sie im Office 365 Admin Center zu **Admin Center** > **Skype for Business**.
-    
+
     > [!NOTE]
-    > Wenn das alte Skype for Business Admin Center angezeigt wird, wechseln Sie zur neuen Version, indem Sie auf **Lernen Sie unser neues Admin Center kennen** klicken. 
+    > Wenn Sie Sie in den **Microsoft-Teams und Skype für Business Admin Center**sind klicken Sie im linken Navigationsbereich auf **Legacy-Portal**.
   
-3. Klicken Sie im neuen Skype for Business Admin Center auf **Berechtigungen**.
+3. Die **Aufrufen Analytics (Preview)** klicken Sie auf **Berechtigungen**.
     
 4. Fügen Sie die Office 365-Sicherheitsgruppen zu den Feldern **Stufe 1** und **Stufe 2** hinzu. Sie können jeder Rolle mehrere Gruppen hinzufügen.
     
@@ -90,7 +92,7 @@ Wenn Sie eine TSV- oder CSV-Datei von Grund auf neu erstellen, lesen Sie [Dateif
 ## <a name="related-topics"></a>Verwandte Themen
 <a name="BKMK_UploadFiles"> </a>
 
-[Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 

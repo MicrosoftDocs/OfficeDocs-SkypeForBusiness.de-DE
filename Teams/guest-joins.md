@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast eingeladen wird, einem Team in Microsoft Teams beizutreten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb8672168b3f9f249f5f2d538c6f152c9012e29f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969372"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211052"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
@@ -46,4 +46,4 @@ Bei Verwendung von Teams, übergeben Sie Text und Symbole alle Teammitglieder kl
 Gäste können ein Team jederzeit über Teams-Webclients und -Desktopclients verlassen. Einzelheiten finden Sie unter [Wie verlasse ich ein Team?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> Das Team verlassen entfernen nicht das Gastkonto von der Organisation-Mandanten. Finden Sie [eine Organisation als Gast](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) , selbst aus der Organisationen zu entfernen. Alternativ kann der Organisation Admin Gastbenutzer aus den Mandanten entfernen.
+> Das Team verlassen entfernen nicht das Gastkonto von der Organisation-Mandanten. Finden Sie in [einer Organisation als Gast lassen](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) , selbst aus der Organisation zu entfernen. Alternativ kann der Organisation Admin Gastbenutzer aus den Mandanten entfernen.
