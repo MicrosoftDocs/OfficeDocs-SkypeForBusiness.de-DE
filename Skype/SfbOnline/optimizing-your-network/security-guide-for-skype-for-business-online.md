@@ -19,22 +19,22 @@ f1keywords: None
 ms.custom:
 - Security
 description: Sicherheitsleitfaden für Skype for Business Online <add description>
-ms.openlocfilehash: b3ba4368cd68239ad612e5c4dfd059a100173b30
-ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
+ms.openlocfilehash: 4d379a827b5dde8780d017834fd0ef011f2055eb
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19744321"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211126"
 ---
-#  <a name="security-and-skype-for-business-online"></a>Sicherheit in Skype for Business Online
+#  <a name="security-and-skype-for-business-online"></a>Sicherheit und Skype for Business Online
 
-Skype für Business Online (SfBO), als Teil des Office 365-Dienstes, befolgt alle bewährte Methoden und Verfahren für die Sicherheit, wie z. B. Sicherheit auf Leistungsebene durch umfassende Abwehrmaßnahmen, Kundenkontrolle innerhalb des Dienstes, Sicherheitshärtung und betriebliche bewährte Methoden. Weitere Einzelheiten finden Sie unter [Office 365 Trust Center](https://products.office.com/en-us/business/office-365-trust-center-security).
+Skype für Business Online (SfBO), als Teil des Office 365-Dienstes, befolgt alle bewährte Methoden und Verfahren für die Sicherheit, wie z. B. Sicherheit auf Leistungsebene durch umfassende Abwehrmaßnahmen, Kundenkontrolle innerhalb des Dienstes, Sicherheitshärtung und betriebliche Best Practices.  Weitere Informationen finden Sie im Office 365 Trust Center (https://products.office.com/en-us/business/office-365-trust-center-security).
 
-## <a name="trustworthy-by-design"></a>Vertrauenswürdiger Aufbau
-Skype for Business Online wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing Security Development Lifecycle (SDL) entwickelt, der unter https://www.microsoft.com/en-us/sdl/default.aspx beschrieben wird. Der erste Schritt beim Erstellen eines sicheren Unified Communications-Systems bestand in der Entwicklung von Gefahrenmodellen und im Testen jedes einzelnen Features während seines Entwurfs. Viele sicherheitsrelevante Verbesserungen wurden während der Codephase getestet und integriert. Mit Buildzeittools werden Pufferüberläufe und andere potenzielle Sicherheitsbedrohungen erkannt, bevor der Code in das Endprodukt übernommen wird. Natürlich ist es nicht möglich, so zu entwerfen, dass alle unbekannten Sicherheitsbedrohungen beseitigt werden. Es gibt kein System, für das vollständige Sicherheit garantiert werden kann. Da bei der Produktentwicklung jedoch von Anfang an sichere Designprinzipien angewendet wurden, umfasst Skype for Business Online die branchenüblichen Standardsicherheitstechnologien als grundlegenden Bestandteil seiner Architektur. 
+## <a name="trustworthy-by-design"></a>Zuverlässig durch Design
+Skype for Business Online wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing Security Development Lifecycle (SDL) entwickelt, der unter https://www.microsoft.com/en-us/sdl/default.aspx beschrieben wird. Der erste Schritt beim Erstellen eines sicheren Unified Communications-Systems bestand in der Entwicklung von Gefahrenmodellen und im Testen jedes einzelnen Features während seines Entwurfs. Viele sicherheitsrelevante Verbesserungen wurden während der Codephase getestet und integriert. Mit Buildzeittools werden Pufferüberläufe und andere potenzielle Sicherheitsbedrohungen erkannt, bevor der Code in das Endprodukt übernommen wird. Natürlich ist es nicht möglich, so zu entwerfen, dass alle unbekannten Sicherheitsbedrohungen beseitigt werden. Es gibt kein System, für das vollständige Sicherheit garantiert werden kann. Da bei der Produktentwicklung jedoch von Anfang an sichere Designprinzipien angewendet wurden, umfasst Skype for Business Online die branchenüblichen Standard-Sicherheitstechnologien als grundlegenden Bestandteil seiner Architektur. 
 
 ## <a name="trustworthy-by-default"></a>Vertrauenswürdig durch seine Standardeinstellungen
-Die Netzwerkkommunikation in Skype for Business Online ist standardmäßig verschlüsselt. Da alle Server Zertifikate verwenden müssen und OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP) und andere branchenübliche Verschlüsselungstechniken, einschließlich 256-Bit Advanced Encryption Standard (AES)-Verschlüsselung, einsetzen, sind alle Skype for Business Online-Daten im Netzwerk geschützt.
+Die Netzwerkkommunikation in Skype for Business Online ist standardmäßig verschlüsselt. Da alle Server-Zertifikate verwenden müssen und OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP) und andere branchenübliche Verschlüsselungstechniken, einschließlich der 256-Bit Advanced Encryption Standard (AES)-Verschlüsselung einsetzen, sind alle Skype for Business Online-Daten im Netzwerk geschützt.
 
 ## <a name="how-sfbo-handles-common-security-threats"></a>So geht SfBO mit allgemeinen Sicherheitsbedrohungen um
 Dieser Abschnitt beschreibt die häufigsten Bedrohungen für die Sicherheit des SfBO-Dienstes und wie Microsoft jede Bedrohung entschärft.
@@ -61,11 +61,11 @@ SfBO verwendet gegenseitiges TLS (MTLS) für die Serverkommunikation innerhalb v
 Das TURN-Protokoll wird für Echtzeit-Medienzwecke verwendet.  Das TURN-Protokoll schreibt keine Verschlüsselung des Datenverkehrs vor, und die von ihm gesendeten Informationen sind durch die Nachrichtenintegrität geschützt. Obwohl es für Lauschangriffe offen ist, können die von ihm gesendeten Informationen (d. h. IP-Adressen und Port) direkt extrahiert werden, indem man einfach die Quell- und Zieladressen der Pakete betrachtet. Der SfBO-Service stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenntegrität der Nachricht anhand des Schlüssels überprüft, der aus einigen wenigen Elementen einschließlich eines TURN-Kennworts abgeleitet wurde, das niemals im Klartext gesendet wird. SRTP wird für den Medienverkehr verwendet und ist ebenfalls verschlüsselt.
 
 ### <a name="identity-spoofing-ip-address-spoofing"></a>Identitätsvortäuschung (Spoofing der IP-Adresse)
-Spoofing liegt vor, wenn Angreifer unbefugt die IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermitteln und verwenden. Nach einem erfolgreichen Angriff können sich Angreifer als die normalerweise durch diese IP-Adresse identifizierte Entität ausgeben. Im Rahmen von Microsoft Lync Server 2010 kommt diese Situation nur vor, wenn ein Administrator die folgenden beiden Aktionen unternommen hat:
+Spoofing liegt vor, wenn Angreifer unbefugt die IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermitteln und verwenden. Nach einem erfolgreichen Angriff können sich Angreifer als die normalerweise durch diese IP-Adresse identifizierte Entität ausgeben. Im Rahmen des Microsoft Lync Servers 2010 kommt diese Situation nur vor, wenn ein Administrator die folgenden beiden Aktionen ausgeführt hat:
 - Er hat Verbindungen konfiguriert, die nur TCP (Transmission Control Protocol) unterstützen. (Dies ist nicht zu empfehlen, da die TCP-Kommunikation unverschlüsselt ist.)
 - Er hat die IP-Adressen dieser Verbindungen als vertrauenswürdige Hosts markiert. 
 
-Dies ist für TLS-Verbindungen (Transport Layer Security) weniger ein Problem, da TLS alle Parteien authentifiziert und den gesamten Datenverkehr verschlüsselt. Die Verwendung von TLS verhindert Spoofingangriffe auf bestimmte Verbindungen (Mutual TLS-Verbindungen). Jedoch könnte ein Angreifer die Adresse des von SfBO verwendeten DNS-Servers durch Spoofing ermitteln. Da die Authentifizierung in SfBO jedoch mittels Zertifikaten erfolgt, verfügen Angreifer nicht über ein gültiges Zertifikat, das für das Spoofing für eine der Kommunikationsparteien notwendig ist.
+Dies ist für TLS-Verbindungen (Transport Layer Security) weniger ein Problem, da TLS alle Parteien authentifiziert und den gesamten Datenverkehr verschlüsselt. Die Verwendung von TLS verhindert Spoofingangriffe auf bestimmte Verbindungen (Mutual TLS-Verbindungen). Jedoch könnte ein Angreifer die Adresse des von SfBO verwendeten DNS-Servers immer noch durch Spoofing ermitteln. Da die Authentifizierung in SfBO jedoch mittels Zertifikaten erfolgt, verfügen Angreifer nicht über ein gültiges Zertifikat, das für das Spoofing für eine der Kommunikationsparteien notwendig ist.
 
 ### <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 Von einem „Man-in-the-Middle-Angriff“ spricht man, wenn Angreifer die Kommunikation zwischen zwei Nutzern ohne deren Wissen über ihren eigenen Computer leiten. Die Angreifer können die übertragenen Daten überwachen und lesen, ehe sie an den eigentlichen Empfänger weitergeleitet werden. Beide Kommunikationspartner senden unwissentlich Daten an die Angreifer und empfangen von ihnen Daten, sind aber dabei in dem Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dies kann passieren, wenn es Angreifern gelingt, die Active Directory-Domänendienste so zu ändern, dass ihr Server als vertrauenswürdiger Server hinzugefügt wird, oder wenn sie den DNS-Eintrag (Domain Name System) so ändern können, dass Clients auf ihrem Weg zum Server über den Computer der Angreifer geleitet werden. 
@@ -76,7 +76,7 @@ Ein Man-in-the-Middle-Angriff kann auch bei Medienverkehr zwischen zwei Clients 
 Ein Replay-Angriff liegt vor, wenn eine gültige Medienübertragung zwischen zwei Parteien abgefangen und für böswillige Zwecke erneut übertragen wird. SfBO verwendet SRTP in Verbindung mit einem sicheren Signalisierungsprotokoll, das Übertragungen vor Replay-Angriffen schützt, indem es dem Empfänger ermöglicht, einen Index der bereits empfangenen RTP-Pakete zu führen und jedes neue Paket mit den bereits im Index aufgeführten zu vergleichen.
 
 ### <a name="spim"></a>SPIM (Spam over Instant Messaging)
-Spim ist eine unaufgeforderte kommerzielle Sofortnachricht oder Anwesenheits-Abonnement-Anfrage. Obwohl es sich nicht um einen Netzwerkkompromiss handelt, ist sie zumindest ärgerlich, kann die Ressourcenverfügbarkeit und die Produktion reduzieren und kann möglicherweise zu einem Netzwerkkompromiss führen. Ein Beispiel dafür sind die Benutzer, die sich durch das Senden von Anfragen gegenseitig überschwemmen. Benutzer können sich gegenseitig blockieren, um dies im Verbund zu verhindern, wenn ein koordinierter Spim-Angriff festgestellt wird, kann dies schwierig zu überwinden sein, es sei denn, Sie deaktivieren den Verbund für den Partner.
+Unter SPIM sind unaufgeforderte Werbe-SMS oder Anwesenheitsabonnementanforderungen zu verstehen. Zwar wird das Netzwerk nicht unmittelbar beeinträchtigt, doch ist SPIM zumindest ärgerlich, kann die Ressourcenverfügbarkeit und die Produktivität reduzieren und möglicherweise zu einer Beeinträchtigung des Netzwerks führen. Ein Beispiel für Spimming sind Nutzer, die sich gegenseitig Anfragen zusenden. Nutzer können sich gegenseitig blockieren, um dies zu verhindern. Ein koordinierter Spimangriff im Partnerverbund kann jedoch schwer abzuwehren sein, wenn Sie den Verbund für den Partner nicht deaktivieren.
 
 ### <a name="viruses-and-worms"></a>Viren und Würmer
 Ein Virus ist eine Codeeinheit, deren Zweck die Reproduktion zusätzlicher, ähnlicher Codeeinheiten ist. Ein Virus benötigt, um zu funktionieren, einen Host, z. B. eine Datei, eine E-Mail oder ein Programm. Ähnlich wie ein Virus ist ein Wurm eine Codeeinheit, die für die Reproduktion zusätzlicher, ähnlicher Codeeinheiten codiert ist, aber im Gegensatz zu einem Virus keinen Wirt benötigt. Viren und Würmer treten vor allem bei Dateiübertragungen zwischen Clients oder beim Versenden von URLs von anderen Benutzern auf. Wenn sich ein Virus auf Ihrem Computer befindet, kann er beispielsweise Ihre Identität verwenden und Sofortnachrichten in Ihrem Namen versenden.  Standardmäßige bewährte Methoden für die Client-Sicherheit, wie z. B. die regelmäßige Überprüfung auf Viren, können dieses Problem entschärfen.  
@@ -96,7 +96,7 @@ Die folgenden Tabellen listen die Daten auf, die für den Betrieb von SfBO benö
 |**Daten**|**Mögliche** **Einstellungen**|
 |Persönliche Daten |Name, Titel, Unternehmen, E-Mail-Adresse, Zeitzone|
 |Telefonnummern|Geschäftlich, mobil, privat|
-|Kalenderdaten|Frei/Gebucht, Abwesenheitsmitteilung, Besprechungsdetails (für Personen mit Zugriff auf Ihren Kalender)| 
+|Kalenderdaten|Frei/Besetzt, Abwesenheitsmitteilung, Besprechungsdetails (für Personen mit Zugriff auf Ihren Kalender)| 
 |Anwesenheitsstatus|Abwesend, verfügbar, gebucht, nicht stören, offline|
 |||||
 
@@ -117,10 +117,10 @@ Die folgenden Tabellen listen die Daten auf, die für den Betrieb von SfBO benö
 <!-- end of table -->
 
 ## <a name="security-framework-for-sfbo"></a>Sicherheitsframework für SfBO
-Dieser Abschnitt enthält eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Microsoft SfBO bilden. Es handelt sich um die folgenden Elemente:
+Dieser Abschnitt enthält eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für SfBO bilden. Es handelt sich um die folgenden Elemente:
 - Azure Active Directory (AAD) bietet ein einziges vertrauenswürdiges Back-End-Repository für Benutzerkonten. 
 - Die Public-Key-Infrastruktur (PKI) verwendet zum Authentifizieren des Servers und Sichern der Datenintegrität von vertrauenswürdigen Zertifizierungsstellen ausgestellte Zertifikate.
-- Transport Layer Security (TLS), HTTPS über SSL (HTTPS) und Mutual TLS (MTLS) ermöglichen die Endpunktauthentifizierung und IM-Verschlüsselung. Punkt-zu-Punkt-Audio-, Video- und Anwendungsfreigabestreams werden über SRTP (Secure Real-Time Transport Protocol) verschlüsselt.
+- Transport Layer Security (TLS), HTTPS über SSL (HTTPS) und Mutual TLS (MTLS) ermöglichen die Endpunktauthentifizierung und IM-Verschlüsselung. Punkt-zu-Punkt-Audio-, Video- und Streams für die Anwendungsfreigabe werden über SRTP (Secure Real-Time Transport Protocol) verschlüsselt.
 - Branchenstandardprotokolle für die Benutzerauthentifizierung, falls möglich.
 
 Die einzelnen Themen in diesem Abschnitt beschreiben, wie all diese grundlegenden Elemente funktionieren, um die Sicherheit Ihrer SfBO-Dienste zu verbessern.
@@ -129,14 +129,14 @@ Die einzelnen Themen in diesem Abschnitt beschreiben, wie all diese grundlegende
 Azure Active Directory fungiert als Verzeichnisdienst für O365. Es speichert alle Benutzerverzeichnisinformationen und Richtlinienzuweisungen. 
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>Public-Key-Infrastruktur für SfBO
-SfBO-Dienste nutzen Zertifikate für die Serverauthentifizierung und die Einrichtung einer Vertrauenskette zwischen Clients und Servern und zwischen den verschiedenen Serverrollen. Die Windows Server Public-Key-Infrastruktur (PKI) stellt die Infrastruktur für den Aufbau und die Validierung dieser Vertrauenskette zur Verfügung.
+SfBO-Dienste nutzen Zertifikate für die Serverauthentifizierung und die Einrichtung einer Vertrauenskette zwischen Clients und Servern und zwischen den verschiedenen Serverfunktionen. Die Windows Server Public-Key-Infrastruktur (PKI) stellt die Infrastruktur für den Aufbau und die Validierung dieser Vertrauenskette zur Verfügung.
 Zertifikate sind digitale IDs. Sie identifizieren einen Server nach Namen und geben seine Eigenschaften an. Um sicherzustellen, dass die Informationen auf einem Zertifikat gültig sind, muss das Zertifikat von einer Zertifizierungsstelle ausgegeben sein, die für Clients und andere Server, die sich mit dem Server verbinden, vertrauenswürdig ist. Wenn sich der Server nur mit anderen Clients und Servern in einem privaten Netzwerk verbindet, kann die Zertifizierungsstelle eine Unternehmenszertifizierungsstelle sein. Wenn der Server mit Entitäten außerhalb des privaten Netzwerks interagiert, ist möglicherweise eine öffentliche Zertifizierungsstelle erforderlich.
 
 Selbst wenn die Informationen auf dem Zertifikat gültig sind, muss es eine Möglichkeit zum Überprüfen geben, ob der Server, der das Zertifikat präsentiert, tatsächlich der Server ist, der von dem Zertifikat repräsentiert wird. Hier kommt die Windows PKI ins Spiel.
 Jedes Zertifikat ist mit einem öffentlichen Schlüssel verbunden. Der auf dem Zertifikat benannte Server verfügt über einen entsprechenden privaten Schlüssel, der nur ihm bekannt ist. Ein sich verbindender Client oder Server verwendet den öffentlichen Schlüssel, um eine beliebige Information zu verschlüsseln und sendet diese an den Server. Wenn der Server die Information entschlüsselt und als Klartext zurückgibt, kann die sich verbindende Entität sicher sein, dass der Server über den privaten Schlüssel zum Zertifikat verfügt und es sich daher um den auf dem Zertifikat benannten Server handelt.
 
 #### <a name="crl-distribution-points"></a>Sperrlisten-Verteilungspunkte
-SfBO fordert, dass alle Serverzertifikate mindestens einen Sperrlisten-Verteilungspunkt enthalten. Sperrlisten-Verteilungspunkte sind Standorte, von denen Zertifikatsperrlisten heruntergeladen werden können, um zu prüfen, ob das Zertifikat seit dem Zeitpunkt, an dem es ausgestellt wurde, gesperrt wurde und es sich noch im Gültigkeitszeitraum befindet. Ein Sperrlisten-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL aufgeführt und ist normalerweise ein sicheres HTTP.  Der SfBO-Dienst prüft die Sperrliste bei jeder Zertifikatsauthentifizierung.
+SfBO erfordert, dass alle Serverzertifikate mindestens einen Sperrlisten-Verteilungspunkt (CRL) enthalten. Sperrlisten-Verteilungspunkte sind Standorte, von denen Zertifikatsperrlisten heruntergeladen werden können, um zu prüfen, ob das Zertifikat seit dem Zeitpunkt, an dem es ausgestellt wurde, gesperrt wurde und es sich noch im Gültigkeitszeitraum befindet. Ein Sperrlisten (CRL)-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL aufgeführt und ist ein sicheres HTTP.  Der SfBO-Dienst prüft die Sperrliste bei jeder Zertifikatsauthentifizierung.
 
 #### <a name="enhanced-key-usage"></a>Erweiterte Schlüsselverwendung
 Alle Komponenten des SfBO-Dienstes benötigen alle Serverzertifikate zur Unterstützung der erweiterte Schlüsselverwendung (EKU) zum Zwecke der Serverauthentifizierung. Die Konfiguration des EKU-Felds für die Serverauthentifizierung bedeutet, dass das Zertifikat für den Zweck der Serverauthentifizierung gültig ist. Diese EKU ist wesentlich für MTLS. 
@@ -198,7 +198,7 @@ Die Benutzervertrauenswürdigkeit ist mit jeder Nachricht verbunden, die von ein
 
 Benutzer mit gültigen Anmeldeinformationen, die von einem Verbundpartner ausgegeben wurden, sind vertrauenswürdig, erhalten aber optional aufgrund zusätzlicher Einschränkungen nicht sämtliche Berechtigungen, die internen Benutzern erteilt werden.
 
-Für Medienauthentifizierung verwenden die Protokolle ICE und TURN ebenfalls die Hashwert-Aufforderung, wie im IETF TURN RFC beschrieben. Weitere Details finden Sie unter [Mediendurchlauf](#external-user-av-traffic-traversal).
+Zur Medienauthentifizierung verwenden die Protokolle ICE und TURN ebenfalls die Hashwert-Aufforderung, wie im IETF TURN RFC beschrieben. Weitere Details finden Sie unter [Mediendurchlauf](#external-user-av-traffic-traversal).
 
 Client-Zertifikate bieten einen alternativen Weg für die Authentifizierung von Benutzern durch SFBO. Anstelle der Angabe eines Benutzernamens und eines Kennworts haben die Benutzer ein Zertifikat und den privaten Schlüssel, der dem Zertifikat entspricht, das zum Auflösen einer kryptografischen Aufforderung benötigt wird. 
 
@@ -230,7 +230,7 @@ Damit externe und interne Benutzer Medien austauschen können, ist ein Access Ed
 
     Die A/V-Konferenzen senden eine "Benutzer hinzufügen"-Antwort, die unter anderem das Token enthält, das dem AV-Konferenz-Edge-Dienst präsentiert werden soll.
 
-    [Hinweis] Der gesamte vorhergehende SIP-Verkehr floss über den Zugriffs-Edgedienst.
+    [Hinweis] Der gesamte vorhergehende SIP-Verkehr erfolgte über den Zugriffs-Edgedienst.
 
     Der Client verbindet sich mit dem A/V-Konferenzserver, der das Token validiert und die Anforderung, die ein anderes Autorisierungstoken enthält, an den internen A/V-Konferenzserver weiterleitet. Der A/V-Konferenzserver validiert das Autorisierungstoken, das er ursprünglich über den SIP-Kanal ausgegeben hat, um sicherzustellen, dass ein gültiger Benutzer an der Konferenz teilnimmt.
     
@@ -286,5 +286,6 @@ Die Organisatoren der Besprechung kontrollieren, ob die Teilnehmer während eine
 - **Jeder, der Personen außerhalb meines Unternehmens einbezieht**&nbsp;&nbsp; Jeder (es gibt keine Einschränkungen), der der Besprechung beitritt, kann teilnehmen.
 - **Personen, die ich wähle**&nbsp;&nbsp;Der Organisator der Besprechung legt fest, welche Benutzer präsentieren können, indem er sie einer Liste von Referenten hinzufügt.
 
-## <a name="learn-more"></a>Weitere Informationen
+## <a name="related-topics"></a>See Also
 [Office 365 Trust Center](https://products.office.com/en-us/business/office-365-trust-center-security)
+
