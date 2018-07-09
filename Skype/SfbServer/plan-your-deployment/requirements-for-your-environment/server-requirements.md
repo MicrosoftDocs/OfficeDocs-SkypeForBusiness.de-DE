@@ -97,7 +97,7 @@ Skype for Business Server 2015 Enterprise Edition ist etwas komplizierter. Die 
 Wenn die von Ihnen gewünschte SQL Server-Edition nicht aufgeführt wird, können Sie sie nicht verwenden.
   
 > [!NOTE]
-> Sie müssen auch die SQL Server Reporting Services für die Monitoring Server-Role installieren, aber Sie müssen wissen, dass diese Aufgabe mit SQL Always On erst Post-RTM unterstützt sein wird. 
+> Außerdem müssen Sie SQL Server Reporting Services für die Monitoring Server-Rolle installieren. Dazu sollten Sie jedoch wissen, dass dies mit SQL AlwaysOn erst nach dem RTM unterstützt wird. 
   
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL-Spiegelung, SQL-Clustering und SQL AlwaysOn
 
