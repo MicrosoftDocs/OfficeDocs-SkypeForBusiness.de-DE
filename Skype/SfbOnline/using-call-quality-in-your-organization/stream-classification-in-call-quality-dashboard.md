@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitäts-Dashboard für Microsoft-Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: 7eb0e7f7a3a2447f69f4e42826d74169e1dba549
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: 7806178b355d3f86cbc470f6d7401b3f76077b12
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20136909"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246623"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Datenstromklassifizierung im Anrufqualitäts-Dashboard
 
@@ -41,7 +41,7 @@ Ein Audiodatenstrom wird als schlecht gekennzeichnet, wenn eine oder mehrere der
 |Durchschnittliche Audioleistungsminderung|> 1,0|Beeinträchtigung des durchschnittlichen MOS (Mean Opinion Score) für den Datenstrom. Gibt an, wie sich Netzwerkprobleme und Jitter auf die Audioqualität ausgewirkt haben.|
 |Roundtrip|> 500|Durchschnittliche in Millisekunden berechnete Roundtripzeit bei der Netzwerkverteilung, wie in RFC3550 angegeben.|
 |Paketverlustrate|> 0,1|Durchschnittliche Paketverlustrate für den Datenstrom.|
-|Jitter|> 30|Durchschnittliche Anzahl an Jitter-Daten für den Datenstrom in Millisekunden.|
+|Jitter|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|
 |Durchschnittliches Verhältnis der verborgenen Stichproben|> 0,07|Verhältnis der Anzahl der Audioframes mit verdeckten Stichproben, die durch den verdeckten Paketverlust generiert wurden, zur Gesamtzahl der Audioframes.|
 
 ### <a name="video-classifier"></a>Video-Klassifizierung
@@ -50,8 +50,8 @@ Ein Videodatenstrom wird basierend auf dem Wert der ersten verfügbaren Metrik i
 
 |**Schritt #**|**Metrik**|**Bedingung**|**Klassifizierung, wenn die Bedingung wahr ist**|**Klassifizierung, wenn die Bedingung falsch ist**|**Klassifizierung, wenn die Metrik nicht verfügbar ist**|**Erklärung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Durchschnittlicher Prozentsatz des lokalen Video-Frameverlusts|> 50|Schlecht|Gut|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames.|
-|2|Durchschnittliche Video-Framerate|< 7|Schlecht|Gut|Mit Schritt 3 fortfahren|Die durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
+|1|Durchschnittlicher Prozentsatz des lokalen Video-Frameverlusts|> 50 % |Schlecht|Gut|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames.|
+|2|Video-Framerate Mittelw.|< 7|Schlecht|Gut|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
 |3|Video-Post-FECPLR|> 0,15|Schlecht|Gut|Nicht klassifiziert|Paketverlustrate nach der Anwendung von FEC auf alle Videodatenströme und -codecs.|
 
 ### <a name="vbss-classifier"></a>VBSS-Klassifizierung
@@ -60,9 +60,9 @@ Ein VBSS-Videodatenstrom wird basierend auf dem Wert der ersten verfügbaren Met
 
 |**Schritt #**|**Metrik**|**Bedingung**|**Klassifizierung, wenn die Bedingung wahr ist**|**Klassifizierung, wenn die Bedingung falsch ist**|**Klassifizierung, wenn die Metrik nicht verfügbar ist**|**Erklärung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Durchschnittlicher Prozentsatz des lokalen Video-Frameverlusts|> 50|Schlecht|Gut|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames.|
-|2|Durchschnittliche Video-Framerate|< 2|Schlecht|Gut|Mit Schritt 3 fortfahren|Die durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
-|3|Video-Post-FECPLR|> 0,15|Schlecht|Gut|Nicht klassifiziert|Nicht klassifiziert|Paketverlustrate nach der Anwendung von FEC auf alle Videodatenströme und -codecs.|
+|1|Durchschnittlicher Prozentsatz des lokalen VBSS-Frameverlusts|> 50 % |Schlecht|Gut|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames.|
+|2|Durschnittliche VBSS-Bildfrequenz|< 2|Schlecht|Gut|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
+|3|VBSS-Pfosten FECPLR|> 0,15|Schlecht|Gut|Nicht klassifiziert|Nicht klassifiziert|Paketverlustrate nach der Anwendung von FEC auf alle Videodatenströme und -codecs.|
 
 ### <a name="application-sharing-classifier"></a>Anwendungsfreigabe-Klassifizierung
 
