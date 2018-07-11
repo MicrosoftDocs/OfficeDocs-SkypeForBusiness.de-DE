@@ -1,5 +1,5 @@
 ---
-title: Data-Auflistung-Methoden
+title: Datensammlungsverfahren
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: 9f0e0886df721397fe82a60672ef3947c14a3860
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: 2175d3fea0ab5cc2ca7cb573d48e3c700ac2bd03
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856036"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246478"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -77,15 +77,10 @@ Die Sammlung der Nutzungsdaten ist standardmäßig aktiviert, lokale Administrat
   
 Benutzer können die Sammlung der Nutzungsdaten nicht aktivieren oder deaktivieren.
   
-Skype-Besprechungen App und der Join Launcher Webseiten, ist die Möglichkeit zum Steuern der Telemetrie diese Richtlinie: <<<<<<< HEAD
-  
-<a name="set-cswebserviceconfiguration--meetinguxenabletelemetry-true"></a>Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
-=======
+Die Telemetrie für die Webseiten der Skype-Besprechungs-App und von Join Launcher kann durch diese Richtlinie gesteuert werden:
  
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
 
->>>>>>> Master
-  
 Diese Richtlinie ist standardmäßig auf „False" festgelegt, das heißt, die Telemetriesammlung ist standardmäßig deaktiviert. Diese Einstellung gilt pro Pool und für alle Benutzer, die über die Skype-Besprechungs-App eine Verbindung mit einer Besprechung herstellen, die auf dem jeweiligen Server gehostet wird.
   
 ## <a name="error-reporting-data"></a>Fehlerberichtsdaten
@@ -105,16 +100,9 @@ Für die Fehlerberichterstattung müssen zwei Voraussetzungen erfüllt sein:
   
 - Die DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung muss auf dem Server oder im Mandanten-Admin Center auf False festgelegt sein (das ist der Standardzustand). Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) finden Sie weitere Informationen.
     
-<<<<<<< KOPFZEILE
-- Benutzer erteilen die Erlaubnis über die Registerkarte „Allgemein" (durch Klicken auf das Zahnradsymbol wird das Dialogfeld „Optionen" geöffnet, in dem die Registerkarte „Allgemein" angezeigt wird) im Skype for Business-Client.
-    
-     ![Zahnradsymbol](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
-=======
 - Endbenutzer einzeln bestätigen auf der Registerkarte Allgemein (klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , und klicken Sie dann im Dialogfeld **Optionen** wird geöffnet, wobei die Registerkarte **Allgemein** angezeigt) in die Skype für Business-Client.
     
  
->>>>>>> Master
-  
 ![Skype for Business data collection checkbox in the Options > General dialog](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Für die Skype-Besprechungs-App steuert „MeetingUxEnableTelemetry" außerdem die Fehlerberichterstattung, obwohl für Abstürze unter Windows die Watson-Einstellungen das Hochladen von Absturzinformationen steuern. Es gibt für die Skype-Besprechungs-App keine Benutzereinstellung wie im Dialogfeld des Desktopclients.

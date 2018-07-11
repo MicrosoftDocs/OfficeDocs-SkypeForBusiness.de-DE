@@ -1,5 +1,5 @@
 ---
-title: PSTN-Verwendungsbericht
+title: Bericht „PSTN-Verbrauch“
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
 search.appverid: MET150
-ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3c2148b54c04950867feef1844a4ca1595f708e5
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973368"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246488"
 ---
-# <a name="pstn-usage-report"></a>PSTN-Verwendungsbericht
+# <a name="pstn-usage-report"></a>Bericht „PSTN-Verbrauch“
 
 Im neuen Bereich **Berichte** im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht **PSTN-Verwendungsdetails in Skype for Business** die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
   
@@ -73,9 +73,10 @@ Der Bericht sieht wie folgt aus:
      *    **conf_in** (Ein eingehender Anruf an die Audiokonferenzbrücke) 
      *    **conf_out** (Ein ausgehender Anruf von der Audiokonferenzbrücke, normalerweise um eine PSTN-Nummer zur Konferenz hinzuzufügen)
 
-     **Unified Communications-Anwendungen (UCAP)** 
-     *    **ucap_in** (Ein eingehender Anruf an die UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschleife) 
-     *    **ucap_out** (Ein ausgehender Anruf von der UC-Anwendung, beispielsweise einer automatischen Telefonzentrale oder einer Anrufwarteschleife)
+     **Unified Communication Applications (UCAP)** 
+     *    **ucap_in** (eine eingehende PSTN-Anruf an die UC-Anwendung wie automatische Telefonzentrale oder ein Anruf Warteschlange) 
+     *    **ucap_out** (eine ausgehende PSTN-Anruf aus der UC-Anwendung wie automatische Telefonzentrale oder ein Anruf Warteschlange)
+     *    **Hinweis:** Anrufe, die aus der UC-Anwendung an einen Benutzer übertragen wurden, wie eine automatische Telefonzentrale oder ein Anruf Warteschlange nicht in den Nutzungsbericht PSTN, da diese erscheint anrufabschnitte Audioanrufe für Peer-zu-Peer (P2P) sind. Wählen Sie Zugriff auf die P2P-Anrufe in die Skype für Business Admin Center unter "Tools > Skype für aufrufen BA" und zum Suchen nach Benutzername oder SIP-Adresse den Aufruf von Datum/Uhrzeit Korrelieren und/oder Ursprung CLID (Aufrufen von Zeile-ID). 
 *     
      **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.  
 *    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).  

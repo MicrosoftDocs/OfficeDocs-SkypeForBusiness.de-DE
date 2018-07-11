@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
-ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
+ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "20136934"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246546"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -100,10 +100,6 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Lokale Skype for Business-Benutzer erhalten meine Nachrichten nicht.  <br/> |Nachrichten werden nicht abgeschlossen, wenn Microsoft Teams-Benutzer versuchen, Nachrichten an andere Personen zu senden, die Skype for Business lokal verwenden.  <br/> | Interoperabilität zwischen Teams und in Skype for Business Online gehosteten Benutzern wird unterstützt. Teams-Benutzer können Einzelchats an Nicht-Teams-Benutzer senden, die Skype for Business Online verwenden. <br/> Interoperabilität zwischen Teams und in Skype for Business lokal gehosteten Benutzern wird nicht unterstützt. Teams-Benutzer können keine Einzelchats an Nicht-Teams-Benutzer senden, die Skype for Business lokal verwenden.  <br/> |2.11.2016  <br/> |
-
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Lokale Skype for Business-Benutzer erhalten meine Nachrichten nicht.  <br/> |Nachrichten werden nicht abgeschlossen, wenn Microsoft Teams-Benutzer versuchen, Nachrichten an andere Personen zu senden, die Skype for Business lokal verwenden. <br/> | Interoperabilität zwischen Teams und in Skype for Business Online gehosteten Benutzern wird unterstützt. Teams-Benutzer können Einzelchats an Nicht-Teams-Benutzer senden, die Skype for Business Online verwenden. <br/> Interoperabilität zwischen Teams und in Skype for Business lokal gehosteten Benutzern wird nicht unterstützt. Teams-Benutzer können keine Einzelchats an Nicht-Teams-Benutzer senden, die Skype for Business lokal verwenden. <br/> |2.11.2016  <br/> |
 
 ## <a name="client"></a>Client
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|

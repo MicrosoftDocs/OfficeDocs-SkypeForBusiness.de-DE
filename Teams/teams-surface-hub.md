@@ -3,7 +3,7 @@ title: Bereitstellen von Microsoft-Teams für die Fläche Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 07/10/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 948f9f9ed32f4e5846248dfbcd2b96577a0f34ee
-ms.sourcegitcommit: 2b15226723c299fe94f1a012aa21222173fe3af8
+ms.openlocfilehash: cfd9e5fd267de180907c2ea41c53541c08ff28b7
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "20192180"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266938"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft-Teams für die Fläche Hub
 ======================================
@@ -141,46 +141,33 @@ Nachdem Sie die vorhergehenden Schritte zum Aktivieren des Teams für Fläche Hu
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installieren von Teams für Fläche Hub aus dem Microsoft-Speicher 
 
-Dabei werden die aktuellen problemumgehungen für die Installation von Teams für Fläche Hub aus dem Microsoft Store. 
+Diese Anweisungen sind für die Installation von Teams für Fläche Hub aus dem Microsoft Store. 
  
-1. Starten Sie den Windows Store:<br>
+1. Starten Sie den Microsoft-Speicher:<br>
    a. Tippen Sie auf **Start** > **Alle Apps** > **Settings**.<br> b. Tippen Sie auf **Konto Fläche Hub-Gerät, Management**.<br>
    c. Tippen Sie auf der linken Seite auf der Registerkarte **Apps und -Features** .<br> d. Tippen Sie auf der rechten Seite auf die Schaltfläche **Öffnen Store** . 
-2. Suchen Sie nach *Microsoft-Teams*, aus dem Microsoft Store. Die **Microsoft-Teams Fläche Hub (Preview)** wird angezeigt. Tippen Sie auf die Schaltfläche **rufen Sie die app** zu installieren.  
+2. Suchen Sie nach *Microsoft-Teams*, aus dem Microsoft Store. Die **Microsoft-Teams Fläche Hub** wird angezeigt. Tippen Sie auf die Schaltfläche **rufen Sie die app** zu installieren.  
 3. Wenn die Installation abgeschlossen ist, starten Sie Fläche Hub neu. 
-4. Nach dem Neustart die Fläche Hub wird, werden Sie können die Teams app im Menü **Start** starten und teilnehmen an einer Besprechung aus dem Kalender. 
 
-## <a name="make-teams-the-default-vtc-application"></a>Stellen Sie die standardanwendung VTC Teams
+> [!NOTE]
+> Tippen Sie nicht auf aus dem Angebot Seite Speicher **zu starten** .
 
-Teams können die standardmäßige VTC-Anwendung anstelle von Skype für Unternehmen werden bis zu festgelegt werden. Eine Richtlinie für Mobile Geräte Management (MDM) muss auf dem Gerät Fläche Hub angewendet werden soll. 
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>Stellen Sie die Standardeinstellung Anruf- und Besprechungen Anwendung Teams
  
-Es gibt zwei Optionen zum Konfigurieren von MDM Richtlinien: 
+Es gibt zwei Optionen für die Anruf- und Besprechungen Anwendung Standardrichtlinie konfigurieren: 
 
-- Wenn Sie eine Richtlinie konfiguriert haben, fügen sie über die Geräte Management app hinzu. 
-- Wenn Sie keine remote-Richtlinie konfiguriert haben, haben wir eine bereitgestellten Package-Datei, die auf einem USB-Schlüssel geladen werden kann.
-
-### <a name="device-management-configuration"></a>Verwaltung der Gerätekonfiguration
-
-Es folgt ein Beispiel für eine von einer zentralen MDM Zertifizierungsstelle konfigurierte MDM Richtlinie hinzufügen. Wenn Sie sich im Unternehmensnetzwerk sind, können Sie die folgenden Anweisungen, einschließlich Benutzerkonto wortwörtlich. 
+- **Option 1**: Konfigurieren von über USB-Schlüssel. 
+- **Option 2**: über MDM wie InTune konfigurieren.
  
-1. Klicken Sie im Abschnitt **Verwaltung von Geräten** Tippen Sie auf **+**.<br>
-   Das Dialogfeld **Verbindung mit arbeiten oder Schule herstellen** wird geöffnet. 
-2. Geben Sie die Richtlinie e-Mail-Adresse und das Kennwort bei entsprechender Aufforderung.<br>
-   **Hinweis:**  Es ist ein Fehler in das Betriebssystem, das automatisch die Benutzeroberfläche nicht aktualisiert wird, nachdem Sie Ihr Gerät Management-Konto eingegeben haben. Sie müssen zu schließen und erneut öffnen Einstellungen, um die angegebene Konto zu sehen. 
-3. Es werde ein paar Minuten für die MDM Benutzerrichtlinien synchronisieren. Wenn Sie eine Synchronisierung erzwingen möchten, tippen Sie auf die Schaltfläche **MDM-Konto** ein, und tippen Sie dann auf die Schaltfläche **Info** . Dadurch wird das Fenster Info angezeigt, in dem Sie **Sync**tippen können. 
-4. Zum bestätigen, dass Sie verfügen, was Sie benötigen, können Sie die Registrierung überprüfen. Zwei Schlüssel unter **HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**sollte angezeigt werden. <br><br>
-   Der **VtcAppMeetingHandlingMode** DWORD-Wert gibt an, dass Teams ist der Standard-app. Die folgenden Werte werden erkannt. <br><br>
-    |Number | Wert   |
-    |-------|---------|
-    |0      | SkypePreferred            |
-    |1      | VtcPreferred (Teams)      |
-    |2      | VtcExclusive (nur Teams) |
+### <a name="option-1-configure-via-usb-key"></a>Option 1: Konfigurieren von über USB-Schlüssel 
+ 
+Die Pakete finden Sie auf dieser [Seite herunterladen](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Wählen Sie die entsprechenden für das Paket, das Sie planen, installieren und kopieren Sie ihn in einen USB-Schlüssel. Die richtigen .ppkg-Datei verwenden, hängt die Standardrichtlinie für die Anwendung wie folgt anwenden möchten: 
 
-    Die **VtcCallAppPackageId** ist der Name des installierten Teams-Pakets. Wenn dies nicht angezeigt, stellen Sie sicher, dass Sie das Paket Teams installiert haben und erneut synchronisieren. 
- 
-### <a name="configure-mdm-via-usb-key"></a>Konfigurieren von MDM über USB-Schlüssel 
- 
-Die Pakete finden Sie auf dieser [Seite herunterladen](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Wählen Sie die entsprechenden für das Paket, das Sie planen, installieren und kopieren Sie ihn in einen USB-Schlüssel. Die richtigen .ppkg zu verwendende Datei hängt davon ab, das Teams-Paket, das aus dem Speicher installiert wurde, und die Richtlinie (Skype exklusive, bevorzugter Skype, Teams bevorzugt, Teams Exclusive) gelten soll. 
+|Number  |Beschreibung  |
+|---------|---------|
+|0     | Bevorzugter Skype-app auf der Startseite, Teams Besprechungen verfügbar        |
+|1     | Teams bevorzugte app auf der Startseite, Skype Besprechungen verfügbar        |
+|2     | Teams exklusive app auf der Startseite (Skype-app nicht verfügbar)        |
  
 1. Fügen Sie den USB-Schlüssel an die Fläche Hub-Gerät. 
 2. Öffnen Sie die **Einstellungen** app auf einem Gerät Fläche Hub. 
@@ -189,8 +176,27 @@ Die Pakete finden Sie auf dieser [Seite herunterladen](https://1drv.ms/f/s!Arcnb
 5. Klicken Sie auf **Hinzufügen oder Entfernen einer Bereitstellung Paket**. 
 6. Klicken Sie auf **Paket hinzufügen**.
 7. Wählen Sie aus dem Dropdown-Menü die Option **Wechselmedium** aus. 
-8. Fügen Sie die **Allowbuildspreview.ppkg**, und wählen Sie dann das Fläche Hub-Paket, den, das Sie hinzufügen möchten. 
+8. Fügen Sie das entsprechende **TeamsRTMMode*.ppkg** -Paket, das zuvor an den USB-Schlüssel kopiert wurde. 
 9. Starten Sie das Fläche Hub-Gerät neu. 
+10. Nach dem Neustart des Geräts, sollten Sie möglicherweise die Teams app aus dem Bildschirm Start starten und teilnehmen an einer Besprechung aus dem Kalender. 
+
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2: Konfigurieren von über MDM wie InTune 
+
+Verwenden Sie Folgendes, um die Anruf- und Besprechungen Anwendung Standardrichtlinie über InTune konfigurieren.
+
+|Einstellung   |Wert    |Beschreibung    |
+|----------|---------|---------|
+| Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|Datentyp | Ganzzahl (0-2)   |0 – bevorzugte Skype-app auf der Startseite, Teams Besprechungen verfügbar<br>1 – Teams bevorzugte app auf der Startseite, Skype Besprechungen verfügbar<br>2 - Teams exklusive app auf der Startseite (Skype-app nicht verfügbar) |
+|Betrieb| Abrufen, festlegen        |
+
+|Einstellung   |Wert    |
+|----------|---------|
+| Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|Datentyp | String (Zeichenfolge festlegen, um Teams Anwendungspaket-ID als - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Teams**) |
+|Betrieb| Abrufen, festlegen        |
+
+Starten Sie das Fläche Hub-Gerät neu. Nach dem Neustart des Geräts, sollten Sie möglicherweise die Teams app aus dem Bildschirm Start starten und teilnehmen an einer Besprechung aus dem Kalender.
 
 > [!NOTE]
 > Wenn das Gerät oder die Geräte Ihrer Organisation nicht aktuell Teil der Windows-Insider-Anwendung sind, und Sie befinden sich in Ländern behandelt durch allgemeine Data Protection Regulierung (GDPR) (oder Einstelllungen Telemetrie Basisdatenträger manuell geändert haben), müssen Sie erneut überprüfen dass Sie vollständige Telemetrie zulässig haben, bevor Sie die Insider Programm teilnehmen. GDPR geändert, das Standardverhalten des Fläche Hub-Geräte in der EU für grundlegende Telemetrie festzulegen.

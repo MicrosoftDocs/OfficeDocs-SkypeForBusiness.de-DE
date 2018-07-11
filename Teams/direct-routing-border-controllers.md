@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft-Partner mit ausgewählten SBC-Anbietern für ihren SBC Zertifizierung arbeiten mit direktem Routing.
-ms.openlocfilehash: de006d216b81b3aaa2b07749855f1313be646d05
-ms.sourcegitcommit: b7b6bdaf9d40b70151ce7b5d1b659b5466f0841c
+ms.openlocfilehash: 27586342fd81046dc21c97267b6875c41926de71
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/04/2018
-ms.locfileid: "20195388"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246649"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der Session Border Controller für die direkte Weiterleitung zertifiziert
 
@@ -51,5 +51,5 @@ Die folgende Tabelle enthält die Geräte, die für die direkte Weiterleitung ze
 |     | SBC Schwedisch  |   & #10004;    |    Ausstehende     |    V6. 2      |
 |     |SBC 1000   |     & #10004;   |     Ausstehende    |    V7.0.2   |& #10004; 
 |     | SBC 2000    |     & #10004;   |    Ausstehende     |    V7.0.2      |
-|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Denken Sie 365 SBC      |  & #10004;       |    Ausstehende     |   V1. 4       |
+|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Denken Sie 365 SBC      |  & #10004;       |    Ausstehende     |   V1. 4       |
 |     |         |         |         |         |
