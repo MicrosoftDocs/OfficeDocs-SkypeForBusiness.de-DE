@@ -250,6 +250,7 @@
 #### [Planen der direkten Routing](direct-routing-plan.md)
 #### [Konfigurieren der Weiterleitung von direkten](direct-routing-configure.md)
 #### [Migrieren zu direkten Routing](direct-routing-migrating.md)
+#### [Überwachung und Problembehandlung von direkten Routing](direct-routing-monitor-and-troubleshoot.md)
 #### [Benutzerkonten in einer hybridumgebung mit PSTN-Anbindung](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Konfigurieren eines Session Border Controller für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 #### [Liste der Session Border Controller für die direkte Weiterleitung zertifiziert](direct-routing-border-controllers.md)
