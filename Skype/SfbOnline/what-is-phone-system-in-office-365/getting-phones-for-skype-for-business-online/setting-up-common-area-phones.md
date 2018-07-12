@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Lernen Sie die Bereitstellungsschritte kennen, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuweisen und Einstellungen für Telefone für gemeinsame Bereiche zu konfigurieren.
-ms.openlocfilehash: 25605e7538792080213eebb898e612be6ce5bfab
-ms.sourcegitcommit: bdf9946b7c65ef7985d6b03a1479ea3a5c17a304
+ms.openlocfilehash: b32995839da45975449cd8b4cd077c97cff8ad38
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2018
-ms.locfileid: "19426801"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20302180"
 ---
 # <a name="set-up-common-area-phones"></a>Einrichten von Telefonen für gemeinsame Bereiche
 Ein Telefon für gemeinsame Bereiche (CAP) wird typischerweise in einem Bereich wie in einer Lobby oder in einem anderen Bereich platziert, der vielen Menschen zur Verfügung steht. Zum Beispiel ein Telefon im Empfangsbereich, ein Türtelefon oder ein Konferenzraumtelefon, CAPs werden als Geräte und nicht als Benutzer eingerichtet und melden sich automatisch in einem Netzwerk an. In den folgenden Schritten helfen wir Ihnen, ein Konto für das Telefonsystem mit Anrufplänen einzurichten, damit Sie diese Art von Telefone für Ihr Unternehmen bereitstellen können.
@@ -37,12 +37,12 @@ Zunächst müssen Sie bestätigen, dass Folgendes zutrifft:
  - Sie haben die Firmware auf Ihren Telefonen aktualisiert (siehe unterstützte Firmware [in diesem Thema](getting-phones-for-skype-for-business-online.md)).  Sie können die Firmware auf Ihrem Telefon wie folgt überprüfen:       
     - **Polycom VVX-Telefone**: Gehen Sie zu **Einstellungen** > **Status** > **Plattform** > **Anwendung** > **Haupt**.
     - **Yealink-Telefone**: Gehen Sie auf dem Hauptbildschirm des Telefons zu **Status**.
-    - **AudioCodes-Telefone**: Gehen Sie auf dem Hauptbildschirm auf **Menü** > **Gerätestatus** > **Firmwareversion**. 
-    - **Telefone mit Lync Phone Edition (LPE)**: Gehen Sie auf dem Startbildschirm auf **Menü** > **Systeminformationen**.
+    - **AudioCodes-Telefone**: Gehen Sie auf dem Hauptbildschirm auf **Menü** > **Gerätestatus** > **Firmware-Version**. 
+    - **Telefone mit Lync Phone Edition (LPE)**: Gehen Sie auf dem Startbildschirm auf**Menü** > **Systeminformationen**.
 
     Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware für alle Skype for Business-zertifizierten Telefone wird auf den Skype for Business-Updateserver hochgeladen, und Geräteupdates sind in allen Telefonen standardmäßig aktiviert. 
 
-    Je nachdem, wann die Telefone inaktiv sind und welche Abrufintervalle festgelegt sind, werden die neuesten zertifizierten Builds automatisch heruntergeladen und installiert. Sie können die Einstellungen für Geräteupdates mit dem [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy)-Cmdlet deaktivieren und den Parameter *Geräteupdate aktivieren* auf `false` einstellen.
+    Je nachdem, wann die Telefone inaktiv sind und welche Abrufintervalle festgelegt sind, werden die neuesten zertifizierten Builds automatisch heruntergeladen und installiert. Sie können die Einstellungen für Geräteupdates mit dem [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy)-Cmdlet deaktivieren und den  *EnableDeviceUpdate*-Parameter auf `false` festlegen.
 
 ## <a name="setting-up-a-common-area-phone"></a>Einrichten eines Telefons für gemeinsame Bereiche
 Sie müssen diese Schritte befolgen:
@@ -52,7 +52,7 @@ Sie müssen diese Schritte befolgen:
 
     ![CAP-license.png](../../images/cap-license.png)
 2. Klicken Sie auf **Telefon für gemeinsame Bereiche** > **Jetzt kaufen** > auf der Seite **Check-Out** klicken Sie auf **Jetzt kaufen**.
-3. Klicken Sie darauf, um **Add-on-Abonnements** zu erweitern, und klicken Sie dann darauf, um einen Anrufplan zu kaufen. Wählen Sie entweder den **Anrufplan für Inland** oder **Anrufplan für Inland und Ausland**.
+3. Klicken Sie darauf, um **Add-on-Abonnements** zu erweitern, und klicken Sie dann darauf, um einen Anrufplan zu kaufen. Wählen Sie entweder den **Anrufplan für Inland** oder **Anrufplan für In- und Ausland**.
 
 > [!Note]
 > Sie benötigen für das Telefonsystem keine Lizenz. Sie ist in der Lizenz **Telefon für gemeinsame Bereiche** enthalten.
@@ -137,10 +137,15 @@ Das oder die Telefone, die Sie besitzen, müssen den Modus **Telefone für gemei
     5. Geben Sie im Fenster Kopplungscode den auf dem Telefon angezeigten Code ein und klicken Sie auf **Bereitstellen**.
 
         Nach diesem letzten Schritt sollte sich das Telefon automatisch anmelden.
+        
 
-### <a name="related-topics"></a>Verwandte Themen
+> [!NOTE]
+> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein Active Directory mit AAD synchronisiert haben, achten Sie darauf, dass die von Ihnen verwendeten Anmeldeinformationen durch die CAP-Bereitstellung geändert werden.
+
+
+### <a name="related-topics"></a>Sehen Sie auch
 
 - Weitere Informationen über verfügbare Telefone finden Sie unter [Einsatz von Skype for Business Online-Telefonen](deploying-skype-for-business-online-phones.md).
-- [Kauf von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md)
+- [Erwerben von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md)
 
 
