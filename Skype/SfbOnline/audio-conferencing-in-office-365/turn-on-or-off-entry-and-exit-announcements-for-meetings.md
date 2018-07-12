@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9cd2c95d0dde2e61ca1f0378fe91a215bdfc2682
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20302151"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Aktivieren bzw. Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen
 
 Wenn Sie Audiokonferenzen in Office 365 einrichten, erhalten Sie eine audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehrere Telefonnummern enthalten, mit denen Personen einen Skype für Business oder Microsoft-Teams Besprechung anrufen. 
   
 Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, die in einer Besprechung mit einem Telefon einwählt. Bitten Sie die Konferenzbrücke den Anrufer mit Ansagen aus einer Live Meeting-Telefonzentrale beantwortet, und klicken Sie dann je nach Ihrer Einstellungen kann wiedergeben Benachrichtigungen, Anrufer dokumentieren Sie ihren Namen, und richten Sie die PIN-Sicherheit. Eine PIN zu einem Skype für Business oder Microsoft-Teams Besprechungsorganisator angegeben wird, und es ermöglicht es ihnen, eine Besprechung starten, wenn die Besprechung mithilfe einer Skype für Business oder Microsoft-Teams app gestartet werden kann. Sie können, jedoch festlegen, sodass eine PIN erforderlich ist, um eine Besprechung zu starten.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Festlegen von Optionen für die Besprechungsteilnahme
 
@@ -60,12 +64,10 @@ Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, die in einer B
     
 5. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) nutzen.
+- Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) nutzen.
     
 -  In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
@@ -86,4 +88,4 @@ Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, die in einer B
   
 ## <a name="related-topics"></a>See Also
 
-[Allgemeine Fragen zu Audiokonferenzen](audio-conferencing-common-questions.md)
+[Allgemeine Fragen zu Audiokonferenz](audio-conferencing-common-questions.md)
