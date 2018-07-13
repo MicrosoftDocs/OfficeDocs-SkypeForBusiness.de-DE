@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren von gebührenfreie Nummern für bestimmte Benutzer
+title: Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen verwenden können.
-ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2f506163ce815f71d18935040dbf13bf4af4f04c
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324141"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreie Nummern für bestimmte Benutzer
+# <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer
 
 Wenn Ihre Organisation gebührenfreie Nummern in der Microsoft Audio Conferencing Bridge verfügt, können Sie erlauben oder verhindern ihrer Verwendung in Besprechungen von bestimmten Organisatoren durch.  
 
@@ -40,7 +41,10 @@ Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:
 
  - Teilnehmer können weiterhin teilnehmen an Besprechungen des Dialogfelds Organisieren von gebührenfreie Nummern. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreie Nummern für bestimmte Benutzer 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer 
 
 ![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 

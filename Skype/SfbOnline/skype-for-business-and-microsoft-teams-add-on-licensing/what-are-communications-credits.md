@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5d3a1c2b3565f8497bf108d9af6ad44379f2515b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 070816cf38fd86bf89bb05d27f1aedf5a5f90da5
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20326995"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -76,7 +77,7 @@ Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung 
   
 ## <a name="recommended-funding-amounts"></a>Empfohlene Einzahlungsbeträge
 
-Es wird empfohlen, dass Sie zunächst mit einer kleinen Finanzierung Menge, die für kleinere Unternehmen auch mindestens 20 $ sein könnten. Nachdem Sie ein oder zwei Monate PSTN-Verwendung mit dem PSTN-Verwendungsbericht Details erfassen, müssen Sie passen Sie die Beträge, um die normalen Verwendung in Ihrer Organisation erfüllt sein.
+Es wird empfohlen, dass Sie zunächst mit einer kleinen Finanzierung Menge, die für kleinere Unternehmen auch die mindestens 50 USD sein könnten. Nachdem Sie ein oder zwei Monate PSTN-Verwendung mit dem PSTN-Verwendungsbericht Details erfassen, müssen Sie passen Sie die Beträge, um die normalen Verwendung in Ihrer Organisation erfüllt sein.
   
 Wenn Sie bereit sind, mit der Einrichtung beginnen, lesen Sie [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](set-up-communications-credits-for-your-organization.md).
   

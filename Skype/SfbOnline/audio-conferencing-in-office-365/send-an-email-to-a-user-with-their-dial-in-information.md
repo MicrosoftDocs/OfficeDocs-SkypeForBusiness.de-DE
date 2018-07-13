@@ -1,5 +1,5 @@
 ---
-title: Senden einer e-Mails an einen Benutzer mit ihren Einwahlinformationen
+title: Senden einer E-Mail mit den Einwahlinformationen an einen Benutzer
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Senden Sie Ihre Benutzer eine e-Mail mit ihren Audiokonferenzinformationen.
-ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 28d3f83259033b5e587c299464a334710797e149
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20324123"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer
 
@@ -38,6 +39,9 @@ Manchmal Skype für Business oder Microsoft-Teams, Benutzer benötigen Sie mögl
 Es folgt ein Beispiel der e-Mail, die gesendet wird:
   
 ![E-Mail zu einer Dial-In-Konferenz](../images/audio-conferencing-info.png)
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden Sie eine e-Mail mit Audiokonferenzinformationen an einen Benutzer
 
@@ -46,10 +50,6 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
-
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
