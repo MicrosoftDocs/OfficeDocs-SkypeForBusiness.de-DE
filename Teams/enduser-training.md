@@ -10,12 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c490717f0b2b6242735a01bd4e420588b3b06f
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 95841fe18e8435d319c4f1c5e5e7c5754a46d0c6
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266108"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20361130"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================
@@ -33,9 +33,8 @@ Verwenden Sie diese Schulungsressourcen, um Ihrer Organisation die optimale Nutz
 | [Microsoft Teams-Kanal auf YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [YouTube-Kanal „Coffee in the Cloud“](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Videos mit Anleitungen, bewährten Methoden und Funktionsbeschreibungen  |
 | Einführung in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
-| Einführung in die Microsoft-Teams für Bildungseinrichtungen  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
-| 5 Minuten zum Einrichten von sinnvollen Teams, Kanälen und Registerkarten   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
-| Hinzufügen von Gäste an Ihr Team von Microsoft Allgemein - Zusammenarbeit  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
-| Beschleunigen der Zusammenarbeit - mithilfe der Befehlsleiste in Microsoft-Teams  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
+| Einführung in die Microsoft-Teams für Bildungseinrichtungen  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
+
+| 5 Minuten auf die Einrichtung von Registerkarten, Kanäle und große Teams | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | | Allgemein - zusammenarbeiten, Hinzufügen von Gäste an Ihr Team Microsoft | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | | Beschleunigen die Zusammenarbeit - mithilfe der Befehlsleiste in Microsoft-Teams | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
 
 

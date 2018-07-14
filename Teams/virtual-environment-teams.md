@@ -3,7 +3,7 @@ title: Führen Sie Microsoft-Teams in einer virtuellen Umgebung
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/13/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d00ee6a3c14b5a1bb97685124293b13977c323af
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: 08a82c2450d238a59d7e076ceb95368c3dce91e2
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20328738"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363923"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Führen Sie Microsoft-Teams in einer virtuellen Umgebung
 ============================================
@@ -55,7 +55,7 @@ Die Cmdlets *CsTeamsCallingPolicy* aktivieren Websiteadministratoren steuern, ob
 \>> *Import-PSSession $sfboSession*<br>
 3.  Liste der Anrufoptionen Richtlinie anzeigen:<br>
 \>> *Get-CsTeamsCallingPolicy*
-4.  Suchen Sie nach der Überprüfung vor dem programmierte Option, bei denen alle Besprechungsrichtlinien deaktiviert sind:<br>
+4.  Suchen Sie nach die Option vor dem programmierte, bei denen alle Richtlinien für die aufrufende deaktiviert sind:<br>
 ![Screenshot der Option von Besprechungen mit alle Besprechungsrichtlinien deaktiviert.](media/virtual-environment-image2.png)
 5.  Alle Benutzer, die in einer virtualisierten Umgebung Teams verwenden sollen zuweisen Sie die Option "DisallowCalling" vor dem programmierte Richtlinie:<br>
 \>> *GRANT-CsTeamsMeetingPolicy - PolicyName AllOff-Identity "Benutzer-e-Mail-Id"*
