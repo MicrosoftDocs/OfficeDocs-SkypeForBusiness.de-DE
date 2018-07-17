@@ -3,7 +3,7 @@ title: Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsof
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 05/17/2018
+ms.date: 07/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,11 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 description: Office 365-Benutzer, die nicht für Microsoft-Teams lizenziert sind, können eine 1 Jahr Testversion von Teams initiieren.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: e282481cc8cdb5eba23a56ef32adff2e812fefbf
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: ec12fa2687255fb3097d4bbe637389bc643d77cd
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412333"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsoft
 =======================================================
@@ -47,11 +48,11 @@ Darüber hinaus Ihres Mandanten ist nicht für die Testversion If:
 
 Darüber hinaus Wenn Ihres Mandanten nicht für die Microsoft-Teams kommerziellen Cloud Testangebot ist, werden Sie nicht die Option **dazu, Benutzern das Installieren Studien apps und Dienste aus** angezeigt.
 
-Auf der Ebene des Mandanten Teams als Dienst muss (in der Verwaltungskonsole des Teams) aktiviert werden soll. Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md). Darüber hinaus müssen Benutzer für apps und Testversionen (im Office 365 Administrationscenter) anmelden aktiviert werden. Weitere Informationen finden Sie unter [Verwalten der Information Worker Studien](#manage-the-iw-trial) weiter unten in diesem Artikel.
+Auf der Ebene des Mandanten Teams als Dienst muss (in der Verwaltungskonsole des Teams) aktiviert werden soll. Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md). Darüber hinaus müssen Benutzer für apps und Testversionen (im Office 365 Administrationscenter) anmelden aktiviert werden. Weitere Informationen finden Sie unter [Verwalten der Testversion](#manage-the-trial) weiter unten in diesem Artikel.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Wie Benutzer für die Testversion anmelden
 
-Berechtigte Benutzern können durch Anmeldung bei Teams ([teams.microsoft.com](https://teams.microsoft.com)) für die Information Worker Testversion registrieren. Wenn verfügbar sind, sehen sie in der folgenden Bildschirmrand aus, um die Testversion zu starten. 
+Berechtigte Benutzern können durch Anmeldung bei Teams ([teams.microsoft.com](https://teams.microsoft.com)) für die Testangebot registrieren. Wenn verfügbar sind, sehen sie in der folgenden Bildschirmrand aus, um die Testversion zu starten. 
 
 ![Screenshot der Startseite für die Testversion Teams Information Worker.](media/iw-trial-start-screen.png)
 
@@ -59,9 +60,9 @@ Die Information Worker Testversion gewährt eine Testversion 1 Jahr im gesamten 
  
 Alle Versuche innerhalb Ihrer Organisation freigeben, die gleiche Start- und Enddaten, welches das Datum ist der erste Benutzer für die Testversion angemeldet. Angenommen, wenn Benutzer A die erste Testversion auf 25 April 2018 und Benutzer B eine Testversion auf 3 Juni 2018 beginnt, läuft beide Benutzer Testversion auf 25 April 2019 ab.
 
-## <a name="manage-the-iw-trial"></a>Verwalten der Information Worker-Testversion
+## <a name="manage-the-trial"></a>Verwalten der Testversion
 
-Administratoren können die Möglichkeit für Endbenutzer in trial apps und Dienste innerhalb ihrer Mandanten Anspruch zu deaktivieren. Derzeit die Information Worker Teams Testversion nur Studien in dieser Kategorie ist, aber dies möglicherweise gelten für andere Programme ähnlich wie in der Zukunft. 
+Administratoren können die Möglichkeit für Endbenutzer in trial apps und Dienste innerhalb ihrer Mandanten Anspruch zu deaktivieren. Derzeit die Testversion Teams nur Studien in dieser Kategorie ist, aber dies möglicherweise gelten für andere Programme ähnlich wie in der Zukunft. 
 
 1\. Wechseln zu **Services & -add-ins**im [Office 365 Administrationscenter](https://portal.office.com/adminportal/home) > **Benutzer Apps und Diensten gehören**.
 
@@ -71,7 +72,7 @@ Administratoren können die Möglichkeit für Endbenutzer in trial apps und Dien
 
 ![Screenshot des Benutzers gehören Apps und Diensten Seite im Office 365 Administrationscenter.](media/iw-trial-enable-2.png)
 
-3\. Sie können Teams für den Mandanten deaktivieren durch das Aufrufen der Verwaltungsportals von Teams. Wenn diese Option deaktiviert ist, können nicht Benutzer die Testversion Teams Information Worker beansprucht werden.
+3\. Sie können Teams für den Mandanten deaktivieren durch das Aufrufen der Verwaltungsportals von Teams. Wenn diese Option deaktiviert ist, können nicht Benutzer beansprucht werden, dass die Teams Testversion anbieten.
 
 4\. Wenn Sie die Teams Dienstplan für einen einzelnen Benutzer, die eine Anspruch Lizenz besitzt deaktiviert haben, kann der Benutzer nicht berechtigt, eine Testlizenz beanspruchen.
 

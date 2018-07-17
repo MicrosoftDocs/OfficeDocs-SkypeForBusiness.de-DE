@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397147"
+ms.locfileid: "20412276"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
@@ -49,7 +49,7 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
 |Konsole|Prozessor|RAM|Festplatte|
 |:-----|:-----|:-----|:-----|
 |[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
- <!-- HP dock is still pending  -->  
+|[HP Elite Segments zur Erfüllung G2 Räume](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  |  
     
 - Eine der folgenden docking Station Optionen auf einen Tablet zur Besprechung sichere Raum Tabelle. 
     

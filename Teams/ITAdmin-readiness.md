@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aae2fb4118a5069c7f1f85a90326ec9c158037db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eed2f652ae91c8f6c5296fc558d5008fb0e5e607
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569597"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20409312"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 ==================================
@@ -28,7 +28,7 @@ Hier erhalten Sie Informationen zu Microsoft Teams und zum Vorantreiben der Nutz
 
 |  |  |
 |---------|---------|
-| [Tutorial: Reise von Skype for Business zu Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Hier erfahren Sie alles, was Sie über die Reise von Skype for Business Online zu Microsoft Teams wissen müssen.  |
+| [Lernprogramm: Upgrade von Skype für Unternehmen, die Microsoft-Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Durchlaufen Sie alles, was Sie benötigen, über das Upgrade für Teams von Skype für Business Online wissen müssen.  |
 | [Lernprogramm: Audiokonferenzen in Teams](Tutorial-Audio-Conferencing.yml) | Dieser interaktiven Schulung durchlaufen Audiokonferenzen in Teams. |
 | [Schnellstart: Microsoft-Teams für Bildungseinrichtungen-Admins](teams-quick-start-edu.yml) |Für IT-Administratoren in Bildungseinrichtungen: Stellen Sie Microsoft Teams in der gesamten Organisation bereit.   |
 | [Schnellstart: Konfigurieren von Aufrufen plant in Microsoft-Teams](configuring-teams-calling-quickstartguide.md)| Schnellstarthandbuch für das Konfigurieren von Anrufplänen in Microsoft Teams |
