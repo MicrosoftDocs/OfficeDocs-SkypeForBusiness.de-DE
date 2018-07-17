@@ -18,6 +18,7 @@
 ## [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
 ## [Erstellen der Änderung-Strategie](change-management-strategy.md)
 ## [Beziehen von Tools zur Unterstützung eines Rollouts von Teams](rollout-tools.md)
+## [Planen von Microsoft 365 Government - GCC-Bereitstellungen](plan-for-government-gcc.md)
 <!-- ============================================================ -->
 
 
@@ -95,20 +96,7 @@
 <!-- ============================================================ -->
 
 
-<!-- 
-# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
-### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
-## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
-### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
-## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-## [4 - Drive value through user adoption](continue-journey.md)
-## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
- -->
-
-<!-- NEW ============================================================ -->
+<!-- ============================================================ -->
 # [Aktualisieren von Skype für Unternehmen auf Microsoft-Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Reise von Skype for Business zu Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Grundlegende aktualisieren](upgrade-basic.md)
@@ -140,7 +128,7 @@
 ### [Erweitern Sie den Dienst](upgrade-enhance-my-service.md)
 ## [Häufig gestellte Fragen](FAQ-journey.md)
 
-<!-- END NEW ============================================================ -->
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Sicherheit und Compliance
@@ -206,7 +194,7 @@
 ## Apps und Dienste
 ### [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
 ### [Hinzufügen von Bots für private Chats und Kanäle in Teams](add-bots.md)
-### [Veröffentlichen von apps in den Teams privaten App-Informationsspeicher](tenant-apps-catalog-teams.md)
+### [Veröffentlichen von apps zum Teams Mandanten Apps-Katalog](tenant-apps-catalog-teams.md)
 ### [Verwenden von integrierten und benutzerdefinierten Registerkarten in Teams](built-in-custom-tabs.md)
 ### [Verwenden von Office 365 und benutzerdefinierten Connectors in Teams](office-365-custom-connectors.md)
 ### [Verwenden von T-Bot, um Benutzern bei der Verwendung von Teams zu helfen](t-bot.md)
