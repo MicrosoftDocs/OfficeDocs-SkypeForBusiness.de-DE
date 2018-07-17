@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 6b31c9bc69fd9329902ca3eb2b77b8883b3b58bb
-ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
+ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "20176184"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397147"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
@@ -123,20 +123,13 @@ In den folgenden Tabellen enthalten Empfehlungen für Peripheriegeräte basieren
 
 ## <a name="required-software-downloads"></a>Erforderliche Softwaredownloads
 
-Sie benötigen ein eigenes Bild Skype Raum Systemen v2 erstellen die folgenden Downloads:
-  
-- Das [Skype Raum Systemen v2-Installationspaket](https://go.microsoft.com/fwlink/?linkid=851168).
-    
-- Eine Kopie der 64-Bit-Version von Windows 10 Enterprise Creator Update (englische, Build 1703) zu erhalten. 
-    
+Um ein eigenes Bild Skype Raum Systemen v2 zu erstellen, befolgen Sie die Anweisungen unter [Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md). Diese Anleitung führt Sie durch alle erforderliche Software für den Installationsvorgang herunterladen. 
+
     > [!NOTE]
-    > Die 64-Bit-Version von Windows 10 Enterprise Jahrestag Edition (englische, Version 1607) wird nicht mehr Skype Raum Systemen v2 Version 3.0.12.0 (Update 3) unterstützt. 
-  
-- Die unterstützten [Surface Pro 4 Treiber](https://go.microsoft.com/fwlink/?linkid=856887) oder [Surface Pro Treiber](https://go.microsoft.com/fwlink/?linkid=856888).
-    
-Diese Downloads müssen in einer startbare Windows Media-Installationsdatenträger auf eine bestimmte Weise kombiniert werden in [Configure Skype Raum Systemen v2 Konsole](../../deploy/deploy-clients/console.md)beschrieben. 
-  
+    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+
 Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), häufig zum Bereitstellen von Skype Raum Systemen v2 Konten verwendet.
+
   
 ## <a name="see-also"></a>Siehe auch
 
