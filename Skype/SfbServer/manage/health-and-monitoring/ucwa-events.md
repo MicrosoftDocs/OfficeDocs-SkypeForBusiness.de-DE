@@ -1,30 +1,30 @@
 ---
-title: UCWA-Ereignisse in Skype for Business Server 2015
+title: UCWA-Ereignisse in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Zusammenfassung: Informationen Sie zu den Unified Communications-Web-API (UCWA) in Skype für Business Server 2015.'
-ms.openlocfilehash: cc9b62a4d00e9c4ed4feadfbfecfa4e3f8ca79fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Unified Communications-Web-API (UCWA) in Skype für Business Server.'
+ms.openlocfilehash: 5a9fa42fa1367cd4afd74bc40f30549ca5777950
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981093"
 ---
-# <a name="ucwa-events-in-skype-for-business-server-2015"></a>UCWA-Ereignisse in Skype for Business Server 2015
+# <a name="ucwa-events-in-skype-for-business-server"></a>UCWA-Ereignisse in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über die Unified Communications-Web-API (UCWA) in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Unified Communications-Web-API (UCWA) in Skype für Business Server.
   
-Skype für Business Server 2015 verwendet die Unified Communications Web API (UCWA) für eine Reihe von Zwecke, den Zugriff auf Microsoft Exchange für die Kontaktsuche zur Aktualisierung von Anwesenheitsinformationen für mobile Clients.
+Skype für Business Server verwendet der Unified Communications Web API (UCWA) für eine Reihe von Zwecke, den Zugriff auf Microsoft Exchange für die Kontaktsuche zur Aktualisierung von Anwesenheitsinformationen für mobile Clients.
   
 UCWA zeichnet Einträge zum Betriebsverhalten als die Ereignistypen „Information“, „Warnung“ und „Fehler“ auf. In der folgenden Tabelle sind die Ereignisse beschrieben, die von den UCWA-Komponenten geschrieben werden können.
   
-|**Ereignis-ID**|**Ereignistyp**|**Zusammenfassung**|**Ursache und Lösung**|
+|**Ereigniskennung**|**Ereignistyp**|**Zusammenfassung**|**Ursache und Lösung**|
 |:-----|:-----|:-----|:-----|
 |20001  <br/> |Information  <br/> |UCWA initialisiert  <br/> |-  <br/> -  <br/> |
 |20002  <br/> |Fehler  <br/> |Unerwartete Ausnahme während der Initialisierung von UCWA  <br/> |Während der Initialisierung ist ein unerwarteter Fehler aufgetreten.  <br/> Überprüfen Sie die Ausnahmedetails im zugehörigen Ereignisprotokolleintrag, um die mögliche Ursache zu ermitteln.  <br/> |

@@ -1,34 +1,34 @@
 ---
-title: Diagnosebericht über Peer-to-Peer-Aktivität in Skype for Business Server 2015
+title: Diagnosebericht über Peer-zu-Peer-Aktivität in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: 'Zusammenfassung: Informationen Sie zu den Diagnosebericht über Peer-zu-Peer-Aktivität in Skype für Business Server 2015.'
-ms.openlocfilehash: 72b749d3b26bf189c336b1b361d43e2385c98e6f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Diagnosebericht über Peer-zu-Peer-Aktivität in Skype für Business Server.'
+ms.openlocfilehash: ccc0c793a27df51c86d7ae0a6a9b575c7f6a5659
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980816"
 ---
-# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server-2015"></a>Diagnosebericht über Peer-to-Peer-Aktivität in Skype for Business Server 2015
+# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht über Peer-zu-Peer-Aktivität in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Diagnosebericht über Peer-zu-Peer-Aktivität in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Diagnosebericht über Peer-zu-Peer-Aktivität in Skype für Business Server.
   
-Der Diagnosebericht über Peer-to-Peer-Aktivitäten enthält Informationen dazu, ob Ihre Peer-to-Peer-Sitzungen erfolgreich waren oder ob Fehler aufgetreten sind. Beachten Sie, dass Skype für Business Server 2015 zwischen verschiedenen Arten des Fehlers unterschieden wird:
+Der Diagnosebericht über Peer-to-Peer-Aktivitäten enthält Informationen dazu, ob Ihre Peer-to-Peer-Sitzungen erfolgreich waren oder ob Fehler aufgetreten sind. Beachten Sie, dass Skype für Business Server zwischen verschiedenen Arten des Fehlers unterschieden wird:
   
-- **Erwarteter Fehler**. Ein erwarteter Fehler ist in der Regel ein Fehler nur in der am häufigsten technischen Sinn. Angenommen Sie, Sie rufen Sie eine Person, aber er wird Ihrer Abwesenheit vom Büro und Anrufe entgegennehmen kann. Da der Anruf nicht entgegengenommen wurde, wird der Anruf einen Fehler technisch betrachtet. Andererseits, dies wurde ein erwarteter Fehler: Skype für Business Server 2015 nicht erwarten Sie Anrufe entgegennehmen, wenn Sie keine Anrufe entgegennehmen verfügbar sind. Entsprechend wird ein erwarteter Fehler auftreten, wenn Sie versuchen, eine Sofortnachricht an einen Benutzer senden, die offline ist, oder nur für ein Telefon, das keine Sofortnachrichten unterstützt angemeldet ist.
+- **Erwarteter Fehler**. Ein erwarteter Fehler ist in der Regel ein Fehler nur in der am häufigsten technischen Sinn. Angenommen Sie, Sie rufen Sie eine Person, aber er wird Ihrer Abwesenheit vom Büro und Anrufe entgegennehmen kann. Da der Anruf nicht entgegengenommen wurde, wird der Anruf einen Fehler technisch betrachtet. Andererseits, dies wurde ein erwarteter Fehler: Skype für Business Server nicht erwarten Sie Anrufe entgegennehmen, wenn Sie keine Anrufe entgegennehmen verfügbar sind. Entsprechend wird ein erwarteter Fehler auftreten, wenn Sie versuchen, eine Sofortnachricht an einen Benutzer senden, die offline ist, oder nur für ein Telefon, das keine Sofortnachrichten unterstützt angemeldet ist.
     
-- **Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der unter den gegebenen Umständen nicht zu erwarten ist. Wie der Name schon sagt, ist ein unerwarteter Fehler ein Fehler, dessen Auftreten Sie unter gegebenen Umständen nicht erwarten würden. Angenommen, Sie rufen ist eine Person und die Person zur Verfügung, um den Anruf anzunehmen. Wenn Skype für Business Server 2015 versucht, den Anruf an die Voicemail weitergeleitet, schlägt der Aufruf jedoch, da die Verbindung mit Exchange Unified Messaging verloren gegangen ist. Das ist ein unerwarteter Fehler: Es kann davon ausgegangen werden, dass Anrufe immer an die Voicemail weitergeleitet werden können. Allgemein gilt die Regel, dass unerwartete Fehler richtige Fehler sind: Es handelt sich dabei um Probleme, die durch Schulung der Nutzer oder ähnliche Maßnahmen wahrscheinlich nicht behoben werden können.
+- **Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der unter den gegebenen Umständen nicht zu erwarten ist. Wie der Name schon sagt, ist ein unerwarteter Fehler ein Fehler, dessen Auftreten Sie unter gegebenen Umständen nicht erwarten würden. Angenommen, Sie rufen ist eine Person und die Person zur Verfügung, um den Anruf anzunehmen. Wenn Skype für Business Server versucht, den Anruf an die Voicemail weitergeleitet, schlägt der Aufruf jedoch, da die Verbindung mit Exchange Unified Messaging verloren gegangen ist. Das ist ein unerwarteter Fehler: Es kann davon ausgegangen werden, dass Anrufe immer an die Voicemail weitergeleitet werden können. Allgemein gilt die Regel, dass unerwartete Fehler richtige Fehler sind: Es handelt sich dabei um Probleme, die durch Schulung der Nutzer oder ähnliche Maßnahmen wahrscheinlich nicht behoben werden können.
     
 Beachten Sie, dass die Metriken für „Erfolg“, „Erwarteter Fehler“ und „Unerwarteter Fehler“ nicht zwangsläufig identisch mit der Metrik unter „Sitzungen insgesamt“ sind. In der obigen Abbildung sind beispielsweise die folgenden Werte enthalten:
   
-|**Erfolge**|**Erwartete Fehler**|**Unerwarteter Fehler**|**Sitzungen insgesamt**|
+|**Erfolge**|**Erwartete Fehler**|**Unerwartete Fehler**|**Sitzungen insgesamt**|
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
@@ -36,7 +36,7 @@ Wenn Sie 2024 + 469 + 16 addieren, ergibt das insgesamt 2.509 Sitzungen, aber i
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Zugreifen auf den Diagnosebericht über Peer-to-Peer-Aktivitäten
 
-Auf den Diagnosebericht über Peer-to-Peer-Aktivitäten greifen Sie über die Startseite für Überwachungsberichte zu. Sie können den [Bericht über Fehlerverteilung in Skype für Business Server 2015](failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken:
+Auf den Diagnosebericht über Peer-to-Peer-Aktivitäten greifen Sie über die Startseite für Überwachungsberichte zu. Sie können den [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken:
   
 - Anzahl der unerwarteten Fehler
     
@@ -52,7 +52,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
   
 In der folgenden Tabelle sind die Filter aufgelistet, die Sie im Diagnosebericht über Peer-to-Peer-Aktivitäten verwenden können.
   
-**Filter im Diagnosebericht über der Peer-zu-Peer-Aktivität**
+**Filter im Diagnosebericht über Peer-to-Peer-Aktivitäten**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ In der folgenden Tabelle sind die Metriken aufgelistet, die im Diagnosebericht �
   
 **Metrik (pro Modalität)**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anzahl der erfolgreichen Sitzungen** <br/> |Nein  <br/> |Die Gesamtzahl der erfolgreichen Peer-to-Peer-Sitzungen.  <br/> |
 |**Prozentsatz der erfolgreichen Sitzungen** <br/> |Nein  <br/> |Der Prozentsatz der Peer-to-Peer-Sitzungen, die ohne nennenswerte Probleme ausgeführt wurden. Errechnet sich durch Dividieren der Anzahl der erfolgreichen Sitzungen durch die Gesamtzahl der Sitzungen.  <br/> |

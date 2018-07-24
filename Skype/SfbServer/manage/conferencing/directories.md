@@ -1,25 +1,24 @@
 ---
-title: Erstellen von Konferenzverzeichnissen in Skype for Business Server 2015
+title: Erstellen von konferenzverzeichnisse in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Zusammenfassung: Erfahren Sie, wie konferenzverzeichnisse in Skype für Business Server 2015 zu erstellen.'
-ms.openlocfilehash: 861172a76da68d39fd9f8213de6e45a892aa1780
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Erfahren Sie, wie konferenzverzeichnisse in Skype Business Server erstellen.'
+ms.openlocfilehash: d54f9782e43c85d5119d0d6138131dc1858ee8f0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568745"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967726"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server-2015"></a>Erstellen von Konferenzverzeichnissen in Skype for Business Server 2015
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Erstellen von konferenzverzeichnisse in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie konferenzverzeichnisse in Skype für Business Server 2015 zu erstellen.
+**Zusammenfassung:** Erfahren Sie, wie konferenzverzeichnisse in Skype Business Server erstellen.
   
 Konferenzverzeichnisse verwalten eine Zuordnung zwischen alphanumerische besprechungs-ID, die ein Teilnehmer an einer Konferenz teilnehmen, bei Verwendung von Skype für Unternehmen verwendet und die numerische Konferenz-ID, einwahlkonferenzen Teilnehmer an der Konferenz teilnehmen. 
   

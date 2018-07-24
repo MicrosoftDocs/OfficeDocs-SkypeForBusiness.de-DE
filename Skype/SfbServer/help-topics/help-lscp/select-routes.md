@@ -3,7 +3,7 @@ title: Auswählen von Routen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: Verwenden Sie das Dialogfeld Routen auswählen, um vorhandene VoIP-Routen zu suchen, die Sie verwenden können.
-ms.openlocfilehash: ba2213fcc443536b3dad2687a58069a2977c967c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 82dee6d6f369576bb0461cffb89e9137739a12e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967593"
 ---
 # <a name="select-routes"></a>Auswählen von Routen
  

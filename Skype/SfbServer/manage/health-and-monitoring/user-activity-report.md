@@ -1,25 +1,24 @@
 ---
-title: Bericht über Benutzeraktivität in Skype for Business Server 2015
+title: Bericht über Benutzeraktivität in Skype für Business Server 25
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
-description: 'Zusammenfassung: Erfahren Sie mehr über User Activity Report in Skype für Business Server 2015.'
-ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Erfahren Sie mehr über User Activity Report in Skype für Business Server.'
+ms.openlocfilehash: 13e5eb691e81994e2fac368244522fdcab2003df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569393"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981206"
 ---
-# <a name="user-activity-report-in-skype-for-business-server-2015"></a>Bericht über Benutzeraktivität in Skype for Business Server 2015
+# <a name="user-activity-report-in-skype-for-business-server"></a>Bericht über Benutzeraktivität in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Bericht über Benutzeraktivität in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Bericht über Benutzeraktivität in Skype für Business Server.
   
 Der Bericht über Benutzeraktivität stellt eine detaillierte Liste der Peer-to-Peer- und Konferenzsitzungen bereit, die von Benutzern in einem bestimmten Zeitraum durchgeführt werden. Anders als bei vielen der Überwachungsberichte ist im Bericht über Benutzeraktivität jeder Anruf mit einzelnen Benutzern verknüpft. Für Peer-to-Peer-Sitzungen ist im Bericht beispielsweise der SIP-URI der Person angegeben, die den Anruf initiiert hat (der Absenderbenutzer), und der Person, die angerufen wurde (der Empfängerbenutzer). Wenn Sie die Informationen zu einer Konferenz erweitern, sehen Sie eine Liste aller Konferenzteilnehmer einschließlich der Rolle, die die bei dieser Konferenz hatten.
   
@@ -41,14 +40,14 @@ Ken.My
   
 ## <a name="to-access-the-user-activity-report"></a>So greifen Sie auf den Bericht über Benutzeraktivität zu
 
-Auf den Bericht über Benutzeraktivität können Sie von der Startseite für Überwachungsberichte aus zugreifen. User Activity Report erreichen durch Klicken auf die Metrik-URI des Benutzers im [IP-Telefonbestand in Skype für Business Server 2015](ip-phone-inventory-report.md). Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Konferenzdetailbericht. In ähnlicher Weise gelangen auf die Metrik "Detail" für einen Peer-zu-Peer-Anruf mit dem [Peer-zu-Peer-Sitzungsbericht in Skype für Business Server 2015](peer-to-peer-session-detail-report.md).
+Auf den Bericht über Benutzeraktivität können Sie von der Startseite für Überwachungsberichte aus zugreifen. User Activity Report erreichen durch Klicken auf die Metrik-URI des Benutzers im [IP-Telefonbestand in Skype für Business Server](ip-phone-inventory-report.md). Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Konferenzdetailbericht. In ähnlicher Weise gelangen auf die Metrik "Detail" für einen Peer-zu-Peer-Anruf mit dem [Peer-zu-Peer-Sitzungsbericht in Skype für Business Server](peer-to-peer-session-detail-report.md).
   
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Optimales Verwenden des Berichts über Benutzeraktivität
 
-Obwohl viele gute Informationen in den Bericht über Benutzeraktivität vorhanden ist, kann diese Informationen manchmal zu schwierig sein. Beispielsweise alle Aktivitäten, die in Ihrer Organisation einen angegebenen Zeitraum stattfindet Benutzer in User Activity Report steht. die bedeutet, dass, verborgen, den Bericht enthält Informationen darüber, welche Benutzer tatsächlich Skype für Business Server 2015 in irgendeiner Weise verwendet.
+Obwohl viele gute Informationen in den Bericht über Benutzeraktivität vorhanden ist, kann diese Informationen manchmal zu schwierig sein. Beispielsweise alle Aktivitäten, die in Ihrer Organisation einen angegebenen Zeitraum stattfindet Benutzer in User Activity Report steht. die bedeutet, dass, verborgen, den Bericht enthält Informationen darüber, welche Benutzer tatsächlich Skype für Business Server in irgendeiner Weise verwendet.
   
 > [!NOTE]
-> Technisch gesehen ist es möglich, dass einige Benutzeraktivität nicht aufgezeichneten gehen möglicherweise: while Skype für Business Server ist bestrebt, Synchronisieren von Informationen über alle Anrufe, es ist möglich, dass ein Anruf konnte ohne die Informationen über dieses Aufrufs in geschriebenen vorgenommen wurden die -Datenbank. Skype für Business Server bietet eine sehr genaue jedoch nicht unbedingt perfekt Blick auf wie Skype für Business Server 2015 verwendet wird. (Die Tatsache, dass es nicht gewährleistet ist, dass 100 % aller Anrufe aufgezeichnet wird erläutert, warum Skype für die Überwachung von Business Server nicht als Abrechnung System verwendet werden soll.) Zweite, eine Überwachung kann nur Berichtsanzeige maximal 1.000 Datensätze. Je nach Umfang der Benutzeraktivität und des Zeitraums, den Sie auswählen, werden bei der Abfrage möglicherweise nicht alle Daten zurückgegeben, die tatsächlich in der Datenbank gespeichert sind. 
+> Technisch gesehen ist es möglich, dass einige Benutzeraktivität nicht aufgezeichneten gehen möglicherweise: while Skype für Business Server ist bestrebt, Synchronisieren von Informationen über alle Anrufe, es ist möglich, dass ein Anruf konnte ohne die Informationen über dieses Aufrufs in geschriebenen vorgenommen wurden die -Datenbank. Skype für Business Server bietet eine sehr genaue jedoch nicht unbedingt perfekt Blick auf wie Skype für Business Server verwendet wird. (Die Tatsache, dass es nicht gewährleistet ist, dass 100 % aller Anrufe aufgezeichnet wird erläutert, warum Skype für die Überwachung von Business Server nicht als Abrechnung System verwendet werden soll.) Zweite, eine Überwachung kann nur Berichtsanzeige maximal 1.000 Datensätze. Je nach Umfang der Benutzeraktivität und des Zeitraums, den Sie auswählen, werden bei der Abfrage möglicherweise nicht alle Daten zurückgegeben, die tatsächlich in der Datenbank gespeichert sind. 
   
 - Welche Benutzter haben das System in diesem Zeitraum tatsächlich verwendet?
     
@@ -112,7 +111,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Benutzeraktivität verwenden können.
   
-**Filter im konferenzaktivitätsbericht Benutzer**
+**Bericht über Benutzeraktivität - Filter**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -127,9 +126,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 
 In der folgenden Tabelle sind die im Bericht über Benutzeraktivität für Peer-to-Peer-Sitzungen (d. h. Sitzungen mit nur zwei Teilnehmern) enthaltenen Informationen aufgeführt.
   
-**Metriken für Peer-zu-Peer-Sitzungen**
+**Metriken für Peer-to-Peer-Sitzungen**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Detail** <br/> |Nein  <br/> |Wenn Sie auf dieses Element klicken, zeigt der Bericht den detaillierten Peer-to-Peer-Sitzungsbericht für die ausgewählte Sitzung an.  <br/> |
 |**Absenderbenutzer** <br/> |Ja  <br/> |SIP-Adresse des Benutzers, der die Peer-to-Peer-Sitzung initiiert hat.  <br/> |
@@ -144,9 +143,9 @@ In der folgenden Tabelle sind die im Bericht über Benutzeraktivität für Peer-
 
 In der folgenden Tabelle sind die im Bericht über Benutzeraktivität für Konferenzsitzungen (d. h. Sitzungen mit mindestens drei Teilnehmern) enthaltenen Informationen aufgeführt.
   
-**Metriken für konferenzsitzungen**
+**Metriken für Konferenzsitzungen**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Konferenz-URI** <br/> |Ja  <br/> |Eindeutige ID für die Konferenz. Wenn Sie auf dieses Element klicken, zeigt der Bericht den detaillierten Konferenzbericht für die ausgewählte Sitzung an. Erweitern Sie dieses Element, damit der der Bericht Informationen zu den Konferenzteilnehmern anzeigt. Ausführliche Informationen finden Sie im Abschnitt „Metriken für Konferenzteilnehmer“ weiter unten in diesem Thema.  <br/> |
 |**Organisator** <br/> |Ja  <br/> |SIP-Adresse des Benutzers, der die Sitzung organisiert hat.  <br/> |
@@ -160,7 +159,7 @@ In der folgenden Tabelle sind die im Bericht über Benutzeraktivität für jeden
   
 **Metriken für Konferenzteilnehmer**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Rolle** <br/> |Nein  <br/> |Konferenzrolle (z. B. Referent) des Benutzers.  <br/> |
 |**Teilnehmer** <br/> |Nein  <br/> |SIP-Adresse des Benutzers  <br/> |

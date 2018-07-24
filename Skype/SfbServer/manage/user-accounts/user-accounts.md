@@ -1,24 +1,24 @@
 ---
-title: Verwalten von Benutzerkonten für Skype für Business Server 2015
+title: Verwalten von Benutzerkonten für Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
-description: In den Abschnitten in diesem Artikel wird beschrieben, wie aktivieren, vorübergehend deaktivieren oder Entfernen von Active Directory-Benutzer von Skype für Business Server 2015.
-ms.openlocfilehash: bd09687a6a2d2f3d1e8dcfe13b7f8aa64648e56b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: In den Abschnitten in diesem Artikel wird beschrieben, wie aktivieren, vorübergehend deaktivieren oder Entfernen von Active Directory-Benutzer von Skype für Business Server.
+ms.openlocfilehash: ee6a82c5b5def06866379467beddae788d85171b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976737"
 ---
-# <a name="manage-user-accounts-for-skype-for-business-server-2015"></a>Verwalten von Benutzerkonten für Skype für Business Server 2015
+# <a name="manage-user-accounts-for-skype-for-business-server"></a>Verwalten von Benutzerkonten für Skype für Business Server
  
-In den Abschnitten in diesem Artikel wird beschrieben, wie aktivieren, vorübergehend deaktivieren oder Entfernen von Active Directory-Benutzer von Skype für Business Server 2015.
+In den Abschnitten in diesem Artikel wird beschrieben, wie aktivieren, vorübergehend deaktivieren oder Entfernen von Active Directory-Benutzer von Skype für Business Server.
   
 Informationen zum Aktivieren von Active Directory-Benutzer finden Sie unter [Erstellen eines neuen Benutzerkontos](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx). Informationen zum Löschen eines Active Directory-Benutzers finden Sie unter [Löschen eines Benutzerkontos](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx).
   
@@ -28,7 +28,7 @@ Dieser Artikel enthält die folgenden Verfahren:
   
 - [Suche nach einem oder mehreren Benutzern](user-accounts.md#Search)
     
-- [Hinzufügen und eine neue Skype für Business Server 2015 Benutzer aktivieren](user-accounts.md#Add)
+- [Fügen Sie hinzu und aktivieren Sie eine neue Skype für Business Server-Benutzer](user-accounts.md#Add)
     
 - [Deaktivieren oder Reaktivieren eines Benutzerkontos, die zuvor für die Skype für Business Server aktiviert](user-accounts.md#Disable)
     
@@ -39,7 +39,7 @@ Dieser Artikel enthält die folgenden Verfahren:
 ## <a name="to-search-for-one-or-more-users"></a>Suche nach einem oder mehreren Benutzern
 <a name="Search"> </a>
 
-Sie können die Ergebnisse einer Suchabfrage so konfigurieren Sie Active Directory-Benutzer für Skype für Business Server 2015 verwenden. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen.
+Sie können die Ergebnisse einer Suchabfrage verwenden, Active Directory-Benutzer für Skype für Business Server konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen.
   
 Sie können nach Benutzern suchen, unter Verwendung der Skype für Business Server-Systemsteuerung oder Active Directory-Benutzer und Computer-Snap-in. Das folgende Verfahren beschreibt, wie Sie Skype Business Server-Systemsteuerung verwenden, um nach Benutzern suchen.
   
@@ -66,10 +66,10 @@ Sie können nach Benutzern suchen, unter Verwendung der Skype für Business Serv
     
 6. Die Suchergebnisse werden unter **Suchergebnisse**angezeigt. Sie können einige oder alle Benutzer in der Liste wählen, und führen Konfigurationsaufgaben für die Benutzer, die Sie auswählen.
     
-## <a name="add-and-enable-a-new-skype-for-business-server-2015-user"></a>Hinzufügen und eine neue Skype für Business Server 2015 Benutzer aktivieren
+## <a name="add-and-enable-a-new-skype-for-business-server-user"></a>Fügen Sie hinzu und aktivieren Sie eine neue Skype für Business Server-Benutzer
 <a name="Add"> </a>
 
-Nach dem Aktivieren eines Benutzerkontos in Active Directory-Benutzer und-Computer, können Sie Skype Business Server-Systemsteuerung erstellen und Aktivieren von neuen Skype für Benutzerkonten Business Server 2015 Skype für Business Server 2015 einen Active Directory-Benutzer hinzufügen.
+Nach dem Aktivieren eines Benutzerkontos in Active Directory-Benutzer und-Computer, können Sie Skype Business Server-Systemsteuerung erstellen und Aktivieren von neuen Skype für Benutzerkonten Business Server Skype für Business Server einen Active Directory-Benutzer hinzufügen.
   
 Sie können auch auf einem speziell [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)-Cmdlet verwenden.
   
@@ -85,7 +85,7 @@ Sie können auch auf einem speziell [Enable-CsUser](https://docs.microsoft.com/p
     
 6. Geben Sie im Feld **Suche Benutzer** alle den ersten Teil des Namens anzeigen Sie, Name, Vorname, Nachname, Kontonamen Sicherheitskontenverwaltung (SAM), e-Mail-Adresse, User Principal Name (UPN) oder des Active Directory-Benutzerkontos die gewünschte Telefonnummer , und klicken Sie dann auf **Suchen**.
     
-7. Wählen Sie in der Tabelle das Konto aus, den, das Sie Skype für Business Server 2015 hinzufügen möchten, und klicken Sie dann auf **OK**.
+7. Wählen Sie in der Tabelle das Konto aus, den, das Sie Skype für Business Server hinzufügen möchten, und klicken Sie dann auf **OK**.
     
 8. Weisen Sie dem Benutzer zu einem Pool, geben Sie zusätzliche Details, und weisen Sie die Richtlinien für den gewünschten Benutzer, und klicken Sie dann auf **Aktivieren**.
     
@@ -135,7 +135,7 @@ Weitere Informationen finden Sie im Hilfethema zum [Set-CsUser](https://docs.mic
 ## <a name="disable-a-user-for-enterprise-voice"></a>Deaktivieren eines Benutzers für Enterprise-VoIP
 <a name="Disable_EV"> </a>
 
-Verwenden Sie das folgende Verfahren, um Enterprise-VoIP für ein Benutzerkonto deaktivieren, die für Skype für Business Server 2015 aktiviert ist.
+Verwenden Sie das folgende Verfahren, um Enterprise-VoIP für ein Benutzerkonto deaktivieren, die für Skype für Business Server aktiviert ist.
   
 ### <a name="to-disable-a-user-account-for-enterprise-voice"></a>So deaktivieren Sie ein Benutzerkonto für Enterprise-VoIP
 
@@ -158,11 +158,11 @@ Verwenden Sie das folgende Verfahren, um Enterprise-VoIP für ein Benutzerkonto 
   
 8. Klicken Sie auf **Commit ausführen**.
     
-Der Benutzer kann jetzt das Enterprise-VoIP-Feature verwenden. Verwandte Informationen: <br/>[Enterprise-VoIP und Mobilität](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md)
+Der Benutzer kann jetzt das Enterprise-VoIP-Feature verwenden. Verwandte Informationen: <br/>[Enterprise-VoIP und Mobilität](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server-Verwaltungsshell](../management-shell.md)
 ## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>Entfernen eines Benutzerkontos mit der Skype für Business Server-Verwaltungsshell
 <a name="Remove"> </a>
 
-Das folgende Verfahren können Sie um ein zuvor hinzugefügtes Benutzerkonto in Skype für Business Server 2015 zu entfernen. 
+Das folgende Verfahren können Sie um ein zuvor hinzugefügtes Benutzerkonto in Skype für Business Server zu entfernen. 
   
 > [!NOTE]
 > Entfernen eines Benutzers führen Sie alle Einstellungen, die Sie für das Benutzerkonto konfiguriert haben, gehen verloren. Wenn Sie stattdessen ein Benutzerkonto vorübergehend deaktivieren möchten, finden Sie unter [deaktivieren oder reaktivieren ein Benutzerkontos, die zuvor für die Skype für Business Server aktiviert](user-accounts.md#Disable). 
@@ -199,9 +199,6 @@ Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Disable-CsUser](
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="Remove"> </a>
 
-#### 
-
 [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
   
 [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
-

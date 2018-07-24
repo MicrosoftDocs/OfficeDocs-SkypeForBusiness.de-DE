@@ -3,7 +3,7 @@ title: SBA Registrierungseinstellungen – Erweiterung
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Sie bearbeiten die Einstellungen für Flexibilität und konfigurieren Sie die folgenden Eigenschaften:'
-ms.openlocfilehash: cdc367d1f010749e72ea2144e757d673bd41ba4a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 201ccc2ed52d5f483da5a66998aaf988bdeef268
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973094"
 ---
 # <a name="registrar-sba-settings-expander"></a>SBA Registrierungseinstellungen – Erweiterung
  
@@ -39,7 +40,4 @@ Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren Sie di
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Planen von Enterprise-VoIP-Ausfallsicherheit](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
-

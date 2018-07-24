@@ -3,7 +3,7 @@ title: Hinzufügen von Front-End-Funktionen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: Wählen Sie alle Funktionen, die Sie für den Front-End-Pool aktivieren möchten. Zumindest müssen Sie bereitstellen, Sofortnachrichten (IM), die ist standardmäßig aktiviert und kann nicht deaktiviert werden. Außerdem haben die Möglichkeit, über die Bereitstellung von anderen Features wie Enterprise-VoIP-Konferenzen und anrufsteuerung (CAC). Einige Features sind abhängig von Ihrer Topologie.
-ms.openlocfilehash: ab09b9bea1c9e0bf523a8fd866b14e6376d108c9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 702c9203b2bc193a65f0f21e0096f0cc1830745c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970950"
 ---
 # <a name="add-front-end-features"></a>Hinzufügen von Front-End-Funktionen
  

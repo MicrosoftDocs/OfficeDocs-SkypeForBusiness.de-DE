@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Um Zugriff auf die Skype für Business Server gewähren möchten, führen Sie folgende Schritte aus:'
-ms.openlocfilehash: 9f9342b02f89b31c22a50f834aa08347ba7fd798
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c90290184b461e6662672ef3b6c32096ca63871f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979029"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973087"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
  
@@ -49,7 +50,7 @@ Andere Rollen umfassen:
     
 - **CsUserAdministrator:** Mitglieder können Benutzer verwalten, aktivieren und deaktivieren sowie vorhandene Richtlinien Benutzern zuweisen.
     
-- **CsViewOnlyAdministrator:** Mitglieder können die Bereitstellung und Konfiguration der Serverinformationen anzeigen. Diese Mitgliedschaft ermöglicht Mitglied, um die Integrität der von den Servern mit Skype für Business Server 2015 zu überwachen.
+- **CsViewOnlyAdministrator:** Mitglieder können die Bereitstellung und Konfiguration der Serverinformationen anzeigen. Diese Mitgliedschaft ermöglicht Mitglied, um die Integrität der von den Servern mit Skype für Business Server zu überwachen.
     
 - **"Csvoiceadministrator":** Mitglieder können erstellen, konfigurieren und Verwalten von VoIP-bezogene Einstellungen in Skype für Business Server.
     

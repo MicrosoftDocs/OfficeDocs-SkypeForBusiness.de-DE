@@ -1,24 +1,24 @@
 ---
-title: Vergleichsbericht über Medienqualität in Skype for Business Server 2015
+title: Media Quality Comparison Report in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: 'Zusammenfassung: Informationen Sie zu Media Quality Comparison Report in Skype für Business Server 2015.'
-ms.openlocfilehash: 045a3d91e39d69c352d30ee51747d70f47fc4238
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu Media Quality Comparison Report in Skype für Business Server.'
+ms.openlocfilehash: f3c40b2f496d03ecd74cb188f0111d3f15735630
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980974"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server-2015"></a>Vergleichsbericht über Medienqualität in Skype for Business Server 2015
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Media Quality Comparison Report in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu Media Quality Comparison Report in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu Media Quality Comparison Report in Skype für Business Server.
   
 Mit dem Bericht über die Medienqualität können Sie Anrufqualitätswerte für verschiedene Arten von Audioanrufen vergleichen (z. B. Anrufe über ein Funknetzwerk und Anrufe über eine Kabelverbindung).
   
@@ -30,7 +30,7 @@ Auf den Vergleichsbericht über die Medienqualität greifen Sie auf der Startsei
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über die Medienqualität verwenden können.
   
-**Media Quality Comparison Berichtsfilter**
+**Filter im Bericht über die Medienqualität**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -44,9 +44,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht über die Medienqualität angegeben werden.
   
-**Metriken im Bericht über Media Quality-Vergleich**
+**Metriken im Bericht über die Medienqualität**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe.  <br/> |
 |**Beeinträchtigung (MOS)** <br/> |Nein  <br/> |Durchschnittliche Länge der MOS (Mittelwert Opinion Score)-Beeinträchtigung während eines Anrufs auftraten. Beeinträchtigung Werte liegen zwischen niedrig 0,0 und hoher 5.0; ein Wert von 0,5 oder weniger stellt akzeptable Beeinträchtigung dar. In der Vergangenheit wurden Mittelwert Opinion Bewertungen berechnet, indem Benutzer bewerten Sie die Qualität eines Anrufs auf einer Skala von 1 bis 5. Skype für Business Server verwendet eine Reihe von Algorithmen vorhergesagt wie Benutzer einen Anruf bewertet haben würde.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |

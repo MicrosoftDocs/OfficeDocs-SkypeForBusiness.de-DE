@@ -1,26 +1,26 @@
 ---
-title: Konfigurieren von Einwahlkonferenzen in Skype for Business Server 2015
+title: Konfigurieren von einwahlkonferenzen in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren von einwahlkonferenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: f6d724f522ac264699a3bf7a3fb63749f7da0c05
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie einwahlkonferenzen in Skype für Business Server konfigurieren.'
+ms.openlocfilehash: a0ac408fbdf221d565f17c2d714d7aa1765d5097
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982006"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server-2015"></a>Konfigurieren von Einwahlkonferenzen in Skype for Business Server 2015
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Konfigurieren von einwahlkonferenzen in Skype für Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zum Konfigurieren von einwahlkonferenzen in Skype für Business Server 2015.
+**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie einwahlkonferenzen in Skype für Business Server konfigurieren.
   
-Nachdem Sie eine Topologie, die die die konferenzarbeitslast und ausgewählte einwahlkonferenzen umfasst erstellt haben, müssen Sie zusätzliche Schritte zum Konfigurieren von einwahlkonferenzen ausführen. Bevor Sie dieses Thema lesen, müssen Sie [Planen von einwahlkonferenzen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)und des Flussdiagramms [Bereitstellung gelesen haben und Prüfliste für einwahlkonferenzen](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
+Nachdem Sie eine Topologie, die die die konferenzarbeitslast und ausgewählte einwahlkonferenzen umfasst erstellt haben, müssen Sie zusätzliche Schritte zum Konfigurieren von einwahlkonferenzen ausführen. Bevor Sie dieses Thema lesen sicher sein haben Sie [einwahlkonferenzen in Skype für Business Server planen](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), und die [Bereitstellung Flussdiagramm und Prüfliste für gelesen. einwahlkonferenzen](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
   
 Zum Konfigurieren von Einwahlkonferenzen müssen Sie die folgenden Aufgaben ausführen:
   
@@ -34,7 +34,7 @@ Zum Konfigurieren von Einwahlkonferenzen müssen Sie die folgenden Aufgaben ausf
     
 - [Assign a Line URI to a user account](dial-in-conferencing.md#BKMK_AssignaLineURI)
     
-Zusätzlich können Sie die folgenden optionalen Aufgaben ausführen. Weitere Informationen zu diesen optionalen Aufgaben finden Sie unter [Manage einwahlkonferenzen in Skype für Business Server 2015](../../manage/conferencing/dial-in-conferencing.md).
+Zusätzlich können Sie die folgenden optionalen Aufgaben ausführen. Weitere Informationen zu diesen optionalen Aufgaben finden Sie unter [Manage einwahlkonferenzen in Skype für Business Server](../../manage/conferencing/dial-in-conferencing.md).
   
 - Verwalten von PIN-Richtlinien für Einwahlkonferenzen
     
@@ -57,13 +57,13 @@ Benutzer von Einwahlkonferenzen nehmen an Konferenzen als authentifizierte Unter
   
 So richten Sie Wähleinstellungen für Einwahlkonferenzen ein:
   
-- Unabhängig davon, ob Sie Enterprise-VoIP bereitstellen oder nicht, fügen Sie zu den Wähleinstellungen eine Region für Einwahlkonferenzen hinzu und stellen Sie sicher, dass Ihre Einwahlnummern einwandfrei von einer Normalisierungsregel umgewandelt werden. Weitere Informationen finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+- Unabhängig davon, ob Sie Enterprise-VoIP bereitstellen oder nicht, fügen Sie zu den Wähleinstellungen eine Region für Einwahlkonferenzen hinzu und stellen Sie sicher, dass Ihre Einwahlnummern einwandfrei von einer Normalisierungsregel umgewandelt werden. Weitere Informationen finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
     
-- Wenn Sie Enterprise-VoIP nicht bereitstellen, erstellen Sie Wählpläne für Ihre Einwahlnummern. Fügen Sie auf jeden Fall eine Region für Einwahlkonferenzen hinzu. Weitere Informationen finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+- Wenn Sie Enterprise-VoIP nicht bereitstellen, erstellen Sie Wählpläne für Ihre Einwahlnummern. Fügen Sie auf jeden Fall eine Region für Einwahlkonferenzen hinzu. Weitere Informationen finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
     
-- Wenn Sie Enterprise-VoIP bereitgestellt haben, ändern Sie Enterprise-VoIP-Wählpläne nach Bedarf Regionen und entsprechende Normalisierungsregeln für Einwahl Zugriffsnummern verwenden. Sie können auch dedizierte Wählpläne erstellen, die nur für Einwahl Zugriffsnummern verwendet werden. Weitere Informationen finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+- Wenn Sie Enterprise-VoIP bereitgestellt haben, ändern Sie Enterprise-VoIP-Wählpläne nach Bedarf Regionen und entsprechende Normalisierungsregeln für Einwahl Zugriffsnummern verwenden. Sie können auch dedizierte Wählpläne erstellen, die nur für Einwahl Zugriffsnummern verwendet werden. Weitere Informationen finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
     
-Ausführliche Informationen zum Erstellen von Normalisierungsregeln finden Sie unter [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md).
+Ausführliche Informationen zum Erstellen von Normalisierungsregeln finden Sie unter [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business](../../deploy/deploy-enterprise-voice/normalization-rules.md).
   
 ## <a name="configure-dial-in-conferencing-regions"></a>Konfigurieren von Einwahlkonferenzregionen
 <a name="BKMK_ConfigureDialInRegions"> </a>
@@ -72,7 +72,7 @@ Wenn Sie einen Satz mit Wähleinstellungen einrichten, geben Sie die Region für
   
 Da es wichtig ist, eine Region für alle Wähleinstellungen anzugeben, wird empfohlen, das Vorhandensein von Konferenzregionen für alle Wähleinstellungen zu überprüfen. 
   
-Verwenden Sie das Cmdlet **Get-CsDialPlan**, um zu überprüfen, ob die Region für alle Wählpläne für Einwahlkonferenzen festgelegt wurde. Wenn die Region in bestimmten Wählplänen nicht vorhanden ist, können Sie die Region über das Cmdlet **Set-CsDialPlan** festlegen. Skype für Business Server-Systemsteuerung können auch die Region in vorhandenen Wählpläne aktualisieren. Informationen zur Verwendung von Skype für Business Server-Systemsteuerung finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Verwenden Sie das Cmdlet **Get-CsDialPlan**, um zu überprüfen, ob die Region für alle Wählpläne für Einwahlkonferenzen festgelegt wurde. Wenn die Region in bestimmten Wählplänen nicht vorhanden ist, können Sie die Region über das Cmdlet **Set-CsDialPlan** festlegen. Skype für Business Server-Systemsteuerung können auch die Region in vorhandenen Wählpläne aktualisieren. Informationen zur Verwendung von Skype für Business Server-Systemsteuerung finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>So überprüfen Sie, ob für Wähleinstellungen die Region festgelegt wurde
 
@@ -125,7 +125,7 @@ Weitere Informationen finden Sie unter [Set-CsDialPlan](https://docs.microsoft.c
 
 Beim Bereitstellen von Einwahlkonferenzen müssen Sie Telefonnummern einrichten, die Benutzer aus dem Telefonfestnetz (Public Switched Telephone Network, PSTN) wählen können, um am Audioteil einer Konferenz teilzunehmen. Diese Zugriffsnummern für die Einwahl werden in Besprechungseinladungen und auf der Webseite mit den Einstellungen für Einwahlkonferenzen angezeigt.
   
-Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die Regionen Ihrer Einwahlkonferenzen planen und anschließend Wählpläne für die Regionen konfigurieren. Ausführliche Informationen zu Regionen finden Sie unter [Planen von einwahlkonferenzen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md). Ausführliche Informationen zur Konfiguration für einwahlkonferenzen Wählpläne, finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die Regionen Ihrer Einwahlkonferenzen planen und anschließend Wählpläne für die Regionen konfigurieren. Ausführliche Informationen zu Regionen finden Sie unter [Planen von einwahlkonferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md). Ausführliche Informationen zur Konfiguration für einwahlkonferenzen Wählpläne, finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
 > [!NOTE]
 > Sie können eine neue Zugriffsnummer erst dann für Einwahlkonferenzen verwenden, wenn die Replikation der Active Directory-Domänendienste (AD DS) für diese Zugriffsnummer abgeschlossen ist. Die Replikation kann mehrere Stunden in Anspruch nehmen. 
@@ -192,7 +192,7 @@ Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die
 
 Die Konferenzrichtlinie ist eine Benutzerkontoeinstellung, die die Konferenzmöglichkeiten für Teilnehmer festlegt. Sie können Konferenzrichtlinien auf Standort- oder Benutzerebene erstellen. Konferenzrichtlinieneinstellungen umfassen viele Aspekte der Konferenzplanung und -teilnahme. Mehrere Konferenzrichtlinieneinstellungen unterstützen Einwahlkonferenzen für Teilnehmer. Bei der Konfiguration von Einwahlkonferenzen sollten Sie sicherstellen, dass diese Felder für Ihre Organisation angemessen festgelegt sind, und sie bei Bedarf bearbeiten. 
   
-Weitere Informationen zum Konfigurieren von konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype für Business Server 2015](../../manage/conferencing/conferencing-policies.md).
+Weitere Informationen zum Konfigurieren von konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype für Business Server](../../manage/conferencing/conferencing-policies.md).
   
 ## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
 <a name="BKMK_AssignaLineURI"> </a>

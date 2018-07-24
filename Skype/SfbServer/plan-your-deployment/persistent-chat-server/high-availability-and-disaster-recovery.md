@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015 planen.'
-ms.openlocfilehash: 2730d72b47d02772bf2c5c59c819bbe23e8816db
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971655"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen Sie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype Business Server 2015
  
@@ -24,6 +25,9 @@ Hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server erf
   
 > [!NOTE]
 > Die Verwendung von SQL AlwaysOn-Verfügbarkeitsgruppen wird für Datenbanken des Servers für beständigen Chat nicht unterstützt. 
+
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
   
 ## <a name="resource-requirements"></a>Ressourcenanforderungen
 
@@ -75,7 +79,7 @@ Abbildung 1 zeigt einer gestreckten Persistent Chat Server Pool-Topologie, in de
     
   - Einen Front-End-Server-Pool und eine Sicherungsdatenbank, die das SQL-Protokollversandziel ist, auf Standort 2.
     
-**Ausgedehnten Persistent Chat Server Pool Rechenzentren mit hoher Bandbreite/niedriger Latenz Geo gespeichert sind.**
+**Gestreckter Serverpool für beständigen Chat bei Rechenzentren an einem geografischen Standort mit hoher Bandbreite und niedriger Latenz**
 
 ![Erweiterter Pool für beständigen Chat mit hoher Bandbreite/niedriger Latenz](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
@@ -99,7 +103,7 @@ Abbildung 2 zeigt einer ausgedehnten Persistent Chat Server Pool-Topologie, wo R
     
   - Einen Front-End-Server-Pool und eine Sicherungsdatenbank, das SQL-Protokollversandziel ist, an Standort 2.
     
-**Ausgedehnten Persistent Chat Server Pool, wenn Rechenzentren mit geringer Bandbreite/hoher Wartezeit Geo gespeichert sind**
+**Gestreckter Pool mit Servern für beständigen Chat, bei dem sich die Rechenzentren an einem geografischen Standort mit niedriger Bandbreite und hoher Latenz befinden**
 
 ![Erweiterter Pool für beständigen Chat mit niedriger Bandbreite/hoher Latenz](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   

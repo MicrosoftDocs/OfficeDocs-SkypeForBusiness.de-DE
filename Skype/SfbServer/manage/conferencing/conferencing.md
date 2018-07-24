@@ -1,26 +1,26 @@
 ---
-title: Verwalten von Konferenzen in Skype for Business Server 2015
+title: Verwalten von Konferenzen in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
-description: 'Zusammenfassung: Informationen Sie zum Verwalten von Konferenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: 2239c5aae8754e381bf6cf7b8b41aa6ef31b8033
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Verwalten von Konferenzen in Skype für Business Server.'
+ms.openlocfilehash: 031c0b19d8132d9c8658702a5bdb30d84b418ae3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973339"
 ---
-# <a name="manage-conferencing-in-skype-for-business-server-2015"></a>Verwalten von Konferenzen in Skype for Business Server 2015
+# <a name="manage-conferencing-in-skype-for-business-server"></a>Verwalten von Konferenzen in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Verwalten von Konferenzen in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Verwalten von Konferenzen in Skype für Business Server.
   
-In diesem Themenbereich wird die Verwaltung von Konferenzen beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) und [Bereitstellen von Konferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+In diesem Themenbereich wird die Verwaltung von Konferenzen beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/conferencing.md) und [Konferenzen in Skype für Business Server bereitstellen](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 In Skype für Business Server verwalten Sie die Details der Konferenz durch Angeben von Konfigurations- und Richtlinieneinstellungen wie folgt. Beachten Sie, dass die Begriffe „Konferenz“ und „Besprechung“ manchmal synonym verwendet werden. Im Allgemeinen können Sie sich jedoch eine Besprechung als einen besonderen Fall einer Konferenz vorstellen.
   
@@ -90,7 +90,7 @@ Die folgenden Skype für Business Server-Verwaltungsshell-Cmdlets können zum Ve
 |[Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps) <br/> |Entfernt die angegebene Konferenzrichtlinie.  <br/> |
 |[Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> |Ändert eine vorhandene Konferenzrichtlinie.  <br/> |
    
-**Besprechungskonfigurationseinstellungen**
+**Konfigurationseinstellungen für Besprechungen**
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
@@ -108,7 +108,7 @@ Die folgenden Skype für Business Server-Verwaltungsshell-Cmdlets können zum Ve
 |[Remove-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |Entfernt die angegebene Auflistung von Konferenzkonfigurationseinstellungen.  <br/> |
 |[Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |Ändert eine vorhandene Auflistung von Konfigurationseinstellungen für Konferenzen.  <br/> |
    
-**Einwahl Konfigurationseinstellungen**
+**Konfigurationseinstellungen für die Einwahl**
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
@@ -145,7 +145,7 @@ Die folgenden Skype für Business Server-Verwaltungsshell-Cmdlets können zum Ve
 |[Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) <br/> |Entfernt die angegebene PIN-Richtlinie (persönliche Identifikationsnummer).  <br/> |
 |[Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |Ändert eine oder mehrere vorhandene Clientrichtlinien für die persönliche Identifikationsnummer (PIN).  <br/> |
    
-**Andere Einstellungen**
+**Andere Konferenzeinstellungen**
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
@@ -167,7 +167,7 @@ Die folgenden Skype für Business Server-Verwaltungsshell-Cmdlets können zum Ve
 |[Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Überprüft, ob ein benutzerpaar an einen Skype für Business Server-Webkonferenz, die Aktivitäten teilnehmen kann wie Freigabe oder Anzeigen von PowerPoint-Folien, Whiteboards oder Umfragen enthält. Das Cmdlet auch überprüft, ob die Skype für Business Server Webkonferenzdienst Office Web Apps Server erkennen kann und ein Client eine PowerPoint-Datei für die Übertragung von Office Web Apps Server hochladen kann.  <br/> |
 |[Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Überprüft, ob ein Benutzer an einer Einwahlkonferenzsitzung teilnehmen kann.  <br/> |
 |[Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Testet einen Wählplan (ehemals als Standortprofil bezeichnet) für eine Telefonnummer und gibt die Normalisierungsregel, die auf diese Nummer angewendet wird, sowie die übersetzte Nummer nach dem Anwenden der Normalisierungsregel zurück.  <br/> |
-|[Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testet, ob der drei Benutzer zur Teilnahme an einer Skype für Business Server Mobility Service Konferenz. Der Mobilitätsdienst können Benutzer von Mobiltelefonen wie iPhones und Windows-Telefonen Vorgänge wie das Empfangen von Sofortnachrichten und Anwesenheitsinformationen ausführen; Speichern und Abrufen von Voicemail intern anstelle von mit ihren Anbieter für drahtlose Dienste; und nutzen Sie Skype für Business Server-Funktionen wie Anruf über den Arbeitsplatz und Dial-Out-Konferenz.  <br/> |
+|[Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testet, ob der drei Benutzer zur Teilnahme an einer Skype für Business Server Mobility Service Konferenz. Der Mobilitätsdienst können Benutzer von Mobiltelefonen wie iPhones und Windows-Telefonen Vorgänge wie das Empfangen von Sofortnachrichten und Anwesenheitsinformationen ausführen; Speichern und Abrufen von Voicemail intern anstelle von mit ihren Anbieter für drahtlose Dienste; und nutzen Sie Skype für Business Server-Funktionen wie Anruf über den Arbeitsplatz und Dial-Out-Konferenz.  <br/> **Hinweis:** Clients, die MCX verwenden werden in Skype für Business Server 2019 nicht unterstützt.|
 |[Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Testet, ob zwei Benutzer mithilfe der Unified Communications Web-API (UCWA) eine Onlinekonferenz planen, dieser beitreten und die Konferenz dann durchführen können.  <br/> |
 |[Debug-CsDataConference](https://docs.microsoft.com/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Gibt die Diagnoseinformationen für die Daten-Konferenzfunktionen in Skype für Business Server enthalten.  <br/> |
    

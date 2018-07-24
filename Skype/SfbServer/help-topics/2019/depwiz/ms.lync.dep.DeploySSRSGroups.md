@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
+ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie in der Gruppe angeben Read-Only der Gruppe, die Sie schreibgeschützten Zugriff auf Überwachungsberichte gewähren möchten.
-ms.openlocfilehash: 34275bcb00efca6be0bdf90704db98447ef116f5
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f4a00fe17bcfa952b086609595c0e1b49c47e466
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996905"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978587"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQLServer Reporting Services (Gruppen)
 

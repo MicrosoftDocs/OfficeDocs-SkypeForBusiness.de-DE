@@ -11,47 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Sie konfigurieren die Sicherung Compliance, den SQL Server-Speicher, die Sicherungsdatenbanken für Persistent Chat-Server bereitstellen oder Persistent Chat Server Compliance, den SQL Server-Speicher.
-ms.openlocfilehash: 5dd121facf9008cb1698b0b9ee46eb0dbaa76afa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 040ab738c0ac91bcd8e8806cc9a20f8c5e7d7be5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987375"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976219"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Hinzufügen des SQL Server-Konformitätssicherungsspeichers für den beständigen Chat
- 
-Sie konfigurieren die Sicherung Compliance, den SQL Server-Speicher, die Sicherungsdatenbanken für Persistent Chat-Server bereitstellen oder Persistent Chat Server Compliance, den SQL Server-Speicher.
-  
- **SQL Server-Speicher**: Wählen Sie eine vorhandene SQL Server-Instanz und optional eine Instanz für den beständigen Chat aus.
-  
-Klicken Sie auf **neu** , um eine neue SQL Server-Instanz und optional eine neue Instanz für die sicherungskonformitätsdaten beständigen Chat definieren.
-  
-Aktivieren Sie das Kontrollkästchen **Aktivieren SQL Server-Speicher für Spiegelung** Konfigurieren einer SQL Server-Datenbank und optional eine Instanz, die eine gespiegelte Datenbank für die sicherungskonformitätsdaten beständigen Chat bereitstellen.
-  
-Wählen Sie in der Liste **SQL Server-Spiegelung Speicher** einen SQL Server und optional eine Instanz, die als SQL Server-Spiegel für die Konformität des beständigen Chats backup SQL Server fungiert.
-  
-Klicken Sie auf **neu** , um eine neue SQL Server-Instanz und optional eine neue Instanz für den beständigen Chat SQL Server-Spiegelung zu definieren.
-  
-Wählen Sie in der Liste **Automatisches Failover mithilfe des SQL Server-Spiegelungszeugen aktivieren** eine SQL Server-Instanz aus, die als Zeugenserver für Failoverszenarios dient. Der Zeugenserver werden nicht Spiegelung oder Host Daten für den Server für beständigen Chat, sondern wird sichergestellt, dass nur eine SQL Server in einer gespiegelten Konfiguration können Sie jederzeit die aktiven SQL Server ist.
-  
-Klicken Sie auf **neu** , um einen neuen SQL Server-Zeugen definieren optional eine Instanz für die Konformität des beständigen Chats backup SQL Server-spiegelungszeugen.
-  
-Klicken Sie auf **Zurück**, um zum vorherigen Dialogfeld für die Pooldefinition zurückzukehren.
-  
-Klicken Sie auf **Weiter** , nachdem Sie die Eingabe der Optionen für diesen Pool backup SQL Server-Speicher-Konfiguration und Fortfahren mit der Definition der Persistent Chat Server Pool abgeschlossen haben.
-  
-Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assistenten **Neuen Pool für beständigen Chat definieren** zu beenden.
-  
-Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite) zuzugreifen.
-  
-## <a name="see-also"></a>Siehe auch
 
-[Planen Sie für Persistent Chatserver in Skype für Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Serveranforderungen für Skype für Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
-  
-[Hardware und Software-Anforderungen für Persistent Chat Server in Skype für Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
-  
-[Konfigurieren des kompatibilitätsdiensts für Persistent Chat Server in Skype für Business Server 2015](../../../manage/persistent-chat/configure-compliance.md)
-  
-[Konfigurieren von hoher Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.

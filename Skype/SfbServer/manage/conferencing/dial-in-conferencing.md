@@ -1,32 +1,32 @@
 ---
-title: Verwalten von Einwahlkonferenzen in Skype for Business Server 2015
+title: Verwalten von einwahlkonferenzen in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
-description: 'Zusammenfassung: Informationen Sie zum Verwalten von einwahlkonferenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: 44427a9109fd061233d1c8676166788e162c7e08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server verwalten.'
+ms.openlocfilehash: dac805421539116f89e007c68689ffd89400d059
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969638"
 ---
-# <a name="manage-dial-in-conferencing-in-skype-for-business-server-2015"></a>Verwalten von Einwahlkonferenzen in Skype for Business Server 2015
+# <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von einwahlkonferenzen in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Verwalten von einwahlkonferenzen in Skype für Business Server 2015.
+**Zusammenfassung:** Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server verwalten.
   
-In diesem Themenbereich wird die Verwaltung von Einwahlkonferenzen beschrieben. Weitere Informationen zum Planen und Konfigurieren von einwahlkonferenzen bei der Bereitstellung finden Sie unter [Planen von einwahlkonferenzen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md) und [Configure einwahlkonferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+In diesem Themenbereich wird die Verwaltung von Einwahlkonferenzen beschrieben. Weitere Informationen zum Planen und Konfigurieren von einwahlkonferenzen bei der Bereitstellung finden Sie unter [Planen von einwahlkonferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) und [Configure einwahlkonferenzen in Skype für Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 Sie können die folgenden Aufgaben zum Verwalten von einwahlkonferenzen ausführen: Aktivieren oder Deaktivieren von einwahlkonferenzen, Zugriffsnummern verwalten, Verwalten von PIN-Richtlinien für einwahlkonferenzen, Beitritt zur Konferenz verwalten und Ansagen lassen, ändern Sie den tastenzuordnungen für DTMF Befehle und einladen von Benutzern zu einwahlkonferenzen. 
   
-Weitere Informationen zum Verwalten von Wähleinstellungen finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Weitere Informationen zum Verwalten von Wähleinstellungen finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
-Weitere Informationen zu PSTN-Verwendung finden Sie unter [Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Business 2015](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
+Weitere Informationen zu PSTN-Verwendung finden Sie unter [Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Unternehmen](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
   
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Verwalten von einwahlkonferenzen mithilfe von Skype Business Server-Systemsteuerung
 
@@ -50,7 +50,7 @@ So verwalten Sie Informationen über Wähleinstellungen und die PSTN-Verwendung:
 
 Verwenden Sie zum Verwalten von einwahlkonferenzen mithilfe von Skype für Business Server-Verwaltungsshell die folgenden Cmdlets:
   
-**Einwahl Konfigurationseinstellungen**
+**Konfigurationseinstellungen für die Einwahl**
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|

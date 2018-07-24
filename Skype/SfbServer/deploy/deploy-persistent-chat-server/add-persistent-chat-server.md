@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Ihre Skype für Business Server 2015 Topologie Persistent Chat Server hinzufügen.'
-ms.openlocfilehash: 3d00e24dbe8f25b2a1887b8c1c79a63bda3471f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973010"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen von Persistent Chat Server zu Ihrer Skype für Business Server 2015 Topologie
  
@@ -26,6 +27,9 @@ Nachdem Sie die erforderliche Software auf jedem Server installieren, auf denen 
     
 - Veröffentlichen der aktualisierten Topologie
     
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Aktualisieren Ihrer Topologie unter Einbeziehung des Servers für beständigen Chat
 
 Führen Sie die folgenden Schritte aus, für die Installation von einem einzelnen Persistent Chat Server Pool ohne Disaster Recovery-Konfiguration. Konfigurieren eines ausgedehnten Persistent Chat Server Pools für hohe Verfügbarkeit und notfallwiederherstellung, finden Sie unter [Configure hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).

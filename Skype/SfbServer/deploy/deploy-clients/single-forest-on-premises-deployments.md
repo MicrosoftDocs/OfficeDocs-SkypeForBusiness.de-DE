@@ -3,18 +3,18 @@ title: Skype Room System – Lokale Bereitstellungen mit einzelner Gesamtstru
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lesen Sie dieses Thema und erfahren Sie, wie Skype Room System in einer lokalen Umgebung mit einer einzelnen Gesamtstruktur bereitgestellt wird.
-ms.openlocfilehash: b998c0b1e139951297eca8a963536dd59dcd4b39
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967905"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Room System – Lokale Bereitstellungen mit einzelner Gesamtstruktur
  
@@ -24,7 +24,7 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte für die Bereitstel
   
 ## <a name="single-forest-on-premises-deployments"></a>Lokale Bereitstellungen mit einzelner Gesamtstruktur
 
-Wenn Sie bereits über ein Postfach Ressourcenkonto für den Live Meeting-Raum verfügen, können Sie es. Andernfalls müssen Sie einen neuen Anwendungspool erstellen. Exchange-Verwaltungsshell (PowerShell) oder Exchange-Verwaltungskonsole können Sie um ein neues Postfach Ressourcenkonto zu erstellen. Es wird empfohlen, einen neuen (alte Postfach löschen und Neuerstellen) Ressourcenpostfach für Skype Raum System. Stellen Sie sicher, dass Sie Postfachdaten sichern, vor dem Löschen und anschließend wieder auf das neu erstellte Postfach mithilfe des Outlook-Clients zu exportieren (Siehe Exportieren oder Sichern von Nachrichten, Kalender, Aufgaben und Kontakte Weitere Informationen). Informationen zum Wiederherstellen von Besprechungen verloren durch Löschen des Postfachs finden Sie unter [Connect- oder Wiederherstellen eines gelöschten Postfachs](https://technet.microsoft.com/en-us/library/jj863438%28v=exchg.150%29.aspx). 
+Wenn Sie bereits über ein Postfach Ressourcenkonto für den Live Meeting-Raum verfügen, können Sie es. Andernfalls müssen Sie einen neuen Anwendungspool erstellen. Exchange-Verwaltungsshell (PowerShell) oder Exchange-Verwaltungskonsole können Sie um ein neues Postfach Ressourcenkonto zu erstellen. Es wird empfohlen, einen neuen (alte Postfach löschen und Neuerstellen) Ressourcenpostfach für Skype Raum System. Stellen Sie sicher, dass Sie Postfachdaten sichern, vor dem Löschen und anschließend wieder auf das neu erstellte Postfach mithilfe des Outlook-Clients zu exportieren (Siehe Exportieren oder Sichern von Nachrichten, Kalender, Aufgaben und Kontakte Weitere Informationen). Informationen zum Wiederherstellen von Besprechungen verloren durch Löschen des Postfachs finden Sie unter [Connect- oder Wiederherstellen eines gelöschten Postfachs](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
   
 Befolgen Sie die unten aufgeführten Schritte, um ein vorhandenes Ressourcenpostfachkonto (z. B. LRS-01) zu verwenden:
   
@@ -108,7 +108,6 @@ Nachdem ein Postfach Ressourcenkonto für die Konferenzen Räume erstellt wurde,
    ```
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
-
    ```
 
 > [!NOTE]

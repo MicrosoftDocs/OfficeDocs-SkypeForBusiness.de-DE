@@ -3,7 +3,7 @@ title: Installieren und Erstellen von Datenbanken
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Sie wählen Sie die Datenbanken, die Sie für Ihre Bereitstellung erstellen möchten. In der Standardeinstellung wird die Datenbank erstellt werden, auf dem definierten SQL Server in der definierten Site und automatisch bereitstellen und konfigurieren die Datenbankdateien basierend auf dem SQL Server, die Sie die Datenbanken auf platzieren.
-ms.openlocfilehash: cf838e66dc5e9592ba71dd9d44fa5fc333c6dbc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 89284989f4d30e83d06424895efce12deb5eec2f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975655"
 ---
 # <a name="install-and-create-databases"></a>Installieren und Erstellen von Datenbanken
  

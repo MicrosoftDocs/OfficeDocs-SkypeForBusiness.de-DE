@@ -3,18 +3,18 @@ title: Konferenzrichtlinie für Skype Room System-Konten
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lesen Sie dieses Thema und erfahren Sie, wie Konferenzrichtlinien für Skype Room System-Konten zugewiesen werden.
-ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a9eb05c8e29a3db216bc74e5e016c2c6a8413a33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973423"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Konferenzrichtlinie für Skype Room System-Konten
  
@@ -59,7 +59,7 @@ Die dem Konto Skype Raum System zugeordnete konferenzrichtlinie muss bestimmte M
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Es wird empfohlen, dass Sie diesen Wert so hoch wie möglich einstellen. Effektive Bandbreite hängt netzwerkbedingungen zum Zeitpunkt der Konferenzen.\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Muss auf TRUE festgelegt sein für Skype Raum System, um sicherzustellen, dass Videostreams mit mehreren Ansichten  <br/> |
    
-* Informationen zur Planung der Bandbreite finden Sie unter [Anforderungen an die Netzwerkbandbreite für Mediendatenverkehr](https://technet.microsoft.com/en-us/library/jj688118%28v=ocs.15%29.aspx).
+* Informationen zur Planung der Bandbreite finden Sie unter [Anforderungen an die Netzwerkbandbreite für Mediendatenverkehr](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic).
   
 > [!NOTE]
 > Wenn der Client Skype Raum System versucht, teilnehmen an einer geplanten Besprechung organisiert, die von einem Benutzer, der auf einem Lync Server 2010-Pool verwaltet wird, konnte der Besprechungsorganisator konferenzrichtlinie verhindern, dass den Skype Raum System Client ausführen für die Zusammenarbeit. 

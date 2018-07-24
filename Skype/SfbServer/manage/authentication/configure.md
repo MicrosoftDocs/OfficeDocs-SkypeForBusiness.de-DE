@@ -1,26 +1,25 @@
 ---
-title: Konfigurieren der zweistufigen Authentifizierung in Skype for Business Server 2015
+title: Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-description: 'Zusammenfassung: Konfigurieren einer zweistufigen Authentifizierung in Skype für Business Server 2015.'
-ms.openlocfilehash: 96e1e355aa248b8cfc0ac1efbca7e41f056022be
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Konfigurieren einer zweistufigen Authentifizierung in Skype für Business Server.'
+ms.openlocfilehash: 3b77a6cbbbeb7be83bb4a27491982d97939e1936
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569117"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969526"
 ---
-# <a name="configure-two-factor-authentication-in-skype-for-business-server-2015"></a>Konfigurieren der zweistufigen Authentifizierung in Skype for Business Server 2015
+# <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server
  
-**Zusammenfassung:** Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server 2015.
+**Zusammenfassung:** Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server.
   
 In den folgenden Abschnitten werden die erforderlichen Schritte beschrieben, um für eine Bereitstellung zweistufige Authentifizierungen zu konfigurieren. Weitere Informationen zur zweistufigen Authentifizierung finden Sie unter [Aktivieren von Office 365 mehrstufige Authentifizierung für online-Administratoren - Raster Benutzer Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
   
@@ -143,7 +142,7 @@ Weitere Informationen zum Registrieren von als Registrierungs-Agent im Namen von
     
     - Wählen Sie für **Schlüsselverwendung** den Wert **Exchange** aus (dies ist die einzige verfügbare Option).
     
-    - Geben Sie für die **Größe der Schlüssel**2048
+    - Geben Sie unter **Schlüsselgröße** den Wert 2048 ein
     
     - Überprüfen Sie, ob **Automatischer Schlüsselcontainername** aktiviert ist
     
@@ -275,7 +274,7 @@ Wenn Sie formularbasierte Authentifizierung verwenden, können Sie eine Webseite
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Konfigurieren der passiven Authentifizierung für Skype for Business Server
 
-Im folgende Abschnitt wird beschrieben, wie Skype für Business Server 2015 zur Unterstützung der passiven Authentifizierung zu konfigurieren. Nach der Aktivierung werden von einer physischen oder virtuellen Smartcard und eine gültige PIN zum Melden Sie sich über die Skype für Business Client erforderlich Benutzer, die für die zweistufige Authentifizierung aktiviert ist.
+Im folgende Abschnitt wird beschrieben, wie Skype für Business Server zur Unterstützung der passiven Authentifizierung zu konfigurieren. Nach der Aktivierung werden von einer physischen oder virtuellen Smartcard und eine gültige PIN zum Melden Sie sich über die Skype für Business Client erforderlich Benutzer, die für die zweistufige Authentifizierung aktiviert ist.
   
 > [!NOTE]
 > Kunden wird dringend empfohlen, die passive Authentifizierung für Registrierungsstellen und Webdienste auf Dienstebene zu aktivieren. Wenn die passive Authentifizierung für Registrierungsstellen und Webdienste auf der globalen Ebene aktiviert wird, führt dies wahrscheinlich zu organisationsweiten Authentifizierungsfehlern für Benutzer, die sich nicht mit dem unterstützten Desktopclient anmelden. 
@@ -286,7 +285,7 @@ In den folgenden Schritten wird die Erstellung einer angepassten Webdienstkonfig
   
 ### <a name="to-create-a-custom-web-service-configuration"></a>So erstellen Sie eine benutzerdefinierte Webdienstkonfiguration
 
-1. Melden Sie sich bei Ihrer Skype für Business Server 2015 Front-End-Server mit einer Skype für Business-Administratorkonto an.
+1. Melden Sie sich bei Ihrer Skype für Business Server-Front-End-Server mit einer Skype für Business-Administratorkonto an.
     
 2. Starten Sie die Skype für Business Server-Verwaltungsshell.
     
@@ -325,7 +324,7 @@ In den folgenden Schritten wird die Erstellung einer angepassten Proxykonfigurat
   
 ### <a name="to-create-a-custom-proxy-configuration"></a>So erstellen Sie eine benutzerdefinierte Proxykonfiguration
 
-1. Aus der Skype für Business Server-Verwaltungsshell Command-Line, erstellen Sie eine neue Proxykonfiguration für jede Skype für Business Server 2015 Edge-Pool, Enterprise-Pool und Standard Edition-Server, der für passiven Authentifizierung durch Ausführen aktiviert wird die in der folgenden Befehle:
+1. Erstellen Sie aus der Skype für Business Server-Verwaltungsshell Command-Line eine neue Proxykonfiguration für jede Skype für Edge-Serverpool Business, Enterprise-Pool und Standard Edition-Server, die für passiven Authentifizierung durch Ausführen des folgenden aktiviert werden sollen Befehle:
     
   ```
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -343,6 +342,6 @@ In den folgenden Schritten wird die Erstellung einer angepassten Proxykonfigurat
 
 ## <a name="see-also"></a>Siehe auch
 
-[Verwalten der zweistufigen Authentifizierung in Skype für Business Server 2015](two-factor-authentication.md)
+[Verwalten der zweistufigen Authentifizierung in Skype für Business Server](two-factor-authentication.md)
   
-[Verwenden Sie zweistufige Authentifizierung mit Skype für Business Client- und Skype für Business Server 2015](use.md)
+[Verwenden Sie zweistufige Authentifizierung mit Skype für Business Client- und Skype für Business Server](use.md)

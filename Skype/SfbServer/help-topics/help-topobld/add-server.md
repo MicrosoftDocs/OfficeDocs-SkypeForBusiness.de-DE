@@ -3,7 +3,7 @@ title: Server hinzufügen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Zum Hinzufügen eines neuen Servers zu einem vorhandenen Pool von Servern, eine der folgenden pooltypen:'
-ms.openlocfilehash: 609fbb28900ac67e0a4e1e2a400f1eebb29b2ff2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 07684b98bf2820b6a72006219b380c972985b303
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974585"
 ---
 # <a name="add-server"></a>Server hinzufügen
  

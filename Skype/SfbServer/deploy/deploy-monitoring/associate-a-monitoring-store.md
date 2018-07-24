@@ -1,26 +1,25 @@
 ---
-title: Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 2015
+title: Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
-description: 'Zusammenfassung: Erfahren Sie, wie ein Speicher für Überwachung wird von Skype für Business Server 2015 Front-End-Pools zuordnen.'
-ms.openlocfilehash: 6706185264df4220b723f72c0863f11d84e2dc05
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie ein Speicher für Überwachung von Skype für Business Server verwendeten Front-End-Pools zuordnen.'
+ms.openlocfilehash: a7a7965016ed659d120cf4bff642e85e9941b193
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968209"
 ---
-# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server-2015"></a>Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 2015
- 
-**Zusammenfassung:** Erfahren Sie, wie ein Speicher für Überwachung wird von Skype für Business Server 2015 Front-End-Pools zuordnen.
+# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype für Business Server 
+**Zusammenfassung:** Erfahren Sie, wie ein Speicher für Überwachung von Skype für Business Server verwendeten Front-End-Pools zuordnen.
   
-In Skype für Business Server 2015 kann Überwachungsdaten nur auf Front-End-Pools erfasst werden, die mit einem Speicher für Überwachung, eine Aufgabe in der Regel durchgeführt, wenn Sie einen Front-End-Pool im Topologie-Generator definieren verknüpft wurden.
+In Skype für Business Server kann Überwachungsdaten nur auf Front-End-Pools erfasst werden, die mit einem Speicher für Überwachung, eine Aufgabe in der Regel durchgeführt, wenn Sie einen Front-End-Pool im Topologie-Generator definieren verknüpft wurden.
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool
 

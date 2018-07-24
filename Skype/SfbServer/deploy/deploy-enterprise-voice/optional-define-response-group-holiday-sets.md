@@ -1,9 +1,8 @@
 ---
-title: (Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business 2015
+title: (Optional) Definieren von Reaktionsgruppe feiertagssätze in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Erstellen oder Ändern von Reaktionsgruppe feiertagssätzen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 0ee6ffa0afdff32096845d7450fa92ff6e720022
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: f959b69462ecc3d3d37d6febfbf043a48f9dd4ad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974747"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business-2015"></a>(Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business 2015
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Optional) Definieren von Reaktionsgruppe feiertagssätze in Skype für Unternehmen
  
 Erstellen oder Ändern von Reaktionsgruppe feiertagssätzen in Skype für Business Server Enterprise-VoIP.
   
@@ -54,7 +54,7 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Business 2015](designing-and-creating-response-group-workflows.md)
+[Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Unternehmen](designing-and-creating-response-group-workflows.md)
 
 [Mit New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

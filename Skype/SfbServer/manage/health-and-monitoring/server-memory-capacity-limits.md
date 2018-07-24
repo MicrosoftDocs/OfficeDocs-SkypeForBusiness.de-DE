@@ -1,29 +1,32 @@
 ---
-title: Überwachen der Speicherkapazitätslimits des Servers in Skype for Business Server 2015
+title: Überwachen von Server-Speicher-kapazitätslimits in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
-description: 'Zusammenfassung: Informationen Sie zum Überwachen von Server-Speicher-Kapazitätsgrenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: df05cdf43a7f09f49760f9671c900d6a9ea992b1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Überwachen von Server-Speicher-Kapazitätsgrenzen in Skype für Business Server.'
+ms.openlocfilehash: 05913ea5b32a9a40d7c577c4a0795ccb07db211f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978700"
 ---
-# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server-2015"></a>Überwachen der Speicherkapazitätslimits des Servers in Skype for Business Server 2015
+# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Überwachen von Server-Speicher-kapazitätslimits in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Überwachen von Server-Speicher-Kapazitätsgrenzen in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Überwachen von Server-Speicher-Kapazitätsgrenzen in Skype für Business Server.
   
 > [!CAUTION]
 > Die Informationen in diesem Thema, das auf Capacity Planning verweist bezieht sich nur auf Lync 2010 Mobile-Clients und den Mobilitätsdienst ("MCX"). Kapazitätsplanung für die Unified Communications Web API (UCWA), durch die Lync 2013-Mobile-Clients verwendet, wird von Lync Server 2013, Planungstool bereitgestellt. 
+
+> [!NOTE]
+> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
   
-Zwei Leistungsindikatoren für Mobilität können Sie zum Bestimmen der Nutzung von aktuellen und unterstützt Sie beim Planen der Kapazität für die Skype für Business Server 2015 Mobility Service ("MCX") als auch um Speicherverwendung UCWA überwachen. Für UCWA ist der Leistungsindikatorkategorie **LS:WEB - UCWA**. Leistungsindikatoren sind für den Mobilitätsdienst ("MCX") unter der Kategorie **LS:WEB - Mobile-Kommunikationsdienst**. Die zu überwachende Leistungsindikatoren sind:
+Zwei Leistungsindikatoren für Mobilität können Sie zum Bestimmen der Nutzung von aktuellen und unterstützt Sie beim Planen der Kapazität für die Skype für Business Server-Mobilitätsdienst ("MCX"), als auch um Speicherverwendung UCWA überwachen. Für UCWA ist der Leistungsindikatorkategorie **LS:WEB - UCWA**. Leistungsindikatoren sind für den Mobilitätsdienst ("MCX") unter der Kategorie **LS:WEB - Mobile-Kommunikationsdienst**. Die zu überwachende Leistungsindikatoren sind:
   
 - **Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements**: Dies ist die aktuelle Anzahl von Endpunkten, die über die UCWA oder den Mobilitätsdienst (Mcx) registriert wurden und aktive Anwesenheitsabonnements besitzen (Anzahl der immer verbundenen mobilen Benutzer).
     
@@ -42,11 +45,8 @@ Durch die Mcx Mobility Service (MB) verwendeter Arbeitsspeicher insgesamt = 164 
   
 Der Front-End-Server benötigt genügend Arbeitsspeicher, um den Mobilitätsdienst in Situationen Failover zu unterstützen. Sie können den aktuellen verfügbaren Speicher auf dem Front-End-Server mit den **Leistungsindikator Memory\Available** MBytes oder unter Verwendung der Gleichung für den Speicher planen, dass Sie den Mobilitätsdienst verwenden erwarten weiter oben erwähnten überwachen.
   
-Wenn die Menge des Arbeitsspeichers zur Verfügung, auf dem Front-End-Server niedriger als 1.500 MB, ist bei der Planung für die erwartete Anzahl von Benutzern für Mobilität, müssen Sie mehr Hardware zur Unterstützung der Mobilitätsdienst hinzufügen. Weitere Informationen finden Sie unter [Monitor Mobilität für die Leistung in Skype für Business Server 2015](monitor-mobility-performance.md) in der Betriebsdokumentation.
+Wenn die Menge des Arbeitsspeichers zur Verfügung, auf dem Front-End-Server niedriger als 1.500 MB, ist bei der Planung für die erwartete Anzahl von Benutzern für Mobilität, müssen Sie mehr Hardware zur Unterstützung der Mobilitätsdienst hinzufügen. Weitere Informationen finden Sie unter [Monitor Mobilität für die Leistung in Skype für Business Server](monitor-mobility-performance.md) in der Betriebsdokumentation.
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Überwachen der Leistung in Skype für Business Server 2015 Mobilität](monitor-mobility-performance.md)
-
+[Überwachen der Mobilität für die Leistung in Skype für Business Server](monitor-mobility-performance.md)

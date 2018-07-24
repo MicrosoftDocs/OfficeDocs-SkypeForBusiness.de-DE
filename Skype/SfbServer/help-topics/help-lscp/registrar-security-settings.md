@@ -3,7 +3,7 @@ title: Registrierungssicherheitseinstellungen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 72dfa2d75ae1191d90ed2eb213c96a2a5c01559e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6861b7f47536370683b9ebb93753054fce6cc41f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975599"
 ---
 # <a name="registrar-security-settings"></a>Registrierungssicherheitseinstellungen
  
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
   
-- [Verwalten von registrierungskonfigurationseinstellungen in Skype für Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)
+- [Verwalten der Konfigurationseinstellungen für die Registrierungsstelle in Skype for Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)
     
 - [Ändern einer vorhandenen Registrierung](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
     

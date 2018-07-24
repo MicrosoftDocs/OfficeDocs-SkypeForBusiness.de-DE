@@ -1,24 +1,24 @@
 ---
-title: Standort-Trendbericht in Skype for Business Server 2015
+title: Standort-Trendbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 'Zusammenfassung: Erfahren Sie mehr über die Standort-Trendbericht in Skype für Business Server 2015.'
-ms.openlocfilehash: c28a22fdf4122dde45b506e90cf752794deaf781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über die Standort-Trendbericht in Skype für Business Server.'
+ms.openlocfilehash: 007bd549dbccffdbbe83ff4d96ebd09b83b7c5e3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973605"
 ---
-# <a name="location-trend-report-in-skype-for-business-server-2015"></a>Standort-Trendbericht in Skype for Business Server 2015
+# <a name="location-trend-report-in-skype-for-business-server"></a>Standort-Trendbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu Standort-Trendbericht in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu Standort-Trendbericht in Skype für Business Server.
   
 Der Standort-Trendbericht enthält Angaben über den Verlauf der Anrufqualität für Netzwerkstandorte.
   
@@ -28,7 +28,7 @@ Mithilfe von Filtern können Sie eine bestimmte Untermenge von Daten zurückgebe
   
 In der folgenden Tabelle sind die Filter aufgeführt, die Sie beim Standort-Trendbericht verwenden können. 
   
-**Trend im Standortbericht**
+**Filter im Standort-Trendbericht**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|

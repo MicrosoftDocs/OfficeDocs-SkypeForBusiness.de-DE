@@ -1,25 +1,25 @@
 ---
-title: Verwalten der Konfigurationseinstellungen für die Registrierungsstelle in Skype for Business Server 2015
+title: Verwalten von registrierungskonfigurationseinstellungen in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
-description: 'Zusammenfassung: Verwalten von registrierungskonfigurationseinstellungen für Skype für Business Server 2015.'
-ms.openlocfilehash: 5cdcf1cba045f5105b1f375fbcebb22b7b00a25d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Verwalten von registrierungskonfigurationseinstellungen für Skype für Business Server.'
+ms.openlocfilehash: 65dfae7e518ef1b561a6782f9555de2d5dd6a6fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998995"
 ---
-# <a name="manage-registrar-configuration-settings-in-skype-for-business-server-2015"></a>Verwalten der Konfigurationseinstellungen für die Registrierungsstelle in Skype for Business Server 2015
+# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Verwalten von registrierungskonfigurationseinstellungen in Skype für Business Server
  
-**Zusammenfassung:** Verwalten von registrierungskonfigurationseinstellungen für Skype für Business Server 2015.
+**Zusammenfassung:** Verwalten von registrierungskonfigurationseinstellungen für Skype für Business Server.
   
 Mithilfe der Registrierungsstelle können Sie Proxyserver-Authentifizierungsmethoden konfigurieren. Das angegebene Authentifizierungsprotokoll legt fest, welche Art von Authentifizierungsaufforderungen die Server im Pool an die Clients senden. Die folgenden Protokolle sind verfügbar:
   
@@ -27,7 +27,7 @@ Mithilfe der Registrierungsstelle können Sie Proxyserver-Authentifizierungsmeth
     
 - **NTLM** Dies ist die Authentifizierung von Clients, die auf das Kennwort ein Hashingschema NTLM-verwenden. Für Clients ohne Verbindung mit einem Schlüsselverteilungscenter (Kerberos-Domänencontroller), beispielsweise für Remotebenutzer, steht nur diese Form der Authentifizierung zur Verfügung. Wenn ein Server ausschließlich Remotebenutzer authentifiziert, sollten Sie NTLM auswählen.
     
-- **Zertifikatauthentifizierung** Dies ist die neue Authentifizierungsmethode, wenn der Server benötigt, um Zertifikate von Lync Phone Edition-Clients, Telefone in öffentlichen Bereichen, Skype für Unternehmen und die Lync Windows Store-app beziehen. Klicken Sie auf Lync Phone Edition-Clients, nachdem ein Benutzer anmeldet und wird durch die Bereitstellung einer Persönliche Identifikationsnummer (PIN), den Skype für Business Server 2015 erfolgreich authentifiziert dann Vorschriften, die den SIP-URI an das Telefon und stellt einen Skype für Business Server signiert Zertifikat oder ein Benutzer, die Joe identifiziert (Ex: SN=joe@contoso.com) auf dem Telefon. Dieses Zertifikat wird für die Authentifizierung beim Registrierungsdienst und den Webdiensten verwendet.
+- **Zertifikatauthentifizierung** Dies ist die neue Authentifizierungsmethode, wenn der Server benötigt, um Zertifikate von Lync Phone Edition-Clients, Telefone in öffentlichen Bereichen, Skype für Unternehmen und die Lync Windows Store-app beziehen. Klicken Sie auf Lync Phone Edition-Clients, nachdem ein Benutzer anmeldet erfolgreich authentifiziert wurde durch eine persönliche Identifikationsnummer (PIN), den Skype für Business Server bereitstellen und Vorschriften, die den SIP-URI an das Telefon und stellt einen Skype für Business Server signiert Zertifikat oder ein Benutzer, die Joe identifiziert (Ex: SN=joe@contoso.com) auf dem Telefon. Dieses Zertifikat wird für die Authentifizierung beim Registrierungsdienst und den Webdiensten verwendet.
     
 > [!NOTE]
 > Es wird empfohlen, sowohl Kerberos als auch NTLM zu aktivieren, wenn ein Server die Authentifizierung von Remote- und Unternehmensclients unterstützt. Durch eine Kommunikation des Edgeservers mit den internen Servern wird gewährleistet, dass Remoteclients nur die NTLM-Authentifizierung verwenden können. Wenn auf diesen Servern nur Kerberos verwendet wird, ist eine Authentifizierung von Remotebenutzern nicht möglich. Wenn Unternehmensbenutzer sich ebenfalls über den Server authentifizieren, wird Kerberos verwendet. 
@@ -36,7 +36,7 @@ Wenn Sie Lync Windows Store-app-Clients verwenden möchten, müssen Sie die Zert
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>So erstellen Sie neue Konfigurationseinstellungen für eine Registrierungsstelle
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
@@ -58,7 +58,7 @@ Wenn Sie Lync Windows Store-app-Clients verwenden möchten, müssen Sie die Zert
     
 ## <a name="modify-existing-registrar-configuration-settings"></a>Ändern von vorhandenen Registrierungsstellenkonfigurationseinstellungen
 
-Mithilfe der Registrierungsstelle können Sie Protokolle für die Proxyserverauthentifizierung konfigurieren. Informationen zu den verfügbaren Protokolle finden Sie unter [Verwalten von registrierungskonfigurationseinstellungen in Skype für Business Server 2015](registrar-configuration-settings.md).
+Mithilfe der Registrierungsstelle können Sie Protokolle für die Proxyserverauthentifizierung konfigurieren. 
   
 > [!NOTE]
 > Es wird empfohlen, sowohl Kerberos als auch NTLM zu aktivieren, wenn ein Server die Authentifizierung von Remote- und Unternehmensclients unterstützt. Durch eine Kommunikation des Edgeservers mit den internen Servern wird gewährleistet, dass Remoteclients nur die NTLM-Authentifizierung verwenden können. Wenn auf diesen Servern nur Kerberos verwendet wird, ist eine Authentifizierung von Remotebenutzern nicht möglich. Wenn Unternehmensbenutzer sich ebenfalls über den Server authentifizieren, wird Kerberos verwendet. 
@@ -67,7 +67,7 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Registrierungsstelle 
   
 ### <a name="to-modify-existing-registrar-configuration-settings"></a>So ändern Sie vorhandene Registrierungsstellenkonfigurationseinstellungen
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
@@ -87,7 +87,7 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Registrierungsstelle 
     
 ### <a name="to-delete-registrar-configuration-settings"></a>So löschen Sie Registrierungsstellenkonfigurationseinstellungen
 
-1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
     

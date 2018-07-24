@@ -1,26 +1,26 @@
 ---
-title: Anrufdetailbericht in Skype for Business Server 2015
+title: Aufrufdetailbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Zusammenfassung: Informationen Sie zu den Call Detail Report in Skype für Business Server 2015 verwendet.'
-ms.openlocfilehash: 942562ed33462506c9da137b3e4377e102d0ec98
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Call Detail Report in Skype für Business Server verwendet wird.'
+ms.openlocfilehash: 3f560a2d4217b5afd61036b39100b39888fe577a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978882"
 ---
-# <a name="call-detail-report-in-skype-for-business-server-2015"></a>Anrufdetailbericht in Skype for Business Server 2015
+# <a name="call-detail-report-in-skype-for-business-server"></a>Aufrufdetailbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Call Detail Report in Skype für Business Server 2015 verwendet.
+**Zusammenfassung:** Informationen Sie zu den Call Detail Report in Skype für Business Server verwendet wird.
   
-Call Detail Report bietet einen umfassenden Überblick über ein einzelner Anruf. der Bericht enthält fast alle der Quality of Experience-Metriken und von Skype erfassten Statistiken für Business Server 2015, wie in Abschnitte unterteilt:
+Call Detail Report bietet einen umfassenden Überblick über ein einzelner Anruf. der Bericht enthält fast alle der Quality of Experience Metriken und von Skype für Business Server erfassten Statistiken in Berichtsabschnitte unterteilt wie etwa:
   
 - Anrufinformationen 
     
@@ -48,17 +48,17 @@ Der Anrufdetailbericht ist sehr nützlich, wenn Sie genau feststellen möchten, 
 
 Auf den Anrufdetailbericht kann von einem der folgenden Berichte aus zugegriffen werden:
   
-- Den [Standortbericht in Skype für Business Server 2015](location-report.md) (durch Klicken auf das Anrufvolumen oder Metrik Prozentsatz Anrufe schlechter Qualität)
+- [Standortbericht in Skype für Business Server (Speicherort report.md) (durch Klicken auf das Anrufvolumen oder Metrik Prozentsatz Anrufe schlechter Qualität)
     
-- [Media Quality Summary Report in Skype für Business Server 2015](summary.md) (durch Klicken auf das Anrufvolumen oder den Prozentsatz-Metrik Anrufe schlechter Qualität)
+- Die [Media Quality Summary Report in Skype für Business Server (summary.md) (durch Klicken auf das Anrufvolumen oder den Prozentsatz-Metrik Anrufe schlechter Qualität)
     
-- Vom [Media Quality Comparison Report in Skype für Business Server 2015](comparison.md) (durch Klicken auf den [Call List Report in Skype für Business Server 2015](call-list-report-0.md) , und klicken Sie dann auf die Metrik Detail).
+- Vom [Media Quality Comparison Report in Skype für Business Server](comparison.md) (durch Klicken auf den [Call List Report in Skype für Business Server](call-list-report-0.md) und anschließend auf die Metrik Detail).
     
-- [Server Performance Report in Skype für Business Server 2015](server-performance.md) (durch Klicken auf das Anrufvolumen oder den Prozentsatz-Metrik Anrufe schlechter Qualität)
+- [Server Performance Report in Skype für Business Server](server-performance.md) (durch Klicken auf das Anrufvolumen oder den Prozentsatz-Metrik Anrufe schlechter Qualität)
     
-- [Call List Report in Skype für Business Server 2015](call-list-report-0.md) (durch Klicken auf die Metrik Detail)
+- [Call List Report in Skype für Business Server](call-list-report-0.md) (durch Klicken auf die Metrik Detail)
     
-Aus in den Call Detail Report möglich der [Gerätebericht in Skype für Business Server 2015](device-report.md) durch Klicken auf eine der folgenden Metriken:
+Aus in den Call Detail Report möglich der [Gerätebericht in Skype für Business Server](device-report.md) durch Klicken auf eine der folgenden Metriken:
   
 - Aufnahmegerät
     
@@ -84,7 +84,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Anrufdetailberi
   
 **Metriken im Anrufdetailbericht**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**PAI des Anrufers** <br/> |Nein  <br/> |Die P-Asserted-Identity (P-Asserted-ID) des Benutzers, der den Anruf initiiert hat. Diese dient zur Übermittlung der nachgewiesenen Identität eines Benutzers innerhalb eines vertrauenswürdigen Netzwerks.  <br/> |
 |**URI des Anrufers** <br/> |Nein  <br/> |Die SIP-Adresse des Benutzers, der den Anruf initiiert hat.  <br/> |

@@ -3,18 +3,18 @@ title: DNS-Grundlagen
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 verfügt über integrierte Software, die DNS-Dienste bereitstellen, können Sie die verfügbare Dokumentation wie das DNS-Richtlinie Szenario Handbuch überprüfen möchten. Sie können eine Drittanbieter-Lösung auswählen, falls gewünscht.
-ms.openlocfilehash: df6a693c50b3ca8b61baf0e47e0d019478f3cbf9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 545b196320ae3b4297d9944ff29c105eb1ce219b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981079"
 ---
 # <a name="dns-basics"></a>DNS-Grundlagen
  

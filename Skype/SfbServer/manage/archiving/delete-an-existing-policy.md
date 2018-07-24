@@ -1,24 +1,24 @@
 ---
-title: Löschen einer vorhandenen Archivierungsrichtlinie in Skype for Business Server 2015
+title: Löschen einer vorhandenen Archivierungsrichtlinie in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype für Business Server 2015 zu löschen.'
-ms.openlocfilehash: aeb640cc832bffbded4765e5b6cc931a17365215
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype für Business Server löschen.'
+ms.openlocfilehash: 0446999923b462311f941b6653157b41000b1f43
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973101"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Löschen einer vorhandenen Archivierungsrichtlinie in Skype for Business Server 2015
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Löschen einer vorhandenen Archivierungsrichtlinie in Skype für Business Server
 
-**Zusammenfassung:** Hier erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype für Business Server 2015 zu löschen.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype für Business Server löschen.
   
 Benutzer- und Standortrichtlinien können gelöscht werden, die globale Richtlinie jedoch nicht. Wenn Sie die globale Richtlinie löschen, setzt Skype für Business Server automatisch die Richtlinie auf die Standardwerte zurück.
   

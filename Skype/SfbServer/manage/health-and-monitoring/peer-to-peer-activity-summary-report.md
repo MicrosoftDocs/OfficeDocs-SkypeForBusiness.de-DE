@@ -1,26 +1,26 @@
 ---
-title: Zusammenfassenden Bericht über Peer-to-Peer-Aktivitäten in Skype for Business Server 2015
+title: Zusammenfassungsbericht über Peer-zu-Peer-Aktivität in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Zusammenfassung: Informationen Sie zu den zusammenfassenden Bericht über Peer-zu-Peer-Aktivität in Skype für Business Server 2015.'
-ms.openlocfilehash: bebef02fbae79f1b85cab8c03f6f27c8e49ea879
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den zusammenfassenden Bericht über Peer-zu-Peer-Aktivität in Skype für Business Server.'
+ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975725"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server-2015"></a>Zusammenfassenden Bericht über Peer-to-Peer-Aktivitäten in Skype for Business Server 2015
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Zusammenfassungsbericht über Peer-zu-Peer-Aktivität in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Bericht über Peer-zu-Peer-Aktivität in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Bericht über Peer-zu-Peer-Aktivität in Skype für Business Server.
   
-Der zusammenfassende Bericht über Peer-to-Peer-Aktivität bietet eine Übersicht über Peer-to-Peer-Kommunikationssitzungen. Eine Peer-zu-Peer-Sitzung in der Regel nur zwei Benutzer umfasst, und erfordert die Verwendung von der Skype für Konferenzdienste Business Server nicht. Demgegenüber erstellt eine Konferenz in der Regel umfasst mehr als zwei Benutzern und erfordert die Verwendung von Skype für Konferenzdienste Business Server 2015. Konferenzaktivität wird im zusammenfassenden Konferenzbericht gemeldet.
+Der zusammenfassende Bericht über Peer-to-Peer-Aktivität bietet eine Übersicht über Peer-to-Peer-Kommunikationssitzungen. Eine Peer-zu-Peer-Sitzung in der Regel nur zwei Benutzer umfasst, und erfordert die Verwendung von der Skype für Konferenzdienste Business Server nicht. Demgegenüber erstellt eine Konferenz in der Regel umfasst mehr als zwei Benutzern und erfordert die Verwendung von Skype für Konferenzdienste Business Server. Konferenzaktivität wird im zusammenfassenden Konferenzbericht gemeldet.
   
 Der zusammenfassende Bericht über Peer-to-Peer-Aktivität hilft Ihnen bei der Beantwortung der folgenden Fragen:
   
@@ -32,7 +32,7 @@ Der zusammenfassende Bericht über Peer-to-Peer-Aktivität hilft Ihnen bei der B
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Zugriff auf den zusammenfassenden Bericht über Peer-to-Peer-Aktivität
 
-Auf den zusammenfassenden Bericht über Peer-to-Peer-Aktivität greifen Sie über die Startseite für Überwachungsberichte zu. Öffnen Sie den [Bericht für Peer-zu-Peer-Sofortnachrichten in Skype für Business Server 2015](im-report.md) , indem Sie auf eine der folgenden Metriken:
+Auf den zusammenfassenden Bericht über Peer-to-Peer-Aktivität greifen Sie über die Startseite für Überwachungsberichte zu. Öffnen Sie den [Bericht für Peer-zu-Peer-Sofortnachrichten in Skype für Business Server](im-report.md) , indem Sie auf eine der folgenden Metriken:
   
 - Peer-to-Peer-Chatsitzungen insgesamt
     
@@ -58,7 +58,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im zusammenfassenden Bericht über Peer-to-Peer-Aktivität verwenden können.
   
-**Filter im zusammenfassenden Bericht der Peer-zu-Peer-Aktivität**
+**Filter im zusammenfassenden Bericht über Peer-to-Peer-Aktivität**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -70,9 +70,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im zusammenfasse
 
 In der folgenden Tabelle werden Metriken aufgelistet, die im zusammenfassenden Bericht über Peer-to-Peer-Aktivität angegeben werden.
   
-**Metriken für Peer-zu-Peer-Aktivität Zusammenfassungsbericht**
+**Metriken im zusammenfassenden Bericht über Peer-to-Peer-Aktivität**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Stündlich** <br/> **Täglich** <br/> **Wöchentlich** <br/> **Monatlich** <br/> |Nein  <br/> |Gibt das auf der Filtersymbolleiste gewählte Zeitintervall an. Sie können gegebenenfalls auf ein bestimmtes Zeitintervall klicken, um ausführliche Informationen zu diesem Intervall anzuzeigen. Wenn Sie beispielsweise das tägliche Intervall verwenden und auf 17.07.2015 klicken, wird eine stündliche Übersicht der Benutzerregistrierungsaktivität für dieses Datum angezeigt.  <br/> |
 |**Peer-to-Peer-Sitzungen insgesamt** <br/> |Nein  <br/> |Gesamtanzahl der abgehaltenen Peer-to-Peer-Sitzungen, unabhängig vom Sitzungstyp.  <br/> |

@@ -1,27 +1,26 @@
 ---
-title: Bearbeiten einer vorhandenen Archivierungsrichtlinie in Skype for Business Server 2015
+title: Ändern einer vorhandenen Archivierungsrichtlinie in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Zusammenfassung: Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server 2015 ändern.'
-ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server ändern.'
+ms.openlocfilehash: 6c92d4f7e4c2a464d248f6b981165de000615432
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569407"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974651"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Bearbeiten einer vorhandenen Archivierungsrichtlinie in Skype for Business Server 2015
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Ändern einer vorhandenen Archivierungsrichtlinie in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server 2015 ändern.
+**Zusammenfassung:** Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server ändern.
   
-Bei der ersten Bereitstellung von Skype für Business Server 2015 richten Sie die anfänglichen Archivierungsrichtlinien, die bestimmen, wie die Archivierung für die Benutzer in Ihrer Bereitstellung implementiert wird. In diesem Thema wird beschrieben, wie Richtlinien verwaltet und bearbeitet werden. 
+Wenn Sie zuerst Skype für Business Server bereitstellen, richten Sie die anfänglichen Archivierungsrichtlinien, die bestimmen, wie die Archivierung für die Benutzer in Ihrer Bereitstellung implementiert wird. In diesem Thema wird beschrieben, wie Richtlinien verwaltet und bearbeitet werden. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Bearbeiten von Archivierungsrichtlinien über die Systemsteuerung
 
@@ -48,7 +47,7 @@ Bei der ersten Bereitstellung von Skype für Business Server 2015 richten Sie di
 6. Klicken Sie auf **Commit ausführen**.
     
     > [!IMPORTANT]
-    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Weitere Informationen hierzu finden Sie unter [Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server 2015](apply-a-policy-to-users.md). 
+    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Weitere Informationen hierzu finden Sie unter [Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Bearbeiten von Archivierungsrichtlinien mit Windows PowerShell
 

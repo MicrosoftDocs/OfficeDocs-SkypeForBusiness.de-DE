@@ -1,24 +1,24 @@
 ---
-title: Konferenzdetailbericht in Skype for Business Server 2015
+title: Konferenzdetailbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Zusammenfassung: Informationen Sie zu den detaillierten Konferenzbericht in Skype für Business Server 2015 verwendet.'
-ms.openlocfilehash: 4c55b2f339aa3d591f01d73d0f60d8fbc0bb483f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den detaillierten Konferenzbericht in Skype für Business Server verwendet wird.'
+ms.openlocfilehash: ebccaf35464c54eac6c1b8c5a2febf2ebea02b7e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971315"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server-2015"></a>Konferenzdetailbericht in Skype for Business Server 2015
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Konferenzdetailbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den detaillierten Konferenzbericht in Skype für Business Server 2015 verwendet.
+**Zusammenfassung:** Informationen Sie zu den detaillierten Konferenzbericht in Skype für Business Server verwendet wird.
   
 Der detaillierte Konferenzbericht enthält ausführliche Informationen zu allen Benutzern, die an einer Konferenz teilgenommen haben. Sie können beispielsweise Informationen wie Datum und Uhrzeit, an dem bzw. zu der ein Benutzer einer Konferenz beigetreten ist und die Konferenz verlassen hat, sowie den Benutzer-Agent des Endpunkts anzeigen, mit dem der Benutzer mit der Konferenz verbunden wurde. Darüber hinaus können Sie Informationen zu der Rolle des Benutzers in den einzelnen Konferenzen (z. B. Referent oder Teilnehmer) anzeigen. Der vielleicht wichtigste Aspekt ist, dass Sie auf einen Blick erkennen können, welche Benutzer der Konferenz erfolgreich beigetreten und sie abgeschlossen haben und welche Benutzer der Konferenz nicht beitreten konnten und sie daher nicht abgeschlossen haben.
   
@@ -26,13 +26,13 @@ Der detaillierte Konferenzbericht enthält ausführliche Informationen zu allen 
 
 Auf den detaillierten Konferenzbericht kann über die folgenden Berichte zugegriffen werden:
   
-- [Call Admission Control Report in Skype für Business Server 2015](call-admission-control-report.md) (durch Klicken auf die Metrik Detail für eine Konferenz)
+- [Call Admission Control Report in Skype für Business Server](call-admission-control-report.md) (durch Klicken auf die Metrik Detail für eine Konferenz)
     
-- [Failure List Report in Skype für Business Server 2015](failure-list-report.md) (durch Klicken auf die Metrik "Konferenz")
+- [Failure List Report in Skype für Business Server](failure-list-report.md) (durch Klicken auf die Metrik "Konferenz")
     
-- Der [Bericht über Benutzeraktivität in Skype für Business Server 2015](user-activity-report.md) (durch Klicken auf die Metrik "Konferenz-URI")
+- Der [Bericht über Benutzeraktivität in Skype für Business Server](user-activity-report.md) (durch Klicken auf die Metrik "Konferenz-URI")
     
-Über den detaillierten Konferenzbericht können Sie den [Diagnosebericht in Skype für Business Server 2015](diagnostic-report.md) zugreifen, durch Klicken auf die Metrik Diagnosebericht (Detail).
+Über den detaillierten Konferenzbericht können Sie den [Diagnosebericht in Skype für Business Server](diagnostic-report.md) zugreifen, durch Klicken auf die Metrik Diagnosebericht (Detail).
   
 ## <a name="filters"></a>Filter
 

@@ -3,18 +3,18 @@ title: Skype Room System – Verbesserte Verwaltung und Tools
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lesen Sie dieses Thema und erfahren Sie mehr über Verwaltungstools für Skype Room System.
-ms.openlocfilehash: c18c8a1e8f4580551dc809d3a8cedbf6f6a3fbfa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8e509059cc2fdffc35bba0d43a84c0699aa536d5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977458"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Room System – Verbesserte Verwaltung und Tools
  
@@ -24,19 +24,13 @@ Lesen Sie dieses Thema und erfahren Sie mehr über Verwaltungstools für Skype 
 
 Skype für lokale Bereitstellungen Business Server können Sie für die administrative Portal Skype Raum System aktiv verwalten und Überwachen von Skype Raum System Bereitstellungen in Ihrer Organisation.
   
-Die folgenden Artikel bieten weitere Informationen:
+Finden Sie weitere Informationen im folgenden Artikel:
   
-- [Bereitstellen von Lync Raum System Administrative Webportal in Lync Server 2013](http://technet.microsoft.com/library/ecba5b36-632e-40b9-9c2e-ab825baf7a46.aspx)
-    
-- [Konfigurieren der Lync Server 2013-Umgebung für das Lync Raum System Administrative Web-Portal](http://technet.microsoft.com/library/1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2.aspx)
-    
-- [Installieren von dem Webportal Lync Raum System Administrative in Lync Server 2013](http://technet.microsoft.com/library/dd19e368-c338-4e21-a40d-6439d46a9748.aspx)
-    
-- [Verwenden von dem Webportal Lync Raum System Administrative in Lync Server 2013](http://technet.microsoft.com/library/c387b2a3-3e42-4642-af72-88126ed2820f.aspx)
+- [Bereitstellen von SRS v1 Administrative Webportal in Skype für Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
 ## <a name="system-center-operations-manager"></a>System Center Operations Manager
 
-Skype-Chatroom-System kann über die System Center Operations Manager (SCOM) durch das [Skype Raum System Management Pack](https://www.microsoft.com/en-us/download/details.aspx?id=42320) herunterladen und installieren es auf Ihrem SCOM-Server überwacht werden. SCOM können Sie Warnungen festlegen, Überwachen des Zustands der Skype Raum System, generieren Sie Berichte Betriebszeit und vieles mehr. Skype-Raum System umfasst einen vorinstallierte monitoring Agent, der konfiguriert werden kann, um SCOM-Server zu verweisen. Finden Sie im Installationshandbuch vom Hersteller Ihres Skype Raum System wissen, wie Sie überwachen den Agent Skype Raum System zu konfigurieren.
+Skype-Chatroom-System kann über die System Center Operations Manager (SCOM) durch das [Skype Raum System Management Pack](https://www.microsoft.com/download/details.aspx?id=42320) herunterladen und installieren es auf Ihrem SCOM-Server überwacht werden. SCOM können Sie Warnungen festlegen, Überwachen des Zustands der Skype Raum System, generieren Sie Berichte Betriebszeit und vieles mehr. Skype-Raum System umfasst einen vorinstallierte monitoring Agent, der konfiguriert werden kann, um SCOM-Server zu verweisen. Finden Sie im Installationshandbuch vom Hersteller Ihres Skype Raum System wissen, wie Sie überwachen den Agent Skype Raum System zu konfigurieren.
   
 ## <a name="exchange-checklist"></a>Exchange-Checkliste
 
@@ -52,10 +46,8 @@ Skype-Chatroom-System kann über die System Center Operations Manager (SCOM) dur
 
 - Führen Sie die folgenden Tools aus:
     
-  - Skype für Business Best Practices Analyzer 
-    
-  - Skype für Business Health Analysetool (Excel) 
-    
+  - Skype für Business Best Practices Analyzer     
+  - Skype für Business Health Analysetool (Excel)    
   - Skype für Business Connectivity Analyzer, 32-Bit oder 64-Bit
     
 - Überprüfen Sie [nützliche neue Problembehandlung und Analysetools für Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Vergewissern Sie sich, Sie haben einen Skype für Business-Pool und einen Office Web Apps-Server und ein PowerPoint-Deck mithilfe der Skype für Business-Client freigeben können.
@@ -100,7 +92,7 @@ Skype Raum System ist ein eingebettetes System, das in einer Windows-Bereitstell
     
   - End-to-End-Verschlüsselung und Autorisierung verwendet für alle Kommunikationsmodi Skype für Unternehmen
     
-  - Skype Raum System unterstützt Skype für Sicherheit und Compliance-Standards Business an. Mehr dazu finden Sie unter „Planen für mehr Sicherheit in Lync Server 2013“.
+  - Skype Raum System unterstützt Skype für Sicherheit und Compliance-Standards Business an. Weitere Informationen finden Sie unter [Planen der Sicherheit in Skype für Business Server](../../plan-your-deployment/security/security.md) .
     
 ## <a name="license"></a>Lizenz
 
@@ -108,7 +100,7 @@ Stellen Sie sicher, dass Sie für die Aktivierung von Software einen KMS verwend
   
 ## <a name="license-keys"></a>Lizenzschlüssel
 
-Skype Raum System wird die Skype für Business desktop Client im Hintergrund ausgeführt. Wenn Skype Raum System Mitglied einer Domäne ist, wird Ihre KMS fest. (und weist dem Volume Licensing KMS Lync Key wird es automatisch aktiviert). Die Volumenlizenzierung bietet auch einen MAK, die Sie eingeben, da es Xxxxx-Xxxxx-Xxxxx-Xxxxx anzeigt. (Sie benötigen Internetzugriff zum Aktivieren von MAK, aber nicht KMS). Weitere Informationen finden Sie unter Volume Activation of Office 2013.
+Skype Raum System wird die Skype für Business desktop Client im Hintergrund ausgeführt. Wenn Skype Raum System Mitglied einer Domäne ist, wird Ihre KMS fest. (und weist dem Volume Licensing KMS-Schlüssel wird es automatisch aktiviert). Die Volumenlizenzierung bietet auch einen MAK, die Sie eingeben, da es Xxxxx-Xxxxx-Xxxxx-Xxxxx anzeigt. (Sie benötigen Internetzugriff zum Aktivieren von MAK, aber nicht KMS). Weitere Informationen finden Sie unter Volume Activation of Office 2013.
   
 - Um den MAK-Schlüssel einzugeben, wechseln Sie zu OEM-Einstellungen \> SRS Lizenzierungsprogramm. Klicken Sie auf „Status überprüfen“. Wenn der Status lautet "Produkt ist nicht aktiviert", geben Sie den Schlüssel.
     
@@ -134,13 +126,13 @@ Stellen Sie sicher, dass Ihre Zertifizierungsstelle über einen HTTP-Pfad für d
   
 Installieren von Zertifikaten in der Admin-Einrichtung des Systems Raum Skype unter Systemeinstellungen \> Zertifikat-Manager. Sie benötigen die Stammzertifizierungsstelle (Enterprise Root CA) für Ihr internes Zertifikat.
   
-Eine Möglichkeit zum Abrufen der erforderlichen Zertifikate ist die Ermittlung der Zertifizierungsstelle, die Ihre Zertifikate ausgestellt hat. Skype für Business Server auf einem PC in Skype für Unternehmen, klicken Sie auf Einstellungen \> Tools \> Konferenz Einwähleinstellungen. Daraufhin wird eine Webseite geöffnet, die durch die Zertifizierungsstelle, die die internen Lync-Zertifierungen ausgestellt hat, gesichert ist. Klicken Sie auf das Sperren-Symbol in der Adressleiste des Browsers, damit ein Sicherheitsbericht angezeigt wird. Klicken Sie auf „Zertifikate anzeigen“ und überprüfen Sie die Eigenschaft „CRL Distribution Point“. Der zweite CN-Parameter sollte der Servername der Zertifizierungsstelle sein. Öffnen Sie Windows Explorer jetzt für die Adresse \\ \< CA-Servernamen \>\CertEnroll. Kopieren Sie die beiden .crl-Dateien und die .crt-Datei auf einen Speicherstick und stecken Sie diesen auf der linken Seite des SmartBoards ein.
+Eine Möglichkeit zum Abrufen der erforderlichen Zertifikate ist die Ermittlung der Zertifizierungsstelle, die Ihre Zertifikate ausgestellt hat. Skype für Business Server auf einem PC in Skype für Unternehmen, klicken Sie auf Einstellungen \> Tools \> Konferenz Einwähleinstellungen. Daraufhin wird eine Webseite, die von der Zertifizierungsstelle, die die interne Zertifikate ausgestellt gesichert. Klicken Sie auf das Sperren-Symbol in der Adressleiste des Browsers, damit ein Sicherheitsbericht angezeigt wird. Klicken Sie auf „Zertifikate anzeigen“ und überprüfen Sie die Eigenschaft „CRL Distribution Point“. Der zweite CN-Parameter sollte der Servername der Zertifizierungsstelle sein. Öffnen Sie Windows Explorer jetzt für die Adresse \\ \< CA-Servernamen \>\CertEnroll. Kopieren Sie die beiden .crl-Dateien und die .crt-Datei auf einen Speicherstick und stecken Sie diesen auf der linken Seite des SmartBoards ein.
   
 Die CRT-Datei in das Skype Raum System unter Vertrauenswürdige Raum Zertifizierungsstelle Ordner importiert.
   
 Importieren Sie die CRL-Dateien auf dem System Skype Raum, unter dem Ordner Zwischenzertifizierungsstellen. (Sie müssen den Filter für Dateierweiterungen im Zertifikat-Manager zu „.crl“ ändern, damit die Dateien angezeigt werden).
   
-Hinweis: Der Office Web Apps 2013-Server kann dieselbe CA wie Lync verwenden. Ist dies nicht der Fall, können Sie PowerPoint in einer Besprechung nicht gemeinsam nutzen. Erkundigen Sie sich bei der IT-Abteilung und besorgen Sie sich die .crt- und .crl-Dateien aus dem CA-Netzwerkkontingent CertEnroll, wie oben beschrieben. 
+Hinweis: Der Office Web Apps 2013-Server kann die gleiche Zertifizierungsstelle als Skype für Business freigeben. Ist dies nicht der Fall, können Sie PowerPoint in einer Besprechung nicht gemeinsam nutzen. Erkundigen Sie sich bei der IT-Abteilung und besorgen Sie sich die .crt- und .crl-Dateien aus dem CA-Netzwerkkontingent CertEnroll, wie oben beschrieben. 
   
 Domänenmitgliedschaft kann beachtet werden, da Sie das Skype Raum System, als ein Windows-System behandelt können und es auf Active Directory für einige der Aspekte Zertifikat basieren zu vereinfachen. Es ist jedoch sollten Sie dies manuell verwaltet werden.
   

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: Besprechungskonfigurationseinstellungen definieren Sie den Typ der Konferenzen (auch gewählte Besprechungen), Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und einwahlkonferenzbenutzer diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen durch Klicken auf die Option Jetzt besprechen im-Client erstellt.
-ms.openlocfilehash: a3a175d6dd49502a3686ea356c30c9da5c7ad01d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Besprechungskonfigurationseinstellungen definieren Sie den Typ der Konferenzen (auch Calledmeetings), dass Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und einwahlkonferenzbenutzer diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Sofortbesprechung erstellt werden.
+ms.openlocfilehash: 57e7b9fab39c9dbbad92758dfc7281164bacc763
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997031"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974732"
 ---
 # <a name="meeting-configuration"></a>Besprechungskonfiguration
  

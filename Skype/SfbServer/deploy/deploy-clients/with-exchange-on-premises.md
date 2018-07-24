@@ -3,7 +3,6 @@ title: Bereitstellen von Skype Room Systems v2 mit lokaler Exchange-Bereitstell
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +10,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Skype Raum Systemen v2 in einer hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: 4fd9b1f2ef7f40f0dac72bd97c25b59d18698154
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 930cc8916459562af89c15aefb60a2bf2c33c7e4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887834"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965450"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Bereitstellen von Skype Room Systems v2 mit lokaler Exchange-Bereitstellung
  
@@ -151,11 +150,11 @@ Für die Validierung sollten Sie alle Skype für Business-Client verwenden Sie d
 
 [Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md)
 
-[Planen von Skype Raum Systemen v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planung für Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)
+[Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
   
-[Konfigurieren einer Skype Raum Systemen v2-Konsole](console.md)
+[Konfigurieren einer Konsole für Skype Room Systems v2](console.md)
   
-[Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

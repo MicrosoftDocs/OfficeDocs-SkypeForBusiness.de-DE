@@ -1,33 +1,33 @@
 ---
-title: Verwalten von Diensten für Skype für Business Server 2015
+title: Verwalten von Diensten für Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
-description: In diesem Artikel wird beschrieben, wie in einer Skype für Business Server 2015 Topologie ausgeführten Dienste verwalten.
-ms.openlocfilehash: f8406d473b1d2ae644ac56d071313d2b488169fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: In diesem Artikel wird beschrieben, wie zum Verwalten von Diensten in einer Skype für Business Server-Topologie ausgeführt.
+ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977003"
 ---
-# <a name="manage-services-for-skype-for-business-server-2015"></a>Verwalten von Diensten für Skype für Business Server 2015
+# <a name="manage-services-for-skype-for-business-server"></a>Verwalten von Diensten für Skype für Business Server
 
-In diesem Artikel wird beschrieben, wie in einer Skype für Business Server 2015 Topologie ausgeführten Dienste verwalten.
+In diesem Artikel wird beschrieben, wie zum Verwalten von Diensten in einer Skype für Business Server-Topologie ausgeführt.
   
-## <a name="view-a-list-of-computers-running-skype-for-business-server-2015"></a>Anzeigen einer Liste von Computern mit Skype für Business Server 2015
+## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>Anzeigen einer Liste von Computern mit Skype für Business Server
 <a name="view_list"> </a>
 
-Sie können Skype Business Server-Systemsteuerung verwenden, um eine Liste aller Computer anzuzeigen, die Skype für Business Server 2015 in Ihrer Topologie ausgeführt werden und den Status der einzelnen. Sie können die Liste nach Computer, Pool oder Website zu sortieren. 
+Sie können Skype Business Server-Systemsteuerung verwenden, um eine Liste aller Computer anzuzeigen, die Skype für Business Server in der Topologie ausgeführt werden und den Status der einzelnen. Sie können die Liste nach Computer, Pool oder Website zu sortieren. 
   
 ### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>Zum Anzeigen einer Liste von Skype-Computern für Business Server
 
-1. Melden Sie sich bei einem Benutzerkonto, das eine der vordefinierten Administratorrollen für Skype für Business Server 2015 zugeordnet ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. Ausführliche Informationen zu den vordefinierten Administratorrollen in Skype für Business Server 2015 verfügbar sind finden Sie unter **Planning for Role-Based Access Control**.   
+1. Melden Sie sich bei einem Benutzerkonto, das eine der vordefinierten Administratorrollen für Skype für Business Server zugeordnet ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. Ausführliche Informationen zu den vordefinierten Administratorrollen in Skype für Business Server verfügbar sind finden Sie unter **Planning for Role-Based Access Control**.   
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.   
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** , und klicken Sie dann auf **Status**.   
 4. Führen Sie einen der Bedarf die folgenden Schritte aus, auf der Seite **Status** :
@@ -35,7 +35,7 @@ Sie können Skype Business Server-Systemsteuerung verwenden, um eine Liste aller
    - Klicken Sie auf **Aktualisieren** , um die aktuelle Liste anzuzeigen.  
    - Suchen Sie nach einem bestimmten Computer durch den Namen des Computers im Suchfeld eingeben.
     
-## <a name="view-the-status-of-services-running-on-a-skype-for-business-2015-server"></a>Anzeigen des Status von Diensten auf einen Skype für Business 2015 Server ausgeführt
+## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>Anzeigen des Status der Dienste auf einen Skype für Business server
 <a name="view-status"> </a>
 
 Sie können Skype Business Server-Systemsteuerung verwenden, um alle Dienste anzuzeigen, die auf einem bestimmten Computer in Ihrer Skype für Business Server-Topologie ausgeführt werden und den Status der einzelnen Dienste.
@@ -83,7 +83,7 @@ Skype für Business Server-Systemsteuerung können Sie Details zu einzelnen Dien
   
 ### <a name="to-view-details-for-a-service"></a>So zeigen Sie Details zu einem Dienst an
 
-1. Melden Sie sich bei einem Benutzerkonto, das eine der vordefinierten Administratorrollen für Skype für Business Server 2015 zugeordnet ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. Ausführliche Informationen zu den vordefinierten Administratorrollen in Skype für Business Server 2015 verfügbar sind finden Sie unter **Planning for Role-Based Access Control**.
+1. Melden Sie sich bei einem Benutzerkonto, das eine der vordefinierten Administratorrollen für Skype für Business Server zugeordnet ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. Ausführliche Informationen zu den vordefinierten Administratorrollen in Skype für Business Server verfügbar sind finden Sie unter **Planning for Role-Based Access Control**.
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** , und klicken Sie dann auf **Status**.
 4. Auf der Seite **Status** sortieren oder Durchsuchen Sie die Liste, und klicken Sie dann auf dem Computer, die Sie anzeigen möchten.
@@ -94,18 +94,17 @@ Skype für Business Server-Systemsteuerung können Sie Details zu einzelnen Dien
    - Um die Details zu diesem Dienst anzuzeigen, klicken Sie auf **Eigenschaften** , und klicken Sie dann auf **Schließen**.
    - Klicken Sie auf **Schließen**, um zur Liste aller Computer in Ihrer Topologie zurückzukehren.
     
-## <a name="start-or-stop-skype-for-business-server-2015-services"></a>Starten oder Beenden von Skype für Business Server 2015-Dienste
+## <a name="start-or-stop-skype-for-business-server-services"></a>Starten oder Beenden von Skype für Business Server-Dienste
 <a name="StartStop"> </a>
 
-Skype für Business Server-Systemsteuerung können so starten oder Beenden alle Skype für Business Server 2015 Dienste auf einem bestimmten Computer ausgeführt oder auf einen bestimmten Dienst gestartet oder beendet.
+Skype für Business Server-Systemsteuerung können so starten oder Beenden alle Skype für Business Server-Dienste auf einem bestimmten Computer ausgeführt oder auf einen bestimmten Dienst gestartet oder beendet.
   
 ### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>So starten oder Beenden alle Skype für BusinessServices auf einem computer
 
-1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015. Sie können bestimmen, ob Sie die CsServerAdministrator oder CsAdministrator RBAC-Rolle zugewiesen wurden durch einen Befehl ähnlich dem folgenden ausführen:
+1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist . Sie können bestimmen, ob Sie die CsServerAdministrator oder CsAdministrator RBAC-Rolle zugewiesen wurden durch einen Befehl ähnlich dem folgenden ausführen:
     
   ```
   Get-CsAdminRoleAssignment -Identity "kenmyer"
-
   ```
 
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
@@ -129,11 +128,11 @@ Skype für Business Server-Systemsteuerung können so starten oder Beenden alle 
 ## <a name="prevent-sessions-for-services"></a>Verhindern von Sitzungen für Dienste
 <a name="prevent_session"> </a>
 
-Sie können Skype Business Server-Systemsteuerung, neue Sitzungen für alle Skype für Business Server 2015 Dienste auf einem bestimmten Computer ausgeführt zu verhindern oder um neue Sitzungen für einen bestimmten Skype für Business Server 2015-Dienst zu verhindern.
+Sie können Skype Business Server-Systemsteuerung, neue Sitzungen für alle Skype für Business Server-Dienste auf einem bestimmten Computer ausgeführt zu verhindern oder um neue Sitzungen für einen bestimmten Skype für Business Server-Dienst zu verhindern.
   
 ### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>Um zu verhindern, dass neue Sitzungen für alle Skype für Business Services auf einem computer
 
-1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** , und klicken Sie dann auf **Status**.
 4. Erforderlich, auf der Seite **Status** sortieren oder Durchsuchen der Liste als zum Computer mit der die Dienste zu verhindern, dass neue Sitzungen, und klicken Sie dann auf es werden soll.
@@ -142,7 +141,7 @@ Sie können Skype Business Server-Systemsteuerung, neue Sitzungen für alle Skyp
     
 ### <a name="to-prevent-new-sessions-for-a-specific-service"></a>So verhindern Sie neue Sitzungen für einen bestimmten Dienst
 
-1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** , und klicken Sie dann auf **Status**.
 4. Sie möchten starten oder beenden, und klicken Sie dann auf, auf der Seite **Status** , sortieren oder Durchsuchen der Liste nach Bedarf an den Computer zu suchen, der der Dienst ausgeführt wird. 

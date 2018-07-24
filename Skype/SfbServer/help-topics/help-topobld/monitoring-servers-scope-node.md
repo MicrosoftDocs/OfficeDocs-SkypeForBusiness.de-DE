@@ -3,7 +3,7 @@ title: Monitoring Server – Bereichsknoten
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: 'Der Knoten Monitoring Server enthält den Monitoring Server in Ihrer Topologie. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: c1b3cdf2e24f153e2da288b2a773462411e30b48
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6d6d2030c9db5fb055a3a3a2958d507b481cd33f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977597"
 ---
 # <a name="monitoring-servers-scope-node"></a>Monitoring Server – Bereichsknoten
  

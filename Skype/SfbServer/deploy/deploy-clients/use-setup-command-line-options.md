@@ -1,22 +1,22 @@
 ---
-title: Verwenden der Setup-Befehlszeilenoptionen in Skype for Business Server 2015
+title: Verwenden von Setup-Befehlszeilenoptionen mit Skype für Business-clients
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Zusammenfassung: Erfahren Sie mehr über Setup.exe Befehlszeile Vorgänge während des Setups von Office.'
-ms.openlocfilehash: 0fa4f31750697f0bd0dbe87bbde025cbc7f530bd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 13005f96b353b8648ed676ef68af54b76a99e48c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974452"
 ---
-# <a name="use-setup-command-line-options-in-skype-for-business-server-2015"></a>Verwenden der Setup-Befehlszeilenoptionen in Skype for Business Server 2015
+# <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Verwenden von Setup-Befehlszeilenoptionen mit Skype für Business-clients
  
 **Zusammenfassung:** Informationen Sie zu Setup.exe Befehlszeile Vorgänge während des Setups von Office.
   
@@ -24,9 +24,9 @@ Die Befehlszeile von "Setup.exe" wird nur für wenige Vorgänge des Office-Setup
   
 Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle beschriebenen Befehlzeilenoptionen.
   
-**Office-Setup-Befehlszeilenoptionen**
+**Optionen der Office Setup-Befehlszeile**
 
-|**Setup-Befehlszeilenoption**|**Beschreibung**|
+|**Option der Office Setup-Befehlszeile**|**Beschreibung**|
 |:-----|:-----|
 |/admin  <br/> |Führt das Office-Anpassungstool aus, um eine Setupanpassungsdatei (.msp-Datei) zu erstellen.  <br/> |
 |/adminfile [Pfad]  <br/> |Wendet die angegebene Setupanpassungsdatei auf die Installation an. Sie können einen Pfad zu einer bestimmten Anpassungsdatei (.msp-Datei) oder zu dem Ordner angeben, in dem Sie Anpassungsdateien speichern.  <br/> |
@@ -35,6 +35,5 @@ Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle bes
 |/repair Skype  <br/> |Führt Setup aus dem Computer des Benutzers, Skype für Unternehmen zu reparieren.  <br/> |
 |/uninstall Skype  <br/> |Führt Setup aus, um Skype für Unternehmen aus dem Computer des Benutzers zu entfernen.  <br/> |
    
-Ausführliche Informationen zum Verwenden der Setup-Befehlszeilenoptionen finden Sie unter [https://go.microsoft.com/fwlink/p/?linkid=267515](https://go.microsoft.com/fwlink/p/?linkid=267515). 
-  
+
 

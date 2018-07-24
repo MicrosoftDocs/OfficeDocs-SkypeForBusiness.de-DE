@@ -3,7 +3,7 @@ title: Bereitstellen von Microsoft-Teams für die Fläche Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abb049c0185fa52b804c893d6f7abf73a1a902ab
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397063"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981579"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft-Teams für die Fläche Hub
 ======================================
@@ -140,6 +140,9 @@ Nachdem Sie die vorhergehenden Schritte zum Aktivieren des Teams für Fläche Hu
 6. Klicken Sie auf **Speichern**, um die Aufgabe abzuschließen.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installieren von Teams für Fläche Hub aus dem Microsoft-Speicher 
+
+> [!NOTE]
+> Für die Verwendung der Microsoft-Teams für die Oberfläche Hub (Preview) muss das Gerät im Windows-Insider-Programm registriert werden. Um das Programm Insider lassen, müssen Sie die Fläche Hub von Cloud-Wiederherstellung zurücksetzen.<br> Um ein Mitglied der Windows-Insider Programm zu werden, muss die Fläche-Hub auf vollständige Telemetrie festgelegt werden, vor der Teilnahme an der Windows-Insider-Programm. Aufgrund von GDPR Vorschriften die Standardeinstellungen der Windows-Telemetrie kürzlich von vollständig in geändert grundlegenden in EU-Ländern. Überprüfen Sie Ihre Einstellungen vor der Teilnahme an der Windows-Insider-Programm. Versucht, das Windows-Insider Programm teilnehmen, bei Festlegung auf grundlegende Telemetrie ein Zurücksetzen des Hubs Fläche erfordern möglicherweise. Wählen Sie zum Überprüfen der Windows-Telemetrie-Einstellungen auf einen Hub Fläche **Einstellungen** > **Privacy** > **Feedback und Diagnose**und auf **vollständige**festgelegt.
 
 Diese Anweisungen sind für die Installation von Teams für Fläche Hub aus dem Microsoft Store. 
  

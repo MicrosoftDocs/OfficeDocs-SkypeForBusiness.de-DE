@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
+ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows. Eine agentgruppe ist eine Gruppe von Personen, die Annahme von Anrufen für Reaktionsgruppen vorgesehen sind.
-ms.openlocfilehash: ea4441a65abe6d2acb3f57a920b75e9f893e9b72
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f2915ab536ceb5dc7f4bf58defedcc737e705eec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974219"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973151"
 ---
 # <a name="response-groups-group"></a>Reaktionsgruppen: Gruppe
  
@@ -52,6 +53,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
     
 - **Beschreibung** Die Beschreibung für die agentgruppe.
     
-Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Ausführliche Informationen zur Verwendung von agentgruppen finden Sie unter [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von agentgruppen finden Sie unter [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.
   
 

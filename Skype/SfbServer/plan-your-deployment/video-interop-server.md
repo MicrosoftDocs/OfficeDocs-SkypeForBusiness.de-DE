@@ -1,9 +1,8 @@
 ---
-title: Planen des Video-Interoperabilität-Servers in Skype for Business Server 2015
+title: Planen der Interop-Videoserver in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -11,22 +10,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
-description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen der Skype für Business Server 2015 Telekonferenzen Drittanbieter-Geräte zu integrieren.'
-ms.openlocfilehash: 1a0ae30cf383f9f05cc8c37ef2c1ba7b7c76cfb8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen von Drittanbietern Telekonferenzen Geräte Skype für Business Server Integration.'
+ms.openlocfilehash: c4308b27371c9e0da312eee0fa5c52602674c45c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975634"
 ---
-# <a name="plan-for-video-interop-server-in-skype-for-business-server-2015"></a>Planen des Video-Interoperabilität-Servers in Skype for Business Server 2015
+# <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planen der Interop-Videoserver in Skype für Business Server
  
-**Zusammenfassung:** Überprüfen Sie in diesem Thema beim Planen der Skype für Business Server 2015 Telekonferenzen Drittanbieter-Geräte zu integrieren.
+**Zusammenfassung:** Überprüfen Sie beim Planen von Drittanbietern Telekonferenzen Geräte Skype für Business Server Integration in diesem Thema.
   
 Skype für Business Server kann jetzt Sie bestimmte VTC (Video Telekonferenzsystem)-Lösungen von Drittanbietern zu integrieren. Die neue Serverrolle, die durch diese Interoperabilität von Videokonferenzen kann ist das Video Interop Server (gegenüber), die derzeit als einen eigenständigen Server Role nur für lokale Installationen implementiert wird. Ein gegenüber dient als Vermittlung zwischen einem Drittanbieter Telefonkonferenzen System und einen Skype für Business Server-Bereitstellung. Bei dieser Version konzentriert sich der VIS auf die Interoperabilität mit Videosystemen von Cisco/Tandberg. Lesen Sie diesen Artikel, um festzustellen, ob dieses Feature in Ihrer Skype für die Installation von Business Server verwendet.
   
 ## <a name="device-interoperability"></a>Interoperabilität von Geräten
 
-Die Interoperationalität ist getestet und wird unterstützt mit Cisco-VTCs, die sich mit CUCM-Version 10.5 registrieren, und TCP-SIP-Trunks, die zwischen CUCM und dem VIS eingerichtet sind.
+Getestet und unterstützt Sie beim Registrieren des Cisco VTCs Interoperation mit Cisco Unified Communications Manager (CallManager oder CUCM) Version 10.5 und TCP-SIP-Trunks eingerichtet zwischen CUCM und der VIS.
   
 Folgende Videotelekonferenzsysteme werden zurzeit unterstützt:
   
@@ -116,9 +116,9 @@ Die gegenüber unterstützt eingehende Anrufe von einem CUCM, die über einen SI
     Der VIS implementiert außerdem einen 10-Sekunden-Timer für Anrufe vom Video-SIP-Trunk. Wenn der primäre nächsten Hop Front-End-Pool für einen Anruf aus dem video SIP-Trunk und das primäre Front-End für den nächsten Hop, dass der Pool nicht mit einigen SIP-Nachricht (einschließlich 100 Verbindungsversuch) an die INVITE-Nachricht gesendet, es innerhalb dieser Wert Timer, die backup nächsten Hop-Proxy für den Anruf s entgegennehmen verwendet wurde Hould versucht werden, wenn konfiguriert. 
     
     > [!NOTE]
-    > Wenn der Sicherung als Nächster Hop zuerst versucht wurde, werden die primäre nicht weiter ausgeführt. 
+    > Wenn es zuerst mit dem Sicherungspool für den nächsten Hop versucht wurde, wird der primäre Pool anschließend nicht mehr ausprobiert. 
   
-    Der Administrator konnte auch den Windows PowerShell-Failover-Befehl verwenden, um erzwingen gegenüber den backup Front-End-Pool, beispielsweise beim zu verwendenden Wartung hat in der primären Front-End-Pool ausgeführt werden.
+    Der Administrator kann auch den Windows PowerShell-Failoverbefehl verwenden, um den VIS zu zwingen, den Sicherungs-Front-End-Pool zu verwenden, beispielsweise wenn Wartungsarbeiten am primären Front-End-Pool durchgeführt werden müssen.
     
 ## <a name="co-existence-of-voice-and-video-trunks-to-the-same-gateway-peer"></a>Koexistenz von Voice- und Videotrunks für denselben Gatewaypeer
 <a name="resiliency"> </a>
@@ -146,11 +146,11 @@ GEGENÜBER kann nur als Teil des Skype für die Bereitstellung von Business bere
   
 Der VIS unterstützt keine Transcodierung zwischen RTV und H.264. Es gibt keine Videointeroperabilität zwischen Clients vor Lync 2013 und VTC-Teilnehmern in einer Konferenz.
   
-Mit installiertem Lync 2013-Clients in einer Konferenz verursachen mobilen Clients zum Senden von RTV methodenthemas VTCs kein Video empfangen, wenn der mobile Client den dominanten Lautsprecher wird.
+Wenn in einer Konferenz Clients vor Lync 2013 enthalten sind, senden mobile Clients Daten über RTV. Dies führt dazu, dass VTCs keine Videodaten erhalten, wenn der mobile Client zum dominanten Sprecher wird.
   
-Damit für Lync 2013 ordnungsgemäß gegenüber entwickelt, die Bestandteil einer Skype für die Business-Bereitstellung ist, benötigt Lync 2013 der entsprechenden CU angewendet werden soll, die Lync 2013-Client, CAA und AVMCU VIS. entwickelt werden aktualisiert
+Damit Lync 2013 ordnungsgemäß mit dem VIS funktioniert, der Teil einer Skype for Business-Bereitstellung ist, muss für Lync 2013 die entsprechende CU angewendet werden, die den Lync 2013-Client, die CAA und die AVMCU für die Arbeit mit VIS aktualisiert.
   
-Interoperabilität von gegenüber mit Lync 2013 und Skype für Desktopclients Business getestet und unterstützt wird.
+Die Interoperabilität von VIS mit Lync 2013 und Skype for Business-Desktopclients wurde getestet und wird unterstützt.
   
 Interoperabilität von gegenüber mit nicht-Desktop (Android, Ipad, Iphone, Windows Phone, LMX usw.) Skype für Business-Clients aus dem entsprechenden Apps Speicher zum Zeitpunkt der gegenüber Version verfügbaren getestet und unterstützt wird.
   
@@ -186,7 +186,4 @@ Die Unterstützung von VTCs, die über einen lokalen VIS an Besprechungen in ein
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="resiliency"> </a>
 
-#### 
-
-[Bereitstellen eines Video Interop-Servers in Skype für Business Server 2015](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
-
+[Bereitstellen eines Video Interop-Servers in Skype für Business Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

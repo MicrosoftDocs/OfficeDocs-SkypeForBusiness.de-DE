@@ -3,7 +3,7 @@ title: Hinzufügen des Front-End-Überwachungsspeichers – Seite
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Sie definieren der Monitoring SQL Server-Speicher, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: fe95cab603729736b0483774baa7111837a31c8b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ea2a477bc970f0f431f2290b40bcb2b100ccc942
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967719"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Hinzufügen des Front-End-Überwachungsspeichers – Seite
  
@@ -46,7 +47,4 @@ Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite)
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype für Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
-
+[Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

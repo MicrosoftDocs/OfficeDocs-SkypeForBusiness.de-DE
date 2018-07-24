@@ -1,24 +1,24 @@
 ---
-title: Bericht über Konferenzbeitrittszeit in Skype for Business Server 2015
+title: Konferenzbeitrittszeit in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Zusammenfassung: Erfahren Sie mehr über die Zusammenfassung Konferenzbeitrittszeit in Skype für Business Server 2015.'
-ms.openlocfilehash: ce5bd7b3f1182c9c00171b87a2b0b63556992327
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über die Zusammenfassung Konferenzbeitrittszeit in Skype für Business Server.'
+ms.openlocfilehash: 111222b915aafee346f27e4a509c0484e2ec3e00
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981122"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server-2015"></a>Bericht über Konferenzbeitrittszeit in Skype for Business Server 2015
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Konferenzbeitrittszeit in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Konferenzbeitrittszeit in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Konferenzbeitrittszeit in Skype für Business Server.
   
 Mit dem Bericht über Zeitpunkt des Konferenzbeitritts können Sie bestimmen, wie lange die Benutzer benötigen, um einer Konferenz beizutreten. Dieser Bericht enthält die durchschnittliche Zeit für den Beitritt (in Millisekunden) sowie eine Übersicht darüber, wie viele Benutzer in maximal 2 Sekunden einer Konferenz beitreten konnten, wie viele Benutzer zwischen 2 und 5 Sekunden für den Konferenzbeitritt benötigten usw.
   
@@ -30,7 +30,7 @@ Auf den Bericht über den Zeitpunkt des Konferenzbeitritts können Sie über die
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Zeitpunkt des Konferenzbeitritts verwenden können.
   
-**Filter im Bericht über Zeitpunkt Konferenz des**
+**Filter im Bericht über Zeitpunkt des Konferenzbeitritts**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -44,9 +44,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Zeitpunkt des Konferenzbeitritts angegeben werden.
   
-**Metriken im Bericht über Konferenz teilnehmen-Zeit**
+**Metriken im Bericht über Zeitpunkt des Konferenzbeitritts**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Datum** <br/> Der eigentliche Name dieser Metrik hängt vom ausgewählten Intervall ab.  <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem die Konferenz stattfand.  <br/> |
 |**Sitzungen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Sitzungen, einschließlich Sitzungen ohne Fehler, Sitzungen mit Fehlern (sowohl erwarteten als auch unerwarteten) und nicht kategorisierten Sitzungen.  <br/> |

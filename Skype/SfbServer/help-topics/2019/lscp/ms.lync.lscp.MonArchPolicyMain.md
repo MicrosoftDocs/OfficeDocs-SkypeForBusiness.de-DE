@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Aktivieren von Archivierungsrichtlinien verwendet und Archivierung für Benutzer deaktivieren auf Skype für Business Server verwaltet. In einer Archivierungsrichtlinie können Sie die Archivierung jeweils für eine oder beide der folgenden Kommunikationsarten aktivieren oder deaktivieren:'
-ms.openlocfilehash: efe2a17e5f3e85b83e937e38613b630e3a78f7d9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d673aa5474864d99895efc1e16e1e307f078c72f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979967"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973821"
 ---
 # <a name="archiving-policy"></a>Archivierungsrichtlinie
  
@@ -64,5 +65,5 @@ Auf der Seite **Archivierungsrichtlinie** sind die einzelnen Archivierungsrichtl
     
 - **Aktualisieren** Sie können die Seite **Archivierungsrichtlinie** zum Überprüfen des Status der Optionen aller Archivierungsrichtlinien aktualisieren.
     
-Weitere Informationen über die Archivierungsfunktion und Funktionen, einschließlich Exchange-Integration finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Archivierung für Skype für Business Server 2015 bereitstellen](../../../deploy/deploy-archiving/deploy-archiving.md)und verwalten [Archivierung in Skype für Business Server 2015](../../../manage/archiving/archiving.md).
+Weitere Informationen über die Archivierungsfunktion und Funktionen, einschließlich Exchange-Integration finden Sie unter [Plan für die Archivierung in Skype für Business Server](../../../plan-your-deployment/archiving/archiving.md), [Archivierung für Skype für Business Server bereitstellen](../../../deploy/deploy-archiving/deploy-archiving.md)und verwalten [Archivierung in Skype für Unternehmen Server](../../../manage/archiving/archiving.md).
 

@@ -3,7 +3,7 @@ title: Front-End Mediation Service Einstellungen – Erweiterung für Lync Serve
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Sie können die Eigenschaften der Mediation Server PSTN-gatewayeinstellungen in diesem Dialogfeld bearbeiten. Definieren Sie die folgenden Einstellungen:'
-ms.openlocfilehash: e3ec392aac08121296769a9d5170886c61c7511b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fa3038e8480fb11430388c95914750ab1d9ca68c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971988"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Front-End Mediation Service Einstellungen – Erweiterung für Lync Server 2010
  

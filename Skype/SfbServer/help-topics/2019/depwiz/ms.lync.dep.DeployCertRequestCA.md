@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-description: 'Wenn eine Anforderung an eine Onlinezertifizierungsstelle (CA) zu tätigen (normalerweise sind Server, die im internen Netzwerk) auf der Seite Zertifizierungsstelle (Certification Authority, CA) für die auswählen, werden Sie zwei Optionen angezeigt:'
-ms.openlocfilehash: 0092e29f7cb477686cb873aa7318519d12381f72
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Beim Erstellen einer Zertifikatsanforderung an eine Onlinezertifizierungsstelle (im Allgemeinen ein Server im internen Netzwerk) auf der Seite Zertifizierungsstelle auswählen werden zwei Optionen angezeigt:'
+ms.openlocfilehash: 860faad4bcbb78010cabf835817ad852aca1e66b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973115"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975400"
 ---
 # <a name="certificate-request-certificate-authority"></a>Zertifikatsanforderung (Zertifizierungsstelle)
  

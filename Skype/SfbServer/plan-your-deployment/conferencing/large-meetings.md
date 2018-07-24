@@ -1,24 +1,24 @@
 ---
-title: Planen großer Besprechungen in Skype for Business Server 2015
+title: Planen von großen Besprechungen in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um sich über bewährte Methoden für das Implementieren und Verwalten von großen Besprechungen in Skype für Business Server 2015 informieren.'
-ms.openlocfilehash: 6a2af2ef9e7698f9141baf78f99b9bc9febfaa67
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu bewährten Methoden für das Implementieren und Verwalten von großen Besprechungen in Skype für Business Server erhalten.'
+ms.openlocfilehash: 0d78a679414ec9287837e494d94bdc708879f863
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970514"
 ---
-# <a name="plan-for-large-meetings-in-skype-for-business-server-2015"></a>Planen großer Besprechungen in Skype for Business Server 2015
+# <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planen von großen Besprechungen in Skype für Business Server
  
-**Zusammenfassung:** Lesen Sie in diesem Thema, um sich über bewährte Methoden für das Implementieren und Verwalten von großen Besprechungen in Skype für Business Server 2015 informieren.
+**Zusammenfassung:** Lesen Sie in diesem Thema, um Informationen zu bewährten Methoden für das Implementieren und Verwalten von großen Besprechungen in Skype für Business Server erhalten.
   
 Die Größe von Besprechungen, die unterstützt Skype für Business Server, hängt davon ab, ob Konferenzen in einem Pool gemeinsam genutzte oder dedizierte gehostet wird: an einer beliebigen Stelle aus 250 Teilnehmer in einem freigegebenen Pool 1000 Teilnehmern in einem dedizierten Pool. 
   
@@ -56,7 +56,7 @@ Um ausreichende Speicherressourcen sowie die erforderliche CPU-Leistung für Bes
   
 Einen Skype für Business Server-Pool, der für das Hosten von großer Besprechungen vorgesehen ist, sollte eine hosten und nur eine Besprechung von bis zu 1000 Benutzern gleichzeitig, also Besprechungszeiten müssen im Voraus über einen außerhalb des Band scheduling-Prozess auf dedizierten Support zu gewährleisten reserviert werden aus der Front-End-Servern. Zur Unterstützung der mehr als eine großer Besprechung zur selben Zeit sollten Sie mehrere Pools mit dedizierten großen Besprechung einrichten.
   
-Weitere Informationen zu Hardware- und softwareanforderungen und planen eine Topologie für große Besprechungen unterstützt, finden Sie unter [Hardware and Software Requirements for Conferencing in Skype für Business Server 2015](hardware-and-software-requirements.md) und [Planen Ihrer konferenztopologie für Skype für Business Server 2015](conferencing-topology.md).
+Weitere Informationen zu Hardware- und softwareanforderungen und planen eine Topologie für große Besprechungen unterstützt, finden Sie unter [Hardware and Software Requirements for Conferencing in Skype für Business Server](hardware-and-software-requirements.md) und [Planen Ihrer konferenztopologie für Skype für Business Server](conferencing-topology.md).
   
 ## <a name="implement-best-practices-for-large-meetings"></a>Einführung von Best Practices für große Besprechungen
 
@@ -96,7 +96,7 @@ Der Moderator Besprechung kann alle Referenten Funktionen von Skype für Busines
     
 - Ändern der Teilnehmerrollen
     
-- Einladen zusätzlicher Teilnehmer während der Besprechung per Drag&Drop-Funktion in Lync, Telefonanruf oder E-Mail
+- Einladen zusätzlicher Teilnehmer während der Besprechung mithilfe von Drag & drop-Funktionalität, Telefonanruf oder e-Mail
     
 - Stummschalten und Aufheben der Stummschaltung für die Zielgruppe oder für einzelne Benutzer
     
@@ -197,6 +197,6 @@ Darüber hinaus müssen Sie den dedizierten großen besprechungspool konfigurier
     
 - Stellen Sie sicher, dass das Kontrollkästchen **Anonyme Benutzer standardmäßig zulassen** nur aktiviert wird, wenn es erforderlich ist. Diese Einstellung wirkt sich auf die Standardeinstellungen für den Zugriffstyp durch das Onlinebesprechungs-Add-in für Skype für Unternehmen geplant wird, wenn Sie keine zugewiesene Konferenz verwenden. Die geeignete Option für diese Einstellung hängt von der Anforderungen Ihrer Organisation ab. Wenn die meisten großen Besprechungen in Ihrer Organisation interne Besprechungen sind, sollte diese Option nicht ausgewählt werden. Wenn beim Großteil der großen Besprechungen externe Benutzer teilnehmen, sollte diese Option ausgewählt werden.
     
-Weitere Informationen zum Erstellen einer konferenzrichtlinie finden Sie unter [Manage Conferencing Policies in Skype für Business Server 2015](../../manage/conferencing/conferencing-policies.md).
+Weitere Informationen zum Erstellen einer konferenzrichtlinie finden Sie unter [Manage Conferencing Policies in Skype für Business Server](../../manage/conferencing/conferencing-policies.md).
   
 

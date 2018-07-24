@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verwenden Sie Archivierungskonfigurationen zum Steuern der Archivierungsoptionen für Ihre Bereitstellung. Zu den Archivierungskonfigurationen gehören die globale Konfiguration und optional eine oder mehrere Poolkonfigurationen:'
-ms.openlocfilehash: 3cc5c560ebafdf5dbf1ddac05d7c6b25653c0eb4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1e85367566618638da8e8c9a826c56eecad6b029
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976872"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974808"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Archivierungskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungskonfiguration
  
@@ -69,5 +70,5 @@ Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vo
     > [!NOTE]
     > Wenn Sie Microsoft Exchange-Integration aktivieren, Löschvorgang für Benutzer, die in Exchange verwaltet und mit ihren Postfächern, bei denen In-Place Hold von Exchange gesteuert. Die einzige Ausnahme ist für Konferenzen-Dateien, die in der Lync Server-Dateifreigabe gespeichert sind. Diese Dateien werden von der Dateifreigabe, nachdem die Dateien (hochgeladenen zu Exchange) exportiert worden sind, wenn Sie die Option aus, um Daten zu löschen, nach dem Exportieren der archivierten Daten auswählen oder die angegebene maximale Anzahl von Tagen, gelöscht, wenn Sie eine maximale Anzahl von angeben Tage für die Aufbewahrung. 
   
-Weitere Informationen über die Archivierungsfunktion und Funktionen, einschließlich Exchange-Integration finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Archivierung für Skype für Business Server 2015 bereitstellen](../../../deploy/deploy-archiving/deploy-archiving.md)und verwalten [Archivierung in Skype für Business Server 2015](../../../manage/archiving/archiving.md).
+Weitere Informationen über die Archivierungsfunktion und Funktionen, einschließlich Exchange-Integration finden Sie unter [Plan für die Archivierung in Skype für Business Server](../../../plan-your-deployment/archiving/archiving.md), [Archivierung für Skype für Business Server bereitstellen](../../../deploy/deploy-archiving/deploy-archiving.md)und verwalten [Archivierung in Skype für Unternehmen Server](../../../manage/archiving/archiving.md).
 

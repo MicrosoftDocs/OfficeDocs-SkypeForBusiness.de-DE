@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Nach dem Installieren der Skype für Business Server-Planungstool können Sie zum Starten des Planungstools und mit dem Entwerfen der vorgeschlagenen Skype für Business Server 2015-Infrastruktur beginnen.
-ms.openlocfilehash: 9925ad9e4294ef2a1e4b90f6e1de9780bbb83260
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 504c6b6c3f0675af06a6edb79d3f47a1569a27d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969873"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
  
@@ -41,7 +42,7 @@ Nach dem Installieren der Skype für Business Server-Planungstool können Sie zu
 4. Beantworten Sie die Fragen in jedem Abschnitt, indem Sie die geeigneten Kriterien für Ihren Entwurf auswählen, und klicken Sie anschließend auf **Weiter**, um mit der nächsten Seite des Assistenten fortzufahren. Klicken Sie auf **Zurück**, um Änderungen auf vorherigen Seiten vorzunehmen.
     
     > [!TIP]
-    > Jede Seite bietet eine Beschreibung der Auswahlkriterien sowie Empfehlungen basierend auf bevorzugten Vorgehensweisen und der Kapazitätsplanung. Wenn Sie weitere Informationen benötigen, klicken Sie auf **Weitere** , um detaillierte Informationen aus der Skype für Business Server 2015 in der Planungsdokumentation auf der Microsoft TechNet-Website zu lesen. Für den Zugriff auf die Microsoft TechNet-Website ist eine Internetverbindung erforderlich.
+    > Jede Seite bietet eine Beschreibung der Auswahlkriterien sowie Empfehlungen basierend auf bevorzugten Vorgehensweisen und der Kapazitätsplanung. Wenn Sie weitere Informationen benötigen, klicken Sie auf **Weitere** , um detaillierte Informationen aus der Skype für Business Server 2015 in der Planungsdokumentation auf der Microsoft-Website zu lesen. Sie müssen Internet Connectivity greifen Sie auf der Microsoft-Website verfügen.
   
 5. Wählen Sie die geeigneten Optionen für Ihren Entwurf. Nach der Definition der anfänglichen Kriterien werden Sie darüber informiert, dass die Funktionsübersicht vollständig ist. 
     
@@ -75,7 +76,4 @@ Nach dem Installieren der Skype für Business Server-Planungstool können Sie zu
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Bearbeiten des Entwurfs](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
-

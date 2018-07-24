@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von Add-Ins für Chatrooms Persistent Chat Server in Skype für Business Server 2015.'
-ms.openlocfilehash: dbd1eba6cf73783d02b502930f271ada93e28145
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f96f000c4ac3a78f6ca3ba4972f295e45128ce50
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967733"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Konfigurieren von Add-Ins für beständige Chatrooms in Skype for Business Server 2015
  
@@ -24,6 +25,9 @@ ms.lasthandoff: 03/28/2018
   
  Bevor Benutzer ein Add-In im Client sehen können, müssen sie es der Liste registrierter Add-Ins hinzufügen und Chatroom-Manager oder -Ersteller müssen es Räumen zuordnen.
   
+> [!NOTE]
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Konfigurieren von Add-Ins für Chatrooms mithilfe der Systemsteuerung
 
 So konfigurieren Sie Add-Ins für Chatrooms mithilfe der Systemsteuerung:
@@ -52,7 +56,7 @@ So konfigurieren Sie Add-Ins für Chatrooms mithilfe der Systemsteuerung:
 
 Sie können Add-Ins für Chatrooms mithilfe der Windows PowerShell-Cmdlets konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md).
   
-| |
+
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
 |"New-cspersistentchataddin"  <br/> |Erstellt ein neues Add-In  <br/> |

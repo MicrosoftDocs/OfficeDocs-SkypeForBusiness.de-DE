@@ -1,24 +1,24 @@
 ---
-title: Zusammenfassender Anrufdiagnosebericht in Skype for Business Server 2015
+title: Zusammenfassender anrufdiagnosebericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 'Zusammenfassung: Informationen Sie zu den zusammenfassenden Anrufdiagnosebericht in Skype für Business Server 2015 verwendet.'
-ms.openlocfilehash: 8d040ab2d59fdbc822448de2d3c9918ec39ae289
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den zusammenfassenden Anrufdiagnosebericht in Skype für Business Server verwendet wird.'
+ms.openlocfilehash: 6d4db52f266e9c7387662563a8640cfaeab56ca8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976821"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server-2015"></a>Zusammenfassender Anrufdiagnosebericht in Skype for Business Server 2015
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Zusammenfassender anrufdiagnosebericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Anrufdiagnosebericht in Skype für Business Server 2015 verwendet.
+**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Anrufdiagnosebericht in Skype für Business Server verwendet wird.
   
 Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlgeschlagenen Peer-to-Peer- und Konferenzsitzungen. Der Bericht zeigt die Gesamtfehlerrate für beide Sitzungstypen und detaillierte Fehlerinformationen nach Sitzungsmodalitätstyp:
   
@@ -34,7 +34,7 @@ Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlge
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Zugriff auf den zusammenfassenden Anrufdiagnosebericht
 
-Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Über den zusammenfassenden Anrufdiagnosebericht können Sie den [Bericht über Peer-zu-Peer-Aktivität Diagnosebericht in Skype für Business Server 2015](peer-to-peer-activity-diagnostic-report.md) zugreifen, durch Klicken auf die Metrik "Fehler Rate" unter dem zusammenfassenden Bericht über Peer-zu-Peer-Sitzung Abschnitt des Berichts. Sie können auch den [Diagnosebericht in Skype für Business Server 2015 Konferenz](conference-diagnostic-report.md) zugreifen, indem Sie auf eine der folgenden Metriken Konferenz:
+Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Über den zusammenfassenden Anrufdiagnosebericht können Sie den [Bericht über Peer-zu-Peer-Aktivität Diagnosebericht in Skype für Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, durch Klicken auf die Metrik "Fehler Rate" unter dem zusammenfassenden Bericht über Peer-zu-Peer-Sitzung Abschnitt des Berichts. Sie können auch die [Konferenz Diagnosebericht in Skype für Business Server](conference-diagnostic-report.md) zugreifen, indem Sie auf eine der folgenden Metriken Konferenz:
   
 - Sitzungsfehlerrate insgesamt
     
@@ -44,7 +44,7 @@ Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Start
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Optimale Verwendung des zusammenfassenden Anrufdiagnoseberichts
 
-Die zusammenfassenden Anrufdiagnosebericht umfasst Diagramme, die für die verschiedenen Modalitäten in Skype für Business Server 2015 verwendet Fehlerraten zu vergleichen. Die Spalten in dieser Diagramme sind tatsächlich Hotlink; beispielsweise wenn Sie die Instant messaging-Spalte für Peer-zu-Peer-Sitzungen klicken, Sie werden Detailinformationen für eine Instanz des [Peer-zu-Peer-Aktivität Diagnosebericht in Skype für Business Server 2015](peer-to-peer-activity-diagnostic-report.md), einen Bericht, der zusätzliche Details zu allen enthält die Instant messaging-Sitzungen in den zusammenfassenden Anrufdiagnosebericht enthalten.
+Die zusammenfassenden Anrufdiagnosebericht umfasst Diagramme, die für die verschiedenen Modalitäten in Skype für Business Server verwendeten Fehlerraten zu vergleichen. Die Spalten in dieser Diagramme sind tatsächlich Hotlink; Angenommen, wenn Sie die Instant messaging-Spalte für Peer-zu-Peer-Sitzungen klicken, Sie werden Detailinformationen eine Instanz des [Peer-zu-Peer-Aktivität Diagnosebericht in Skype für Business Server](peer-to-peer-activity-diagnostic-report.md), einen Bericht, der zusätzliche Details zu allen enthält die Instant messaging-Sitzungen in den zusammenfassenden Anrufdiagnosebericht enthalten.
   
 ## <a name="filters"></a>Filter
 
@@ -52,7 +52,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfassenden Anrufdiagnosebericht verwenden können.
   
-**Filter im zusammenfassenden Bericht Diagnostic aufrufen**
+**Filter im Zusammenfassenden Anrufdiagnosebericht**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -65,9 +65,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfasse
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Anrufdiagnosebericht für Peer-to-Peer-Sitzungen (d. h. für Sitzungen mit nur zwei Teilnehmern) angegeben werden.
   
-**Metriken für Peer-zu-Peer-Sitzungen**
+**Metriken für Peer-to-Peer-Sitzungen**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Sitzungen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Peer-to-Peer-Sitzungen, die stattgefunden haben.  <br/> |
 |**Fehlerrate** <br/> |Nein  <br/> |Der Prozentsatz der Peer-to-Peer-Sitzungen, bei denen ein Fehler aufgetreten ist. Wenn Sie auf dieses Element klicken, wird der Diagnosebericht über Peer-to-Peer-Aktivitäten angezeigt, der detailliertere Angaben zu den fehlgeschlagenen Peer-to-Peer-Sitzungen enthält.  <br/> |
@@ -78,7 +78,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassend
   
 **Metriken für Konferenzsitzungen**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Konferenzen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Konferenzen, die stattgefunden haben.  <br/> |
 |**Konferenzsitzungen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Konferenzsitzungen, die durchgeführt wurden.  <br/> |

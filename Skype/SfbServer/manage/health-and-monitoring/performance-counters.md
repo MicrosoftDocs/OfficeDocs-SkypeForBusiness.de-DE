@@ -1,34 +1,37 @@
 ---
-title: Leistungsindikatoren für Mobilität in Skype for Business Server 2015
+title: Leistungsindikatoren für Mobilität in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Zusammenfassung: Erfahren Sie mehr über die Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server 2015 Mcx Mobility Service verwenden können.'
-ms.openlocfilehash: 7f82f263969deb5fc71e448f0e514dd0056c31eb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über die Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server Mcx Mobility Service verwenden können.'
+ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969845"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server-2015"></a>Leistungsindikatoren für Mobilität in Skype for Business Server 2015
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Leistungsindikatoren für Mobilität in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server 2015 Mcx Mobility Service verwenden können.
+**Zusammenfassung:** Informationen Sie zu den Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server Mcx Mobility Service verwenden können.
   
-In den folgenden Tabellen Listen die Namen und eine Beschreibung der Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server 2015 Mcx Mobility Service verwenden können. 
+In den folgenden Tabellen Listen die Namen und eine Beschreibung der Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server Mcx Mobility Service verwenden können. 
   
 Der Kategoriename für die Leistungsindikatoren in der Tabelle UCWA ist **LS:WEB - UCWA**.
   
 Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabelle ist **LS:WEB - Mobile Communication Service**.
+
+> [!NOTE]
+> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
   
 ## <a name="performance-counters-for-ucwa"></a>Leistungsindikatoren für UCWA
 
-|**Leistungsindikator**|**Beschreibung**|
+|Leistungsindikator|Beschreibung|
 |:-----|:-----|
 |Anzahl aktiver Anwendungen  <br/> |Die aktuelle Anzahl von Anwendungen.  <br/> |
 |Anzahl der aktiven Anwendungsfreigabemodalitäten  <br/> |Die aktuelle Anzahl der Anwendungsfreigabemodalitäten.  <br/> |
@@ -74,7 +77,7 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabe
 |Gesamtzahl der Sitzungen, die aufgrund eines Leerlauftimeouts beendet wurden  <br/> |Die Gesamtzahl der Sitzungen, die beendet wurden, da das Leerlauftimeout des Benutzers erreicht wurde.  <br/> |
 |Gesamtzahl der gedrosselten Anwendungen  <br/> |Die Anzahl der gedrosselten Anwendungen.  <br/> |
    
-**Leistungsindikatoren für Mcx-Mobilitätsdienst**
+**Leistungsindikatoren für den Mcx-Mobilitätsdienst**
 
 |**Leistungsindikator**|**Beschreibung**|
 |:-----|:-----|
@@ -110,4 +113,5 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabe
 |Gesamtzahl der erfolgreichen eingehenden Sprachanrufe  <br/> |Die Gesamtzahl der erfolgreichen eingehenden Sprachanrufe.  <br/> |
 |Gesamtzahl der erfolgreichen ausgehenden Sprachanrufe  <br/> |Die Gesamtzahl der erfolgreichen ausgehenden Sprachanrufe.  <br/> |
    
-
+> [!NOTE]
+> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.

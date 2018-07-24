@@ -3,7 +3,7 @@ title: Zweigniederlassungen (Planungstool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -13,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: Ausführliche Informationen zu Zweigstellenstandorte finden Sie unter Planen für die VoIP-Ausfallsicherheit.
-ms.openlocfilehash: 9c5b3735ce986342ad855f9708a01fc2a60b0906
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1520683c7ea9bb4334bddb544da3267ff649b71e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973062"
 ---
 # <a name="branch-sites-planning-tool"></a>Zweigniederlassungen (Planungstool)
  

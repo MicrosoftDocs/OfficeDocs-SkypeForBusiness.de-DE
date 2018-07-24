@@ -1,24 +1,24 @@
 ---
-title: Diagnosebericht über die Konferenz in Skype for Business Server 2015
+title: Diagnosebericht Konferenz in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 'Zusammenfassung: Erfahren Sie mehr über die Konferenz Diagnosebericht in Skype für Business Server 2015 verwendet.'
-ms.openlocfilehash: 6d638efbd011026cd4481d3a68d0a4836fb792a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über die Konferenz Diagnosebericht in Skype für Business Server verwendet.'
+ms.openlocfilehash: 75d12f8b2906e84a8ca786a7103ce41d87f3f300
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981129"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server-2015"></a>Diagnosebericht über die Konferenz in Skype for Business Server 2015
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht Konferenz in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Diagnosebericht Konferenz in Skype für Business Server 2015 verwendet.
+**Zusammenfassung:** Informationen Sie zu den Diagnosebericht Konferenz in Skype für Business Server verwendet wird.
   
 Der Diagnosebericht über die Konferenz enthält Informationen über erfolgreich durchgeführte Konferenzsitzungen und Fehler bei Konferenzsitzungen. Beachten Sie, dass Skype für Business Server zwischen verschiedenen Arten des Fehlers unterschieden wird:
   
@@ -28,7 +28,7 @@ Der Diagnosebericht über die Konferenz enthält Informationen über erfolgreich
     
 Beachten Sie, dass die Summe aus den Werten für Erfolge, erwartete Fehler und unerwartete Fehler nicht immer mit der Angabe für „Sitzungen insgesamt“ übereinstimmt. Beispielsweise können in dem Bericht folgende Werte angegeben werden:
   
-|**Erfolge**|**Erwartete Fehler**|**Unerwarteter Fehler**|**Sitzungen insgesamt**|
+|**Erfolge**|**Erwartete Fehler**|**Unerwartete Fehler**|**Sitzungen insgesamt**|
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
@@ -36,7 +36,7 @@ Wenn Sie 2.024 + 469 + 16 addieren, ergibt das insgesamt 2.509 Sitzungen, aber i
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Öffnen des Diagnoseberichts über die Konferenz
 
-Auf den Diagnosebericht über die Konferenz greifen Sie über die Startseite für Überwachungsberichte zu. Sie können den [Bericht über Fehlerverteilung in Skype für Business Server 2015](failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken:
+Auf den Diagnosebericht über die Konferenz greifen Sie über die Startseite für Überwachungsberichte zu. Sie können den [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken:
   
 - Anzahl der unerwarteten Fehler
     
@@ -44,7 +44,7 @@ Auf den Diagnosebericht über die Konferenz greifen Sie über die Startseite fü
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Optimales Nutzen des Diagnoseberichts über die Konferenz
 
-Der Diagnosebericht über die Konferenz enthält eine Reihe von Diagrammen. Jede der Spalten in einem Diagramm ist ein Hyperlink. Wenn Sie eine Spalte klicken, können Sie den [Bericht über Fehlerverteilung in Skype für Business Server 2015](failure-distribution-report.md) für diesen Zeitraum und dieser Konferenztyp Drilldown.
+Der Diagnosebericht über die Konferenz enthält eine Reihe von Diagrammen. Jede der Spalten in einem Diagramm ist ein Hyperlink. Wenn Sie eine Spalte klicken, können Sie den [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md) für diesen Zeitraum und dieser Konferenztyp Drilldown.
   
 ## <a name="filters"></a>Filter
 
@@ -52,7 +52,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnosebericht über die Konferenz verwenden können.
   
-**Filter im Diagnosebericht der Konferenz**
+**Filter im Diagnosebericht über die Konferenz**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -66,9 +66,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnoseberic
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Diagnosebericht über die Konferenz für jeden Konferenzsitzungstyp angegeben werden.
   
-**Metriken im Diagnosebericht über Konferenz**
+**Metriken im Diagnosebericht über die Konferenz**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anzahl der erfolgreichen Sitzungen** <br/> |Nein  <br/> |Die Gesamtzahl der erfolgreich durchgeführten Sitzungen.  <br/> |
 |**Prozentsatz der erfolgreichen Sitzungen** <br/> |Nein  <br/> |Der Prozentsatz der Konferenzen, die ohne nennenswerte Probleme ausgeführt wurden. Errechnet sich durch Dividieren der Anzahl der erfolgreichen Sitzungen durch die Gesamtzahl der Sitzungen.  <br/> |

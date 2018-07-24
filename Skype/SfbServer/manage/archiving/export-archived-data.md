@@ -1,24 +1,24 @@
 ---
-title: Exportieren archivierter Daten in Skype for Business Server 2015
+title: Exportieren von archivierten Daten in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: 'Zusammenfassung: Informationen Sie zum Exportieren von archivierter Daten für Skype für Business Server 2015.'
-ms.openlocfilehash: f5fe222589efa5ce6e8e21151817042497fb6cc6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Exportieren von archivierter Daten für Skype für Business Server.'
+ms.openlocfilehash: 9b03ea23fd907a386b15005f18c3c0becdb79589
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975767"
 ---
-# <a name="export-archived-data-in-skype-for-business-server-2015"></a>Exportieren archivierter Daten in Skype for Business Server 2015
+# <a name="export-archived-data-in-skype-for-business-server"></a>Exportieren von archivierten Daten in Skype für Business Server
 
-**Zusammenfassung:** Informationen Sie zum Exportieren von archivierter Daten für Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Exportieren von archivierter Daten für Skype für Business Server.
   
 Die in Archivierungsdatenbanken archivierten Daten liegen nicht in durchsuchbarem oder lesbarem Format vor. Sie können jedoch mit dem Cmdlet **Export-CsArchivingData** Datensätze aus der Datenbank extrahieren und als EML (Outlook Electronic Mail)-Datei speichern..
   
@@ -34,7 +34,7 @@ Mit diesem Befehl werden alle Archivierungsdaten exportiert, die seit dem 1. Jun
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-Der folgende Befehl exportiert Archivieren von Daten für einen einzelnen Benutzer: kenmyer@contoso.com. Dies erfolgt durch den Parameter "UserUri" gefolgt von SIP-Adresse des Benutzers einschließlich. Beispiel: 
+Mit dem folgenden Befehl werden Archivierungsdaten für einen einzelnen Benutzer exportiert: „kenmyer@contoso.com“. Dies erfolgt durch den Parameter "UserUri" gefolgt von SIP-Adresse des Benutzers einschließlich. Beispiel: 
   
 ```
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"

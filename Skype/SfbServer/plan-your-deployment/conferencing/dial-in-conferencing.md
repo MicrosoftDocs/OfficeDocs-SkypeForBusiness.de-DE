@@ -1,28 +1,28 @@
 ---
-title: Planen von Einwahlkonferenzen in Skype for Business Server 2015
+title: Planen von einwahlkonferenzen in Skype for Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: 'Zusammenfassung: Lesen Sie dieses Thema zu erfahren Sie mehr über das Planen von einwahlkonferenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: d1e1109ff264655dc73afd26049be5844160bc0b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Lesen Sie dieses Thema zu erfahren Sie mehr über das Planen von einwahlkonferenzen in Skype für Business Server.'
+ms.openlocfilehash: 1b051cc757c0e55fb2f16b790921da962738ade3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973577"
 ---
-# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Planen von Einwahlkonferenzen in Skype for Business Server 2015
+# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planen von einwahlkonferenzen in Skype for Business Server
  
-**Zusammenfassung:** Lesen Sie in diesem Thema erfahren Sie Business Server 2015 für einwahlkonferenzen in Skype planen.
+**Zusammenfassung:** Lesen Sie in diesem Thema erfahren Sie einwahlkonferenzen in Skype für Business Server planen.
   
 Einwahlkonferenzen ist eine optionale Funktion von Skype für Business Server, der Besprechungsteilnehmer für die Audiodaten in einer Besprechung beitreten, indem Sie die Besprechung einwählen, über ein Telefon ermöglicht. Einwahlkonferenzen sind ein Unterbereich der Audiokonferenzen und müssen zusätzlich konfiguriert werden. In diesem Abschnitt wird beschrieben, was Sie berücksichtigen müssen, bevor Sie Einwahlkonferenzen für Ihre Organisation einrichten. 
   
-Einige der Komponenten für einwahlkonferenzen erforderlich sind spezifisch für einwahlkonferenzen und einige Komponenten von Enterprise-VoIP. Wenngleich Einwahlkonferenzen einige Komponenten von Enterprise Voice verwenden, ist die Bereitstellung von Enterprise Voice nicht erforderlich, um Einwahlkonferenzen bereitzustellen. In diesem Abschnitt werden die Komponenten beschrieben, die Sie für Einwahlkonferenzen benötigen. Weitere Informationen zum Planen einer vollständigen Enterprise-VoIP-Lösung finden Sie unter [Planen Ihrer Enterprise-VoIP-Lösung in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Einige der Komponenten für einwahlkonferenzen erforderlich sind spezifisch für einwahlkonferenzen und einige Komponenten von Enterprise-VoIP. Wenngleich Einwahlkonferenzen einige Komponenten von Enterprise Voice verwenden, ist die Bereitstellung von Enterprise Voice nicht erforderlich, um Einwahlkonferenzen bereitzustellen. In diesem Abschnitt werden die Komponenten beschrieben, die Sie für Einwahlkonferenzen benötigen. Weitere Informationen zum Planen einer vollständigen Enterprise-VoIP-Lösung finden Sie unter [Planen Ihrer Enterprise-VoIP-Lösung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 Um Einwahlkonferenzen nutzen zu können, müssen Sie über einen Vermittlungsserver eine Telefonfestnetz-Verbindung (Public Switched Telephone Network) einrichten. Darüber hinaus müssen Sie die folgenden Aspekte berücksichtigen, bevor Sie Einwahlkonferenzen in Ihrer Organisation zulassen:
   
@@ -41,13 +41,13 @@ Um Einwahlkonferenzen nutzen zu können, müssen Sie über einen Vermittlungsser
   
 ## <a name="plan-for-pstn-connectivity"></a>Planen der PSTN-Konnektivität
 
-Einwahlkonferenzen erfordert mindestens einen Vermittlungsserver und mindestens ein Gateway für public switched Telephone Network (Telefonfestnetz PSTN). 
+Für Einwahlkonferenzen sind mindestens ein Vermittlungsserver und ein PSTN-Gateway (Public Switched Telephone Network, Festnetz) erforderlich. 
   
 Sie können einen Vermittlungsserver an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem zentralen Standort kann ein Vermittlungsserver in einem Front-End-Pool oder auf einem Standard Edition-Server ausgeführt oder auf einem eigenständigen Server oder in einem eigenständigen Pool bereitgestellt werden. An einem Zweigstellenstandort können Sie einen Vermittlungsserver auf einem eigenständigen Server oder als Komponente der Survivable Branch Appliance bereitstellen.
   
 Sie können ein PSTN-Gateway an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem Zweigstellenstandort kann das PSTN-Gateway eigenständig oder als Komponente der Survivable Branch Appliance eingesetzt werden.
   
-Ausführliche Informationen zum Vermittlungsserver und PSTN-gatewayanforderungen finden Sie unter [Mediation Server Component in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [definieren und [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)ein Gateway in Topologie-Generator in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Ausführliche Informationen zu Vermittlungsserver und PSTN-gatewayanforderungen finden Sie unter [Mediation Server Component in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)und [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) [Definieren eines Gateways im Topologie Generator in Skype für Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planen von Wähleinstellungen, Zugriffsnummern und Konferenzregionen
 
@@ -83,7 +83,7 @@ Bevor Sie die Wähleinstellungen konfigurieren, ist es wichtig zu planen, wie di
     
 - Jeder Benutzer kann an jedem beliebigen Standort eine beliebige Einwahlnummer wählen, um an einer Konferenz teilzunehmen.
     
-Weitere Informationen zum Erstellen eines Wählplans finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) und [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+Weitere Informationen zum Erstellen eines Wählplans finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) und [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## <a name="plan-for-conference-directories"></a>Planen von Konferenzverzeichnissen
 
@@ -105,7 +105,7 @@ Beim Konfigurieren von konferenzrichtlinien, müssen Konferenzen für DFÜ-Zugri
     
 - einen Link zur Einrichtungsseite für Einwahlkonferenzen, die eine vollständige Liste der Zugriffsnummern mit den zugehörigen Sprachen enthält; eine Möglichkeit zum Erstellen, Zurücksetzen und Aufheben der Sperrung von PINs (Personal Identification Number) sowie andere Informationen wie z. B. DTMF-Steuerelemente (Dual-Tone Multi-Frequency, Mehrfrequenzverfahren)
     
-Weitere Informationen zu konferenzrichtlinien finden Sie unter [Configure einwahlkonferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md) und [Verwalten von konferenzrichtlinien in Skype für Business Server 2015](../../manage/conferencing/conferencing-policies.md).  
+Weitere Informationen zu konferenzrichtlinien finden Sie unter [Configure einwahlkonferenzen in Skype für Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) und [konferenzrichtlinien in Skype für Business Server verwalten](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>Unterstützung für Unternehmens- und anonyme Benutzer
 

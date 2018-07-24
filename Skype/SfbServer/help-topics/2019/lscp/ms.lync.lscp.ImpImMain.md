@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 7b58675876b2e158a9dcf207049d030853002794
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 2a0705b3f3261d72e8607d3e1918637ae7f18256
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045828"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977220"
 ---
 # <a name="url-filter"></a>URL-Filter
  

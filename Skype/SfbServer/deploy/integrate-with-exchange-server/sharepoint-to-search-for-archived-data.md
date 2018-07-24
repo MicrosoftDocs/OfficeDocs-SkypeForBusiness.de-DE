@@ -3,25 +3,26 @@ title: Konfigurieren von SharePoint Server für die Suche nach archivierten Skyp
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: 'Zusammenfassung: Konfigurieren von SharePoint Server, um die Suche nach Daten, die von Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015 archiviert.'
-ms.openlocfilehash: 161e4dd530490d22d14f5392539e2cc3d788d6bd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Konfigurieren von SharePoint Server, um die Suche nach Daten, die von Exchange Server und Skype für Business Server archiviert.'
+ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971799"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Konfigurieren von SharePoint Server für die Suche nach archivierten Skype for Business-Daten
  
-**Zusammenfassung:** Konfigurieren von SharePoint Server, um die Suche nach Daten, die von Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015 archiviert.
+**Zusammenfassung:** Konfigurieren von SharePoint Server, um die Suche nach Daten, die von Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server archiviert.
   
-Einer der wichtigsten Vorteile zum Speichern von instant messaging und webkonferenzaufzeichnungen in Exchange Server 2016 oder Exchange Server 2013 anstelle von Skype für Business Server 2015 ist, dass Administratoren mit einem einzelnen Tool zum Speichern von Daten in den gleichen Speicherort ermöglicht werden. Suchen Sie nach Exchange Archivdaten und/oder archivierten Skype für Business Server-Daten. Da alle, die die Daten in der gleichen gespeichert werden (Exchange) platzieren kann jedem Tool, das für Exchange Archivdaten suchen kann auch für archivierte Skype für Business Server-Daten suchen.
+Einer der wichtigsten Vorteile zum Speichern von instant messaging und webkonferenzaufzeichnungen in Exchange Server und nicht Skype für Business Server ist, dass das Speichern von Daten in den gleichen Speicherort Administratoren ein einzelnes Tool zum Suchen nach archivierten Exchange-Daten verwenden können und/oder archivierten Skype für Business Server-Daten. Da alle, die die Daten in der gleichen gespeichert werden (Exchange) platzieren kann jedem Tool, das für Exchange Archivdaten suchen kann auch für archivierte Skype für Business Server-Daten suchen.
   
 Ein Tool, das die Suche nach archivierten Daten erleichtert ist Microsoft SharePoint Server 2013. Wenn Sie SharePoint verwenden, um nach Skype für Business Server-Daten suchen möchten, müssen Sie zuerst alle Schritte zum Konfigurieren der Exchange-Archivierung in Skype für Business Server ausführen. Nach der Exchange-Server und Skype für Business Server erfolgreich integriert wurden, müssen Sie die Exchange [Web Services Managed API](https://go.microsoft.com/fwlink/p/?LinkId=258305) klicken Sie dann auf dem SharePoint-Server installieren. Die heruntergeladene Datei (EWSManagedAPI.msi) kann in einem beliebigen Ordner auf Ihrem SharePoint-Server gespeichert werden.
   
@@ -29,7 +30,7 @@ Wenn die Datei vollständig heruntergeladen ist, führen Sie auf dem SharePoint-
   
 1. Öffnen Sie ein Befehlsfenster. Klicken Sie dazu auf **Start**, **Alle Programme** und **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung** und klicken Sie dann auf **Als Administrator ausführen**.
     
-2. Verwenden Sie im Befehlsfenster den Befehl cd so ändern Sie das aktuelle Verzeichnis in den Ordner, in dem die Datei EWSManagedAPI.msi gespeichert wurde. Angenommen, wenn Sie die Datei, um C:\Downloads gespeichert haben Geben Sie im Befehlsfenster den folgenden Befehl ein und drücken Sie die EINGABETASTE:
+2. Verwenden Sie im Befehlsfenster den Befehl cd, um das aktuelle Verzeichnis in den Ordner zu ändern, in dem die Datei „EWSManagedAPI.msi“ gespeichert wurde. Angenommen, wenn Sie die Datei, um C:\Downloads gespeichert haben Geben Sie im Befehlsfenster den folgenden Befehl ein und drücken Sie die EINGABETASTE:
     
    ```
    cd C:\Downloads
