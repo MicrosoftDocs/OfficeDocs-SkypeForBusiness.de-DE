@@ -11,30 +11,31 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die Edgetopologie des Umkreisnetzwerks umfasst die folgenden Komponenten. Wenn nicht anders angegeben werden die Komponenten sind Teil der Edge-Server-Szenarien in Skype für Business Server und werden im Umkreisnetzwerk. Zu den Edgekomponenten gehören:'
-ms.openlocfilehash: 331bc8f8bd34868e97e8c7de6b573108d0e9a071
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 489898cb144b99f069665ccb4f6f8aed3004b3bb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975662"
+ms.locfileid: "21057775"
 ---
-# <a name="edge-network-planning-tool-in-skype-for-business"></a><span data-ttu-id="4ce5b-106">Edgenetzwerk (Planungstool) in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="4ce5b-106">Edge Network (Planning Tool) in Skype for Business</span></span> 
+# <a name="edge-network-planning-tool-in-skype-for-business"></a><span data-ttu-id="9e283-106">Edgenetzwerk (Planungstool) in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="9e283-106">Edge Network (Planning Tool) in Skype for Business</span></span> 
  
-<span data-ttu-id="4ce5b-107">Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="4ce5b-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="4ce5b-108">Die Edgetopologie des Umkreisnetzwerks umfasst die folgenden Komponenten.</span><span class="sxs-lookup"><span data-stu-id="4ce5b-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="4ce5b-109">Wenn nicht anders angegeben werden die Komponenten sind Teil der [Edge-Server-Szenarien in Skype für Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) und werden im Umkreisnetzwerk.</span><span class="sxs-lookup"><span data-stu-id="4ce5b-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="4ce5b-110">Zu den Edgekomponenten gehören:</span><span class="sxs-lookup"><span data-stu-id="4ce5b-110">Edge components include the following:</span></span>
+<span data-ttu-id="9e283-107">Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="9e283-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="9e283-108">Die Edgetopologie des Umkreisnetzwerks umfasst die folgenden Komponenten.</span><span class="sxs-lookup"><span data-stu-id="9e283-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="9e283-109">Wenn nicht anders angegeben werden die Komponenten sind Teil der [Edge-Server-Szenarien in Skype für Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) und werden im Umkreisnetzwerk.</span><span class="sxs-lookup"><span data-stu-id="9e283-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="9e283-110">Zu den Edgekomponenten gehören:</span><span class="sxs-lookup"><span data-stu-id="9e283-110">Edge components include the following:</span></span>
   
-- <span data-ttu-id="4ce5b-111">Edgeserver</span><span class="sxs-lookup"><span data-stu-id="4ce5b-111">Edge Server(s)</span></span>
+- <span data-ttu-id="9e283-111">Edgeserver</span><span class="sxs-lookup"><span data-stu-id="9e283-111">Edge Server(s)</span></span>
     
-- <span data-ttu-id="4ce5b-112">Reverseproxy</span><span class="sxs-lookup"><span data-stu-id="4ce5b-112">Reverse proxy</span></span>
+- <span data-ttu-id="9e283-112">Reverseproxy</span><span class="sxs-lookup"><span data-stu-id="9e283-112">Reverse proxy</span></span>
     
-- <span data-ttu-id="4ce5b-113">Firewall</span><span class="sxs-lookup"><span data-stu-id="4ce5b-113">Firewall</span></span>
+- <span data-ttu-id="9e283-113">Firewall</span><span class="sxs-lookup"><span data-stu-id="9e283-113">Firewall</span></span>
     
-- <span data-ttu-id="4ce5b-114">Directors (optional und logisch im internen Netzwerk angeordnet)</span><span class="sxs-lookup"><span data-stu-id="4ce5b-114">Directors (optional, and logically located on the internal network)</span></span>
+- <span data-ttu-id="9e283-114">Directors (optional und logisch im internen Netzwerk angeordnet)</span><span class="sxs-lookup"><span data-stu-id="9e283-114">Directors (optional, and logically located on the internal network)</span></span>
     
-- <span data-ttu-id="4ce5b-115">Lastenausgleich für skalierte Edgetopologien (entweder DNS-Lastenausgleich oder Hardwaregerät zum Lastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="4ce5b-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
+- <span data-ttu-id="9e283-115">Lastenausgleich für skalierte Edgetopologien (entweder DNS-Lastenausgleich oder Hardwaregerät zum Lastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="9e283-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4ce5b-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4ce5b-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9e283-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9e283-116">See also</span></span>
 
-[<span data-ttu-id="4ce5b-117">Planen von Edge-Server-Bereitstellungen in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="4ce5b-117">Plan for Edge Server deployments in Skype for Business Server</span></span>](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[<span data-ttu-id="9e283-117">Planen von Edge-Server-Bereitstellungen in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="9e283-117">Plan for Edge Server deployments in Skype for Business Server</span></span>](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[<span data-ttu-id="4ce5b-118">Edge-Server-System Requirements in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="4ce5b-118">Edge Server system requirements in Skype for Business Server</span></span>](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[<span data-ttu-id="9e283-118">Edge-Server-System Requirements in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="9e283-118">Edge Server system requirements in Skype for Business Server</span></span>](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)

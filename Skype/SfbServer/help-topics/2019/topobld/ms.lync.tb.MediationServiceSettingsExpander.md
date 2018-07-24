@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
+ROBOTS: NOINDEX, NOFOLLOW
 description: Mithilfe dieser Seite können Sie die Überwachungsports für diesen Vermittlungsserver festgelegt, und seine Zuordnungen zu Gateways public switched Telephone Network (Telefonfestnetz PSTN).
-ms.openlocfilehash: 208f9378a95d6574d7441db3ccbc09f24a30f238
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 33bf5654bf70255ddfe655ffaa5cd3134d3eb823
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965759"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068746"
 ---
-# <a name="mediation-service-setting-expander"></a><span data-ttu-id="65b01-103">Einstellung für den Vermittlungsdienst – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="65b01-103">Mediation Service Setting Expander</span></span>
+# <a name="mediation-service-setting-expander"></a><span data-ttu-id="1f290-103">Einstellung für den Vermittlungsdienst – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="1f290-103">Mediation Service Setting Expander</span></span>
  
-<span data-ttu-id="65b01-104">Mithilfe dieser Seite können Sie die Überwachungsports für diesen Vermittlungsserver festgelegt, und seine Zuordnungen zu Gateways public switched Telephone Network (Telefonfestnetz PSTN).</span><span class="sxs-lookup"><span data-stu-id="65b01-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
+<span data-ttu-id="1f290-104">Mithilfe dieser Seite können Sie die Überwachungsports für diesen Vermittlungsserver festgelegt, und seine Zuordnungen zu Gateways public switched Telephone Network (Telefonfestnetz PSTN).</span><span class="sxs-lookup"><span data-stu-id="1f290-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
   
 

@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
-description: Im Topologie-Generator, können Sie Aufgaben im Zusammenhang mit dem Server mit der Archivierung mit der rechten Maustaste in den Pool in der Konsolenstruktur ausführen und die Option Eigenschaften bearbeiten. Auf der Seite Eigenschaften bearbeiten können Sie den vollqualifizierten Domänennamen (FQDN) des Servers mit der Archivierung, Archivierung SQL Server-Datenbank und der Archivierung Dateispeicher ändern.
-ms.openlocfilehash: 01f67e54cb888a90edbd88156fbf32fb75f554c9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Im Topologie-Generator, können Sie Aufgaben im Zusammenhang mit dem Server mit der Archivierung mit der rechten Maustaste in den Pool in der Konsolenstruktur ausführen und die Option Eigenschaften bearbeiten. Auf der Seite Eigenschaften bearbeiten können Sie den vollqualifizierten Domänennamen (FQDN) des Servers, auf dem die Archivierung ausgeführt wird, die SQL Server-Archivierungsdatenbank und den Dateispeicher für die Archivierung ändern.
+ms.openlocfilehash: cfb6679222da15692f016d4242caffa50296a461
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965906"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065881"
 ---
-# <a name="archiving-server-scope-node"></a><span data-ttu-id="654ad-104">Archivierungsserver – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="654ad-104">Archiving Server Scope Node</span></span>
+# <a name="archiving-server-scope-node"></a><span data-ttu-id="f9e9e-104">Archivierungsserver – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="f9e9e-104">Archiving Server Scope Node</span></span>
  
-<span data-ttu-id="654ad-105">Im Topologie-Generator, können Sie Aufgaben im Zusammenhang mit dem Server mit der Archivierung mit der rechten Maustaste in den Pool in der Konsolenstruktur ausführen und die Option **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="654ad-105">In Topology Builder, you can perform tasks related to the server running Archiving by right-clicking the pool in the console tree, and selecting **Edit Properties**.</span></span> <span data-ttu-id="654ad-106">Auf der Seite **Eigenschaften bearbeiten** können Sie den vollqualifizierten Domänennamen (FQDN) des Servers, auf dem die Archivierung ausgeführt wird, die SQL Server-Archivierungsdatenbank und den Dateispeicher für die Archivierung ändern.</span><span class="sxs-lookup"><span data-stu-id="654ad-106">From the **Edit Properties** page you can change the fully qualified domain name (FQDN) of the server running Archiving, the archiving SQL Server database, and the archiving file store.</span></span>
+<span data-ttu-id="f9e9e-105">Im Topologie-Generator, können Sie Aufgaben im Zusammenhang mit dem Server mit der Archivierung mit der rechten Maustaste in den Pool in der Konsolenstruktur ausführen und die Option **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="f9e9e-105">In Topology Builder, you can perform tasks related to the server running Archiving by right-clicking the pool in the console tree, and selecting **Edit Properties**.</span></span> <span data-ttu-id="f9e9e-106">Auf der Seite **Eigenschaften bearbeiten** können Sie den vollqualifizierten Domänennamen (FQDN) des Servers, auf dem die Archivierung ausgeführt wird, die SQL Server-Archivierungsdatenbank und den Dateispeicher für die Archivierung ändern.</span><span class="sxs-lookup"><span data-stu-id="f9e9e-106">From the **Edit Properties** page you can change the fully qualified domain name (FQDN) of the server running Archiving, the archiving SQL Server database, and the archiving file store.</span></span>
   
 

@@ -10,38 +10,39 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie können den von SQL Server-Überwachungsspeicher definieren, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 421eca100d65e529ac965dc927d193e9378bdc5f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 56be865d60266fd2ee477356f9c7cd407dee28c4
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992013"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068982"
 ---
-# <a name="add-director-monitoring"></a><span data-ttu-id="50080-103">Hinzufügen von Director-Überwachung</span><span class="sxs-lookup"><span data-stu-id="50080-103">Add Director Monitoring</span></span>
+# <a name="add-director-monitoring"></a><span data-ttu-id="dc945-103">Hinzufügen von Director-Überwachung</span><span class="sxs-lookup"><span data-stu-id="dc945-103">Add Director Monitoring</span></span>
  
-<span data-ttu-id="50080-104">Sie können **die Option SQL Server-Speicher definieren** , indem Sie die folgenden Eigenschaften konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="50080-104">You can **Define the Monitoring SQL Server store** by configuring the following properties:</span></span>
+<span data-ttu-id="dc945-104">Sie können **die Option SQL Server-Speicher definieren** , indem Sie die folgenden Eigenschaften konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="dc945-104">You can **Define the Monitoring SQL Server store** by configuring the following properties:</span></span>
   
-- <span data-ttu-id="50080-105">**Überwachen der SQL Server-Speicher**: Wählen Sie aus der Liste einen vollqualifizierten Domänennamen (FQDN) von SQL Server (und optional eine benannte Instanz von SQL Server).</span><span class="sxs-lookup"><span data-stu-id="50080-105">**Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (FQDN) (and, optionally, a named SQL Server instance) from the list.</span></span>
+- <span data-ttu-id="dc945-105">**Überwachen der SQL Server-Speicher**: Wählen Sie aus der Liste einen vollqualifizierten Domänennamen (FQDN) von SQL Server (und optional eine benannte Instanz von SQL Server).</span><span class="sxs-lookup"><span data-stu-id="dc945-105">**Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (FQDN) (and, optionally, a named SQL Server instance) from the list.</span></span>
     
-    <span data-ttu-id="50080-106">Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanznamen für den Monitoring Server-Speicher zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="50080-106">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the Monitoring Server store.</span></span>
+    <span data-ttu-id="dc945-106">Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanznamen für den Monitoring Server-Speicher zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="dc945-106">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the Monitoring Server store.</span></span>
     
-- <span data-ttu-id="50080-107">Aktivieren Sie das Kontrollkästchen **Aktivieren SQL Server-Speicher für Spiegelung** aus, wenn Sie die für den Monitoring Server-datenbankspiegelung hinzufügen möchten.</span><span class="sxs-lookup"><span data-stu-id="50080-107">Select the **Enable SQL Server store mirroring** check box if you want to add database mirroring for the Monitoring Server.</span></span>
+- <span data-ttu-id="dc945-107">Aktivieren Sie das Kontrollkästchen **Aktivieren SQL Server-Speicher für Spiegelung** aus, wenn Sie die für den Monitoring Server-datenbankspiegelung hinzufügen möchten.</span><span class="sxs-lookup"><span data-stu-id="dc945-107">Select the **Enable SQL Server store mirroring** check box if you want to add database mirroring for the Monitoring Server.</span></span>
     
-    <span data-ttu-id="50080-108">Wählen Sie eine vorhandene **Monitoring SQL Server-Speicher für Spiegelung** aus der Liste aus.</span><span class="sxs-lookup"><span data-stu-id="50080-108">Select an existing **Monitoring SQL Server store mirror** from the list.</span></span>
+    <span data-ttu-id="dc945-108">Wählen Sie eine vorhandene **Monitoring SQL Server-Speicher für Spiegelung** aus der Liste aus.</span><span class="sxs-lookup"><span data-stu-id="dc945-108">Select an existing **Monitoring SQL Server store mirror** from the list.</span></span>
     
-    <span data-ttu-id="50080-109">Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanznamen für den spiegelspeicher zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="50080-109">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirror store.</span></span>
+    <span data-ttu-id="dc945-109">Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanznamen für den spiegelspeicher zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="dc945-109">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirror store.</span></span>
     
-- <span data-ttu-id="50080-110">Wenn Sie **Aktivieren von SQL Server-speicherspiegelung**aktiviert, optional aktivieren Sie **mithilfe von SQL Server-spiegelungszeugen, um die Aktivierung des automatischen Failovers** , um eine SQL Server-Spiegelung zeugenspeicher aus der Liste auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="50080-110">If you selected **Enable SQL Server store mirroring**, optionally select **Use SQL Server mirroring witness to enable automatic failover** to select a SQL Server mirroring witness store from the list.</span></span>
+- <span data-ttu-id="dc945-110">Wenn Sie **Aktivieren von SQL Server-speicherspiegelung**aktiviert, optional aktivieren Sie **mithilfe von SQL Server-spiegelungszeugen, um die Aktivierung des automatischen Failovers** , um eine SQL Server-Spiegelung zeugenspeicher aus der Liste auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="dc945-110">If you selected **Enable SQL Server store mirroring**, optionally select **Use SQL Server mirroring witness to enable automatic failover** to select a SQL Server mirroring witness store from the list.</span></span>
     
-    <span data-ttu-id="50080-111">Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanznamen für den spiegelungszeugenspeicher zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="50080-111">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirroring witness store.</span></span>
+    <span data-ttu-id="dc945-111">Klicken Sie auf **neu** , um eine neue SQL Server-FQDN-Definition und optional einen Instanznamen für den spiegelungszeugenspeicher zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="dc945-111">Click **New** to create a new SQL Server FQDN definition, and optionally, an instance name for the mirroring witness store.</span></span>
     
-<span data-ttu-id="50080-112">Klicken Sie auf **Zurück**, um zum vorherigen Dialogfeld für die Pooldefinition zurückzukehren.</span><span class="sxs-lookup"><span data-stu-id="50080-112">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="dc945-112">Klicken Sie auf **Zurück**, um zum vorherigen Dialogfeld für die Pooldefinition zurückzukehren.</span><span class="sxs-lookup"><span data-stu-id="dc945-112">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="50080-113">Klicken Sie auf **Weiter** , klicken Sie nach Eingabe der Optionen für dieses Dialogfeld, um mit der Konfiguration fortzufahren.</span><span class="sxs-lookup"><span data-stu-id="50080-113">Click **Next** after you have finished entering the options for this dialog to proceed with the configuration.</span></span>
+<span data-ttu-id="dc945-113">Klicken Sie auf **Weiter** , klicken Sie nach Eingabe der Optionen für dieses Dialogfeld, um mit der Konfiguration fortzufahren.</span><span class="sxs-lookup"><span data-stu-id="dc945-113">Click **Next** after you have finished entering the options for this dialog to proceed with the configuration.</span></span>
   
-<span data-ttu-id="50080-114">Klicken Sie auf **Abbrechen** , um alle Änderungen und beenden Sie den Assistenten zu verwerfen.</span><span class="sxs-lookup"><span data-stu-id="50080-114">Click **Cancel** to discard all changes and end the wizard.</span></span>
+<span data-ttu-id="dc945-114">Klicken Sie auf **Abbrechen** , um alle Änderungen und beenden Sie den Assistenten zu verwerfen.</span><span class="sxs-lookup"><span data-stu-id="dc945-114">Click **Cancel** to discard all changes and end the wizard.</span></span>
   
-<span data-ttu-id="50080-115">Klicken Sie auf **Hilfe** , um Zugriff auf die kontextbezogene Hilfe, wie auf dieser Seite.</span><span class="sxs-lookup"><span data-stu-id="50080-115">Click **Help** to access context-sensitive help, such as this page.</span></span>
+<span data-ttu-id="dc945-115">Klicken Sie auf **Hilfe** , um Zugriff auf die kontextbezogene Hilfe, wie auf dieser Seite.</span><span class="sxs-lookup"><span data-stu-id="dc945-115">Click **Help** to access context-sensitive help, such as this page.</span></span>
   
 
