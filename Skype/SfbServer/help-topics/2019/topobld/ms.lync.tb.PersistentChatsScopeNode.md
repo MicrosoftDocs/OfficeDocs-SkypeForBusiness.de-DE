@@ -3,7 +3,6 @@ title: Erstellen von Servern für beständigen Chat – Bereichsknoten
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,29 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Sie klicken Sie auf Pool für beständigen Chat im Topologie-Generator, um die folgenden Schritte aus:'
-ms.openlocfilehash: 9109199dd1569d7d197d50c32725bc9f23cd1226
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: a979709407af2ea2072786da3b8f24b32bef7e61
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002948"
 ---
-# <a name="create-persistent-chat-servers-scope-node"></a><span data-ttu-id="1359c-103">Erstellen von Servern für beständigen Chat – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="1359c-103">Create Persistent Chat Servers Scope Node</span></span>
- 
-<span data-ttu-id="1359c-104">Sie klicken Sie auf **Pool für beständigen Chat** im Topologie-Generator, um die folgenden Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="1359c-104">You right click on **Persistent Chat Pool** in Topology Builder to perform the following:</span></span>
-  
-- <span data-ttu-id="1359c-105">**Neuer Pool für beständigen Chat**: Startet den **Definieren neuer Pool für beständigen Chat** -Assistenten verwendet, um eine neue Persistent Chat Server oder Pool zu definieren.</span><span class="sxs-lookup"><span data-stu-id="1359c-105">**New Persistent Chat Pool**: Starts the **Define New Persistent Chat Pool** wizard used to define a new Persistent Chat Server or pool.</span></span>
-    
-<span data-ttu-id="1359c-106">Zusätzlich zur Option "Neuer Pool für beständigen Chat" sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="1359c-106">In addition to the New Persistent Chat Pool option, you can perform the following general tasks:</span></span>
-  
-- <span data-ttu-id="1359c-p101">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten vorheriger Lync Server-Versionen zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="1359c-p101">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Lync Server, or remove the deployment.</span></span>
-    
-- <span data-ttu-id="1359c-p102">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="1359c-p102">**Help**. You can use this option to access Help for the active node.</span></span>
-    
-## <a name="see-also"></a><span data-ttu-id="1359c-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="1359c-111">See also</span></span>
+# <a name="create-persistent-chat-servers-scope-node"></a><span data-ttu-id="f222d-103">Erstellen von Servern für beständigen Chat – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="f222d-103">Create Persistent Chat Servers Scope Node</span></span>
 
-#### 
-
-[<span data-ttu-id="1359c-112">Planen Sie für Persistent Chatserver in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="1359c-112">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="1359c-113">Hinzufügen von Persistent Chat Server zu Ihrer Skype für Business Server 2015 Topologie</span><span class="sxs-lookup"><span data-stu-id="1359c-113">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> <span data-ttu-id="f222d-104">Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="f222d-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="f222d-105">Die gleiche Funktionalität ist in Teams verfügbar.</span><span class="sxs-lookup"><span data-stu-id="f222d-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="f222d-106">Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="f222d-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="f222d-107">Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.</span><span class="sxs-lookup"><span data-stu-id="f222d-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

@@ -3,7 +3,7 @@ title: Seite "Optionen" Datenbank installieren
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,37 +12,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 'Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank und Protokolldateien auf dem SQL Server. Die verfügbaren Optionen sind:'
-ms.openlocfilehash: 525f86bb817fe4d7e45b49bc44f6ab399b1b854b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e0c807445453f8b53798683c9340059f77914d7b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984092"
 ---
-# <a name="install-database-options-page"></a><span data-ttu-id="1c32b-104">Seite "Optionen" Datenbank installieren</span><span class="sxs-lookup"><span data-stu-id="1c32b-104">Install Database Options Page</span></span>
+# <a name="install-database-options-page"></a><span data-ttu-id="e329d-104">Seite "Optionen" Datenbank installieren</span><span class="sxs-lookup"><span data-stu-id="e329d-104">Install Database Options Page</span></span>
  
-<span data-ttu-id="1c32b-105">Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank und Protokolldateien auf dem SQL Server.</span><span class="sxs-lookup"><span data-stu-id="1c32b-105">You configure advanced options for the placement of database and log files on your SQL Server.</span></span> <span data-ttu-id="1c32b-106">Die verfügbaren Optionen sind:</span><span class="sxs-lookup"><span data-stu-id="1c32b-106">The options available are:</span></span>
+<span data-ttu-id="e329d-105">Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank und Protokolldateien auf dem SQL Server.</span><span class="sxs-lookup"><span data-stu-id="e329d-105">You configure advanced options for the placement of database and log files on your SQL Server.</span></span> <span data-ttu-id="e329d-106">Die verfügbaren Optionen sind:</span><span class="sxs-lookup"><span data-stu-id="e329d-106">The options available are:</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="1c32b-107">Wählen Sie die Option, die Ihren Anforderungen und Richtlinien zur Platzierung der Daten- und Protokolldateien auf den SQL Server-Computern am besten geeigneten aus.</span><span class="sxs-lookup"><span data-stu-id="1c32b-107">Select the option that best fits your requirements and policies pertaining to data and log file placement on your SQL Server computers.</span></span> 
+> <span data-ttu-id="e329d-107">Wählen Sie die Option, die Ihren Anforderungen und Richtlinien zur Platzierung der Daten- und Protokolldateien auf den SQL Server-Computern am besten geeigneten aus.</span><span class="sxs-lookup"><span data-stu-id="e329d-107">Select the option that best fits your requirements and policies pertaining to data and log file placement on your SQL Server computers.</span></span> 
   
- <span data-ttu-id="1c32b-108">**Ort der Datenbankdatei automatisch ermitteln**: die Standardoption wird mithilfe ein Algorithmus, der bestimmt des verfügbaren Speicherplatzes auf dem SQL Server und verteilt die Datenbank- und Protokolldateien Dateien für eine optimale Leistung.</span><span class="sxs-lookup"><span data-stu-id="1c32b-108">**Automatically determine database file location**: The default option uses an algorithm that determines the available space on the SQL Server and distributes the database and log files for optimal performance.</span></span>
+ <span data-ttu-id="e329d-108">**Ort der Datenbankdatei automatisch ermitteln**: die Standardoption wird mithilfe ein Algorithmus, der bestimmt des verfügbaren Speicherplatzes auf dem SQL Server und verteilt die Datenbank- und Protokolldateien Dateien für eine optimale Leistung.</span><span class="sxs-lookup"><span data-stu-id="e329d-108">**Automatically determine database file location**: The default option uses an algorithm that determines the available space on the SQL Server and distributes the database and log files for optimal performance.</span></span>
   
- <span data-ttu-id="1c32b-109">**Mithilfe von SQL Server-Instanz Standardeinstellungen**: Wählen Sie diese Option zum Platzieren der Datenbankdatei und Protokolldateien auf der Basis Instanz unter SQL Server.</span><span class="sxs-lookup"><span data-stu-id="1c32b-109">**Use SQL Server instance defaults**: Select this option to place database file and log files based on the instance settings at SQL Server.</span></span> <span data-ttu-id="1c32b-110">Die Optionen werden in der Regel verwaltet und der Datenbankadministrator konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="1c32b-110">The options are typically managed and configured by your Database Administrator.</span></span>
+ <span data-ttu-id="e329d-109">**Mithilfe von SQL Server-Instanz Standardeinstellungen**: Wählen Sie diese Option zum Platzieren der Datenbankdatei und Protokolldateien auf der Basis Instanz unter SQL Server.</span><span class="sxs-lookup"><span data-stu-id="e329d-109">**Use SQL Server instance defaults**: Select this option to place database file and log files based on the instance settings at SQL Server.</span></span> <span data-ttu-id="e329d-110">Die Optionen werden in der Regel verwaltet und der Datenbankadministrator konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="e329d-110">The options are typically managed and configured by your Database Administrator.</span></span>
   
- <span data-ttu-id="1c32b-111">**Uns diese Pfad auf dem SQL-Zielserver**: Wählen Sie diese Option zum Definieren eigener Pfade für SQL Server-Datenbank und die Protokolldateien von eingeben den vollständigen Pfad zu dem Laufwerk und den Ordner, in die Datenbank und-Protokolldateien kopiert werden.</span><span class="sxs-lookup"><span data-stu-id="1c32b-111">**Us these path on target SQL Server**: Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.</span></span>
+ <span data-ttu-id="e329d-111">**Uns diese Pfad auf dem SQL-Zielserver**: Wählen Sie diese Option zum Definieren eigener Pfade für SQL Server-Datenbank und die Protokolldateien von eingeben den vollständigen Pfad zu dem Laufwerk und den Ordner, in die Datenbank und-Protokolldateien kopiert werden.</span><span class="sxs-lookup"><span data-stu-id="e329d-111">**Us these path on target SQL Server**: Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="1c32b-112">Die Pfade, die Sie eingeben können basierend auf Leistung Optimierungsalgorithmen bei der Installation geändert werden.</span><span class="sxs-lookup"><span data-stu-id="1c32b-112">The paths that you enter may be modified based on performance optimization algorithms in the installation.</span></span> <span data-ttu-id="1c32b-113">Weitere Informationen hierzu finden Sie unter [Datenbank Installation mithilfe von Lync Server-Verwaltungsshell](http://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).</span><span class="sxs-lookup"><span data-stu-id="1c32b-113">For details, see [Database Installation Using Lync Server Management Shell](http://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).</span></span> 
+> <span data-ttu-id="e329d-112">Die Pfade, die Sie eingeben können basierend auf Leistung Optimierungsalgorithmen bei der Installation geändert werden.</span><span class="sxs-lookup"><span data-stu-id="e329d-112">The paths that you enter may be modified based on performance optimization algorithms in the installation.</span></span> <span data-ttu-id="e329d-113">Weitere Informationen hierzu finden Sie unter [Datenbank Installation mithilfe von Lync Server-Verwaltungsshell](http://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).</span><span class="sxs-lookup"><span data-stu-id="e329d-113">For details, see [Database Installation Using Lync Server Management Shell](http://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).</span></span> 
   
- <span data-ttu-id="1c32b-114">**OK**: Klicken Sie auf OK, um die Änderungen zu übernehmen.</span><span class="sxs-lookup"><span data-stu-id="1c32b-114">**OK**: Click the OK button to commit your changes.</span></span>
+ <span data-ttu-id="e329d-114">**OK**: Klicken Sie auf OK, um die Änderungen zu übernehmen.</span><span class="sxs-lookup"><span data-stu-id="e329d-114">**OK**: Click the OK button to commit your changes.</span></span>
   
- <span data-ttu-id="1c32b-115">**Abbrechen**: Klicken Sie auf Abbrechen, um die Änderungen zu verwerfen und zum Bildschirm Datenbank installieren zurückzukehren.</span><span class="sxs-lookup"><span data-stu-id="1c32b-115">**Cancel**: Click Cancel to discard any changes and return to the Install Database screen.</span></span>
+ <span data-ttu-id="e329d-115">**Abbrechen**: Klicken Sie auf Abbrechen, um die Änderungen zu verwerfen und zum Bildschirm Datenbank installieren zurückzukehren.</span><span class="sxs-lookup"><span data-stu-id="e329d-115">**Cancel**: Click Cancel to discard any changes and return to the Install Database screen.</span></span>
   
- <span data-ttu-id="1c32b-116">**Hilfe**: Klicken Sie auf die Schaltfläche Hilfe klicken, um diese Hilfeseite zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="1c32b-116">**Help**: Click the Help button to access this Help page.</span></span>
+ <span data-ttu-id="e329d-116">**Hilfe**: Klicken Sie auf die Schaltfläche Hilfe klicken, um diese Hilfeseite zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="e329d-116">**Help**: Click the Help button to access this Help page.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1c32b-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="1c32b-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e329d-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="e329d-117">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="1c32b-118">SQL Server-Daten und Platzieren der Protokolldatei</span><span class="sxs-lookup"><span data-stu-id="1c32b-118">SQL Server Data and Log File Placement</span></span>](http://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
-
+[<span data-ttu-id="e329d-118">SQL Server-Daten und Platzieren der Protokolldatei</span><span class="sxs-lookup"><span data-stu-id="e329d-118">SQL Server Data and Log File Placement</span></span>](http://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

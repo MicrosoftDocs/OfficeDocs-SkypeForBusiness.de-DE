@@ -3,7 +3,7 @@ title: Zertifikatanforderung (Geografie)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,14 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 description: Die Seite Geographische Informationen fordert zusätzliche Informationen für die zertifikatanforderung an. Auf dieser Seite Wählen Sie in einem Textfeld Land, und klicken Sie dann Sie Typ Bundesland/Region und Ort ein. Beachten Sie, dass Abkürzungen nicht verwendet sollte und sollte den vollständigen Namen der Stadt/Ort und Bundesland/Kanton ausschreiben.
-ms.openlocfilehash: 538dfb02a8c6dff1561666b3adc4cd1124c5ee5a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c89205e172b1691e65f7cb51a99a0882b947074b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999058"
 ---
-# <a name="certificate-request-geography"></a><span data-ttu-id="e437b-105">Zertifikatanforderung (Geografie)</span><span class="sxs-lookup"><span data-stu-id="e437b-105">Certificate Request (Geography)</span></span>
+# <a name="certificate-request-geography"></a><span data-ttu-id="40cda-105">Zertifikatanforderung (Geografie)</span><span class="sxs-lookup"><span data-stu-id="40cda-105">Certificate Request (Geography)</span></span>
  
-<span data-ttu-id="e437b-106">Die Seite **Geographische Informationen** fordert zusätzliche Informationen für die zertifikatanforderung an.</span><span class="sxs-lookup"><span data-stu-id="e437b-106">The **Geographical Information** page requests additional information for the certificate request.</span></span> <span data-ttu-id="e437b-107">Auf dieser Seite Wählen Sie **Land**, und geben Sie **Bundesland/Kanton** und **Stadt/Ort** in einem Textfeld.</span><span class="sxs-lookup"><span data-stu-id="e437b-107">On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box.</span></span> <span data-ttu-id="e437b-108">Beachten Sie, dass Abkürzungen nicht verwendet sollte und sollte den vollständigen Namen der Stadt/Ort und Bundesland/Kanton ausschreiben.</span><span class="sxs-lookup"><span data-stu-id="e437b-108">Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.</span></span>
+<span data-ttu-id="40cda-106">Die Seite **Geographische Informationen** fordert zusätzliche Informationen für die zertifikatanforderung an.</span><span class="sxs-lookup"><span data-stu-id="40cda-106">The **Geographical Information** page requests additional information for the certificate request.</span></span> <span data-ttu-id="40cda-107">Auf dieser Seite Wählen Sie **Land**, und geben Sie **Bundesland/Kanton** und **Stadt/Ort** in einem Textfeld.</span><span class="sxs-lookup"><span data-stu-id="40cda-107">On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box.</span></span> <span data-ttu-id="40cda-108">Beachten Sie, dass Abkürzungen nicht verwendet sollte und sollte den vollständigen Namen der Stadt/Ort und Bundesland/Kanton ausschreiben.</span><span class="sxs-lookup"><span data-stu-id="40cda-108">Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.</span></span>
   
 

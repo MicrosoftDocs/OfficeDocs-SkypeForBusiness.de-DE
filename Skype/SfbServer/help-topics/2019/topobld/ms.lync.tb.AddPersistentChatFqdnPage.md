@@ -3,7 +3,6 @@ title: Definieren des FQDN für beständigen Chat
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,24 +10,15 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
-description: Sie erstellen einen neuen Persistent Chat Server oder Persistent Chat Server Pool mit dem Assistenten Definieren neuer Pool für beständigen Chat. Wählen Sie einen Pool mit mehreren Computern oder einen Pool mit einem Computer. Wenn Sie einen Pool mit einem Computer wählen und später einen Pool mit mehreren Computern benötigen, müssen Sie den Pool mit einem Computer entfernen und dann einen Pool mit mehreren Computern definieren.
-ms.openlocfilehash: 419eab5bb6f92c3b0859214042e59378b5d8c601
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Sie erstellen einen neuen Persistent Chat Server oder Persistent Chat Server Pool mit dem Assistenten Definieren neuer Pool für beständigen Chat. Wählen Sie entweder die Option Pool mit mehreren Computern oder Pool mit einem Computer. Wenn Sie einen Pool mit einem Computer wählen und später einen Pool mit mehreren Computern benötigen, müssen Sie den Pool mit einem Computer entfernen und dann einen Pool mit mehreren Computern definieren.
+ms.openlocfilehash: dca358be12be2a3222b1a974366538cc52483428
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990305"
 ---
-# <a name="define-persistent-chat-fqdn"></a><span data-ttu-id="a069e-105">Definieren des FQDN für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="a069e-105">Define Persistent Chat FQDN</span></span>
- 
-<span data-ttu-id="a069e-106">Sie erstellen einen neuen Persistent Chat Server oder Persistent Chat Server Pool mit dem Assistenten **Definieren neuer Pool für beständigen Chat** .</span><span class="sxs-lookup"><span data-stu-id="a069e-106">You create a new Persistent Chat Server or Persistent Chat Server pool using the **Define New Persistent Chat Pool** wizard.</span></span> <span data-ttu-id="a069e-107">Wählen Sie entweder die Option **Pool mit mehreren Computern** oder **Pool mit einem Computer**.</span><span class="sxs-lookup"><span data-stu-id="a069e-107">Select either a **Multiple computer pool** or a **Single computer pool**.</span></span> <span data-ttu-id="a069e-108">Wenn Sie einen Pool mit einem Computer wählen und später einen Pool mit mehreren Computern benötigen, müssen Sie den Pool mit einem Computer entfernen und dann einen Pool mit mehreren Computern definieren.</span><span class="sxs-lookup"><span data-stu-id="a069e-108">If you select a single computer pool and later need a multiple computer pool, you will need to remove the single computer pool and then define a multiple computer pool.</span></span>
-  
-<span data-ttu-id="a069e-109">Sie müssen auch einen **Pool-FQDN** für den beständigen Chat-Server oder Persistent Chat Server Pool definieren.</span><span class="sxs-lookup"><span data-stu-id="a069e-109">You must also define a **Pool FQDN** for the Persistent Chat Server or Persistent Chat Server pool.</span></span> <span data-ttu-id="a069e-110">Der Pool vollqualifizierten Domänennamen (FQDN) für einen Pool mit einem Computer muss identisch mit den FQDN des Computers, der die einzelnen Serverpool bildet.</span><span class="sxs-lookup"><span data-stu-id="a069e-110">The pool fully qualified domain name (FQDN) for a single computer pool must be the same as the FQDN of the computer that makes up the single server pool.</span></span> <span data-ttu-id="a069e-111">Für einen Pool mit mehreren Computern muss der vollqualifizierte Domänenname den Namen auswählen, die in diesem Pool mit mehreren Computern darstellen und wird vom Host A (und AAAA Wenn IPv6 verwendet wird) in DNS definiert Datensatz.</span><span class="sxs-lookup"><span data-stu-id="a069e-111">For a multiple computer pool, the FQDN must be the name you choose to represent this multiple computer pool and is defined in DNS by a host A (and AAAA if IPv6 is being used) record.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="a069e-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a069e-112">See also</span></span>
+# <a name="define-persistent-chat-fqdn"></a><span data-ttu-id="e9de0-105">Definieren des FQDN für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="e9de0-105">Define Persistent Chat FQDN</span></span>
 
-#### 
-
-[<span data-ttu-id="a069e-113">Planen Sie für Persistent Chatserver in Skype für Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="a069e-113">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="a069e-114">Hinzufügen von Persistent Chat Server zu Ihrer Skype für Business Server 2015 Topologie</span><span class="sxs-lookup"><span data-stu-id="a069e-114">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> <span data-ttu-id="e9de0-106">Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e9de0-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="e9de0-107">Die gleiche Funktionalität ist in Teams verfügbar.</span><span class="sxs-lookup"><span data-stu-id="e9de0-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="e9de0-108">Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="e9de0-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="e9de0-109">Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.</span><span class="sxs-lookup"><span data-stu-id="e9de0-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

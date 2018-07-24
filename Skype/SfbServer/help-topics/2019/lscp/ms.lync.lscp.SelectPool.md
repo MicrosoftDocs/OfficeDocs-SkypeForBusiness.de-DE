@@ -3,7 +3,6 @@ title: Auswählen eines Diensts
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,43 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
-description: Verwenden Sie wählen Sie im Dialogfeld Dienst zur Dienste in Ihrer Umgebung zur Verfügung stehen. Um einen vorhandenen Dienst zu verwenden, klicken Sie auf einen Dienst in der Liste, und klicken Sie dann auf OK.
-ms.openlocfilehash: 04f70c8ba98d9f153998014cfa9fb4869b137bad
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: Verwenden Sie das Dialogfeld Dienst auswählen, um nach den in Ihrer Umgebung verfügbaren Diensten zu suchen. Klicken Sie auf einen Dienst in der Liste und anschließend auf OK, um einen vorhandenen Dienst zu verwenden.
+ms.openlocfilehash: 73a1dee42639c20e6a16d9b269f3509e8ddecfee
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049121"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016605"
 ---
-# <a name="select-a-service"></a><span data-ttu-id="4a12d-104">Auswählen eines Diensts</span><span class="sxs-lookup"><span data-stu-id="4a12d-104">Select a Service</span></span>
- 
-<span data-ttu-id="4a12d-p102">Verwenden Sie das Dialogfeld **Dienst auswählen**, um nach den in Ihrer Umgebung verfügbaren Diensten zu suchen. Klicken Sie auf einen Dienst in der Liste und anschließend auf **OK**, um einen vorhandenen Dienst zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="4a12d-p102">Use the **Select a Service** dialog box to find services available in your environment. To use an existing service, click a service in the list and then click **OK**.</span></span> 
-  
- 
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="4a12d-107">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="4a12d-107">Tasks you can perform</span></span>
+# <a name="select-a-service"></a><span data-ttu-id="45bd1-104">Auswählen eines Diensts</span><span class="sxs-lookup"><span data-stu-id="45bd1-104">Select a Service</span></span>
 
-<span data-ttu-id="4a12d-108">Auf der Seite **Dienst auswählen** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="4a12d-108">You can perform the following tasks on the **Select a Service** page:</span></span>
-  
-- [<span data-ttu-id="4a12d-109">Konfigurieren von Kategorien</span><span class="sxs-lookup"><span data-stu-id="4a12d-109">Configure Categories</span></span>](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [<span data-ttu-id="4a12d-110">Konfigurieren von Add-Ins für Räume</span><span class="sxs-lookup"><span data-stu-id="4a12d-110">Configure Add-ins for Rooms</span></span>](http://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
-    
-- [<span data-ttu-id="4a12d-111">Konfigurieren von Persistent Chat Server Options Globally or for Persistent Chat Server-Pool</span><span class="sxs-lookup"><span data-stu-id="4a12d-111">Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool</span></span>](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
-    
- 
-  
-## <a name="to-configure-categories-for-chat-rooms"></a><span data-ttu-id="4a12d-112">So konfigurieren Sie Kategorien für Chatrooms</span><span class="sxs-lookup"><span data-stu-id="4a12d-112">To configure categories for chat rooms</span></span>
-
-<span data-ttu-id="4a12d-113">Wählen Sie unter **Wählen Sie einen Dienst**Dienst entspricht dem Persistent Chat Server Pool, auf dem die Kategorie erstellt werden soll.</span><span class="sxs-lookup"><span data-stu-id="4a12d-113">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool on which the category needs to be created.</span></span> <span data-ttu-id="4a12d-114">Der Dienst ist die Persistent Chat-Server-Pool, der den beständigen Chat (Client) verwendet, um zu identifizieren der pool-Kategorie gehört.</span><span class="sxs-lookup"><span data-stu-id="4a12d-114">The service is the Persistent Chat Server pool that the Persistent Chat (client) uses to identify which pool the category belongs to.</span></span> <span data-ttu-id="4a12d-115">Eine Kategorie werden kann nur einen Persistent Chat Server Pool angehören und nicht in eine andere verschoben oder einen anderen Pool freigegeben.</span><span class="sxs-lookup"><span data-stu-id="4a12d-115">A category can belong to only one Persistent Chat Server pool, and cannot be moved to another one, or shared with another pool.</span></span> 
-  
-## <a name="to-configure-add-ins-for-chat-rooms"></a><span data-ttu-id="4a12d-116">So konfigurieren Sie Add-Ins für Chatrooms</span><span class="sxs-lookup"><span data-stu-id="4a12d-116">To configure add-ins for chat rooms</span></span>
-
-<span data-ttu-id="4a12d-117">Wählen Sie unter **Wählen Sie einen Dienst**Dienst entspricht dem Persistent Chat Server Pool, wenn Sie das Add-in erstellen müssen.</span><span class="sxs-lookup"><span data-stu-id="4a12d-117">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool where you need to create the Add-in.</span></span> <span data-ttu-id="4a12d-118">Add-Ins können nicht von einem Pool in einen anderen verschoben oder in mehreren Pools gemeinsam verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="4a12d-118">Add-ins cannot be moved from one pool to another or shared between different pools.</span></span>
-  
-## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a><span data-ttu-id="4a12d-119">So konfigurieren Sie Optionen für einen bestimmten Persistent Chat Server Pool beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="4a12d-119">To configure Persistent Chat options for a specific Persistent Chat Server pool</span></span>
-
-<span data-ttu-id="4a12d-120">Wählen Sie im, **Wählen Sie einen Dienst**den Dienst zugeordnet Persistent Chat Server Pool konfiguriert werden soll.</span><span class="sxs-lookup"><span data-stu-id="4a12d-120">In **Select a Service**, select the service associated with the Persistent Chat Server pool to be configured.</span></span>
-  
-<span data-ttu-id="4a12d-121">Ausführliche Informationen zur Persistent Chat Server-Features und Funktionen finden Sie unter [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="4a12d-121">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="4a12d-122">Ausführliche Informationen zur Verwendung von Persistent Chat Server-Konfigurationen finden Sie unter [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in der Dokumentation zur Bereitstellung und [Verwaltung von Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="4a12d-122">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
+> [!NOTE] 
+> <span data-ttu-id="45bd1-105">Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="45bd1-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="45bd1-106">Die gleiche Funktionalität ist in Teams verfügbar.</span><span class="sxs-lookup"><span data-stu-id="45bd1-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="45bd1-107">Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="45bd1-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="45bd1-108">Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.</span><span class="sxs-lookup"><span data-stu-id="45bd1-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
 
