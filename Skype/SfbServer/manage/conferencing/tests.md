@@ -1,25 +1,24 @@
 ---
-title: Testen der Einwahlkonferenzen in Skype for Business Server 2015
+title: Testen von einwahlkonferenzen in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Zusammenfassung: Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server 2015 zu testen.'
-ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server zu testen.'
+ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569271"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966412"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Testen der Einwahlkonferenzen in Skype for Business Server 2015
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testen von einwahlkonferenzen in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server 2015 zu testen.
+**Zusammenfassung:** Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server zu testen.
   
 Zur endgültigen Bestätigung der Einwahlkonferenzkonfiguration können Sie nach Wähleinstellungen suchen, die eine Region für Einwahlkonferenzen aufweisen, die von keiner Zugriffsnummer verwendet wird, und nach Zugriffsnummern suchen, für die keine Region für Einwahlkonferenzen angegeben ist. Sie sollten außerdem sicherstellen, dass die Website mit Einstellungen für die Einzelwahlkonferenz und die Zugriffsnummern korrekt funktionieren.
   

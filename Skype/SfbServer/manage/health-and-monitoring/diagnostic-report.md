@@ -1,24 +1,24 @@
 ---
-title: Diagnosebericht in Skype for Business Server 2015
+title: Diagnosebericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Zusammenfassung: Informationen Sie zu den Diagnosebericht in Skype für Business Server 2015.'
-ms.openlocfilehash: 86639f5687cb6d19ff18c9aafb869a74fb777113
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Diagnosebericht in Skype für Business Server.'
+ms.openlocfilehash: 15ef3d6e5663dee7ec0056ed48dc45119ad09db2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966384"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server-2015"></a>Diagnosebericht in Skype for Business Server 2015
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Diagnosebericht in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Diagnosebericht in Skype für Business Server.
   
 Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der fehlerhaften Sitzung. Er enthält sowohl die während einer fehlerhaften Sitzung berichtete Diagnose-ID als auch den Diagnoseheader. Die Diagnose-ID ist ein eindeutiger Bezeichner (in der Form eines Headers vom Typ „ms-diagnostics“) der an eine SIP-Nachricht angefügt wird, während der Diagnoseheader eine begleitende Beschreibung für die Diagnose-ID bietet. Der Bericht enthält möglicherweise auch wertvolle Details für die Problembehandlung, die der Reporting-Komponente bekannt sind. Beispielsweise:
   
@@ -30,7 +30,7 @@ Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der f
     
 ## <a name="accessing-the-diagnostic-report"></a>Zugreifen auf den Diagnosebericht
 
-Den Diagnosebericht kann durch Klicken auf die Metrik Diagnosebericht (Detail) auf den [Bericht über Peer-zu-Peer-Sitzungsbericht in Skype für Business Server 2015](peer-to-peer-session-detail-report.md) oder den detaillierten Konferenzbericht zugegriffen werden.
+Den Diagnosebericht kann durch Klicken auf die Metrik Diagnosebericht (Detail) auf den [Bericht über Peer-zu-Peer-Sitzungsbericht in Skype für Business Server](peer-to-peer-session-detail-report.md) oder den detaillierten Konferenzbericht zugegriffen werden.
   
 ## <a name="filters"></a>Filter
 
@@ -42,7 +42,7 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
   
 **Metriken des Diagnoseberichts**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Berichtszeitpunkt** <br/> |Nein  <br/> |Datum und Uhrzeit der Aufzeichnung des Berichts.  <br/> |
 |**Antwortcode** <br/> |Nein  <br/> |SIP-Antwortcode, der bei einem Sitzungsfehler gesendet wurde.  <br/> |

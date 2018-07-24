@@ -3,7 +3,7 @@ title: Allgemeine Front-End für Lync Server 2010-Einstellungen – Erweiterung
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Sie bearbeiten die Eigenschaften des Front-End-Server oder Front-End-Pools, bearbeiten oder konfigurieren die folgenden Attribute. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:'
-ms.openlocfilehash: 2e249f1bd7f0f42cdc23429d79afde86d3f175a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dbe4e83065f7869d860fec1a0c8868283f8e8414
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966377"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Allgemeine Front-End für Lync Server 2010-Einstellungen – Erweiterung
  
@@ -53,11 +54,11 @@ Sie bearbeiten die Eigenschaften des Front-End-Server oder Front-End-Pools, bear
     
 - Wählen Sie aus der **Edgepool zuordnen (für Medienkomponenten** Kontrollkästchen, um einen Edge-Server für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nach dem Aktivieren des Kontrollkästchens, wählen Sie eine vorhandene Edge-Server oder Pool aus der Liste aus oder klicken Sie auf **neu** , um die Definitionen für einen neuen Edge-Server oder Pool zu erstellen.
     
- **Resiliency**
+ **Flexibilität**
   
 - Wählen Sie das Kontrollkästchen **zugeordneter Sicherungsregistrierungsstellen-Pool** einen Front-End-Server oder Front-End-Pool aus der Liste auswählen, die Sicherungsregistrierung werden (d. h., die Front-End-Server oder Front-End-Pool, die als einer sekundären Registrierung den Fall, dass die primäre ein Fehler auftritt)
     
-- Wenn Sie zugeordneter Sicherungsregistrierungsstellen-Pool ausgewählt und eine sicherungsregistrierung gewählt haben, können Sie das Kontrollkästchen für **Automatisches Failover und Failback für VoIP**aktivieren. Sie können jetzt numerische Eigenschaften für **VoIP-Failover-Erkennung interne (s)** und **VoIP Failback Intervall (s)**definieren. Weitere Informationen hierzu finden Sie unter [Planning for Enterprise Voice Resiliency](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+- Wenn Sie zugeordneter Sicherungsregistrierungsstellen-Pool ausgewählt und eine sicherungsregistrierung gewählt haben, können Sie das Kontrollkästchen für **Automatisches Failover und Failback für VoIP**aktivieren. Sie können jetzt numerische Eigenschaften für **VoIP-Failover-Erkennung interne (s)** und **VoIP Failback Intervall (s)** definieren. Weitere Informationen hierzu finden Sie unter [Planning for Enterprise Voice Resiliency](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
     
  **Webdienste**
   
@@ -97,7 +98,4 @@ Klicken Sie auf **Hilfe** , um dieses Hilfethema anzuzeigen.
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Definieren Sie und konfigurieren Sie eines Front-End-Pool oder Standard Edition-Server](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
-

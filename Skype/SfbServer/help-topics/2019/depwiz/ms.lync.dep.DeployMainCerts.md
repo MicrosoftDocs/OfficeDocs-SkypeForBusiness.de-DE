@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
-description: 'Schritt 3: Zertifikate anfordern, installieren oder zuweisen startet den Zertifikat-Assistenten beim Klicken auf ausführen. Die Zertifikate, die mit dem Assistenten konfiguriert sind basieren auf die Definition der Skype für Business Server-Topologie, die konfiguriert und in den zentralen Verwaltungsspeicher von Topology Builder veröffentlicht wird. Damit der Zertifikat-Assistent für eine Onlinezertifizierungsstelle in Ihrer Organisation erfolgreich ausgeführt werden kann, müssen Sie am Computer als Mitglied der lokalen Gruppe „Administratoren“ angemeldet sein. Ferner müssen Sie ein authentifizierter Domänenbenutzer in der Domäne des Computers und der Zertifizierungsstelle sein. Klicken Sie im Assistenten bietet die Möglichkeit, alternativen Anmeldeinformationen für den Zugriff eines Unternehmens-CA anzugeben.'
-ms.openlocfilehash: 12f55778d5c8652c9b04d3d26193dae75c2dad53
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'In Schritt 3: Anfordern, Installieren und Zuweisen von Zertifikaten wird beim Klicken auf Ausführen der Zertifikat-Assistent gestartet. Die Zertifikate, die mit dem Assistenten konfiguriert sind basieren auf die Definition der Skype für Business Server-Topologie, die konfiguriert und in den zentralen Verwaltungsspeicher von Topology Builder veröffentlicht wird. Damit der Zertifikat-Assistent für eine Onlinezertifizierungsstelle in Ihrer Organisation erfolgreich ausgeführt werden kann, müssen Sie am Computer als Mitglied der lokalen Gruppe „Administratoren“ angemeldet sein. Ferner müssen Sie ein authentifizierter Domänenbenutzer in der Domäne des Computers und der Zertifizierungsstelle sein. Klicken Sie im Assistenten bietet die Möglichkeit, alternativen Anmeldeinformationen für den Zugriff eines Unternehmens-CA anzugeben.'
+ms.openlocfilehash: cf61a6e2c065ea01e18ae5935c3b4e0e49d9ea36
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992139"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966215"
 ---
 # <a name="request-install-or-assign-certificates"></a>Anfordern, Installieren oder Zuweisen von Zertifikaten
  

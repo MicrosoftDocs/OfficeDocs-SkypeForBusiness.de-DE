@@ -3,7 +3,6 @@ title: Wie Sie moderne Authentifizierung (ADAL) mit Skype for Business verwen
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: In diesem Artikel wird erläutert, wie modernen Authentifizierung (die auf dem Active Directory-Authentifizierung Library (ADAL) und OAuth 2.0 basiert) verwenden, die in der März 2016 nachlesen können kumulative Update für Skype für Unternehmen für Skype für Business Server 2015.
-ms.openlocfilehash: 9ef430f770b0b5d2ee22f2744e95b6df47fa95b9
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 4bf802d2710c9c271c54cf2e127cf51b24875db1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966573"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Wie Sie moderne Authentifizierung (ADAL) mit Skype for Business verwenden
  
@@ -36,41 +36,41 @@ In diesem Artikel wird erläutert, wie modernen Authentifizierung (die auf dem A
 
 ADAL ist das Akronym für „Active Directory Authentication Library“ und bildet gemeinsam mit OAuth 2.0 die Grundlage für die moderne Authentifizierung. In dieser Codebibliothek dient zum gesicherte Ressourcen in Ihrem Verzeichnis Clientanwendungen (wie Skype für Unternehmen) über Sicherheitstoken zur Verfügung zu stellen. ADAL arbeitet mit OAuth 2.0 zusammen, um mehr Szenarien für Authentifizierung und Autorisierung wie mehrstufige Authentifizierung (Multi-Factor Authentication, MFA) und weitere Formen der SAML-Authentifizierung zu ermöglichen.
   
-Viele Apps, die als Clients fungieren, können moderne Authentifizierung zur Unterstützung des Zugriffs auf gesicherte Ressourcen nutzen. In Skype für Business Server 2015 wird diese Technologie zwischen lokalen Clients und Servern verwendet, um Benutzern eine ordnungsgemäße Ebene der Autorisierung auf Ressourcen bieten.
+Viele Apps, die als Clients fungieren, können moderne Authentifizierung zur Unterstützung des Zugriffs auf gesicherte Ressourcen nutzen. In Skype für Business Server wird diese Technologie zwischen lokalen Clients und Servern verwendet, um Benutzern eine ordnungsgemäße Ebene der Autorisierung auf Ressourcen bieten.
   
 Unterhaltungen mit moderner Authentifizierung (die auf ADAL und OAuth 2.0 gründen), haben einige Gemeinsamkeiten.
   
 - Ein Client, eine Anforderung für eine Ressource vorhanden ist, der Client ist in diesem Fall Skype für Unternehmen.
     
-- Es ist eine Ressource, zu der der Client eine bestimmte Zugriffsebene, benötigt, und diese Ressource wird durch einen Verzeichnisdienst gesichert, die Ressource ist in diesem Fall Skype für Business Server 2015.
+- Es ist eine Ressource, zu der der Client eine bestimmte Zugriffsebene, benötigt, und diese Ressource wird durch einen Verzeichnisdienst gesichert, die Ressource ist in diesem Fall Skype für Business Server.
     
 - Besteht eine OAuth-Verbindung mit anderen Worten, eine Verbindung, die einen Benutzer Zugriff auf eine Ressource für das *Autorisieren* dediziert. (OAuth ist auch unter dem aussagekräftigeren Namen „Server-to-Server“ bekannt und wird deshalb häufig als S2S abgekürzt.)
     
-Skype für Business Server 2015 modernen Authentifizierung (ADAL) Unterhaltungen kommuniziert Skype für Business Server 2015 über AD FS (AD FS 3.0 in Windows Server 2012 R2). Die Authentifizierung kann über einen anderen beliebigen Identitätsanbieter (Identity Provider, IdP) erfolgen, aber Skype for Business Server muss für die direkte Kommunikation mit AD FS konfiguriert sein. Wenn Sie AD FS Skype für Business Server 2015 entwickelt konfiguriert haben füllen Sie die [AD FS-Installation](https://technet.microsoft.com/en-us/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx).
+Skype für Business Server modernen Authentifizierung (ADAL) Unterhaltungen kommuniziert Skype für Business Server über AD FS (AD FS 3.0 in Windows Server 2012 R2). Die Authentifizierung kann über einen anderen beliebigen Identitätsanbieter (Identity Provider, IdP) erfolgen, aber Skype for Business Server muss für die direkte Kommunikation mit AD FS konfiguriert sein. Wenn Sie ADFS zur Arbeit mit Skype für Business Server konfiguriert haben füllen Sie die [AD FS-Installation](https://technet.microsoft.com/en-us/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx).
   
 ADAL ist in der März 2016 enthalten kumulative Update für Skype für Business Server 2015 und die März 2016 kumulative Update für Skype für Business **muss** installiert werden und für die erfolgreiche Konfiguration erforderlich ist.
   
 > [!NOTE]
-> Während der Erstveröffentlichung ist moderne Authentifizierung in einer lokalen Umgebung nur unterstützt, wenn es keine gemischter Skype-Topologie ist. Wenn beispielsweise die Umgebung rein Skype für Business Server 2015 ist. Mit dieser Anweisung möglicherweise kann geändert werden. 
+> Während der Erstveröffentlichung ist moderne Authentifizierung in einer lokalen Umgebung nur unterstützt, wenn es keine gemischter Skype-Topologie ist. Wenn beispielsweise die Umgebung rein Skype für Business Server befindet. Mit dieser Anweisung möglicherweise kann geändert werden. 
   
 Ein PowerShell-Paket einschließlich .ps1-Dateien mit den von ADAL verwendeten Befehlen muss für eine erfolgreiche Konfiguration heruntergeladen werden.
   
 ### <a name="configure-adal-in-your-pool-and-set-adfs-as-security-token-server"></a>Konfigurieren von ADAL in Ihrem Pool und Festlegen von ADFS als Sicherheitstokenserver
 <a name="BKMK_Config"> </a>
 
-In diesem Prozess verbinden Sie die Installation von AD FS mit einer Skype für Business Server 2015-Pool, der für ADAL konfiguriert ist.
+In diesem Prozess verbinden Sie die Installation von AD FS mit einer Skype für Business Server-Pool, der für ADAL konfiguriert ist.
   
-1. Installieren der März 2016 kumulative Update für Skype für Business Server 2015 zu Ihrer Skype für Business Server 2015 Pool oder Standard Edition-Server. (Planen Sie nach Bedarf Wartungsfenster, um Windows Update für die automatische Installation auszuführen.)
+1. Installieren der März 2016 kumulative Update für Skype für Business Server 2015 zu Ihrer Skype für Business Server-Pool oder Standard Edition-Server. (Planen Sie nach Bedarf Wartungsfenster, um Windows Update für die automatische Installation auszuführen.)
     
 2. Auf Ihrer lokalen AD FS-Servern, [Laden Sie](https://aka.ms/sfbadalscripts) das Setup-AdfsOAuthTrustForSfB Skript. (Dies pro AD FS-Farm oder unabhängigen AD FS-Server ausgeführt werden soll. Es muss nicht auf AD FS-Proxy oder Proxys ausgeführt werden).
     
-3. Notieren Sie sich von der internen und externen Webdienst vollqualifizierte Domänennamen (FQDNs) für Ihre Skype für Business Server 2015 Pool oder Standard Edition-Server. Tun Sie dies für alle Skype for Business-Pools.
+3. Notieren Sie sich von der internen und externen Webdienst vollqualifizierte Domänennamen (FQDNs) für Ihre Skype für Business Server-Pool oder Standard Edition-Server. Tun Sie dies für alle Skype for Business-Pools.
     
 4. Führen Sie über PowerShell auf dem oder den ADFS-Server(n)das Setup-Adfs OAuthTrustForSfB-Skript aus. Sie müssen die zutreffenden URLs für die FQDNs des internen und externen Webdienstes eingeben. Nachfolgend ein Beispiel:
     
      `Setup-AdfsOAuthTrustForSfB.ps1 -poolIDs https://contosoSkype.contoso.com,https://contoso01Skype.contosoIn.com`
     
-    Zusätzliche Pools müssen Sie die Webdienst-URLs Pool manuell die Skype für Business Server 2015 Vertrauensstellung für vertrauende Seite in AD FS hinzugefügt werden.
+    Zusätzliche Pools müssen Sie die Webdienst-URLs Pool manuell die Skype für Business Server Vertrauensstellung für vertrauende Seite in AD FS hinzugefügt werden.
     
     > [!IMPORTANT]
     > Es ist nicht möglich, passive Authentifizierung für einen Pool und außerdem ADAL zu verwenden. Sie müssen passive Authentifizierung deaktivieren, damit Sie ADAL verwenden können. PowerShell-Cmdlets zum Festlegen der Authentifizierung für einen Pool finden Sie unter [in diesem](https://technet.microsoft.com/en-us/library/gg398396.aspx) Artikel.
@@ -78,7 +78,7 @@ In diesem Prozess verbinden Sie die Installation von AD FS mit einer Skype für 
     > [!TIP]
     > Wenn Sie zusätzliche Pools haben müssen Sie diese als [Bezeichner](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx) hinzufügen, um die Vertrauensstellung für vertrauende Seite in AD FS. > Gehe zu AD FS-Server und öffnen Sie die AD FS-Verwaltung. Erweitern Sie Vertrauensstellungen \> Relying Party-Vertrauensstellungen. Mit der rechten Maustaste die Vertrauensstellung für vertrauende Seite, die aufgeführt wird und für Eigenschaften Rechtsklick \> Bezeichner \> Geben Sie die zusätzliche Pool URL(s) \> klicken Sie auf Hinzufügen. 
   
-5. Geben Sie an Ihre Skype für Business Server 2015 Front-End oder Standard Edition-Server. Hier müssen Sie die Cmdlets ausführen, die OAuth-Server erstellen und ändern die OAuth-Konfiguration Skype für Unternehmen entwickelt. Sie müssen nur führen Sie diesen Schritt einmal pro Skype für Business Server 2015 Bereitstellung. Hier ist ein Beispiel:
+5. Geben Sie an Ihre Skype für Business Server-Front-End oder Standard Edition-Server. Hier müssen Sie die Cmdlets ausführen, die OAuth-Server erstellen und ändern die OAuth-Konfiguration Skype für Unternehmen entwickelt. Sie müssen nur führen Sie diesen Schritt einmal pro Skype für Business Server-Bereitstellung. Hier ist ein Beispiel:
     
      `New-CsOAuthServer -Identity sts.contosoIn.com -Type ADFS -MetadataURL https://sts.contosoIn.com/FederationMetadata/2007-06/FederationMetadata.xml`
     
@@ -87,7 +87,7 @@ In diesem Prozess verbinden Sie die Installation von AD FS mit einer Skype für 
   
      `Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity sts.contosoIn.com`
     
-6. Testen Sie noch auf Ihrem Skype für Business Server 2015 Front-End oder Standard Edition-Server die neue Konfiguration, indem Sie die SIP-Adresse eines Benutzers und FQDN des Pools eingeben. Sie müssen nur führen Sie diesen Schritt einmal pro Skype für Business Server 2015 Bereitstellung. Hier ist ein Beispiel:
+6. Testen Sie noch auf Ihrem Skype für Business Server-Front-End oder Standard Edition-Server die neue Konfiguration, indem Sie die SIP-Adresse eines Benutzers und FQDN des Pools eingeben. Sie müssen nur führen Sie diesen Schritt einmal pro Skype für Business Server-Bereitstellung. Hier ist ein Beispiel:
     
      `Test-CsRegistration -UserSipAddress AyakaY@contosoIns.com -TargetFqdn Pool1.contoso.com -Authentication OAuthInteractive`
     
@@ -125,7 +125,7 @@ Um modernen Authentifizierung für Exchange Online zu aktivieren, müssen Sie ei
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  <br/> |REG_DWORD  <br/> |1  <br/> |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version  <br/> |REG_DWORD  <br/> |1  <br/> |
    
-Nachdem Sie diese Schlüssel festgelegt werden, legen Sie Ihre apps für Office 2013 [Multifaktor Authentifizierung (mehrstufiger Authentifizierung das) mit Office 365](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6?ui=en-US&amp;rs=en-US&amp;ad=US)verwenden.
+Nachdem Sie diese Schlüssel festgelegt werden, legen Sie Ihre Office-apps auf [Multifaktor Authentifizierung (mehrstufiger Authentifizierung das) mit Office 365 verwenden](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6?ui=en-US&amp;rs=en-US&amp;ad=US).
   
 > [!TIP]
 > Zum Deaktivieren der modernen Authentifizierung auf Geräten für Office 2013 legen Sie den Registrierungsschlüssel HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL auf einen Wert von 0 (null). Beachten Sie, dass ein ähnlicher Registrierungsschlüssel (HKCU\SOFTWARE\Microsoft\Office\ **16,0** \Common\Identity\EnableADAL) auch deaktivieren der modernen Authentifizierung auf Geräten für Office 2016 verwendet werden kann.

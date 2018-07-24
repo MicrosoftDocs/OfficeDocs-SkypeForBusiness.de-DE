@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
+ROBOTS: NOINDEX, NOFOLLOW
 description: Jeder Front-End-Pool und Survivable Branch Appliance kann nur jeweils eine haben, die sie Monitoring Server zugeordnet werden soll. Wenn die Überwachung für die Website aktiviert ist, enthält die Monitoring Server die Aufzeichnung von kommunikationsdatensätzen (CDR) und Quality of Experience (QoE)-Datensammlung und Berichte.
-ms.openlocfilehash: a69ef27c8f10ab23994df2f5541c0c18090fa7a5
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6feb7d5dc61e4cc7405b108e4b09b3852b0ead21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971348"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966087"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQLServer Reporting Services (Einführung)
  
