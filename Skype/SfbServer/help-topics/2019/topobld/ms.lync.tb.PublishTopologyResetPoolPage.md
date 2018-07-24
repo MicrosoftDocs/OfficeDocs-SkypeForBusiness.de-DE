@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
+ROBOTS: NOINDEX, NOFOLLOW
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: 20cea17c618ecab64e9d18668b63dd5d9d2b93b7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 64975d6623594d956add9aa4dc641644658840ff
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974915"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064551"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Veröffentlichen der Topologie - Seite "Pool zurücksetzen"
  

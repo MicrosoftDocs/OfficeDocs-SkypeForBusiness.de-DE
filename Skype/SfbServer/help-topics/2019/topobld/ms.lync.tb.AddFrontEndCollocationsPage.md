@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
+ROBOTS: NOINDEX, NOFOLLOW
 description: Für eine Enterprise Edition-Bereitstellung der A / V-Konferenzdienst auf den Front-End-Pool verbunden ist. Sie können auch den Vermittlungsserver auf den Front-End-Pool verbinden, oder Sie können es als eigenständiger Server bereitstellen. Der A / V-Konferenzdienst ist immer verbunden, wenn die Konferenz aktiviert ist.
-ms.openlocfilehash: 58f06cda9927c7596844fd3cda884bdfe48e32a7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a7e81191b9f187a87fbe29f56919a4e6c77823ef
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974978"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069293"
 ---
 # <a name="add-front-end-server-collocations"></a>Hinzufügen von Front-End-Server-Kollokationen
  

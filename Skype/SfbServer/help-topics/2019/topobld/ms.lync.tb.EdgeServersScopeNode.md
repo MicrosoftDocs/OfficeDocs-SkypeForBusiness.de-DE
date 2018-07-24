@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
-description: 'Der Knoten edgepools Listet die Edge-Pools in Ihrer Topologie. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 7eee0cb842c0347ad08b0edb51ab49ce4aa8f063
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Im Knoten Edgepools werden die Edgepools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: ede9b748a36a0faca0e70f5b2058fc0cb4fbd56f
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976205"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066517"
 ---
 # <a name="edge-servers-scope-node"></a>Edgeserver – Bereichsknoten
  

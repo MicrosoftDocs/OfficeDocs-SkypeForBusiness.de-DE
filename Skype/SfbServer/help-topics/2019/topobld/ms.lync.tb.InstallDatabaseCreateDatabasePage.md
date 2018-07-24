@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
+ROBOTS: NOINDEX, NOFOLLOW
 description: Sie wählen Sie die Datenbanken, die Sie für Ihre Bereitstellung erstellen möchten. In der Standardeinstellung wird die Datenbank erstellt werden, auf dem definierten SQL Server in der definierten Site und automatisch bereitstellen und konfigurieren die Datenbankdateien basierend auf dem SQL Server, die Sie die Datenbanken auf platzieren.
-ms.openlocfilehash: 70bd185b4e559215df7d3623dc5591648e718ed9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6138608bc98b921ba90401e35bea584efe37a9cb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979358"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063010"
 ---
 # <a name="install-and-create-databases"></a>Installieren und Erstellen von Datenbanken
  

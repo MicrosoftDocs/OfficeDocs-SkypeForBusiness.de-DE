@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
+ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie in der externen IPv6-Adresse die externe IP-Adresse, die auf den Zugriffs-edgedienst, Webkonferenz-edgedienst und A verweist / V-edgedienst.
-ms.openlocfilehash: 43504e4f3c91bc91270ca3445da4030382142b5a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 09cdfa8062ffd0716ffa869f0f6f830af457bbdd
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987613"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062292"
 ---
 # <a name="add-edge-machine-external-ipv6"></a>Hinzufügen von Edge Computer externe IPv6
  

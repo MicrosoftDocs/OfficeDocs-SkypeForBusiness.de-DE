@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 63aa5dea39e08a5c3226e0e624babf466450676f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4bf8d4f19eb4108b025986d530fe746c6b687775
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974057"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062752"
 ---
 # <a name="edge-server-scope-node"></a>Edgeserver – Bereichsknoten
  

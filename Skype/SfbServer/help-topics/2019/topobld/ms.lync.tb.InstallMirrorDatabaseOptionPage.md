@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Konfigurieren Sie Einstellungen der Spiegeldatenbank, indem Sie Folgendes definieren:'
-ms.openlocfilehash: fe86501c88282d5caa6ee5921617a1d06c5afaa8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 878df89da759de661729d1e248722cbe8e755085
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983448"
+ms.locfileid: "21064035"
 ---
 # <a name="install-mirror-database-option-page"></a>Installieren Sie die Spiegelung Datenbank Option Seite
  

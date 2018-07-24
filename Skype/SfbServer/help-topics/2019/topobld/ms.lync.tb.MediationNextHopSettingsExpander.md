@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
-description: Sie geben Sie den vermittlungsserverpool oder Vermittlungsserver Nächster Hop, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen. Ein Director oder Director Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver Nächster Hop und nicht in der Liste angezeigt wird. Klicken Sie auf OK, um das akzeptieren und Ihre Änderungen zu speichern. Klicken Sie auf Abbrechen, um die Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
-ms.openlocfilehash: 1edf712ad9bb21aba6b05c964b6e40d0c247c240
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Sie geben Sie den vermittlungsserverpool oder Vermittlungsserver Nächster Hop, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen. Ein Director oder Director Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver Nächster Hop und nicht in der Liste angezeigt wird. Klicken Sie auf OK, um das akzeptieren und Ihre Änderungen zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
+ms.openlocfilehash: 783c7d8c5cd0f7a85ceb3500f3583340ad49a272
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966270"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064653"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für Vermittlung – Erweiterung
  

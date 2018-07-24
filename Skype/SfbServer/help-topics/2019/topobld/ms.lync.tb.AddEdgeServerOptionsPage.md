@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wählen Sie die Funktionen aus, die für den Edgepool aktiviert werden sollen. Der Edgepool unterstützt standardmäßig Remotebenutzer in Ihrer Organisation, die sich außerhalb der Firewall über ein VPN (Virtuelles Privates Netzwerk) anmelden. Zudem sind die folgenden Optionen für die Edgepoolfunktionen verfügbar:'
-ms.openlocfilehash: bf6e4d27529f2b3e6f0a8f0c4bb457f25abe0458
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6fdad151de5f3b864e3c93a3ce8796a36c1f2ac0
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970857"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21064462"
 ---
 # <a name="add-edge-server-options"></a>Hinzufügen von Edgeserveroptionen
  

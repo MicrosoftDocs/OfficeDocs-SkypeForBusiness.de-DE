@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
-description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Server, die mit der Archivierung entweder von der rechten Maustaste auf den Server, Archivierung in der Konsolenstruktur ausführen, und klicken auf die Aktion, in der Symbolleiste oder indem Sie auf eine Aufgabe im Bereich Aktionen, und klicken Sie dann auf Bearbeiten bearbeiten. Eigenschaften, und ändern die folgenden Optionen:'
-ms.openlocfilehash: 9ccad6b4808bc5ffe2066576eff9b2e298f9c236
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Server, auf dem die Archivierung ausgeführt wird, bearbeiten, indem Sie entweder in der Konsolenstruktur mit der rechten Maustaste auf den jeweiligen Server und dann in der Symbolleiste auf Aktion klicken oder indem Sie im Bereich „Aktionen“ auf eine Aufgabe und anschließend auf Eigenschaften bearbeiten klicken und dann die folgenden Optionen ändern:'
+ms.openlocfilehash: 6419b7b4fff2c533a0dc91ab0819b0a58044447d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978174"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060112"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Allgemeine Einstellungen des Archivierungsservers – Erweiterung
  

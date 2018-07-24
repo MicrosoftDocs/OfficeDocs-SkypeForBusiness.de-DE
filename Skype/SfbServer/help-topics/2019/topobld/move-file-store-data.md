@@ -8,13 +8,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wenn müssen Sie den Dateiserver entfernen, der derzeit fungiert als den Dateispeicher für Ihre Skype für Business Server-Bereitstellung ist oder wenn Sie andere vornehmen müssen Änderungen, die die aktuelle Datei vornehmen würden nicht verfügbar speichern, müssen Sie zuerst eine neue Freigabe erstellen. Dann müssen Sie folgende Schritte ausführen:'
-ms.openlocfilehash: fd8869a7cd0ca5f29d839de373e3e7d2f3d76faa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d11840e182bc9af0da02c440dd91fc224e7396cc
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988271"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069244"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Move-Dateispeicherdaten in einen neuen Dateispeicher in Skype für Business Server
  

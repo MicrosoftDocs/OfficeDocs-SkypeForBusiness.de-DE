@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
+ROBOTS: NOINDEX, NOFOLLOW
 description: Monitoring Server erfordert eine unterstützte 64-Bit-Edition von SQL Server-Datenbanksoftware, um die Überwachungsdaten zu speichern. Sie können wählen Sie zuvor definierte SQL Server-Datenbank für die Überwachung verwendet werden, oder definieren eine neue SQL Server-Datenbank durch angeben einen vollqualifizierten Domänennamen (FQDN) des Servers, auf dem SQL Server-Datenbank werden sollen, zusätzlich zu der Instanz von SQL gespeichert Server, die Sie für die neue SQL Server-Datenbank verwenden möchten (das sein können, die Standardinstanz oder eine benannte Instanz, die Sie angeben).
-ms.openlocfilehash: 362f4be3d778d0c5607f6c0ee1233d85d6b9149e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1a8a5dc3e17daa63ed844a3fa566089ee0ee7064
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969771"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069505"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Hinzufügen von Monitoring Server SQL Server-Speichers
  

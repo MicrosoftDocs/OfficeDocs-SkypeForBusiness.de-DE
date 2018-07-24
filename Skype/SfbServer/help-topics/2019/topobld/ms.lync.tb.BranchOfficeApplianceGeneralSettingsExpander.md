@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Bearbeiten der Einstellungen für eine vorhandene Survivable Branch Appliance oder einen Survivable Branch Server werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2a0d0c7ec22baa781f1931f4be7ecfc67d6aa6be
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989077"
+ms.locfileid: "21058867"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Allgemeine Einstellungen für Filialanwendungen – Erweiterung
  

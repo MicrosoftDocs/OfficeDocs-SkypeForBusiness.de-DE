@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
+ROBOTS: NOINDEX, NOFOLLOW
 description: Im Topologie-Generator, können Sie die Einstellungen für externe Ports für die interne und externe Webdienste verwendete ändern. Darüber hinaus und wenn die Domain Name System (DNS) zum Lastenausgleich bereitgestellt werden, können Topologie-Generator so konfigurieren Sie den vollqualifizierten Domänennamen (FQDN) des Pools, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird.
-ms.openlocfilehash: 775268e598120e28ff6402ac09483e6fa987eceb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8b607ed42cbb97bbf305fdad916ed2637c9935c5
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997073"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21058465"
 ---
 # <a name="web-services-settings-expander"></a>Einstellungen für Webdienste – Erweiterung
  

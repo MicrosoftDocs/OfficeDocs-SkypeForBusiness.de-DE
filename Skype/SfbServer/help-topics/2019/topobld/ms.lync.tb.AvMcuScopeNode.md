@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools und diesem A/V-Konferenzpool zugeordnete Front-End-Pools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 650ad55d4d03f2adcbac6b6ae446da0c25ad6f34
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2cd2b92cc89c36d5ee59e830f948d40f3ee82081
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997115"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065459"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU – Bereichsknoten
  

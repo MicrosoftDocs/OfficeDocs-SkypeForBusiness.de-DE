@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
+ROBOTS: NOINDEX, NOFOLLOW
 description: Zum Bearbeiten der Eigenschaften einer SQL Server-Datenbank müssen Sie die Instanz des SQL Server-Datenbank ändern. Klicken Sie im Dialogfeld Eigenschaften bearbeiten können Aufgaben wie die Archivierungsserver-Datenbank von einem Computer an eine andere verschieben. Darüber hinaus können Sie das Dialogfeld Eigenschaften bearbeiten zum Verwenden der Instanz von SQL Server, der als Host Ändern des zentralen Verwaltungsspeichers.
-ms.openlocfilehash: d9ba91dca9cb6e0e779f154925a4d00065458866
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aaab5adde793a585d632c3e246f0023c92f244b0
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972231"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066507"
 ---
 # <a name="sql-store-settings-expander"></a>SQL-Speichereinstellungen – Erweiterung
  

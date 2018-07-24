@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
+ROBOTS: NOINDEX, NOFOLLOW
 description: Die Basis-URL ist die Webdienstidentität der URL ohne https://. Wenn die vollständige URL für die Webdienste des Pools ist beispielsweise https://pool01.contoso.net, die base-URL ist pool01.contoso.net.
-ms.openlocfilehash: 507e99d82ee4203bfcb0fd553ce6b2fdd65a6076
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2350a728580d89e5ff1e18106c558ec817ab2f37
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979820"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21061806"
 ---
 # <a name="add-director-web-service"></a>Hinzufügen von Director-Webdiensts
  

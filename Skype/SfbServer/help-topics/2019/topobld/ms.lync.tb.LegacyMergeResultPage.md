@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
+ROBOTS: NOINDEX, NOFOLLOW
 description: Um eine Bereitstellung der Vorversion mit Skype für Business Server zusammenführen, klicken Sie auf Weiter. Ausführliche Informationen zum Ausführen des Seriendruck-Assistenten des Topologie-Generator finden Sie unter Merge verwenden Topologie-Generator den Zusammenführungs-Assistenten in der Migrationsdokumentation.
-ms.openlocfilehash: 389482bfc84bb2c1b47404e88cbcbee9c3a09451
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f7ff816795a450184ed740a165c549f8ed9b8a91
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987291"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069603"
 ---
 # <a name="legacy-merge-results"></a>Legacyzusammenführung – Ergebnisse
  

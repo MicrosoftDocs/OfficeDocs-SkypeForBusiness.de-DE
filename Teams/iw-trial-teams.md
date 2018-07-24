@@ -3,7 +3,7 @@ title: Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsof
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 description: Office 365-Benutzer, die nicht für Microsoft-Teams lizenziert sind, können eine 1 Jahr Testversion von Teams initiieren.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec12fa2687255fb3097d4bbe637389bc643d77cd
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412333"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068923"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsoft
 =======================================================
@@ -33,7 +33,7 @@ Die Servicepläne in dieses Angebot enthalten sind:
 - Microsoft-Teams (Teams1, Teams Information Worker)
 - Office Online
 - PowerApps für Office 365-Plan 1
-- SharePoint Online-Plan 1
+- SharePoint Online-Kiosk
 - Schlingern
 - Yammer Enterprise
 
@@ -56,9 +56,11 @@ Berechtigte Benutzern können durch Anmeldung bei Teams ([teams.microsoft.com](h
 
 ![Screenshot der Startseite für die Testversion Teams Information Worker.](media/iw-trial-start-screen.png)
 
-Die Information Worker Testversion gewährt eine Testversion 1 Jahr im gesamten Unternehmen. Zusätzliche berechtigte Benutzern in Ihrer Organisation können für Information Worker-Testversion von demselben Prozess durchgehen registrieren.
- 
+Die Testversion gewährt eine Testversion einjährige im gesamten Unternehmen. Diese Testversion werden 500.000 Lizenzen für die Zuweisung zur Verfügung stellen. Für jede Lizenz zugewiesen ist wird die Testversion 2 GB an Speicher SharePoint Online reserviert. Zusätzliche berechtigte Benutzern in Ihrer Organisation können für die Testversion von demselben Prozess durchgehen registrieren.
+
 Alle Versuche innerhalb Ihrer Organisation freigeben, die gleiche Start- und Enddaten, welches das Datum ist der erste Benutzer für die Testversion angemeldet. Angenommen, wenn Benutzer A die erste Testversion auf 25 April 2018 und Benutzer B eine Testversion auf 3 Juni 2018 beginnt, läuft beide Benutzer Testversion auf 25 April 2019 ab.
+
+Die erste Person, die für die Testversion angemeldet ist der "Besitzer" des Abonnements. Nur die Person kann das Abonnement verwalten. 
 
 ## <a name="manage-the-trial"></a>Verwalten der Testversion
 

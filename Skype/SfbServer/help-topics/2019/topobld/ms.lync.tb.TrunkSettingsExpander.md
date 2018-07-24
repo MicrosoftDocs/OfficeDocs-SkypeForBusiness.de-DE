@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:'
-ms.openlocfilehash: 4f8f6e2f0851b00f9e7702391ce051a42dd686c3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 79a72516ef57fe66cb95e0b965fef5a118f2feea
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985833"
+ms.locfileid: "21058429"
 ---
 # <a name="trunk-settings-expander"></a>Trunkeinstellungen – Erweiterung
  

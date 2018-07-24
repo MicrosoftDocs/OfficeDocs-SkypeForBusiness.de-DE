@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
+ROBOTS: NOINDEX, NOFOLLOW
 description: Der Office Web Apps-Server stellt Dienste wie ein Referent zur Verfügung, der ein Dokument zur Verwendung in einer Besprechung hochlädt, jedoch weitere Funktionen ermöglicht, die in den vorherigen Versionen nicht verfügbar waren.
-ms.openlocfilehash: af10702b84021caa5d2e9a7c874e3dcaad2f54ff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 390a6d5522f82926c7ea5154c9bf582d3dab3d9f
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985809"
+ms.locfileid: "21058976"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
  

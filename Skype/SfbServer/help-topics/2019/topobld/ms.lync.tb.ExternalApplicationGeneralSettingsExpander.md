@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
+ROBOTS: NOINDEX, NOFOLLOW
 description: Gehen Sie wie folgt vor, um die Eigenschaften für einen vertrauenswürdigen Anwendungsserver zu bearbeiten, der bereits definiert wurde.
-ms.openlocfilehash: b01e48a3d2a003295956df981c4b571a7494be34
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ab11480cf7772be8e85463866359da7ea6f2b27e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993099"
+ms.locfileid: "21069568"
 ---
 # <a name="external-application-general-settings-expander"></a>Externe Anwendung Allgemeine Einstellungen – Erweiterung
  

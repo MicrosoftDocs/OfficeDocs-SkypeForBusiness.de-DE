@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Monitoring Server, mit dem Monitoring Server in der Konsolenstruktur mit der rechten Maustaste und dann in der Symbolleiste auf Aktion oder durch einen Vorgang im Bereich Aktionen auf und dann auf Eigenschaften bearbeiten Bearbeiten , und ändern die folgenden Optionen:'
-ms.openlocfilehash: fb4bc9a26cddc3497a7f80f02821ae578742a199
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Monitoring Server bearbeiten, indem Sie in der Konsolenstruktur mit der rechten Maustaste auf den Monitoring Server klicken und dann auf der Symbolleiste auf Aktion klicken oder indem Sie im Bereich „Aktionen“ auf eine Aufgabe und anschließend auf Eigenschaften bearbeiten klicken und dann die folgenden Optionen ändern:'
+ms.openlocfilehash: fbea857fc4588ae43b936e647f0d2697a5da5cd2
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19977040"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057380"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Allgemeine Einstellungen des Monitoring Servers – Erweiterung
  

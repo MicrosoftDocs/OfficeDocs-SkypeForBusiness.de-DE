@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
+ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Edgeserver bereitgestellt haben und Media-Dienste für die externe Verwendung bereitstellen müssen, wählen Sie die Edge-Server oder Pool, der mit dem Survivable Branch Appliance oder einen Survivable Branch Server zugeordnet werden sollen, indem Sie ihn in der Dropdown-Liste auswählen. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 760cdcc357e1a605edd0842d47703142ac1ad174
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9f4bb9510cec5ae7f4c196892ff109760f8f81b4
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19968041"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062407"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Zuordnen der Filialanwendung zur Edgekomponente
  

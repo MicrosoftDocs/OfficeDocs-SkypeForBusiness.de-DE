@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
+ROBOTS: NOINDEX, NOFOLLOW
 description: Jedem Front-End-Pool kann nur ein Edgeserver bzw. Edgepool zugeordnet werden. Wenn Sie für einen Standort den Zugriff externer Benutzer aktivieren, können Sie Unterstützung für Remotebenutzer bereitstellen. Sie können auch Unterstützung für Partnerbenutzer, z. B. für Benutzer öffentlicher Instant Messaging-Dienste wie Windows Live sowie für anonyme Benutzer aktivieren.
-ms.openlocfilehash: b4faaf7e6708af6b369846391087ac35742e1d42
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 79c4a17f1d59a071470534915f5421e964f59d1b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987340"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063063"
 ---
 # <a name="associate-front-end-with-edge"></a>Zuordnen des Front-Ends zur Edgekomponente
  

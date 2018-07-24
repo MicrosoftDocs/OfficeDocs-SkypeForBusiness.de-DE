@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
+ROBOTS: NOINDEX, NOFOLLOW
 description: Nach Abschluss der Veröffentlichung der Topologie wird die Seite Veröffentlichen-Assistent abgeschlossen angezeigt.
-ms.openlocfilehash: d7dd8f497596c5efb320223f3534df0a55121964
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e78476dfd2c612765236fe5b3fd3704724dbffe8
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968382"
+ms.locfileid: "21057237"
 ---
 # <a name="publish-topology-next-step"></a>Veröffentlichen der Topologie – nächsten Schritt
  

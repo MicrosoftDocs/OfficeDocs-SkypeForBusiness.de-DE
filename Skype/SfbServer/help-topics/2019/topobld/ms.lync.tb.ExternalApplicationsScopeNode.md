@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'Der Knoten Vertrauenswürdige Anwendungsserver Listet die vertrauenswürdigen Anwendungspools an diesem Standort. Vertrauenswürdige Anwendungspools enthalten Server, die vertrauenswürdige Microsoft Unified Communications-Anwendungen auszuführen, aber nicht Skype für Business Serverrollen ausgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 4d71f5527b97b290c03ff125b49c5a2a57d22d3d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Der Knoten Vertrauenswürdige Anwendungsserver enthält die vertrauenswürdigen Anwendungspools dieses Standorts. Vertrauenswürdige Anwendungspools enthalten Server, die vertrauenswürdige Microsoft Unified Communications-Anwendungen auszuführen, aber nicht Skype für Business Serverrollen ausgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 24f167f8ab81983d596c2686da7342c6858830ff
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990063"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062622"
 ---
 # <a name="external-applications-scope-node"></a>Externe Anwendungen – Bereichsknoten
  

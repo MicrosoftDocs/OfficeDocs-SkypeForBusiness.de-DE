@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
+ROBOTS: NOINDEX, NOFOLLOW
 description: Der nächste Hop für den Edge-Pool ist ein Front-End-Pool (der Enterprise-Pool oder Standard Edition-Server werden kann), oder wenn Ihre Bereitstellung einen Director umfasst, ist des nächsten Hops Director.
-ms.openlocfilehash: c4a2401f5c33f255b2f76320775189b1d71023bb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a0a192b15bb5aef384fde5930234bf0fdb94852d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974071"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21062860"
 ---
 # <a name="add-edge-server-next-hop"></a>Der nächste Hop des Edge-Server hinzufügen
  

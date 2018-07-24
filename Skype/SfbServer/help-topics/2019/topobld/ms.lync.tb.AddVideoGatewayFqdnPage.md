@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
+ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator sind online unter Erstellen eines Pools gegenüber in Skype für Business Server beschrieben.
-ms.openlocfilehash: 1d9042fd5b4b1cef15d9521e75c7b690dd83501b
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: a06b8f0ce98223d22ea6fcf1991551e74c9d8fcd
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20043878"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21061379"
 ---
 # <a name="add-video-gateway-fqdn"></a>Hinzufügen eines Videogateway-FQDN
  

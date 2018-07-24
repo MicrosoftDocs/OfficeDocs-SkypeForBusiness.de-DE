@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
+ROBOTS: NOINDEX, NOFOLLOW
 description: Die öffentliche IP-Adresse ist die IP-Adresse, die von der Netzwerkadressübersetzung (NAT) verwendet wird. Die IP-Adresse muss öffentlich routingfähig sein. Dies ist erforderlich, da Sie die externe IP-Adresse für diese Kante ausgewählt haben, den Pool von NAT-Option auf der Seite Select Features dieses Assistenten übersetzt wird.
-ms.openlocfilehash: 64bdb9f64abfc81e1338067d9afe780f1e40cb48
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ee4a2d12d44e17c3219395174451f00db7674e76
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964569"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21059290"
 ---
 # <a name="add-edge-server-nat-ip"></a>Hinzufügen von Edge-Server-NAT-IP-
  

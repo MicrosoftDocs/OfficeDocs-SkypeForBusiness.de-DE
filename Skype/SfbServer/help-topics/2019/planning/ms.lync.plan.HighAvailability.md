@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
+ROBOTS: NOINDEX, NOFOLLOW
 description: Das Hauptfenster Hochverfügbarkeits-Schema für die meisten Serverrollen in Skype für Business Server basiert auf Serverredundanz über pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen die gleiche Rolle ausgeführt wird, die Last dieses Servers.
-ms.openlocfilehash: 140f413644360e8c776c48dbde5979cb4b57b04a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9c11f5a2b754766d51f47c87cb11e334f8755dea
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990121"
+ms.locfileid: "21063681"
 ---
 # <a name="high-availability-planning-tool"></a>Hohe Verfügbarkeit (Planungstool)
  

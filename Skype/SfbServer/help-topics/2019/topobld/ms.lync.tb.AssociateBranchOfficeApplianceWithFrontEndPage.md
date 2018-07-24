@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
+ROBOTS: NOINDEX, NOFOLLOW
 description: Wählen Sie einen Front-End-Pool oder Standard Edition-Server, auf der Seite Front-End-Pool auswählen den Survivable Branch Appliance oder einen Survivable Branch Server zuordnen, um den Front-End-Pool oder Standard Edition-Server aus der Dropdownliste Front-End-Pool aus. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 9677100188aa040fa4ce034257518840e7dbf6e2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 44c608fbe8a430f8c917020b8a397eccc6a460a4
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969414"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060770"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Zuordnen der Branch Office Appliance Front-End
  

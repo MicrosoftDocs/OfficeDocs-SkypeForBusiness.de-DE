@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Bearbeiten der Eigenschaften für einen A / V-Konferenzserver-Pool, die Sie bereits definiert haben, gehen Sie folgendermaßen vor:'
-ms.openlocfilehash: 1d9222b895d9df025519c2e7ad01f37757f2ed68
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9bbdeb4d03971884d6a68ed858da94912f2f6911
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991494"
+ms.locfileid: "21069554"
 ---
 # <a name="av-mcu-settings-expander"></a>A/v MCU – Erweiterung
  

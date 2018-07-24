@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
+ROBOTS: NOINDEX, NOFOLLOW
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: e6b20c1050630507bf48fbfc075dcf182a30fe91
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 002d893ce2512d908203cd19cf00df099dc5d87d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007252"
+ms.locfileid: "21060423"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Veröffentlichen der Topologie – Seite Spiegelung erstellen
  

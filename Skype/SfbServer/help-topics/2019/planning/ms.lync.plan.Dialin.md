@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
+ROBOTS: NOINDEX, NOFOLLOW
 description: Skype für einwahlkonferenzen Business Server ermöglicht Benutzern, die Audiodaten in der eine Skype für Business Server Konferenz beitreten, indem Sie mit einem Telefon ein public switched Telephone Network, (PSTN) ohne einen Drittanbieter-Audiokonferenzen.
-ms.openlocfilehash: 0b9534e68d3cfaf5638f076b7d53cedf1ec51a19
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 86d52085023bc9600f794a63d47f86f6df161d61
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049205"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057806"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Einwahlkonferenzen Sie (Planungstool)
  
