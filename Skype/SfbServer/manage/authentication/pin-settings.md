@@ -1,46 +1,46 @@
 ---
-title: Verwalten der PIN-Einstellungen in Skype for Business Server 2015
+title: Verwalten von PIN-Einstellungen in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
-description: 'Zusammenfassung: Verwalten von PIN-Einstellungen in Skype für Business Server 2015.'
-ms.openlocfilehash: 62b3c4f81b874cf5b635a89aba1946e61613c065
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Verwalten von PIN-Einstellungen in Skype für Business Server.'
+ms.openlocfilehash: 4c5d9ac081256230ea4699bcbf03ee71a8d1a712
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965653"
 ---
-# <a name="manage-pin-settings-in-skype-for-business-server-2015"></a>Verwalten der PIN-Einstellungen in Skype for Business Server 2015
+# <a name="manage-pin-settings-in-skype-for-business-server"></a>Verwalten von PIN-Einstellungen in Skype für Business Server
  
-**Zusammenfassung:** Verwalten von PIN-Einstellungen in Skype für Business Server 2015.
+**Zusammenfassung:** Verwalten von PIN-Einstellungen in Skype für Business Server.
   
-Verwenden Sie die Verfahren zum Verwalten von PINs in Skype für Business Server 2015 in den folgenden Abschnitten.
+Verwenden Sie die Verfahren in den folgenden Abschnitten PINs in Skype für Business Server verwalten.
   
-Sie können Skype Business Server 2015 PIN von Skype Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell Richtlinien verwalten. Wenden Sie zum Konfigurieren von PIN-Richtlinien für Ihre Organisation die folgenden Verfahren an.
+Sie können Skype Business Server PIN von Skype Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell Richtlinien verwalten. Wenden Sie zum Konfigurieren von PIN-Richtlinien für Ihre Organisation die folgenden Verfahren an.
   
-- [Anzeigen von PIN-Richtlinieninformationen in Skype für Business Server 2015](view-pin-policy-information.md)
+- [Anzeigen von PIN-Richtlinieninformationen in Skype für Business Server](view-pin-policy-information.md)
     
-- [Erstellen einer neuen PIN-Richtlinie in Skype für Business Server 2015](create-a-new-pin-policy.md)
+- [Erstellen Sie eine neue PIN-Richtlinie in Skype für Business Server](create-a-new-pin-policy.md)
     
-- [Ändern einer vorhandenen PIN-Richtlinie in Skype für Business Server 2015](modify-an-existing-pin-policy.md)
+- [Ändern einer vorhandenen PIN-Richtlinie in Skype für Business Server](modify-an-existing-pin-policy.md)
     
-- [Löschen Sie eine PIN-Richtlinie in Skype für Business Server 2015](delete-a-pin-policy.md)
+- [Löschen Sie eine PIN-Richtlinie in Skype für Business Server](delete-a-pin-policy.md)
     
-- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server 2015](assign-a-per-user-pin-policy.md)
+- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server](assign-a-per-user-pin-policy.md)
     
 Verwenden Sie die folgenden Verfahren, um einwahlkonferenzen Pins der Benutzer festzulegen aus dem Abschnitt **Benutzer** Skype Business Server-Systemsteuerung zu verwalten.
   
-- [Einrichten eines Benutzers einwahlkonferenzen PIN in Skype für Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+- [Einrichten eines Benutzers einwahlkonferenzen PIN in Skype für Business Server](set-a-user-s-dial-in-conferencing-pin.md)
     
-- [Benutzer anzeigen PIN-Informationen in Skype Business Server 2015](view-user-pin-information.md)
+- [Benutzer anzeigen PIN-Informationen in Skype Business Server](view-user-pin-information.md)
     
-- [Sperren oder Entsperren einer Benutzer-PIN in Skype für Business Server 2015](lock-or-unlock-a-user-pin.md)
+- [Sperren oder Entsperren einer Benutzer-PIN in Skype für Business Server](lock-or-unlock-a-user-pin.md)
     
 

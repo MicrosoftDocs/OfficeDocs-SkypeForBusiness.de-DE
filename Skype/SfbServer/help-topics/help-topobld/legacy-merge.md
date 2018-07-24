@@ -3,7 +3,7 @@ title: Legacyzusammenführung –
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: Der externe FQDN Webkonferenzen ermöglicht externe Benutzern lokale-Besprechungen teilnehmen. Geben Sie den vollqualifizierten Domänennamen (FQDN) der Web Conferencing externen Schnittstelle der Edgeserver der Vorversion.
-ms.openlocfilehash: 09bba6fa5532e85572a1272fde59dc0a1f7a9c1e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: dfc43fe809f9a2c04060f33cf2e8028071103a57
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966094"
 ---
 # <a name="legacy-merge"></a>Legacyzusammenführung –
  

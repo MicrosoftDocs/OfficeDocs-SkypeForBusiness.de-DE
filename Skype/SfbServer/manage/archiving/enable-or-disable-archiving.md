@@ -1,24 +1,24 @@
 ---
-title: 'Skype for Business Server 2015: Archivierung aktivieren oder deaktivieren'
+title: Aktivieren Sie oder deaktivieren Sie der Archivierung in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: 'Zusammenfassung: Informationen Sie zum Aktivieren oder Deaktivieren der Archivierung in Skype für Business Server 2015.'
-ms.openlocfilehash: ef4e24025d0f1c27b0249b4ea237a579882e74c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Aktivieren oder Deaktivieren der Archivierung in Skype für Business Server.'
+ms.openlocfilehash: a0d32a3bacb604c326db13034bf5315c7f3d4d99
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965891"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server-2015"></a>Skype for Business Server 2015: Archivierung aktivieren oder deaktivieren
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Aktivieren Sie oder deaktivieren Sie der Archivierung in Skype für Business Server
 
-**Zusammenfassung:** Informationen Sie zum Aktivieren oder Deaktivieren der Archivierung in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Aktivieren oder Deaktivieren der Archivierung in Skype für Business Server.
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>Aktivieren oder Deaktivieren der Archivierung mithilfe der Systemsteuerung
 
