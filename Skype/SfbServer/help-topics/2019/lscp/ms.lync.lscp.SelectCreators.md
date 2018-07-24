@@ -3,7 +3,6 @@ title: Auswählen von Erstellern
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,44 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
+ROBOTS: NOINDEX, NOFOLLOW
 description: Erstellen und Verwalten von Chatrooms für beständigen Chat ist wesentlich einfacher mit die richtige Verwendung von Kategorien. Ein Persistent Chat Administrator kann das Definieren von AllowedMembers und Creators für jede Kategorie, und kann auch definieren, die Standardeinstellungen für die Chatroom und Verhaltensweisen, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Persistente Chat-Administratoren erstellen und Verwalten von Kategorien mithilfe von Skype für Business Server-Systemsteuerung oder Windows PowerShell-Cmdlets.
-ms.openlocfilehash: 91ad59a0bfc42fb354bee4de59e018accfe1b594
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 07c8344d59ff128a689017362a78153cbeb94cc4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020696"
 ---
-# <a name="select-creators"></a><span data-ttu-id="0178d-105">Auswählen von Erstellern</span><span class="sxs-lookup"><span data-stu-id="0178d-105">Select Creators</span></span>
- 
-<span data-ttu-id="0178d-106">Erstellen und Verwalten von Chatrooms für beständigen Chat ist wesentlich einfacher mit die richtige Verwendung von Kategorien.</span><span class="sxs-lookup"><span data-stu-id="0178d-106">Creating and managing Persistent Chat rooms is much easier with the correct use of categories.</span></span> <span data-ttu-id="0178d-107">Ein Persistent Chat Administrator kann das Definieren von **AllowedMembers** und **Creators** für jede Kategorie, und kann auch definieren, die Standardeinstellungen für die Chatroom und Verhaltensweisen, die auf alle in der Kategorie erstellten Chatrooms angewendet werden.</span><span class="sxs-lookup"><span data-stu-id="0178d-107">A Persistent Chat administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category.</span></span> <span data-ttu-id="0178d-108">Persistente Chat-Administratoren erstellen und Verwalten von Kategorien mithilfe von Skype für Business Server-Systemsteuerung oder Windows PowerShell-Cmdlets.</span><span class="sxs-lookup"><span data-stu-id="0178d-108">Persistent Chat administrators create and manage categories by using Skype for Business Server Control Panel or Windows PowerShell cmdlets.</span></span>
-  
-## <a name="tasks-that-you-can-perform"></a><span data-ttu-id="0178d-109">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="0178d-109">Tasks that you can perform</span></span>
+# <a name="select-creators"></a><span data-ttu-id="d015e-105">Auswählen von Erstellern</span><span class="sxs-lookup"><span data-stu-id="d015e-105">Select Creators</span></span>
 
-<span data-ttu-id="0178d-110">Auf der Seite **Ersteller auswählen** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="0178d-110">You can perform the following tasks on the **Select Creators** page:</span></span>
-  
-- [<span data-ttu-id="0178d-111">Konfigurieren von Kategorien</span><span class="sxs-lookup"><span data-stu-id="0178d-111">Configure Categories</span></span>](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [<span data-ttu-id="0178d-112">Neue Features für Persistent Chat Server</span><span class="sxs-lookup"><span data-stu-id="0178d-112">New Persistent Chat Server Features</span></span>](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
-    
-<span data-ttu-id="0178d-113">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="0178d-113">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
-  
-## <a name="to-configure-categories-for-chat-rooms"></a><span data-ttu-id="0178d-114">So konfigurieren Sie Kategorien für Chatrooms</span><span class="sxs-lookup"><span data-stu-id="0178d-114">To configure categories for chat rooms</span></span>
-
-<span data-ttu-id="0178d-115">**Die Mitgliedschaft**in den Abschnitt **Ersteller** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Prinzipale Ersteller für die Kategorie zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="0178d-115">In **Membership**, in the **Creators** section, add or remove users and other Active Directory principals associated with creators for the category.</span></span> <span data-ttu-id="0178d-116">Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.</span><span class="sxs-lookup"><span data-stu-id="0178d-116">A creator is a user who has permissions to create chat rooms and assign chat room managers and members.</span></span>
-  
-### 
-
-<span data-ttu-id="0178d-117">Ausführliche Informationen zur Persistent Chat Server-Features und Funktionen finden Sie unter [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="0178d-117">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="0178d-118">Ausführliche Informationen zur Verwendung von Persistent Chat Server-Konfigurationen finden Sie unter [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in der Dokumentation zur Bereitstellung und [Verwaltung von Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="0178d-118">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="0178d-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0178d-119">See also</span></span>
-
-#### 
-
-[<span data-ttu-id="0178d-120">Grundlegendes zur Persistent Chat-Mitgliedschaft</span><span class="sxs-lookup"><span data-stu-id="0178d-120">Understanding Persistent Chat Membership</span></span>](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-  
-[<span data-ttu-id="0178d-121">Verwenden von Kategorien zur Verwaltung von Persistent Chatserver</span><span class="sxs-lookup"><span data-stu-id="0178d-121">Using Categories to Administer Persistent Chat Server</span></span>](http://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
-  
-[<span data-ttu-id="0178d-122">Verschieben eines Chatrooms aus einer Kategorie in eine andere</span><span class="sxs-lookup"><span data-stu-id="0178d-122">Moving a Chat Room from One Category to Another</span></span>](http://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
-  
-[<span data-ttu-id="0178d-123">Erstellen oder Bearbeiten eines neuen Raums</span><span class="sxs-lookup"><span data-stu-id="0178d-123">Creating or Editing a New Room</span></span>](http://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)
-
+> [!NOTE] 
+> <span data-ttu-id="d015e-106">Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="d015e-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="d015e-107">Die gleiche Funktionalität ist in Teams verfügbar.</span><span class="sxs-lookup"><span data-stu-id="d015e-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="d015e-108">Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="d015e-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="d015e-109">Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.</span><span class="sxs-lookup"><span data-stu-id="d015e-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
