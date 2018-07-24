@@ -1,24 +1,24 @@
 ---
-title: Ordnen Sie einer Spiegeldatenbank in Skype für Business Server 2015 Überwachungsberichte
+title: Ordnen Sie einer Spiegeldatenbank in Skype für Business Server Überwachungsberichte
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 'Zusammenfassung: Erfahren Sie, wie eine Spiegeldatenbank wird von Skype für Business Server 2015 Überwachungsberichte zugeordnet.'
-ms.openlocfilehash: 246f16fd54133e2a6cf1e26a8126d0ec546bd686
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie eine Spiegeldatenbank wird von Skype für Business Server Überwachungsberichte zugeordnet.'
+ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000771"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server-2015"></a>Ordnen Sie einer Spiegeldatenbank in Skype für Business Server 2015 Überwachungsberichte
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Ordnen Sie einer Spiegeldatenbank in Skype für Business Server Überwachungsberichte 
  
-**Zusammenfassung:** Hier erfahren Sie, wie eine Spiegeldatenbank wird von Skype für Business Server 2015 Überwachungsberichte zugeordnet.
+**Zusammenfassung:** Hier erfahren Sie, wie eine Spiegeldatenbank wird von Skype für Business Server Überwachungsberichte zugeordnet.
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Überwachungsberichte mit einer Spiegeldatenbank
 
@@ -66,9 +66,6 @@ Damit die Überwachungsberichte ein automatisches Failover zur Spiegeldatenbank 
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Installieren von Überwachungsberichten in Skype für Business Server 2015](install-monitoring-reports.md)
+[Installieren von Überwachungsberichten in Skype für Business Server](install-monitoring-reports.md)
   
-[Verwenden von Überwachungsberichten in Skype für Business Server 2015](../../manage/health-and-monitoring/monitoring-reports.md)
-
+[Verwenden von Überwachungsberichten in Skype für Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

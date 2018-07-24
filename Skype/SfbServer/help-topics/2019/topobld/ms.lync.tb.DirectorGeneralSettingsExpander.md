@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 47eddf9761c9751960f887c173521587c4e6c54a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fb42d87140b3a4db2cef0bb70a976d1b9242bbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971341"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003413"
 ---
 # <a name="director-general-settings-expander"></a>Allgemeine Director Einstellungen – Erweiterung
  
@@ -26,9 +26,8 @@ Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden in den f
     
 - Webdienste
     
-## 
 
-### <a name="general-settings"></a>Allgemeine Einstellungen
+## <a name="general-settings"></a>Allgemeine Einstellungen
 
 Vollqualifizierter Domänenname (FQDN) des Director-Pools. Bearbeiten Sie den FQDN des Servers, um den Wert zu ändern. Sie müssen über einen DNS-A-Eintrag (Domain Name System) verfügen, der mit dem neuen Wert übereinstimmt.
   
@@ -41,7 +40,7 @@ Dateifreigabe für den Director-Pool verwenden. Wählen Sie eine vorhandene Date
 > [!IMPORTANT]
 > Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein. Wenn Sie eine neue Dateifreigabe erstellt haben, muss die Dateifreigabe auf dem Server erstellt werden, die Sie festlegen. 
   
-### <a name="web-services"></a>Webdienste
+## <a name="web-services"></a>Webdienste
 
 Zum Bearbeiten, oder geben Sie zusätzliche Einstellungen für die Webdienste im Director-Pool, ändern oder Angeben von Einstellungen in der internen und externen Webdiensten.
   
@@ -50,7 +49,7 @@ Für die **interne Webdienste** können Sie Folgendes angeben:
 > [!CAUTION]
 > Wenn Sie mehrere Front-End-Pool oder Front-End-Server verfügen muss die externen Webdienste FQDN eindeutig sein. Wenn Sie die externen Webdienste-FQDN des Front-End-Server als **"pool01.contoso.com"** definieren, können nicht Sie beispielsweise **"pool01.contoso.com"** für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Director-Server bereitstellen, die externe Webdienste-FQDN für alle Director definierten oder Director-Pool muss aus einem anderen eindeutig sein Director oder Director-Pools sowie alle Front-End-Pool oder Front-End-Server Wenn Sie die internen Webdienste mit einem selbstdefinierten FQDN überschreiben möchten, muss jeder FQDN eines anderen Front-End-Pools, Director oder Director-Pool eindeutig sein.
   
-Wenn Sie den FQDN überschreiben auswählen, können Sie einen unterschiedlichen FQDN für die Identität der interne Web Services auf den Pool angeben. Standardmäßig ist die Einstellung der aktuellen Poolname für den Director-Pool definiert wurden.
+Wenn Sie Vollqualifizierten Domänennamen außer Kraft setzen auswählen, können Sie einen anderen FQDN für die Identität Interne Webdienste im Pool angeben. Standardmäßig ist die Einstellung der aktuellen Poolname für den Director-Pool definiert wurden.
   
 Sie können überwachen und veröffentlichten Ports angeben, für HTTP und HTTPS, die Ihre Bereitstellung erforderlich sind. Die Standardeinstellung von Port 80 für HTTP und Port 443 für HTTPS sind die am häufigsten verwendeten Einstellungen und müssen in der Regel nicht geändert werden, wenn Sie spezifische Anforderungen innerhalb Ihrer Organisation und den Entwurf der Infrastruktur für verfügen.
   

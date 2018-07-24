@@ -1,31 +1,31 @@
 ---
-title: Verwalten der Archivierung in Skype for Business Server 2015
+title: Verwalten der Archivierung in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
-description: 'Zusammenfassung: Informationen Sie zum Verwalten der Archivierung für Skype für Business Server 2015.'
-ms.openlocfilehash: fb8359d47b1933e2575685bc532d69e6b9bb6c45
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Verwalten der Archivierung für Skype für Business Server.'
+ms.openlocfilehash: 3044ad4bd8c5b551d5cc43c2d3f6ae9b111c7ca6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008075"
 ---
-# <a name="manage-archiving-in-skype-for-business-server-2015"></a>Verwalten der Archivierung in Skype for Business Server 2015
+# <a name="manage-archiving-in-skype-for-business-server"></a>Verwalten der Archivierung in Skype für Business Server
 
-**Zusammenfassung:** Informationen Sie zum Verwalten der Archivierung für Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Verwalten der Archivierung für Skype für Business Server.
   
 Die ursprüngliche Konfiguration wird beim Bereitstellen der Archivierung in Ihrer Organisation vorgenommen. Zu einem späteren Zeitpunkt kann es jedoch wünschenswert oder notwendig sein, die Implementierung der Archivierungsunterstützung an alltägliche Verwaltungsvorgänge oder neue Herausforderungen anzupassen. Beispielsweise kann es sein, dass Sie die Archivierungsunterstützung für einen bestimmten Standort, einen bestimmten Pool oder bestimmte Benutzer in Ihrer Organisation verändern müssen. Für Benutzer in Skype für Business Server verwaltet werden, Sie zu diesem Zweck erstellen und Anpassen von Archivierungsoptionen für Konfiguration und Benutzerrichtlinien. 
   
-Bevor Sie dieses Thema lesen, sollten Sie darauf achten Sie, dass Sie mit den Informationen im [für die Archivierung in Skype für Business Server 2015 planen](../../plan-your-deployment/archiving/archiving.md) und [Bereitstellen Archivierung für Skype für Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)vertraut sind.
+Bevor Sie dieses Thema lesen, sollten Sie darauf achten Sie, dass Sie mit den Informationen im [für die Archivierung in Skype für Business Server planen](../../plan-your-deployment/archiving/archiving.md) und [Bereitstellen Archivierung für Skype für Business Server](../../deploy/deploy-archiving/deploy-archiving.md)vertraut sind.
   
 > [!NOTE]
-> Wenn Sie für Ihre Bereitstellung die Microsoft Exchange-Integration aktiviert haben, wird mithilfe von Exchange-Richtlinien gesteuert, ob die Archivierung für die Benutzer aktiviert ist, die Exchange zugeordnet sind und deren Postfächer im Compliance-Archiv platziert sind. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../plan-your-deployment/archiving/archiving.md) und [Integration mit Exchange-Speicher für Skype für Business Server 2015 konfigurieren](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Wenn Sie für Ihre Bereitstellung die Microsoft Exchange-Integration aktiviert haben, wird mithilfe von Exchange-Richtlinien gesteuert, ob die Archivierung für die Benutzer aktiviert ist, die Exchange zugeordnet sind und deren Postfächer im Compliance-Archiv platziert sind. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server](../../plan-your-deployment/archiving/archiving.md) und [Integration mit Exchange-Speicher für Skype für Business Server konfigurieren](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="archiving-configuration-options"></a>Optionen für die Archivierungskonfiguration
 
@@ -43,7 +43,7 @@ Mit den Optionen für die Archivierungskonfiguration können Sie Folgendes festl
     
 - Löschen und Exportieren von Daten einrichten
     
-Diese Optionen können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Manage Archivierungsoptionen in Skype für Business Server 2015](options.md).
+Diese Optionen können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Archivierungsoptionen in Skype für Business Server verwalten](options.md).
   
 ## <a name="archiving-policies"></a>Archivierungsrichtlinien
 
@@ -53,11 +53,11 @@ Archivierungsrichtlinien bestimmen, ob die folgenden archiviert:
     
 - Externe Kommunikation
     
-Diese Richtlinien können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsrichtlinien in Skype für Business Server 2015](policies.md).
+Diese Richtlinien können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsrichtlinien in Skype für Business Server](policies.md).
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>Archivierungsverwaltung mithilfe der Systemsteuerung oder von Windows-PowerShell
 
-Sie können die Archivierung mit der Systemsteuerung oder Windows-PowerShell verwalten. In der folgenden Tabelle finden Sie einen Überblick über die zur Archivierungsverwaltung verfügbaren Cmdlets. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md). 
+Sie können die Archivierung mit der Systemsteuerung oder Windows-PowerShell verwalten. In der folgenden Tabelle finden Sie einen Überblick über die zur Archivierungsverwaltung verfügbaren Cmdlets. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter finden Sie unter [Skype für Business Server-Verwaltungsshell](../management-shell.md). 
 
 
 |**Cmdlet**|**Beschreibung**|

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
-description: Um eine Anfrage zu senden, erfordern das Zertifizierungsstelle (CA) Anmeldeinformationen als derjenigen, die für den Benutzer, die Sie derzeit als angemeldet sind. Um eine Anforderung als anderer Benutzer zu ermöglichen, wählen Sie die Kontrollkästchen geben Sie alternativen Anmeldeinformationen für die Zertifizierungsstelle, und geben Sie den Benutzernamen oder Domäne\Benutzername für einen Benutzer, der das Zertifikat anfordern kann. Geben Sie in das Textfeld Kennwort das Kennwort für den Benutzer, den Sie angegeben haben. Den Benutzernamen und das Kennwort werden dann als Teil der zertifikatanforderung ab, jedoch nicht in die tatsächliche zertifikatanforderung an einer Onlinezertifizierungsstelle gesendet.
-ms.openlocfilehash: e4f2f4576fc621bf0409b461b2b51ae9983760f3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Um eine Anfrage zu senden, erfordern das Zertifizierungsstelle (CA) Anmeldeinformationen als derjenigen, die für den Benutzer, die Sie derzeit als angemeldet sind.
+ms.openlocfilehash: 5dba120d79cda59babb4f4e3dc3854c6c40083fd
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974950"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016774"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Zertifikatanforderung (Zertifizierungsstellenkonto)
  

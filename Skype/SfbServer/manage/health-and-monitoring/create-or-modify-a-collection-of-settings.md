@@ -1,32 +1,32 @@
 ---
-title: Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für die Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server 2015
+title: Erstellen oder Ändern einer Auflistung von KDS-Konfigurationseinstellungen in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: 'Zusammenfassung: Erfahren Sie mehr über die Aufzeichnung von kommunikationsdatensätzen (KDS) in Skype für Business Server 2015.'
-ms.openlocfilehash: 9861c3e2fba0f601e47e093a664999052d128f95
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über die Aufzeichnung von kommunikationsdatensätzen (KDS) in Skype für Business Server.'
+ms.openlocfilehash: f1bbf12f3766156b5f30ef3f2760669791e8c4c0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970372"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server-2015"></a>Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für die Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server 2015
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Erstellen oder Ändern einer Auflistung von KDS-Konfigurationseinstellungen in Skype für Business Server
  
-**Zusammenfassung:** Lernen Sie die Aufzeichnung von kommunikationsdatensätzen (KDS) in Skype für Business Server 2015.
+**Zusammenfassung:** Lernen Sie die Aufzeichnung von kommunikationsdatensätzen (KDS) in Skype für Business Server aus.
   
 Die Funktion zum Aufzeichnen von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfolgen von Peer-to-Peer-, VoIP- und Konferenzanrufen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.
   
-Bei der Installation von Skype für Business Server 2015 Single-Wert ist die globale Auflistung von KDS-Konfigurationseinstellungen für Sie erstellt. Administratoren haben auch die Möglichkeit, benutzerdefinierte Einstellungen für die Standortebene zu erstellen. Wenn diese Einstellungen auf Standortebene verwendet werden, haben sie Vorrang vor den globalen Einstellungen. Wenn Sie beispielsweise Einstellungen auf Standortebene für den Standort „Redmond“ erstellen, werden diese Einstellung (anstelle der globalen Einstellungen) für die KDS-Verwaltung in Redmond verwendet.
+Bei der Installation von Skype für Business Server Single-Wert ist die globale Auflistung von KDS-Konfigurationseinstellungen für Sie erstellt. Administratoren haben auch die Möglichkeit, benutzerdefinierte Einstellungen für die Standortebene zu erstellen. Wenn diese Einstellungen auf Standortebene verwendet werden, haben sie Vorrang vor den globalen Einstellungen. Wenn Sie beispielsweise Einstellungen auf Standortebene für den Standort „Redmond“ erstellen, werden diese Einstellung (anstelle der globalen Einstellungen) für die KDS-Verwaltung in Redmond verwendet.
   
 Sie können KDS-Konfigurationseinstellungen mithilfe von entweder Skype für Business Server-Systemsteuerung oder [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) -Cmdlet erstellen. Skype für Business Server-Systemsteuerung oder [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) -Cmdlet können Sie die vorhandene Einstellungen ändern. Wenn Sie zum Erstellen oder Ändern der Einstellungen für die Business Server-Systemsteuerung Skype verwenden, werden die folgenden Optionen zur Verfügung:
   
-|**UI-Einstellung**|**PowerShell-parameter**|**Beschreibung**|
+|**Benutzeroberflächeneinstellung**|**PowerShell-Parameter**|**Beschreibung**|
 |:-----|:-----|:-----|
 |Name  <br/> |Identität  <br/> |Eindeutiger Bezeichner für die KDS-Konfigurationseinstellungen, die erstellt werden. Diese Einstellungen können nur auf der Standortebene erstellt werden.  <br/> |
 |Überwachung von KDS-Aufzeichnungen aktivieren  <br/> |EnableCDR  <br/> |Gibt an, ob KDS aktiviert ist.  <br/> |

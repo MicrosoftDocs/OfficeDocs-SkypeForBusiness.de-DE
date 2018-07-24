@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Gerät Skype Raum Systemen v2, einschließlich eines benutzerdefinierten Designs verwendet.
-ms.openlocfilehash: a83416eb36f63391cdcf210e4fffb711c810d440
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015599"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Verwalten einer Skype Room Systems v2-Konsoleneinstellung auf einem Remote-Gerät mit einer XML-Konfigurationsdatei
  
@@ -60,7 +61,6 @@ In der folgenden Tabelle wird erläutert, die Elemente in diesem Beispiel SkypeS
          </CustomThemeColor>
   </Theming>
 </SkypeSettings>
-
 ```
 
 Wenn die XML-Datei falsch formatiert wurde (Elemente sind nicht funktionsfähig, Elemente werden nicht geschlossene, d. h., den Wert ein variabler vom falschen Typ ist, usw.), bis zu dem Punkt, auf dem der Fehler gefunden wird, gefunden Einstellungen angewendet werden, wird der Rest der Datei während der Verarbeitung ignoriert. Alle unbekannten Elemente in der XML-Code werden ignoriert. Wenn Parameter ausgelassen wird, wird es auf dem Gerät nicht geändert. Wenn der Wert des Parameters ungültig ist, unverändert der vorherige Wert.
@@ -105,7 +105,7 @@ Wenn die XML-Datei falsch formatiert wurde (Elemente sind nicht funktionsfähig,
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Verwalten von Konsoleneinstellungen unter Verwendung einer XML-Konfigurationsdatei
 
-Beim Start eine Skype Raum Systemen v2 Konsole findet eine XML-Datei mit dem Namen SkypeSettings.xml an der Position ** C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, anschließend wird der Konfigurationseinstellungen für den angegebenen angewendet Löschen Sie dann die XML-Datei, indem der XML-Datei.
+Beim Start eine Skype Raum Systemen v2 Konsole findet eine XML-Datei mit dem Namen SkypeSettings.xml an der Position **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, wird die Konfigurationseinstellungen angewendet durch die XML-Datei und klicken Sie dann Löschen der XML-Datei angegeben wird.
   
 Je nach wie vielen Geräten von Skype Raum Systemen v2 Ihr Unternehmen hat und wie verwalten sie konfiguriert werden soll, es gibt eine Reihe von Methoden, um die XML-Konfigurationsdatei zu platzieren. Sobald die Datei  in die Konsole verschoben wurde, starten Sie das Gerät, um die Konfigurationsänderungen zu verarbeiten. Die XML-Datei wird nach erfolgreicher Verarbeitung entfernt. Die Management-Methoden für Skype Raum Systemen v2 Geräte vorgeschlagen werden in erläutert:
   
@@ -127,9 +127,6 @@ Die XML-Konfigurationsdatei muss beim Starten des Geräts aktualisiert werden, d
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="Themes"> </a>
 
-#### 
-
-[Verwalten von Skype Raum Systemen v2](skype-room-systems-v2.md)
+[Verwalten von Skype Room Systems v2](skype-room-systems-v2.md)
 
 [Konfigurieren eines Dateielements für](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
-

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 642e71aed428326140dd72646426f833c8d760b7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 601350dc96da80e04bccb975572b7655dc3c3e52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964583"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987691"
 ---
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
  
@@ -28,23 +28,22 @@ Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Server
     
 - Edgeserver-Konfiguration
     
-## 
 
-### <a name="general-settings"></a>Allgemeine Einstellungen
+## <a name="general-settings"></a>Allgemeine Einstellungen
 
 Vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools für den Edgeserverpool. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.
   
-Aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen edgepool (Port 5061) aktivieren** , wenn Sie einen Verbund mit einem Lync Server 2013, Microsoft Lync Server 2010 oder Microsoft Office Communications Server 2007 R2 vertrauenswürdigen Partner einrichten möchten.
+Aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen edgepool (Port 5061) aktivieren** , wenn Sie einen Verbund mit einem vertrauenswürdigen Partner für Lync Server 2013, Microsoft Lync Server 2010 oder Microsoft Office Communications Server 2007 R2 eingerichtet werden.
   
 Wählen Sie **XMPP-Partnerverbund für diesen Edgepool aktivieren** aus, um den XMPP-Partnerverbund zu aktivieren.
   
 Geben Sie die Portnummer unter **Interner Port für die Konfigurationsreplikation (HTTPS)** an.
   
-### <a name="next-hop-selection-settings"></a>Einstellungen für nächsten Hop
+## <a name="next-hop-selection-settings"></a>Einstellungen für nächsten Hop
 
 Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus dem Dropdown-Listenfeld aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll. Nur Directors oder -Front-Ends, die im Topologie-Generator konfiguriert wurden, wird für die Auswahl angezeigt.
   
-### <a name="edge-server-configuration"></a>Edgeserver-Konfiguration
+## <a name="edge-server-configuration"></a>Edgeserver-Konfiguration
 
 Um die externen Einstellungen**** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst festlegen, ob separate IP-Adressen für den SIP-Zugriff, die Webkonferenzfunktion und den A/V-Dienst verwendet werden.
   
@@ -60,7 +59,7 @@ Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige 
 > [!IMPORTANT]
 > Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen. 
   
-### 
+## <a name="see-also"></a>Siehe auch 
 
 Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
   

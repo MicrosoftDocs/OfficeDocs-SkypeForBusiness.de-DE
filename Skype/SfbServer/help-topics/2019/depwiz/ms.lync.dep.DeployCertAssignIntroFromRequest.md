@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
-description: Die Seite Zertifikatzuweisung startet die angeforderten Verwendungen auf dem Server für die Rolle ein Zertifikat zuweisen. Klicken Sie auf das Zertifikat-Details anzeigen, um das Zertifikat anzuzeigen. Wählen Sie die Registerkarte Allgemein, auf der Registerkarte Details oder die Registerkarte Zertifizierungspfad. Die Registerkarte Allgemein zeigt grundlegende Informationen über das Zertifikat, wie die ausstellende Zertifizierungsstelle und den Status eines privaten Schlüssels. Auf der Registerkarte „Details“ werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Die Registerkarte Zertifizierungspfad zeigt die Certificatechain des Trustfrom das Zertifikat über alle ausstellenden oder intermediate Zertifizierungsstellen (Wenn sie vorhanden sind) für das Stammzertifikat der Zertifizierungsstelle.
-ms.openlocfilehash: 22a1a2762e0bde715d41e45f042b1318600666cc
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Auf der Seite Zertifikatzuweisung beginnt der Prozess der Zuweisung eines Zertifikats für die angeforderten Zwecke auf dem Server. Klicken Sie auf Zertifikatdetails anzeigen, um das Zertifikat anzuzeigen. Wählen Sie die Registerkarte Allgemein, auf der Registerkarte Details oder die Registerkarte Zertifizierungspfad. Die Registerkarte Allgemein zeigt grundlegende Informationen über das Zertifikat, wie die ausstellende Zertifizierungsstelle und den Status eines privaten Schlüssels. Auf der Registerkarte „Details“ werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Die Registerkarte Zertifizierungspfad zeigt die Certificatechain des Trustfrom das Zertifikat über alle ausstellenden oder intermediate Zertifizierungsstellen (Wenn sie vorhanden sind) für das Stammzertifikat der Zertifizierungsstelle.
+ms.openlocfilehash: 39c1a7abbc4bab8761dc96b614a962a06ffc07c4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969568"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997837"
 ---
 # <a name="certificate-assignment-from-request"></a>Zertifikatzuweisung (nach Anforderung)
  

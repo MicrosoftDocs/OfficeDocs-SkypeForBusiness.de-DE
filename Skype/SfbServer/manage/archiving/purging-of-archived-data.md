@@ -1,28 +1,28 @@
 ---
-title: Verwalten der Bereinigung archivierter Daten in Skype for Business Server 2015
+title: Verwalten der Löschung von archivierten Daten in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: 'Zusammenfassung: Informationen Sie zum Verwalten der Löschung von archivierten Daten für Skype für Business Server 2015.'
-ms.openlocfilehash: caeddcd927c20f0622cbd45b6d93abb2bf5d6618
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Verwalten der Löschung von archivierten Daten für Skype für Business Server.'
+ms.openlocfilehash: fce7c8214eddd55736a54b960d57053a88cdc859
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997944"
 ---
-# <a name="manage-purging-of-archived-data-in-skype-for-business-server-2015"></a>Verwalten der Bereinigung archivierter Daten in Skype for Business Server 2015
+# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Verwalten der Löschung von archivierten Daten in Skype für Business Server
 
-**Zusammenfassung:** Informationen Sie zum Verwalten der Löschung von archivierten Daten für Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Verwalten der Löschung von archivierten Daten für Skype für Business Server.
   
-Die Archivierungsdatenbank kann nicht für die langfristige Aufbewahrung und Skype für Business Server 2015 bietet keiner (Suche) e-Discovery-Lösung für archivierte Daten, damit Daten in einen anderen Speicher verschoben werden müssen. Skype für Business Server bietet eine Sitzung Exporttool, die Sie zum Exportieren von archivierter Daten in durchsuchbare Protokolle verwenden können. Sie müssen festlegen, wann archivierte und exportierte Daten gelöscht werden sollen. 
+Die Archivierungsdatenbank kann nicht für die langfristige Aufbewahrung und Skype für Business Server bietet keiner (Suche) e-Discovery-Lösung für archivierte Daten, damit Daten in einen anderen Speicher verschoben werden müssen. Skype für Business Server bietet eine Sitzung Exporttool, die Sie zum Exportieren von archivierter Daten in durchsuchbare Protokolle verwenden können. Sie müssen festlegen, wann archivierte und exportierte Daten gelöscht werden sollen. 
   
-Weitere Informationen zum Exportieren von Daten mithilfe des **Export-CsArchivingData** -Cmdlets finden Sie unter [Exportieren von archivierten Daten in Skype für Business Server 2015](export-archived-data.md).
+Weitere Informationen zum Exportieren von Daten mithilfe des **Export-CsArchivingData** -Cmdlets finden Sie unter [Exportieren von archivierten Daten in Skype für Business Server](export-archived-data.md).
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>Löschen von Daten über die Systemsteuerung
 
@@ -74,7 +74,7 @@ Setzen Sie zum Deaktivieren der automatischen Löschung archivierter Datensätze
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-Das folgende Beispiel verwendet das Cmdlet " **Invoke-CsArchivingDatabasePurge** ", um alle Datensätze aus der Archivierungsdatenbank auf Atl-Sql-001.contoso.com mehr als 24 Stunden bereinigen. Um sicherzustellen, dass alle Datensätze einschließlich Datensätze, die nicht exportiert wurden, gelöscht werden, wird der Parameter PurgeExportedArchivesOnly auf "false" ($False) festgelegt:
+Das folgende Beispiel verwendet das Cmdlet " **Invoke-CsArchivingDatabasePurge** ", um alle Datensätze aus der Archivierungsdatenbank auf Atl-Sql-001.contoso.com mehr als 24 Stunden bereinigen. Um sicherzustellen, dass alle Datensätze gelöscht werden (also auch Datensätze, die nicht exportiert wurden), wird der Parameter „PurgeExportedArchivesOnly“ auf „False“ ($False) festgelegt:
   
 ```
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

@@ -3,18 +3,19 @@ title: Ausführliche Informationen zur QoE-Tabelle
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: In diesen Abschnitten werden die Spalten der Tabellen Quality of Experience (QoE) Database Schema.
-ms.openlocfilehash: 692a453519d4e74c773e1c2e90f0c94c15998f66
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: eaf942c7eedbd8ab515ceb402435439f500dd7b4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016544"
 ---
 # <a name="qoe-table-details"></a>Ausführliche Informationen zur QoE-Tabelle
  
@@ -36,13 +37,13 @@ In diesen Abschnitten werden die Spalten der Tabellen Quality of Experience (QoE
     
 - [Conference-Tabelle](conference.md)
     
-- [Gerätentabelle](device.md)
+- [Device-Tabelle](device.md)
     
 - [DeviceDriver-Tabelle](devicedriver.md)
     
 - [Dialog-Tabelle](dialog.md)
     
-- [EndPoint-Tabelle](endpoint.md)
+- [Endpoint-Tabelle](endpoint.md)
     
 - [EndpointSubnet-Tabelle](endpointsubnet.md)
     
@@ -64,9 +65,9 @@ In diesen Abschnitten werden die Spalten der Tabellen Quality of Experience (QoE
     
 - [PurgeSettings-Tabelle (QoE)](purgesettings-qoe.md)
     
-- [Regionstabelle](region.md)
+- [Region-Tabelle](region.md)
     
-- [Server-Tabelle](server.md)
+- [Servertabelle](server.md)
     
 - [Session-Tabelle](session.md)
     
@@ -76,7 +77,7 @@ In diesen Abschnitten werden die Spalten der Tabellen Quality of Experience (QoE
     
 - [TraceRoute-Tabelle](traceroute.md)
     
-- [Benutzertabelle](user-0.md)
+- [User-Tabelle](user-0.md)
     
 - [UserAgent-Tabelle](useragent.md)
     

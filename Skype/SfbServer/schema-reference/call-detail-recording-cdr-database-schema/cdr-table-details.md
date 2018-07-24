@@ -3,18 +3,19 @@ title: KDS ausführliche Informationen zur Tabelle in Skype für Business Server
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: In den folgenden Themen werden die Spalten den Anruf Detail Datensätze (CDR) Database Schema Tabellen.
-ms.openlocfilehash: 36426f194219ecb8cf64e071eb40b24e9dc52bc3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 631a7ad4bd24dc5c41302f6f67ad97b6add0a490
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012437"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>KDS ausführliche Informationen zur Tabelle in Skype für Business Server 2015
  

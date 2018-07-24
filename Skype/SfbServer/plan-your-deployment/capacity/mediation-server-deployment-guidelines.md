@@ -1,9 +1,8 @@
 ---
-title: Richtlinien für die Vermittlungsserverbereitstellung in Skype for Business Server 2015
+title: Bereitstellungsrichtlinien für den Vermittlungsserver in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: In diesem Thema wird beschrieben, Planungsleitfäden für die Bereitstellung des Vermittlungsservers.
-ms.openlocfilehash: e1017e9fab43578fd3c10e8043c7dcc747d313b9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0e5568b93e0edb0b30bf3edf0893f5eb43ac8d19
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967933"
 ---
-# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server-2015"></a>Richtlinien für die Vermittlungsserverbereitstellung in Skype for Business Server 2015
+# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Bereitstellungsrichtlinien für den Vermittlungsserver in Skype für Business Server
  
 In diesem Thema wird beschrieben, Planungsleitfäden für die Bereitstellung des Vermittlungsservers.
   
@@ -39,7 +39,7 @@ Wenn Sie bereitgestellt PSTN-Gateways, IP-PBX-Anlagen oder Session Border Contro
     
 - Akzeptieren von Datenverkehr von einem beliebigen Vermittlungsserver in einem Pool.
     
-Können Sie die Microsoft Lync Server 2013, Planungstool für ausgewertet werden soll, ob die Verbindung des Vermittlungsservers mit den Front-End-Pool kann die Last verarbeiten. Wenn Ihre Umgebung diesen Anforderungen nicht erfüllen kann, müssen Sie einen eigenständigen vermittlungsserverpool bereitstellen.
+Die Skype für Business Planungstool können Sie ermitteln, ob die Verbindung des Vermittlungsservers mit den Front-End-Pool die Last verarbeiten kann. Wenn Ihre Umgebung diesen Anforderungen nicht erfüllen kann, müssen Sie einen eigenständigen vermittlungsserverpool bereitstellen.
   
 ## <a name="central-site-and-branch-site-considerations"></a>Überlegungen zum zentralen Standort und Zweigstellenstandort
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Zusammenfassung: Konfigurieren von Testbenutzerkonten und Watcher-Knoten-Einstellungen für Skype für synthetische Transaktionen Business Server.'
-ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569875"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989888"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Konfigurieren von Testbenutzern und Einstellungen für Monitorknoten
  
@@ -31,9 +31,9 @@ Nachdem Sie den Computer konfiguriert haben, der als Watcher-Knoten agieren wird
 ## <a name="configure-test-user-accounts"></a>Konfigurieren von Testbenutzerkonten
 <a name="testuser"> </a>
 
-Testkonten müssen keine tatsächliche Personen darstellen, jedoch muss es sich um gültige Active Directory-Konten. Darüber hinaus dieser Konten müssen für Skype für Business Server 2015 aktiviert werden, über eine gültige SIP-Adressen verfügen, und sie für Enterprise-VoIP (zur Verwendung von der synthetischen Transaktionsprotokolls Test-CsPstnPeerToPeerCall) aktiviert werden soll. 
+Testkonten müssen keine tatsächliche Personen darstellen, jedoch muss es sich um gültige Active Directory-Konten. Darüber hinaus dieser Konten müssen für Skype für Business Server aktiviert werden, über eine gültige SIP-Adressen verfügen, und sie für Enterprise-VoIP (zur Verwendung von der synthetischen Transaktionsprotokolls Test-CsPstnPeerToPeerCall) aktiviert werden soll. 
   
-Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind und wie bereits erwähnt konfiguriert werden. Sie sollten für jeden zu testenden Pool mindestens drei Testbenutzer zuweisen. Wenn Sie die Authentifizierungsmethode verhandeln verwenden, müssen Sie auch die Cmdlets "Set-cstestusercredential" verwenden, und die Skype für Business Server-Verwaltungsshell, um diese zu aktivieren Testkonten synthetischen Transaktionen entwickelt. Dazu führen einen Befehl ähnlich dem folgenden (diese Befehle wird davon ausgegangen, dass die folgenden drei Active Directory-Benutzerkonten erstellt wurden und dass diese Konten für Skype für Business Server 2015 aktiviert sind):
+Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind und wie bereits erwähnt konfiguriert werden. Sie sollten für jeden zu testenden Pool mindestens drei Testbenutzer zuweisen. Wenn Sie die Authentifizierungsmethode verhandeln verwenden, müssen Sie auch die Cmdlets "Set-cstestusercredential" verwenden, und die Skype für Business Server-Verwaltungsshell, um diese zu aktivieren Testkonten synthetischen Transaktionen entwickelt. Dazu führen einen Befehl ähnlich dem folgenden (diese Befehle wird davon ausgegangen, dass die folgenden drei Active Directory-Benutzerkonten erstellt wurden und dass diese Konten für Skype für Business Server aktiviert sind):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -84,7 +84,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Die Ergebnisse dieses Befehls müssen in einer Variablen gespeichert werden. In diesem Beispiel handelt es sich dabei um die Variable $pstnTest. 
   
-Anschließend können Sie das Cmdlet **New-CsWatcherNodeConfiguration** verwenden, um den Testtyp (in der Variablen $pstnTest gespeichert) einem Skype for Business Server 2015-Pool zuzuweisen. Mithilfe des folgenden Befehls wird beispielsweise eine neue Watcher-Knotenkonfiguration für den Pool atl-cs-001.litwareinc.com erstellt, wobei die drei zuvor erstellten Testbenutzer und der PSTN-Testtyp hinzugefügt werden:
+Das Cmdlet **"New-cswatchernodeconfiguration"** können Sie im nächsten Schritt Testtyp (in der Variablen $pstnTest gespeichert), um einen Skype für Business Server-Pool zuordnen. Mithilfe des folgenden Befehls wird beispielsweise eine neue Watcher-Knotenkonfiguration für den Pool atl-cs-001.litwareinc.com erstellt, wobei die drei zuvor erstellten Testbenutzer und der PSTN-Testtyp hinzugefügt werden:
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -128,7 +128,7 @@ Die folgenden Komponenten werden standardmäßig nicht getestet:
     
 - JoinLauncher
     
-- MCXP2PIM (Instant Messaging für mobile Geräte)
+- MCXP2PIM (instant messaging-legacy Mobilgerät)
     
 - P2PVideoInteropServerSipTrunkAV
     
@@ -244,7 +244,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-Dieser Befehl entfernt auf dem angegebenen Computer alle Konfigurationseinstellungen für Watcher-Knoten, sodass auf diesem Computer keine synthetischen Transaktionen mehr automatisch ausgeführt werden. Allerdings werden dabei weder die System Center-Agentdateien noch die Skype for Business Server 2015-Systemdateien deinstalliert.
+Dieser Befehl entfernt auf dem angegebenen Computer alle Konfigurationseinstellungen für Watcher-Knoten, sodass auf diesem Computer keine synthetischen Transaktionen mehr automatisch ausgeführt werden. Der Befehl wird jedoch nicht der System Center-Agent-Dateien oder das Skype für Systemdateien Business Server deinstalliert.
   
 In der Standardeinstellung verwenden Watcher-Knoten bei der Durchführung ihrer Tests externe Web-URLs des Unternehmens. Es ist jedoch auch möglich, die Verwendung interner Web-URLs zu konfigurieren. Dies ermöglicht es Administratoren, den URL-Zugriff für innerhalb des Umkreisnetzwerks befindliche Benutzer zu überprüfen. Wenn Sie einen Watcher-Knoten so konfigurieren möchten, dass er interne anstatt externe URLs verwendet, legen Sie die Eigenschaft UseInternalWebURls auf „True“ ($True) fest:
   
@@ -326,7 +326,7 @@ Zum Ausführen dieser synthetischen Transaktion müssen Sie Folgendes konfigurie
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Synthetische Transaktion für den einheitlichen Kontaktspeicher
 
-Die synthetische Transaktion für den einheitlichen Kontaktspeicher überprüft, ob Skype for Business Server 2015 in der Lage ist, Kontakte im Namen eines Benutzers aus Exchange abzurufen.
+Die synthetische Transaktion Unified Contact Store überprüft die Fähigkeit von Skype für Business Server Kontakte im Auftrag eines Benutzers von Exchange abrufen.
   
 Für die Verwendung dieser synthetischen Transaktion müssen die folgenden Bedingungen erfüllt sein:
   
@@ -358,7 +358,10 @@ Zum Aktivieren der synthetischen XMPP-Transaktion müssen Sie den Parameter Xmpp
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-In diesem Beispiel muss Skype for Business Server 2015-Regel vorhanden sein, die Nachrichten für litwareinc.com zu einem XMPP-Gateway routet.
+In diesem Beispiel wird eine Skype für Business Server Regel muss zum Weiterleiten von Nachrichten für "litwareinc.com" zu einem XMPP-Gateway vorhanden sein.
+
+> [!NOTE]
+> XMPP-Gateways und -Proxys werden stehen in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype für Business Server 2019. Weitere Informationen finden Sie unter [Migrieren von XMPP-Verbund](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Synthetische VIS-Transaktion (Video Interop Server)
 
@@ -438,4 +441,4 @@ Sie können diese Dateien mithilfe von Windows Internet Explorer, Microsoft Visu
 Führen Sie in System Center Operations Manager von synthetische Transaktionen werden diese Protokolldateien für Fehler automatisch generiert. Diese Protokolle werden jedoch nicht generiert, wenn die Ausführung scheitert, bevor die synthetische Transaktion in Skype for Business Server PowerShell geladen und ausgeführt werden kann. 
   
 > [!IMPORTANT]
-> In Skype for Business Server 2015 werden die Protokolldateien standardmäßig in einem Ordner gespeichert, der nicht freigegeben ist. Um den Zugriff auf diese Protokolle zu ermöglichen, sollten Sie diesen Ordner freigeben. Beispiel: \\atl-watcher-001.litwareinc.com\WatcherNode. 
+> Skype für Business Server speichert standardmäßig Protokolldateien in einen Ordner, der nicht freigegeben ist. Um den Zugriff auf diese Protokolle zu ermöglichen, sollten Sie diesen Ordner freigeben. Beispiel: \\atl-watcher-001.litwareinc.com\WatcherNode. 

@@ -1,27 +1,27 @@
 ---
-title: Konfigurieren eines Videotelekonferenzgeräts für die Interoperabilität mit Skype for Business Server 2015
+title: Konfigurieren einer VTC für die Interoperation mit Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: 'Zusammenfassung: Konfigurieren der Geräte VTC Skype für Business Server 2015 entwickelt.'
-ms.openlocfilehash: a88f34866a2a2147be0f30488e961552c6f19350
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Konfigurieren der Geräte VTC Skype für Business Server entwickelt.'
+ms.openlocfilehash: cc6b8d4fb48a0f43d646d204d399c575af503390
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017907"
 ---
-# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server-2015"></a>Konfigurieren eines Videotelekonferenzgeräts für die Interoperabilität mit Skype for Business Server 2015
+# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Konfigurieren einer VTC für die Interoperation mit Skype für Business Server
  
-**Zusammenfassung:** Konfigurieren Sie die Geräte VTC Skype für Business Server 2015 entwickelt.
+**Zusammenfassung:** Konfigurieren Sie die Geräte VTC Skype für Business Server entwickelt.
   
-Für jede Videotelekonferenz, die mit dem Skype for Business VIS-Server über einen SIP-Trunk und ein CUCM-Videogateway verbunden werden soll, müssen Sie die folgenden Verfahren zur Anpassung der Konfiguration ausführen.
+Sie müssen die folgenden Konfiguration Anpassung Verfahren für jede VTC ausführen, die die Skype für gegenüber Business Server über einen SIP-Trunk und Cisco Unified Communications-Manager (CallManager oder CUCM) eine Verbindung herstellt video Gateway.
   
 Die hier beschriebenen Einstellungen Präsentationsstil nur als Beispiele wie CUCM konfiguriert werden kann einen VIS. entwickelt Andere Einstellungen und/oder Verwendungsmöglichkeiten von alternativen CUCM-Funktionen können auch zum Erzielen des gleichen Ergebnisses herangezogen werden. Es wird keine Empfehlung für die optimale Konfiguration eines bestimmten Szenarios impliziert.
   

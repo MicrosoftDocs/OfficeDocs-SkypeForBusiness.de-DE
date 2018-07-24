@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von Persistent Chat Server-Optionen auf globaler, Standort- oder Poolebene in Skype für Business Server 2015.'
-ms.openlocfilehash: 6fe06b6a5383178f0a9465624f7a0e739c2a32e6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1da6acc83c051e2de3b2453aae04f40c5b18d456
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988839"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Konfigurieren von Optionen des Servers für beständigen Chat in Skype for Business Server 2015
  
@@ -29,7 +30,10 @@ Sie können mehrere Optionen für Persistent Chat Server angeben, die global fü
 - Teilnehmerliste Updatelimit. Die maximale Anzahl von Teilnehmern in einem bestimmten Chatroom für den beständigen Chat Teilnehmerliste Updates senden. Die globale Standardeinstellung ist 75.
     
 - Raum Management-URL. Die URL für die Verwaltung von benutzerdefinierten Chatrooms verwendet. Die Einstellung ermöglicht die Verwendung einer benutzerdefinierten Raum Management-Lösung. 
-    
+   
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden.
+ 
 ## <a name="configure-persistent-chat-server-global-options"></a>Konfigurieren Sie globale Optionen für Persistent Chat Server
 
 So konfigurieren Sie globale Optionen für Persistent Chat Server

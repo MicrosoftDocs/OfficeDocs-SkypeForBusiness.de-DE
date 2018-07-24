@@ -3,7 +3,7 @@ title: Sicherheitseinstellungen für Webdienste
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: c011511cd3e984ffabdefcf7d0a629d0185d8a2f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d2baf4c472a72962ec8701240a303ede75110332
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019254"
 ---
 # <a name="web-service-security-settings"></a>Sicherheitseinstellungen für Webdienste
  
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
   
-- [Verwalten von Konfigurationseinstellungen für Webdienste in Skype für Business Server 2015](../../manage/authentication/web-service-configuration-settings.md)
+- [Verwalten von Konfigurationseinstellungen für den Webdienst in Skype for Business 2015](../../manage/authentication/web-service-configuration-settings.md)
     
 - [Ändern eines vorhandenen Webdiensts](http://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
     

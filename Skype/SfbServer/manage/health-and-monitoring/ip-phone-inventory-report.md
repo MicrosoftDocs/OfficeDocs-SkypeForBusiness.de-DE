@@ -1,25 +1,24 @@
 ---
-title: Inventurbericht über IP-Telefon in Skype for Business Server 2015
+title: IP-Telefonbestand in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Zusammenfassung: Erfahren Sie mehr über das IP-Telefonbestand in Skype für Business Server 2015.'
-ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Erfahren Sie mehr über das IP-Telefonbestand in Skype für Business Server.'
+ms.openlocfilehash: bbcbe74fe95d719bee2b8c660d110854088b1150
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569554"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017978"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Inventurbericht über IP-Telefon in Skype for Business Server 2015
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP-Telefonbestand in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den IP-Telefonbestand in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den IP-Telefonbestand in Skype für Business Server.
   
 Der Bericht für den IP-Telefonbestand enthält Informationen zu den IP-Telefonen, die derzeit in der Organisation verwendet werden. Er umfasst eine detaillierte Liste der IP-Telefone, die während des angegebenen Berichtszeitraums tatsächlich verwendet wurden. Mithilfe dieses Berichts können Administratoren unter anderem Informationen dazu erhalten, ob alte oder veraltete Telefone vorhanden sind, die ausgetauscht werden sollten. Zudem können Administratoren darauf hingewiesen werden, dass in der Organisation teure Telefone existieren, die kaum verwendet werden. Solche Informationen können außerordentlich wertvoll sein, wenn es darum geht, neue Telefone zu kaufen oder vorhandene Telefone neu zu verteilen. (Ein Benutzer, der sein teures Telefon selten nutzt, kann beispielsweise gebeten werden, sein Telefon mit einem Benutzer zu tauschen, der sein Telefon häufiger verwendet.)
   
@@ -91,7 +90,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht für den IP-Telefonbestand verwenden können.
   
-**IP-Telefon Inventar Berichtsfilter**
+**Bericht für den IP-Telefonbestand - Filter**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -109,9 +108,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht für 
 
 In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht für den IP-Telefonbestand angegeben werden.
   
-**Metriken im Bericht über IP-Telefon-Inventar**
+**Bericht für den IP-Telefonbestand - Metriken**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Hersteller** <br/> |Ja  <br/> |Name des Herstellers des IP-Telefons.  <br/> |
 |**Hardwareversion** <br/> |Ja  <br/> |Versionsnummer des IP-Telefons.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Planen von Mobilität für Skype for Business Server 2015
+title: Planen Sie für die Mobilität Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/17/2018
@@ -9,20 +9,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
-description: Plan für die Implementierung von Mobilität für Skype für Business Server 2015.
-ms.openlocfilehash: f0d822050055ea7255786128fcaecd144f91367a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Plan für die Implementierung von Mobilität für Skype für Business Server.
+ms.openlocfilehash: 660f5013cd2e41ea08fdd2567fb9d51f58c1b8c6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003007"
 ---
-# <a name="plan-for-mobility-for-skype-for-business-server-2015"></a>Planen von Mobilität für Skype for Business Server 2015
+# <a name="plan-for-mobility-for-skype-for-business-server"></a>Planen Sie für die Mobilität Skype für Business Server
  
-Plan für die Implementierung von Mobilität für Skype für Business Server 2015.
+Plan für die Implementierung von Mobilität für Skype für Business Server.
   
-Mit Skype für Business Server 2015 können Sie Skype für Business Server 2015 Funktionen auf mobilen Geräten bereitstellen, um die Mobilitätsfeatures bereitstellen. In diesem Artikel finden Sie Informationen über die Mobilitätsfeatures und Unterstützung bei der Planung Ihrer bereitstellungs.
+Mit Skype für Business Server können Sie Skype für Business Server-Funktionen auf mobilen Geräten bereitstellen, um die Mobilitätsfeatures bereitstellen. In diesem Artikel finden Sie Informationen über die Mobilitätsfeatures und Unterstützung bei der Planung Ihrer bereitstellungs.
   
-Das Mobilitätsfeature für Skype für Business Server 2015 kann zur Unterstützung von mobilen Clients für Skype für Unternehmen als auch Lync-Clients auf 2010 zurückgehen. Sobald sie bereitgestellt wird, Ihre Benutzer können eine Verbindung mit Ihrer Skype für iOS-Business Server 2015 Bereitstellung mithilfe unterstützten Android und Windows Phone Mobilgeräten verschiedene Features, einschließlich Enterprise-VoIP-Funktionen nutzen. Wir haben eine partielle unten aufgenommen, und Sie können ferner [Desktopclient Featurevergleich für Skype für Unternehmen](clients-and-devices/desktop-feature-comparison.md) für Weitere Informationen:
+Das Mobilitätsfeature für Skype für Business Server kann zur Unterstützung von mobilen Clients für Skype für Unternehmen als auch Lync-Clients auf 2010 zurückgehen. Nachdem sie bereitgestellt wird, die Benutzer können verbinden mit Ihrer Skype für iOS-Business Server Bereitstellung verwenden unterstützten Android und Windows Phone Mobilgeräten verschiedene Features, einschließlich Enterprise-VoIP-Funktionen nutzen. Wir haben eine partielle unten aufgenommen, und Sie können ferner [Desktopclient Featurevergleich für Skype für Unternehmen](clients-and-devices/desktop-feature-comparison.md) für Weitere Informationen:
   
 - Nachrichten senden und empfangen
     
@@ -46,10 +47,10 @@ Das Mobilitätsfeature für Skype für Business Server 2015 kann zur Unterstütz
     
 - Besprechungsinhalt anzeigen (PowerPoint und Desktop-/Anwendungsfreigabe)
     
-Bei allen diesen Funktionen kommt die Unified Communications-Web-API (UCWA) zum Einsatz. UCWA wurde in Lync Server 2013 eingeführt, und es ist noch in Verwendung für Skype für Business Server 2015 heute. Es ist eine zusätzliche Funktionalität für die Kommunikation mit Lync 2010-Clients und Mobility Service ("MCX") ist. Dies sind kostenlosen Dienste, die für Lync Server 2010 und 2013-Clients sowie Skype für Business-Clients erfolgreich Skype für Business Server-Bereitstellungen Zugriff auf zulassen.
+Bei allen diesen Funktionen kommt die Unified Communications-Web-API (UCWA) zum Einsatz. UCWA wurde in Lync Server 2013 eingeführt, und es ist noch in Verwendung für Skype für Business Server. Es ist eine zusätzliche Funktionalität für die Kommunikation mit Lync 2010-Clients und Mobility Service ("MCX") ist. Dies sind kostenlosen Dienste, die für Lync Server 2010 und 2013-Clients sowie Skype für Business-Clients erfolgreich Skype für Business Server-Bereitstellungen Zugriff auf zulassen.
   
 > [!NOTE]
-> Wir haben MCX hier enthaltenen, sondern während dies unterstützt wird, möchten wir verwerfen der dies in der nächsten Version, damit die etwas, den Sie sein sollte für die Planung beachtet werden soll. Wir werden weiterhin verwenden Sie die UCWA und Lync 2013 und Skype empfehlen, für die Business-Clients verwendet werden, in einer Umgebung tatsächlichen Post-MCX vorwärts. 
+> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren. 
   
 Es ist wichtig, beachten Sie, dass während alle diese Features zur Verfügung stehen, nachdem Mobilität implementiert wurde, sie ein wenig anders einige Geräte arbeiten können. Wir haben eine Website, die erläutert, welche Features auf welchen Geräten, unter [Mobile Client Featurevergleich für Skype für Unternehmen](clients-and-devices/mobile-feature-comparison.md)arbeiten. Wir haben auch einige hervorragende Gerät und Betriebssystem-Informationen unter [Planen von Clients und Geräten](clients-and-devices/clients-and-devices.md).
   
@@ -70,11 +71,11 @@ Weitere Informationen haben wir in die folgenden Abschnitte unterteilt:
 ## <a name="mobility-components"></a>Mobilitätskomponenten
 <a name="MobilityComponents"> </a>
 
-Es gibt vier Dienste, die Mobilität für Skype für Business Server 2015 umfassen:
+Es gibt vier Dienste, die Mobilität für Skype für Business Server umfassen:
   
 - **Unified Communications-Web-API (UCWA)**
     
-    Stellt Dienste für die Echtzeitkommunikation mit Mobile und Web-Clients für Skype für Business Server 2015 bereit. Wenn Skype für Business Server bereitgestellt wird, erstellt eines UCWA virtuellen Verzeichnis in den internen und externen Webdiensten. Es handelt sich um eine virtuelle Komponente in diesem virtuellen Verzeichnis, die Anrufe von UCWA-fähigen Clients akzeptiert. Die Client-Apps kommunizieren zu folgenden Zwecken über eine REST-Schnittstelle (Representational State Transfer):
+    Stellt Dienste für die Echtzeitkommunikation mit Mobile und Web-Clients für Skype für Business Server bereit. Wenn Skype für Business Server bereitgestellt wird, erstellt eines UCWA virtuellen Verzeichnis in den internen und externen Webdiensten. Es handelt sich um eine virtuelle Komponente in diesem virtuellen Verzeichnis, die Anrufe von UCWA-fähigen Clients akzeptiert. Die Client-Apps kommunizieren zu folgenden Zwecken über eine REST-Schnittstelle (Representational State Transfer):
     
   - Anwesenheit
     
@@ -95,11 +96,11 @@ Es gibt vier Dienste, die Mobilität für Skype für Business Server 2015 umfass
     Unterstützt Skype für Business-Funktionen wie Sofortnachrichten, Anwesenheit und Kontakte auf mobilen Geräten. Der mobilitätsdienst ist auf jedem Front-End-Server in jedem Pool installiert, die für die Unterstützung von Skype für Business-Funktionen auf mobilen Geräten vorgesehen ist. Bei der Installation von Skype für Business Server 2015 wird ein neues virtuelles Verzeichnis ("MCX") unter der internen und externen Websites auf Front-End-Servern erstellt.
     
     > [!NOTE]
-    > Wie oben erwähnt wird MCX in der nächsten Version des Produkts veraltet sein. 
+    > MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
   
 - **AutoErmittlungsdienst**
     
-    Gibt die Position des Benutzers und mobile Geräte und andere Skype für Business-Clients nach Ressourcen (wie die internen und externen URLS für Skype für Business Server 2015-Webdienste, die Mcx URL oder UCWA-URL) suchen unabhängig vom Speicherort im Netzwerk ermöglicht. Für die automatische Ermittlung werden hartcodierte Hostnamen („lyncdiscoverinternal“ für Benutzer innerhalb des Netzwerks und „lyncdiscover“ für Benutzer außerhalb des Netzwerks) und die SIP-Domäne des Benutzers verwendet. Sowohl Clientverbindungen über HTTP als auch über HTTPS werden unterstützt. 
+    Gibt die Position des Benutzers und mobile Geräte und andere Skype für Business-Clients nach Ressourcen (wie die internen und externen URLS für Skype für Business Server-Webdienste, die Mcx URL oder UCWA-URL) suchen unabhängig vom Speicherort im Netzwerk ermöglicht. Für die automatische Ermittlung werden hartcodierte Hostnamen („lyncdiscoverinternal“ für Benutzer innerhalb des Netzwerks und „lyncdiscover“ für Benutzer außerhalb des Netzwerks) und die SIP-Domäne des Benutzers verwendet. Sowohl Clientverbindungen über HTTP als auch über HTTPS werden unterstützt. 
     
     Der AutoErmittlungsdienst installiert ist, klicken Sie auf jedem Front-End-Server und auf jedem Director in jedem Pool, der Skype für Business-Funktionen auf mobilen Geräten unterstützen soll hat. Wenn Sie den Dienst installieren, wird ein neues virtuelles Verzeichnis (AutoErmittlung) unter der internen und externen Websites auf Ihren Front-End-Server und Director-Server erstellt.
     
@@ -129,7 +130,7 @@ Es ist wichtig, bei der Planung die verschiedenen Szenarien zu berücksichtigen,
 
 Die Mobilitätsdienste Mcx und UCWA verwenden DNS auf die gleiche Weise. Bei der AutoErmittlung suchen mobile Geräte mithilfe von DNS nach Ressourcen. Bei der DNS-Suche wird versucht, eine Verbindung mit dem FQDN herzustellen, der dem internen DNS-Eintrag zugeordnet ist („lyncdiscoverinternal.[interner Domänenname]“). Wenn der interne DNS-Eintrag nicht für die Verbindung verwendet werden kann, wird eine zweite Verbindung versucht, dieses Mal mit dem externen DNS-Eintrag („lyncdiscover.[SIP-Domäne]“). Warum zwei DNS-Einträge? Ein mobiles Gerät, das sich intern im Netzwerk befindet, kann die interne AutoErmittlungs-URL verwenden. Externe mobile Geräte verwenden die externe AutoErmittlungs-URL. In beiden Fällen zurückgegebenen der AutoErmittlungsdienst alle Webdienst-URLs für Homepool des Benutzers, der den mobilitätsdienst (Mcx und UCWA) enthält.
   
-Es wird erwartet, dass die externen AutoErmittlung-Anfragen über den Reverseproxy weitergeleitet werden, den Sie für Skype für Business Server 2015 konfiguriert haben. Allerdings werden die internen Mobilitätsdienst-URL und die externe Mobilitätsdienst-URL den externen Webdienste-FQDN zugeordnet. Aus diesem Grund unabhängig davon, ob ein mobiles Gerät intern oder extern in Ihr Netzwerk ist, das Gerät verbindet immer auf die Skype für Business Server 2015 mobilitätsdienst extern, über den Reverseproxy.
+Es wird erwartet, dass die externen AutoErmittlung-Anfragen über den Reverseproxy weitergeleitet werden, den Sie für Skype für Business Server konfiguriert haben. Allerdings werden die internen Mobilitätsdienst-URL und die externe Mobilitätsdienst-URL den externen Webdienste-FQDN zugeordnet. Aus diesem Grund unabhängig davon, ob ein mobiles Gerät intern oder extern in Ihr Netzwerk ist, das Gerät verbindet immer auf die Skype für Business Server mobilitätsdienst extern, über den Reverseproxy.
   
 > [!NOTE]
 > Wie einfach erwähnt, gehen alle Mobility Service-Datenverkehr (intern und extern) über den Reverseproxy. Manchmal treten jedoch Probleme auf, wenn der interne Datenverkehr über eine Schnittstelle ausgeht und dann über die gleiche Schnittstelle wieder zurückfließen soll. Dies kann gegen Ihre Spoofingregeln (formell: Spoofing von TCP-Paketen) verstoßen. Sie müssen **Haarstrich Verankern** , Mobilität Funktion zulassen.
@@ -188,11 +189,11 @@ Dies sollte ein einfacher Vorgang sein, wenn Sie die neue Zertifikate aus einer 
   
 ### <a name="windows-and-iis-requirements"></a>Anforderungen im Hinblick auf Windows und IIS
 
-Wie in unserem Main Artikel [Anforderungen für Skype für Business Server 2015](requirements-for-your-environment/server-requirements.md) , sollten Sie Windows Server 2012 oder Windows Server 2012 R2 für Ihre Skype für Business Server-Umgebung verfügen. Daher benötigen Sie für Mobilitätsfunktionen auch IIS 8 oder IIS 8.5. Es müssen einige Änderungen auf die Standardeinstellungen für ASP.NET werden, aber das Mobilität-Installationsprogramm ausführen, das automatisch.
+Sie sollten eine unterstützte Version von Windows Server für Ihre Skype für Business Server-Umgebung verfügen. Daher benötigen Sie für Mobilitätsfunktionen auch IIS 8 oder IIS 8.5. Es müssen einige Änderungen auf die Standardeinstellungen für ASP.NET werden, aber das Mobilität-Installationsprogramm ausführen, das automatisch.
   
 ### <a name="hlb-requirements"></a>HLB-Anforderungen
 
-Wenn Sie eine Topologie für Skype Business Server 2015 nutzen, die ein Hardwaregeräts zum Lastenausgleich für den Front-End-Pool enthält (Topologie mit mehreren Front-End-Server wäre), müssen die externe Webdienste virtuelle IP-Adressen (Ends) für Webdienste Datenverkehr werden für die Datenquelle konfiguriert sind. Die Quellaffinität stellt sicher, dass mehrere Verbindungen von einem einzelnen Client an einen einzigen Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
+Wenn Sie eine Topologie für Skype Business Server nutzen, die ein Hardwaregeräts zum Lastenausgleich für den Front-End-Pool enthält (Topologie mit mehreren Front-End-Server wäre), müssen die externe Webdienste virtuelle IP-Adressen (Ends) für Webdienste Datenverkehr konfiguriert werden soll für die Datenquelle. Die Quellaffinität stellt sicher, dass mehrere Verbindungen von einem einzelnen Client an einen einzigen Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
   
 Wenn Sie Skype für mobile Clients Business nur über das interne Wi-Fi-Netzwerk unterstützen möchten, sollten Sie Ihre interne Web Services-Ends für Quelle konfigurieren, wie für externe Web Services-Ends beschrieben. In diesem Fall sollten Sie verwenden Source_addr (oder TCP) Affinität für die interne Web Services-Ends auf die Hardwaregeräts zum Lastenausgleich.
   
@@ -213,7 +214,7 @@ Nun, da wir die Topologien, Komponenten und technische Anforderungen überprüft
   
 ### <a name="do-you-want-to-use-automatic-discovery-for-skype-for-business-mobile-clients"></a>Möchten Sie für mobile Skype for Business-Clients die automatische Ermittlung verwenden?
 
-Wir empfehlen dringend, die automatische Ermittlung zu verwenden. Dazu müssen Sie wie weiter oben unter „Technische Anforderungen“ beschrieben neue interne und externe DNS-Einträge erstellen. Bei der automatischen Suche kann die Skype für Business Clients automatisch Skype für Business Server 2015 Webdienste von einer beliebigen Position suchen ohne eine URL manuell eingegeben werden.
+Wir empfehlen dringend, die automatische Ermittlung zu verwenden. Dazu müssen Sie wie weiter oben unter „Technische Anforderungen“ beschrieben neue interne und externe DNS-Einträge erstellen. Bei der automatischen Suche kann die Skype für Business Clients automatisch Skype für Business Server-Webdienste von einer beliebigen Position suchen ohne eine URL manuell eingegeben werden.
   
 Wenn Sie möchten, können Sie manuelle Einstellungen verwenden. Die Benutzer müssen dann auf ihren mobilen Geräten die folgenden URLs eingeben:
   
@@ -256,6 +257,6 @@ Um Benutzern Zugriff auf Mobilitätsfeatures und Anrufen über den Arbeitsplatz 
 In jedem Fall muss die zugewiesene VoIP-Richtlinie über PSTN-Verwendungseinträge und -Routen verfügen. Diese definieren die Bereiche, in die Benutzer hinauswählen können, um an einer Konferenz teilzunehmen.
   
 > [!NOTE]
-> Mobile Benutzer, die möchten, klicken Sie auf zur Teilnahme verwenden erfordern eine VoIP-Richtlinie sowie die zugehörigen PSTN-verwendungsdatensätzen und VoIP-Routen, da beim Klicken auf diesen Link auf ihren mobilen Geräten auf, ein ausgehendes Anrufs über Skype für Business Server 2015 das Ergebnis sein. 
+> Mobile Benutzer, die möchten, klicken Sie auf zur Teilnahme verwenden erfordern eine VoIP-Richtlinie sowie die zugehörigen PSTN-verwendungsdatensätzen und VoIP-Routen, da beim Klicken auf diesen Link auf ihren mobilen Geräten auf, ein ausgehendes Anrufs über Skype für Business Server das Ergebnis sein. 
   
 

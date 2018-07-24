@@ -1,22 +1,22 @@
 ---
-title: Bewährte Methoden für Ihre Kerninfrastruktur in Skype for Business Server 2015
+title: Bewährte Methoden für die Hauptinfrastruktur in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Sie haben wahrscheinlich bereits Schritte unternommen, um Fehlertoleranz in Ihrem System zu entwerfen, und Verfahren wie das Sicherstellen von Hardwareredundanz, Schutzmaßnahmen gegen Stromausfälle, Routineinstallation von Sicherheitsupdates und Antivirenmaßnahmen sowie Monitoring Server-Aktivitäten verwendet. Diese Methoden profitieren nicht nur Ihre Skype für Business Server-Infrastruktur, sondern auch das gesamte Netzwerk. Wenn Sie diese Verfahren nicht umgesetzt haben, wird empfohlen, dass Sie dies tun, vor der Bereitstellung von Skype für Business Server.
-ms.openlocfilehash: 9d79f98ebc66807f21f8d1eef468efc400dd5fbb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f88461e7563d28dce145d01a9b47a0176ef0d97f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996594"
 ---
-# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server-2015"></a>Bewährte Methoden für Ihre Kerninfrastruktur in Skype for Business Server 2015
+# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Bewährte Methoden für die Hauptinfrastruktur in Skype für Business Server
  
 Sie haben wahrscheinlich bereits Schritte unternommen, um Fehlertoleranz in Ihrem System zu entwerfen, und Verfahren wie das Sicherstellen von Hardwareredundanz, Schutzmaßnahmen gegen Stromausfälle, Routineinstallation von Sicherheitsupdates und Antivirenmaßnahmen sowie Monitoring Server-Aktivitäten verwendet. Diese Methoden profitieren nicht nur Ihre Skype für Business Server-Infrastruktur, sondern auch das gesamte Netzwerk. Wenn Sie diese Verfahren nicht umgesetzt haben, wird empfohlen, dass Sie dies tun, vor der Bereitstellung von Skype für Business Server.
   

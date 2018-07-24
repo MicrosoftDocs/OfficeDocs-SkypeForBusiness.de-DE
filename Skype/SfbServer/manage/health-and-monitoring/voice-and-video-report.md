@@ -1,24 +1,24 @@
 ---
-title: Bericht über Peer-to-Peer-VoIP- und Videoaktivität in Skype for Business Server 2015
+title: Peer-zu-Peer- und-videoaktivität in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Zusammenfassung: Informationen Sie zu den Peer-zu-Peer- und-videoaktivität in Skype für Business Server 2015.'
-ms.openlocfilehash: 39b76b355addffb86954c302e9a8b7b0b7dde391
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über die Peer-zu-Peer-- und-videoaktivität in Skype für Business Server.'
+ms.openlocfilehash: 791333a979bb9a292fc689eb19869cf835b77d68
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008096"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server-2015"></a>Bericht über Peer-to-Peer-VoIP- und Videoaktivität in Skype for Business Server 2015
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Peer-zu-Peer- und-videoaktivität in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Peer-zu-Peer- und-videoaktivität in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Peer-zu-Peer-- und-videoaktivität in Skype für Business Server.
   
 Der Bericht über Peer-to-Peer-Sprach- und -Videoaktivität bietet eine detaillierte Aufstellung der Sprach- und -Videoanrufe für einen bestimmten Zeitraum (z. B. Anrufe pro Stunde oder Anrufe pro Tag). Darüber hinaus können Sie mit diesem Bericht alle getätigten Sprach- und Videoanrufe oder aber nur die erfolgreichen bzw. fehlgeschlagenen Anrufe anzeigen. In diesem Bericht werden die Anrufinformationen in den folgenden Kategorien angezeigt:
   
@@ -50,7 +50,7 @@ Es gibt eine Reihe von Möglichkeiten, um den Bericht über Peer-to-Peer-Sprach-
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität verwenden können.
   
-**Peer-zu-Peer-VoIP und video – Filter**
+**Filter im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -65,9 +65,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität für jeden Pool angegeben werden.
   
-**Metriken für Peer-zu-Peer- und-videoaktivität nach pool**
+**Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Pool**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Nein  <br/> |Name des Registrar-Pools oder Edgeservers für den Anruf verwendet.  <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.  <br/> |
@@ -77,9 +77,9 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität für jeden Anruftyp angegeben werden.
   
-**Metriken für Peer-zu-Peer- und-videoaktivität nach Anruftyp**
+**Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Anruftyp**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruftyp** <br/> |Nein  <br/> | Gibt den Typ des Anrufs an, der ausgeführt wurde. Folgende Werte sind möglich: <br/>  UC-zu-UC <br/>  UC-zu-PSTN <br/>  PSTN-zu-UC <br/>  PSTN-zu-PSTN <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.  <br/> |
@@ -89,9 +89,9 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität für jeden Netzwerkzugriffstyp angegeben werden.
   
-**Metriken für Peer-zu-Peer- und-videoaktivität nach Zugriffstyp**
+**Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Zugriffstyp**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Aktivitätstyp** <br/> |Nein  <br/> | Gibt an, ob die Clients am internen oder am externen Netzwerk angemeldet wurden, als der Anruf getätigt wurde. Diese Metrik hat normalerweise einen der folgenden Werte: <br/>  Intern <br/>  Extern <br/>  Gemischt <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.  <br/> |
@@ -101,9 +101,9 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 Die folgende Tabelle enthält die Informationen in der Peer-zu-Peer- und-videoaktivität für jeden Vermittlungsserver bereitgestellt.
   
-**Metriken für Peer-zu-Peer- und-videoaktivität nach Vermittlungsserver**
+**Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Vermittlungsserver**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Vermittlungsserver** <br/> |Nein  <br/> |Name des Vermittlungsservers.  <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.  <br/> |

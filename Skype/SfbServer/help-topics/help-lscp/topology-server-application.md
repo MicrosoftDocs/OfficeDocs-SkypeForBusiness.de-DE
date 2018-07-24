@@ -3,7 +3,7 @@ title: Topologie-Server-Anwendung
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 'Topologie: Serveranwendung Seite zeigt die serveranwendungen in Ihrer Bereitstellung.'
-ms.openlocfilehash: c1b60ffc39dd6f4c4905230cef43803a66356a04
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 17580ff9f4be897bd50f81e7d8739c55b63c4698
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988141"
 ---
 # <a name="topology-server-application"></a>Topologie: Serveranwendung
  
@@ -34,9 +35,6 @@ Sie können die folgenden Aufgaben ausführen, auf die **Topologie**: **Serveran
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Aktivieren oder Deaktivieren einer Microsoft SIP Processing Language (MSPL) Server-Anwendung](http://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
   
 [Markieren einer Microsoft SIP Processing Language (MSPL)-Anwendung als kritisch oder nicht kritisch](http://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
-

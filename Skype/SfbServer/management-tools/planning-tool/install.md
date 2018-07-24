@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Vor Beginn entwerfen und planen Ihre Skype für Business Server 2015 Infrastruktur mithilfe der Skype für Business Server 2015-Planungstool, Sie müssen zuerst installieren das Planungstool. Das Planungstool muss nicht bereitgestellt werden, auf einer Arbeitsstation oder einem Server, der Teil der Domäne oder der Infrastruktur, in der Sie Skype für Business Server 2015 installieren möchten. Die Planungstool gehörenden Infodatei enthält wichtige Informationen zur Installation und Verwendung des Tools. Einige Informationen aus dieser Datei werden zur Verdeutlichung im Folgenden noch einmal aufgeführt.
-ms.openlocfilehash: 1c5c56031890aaff035e237e2ff7ab6d89d6ba2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 462964672f0fe9aaf426bd196357ffb8eca05e9d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002850"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installieren des Planungstools in Skype for Business Server 2015
  
@@ -46,9 +47,9 @@ Darüber hinaus erfordert das Planungstool für Microsoft .NET Framework 4.5.
   
 Wenn die Vorinstallation Anforderungen erfüllt sind, können Sie dann das Planungstool installieren.
   
-## 
 
-### <a name="to-install-the-planning-tool"></a>So installieren Sie das Planungstool
+
+## <a name="to-install-the-planning-tool"></a>So installieren Sie das Planungstool
 
 1. Melden Sie sich auf dem lokalen Computer als Mitglied der Gruppe "Administratoren" an.
     
@@ -107,7 +108,4 @@ Beim Exportieren Ihres Entwurfs nach Microsoft Visio wird ein Diagramm erstellt,
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="Optional_Software"> </a>
 
-#### 
-
 [Installieren des Planungstools](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
-

@@ -1,32 +1,32 @@
 ---
-title: Erstellen von QoE-Konfigurationseinstellungen in Skype for Business Server 2015
+title: Erstellen von Quality of Experience-Konfigurationseinstellungen in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: 'Zusammenfassung: Informationen Sie zu Quality of Experience (QoE)-Einstellungen in Skype für Business Server 2015.'
-ms.openlocfilehash: a6ba2906b54ac5d963b0c8394c1fcf254cffd12d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu Quality of Experience (QoE)-Einstellungen in Skype für Business Server.'
+ms.openlocfilehash: 678f57ba06008244bf9872ee44b26ea0c1e9a0f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968195"
 ---
-# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server-2015"></a>Erstellen von QoE-Konfigurationseinstellungen in Skype for Business Server 2015
+# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Erstellen von Quality of Experience-Konfigurationseinstellungen in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu Quality of Experience (QoE)-Einstellungen in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu Quality of Experience (QoE)-Einstellungen in Skype für Business Server.
   
 QoE (Quality of Experience)-Metriken dienen der Überwachung der Qualität von Audio- und Videoanrufen in Ihrer Organisation, z. B. der Anzahl der verloren gegangenen Netzwerkpakete, von Hintergrundgeräuschen und der Unterschiede bei Paketverzögerung (Jitter). Diese Metriken werden in einer Datenbank getrennt von anderen Daten (z. B. den Kommunikationsdatensätzen) gespeichert, sodass QoE unabhängig von anderen Datenaufzeichnungen aktiviert und deaktiviert werden kann.
   
-Bei der Installation von Skype für Business Server 2015, ein einzelnes wird die globale Auflistung von QoE-Konfigurationseinstellungen für Sie erstellt. Administratoren haben auch die Möglichkeit, benutzerdefinierte Einstellungen für die Standortebene zu erstellen. Wenn diese standortspezifischen Einstellungen verwendet werden, haben sie Vorrang vor den globalen Einstellungen. Beispiel: Wenn Sie für den Standort Redmond standortspezifische Einstellungen erstellen, wird QoE in Redmond gemäß diesen Einstellungen (anstelle der globalen) verwaltet.
+Bei der Installation von Skype für ein einzelnes Business Server ist die globale Auflistung von QoE-Konfigurationseinstellungen für Sie erstellt. Administratoren haben auch die Möglichkeit, benutzerdefinierte Einstellungen für die Standortebene zu erstellen. Wenn diese standortspezifischen Einstellungen verwendet werden, haben sie Vorrang vor den globalen Einstellungen. Beispiel: Wenn Sie für den Standort Redmond standortspezifische Einstellungen erstellen, wird QoE in Redmond gemäß diesen Einstellungen (anstelle der globalen) verwaltet.
   
 QoE-Konfigurationseinstellungen können unter Verwendung von entweder Skype für Business Server-Systemsteuerung oder das [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) -Cmdlet erstellt werden. Wenn Sie Skype Business Server-Systemsteuerung verwenden, erstellen Sie neue Einstellungen werden die folgenden Optionen zur Verfügung:
   
-|**UI-Einstellung**|**PowerShell-parameter**|**Beschreibung**|
+|**Benutzeroberflächeneinstellung**|**PowerShell-Parameter**|**Beschreibung**|
 |:-----|:-----|:-----|
 |Name  <br/> |Identität  <br/> |Eindeutiger Bezeichner für die zu erstellenden Einstellungen. QoE-Konfigurationseinstellungen können nur auf der Standortebene erstellt werden.  <br/> |
 |Überwachung der QoE-Daten aktivieren  <br/> |EnableQoE  <br/> |Gibt an, ob QoE-Datensätze erfasst und in der Überwachungsdatenbank gespeichert werden.  <br/> |

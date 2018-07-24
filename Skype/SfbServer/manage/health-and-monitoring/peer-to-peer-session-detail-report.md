@@ -1,24 +1,24 @@
 ---
-title: Detailbericht über Peer-to-Peer-Sitzungen in Skype for Business Server 2015
+title: Peer-zu-Peer-Sitzungsbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Zusammenfassung: Informationen Sie zu den Detailbericht über Peer-zu-Peer-Sitzungen in Skype für Business Server 2015.'
-ms.openlocfilehash: 454a31449ceff109ac81bd266f1ef7c21f7c0afd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Detailbericht über Peer-zu-Peer-Sitzungen in Skype für Business Server.'
+ms.openlocfilehash: 6ac6a26c52fcc0eaca4890631b1d91f338930421
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000726"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server-2015"></a>Detailbericht über Peer-to-Peer-Sitzungen in Skype for Business Server 2015
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Peer-zu-Peer-Sitzungsbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Detailbericht über Peer-zu-Peer-Sitzungen in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Detailbericht über Peer-zu-Peer-Sitzungen in Skype für Business Server.
   
 Der Detailbericht über Peer-to-Peer-Sitzungen gibt detaillierte Informationen über eine Peer-to-Peer-Sitzung zurück. Wenn Sie beispielsweise eine Sofortnachrichtensitzung auswählen, gibt der Bericht Ihnen die Anzahl an Nachrichten an, die jeweils von den beiden an der Sitzung beteiligten Benutzern gesendet wurden.
   
@@ -34,7 +34,7 @@ Sie können über die folgenden Berichte (die alle über die Startseite für Üb
     
 - Fehlerlistenbericht 
     
-Von innerhalb der Peer-zu-Peer-Sitzungsbericht möglich den [Diagnosebericht in Skype für Business Server 2015](diagnostic-report.md) durch Klicken auf die Metrik Diagnosebericht (Details). Sie können zudem auf den Bericht über häufigste Fehler zugreifen, indem Sie auf eine der folgenden beiden Metriken klicken:
+Von innerhalb der Peer-zu-Peer-Sitzungsbericht möglich den [Diagnosebericht in Skype für Business Server](diagnostic-report.md) durch Klicken auf die Metrik Diagnosebericht (Details). Sie können zudem auf den Bericht über häufigste Fehler zugreifen, indem Sie auf eine der folgenden beiden Metriken klicken:
   
 - Reaktion
     
@@ -56,7 +56,7 @@ Keine. Der Detailbericht über Peer-to-Peer-Sitzungen kann nicht gefiltert werde
 
 In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailbericht über Peer-to-Peer-Sitzungen angegeben werden.
   
-**Sitzungsinformationen – Metriken**
+**Sitzungsinformationen - Metriken**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -85,7 +85,7 @@ In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailberich
   
 **Metriken für Modalitäten**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Modalitäten** <br/> |Nein  <br/> |In der Sitzung verwendete Modalitäten, z. B. Chat, Audio oder Dateiübertragung.  <br/> |
 |**Nachrichten von Absenderbenutzer** <br/> |Nein  <br/> |Anzahl der gesendeten Nachrichten des Benutzers, der die Sitzung initiiert hat.  <br/> |
@@ -97,7 +97,7 @@ In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailberich
   
 **Metriken für Diagnoseberichte**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Detail** <br/> |Nein  <br/> |Klicken Sie auf dieses Element, um den Diagnosebericht für die Sitzung anzuzeigen.  <br/> |
 |**Berichtszeitpunkt** <br/> |Nein  <br/> |Datum und Uhrzeit der Aufzeichnung des Berichts.  <br/> |

@@ -3,19 +3,18 @@ title: Bereitstellung von Skype Room System-Exchange- und -Skype-Konten
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 description: Lesen Sie diese Themen und erfahren Sie, wie Sie Exchange- und Skype-Konten für Skype Room System bereitstellen.
-ms.openlocfilehash: 89f4917db99dc66d3b59fd0a97b41afd279d4d22
-ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
+ms.openlocfilehash: 584b4582f68510302af81afa32b47672220304f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19927781"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988430"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Bereitstellung von Skype Room System-Exchange- und -Skype-Konten
  

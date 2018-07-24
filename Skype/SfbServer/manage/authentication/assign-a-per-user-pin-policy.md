@@ -1,26 +1,25 @@
 ---
-title: Zuweisen einer benutzerbasierten PIN-Richtlinie in Skype for Business Server 2015
+title: Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Zusammenfassung: Phase AV- und OAuth Zertifikate für Skype für Business Server 2015.'
-ms.openlocfilehash: 6eba19d67f2b2b04c98ed993fa02ca0c2052f28a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Phase AV- und OAuth Zertifikate für Skype für Business Server.'
+ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569512"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005953"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Zuweisen einer benutzerbasierten PIN-Richtlinie in Skype for Business Server 2015
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server
 
-**Zusammenfassung:** Phase AV- und OAuth-Zertifikaten für Skype für Business Server 2015.
+**Zusammenfassung:** Phase AV- und OAuth-Zertifikaten für Skype für Business Server.
   
 Die Richtlinien für einwahlkonferenzen persönliche Identifikationsnummer (PIN) ist eine der Einstellungen für ein Benutzerkonto, das in der Skype für Business Server-Systemsteuerung konfiguriert werden können.
   
@@ -67,7 +66,7 @@ Nachdem Sie mindestens eine PIN-Richtlinie auf Benutzerebene erstellt haben, wei
     > [!NOTE]
     > Da es mehrere Richtlinien, die Sie konfigurieren können sind, über das Dialogfeld **Richtlinien zuweisen** ** \<zu belassen wie ist\> ** ist standardmäßig für jede Richtlinie in das Dialogfeld aktiviert. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
   
-   - Zulassen von Skype für Business Server 2015 automatisch auswählen Auswahl die globalen Richtlinie oder, falls definiert, die Richtlinie auf Standortebene.
+   - Zulassen von Skype für Business Server automatisch auswählen Auswahl die globalen Richtlinie oder, falls definiert, die Richtlinie auf Standortebene.
     
    - Klicken Sie auf der Seite **PIN-Richtlinie** auf den Namen einer PIN-Richtlinie auf Benutzerebene, die Sie zuvor definiert haben.
     
@@ -108,4 +107,4 @@ Weitere Informationen hierzu finden Sie unter [Grant-CsPinPolicy](https://docs.m
   
 ## <a name="see-also"></a>Siehe auch
 
-[Erstellen einer neuen PIN-Richtlinie in Skype für Business Server 2015](create-a-new-pin-policy.md)
+[Erstellen Sie eine neue PIN-Richtlinie in Skype für Business Server](create-a-new-pin-policy.md)

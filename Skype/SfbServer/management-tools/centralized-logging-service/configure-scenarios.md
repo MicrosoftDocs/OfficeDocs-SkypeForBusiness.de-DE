@@ -3,7 +3,7 @@ title: Konfigurieren von Szenarien für den zentralisierten Protokollierungsdien
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Zusammenfassung: Informationen Sie zum Erstellen, ändern und Szenarien für die zentralisierte Protokollierungsdienst in Skype für Business Server 2015 zu entfernen.'
-ms.openlocfilehash: e8b9575ed949e1769e867113be301deede981018
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: acfd7ae44d7fde1e585792e691c604d18471b29e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016397"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  
@@ -222,5 +223,3 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, aber die S
   ```
   Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
   ```
-
-

@@ -1,36 +1,36 @@
 ---
-title: Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015
+title: Konfigurieren von Richtlinien für das Client-Bootstrapping
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
-description: 'Zusammenfassung: Informationen zum Verwalten von Gruppenrichtlinien für Skype für Unternehmen.'
-ms.openlocfilehash: b2e2f9787dd54b783b0f24ce9a6bb152ea4a69d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen zum Verwalten von Gruppenrichtlinien.'
+ms.openlocfilehash: 8c7254d42de76150eb4f3910f3e5e400206e7acf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967789"
 ---
-# <a name="configure-client-bootstrapping-policies-in-skype-for-business-server-2015"></a>Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015
+# <a name="configure-client-bootstrapping-policies"></a>Konfigurieren von Richtlinien für das Client-Bootstrapping
  
-**Zusammenfassung:** Informationen zum Verwalten von Gruppenrichtlinien für Skype für Unternehmen.
+**Zusammenfassung:** Informationen zum Verwalten von Gruppenrichtlinien.
   
 Die Gruppenrichtlinien-Verwaltungskonsole (Group Policy Management Console, GPMC) und der Gruppenrichtlinienobjekt-Editor sind Tools zur Verwaltung von Gruppenrichtlinien. Mit dem Office Administrative Vorlagen für Gruppenrichtlinien enthalten sind, lync16.admx (ADMX) und ADML (ADML) Administrative Vorlagen, die die registrierungsbasierte Richtlinieneinstellungen für Skype für Unternehmen enthalten, die Sie für Gruppenrichtlinienobjekte in der Domäne konfigurieren. ADML-Dateien sind sprachspezifische Komplemente für ADMX-Dateien. Jede ADMX- und ADML-Datei enthält die Richtlinieneinstellungen für eine einzelne Office-Anwendung. Sie können aus dem Microsoft Download Center kostenlos [herunterladen Office 2016 Administrative Vorlagendateien (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=49030) .
   
-Skype für Unternehmen stehen mehrere Client bootstrapping Policies, die Sie berücksichtigen sollten, bevor Benutzer auf den Server zum ersten Mal anmelden konfigurieren. Dazu gehören die Standardserver und der Sicherheitsmodus, die der Client bis zum Abschluss der Anmeldung verwenden soll. Sie können auch Gruppenrichtlinien verwenden, diese Einstellungen bei den Benutzern Computer Register herstellen, bevor sie anmelden und Empfangen von in-Band-bereitstellungseinstellungen vom Server beginnen. Die folgende Tabelle enthält die gruppenrichtlinieneinstellungen, die für Skype für Unternehmen verfügbar sind.
+Skype für Geschäftskunden stehen mehrere Client bootstrapping Policies, die Sie berücksichtigen sollten, bevor Benutzer auf den Server zum ersten Mal anmelden konfigurieren. Dazu gehören die Standardserver und der Sicherheitsmodus, die der Client bis zum Abschluss der Anmeldung verwenden soll. Sie können auch Gruppenrichtlinien verwenden, diese Einstellungen bei den Benutzern Computer Register herstellen, bevor sie anmelden und Empfangen von in-Band-bereitstellungseinstellungen vom Server beginnen. Die folgende Tabelle enthält die gruppenrichtlinieneinstellungen, die für Skype für Unternehmen verfügbar sind.
   
 **Group Policy Settings for Skype für Unternehmen**
 
-|**Gruppenrichtlinieneinstellung**|**Beschreibung**|
+|Gruppenrichtlinieneinstellung|Beschreibung|
 |:-----|:-----|
 |Server angeben(ConfigurationMode) angeben  <br/> | Gibt an, wie Skype für Unternehmen Transportprotokoll und Server, die während der Anmeldung verwendet identifiziert. In dieser Einstellung geben Sie Folgendes an: <br/>  ServerAddressExternal: Gibt den Servernamen oder die IP-Adresse an, der bzw. die von Clients und Verbundkontakten verwendet wird, um von außerhalb der Firewall eine Verbindung herzustellen. <br/>  ServerAddressInternal: Gibt an, den Servernamen oder die IP-Adresse verwendet, wenn Clients von innerhalb der Firewall des Unternehmens eine Verbindung herstellen. <br/>  Transport: Gibt entweder TCP (Transmission Control Protocol) oder TLS (Transport Layer Security) an. <br/> |
-|Zusätzliche unterstützte Serverversionen(configuredservercheckvalues)  <br/> |Gibt eine Liste mit Versionsnamen getrennt durch Semikolons ein, denen für Business Server 2015 Skype auf zusätzlich zu den Serverversionen, die standardmäßig unterstützt werden.  <br/> |
-|Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren (DisableAutomaticSendTracing)  <br/> |Automatisch hochgeladen anmeldefehlerprotokolle Skype für Business Server 2015 für die Analyse. Bei erfolgreichen Anmeldungen werden keine Protokolle automatisch hochgeladen. Wenn diese Richtlinie nicht konfiguriert ist, geschieht Folgendes:  <br/> Für Skype für Business Online-Benutzer: Anmeldung anmeldefehlerprotokolle werden automatisch hochgeladen. Für Skype für Unternehmen Benutzern lokale-: dem Benutzer vor dem Hochladen ein Bestätigungsdialogfeld angezeigt wird. Wenn diese Einstellung deaktiviert ist, werden Protokolle-Anmeldung automatisch die Skype für Business Server für Skype für Business lokal und Skype für Business Onlinebenutzer hochgeladen. Wenn diese Einstellung aktiviert ist, werden Anmeldeprotokolle niemals automatisch hochgeladen.  <br/> |
+|Zusätzliche unterstützte Serverversionen(configuredservercheckvalues)  <br/> |Gibt eine Liste mit Versionsnamen getrennt durch Semikolons ein, denen Skype für Business Server auf zusätzlich zu den Serverversionen, die standardmäßig unterstützt werden.  <br/> |
+|Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren (DisableAutomaticSendTracing)  <br/> |Automatisch hochgeladen anmeldefehlerprotokolle Skype für Business Server für die Analyse. Bei erfolgreichen Anmeldungen werden keine Protokolle automatisch hochgeladen. Wenn diese Richtlinie nicht konfiguriert ist, geschieht Folgendes:  <br/> Für Skype für Business Online-Benutzer: Anmeldung anmeldefehlerprotokolle werden automatisch hochgeladen. Für Skype für Unternehmen Benutzern lokale-: dem Benutzer vor dem Hochladen ein Bestätigungsdialogfeld angezeigt wird. Wenn diese Einstellung deaktiviert ist, werden Protokolle-Anmeldung automatisch die Skype für Business Server für Skype für Business lokal und Skype für Business Onlinebenutzer hochgeladen. Wenn diese Einstellung aktiviert ist, werden Anmeldeprotokolle niemals automatisch hochgeladen.  <br/> |
 |Deaktivieren von HTTP-fallback für SIP-Verbindung deaktivieren(disablehttpconnect)  <br/> |Verhindert, dass Skype für Business Server versucht, auf dem Server eine Verbindung über HTTP, wenn TLS oder TCP nicht verfügbar sind. In der Standardeinstellung Skype für Unternehmen zuerst versucht, auf dem Server eine Verbindung über TLS oder TCP und, wenn keiner dieser Transportmethoden erfolgreich ist, versucht Skype für Unternehmen eine Verbindung über HTTP. Verwenden Sie diese Richtlinie, um die fallback HTTP Verbindungsversuch zu deaktivieren.  <br/> |
 |Benötigen Sie Anmeldeinformationen (DisableNTCredentials)  <br/> |Bewirkt, dass den Benutzer Anmeldeinformationen für Skype für Business, anstatt automatisch Windows-Anmeldeinformationen während der Anmeldung an einem SIP-Server verwendet werden.  <br/> |
 |Deaktivieren von Server-versionsprüfung (DisableServerCheck)  <br/> |Wenn Sie diese Richtlinie auf 1 gesetzt, verhindert, dass Skype für Unternehmen überprüfen den Servernamen und die Version vor der Anmeldung. Standardmäßig ist Skype für Unternehmen diese Prüfungen vor dem anmelden.  <br/> |
@@ -48,7 +48,7 @@ Auf dem Server konfigurierte Richtlinien haben Vorrang vor Gruppenrichtlinienein
 
 |**Rangfolge**|**Ort oder Einstellungsmethode**|
 |:-----|:-----|
-|1  <br/> |Skype für Business Server 2015 in-Band-Bereitstellung  <br/> |
+|1  <br/> |Skype für Business Server in-Band-Bereitstellung  <br/> |
 |2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4  <br/> |Das Dialogfeld "Optionen" in Skype für Unternehmen  <br/> |

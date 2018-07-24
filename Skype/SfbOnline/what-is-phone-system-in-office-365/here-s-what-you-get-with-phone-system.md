@@ -1,5 +1,5 @@
 ---
-title: Hier ist das Ergebnis in das Telefonsystem in Office 365
+title: Das bekommen Sie mit Telefonsystem in Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: e2ba535de48e11e503280b8bd65fbe78611dc47d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d3ec5d9d490a7ad0064611d36b788da69b726e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975443"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier ist das Ergebnis in das Telefonsystem in Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das bekommen Sie mit Telefonsystem in Office 365
 
 Eine PBX ist ein Telefonsystem in einem Unternehmen. Das Telefonsystem in Office 365 Add-on bietet Ihnen die Möglichkeit der Nebenstellenanlage, jedoch ohne die Equipment kompliziert und teuer. 
   
@@ -77,7 +78,7 @@ Finden Sie in diesen Artikeln zur Planung und das Telefonsystem in Ihrem Unterne
   
 - [Einrichten von Aufrufen plant](../what-are-calling-plans-in-office-365/set-up-calling-plans.md): in diesem Artikel ist eine schrittweise Anleitung zum Einrichten Ihrer Telefonnummern oder Ihre vorhandenen Telefonnummern in Skype für Unternehmen zu übertragen.
     
-- [Planen Sie Ihr Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](https://go.microsoft.com/fwlink/?LinkId=708645): dieser TechNet-Artikel Layout aller Ihrer Bereitstellungsoptionen. Zudem erhalten Sie Informationen zum Planen der gesamten cloudbasierten Lösung. 
+- [Planen Sie Ihr Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](https://go.microsoft.com/fwlink/?LinkId=708645): in diesem Artikel erstellt das Layout aller Ihrer Bereitstellungsoptionen. Zudem erhalten Sie Informationen zum Planen der gesamten cloudbasierten Lösung. 
     
 - [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Hier erfahren Sie, welche Lizenzen, die Sie zum Abrufen der Telefonsystem in Office 365 kaufen müssen.
     

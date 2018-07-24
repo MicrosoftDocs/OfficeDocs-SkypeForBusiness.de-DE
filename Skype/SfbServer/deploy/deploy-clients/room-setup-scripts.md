@@ -3,19 +3,18 @@ title: Skype Room System – Skripte für das Raumsetup
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Lesen Sie dieses Thema, in dem Sie Beispielskripte für die Bereitstellung von Skype Room System-Konten finden.
-ms.openlocfilehash: 957b8ada37c0391f86e4486f7a56899957c9b770
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 2102a9aa306b7d545ce299b0c0808d6129cbbb02
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568696"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997846"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Room System – Skripte für das Raumsetup
  

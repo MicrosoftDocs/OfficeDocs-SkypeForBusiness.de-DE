@@ -3,7 +3,6 @@ title: Mit moderner Authentifizierung unterstützte Skype for Business-Topologie
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
-ms.date: 12/4/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,11 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: In diesem Artikel erfahren Sie, welche Onlinetopologien und lokalen Topologien mit moderner Authentifizierung in Skype for Business unterstützt werden und welche Sicherheitsmerkmale die Topologien jeweils aufweisen.
-ms.openlocfilehash: a6be001bf1aeeeba9823c291ee9726c33ec9009a
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: cc849dc1df0f4bf97bb362449ef1ded58596cb91
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001799"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Mit moderner Authentifizierung unterstützte Skype for Business-Topologien
  
@@ -34,7 +34,7 @@ Welche Topologien werden für moderne Authentifizierung unterstützt, wenn Skype
 
 An den von MA verwendeten Skype for Business-Topologien sind potenziell zwei Serveranwendungen und zwei Office 365-Workloads beteiligt.
   
-- Kumulatives Update 5 für Skype for Business Server 2015 (lokal)
+- Skype für Business Server (CU 5) lokal
     
 - Skype for Business Online (SFBO)
     
@@ -48,7 +48,7 @@ Ein weiterer wichtiger Aspekt von MA ist, dass Sie wissen müssen, wo die Authen
     
 - Active Directory-Verbundserver (Active Directory Federation Server, AD FS) (lokal)
     
-Das sieht in etwa so aus. Dabei befinden sich EXO und SFBO in der Cloud mit Azure AD, während Exchange Server (EXCH) und Skype for Business Server 2015 (SFB) lokal bereitgestellt sind.
+Damit sie etwas wie folgt, mit EXO und SFBO in der Cloud mit Azure AD aussieht und Exchange Server (EXCH) und Skype für Business Server (SFB) auf Vorz
   
 ![Ein Beispiel für alle Anwendungen (Exchange und Skype for Business) und Arbeitsauslastungen (EXO und SFBO) sowie für beide Autorisierungsserver (ADFS und evoSTS), die beim Aktivieren von MA beteiligt sein können.](../../media/18a3b451-1e64-40fc-b47f-7ce9587814bb.PNG)
   
@@ -95,7 +95,7 @@ Bei gemischten Topologien sind Kombinationen von SFB-Hybriden mit geteilter Dom�
 \*-Mehrstufiger Authentifizierung das umfasst Windows-Desktop, MAC, iOS, Android-Geräte und Windows-Telefonen. CBA umfasst Windows-Desktop, iOS und Android-Geräte. Zertifizierungsstelle/MAM mit Intune, umfasst Android und iOS-Geräte. 
   
 > [!IMPORTANT]
-> Es ist sehr wichtig Beachten Sie, dass Benutzer finden Sie möglicherweise **mehrere Anweisungen** in einigen Fällen vor allem, in dem der Verwaltungs-Agent-Status nicht identisch ist für alle Serverressourcen, die Clients müssen möglicherweise und anfordern, wie bei allen Versionen von gemischten Topologien der Fall ist.
+> Sehr wichtig ist, dass die Benutzer möglicherweise in manchen Fällen **mehrere Eingabeaufforderungen** sehen, vor allem, wenn der MA-Status nicht auf allen von den Clients benötigten und angeforderten Serverressourcen gleich ist. Dies gilt für alle Versionen der gemischten Topologien. 
 
 > [!IMPORTANT]
 > Beachten Sie, dass auch in einigen Fällen (gemischt insbesondere 1, 3 und 5) für die ordnungsgemäße Konfiguration für Windows-Desktop-Clients muss ein [AllowADALForNonLynIndependentOfLync](https://support.microsoft.com/en-us/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) Registrierungsschlüssel festgelegt werden.

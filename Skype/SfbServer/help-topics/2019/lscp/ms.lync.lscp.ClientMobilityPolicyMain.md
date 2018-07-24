@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
+ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite Mobilitätsrichtlinien Richtlinie werden in Ihrer Bereitstellung verfügbaren mobilitätsrichtlinien angezeigt.
-ms.openlocfilehash: 32ebb45e8622ec5f442a2506f55d73427865da66
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f45c6676c370b079205e5a488b053af5b0af81bc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989888"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992640"
 ---
 # <a name="clients-mobility-policy"></a>Clients: Mobilitätsrichtlinie
  
@@ -36,7 +37,7 @@ Klicken Sie auf der Seite **Mobilitätsrichtlinie** können Sie die folgenden Au
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
   
-### 
+
 
 - **Suchfeld** Geben Sie eine Zeichenfolge in das Textfeld, um die angezeigten Richtlinien zu filtern.
     

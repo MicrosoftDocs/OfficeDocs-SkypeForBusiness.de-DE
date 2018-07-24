@@ -1,9 +1,8 @@
 ---
-title: Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Skype for Business Server 2015
+title: Planen Sie für hohe Verfügbarkeit und Disaster Recovery in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/29/2018
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -13,13 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: Skype für Business Server bietet eine hohe Verfügbarkeit mit pooling Disaster Recovery mit poolpaaren und mehreren Modi für die Back-End-Server hohe Verfügbarkeit, einschließlich AlwaysOn Availability Groups, datenbankspiegelung und Failover-Clusterunterstützung mit SQL Server.
-ms.openlocfilehash: e2e433112146e3be771abb12ef50e09749e8e325
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 94db95c097fca62e31a01efd1d254ab6d3cd6d37
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996459"
 ---
-# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server-2015"></a>Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Skype for Business Server 2015
+# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planen Sie für hohe Verfügbarkeit und Disaster Recovery in Skype für Business Server
  
 Skype für Business Server bietet eine hohe Verfügbarkeit mit pooling Disaster Recovery mit poolpaaren und mehreren Modi für die Back-End-Server hohe Verfügbarkeit, einschließlich AlwaysOn Availability Groups, datenbankspiegelung und Failover-Clusterunterstützung mit SQL Server. 
   
@@ -29,24 +29,25 @@ Wie in früheren Versionen von Lync Server ist das Hauptfenster hohe Verfügbark
   
 Skype für Business Server bietet auch Disaster Recovery-Optionen für Front-End-Pools. Sie können zwei Pools in verschiedenen geografischen Bereichen einrichten, die einander als Sicherung dienen. Wenn dann ein gesamter Pool oder Standort ausfällt, kann der Sicherungspool den Benutzern an beiden Standorten weiterhin Dienste bereitstellen.
   
-Unterstützt Skype für Business Server auch Kommunikationsmodi hohe Verfügbarkeit für die Back-End-Server: Database mirroring, AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL-Failover-Clusterunterstützung.
+Unterstützt Skype für Business Server auch Kommunikationsmodi hohe Verfügbarkeit für die Back-End-Server: SQL-Spiegelung, AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL-Failover-Clusterunterstützung.
   
+> [!NOTE]
+> SQL-Spiegelung wird steht in Skype für Business Server 2015 jedoch nicht mehr in unterstützt Skype für Business Server 2019. Die AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL clustering Failovermethoden werden bevorzugt mit Skype für Business Server 2019.
+
 > [!NOTE]
 > AlwaysOn Availability Groups werden für Persistent Chatserver nicht unterstützt. 
   
-In diesem Abschnitt werden diese Features erläutert, und welche Schritte Sie für hohe Verfügbarkeit und Disaster Recovery für die anderen Serverrollen einiger annehmen können auch behandelt. 
+In diesem Abschnitt werden diese Funktionen erläutert. Zudem wird erklärt, welche Schritte Sie für die hohe Verfügbarkeit und Notfallwiederherstellung für einige Ihrer anderen Serverrollen ausführen können. 
+  
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Front-End-Pool hohe Verfügbarkeit und Verwaltung](high-availability.md)
+[Hohe Verfügbarkeit und Verwaltung von Front-End-Pools](high-availability.md)
   
-[Front-End-Pool Disaster Recovery in Skype für Business Server 2015](disaster-recovery.md)
+[Front-End-Pool Disaster Recovery in Skype für Business Server](disaster-recovery.md)
   
-[Benutzerfreundlichkeit während des Ausfalls eines Pools in Skype für Business Server 2015](user-experience.md)
+[Benutzerfreundlichkeit während des Ausfalls eines Pools in Skype für Business Server](user-experience.md)
   
-[Back-End-Server hohe Verfügbarkeit in Skype für Business Server 2015](back-end-server.md)
+[Back-End-Server hohe Verfügbarkeit in Skype für Business Server](back-end-server.md)
   
-[Hohen Verfügbarkeit in Skype-Dateifreigabe für Business Server 2015](file-sharing.md)
-
+[Hohen Verfügbarkeit in Skype-Dateifreigabe für Business Server](file-sharing.md)

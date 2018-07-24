@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
+ROBOTS: NOINDEX, NOFOLLOW
 description: Der Assistent Hybrid Verwaltbarkeit können Sie einige der die zum Einrichten einer hybridbereitstellung mit Skype für Business Online erforderlichen Konfigurationsaufgaben ausgeführt werden. Weitere Informationen zum Konfigurieren der Bereitstellung für hybride finden Sie unter Konfigurieren der Umgebung mit dem Assistenten für die hybride Verwaltbarkeit.
-ms.openlocfilehash: a66d06e6ae7cc65d0ba2d4c109cdf8344b1b489f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4961b6174e915173f61ce95d9d6184a6877b8eec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978287"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967775"
 ---
 # <a name="hybrid-manageability-wizard"></a>Hybride Verwaltbarkeit-Assistent
  

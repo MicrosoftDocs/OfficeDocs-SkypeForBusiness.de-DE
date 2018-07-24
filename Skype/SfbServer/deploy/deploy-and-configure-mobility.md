@@ -1,25 +1,25 @@
 ---
-title: Bereitstellen und Konfigurieren der Mobilität für Skype for Business Server 2015
+title: Bereitstellen und Konfigurieren von Mobilität für Skype Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
-description: Dieser Artikel führt Sie durch die Schritte zum Konfigurieren einer vorhandenen Skype für die Installation von Business Server 2015 Verwendung den mobilitätsdienst, sodass Ihre mobilen Geräte Skype für Business Server Mobilitätsfeatures nutzen können.
-ms.openlocfilehash: c23974477ec815fca9c0cd3d78ac7acc0b81912e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Dieser Artikel führt Sie durch die Schritte zum Konfigurieren einer vorhandenen Skype für Business Server-Installation zum Verwenden des mobilitätsdienst, sodass Ihre mobilen Geräte Skype für Business Server Mobilitätsfeatures nutzen können.
+ms.openlocfilehash: c8d30f11fed3b6c45f06b7e21f0038bee0274df4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003138"
 ---
-# <a name="deploy-and-configure-mobility-for-skype-for-business-server-2015"></a>Bereitstellen und Konfigurieren der Mobilität für Skype for Business Server 2015
+# <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Bereitstellen und Konfigurieren von Mobilität für Skype Business Server  
  
-Dieser Artikel führt Sie durch die Schritte zum Konfigurieren einer vorhandenen Skype für die Installation von Business Server 2015 Verwendung den mobilitätsdienst, sodass Ihre mobilen Geräte Skype für Business Server Mobilitätsfeatures nutzen können.
+Dieser Artikel führt Sie durch die Schritte zum Konfigurieren einer vorhandenen Skype für Business Server-Installation zum Verwenden des mobilitätsdienst, sodass Ihre mobilen Geräte Skype für Business Server Mobilitätsfeatures nutzen können.
   
-Müssen überprüft den Artikel [für die Mobilität für Skype für Business Server 2015 planen](../plan-your-deployment/mobility.md) , sollten Sie die unten beschriebenen Schritte zum Bereitstellen von Mobilität in Ihrer Skype für Business Server 2015 Umgebung fortsetzen bereit sein. Es handelt sich um folgende Schritte (in dieser Tabelle ist eine Liste der Berechtigungen enthalten):
+Müssen überprüft den Artikel [für die Mobilität für Skype für Business Server planen](../plan-your-deployment/mobility.md) , sollten Sie die unten beschriebenen Schritte zum Bereitstellen von Mobilität in Ihrer Skype für Business Server-Umgebung fortsetzen bereit sein. Es handelt sich um folgende Schritte (in dieser Tabelle ist eine Liste der Berechtigungen enthalten):
   
 |**Phase**|**Berechtigungen**|
 |:-----|:-----|
@@ -32,6 +32,9 @@ Müssen überprüft den Artikel [für die Mobilität für Skype für Business Se
 |[Konfigurieren der Mobilitätsrichtlinie](deploy-and-configure-mobility.md#ConfigMob) <br/> |"Csadministrator"  <br/> |
    
 Alle folgenden Abschnitte enthalten Schritte, bei denen davon ausgegangen wird, dass Sie das Planungsthema gelesen haben. Wenn Ihnen etwas unklar ist, können Sie dort nachlesen.
+
+> [!NOTE]
+> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
   
 ## <a name="create-dns-records"></a>Erstellen von DNS-Einträgen
 <a name="CreateDNSRec"> </a>
@@ -70,7 +73,7 @@ Diese Einträge können entweder A(Host)-Namen oder CNAME-Einträge sein (es sin
 
 1. Diese Schritte sind allgemein gehalten, da wir nicht wissen, welchen öffentlichen DNS-Anbieter Sie verwenden, Ihnen aber dennoch Hilfestellung leisten möchten. Melden Sie sich bei Ihrem öffentlichen DNS-Anbieter mit einem Konto an, über das neue DNS-Einträge vorgenommen werden können.
     
-2. Zu diesem Zeitpunkt sollte eine SIP-Domäne bereits vorhanden Skype für Business Server 2015 vorhanden ist. Erweitern Sie die **Forward-Lookupzone** für diese SIP-Domäne, oder öffnen Sie sie andernfalls einrichten.
+2. Zu diesem Zeitpunkt sollte eine SIP-Domäne bereits vorhanden Skype für Business Server vorhanden ist. Erweitern Sie die **Forward-Lookupzone** für diese SIP-Domäne, oder öffnen Sie sie andernfalls einrichten.
     
 3. Prüfen Sie, welche der folgenden Einträge Sie haben:
     
@@ -116,7 +119,7 @@ Diese Einträge können entweder A(Host)-Namen oder CNAME-Einträge sein (es sin
 
 1. Diese Schritte sind allgemein gehalten, da wir nicht wissen, welchen öffentlichen DNS-Anbieter Sie verwenden, Ihnen aber dennoch Hilfestellung leisten möchten. Melden Sie sich bei Ihrem öffentlichen DNS-Anbieter mit einem Konto an, über das neue DNS-Einträge vorgenommen werden können.
     
-2. Zu diesem Zeitpunkt sollte eine SIP-Domäne bereits vorhanden Skype für Business Server 2015 vorhanden ist. Erweitern Sie die **Forward-Lookupzone** für diese SIP-Domäne, oder öffnen Sie sie andernfalls einrichten.
+2. Zu diesem Zeitpunkt sollte eine SIP-Domäne bereits vorhanden Skype für Business Server vorhanden ist. Erweitern Sie die **Forward-Lookupzone** für diese SIP-Domäne, oder öffnen Sie sie andernfalls einrichten.
     
 3. Prüfen Sie, welche der folgenden Einträge Sie haben:
     
@@ -135,7 +138,7 @@ Diese Einträge können entweder A(Host)-Namen oder CNAME-Einträge sein (es sin
 ## <a name="modify-certificates"></a>Ändern von Zertifikaten
 <a name="ModCerts"> </a>
 
-Wenn Sie Fragen zur Planung, um Zertifikate haben, haben wir, die im Artikel [Planen für die Mobilität für Skype für Business Server 2015](../plan-your-deployment/mobility.md) dokumentiert. Nachdem Sie diese gelesen haben, werden Sie durch folgende Schritte geführt:
+Wenn Sie Fragen zur Planung, um Zertifikate haben, haben wir, die im Artikel [Planen für die Mobilität für Skype für Business Server](../plan-your-deployment/mobility.md) dokumentiert. Nachdem Sie diese gelesen haben, werden Sie durch folgende Schritte geführt:
   
 - Benötige ich neue Zertifikate?
     
@@ -147,7 +150,7 @@ Wenn Sie Fragen zur Planung, um Zertifikate haben, haben wir, die im Artikel [Pl
     
 ### <a name="do-i-need-new-certificates"></a>Benötige ich neue Zertifikate?
 
-1. Zunächst müssen Sie überprüfen, welche Zertifikate in-Place sind und ob sie die Einträge besitzen, die Sie benötigen. Dazu müssen Sie in Ihrer Skype für Business Server 2015 Server mit einem Konto anmelden, das ein lokaler Administrator ist. Dieses Konto müssen auch Rechte an die ausstellende Zertifizierungsstelle (CA), für einige dieser Schritte haben.
+1. Zunächst müssen Sie überprüfen, welche Zertifikate in-Place sind und ob sie die Einträge besitzen, die Sie benötigen. Dazu müssen Sie in Ihrer Skype für Business Server mit einem Konto anmelden, das ein lokaler Administrator ist. Dieses Konto müssen auch Rechte an die ausstellende Zertifizierungsstelle (CA), für einige dieser Schritte haben.
     
 2. Öffnen Sie die Skype für Business Server-Verwaltungsshell (Suche können Sie gefunden werden, wenn Sie fixiert zu Ihrer Startleiste Menü- oder Aufgabe nicht vorhanden ist).
     
@@ -379,7 +382,7 @@ Es sind zwei Hauptpunkte zu berücksichtigen:
 ## <a name="configure-autodiscover-for-mobility-with-hybrid-deployments"></a>Konfigurieren der AutoErmittlung für Mobilität mit Hybridbereitstellungen
 <a name="ConfigAutoD"> </a>
 
-Hybridumgebungen in Skype für Business Server 2015 sind Umgebungen, die einem lokalen kombinieren und Office 365-Umgebung. Wenn Sie Skype für Business Server funktioniert in einer hybridumgebung haben, muss der AutoErmittlungsdienst nach einem Benutzer von einer der folgenden Umgebungen suchen können.
+Hybridumgebungen in Skype für Business Server sind Umgebungen, die einem lokalen kombinieren und Office 365-Umgebung. Wenn Sie Skype für Business Server funktioniert in einer hybridumgebung haben, muss der AutoErmittlungsdienst nach einem Benutzer von einer der folgenden Umgebungen suchen können.
   
 Damit Mobilclients ermitteln können, wo sich ein Benutzer befindet, muss der AutoErmittlungsdienst mit einem neuen Uniform Resource Locator (URL) konfiguriert sein. Führen Sie folgende Schritte aus:
   
@@ -404,7 +407,10 @@ Damit Mobilclients ermitteln können, wo sich ein Benutzer befindet, muss der Au
 
 Nachdem Sie Skype Business Server-Mobilitätsdienst und Skype für Business Server AutoErmittlungsdienst bereitgestellt haben, sollten Sie eine Testtransaktion, um rechten stellen Sie sicher, dass Ihre Bereitstellung arbeiten ausführen. Sie können **Test-CsUcwaConference** ausführen, um die Fähigkeit zweier Benutzer zu testen, eine Konferenz zu erstellen, daran teilzunehmen und darin zu kommunizieren. Sie benötigen zwei Benutzer (echte oder Testbenutzer) und deren vollständige Anmeldeinformationen für diesen Test. Mit diesem Befehl wird für beide Skype für Business Clients als auch für Lync Server 2013-Clients verwendet werden.
   
-Für Lync Server 2010-Clients müssen Sie führen Sie **Test-CsMcxP2PIM** zu testen. Die Lync Server 2010-Benutzer müssen weiterhin tatsächlichen Benutzern oder vordefinierten Testbenutzer sein und benötigen Sie ihre Anmeldeinformationen.
+Für Lync Server 2010-Clients auf Skype für Business Server 2015 müssen Sie führen Sie **Test-CsMcxP2PIM** zu testen. Die Lync Server 2010-Benutzer müssen weiterhin tatsächlichen Benutzern oder vordefinierten Testbenutzer sein und benötigen Sie ihre Anmeldeinformationen.
+
+> [!NOTE]
+> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Testkonferenz für Skype for Business- und Lync 2013-Mobilclients
 
@@ -429,6 +435,9 @@ Für Lync Server 2010-Clients müssen Sie führen Sie **Test-CsMcxP2PIM** zu tes
    ```
 
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Konferenztest für Lync 2010-Mobilclients
+
+> [!NOTE]
+> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
 
 1. Melden Sie sich als Mitglied der **CsAdministrator** -Rolle auf einem beliebigen Computer, auf dem **Skype für Business Server-Verwaltungsshell** und **Ocscore** installiert sind.
     
@@ -455,11 +464,11 @@ Um den Befehl Verfahren überprüfen können darüber hinaus [Test-CsUcwaConfere
 ## <a name="configure-for-push-notifications"></a>Konfigurieren von Pushbenachrichtigungen
 <a name="ConfigPush"> </a>
 
-Pushbenachrichtigungen in Form von Badges, Symbolen oder Warnungen können an ein Mobilgerät gesendet werden, selbst wenn die Skype- oder Lync-App inaktiv ist. Aber was sind Pushbenachrichtigungen? Dabei handelt es sich um Ereignisbenachrichtigungen, wie neue oder verpasste Chateinladungen oder eine erhaltene Voicemail. Die Skype für Business Server 2015 mobilitätsdienst sendet diese Benachrichtigungen an die Cloud-basierten Skype für Business Server Push Notification Service, der Sie dann die Benachrichtigungen zu Microsoft Push Notification Service (MSNS) für Windows Phone-Benutzer sendet.
+Pushbenachrichtigungen in Form von Badges, Symbolen oder Warnungen können an ein Mobilgerät gesendet werden, selbst wenn die Skype- oder Lync-App inaktiv ist. Aber was sind Pushbenachrichtigungen? Dabei handelt es sich um Ereignisbenachrichtigungen, wie neue oder verpasste Chateinladungen oder eine erhaltene Voicemail. Die Skype für Business Server-mobilitätsdienst sendet diese Benachrichtigungen an die Cloud-basierten Skype für Business Server Push Notification Service, der Sie dann die Benachrichtigungen zu Microsoft Push Notification Service (MSNS) für Windows Phone-Benutzer sendet.
   
 Diese Funktionalität wird von Lync Server 2013 nicht geändert, aber wenn Sie einen Skype für Business Server verfügen, sollten Sie folgende Aktionen ausführen:
   
-- Für einen Skype für Business Server 2015 Edge-Server einen neuen Hostinganbieter, Microsoft Skype für Business Online, hinzufügen, und klicken Sie dann Hostinganbieter-Partnerverbund zwischen Ihrer Organisation und Skype für Business Online einrichten.
+- Für einen Skype für Business Server-Edgeserver einen neuen Hostinganbieter, Microsoft Skype für Business Online, hinzufügen, und klicken Sie dann Hostinganbieter-Partnerverbund zwischen Ihrer Organisation und Skype für Business Online einrichten.
     
 - Aktivieren Sie Pushbenachrichtigungen, indem Sie das Cmdlet **Set-CsPushNotificationConfiguration** ausführen. Pushbenachrichtigungen sind standardmäßig deaktiviert.
     
@@ -543,13 +552,13 @@ Diese Funktionalität wird von Lync Server 2013 nicht geändert, aber wenn Sie e
 ## <a name="configure-mobility-policy"></a>Konfigurieren der Mobilitätsrichtlinie
 <a name="ConfigMob"> </a>
 
-Sie haben die Möglichkeit mit Skype für Business Server 2015, um zu bestimmen, wer Ihre mobilitätsdienst verwenden können, rufen Sie über den Arbeitsplatz, Voice over IP (VoIP) oder Video, sowie, ob WiFi für VoIP oder Video erforderlich sein soll. Mit der Funktion „Geschäftlich anrufen“ kann ein Benutzer Anrufe auf seinem Mobiltelefon unter Verwendung seiner geschäftlichen Telefonnummer anstatt seiner Mobilfunknummer tätigen und entgegennehmen. Der Gesprächspartner kann die Mobiltelefonnummer dieses Mobilbenutzers nicht sehen, und der Mobilbenutzer kann damit ausgehende Anrufgebühren vermeiden. Wenn VoIP und Video eingerichtet sind, können Benutzer VoIP-Anrufe annehmen und tätigen und Video nutzen. Mit den Einstellungen für WLAN-Nutzung wird festgelegt, ob das Mobilgerät eines Benutzers ein WLAN-Netzwerk über ein mobiles Datennetzwerk nutzen muss.
+Sie haben die Möglichkeit mit Skype für Business Server, um zu bestimmen, wer Ihre mobilitätsdienst verwenden können, rufen Sie über den Arbeitsplatz, Voice over IP (VoIP) oder Video, sowie, ob WiFi für VoIP oder Video erforderlich sein soll. Mit der Funktion „Geschäftlich anrufen“ kann ein Benutzer Anrufe auf seinem Mobiltelefon unter Verwendung seiner geschäftlichen Telefonnummer anstatt seiner Mobilfunknummer tätigen und entgegennehmen. Der Gesprächspartner kann die Mobiltelefonnummer dieses Mobilbenutzers nicht sehen, und der Mobilbenutzer kann damit ausgehende Anrufgebühren vermeiden. Wenn VoIP und Video eingerichtet sind, können Benutzer VoIP-Anrufe annehmen und tätigen und Video nutzen. Mit den Einstellungen für WLAN-Nutzung wird festgelegt, ob das Mobilgerät eines Benutzers ein WLAN-Netzwerk über ein mobiles Datennetzwerk nutzen muss.
   
 Features für Mobilität, Anruf über den Arbeitsplatz, und die VoIP und video sind alle standardmäßig aktiviert. Die Einstellungen, die WLAN für VoIP und Video erfordern, sind deaktiviert. Administratoren können dies entweder global, nach Standort oder nach Benutzer ändern.
   
 Um die Mobilitätsfeatures und anrufen verwenden zu können über den Arbeitsplatz, Benutzer werden müssen:
   
-- Für Skype aktiviert für Business Server 2015
+- Für Skype aktiviert für Business Server
     
 - Aktiviert für Enterprise-VoIP
     

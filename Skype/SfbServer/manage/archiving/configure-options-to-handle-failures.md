@@ -1,24 +1,24 @@
 ---
-title: Konfigurieren von Archivierungsoptionen zum Beheben von Fehlern in Skype for Business Server 2015
+title: Konfigurieren von Archivierungsoptionen Behandeln von Fehlern in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 'Zusammenfassung: Erfahren Sie, wie im- und konferenzsitzungen im Fall einer Skype für Business Server 2015 Fehler zu blockieren, die Archivierung verhindern würden.'
-ms.openlocfilehash: 4ad6b8eb496555751aab31949aa3e710749e0262
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie im- und konferenzsitzungen im Fall einer Skype für Business Serverausfall blockieren, die Archivierung verhindern würden.'
+ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998714"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server-2015"></a>Konfigurieren von Archivierungsoptionen zum Beheben von Fehlern in Skype for Business Server 2015
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Konfigurieren von Archivierungsoptionen Behandeln von Fehlern in Skype für Business Server
 
-**Zusammenfassung:** Erfahren Sie, wie im- und konferenzsitzungen im Fall einer Skype für Business Server 2015 Fehler zu blockieren, die Archivierung verhindern würden.
+**Zusammenfassung:** Erfahren Sie, wie im- und konferenzsitzungen im Fall einer Skype für Business Serverausfall blockieren, die Archivierung verhindern würden.
   
 Wenn die Archivierung für Ihre Organisation erforderlich ist, können Sie im- und konferenzsitzungen im Fall einer Skype für Business Serverausfall blockieren, die Archivierung verhindern würden. Dies wird manchmal auch als kritischer Modus bezeichnet. Wenn beispielsweise ein Problem mit einem Speicherdienst auftritt, würde Chat für Nutzer blockiert, die für die Archivierung aktiviert sind. Nach der Fehlerkorrektur werden Chat und Konferenzen automatisch wiederhergestellt. 
   

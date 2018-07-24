@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
+ROBOTS: NOINDEX, NOFOLLOW
 description: Um eine verzögerte Anforderung oder einer offlineanforderung erstellen, wählen Sie die Freigabe Vorbereiten der Anforderung jetzt, jedoch senden Sie später (offline-zertifikatanforderung). Wählen Sie Anforderung unmittelbar an eine Onlinezertifizierungsstelle senden, um eine sofortige Anforderung an eine Onlinezertifizierungsstelle (in der Regel ein internes System in Ihrer Organisation public Key-Infrastruktur) zu erstellen.
-ms.openlocfilehash: 562a7f8e5d35e1444b9a4ef91d96da767ed7c7e2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 09f5b97bba4cad9799d3f3cdcb30816b7f69fd6c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990653"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003021"
 ---
 # <a name="certificate-request-online-offline"></a>Zertifikatsanforderung (online/offline)
  

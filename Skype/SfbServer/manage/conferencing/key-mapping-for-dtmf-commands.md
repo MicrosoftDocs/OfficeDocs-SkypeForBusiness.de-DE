@@ -1,24 +1,24 @@
 ---
-title: Verwalten der Tastenzuordnung für DTMF-Befehle in Skype for Business Server 2015
+title: Verwalten der tastenzuordnung für DTMF-Befehle in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Zusammenfassung: Erfahren Sie, wie der tastenzuordnung von Dual-Tone Multi-Frequency (MFV) Befehle in Skype für Business Server 2015 verwalten.'
-ms.openlocfilehash: 0dca7143b59b7cf4ded0302f763053e71be3bb2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie der tastenzuordnung von Dual-Tone Multi-Frequency (MFV) Befehle in Skype für Business Server verwalten.'
+ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992682"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server-2015"></a>Verwalten der Tastenzuordnung für DTMF-Befehle in Skype for Business Server 2015
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Verwalten der tastenzuordnung für DTMF-Befehle in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie der tastenzuordnung von Dual-Tone Multi-Frequency (MFV) Befehle in Skype für Business Server 2015 verwalten.
+**Zusammenfassung:** Erfahren Sie, wie der tastenzuordnung von Dual-Tone Multi-Frequency (MFV) Befehle in Skype für Business Server verwalten.
   
 Einwahlkonferenzbenutzer können DTMF-Befehle (Dual-Tone Multi-Frequency) mithilfe der Tasten ihres Telefons ausführen. Mit DTMF-Befehlen können Benutzer, die sich bei einer Konferenz einwählen, Konferenzeinstellungen mit der Telefontastatur steuern (z. B. eigene Person stummschalten bzw. die Stummschaltung der eigenen Person aufheben oder Konferenz sperren bzw. entsperren). 
   

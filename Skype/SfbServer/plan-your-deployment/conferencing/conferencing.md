@@ -1,24 +1,24 @@
 ---
-title: Planen von Konferenzen in Skype for Business Server 2015
+title: Planen von Konferenzen in Skype for Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Live Meeting-Features und Funktionen in Skype für Business Server 2015 erhalten.'
-ms.openlocfilehash: d53f3a787a32b784f8d0bd7514e9a6ae868076ba
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Live Meeting-Features und Funktionen in Skype für Business Server erhalten.'
+ms.openlocfilehash: b9c28c2a4f4f45bb9b79413269ebecd5a7f83464
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002871"
 ---
-# <a name="plan-for-conferencing-in-skype-for-business-server-2015"></a>Planen von Konferenzen in Skype for Business Server 2015
+# <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planen von Konferenzen in Skype for Business Server
  
-**Zusammenfassung:** Lesen Sie in diesem Thema, um Informationen zu Live Meeting-Features und Funktionen in Skype für Business Server 2015 zu erhalten.
+**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zu Live Meeting-Features und Funktionen in Skype für Business Server erhalten.
   
 Konferenzen in Skype für Business Server ermöglicht Benutzern das erfüllen und Konferenzen online mit ihren Skype für Business Client anstelle von jeder zusammen im selben Raum abrufen. Teilnehmer kann eine Verbindung mit einer Besprechung mit ihren Skype für Business-Client für eine vollständige Audio- und Videoerlebnis, oder zu einer Konferenz mit einem Telefon einwählen. Die Konferenzen unterstützen außerdem Funktionen wie Chat, Desktop- und Anwendungsfreigabe sowie interaktive Whiteboards.
   
@@ -38,7 +38,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 Es stehen vier Typen von Konferenzen in Skype für Business Server: Webkonferenzen, Audio und Video (A / V) Konferenz-, einwahlkonferenzen und Konferenzen Sofortnachrichten (IM). 
   
-Ganz nach Ihren Bedürfnissen können Sie entweder alle Konferenzarten aktivieren oder nur einen einzigen Typen nutzen. Beispielsweise können Sie alle Typen, einschließlich einwahlkonferenzen, um Benutzern zu ermöglichen, die nicht in der Lage zur Teilnahme an einer Konferenz mit einer Skype Business Client sind in aufrufen und teilnehmen an den Audiodaten der Besprechung über ein Telefon aktivieren. Wenn Sie Skype für Business Server bereitstellen, sind Instant Messaging-Konferenzfunktionen automatisch bereitgestellt. Sie angeben, ob zum Bereitstellen von Web, A / V und einwahlkonferenzen mit dem Topologie-Generator. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md). 
+Ganz nach Ihren Bedürfnissen können Sie entweder alle Konferenzarten aktivieren oder nur einen einzigen Typen nutzen. Beispielsweise können Sie alle Typen, einschließlich einwahlkonferenzen, um Benutzern zu ermöglichen, die nicht in der Lage zur Teilnahme an einer Konferenz mit einer Skype Business Client sind in aufrufen und teilnehmen an den Audiodaten der Besprechung über ein Telefon aktivieren. Wenn Sie Skype für Business Server bereitstellen, sind Instant Messaging-Konferenzfunktionen automatisch bereitgestellt. Sie angeben, ob zum Bereitstellen von Web, A / V und einwahlkonferenzen mit dem Topologie-Generator. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype für Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
 In den folgenden Unterabschnitten werden die Funktionen und Optionen der einzelnen Konferenzarten beschrieben.
   
@@ -84,11 +84,11 @@ Mit der AV-Konferenzfunktion können in der Besprechung Audio- und Videodaten ü
     
 ### <a name="dial-in-conferencing"></a>Einwahlkonferenzen
 
-Einwahlkonferenzen kann Teilnehmer an der Audiokomponente einer Besprechung beitreten, indem Sie die Besprechung einwählen, über ein Telefon. Einwahlkonferenzen sind ein Unterbereich der Audiokonferenzen und müssen zusätzlich konfiguriert werden. Weitere Informationen zu einwahlkonferenzen finden Sie unter [Planen von einwahlkonferenzen in Skype für Business Server 2015](dial-in-conferencing.md) und [Configure einwahlkonferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
+Einwahlkonferenzen kann Teilnehmer an der Audiokomponente einer Besprechung beitreten, indem Sie die Besprechung einwählen, über ein Telefon. Einwahlkonferenzen sind ein Unterbereich der Audiokonferenzen und müssen zusätzlich konfiguriert werden. Weitere Informationen zu einwahlkonferenzen finden Sie unter [Planen von einwahlkonferenzen in Skype für Business Server](dial-in-conferencing.md) und [Configure einwahlkonferenzen in Skype für Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
   
 ### <a name="instant-messaging-conferencing"></a>Chatkonferenzen
 
-Über die Chatkonferenzfunktion können mehr als zwei Parteien in einer einzigen Sofortnachrichtensitzung miteinander kommunizieren. Ausführliche Informationen zu Instant Messaging-Konferenzen finden Sie unter [Planen von instant messaging und Anwesenheit in Skype für Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md).
+Über die Chatkonferenzfunktion können mehr als zwei Parteien in einer einzigen Sofortnachrichtensitzung miteinander kommunizieren. Ausführliche Informationen zu Instant Messaging-Konferenzen finden Sie unter [Planen von instant messaging und Anwesenheit in Skype für Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 ## <a name="conferencing-components"></a>Konferenzkomponenten
 
@@ -121,7 +121,7 @@ Zu den Komponenten, die für die Unterstützung der Konferenzfunktionen erforder
     
 ## <a name="conferencing-policies"></a>Konferenzrichtlinien
 
-Zum Erzwingen der Richtlinien und Steuern der Bandbreite-Verwendung Ihrer Organisation können Sie Richtlinien für die Arten von Besprechungen festlegen, die Benutzern das organisieren können. Sie können eine Vielzahl von Konferenzrichtlinien definieren und diese einzelnen Benutzern und Benutzergruppen zuweisen. Ferner können Sie Richtlinien festlegen, die Peer-zu-Peer-Unterhaltungen steuern. Weitere Informationen zum Festlegen von konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype für Business Server 2015](../../manage/conferencing/conferencing-policies.md). Ausführliche Informationen zur bandbreitenverwaltung von finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Zum Erzwingen der Richtlinien und Steuern der Bandbreite-Verwendung Ihrer Organisation können Sie Richtlinien für die Arten von Besprechungen festlegen, die Benutzern das organisieren können. Sie können eine Vielzahl von Konferenzrichtlinien definieren und diese einzelnen Benutzern und Benutzergruppen zuweisen. Ferner können Sie Richtlinien festlegen, die Peer-zu-Peer-Unterhaltungen steuern. Weitere Informationen zum Festlegen von konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype für Business Server](../../manage/conferencing/conferencing-policies.md). Ausführliche Informationen zur bandbreitenverwaltung von finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 ## <a name="support-for-large-meetings"></a>Unterstützung für große Besprechungen
 
@@ -131,9 +131,9 @@ Die Größe von Besprechungen, die unterstützt Skype für Business Server häng
     
 - Auf einem dedizierten Pool, Skype für Business Server unterstützen Besprechungen mit bis zu 1000 Teilnehmern mit Web und Audio/Video (A / V) Konferenzen, einschließlich der Freigabe von PowerPoint-Präsentationen. Hierzu muss ein dedizierter Pool konfiguriert werden, der große Besprechungen unterstützt und so verwaltet wird, dass er das Hosten einer einzigen großen Besprechung sicherstellt. 
     
-Weitere Informationen zum Verwalten von großen Besprechungen finden Sie unter [Planen von großen Besprechungen in Skype für Business Server 2015](large-meetings.md).
+Weitere Informationen zum Verwalten von großen Besprechungen finden Sie unter [Planen von großen Besprechungen in Skype für Business Server](large-meetings.md).
   
-Wenn Ihre Organisation größere Besprechung Funktionen erforderlich sind, sollten Sie erwägen, implementieren eine hybridumgebung, die eine neue Onlinedienst Skype Besprechung übertragen nutzt, die Teil von Office 365 ist. Skype-Livekonferenz ermöglicht Benutzern, Besprechungen von bis zu 10.000 Teilnehmern zu hosten und an ein ebenso großes Online-Publikum zu übertragen. Für die Nutzung von Skype-Livekonferenz muss Skype for Business Server bereits in einer Hybridumgebung mit einem Office 365-Produktionsmandanten konfiguriert sein. Als Grundvoraussetzung muss bei allen Benutzern ein Online-Mandant eingerichtet sein. Wenn Sie bei der Bereitstellung von einer Hybrid-Lösung, die Besprechung übertragen werden Skype nutzen kann, finden Sie unter [Konfigurieren der lokalen Bereitstellung für Skype Besprechung übertragen werden](../../deploy/configure-skype-meeting-broadcast.md).
+Wenn Ihre Organisation größere Besprechung Funktionen erforderlich sind, sollten Sie erwägen, implementieren eine hybridumgebung, die ein Onlinedienst Skype Besprechung übertragen nutzt, die Teil von Office 365 ist. Skype-Livekonferenz ermöglicht Benutzern, Besprechungen von bis zu 10.000 Teilnehmern zu hosten und an ein ebenso großes Online-Publikum zu übertragen. Für die Nutzung von Skype-Livekonferenz muss Skype for Business Server bereits in einer Hybridumgebung mit einem Office 365-Produktionsmandanten konfiguriert sein. Als Grundvoraussetzung muss bei allen Benutzern ein Online-Mandant eingerichtet sein. Wenn Sie bei der Bereitstellung von einer Hybrid-Lösung, die Besprechung übertragen werden Skype nutzen kann, finden Sie unter [Konfigurieren der lokalen Bereitstellung für Skype Besprechung übertragen werden](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## <a name="determine-your-organizations-needs"></a>Festlegen der Anforderungen Ihres Unternehmens
 
@@ -144,21 +144,21 @@ Wenn Sie festlegen, welche Konferenzfunktionen bereitgestellt werden sollen, mü
   
 - **Sollen Webkonferenzfunktionen bereitgestellt werden, die eine gemeinsame Verwendung von Dokumenten und Anwendungen umfassen?**
     
-    Wenn ja, müssen Sie die Konferenzfunktionen mithilfe des Planungstools oder des Topologie-Generators für Ihren Front-End-Pool freischalten. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+    Wenn ja, müssen Sie die Konferenzfunktionen mithilfe des Planungstools oder des Topologie-Generators für Ihren Front-End-Pool freischalten. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype für Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
-    Bei der Anwendungsfreigabe wird eine höhere Netzwerkbandbreite als bei der Dokumentzusammenarbeit benötigt und belegt. Skype für Business Server bietet einen Drosselung Mechanismus für jede Anwendung einer freigabesitzung steuern. In der Standardeinstellung sind für jede Sitzung 1,5 KB/s festgelegt. Wenn Sie nicht die Anwendungsfreigabe aktivieren möchten, aber Sie, dass Zusammenarbeit an Dokumenten möchten, können Sie Konferenzfunktionen aktivieren und Verwenden von konferenzrichtlinien auf Anwendungsfreigabe deaktivieren. Ausführliche Informationen zum Konfigurieren von konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype für Business Server 2015](../../manage/conferencing/conferencing-policies.md).
+    Bei der Anwendungsfreigabe wird eine höhere Netzwerkbandbreite als bei der Dokumentzusammenarbeit benötigt und belegt. Skype für Business Server bietet einen Drosselung Mechanismus für jede Anwendung einer freigabesitzung steuern. In der Standardeinstellung sind für jede Sitzung 1,5 KB/s festgelegt. Wenn Sie nicht die Anwendungsfreigabe aktivieren möchten, aber Sie, dass Zusammenarbeit an Dokumenten möchten, können Sie Konferenzfunktionen aktivieren und Verwenden von konferenzrichtlinien auf Anwendungsfreigabe deaktivieren. Ausführliche Informationen zum Konfigurieren von konferenzrichtlinien finden Sie unter [konferenzrichtlinien in Skype für Business Server verwalten](../../manage/conferencing/conferencing-policies.md).
     
-    Um Benutzern das Freigeben von PowerPoint-Präsentationen zu ermöglichen, müssen Sie den Office Web Apps-Server konfigurieren. Ausführliche Informationen zum Konfigurieren von Office Web Apps Server finden Sie unter [Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Um Benutzern das Freigeben von PowerPoint-Präsentationen zu ermöglichen, müssen Sie den Office Web Apps-Server konfigurieren. Ausführliche Informationen zum Konfigurieren von Office Web Apps Server finden Sie unter [Integration mit Office Web Apps Server in Skype für Business Server konfigurieren](../../deploy/deploy-conferencing/office-web-app-server.md).
     
-- **Möchten Sie Audio-und Videokonferenzen aktivieren?**
+- **Möchten Sie Audio- und Videokonferenzen aktivieren?**
     
-    Wenn ja, müssen Sie die Konferenzfunktionen mithilfe des Planungstools oder des Topologie-Generators für Ihren Front-End-Pool freischalten. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+    Wenn ja, müssen Sie die Konferenzfunktionen mithilfe des Planungstools oder des Topologie-Generators für Ihren Front-End-Pool freischalten. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype für Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
     Für Audio- und Videokonferenzen ist eine höhere Netzwerkbandbreite erforderlich als für Webkonferenzen (diese umfassen Dokumentzusammenarbeit und Anwendungsfreigabe). Wenn Sie Audio- und Videokonferenzen nicht aktivieren, jedoch die Funktion für Webkonferenzen bereitstellen möchten, können Sie die Konferenzfunktionen aktivieren und A/V-Konferenzen mithilfe von Konferenzrichtlinien deaktivieren.
     
     Wenn Sie Audiokonferenzen, jedoch keine Videokonferenzen zulassen möchten, können Sie die A/V-Konferenzfunktion aktivieren und Videokonferenzen mithilfe von Konferenzrichtlinien verhindern. Alternativ können Sie A/V-Konferenzen aktivieren und das Starten von oder Teilnehmen an A/V-Konferenzen nur für bestimmte Benutzer zulassen. 
     
-    Weitere Informationen zum Konfigurieren von konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype für Business Server 2015](../../manage/conferencing/conferencing-policies.md).
+    Weitere Informationen zum Konfigurieren von konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype für Business Server](../../manage/conferencing/conferencing-policies.md).
     
     > [!NOTE]
     > Enterprise Voice wird für A/V-Konferenzen nicht benötigt. Wenn Sie A/V-Konferenzen aktivieren, können Benutzer ihren Konferenzen Audiofunktionen hinzufügen, falls sie über entsprechende Geräte verfügen. Dies gilt auch bei Verwendung eines Nebenstellensystems als Telefonlösung. 
@@ -167,21 +167,21 @@ Wenn Sie festlegen, welche Konferenzfunktionen bereitgestellt werden sollen, mü
     
     Wenn ja, stellen Sie Einwahlkonferenzen bereit und aktivieren Sie sie. Eingeladene Benutzer innerhalb und außerhalb Ihrer Organisation können anschließend unter Verwendung eines Festnetztelefons am Audioteil von Konferenzen teilnehmen.
     
-    Einwahlkonferenzen ist eine optionale Funktion, die Sie bei der Bereitstellung von Skype für Konferenzen Business Server konfigurieren können. Wenngleich Einwahlkonferenzen einige Komponenten von Enterprise Voice verwenden, ist die Bereitstellung von Enterprise Voice nicht erforderlich, um Einwahlkonferenzen bereitzustellen. Einwahlkonferenzen können sowohl für Unternehmensbenutzer als auch für anonyme Benutzer eingesetzt werden. Weitere Informationen zum Konfigurieren von einwahlkonferenzen für anonyme Benutzer und Unternehmen finden Sie unter [Bereitstellen von Konferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md) und [Configure einwahlkonferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+    Einwahlkonferenzen ist eine optionale Funktion, die Sie bei der Bereitstellung von Skype für Konferenzen Business Server konfigurieren können. Wenngleich Einwahlkonferenzen einige Komponenten von Enterprise Voice verwenden, ist die Bereitstellung von Enterprise Voice nicht erforderlich, um Einwahlkonferenzen bereitzustellen. Einwahlkonferenzen können sowohl für Unternehmensbenutzer als auch für anonyme Benutzer eingesetzt werden. Weitere Informationen zum Konfigurieren von einwahlkonferenzen für anonyme Benutzer und Unternehmen finden Sie unter [Bereitstellen von Konferenzen in Skype für Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) und [Configure einwahlkonferenzen in Skype für Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
-- **Möchten Sie die externe Benutzer mit Skype für Business Clients an Konferenzen teilnehmen können?**
+- **Möchten Sie externen Benutzern mit Skype for Business-Clients erlauben, an einer Konferenz teilzunehmen?**
     
     Durch Zulassen der externen Teilnahme an Besprechungen, Maximieren Sie Ihre Investitionen in Skype für Business Server. Folgende Personenkreise können als externe Benutzer eingestuft werden:
     
   - **Remotebenutzer.** Die organisationseigenen Benutzer, wenn außerhalb der Organisationsfirewalls arbeiten und Laptops oder andere Skype für Business Server-Geräte verwenden.
     
-  - ** Verbundbenutzer. ** Benutzern von Unternehmen, mit denen Sie arbeiten, die auch Skype für Business Server ausführen. Damit Ihre Benutzer problemlos Kontakt zu diesen Benutzern aufnehmen können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
+  - **Verbundbenutzer.** Benutzer von Unternehmen, mit denen Sie arbeiten, die auch Skype für Business Server ausführen. Damit Ihre Benutzer problemlos Kontakt zu diesen Benutzern aufnehmen können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
     
-  - ** Anonyme Benutzer. ** Alle anderen externen Benutzern, die spezifisch vom Benutzer zur Teilnahme an bestimmten Konferenzen eingeladen werden. Der Organisator einer Besprechung in Ihrem Unternehmen kann eine E-Mail-Einladung für eine Konferenz an einen externen Benutzer senden. Diese E-Mail enthält einen Link, über den der externe Benutzer an der Konferenz teilnehmen kann.
+  - **Anonyme Benutzer.** Alle anderen externen Benutzer, die von Ihren Benutzern zur Teilnahme an bestimmten Konferenzen eingeladen werden. Der Organisator einer Besprechung in Ihrem Unternehmen kann eine E-Mail-Einladung für eine Konferenz an einen externen Benutzer senden. Diese E-Mail enthält einen Link, über den der externe Benutzer an der Konferenz teilnehmen kann.
     
     Wenn Sie externen Benutzern ermöglichen möchten, müssen Sie die Edge-Server bereitstellen. Wenn Sie Edgeserver bereitstellen, können Sie zudem Partnerverbundbeziehungen mit anderen Organisationen – z. B. Ihren Kunden oder Lieferanten – einrichten, sodass Benutzer dieser Organisationen einfacher mit Ihren Benutzern zusammenarbeiten können.
     
-    Ausführliche Informationen zur Bereitstellung von Edgeservern finden Sie unter „Planen für Edgeserver“ und „Bereitstellen von Edgeserver“. Weitere Informationen zum Festlegen des externen Zugriffs für Office Web Apps Server finden Sie unter [Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Ausführliche Informationen zur Bereitstellung von Edgeservern finden Sie unter „Planen für Edgeserver“ und „Bereitstellen von Edgeserver“. Weitere Informationen zum Festlegen des externen Zugriffs für Office Web Apps Server finden Sie unter [Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
 - **Möchten Sie die Clients kontrollieren, die Skype für Business Server-Besprechungen teilnehmen können?**
     

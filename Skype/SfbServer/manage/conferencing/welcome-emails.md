@@ -1,24 +1,24 @@
 ---
-title: Senden einer Begrüßungs-E-Mail an Einwahlbenutzer in Skype for Business Server 2015
+title: Willkommen e-Mails an Zugriffsnummer für Einwahl senden Benutzer in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 'Zusammenfassung: Informationen Sie zum Einladen von Benutzern zu einwahlkonferenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: 0aa939e2ef742c554339967e31204461bca52b6f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Einladen von Benutzern zu einwahlkonferenzen in Skype für Business Server.'
+ms.openlocfilehash: f21d130f84b248b2911d691dbcf80f2563ee60fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008680"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server-2015"></a>Senden einer Begrüßungs-E-Mail an Einwahlbenutzer in Skype for Business Server 2015
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Willkommen e-Mails an Zugriffsnummer für Einwahl senden Benutzer in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Einladen von Benutzern zu einwahlkonferenzen in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Einladen von Benutzern zu einwahlkonferenzen in Skype für Business Server.
   
 Nach dem Konfigurieren von Einwahlkonferenzen und dem Testen der ordnungsgemäßen Funktionsweise sollten Sie persönliche Identifikationsnummern (PINs) für Ihre Benutzer einrichten und die Benutzer über die Verfügbarkeit dieser Funktion informieren. Sie sollten den Benutzern die anfängliche PIN und den Link zur Webseite mit den Einwahlkonferenzeinstellungen bereitstellen. 
   
@@ -28,9 +28,9 @@ Sie können mithilfe des Skripts **Set-CsPinSendCAWelcomeMail** eine PIN für ei
   
 Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skript iterativ ausgeführt wird, um PINs für eine Benutzergruppe einzurichten und E-Mails an diese Gruppe zu senden. Sie können die E-Mail-Vorlage (d. h. die Datei CAWelcomeEmailTemplate.html) bearbeiten, um weitere Links zu Intranetseiten hinzuzufügen oder den E-Mail-Text zu ändern.
   
-## 
 
-### <a name="set-an-initial-pin-and-send-welcome-email"></a>Einrichten einer anfänglichen PIN und Senden einer Begrüßungs-E-Mail
+
+## <a name="set-an-initial-pin-and-send-welcome-email"></a>Einrichten einer anfänglichen PIN und Senden einer Begrüßungs-E-Mail
 
 1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" an.
     

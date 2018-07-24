@@ -1,24 +1,24 @@
 ---
-title: Ändern von QoE-Einstellungen (Quality of Experience) in Skype for Business Server 2015
+title: Ändern der Quality of Experience-Einstellungen in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 'Zusammenfassung: Erfahren Sie, wie Beibehaltungsdauer für QoE-Daten in Skype für Business Server 2015 angeben.'
-ms.openlocfilehash: 99a85a389b225d57b48b52b3f6f1d5b66e93f122
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie Beibehaltungsdauer für QoE-Daten in Skype für Business Server angeben.'
+ms.openlocfilehash: a456a2528b78242849f651209e70c98046ebe0c3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012666"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server-2015"></a>Ändern von QoE-Einstellungen (Quality of Experience) in Skype for Business Server 2015
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Ändern der Quality of Experience-Einstellungen in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Beibehaltungsdauer für QoE-Daten in Skype für Business Server 2015 angeben.
+**Zusammenfassung:** Erfahren Sie, wie Beibehaltungsdauer für QoE-Daten in Skype für Business Server angeben.
   
 In der Standardeinstellung werden QoE-Daten (Quality of Experience, Erlebnisqualität) nach 60 Tagen gelöscht. Sie können die Einstellungen auf der Seite **QoE-Daten** verwenden, um die Daten für einen längeren oder kürzeren Zeitraum zu speichern. Wenn Sie QoE deaktivieren, werden auch Daten gelöscht, die bei aktivierter QoE-Datenerfassung aufgezeichnet wurden.
   
@@ -67,7 +67,4 @@ Weitere Informationen finden Sie im Hilfethema zum [Set-CsQoEConfiguration](http
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Bereitstellen des Monitoring](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-

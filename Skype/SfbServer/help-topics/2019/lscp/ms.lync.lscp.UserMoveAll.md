@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
-description: Klicken Sie im Dialogfeld Benutzer verschieben können Sie die Quell- und Zielserver Pools zum Verschieben von Benutzerkonten aus einem Pool in einen anderen in Ihrer Bereitstellung auswählen.
-ms.openlocfilehash: 84dd833b7b751f9b8862f2c2f7ee06749e67ea19
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Im Dialogfeld Benutzer verschieben können Sie die Quell- und Zielpools zum Verschieben von Benutzerkonten aus einem Pool in einen anderen Pool der Bereitstellung auswählen.
+ms.openlocfilehash: 8b4c2be12469a12f3628ba66a43de7c7fd59bbab
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19980009"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983791"
 ---
 # <a name="move-all-users"></a>Verschieben aller Benutzer
  

@@ -1,32 +1,32 @@
 ---
-title: Meinen Anruf bewerten in Skype for Business Server 2015
+title: Bewerten von Meine Anruf in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Zusammenfassung: Informationen Sie zum Feature Rate Meine Aufrufen in Skype für Business Server 2015.'
-ms.openlocfilehash: 1e0088c563f38be59bda0fad10dbd367ea0646e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Feature Rate Meine Aufrufen in Skype für Business Server.'
+ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989063"
 ---
-# <a name="rate-my-call-in-skype-for-business-server-2015"></a>Meinen Anruf bewerten in Skype for Business Server 2015
+# <a name="rate-my-call-in-skype-for-business-server"></a>Bewerten von Meine Anruf in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu dem Feature Rate Meine Aufrufen in Skype für Business Server 2015.
+**Zusammenfassung:** Lernen Sie das Feature Rate Meine Aufrufen in Skype für Business Server aus.
   
-Rate Meine aufrufen, ist ein neues Feature in Skype für Business 2015 und 2016 Clients unter Windows, das Unternehmen eine Möglichkeit zum Abrufen von Feedback von ihren Endbenutzern bereitstellt.
+Rate Meine aufrufen, wurde ein neues Feature in Skype für Business 2015 und 2016 Clients unter Windows, das Unternehmen eine Möglichkeit zum Abrufen von Feedback von ihren Endbenutzern bereitstellt.
   
 Das Fenster Rate Meine aufrufen bietet einen "Stern" Bewertungssystem und vordefinierten Token für Audio-und Videoanrufe. Darüber hinaus können Administratoren ein benutzerdefiniertes Feld Ihr Feedback übermitteln können.
   
 Erfasste Daten aus „Meinen Anruf bewerten“ sind derzeit nicht in einem vorhandenen Überwachungsbericht enthalten, es gibt jedoch einen separaten Überwachungsbericht. Daten werden in der SQL-Tabellen, die durch Ausführen von SQL-Abfragen zugegriffen werden kann.
   
-## <a name="rate-my-call-prerequisites"></a>Bewerten von Meine Anruf erforderliche Komponenten
+## <a name="rate-my-call-prerequisites"></a>Voraussetzungen für „Meinen Anruf bewerten“
 
 Bevor die Benutzer in Ihrer Skype für Business Server-Bereitstellung Rate Meine aufrufen Funktionalität zugreifen können, muss die folgende Gruppe von Komponenten bereitgestellt und konfiguriert werden:
   
@@ -40,7 +40,7 @@ Bevor die Benutzer in Ihrer Skype für Business Server-Bereitstellung Rate Meine
     
 - Die Bereitstellung des Anrufqualitäts-Dashboards (CQD) wird empfohlen.
     
-## <a name="configure-rate-my-call"></a>Konfigurieren von Rate Meine Anruf
+## <a name="configure-rate-my-call"></a>„Meinen Anruf bewerten“ konfigurieren
 
 Das Feature Rate Meine aufrufen, ist standardmäßig in die Clientrichtlinie mit den folgenden Einstellungen aktiviert:
   
@@ -52,10 +52,9 @@ Wenn Sie benutzerdefinierte Feedback möchten, müssen separat aktivieren, aber 
   
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
-
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Zugreifen auf Rate Meine Anrufdaten
+## <a name="accessing-rate-my-call-data"></a>Zugriff auf die Daten von „Meinen Anruf bewerten“
 
 Daten von Benutzern werden in zwei Tabellen in der Überwachungsdatenbank erfasst.
   
@@ -63,7 +62,7 @@ Daten von Benutzern werden in zwei Tabellen in der Überwachungsdatenbank erfass
   
  **[QoeMetrics]. [Dbo]. [CallQualityFeedbackTokenDef]** -Die folgende Tabelle enthält Definitionen für token.
   
-Token-Definitionen sind wie folgt codiert:
+Token-Definitionen sind folgendermaßen codiert:
   
 |||
 |:-----|:-----|

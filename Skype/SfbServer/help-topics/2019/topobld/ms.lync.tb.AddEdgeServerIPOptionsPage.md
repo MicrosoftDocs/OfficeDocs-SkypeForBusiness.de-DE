@@ -10,17 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
-description: 'Microsoft Lync Server 2013 können Sie IPv4 und IPv6-Adressen für jede Schnittstelle für den Edge-Server und Edge-Pool zu konfigurieren. Zu diesem Zweck führen Sie die folgenden Aufgaben:'
-ms.openlocfilehash: a303c4dc3d6fe82617449795507ef87017676a4a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: 'Skype für Business Server können Sie IPv4 und IPv6-Adressen für jede Schnittstelle für den Edge-Server und Edge-Pool zu konfigurieren. Zu diesem Zweck führen Sie die folgenden Aufgaben:'
+ms.openlocfilehash: 5ddad12c17041b84c36ccdd99ee4ed76d27fb553
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974957"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016988"
 ---
 # <a name="add-edge-server-ip-options"></a>Hinzufügen von Edge-Server-IP-Optionen
  
-Microsoft Lync Server 2013 können Sie IPv4 und IPv6-Adressen für jede Schnittstelle für den Edge-Server und Edge-Pool zu konfigurieren. Zu diesem Zweck führen Sie die folgenden Aufgaben:
+Skype für Business Server können Sie IPv4 und IPv6-Adressen für jede Schnittstelle für den Edge-Server und Edge-Pool zu konfigurieren. Zu diesem Zweck führen Sie die folgenden Aufgaben:
   
 - **IPv4 für interne Schnittstelle aktivieren**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf den Edge-Server oder Pool interne Schnittstelle des Edgeservers anwenden möchten.
     

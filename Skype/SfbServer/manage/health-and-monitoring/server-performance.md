@@ -1,26 +1,26 @@
 ---
-title: Bericht über Serverleistung in Skype for Business Server 2015
+title: Server Performance Report in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Zusammenfassung: Informationen Sie zu vom Server Performance Report in Skype für Business Server 2015.'
-ms.openlocfilehash: d0079863a4cfe1c1549889774b6c4e0fb65c3850
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu vom Server Performance Report in Skype für Business Server.'
+ms.openlocfilehash: b902d5b02922e390a50af97365965b261c13002f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980644"
 ---
-# <a name="server-performance-report-in-skype-for-business-server-2015"></a>Bericht über Serverleistung in Skype for Business Server 2015
+# <a name="server-performance-report-in-skype-for-business-server"></a>Server Performance Report in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu vom Server Performance Report in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu vom Server Performance Report in Skype für Business Server.
   
-Server Performance Report enthält eine Liste der Skype für Business Server 2015-Servern, die den höchsten Prozentsatz der Anrufe schlechter aufgetreten ist. Der Bericht führt die Server nach Servertyp auf und bietet separate Statistiken für folgende Typen:
+Server Performance Report enthält eine Liste der Skype für Business Server-Servern, die den höchsten Prozentsatz der Anrufe schlechter aufgetreten ist. Der Bericht führt die Server nach Servertyp auf und bietet separate Statistiken für folgende Typen:
   
 - Vermittlungsserver
     
@@ -40,7 +40,7 @@ Es ist wichtig zu beachten, dass die Rangfolge als relative Platzierung in diese
   
 ## <a name="accessing-the-server-performance-report"></a>Zugriff auf den Bericht über Serverleistung
 
-Der Zugriff auf den Bericht über Serverleistung erfolgt auf der Startseite für Überwachungsberichte. Sie können den [Call List Report in Skype für Business Server 2015](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
+Der Zugriff auf den Bericht über Serverleistung erfolgt auf der Startseite für Überwachungsberichte. Sie können den [Call List Report in Skype für Business Server](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
   
 - Anruflautstärke
     
@@ -60,7 +60,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Serverleistung verwenden können.
   
-**Server Performance Report Filter**
+**Filter im Bericht über Serverleistung**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -76,9 +76,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Serverleistung angegeben werden.
   
-**Bericht Leistungsmetriken Server: Zusammenfassung der Audioanrufe**
+**Metriken im Bericht über Serverleistung: Zusammenfassung der Audioanrufe**
 
-|**Name**|**Klicken Sie auf können sortiert werden.**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Server** <br/> |Nein  <br/> |Name/IP-Adresse des Servers.  <br/> |
 |**Anruflautstärke** <br/> |Nein  <br/> |Gesamtzahl der ausgeführten Anrufe.  <br/> |
@@ -91,9 +91,9 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über S
 |**Streckungsverhältnis der Reparatur** <br/> |Ja  <br/> |Das durchschnittliche Verhältnis zwischen gestreckten Audiosamples und der Gesamtzahl der Samples. (Gestrecktes Audio ist ein Verfahren zum Dehnen von Audiodaten, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplestreckung in hohem Umfang aufgetreten ist und führt zu roboterhafter oder verzerrter Sprachqualität.  <br/> |
 |**Komprimierungsverhältnis der Reparatur** <br/> |Ja  <br/> |Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu einer zu schnellen Sprachwiedergabe oder zu verzerrter Sprachqualität.  <br/> |
    
-**Bericht Leistungsmetriken Server: Zusammenfassung der Videoanrufe**
+**Metriken im Bericht über Serverleistung: Zusammenfassung der Videoanrufe**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruftyp/Endpunkttyp** <br/> |Nein  <br/> | Wenn Sie auf dieses Element klicken, zeigt der Bericht Details zu den auf diesem Typ basierenden Anrufen. Es gibt folgende Anruftypen: <br/>  UC-Peer-to-Peer-Anrufe <br/>  UC-Konferenzsitzungen <br/>  PSTN-Konferenzsitzungen <br/>  PSTN-Anrufe: Medienumgehung <br/>  PSTN-Anrufe (keine Umgehung): UC-Abschnitt <br/>  PSTN-Anrufe (keine Umgehung): Gateway-Abschnitt <br/>  Andere Anruftypen <br/> |
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe pro Anruftyp.  <br/> |
@@ -110,9 +110,9 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über S
 |**Niedrige eingehende Framerate %** <br/> |Nein  <br/> |Prozentsatz aller Anrufe, bei denen die Bitrate für eingehende Videodaten niedrig war.  <br/> |
 |**Clientintegrität %** <br/> ||Zeigt die relative Integrität des Clientgeräts während des Anrufs an.  <br/> |
    
-**Server Performance Report Metriken: Anwendungsfreigabeanrufe**
+**Metriken im Bericht über Serverleistung: Zusammenfassung der Anwendungsfreigabeanrufe**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruftyp/Endpunkttyp** <br/> |Nein  <br/> | Wenn Sie auf dieses Element klicken, zeigt der Bericht Details zu den auf diesem Typ basierenden Anrufen. Es gibt folgende Anruftypen: <br/>  UC-Peer-to-Peer-Anrufe <br/>  UC-Konferenzsitzungen <br/>  PSTN-Konferenzsitzungen <br/>  PSTN-Anrufe: Medienumgehung <br/>  PSTN-Anrufe (keine Umgehung): UC-Abschnitt <br/>  PSTN-Anrufe (keine Umgehung): Gateway-Abschnitt <br/>  Andere Anruftypen <br/> |
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe pro Anruftyp.  <br/> |

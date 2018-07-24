@@ -1,33 +1,33 @@
 ---
-title: Verwalten von Konfigurationseinstellungen für den Webdienst in Skype for Business 2015
+title: Verwalten von Konfigurationseinstellungen für Webdienste in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: 'Zusammenfassung: Verwalten von Konfigurationseinstellungen für Webdienste in Skype für Business Server 2015.'
-ms.openlocfilehash: a0976728ecd09392408fb719861681e0465d7bed
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Verwalten von Konfigurationseinstellungen für Webdienste in Skype für Business Server.'
+ms.openlocfilehash: 7724ef576142c2eb6cebb287a88b7761a69028aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995834"
 ---
-# <a name="manage-web-service-configuration-settings-in-skype-for-business-server-2015"></a>Verwalten von Konfigurationseinstellungen für den Webdienst in Skype for Business 2015
+# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Verwalten von Konfigurationseinstellungen für Webdienste in Skype für Business Server
  
-**Zusammenfassung:** Verwalten von Konfigurationseinstellungen für Webdienste in Skype für Business Server 2015.
+**Zusammenfassung:** Verwalten Sie Konfigurationseinstellungen für Webdienste in Skype für Business Server.
   
-Die Seite **Webdienst** können Sie die Authentifizierungsmethoden für den Zugriff auf Skype für Business Server 2015 bezogene Webserver und Webdienste konfigurieren.
+Sie können mithilfe die Seite **Webdienst** die Authentifizierungsmethoden für den Zugriff auf Skype für verwandte Business Server konfigurieren Webserver und Webdienste.
   
 Führen Sie die folgenden Schritte aus, um eine neue Webdienstrichtlinie zu erstellen.
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>So erstellen Sie neue Webdienst-Konfigurationseinstellungen
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
@@ -53,13 +53,13 @@ Führen Sie die folgenden Schritte aus, um eine neue Webdienstrichtlinie zu erst
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Ändern von vorhandenen Webdienst-Konfigurationseinstellungen
 
-Die Seite **Webdienst** können Sie die Authentifizierungsmethoden für den Zugriff auf Skype für Business Server 2015 bezogene Webserver und Webdienste konfigurieren.
+Sie können mithilfe die Seite **Webdienst** die Authentifizierungsmethoden für den Zugriff auf Skype für verwandte Business Server konfigurieren Webserver und Webdienste.
   
 Führen Sie die folgenden Schritte aus, um eine vorhandene Webdienstrichtlinie zu ändern.
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>So ändern Sie vorhandene Webdienst-Konfigurationseinstellungen
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
@@ -85,7 +85,7 @@ Führen Sie die folgenden Schritte aus, um Webdienst-Konfigurationseinstellungen
   
 ### <a name="to-delete-web-service-configuration-settings"></a>So löschen Sie vorhandene Webdienst-Konfigurationseinstellungen
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     

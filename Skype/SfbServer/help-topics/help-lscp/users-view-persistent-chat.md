@@ -3,7 +3,7 @@ title: Benutzer anzeigen beständigen Chat
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Mitglieder der CsPersistentChatAdministrator-Rolle (Persistent Chat-Administratoren) können Chatroom Managerrechte und-Berechtigungen anderen Benutzern und sich selbst erteilen.
-ms.openlocfilehash: 3a740b77407e954e8537af6f9413328cd39e1f66
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e2cc558985f537e289bd68b9982d9b1089222101
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002705"
 ---
 # <a name="users-view-persistent-chat"></a>Benutzer: Anzeigen des beständigen Chats
  

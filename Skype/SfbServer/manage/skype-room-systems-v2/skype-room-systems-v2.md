@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Übersicht über die dokumentverwaltung für Skype Raum Systemen v2.
-ms.openlocfilehash: 5e6fe310051d5fc48875a878e64868a8a5672346
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 81ad0e43f68127e3a178434ebdd8ac8a43c94adc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014903"
 ---
 # <a name="management-overview"></a>Übersicht über die Verwaltung 
 
@@ -39,7 +40,7 @@ Informationen zum Status der Skype Raum Systemen v2 Anwendung und der verbundene
 |:-----|:-----|
 |HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon automatische Anmeldung = (Dword) 1  <br/> |Ermöglicht das Skype Raum Systemen v2 starten  <br/> |
 |Strom-Management -\> AC, deaktivieren Sie auf Bildschirm nach 10 Minuten  <br/> Strom-Management -\> auf AC, setzen Sie nie System in den Energiesparmodus  <br/> |Skype-Chatroom-Systemen v2 angefügte zeigt deaktivieren und Reaktivieren von automatisch aktiviert  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.   <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
    
 Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren einer Dateielement](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)erläutert.
   
@@ -74,14 +75,14 @@ Es wird empfohlen, dass Sie Operationen Management Suite Warnungen, wie oben bes
 
 Weitere Informationen zu Problembehandlung und Admin-Modus finden Sie unter [Verwalten von Skype Raum Systemen v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
-### <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Planen von Skype Raum Systemen v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planung für Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Bereitstellen von Skype Raum Systemen v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Bereitstellen von Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md)
+[Konfigurieren einer Konsole für Skype Room Systems v2](../../deploy/deploy-clients/console.md)
 
-[Verwalten einer Skype Raum v2 Konsole Systemeinstellungen Remote mit einer XML-Konfigurationsdatei](xml-config-file.md)
+[Verwalten einer Skype Room Systems v2-Konsoleneinstellung auf einem Remote-Gerät mit einer XML-Konfigurationsdatei](xml-config-file.md)

@@ -3,7 +3,7 @@ title: Wählen Sie Trunk
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 description: Verwenden Sie das Dialogfeld Trunk auswählen, um einen vorhandenen Trunk zu suchen, den Sie verwenden können.
-ms.openlocfilehash: faeb9acc4de95ec156e41fa08abfee528c0b8f23
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3852fbc32efc4dec6800a59e75eb3c69708169e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973598"
 ---
 # <a name="select-trunk"></a>Wählen Sie Trunk
  

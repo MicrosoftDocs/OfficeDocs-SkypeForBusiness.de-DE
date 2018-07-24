@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Skype für Business Server-Planungstool
-ms.openlocfilehash: a5c482dadf2ffd39e8927e1924e50117dd13e1c8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: ea3c9375a1a28f5c36ad464fa7c71338383fe7bc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974029"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983119"
 ---
 # <a name="feature-overview-planning-tool"></a>Übersicht über die Features (Planungstool)
  
@@ -60,6 +60,9 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
 - **Beständiger Chat**
     
     Mit dem beständigen Chat können sich mehrere Benutzer in Chatrooms an Unterhaltungen beteiligen, in denen sie Inhalte zu bestimmten Themen veröffentlichen und darauf zugreifen, einschließlich Text, Links und Dateien. Benutzer können zwar während einer Sitzung in Echtzeit kommunizieren, der Inhalt der einzelnen Sitzungen ist jedoch dauerhaft, was bedeutet, dass er auch nach Beendigung einer Sitzung weiterhin verfügbar ist.
+
+    > [!NOTE] 
+    > Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.
     
 ### <a name="users"></a>Nutzer
 
@@ -75,7 +78,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Partnerverbund mit XMOO-basierten Dienstanbietern**
     
-    Skype für Business Server führt eine voll integrierte XMPP-Proxy (auf dem Edge-Servern bereitgestellt) und einem XMPP-Gateway auf Front-End-Servern bereitgestellt. Können Sie hinzufügen und Konfigurieren des XMPP-Proxys bereitstellen und XMPP-Gateway ansetzt, kann Ihre Skype für Business Server-Benutzer Kontakte von XMPP-basierten Partnern für instant messaging (IM) und Anwesenheit hinzufügen.
+    Skype für Business Server 2015 eingeführt einen voll integrierte XMPP-Proxy (auf dem Edge-Servern bereitgestellt) und einem XMPP-Gateway auf Front-End-Servern bereitgestellt. Können Sie hinzufügen und Konfigurieren des XMPP-Proxys bereitstellen und XMPP-Gateway ansetzt, kann Ihre Skype für Business Server-Benutzer Kontakte von XMPP-basierten Partnern für instant messaging (IM) und Anwesenheit hinzufügen.
     
 - **Mobilität**
     
@@ -84,6 +87,9 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
 - **W15 Exchange-Postfach**
     
     Skype für Business Server können Sie Voicemail-Nachrichten in Exchange Unified Messaging (UM) gespeichert haben. Diese Voicemailnachrichten werden dann als e-Mail-Nachrichten in die Posteingänge der Benutzer angezeigt.
+
+    > [!NOTE]
+    > Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="voice"></a>VoIP
 
@@ -95,7 +101,10 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) kombiniert Voicemail und e-Mail in einer einzigen Messaginginfrastruktur. Skype für Business Server verwendet Exchange UM-Mailboxansage, Teilnehmerzugriff, anrufbenachrichtigungen und automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype für Business Server in einer freigegebenen Active Directory-Topologie zu integrieren.
+    Exchange Unified Messaging (UM) kombiniert Voicemail und e-Mail in einer einzigen Messaginginfrastruktur. Skype für Business Server 2015 verwendet Exchange UM-Mailboxansage, Teilnehmerzugriff, anrufbenachrichtigungen und automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype für Business Server in einer freigegebenen Active Directory-Topologie zu integrieren.
+
+    > [!NOTE]
+    > Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="additional-deployment-options"></a>Weitere Bereitstellungsoptionen
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Zum Bearbeiten der Eigenschaften für einen A / V-Konferenzserver-Pool, die Sie bereits definiert haben, gehen Sie folgendermaßen vor:'
-ms.openlocfilehash: 2882617450373b3e6ec0c22af6f59a1c432a4042
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1d9222b895d9df025519c2e7ad01f37757f2ed68
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975195"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991494"
 ---
 # <a name="av-mcu-settings-expander"></a>A/v MCU – Erweiterung
  
@@ -33,7 +33,6 @@ Zuordnen ein A / V-Konferenzserver-Pool, wählen Sie den Front-End-Pool oder -po
 > [!NOTE]
 > Wenn kein Front-End-Pools, in angezeigt werden der **Wählen Sie die Front-End-Pools zuordnen zu diesen A / V-konferenzpool** Bereich, haben Sie entweder A verbunden / V-Konferenzserver mit dem Front-End-Pool oder haben keine Konferenzen in die **Features hinzufügen ausgewählt und Funktionalität** Abschnitt der Front-End-Pool-Eigenschaften.
   
-## 
 
 Klicken Sie abschließend auf **OK** , um führen Sie die Bearbeitung des A / V-Konferenzserver pool-Einstellungen. Klicken Sie auf **Abbrechen**, um sämtliche Änderungen zu verwerfen.
   

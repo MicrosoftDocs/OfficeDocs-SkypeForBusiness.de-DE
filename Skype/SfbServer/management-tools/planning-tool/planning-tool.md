@@ -3,7 +3,7 @@ title: Skype for Business Server 2015 – Planungstool
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,19 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Anleitung zur Verwendung der Skype für Business Server 2015-Planungstool.
-ms.openlocfilehash: 9995b17274377025f2531ca53966859d1ca716b6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: faaa4a334fc04be44dce2a753804bf3e7f2b52b0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998588"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 – Planungstool
  
 Anleitung zur Verwendung der Skype für Business Server 2015-Planungstool.
   
-Die Skype für Business Server 2015 Planungstool ist ein Assistent gesteuerte, Interview-ähnlichen Tool, das Fragen zu den Skype für Business Server 2015 Topologie gefragt werden, den Sie entwerfen. Das Planungstool verwendet die Informationen bereitgestellt, gekoppelt mit bevorzugten Methoden für das Entwerfen der Topologie und Kapazität ist eine empfohlene Topologie basierend auf der angegebenen Antworten präsentieren. Sie können das Planungstool aus dem [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkID=282725)herunterladen.
+Die Skype für Business Server 2015 Planungstool ist ein Assistent gesteuerte, Interview-ähnlichen Tool, das Fragen zu den Skype für Business Server 2015 Topologie gefragt werden, den Sie entwerfen. Das Planungstool verwendet die Informationen bereitgestellt, gekoppelt mit bevorzugten Methoden für das Entwerfen der Topologie und Kapazität ist eine empfohlene Topologie basierend auf der angegebenen Antworten präsentieren. Sie können das Planungstool aus der [Skype für Business Server 2015-Planungstool](https://go.microsoft.com/fwlink/p/?LinkID=282725)herunterladen.
   
-Schließlich wird das Ziel des Planungstool zur Vereinfachung der potenziellen Komplexität einer vollständigen Skype für Business Server 2015 Topologie zu entwerfen. Das Tool stellt außerdem kontextbezogene Verweise auf die im Tool enthaltene Planungs- und Bereitstellungsdokumentation bereit, sofern eine Internetverbindung zur Microsoft TechNet-Website verfügbar ist.
+Schließlich wird das Ziel des Planungstool zur Vereinfachung der potenziellen Komplexität einer vollständigen Skype für Business Server 2015 Topologie zu entwerfen. Das Tool bietet auch kontextbezogene Verweise auf die Dokumentation zur Planung und Bereitstellung innerhalb des Tools, vorausgesetzt, dass eine Internetverbindung Verbindung mit der Microsoft-Website verfügbar ist.
   
 Nach der Anpassung der Topologie an die Infrastruktur TCP/IP-Adressen und vollständig qualifizierten Domänennamen (FQDNs) zur Verfügung Planungstool eine Reihe von Berichten, die Benennung Domain Name System (DNS), Firewall-Regeln, Zertifikate und vieles mehr zu behandeln. 
   
@@ -39,25 +40,22 @@ In den folgenden Themen vorgestellt und das Planungstool detail.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Installieren des Planungstools in Skype für Business Server 2015](install.md)
+- [Installieren des Planungstools in Skype for Business Server 2015](install.md)
     
 - [Optional Software](install.md#Optional_Software)
     
-- [Navigieren Sie das Planungstool in Skype für Business Server 2015](navigate.md)
+- [Navigieren im Planungstool in Skype for Business Server 2015](navigate.md)
     
-- [Erstellen der ersten Topologieentwurf für Skype für Business Server 2015](create-the-initial-design.md)
+- [Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015](create-the-initial-design.md)
     
-- [Bearbeiten Sie die Topologie in Skype für Business Server 2015](edit-the-topology.md)
+- [Bearbeiten der Topologie in Skype for Business Server 2015](edit-the-topology.md)
     
 - [Edit the network configuration diagram](edit-the-topology.md#Edit_Network_diagram)
     
-- [Überprüfen der Administratorberichte in Skype für Business Server 2015](review-the-administrator-reports.md)
+- [Überprüfen von Administratorberichten in Skype for Business Server 2015](review-the-administrator-reports.md)
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Installieren von Skype für Business Server 2015](../../deploy/install/install.md)
+[Installieren von Skype for Business Server 2015](../../deploy/install/install.md)
   
-[Planen von instant messaging und Anwesenheit in Skype for Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)
-
+[Planen der Bereitstellung von Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)

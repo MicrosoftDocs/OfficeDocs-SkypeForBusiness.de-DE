@@ -1,26 +1,26 @@
 ---
-title: Konfigurieren der Clientumgebung mit Skype for Business
+title: Konfigurieren der Clientumgebung mit Skype für Business 2015
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren der Clientumgebung für Skype für Geschäftsbenutzer.'
-ms.openlocfilehash: 9c1bc182c383ea7d806ce779f3d727e7925a59d4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 18fb67b88673dd2edfe3816d485a8cb05c84f3ae
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018188"
 ---
-# <a name="configure-the-client-experience-with-skype-for-business"></a>Konfigurieren der Clientumgebung mit Skype for Business
+# <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Konfigurieren der Clientumgebung mit Skype für Business 2015
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zum Konfigurieren der Clientumgebung für Skype für Geschäftsbenutzer.
+**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie die Client-Erfahrung für Skype Business 2015 Benutzer konfigurieren.
   
-Skype für Unternehmen bietet eine neue Benutzeroberfläche, die auf Benutzerfunktionen Product Skype basiert. Zusätzlich zu den Features von Lync bietet Skype für Unternehmen neue Features mit vereinfachte-Steuerelementen und Symbole vertraut. Ausführliche Informationen zu den neuen Client gewohnt sind finden Sie unter [Lync ist jetzt Skype für Business & #x 2014; finden Sie unter Neuigkeiten](https://go.microsoft.com/fwlink/?LinkId=529022).
+Skype für Business 2015 bietet eine neue Benutzeroberfläche, die auf Benutzerfunktionen Product Skype basiert. Zusätzlich zu den Features von Lync bietet Skype für Unternehmen neue Features mit vereinfachte-Steuerelementen und Symbole vertraut. Ausführliche Informationen zu den neuen Client gewohnt sind finden Sie unter [Erforschen Skype für Unternehmen](https://go.microsoft.com/fwlink/?LinkId=529022).
   
 Skype für Business Server unterstützt die neue Skype für Business Clientumgebung als auch das Lync-Clientumgebung. Als Administrator können Sie die bevorzugte Clientumgebung für Ihre Benutzer auswählen. Sie möchten beispielsweise die Lync-Client-Erfahrung bereitstellen, bis der Benutzer in Ihrer Organisation vollständig in die neue Skype Business wünschen geschult sind. Oder, wenn Sie für Business Server noch nicht alle Benutzer auf Skype aktualisiert haben, sollten Sie alle Benutzer können die gleichen Clientumgebung haben, bis alle auf dem neuen Server aktualisiert werden.
   
@@ -28,7 +28,7 @@ Skype für Business Server unterstützt die neue Skype für Business Clientumgeb
 > Wenn Ihre Organisation sowohl Skype für Business Server und Lync Server bereitgestellt wurde, wird der Default Clientbenutzeroberfläche je nach Server-Versionen und Benutzeroberflächeneinstellungen davon abweichen. Wenn Benutzer Skype für Unternehmen zum ersten Mal starten, wird immer die Skype Business-Benutzeroberfläche – angezeigt, auch wenn Sie die Lync-Clientumgebung ausgewählt haben. Nach einigen Minuten werden Benutzer aufgefordert werden, auf den Lync-Modus wechseln. Weitere Informationen entnehmen Sie dem **Abschnitt zum Clientverhalten beim ersten Start**.
   
 > [!NOTE]
-> Die Lync 2013-Clientumgebung ist keine Option für Skype für Business 2016 Clientversionen. Bevor Sie versuchen, die Clientumgebung um die Verwendung des Lync 2013-Clients konfigurieren, überprüfen Sie die Clientversion, um sicherzustellen, dass es nicht mit der Nummer 16 gestartet wird; Beispiel: 16.x.x.x. 
+> Die Lync 2013-Clientumgebung ist keine Option für Skype für Business 2016 Clientversionen oder höher. Bevor Sie versuchen, die Clientumgebung um die Verwendung des Lync 2013-Clients konfigurieren, überprüfen Sie die Clientversion, um sicherzustellen, dass es nicht mit der Nummer 16 gestartet wird; Beispiel: 16.x.x.x. 
   
 ## <a name="configure-the-client-experience"></a>Konfigurieren der Client-Erfahrung
 
@@ -74,7 +74,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 ## <a name="first-launch-client-behaviors"></a>Verhalten beim ersten Start des Clients
 
-In der Standardeinstellung Wenn Benutzer Skype für Unternehmen zum ersten Mal starten sehen immer die Skype Business-Benutzeroberfläche – sie, auch wenn Sie die Lync-Clientumgebung ausgewählt haben, durch den Wert des Parameters EnableSkypeUI auf $False festlegen, wie oben beschrieben . Nach einigen Minuten wird der Benutzer aufgefordert, in den Lync-Modus zu wechseln.
+In der Standardeinstellung Wenn Benutzer Skype für Business 2015 zum ersten Mal starten sehen immer die Skype Business-Benutzeroberfläche – sie, auch wenn Sie die Lync-Clientumgebung ausgewählt haben, durch den Wert des Parameters EnableSkypeUI auf $False festlegen, wie beschrieben zuvor. Nach einigen Minuten wird der Benutzer aufgefordert, in den Lync-Modus zu wechseln.
   
 Wenn beim ersten Start des Skype for Business-Clients die Lync-Benutzeroberfläche angezeigt werden soll, führen Sie die folgenden Schritte aus, bevor der Client nach der Aktualisierung zum ersten Mal gestartet wird:
   
@@ -88,27 +88,25 @@ Wenn beim ersten Start des Skype for Business-Clients die Lync-Benutzeroberfläc
     
     Der Schlüssel sollte wie folgt aussehen:
     
-  ```
-  [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
+ <pre>
+[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
 "CanSharePptInCollab"=dword:00000001
 "CanShareOneNoteInCollab"=dword:00000001
 "CanAppShareInCollab"=dword:00000001
 "EnableSkypeUI"=hex:00,00,00,00
-  ```
+</pre>
 
 Die Lync-Benutzeroberfläche wird nun angezeigt, wenn Benutzer den Skype for Business-Client zum ersten Mal starten.
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Steuern der Anzeige des Lernprogramms auf der Willkommensseite
 
-Wenn Benutzer den Skype for Business-Client öffnen, wird standardmäßig die Willkommensseite angezeigt, die  *7 Tipps für die am häufigsten gestellten Fragen*  enthält. Sie können die Anzeige der Willkommensseite ausschalten, Benutzern aber die Möglichkeit geben, dennoch auf das Lernprogramm zuzugreifen, indem Sie den folgenden Registrierungswert auf dem Clientcomputer hinzufügen:
+Wenn Benutzer die Skype für Business-Client öffnen, ist das Standardverhalten Willkommen angezeigt, die *meisten Benutzer des Clientcomputers fordern 7 Tipps*enthält. Sie können die Anzeige der Willkommensseite ausschalten, Benutzern aber die Möglichkeit geben, dennoch auf das Lernprogramm zuzugreifen, indem Sie den folgenden Registrierungswert auf dem Clientcomputer hinzufügen:
   
 Erstellen Sie im Schlüssel **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** einen neuen **DWORD-Wert (32-Bit)**. Der **Wertname** muss **IsBasicTutorialSeenByUser** sein und die **Wertdaten** müssen auf **1** festgelegt werden.
   
 Der Schlüssel sollte wie folgt aussehen:
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>Ausschalten des Client-Lernprogramms
 
@@ -129,11 +127,11 @@ Sie können das Lernprogramm wieder aktivieren, indem Sie die **Wertdaten** auf 
 Wenn Ihre Organisation sowohl Skype für Business Server und Lync Server bereitgestellt wurde, wird die Clientumgebung je nach Server-Versionen und die Skype UI Einstellung davon abweichen. Die folgende Tabelle zeigt die anfängliche Clientumgebung basierend auf der Serverversion und der Benutzeroberflächeneinstellung:
   
 
-|**Server-version**|**EnableSkypeUI-Einstellung**|**Clientumgebung**|
+|**Serverversion**|**EnableSkypeUI-Einstellung**|**Clientumgebung**|
 |:-----|:-----|:-----|
-|Skype for Business Server 2015  <br/> |Standard  <br/> |Skype for Business  <br/> |
-|Skype for Business Server 2015  <br/> |True  <br/> |Skype for Business  <br/> |
-|Skype for Business Server 2015  <br/> |False  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
+|Skype for Business Server |Standard  <br/> |Skype for Business  <br/> |
+|Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
+|Skype for Business Server  |False  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |Standard  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |True  <br/> |Skype for Business  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |False  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
@@ -142,10 +140,10 @@ Wenn Ihre Organisation sowohl Skype für Business Server und Lync Server bereitg
 Die folgende Tabelle zeigt die Clientumgebung, wenn der Administrator die ursprüngliche Einstellung für die Erfahrung Skype UI ändert:
   
 
-|**Server-version**|**EnableSkypeUI-Einstellung**|**Client-Benutzeroberfläche = Lync**|**Client-Benutzeroberfläche = Skype für Unternehmen**|
+|**Serverversion**|**EnableSkypeUI-Einstellung**|**Client-Benutzeroberfläche = Lync**|**Client-Benutzeroberfläche = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server 2015  <br/> |True  <br/> |Benutzer aufgefordert werden, wechseln Sie zu Skype für Unternehmen  <br/> |Skype for Business  <br/> |
-|Skype for Business Server 2015  <br/> |False  <br/> |Lync-Modus  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln  <br/> |
+|Skype for Business Server |True  <br/> |Benutzer aufgefordert werden, wechseln Sie zu Skype für Unternehmen  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |False  <br/> |Lync-Modus  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |True  <br/> |Benutzer aufgefordert werden, wechseln Sie zu Skype für Unternehmen  <br/> |Skype for Business  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |False  <br/> |Lync-Modus  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (ohne Patches)  <br/> |Standard  <br/> |Lync-Modus (kann nicht wechseln zu Skype für Unternehmen)  <br/> |Lync-Modus (kann nicht wechseln zu Skype für Unternehmen)  <br/> |
@@ -158,9 +156,9 @@ Die Patch-Versionen erforderlich, um die Konfiguration der Skype für Business C
     
 ## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>Erstellen eines Gruppenrichtlinienobjekts zum Ändern der Registrierung auf einem Computer in einer Domäne
 
-Die Aktualisierung der Registrierung zur Anzeige der Lync-Clientumgebung beim ersten Start des Skype for Business-Clients durch einen Benutzer sollte nur einmal ausgeführt werden. Wenn Sie für die Aktualisierung der Registrierung ein Gruppenrichtlinienobjekt (GPO) verwenden, müssen Sie das Objekt für die Erstellung eines neuen Werts definieren, anstatt die Wertdaten lediglich zu aktualisieren. Wenn das GPO ohne einen neuen Wert zugewiesen wird, erstellt das GPO einen neuen Wert und setzt die Wertdaten auf 0. 
+Das Update der Registrierung die Lync-Client-Erfahrung beim ersten anzeigen ein Benutzer die Skype für Business 2015 Client startet sollte nur einmal ausgeführt werden. Wenn Sie für die Aktualisierung der Registrierung ein Gruppenrichtlinienobjekt (GPO) verwenden, müssen Sie das Objekt für die Erstellung eines neuen Werts definieren, anstatt die Wertdaten lediglich zu aktualisieren. Wenn das GPO ohne einen neuen Wert zugewiesen wird, erstellt das GPO einen neuen Wert und setzt die Wertdaten auf 0. 
   
-Das nachstehende Verfahren beschreibt, wie die Registrierung geändert werden kann, damit die Lync-Clientumgebung beim ersten Start von Skype for Business auf dem Computer des Benutzers angezeigt wird. Sie haben damit auch die Möglichkeit, die Registrierung für die Deaktivierung des Lernprogramms auf der Willkommensseite zu aktualisieren.
+Das folgende Verfahren beschreibt, wie Sie die Registrierung ändern, damit die Lync-Client-Erfahrung beim ersten angezeigt wird, die ein Benutzer die Skype für Business 2015-Client startet. Mit diesem Verfahren können Sie auch die Registrierung aktualisieren, um das Lernprogramm der Willkommenseite zu deaktivieren (wie weiter oben beschrieben).
   
 ### <a name="to-create-the-gpo"></a>So erstellen Sie das Gruppenrichtlinienobjekt
 
@@ -200,10 +198,13 @@ Anschließend müssen Sie das erstellte Gruppenrichtlinienobjekt mit der Gruppe 
 2. Wählen Sie im Dialogfeld **Gruppenrichtlinienobjekt auswählen** das von Ihnen erstellte Gruppenrichtlinienobjekt und anschließend **OK** aus.
     
 3. Öffnen Sie auf dem Computer des Zielbenutzers eine Eingabeaufforderung und geben Sie den folgenden Befehl ein:
+       
+```
+gpupdate /target:user
+```
+
     
-    **gpupdate /target:user**
-    
-    Die Meldung „Richtlinie wird aktualisiert..." wird angezeigt, während das GPO angewendet wird. Wenn der Vorgang abgeschlossen ist, erscheint die Meldung „Die Aktualisierung der Benutzerrichtlinie wurde abgeschlossen".
+    The message "Updating policy..." is displayed while the GPO is applied. When it is completed, the message "User Policy update has completed successfully" is displayed.
     
 4. Geben Sie an der Eingabeaufforderung den folgenden Befehl ein:
     

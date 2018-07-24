@@ -1,31 +1,30 @@
 ---
-title: Fehlerlistenbericht in Skype for Business Server 2015
+title: Failure List Report in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Zusammenfassung: Informationen Sie zu den Failure List Report in Skype für Business Server 2015.'
-ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Informationen Sie zu den Failure List Report in Skype für Business Server.'
+ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569320"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992633"
 ---
-# <a name="failure-list-report-in-skype-for-business-server-2015"></a>Fehlerlistenbericht in Skype for Business Server 2015
+# <a name="failure-list-report-in-skype-for-business-server"></a>Failure List Report in Skype für Business Server 
  
-**Zusammenfassung:** Informationen Sie zu den Failure List Report in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Failure List Report in Skype für Business Server.
   
 Der Fehlerlistenbericht enthält ausführliche Informationen über die einzelnen Teilnehmer, die an einer fehlerhaften Peer-to-Peer-Sitzung oder Konferenzsitzung beteiligt waren. Diese Informationen umfassen den URI des Benutzers, bei dem das Problem aufgetreten ist, sowie den SIP-Antwortcode und die Diagnose-ID, die dem Fehler zugeordnet sind.
   
 ## <a name="accessing-the-failure-list-report"></a>Zugriff auf den Fehlerlistenbericht
 
-Failure List Report erfolgt durch Klicken auf eine der folgenden Metriken im [Bericht über Fehlerverteilung in Skype für Business Server 2015](failure-distribution-report.md):
+Failure List Report erfolgt durch Klicken auf eine der folgenden Metriken im [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md):
   
 - Wichtigste Diagnosegründe (Sitzungen)
     
@@ -43,7 +42,7 @@ Failure List Report erfolgt durch Klicken auf eine der folgenden Metriken im [Be
     
 - Wichtigste Absenderbenutzer-Agenten (Sitzungen)
     
-Über Failure List Report können Sie der [Peer-zu-Peer-Sitzungsbericht in Skype für Business Server 2015](peer-to-peer-session-detail-report.md) zugreifen, indem Sie auf die Metrik Session Detail für eine Peer-zu-Peer-Sitzung. Sie können ebenfalls auf den detaillierten Konferenzbericht zugreifen, indem Sie auf die Konferenzmetrik für eine Konferenz klicken.
+Über Failure List Report können Sie der [Peer-zu-Peer-Sitzungsbericht in Skype für Business Server](peer-to-peer-session-detail-report.md) zugreifen, indem Sie auf die Metrik Session Detail für eine Peer-zu-Peer-Sitzung. Sie können ebenfalls auf den detaillierten Konferenzbericht zugreifen, indem Sie auf die Konferenzmetrik für eine Konferenz klicken.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Bestmögliche Verwendung des Fehlerlistenberichts
 
@@ -97,9 +96,9 @@ Keine. Sie können den Fehlerlistenbericht nicht filtern.
 
 In der folgenden Tabelle sind die im Fehlerlistenbericht enthaltenen Informationen für jeden fehlerhaften Anruf aufgeführt.
   
-**Anruflistenbericht-Metriken Failure**
+**Metriken des Fehlerlistenberichts**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Gemeldeter Zeitpunkt** <br/> |Nein  <br/> |Datum und Uhrzeit der Aufzeichnung des Berichts.  <br/> |
 |**Anforderung** <br/> |Nein  <br/> |Typ der fehlerhaften SIP-Anforderung. Beispiel: INVITE oder BYE.  <br/> |

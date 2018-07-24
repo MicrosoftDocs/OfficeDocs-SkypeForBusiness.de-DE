@@ -1,24 +1,24 @@
 ---
-title: Anzeigen von Konferenzrichtlinien in Skype for Business Server 2015
+title: Anzeigen von konferenzrichtlinien in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 'Zusammenfassung: Informationen Sie zum Anzeigen von konferenzrichtlinien in Skype für Business Server 2015.'
-ms.openlocfilehash: 4d91a04456f7c9d877e58caed1d576edc0f80b41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Anzeigen von konferenzrichtlinien in Skype für Business Server.'
+ms.openlocfilehash: 161b9f172af935b105e01bda88c1c3dbef2e3a9f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992336"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server-2015"></a>Anzeigen von Konferenzrichtlinien in Skype for Business Server 2015
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>Anzeigen von konferenzrichtlinien in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Anzeigen von konferenzrichtlinien in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Anzeigen von konferenzrichtlinien in Skype für Business Server.
   
 Sie können konferenzrichtlinien mithilfe der Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell anzeigen.
   
@@ -36,7 +36,7 @@ Sie können konferenzrichtlinien mithilfe der Skype Business Server-Systemsteuer
     
     **Konferenzrichtlinie bearbeiten - \<Richtlinie\> ** die Einstellungen für die ausgewählte Richtlinie wird geöffnet.
     
-    Ausführliche Informationen zum Konfigurieren der Einstellungen finden Sie unter [Erstellen von konferenzrichtlinien in Skype für Business Server 2015](create-policies.md).
+    Ausführliche Informationen zum Konfigurieren der Einstellungen finden Sie unter [Erstellen von konferenzrichtlinien in Skype für Business Server](create-policies.md).
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Anzeigen von konferenzrichtlinien mithilfe von Skype für Business Server-Verwaltungsshell
 
@@ -48,7 +48,7 @@ Get-CsConferencingPolicy
 
 Das Cmdlet gibt zum Beispiel folgende Informationen zurück:
   
-```
+<pre>
 Identity                                  : Global
 AllowIPAudio                              : True
 AllowIPVideo                              : True
@@ -83,8 +83,7 @@ AppSharingBitRateKb                       : 50000
 FileTransferBitRateKb                     : 50000
 TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
-
-```
+</pre>
 
 Weitere Informationen sowie eine Beschreibung für die vollständige Syntax und eine Liste der Parameter finden Sie unter [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
   

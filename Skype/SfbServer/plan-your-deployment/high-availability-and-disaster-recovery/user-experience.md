@@ -1,9 +1,8 @@
 ---
-title: Abläufe für Benutzer während des Ausfalls eines Pools in Skype for Business Server 2015
+title: Benutzerfreundlichkeit während des Ausfalls eines Pools in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,19 +10,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Erfahren Sie, was Benutzer fest, wenn ein Front-End-Pool ein Failover oder wieder während der notfallwiederherstellung in Skype für Business Server fällt aus.
-ms.openlocfilehash: 4aaa4c044e1bae50124897a6d4c36e03b2a0c58e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 741eb40d0bf4ee615d68d05ab6b9543b6f65474b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001189"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server-2015"></a>Abläufe für Benutzer während des Ausfalls eines Pools in Skype for Business Server 2015
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Benutzerfreundlichkeit während des Ausfalls eines Pools in Skype für Business Server
  
 Erfahren Sie, was Benutzer fest, wenn ein Front-End-Pool ein Failover oder wieder während der notfallwiederherstellung in Skype für Business Server fällt aus.
   
 Wenn für einen Pool ein Failover vorgenommen wurde, werden alle Benutzer im betroffenen Pool gezwungen, sich abzumelden und sich beim Sicherungspool anzumelden. Für einen kurzen Zeitraum befinden sich die Benutzer, die sich am Sicherungspool anmelden, möglicherweise im Ausfallsicherheitsmodus. Im Ausfallsicherheitsmodus ist können Benutzer nicht auf Aufgaben, bei denen eine beständige Änderung auf Skype für Business Server führen würde beispielsweise das Hinzufügen eines Kontakts. Nachdem das Failover abgeschlossen wurde, können alle Benutzer alle Dienste vom Sicherungspool beziehen.
   
-Alle Anrufe, Besprechungen oder Unterhaltungen an, die ein Benutzer verfügt, wenn ein Pool ausfällt, werden unterbrochen, und der Benutzer muss diese Sitzungen nach einem Failover, um den Vorgang fortzusetzen wieder herstellen.
+Sämtliche Anrufe, Besprechungen oder Gespräche, über die ein Benutzer verfügt, während ein Pool ausfällt, werden unterbrochen, und der Benutzer muss diese Sitzungen wiederherstellen, um nach dem Failover fortzufahren.
   
 Benutzer werden während eines Failovers oder Failbacks nicht verlagert. Benutzer, die auf einem ausfallenden Pool verwaltet werden, werden temporär durch den Sicherungspool verarbeitet. Wenn der Home-Pool wiederhergestellt wird, kann der Administrator über ein Failback diese Benutzer wieder über ihren ursprünglichen Pool verarbeiten, dem sie noch zugeordnet sind.
   
@@ -39,11 +39,11 @@ Pool-Failbacks können auftreten, wenn der betroffene Benutzer während des Fail
   
 In den folgenden Tabellen finden Sie genauere Informationen darüber, wie ein Benutzer bei und nach einem Failback betroffen ist und auch wie Benutzer in anderen Pools einen Benutzer, für dessen Pool ein Failback ausgeführt wird, sehen und mit diesem interagieren. 
   
-Der Begriff betroffenen Benutzer bezieht sich auf jeder Benutzer, der ein Failover aus der im home-Pool und wird von den Sicherungspool bedient werden. Sämtliche Benutzer, die ursprünglich auf dem Sicherungspool verwaltet wurden, sind keine betroffenen Benutzer.
+Der Begriff betroffener Benutzer bezieht sich auf sämtliche Benutzer, bei denen ein Failover im Home-Pool aufgetreten ist und die daher vom Sicherungspool verarbeitet werden. Sämtliche Benutzer, die ursprünglich auf dem Sicherungspool verwaltet wurden, sind keine betroffenen Benutzer.
   
-**Benutzeroberfläche für einen betroffenen Benutzer in einem Pool bei Failbacks**
+**Benutzererfahrung eines betroffenen Benutzers bei einem Pool in Failback**
 
-|**Benutzerstatus oder-Aufgabe**|**Während des Failbacks**|**Nach abgeschlossenem Failback**|
+|**Benutzerstatus oder -aufgabe**|**Während des Failbacks**|**Nach abgeschlossenem Failback**|
 |:-----|:-----|:-----|
 |Benutzerstatus des bereits angemeldeten Benutzers  <br/> |Benutzer bleibt angemeldet und mit dem Sicherungspool verbunden. Zu einem gewissen Punkt wird der Benutzer abgemeldet und wieder im ursprünglichen Home-Pool angemeldet, und zwar im Ausfallsicherheitsmodus.  <br/> |Benutzer bleibt angemeldet und wechselt in den regulären Modus.  <br/> |
 |Neuer Benutzer meldet sich an.  <br/> |Benutzer können sich am Home-Pool im Ausfallsicherheitsmodus anmelden.  <br/> |Benutzer können sich am ursprünglichen Home-Pool im regulären Modus anmelden.  <br/> |
@@ -54,7 +54,7 @@ Der Begriff betroffenen Benutzer bezieht sich auf jeder Benutzer, der ein Failov
 |Verfügbarkeit von Kontaktlisten und Adressbuchdienst  <br/> |Nicht verfügbar  <br/> |Verfügbar  <br/> |
 |Alle Peer-zu-Peer-Sitzungen und -modalitäten  <br/> |Verfügbar  <br/> |Verfügbar  <br/> |
    
-**Benutzeroberfläche für einen Benutzer in einem nicht betroffenen Pool verwaltet werden, während des Failbacks eines anderen Pools**
+**Benutzererfahrung mit einem verwalteten Benutzer in einem nicht betroffenen Pool während eines Failbacks eines anderen Pools**
 
 |**Benutzeraufgabe**|**Während des Failbacks**|**Nach abgeschlossenem Failback**|
 |:-----|:-----|:-----|

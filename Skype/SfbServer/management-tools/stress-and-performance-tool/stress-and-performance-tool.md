@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: Die Skype für Business Server 2015 Stress and Performance-Tool wird während der kapazitätsplanung und in einer Umgebung außerhalb der Produktion oder Test Optimieren der Leistung verwendet.
-ms.openlocfilehash: 0a0a5b17a6e45b2e8944e0e0dd4b3840fc62e102
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9ccd4b851ad64f829a15bd6138764995f789dbf6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984463"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype für Business Server 2015 Stress and Performance-Tool
  
@@ -29,6 +30,9 @@ Die Skype für Business Server 2015 Stress and Performance-Tool umfasst Tools, m
 - Messen der Leistung von Ihrer Skype für Business Server-Bereitstellungen
     
 In der Regel verwenden Sie dieses Tool nach dem Verwenden der [Skype für Business Server 2015 Planungstool](../../management-tools/planning-tool/planning-tool.md) zum Entwerfen der Topologie, und Optimieren der Topologie mit dem [Skype für Business Server 2015 Capacity Planning Rechner](../../management-tools/capacity-planning-calculator.md). 
+
+> [!NOTE]
+> Dieses Tool wird für Skype für Business Server 2019 nicht aktualisiert werden.
   
 ## <a name="tests"></a>Tests
 
@@ -41,7 +45,7 @@ Die Stress and Performance-Tool können Sie diese Arten von Benutzerlast simulie
 |Access-Client-Webkonferenzen  <br/> |Automatische konferenztelefonzentrale  <br/> |
 |Reaktionsgruppen  <br/> |Die Erweiterung der Verteilerliste  <br/> |
 |Herunterladen von Adressbüchern und adressbuchabfrage  <br/> |Verbesserte 911 (E911)-Anrufe und Standortprofil (Wählplan)  <br/> |
-|MultiView  <br/> |Zusammenarbeit an Daten  <br/> |
+|MultiView  <br/> |Datenzusammenarbeit  <br/> |
 |Mobilität  <br/> ||
    
 ## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Anwendungen und für Business Server 2015 Stress and Performance-Tool mit der Skype enthaltene Dateien
@@ -60,7 +64,7 @@ Diese Anwendungen sind Teil der Skype für Business Server Stress and Performanc
 
 Wenn Sie mehr wissen müssen, sollten Sie die folgenden Artikel lesen:
   
-- [Erforderliche Komponenten und Setup für die Skype für Business Stress and Performance-Tool](prerequisites-and-setup.md)
+- [Voraussetzungen und Setup für Skype for Business Stress and Performance Tool](prerequisites-and-setup.md)
     
 - [Leistung Szenarien für die Skype für Business Server 2015 Stress and Performance-Tool](scenarios.md)
     

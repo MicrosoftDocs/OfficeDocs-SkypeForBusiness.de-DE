@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der Integration zwischen lokalen Skype für Business Server 2015 und Outlook Web App
+title: Konfigurieren der Integration zwischen lokalen Skype für Business Server und Outlook Web App
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,17 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Zusammenfassung: Integrieren von Skype für Business Server und Outlook Web App.'
-ms.openlocfilehash: 4ac4d6a71f8006e813d09631f8ccf28742940ff2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995848"
 ---
-# <a name="configure-integration-between-on-premises-skype-for-business-server-2015-and-outlook-web-app"></a>Konfigurieren der Integration zwischen lokalen Skype für Business Server 2015 und Outlook Web App
+# <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Konfigurieren der Integration zwischen lokalen Skype für Business Server und Outlook Web App
  
 **Zusammenfassung:** Integrieren von Skype für Business Server und Outlook Web App.
   
-Kunden, die für die Business Server 2015 Bereitstellungen lokalen Skype verwenden können Interoperabilität mit Microsoft Outlook Web App in Microsoft Exchange Online in einer hybriden Bereitstellung-Modus konfigurieren. Zu den Interoperabilitätsfunktionen gehören einmaliges Anmelden (SSO) und Sofortnachrichten sowie die Anwesenheitsintegration in die Outlook Web App-Schnittstelle. Um diese Integration aktivieren, müssen Sie den Edge-Server in Ihrer lokalen Skype für Business Server-Bereitstellung konfigurieren, durch die folgenden Aufgaben: 
+Benutzer von lokalen Skype für Business Server-Bereitstellungen können Interoperabilität mit Microsoft Outlook Web App in Microsoft Exchange Online in einer hybriden Bereitstellung-Modus konfigurieren. Zu den Interoperabilitätsfunktionen gehören einmaliges Anmelden (SSO) und Sofortnachrichten sowie die Anwesenheitsintegration in die Outlook Web App-Schnittstelle. Um diese Integration aktivieren, müssen Sie den Edge-Server in Ihrer lokalen Skype für Business Server-Bereitstellung konfigurieren, durch die folgenden Aufgaben: 
   
 - Konfigurieren eines freigegebenen SIP-Adressraums
     
@@ -31,7 +32,7 @@ Kunden, die für die Business Server 2015 Bereitstellungen lokalen Skype verwend
     
 ## <a name="configure-a-shared-sip-address-space"></a>Konfigurieren eines freigegebenen SIP-Adressraums
 
-Um lokale Skype für Business Server 2015 mit Exchange Online zu integrieren, müssen Sie einen freigegebenen SIP-Adressraum konfigurieren. Demselben Adressraum für SIP-Domäne wird von Skype für Business Server und Exchange Online-Dienst unterstützt.
+Um lokale Skype für Business Server mit Exchange Online zu integrieren, müssen Sie einen freigegebenen SIP-Adressraum konfigurieren. Demselben Adressraum für SIP-Domäne wird von Skype für Business Server und Exchange Online-Dienst unterstützt.
   
 Verwenden die Skype als Business Server-Verwaltungsshell, Konfigurieren der Edge-Server für den Verbund durch das **Set-CSAccessEdgeConfiguration** -Cmdlet mit den im folgenden Beispiel angezeigten Parametern ausführen:
   
@@ -41,7 +42,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - **AllowFederatedUsers** -Parameter gibt an, ob interne Benutzer zur Kommunikation mit Benutzern von Partnerdomänen zulässig sind. Diese Eigenschaft bestimmt zudem, ob interne Benutzer mit Benutzern in einem freigegebenen SIP-Adresse Speicherplatz Szenario mit Skype für Business Server und Exchange Online kommunizieren können.
     
-Weitere Informationen zur Verwendung der Skype für Business Server-Verwaltungsshell finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../../manage/management-shell.md).
+Weitere Informationen zur Verwendung der Skype für Business Server-Verwaltungsshell finden Sie unter [Skype für Business Server-Verwaltungsshell](../../manage/management-shell.md).
   
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Konfigurieren eines Hostinganbieters auf dem Edgeserver
 
@@ -86,9 +87,6 @@ Get-CsHostingProvider -LocalStore
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Bereitstellen von Skype für Business Server 2015 Voicemail Benutzer-auf gehostete Exchange um-Dienste](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
+[Bereitstellen von Skype für Business Server Voicemail Benutzer-auf gehostete Exchange um-Dienste](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
   
-[Gehostete Exchange Unified Messaging Integration in Skype für Business Server 2015](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
-
+[Gehostete Exchange Unified Messaging Integration in Skype für Business Server](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)

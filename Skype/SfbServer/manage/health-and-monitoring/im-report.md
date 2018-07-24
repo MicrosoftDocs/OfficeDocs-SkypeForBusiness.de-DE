@@ -1,30 +1,30 @@
 ---
-title: Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server 2015
+title: Peer-zu-Peer-Sofortnachrichten-Bericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Zusammenfassung: Informationen Sie zu den Bericht über Peer-zu-Peer-Sofortnachrichten in Skype für Business Server 2015.'
-ms.openlocfilehash: 0b7fc3d60aebc22e6c4c53e2e8c38fea12b0a6c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Bericht über Peer-zu-Peer-Sofortnachrichten in Skype für Business Server.'
+ms.openlocfilehash: e7e65e11d6a8710c4a37fc3afe0a983d5ce9b14d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968614"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server-2015"></a>Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server 2015
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Peer-zu-Peer-Sofortnachrichten-Bericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Bericht über Peer-zu-Peer-Sofortnachrichten in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Bericht über Peer-zu-Peer-Sofortnachrichten in Skype für Business Server.
   
 Der Bericht über Peer-to-Peer-Sofortnachrichten enthält Trendinformationen zu den Peer-to-Peer-Sofortnachrichtensitzungen, aufgeschlüsselt nach Pool und Authentifizierungstyp. Der Bericht kann entweder die Gesamtanzahl der im angegebenen Zeitraum abgehaltenen Sitzungen (z. B. nach Tag oder nach Stunden) oder die Gesamtanzahl der in diesem Zeitraum gesendeten Sofortnachrichten anzeigen.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Zugreifen auf den Bericht über Peer-to-Peer-Sofortnachrichten
 
-Sie können den Bericht über Peer-zu-Peer-Sofortnachrichten nur zugreifen, indem die [Zusammenfassung für Peer-zu-Peer-Aktivität in Skype für Business Server 2015 Bericht](peer-to-peer-activity-summary-report.md) öffnen und dann auf eine der folgenden Metriken:
+Sie können den Bericht über Peer-zu-Peer-Sofortnachrichten nur zugreifen, indem die [Zusammenfassung für Peer-zu-Peer-Aktivität in Skype für Business Server Report](peer-to-peer-activity-summary-report.md) öffnen und dann auf eine der folgenden Metriken:
   
 - Peer-to-Peer-Chatsitzungen insgesamt
     
@@ -38,7 +38,7 @@ Standardmäßig wird im Bericht über Peer-to-Peer-Sofortnachrichten die Anzahl 
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Peer-to-Peer-Sofortnachrichten verwenden können.
   
-**Filter im Bericht über Peer-zu-Peer-Sofortnachrichten**
+**Filter im Bericht über Peer-to-Peer-Sofortnachrichten**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -51,9 +51,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-to-Peer-Sofortnachrichten enthalten sind.
   
-**Metriken für Peer-zu-Peer-Sofortnachrichtensitzungen nach Pool**
+**Metriken für den Bericht über Peer-to-Peer-Sofortnachrichtensitzungen nach Pool**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Nein  <br/> |Name des Registrar-Pools oder Edgeservers.  <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem die Sitzungen stattfanden.  <br/> |
@@ -63,9 +63,9 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-to-Peer-Sofortnachrichten für die einzelnen von den Teilnehmern in einer Peer-to-Peer-Sitzung verwendeten Authentifizierungstypen angegeben werden.
   
-**Metriken für Peer-zu-Peer-Sofortnachrichtensitzungen nach Authentifizierungstyp**
+**Metriken für den Bericht über Peer-to-Peer-Sofortnachrichtensitzungen nach Authentifizierungstyp**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Authentifizierungstyp** <br/> |Nein  <br/> | Der von den Sitzungsteilnehmern verwendete Authentifizierungstyp. Folgende Werte sind möglich: <br/>  Enterprise <br/>  Federated <br/>  PIC <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem die Sitzungen stattfanden.  <br/> |

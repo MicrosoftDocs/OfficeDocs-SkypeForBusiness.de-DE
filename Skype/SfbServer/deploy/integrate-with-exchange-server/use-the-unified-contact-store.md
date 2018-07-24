@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Skype für Business Server 2015 einheitlichen Kontaktspeicher verwenden
+title: Konfigurieren von Skype for Business Server für die Verwendung des einheitlichen Kontaktspeichers
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
-description: 'Zusammenfassung: Konfigurieren des vereinheitlichte kontaktspeichers für Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015.'
-ms.openlocfilehash: 479032425c8a3d2d66bd341f54908a071dd5480d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Konfigurieren des vereinheitlichte kontaktspeichers für Exchange Server und Skype für Business Server.'
+ms.openlocfilehash: 6dccf6b2e6461ede26f49fa9efb3386bd04a9db3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988769"
 ---
-# <a name="configure-skype-for-business-server-2015-to-use-the-unified-contact-store"></a>Konfigurieren von Skype für Business Server 2015 einheitlichen Kontaktspeicher verwenden
+# <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Konfigurieren von Skype for Business Server für die Verwendung des einheitlichen Kontaktspeichers
  
-**Zusammenfassung:** Konfigurieren Sie den vereinheitlichte Kontakte Speicher für Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015.
+**Zusammenfassung:** Konfigurieren Sie den vereinheitlichte Kontakte Speicher für Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server.
   
-Mit dem einheitlichen Kontaktspeicher, Benutzer verwalten eine einzigen Kontaktliste und dann die Kontakte in mehreren Anwendungen, einschließlich Skype für Unternehmen, Microsoft Outlook 2013 und Microsoft Outlook Web App 2013 verfügbar. Wenn Sie den einheitlichen Kontaktspeicher für einen Benutzer aktivieren, dass Kontakte des Benutzers werden nicht in Skype für Business Server 2015 gespeichert und bei Bedarf abgerufen. Stattdessen auch seiner Kontakte werden in Exchange Server 2016 oder Exchange Server 2013 gespeichert und abgerufen werden, mithilfe der Exchange-Webdienste.
+Mit dem einheitlichen Kontaktspeicher, Benutzer verwalten eine einzigen Kontaktliste und dann die Kontakte in mehreren Anwendungen, einschließlich Skype für Unternehmen, Microsoft Outlook 2013 und Microsoft Outlook Web App 2013 verfügbar. Wenn Sie den einheitlichen Kontaktspeicher für einen Benutzer aktivieren, dass Kontakte des Benutzers werden nicht in Skype für Business Server gespeichert und bei Bedarf abgerufen. Stattdessen auch seiner Kontakte werden in Exchange Server 2016 oder Exchange Server 2013 gespeichert und abgerufen werden, mithilfe der Exchange-Webdienste.
   
 > [!NOTE]
 > Kontaktinformationen ist technisch gesehen, in einem Paar von Ordner in Exchange-Postfach des Benutzers gespeichert. Die Kontakte selbst werden gespeichert, in einen Ordner namens Skype für Geschäftskontakte das für Endbenutzer angezeigt wird. Metadaten für die Kontakte befinden sich in einem Unterordner, der für Endbenutzer nicht sichtbar ist. 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>Aktivieren des einheitlichen Kontaktspeichers für einen Benutzer
 
-Wenn der Server-zu-Server-Authentifizierung zwischen Skype für Business Server 2015 und Exchange Server 2016 oder Exchange Server 2013 bereits konfiguriert ist, haben Sie auch den einheitlichen Kontaktspeicher aktiviert; Es ist keine zusätzliche Konfiguration erforderlich. Beim Benutzerkonto sind jedoch noch Konfigurationsschritte erforderlich, damit die Kontakte des Benutzers in den einheitlichen Kontaktspeicher verschoben werden. Standardmäßig werden Benutzerkontakte in Skype für Business Server und nicht in den einheitlichen Kontaktspeicher gespeichert.
+Wenn der Server-zu-Server-Authentifizierung zwischen Skype für Business Server und Exchange Server bereits konfiguriert ist, haben Sie auch den einheitlichen Kontaktspeicher aktiviert; Es ist keine zusätzliche Konfiguration erforderlich. Beim Benutzerkonto sind jedoch noch Konfigurationsschritte erforderlich, damit die Kontakte des Benutzers in den einheitlichen Kontaktspeicher verschoben werden. Standardmäßig werden Benutzerkontakte in Skype für Business Server und nicht in den einheitlichen Kontaktspeicher gespeichert.
   
 Zugriff auf den einheitlichen Kontaktspeicher wird mithilfe von Skype für Business Server Services Benutzerrichtlinien verwaltet. Benutzerdienst-Richtlinien verfügen nur über eine einzige Eigenschaft (UcsAllowed), die angibt, wo die Kontakte eines Benutzers gespeichert werden. Wenn ein Benutzer von einer Benutzerdienst-Richtlinie verwaltet wird, in der „UcsAllowed“ auf „True“ ($True) gesetzt ist, werden die Kontakte des Benutzers im einheitlichen Kontaktspeicher gespeichert. Wenn der Benutzer von verwaltet wird benutzerdiensterichtlinie ein Benutzers, in dem UcsAllowed auf "false" ($False) festgelegt wurde, dann werden auch seiner Kontakte in Skype für Business Server gespeichert.
   
@@ -60,7 +61,7 @@ Sie können überprüfen, ob die Kontakte eines Benutzers durch Ausführen des [
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Wenn das Cmdlet Test-CsUnifiedContactStore einen Erfolg meldet, bedeutet dies, dass die Kontakte für den Benutzer „sip:kenmyer@litwareinc.com“ zum einheitlichen Kontaktspeicher migriert wurden.
+Wenn der Test-CsUnifiedContactStore erfolgreich, die bedeutet, dass die Kontakte für den Benutzer Sip: Kenmyer @<span></span>Litwareinc<span></span>.com zum einheitlichen Kontaktspeicher migriert wurden.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>Zurückverlegung aus dem einheitlichen Kontaktspeicher
 

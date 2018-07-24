@@ -1,24 +1,24 @@
 ---
-title: Zusammenfassender Konferenz-Unterbericht in Skype for Business Server 2015
+title: Zusammenfassender Konferenz-Unterbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Zusammenfassung: Informationen Sie zu den zusammenfassender Konferenz-Unterbericht in Skype für Business Server 2015.'
-ms.openlocfilehash: 39c71ebfa5798d861a9b8afd8865486dba033c1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den zusammenfassender Konferenz-Unterbericht in Skype für Business Server.'
+ms.openlocfilehash: 1a35d772e368fe9755d0b7640d6a69f1ec46d4ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997729"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server-2015"></a>Zusammenfassender Konferenz-Unterbericht in Skype for Business Server 2015
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Zusammenfassender Konferenz-Unterbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassender Konferenz-Unterbericht in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den zusammenfassender Konferenz-Unterbericht in Skype für Business Server.
   
 Der zusammenfassende Konferenzunterbericht stellt eine Gesamtübersicht zu gescheiterten Konferenzsitzungen bereit, bei denen Fehler aufgetreten sind. Diese gescheiterten Sitzungen sind weiter nach Sitzungstyp unterteilt: Konferenzzustandsobjekt-Sitzungen und MCU-Sitzungen.
   
@@ -26,7 +26,7 @@ Der zusammenfassende Konferenzunterbericht stellt eine Gesamtübersicht zu gesch
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im zusammenfassenden Konferenzunterbericht verwenden können.
   
-**Filter im zusammenfassenden Unterbericht der Konferenz**
+**Filter im zusammenfassenden Konferenzunterbericht**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -38,9 +38,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 In der folgenden Tabelle sind die Metriken aufgelistet, die im zusammenfassenden Konferenzunterbericht angegeben werden.
   
-**Metriken im zusammenfassenden Konferenzunterbericht der Konferenz**
+**Metriken im zusammenfassenden Konferenzunterbericht**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Konferenzen insgesamt** <br/> |Nein  <br/> |Gesamtzahl der Konferenzen, die durchgeführt wurden.  <br/> |
 |**Konferenzsitzungen insgesamt** <br/> |Nein  <br/> |Gesamtzahl der Konferenzsitzungen. Eine einzelne Konferenz kann mehrere Sitzungen haben. Beispielsweise kann eine Konferenz sowohl eine Konferenzzustandsobjekt-Sitzung als auch eine MCU-Sitzung umfassen.  <br/> |

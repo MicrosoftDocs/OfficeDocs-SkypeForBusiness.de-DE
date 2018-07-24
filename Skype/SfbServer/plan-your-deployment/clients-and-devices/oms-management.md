@@ -9,16 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
-description: " In diesem Artikel werden Planungsüberlegungen für die Verwendung von Operations Management Suite zur Verwaltung von Skype Room System V2-Geräten in Ihrer Skype for Business Server 2015-Implementierung beschrieben."
-ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+description: In diesem Artikel werden planungsüberlegungen zur Verwendung von Operations Management Suite zum Verwalten von Skype Raum Systemen v2 Geräte in Ihrer Skype für Business Server-Implementierung für.
+ms.openlocfilehash: 3e39075ab16c8cd8d8c688043bf7fa370af1f5b0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984757"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planen der Verwaltung von Skype Room System V2 mit OMS
  
-  In diesem Artikel werden Planungsüberlegungen für die Verwendung von Operations Management Suite zur Verwaltung von Skype Room System V2-Geräten in Ihrer Skype for Business Server 2015-Implementierung beschrieben.
+ In diesem Artikel werden planungsüberlegungen zur Verwendung von Operations Management Suite zum Verwalten von Skype Raum Systemen v2 Geräte in Ihrer Skype für Business Server-Implementierung für.
   
 [Vorgänge Management Suite](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview) (OMS) ist eine Auflistung von Rights Management Services, die in der Cloud ab dem Anfang entwickelt wurden. Statt bereitstellen und Verwalten von lokalen Ressourcen, werden OMS-Komponenten vollständig in Azure gehostet. Konfiguration ist gering, und Sie können ausgeführt werden und als solches innerhalb weniger Minuten. Einige Arbeit Anpassung können sie bei der Verwaltung von Skype Raum v2 Conferencing-basierte Systeme durch Bereitstellen der Systemintegrität oder Fehler in Echtzeit Benachrichtigungen für einzelne Raum Systeme hilfreich, und es kann potenziell vertikales Skalieren zur Verwaltung von Tausende von Skype Raum Systemen Konferenzräume v2.
   
@@ -60,9 +61,6 @@ Bei Verwendung von OMS Skype Raum Systemen v2 Konferenz Geräte verwalten, müss
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Bereitstellen von Skype Raum v2 systemverwaltung mit OMS](../../deploy/deploy-clients/with-oms.md)
+[Bereitstellen der Verwaltung von Skype Room System V2 mit OMS](../../deploy/deploy-clients/with-oms.md)
   
-[Verwalten von Skype Raum Systemen v2 Geräte mit OMS](../../manage/skype-room-systems-v2/oms.md)
-
+[Verwalten von Skype Room Systems v2-Geräten mit OMS](../../manage/skype-room-systems-v2/oms.md)

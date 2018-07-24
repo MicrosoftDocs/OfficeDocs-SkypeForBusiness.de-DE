@@ -1,24 +1,24 @@
 ---
-title: DNS-Anforderungen für einfache URLs in Skype für Business Server 2015
+title: DNS-Anforderungen für einfache URLs in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 'Zusammenfassung: Überprüfen Sie die einfache URL Aspekte in diesem Thema vor der Implementierung von DNS-Einträgen für Skype für Business Server 2015.'
-ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: 'Zusammenfassung: Überprüfen Sie die einfache URL Aspekte in diesem Thema vor der Implementierung von DNS-Einträgen für Skype für Business Server.'
+ms.openlocfilehash: 9786037cde74b77b855946551f5d4ed5ffc91701
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984386"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>DNS-Anforderungen für einfache URLs in Skype für Business Server 2015
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS-Anforderungen für einfache URLs in Skype für Business Server
  
-**Zusammenfassung:** Überprüfen Sie vor der Implementierung von DNS-Einträgen für Skype für Business Server 2015 die einfache URL Aspekte in diesem Thema.
+**Zusammenfassung:** Überprüfen Sie vor der Implementierung von DNS-Einträgen für Skype für Business Server die einfache URL Aspekte in diesem Thema.
   
 Einfache URLs vereinfachen den benutzerbeitritt zu Besprechungen für Ihre Benutzer und erleichtern den Zugriff auf Skype für Business Server-Verwaltungstools Administratoren. Einfache URLs verwenden der eigenen Domäne, die nicht der SIP-Domänen übereinstimmen muss, die Sie definieren. 
   
@@ -111,7 +111,7 @@ Meet-ext.geolb.contoso.com
 Erstellen Sie dann CNAME-Einträge, die Ihre einfache Meet-URL (z. B. meet.contoso.com) in die beiden GeoDNS-Adressen auflösen.
   
 > [!NOTE]
-> Wenn Ihr Netzwerk verwendet Hairpinning (routing alle einfache URL-Datenverkehr über die externe Verknüpfung, einschließlich Datenverkehr, der in Ihrem Unternehmen stammen), klicken Sie dann Sie einfach konfigurieren Sie die externe GeoDNS-Adresse und die einfache Meet-URL nur dem Auflösen externe Adresse.
+> Wenn in Ihrem Netzwerk das so genannte Hairpinning eingesetzt wird (der gesamte Datenverkehr der einfachen URL wird über den externen Link geleitet, einschließlich des Datenverkehrs aus der Organisation), können Sie einfach nur die externe GeoDNS-Adresse konfigurieren und Ihre einfache Meet-URL nur in diese externe Adresse auflösen.
   
 Wenn Sie diese Methode verwenden, können Sie jede GeoDNS-Adresse so konfigurieren, dass entweder eine Roundrobin-Methode zur Verteilung der Anforderungen an die beiden Pools verwendet wird oder dass hauptsächlich eine Verbindung mit einem Pool hergestellt wird (z. B. mit dem Pool, der geografisch näher ist) und der andere Pool nur bei einem Konnektivitätsfehler zum Einsatz kommt. 
   

@@ -3,7 +3,6 @@ title: Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Informationen Sie zu Front-End-Pool-Verwaltung in Skype für Business Server, einschließlich der Verwaltung von Pools, Quorum Verlust und speziellen Schritte für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: f348fcc4fee6a48a41265da88fe432d9e4550b6c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ba15e090829256188763a0e7791cebb29f097422
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005246"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
@@ -29,9 +29,9 @@ In Skype für Business Server verwendet die Architektur von Front-End-Pools ein 
   
 Mit dem verteilten Objektmodell für Front-End-Pools muss eine bestimmte Anzahl von Servern des Pools für den Pool-Funktion ausgeführt werden. Es gibt zwei Verlust Modi für einen Pool.
   
-- Routing Gruppenebene Quorum Verlust verursacht durch nicht genügend Replikatserver für eine bestimmte Routinggruppe. Bei einer Routinggruppe handelt es sich um eine Gruppe von Benutzern, die im Pool verwaltet werden. Jede Routinggruppe verfügt über drei Replikate im Pool: ein primäres und zwei sekundäre Replikate.
+- Quorumverlust auf Routinggruppenebene, wenn nicht genügend Replikatserver für eine bestimmte Routinggruppe vorhanden sind. Bei einer Routinggruppe handelt es sich um eine Gruppe von Benutzern, die im Pool verwaltet werden. Jede Routinggruppe verfügt über drei Replikate im Pool: ein primäres und zwei sekundäre Replikate.
     
-- Pool Ebene Quorum Verlust verursacht, wenn nicht genügend Seed-Servern im Pool ausgeführt werden. 
+- Quorumverlust auf Poolebene, der verursacht wird, wenn nicht genügend Seedserver im Pool aktiv sind. 
     
 ### <a name="routing-group-level-quorum-loss"></a>Quorumverlust auf Routinggruppenebene
 
@@ -77,7 +77,7 @@ Sie sollten auf eine Reihe anderer Faktoren achten, um sicherzustellen, dass Ihr
   
 - Wenn Sie Benutzer zum ersten Mal in den Pool verschieben, müssen Sie mindestens, dass drei der Front-End-Server ausgeführt werden.
     
-- Wenn Sie eine Paarbeziehung zwischen diesem Pool und einem anderen Pool zum Zweck der Notfallwiederherstellung konfigurieren, müssen Sie nach dem Erstellen dieser Beziehung sichergehen, dass in diesem Pool zu einem beliebigen Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt werden, damit Daten korrekt mit dem Sicherungspool synchronisiert werden. Weitere Informationen zum Pool eine Kopplung und Disaster Recovery-Features, finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server 2015](high-availability-and-disaster-recovery.md). 
+- Wenn Sie eine Paarbeziehung zwischen diesem Pool und einem anderen Pool zum Zweck der Notfallwiederherstellung konfigurieren, müssen Sie nach dem Erstellen dieser Beziehung sichergehen, dass in diesem Pool zu einem beliebigen Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt werden, damit Daten korrekt mit dem Sicherungspool synchronisiert werden. Weitere Informationen zum Pool eine Kopplung und Disaster Recovery-Funktionen finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server](high-availability-and-disaster-recovery.md). 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Front-End-Pool mit zwei Front-End-Servern
 

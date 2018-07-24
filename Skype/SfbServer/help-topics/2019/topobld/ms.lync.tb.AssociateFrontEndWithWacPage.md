@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Der Office Web Apps-Server stellt Dienste wie ein Referent zur Verfügung, der ein Dokument zur Verwendung in einer Besprechung hochlädt, jedoch weitere Funktionen ermöglicht, die in den vorherigen Versionen nicht verfügbar waren.
-ms.openlocfilehash: ea7df7254dc17b3db0107df9d92ba69d8c51b128
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: af10702b84021caa5d2e9a7c874e3dcaad2f54ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970661"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985809"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
  
 Der Office Web Apps-Server stellt Dienste wie ein Referent zur Verfügung, der ein Dokument zur Verwendung in einer Besprechung hochlädt, jedoch weitere Funktionen ermöglicht, die in den vorherigen Versionen nicht verfügbar waren.
   
-Wählen Sie einen Office Web Apps-Server für die Bereitstellung, wenn Sie Konferenzen als eine der Optionen für Ihre Skype für Business Server 2015 Konfiguration ausgewählt haben.
+Wählen Sie einen Office Web Apps-Server für die Bereitstellung, wenn Sie Konferenzen als eine der Optionen für Ihre Skype für Business Server-Konfiguration ausgewählt haben.
   
 Bei den Optionen in diesem Dialogfeld haben Sie die folgenden Auswahlmöglichkeiten:
   

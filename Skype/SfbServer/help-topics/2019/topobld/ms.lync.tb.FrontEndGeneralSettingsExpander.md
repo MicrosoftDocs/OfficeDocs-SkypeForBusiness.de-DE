@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Zum Bearbeiten der Einstellungen eines vorhandenen Front-End-Pools oder Standard Edition-Servers stehen die folgenden Abschnitte zur Verfügung:'
-ms.openlocfilehash: d992854753cf3b6c11481c0b3725d0e5bb30329b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6ec94dffe46bf29b7665ef362f8084a8fd2a4948
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973073"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988911"
 ---
 # <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
  
@@ -133,7 +133,7 @@ Für einen Standard Edition-Server können Sie allgemeine Einstellungen sowie Ei
 
 Die folgenden allgemeinen Einstellungen können konfiguriert werden:
   
-- ** FQDN **. Beachten Sie, dass der vollqualifizierte Domänenname nicht geändert werden kann. Sie müssen entfernen und definieren den Standard Edition-Server, um den FQDN mit ihm verbundenes ändern.
+- **FQDN**. Beachten Sie, dass der vollqualifizierte Domänenname nicht geändert werden kann. Sie müssen entfernen und definieren den Standard Edition-Server, um den FQDN mit ihm verbundenes ändern.
     
 - Wählen Sie **Alle konfigurierten IP-Adressen verwenden** oder **Dienstnutzung auf die ausgewählten IP-Adressen beschränken**. Wenn Sie den Dienst auf festgelegte IP-Adressen begrenzen möchten, müssen Sie die primäre IP-Adresse festlegen, die der Server für die gesamte Kommunikation mit Ausnahme des Telefonfestnetzes verwenden soll. Für die Verwendung mit dem Telefonfestnetz wird eine gesonderte IP-Adresse bestimmt. Sie können auch **IPv6 aktivieren** wählen, um IPv6 für diesen Server zu aktivieren.
     

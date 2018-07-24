@@ -1,34 +1,34 @@
 ---
-title: Bereitstellen von AV- und OAuth-Zertifikaten in Skype for Business Server 2015 mithilfe von „-Roll“ in Set-CsCertificate
+title: Bereitstellen von AV- und OAuth-Zertifikaten in Skype für Business Server mithilfe von-Roll in Set-CsCertificate
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: 'Zusammenfassung: Phase AV- und OAuth Zertifikate für Skype für Business Server 2015.'
-ms.openlocfilehash: 7c5abf07c5b30e4e015936fcf0987e989f1d8117
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Zusammenfassung: Phase AV- und OAuth Zertifikate für Skype für Business Server.'
+ms.openlocfilehash: 3f616d7e67cf256cbf2a53ea86b3f051d959d4f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996423"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-2015-using--roll-in-set-cscertificate"></a>Bereitstellen von AV- und OAuth-Zertifikaten in Skype for Business Server 2015 mithilfe von „-Roll“ in Set-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Bereitstellen von AV- und OAuth-Zertifikaten in Skype für Business Server mithilfe von-Roll in Set-CsCertificate
  
-**Zusammenfassung:** Phase AV- und OAuth-Zertifikaten für Skype für Business Server 2015.
+**Zusammenfassung:** Phase AV- und OAuth-Zertifikaten für Skype für Business Server.
   
-Audio/Video (A / V) Communications ist eine wichtige Komponente von Skype für Business Server 2015. Features wie etwa Anwendung freigeben und Audio- und Videokonferenzen beruhen auf die Zertifikate zugewiesen sind, der a / V-edgedienst, insbesondere der A / V-Authentifizierungsdienst.
+Audio/Video (A / V) Communications ist eine wichtige Komponente von Skype für Business Server. Features wie etwa Anwendung freigeben und Audio- und Videokonferenzen beruhen auf die Zertifikate zugewiesen sind, der a / V-edgedienst, insbesondere der A / V-Authentifizierungsdienst.
   
 > [!IMPORTANT]
 > Dieses neue Feature wurde entwickelt für den A / V-edgedienst und OAuthTokenIssuer-Zertifikat. Andere Zertifikattypen bereitgestellt werden können, zusammen mit dem A / V-edgedienst und OAuth-Zertifikats Typ, aber haben keinen Nutzen aus der Koexistenzverhalten, A / V-Edgeserver das Zertifikat wird.
   
-Die Skype für Business Server Management Shell PowerShell-Cmdlets zur Verwaltung von Skype für Business Server 2015 Zertifikate bezieht sich auf den A / V-edgedienst Zertifikat als Typ AudioVideoAuthentication-Zertifikat und das OAuthServer als TypeOAuthTokenIssuer. Für den Rest dieses Themas und um die Zertifikate eindeutig zu identifizieren werden sie durch den Bezeichnertyp AudioVideoAuthentication AndOAuthTokenIssuer bezeichnet werden.
+Die Skype für Business Server Management Shell PowerShell-Cmdlets zur Verwaltung von Skype für Business Serverzertifikate bezieht sich auf den A / V-edgedienst Zertifikat als Typ AudioVideoAuthentication-Zertifikat und das OAuthServer als TypeOAuthTokenIssuer. Für den Rest dieses Themas und um die Zertifikate eindeutig zu identifizieren werden sie durch den Bezeichnertyp AudioVideoAuthentication AndOAuthTokenIssuer bezeichnet werden.
   
-Der A / V-Authentifizierungsdienst ist dafür verantwortlich, Ausstellen von Token, die von Clients und anderen A verwendet werden / V-Consumer. Die Token aus Attribute für das Zertifikat generiert und bei Ablauf des Zertifikats ergeben Verlust der Verbindung und die Anforderung an einen neuen Token generiert, die für das neue Zertifikat erneut an. Ein neues Feature in Skype für Business Server 2015 wird dieses Problem - die Möglichkeit, ein neues Zertifikat, bevor der alte Datenbankserver ablaufen und ermöglichen beide Zertifikate für eine bestimmte Zeitspanne funktionieren weiterhin Phase verringern. Diese Funktion nutzt aktualisierte Funktionalität in der Set-CsCertificate Skype für Business Server-Verwaltungsshell-Cmdlet. Der neue Parameter-Würfeln, mit dem vorhandenen Parameter - EffectiveDate, das neue AudioVideoAuthentication-Zertifikat im Zertifikatspeicher platziert wird. Das ältere AudioVideoAuthentication-Zertifikat bleibt weiterhin für ausgestellten Token anhand überprüft werden. Bereitstellen des neuen AudioVideoAuthentication-Zertifikats ab, wird die folgende Reihe von Ereignissen auftreten:
+Der A / V-Authentifizierungsdienst ist dafür verantwortlich, Ausstellen von Token, die von Clients und anderen A verwendet werden / V-Consumer. Die Token aus Attribute für das Zertifikat generiert und bei Ablauf des Zertifikats ergeben Verlust der Verbindung und die Anforderung an einen neuen Token generiert, die für das neue Zertifikat erneut an. Ein neues Feature in Skype für Business Server wird dieses Problem - die Möglichkeit, ein neues Zertifikat, bevor der alte Datenbankserver ablaufen und ermöglichen beide Zertifikate für eine bestimmte Zeitspanne funktionieren weiterhin Phase verringern. Diese Funktion nutzt aktualisierte Funktionalität in der Set-CsCertificate Skype für Business Server-Verwaltungsshell-Cmdlet. Der neue Parameter-Würfeln, mit dem vorhandenen Parameter - EffectiveDate, das neue AudioVideoAuthentication-Zertifikat im Zertifikatspeicher platziert wird. Das ältere AudioVideoAuthentication-Zertifikat bleibt weiterhin für ausgestellten Token anhand überprüft werden. Bereitstellen des neuen AudioVideoAuthentication-Zertifikats ab, wird die folgende Reihe von Ereignissen auftreten:
   
 > [!TIP]
 > Verwenden die Skype als Business Server-Verwaltungsshell-Cmdlets zum Verwalten von Zertifikaten, können Sie für jeden Zweck auf dem Edgeserver separate und eigenständige Zertifikate anfordern. Mit den Zertifikat-Assistenten in der Skype für Business Server Installations-Assistent hilft Ihnen beim Erstellen von Zertifikaten, aber in der Regel **dem Standardtyp welche Paare alle Zertifikat für den Edgeserver in einem einzigen Zertifikat verwendet** wird. Die empfohlene Vorgehensweise bei Verwendung der Funktion für rollende Zertifikate besteht darin, das AudioVideoAuthentication-Zertifikat von den anderen Zertifikatzwecken zu lösen. Sie können ein Zertifikat vom Typ „Standard“ bereitstellen, doch nur der AudioVideoAuthentication-Teil des kombinierten Zertifikats profitiert von dem Staging. Ein Benutzer beteiligt (z. b) eine Sofortnachrichtenunterhaltung, wenn das Zertifikat abläuft ab-und wieder anmelden, um zu machen müssen mithilfe des neuen Zertifikats mit Zugriffs-edgedienst verknüpft ist. Ähnliches Verhalten tritt für einen Benutzer einer Webkonferenz mithilfe des Webkonferenz-edgediensts beteiligt. Das OAuthTokenIssuer-Zertifikat ist ein bestimmter Typ, der auf allen Servern freigegeben ist. Sie erstellen und Verwalten des Zertifikats an einem Ort und das Zertifikat wird gespeichert im zentralen Verwaltungsspeicher für alle anderen Server.
@@ -81,7 +81,7 @@ Um dem Vorgang zu veranschaulichen, Set-CsCertificate - Roll und -EffectiveDate 
   
 ![Verwenden der Parameter "Roll" und "EffectiveDate"](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**Legende**|**Phase**|
+|**Beschriftung**|**Phase**|
 |:-----|:-----|
 |1  <br/> |Start: 22.07.2015 12:00:00 Uhr  <br/> Das aktuelle AudioVideoAuthentication-Zertifikat endet am 22.07.2015 um 14:00 Uhr. Das wird durch den Ablaufzeitstempel auf dem Zertifikat festgelegt. Planen Sie für Ersatz und Rollover Ihres Zertifikats eine Überschneidung von acht Stunden ein (Standardtokenlebensdauer), bevor das vorhandene Zertifikat die Ablaufzeit erreicht. Die Vorlaufzeit von 2:00:00 Uhr wird in diesem Beispiel verwendet, damit der Administrator genügend Zeit hat, um die neuen Zertifikate vor der Ablaufzeit um 6:00:00 Uhr zu platzieren und bereitzustellen.  <br/> |
 |2  <br/> |22.07.2015 02:00:00 Uhr – 22.07.2015 05:59:59 Uhr  <br/> Legen Sie Zertifikate auf Edge-Servern mit effektiven Zeit von 6:00:00 AM (4 Stunden Zeitabstand für dieses Beispiel ist, jedoch kann nicht länger) mithilfe des Set-CsCertificate-Typ \<Zertifikat Verwendungstyp\> -Fingerabdruck \<Fingerabdruck des neuen Zertifikats\> - Ein Rollback - EffectiveDate \<Datetime-Zeichenfolge der effektiven Zeit für das neue Zertifikat\>  <br/> |
@@ -130,11 +130,8 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Verwalten von Server-zu-Server-Authentifizierung (OAuth) und partneranwendungen in Skype für Business Server 2015](server-to-server-and-partner-applications.md)
+[Verwalten von Server-zu-Server-Authentifizierung (OAuth) und partneranwendungen in Skype für Business Server](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   
 [Remove-CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
-

@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Archivierungsrichtlinien in Skype for Business Server 2015
+title: Verwalten von Archivierungsrichtlinien in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,16 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
-description: 'Zusammenfassung: Informationen Sie zum Verwalten von Benutzerrichtlinien für die Archivierung für Skype für Business Server 2015.'
-ms.openlocfilehash: 584849862e106098bc4bbad92ed4e0b87be410e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Verwalten von Benutzerrichtlinien für die Archivierung für Skype für Business Server.'
+ms.openlocfilehash: d29d30c99320631279114d3ebdfa8ee7db00b677
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013321"
 ---
-# <a name="manage-archiving-policies-in-skype-for-business-server-2015"></a>Verwalten von Archivierungsrichtlinien in Skype for Business Server 2015
+# <a name="manage-archiving-policies-in-skype-for-business-server"></a>Verwalten von Archivierungsrichtlinien in Skype für Business Server
 
-**Zusammenfassung:** Informationen Sie zum Verwalten von Benutzerrichtlinien für die Archivierung für Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Verwalten von Benutzerrichtlinien für die Archivierung für Skype für Business Server.
   
 Zunächst eingerichtet werden Archivierungsrichtlinien, wenn Sie die Archivierung bereitstellen, jedoch können Sie ändern, hinzufügen und Löschen von Konfigurationen nach der Bereitstellung. Archivierungsrichtlinien bestimmen, ob das archivieren: 
   
@@ -29,7 +30,7 @@ Zunächst eingerichtet werden Archivierungsrichtlinien, wenn Sie die Archivierun
 Archivierungsrichtlinien kann Set auf globaler, Standort- oder Benutzerebene sein.
   
 > [!NOTE]
-> Wenn Sie Microsoft Exchange-Integration für die Bereitstellung, Exchange-Richtlinien Steuerelement aktiviert, ob Archivierung aktiviert ist, für die Benutzer, die sich auf Exchange befinden und haben ihren Postfächern zu Compliance-Archiv platzieren. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../plan-your-deployment/archiving/archiving.md) und [Integration mit Exchange-Speicher für Skype für Business Server 2015 konfigurieren](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Wenn Sie Microsoft Exchange-Integration für die Bereitstellung, Exchange-Richtlinien Steuerelement aktiviert, ob Archivierung aktiviert ist, für die Benutzer, die sich auf Exchange befinden und haben ihren Postfächern zu Compliance-Archiv platzieren. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server](../../plan-your-deployment/archiving/archiving.md) und [Integration mit Exchange-Speicher für Skype für Business Server konfigurieren](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Verwalten von Archivierungsrichtlinien über die Systemsteuerung
 
@@ -43,7 +44,7 @@ Sie können Archivierungsrichtlinien wie folgt mit der Systemsteuerung verwalten
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Verwalten von Archivierungsrichtlinien mit Windows PowerShell
 
-Sie können die Archivierungsrichtlinien auch mithilfe der in der folgenden Tabelle aufgeführten Windows PowerShell-Cmdlets konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md).
+Sie können die Archivierungsrichtlinien auch mithilfe der in der folgenden Tabelle aufgeführten Windows PowerShell-Cmdlets konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter finden Sie unter [Skype für Business Server-Verwaltungsshell](../management-shell.md).
   
 
 |**Cmdlet**|**Beschreibung**|

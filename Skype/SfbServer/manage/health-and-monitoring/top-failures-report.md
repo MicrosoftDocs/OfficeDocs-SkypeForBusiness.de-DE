@@ -1,24 +1,24 @@
 ---
-title: Bericht über häufigste Fehler in Skype for Business Server 2015
+title: Bericht über häufigste Fehler in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Zusammenfassung: Informationen Sie zu Skype für Business Server 2015 Bericht über häufigste Fehler.'
-ms.openlocfilehash: 3eb536fdeaa606c16c78954401bc43e91dd520d9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu Skype für Business Server Bericht über häufigste Fehler.'
+ms.openlocfilehash: 7050c156d78ed7b4c254976cf4fd2027f3a677d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002158"
 ---
-# <a name="top-failures-report-in-skype-for-business-server-2015"></a>Bericht über häufigste Fehler in Skype for Business Server 2015
+# <a name="top-failures-report-in-skype-for-business-server"></a>Bericht über häufigste Fehler in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu Skype für Business Server 2015 Bericht über häufigste Fehler.
+**Zusammenfassung:** Informationen Sie zu Skype für Business Server Bericht über häufigste Fehler.
   
 Der Bericht über häufigste Fehler bietet einen Überblick über die am häufigsten gemeldeten Fehler mit Trenddarstellung. Die Fehler basieren auf einer Kombination der folgenden zwei Metriken:
   
@@ -30,7 +30,7 @@ Informationen werden nicht nur für die Gesamtzahl an Sitzungen, in denen ein Fe
   
 ## <a name="accessing-the-top-failures-report"></a>Zugriff auf den Bericht über häufigste Fehler
 
-Der Zugriff auf den Bericht über häufigste Fehler erfolgt von der Startseite für Überwachungsberichte aus. Durch Klicken auf die Metrik "gemeldet Sitzungen" gelangen Sie zu dem [Bericht über Fehlerverteilung in Skype für Business Server 2015](failure-distribution-report.md).
+Der Zugriff auf den Bericht über häufigste Fehler erfolgt von der Startseite für Überwachungsberichte aus. Durch Klicken auf die Metrik "gemeldet Sitzungen" gelangen Sie zu dem [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Beste Nutzung des Berichts häufigster Fehler
 
@@ -50,7 +50,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über häufigste Fehler verwenden können.
   
-**Bericht über häufigste Fehler – Filter**
+**Filter im Bericht über häufigste Fehler**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über h
   
 **Metriken im Bericht über häufigste Fehler**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Rang** <br/> |Ja  <br/> |Der relative Rang basierend auf der Anzahl der gemeldeten Sitzungen.  <br/> |
 |**Gemeldete Sitzungen** <br/> |Ja  <br/> |Die Gesamtzahl der fehlerhaften Sitzungen basierend auf der Diagnose-ID und dem SIP-Antwortcode.  <br/> |

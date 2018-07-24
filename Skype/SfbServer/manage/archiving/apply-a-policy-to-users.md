@@ -1,29 +1,29 @@
 ---
-title: Anwenden einer Richtlinie auf Benutzer in Skype for Business Server 2015
+title: Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungsrichtlinie für Benutzer in Skype für Business Server 2015 zuweisen.'
-ms.openlocfilehash: fc9811aa57a1ba397dedce325f03ea2d77e4413b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungsrichtlinie für Benutzer in Skype für Business Server zuweisen.'
+ms.openlocfilehash: bc54c25a710e4e1cca44fb7311a47101f31ef7df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985616"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server-2015"></a>Anwenden einer Richtlinie auf Benutzer in Skype for Business Server 2015
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server
 
-**Zusammenfassung:** Hier erfahren Sie, wie Sie eine Archivierungsrichtlinie für Benutzer in Skype für Business Server 2015 zuweisen.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie eine Archivierungsrichtlinie für Benutzer in Skype für Business Server zuweisen.
   
-Wenn Sie eine erstellt haben oder weitere Benutzerrichtlinien für die Archivierung für Benutzer, die unter Skype für Business Server 2015 verwaltet, können Sie die archivierungsunterstützung für bestimmte Benutzer durch Anwenden geeigneten Richtlinien auf die Benutzer oder Benutzergruppen implementieren. Wenn Sie eine Richtlinie zur Unterstützung der Archivierung der internen Kommunikation erstellen, können Sie es beispielsweise auf mindestens einen Benutzer oder eine Benutzergruppe zur Unterstützung der Archivierung von Skype für Business Server 2015 Kommunikation der Benutzer anwenden.
+Wenn Sie eine erstellt haben oder weitere Benutzerrichtlinien für die Archivierung für Benutzer, die auf Skype für Business Server verwaltet, können Sie die archivierungsunterstützung für bestimmte Benutzer durch Anwenden geeigneten Richtlinien auf die Benutzer oder Benutzergruppen implementieren. Wenn Sie eine Richtlinie zur Unterstützung der Archivierung der internen Kommunikation erstellen, können Sie es beispielsweise auf mindestens einen Benutzer oder eine Benutzergruppe zur Unterstützung der Archivierung von Skype für die Business-Server-Kommunikation der Benutzer anwenden.
   
 > [!NOTE]
-> Wenn Sie Microsoft Exchange-Integration für die Bereitstellung, Exchange In-Place Hold Policies Steuerelement aktiviert, ob Archivierung aktiviert ist, für die Benutzer, die sich auf Exchange befinden und haben ihren Postfächern zu Compliance-Archiv platzieren. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../plan-your-deployment/archiving/archiving.md) und [Integration mit Exchange-Speicher für Skype für Business Server 2015 konfigurieren](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Wenn Sie Microsoft Exchange-Integration für die Bereitstellung, Exchange In-Place Hold Policies Steuerelement aktiviert, ob Archivierung aktiviert ist, für die Benutzer, die sich auf Exchange befinden und haben ihren Postfächern zu Compliance-Archiv platzieren. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server](../../plan-your-deployment/archiving/archiving.md) und [Integration mit Exchange-Speicher für Skype für Business Server konfigurieren](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Anwenden einer Benutzerrichtlinie mithilfe der Systemsteuerung
 
@@ -54,11 +54,10 @@ Mithilfe des folgenden Befehls wird die benutzerbezogene Archivierungsrichtlinie
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-Dieser Befehl weist die benutzerbasierte Archivierungsrichtlinie "redmondarchivingpolicy" für alle Benutzer, die haben Konten, die sich in der Registrierung Pool Atl-Cs-001.contoso.com. Ausführliche Informationen zu den Parameter "Filter", die in dieser Befehl verwendet finden Sie unter der [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) -Cmdlet-Dokumentation.
+Der folgende Befehl weist die benutzerbezogene Archivierungsrichtlinie „RedmondArchivingPolicy“ allen Benutzern zu, deren Konten sich auf dem Registrierungsstellenpool „atl-cs-001.contoso.com“ befinden. Ausführliche Informationen zu den Parameter "Filter", die in dieser Befehl verwendet finden Sie unter der [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) -Cmdlet-Dokumentation.
   
 ```
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
-
 ```
 
 Mithilfe des folgenden Befehls wird die Zuordnung aller benutzerbezogenen Archivierungsrichtlinien aufgehoben, die zuvor Jonas Baar zugeordnet wurden. Nach dem Aufheben der Zuordnung der benutzerbezogenen Richtlinie wird Jonas Baar automatisch mithilfe der globalen Richtlinie oder, sofern vorhanden, mithilfe seiner lokalen Standortrichtlinie verwaltet. Eine Standortrichtlinie hat Vorrang vor der globalen Richtlinie.

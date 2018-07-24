@@ -1,24 +1,24 @@
 ---
-title: Konfigurieren von Archivierungshaftungsausschlüssen für externe Benutzer in Skype for Business Server 2015
+title: Konfigurieren der Archivierung Haftungsausschlüsse für externe Benutzer in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren eines Archivierungshaftungsausschlusses für Skype für Business Server 2015.'
-ms.openlocfilehash: 3790160024010084c69df7d9865f17622fca4f0d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren eines Archivierungshaftungsausschlusses für Skype für Business Server.'
+ms.openlocfilehash: cb49135f80c1711e7e71d16b448e51d308f7ebea
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978669"
 ---
-# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server-2015"></a>Konfigurieren von Archivierungshaftungsausschlüssen für externe Benutzer in Skype for Business Server 2015
+# <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Konfigurieren der Archivierung Haftungsausschlüsse für externe Benutzer in Skype für Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zum Konfigurieren eines Archivierungshaftungsausschlusses für Skype für Business Server 2015.
+**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie ein Archivierungshaftungsausschlusses für Skype für Business Server konfigurieren.
   
 Wenn Ihre Organisation mit externen Partnern kommuniziert, müssen Sie die Partner darüber informieren, dass diese Kommunikationen archiviert werden. Wenn Sie einen Edge-Server bereitstellen und Föderation für Ihre Organisation zu aktivieren, werden Sie gefragt, ob Sie automatisch ein Archivierungshaftungsausschlusses an externe Partner senden möchten. 
   

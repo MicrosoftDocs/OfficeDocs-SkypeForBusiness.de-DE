@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Business Server 2015 für Persistent Chat Server in Skype planen.'
-ms.openlocfilehash: 0380b5ebb43e198160faa3e7f10b1563b4def80f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f4d3378de2c2854141d358eaaff7d6c9c6ceba07
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996629"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -28,11 +29,14 @@ Persistent Chat-Server kann die Kommunikation innerhalb Ihrer Organisation durch
     
 - Aktivierung einer effizienten Informationsfreigabe 
     
-- Verbessern der Kommunikation zwischen Teams, einschließlich geografisch verteilten und funktionsübergreifenden teams
+- Verbesserung der Kommunikation zwischen geografisch verteilten und funktionsübergreifenden Teams
     
 - Verringerung der Informationsüberlastung
     
 - Einhaltung rechtlicher Vorschriften durch die optionale Bereitstellung des Kompatibilitätsdienstes für den beständigen Chat
+
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Allgemeine Architektur der permanenten Chatserver
 
@@ -58,9 +62,9 @@ Der auch Channeldienst genannte Chatdienst ist der Kerndienst, der für den Serv
   
 - Annahme eingehender Nachrichten
     
-- Registrierung und Auflistung der online-Teilnehmer in einem Raum beständigen Chat
+- Registrierung und Auflistung der Online-Teilnehmer in einem Chatroom für beständigen Chat
     
-- Überträgt die Nachrichten an andere Abonnenten des Kanals neu
+- Neuübermittlung von Nachrichten an andere Abonnenten des Kanals
     
 - Implementierung der Logik für Kanalverwaltung, Chatroomeinladungen, Suche und Benachrichtigungen über neue Inhalte
     

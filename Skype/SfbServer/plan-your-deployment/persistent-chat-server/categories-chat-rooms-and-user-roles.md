@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Kategorien, Chatrooms und Benutzer und Administrator Rollen für Persistent Chat Server in Skype für Business Server 2015 erhalten.'
-ms.openlocfilehash: 73c7bd8863ba9560b8ef7d79b3e5dce1fbd797a1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 83aa18d427c97ba54dcc3c66e684a4e13ed0c5df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983777"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015
  
@@ -27,6 +28,9 @@ Sie können den Zugriff auf Chatrooms regulieren, indem Sie Chatroomkategorien e
 - Chatrooms und Benutzerrollen
     
 - Administratorrollen
+
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Kategorien für die Organisation von Chatrooms
 
@@ -75,10 +79,10 @@ Im folgenden sind die Administratorrollen für Persistent Chat Server:
 
 Weitere Informationen zum Konfigurieren und Verwalten von Chatrooms und Benutzerrollen finden Sie in den folgenden Themen:
   
-- [Erstellen eines Persistent Chat Administrator in Skype für Business Server 2015](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
+- [Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
     
-- [Verwalten von Kategorien in Persistent Chat Server in Skype für Business Server 2015](../../manage/persistent-chat/categories.md)
+- [Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/categories.md)
     
-- [Verwalten von Chatrooms in Persistent Chat Server in Skype für Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
+- [Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
     
 

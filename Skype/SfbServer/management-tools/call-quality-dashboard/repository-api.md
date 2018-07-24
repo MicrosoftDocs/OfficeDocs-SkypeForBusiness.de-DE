@@ -3,7 +3,7 @@ title: Repository-API für Anruf Qualitätsdashboard (CQD) in Skype für Busines
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Zusammenfassung: Informationen Sie zu der Repository-API für die Qualitätsdashboard Anruf. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 0f84e3967bd4f78f8852dbcfed8ce5d59cbe4e8c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989094"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Repository-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server 2015
  
@@ -62,7 +63,6 @@ Denken Sie daran, die genaue Protokoll, Hostname und Port (falls vorhanden). Nic
       <traceLog enabled="true" fileName="repository_trace.log" />
     </diagnostics>
  </repositoryConfiguration>
-
 ```
 
 

@@ -1,31 +1,31 @@
 ---
-title: Verwalten der zweistufigen Authentifizierung in Skype for Business Server 2015
+title: Verwalten der zweistufigen Authentifizierung in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: 'Zusammenfassung: Verwalten der zweistufigen Authentifizierung in Skype für Business Server 2015.'
-ms.openlocfilehash: 5933afc311514e841d7fb96f41988d8f495d0bee
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Verwalten der zweistufigen Authentifizierung in Skype für Business Server.'
+ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002857"
 ---
-# <a name="manage-two-factor-authentication-in-skype-for-business-server-2015"></a>Verwalten der zweistufigen Authentifizierung in Skype for Business Server 2015
+# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Verwalten der zweistufigen Authentifizierung in Skype für Business Server
  
-**Zusammenfassung:** Verwalten der zweistufigen Authentifizierung in Skype für Business Server 2015.
+**Zusammenfassung:** Verwalten Sie zweistufige Authentifizierung in Skype für Business Server.
   
 Die zweistufige Authentifizierung bietet eine verbesserte Sicherheit, indem gefordert wird, dass Benutzer zwei Authentifizierungskriterien erfüllen: eine Kombination aus Benutzername und Kennwort sowie ein Token oder Zertifikat. Dies ist auch als "etwas, das Sie haben, etwas, den Sie kennen." 
   
 Ein typisches Beispiel für eine zweistufige Authentifizierung ist die Nutzung von Smartcards. Eine Smartcard enthält ein Zertifikat, das einem Benutzerkonto zugewiesen ist und welches mit den Benutzer- und Zertifikatinformationen überprüft werden kann, die auf einem Server gespeichert sind. Durch Abgleichen der Benutzerinformationen (Benutzername und Kennwort) mit dem bereitgestellten Zertifikat überprüft der Server die Anmeldeinformationen, sodass er den Benutzer authentifizieren kann.
   
-Beachten Sie die folgenden Betreffzeilen, bei einer Skype für Business Server 2015 Umgebung zur Unterstützung der zweistufigen Authentifizierung zu konfigurieren.
+Beachten Sie die folgenden Betreffzeilen, bei einer Skype für Business Server-Umgebung zur Unterstützung der zweistufigen Authentifizierung zu konfigurieren.
   
 ## <a name="client-support"></a>Clientunterstützung
 
@@ -33,9 +33,9 @@ Das kumulative Updates für Lync Server 2013: Juli 2013 Desktopclient und der Sk
   
 ## <a name="topology-requirements"></a>Anforderungen im Hinblick auf die Topologie
 
-Kunden werden dringend empfohlen, die zweistufige Authentifizierung mit dedizierten Skype für Business Server 2015 Edge, Director und Pools für Benutzer bereitstellen. Um passiven Authentifizierung für Benutzer aktivieren möchten, müssen für andere Rollen und Dienste, einschließlich der folgenden beiden Authentifizierungsmethoden deaktiviert werden:
+Kunden werden dringend empfohlen, die zweistufige Authentifizierung mit dedizierten Skype für Business Server Edge, Director und Pools für Benutzer bereitstellen. Um passiven Authentifizierung für Benutzer aktivieren möchten, müssen für andere Rollen und Dienste, einschließlich der folgenden beiden Authentifizierungsmethoden deaktiviert werden:
   
-|**Konfigurationstyp**|**Diensttyp**|**Serverrolle**|**Authentifizierungstyp für deaktivieren**|
+|**Konfigurationstyp**|**Diensttyp**|**Serverrolle**|**Zu deaktivierender Authentifizierungstyp**|
 |:-----|:-----|:-----|:-----|
 |Webdienst  <br/> |WebServer  <br/> |Director  <br/> |Kerberos, NTLM und Zertifikat  <br/> |
 |Webdienst  <br/> |WebServer  <br/> |Front-End  <br/> |Kerberos, NTLM und Zertifikat  <br/> |
@@ -56,7 +56,7 @@ Kunden, die zweistufige Authentifizierung für Microsoft Exchange bereitgestellt
 
 Skype für Unternehmensbenutzer, die konfiguriert sind, um das Feature Unified Contact Store nutzen werden feststellen, dass ihre Kontakte nach der Anmeldung mit zweistufiger Authentifizierung nicht mehr verfügbar sind.
   
-Verwenden Sie das Cmdlet " **Invoke-CsUcsRollback** ", vorhandene Benutzerkontakte aus der einheitliche Kontaktspeicher entfernt und in Skype für Business Server 2015 vor der Aktivierung der zweistufigen Authentifizierung speichern.
+Verwenden Sie das Cmdlet " **Invoke-CsUcsRollback** ", vorhandene Benutzerkontakte aus der einheitliche Kontaktspeicher entfernt und in Skype für Business Server vor der Aktivierung der zweistufigen Authentifizierung speichern.
   
 ## <a name="skill-search"></a>Qualifikationssuche
 
@@ -72,7 +72,7 @@ Benutzer sollten verwenden die Option **Meine Info - Anmeldung löschen** in der
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-Mit der Kerberos- oder NTLM-Authentifizierungsmethode werden automatisch die Windows-Anmeldeinformationen des Benutzers für die Authentifizierung verwendet. In einer typischen Skype für Business Server 2015 Bereitstellung, in denen Kerberos- und/oder NTLM für die Authentifizierung aktiviert ist, sollten Benutzer keinen ihre Anmeldeinformationen jedes Mal eingeben, die Anmeldung.
+Mit der Kerberos- oder NTLM-Authentifizierungsmethode werden automatisch die Windows-Anmeldeinformationen des Benutzers für die Authentifizierung verwendet. In einer typischen Skype für Business Server-Bereitstellung, in denen Kerberos- und/oder NTLM für die Authentifizierung aktiviert ist, sollten Benutzer keinen ihre Anmeldeinformationen jedes Mal eingeben, die Anmeldung.
   
 Werden Benutzer unbeabsichtigt zur Eingabe ihrer Anmeldeinformationen aufgefordert, bevor sie zur Eingabe ihrer PIN aufgefordert werden, ist möglicherweise versehentlich der Registrierungsschlüssel **DisableNTCredentials** auf Clientcomputern konfiguriert (möglicherweise über eine Gruppenrichtlinie).
   
@@ -108,9 +108,5 @@ Konfigurieren eines AD FS-Proxy oder Reverseproxy zur Unterstützung der Skype f
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server 2015](configure.md)
+[Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server](configure.md)
   
-[Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server 2015](configure.md)
-

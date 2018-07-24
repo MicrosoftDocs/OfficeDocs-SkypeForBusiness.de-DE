@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:'
-ms.openlocfilehash: cfb8626d0aa7933444269c93ab69992c6a43185a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4f8f6e2f0851b00f9e7702391ce051a42dd686c3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989867"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985833"
 ---
 # <a name="trunk-settings-expander"></a>Trunkeinstellungen – Erweiterung
  
@@ -33,7 +33,7 @@ Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk d
  **Zugeordneter Vermittlungsserver**: Wählen Sie eine vorhandene Vermittlungsserver aus der Bereitstellung der SIP-Trunk zugeordnet.
   
 > [!NOTE]
-> Nur der stammtrunk kann mit einem Lync Server 2010 oder Lync Server 2013-Vermittlungsservers zugeordnet werden. 
+> Nur der stammtrunk kann einem Vermittlungsserver zugeordnet werden. 
   
  **Zugeordneter Vermittlungsserver Port**: ein erforderlicher Wert, dies ist festgelegt auf den Wert, der den Vermittlungsserver konfiguriert ist lauschen.
   

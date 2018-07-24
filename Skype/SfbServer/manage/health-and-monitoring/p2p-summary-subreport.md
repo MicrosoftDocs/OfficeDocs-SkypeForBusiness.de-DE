@@ -1,24 +1,24 @@
 ---
-title: Zusammenfassender Unterbericht über Peer-to-Peer-Sitzungen in Skype for Business Server 2015
+title: P2P zusammenfassende Unterbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 'Zusammenfassung: Informationen Sie zu P2P zusammenfassende Unterbericht in Skype für Business Server 2015.'
-ms.openlocfilehash: db610f21eda9b4decd01facf55f69699c48aa9f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu P2P zusammenfassende Unterbericht in Skype für Business Server.'
+ms.openlocfilehash: 216545644456a3cfd6285aaf73a4279879a12ef1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981789"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server-2015"></a>Zusammenfassender Unterbericht über Peer-to-Peer-Sitzungen in Skype for Business Server 2015
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P zusammenfassende Unterbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu P2P zusammenfassende Unterbericht in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu P2P zusammenfassende Unterbericht in Skype für Business Server.
   
 Der Zusammenfassende Unterbericht über Peer-to-Peer-Sitzungen bietet eine allgemeine Übersicht über fehlerhafte Peer-to-Peer-Kommunikationssitzungen.
   
@@ -26,7 +26,7 @@ Der Zusammenfassende Unterbericht über Peer-to-Peer-Sitzungen bietet eine allge
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfassenden Unterbericht über Peer-to-Peer-Sitzungen verwenden können.
   
-**Filter im zusammenfassenden Unterbericht von P2P**
+**Filter im Zusammenfassenden Unterbericht über Peer-to-Peer-Sitzungen**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -38,9 +38,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Unterbericht über Peer-to-Peer-Sitzungen angegeben werden.
   
-**Metriken im zusammenfassenden Konferenzunterbericht von P2P**
+**Metriken im Zusammenfassenden Unterbericht über Peer-to-Peer-Sitzungen**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Sitzungen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Sitzungen, einschließlich Sitzungen ohne Fehler, Sitzungen mit Fehlern (sowohl erwarteten als auch unerwarteten) und nicht kategorisierten Sitzungen.  <br/> |
 |**Fehlerrate** <br/> |Nein  <br/> |Der Prozentsatz der Peer-to-Peer-Sitzungen, bei denen ein Fehler aufgetreten ist.  <br/> |

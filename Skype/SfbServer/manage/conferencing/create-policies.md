@@ -1,24 +1,24 @@
 ---
-title: Erstellen von Konferenzrichtlinien in Skype for Business Server 2015
+title: Erstellen von konferenzrichtlinien in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Zusammenfassung: Informationen Sie zum Erstellen von konferenzrichtlinien in Skype für Business Server 2015.'
-ms.openlocfilehash: 301474d57998d5c9a794a978c4ec8877b1e53bc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Erstellen von konferenzrichtlinien in Skype für Business Server.'
+ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996601"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server-2015"></a>Erstellen von Konferenzrichtlinien in Skype for Business Server 2015
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Erstellen von konferenzrichtlinien in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Erstellen von konferenzrichtlinien in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Erstellen von konferenzrichtlinien in Skype für Business Server.
   
 Sie können konferenzrichtlinien mithilfe der Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell erstellen.
   

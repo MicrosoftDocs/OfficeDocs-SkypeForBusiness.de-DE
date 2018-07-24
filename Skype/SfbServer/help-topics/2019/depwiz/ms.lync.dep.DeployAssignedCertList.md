@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
-description: Auf der Seite Zertifikat anzeigen befindet sich ein Bereich, in dem Sie eine beliebige gültiges Zertifikat im lokalen Zertifikatspeicher auswählen kann. Sie können wählen Sie ein Zertifikat aus, und klicken Sie dann auf Zertifikat anzeigen von Details. Das Zertifikat wird in einem neuen Fenster angezeigt. Klicken Sie im Bereich Zertifikat können Sie die allgemeinen Zertifikatinformationen anzeigen. Klicken Sie auf der Registerkarte Details, um ausführliche Informationen über das Zertifikat, wie etwa Antragstellernamen und den alternativen Antragstellernamen anzuzeigen. Zertifizierungspfad zeigt den Pfad der Vertrauenskette für das Zertifikat. Wenn Sie die Überprüfung der Zertifikatinformationen abgeschlossen haben, klicken Sie auf OK.
-ms.openlocfilehash: da08cf6b50bfdc522a8bcc36852e94678c390ffd
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Auf der Seite Zertifikat anzeigen befindet sich ein Bereich, in dem Sie eine beliebige gültiges Zertifikat im lokalen Zertifikatspeicher auswählen kann. Sie können wählen Sie ein Zertifikat aus, und klicken Sie dann auf Zertifikat anzeigen von Details. Das Zertifikat wird in einem neuen Fenster angezeigt. Klicken Sie im Bereich Zertifikat können Sie die allgemeinen Zertifikatinformationen anzeigen. Klicken Sie auf der Registerkarte Details, um ausführliche Informationen über das Zertifikat, wie etwa Antragstellernamen und den alternativen Antragstellernamen anzuzeigen. Zertifizierungspfad wird den Pfad des Thechain des Trustfor des Zertifikats angezeigt. Wenn Sie die Überprüfung der Zertifikatinformationen abgeschlossen haben, klicken Sie auf OK.
+ms.openlocfilehash: a08606e7ec1901ca3cb8dd0d5d166667e6eef654
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969477"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017782"
 ---
 # <a name="view-certificate"></a>Zertifikat anzeigen
  

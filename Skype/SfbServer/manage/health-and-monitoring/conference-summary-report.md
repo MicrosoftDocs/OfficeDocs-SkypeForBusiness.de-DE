@@ -1,26 +1,26 @@
 ---
-title: Zusammenfassender Konferenzbericht in Skype for Business Server 2015
+title: Zusammenfassungsbericht Konferenz in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
-description: 'Zusammenfassung: Erfahren Sie mehr über die Konferenz Zusammenfassungsbericht in Skype für Business Server 2015.'
-ms.openlocfilehash: 802eb43bf63479221bda90d6692adf497f7ebdf0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über die Konferenz Zusammenfassungsbericht in Skype für Business Server.'
+ms.openlocfilehash: c2a31665bb8c3f10bf14a936ca32dde08d3ea5aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990228"
 ---
-# <a name="conference-summary-report-in-skype-for-business-server-2015"></a>Zusammenfassender Konferenzbericht in Skype for Business Server 2015
+# <a name="conference-summary-report-in-skype-for-business-server"></a>Zusammenfassungsbericht Konferenz in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Konferenzbericht in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Konferenzbericht in Skype für Business Server.
   
-Der „Zusammenfassende Konferenzbericht“ gibt Ihnen einen Überblick über Ihre Onlinekonferenzsitzungen. Eine Konferenz umfasst mehr als 2 Benutzer in der Regel und erfordert die Verwendung von Live Meeting-Dienste. Demgegenüber erstellt eine Peer-zu-Peer-Sitzung in der Regel nur 2 Benutzer umfasst und erfordert die Verwendung von Skype für Konferenzdienste Business Server nicht. Peer-zu-Peer-Aktivitäten sind für die [Peer-zu-Peer-Aktivität Zusammenfassung Bericht in Skype für Business Server 2015](peer-to-peer-activity-summary-report.md)gemeldet.
+Der „Zusammenfassende Konferenzbericht“ gibt Ihnen einen Überblick über Ihre Onlinekonferenzsitzungen. Eine Konferenz umfasst mehr als 2 Benutzer in der Regel und erfordert die Verwendung von Live Meeting-Dienste. Demgegenüber erstellt eine Peer-zu-Peer-Sitzung in der Regel nur 2 Benutzer umfasst und erfordert die Verwendung von Skype für Konferenzdienste Business Server nicht. Peer-zu-Peer-Aktivitäten sind für die [Peer-zu-Peer-Aktivität Zusammenfassung Bericht in Skype für Business Server](peer-to-peer-activity-summary-report.md)gemeldet.
   
 Im Conference Summary Report nicht nur erfahren Sie, wie vielen Konferenzen während eines bestimmten Zeitraums (stündlich, täglich, wöchentlich, monatlich) abgehaltenen sondern weist Sie auch die Gesamtzahl der Personen, die Teil in diese Konferenzen haben und die Gesamtzahl der eindeutige Konferenz Organisatoren.
   
@@ -70,7 +70,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfassenden Konferenzbericht verwenden können.
   
-**Filter im zusammenfassenden Bericht der Konferenz**
+**Filter im Zusammenfassenden Konferenzbericht**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -82,9 +82,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfasse
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Konferenzbericht angegeben werden.
   
-**Konferenz Metriken im zusammenfassenden Bericht über**
+**Metriken im Zusammenfassenden Konferenzbericht**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Stündlich** <br/> **Täglich** <br/> **Wöchentlich** <br/> **Monatlich** <br/> |Nein  <br/> |Gibt das auf der Filtersymbolleiste gewählte Zeitintervall an. Sie können gegebenenfalls auf ein bestimmtes Zeitintervall klicken, um ausführliche Informationen zu diesem Intervall anzuzeigen. Wenn Sie beispielsweise das tägliche Intervall verwenden und auf 07.07.2015 klicken, wird eine stündliche Übersicht der Benutzerregistrierungsaktivität für dieses Datum angezeigt.  <br/> |
 |**Konferenzen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Konferenzen (unabhängig vom Konferenztyp), die stattfanden. Wenn Sie auf dieses Element klicken, wird der Konferenzaktivitätsbericht für die ausgewählte Zeitspanne eingeblendet.  <br/> |

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Zum Bearbeiten der Einstellungen für eine vorhandene Survivable Branch Appliance oder einen Survivable Branch Server werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: eb82254746ea74e06dcd51231712d4694fa8aa9c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991600"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989077"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Allgemeine Einstellungen für Filialanwendungen – Erweiterung
  
@@ -28,7 +28,6 @@ Zum Bearbeiten der Einstellungen für eine vorhandene Survivable Branch Applianc
     
 - Vermittlungsservereinstellungen
     
-## 
 
 Für eine Survivable Branch Appliance oder einen Survivable Branch Server werden Sie durch Folgendes angezeigt:
   
@@ -70,7 +69,6 @@ Definieren Sie PSTN-Gateways, die dem verbundenen Vermittlungsserver zugeordnet 
   
 Wenn Sie mehr als ein Gateway einen Vermittlungsserver zugeordnet haben, wird das erste Gateway verknüpften Standardgateway sein. Wenn Sie ein anderes Gateway als Standardgateway auswählen müssen, wählen Sie das gewünschte Gateway aus, und klicken Sie auf **Als Standard**.
   
-### 
 
 Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Survivable Branch Appliance oder einen Survivable Branch Server finden Sie unter [Branch-Site Resiliency Solutions](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
   

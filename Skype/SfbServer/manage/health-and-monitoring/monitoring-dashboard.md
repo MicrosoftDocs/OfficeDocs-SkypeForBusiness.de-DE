@@ -1,26 +1,26 @@
 ---
-title: Verwenden des Monitoring-Dashboards in Skype for Business Server 2015
+title: Verwenden das Monitoring-Dashboard in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Zusammenfassung: Informationen Sie zu dem Monitoring-Dashboard in Skype für Business Server 2015.'
-ms.openlocfilehash: d2297d0dddfd9d49d36c181e578bd02915994a49
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu dem Monitoring-Dashboard in Skype für Business Server.'
+ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969389"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server-2015"></a>Verwenden des Monitoring-Dashboards in Skype for Business Server 2015
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden das Monitoring-Dashboard in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu dem Monitoring-Dashboard in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu dem Monitoring-Dashboard in Skype für Business Server.
   
-Im Monitoring-Dashboard ermöglicht Administratoren einen schnellen Überblick über ihre Skype für die Verwendung von Business Server 2015-System Integritäts- und System. Im Dashboard wird eine Zusammenfassung wichtiger Systemmetriken für folgende Werte angezeigt:
+Das Monitoring-Dashboard ermöglicht Administratoren einen schnellen Überblick über ihre Skype für die Verwendung von Business Server-System Integritäts- und System. Im Dashboard wird eine Zusammenfassung wichtiger Systemmetriken für folgende Werte angezeigt:
   
 - Gesamtwerte für den aktuellen Tag. Beachten Sie, dass die für den aktuellen Tag angezeigten Werte Daten repräsentieren, die von Mitternacht bis zum aktuellen Zeitpunkt aufgezeichnet wurden (basierend auf der Ortszeit des Berichtsservers). Dies bedeutet, dass Sie in der Regel Daten für einen Teil des Tages und nicht für einen Zeitraum von 24 Stunden sehen. Beispielsweise ist der Ortszeit des Servers 8:00 Uhr, finden Sie unter Sie acht Stunden im Wert von Daten, da es acht Stunden zwischen Mitternacht und die aktuelle Uhrzeit 8:00 Uhr werden.
     
@@ -28,7 +28,7 @@ Im Monitoring-Dashboard ermöglicht Administratoren einen schnellen Überblick �
     
 - Gesamtwerte für den Monat sowie Trendgesamtwerte für die letzten sechs Monate (nur für die Systemauslastung).
     
-Beachten Sie, dass Sie das Cmdlet ["Get-csreportingconfiguration"](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) verwenden können, um die URL für den Zugriff auf Skype für Business Server 2015 Monitoring Reports verwendet zurückzugeben:
+Beachten Sie, dass Sie das Cmdlet ["Get-csreportingconfiguration"](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) verwenden können, um die URL für den Zugriff auf Skype für Business Server-Überwachungsberichte verwendet zurückzugeben:
   
 ```
 Get-CsReportingConfiguration
@@ -176,7 +176,7 @@ Im Monitoring-Dashboard gibt es eine Reihe von Möglichkeiten zum Exportieren de
     
 - Word
     
-Zum Exportieren der aktuellen Dashboardansicht (und der zugehörigen Werte), klicken Sie auf die gewünschte Exportoption. Skype für Business Server 2015 generiert einen Bericht im angegebenen Format, und geben Sie die Option diesen Bericht öffnen oder speichern. Beachten Sie, dass standardmäßig Skype für Business Server des Berichts **Monitoring-Dashboard titles** , und ihn in den Ordner Downloads speichert. Wenn Sie den Bericht anders benennen oder in einem anderen Ordner speichern möchten, klicken Sie auf den Pfeil neben der Schaltfläche **Speichern** und klicken Sie dann auf **Speichern unter**. Wenn Sie den Namen **Monitoring-Dashboard** übernehmen und den Bericht im Ordner „Downloads“ speichern möchten, können Sie einfach auf die Schaltfläche **Speichern** klicken.
+Zum Exportieren der aktuellen Dashboardansicht (und der zugehörigen Werte), klicken Sie auf die gewünschte Exportoption. Skype für Business Server generiert einen Bericht im angegebenen Format, und geben Sie die Option diesen Bericht öffnen oder speichern. Beachten Sie, dass standardmäßig Skype für Business Server des Berichts **Monitoring-Dashboard titles** , und ihn in den Ordner Downloads speichert. Wenn Sie den Bericht anders benennen oder in einem anderen Ordner speichern möchten, klicken Sie auf den Pfeil neben der Schaltfläche **Speichern** und klicken Sie dann auf **Speichern unter**. Wenn Sie den Namen **Monitoring-Dashboard** übernehmen und den Bericht im Ordner „Downloads“ speichern möchten, können Sie einfach auf die Schaltfläche **Speichern** klicken.
   
 Beim Exportieren von Dashboarddaten wird möglicherweise ein **Sicherheitshinweis** angezeigt, dass Ihre aktuellen Einstellungen das Herunterladen dieser Datei nicht zulassen. Führen Sie in diesem Fall die folgenden Aktionen aus:
   
@@ -184,7 +184,7 @@ Beim Exportieren von Dashboarddaten wird möglicherweise ein **Sicherheitshinwei
     
 - Klicken Sie im Dialogfeld **Internetoptionen** auf der Registerkarte **Sicherheit** auf **Vertrauenswürdige Sites** und dann auf **Sites**.
     
-- Klicken Sie im Dialogfeld **Vertrauenswürdige Sites** auf **Hinzufügen** , um die Skype für Business Server 2015 hinzufügen, Skype für Business Server-Berichte, die Auflistungen der vertrauenswürdigen Websites ausgeführt wird.
+- Klicken Sie im Dialogfeld **Vertrauenswürdige Sites** auf **Hinzufügen** , um die Skype für Business Server hinzufügen, Skype für Business Server-Berichte, die Auflistungen der vertrauenswürdigen Websites ausgeführt wird.
     
 - Klicken Sie auf **Schließen** und dann auf **OK**.
     

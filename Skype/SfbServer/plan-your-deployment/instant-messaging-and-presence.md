@@ -1,28 +1,28 @@
 ---
-title: Planen der Bereitstellung von Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server 2015
+title: Planen von instant messaging und Anwesenheit in Skype for Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: 'Zusammenfassung: Erfahren Sie, wie Business Server 2015 für instant messaging und Anwesenheit in Skype planen.'
-ms.openlocfilehash: 1934f0308cda59b52073c47d1652ad2286bd6977
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie Sofortnachrichten und Anwesenheit in Skype für Business Server planen.'
+ms.openlocfilehash: e68a7b427545105db9ed543e2f1ad77411ba88b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002233"
 ---
-# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server-2015"></a>Planen der Bereitstellung von Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server 2015
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von instant messaging und Anwesenheit in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über das Planen der Bereitstellung von Chatnachrichten und Anwesenheitsfunktionen in Skype for Business Server 2015.
+**Zusammenfassung:** Erfahren Sie, wie Sofortnachrichten und Anwesenheit in Skype für Business Server planen.
   
-Planen der Bereitstellung von Chatnachrichten und Anwesenheitsfunktionen in Skype for Business Server 2015 Weitere Informationen zu bestimmten Bereitstellungsoptionen wie aktivieren oder deaktivieren Offline Instant Messaging (IM), finden Sie unter [Deploy instant messaging und Anwesenheit in Skype für Business Server 2015](../deploy/im-and-presence/im-and-presence.md).
+Planen von instant messaging und Anwesenheit in Skype für Business Server. Weitere Informationen zu bestimmten Bereitstellungsoptionen wie aktivieren oder deaktivieren Offline Instant Messaging (IM), finden Sie unter [Deploy instant messaging und Anwesenheit in Skype für Business Server](../deploy/im-and-presence/im-and-presence.md).
   
-## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server-2015"></a>Planen der Bereitstellung von Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server 2015
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von instant messaging und Anwesenheit in Skype for Business Server
 
 Front-End-Server core Skype Business Server-Funktionen, beispielsweise Sofortnachrichten (IM) und Anwesenheit und sind in jeder Skype für Business Server-Bereitstellung enthalten sind. Es gibt zwei Editionen: Skype für Business Server Enterprise Edition, in erster Linie für größere Organisationen entwickelt wurde, und Skype für Business Server Standard Edition, die in erster Linie für kleinere Unternehmen entwickelt wurde, eine kleinere wollen, Hardwareinvestitionen und erfordern keine vollständige Hochverfügbarkeits-Optionen. Beide Editionen unterstützen alle Skype für Business Server Arbeitslasten, einschließlich Sofortnachrichten, Anwesenheitsinformationen, Konferenzen und Enterprise-VoIP.
   
@@ -32,7 +32,7 @@ Die Anwesenheitsfunktion liefert Nutzern Informationen zum Status anderer Nutzer
   
 ### <a name="technical-requirements"></a>Technische Anforderungen
 
-Chat und Anwesenheit werden in der Enterprise Edition immer auf Front-End-Pools und auf Standard Edition-Servern ausgeführt. Informationen zu unterstützten Hardware, Betriebssysteme und Datenbank-Software finden Sie unter [Infrastruktur für Skype für Unternehmen](https://technet.microsoft.com/en-us/office/dn947483) und [Anforderungen für Ihre Skype für Business-Umgebung](requirements-for-your-environment/requirements-for-your-environment.md).
+Chat und Anwesenheit werden in der Enterprise Edition immer auf Front-End-Pools und auf Standard Edition-Servern ausgeführt. Informationen zu unterstützten Hardware, Betriebssysteme und Datenbank-Software finden Sie unter [Gateways zertifiziert](../../SfbPartnerCertification/certification/infra-gateways.md), [Anforderungen für Ihre Skype für Business 2015 Umgebung](requirements-for-your-environment/requirements-for-your-environment.md)und [infrastrukturanforderungen für Skype für Business Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Aktivieren der Kommunikation mit externen Benutzern
 
@@ -55,13 +55,13 @@ Um zusätzlich von Ihrer Investition in Skype for Business Server zu profitieren
   
 ### <a name="archiving-im-content"></a>Archivieren von Chatinhalten
 
-Skype for Business Server bietet Funktionen, die Sie bei der Einhaltung rechtlicher Vorschriften unterstützen. Mithilfe der Archivierung können Sie Chatinhalte für alle Benutzer in Ihrer Organisation oder nur für bestimmte Benutzer archivieren. Ausführliche Informationen finden Sie n der Planungsdokumentation unter „Planung der Archivierungsbereitstellung in Skype for Business Server 2015“. 
+Skype for Business Server bietet Funktionen, die Sie bei der Einhaltung rechtlicher Vorschriften unterstützen. Mithilfe der Archivierung können Sie Chatinhalte für alle Benutzer in Ihrer Organisation oder nur für bestimmte Benutzer archivieren. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server](archiving/archiving.md). 
   
-Wenn Sie auch Microsoft Exchange Server 2013 bereitgestellt haben, können Sie die Archivierung von Exchange-Daten in die Archivierung von Skype for Business Server-Daten integrieren und mithilfe eines einzigen Tools beide archivierten Datentypen durchsuchen. Weitere Informationen finden Sie unter Konfigurieren von Skype für Business Server 2015 zu Microsoft Exchange Server 2013-Archivierung verwenden.
+Wenn Sie auch Microsoft Exchange Server 2013 bereitgestellt haben, können Sie die Archivierung von Exchange-Daten in die Archivierung von Skype for Business Server-Daten integrieren und mithilfe eines einzigen Tools beide archivierten Datentypen durchsuchen. Weitere Informationen finden Sie unter [Konfigurieren von Skype für Business Server auf Exchange Server-Archivierung verwendet](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologien und Komponenten
 
-Nur diese Komponenten für Sofortnachrichten (IM) und Anwesenheit erforderlich sind:
+Für Chat und Anwesenheit sind nur diese Komponenten erforderlich:
   
 - Front-End-Webservern Ihrer Organisation (bekannt als Pool) oder einem Standard Edition-Server. Chat und Anwesenheitsfunktionen sind auf diesen Servern immer aktiviert. Weitere Informationen zu Front-End-Pool-Topologien und Management finden Sie unter [Front-End-Pool hohe Verfügbarkeit und Management](high-availability-and-disaster-recovery/high-availability.md).
     
@@ -69,6 +69,6 @@ Nur diese Komponenten für Sofortnachrichten (IM) und Anwesenheit erforderlich s
     
 ### <a name="supported-collocation"></a>Unterstützte Kollokation
 
-Kollokation bedeutet, dass ein einzelner Server oder eine Gruppe von Servern mit mehreren installierten Rollen vorhanden ist. Ausführliche Informationen zum Verbinden finden Sie unter [Grundlagen der Topologie Skype für Business Server 2015](topology-basics/topology-basics.md). 
+Kollokation bedeutet, dass ein einzelner Server oder eine Gruppe von Servern mit mehreren installierten Rollen vorhanden ist. Ausführliche Informationen zum Verbinden finden Sie unter [Grundlagen der Topologie Skype für Business Server](topology-basics/topology-basics.md). 
   
 

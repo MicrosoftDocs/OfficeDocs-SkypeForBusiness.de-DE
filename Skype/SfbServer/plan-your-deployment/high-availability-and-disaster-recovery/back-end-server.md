@@ -1,9 +1,8 @@
 ---
-title: Hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015
+title: Back-End-Server hohe Verfügbarkeit in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/20/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Informationen Sie zu Business Server, einschließlich des AlwaysOn Availability Groups, AlwaysOn-Failoverclusterinstanzen, datenbankspiegelung und SQL-Failover-Clusterunterstützung in Skype unterstützten Optionen für die hohe Verfügbarkeit der Back-End-Server.
-ms.openlocfilehash: f0831ffb757d04e954ece8a1874dffad9e6e74d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 57cc09765ab8f753e60a5f76f5d93b385c7fd406
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983184"
 ---
-# <a name="back-end-server-high-availability-in-skype-for-business-server-2015"></a>Hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015
+# <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back-End-Server hohe Verfügbarkeit in Skype für Business Server
  
 Informationen Sie zu Business Server, einschließlich des AlwaysOn Availability Groups, AlwaysOn-Failoverclusterinstanzen, datenbankspiegelung und SQL-Failover-Clusterunterstützung in Skype unterstützten Optionen für die hohe Verfügbarkeit der Back-End-Server.
   
@@ -75,6 +75,9 @@ Bei der SQL-Spiegelung ist der Datenbankwiederherstellungsmodus immer auf **Voll
   
 > [!IMPORTANT]
 > Über Topologie-Generator oder Cmdlets zum Einrichten und Entfernen von SQL-Spiegelung werden nur, wenn die primäre, Spiegel und Zeuge (sofern gewünscht) Server derselben Domäne angehören. Wenn Sie die SQL-Spiegelung für Server einrichten möchten, die sich in unterschiedlichen Domänen befinden, erhalten Sie weitere Informationen in der Dokumentation zu SQL Server. 
+
+> [!NOTE]
+> SQL-Spiegelung wird steht in Skype für Business Server 2015 jedoch nicht mehr in unterstützt Skype für Business Server 2019. Die AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL clustering Failovermethoden werden bevorzugt mit Skype für Business Server 2019.
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>Wiederherstellungszeit für automatisches Failover des Back-End-Servers mit Datenbankspiegelung
 
@@ -99,7 +102,7 @@ Um AlwaysOn Availability Groups oder AlwaysOn-Failoverclusterinstanzen verwenden
 > [!IMPORTANT]
 > Instanznamen für mehrere Instanzen von AlwaysOn Availability Group müssen identisch sein. 
   
-Schritte für die Bereitstellung von AlwaysOn-Verfügbarkeitsgruppen finden Sie unter [Bereitstellen einer AlwaysOn Availability Group auf einem Back End-Server in Skype für Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
+Schritte für die Bereitstellung von AlwaysOn-Verfügbarkeitsgruppen finden Sie unter [Bereitstellen einer AlwaysOn Availability Group auf einem Back End-Server in Skype für Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
   
 ## <a name="sql-server-failover-clustering"></a>Failoverclustering bei SQL-Servern
 

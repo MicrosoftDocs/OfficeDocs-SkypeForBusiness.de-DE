@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: Nach Abschluss der Veröffentlichung der Topologie wird die Seite Veröffentlichen-Assistent abgeschlossen angezeigt.
-ms.openlocfilehash: 8103b30d128ce9979ef3dfece757febc12795eb7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d7dd8f497596c5efb320223f3534df0a55121964
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973108"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968382"
 ---
 # <a name="publish-topology-next-step"></a>Veröffentlichen der Topologie – nächsten Schritt
  
@@ -27,7 +27,7 @@ Wie Sie während des Aktivierungsvorgangs Topologie veröffentlichen Schritte ab
 > [!NOTE]
 > Nicht alle Schritte während des Aktivierungsvorgangs Topologie veröffentlichen werden Protokolldateien verknüpft wurden. Wenn Sie einen Schritt auswählen und **Anzeigen von Protokollen** verfügbar ist, wurde dieser Schritt eine Protokolldatei erstellt. Wenn die Schaltfläche **Protokolle anzeigen** nicht verfügbar (ausgeblendet) ist, wurde keine Protokolldatei für diesen Schritt erstellt.
   
-Um für die Durchführung Ihrer Topologie vorgeschlagene nächste Schritte zu überprüfen, klicken Sie auf den Link **Klicken Sie hier, um Vorgangsliste zu öffnen**. Die Datei, die geöffnet wird, indem Sie auf diesen Link wird angegeben, die Server, die Sie zum Ausführen von Setups lokalen und zusätzlichen Schritten, die Sie durchführen müssen, um die Bereitstellung abschließen. Finden Sie für die einzelnen aufgeführten Tasks in den entsprechenden Abschnitt in der Bereitstellungsdokumentation. Weitere Informationen hierzu finden Sie unter [Bereitstellen von](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx), und finden Sie in den entsprechenden Abschnitt für jede Serverrolle in der Vorgangsliste notiert haben.
+Um für die Durchführung Ihrer Topologie vorgeschlagene nächste Schritte zu überprüfen, klicken Sie auf den Link **Klicken Sie hier, um Vorgangsliste zu öffnen**. Die Datei, die geöffnet wird, indem Sie auf diesen Link wird angegeben, die Server, die Sie zum Ausführen von Setups lokalen und zusätzlichen Schritten, die Sie durchführen müssen, um die Bereitstellung abschließen. Finden Sie für die einzelnen aufgeführten Tasks in den entsprechenden Abschnitt in der Bereitstellungsdokumentation. 
   
 Klicken Sie auf **Fertig stellen**
   

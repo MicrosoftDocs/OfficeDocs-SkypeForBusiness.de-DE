@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Zusammenfassung: Informationen Sie zu den Bereitstellungsprozess für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: ff8f9bae2c292720bb3fd9943bc541a8eeb6759c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988986"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Bereitstellen von Anrufqualität Dashboard für Skype für Business Server 2015
  
@@ -40,18 +41,18 @@ Cube-Bereitstellung Ruft Informationen aus der Benutzer auf, in dem das QoE-Arch
 Portal installieren erstellt eine Repositorydatenbank, die die Zuordnung der CQD Benutzer Berichten oder Abfragen des Benutzers gespeichert werden. Klicken Sie dann wird eingerichtet, die das Dashboard ist, in dem Benutzer können finden Sie eine vordefinierte Reihe von Berichten als auch anpassen und Erstellen ihrer eigenen Abfragen, um Daten aus dem Cube visualisieren, IIS Web-Anwendung. Das Portal installieren erstellt zwei zusätzliche Webanwendungen, die für Benutzer zum programmgesteuerten Zugriff auf das Repository und den Cube APIs verfügbar macht. (Diese APIs werden intern von sowie das Dashboard verwendet.)
   
 
-|**Phase**|**Schritte**|**Rollen und Gruppenmitgliedschaft**|**Dokumentation**|
+|**Phase**|**Schritte**|**Rollen und Gruppenmitgliedschaften**|**Dokumentation**|
 |:-----|:-----|:-----|:-----|
 |Erforderliche Hardware und Software zu installieren.  <br/> |Nach der Konfiguration CQD entscheiden Sie, und wählen Sie einen SQL Server aus dem die Installation ausgeführt werden.  <br/> |Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist.  <br/> |Abschnitt "Vor dem Installieren von Anforderungen", in der Bereitstellungsdokumentation.  <br/> |
 |Installieren Sie CQD.  <br/> |Führen Sie die MSI-Datei nach der Bereitstellungsdokumentation.  <br/> |Zum Ausführen des Setups muss das Installieren von Konto werden ein Domänenbenutzer, der Mitglied der Gruppe der lokalen Administratoren ist und verfügen über Lesezugriff auf QoE-Metriken Datenbank auf dem Monitoring Server.  <br/> |"Konten und Bereitstellungsschritte" Abschnitte in der Bereitstellungsdokumentation.  <br/> |
 |Gewähren des Benutzerzugriffs.  <br/> |Es wird empfohlen, für die Verwaltung der benutzerautorisierung-Portal, mithilfe der URL-Autorisierung in IIS 7.0 eingeführt wurde. Weitere Informationen finden Sie unter [Grundlegendes zu IIS 7.0-URL-Autorisierung](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist.  <br/> |Verwalten des Benutzerzugriffs für den Abschnitt Portal in der Bereitstellungsdokumentation.  <br/> |
 |Optional: Geben Sie Zuordnungsinformationen Subnetz.  <br/> |Füllen Sie auf Netzwerk- und Erstellen von Zuordnungstabellen in QoE-Archivdatenbank.  <br/> |Ein Konto mit Schreibzugriff auf die QoE-Archivdatenbank.  <br/> |Abschnitt "Bereitstellung Subnetzinformationen", in der Dokumentation für die Benutzer.  <br/> |
    
-## 
+
 
 Bereitstellung von Anrufqualität Dashboard umfasst Einrichten der Infrastruktur und Installieren der Software. Das folgende Verfahren beschreibt den Prozess.
   
-### <a name="deployment-steps"></a>Bereitstellungsschritte
+## <a name="deployment-steps"></a>Bereitstellungsschritte
 
 1. Kopieren Sie die CallQualityDashboard.msi auf dem Computer, auf dem die Archiv Datenbankkomponente des CQD ist installiert werden soll (Dies ist der Computer, auf SQL Server installiert ist). 
     
@@ -167,7 +168,7 @@ Im nächste Schritt wird das Dashboard, der die CQD konfigurieren. Nachdem der B
 > [!IMPORTANT]
 > Es ist wichtig, nur diese Einstellung für die Anwendung CQD und nicht für die zwei API-Anwendungen ändern: QoEDataService und QoERepositoryService. 
   
-### <a name="configuring-file-access-for-the-cqd-dashboard"></a>Konfigurieren von Zugriff auf die Datei für die CQD (Dashboard)
+## <a name="configuring-file-access-for-the-cqd-dashboard"></a>Konfigurieren von Zugriff auf die Datei für die CQD (Dashboard)
 
 1. Öffnen Sie den Konfigurations-Editor CQD.
     
@@ -213,7 +214,7 @@ So aktivieren SSL/TLS in IIS und erzwingen, dass Benutzer eine Verbindung herste
     
 2. Anweisungen zum Aktivieren von TLS in der SQL Server-Verbindungen finden Sie unter [Aktivieren der SSL-Verschlüsselung für eine Instanz von SQL Server mithilfe von Microsoft Management Console ](https://support.microsoft.com/en-us/kb/316898/).
     
-### <a name="cube-sync-fails"></a>Fehler bei der Synchronisierung Cube
+## <a name="cube-sync-fails"></a>Fehler bei der Synchronisierung Cube
 
 QoEMetrics kann einige ungültige Datensätze basierend auf Endbenutzer Uhren enthalten. Wenn die Zeit skew größer als 60 Jahre ist, schlägt der Import Cube fehl.
   
@@ -267,8 +268,7 @@ INSERT INTO
 [BuildingTypeDesc])
 VALUES
 (1, 
-'Headquarters') 
-  
+'Headquarters')   
 ```
 
 Der Parameter BuildingTypeId und BuildingTypeDesc sind erforderlich.

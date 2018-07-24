@@ -1,25 +1,25 @@
 ---
-title: Konfigurieren des Video-Interoperabilität-Servers in Skype for Business Server 2015
+title: Konfigurieren der Interop-Videoserver in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: 'Zusammenfassung: Konfigurieren der Rolle Video Interop Server (gegenüber) in Skype für Business Server 2015.'
-ms.openlocfilehash: 7192135f5822e3086de7533afbdc8492194a3889
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Konfigurieren der Rolle Video Interop Server (gegenüber) in Skype für Business Server.'
+ms.openlocfilehash: 68931d9523fba92211295805e2f041869bc3e774
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20982531"
 ---
-# <a name="configure-the-video-interop-server-in-skype-for-business-server-2015"></a>Konfigurieren des Video-Interoperabilität-Servers in Skype for Business Server 2015
+# <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Konfigurieren der Interop-Videoserver in Skype für Business Server
  
-**Zusammenfassung:** Konfigurieren Sie die Rolle Video Interop Server (gegenüber) in Skype für Business Server 2015.
+**Zusammenfassung:** Konfigurieren Sie die Rolle Video Interop Server (gegenüber) in Skype für Business Server.
   
  Konfigurieren Sie die Einstellungen, die die gegenüber mithilfe von Windows PowerShell-video Trunks zuordnen möchten. Eine Videotrunkkonfiguration auf globaler Ebene wird erstellt, wenn der VIS-Dienst installiert ist. Diese Videotrunkkonfiguration wird vom VIS auf alle Trunks angewendet, die keine Videotrunkkonfiguration mit einer spezifischeren Ebene haben. Hinweis: Die Videotrunkkonfiguration ist eine Sammlung von Einstellungen, die auf Videotrunks angewendet wird.
   
@@ -31,7 +31,7 @@ Ein Wählplan mit globaler Ebene wird pro Skype für Business Server-Bereitstell
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Konfigurieren der gegenüber mithilfe von Windows PowerShell
 
-1. Erstellen Sie eine neue video trunkkonfiguration (eine Auflistung von Einstellungen), um auf den Trunk zwischen dem gegenüber und CUCM, mithilfe des folgenden Windows PowerShell-Cmdlets verwenden:
+1. Erstellen einer neuen video trunkkonfiguration (eine Auflistung von Einstellungen) auf den Trunk zwischen der gegenüber und Cisco Unified Communications-Manager (CallManager oder CUCM) verwenden, um mithilfe des folgenden Windows PowerShell-Cmdlets:
     
    ```
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
@@ -71,7 +71,7 @@ Mit dem Befehl **Remove-CsVoiceNormalizationRule** können Sie eine Standardrege
 Für einen SIP-Trunk Videoanruf von einem Video Gateway, deren Anforderungs-URI einer nicht e. 164-Nummer enthält, gegenüber liest den Namen des Wählplans, der dem zugeordneten Trunk zugeordnet und der Wählplanname im Kontext Telefon Teil des Anforderungs-URI einladen, VI umfasst S sendet an den Front-End. Die Übersetzungsanwendung am Front-End-Server extrahiert dann die mit dem Wählplan verbundenen Normalisierungsregeln und wendet sie auf die Anforderungs-URI an.
 ## <a name="trunk-configuration-options"></a>Optionen für die Trunkkonfiguration
 
-Windows PowerShell-Cmdlets für video trunkkonfiguration weiter oben erwähnten sind neu in die Skype für Business Server 2015. Es folgt eine kurze Erläuterung der Einstellungen für die Videotrunkkonfiguration.
+Windows PowerShell-Cmdlets für video trunkkonfiguration weiter oben erwähnten wurden neu in Skype für Business Server 2015. Es folgt eine kurze Erläuterung der Einstellungen für die Videotrunkkonfiguration.
   
  **GatewaySendsRtcpForActiveCalls** Dieser Parameter bestimmt, ob RTCP-Pakete, die gegenüber für aktive Anrufe aus den VTC gesendet werden. Ein aktiver Anruf ist in diesem Kontext ein Anruf, bei dem Mediendaten in mindestens eine Richtung übertragen werden dürfen. Wenn „GatewaySendsRtcpForActiveCalls“ auf „True“ festgelegt ist, kann der VIS einen Anruf beenden, wenn für mehr als 30 Sekunden keine RTCP-Pakete empfangen werden. Der Standardwert ist **True**.
   
@@ -85,7 +85,4 @@ Windows PowerShell-Cmdlets für video trunkkonfiguration weiter oben erwähnten 
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Konfigurieren von CUCM für die Interoperation mit Skype für Business Server 2015](configure-cucm-for-interoperation.md)
-
+[Konfigurieren von CUCM für die Interoperation mit Skype für Business Server](configure-cucm-for-interoperation.md)

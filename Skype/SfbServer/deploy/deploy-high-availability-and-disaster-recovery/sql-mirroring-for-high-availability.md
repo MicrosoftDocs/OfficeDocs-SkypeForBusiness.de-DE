@@ -3,21 +3,20 @@ title: Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Se
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: Damit eine SQL-Spiegelung bereitgestellt werden kann, müssen Ihre Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern (primärer Server, Spiegel und Zeuge) ausgeführt werden. Weitere Informationen hierzu finden Sie unter kumulative Paket 9 für SQL Server 2008 Service Pack 1 aktualisiert.
-ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a0baf639b050d323a29eb347c14b38505f059ef2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569138"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016206"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Bereitstellen von SQL-Spiegelung für hohe Verfügbarkeit in Skype Back-End-Server für Business Server 2015
  
 
 Damit eine SQL-Spiegelung bereitgestellt werden kann, müssen Ihre Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern (primärer Server, Spiegel und Zeuge) ausgeführt werden. Weitere Informationen hierzu finden Sie unter [kumulative Paket 9 für SQL Server 2008 Service Pack 1 zu aktualisieren ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
@@ -121,11 +120,11 @@ Bei der Einrichtung einer SQL-Spiegelung sollten Sie die folgenden Aspekte berü
     
   - [Die Datenbank Spiegelung Endpunkt (SQLServer)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Verwenden von Skype für Business Server-Verwaltungsshell-Cmdlets zum Einrichten von SQL-Spiegelung
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Verwenden von Skype für Business Server 2015-Verwaltungsshell-Cmdlets zum Set Up SQL-Spiegelung
 
 Die einfachste Möglichkeit zum Einrichten der Spiegelung wird mithilfe des Topologie-Generator, aber Sie können auch hierfür Cmdlets verwenden.
   
-1. Öffnen Sie eine Skype für Business Server-Verwaltungsshell-Fenster, und führen Sie das folgende Cmdlet aus:
+1. Öffnen Sie eine Skype für Business Server 2015-Verwaltungsshell-Fenster, und führen Sie das folgende Cmdlet aus:
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 

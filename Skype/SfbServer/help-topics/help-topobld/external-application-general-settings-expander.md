@@ -3,7 +3,7 @@ title: Externe Anwendung Allgemeine Einstellungen – Erweiterung
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Gehen Sie wie folgt vor, um die Eigenschaften für einen vertrauenswürdigen Anwendungsserver zu bearbeiten, der bereits definiert wurde.
-ms.openlocfilehash: 4104b9cf22a3db36afd159c0b7d9812142112ece
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4509b0c106c62391b9696acb94aec37861f8efe0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998820"
 ---
 # <a name="external-application-general-settings-expander"></a>Externe Anwendung Allgemeine Einstellungen – Erweiterung
  
@@ -38,7 +39,7 @@ Wählen Sie die **Replikation von Konfigurationsdaten in diesem Pool aktivieren*
 
 Sie können die vertrauenswürdige Anwendung Serverpool nächsten Hopservers angeben, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen. Ein Director oder Director-Pool ist keine gültige Auswahl für nächsten Hop eine vertrauenswürdige Anwendung-Server und nicht in der Liste angezeigt wird.
   
-## 
+
 
 Klicken Sie auf **OK** , um zu akzeptieren und Ihre Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
   

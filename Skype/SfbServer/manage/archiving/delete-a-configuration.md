@@ -1,24 +1,24 @@
 ---
-title: Löschen einer Archivierungskonfiguration in Skype for Business Server 2015
+title: Löschen einer Archivierungskonfiguration in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 'Zusammenfassung: Erfahren Sie, wie eine Archivierungskonfiguration in Skype für Business Server 2015 zu löschen.'
-ms.openlocfilehash: 810c195f34a729218118744d4b6943e8dd60eb75
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie eine Archivierungskonfiguration in Skype für Business Server zu löschen.'
+ms.openlocfilehash: f8cb64cf7523cfaec26006560b4f77f39d904ead
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018935"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server-2015"></a>Löschen einer Archivierungskonfiguration in Skype for Business Server 2015
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Löschen einer Archivierungskonfiguration in Skype für Business Server
 
-**Zusammenfassung:** Erfahren Sie, wie eine Archivierungskonfiguration in Skype für Business Server 2015 zu löschen.
+**Zusammenfassung:** Informationen Sie zum Löschen einer Archivierungskonfiguration in Skype für Business Server.
   
 Eine Standort- oder Benutzerkonfiguration kann gelöscht werden. Die globale Konfiguration kann jedoch nicht gelöscht werden. Wenn Sie die globale Konfiguration löschen, werden die Standardwerte automatisch wieder hergestellt.
   

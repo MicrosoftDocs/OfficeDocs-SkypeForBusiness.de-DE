@@ -10,13 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
-description: Um den Vermittlungsserver zu definieren, geben Sie einen vollqualifizierten Domänennamen (FQDN) für den vermittlungsserverpool. Wenn Sie einen Pool von Vermittlungsservern erstellen, werden Sie den Namen des Pools für den Vermittlungsserver angeben, die Sie bereitstellen. Die vollqualifizierten Domänennamen der einzelnen Server werden in einem weiteren Schritt festgelegt. Wenn Sie nur einen Vermittlungsserver bereitstellen, werden der FQDN, Sie geben, den FQDN des einzelnen Vermittlungsservers. Weitere Informationen hierzu finden Sie unter Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype Business Server 2015.
-ms.openlocfilehash: bea1d8aa81a3f2827c7d27a95b4cd9ca42ec2477
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+description: Um den Vermittlungsserver zu definieren, geben Sie einen vollqualifizierten Domänennamen (FQDN) für den vermittlungsserverpool. Wenn Sie einen Pool von Vermittlungsservern erstellen, werden Sie den Namen des Pools für den Vermittlungsserver angeben, die Sie bereitstellen. Die vollqualifizierten Domänennamen der einzelnen Server werden in einem weiteren Schritt festgelegt. Wenn Sie nur einen Vermittlungsserver bereitstellen, werden der FQDN, Sie geben, den FQDN des einzelnen Vermittlungsservers. Weitere Informationen hierzu finden Sie unter Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype Business Server.
+ms.openlocfilehash: 5d7488308f197433f3f033c2f24369bb0c02dba7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991992"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996788"
 ---
 # <a name="add-mediation-server"></a>Hinzufügen von Vermittlungsservern
  

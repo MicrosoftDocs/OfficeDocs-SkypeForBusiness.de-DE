@@ -3,7 +3,7 @@ title: Auswählen von Präfixen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Verwenden Sie das Dialogfeld Linkpräfix auswählen auf die Typen von Hyperlinks, die Sie blockieren, senden eine Warnmeldung oder durch (zu blockieren oder eine Warnmeldung senden) aktivieren oder deaktivieren (zum zulassen) zulassen möchten, wählen die Kontrollkästchen für ihren Erweiterungen aus den Kategorien unter Linkpräfixe. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle linkpräfixe für die Kategorie anzeigen. Wenn Sie alle linkpräfixe für eine Kategorie auswählen möchten, wählen Sie den Namen der Kategorie.
-ms.openlocfilehash: 6b4b888ba6836b88fb70c030287e09bd15f4dba8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 341a2be3e951d6c72dc92725550d3b6d7644b334
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990966"
 ---
 # <a name="select-hyperlink-prefix"></a>Auswählen von Präfixen
  

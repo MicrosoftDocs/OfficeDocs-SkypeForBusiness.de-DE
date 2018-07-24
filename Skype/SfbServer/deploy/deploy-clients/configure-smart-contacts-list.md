@@ -1,22 +1,22 @@
 ---
-title: Konfigurieren der intelligenten Kontaktliste in Skype for Business Server
+title: Konfigurieren von Smart Kontaktliste in Skype für die Business-clients
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 'Zusammenfassung: Erfahren Sie, wie das Listenfeature Smart Kontakte in die Skype für Business-Client zu aktivieren.'
-ms.openlocfilehash: f5b5b8f7baa0ce848765a0f2b62aabb118ecb224
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 72e8a2e5eb0640215ac4512ff210d30f31295fd8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976212"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-server"></a>Konfigurieren der intelligenten Kontaktliste in Skype for Business Server
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Konfigurieren von Smart Kontaktliste in Skype für die Business-clients
  
 **Zusammenfassung:** Erfahren Sie, wie das Listenfeature Smart Kontakte in die Skype für Business-Client zu aktivieren.
   
@@ -78,13 +78,11 @@ Sollte die intelligente Kontaktliste nicht wie erwartet funktionieren, nehmen Si
   
 - Überprüfen Sie die Konfiguration. 
     
-- Vergewissern Sie sich, dass die Informationen zur AD aufgefüllt wird.
+- Stellen Sie sicher, dass die AD-Organisationsinformationen ausgefüllt sind.
     
 - Sammeln von Skype für Clientprotokolle Business auf einen neuen Benutzer zur weiteren Analyse.
     
 - Vergewissern Sie sich, dass die Skype für Business Clientbenutzeroberfläche keine Meldung anzeigt, die zum Adressbuch keine Verbindung herstellen können. Adressbuch-Konnektivität zu bestätigen, führen Sie eine Suche für einen Benutzer in der Skype für Business Client Suchleiste.
-    
-- Falls Probleme bei der Verbindung zum Adressbuch vorliegen, verwenden Sie STrace, um HTTPS-Ablaufverfolgungen zu erfassen, und HTTPReplay, um die erfassten Ablaufverfolgungen zu analysieren. Weitere Informationen finden Sie im [Blogbeitrag verwandte](https://blogs.msdn.microsoft.com/canberrapfe/2012/06/04/have-you-ever-wondered-what-web-service-urls-are-used-by-the-lync-client-strace-is-your-tool/).
     
 - AD DS-Replikationsprobleme verursachen Kontakte nicht aufgelöst werden, wenn ein Benutzer zuerst bei Skype für Unternehmen anmeldet.
     

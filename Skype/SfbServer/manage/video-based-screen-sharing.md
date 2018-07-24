@@ -1,5 +1,5 @@
 ---
-title: Videobasierte Bildschirmübertragung für Skype for Business Server 2015
+title: Video basierten für Skype für Business Server Bildschirmfreigabe
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -8,16 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: 'Skype für Business Server 2015 planen und Konfigurationsinformationen zu videobasierte Bildschirmfreigabe (VbSS), die nun zum Download zur Verfügung steht: Skype für Business Server 2015 kumulative Update KB3061064.'
-ms.openlocfilehash: 21b7868efb9b1a6621aa85cae277114629d67551
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype für Business Server planen und Konfigurationsinformationen zu Bildschirmfreigabe videobasierte (VbSS)
+ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968326"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server-2015"></a>Videobasierte Bildschirmübertragung für Skype for Business Server 2015
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Video basierten für Skype für Business Server Bildschirmfreigabe 
  
-Skype für Business Server 2015 planen und Konfigurationsinformationen zu videobasierte Bildschirmfreigabe (VbSS), die nun zum Download zur Verfügung steht: [Skype für Business Server 2015 kumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690).
+Video-basierte Bildschirmfreigabe (VbSS) in Skype für Business Server 2015 ist jetzt zum Download zur Verfügung: [Skype für Business Server 2015 kumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS gehört zum Lieferumfang von Skype für Business Server 2019.
   
 Video-basierte Bildschirmfreigabe oder VbSS, stieg bei Lync-Bildschirmfreigabe. Der Unterschied zwischen VbSS und herkömmliche Bildschirmfreigabe mit der zugrunde liegenden Protokolle verwendet wurde, und was sie unter excel. Bildschirmfreigabe-verwendet das Remotedesktopprotokoll (RDP), was an Tausende von 1: 1 Sitzungen zwischen Personen Computern erstellen. Neuere Technologie, VbSS, wird der User Datagram Protocol (UDP) nutzen.
   
@@ -45,7 +46,7 @@ Beachten Sie auch, dass auf einen Teil der Treue/Schärfe der übertragenen Inha
 
 **Erforderliche Serverports**
 
-|**Serverrolle**|**Dienstname**|**Port oder Portbereich**|**Protokoll**|**Notizen**|
+|**Serverrolle**|**Name des Diensts**|**Port oder Portbereich**|**Protokoll**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
 |Front-End-Server  <br/> |Skype für Business Server-anwendungsfreigabedienst  <br/> |5065  <br/> |TCP  <br/> |Wird für eingehende SIP-Überwachungsanforderungen für die Anwendungsfreigabe verwendet.  <br/> |
 |Front-End-Server  <br/> |Skype für Business Server-anwendungsfreigabedienst  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Für die Anwendungsfreigabe verwendeter Medienportbereich.  <br/> |
@@ -74,13 +75,13 @@ Wenn QoS für die folgenden medienports aktiviert ist, und auch VbSS aktiviert i
    
 ### <a name="capacity-planning"></a>Kapazitätsplanung
 
-Skype für Business Server 2015 kumulative Update 2 (CU2) mit jedem Front-End-Server unterstützt bis zu 375 Teilnehmer für die Bildschirmfreigabe mit RDP (jedoch nur 250 pro Besprechung). Diese Kapazität ändert sich nach CU3 mit der Einführung und Verwendung von VbSS nicht.
+Jeder Front-End-Server, die mit Skype für Business Server 2015 kumulative Update 2 (CU2) oder höher unterstützt bis zu 375 Teilnehmer für Bildschirmfreigabe mit RDP (jedoch nur 250 pro Besprechung). Diese Kapazität ändert sich nach CU3 mit der Einführung und Verwendung von VbSS nicht.
   
 Dies vorausgeschickt, haben wir im Labor Leistungs- und Stresstests durchgeführt, und die folgenden Messungen sollten in Ihrer eigenen Bereitstellung (natürlich nutzungsabhängig) berücksichtigt werden.
   
 Annahmen:
   
-- Verwenden Sie Skype für Business Server 2015 CU2 in Ihrer Bereitstellung.
+- Skype verwenden für Business Server 2015 CU2 oder höher in Ihrer Bereitstellung.
     
 - Alle Benutzer in Ihrer Skype für Business Server-Umgebung haben bildschirmauflösungen höher ist als 1920 x 1080.
     
@@ -96,7 +97,7 @@ Um dieses Problem zu beheben, können die folgenden Optionen hilfreich sein:
     
 Die Zahlen in dieser Tabelle werden durch einzelne Netzwerke und den gemeinsam verwendeten Inhalten beeinflusst. Führen Sie Tests durch, um Baselines für Ihr Netzwerk bzw. Ihre Netzwerke zu erstellen.
   
-|**1080p Inhalte**|**RPD Durchschnitt**|**RDP Spitzenzeiten**|**VbSS Durchschnitt**|**VbSS Spitzenzeiten**|
+|**1080p Inhalt **|**RDP Durchschnitt**|**RDP Spitzenauslastung**|**VbSS Durchschnittliche Auslastung**|**VbSS Spitzenauslastung**|
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200 Kbit/s  <br/> |12  <br/> |100 Kbit/s  <br/> |3 Mbit/s  <br/> |
 |CAD  <br/> |3 Mbit/s  <br/> |7mbps  <br/> |1 Mbit/s  <br/> |3 Mbit/s  <br/> |
@@ -106,7 +107,7 @@ Die Zahlen in dieser Tabelle werden durch einzelne Netzwerke und den gemeinsam v
 
 Die VbSS-Bandbreite beträgt:
   
-|**Videocodec**|**Auflösung und Seitenverhältnis**|**Maximale video Nutzlast Bitrate (Kbit/s)**|**Minimale video Nutzlast Bitrate (Kbit/s)**|
+|**Videocodec**|**Auflösung und Seitenverhältnis**|**Bitrate bei maximaler Videonutzlast (KBit/s)**|**Bitrate bei minimaler Videonutzlast (KBit/s)**|
 |:-----|:-----|:-----|:-----|
 |H. 264  <br/> |1920x1080 (16:9)  <br/> (Das Bildseitenverhältnis hängt von der Bildschirmauflösung des Übertragenden ab und ist nicht immer 16:9.)  <br/> |4000  <br/> |1500  <br/> |
    
@@ -120,7 +121,8 @@ Es gibt Situationen, in dem Bildschirmfreigabe-auf RDP, wie diese Übergang wird
 - Wenn eine Person, die eine ältere Version von der Skype für Business-Client verwendet die Sitzung beigetreten ist, verwenden beispielsweise jeder eine Windows-Client-Version, die 16.0.6330.1000, Skype für Business Raum Systemgeräte oder Skype für Mobile-Geschäfts-Apps niedriger ist. 
 - Wenn ein Benutzer aus der Skype für Business Web App gemeinsam verwendet.
 - Wenn jemand Skype für Businesson Mac und nicht verwaltet wird, auf Skype für Business Online.
-- Wenn jemand eine Programm-/Fensterfreigabe und/oder eine Aufnahme während der Sitzung startet.
+- Wenn jemand eine beliebige Anwendung/Windows Freigabe gestartet wird.
+- Wenn jemand beginnt mit der Aufzeichnung der Sitzung.
 - Wenn jemand während der Sitzung Remotebildschirmsteuerung aufruft.
 
     Achtung: Nachdem die Sitzung zu RDP gewechselt hat, wechselt sie nicht wieder zu VbSS zurück. Auch hier ist ein nahtloser Übergang von VbSS vorgesehen, und der Wechsel wird voraussichtlich in den meisten Situationen nicht bemerkt werden.
@@ -132,7 +134,7 @@ Es gibt Situationen, in dem Bildschirmfreigabe-auf RDP, wie diese Übergang wird
   
 ## <a name="enabling-disabling-and-configuring-vbss"></a>Aktivieren, Deaktivieren und Konfigurieren von VbSS
 
-Der große Vorteil ist, nachdem Sie die Skype für Business Server 2015 kumulierten Update 3 (CU3), alle installiert haben, die Ihre Benutzer für 1: 1 und mit mehreren Teilnehmern VbSS standardmäßig aktiviert werden. Das kann für Sie problematisch sein, wenn Sie aus irgend einem Grund diese Funktion nicht für alle Benutzer aktivieren möchten. In diesem Fall können Sie mit den folgenden Schritten Benutzer deaktivieren (im Anschluss folgen die Schritte zum Aktivieren von Benutzern):
+Der große Vorteil ist, nachdem Sie die Skype für Business Server 2015 kumulierten Update 3 (CU3) installiert haben oder höher, alle Benutzer werden für 1: 1 und mit mehreren Teilnehmern VbSS standardmäßig aktiviert. Das kann für Sie problematisch sein, wenn Sie aus irgend einem Grund diese Funktion nicht für alle Benutzer aktivieren möchten. In diesem Fall können Sie mit den folgenden Schritten Benutzer deaktivieren (im Anschluss folgen die Schritte zum Aktivieren von Benutzern):
   
 ### <a name="how-to-disable-users-from-using-vbss"></a>So deaktivieren Sie die Verwendung von VbSS für Benutzer
 
@@ -190,9 +192,6 @@ Der große Vorteil ist, nachdem Sie die Skype für Business Server 2015 kumulier
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Skype für Business Server 2015 kumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
   
 [Video-basierte Bildschirmfreigabe-(VBSS) steht in Skype für Business Server 2015](https://support.microsoft.com/en-us/kb/3170163)
-

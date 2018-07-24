@@ -1,24 +1,24 @@
 ---
-title: Aktivieren oder Deaktivieren von Einwahlkonferenzen in Skype for Business Server 2015
+title: Aktivieren oder Deaktivieren von einwahlkonferenzen in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: 'Zusammenfassung: Informationen Sie zur Verwendung der Systemsteuerung oder -Verwaltungsshell zum Aktivieren oder Deaktivieren von einwahlkonferenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: 6441e548ce944cdd8786178ed7b80b0af7d625f8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie Systemsteuerung oder -Verwaltungsshell zum Aktivieren oder Deaktivieren von einwahlkonferenzen in Skype für Business Server verwenden.'
+ms.openlocfilehash: 47393140e41277aef3ec137ee3f1c6a96fa9efca
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983861"
 ---
-# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server-2015"></a>Aktivieren oder Deaktivieren von Einwahlkonferenzen in Skype for Business Server 2015
+# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren von einwahlkonferenzen in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zur Verwendung der Systemsteuerung oder -Verwaltungsshell zum Aktivieren oder Deaktivieren von einwahlkonferenzen in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zur Verwendung der Systemsteuerung oder -Verwaltungsshell zum Aktivieren oder Deaktivieren von einwahlkonferenzen in Skype für Business Server.
   
 Sie können einwahlkonferenzen mithilfe von Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell aktivieren.
   

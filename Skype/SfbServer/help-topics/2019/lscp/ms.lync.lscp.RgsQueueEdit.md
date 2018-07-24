@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
+ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppenwarteschleifen halten Anrufe an eine reaktionsgruppe, bis ein Agent den Anruf annimmt.
-ms.openlocfilehash: c9ae9953248804de592f05243ef5a11009c7e045
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7c56554571d09279ce896798d6c7e21dae5f9f3d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988355"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993495"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Reaktionsgruppenwarteschleife: Erstellen einer neuen oder Bearbeiten einer vorhandenen Reaktionsgruppenwarteschleife
  
@@ -68,6 +69,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
     
   - **Weiterleiten an eine andere Warteschlange** Wenn Sie diese Option auswählen, wechseln Sie zu der Warteschleife, Anrufe, die für die Warteschlange Überlauf durchgeführt wird.
     
-Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Ausführliche Informationen zur Verwendung von Warteschlangen finden Sie unter [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Warteschlangen finden Sie unter [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in der Betriebsdokumentation.
   
 

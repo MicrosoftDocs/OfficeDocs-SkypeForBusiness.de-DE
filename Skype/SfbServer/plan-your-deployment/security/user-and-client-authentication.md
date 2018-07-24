@@ -1,24 +1,24 @@
 ---
-title: Benutzer- und Clientauthentifizierung für Skype for Business Server 2015
+title: Benutzer- und Client für die Authentifizierung Skype Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/14/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: Ein vertrauenswürdiger ist Benutzer ein, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype für Business Server 2015 authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server und Director. Skype für Business Server nutzt Active Directory Domain Services als einzelnen, vertrauenswürdigen Back-End-Repository von Benutzeranmeldeinformationen.
-ms.openlocfilehash: d8fa9265a4c27432dd4c2dba6e15c07e39f348b8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Ein vertrauenswürdiger ist Benutzer ein, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype für Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server und Director. Skype für Business Server nutzt Active Directory Domain Services als einzelnen, vertrauenswürdigen Back-End-Repository von Benutzeranmeldeinformationen.
+ms.openlocfilehash: c16e70641d2ce6e25b932904e9371f7ddf03bdd8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010646"
 ---
-# <a name="user-and-client-authentication-for-skype-for-business-server-2015"></a>Benutzer- und Clientauthentifizierung für Skype for Business Server 2015
+# <a name="user-and-client-authentication-for-skype-for-business-server"></a>Benutzer- und Client für die Authentifizierung Skype Business Server
  
-Ein vertrauenswürdiger ist Benutzer ein, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype für Business Server 2015 authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server und Director. Skype für Business Server nutzt Active Directory Domain Services als einzelnen, vertrauenswürdigen Back-End-Repository von Benutzeranmeldeinformationen.
+Ein vertrauenswürdiger ist Benutzer ein, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype für Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server und Director. Skype für Business Server nutzt Active Directory Domain Services als einzelnen, vertrauenswürdigen Back-End-Repository von Benutzeranmeldeinformationen.
   
 Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen für einen vertrauenswürdigen Server. Skype für Business Server verwendet die folgenden Authentifizierungsprotokolle – abhängig vom Status und Standort des Benutzers.
   
@@ -27,12 +27,11 @@ Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen f
 - **NTLM-Protokoll** für Benutzer mit Active Directory-Anmeldeinformationen, die über ein Endgerät von außerhalb der Unternehmensfirewall eine Verbindung herstellen. Der Zugriffs-edgedienst übergibt Anfragen zur Anmeldung an einen Director, falls vorhanden, oder ein Front-End-Server für die Authentifizierung. Der Zugriffs-edgedienst selbst führt keine Authentifizierung.
     
     > [!NOTE]
-    > Da der Angriffsschutz des NTLM-Protokolls schwächer ist als der von Kerberos, minimieren einige Organisationen die Nutzung von NTLM. Daher unter Umständen zu internen Zugriff auf Skype für Business Server 2015 eingeschränkt oder Clients über eine VPN- oder DirectAccess Verbindung verbunden. 
+    > Da der Angriffsschutz des NTLM-Protokolls schwächer ist als der von Kerberos, minimieren einige Organisationen die Nutzung von NTLM. Daher Zugriff auf Skype für Business Server unter Umständen zu internen eingeschränkt oder Clients über eine VPN- oder DirectAccess Verbindung verbunden. 
   
-- 
-            Das **Digestprotokoll** für sogenannte anonyme Benutzer. Anonyme Benutzer sind externe Benutzer, die nicht über anerkannte Active Directory-Anmeldeinformationen verfügen, aber zu einer lokalen Konferenz eingeladen wurden und einen gültigen Konferenzschlüssel besitzen. Die Digestauthentifizierung wird nicht für andere Clientinteraktionen verwendet.
+- Das **Digestprotokoll** für sogenannte anonyme Benutzer. Anonyme Benutzer sind externe Benutzer, die nicht über anerkannte Active Directory-Anmeldeinformationen verfügen, aber zu einer lokalen Konferenz eingeladen wurden und einen gültigen Konferenzschlüssel besitzen. Die Digestauthentifizierung wird nicht für andere Clientinteraktionen verwendet.
     
-Skype für Business Server 2015 Authentifizierung besteht aus zwei Phasen:
+Skype für Business Server-Authentifizierung besteht aus zwei Phasen:
   
 1. Zwischen dem Client und dem Server wird eine Sicherheitszuordnung eingerichtet.
     
@@ -44,6 +43,19 @@ Benutzer mit gültigen Anmeldeinformationen, die von einem Verbundpartner ausgeg
   
 Die Protokolle ICE und TURN verwenden ebenfalls die Digestherausforderung, wie im IETF TURN RFC beschrieben.
   
-Clientzertifikate stellen eine Alternative für Benutzer von Skype für Business Server 2015 authentifiziert werden. Benutzer haben statt einen Benutzernamen und ein Kennwort ein Zertifikat und den privaten Schlüssel für das Zertifikat, das eine Herausforderung kryptografische aufzulösende erforderlich ist. (Dieses Zertifikat benötigen eine Antragstellername oder alternativer Antragstellername identifiziert den Benutzer und muss von einer Stammzertifizierungsstelle, der von Servern mit Skype für Business Server 2015 vertraut ausgestellt werden, die innerhalb der Gültigkeitsdauer und nicht gesperrt.) Um authentifiziert werden, müssen Benutzer nur eine persönliche Identifikationsnummer (PIN) eingeben. Zertifikate sind besonders für Telefone, Mobiltelefone und andere Geräte, auf dem ist es schwierig, einen Benutzernamen und ein Kennwort einzugeben.
+Clientzertifikate stellen eine Alternative für Benutzer von Skype für Business Server authentifiziert werden. Anstelle der Angabe eines Benutzernamens und eines Kennworts haben die Benutzer ein Zertifikat und den privaten Schlüssel, der dem Zertifikat entspricht, das zum Auflösen einer kryptografischen Aufforderung benötigt wird. (Dieses Zertifikat benötigen eine Antragstellername oder alternativer Antragstellername, der identifiziert den Benutzer und muss einer Stammzertifizierungsstelle, die Servern mit Skype für Business Server als vertrauenswürdig einstufen, die innerhalb der Gültigkeitsdauer werden und nicht gesperrt.) Um authentifiziert werden, müssen Benutzer nur eine persönliche Identifikationsnummer (PIN) eingeben. Zertifikate sind besonders für Telefone, Mobiltelefone und andere Geräte, auf dem ist es schwierig, einen Benutzernamen und ein Kennwort einzugeben.
   
+### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Kryptografische Anforderungen aufgrund von ASP .NET 4.5 
 
+Ab Skype für Business Server 2015 CU5 AES für ASP.NET 4.6 nicht unterstützt wird, und dadurch kann Skype Besprechungen App zu einem Fehler beim Starten. Wenn ein Client AES als Wert Schlüssel-Überprüfung Computer verwendet wird, Sie den Schlüsselwert Computer auf SHA-1 oder eine andere unterstützte Algorithmus auf Standortebene Skype Besprechungen App auf IIS zurückzusetzen müssen. Falls erforderlich, finden Sie unter [IIS 8.0 ASP.NET Configuration Management](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) Anweisungen.
+  
+Weitere unterstützte Werte:
+  
+- HMACSHA256
+    
+- HMACSHA384
+    
+- HMACSHA512
+    
+ Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, während sie in ASP.NET 4 noch zulässig waren. [Kryptografische Verbesserungen in ASP.NET 4.5 Pkt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) hat weitere Details.
+  

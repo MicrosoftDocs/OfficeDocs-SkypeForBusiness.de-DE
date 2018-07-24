@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren von hoher Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015.'
-ms.openlocfilehash: f0bf1a98bb8967a7310844d9aa85d17d4ef4d167
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c2e4ff1d210e5a8fa5fccbc002ebd1c4ca59a545
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004686"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung für Server für beständigen Chat in Skype for Business Server 2015
  
@@ -24,6 +25,9 @@ Skype für Business Server unterstützt mehrere Unterhaltungsmodi hohe Verfügba
   
 > [!NOTE]
 > AlwaysOn Availability Groups werden für Persistent Chatserver nicht unterstützt. 
+
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden.
   
 Bevor Sie Ihre Bereitstellung beständigen Chat für hohe Verfügbarkeit und notfallwiederherstellung konfigurieren, achten Sie darauf, dass Sie mit den Konzepten in [Planen für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)vertraut sind. Die Lösung für die notfallwiederherstellung für Persistent Chat Server in diesen Themen beschriebenen basiert auf einer ausgedehnten Persistent Chat Server Pool. Der Planung Inhalt beschreibt Ressourcenbedarf und die ausgedehnte pooltopologie, die hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server, einschließlich der Verwendung von SQL Server-Spiegelung für hohe Verfügbarkeit und SQL Server-Protokollversand für ermöglicht Disaster Recovery.
   

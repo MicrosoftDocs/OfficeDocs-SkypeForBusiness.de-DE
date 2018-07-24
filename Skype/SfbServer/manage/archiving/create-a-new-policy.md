@@ -1,24 +1,24 @@
 ---
-title: Erstellen einer neuen Archivierungsrichtlinie in Skype for Business Server 2015
+title: Erstellen einer neuen Archivierungsrichtlinie in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 'Zusammenfassung: Informationen Sie zum Erstellen einer neuen Archivierungsrichtlinie für Skype für Business Server 2015.'
-ms.openlocfilehash: 38a87892620a4d4fdd70b2cf855dc37d371b1b57
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Erstellen einer neuen Archivierungsrichtlinie für Skype für Business Server.'
+ms.openlocfilehash: e900bd9ac73a6e192eba7a506d713a56a69e794d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970358"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server-2015"></a>Erstellen einer neuen Archivierungsrichtlinie in Skype for Business Server 2015
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Erstellen einer neuen Archivierungsrichtlinie in Skype für Business Server
 
-**Zusammenfassung:** Informationen Sie zum Erstellen einer neuen Archivierungsrichtlinie für Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Erstellen einer neuen Archivierungsrichtlinie für Skype für Business Server.
   
 Sie können neue Archivierungsrichtlinien über die Systemsteuerung oder mit Windows PowerShell-Cmdlets erstellen.
   
@@ -51,7 +51,7 @@ So erstellen Sie eine neue Archivierungsrichtlinie über die Systemsteuerung:
 6. Klicken Sie auf **Commit ausführen**.
     
     > [!IMPORTANT]
-    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Weitere Informationen hierzu finden Sie unter [Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server 2015](apply-a-policy-to-users.md). 
+    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Weitere Informationen hierzu finden Sie unter [Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Erstellen einer neuen Archivierungsrichtlinie mit Windows PowerShell
 

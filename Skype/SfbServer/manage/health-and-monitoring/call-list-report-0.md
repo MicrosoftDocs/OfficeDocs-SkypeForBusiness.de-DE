@@ -1,26 +1,26 @@
 ---
-title: Anruflistenbericht in Skype for Business Server 2015
+title: Call List Report in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: 'Zusammenfassung: Informationen Sie zu den Call List Report in Skype für Business Server 2015 verwendet.'
-ms.openlocfilehash: 8e26f5e9dbe3b72cb07333dae7a10cc2d4bcb80d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Call List Report in Skype für Business Server verwendet wird.'
+ms.openlocfilehash: af9c729adf17fd0df24a76bd13f48501b0f2eba1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968354"
 ---
-# <a name="call-list-report-in-skype-for-business-server-2015"></a>Anruflistenbericht in Skype for Business Server 2015
+# <a name="call-list-report-in-skype-for-business-server"></a>Call List Report in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Call List Report in Skype für Business Server 2015 verwendet.
+**Zusammenfassung:** Informationen Sie zu den Call List Report in Skype für Business Server verwendet wird.
   
-Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzelne Anrufe, die in Ihrer Organisation getätigt oder empfangen wurden. Beachten Sie, dass die tatsächlich im Bericht verzeichneten Metriken davon abhängen, wie Sie auf den Anruflistenbericht zugreifen. Angenommen, wenn Sie den Bericht aus dem [Device Report in Skype für Business Server 2015](device-report.md)öffnen, erfahren Sie, Metriken wie die folgenden Metriken, die auch auf den Device Report gemeldet werden:
+Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzelne Anrufe, die in Ihrer Organisation getätigt oder empfangen wurden. Beachten Sie, dass die tatsächlich im Bericht verzeichneten Metriken davon abhängen, wie Sie auf den Anruflistenbericht zugreifen. Angenommen, wenn Sie den Bericht aus dem [Device Report in Skype für Business Server](device-report.md)öffnen, erfahren Sie, Metriken wie die folgenden Metriken, die auch auf den Device Report gemeldet werden:
   
 - Mikrofon des Anrufers
     
@@ -32,7 +32,7 @@ Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzel
     
 - Anteil Sprachumschaltzeit 
     
-Wenn Sie den [Standortbericht in Skype für Business Server 2015](location-report.md)Call List Report öffnen, werden nicht Sie eines der diese Metriken anzeigen. Stattdessen wird Metriken wie diese angezeigt werden:
+Wenn Sie den [Standortbericht in Skype für Business Server](location-report.md)Call List Report öffnen, werden nicht Sie eines der diese Metriken anzeigen. Stattdessen wird Metriken wie diese angezeigt werden:
   
 - Roundtrip (ms)
     
@@ -48,15 +48,15 @@ Dies sind Metriken aus dem Standortbericht. Im Anruflistenbericht können Sie je
 
 Auf den Anruflistenbericht kann über alle folgenden Berichte zugegriffen werden:
   
-- Den [Standortbericht in Skype für Business Server 2015](location-report.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
+- Den [Standortbericht in Skype für Business Server](location-report.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
     
-- [Device Report in Skype für Business Server 2015](device-report.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
+- [Device Report in Skype für Business Server](device-report.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
     
-- [Media Quality Summary Report in Skype für Business Server 2015](summary.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
+- [Media Quality Summary Report in Skype für Business Server](summary.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
     
-- [Server Performance Report in Skype für Business Server 2015](server-performance.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
+- [Server Performance Report in Skype für Business Server](server-performance.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
     
-Aus innerhalb der Call List Report möglich der [Call Detail Report in Skype für Business Server 2015](call-detail-report.md) durch Klicken auf die Metrik Detail.
+Von können innerhalb der Call List Report Sie den [Call Detail Report in Skype für Business Server](call-detail-report.md) zugreifen, auf die Metrik Detail.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Optimale Verwendung des Anruflistenberichts
 
@@ -72,7 +72,7 @@ In der folgenden Tabelle sind die im Anruflistenbericht enthaltenen Informatione
   
 **Anruflistenbericht-Metriken**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Beschreibung** <br/> |Nein  <br/> |Wenn Sie auf dieses Element klicken, werden zusätzliche Informationen über den Anruf angezeigt.  <br/> |
 |**Anrufer** <br/> |Ja  <br/> |SIP-Adresse der Person, die den Anruf initiiert hat.  <br/> |

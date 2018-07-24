@@ -3,7 +3,7 @@ title: VoIP-Datenverkehr (Planungstool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -13,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 description: Das Planungstool verwendet Informationen zum Bestimmen der Anzahl von Ports Datenverkehr von Benutzern in der Bereitstellung verwendet. Diese Zahl bestimmt wiederum die Anzahl der Vermittlungsserver und Gateways, die ausgeführt werden müssen. Weitere Informationen hierzu finden Sie unter Estimating Voice-Nutzung und-Datenverkehr Skype für Business Server 2015.
-ms.openlocfilehash: 29533d16c35ffc7a9a6a9b072ccb730fb0a6a6a1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 212b08d5df0f57cf7903985115dd09363bcf4743
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992520"
 ---
 # <a name="voice-traffic-planning-tool"></a>VoIP-Datenverkehr (Planungstool)
  

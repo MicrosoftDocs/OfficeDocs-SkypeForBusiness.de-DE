@@ -1,24 +1,24 @@
 ---
-title: Zusammenfassender Bericht über Medienqualität in Skype for Business Server 2015
+title: Zusammenfassender Bericht über Medienqualität in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 6/29/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: 'Zusammenfassung: Informationen Sie zu vom Media Quality Summary Report in Skype für Business Server 2015.'
-ms.openlocfilehash: 3691995cfc826bc4fb214800a36a6d51177a9cd3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu vom Media Quality Summary Report in Skype für Business Server.'
+ms.openlocfilehash: 42c6b36a9e5164f62a003dd1a3fb2f2709b3a6e1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004563"
 ---
-# <a name="media-quality-summary-report-in-skype-for-business-server-2015"></a>Zusammenfassender Bericht über Medienqualität in Skype for Business Server 2015
+# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Zusammenfassender Bericht über Medienqualität in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu vom Media Quality Summary Report in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu vom Media Quality Summary Report in Skype für Business Server.
   
 Der „Zusammenfassende Bericht über Medienqualität“ ist möglicherweise die beste Option zum Analysieren der Anrufqualität in Ihrer Organisation: In diesem Bericht werden detailliert die QoE-Anrufmetriken (Quality of Experience, QoE) in den folgenden Kategorien aufgeführt:
   
@@ -38,13 +38,13 @@ Der „Zusammenfassende Bericht über Medienqualität“ ist möglicherweise die
     
 Beim ersten Öffnen des Berichts wird eine Zusammenfassung zu den einzelnen Kategorien angezeigt. Ohne den Bericht können Sie jede Kategorie Unterkategorien wie Anrufe von Office Communicator 2007 R2 Skype für Unternehmen betrachten erweitern. Diese Unterkategorien können Sie anschließend erweitern, um Details zu jedem in diesen Unterkategorien getätigten Anruf anzuzeigen.
   
-In Skype für Business Server 2015 der Media Quality Summary Report weiter unterteilt die Daten in drei Anruftypen: Audioanrufe, Videoanrufe und Anwendungsfreigabe Anrufe. Für jeden Anruftyp gibt es im Bericht einen eigenen Bereich und eigenen benutzerdefinierten Satz von Anrufmetriken.
+In Skype für Business Server die Media Quality Summary Report weiter unterteilt die Daten in drei Anruftypen: Audioanrufe, Videoanrufe und Anwendungsfreigabe Anrufe. Für jeden Anruftyp gibt es im Bericht einen eigenen Bereich und eigenen benutzerdefinierten Satz von Anrufmetriken.
   
 Im „Zusammenfassenden Bericht über Medienqualität“ können Sie Filter anwenden, mit denen Sie die Anrufqualität zwischen verkabelten und drahtlosen Anrufen, internen und externen Anrufen sowie VPN- und Nicht-VPN-Anrufen vergleichen können.
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Zugreifen auf den „Zusammenfassenden Bericht über Medienqualität“
 
-Auf den „Zusammenfassenden Bericht über Medienqualität“ kann auf der Startseite „Überwachungsberichte“ zugegriffen werden. Sie können den [Call List Report in Skype für Business Server 2015](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
+Auf den „Zusammenfassenden Bericht über Medienqualität“ kann auf der Startseite „Überwachungsberichte“ zugegriffen werden. Sie können den [Call List Report in Skype für Business Server](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
   
 - Anruflautstärke
     
@@ -72,7 +72,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Zusammenfassenden Bericht über Medienqualität“ verwenden können.
   
-**Filter im zusammenfassenden Bericht über Medienqualität**
+**Filter im „Zusammenfassenden Bericht über Medienqualität“**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -86,9 +86,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Zusammenfa
 
 In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden Bericht über Medienqualität angegeben werden.
   
-**Zusammenfassungsbericht Qualitätsmetriken Medien: Zusammenfassung der Audioanrufe**
+**Metriken im „Zusammenfassenden Bericht über Medienqualität“: Zusammenfassung der Audioanrufe**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruftyp/Endpunkttyp** <br/> |Nein  <br/> | Wenn Sie auf dieses Element klicken, zeigt der Bericht Details zu den auf diesem Typ basierenden Anrufen. Es gibt folgende Anruftypen: <br/>  UC-Peer-to-Peer-Anrufe <br/>  UC-Konferenzsitzungen <br/>  PSTN-Konferenzsitzungen <br/>  PSTN-Anrufe: Medienumgehung <br/>  PSTN-Anrufe (keine Umgehung): UC-Abschnitt <br/>  PSTN-Anrufe (keine Umgehung): Gateway-Abschnitt <br/>  Andere Anruftypen <br/> |
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe pro Anruftyp.  <br/> |
@@ -104,9 +104,9 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 |**Streckungsverhältnis der Reparatur** <br/> |Nein  <br/> |Das durchschnittliche Verhältnis zwischen gestreckten Audiosamples und der Gesamtzahl der Samples. (Gestrecktes Audio ist ein Verfahren zum Dehnen von Audiodaten, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplestreckung in hohem Umfang aufgetreten ist und führt zu roboterhafter oder verzerrter Sprachqualität.  <br/> |
 |**Komprimierungsverhältnis der Reparatur** <br/> |Nein  <br/> |Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu einer zu schnellen Sprachwiedergabe oder zu verzerrter Sprachqualität.  <br/> |
    
-**Zusammenfassungsbericht Qualitätsmetriken Medien: Zusammenfassung der Videoanrufe**
+**Metriken im „Zusammenfassenden Bericht über Medienqualität“: Zusammenfassung der Videoanrufe**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruftyp/Endpunkttyp** <br/> |Nein  <br/> | Wenn Sie auf dieses Element klicken, zeigt der Bericht Details zu den auf diesem Typ basierenden Anrufen. Es gibt folgende Anruftypen: <br/>  UC-Peer-to-Peer-Anrufe <br/>  UC-Konferenzsitzungen <br/>  PSTN-Konferenzsitzungen <br/>  PSTN-Anrufe: Medienumgehung <br/>  PSTN-Anrufe (keine Umgehung): UC-Abschnitt <br/>  PSTN-Anrufe (keine Umgehung): Gateway-Abschnitt <br/>  Andere Anruftypen <br/> |
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe pro Anruftyp.  <br/> |
@@ -123,9 +123,9 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 |**Niedrige eingehende Framerate %** <br/> |Nein  <br/> |Prozentsatz aller Anrufe, bei denen die Bitrate für eingehende Videodaten niedrig war.  <br/> |
 |**Clientintegrität %** <br/> ||Zeigt die relative Integrität des Clientgeräts während des Anrufs an.  <br/> |
    
-**Zusammenfassungsbericht Qualitätsmetriken Media: Anwendungsfreigabeanrufe**
+**Metriken im „Zusammenfassenden Bericht über Medienqualität“: Zusammenfassung der Anwendungsfreigabeanrufe**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruftyp/Endpunkttyp** <br/> |Nein  <br/> | Wenn Sie auf dieses Element klicken, zeigt der Bericht Details zu den auf diesem Typ basierenden Anrufen. Es gibt folgende Anruftypen: <br/>  UC-Peer-to-Peer-Anrufe <br/>  UC-Konferenzsitzungen <br/>  PSTN-Konferenzsitzungen <br/>  PSTN-Anrufe: Medienumgehung <br/>  PSTN-Anrufe (keine Umgehung): UC-Abschnitt <br/>  PSTN-Anrufe (keine Umgehung): Gateway-Abschnitt <br/>  Andere Anruftypen <br/> |
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe pro Anruftyp.  <br/> |
