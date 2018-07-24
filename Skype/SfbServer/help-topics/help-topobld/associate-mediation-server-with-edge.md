@@ -3,7 +3,7 @@ title: Zuordnen des Vermittlungsservers zur Edgekomponente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,23 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Geben Sie zum Definieren eines Vermittlungsservers Einstellungen, die der Vermittlungsserver mit einem Front-End-Server und mit einem Edge-Server oder Pool zuzuordnen. Gehen Sie wie folgt vor, um mit einem Edge-Server oder Pool für Edge-Server Mediation Server oder Pool zuzuordnen:'
-ms.openlocfilehash: 543f0c9c7faa767d429693cd8f5f3ff7396a6169
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4761b9e84d786386c052caa323b101eb589d77f9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967607"
 ---
-# <a name="associate-mediation-server-with-edge"></a><span data-ttu-id="d5c41-104">Zuordnen des Vermittlungsservers zur Edgekomponente</span><span class="sxs-lookup"><span data-stu-id="d5c41-104">Associate Mediation Server With Edge</span></span>
+# <a name="associate-mediation-server-with-edge"></a><span data-ttu-id="a6e52-104">Zuordnen des Vermittlungsservers zur Edgekomponente</span><span class="sxs-lookup"><span data-stu-id="a6e52-104">Associate Mediation Server With Edge</span></span>
  
-<span data-ttu-id="d5c41-105">Geben Sie zum Definieren eines Vermittlungsservers Einstellungen, die der Vermittlungsserver mit einem Front-End-Server und mit einem Edge-Server oder Pool zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="d5c41-105">To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool.</span></span> <span data-ttu-id="d5c41-106">Gehen Sie wie folgt vor, um mit einem Edge-Server oder Pool für Edge-Server Mediation Server oder Pool zuzuordnen:</span><span class="sxs-lookup"><span data-stu-id="d5c41-106">To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:</span></span>
+<span data-ttu-id="a6e52-105">Geben Sie zum Definieren eines Vermittlungsservers Einstellungen, die der Vermittlungsserver mit einem Front-End-Server und mit einem Edge-Server oder Pool zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="a6e52-105">To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool.</span></span> <span data-ttu-id="a6e52-106">Gehen Sie wie folgt vor, um mit einem Edge-Server oder Pool für Edge-Server Mediation Server oder Pool zuzuordnen:</span><span class="sxs-lookup"><span data-stu-id="a6e52-106">To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:</span></span>
   
-1. <span data-ttu-id="d5c41-107">Wählen Sie aus der Dropdownliste den Edge-Pool oder Edge-Server, die der Vermittlungsserver zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="d5c41-107">From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.</span></span>
+1. <span data-ttu-id="a6e52-107">Wählen Sie aus der Dropdownliste den Edge-Pool oder Edge-Server, die der Vermittlungsserver zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="a6e52-107">From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.</span></span>
     
-2. <span data-ttu-id="d5c41-108">Klicken Sie auf **Weiter**, um fortzufahren.</span><span class="sxs-lookup"><span data-stu-id="d5c41-108">Click **Next** to continue.</span></span>
+2. <span data-ttu-id="a6e52-108">Klicken Sie auf **Weiter**, um fortzufahren.</span><span class="sxs-lookup"><span data-stu-id="a6e52-108">Click **Next** to continue.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="d5c41-109">Wenn Sie noch kein Edge-Server oder Pool für Edge-Server in Ihrer Bereitstellung definiert haben, wird die Dropdown Liste keine Einträge enthalten.</span><span class="sxs-lookup"><span data-stu-id="d5c41-109">If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries.</span></span> <span data-ttu-id="d5c41-110">Sie können klicken Sie auf **Weiter** , um fortzufahren, und bearbeiten die Einstellungen für den Vermittlungsserver, nachdem Sie Ihre Bereitstellung ein Edge-Server oder Pool hinzugefügt haben.</span><span class="sxs-lookup"><span data-stu-id="d5c41-110">You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.</span></span>
+> <span data-ttu-id="a6e52-109">Wenn Sie noch kein Edge-Server oder Pool für Edge-Server in Ihrer Bereitstellung definiert haben, wird die Dropdown Liste keine Einträge enthalten.</span><span class="sxs-lookup"><span data-stu-id="a6e52-109">If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries.</span></span> <span data-ttu-id="a6e52-110">Sie können klicken Sie auf **Weiter** , um fortzufahren, und bearbeiten die Einstellungen für den Vermittlungsserver, nachdem Sie Ihre Bereitstellung ein Edge-Server oder Pool hinzugefügt haben.</span><span class="sxs-lookup"><span data-stu-id="a6e52-110">You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.</span></span>
   
-<span data-ttu-id="d5c41-111">Weitere Informationen hierzu finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="d5c41-111">For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
+<span data-ttu-id="a6e52-111">Weitere Informationen hierzu finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="a6e52-111">For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
   
 

@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
-description: Die Seite Befehle ausführen zeigt die Aktionen, die durch die Aufgaben zum Zuweisen des Zertifikats an den Server. Wenn die Aufgaben abgeschlossen haben, können Sie das Protokoll anzeigen, das das Zertifikat Zuweisung zur Archivierung details. Um die Protokolldatei anzuzeigen, klicken Sie auf Protokoll anzeigen.
-ms.openlocfilehash: 3fa2230124ce5f30078483747db710ef7d5d468e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Die Seite Befehle ausführen zeigt die Aktionen, die durch die Aufgaben zum Zuweisen des Zertifikats an den Server. Wenn die Aufgaben abgeschlossen haben, können Sie das Protokoll anzeigen, das das Zertifikat Zuweisung zur Archivierung details. Klicken Sie zum Anzeigen der Protokolldatei auf Protokoll anzeigen.
+ms.openlocfilehash: 385ee73a1619781b90a409410ed20bb96a31c993
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991466"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967705"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="78c15-105">Zertifikatzuweisung (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="78c15-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="a1c73-105">Zertifikatzuweisung (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="a1c73-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="78c15-106">Die Seite **Befehle ausführen** zeigt die Aktionen, die durch die Aufgaben zum Zuweisen des Zertifikats an den Server.</span><span class="sxs-lookup"><span data-stu-id="78c15-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="78c15-107">Wenn die Aufgaben abgeschlossen haben, können Sie das Protokoll anzeigen, das das Zertifikat Zuweisung zur Archivierung details.</span><span class="sxs-lookup"><span data-stu-id="78c15-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="78c15-108">Klicken Sie zum Anzeigen der Protokolldatei auf **Protokoll anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="78c15-108">To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="a1c73-106">Die Seite **Befehle ausführen** zeigt die Aktionen, die durch die Aufgaben zum Zuweisen des Zertifikats an den Server.</span><span class="sxs-lookup"><span data-stu-id="a1c73-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="a1c73-107">Wenn die Aufgaben abgeschlossen haben, können Sie das Protokoll anzeigen, das das Zertifikat Zuweisung zur Archivierung details.</span><span class="sxs-lookup"><span data-stu-id="a1c73-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="a1c73-108">Klicken Sie zum Anzeigen der Protokolldatei auf **Protokoll anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="a1c73-108">To view the log file, click **View Log**.</span></span>
   
 

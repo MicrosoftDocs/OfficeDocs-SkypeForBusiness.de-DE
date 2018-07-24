@@ -3,7 +3,6 @@ title: Auswählen abgelehnter Mitglieder
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,38 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
+ROBOTS: NOINDEX, NOFOLLOW
 description: A Persistent Chat Administrator können erstellen und Verwalten von Kategorien für Chatrooms. Als Teil des erstellen und Verwalten von Kategorien für Chatrooms kann ein Persistent Chat Administrator Prinzipale (Active Directory Domain Services Gruppen/Container/Benutzer) zu konfigurieren, die Zugriff auf Member/Ersteller von einer bestimmten Kategorie Chatrooms sein. A Persistent Chat Administrator können auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden zur Liste zugelassenen explizite Ausschlüsse. DeniedMembers außer Kraft setzen, was in AllowedMembers ist.
-ms.openlocfilehash: 98e57342296f181971c799bafa1b77eccd24b509
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 66c2dc6fb42af3387eff77f7f9257795a72bc6ad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974903"
 ---
-# <a name="select-denied-members"></a><span data-ttu-id="ebcab-106">Auswählen abgelehnter Mitglieder</span><span class="sxs-lookup"><span data-stu-id="ebcab-106">Select Denied Members</span></span>
- 
-<span data-ttu-id="ebcab-107">A Persistent Chat Administrator können erstellen und Verwalten von Kategorien für Chatrooms.</span><span class="sxs-lookup"><span data-stu-id="ebcab-107">A Persistent Chat Administrator can create and manage chat room categories.</span></span> <span data-ttu-id="ebcab-108">Als Teil des erstellen und Verwalten von Kategorien für Chatrooms kann ein Persistent Chat Administrator Prinzipale (Active Directory Domain Services Gruppen/Container/Benutzer) zu konfigurieren, die Zugriff auf Member/Ersteller von einer bestimmten Kategorie Chatrooms sein.</span><span class="sxs-lookup"><span data-stu-id="ebcab-108">As part of creating and managing chat room categories, a Persistent Chat Administrator can configure principals (Active Directory Domain Services groups/containers/users) that have access to be members/creators of chat rooms of a particular category.</span></span> <span data-ttu-id="ebcab-109">A Persistent Chat Administrator können auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden zur Liste zugelassenen explizite Ausschlüsse.</span><span class="sxs-lookup"><span data-stu-id="ebcab-109">A Persistent Chat Administrator can also add DeniedMembers to a category and these become explicit exclusions to the allowed list.</span></span> <span data-ttu-id="ebcab-110">DeniedMembers außer Kraft setzen, was in AllowedMembers ist.</span><span class="sxs-lookup"><span data-stu-id="ebcab-110">DeniedMembers override what's in AllowedMembers.</span></span>
-  
-## <a name="tasks-that-you-can-perform"></a><span data-ttu-id="ebcab-111">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="ebcab-111">Tasks that you can perform</span></span>
+# <a name="select-denied-members"></a><span data-ttu-id="48216-106">Auswählen abgelehnter Mitglieder</span><span class="sxs-lookup"><span data-stu-id="48216-106">Select Denied Members</span></span>
 
-<span data-ttu-id="ebcab-112">Auf der Seite **Abgelehnte Mitglieder auswählen** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="ebcab-112">You can perform the following tasks on the **Select Denied Members** page:</span></span>
-  
-- [<span data-ttu-id="ebcab-113">Konfigurieren von Kategorien</span><span class="sxs-lookup"><span data-stu-id="ebcab-113">Configure Categories</span></span>](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [<span data-ttu-id="ebcab-114">Neue Features für Persistent Chat Server</span><span class="sxs-lookup"><span data-stu-id="ebcab-114">New Persistent Chat Server Features</span></span>](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
-    
-<span data-ttu-id="ebcab-115">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="ebcab-115">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
-  
-## <a name="to-configure-categories-for-chat-rooms"></a><span data-ttu-id="ebcab-116">So konfigurieren Sie Kategorien für Chatrooms</span><span class="sxs-lookup"><span data-stu-id="ebcab-116">To configure categories for chat rooms</span></span>
-
-<span data-ttu-id="ebcab-117">**Die Mitgliedschaft**in den Abschnitt **abgelehnten Mitglieder** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Prinzipale wird diesen Raum Mitgliedern zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="ebcab-117">In **Membership**, in the **Denied members** section, add or remove users and other Active Directory principals associated with members being denied from the room.</span></span>
-  
-### 
-
-<span data-ttu-id="ebcab-118">Ausführliche Informationen zur Persistent Chat Server-Features und Funktionen finden Sie unter [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="ebcab-118">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="ebcab-119">Ausführliche Informationen zur Verwendung von Persistent Chat Server-Konfigurationen finden Sie unter [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in der Dokumentation zur Bereitstellung und [Verwaltung von Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="ebcab-119">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="ebcab-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ebcab-120">See also</span></span>
-
-#### 
-
-[<span data-ttu-id="ebcab-121">Grundlegendes zur Persistent Chat-Mitgliedschaft</span><span class="sxs-lookup"><span data-stu-id="ebcab-121">Understanding Persistent Chat Membership</span></span>](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-
+> [!NOTE] 
+> <span data-ttu-id="48216-107">Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="48216-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="48216-108">Die gleiche Funktionalität ist in Teams verfügbar.</span><span class="sxs-lookup"><span data-stu-id="48216-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="48216-109">Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="48216-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="48216-110">Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.</span><span class="sxs-lookup"><span data-stu-id="48216-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
