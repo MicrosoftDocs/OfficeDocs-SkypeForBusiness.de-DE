@@ -3,7 +3,7 @@ title: Veröffentlichen der Topologie – nächsten Schritt
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: Nach Abschluss der Veröffentlichung der Topologie wird die Seite Veröffentlichen-Assistent abgeschlossen angezeigt.
-ms.openlocfilehash: abd88966663ac78108f78955a067a5b68b5cf25e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 40166dd0cdf179680e8f0fd98df27ec9427063bf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987810"
 ---
 # <a name="publish-topology-next-step"></a>Veröffentlichen der Topologie – nächsten Schritt
  

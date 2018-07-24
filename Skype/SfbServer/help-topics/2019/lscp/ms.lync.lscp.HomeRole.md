@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
-description: Damit Sie Verwaltungsaufgaben delegieren, während gleichzeitig eine hohe Sicherheit gewährleistet bleibt können, unterstützt Skype für Business Server rollenbasierte Zugriffssteuerung (RBAC). Mit RBAC gewähren Sie Administratorrechte durch Zuweisen von Benutzern zu vordefinierten Administratorrollen an. Skype für Business Server enthält einen umfassenden Satz an integrierten Administratorrollen, und außerdem ermöglicht es Ihnen, neue Rollen erstellen, und geben Sie eine benutzerdefinierte Liste von Cmdlets für jede neue Rolle. Sie können auch Skripts Cmdlets zulässigen Aufgaben sowohl vordefinierte als auch benutzerdefinierte RBAC-Rollen hinzufügen. Ausführliche Einzelheiten, einschließlich der in Skype verfügbaren vordefinierten Administratorrollen für Business Server finden Sie unter Role-Based Access Control.
-ms.openlocfilehash: 538dff9b927475e2c98d65d0f3325eac2d64c9c5
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Damit Sie Verwaltungsaufgaben delegieren, während gleichzeitig eine hohe Sicherheit gewährleistet bleibt können, unterstützt Skype für Business Server rollenbasierte Zugriffssteuerung (RBAC).
+ms.openlocfilehash: 0933adcfaf7e5162ca3c3819fdbd93e54ae4d065
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973171"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005991"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>Administratorrollen und Skype Business Server-Systemsteuerung
  

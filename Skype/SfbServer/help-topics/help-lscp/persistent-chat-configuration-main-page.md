@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: Die Persistent Chat Server-Bereitstellung kann viele gleichzeitige beständigen Chat Rooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und übernimmt die Einstellungen dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zur Identifikation von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
-ms.openlocfilehash: 3a7fe2763138beb42cf6dbdbe927ca9378e2539f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8f406d53193e64bdd7406e7eed931ab8a3f2a684
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987775"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Konfiguration für beständigen Chat – Hauptseite
  
@@ -118,7 +119,7 @@ Sie können die folgenden Aufgaben ausführen, auf der Seite **Konfiguration fü
     
 7. Klicken Sie auf **Commit ausführen**.
     
-### 
+## <a name="see-also"></a>Siehe auch
 
 Details zu Persistent Chat Server-Features und Funktionen, finden Sie unter [Planen für Persistent Chat Server in Skype für Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Persistent Chatserver in Skype für Business Server 2015 bereitstellen](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)und [Verwalten Persistent Chat Server in Skype für Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   

@@ -1,40 +1,40 @@
 ---
-title: Verwenden von Überwachungsberichten in Skype for Business Server 2015
+title: Verwenden von Überwachungsberichten in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 'Zusammenfassung: Informationen Sie zu Überwachungsberichten in Skype für Business Server 2015.'
-ms.openlocfilehash: ff34efdf698e19006e99819c52c01c68dba2c3ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu Überwachungsberichten in Skype für Business Server.'
+ms.openlocfilehash: 68fcf3a738d2cf849bd51959a86f2d61e53db603
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003793"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server-2015"></a>Verwenden von Überwachungsberichten in Skype for Business Server 2015
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Verwenden von Überwachungsberichten in Skype für Business Server 
  
-**Zusammenfassung:** Informationen Sie zu Überwachungsberichten in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu Überwachungsberichten in Skype für Business Server.
   
-Skype für Business Server 2015 enthält einen Satz Standardberichte, die von Microsoft SQL Server Reporting Services veröffentlicht werden. Diese Berichte, auf die über einen Webbrowser zugegriffen werden kann, liefern Informationen zu Nutzung, Anrufdiagnose und Medienqualität basierend auf den KDS- und QoE-Datensätzen in den KDS- und QoE-Datenbanken.
+Skype für Business Server enthält einen Satz Standardberichte, die von Microsoft SQL Server Reporting Services veröffentlicht werden. Diese Berichte, auf die über einen Webbrowser zugegriffen werden kann, liefern Informationen zu Nutzung, Anrufdiagnose und Medienqualität basierend auf den KDS- und QoE-Datensätzen in den KDS- und QoE-Datenbanken.
   
 Um diese Berichte zu verwenden, müssen Sie Monitoring-Berichte auf einem Computer installieren, die eine Instanz von SQL Server ausgeführt wird.
   
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-- [Verwenden Sie das Monitoring-Dashboard in Skype für Business Server 2015](monitoring-dashboard.md) Ermöglicht Administratoren einen schnellen Überblick über die Systemintegrität und systemauslastung.
+- [Verwenden Sie das Monitoring-Dashboard in Skype für Business Server](monitoring-dashboard.md) Ermöglicht Administratoren einen schnellen Überblick über die Systemintegrität und systemauslastung.
     
-- [Systemauslastungsberichte in Skype für Business Server 2015](system-usage-reports.md) Basierend auf von Skype für Business Server gesammelten KDS-Daten enthält.
+- [Systemauslastungsberichte in Skype für Business Server](system-usage-reports.md) Basierend auf von Skype für Business Server gesammelten KDS-Daten enthält.
     
-- [Anrufdiagnoseberichte (pro Benutzer) in Skype für Business Server 2015](call-diagnostic-reports-per-user.md) Pro Benutzer Informationen zu fehlgeschlagenen Peer-zu-Peer- und konferenzsitzungen.
+- [Anrufdiagnoseberichte (pro Benutzer) in Skype für Business Server](call-diagnostic-reports-per-user.md) Pro Benutzer Informationen zu fehlgeschlagenen Peer-zu-Peer- und konferenzsitzungen.
     
-- [Anrufdiagnoseberichte in Skype für Business Server 2015](call-diagnostic-reports.md) Enthält zusammenfassende Informationen und Diagnosedaten für fehlerhafte Peer-zu-Peer- und konferenzsitzungen.
+- [Anrufdiagnoseberichte in Skype für Business Server](call-diagnostic-reports.md) Enthält zusammenfassende Informationen und Diagnosedaten für fehlerhafte Peer-zu-Peer- und konferenzsitzungen.
     
-- [Media Quality Diagnostic-Berichte in Skype für Business Server 2015](media-quality-diagnostic-reports.md) Enthält Informationen zur Anrufqualität sowie Diagnose- und Problembehandlungsinformationen für fehlerhafte Anrufe.
+- [Medienqualitäts-Diagnoseberichte in Skype für Business Server](media-quality-diagnostic-reports.md) Enthält Informationen zur Anrufqualität sowie Diagnose- und Problembehandlungsinformationen für fehlerhafte Anrufe.
     
 ## <a name="locating-records"></a>Suchen von Datensätzen
 

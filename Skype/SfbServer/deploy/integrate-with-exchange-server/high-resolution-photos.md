@@ -1,27 +1,28 @@
 ---
-title: Konfigurieren der Verwendung von hochauflösenden Fotos in Skype for Business Server 2015
+title: Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: 'Zusammenfassung: Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015.'
-ms.openlocfilehash: 43ca3ca0444339ff61811c8aad5860989e45ca33
-ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
+description: 'Zusammenfassung: Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server.'
+ms.openlocfilehash: 224c8dc238d8427deddc706b883614fd04c9b133
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007237"
 ---
-# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server-2015"></a>Konfigurieren der Verwendung von hochauflösenden Fotos in Skype for Business Server 2015
+# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Skype für Business Server
  
-**Zusammenfassung:** Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015.
+**Zusammenfassung:** Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server.
   
-In Skype für Business Server 2015 können Fotos in Exchange Server 2016 oder Exchange Server 2013 Postfach eines Benutzers, die bis zu 648 x 648 Pixel Foto Größen ermöglicht gespeichert werden. Exchange Server darüber hinaus können diese Fotos in anderen Produkten automatisch angepasst, je nach Bedarf. In der Regel bedeutet, dass drei verschiedenen Foto Größen und Lösungen:
+In Skype für Business Server können Fotos in Exchange Server 2016 oder Exchange Server 2013 Postfach eines Benutzers, die bis zu 648 x 648 Pixel Foto Größen ermöglicht gespeichert werden. Exchange Server darüber hinaus können diese Fotos in anderen Produkten automatisch angepasst, je nach Bedarf. In der Regel bedeutet, dass drei verschiedenen Foto Größen und Lösungen:
   
 - 64 x 64 Pixel: die für das thumbnailPhoto-Attribut in Active Directory verwendete Größe. Wenn Sie ein Foto in Exchange Server hochladen, Exchange automatisch ein 64 Pixel von 64 Pixel-Version dieses Foto erstellen und aktualisieren ThumbnailPhoto-Attribut des Benutzers. Beachten Sie jedoch, dass die Umkehrung nicht true ist: Wenn Sie das Attribut ThumbnailPhoto in Active Directory manuell aktualisieren das Foto im Exchange-Postfach des Benutzers wird nicht automatisch aktualisiert werden.
     

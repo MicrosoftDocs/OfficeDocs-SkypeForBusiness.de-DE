@@ -3,7 +3,7 @@ title: PIN-Richtlinie Erstellen einer neuen oder Bearbeiten einer vorhandenen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: d415b056e66ec0dd3757691f8b027c605f5bd01d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d24b25ddcd5c1b041bf4fb0ae10b72a28fc6f2c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014443"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN-Richtlinie: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
  
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
   
-- [Erstellen einer neuen PIN-Richtlinie in Skype für Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
+- [Erstellen einer neuen PIN-Richtlinie in Skype for Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
     
-- [Ändern einer vorhandenen PIN-Richtlinie in Skype für Business Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
     
-- [Löschen Sie eine PIN-Richtlinie in Skype für Business Server 2015](../../manage/authentication/delete-a-pin-policy.md)
+- [Löschen einer PIN-Richtlinie in Skype for Business Server 2015](../../manage/authentication/delete-a-pin-policy.md)
     
 - [Erstellen oder Ändern von PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Gruppe von Benutzern](http://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
     

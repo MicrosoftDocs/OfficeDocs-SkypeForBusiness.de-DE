@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
+ROBOTS: NOINDEX, NOFOLLOW
 description: Eine Gerätekonfiguration ist eine Auflistung von Einstellungen zum Verwalten von Skype für Business Phone Edition-Geräte, global oder auf einer Website verwendet. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und die Festlegung, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
-ms.openlocfilehash: afe0efd9612ac8fa73173fc8281b60e7949e58e6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fac770e05b6e85644f813c026dea51e855584e2a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970402"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008370"
 ---
 # <a name="device-configuration"></a>Gerätekonfiguration
  
@@ -52,6 +53,6 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
 ## <a name="see-also"></a>Siehe auch
 
-[Gerätekonfiguration: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen](ms.lync.lscp.ClientDeviceTestEdit.md)
+[Gerätekonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration](ms.lync.lscp.ClientDeviceTestEdit.md)
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

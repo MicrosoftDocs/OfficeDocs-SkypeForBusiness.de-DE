@@ -1,22 +1,22 @@
 ---
-title: Verwenden der Datei „config.xml“ zur Durchführung von Installationsaufgaben in Skype for Business Server 2015
+title: Mit "config.xml" zum Ausführen von Installationsaufgaben in Skype für Business-clients
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Zusammenfassung: Informationen zu die Datei Config.xml verwenden, um zusätzlich Hinweise zur Installation anzugeben.'
-ms.openlocfilehash: f55683d672df890be8baf0ac7ca50b3170faf3d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Wie die Datei „Config.xml“ verwendet wird, um weitere Installationshinweise anzugeben.'
+ms.openlocfilehash: ea869fe2b49d5c1a5b4e04c3bc75cfd52b66555e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003508"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-server-2015"></a>Verwenden der Datei „config.xml“ zur Durchführung von Installationsaufgaben in Skype for Business Server 2015
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Mit "config.xml" zum Ausführen von Installationsaufgaben in Skype für Business-clients
  
 **Zusammenfassung:** Wie die Datei „Config.xml“ verwendet wird, um weitere Installationshinweise anzugeben.
   
@@ -42,18 +42,18 @@ Standardmäßig werden in der Datei Config.xml, die in der kernproduktordner ges
     
 Die am häufigsten verwendeten für Skype für die Installation von Business Config.xml-Elemente sind in der folgenden Tabelle aufgeführt.
   
-**Config.XML-Elemente**
+**Config.xml-Elemente**
 
 |**Element**|**Beschreibung**|
 |:-----|:-----|
 |Konfiguration  <br/> |Element der obersten Ebene (erforderlich). Enthält das Produktattribut, z. B.: Product=Lync (auch für Skype for Business-Clients geeignet)  <br/> |
-|"OptionState"  <br/> | Gibt an, wie bestimmte Produktfeatures während der Installation behandelt werden. Verwenden Sie die folgenden Attribute, um die Installation von Business Connectivity Services zu verhindern, dass die gemeinsam genutzte Komponenten enthält, die mit Outlook 2016 stören: <br/>  ID = "LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+|"OptionState"  <br/> | Gibt an, wie bestimmte Produktfeatures während der Installation behandelt werden. Verwenden Sie die folgenden Attribute, um die Installation von Business Connectivity Services zu verhindern, dass die freigegebene Komponenten umfasst, die Outlook beeinflussen: <br/>  ID = "LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 |Anzeige  <br/> | Die Ebene der Benutzeroberfläche, die dem Benutzer angezeigt wird. Zu den typischen Attributen zählen Folgende: <br/>  CompletionNotice = "Yes" | "No"(Standard) " <br/>  AcceptEula = "Yes" | "No"(Standard) " <br/> |
 |Protokollierung  <br/> | Optionen für den vom Setup ausgeführten Protokollierungstyp. Zu den typischen Attributen zählen Folgende: <br/>  Type = "Off" | "Standard"(Standard) | "Verbose" <br/>  Template = " _Dateiname_.txt" (der Name der Protokolldatei)  <br/> |
 |Einstellung  <br/> | Gibt Werte für Windows Installer-Eigenschaften an. Zu den typischen Attributen zählen Folgende:<br/>  Setting Id = " _Name_" (der Name der Windows Installer-Eigenschaft)  <br/>  Wert = " _Wert_" (der Wert der Eigenschaft zugewiesen)  <br/> |
 |DistributionPoint  <br/> | Der vollqualifizierte Pfad des Netzwerkinstallationspfads, von dem die Installation ausgeführt werden soll. Enthält das Standortattribut:<br/>  Speicherort = " _Pfad_"  <br/> |
    
-Das folgende Beispiel zeigt eine Datei Config.xml für eine typische automatische Installation von Skype für Unternehmen. 
+Das folgende Beispiel zeigt eine Datei Config.xml für eine typische automatische Installation von der Skype für Business-Client. 
   
 ```
 <Configuration Product="Lync"> 
@@ -75,9 +75,9 @@ Ausführliche Informationen zur Verwendung der Datei "config.xml" zum Ausführen
     
 3. Ändern Sie den Elementeintrag mit den gewünschten Optionen für eine automatische Installation. Stellen Sie sicher, dass Sie die Kommentartrennzeichen entfernen "\<!--" und "–\>". Verwenden Sie z. B. die folgende Syntax:
     
-  ```
+  <pre>
   < DistributionPoint Location="\\server\share\Skype15" />
-  ```
+  </pre>
 
 4. Speichern Sie die Datei Config.xml.
     

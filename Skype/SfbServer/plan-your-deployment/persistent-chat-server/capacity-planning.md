@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu lernen Capacity planning for Persistent Chat Server in Skype für Business Server 2015.'
-ms.openlocfilehash: 5e8978e145c96b9a2fec7d81f02e0010484411bb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 395beed6a295a76c781aa65c654bcbf2693bbc40
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026452"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -25,6 +26,9 @@ Persistent Chat-Server können mehrere Benutzer, Real-Time Chat, die beibehalten
 Planen der Kapazität ist ein wichtiger Teil der Vorbereitung zur Bereitstellung von Persistent Chat Server. Dieses Thema umfasst Tabellen zur Kapazitätsplanung, anhand derer Sie die beste Konfiguration für Ihre Bereitstellung ermitteln können. Es wird auch von Persistent Chat Server-Bereitstellungen am besten zu verwalten, die eine höhere Kapazität zu Spitzenzeiten erfordern beschrieben.
   
 Bevor Sie diesen Abschnitt lesen, sollten Sie sich mit Topologien für beständigen Chat vertraut machen. Weitere Informationen finden Sie unter [Planen von Persistent Chat Server-Topologie](topology.md).
+
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>Persistent Chat Server-kapazitätsplanung
 
@@ -58,7 +62,7 @@ Im vorstehenden Beispiel, es ist geplant, die maximale Anzahl von Benutzern unte
 
 Die folgende Beispieltabelle helfen Ihnen bei der Planung für die Verwaltung des chatroomzugriffs in einem Pool Persistent Chat Server.
   
-**Verwalten von Chatrooms Access-Beispiel**
+**Beispiel für die Verwaltung des Chatroomzugriffs**
 
 ||**Kleine Chatrooms**|**Mittlere Chatrooms**|**Große Chatrooms**|**Gesamt**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -108,14 +112,14 @@ Die vorstehende Tabelle zur Kapazitätsplanung gibt für jeden Chatroom die Anza
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>Kapazitätsplanung für die Verwaltung des Chatroomzugriffs über eine Einladung
 
-In der folgenden Tabelle Capacity planning können Sie um die Anzahl von Einladungen zu verstehen, die Persistent Chat Server erstellt und speichert in der Datenbank für beständigen Chat, wenn es zum Senden von Einladungen konfiguriert ist. Sie können mithilfe der Seite **Einstellungen für den Chatroomkategorie** in der Skype Business Server-Systemsteuerung oder mithilfe des Windows PowerShell-Cmdlets **"Set-cspersistentchatcategory"**Einladungen auf die Kategorie verwalten. Sie können Einladungen auf einen Chatroom (in einer Reihe, mit was die Kategorie ermöglicht) mithilfe der Seite **Chatroom-Verwaltung** aus der Skype für Business-Client gestartet oder mithilfe eines Windows PowerShell-Cmdlets **"Set-cspersistentchatroom"**verwalten.
+In der folgenden Tabelle Capacity planning können Sie um die Anzahl von Einladungen zu verstehen, die Persistent Chat Server erstellt und speichert in der Datenbank für beständigen Chat, wenn es zum Senden von Einladungen konfiguriert ist. Sie können mithilfe der Seite **Einstellungen für den Chatroomkategorie** in der Skype Business Server-Systemsteuerung oder mithilfe des Windows PowerShell-Cmdlets **"Set-cspersistentchatcategory"** Einladungen auf die Kategorie verwalten. Sie können Einladungen auf einen Chatroom (in einer Reihe, mit was die Kategorie ermöglicht) mithilfe der Seite **Chatroom-Verwaltung** aus der Skype für Business-Client gestartet oder mithilfe eines Windows PowerShell-Cmdlets **"Set-cspersistentchatroom"** verwalten.
   
 Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die **Einladungsoption** auf der Seite mit den **Chatroomeinstellungen** für 50 % aller Chatrooms auf **Ja** festgelegt ist.
   
 > [!IMPORTANT]
 > Wenn der berechnete Wert für die Anzahl von Einladungen, die der Server generiert, eine Million überschreitet, kann die Serverleistung signifikant beeinträchtigt werden. Um dieses Problem zu vermeiden, achten Sie darauf, dass Sie die Anzahl von Chatrooms minimieren, die zum Senden von Einladungen oder Beschränken der Anzahl der Benutzer, die Chatrooms beitreten können, die zum Senden von Einladungen konfiguriert wurden konfiguriert sind. 
   
-**Den chatroomzugriff über die Einladung-Beispiel**
+**Beispiel für den Chatroomzugriff über eine Einladung**
 
 ||**Kleine Chatrooms**|**Mittlere Chatrooms**|**Große Chatrooms**|**Gesamt**|
 |:-----|:-----|:-----|:-----|:-----|

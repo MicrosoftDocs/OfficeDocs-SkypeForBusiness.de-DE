@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
+ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Linkpräfix auswählen auf die Typen von Hyperlinks, die Sie blockieren, senden eine Warnmeldung oder durch (zu blockieren oder eine Warnmeldung senden) aktivieren oder deaktivieren (zum zulassen) zulassen möchten, wählen die Kontrollkästchen für ihren Erweiterungen aus den Kategorien unter Linkpräfixe. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle linkpräfixe für die Kategorie anzeigen. Wenn Sie alle linkpräfixe für eine Kategorie auswählen möchten, wählen Sie den Namen der Kategorie.
-ms.openlocfilehash: 85b2e240921e18dcb596bf930faf88894f4a5a5e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4fbceccc00d95466190859d6eb8a9be9e5b4134b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964737"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989450"
 ---
 # <a name="select-hyperlink-prefix"></a>Auswählen von Präfixen
  
@@ -26,6 +27,6 @@ Wenn Sie nicht angezeigt, dass ein Hyperlink-Präfix, das Sie aktivieren möchte
   
 Nachdem Sie alle die gewünschten linkpräfixe zur Liste **ausgewählte linkpräfixe** hinzugefügt haben, klicken Sie auf **OK**.
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server](../../../manage/manage.md).
+ 
   
 

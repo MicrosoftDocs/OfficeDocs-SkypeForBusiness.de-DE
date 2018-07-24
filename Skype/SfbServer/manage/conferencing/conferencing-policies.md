@@ -1,32 +1,32 @@
 ---
-title: Verwalten von Konferenzrichtlinien in Skype for Business Server 2015
+title: Verwalten von konferenzrichtlinien in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: 'Zusammenfassung: Informationen Sie zum Verwalten von konferenzrichtlinien in Skype für Business Server 2015.'
-ms.openlocfilehash: 48ae623a9571b848ccb70b377416343eccca0c1c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie konferenzrichtlinien in Skype für Business Server verwalten.'
+ms.openlocfilehash: d5fed0c6615747069d71015fca33144ca41dd64b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986657"
 ---
-# <a name="manage-conferencing-policies-in-skype-for-business-server-2015"></a>Verwalten von Konferenzrichtlinien in Skype for Business Server 2015
+# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Verwalten von konferenzrichtlinien in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Verwalten von konferenzrichtlinien in Skype für Business Server 2015.
+**Zusammenfassung:** Erfahren Sie, wie konferenzrichtlinien in Skype für Business Server verwalten.
   
-In diesem Themenbereich wird die Verwaltung der Konferenzrichtlinien beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) und [Bereitstellen von Konferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+In diesem Themenbereich wird die Verwaltung der Konferenzrichtlinien beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/conferencing.md) und [Konferenzen in Skype für Business Server bereitstellen](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Mit den Konferenzrichtlinien können Sie eine breite Auswahl an Planungs- und Teilnahmeoptionen definieren, von der Verwendung von IP-Audio und -Video in einer Besprechung bis hin zur Höchstzahl der möglichen Teilnehmer. Sie können die Konferenzrichtlinien verwenden, um die Sicherheit, die Bandbreite und die rechtlichen Aspekte von Besprechungen zu verwalten.
   
 Die Konferenzrichtlinie kann auf drei Ebenen definiert werden: auf globaler, auf Standort- und auf Benutzerebene. Die Einstellungen gelten für einen bestimmten Benutzer vom engsten bis hin zum weitesten Bereich. Wenn Sie einem Benutzer eine Richtlinie zuweisen, erhalten diese Einstellungen Vorrang. Wenn Sie keine Benutzerrichtlinie zuweisen, gelten die Standorteinstellungen. Gelten weder Benutzer- noch Standortrichtlinien, stellt die globale Richtlinie die Standardeinstellungen bereit.
   
-Standardmäßig ist eine globale Richtlinie vorhanden, daher können Sie eine neue globale Richtlinie erstellen. Die vorhandene globale Richtlinie auch kann nicht gelöscht werden, aber Sie können die vorhandene globale Richtlinie zum Anpassen Ihrer Standardeinstellungen ändern.
+Eine globale Richtlinie ist standardmäßig vorhanden. Sie können daher keine neue globale Richtlinie erstellen. Außerdem können Sie die vorhandene globale Richtlinie nicht löschen. Es ist jedoch möglich, die vorhandene globale Richtlinie Ihren Standardeinstellungen entsprechend anzupassen.
   
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Verwalten von konferenzrichtlinien mithilfe von Skype Business Server-Systemsteuerung
 

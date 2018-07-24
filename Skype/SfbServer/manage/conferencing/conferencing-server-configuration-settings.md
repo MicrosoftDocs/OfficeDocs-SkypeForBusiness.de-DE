@@ -1,26 +1,26 @@
 ---
-title: Verwalten der Einstellungen der Konferenzserverkonfiguration in Skype for Business Server 2015
+title: Verwalten von Server konferenzkonfigurationseinstellungen in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 'Zusammenfassung: Erfahren Sie, wie Server konferenzkonfigurationseinstellungen in Skype für Business Server 2015 verwalten.'
-ms.openlocfilehash: 88c127acdd569945eddb41e997034e5ea23ea2a6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie Server konferenzkonfigurationseinstellungen in Skype für Business Server verwalten.'
+ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009894"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a>Verwalten der Einstellungen der Konferenzserverkonfiguration in Skype for Business Server 2015
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Verwalten von Server konferenzkonfigurationseinstellungen in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Server konferenzkonfigurationseinstellungen in Skype für Business Server 2015 verwalten.
+**Zusammenfassung:** Erfahren Sie, wie Server konferenzkonfigurationseinstellungen in Skype für Business Server verwalten.
   
-In diesem Themenbereich wird die Verwaltung der Einstellungen der Konferenzkonfiguration beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype für Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) und [Bereitstellen von Konferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+In diesem Themenbereich wird die Verwaltung der Einstellungen der Konferenzkonfiguration beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/conferencing.md) und [Konferenzen in Skype für Business Server bereitstellen](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Konferenzkonfigurationseinstellungen bestimmen anderem als die maximal zulässige Größe für Besprechungsinhalte und Ausdrucke. maximal Bandbreite für die Anwendung Anwendungsfreigabe-Konferenzdienst Speichergrenzwerte und Zeitlimits; die URLs für die interne und externe heruntergeladen unterstützten Clients. Zeiger auf die internen und externen URLs, in dem Benutzer Konferenzen Ressourcen erhalten Sie Hilfe und können; und die verwendeten Ports für die Anwendungsfreigabe, Client-Audio, dateiübertragungen und Mediendatenverkehr. Mit diesen Einstellungen können Sie die aktuellen Server selbst verwalten. Diese Einstellungen können mithilfe von Skype für Business Server-Verwaltungsshell festgelegt werden.
   
@@ -43,7 +43,6 @@ Mit dem folgenden Befehl wird eine neue Auflistung an Konferenzkonfigurationsein
   
 ```
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
-
 ```
 
 Beachten Sie, dass Sie pro Standort nur eine solche Auflistung erstellen können, sodass bei diesem Befehl ein Fehler auftritt, wenn der Standort „Redmond“ bereits über eine Auflistung von Konfigurationseinstellungen für Konferenzen verfügt. 
@@ -60,7 +59,6 @@ Der dritte Befehl verwendet schließlich das Cmdlet **Set-CsConferencingConfigur
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
-
 ```
 
 Wenn Sie das Cmdlet **Set-CsConferencingConfiguration** nicht aufrufen, werden die neuen Richtlinien nie übernommen. Stattdessen gehen sie verloren, sobald Sie die Windows PowerShell-Sitzung beenden oder die Variable „$x“ löschen.

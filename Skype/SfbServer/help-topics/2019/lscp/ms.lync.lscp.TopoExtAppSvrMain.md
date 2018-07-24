@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 9f5e7c73407d7c4d3578f7ff9d1aaf5eec423bd3
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: d415d641e31109626b87d6512dd4350465c88454
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049114"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000162"
 ---
 # <a name="topology-trusted-application"></a>Topologie: Vertrauenswürdige Anwendung
  

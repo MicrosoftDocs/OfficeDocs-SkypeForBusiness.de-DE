@@ -3,18 +3,18 @@ title: Bereitstellung von Skype Room System-Konten in Office 365
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lesen Sie dieses Thema und erfahren Sie, wie Skype Room System-Konten in Office 365 bereitgestellt werden.
-ms.openlocfilehash: be90831eba5f16f5a3b41f4c74c26333bf728926
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 63b195dd2989e6da2d3a2cecdbc76ccff741cd87
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010041"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Bereitstellung von Skype Room System-Konten in Office 365
  
@@ -87,12 +87,22 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 Die oben angegebenen Befehle einrichten oder erstellen ein neues Exchange-Postfach Ressourcenkonto für Skype Raum Systemverwendung werden, da das Konto.
   
 Das Cmdlet Set-CalendarProcessing in Exchange Online PowerShell können Sie nach dem Erstellen des Postfachs an, um das Postfach zu konfigurieren. Mehr dazu erfahren Sie in den Schritten 3–6 unter „Lokale Bereitstellungen mit einzelner Gesamtstruktur“.
+
+## <a name="assigning-a-skype-for-business-online-license"></a>Zuweisen einer Skype for Business Online-Lizenz
+
+Jetzt können Sie einen Skype für Business Online (Plan 2) oder Skype für Business Online (Plan 3) Lizenz zuweisen mithilfe von administrativen Office 365-Portal, wie beschrieben in [zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder [Skype für Business add-on Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+  
+Nachdem Sie eine Lizenz für Skype für Business Online zuweisen, werden Sie können sich anmelden, und überprüfen, dass das Konto verwenden Skype für Business Client aktiv ist.
   
 ## <a name="skype-for-business-online-provisioning"></a>Skype for Business Online-Bereitstellung
 
-Nachdem ein Ressource Postfach Raum erstellt und aktiviert, wie zuvor gezeigt wurde, wird das Konto aus der Gesamtstruktur Exchange Online mit Skype für Business Online Gesamtstruktur synchronisiert werden mithilfe von Windows Azure Active Directory-Gesamtstruktur. Die folgenden Schritte sind erforderlich, das Systemkonto von Skype Raum in der Skype für Business Online Pool bereitstellen. Diese Schritte sind identisch für ein vorhandenes Postfach Ressourcenkonto oder eines neu erstellten Kontos (confrm1 oder confrm2), da Nachdem sie im Exchange Online aktiviert sind, beide Konten zu Skype für Business Online auf die gleiche Weise synchronisiert werden soll:
+Nach einer Ressource Raum-Mail-Konto erstellt und wie zuvor dargestellt aktiviert wurde und Sie haben das Konto für Skype für Business Online das Konto aus der Gesamtstruktur Exchange Online mit Skype für Business Online Gesamtstruktur mithilfe von synchronisiert wird lizenziert der Windows Azure Active Directory-Gesamtstruktur. Die folgenden Schritte sind erforderlich, das Systemkonto von Skype Raum in der Skype für Business Online Pool bereitstellen. Diese Schritte sind identisch für ein vorhandenes Postfach Ressourcenkonto oder eines neu erstellten Kontos (confrm1 oder confrm2), da Nachdem sie im Exchange Online aktiviert sind, beide Konten zu Skype für Business Online auf die gleiche Weise synchronisiert werden soll:
   
-1. Erstellen Sie eine PowerShell-Remotesitzung. Beachten Sie, dass Sie benötigen Skype für Business Online Connectormodul und Microsoft Online Services-Anmeldeassistent herunterladen, und stellen Sie sicher, dass Ihr Computer konfiguriert ist. Weitere Informationen finden Sie unter [Konfigurieren von Your Computer für Lync Online-Verwaltung](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
+<<<<<<< KOPFZEILE
+1. Erstellen Sie eine PowerShell-Remotesitzung. Beachten Sie, dass Sie benötigen Skype für Business Online Connectormodul und Microsoft Online Services-Anmeldeassistent herunterladen, und stellen Sie sicher, dass Ihr Computer konfiguriert ist. Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+=======
+1. Erstellen Sie eine PowerShell-Remotesitzung. Beachten Sie, dass Sie benötigen Skype für Business Online Connectormodul und Microsoft Online Services-Anmeldeassistent herunterladen, und stellen Sie sicher, dass Ihr Computer konfiguriert ist. Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
+>>>>>>> 0a230b02c47ae4de6638a638b76ed38243c71ab9
     
    ```
    Import-Module LyncOnlineConnector
@@ -112,11 +122,6 @@ Nachdem ein Ressource Postfach Raum erstellt und aktiviert, wie zuvor gezeigt wu
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-## <a name="assigning-a-skype-for-business-online-license"></a>Zuweisen einer Skype for Business Online-Lizenz
-
-Nachdem Sie ein Systemkonto von Skype Raum in Skype für Unternehmen aktiviert haben, können Sie einen Skype für Business Online (Plan 2) zuweisen oder Skype für Business Online (Plan 3)-Lizenz mithilfe von administrativen Office 365-Portal, wie beschrieben in [zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in [Skype für Business Add-On-Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
-  
-Nachdem Sie eine Lizenz für Skype für Business Online zuweisen, werden Sie können sich anmelden, und überprüfen, dass das Konto verwenden Skype für Business Client aktiv ist.
   
 ## <a name="password-expiration"></a>Kennwortablauf
 
@@ -135,6 +140,6 @@ In Office 365 sieht die Standardrichtlinie für den Ablauf von Kennwörtern fü
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Weitere Informationen finden Sie unter [Using Windows PowerShell zum Verwalten von Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 

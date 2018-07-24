@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: Sie können die Versionen von Clients angeben, die in Ihrer Umgebung unterstützt werden sollen. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Die größte Nutzung der Features in Skype für Business Server und zur Verbesserung der benutzerfreundlichkeit können den clientversionsfilter Sie um die Clientversionen, die verwendet werden in Ihrer Umgebung zu beschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
-ms.openlocfilehash: 539d0fe24678b9bc9784adf9d3512c1441298010
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Sie können die Versionen von Clients angeben, die in Ihrer Umgebung unterstützt werden sollen. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden.
+ms.openlocfilehash: 2743c62f6fbd692723c4ed9ea464e665a65d0abc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969575"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009694"
 ---
 # <a name="client-version-policy"></a>Clientversionsrichtlinie
  
@@ -26,7 +27,7 @@ Sie können die Versionen von Clients angeben, die in Ihrer Umgebung unterstütz
 
 Auf der Seite **Clientversionsrichtlinie** können Sie die folgenden Aufgaben ausführen:
   
-- Bearbeiten der standardmäßigen Clientversionsrichtlinie (**Global**)
+- Bearbeiten Sie die Standardeinstellung ( **Global**) clientversionsrichtlinie.
     
 - Erstellen von Clientversionsrichtlinien für einen bestimmten Standort oder Pool
     

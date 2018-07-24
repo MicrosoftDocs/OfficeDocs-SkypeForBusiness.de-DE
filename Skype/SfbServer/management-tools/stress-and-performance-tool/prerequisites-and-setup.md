@@ -2,7 +2,7 @@
 title: Voraussetzungen und Setup für Skype for Business Stress and Performance Tool
 ms.author: heidip
 author: microsoftheidi
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Anforderungen oder Voraussetzungen für Skype for Business Server 2015 Stress and Performance Tool. Installieren oder Setup des Stress and Performance Tool.
-ms.openlocfilehash: 9e59c314b546cf0e9204047eb9a86096fbdd5cd8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fbc04202ea9b0719be9b8221d43171d58fe772b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995291"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Voraussetzungen und Setup für Skype for Business Stress and Performance Tool
  
@@ -22,7 +23,7 @@ Anforderungen oder Voraussetzungen für Skype for Business Server 2015 Stress a
   
 Die folgenden Abschnitte enthalten Anforderungen für Hardware, Software und Systemkonfiguration, die Sie beachten müssen, bevor Sie Stress and Performance Tool ausführen:
   
-- [Clientanforderungen für hardware](prerequisites-and-setup.md#ClientHardwareReqs)
+- [Clienthardwareanforderungen](prerequisites-and-setup.md#ClientHardwareReqs)
     
 - [Clientsoftwareanforderungen](prerequisites-and-setup.md#ClientSoftwareReqs)
     

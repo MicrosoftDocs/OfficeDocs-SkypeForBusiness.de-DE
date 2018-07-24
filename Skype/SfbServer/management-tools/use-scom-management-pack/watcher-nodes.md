@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Zusammenfassung: Installieren und Konfigurieren von Watcher-Knoten für Skype für synthetische Transaktionen Business Server.'
-ms.openlocfilehash: 2ba6c6e0ac201d9721d281c87665fe9bf9c0407c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015638"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installieren und Konfigurieren von Monitorknoten
  
@@ -33,7 +34,7 @@ Nähere Informationen über die Vorgehensweise zum Hinzufügen anderer synthetis
   
 Folgende synthetische Transaktionen sind für Monitorknoten verfügbar:
   
-|**Cmdlet-Name (Testname)**|**Beschreibung**|
+|**Name des Cmdlets (Name des Tests)**|**Beschreibung**|
 |:-----|:-----|
 |Test-CsAddressBookService (ABS)  <br/> |Bestätigt, dass Benutzer können Benutzer nachzuschlagen, die nicht in ihrer Kontaktliste stehen.  <br/> |
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |Bestätigt, dass Benutzer können Benutzer nachzuschlagen, die nicht in ihrer Kontaktliste über HTTP sind.  <br/> |
@@ -52,12 +53,12 @@ Folgende synthetische Transaktionen sind für Monitorknoten verfügbar:
 |Test-CsExumConnectivity (ExumConnectivity)  <br/> |Bestätigt, dass ein Benutzer eine Verbindung zu Exchange Unified Messaging (UM) herstellen kann.  <br/> |
 |Mit Test-CsGroupIM - TestJoinLauncher (JoinLauncher)  <br/> |Überprüft, ob Benutzer geplante Besprechungen erstellen und an geplanten Besprechungen teilnehmen können (über einen Weblink).  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Überprüft, ob Benutzer mit Mobilgeräten in der Lage sind, sich zu registrieren und Chatnachrichten zu senden.  <br/> |
-|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Überprüft, ob Interop-Video-Server ist nicht gedrückt und eingehende Verbindungen über einen SIP-Trunk video behandeln können.  <br/> |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Überprüft, ob Interop-Video-Server ist nicht gedrückt und eingehende Verbindungen über einen SIP-Trunk video behandeln können.  <br/> **Hinweis:** MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. |
 |Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Überprüft, ob Benutzer über den Dienst für beständigen Chat Sprachnachrichten austauschen können.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Überprüft, ob Benutzer über das Internet an Konferenzen teilnehmen können.  <br/> |
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Überprüft, ob die Kontakte eines Benutzers über den einheitlichen Kontaktspeicher zugänglich sind. Dem einheitlichen Kontaktspeicher bietet eine Möglichkeit für Benutzer, die einen einzelnen Satz von Kontakten vorhalten, die mithilfe von Skype für Business Server 2015, Outlook messaging und Collaboration-Client und/oder Outlook Web Access zugegriffen werden kann.  <br/> |
-|Test-CsXmppIM (XmppIM)  <br/> |Überprüft, ob eine Chatnachricht über das XMPP-Gateway (Extensible Messaging and Presence Protocol) gesendet werden kann.  <br/> |
-   
+|Test-CsXmppIM (XmppIM)  <br/> |Überprüft, ob eine Chatnachricht über das XMPP-Gateway (Extensible Messaging and Presence Protocol) gesendet werden kann.  <br/> XMPP-Gateways und -Proxys werden stehen in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype für Business Server 2019.  |
+
 Sie müssen nicht Watcher-Knoten, um mithilfe von System Center Operations Manager installieren. Wenn Sie diese Knoten nicht installieren, können Sie weiterhin abrufen in Echtzeit Benachrichtigungen von Skype für Business Server 2015 Komponenten Wenn ein Problem auftritt. (Der Komponente und User Management Pack verwendet keine Watcher-Knoten.) Watcher-Knoten sind jedoch erforderlich, wenn Sie die End-to-End-Szenarien mithilfe des aktiven Monitoring Management Packs überwachen möchten.
   
 > [!NOTE]
@@ -152,8 +153,8 @@ Beim Konfigurieren eines Monitorknotens müssen Sie außerdem die Authentifizier
   
 ||**Beschreibung**|**Unterstützte Standorte**|
 |:-----|:-----|:-----|
-|TrustedServer  <br/> |Verwendet ein Zertifikat zum Identitätswechsel für einen internen Server und die authentifizierungsaufforderungen zu umgehen.  <br/> Hilfreich für Administratoren, die es vorziehen, ein einzelnes Zertifikat anstelle vieler Benutzerkennwörter auf jedem Watcher-Knoten zu verwalten.  <br/> |Innerhalb des Unternehmens.  <br/> Bei dieser Methode muss sich der Monitorknoten in derselben Domäne wie die überwachten Pools befinden. Falls sich der Monitorknoten und die Pools in unterschiedlichen Domänen befinden, verwenden Sie stattdessen die Authentifizierung mit Anmeldeinformationen.  <br/> |
-|Negotiate  <br/> |Speichert Benutzernamen und Kennwörter sicher in der Windows-Anmeldeinformationsverwaltung auf jedem Watcher-Knoten.  <br/> Dieser Modus erfordert einen höheren Kennwortverwaltungsaufwand, ist aber die einzige Option für Monitorknoten außerhalb des Unternehmens. Diese Monitorknoten können nicht als vertrauenswürdiger Endpunkt für die Authentifizierung betrachtet werden.  <br/> |Außerhalb des Unternehmens.  <br/> Innerhalb des Unternehmens.  <br/> |
+|TrustedServer  <br/> |Ein Zertifikat wird verwendet, um die Identität eines internen Servers anzunehmen und die Authentifizierungsaufforderungen zu umgehen.  <br/> Eignet sich für Administratoren, die es vorziehen, ein einzelnes Zertifikat anstelle vieler Benutzerkennwörter auf jedem Monitorknoten zu verwalten.  <br/> |Innerhalb des Unternehmens.  <br/> Bei dieser Methode muss sich der Monitorknoten in derselben Domäne wie die überwachten Pools befinden. Falls sich der Monitorknoten und die Pools in unterschiedlichen Domänen befinden, verwenden Sie stattdessen die Authentifizierung mit Anmeldeinformationen.  <br/> |
+|Negotiate  <br/> |Benutzernamen und Kennwörter werden auf sichere Weise in der Windows-Anmeldeinformationsverwaltung auf jedem Monitorknoten gespeichert.  <br/> Dieser Modus erfordert einen höheren Kennwortverwaltungsaufwand, ist aber die einzige Option für Monitorknoten außerhalb des Unternehmens. Diese Monitorknoten können nicht als vertrauenswürdiger Endpunkt für die Authentifizierung betrachtet werden.  <br/> |Außerhalb des Unternehmens.  <br/> Innerhalb des Unternehmens.  <br/> |
    
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>Konfigurieren eines Monitorknotens für die Verwendung der Authentifizierung über vertrauenswürdige Server
 <a name="enable_synthetic_trans"> </a>
@@ -163,7 +164,7 @@ Wenn sich Ihr Monitorknotencomputer innerhalb des Umkreisnetzwerks befindet, kö
 Zum Konfigurieren der Authentifizierung über vertrauenswürdige Server müssen Sie zuerst einen vertrauenswürdigen Anwendungspool zum Hosten des Monitorknotencomputers erstellen. Nachdem Sie den vertrauenswürdigen Anwendungspool erstellt haben, müssen Sie synthetische Transaktionen klicken Sie dann auf diese Watcher-Knoten zum Ausführen als vertrauenswürdige Anwendungen konfigurieren.
   
 > [!NOTE]
-> Eine vertrauenswürdige Anwendung ist eine Anwendung, die als vertrauenswürdig eingestuft zum Ausführen als Teil des Skype für Business Server 2015 erhält, aber nicht integrierter Bestandteil des Produkts ist. Vertrauenswürdige Status bedeutet, dass die Anwendung nicht für die Authentifizierung bei jedem angefordert wird ausgeführt werden soll.
+> Eine vertrauenswürdige Anwendung ist eine Anwendung, die als vertrauenswürdig eingestuft zum Ausführen als Teil des Skype für Business Server 2015 erhält, aber nicht integrierter Bestandteil des Produkts ist. Vertrauensstatus bedeutet, dass nicht bei jeder Ausführung der Anwendung eine Authentifizierung angefordert wird.
   
 Um einen vertrauenswürdigen Anwendungspool zu erstellen, öffnen Sie die Skype für Business Server-Verwaltungsshell, und führen Sie einen Befehl wie den folgenden:
   

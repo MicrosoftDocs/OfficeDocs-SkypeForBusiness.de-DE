@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
+ROBOTS: NOINDEX, NOFOLLOW
 description: Agents sind Benutzer, die Annahme von Anrufen für Reaktionsgruppen vorgesehen sind. Reaktionsgruppen müssen über eine zugewiesene Agentgruppe verfügen, in der die Agents angegeben sind, die Anrufe für die Reaktionsgruppe entgegennehmen können. Eine Möglichkeit zur Erstellung einer Agentgruppe ist die Definition einer benutzerdefinierten Gruppe, indem geeignete Benutzer ausgewählt werden. Berechtigte Benutzern sind für Skype für Business Server und Enterprise-VoIP aktiviert.
-ms.openlocfilehash: b8d4071bca715712e7f90f3e7fcad64db0367ac7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c1455dcb42a13ebd9a4edc6b922a5ff3d14a94aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976471"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989471"
 ---
 # <a name="select-agents"></a>Auswählen von Agents
  

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 5e9e916283bf36e0d81af41477920ba19e13e9a8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8b11d82a1f5ea167e3149afbd819149de86b6302
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995326"
 ---
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
  
@@ -28,9 +29,9 @@ Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Server
     
 - Edgeserver-Konfiguration
     
-## 
 
-### <a name="general-settings"></a>Allgemeine Einstellungen
+
+## <a name="general-settings"></a>Allgemeine Einstellungen
 
 Vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools für den Edgeserverpool. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.
   
@@ -40,11 +41,11 @@ Wählen Sie **XMPP-Partnerverbund für diesen Edgepool aktivieren** aus, um den 
   
 Geben Sie die Portnummer unter **Interner Port für die Konfigurationsreplikation (HTTPS)** an.
   
-### <a name="next-hop-selection-settings"></a>Einstellungen für nächsten Hop
+## <a name="next-hop-selection-settings"></a>Einstellungen für nächsten Hop
 
 Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus dem Dropdown-Listenfeld aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll. Nur Directors oder -Front-Ends, die im Topologie-Generator konfiguriert wurden, wird für die Auswahl angezeigt.
   
-### <a name="edge-server-configuration"></a>Edgeserver-Konfiguration
+## <a name="edge-server-configuration"></a>Edgeserver-Konfiguration
 
 Um die externen Einstellungen**** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst festlegen, ob separate IP-Adressen für den SIP-Zugriff, die Webkonferenzfunktion und den A/V-Dienst verwendet werden.
   
@@ -60,7 +61,7 @@ Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige 
 > [!IMPORTANT]
 > Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen. 
   
-### 
+## <a name="see-also"></a>Siehe auch
 
 Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
   

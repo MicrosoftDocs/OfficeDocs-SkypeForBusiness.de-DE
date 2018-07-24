@@ -1,27 +1,27 @@
 ---
-title: Konfigurieren des Mobilitätsdienstes für hohe Leistung in Skype for Business Server 2015
+title: Konfigurieren von Mobility Service für hohe Leistung in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-description: 'Zusammenfassung: Informationen Sie zu den Mobilitätsdienst in Skype für Business Server 2015.'
-ms.openlocfilehash: 12f64ed75195bb94365686d76cdfca841e6c9c8e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Mobilitätsdienst in Skype für Business Server.'
+ms.openlocfilehash: 5031d34a2fdcb1610325afbf58c5524a0ee28ca8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026806"
 ---
-# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server-2015"></a>Konfigurieren des Mobilitätsdienstes für hohe Leistung in Skype for Business Server 2015
+# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Konfigurieren von Mobility Service für hohe Leistung in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Mobilitätsdienst in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Mobilitätsdienst in Skype für Business Server.
   
 > [!IMPORTANT]
-> Dieses Thema bezieht sich nur auf die Skype für Business Server 2015 Mobility Service ("MCX") und bezieht sich nicht auf Unified Communications Web API (UCWA), wie in den kumulativen Updates für Lync Server 2013 übermittelt: für Februar 2013. 
+> Dieses Thema bezieht sich nur auf die Skype für Business Server Mobility Service ("MCX") und bezieht sich nicht auf Unified Communications Web API (UCWA), wie in den kumulativen Updates für Lync Server 2013 übermittelt: für Februar 2013. 
   
 Wenn Sie den Mobilitätsdienst ("MCX") auf Internetinformationsdienste (IIS) 7.5 installieren, wird das Installationsprogramm Mobility Service einige Leistungseinstellungen auf dem Front-End-Server konfiguriert. Es wird empfohlen, IIS 7.5 für die Mobilität zu verwenden. Diese Einstellungen wirken sich auf die maximale Anzahl gleichzeitiger Benutzeranforderungen und die maximale Anzahl von Threads aus, die für den Mobilitätsdienst zulässig sind.
   

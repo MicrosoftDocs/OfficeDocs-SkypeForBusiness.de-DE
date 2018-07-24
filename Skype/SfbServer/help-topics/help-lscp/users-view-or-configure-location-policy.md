@@ -3,7 +3,7 @@ title: Benutzer anzeigen oder Konfigurieren von Ortungsrichtlinien
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: f5c200f30aa5a8b3ab73325122384e265a0d9df8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9af3182dbdbb3ead2e2a5473dcf50431f5ff2a59
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997257"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Ortungsrichtlinien
  

@@ -1,27 +1,26 @@
 ---
-title: Anruflistenbericht für Reaktionsgruppen in Skype for Business Server 2015
+title: Reaktionsgruppe Anruflistenbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Zusammenfassung: Erfahren Sie mehr über die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015.'
-ms.openlocfilehash: 6f7d2938f02b84942b2dc09e4fc3058ab6ee63db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Erfahren Sie mehr über die Anwendung "Reaktionsgruppe" in Skype für Business Server.'
+ms.openlocfilehash: 90806465f3de57d30701eaf541f7ca685be180d3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568999"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997243"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server-2015"></a>Anruflistenbericht für Reaktionsgruppen in Skype for Business Server 2015
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Reaktionsgruppe Anruflistenbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu der Anwendung "Reaktionsgruppe" in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu der Anwendung "Reaktionsgruppe" in Skype für Business Server.
   
-Die Anwendung "Reaktionsgruppe" bietet eine Möglichkeit für Skype für Business Server 2015 beantworten und Route Telefonanrufe basierend auf die Nummer, die gewählt wurde und, optional, die Antworten des Anrufers zu einer Reihe von Fragen. Normalerweise werden Reaktionsgruppenanrufe nicht an eine Einzelperson, sondern an ein Personenteam weitergeleitet, das als Agentgruppe bezeichnet wird. Angenommen, wenn die Telefonnummer für Ihr Helpdesk angerufen werden, kann Skype für Business Server 2015 automatisch dieses Aufrufs an den ersten verfügbaren Helpdesk-Agent weiterleiten. Alternativ kann Skype für Business Server bitten Sie eine Reihe von Fragen ("drücken Sie 1, wenn Sie die Hardware Probleme auftreten. Wenn Sie Softwareprobleme haben, drücken Sie die 2. Drücken Sie 3 Wenn Netzwerkprobleme auftreten.") und klicken Sie dann den Anruf an die am besten geeignete Hilfe Desk Agent basierend auf die Antwort auf diese Fragen weiterleiten.
+Die Anwendung "Reaktionsgruppe" bietet eine Möglichkeit für Skype für Business Server beantworten und Route Telefonanrufe basierend auf die Nummer, die gewählt wurde und, optional, die Antworten des Anrufers zu einer Reihe von Fragen. Normalerweise werden Reaktionsgruppenanrufe nicht an eine Einzelperson, sondern an ein Personenteam weitergeleitet, das als Agentgruppe bezeichnet wird. Angenommen, wenn die Telefonnummer für Ihr Helpdesk angerufen werden, kann Skype für Business Server automatisch dieses Aufrufs an den ersten verfügbaren Helpdesk-Agent weiterleiten. Alternativ kann Skype für Business Server bitten Sie eine Reihe von Fragen ("drücken Sie 1, wenn Sie die Hardware Probleme auftreten. Wenn Sie Softwareprobleme haben, drücken Sie die 2. Drücken Sie 3 Wenn Netzwerkprobleme auftreten.") und klicken Sie dann den Anruf an die am besten geeignete Hilfe Desk Agent basierend auf die Antwort auf diese Fragen weiterleiten.
   
 Der Anruflistenbericht für Reaktionsgruppen stellt eine Sammlung von Anrufen dar, die über einen bestimmten Zeitraum und für einen bestimmten Anruftyp getätigt wurden. Im Reaktionsgruppen-Verwendungsbericht (der zuerst geöffnet werden muss, bevor Sie den Anruflistenbericht für Reaktionsgruppen öffnen können) werden die folgenden Anruftypen erkannt:
   
@@ -39,7 +38,7 @@ Der Anruflistenbericht für Reaktionsgruppen stellt eine Sammlung von Anrufen da
     
 ## <a name="accessing-the-response-group-call-list-report"></a>Zugreifen auf den Anruflistenbericht für Reaktionsgruppen
 
-Response Group Call List Report kann nur zugegriffen werden, indem Sie auf eine der folgenden Metriken im [Response Group Usage Report in Skype für Business Server 2015](response-group-usage-report.md)gefunden:
+Response Group Call List Report kann nur zugegriffen werden, indem Sie auf eine der folgenden Metriken im [Response Group Usage Report in Skype für Business Server](response-group-usage-report.md)gefunden:
   
 - Empfangene Anrufe
     
@@ -55,7 +54,7 @@ Response Group Call List Report kann nur zugegriffen werden, indem Sie auf eine 
 
 Mithilfe des Anruflistenberichts für Reaktionsgruppen können Sie die angezeigten Daten auf Anrufe mit einem bestimmten Reaktionsgruppenworkflow beschränken. Dazu müssen Sie im Feld „Workflow-URI“ den Workflow-URI (die SIP-Adresse des Workflows) eingeben. Bevor Sie dies tun können, muss das Feld „Workflow-URI“ tatsächlich angezeigt werden. Wenn Sie die Filteroptionen für den Anruflistenbericht für Reaktionsgruppen anzeigen möchten, klicken Sie im oberen linken Teil des Berichtsfensters auf die Schaltfläche „Parameter ein-/ausblenden“.
   
-Beachten Sie, dass im Anruflistenbericht für Reaktionsgruppen keine Informationen zum Antwortcode oder zur Diagnose-ID angezeigt werden, wenn Sie die Maus über eine dieser Metriken halten. Wenn Sie weitere Informationen benötigen, können Sie beachten Sie die Antwortcode und/oder Diagnose-ID, und klicken Sie dann für diese Werte im [Bericht über häufigste-Fehler in Skype für Business Server 2015](top-failures-report.md)suchen.
+Beachten Sie, dass im Anruflistenbericht für Reaktionsgruppen keine Informationen zum Antwortcode oder zur Diagnose-ID angezeigt werden, wenn Sie die Maus über eine dieser Metriken halten. Wenn Sie weitere Informationen benötigen, können Sie beachten Sie die Antwortcode und/oder Diagnose-ID, und klicken Sie dann für diese Werte im [Bericht über häufigste-Fehler in Skype für Business Server](top-failures-report.md)suchen.
   
 Bei einer Frage wie „Welcher Einzelworkflow hat die meisten Anrufe empfangen?“ können Sie die folgenden Aktionen ausführen:
   
@@ -88,7 +87,7 @@ Count    Name
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Anruflistenbericht für Reaktionsgruppen verwenden können.
   
-**Filter für Reaktionsgruppen den Anruflistenbericht**
+**Filter für den Anruflistenbericht für Reaktionsgruppen**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -101,9 +100,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
 
 In der folgenden Tabelle sind die im Anruflistenbericht für Reaktionsgruppen für jeden Anruf, der von der Reaktionsgruppenanwendung empfangen wurde, bereitgestellten Informationen aufgelistet.
   
-**Metriken für Reaktionsgruppen den Anruflistenbericht**
+**Metriken für den Anruflistenbericht für Reaktionsgruppen**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anrufer** <br/> |Nein  <br/> |SIP-Adresse des Anrufers.  <br/> |
 |**Workflow** <br/> |Nein  <br/> |SIP-Adresse des Reaktionsgruppenworkflows.  <br/> |

@@ -3,18 +3,19 @@ title: Beispiele für QoE-Datenbankabfragen
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Dieser Abschnitt enthält Beispielabfragen für die Quality of Experience (QoE)-Datenbank.
-ms.openlocfilehash: 20ca6bc8aea6035ebe27fc5f77d512464cd82dcc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c66d0fdc51ee3382034f5fba1e98f93a8799f312
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020597"
 ---
 # <a name="sample-qoe-database-queries"></a>Beispiele für QoE-Datenbankabfragen
  
@@ -37,7 +38,6 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and m.MediaLineLabel = 0 -- audio media line
    and s.CallerUserAgentType = 4 -- Lync
    and s.CalleeUserAgentType = 4 -- Lync
-
 ```
 
 Mithilfe des folgenden Beispiels können Sie Conversationalmos, SendingMOS und Listeningmos pro Aufnahmegerät abrufen.
@@ -65,7 +65,4 @@ from
 )as t
 group by t.DeviceName
 order by SampleNum desc
-
 ```
-
-

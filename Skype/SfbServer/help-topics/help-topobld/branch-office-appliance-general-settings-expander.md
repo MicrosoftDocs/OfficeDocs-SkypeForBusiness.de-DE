@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Zum Bearbeiten der Einstellungen für eine vorhandene Survivable Branch Appliance oder einen Survivable Branch Server werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 1f0c1b47d0ea042f29172f4557ef78db42f83216
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8994bb04234242021149f1155fde8dfa0b62a223
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000984"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Allgemeine Einstellungen für Filialanwendungen – Erweiterung
  
@@ -28,11 +29,11 @@ Zum Bearbeiten der Einstellungen für eine vorhandene Survivable Branch Applianc
     
 - Vermittlungsservereinstellungen
     
-## 
+
 
 Für eine Survivable Branch Appliance oder einen Survivable Branch Server werden Sie durch Folgendes angezeigt:
   
-### <a name="general-settings"></a>Allgemeine Einstellungen
+## <a name="general-settings"></a>Allgemeine Einstellungen
 
 Der vollqualifizierte Domänenname (FQDN) des Survivable Branch Appliance oder einen Survivable Branch Server. Bearbeiten Sie den FQDN des Servers, um den Wert zu ändern. Sie müssen über einen DNS-A-Eintrag (Domain Name System) verfügen, der mit dem neuen Wert übereinstimmt.
   
@@ -49,7 +50,7 @@ In **Zuordnungen** können Sie Folgendes bearbeiten oder angeben:
     
 - Ordnen Sie die Edge-Pool Ihnen die bietet Auswahl der Survivable Branch Appliance oder Survivable Branch Server ein Edge-Server oder Pool zuzuordnen. Sie können in der Dropdownliste einen bereits definierten Edgeserver oder -pool auswählen oder auf **Neu** klicken, um einen neuen Edgeserver oder -pool anzugeben.
     
-### <a name="resiliency"></a>Flexibilität
+## <a name="resiliency"></a>Flexibilität
 
 Dank der Flexibilität (Ausfallsicherheit) ist die hohe Verfügbarkeit des Registrierungspools gewährleistet. Durch Bereitstellung einer Sicherungsregistrierungsstelle für den Fall eines Ausfalls der primären Registrierungsstelle kann die Sicherungsregistrierungsstelle die Aufgabe der ausgefallenen Registrierung übernehmen und Benutzern die Anmeldung und Kommunikation ermöglichen. Bei Benutzern kann es, je nachdem, welche Systeme mit der primären Registrierung ausgefallen sind, möglicherweise zu einer eingeschränkten Funktionalität kommen.
   
@@ -58,7 +59,7 @@ Wählen Sie aus der Dropdownliste den Enterprise Edition-Front-End-Pool oder Sta
 > [!IMPORTANT]
 > Bei der Erkennung von Fehlern und das fallback Intervall definieren, werden Sie nicht, die ein Intervall angeben, der bewirkt das Failover und fallback eintritt, wenn die Registrierung nicht für ein kurzer Zeit reagiert. Es ist möglich, dass die primäre Registrierungsstelle für kurze Zeit, basierend auf das Laden des Pools oder Servern nicht reagieren kann. Die Standardwerte für eine Survivable Branch Appliance oder einen Survivable Branch Server in einer Website in einen Pool oder Standard Edition-Front-End-Server ist für Failover und 240 Sekunden für Fallback 120 Sekunden. 
   
-### <a name="mediation-server"></a>Vermittlungsserver
+## <a name="mediation-server"></a>Vermittlungsserver
 
 Für **Vermittlungsserver** können Sie Folgendes angeben:
   
@@ -70,7 +71,7 @@ Definieren Sie PSTN-Gateways, die dem verbundenen Vermittlungsserver zugeordnet 
   
 Wenn Sie mehr als ein Gateway einen Vermittlungsserver zugeordnet haben, wird das erste Gateway verknüpften Standardgateway sein. Wenn Sie ein anderes Gateway als Standardgateway auswählen müssen, wählen Sie das gewünschte Gateway aus, und klicken Sie auf **Als Standard**.
   
-### 
+## <a name="see-also"></a>Siehe auch
 
 Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Survivable Branch Appliance oder einen Survivable Branch Server finden Sie unter [Branch-Site Resiliency Solutions](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
   

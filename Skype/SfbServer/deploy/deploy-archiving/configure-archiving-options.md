@@ -1,24 +1,24 @@
 ---
-title: Konfigurieren von Archivierungsoptionen für Skype for Business Server 2015
+title: Konfigurieren von Archivierungsoptionen für Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren der anfänglichen Archivierungsoptionen für Skype für Business Server 2015. Zunächst eingerichtet werden Archivierungskonfigurationen, wenn Sie die Archivierung bereitstellen, jedoch können Sie ändern, hinzufügen und Löschen von Konfigurationen nach der Bereitstellung.'
-ms.openlocfilehash: 38923d436f2fc5543158dfce6f8bebde27c7c911
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie die ursprüngliche Archivierungsoptionen für Skype für Business Server konfigurieren. Zunächst eingerichtet werden Archivierungskonfigurationen, wenn Sie die Archivierung bereitstellen, jedoch können Sie ändern, hinzufügen und Löschen von Konfigurationen nach der Bereitstellung.'
+ms.openlocfilehash: 186ebae95c3d4d27ef634c0ca9ae1bc99bbfa253
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020414"
 ---
-# <a name="configure-archiving-options-for-skype-for-business-server-2015"></a>Konfigurieren von Archivierungsoptionen für Skype for Business Server 2015
+# <a name="configure-archiving-options-for-skype-for-business-server"></a>Konfigurieren von Archivierungsoptionen für Skype für Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zum Konfigurieren der anfänglichen Archivierungsoptionen für Skype für Business Server 2015. Zunächst eingerichtet werden Archivierungskonfigurationen, wenn Sie die Archivierung bereitstellen, jedoch können Sie ändern, hinzufügen und Löschen von Konfigurationen nach der Bereitstellung.
+**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie die ursprüngliche Archivierungsoptionen für Skype für Business Server konfigurieren. Zunächst eingerichtet werden Archivierungskonfigurationen, wenn Sie die Archivierung bereitstellen, jedoch können Sie ändern, hinzufügen und Löschen von Konfigurationen nach der Bereitstellung.
   
 Konfiguration verwenden anfänglichen Archivierungskonfigurationen, Sie Skype Business Server-Systemsteuerung Folgendes an:
   
@@ -45,7 +45,7 @@ Sie müssen Optionen für Folgendes konfigurieren:
 > [!NOTE]
 > Sie sollten alle entsprechenden Optionen angeben, bevor Sie die Archivierung aktivieren. 
   
-Weitere Informationen dazu, wie Sie Archivierung Konfigurationen implementiert werden, einschließlich der Optionen, die Sie angeben können, und die Hierarchie der Archivierungskonfigurationen, finden Sie unter [Plan für die Archivierung in Skype für Business Server 2015](../../plan-your-deployment/archiving/archiving.md). Ausführliche Informationen zum Verwalten von Konfigurationen nach der Bereitstellung mithilfe der Systemsteuerung oder mithilfe von Windows PowerShell, finden Sie unter [Manage Archivierungsoptionen in Skype für Business Server 2015](../../manage/archiving/options.md).
+Weitere Informationen dazu, wie Sie Archivierung Konfigurationen implementiert werden, einschließlich der Optionen, die Sie angeben können, und die Hierarchie der Archivierungskonfigurationen, finden Sie unter [Plan für die Archivierung in Skype für Business Server](../../plan-your-deployment/archiving/archiving.md). Ausführliche Informationen zum Verwalten von Konfigurationen nach der Bereitstellung mithilfe der Systemsteuerung oder mithilfe von Windows PowerShell, finden Sie unter [Archivierungsoptionen in Skype für Business Server verwalten](../../manage/archiving/options.md).
   
 ## <a name="configure-global-level-archiving-options"></a>Konfigurieren von Archivierungsoptionen auf globaler Ebene
 

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: Um anzufordern, zuweisen möchten, entfernen oder Zertifikate anzuzeigen, verwenden Sie den Zertifikat-Assistenten. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Zum Anfordern eines Zertifikats aus Ihrer Organisation public Key-Infrastruktur (PKI), müssen Sie bestätigen was zusätzliche – falls zutreffend – Gruppenmitgliedschaften, die Sie benötigen. Während des Vorgangs Anforderung können Sie alternative Anmeldeinformationen eingeben, die zum anfordern, dass das Zertifikat von Ihrem PKI Zertifizierungsstelle Ausstellen des verwendet werden.
-ms.openlocfilehash: 5216b190aafc095f00cd66e931c84caebd115a69
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernenund anzeigen. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Zum Anfordern eines Zertifikats aus Ihrer Organisation public Key-Infrastruktur (PKI), müssen Sie bestätigen was zusätzliche – falls zutreffend – Gruppenmitgliedschaften, die Sie benötigen. Während des Vorgangs Anforderung können Sie alternative Anmeldeinformationen eingeben, die zum anfordern, dass das Zertifikat von Ihrem PKI Zertifizierungsstelle Ausstellen des verwendet werden.
+ms.openlocfilehash: 6254ae2601387fa7ef6c6900fe7479db9d7c6ee3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997038"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001461"
 ---
 # <a name="certificate-wizard"></a>Zertifikat-Assistent
  

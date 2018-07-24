@@ -1,29 +1,28 @@
 ---
-title: Verwalten der Zugriffsnummern für Einwahlkonferenzen in Skype for Business Server 2015
+title: 'Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server '
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Zusammenfassung: Informationen Sie zum Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server 2015.'
-ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Informationen Sie zum Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server.'
+ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569435"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008188"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>Verwalten der Zugriffsnummern für Einwahlkonferenzen in Skype for Business Server 2015
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server 2015.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie Zugriffsnummern für einwahlkonferenzen in Skype für Business Server verwalten.
   
 Beim Bereitstellen von Einwahlkonferenzen müssen Sie Telefonnummern einrichten, die Benutzer aus dem Telefonfestnetz (Public Switched Telephone Network, PSTN) wählen können, um am Audioteil einer Konferenz teilzunehmen. Diese Zugriffsnummern für die Einwahl werden in Besprechungseinladungen und auf der Webseite mit den Einstellungen für Einwahlkonferenzen angezeigt. 
   
-In diesem Themenbereich wird beschrieben, wie bestehende Zugriffsnummern für Einwahlkonferenzen angezeigt, geändert oder gelöscht werden. Weitere Informationen zum Erstellen der anfänglichen Einwahl Zugriffsnummern finden Sie unter [Configure einwahlkonferenzen in Skype für Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+In diesem Themenbereich wird beschrieben, wie bestehende Zugriffsnummern für Einwahlkonferenzen angezeigt, geändert oder gelöscht werden. Weitere Informationen zum Erstellen der anfänglichen Einwahl Zugriffsnummern finden Sie unter [Configure einwahlkonferenzen in Skype für Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Anzeigen von Zugriffsnummern für Einwahlkonferenzen
 
@@ -122,7 +121,7 @@ Sie können die Zugriffsnummer für Einwahl-Zugriffsnummern mithilfe von Skype B
     
     Sie können für jede Zugriffsnummer für die Einwahl bis zu vier sekundäre Sprachen auswählen. Benutzer können beim Einwählen in eine Konferenz eine sekundäre Sprache auswählen, bevor sie die Konferenz-ID eingeben.
     
-12. Hinzufügen eine Region für die Anzahl DFÜ-Zugriff unter **zugeordnete Regionen**, klicken Sie auf ** Hinzufügen **, klicken Sie auf einen oder mehrere Bereiche, die für diese Nummer Einwahlnummern Wählpläne zugeordnet sind, und klicken Sie dann auf **OK**.
+12. Klicken Sie auf **Hinzufügen**, klicken Sie auf einen oder mehrere Bereiche, die für diese Nummer Einwahlnummern Wählpläne zugeordnet sind, und klicken Sie dann auf **OK**, um eine Region für die Anzahl DFÜ-Zugriff unter **zugeordnete Regionen**, hinzuzufügen.
     
 13. Zum Löschen einer Region aus der Einwahlnummer klicken Sie unter **Zugeordnete Regionen** auf die zu löschende Region und anschließend auf **Entfernen**.
     
@@ -152,7 +151,7 @@ Sie können eine Zugriffsnummer für einwahlkonferenzen mithilfe von Skype Busin
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Löschen einer Zugriffsnummer für einwahlkonferenzen mithilfe von Skype Business Server-Systemsteuerung
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2.  Öffnen von Skype Business Server-Systemsteuerung.
     

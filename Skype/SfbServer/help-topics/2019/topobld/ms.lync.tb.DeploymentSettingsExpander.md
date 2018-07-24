@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:'
-ms.openlocfilehash: e2ead1d674d6cfd3b01854d3ec0ca7bafd353b15
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2784a1c2f21699a3d5cc30b2fcfba76bf1d3338c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991578"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027240"
 ---
 # <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
  
@@ -71,7 +71,6 @@ Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in eine
   
 Ausführliche Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Windows PowerShell-Cmdlet-Referenz.
   
-## 
 
 Ausführliche Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [definieren und Konfigurieren der Topologie](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
   

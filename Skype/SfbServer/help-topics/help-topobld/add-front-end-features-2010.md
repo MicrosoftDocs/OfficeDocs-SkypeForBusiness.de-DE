@@ -3,7 +3,7 @@ title: Hinzufügen von Front-End-Funktionen 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: Wählen Sie alle Funktionen, die Sie für den Front-End-Pool aktivieren möchten. Zumindest müssen Sie bereitstellen, Sofortnachrichten (IM), die ist standardmäßig aktiviert und kann nicht deaktiviert werden. Außerdem haben die Möglichkeit, über die Bereitstellung von anderen Features wie Enterprise-VoIP-Konferenzen und anrufsteuerung (CAC). Einige Features sind abhängig von Ihrer Topologie.
-ms.openlocfilehash: f0f9933d029a63f534e1ed94d8e4179d98594226
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5b7385003a763f549f39d3b7c156a74b425f380f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001965"
 ---
 # <a name="add-front-end-features-2010"></a>Hinzufügen von Front-End-Funktionen 2010
  

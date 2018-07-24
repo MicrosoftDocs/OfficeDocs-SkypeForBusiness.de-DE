@@ -1,9 +1,8 @@
 ---
-title: Skype for Business Server 2015-Verwaltungsshell
+title: Skype for Business Server-Verwaltungsshell
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: Die Skype für Business Server-Verwaltungsshell bietet die Befehlszeilenschnittstelle für Serveradministration und Verwaltung. Sie basiert auf Windows PowerShell und enthält einen umfassenden Satz von Verwaltungsaufgaben -Cmdlets, die speziell für Skype und älterer Lync Server-Produkten.
-ms.openlocfilehash: e4eb5f183af29dd5f9932fb15cdb86a0f78e7840
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 34bf761cfa6d9cfe648360319084b3a304d9f6e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997356"
 ---
-# <a name="skype-for-business-server-2015-management-shell"></a>Skype for Business Server 2015-Verwaltungsshell
+# <a name="skype-for-business-server-management-shell"></a>Skype for Business Server-Verwaltungsshell
  
 Die Skype für Business Server-Verwaltungsshell bietet die Befehlszeilenschnittstelle für Serveradministration und Verwaltung. Sie basiert auf Windows PowerShell und enthält einen umfassenden Satz von Verwaltungsaufgaben -Cmdlets, die speziell für Skype und älterer Lync Server-Produkten.
   
@@ -26,7 +26,7 @@ Windows PowerShell können Sie Microsoft-Anwendungen über die Befehlszeile zu v
 > [!NOTE]
 > Skype für Business-Cmdlet-Referenz verschoben zu docs.microsoft.com. Durch Klicken auf die unten aufgeführten Links gelangen Sie zu der neuen Seite docs.microsoft.com. Der Inhalt ist jetzt open stammenden und bereit zur Community-Beiträge über GitHub. Belohnung interessiert? Checken Sie die Infodatei in der Repo hier:[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-Skype für Business Server 2015 im Lieferumfang von mehr als 700 Cmdlets, mit die Administratoren Skype für Business Server mithilfe der Skype für Business Server-Verwaltungsshell verwalten können. Sie können Hilfe für ein Cmdlet direkt über die Befehlszeile abrufen, wenn Sie einen Befehl wie den folgenden eingeben:
+Skype für Business Server im Lieferumfang von mehr als 700 Cmdlets, mit die Administratoren Skype für Business Server mithilfe der Skype für Business Server-Verwaltungsshell verwalten können. Sie können Hilfe für ein Cmdlet direkt über die Befehlszeile abrufen, wenn Sie einen Befehl wie den folgenden eingeben:
   
 ```
 Get-Help New-CsVoicePolicy -Full
@@ -64,10 +64,13 @@ Wichtige Informationen zu Windows PowerShell in Skype für Business Server:
   ```
   // Save the help files
    Save-Help -DestinationPath \\UpdateShare\HelpDownload
-// Run Update-Help against the local help files
+  // Run Update-Help against the local help files
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 
     Ausführlichere Informationen finden Sie unter [Aktualisierbare Info](https://technet.microsoft.com/library/hh847735.aspx).
+    
+    > [!NOTE]
+    > Wenn Sie Remote PowerShell verwenden, müssen Sie durch eine Firewall hindurch Kommunikation zu ermöglichen. Weitere Informationen zu den Ports PowerShell-Remoting verwendet, finden Sie unter [Was ist PowerShell-Remoting Portverwendung?](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/).
     
 

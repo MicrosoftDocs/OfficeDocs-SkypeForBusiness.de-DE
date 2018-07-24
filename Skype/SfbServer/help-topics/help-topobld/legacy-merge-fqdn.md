@@ -3,7 +3,7 @@ title: Legacyzusammenführung – FQDN
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: Der interne FQDN des Zugriffs-Edge-Pool wird für eine Vielzahl von Szenarien verwendet, auf dem internen Benutzer mit externen Benutzern für Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten kommunizieren. Wenn Sie einen Lastenausgleich Edge-Server in der Vorversion Umgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (FQDN) des internen Lastenausgleichssystems an.
-ms.openlocfilehash: 7134a362c0df0a6f3c555a38d67575d0fb55b9d8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 86f06718e3d8a149dc93a990edbb9c0359c0d087
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987064"
 ---
 # <a name="legacy-merge-fqdn"></a>Legacyzusammenführung – FQDN
  

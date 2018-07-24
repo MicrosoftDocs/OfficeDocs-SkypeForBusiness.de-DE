@@ -3,7 +3,6 @@ title: Konfigurieren der lokalen Bereitstellung von Skype-Livekonferenz
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,11 +14,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte, die Sie zum Konfigurieren von Skype Besprechung übertragen für Ihre lokale Skype für Business Server hybridbereitstellung ausführen müssen.'
-ms.openlocfilehash: e788a263223ea3fa0f4ce9ed844fb5b4eb0ae898
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004693"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren der lokalen Bereitstellung von Skype-Livekonferenz
  
@@ -80,17 +80,8 @@ Sie können auch den externen Zugriff für SIP-Verbund Domänen konfigurieren, i
   
 ```
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "emeameetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "apacmeetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 

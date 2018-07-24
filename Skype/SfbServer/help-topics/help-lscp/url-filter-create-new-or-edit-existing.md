@@ -3,7 +3,7 @@ title: URL-Filter Erstellen einer neuen oder Bearbeiten einer vorhandenen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: c3879db07cc210390375753f696c5d2f7307e06c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b562510f7af9c1f4f1f77cc07d881dda95bd5608
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006825"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL-Filter: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
  

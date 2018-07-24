@@ -1,27 +1,26 @@
 ---
-title: Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server 2015
+title: Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von KDS und QoE in Skype für Business Server 2015.'
-ms.openlocfilehash: 0d5a6ba25a524578a13f16c92149977b0180fbdb
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von KDS und QoE in Skype für Business Server.'
+ms.openlocfilehash: 7c94815efd30f7f3a30b3a72cfae756085e6aad4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569456"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015003"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server-2015"></a>Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server 2015
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Konfigurieren von KDS und QoE in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Konfigurieren von KDS und QoE in Skype für Business Server.
   
-Konfigurieren Sie KDS und QoE-Überwachung mithilfe von SQL Server Reporting Services-Berichte für Skype für Business Server 2015.
+Konfigurieren Sie KDS und QoE-Überwachung mithilfe von SQL Server Reporting Services-Berichte für Skype für Business Server.
   
 ## <a name="configure-cdr-and-qoe"></a>Konfigurieren von KDS und QoE
 
@@ -31,14 +30,14 @@ Nachdem Sie einen Front-End-Pool, richten Sie den Speicher für Überwachung, un
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-Wenn Sie Skype für Business Server 2015 installieren, installieren Sie auch eine vordefinierte Sammlung von globalen Konfigurationseinstellungen für KDS und QoE. In der folgenden Tabelle sind Standardwerte für einige gängige Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen aufgeführt:
+Wenn Sie Skype für Business Server installieren, installieren Sie auch eine vordefinierte Sammlung von globalen Konfigurationseinstellungen für KDS und QoE. In der folgenden Tabelle sind Standardwerte für einige gängige Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen aufgeführt:
   
 |**Eigenschaft**|**Beschreibung**|**Standardwert**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |Gibt an, ob KDS aktiviert ist. Bei „True“ werden alle KDS-Datensätze gesammelt und in die Überwachungsdatenbank geschrieben.  <br/> |True  <br/> |
 |"Enablepurging"  <br/> |Gibt an, ob KDS-Datensätze regelmäßig aus der Datenbank gelöscht werden. Bei Festlegung auf „True“ werden Einträge nach dem Zeitraum gelöscht, der in den Eigenschaften „KeepCallDetailForDays“ (KDS-Datensätze) und „KeepErrorReportForDays“ (KDS-Fehler) angegeben ist. Bei Festlegung des Parameters auf „False“ werden KDS-Einträge nie gelöscht.  <br/> |True  <br/> |
 |"Keepcalldetailfordays"  <br/> |Gibt die Anzahl von Tagen an, die KDS-Datensätze in der Datenbank gespeichert werden. Einträge, die älter sind als angegeben, werden automatisch gelöscht. Dies erfolgt jedoch nur, wenn der Löschvorgang aktiviert ist.  <br/> „KeepCallDetailForDays“ kann auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (ungefähr 7 Jahre) festgelegt werden.  <br/> |60 Tage  <br/> |
-|KeepErrorReportForDays  <br/> |Gibt die Anzahl von Tagen, für die Fehlerberichte CDR gehalten werden; Berichte, die älter sind als die angegebene Anzahl von Tagen werden automatisch gelöscht werden. KDS Fehlerberichte sind Diagnoseberichte von Clientanwendungen wie Skype für Business Server 2015 hochgeladen.  <br/> Sie können diese Eigenschaft auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (etwa 7 Jahre) festlegen.  <br/> |60 Tage  <br/> |
+|KeepErrorReportForDays  <br/> |Gibt die Anzahl von Tagen, für die Fehlerberichte CDR gehalten werden; Berichte, die älter sind als die angegebene Anzahl von Tagen werden automatisch gelöscht werden. KDS Fehlerberichte sind Diagnoseberichte von Clientanwendungen wie Skype für Business Server hochgeladen.  <br/> Sie können diese Eigenschaft auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (etwa 7 Jahre) festlegen.  <br/> |60 Tage  <br/> |
    
 Entsprechend werden in dieser Tabelle Standardwerte für ausgewählte QoE-Einstellungen aufgeführt:
   

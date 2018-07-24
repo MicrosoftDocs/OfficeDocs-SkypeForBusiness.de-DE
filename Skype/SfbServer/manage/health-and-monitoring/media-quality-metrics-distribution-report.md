@@ -1,28 +1,28 @@
 ---
-title: Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server 2015
+title: Die Medien zusammenfassenden Bericht über Medienqualität in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Zusammenfassung: Informationen Sie zu den Metriken Verteilung über Medienqualität in Skype für Business Server 2015.'
-ms.openlocfilehash: 8883a15e4d78ee0eb5fad298fcbdddea6aedb5a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Metriken Verteilung über Medienqualität in Skype für Business Server.'
+ms.openlocfilehash: ef15807cdc0377d2548a83f8da56de9b6cf85e04
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014138"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server-2015"></a>Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server 2015
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Die Medien zusammenfassenden Bericht über Medienqualität in Skype für Business Server 
  
-**Zusammenfassung:** Informationen Sie zu den Metriken Verteilung über Medienqualität in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Metriken Verteilung über Medienqualität in Skype für Business Server.
   
 Mit dem Bericht über die Metrikverteilung der Medienqualität wird ein Diagramm mit den Verteilungswerten für eine QoE-Metrik (Quality of Experience) wie z. B. Jitter oder Paketverlust angezeigt. Angenommen, Ihre Benutzer tätigen insgesamt 10 Telefonanrufe, für die die folgenden Roundtripzeiten gemeldet werden:
   
-|**Wählen einer Nummer**|**Roundtripzeit (Millisekunden)**|
+|**Anrufnummer**|**Roundtripzeit (Millisekunden)**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
@@ -45,7 +45,7 @@ Der Bericht über die Metrikverteilung der Medienqualität hilft Ihnen, falsche 
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über die Metrikverteilung der Medienqualität verwenden können.
   
-**Media Quality Metrics Filter im Bericht**
+**Filter im Bericht über die Metrikverteilung der Medienqualität**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|

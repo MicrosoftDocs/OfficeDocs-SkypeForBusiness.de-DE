@@ -1,24 +1,24 @@
 ---
-title: Verwalten der Ankündigungen beim Beitreten oder Verlassen einer Konferenz in Skype for Business Server 2015
+title: Verwalten Sie der Konferenz teilnehmen und lassen Sie Ansagen im Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Zusammenfassung: Informationen Sie zum Verwalten der Konferenz teilnehmen und lassen Sie Ansagen im Skype für Business Server 2015.'
-ms.openlocfilehash: 33e01efebc7d188fe329c1c39718aaf661af1e44
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zum Verwalten der Konferenz teilnehmen und Ansagen im Skype für Business Server belassen.'
+ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008491"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server-2015"></a>Verwalten der Ankündigungen beim Beitreten oder Verlassen einer Konferenz in Skype for Business Server 2015
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Verwalten Sie der Konferenz teilnehmen und lassen Sie Ansagen im Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Verwalten der Konferenz teilnehmen und Ansagen im Skype für Business Server 2015 belassen.
+**Zusammenfassung:** Informationen Sie zum Verwalten der Konferenz teilnehmen und Ansagen im Skype für Business Server belassen.
   
 Wenn Einwahlbenutzer beitreten oder diese verlassen einer Konferenz, kann die Konferenzankündigungsanwendung Anwendung announce ihre Eingangskriterien oder durch einen Ton wiedergegeben oder ihre Namen sagen beenden. Sie können die Funktionsweise von Ansagen mithilfe von Skype für Business Server-Verwaltungsshell und das Cmdlet **Set-CsDialinConferencing** mit den folgenden Parametern ändern:
   

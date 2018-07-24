@@ -1,27 +1,26 @@
 ---
-title: Nutzungsbericht über die Reaktionsgruppe in Skype for Business Server 2015
+title: Reaktionsgruppen-Verwendungsbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 'Zusammenfassung: Erfahren Sie mehr über die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015.'
-ms.openlocfilehash: 815158fbe7d477dd263591f161312d054480808c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Erfahren Sie mehr über die Anwendung "Reaktionsgruppe" in Skype für Business Server.'
+ms.openlocfilehash: 78d1645a0651d39a6860f9e65456f48b1740d265
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569023"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001161"
 ---
-# <a name="response-group-usage-report-in-skype-for-business-server-2015"></a>Nutzungsbericht über die Reaktionsgruppe in Skype for Business Server 2015
+# <a name="response-group-usage-report-in-skype-for-business-server"></a>Reaktionsgruppen-Verwendungsbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu der Anwendung "Reaktionsgruppe" in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu der Anwendung "Reaktionsgruppe" in Skype für Business Server.
   
-Die Anwendung "Reaktionsgruppe" bietet eine Möglichkeit für Skype für Business Server 2015 beantworten und Route Telefonanrufe basierend auf die Nummer, die gewählt wurde und, optional, die Antworten des Anrufers zu einer Reihe von Fragen. Normalerweise werden Reaktionsgruppenanrufe nicht an eine Einzelperson, sondern an ein Personenteam weitergeleitet, das als Agentgruppe bezeichnet wird. Angenommen, wenn die Telefonnummer für Ihr Helpdesk angerufen werden, kann Skype für Business Server 2015 automatisch dieses Aufrufs an den ersten verfügbaren Helpdesk-Agent weiterleiten. Alternativ kann Skype für Business Server bitten Sie eine Reihe von Fragen ("drücken Sie 1, wenn Sie die Hardware Probleme auftreten. Wenn Sie Softwareprobleme haben, drücken Sie die 2. Wenn Sie Netzwerkprobleme haben, drücken Sie die 3.“) und den Anruf dann entsprechend der Antwort auf diese Fragen an den am besten geeigneten Helpdesk-Agenten weiterleiten.
+Die Anwendung "Reaktionsgruppe" bietet eine Möglichkeit für Skype für Business Server beantworten und Route Telefonanrufe basierend auf die Nummer, die gewählt wurde und, optional, die Antworten des Anrufers zu einer Reihe von Fragen. Normalerweise werden Reaktionsgruppenanrufe nicht an eine Einzelperson, sondern an ein Personenteam weitergeleitet, das als Agentgruppe bezeichnet wird. Angenommen, wenn die Telefonnummer für Ihr Helpdesk angerufen werden, kann Skype für Business Server automatisch dieses Aufrufs an den ersten verfügbaren Helpdesk-Agent weiterleiten. Alternativ kann Skype für Business Server bitten Sie eine Reihe von Fragen ("drücken Sie 1, wenn Sie die Hardware Probleme auftreten. Wenn Sie Softwareprobleme haben, drücken Sie die 2. Wenn Sie Netzwerkprobleme haben, drücken Sie die 3.“) und den Anruf dann entsprechend der Antwort auf diese Fragen an den am besten geeigneten Helpdesk-Agenten weiterleiten.
   
 Der Nutzungsbericht über die Reaktionsgruppe gibt einen detaillierten Einblick in die Anzahl der Telefonanrufe, die von allen Reaktionsgruppen-Workflows empfangen wurden. Diese Anrufe werden dann in spezifischere Kategorien unterteilt, z. B. „Angebotene Anrufe“, „Angenommene Anrufe“ und „Abgebrochene Anrufe“.
   
@@ -45,7 +44,7 @@ Mit einem Nutzungsbericht über Reaktionsgruppe können Sie nach einem Workflow-
   
 ## <a name="accessing-the-response-group-usage-report"></a>Zugreifen auf den Nutzungsbericht über die Reaktionsgruppe
 
-Sie können über die Startseite für Überwachungsberichte auf den Nutzungsbericht über die Reaktionsgruppe zugreifen. Sie können die [Antwort Gruppe Call List Report in Skype für Business Server 2015](call-list-report.md) Drilldown, indem Sie auf eine der folgenden Metriken:
+Sie können über die Startseite für Überwachungsberichte auf den Nutzungsbericht über die Reaktionsgruppe zugreifen. Sie können die [Antwort Gruppe Call List Report in Skype für Business Server](call-list-report.md) einen Drilldown durch Klicken auf eine der folgenden Metriken:
   
 - Empfangene Anrufe
     
@@ -96,7 +95,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
   
 In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Reaktionsgruppen-Verwendungsbericht verwenden können.
   
-**Reaktionsgruppen-Verwendungsbericht – Filter**
+**Reaktionsgruppen-Verwendungsbericht - Filter**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -109,9 +108,9 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Reaktionsgruppe
 
 In der folgenden Tabelle sind die Informationen aufgeführt, die im Reaktionsgruppen-Verwendungsbericht angegeben werden.
   
-**Reaktionsgruppen-Verwendungsbericht – Metriken**
+**Reaktionsgruppen-Verwendungsbericht - Metriken**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Stündlich** <br/> **Täglich** <br/> **Wöchentlich** <br/> **Monatlich** <br/> |Nein  <br/> |Gibt das ausgewählte Zeitintervall an. Sie können auf ein einzelnes Zeitintervall klicken, um Details zu diesem Intervall abzurufen. Wenn Sie beispielsweise das Intervall „Täglich“ verwenden und auf 07.07.2015 klicken, sehen Sie die nach Stunden aufgeschlüsselten Benutzerregistrierungsaktivitäten an diesem Tag.  <br/> |
 |**Empfangene Anrufe** <br/> |Nein  <br/> |Gesamtanzahl der empfangenen Anrufe von allen Instanzen der Reaktionsgruppenanwendung. Wenn Sie auf dieses Element klicken, zeigt der Bericht die Anrufliste der Reaktionsgruppe für die gewählte Zeitspanne an.  <br/> |

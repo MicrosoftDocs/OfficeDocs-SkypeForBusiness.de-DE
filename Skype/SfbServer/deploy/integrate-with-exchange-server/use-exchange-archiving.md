@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Skype für Business Server 2015 mit Exchange Server-Archivierung
+title: Konfigurieren von Skype für Business Server mit Exchange Server-Archivierung
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,21 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
-description: 'Zusammenfassung: Konfigurieren von Instant Messaging-Protokolle für Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015.'
-ms.openlocfilehash: 280b86d223cc1dd90eb7fe7bc17e4ab3499e7f5d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Konfigurieren von Instant Messaging-Protokolle für Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server.'
+ms.openlocfilehash: eee0c67a1f0f1595fb0ba287fe6a3aa662e45d9c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014536"
 ---
-# <a name="configure-skype-for-business-server-2015-to-use-exchange-server-archiving"></a>Konfigurieren von Skype für Business Server 2015 mit Exchange Server-Archivierung
+# <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Konfigurieren von Skype für Business Server mit Exchange Server-Archivierung
  
-**Zusammenfassung:** Konfigurieren von Instant Messaging-Protokolle für Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server 2015.
+**Zusammenfassung:** Konfigurieren von Instant Messaging-Protokolle für Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server.
   
-Skype für Business Server 2015 bietet Administratoren die Möglichkeit, instant messaging und webkonferenzaufzeichnungen zu einer SQL Server-Datenbank, statt 2016 der Exchange-Server oder Exchange Server 2013-Postfach eines Benutzers archiviert. Wenn Sie diese Option aktivieren, werden Aufzeichnungen in den Löschordner des Benutzerpostfachs geschrieben. Der Löschordner ist ein ausgeblendeter Ordner im Ordner „Wiederherstellbare Elemente“. Obwohl diese Ordner nicht für Endbenutzer angezeigt wird, wird der Ordner wird vom Suchmodul Exchange indiziert und mithilfe der Exchange-Postfach-Suche und/oder Microsoft SharePoint Server 2013 ermittelt werden kann. Da im gleichen Ordner wie von der Exchange Compliance-Archiv-Funktion (verantwortlich für die Archivierung von e-Mail und anderen Exchange) gespeichert werden, können Administratoren ein einziges Tool für die Suche nach die elektronischen Kommunikation für archiviert eine Benutzer.
+Skype für Business Server bietet Administratoren die Möglichkeit, instant messaging und webkonferenzaufzeichnungen zu einer SQL Server-Datenbank, statt 2016 der Exchange-Server oder Exchange Server 2013-Postfach eines Benutzers archiviert. Wenn Sie diese Option aktivieren, werden Aufzeichnungen in den Löschordner des Benutzerpostfachs geschrieben. Der Löschordner ist ein ausgeblendeter Ordner im Ordner „Wiederherstellbare Elemente“. Obwohl diese Ordner nicht für Endbenutzer angezeigt wird, wird der Ordner wird vom Suchmodul Exchange indiziert und mithilfe der Exchange-Postfach-Suche und/oder Microsoft SharePoint Server 2013 ermittelt werden kann. Da im gleichen Ordner wie von der Exchange Compliance-Archiv-Funktion (verantwortlich für die Archivierung von e-Mail und anderen Exchange) gespeichert werden, können Administratoren ein einziges Tool für die Suche nach die elektronischen Kommunikation für archiviert eine Benutzer.
   
 > [!IMPORTANT]
-> Um die Archivierung von Unterhaltungen vollständig zu deaktivieren, müssen Sie außerdem den Unterhaltungsverlauf aktivieren. Weitere Informationen finden Sie unter den folgenden Themen: [Verwalten der Archivierung der internen und externen Kommunikation in Skype für Business Server 2015](http://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx), [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)und [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
+> Um die Archivierung von Unterhaltungen vollständig zu deaktivieren, müssen Sie außerdem den Unterhaltungsverlauf aktivieren. Weitere Informationen finden Sie unter den folgenden Themen: [Verwalten der Archivierung der internen und externen Kommunikation in Skype für Business Server](http://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx), [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)und [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
   
 Zum Archivieren von Aufzeichnungen auf Exchange-Server müssen Sie durch Konfigurieren der Server-zu-Server-Authentifizierung zwischen Skype für Business Server und Exchange Server beginnen. Nach Server-zu-Server-Authentifizierung eingerichtet ist, können Sie dann führen Sie die folgenden Aufgaben in Skype für Business Server (Beachten Sie, dass je nach der Installation und Konfiguration nicht möglicherweise alle diese Aufgaben ausführen müssen):
   

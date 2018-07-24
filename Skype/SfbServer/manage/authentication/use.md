@@ -1,25 +1,25 @@
 ---
-title: Nutzung der zweistufigen Authentifizierung für den Skype for Business-Client und Skype for Business Server 2015
+title: Verwenden Sie zweistufige Authentifizierung mit Skype für Business Client- und Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: 'Zusammenfassung: Verwenden Sie zweistufige Authentifizierung mit Skype für Business Server 2015 und Skype für Unternehmen.'
-ms.openlocfilehash: 6bb2133533b640cd573730ca608f5845164ea282
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Verwenden Sie zweistufige Authentifizierung mit Skype für Business Server und Skype für Unternehmen.'
+ms.openlocfilehash: 95e44c50dec37eea86b90317575a09509df80649
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986551"
 ---
-# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server-2015"></a>Nutzung der zweistufigen Authentifizierung für den Skype for Business-Client und Skype for Business Server 2015
+# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Verwenden Sie zweistufige Authentifizierung mit Skype für Business Client- und Skype für Business Server
  
-**Zusammenfassung:** Verwenden Sie zweistufige Authentifizierung mit Skype für Business Server 2015 und Skype für Unternehmen.
+**Zusammenfassung:** Verwenden Sie zweistufige Authentifizierung mit Skype für Business Server und Skype für Unternehmen.
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Erstmaliges Anmelden bei Skype for Business
 
@@ -45,7 +45,7 @@ Ihre Anmeldeinformationen wird bei der Installation von Skype für Unternehmen i
 
 Wenn Sie die Verwendung von Skype für Unternehmen haben, können Sie die Anzeige schließen Ihre Sitzung abmelden, oder beenden Sie das Programm, alle aus dem Menü Datei. In der folgenden Tabelle werden die Unterschiede zwischen diesen Optionen erläutert.
   
-|**Option**|**Sinn und Zweck**|**Wie Sie es ausführen**|
+|**Option**|**Zweck**|**Vorgehensweise**|
 |:-----|:-----|:-----|
 |Schließen  <br/> |Schließt die Anzeige, aber die Skype für Business-Sitzung identifiziert mit Ihrer Benutzer ID weiterhin ausgeführt werden können. Dies hat den Sinn, dass Sie weiterhin Benachrichtigungen erhalten und sich mit anderen austauschen können. <br/> <br/> Sie können die Anzeige jederzeit wieder durch Klicken auf die Skype Business-Symbol auf der Taskleiste oder im Infobereich am unteren Bildschirmrand abrufen.  <br/> | Führen Sie einen der folgenden Schritte aus, auf die Skype für Business-Hauptfenster: <br/> 1. Wählen Sie die Schaltfläche **Optionen** und dann wählen Sie **Datei** > **Schließen**.  <br/> 2. Klicken Sie in der oberen rechten Ecke des Fensters auf die Schaltfläche **Schließen** (X). <br/> |
 |Abmelden  <br/> |Enden wird weiterhin die Sitzung mit Ihrer Benutzer-ID, aber Skype für Unternehmen im Hintergrund ausgeführt. Wenn Sie sich abmelden, wird das Abmeldefenster angezeigt.  <br/> **Tipp:** Wählen Sie **Meine Anmeldeinformationen löschen** beim Anmelden um den Datensatz Ihrer Anmelde-ID und das Kennwort vom Computer zu entfernen. Dies vereinfacht möglicherweise den Support bei der Behandlung von Anmeldeproblemen. Außerdem trägt es dazu bei, Ihre Anmeldeinformationen zu sichern, da es nicht autorisierten Benutzern so erschwert wird, sich mit Ihren Anmeldeinformationen anzumelden. <br/> |Klicken Sie auf die Skype für Business-Hauptfenster, wählen Sie die Schaltfläche **Optionen** , und wählen Sie **Datei** > **Abmelden**.  <br/> |
@@ -61,7 +61,7 @@ Einige Organisationen verwenden mittlerweile einen mehrstufigen Anmeldevorgang, 
     
 ### <a name="enroll-your-smart-card"></a>Registrieren Ihrer SmartCard
 
-Bevor Sie sich mit einer Smartcard anmelden können, die Karte muss "registriert" – d. h., Ihre Anmeldeinformationen haben, mit der Karte identifiziert werden. Dies muss unabhängig davon erfolgen, ob es sich um eine physische oder um eine virtuelle Karte handelt. Dieser Prozess kann bereits wurde skalieren durch Ihre Skype für Business Server 2015 Administrator ausgeführt. Wenn Sie nicht sicher sind, ob, ausgeführt wurde, überprüfen Sie mit diesen.
+Bevor Sie sich mit einer Smartcard anmelden können, die Karte muss "registriert" – d. h., Ihre Anmeldeinformationen haben, mit der Karte identifiziert werden. Dies muss unabhängig davon erfolgen, ob es sich um eine physische oder um eine virtuelle Karte handelt. Dieser Prozess kann bereits wurde skalieren durch Ihre Skype für Business Server-Administrator ausgeführt. Wenn Sie nicht sicher sind, ob, ausgeführt wurde, überprüfen Sie mit diesen.
   
 > [!NOTE]
 > Da jede virtuelle Smartcard nur mit dem Gerät verbunden ist auf installiert ist, eine andere Karte für jeden Computer Windows 8 registriert werden, den Sie verwenden müssen. 
@@ -142,9 +142,6 @@ Bevor Sie die Smartcard zum ersten Mal verwenden, wird empfohlen, dass Sie auf d
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Verwalten der zweistufigen Authentifizierung in Skype für Business Server 2015](two-factor-authentication.md)
+[Verwalten der zweistufigen Authentifizierung in Skype für Business Server](two-factor-authentication.md)
   
-[Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server 2015](configure.md)
-
+[Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server](configure.md)

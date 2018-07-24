@@ -1,27 +1,26 @@
 ---
-title: Gerätebericht in Skype for Business Server 2015
+title: Device Report in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: 'Zusammenfassung: Informationen Sie zu den Device Report in Skype für Business Server 2015.'
-ms.openlocfilehash: af09f26bc91c132363367c8145846837734ad73f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Informationen Sie zu den Device Report in Skype für Business Server.'
+ms.openlocfilehash: d62aa2fbf1bb597b34609d2069ecbccb62f1ef0c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569484"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008652"
 ---
-# <a name="device-report-in-skype-for-business-server-2015"></a>Gerätebericht in Skype for Business Server 2015
+# <a name="device-report-in-skype-for-business-server"></a>Device Report in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Device Report in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Device Report in Skype für Business Server.
   
-Der Gerätebericht wäre mit „Mikrofon- und Lautsprecherbericht“ treffender betitelt, denn er ruft anrufbezogene Metriken ab (z. B. Prozentsatz der Anrufe schlechter Qualität, Echo und Sprachumschaltzeit) und gruppiert sie nach den im Anruf verwendeten Mikrofonen und Lautsprechern. Wenn Sie die IP-Telefone (häufig auch als "Geräte" bezeichnet) interessiert sind, verwenden Sie stattdessen die [IP-Telefonbestand in Skype für Business Server 2015](ip-phone-inventory-report.md) .
+Der Gerätebericht wäre mit „Mikrofon- und Lautsprecherbericht“ treffender betitelt, denn er ruft anrufbezogene Metriken ab (z. B. Prozentsatz der Anrufe schlechter Qualität, Echo und Sprachumschaltzeit) und gruppiert sie nach den im Anruf verwendeten Mikrofonen und Lautsprechern. Wenn Sie die IP-Telefone (häufig auch als "Geräte" bezeichnet) interessiert sind, verwenden Sie stattdessen die [IP-Telefonbestand in Skype für Business Server](ip-phone-inventory-report.md) .
   
 Der Gerätebericht ist für Administratoren von großem Nutzen, wenn herausgefunden werden soll, ob bei einem bestimmten Gerätetyp mehr Anrufe schlechter Qualität auftreten als bei anderen Typen. Das kann wiederum Kaufentscheidungen beeinflussen, wenn neue Geräte angeschafft oder vorhandene ausgetauscht werden müssen.
   
@@ -52,13 +51,13 @@ Wenn Sie lieber die Gesamtsumme für ein bestimmtes Gerät angezeigt bekommen m�
    
 ## <a name="accessing-the-device-report"></a>Öffnen des Geräteberichts
 
-Auf den Gerätebericht greifen Sie über die Startseite für Überwachungsberichte zu. Jedoch, wenn Sie den [Call Detail Report in Skype für Business Server 2015](call-detail-report.md) anzeigen können Sie nach unten zu den Device Report für ein bestimmtes Gerät anzeigen, indem Sie auf eine der folgenden Metriken:
+Auf den Gerätebericht greifen Sie über die Startseite für Überwachungsberichte zu. Jedoch, wenn Sie den [Call Detail Report in Skype für Business Server](call-detail-report.md) anzeigen können Sie nach unten zu den Device Report für ein bestimmtes Gerät anzeigen, indem Sie auf eine der folgenden Metriken:
   
 - Aufnahmegerät
     
 - Darstellungsgerät
     
-Vom Gerätebericht können Sie den [Call List Report in Skype für Business Server 2015](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
+Vom Gerätebericht können Sie den [Call List Report in Skype für Business Server](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
   
 - Anruflautstärke
     
@@ -105,7 +104,7 @@ Im Hinblick auf Gerätenamen ist der Gerätebericht besonders detailliert. Beisp
 - Aastra 6725ip-Mikrofon (USB-Audiogerät)-V0
     
 > [!NOTE]
-> Beachten Sie, dass Capture Gerätenamen nicht dieselbe sein können, wenn Sie lokalisierte Versionen von Skype für Business Server 2015 ausgeführt werden beibehalten. Ein Gerät namens Aastra 6725ip-Mikrofon (Aastra 6725ip)-V0 hat wahrscheinlich auf Französisch oder Spanisch eine andere Bezeichnung. 
+> Behalten Sie im Hinterkopf, dass Capture Gerätenamen nicht dieselbe sein können, wenn Sie lokalisierte Versionen von Skype für Business Server ausgeführt werden. Ein Gerät namens Aastra 6725ip-Mikrofon (Aastra 6725ip)-V0 hat wahrscheinlich auf Französisch oder Spanisch eine andere Bezeichnung. 
   
 Diese Detailgenauigkeit ist häufig sehr nützlich. In manchen Situationen möchten Sie aber vielleicht nur wissen, von wie vielen Anrufen ein beliebiges Aastra-Mikrofon, unabhängig von der Modellnummer, verwendet wird. Dazu können Sie die Geräteberichtsdaten nach Microsoft Excel exportieren und dann in einer CSV-Datei (Comma-Separated Values, Datei mit durch Trennzeichen getrennten Werten) speichern (z. B. C:\Data\Gerätebericht.csv). Anschließend können Sie mithilfe von Befehlen wie den folgenden die CSV-Datei in Windows PowerShell importieren und die Gesamtzahl der Anrufe ausgeben, die mit einem Aastra-Aufnahmegerät getätigt wurden:
   
@@ -145,7 +144,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Gerätebericht ange
   
 **Geräteberichtmetriken**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Aufnahmegerät** <br/> |Ja  <br/> |Ein Gerät (z. B. ein Mikrofon oder eine Webcam), das für die Übertragung von Audio verwendet wird.  <br/> |
 |**Darstellungsgerät** <br/> |Ja  <br/> |Ein Gerät (z. B. ein Headset oder Lautsprecher), das für den Empfang von Audio verwendet wird.  <br/> |

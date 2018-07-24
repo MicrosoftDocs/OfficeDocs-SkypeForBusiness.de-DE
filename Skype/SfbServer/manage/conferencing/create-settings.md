@@ -1,24 +1,24 @@
 ---
-title: Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server 2015
+title: Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Zusammenfassung: Informationen zum Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server 2015.'
-ms.openlocfilehash: 2d3bde2c856c85e0795f2e1d43fbb5cf705c7024
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen zum Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server.'
+ms.openlocfilehash: 8826bee3a5f96fd3d30bdc999db97f796f8a0b8e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997417"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server 2015
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server
  
-**Zusammenfassung:** Informationen zum Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen zum Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server.
   
 Sie können erstellen besprechungskonfigurationseinstellungen mithilfe von Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell.
   

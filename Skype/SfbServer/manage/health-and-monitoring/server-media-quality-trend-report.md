@@ -1,24 +1,24 @@
 ---
-title: Trendbericht über Medienqualität des Servers in Skype for Business Server 2015
+title: Server Trendbericht über Medienqualität in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 'Zusammenfassung: Erfahren Sie mehr über den Server Trendbericht über Medienqualität in Skype für Business Server 2015.'
-ms.openlocfilehash: e257243eed1934cecc39f1feec26b3d83862e8c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über den Server Trendbericht über Medienqualität in Skype für Business Server.'
+ms.openlocfilehash: 1d4f2407dc7a4cc56e1688a955f4196a450114f4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029121"
 ---
-# <a name="server-media-quality-trend-report-in-skype-for-business-server-2015"></a>Trendbericht über Medienqualität des Servers in Skype for Business Server 2015
+# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Server Trendbericht über Medienqualität in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Server Trendbericht über Medienqualität in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Server Trendbericht über Medienqualität in Skype für Business Server.
   
 Mit dem „Trendbericht über Medienqualität des Servers“ haben Sie die Möglichkeit, bis zu fünf Server anhand von Quality of Experience (QoE)-Metriken, wie beispielsweise Anrufvolumen, Prozentsatz der Anrufe schlechter Qualität, Paketverlust und Jitter grafisch zu vergleichen. So ist es einfacher, die leistungsschwachen, nicht voll ausgelasteten oder die überbeanspruchten Server zu identifizieren.
   
@@ -26,21 +26,21 @@ Mit dem „Trendbericht über Medienqualität des Servers“ haben Sie die Mögl
 
 Auf den „Trendbericht über Medienqualität des Servers“ kann über einen der folgenden Berichte zugegriffen werden:
   
-- [Serverperformance Report in Skype für Business Server 2015](server-performance.md) (durch Klicken auf die Trend-Metriken)
+- [Server Performance Report in Skype für Business Server](server-performance.md) (durch Klicken auf die Trend-Metriken)
     
-- [Aufrufdetailbericht in Skype für Business Server 2015](call-detail-report.md) (durch Klicken auf den A / V-Edgeserver Metrik. Wenn der Anrufer oder angerufenen ein Server ist, können Sie auch die Qualität Trendbericht über Servers erreichen durch Klicken auf den Endpunktnamen.)
+- [Aufrufdetailbericht in Skype für Business Server](call-detail-report.md) (durch Klicken auf den A / V-Edgeserver Metrik. Wenn der Anrufer oder angerufenen ein Server ist, können Sie auch die Qualität Trendbericht über Servers erreichen durch Klicken auf den Endpunktnamen.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Optimale Nutzung des „Trendberichts über Medienqualität des Servers“
 
-Wenn Sie die Trend-Metriken im [Bericht über Serverleistung in Skype für Business Server 2015](server-performance.md) für einen bestimmten Server klicken, wird der Server Trendbericht über Medienqualität geöffnet. Sehen Sie jedoch nur eine leere Instanz dieses Berichts; Servers, den Sie auf dem Server Performance Report ausgewählt wird nicht auf dem Bildschirm angezeigt werden. Stattdessen müssen Sie diesem Server wählen Sie aus der Dropdownliste Server aus. Beachten Sie außerdem, dass die Dropdownliste Server aus eine Option alle auswählen enthält. Diese Option funktioniert nicht, wenn Sie mehr als 5 Server verfügen. der Server Trendbericht über Medienqualität können nur Daten für maximal 5 Servern zu einem Zeitpunkt angezeigt.
+Wenn Sie die Trend-Metriken im [Bericht über Serverleistung in Skype für Business Server](server-performance.md) für einen bestimmten Server klicken, wird der Server Trendbericht über Medienqualität geöffnet. Sehen Sie jedoch nur eine leere Instanz dieses Berichts; Servers, den Sie auf dem Server Performance Report ausgewählt wird nicht auf dem Bildschirm angezeigt werden. Stattdessen müssen Sie diesem Server wählen Sie aus der Dropdownliste Server aus. Beachten Sie außerdem, dass die Dropdownliste Server aus eine Option alle auswählen enthält. Diese Option funktioniert nicht, wenn Sie mehr als 5 Server verfügen. der Server Trendbericht über Medienqualität können nur Daten für maximal 5 Servern zu einem Zeitpunkt angezeigt.
   
-Für die Diagramme, die durch den Server Trendbericht über Medienqualität angezeigt die Punkte mit der Bezeichnung Volume aufrufen und Prozentsatz der Anrufe schlechter Hotlinks sind; durch Klicken auf einen Punkt im Diagramm wird eine Instanz des [Call List Report in Skype für Business Server 2015](call-list-report-0.md) , in dem Anrufe gesamt (und der Anrufe schlechter) für den angegebenen Zeitraum geöffnet.
+Für die Diagramme, die durch den Server Trendbericht über Medienqualität angezeigt die Punkte mit der Bezeichnung Volume aufrufen und Prozentsatz der Anrufe schlechter Hotlinks sind; durch Klicken auf einen Punkt im Diagramm wird eine Instanz des [Call List Report in Skype für Business Server](call-list-report-0.md) mit der Anrufe gesamt (oder schlechter Anrufe) für den angegebenen Zeitraum geöffnet.
   
 ## <a name="filters"></a>Filter
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Trendbericht über Medienqualität des Servers“ verwenden können.
   
-**Server Media Quality Trend Berichtsfilter**
+**Filter im „Trendbericht über Medienqualität des Servers“**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -57,9 +57,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 In der folgenden Tabelle werden Metriken aufgelistet, die im „Trendbericht über Medienqualität des Servers“ angegeben werden.
   
-**Server Media Quality Trend Metriken im Bericht über**
+**Metriken im „Trendbericht über Medienqualität des Servers“**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe.  <br/> |
 |**Beeinträchtigung (MOS)** <br/> |Nein  <br/> |Durchschnittliche Länge der MOS (Mittelwert Option Score)-Beeinträchtigung während eines Anrufs auftraten. Beeinträchtigung Werte liegen zwischen niedrig 0,0 und hoher 5.0; ein Wert von 0,5 oder weniger stellt akzeptable Beeinträchtigung dar. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. Skype für Business Server verwendet eine Reihe von Algorithmen vorhergesagt wie Benutzer einen Anruf bewertet haben würde.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |

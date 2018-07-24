@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 2a45181b15fa3bb2a4766491e193a9770193e47b
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 881497d467299e081010aaaf463690fe0050fe7b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088518"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999682"
 ---
 # <a name="users-new-lync-server-user"></a>Benutzer: Neuer Lync Server-Benutzer
  
@@ -45,8 +46,7 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
 - [Konfigurieren von Telefonieoptionen für Benutzer](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
 - [Zuweisen einer Richtlinie auf Benutzerebene Mobilität](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
-    
-- [Zuweisen einer Richtlinie für beständigen Chat pro Benutzer](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+
     
  
 

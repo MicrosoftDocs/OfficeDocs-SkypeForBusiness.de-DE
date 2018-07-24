@@ -10,38 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
+ROBOTS: NOINDEX, NOFOLLOW
 description: Erstellen und Verwalten von Chatrooms für beständigen Chat ist wesentlich einfacher mit die richtige Verwendung von Kategorien. A Persistent Chat Administrator können das Definieren von AllowedMembers und Creators für jede Kategorie, und Sie können auch definieren, die Standardeinstellungen für die Chatroom und Verhaltensweisen, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Administratoren für den beständigen Chat erstellen und Verwalten von Kategorien mithilfe der Systemsteuerung oder Windows PowerShell-Cmdlets.
-ms.openlocfilehash: c29163a88394fd9c3653e9bbbdae8c9f744f610e
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 192f9ed8fc5afaa5cfb586ce8b517a72daec333c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045610"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994822"
 ---
 # <a name="select-allowed-members"></a>Auswählen zugelassener Mitglieder
- 
-Erstellen und Verwalten von Chatrooms für beständigen Chat ist wesentlich einfacher mit die richtige Verwendung von Kategorien. A Persistent Chat Administrator können das Definieren von **AllowedMembers** und **Creators** für jede Kategorie, und Sie können auch definieren, die Standardeinstellungen für die Chatroom und Verhaltensweisen, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Administratoren für den beständigen Chat erstellen und Verwalten von Kategorien mithilfe der Systemsteuerung oder Windows PowerShell-Cmdlets.
-  
-Benutzer, Organisationseinheiten (Organizational Units, OUs) und Benutzergruppen, die als Ersteller einer Kategorie definiert werden, sind die einzigen Personen und Benutzergruppen, die Chatrooms in dieser Kategorie erstellen dürfen. Nachdem die Kategorie erstellt wurde, können sie auswählen OUs, Benutzer und Benutzergruppen aus der Kategorie **AllowedMembers** Liste als chatroommanager und Member zum Verwalten von und teilnehmen an den Chatroom.
-  
-## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite **Zugelassene Mitglieder auswählen** können Sie die folgenden Aufgaben ausführen:
-  
-- [Konfigurieren von Kategorien](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [Neue Features für Persistent Chat Server](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
-    
- 
-  
-## <a name="to-configure-categories-for-chat-rooms"></a>So konfigurieren Sie Kategorien für Chatrooms
-
-Unter **Mitgliedschaft**im Abschnitt **Zugelassene Mitglieder** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Domänendienste Prinzipale (Benutzer, Verteilergruppen, Organisationseinheiten usw.), die als Mitglieder des Chatrooms hinzugefügt werden dürfen für die Kategorie gehören. Prinzipale, die in einer Kategorie zugelassen sind, können nach den Räumen in der Kategorie suchen (es sei denn, der Raum ist ausgeblendet; in diesem Fall können nur Mitglieder des Raums im Verzeichnis danach suchen).
-  
-### 
-
-Ausführliche Informationen zur Persistent Chat Server-Features und Funktionen finden Sie unter [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Persistent Chat Server-Konfigurationen finden Sie unter [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in der Dokumentation zur Bereitstellung und [Verwaltung von Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in der Betriebsdokumentation.
-  
-## <a name="see-also"></a>Siehe auch
-
-[Grundlegendes zur Persistent Chat-Mitgliedschaft](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.

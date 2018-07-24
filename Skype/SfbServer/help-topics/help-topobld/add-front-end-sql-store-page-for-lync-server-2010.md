@@ -3,7 +3,7 @@ title: Hinzufügen von Front-End-Sql-Speicher-Seite für Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: Sie definieren Sie die Eigenschaften der SQL Server-Speicher für den neuen Front-End-Pool, den Sie konfigurieren.
-ms.openlocfilehash: 2bea8b7c058d04cb20e2abb4d5f3867dc736cb64
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 95b5f33e400947b6e1990179f9838d6418a2bece
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006915"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Hinzufügen von Front-End-Sql-Speicher-Seite für Lync Server 2010
  

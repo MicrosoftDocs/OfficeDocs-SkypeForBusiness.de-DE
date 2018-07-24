@@ -1,24 +1,24 @@
 ---
-title: Ändern von Optionen für Archivierungsdatenbanken in Skype for Business Server 2015
+title: Ändern Sie die Archivierung Datenbankoptionen in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: 'Zusammenfassung: Informationen Sie zum Ändern der Optionen für Archivierungsdatenbanken für Skype für Business Server 2015.'
-ms.openlocfilehash: 5bb7ee9329cc3fa7a0795115f9a0d11768ab7aa4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie Datenbank Archivierungsoptionen für Skype für Business Server ändern.'
+ms.openlocfilehash: af1cc1e6398652efac5be20114dac6bf228ef892
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010078"
 ---
-# <a name="change-archiving-database-options-in-skype-for-business-server-2015"></a>Ändern von Optionen für Archivierungsdatenbanken in Skype for Business Server 2015
+# <a name="change-archiving-database-options-in-skype-for-business-server"></a>Ändern Sie die Archivierung Datenbankoptionen in Skype für Business Server
 
-**Zusammenfassung:** Informationen Sie zum Ändern der Optionen für Archivierungsdatenbanken für Skype für Business Server 2015.
+**Zusammenfassung:** Erfahren Sie, wie Datenbank Archivierungsoptionen für Skype für Business Server ändern.
   
 Wenn Sie die Archivierung mithilfe von SQL Server-Speicher als Archivierungsspeicher für beliebige Benutzer bereitstellen, können Sie die folgenden Datenbank Speicher Änderungen vornehmen:
   
@@ -91,7 +91,7 @@ Um eine der folgenden Änderungen vornehmen, müssen Sie führen Topologie-Gener
 8. Klicken Sie zum Speichern der Konfiguration auf **OK**.
     
     > [!IMPORTANT]
-    > Im Topologie-Generator vorgenommenen Änderungen werden nicht wirksam, bis Sie die neue Topologie veröffentlichen. Weitere Informationen hierzu finden Sie unter [Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype für Business Server 2015](../../deploy/deploy-archiving/add-archiving-databases.md). 
+    > Im Topologie-Generator vorgenommenen Änderungen werden nicht wirksam, bis Sie die neue Topologie veröffentlichen. Weitere Informationen hierzu finden Sie unter [Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype für Business Server](../../deploy/deploy-archiving/add-archiving-databases.md). 
   
 ## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Ändern des Speicherorts der Archivierungsdatenbank mithilfe von Windows PowerShell
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Zusammenfassung: Erfahren Sie, wie den Dienst Persistent Chat Server-Kompatibilität in Skype für Business Server 2015 zu konfigurieren.'
-ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568626"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026616"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren des Kompatibilitätsdienstes auf dem Server für beständigen Chat in Skype for Business Server 2015
  
@@ -36,6 +36,9 @@ Dank der Konformität des beständigen Chats können Administratoren ein Archiv 
 - Eine Datei herunterlädt
     
 Diese Informationen können bei Bedarf von der SQL-Konformitätsdatenbank abgerufen werden. 
+
+> [!NOTE]
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
   
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Konfigurieren des Konformitätsdiensts mit Windows PowerShell
 
@@ -138,7 +141,7 @@ In der folgenden Tabelle werden die Nachrichtenattribute „Type“, „Content�
    
 Jedes „Sender“-Element enthält fünf Attribute: „user name“, „ID“, „email“, „internal“ und „URI“. Diese Attribute sind in der folgenden Tabelle beschrieben.
   
-**"Sender"-Elementattribute**
+**„Sender“-Elementattribute**
 
 |**Attribut**|**Beschreibung**|**Optional/erforderlich**|
 |:-----|:-----|:-----|

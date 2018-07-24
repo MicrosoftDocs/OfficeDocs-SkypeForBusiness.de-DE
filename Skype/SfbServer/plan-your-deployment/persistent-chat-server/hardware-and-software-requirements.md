@@ -3,18 +3,19 @@ title: Hardware- und Softwareanforderungen an den Server für beständigen Chat 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+ms.date: 7/19/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Hardware und Software-Anforderungen für Persistent Chat Server in Skype für Business Server 2015 erhalten.'
-ms.openlocfilehash: 4daf53219937a4ffcfee0e51d80cffb7f1626cf5
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 16a04616a1ec15b4cfffc17cd3a3d9bc271b0dde
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363930"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027003"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Hardware- und Softwareanforderungen an den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -35,6 +36,9 @@ Bevor Sie Persistent Chat Server bereitstellen, müssen Sie sicherstellen, dass 
 - Message Queuing-Software. Wird von den Persistent Chat Server und Kompatibilität für Persistent Chat-Dienst verwendet, wenn bereitgestellt.
     
 Den folgenden Abschnitten werden die spezifischen Anforderungen für Persistent Chat Server und die Datenbank, die die beständigen Chat Daten gespeichert werden.
+
+> [!NOTE] 
+> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
   
 ## <a name="front-end-server-requirements"></a>Anforderungen an den Front-End-Server
 

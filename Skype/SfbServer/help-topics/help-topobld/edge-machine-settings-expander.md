@@ -3,7 +3,7 @@ title: Edgecomputereinstellungen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 description: 'Führen Sie folgende Schritte aus, um die Eigenschaften für einen Server in einem Pool von Edge-Servern zu bearbeiten:'
-ms.openlocfilehash: 04b8d8efc455203e49aeb81e533604a405e37cc5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d3e2de296dc575d902422f2263e234f4a8ae1fd
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985367"
 ---
 # <a name="edge-machine-settings-expander"></a>Edgecomputereinstellungen
  

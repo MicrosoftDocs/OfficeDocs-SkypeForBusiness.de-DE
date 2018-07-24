@@ -1,9 +1,8 @@
 ---
-title: Hohe Verfügbarkeit der Dateifreigabe in Skype for Business Server 2015
+title: Hohen Verfügbarkeit in Skype-Dateifreigabe für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: Informationen Sie zu sicherstellen hoher Verfügbarkeit für Ihre Dateifreigaben in Skype für Business Server unter Verwendung von DFS.
-ms.openlocfilehash: f96e4aaca70c501425528b12207eeab01027c9a9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 645aa70ffc0c42cddb6941c9766cb91bed898dc8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989909"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server-2015"></a>Hohe Verfügbarkeit der Dateifreigabe in Skype for Business Server 2015
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Hohen Verfügbarkeit in Skype-Dateifreigabe für Business Server
  
 Informationen Sie zu sicherstellen hoher Verfügbarkeit für Ihre Dateifreigaben in Skype für Business Server unter Verwendung von DFS.
   

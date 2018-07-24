@@ -1,30 +1,30 @@
 ---
-title: Anzeigen von Informationen zu Benutzer-PINs in Skype for Business Server 2015
+title: Benutzer anzeigen PIN-Informationen in Skype Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 'Zusammenfassung: Benutzer der PIN-Informationen in Skype Business Server 2015 anzeigen'
-ms.openlocfilehash: 2521c9edba0b16eda6ea799b6b968a8c57bba245
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Benutzer der PIN-Informationen in Skype Business Server anzeigen'
+ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008559"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>Anzeigen von Informationen zu Benutzer-PINs in Skype for Business Server 2015
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>Benutzer anzeigen PIN-Informationen in Skype Business Server
  
-**Zusammenfassung:** Benutzer anzeigen PIN-Informationen in Skype Business Server 2015.
+**Zusammenfassung:** Benutzer anzeigen PIN-Informationen in Skype Business Server.
   
-Um eine Zugriffsnummer für Einwahl Konferenz als authentifizierter Benutzer teilzunehmen, erfordert einen Skype für Benutzer mit Active Directory-Domänendienste (AD DS) Anmeldeinformationen Business Server 2015 eine persönliche Identifikationsnummer (PIN). Sie können einen Benutzer-PIN-Informationen von Skype für Business Server-Systemsteuerung anzeigen.
+Um eine Zugriffsnummer für Einwahl Konferenz als authentifizierter Benutzer teilzunehmen, erfordert einen Skype für Business Server-Benutzer mit Active Directory-Domänendienste (AD DS) Anmeldeinformationen eine persönliche Identifikationsnummer (PIN). Sie können einen Benutzer-PIN-Informationen von Skype für Business Server-Systemsteuerung anzeigen.
   
 > [!NOTE]
-> Sie können Statusinformationen PIN, z. B., ob die PIN-Nummer festgelegt wurde oder wenn die PIN-Nummer der letzten Änderung anzeigen, aber nicht die aktuelle PIN anhand des PIN-Status angezeigt. Wenn ein Benutzer seine PIN verloren gegangen ist, können Sie es zurücksetzen, indem Sie den Verfahren im [eines Benutzers einwahlkonferenzen in Skype für Business Server 2015 PIN festlegen](set-a-user-s-dial-in-conferencing-pin.md)
+> Sie können Statusinformationen PIN, z. B., ob die PIN-Nummer festgelegt wurde oder wenn die PIN-Nummer der letzten Änderung anzeigen, aber nicht die aktuelle PIN anhand des PIN-Status angezeigt. Wenn ein Benutzer seine PIN verloren gegangen ist, können Sie es zurücksetzen, durch die Verfahren in [eines Benutzers einwahlkonferenzen in Skype für Business Server PIN festlegen](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Zum Anzeigen von PIN eines Benutzers in Skype Business Server-Systemsteuerung
 
@@ -74,21 +74,18 @@ Zum Anzeigen von PIN-Informationen für einen Benutzer geben Sie einen Befehl ä
 
 Es werden etwa folgende Informationen zurückgegeben:
 
-  ```
-  Identity          : sip:kenmyer@litwareinc.com
+<pre>
+Identity          : sip:kenmyer@litwareinc.com
 IsPinSet          : False
 IsLockedOut       : False
 LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
-  ```
+</pre>
 
 Weitere Informationen finden Sie im Hilfethema zum [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) -Cmdlet.
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Einrichten eines Benutzers einwahlkonferenzen PIN in Skype für Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+[Einrichten eines Benutzers einwahlkonferenzen PIN in Skype für Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Sperren oder Entsperren einer Benutzer-PIN in Skype für Business Server 2015](lock-or-unlock-a-user-pin.md)
-
+[Sperren oder Entsperren einer Benutzer-PIN in Skype für Business Server](lock-or-unlock-a-user-pin.md)

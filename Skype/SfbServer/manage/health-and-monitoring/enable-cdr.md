@@ -1,24 +1,24 @@
 ---
-title: Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server 2015
+title: Aktivieren Sie die Aufzeichnung von kommunikationsdatensätzen in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Zusammenfassung: Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (CDR) Datensätze in Skype für Business Server 2015 zu aktivieren.'
-ms.openlocfilehash: 3fe33f3cfde310b3674c125b7eb8ab1bf04f7c03
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (CDR) Datensätze in Skype für Business Server aktivieren.'
+ms.openlocfilehash: 55fafd037e271166eaf94b460f656b811720e00f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995741"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server-2015"></a>Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server 2015
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Aktivieren Sie die Aufzeichnung von kommunikationsdatensätzen in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (CDR) Datensätze in Skype für Business Server 2015 zu aktivieren.
+**Zusammenfassung:** Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (CDR) Datensätze in Skype für Business Server aktivieren.
   
 Bei der Aufzeichnung von Kommunikationsdatensätzen werden Nutzungs- und Diagnoseinformationen über Peer-to-Peer-Aktivitäten aufgezeichnet, z. B. Chat, VoIP-Anrufe (Voice over Internet Protocol), Anwendungsfreigabe, Dateiübertragung und Besprechungen. Anhand der Nutzungsdaten kann die Rendite berechnet werden und die Diagnosedaten können zur Problembehandlung bei Peer-to-Peer-Aktivitäten und Besprechungen eingesetzt werden. 
   
@@ -29,7 +29,7 @@ Verwenden Sie das folgende Verfahren, um die Aufzeichnung von Kommunikationsdate
   
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>So aktivieren Sie KDS mit Skype für Business Server-Systemsteuerung
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
     

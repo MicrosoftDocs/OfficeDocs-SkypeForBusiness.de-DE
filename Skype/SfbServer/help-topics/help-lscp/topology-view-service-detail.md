@@ -3,7 +3,7 @@ title: Anzeigen von Dienstdetails Topologie
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: dd0ed2725419a063eaea18d5197ffb294a7191df
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 78af94ba76f75e56a65e5a756f68e77231cfc2bc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000061"
 ---
 # <a name="topology-view-service-detail"></a>Topologie: Anzeigen von Dienstdetails
  

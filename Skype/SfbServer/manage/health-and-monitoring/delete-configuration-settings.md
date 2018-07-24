@@ -1,28 +1,28 @@
 ---
-title: Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für die Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server 2015
+title: Löschen einer vorhandenen Auflistung von KDS-Konfigurationseinstellungen in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: 'Zusammenfassung: Erfahren Sie, wie KDS-Konfigurationseinstellungen in Skype für Business Server 2015 zu entfernen.'
-ms.openlocfilehash: d7379817b808ac800694c01014469fe0d159d68f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie KDS-Konfigurationseinstellungen in Skype für Business Server zu entfernen.'
+ms.openlocfilehash: ed8f729d78ea64b230d91d9142d0ba7dae743b0e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003699"
 ---
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server-2015"></a>Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für die Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server 2015
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Löschen einer vorhandenen Auflistung von KDS-Konfigurationseinstellungen in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie KDS-Konfigurationseinstellungen in Skype für Business Server 2015 zu entfernen.
+**Zusammenfassung:** Erfahren Sie, wie Sie KDS-Konfigurationseinstellungen in Skype für Business Server entfernen.
   
 Die Funktion zum Aufzeichnen von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfolgen von Peer-to-Peer-, VoIP- und Konferenzanrufen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.
   
-Bei der Installation von Skype für Business Server 2015, ein einzelnes wird die globale Auflistung von KDS-Konfigurationseinstellungen für Sie erstellt. Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können. Prinzipiell haben Einstellungen auf Standortebene Vorrang vor globalen Einstellungen. Wenn Sie die Einstellungen auf Standortebene entfernen, werden die KDS-Daten (Kommunikationsdatensätze) an diesem Standort mithilfe von globalen Einstellungen verwaltet.
+Bei der Installation von Skype für Business Server, einer einzelnen wird die globale Auflistung von KDS-Konfigurationseinstellungen für Sie erstellt. Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können. Prinzipiell haben Einstellungen auf Standortebene Vorrang vor globalen Einstellungen. Wenn Sie die Einstellungen auf Standortebene entfernen, werden die KDS-Daten (Kommunikationsdatensätze) an diesem Standort mithilfe von globalen Einstellungen verwaltet.
   
 Beachten Sie, dass Sie auch "die globalen Einstellungen löschen können". Allerdings werden die globalen Einstellungen dabei nicht entfernt. Stattdessen werden alle Eigenschaften in dieser Auflistung auf die Standardwerte zurückgesetzt. Beispielsweise ist in der Auflistung von KDS-Konfigurationseinstellungen standardmäßig die Löschung aktiviert. Angenommen, Sie ändern die globalen Einstellungen, sodass die Löschung deaktiviert wurde. Wenn Sie später die globalen Einstellungen löschen, werden alle Eigenschaften auf ihre Standardwerte zurückgesetzt. In diesem Fall bedeutet das, dass die Bereinigung wieder aktiviert ist.
   
@@ -70,5 +70,5 @@ Weitere Informationen finden Sie im Hilfethema zum [Remove-CsCdrConfiguration](h
   
 ## <a name="see-also"></a>Siehe auch
 
-[Manuelles Löschen der KDS- und Quality of Experience-Datenbanken in Skype für Business Server 2015](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Manuelles Löschen der KDS- und Quality of Experience-Datenbanken in Skype für Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren Ihrer Skype Business Server 2015 Infrastruktur für System Center Operations Manager entwickelt.'
-ms.openlocfilehash: 998413a20f775f48cedfc501650d7562850c9965
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20994962"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Verwalten von Skype for Business Server 2015 mithilfe von SCOM Management Packs
  
@@ -41,7 +42,7 @@ Der Management Packs mit System Center Operations Manager 2007 R2 (64-Bit) verwe
   
 |**Konfiguration**|**Unterstützt?**|
 |:-----|:-----|
-|Betriebssystem Windows Server 2008 R2  <br/> Betriebssystem Windows Server 2012 R2  <br/> |Ja. Beide auf Skype für Business Server 2015 Server und synthetische Transaktion Watcher-Knoten.  <br/> |
+|Windows Server 2008 R2-Betriebssystem  <br/> Betriebssystem Windows Server 2012 R2  <br/> |Ja. Beide auf Skype für Business Server 2015 Server und synthetische Transaktion Watcher-Knoten.  <br/> |
 |Clusterserver  <br/> |Nicht unterstützt.  <br/> |
 |Agentenlose Überwachung  <br/> |Nicht unterstützt.  <br/> |
 |Virtuelle Umgebung  <br/> |Ja.  <br/> |
@@ -95,7 +96,7 @@ Die folgenden Features sind neu in Skype für Business Server 2015 Management Pa
 
 Die Skype für Business Server 2015 Management Pack nutzt eine Vielzahl von Features, mit denen Sie erkennen und Problemdiagnose. Diese Features bieten in Echtzeit Einblick in die Integrität einer Skype für Business Server 2015-Umgebung.
   
-|**Monitoring-Szenario**|**Beschreibung**|
+|**Überwachungsszenario**|**Beschreibung**|
 |:-----|:-----|
 |Synthetische Transaktionen  <br/> | Windows PowerShell-Cmdlets zum Testen und hohe Verfügbarkeit von Szenarien wie etwa Sign in Anwesenheitsinformationen, Sofortnachrichten und Konferenzen für Benutzer dazu beitragen. <br/> Die synthetischen Transaktionen können von einem beliebigen geografischen Standort wie innerhalb des Unternehmens, außerhalb des Unternehmens und in Zweigstellen ausgeführt werden.  <br/> Wenn bei einer synthetischen Transaktion ein Fehler auftritt, werden HTML-Protokolle erstellt, um die genaue Art des Ausfalls zu ermitteln. Hierzu gehören die Ermittlung, welche Aktion fehlgeschlagen ist, die Wartezeit jeder Aktion, die Befehlszeile zum Ausführen des Tests und der jeweils aufgetretenen Fehler.  <br/> |
 |Warnungen zur Anrufzuverlässigkeit  <br/> |Kommunikationsdatensätze (KDS) von Skype für Business Server 2015 Server geschrieben wider, ob Benutzer zu einem Anruf eine Verbindung herstellen können, oder warum ein Gespräch beendet wird. Warnungen zur Anrufzuverlässigkeit fragen die KDS-Datenbank ab, um Warnungen zu erstellen, die anzeigen, wenn eine hohe Zahl von Benutzern Verbindungsprobleme bei Peer-zu-Peer-Anrufen oder einfachen Konferenzfunktionen haben.  <br/> Das Szenario deckt Audioanrufe, Peer-zu-Peer-Chatnachrichten und sonstige Konferenzfunktionen ab.  <br/> |
@@ -117,7 +118,7 @@ Warnungen werden in den folgenden Kategorien klassifiziert:
 
 Skype für Business Server 2015 Management Packs bieten eine erhöhte Abdeckung für Benachrichtigungen über synthetische Transaktionen. Synthetische Transaktionen sind in das Operations Manager Management Pack integrierte Windows PowerShell-Cmdlets zum Testen von End-to-End-Benutzerszenarios. Wenn Sie einen Server zum Ausführen synthetischer Transaktionen benennen, werden diese Cmdlets vom Management Pack regelmäßig ausgelöst. Fehler aufgrund einer synthetischen Transaktion generieren eine statusbehaftete Warnung. Hier sind unterstützte synthetische Transaktionen für Skype für Business Server 2015:
   
-**Synthetische Transaktionen unterstützt für Registrierung, Anwesenheit und Kontakte**
+**Unterstützte synthetische Transaktionen für Registrierung, Anwesenheit und Kontakte**
 
 ||||
 |:-----|:-----|:-----|
@@ -133,8 +134,11 @@ Skype für Business Server 2015 Management Packs bieten eine erhöhte Abdeckung 
 |:-----|:-----|:-----|
 |6  <br/> |Peer-zu-Peer-Chatnachrichten  <br/> |Verfügbar in Lync Server 2010 und darüber hinaus  <br/> |
 |7  <br/> |Peer-zu-Peer-Audio/Video  <br/> |Verfügbar in Lync Server 2010 und darüber hinaus  <br/> |
-|8  <br/> |MCX-Peer-zu-Peer-Chatnachrichten (Mobiltelefon)  <br/> |Verfügbar in der September 2011-Version von Lync Server 2010 und darüber hinaus  <br/> |
-   
+|8  <br/> |MCX-Peer-zu-Peer-Chatnachrichten (Mobiltelefon)  <br/> |Verfügbar in der September 2011 Version von Lync Server 2010 zu Skype für Business 2015  <br/> |
+ 
+> [!NOTE]
+> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
+  
 **Unterstützte synthetische Transaktionen für Konferenzen und beständigen Chat**
 
 ||||
@@ -155,7 +159,7 @@ Skype für Business Server 2015 Management Packs bieten eine erhöhte Abdeckung 
 |17  <br/> |A/V-Edgekonnektivität  <br/> |Verfügbar in Lync Server 2013 und darüber hinaus  <br/> |
 |18  <br/> |A/V-Edgekonnektivität, Exchange Unified Nachricht-Konnektivität (Voicemail)  <br/> |Verfügbar in Lync Server 2013 und darüber hinaus  <br/> |
 |19  <br/> |PSTN-Peer-zu-Peer-Anrufe  <br/> |Verfügbar in Lync Server 2010 und darüber hinaus  <br/> |
-|20  <br/> |XMPP-Chatnachrichten (Verbund)  <br/> |Verfügbar in Lync Server 2013 und darüber hinaus  <br/> |
+|20  <br/> |XMPP-Chatnachrichten (Verbund)  <br/> |Verfügbar in Lync Server 2013 und Skype für Business 2015  <br/> |
 |21  <br/> |Video-Interoperabilität-Server  <br/> |Neu in Skype für Business Server 2015  <br/> |
    
 ## <a name="how-health-rolls-up"></a>Integritäts-Rollup
@@ -250,7 +254,4 @@ Weitere Informationen zum Operations Manager finden Sie in den folgenden Blogs:
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Skype für Business Server 2015-Verwaltungstools](../../management-tools/management-tools.md)
-

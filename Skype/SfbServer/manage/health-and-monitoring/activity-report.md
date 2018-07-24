@@ -1,24 +1,24 @@
 ---
-title: Konferenzaktivitätsbericht in Skype for Business Server 2015
+title: Konferenzaktivitätsbericht in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 'Zusammenfassung: Informationen Sie zu den Konferenzaktivitätsbericht in Skype für Business Server 2015 verwendet.'
-ms.openlocfilehash: 9655858acf63dc93b3441cce7c94def7444cbcf1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zu den Konferenzaktivitätsbericht in Skype für Business Server verwendet wird.'
+ms.openlocfilehash: ae88379434bdd33882721ba07ecc311b457b4000
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997484"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server-2015"></a>Konferenzaktivitätsbericht in Skype for Business Server 2015
+# <a name="conference-activity-report-in-skype-for-business-server"></a>Konferenzaktivitätsbericht in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Konferenzaktivitätsbericht in Skype für Business Server 2015 verwendet.
+**Zusammenfassung:** Informationen Sie zu den Konferenzaktivitätsbericht in Skype für Business Server verwendet wird.
   
 Mit dem Konferenzaktivitätsbericht können Fragen wie diese leicht beantwortet werden: Wie viele Konferenzen werden täglich gehalten und wann werden diese Konferenzen gehalten? Derartige Informationen sind an sich nützlich und können außerdem für die Problembehandlung verwendet werden. Nehmen wir z. B. an, dass sich Benutzer darüber beschweren, dass das Netzwerk mittags besonders langsam zu sein scheint. Ein kurzer Blick auf die Aktivität Konferenz meldet möglicherweise vorschlagen mögliche Ursache: weitaus größere Konferenzen werden zwischen 10:00 Uhr und 2:00 Uhr dann zu einem anderen Zeitpunkt geplant wird.
   
@@ -26,7 +26,7 @@ Verursacht das langsame Netzwerk Probleme, können Sie Benutzern empfehlen, Konf
   
 ## <a name="accessing-the-conference-activity-report"></a>Zugreifen auf den Konferenzaktivitätsbericht
 
-Der Konferenzaktivitätsbericht wird durch Klicken auf einen der folgenden Metriken aus dem [Conference Summary Report in Skype für Business Server 2015](conference-summary-report.md) zugegriffen:
+Konferenzaktivitätsbericht wird aus dem [Conference Summary Report in Skype für Business Server](conference-summary-report.md) zugegriffen, indem Sie auf einen der folgenden Metriken:
   
 - Konferenzen insgesamt
     
@@ -46,7 +46,7 @@ Standardmäßig wird im Konferenzaktivitätsbericht die Gesamtanzahl der Konfere
 
 Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Konferenzaktivitätsbericht verwenden können.
   
-**Filter im Konferenzaktivitätsbericht Konferenz**
+**Filter im Konferenzaktivitätsbericht**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Konferenzaktivi
   
 **Metriken für Konferenzen nach Pool**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Nein  <br/> |Name des in der Konferenz verwendeten Registrierungspools oder Edgeservers.  <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem die Konferenz stattfand.  <br/> |
@@ -73,7 +73,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Konferenzaktivi
   
 **Metriken für Konferenzen nach Servertyp**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Konferenzservertyp** <br/> |Nein  <br/> | Der Typ des Servers, der in der Konferenz verwendet wird, in der Regel einer der folgenden: <br/>  Webkonferenzserver <br/>  Sofortnachrichten-Konferenzserver <br/>  Telefonkonferenzserver <br/>  A/V-Konferenzserver <br/>  Anwendungsfreigabe <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem die Konferenz stattfand.  <br/> |

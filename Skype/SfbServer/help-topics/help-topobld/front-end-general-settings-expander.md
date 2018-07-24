@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Zum Bearbeiten der Einstellungen eines vorhandenen Front-End-Pools oder Standard Edition-Servers stehen die folgenden Abschnitte zur Verfügung:'
-ms.openlocfilehash: 84b26c929f2f662c93163df2fd73a6e3576a3a97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74a26ca009d0a050babd10e72aeae2e814905cd4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986869"
 ---
 # <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
  
@@ -99,7 +100,7 @@ Zum Bearbeiten oder Angeben weiterer Einstellungen für Webdienste für den Fron
 Geben Sie in **Interne Webdienste** Folgendes an:
   
 > [!CAUTION]
-> Wenn Sie mehrere Front-End-Pool oder Front-End-Server verfügen, muss die externe Webdienste FQDN eindeutig sein. Wenn Sie die externen Webdienste-FQDN des Front-End-Server als **"pool01.contoso.com"**definieren, können nicht Sie beispielsweise **"pool01.contoso.com"** für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Director-Server bereitstellen, den externen FQDN der Webdienste für alle Director definiert oder Director-Pool muss von einem beliebigen anderen Director oder Director eindeutig sein wie gut ab dem Front-End-pool-Pool oder Front-End-Server. Wenn Sie die internen Webdienste durch einen selbst definierten FQDN außer Kraft setzen möchten, jede FQDN muss eindeutig sein von anderen Front-End-Pool, Directors oder Director Pool.
+> Wenn Sie mehrere Front-End-Pool oder Front-End-Server verfügen, muss die externe Webdienste FQDN eindeutig sein. Wenn Sie die externen Webdienste-FQDN des Front-End-Server als **"pool01.contoso.com"** definieren, können nicht Sie beispielsweise **"pool01.contoso.com"** für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Director-Server bereitstellen, den externen FQDN der Webdienste für alle Director definiert oder Director-Pool muss von einem beliebigen anderen Director oder Director eindeutig sein wie gut ab dem Front-End-pool-Pool oder Front-End-Server. Wenn Sie die internen Webdienste durch einen selbst definierten FQDN außer Kraft setzen möchten, jede FQDN muss eindeutig sein von anderen Front-End-Pool, Directors oder Director Pool.
   
 - Wenn Sie **Vollqualifizierten Domänennamen außer Kraft setzen** auswählen, können Sie einen anderen FQDN für die Identität **Interne Webdienste** im Pool angeben. Standardmäßig ist die Einstellung der aktuelle Poolname entsprechend der Definition für den Front-End-Pool.
     
@@ -133,7 +134,7 @@ Für einen Standard Edition-Server können Sie allgemeine Einstellungen sowie Ei
 
 Die folgenden allgemeinen Einstellungen können konfiguriert werden:
   
-- ** FQDN **. Beachten Sie, dass der vollqualifizierte Domänenname nicht geändert werden kann. Sie müssen entfernen und definieren den Standard Edition-Server, um den FQDN mit ihm verbundenes ändern.
+- **FQDN**. Beachten Sie, dass der vollqualifizierte Domänenname nicht geändert werden kann. Sie müssen entfernen und definieren den Standard Edition-Server, um den FQDN mit ihm verbundenes ändern.
     
 - Wählen Sie **Alle konfigurierten IP-Adressen verwenden** oder **Dienstnutzung auf die ausgewählten IP-Adressen beschränken**. Wenn Sie den Dienst auf festgelegte IP-Adressen begrenzen möchten, müssen Sie die primäre IP-Adresse festlegen, die der Server für die gesamte Kommunikation mit Ausnahme des Telefonfestnetzes verwenden soll. Für die Verwendung mit dem Telefonfestnetz wird eine gesonderte IP-Adresse bestimmt. Sie können auch **IPv6 aktivieren** wählen, um IPv6 für diesen Server zu aktivieren.
     

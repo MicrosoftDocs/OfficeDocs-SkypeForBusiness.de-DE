@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: Den Add-in-Seite im Abschnitt beständigen Chat können beständigen Chat Rooms URLs zugeordnet. Diese URLs werden im Client im Chatroom des Erweiterungsbereichs für Unterhaltungen angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins weitere Add-Ins hinzufügen und Verwalter und Ersteller von Chatrooms müssen die Räume mit einem der registrierten Add-Ins verknüpfen, bevor Benutzer dieses Upgrade in ihrem Client sehen.
-ms.openlocfilehash: 701a128095cd2d9e001109fb6623659d189b2fbb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d165f770d7d10b7e1d599a4698561f3f833d7d82
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005874"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Add-In für beständigen Chat – Hauptseite
  
@@ -30,7 +31,7 @@ Add-ins für beständigen Chat Rooms erstellen, finden Sie unter [Configure-add-
 
 Auf der Seite **Add-In** können Sie die folgenden Aufgaben ausführen:
   
-- [Konfigurieren von Add-Ins für Räume dafür in Skype für Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)
+- [Konfigurieren von Add-Ins für beständige Chatrooms in Skype for Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)
     
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>So konfigurieren Sie Add-ins für Chatrooms
 
@@ -56,7 +57,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
 7. Klicken Sie auf **Commit ausführen**.
     
-### 
+## <a name="see-also"></a>Siehe auch
 
 Details zu Persistent Chat Server-Features und Funktionen, finden Sie unter [Planen für Persistent Chat Server in Skype für Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Persistent Chatserver in Skype für Business Server 2015 bereitstellen](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)und [Verwalten Persistent Chat Server in Skype für Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   

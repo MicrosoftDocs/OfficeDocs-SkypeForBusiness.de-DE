@@ -1,24 +1,24 @@
 ---
-title: Angeben der Beibehaltungsdauer für KDS-Daten in Skype for Business Server 2015
+title: Angeben der Beibehaltungsdauer für KDS-Daten in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: 'Zusammenfassung: Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (KDS) für Skype für Business Server 2015 verwalten.'
-ms.openlocfilehash: cb15468f1980f0103c2333676a92ae1ca1280f1b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (KDS) für Skype für Business Server verwalten.'
+ms.openlocfilehash: ce35d8d2cac0968cca912031ec5e406ebe93e2eb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005832"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server-2015"></a>Angeben der Beibehaltungsdauer für KDS-Daten in Skype for Business Server 2015
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Angeben der Beibehaltungsdauer für KDS-Daten in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (KDS) für Skype für Business Server 2015 verwalten.
+**Zusammenfassung:** Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (KDS) für Skype für Business Server verwalten.
   
 In der Standardeinstellung werden Daten zur Aufzeichnung von Kommunikationsdatensätzen (KDS) nach 60 Tagen gelöscht. Sie können die Einstellungen auf der Seite **Aufzeichnung von Kommunikationsdatensätzen** verwenden, um die Daten für einen längeren oder kürzeren Zeitraum zu speichern. Wenn Sie KDS deaktivieren, werden auch Daten gelöscht, die bei aktivierter KDS-Datenerfassung aufgezeichnet wurden.
   
@@ -29,7 +29,7 @@ Verwenden Sie die folgenden Verfahren, um Bereinigungseinstellungen für KDS-Dat
   
 ### <a name="to-specify-retention-of-cdr-data"></a>So geben Sie die Beibehaltungsdauer für KDS-Daten an
 
-1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2015.
+1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
@@ -69,7 +69,4 @@ Weitere Informationen finden Sie im Hilfethema zum [Set-CsCdrConfiguration](http
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Aufzeichnung von kommunikationsdatensätzen (KDS) in Skype für Business Server 2015](call-detail-recording-cdr.md)
-
+[Aufzeichnung von kommunikationsdatensätzen (KDS) in Skype für Business Server](call-detail-recording-cdr.md)

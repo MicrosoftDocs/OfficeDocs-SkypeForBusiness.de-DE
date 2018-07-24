@@ -3,18 +3,18 @@ title: Skype Room System – Hybridbereitstellungen
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/17/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Lesen Sie in diesem Thema erfahren, wie Skype Raum System in einer hybridumgebung bereitstellen.
-ms.openlocfilehash: e4ef63ec39106a2cb35201d43ca012b4ce173911
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997293"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Room System – Hybridbereitstellungen
  
@@ -40,7 +40,7 @@ Zur Veranschaulichung verwenden wir für die lokale Domäne und LyncSample.ccstp
     
 4. Auslösen Directory-Synchronisierung und, nachdem Synchronisierung abgeschlossen ist, stellen Sie sicher, dass Benutzer in AAD zusammenführen und Sie nicht zum Ändern der Eigenschaften des Empfängers Ressourcen im Office365 Exchange Administrationscenter können.
     
-5. Überprüfen der OWA-Konnektivität mit lrstest5@LyncSample.com. (Früher überprüft, ob Sie OWA-Verbindung und die Domäne online verwenden.)
+5. Überprüfen der OWA-Konnektivität mit lrstest5@LyncSample.com. (Zu einem früheren Zeitpunkt haben Sie OWA-Konnektivität mithilfe der Onlinedomäne überprüft.)
     
     Nachdem das Postfach erstellt worden ist, können Sie Set-CalendarProcessing in der Exchange-Online-Verwaltungsshell verwenden, um das Postfach zu konfigurieren. Mehr dazu erfahren Sie in den Schritten 3–6 unter „Lokale Bereitstellungen mit einzelner Gesamtstruktur“.
     

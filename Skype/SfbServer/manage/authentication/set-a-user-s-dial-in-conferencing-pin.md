@@ -1,28 +1,27 @@
 ---
-title: Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server 2015
+title: Einrichten eines Benutzers einwahlkonferenzen PIN in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Zusammenfassung: Festlegen des Benutzers einwahlkonferenzen PIN für Skype für Business Server 2015.'
-ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Zusammenfassung: Festlegen des Benutzers einwahlkonferenzen PIN für Skype für Business Server.'
+ms.openlocfilehash: e5d14af74c208aaf29fffe94937afc1253a032da
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568821"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009382"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server 2015
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Einrichten eines Benutzers einwahlkonferenzen PIN in Skype für Business Server
  
-**Zusammenfassung:** Ein Benutzer einwahlkonferenzen PIN als Skype für das Business Server 2015 festgelegt.
+**Zusammenfassung:** Ein Benutzer einwahlkonferenzen PIN für Skype für Business Server festgelegt.
   
-Um eine Zugriffsnummer für Einwahl Konferenz als authentifizierter Benutzer teilzunehmen, erfordert einen Skype für Benutzer mit Active Directory-Domänendienste (AD DS) Anmeldeinformationen Business Server 2015 eine persönliche Identifikationsnummer (PIN). Wenn ein Benutzer die Konferenz einwählen PIN vergisst oder die PIN nicht mithilfe von Skype für Business Server 2015 festgelegt, können Sie die Benutzer-PIN von Skype Business Server-Systemsteuerung festlegen. Die PIN kann entweder automatisch generiert oder manuell erstellt werden.
+Um eine Zugriffsnummer für Einwahl Konferenz als authentifizierter Benutzer teilzunehmen, erfordert einen Skype für Business Server-Benutzer mit Active Directory-Domänendienste (AD DS) Anmeldeinformationen eine persönliche Identifikationsnummer (PIN). Wenn ein Benutzer die Konferenz einwählen PIN vergisst oder die PIN nicht mithilfe von Skype für Business Server festgelegt, können Sie die Benutzer-PIN von Skype Business Server-Systemsteuerung festlegen. Die PIN kann entweder automatisch generiert oder manuell erstellt werden.
   
 > [!NOTE]
 > Bestimmte Eigenschaften der PIN, beispielsweise die Mindestlänge, können als Richtlinie konfiguriert werden. Zusätzlich zur globalen Richtlinie können Sie eine PIN-Richtlinie für einzelne Standorte oder Benutzer konfigurieren. 
@@ -63,7 +62,7 @@ Um eine Zugriffsnummer für Einwahl Konferenz als authentifizierter Benutzer tei
     
 7. Führen Sie im Dialogfeld **PIN festlegen** einen der folgenden Schritte aus:
     
-   - Um Skype für Business Server 2015 zum Generieren der PIN des Benutzers zu ermöglichen, wählen Sie **Sie gültige PIN automatisch generieren** (Standardeinstellung).
+   - Um Skype für Business Server zum Generieren der PIN des Benutzers zu ermöglichen, wählen Sie **Sie gültige PIN automatisch generieren** (Standardeinstellung).
     
    - Zum Erstellen einer eigenen PIN klicken Sie auf **Bestimmte PIN von Hand eingeben**, klicken Sie auf das Textfeld und geben Sie anschließend eine PIN ein, welche die in Ihren PIN-Richtlinieneinstellungen angegebenen PIN-Anforderungen erfüllt.
     

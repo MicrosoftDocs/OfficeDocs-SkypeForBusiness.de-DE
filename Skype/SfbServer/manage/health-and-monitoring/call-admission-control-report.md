@@ -1,24 +1,24 @@
 ---
-title: Bericht über Anrufsteuerung in Skype for Business Server 2015
+title: Aufrufen des Berichts über Anrufsteuerung in Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Zusammenfassung: Erfahren Sie mehr über die aufrufen Admission Control-Berichte in Skype für Business Server 2015 verwendet.'
-ms.openlocfilehash: 53c3767ad93b7faa4c7f9a7f33213dde21dd7ca5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Erfahren Sie mehr über die aufrufen Admission Control-Berichte in Skype für Business Server verwendet.'
+ms.openlocfilehash: c3828eb890ed8f70c41bc669785278f9be017893
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011246"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server-2015"></a>Bericht über Anrufsteuerung in Skype for Business Server 2015
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Aufrufen des Berichts über Anrufsteuerung in Skype für Business Server
  
-**Zusammenfassung:** Lernen Sie die aufrufen Admission Control-Berichte in Skype für Business Server 2015 verwendet.
+**Zusammenfassung:** Lernen Sie die aufrufen Admission Control-Berichte in Skype für Business Server verwendet.
   
 Der Bericht über Anrufsteuerung bietet Informationen über Peer-to-Peer- und Konferenzsitzungen, die unter Beschränkungen durchgeführt wurden, die über die Anrufsteuerung eingeführt wurden. Die Anrufsteuerung bietet Administratoren eine Möglichkeit, Kommunikationssitzungen auf der Grundlage von Bandbreitenbeschränkungen zuzulassen (oder nicht zuzulassen). Beispielsweise kann ein Administrator Richtlinien erstellen, die die verfügbare Bandbreite für Sprach- und Videoanrufe beschränken. Sobald diese Bandbreitengrenze erreicht ist, können keine neuen Sprach- oder Videoanrufe mehr getätigt werden, bis einer der aktuellen Anrufe beendet worden ist und damit die erforderlichen Netzwerkressourcen freigegeben worden sind.
   
@@ -44,7 +44,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
   
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Anrufsteuerungsbericht verwenden können.
   
-**Call Admission Control Berichtsfilter**
+**Anrufsteuerungsbericht - Filter**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
@@ -58,9 +58,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Anrufsteuerun
 
 In der folgenden Tabelle sind die im Anrufsteuerungsbericht für Peer-to-Peer-Sitzungen (d. h. Sitzungen mit nur zwei Teilnehmern) enthaltenen Informationen aufgeführt.
   
-**Metriken für Peer-zu-Peer-Sitzungen**
+**Metriken für Peer-to-Peer-Sitzungen**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Detail** <br/> |Nein  <br/> |Wenn Sie auf dieses Element klicken, zeigt der Bericht einen detaillierten Peer-to-Peer-Sitzungsbericht für die angegebene Sitzung an.  <br/> |
 |**Absenderbenutzer** <br/> |Ja  <br/> |SIP-Adresse des Benutzers, der die Sitzung initiiert hat.  <br/> |
@@ -77,7 +77,7 @@ In der folgenden Tabelle sind die im Anrufsteuerungsbericht für Konferenzsitzun
   
 **Metriken für Konferenzsitzungen**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Konferenz-URI** <br/> |Ja  <br/> |Eindeutige ID für die Konferenz. Wenn Sie auf dieses Element klicken, zeigt der Bericht die einzelnen Konferenzteilnehmer an.  <br/> |
 |**Organisator** <br/> |Ja  <br/> |SIP-Adresse des Benutzers, der die Sitzung organisiert hat.  <br/> |
@@ -91,7 +91,7 @@ In der folgenden Tabelle sind die im Anrufsteuerungsbericht für einzelne Konfer
   
 **Metriken für einzelne Konferenzteilnehmer**
 
-|**Name**|**Können Sie nach dieser Metrik werden sortiert?**|**Beschreibung**|
+|**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Rolle** <br/> |Nein  <br/> |Rolle (z. B. Referent) des Konferenzteilnehmers.  <br/> |
 |**Teilnehmer** <br/> |Nein  <br/> |SIP-Adresse des Konferenzteilnehmers.  <br/> |

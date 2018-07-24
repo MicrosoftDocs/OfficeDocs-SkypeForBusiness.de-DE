@@ -3,7 +3,7 @@ title: A/v MCU – Erweiterung
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Zum Bearbeiten der Eigenschaften für einen A / V-Konferenzserver-Pool, die Sie bereits definiert haben, gehen Sie folgendermaßen vor:'
-ms.openlocfilehash: df686ad876aaf70b26e9bd402521373ad47d1c37
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3938e667ce381393d96e0856ec595e0176185859
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985655"
 ---
 # <a name="av-mcu-settings-expander"></a>A/v MCU – Erweiterung
  
@@ -33,7 +34,7 @@ Zuordnen ein A / V-Konferenzserver-Pool, wählen Sie den Front-End-Pool oder -po
 > [!NOTE]
 > Wenn kein Front-End-Pools, in angezeigt werden der **Wählen Sie die Front-End-Pools zuordnen zu diesen A / V-konferenzpool** Bereich, haben Sie entweder A verbunden / V-Konferenzserver mit dem Front-End-Pool oder haben keine Konferenzen in die **Features hinzufügen ausgewählt und Funktionalität** Abschnitt der Front-End-Pool-Eigenschaften.
   
-## 
+
 
 Klicken Sie abschließend auf **OK** , um führen Sie die Bearbeitung des A / V-Konferenzserver pool-Einstellungen. Klicken Sie auf **Abbrechen**, um sämtliche Änderungen zu verwerfen.
   

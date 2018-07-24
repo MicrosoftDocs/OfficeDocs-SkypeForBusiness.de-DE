@@ -3,18 +3,19 @@ title: Beispieldatenbankabfragen für beständigen Chat
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Dieser Abschnitt enthält Beispielabfragen für die Datenbank für beständigen Chat.
-ms.openlocfilehash: 1e2d457a31061dcfb3c332a067069cbd4a8a9ebd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ab4db61e70108bb922646add050ddcf7f52951b1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025919"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Beispieldatenbankabfragen für beständigen Chat
  
@@ -28,7 +29,6 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   WHERE channelId = nodeID AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
   GROUP BY nodeName
   ORDER BY ChatMessages DESC
-
 ```
 
 Verwenden Sie das folgende Beispiel, um eine Liste der aktivsten Benutzer nach einem bestimmten Datum abrufen.
@@ -39,7 +39,6 @@ SELECT prinName as Name, count(*) as ChatMessages
   WHERE prinID = userId AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
   GROUP BY prinName
   ORDER BY ChatMessages DESC
-
 ```
 
 Verwenden Sie das folgende Beispiel zum Abrufen einer Liste aller Benutzer, die jemals eine Nachricht mit "Hello World" gesendet.
@@ -77,5 +76,3 @@ SELECT prinName
   where inv.prinID = 5 AND inv.prinID = p.prinID and inv.nodeID = n.nodeID
   ORDER BY invID DESC
 ```
-
-
