@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.'
-ms.openlocfilehash: 88a9f7d475bb31912646bc44cb89924195009dbb
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
-ms.translationtype: HT
+ms.openlocfilehash: c0ff92de1c822a49fe94deec9a21f100ed291d35
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20327004"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967452"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Serveranforderungen für Skype for Business Server 2015
  
@@ -98,7 +98,29 @@ Wenn die von Ihnen gewünschte SQL Server-Edition nicht aufgeführt wird, könn
   
 > [!NOTE]
 > Außerdem müssen Sie SQL Server Reporting Services für die Monitoring Server-Rolle installieren. Dazu sollten Sie jedoch wissen, dass dies mit SQL AlwaysOn erst nach dem RTM unterstützt wird. 
+
+### <a name="microsoft-exchange-storage"></a>Microsoft Exchange-Speicher
+Dateien mit Besprechungsinhalten, z. B. PowerPoint-Präsentationen, werden als Anlagen archiviert. Wenn Sie Skype für Geschäftsdaten für Archivierung mit Exchange Kompatibilitätsdaten speichern möchten, müssen Sie Exchange für Ihre Exchange-Bereitstellung verwenden und stellen Sie sicher, dass die maximale Speichergröße Speicherung von der Besprechung Inhaltsdateien unterstützt. Sie müssen vor dem Bereitstellen und Aktivieren der Archivierung die Option Microsoft Exchange-Integration mit Exchange bereitstellen. 
+    
+    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
+## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Hardware- und Softwareanforderungen für die Archivierung in Skype for Business Server 2015
+  
+Archivierung ist keine Serverrolle definierten, Sie müssen nicht auf einen separaten Server für die Archivierung zu installieren. Unified Datenerfassungs-Agenten werden installiert und automatisch auf jedem Enterprise Edition-Front-End-Pool und jedem Standard Edition-Server aktiviert. Sie müssen Ihre Archivierungstopologie mithilfe des Topologie-Generators aktivieren und veröffentlichen.
+    
+Archivierung werden die Skype für Business Server-Dateispeicher für die temporäre Speicherung von Dateien, sodass keine separate dateispeicherung für die Archivierung eingerichtet werden mit Besprechungsinhalten verwendet.
+    
+Microsoft Message Queuing ist nicht erforderlich.
+    
+Die Infrastruktur für Archivierungsspeicher muss eingerichtet werden. Dazu gehört das entweder Exchange auswählen oder Archivierungsspeicher mithilfe von SQL Server.   Skype für Business-Archivierung infrastrukturanforderungen sind die gleichen wie bei der Bereitstellung von Skype für Business Server. Weitere Informationen hierzu finden Sie unter [Anforderungen für Ihre Skype für Business-Umgebung](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). 
+  
+> [!NOTE]
+> Zur Unterstützung von Benutzern, die nicht auf Exchange-Servern verwaltet werden, oder wenn Sie nicht die Option Microsoft Exchange-Integration verwenden möchten, müssen Sie Archivierungsspeicher mit einer 64-Bit-SQL Server-Datenbank bereitstellen. 
+    
+Sie müssen die SQL Server-Plattformen vor der Bereitstellung und Aktivieren der Archivierung einrichten. Wenn das Konto, das zum Veröffentlichen der Topologie verwendet werden soll, mit den erforderlichen Administratorrechten und -berechtigungen ausgestattet ist, können Sie die Archivierungsdatenbank (LcsLog) beim Veröffentlichen der Topologie erstellen. Sie können die Datenbank auch später erstellen, z. B. im Rahmen des Installationsverfahrens. Ausführliche Informationen zu SQL Server finden Sie unter der [SQL Server-Dokumentation](https://go.microsoft.com/fwlink/p/?linkID=129045).
+    
+Die Auslastung im Zuge der Archivierung kann erheblich steigen. Aus diesem Grund sollten Sie sicherstellen, dass Speicherplatz für Front-End-Servern geeignet ist, auf dem die Archivierung aktiviert ist.
+
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL-Spiegelung, SQL-Clustering und SQL AlwaysOn
 
 Die Verwendung von SQL-Spiegelung oder SQL-Clustering mit Skype for Business Server 2015 wird unterstützt. SQL-Spiegelung wird über den Skype for Business Server-Topologie-Generator eingerichtet. Wenn Sie SQL-Clustering einrichten möchten, verwenden Sie SQL Server.
@@ -129,8 +151,11 @@ Sechzehn Knoten:
 Falls Sie mehr über die SQL-Spiegelung lesen möchten, bieten wir Ihnen ein Thema zur hohen Verfügbarkeit bei Back-End-Servern in Skype for Business Server 2015 an. Unter „Konfigurieren von SQL Server-Clustering für Skype for Business Server 2015“ finden Sie die Schritte zum Vorbereiten von Clustering. Außerdem gibt es weitere Links zum Thema Failoverclustering für SQL, und zwar für [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx) und [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 > [!NOTE]
-> Neu in dieser Version ist die Unterstützung von SQL AlwaysOn. Weitere Informationen dazu finden Sie im Thema [Hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
-  
+> Neue ist für die Version 2015 Unterstützung für SQL immer auf. Weitere Informationen dazu finden Sie im Thema [Hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+
+> [!NOTE]
+> SQL-Spiegelung wird steht in Skype für Business Server 2015 jedoch nicht mehr in unterstützt Skype für Business Server 2019. Die AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL clustering Failovermethoden werden bevorzugt mit Skype für Business Server 2019.  
+
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment"></a>Software, die vor einer Skype for Business Server 2015-Bereitstellung installiert werden muss
 <a name="Software"> </a>
 
