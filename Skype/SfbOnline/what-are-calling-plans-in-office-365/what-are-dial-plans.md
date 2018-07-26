@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, welche Art von Dial Plans (Aufrufen von PSTN-Wählpläne) aufrufen mit Office 365 verfügbar sind und wie Sie eine für Ihre Organisation wählen.  '
-ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 27e65cb0651171f7e0a5d0262db0072b4d620851
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933165"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145293"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -77,7 +77,7 @@ Wenn Sie einen neuen Wählplan erstellen, müssen Sie die erforderlichen Informa
   
 ### <a name="name-and-simple-name"></a>Name und einfacher Name
 
-Für Benutzer-Wählpläne sollten Sie angeben, dass ein beschreibender Namen, der den Benutzern den Wählplan identifiziert zugewiesen wird. Der Wählplan einfacher Name ist vorab aufgefüllten durch eine Zeichenfolge, die von der Wählplanname abgeleitet ist. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. Der Wert des einfachen Name darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
+Für Benutzer-Wählpläne sollten Sie angeben, dass ein beschreibender Namen, der den Benutzern den Wählplan identifiziert zugewiesen wird. Der Wählplan einfacher Name ist vorab aufgefüllten durch eine Zeichenfolge, die von der Wählplanname abgeleitet ist. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. Der Wert Einfacher Name darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
   
 ### <a name="description"></a>Beschreibung
 
@@ -127,7 +127,7 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 |7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond.  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt.  <br/>|
 |RedmondOperator  <br/> |Übersetzt 0 in die Vorwahl des Netzbetreibers von Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 wird in +14255550100 übersetzt.  <br/> |
 |RedmondSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222).  <br/> |^ 6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |62220100 wird in +14255550100 übersetzt.  <br/> |
-|5digitRange  <br/> |Übersetzt fünfstellige Durchwahlnummern beginnend mit dem Ziffernbereich von 3 bis einschließlich 7.  <br/> |^ ([3 bis 7]\\d{4}) $  <br/> |+142570$1  <br/> |54567 wird in +14255554567 übersetzt.  <br/> |
+|5digitRange  <br/> |Übersetzt fünfstellige Durchwahlnummern beginnend mit dem Ziffernbereich von 3 bis einschließlich 7.  <br/> |^ ([3 bis 7]\\d{4}) $  <br/> |+ 142555$ 1 <br/> |54567 wird in +14255554567 übersetzt.  <br/> |
 |PrefixAdded  <br/> |Fügt ein Länderpräfix vor einer neunstelligen Nummer mit Einschränkungen für die erste und dritte Ziffer hinzu.  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |4255554567 wird in 14255554567 übersetzt.  <br/> |
 |Keine Übersetzung  <br/> |Gleicht 5 Ziffern ab, ohne eine Übersetzung durchzuführen.  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |34567 wird in 34567 übersetzt.  <br/> |
    

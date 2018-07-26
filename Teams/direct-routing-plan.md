@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: f38748988268fdb2d515cf8a09550f4826b47c70
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084530"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148517"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
 
@@ -76,7 +76,6 @@ Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen f
 
 Benutzer von direkten Routing müssen die folgenden Lizenzen im Office 365 zugewiesen: 
 
-- Skype for Business Online (Plan 2) 
 - Microsoft Telefonsystem 
 - Microsoft Teams 
 - Microsoft-Audiokonferenzen 
