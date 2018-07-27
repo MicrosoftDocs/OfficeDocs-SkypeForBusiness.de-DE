@@ -3,7 +3,7 @@ title: Microsoft-Teams, Ressourcen für Bildungseinrichtungen-admins
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/18/2018
+ms.date: 07/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -12,19 +12,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b411722b94e7a540fe5af4dc8b098ad935876c00
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995987"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21251884"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft-Teams, Ressourcen für Bildungseinrichtungen-admins
 ==============================================
 
 ## <a name="adoption-content"></a>Annahme Inhalte
 
-Erstellen von benutzerdefinierten e-Mail-Nachrichten, Poster und Handzettel mit Informationen und das Logo Ihrer Schule. Oder kann jetzt zu druckenden Poster und Handzettel verwenden, um Ihrer Organisation Microsoft-Teams, Mitarbeiterinformationen abzurufen.
+Erstellen von benutzerdefinierten e-Mail-Nachrichten, Poster und Handzettel mit Informationen und das Logo Ihrer Schule. Oder kann jetzt zu druckenden Poster, Handzettel und andere Handzettel verwenden, um Ihrer Organisation Microsoft-Teams, Mitarbeiterinformationen abzurufen.
 
 |Anpassbare e-Mail-Vorlagen |         |
 |---------|---------|
@@ -37,6 +37,10 @@ Erstellen von benutzerdefinierten e-Mail-Nachrichten, Poster und Handzettel mit 
 |**Einführung in Microsoft-Teams für Bildungseinrichtungen - Werte**<br>[Laden Sie die anpassbare DOCX-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[Laden Sie die kann jetzt zu druckenden PDF-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Screenshot der Einführung von Microsoft-Teams für Bildungseinrichtungen - Werte Poster.](media/poster-intro-values.png)    |**Einführung in Microsoft-Teams für Bildungseinrichtungen - Features**<br>[Laden Sie die anpassbare DOCX-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[Laden Sie die kann jetzt zu druckenden PDF-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Screenshot der Einführung von Microsoft-Teams für Bildungseinrichtungen - Poster Features.](media/poster-intro-features.png)          |
 |**Mit Microsoft-Teams - Werte Webinhalte**<br>[Laden Sie die anpassbare DOCX-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[Laden Sie die kann jetzt zu druckenden PDF-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Screenshot des der Empower mit Microsoft-Teams - Werte Poster.](media/poster-empower-values.png)   |**Mit Microsoft-Teams - Features Webinhalte**<br>[Laden Sie die anpassbare DOCX-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[Laden Sie die kann jetzt zu druckenden PDF-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Screenshot des der Empower mit Microsoft-Teams - Poster Features.](media/poster-empower-features.png)          |
 |**Der Wert der Microsoft-Teams für Bildungseinrichtungen**<br>[Laden Sie die anpassbare DOCX-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Laden Sie die kann jetzt zu druckenden PDF-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![Screenshot der der Wert der Microsoft-Teams, Handzettel "Education".](media/flyer-values.png)    |**Die Features von Microsoft-Teams für Bildungseinrichtungen**<br>[Laden Sie die anpassbare DOCX-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Laden Sie die kann jetzt zu druckenden PDF-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![Screenshot der Features von Microsoft-Teams, Handzettel "Education".](media/flyer-features.png)        |
+
+|Ready-Print-Pakete  |        |
+|---------|---------|
+|**Erste Schritte mit Microsoft-Teams für Bildungseinrichtungen - Tipps und Tricks**<br>[Laden Sie die kann jetzt zu druckenden PDF-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Screenshot der Get Schritte mit Microsoft-Teams für Bildungseinrichtungen Paket.](media/package-teams-edu-get-started.png)    |
 
 ## <a name="call-to-action"></a>Handlungsaufforderung
 
