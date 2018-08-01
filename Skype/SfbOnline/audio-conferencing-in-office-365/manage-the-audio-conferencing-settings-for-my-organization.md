@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Finden Sie unter Schritte aus, um eine einwahlkonferenzen Lizenz und Konferenz-ID eines Benutzers und viele andere Einstellungen für einwahlkonferenzen zuweisen. '
-ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: f3ab0f2d1ac32de5744dc4ac994e8030a1540ba4
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703668"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21642475"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Verwalten der Audiokonferenzeinstellungen für meine Organisation
 
@@ -86,7 +86,7 @@ Möglicherweise ist es einfacher für Sie, alle Audiokonferenzeinstellungen für
 - Sie können auch Windows PowerShell verwenden und Folgendes ausführen: 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
     Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) können Sie weitere Einstellungen für Ihre Organisation (unter anderem E-Mail) verwalten.

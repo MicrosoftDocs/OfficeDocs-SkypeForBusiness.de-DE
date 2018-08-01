@@ -8,7 +8,7 @@ AppliesTo:
 Hinweis: Dies ist eine Vorschau oder frühe Version Feature.
 
 ## <a name="overview"></a>Übersicht
-Live Ereignisse in Microsoft 365 können Benutzer Video- und große online Publikum Content übertragen.  Microsoft 365 live Ereignisse verschiebt die live-Video zu einer neuen Ebene streaming, hinausgehen, was mit Skype Besprechung übertragen zuvor möglich war, Förderung der Verbindung während des gesamten Projekts Lebenszyklus mit Teilnehmer vor, während und nach live-Ereignissen. Sie können ein live-Ereignis erstellen, unabhängig von dessen Speicherort Ihrer Benutzergruppe, Team oder Community befindet sich mit Microsoft-Stream, Microsoft-Teams oder Yammer.  
+Live Ereignisse in Microsoft 365 können Benutzer Video- und große online Publikum Content übertragen.  Microsoft 365 live Ereignisse bringen live Videostreaming auf eine neue Ebene, Förderung der Verbindung während des gesamten Projekts Lebenszyklus mit Teilnehmer vor, während und nach live-Ereignissen. Sie können ein live-Ereignis erstellen, unabhängig von dessen Speicherort Ihrer Benutzergruppe, Team oder Community befindet sich mit Microsoft-Stream, Microsoft-Teams oder Yammer.  
 
 Microsoft-Teams, bietet Chat-basierte Zusammenarbeit aufrufen, Besprechungen und mit live Ereignisse können Sie die Benutzergruppe Besprechungsliste erweitern. Microsoft-Teams live Ereignisse ist eine Erweiterung von Teams Besprechungen, die Benutzern ermöglichen, Video- und Meeting Inhalte an eine große online Benutzergruppe übertragen. Diese sind für die 1: n-Kommunikation vorgesehen, in denen der Host des Ereignisses wird die Interaktionen führende und die Teilnahme Benutzergruppe ist in erster Linie zum Anzeigen des Inhalts von Host gemeinsam genutzt werden. Die Teilnehmer können das live oder aufgezeichnete-Ereignis im Yammer, Teams und/oder Microsoft Stream Video und können mit dem Referenten über moderierte f & A interagieren oder Yammer Unterhaltung. 
 
@@ -17,9 +17,9 @@ Ersetzen Sie Teams live Ereignisse gilt die nächste Version von Skype Besprechu
 Verwandter Artikel: 
 
 - [Ereignisse über Microsoft 365 in Yammer, Microsoft-Teams und Stream Microsoft Live](https://docs.microsoft.com/stream/live-event-m365)
-- [Live-Ereignisse im Microsoft-Teams](https://support.office.com/en-us/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US)
-- [Live Ereignisse in Yammer](https://support.officeppe.com/en-us/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57?ui=en-US&rs=en-US&ad=US)
-- [Live-Ereignisse im Microsoft-Stream](https://review.docs.microsoft.com/en-us/stream/live-event-overview)
+- [Live-Ereignisse im Microsoft-Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Live Ereignisse in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Live-Ereignisse im Microsoft-Stream](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## <a name="key-components"></a>Wichtige Komponenten
 Im folgende Diagramm werden die Komponenten auf hohe Ebene zum Microsoft 365 live Ereignisse gezeigt. 
@@ -138,7 +138,9 @@ Sie können mehrere Regionen Teams live Ereignisse verwenden. Die folgende Infor
   - Ereignis Teammitglieder und Teilnehmer ist nicht möglich Teams live Ereignisse verwendet werden, da Azure CDN nicht in China zugegriffen werden kann. Eine problemumgehung besteht darin, ein Unternehmen VPN-Verbindung verwenden, die über das Unternehmensnetzwerk des Kunden zu CDN verbundenen Client fungiert.
 
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>Richten Sie Ihr Netzwerk für live Ereignisse in der Microsoft-Teams
-Demnächst.
+Die Schnellstart live Ereignisse müssen Sie zum [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft-Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+
+Für den Schnellstart und externe Encoder live Ereignisse 
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Einrichten von eCDN-Anbieter für live Ereignisse in der Microsoft-Teams 
 Wiedergabe von Videos live-Ereignis verwendet adaptive Bitrate (ABR) streaming, aber es ist eine Unicast-Stream, was bedeutet, dass jeder Viewer eigene Videostream aus dem Internet abrufen ist. Für live Ereignisse oder Videos an große Teile Ihrer Organisation gesendet kann sehr viel Internetbandbreite Identitätsdaten durch Viewer handeln.  Für Organisationen, die diesen Internet-Datenverkehr für live Ereignisse reduzieren möchten, vertrauenswürdige live Ereignisse, die von Microsoft Solutions integriert sind video Delivery Partner, anbietet Software Netzwerke (SDNs) oder Enterprise Content Delivery Networks (eCDNs) definiert. Diese SDN / eCDN Plattformen können Organisationen zum Optimieren der Netzwerkbandbreite ohne Beeinträchtigung Endbenutzer Erfahrungen anzeigen. Unsere Partner helfen, eine skalierbare und effiziente video Verteilung über Ihr Unternehmensnetzwerk zu aktivieren.
