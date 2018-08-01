@@ -1,11 +1,25 @@
---Titel: Was sind Teams Ereignisse live? Autor: "tonysmith" ms.author: Tonysmit-Manager: Serdars ms.date: 7/11/2018 ms.topic: Artikel ms.service: Msteams ms.reviwer: Tonysmit Beschreibung: erfahren Sie, wie Live Ereignisse Benutzer für die Übertragung von Video und Inhalte für große online Benutzergruppen in Microsoft-Teams Yammer und Microsoft-Stream.  
-AppliesTo: 
-- Microsoft Teams
 ---
-
+title: Was sind Teams live Ereignisse?
+author: tonysmith
+ms.author: tonysmit
+manager: serdars
+ms.topic: article
+ms.service: msteams
+ms.reviwer: tonysmit
+description: Hier erfahren Sie, wie Live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
+ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21653685"
+---
 # <a name="what-are-teams-live-events"></a>Was sind Teams live Ereignisse?
-**Zusammenfassung**: Hier erfahren Sie, wie live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.  
-Hinweis: Dies ist eine Vorschau oder frühe Version Feature.
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+
+Hier erfahren Sie, wie live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.  
 
 ## <a name="overview"></a>Übersicht
 Live Ereignisse in Microsoft 365 können Benutzer Video- und große online Publikum Content übertragen.  Microsoft 365 live Ereignisse bringen live Videostreaming auf eine neue Ebene, Förderung der Verbindung während des gesamten Projekts Lebenszyklus mit Teilnehmer vor, während und nach live-Ereignissen. Sie können ein live-Ereignis erstellen, unabhängig von dessen Speicherort Ihrer Benutzergruppe, Team oder Community befindet sich mit Microsoft-Stream, Microsoft-Teams oder Yammer.  
@@ -13,13 +27,6 @@ Live Ereignisse in Microsoft 365 können Benutzer Video- und große online Publi
 Microsoft-Teams, bietet Chat-basierte Zusammenarbeit aufrufen, Besprechungen und mit live Ereignisse können Sie die Benutzergruppe Besprechungsliste erweitern. Microsoft-Teams live Ereignisse ist eine Erweiterung von Teams Besprechungen, die Benutzern ermöglichen, Video- und Meeting Inhalte an eine große online Benutzergruppe übertragen. Diese sind für die 1: n-Kommunikation vorgesehen, in denen der Host des Ereignisses wird die Interaktionen führende und die Teilnahme Benutzergruppe ist in erster Linie zum Anzeigen des Inhalts von Host gemeinsam genutzt werden. Die Teilnehmer können das live oder aufgezeichnete-Ereignis im Yammer, Teams und/oder Microsoft Stream Video und können mit dem Referenten über moderierte f & A interagieren oder Yammer Unterhaltung. 
 
 Ersetzen Sie Teams live Ereignisse gilt die nächste Version von Skype Besprechung übertragen und schließlich wird die Funktionen in Skype Besprechung übertragen. Für die public Preview-Version von live-Ereignissen weiterhin Microsoft Skype Besprechung übertragen, ohne Unterbrechung im Dienst für neue oder zukünftigen Ereignisse unterstützen. Wir empfehlen Ihnen, live Ereignisse in Teams Bildschirmfreigabe, einschließlich der neuen Features nutzen Teilnehmeranzahl, testen und Unterstützung für externe Hardware und Software Encoder. 
-
-Verwandter Artikel: 
-
-- [Ereignisse über Microsoft 365 in Yammer, Microsoft-Teams und Stream Microsoft Live](https://docs.microsoft.com/stream/live-event-m365)
-- [Live-Ereignisse im Microsoft-Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
-- [Live Ereignisse in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Live-Ereignisse im Microsoft-Stream](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## <a name="key-components"></a>Wichtige Komponenten
 Im folgende Diagramm werden die Komponenten auf hohe Ebene zum Microsoft 365 live Ereignisse gezeigt. 
@@ -35,7 +42,7 @@ Die live-Ereignisse in Microsoft 365 ein Spektrum der Produktionsszenarien unter
 - **Externe Encoder**: externe Encoder zulassen, dass Benutzer ihre live Ereignisse direkt aus einer externen Hardware oder softwarebasierte Encoder mit Microsoft Stream zu erstellen. Diese Option empfiehlt sich, wenn Sie bereits Studio Qualität Equipment (z. B. Media Mischern) verfügen, welche Unterstützung streaming an einen RTMP-Dienst. Diese Option wird im großen Maßstab Fälle wie executive Stadt Hallen – in der Regel verwendet, in ein einzelner Datenstrom aus einem Media Mixer auf die Benutzergruppe übertragen wird. 
 
 ### <a name="streaming-platform"></a>Streaming-Plattform
-Dies die folgenden Teile besteht.
+Dies ist die folgenden Teile zusammen:
 
 #### <a name="azure-media-services"></a>Azure Media-Dienste
 [Azure Media-Dienste](https://docs.microsoft.com/en-us/azure/media-services/previous/) können Sie die Übertragung Qualität video streaming-Dienste größere Benutzergruppen auf heutigen am häufigsten verwendeten mobilen Geräten zu erreichen. Media-Dienste verbessert Eingabehilfen, Verteilergruppen und Skalierbarkeit und können sie einfach und kostengünstige Stream von Inhalten für Ihre lokale und weltweit Zielgruppe – alle beim Schützen Ihrer Inhalte.
@@ -50,7 +57,7 @@ Das Ziel des eCDN ist den Videoinhalt aus dem Internet und verteilen die Inhalte
 - Lernen (bald verfügbar zum Schnellstart)
 
 ### <a name="attendee-experience"></a>Umgebung Teilnehmer
-Umgebung der Teilnehmer ist der wichtigste Aspekt der live Ereignisse, und es ist wichtig, dass die Teilnehmer im live-Ereignis ohne Probleme teilnehmen können. Umgebung der Teilnehmer Azure Media Player verwendet und kann über den Desktop, Browser und Mobile (iOS Android). Microsoft 365 bietet Yammer und Teams als zwei Zusammenarbeit Hubs und die Teilnehmer live Erfahrung in diese Tools für die Zusammenarbeit integriert ist. Die externe Encoder-basierten live-Ereignisse können auch von Teilnehmern in der Microsoft-Stream Portal zugegriffen werden.
+Umgebung der Teilnehmer ist der wichtigste Aspekt der live Ereignisse, und es ist wichtig, dass die Teilnehmer im live-Ereignis ohne Probleme teilnehmen können. Umgebung der Teilnehmer Azure Media Player verwendet und kann über den Desktop, Browser und Mobile (iOS Android). Office 365 bietet Yammer und Teams als zwei Zusammenarbeit Hubs und die Teilnehmer live Erfahrung in diese Tools für die Zusammenarbeit integriert ist. Die externe Encoder-basierten live-Ereignisse können auch von Teilnehmern in der Microsoft-Stream Portal zugegriffen werden.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -63,12 +70,12 @@ Die folgenden erforderlichen Komponenten sind erforderlich für den Benutzer ein
 - Benutzer verfügt über Berechtigungen zum Erstellen von live Ereignisse in Microsoft Stream (für externe Encoder Produktion).
 
 > [!NOTE]
-> O365 Gäste, Verbund- und anonyme Benutzer können nicht als Hersteller oder Referenten in Teams live Ereignisse eingeladen werden. 
+> Office 365 Gäste, Verbund- und anonyme Benutzer können nicht als Hersteller oder Referenten in Teams live Ereignisse eingeladen werden. 
  
 ### <a name="who-can-watch-live-event"></a>Wer live-Ereignis überwachen können
 Überprüfen Sie die Tabelle unten, um anzuzeigen, die an ein live-Ereignis teilnehmen können. 
 
-|ATTENDEE Sichtbarkeit           |Schnellstart  |Externe encoder  |
+|**ATTENDEE Sichtbarkeit**           |**Schnellstart** |**Externe encoder**  |
 |------------------------------|-------------|------------------|
 |Öffentliche (anonyme Benutzer)      |  Ja        |  Nein              |
 |Gast Benutzer *                   |  Nein         |  Nein              |
@@ -161,7 +168,7 @@ Lernen OmniCache ermöglicht die Verteilung der nächsten Generation Netzwerk un
 #### <a name="configure-ecdn-for-quick-start-live-events"></a>Konfigurieren von eCDN für "Schnellstart" live-Ereignisse 
 Sie können im Microsoft-Teams, über die PowerShell eCDN-Anbieter für live Ereignisse konfigurieren. Hinweis: nur ein einzigen eCDN Anbieter kann für den Mandanten zu einem bestimmten Zeitpunkt konfiguriert werden. 
 
-Struktur eCDN Anbieter konfigurieren 
+**Struktur eCDN Anbieter konfigurieren** 
 
 [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) -PowerShell-Cmdlets können Sie eCDN Anbieter konfigurieren. 
 1. Lizenz-ID und API-Vorlagen-URL aus der Struktur Kontakt zu erhalten. 
@@ -170,7 +177,7 @@ Struktur eCDN Anbieter konfigurieren
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 
-Kollective eCDN Anbieter konfigurieren 
+**Kollective eCDN Anbieter konfigurieren** 
 
 [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) -PowerShell-Cmdlets können Sie eCDN Anbieter konfigurieren. 
 1. Erhalten Sie von Ihrem Kollective Kontakt API Token und API-Vorlagen-URL. 
@@ -179,13 +186,10 @@ Kollective eCDN Anbieter konfigurieren
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 
-Lernen eCDN Anbieter konfigurieren 
-
-In Kürze verfügbar 
+**Lernen eCDN Anbieter konfigurieren**
 
 #### <a name="configure-ecdn-for-external-encoder-live-events"></a>Konfigurieren von eCDN für "Externe Encoder" live-Ereignisse 
 Wenn Sie planen, live Ereignisse erstellen, die externe Encoder verwenden, müssen Sie ebenfalls [Konfigurieren des Anbieters eCDN mit Microsoft-Stream](https://docs.microsoft.com/stream/network-caching) . Wenn Sie "Schnellstart" live Ereignisse über Microsoft-Teams oder Yammer erstellen möchten, müssen Sie Ihren SDN/eCDN-Anbieter sowie mit Microsoft-Teams integriert werden konfigurieren.
-
 
 ### <a name="enable-live-event-scheduling-for-the-user"></a>Aktivieren Sie planen von live-Ereignis für den Benutzer
 Die Planung von live-Ereignis wird für einen Benutzer Teams standardmäßig aktiviert.  
@@ -248,7 +252,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ### <a name="configure-attendee-visibility-options"></a>Konfigurieren Sie die Sichtbarkeitsoptionen für Teilnehmer
 Live-Ereignis Organisatoren Ereignisse mit entsprechenden Attendee Sichtbarkeit erstellen können.
 
-|Werte  |Verhalten  |
+|**Werte**  |**Verhalten**  |
 |---------|---------|
 |Jeder     |Der Benutzer hat eine Option zum Erstellen von live Ereignisse mit dem folgenden Attendee Sichtbarkeit: Public, jede Person in Unternehmen und bestimmte Personen. |
 |EveryoneInCompany     |Der Benutzer hat eine Option zum Erstellen von live Ereignisse mit dem folgenden Attendee Sichtbarkeit: alle Benutzer im Unternehmen und bestimmte Personen. Der Benutzer kann nicht live Ereignisse erstellen, die durch anonyme Benutzer behandelt werden kann.|
@@ -270,7 +274,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 
 Dies ermöglicht Administratoren zur Steuerelement an, ob die live Ereignisse immer noch nie aufgezeichnet aufgezeichnet werden, oder der Organisator des Ereignisses zum Aufzeichnen des Ereignisses oder nicht entscheiden kann.  
 
-|Werte  |Verhalten  |
+|**Werte**  |**Verhalten**  |
 |---------|---------|
 |Immer aktiviert |Die von diesem Benutzer organisierte live Ereignisse werden immer aufgezeichnet. Benutzer keine Option außer Kraft gesetzt. Wenn das live Ereignis aufgezeichnet wird, die Mitglieder des Teams können die Aufzeichnung nach dem Ereignis herunterzuladen und die Teilnehmer können sehen Sie sich das Ereignis nach Abschluss des Ereignisses. |
 |AlwaysDisabled |Die von diesem Benutzer organisierte live Ereignisse werden nie aufgezeichnet. Benutzer keine Option außer Kraft gesetzt. Wenn das live-Ereignis gespeichert ist, keine Aufzeichnung wird für die Mitglieder des Teams erstellt, und die Teilnehmer können nicht sehen Sie sich das Ereignis aus, nachdem sie sich über befindet. |
@@ -319,3 +323,10 @@ Kunden können die folgenden Tools verwenden, um eine Vielzahl von Teams live Er
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
   - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
 
+
+### <a name="related-topics"></a>Verwandte Themen: 
+
+- [Ereignisse über Microsoft 365 in Yammer, Microsoft-Teams und Stream Microsoft Live](https://docs.microsoft.com/stream/live-event-m365)
+- [Live-Ereignisse im Microsoft-Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Live Ereignisse in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Live-Ereignisse im Microsoft-Stream](https://review.docs.microsoft.com/stream/live-event-overview)
