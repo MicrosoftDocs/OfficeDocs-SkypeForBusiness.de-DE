@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitäts-Dashboard für Microsoft-Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: 7806178b355d3f86cbc470f6d7401b3f76077b12
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: a77ca0605589c99b88ba3287bf8febcc7514cbd1
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246623"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21645308"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Datenstromklassifizierung im Anrufqualitäts-Dashboard
 
@@ -38,11 +38,11 @@ Ein Audiodatenstrom wird als schlecht gekennzeichnet, wenn eine oder mehrere der
 
 |**Metrik**|**Bedingung**|**Erklärung**|
 |:-----|:-----|:-----|
-|Durchschnittliche Audioleistungsminderung|> 1,0|Beeinträchtigung des durchschnittlichen MOS (Mean Opinion Score) für den Datenstrom. Gibt an, wie sich Netzwerkprobleme und Jitter auf die Audioqualität ausgewirkt haben.|
+|Durchschnittliche Audioleistungsminderung|> 1,0|Beeinträchtigung des durchschnittlichen MOS (Mean Opinion Score) für den Datenstrom. Gibt an, wie sehr sich Netzwerkverlust und Jitter auf die empfangene Audioqualität ausgewirkt haben.|
 |Roundtrip|> 500|Durchschnittliche in Millisekunden berechnete Roundtripzeit bei der Netzwerkverteilung, wie in RFC3550 angegeben.|
-|Paketverlustrate|> 0,1|Durchschnittliche Paketverlustrate für den Datenstrom.|
+|Paketverlustrate|> 0,1|Durchschnittlich Paketverlustrate für Datenstrom.|
 |Jitter|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|
-|Durchschnittliches Verhältnis der verborgenen Stichproben|> 0,07|Verhältnis der Anzahl der Audioframes mit verdeckten Stichproben, die durch den verdeckten Paketverlust generiert wurden, zur Gesamtzahl der Audioframes.|
+|Durchschnittliches Verhältnis der verborgenen Stichproben|> 0,07|Durchschnittliches Verhältnis der Anzahl der Audioframes mit verdeckten Stichproben, die durch den verdeckten Paketverlust generiert wurden, zur Gesamtzahl der Audioframes.|
 
 ### <a name="video-classifier"></a>Video-Klassifizierung
 
@@ -51,8 +51,8 @@ Ein Videodatenstrom wird basierend auf dem Wert der ersten verfügbaren Metrik i
 |**Schritt #**|**Metrik**|**Bedingung**|**Klassifizierung, wenn die Bedingung wahr ist**|**Klassifizierung, wenn die Bedingung falsch ist**|**Klassifizierung, wenn die Metrik nicht verfügbar ist**|**Erklärung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Durchschnittlicher Prozentsatz des lokalen Video-Frameverlusts|> 50 % |Schlecht|Gut|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames.|
-|2|Video-Framerate Mittelw.|< 7|Schlecht|Gut|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
-|3|Video-Post-FECPLR|> 0,15|Schlecht|Gut|Nicht klassifiziert|Paketverlustrate nach der Anwendung von FEC auf alle Videodatenströme und -codecs.|
+|2|Video-Framerate Mittelw.|< 7|Schlecht|Gut|Mit Schritt 3 fortfahren|Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
+|3|Video-Post-FECPLR|> 0,15|Schlecht|Gut|Nicht klassifiziert|Paketverlustrate nach FEC wurde aggregiert über alle Videostreams und Codecs angewendet.|
 
 ### <a name="vbss-classifier"></a>VBSS-Klassifizierung
 
@@ -60,9 +60,9 @@ Ein VBSS-Videodatenstrom wird basierend auf dem Wert der ersten verfügbaren Met
 
 |**Schritt #**|**Metrik**|**Bedingung**|**Klassifizierung, wenn die Bedingung wahr ist**|**Klassifizierung, wenn die Bedingung falsch ist**|**Klassifizierung, wenn die Metrik nicht verfügbar ist**|**Erklärung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Durchschnittlicher Prozentsatz des lokalen VBSS-Frameverlusts|> 50 % |Schlecht|Gut|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames.|
-|2|Durschnittliche VBSS-Bildfrequenz|< 2|Schlecht|Gut|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
-|3|VBSS-Pfosten FECPLR|> 0,15|Schlecht|Gut|Nicht klassifiziert|Nicht klassifiziert|Paketverlustrate nach der Anwendung von FEC auf alle Videodatenströme und -codecs.|
+|1|Durchschnittlicher Prozentsatz des lokalen Video-Frameverlusts|> 50 % |Schlecht|Gut|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Darin enthalten sind die aus Netzwerkverlusten wiederhergestellten Frames.|
+|2|Durchschnittliche Video-Framerate|< 2|Schlecht|Gut|Mit Schritt 3 fortfahren|Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
+|3|Video-Post-FECPLR|> 0,15|Schlecht|Gut|Nicht klassifiziert|Paketverlustrate nach FEC wurde aggregiert über alle Videostreams und Codecs angewendet.|
 
 ### <a name="application-sharing-classifier"></a>Anwendungsfreigabe-Klassifizierung
 
@@ -70,9 +70,9 @@ Ein Anwendungsfreigabedatenstrom wird als schlecht gekennzeichnet, wenn eine ode
 
 **Metrik**|**Bedingung**|**Erklärung**|
 |:-----|:-----|:-----|
-|Gesamtprozentsatz schlechter Kacheln|> 36|Prozentsatz der Kacheln, die verworfen werden, anstatt an einen Remote-Peer gesendet zu werden (zum Beispiel von einem MCU zu einem Viewer). Verworfene (oder schlechte) Kacheln sind auf eine Beschränkung der Bandbreite zwischen Client und Server zurückzuführen.|
+|Spoiled Tile Percent Total|> 36|Prozentsatz der Kacheln, die verworfen werden, anstatt an einen Remote-Peer gesendet zu werden (zum Beispiel von einem MCU zu einem Viewer). Verworfene (oder schlechte) Kacheln sind auf eine Beschränkung der Bandbreite zwischen Client und Server zurückzuführen.|
 |Durchschnittliche AppSharing RDP-Kachelverarbeitungslatenz|> 400|Durchschnittliche Latenz in Millisekunden bei der Verarbeitung von Kacheln im RDP-Stapel auf dem Konferenzserver.|
-|Durchschnittliches relatives unidirektionales AppSharing|> 1,75|Relative unidirektionale Verzögerung im Durchschnitt zwischen den Endpunkten in Millisekunden für Anwendungsfreigabe-Datenströme.|
+|Durchschnittliches relatives unidirektionales AppSharing|> 1,75|Durchschnittliche relative unidirektionale Verzögerung zwischen den Endpunkten in Sekunden für Anwendungs-Teilungsströme.|
 
 ## <a name="unclassified-streams"></a>Nicht klassifizierte Datenströme
 
