@@ -10,12 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95841fe18e8435d319c4f1c5e5e7c5754a46d0c6
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 6b3842fb45e7537589746f69e7514691419eb27c
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20361130"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708324"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================
@@ -31,7 +31,8 @@ Verwenden Sie diese Schulungsressourcen, um Ihrer Organisation die optimale Nutz
 | [Teams Tipps und tricks](https://support.office.com/office-training-center/Teams-tips) |  |
 | [Was ist Teams?](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Kurzeinführung in Teams, Ihre Drehscheibe für Teamarbeit  |
 | [Microsoft Teams-Kanal auf YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
-| [YouTube-Kanal „Coffee in the Cloud“](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Videos mit Anleitungen, bewährten Methoden und Funktionsbeschreibungen  |
+| [YouTube-Kanal „Coffee in the Cloud“](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Vorgehensweisen, best Practice und Feature überprüfen Videos - anzeigen mit Inhalten.  |
+| [In der Cloud Podcast auf iTunes Kaffee](https://itunes.apple.com/us/podcast/coffee-in-the-cloud/id1417729403?mt=2) |Vorgehensweisen, bewährte Methoden und Features überprüfen Podcast folgen - hören unterwegs.  |
 | Einführung in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
 | Einführung in die Microsoft-Teams für Bildungseinrichtungen  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
 

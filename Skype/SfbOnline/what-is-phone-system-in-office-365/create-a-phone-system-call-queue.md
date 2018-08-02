@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Telefonsystem Anruf Warteschleife
+title: Erstellen einer Telefonsystem-Anrufwarteschleife
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 9b86bec84846dff36e509488eb34f0415fe8cd95
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708350"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Telefonsystem Anruf Warteschleife
+# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Telefonsystem-Anrufwarteschleife
 
 System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
   
@@ -89,6 +90,14 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
   - iPhone Skype für Business-Client (Version 6.16.0 und höher)
     
   - iPad Skype für Business-Client (Version 6.16.0 und höher)
+
+  - Microsoft-Teams Windows-Client (32- und 64-Bit-Versionen)
+
+  - Microsoft-Teams Mac-client
+
+  - Microsoft-Teams, iPhone-app
+
+  - Microsoft-Teams, Android-app
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Schritt 2 - Beziehen oder Übertragen von gebührenpflichtigen oder gebührenfreien Servicenummern
 
@@ -98,6 +107,8 @@ Before you can create and set up your call queues, you will need to get or trans
 > Wenn Sie sich außerhalb der USA sind, können der Skype für Business Administrationscenter Sie um Service Zahlen zu erhalten. Wechseln Sie zum [Verwalten von Rufnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) stattdessen, wie Sie von außerhalb der USA finden Sie unter.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Schritt 3 - Erstellen einer neuen Anrufwarteschleife
+
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > **Anrufwarteschleifen** und dann auf **Neu hinzufügen**:
   
@@ -152,7 +163,7 @@ Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > 
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/><br/>Call-Agenten (maximal 50) sind möglich:
 *    Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und aktiviert für Enterprise-VoIP oder mit einem Aufruf von planen. <br/><br/> **Hinweis:**  Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, sie benötigen eine Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder aufrufen planen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    Online-Benutzer mit einem mit einer Lizenz **Telefonsystem** und ein Aufruf von planen, die ein Office 365-Gruppe, einer e-Mail-Verteilerliste oder einer Sicherheitsgruppe hinzugefügt werden. Es kann bis zu 30 Minuten dauern, bis ein neuer Telefonist zu einer Verteilerliste oder Sicherheitsgruppe hinzugefügt wird und Anrufe aus einer Anrufwarteschleife empfangen kann. Eine neu erstellte Liste oder eine Sicherheitsgruppe Verteilergruppe kann die Verwendung mit dem Anruf Warteschlangen verfügbar bis zu 48 Stunden dauern. Neu erstellte sind Office 365 Gruppen fast sofort verfügbar. <br/> 
+*    Online-Benutzer mit einer Lizenz **Telefonsystem** und Aufrufen von planen, die ein Office 365-Gruppe, einer e-Mail-Verteilerliste oder einer Sicherheitsgruppe hinzugefügt werden. Es kann bis zu 30 Minuten dauern, bis ein neuer Telefonist zu einer Verteilerliste oder Sicherheitsgruppe hinzugefügt wird und Anrufe aus einer Anrufwarteschleife empfangen kann. Eine neu erstellte Liste oder eine Sicherheitsgruppe Verteilergruppe kann die Verwendung mit dem Anruf Warteschlangen verfügbar bis zu 48 Stunden dauern. Neu erstellte sind Office 365 Gruppen fast sofort verfügbar. <br/> 
 
     > [!NOTE] 
     > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.           
@@ -240,7 +251,7 @@ Zum Verwalten einer Anrufwarteschleife benötigen Sie die folgenden Cmdlets.
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>See Also
-[Das bietet Ihnen das Telefonsystem in Office 365](here-s-what-you-get-with-phone-system.md)
+[Das bekommen Sie mit Telefonsystem in Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md)
 

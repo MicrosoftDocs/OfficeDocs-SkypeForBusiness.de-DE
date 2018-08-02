@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Gerät Skype Raum Systemen v2, einschließlich eines benutzerdefinierten Designs verwendet.
-ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e8ff661dfab6810d1072b86dddcb8621c63b8d0
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015599"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711051"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Verwalten einer Skype Room Systems v2-Konsoleneinstellung auf einem Remote-Gerät mit einer XML-Konfigurationsdatei
  
@@ -39,6 +39,9 @@ In der folgenden Tabelle wird erläutert, die Elemente in diesem Beispiel SkypeS
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
              <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+  <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled> 
   <DualScreenMode>true</DualScreenMode>
@@ -74,14 +77,16 @@ Wenn die XML-Datei falsch formatiert wurde (Elemente sind nicht funktionsfähig,
 |\<HideMeetingName\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Falls zutreffend, sind die Besprechungsnamen ausgeblendet.  <br/> |
 |\<"Useraccount" bei\>  <br/> |Container  <br/> |Erste & #x 2776; <br/> |Container für Anmeldeinformationen-Parameter.  <br/> Anmelden bei Adresse, die Exchange-Adresse oder die e-Mail-Adresse in der Regel identisch sind, wie etwa RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig aktiviert.  <br/> |
-|\<TeamsMeetingsEnabled\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig deaktiviert.  <br/> Die XML-Datei wird nicht wohlgeformten betrachtet, wenn beide \<SkypeMeetingsEnabled\> und\<TeamsMeetingsEnabled\> sind deaktiviert, aber es ist akzeptabel, beide Einstellungen zur selben Zeit aktiviert haben.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |Zeichenfolge 3 <br/> ||Der Anmeldename für das Skype for Business-Gerätekonto der Konsole.  <br/> |
 |\<ExchangeAddress\>  <br/> |Zeichenfolge 3 <br/> ||Der Anmeldename für das Exchange-Gerätekonto der Konsole.  <br/> Wenn die Exchange-Adresse ausgelassen wird, wird die Skype-Anmeldeadresse nicht automatisch wiederverwendet.   <br/> |
 |\<DomainUsername\>  <br/> |Zeichenfolge & #x 2778; <br/> ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf.  <br/> |
 |\<Kennwort\>  <br/> |Zeichenfolge 3 <br/> || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.  <br/> |
 | \<ConfigureDomain\> <br/> |Zeichenfolge & #x 2778; <br/> ||Sie können mehrere durch Kommata getrennte Domänen auflisten.  <br/> |
 |\<AutoRotatePassword\>  <br/> |Boolescher Wert & #x 2777; <br/> |||
-| \<DualScreenMode\> <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Dual-Screen-Modus ist aktiviert, wenn "true". Andernfalls verwendet das Gerät den Einzelbildschirmmodus.  <br/> |
+|\<TeamsMeetingsEnabled\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig deaktiviert.  <br/> Die XML-Datei wird nicht wohlgeformten betrachtet, wenn beide \<SkypeMeetingsEnabled\> und\<TeamsMeetingsEnabled\> sind deaktiviert, aber es ist akzeptabel, beide Einstellungen zur selben Zeit aktiviert haben.  <br/> |
+|\<IsTeamsDefaultClient > |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig deaktiviert. <br/>|
+|\<BluetoothAdvertisementEnabled > |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig aktiviert. <br/>|
+|\<DualScreenMode\> <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Dual-Screen-Modus ist aktiviert, wenn "true". Andernfalls verwendet das Gerät den Einzelbildschirmmodus.  <br/> |
 |\<SendLogs\>  <br/> |Container  <br/> |Erste & #x 2776; <br/> ||
 |\<EmailAddressForLogsAndFeedback\>  <br/> |Zeichenfolge & #x 2778; <br/> ||Damit wird eine optionale E-Mail-Adresse verwendet, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird.   <br/> |
 |\<SendLogsAndFeedback\>  <br/> |Boolescher Wert & #x 2777; <br/> || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet. <br/> |

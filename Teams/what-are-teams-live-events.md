@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Hier erfahren Sie, wie Live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
-ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.openlocfilehash: 4017e059f202a89451b9aad419fd007bb4758765
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21653685"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711070"
 ---
 # <a name="what-are-teams-live-events"></a>Was sind Teams live Ereignisse?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -147,7 +147,7 @@ Sie können mehrere Regionen Teams live Ereignisse verwenden. Die folgende Infor
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>Richten Sie Ihr Netzwerk für live Ereignisse in der Microsoft-Teams
 Die Schnellstart live Ereignisse müssen Sie zum [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft-Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
 
-Für den Schnellstart und externe Encoder live Ereignisse 
+Für den Schnellstart und externe Encoder live Ereignisse, wechseln Sie zu [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) für eine detaillierte und auf dem neuesten Stand Liste der URLs, IP-Adressen, Ports und Protokolle, die für Teams und Stream ordnungsgemäß konfiguriert werden müssen. Office 365-Dienst wird von Microsoft ständig verbessert und hinzufügen neuen Funktionen, was bedeutet, dass die erforderlichen Ports, URLs und IP-Adressen mit der Zeit ändern können. Es wird empfohlen, dass Sie abonnieren über RSS zum Empfangen von Benachrichtigungen, wenn diese Informationen aktualisiert oder geändert wird.
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Einrichten von eCDN-Anbieter für live Ereignisse in der Microsoft-Teams 
 Wiedergabe von Videos live-Ereignis verwendet adaptive Bitrate (ABR) streaming, aber es ist eine Unicast-Stream, was bedeutet, dass jeder Viewer eigene Videostream aus dem Internet abrufen ist. Für live Ereignisse oder Videos an große Teile Ihrer Organisation gesendet kann sehr viel Internetbandbreite Identitätsdaten durch Viewer handeln.  Für Organisationen, die diesen Internet-Datenverkehr für live Ereignisse reduzieren möchten, vertrauenswürdige live Ereignisse, die von Microsoft Solutions integriert sind video Delivery Partner, anbietet Software Netzwerke (SDNs) oder Enterprise Content Delivery Networks (eCDNs) definiert. Diese SDN / eCDN Plattformen können Organisationen zum Optimieren der Netzwerkbandbreite ohne Beeinträchtigung Endbenutzer Erfahrungen anzeigen. Unsere Partner helfen, eine skalierbare und effiziente video Verteilung über Ihr Unternehmensnetzwerk zu aktivieren.
