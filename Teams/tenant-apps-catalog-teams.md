@@ -3,7 +3,7 @@ title: Veröffentlichen von apps mit dem Microsoft-Teams Mandanten Apps-Katalog
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/13/2018
+ms.date: 08/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11db7dec3122de3eb783152483a1575cf92dc585
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 655a9da3670a7894e581cd2e6adebd02ef22706b
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363905"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762935"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Veröffentlichen von apps mit dem Microsoft-Teams Mandanten Apps-Katalog
 =======================================================
@@ -32,7 +32,7 @@ Sie können die Teams Mandanten App-Katalog direkt vom Client Teams apps veröff
 
 ### <a name="get-a-teams-app-package"></a>Abrufen eines Teams app-Pakets
 
-Eine app-Paket Teams wird mithilfe von [Teams App Studio](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio)erstellt. Nachdem Sie das app-Paket haben, können Sie Enterprise-app-Katalog hinzufügen. Während alle Benutzer in den Mandanten des app-Katalogs anzeigen können, haben nur Administratoren die Möglichkeit, es zu verwalten.
+Eine app-Paket Teams wird mithilfe von [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)erstellt. Nachdem Sie das app-Paket haben, können Sie Enterprise-app-Katalog hinzufügen. Während alle Benutzer in den Mandanten kann Ansicht der app-Katalog derzeit nur globale-Admins haben die Möglichkeit, veröffentlichen und verwalten. (Schließlich Teams-Admins kann auch dazu werden.)
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Wechseln Sie zu dem Mandanten Apps Katalog
 

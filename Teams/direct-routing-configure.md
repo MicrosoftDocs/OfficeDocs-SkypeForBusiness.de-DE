@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: c73141e4f77816d5e090a1cf0208eb66a1e29811
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084532"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762943"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren der Weiterleitung von direkten
 
@@ -530,47 +530,8 @@ Bevor ein Benutzer auf die Registerkarte Anrufe in Microsoft-Teams, sehen kann, 
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Festlegen Sie Microsoft-Teams für die Benutzer als bevorzugter Client aufrufende
 
-Direktes Routing leitet Anrufe nur für Microsoft-Teams, müssen Sie sicherstellen, dass Microsoft-Teams, die bevorzugte aufrufende Client für die Benutzer ist. Dies wird durch die TeamsCallingPolicy und die TeamsInteropPolicy gesteuert. 
+Direktes Routing nur die Anrufe weiterleiten an und von Benutzern Wenn diese Teams Cleint verwenden. Wenn Ihre Organisation nur Teams Cleint verwenden, wird "Nur Teams"-Modus in Upgrade Richtlinie empfohlen festzulegen. Wenn Sie Organisation Skype für Business Server oder Skype für Business Online verwendet wird, überprüfen Sie das folgende Dokument [Grundlegendes zu Upgrade und Koexistenz beider Weg für Skype für Unternehmen und Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) und wählen die entsprechende Option aus. 
 
-1. Verwenden Sie das folgende Cmdlet zuerst in einer PowerShell-Remotesitzung in der Skype für Business Online Administrationscenter, welche Richtlinien finden Sie unter der Benutzer zugewiesen wurde. 
-
-  ```
-  Get-CsOnlineUser -identity <User Name> | fl *teams*
-  ```
- 
-2. Im nächsten Schritt überprüfen Sie die andere Richtlinieninstanzen. 
-
-  ```
-  Get-CsTeamsCallingPolicy
-  ``` 
- und 
-
-  ```
-  Get-CsTeamsInteropPolicy
-  ``` 
-
-Bevor Benutzer Microsoft-Teams, den Dienst verwenden können, sind zusätzliche Schritte, die Sie möglicherweise durchführen müssen, um die aufrufende Richtlinie anwenden und Anrufe zulassen.
-
-### <a name="teams-calling-policy"></a>Aufrufen der Richtlinie Teams
-
-Sie müssen sicherstellen, dass der Benutzer eine TeamsCallingPolicy mit AllowCalling = True. Mit dieser Richtlinie kann die globale Richtlinie in Ihrem Mandanten oder eine bestimmte Richtlinie erteilt dem Benutzer sein. Wenn Sie einem Benutzer eine bestimmte Richtlinie erteilt werden müssen, können Sie das Cmdlet:
-
-```
-Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>
-```
-
-### <a name="teams-interop-policy"></a>Teams Interop-Richtlinie
-
-Stellen Sie sicher, dass der Benutzer den aufrufenden bevorzugten Client festzulegen, der Microsoft-Teams, verfügt. Dies kann auf zwei Arten erfolgen:
-
-- Der Benutzer festgelegt aufrufenden bevorzugten Client in der Microsoft-Teams, Client.
-- Der Benutzer hat eine Richtlinie zugewiesen wurde, die aufrufenden bevorzugten Client festgelegt.
-
-Um eine Richtlinie zuweisen, die Microsoft-Teams, als bevorzugter Client aufrufende festlegt, stellen Sie sicher, dass der Benutzer eine Richtlinie mit CallingDefaultClient eingeholt wurde = Teams. Nachfolgend sehen Sie ein Beispiel-Cmdlet:
-
-```
-Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”
-```
 
 ## <a name="see-also"></a>Siehe auch
 
