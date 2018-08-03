@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Jeder Datensatz steht Audiosignal Metriken für einen Endpunkt. In der Regel jeden Anruf hat zwei Datensätze, einer für Anrufer ist und eine für angerufenen ist.
-ms.openlocfilehash: 25d565538ecdf7cae15ff23f539a2e2eddf8680f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0ffab37f49e55f73d8d414258e208265e2b5e9ff
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21781648"
 ---
 # <a name="audiosignal-table"></a>AudioSignal-Tabelle
  
@@ -53,5 +54,6 @@ Jeder Datensatz steht Audiosignal Metriken für einen Endpunkt. In der Regel jed
 |**SendSignalLevelCh2** <br/> |int  <br/> ||Auf Kanal 2 gesendete Signalstärke.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendNoiseLevelCh1** <br/> |int  <br/> ||Gesendetes Rauschen auf Kanal 1.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendNoiseLevelCh2** <br/> |int  <br/> ||Gesendetes Rauschen auf Kanal 2.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-   
+|**RenderLoopbackSignalLevel** <br/> |int  <br/> ||Stufe in dBFS des Signals an den Lautsprecher für die Wiedergabe gesendet. Konten für alle Gewinn Korrekturen an der empfangenen Signal. <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |   
+|**RenderNoiseLevel** <br/> |int  <br/> ||Stufe in dBFS des Inhalts Noise in das Signal an die Lautsprecher gesendet wird, für die Wiedergabe <br/> |
 

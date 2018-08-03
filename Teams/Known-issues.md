@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246546"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21779519"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -59,7 +59,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Moderne Authentifizierungsfehler - Formularauthentifizierung nicht aktiviert  <br/> |Verwenden Sie bei einem anfänglichen Fehler bei der mehrstufigen Authentifizierung die Web-App für die Authentifizierung.  <br/> Weitere Informationen finden Sie unter [Unterstützung für den Parameter „prompt=login“ für die Active Directory-Verbunddienste (AD FS)](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Überprüfen Sie diese Einstellung: „Set -MsolDomainFederationSettings -DomainName IhreDomäne -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled“.  <br/> |19.06.2017  <br/> |
+|Moderne Authentifizierungsfehler - Formularauthentifizierung nicht aktiviert  <br/> |Verwenden Sie bei einem anfänglichen Fehler bei der mehrstufigen Authentifizierung die Web-App für die Authentifizierung.  <br/> Weitere Informationen finden Sie unter [Unterstützung für den Parameter „prompt=login“ für die Active Directory-Verbunddienste (AD FS)](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Aktivieren Sie diese Einstellung: `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`.  <br/> |19.06.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -104,15 +104,15 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 ## <a name="client"></a>Client
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Teams wird nicht automatisch aktualisiert.   <br/> | Wenn Microsoft-Teams auf Programmdateien mithilfe von Installationsskripts und nicht am Standardspeicherort installiert ist, der Client nicht automatisch aktualisieren, neue Versionen verfügbar sind.    <br/> | Verhalten ist erwünscht. Achten Sie darauf, um die Anwendung am Standardspeicherort zu installieren: User\Appdata.  <br/> | 7/9/17  <br/> |
+|Teams wird nicht automatisch aktualisiert.   <br/> | Wenn Microsoft-Teams auf Programmdateien mithilfe von Installationsskripts und nicht am Standardspeicherort installiert ist, der Client nicht automatisch aktualisieren, neue Versionen verfügbar sind.    <br/> | Verhalten ist erwünscht. Achten Sie darauf, um die Anwendung am Standardspeicherort zu installieren: `user\Appdata`.  <br/> | 7/9/17  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Symlink oder Mappying ein Laufwerk C:\users bewirkt, dass die app Weißer Bildschirm Start  <br/> | Wenn Microsoft-Teams auf Programmdateien mithilfe von Installationsskripts und nicht am Standardspeicherort installiert ist, der Client nicht automatisch aktualisieren, neue Versionen verfügbar sind.   <br/> | Verhalten ist erwünscht. Achten Sie darauf, um die Anwendung am Standardspeicherort zu installieren: User\Appdata. Wenn die Zuordnung vorhanden sein muss, sollten Sie die Webversion von Microsoft-Teams verwenden.  <br/> | 7/9/17  <br/> |
+|Symlink oder Mappying ein Laufwerk C:\users bewirkt, dass die app Weißer Bildschirm Start  <br/> | Wenn Microsoft-Teams auf Programmdateien mithilfe von Installationsskripts und nicht am Standardspeicherort installiert ist, der Client nicht automatisch aktualisieren, neue Versionen verfügbar sind.   <br/> | Verhalten ist erwünscht. Achten Sie darauf, um die Anwendung am Standardspeicherort zu installieren: `user\Appdata`. Wenn die Zuordnung vorhanden sein muss, sollten Sie die Webversion von Microsoft-Teams verwenden.  <br/> | 7/9/17  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Symlink oder zum Zuordnen von einem Laufwerk zu c:\users verursacht app Weißer Bildschirm Start  <br/> |Wenn der Standardspeicherort des C:\users\<Benutzer > \appData wird durch Verschieben des Ordners C:\users geändert oder Symlink verwenden, wird die app mit einem weißen Bildschirm gestartet.   <br/> |Es kann keine bekannten umgangen werden. Wenn die Zuordnung vorhanden sein muss, sollten Sie die Webversion von Microsoft-Teams verwenden.   <br/> |13.03.2017  <br/> |
+|Symlink oder zum Zuordnen von einem Laufwerk zu c:\users verursacht app Weißer Bildschirm Start  <br/> |Wenn der Standardspeicherort des `C:\users\<user>\appData` wird durch Verschieben geändert die `C:\users` Ordner oder Symlink verwenden, wird die app mit einem weißen Bildschirm gestartet.   <br/> |Es kann keine bekannten umgangen werden. Wenn die Zuordnung vorhanden sein muss, sollten Sie die Webversion von Microsoft-Teams verwenden.   <br/> |13.03.2017  <br/> |
 
 ## <a name="environment"></a>Umgebung
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -131,7 +131,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 ## <a name="meetings"></a>Besprechungen
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Benutzer können nicht Zugriff auf Besprechungen-Connectors jedoch über Exchange Online-Postfächer. <br/> |Kunden aktiv blockiert EWS von Diensten in Exchange Online muss jedoch innerhalb der EWS-Richtlinien kompatibel MS-Teams haben. <br/> |Damit MS-Teams kompatibel ist, müssen Sie die folgende Zeichenfolge des Benutzer-Agent für MS-Teams innerhalb der EWSAllowList hinzufügen: *Skypespaces*, einschließlich Sternchen. Ist der vollständige Befehl: Set-Organizationconfig - Ewsallowlist *Skypespaces*<br/> Weitere Informationen:https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|Benutzer können nicht Zugriff auf Besprechungen-Connectors jedoch über Exchange Online-Postfächer. <br/> |Kunden aktiv blockiert EWS von Diensten in Exchange Online muss jedoch innerhalb der EWS-Richtlinien kompatibel MS-Teams haben. <br/> |Damit MS-Teams kompatibel ist, müssen Sie die folgende Zeichenfolge des Benutzer-Agent für MS-Teams innerhalb der EWSAllowList hinzufügen: `*skypespaces*`, einschließlich Sternchen. Der vollständige Befehl ist:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Weitere Informationen:https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -235,5 +235,5 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|  
-|Teams-desktop-app mit weißer Bildschirm  <br/> | <br/> |Versuchen Sie zu löschen oder die Grafiktreiber auf dem Computer oder Start Neuinstallieren Teams über eine Befehlszeile mit einer Disable GPU kennzeichnen:<ul><li>Für Windows: Öffnen Sie das Eingabeaufforderungsfenster, und geben Sie Folgendes ein: cd %localappdata%\microsoft\teams\current Teams.exe--führen Disable-Gpu</li><li>Für Mac: Start Terminal und geben Sie Folgendes ein: cd \Applications Ordner Microsoft\ Teams.app/Contents/MacOS/Teams--Disable-Gpu</li></ul> <br/> |<br/> |
+|Teams-desktop-app mit weißer Bildschirm  <br/> | <br/> |Versuchen Sie zu löschen oder die Grafiktreiber auf dem Computer oder Start Neuinstallieren Teams über eine Befehlszeile mit einer Disable GPU kennzeichnen:<ul><li>Öffnen Sie für Windows: Das Eingabeaufforderungsfenster, und geben Sie Folgendes ein:`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Für Mac: Start Terminal und geben Sie Folgendes:`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
