@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Hier erfahren Sie, wie Live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4017e059f202a89451b9aad419fd007bb4758765
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: a4d0ee65bc5cb8ad0d7e58ad407dbddf72cc28ca
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21711070"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22111863"
 ---
 # <a name="what-are-teams-live-events"></a>Was sind Teams live Ereignisse?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -22,9 +22,9 @@ ms.locfileid: "21711070"
 Hier erfahren Sie, wie live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.  
 
 ## <a name="overview"></a>Übersicht
-Live Ereignisse in Microsoft 365 können Benutzer Video- und große online Publikum Content übertragen.  Microsoft 365 live Ereignisse bringen live Videostreaming auf eine neue Ebene, Förderung der Verbindung während des gesamten Projekts Lebenszyklus mit Teilnehmer vor, während und nach live-Ereignissen. Sie können ein live-Ereignis erstellen, unabhängig von dessen Speicherort Ihrer Benutzergruppe, Team oder Community befindet sich mit Microsoft-Stream, Microsoft-Teams oder Yammer.  
+Live Ereignisse in Microsoft 365 können Benutzer Video- und große online Publikum Content übertragen. Microsoft 365 live Ereignisse bringen live Videostreaming auf eine neue Ebene, Förderung der Verbindung während des gesamten Projekts Lebenszyklus mit Teilnehmer vor, während und nach live-Ereignissen. Sie können ein live-Ereignis erstellen, unabhängig von dessen Speicherort Ihrer Benutzergruppe, Team oder Community befindet sich mit Microsoft Stream, Microsoft-Teams, oder Yammer.  
 
-Microsoft-Teams, bietet Chat-basierte Zusammenarbeit aufrufen, Besprechungen und mit live Ereignisse können Sie die Benutzergruppe Besprechungsliste erweitern. Microsoft-Teams live Ereignisse ist eine Erweiterung von Teams Besprechungen, die Benutzern ermöglichen, Video- und Meeting Inhalte an eine große online Benutzergruppe übertragen. Diese sind für die 1: n-Kommunikation vorgesehen, in denen der Host des Ereignisses wird die Interaktionen führende und die Teilnahme Benutzergruppe ist in erster Linie zum Anzeigen des Inhalts von Host gemeinsam genutzt werden. Die Teilnehmer können das live oder aufgezeichnete-Ereignis im Yammer, Teams und/oder Microsoft Stream Video und können mit dem Referenten über moderierte f & A interagieren oder Yammer Unterhaltung. 
+Microsoft-Teams, bietet Chat-basierte Zusammenarbeit, aufrufen, Besprechungen und mit live Ereignisse können Sie die Benutzergruppe Besprechungsliste erweitern. Microsoft-Teams live Ereignisse ist eine Erweiterung von Teams Besprechungen, die Benutzern ermöglichen, Video- und Meeting Inhalte an eine große online Benutzergruppe übertragen. Diese sind für die 1: n-Kommunikation vorgesehen, in denen der Host des Ereignisses wird die Interaktionen führende und die Teilnahme Benutzergruppe ist in erster Linie zum Anzeigen des Inhalts von Host gemeinsam genutzt werden. Die Teilnehmer können das live oder aufgezeichnete-Ereignis im Yammer, Teams und/oder Microsoft Stream Video und können mit dem Referenten über moderierte f & A interagieren oder Yammer Unterhaltung. 
 
 Ersetzen Sie Teams live Ereignisse gilt die nächste Version von Skype Besprechung übertragen und schließlich wird die Funktionen in Skype Besprechung übertragen. Für die public Preview-Version von live-Ereignissen weiterhin Microsoft Skype Besprechung übertragen, ohne Unterbrechung im Dienst für neue oder zukünftigen Ereignisse unterstützen. Wir empfehlen Ihnen, live Ereignisse in Teams Bildschirmfreigabe, einschließlich der neuen Features nutzen Teilnehmeranzahl, testen und Unterstützung für externe Hardware und Software Encoder. 
 
@@ -34,12 +34,12 @@ Im folgende Diagramm werden die Komponenten auf hohe Ebene zum Microsoft 365 liv
 ![Teams live-Ereignisse](media/teams-live-events.png)
 
 ### <a name="scheduling"></a>Planung
-Teams bietet die Möglichkeit für die Organisatoren, ein Ereignis mit der entsprechenden Teilnehmer Berechtigungen erstellen, Ereignis Teammitglieder festzulegen, wählen Sie Produktion-Methode einladen Teilnehmer. Wenn das live-Ereignis innerhalb einer Gruppe Yammer erstellt wurde, werden die Teilnehmer live-Ereignis Yammer Unterhaltung für die Interaktion mit dem Ereignis Team verwenden können. 
+Teams bietet die Möglichkeit für die Verwaltung von Organisatoren auf ein Ereignis mit der entsprechenden Teilnehmer Berechtigungen erstellen, Ereignis Teammitglieder festzulegen, wählen Sie Produktionsmethode und Teilnehmer einladen. Wenn das live-Ereignis innerhalb einer Gruppe Yammer erstellt wurde, werden die Teilnehmer live-Ereignis Yammer Unterhaltung für die Interaktion mit dem Ereignis Team verwenden können. 
 
 ### <a name="production"></a>Produktion
 Die live-Ereignisse in Microsoft 365 ein Spektrum der Produktionsszenarien unterstützen, schließen Sie ein Schnellstart-Ereignis mithilfe von Webcams oder externen Encoder Ereignisse mit dem Studio Qualität Equipment. Video Eingabe bildet die Grundlage für die live-Ereignisse und kann aus einer einzelnen Webcam an eine professionelle video Multi-Kamera-Produktion variieren. Kunden können diese Optionen je nach ihren Project-Anforderungen und Ihrem Budget auswählen. 
 - **Schnellstart**: die Schnellstart-Methode können Benutzer ihre live Ereignissen mithilfe von Teams Besprechungen zu erstellen. Diese Option ist am besten, wenn Sie die Audiodaten verwenden möchten, und Videogeräte an den PC angeschlossenes und/oder remote Referenten einladen / Diskussionsteilnehmer für das Ereignis beteiligt sind. Mit dieser Option können Benutzer auf einfache Weise verwenden, deren Webcams und ihren Bildschirm als Eingabe für die Übertragung freigeben. 
-- **Externe Encoder**: externe Encoder zulassen, dass Benutzer ihre live Ereignisse direkt aus einer externen Hardware oder softwarebasierte Encoder mit Microsoft Stream zu erstellen. Diese Option empfiehlt sich, wenn Sie bereits Studio Qualität Equipment (z. B. Media Mischern) verfügen, welche Unterstützung streaming an einen RTMP-Dienst. Diese Option wird im großen Maßstab Fälle wie executive Stadt Hallen – in der Regel verwendet, in ein einzelner Datenstrom aus einem Media Mixer auf die Benutzergruppe übertragen wird. 
+- **Externe Encoder**: externe Encoder zulassen, dass Benutzer ihre live Ereignisse direkt aus einer externen Hardware oder softwarebasierte Encoder mit Microsoft Stream zu erstellen. Diese Option empfiehlt sich, wenn Sie bereits Studio Qualität Equipment (beispielsweise Media Mischern) verfügen, welche Unterstützung streaming an einen RTMP-Dienst. Diese Option wird im großen Maßstab Fälle wie executive Stadt Hallen – in der Regel verwendet, in ein einzelner Datenstrom aus einem Media Mixer auf die Benutzergruppe übertragen wird. 
 
 ### <a name="streaming-platform"></a>Streaming-Plattform
 Dies ist die folgenden Teile zusammen:
@@ -118,10 +118,10 @@ Ein Referent während der Besprechung einladen |& #x 2714; (Skype für Unternehm
 
 * Die Grenzwerte für die werden während der Vorschau und kann geändert 
 
-## <a name="planning--setup"></a>Planung und Setup
-In diesem Artikel wird erläutert, wie Sie Benutzer mithilfe von Teams live-Ereignissen in Ihrer Organisation einrichten können.
+## <a name="planning-and-setup"></a>Planung und Setup
+In diesem Artikel wird erläutert, wie Sie Benutzern mit Teams live Ereignisse in Ihrer Organisation einrichten können.
 
-1. Überprüfen Sie die [regionale Verfügbarkeit für Teams live Ereignisse](#configure-live-events) , um die Regionen Verständnis darüber, wie live Ereignisse in derzeit verfügbar sind.
+1. Überprüfen Sie die [regionalen Verfügbarkeit für Teams live Ereignisse](#configure-live-events) , um die Bereiche zu verstehen, wenn live Ereignisse derzeit verfügbar sind.
 2. Wenn Sie dies noch nicht getan haben richten Sie [Skype für Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online?redirectSourcePath=%252fen-us%252farticle%252fset-up-skype-for-business-online-40296968-e779-4259-980b-c2de1c044c6e) für Ihre Organisation ein.
 3. Wenn Sie Teilnehmer beitreten von innerhalb des Unternehmensnetzwerks haben, sollten Sie Onboarding und [Einrichten eines Anbieters für die von Microsoft empfohlenen eCDN](#set-up-ecdn-provider-for-teams-live-events) Bandbreite in Ihrem Netzwerk zu optimieren. 
 4. Stellen Sie sicher, dass Sie die richtige Lizenz Zuordnungen für [Benutzer können live Ereignisse erstellen](#who-can-create-live-events) und [können, die live Ereignisse Video](#who-can-watch-live-event)verfügen. 
@@ -152,36 +152,37 @@ Für den Schnellstart und externe Encoder live Ereignisse, wechseln Sie zu [Offi
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Einrichten von eCDN-Anbieter für live Ereignisse in der Microsoft-Teams 
 Wiedergabe von Videos live-Ereignis verwendet adaptive Bitrate (ABR) streaming, aber es ist eine Unicast-Stream, was bedeutet, dass jeder Viewer eigene Videostream aus dem Internet abrufen ist. Für live Ereignisse oder Videos an große Teile Ihrer Organisation gesendet kann sehr viel Internetbandbreite Identitätsdaten durch Viewer handeln.  Für Organisationen, die diesen Internet-Datenverkehr für live Ereignisse reduzieren möchten, vertrauenswürdige live Ereignisse, die von Microsoft Solutions integriert sind video Delivery Partner, anbietet Software Netzwerke (SDNs) oder Enterprise Content Delivery Networks (eCDNs) definiert. Diese SDN / eCDN Plattformen können Organisationen zum Optimieren der Netzwerkbandbreite ohne Beeinträchtigung Endbenutzer Erfahrungen anzeigen. Unsere Partner helfen, eine skalierbare und effiziente video Verteilung über Ihr Unternehmensnetzwerk zu aktivieren.
 
-#### <a name="purchase--setup-your-solution-outside-of-microsoft-teams"></a>Erwerben Sie & richten Sie Ihrer Lösung außerhalb von Microsoft-Teams ein
-Hier erhalten Sie Hilfe Experten video Übermittlung durch die Nutzung von Microsoft vertrauenswürdigen video Delivery Partner skalieren.  Bevor Sie einen video Delivery-Anbieter mit Microsoft-Teams verwendet werden, müssen Sie erwerben und einrichten die Lösung SDN/eCDN äußeren und getrennt von Microsoft-Teams, aktivieren können.
+#### <a name="purchase-and-set-up-your-solution-outside-of-microsoft-teams"></a>Erwerben Sie und richten Sie Ihre Lösung außerhalb von Microsoft-Teams
+Hier erhalten Sie Hilfe Experten video Übermittlung durch die Nutzung von Microsoft vertrauenswürdigen video Delivery Partner skalieren. Bevor Sie einen video Übermittlung Anbieter Verwendung mit dem Microsoft-Teams aktivieren können, müssen Sie erwerben und richten Sie die Lösung SDN/eCDN äußeren und getrennt von Microsoft-Teams.
 
-SDN/eCDN Folgendes können bereits integriert werden und Setup mit Microsoft-Streams verwendet werden. Finden Sie Informationen aus der folgenden Anbieter:
+SDN/eCDN Folgendes bereits integriert werden und können mit Microsoft-Stream eingerichtet werden. Finden Sie Informationen aus der folgenden Anbieter:
 
 Struktur Streaming bietet eine einfache und leistungsstarke Lösung für die Live- und on-Demand Enterprise video Verteilung. Struktur ist eine softwarebasierte Lösung, die erfordert keine zusätzliche Hardware oder Bandbreite und auf sichere Weise Tausende von gleichzeitigen video Viewer ohne Auswirkung auf das Netzwerk zu aktivieren. Für Kunden, die zum Verständnis, dass das Video Auswirkung in ihrem Netzwerk vor dem Kauf einer Lösung SDN/eCDN hat bietet Streaming Struktur auch eine browserbasierte Analytics Lösung zur Microsoft-Kunden. [Weitere Informationen](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
  
-Kollective des cloudbasierten, intelligente Peers Verteilung-Plattform nutzt die vorhandene Netzwerkinfrastruktur zum Übermitteln von Inhalten, in vielen Formen, (live Videostreams, bei Bedarf Video, Softwareupdates, Sicherheitspatches usw.) schneller, zuverlässiger und mit weniger Bandbreite. Unsere sichere Plattform ist vertrauenswürdig, von der weltweit größten Finanzinstituten und mit keine zusätzliche Hardware, Installation und Wartung einfach sind. [Weitere Informationen](http://www.kollective.com)
+Kollective des cloudbasierten, intelligente Peers Verteilung Plattform nutzt die vorhandene Netzwerkinfrastruktur zum Übertragen von Inhalten, in vielen Formen (live Videostreams, bei Bedarf Video, Softwareupdates, Sicherheitspatches und usw.), schneller, zuverlässiger, und mit weniger Bandbreite. Sichere Plattform des Kollective ist vertrauenswürdig, von der weltweit größten Finanzinstituten und mit keine zusätzliche Hardware, Einrichtung und Verwaltung einfach sind. [Weitere Informationen](http://www.kollective.com)
  
 Lernen OmniCache ermöglicht die Verteilung der nächsten Generation Netzwerk und sorgt für nahtlose Bereitstellung von Videoinhalten auf globale WANs, Netzwerkbandbreite zu optimieren und unterstützen erfolgreiches Ereignis live Übertragungen und on-Demand-streaming-Ereignis Hersteller helfen. Die Unterstützung für lernen OmniCache Schnellstart live Ereignisse wird in Kürze bereitgestellt.  [Weitere Informationen](http://www.ramp.com) 
  
-[!NOTE] Ihre Lösung gewählten eCDN unterliegt den ausgewählten [3. Anbieters Bedingungen Service und der Datenschutzrichtlinie](), die Ihre Verwendung des Anbieters eCDN Lösung gesteuert wird. Ihre Verwendung des Anbieters eCDN Lösung werden nicht unter der Microsoft Volume licensing Begriffe oder Online Services-Ausdrücken. Wenn Sie nicht den [3. Anbieters Begriffe]()zustimmen, aktivieren Sie dann nicht eCDN Lösung im Microsoft-Teams. 
+> [!NOTE] 
+> Ihre Lösung gewählten eCDN unterliegt den ausgewählten [3. Anbieters Bedingungen Service und der Datenschutzrichtlinie](), die Ihre Verwendung des Anbieters eCDN Lösung gesteuert wird. Ihre Verwendung des Anbieters eCDN Lösung werden nicht unter der Microsoft Volume licensing Begriffe oder Online Services-Ausdrücken. Wenn Sie nicht den [3. Anbieters Begriffe]()zustimmen, aktivieren Sie dann nicht eCDN Lösung im Microsoft-Teams. 
 
 #### <a name="configure-ecdn-for-quick-start-live-events"></a>Konfigurieren von eCDN für "Schnellstart" live-Ereignisse 
-Sie können im Microsoft-Teams, über die PowerShell eCDN-Anbieter für live Ereignisse konfigurieren. Hinweis: nur ein einzigen eCDN Anbieter kann für den Mandanten zu einem bestimmten Zeitpunkt konfiguriert werden. 
+PowerShell können Sie um einen eCDN Anbieter für live Ereignisse in Microsoft-Teams, zu konfigurieren. Beachten Sie, dass nur ein einzelnes eCDN Anbieter für den Mandanten zu einem bestimmten Zeitpunkt konfiguriert werden kann. 
 
 **Struktur eCDN Anbieter konfigurieren** 
 
-[Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) -PowerShell-Cmdlets können Sie eCDN Anbieter konfigurieren. 
-1. Lizenz-ID und API-Vorlagen-URL aus der Struktur Kontakt zu erhalten. 
-2. Führen Sie die folgenden PowerShell-Cmdlets
+Das [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) -PowerShell-Cmdlet können Sie einen Anbieter für eCDN konfigurieren. 
+1. Ihre Lizenz-ID und API-Vorlagen-URL aus der Struktur Kontakt zu erhalten. 
+2. Führen Sie das folgende PowerShell-Cmdlet.
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 
 **Kollective eCDN Anbieter konfigurieren** 
 
-[Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) -PowerShell-Cmdlets können Sie eCDN Anbieter konfigurieren. 
-1. Erhalten Sie von Ihrem Kollective Kontakt API Token und API-Vorlagen-URL. 
-2. Führen Sie die folgenden PowerShell-Cmdlets
+Das [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) -PowerShell-Cmdlet können Sie einen Anbieter für eCDN konfigurieren. 
+1. Erhalten Sie API-Token und API-Vorlagen-URL aus dem Kontakt Kollective. 
+2. Führen Sie das folgende PowerShell-Cmdlet.
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
@@ -189,7 +190,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Lernen eCDN Anbieter konfigurieren**
 
 #### <a name="configure-ecdn-for-external-encoder-live-events"></a>Konfigurieren von eCDN für "Externe Encoder" live-Ereignisse 
-Wenn Sie planen, live Ereignisse erstellen, die externe Encoder verwenden, müssen Sie ebenfalls [Konfigurieren des Anbieters eCDN mit Microsoft-Stream](https://docs.microsoft.com/stream/network-caching) . Wenn Sie "Schnellstart" live Ereignisse über Microsoft-Teams oder Yammer erstellen möchten, müssen Sie Ihren SDN/eCDN-Anbieter sowie mit Microsoft-Teams integriert werden konfigurieren.
+Wenn Sie planen, live Ereignisse erstellen, die externe Encoder verwenden, müssen Sie zum [Konfigurieren des Anbieters eCDN mit Microsoft-Stream](https://docs.microsoft.com/stream/network-caching). Wenn Sie beabsichtigen, Schnellstart live Ereignisse über Microsoft-Teams oder Yammer erstellen, müssen Sie Ihren SDN/eCDN-Anbieter sowie mit Microsoft-Teams integriert werden konfigurieren.
 
 ### <a name="enable-live-event-scheduling-for-the-user"></a>Aktivieren Sie planen von live-Ereignis für den Benutzer
 Die Planung von live-Ereignis wird für einen Benutzer Teams standardmäßig aktiviert.  
@@ -202,7 +203,7 @@ Verwenden Sie die Einstellung AllowBroadcastScheduling in TeamsMeetingBroadcastP
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
-Um Wert der AllowBroadcastScheduling in der globalen Richtlinie zu ändern, verwenden Sie das folgende Cmdlet aus:
+Um den Wert von AllowBroadcastScheduling in globale Richtlinie zu ändern, verwenden Sie das folgende Cmdlet aus:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastScheduling $false
 ```
@@ -228,12 +229,12 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastScheduling $fa
 ### <a name="enable-creation-of-external-encoder-based-live-events-for-users"></a>Aktivieren Sie Erstellung von externen Encoder-basierten live Ereignissen für Benutzer
 
 #### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>Aktivieren von Microsoft-Stream für Benutzer in der Organisation
-Microsoft-Stream steht als Teil von Office 365-Abonnements zu auswählbaren oder als eigenständigen Dienst. Einzelheiten finden Sie unter [Stream Lizenzierung Overview](https://docs.microsoft.com/en-us/stream/license-overview) . Hinweis Microsoft Stream ist nicht in Business Essentials oder Business Premium-Plänen enthalten.  
+Microsoft-Stream steht als Teil von Office 365-Abonnements zu auswählbaren oder als eigenständigen Dienst. Einzelheiten finden Sie unter [Stream Lizenzierung Overview](https://docs.microsoft.com/en-us/stream/license-overview) . Beachten Sie, dass Microsoft Stream ist nicht enthalten in Business Essentials Business Premium plans.  
 
 Erfahren Sie mehr dazu, wie Sie [Lizenzen für Benutzer in Office 365 zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) , damit Benutzer Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft-Stream für die Benutzer nicht ausgeschlossen wird, wie in [diesem Artikel](https://docs.microsoft.com/en-us/stream/disable-user-organization)definiert.
 
 #### <a name="ensure-users-have-live-event-creation-permission-in-microsoft-stream"></a>Sicherstellen Sie, dass Benutzer über Berechtigungen zum Erstellen live-Ereignis in Microsoft Stream haben
-Standardmäßig kann jeder Benutzer im Unternehmen Inhalte in Stream-Objekt, erstellen, nach Stream aktiviert ist und der Benutzer eine Lizenz zugewiesen ist. Microsoft Stream-Administrator können [Mitarbeiter bei der Erstellung von einschränken](https://docs.microsoft.com/en-us/stream/restrict-uploaders) , in Stream-Objekt. Der Benutzer, die in dieser Liste beschränkt sind möglich zum Aufzeichnen von Besprechungen nicht.
+Standardmäßig kann alle Benutzer im Unternehmen Inhalte in Stream-Objekt erstellen, sobald Stream aktiviert ist und der Benutzer eine Lizenz zugewiesen ist. Ein Microsoft-Stream-Administrator können im Datenstrom [einschränken Mitarbeiter von Inhalt zu erstellen](https://docs.microsoft.com/en-us/stream/restrict-uploaders) . Der Benutzer, die in dieser Liste beschränkt sind möglich zum Aufzeichnen von Besprechungen nicht.
 
 #### <a name="ensure-live-event-organizers-have-consented-to-the-company-policy-set-by-stream-admin"></a>Stellen Sie sicher live-Ereignis, das die Unternehmensrichtlinie durch den Administrator des Datenstroms festlegen Organisatoren zugestimmt haben
 Wenn ein Microsoft-Stream-Administrator [eine Unternehmensrichtlinie Richtlinien einrichten hat](https://docs.microsoft.com/en-us/stream/company-policy-and-consent) und Mitarbeiter dieser Richtlinie zu akzeptieren erfordert, bevor das Speichern von Inhalten, klicken Sie dann müssen Benutzer vor dem Erstellen einer live-Ereignis (mit der externen Encoder Produktion) in Microsoft-Teams. Sicherstellen Sie bevor Sie Einführung das Feature live Ereignisse in der Organisation, dass Benutzer, die diese live Ereignisse erstellen werden die Richtlinie zugestimmt haben. 
@@ -243,7 +244,7 @@ Wenn ein Microsoft-Stream-Administrator [eine Unternehmensrichtlinie Richtlinien
 ### <a name="set-up-event-support-link-coming-soon"></a>Einrichten von Ereignis Support Link (bald verfügbar)
 Dies ist die Verknüpfung, die an die Teilnehmer live-Ereignis angezeigt werden. 
 
-PowerShell
+#### <a name="powershell"></a>PowerShell
 
 Führen Sie in Windows PowerShell das folgende Cmdlet aus:
 ```
@@ -258,7 +259,7 @@ Live-Ereignis Organisatoren Ereignisse mit entsprechenden Attendee Sichtbarkeit 
 |EveryoneInCompany     |Der Benutzer hat eine Option zum Erstellen von live Ereignisse mit dem folgenden Attendee Sichtbarkeit: alle Benutzer im Unternehmen und bestimmte Personen. Der Benutzer kann nicht live Ereignisse erstellen, die durch anonyme Benutzer behandelt werden kann.|
 |InvitedUsers |Der Benutzer kann nur live Ereignisse erstellen, die auf bestimmte Personen beschränkt sind durch den Organisator des Ereignisses eingegeben wurde. Der Benutzer kann nicht mit öffentlichen und alle Benutzer im Unternehmen Authentifizierung live Ereignisse erstellen. |
 
-PowerShell
+#### <a name="powershell"></a>PowerShell
 
 Verwenden Sie die Einstellung BroadcastAttendeeVisibility in TeamsMeetingBroadcastPolicy in PowerShell können Sie steuern, ob die Benutzer broadcast Ereignisse planen können, die durch anonyme Teilnehmer beobachtet werden kann. Erfahren Sie mehr über das Verwalten von TeamsMeetingBroadcastPolicy mit Office 365 PowerShell hier.  
 
@@ -270,17 +271,17 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ### <a name="configure-recording-options"></a>Konfigurieren Sie die Aufzeichnungsoptionen
 > [!NOTE]
-> Diese Option ist für Ereignisse, die nur Schnellstart Produktion-Methode verwenden.
+> Diese Option ist für Ereignisse, die der Schnellstart Produktion-nur Methode anwendbar.
 
-Dies ermöglicht Administratoren zur Steuerelement an, ob die live Ereignisse immer noch nie aufgezeichnet aufgezeichnet werden, oder der Organisator des Ereignisses zum Aufzeichnen des Ereignisses oder nicht entscheiden kann.  
+Dies ermöglicht Administratoren zur Steuerelement an, ob die live Ereignisse immer noch nie aufgezeichnet, aufgezeichnet werden, oder der Organisator des Ereignisses zum Aufzeichnen des Ereignisses oder nicht entscheiden kann.  
 
 |**Werte**  |**Verhalten**  |
 |---------|---------|
-|Immer aktiviert |Die von diesem Benutzer organisierte live Ereignisse werden immer aufgezeichnet. Benutzer keine Option außer Kraft gesetzt. Wenn das live Ereignis aufgezeichnet wird, die Mitglieder des Teams können die Aufzeichnung nach dem Ereignis herunterzuladen und die Teilnehmer können sehen Sie sich das Ereignis nach Abschluss des Ereignisses. |
-|AlwaysDisabled |Die von diesem Benutzer organisierte live Ereignisse werden nie aufgezeichnet. Benutzer keine Option außer Kraft gesetzt. Wenn das live-Ereignis gespeichert ist, keine Aufzeichnung wird für die Mitglieder des Teams erstellt, und die Teilnehmer können nicht sehen Sie sich das Ereignis aus, nachdem sie sich über befindet. |
-|UserOverride |Benutzer kann entscheiden, ob das live-Ereignis aufgezeichnet wird, damit eine Aufzeichnungsdatei für die Mitglieder des Teams erstellt werden kann und Teilnehmer können sehen Sie sich das Ereignis nach Abschluss des Ereignisses. |
+|Immer aktiviert |Die von diesem Benutzer organisierte live Ereignisse werden immer aufgezeichnet. Der Benutzer keine Option außer Kraft gesetzt. Wenn das live Ereignis aufgezeichnet wird, die Mitglieder des Teams können die Aufzeichnung nach dem Ereignis herunterzuladen und die Teilnehmer können sehen Sie sich das Ereignis nach Abschluss des Ereignisses. |
+|AlwaysDisabled |Die von diesem Benutzer organisierte live Ereignisse werden nie aufgezeichnet. Der Benutzer keine Option außer Kraft gesetzt. Wenn das live Ereignis aufgezeichnet wird, wird keine Aufzeichnung für die Mitglieder des Teams erstellt, und die Teilnehmer können nicht sehen Sie sich das Ereignis nach über ist. |
+|UserOverride |Benutzer kann entscheiden, ob das live-Ereignis, damit eine Aufzeichnungsdatei für die Mitglieder des Teams erstellt werden kann und Teilnehmer können sehen Sie sich das Ereignis nach Abschluss des Ereignisses aufgezeichnet wird. |
 
-PowerShell
+#### <a name="powershell"></a>PowerShell
 
 Verwenden Sie die Einstellung BroadcastRecordingMode in TeamsMeetingBroadcastPolicy in PowerShell Steuerelement Aufzeichnungsoptionen live Ereignisse vom Organisator live-Ereignis erstellt.
 
@@ -290,15 +291,15 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ### <a name="configure-real-time-transcription-and-translation-in-teams-live-events-coming-soon"></a>Konfigurieren von Real-Time Lautschrift und Übersetzung in Teams live-Ereignisse (bald verfügbar)
 > [!NOTE]
-> Diese Option ist für Ereignisse, die nur Schnellstart Produktion-Methode verwenden.
+> Diese Option ist für Ereignisse, die der Schnellstart Produktion-nur Methode anwendbar.
 
 Dadurch können live-Ereignis Organisatoren, Real-Time Beschriftungen und Übersetzung für den Teilnehmern live-Ereignis zu aktivieren. 
 
-PowerShell
+#### <a name="powershell"></a>PowerShell
 
 Verwenden Sie die Einstellung AllowBroadcastTranscription in TeamsMeetingBroadcastPolicy in PowerShell Kontrolle, ob die Teilnehmer live-Ereignis Umsetzung und Übersetzung finden Sie unter können. Erfahren Sie mehr über das Verwalten von TeamsMeetingBroadcastPolicy mit Office 365 PowerShell hier.  
 
-Wenn der Benutzer eine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer globale Richtlinie ein, die Lautschrift & Übersetzung standardmäßig deaktiviert hat.
+Es sei denn, die Benutzer eine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer globale Richtlinie ein, die Umsetzung und Übersetzung standardmäßig deaktiviert hat.
 
 Führen Sie in Windows PowerShell das folgende Cmdlet, um die Umsetzung und eine Übersetzung auf Ereignis Teilnehmer in der globalen Richtlinie zu aktivieren:
 ```
@@ -307,21 +308,21 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ## <a name="self-service-administration-tools"></a>Self-service-Verwaltungstools 
 Obwohl Microsoft Office 365 Online Rechenzentren alle Steuerelemente direkt und verantwortlich für die Leistung des gesamten Systems ist, kann es nur einen Teil der Elemente steuern, die kombiniert werden, um den Gesamtnutzen für Office 365-Benutzer bereitzustellen. Organisationen selbst die Verantwortung für die Netzwerkverbindungen mit der Rechenzentren, die Kunden Fernnetz (WAN), und der Kunde lokale Netzwerke (LANs). Darüber hinaus sind für Benutzer Geräte und deren Konfiguration.Sie werden darüber hinaus verantwortlich für die Verwaltung der erforderliche Lizenzierung pro Benutzer für alle gewünschten Features, einschließlich, aber nicht beschränkt auf die Möglichkeit, diese Features für verwalten, solange der Benutzer Zugriff auf dieses Feature benötigt.
 
-Kunden können die folgenden Tools verwenden, um eine Vielzahl von Teams live Ereignisse Aufgaben im Zusammenhang mit verwalten.
+Kunden können die folgenden Tools verwenden, um eine Vielzahl von Teams live Ereignisse-bezogene Aufgaben zu verwalten.
 - [Microsoft Office 365 Administrationscenter](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_Office365admincenterl)
 - [Microsoft-Teams und Skype für Business Online Administrationscenter](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_ExchangeAdministrationCenter)
 - Microsoft-Stream-Verwaltungskonsole
 - [Windows PowerShell-Remotesitzungen](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
 
 ### <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
-- Wenn es auf Windows PowerShell, es darum geht alle Informationen zum Verwalten von Benutzern und welche Benutzer zulässig sind oder nicht durchgeführt werden darf. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
-  - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
+Wenn es auf Windows PowerShell, es darum geht alle Informationen zum Verwalten von Benutzern und welche Benutzer zulässig sind oder nicht durchgeführt werden darf. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+ - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+ - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell verfügt im Vergleich zur ausschließlichen Verwendung des Office 365 Admin Centers über viele Vorteile in puncto Geschwindigkeit, Einfachheit und Produktivität, beispielsweise wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
-  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
-  - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
+Windows PowerShell verfügt im Vergleich zur ausschließlichen Verwendung des Office 365 Admin Centers über viele Vorteile in puncto Geschwindigkeit, Einfachheit und Produktivität, beispielsweise wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+ - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+ - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+ - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 
 ### <a name="related-topics"></a>Verwandte Themen: 

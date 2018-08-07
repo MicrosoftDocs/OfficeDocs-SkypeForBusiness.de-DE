@@ -10,18 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: c6267f24771954c31cfc4c75f8fff7b1aa8b9b66
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20509535"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22111846"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
 In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst. 
   
 Die Bereitstellung planungslösung Kontenerstellung gemäß der Beschreibung unter [Bereitstellen von Skype Raum Systemen v2](../../deploy/deploy-clients/room-systems-v2.md) und Einrichten von einem Meeting-Konsole, wie beschrieben unter [Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md). Sie müssen auch auf [Skype für Business Add-on Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)verweisen.
+
+> [!NOTE]
+> Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen.  <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
   
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
 
@@ -34,13 +37,13 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
 **Unterstützte tablets**
 |Tablet|Prozessor|RAM|Festplatte|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4    |Core i5  |4GB  |128GB  |
-|Surface Pro 4    |Core i5  |8GB  |256GB  |    
+|Surface Pro 4       |Core i5  |4GB  |128GB  |
+|Surface Pro 4       |Core i5  |8GB  |256GB  |    
 |Surface Pro (2017)  |Core i5  |4GB  |128GB  |
 |Surface Pro (2017)  |Core i5  |8GB  |256GB  |
 |Surface Pro (2017)  |Core i7  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i7  |16GB  |512GB  |
-|Surface Pro (2017) |Core i7  |16GB  |1TB  |
+|Surface Pro (2017)  |Core i7  |16GB |512GB  |
+|Surface Pro (2017)  |Core i7  |16GB |1TB    |
    
 > [!NOTE]
 > Core M3-Prozessoren werden nicht unterstützt.
@@ -62,7 +65,7 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
 
  
 **Certified-Firmware-Versionen für USB-audio und video Peripheriegeräte**
-|**Skype-Chatroom-Systemen v2 Peripheriegeräte**|**Firmwareversion zertifiziert für Skype Raum Systemen v2**|
+|Skype-Chatroom-Systemen v2 Peripheriegeräte|Firmwareversion zertifiziert für Skype Raum Systemen v2|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Video - 1.0.156  <br/> |
