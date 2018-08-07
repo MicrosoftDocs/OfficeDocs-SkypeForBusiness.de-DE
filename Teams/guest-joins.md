@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast eingeladen wird, einem Team in Microsoft Teams beizutreten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 8d8853e9b383d90ca2b030edd6f6a9f896a6bed7
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211052"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22100133"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
@@ -33,7 +33,7 @@ Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den De
 
 So wird ein Gast Mitglied eines Teams:
 
-- **Schritt 1** Ein Teambesitzer oder einOffice 365-Administrator [fügt einen Gast zu einem Team hinzu](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
+- **Schritt 1** Ein Teambesitzer oder einOffice 365-Administrator [fügt einen Gast zu einem Team hinzu](https://support.office.com/en-us/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
     
   
 - **Schritt 2** Der Office 365-Administrator oder der Teambesitzer kann die Funktionen für einen Gast nach Bedarf verwalten. So kann er beispielsweise zulassen, dass ein Gast Kanäle hinzufügen oder löschen kann, oder den Zugriff auf Dateien deaktivieren.

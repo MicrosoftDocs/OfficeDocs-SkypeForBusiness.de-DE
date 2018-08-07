@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lesen Sie dieses Thema und erfahren Sie, wie Skype Room System-Konten in Office 365 bereitgestellt werden.
-ms.openlocfilehash: 63b195dd2989e6da2d3a2cecdbc76ccff741cd87
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b248168870366db8f685db48197badb3bacf935f
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010041"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22102053"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Bereitstellung von Skype Room System-Konten in Office 365
  
@@ -98,11 +98,7 @@ Nachdem Sie eine Lizenz für Skype für Business Online zuweisen, werden Sie kö
 
 Nach einer Ressource Raum-Mail-Konto erstellt und wie zuvor dargestellt aktiviert wurde und Sie haben das Konto für Skype für Business Online das Konto aus der Gesamtstruktur Exchange Online mit Skype für Business Online Gesamtstruktur mithilfe von synchronisiert wird lizenziert der Windows Azure Active Directory-Gesamtstruktur. Die folgenden Schritte sind erforderlich, das Systemkonto von Skype Raum in der Skype für Business Online Pool bereitstellen. Diese Schritte sind identisch für ein vorhandenes Postfach Ressourcenkonto oder eines neu erstellten Kontos (confrm1 oder confrm2), da Nachdem sie im Exchange Online aktiviert sind, beide Konten zu Skype für Business Online auf die gleiche Weise synchronisiert werden soll:
   
-<<<<<<< KOPFZEILE
 1. Erstellen Sie eine PowerShell-Remotesitzung. Beachten Sie, dass Sie benötigen Skype für Business Online Connectormodul und Microsoft Online Services-Anmeldeassistent herunterladen, und stellen Sie sicher, dass Ihr Computer konfiguriert ist. Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
-=======
-1. Erstellen Sie eine PowerShell-Remotesitzung. Beachten Sie, dass Sie benötigen Skype für Business Online Connectormodul und Microsoft Online Services-Anmeldeassistent herunterladen, und stellen Sie sicher, dass Ihr Computer konfiguriert ist. Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
->>>>>>> 0a230b02c47ae4de6638a638b76ed38243c71ab9
     
    ```
    Import-Module LyncOnlineConnector
