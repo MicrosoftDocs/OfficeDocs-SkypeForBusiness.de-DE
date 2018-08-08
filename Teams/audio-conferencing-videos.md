@@ -8,31 +8,33 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Videos zur Einführung von IT-Administratoren für Audiokonferenzen in Microsoft Teams
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c2c8c557c8a91b1adeafc523261b7aef499d51
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 76b1dd3d6f9a36d64a18ecc0984e96609366e6b2
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19002268"
 ---
-<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="a26cf-103">Videos: Audiokonferenzen in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a26cf-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
+<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="5cf28-103">Videos: Audiokonferenzen in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="5cf28-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
 =============================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-<span data-ttu-id="a26cf-104">Verpassen Sie nicht die [Audiokonferenzen in Microsoft Teams](audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="a26cf-104">Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).</span></span>
+<span data-ttu-id="5cf28-104">Verpassen Sie nicht die [Audiokonferenzen in Microsoft Teams](audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="5cf28-104">Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a26cf-105">Audiokonferenzen wurden ehemals als PSTN-Konferenzen bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="a26cf-105">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
+> <span data-ttu-id="5cf28-105">Audiokonferenzen wurden ehemals als PSTN-Konferenzen bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="5cf28-105">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
 
 
-### <a name="introduction-to-audio-conferencing"></a><span data-ttu-id="a26cf-106">Einführung in Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="a26cf-106">Introduction to Audio Conferencing</span></span>
+### <a name="introduction-to-audio-conferencing"></a><span data-ttu-id="5cf28-106">Einführung in Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="5cf28-106">Introduction to Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/AGPvaW4Vg0o]
 
-### <a name="plan-for-audio-conferencing"></a><span data-ttu-id="a26cf-107">Planen von Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="a26cf-107">Plan for Audio Conferencing</span></span>
+### <a name="plan-for-audio-conferencing"></a><span data-ttu-id="5cf28-107">Planen von Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="5cf28-107">Plan for Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/AWbuvcWcYIc]
 
-### <a name="number-porting-for-audio-conferencing"></a><span data-ttu-id="a26cf-108">Nummernportierung für Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="a26cf-108">Number porting for Audio Conferencing</span></span>
+### <a name="number-porting-for-audio-conferencing"></a><span data-ttu-id="5cf28-108">Nummernportierung für Audiokonferenzen</span><span class="sxs-lookup"><span data-stu-id="5cf28-108">Number porting for Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/5k0C21KAsns]
