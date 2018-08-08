@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
-ms.openlocfilehash: 79d414e26b2fe260c6fe647c818911e77ce3bfaa
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b92a98e52f9ccf914a8100555fa683bb01d05d5b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001726"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server
  
@@ -55,7 +56,7 @@ Durch die Bereitstellung von Telefonsystem in Office 365 mit lokalen PSTN-Anbind
   
 Möglicherweise verfügen Sie über eine benutzerdefinierte Funktion oder eine wesentliche Ergänzung Ihrer bestehenden Nebenstellenanlage, zum Beispiel über ein Callcenter. Wenn die benutzerdefinierte Funktion nicht aktuell auf Telefonsystem in Office 365 verfügbar ist, sollten Sie diese Benutzer lassen, die erfordern, benutzerdefinierte Funktion mit dem vorhandene PBX und nur Port die Benutzer lokale, die nicht auf die benutzerdefinierte Funktion Telefonsystem in Office 365 zugreifen müssen mit lokalen PSTN-Anbindung.
   
-Eine Liste der Vorversion Nebenstellenanlagen, die interagieren direkt mit Skype für Business Server 2015 finden Sie unter [Qualifizierten Infrastruktur für Microsoft Lync](https://technet.microsoft.com/en-us/office/dn788945.aspx). Ist der Nebenstellenanlage nicht in dieser Liste, können Sie ein Controller für die Verbindung der Nebenstellenanlage mit Telefonsystem in Office 365 in Skype für Business Online verwenden.
+Eine Liste der Vorversion Nebenstellenanlagen, die interagieren direkt mit Skype für Business Server 2015 finden Sie unter [Qualifizierten Infrastruktur für Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Ist der Nebenstellenanlage nicht in dieser Liste, können Sie ein Controller für die Verbindung der Nebenstellenanlage mit Telefonsystem in Office 365 in Skype für Business Online verwenden.
   
 ### <a name="network-considerations-for-quality-and-performance"></a>Überlegungen zum Netzwerk in Bezug auf Qualität und Leistung
 

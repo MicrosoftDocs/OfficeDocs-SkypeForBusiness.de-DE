@@ -1,9 +1,8 @@
 ---
-title: Konfigurieren der Standortdatenbank in Skype for Business Server 2015
+title: Konfigurieren der Standortdatenbank in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,32 +13,32 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Konfigurieren und Veröffentlichen der Standortdatenbank E9-1-1 in Skype für Business Server Enterprise-VoIP auffüllen.
-ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bbeb695cea58feae073e5579eacbe3558d632735
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568331"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018875"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>Konfigurieren der Standortdatenbank in Skype for Business Server 2015
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Konfigurieren der Standortdatenbank in Skype für Business Server
  
 Konfigurieren und Veröffentlichen der Standortdatenbank E9-1-1 in Skype für Business Server Enterprise-VoIP auffüllen. 
   
 Sie müssen zunächst die Standortdatenbank konfigurieren, um Clients für die automatische Ermittlung ihres Standorts innerhalb eines Netzwerks zu aktivieren. 
   
-Wenn Sie Konfiguration der Standortdatenbank führen Sie die folgenden Aufgaben aus:
+Führen Sie zur Konfiguration der Standortdatenbank die folgenden Aufgaben aus:
   
 - Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie eine Emergency Location Identification Anzahl ()-Gateway verwenden, müssen Sie die ELIN in der \<CompanyName\> dar.
     
     Wenn Sie die Standortdatenbank nicht auffüllen und die Eigenschaft **Standort erforderlich** in der Standortrichtlinie auf **Ja** oder **Haftungsausschluss** festgelegt ist, wird der Benutzer vom Client aufgefordert, den Standort manuell einzugeben.
     
-- Überprüfen Sie die Adressen anhand der master Straße Street Address Guide (), die vom E9-1-1-Dienstanbieter verwaltet wird.
+- Überprüfen Sie die Adressen anhand der MSAG-Daten (Master Street Address Guide), die vom Dienstanbieter für E9-1-1 verwaltet werden.
     
 - Veröffentlichen Sie die aktualisierte Datenbank.
     
 ## <a name="populate-the-location-database"></a>Auffüllen der Standortdatenbank
 
-Um Clients in einem Netzwerk automatisch zu suchen, müssen Sie zuerst die Standortdatenbank mithilfe einer netzwerkwiremap der Netzwerkelemente allgemeinen zugeordnet ist (d. h., Straße) Adressen. Sie können Subnetze, drahtlose Zugriffspunkte, Switches und Ports verwenden, um die Wiremap zu definieren.
+Zum automatischen Suchen nach Clients in einem Netzwerk müssen Sie zunächst die Standortdatenbank mithilfe einer Netzwerk-Wiremap auffüllen, die Netzwerkelemente physischen Adressen (d. h. Postanschriften) zuordnet. Sie können Subnetze, drahtlose Zugriffspunkte, Switches und Ports verwenden, um die Wiremap zu definieren.
   
 Sie können der Standortdatenbank Adressen einzeln oder unter Verwendung einer CSV-Datei per Massenvorgang hinzufügen. Die CSV-Datei muss dabei die in der folgenden Tabelle beschriebenen Spaltenformate aufweisen.
   

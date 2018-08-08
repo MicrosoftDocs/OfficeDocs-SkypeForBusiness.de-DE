@@ -1,9 +1,8 @@
 ---
-title: Verwalten von Standorten für ELIN-Gateways in Skype for Business Server 2015
+title: Verwalten von Speicherorten für ELIN-Gateways in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Entscheidungen zur Planung einer der Standortdatenbank Informationen oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit ELIN-Gateways in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: c89f09af2011d316485094f9fc817580b56d1d81
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ace81abc47ac401db48b7a34fe9a229a29f18881
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974235"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server-2015"></a>Verwalten von Standorten für ELIN-Gateways in Skype for Business Server 2015
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Verwalten von Speicherorten für ELIN-Gateways in Skype für Business Server
  
 Entscheidungen zur Planung einer der Standortdatenbank Informationen oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit ELIN-Gateways in Skype für Business Server Enterprise-VoIP.
   
@@ -83,7 +83,7 @@ Wo befinden sich die Daten und welche Schritte müssen Sie ausführen, um die Da
   
 Sie können mithilfe der sekundären Standortinformationen Service-Option zum Herstellen einer Drittanbieter-Datenbank gruppieren und Verwalten von Speicherorten mithilfe einer offline-Plattform. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Dies bedeutet, dass der Dienst Standortinformationen mehrere Adressen, den sekundären standortinformationsdienst stammt, um einen Skype für Business Client zurückgegeben werden kann. Der Benutzer kann dann den am besten geeigneten Standort wählen. 
   
-Um mit dem Dienst Standortinformationen zu integrieren, muss die Drittanbieter-Datenbank die Skype für Business Server Speicherort Anforderung und Antwort-Schema befolgen. Weitere Informationen hierzu finden Sie unter [Webdienst für E911 Unterstützung Protokoll](https://go.microsoft.com/fwlink/p/?linkid=213819). Weitere Informationen zur Bereitstellung einer sekundären standortinformationsdienst finden Sie unter [Konfigurieren einer sekundären standortinformationsdienst in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in der Bereitstellungsdokumentation.
+Um mit dem Dienst Standortinformationen zu integrieren, muss die Drittanbieter-Datenbank die Skype für Business Server Speicherort Anforderung und Antwort-Schema befolgen. Weitere Informationen hierzu finden Sie unter [Webdienst für E911 Unterstützung Protokoll](https://go.microsoft.com/fwlink/p/?linkid=213819). Weitere Informationen zur Bereitstellung einer sekundären standortinformationsdienst finden Sie unter [Konfigurieren einer sekundären standortinformationsdienst in Skype für Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in der Bereitstellungsdokumentation.
   
 Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie unter [Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in der Bereitstellungsdokumentation.
   

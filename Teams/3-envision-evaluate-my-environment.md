@@ -2,20 +2,22 @@
 title: Bewerten der Umgebung für Microsoft-Teams, Cloud VoIP Arbeitslasten
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Verwenden Sie Rollen und Netzwerk-Analyse ermitteln Sie die Bereitschaft Ihrer Organisation, die richtigen TCP- und UDP-Ports zu öffnen, führen Sie eine beliebige Remediation Netzwerk.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 72c7e7cc159634edcbd6b108c60fe42108adebac
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20396765"
 ---
 # <a name="evaluate-my-environment"></a>Meine Umgebung bewerten
 
@@ -37,7 +39,7 @@ Sie sollten diese Informationen in das Risiko Register integrieren.
 Als Teil Ihrer Umgebung Discovery zählen Sie alle Fragen im Zusammenhang mit der Endbenutzer Netzwerke wie etwa eine Bereitschaft des PCs und mobilen Geräten, Audiokonferenzen und Telefonsystem mit Aufrufen planen Anwendungsbeispiele, von hardwareanforderungen zu unterstützen Software Requirements.
 
 Umwelt Discovery kann auch aufdecken, ob auf [Telefonnummern an Microsoft übertragen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)werden müssen.
-Dieses Wissen hilft Ihrer Organisation den Projektplan entsprechend anpassen und die erforderliche Informationen für Nummern Portieren vorbereiten. Die [Umwelt Discovery für Microsoft-Teams, Einführung](https://docs.microsoft.com/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) von MyAdvisor können Sie die Umwelt Discovery ausführen.
+Dieses Wissen hilft Ihrer Organisation den Projektplan entsprechend anpassen und die erforderliche Informationen für Nummern Portieren vorbereiten. Die [Umwelt Discovery für Microsoft-Teams, Einführung](environmental-discovery-for-microsoft-teams-rollout.md) von MyAdvisor können Sie die Umwelt Discovery ausführen.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Durchführung einer Analyse der Umgebung zuständig sein?</li></ol></td></tr>

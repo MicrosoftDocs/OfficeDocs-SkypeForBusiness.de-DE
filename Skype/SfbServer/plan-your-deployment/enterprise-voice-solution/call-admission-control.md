@@ -1,5 +1,5 @@
 ---
-title: Planen der Anrufsteuerung in Skype for Business Server 2015
+title: Plan für die anrufsteuerung in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,13 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Lernen Sie die anrufsteuerung, die verhindern kann Anrufe von stattfinden, wenn schlechte Medienqualität in Skype für Business Server Enterprise-VoIP vorhanden wäre.
-ms.openlocfilehash: 11a73cb6065802b700694d6c3ffd589d935659db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d9af6094ae851d59775d9ce4b012ee06028901e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988409"
 ---
-# <a name="plan-for-call-admission-control-in-skype-for-business-server-2015"></a>Planen der Anrufsteuerung in Skype for Business Server 2015
+# <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Plan für die anrufsteuerung in Skype für Business Server
  
 Lernen Sie die anrufsteuerung, die verhindern kann Anrufe von stattfinden, wenn schlechte Medienqualität in Skype für Business Server Enterprise-VoIP vorhanden wäre.
   
@@ -33,7 +34,7 @@ Die Anrufsteuerung (Call Admission Control, CAC) ermittelt, ob ausreichend Netzw
 In diesem Abschnitt wird die Funktionsweise der Anrufsteuerung beschrieben und es wird erläutert, wie die Anrufsteuerung geplant werden kann.
   
 > [!NOTE]
-> Skype für Business Server verfügt über drei erweiterten Enterprise-VoIP-Funktionen: anrufsteuerung (CAC), notrufdienste (E9-1-1), und die medienumgehung. Eine Übersicht über die Planung von Informationen, die alle drei dieser Features gemeinsam ist, finden Sie unter [Einstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server 2015 Netzwerk](network-settings-for-advanced-features.md). 
+> Skype für Business Server verfügt über drei erweiterten Enterprise-VoIP-Funktionen: anrufsteuerung (CAC), notrufdienste (E9-1-1), und die medienumgehung. Eine Übersicht über die Planung von Informationen, die alle drei dieser Features gemeinsam ist, finden Sie unter [Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server](network-settings-for-advanced-features.md). 
   
 Der Entwurf CAC in Skype für Business Server bietet die folgenden vier wesentlichen Attribute:
   
@@ -82,17 +83,17 @@ Wenn Ihr Unternehmen die Medienübermittlung über ein VPN unterstützt, müssen
   
 ### <a name="call-admission-control-of-outside-users"></a>Anrufsteuerung für externe Benutzer
 
-Call Admission Control nicht über die Grenzen eines der Skype für Business Server 2015 Organisation erzwungen wird. CAC kann nicht angewendet werden, zu der Mediendatenverkehr Traversieren im Internet, die nicht von Skype für Business Server 2015 verwaltet wird. CAC Prüfungen auf den Teil des Anrufs, die über das Unternehmensnetzwerk fließt Zugehörigkeit gewählte Endpunkts für die Organisation ausgeführt werden, und der Edge-Server hinzugefügt wurde die Netzwerkkonfiguration gemäß [die anrufsteuerung Bereitstellung: endgültige Checkliste für Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/final-checklist.md). Wenn der angerufene Endpunkt nicht zur Organisation gehört, wie beispielsweise ein Partnerverbund- oder PIC-Benutzer, werden keine Überprüfungen der Bandbreitenrichtlinie durchgeführt und beim ausgehenden Anruf werden alle Beschränkungen der Anrufsteuerung ignoriert.
+Call Admission Control nicht über die Grenzen eines der Skype für Business Server Organisation erzwungen wird. CAC kann nicht angewendet werden, zu der Mediendatenverkehr Traversieren im Internet, die nicht von Skype für Business Server verwaltet wird. CAC Prüfungen auf den Teil des Anrufs, die über das Unternehmensnetzwerk fließt Zugehörigkeit gewählte Endpunkts für die Organisation ausgeführt werden, und der Edge-Server hinzugefügt wurde die Netzwerkkonfiguration gemäß [die anrufsteuerung Bereitstellung: endgültige Checkliste für Skype für Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Wenn der angerufene Endpunkt nicht zur Organisation gehört, wie beispielsweise ein Partnerverbund- oder PIC-Benutzer, werden keine Überprüfungen der Bandbreitenrichtlinie durchgeführt und beim ausgehenden Anruf werden alle Beschränkungen der Anrufsteuerung ignoriert.
   
 ### <a name="call-admission-control-of-pstn-connections"></a>Anrufsteuerung für PSTN-Verbindungen
 
-Die anrufsteuerung ist durchsetzbar auf dem Vermittlungsserver, unabhängig davon, ob sie mit einer IP-PBX, ein PSTN-Gateway oder einen SIP-Trunk verbunden ist. Da der Vermittlungsserver eine Back-Benutzer-Agent (B2BUA) ist, Medien beendet wird. Es hat zwei Connection-Seiten: eine Seite, die mit Skype verbunden ist, für die Business Server und einem Gateway-Seite, die mit PSTN-Gateways, IP-Nebenstellenanlagen oder SIP-Trunks verbunden ist. Ausführliche Informationen zu PSTN-Verbindungen finden Sie unter [Planen der PSTN-Konnektivität in Skype für Business Server 2015](pstn-connectivity-0.md).
+Die anrufsteuerung ist durchsetzbar auf dem Vermittlungsserver, unabhängig davon, ob sie mit einer IP-PBX, ein PSTN-Gateway oder einen SIP-Trunk verbunden ist. Da der Vermittlungsserver eine Back-Benutzer-Agent (B2BUA) ist, Medien beendet wird. Es hat zwei Connection-Seiten: eine Seite, die mit Skype verbunden ist, für die Business Server und einem Gateway-Seite, die mit PSTN-Gateways, IP-Nebenstellenanlagen oder SIP-Trunks verbunden ist. Ausführliche Informationen zu PSTN-Verbindungen finden Sie unter [Planen der PSTN-Konnektivität in Skype für Business Server](pstn-connectivity-0.md).
   
-CAC kann auf beiden Seiten des Vermittlungsservers erzwungen werden, es sei denn, die medienumgehung aktiviert ist. Wenn die medienumgehung aktiviert ist, der Mediendatenverkehr den Vermittlungsserver durchlaufen nicht jedoch stattdessen direkt zwischen den Skype für Business-Client und dem Gateway fließt. In diesem Fall wird die Anrufsteuerung nicht benötigt. Weitere Informationen hierzu finden Sie unter [Plan für Medien in Skype für Business 2015 umgehen](media-bypass.md).
+CAC kann auf beiden Seiten des Vermittlungsservers erzwungen werden, es sei denn, die medienumgehung aktiviert ist. Wenn die medienumgehung aktiviert ist, der Mediendatenverkehr den Vermittlungsserver durchlaufen nicht jedoch stattdessen direkt zwischen den Skype für Business-Client und dem Gateway fließt. In diesem Fall wird die Anrufsteuerung nicht benötigt. Weitere Informationen hierzu finden Sie unter [Plan für Medien in Skype für Unternehmen zu umgehen](media-bypass.md).
   
 Die folgende Abbildung zeigt, wie die Anrufsteuerung für PSTN-Verbindungen mit und ohne Medienumgehung erzwungen wird.
   
-**Rufen Sie erzwingen der anrufsteuerung für Verbindungen mit dem FESTNETZ**
+**Erzwingen der Anrufsteuerung für Verbindungen mit dem PSTN**
 
 ![VoIP-Anrufsteuerung: Medienumgehung – Verbindungserzwingung](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   
@@ -100,9 +101,9 @@ Die folgende Abbildung zeigt, wie die Anrufsteuerung für PSTN-Verbindungen mit 
 
 Zur Planung der Anrufsteuerung (Call Admission Control, CAC) sind detaillierte Informationen zur Netzwerktopologie Ihres Unternehmens erforderlich. Führen Sie die folgenden Schritte aus, um Richtlinien für die Anrufsteuerung zu planen.
   
-1. Identifizieren Sie die Hubs/Backbones (als netzwerkregionen bezeichnet) in Ihrem Unternehmensnetzwerk.
+1. Identifizieren Sie die Hubs/Backbones (als Netzwerkregionen bezeichnet) in Ihrem Unternehmensnetzwerk.
     
-2. Identifizieren Sie die Niederlassungen oder Standorte (als Netzwerkstandorte bezeichnet) innerhalb jeder netzwerkregion.
+2. Identifizieren Sie die Niederlassungen oder Standorte (als Netzwerkstandorte bezeichnet) innerhalb jeder Netzwerkregion.
     
 3. Definieren Sie eine Netzwerkroute zwischen jedem Netzwerkregionenpaar.
     
@@ -115,14 +116,14 @@ Zur Planung der Anrufsteuerung (Call Admission Control, CAC) sind detaillierte I
     
 Zur Erläuterung dieser Konzepte, verwenden wir die Beispiel-Netzwerktopologie in der folgenden Abbildung dargestellt.
   
-**Beispieltopologie für die anrufsteuerung**
+**Beispieltopologie für die Anrufsteuerung**
 
 ![Litware Inc.: Netzwerktopologiebeispiel](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
   
 > [!NOTE]
 > Alle Netzwerkstandorte sind einer Netzwerkregion zugeordnet. Beispielsweise sind die Standorte „Portland“, „Reno“ und „Albuquerque“ in der Region „Nordamerika“ enthalten. In dieser Abbildung werden nur WAN-Verbindungen mit Bandbreiteneinschränkungen gezeigt, auf die Anrufsteuerungsrichtlinien angewendet werden. Die Netzwerkstandorte „Chicago“, „New York“ und „Detroit“ werden innerhalb des Regionenovals „Nordamerika“ angezeigt, da sie keine Bandbreiteneinschränkungen aufweisen und für diese Standorte daher keine Richtlinien für die Anrufsteuerung erforderlich sind. 
   
-Die Komponenten in dieser Beispieltopologie werden in den folgenden Abschnitten erläutert. Ausführliche Informationen zum wie diese Topologie, einschließlich der bandbreiteneinschränkungen geplant wurde finden [Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server 2015](example-gathering-requirements.md).
+Die Komponenten in dieser Beispieltopologie werden in den folgenden Abschnitten erläutert. Ausführliche Informationen zum wie diese Topologie, einschließlich der bandbreiteneinschränkungen geplant wurde finden [Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server](example-gathering-requirements.md).
   
 ### <a name="identify-network-regions"></a>Identifizieren der Netzwerkregionen
 
@@ -165,7 +166,7 @@ Die Standortverbindungen kennzeichnen die Leitungen zur Verbindung von „Portla
 
 Arbeiten Sie mit dem Team für den Netzwerkbetrieb zusammen, um die verfügbare WAN-Bandbreite für in Echtzeit übertragenen Audio- und Videodatenverkehr über die WAN-Verbindungen in Ihrer Organisation zu ermitteln. Bandbreitenrichtlinien werden üblicherweise auf WAN-Verbindungen angewendet, wenn die Bandbreite eingeschränkt ist, wenn also der erwartete Datenverkehr die Bandbreite übersteigt, die für Audio- und Videodaten zugewiesen werden kann.
   
-Bandbreitenrichtlinien definieren die maximale Bandbreite, die für übertragene in Echtzeit Audio- und Videodaten reserviert werden kann. Da die Bandbreite für anderen Datenverkehr bei der Anrufsteuerung nicht begrenzt wird, kann nicht verhindert werden, dass dieser die gesamte Netzwerkbandbreite durch Aktionen wie das Übertragen großer Dateien oder das Streamen von Musik beansprucht.
+Bandbreitenrichtlinien für die Anrufsteuerung definieren, wie viel Bandbreite für in Echtzeit übertragene Audio- und Videodaten reserviert ist. Da die Bandbreite für anderen Datenverkehr bei der Anrufsteuerung nicht begrenzt wird, kann nicht verhindert werden, dass dieser die gesamte Netzwerkbandbreite durch Aktionen wie das Übertragen großer Dateien oder das Streamen von Musik beansprucht.
   
 Bandbreitenrichtlinien für die Anrufsteuerung können einige oder alle der folgenden Werte definieren:
   
@@ -181,7 +182,7 @@ Bandbreitenrichtlinien für die Anrufsteuerung können einige oder alle der folg
 > Alle Bandbreitenwerte CAC die Grenzwerte für die maximale *unidirektional* Bandbreite.
   
 > [!NOTE]
-> Die Skype für Business Server VoIP-Richtlinie Features bieten die Möglichkeit, überschreiben bandbreitenrichtlinie prüft, ob eingehende Anrufe an den Benutzer (nicht für ausgehende Anrufe, die vom Benutzer befinden). Nachdem die Sitzung eingerichtet wurde, wird die Bandbreitenauslastung genau berechnet. Diese Einstellung sollte mit Bedacht verwendet werden. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) oder [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in der Bereitstellungsdokumentation.
+> Die Skype für Business Server VoIP-Richtlinie Features bieten die Möglichkeit, überschreiben bandbreitenrichtlinie prüft, ob eingehende Anrufe an den Benutzer (nicht für ausgehende Anrufe, die vom Benutzer befinden). Nachdem die Sitzung eingerichtet wurde, wird die Bandbreitenauslastung genau berechnet. Diese Einstellung sollte mit Bedacht verwendet werden. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) oder [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in der Bereitstellungsdokumentation.
   
 Zur Optimierung der Bandbreitenauslastung auf Sitzungsebene sollten Sie sich Gedanken über die verwendeten Audio- und Videocodecs machen. Vermeiden Sie insbesondere eine zu geringe Bandbreitenzuweisung für einen Codec, der erwartungsgemäß häufig verwendet wird. Umgekehrt sollten Sie die maximale Bandbreite pro Sitzung sehr niedrig ansetzen, wenn Sie verhindern möchten, dass für Mediendaten ein Codec mit hohen Bandbreitenanforderungen verwendet wird. Für Audiodaten ist nicht jeder Codec für jedes Szenario verfügbar. Beispiel:
   
@@ -195,7 +196,7 @@ Verwenden Sie die folgende Tabelle, um die maximalen Bandbreiteneinstellungen pr
   
 **Bandbreitenauslastung nach Codec**
 
-|**Codec**|**Bandbreitenanforderung ohne vorwärtsfehlerkorrektur (Correction, FEC)**|**Bandbreitenanforderung mit vorwärtsfehlerkorrektur (Correction, FEC)**|
+|**Codec**|**Bandbreitenanforderung ohne Vorwärtsfehlerkorrektur (Forward Error Correction, FEC)**|**Bandbreitenanforderung mit Vorwärtsfehlerkorrektur (Forward Error Correction, FEC)**|
 |:-----|:-----|:-----|
 |RTAudio (8 KHz)  <br/> |49,8 KBit/s  <br/> |61,6 KBit/s  <br/> |
 |RTAudio (16 kHz)  <br/> |67 KBit/s  <br/> |96 KBit/s  <br/> |
@@ -220,7 +221,7 @@ Der Siren-Codec wird in Skype für Business Server in den folgenden Situationen 
     
 **Bandbreitenauslastung nach Szenario**
 
-|**Szenario**|**Bandbreitenanforderung für Menge (Kbit/s) optimiert**|**Bandbreitenanforderung für Ausgleichsmodus optimiert (Kbit/s)**|**Bandbreitenanforderung für Qualität (Kbit/s) optimiert**|
+|**Szenario**|**Bandbreitenanforderung für Menge optimiert (KBit/s)**|**Bandbreitenanforderung für Ausgleichsmodus optimiert (KBit/s)**|**Bandbreitenanforderung für Qualität optimiert (KBit/s)**|
 |:-----|:-----|:-----|:-----|
 |Peer-zu-Peer-Audioanrufe  <br/> |45 KBit/s  <br/> |62 KBit/s  <br/> |91 KBit/s  <br/> |
 |Telefonkonferenz  <br/> |53 KBit/s  <br/> |101 KBit/s  <br/> |165 KBit/s  <br/> |

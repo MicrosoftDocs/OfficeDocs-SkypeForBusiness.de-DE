@@ -1,9 +1,8 @@
 ---
-title: Konfigurieren von globalen Einstellungen für die medienumgehung in Skype für Business Server 2015 Standorten und Regionen verwenden
+title: Konfigurieren von globalen Einstellungen für die medienumgehung in Skype für Business Server der Standorte und Regionen verwenden
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Konfigurieren der medienumgehung nur für bestimmte Standorte und Regionen in Skype für Business Server Enterprise-VoIP verwendet werden.
-ms.openlocfilehash: ce9daafdde21bc2d30a942ce6b888f2cc7c4e2ff
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 081be80d969c2503abc7e2de4e9865b6057a363b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995979"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-2015-to-use-site-and-region-information"></a>Konfigurieren von globalen Einstellungen für die medienumgehung in Skype für Business Server 2015 Standorten und Regionen verwenden
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Konfigurieren von globalen Einstellungen für die medienumgehung in Skype für Business Server der Standorte und Regionen verwenden
  
 Konfigurieren der medienumgehung nur für bestimmte Standorte und Regionen in Skype für Business Server Enterprise-VoIP verwendet werden. 
   
@@ -52,11 +52,9 @@ Vorhanden für die medienumgehung für die Verwendung ordnungsgemäß muss sein 
     
 Fügen Sie anschließend Subnetze zum Netzwerkstandort hinzu, wie unter [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) beschrieben. Nachdem Sie alle Subnetze zu Netzwerkstandorten zugeordnet haben, ist die Bereitstellung der Medienumgehung abgeschlossen.
 > [!IMPORTANT]
-> Wenn Sie noch keine Netzwerkregionen und Netzwerkstandorte erstellt haben, müssen Sie dies nachholen, bevor Sie mit der Bereitstellung der Medienumgehung fortfahren können. Weitere Informationen hierzu finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Business 2015](deploy-network.md). 
+> Wenn Sie noch keine Netzwerkregionen und Netzwerkstandorte erstellt haben, müssen Sie dies nachholen, bevor Sie mit der Bereitstellung der Medienumgehung fortfahren können. Weitere Informationen hierzu finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Unternehmen](deploy-network.md). 
   
 ## <a name="see-also"></a>Siehe auch
-
-#### 
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
 

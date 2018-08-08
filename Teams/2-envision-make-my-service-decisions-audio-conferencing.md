@@ -2,20 +2,22 @@
 title: Treffe Audiokonferenzen Service - Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Erfahren Sie mehr über Besprechungen, Lizenzierung und Verfügbarkeit, Konferenz Bridge Einstellungen konfigurieren, erwerben oder Übertragen von Rufnummern, wählen Sie Mandanten-Wählpläne.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 577ee414529223dbc435d8570a55adb6883fd8a2
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695622"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -286,7 +288,7 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 
 -   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Allgemeine Fragen zum Übertragen von Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 |         |         |         |
@@ -330,15 +332,15 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 >|Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
->||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^([2-9]\d{7})$<br>+612$1<br>Falsch|
->||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^(1[38]\d{4,8})\d*$<br>+61$1<br>Falsch|
->||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^(000\|1[0125]\d{1,8})$<br>$1<br>Falsch|
+>||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
+>||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
+>||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
 >|**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (X8000 Â €"x 8999) für Office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
->||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7})\d*$<br>+65$1<br>Falsch|
->||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^(1\d{3,4}\|9\d{2})$<br>$1<br>Falsch|
+>||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
+>||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (X7000 Â €"x 7999) für 39 Quai du Président Roosevelt Office, Issy-Les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
->||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^0?(80\d{7})\d*$<br>+33$1<br>Falsch|
->||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>Falsch|
+>||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
+>||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
 
 <br>
 > [!TIP]

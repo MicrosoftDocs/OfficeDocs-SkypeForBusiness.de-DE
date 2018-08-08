@@ -1,5 +1,5 @@
 ---
-title: Vergleich der Funktionen der Skype for Business-Desktopclients
+title: Desktopclient Featurevergleich für Skype für Business Server 2015
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,19 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype für Business Server 2015 oder Skype für Business Online-Administratoren kann diese Tabellen verwenden, um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.'
-ms.openlocfilehash: 867586ffd901baf4bc0c9dfe7fe880811cf4042d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223924"
 ---
-# <a name="desktop-client-feature-comparison-for-skype-for-business"></a>Vergleich der Funktionen der Skype for Business-Desktopclients
+# <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Desktopclient Featurevergleich für Skype für Business Server 2015
  
 **Zusammenfassung:** Skype für Business Server 2015 oder Skype für Business Online-Administratoren können diese Tabellen um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.
   
  Überprüfen Sie vor dem Bereitstellen oder auf Skype für Unternehmen aktualisieren, welche Clients bereits in Ihrer Organisation verwendet werden. Verwenden Sie die folgenden Tabellen um zu verstehen, die Feature-Unterstützung Auswirkung auf die diese Clients. Dann können Sie den Benutzern die Änderungen vermitteln sowie das Tempo des Rollouts bestimmen und die Vorteile des Upgrades auf den neuesten Client in vollem Umfang verstehen.
   
 Einige Features sind mit Skype für Business Server 2015 stehen nicht in Skype für Business Online, [Online oder Hybrid Benutzer Konto Einschränkungen](desktop-feature-comparison.md#Online-Hybrid) Einzelheiten finden Sie unter. Skype für Business Online-Administratoren möglicherweise [Skype für Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) Informationen zu den verschiedenen Plänen darauf verweisen möchten.
+
+Finden Sie unter [Featurevergleich für Skype für Business 2019 Desktopclient](../../../SfBServer2019/plan/feature-comparison.md) für Client auf Skype für Business Server 2019 unterstützen.
   
 In den folgenden Tabellen sind die Features, die mit jedem Client verfügbar sind, die mit Skype für Business Server 2015 oder Skype für Business Online arbeitet. Sie möchten möglicherweise auch auf [mobilen Client Featurevergleich für Skype für Unternehmen](mobile-feature-comparison.md) für Smartphone und Tablet-Client Feature Vergleiche verweisen. Der Client Access License oder User Subscription License werden Ihre Organisation Käufe auch auswirken für die Features für die Benutzer verfügbar sind. Gibt an, ob Sie den Full oder Basic-Client für die Benutzer bereitstellen, hängt davon ab der Lizenz oder Plans aus, den Ihre Organisation möchte kaufen. Finden Sie weitere Details der [Lizenzierungshandbuch (engl.)](https://products.office.com/en-us/skype-for-business/it-pros) .
   
@@ -92,9 +95,9 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Chatunterstützung.
 |Chatunterhaltungen in Outlook protokollieren  <br/> |& #x 2714;|& #x 2714; Wenn die Server-Seite aufgezeichnete aktiviert ist  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||In Communicator für Mac gespeichert  <br/> |In Lync für Mac gespeichert  <br/> |
 |Vorbereitete Unterhaltungsvorlagen verwenden  <br/> |||||& #x 2714;|& #x 2714;||||
 |Rechtschreibung überprüfen  <br/> |& #x 2714;|& #x 2714;||& #x 2714;|||||& #x 2714;|
-|Fertigkeitensuche (mit SharePoint Server-Integration)  <br/> (Lokale Skype für Business Server und lokale SharePoint 2013 sind für die Suche nach Fertigkeiten erforderlich.)  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||
+|Qualifikationssuche (mit SharePoint Server-Integration)   <br/> (Lokale Skype für Business Server und lokale SharePoint 2013 sind für die Suche nach Fertigkeiten erforderlich.)  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||
 |Integration des beständigen Chats (Gruppenchats)  <br/> (nicht verfügbar für Skype für Business Online)  <br/> |& #x 2714;||& #x 2714;|||||||
-|Ausweiten einer beständigen Chat Speicherplatz für einen Skype für Business Besprechung mit nur einem Klick  <br/> (nicht verfügbar für Skype für Business Online)  <br/> |& #x 2714;||& #x 2714;|||||||
+|Beständigen Chatroom mit einem Klick zu einer Skype for Business-Besprechung eskalieren   <br/> (nicht verfügbar für Skype für Business Online)  <br/> |& #x 2714;||& #x 2714;|||||||
 |Inlinebilder von Absender und Empfänger im Chatfenster  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |Freihandnachrichten senden  <br/> ||||& #x 2714;||||||
 |Freihandnachrichten empfangen  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
@@ -222,6 +225,7 @@ Moderne Authentifizierung erfordert auch eine Topologie beschrieben in [Skype f�
 |Moderne Authentifizierung  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||
 |Mehrstufige Authentifizierung  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||
 |Zertifikatbasierte Authentifizierung  <br/> |& #x 2714; (nur in der Domäne beigetreten-Gerät)  <br/> |& #x 2714;|& #x 2714; (nur in der Domäne beigetreten-Gerät)  <br/> |||||||
+|Kerberos-Authentifizierung  <br/> |& #x 2714;||& #x 2714;|||||||
    
 ## <a name="archiving-compliance-and-logging-support"></a>Unterstützung für Archivierung, Compliance und Protokollierung
 <a name="BKMK_Archiving"> </a>
@@ -282,5 +286,6 @@ Benutzerkonten können Online oder lokalen vorhanden sind, und wirkt, die für d
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="Types"> </a>
 
-[Planen von Clients und Geräten](clients-and-devices.md)
+[Planen für Clients und Geräte](clients-and-devices.md)
 
+[Neueste Updates für Versionen von Skype für Unternehmen, die Windows Installer (MSI) verwenden](../../sfb-client-updates.md)

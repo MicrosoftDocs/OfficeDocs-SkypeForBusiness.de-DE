@@ -6,19 +6,21 @@ manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ''
 description: Weitere Informationen zum Verwalten von Mandanten geltende und von Einstellungen für Teams während des Übergangs von den Teams Erfahrung in der Office 365-Verwaltungskonsole auf die neue Microsoft-Teams & Skype für Business Admin Center.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 0f660130ce9fe2973178385e87433cac29fa8733
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 5528ecfc3d47738e0f34b56f007e36d193d95da6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968188"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Verwalten von Teams während des Übergangs auf die neuen Microsoft-Teams und Skype für Business Admin Center
 ======================================================
@@ -39,10 +41,10 @@ Die neue Oberfläche Admin Center wird Ihnen ein einheitliches Benutzererlebnis 
 ![Screenshot des Microsoft-Teams & Skype für Business Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
 
-Starten in der Mitte März 2018, werden die folgenden Funktionen in der neuen Microsoft-Teams & Skype für Business Admin Center verfügbar sein: 
+Starten in der Mitte März 2018, wurden die folgenden Funktionen in der neuen Microsoft-Teams & Skype für Business Admin Center verfügbar: 
 
 - **Microsoft-Teams, messaging-Richtlinie**: Erstellen der Richtlinie für die Verwaltung auf Benutzerebene, die Erfahrung in der Microsoft-Teams, Client für Messaging Szenarien.
-- **Interop-Richtlinie von Microsoft-Teams**: konfigurieren die Erfahrung Interoperabilität zwischen Skype für Unternehmen und die Microsoft-Teams.
+- **Upgrade-Policy von Microsoft-Teams**: konfigurieren die Interoperabilität und Upgrade Erfahrung zwischen Skype für Unternehmen und die Microsoft-Teams. Finden Sie unter https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
 - **Microsoft-Teams Gast messaging-Einstellungen**: steuern die messaging-Funktionen für Gastkonten in Microsoft-Teams. 
 - **Verbundeinstellungen**: den Verbund zwischen Mandanten für Microsoft-Teams und Skype für Unternehmen zu verwalten. 
 - **Die Verwaltung von**: Zuweisen von Richtlinien und Konfigurieren von Benutzerkonten. 
@@ -80,7 +82,7 @@ Die folgende Tabelle zeigt die Abschnitte des Teams Kenntnissen, die migriert we
 |Benutzerdefinierter Cloudspeicher     |Ablage        |TeamsClientConfiguration         |Mandanten         |
 |Benutzerdefinierter Cloudspeicher     |Google-Laufwerk        |TeamsClientConfiguration         |Mandanten         |
 |Benutzerdefinierter Cloudspeicher     |ShareFile        |TeamsClientConfiguration         |Mandanten         |
-|Geben Sie die Einstellungen von User-Lizenz     |Aktivieren Sie oder deaktivieren Sie den Microsoft-Teams für alle Benutzer          |Veraltet. Verwenden Sie Office 365 Administrationscenter, Lizenzen zuzuweisen.        |         |
+|Einstellungen nach Benutzer-/Lizenztyp     |Aktivieren Sie oder deaktivieren Sie den Microsoft-Teams für alle Benutzer          |Veraltet. Verwenden Sie Office 365 Administrationscenter, Lizenzen zuzuweisen.        |         |
 |Teams und Kanäle     |         |Umleitung zur Azure Active Directory-Gruppenmanagement (identisch mit Kenntnissen).              |Benutzer         |
 |Teams und Kanäle     |         |Umleitung zur Verwaltung von AAD (identisch mit Kenntnissen).             |Benutzer          |
 |Anrufe und Besprechungen     |„Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen)         |TeamsMeetingPolicy         |Benutzer          |

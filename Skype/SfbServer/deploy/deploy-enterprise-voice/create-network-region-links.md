@@ -1,9 +1,8 @@
 ---
-title: Erstellen von Netzwerkregionenverbindungen in Skype for Business Server 2015
+title: Erstellen von netzwerkregionenverbindungen in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Erstellen oder Ändern von netzwerkregionenverbindungen, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: e0fbabb811ec604b3a0155074a01bc4b02bd6152
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f184e18da816bae693fd209a97704681240538e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965429"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server-2015"></a>Erstellen von Netzwerkregionenverbindungen in Skype for Business Server 2015
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Erstellen von netzwerkregionenverbindungen in Skype für Business Server
  
 Erstellen oder Ändern von netzwerkregionenverbindungen, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden. 
   
-Regionen in einem Netzwerk sind über physische WAN-Verbindungen miteinander verbunden. Eine netzwerkregionenverbindung erstellt eine Verbindung zwischen zwei Regionen für Call Admission Control (CAC) konfiguriert und die Netzwerkbandbreite ist eingeschränkt auf audio und video-Datenverkehr zwischen diesen Regionen festgelegt.
+Regionen in einem Netzwerk sind über physische WAN-Verbindungen miteinander verbunden. Eine Netzwerkregionenverbindung erstellt eine Verbindung zwischen zwei Regionen, die für die Anrufsteuerung (Call Admission Control, CAC) konfiguriert sind, und legt die Bandbreiteneinschränkungen für den Audio- und Videodatenverkehr zwischen diesen Regionen fest.
   
-Die Beispieltopologie weist eine Verbindung zwischen den Regionen „North America“ und „APAC“ sowie zwischen den Regionen „EMEA“ und „APAC“ auf. Diese Region links wird von WAN-Bandbreite eingeschränkt, wie beschrieben in Tabelle Bandbreiteninformationen [Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+Die Beispieltopologie weist eine Verbindung zwischen den Regionen „North America“ und „APAC“ sowie zwischen den Regionen „EMEA“ und „APAC“ auf. Diese Region links wird von WAN-Bandbreite eingeschränkt, wie beschrieben in Tabelle Bandbreiteninformationen [Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Erstellen Sie netzwerkregionenverbindungen mithilfe von Skype für Business Server-Verwaltungsshell
 
@@ -69,8 +69,6 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen „North Ameri
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Neue CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
@@ -78,4 +76,3 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen „North Ameri
 [Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
-

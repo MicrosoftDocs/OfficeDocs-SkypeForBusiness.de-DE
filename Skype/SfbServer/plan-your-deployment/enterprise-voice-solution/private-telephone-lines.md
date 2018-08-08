@@ -1,9 +1,8 @@
 ---
-title: Planen privater Telefonleitungen mit Skype for Business 2015
+title: Planen von privaten Telefonleitungen mit Skype für Unternehmen
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Planen von privaten Telefonleitungen (sekundären) in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 67be5d65be7d97399309934aff52eadf1869cc50
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0dd8cb184fbcab8fd9499825c08d6bf1e3abb388
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014601"
 ---
-# <a name="plan-for-private-telephone-lines-with-skype-for-business-2015"></a>Planen privater Telefonleitungen mit Skype for Business 2015
+# <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planen von privaten Telefonleitungen mit Skype für Unternehmen
  
 Planen von privaten Telefonleitungen (sekundären) in Skype für Business Server Enterprise-VoIP.
   

@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Wie Sie eine detaillierte Umwelt Discovery führen Sie beim Planen Ihrer Reise von Skype für Unternehmen, die Microsoft-Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5fde916c4fe9ece9ad80ec63dad1618fa0d1ae5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: e62d6425f5e38d4763f54c27821a544d3c063420
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246530"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Umwelt Discovery für eine Microsoft-Teams, Einführung
 ===================================================
@@ -72,13 +74,13 @@ Verwenden Sie in der folgenden Tabelle, um Informationen über die Office 365-Ma
 > | Beachten Sie die Office 365-produktionsmandanten <br>Namen und die ID in der Spalte Antwort <br/>Wenn Sie mehrere Mandanten haben <br>mit Ihrer Organisation verknüpft ist, <br>Beachten Sie alle IDs.  | Name des Mandanten: <br/>Mandanten-ID:| |
 > | In welchen Bereichen sind die Mandanten bereitgestellt?| | |
 > | Diese Mandanten Office 365 Multitenant sind oder <br>Dedizierte werden verwendet? | <input type="checkbox">Multitenant<br/> <input type="checkbox">Dedizierte | |
-> | Welche Microsoft Online-Produkte werden zurzeit verwendet? <br/>Beachten Sie die Anzahl der Benutzer für jede aktiviert <br>Dienst in der Spalte Kommentare. | <input type="checkbox">Microsoft-Teams <br/> <input type="checkbox">Skype für Unternehmen <br>&nbsp;&nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive für Unternehmen <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Andere|                                   |
+> | Welche Microsoft Online-Produkte werden zurzeit verwendet? <br/>Beachten Sie die Anzahl der Benutzer für jede aktiviert <br>Dienst in der Spalte Kommentare. | <input type="checkbox">Microsoft-Teams <br/> <input type="checkbox">Skype für Unternehmen <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive für Unternehmen <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Andere|                                   |
 > | Welche Lizenz-Ebene für Skype für aktiviert ist <br>Geschäftsbenutzer Online? | <input type="checkbox">E1/G1 <br/> <input type="checkbox">E2/S2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4/G4 E5 | Die Anzahl der Benutzer <br>für jede SKU: |
 > | Was ist die aktuelle Active Directory-Gesamtstruktur <br>Funktionsebene in der Umgebung? <br/>Wenn mehrere Gesamtstrukturen vorhanden ist, beachten Sie die details <br>in der Spalte Kommentare. | <input type="checkbox">WindowsServer 2000 <br/> <input type="checkbox">WindowsServer 2003 <br/> <input type="checkbox">WindowsServer 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">WindowsServer 2012 <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">WindowsServer 2016| |
 > | Was sind Sie für Verzeichnis verwenden <br>Synchronisierung heute? |<input type="checkbox">Keine Synchronisierung (reine Cloud-) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;Verbinden <br/> <input type="checkbox">Andere (Geben Sie in der <br>&nbsp;&nbsp; &nbsp;Spalte Kommentare.)| |
 > | Ist zurzeit eine Partneridentität bereitgestellt? <br/>(Active Directory-Verbunddienste oder <br>Drittanbieter-) | <input type="checkbox">"Ja" <br/> <input type="checkbox">Nein | |
 > | Wenn Sie Identitätsverbund verwenden, was ist die <br>verbundinfrastruktur? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">Drittanbieter-Verbund <br>&nbsp;&nbsp; &nbsp;Gateway <br>&nbsp;&nbsp; &nbsp;(Beachten Sie die Details in der <br>&nbsp;&nbsp; &nbsp;Spalte Kommentare.) | |
-> | Wenn Sie derzeit aktiven Office 365 verwalten <br>Mandanten, wird die SMTP-/ SIP-Domäne Ihrer <br>die Endbenutzer zur Verfügung, die den Mandanten zugeordnet? | <input type="checkbox">Nicht zutreffend – keine Office 365 <br>&nbsp;&nbsp; &nbsp;Mandanten direkten <br/> <input type="checkbox">Nein, Benutzer SMTP/SIP <br>&nbsp;&nbsp; &nbsp;Domäne nicht zugeordnet ist. <br>&nbsp;&nbsp; &nbsp;mit alle Mandanten in <br>&nbsp;&nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Ja, Benutzer SMTP/SIP <br>&nbsp;&nbsp; &nbsp;Domäne zugeordnet ist. <br>&nbsp;&nbsp; &nbsp;mit einem vorhandenen Mandanten <br>&nbsp;&nbsp; &nbsp;in Office 365 | |
+> | Wenn Sie derzeit aktiven Office 365 verwalten <br>Mandanten, wird die SMTP-/ SIP-Domäne Ihrer <br>die Endbenutzer zur Verfügung, die den Mandanten zugeordnet? | <input type="checkbox">Nicht zutreffend – keine Office 365 <br>&nbsp;&nbsp; &nbsp;Mandanten direkten <br/> <input type="checkbox">Nein, Benutzer SMTP/SIP <br>&nbsp;&nbsp; &nbsp;Domäne nicht zugeordnet ist. <br>&nbsp;&nbsp; &nbsp;mit alle Mandanten in <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Ja, Benutzer SMTP/SIP <br>&nbsp;&nbsp; &nbsp;Domäne zugeordnet ist. <br>&nbsp;&nbsp; &nbsp;mit einem vorhandenen Mandanten <br>&nbsp;&nbsp; &nbsp;in Office 365 | |
 > | Entsprechen UPNs Benutzer ihre primäre SMTP-Adresse? | <input type="checkbox">"Ja" <br/> <input type="checkbox">Nein <br/> <input type="checkbox">Inkonsistent | |
 
 <a name="existing-collaboration-platform-summary"></a>Vorhandene Zusammenarbeitsplattform Zusammenfassung
@@ -96,6 +98,7 @@ Anhand der folgenden Tabelle zum Erfassen von Informationen über Ihre vorhanden
 > | Haben Sie auch für andere Drittanbieter-Plattformen bereitgestellt <br>und heute verwendet? Wenn dies der Fall ist, beachten Sie die Anzahl der Benutzer <br>Diese Plattformen und die Verwendungsdetails in den Kommentaren <br>Spalte. | <input type="checkbox">Cisco WebEx <br/> <input type="checkbox">Pufferzeit <br/> <input type="checkbox">Andere (Geben Sie in den Kommentaren <br>&nbsp;&nbsp; &nbsp;Spalte.) | Anzahl der Benutzer: <br/>Details:|
 > | Planen Sie die Benutzer aus dieser von Drittanbietern zu verschieben <br>Plattformen Teams? | <input type="checkbox">"Ja" <br/> <input type="checkbox">Nein | |
 > | Was ist die aktuelle Telefonie- und Konferenzfeatures Lösung <br>der Benutzer, die im Gültigkeitsbereich für diese Initiative sind? | | |
+> | Haben Sie [SBC direkten Routing, die Unterstützung](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) für Ihre Büros, die im Gültigkeitsbereich für diese Initiative sind bereitgestellt? <br>Wenn Ja, beachten Sie die Details in der Spalte Kommentare.| <input type="checkbox">"Ja" <br/> <input type="checkbox">Nein ||
 
 <a name="collaboration-platform-deployment-details"></a>Plattform-Deployment-Details für die Zusammenarbeit
 -----------------------------------------

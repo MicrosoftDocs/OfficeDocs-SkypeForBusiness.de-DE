@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen der Medienumgehung in Skype for Business Server 2015
+title: Die medienumgehung in Skype für Business Server bereitstellen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Bereitstellen von medienumgehung in Skype für Business Server Enterprise-VoIP. Dazu gehören die Voraussetzungen sowie die Prüfliste für den Bereitstellungsprozess.
-ms.openlocfilehash: ffd026465b5ad4463b8df2c3184e39198bfe5045
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ead9ebb099bd671dbbc28607bf11e1131ac7569a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965436"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server-2015"></a>Bereitstellen der Medienumgehung in Skype for Business Server 2015
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>Die medienumgehung in Skype für Business Server bereitstellen
  
 Bereitstellen von medienumgehung in Skype für Business Server Enterprise-VoIP. Dazu gehören die Voraussetzungen sowie die Prüfliste für den Bereitstellungsprozess.
   
-In diesem Thema wird davon ausgegangen, dass Sie bereits veröffentlicht und mindestens einen oder mehrere Vermittlungsserver und mindestens ein gatewaypeer, um PSTN-Konnektivität bereitzustellen konfiguriert haben. Weitere Informationen zu Aufgaben finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](deploy-a-mediation-server.md) und [Definieren eines Gateways im Topologie-Generator in Skype für Business Server 2015](define-a-gateway.md).
+In diesem Thema wird davon ausgegangen, dass Sie bereits veröffentlicht und mindestens einen oder mehrere Vermittlungsserver und mindestens ein gatewaypeer, um PSTN-Konnektivität bereitzustellen konfiguriert haben. Weitere Informationen zu Aufgaben finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](deploy-a-mediation-server.md) und [Definieren eines Gateways im Topologie-Generator in Skype für Business Server](define-a-gateway.md).
   
  Wenn es sich bei dem Peer, mit dem Sie sich verbinden, um den SBC eines SIP-Trunkinganbieters handelt, sollten Sie sich vergewissern, dass dieser ein qualifizierter Anbieter ist und die Medienumgehung unterstützt. Viele SIP-Trunkinganbieter lassen für den SBC nur den Empfang von Datenverkehr vom Vermittlungsserver zu. In diesem Fall darf die Medienumgehung für den betreffenden Trunk nicht aktiviert werden. Darüber hinaus können Sie die Medienumgehung nur aktivieren, wenn Ihre Organisation dem SIP-Trunkinganbieter ihre internen Netzwerk-IP-Adressen offenlegt.
   
@@ -42,10 +42,10 @@ Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, 
 
 Die folgende Tabelle enthält eine Übersicht über den Bereitstellungsprozess für die Medienumgehung. 
   
-|**Phase**|**Schritte**|**Rollen**|**Dokumentation zur Bereitstellung**|
+|**Phase**|**Schritte**|** Rollen**|**Bereitstellungsdokumentation**|
 |:-----|:-----|:-----|:-----|
-|Konfigurieren von Trunks für die Medienumgehung  <br/> |Konfigurieren Sie, wenn Sie es noch nicht getan haben, einen oder mehrere Trunks für die Medienumgehung.  <br/> | Mitglied der Gruppe "RTCUniversalServerAdmins" oder ein Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder CsAdministrator <br/> |[Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server 2015](configure-trunk-with-media-bypass.md) <br/> |
-|Globales Konfigurieren der Medienumgehung  <br/> |Konfigurieren Sie die Medienumgehung entweder für alle Anrufe an das PSTN oder für bestimmte Anrufe basierend auf Netzwerkstandorten und Netzwerkregionen.  <br/> | Mitglied der Gruppe "RTCUniversalServerAdmins" oder ein Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder CsAdministrator <br/> |[Konfigurieren der medienumgehung in Skype für Business Server 2015 zum dauerhaften Umgehung des Vermittlungsservers](bypass-the-mediation-server.md) <br/> [Konfigurieren von globalen Einstellungen für die medienumgehung in Skype für Business Server 2015 Standorten und Regionen verwenden](use-site-and-region-information.md) <br/> |
+|Konfigurieren von Trunks für die Medienumgehung  <br/> |Konfigurieren Sie, wenn Sie es noch nicht getan haben, einen oder mehrere Trunks für die Medienumgehung.  <br/> | Mitglied der Gruppe "RTCUniversalServerAdmins" oder ein Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder CsAdministrator <br/> |[Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server](configure-trunk-with-media-bypass.md) <br/> |
+|Globales Konfigurieren der Medienumgehung  <br/> |Konfigurieren Sie die Medienumgehung entweder für alle Anrufe an das PSTN oder für bestimmte Anrufe basierend auf Netzwerkstandorten und Netzwerkregionen.  <br/> | Mitglied der Gruppe "RTCUniversalServerAdmins" oder ein Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder CsAdministrator <br/> |[Konfigurieren der medienumgehung in Skype für Business Server zum dauerhaften Umgehung des Vermittlungsservers](bypass-the-mediation-server.md) <br/> [Konfigurieren von globalen Einstellungen für die medienumgehung in Skype für Business Server der Standorte und Regionen verwenden](use-site-and-region-information.md) <br/> |
 |Gegebenenfalls Zuordnen von Subnetzen zu Netzwerkstandorten  <br/> |Wenn Sie die Medienumgehung konfigurieren, um Standort- und Regionsinformationen zu verwenden, müssen Sie die Subnetze Ihrer Bereitstellung zu Netzwerkstandorten und Regionen zuordnen (wenn das noch nicht für eine andere VoIP-Funktion geschehen ist.)  <br/> | Mitglied der Gruppe "RTCUniversalServerAdmins" oder ein Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder CsAdministrator <br/> |[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
    
 

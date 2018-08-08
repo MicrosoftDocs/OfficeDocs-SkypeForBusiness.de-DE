@@ -1,9 +1,8 @@
 ---
-title: Planen des Parkens von Anrufen in Skype for Business 2015
+title: Planen des Parkens von Anrufen in Skype for Business
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planung für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP, können die für Anrufe, die auf halten und Weiterleiten von Anrufen zu Abteilungen eingefügt. Hierzu gehören die Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
-ms.openlocfilehash: 71166aa866f2242248dc090da19212a5e1122161
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a675100f8b40e1ab293c0240ea0acbe3beb7fa27
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988550"
 ---
-# <a name="plan-for-call-park-in-skype-for-business-2015"></a>Planen des Parkens von Anrufen in Skype for Business 2015
+# <a name="plan-for-call-park-in-skype-for-business"></a>Planen des Parkens von Anrufen in Skype for Business
  
 Planung für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP, können die für Anrufe, die auf halten und Weiterleiten von Anrufen zu Abteilungen eingefügt. Hierzu gehören die Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
   
@@ -124,9 +124,9 @@ Die folgende Tabelle beschreibt das Benutzermodell für das Parken von Anrufen, 
 > [!IMPORTANT]
 > Beachten Sie, dass die kapazitätsplanung, für die Disaster Recovery jeder Pool eines gekoppelten Pools die Arbeitslast für das Parken von Anrufen Dienste in beiden Pools kann soll beibehalten. 
   
-**Benutzermodell für das Parken von Anrufen**
+**Benutzermodell der Funktion zum Parken von Anrufen**
 
-|**Metrik**|**Pro Front-End-Pool <br/> (mit 8 Front-End-Servern)**|**Pro Standard Edition-server**|
+|**Metrik**|**Pro Front-End-Pool <br/> (mit 8 Front-End-Servern)**|**Pro Standard Edition-Server**|
 |:-----|:-----|:-----|
 |Rate für das Parken von Anrufen  <br/> |8 pro Minute  <br/> |1 pro Minute  <br/> |
 |Rate für das Abrufen geparkter Anrufe  <br/> |8 pro Minute  <br/> |1 pro Minute  <br/> |

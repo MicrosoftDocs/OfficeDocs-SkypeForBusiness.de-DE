@@ -1,9 +1,8 @@
 ---
-title: Planen der Ausfallsicherheit für Enterprise-VoIP in Skype for Business Server 2015
+title: Planen Sie für Enterprise Voice Resiliency in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Erfahren Sie, wie VoIP-ausfallsicherheit für Business Server Enterprise-VoIP an zentralen Standorten und Zweigniederlassungen in Skype zu unterstützen. Branch-Site-Optionen umfassen Survivable Branch Appliances oder Survivable Branch Servern bereitstellen.
-ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: fb3dadfc1dcb38508ec696e1f0c257638f6ec5a7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966650"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planen der Ausfallsicherheit für Enterprise-VoIP in Skype for Business Server 2015
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planen Sie für Enterprise Voice Resiliency in Skype für Business Server
  
 Erfahren Sie, wie VoIP-ausfallsicherheit für Business Server Enterprise-VoIP an zentralen Standorten und Zweigniederlassungen in Skype zu unterstützen. Branch-Site-Optionen umfassen Survivable Branch Appliances oder Survivable Branch Servern bereitstellen.
   
@@ -284,7 +284,7 @@ Um sicherzustellen, dass eingehende Anrufe an Benutzer des zweigstellenstandorts
 > [!NOTE]
 > Um die Auslastung der zentralen Standort Ressourcen nach jeder Zweigstellenbenutzer berücksichtigen, die den zentralen Standort für Anwesenheitsinformationen, Konferenzen oder Failover verwenden, wird empfohlen, dass Sie jeden Branch Sitebenutzer in Betracht ziehen, als wäre der Benutzer mit einem zentralen Standort registriert wurden. Es gibt zurzeit keine Grenzwerte für die Anzahl der Benutzer des zweigstellenstandorts, einschließlich der Benutzer mit einer Survivable Branch Appliance registriert. 
   
-Außerdem wird empfohlen, dass Sie eine auf Benutzerebene Dial Plan und VoIP-Richtlinie zu erstellen, und weisen Sie es dann Zweigstellenbenutzer. Weitere Informationen hierzu finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) und [VoIP-Routingrichtlinie für Zweigstellenbenutzer erstellen](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) in der Bereitstellungsdokumentation.
+Außerdem wird empfohlen, dass Sie eine auf Benutzerebene Dial Plan und VoIP-Richtlinie zu erstellen, und weisen Sie es dann Zweigstellenbenutzer. Weitere Informationen hierzu finden Sie unter [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) und [VoIP-Routingrichtlinie für Zweigstellenbenutzer erstellen](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) in der Bereitstellungsdokumentation.
   
 #### <a name="routing-extension-numbers"></a>Weiterleiten von Durchwahlnummern
 

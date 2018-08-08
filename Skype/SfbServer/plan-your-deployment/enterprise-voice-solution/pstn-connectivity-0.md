@@ -1,9 +1,8 @@
 ---
-title: Planen der PSTN-Konnektivität in Skype for Business Server 2015
+title: Planen von PSTN-Konnektivität in Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Planen von PSTN-Konnektivität in Enterprise-VoIP in Skype für Business Server.
-ms.openlocfilehash: 228391049988c2eb886c0cb4e7caccce6f55ff3b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ed8b4d29dd6d2fdfc3592fba4236f4a99b9ee05d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003871"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server-2015"></a>Planen der PSTN-Konnektivität in Skype for Business Server 2015
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planen von PSTN-Konnektivität in Skype for Business Server
  
 Planen von PSTN-Konnektivität in Enterprise-VoIP in Skype für Business Server.
   
@@ -38,14 +38,14 @@ Je nach Größe, geografischer Abdeckung und der vorhandenen Enterprise-VoIP-Inf
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [SIP-Trunking in Skype für Business Server 2015](sip-trunking.md)
+- [SIP-Trunking in Skype für Business Server](sip-trunking.md)
     
-- [Direkte SIP-Verbindungen in Skype für Business Server 2015](direct-sip.md)
+- [Direkte SIP-Verbindungen in Skype für Business Server](direct-sip.md)
     
-- [M: n-Trunk in Skype für Business Server 2015](m-n-trunk.md)
+- [M: n-Trunk in Skype für Business Server](m-n-trunk.md)
     
-- [Übersetzungsregeln in Skype für Business Server 2015](translation-rules.md)
+- [Übersetzungsregeln in Skype für Business Server](translation-rules.md)
     
-- [Planen der ausgehende VoIP-routing in Skype für Business Server 2015](outbound-voice-routing.md)
+- [Planen der ausgehende VoIP-routing in Skype für Business Server](outbound-voice-routing.md)
     
 

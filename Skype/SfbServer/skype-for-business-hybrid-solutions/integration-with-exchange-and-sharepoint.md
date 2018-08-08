@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Zusammenfassung: Informationen Sie zu Skype für die Integration mit Exchange und SharePoint Business Server 2015.'
-ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: be40510a5a33545a7aa6fc84d6d67a20a2cd89cf
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546476"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integration mit Exchange und SharePoint
  
@@ -47,8 +48,8 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
 |Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender  <br/> ||
 |Kontaktliste (über den einheitlichen Kontaktspeicher)  <br/> |Erfordert Exchange 2016 oder Exchange 2013.  <br/> Ein Lync 2013 oder Skype für Business desktop Client ist erforderlich.  <br/>  Weitere Informationen finden Sie unter [Konfigurieren von Skype für Business Server 2015 einheitlichen Kontaktspeicher verwenden](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Hochauflösende Foto des Kontakts in Lync 2013-Client, Skype für Business-Client und Lync Web App.  <br/> |Erfordert Exchange 2016 oder Exchange 2013.  <br/> Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von hoch auflösenden Fotos in Skype für Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden.  <br/> |
-|Verpasste Unterhaltungsverlauf und Anrufprotokolle werden in Exchange-Postfach des Benutzers geschrieben.  <br/> ||
+|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden. Weitere Informationen finden Sie unter [Skype für Business hybridlösungen](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> ||
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> |Erfordert Exchange 2016 oder Exchange 2013.  <br/> Weitere Informationen finden Sie unter [Prüfliste für die Bereitstellung für die Archivierung](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Durchsuchen von archivierten Inhalten  <br/> |Erfordert Exchange 2016 oder Exchange 2013.  <br/> |
 |Voicemail  <br/> |Weitere Informationen finden Sie unter [Bereitstellen von lokalen Exchange UM für Lync Server 2013-Voicemail bereitstellen](http://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx).  <br/> |
@@ -67,7 +68,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
 |Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender  <br/> ||
 |Kontaktliste (über den einheitlichen Kontaktspeicher).  <br/> |Nur Lync Server 2013. Ein Lync 2013 oder Skype für Business desktop Client ist erforderlich.  <br/> Weitere Informationen finden Sie unter [Konfigurieren von Skype für Business Server 2015 einheitlichen Kontaktspeicher verwenden](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Hochauflösende Foto des Kontakts in Lync 2013-Client, Skype für Business-Client und Lync Web App.  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von hoch auflösenden Fotos in Skype für Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden.  <br/> |
+|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden. Weitere Informationen finden Sie unter [Skype für Business hybridlösungen](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Verpasste Unterhaltungsverlauf und Anrufprotokolle werden in Exchange-Postfach des Benutzers geschrieben.  <br/> ||
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> |Weitere Informationen finden Sie unter [Prüfliste für die Bereitstellung für die Archivierung](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Durchsuchen von archivierten Inhalten  <br/> |Weitere Informationen finden Sie unter [Konfigurieren von Exchange für SharePoint eDiscovery Center](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
@@ -84,9 +85,9 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
 |Chat/Anwesenheit in mobilen Clients  <br/> ||
 |Teilnahme an Onlinebesprechungen in mobilen Clients  <br/> ||
 |Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender  <br/> ||
-|Verpasste Unterhaltungsverlauf und Anrufprotokolle werden in Exchange-Postfach des Benutzers geschrieben.  <br/> ||
+|Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> ||
 |Hochauflösende Foto des Kontakts in Lync 2013 oder Skype für Business-Client.  <br/> |Erfordert Exchange 2016 oder Exchange 2013. Dies ist in Lync Web App nicht unterstützt, wenn Benutzer auf Skype für Business Online verwaltet werden.  <br/> |
-|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden.  <br/> |
+|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden. Weitere Informationen finden Sie unter [Skype für Business hybridlösungen](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Verpasste Unterhaltungsverlauf und Anrufprotokolle werden in Exchange-Postfach des Benutzers geschrieben.  <br/> ||
 |Serverseitig aufgezeichnete Unterhaltungen  <br/> ||
    
@@ -102,10 +103,10 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
 |Chat/Anwesenheit in mobilen Clients  <br/> ||
 |Teilnehmen an Onlinebesprechungen in mobilen Clients  <br/> ||
 |Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender  <br/> ||
-|Verpasste Unterhaltungsverlauf und Anrufprotokolle werden in Exchange-Postfach des Benutzers geschrieben.  <br/> ||
+|Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> ||
 |Kontaktliste (über den einheitlichen Kontaktspeicher)  <br/> |Lync Server 2013 oder Skype für Business Client erforderlich  <br/> |
 |Hochauflösende Foto des Kontakts in Lync 2013, Skype für Business-Client und Lync Web App  <br/> ||
-|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden.  <br/> |
+|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden. Weitere Informationen finden Sie unter [Skype für Business hybridlösungen](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> ||
 |Durchsuchen von archivierten Inhalten  <br/> ||
 |Voicemail  <br/> ||
@@ -117,6 +118,6 @@ Die folgende Tabelle enthält die Features, die in einer hybridbereitstellung be
 ||**SharePoint lokal**|**SharePoint Online**|
 |:-----|:-----|:-----|
 |**Skype für Business Server 2015 lokalen** <br/> | Qualifikationssuche <br/>  Anwesenheitsinformationen in SharePoint <br/> | Anwesenheitsinformationen in SharePoint <br/> |
-|**Skype für Unternehmen Online** <br/> | Anwesenheitsinformationen in SharePoint <br/> | Anwesenheitsinformationen in SharePoint <br/> |
+|**Skype for Business Online** <br/> | Anwesenheitsinformationen in SharePoint <br/> | Anwesenheitsinformationen in SharePoint <br/> |
    
 

@@ -1,9 +1,8 @@
 ---
-title: Definieren von zusätzlichen Trunks im Topologie-Generator in Skype for Business Server 2015
+title: Definieren von zusätzlichen Trunks im Topologie-Generator in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: 'Zusammenfassung: Erfahren Sie, wie Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem gatewaypeer im Topologie-Generator in Skype für Business Server 2015 definieren.'
-ms.openlocfilehash: e76555d0f03b884ad3f3c91c5ca4ad5d687711a2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Erfahren Sie, wie Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem gatewaypeer im Topologie-Generator in Skype für Business Server definieren.'
+ms.openlocfilehash: 65ed4bb850c88c873b61090cbc34a133cb9d95e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979741"
 ---
-# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server-2015"></a>Definieren von zusätzlichen Trunks im Topologie-Generator in Skype for Business Server 2015
+# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definieren von zusätzlichen Trunks im Topologie-Generator in Skype für Business Server
  
-**Zusammenfassung:** Hier erfahren Sie, wie Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem gatewaypeer im Topologie-Generator in Skype für Business Server 2015 zu definieren.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem gatewaypeer im Topologie-Generator in Skype für Business Server definieren.
   
 Befolgen Sie diese Schritte, um einen zusätzlichen Trunk definieren, den einen Peer einen Vermittlungsserver zugeordnet werden können. Ein Peer bietet Benutzern, die mit der Konnektivität zu im Public Switched Telephone Network, (PSTN) für Enterprise Voice aktiviert. Bei einem Peer kann es sich um ein PSTN-Gateway, eine IP-Nebenstellenanlage oder einen Session Border Controller (SBC) für einen Anbieter von Internettelefoniediensten handeln.
   
 Ein Trunk ist eine logische Verbindung zwischen einem Vermittlungsserver und einem Gateway.
   
 > [!NOTE]
-> In diesem Thema wird davon ausgegangen, dass Sie Setup ein PSTN-Gateway und stammtrunk mit mindestens einem verbundenen oder eigenständigen Vermittlungsserver oder-Pool verfügen, wie in der Dokumentation zur Bereitstellung definieren [eines Gateways im Topologie-Generator in Skype für Business Server 2015](define-a-gateway.md) beschrieben.
+> In diesem Thema wird davon ausgegangen, dass Sie Setup ein PSTN-Gateway und stammtrunk mit mindestens einem verbundenen oder eigenständigen Vermittlungsserver oder-Pool verfügen, wie in der Dokumentation zur Bereitstellung definieren [eines Gateways im Topologie-Generator in Skype für Business Server](define-a-gateway.md) beschrieben.
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>So definieren Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem gatewaypeer
 

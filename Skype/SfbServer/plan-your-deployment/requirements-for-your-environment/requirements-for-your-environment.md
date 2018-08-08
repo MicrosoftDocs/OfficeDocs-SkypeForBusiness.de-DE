@@ -13,14 +13,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Zusammenfassung: Überblick über Themen für Anforderungen Systeme und Infrastruktur oder Netzwerk Anforderungen für Skype für Business Server 2015. Wenn Sie vor dem Installieren und Bereitstellen von Skype for Business Server 2015 eine andere Komponente installieren oder konfigurieren müssen, finden Sie diese hier.'
-ms.openlocfilehash: c3ad031a79d7a880036da5fb5eed1ad938505747
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Beschreibung der Schritte für Anforderungen des Systems, des Netzwerk und der Infrastruktur für Skype for Business Server 2015. Wenn Sie vor dem Installieren und Bereitstellen von Skype for Business Server 2015 eine andere Komponente installieren oder konfigurieren müssen, finden Sie diese hier.'
+ms.openlocfilehash: 98729469459f451727f2285c64dcff3a7fe15f9e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000455"
 ---
-# <a name="requirements-for-your-skype-for-business-environment"></a>Anforderungen an die Skype for Business Server 2015-Umgebung
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Anforderungen für Ihre Skype für Business 2015-Umgebung
  
 **Zusammenfassung:** Beschreibung der Schritte für Anforderungen des Systems, des Netzwerk und der Infrastruktur für Skype for Business Server 2015. Wenn Sie vor dem Installieren und Bereitstellen von Skype for Business Server 2015 eine andere Komponente installieren oder konfigurieren müssen, finden Sie diese hier.
   

@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen von Skype Room Systems v2 mit Skype for Business Server 2015
+title: Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,15 +11,15 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server 2015.
-ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+description: Lesen Sie dieses Thema bietet Informationen zum Skype Raum Systemen v2 mit Skype für Business Server bereitstellen.
+ms.openlocfilehash: a1d46012979cd908a00113c4573133da63e844ba
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887827"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976828"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Bereitstellen von Skype Room Systems v2 mit Skype for Business Server 2015
+# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server
   
 In diesem Thema wird erläutert, wie Sie ein Gerät Konto für Skype Raum Systemen v2 hinzufügen, wenn Sie eine einzelnen Gesamtstruktur, lokale Bereitstellung vorhanden sind.
   
@@ -28,9 +27,9 @@ Wenn Sie einer einzelnen Gesamtstruktur, lokalen Bereitstellung von Exchange 201
 
 Die einfachste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen. Auf Wunsch können Sie die Schritte unten, um Geräts v2 Skype Raum Systemen verwendeten Konten zu konfigurieren.
   
-## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Bereitstellen von Skype Room Systems v2 mit Skype for Business Server 2015
+## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server
 
-Vor der Bereitstellung von Skype Raum Systemen v2 mit Skype für Business Server 2015, achten Sie darauf, dass Sie die Anforderungen erfüllt sind. Weitere Informationen finden Sie unter [Skype Raum Systemen v2 Requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Bevor Sie Skype Raum Systemen v2 mit Skype für Business Server bereitstellen, achten Sie darauf, dass Sie die Anforderungen erfüllt sind. Weitere Informationen finden Sie unter [Skype Raum Systemen v2 Requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, mit denen Sie die entsprechenden Berechtigungen für die zugehörigen Cmdlets ausführen.
   
@@ -48,7 +47,7 @@ Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, 
  
    ```
 
-   Beachten Sie, dass $strExchangeServer den vollqualifizierten Domänennamen (FQDN) des Exchange-Servers ist, und $strLyncFQDN der FQDN des Ihrer Skype für Business Server 2015 Bereitstellung ist.
+   Beachten Sie, dass $strExchangeServer den vollqualifizierten Domänennamen (FQDN) des Exchange-Servers, und $strLyncFQDN der FQDN des Ihrer Skype für Business Server-Bereitstellung ist.
     
 2. Nach dem Einrichten einer Sitzung, werden Sie entweder ein neues Postfach erstellen und als eine RoomMailboxAccount zu aktivieren oder Ändern der Einstellungen für ein vorhandenes Raumpostfach. Dadurch wird das Konto zum Skype Raum Systemen v2 authentifizieren.
     
@@ -86,7 +85,7 @@ Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, 
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Aktivieren Sie das Gerät Konto mit Skype für Business Server 2015, indem Ihre Skype Raum Systemen v2 Active Directory-Kontos auf einen Skype für Business Server 2015 Pool aktivieren:
+6. Aktivieren Sie das Gerät Konto mit Skype für Business Server, indem Ihre Skype Raum Systemen v2 Active Directory-Kontos auf einen Skype für Business Server-Pool aktivieren:
     
    ```
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
@@ -106,7 +105,7 @@ Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, 
 
    Auch hier müssen Sie die bereitgestellten Beispiele für den Domänencontroller und die Telefonnummer durch Ihre eigenen Informationen ersetzen. Der Parameterwert „$true“ bleibt unverändert.
     
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-2015-on-premises"></a>Beispiel: Raum kontoeinrichtung in Exchange und Skype für Business Server 2015 lokal
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Beispiel: Raum kontoeinrichtung in Exchange und Skype für Business Server lokal
 
 ```
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 
@@ -126,10 +125,10 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 [Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md)
 
-[Planen von Skype Raum Systemen v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planung für Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)
+[Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
   
-[Konfigurieren einer Skype Raum Systemen v2-Konsole](console.md)
+[Konfigurieren einer Konsole für Skype Room Systems v2](console.md)
   
-[Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

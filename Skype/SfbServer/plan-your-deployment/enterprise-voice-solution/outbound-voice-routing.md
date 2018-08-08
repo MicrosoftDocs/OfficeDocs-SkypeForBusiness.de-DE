@@ -1,9 +1,8 @@
 ---
-title: Plan für ausgehendes VoIP-Routing in Skype for Business Server 2015
+title: Planen der ausgehende VoIP-routing in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Erfahren Sie mehr über ausgehende VoIP-routing in Skype für Business Server Enterprise-VoIP, einschließlich Aufruf für Routen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-verwendungsdatensätzen, und VoIP-Routen.
-ms.openlocfilehash: 35ba2a8991b35a22b6abcacc42f1323d167c0d4d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1f399ff44eafdc1fc61fb5bab41b0d8949127e62
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029189"
 ---
-# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>Plan für ausgehendes VoIP-Routing in Skype for Business Server 2015
+# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen der ausgehende VoIP-routing in Skype für Business Server
  
 Erfahren Sie mehr über ausgehende VoIP-routing in Skype für Business Server Enterprise-VoIP, einschließlich Aufruf für Routen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-verwendungsdatensätzen, und VoIP-Routen.
   
@@ -81,7 +81,7 @@ Führen Sie folgende Schritte aus, um einen Wählplan zu planen:
     
     Wenn Ihre Organisation einen einzigen Wählplan für mehrere Standorte verwaltet werden, müssen Sie zum Erstellen von separaten Wähleinstellungen für Enterprise-VoIP-Benutzer migrieren, die aus einer private Branch Exchange, (Nebenstellenanlage PBX) und ihren vorhandenen Erweiterungen beibehalten vorhanden sein muss.
     
-- Entscheiden Sie, ob Wählpläne auf Benutzerebene erforderlich sind. Beispielsweise gewählt, wenn Sie Benutzer an einem Zweigstellenstandort, die mit einem zentralen Standort registriert sind oder wenn Sie Benutzer, die auf einer Survivable Branch Appliance registriert sind, können Sie spezielle berücksichtigen Wählvorgang Szenarien für solche Benutzer pro Benutzer mit Pläne und Normalisierungsregeln . Weitere Informationen hierzu finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server 2015](enterprise-voice-resiliency.md).
+- Entscheiden Sie, ob Wählpläne auf Benutzerebene erforderlich sind. Beispielsweise gewählt, wenn Sie Benutzer an einem Zweigstellenstandort, die mit einem zentralen Standort registriert sind oder wenn Sie Benutzer, die auf einer Survivable Branch Appliance registriert sind, können Sie spezielle berücksichtigen Wählvorgang Szenarien für solche Benutzer pro Benutzer mit Pläne und Normalisierungsregeln . Weitere Informationen hierzu finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server](enterprise-voice-resiliency.md).
     
 - Ermitteln Sie den Bereich für den Wählplan (wie weiter oben in diesem Thema beschrieben).
     
@@ -91,7 +91,7 @@ Um einen Wählplan zu erstellen, geben Sie Werte in den folgenden Feldern, je na
 
 Bei Benutzerwählplänen sollten Sie einen beschreibenden Namen für die Benutzer, Gruppen oder Kontaktobjekte angeben, denen der Wählplan zugewiesen wird. Für Standortwählpläne ist das Feld „Name“ bereits mit dem Namen des Standorts ausgefüllt und kann nicht geändert werden. Pool-Wählpläne, im Feld Name wird automatisch gefüllt, mit dem PSTN-Gateway oder Front-End-Pool vollständig qualifizierten Domänennamen (FQDN) und kann nicht geändert werden.
   
-Der Wählplan einfacher Name ist bereits ausgefüllte durch eine Zeichenfolge, die von der Wählplanname abgeleitet ist. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. TheSimple Name-Wert darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
+Der Wählplan Einfacher Name ist bereits mit einer vom Namen des Wählplans abgeleiteten Zeichenfolge aufgefüllt. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. TheSimple Name-Wert darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
   
 #### <a name="description"></a>Beschreibung
 
@@ -141,7 +141,7 @@ Weitere Informationen zur Verwendung von regulärer .NET Framework-Ausdrücken f
 
 Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als reguläre Ausdrücke von .NET Framework formuliert sind. Diese Regeln sind nur Beispiele und stellen keine verbindliche Referenz für die Erstellung Ihrer eigenen Normalisierungsregeln dar.
   
-**Tabelle Normalisierungsregeln 1: mit reguläre Ausdrücken in .NET Framework**
+**Tabelle 1: Normalisierungsregeln mit regulären .NET Framework-Ausdrücken**
 
 |**Regelname**|**Beschreibung**|**Nummernmuster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -159,7 +159,7 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
    
 Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert.
   
-**In Tabelle 2. Redmond-Wählplan basierend auf in Tabelle 1 gezeigten Normalisierungsregeln**
+**Tabelle 2: Wählplan für Redmond, basierend auf den in Tabelle 1 gezeigten Normalisierungsregeln**
 
 |**Redmond.forestFQDN**|
 |:-----|
@@ -197,7 +197,7 @@ Die folgenden Schritte helfen Ihnen beim Planen der VoIP-Richtlinien, die Sie f�
     
 ### <a name="voice-policy-scope"></a>Gültigkeitsbereich von VoIP-Richtlinien
 
-VoIP-Richtlinie auf Benutzerebene bestimmt die Hierarchieebene, an der die Richtlinie angewendet werden kann. In Skype für Business Server, konfigurieren Sie VoIP-Richtlinien mit den folgenden Ebenen für den Bereich (aufgeführt, die von der genauesten bis hin zu den allgemeinen).
+Der Gültigkeitsbereich von VoIP-Richtlinien bestimmt die Hierarchieebene, auf der die Richtlinie gelten soll. In Skype für Business Server, konfigurieren Sie VoIP-Richtlinien mit den folgenden Ebenen für den Bereich (aufgeführt, die von der genauesten bis hin zu den allgemeinen).
   
 - Die **VoIP-Benutzerrichtlinie** kann einzelnen Benutzern, Gruppen oder Kontaktobjekten zugewiesen werden. Dies ist die niedrigste Richtlinienebene. VoIP-Benutzerrichtlinien können bereitgestellt werden, um Funktionen nur für bestimmte Benutzer oder Gruppen an einem Standort zu aktivieren. Sie können damit z. B. bei bestimmten Mitarbeitern Ferngespräche deaktivieren. Damit eine VoIP-Richtlinie zugewiesen werden kann, wird ein Kontaktobjekt wie ein Einzelbenutzer behandelt.
     
@@ -247,7 +247,7 @@ Planen der PSTN-verwendungsdatensätzen besteht aus hauptsächlich die Anrufbere
   
 Im Folgenden sehen Sie eine typische PSTN-Verwendungstabelle.
   
-**PSTN-Verwendungsdatensätzen**
+**PSTN-Verwendungseinträge**
 
 |**Telefonattribut**|**Beschreibung**|
 |:-----|:-----|

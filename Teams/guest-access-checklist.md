@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
 description: Verwenden Sie diese Prüfliste, um Gastzugriff in Microsoft Access-Teams Gast einrichten.
+localization_priority: Priority
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53800ddf452fd6596abe3e4404c79352483e946
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 9eec0425f7060597fc0d6a669a9b76821f141421
+ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19744271"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================
@@ -65,7 +67,7 @@ Wechseln Sie in das Office 365 Administrationscenter auf **Einstellungen** > **S
 
 Stellen Sie sicher, dass **Let Gruppenmitglieder außerhalb der Organisation Access Gruppe Inhalt** auf **aktiviert**festgelegt ist. Wenn diese Einstellung deaktiviert ist, werden nicht Gäste auf eine beliebige Gruppe Inhalte zugreifen.
 
-Stellen Sie sicher, dass **Let Gruppenbesitzer Personen außerhalb der Organisation zu Gruppen hinzufügen** auf **aktiviert**festgelegt ist. Wenn diese Einstellung deaktiviert ist, werden nicht Besitzer Team neue Gäste hinzufügen können. (Allerdings, wenn ein Administrator Gast Azure AD hinzugefügt haben, klicken Sie dann der Besitzer Team hinzufügen, dass der Benutzer an das Team wäre.) Mindestens muss diese Einstellung für die Unterstützung Gast Zugriffs "auf" sein.
+Stellen Sie sicher, dass **Let Gruppenbesitzer Personen außerhalb der Organisation zu Gruppen hinzufügen** auf **aktiviert**festgelegt ist. Wenn diese Einstellung deaktiviert ist, werden nicht Besitzer Team neue Gäste hinzufügen können. Mindestens muss diese Einstellung für die Unterstützung Gast Zugriffs "auf" sein.
 
 Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie im Abschnitt "Office 365 Groups" im [Autorisieren Gast in Microsoft-Teams](Teams-dependencies.md) und [Zulassen/Blockieren Gastzugriff auf Office 365-Gruppen](https://go.microsoft.com/fwlink/?linkid=869658).
  
@@ -75,7 +77,8 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie im Absch
 1. Melden Sie sich bei https://portal.azure.com.
 2. Klicken Sie im linken Bereich auf **Azure Active Directory** .
 3. Klicken Sie unter **Verwalten**auf **benutzereinstellungen**.
-4. **Externe Benutzer**stellen Sie sicher, dass **Mitglieder können einladen** auf **Ja**festgelegt ist. ![Screenshot zeigt ein Beispiel für eine Umschaltfläche AAD Einstellungen. ](media/guest-access-checklist-AADSettings1.png)
+4. Klicken Sie unter **externe Benutzer**klicken Sie auf **Einstellungen für externe verwalten für die Zusammenarbeit**
+5. Klicken Sie auf der Seite **Einstellungen für die externe Zusammenarbeit** sicherstellen Sie, dass **Mitglieder können einladen** auf **Ja**festgelegt ist. ![Screenshot zeigt ein Beispiel für eine Umschaltfläche AAD Einstellungen. ](media/guest-access-checklist-AADSettings1.png)
 
     
 

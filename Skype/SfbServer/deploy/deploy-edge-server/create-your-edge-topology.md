@@ -1,9 +1,8 @@
 ---
-title: Erstellen Ihrer Edgetopologie für Skype for Business Server 2015
+title: Erstellen Sie eine Edge-Topologie für Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
-description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server 2015.'
-ms.openlocfilehash: 335713fdcc8c8a88fb31f180ab4553bd64497d9f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server.'
+ms.openlocfilehash: 2c938312e90c339044a45c654838ec5c587bbd7e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019177"
 ---
-# <a name="create-your-edge-topology-for-skype-for-business-server-2015"></a>Erstellen Ihrer Edgetopologie für Skype for Business Server 2015
+# <a name="create-your-edge-topology-for-skype-for-business-server"></a>Erstellen Sie eine Edge-Topologie für Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server.
   
-Topologie-Generator ist das Tool müssen Sie zum Erstellen Ihrer Topologie Edge-Server verwenden, wie sie für jede Komponente Topologie für Skype für Business Server 2015 verwendet wird. Bevor Sie die folgenden Schritte, müssen Sie mindestens einen Front-End-Pool oder Standard Edition-Server eingerichtet haben.
+Topologie-Generator ist das Tool müssen Sie zum Erstellen Ihrer Topologie Edge-Server verwenden, wie sie für jede Komponente Topologie für Skype für Business Server verwendet wird. Bevor Sie die folgenden Schritte, müssen Sie mindestens einen Front-End-Pool oder Standard Edition-Server eingerichtet haben.
   
 In diesem Artikel werden die folgenden Themen behandelt:
   
@@ -42,7 +42,7 @@ In diesem Artikel werden die folgenden Themen behandelt:
     
 ## <a name="build-your-edge-server-topology"></a>Erstellen Sie die Edge-Server-Topologie
 
-Der erste Bereitstellungsschritt erstellt Ihre Skype für Business Server 2015 Edge-Server-Topologie besteht aus eine der drei Optionen:
+Der erste Bereitstellungsschritt erstellt Ihre Skype für Business Server Edge-Server-Topologie besteht aus eine der drei Optionen:
   
 - Ein einzelner Edgeserver
     
@@ -54,9 +54,9 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
   
 ### <a name="defining-the-topology-for-a-single-edge-server"></a>Definieren der Topologie für einen einzelnen Edgeserver
 
-1. Melden Sie sich Ihre Skype für Business Server 2015 Standard Edition-Server oder einen Skype für Business Server 2015 Front-End-Pool an.
+1. Melden Sie sich Ihre Skype für Business Server Standard Edition-Server oder einen Skype für Business Server-Front-End-Pool an.
     
-2. Einmal vorhanden, öffnen Sie **Skype für Business Server 2015 Topologie-Generator**.
+2. Einmal vorhanden, öffnen Sie **Skype für Business Server-Topologie-Generator**.
     
 3. Erweitern Sie in der Konsolenstruktur den Standort, den Sie zum Bereitstellen der Edge-Server an.
     
@@ -68,7 +68,7 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
 7. Auf dem Bildschirm **Funktionen auswählen** haben Sie die folgende Wahl:
     
-   - Sie möchten verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server 2015-Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
+   - Sie möchten verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server-Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
     
    - Wenn der Partnerverbund aktiviert werden soll, wählen Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** aus.
     
@@ -108,17 +108,17 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
 14. Auf dem Bildschirm **Zuordnen von Front-End-Pools** müssen Sie einen oder mehrere interne Pools, einschließlich der Front-End-Pools und Standard Edition-Servern zuordnen zu diesem Edgeserver angeben. Wählen Sie nur die Namen der internen Pools mit diesem Edgeserver mit unterstützten externen Benutzern kommunizieren. Klicken Sie auf **Weiter**.
     
     > [!NOTE]
-    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server 2015 Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
+    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
   
 15. Klicken Sie auf dem nächsten Bildschirm auf **Fertig stellen**.
     
-16. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server 2015](deploy-edge-servers.md) von hier aus auf den Edge-Server bereitstellen.
+16. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server](deploy-edge-servers.md) bereitstellen auf den Edge-Server von hier aus.
     
 ### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definieren der Topologie für einen DNS-Lastenausgleich mit Edge-Server-pool
 
-1. Melden Sie sich Ihre Skype für Business Server 2015 Standard Edition-Server oder einen Skype für Business Server 2015 Front-End-Server an.
+1. Melden Sie sich Ihre Skype für Business Server Standard Edition-Server oder einen Skype für Business Server-Front-End-Server an.
     
-2. Einmal vorhanden, öffnen Sie **Skype für Business Server 2015 Topologie-Generator**.
+2. Einmal vorhanden, öffnen Sie **Skype für Business Server-Topologie-Generator**.
     
 3. Erweitern Sie in der Konsolenstruktur den Standort, den Sie zum Bereitstellen der Edge-Server an.
     
@@ -130,7 +130,7 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
 7. Auf dem Bildschirm **Funktionen auswählen** haben Sie die folgende Wahl:
     
-    - Sollen verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server 2015 Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
+    - Sie möchten verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
     
     - Wenn der Partnerverbund aktiviert werden soll, wählen Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** aus.
     
@@ -176,17 +176,17 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
 17. Auf dem Bildschirm **Zuordnen von Front-End-Pools** müssen Sie einen oder mehrere interne Pools, einschließlich der Front-End-Pools und Standard Edition-Pools zuordnen zu diesem Edgeserver angeben. Wählen Sie nur die Namen der internen Pools mit diesem Edgeserver mit unterstützten externen Benutzern kommunizieren. Klicken Sie auf **Weiter**.
     
     > [!NOTE]
-    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server 2015 Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
+    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
   
 18. Klicken Sie auf dem nächsten Bildschirm auf **Fertig stellen**.
     
-19. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server 2015](deploy-edge-servers.md) von hier aus auf den Edge-Server bereitstellen.
+19. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server](deploy-edge-servers.md) bereitstellen auf den Edge-Server von hier aus.
     
 ### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Edge-Server-Pool Definieren der Topologie für ein Hardwaregerät zum Lastenausgleich
 
-1. Melden Sie sich Ihre Skype für Business Server 2015 Standard Edition-Server oder einen Skype für Business Server 2015 Front-End-Server an.
+1. Melden Sie sich Ihre Skype für Business Server Standard Edition-Server oder einen Skype für Business Server-Front-End-Server an.
     
-2. Einmal vorhanden, öffnen Sie **Skype für Business Server 2015 Topologie-Generator**.
+2. Einmal vorhanden, öffnen Sie **Skype für Business Server-Topologie-Generator**.
     
 3. Erweitern Sie in der Konsolenstruktur den Standort, den Sie zum Bereitstellen der Edge-Server an.
     
@@ -198,7 +198,7 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
 7. Auf dem Bildschirm **Funktionen auswählen** haben Sie die folgende Wahl:
     
-   - Sollen verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server 2015 Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
+   - Sie möchten verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
     
    - Wenn der Partnerverbund aktiviert werden soll, wählen Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** aus.
     
@@ -245,19 +245,19 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
 16. Auf dem Bildschirm **Zuordnen von Front-End-Pools** müssen Sie einen oder mehrere interne Pools, einschließlich der Front-End-Pools und Standard Edition-Pools zuordnen zu diesem Edgeserver angeben. Wählen Sie nur die Namen der internen Pools mit diesem Edgeserver mit unterstützten externen Benutzern kommunizieren. Klicken Sie auf **Weiter**.
     
     > [!NOTE]
-    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server 2015 Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
+    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
   
 17. Klicken Sie auf dem nächsten Bildschirm auf **Fertig stellen**.
     
-18. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server 2015](deploy-edge-servers.md) von hier aus auf den Edge-Server bereitstellen.
+18. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server](deploy-edge-servers.md) bereitstellen auf den Edge-Server von hier aus.
     
 ## <a name="publish-your-edge-server-topology"></a>Veröffentlichen der Edgeservertopologie
 
-Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es Zeit zu dieser neuen Topologie veröffentlichen, die auch Sie es in Ihrer Skype für Business Server 2015 Edgeserver oder Edgepool exportieren können. Gehen Sie folgendermaßen vor:
+Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es Zeit zu dieser neuen Topologie veröffentlichen, die auch Sie es in Ihrer Skype für Business Server-Edgeserver oder Edgepool exportieren können. Gehen Sie folgendermaßen vor:
   
 1. Starten Sie den **Topologie-Generator** (wenn dieser nicht bereits aufgrund eines vorhergehenden Verfahrens geöffnet ist).
     
-2. Im **Topologie-Generator**in der Konsolenstruktur mit der rechten Maustaste **Skype für Business Server 2015** , und klicken Sie dann auf **Skype für Business Server-Topologie-Generator**.
+2. Im **Topologie-Generator**in der Konsolenstruktur mit der rechten Maustaste **Skype für Business Server** , und klicken Sie dann auf **Skype für Business Server-Topologie-Generator**.
     
 3. Klicken Sie auf der Seite **Willkommen** des Assistenten auf **Weiter**.
     
@@ -271,7 +271,7 @@ Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es Zeit zu 
     
 ## <a name="export-your-edge-server-topology"></a>Exportieren der Edgeservertopologie
 
-Zur erfolgreichen Bereitstellung benötigt die Skype für Business Server 2015 Bereitstellungsassistenten Zugriff auf die zentralen Speicherdaten. Dies ist für interne Server in Ihrer Domäne oder der Gesamtstruktur in der Regel recht einfach. Edge-Server sind außerhalb der Domäne, und es ist also erforderlich sind, um die topologiedatei manuell an Edge-Server in der Regel auf einem physischen Datenträgern zu exportieren. Dieser Export erfolgt über die PowerShell:
+Zur erfolgreichen Bereitstellung benötigt die Skype für Business Server-Bereitstellungsassistenten Zugriff auf die zentralen Speicherdaten. Dies ist für interne Server in Ihrer Domäne oder der Gesamtstruktur in der Regel recht einfach. Edge-Server sind außerhalb der Domäne, und es ist also erforderlich sind, um die topologiedatei manuell an Edge-Server in der Regel auf einem physischen Datenträgern zu exportieren. Dieser Export erfolgt über die PowerShell:
   
 1. Starten Sie die **Skype für Business Server-Verwaltungsshell**.
     

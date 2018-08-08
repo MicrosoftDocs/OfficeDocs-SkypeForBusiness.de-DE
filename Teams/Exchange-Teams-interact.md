@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Lernen Sie die Funktionen kennen, die in Microsoft Teams und den zahlreichen Exchange-Setups gemeinsam verwendet werden, wie zum Beispiel das Erstellen von und die Teilnahme an Teams, das Erstellen von Kanälen usw.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569915"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -34,8 +36,8 @@ Die folgende Tabelle enthält Informationen für Benutzer, für die Exchange Onl
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
 |**Exchange Online Dedicated vNext**|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
-|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja (Liste zulässiger)|Nein|Nein|Ja|Nein|Nein|Ja|Ja|Nein|Ja (Exchange 2013 oder höher)|Nein|Ja|Ja|
-|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja (Liste zulässiger)|Nein|Nein|Ja|Ja (Exchange 2016 CU3 oder höher)|Nein|Ja|Ja|Nein|Ja (Exchange 2013 oder höher)|Nein|Ja|Ja|
+|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja ([Liste der zugelassenen](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Nein|Nein|Ja|Nein|Nein|Ja|Ja|Nein|Ja (Exchange 2013 oder höher)|Nein|Ja|Ja|
+|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja ([Liste der zugelassenen](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Nein|Nein|Ja|Ja (Exchange 2016 CU3 oder höher)|Nein|Ja|Ja|Nein|Ja (Exchange 2013 oder höher)|Nein|Ja|Ja|
                                                             
 *\*Exchange 2016 CU3 und höher unterstützt*
 

@@ -1,9 +1,8 @@
 ---
-title: Übersetzungsregeln in Skype for Business Server 2015
+title: Übersetzungsregeln in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Erfahren Sie mehr über Übersetzungsregeln, und wählen Sie die Normalisierung von Zeichenfolgen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: c72e3909fdc0e4485683382b84a5d737fa75b8fc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4ef5f92b8c5ef91abeb5ce2b6ea1e4c0eebe7580
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973186"
 ---
-# <a name="translation-rules-in-skype-for-business-server-2015"></a>Übersetzungsregeln in Skype for Business Server 2015
+# <a name="translation-rules-in-skype-for-business-server"></a>Übersetzungsregeln in Skype für Business Server
  
 Erfahren Sie mehr über Übersetzungsregeln, und wählen Sie die Normalisierung von Zeichenfolgen in Skype für Business Server Enterprise-VoIP.
   
@@ -37,7 +37,7 @@ Die folgenden Beispiele für Übersetzungsregeln zeigen, wie Sie Regeln auf dem 
   
 Ausführliche Informationen zur Implementierung von Übersetzungsregeln, finden Sie unter [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in der Bereitstellungsdokumentation.
   
-|**Beschreibung**|**Anfangsziffern**|**Länge**|**Zu entfernende Ziffern**|**Hinzuzufügende Ziffern**|**Übereinstimmendes Muster**|**Übersetzung**|**Beispiel**|
+|**Beschreibung**|**Anfangsziffern**|**Länge**|**Zu entfernende Ziffern**|**Hinzuzufügende Ziffern**|**Vergleichsmuster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Normales Ferngespräch in den USA  <br/> (Pluszeichens das '+')  <br/> |+ 1  <br/> |Exakt 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 wird zu 14255551010  <br/> |
 |Internationales Ferngespräch aus den USA  <br/> (Pluszeichens "+" und Hinzufügen von 011)  <br/> |+  <br/> |Mindestens 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 wird zu 011441235551010  <br/> |

@@ -16,12 +16,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
-description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online bereitstellen.'
-ms.openlocfilehash: d96cff493daf8efa213c635a5a1454bfa370de9a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Lesen Sie dieses Thema und erfahren Sie, wie Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online hergestellt wird.'
+ms.openlocfilehash: d2f2792f46f50b8b4889a4659993bb4fa22dcbc0
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708339"
 ---
 # <a name="deploy-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Bereitstellen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online
  
@@ -35,10 +36,7 @@ Die folgende Tabelle enthält die erforderlichen Schritte zur Vorbereitung Ihrer
   
 |**Schritt**|**Beschreibung**|
 |:-----|:-----|
-|Erstellen Sie ein Konto Mandanten für Office 365 und aktivieren Skype für Business Online  <br/> |Informationen Sie zu Office 365 und Skype für Business Online unter [Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> Um sicherzustellen, dass Ihre Umgebung für Office 365 bereit ist, finden Sie unter [System Requirements](https://go.microsoft.com/fwlink/p/?LinkId=401408).  <br/> Ausführliche Informationen zum Einrichten von Office 365 finden Sie unter [Erste Schritte mit Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
-|Fügen Sie Ihrer Domäne zu Office 365-Mandanten hinzu und verifizieren Sie des Eigentums an  <br/> | Sie müssen Ihre Domäne dem Office 365-Mandanten hinzufügen und dann den Schritten zum Überprüfen der Domäne mit Office 365 folgen. Anhand dieser Schritte soll bestätigt werden, dass Sie der Besitzer der Domäne sind. <br/> Befolgen Sie die Schritte unter [Hinzufügen Ihrer Domäne zu Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254983), zum Hinzufügen Ihrer Domäne zu Office 365-Mandanten.  <br/> |
-|Vorbereiten der Active Directory-Synchronisierung  <br/> |Active Directory-Synchronisierung vermeidet eine Verbindung zwischen Ihrer lokalen Active Directory ständig mit Office 365 synchronisiert. Hiermit können Sie erstellte synchronisiert Versionen der einzelnen Benutzerkonto und der Gruppe, und auch ermöglicht globale adresslist (GAL) Synchronisierung aus Ihrer lokalen Microsoft Exchange Server-Umgebung zu Microsoft Exchange Online verwendet. Weitere Informationen finden Sie unter [Directory Integration Tools](https://go.microsoft.com/fwlink/p/?LinkId=530320).  <br/> > [!IMPORTANT]> Sie müssen die Active Directory-Konten für alle Skype für Unternehmensbenutzer in Ihrer Organisation zwischen Ihrer lokalen und online-Bereitstellungen, synchronisieren, auch wenn der Benutzer nicht in Skype für Business Online verschoben werden. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.           |
+|Erstellen Sie ein Konto Mandanten für Office 365 und aktivieren Skype für Business Online  <br/> |Informationen Sie zu Office 365 und Skype für Business Online unter [Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> Um sicherzustellen, dass Ihre Umgebung für Office 365 bereit ist, finden Sie unter [System Requirements](https://products.office.com/en-US/office-system-requirements).  <br/> Ausführliche Informationen zum Einrichten von Office 365 finden Sie unter [Erste Schritte mit Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
+|Fügen Sie Ihrer Domäne zu Office 365-Mandanten hinzu und verifizieren Sie des Eigentums an  <br/> | Sie müssen Ihre Domäne dem Office 365-Mandanten hinzufügen und dann den Schritten zum Überprüfen der Domäne mit Office 365 folgen. Anhand dieser Schritte soll bestätigt werden, dass Sie der Besitzer der Domäne sind. <br/> Befolgen Sie die Schritte unter [Hinzufügen Ihrer Domäne zu Office 365](https://support.office.com/en-us/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US), zum Hinzufügen Ihrer Domäne zu Office 365-Mandanten.  <br/> |
+|Vorbereiten der Active Directory-Synchronisierung  <br/> |Active Directory-Synchronisierung vermeidet eine Verbindung zwischen Ihrer lokalen Active Directory ständig mit Office 365 synchronisiert. Hiermit können Sie erstellte synchronisiert Versionen der einzelnen Benutzerkonto und der Gruppe, und auch ermöglicht globale adresslist (GAL) Synchronisierung aus Ihrer lokalen Microsoft Exchange Server-Umgebung zu Microsoft Exchange Online verwendet. Weitere Informationen finden Sie unter [Directory Integration Tools](https://go.microsoft.com/fwlink/p/?LinkId=530320).  <br/>  **Wichtig** Sie müssen die Active Directory-Konten für alle Skype für Unternehmensbenutzer in Ihrer Organisation zwischen Ihrer lokalen und online-Bereitstellungen, synchronisieren, auch wenn der Benutzer nicht in Skype für Business Online verschoben werden. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.           |
 |Verschieben von Pilotbenutzern  <br/> |Nachdem Sie die Schritte zum Vorbereiten und Konfigurieren der Umgebung für Skype für Business Online abgeschlossen haben, können Sie die Pilotbenutzer in Ihrem online Office 365-Mandanten verschieben starten. Finden Sie unter [Verschieben von Benutzern aus lokal zu Skype für Business Online](move-users-from-on-premises-to-skype-for-business-online.md).  <br/> |
-|Verwalten von Benutzern in einer Hybridbereitstellung  <br/> |Ausführliche Informationen zum Verwalten von Benutzern in einer hybridbereitstellung finden Sie unter [Verwalten von Benutzern in einer Hybridbereitstellung](http://technet.microsoft.com/library/6924ed7b-30a9-4be7-b952-90655625f2c8.aspx).  <br/> |
-   
-

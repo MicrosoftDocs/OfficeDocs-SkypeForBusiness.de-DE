@@ -2,20 +2,22 @@
 title: Stellen Sie Telefonsystem mit Aufrufen plant Service Entscheidungen - Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Wählen Sie aus dem Aufruf von Plänen und Lizenzierung, notfallstandorten und Funktionen wie die Voicemail und Anrufer-ID konfigurieren, erwerben oder Rufnummern übertragen.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b7b1aaff60d6aa35fa10334c8d55e6a057eccaf
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246506"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -23,7 +25,7 @@ Um die technischen Implementierung der Telefonsystem mit Aufrufen plant planen, 
 
 ## <a name="calling-in-teams"></a>Anrufe in Microsoft Teams
 
-Mit Microsoft-Teams können Ihre Benutzer tätigen und Entgegennehmen von Anrufen zu oder aus dem öffentlichen Telefonfestnetz (PSTN). Ihre Benutzer können ihre eigenen dedizierten Rufnummern für tätigen und Empfangen von nationalen und internationalen Telefonanrufe in Teams-Clientanwendungen mit erweiterten Features, die Voicemail und notrufdienste (Erweiterte 911) enthalten.
+Mit Microsoft-Teams können Ihre Benutzer tätigen und Entgegennehmen von Anrufen zu oder aus dem öffentlichen Telefonfestnetz (PSTN). Ihre Benutzer können ihre eigenen dedizierten Rufnummern für tätigen und Empfangen von nationalen und internationalen Telefonanrufe in Teams-Clientanwendungen mit erweiterten Features, die Voicemail enthalten.
 
 > [!NOTE]
 > Die neueste Teams-Roadmap für die Identifizierung von Teams Telefonsystem mit Aufrufen planen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/skype2teamsroadmap>.
@@ -35,7 +37,7 @@ Teams benötigen können PSTN-Anrufe tätigen und empfangen diese Benutzer, für
 Um die Konnektivität mit dem PSTN zu aktivieren, kann Ihrer Organisation Microsoft als Telekommunikation Dienstanbieter verwenden. Schließlich müssen Sie auch die Option "bringen eigene" Telekommunikation-Dienstanbieter um Konnektivität mit PSTN für Telefonsystem aktivieren.
 
 > [!IMPORTANT]
-> Die Möglichkeit, Ihre eigenen Telekommunikation Dienstanbieter für Telefonsystem wird in der Zukunft verfügbar sein. Weitere Informationen zu der projizierten Zeitachse überprüfen Sie die [Skype für Unternehmen in Microsoft Teams Funktionen Roadmap](https://aka.ms/skype2teamsroadmap).
+> Die Möglichkeit, mit eigenen Telekommunikation Dienstanbieter für Telefonsystem bei Ihrer Bereitstellung Teams ist auch mit Phone System direktem Routing verfügbar. Weitere Informationen zum direkten Routing überprüfen Sie die [Anweisungen direkten Routing](2-envision-make-my-service-decisions-direct-routing.md).
 
 ## <a name="phone-system-with-calling-plans"></a>Telefonsystem mit Anrufplänen
 
@@ -58,6 +60,9 @@ Vor der Planung für die Implementierung von Aufrufen in Teams plant, stellen Si
 > [!IMPORTANT]
 > Aufgrund der rechtlichen Nebenbedingungen für aufrufen plant, internationale Unternehmen zur Verfügung muss der Vertrag für Office 365-Abonnements in einem Land oder Region basieren, wenn der Dienst aufrufen Pläne verfügbar ist oder der Dienst aufrufen plant werden können erworben haben.
 
+> [!NOTE]
+> Wenn plant Aufrufen in Ihrer Region nicht verfügbar sind, können Sie die [Phone System direkten Routing](2-envision-make-my-service-decisions-direct-routing.md) verwenden, um Ihren Benutzern mit Teams mit PSTN-Funktionen zu aktivieren.
+
 Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen plant erhalten die Liste der Standorte oder Büros, in dem Sie den Dienst aufrufen plant, basierend auf der Liste der verfügbaren Ländern und Regionen implementieren können.
 
 <br>
@@ -68,13 +73,13 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen p
 
 > [!TIP]
 > Es folgt ein Beispiel für ein Telefonsystem mit Aufrufen plant Websiteliste-Aktivierung.
->|Niederlassung   |Standort |Phone-Dienst  |
->|---------|---------|---------|
->|One Epping Road|Australien|Legacy-PSTN-Dienst|
->|100 Cyberport Road|Hong Kong SAR (香港特別行政區)|Legacy-PSTN-Dienst|
->|One Marina Boulevard|Singapur|Legacy-PSTN-Dienst|
->|32 London Bridge Street|Vereinigtes Königreich|Telefonsystem mit Anrufplänen|
->|39 quai du Président Roosevelt|Frankreich|Telefonsystem mit Anrufplänen|
+> | **Office**                     | **Standort**   | **Phone-Dienst** |
+> |--------------------------------|----------------|--------------------------|
+> | One Epping Road                | Australien      | Legacy-PSTN-Dienst |
+> | 100 Cyberport Road             | Hong Kong SAR (香港特別行政區)  | Telefon System direkten Routing |
+> | One Marina Boulevard           | Singapur      | Telefon System direkten Routing |
+> | 32 London Bridge Street        | Vereinigtes Königreich | Telefonsystem mit Anrufplänen |
+> | 39 quai du Président Roosevelt | Frankreich         | Telefonsystem mit Anrufplänen |
 
 <!--ENDOFSECTION-->
 
@@ -85,7 +90,7 @@ Mit Aufrufen in Office 365-Pläne muss jeder Benutzer in Ihrer Organisation eine
 Beim Konfigurieren von Telefonnummern für den Aufruf von plant müssen Sie eine Notfall Adresse an jede Telefonnummer zuweisen, bevor Sie die Nummer, die einem Benutzer zuweisen. Dieser Schritt ist für die Unterstützung von Notrufen erforderlich. Die Notfall-Adresse muss überprüft werden, um sicherzustellen, dass es im richtigen Format von den Diensten für Notfallmaßnahmen geeignet ist.
 
 > [!IMPORTANT]
-> Notdienste aufrufen funktioniert anders im Dienst aufrufen plant als in herkömmlichen Telefondienste. Es ist wichtig, dass Sie diese Unterschiede und allen Benutzern zu kommunizieren. Einzelheiten finden Sie unter [Emergency Aufrufen von allgemeinen Geschäftsbedingungen](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions) .
+> Notdienste aufrufen funktioniert anders im Dienst aufrufen plant als in herkömmlichen Telefondienste. Es ist wichtig, dass Sie diese Unterschiede und allen Benutzern zu kommunizieren. Einzelheiten finden Sie unter [Emergency Aufrufen von allgemeinen Geschäftsbedingungen](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) .
 
 Zusätzlich zur Bereitstellung einer validierten Notfall Adresse, können Sie notfallstandorten definieren und die überprüften Notfall-Adresse Geben Sie eine genauere Position innerhalb einer Adresse zuordnen. Ein Notfallstandort ist meist die Gebäudenummer, das Stockwerk, der Gebäudeflügel oder die Nummer des Zimmers, in dem sich der Benutzer befindet.
 
@@ -93,7 +98,7 @@ Weitere Informationen zum notfallstandorten im Verhältnis zum Aufrufen von plan
 
 -   [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
--   [Nutzungsbedingungen für Notrufe](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions)
+-   [Nutzungsbedingungen für Notrufe](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
 |         |         |         |
@@ -140,9 +145,9 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 >|Emily Braun      |Online      |Ja |Aktiviert |Aktiviert |
 >|Lidia Holloway   |Online      |Ja |Aktiviert |Deaktiviert |
 >|Louis Lahr       |Lokal |Ja |Aktiviert |Aktiviert |
->|Marcel Beauchamp |Lokal |Ja |Deaktiviert |n/v |
->|Rachelle Cormier |Online      |Ja |Deaktiviert |n/v |
->|Isabell Potvin   |Lokal |Ja |Deaktiviert |n/v |
+>|Marcel Beauchamp |Lokal |Ja |Deaktiviert |- |
+>|Rachelle Cormier |Online      |Ja |Deaktiviert |- |
+>|Isabell Potvin   |Lokal |Ja |Deaktiviert |- |
 
 <!--ENDOFSECTION-->
 
@@ -181,7 +186,7 @@ Unterstützung für zusätzliche Audiokonferenzen und Pläne aufrufen Anwendungs
 
 Wenn Ihre Organisation Microsoft verwenden möchte, wie Telekommunikation Internetdienstanbieter, müssen Sie planen aufrufen Add-ons zu Ihrer Benutzer geschäftlichen Anforderungen zu erhalten. Im Allgemeinen muss nicht allen Mitgliedern einer Organisation Ausland telefonieren, damit Sie die meisten Benutzer mit nationalen aufrufen planen Lizenzen bereitstellen können.
 
-Es gibt zwei Arten von Lizenzen aufrufen planen:
+Es gibt zwei Arten von Anrufplanlizenzen:
 
 -   Anrufplan für Inland
 
@@ -303,7 +308,7 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 
 -   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Allgemeine Fragen zum Übertragen von Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 |         |         |         |
@@ -347,15 +352,15 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 >|Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
->||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^([2-9]\d{7})$<br>+612$1<br>Falsch|
->||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^(1[38]\d{4,8})\d*$<br>+61$1<br>Falsch|
->||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^(000\|1[0125]\d{1,8})$<br>$1<br>Falsch|
+>||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
+>||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
+>||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
 >|**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (X8000 Â €"x 8999) für Office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
->||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7})\d*$<br>+65$1<br>Falsch|
->||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^(1\d{3,4}\|9\d{2})$<br>$1<br>Falsch|
+>||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
+>||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (X7000 Â €"x 7999) für 39 Quai du Président Roosevelt Office, Issy-Les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
->||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^0?(80\d{7})\d*$<br>+33$1<br>Falsch|
->||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>Falsch|
+>||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
+>||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
 
 <br>
 > [!TIP]
@@ -390,8 +395,6 @@ Verwenden Sie die Informationen aus den vorherigen Abschnitten dieses Artikels, 
 -   Erwerb von Telefonnummern, Details zu Telefonnummern und Notfallstandorten
 
 -   Details der Voicemailkonfiguration
-
--   Zuweisungen der Einstellungen für die Konferenzbrücke
 
 -   Details der Konfiguration der Anrufer-ID-Maskierung
 

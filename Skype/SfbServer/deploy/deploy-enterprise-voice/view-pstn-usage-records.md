@@ -1,9 +1,8 @@
 ---
-title: Anzeigen von PSTN-Verwendungsdatensätzen in Skype for Business 2015
+title: Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Zusammenfassung: Informationen Sie zum Anzeigen von PSTN-verwendungsdatensätzen unter Verwendung der Skype für Business Server-Systemsteuerung oder die Skype für Business Server-Verwaltungsshell.'
-ms.openlocfilehash: e4e58326fade20a48b032cf6cdc575894152fac0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c5775f619c1da1e94ff6aad0b4794e686611ab92
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967143"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business-2015"></a>Anzeigen von PSTN-Verwendungsdatensätzen in Skype for Business 2015
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen
  
 **Zusammenfassung:** Informationen Sie zum Anzeigen von PSTN-verwendungsdatensätzen unter Verwendung der Skype für Business Server-Systemsteuerung oder die Skype für Business Server-Verwaltungsshell.
   
@@ -47,14 +47,12 @@ Ein PSTN-Verwendungsdatensatz gibt eine Anrufklasse (z. B. interne Anrufe, Orts
 
     Mit diesem Befehl werden Informationen ähnlich der folgenden zurückgegeben:
     
-  ```
+<pre>
   Identity : Global
   Usage    : {Internal, Local, Long Distance}
-  ```
+</pre>
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business 2015](voice-policy-and-pstn-usage-records.md)
+[Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen](voice-policy-and-pstn-usage-records.md)
 

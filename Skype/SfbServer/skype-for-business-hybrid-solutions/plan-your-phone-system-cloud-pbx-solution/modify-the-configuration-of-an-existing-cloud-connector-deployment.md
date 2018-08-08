@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Führen Sie die Schritte in diesem Thema, um die Konfiguration von einer vorhandenen Skype für Business Cloud Connector Edition 1.4.1 oder höher Bereitstellung zu ändern.
-ms.openlocfilehash: 86efbf21efae3dc95508528850a984912e4930a1
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0a89c4a03d7cb316674490bc81768f27cd1a9c66
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176083"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung
  
@@ -235,7 +236,6 @@ Get-CcCredential -AccountType CABackupFile -DisplayPassword
 Get-CcCredential -AccountType CceService -DisplayPassword
 Get-CcCredential -AccountType VMAdmin -DisplayPassword
 Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-
   ```
 
 2. Führen Sie das Cmdlet EINGABETASTE CcUpdate die Appliance abzuleiten und verschieben sie in den Wartungsmodus manuelle aus.
@@ -279,7 +279,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 Um eine neue SIP-Domäne (oder mehrere SIP-Domänen) Ihre vorhandene Bereitstellung Cloud Connector hinzuzufügen, führen Sie folgende Schritte aus:
   
-1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihre Domäne in Office 365 und haben die Möglichkeit zum Hinzufügen von DNS-Einträgen abgeschlossen haben. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter der video [Richten Sie Ihre Domäne in Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihre Domäne in Office 365 und haben die Möglichkeit zum Hinzufügen von DNS-Einträgen abgeschlossen haben. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Aktualisieren der Konfigurationsdatei Cloud Connector mit den neuen SIP-Domäne oder Domänen.
     
@@ -293,14 +293,14 @@ Um eine neue SIP-Domäne (oder mehrere SIP-Domänen) Ihre vorhandene Bereitstell
 
 5. 
     
-    Befolgen Sie die Anweisungen zum [Ändern der Konfiguration einer einzelnen Website](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) oder [Ändern der Konfiguration mehrerer Standorte](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
+    Befolgen Sie die Anweisungen zum [Ändern der Konfiguration einer einzelnen Site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) oder [Ändern der Konfiguration mehrerer Sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
     
 ## <a name="modify-the-primary-sip-domain"></a>Ändern der primären SIP-Domäne
 <a name="BKMK_UpdatePassword"> </a>
 
 Wenn Sie die primäre SIP-Domäne in der Cloud Connector Bereitstellung ändern müssen, führen Sie folgende Schritte aus:
   
-1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihre Domäne in Office 365 und haben die Möglichkeit zum Hinzufügen von DNS-Einträgen abgeschlossen haben. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter der video [Richten Sie Ihre Domäne in Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihre Domäne in Office 365 und haben die Möglichkeit zum Hinzufügen von DNS-Einträgen abgeschlossen haben. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Aktualisieren Sie die Konfigurationsdatei Cloud Connector mit der neuen SIP-Domäne.
     
@@ -322,7 +322,9 @@ Wenn Sie die primäre SIP-Domäne in der Cloud Connector Bereitstellung ändern 
 
 6. 
     
-    Entfernen Sie die Registrierung der Website für die einzelnen Standorte durch Ausführen des folgenden Cmdlets in Skype für Business Online PowerShell:
+    Entfernen Sie die Siteregistrierung für jede Site, indem Sie das folgende Cmdlet in Skype for Business Online-PowerShell ausführen:
+
+
     
   ```
   Remove-CsHybridPSTNSite

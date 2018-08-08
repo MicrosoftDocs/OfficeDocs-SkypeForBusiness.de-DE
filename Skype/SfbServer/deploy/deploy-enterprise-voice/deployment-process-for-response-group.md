@@ -1,9 +1,8 @@
 ---
-title: Bereitstellungsprozess für Reaktionsgruppen in Skype for Business 2015
+title: Bereitstellungsprozess für Reaktionsgruppen in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Bereitstellungsprozess und Schritte für die Reaktionsgruppe in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: e84d8507ca64228a1bf6773110b5122d25286636
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c6b46aae2a7bcf46bba02780cf04032149ebcba9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981171"
 ---
-# <a name="deployment-process-for-response-group-in-skype-for-business-2015"></a>Bereitstellungsprozess für Reaktionsgruppen in Skype for Business 2015
+# <a name="deployment-process-for-response-group-in-skype-for-business"></a>Bereitstellungsprozess für Reaktionsgruppen in Skype für Unternehmen
  
 Bereitstellungsprozess und Schritte für die Reaktionsgruppe in Skype für Business Server Enterprise-VoIP.
   
@@ -68,7 +68,7 @@ Sie müssen möglicherweise die folgenden Aufgaben ausführen, vor dem Konfiguri
     
 ### <a name="enabling-users"></a>Aktivieren von Benutzern
 
-Der erste Schritt beim Konfigurieren von Reaktionsgruppen wird zum Erstellen von Agent-Gruppen. Bevor Sie eine agentgruppe erstellen können, müssen Sie die Benutzer aktivieren, die Agents für Reaktionsgruppen für Skype für Unternehmen und Enterprise-VoIP festgelegt werden soll. Aktivieren von Benutzern für Skype für Unternehmen ist in der Regel ein Schritt in der Enterprise Edition-Server oder Standard Edition-Server-Bereitstellung. Ausführliche Informationen zum Aktivieren von Benutzern für Skype für Unternehmen finden Sie unter [Enable or Disable Users for Lync Server 2013 Preview](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx). Aktivieren von Benutzern für Enterprise-VoIP ist in der Regel ein Schritt in der Enterprise-VoIP-Bereitstellung. Weitere Informationen hierzu finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](enable-users-for-enterprise-voice.md). 
+Der erste Schritt beim Konfigurieren von Reaktionsgruppen wird zum Erstellen von Agent-Gruppen. Bevor Sie eine agentgruppe erstellen können, müssen Sie die Benutzer aktivieren, die Agents für Reaktionsgruppen für Skype für Unternehmen und Enterprise-VoIP festgelegt werden soll. Aktivieren von Benutzern für Skype für Unternehmen ist in der Regel ein Schritt in der Enterprise Edition-Server oder Standard Edition-Server-Bereitstellung. Ausführliche Informationen zum Aktivieren von Benutzern für Skype für Unternehmen finden Sie unter [Enable or Disable Users for Lync Server 2013 Preview](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx). Aktivieren von Benutzern für Enterprise-VoIP ist in der Regel ein Schritt in der Enterprise-VoIP-Bereitstellung. Weitere Informationen hierzu finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server](enable-users-for-enterprise-voice.md). 
   
 ### <a name="complying-with-fips-requirements"></a>Erfüllen von FIPS-Anforderungen
 
@@ -129,13 +129,13 @@ Die Sortierung kann über Microsoft SQL Server Management Studio geändert werde
     
 ## <a name="response-group-deployment-steps"></a>Schritte zur Bereitstellung von Reaktionsgruppen
 
-**Bereitstellungsprozess für Reaktionsgruppen**
+**Prozess zur Bereitstellung von Reaktionsgruppen**
 
-|**Phase**|**Schritte**|**Berechtigungen**|**Dokumentation zur Bereitstellung**|
+|**Phase**|**Schritte**|**Berechtigungen**|**Bereitstellungsdokumentation**|
 |:-----|:-----|:-----|:-----|
-|Aktivieren von Benutzern für Skype für Unternehmen und für Enterprise-VoIP  <br/> |Aktivieren von Benutzern, die Agents für Skype für Unternehmen und Enterprise-VoIP. Benutzer müssen aktiviert sein, damit sie Agentgruppen hinzugefügt werden können. Benutzer werden in der Regel während der Enterprise Edition oder Standard Edition-Server-Bereitstellung für Skype für Unternehmen aktiviert. Benutzer werden während der Bereitstellung von Enterprise-VoIP für Enterprise Voice aktiviert.  <br/> |RTCUniversalUserAdmins  <br/> "CsUserAdministrator"  <br/> "Csadministrator"  <br/> |[Aktivieren oder Deaktivieren von Benutzern für Lync Server 2013 Preview](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](enable-users-for-enterprise-voice.md) <br/> |
-|Erstellen und Konfigurieren von Reaktionsgruppen, die aus Agentgruppen, Warteschlangen und Workflows bestehen  <br/> |1. verwenden Sie die Skype für Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell folgende Aktionen ausführen:  <br/> a. Erstellen und Konfigurieren von Agentgruppen  <br/> b. Erstellen und Konfigurieren von Warteschlangen  <br/> 2. optional, verwenden Sie Skype für Business Server-Verwaltungsshell, um vordefinierte Antwort Geschäftszeiten und Feiertage erstellen.  <br/> 3. verwenden das Konfigurationstool für Reaktionsgruppen oder Skype für Business Server-Verwaltungsshell zum Erstellen von Workflows (Sammelanschlüsse oder interaktive Sprachantwort (IVR) Anruf), einschließlich der benutzerdefinierten Antwort Geschäftszeiten und Feiertage.  <br/> Sie können das Konfigurationstool für Reaktionsgruppen über Skype Business Server-Systemsteuerung zugreifen.  <br/> |"RTCUniversalServerAdmins"  <br/> CsResponseGroupAdministrator  <br/> "Csvoiceadministrator"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> CsResponseGroupManager  <br/> |[Erstellen von Agentgruppen für Reaktionsgruppen](http://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Reaktionsgruppenwarteschleifen erstellen](http://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(Optional) Reaktionsgruppe Definieren von Geschäftszeiten in Skype für Business 2015](optional-define-response-group-business-hours.md) <br/> [(Optional) Feiertagssätze in Skype für Business 2015 definieren "Reaktionsgruppe"](optional-define-response-group-holiday-sets.md) <br/> [Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Business 2015](designing-and-creating-response-group-workflows.md) <br/> |
-|(Optional) Anpassen der Einstellungen auf Anwendungsebene  <br/> |Verwenden Sie Skype für Business Server-Verwaltungsshell, um die Standardkonfiguration für die Musik halten, die standardmäßige Musik halten Audiodatei, die Agents bei Kulanzfrist und der anrufkontextkonfiguration anzupassen.  <br/> |"RTCUniversalServerAdmins"  <br/> CsResponseGroupAdministrator  <br/> "Csvoiceadministrator"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> |[Verwalten von reaktionsgruppeneinstellungen auf Anwendungsebene in Skype für Business 2015](managing-application-level-response-group-settings.md) <br/> |
+|Aktivieren von Benutzern für Skype für Unternehmen und für Enterprise-VoIP  <br/> |Aktivieren von Benutzern, die Agents für Skype für Unternehmen und Enterprise-VoIP. Benutzer müssen aktiviert sein, damit sie Agentgruppen hinzugefügt werden können. Benutzer werden in der Regel während der Enterprise Edition oder Standard Edition-Server-Bereitstellung für Skype für Unternehmen aktiviert. Benutzer werden während der Bereitstellung von Enterprise-VoIP für Enterprise Voice aktiviert.  <br/> |RTCUniversalUserAdmins  <br/> "CsUserAdministrator"  <br/> "Csadministrator"  <br/> |[Aktivieren oder Deaktivieren von Benutzern für Lync Server 2013 Preview](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server](enable-users-for-enterprise-voice.md) <br/> |
+|Erstellen und Konfigurieren von Reaktionsgruppen, die aus Agentgruppen, Warteschlangen und Workflows bestehen  <br/> |1. verwenden Sie die Skype für Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell folgende Aktionen ausführen:  <br/> a. Erstellen und Konfigurieren von Agentgruppen  <br/> b. Erstellen und Konfigurieren von Warteschlangen  <br/> 2. optional, verwenden Sie Skype für Business Server-Verwaltungsshell, um vordefinierte Antwort Geschäftszeiten und Feiertage erstellen.  <br/> 3. verwenden das Konfigurationstool für Reaktionsgruppen oder Skype für Business Server-Verwaltungsshell zum Erstellen von Workflows (Sammelanschlüsse oder interaktive Sprachantwort (IVR) Anruf), einschließlich der benutzerdefinierten Antwort Geschäftszeiten und Feiertage.  <br/> Sie können das Konfigurationstool für Reaktionsgruppen über Skype Business Server-Systemsteuerung zugreifen.  <br/> |"RTCUniversalServerAdmins"  <br/> CsResponseGroupAdministrator  <br/> "Csvoiceadministrator"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> CsResponseGroupManager  <br/> |[Erstellen von Agentgruppen für Reaktionsgruppen](http://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Reaktionsgruppenwarteschleifen erstellen](http://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(Optional) Reaktionsgruppe Definieren von Geschäftszeiten in Skype für Unternehmen](optional-define-response-group-business-hours.md) <br/> [(Optional) Definieren von Reaktionsgruppe feiertagssätze in Skype für Unternehmen](optional-define-response-group-holiday-sets.md) <br/> [Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Unternehmen](designing-and-creating-response-group-workflows.md) <br/> |
+|(Optional) Anpassen der Einstellungen auf Anwendungsebene  <br/> |Verwenden Sie Skype für Business Server-Verwaltungsshell, um die Standardkonfiguration für die Musik halten, die standardmäßige Musik halten Audiodatei, die Agents bei Kulanzfrist und der anrufkontextkonfiguration anzupassen.  <br/> |"RTCUniversalServerAdmins"  <br/> CsResponseGroupAdministrator  <br/> "Csvoiceadministrator"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> |[Verwalten von reaktionsgruppeneinstellungen auf Anwendungsebene in Skype für Unternehmen](managing-application-level-response-group-settings.md) <br/> |
 |(Optional) Delegieren der Verwaltung von Reaktionsgruppen  <br/> |Zuweisen von Benutzern die Rolle CsResponseGroupManager zum Delegieren der Konfiguration von reaktionsgruppen. Reaktionsgruppenmanager können Sie die ihnen zugewiesenen reaktionsgruppen konfigurieren.  <br/> |"RTCUniversalServerAdmins"  <br/> CsResponseGroupAdministrator  <br/> "Csvoiceadministrator"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> |[Planen der rollenbasierten Zugriffssteuerung](http://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
 |Überprüfen der Reaktionsgruppenbereitstellung  <br/> |Führen Sie Testanrufe bei den Sammelanschlüssen und IVR-Workflows durch, um sicherzustellen, dass die Konfiguration wie erwartet funktioniert.  <br/> |-  <br/> |-  <br/> |
    

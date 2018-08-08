@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Informationen Sie zum Vorbereiten Ihrer Appliance Cloud-Connector für die Bereitstellung und Verwendung mit Telefonsystem in Office 365 (Cloud, PBX).
-ms.openlocfilehash: 130d593ba94eff9da163363a652bc389b713d1b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 54ee8394c9da5b00e6a9c9afa7d4a1f3419c2f41
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176090"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Vorbereiten der Cloud Connector-Appliance
  
@@ -117,7 +118,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
     Geben Sie den vollständigen Pfad einschließlich Dateinamen zum externen Zertifikat an. Das Zertifikat kann lokal oder in einer Dateifreigabe gespeichert werden. Wenn das Zertifikat in einem freigegebenen Ordner gespeichert ist, wird der freigegebene Ordner muss auf die erste Appliance jeder Website erstellt werden und muss durch andere Geräte, die auf der gleichen Website gehören zugegriffen werden. Dieses Cmdlet kopiert das externe Zertifikat in das **Appliance-Verzeichnis**.
     
     > [!IMPORTANT]
-    > **Wenn Sie Cloud Connector Version 1.4.2 aktualisiert haben oder höher**, sicherzustellen, dass Ihr vorbereitete externe Zertifikat enthält, privaten Schlüssel und die vollständige Zertifikatkette, einschließlich der Stammzertifizierungsstelle und die intermediate Zertifizierungsstelle Zertifikate. > **, wenn Sie haben Noch nicht aktualisierten Cloud Connector Version 1.4.2**, stellen Sie sicher, dass Ihr vorbereitete externe Zertifikat privaten Schlüssel enthält. Dieses externe Zertifikat muss von einer Zertifizierungsstelle ausgestellt sein, der Windows standardmäßig vertraut.
+    > **Wenn Sie auf Cloud Connector, Version 1.4.2 oder höher, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel sowie die vollständige Zertifikatkette einschließlich des Zertifikats der Stammzertifizierungsstelle und der Zertifikate der Zwischenzertifizierungsstellen enthält.  **Wenn Sie noch NICHT auf Cloud Connector, Version 1.4.2, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel enthält. Dieses externe Zertifikat muss von einer Zertifizierungsstelle ausgestellt sein, der Windows standardmäßig vertraut.
   
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Festlegen des Pfads für das externe Zertifikat des PSTN-Gateways/SBC
 
@@ -157,14 +158,14 @@ Führen Sie zum Aktualisieren der Datei zunächst das folgende Cmdlet aus, um di
 Export-CcConfigurationSampleFile
 ```
 
-Die Beispielvorlage wird im **Appliance-Verzeichnis** gespeichert.
+Die Beispielvorlage wird im **Appliance-Verzeichnis** gespeichert. 
   
-Nachdem Sie sie mit den Werten für Ihre Umgebung aktualisiert haben, speichern Sie die Datei als „CloudConnector.ini“ im **Appliance-Verzeichnis**. Führen Sie **Get-CcApplianceDirectory** , um den Pfad zu dem **Verzeichnis Appliance**zu bestimmen.
+Nachdem Sie sie mit den Werten für Ihre Umgebung aktualisiert haben, speichern Sie die Datei als „CloudConnector.ini“ im **Appliance-Verzeichnis**. Sie können **Get-CcApplianceDirectory** ausführen, um den Pfad zum **Appliance-Verzeichnis** zu ermitteln.
   
 Beachten Sie Folgendes beim Aktualisieren der INI-Datei:
   
 > [!NOTE]
-> In diesem Abschnitt werden nicht alle Werte für die INI-Datei besprochen, sondern nur die wichtigsten. Eine vollständige Liste finden Sie im Abschnitt [Determine Bereitstellungsparameter](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) des [Skype für Business Cloud Connector Edition planen](plan-skype-for-business-cloud-connector-edition.md) Thema. > Weitere Informationen dazu, welche Werte für zusätzliche Einheiten oder neue Websites geändert werden müssen, finden Sie unter [ Einzelne Website mit hoher Verfügbarkeit (HA) im Vergleich zu Bereitstellungen mit mehreren Standorten](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) im Thema[mehrere Standorte in der Cloud Connector bereitstellen](deploy-multiple-sites-in-cloud-connector.md). 
+> In diesem Abschnitt werden nicht alle Werte für die INI-Datei besprochen, sondern nur die wichtigsten. Eine vollständige Liste finden Sie im Abschnitt " [Determine Bereitstellungsparameter](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) " neben dem Thema [Skype für Business Cloud Connector Edition planen](plan-skype-for-business-cloud-connector-edition.md) . Weitere Informationen zu den Werten, die Sie für zusätzliche Appliances oder neue Standorte ändern müssen, finden Sie unter [Bereitstellung eines einzelnen Standort mit hoher Verfügbarkeit im Vergleich zur Bereitstellung mehrerer Standorte](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) im Thema [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 - **SiteName:** Der Standardwert lautet **Site1**. Sie müssen ihn aktualisieren, bevor Sie Cloud Connector bereitstellen können. Der Grund: Wenn Sie **Register-CcAppliance** ausführen, um eine Appliance an einem vorhandenen oder neuen Standort zu registrieren, bestimmt das Cmdlet anhand von **SiteName**, welcher Standort registriert werden soll.
     
@@ -175,12 +176,13 @@ Beachten Sie Folgendes beim Aktualisieren der INI-Datei:
 - **HardwareType:** Wenn Sie nicht festgelegt oder lassen Sie den Wert auf NULL festgelegt, wird der Standardwert der **Normal** verwendet werden. Wenn Sie die größere Version von Cloud-Connector zur Unterstützung von 500 gleichzeitige Anrufe pro Hostcomputer wie beschrieben unter [Plan for Skype für Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)bereitstellen möchten, verwenden Sie **Normal** . Verwenden Sie **Minimum** für eine kleinere Bereitstellung, die 50 gleichzeitige Anrufe unterstützt.
     
 - **Virtuelle Switches für Internet/Unternehmensnetzwerk/Verwaltung**: Fügen Sie die Namen der virtuellen Switches hinzu, die Sie erstellt haben. Für den virtuellen Switch für die Verwaltung behalten Sie den Standardwert bei. Das Bereitstellungsskript erstellt den virtuellen Switch für die Verwaltung zu Beginn der Bereitstellung und löscht ihn, sobald die Bereitstellung abgeschlossen ist.
+
     
 - **ManagementIPPrefix:** „ManagementIPPrefix“ im Netzwerkabschnitt muss ein anderes Subnetz als das der anderen internen IPs sein. Beispiel: Der Standardwert für „ManagementIPPrefix“ lautet 192.168.213.0, während die AD-IP-Adresse 192.168.0.238 lautet.
     
     Die Bereitstellungsskripts erstellen auf jedem virtuellen Computer einen Verwaltungs-Netzwerkadapter, weisen eine Verwaltungs-IP zu und verbinden diese mit einem virtuellen Switch für die Verwaltung. Dadurch kann der Hostserver über dieses Verwaltungsnetzwerk eine Verbindung zu jedem virtuellen Computer herstellen und diesen verwalten. Der virtuelle Switch für die Verwaltung wird gelöscht, nachdem die Bereitstellung abgeschlossen ist.
     
-- **Base VM-spezifische Konfigurationen:** Einstellungen in diesem Abschnitt müssen für das Cmdlet **Convert-CcIsoToVhdx** konfiguriert werden.
+- **Spezifische Konfigurationen für die Basis-VM:** Die Einstellungen in diesem Abschnitt müssen für das Cmdlet **Convert-CcIsoToVhdx** konfiguriert werden.
     
     Während der Vorbereitung des Basis-VM-Images wird die Basis-VM mit dem internen Netzwerkswitch verbunden. Die folgenden Einstellungen sind entscheidend, damit die VM auf das Internet zugreifen kann:
     
@@ -306,7 +308,7 @@ Das Konto „CceService“ wird bei der Bereitstellung von Skype for Business Cl
 
 Ein Office 365-Mandanten mit Skype für Business Online und Telefonsystem in Office 365 ist erforderlich. Vergewissern Sie sich Ihrem Mandanten wird eingerichtet und konfiguriert haben, bevor Sie versuchen, Cloud-Connector verwenden.
   
-Einige Office 365 Setupschritte müssen Sie Mandanten Remote PowerShell (TRPS) verwenden, um Ihre Office 365-Mandanten zu konfigurieren. **Die Installation sollte auf dem Hostserver erfolgen.** Sie können die Skype Business Online-Modul für PowerShell aus herunterladen:[Skype für Online Business Windows PowerShell-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Einige Office 365 Setupschritte müssen Sie Mandanten Remote PowerShell (TRPS) verwenden, um Ihre Office 365-Mandanten zu konfigurieren. **Die Installation sollte auf dem Hostserver erfolgen.** Sie können die Skype Business Online-Modul für PowerShell aus herunterladen: [Skype für Online Business Windows PowerShell-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
   
 Erstellen Sie einen dedizierten Skype für Business-Administratorkonto für die Cloud Connector online-Verwaltung, beispielsweise CceOnlineManagmentAdministrator. Dieses Konto wird von der Appliance verwendet, um eine Appliance hinzuzufügen oder zu entfernen, automatische Betriebssystemaktualisierung zu aktivieren oder zu deaktivieren oder automatische Binärdateiaktualisierung zu aktivieren oder zu deaktivieren. Legen Sie das Kennwort für dieses Konto so fest, dass es nie abläuft, damit Sie es nicht jedes Mal für den Dienst ändern müssen, wenn es abläuft.
   

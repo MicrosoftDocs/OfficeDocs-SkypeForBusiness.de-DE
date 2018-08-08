@@ -3,7 +3,6 @@ title: Anforderungen an den Lastenausgleich für Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: 'Zusammenfassung: Überprüfen Sie den Lastenausgleich Überlegungen vor der Implementierung von Skype für Business Server 2015.'
-ms.openlocfilehash: 5d5c1c58746fe9656a0eb123d211ed5b3f330063
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Überprüfen Sie den Lastenausgleich Überlegungen vor der Implementierung von Skype für Business Server.'
+ms.openlocfilehash: c1b9069d13111955e3957dc0bd199ac0a163fd1a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976478"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Anforderungen an den Lastenausgleich für Skype for Business
  
-**Zusammenfassung:** Überprüfen Sie den Lastenausgleich Überlegungen vor der Implementierung von Skype für Business Server 2015.
+**Zusammenfassung:** Überprüfen Sie den Lastenausgleich Überlegungen vor der Implementierung von Skype für Business Server.
   
 Der Lastenausgleich verteilt Datenverkehr zwischen den Servern in einem Pool. Wenn Sie Front-End-Pools, edgeserverpools oder vermittlungsserverpools haben, müssen Sie für den Lastenausgleich für diese Pools bereitstellen.
   
@@ -59,7 +59,7 @@ Die Skype für eine skalierte Business Server für einen konsolidierten Edgeserv
 > [!NOTE]
 > Direct Server Return (DSR) NAT wird mit Skype für Business Server nicht unterstützt. 
   
-Um zu bestimmen, ob Ihr Hardwaregerät zum Lastenausgleich die benötigten Features von Skype für Business Server unterstützt, finden Sie unter [Infrastruktur für Skype für Unternehmen](https://technet.microsoft.com/en-us/office/dn947483).
+Um zu bestimmen, ob Ihr Hardwaregerät zum Lastenausgleich die benötigten Features von Skype für Business Server unterstützt, finden Sie unter [Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Edgeserver, auf denen der A/V-Edgedienst ausgeführt wird
 
@@ -109,7 +109,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
 > F5-Hardwaregeräte zum Lastenausgleich sind mit einer Funktion namens OneConnect ausgestattet, mit der sichergestellt wird, dass für jede Anforderung in einer TCP-Verbindung ein individueller Lastenausgleich vorgenommen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass der Hersteller des Hardwaregeräts für den Lastenausgleich dieselbe Funktion unterstützt. Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich. F5 stellt hierfür bestimmte Einstellungen bereit. 
   
 > [!CAUTION]
-> Ausführliche Informationen zum Drittanbieter Hardwaregeräte zum Lastenausgleich finden Sie unter [Infrastruktur für Skype für Unternehmen](https://technet.microsoft.com/en-us/office/dn947483). 
+> Ausführliche Informationen zum Drittanbieter Hardwaregeräte zum Lastenausgleich finden Sie unter [Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Director- und Front-End-Pool-Webdienste aufgeführt:
   
@@ -121,7 +121,7 @@ Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Las
     
 ### <a name="summary-of-hardware-load-balancer-affinity-requirements"></a>Zusammenfassung der Affinitätsanforderungen an das Hardwaregerät zum Lastenausgleich
 
-|**Client-/Benutzerstandort**|**Externen Webdienste-FQDN affinitätsanforderungen an den**|**Interne Webdienste-FQDN affinitätsanforderungen an den**|
+|**Client-/Benutzerstandort**|**Affinitätsanforderungen an den externen Webdienste-FQDN**|**Affinitätsanforderungen an den internen Webdienste-FQDN**|
 |:-----|:-----|:-----|
 |Lync Web App (interne und externe Benutzer)  <br/> Mobiles Gerät (interne und externe Benutzer)  <br/> |Keine Affinität  <br/> |Quelladressenaffinität  <br/> |
 |Lync Web App (nur externe Benutzer)  <br/> Mobiles Gerät (interne und externe Benutzer)  <br/> |Keine Affinität  <br/> |Quelladressenaffinität  <br/> |
@@ -133,14 +133,14 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
   
 **Front-End-Server-Benutzerpool – interne HLB-Schnittstelle**
 
-|**Virtuelle IP-Adresse/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<Pool\>Web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-End  <br/> 5061  <br/> |Quelle  <br/> |HTTPS  <br/> |
 |\<Pool\>Web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-End  <br/> 5061  <br/> |Quelle  <br/> |HTTP  <br/> |
    
 **Front-End-Server-Benutzerpool – externe HLB-Schnittstelle**
 
-|**Virtuelle IP-Adresse/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<Pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Keine  <br/> |HTTPS  <br/> |
 |\<Pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Keine  <br/> |HTTP  <br/> |
@@ -151,6 +151,12 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 Skype für Business Server ermöglicht DNS-Lastenausgleich, eine Software-Lösung, die die Verwaltung Wartungsaufwand für den Lastenausgleich in Ihrem Netzwerk erheblich beeinträchtigen können. DNS-Lastenausgleich gleicht den Netzwerkdatenverkehr, der für Skype für Business Server, wie etwa SIP-Datenverkehr und der Mediendatenverkehr eindeutig ist.
   
 Wenn Sie die DNS-Lastenausgleich bereitstellen, wird Ihre Organisation Administration Wartungsaufwand für Hardwaregeräte zum Lastenausgleich minimiert. Darüber hinaus entfällt die komplexe Problembehandlung zur Beseitigung von Fehlern, die durch eine falsche Konfiguration des Lastenausgleichs für SIP-Datenverkehr entstehen. Zudem können Sie Serververbindungen verhindern, sodass Sie Server offline schalten können. Der DNS-Lastenausgleich stellt ferner sicher, dass durch Hardwarelastenausgleich hervorgerufene Probleme sich nicht auf den SIP-Datenverkehr, etwa auf die grundlegende Anrufweiterleitung, auswirken.
+
+Das folgende Diagramm zeigt ein Beispiel, das sowohl interne und externe DNS-Lastenausgleich: 
+  
+**Diagramm eines Edgenetzwerks, in dem öffentliche IPv4-Adressen verwendet werden**
+
+![Beispiel eines DNS-Netzwerkdiagramms](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 Wenn Sie DNS-Lastenausgleich verwenden, können Sie möglicherweise auch kostengünstigere Hardwaregeräte zum Lastenausgleich anschaffen, da diese nicht für alle Arten von Datenverkehr eingesetzt werden müssen. Sie sollten den Systemen zum Lastenausgleich verwenden, die Interoperabilität Qualifikation Testen mit Skype für Business Server übergeben haben. Ausführliche Informationen zur Interoperabilität das Testen des Lastenausgleichs finden Sie unter [Lync Server 2010 Load Balancer Partners](https://go.microsoft.com/fwlink/p/?linkId=202452). Der Inhalt es gilt für Skype für Business Server.
   
@@ -160,7 +166,7 @@ DNS-Lastenausgleich wird in der Regel auf der Anwendungsebene implementiert. Die
   
 Wenn z. B. drei Front-End-Server im Pool „pool01.contoso.com“ vorhanden sind, werden folgende Schritte ausgeführt:
   
-- Clients, auf denen Skype für Unternehmen DNS-Abfrage für "pool01.contoso.com". Die Abfrage gibt drei IP-Adressen und speichert diese wie folgt (nicht unbedingt in dieser Reihenfolge):
+- Clients, auf denen Skype für Unternehmen DNS-Abfrage für "pool01.contoso.com". Die Anfrage gibt drei IP-Adressen zurück und speichert diese wie folgt im Zwischenspeicher (nicht unbedingt in dieser Reihenfolge):
     
     "pool01.contoso.com" 192.168.10.90
     

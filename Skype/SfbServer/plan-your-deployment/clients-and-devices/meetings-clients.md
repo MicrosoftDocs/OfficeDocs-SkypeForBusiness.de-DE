@@ -13,30 +13,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: 'Zusammenfassung: IT-Experten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App sollten beim Planen von Skype für Business Server 2015. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.'
-ms.openlocfilehash: 1e843f0f6ba5d25958f4396c272d97943445239f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Zusammenfassung: IT-Experten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App sollten beim Planen von Skype für Business Server. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.'
+ms.openlocfilehash: f0fbf6cfec073ba3fdd25bdd4cb87c458144d3b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009680"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungen-Clients (Web App und Besprechungen App)
  
-**Zusammenfassung:** IT-Experten sollten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App beim Planen von Skype für Business Server 2015 überprüfen. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.
+**Zusammenfassung:** IT-Experten sollten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App beim Planen von Skype für Business Server überprüfen. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.
   
 Nachdem Sie Skype für Business Server implementiert haben, müssen Benutzer Ihrer Organisation vermutlich die Skype für Business-Client als Teil des Bereitstellungsprozesses installiert. 
   
 Höher auf diejenigen Benutzer können Besprechungen erstellen und Benutzer von außerhalb der Organisation einladen, und diese Besprechung eingeladen wurden möglicherweise keine Versionen von der Skype für Business-Client. Wenn diese Benutzer auf die URL für die Besprechung einladen klicken, der Mangel an einen Client wird erkannt, und ohne einen Skype für Business Client eingeladene Benutzer werden aufgefordert, Client herunterladen und installieren einen kompakten, Besprechungen nur so, dass sie die Besprechung beitreten können.
   
 > [!NOTE]
-> Die Skype für Business Web App und Skype Besprechungen App sind nur verfügbar, wenn Sie versuchen, einer Besprechung anzumelden, ohne dass eine Skype für Unternehmen. Benutzerhilfe für diese apps wird unter [https://aka.ms/smahelp](https://aka.ms/smahelp). 
+> Die Skype für Business Web App und Skype Besprechungen App sind nur verfügbar, wenn Sie versuchen, einer Besprechung anzumelden, ohne dass Skype für Unternehmen. Benutzerhilfe für diese apps wird unter [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
 > Sie können für Business Web App oder Skype Besprechungen App entweder die Skype nicht vor dem installieren, aber [Smartphone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) und [Tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) -Benutzer möglicherweise kostengünstigen mobilen Clients installieren, die sie für die Teilnahme an Besprechungen verwenden können.
   
 Standardmäßig wird der Hostserver für die Besprechung weisen Sie den Benutzer zum Herunterladen und Installieren von Skype für Business Web App an der Besprechung teilnehmen. Die Skype für Web-Geschäfts-App auf dem Front-End-Server gespeichert ist und ruft an Besprechungsteilnehmer gesendet. 
   
-Skype für Business Server CU5 ab, Skype Besprechungen App ist als Ersatz für Skype für Web-Geschäfts-App verfügbar, aber in [Aktivieren Skype Besprechungen App Skype für ersetzen beschriebene zusätzliche Konfiguration erfordert die Skype Besprechungen App bereitstellen Web-Geschäfts-App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Skype-Besprechungen App aktiviert ist, wird die neueste Version der app aus der Office 365 Content Delivery Network (CDN) und nicht aus Ihrer Skype für Business Server herunterladen werden.
+Für Skype für Business Server 2015 Skype Besprechungen App steht als Ersatz für Skype für Web-Geschäfts-App mit CU5 beginnt, aber in [Aktivieren Skype Besprechungen App ersetzen beschriebene zusätzliche Konfiguration erfordert die Skype Besprechungen App bereitstellen Skype für Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Skype-Besprechungen App aktiviert ist, wird die neueste Version der app aus der Office 365 Content Delivery Network (CDN) und nicht aus Ihrer Skype für Business Server herunterladen werden. Für Skype für Business Server 2019 Skype Besprechungen App ist die einzige Option.
   
 Skype-Besprechungen App bietet eine vereinfachte Browserumgebung zum Herunterladen und Installieren der app und teilnehmen an Besprechungen, einschließlich per Mausklick Join für Benutzer von Internet Explorer. Skype-Besprechungen App hat auch zahlreichen Verbesserungen TheSkype für Web-Geschäfts-App für Zuverlässigkeit und die besprechungsumgebung. 
   
@@ -86,7 +87,7 @@ Die Anforderungen an die Computerhardware sind vom Betriebssystem und vom Browse
 ## <a name="network-requirements"></a>Netzwerkanforderungen
 <a name="Network"> </a>
 
-Wenn ein Benutzer von Skype für Business Web App oder Skype Besprechungen App Erfahrungen meeting Verbindungsproblemen, sind wahrscheinlich, dass ihre Organisation Netzwerkinfrastruktur zur Unterstützung von Office 365 nicht konfiguriert ist, wie beschrieben in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). Dies ist der Fall, ob die Besprechung von einem Benutzer von Skype für Business Online oder Skype für Business Server 2015 erstellt wurde. 
+Wenn ein Benutzer von Skype für Business Web App oder Skype Besprechungen App Erfahrungen meeting Verbindungsproblemen, sind wahrscheinlich, dass ihre Organisation Netzwerkinfrastruktur zur Unterstützung von Office 365 nicht konfiguriert ist, wie beschrieben in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). Dies ist der Fall, ob die Besprechung für Business Server von einem Benutzer von Skype für Business Online oder Skype erstellt wurde. 
   
 Wenn der Benutzer ist in einem Netzwerk nicht wie beschrieben konfiguriert, viele app Features oder funktionieren möglicherweise nicht und sie möglicherweise nicht zur Besprechung überhaupt eine Verbindung herstellen.
   
@@ -95,10 +96,10 @@ Wenn der Benutzer ist in einem Netzwerk nicht wie beschrieben konfiguriert, viel
 
 Die folgende Tabelle vergleicht die besprechungsfunktionen für Benutzer des Skype für Business-Client, der Skype für Web-Geschäfts-App, Skype Besprechungen App und Lync Web App. Lync Web App wird zu Vergleichszwecken Feature aufgelistet: ein Benutzer würde nur herunterladen und Lync Web App verwenden, wenn die Besprechung auf einem Lync 2013-Server gehostet wurde.
 
-| Feature/Funktion | Skype für Business 2016-client | Skype für Unternehmen auf Mac-client | Skype-Besprechungs-App | Skype for Business Web App | Lync Web App |
+| Feature/Funktion | Skype für Business 2016 oder 2019 client | Skype für Unternehmen auf Mac-client | Skype-Besprechungs-App | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Computeraudio hinzufügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
-|Video hinzufügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
+|Computeraudio hinzufügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (erfordert plug-in)  <br/> |& #x 2714; (erfordert plug-in)  <br/> |& #x 2714; (erfordert plug-in)  <br/> |
+|Video hinzufügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (erfordert plug-in)  <br/> |& #x 2714; (erfordert plug-in)  <br/> |& #x 2714; (erfordert plug-in)  <br/> |
 |Audio für authentifizierte Teilnehmer zu einem Telefon wechseln  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Audio für Gastteilnehmer zu einem Telefon wechseln  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
 |Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -158,24 +159,13 @@ Für die Endbenutzer ist die [online-Hilfe](https://aka.ms/smahelp) für diese a
     
 - Sie können zum [Aktivieren von JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) in Ihrem Browser für einige Skype für Business Web App-Funktionen erwartungsgemäß unterstützen müssen.
     
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Kryptografische Anforderungen aufgrund von ASP .NET 4.5
+### <a name="aes-support"></a>AES-Unterstützung 
 
-Ab Skype für Business Server 2015 CU5 AES für ASP.NET 4.6 nicht unterstützt wird, und dadurch kann Skype Besprechungen App zu einem Fehler beim Starten. Wenn ein Client AES als Wert Schlüssel-Überprüfung Computer verwendet wird, Sie den Schlüsselwert Computer auf SHA-1 oder eine andere unterstützte Algorithmus auf Standortebene Skype Besprechungen App auf IIS zurückzusetzen müssen. Falls erforderlich, finden Sie unter [IIS 8.0 ASP.NET Configuration Management](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) Anweisungen.
-  
-Weitere unterstützte Werte:
-  
-- HMACSHA256
-    
-- HMACSHA384
-    
-- HMACSHA512
-    
- Die Werte AES, 3DES und MD5 nicht mehr zulässig sind, wie sie einmal in ASP.NET 4 waren. [Kryptografische Verbesserungen in ASP.NET 4.5 Pkt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) hat weitere Details.
+Ab Skype für Business Server 2015 CU5 AES für ASP.NET 4.6 nicht unterstützt wird, und dadurch kann Skype Besprechungen App zu einem Fehler beim Starten. [Kryptografische Anforderungen aufgrund von ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) hat weitere Details.
   
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="BKMK_Conferencing"> </a>
 
-#### 
-[Bereitstellen von herunterladbaren Webclients in Skype für Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Bereitstellen Sie herunterladbare Webclients in Skype für Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Unterstützte Plattformen für Skype Besprechungen App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

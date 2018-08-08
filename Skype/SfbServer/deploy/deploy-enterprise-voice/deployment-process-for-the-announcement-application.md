@@ -1,9 +1,8 @@
 ---
-title: Bereitstellungsprozess für die Ansageanwendung in Skype for Business 2015
+title: Bereitstellungsprozess für die ansageanwendung in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Bereitstellungsprozess und Schritte für die ansageanwendung in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 08a52569dede43bbe54b1bf7e62f37114ba68853
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6aabc5090d233b991e1fd89ef61f364a6b1c5666
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968913"
 ---
-# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server-2015"></a>Bereitstellungsprozess für die Ansageanwendung in Skype for Business 2015
+# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Bereitstellungsprozess für die ansageanwendung in Skype für Business Server
  
 Bereitstellungsprozess und Schritte für die ansageanwendung in Skype für Business Server Enterprise-VoIP.
   
@@ -32,9 +32,9 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte zum Bereitstellen d
   
 **Bereitstellungsprozess für Ansagen**
 
-|**Phase**|**Schritte**|**Rollen**|**Dokumentation zur Bereitstellung**|
+|**Phase**|**Schritte**|** Rollen**|**Bereitstellungsdokumentation**|
 |:-----|:-----|:-----|:-----|
-|Konfigurieren von Ansageeinstellungen  <br/> | Erstellen Sie die Ansage durch Aufzeichnen und Hochladen von Audiodateien oder unter Verwendung der Text-zu-Sprache-Funktion (TTS) <br/>  Konfigurieren Sie die Bereiche nicht zugewiesener Nummern in der Tabelle nicht zugewiesener Nummern und ordnen Sie diese Bereiche der geeigneten Ansage zu. <br/> |"RTCUniversalServerAdmins"  <br/> "Csvoiceadministrator"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> CsViewOnlyAdministrator  <br/> |[Erstellen oder Löschen einer Ankündigung in Skype für Business Server 2015](create-an-announcement.md) <br/> [Erstellen Sie oder ändern Sie einen Bereichs nicht zugewiesenen Nummern in Skype für Business Server 2015](create-or-modify-an-unassigned-number-range.md) <br/> |
-|Überprüfen Ihrer Bereitstellung von Ansagen  <br/> |Testen Sie die Wiedergabe von Ansagen, um zu überprüfen, ob Ihre Konfiguration das erwartete Verhalten aufweist.  <br/> |-  <br/> |[(Optional) Überprüfen der ansagebereitstellung in Skype für Business 2015](optional-verify-announcement-deployment.md) <br/> |
+|Konfigurieren von Ansageeinstellungen  <br/> | Erstellen Sie die Ansage durch Aufzeichnen und Hochladen von Audiodateien oder unter Verwendung der Text-zu-Sprache-Funktion (TTS) <br/>  Konfigurieren Sie die Bereiche nicht zugewiesener Nummern in der Tabelle nicht zugewiesener Nummern und ordnen Sie diese Bereiche der geeigneten Ansage zu. <br/> |"RTCUniversalServerAdmins"  <br/> "Csvoiceadministrator"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> CsViewOnlyAdministrator  <br/> |[Erstellen oder Löschen einer Ankündigung in Skype für Business Server](create-an-announcement.md) <br/> [Erstellen Sie oder ändern Sie einen Bereichs nicht zugewiesenen Nummern in Skype für Business Server](create-or-modify-an-unassigned-number-range.md) <br/> |
+|Überprüfen Ihrer Bereitstellung von Ansagen  <br/> |Testen Sie die Wiedergabe von Ansagen, um zu überprüfen, ob Ihre Konfiguration das erwartete Verhalten aufweist.  <br/> |-  <br/> |[(Optional) Überprüfen der ansagebereitstellung in Skype für Unternehmen](optional-verify-announcement-deployment.md) <br/> |
    
 

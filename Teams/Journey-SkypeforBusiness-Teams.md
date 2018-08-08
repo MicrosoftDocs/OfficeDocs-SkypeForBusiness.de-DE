@@ -1,53 +1,59 @@
 ---
-title: Reise von Skype for Business zu Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Skype für Unternehmen so aktualisieren Sie Microsoft-Teams
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: MyAdvisor, dearbeen
-description: Hier erfahren Sie alles, was Sie über die Reise von Skype for Business Online zu Microsoft Teams wissen müssen.
+ms.reviewer: dearbeen
+description: Verwenden Sie ein bewährt Framework, um Ihrer Organisation Upgrade Weg von Skype für Unternehmen Teams
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 1cb5d785df33059fa26c4a081b3ebef70540d65b
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145284"
 ---
-<a name="journey-from-skype-for-business-to-microsoft-teams"></a>Reise von Skype for Business zu Teams
-==================================================
-
-Ein Teil der [Vision von Microsoft für intelligentere Kommunikation](https://aka.ms/intelligentcommunicationsblog) zielt darauf ab, hochwertigere Anruf- und Besprechungsfunktionen bereitzustellen. Um dieses Ziel zu erreichen, integrieren wir Skype for Business-Funktionen in Teams. Dies wird im Lauf der Zeit geschehen, und letztendlich wird Teams der einzige Client sein. Da Sie ein wertvoller Skype for Business-Kunde sind, bietet Ihnen Microsoft Unterstützung bei allen Stationen Ihrer Reise zu Teams an. Wir wissen, dass Veränderungen ihre Zeit brauchen. Daher laden wir Sie ein, noch heute mit der Erkundung von Teams zu beginnen und den Mehrwert von Teams für Ihre Organisation zu ermitteln. Dabei können Sie Skype for Business problemlos weiterverwenden. 
-
-In der [Produktroadmap für Teams](https://aka.ms/TeamsRoadmap) können Sie sich über die geplanten Neuerungen in Teams informieren, damit Sie über den besten Zeitpunkt für den Wechsel Ihrer Organisation zu Teams entscheiden können.
-
-Eine andere gute Möglichkeit, sich über das Neueste zur Reise von Skype for Business zu Microsoft Teams auf dem Laufenden zu halten, ist die [Roadmap für die Funktionen von Skype for Business in Microsoft Teams](https://aka.ms/skype2teamsroadmap). In dieser herunterladbaren PDF-Datei (zumindest vorerst nur auf Englisch verfügbar) erfahren Sie, wie Microsoft zurzeit die Integration von Skype for Business-Funktionen in Microsoft Teams plant.
-
-Um optimale Ergebnisse zu erzielen, empfehlen wir Ihnen, die Verfahren in den folgenden Anleitungen in der genannten Reihenfolge zu befolgen:
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype für Unternehmen so aktualisieren Sie Microsoft-Teams
 
 
-[1 - Optimieren Sie Ihre aktuelle Skype for Business-Umgebung für Microsoft Teams](prepare-teams.md)
+Unterstützung von Microsoft intelligenten Communications Vision, ist Microsoft-Teams, die zentrale Plattform für die Zusammenarbeit, Chat, Besprechungen, Anrufe, für die Zusammenarbeit, app-Integration und Dateispeicher, da es Menschen und. Als eine vorhandene Skype für Unternehmenskunden sind Sie eingeladen eines Upgrades auf Microsoft-Teams, diese umfassendes, Kommunikation und Zusammenarbeit-Funktionen in einem einzigen Client arbeiten-Umgebung zu bieten.
 
-[2 - Fördern Sie neben Skype for Business die Akzeptanz von Teams](pilot-essentials.md)
+Ihre Upgrade Reise kann eine Weile dauern, und wir zur Unterstützung von jedem Schritt den Weg. Ob Sie sind nur erste Schritte mit Verwendung bereits für Unternehmen, Teams zusammen mit Skype-Teams oder bereit zur Aktualisierung, wir hart arbeiten schalten Sie die richtige Ebene der Anleitung für Ihre Organisation und Fördern Sie die nächsten Schritte zur Realisierung beginnen die Wert Teams können Ihrem Unternehmen bieten.
 
-[3 - upgrade Reise und Koexistenz von Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+Zeigen Sie in dieser [Übersicht über](https://aka.ms/UpgradeOverview) eine Einführung in die Skype für Unternehmen zu Teams Upgrade Weg, einschließlich zentrale Konzepte, Framework und Upgradepfade an.
 
-[4 - Erzielen Sie eine höhere Wertschöpfung durch Benutzerakzeptanz](continue-journey.md)
+## <a name="upgrade-journey-framework"></a>Upgrade Reise-framework
+
+Mit denen die umständliche Ihrer Reise Upgrade dauern, haben wir eine bewährt Framework für gesteuerter ändern, beschäftigt, Leitfäden, Tipps und Ressourcen in der gesamten einbinden. Auf dem vorherigen und optimale Ergebnisse zu jedem Schritt erstellt wurde, empfehlen wir die Schritte unter Reihenfolge.
+
+Wie unten dargestellt, zunächst ein erfolgreiches Upgrade bringt genau das richtige Team zusammen und in der Phase Projektbeteiligten und verschieben klicken Sie dann auf Projektdefinition, in dem Umfang, Ziele und Zeitachse verfestigte sind. Auf diese Weise erstellen Sie eine solide Grundlage für Ihre Upgrade Weg. Von dort ist es wichtig, sowohl die technischen Bereitschaft _und_ User Readiness Phasen Vorbereitung, bevor Sie mit der Bereitstellung und Implementierung fortfahren. Planen eines Pilotprojekts Bereitschaft, bevor Sie eine umfassende Einführung zu überprüfen. Maximale Leistung während der Phase erstklassige Betriebsprozesse Einrichten eines Plans, das überwacht werden, für die Qualität und beschleunigt Benutzerakzeptanz.
+
+> [!Tip]
+> Damit Ihre Upgrade Reise Navigation gewährleistet ist, suchen Sie nach dieser Grafik auf verwandte Seiten zum Identifizieren, wo Sie in dem Prozess befinden. ![Sicherstellen, dass das Projekt für den Erfolg mit dem richtigen Projektteam eingerichtet ist. Definieren der Umfang, Ziele und Zeitachse. Vergewissern Sie sich technische und User Readiness. Führen Sie Ihrem Bereitstellungsplan. Verwalten von Momentum, um die Ergebnisse zu maximieren.] (media/upgrade-banner-main.png "Sicherstellen, dass das Projekt für den Erfolg mit dem richtigen Projektteam eingerichtet ist. Definieren der Umfang, Ziele und Zeitachse. Vergewissern Sie sich technische und User Readiness. Führen Sie Ihrem Bereitstellungsplan. Verwalten von Momentum, um die Ergebnisse zu maximieren.")
+
+## <a name="to-get-started"></a>Erste Schritte beim...
+
+Wir wissen, dass Kunden Stange gibt es nicht. Flexibilität, haben wir das Framework in zwei Pfade organisiert: grundlegende aktualisieren und Pro aktualisieren. Wählen Sie die Reise, die Anforderungen Ihrer Organisation am besten erfüllt.
+
+Wählen Sie eine der folgenden Optionen aus, oder Erkunden Sie beide, um den optimalen Pfad für Sie zu bestimmen. Weitere Informationen kommt online im Laufe der Zeit zurück, während Ihrer Organisation auf dem Weg Teams weiterhin so zu überprüfen. Um uns besser zu verstehen Ihrer Upgradepfad und welche weiteren Anleitungen hilfreich sein kann, sollten Sie einen Moment, bis <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">Ihr Feedback freigeben</a>.
 
 
- 
-### <a name="see-also"></a>Siehe auch
-[Tutorial: Reise von Skype for Business zu Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-
-[Häufig gestellte Fragen – Vision von Skype for Business & Teams](FAQ-journey.md)
-
-[Wegweiser für Microsoft-Teams](https://aka.ms/teamsroadmap)
-
-[Von Skype for Business zu Microsoft Teams: Roadmap der Funktionen](https://aka.ms/skype2teamsroadmap)
-
+<div class="mx-tableFixed">
+<table>
+<tbody>
+<tr><td><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-basic"><img src="media/upgrade-to-teams-upgrade-basic-icon.png" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
+<td>
+<a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
+</tbody></table>
+</div>
 
 
-
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

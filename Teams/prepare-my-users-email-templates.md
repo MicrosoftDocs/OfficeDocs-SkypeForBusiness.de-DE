@@ -2,20 +2,22 @@
 title: Benutzer Annahme e-Mail-Vorlagen für Microsoft-Teams oder Skype für Business Einführungen
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Verwenden von Vorlagen zum Senden von e-Mails, die den Benutzer implementieren Cloud Voice-Funktionen in Teams oder Skype für Unternehmen.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e3ba28ef4e2e8eca93a7c1b8b11d25ea898f39b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 22ef253084427e4eb5a61505726a3dccf5f4fbb5
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694826"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Vereinfachen Sie Ihr neues online Telefonsystem – Akzeptanz
 

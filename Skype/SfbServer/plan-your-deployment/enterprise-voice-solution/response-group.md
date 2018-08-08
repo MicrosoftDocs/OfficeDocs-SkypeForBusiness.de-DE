@@ -1,9 +1,8 @@
 ---
-title: Planen der Reaktionsgruppenanwendung in Skype for Business Server 2015
+title: Plan für die Anwendung "Reaktionsgruppe" in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planen von reaktionsgruppen in Skype für Business Server Enterprise-VoIP, ermöglicht Ihnen die Anrufrouting für Benutzergruppen einrichten. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
-ms.openlocfilehash: 628126cfc3815dfabdf0e73c962e8dcff326b416
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4fbdfd1428d66865f3f704c4005935deefd370f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970184"
 ---
-# <a name="plan-for-the-response-group-application-in-skype-for-business-server-2015"></a>Planen der Reaktionsgruppenanwendung in Skype for Business Server 2015
+# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Plan für die Anwendung "Reaktionsgruppe" in Skype für Business Server
  
 Planen von reaktionsgruppen in Skype für Business Server Enterprise-VoIP, ermöglicht Ihnen die Anrufrouting für Benutzergruppen einrichten. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
   
@@ -58,9 +58,9 @@ Um die Rolle Manager zu unterstützen, verwendet reaktionsgruppenanwendung einen
    
 In der folgenden Tabelle werden die Aktionen beschrieben, die Reaktionsgruppen-Manager und der ihnen zugewiesenen reaktionsgruppen kann nicht ausgeführt werden können.
   
-**Reaktionsgruppenmanager**
+**Funktionen der Reaktionsgruppenmanager**
 
-|**Konfigurieren können:**|**Können erstellen, löschen oder konfigurieren:**|**Nicht möglich:**|
+|**Konfiguration von:**|**Erstellen, Löschen, Konfigurieren von:**|**Nicht möglich:**|
 |:-----|:-----|:-----|
 | Agents <br/>  Willkommensnachrichten <br/>  Antwort Gruppenname <br/>  Beschreibung <br/>  Anzeigenummer <br/>  Geschäftszeiten <br/>  Wartemusik <br/>  Status (aktiv/inaktiv) <br/>  Workflows für Sammelanschlüsse oder für Interaktive Sprachantwort (Interactive Voice Response, IVR) <br/> | Agentgruppen <br/>  Warteschleifen <br/>  Feiertagssätze <br/> | Erstellen oder Löschen beliebiger Workflowtypen <br/>  Ändern grundlegender Reaktionsgruppeneinstellungen wie **SIP-URI**, **Telefonnummer** oder **Workflowtyp**.  <br/> |
    
@@ -204,7 +204,7 @@ Die folgende Tabelle beschreibt das Reaktionsgruppe Benutzermodell, das Sie als 
   
 **Benutzermodell für Reaktionsgruppen**
 
-|**Metrik**|**Pro Enterprise Edition-Pool <br/> (mit 8 Front-End-Servern)**|**Pro Standard Edition-server**|
+|**Metrik**|**Pro Enterprise Edition-Pool <br/> (mit 8 Front-End-Servern)**|**Pro Standard Edition-Server**|
 |:-----|:-----|:-----|
 |Eingehende Anrufe pro Sekunde  <br/> |16  <br/> |2  <br/> |
 |Gleichzeitige mit interaktiver Sprachantwort (IVR) oder Wartemusik (MoH) verbundene Anrufe  <br/> |480  <br/> |60  <br/> |

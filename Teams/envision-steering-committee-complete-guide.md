@@ -1,128 +1,130 @@
 ---
-title: Steering committee for Microsoft Teams cloud voice deployment
+title: Lenkungsausschuß für Microsoft-Teams, Cloud-VoIP-Bereitstellung
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers.
+description: Identifizieren der Verantwortlichen und Projektleiter zum Identifizieren der Bereitstellungsziele, Nachverfolgen des Fortschritts und Entfernen von Popupblockern Steuerungsgruppe.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30553d989a48fb008b6dc52c759150b2997ac01b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: b4f3651ca59819ba732f5fe1e705201d4ee44757
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266129"
 ---
-# <a name="steering-committee"></a>Steering committee
+# <a name="steering-committee"></a>Lenkungsausschuss
 
-## <a name="steering-committee-overview"></a>Steering committee overview
+## <a name="steering-committee-overview"></a>Übersicht über die Lenkungsausschuss
 
-A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn’t directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
+Einem Lenkungsausschuss ist eine Steuerungsgruppe der Verantwortlichen und Projektleiter, die anhängig sind zusammen, um ein Projekt oder Programm in Richtung der definierten Geschäftsergebnisse guide. Der Lenkungsausschuss nicht direkt verantwortlich für *wie* das Projekt geliefert wird, sondern vielmehr *welche* , die das Projekt für das Unternehmen bietet.
 
-Every project requires an agreed-on vision and charter. To deliver the projects’ desired outcomes the vision must be clearly defined, it needs to be monitored and maintained. This becomes the responsibility of the steering committee: to drive decisions, advise, provide strategic oversight, to serve as advocates to the organization for the project’s initiatives, and—when necessary—remove blockers.
+Jedes Projekt erfordert eine vereinbart auf Vision und Charter. Um die gewünschten Ergebnisse der Projekte zu übermitteln, die die Vision eindeutig definiert werden muss, muss er überwacht und verwaltet werden können. Dadurch wird die Verantwortung des Lenkungsausschusses: Laufwerk Entscheidungen, darauf hinzuweisen, bieten strategische Aufsicht, als Befürworter des Unternehmens für das Projekt Initiativen dienen und – bei Bedarf – Popupblockern entfernen.
 
-Your organization should put significant thought into the formation of the steering committee. The committee must ensure that the project achieves the business objectives you’ve defined for driving change throughout the organization, meet periodically to discuss the current pulse of the project, and help remove any obstacles that are encountered during the journey.
+Ihre Organisation sollten erhebliche Gedanken zu Bildung des Lenkungsausschusses. Der Ausschuß muss sicherstellen, dass das Projekt für die Änderung in der gesamten Organisation, Meet regelmäßig, um die aktuellen Pulse des Projekts, besprechen gesteuerter definiert haben und Hindernisse zu entfernen, die bei Auftreten der Unternehmensziele erreicht die Weg.
 
-The committee should define its charter to include some key objectives:
+Der Ausschuß sollte seine Charta zum Einschließen von einige wichtige Ziele definieren:
 
--   Keep a strong alignment between the project team and the executive sponsor or executive leadership.
+-   Lassen Sie eine starke Ausrichtung zwischen des Projektteams und den executive Sponsor oder Unternehmensleitung.
 
--   Provide insight into the status of the project to the executive sponsor or executive leadership.
+-   Einblicke in den Status des Projekts zum executive Sponsor oder Unternehmensleitung.
 
--   Allow the executive sponsor or executive leadership team to provide direction and input to the project and ensure that it aligns with overarching business goals, by adjusting project plans, objective key results (OKRs), and other project activities.
+-   Zulassen der executive Sponsor oder ein Unternehmensleitung Team bieten Anleitung und Eingaben auf das Projekt, und stellen Sie sicher, dass es mit der Unternehmensziele, durch Anpassen von Projektplänen, objektive Hauptergebnisse (OKRs) und andere Projektaktivitäten übergreifende ausgerichtet.
 
-The steering committee meets at a recurring interval throughout the lifetime of a project to ensure alignment between the organizational leadership and the project team. This critical meeting ensures that the direction of the project has leadership’s full support and incorporates any feedback provided by leadership into the project to drive success. The committee uses these meetings to gain insight into project status, and also to:
+Der Lenkungsausschuss erfüllt in regelmäßigen Abständen während der Lebensdauer eines Projekts, um sicherzustellen, dass Ausrichtung zwischen Organisationseinheit Leiter und des Projektteams. Diese wichtige Besprechung wird sichergestellt, dass die Richtung des Projekts verfügt über vollständigen Unterstützung des führende und alle Feedbacks von führende in das Projekt zum Laufwerk Erfolg beinhaltet. Der Ausschuß verwendet diese Besprechungen Einblick in Projektstatus und auch auf:
 
--   Agree on business outcomes that align to the business case, and to ensure the project is driving towards delivery of these outcomes.
+-   Vereinbaren Sie Geschäftsergebnisse, die Ausrichtung der Geschäftsfall und stellen Sie sicher, dass das Projekt in Richtung der Übermittlung von diese Ergebnisse gesteuert wird.
 
--   Check and approve the project for accuracy and compliance with the business case.
+-   Überprüfen Sie und genehmigen Sie das Projekt für die Genauigkeit und Einhaltung der Geschäftsfall.
 
--   Review and verify changes made to the business case that could affect any defined outcomes.
+-   Überprüfen, und vergewissern sich Änderungen an der Geschäftsfall, die alle definierten Ergebnisse auswirken könnten.
 
--   Make strategic decisions regarding the prioritization of project deliverables, and approve interim deliverables.
+-   Entscheidungen Sie strategische bezüglich der Priorisierung von Lieferumfang des Projekts, und genehmigen Sie vorläufige Lieferumfang.
 
--   Identify, manage, and mitigate gaps, risks, and issues where additional influence is required from the committee.
+-   Identifizieren Sie, zu verwalten Sie und zu mindern Sie Lücken, Risiken und Probleme, wenn zusätzliche beeinflussen des Ausschusses erforderlich ist.
 
--   Gather support from the executive sponsor or executive leadership team for issues that require escalation, prioritizing and resolving any conflicts between stakeholder business units. 
+-   Sammeln von Unterstützung von executive Sponsor oder Unternehmensleitung Team für Probleme, die Ausweitung, Priorisierung und Beheben von Konflikten zwischen beteiligten Geschäftseinheiten von erfordern. 
 
--   Provide formal feedback and recommendations to executive leadership, the change advisory board, or other business and IT stakeholders, as applicable.
+-   Geben Sie formelle Feedback und Empfehlungen, um die Unternehmensleitung, dem Change advisory Board oder anderen Geschäfts- und IT-Verantwortlichen, sofern gewünscht.
 
-## <a name="identify-members-of-the-steering-committee"></a>Identify members of the steering committee
+## <a name="identify-members-of-the-steering-committee"></a>Identifizieren von Mitgliedern der Lenkungsausschuss
 
-A committee is only as effective as its participants are influential. The steering committee needs to maintain representation from both business and technical decision makers, along with any of the core project team leadership and partner teams who contribute to the solution.
+Ein Ausschuß ist nur Effektivität der Teilnehmer Einfluss sind. Der Lenkungsausschuss muss die Darstellung von Geschäfts- und technische Entscheidungsträger, zusammen mit beliebigen Core Project Team führende und Partner-Teams, die zur Lösung beitragen beibehalten.
 
-Every steering committee needs strong leadership and clearly defined roles and responsibilities. To set realistic expectations for the committee’s performance and the participation of its members, you must document and agree on assigned roles and responsibilities. You absolutely must have a responsive executive sponsor and business leadership on this committee to provide effective influence across the organization and ensure a diverse perspective.
+Jeder Lenkungsausschuss benötigt starken führende und klar definierten Rollen und Aufgaben. Realistische für die Ausschusses Leistung und die Beteiligung von Membern klarstellen, müssen Sie dokumentieren und zugewiesenen Rollen und Verantwortlichkeiten vereinbaren. Absolut benötigen Sie eine schnell executive Sponsor und Business führende im Ausschuß effektiven beeinflussen in der gesamten Organisation bereitstellen und eine unterschiedliche Perspektive stellen Sie sicher.
 
 > [!NOTE]
-> Adjust roles and responsibility based on your organization and project team design. In smaller organizations, these roles can overlap.
+> Passen Sie Rollen und Verantwortung basierend auf Ihrer Organisation und Design für Project-Team. In kleineren Organisationen können dieser Rollen überlappen.
 
-| Titel | Rolle | Contact | E-Mail |
+| Titel | Rolle | Kontakt | E-Mail |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
-| Befürworter aus der Führungsebene | Advocate for the project, ensure its direction stays in alignment with the vision of the organization. Serve as ultimate authority to make decisions the committee can’t agree on. | | |
-| Business Decision Maker(s) | Advocate for the project, ensure its direction stays in alignment with the vision of the organization | | |
-| Architect | Ensure that technology decisions are achievable and align to agreed-on business outcomes. | | |
-| Core Project Team | Provide details about any specific component, either technical or non-technical (such as adoption and change management) | | |
-| Qualität Champion | Be accountable for putting together quality metrics. | | |
-| Programm/Projektmanager | Take responsibility for the presentation and collection of feedback to incorporate into the project. | | |
-| Partner Account Team | Provide feedback from the partner’s point of view from a broader perspective, other partner activities. | | |
-| Partner Project Team | Provide feedback from the partner’s point of view regarding the delivery of the project | | |
+| Befürworter aus der Führungsebene | Vertreter für das Projekt, stellen Sie sicher, dass die Richtung die Vision der Organisation ausgerichtet bleibt. Dienen Sie als ultimate Autorität für die Ausschusses Entscheidungen auf einigen ist nicht möglich. | | |
+| Business Decision Maker(s) | Vertreter für das Projekt, stellen Sie sicher, dass die Richtung die Vision der Organisation ausgerichtet bleibt | | |
+| Architekt | Sicherstellen Sie, dass die Technologie Entscheidungen erreichbar sind und vereinbart auf Geschäftsergebnisse ausrichten. | | |
+| Core Projektteams | Einzelheiten Sie über eine bestimmte Komponente, entweder technischen oder technischen (beispielsweise Annahme und Änderungsmanagement) | | |
+| Qualitätspionier | Zusammenstellen von Qualitätsmetriken verantwortlich sein. | | |
+| Programm/Projektmanager | Übernehmen Sie die Verantwortung für die Präsentation und Auflistung von Feedback zur Integration in das Projekt. | | |
+| Partner-Kundenteam | Geben Sie Feedback aus der Partner Sicht breitere im Hinblick auf andere Aktivitäten Partner. | | |
+| Partner-Projektteams | Geben Sie Feedback aus der Partner Sicht zu im Zusammenhang mit der Bereitstellung des Projekts | | |
 
-## <a name="schedule-steering-committee-meetings"></a>Schedule steering committee meetings 
+## <a name="schedule-steering-committee-meetings"></a>Planen von Besprechungen Lenkungsausschuss 
 
-Although every organization and every project team is structured in slightly different ways, the steering committee meeting should never become just another project standup meeting. Consider the objectives of the steering committee meeting: it’s your opportunity to keep the project on track by gathering support and direction from the executive sponsor or executive leadership. Make sure that everyone attends this meeting so there’s direct messaging between the entire project team and executive sponsor or executive leadership and there is no miscommunication when the message is relayed.
+Obwohl jede Organisation und alle Projektteam etwas unterschiedlich strukturiert ist, sollte die Besprechung Lenkungsausschuss nie nur ein anderes Projekt kurze Besprechung werden. Berücksichtigen Sie die Ziele der Besprechung Lenkungsausschuss: sie haben Sie die Möglichkeit, das Projekt bleiben auf dem laufenden Support und die Richtung von executive Sponsor oder Unternehmensleitung erfassen. Stellen Sie sicher, dass jeder dieser Besprechung attends, damit besteht zwischen den gesamten Projektteam und executive Sponsor oder Unternehmensleitung messaging direkte und keine Fehlkommunikation vorhanden ist, wenn die Nachricht weitergeleitet wird.
 
-When scheduling a committee meeting, take into consideration the project and organizational cadence. Try to schedule it either weekly or every other week, based on your executive sponsors’ preference and the pace of your organization.
+Berücksichtigen Sie beim Planen einer Besprechung Ausschusses das Projekt und die Organisationseinheit Trittfrequenz. Versuchen Sie es, um ihn zu planen, wöchentlich oder alle zwei Wochen auf entweder Ihre executive Sponsor Voreinstellung und das Tempo Ihrer Organisation basierend.
 
 > [!TIP]
-> If yours is a fast-moving environment, don’t let too much time pass between meetings—that can lead to problems that could have been avoided by meeting more frequently. However, in a slower-paced environment, holding a meeting every week can lead to meeting fatigue, which might decrease the effectiveness of the steering committee. Use your experience and judgement to determine the appropriate cadence, and always remember that you can change the schedule. Don't meet just for the sake of meeting.
+> Wenn Ihre einer Umgebung schnell ist, lassen Sie nicht zu viel Zeit zwischen Besprechungen übergeben –, die zu Problemen, die vermieden werden können, indem häufiger meeting führen kann. Jedoch kann in einer Umgebung langsamer Lerntempo halten einer Besprechung jede Woche an Besprechung-Überlastung, führen die die Effektivität des Lenkungsausschusses verringern kann. Verwenden Sie Ihre Erfahrung und Beurteilung zum Bestimmen der geeigneten Cadence und denken Sie immer daran, dass Sie den Zeitplan ändern können. Erfüllen Sie nicht, nur aus Gründen der Besprechung.
 
-### <a name="prepare-for-the-meeting"></a>Prepare for the meeting
+### <a name="prepare-for-the-meeting"></a>Vorbereiten der Besprechung
 
-To make the most of everyone’s time, you need to prepare for the meeting. The core team can start to prepare the material for the steering committee meeting. The [Steering Committee Template – Link to sample PPT template] Steering Committee Template can be used as a starting point for preparation.
+Um alle Zeit optimal nutzen zu können, müssen Sie bei der Vorbereitung der Besprechung. Das Material für die Besprechung Lenkungsausschuss vorbereiten kann das Team Core beginnen. Die [Lenkungsausschuss Vorlage – Link zur Beispielvorlage PPT] Lenkungsausschuss Vorlage als Ausgangspunkt für die Vorbereitung von verwendet werden können.
 
-The following assets should be completed and included in the presentation deck for the meeting:
+Die folgenden Elemente sollte abgeschlossen und in der Präsentation Deck für die Besprechung aufgenommen werden:
 
--   Follow-up on prior steering committee action items
+-   Nachfassen vorherige Lenkungsausschuss Aktionselemente
 
--   Steering committee PowerPoint, project high-level status report
+-   Allgemeine Projektstatusbericht Lenkungsausschuss PowerPoint
 
-    -   Look at the project all up from a monthly/quarterly/yearly–type review.
+    -   Überprüfen Sie alle von Wiederholung monatlich/vierteljährlich/jährlich – Geben Sie das Projekt.
 
-    -   Identify key project milestones:
+    -   Identifizieren Sie wichtige Meilensteine:
 
-        -   Discuss the importance and impact of milestones (these should be captured in the risks register).
+        -   Besprechen Sie die Bedeutung und die Auswirkungen von Meilensteinen (diese sollte im Journal Risiken aufgezeichnet).
 
-        -   Decide on go/no-go for upcoming migrations based on preparation, particularly with business decision makers.
+        -   Treffen einer Entscheidung bezüglich Gehe zu/negative für anstehende Migrationen basierend auf vorbereiten, insbesondere für geschäftliche Entscheidungsträger.
 
-    -   Call out project execution dates and high-impact activities.
+    -   Ausführung von Projektdaten und aussagekräftige Aktivitäten aufrufen.
 
-    -   Report on the OKRs that were identified as important to the committee; be sure to include usage, user sentiment, quality and reliability metrics.
+    -   Bericht auf die OKRs, die als wichtig, Ausschusses erkannt wurden. Achten Sie darauf, dass Sie Nutzung, Stimmung der Benutzer, die Qualität und Zuverlässigkeit Metriken enthalten.
 
--   Steering Committee PowerPoint, project weekly status report
+-   Wöchentliche Projektstatusbericht Lenkungsausschuss PowerPoint
 
-    -   Contains highlight and lowlights, key issues, and action items, and next steps.
+    -   Enthält für Hervorhebungen und Schwachstellen, wichtige Punkte und Aktionselemente und nächste Schritte.
 
     -   Weitere technische Details Tag Probleme Schwerpunkt und weniger auf Gesamter Projektstatus enthält.
 
--   Melden Sie sich Probleme und Risiken registrieren [Link Risiken Protokoll (Web Content)]
+-   Melden Sie sich Probleme und [Risiken registrieren](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
 
-    -   Share the status of any issues that the committee is tracking.
+    -   Freigeben des Status der Probleme, die der Ausschuss nachverfolgt wird.
 
-        -   Be prepared to provide an update on any and all bugs.
+        -   Bereiten Sie ein Update auf einige oder alle Fehler zu ermöglichen.
 
-    -   Identify any new items that could affect the success of achieving business outcomes.
+    -   Identifizieren Sie alle neuen Elemente, die den Erfolg der Geschäftsergebnisse erzielen auswirken könnten.
 
         -   Identifizieren Sie deren Einfluss auf das Projekt.
 
-        -   Identify the affected individuals or business units.
+        -   Identifizieren Sie die betroffenen Personen oder Unternehmenseinheiten.
 
-        -   Identify next steps and what assistance might be required from committee members.
+        -   Identifizieren Sie die nächste Schritte und welche Unterstützung von Ausschussmitglieder erforderlich sein kann.
 
--   Übersicht über die Qualität: Verwenden Sie Berichte aus der Qualität Champion [LINK zur Planung für Dienstverwaltung und Qualität (Web Content)]
+-   Übersicht über die Qualität: Verwenden Sie Berichte aus der [Qualität Champion](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
 
     -   Bereiten Sie erklären Sie die Ergebnisse der Qualität ausführliche Berichte und enthalten Empfehlungen zur Behebung von Problemen notiert haben.
 
@@ -132,7 +134,7 @@ The following assets should be completed and included in the presentation deck f
 
         -   Ist der Status der bekanntes Problem Websites oder Websites Probleme, um der Richtung die Website anzeigen Überschrift und – im Idealfall – positive Ergebnisse von Remediation Arbeit zu melden
 
-        -   The quality status of recently enabled sites based on project progress
+        -   Die Qualitätsstatus der zuletzt aktivierten Websites basierend auf den Fortschritt des Projekts
 
 Im nächsten Schritt planen Sie, einen Anruf für die Besprechung Lenkungsausschuss vorbereiten. Dieses Anrufs sollte nur der Teammitglieder, die vom Projektteam Core entscheidend sind enthalten, und dies konnte Ressourcen aus dem Netzwerk, Desktop, Vorgänge oder andere Teams, die Elemente enthalten, die während der Besprechung Ausschuss adressiert wird einschließen. Core Projektteam, die Mitglieder nie sein sollte aufgefangen deaktiviert Guard durch alle Inhalte, die während des Anrufs Lenkungsausschuss abdecken soll.
 
@@ -154,7 +156,7 @@ Die Besprechung selbst sollte eine natürliche Fortsetzung der Schemaadministrat
 
 5.  Versuchen Sie immer die positive Nachrichten zu Volksrepublik Arbeit Aufwand und Benutzer Feedback (sofern vorhanden) zu fördern. Teilen Sie und die Geschichte verkauft werden sollten. Wenn Feedback vollständig negativ ist, bereiten Sie zu besprechen und erläutern, was durchgeführt wird, um die negative User Experience Probleme zu beheben.
 
-    a.  Nutzen Sie die Möglichkeit zu Kudos auf einzelne Teammitglieder für gute Arbeit gewähren, denen diese gerade tun. It’s important to recognize when excellent, hard work is being accomplished by team members, especially in front of their leadership team.
+    a.  Nutzen Sie die Möglichkeit zu Kudos auf einzelne Teammitglieder für gute Arbeit gewähren, denen diese gerade tun. Es ist wichtig zu erkennen, wenn hervorragend, Feste Arbeit von Teammitgliedern, insbesondere vor ihr Team führende abgewickelt wird.
 
 6.  Speichern Sie das Ende der Besprechung, und bestimmen Sie den Besitzer dieser Aktion-Elemente, die während der Besprechung vereinbart wurden auf eventuelle weitere Schritte akzeptieren.
 
@@ -186,7 +188,7 @@ Nach dem Lesen der Übersicht über die Lenkungsausschuss, ist es nun Zeit zu ha
 
 4.  Gesteuerter Qualität in jeder Unterhaltung zu starten:
 
-    -   Articulate the importance of having a quality champion.
+    -   Darstellen der Wichtigkeit einen Qualität "Champion" zu müssen.
 
     -   Identifizieren Sie die Personen oder Teams, die für die Qualität Champion Rolle dauern wird.
 
@@ -200,20 +202,20 @@ Lenkungsausschuss Erfolg Vorkommen nicht durch Glück. Die richtigen Mitglieder 
 
     -   Offene Kommunikation und Zusammenarbeit werden den Ausschuss Webinhalte. Erstellen Sie eine Umgebung, in dem alle stimmen zu hören sind, und Meinung eingehalten werden. Eindeutige Perspektiven können am stärksten auswirken.
 
-    -   An open environment can be enabled when leadership acts to promote member collaboration and communication. Es folgen einige Richtlinien:
+    -   Eine offene Umgebung kann aktiviert werden, wenn führende zur Förderung der Member für die Zusammenarbeit und Kommunikation fungiert. Es folgen einige Richtlinien:
 
         -   Alle Ausschussmitglieder sollten starke Fürsprecher für die Änderung befinden, die für die Organisation eingeführt wird.
 
         -   Halten Sie Ausschuss beschränkt auf diejenigen, die absolut notwendig sind, um ein genaues Bild bereitzustellen und Personen, die Stellen oder Entscheidungen Geschäftsbereichen beeinflussen können. Grundlegendes zur Hierarchie der Organisation und des Mitglieds gerader Linie Einfluss entscheidend wird beim Popupblockern angezeigt werden.
 
-        -   Teilnahme an der Projektmanager und Teamleiter Ausschusses Diskussionen und Ausführungen. Be ready to invite additional core team members to bring clarity to in-depth discussions that might be needed in specific areas.
+        -   Teilnahme an der Projektmanager und Teamleiter Ausschusses Diskussionen und Ausführungen. Bereiten Sie zusätzliche Core Teammitglieder in den Klarheit ausführliche Diskussionen, die notwendig sein können bestimmte Bereiche Vordergrund einladen.
 
 Über den Lebenszyklus der Lösung wird die Rolle des Ausschusses geändert. Wie in der Phase der Wert Laufwerk Entwurfsprozess und Onboarding verschieben können mehrere Adjustments dem Ausschuß erforderlich sein:
 
 -   Anpassen der Trittfrequenz der Besprechung. Sehen Sie sich die dynamische der Organisation und zu bestimmen Sie, ob die Besprechung weniger häufig vorkommen muss. Wie die organisatorische Änderung mit dwindle beginnt, wird die Häufigkeit für die Kommunikation mit höherer Ebene wahrscheinlich abnehmen. Überprüfen Sie die Besprechung in eine Trittfrequenz monatlich oder vierteljährlich angezeigt Meeting gegebenenfalls ändern
 
--   Adjust the representatives in the meeting. Wie die Lösung in der Phase der Laufwerk Wert verschiebt ist es wahrscheinlich, dass das Projektteam Core für neue Projekte löschen zugewiesen wird. Es ist erforderlich sind, um das Team zu aktualisieren, das als Unterstützung meldet und Vorgänge werden die Leads auf den Status der Lösung.
+-   Passen Sie die Vertreter in der Besprechung. Wie die Lösung in der Phase der Laufwerk Wert verschiebt ist es wahrscheinlich, dass das Projektteam Core für neue Projekte löschen zugewiesen wird. Es ist erforderlich sind, um das Team zu aktualisieren, das als Unterstützung meldet und Vorgänge werden die Leads auf den Status der Lösung.
 
--   Definition and reporting against operational OKRs. Wichtige Ergebnisse und Erfolg Indikatoren verändert über den Lebenszyklus der Lösung. The desired business outcomes should continue to be tracked and reported. Continue to report on the quality and reliability of the voice solution in the context of driving towards the business outcome. Additional metrics and key results, such as, user sentiment, user adoption and support metrics will become the top indicators of success.
+-   Definition und Berichte für operative OKRs. Wichtige Ergebnisse und Erfolg Indikatoren verändert über den Lebenszyklus der Lösung. Die gewünschten Geschäftsergebnisse sollten weiterhin verfolgt und gemeldet werden. Bericht über die Qualität und Zuverlässigkeit der VoIP-Lösung im Kontext von gesteuerter in Richtung der Geschäftsergebnisse weiterhin. Zusätzliche Metriken und Schlüssel erzeugt, wie Benutzer Stimmung, Benutzerakzeptanz und Unterstützung der Metriken der oberen Indikatoren für Erfolg verwendet werden soll.
 
--   Verwenden Sie eine größere Lenkungsausschuss übergeordneter, um die Laufwerk Wert Phasen des mehrerer Lösungen behandelt. Suchen Sie nach Verkaufschancen Lenkungsausschusses effizientere Nutzung. Use the committee to provide guidance across a larger sphere of solutions.
+-   Verwenden Sie eine größere Lenkungsausschuss übergeordneter, um die Laufwerk Wert Phasen des mehrerer Lösungen behandelt. Suchen Sie nach Verkaufschancen Lenkungsausschusses effizientere Nutzung. Mithilfe des Ausschuss Anweisungen über eine größere Kugel Lösungen bereit.

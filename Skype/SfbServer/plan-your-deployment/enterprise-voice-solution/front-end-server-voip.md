@@ -1,9 +1,8 @@
 ---
-title: VoIP-Komponenten der Front-End-Server für Skype for Business Server 2015
+title: Front-End-Server-VoIP-Komponenten für Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Informationen Sie zu den Enterprise-VoIP-Komponenten, die sich auf Front-End-Servern in Skype für Business Server, einschließlich Übersetzungsdienst und verschiedenen Routingkomponenten befinden.
-ms.openlocfilehash: a95b437128f7ddb8dd78462d3a8443e972dd75bc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 24cac38b62cb92fc0d2353edad1238d02b290d75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980823"
 ---
-# <a name="front-end-server-voip-components-for-skype-for-business-server-2015"></a>VoIP-Komponenten der Front-End-Server für Skype for Business Server 2015
+# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Front-End-Server-VoIP-Komponenten für Skype für Business Server
  
 Informationen Sie zu den Enterprise-VoIP-Komponenten, die sich auf Front-End-Servern in Skype für Business Server, einschließlich Übersetzungsdienst und verschiedenen Routingkomponenten befinden.
   
@@ -36,7 +36,7 @@ Die VoIP-Komponenten auf Front-End-Servern lauten wie folgt:
     
 - Komponente für das clusterübergreifende Routing
     
-- [Vermittlungsserverkomponente in Skype für Business Server 2015](mediation-server.md)
+- [Vermittlungsserverkomponente in Skype für Business Server](mediation-server.md)
     
 ## <a name="translation-service"></a>Übersetzungsdienst
 

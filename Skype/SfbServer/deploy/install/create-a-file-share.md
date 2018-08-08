@@ -1,9 +1,9 @@
 ---
-title: Erstellen einer Dateifreigabe in Skype for Business Server 2015
+title: Erstellen Sie eine Dateifreigabe in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,24 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: 'Zusammenfassung: Erfahren Sie, wie eine Windows Server-Dateifreigabe als Teil der Installation von Skype für Business Server 2015 zu erstellen. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 5f91a18a744e73cd65f58efef071978604653b27
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Windows Server-Dateifreigabe als Teil der Installation von Skype für Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: a84e37c3d069c3f51570b600d5ec4804d2a5ee3c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967114"
 ---
-# <a name="create-a-file-share-in-skype-for-business-server-2015"></a>Erstellen einer Dateifreigabe in Skype for Business Server 2015
+# <a name="create-a-file-share-in-skype-for-business-server"></a>Erstellen Sie eine Dateifreigabe in Skype für Business Server
  
-**Zusammenfassung:** Hier erfahren Sie, wie Sie eine Windows Server-Dateifreigabe als Teil der Installation von Skype für Business Server 2015 erstellen. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Zusammenfassung:** Hier erfahren Sie, wie Sie eine Windows Server-Dateifreigabe als Teil der Installation von Skype für Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Skype für Business Server erfordert eine Dateifreigabe, damit Computer in der Topologie, Dateien austauschen können. Erstellen einer Dateifreigabe ist Schritt 2 von 8 in den Installationsvorgang für Skype für Business Server 2015. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 der Reihe nach ausführen, und zwar nach den Schritten 1 bis 5, wie im Diagramm beschrieben. Planen von Details zu Dateifreigabe, finden Sie unter [umgebungsanforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+Skype für Business Server erfordert eine Dateifreigabe, damit Computer in der Topologie, Dateien austauschen können. Erstellen einer Dateifreigabe ist Schritt 2 von 8 in den Installationsvorgang für Skype für Business Server. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 der Reihe nach ausführen, und zwar nach den Schritten 1 bis 5, wie im Diagramm beschrieben. Planen von Details zu Dateifreigabe, finden Sie unter [umgebungsanforderungen für Skype für Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) oder [Server-Anforderungen für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![Übersichtsdiagramm](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>Erstellen einer grundlegenden Dateifreigabe
 
-In diesem Abschnitt werden die Schritte zur Erstellung einer Standarddateifreigabe für Windows Server erläutert. Eine grundlegende Windows Server-Dateifreigabe wird mit Skype für Business Server unterstützt. Allerdings bietet nicht explizit hohen Verfügbarkeit. Für eine solche Umgebung wird eine Dateifreigabe mithilfe von DFS (Distributed File System) empfohlen. Weitere Informationen über eine Dateifreigabe für hohe Verfügbarkeit und DFS finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+In diesem Abschnitt werden die Schritte zur Erstellung einer Standarddateifreigabe für Windows Server erläutert. Eine grundlegende Windows Server-Dateifreigabe wird mit Skype für Business Server unterstützt. Allerdings bietet nicht explizit hohen Verfügbarkeit. Für eine solche Umgebung wird eine Dateifreigabe mithilfe von DFS (Distributed File System) empfohlen. Weitere Informationen über eine Dateifreigabe für hohe Verfügbarkeit und DFS finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
 > Windows Server 2012 R2 hat große Fortschritte bei der Bereitstellung Storage Area Network (SAN)-artiger Dateifreigabelösungen auf der Windows Server-Plattform erzielt. Im Vergleich zu einem herkömmlichen System auf SAN-Basis kann eine Windows Server 2012 R2-Speicherlösung die Kosten bei kaum spürbaren Leistungseinbußen auf die Hälfte reduzieren. Weitere Informationen zu den Optionen für Freigabe in Windows Server 2012 R2 finden Sie unter einem herunterladbaren Whitepaper [Windows Server 2012 R2-Speicher](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 

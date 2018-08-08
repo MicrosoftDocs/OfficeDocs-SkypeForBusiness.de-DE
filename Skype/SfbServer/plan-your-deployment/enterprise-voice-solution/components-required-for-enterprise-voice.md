@@ -1,9 +1,8 @@
 ---
-title: Für Enterprise-VoIP erforderliche Komponenten in Skype for Business Server 2015
+title: Für Enterprise-VoIP in Skype für Business Server erforderlichen Komponenten
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: Eine Zusammenfassung der Enterprise-VoIP-Komponenten in Skype für Business Server.
-ms.openlocfilehash: 4f28b0dc42b9a64cae7883490a7e9f5e09dd8d80
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 800a12b2d83703f188fff04452cf865757d5cad9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970479"
 ---
-# <a name="components-required-for-enterprise-voice-in-skype-for-business-server-2015"></a>Für Enterprise-VoIP erforderliche Komponenten in Skype for Business Server 2015
+# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Für Enterprise-VoIP in Skype für Business Server erforderlichen Komponenten
  
 Eine Zusammenfassung der Enterprise-VoIP-Komponenten in Skype für Business Server.
   
 Die folgenden Komponenten sind für die Bereitstellung von Enterprise-VoIP in Ihrer Topologie erforderlich. 
   
-- Eine oder mehrere Vermittlungsserver, die Signalisierung und in einigen Konfigurationen, Medien zwischen Ihrem internen Skype für Business Server, Enterprise-VoIP-Infrastruktur und ein Gateway public switched Telephone Network, (PSTN) oder ein Session Initiation-Protokoll übersetzen Trunks (SIP). Der Vermittlungsserver sind die wichtigsten Komponente in der Enterprise-VoIP-Bereitstellung. Weitere Informationen finden Sie unter [Mediation Server Component in Skype für Business Server 2015](mediation-server.md).
+- Eine oder mehrere Vermittlungsserver, die Signalisierung und in einigen Konfigurationen, Medien zwischen Ihrem internen Skype für Business Server, Enterprise-VoIP-Infrastruktur und ein Gateway public switched Telephone Network, (PSTN) oder ein Session Initiation-Protokoll übersetzen Trunks (SIP). Der Vermittlungsserver sind die wichtigsten Komponente in der Enterprise-VoIP-Bereitstellung. Weitere Informationen finden Sie unter [Mediation Server Component in Skype für Business Server](mediation-server.md).
     
     Vermittlungsserver können mit dem Front-End-Server verbunden oder als eigenständiger Server installiert werden.
     
-- PSTN-Konnektivitätskomponenten, die SIP-Trunks oder PSTN-Gateways angeben können. Weitere Informationen finden Sie unter [PSTN Connectivity Komponenten in Skype für Business Server 2015](pstn-connectivity.md).
+- PSTN-Konnektivitätskomponenten, die SIP-Trunks oder PSTN-Gateways angeben können. Weitere Informationen finden Sie unter [PSTN Connectivity Komponenten in Skype für Business Server](pstn-connectivity.md).
     
 - Edge-Server, der die Verwendung von Enterprise-VoIP-Funktionen von den Benutzern ermöglicht, wenn sie sich außerhalb der Firewall Ihrer Organisation befinden. 
     
@@ -38,6 +38,6 @@ Die folgenden Komponenten sind für die Bereitstellung von Enterprise-VoIP in Ih
     
     Der A/V-Authentifizierungsdienst ist mit dem A/V-Edgedienst verknüpft und stellt Authentifizierungsdienste für diesen bereit. Externe Benutzer, die versuchen, eine Verbindung mit dem A/V-Edgedienst herzustellen, benötigen ein vom A/V-Authentifizierungsdienst bereitgestelltes Authentifizierungstoken, damit ihre Anrufe durchgestellt werden können.
     
-- Darüber hinaus werden einige Enterprise-VoIP-Komponenten auf Front-End-Servern ausgeführt. Ausführliche Informationen zu diesen Komponenten finden Sie unter [Front-End-Server-VoIP-Komponenten für Skype für Business Server 2015](front-end-server-voip.md)
+- Darüber hinaus werden einige Enterprise-VoIP-Komponenten auf Front-End-Servern ausgeführt. Ausführliche Informationen zu diesen Komponenten finden Sie unter [Front-End-Server-VoIP-Komponenten für Skype für Business Server](front-end-server-voip.md)
     
 

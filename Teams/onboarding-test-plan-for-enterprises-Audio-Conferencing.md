@@ -2,20 +2,22 @@
 title: Enterprise-Testplan für Audiokonferenzen in Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Überprüfen Sie, ob über das Testen von Audiokonferenzen in Teams Features, Funktionen und Verwendbarkeit entsprechend Ihrer Organisation erfüllt sind.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0630cb5bf054c693f1175101f9e1edbe7c408b2f
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3a561e6d81394aa9bf7c3e1b9b8b0ac9f2b3a7ed
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695582"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihre Audiokonferenzen in Plan zum Testen von Teams für Unternehmen 
 ===============================================================================
@@ -79,7 +81,7 @@ Als Teil der Definition von Audiokonferenzen Feature Anforderungen für Benutzer
 > [!TIP]
 > Die neueste Teams-Roadmap für die Identifizierung von Audiokonferenzen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/skype2teamsroadmap>.
 
-Nun, da der Features und Audiokonferenzen Persona definiert wurden, werden die nächsten Kriterien für die Auswertung der Interoperabilität Erfahrung mit Teams. Weitere Informationen über die Interoperabilität-Erfahrung zusammen mit verfügbaren Konfigurationsoptionen finden Sie unter [Microsoft-Teams und Skype für die Business-Interoperabilität](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+Nun, da der Features und Audiokonferenzen Persona definiert wurden, werden die nächsten Kriterien für die Auswertung der Interoperabilität Erfahrung mit Teams. Weitere Informationen über die Interoperabilität-Erfahrung zusammen mit verfügbaren Konfigurationsoptionen finden Sie unter [Microsoft-Teams und Skype für die Business-Interoperabilität](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
 #### <a name="audio-conferencing-feature-definition"></a>Audio Conferencing Featuredefinition
 
@@ -389,7 +391,7 @@ In der Regel enthält ein Fehler Bericht und-Wartung Plan Folgendes:
 
 | Fehler-ID                                | Beschreibung des Fehlers                                                                                          | Fehler Priorität Bewertung                                           | Zugewiesene defekt Besitzer | Zugewiesene defekt Ausweitung Punkt | Fehler Ausweitung-Methode                                          | Fehler-status | Erforderliche Auflösung nach Datum | Statusdatum |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1    | Für Benutzer, die RHM aktiviert ist, wählen Sie sich werden nicht über die Teams Outlook-add-in Planung Koordinaten aufgefüllt. | Mittel                                                               | Lisa grau             | Louis Lahr                       | Wöchentliche Ursachenanalyse überprüfen hoher Priorität e-Mails an betroffene beteiligten | Öffnen          | ASAP                        | 1/12/2018   |
+| 1    | Für Benutzer, die RHM aktiviert ist, wählen Sie sich werden nicht über die Teams Outlook-add-in Planung Koordinaten aufgefüllt. | Mittel                                                               | Lisa grau             | Louis Lahr                       | Wöchentliche Ursachenanalyse überprüfen hoher Priorität e-Mails an betroffene beteiligten | Öffnen Sie die .          | ASAP                        | 1/12/2018   |
 
 
 
@@ -602,12 +604,12 @@ Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Website
 
 | Metrik                                                        |  Target                                                                                                            | Weekday: Geschäftszeiten 9:30 Uhr bis 11:00                                                                                                                                                                                                                                                                                                 | Weekday: Geschäftszeiten 14:30 Uhr bis 4:30 Uhr | Weekday: nach Stunden 10:30 Uhr auf 12:30 Uhr ausgeführt. | Wochenende: nach Stunden 9:30 Uhr um 11:30 Uhr ausgeführt. | Wochenende: nach Stunden 14:30 Uhr bis 4:30 Uhr |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
-| Wartezeit (unidirektional)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
+| Latenz (ein Weg)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Wartezeit (Roundtripzeit oder Zeit)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
-| Bursts von Paketverlusten                                             | \<10 % Intervall 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2 %                                       | 2 %                                        | 0.2 %                                     | 0,1 %                                    |
+| Burstverlust von Paketen                                             | \<10 % Intervall 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2 %                                       | 2 %                                        | 0.2 %                                     | 0,1 %                                    |
 | Paketverlust                                                   | \<1 % Intervall 15 s                                                                                   | 0,4 %                                                                                                                                                                                                                                                                                                                                      | 0,3 %                                     | 0,3 %                                      | 0,1 %                                     | 0 %                                      |
 | Die Kommunikation zwischen hinzukommen Jitter Paket                                   | \<während ein Intervall von 15 s 30 ms                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
-| Paket neu anordnen                                                | \<0,05 % außerhalb der Reihenfolge Pakete                                                                                      | 0 %                                                                                                                                                                                                                                                                                                                                        | 0 %                                       | 0 %                                        | 0 %                                       | 0 %                                      |
+| Neuanordnung von Paketen                                                | \<0,05 % außerhalb der Reihenfolge Pakete                                                                                      | 0 %                                                                                                                                                                                                                                                                                                                                        | 0 %                                       | 0 %                                        | 0 %                                       | 0 %                                      |
 
 
 <table>
@@ -643,7 +645,7 @@ Durchgehen Sie, um eine partielle Port einer Zahl Service aus Ihrer aktuellen PS
 
 Identifizieren Sie die Anzahl von Tests, die Sie Port zu Office 365 als eine Einwahlnummer (Service-Nummer) für Audiokonferenzen möchten
 
-**Wichtige**
+**Wichtig**
 
 Bei der Planung Ihrer Nummern Portieren Test werden Sie die neuesten Richtlinien für Nummern Portieren Anforderungen in [Anzahl Port häufig gestellte Fragen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)zu überprüfen.
 
@@ -674,7 +676,7 @@ Herunterladen Sie und erstellen Sie einen Buchstaben der Autorisierung (Geladene
 
 > [!IMPORTANT]
 > Wenn Sie Service Zahlen für Audiokonferenzen Brücken, automatischen Telefonzentralen oder andere Service Zahlen, gebührenfreie Telefonnummern oder mehr als 999 Benutzertelefonnummern, die Sie benötigen Teams übertragen haben haben, müssen Sie eine Port Reihenfolge manuell zu senden.<br/><br/>
->   Wenn Sie Rufnummern manuell mithilfe eines Geladene port, stellen Sie sicher, dass Sie den korrekten Typ der Telefonnummer auswählen. Sie müssen separate Port Aufträge für jede Art von Telefonnummer weiterleiten möchten senden.</br><br/>
+>   Wenn Sie Rufnummern manuell mithilfe eines Geladene port, stellen Sie sicher, dass Sie den korrekten Typ der Telefonnummer auswählen. Sie müssen für jede zur Übertragung vorgesehene Art von Telefonnummer einen separaten Portierungsauftrag einreichen.</br><br/>
 >   Da wir die Anzahl Portieren Prozess mithilfe einer dieselbe Art der Rechnungslegung Telefonnummer (BTN) zugeordneten Telefonnummer testen möchten, müssen Sie sicherstellen, dass die Art der Rechnungslegung Telefonnummer ist *nicht* enthalten, mit der bestimmte Telefonnummer übertragen wird.
 
 #### <a name="step-4"></a>Schritt 4

@@ -1,9 +1,8 @@
 ---
-title: Erstellen oder Ändern eines Bereichs nicht zugewiesener Nummern in Skype for Business Server 2015
+title: Erstellen Sie oder ändern Sie einen Bereichs nicht zugewiesenen Nummern in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Erstellen Sie, ändern Sie oder löschen Sie nicht zugewiesener Nummernbereiche für ansageanwendung in Skype für Business Server Enterprise-VoIP. Dies wirkt sich auf den Umgang mit Anrufen an nicht zugewiesene Nummern aus.
-ms.openlocfilehash: 72a6751ec203b9b3451f5080e610ca0c09007db9
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 671d5d79e9ad38323aaa8adfb5e25f8e42976494
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500926"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967121"
 ---
-# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server-2015"></a>Erstellen oder Ändern eines Bereichs nicht zugewiesener Nummern in Skype for Business Server 2015
+# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Erstellen Sie oder ändern Sie einen Bereichs nicht zugewiesenen Nummern in Skype für Business Server
  
 Erstellen Sie, ändern Sie oder löschen Sie nicht zugewiesener Nummernbereiche für ansageanwendung in Skype für Business Server Enterprise-VoIP. Dies wirkt sich auf den Umgang mit Anrufen an nicht zugewiesene Nummern aus.
   

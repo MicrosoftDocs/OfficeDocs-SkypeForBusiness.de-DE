@@ -1,5 +1,5 @@
 ---
-title: Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server 2015
+title: Erstellen Sie und veröffentlichen Sie neue Topologie in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und eine neue Topologie überprüfen, bevor Sie Skype für Business Server installieren. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: d49230c1fc8124e15f411ca4c93cd2a5392e64f5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und eine neue Topologie überprüfen, bevor Sie Skype für Business Server installieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 4a7ce9f078ec5b52d000c348dac7610e52f91d21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967339"
 ---
-# <a name="create-and-publish-new-topology-in-skype-for-business-server-2015"></a>Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server 2015
+# <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Erstellen Sie und veröffentlichen Sie neue Topologie in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Erstellen, veröffentlichen und eine neue Topologie überprüfen, bevor Sie Skype für Business Server installieren. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Zusammenfassung:** Informationen Sie zum Erstellen, veröffentlichen und eine neue Topologie überprüfen, bevor Sie Skype für Business Server installieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Vor der Installation von der Skype für Business Server-System auf jedem Server in der Topologie müssen Sie eine Topologie erstellen und veröffentlichen. Beim Veröffentlichen einer Topologie laden Sie die Topologieinformationen in die Datenbank des zentralen Verwaltungsspeichers. Bei einem Enterprise Edition-Pool erstellen Sie die Datenbank des zentralen Verwaltungsspeichers beim ersten Veröffentlichen einer neuen Topologie. In der Standard Edition müssen Sie den Vorgang „Ersten Standard Edition-Server vorbereiten“ des Bereitstellungs-Assistenten vor dem Veröffentlichen der Topologie ausführen. Damit wird die Standard Edition durch Installation einer SQL Server Express Edition-Instanz und die Erstellung des zentralen Verwaltungsspeichers vorbereitet. Sie können die Schritte 1 bis 5 in einer beliebigen Reihenfolge ausführen. Die Schritte 6, 7 und 8 müssen jedoch wie in der Abbildung dargestellt nacheinander und nach den Schritten 1 bis 5 ausgeführt werden. Die Erstellung und Veröffentlichung einer neuen Topologie wird in Schritt 6 beschrieben.
   
@@ -86,7 +87,7 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
   
 5. Auf der Seite **verbundene Serverrollen auswählen** die Möglichkeit, den Vermittlungsserver auf dem Front-End-Server verbinden, oder Sie können auswählen, ihn als eigenständiger Server bereitstellen.
     
-    Wenn Sie den Vermittlungsserver mit dem Front-End-Pool der Enterprise Edition verbinden möchten, aktivieren Sie das Kontrollkästchen. Die Serverrolle wird auf den Servern im Pool bereitgestellt. Wenn Sie den Vermittlungsserver eigenständig bereitstellen möchten, deaktivieren Sie das entsprechende Kontrollkästchen. Sie werden den Vermittlungsserver in einem separaten Bereitstellungsschritt bereitstellen, nachdem Sie vollständig auf den Front-End-Server bereitstellen. Planen von Details zu einer Kollokation, finden Sie unter [Grundlagen der Topologie Skype für Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+    Wenn Sie den Vermittlungsserver mit dem Front-End-Pool der Enterprise Edition verbinden möchten, aktivieren Sie das Kontrollkästchen. Die Serverrolle wird auf den Servern im Pool bereitgestellt. Wenn Sie den Vermittlungsserver eigenständig bereitstellen möchten, deaktivieren Sie das entsprechende Kontrollkästchen. Sie werden den Vermittlungsserver in einem separaten Bereitstellungsschritt bereitstellen, nachdem Sie vollständig auf den Front-End-Server bereitstellen. Planen von Details zu einer Kollokation, finden Sie unter [Grundlagen der Topologie Skype für Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
     
 6. Über die Seite **Serverrollen zu diesem Front-End-Pool zuordnen** können Sie Serverrollen definieren und dem Front-End-Pool zuordnen. Die folgende Rolle ist verfügbar:
     
@@ -104,7 +105,7 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
     
    - In diesem Fall wählen Sie die Rollen aus, die bereitgestellt oder dem neuen Front-End-Server zugeordnet werden sollen. In beiden Fällen fahren Sie mit der Definition der Rollen fort, richten gegebenenfalls erforderliche Hardware ein und führen die Installation aus.
     
-7. Als Nächstes definieren Sie den SQL Server-Speicher für die Topologie. In diesem Beispiel wird die Standardinstanz verwendet. Weitere Informationen zu SQL Server-Features, wie hohe Verfügbarkeit finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+7. Als Nächstes definieren Sie den SQL Server-Speicher für die Topologie. In diesem Beispiel wird die Standardinstanz verwendet. Weitere Informationen zu SQL Server-Features, wie hohe Verfügbarkeit finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
     
    - Zum Verwenden eines SQL Server-Speichers, der bereits in Ihrer Topologie definiert wurde, wählen Sie eine Instanz unter **SQL-Speicher** aus.
     
@@ -115,6 +116,9 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
    - Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden.
     
    - Zum Verwenden der SQL-Spiegelung wählen Sie **SQL-Spiegelung aktivieren** aus und wählen Sie dann eine vorhandene Instanz aus oder erstellen Sie eine neue Instanz.
+
+    > [!NOTE]
+    > SQL-Spiegelung wird steht in Skype für Business Server 2015 jedoch nicht mehr in unterstützt Skype für Business Server 2019. Die AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL clustering Failovermethoden werden bevorzugt mit Skype für Business Server 2019.
     
     In diesem Beispiel geben Sie den **SQL Server-FQDN** ein, konfigurieren alle relevanten Einstellungen für hohe Verfügbarkeit und klicken dann auf **OK** (siehe Abbildung).
     
@@ -131,9 +135,9 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
     In diesem Beispiel klicken Sie auf **Neuen Dateispeicher definieren**, füllen die Felder **Dateiserver-FQDN** und **Dateifreigabe** aus und klicken auf **Weiter**.
     
     > [!NOTE]
-    > Die Dateifreigabe für Skype für Business Server verbunden werden jedoch aus Leistungsgründen nicht empfohlen. Im vorliegenden Beispiel befindet sich die Dateifreigabe auf einem dedizierten Einzelserver, der als Dateifreigabe fungieren soll. Es werden jedoch andere, robustere Dateifreigabesysteme empfohlen, z. B. DFS mit Windows Server 2012 R2. Ausführliche Informationen zu unterstützten Datei freigeben Systeme finden Sie unter [Anforderungen für Ihre Skype für Business-Umgebung](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Weitere Informationen zum Erstellen der Dateifreigabe finden Sie unter [Erstellen einer Dateifreigabe in Skype für Business Server 2015](create-a-file-share.md). Sie können die Dateifreigabe definieren, ohne sie erstellt zu haben. Sie müssen die Dateifreigabe am definierten Speicherort erstellen, bevor Sie die Topologie veröffentlichen. 
+    > Die Dateifreigabe für Skype für Business Server verbunden werden jedoch aus Leistungsgründen nicht empfohlen. Im vorliegenden Beispiel befindet sich die Dateifreigabe auf einem dedizierten Einzelserver, der als Dateifreigabe fungieren soll. Es werden jedoch andere, robustere Dateifreigabesysteme empfohlen, z. B. DFS mit Windows Server 2012 R2. Ausführliche Informationen zu unterstützten Datei freigeben Systeme finden Sie unter [Anforderungen für Ihre Skype für Business-Umgebung](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Weitere Informationen zum Erstellen der Dateifreigabe finden Sie unter [Erstellen einer Dateifreigabe in Skype für Business Server](create-a-file-share.md). Sie können die Dateifreigabe definieren, ohne sie erstellt zu haben. Sie müssen die Dateifreigabe am definierten Speicherort erstellen, bevor Sie die Topologie veröffentlichen. 
   
-10. Auf der Seite „Webdienste-URL angeben“ müssen Sie entscheiden, ob Sie die Basis-URL des internen Webdienstepools außer Kraft setzen müssen. Der Grund für eine Außerkraftsetzung liegt im Lastenausgleich. Einfacher SIP-Datenverkehr kann über einen einfachen Lastenausgleich verteilt werden. Für HTTP/S-Webdienste-Datenverkehr muss aber eine unterstützte Hardware- oder Softwarelösung für den Lastenausgleich verwendet werden. Unterstützte zum Lastenausgleich finden Sie unter [Infrastruktur für Skype für Unternehmen](https://technet.microsoft.com/en-us/office/dn947483). Im vorliegenden Beispiel wird DNS-Lastenausgleich für SIP-Datenverkehr und zusätzlich eine unterstützte Lastenausgleichslösung verwendet. Da der Datenverkehr auf diese Weise aufgeteilt wird, muss der FQDN des internen Webdienstepools außer Kraft gesetzt werden. Würde dagegen ein einfacher Lastenausgleich für den gesamten Datenverkehr verwendet, statt den SIP-Datenverkehr durch den DNS-Lastenausgleich zu schicken, wäre eine Außerkraftsetzung der Webdienste-URL nicht erforderlich. 
+10. Auf der Seite „Webdienste-URL angeben“ müssen Sie entscheiden, ob Sie die Basis-URL des internen Webdienstepools außer Kraft setzen müssen. Der Grund für eine Außerkraftsetzung liegt im Lastenausgleich. Einfacher SIP-Datenverkehr kann über einen einfachen Lastenausgleich verteilt werden. Für HTTP/S-Webdienste-Datenverkehr muss aber eine unterstützte Hardware- oder Softwarelösung für den Lastenausgleich verwendet werden. Unterstützte zum Lastenausgleich finden Sie unter [Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). Im vorliegenden Beispiel wird DNS-Lastenausgleich für SIP-Datenverkehr und zusätzlich eine unterstützte Lastenausgleichslösung verwendet. Da der Datenverkehr auf diese Weise aufgeteilt wird, muss der FQDN des internen Webdienstepools außer Kraft gesetzt werden. Würde dagegen ein einfacher Lastenausgleich für den gesamten Datenverkehr verwendet, statt den SIP-Datenverkehr durch den DNS-Lastenausgleich zu schicken, wäre eine Außerkraftsetzung der Webdienste-URL nicht erforderlich. 
     
     Klicken Sie im DNS-dieses Themas haben wir einen A-Eintrag für webint.contoso.local erstellt. Dies ist die URL, die wir für den Datenverkehr im Web Services HTTP/S verwenden muss, und es über unterstützte Software Systems zum Lastenausgleich, das wir eingerichtet. Daher überschreiben wir in diesem Beispiel wird die URL, um let Skype für Business Server wissen, dass alle HTTP/S-Datenverkehr webint.contoso.local anstelle von pool.contoso.local, gesendet werden sollen, wie in der Abbildung dargestellt. Weitere Informationen zum Lastenausgleich finden Sie [Netzwerklastenausgleich Anforderungen für Skype für Unternehmen zu laden](../../plan-your-deployment/network-requirements/load-balancing.md).
     
@@ -197,7 +201,7 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
     
     Wenn Sie die Topologie überprüft haben und keine Überprüfungsfehler aufgetreten sind, können Sie die Topologie veröffentlichen. Im Falle von Überprüfungsfehlern müssen Sie diese zunächst korrigieren, bevor Sie die Topologie veröffentlichen können.
     
-6. Maustaste auf den Knoten **Skype für Business Server 2015** , und klicken Sie dann auf **Topologie veröffentlichen**.
+6. Klicken Sie mit der rechten Maustaste auf den Knoten **Skype for Business Server** und dann auf **Topologie veröffentlichen**.
     
 7. Klicken Sie auf der Seite **Topologie veröffentlichen** auf **Weiter**.
     
@@ -211,7 +215,7 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
 9. Wählen Sie auf der Seite **Datenbanken auswählen** die Datenbanken aus, die Sie veröffentlichen möchten.
     
     > [!NOTE]
-    > Wenn Sie nicht über die entsprechenden Rechte zum Erstellen der Datenbanken verfügen, können Sie die Kontrollkästchen neben dieser Datenbanken deaktivieren, und Benutzer mit entsprechenden Berechtigungen kann die Datenbanken später erstellen. Ausführliche Informationen zu Anforderungen finden Sie unter [Server-Anforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+    > Wenn Sie nicht über die entsprechenden Rechte zum Erstellen der Datenbanken verfügen, können Sie die Kontrollkästchen neben dieser Datenbanken deaktivieren, und Benutzer mit entsprechenden Berechtigungen kann die Datenbanken später erstellen. Ausführliche Informationen zu Anforderungen finden Sie unter [Server-Anforderungen für Skype für Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 10. Klicken Sie optional auf **Erweitert**. Über die erweiterten Optionen zur Platzierung von SQL Server-Datendateien stehen folgende Optionen zur Verfügung: 
     
@@ -240,6 +244,6 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
     
     Die Meldung „Abgeschlossen mit Warnungen“ für die Datenbankerstellung bedeutet nicht, dass ein Fehler aufgetreten ist. Der Installationsvorgang wurde so ändern Sie Einstellungen in SQL Server für Skype für Business Server ordnungsgemäß funktioniert. Wenn eine Einstellung in SQL Server geändert wird, wird dies als Warnung protokolliert, damit SQL Server-Administratoren genau sehen können, was durch den Installationsprozess geändert wurde. Wenn Sie eine Warnung ausgegeben werden, können Sie wählen Sie den Datensatz, und klicken Sie dann auf **Protokolle anzeigen** , um die Details der Warnung anzeigen.
     
-    Wenn die Topologie erfolgreich veröffentlicht wurde, können Sie mit der Installation von einem lokalen Replikat des zentralen Verwaltungsspeichers auf jedem Server mit Skype für Business Server 2015 in Ihrer Topologie beginnen. Es wird empfohlen, mit dem ersten Front-End-Pool zu beginnen. 
+    Wenn die Topologie erfolgreich veröffentlicht wurde, können Sie mit der Installation von einem lokalen Replikat des zentralen Verwaltungsspeichers auf jedem Server mit Skype für Business Server in Ihrer Topologie beginnen. Es wird empfohlen, mit dem ersten Front-End-Pool zu beginnen. 
     
 

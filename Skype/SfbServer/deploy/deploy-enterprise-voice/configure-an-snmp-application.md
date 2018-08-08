@@ -1,9 +1,8 @@
 ---
-title: Konfigurieren einer SNMP-Anwendung in Skype for Business Server 2015
+title: Konfigurieren einer SNMP-Anwendung in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Konfigurieren Sie eine SNMP-Anwendung zur Arbeit mit E9-1-1 in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 4d864d8617f679867e514f3cc74ae4fe0201a989
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9c325777b43c455016657caf4e15316a07282b52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992435"
 ---
-# <a name="configure-an-snmp-application-in-skype-for-business-server-2015"></a>Konfigurieren einer SNMP-Anwendung in Skype for Business Server 2015
+# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Konfigurieren einer SNMP-Anwendung in Skype für Business Server
  
 Konfigurieren Sie eine SNMP-Anwendung zur Arbeit mit E9-1-1 in Skype für Business Server Enterprise-VoIP. 
   
@@ -42,8 +42,6 @@ Wenn eine SNMP-Anwendung installiert ist und der Standortinformationen Dienst ni
    ```
 
 ## <a name="see-also"></a>Siehe auch
-
-#### 
 
 ["Set-cswebserviceconfiguration"](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

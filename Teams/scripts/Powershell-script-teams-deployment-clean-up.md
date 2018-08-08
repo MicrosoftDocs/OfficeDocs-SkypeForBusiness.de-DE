@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-description: Mit diesem PowerShell-Skript können Sie ein öffentliches firmenweites Team in Microsoft Teams erstellen.
+description: Verwenden Sie dieses Skript PowerShell Microsoft-Teams, auf den Zielcomputern oder für bestimmte Benutzer bereinigen.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 1466a08d493538eadb6cd2bfc2f50ac15acb0fa7
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: e159c06a27151523e52db5bf7e0aa2eab33620a9
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249192"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell-Skript-Beispiel – Bereitstellung von Microsoft-Teams, bereinigen
 -------------------------------------------------------------------------
 
-Diese PowerShell-Skript kann für die Bereinigung von Microsoft-Teams aus Ziel Machines\users genutzt werden. Es sollte für jeden Benutzer auf einem Zielcomputer ausgeführt werden. 
+Diese PowerShell-Skript kann für die Bereinigung von Microsoft-Teams Zielcomputern oder Benutzer genutzt werden. Es sollte für jeden Benutzer auf einem Zielcomputer ausgeführt werden. 
 
 
 ## <a name="sample-script"></a>Beispielskript
@@ -35,19 +37,21 @@ $TeamsUpdateExePath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 
 
 try
 {
-    if ([System.IO.File]::Exists($TeamsUpdateExePath)) {
+    if (Test-Path -Path $TeamsUpdateExePath) {
         Write-Host "Uninstalling Teams process"
 
         # Uninstall app
-        $proc = Start-Process $TeamsUpdateExePath "-uninstall -s" -PassThru
+        $proc = Start-Process -FilePath $TeamsUpdateExePath -ArgumentList "-uninstall -s" -PassThru
         $proc.WaitForExit()
     }
-    Write-Host "Deleting Teams directory"
-    Remove-Item –path $TeamsPath -recurse
+    if (Test-Path -Path $TeamsPath) {
+        Write-Host "Deleting Teams directory"
+        Remove-Item –Path $TeamsPath -Recurse
+    }
 }
 catch
 {
-    Write-Output "Uninstall failed with exception $_.exception.message"
+    Write-Error -ErrorRecord $_
     exit /b 1
 }
 

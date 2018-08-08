@@ -1,9 +1,8 @@
 ---
-title: Planen von Netzwerkanforderungen für Skype for Business 2015
+title: Plan network requirements for Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,22 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
-description: 'Zusammenfassung: Prüfen der Überlegungen zum Netzwerk-Komponente unter vor der Implementierung von Skype für Business Server 2015.'
-ms.openlocfilehash: 64c1a42ba1ed5003f60ea6bad31adabb611e077f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Prüfen der Überlegungen zum Netzwerk-Komponente unter vor der Implementierung von Skype für Business Server.'
+ms.openlocfilehash: 18c97486a3f81eb745c8970174d482c48779d104
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025693"
 ---
-# <a name="plan-network-requirements-for-skype-for-business-2015"></a>Planen von Netzwerkanforderungen für Skype for Business 2015
+# <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business 
  
-**Zusammenfassung:** Überprüfen Sie die Komponente Netzwerkaspekte unter vor der Implementierung von Skype für Business Server 2015.
+**Zusammenfassung:** Überprüfen Sie die Komponente Netzwerkaspekte unter vor der Implementierung von Skype für Business Server.
   
-Die Informationen in diesen Themen wird in das Whitepaper [Netzwerkplanung, Überwachung und Problembehandlung von Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) mit weiteren Details und Tiefe ebenfalls diskutiert. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Kriterien für die Skype für Business Server 2015 unverändert.
+Die Informationen in diesen Themen wird in das Whitepaper [Netzwerkplanung, Überwachung und Problembehandlung von Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) mit weiteren Details und Tiefe ebenfalls diskutiert. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Kriterien für die Skype für Business Server unverändert.
   
-Dienstanbieter entscheidet auch, wenn Ihr Netzwerk wi-Fi sowie verkabelten Zugriff beinhaltet, im Whitepaper [Bereitstellung von Lync 2013 Real-Time Communications über Wi-Fi](http://www.microsoft.com/en-us/download/details.aspx?id=36494) ist eine gute Verweis und gleichermaßen auf Skype für Business Server 2015.
+Dienstanbieter entscheidet auch, wenn Ihr Netzwerk wi-Fi sowie verkabelten Zugriff beinhaltet, im Whitepaper [Bereitstellung von Lync 2013 Real-Time Communications über Wi-Fi](http://www.microsoft.com/en-us/download/details.aspx?id=36494) ist eine gute Verweis und gleichermaßen auf Skype für Business Server.
   
-Die Netzwerkleistung und die Anforderungen an das Netzwerk sind direkt mit der Datenverkehrsauslastung verbunden. Bei der Planung Ihrer Implementierung Netzwerk- und es wird empfohlen, die [Skype für Business Server 2015 Planungstool](../../management-tools/planning-tool/planning-tool.md)verwendet die [Skype für Business 2015 Planung Kapazitätsrechner für Server](../../management-tools/capacity-planning-calculator.md)und die [Skype für Business Server 2015 Stress and Performance-Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).
+<!-- Deprecated tools
+Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
   
 ## <a name="server-hardware"></a>Serverhardware
 <a name="S_hard"> </a>
@@ -46,14 +47,14 @@ Zur Integration in das Telefonfestnetz (Public Switched Telephone Network, PSTN)
 
 Netzwerkanforderungen für Audio/Video (A / V) in einer Skype für Business Server-Bereitstellung lauten wie folgt:
   
-- Wenn Sie einen einzelnen Edgeserver oder ein Edge-Pool mit DNS-Lastenausgleich bereitstellen, können Sie die _externe_ Firewall zum Ausführen der Netzwerkadressübersetzung (NAT) konfigurieren. Sie können keine NAT ausführen, um die _interne_ Firewall konfigurieren. Weitere Informationen hierzu finden Sie unter [Determining Firewall and 50 k Port Range Requirements](http://technet.microsoft.com/library/3b849dc7-175d-40d1-820d-80e6ade6d332.aspx).
+- Wenn Sie einen einzelnen Edgeserver oder ein Edge-Pool mit DNS-Lastenausgleich bereitstellen, können Sie die _externe_ Firewall zum Ausführen der Netzwerkadressübersetzung (NAT) konfigurieren. Sie können keine NAT ausführen, um die _interne_ Firewall konfigurieren. Weitere Informationen hierzu finden Sie unter [Port und Planung Firewall](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
     
     > [!IMPORTANT]
-    > Wenn Sie einen edgepool haben und ein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie öffentliche IP-Adressen verwenden, auf dem Edge-Servern und können keine NAT für die Server oder Pool an Ihre NAT-fähigen Geräten (beispielsweise eine Firewall Appliance oder LAN wechseln. Weitere Informationen hierzu finden Sie unter [Port-Zusammenfassung – skalierte konsolidierte Edgetopologie mit Hardwarelastenausgleich](http://technet.microsoft.com/library/91213b1e-f875-464b-83e8-fe3a351595a4.aspx). 
+    > Wenn Sie einen edgepool haben und ein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie öffentliche IP-Adressen verwenden, auf dem Edge-Servern und können keine NAT für die Server oder Pool an Ihre NAT-fähigen Geräten (beispielsweise eine Firewall Appliance oder LAN wechseln. Weitere Informationen hierzu finden Sie unter [Edge-Server-Szenarien in Skype für Business Server](../edge-server-deployments/scenarios.md). 
   
 - Wenn Ihre Organisation eine QoS-Infrastruktur (Quality of Service) verwendet, wird das Mediensubsystem auf den Betrieb innerhalb der vorhandenen Infrastruktur ausgelegt. 
     
-- Wenn Sie IPsec (Internet Protocol Security) verwenden, wird empfohlen, IPsec für die Portbereiche zu deaktivieren, die für die Übertragung von A/V-Datenverkehr verwendet werden. Weitere Informationen hierzu finden Sie unter [IPsec-Ausnahmen](http://technet.microsoft.com/library/241f1eca-6f2f-44de-90b1-2cb659cbe27c.aspx).
+- Wenn Sie IPsec (Internet Protocol Security) verwenden, wird empfohlen, IPsec für die Portbereiche zu deaktivieren, die für die Übertragung von A/V-Datenverkehr verwendet werden. Weitere Informationen hierzu finden Sie unter [IPsec-Ausnahmen](#ipsec-exceptions).
     
 Mit folgenden Maßnahmen können Sie optimale Medienqualität sicherstellen:
   
@@ -69,6 +70,33 @@ Mit folgenden Maßnahmen können Sie optimale Medienqualität sicherstellen:
     
 - Schließen Sie für Server, auf denen Antivirensoftware ausgeführt werden alle Server, die in die Ausnahmeliste ein, um eine optimale Leistung und Audioqualität zu gewährleisten Skype für Business Server ausgeführt werden. 
     
+## <a name="ipsec-exceptions"></a>IPSec-Ausnahmen
+
+Für Enterprise-Netzwerken, in dem internetprotokollsicherheit (IPsec) (Siehe IETF RFC 4301 4309) bereitgestellt wurde, muss außerdem IPsec Bereich von Ports für die Übermittlung von Audio-, Video- und panoramavideodaten verwendet deaktiviert werden. Mit dieser Empfehlung sollen Verzögerungen in der Zuweisung von Medienports vermieden werden, die sich aus dem IPsec-Aushandlungsvorgang ergeben könnten.
+
+In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahmen erläutert. 
+
+**Empfohlene IPsec-Ausnahmen**
+|Regelname |Quell-IP |Ziel-IP |Protokoll |Quellport |Zielport |Authentifizierungsanforderung |
+|:--- |:--- |:--- |:--- |:---|:---|:--- |
+|A/V-Edgeserver, intern eingehend|Beliebig  |A/V-Edgeserver, intern|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|A/V-Edgeserver, extern eingehend|Beliebig  |A/V-Edgeserver, extern|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|A/V-Edgeserver, intern ausgehend|A/V-Edgeserver, intern  |A/V-Edgeserver, extern |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|A/V-Edgeserver, extern ausgehend|A/V-Edgeserver, extern |Beliebig |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Vermittlungsserver, eingehend|Beliebig  |Vermittlungsserver |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Vermittlungsserver, ausgehend|Vermittlungsserver  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Konferenzzentrale, eingehend|Beliebig  |Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Konferenzzentrale (ausgehend)|Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|A/V-Konferenzserver, eingehend|Beliebig|Front-End-Server|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|A/V-Konferenzen, ausgehend|Front-End-Server|Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Exchange, eingehend|Beliebig|Exchange Unified Messaging|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Anwendungsfreigabeserver, eingehend|Beliebig|Anwendungsfreigabeserver|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Anwendungsfreigabeserver, ausgehend|Anwendungsfreigabeserver| Beliebig |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Exchange, ausgehend|Exchange Unified Messaging|Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|Clients| Beliebig  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|         |         |         |         |         |         |         |
+
+
 ## <a name="conferencing-network-requirements"></a>Netzwerkanforderungen für Konferenzen
 <a name="Conf_req"> </a>
 
@@ -86,7 +114,7 @@ Aufgrund der Vielzahl an verschiedenen Faktoren, wie z. B. Codecverwendung, Auf
   
 **Bandbreite für Audiocodec**
 
-|**Audiocodec**|**Szenario**|**Audionutzlast Bitrate (Kbit/s)**|**Bandbreite für audionutzlast und IP-Header (Kbit/s)**|**Bandbreite für audionutzlast, IP-Header, UDP, RTP und SRTP (Kbit/s)**|**Bandbreite für audionutzlast, IP-Header, UDP, RTP, SRTP und vorwärtsfehlerkorrektur (Kbit/s)**|
+|**Audiocodec**|**Szenario**|**Bitrate der Audionutzlast (KBit/s)**|**Bandbreite für Audionutzlast und IP-Header (KBit/s)**|**Bandbreite für Audionutzlast, IP-Header, UDP, RTP und SRTP (KBit/s)**|**Bandbreite für Audionutzlast, IP-Header, UDP, RTP, SRTP und Vorwärtsfehlerkorrektur (KBit/s)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |RTAudio, Breitband  <br/> |Peer-to-Peer  <br/> |29.0  <br/> |45.0  <br/> |57,0  <br/> |86,0  <br/> |
 |RTAudio, Schmalband  <br/> |Peer-to-Peer PSTN  <br/> |11,8  <br/> |27,8  <br/> |39,8  <br/> |51,6  <br/> |
@@ -105,7 +133,7 @@ Die Stereoversion des G.722-Codec wird von Systemen verwendet, die auf dem Lync-
   
 **Bandbreite für Videoauflösung**
 
-|**Videocodec**|**Auflösung und Seitenverhältnis**|**Maximale video Nutzlast Bitrate (Kbit/s)**|**Minimale video Nutzlast Bitrate (Kbit/s)**|
+|**Videocodec**|**Auflösung und Seitenverhältnis**|**Bitrate bei maximaler Videonutzlast (KBit/s)**|**Bitrate bei minimaler Videonutzlast (KBit/s)**|
 |:-----|:-----|:-----|:-----|
 |H. 264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15  <br/> |
 |H.264/RTVideo  <br/> |424x240 (16:9))  <br/> 320x240 (4:3  <br/> |350  <br/> |100  <br/> |
@@ -155,7 +183,7 @@ Zusätzlich zu der Bandbreite, die für den RTP-Datenverkehr (Real-Time Transpor
   
 **RTCP-Bandbreite**
 
-|**Media**|**Maximale RTCP-Bandbreite (Kbit/s)**|
+|**Media**|**Maximale RTCP-Bandbreite (KBit/s)**|
 |:-----|:-----|
 |Audio  <br/> |5  <br/> |
 |Video (es wird nur H.264 oder RTVideo gesendet/empfangen)  <br/> |10  <br/> |
@@ -171,9 +199,9 @@ In den folgenden Tabellen Listen auch zusätzliche Bandbreite einen Wert für ei
   
 In den folgenden Tabellen finden Sie Werte für verschiedene Szenarien.
   
-**A/v-Kapazitätsplanung für Peer-zu-Peer-Sitzungen**
+**Planen der Audio/Videokapazität für Peer-to-Peer-Sitzungen**
 
-|**Media**|**Codec**|**Typische streambandbreite (Kbit/s)**|**Maximale streambandbreite ohne FEC**|**Maximale streambandbreite mit FEC**|
+|**Media**|**Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |RTAudio, Breitband  <br/> |39,8  <br/> |62  <br/> |91  <br/> |
 |Audio  <br/> |RTAudio, Schmalband  <br/> |29,3  <br/> |44,8  <br/> |56,6  <br/> |
@@ -183,9 +211,9 @@ In den folgenden Tabellen finden Sie Werte für verschiedene Szenarien.
 |Panoramavideo beim Aufruf von Skype für Business Server-Endpunkte  <br/> |H. 264  <br/> |190  <br/> |2010 (für eine maximale Auflösung von 1920x288)  <br/> |Bereits enthalten  <br/> |
 |Panoramavideo beim Aufruf von Lync 2010-Endpunkten  <br/> |RTVideo  <br/> |190  <br/> |510 (für eine maximale Auflösung von 960x144)  <br/> |Bereits enthalten  <br/> |
    
-**Audio/Videokapazität für Konferenzen planen**
+**Planen der Audio-/Videokapazität für Konferenzen**
 
-|**Media**|**Typischer codec**|**Typische streambandbreite (Kbit/s)**|**Maximale streambandbreite ohne FEC**|**Maximale streambandbreite mit FEC**|
+|**Media**|**Typischer Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |G. 722  <br/> |46.1  <br/> |100.6  <br/> |164.6  <br/> |
 |Audio  <br/> |Siren  <br/> |25,5  <br/> |52.6  <br/> |68.6  <br/> |
@@ -202,7 +230,7 @@ Für das Hauptvideo besteht die typische Streambandbreite aus der aggregierten B
   
 Beim Erstellen von, die Gallery Ansicht verwendet, um einer Konferenz mit mehreren Teilnehmern, bandbreitenauslastung nimmt Anfangs als Teilnehmer beitreten, und nimmt dann Auflösungen abgelegt werden, das Maximum angepasst. 
   
-||**2 Teilnehmer**|**3 Teilnehmer**|**4 Teilnehmer**|**5 Teilnehmer**|**6 Teilnehmer**|
+||**2 Teilnehmer**|**3 Teilnehmer**|**4 Teilnehmer**|**5 Teilnehmer**|**6 Teilnehmer**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Maximale Auflösungen empfangen** <br/> |1920 x 1080  <br/> |1280 x 720  <br/> |640 x 360  <br/> |640 x 360 320 x 240  <br/> |640 x 360 320 x 240  <br/> |
 |**Durchschnittliche Gesamtbitrate** <br/> |2128  <br/> |4050  <br/> |1304  <br/> |1224  <br/> |1565  <br/> |
@@ -210,9 +238,9 @@ Beim Erstellen von, die Gallery Ansicht verwendet, um einer Konferenz mit mehrer
    
 Die typische Streambandbreite für Panoramavideos basiert auf Geräten, die Panoramavideos mit einer Auflösung von 960x144 streamen. Wenn Sie Geräte mit einer Auflösung von 1920x288 verwenden, sollte sich die typische Bandbreite erhöhen. 
   
-**Audio Capacity Planning for PSTN**
+**Planen der Audiokapazität für PSTN**
 
-|**Media**|**Typischer codec**|**Typische streambandbreite (Kbit/s)**|**Maximale streambandbreite ohne FEC**|**Maximale streambandbreite mit FEC**|
+|**Media**|**Typischer Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |G. 711 (einschließlich PSTN-Teilnehmer in Konferenzen)  <br/> |64.8  <br/> |97  <br/> |161  <br/> |
 |Audio  <br/> |RTAudio, Schmalband  <br/> |30,9  <br/> |44,8  <br/> |56,6  <br/> |
@@ -225,7 +253,7 @@ Die Angaben zur Netzwerkbandbreite in diesen Tabellen gelten nur für unidirekti
 Bei der Dienstqualität (Quality of Service, QoS) handelt es sich um eine Netzwerktechnologie, die in einigen Organisationen zum Bereitstellen einer optimalen Benutzerfreundlichkeit für die Audio- und Videokommunikation verwendet wird. QoS kommt am häufigsten in Netzwerken mit beschränkter Bandbreite zum Einsatz, bei denen eine große Anzahl Netzwerkpakete um eine relativ geringe Bandbreite konkurrieren. Die Dienstqualität bietet Administratoren die Möglichkeit, Pakete mit Audio- oder Videodaten höhere Prioritäten zuzuweisen. Indem diesen Paketen eine höhere Priorität zugewiesen wird, kann die Audio- und Videokommunikation schneller und mit weniger Unterbrechungen ausgeführt werden als Netzwerksitzungen, in denen Dateiübertragungen, Webbrowsen oder Datenbanksicherungen erfolgen. Dies wird dadurch erreicht, dass den Netzwerkpaketen, die für Dateiübertragungen oder Datenbanksicherungen verwendet werden, eine „Best Effort“-Priorität zugewiesen wird.
   
 > [!NOTE]
-> In der Regel wird die Dienstqualität nur auf Kommunikationssitzungen innerhalb Ihres internen Netzwerks angewendet. Beim Implementieren von QoS konfigurieren Sie die Server und Router für die Unterstützung der Paketmarkierung auf eine bestimmte Art und Weise, die im Internet oder in anderen Netzwerken im Normalfall nicht unterstützt wird. Selbst wenn die Dienstqualität in anderen Netzwerken unterstützt wird, gibt es keine Garantie dafür, dass sie auf dieselbe Art und Weise wie der Dienst in Ihrem Netzwerk konfiguriert ist. Beim Anwenden von MPLS sind Sie an Ihren MPLS-Anbieter gebunden. 
+> In der Regel wird die Dienstqualität nur auf Kommunikationssitzungen innerhalb Ihres internen Netzwerks angewendet. Beim Implementieren von QoS konfigurieren Sie die Server und Router für die Unterstützung der Paketmarkierung auf eine bestimmte Art und Weise, die im Internet oder in anderen Netzwerken im Normalfall nicht unterstützt wird. Selbst wenn Quality of Service in anderen Netzwerken unterstützt wird, ist gibt es keine Garantie, dass QoS auf genau die gleiche Weise konfiguriert werden soll, der Dienst konfiguriert. Beim Anwenden von MPLS sind Sie an Ihren MPLS-Anbieter gebunden. 
   
 Skype für Business Server keine QoS erforderlich, aber es wird dringend empfohlen. Wenn Paket Datenverluste auftreten im Netzwerk auftreten sind Ihrer Lösung mehr Bandbreite hinzufügen oder QoS zu implementieren. Wenn Sie nicht mehr Bandbreite hinzufügen können, ist das Problem nur mit Dienstqualität zu lösen.
   
@@ -250,18 +278,13 @@ Skype für Business Server bietet umfassende Unterstützung für QoS:, dass bede
 > [!NOTE]
 > Wenn Sie Windows Server 2012 oder Windows Server 2012 R2 verwenden möglicherweise Sie Interesse an den neuen Satz von Windows PowerShell-Cmdlets zum Verwalten von QoS auf dieser Plattform verfügbar. Weitere Informationen finden Sie unter [Netzwerk QoS-Cmdlets in Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379). 
   
-QoS wird in das Whitepaper [Netzwerkplanung, Überwachung und Problembehandlung von Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) mit weiteren Details und Tiefe ebenfalls diskutiert. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Kriterien für die Skype für Business Server 2015 unverändert.
+QoS wird in das Whitepaper [Netzwerkplanung, Überwachung und Problembehandlung von Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) mit weiteren Details und Tiefe ebenfalls diskutiert. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Kriterien für die Skype für Business Server unverändert.
   
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="man_QOS"> </a>
 
-#### 
-
-[Planen von IPv6 in Skype for Business](ipv6.md)
+[Plan für IPv6 in Skype for Business](ipv6.md)
   
-[Lastenausgleich für Anforderungen für Skype für Unternehmen](load-balancing.md)
+[Anforderungen an den Lastenausgleich für Skype for Business](load-balancing.md)
   
-[DNS-Anforderungen für Skype für Business Server 2015](dns.md)
-  
-[Ports und Protokolle-Anforderungen für Server](ports-and-protocols.md)
-
+[DNS-Anforderungen für Skype für Business Server](dns.md)

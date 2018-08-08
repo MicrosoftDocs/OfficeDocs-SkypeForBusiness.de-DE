@@ -13,22 +13,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
-description: 'Zusammenfassung: Überprüfen der Aspekte beim Port-Nutzung vor der Implementierung von Skype für Business Server 2015.'
-ms.openlocfilehash: 4bf9b7f9f1d0d0b99a8add76c4f73d4adcebea16
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Überprüfen der Aspekte beim Port-Nutzung vor der Implementierung von Skype für Business Server.'
+ms.openlocfilehash: 4d6a6096ea4f98f41a66173058743ae7d134e997
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996893"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports und Protokolle-Anforderungen für Server
  
-**Zusammenfassung:** Überprüfen der Aspekte beim Port-Nutzung vor der Implementierung von Skype für Business Server 2015.
+**Zusammenfassung:** Überprüfen der Aspekte beim Port-Nutzung vor der Implementierung von Skype für Business Server.
   
 Skype für Business Server erfordert, dass bestimmte Ports der externen und internen Firewall geöffnet sein. Wenn IPsec (Internet Protocol Security) in Ihrer Organisation bereitgestellt wird, muss außerdem IPsec für den Portbereich, der zur Übermittlung von Audio-, Video- und Panoramavideodaten verwendet wird, deaktiviert werden. 
   
-Dies mag ein Bit schwierige zunächst, den schwierigsten für die Planung, dies ist möglich, der [Skype für Business Server 2015 Planungstool](https://www.microsoft.com/en-us/download/details.aspx?id=50357)verwenden. Nachdem Sie den Assistenten Fragen zu welche Features, den, die Sie verwenden möchten durchlaufen haben, für jeden Standort, den Sie definieren können Sie zum Anzeigen des Berichts Firewall innerhalb der Edgeverwaltungsbericht, und verwenden Sie die Informationen aufgelistet sind, um Yourfirewall Regeln zu erstellen. Sie können auch viele mit den Namen und die IP-Adressen verwendet, ausführliche [Überprüfung der Firewallbericht](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)finden Sie unter anpassen. Berücksichtigende Denken Sie können Exportieren der Edgeverwaltungsbericht in einer Excel-Kalkulationstabelle, und der Firewallbericht werden eines der Arbeitsblätter in der Datei. 
+Dies mag ein Bit schwierige zunächst, den schwierigsten für die Planung, dies ist möglich, der [Skype für Business Server 2015 Planungstool](https://go.microsoft.com/fwlink/p/?LinkID=282725)verwenden. Nachdem Sie den Assistenten Fragen zu welche Features, den, die Sie verwenden möchten durchlaufen haben, für jeden Standort, den Sie definieren können Sie zum Anzeigen des Berichts Firewall innerhalb der Edgeverwaltungsbericht, und verwenden Sie die Informationen aufgelistet sind, um Yourfirewall Regeln zu erstellen. Sie können auch viele mit den Namen und die IP-Adressen verwendet, ausführliche [Überprüfung der Firewallbericht](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)finden Sie unter anpassen. Berücksichtigende Denken Sie können Exportieren der Edgeverwaltungsbericht in einer Excel-Kalkulationstabelle, und der Firewallbericht werden eines der Arbeitsblätter in der Datei. 
   
 Sie können auch die Informationen in diesen Tabellen in Diagrammform mithilfe Protokollarbeitsauslastungen Poster von Artikel [Technical Diagrams für Skype für Business Server 2015](../../technical-diagrams.md) verknüpft suchen.
+> [!NOTE]
+> - Skype für Business Online-Benutzer sollten auf [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)verweisen. 
+> - Sie können Hardware- oder Firewalls, es ist nicht erforderlich, bestimmte Modelle oder Versionen. Wichtig ist, welche Ports weißen Liste enthalten sind, sodass die Firewall beeinträchtigt wird nicht das Funktionieren des Skype für Business Server.
   
 ## <a name="port-and-protocol-details"></a>Port- und Protokolldetails
 
@@ -43,7 +47,7 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
   
 **Erforderliche Serverports (nach Serverrolle)**
 
-|**Serverrolle**|**Dienstname**|**Port**|**Protokoll**|**Notizen**|
+|**Serverrolle**|**Name des Diensts**|**Port**|**Protokoll**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
 |Alle Server  <br/> |SQL-Browser  <br/> |1434  <br/> |UDP  <br/> |SQL-Browser für die lokal replizierte Kopie der Datenbank des zentralen Verwaltungsspeichers.  <br/> |
 |Front-End-Server  <br/> |Skype für Business Server Front-End-Dienst  <br/> |5060  <br/> |TCP  <br/> |Wird optional von Standard Edition- und Front-End-Servern für statische Routen zu vertrauenswürdigen Diensten wie z. B. Servern für die Remoteanrufsteuerung verwendet.  <br/> |
@@ -84,7 +88,7 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 |Front-End-Server, auf dem zentralen Verwaltungsspeicher befindet,  <br/> | Skype für Business Server Master-Replikations-Agent-Dienst <br/> |445  <br/> |TCP  <br/> |Wird zum Pushen von Konfigurationsdaten aus dem zentralen Verwaltungsspeicher auf Servern mit Skype für Business Server verwendet.  <br/> |
 |Alle Server  <br/> |SQL-Browser  <br/> |1434  <br/> |UDP  <br/> |SQL-Browser für die lokal replizierte Kopie der zentralen speichern Daten in der lokalen SQL Server-Instanz  <br/> |
 |Alle internen Server  <br/> |Verschiedene  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Für Audiokonferenzen auf allen internen Servern verwendeter Medienportbereich. Von allen Servern, die beendet Audio verwendet: Front-End-Servern (für Skype für Business Server-konferenzzentralendienst, Skype für Business Server-konferenzankündigungsdienst und Skype für Business Server a/v-Konferenzdienst), und Vermittlungsserver.  <br/> |
-|Office Web Apps-Server  <br/> ||443  <br/> ||Wird von Skype für Business Server 2015 Verbindung mit Office Web Apps Server verwendet.  <br/> |
+|Office Web Apps-Server  <br/> ||443  <br/> ||Verbindung mit Office Web Apps Server verwendet durch Skype für Business Server.  <br/> |
 |Directors  <br/> |Skype für Business Server Front-End-Dienst  <br/> |5060  <br/> |TCP  <br/> |Wird optional für statische Routen zu vertrauenswürdigen Diensten wie z. B. Servern für die Remoteanrufsteuerung verwendet.  <br/> |
 |Directors  <br/> |Skype für Business Server Front-End-Dienst  <br/> |444  <br/> |HTTPS  <br/> TCP  <br/> |Serverübergreifende Kommunikation zwischen Front-End und Director. Darüber hinaus Clientzertifikat veröffentlichen (auf Front-End-Servern) oder überprüfen, ob das Clientzertifikat bereits veröffentlicht wurde.  <br/> |
 |Directors  <br/> |Skype für Business Server-webkompatibilitätsdienst  <br/> |80  <br/> |TCP  <br/> |Wird für die anfängliche Kommunikation von Directors zu den FQDNs der Webfarm (den von den IIS-Webkomponenten genutzten URLs) verwendet. Im Normalbetrieb wird auf HTTPS-Datenverkehr mit Port 443 und Protokolltyp TCP umgeschaltet.  <br/> |
@@ -103,9 +107,9 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
   
 Für Pools, in denen nur Hardwaregeräte zum Lastenausgleich (kein DNS-Lastenausgleich) verwendet werden, zeigen die folgenden Tabellen die Ports, die für die Hardwaregeräte zum Lastenausgleich geöffnet werden müssen.
   
-**Hardware Ports zum Lastenausgleich bei Verwendung nur Hardwaregeräte zum Lastenausgleich**
+**Ports für Hardwaregeräte zum Lastenausgleich, wenn nur ein Hardwarelastenausgleich verwendet wird**
 
-|**System zum Lastenausgleich**|**Port**|**Protokoll**|
+|**Lastenausgleichssystem**|**Port**|**Protokoll**|
 |:-----|:-----|:-----|
 |Front-End-Server-Lastenausgleichssystem  <br/> |5061  <br/> |TCP (TLS)  <br/> |
 |Front-End-Server-Lastenausgleichssystem  <br/> |444  <br/> |HTTPS  <br/> |
@@ -130,9 +134,9 @@ Für Pools, in denen nur Hardwaregeräte zum Lastenausgleich (kein DNS-Lastenaus
    
 Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss auch ein Hardwaregerät zum Lastenausgleich bereitgestellt werden. In der folgenden Tabelle werden die Ports aufgeführt, die auf diesen Hardwaregeräten geöffnet sein müssen.
   
-**Hardware Ports zum Lastenausgleich bei Verwendung von DNS-Lastenausgleich**
+**Ports für Hardwaregeräte zum Lastenausgleich, wenn DNS-Lastenausgleich verwendet wird**
 
-|**System zum Lastenausgleich**|**Port**|**Protokoll**|
+|**Lastenausgleichssystem**|**Port**|**Protokoll**|
 |:-----|:-----|:-----|
 |Front-End-Server-Lastenausgleichssystem  <br/> |80  <br/> |HTTP  <br/> |
 |Front-End-Server-Lastenausgleichssystem  <br/> |443  <br/> |HTTPS  <br/> |
@@ -174,7 +178,7 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahm
   
 **Empfohlene IPsec-Ausnahmen**
 
-|**Regelname**|**Quell-IP**|**Ziel-IP-**|**Protokoll**|**Quellport**|**Zielport**|**Authentifizierungsanforderung**|
+|**Regelname**|**Quell-IP**|**Ziel-IP**|**Protokoll**|**Quellport**|**Zielport**|**Authentifizierungsanforderung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |A/V-Edgeserver, intern eingehend  <br/> |Beliebig  <br/> |A/V-Edgeserver, intern  <br/> |UDP und TCP  <br/> |Beliebig  <br/> |Beliebig  <br/> |Nicht authentifizieren  <br/> |
 |A/V-Edgeserver, extern eingehend  <br/> |Beliebig  <br/> |A/V-Edgeserver, extern  <br/> |UDP und TCP  <br/> |Beliebig  <br/> |Beliebig  <br/> |Nicht authentifizieren  <br/> |

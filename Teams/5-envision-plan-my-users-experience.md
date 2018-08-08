@@ -2,20 +2,22 @@
 title: Planen der Benutzer den Endbenutzer von Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Wählen Sie Teams Clientanwendungen, Plan für die Qualität der Endpunkt, Empfehlungen für die Bereitstellung von Wi-Fi-Endpunkten und Audiogeräte auswählen möchten.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 866395a4dd58016c0989ec4b34f602877251d021
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 4e328f591ac97ace73b2cd2bb45aab61db75f064
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695350"
 ---
 # <a name="plan-my-users-experience"></a>Planen von meiner Benutzer-Erlebnis
 

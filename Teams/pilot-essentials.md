@@ -1,241 +1,110 @@
 ---
-title: Microsoft Teams als Pilotprojekt neben Skype for Business
-author: LolaJacobsen
-ms.author: lolaj
+title: Pilot Microsoft-Teams, zusammen mit Skype for Business - Microsoft-Teams
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/19/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-description: Anleitung zum Starten eines Microsoft Teams-Pilotprojekts, um die gesamte Funktionalität zu erfassen, die Teams Ihrem Unternehmen bieten kann, während Skype for Business weiterhin genutzt wird.
+ms.reviewer: dearbeen
+description: Anleitung zum Starten eines Pilotprojekts Microsoft-Teams, um alle untersuchen, die Teams kann Ihrem Unternehmen bieten, während Sie weiterhin Skype für Unternehmen verwenden
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccb09692991eeacc43d035389d245a0735030f1c
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 35ec24edb381f48992c2f558d1b7e68b1ffd6d74
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20393927"
 ---
-<a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Microsoft Teams als Pilotprojekt neben Skype for Business
-============================================
+![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
 
-Als Skype for Business- und Office 365-Bestandskunde ist Ihre Organisation bereits ein Teil der modernen Arbeitsplatzbewegung, die Benutzer ermutigt, kreativer, innovativer und produktiver zu sein. Mit mehr Funktionalität, wie zum Beispiel Zusammenarbeit-Hubs für Teamarbeit, App-Integration und Dateispeicherung, geht Microsoft Teams sogar noch einen Schritt weiter. Wenn Sie die aktuellen Funktionen von Skype for Business mit dem Mehrwert von Teams vereinen, haben Sie eine leistungsstarke Kommunikations- und Zusammenarbeitslösung, mit der die Arbeit der Benutzer revolutioniert werden kann.
+Dieser Artikel ist Teil der Bereitstellung und Implementierung Phasen des Ihrer Reise Upgrade und teilt Einblicke in die für die Ausführung einer effektiven Pilot. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten ausgeführt haben:
 
-Ihre Teams-Reise sowie die Empfehlungen für zukünftige Handlungsschritte basieren auf den Ergebnissen Ihres Pilotprojekts. Während Sie weiterhin Skype for Business nutzen, empfehlen wir Ihnen zu ermitteln, welchen Mehrwert Teams für Ihre Organisation darstellen kann. Da sich einige der Funktionen von Microsoft Teams und Skype for Business überschneiden, sollten Sie mit einem Benutzerpilotprojekt beginnen. Das Pilotprojekt ist eine Bereitstellung mit geringem Umfang, mit der Sie die Interoperabilität mit Skype for Business in Ihrer Umgebung überprüfen und herausfinden können, wie Ihre Endbenutzer ihre Produktivität steigern und dabei mögliche Probleme bei der gleichzeitigen Ausführung beider Produkte minimieren können.
+-   [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
+-   [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
+-   [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
+-   [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [Die Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+-   [Ihre Organisation vorbereitet](https://aka.ms/SkypeToTeams-UserReadiness)
 
-Für Skype for Business-Bestandskunden maßgeschneidert bietet diese Ressource Anleitungen und empfohlene Vorgehensweisen für Ihre Reise. Dabei können Sie:
-
--   Die Aktionsschritte und Empfehlungen personalisieren, um die Anforderungen Ihres Organisationsprofils bestmöglich zu erfüllen.
-
--   Die unter [Pilot Essentials Resources](https://go.microsoft.com/fwlink/?linkid=859067) verfügbaren Kommunikations- und Feedbackvorlagen herunterladen und anpassen, um zu gewährleisten, dass Ihre Botschaft bei Ihren Endbenutzern ankommt.
-
-<a name="get-started"></a>Erste Schritte
-===========
-
-Das zur Überprüfung der Organisationsbereitschaft entworfene Pilotprojekt stellt eine realistische Überprüfung Ihrer Ressourcen und Vorgehensweisen dar, die im größeren Umfang erforderlich ist, bevor ein Rollout in der gesamten Organisation vorgenommen werden kann.  Um Ergebnisse auf einem hohen realistischen Niveau zu erzielen, sollte das Pilotprogramm eine Imitation davon sein, wie Benutzer in der heutigen Zeit kommunizieren und zusammenarbeiten, und ein ideales Bereitstellungszenario mit Skype for Business und Microsoft Teams bieten. Unabhängig davon, ob Ihre Organisation die gleichzeitige Ausführung von Skype for Business und Teams plant oder zu einem späteren Zeitpunkt zu Teams wechseln möchte, kann ein Pilotprojekt Ihrer Organisation helfen, den richtigen Pfad zu beschreiten. *Los geht's!*
-
-![Diagramm der Prozessschritte für ein Pilotprojekt](media/pilot_essentials_image3.png)
-
-## <a name="step-one-define-your-pilot-program-logistics"></a>Schritt 1: Definieren der Logistik für das Pilotprogramm
-
-Ein formales Pilotprogramm sollte Ihre weiteren Schritte festlegen und ein Projektteam, [INTELLIGENTE](https://wikipedia.org/wiki/SMART_criteria) Ziele, einen festen Zeitplan, einen detaillierten Testplan und Feedbackmechanismen enthalten. Nehmen Sie sich Zeit für diese Punkte, und arbeiten Sie die Logistik für das Pilotprogramm aktiv aus.
-
--   Wer sind die Projektbeteiligten für Ihr Pilotprojekt?
-
-    -   Zu den Projektbeteiligten sollten auch Personen mit Verantwortung für den Erfolg des Pilotprojekts zählen. Beispiele:
-
-        -   **Befürworter aus der Führungsebene**: Gesamtverantwortlich für den Erfolg der Zusammenarbeits- und Kommunikationslösungen in Ihrer Organisation.
-
-        -   **Projektleitung (Leitung des Pilotprojekts)**: Verwaltet die Logistik für das Pilotprojekt und koordiniert die Projektbeteiligten.
-
-        -   **IT-Spezialist**: Stellt die Netzwerkbereitschaft für Ihr Teams-Pilotprojekt sicher.
-
-        -   **Leiter des Supports**: Verantwortlich für das Helpdesk für Teams.
-
-        -   **Marketing-/Kommunikationsleiter**: Verantwortlich für die Bewusstseinsbildung und begleitende Schulungen.
-
-<!-- -->
-
--   Was sind Ihre Geschäftsszenarien für Teams und Skype for Business?
-
-    -   Informationen aus Anwendungsfällen sind wichtig für Ihren Testplan. Prüfen Sie Ihre aktuellen [Nutzungsberichte](https://support.office.com/article/Active-user-in-Office-365-usage-reports-093A6D0D-890B-489E-9F46-B15687D3FE4F) für Skype for Business bzw. bilden Sie eine Fokusgruppe mit Ihren wichtigsten Skype for Business-Benutzern, um die aktuellen Zusammenarbeits- und Kommunikationsszenarien besser zu verstehen.
-
--   Sind Sie mit der Teams-Roadmap vertraut?
-
-    -   Nehmen Sie sich Zeit, um die Teams-[Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) zu verstehen und sich über den Umfang und die Zeitplanung Ihres Pilotprojekts zu informieren. Planen Sie Ihr Pilotprojekt und die Tests der Funktionen/Szenarien entsprechend, um eine realistische Validierung der Anwendbarkeit innerhalb Ihrer Organisation sicherzustellen.
-
--   Was sind die Ziele und Erfolgskriterien für Ihr Teams-Pilotprojekt?
-
-    -   Die Festlegung klarer Ziele bietet Ihnen einen Mechanismus, mit dem Sie den Erfolg messen und optimale Vorgehensweisen für die Zukunft definieren können. Ziele und Erfolgskriterien als Beispiele skizziert finden Sie in den [Pilot Essentials Resources](https://go.microsoft.com/fwlink/?linkid=859067).
-
--   Wie lautet die Zeitschiene für Ihr Pilotprojekt?
-
-    -   Definieren Sie ein eindeutiges Start- und Enddatum für Ihr Pilotprojekt, um die Dynamik beizubehalten und sich Zeit für die Auswertung der Ergebnisse zu nehmen. Für das Pilotprojekt wird eine Mindestdauer von 30 Tagen empfohlen. Fangen Sie klein an, und steigern Sie den Umfang Ihres Pilotprojekts nach Bedarf – entweder mit weiteren Arbeitsauslastungen/Funktionen oder zusätzlichen Benutzern. Nehmen Sie sich Zeit für die Auswertung der Ergebnisse, und passen Sie Ihr Pilotprojekt je nach Fortschritt an. Möglicherweise entscheiden Sie sich sogar für die Ausführung von weiteren Pilotprojekten, wenn Teams-Funktionen nach Vorgabe der Roadmap veröffentlicht werden.
+# <a name="conduct-a-user-pilot"></a>Durchführen einer Pilotphase Benutzer
 
 
+Durch die Bereitstellung von neue Technologien Geschäftswert wie Kosten zu sparen, Security Compliance, Mitarbeiterzufriedenheit und Betriebseffizienz realisieren lassen, aber es kann auch die Produktivität und organisatorische Infrastruktur (Ihrer Benutzer beeinflussen Ihr Netzwerk). Vor der Aktivierung der neuen Technologie in Ihrer Organisation, Durchführen eines Pilotprojekts formelle Benutzer. So, wie Sie einen kleinen Patch der Farbe an einer Wand vor den gesamten Raum painting zeichnen würden, würde testen eine umfassende Einführung in kleinerem Maßstab durch das Abhalten einer Pilotphase technische überprüft und zur benutzerbereitschaft, identifizieren und Probleme zu mindern, und eine erfolgreiche sicherzustellen Implementierung der gesamten Organisation. 
 
-> [!TIP]
-> Ihr Pilotprojekt sollte in Ihrer Produktionsumgebung ausgeführt werden, um optimale Ergebnisse zu erzielen. Vergewissern Sie sich, dass alle technischen Voraussetzungen erfüllt sind, bevor mit dem Pilotprojekt beginnen. Stellen Sie zum Beispiel sicher, dass die Benutzer Ihres Pilotprojekts neue Teams und Kanäle erstellen können.
+Um möglichst realistische Ergebnisse zu erzielen, sollte der Pilotphase tatsächlichen Benutzer umfassen, imitieren, wie sie kommunizieren und zusammenarbeiten, und vergewissern Sie sich technische und Benutzerfunktionen. Ob es sich bei Ihrer Organisation erwägen, solche aufrufen oder Konferenzen Skype für Unternehmen und Teams nebeneinander, in der Zukunft Durchführen eines Upgrades auf Teams oder zum Bereitstellen neuen Funktionen ausführen, kann ein Pilotprojekts identifizieren den richtigen Pfad vorwärts für Ihre Organisation. Manchmal Phase 1 des eine Einführung in Betracht, die ideale evaluieren nutzt die Vorbereitung, den, die Sie bereits gestartet haben, und Ihre definierten Plan mit einer Benutzergruppe implementiert. 
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Nächste Aktionen:</strong><ul><li>Stellen Sie Ihr Team für das Pilotprogramm zusammen</li><li>Benennen Sie die Geschäftsszenarien und Funktionen, die Sie als Teil Ihres Pilotprojeks testen</li><li>Formulieren Sie abschließend Ihre Erfolgskriterien und Zielvorgaben</li><li>Legen Sie einen festen Zeitraum für das Pilotprojekt fest</li></ul></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Wie verwenden Sie ein Pilotprojekts zum Projekt Richtung informieren?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Als Nächstes|<ul><li>Verwenden der folgenden Anleitung zum Entwerfen und Ausführen der formelle Pilotphase.</li></ul>|
 
-## <a name="step-two-select-your-pilot-participants"></a>Schritt 2: Wählen Sie die Teilnehmer für das Pilotprojekt aus
+> [!Tip]
+> Verwenden Sie die Beispiel- [pilot-Ressourcen](https://aka.ms/UpgradeSuccessKit) zu entwerfen Ihrer Kommunikation, testen Sie Planung und Umfrage zu.
 
-Eine der wichtigsten Aufgaben bei der Planung eines Pilotprojekts ist die gründliche Auswahl der Teilnehmer. Eine ideale Pilotprojektgruppe besteht aus repräsentativen Benutzern aller Nutzungsszenarien, die zur Bewertung der Organisationsanforderungen und der beabsichtigten Nutzung von Funktionssätzen entworfen wurden.  Dazu zählen Repräsentanten aus einer Reihe von Rollen innerhalb Ihrer Organisation (leitende Administratoren, Management, Projektmanager, Hauptbenutzer von Konferenzen), verschiedene Abteilungen/Geschäftseinheiten, mehrere Regionen (falls anwendbar). Das Pilotprojekt sollte auf mehrere wichtige Personen in der IT-Abteilung, die Schulungsabteilung und das Helpdesk ausgeweitet werden.  Dadurch kann eine gründliche Auswertung stattfinden und die Projektmanagement-Ressourcen können umfassend optimiert werden.
+## <a name="1-outline-pilot-logistics"></a>1. pilot Logistik Gliederung
 
-Zwecks optimaler Auswertung wird die Einbeziehung Ihrer Benutzerbasis zu 2 bis 5 % oder mindestens 50 Benutzer vorgeschlagen. Die Auswahl der Benutzer sollte repräsentativ sein. Je nach der für das Pilotprojekt vorgesehenen Zeitschiene entscheiden Sie sich möglicherweise anfänglich für nur einige wenige Benutzern und beziehen im Laufe der Zeit immer mehr Benutzer in das Pilotprojekt mit ein.
+Ein erfolgreicher Pilot wurde Start- und Enddatumsangaben und zur Messung des Erfolgs [klar definierte Ziele](upgrade-define-project-scope.md#project-goals) definiert. Diese Ziele sollte mit dem Bereich des Projekts breitere ausrichten, wie Sie wann dokumentiert Sie [Ihr Projekt Bereich definiert](upgrade-define-project-scope.md), und verwendet werden, um Ihrem Pfad vorwärts nach Abschluss der Pilotphase zu informieren. Sie sollten auch sicherstellen, dass Sie die richtigen Beteiligten für die Dauer des Projekts eingeschlossen haben.  Sie sollten sicherstellen, dass genügend Zeit zum Ausführen des Pilotprojekts und Bewerten der Auswirkungen: mindestens 30 Tage empfohlen.
 
+Kleine starten, und fügen Sie Ihrem Piloten entsprechend –, ob durch Hinzufügen von arbeitsauslastungen oder Features oder weitere Benutzer – Zeit bis zum Bewerten der Ergebnisse, und passen Sie Durchlaufen der Pilotphase vornehmen. Sie möglicherweise auch nachfolgende Piloten Ausführen als pro Übersicht über die neuen Features von Teams freigegeben sind optional.
 
-> [!TIP]
-> Achten Sie bei der Auswahl der Teilnehmer für Ihre Pilotprojektgruppe darauf, dass Sie Benutzer mit einer hohen Akzeptanz für Skype for Business sowie Benutzer bzw. Gruppen einbeziehen, die aller Wahrscheinlichkeit von den Funktionen für Teamarbeit von Teams profitieren. Ziehen Sie die Verwendung eines aktuellen teamübergreifenden Arbeitsstreams für die Auswahl der Pilotprojektbenutzer sowie einen realistischen Nutzungsfall für Ihren Testplan in Betracht.
+## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. Wählen Sie die Teilnehmer an der Pilotphase und Testszenarien
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Nächste Aktion:</strong> Identifizieren Sie Ihre Pilottest Gruppen [Wählen Sie Benutzer für Ihren Piloten Teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) Anweisungen verwenden.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+Eine der wichtigsten Aufgaben bei der Planung eines Pilotprojekts ist die gründliche Auswahl der Teilnehmer. Beachten Sie, dass Teams ist für die Zusammenarbeit optimiert sein, weshalb Sie sicher, dass Teilnehmer an der Pilotphase nicht allein basierend auf Rollen oder Rollen, aber auch basierend auf dem Projekt und die Arbeit Cross-Teams. Eine hervorragende ist der Beteiligten und Abteilungsleitern für tatsächliche Projekte aufgefordert, den Sie in Teams überprüfen können. Ein Beispiel für ein Projekt rollenbasierte möglicherweise Teams mit Ihrer Organisation sales verwenden, um sicherzustellen, dass das Feld Vertriebsmitarbeiter auf einfache Weise die Ressourcen zugreifen können, die Sie benötigen und Freigeben von Insights für andere Mitglieder dar. Ein Beispiel für projektbasierte Arbeit möglicherweise ein Produkt Einführung Ereignis mit der Marketing, Schulungen, Public Relations und Teams Planung von Ereignissen koordinieren. Günstigsten Szenarios, die Sie ausgewählt haben, sollte der Pilotphase an wichtige Personen in erweitern IT, Schulung und den Helpdesk, damit Sie die Lösung bei gleichzeitiger Optimierung vollständig Ressourcen für Projektmanagement sorgfältig überprüfen können.
 
-## <a name="step-three-design-your-test-plan-and-feedback-survey"></a>Schritt 3: Entwerfen Sie Ihren Testplan und Ihre Feedbackumfrage
+> [!Tip]
+> Wenn Sie Ihren Teams bei der Auswahl evaluieren Gruppe Teilnehmer, unbedingt am häufigsten anwesenden Benutzer von Skype für Unternehmen. Wenden Sie sich diese Benutzer zu verstehen, wie sie Skype für Unternehmen heute verwenden, und erstellen Sie einen Testplan, um sicherzustellen, dass Teams ihren aktuellen Anforderungen entsprechen können.
 
-Ein erfolgreiches Pilotprojekt bietet Ihren Teilnehmern klar definierte Aufgabenstellungen sowie eine Feedback-Schleife. Gruppieren Sie Aufgaben, um Ihren Benutzern realitätsnahe Szenarien zu präsentieren, die für ihre täglichen Aktivitäten relevant sind. Möglicherweise möchte Ihre Organisation alle Funktionen auf einmal in einem Pilotprojekt testen, oder sie entscheidet sich für einen graduellen Ansatz (z. B. erst Testen der Zusammenarbeit, dann Besprechungen und anschließend Chats und Anrufe). Stellen Sie sicher, dass Sie über einen offenen Kanal für Feedback verfügen, um den Fortschritt zu verfolgen und die Ergebnisse zu messen. Eine vordefinierte Umfrage ist eine einfache Methode zum Erfassen und Auswerten von Pilotprojektergebnissen und sollte basierend auf den Szenarien und Funktionen im Testplan entworfen werden.
+## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. gestalten Sie Ihre Test Plan und Feedback-Umfrage
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Nächste Aktion</strong>: Entwerfen Sie den unter <a href="https://go.microsoft.com/fwlink/?linkid=859067">Pilot Essentials Resources</a> besprochenen Beispieltestplan sowie die Feedbackumfrage basierend auf den zu testenden Nutzungsfällen und Funktionen.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+Geben Sie für eine erfolgreiche pilot den Teilnehmern klar definierte Aufgaben zusammen mit ihren Feedback geben ihnen eine Möglichkeit. Gruppieren von Vorgängen zusammen, um reale Szenarien für die Benutzer, die Relevanz zu ihrer täglichen Aktivitäten demonstrieren anzubieten. Lassen Sie die Verwendung, die im Handbuch [Assess Organisationseinheit ändern Bereitschaft](https://aka.ms/OrgReadiness) den Test festgelegten Fällen zu planen.
 
-## <a name="step-four-create-your-communications"></a>Schritt 4: Erstellen Sie Ihre Kommunikationen
+Ihre Organisation kann festlegen, dass alle Funktionen auf einmal evaluieren, oder Verwenden einer schrittweisen Methode – beispielsweise Zusammenarbeit zunächst evaluieren, und klicken Sie dann Besprechungen, klicken Sie dann chat und aufrufen. Stellen Sie sicher, dass Sie einen DDE-Kanal öffnen Feedback zum Nachverfolgen des Fortschritts und Messen der Ergebnisse verfügen. Verwenden Sie als eine einfache Möglichkeit zum Erfassen und Bewerten von pilot Ergebnisse einer Umfrage unter den vordefinierten; Das Umfrage Design sollte auf die Szenarien und Features in Ihrem Testplan basieren. 
 
-Schulen Sie die Teilnehmern Ihres Pilotprojekts darüber, was passiert, wann und warum etwas passiert sowie was von ihnen erwartet wird. Schulungen bilden einen wesentlicher Bestandteil des Erfolgs Ihres Projekts. Um eine maximale Begeisterung der Teilnehmer zu erzielen, sollten Sie den Wert für Endbenutzer bei der Kommunikation mit den Pilotprojektteilnehmern immer wieder herausstellen.
+## <a name="4-create-your-communications-plan"></a>4. erstellen Sie Ihrer Kommunikationsplan
 
-Stellen Sie zudem sicher, dass Ihre Kommunikation immer Links zu Schulungen und Support beinhalten. So können die Teilnehmer im Verlauf des Pilotprojekts auf zusätzliche Informationen zugreifen. Eine gute Hilfethema eingeschlossen ist [Schalter, mit dem Teams von Skype für Unternehmen](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), der zeigt einige bekannte Funktionen als auch einige neue Features, die nur in Microsoft-Teams zur Verfügung stehen.
+Es ist entscheidend für den Erfolg des Pilotprojekts, die Sie informieren Sie die Teilnehmer an der Pilotphase auf was passiert, wann und warum, und was von ihnen erwartet wird. Um das Laufwerk mit Interesse und maximale Teilnahme unbedingt Benutzer einzuschließenden messaging enthält Links zu Schulung und Support, in dem Benutzer zusätzliche Informationen erhalten während der Pilotphase Durchlaufens. Hier sind einige Beispielressourcen für die ersten Schritte mit dem Plan pilot Communications:
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Nächste Aktion</strong>: Passen Sie die unter <a href="https://go.microsoft.com/fwlink/?linkid=859067">Pilot Essentials Resources</a> besprochenen Beispiel-E-Mail-Vorlagen basierend auf den zu testenden Nutzungsfällen und Funktionen an.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+-   [Pilot-Ressourcen](https://aka.ms/UpgradeSuccessKit), einschließlich e-Mail-Vorlagen und Beispielfragen Feedback-Umfrage
+-   [Schalter, mit dem Teams von Skype für Unternehmen](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), eine Quick Start Guide, Skype für Unternehmensbenutzer unterstützen erste Schritte mit Teams
 
-## <a name="step-five-conduct-your-pilot"></a>Schritt 5: Führen Sie Ihr Pilotprojekt durch 
+## <a name="5-conduct-your-pilot"></a>5. Durchführen der Pilotphase
 
-Mit einer gut vorbereiteten Logistik können Sie Ihr Pilotprojekt jetzt starten. Die Durchführung Ihres Pilotprojekts beinhaltet die Kommunikation mit Ihren Pilotprojektteilnehmern, die Überwachung Ihres Netzwerks sowie der Nutzung, um sicherzustellen, das Ihr Netzwerk und Ihre Qualität stabil bleiben, das Sammeln von Teilnehmer-Feedback und die Überprüfung von Helpdesk-Tickets in Bezug auf Fragen zu Teams.
+Mit der Logistik direkten können Sie mit der Pilotphase beginnen. Durchführen des Pilotprojekts enthält Kommunikation mit den Benutzern, monitoring Ihr Netzwerk und Ihre Verwendung, um die Leistung Ihres Netzwerks sicherzustellen und die Anrufqualität bleiben fehlerfrei funktioniert, Sammeln von Feedback von den Teilnehmern, und überprüfen Helpdesk Tickets für Fragen im Zusammenhang mit Teams.
 
-> [!IMPORTANT]
-> Microsoft Teams ist standardmäßig aktiviert. Vergewissern Sie sich dennoch vor Beginn des Pilotprojekts, dass alle Pilotbenutzer für Microsoft Teams aktiviert sind. Lesen Sie auf diese Weise Hilfe [Verwalten des Benutzerzugriffs für Teams](user-access.md).
-> 
+### <a name="tips-for-pilot-success"></a>Tipps für den Erfolg der Pilotphase
+
+Die folgenden Tipps helfen, den Erfolg des Pilotprojekts sicherzustellen:
+-   Bevor Sie mit der Pilotphase beginnen, vergewissern Sie sich, dass alle Teilnehmer an der Pilotphase für den entsprechenden [Koexistenzmodus](https://aka.ms/SkypeToTeams-SetCoexistence) aktiviert sind, den Sie überprüfen möchten.
+-   Treffen Sie wöchentlich, während der Pilotphase mit Ihrer Projektbeteiligten überprüfen Benutzerfeedback, Verwendungsdaten, Daten im Netzwerk und Helpdesk-Tickets, um sicherzustellen, dass der Pilotphase problemlos ausgeführt wird. Nehmen Sie alle Anpassungen vor, je nach Bedarf.
+
+### <a name="suggested-timeline"></a>Vorgeschlagene Zeitachse
 
 Hier ist ein vorgeschlagener Zeitplan für ein 30-tägiges Pilotprojekt:
 
--   Eine Woche vor dem Kickoff des Pilotprojekts: Schreiben Sie die Teilnehmer des Pilotprojekts erstmalig an.
+-   Eine Woche vor der Pilotphase Kickoff: erste Kommunikation an Pilotbenutzern senden.
+-   Tag 1: Senden Sie Kickoff Kommunikation an Pilotbenutzer.
+-   Tag 7: Halten Sie die erste wöchentliche Project Team Prüfpunkt Besprechung.
+-   Tag 14: Senden von Mittelpunkt Kommunikation an die Pilotbenutzer, halten Sie eine wöchentliche Project Team Prüfpunkt Besprechung.
+-   Tag 21: Halten Sie eine wöchentliche Project Team Prüfpunkt Besprechung.
+-   Tag 30: Senden Sie endgültigen Kommunikation an die Pilotbenutzer.
+-   31 – 45 Tagen: Bewerten der pilot Ergebnisse und nächste Schritte planen.
+ 
+## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6. Befunde und bewerten Sie Ihrer Go Forward-plan
 
--   Tag 1: Senden Sie den Teilnehmern des Pilotprojekts die Kickoff-Informationen.
+Nach Abschluss der Pilotphase sich Gedanken darüber machen alle Feedback Umfragen, endgültigen Netzwerk-Statistiken zu sammeln und Tickets für die Analyse für Ihre Ziele unterstützen und bestimmen, ob Sie Ihren Plan Go Forward implementieren können. Sie möglicherweise feststellen, dass Ihre Organisation bereit für eine Bereitstellung ist, oder Sie erweitern, der Pilotphase an mehrere Benutzer möchten des Pilotprojekts zu einem späteren Zeitpunkt, nachdem alle Fragen, die Sie identifiziert haben verringert wurden Laufe werden soll. Beachten Sie, dass der Pilotphase eine hervorragende Möglichkeit zum technischen vorhersehen und Benutzer Ergebnisse in einer Umgebung _gesteuert_ wird. zum Springen zu schnell ein hingegen durchdachte sein.
 
--   Tag 7: Wöchentliche Kontrolle mit dem gesamten Projektteam (Besprechung mit Ihrem Pilotprojektteam zwecks Überprüfung des Benutzerfeedbacks, der Nutzungsdaten, Netzwerkdaten und der Helpdesk-Tickets, um einen reibungslosen Ablauf des Pilotprojekts zu gewährleisten. Nehmen Sie alle erforderlichen Anpassungen vor)
+Wenn Ihre Ergebnisse anzugeben:
 
--   Tag 14: Unterbreiten Sie den Teilnehmern des Pilotprojekts und dem Projektteam die Ergebnisse der Halbzeitevaluierung.
+-   **Ihre pilot Ziele (beispielsweise Benutzerzufriedenheit und Netzwerkqualität) erreicht wurden**, sollten Sie mit der Einführung der nächsten Phase fortfahren können. Je nach den Zielen des Projekts kann dies eine der folgenden sein:
+   -   Erweitern Sie an zusätzliche Teilnehmer des Pilotprojekts
+   -   [Aktivieren von Teams zusammen mit Skype für Unternehmen (**Inseln** Modus) für einige oder alle Ihrer Organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
+   -   [Benutzer von Skype für Unternehmen zu Teams (**nur Teams** Modus) für einige oder alle Ihrer Organisation aktualisieren](https://aka.ms/SkypeToTeams-SetCoexistence)
+-   **Der Pilotphase nicht die Ergebnisse erzielen (z. B., Benutzerzufriedenheit und Netzwerkqualität) möchten,** stellen Sie die entsprechenden Korrekturen zum Plan und der Pilotphase Laufe dauert.
 
--   Tag 21: Wöchentliche Kontrolle mit dem gesamten Projektteam
-
--   Tag 30: Senden Sie den Teilnehmer des Pilotprojekts die abschließenden Informationen.
-
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td><p><strong>Nächste Aktion</strong> Passen Sie die Zeitschienenaktionen basierend auf der Zeitschiene des Pilotprojekts an.</p></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-
-## <a name="step-six-assess-learnings-and-evaluate-go-forward-plan"></a>Schritt 6: Werten Sie die Schulungen und den Plan für die Zukunft an.
-
-Sobald Ihr Pilotprojekt abgeschlossen ist, ist es an der Zeit, das gesamte Feedback, die abschließenden Netzwerkstatistiken und Supporttickets zusammenzutragen, um sie in Bezug auf die Ziele und die Festlegung Ihres Zukunftsplans zu analysieren.
-
-Basierend auf den Ergebnissen finden Sie im Folgenden einige empfohlene Pfade, die Ihre Organisation bei ihrer Reise von Skype for Business nach Teams beschreiten kann:
-
-<table>
-<thead>
-<tr class="header">
-<th align="left">Empfehlungen für die Zukunft</th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>WENN</strong> Ihr Pilotprojekt Folgendes zeigt:</td>
-<td align="left"><strong>DANN</strong> sollten Sie Folgendes in Erwägung ziehen:</td>
-</tr>
-<tr class="even">
-<td align="left"><ul><li>80 % oder mehr Teilnehmer bestätigen, dass Teams problemlos neben Skype for Business eingesetzt werden kann.</li>
-<br>-und-<br><br>
-<li>Weniger als 80 % Benutzer stimmen zu, dass Teams basierend auf den aktuellen Nutzungsfällen und Szenarios als Ersatz für Skype for Business eingesetzt werden kann.</li>
-<br>-und-<br><br>
-<li>Zufriedenstellende Netzwerkintegrität</li></ul></td>
-<td align="left"><p>Gleichzeitige Verwendung von Teams und Skype for Business für einige bzw. alle verfügbaren Szenarien. Um die Lernkurve zu vereinfachen, empfehlen wir ein gestaffeltes Rollout der Funktionen und raten dringend von einer einmaligen Komplettbereitstellung ab.</p>
-<p>Hier erfahren Sie mehr über die [Reise Upgrade und Koexistenz von Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
-<p>Laden Sie <a href="https://go.microsoft.com/fwlink/?linkid=859044">Vorlagen für Benutzerakzeptanz</a> herunter, um die Kommunikation mit Ihren Endbenutzern zur Ausführung der Programme nebeneinander zu vereinfachen.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><ul><li>Mindestens 80 % der Teilnehmer stimmen zu, dass Teams basierend auf den aktuellen Nutzungsfällen und Szenarios als Ersatz für Skype for Business eingesetzt werden kann.</li>
-<br>-und-<br><br>
-<li>Zufriedenstellende Netzwerkintegrität</li></ul></td>
-<td align="left"><p>Gleichzeitige Verwendung von Teams und Skype for Business für alle Szenarien, wobei die Benutzer angehalten werden, häufiger Teams einzusetzen (falls möglich) Wenden Sie sich ebenfalls an Ihr Kontoteam oder an den Microsoft Support, um mitzuteilen, dass Ihre Organisation bereit für den Wechsel zu Teams ist.</p>
-<p>Hier erfahren Sie mehr über die [Reise Upgrade und Koexistenz von Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
-<p>Laden Sie <a href="https://go.microsoft.com/fwlink/?linkid=859044">Vorlagen die Benutzerakzeptanz</a> herunter, um die Kommunikation mit Ihren Benutzern zur Ausführung der Programme nebeneinander zu vereinfachen.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><ul><li>Weniger als 80 % der Teilnehmer bestätigen, dass Teams problemlos neben Skype for Business eingesetzt werden kann.</li>
-<br>-und-<br><br>
-<li>Weniger als 80 % Benutzer stimmen zu, dass Teams basierend auf den aktuellen Nutzungsfällen und Szenarios als Ersatz für Skype for Business eingesetzt werden kann.</li></ul></td>
-<td align="left">Fahren Sie mit Skype for Business als Kommunikationslösung fort (z. B. Chats, Besprechungen, Anrufe), und nutzen Sie gleichzeitig die Funktionen für moderne Zusammenarbeit (z. B. Teams/Kanäle) von Teams. Überprüfen Sie die Funktionalität der Kommunikation im Teams-Pilotprojekt immer dann erneut, wenn gemäß <a href="https://go.microsoft.com/fwlink/?linkid=859047">Roadmap</a> neue Funktionen veröffentlicht werden.</td>
-</tr>
-</tbody>
-</table>
-
-
-> [!NOTE]
-> Setzen Sie die Teilnehmer Ihres Pilotprojekts immer als [Pioniere](https://go.microsoft.com/fwlink/?linkid=859068) ein, um für Teams zu werben und das Onboarding von neuen Benutzern voranzutreiben.
-
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left">
-<p><strong>Nächste Aktionen:</strong></p><ul><li>Analysieren Sie das über Ihr Pilotprojekt Gelernte, und legen Sie zukünftige Maßnahmen fest. Wenn Sie Teams neben Skype for Business bereitstellen möchten, verwenden Sie für einen reibungslosen Start unbedingt die [Vorlagen für Benutzerakzeptanz](https://go.microsoft.com/fwlink/?linkid=859044).</li><li>Zeigen Sie die [Teams-Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) an und markieren Sie sie.</li>
-<li>Sobald die Ergebnisse Ihres Pilotprojekts zeigen, dass die Benutzer bereit für Teams sind, [implementieren Sie Teams für Ihre Organisation](continue-journey.md).</li></ul></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-
-
-
-
+> [!Tip]
+> Tragen Sie Ihre Teilnehmer an der Pilotphase als Peer Champions Hilfe Wechsels bekannt und integrierte neue Benutzer, Teams. Peer Champions können auf einfache Weise an andere Benutzer beziehen, ihre eigenen Erfahrungen und Befunde Freigabe und anzubieten, Unterstützung und ihrer Kollegen anzeigen. Erfahren Sie mehr über [Champions](https://go.microsoft.com/fwlink/?linkid=859068) und wie Sie diese in Ihrer eigenen Einführung verwendet werden. 

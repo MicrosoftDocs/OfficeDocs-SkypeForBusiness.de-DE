@@ -1,9 +1,8 @@
 ---
-title: Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype for Business 2015
+title: Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: 'Zusammenfassung: Informationen Sie zum Überprüfen, veröffentlichen oder verwerfen routing Änderungen VoIP-Konfiguration in Skype für Business Server 2015 mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 34da8d44a778d5a469cc7069e0024dd3b43517ab
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Überprüfen, veröffentlichen oder verwerfen routing Änderungen VoIP-Konfiguration in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.'
+ms.openlocfilehash: 8df40de8861c16b2ab3dc40bb9f3fadec95a4842
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006513"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business-2015"></a>Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype for Business 2015
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen
  
-**Zusammenfassung:** Informationen Sie zum Überprüfen, veröffentlichen oder verwerfen routing Änderungen VoIP-Konfiguration in Skype für Business Server 2015 mithilfe der Skype für Business Server-Systemsteuerung.
+**Zusammenfassung:** Informationen Sie zum Überprüfen, veröffentlichen oder verwerfen routing Änderungen VoIP-Konfiguration in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.
   
 Wenn Sie Änderungen an den Konfigurationseinstellungen auf den Seiten in der Gruppe **VoIP-Routing** vorgenommen haben, führen Sie zum Überprüfen, Veröffentlichen oder Verwerfen der ausstehenden Änderungen die folgenden Schritte aus.
   
@@ -33,7 +33,7 @@ Wenn Sie Änderungen an den Konfigurationseinstellungen auf den Seiten in der Gr
 > Alle ausstehenden Änderungen müssen gleichzeitig über den Befehl **Commit für alle Element ausführen** veröffentlicht werden. Es ist nicht möglich, nur ausgewählte ausstehende Änderungen zu veröffentlichen. Führen Sie den Befehl **Noch nicht übernommene Änderungen überprüfen** aus, bevor Sie ausstehende Änderungen veröffentlichen, und verwerfen Sie Konfigurationsänderungen, die nicht veröffentlicht werden sollen.
   
 > [!NOTE]
-> Wenn Sie die Seiten in der Gruppe **VoIP-Routing** verlassen, bevor Sie für ausstehende Änderungen ein Commit ausführen, gehen alle ausstehenden Änderungen verloren. Sie können die aktuelle Konfiguration (einschließlich ausstehender Änderungen) jedoch in eine VoIP-Konfigurationsdatei exportieren und die aktualisierte Konfiguration anschließend importieren und veröffentlichen. Weitere Informationen hierzu finden Sie unter [Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Business 2015](voice-route-configuration-import-export.md). 
+> Wenn Sie die Seiten in der Gruppe **VoIP-Routing** verlassen, bevor Sie für ausstehende Änderungen ein Commit ausführen, gehen alle ausstehenden Änderungen verloren. Sie können die aktuelle Konfiguration (einschließlich ausstehender Änderungen) jedoch in eine VoIP-Konfigurationsdatei exportieren und die aktualisierte Konfiguration anschließend importieren und veröffentlichen. Weitere Informationen hierzu finden Sie unter [Exportieren oder importieren eine VoIP-Routenkonfiguration Wiederherstellungsdatei Skype für Unternehmen](voice-route-configuration-import-export.md). 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>So überprüfen, veröffentlichen oder verwerfen Sie Konfigurationsänderungen für das VoIP-Routing
 

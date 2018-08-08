@@ -3,7 +3,6 @@ title: Plan für IPv6 in Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: 'Zusammenfassung: Implementieren IPv6 vor der Installation von Skype für Business Server 2015.'
-ms.openlocfilehash: 4bd7a76e6b55b0b09cf0be469cb84c3d6384f109
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'Zusammenfassung: Implementieren IPv6 vor der Installation von Skype für Business Server.'
+ms.openlocfilehash: 6bd33522492edb68ba3e0a6873e81afee59216d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968138"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Plan für IPv6 in Skype for Business
  
-**Zusammenfassung:** Implementieren Sie vor der Installation von Skype für Business Server 2015 IPv6.
+**Zusammenfassung:** Implementieren Sie vor der Installation von Skype für Business Server IPv6.
   
 Skype für Business Server bietet Unterstützung für IP Version 6 (IPv6) Adressen Adressen zusammen mit Fortgesetzte Unterstützung für IP Version 4 (IPv4). 
 
@@ -59,7 +59,7 @@ In den folgenden Abschnitten werden die Kompatibilität zwischen diesen drei Kon
 ### <a name="client-registration"></a>Clientregistrierung
 <a name="client"> </a>
 
-|**Clientendpunkt-Netzwerk**|**Server-Netzwerk**|
+|**Clientendpunkt-Netzwerk**|**Servernetzwerk**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Dualer Stapel  <br/> |
@@ -87,7 +87,7 @@ Peer-to-Peer-Kommunikation umfasst Audio, Audio/Video, Anwendungsfreigabe und Da
 
 Konferenzfunktionen beinhalten Audio/Video, Anwendungsfreigabe und Datenzusammenarbeitsanwendungen wie Whiteboards und Dateifreigabe.
   
-|**Clientendpunkt-Netzwerk**|**Server-Netzwerk**|
+|**Clientendpunkt-Netzwerk**|**Servernetzwerk**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Dualer Stapel  <br/> |
@@ -102,7 +102,7 @@ Konferenzfunktionen beinhalten Audio/Video, Anwendungsfreigabe und Datenzusammen
 
 Skype für Business Server unterstützt keine medienumgehung für public switched Telephone Network (Telefonfestnetz PSTN) anrufen, wenn der Datenverkehr über eine IPv6-Schnittstelle ist. Wenn Medienumgehung erforderlich ist, sollten Sie das PSTN-Gateway mit IPv4 konfigurieren. 
   
-|**Primäre Schnittstelle 1**|**PSTN-Schnittstelle (Vermittlungsserver)**|**PSTN-Gateway-Einstellung**|
+|**Primäre Schnittstelle 1**|**PSTN-Schnittstelle (auf dem Vermittlungsserver)**|**Einstellung für das PSTN-Gateway**|
 |:-----|:-----|:-----|
 |IPv4  <br/> |Dualer Stapel  <br/> |IPv4  <br/> |
 |Dualer Stapel  <br/> |Dualer Stapel  <br/> |IPv4  <br/> |
@@ -115,7 +115,7 @@ Skype für Business Server unterstützt keine medienumgehung für public switche
 
 Peer-to-Peer-Kommunikation mit Remotebenutzern umfasst Sofortnachrichten, Audio/Video, Anwendungsfreigabe und Dateiübertragung.
   
-|**Des Remotebenutzers**|**Edgeserver (externer Edge)**|
+|**Netzwerk des Remotebenutzers**|**Edgeserver (externer Edge)**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |Dualer Stapel  <br/> |IPv4  <br/> |
@@ -128,25 +128,25 @@ Peer-to-Peer-Kommunikation mit Remotebenutzern umfasst Sofortnachrichten, Audio/
 
 Die folgende Tabelle zeigt die Matrix der unterstützten zwischen den Front-End-Server-Pool und der internen Edge-Server-Pool.
   
-**Front-End-Pool und Matrix der Edge-Pool (interner Edge)**
+**Schema der unterstützten Kombinationen zwischen Front-End-Pool und Edgepool (interner Edge)**
 
 ||**Edgepool: IPv4** <br/> |**Edgepool: Dualer Stapel** <br/> |**Edgepool: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
 |**Front-End-Pool: IPv4** <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |**Front-End-Pool: Dualer Stapel** <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|**Front-End-Pool: IPv6** <br/> |Nein  <br/> |Nein  <br/> |"Ja"\*  <br/> |
+|**Front-End-Pool: IPv6** <br/> |Nein  <br/> |Nein  <br/> |Ja\*  <br/> |
    
 \*Verwenden Sie diese Kombination nur in einer laborumgebung.
   
 Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und externen Edge-Schnittstellen unterstützt werden.
   
-**Edgepool (interner Edge) und Edge-pool-Matrix (externer Edge)**
+**Schema der unterstützten Kombinationen zwischen Edgepool (interner Edge) und Edgepool (externer Edge)**
 
 ||**Edgepool (Externer Edge): IPv4** <br/> |**Edgepool (Externer Edge): Dualer Stapel** <br/> |**Edgepool (Externer Edge): IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
 |**Edgepool (Interner Edge): IPv4** <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |**Edgepool (Interner Edge): Dualer Stapel** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |
-|**Edgepool (Interner Edge): IPv6** <br/> |Nein  <br/> |Nein  <br/> |"Ja"\*  <br/> |
+|**Edgepool (Interner Edge): IPv6** <br/> |Nein  <br/> |Nein  <br/> |Ja\*  <br/> |
    
 \*Verwenden Sie diese Kombination nur in einer laborumgebung.
   
@@ -203,13 +203,10 @@ Die folgenden Szenarien werden bei der Migration und Koexistenz unterstützt:
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="migration"> </a>
 
-#### 
-
-[Konfigurieren von IP-Adresstypen in Skype für Unternehmen](ip-address-types.md)
+[Konfigurieren von IP-Adresstypen in Skype for Business](ip-address-types.md)
 
 [Reagieren auf IP Version 6-Architektur](https://tools.ietf.org/html/rfc4291)
   
 [Format der IPv6-globale Unicast-Adresse](https://tools.ietf.org/html/rfc3587)
   
 [Eindeutige lokale IPv6-Unicast-Adressen](https://tools.ietf.org/html/rfc4193)
-

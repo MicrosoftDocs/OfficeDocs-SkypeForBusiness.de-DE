@@ -1,9 +1,8 @@
 ---
-title: Komponenten und Topologien für die Anrufsteuerung in Skype for Business 2015
+title: Komponenten und Topologien für die anrufsteuerung in Skype für Unternehmen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planung für die anrufsteuerung (CAC), wenn Sie einem MPLS-Netzwerk, einen SIP-Trunk oder ein Drittanbieter-PSTN-Gateway oder einer Nebenstellenanlage verfügen. Gilt für Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: bedb1737827eb18d56c15c088756c4eec9bab8c2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d08d5ca63c02a2ddf12f3f53a5e4952a7a366a71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977707"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business-2015"></a>Komponenten und Topologien für die Anrufsteuerung in Skype for Business 2015
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Komponenten und Topologien für die anrufsteuerung in Skype für Unternehmen
  
 Planung für die anrufsteuerung (CAC), wenn Sie einem MPLS-Netzwerk, einen SIP-Trunk oder ein Drittanbieter-PSTN-Gateway oder einer Nebenstellenanlage verfügen. Gilt für Skype für Business Server Enterprise-VoIP.
   
@@ -30,7 +30,7 @@ Die Themen in diesem Abschnitt liefern Informationen zu speziellen Faktoren, die
 
 In einem MPLS-Netzwerk (Multiprotocol Label Switching) sind alle Standorte vollständig miteinander vernetzt, d. h. alle Standorte sind direkt mit dem MPLS-Backbone des Internetdienstanbieters verbunden und jedem Standort wird Bandbreite für eine WAN-Verbindung mit der MPLS-Cloud zur Verfügung gestellt. Es ist kein Netzwerkhub oder zentraler Standort zur Steuerung des IP-Routings vorhanden. Die folgende Abbildung zeigt ein einfaches Beispiel für ein auf der MPLS-Technologie basierendes Netzwerk.
   
-**Beispiel MPLS-Netzwerk**
+**Beispiel eines MPLS-Netzwerks**
 
 ![Anrufsteuerung mit MPLS](../../media/CAC_MPLS_1.jpg)
   
@@ -46,7 +46,7 @@ Zur Bereitstellung der Anrufsteuerung für einen SIP-Trunk erstellen Sie einen N
   
 Die folgende Abbildung zeigt ein Beispiel für die Bereitstellung der Anrufsteuerung für einen SIP-Trunk.
   
-**Konfiguration der Anrufsteuerung für einen SIP-trunk**
+**Konfiguration der Anrufsteuerung für einen SIP-Trunk**
 
 ![Anrufsteuerung – SIP-Trunking (Diagramm)](../../media/CAC_SIP_trunk_1.jpg)
   
@@ -57,7 +57,7 @@ Zur Konfiguration der Anrufsteuerung für einen SIP-Trunk müssen Sie während d
     > [!NOTE]
     > Für den Anbieter von Internettelefoniediensten ist diese Netzwerkstandortkonfiguration nicht funktionsfähig. Die Bandbreitenrichtlinienwerte werden tatsächlich in Schritt 2 angewendet. 
   
-2. Erstellen Sie eine standortübergreifende Verbindung für den SIP-Trunk mit den entsprechenden Parameterwerten für die Website, die Sie in Schritt 1 erstellt haben. Verwenden Sie beispielsweise den Namen des den Netzwerkstandort in Ihrem Unternehmen als Wert des Parameters NetworkSiteID1 und den Netzwerkstandort ITSP als Wert des Parameters NetworkSiteID2. Weitere Informationen hierzu finden Sie unter [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in der Dokumentation zur Bereitstellung und [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
+2. Erstellen Sie eine standortübergreifende Verbindung für den SIP-Trunk mit den entsprechenden Parameterwerten für die Website, die Sie in Schritt 1 erstellt haben. Verwenden Sie beispielsweise den Namen des den Netzwerkstandort in Ihrem Unternehmen als Wert des Parameters NetworkSiteID1 und den Netzwerkstandort ITSP als Wert des Parameters NetworkSiteID2. Weitere Informationen hierzu finden Sie unter [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype für Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in der Dokumentation zur Bereitstellung und [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
     
 3. Die IP-Adresse von der Controller des (SCB) Medienendpunkt aus Ihrem ITSP. Fügen Sie diese IP-Adresse mit der Subnetzmaske 32 zu dem Netzwerkstandort hinzu, der den Anbieter von Internettelefoniediensten repräsentiert. Weitere Informationen hierzu finden Sie unter [Zuordnen eines Subnetzes zu einem Netzwerkstandort](http://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
     
@@ -69,7 +69,7 @@ In diesem Thema wird beschrieben, Beispiele, wie die anrufsteuerung (CAC) auf de
 
 CAC bereitgestellt werden kann, über die WAN-Verbindung von der Gatewayschnittstelle des Vermittlungsservers mit einem Drittanbieter-PBX- oder PSTN-Gateway.
   
-**Fall 1: Anrufsteuerung zwischen dem Vermittlungsserver und ein PSTN-gateway**
+**Fall 1: Anrufsteuerung zwischen dem Vermittlungsserver und einem PSTN-Gateway**
 
 ![Fall 1: Anrufsteuerung zwischen dem Vermittlungsserver und einem PSTN-Gateway](../../media/CAC_gateways_1.jpg)
   

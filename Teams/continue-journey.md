@@ -1,47 +1,55 @@
 ---
-title: Höhere Wertschöpfung mit Microsoft Teams durch Nutzerakzeptanz
-author: LolaJacobsen
-ms.author: lolaj
+title: Laufwerk-Wert mit Microsoft-Teams über Benutzerakzeptanz - Microsoft-Teams
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-description: Anleitung für das Fortsetzen Ihrer Reise von Skype for Business nach Microsoft Teams
+ms.reviewer: dearbeen
+description: Leitfaden für die Fortsetzung Ihrer Reise von Skype für Unternehmen, die Microsoft-Teams
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
+ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "20506644"
 ---
-<a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Höhere Wertschöpfung mit Microsoft Teams durch Nutzerakzeptanz
-================================================================
+![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
+Dieser Artikel ist Teil der erstklassige Betriebsprozesse Stufe des Ihre Upgrade Reise, wodurch gestartet wird, sobald Sie die Aktualisierung von Skype für Unternehmen auf Teams abgeschlossen haben.
 
-Veränderungen dauern. Sie aber können jetzt schon damit beginnen, den Wert und Nutzen dieser Veränderung zu realisieren. Während Sie weiterhin Skype for Business verwenden, ermutigen wir Sie, sich mit Ihrer Organisation auf die Reise nach Teams zu machen. Setzen Sie den Wert der intelligenten Kommunikationen mit Office 365 frei und helfen Sie dabei, dass der zukünftige Übergang zu Teams ein erfolgreiches Unterfangen sein wird.
+# <a name="drive-operational-excellence-with-microsoft-teams"></a>Laufwerk erstklassige Betriebsprozesse mit Microsoft-Teams
 
-Wir bei Microsoft setzen alles daran, Ihnen einen maßgeschneiderten praktischen Leitfaden zur Verfügung zu stellen, der einen langfristigen Erfolg garantiert. Nutzen Sie die Ressourcen unten, um Ihren Weg zu Teams fortzusetzen, und seien Sie gespannt auf die in den nächsten Monaten anstehenden Veröffentlichungen.
+Technologie wird immer schneller Innovation. Ständige und Aktivieren einer modernen Arbeitsumfeld ist ein Standard in Organisationen Funktionsweise geworden. Als Microsoft-Teams, Microsoft 365 und Microsoft intelligenten Kommunikation Vision abgewickelt werden weiterhin, helfen müssen einen Betriebsplan direkten sicherzustellen, dass Ihre Organisation für langfristigen Erfolg eingerichtet ist. Ein optimaler Betriebsplan enthält Ihre Umgebung für die Integrität und die Qualität, Benutzer Momentum zur Optimierung der Annahme Fortfahren sowie die Planung für die neue Funktionalität, die über einen Zeitraum online geschaltet werden weiterhin überwachen. 
 
-## <a name="promote-adoption-of-teams-alongside-skype-for-business"></a>Fördern Sie neben Skype for Business die Akzeptanz von Teams 
+## <a name="monitor-for-network-health-and-quality"></a>Monitor für die Integrität des Netzwerks und Qualität
 
-- Passen Sie Ressourcen für [Benutzerbereitschaft](https://go.microsoft.com/fwlink/?linkid=859044) an und teilen Sie sie – sowohl für Skype, als auch für Teams.
+Der Status des Netzwerks wirkt sich auf die Benutzeroberfläche. Wenn ein Benutzer eine schlechte Erfahrung verfügt (beispielsweise Anruf setzt oder Verzögerung Zeit bei der Teilnahme an Besprechungen), deren korrelieren mit der Technologie erläutert selbst, und setzen diese mit den Eindruck, der nicht die Technologie funktioniert, und öffnen die Tür für nicht unterstützte apps. Implementieren einen Plan zum Überwachen und zur Abwehr von Integrität des Netzwerks können Sie einen positiven Eindruck zusätzlich zur Reduzierung von Anrufen an Ihre Helpdesk sicherstellen. Weitere Informationen finden Sie unter den folgenden Artikeln:
 
-- Teilen Sie [Schulungsressourcen](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) für Teams, um die Lernkurve zu vereinfachen
+-   [Meine Dienst betreiben](upgrade-operate-my-service.md)
+-   [Monitorqualität](upgrade-monitor-quality.md)
+-   [Meine Service zu verbessern](upgrade-enhance-my-service.md)
 
-- Statten Sie Benutzer mit [Hilfethemen](https://support.office.com/teams) über Teams aus, um das Onboarding voranzutreiben
+## <a name="drive-user-momentum-and-adoption"></a>Laufwerk Benutzer Momentum und Akzeptanz
 
-- Ist Akzeptanz und Change Management Neuland für Sie? Nutzen Sie den [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) (Leitfaden für die Nutzerakzeptanz von Office 365)
+Um die maximalen Nutzen und Geschäftsergebnisse mit Teams nutzen zu können, müssen Benutzer tatsächlich verwendet werden. Allerdings anfänglichen Interesse wane ist, und Benutzer auf einfache Weise Wiederherstellen der alten Methoden zum arbeiten. Benutzer Akzeptanz erhöht und Verwalten von Interesse für Teams mit einer laufenden Anpassungsplan, einschließlich:
 
+-   Eintragen der Peer Champions zur Durchführung von Wechsels bekannt und andere Benutzern zu fördern.
+-   Überprüfen die [Office 365 Annahme Guide](https://go.microsoft.com/fwlink/?linkid=859045) Tipps zur Steigerung des Engagements und Akzeptanz fördern.
+-   Nutzen das [Teams Customer Success Kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) zum Verbessern zur Förderung des Bekanntheitsgrads und bewährte Methoden freigeben.
+-   Implementieren eine formelle [Strategie Annahme und ändern](http://www.successwithteams.com/) , mit denen Annahme Wachstum bewältigen.
 
-## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>Bereiten Sie Ihre Organisation für die zukünftige Move Teams
+## <a name="prepare-for-new-functionality"></a>Vorbereiten der neuen Funktionen
 
-- Verwenden Sie die [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) für Ihre Reise nach Teams
+Der Lebenszyklus von einer bestimmten Technologie hat einen dynamischen Wachstum aus-und verschoben. Dies bedeutet, dass die Teams und Microsoft 365 Roadmaps weiterhin mit der neuen Funktionalität Beleuchtung von auf einen regulären Trittfrequenz abgewickelt werden. Einrichten eines Zyklus Änderung innerhalb Ihrer Organisation wird sichergestellt, dass Sie bereit zum Verwalten von kontinuierlichen Zusammenarbeit Verbesserungen und Realisierung von Höchstwert. Dies sind möglich:
 
-- Laden Sie zur Unterstützung bei der Bereitstellung von Teams [Teams-Ressourcen](https://go.microsoft.com/fwlink/?linkid=859048) und [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) herunter
+-   Überwachen der Teams [Roadmap](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams).
+-   Implementieren Sie eine Änderung Planung Formular (wie unten dargestellt) zum Vorbereiten und neuen Funktionen zu implementieren. Achten Sie darauf, dass Sie technische und User Readiness Aktivitäten umfassen.
 
-- Wenden Sie sich an [Partner](https://go.microsoft.com/fwlink/?linkid=859050), wenn Sie Hilfe bei der Bereitstellung von Teams und Ihrer Reise benötigen
-
-
-
+![Beispielformular erwartete Veröffentlichungsdaten und Hinweise zu neuen Funktionen, mit dem nächsten Schritte und Besitzer aufgeführt anzeigt] (media/upgrade-change-plan-form.png "Beispielformular erwartete Veröffentlichungsdaten und Hinweise zu neuen Funktionen, mit dem nächsten Schritte und Besitzer aufgeführt anzeigt")

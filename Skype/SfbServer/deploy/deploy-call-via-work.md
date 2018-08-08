@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen der Funktion „Anruf über Arbeit“ in Skype for Business Server 2015
+title: Bereitstellen Sie Anruf über den Arbeitsplatz in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 'Zusammenfassung: Informationen Sie zum Bereitstellen von Anrufen über Arbeitsplatz in Skype für Business Server 2015 für einige oder alle Benutzer.'
-ms.openlocfilehash: e101cf39daedb8d94879b6cf99cd0c7b4ae00e8d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Bereitstellen von Anrufen über Arbeitsplatz in Skype für Business Server für einige oder alle Benutzer.'
+ms.openlocfilehash: 60890f510f5f895f3a99f070cd9cf1a7c997da61
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991045"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>Bereitstellen der Funktion „Anruf über Arbeit“ in Skype for Business Server 2015
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Bereitstellen Sie Anruf über den Arbeitsplatz in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Bereitstellen von Anrufen über Arbeitsplatz in Skype für Business Server 2015 für einige oder alle Benutzer.
+**Zusammenfassung:** Informationen Sie zum Bereitstellen von Anrufen über Arbeitsplatz in Skype für Business Server für einige oder alle Benutzer.
   
-Verwenden Sie folgende Schritte aus, um über Arbeitsplatz anrufen für Benutzer bereitzustellen. In [Planen von Anrufen über Arbeitsplatz in Skype für Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)werden Planungsaspekte erläutert. In früheren Versionen von Lync Server Remoteaufruf war Steuerelement ein Feature, das Benutzer ihre Nebenstellentelefone über mit Lync Server steuern aktiviert. Dieses Feature wurde in Skype für Business Server mit über Arbeitsplatz anrufen ersetzt. 
+Verwenden Sie folgende Schritte aus, um über Arbeitsplatz anrufen für Benutzer bereitzustellen. In [Planen von Anrufen über Arbeitsplatz in Skype für Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)werden Planungsaspekte erläutert. In früheren Versionen von Lync Server Remoteaufruf war Steuerelement ein Feature, das Benutzer ihre Nebenstellentelefone über mit Lync Server steuern aktiviert. Dieses Feature wurde in Skype für Business Server mit über Arbeitsplatz anrufen ersetzt. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Erforderliche Komponenten für Anruf über den Arbeitsplatz
 
@@ -72,9 +72,7 @@ Wenn alle Voraussetzungen erfüllt sind, gehen Sie wie folgt vor:
 - Geben Sie das folgende Cmdlet ein
     
   ```
-  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber
-    <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
-
+  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     Das folgende Cmdlet beispielsweise über Arbeitsplatz anrufen-Richtlinie namens ContosoUser1CvWP erstellt, bewirkt, dass den Benutzer eine Rückrufnummer Admin verwenden und diese Rückrufnummer auf 1-555-789-1234 festgelegt.
@@ -99,7 +97,5 @@ Wenn alle Voraussetzungen erfüllt sind, gehen Sie wie folgt vor:
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Planen der Anruf über den Arbeitsplatz in Skype für Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Planen der Anruf über den Arbeitsplatz in Skype für Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

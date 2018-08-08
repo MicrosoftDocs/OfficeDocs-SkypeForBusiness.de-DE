@@ -1,9 +1,8 @@
 ---
-title: Definieren eines Gateways im Topologie-Generator in Skype for Business Server 2015
+title: Definieren eines Gateways im Topologie-Generator in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: 'Zusammenfassung: Erfahren Sie, wie ein PSTN-Gateway im Topologie-Generator in Skype für Business Server 2015 zu definieren.'
-ms.openlocfilehash: ae8656d60d819a92a22db6e97f83ea847ee15765
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Erfahren Sie, wie ein PSTN-Gateway im Topologie-Generator in Skype für Business Server definieren.'
+ms.openlocfilehash: c83951c26a125c568535bfba7d487324a9b725d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998553"
 ---
-# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server-2015"></a>Definieren eines Gateways im Topologie-Generator in Skype for Business Server 2015
+# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definieren eines Gateways im Topologie-Generator in Skype für Business Server
  
-**Zusammenfassung:** Hier erfahren Sie, wie Sie ein PSTN-Gateway im Topologie-Generator in Skype für Business Server 2015 definieren.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie ein PSTN-Gateway im Topologie-Generator in Skype für Business Server definieren.
   
 Befolgen Sie diese Schritte, um die Topologie-Generator verwenden, um einen Peer zu definieren, mit dem Sie einen Vermittlungsserver zum Bereitstellen der Verbindung mit dem öffentlichen Telefonfestnetz (PSTN) für Benutzer für Enterprise Voice aktiviert zuordnen können. Ein Peer für den Vermittlungsserver kann ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein Session Border Controller (SBC) für einen Internet Telefonie Service Provider (ITSP), die durch konfigurieren einen SIP-Trunk verbunden.
   
@@ -38,7 +38,7 @@ Befolgen Sie diese Schritte, um die Topologie-Generator verwenden, um einen Peer
   
 4. Definieren Sie den Überwachungsmodus (IPv4 oder IPv6) für die IP-Adresse Ihres neuen PSTN-Gateways und klicken Sie auf **Weiter**.
 
-5. Definieren Sie einen stammtrunk für die PSTN-Gateway. Ein Trunk ist eine logische Verbindung zwischen einem Vermittlungsserver und einem Gateway durch Folgendes Tupel eindeutig identifiziert.
+5. Definieren Sie einen Stammtrunk für das PSTN-Gateway. Ein Trunk ist eine logische Verbindung zwischen einem Vermittlungsserver und einem Gateway durch Folgendes Tupel eindeutig identifiziert.
     
     {Mediation Server-FQDN, Vermittlungsserver Überwachungsport (TLS oder TCP): Gateway-IP und FQDN, gatewayüberwachungsport}
     

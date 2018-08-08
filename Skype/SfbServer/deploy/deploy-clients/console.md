@@ -1,9 +1,8 @@
 ---
 title: Konfigurieren einer Konsole für Skype Room Systems v2
 ms.author: jambirk
-author: jambirk
+author: Travis-Snoozy
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,11 +11,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie das Skype Room Systems v2-Konsolengerät und die entsprechenden Peripheriegeräte einrichten.
-ms.openlocfilehash: 96fb2a88d699ca364f02f24af58d2f17dc555e11
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: e9675b091723dc3b021543acedd278404788be13
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013696"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -26,13 +26,13 @@ Sie sollten nur diese Schritte ausführen, wenn die erforderlichen Skype für Ge
   
 - [Vorbereiten des Installationsimages](console.md#Prep_Image)
     
-- [Installieren Sie das Zertifikat einen privates auf dem Tablettgerät](console.md#Certs)
+- [Installieren eines Zertifikats einer privaten Zertifizierungsstelle auf dem Tablet](console.md#Certs)
     
 - [Installieren Sie Windows 10 und die app Skype Raum Systeme v2-Konsole](console.md#Reimage)
    
 - [Anfängliche Einrichten der Konsole](console.md#Initial)
     
-- [Prüfliste für die Bereitstellung von Skype Raum Systemen v2](console.md#Checklist)
+- [Bereitstellungsprüfliste für Skype Room Systems v2](console.md#Checklist)
     
 > [!NOTE]
 > Skype-Chatroom-Systemen v2 funktioniert nur in einer ordnungsgemäß konfigurierten Skype für Business-Umgebung, in dem die Gerät Konten wie unter [Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)ordnungsgemäß eingerichtet wurden. 
@@ -40,7 +40,7 @@ Sie sollten nur diese Schritte ausführen, wenn die erforderlichen Skype für Ge
 ## <a name="prepare-the-installation-image"></a>Vorbereiten des Installationsimages
 <a name="Prep_Image"> </a>
 
-Installieren der Skype Raum Systemen v2-app in einem Surface Pro 4 oder Surface Pro erfordert ein USB-Speichergerät mit mindestens 32GB Arbeitsspeicher als FAT32 Datenträger formatiert. Es sollte keine anderen Dateien auf dem Gerät, alle vorhandenen Dateien auf den USB-Speicher gehen verloren. 
+Installieren der Skype Raum Systemen v2-app in einem Surface Pro 4 oder Surface Pro erfordert ein USB-Speichergerät mit mindestens 32GB Arbeitsspeicher als FAT32 Datenträger formatiert. Auf dem Gerät sollten sich keine anderen Dateien befinden. Im USB-Speicher vorhandene Dateien gehen verloren. 
   
 > [!NOTE]
 > Wenn das Konsolenimage nicht gemäß diesen Anweisungen erstellt wurde, kann dies zu unerwünschtem Verhalten führen. Update für Windows 10 Enterprise Jahrestag (Version 1607) ist für die Erstellung von Skype Raum Systemen v2 Bild nicht mehr unterstützt. 
@@ -48,15 +48,14 @@ Installieren der Skype Raum Systemen v2-app in einem Surface Pro 4 oder Surface 
 > [!NOTE]
 > Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise Jahrestag Update verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben. 
   
-1. Laden Sie die [MSU für KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Laden Sie das [Skript CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
-3. Platzieren Sie die MSU für KB4056892 im gleichen Verzeichnis befindet wie das Skript CreateSrsMedia.ps1.
-4. Führen Sie das Skript CreateSrsMedia.ps1 aus einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows-10-Computer.
+1. Laden Sie das [Skript CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+2. (Optional) Herunterladen Sie, und platzieren Sie alle gewünschten Language Pack CAB-Dateien im gleichen Verzeichnis befindet wie das Skript. Das Skript wird angegeben, in dem Sie Language Pack-Dateien für den Typ von Medien, die Sie erstellen, die Wenn Sie nicht sicher sind, wo Sie die Language Packs von erwerben sind herunterladen können.
+3. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
 
 
-Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen. Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Skype Raum Systemen v2 Konsole app ](console.md#Reimage)fort.
+Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen. Wenn Sie fertig sind, entfernen Sie den USB-Datenträger aus dem Computer, und fahren Sie mit dem [Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2](console.md#Reimage) fort.
     
-## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2 
+## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2
 <a name="Reimage"> </a>
 
 Jetzt müssen Sie das erstellte Image anwenden. Das Tablet wird als Appliance ausgeführt, und der Standard-Benutzer werden nur die Skype Raum Systemen v2 app ausgeführt festgelegt werden. 
@@ -143,7 +142,7 @@ Nach der Installation von Windows gehen die Skype Raum Systemen v2-app in seiner
     
 6. Klicken Sie auf **Fertig stellen**.
     
-Die app Anmelden bei Skype für Business Server 2015 mit den oben eingegebenen Anmeldeinformationen sollten sofort gestartet werden soll, und beginnen soll auch den Kalender mit Exchange diese dieselben Anmeldeinformationen verwenden wird synchronisiert. Ausführliche Informationen zum Verwenden der app finden Sie in der [Hilfe Skype Raum Systeme, Version 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Die app Anmelden bei Skype für Business Server mit den oben eingegebenen Anmeldeinformationen sollten sofort gestartet werden soll, und beginnen soll auch den Kalender mit Exchange diese dieselben Anmeldeinformationen verwenden wird synchronisiert. Ausführliche Informationen zum Verwenden der app finden Sie in der [Hilfe Skype Raum Systeme, Version 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Skype Raum Systemen v2 erfordert das Vorhandensein von zertifizierten Konsole Hardware (das Logitech SmartDock). Sogar eine ordnungsgemäß erstellte Image, enthält die Skype Raum Systemen v2 app auf einem Surface Pro 4 oder Surface Pro geladen kann nicht nach der Erstinstallation Verfahren starten, es sei denn, die Konsole Hardware erkannt wird. 
@@ -211,7 +210,7 @@ Vergewissern Sie sich abschließend anhand der folgenden Prüfliste, dass das Ko
 |☐  <br/> |Das Kennwort für das Administratorkonto wurde festgelegt und bestätigt.  <br/> |
 |☐  <br/> |Alle Surface Pro 4- oder Surface Pro-Systemupdates wurden angewendet.  <br/> |
    
-**A/v-Peripheriegeräte**
+**Audio-/Videoperipheriegeräte**
 
 |||
 |:-----|:-----|
@@ -223,7 +222,7 @@ Vergewissern Sie sich abschließend anhand der folgenden Prüfliste, dass das Ko
 |☐  <br/> |Das Audioeingabegerät ist funktionsfähig und optimal positioniert.  <br/> |
 |☐  <br/> |Das Audioausgabegerät ist funktionsfähig und optimal positioniert.  <br/> |
    
-**Andocken**
+**Dock**
 
 |||
 |:-----|:-----|
@@ -236,13 +235,10 @@ Vergewissern Sie sich abschließend anhand der folgenden Prüfliste, dass das Ko
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="Checklist"> </a>
 
-#### 
-
-[Planen von Skype Raum Systemen v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planung für Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)
+[Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
   
-[Konfigurieren einer Skype Raum Systemen v2-Konsole](console.md)
+[Konfigurieren einer Konsole für Skype Room Systems v2](console.md)
   
-[Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-
+[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

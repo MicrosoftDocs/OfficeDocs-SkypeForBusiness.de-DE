@@ -1,9 +1,8 @@
 ---
-title: Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype for Business Server 2015
+title: Erstellen Sie Netzwerk Netzwerkrichtlinien in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Erstellen Sie Netzwerk standortübergreifende Richtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: f8c09f850a001b634ee63199210733000775fd0a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 49405bbaa1d761f1acc10c7506e44992cc03a153
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988522"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype for Business Server 2015
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Erstellen Sie Netzwerk Netzwerkrichtlinien in Skype für Business Server
  
 Erstellen Sie Netzwerk standortübergreifende Richtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden. 
   
-Eine standortübergreifende Netzwerkrichtlinie definiert bandbreiteneinschränkungen zwischen Standorten, die direkte WAN-Verbindungen miteinander verbunden sind.
+Eine standortübergreifende Netzwerkrichtlinie definiert Bandbreiteneinschränkungen zwischen Standorten, die über direkte WAN-Verbindungen miteinander verbunden sind.
   
 > [!IMPORTANT]
 > Eine standortübergreifende Netzwerkrichtlinie ist erforderlich *nur* , wenn eine standortübergreifende direktverbindung zwischen zwei Netzwerkstandorten besteht.
@@ -45,8 +45,6 @@ In der Region „Nordamerika“ der Beispieltopologie besteht eine direkte Verbi
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Neue CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
@@ -54,4 +52,3 @@ In der Region „Nordamerika“ der Beispieltopologie besteht eine direkte Verbi
 [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
 [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
-

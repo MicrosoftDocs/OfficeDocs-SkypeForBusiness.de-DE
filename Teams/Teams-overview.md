@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ''
 description: Hier erhalten Sie Informationen zu Microsoft Teams, zur Infrastruktur und zur Verwendung von Teams mit Office 365.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbbd2cad0b84ccdcc887d5bcdf272c1556c9c546
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967129"
 ---
 <a name="overview-of-microsoft-teams"></a>Übersicht über Microsoft Teams
 ===========================
@@ -42,11 +44,9 @@ Teams basiert auf vorhandenen Microsoft-Technologien, die durch Office 365-Grup
 
 Standardmäßig wird für ein in Teams erstelltes Team jeweils eine Office 365-Gruppe mit der zugehörigen SharePoint Online-Website erstellt – einschließlich einer Dokumentbibliothek und eines Exchange Online-Gruppenpostfachs, das von Teams zum Speichern von Informationen wie zum Beispiel Besprechungseinladungen verwendet wird. Ein Team kann mithilfe vorhandener Office 365-Gruppen erstellt werden, sodass vorhandene Gruppenmitgliedschaften und Inhalte, die in SharePoint Online und Exchange Online gespeichert sind, nach Teams portiert werden können.
 
-Als Ergänzung zu Teams als Board für beständigen Chat, auf dem formlose Echtzeitunterhaltungen stattfinden können, bietet Teams außerdem Besprechungsfunktionen auf der Grundlage der cloudbasierten Infrastruktur der nächsten Generation, die auch von Skype und Skype for Business genutzt wird. Zu diesen Technologieinvestitionen gehören Azure-basierte Clouddienste für Medienverarbeitung und Signalisierung, der Videocodec H.264, die Audiocodecs SILK und Opus, Netzwerkresilienz, Telemetrie und Qualitätsdiagnose.
+Um die Fähigkeit von Teams zu ergänzen, wie ein, in dem informelle, Real-Time Unterhaltungen stattfinden, persistent Chat Board auch Teams bietet eine Anruf- und meeting Erfahrung basieren auf der nächsten Generation cloudbasierten-Infrastruktur, die auch von Skype und Skype für verwendet wird Business. Zu diesen Technologieinvestitionen gehören Azure-basierte Clouddienste für Medienverarbeitung und Signalisierung, der Videocodec H.264, die Audiocodecs SILK und Opus, Netzwerkresilienz, Telemetrie und Qualitätsdiagnose.
 
 Office 365-Gruppen nutzen in Azure Active Directory (Azure AD) gespeicherte Identitäten. Damit sind alle Authentifizierungs- und Autorisierungsfunktionen in Azure AD wie Unterstützung für mehrstufige Authentifizierung (Multi-Factor Authentication, MFA) direkt zur Verwendung durch Teams verfügbar.
-
-Teams bietet darüber hinaus Anruf- und Besprechungsfunktionen auf der Grundlage der cloudbasierten Infrastruktur der nächsten Generation, die auch von Skype und Skype for Business genutzt wird. Zu diesen Technologieinvestitionen gehören Azure-basierte Clouddienste für Medienverarbeitung und Signalisierung, der Videocodec H.264, die Audiocodecs SILK und Opus, Netzwerkresilienz, Telemetrie und Qualitätsdiagnose.
 
 > [!NOTE]
 > Basierend auf Feedback von Kunden, neue Office 365 Gruppen infolge einer erstellen ein Team in Microsoft-Teams, nicht mehr in Outlook standardmäßig angezeigt. Für Kunden, die das vorhandene Verhalten der mit diesen Gruppen in Outlook fortsetzen möchten, wird die Gruppe die für die benutzerfreundlichkeit von Outlook ermöglichen können ein Exchange Online PowerShell-Cmdlet bereitgestellt werden. Gruppen über Outlook erstellt und dann später für Teams aktiviert werden weiterhin in Outlook und Teams angezeigt. Dieses Update wird schrittweise Roll out über Outlook und Teams in den nächsten Monaten.

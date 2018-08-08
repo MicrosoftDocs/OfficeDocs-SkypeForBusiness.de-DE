@@ -1,9 +1,8 @@
 ---
-title: Aktivieren der Anrufsteuerung in Skype for Business Server 2015
+title: Aktivieren Sie die anrufsteuerung in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Aktivieren Sie die anrufsteuerung in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 321b7838a2a818a9791b72e3851312006eb8dc7e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1a9e719e6c008fcd8bf8c12612f8eea15447648e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009708"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server-2015"></a>Aktivieren der Anrufsteuerung in Skype for Business Server 2015
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Aktivieren Sie die anrufsteuerung in Skype für Business Server
  
 Aktivieren Sie die anrufsteuerung in Skype für Business Server Enterprise-VoIP. 
   
@@ -61,11 +61,8 @@ Nachdem Sie die Ihre Netzwerkeinstellungen für die Bereitstellung der Anrufsteu
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
 [Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
 [Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
-

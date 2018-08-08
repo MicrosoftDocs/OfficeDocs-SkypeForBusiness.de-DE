@@ -1,9 +1,8 @@
 ---
-title: Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business 2015
+title: Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype für Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows abgedeckt.
-ms.openlocfilehash: a1fe613d006378f8908b038ed0f03449c06b3fdf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: a4a0d436e4ed2387218825559bca2b383a95c8b4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501301"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006599"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business 2015
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Unternehmen
  
 Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype für Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows abgedeckt.
   
-Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur Annahme des Anrufs verfahren wird. Der Workflow gibt an die Warteschlange aufgenommen werden den Anruf verwendet und gibt die Verteilungsmethode für für Sammelanschlüsse Gruppe Workflows oder die Fragen und Antworten für interaktive reaktionsgruppenworkflows verwenden. 
+Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur Annahme des Anrufs verfahren wird. Der Workflow gibt die Warteschleife zum Halten des Anrufs an und legt die Routingmethode für die Workflows für Sammelanschlüsse oder die Fragen und Antworten für die Workflows für interaktive-Reaktionsgruppen fest. 
   
 Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, Wartemusik, Geschäftszeiten und Feiertage.
   
@@ -122,7 +121,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
    - Wenn Sie einen vordefinierten Zeitplan für die Geschäftszeiten verwenden möchten, klicken Sie auf **Vordefinierten Zeitplan verwenden** und wählen Sie den gewünschten Zeitplan in der Dropdownliste aus.
     
      > [!NOTE]
-     > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Sie erstellen vordefinierte Zeitpläne mit dem **New-CSRgsHoursOfBusiness**-Cmdlet. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von Geschäftszeiten in Skype für Business 2015](optional-define-response-group-business-hours.md). 
+     > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Sie erstellen vordefinierte Zeitpläne mit dem **New-CSRgsHoursOfBusiness**-Cmdlet. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von Geschäftszeiten in Skype für Unternehmen](optional-define-response-group-business-hours.md). 
   
      > [!NOTE]
      > Wenn Sie einen vordefinierten Zeitplan verwenden, werden die Werte für **Tag**, **Öffnen** und **Schließen**, automatisch mit den Tagen und Stunden ausgefüllt, an denen die Reaktionsgruppe verfügbar ist.
@@ -161,7 +160,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 24. Aktivieren Sie unter **Schritt 5: Feiertage angeben** die Kontrollkästchen für einen oder mehrere Feiertagssätze, mit denen die Tage definiert werden, an denen die Reaktionsgruppe aufgrund eines Feiertags nicht verfügbar ist.
     
     > [!NOTE]
-    > Sie müssen Feiertage und Feiertagssätze definieren, bevor Sie den Workflow konfigurieren. Verwenden Sie zum Definieren von Feiertagen und Feiertagssätzen die Cmdlets **New-CsRgsHoliday** und **New-CsRgsHolidaySet**. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von feiertagsschemas in Skype für Business 2015](optional-define-response-group-holiday-sets.md). 
+    > Sie müssen Feiertage und Feiertagssätze definieren, bevor Sie den Workflow konfigurieren. Verwenden Sie zum Definieren von Feiertagen und Feiertagssätzen die Cmdlets **New-CsRgsHoliday** und **New-CsRgsHolidaySet**. Weitere Informationen hierzu finden Sie unter [feiertagssätze in Skype für Unternehmen (Optional) definieren Response Group](optional-define-response-group-holiday-sets.md). 
   
 25. Wenn Sie an Feiertagen eine Nachricht wiedergeben möchten, aktivieren Sie das Kontrollkästchen **An Feiertagen eine Nachricht wiedergegeben** und geben Sie die Nachricht ein, indem Sie eine der folgenden Aktionen ausführen:
     
@@ -242,7 +241,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Wenn Sie Geschäftszeiten und Feiertage definieren möchten, müssen Sie diese erstellen, bevor Sie den Workflow erstellen oder ändern. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von Geschäftszeiten in Skype für Business 2015](optional-define-response-group-business-hours.md) und [(Optional) definieren Response Group feiertagssätzen in Skype für Business 2015](optional-define-response-group-holiday-sets.md).
+6. Wenn Sie Geschäftszeiten und Feiertage definieren möchten, müssen Sie diese erstellen, bevor Sie den Workflow erstellen oder ändern. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von Geschäftszeiten in Skype für Unternehmen](optional-define-response-group-business-hours.md) und [(Optional) definieren Response Group feiertagssätze in Skype für Unternehmen](optional-define-response-group-holiday-sets.md).
     
 7. Wenn eingabeaufforderungen für Anrufe werden soll, die außerhalb der Geschäftszeiten oder an Feiertagen empfangen werden, verwenden Sie das Cmdlet " **New-CsRgsPrompt** " So definieren Sie die Aufforderung, und verwenden Sie das **New-CsRgsCallAction** so definieren Sie die Aktion nach der Aufforderung erfolgen soll. Weitere Informationen hierzu finden Sie unter [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) und [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
     
@@ -452,7 +451,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
    - Wenn Sie einen vordefinierten Zeitplan für die Geschäftszeiten verwenden möchten, klicken Sie auf **Vordefinierten Zeitplan verwenden** und wählen Sie den gewünschten Zeitplan in der Dropdownliste aus.
     
      > [!NOTE]
-     > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Sie erstellen vordefinierte Zeitpläne mit dem **New-CSRgsHoursOfBusiness**-Cmdlet. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von Geschäftszeiten in Skype für Business 2015](optional-define-response-group-business-hours.md). Wenn Sie einen vordefinierten Zeitplan verwenden, werden die Werte für **Tag**, **Öffnen** und **Schließen**, automatisch mit den Tagen und Stunden ausgefüllt, an denen die Reaktionsgruppe verfügbar ist.
+     > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Sie erstellen vordefinierte Zeitpläne mit dem **New-CSRgsHoursOfBusiness**-Cmdlet. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von Geschäftszeiten in Skype für Unternehmen](optional-define-response-group-business-hours.md). Wenn Sie einen vordefinierten Zeitplan verwenden, werden die Werte für **Tag**, **Öffnen** und **Schließen**, automatisch mit den Tagen und Stunden ausgefüllt, an denen die Reaktionsgruppe verfügbar ist.
   
    - Klicken Sie auf **Benutzerdefinierten Zeitplan verwenden**, um einen benutzerdefinierten Zeitplan zu erstellen, der nur für diesen Workflow gilt.
     
@@ -488,7 +487,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 24. Aktivieren Sie unter **Schritt 5: Feiertage angeben** die Kontrollkästchen für einen oder mehrere Feiertagssätze, mit denen die Tage definiert werden, an denen die Reaktionsgruppe aufgrund eines Feiertags nicht verfügbar ist.
     
     > [!NOTE]
-    > Sie müssen Feiertage und Feiertagssätze definieren, bevor Sie den Workflow konfigurieren. Verwenden Sie zum Definieren von Feiertagen und Feiertagssätzen die Cmdlets **New-CsRgsHoliday** und **New-CsRgsHolidaySet**. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von feiertagsschemas in Skype für Business 2015](optional-define-response-group-holiday-sets.md). 
+    > Sie müssen Feiertage und Feiertagssätze definieren, bevor Sie den Workflow konfigurieren. Verwenden Sie zum Definieren von Feiertagen und Feiertagssätzen die Cmdlets **New-CsRgsHoliday** und **New-CsRgsHolidaySet**. Weitere Informationen hierzu finden Sie unter [feiertagssätze in Skype für Unternehmen (Optional) definieren Response Group](optional-define-response-group-holiday-sets.md). 
   
 25. Wenn Sie an Feiertagen eine Nachricht wiedergeben möchten, aktivieren Sie das Kontrollkästchen **An Feiertagen eine Nachricht wiedergegeben** und geben Sie die Nachricht ein, indem Sie eine der folgenden Aktionen ausführen:
     
@@ -644,9 +643,9 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
   
 ## <a name="see-also"></a>Siehe auch
 
-[(Optional) Feiertagssätze in Skype für Business 2015 definieren "Reaktionsgruppe"](optional-define-response-group-holiday-sets.md)
+[(Optional) Definieren von Reaktionsgruppe feiertagssätze in Skype für Unternehmen](optional-define-response-group-holiday-sets.md)
 
-[(Optional) Reaktionsgruppe Definieren von Geschäftszeiten in Skype für Business 2015](optional-define-response-group-business-hours.md)
+[(Optional) Reaktionsgruppe Definieren von Geschäftszeiten in Skype für Unternehmen](optional-define-response-group-business-hours.md)
 
 [Mit New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   
@@ -655,3 +654,4 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 [Neue CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [Mit New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+

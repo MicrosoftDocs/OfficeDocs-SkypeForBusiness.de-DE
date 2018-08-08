@@ -2,20 +2,22 @@
 title: Bereitstellen von Microsoft-Teams, Cloud VoIP-Dienst
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 03/13/2018
+manager: serdars
+ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Laden Sie die Website-Aktivierung Playbook zur Planung der Einführung Teams und beschleunigen und zur Optimierung Benutzerakzeptanz, Wahrnehmung der Qualität und Kundenzufriedenheit.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f59b7568f5ec0d3d9b6ef3b04f4094b222d0702b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a3e40009a76ef7c8f31d659d45de1e4acf0801ec
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695510"
 ---
 # <a name="deploy-my-service"></a>Stellen Sie meine Dienst
 
@@ -36,7 +38,7 @@ Anhand der Aktivitäten in dieser Playbook kann Ihre Organisation:
 -   Reduzieren von Support-Anforderungen und steigern Benutzerzufriedenheit.
 
 > [!NOTE]
-> In diesem Artikel und die zugehörigen Playbook werden nicht für die direkte Verwendung beschreiben alle technischen Konfigurationsschritte erforderlich für die Aktivierung von Diensten oder an einen bestimmten Standort Wählton bereitstellen. Stattdessen Schwerpunktthemen Aktivitäten und Aufgaben auf einfache Weise integrierte Benutzern empfohlen und lassen, beginnt, Teams VoIP Arbeitslasten über einen schnellen und reibungslosen Übergang mit einer hohen Akzeptanz Support-Anforderungen zu minimieren. Technische Anleitungen für Teams VoIP Ihrer Umgebung am besten konfigurieren finden Sie unter Onboarding Prüflisten für [Teams VoIP Arbeitslasten konfigurieren](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams), [Teams Kernfunktionen](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities), [Netzwerke für Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking)und [Aktivieren von Office 365 ](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365).
+> In diesem Artikel und die zugehörigen Playbook werden nicht für die direkte Verwendung beschreiben alle technischen Konfigurationsschritte erforderlich für die Aktivierung von Diensten oder an einen bestimmten Standort Wählton bereitstellen. Stattdessen Schwerpunktthemen Aktivitäten und Aufgaben auf einfache Weise integrierte Benutzern empfohlen und lassen, beginnt, Teams VoIP Arbeitslasten über einen schnellen und reibungslosen Übergang mit einer hohen Akzeptanz Support-Anforderungen zu minimieren. Technische Anleitungen für Teams VoIP Ihrer Umgebung am besten konfigurieren, finden Sie unter den Onboarding Prüflisten für das [Konfigurieren von VoIP-Arbeitslasten Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Konfigurieren von direkten Routing in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Teams core-Funktionen](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [-Netzwerke für Teams](onboarding-checklist-configure-networking.md), und [Aktivieren von Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -45,6 +47,9 @@ Anhand der Aktivitäten in dieser Playbook kann Ihre Organisation:
 Der Schwerpunkt der Playbook ist die Faktoren behandeln, die beeinflussen des Benutzers Wahrnehmung der einer Teams VoIP-Bereitstellung. Aktivitäten und Aufgaben sind in die folgenden Fokus Bereiche unterteilt:
 
 -   Überprüfung der Service-Bereitschaft
+    - Audiokonferenz
+    - Anrufpläne
+    - Direktes Routing
 
 -   Benutzer-Aktivierung
 
@@ -90,15 +95,13 @@ Unabhängig von der Größe und Komplexität des Speicherorts, jede Website akti
 > [!TIP]
 > Wiederholen Sie die obigen Schritte für alle Speicherorte, die Ihnen.
 
-
 > [!IMPORTANT]
 > Einige Schritte möglicherweise nicht für alle Standorte und Websites gelten. Wenn eine bestimmte Aktivität nicht für eine Website relevant ist, müssen Sie für diese Aktivität **nicht zutreffend** auswählen. Alle Zeilen in der Playbook **nicht löschen** . In diesem Fall die Status-Rollup-Formeln, funktionieren nicht.<br/><br/>
 Achten Sie auf, die die voraussichtliche mehr Zeit als Sie, wie etwa Zahl Portieren geplant und Beschaffungsaktivitäten. Diese Aktivitäten können sich negativ auf die Website Bereitstellung Zeitachse auswirken. Müssen Sie überprüfen und aktualisieren die Liste der Aktivitäten und der zugehörige Zeitplan wöchentlich, und präsentieren sie bei [Lenkungsausschuss Besprechungen](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) , um sicherzustellen, dass die Beteiligten den Status von jedem Standort und alle möglichen Abweichung aus der Planung der Bereitstellung kennen.
 
-
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, ob die Website-Aktivierung (Playbook) für Ihre Bereitstellung erforderlich ist.</li><li>Legen Sie fest, wer ist verantwortlich für das Anpassen von Website-Aktivierung (Playbook) für Microsoft-Teams für jeden Standort, den Sie bereitstellen müssen.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Laden Sie die Website-Aktivierung (Playbook).</li><li>Passen Sie die Website-Aktivierung Playbook für die erste Website.</li><li>Wiederholen Sie nach Bedarf für weitere Standorte.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>[Laden Sie die Website-Aktivierung (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true).</li><li>Passen Sie die Website-Aktivierung Playbook für die erste Website.</li><li>Wiederholen Sie nach Bedarf für weitere Standorte.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

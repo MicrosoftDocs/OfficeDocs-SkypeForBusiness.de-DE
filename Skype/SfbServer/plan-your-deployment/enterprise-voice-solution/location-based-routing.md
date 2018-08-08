@@ -1,9 +1,8 @@
 ---
-title: Planen des standortbasierten Routings in Skype for Business 2015
+title: Plan für die Standortbasierte Weiterleitung im Skype für Unternehmen
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/7/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planen von Standortbasierte Weiterleitung im Skype für Business Server Enterprise-VoIP, einschließlich der Interaktion mit Gleichzeitiges Klingeln und Delegierung und unterstützte Szenarios für die Standortbasierte Weiterleitung.
-ms.openlocfilehash: 224bae32037ea474dc376e653db5b3d644c859ee
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 80f77db43b62629f31d1481fdd5653ba18d96d10
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967304"
 ---
-# <a name="plan-for-location-based-routing-in-skype-for-business-2015"></a>Planen des standortbasierten Routings in Skype for Business 2015
+# <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan für die Standortbasierte Weiterleitung im Skype für Unternehmen
  
 Planen von Standortbasierte Weiterleitung im Skype für Business Server Enterprise-VoIP, einschließlich der Interaktion mit Gleichzeitiges Klingeln und Delegierung und unterstützte Szenarios für die Standortbasierte Weiterleitung.
   
@@ -82,9 +82,9 @@ Beim standortbasierten Routing werden die folgenden allgemeinen Regeln auf das R
 
 Das routing ausgehender Anrufe von Benutzern für standortbasierte Routing aktiviert ist, hängt vom Netzwerkspeicherort des Endpunkts des Benutzers betroffen. Die folgende Tabelle veranschaulicht die standortbasierte Routing wirkt sich auf das routing von ausgehenden Anrufen je nach den Speicherort des Endpunkts des Anrufers. 
   
-**Platzieren einen ausgehenden Anruf an das Telefonfestnetz Anrufer**
+**Der Anrufer tätigt einen ausgehenden Anruf in das öffentliche Telefonnetz**
 
-||**Benutzer-Endpunkt befindet sich in einem Netzwerkstandort für standortbasierte Routing aktiviert**|**Benutzer-Endpunkt befindet sich im Netzwerkstandort unbekannt oder für standortbasierte Routing nicht aktiviert.**|
+||**Der Benutzerendpunkt befindet sich an einem Netzwerkstandort, der für standortbasiertes Routing aktiviert ist**|**Der Benutzerendpunkt befindet sich an einem unbekannten Netzwerkstandort oder einem Standort, der nicht für standortbasiertes Routing aktiviert ist**|
 |:-----|:-----|:-----|
 |Autorisierung ausgehender Anrufe  <br/> |Anruf ist autorisiert basierend auf VoIP-Richtlinie des Benutzers  <br/> |Anruf ist autorisiert basierend auf VoIP-Richtlinie des Benutzers  <br/> |
 |Routing ausgehender Anrufe  <br/> |Anruf wird entsprechend den Netzwerkstandort VoIP-Routingrichtlinie geleitet.  <br/> |Anruf wird gemäß den VoIP-Richtlinie des Benutzers und nur über Trunks nicht aktiviert für standortbasierte Routing (sofern verfügbar) weitergeleitet.  <br/> |
@@ -97,7 +97,7 @@ Die Anrufweiterleitungseinstellungen eines Benutzers, der für das Routing speic
   
 Die folgende Tabelle veranschaulicht die standortbasierte Routing wirkt sich auf das routing von eingehenden Anrufen je nach den Speicherort des Endpunkts des angerufenen. Der Netzwerkstandort des PSTN-Gateways für standortbasierte Routing aktiviert ist, und standortbasierte nur Routing ermöglicht das routing von PSTN-Anrufe an Endpunkten innerhalb der gleichen Network-Website.
   
-**Angerufenen empfangen einen eingehenden Anruf über das PSTN**
+**Angerufener empfängt einen eingehenden Anruf aus dem Telefonfestnetz (PSTN)**
 
 ||**Endpunkt des angerufenen befindet sich im gleichen Netzwerkstandort als PSTN-gateway**|**Endpunkt des angerufenen befindet sich nicht im gleichen Netzwerkstandort als PSTN-gateway**|**Endpunkt des angerufenen befindet sich im Netzwerkstandort unbekannt oder für standortbasierte Routing nicht aktiviert.**|
 |:-----|:-----|:-----|:-----|
@@ -109,9 +109,9 @@ Wenn ein PSTN-Endpunkt beteiligt ist, analysiert speicherortbasierte Routing den
   
 Die folgende Tabelle veranschaulicht das Szenario, einen Skype für Geschäftsbenutzer im Gespräch mit einem PSTN-Endpunkt, und die Skype für Geschäftsbenutzer überträgt den Anruf an eine andere Skype für Geschäftsbenutzer. Abhängig von der Website Netzwerkspeicherort des Endpunkts des Übernehmers wirkt sich auf Standortbasierte Routing, routing, der den Anruf weiterleiten oder weiterleiten.
   
-**Ausgehender Anruf weiterleiten oder weiterleiten**
+**Einleitung der Anrufdurchstellung oder -weiterleitung**
 
-|**Benutzer, die den Anruf initiieren Übertragung/weiterleiten**|**Zielendpunkt befindet sich in demselben Netzwerkstandort als Benutzer initiieren Anruf weiterleiten "oder" weiterleiten**|**Zielendpunkt ist in verschiedenen Netzwerkstandort als Benutzer initiieren Anruf weiterleiten "oder" weiterleiten**|**Zielendpunkt ist unbekannt Netzwerk oder Netzwerkstandort nicht für standortbasierte Routing aktiviert**|
+|**Benutzer, der die Durchstellung oder Weiterleitung des Anrufs einleitet**|**Der Zielendpunkt befindet sich am gleichen Netzwerkstandort wie der Benutzer, der die Anrufdurchstellung oder -weiterleitung einleitet**|**Der Zielendpunkt befindet sich an einem anderen Netzwerkstandort als der Benutzer, der die Anrufdurchstellung oder -weiterleitung einleitet**|**Zielendpunkt ist unbekannt Netzwerk oder Netzwerkstandort nicht für standortbasierte Routing aktiviert**|
 |:-----|:-----|:-----|:-----|
 |Skype für Geschäftsbenutzer  <br/> |Anrufweiterleitung oder -durchstellung ist erlaubt  <br/> |Anrufweiterleitung oder -durchstellung ist nicht erlaubt  <br/> |Anrufweiterleitung oder -durchstellung ist nicht erlaubt  <br/> |
    
@@ -119,9 +119,9 @@ Beispiel: ein Skype für Geschäftsbenutzer im Gespräch mit einem PSTN-Endpunkt
   
 Die folgende Tabelle veranschaulicht das Szenario, einen Skype für Geschäftsbenutzer im Gespräch mit einem anderen Skype für Geschäftsbenutzer und einer der Benutzer den Anruf an einen PSTN-Endpunkt überträgt. Die Tabelle zeigt im Detail, wie sich das standortbasierte Routing abhängig vom Standort des Benutzers, an den der Anruf durchgestellt werden soll, auf den Anruf auswirkt.
   
-**Anruf weiterleiten oder Weiterleiten an PSTN-Endpunkt**
+**Anrufdurchstellung oder -weiterleitung an einen Endpunkt im öffentlichen Telefonnetz**
 
-|**Rufen Sie die Übertragung/Forward Endpunkt Ziel**|**Skype für Unternehmensbenutzer in demselben Netzwerkstandort**|**Skype für Unternehmensbenutzer in verschiedenen Netzwerkstandorten**|**Eine oder beide Skype für Unternehmensbenutzer in unbekannte Netzwerkstandort oder Netzwerkstandort für standortbasierte Routing nicht aktiviert.**|
+|**Zielendpunkt für die Anrufdurchstellung oder -weiterleitung**|**Skype für Unternehmensbenutzer in demselben Netzwerkstandort**|**Skype für Unternehmensbenutzer in verschiedenen Netzwerkstandorten**|**Eine oder beide Skype für Unternehmensbenutzer in unbekannte Netzwerkstandort oder Netzwerkstandort für standortbasierte Routing nicht aktiviert.**|
 |:-----|:-----|:-----|:-----|
 |Endpunkt im öffentlichen Telefonnetz  <br/> |Anruf weiterleiten oder Übertragung von der übertragenen Benutzer Website VoIP-Routingrichtlinie zulässig  <br/> |Anruf weiterleiten oder Übertragung von der übertragenen Benutzer Website VoIP-Routingrichtlinie zulässig  <br/> |Anruf weiterleiten oder Übertragung von VoIP-Richtlinie der übertragenen Benutzer nur über Trunks zulässig für standortbasierte Routing nicht aktiviert  <br/> |
    
@@ -135,7 +135,7 @@ Die folgende Tabelle zeigt einen Benutzer, für den paralleles Anrufen konfiguri
   
 ****
 
-|**Für eingehende PSTN-Anruf**|**Befindet sich am gleichen Standort Netzwerk als des angerufenen**|**Befindet sich in unterschiedlichen Netzwerkstandort als des angerufenen**|**Befindet sich im Netzwerkstandort unbekannt oder für standortbasierte Routing nicht aktiviert.**|
+|**Eingehender Anruf aus dem öffentlichen Telefonnetz für**|**Am gleichen Netzwerkstandort wie der Angerufene**|**An einem anderen Netzwerkstandort als der Angerufene**|**Befindet sich im Netzwerkstandort unbekannt oder für standortbasierte Routing nicht aktiviert.**|
 |:-----|:-----|:-----|:-----|
 |Skype für Geschäftsbenutzer  <br/> |Paralleles Anrufen zugelassen  <br/> |Paralleles Anrufen nicht zugelassen  <br/> |Paralleles Anrufen nicht zugelassen  <br/> |
    
@@ -143,7 +143,7 @@ Die folgende Tabelle veranschaulicht einen Anruf von einem Skype für Geschäfts
   
 ****
 
-|**Gleichzeitiges Klingeln Ziel**|**Befindet sich am gleichen Standort Netzwerk als des angerufenen**|**Befindet sich in unterschiedlichen Netzwerkstandort als des angerufenen**|**Befindet sich im Netzwerkstandort unbekannt oder für standortbasierte Routing nicht aktiviert.**|
+|**Ziel für paralleles Anrufen**|**Am gleichen Netzwerkstandort wie der Angerufene**|**An einem anderen Netzwerkstandort als der Angerufene**|**Befindet sich im Netzwerkstandort unbekannt oder für standortbasierte Routing nicht aktiviert.**|
 |:-----|:-----|:-----|:-----|
 |Endpunkt im öffentlichen Telefonnetz  <br/> |Gleichzeitiges Klingeln passieren des Anrufers Website VoIP-routing-Richtlinie  <br/> |Gleichzeitiges Klingeln passieren des Anrufers Website VoIP-routing-Richtlinie  <br/> |Gleichzeitiges Klingeln passieren des Anrufers VoIP-Richtlinie auf Trunks für standortbasierte Routing nicht aktiviert.  <br/> |
    
@@ -159,7 +159,7 @@ Mit dem kumulativen Update 4 geschieht Folgendes:
     
 In der folgenden Tabelle werden Sie durch einige der nach dem kumulativen Update 4 geltenden Szenarien geführt:
   
-|**Standortbasierte Weiterleitung Benutzer**|**Andere Partei**|**Aktion**|**Ergebnis**|
+|**Standortbasierte Weiterleitung Benutzer**|**Andere Teilnehmer**|**Aktion**|**Ergebnis**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobile  <br/> |Telefonfestnetz (PSTN)  <br/> |Skype für Mobile Business erhält einen eingehenden PSTN-Anruf.  <br/> |Der Anruf wird über „Geschäftlich anrufen“ (Call via Work, CvW) und nicht über VoIP weitergeleitet.  <br/> |
 |Skype for Business Mobile  <br/> |Telefonfestnetz (PSTN)  <br/> |Skype für Mobile Business macht einen ausgehenden PSTN-Anruf.  <br/> |Der Anruf wird über CvW und nicht über VoIP weitergeleitet.  <br/> |
@@ -207,7 +207,7 @@ Die folgende Tabelle zeigt die Kombination von Serverrollen und Versionen, die f
   
 ****
 
-|**Poolversion**|**Mediation Server-version**|**Unterstützt**|
+|**Poolversion**|**Version des Vermittlungsservers**|**Unterstützt**|
 |:-----|:-----|:-----|
 |Skype für Business Server oder für Lync Server 2013 für Februar 2013 kumulative Update  <br/> |Skype für Business Server oder für Lync Server 2013 für Februar 2013 kumulative Update  <br/> |ja  <br/> |
 |Skype für Business Server oder für Lync Server 2013 für Februar 2013 kumulative Update  <br/> |Lync Server 2013  <br/> |nein  <br/> |

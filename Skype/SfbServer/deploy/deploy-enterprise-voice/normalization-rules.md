@@ -1,9 +1,8 @@
 ---
-title: Erstellen oder Ändern einer Normalisierungsregel in Skype for Business 2015
+title: Erstellen oder Ändern einer Normalisierungsregel in Skype für Unternehmen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 'Zusammenfassung: Informationen Sie zum definieren, erstellen und Ändern einer Normalisierungsregel in Skype für Business Server 2015.'
-ms.openlocfilehash: 5ee0b138d118d0c437255cb3e90321019119aedf
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum definieren, erstellen und Ändern einer Normalisierungsregel in Skype für Business Server.'
+ms.openlocfilehash: d9c56d96c0eb9069e4ec02b196a326ad8b599e75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972548"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business-2015"></a>Erstellen oder Ändern einer Normalisierungsregel in Skype for Business 2015
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Erstellen oder Ändern einer Normalisierungsregel in Skype für Unternehmen
  
-**Zusammenfassung:** Informationen Sie zum definieren, erstellen und Ändern einer Normalisierungsregel in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum definieren, erstellen und Ändern einer Normalisierungsregel in Skype für Business Server.
   
 Definieren, erstellen und Ändern von Normalisierungsregeln in Skype für Business Server.
   
@@ -30,7 +30,7 @@ Definieren, erstellen und Ändern von Normalisierungsregeln in Skype für Busine
 
 1. Öffnen von Skype Business Server-Systemsteuerung
     
-2. (Optional) Führen Sie die Schritte in [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](dial-plans.md) bis Schritt 11 oder [Modify a Dial Plan](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) bis Schritt 10.
+2. (Optional) Führen Sie die Schritte in [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](dial-plans.md) bis Schritt 11 oder [Modify a Dial Plan](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) bis Schritt 10.
     
 3. Geben Sie unter **Neue Normalisierungsregel** oder **Normalisierungsregel bearbeiten**einen Namen, der das im **Namen** (beispielsweise 5stellendurchwahl).) normalisierende Nummernmuster beschreibt.
     
@@ -72,13 +72,13 @@ Definieren, erstellen und Ändern von Normalisierungsregeln in Skype für Busine
 11. Klicken Sie auf der Seite **Wählplan** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**. 
     
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine Normalisierungsregel erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine Normalisierungsregel erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
 ### <a name="to-define-a-normalization-rule-manually"></a>So definieren Sie eine Normalisierungsregel manuell
 
 1. Öffnen von Skype Business Server-Systemsteuerung
     
-2. (Optional) Führen Sie die Schritte in [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](dial-plans.md). 
+2. (Optional) Führen Sie die Schritte in [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](dial-plans.md). 
     
 3. Geben Sie unter **Neue Normalisierungsregel** oder **Normalisierungsregel bearbeiten**einen Namen, der das im **Feld Name** (beispielsweise Name der Normalisierung rule5DigitExtension) normalisierende Nummernmuster beschreibt.
     
@@ -105,6 +105,6 @@ Definieren, erstellen und Ändern von Normalisierungsregeln in Skype für Busine
 11. Klicken Sie auf der Seite **Wählplan** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
     
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine Normalisierungsregel erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine Normalisierungsregel erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
 

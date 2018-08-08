@@ -1,9 +1,8 @@
 ---
-title: Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Funktionen in Skype for Business Server 2015
+title: Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,18 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-description: Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. Alle diese müssen konfiguriert werden, um Plan Skype für Unternehmen 2015 medienumgehung bereitstellen Planen für die anrufsteuerung in Skype Business Server 2015), oder Plan für Notdienste in Skype for Business Server 2015 in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: c08ac0a4e5f93c15cc3bfa43bd622381017118be
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. Alle diese müssen konfiguriert werden, um Plan bereitstellen für in Skype für Unternehmen, Plan für die medienumgehung anrufsteuerung in Skype für Business Server), oder Plan für Notdienste in Skype für Business Server in Skype für Business Server Enterprise-VoIP.
+ms.openlocfilehash: ca8cbe6de733f5a2a27552229d3f71c9fbad3b4d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981192"
 ---
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Funktionen in Skype for Business Server 2015
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
  
-Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. All diese müssen konfiguriert werden zum [Planen von Medien in Skype für Business 2015 umgehen](media-bypass.md), [Plan für die anrufsteuerung in Skype für Business Server 2015](call-admission-control.md)bereitstellen), oder in Skype für [Notdienste in Skype für Business Server 2015 planen](emergency-services.md) Business-Server-Enterprise-VoIP.
+Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. All diese müssen konfiguriert sein, um [Planen Medien in Skype für Unternehmen zu umgehen](media-bypass.md), [Plan für die anrufsteuerung in Skype für Business Server](call-admission-control.md)oder in Skype [für Notdienste in Skype für Business Server planen](emergency-services.md) für Business Server bereitstellen Enterprise-VoIP.
   
-Skype für Business Server verfügt über drei erweiterten Enterprise-VoIP-Funktionen: [Plan für die anrufsteuerung in Skype für Business Server 2015](call-admission-control.md)), [Planen Sie für Notdienste in Skype für Business Server 2015](emergency-services.md)und [Plan für Media Bypass in Skype für Business 2015](media-bypass.md). Diese Features freigeben bestimmte konfigurationsanforderungen für netzwerkregionen, Netzwerkstandorten und Zuordnung der einzelnen Subnetze in der Skype für Business Server-Topologie mit einem Netzwerkstandort. 
+Skype für Business Server verfügt über drei erweiterten Enterprise-VoIP-Funktionen: Planen der [Plan für die anrufsteuerung in Skype für Business Server](call-admission-control.md), [für Notdienste in Skype für Business Server planen](emergency-services.md)und [medienumgehung in Skype für Unternehmen ](media-bypass.md). Diese Features freigeben bestimmte konfigurationsanforderungen für netzwerkregionen, Netzwerkstandorten und Zuordnung der einzelnen Subnetze in der Skype für Business Server-Topologie mit einem Netzwerkstandort. 
   
 Dieses Thema bietet eine Übersicht über die konfigurationsanforderungen, die alle drei dieser erweiterten Enterprise-VoIP-Funktionen gelten.
   
@@ -37,11 +37,11 @@ Bei einer Netzwerkregion handelt es sich um einen Netzwerkhub oder Netzwerkbackb
   
 CAC erfordert, dass jeder netzwerkregion ein zugeordneten Skype für Business Server zentralen Standort, haben die Mediendatenverkehr innerhalb der Region verwaltet (d. h., es entscheidet, die basierend auf Richtlinien, die Sie, bezüglich, ob konfiguriert haben eine in Echtzeit Audio- oder videositzung hergestellt werden). Skype für zentrale Standorte Business Server geografischen Standorten, aber vielmehr logischen Gruppen von Servern, die als Pool konfiguriert sind oder eine Gruppe von Pools nicht darstellen. 
   
-Zum Konfigurieren einer netzwerkregion können Sie entweder die Registerkarte **Regionen** auf einem Abschnitt **Netzwerkkonfiguration** Skype Business Server-Systemsteuerung verwenden oder führen Sie die **New-CsNetworkRegion** oder **Set-CsNetworkRegion** Skype für Unternehmen Server-Verwaltungsshell-Cmdlets. Anweisungen finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Business 2015](../../deploy/deploy-enterprise-voice/deploy-network.md) in der Dokumentation zur Bereitstellung, oder Lesen Sie die Skype Business Server-Verwaltungsshell-Dokumentation.
+Zum Konfigurieren einer netzwerkregion können Sie entweder die Registerkarte **Regionen** auf einem Abschnitt **Netzwerkkonfiguration** Skype Business Server-Systemsteuerung verwenden oder führen Sie die **New-CsNetworkRegion** oder **Set-CsNetworkRegion** Skype für Unternehmen Server-Verwaltungsshell-Cmdlets. Anweisungen finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Unternehmen](../../deploy/deploy-enterprise-voice/deploy-network.md) in der Dokumentation zur Bereitstellung, oder Lesen Sie die Skype Business Server-Verwaltungsshell-Dokumentation.
   
 Die gleichen netzwerkregionendefinitionen sind durch alle drei erweiterten Enterprise-VoIP-Funktionen freigegeben. Wenn Sie bereits Netzwerkregionen für eine Funktion erstellt haben, müssen Sie keine neuen Netzwerkregionen für die anderen Funktionen erstellen. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben.
   
-Um einen Skype für Business Server zentralen Standort eine netzwerkregion zuzuordnen, geben Sie den zentralen Standort-Namen, entweder mithilfe des Abschnitts **Netzwerkkonfiguration** von Skype Business Server-Systemsteuerung oder indem Sie das **New-CsNetworkRegion** ausführen oder **Set-CsNetworkRegion** -Cmdlets. Anweisungen finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Business 2015](../../deploy/deploy-enterprise-voice/deploy-network.md) in der Dokumentation zur Bereitstellung, oder Lesen Sie die Skype Business Server-Verwaltungsshell-Dokumentation.
+Um einen Skype für Business Server zentralen Standort eine netzwerkregion zuzuordnen, geben Sie den zentralen Standort-Namen, entweder mithilfe des Abschnitts **Netzwerkkonfiguration** von Skype Business Server-Systemsteuerung oder indem Sie das **New-CsNetworkRegion** ausführen oder **Set-CsNetworkRegion** -Cmdlets. Anweisungen finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Unternehmen](../../deploy/deploy-enterprise-voice/deploy-network.md) in der Dokumentation zur Bereitstellung, oder Lesen Sie die Skype Business Server-Verwaltungsshell-Dokumentation.
   
 ## <a name="network-sites"></a>Netzwerkstandorte
 
@@ -69,11 +69,9 @@ Um Subnetzen zu Netzwerkstandorten zuzuordnen, können Sie entweder die **Netzwe
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Planen für die anrufsteuerung in Skype Business Server 2015](call-admission-control.md)
+[Plan für die anrufsteuerung in Skype für Business Server](call-admission-control.md)
   
-[Planen für Notdienste in Skype Business Server 2015](emergency-services.md)
+[Planen für Notdienste in Skype Business Server](emergency-services.md)
   
-[Planen Sie für die medienumgehung in Skype für Business 2015](media-bypass.md)
+[Planen der medienumgehung in Skype für Unternehmen](media-bypass.md)
 

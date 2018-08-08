@@ -1,8 +1,7 @@
 ---
-title: Systemanforderungen des Edgeservers in Skype for Business Server 2015
+title: Edge-Server-System Requirements in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,13 +12,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: Informationen Sie zu den Systemanforderungen für Edge-Server in Skype für Business Server.'
-ms.openlocfilehash: aaf8e45c005ff6295e1c0927d6a29abade383bfb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ede0f7f933f246496593519afa035f09ef402bfb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013138"
 ---
-# <a name="edge-server-system-requirements-in-skype-for-business-server-2015"></a>Systemanforderungen des Edgeservers in Skype for Business Server 2015
+# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Edge-Server-System Requirements in Skype für Business Server
  
 **Zusammenfassung:** Informationen Sie zu den Systemanforderungen für Edge-Server in Skype für Business Server.
   
@@ -60,6 +60,9 @@ Autorisierte externe Benutzer können Ihrer Edge-Server verwenden, um die Verbin
   
 > [!NOTE]
 > Edge-Server werden bereitgestellt, um Verbindungen für aktivierten Skype für Business-Clients und anderen Edge-Server (in Verbundszenarien) bereitzustellen. Sie können keine Verbindungen von anderen Endpunktclients oder Servertypen herstellen. Der XMPP-Gatewayserver kann für die Verbindungen mit konfigurierten XMPP-Partnern eingesetzt werden. Denken Sie daran, dass dies die einzigen Client- und Verbundtypen sind, die funktionieren. 
+
+> [!NOTE]
+> XMPP-Gateways und -Proxys werden stehen in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype für Business Server 2019. Weitere Informationen finden Sie unter [Migrieren von XMPP-Verbund](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
   
 ### <a name="reverse-proxies"></a>Reverseproxys
 <a name="ReverseProxies"> </a>
@@ -84,7 +87,7 @@ Und für mobile Geräte:
     
 - Sie können Pushbenachrichtigungen von Office 365 für mobile Geräte.
     
-Die aktuellen Reverseproxy Empfehlungen finden Sie auf der Seite [Telefonie-Infrastruktur für Skype für Unternehmen](https://technet.microsoft.com/en-us/office/dn947483) . So Ihren Reverseproxy aufrufen:
+Die aktuellen Reverseproxy Empfehlungen finden Sie auf der Seite [Telefonie-Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) . So Ihren Reverseproxy aufrufen:
   
 - TLS (Transport Layer Security)-Verbindungen zu verwenden, die in Ihrer Umgebung über öffentliche Zertifikate bereitgestellt werden, um eine Verbindung mit den folgenden veröffentlichten externen Webdiensten herzustellen:
     
@@ -131,7 +134,7 @@ Warum ist das von Bedeutung? Eine wichtige Funktion für einen Director ist um S
 ### <a name="load-balancers"></a>Lastenausgleichsysteme
 <a name="LoadBalancers"> </a>
 
-Die Skype ist für Business Server 2015 eine skalierte edgetopologie konsolidierte optimiert für DNS-Lastenausgleich für die neue Bereitstellung, und es wird, dies empfohlen. Wenn Sie hohen Verfügbarkeit benötigen, sollten ein Hardwaregerät zum Lastenausgleich für eine bestimmte Situation verwenden:
+Die Skype ist für Business Server eine skalierte edgetopologie konsolidierte optimiert für DNS-Lastenausgleich für die neue Bereitstellung, und es wird, dies empfohlen. Wenn Sie hohen Verfügbarkeit benötigen, sollten ein Hardwaregerät zum Lastenausgleich für eine bestimmte Situation verwenden:
   
 - Exchange UM für Remotebenutzer, die mit Exchange UM **früheren** Exchange 2013.
     
@@ -139,7 +142,7 @@ Die Skype ist für Business Server 2015 eine skalierte edgetopologie konsolidier
 > Es ist wichtig, zu beachten, dass Sie Lastenausgleichssysteme nicht miteinander kombinieren können. In Ihrer Skype für Business Server-Umgebung müssen alle Schnittstellen DNS oder Hardwarelastenausgleich verwenden. 
   
 > [!NOTE]
-> Direct Server zurück, dass (DSR)-NAT für Skype für Business Server 2015 nicht unterstützt wird. 
+> Direct Server zurück, dass (DSR)-NAT für Skype für Business Server nicht unterstützt wird. 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>Anforderungen für Hardware bei zum Lastenausgleich für Edge-Servern Edge-Server mit dem A / V-edgedienst
 
@@ -157,7 +160,7 @@ Für Edge Server mit dem A / V-Edgeserver Dies sind die Anforderungen:
     
 #### <a name="hlb-requirements"></a>HLB-Anforderungen
 
-Als haben nicht mit Lync Server 2013 Skype für Business Server 2015 viel cookiebasierte Affinität Anforderungen. Damit Sie keine cookiebasierte Persistenz **, wenn** Sie Lync Server 2010 Front-End-Servern oder Front-End-Pools in Ihrer Skype für Business Server-Umgebung haben also verwenden möchten. Sie müssten die cookiebasierte Affinität in der Konfigurationsmethode für Lync Server 2010 empfohlen.
+Skype für Business Server verfügt nicht über viele cookiebasierte Affinität Anforderungen. So Sie keine cookiebasierte Persistenz **, sofern nicht** verwenden müssen (und dies Skype für Business Server 2015-spezifischen ist) benötigen Sie Lync Server 2010 Front-End-Servern oder Front-End-Pools in Ihrer Skype für Business Server-Umgebung haben. Sie müssten die cookiebasierte Affinität in der Konfigurationsmethode für Lync Server 2010 empfohlen.
   
 > [!NOTE]
 > Wenn Sie sich dafür entscheiden, die cookiebasierte Affinität für Ihre Hardware zum Lastenausgleich (HLB) zu aktivieren, können Sie dies problemlos tun, selbst wenn es für Ihre Umgebung nicht notwendig ist. 
@@ -179,7 +182,7 @@ Für Bereitstellungen, in denen die cookiebasierte Affinität **verwendet** wird
 - Der Hardware Load Balancer Cookie **muss** festgelegt werden in jeder HTTP-Antwort für die eingehende HTTP-Anforderung hatten ein Cookie, unabhängig davon, ob eine vorherige HTTP-Antwort in der gleichen TCP-Verbindung ein Cookie gelangt hatte. Wenn Ihr Hardwaregerät zum Lastenausgleich, Cookie einfügen optimiert, um auftreten nur einmal pro TCP-Verbindung, Optimierung **muss nicht** verwendet werden.
     
 > [!NOTE]
-> Es ist normalerweise für Hardwaregeräts zum Lastenausgleich Konfigurationen Quelle Affinität und 20 Minuten TCP Sitzungsdauer, die Ordnung für Skype für Business Server 2015 und den zugehörigen Clients ist, da Sitzungsstatus über Clientverwendung und/oder Interaktion der Anwendung verwaltet wird. 
+> Es ist normalerweise für Hardwaregeräts zum Lastenausgleich Konfigurationen Quelle Affinität und 20 Minuten TCP Sitzungsdauer, die Ordnung für Skype für Business Server und den zugehörigen Clients ist, da Sitzungsstatus über Clientverwendung und/oder Interaktion der Anwendung verwaltet wird. 
   
 Wenn Sie mobile Geräte bereitstellen, muss Ihr Hardwaregerät zum Lastenausgleich in der Lage sein, einen Lastenausgleich für eine einzelne Anforderung in einer TCP-Sitzung vorzunehmen (tatsächlich muss es möglich sein, einen Lastenausgleich für eine einzelne Anforderung basierend auf der Ziel-IP-Adresse vorzunehmen).
   
@@ -188,7 +191,7 @@ Wenn Sie mobile Geräte bereitstellen, muss Ihr Hardwaregerät zum Lastenausglei
   
 Hier sind die Anforderungen Hardwaregeräts zum Lastenausgleich für den Director (optional) und (erforderlich) Front-End-Pool-Webdienste:
   
-- Festlegen von für Ihre internen Web Services-Ends Source_addr Persistenz (interner Port 80, 443) für Ihre Hardwaregeräts zum Lastenausgleich. Für Skype für Business Server 2015 also Source_addr Persistenz immer auf einem Server mehrere Verbindungen, die von einer einzelnen IP-Adresse gesendet werden, den Sitzungszustand beibehalten.
+- Festlegen von für Ihre internen Web Services-Ends Source_addr Persistenz (interner Port 80, 443) für Ihre Hardwaregeräts zum Lastenausgleich. Für Skype für Business Server also Source_addr Persistenz immer auf einem Server mehrere Verbindungen, die von einer einzelnen IP-Adresse gesendet werden, den Sitzungszustand beibehalten.
     
 - Verwenden Sie ein TCP-Leerlauftimeout von 1.800 Sekunden.
     
@@ -196,7 +199,7 @@ Hier sind die Anforderungen Hardwaregeräts zum Lastenausgleich für den Directo
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>Zusammenfassung der HLB-Affinitätsanforderungen
 
-|**Client-/Benutzerstandort**|**Externen Webdienste-FQDN affinitätsanforderungen an den**|**FQSN affinitätsanforderungen an den für interne Webdienste**|
+|**Client-/Benutzerstandort**|**Affinitätsanforderungen an den externen Webdienste-FQDN**|**Affinitätsanforderungen an den internen Webdienste-FQSN**|
 |:-----|:-----|:-----|
 |Skype für Business Web App (interne und externe Benutzer)  <br/> Mobiles Gerät (interne und externe Benutzer)  <br/> |Keine Affinität  <br/> |Quelladressenaffinität  <br/> |
 |Skype für Business Web App (nur externe Benutzer)  <br/> Mobiles Gerät (interne und externe Benutzer)  <br/> |Keine Affinität  <br/> |Quelladressenaffinität  <br/> |
@@ -206,17 +209,17 @@ Hier sind die Anforderungen Hardwaregeräts zum Lastenausgleich für den Directo
 
 Sie definieren Port-Überwachung Ihrer Hardwaregeräte zum Lastenausgleich, um zu bestimmen, wann bestimmte Dienste nicht mehr verfügbar ist, aufgrund von Hardware-oder Communications sind. Angenommen, wenn der Front-End-Server-Dienst (RTCSRV) beendet wurde, da der Front-End-Server oder Front-End-Pool fällt aus, sollte die Überwachung des Hardwaregeräts zum Lastenausgleich ebenfalls beendet-Datenverkehr an die Webdienste empfangen. Sie sollten die HLB-Portüberwachung implementieren, um Folgendes für die externe Schnittstelle Ihres HLBs zu überwachen:
   
-|**Virtuelle IP-Adresse/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<Pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Keine  <br/> |HTTPS  <br/> |
 |\<Pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Keine  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>Hardware- und Softwareanforderungen
 
-Wir haben in unserer allgemeinen [Anforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) Dokumentation Edge-Server-Hardware und Software-Anforderungen behandelt.
+Wir haben in unserer allgemeinen [Anforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Systemanforderungen für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) Dokumentation Edge-Server-Hardware und Software-Anforderungen behandelt.
   
 ## <a name="collocation"></a>Kollokation
 
-Wir haben Edge-Server verbinden in unserer [Grundlagen der Topologie für Business Server 2015 Skype](../../plan-your-deployment/topology-basics/topology-basics.md) -Dokumentation behandelt.
+Wir haben Kollokation Edge-Server in der [Topologiegrundlagen der Skype für Business Server](../../plan-your-deployment/topology-basics/topology-basics.md) -Dokumentation behandelt.
   
 

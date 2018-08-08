@@ -7,19 +7,20 @@ ms.date: 04/16/2018
 ms.topic: article
 audience: Admin
 ms.service: msteams
-ms.reviewer: dearbeen, ninadara
-localization_priority: Normal
+ms.reviewer: ''
+localization_priority: Priority
 description: Hier finden Sie Informationen zu den verschiedenen Office 365-Lizenzen und darüber, welche Lizenzen für die Aktivierung von Microsoft Teams erforderlich sind und wie diese Lizenzen aktiviert bzw. deaktiviert werden.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d9d3ae6a085881a3965a4e25a101172c5874b14
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 25124f8e324dc2b713e9243c21b5dc4376deafb3
+ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21750352"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Office 365-Lizenzierung für Microsoft Teams
 ========================================
@@ -32,13 +33,14 @@ Die folgenden Office 365-Abonnements Aktivieren von Benutzern für Teams.
 |---------|---------|---------|---------|
 |Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365-Entwickler     |
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
-|Office 365 Enterprise F1     |Office 365 Enterprise E4 (veraltet)         |Office 365 Education E3 (veraltet)         |  |
+|     |Office 365 Enterprise E4 (veraltet)         |Office 365 Education E3 (veraltet)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
+|     |Office 365 Enterprise F1 |    |     |
 
-
+Weitere Informationen zum Abrufen von Teams, Auschecken [Wie erhalte ich Zugriff auf Microsoft-Teams?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> Microsoft Teams ist auch für gemeinnützige Organisationen verfügbar. Die Lizenzierung für den öffentlichen Dienst wird derzeit nicht unterstützt, ist aber für die Zukunft in Planung.
+> Microsoft Teams ist auch für gemeinnützige Organisationen verfügbar. Teams für die uns Behörden Cloud Community (GCC) 17. Juli Rollout beginnt und am Ende des August 2018 für alle berechtigten Kunden verfügbar sein. Wir arbeiten an anderen US-Regierung Wolken (GCC hohe und DoD) Microsoft-Teams Unterlagen bald verfügbar. Lesen Sie mehr im Blog Microsoft-Teams [hier](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
         
 
 

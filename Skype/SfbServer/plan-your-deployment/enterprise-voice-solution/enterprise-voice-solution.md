@@ -1,9 +1,8 @@
 ---
-title: Planen Sie Ihre Enterprise-VoIP-Lösung in Skype für Business Server 2015
+title: Planen Sie Ihre Enterprise-VoIP-Lösung in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: 'Zusammenfassung: Erfahren Sie mehr über die Optionen für die Planung einer einheitlichen Sprach- und Communications-Lösung in Skype für Business Server 2015.'
-ms.openlocfilehash: 9e0b0be7652f8f400e697086b09b447f7f97e958
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Erfahren Sie mehr über die Optionen für die Planung einer einheitlichen Sprach- und Communications-Lösung in Skype für Business Server.'
+ms.openlocfilehash: 5043646f122aec8f7ba80b8b584b6e77f18a9062
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988557"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server-2015"></a>Planen Sie Ihre Enterprise-VoIP-Lösung in Skype für Business Server 2015
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planen Sie Ihre Enterprise-VoIP-Lösung in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Optionen für die Planung einer einheitlichen Sprach- und Communications-Lösung in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Optionen für die Planung einer einheitlichen Sprach- und Communications-Lösung in Skype für Business Server.
   
 Skype für Business Server bietet zwei lokale Enterprise-VoIP-Optionen – Enterprise-VoIP und über Arbeitsplatz anrufen – für Sie in Ihrer Skype für Business Server-Bereitstellung das Telefonsystem Ihres Unternehmens integrieren, für eine echte tätigen von unified Communications Lösung. Beide Optionen können Benutzer ihre Skype für Business-Client zu verwenden, um die VoIP-Anrufe mit anderen Benutzern, sowohl innerhalb als auch außerhalb Ihrer Organisation zu initiieren.
   
@@ -30,7 +30,7 @@ Sie können auch Microsoft Cloud PBX-Dienste, einschließlich von PBX-Dienste un
   
 Sie können außerdem Enterprise-VoIP und über Arbeitsplatz anrufen zusammen verwenden.
   
-- Enterprise-VoIP ist die umfassendsten VoIP anbietet. Es handelt sich um eine softwaregesteuerte Voice over IP (VoIP)-Lösung mit einem sehr reichhaltigen Funktionsumfang, einschließlich der umfassenden Integration in Outlook und Exchange, sowie vielen leistungsstarken Funktionen wie Reaktionsgruppen, dem Parken von Anrufen, Teamanruffunktion, Gruppenanrufannahme sowie Unterstützung von Notrufen im Rahmen erweiterter Notfalldienste (E9-1-1). Mit Enterprise-VoIP verwenden Benutzer ein Audiogerät, wie ein Kopfhörer mit ihrem Computer oder VoIP-fähigen Telefon, anstatt eine herkömmliche PSTN oder PBX-Telefon.
+- Enterprise-VoIP ist das umfassendste VoIP-Angebot. Es handelt sich um eine softwaregesteuerte Voice over IP (VoIP)-Lösung mit einem sehr reichhaltigen Funktionsumfang, einschließlich der umfassenden Integration in Outlook und Exchange, sowie vielen leistungsstarken Funktionen wie Reaktionsgruppen, dem Parken von Anrufen, Teamanruffunktion, Gruppenanrufannahme sowie Unterstützung von Notrufen im Rahmen erweiterter Notfalldienste (E9-1-1). Mit Enterprise-VoIP verwenden Benutzer ein Audiogerät, wie ein Kopfhörer mit ihrem Computer oder VoIP-fähigen Telefon, anstatt eine herkömmliche PSTN oder PBX-Telefon.
     
 - Über Arbeitsplatz anrufen bietet eine Möglichkeit, die vorhandene PBX-Telefonsysteme Ihrer Skype for Business-Lösung zu integrieren. In Skype für Unternehmen aufrufen, einen anderen Benutzer, entweder innerhalb Ihrer Bereitstellung oder um einen externen Benutzer kann Benutzer mit aktivierter über Arbeitsplatz anrufen klicken. Der Anruf wird dann über das Festnetztelefon des Benutzers geführt. Darüber hinaus können diese Benutzer in Skype für Unternehmen an Konferenzen teilnehmen klicken.
     
@@ -45,11 +45,10 @@ Natürlich haben Sie einige Benutzer für Enterprise Voice aktiviert werden, wä
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
 
-[Planen Sie für Enterprise-VoIP in Skype für Business Server 2015](enterprise-voice.md)
+[Planen Sie für Enterprise-VoIP in Skype für Business Server](enterprise-voice.md)
   
-[Planen der Anruf über den Arbeitsplatz in Skype für Business Server 2015](call-via-work.md)
+[Planen der Anruf über den Arbeitsplatz in Skype für Business Server](call-via-work.md)
   
-[Plan für die Remoteanrufsteuerung in Skype für Business 2015](remote-call-control.md)
+[Plan für die Remoteanrufsteuerung in Skype für Unternehmen](remote-call-control.md)
 

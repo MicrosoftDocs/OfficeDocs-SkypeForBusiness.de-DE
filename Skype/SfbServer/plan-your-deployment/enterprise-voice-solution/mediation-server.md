@@ -1,9 +1,8 @@
 ---
-title: Vermittlungsserverkomponente in Skype for Business Server 2015
+title: Vermittlungsserverkomponente in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 'Informationen Sie zu Vermittlungsservern in Skype für Business Server, einschließlich der unterstützten Topologien und seine Relations m: n-Trunks, medienumgehung und anrufsteuerung.'
-ms.openlocfilehash: 73166df66acac493717ce2c07e42e5429176a400
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 95feb3b419eacf77739dfed98d2eee70eb49dc06
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009193"
 ---
-# <a name="mediation-server-component-in-skype-for-business-server-2015"></a>Vermittlungsserverkomponente in Skype for Business Server 2015
+# <a name="mediation-server-component-in-skype-for-business-server"></a>Vermittlungsserverkomponente in Skype für Business Server
  
 Informationen Sie zu Vermittlungsservern in Skype für Business Server, einschließlich der unterstützten Topologien und seine Relations m: n-Trunks, medienumgehung und anrufsteuerung.
   
@@ -52,7 +52,7 @@ Die wichtigsten Funktionen des Vermittlungsservers lauten wie folgt:
     
 Die folgende Abbildung zeigt die Signal- und Medien, die vom Vermittlungsserver verwendet werden, bei der Kommunikation mit einem Basis PSTN-Gateway und der Enterprise-VoIP-Infrastruktur.
   
-**Signalisierung und Protokolle, die vom Vermittlungsserver verwendet**
+**Vom Vermittlungsserver verwendete Signal- und Medienprotokolle**
 
 ![Vermittlungsserverprotokolle (Diagramm)](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
@@ -85,13 +85,13 @@ Die Anrufsteuerung verwaltet Echtzeitsitzungen basierend auf der verfügbaren Ba
   
 Die Medienumgehung und die Bandbreitenreservierung schließen sich gegenseitig aus. Wenn für einen Anruf die Medienumgehung implementiert wird, wird für diesen Anruf keine Anrufsteuerung ausgeführt. Es wird davon ausgegangen, dass für den Anruf keine Verbindungen mit beschränkter Bandbreite verwendet werden. Wenn die anrufsteuerung für einen bestimmten Aufruf, die der Vermittlungsserver umfasst verwendet wird, kann nicht dieses Aufrufs medienumgehung einsetzen.
   
-Ausführliche Informationen zur Umgehung oder anrufsteuerung, finden Sie unter [Plan für Medien in Skype für Business 2015 umgehen](media-bypass.md) oder [für die anrufsteuerung in Skype für Business Server 2015 planen](call-admission-control.md).
+Ausführliche Informationen zur Umgehung oder anrufsteuerung, finden Sie unter [Plan für Medien in Skype für Unternehmen umgehen](media-bypass.md) oder [für die anrufsteuerung in Skype für Business Server planen](call-admission-control.md).
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>9-1-1 (erweitert) (E9-1-1) und Vermittlungsserver
 
 Der Vermittlungsserver hat erweiterte Funktionen, damit es ordnungsgemäß mit erweiterten E9-1-1 (E9-1-1)-Dienstanbietern interagieren kann. Keine besondere Konfiguration ist auf dem Vermittlungsserver erforderlich. Die SIP-Erweiterungen für E9-1-1-Interaktionen erforderlich sind, werden standardmäßig in der Vermittlungsserver SIP-Transportprotokoll für die Interaktionen mit einem gatewaypeer (PSTN-Gateways, IP-Nebenstellenanlage oder der SBC von E9-1-1-Dienst einschließlich Internet Telefoniedienstanbieter enthalten Anbieter)
   
-Gibt an, ob der SIP-Trunk an einen E9-1-1-Dienstanbieter kann auf einen vorhandenen vermittlungsserverpool beendet werden oder eigenständigen Vermittlungsserver erfordern abhängig, ob die E9-1-1-SBC einen Pool von Vermittlungsservern interagieren können. Weitere Informationen hierzu finden Sie unter [m: n-Trunk in Skype für Business Server 2015](m-n-trunk.md).
+Gibt an, ob der SIP-Trunk an einen E9-1-1-Dienstanbieter kann auf einen vorhandenen vermittlungsserverpool beendet werden oder eigenständigen Vermittlungsserver erfordern abhängig, ob die E9-1-1-SBC einen Pool von Vermittlungsservern interagieren können. Weitere Informationen hierzu finden Sie unter [m: n-Trunk in Skype für Business Server](m-n-trunk.md).
   
 ## <a name="media-bypass-and-mediation-server"></a>Medienumgehung und Vermittlungsserver
 
@@ -117,13 +117,13 @@ Sie können die Microsoft Lync Server 2013, Planungstool untersuchen, ob der Fro
   
 Die folgende Abbildung zeigt eine einfache Topologie bestehend aus zwei Websites, die über eine WAN-Verbindung verbunden sind. Vermittlungsserver wird auf einem Front-End-Pool an Standort 1 kombiniert. Der Vermittlungsserver an Standort 1 steuert das PSTN-Gateway an Standort 1 und das Gateway an Standort 2. In dieser Topologie die medienumgehung Global Standorten und Regionen verwenden aktiviert ist, und die Trunks an jedem PSTN-Gateway (GW1 und GW2) Umgehung aktiviert haben.
   
-**Beispiel für Standorte, die über ein WAN verbunden sind Verknüpfung mit einem Vermittlungsserver an Standort 1 und ein PSTN-Gateway an Standort 2**
+**Beispiel für über eine WAN-Leitung verbundene Standorte mit einem Vermittlungsserver an Standort 1 und einem PSTN-Gateway an Standort 2**
 
 ![VoIP-Topologie mit Vermittlungsserver und WAN-Gateway](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 Die folgende Abbildung zeigt eine einfache Topologie, bei denen Vermittlungsserver an Standort 1-Front-End-Pool verbunden ist und eine direkte SIP-Verbindung mit der IP-Nebenstellenanlage an Standort 1. In dieser Abbildung steuert die Mediation Server auch ein PSTN-Gateway an Standort 2. Angenommen, die Skype für Unternehmensbenutzer an Standorten 1 und 2 vorhanden sind. Außerdem wird vorausgesetzt, dass die IP-Nebenstellenanlage einen dazugehörige Medienprozessor verfügt, das alle Medien, die vor dem Senden von Skype für Business-Endpunkte stammen durchlaufen werden müssen Media-Endpunkten, die durch die IP-Nebenstellenanlage gesteuert. In dieser Topologie die medienumgehung Global Standorten und Regionen verwenden aktiviert ist, und die Trunks an PBX und PSTN-Gateway die medienumgehung aktiviert haben.
   
-**Beispiel für Standorte, die über ein WAN verbunden sind Verknüpfung mit einem Vermittlungsserver an Standort 1 und einer Nebenstellenanlage an Standort 2**
+**Beispiel für Standorte, die über eine WAN-Leitung mit einem Vermittlungsserver an Standort 1 und einer Nebenstellenanlage an Standort 2 verbunden sind**
 
 ![VoIP-Topologie mit Vermittlungsserver und WAN-Festnetztelefonanlage](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
@@ -160,7 +160,7 @@ Können Sie die Microsoft Lync Server 2013, Planungstool für ausgewertet werden
 > [!NOTE]
 > Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten unterstützt und Versionen am aufgeführten [Unified Communications Open Interoperability Program – Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
-Wenn Zweigstellenstandorte erforderlich ist, muss eine Survivable Branch Appliance oder eine Kombination aus einem Front-End-Server, einen Vermittlungsserver und ein Gateway am Zweigstellenstandort bereitgestellt werden. (Die Annahme mit Zweigstellenstandorte ist, dass die Anwesenheit und Konferenzen nicht am Standort ausfallsichere sind.) Anleitung zum Planen von VoIP Zweigstellenstandort finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server 2015](enterprise-voice-resiliency.md).
+Wenn Zweigstellenstandorte erforderlich ist, muss eine Survivable Branch Appliance oder eine Kombination aus einem Front-End-Server, einen Vermittlungsserver und ein Gateway am Zweigstellenstandort bereitgestellt werden. (Die Annahme mit Zweigstellenstandorte ist, dass die Anwesenheit und Konferenzen nicht am Standort ausfallsichere sind.) Anleitung zum Planen von VoIP Zweigstellenstandort finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server](enterprise-voice-resiliency.md).
   
 Für die Interaktion mit einer IP-Nebenstellenanlage können die IP-Nebenstellenanlage early Media-Interaktionen mit mehreren frühe Dialoge und RFC 3960 Interaktionen, nicht ordnungsgemäß unterstützt werden sich bei Zuschneiden des ersten Wörter der für eingehende Anrufe aus der IP-PBX Skype für die Begrüßung Business-Endpunkte. Dieses Problem kann Schweregrad, wenn einem Vermittlungsserver an einem zentralen Standort Weiterleiten von Anrufen für eine IP-Nebenstellenanlage beendet wird, in dem die Route an einem Zweigstellenstandort ist, da mehr Zeit benötigt wird, für die Durchführung Signale sein. Wenn Sie dieses Verhalten auftreten, ist die Bereitstellung eines Vermittlungsservers am Zweigstellenstandort die einzige Möglichkeit zur Reduzierung des ersten Wörter clipping.
   

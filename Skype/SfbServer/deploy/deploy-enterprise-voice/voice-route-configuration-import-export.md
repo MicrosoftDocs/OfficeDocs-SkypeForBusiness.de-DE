@@ -1,9 +1,8 @@
 ---
-title: Exportieren oder Importieren einer VoIP-Routenkonfigurationsdatei in Skype for Business 2015
+title: Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 'Zusammenfassung: Informationen Sie zum Exportieren oder importieren eine Konfigurationsdatei VoIP routing in Skype für Business Server 2015 mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: ba16e68ec3218a06d1baf21c238b14e3f566f630
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Exportieren oder importieren eine Konfigurationsdatei VoIP routing in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.'
+ms.openlocfilehash: 462bcf471e4a43bfedf32b0d062731ea7cbd06f9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965408"
 ---
-# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business-2015"></a>Exportieren oder Importieren einer VoIP-Routenkonfigurationsdatei in Skype for Business 2015
+# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen
  
-**Zusammenfassung:** Informationen Sie zum Exportieren oder importieren eine Konfigurationsdatei VoIP routing in Skype für Business Server 2015 mithilfe der Skype für Business Server-Systemsteuerung.
+**Zusammenfassung:** Informationen Sie zum Exportieren oder importieren eine Konfigurationsdatei VoIP routing in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.
   
 Wenn Sie Ihre VoIP-Routingkonfiguration speichern möchten, ohne sie zu veröffentlichen, führen Sie die folgenden Schritte aus, um eine Momentaufnahme Ihrer VoIP-Routingkonfiguration zu speichern und abzurufen. 
   
@@ -57,6 +57,6 @@ Wenn Sie an den Einstellungen auf eine beliebige Seite innerhalb der Gruppe ohne
 6. Klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
     
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine VoIP-Konfigurationsdatei importieren, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine VoIP-Konfigurationsdatei importieren, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
 

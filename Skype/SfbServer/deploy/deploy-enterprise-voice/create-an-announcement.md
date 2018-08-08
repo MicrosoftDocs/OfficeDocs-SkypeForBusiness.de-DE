@@ -1,9 +1,8 @@
 ---
-title: Erstellen oder Löschen einer Ankündigung in Skype für Business Server 2015
+title: Erstellen oder Löschen einer Ankündigung in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Erstellen oder Löschen von Ansagen für ansageanwendung in Skype für Business Server Enterprise-VoIP. Dies wirkt sich auf den Umgang mit Anrufen an nicht zugewiesene Nummern aus.
-ms.openlocfilehash: 2b290c54f805951cdb3dede67c3dafe1a0d542d1
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3270daf8d157be0b6307f4112081cb331f84d69f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019510"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server-2015"></a>Erstellen oder Löschen einer Ankündigung in Skype für Business Server 2015
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Erstellen oder Löschen einer Ankündigung in Skype für Business Server
  
 Erstellen oder Löschen von Ansagen für ansageanwendung in Skype für Business Server Enterprise-VoIP. Dies wirkt sich auf den Umgang mit Anrufen an nicht zugewiesene Nummern aus.
   
@@ -114,9 +114,7 @@ Zum Erstellen einer neuen Ansage müssen Sie die folgenden Schritte ausführen:
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Erstellen oder Löschen einer Ankündigung in Skype für Business Server 2015](create-an-announcement.md)
+[Erstellen oder Löschen einer Ankündigung in Skype für Business Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
   

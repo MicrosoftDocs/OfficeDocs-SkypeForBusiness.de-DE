@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen von Edgeservern in Skype for Business Server 2015
+title: Stellen Sie Edgeserver in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
-description: 'Zusammenfassung: Informationen Sie zum Edge-Server in Ihrer Skype für Business Server 2015 Umgebung bereitstellen.'
-ms.openlocfilehash: c7dfdfeef9eea4ffae0e113665b487da4856b83c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Bereitstellen von Edge-Servern in Ihrer Skype für Business Server-Umgebung.'
+ms.openlocfilehash: fc4791918ef078bc43e73f8e404aad758531eb21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003124"
 ---
-# <a name="deploy-edge-servers-in-skype-for-business-server-2015"></a>Bereitstellen von Edgeservern in Skype for Business Server 2015
+# <a name="deploy-edge-servers-in-skype-for-business-server"></a>Stellen Sie Edgeserver in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Bereitstellen von Edge-Servern in Ihrer Skype für Business Server 2015-Umgebung.
+**Zusammenfassung:** Informationen Sie zum Bereitstellen von Edge-Servern in Ihrer Skype für Business Server-Umgebung.
   
-Die folgenden Abschnitte enthalten Schritte, die einen befolgt werden, wenn die Skype Business Server 2015 [Planen von Edge-Server-Bereitstellungen in Skype für Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Dokumentation überprüft wurde. Es handelt sich um die folgenden Bereitstellungsschritte:
+Die folgenden Abschnitte enthalten Schritte, die einen befolgt werden, wenn die Skype Dokumentation Business Server [Planen von Edge-Server-Bereitstellungen in Skype für Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) überprüft wurde. Es handelt sich um die folgenden Bereitstellungsschritte:
   
 - Netzwerkschnittstellen
     
@@ -48,11 +48,11 @@ Wie in Planning bereits erwähnt, werden Sie entweder die Netzwerkschnittstelle 
     
    a. Konfiguration von drei statischen IP-Adressen im externen Subnetz des Umkreisnetzwerks und Verweis des Standardgateways auf die interne Schnittstelle der externen Firewall. Konfigurieren Sie die DNS-Einstellungen des Netzwerkadapters so, dass diese auf ein DNS-Umkreisserverpaar verweisen.
     
-   b. Eine statische IP-Adresse Adresse auf die externe Umkreisnetzwerk Netzwerksubnetz, und zeigen Sie das Standardgateway auf die interne Schnittstelle von der externen Firewall. Konfigurieren Sie die DNS-Einstellungen des Netzwerkadapters so, dass diese auf ein DNS-Umkreisserverpaar verweisen. Diese Konfiguration ist nur zulässig, wenn Sie zuvor Topologie zur nicht standardmäßigen Werte haben in die Zuordnungen Port konfiguriert haben, [Erstellen Sie eine Edge-Topologie für Skype für Business Server 2015](create-your-edge-topology.md) Artikel behandelt wird.
+   b. Eine statische IP-Adresse Adresse auf die externe Umkreisnetzwerk Netzwerksubnetz, und zeigen Sie das Standardgateway auf die interne Schnittstelle von der externen Firewall. Konfigurieren Sie die DNS-Einstellungen des Netzwerkadapters so, dass diese auf ein DNS-Umkreisserverpaar verweisen. Diese Konfiguration ist nur zulässig, wenn Sie zuvor Topologie zur nicht standardmäßigen Werte haben in die Zuordnungen Port konfiguriert haben, [Erstellen Sie eine Edge-Topologie für Skype für Business Server](create-your-edge-topology.md) Artikel behandelt wird.
     
 3. Konfigurieren Sie für die interne Schnittstelle eine statische IP-Adresse auf die interne Umkreisnetzwerk Netzwerksubnetz, und festlegen Sie einen Standardgateway nicht. Konfigurieren Sie die DNS-Einstellungen des Netzwerkadapters so, dass diese mindestens auf einen DNS-Server, jedoch vorzugsweise auf ein DNS-Umkreisserverpaar, verweisen.
     
-4. Erstellen Sie dauerhafte statische Routen für die interne Schnittstelle zu allen internen Netzwerken, in denen Clients Skype für Business Server 2015 und Servern mit Exchange Unified Messaging (UM) befinden.
+4. Erstellen Sie dauerhafte statische Routen für die interne Schnittstelle zu allen internen Netzwerken, in denen Clients Skype für Business Server und Exchange Unified Messaging (UM) Server befinden.
     
 ### <a name="interface-configuration-without-dns-servers-in-the-perimeter-network"></a>Schnittstellenkonfiguration ohne DNS-Server im Umkreisnetzwerk
 
@@ -65,17 +65,17 @@ Wie in Planning bereits erwähnt, werden Sie entweder die Netzwerkschnittstelle 
     
    a. Konfiguration von drei statischen IP-Adressen im externen Subnetz des Umkreisnetzwerks. Sie auch müssen so konfigurieren Sie das Standardgateway auf die externe Schnittstelle, beispielsweise dem Internet verbundenen Router oder die externe Firewall als Standardgateway definieren. Konfigurieren Sie die DNS-Einstellungen des Netzwerkadapters so, dass diese auf einen externen DNS-Server, vorzugsweise auf ein externes DNS-Serverpaar, verweisen.
     
-   b. Eine statische IP-Adresse auf die externe Umkreisnetzwerk Netzwerksubnetz. Sie auch müssen so konfigurieren Sie das Standardgateway auf die externe Schnittstelle, beispielsweise dem Internet verbundenen Router oder die externe Firewall als Standardgateway definieren. Konfigurieren Sie so zeigen Sie auf einen externen DNS-Server oder idealerweise ein Paar von externen DNS-Server die Adapter DNS-Einstellungen. Diese Konfiguration ist nur zulässig, wenn Sie zuvor Topologie zur nicht standardmäßigen Werte haben in die Zuordnungen Port konfiguriert haben, [Erstellen Sie eine Edge-Topologie für Skype für Business Server 2015](create-your-edge-topology.md) Artikel behandelt wird.
+   b. Eine statische IP-Adresse auf die externe Umkreisnetzwerk Netzwerksubnetz. Sie auch müssen so konfigurieren Sie das Standardgateway auf die externe Schnittstelle, beispielsweise dem Internet verbundenen Router oder die externe Firewall als Standardgateway definieren. Konfigurieren Sie so zeigen Sie auf einen externen DNS-Server oder idealerweise ein Paar von externen DNS-Server die Adapter DNS-Einstellungen. Diese Konfiguration ist nur zulässig, wenn Sie zuvor Topologie zur nicht standardmäßigen Werte haben in die Zuordnungen Port konfiguriert haben, [Erstellen Sie eine Edge-Topologie für Skype für Business Server](create-your-edge-topology.md) Artikel behandelt wird.
     
 3. Konfigurieren Sie für die interne Schnittstelle eine statische IP-Adresse auf die interne Umkreisnetzwerk Netzwerksubnetz, und festlegen Sie einen Standardgateway nicht. Lassen Sie außerdem die DNS-Einstellungen des Netzwerkadapters leer.
     
-4. Erstellen Sie dauerhafte statische Routen für die interne Schnittstelle zu allen internen Netzwerken, in denen Clients Skype für Business Server 2015 und Servern mit Exchange Unified Messaging (UM) befinden.
+4. Erstellen Sie dauerhafte statische Routen für die interne Schnittstelle zu allen internen Netzwerken, in denen Clients Skype für Business Server und Exchange Unified Messaging (UM) Server befinden.
     
 5. Bearbeiten der Hostdatei auf jedem Edgeserver enthält einen Eintrag für den nächsten Hopserver oder virtuelle IP-Adresse (VIP). Dieser Eintrag wird den Director, Standard Edition-Server oder Front-End-Pools, den Sie als nächsten Hop-Adresse von Edge-Server im Topologie-Generator konfiguriert sein. Wenn Sie DNS-Lastenausgleich verwenden, fügen Sie eine Zeile für jedes Mitglied den nächsten hoppool aus.
     
 ## <a name="installation"></a>Installation
 
-Um diese Schritte erfolgreich abgeschlossen werden, müssen Sie die Schritte im Artikel [Erstellen Sie eine Edge-Topologie für Skype für Business Server 2015](create-your-edge-topology.md) durchgeführt haben.
+Um diese Schritte erfolgreich abgeschlossen werden, müssen Sie die Schritte im Artikel [Erstellen Sie eine Edge-Topologie für Skype für Business Server](create-your-edge-topology.md) durchgeführt haben.
   
 1. Melden Sie sich an den Server, der für den Edge-Server-Role über ein Konto konfiguriert wurde haben, die in der lokalen Administratorgruppe ist.
     
@@ -95,7 +95,7 @@ Um diese Schritte erfolgreich abgeschlossen werden, müssen Sie die Schritte im 
     
 9. Nachdem der Prozess **Befehle werden ausgeführt** abgeschlossen wurde, klicken Sie auf **Fertig stellen**.
     
-10. Klicken Sie im Bereitstellungs-Assistenten auf Schritt2 **. Einrichten oder Entfernen von Skype für Business Server-Komponenten**. Der Assistent installiert dann die Skype für Business Server 2015 Edge-Komponenten in der XML-Konfigurationsdatei, die auf dem lokalen Computer gespeichert wurden, wird angegeben.
+10. Klicken Sie im Bereitstellungs-Assistenten auf Schritt2 **. Einrichten oder Entfernen von Skype für Business Server-Komponenten**. Der Assistent installiert dann die Skype für Business Server Edge-Komponenten in der XML-Konfigurationsdatei, die auf dem lokalen Computer gespeichert wurden, wird angegeben.
     
 11. Nachdem die Installation abgeschlossen zugrunde, können Sie auf die Schritte im Abschnitt **Zertifikate** verschieben.
     
@@ -114,7 +114,7 @@ Die zertifikatanforderungen für den Edge-Server finden Sie in der Edge-Zertifik
  
 #### <a name="nbspnbspnbsp-a-download-using-certsrv-web-site"></a>&nbsp;&nbsp;&nbsp;ein. Download mit CertSrv-Website
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ich. Melden Sie sich als Mitglied der lokalen Gruppe Administratoren in einem Skype für Business Server 2015 Server im internen Netzwerk.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ich. Melden Sie sich einen Skype für Business Server im internen Netzwerk als Mitglied der Gruppe der lokalen Administratoren.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Öffnen Sie **Starten**, und **Führen Sie** (oder **Suche** und **Ausführen** ), und geben Sie Folgendes:
     
@@ -188,7 +188,7 @@ Die zertifikatanforderungen für den Edge-Server finden Sie in der Edge-Zertifik
     
 &nbsp;&nbsp;&nbsp;b. Stellen Sie sicher, dass auf der Seite **Zertifikatsanforderung** die Option **Internes Edgezertifikat** ausgewählt ist und klicken Sie auf **Anforderung**.
     
-&nbsp;&nbsp;&nbsp;c. Wählen Sie auf der Seite **Verzögerte oder sofortige Anforderungen** die Option **Anforderung sofort an eine Online-Zertifizierungsstelle senden**, wenn Sie Zugriff auf eine der Edgeumgebungen haben. Wählen Sie ansonsten **Anforderung jetzt vorbereiten, jedoch später senden** aus.
+&nbsp;&nbsp;&nbsp;c. Klicken Sie auf der Seite **Verzögerte oder sofortige Anforderungen** wählen Sie **Anforderung unmittelbar an eine Onlinezertifizierungsstelle senden** , wenn Sie Zugriff auf eine über edgeumgebung oder eine **Anforderung jetzt vorbereiten, jedoch später senden** andernfalls haben.
     
 &nbsp;&nbsp;&nbsp;d. Geben Sie auf der Seite **Zertifikatsanforderungsdatei** den vollständigen Pfad und Dateinamen an, um zu bestimmen, wo die Datei gespeichert wird (z. B. c:\SkypeInternalEdgeCert.cer). Klicken Sie auf **Weiter**.
     
@@ -378,15 +378,15 @@ Die zertifikatanforderungen für den Edge-Server finden Sie in der Edge-Zertifik
     
 &nbsp;&nbsp;&nbsp;g. Doppelklicken Sie auf **Zertifikate (Lokaler Computer)**, um die Zertifikatspeicher zu erweitern. **Doppelklicken Sie auf Eigene Zertifikate** und klicken Sie dann auf **Zertifikate**.
     
-    > [!NOTE]
-    > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
+   > [!NOTE]
+   > Sie hier möglicherweise, und alle Zertifikate in die eigene Zertifikate für den lokalen Computer nicht angezeigt. Sie müssen nicht Sammelanschlüssen, wenn der Schlüssel nicht vorhanden, die importierten's nicht Zertifikat einen privaten Schlüssel zugeordnet haben. Wiederholen Sie die Anforderung und Schritte noch einmal importieren, und wenn Sie sicher, dass Sie alle diese richtig sind, wenden Sie sich an den Zertifizierungsstellen-Administrator oder vom Anbieter. 
   
 &nbsp;&nbsp;&nbsp;h. **Speichern Sie eigene Zertifikate** für den lokalen Computer mit der Maustaste des Zertifikats, das Sie exportieren. **Wählen Sie alle Aufgaben** im eingeblendeten Menü, und klicken Sie dann auf **Exportieren**.
     
 &nbsp;&nbsp;&nbsp;Ich. Klicken Sie im **Zertifikatexport-Assistenten**auf **Weiter**. Wählen Sie **Ja, privaten Schlüssel exportieren**aus. Klicken Sie auf **Weiter**.
     
-    > [!NOTE]
-    > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. You need to request the certificate from the provider again, with the private key set to export, before doing this successfully.
+   > [!NOTE]
+   > Wenn **Ja, privaten Schlüssel exportieren** nicht verfügbar ist, wurde nicht der private Schlüssel für dieses Zertifikat für den Export markiert, bevor Sie das richtige für Sie. Sie müssen das Zertifikat erneut beim Anbieter anfordern und den privaten Schlüssel auf Export einstellen, bevor Sie dieses Verfahren erfolgreich ausführen können.
   
 &nbsp;&nbsp;&nbsp;j. Wählen Sie im Dialogfeld „Format der zu exportierenden Datei“ die Option „Privater Informationsaustausch – PKCS#12 (.PFX)“ aus. Wählen Sie dann Folgendes aus:
     
@@ -394,8 +394,8 @@ Die zertifikatanforderungen für den Edge-Server finden Sie in der Edge-Zertifik
     
  &nbsp;&nbsp;&nbsp;II. Exportieren Sie alle erweiterten Eigenschaften.
     
-    > [!NOTE]
-    > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
+   > [!NOTE]
+   > Wählen Sie **NIE** die Option **Privaten Schlüssel nach erfolgreichem Export löschen** aus. Es werden bedeutet, dass Sie zum Importieren des Zertifikats und privaten Schlüssel wieder mit diesem Edgeserver verfügen.
   
 &nbsp;&nbsp;&nbsp;k. Wenn Sie zum Schutz des privaten Schlüssels ein Kennwort zuordnen möchten, geben Sie ein Kennwort für den privaten Schlüssel ein. Geben Sie das Kennwort zur Bestätigung erneut ein und klicken Sie dann auf **Weiter**.
     
@@ -425,7 +425,7 @@ Die zertifikatanforderungen für den Edge-Server finden Sie in der Edge-Zertifik
 &nbsp;&nbsp;&nbsp;g. Wenn Sie dieses Verfahren abgeschlossen haben, ist es eine gute Wahl, öffnen Sie das Zertifikat-MMC-Snap-in auf jedem Server, den Knoten **Zertifikate (lokaler Computer)**, erweitern **Persönlich**, klicken Sie auf **Zertifikate**und bestätigen Sie, dass die interne Schnittstelle das Zertifikat wird im Detailbereich aufgeführt.
     
    > [!NOTE]
-    > Sie müssen außerdem die Zertifikate für die Reverseproxyserver eingerichtet haben. Wird in der Setup-Reverse Proxy Servers für Skype für Business Server 2015 Thema behandelt. 
+   > Sie müssen außerdem die Zertifikate für die Reverseproxyserver eingerichtet haben. 
   
 ## <a name="starting-the-edge-servers"></a>Starten Sie die Edge-Server
 
@@ -439,6 +439,6 @@ Nachdem die Installation abgeschlossen ist, müssen Sie die Dienste auf jedem Ed
     
 4. (Optional) Klicken Sie unter **Schritt 4: Dienste starten** auf **Dienststatus**.
     
-5.  In der **MMC Dienste** auf jedem Server stellen Sie sicher, dass alle Skype für Business Server 2015 Dienste ausgeführt werden.
+5.  In der **MMC Dienste** auf jedem Server stellen Sie sicher, dass alle Skype für Business Server-Dienste ausgeführt werden.
     
 

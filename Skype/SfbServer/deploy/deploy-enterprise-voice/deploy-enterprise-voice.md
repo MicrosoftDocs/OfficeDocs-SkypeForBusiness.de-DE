@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen von Enterprise-VoIP in Skype for Business Server 2015
+title: Bereitstellen von Enterprise-VoIP in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,53 +12,52 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
-description: 'Zusammenfassung: Informationen Sie zum Bereitstellen von Enterprise-VoIP für Skype für Business Server 2015 an einem zentralen Standort.'
-ms.openlocfilehash: 858519652b9f50e11e87c2ac9d3777bae9371ae0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Bereitstellen von Enterprise-VoIP für Skype für Business Server am zentralen Standort.'
+ms.openlocfilehash: db1048e4050ec5f9d58436bba5d5c3282f0c4b7f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968483"
 ---
-# <a name="deploy-enterprise-voice-in-skype-for-business-server-2015"></a>Bereitstellen von Enterprise-VoIP in Skype for Business Server 2015
+# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Bereitstellen von Enterprise-VoIP in Skype für Business Server 
  
-**Zusammenfassung:** Informationen Sie zum Bereitstellen von Enterprise-VoIP für Skype für Business Server 2015 an einem zentralen Standort.
+**Zusammenfassung:** Informationen Sie zum Bereitstellen von Enterprise-VoIP für Skype für Business Server am zentralen Standort.
   
 Verwenden Sie dieses Thema zum Bereitstellen von Enterprise-VoIP an einem zentralen Standort. Zum Bereitstellen von Enterprise-VoIP an einem Zweigstellenstandort, fahren Sie mit [Zweigniederlassungen bereitstellen](http://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
   
 Dieser Abschnitt enthält Verfahren für Bereitstellungen, in denen ein Vermittlungsserver auf jedem Front-End-Server oder Standard Edition-Server verbunden ist, wie empfohlen und für Bereitstellungen mit einen eigenständigen vermittlungsserverpool. Sie können die folgende Inhalte überspringen, wenn Sie die Topologie-Generator zum Definieren und Veröffentlichen einer Topologie, die einen Vermittlungsserver auf jedem Front-End-Server oder Standard Edition-Server collocates, da Bereitstellungsassistenten bereits automatisch der Dateien für Installation verwendet Vermittlungsserver, wenn Sie Dateien für den Front-End-Server-Pool oder Standard Edition-Server installiert haben:
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Sicherheit und Konfiguration erforderlichen Komponenten für Enterprise-VoIP in Skype für Business Server 2015](enterprise-voice-security.md)
+- [Sicherheit und Konfiguration erforderlichen Komponenten für Enterprise-VoIP in Skype für Business Server](enterprise-voice-security.md)
     
-- [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](deploy-a-mediation-server.md)
+- [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](deploy-a-mediation-server.md)
     
-- [Definieren eines Gateways im Topologie-Generator in Skype für Business Server 2015](define-a-gateway.md)
+- [Definieren eines Gateways im Topologie-Generator in Skype für Business Server](define-a-gateway.md)
     
-- [Definieren von zusätzlichen Trunks im Topologie-Generator in Skype für Business Server 2015](define-additional-trunks.md)
+- [Definieren von zusätzlichen Trunks im Topologie-Generator in Skype für Business Server](define-additional-trunks.md)
     
-- [Installieren der Dateien für den Vermittlungsserver in Skype für Business Server 2015](install-mediation-server.md)
+- [Installieren der Dateien für den Vermittlungsserver in Skype für Business Server](install-mediation-server.md)
     
-- [Konfigurieren von Trunks in Skype für Business Server 2015](configure-trunks.md)
+- [Konfigurieren von Trunks in Skype für Business Server](configure-trunks.md)
     
-- [Erstellen oder Ändern einer übersetzungsregel für Rufnummernanzeige in Skype für Business Server 2015](caller-id-presentation-rules.md)
+- [Erstellen oder Ändern einer übersetzungsregel für Rufnummernanzeige in Skype für Business Server](caller-id-presentation-rules.md)
     
-- [Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server 2015](called-id-presentation-rules.md)
+- [Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server](called-id-presentation-rules.md)
+
+- [Erstellen oder Ändern einer Normalisierungsregel in Skype für Unternehmen](normalization-rules.md)
     
-- [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business 2015](normalization-rules.md)
+- [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](dial-plans.md)
     
-- [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server 2015](dial-plans.md)
+- [Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Unternehmen](voice-and-pstn.md)
     
-- [Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Business 2015](voice-and-pstn.md)
+- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server](enable-users-for-enterprise-voice.md)
     
-- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server 2015](enable-users-for-enterprise-voice.md)
+- [Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server](deploy-advanced-enterprise-voice-features.md)
     
-- [Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server 2015](deploy-advanced-enterprise-voice-features.md)
-    
-- [Bereitstellen von Funktionen für die anrufverwaltung in Skype für Business 2015](deploy-call-management-features.md)
+- [Bereitstellen von Funktionen für die anrufverwaltung in Skype für Unternehmen](deploy-call-management-features.md)
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Planen Sie für Enterprise-VoIP in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+[Planen Sie für Enterprise-VoIP in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 

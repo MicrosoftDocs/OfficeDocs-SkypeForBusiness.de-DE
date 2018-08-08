@@ -1,9 +1,8 @@
 ---
-title: Planung der Medienumgehung in Skype for Business 2015
+title: Planen der medienumgehung in Skype für Unternehmen
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Umgehen der Entscheidungen zur Planung für Medien in Skype für Business Server Enterprise-VoIP. Hierzu gehört die Interoperationalität mit Anrufsteuerung (CAC, call admission control).
-ms.openlocfilehash: c02dd1fcae6db59972a991ef76b55f7d0cbdce9e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a6e7cd2a37af67415962a4f0a2e0c390160f66f3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020857"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business-2015"></a>Planung der Medienumgehung in Skype for Business 2015
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>Planen der medienumgehung in Skype für Unternehmen
  
 Umgehen der Entscheidungen zur Planung für Medien in Skype für Business Server Enterprise-VoIP. Hierzu gehört die Interoperationalität mit Anrufsteuerung (CAC, call admission control).
   
@@ -34,7 +34,7 @@ Mediendaten Verarbeiten der Vermittlungsserver, kann die medienumgehung auch die
   
 Die folgende Abbildung zeigt grundlegende Pfade für Medien- und Signaldatenverkehr in Topologien mit und ohne Umgehung.
   
-**Medien- und signaldatenverkehr mit und ohne medienumgehung**
+**Pfade für Medien- und Signaldatenverkehr mit und ohne Medienumgehung**
 
 ![VoIP-Anrufsteuerung: Medienumgehung – Verbindungserzwingung](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
   

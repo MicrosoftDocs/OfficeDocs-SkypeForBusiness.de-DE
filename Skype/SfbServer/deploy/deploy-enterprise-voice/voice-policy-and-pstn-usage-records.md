@@ -1,9 +1,8 @@
 ---
-title: Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business 2015
+title: Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Zusammenfassung: Erstellen Sie oder ändern Sie der VoIP-Richtlinien und konfigurieren Sie PSTN-verwendungsdatensätzen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 04cfca012490174bfefaa39c4456041ee294385c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501049"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965471"
 ---
-# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business 2015
+# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen
  
 **Zusammenfassung:** Erstellen Sie oder ändern Sie der VoIP-Richtlinien und konfigurieren Sie PSTN-verwendungsdatensätzen mithilfe der Skype für Business Server-Systemsteuerung.
   
 > [!NOTE]
-> Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag zugeordnet sein. Finden eine Liste aller PSTN-verwendungsdatensätzen in Ihrer Bereitstellung von Enterprise-VoIP verfügbar und deren Eigenschaften anzeigen, finden Sie unter [View PSTN-Verwendungseinträge in Skype für Business 2015](view-pstn-usage-records.md). 
+> Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag zugeordnet sein. Finden eine Liste aller PSTN-verwendungsdatensätzen in Ihrer Bereitstellung von Enterprise-VoIP verfügbar und deren Eigenschaften anzeigen, finden Sie unter [View PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md). 
   
 ### <a name="to-create-a-voice-policy"></a>So erstellen Sie eine VoIP-Richtlinie
 
@@ -98,7 +97,7 @@ ms.locfileid: "19501049"
     
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
     
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. 
     
@@ -114,7 +113,7 @@ ms.locfileid: "19501049"
     
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
     
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. 
     
@@ -152,7 +151,7 @@ ms.locfileid: "19501049"
     
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
     
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. 
     
@@ -168,7 +167,7 @@ ms.locfileid: "19501049"
     
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
     
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. 
     
@@ -181,9 +180,9 @@ ms.locfileid: "19501049"
 12. Klicken Sie auf der Seite **VoIP-Richtlinie** auf **Commit ausführen** und klicken Sie anschließend auf **Commit für alle Elemente ausführen**. 
     
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
-13. (Optional) Voicemail Escape erkennt, dass ein Anruf wurde durch den Benutzer Mobiltelefon Voicemail sofort beantwortet, und den Anruf an die Voicemail Mobiltelefon trennt. Dadurch wird den Anruf an weiterhin Anrufen auf den Benutzer des anderen Endpunkten, mit dem dem Benutzer die Möglichkeit, den Anruf entgegenzunehmen. Weitere Informationen zum Konfigurieren einer Richtlinie für Voicemail finden Sie unter [Konfigurieren des Wechsels der Voicemail in Skype für Business 2015](configure-voice-mail-escape.md).
+13. (Optional) Voicemail Escape erkennt, dass ein Anruf wurde durch den Benutzer Mobiltelefon Voicemail sofort beantwortet, und den Anruf an die Voicemail Mobiltelefon trennt. Dadurch wird den Anruf an weiterhin Anrufen auf den Benutzer des anderen Endpunkten, mit dem dem Benutzer die Möglichkeit, den Anruf entgegenzunehmen. Weitere Informationen zum Konfigurieren einer Richtlinie für Voicemail finden Sie unter [Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen](configure-voice-mail-escape.md).
     
 ### <a name="to-modify-a-voice-policy"></a>So ändern Sie eine VoIP-Richtlinie
 
@@ -247,7 +246,7 @@ ms.locfileid: "19501049"
     
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
     
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. 
     
@@ -263,7 +262,7 @@ ms.locfileid: "19501049"
     
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
     
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. 
     
@@ -301,7 +300,7 @@ ms.locfileid: "19501049"
     
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
     
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
    - Markieren Sie die Route und klicken Sie anschließend auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde. Weitere Informationen hierzu finden Sie unter [Ändern einer VoIP-Route](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -317,7 +316,7 @@ ms.locfileid: "19501049"
     
      - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
     
-     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
      - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. Weitere Informationen hierzu finden Sie unter [Ändern einer VoIP-Route](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -330,16 +329,17 @@ ms.locfileid: "19501049"
 11. Klicken Sie auf der Seite **VoIP-Richtlinie** auf **Commit ausführen** und klicken Sie anschließend auf **Commit für alle Elemente ausführen**. 
     
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
-12. (Optional) Voicemail Escape erkennt, dass ein Anruf wurde durch den Benutzer Mobiltelefon Voicemail sofort beantwortet, und den Anruf an die Voicemail Mobiltelefon trennt. Dadurch wird den Anruf an weiterhin Anrufen auf den Benutzer des anderen Endpunkten, mit dem dem Benutzer die Möglichkeit, den Anruf entgegenzunehmen. Ausführliche Informationen zum Konfigurieren einer Richtlinie für Voicemail finden Sie unter [Konfigurieren des Wechsels der Voicemail in Skype für Business 2015](configure-voice-mail-escape.md).
+12. (Optional) Voicemail Escape erkennt, dass ein Anruf wurde durch den Benutzer Mobiltelefon Voicemail sofort beantwortet, und den Anruf an die Voicemail Mobiltelefon trennt. Dadurch wird den Anruf an weiterhin Anrufen auf den Benutzer des anderen Endpunkten, mit dem dem Benutzer die Möglichkeit, den Anruf entgegenzunehmen. Ausführliche Informationen zum Konfigurieren einer Richtlinie für Voicemail finden Sie unter [Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen](configure-voice-mail-escape.md).
     
 ## <a name="see-also"></a>Siehe auch
 
-[Anzeigen von PSTN-Verwendungseinträge in Skype für Business 2015](view-pstn-usage-records.md)
+[Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md)
   
-[Erstellen oder Ändern einer VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md)
+[Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen](create-or-modify-a-voice-route.md)
   
-[Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md)
+[Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md)
   
-[Konfigurieren des Wechsels der Voicemail in Skype für Business 2015](configure-voice-mail-escape.md)
+[Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen](configure-voice-mail-escape.md)
+

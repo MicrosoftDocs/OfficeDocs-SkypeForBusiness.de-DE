@@ -1,9 +1,8 @@
 ---
-title: Plan für Enterprise-VoIP in Skype for Business Server 2015
+title: Planen Sie für Enterprise-VoIP in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise-VoIP Grundlagen in Skype für Business Server planen, einschließlich Websites, Regionen, Netzwerkverbindungen zwischen Standorten und Nutzung Sprachdatenverkehr schätzen.
-ms.openlocfilehash: f1bd8f2f8514f34390cd085bd1407894e9788620
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 413887b29a45ccdf022a4fb4c847cb0b504bb4b1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977941"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server-2015"></a>Plan für Enterprise-VoIP in Skype for Business Server 2015
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planen Sie für Enterprise-VoIP in Skype für Business Server
  
 Enterprise-VoIP Grundlagen in Skype für Business Server planen, einschließlich Websites, Regionen, Netzwerkverbindungen zwischen Standorten und Nutzung Sprachdatenverkehr schätzen.
   
@@ -54,24 +54,24 @@ Eine Organisation mit 10.000 Benutzern und mittlerem Datenverkehrsaufkommen wü
 
 Finden Sie in den folgenden Abschnitten für Weitere Informationen zur Planung der bereitstellungs von Enterprise-VoIP.
   
-- [Für Enterprise-VoIP in Skype für Business Server 2015 erforderliche Komponenten](components-required-for-enterprise-voice.md)
+- [Für Enterprise-VoIP in Skype für Business Server erforderlichen Komponenten](components-required-for-enterprise-voice.md)
     
-- [Planen von PSTN-Konnektivität in Skype for Business Server 2015](pstn-connectivity-0.md)
+- [Planen von PSTN-Konnektivität in Skype for Business Server](pstn-connectivity-0.md)
     
-- [Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server 2015](network-settings-for-advanced-features.md)
+- [Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server](network-settings-for-advanced-features.md)
     
-- [Planen für die anrufsteuerung in Skype Business Server 2015](call-admission-control.md)
+- [Plan für die anrufsteuerung in Skype für Business Server](call-admission-control.md)
     
-- [Planen für Notdienste in Skype Business Server 2015](emergency-services.md)
+- [Planen für Notdienste in Skype Business Server](emergency-services.md)
     
-- [Planen Sie für die medienumgehung in Skype für Business 2015](media-bypass.md)
+- [Planen der medienumgehung in Skype für Unternehmen](media-bypass.md)
     
-- [Planen von privaten Telefonleitungen mit Skype für Business 2015](private-telephone-lines.md)
+- [Planen von privaten Telefonleitungen mit Skype für Unternehmen](private-telephone-lines.md)
     
-- [Plan für die Standortbasierte Weiterleitung in Skype für Business 2015](location-based-routing.md)
+- [Plan für die Standortbasierte Weiterleitung im Skype für Unternehmen](location-based-routing.md)
     
-- [Planen der anrufverwaltungsfunktionen in Skype für Business 2015](call-management-features.md)
+- [Planen der anrufverwaltungsfunktionen in Skype für Unternehmen](call-management-features.md)
     
-- [Planen Sie für Enterprise Voice Resiliency in Skype für Business Server 2015](enterprise-voice-resiliency.md)
+- [Planen Sie für Enterprise Voice Resiliency in Skype für Business Server](enterprise-voice-resiliency.md)
     
 

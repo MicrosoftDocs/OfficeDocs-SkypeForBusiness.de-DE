@@ -1,9 +1,8 @@
 ---
-title: Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene in Skype for Business 2015
+title: Verwalten von reaktionsgruppeneinstellungen auf Anwendungsebene in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Verwalten von auf Anwendungsebene reaktionsgruppeneinstellungen, wie Musik halten und Rückruf Einstellungen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: eaf31904958997561be056da728ff3b0b31f9d8b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1aa3234860193cac40e6ca8a39323013847606fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012302"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business-2015"></a>Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene in Skype for Business 2015
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Verwalten von reaktionsgruppeneinstellungen auf Anwendungsebene in Skype für Unternehmen
  
 Verwalten von auf Anwendungsebene reaktionsgruppeneinstellungen, wie Musik halten und Rückruf Einstellungen in Skype für Business Server Enterprise-VoIP.
   
@@ -55,11 +55,8 @@ Die Standard-Wartemusik wird wiedergegeben, wenn ein Anruf in der Warteschleife 
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
 [Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
-

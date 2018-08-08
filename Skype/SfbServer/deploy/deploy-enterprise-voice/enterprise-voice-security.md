@@ -1,9 +1,8 @@
 ---
-title: Anforderungen an Sicherheit und Konfiguration für Enterprise-VoIP in Skype for Business Server 2015
+title: Sicherheit und Konfiguration erforderlichen Komponenten für Enterprise-VoIP in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: 'Zusammenfassung: Informationen Sie zu den Voraussetzungen für Sicherheit und Konfiguration für Enterprise-VoIP in Skype für Business Server 2015.'
-ms.openlocfilehash: 2ece3aaa99c1e81afd9241e8d435ac0ab3328893
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zu den Voraussetzungen für Sicherheit und Konfiguration für Enterprise-VoIP in Skype für Business Server.'
+ms.openlocfilehash: 2738f1b39500673bd68b6c4f0c5cfdfb5b8b45d5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017390"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server-2015"></a>Anforderungen an Sicherheit und Konfiguration für Enterprise-VoIP in Skype for Business Server 2015
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Sicherheit und Konfiguration erforderlichen Komponenten für Enterprise-VoIP in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den erforderlichen Komponenten Sicherheit und Konfiguration für Enterprise-VoIP in Skype für Business Server 2015.
+**Zusammenfassung:** Lernen Sie die Sicherheit und Konfiguration erforderlichen Komponenten für Enterprise-VoIP in Skype für Business Server aus.
   
 Vor der Bereitstellung von Enterprise-VoIP, stellen Sie sicher, dass Ihre Infrastruktur die folgenden Anforderungen an Sicherheit, Benutzerkonfiguration, und szenariospezifische Hardware erfüllt. 
   
@@ -43,7 +43,7 @@ Vor der Bereitstellung von Enterprise-VoIP, stellen Sie sicher, dass Ihre Infras
 - Eine Managed Key-Infrastruktur (MKI) wurde mithilfe einer Zertifizierungsstelleninfrastruktur von Microsoft oder einem Drittanbieter bereitgestellt und konfiguriert.
     
     > [!NOTE]
-    > Ausführliche Informationen zu zertifikatanforderungen in Skype für Business Server finden Sie unter [umgebungsanforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+    > Ausführliche Informationen zu zertifikatanforderungen in Skype für Business Server finden Sie unter [umgebungsanforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) oder [Anforderungen für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). 
   
 ## <a name="user-configuration"></a>Benutzerkonfiguration
 
@@ -58,8 +58,8 @@ Wenn Sie neu die Enterprise-VoIP-Arbeitslast zu diesem Zeitpunkt bereitstellen, 
 
 Nachdem Sie sichergestellt haben, Software und der Umwelt Voraussetzungen für Enterprise-VoIP können Sie entweder:
   
-- Installieren Sie der Vermittlungsserver, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](deploy-a-mediation-server.md), aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder einen Pool bereitstellen, da der Vermittlungsserver installiert sind, als Teil der Vorderseite möchten End-Pool oder Standard Edition-Server-Bereitstellungsprozess beim kombiniert.
+- Installieren Sie der Vermittlungsserver, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](deploy-a-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder einen Pool bereitstellen, da der Vermittlungsserver installiert sind, als Teil des Front-Ends möchten Pool oder Standard Edition-Server-Bereitstellungsprozess beim kombiniert.
     
-- Oder: Konfigurieren von Einstellungen für das Anrufrouting für Enterprise-VoIP-Benutzer, wie beschrieben unter [Konfigurieren von Trunks in Skype für Business Server 2015](configure-trunks.md).
+- Oder: Konfigurieren von Einstellungen für das Anrufrouting für Enterprise-VoIP-Benutzer, wie beschrieben unter [Konfigurieren von Trunks in Skype für Business Server](configure-trunks.md).
     
 

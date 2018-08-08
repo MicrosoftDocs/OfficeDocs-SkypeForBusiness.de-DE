@@ -1,9 +1,8 @@
 ---
-title: Konfigurieren von Einstellungen für das Parken von Anrufen in Skype for Business 2015
+title: Konfigurieren des Parkens von Anrufen Einstellungen in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Ändern des Parkens von Anrufen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 518cefda9cd6186c8362dea83bb80acb046d441d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568304"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019517"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business-2015"></a>Konfigurieren von Einstellungen für das Parken von Anrufen in Skype for Business 2015
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Konfigurieren des Parkens von Anrufen Einstellungen in Skype für Unternehmen
  
 Ändern des Parkens von Anrufen in Skype für Business Server Enterprise-VoIP.
   
@@ -32,7 +31,7 @@ Wenn Sie nicht Parken Standardeinstellungen verwenden möchten, können Sie dies
   
 Verwenden Sie Cmdlet **New-CsCpsConfiguration** oder **Set-CsCpsConfiguration** -Cmdlet, um beliebige der folgenden Einstellungen zu konfigurieren:
   
-|**Diese Option:**|**Dadurch angegeben:**|
+|**Option**|**Festlegung**|
 |:-----|:-----|
 |**CallPickupTimeoutThreshold** <br/> |Die Zeitspanne, die nach dem Parken eines Anrufs verstreicht, bis das Telefon zurückgerufen wird, an dem der Anruf entgegengenommen wurde.  <br/> Der Wert muss im Format „hh:mm:ss“ eingegeben werden, um die Stunden, Minuten und Sekunden anzugeben. Der Mindestwert beträgt 10 Sekunden, der Maximalwert liegt bei 10 Minuten. Der Standardwert lautet „00:01:30“.  <br/> |
 |**EnableMusicOnHold** <br/> |Legt fest, ob der Anrufer eines geparkten Anrufs Wartemusik hört.  <br/> Gültige Werte sind „True“ oder „False“. Der Standardwert lautet „True“.  <br/> |
@@ -60,7 +59,7 @@ Verwenden Sie Cmdlet **New-CsCpsConfiguration** oder **Set-CsCpsConfiguration** 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Anpassen des Parkens von Anrufen Musik in der Warteschleife InSkype für Business 2015](customize-call-park-music-on-hold.md)
+[Anpassen der Wartemusik für das Parken von Anrufen in Skype for Business 2015](customize-call-park-music-on-hold.md)
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
   

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Lesen Sie dieses Thema und finden Sie heraus, wie die Funktion „Gemeinsame Leitungen“ (SLA) in Skype for Business Server 2015, kumulatives Update vom November 2015, bereitzustellen ist. Bei SLA handelt es sich um eine Funktion zum Verarbeiten mehrerer Anrufe an eine bestimmte Nummer, die als gemeinsam genutzte Nummer bezeichnet wird.
-ms.openlocfilehash: b333751b5bc4e651a7f1080e459803e8ad87da80
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 45d4d78b157f5fb987de2345cf2b7d5c5867edab
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145302"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Bereitstellen der Funktion „Gemeinsame Leitungen“ in Skype for Business Server 2015
  
@@ -51,8 +52,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
     c. Starten Sie alle Front-End-Server (RTCSRV-Dienst) in sämtlichen Pools neu, in denen SLA installiert und aktiviert worden ist:
     
   ```
-   Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
-                
+   Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV   
   ```
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>Erstellen Sie eine SLA-Gruppe und fügen Sie ihr Benutzer hinzu.
@@ -60,10 +60,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 1. Erstellen Sie die SLA-Gruppe mit dem Cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-          -MaxNumberOfCalls <Number> -BusyOption
-          <BusyOnBusy|Voicemail|Forward> [-Target
-          <TargetUserOrPhoneNumber>]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     Das Cmdlet „Set-CsSlaConfiguration“ markiert das Enterprise-VoIP-Konto SLAGroup1 als SLA-Entität und die Nummer von SLAGroup1 wird zur Nummer der SLA-Gruppe. Alle Anrufe für SLAGroup1 lassen es in der gesamten SLA-Gruppe läuten.
@@ -73,8 +70,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
     Der Befehl stellt die maximale Anzahl gleichzeitiger Anrufe für die neue SLA-Gruppe auf 3 ein und bestimmt, dass für alle weiteren Anrufe das „Besetzt“-Signal zu hören sein soll:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
-          -BusyOption BusyOnBusy
+  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
   ```
 
     Sie können Set-CsSlaConfiguration verwenden, um eine neue SLA-Gruppe zu erstellen oder eine vorhandene Gruppe zu ändern.
@@ -92,8 +88,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
     Im folgenden Beispiel wird der SLA-Gruppe ein Benutzer hinzugefügt. Jeder Benutzer der Gruppe hinzugefügt, muss eine gültige Enterprise-VoIP-aktivierten Benutzer:
     
   ```
-  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
-          sip:SLA_Delegate1@contoso.com
+  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
   ```
 
     Wiederholen Sie das Cmdlet für jeden Nutzer, den Sie der Gruppe hinzufügen möchten. Nutzer können nur zu einer einzelnen SLA-Gruppe gehören.
@@ -103,15 +98,13 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 - Konfigurieren der Vereinbarung zum SERVICELEVEL gruppieren beschäftigt Option mithilfe des Cmdlets [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-          -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     Im folgenden Beispiel wird die Anrufe, die überschreitet die maximale Anzahl gleichzeitiger Anrufe an das Telefon 202-555-1234 Nummer weitergeleitet werden. Das Ziel kann ein Benutzer in Ihrer Organisation anstelle einer Telefonnummer sein. In diesem Fall die Syntax für die Person, die die weitergeleitete Anrufe empfangen ist dieselbe wie bei der Angabe von einer stellvertretungs: `sip:<NameofDelegate@domain>`. Die möglichen Parameter für `BusyOption` ist `Voicemail`:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
-          -Target tel:+2025551234]
+  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
   ```
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>Konfigurieren der Option „Entgangener Anruf“ für die SLA-Gruppe
@@ -119,17 +112,13 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 1. Konfigurieren der Vereinbarung zum SERVICELEVEL Gruppe Entgangener Anrufoption mithilfe des Cmdlets [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
-          -MissedCallOption <Option> -MissedCallForwardTarget
-          <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
   ```
 
 2. Das folgende Beispiel gibt an, dass verpasste Anrufe an die Benutzer mit dem Namen weitergeleitet werden `sla_forward_number`. Die gültigen Optionen für die `-MissedCallOption` Parameter sind `Forward`, `BusySignal`, oder `Disconnect`. Bei Auswahl von `Forward`, müssen Sie auch enthalten die `-MissedCallForwardTarget` Parameter mit einem Benutzer oder Rufnummer weiter als Ziel:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
-          Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
-    -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
+  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
   ```
 
 ### <a name="remove-a-delegate-from-a-group"></a>Entfernen einer Stellvertretung aus einer Gruppe
@@ -137,15 +126,13 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 - Entfernen Sie eine Stellvertretung aus einer Gruppe mithilfe des Cmdlets [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) :
     
   ```
-  Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
-          <NameOfDelegate@domain>
+  Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
     Beispiel:
     
   ```
-  Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
-          sip:SLA_Delegate3@contoso.com
+  Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
   ```
 
 ### <a name="delete-an-sla-group"></a>Löschen einer SLA-Gruppe
@@ -154,7 +141,6 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
     
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
-          
   ```
 
     Beispiel: 

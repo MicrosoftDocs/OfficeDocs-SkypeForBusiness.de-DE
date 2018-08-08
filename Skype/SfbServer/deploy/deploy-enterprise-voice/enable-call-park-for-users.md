@@ -1,9 +1,8 @@
 ---
-title: Aktivieren der Funktion zum Parken von Anrufen für Benutzer in Skype for Business 2015
+title: Aktivieren des Parkens von Anrufen für Benutzer in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Aktivieren von Benutzern für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: b93a9393a095a4860bfd8f392f95d834dad6fa71
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 44e72cab776b08cbd0290bb15010d36d370d86b3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968223"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>Aktivieren der Funktion zum Parken von Anrufen für Benutzer in Skype for Business 2015
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Aktivieren des Parkens von Anrufen für Benutzer in Skype für Unternehmen
  
 Aktivieren von Benutzern für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP.
   
@@ -64,7 +64,7 @@ Sie können das Parken von Anrufen auf globaler Ebene oder auf Standortebene ode
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
 
-[Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business 2015](voice-policy-and-pstn-usage-records.md)
+
+[Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen](voice-policy-and-pstn-usage-records.md)
 

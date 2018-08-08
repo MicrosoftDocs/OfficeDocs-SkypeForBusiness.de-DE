@@ -1,9 +1,8 @@
 ---
-title: Direkte SIP-Verbindungen in Skype for Business Server 2015
+title: Direkte SIP-Verbindungen in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Direkte SIP-Verbindungen werden zwischen Skype für Business Server und sowohl PSTN-Gateways und IP-PBX-Ressource in Enterprise-VoIP unterstützt.
-ms.openlocfilehash: c9dca75a7b1c7ac8fa60bafc5b7a2c2fa7b51490
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac21bcd0df60a2b4cb9393e8cc2e047d4f9fdf7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006578"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server-2015"></a>Direkte SIP-Verbindungen in Skype for Business Server 2015
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>Direkte SIP-Verbindungen in Skype für Business Server
  
 Direkte SIP-Verbindungen werden zwischen Skype für Business Server und sowohl PSTN-Gateways und IP-PBX-Ressource in Enterprise-VoIP unterstützt.
   
@@ -92,7 +92,7 @@ In dieser Bereitstellung werden die Anrufe über das IP-Netzwerk weitergeleitet.
   
 In der folgenden Abbildung wird eine typische Topologie für eine reine VoIP-Bereitstellung dargestellt.
   
-**Ausschließliche VoIP-Bereitstellung**
+**Reine VoIP-Bereitstellung**
 
 ![Greenfidle-Bereitstellungsoption](../../media/Fig29_Greenfield_deployment_option.jpg)
   
@@ -123,7 +123,7 @@ Sie müssen folgende wichtige Fragen bedenken. Keine dieser Fragen kann unabhän
 
 Der Vermittlungsserver können Anrufe über mehrere Gateways, Session Border Controller (SBCs) von bereitgestellten Internet Telefoniedienstanbieter, oder eine Kombination aus beidem weiterleiten. Darüber hinaus können mehrere Vermittlungsserver im Pool mit mehreren Gateways interagieren. Die logische Route zwischen einem Vermittlungsserver und einem Gateway definiert wird einen Trunk aufgerufen. Wenn ein interner Benutzer einen PSTN-Anruf tätigt, wählt ausgehende Routinglogik auf den Front-End-Pool welche Trunk über alle möglichen Kombinationen weitergeleitet, die für das routing von bestimmten Aufruf verfügbar sein können. Mit der DNS-Lastenausgleich, wenn ein Aufruf fehlschlägt, ein Gateway aufgrund eines Problems mit einem bestimmten Vermittlungsserver im Pool erreicht wird der Anruf an einen anderen Mediation Server im Pool wiederholt. 
   
-Ausführliche Informationen zur Planung für mehrere Gateways finden Sie unter [m: n-Trunk in Skype für Business Server 2015](m-n-trunk.md).
+Ausführliche Informationen zur Planung für mehrere Gateways finden Sie unter [m: n-Trunk in Skype für Business Server](m-n-trunk.md).
   
 Ausführliche Informationen zu anderen Verbesserungen beim Ausgangsrouting finden Sie unter [Call Routes](http://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
   

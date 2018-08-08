@@ -3,19 +3,21 @@ title: Interaktion von SharePoint Online und OneDrive for Business mit Microsoft
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 07/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
-description: "Erfahren Sie, wie SharePoint Online und OneDrive for Business mit Microsoft Teams interagieren. Dies beinhaltet Informationen darüber, wie private Chatdateien gespeichert werden, sowie die Beziehung zwischen Teams, Kanälen und der Dokumentbibliothek."
+description: Erfahren Sie, wie SharePoint Online und OneDrive for Business mit Microsoft Teams interagieren. Dies beinhaltet Informationen darüber, wie private Chatdateien gespeichert werden, sowie die Beziehung zwischen Teams, Kanälen und der Dokumentbibliothek.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef80cf3f52e9a661bca8694bd679ba18dd4cf04e
-ms.sourcegitcommit: 9094c87dec3f8d7d05c7e879d357a6ed428d7cdf
-ms.translationtype: HT
+ms.openlocfilehash: f91836848f6a7698025e118542628cbce44166c6
+ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "21597583"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams
 =============================================================================
@@ -24,9 +26,12 @@ Jedes Team in Microsoft Teams verfügt über eine Teamsite in SharePoint Online,
 
 Private Chatdateien werden im OneDrive-Ordner des Absenders gespeichert, und Berechtigungen werden automatisch allen Teilnehmern als Teil des Dateifreigabevorgangs zugewiesen.
 
-Wenn SharePoint Online in Ihrem Mandanten nicht aktiviert ist, können Microsoft Teams-Benutzer keine Dateien in Teams freigeben. Benutzer in privaten Chats können ebenfalls keine Dateien freigeben, weil dazu OneDrive for Business (an die SharePoint-Lizenz gebunden) erforderlich ist.
+Wenn Benutzer sind nicht zugewiesen und mit SharePoint Online-Lizenzen aktiviert, verfügen nicht OneDrive for Business-Speicher in Office 365. Dateifreigabe wird in weiterhin, Kanäle, aber Benutzer werden nicht in der Lage, Freigeben von Dateien in Chats ohne OneDrive for Business-Speicher in Office 365.
 
-Beim Speichern der Dateien in der SharePoint Online-Dokumentbibliothek und OneDrive for Business werden alle auf der Mandantenebene konfigurierten Complianceregeln eingehalten.
+Beim Speichern der Dateien in der SharePoint Online-Dokumentbibliothek und OneDrive for Business werden alle auf der Mandantenebene konfigurierten Complianceregeln eingehalten. 
+
+> [!NOTE]
+> Integration in lokale Sharepoint-wird für Microsoft-Teams, zu diesem Zeitpunkt nicht unterstützt.
 
 Im Folgenden finden Sie ein Beispiel für die Beziehungen zwischen Team, Kanal und Dokumentbibliothek.
 

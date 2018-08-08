@@ -1,9 +1,8 @@
 ---
-title: Planen von Standortrichtlinien für Skype for Business Server 2015
+title: Planen von Standortrichtlinien für Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lesen Sie in diesem Thema erfahren, wie Business Server Enterprise-VoIP Standortrichtlinien für eine erweiterte Notfalldienste (E9-1-1)-Bereitstellung in Skype planen.
-ms.openlocfilehash: 013eeea9858910c6ef94c928f92c42a742908355
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cbc4bdbf552c3839cef0701dcf3e47e4603a270e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971167"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server-2015"></a>Planen von Standortrichtlinien für Skype for Business Server 2015
+# <a name="plan-location-policies-for-skype-for-business-server"></a>Planen von Standortrichtlinien für Skype für Business Server
  
 Lesen Sie in diesem Thema erfahren, wie Business Server Enterprise-VoIP Standortrichtlinien für eine erweiterte Notfalldienste (E9-1-1)-Bereitstellung in Skype planen. 
   
 > [!NOTE]
-> Skype für Business Server unterstützt jetzt die Konfiguration von mehreren Notfall Zahlen für einen Client an. Wenn Sie mehrere Notfall Nummern konfigurieren möchten, müssen Sie die Informationen in [mehrere Notfall Zahlen in Skype für Business Server 2015 planen](multiple-emergency-numbers.md) und [Konfigurieren von mehreren Notfall Zahlen in Skype für Business 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)befolgen. 
+> Skype für Business Server unterstützt jetzt die Konfiguration von mehreren Notfall Zahlen für einen Client an. Wenn Sie mehrere Notfall Nummern konfigurieren möchten, müssen Sie die Informationen in [mehrere Notfall Zahlen in Skype für Business Server planen](multiple-emergency-numbers.md) und [Konfigurieren von mehreren Notfall Zahlen in Skype für Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)befolgen. 
   
-Erstellen von ortungsrichtlinien mithilfe der Skype für die Business-Systemsteuerung oder mit dem [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) -Cmdlet. Weitere Informationen finden Sie unter [Erstellen von Standortrichtlinien in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Erstellen von ortungsrichtlinien mithilfe der Skype für die Business-Systemsteuerung oder mit dem [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) -Cmdlet. Weitere Informationen finden Sie unter [Erstellen von Standortrichtlinien in Skype für Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Jede Standortrichtlinie enthält die folgenden Informationen:
   
@@ -37,7 +37,7 @@ Wenn dieser Wert aktiviert ist, wird der Client für erweiterte Notfalldienste (
   
  **Standort**
   
-Diese Einstellung wird nur bei aktiviertem **Aktivieren Enhanced 9-1-1 -** verwendet.
+Diese Einstellung wird nur verwendet, wenn **Erweiterte Notfalldienste aktivieren** aktiviert ist. 
   
 Sie können die Einstellung **Standort** wie folgt konfigurieren, um das Clientverhalten zu definieren:   
   

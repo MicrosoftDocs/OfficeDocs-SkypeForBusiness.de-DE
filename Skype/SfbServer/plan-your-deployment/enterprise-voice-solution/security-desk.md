@@ -1,9 +1,8 @@
 ---
-title: Einbinden des Sicherheitsdesks in Skype for Business Server 2015
+title: Schließen Sie das sicherheitsdesk in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: Planen der sicherheitsdesk Ihrer Organisation in einer E9-1-1-Bereitstellung in Skype für Business Server Enterprise-VoIP eingeschlossen.
-ms.openlocfilehash: adaa1096651c5e3f86d15af1b2409a8de03e6c9c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9363956a9b0f1cc598224b9d573677ff424c9e23
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989564"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server-2015"></a>Einbinden des Sicherheitsdesks in Skype for Business Server 2015
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>Schließen Sie das sicherheitsdesk in Skype für Business Server
  
 Planen der sicherheitsdesk Ihrer Organisation in einer E9-1-1-Bereitstellung in Skype für Business Server Enterprise-VoIP eingeschlossen.
   

@@ -2,20 +2,22 @@
 title: Dokumentieren Sie Ihre Microsoft-Teams Erfolg
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Auswählen eines Bereitstellungsmodells, entwickeln Matrix (RACI) verantwortlich-verantwortlich-konsultiert-darüber informiert, Ausführung und Steuerung Pläne erstellen.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70ed024e606e7419a5cd2645cb60ef487fa72982
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: dddc3763f0fa2934d473999d42702746bbb531ee
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695862"
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren Sie meine Erfolg
 
@@ -84,10 +86,10 @@ Es folgt ein Beispiel für eine vierteljährliche Ausführungsplan für die Phas
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | USA: New York                             | 2000                | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
 | Irland: Dublin                          | 300                 | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
-| Österreich: Wien                          | 500                 | Ja                | n/v                             | Q2 CY2018          |
-| Italien: Mailand                             | 200                 | Ja                | n/v                             | Q2 CY2018          |
-| Südamerika: Brasilien                    | 1500                | Ja                | n/v                             | Q2 CY2018          |
-| Indien: Delhi                             | 7000                | Ja                | n/v                             | Q3 CY2018          |
+| Österreich: Wien                          | 500                 | Ja                | Telefon System direkten Routing     | Q2 CY2018          |
+| Italien: Mailand                             | 200                 | Ja                | -                             | Q2 CY2018          |
+| Südamerika: Brasilien                    | 1500                | Ja                | Telefon System direkten Routing     | Q2 CY2018          |
+| Indien: Delhi                             | 7000                | Ja                | -                             | Q3 CY2018          |
 
 
 <table>
@@ -106,8 +108,8 @@ Es folgt ein Beispiel für einen Kommunikations- und Governance Plan, den Sie im
 
 | Typ                                        | Ziele                                                                                                                                                      | Teilnehmer | Tage/Uhrzeit                                     | Ort             | Besitzer der Besprechung |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
-| Kurze Anrufe von Project                       | Synchronisieren Sie auf Status des Projekts, verfolgen Sie wichtige Meilensteine und Popupblockern                                                                                           | TBA          | Montag, Dienstag, Mittwoch, Donnerstag 5 PM PST-Datei | Virtuelle              | TBA           |
-| Wöchentliche Lenkungsausschuss                   | Überprüfen des Status des Projekts VoIP Cloud, Spamquarantäne Führungskräfte, lösen von Problemen, die erfordern executive Hilfe zum Auflösen                                        | TBA          | Jeden Freitag 11 Uhr                        | Virtuelle              | TBA           |
+| Kurze Anrufe von Project                       | Synchronisieren Sie auf Status des Projekts, verfolgen Sie wichtige Meilensteine und Popupblockern                                                                                           | TBA          | Montag, Dienstag, Mittwoch, Donnerstag 5 PM PST-Datei | Virtuell              | TBA           |
+| Wöchentliche Lenkungsausschuss                   | Überprüfen des Status des Projekts VoIP Cloud, Spamquarantäne Führungskräfte, lösen von Problemen, die erfordern executive Hilfe zum Auflösen                                        | TBA          | Jeden Freitag 11 Uhr                        | Virtuell              | TBA           |
 | Monatliche Business/operative Prüfung des Projekts | Überprüfen des Projektstatus mit erweiterten Beteiligten, Kontakt- und executive Sponsor wichtigsten Punkte. Überprüfen Sie die Bereitstellung planen, KSIs und betriebliche Metriken | TBA          | Zweite Dienstag des Monats                       | Virtuelle oder persönlich | TBA           |
 | Vierteljährliche Business Review (Entwicklung)             | Überprüfen Sie des Status von Projekten und überprüfen Sie des Status anhand der strategischen Ziele, KSIs und betriebliche Metriken; Laufe Pläne, falls erforderlich                                 | TBA          | Letzter Donnerstag der jedes Quartal                | Persönlich            | TBA           |
 

@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen der Anrufsteuerung in Skype for Business Server 2015
+title: Bereitstellen Sie die anrufsteuerung in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,33 +12,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
-description: Die anrufsteuerung (CAC)-Steuerelement eine Lösung ist, die bestimmt, ob eine in Echtzeit-Sitzung hergestellt werden kann basierend auf der verfügbaren Bandbreite, um zu verhindern, dass schlechten Qualität von Audio/Video für Benutzer auf überlastete Netzwerke. Weitere Informationen finden Sie unter Plan für die anrufsteuerung in Skype für Business Server 2015.
-ms.openlocfilehash: 471bc7abe8a79f2ef4b4cc322450dbc7c639129f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: Die anrufsteuerung (CAC)-Steuerelement eine Lösung ist, die bestimmt, ob eine in Echtzeit-Sitzung hergestellt werden kann basierend auf der verfügbaren Bandbreite, um zu verhindern, dass schlechten Qualität von Audio/Video für Benutzer auf überlastete Netzwerke.
+ms.openlocfilehash: 13d2d4c5f115cdbabf0cc998e71236bfe809b96d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975718"
 ---
-# <a name="deploy-call-admission-control-in-skype-for-business-server-2015"></a>Bereitstellen der Anrufsteuerung in Skype for Business Server 2015
+# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Bereitstellen Sie die anrufsteuerung in Skype für Business Server
  
-Die anrufsteuerung (CAC)-Steuerelement eine Lösung ist, die bestimmt, ob eine in Echtzeit-Sitzung hergestellt werden kann basierend auf der verfügbaren Bandbreite, um zu verhindern, dass schlechten Qualität von Audio/Video für Benutzer auf überlastete Netzwerke. Weitere Informationen finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Die anrufsteuerung (CAC)-Steuerelement eine Lösung ist, die bestimmt, ob eine in Echtzeit-Sitzung hergestellt werden kann basierend auf der verfügbaren Bandbreite, um zu verhindern, dass schlechten Qualität von Audio/Video für Benutzer auf überlastete Netzwerke. Weitere Informationen finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 ### <a name="to-deploy-call-admission-control"></a>Bereitstellung der Anrufsteuerung
 
-1.  Sammeln Sie alle erforderlichen Informationen für die Enterprise-Netzwerktopologie gemäß [Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+1.  Sammeln Sie alle erforderlichen Informationen für die Enterprise-Netzwerktopologie gemäß [Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
     
-2. Falls noch nicht geschehen, müssen Sie Netzwerkregionen und Standorten definieren und Subnetzen zu Netzwerkstandorten zuordnen. Weitere Informationen hierzu finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Business 2015](deploy-network.md).
+2. Falls noch nicht geschehen, müssen Sie Netzwerkregionen und Standorten definieren und Subnetzen zu Netzwerkstandorten zuordnen. Weitere Informationen hierzu finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Unternehmen](deploy-network.md).
     
-3. Erstellen von Bandbreite Richtlinienprofilen, wie in [Erstellen von bandbreitenrichtlinienprofilen in Skype für Business Server 2015](create-bandwidth-policy-profiles.md)
+3. Erstellen von Bandbreite Richtlinienprofilen, wie in [Erstellen von bandbreitenrichtlinienprofilen in Skype für Business Server](create-bandwidth-policy-profiles.md)
     
-4. Erstellen Sie netzwerkregionenverbindungen, wie in [Erstellen von netzwerkregionenverbindungen in Skype für Business Server 2015](create-network-region-links.md).
+4. Erstellen Sie netzwerkregionenverbindungen, wie in [Erstellen von netzwerkregionenverbindungen in Skype für Business Server](create-network-region-links.md).
     
-5. Kommunikation zwischen netzwerkregionsrouten, wie in [Erstellen regionenübergreifende Netzwerkrouten in Skype für Business Server 2015](create-network-interregional-routes.md)zu erstellen.
+5. Erstellen Sie Kommunikation zwischen netzwerkregionsrouten, wie in [Erstellen regionenübergreifende Netzwerkrouten in Skype für Business Server](create-network-interregional-routes.md).
     
-6. Erstellen von standortübergreifenden Netzwerkrichtlinien, wie in [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype für Business Server 2015](create-network-intersite-policies.md).
+6. Erstellen von standortübergreifenden Netzwerkrichtlinien, wie in [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype für Business Server](create-network-intersite-policies.md).
     
-7. Aktivieren Sie die anrufsteuerung als [Aktivieren der anrufsteuerung in Skype für Business Server 2015](enable-call-admission-control.md)ausführlich beschrieben.
+7. Aktivieren Sie die anrufsteuerung, wie in der [anrufsteuerung in Skype für Business Server aktivieren](enable-call-admission-control.md).
     
-8. Prüfen Sie ein paar abschließende Einstellungen, um sicherzustellen, dass alles ordnungsgemäß eingerichtet ist. Weitere Informationen hierzu finden Sie unter [rufen Sie die Bereitstellung der anrufsteuerung: endgültige Checkliste für Skype für Business Server 2015](final-checklist.md).
+8. Prüfen Sie ein paar abschließende Einstellungen, um sicherzustellen, dass alles ordnungsgemäß eingerichtet ist. Weitere Informationen hierzu finden Sie unter [rufen Sie die Bereitstellung der anrufsteuerung: endgültige Checkliste für Skype für Business Server](final-checklist.md).
     
 

@@ -1,5 +1,5 @@
 ---
-title: "Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams"
+title: Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,15 +7,17 @@ ms.date: 02/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
-description: "Hier erfahren Sie, wie Sie Ihr Microsoft Teams-Netzwerk vorbereiten und verwalten. Unter anderem erhalten Sie Informationen zu den Netzwerkanforderungen, den Bandbreitenanforderungen und zusätzlichen Überlegungen."
+description: Hier erfahren Sie, wie Sie Ihr Microsoft Teams-Netzwerk vorbereiten und verwalten. Unter anderem erhalten Sie Informationen zu den Netzwerkanforderungen, den Bandbreitenanforderungen und zusätzlichen Überlegungen.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e734014ff72c8b7eb6ba0e9f27cce7489ec3daf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 3fec119a29ea29d9d5c897395c82e27fdaed5e48
+ms.sourcegitcommit: 8c13d6279760749f60776a3c9e46118f029ae818
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "20024198"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
@@ -35,7 +37,7 @@ Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt i
 
 Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
 
-Die beiden definierenden Netzwerksegmente (Client zu Microsoft Edge und Kundenedge zu Microsoft Edge) müssen die folgenden Anforderungen erfüllen:
+Sollten Sie für die zwei definierenden Netzwerksegmente (Client Microsoft Edge) und Customer Kante Microsoft Edge die folgenden Empfehlungen.
 
 
 |Wert  |Client zu Microsoft Edge  |Kundenedge zu Microsoft Edge  |
@@ -57,22 +59,23 @@ Um beide Netzwerksegmente zu testen, können Sie das [Network Assessment-Tool](h
 
 Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützung wurde ein Rechner erstellt. Den Rechner finden Sie unter [„Netzwerkplaner“ in MyAdvisor](http://aka.ms/bwcalc/).
 
-Den folgenden Inhalt können Sie als ergänzende Hintergrundinformationen nutzen. Wir empfehlen jedoch, Ihren Bedarf mit dem [Netzwerkplaner](https://aka.ms/bwcalc) zu ermitteln.
+<!--
+The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
 > [!IMPORTANT]
->Wenn die erforderliche Bandbreite nicht verfügbar ist, verringert der Medienstapel in Microsoft Teams die Qualität der Audio/Video-Sitzung, um der niedrigeren verfügbaren Bandbreite Rechnung zu tragen. Dies wirkt sich auf die Qualität des Anrufs bzw. der Besprechung aus. Der Microsoft Teams-Client versucht, die Audioqualität gegenüber der Videoqualität zu priorisieren. Daher ist es äußerst wichtig, dass die erwartete Bandbreite verfügbar ist.
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
 
 
-|Aktivität  |Downloadbandbreite  |Uploadbandbreite  |Datenverkehrsfluss |
+|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
 |---------|---------|---------|---------|
-|**Peer-zu-Peer-Audioanruf**     |0,1 MB         |0,1 MB         |Client <> Client         |
-|**Peer-zu-Peer-Videoanruf (Vollbild)**     |4 MB         |4 MB         |Client <> Client          |
-|**Peer-zu-Peer-Desktopfreigabe (Auflösung 1920x1080)**     |4 MB         |4 MB         |Client <> Client          |
-|**Besprechung mit zwei Teilnehmern**     |4 MB         |4 MB         |Client <> Office 365         |
-|**Besprechung mit drei Teilnehmern**     |8 MB         |6,5 MB         |Client <> Office 365           |
-|**Besprechung mit vier Teilnehmern**     |5,5 MB         |4 MB         |Client <> Office 365           |
-|**Besprechung mit fünf oder mehr Teilnehmern**     |6 MB         |1,5 MB         |Client <> Office 365           |
-
+|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
+|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
+|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
+|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
+|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
+|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
+|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
+-->
 
 <a name="additional-network-considerations"></a>Zusätzliche Netzwerküberlegungen
 ---------------

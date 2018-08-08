@@ -1,9 +1,8 @@
 ---
-title: Anpassen der Wartemusik für das Parken von Anrufen in Skype for Business 2015
+title: Anpassen des Parkens von Anrufen Musik in der Warteschleife InSkype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Passen Sie die Musik in der Warteschleife in Skype für Business Server Enterprise-VoIP Parken.
-ms.openlocfilehash: 95e332aad7d96c366cfc73ca1bcf3f289b5f14ab
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e0d1f49a1385eb185f7abb12edb467abb221a411
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001252"
 ---
-# <a name="customize-call-park-music-on-hold-inskype-for-business-2015"></a>Anpassen der Wartemusik für das Parken von Anrufen in Skype for Business 2015
+# <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Anpassen des Parkens von Anrufen Musik in der Warteschleife InSkype für Unternehmen
  
 Passen Sie die Musik in der Warteschleife in Skype für Business Server Enterprise-VoIP Parken.
   
@@ -53,9 +53,6 @@ Sie können angeben, dass eine eigene Musikdatei für Musik in der Warteschleife
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
-

@@ -1,9 +1,8 @@
 ---
-title: Installieren der Dateien für den Vermittlungsserver in Skype for Business Server 2015
+title: Installieren der Dateien für den Vermittlungsserver in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-description: 'Zusammenfassung: Informationen Sie zum Installieren der Dateien für den Vermittlungsserver in Skype für Business Server 2015.'
-ms.openlocfilehash: 2d296cc43e58f18037176c498149db97698b7c03
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Installieren der Dateien für den Vermittlungsserver in Skype für Business Server.'
+ms.openlocfilehash: b3314e5443a7aa881fa849fd3e3b5b639f72664e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002481"
 ---
-# <a name="install-the-files-for-mediation-server-in-skype-for-business-server-2015"></a>Installieren der Dateien für den Vermittlungsserver in Skype for Business Server 2015
+# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Installieren der Dateien für den Vermittlungsserver in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Installieren der Dateien für den Vermittlungsserver in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Installieren der Dateien für den Vermittlungsserver in Skype für Business Server.
   
 Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie mindestens als lokaler Administrator beim Server angemeldet sein und ein Domänenbenutzerkonto verwenden, das mindestens Mitglied der Gruppe „RTCUniversalReadOnlyAdmins“ ist.
   
 Verwenden Sie die Schritte in diesem Thema ausführen Skype für Business Server-Bereitstellungs-Assistenten zum Installieren der Dateien für den Vermittlungsserver auf einem Computer, die Sie in einen Pool Mediation Server hinzugefügt haben, nachdem Sie der Topologie-Generator zum Definieren und veröffentlichen den Pool verwendet haben. Bei der Installation von Dateien Mediation Server auch installieren und Zuweisen des Zertifikats von jedem Computer in einem Pool Mediation Server erforderlich. 
   
 > [!NOTE]
-> In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen vermittlungsserverpool in Ihrer Topologie veröffentlicht und definiert, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015](deploy-a-mediation-server.md)beschrieben. 
+> In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen vermittlungsserverpool in Ihrer Topologie veröffentlicht und definiert, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](deploy-a-mediation-server.md)beschrieben. 
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>So installieren Sie die Dateien für einen eigenständigen Vermittlungsserverpool
 
@@ -59,5 +59,5 @@ Verwenden Sie die Schritte in diesem Thema ausführen Skype für Business Server
     
 13. Auf dem Computer, auf dem Sie Skype Business Server-Systemsteuerung ausführen, vergewissern Sie sich auf der Seite **Topologie** von Skype Business Server-Systemsteuerung, die der Status des Vermittlungsservers als ein grünes Häkchen angezeigt werden. Wenn ein rotes X angezeigt wird, wählen Sie den Vermittlungsserver aus. Klicken Sie im Menü **Aktion** auf **Alle Dienste starten**. 
     
-Wenn Sie mehrere Computer auf den Pool Mediation Server hinzugefügt haben, führen Sie die Schritte aus, in diesem Verfahren auf allen anderen Computern im Pool Vermittlungsserver. Wenn Sie keine Dateien für den Vermittlungsserver für alle anderen Computern installieren müssen, führen Sie die Verfahren in [Konfigurieren von Trunks in Skype für Business Server 2015](configure-trunks.md) , konfigurieren Sie Einstellungen für die trunkverbindung zwischen diesen Mediation Server-Pool (oder alle Der Vermittlungsserver an einem Standort) und seinen Peer.
+Wenn Sie mehrere Computer auf den Pool Mediation Server hinzugefügt haben, führen Sie die Schritte aus, in diesem Verfahren auf allen anderen Computern im Pool Vermittlungsserver. Wenn Sie keine Dateien für den Vermittlungsserver für alle anderen Computern installieren müssen, führen Sie die Verfahren in [Configure-Trunks in Skype für Business Server](configure-trunks.md) konfigurieren Sie Einstellungen für die trunkverbindung zwischen diesen Mediation Server-Pool (oder alle Vermittlungsserver Server an einem Standort) und seinen Peer.
 

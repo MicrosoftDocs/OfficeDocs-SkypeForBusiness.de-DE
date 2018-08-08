@@ -1,8 +1,7 @@
 ---
-title: Überprüfen der Edgebereitstellung in Skype for Business Server 2015
+title: Überprüfen Sie Ihre edgebereitstellung in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,22 +10,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 'Zusammenfassung: Informationen Sie zum Überprüfen, ob Ihre Bereitstellung der Edgeserver oder edgeserverpool Business Server 2015 in Skype funktioniert.'
-ms.openlocfilehash: b8adc5e8d652607156d0136671b1f149fbfe27b4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Erfahren Sie, wie stellen Sie sicher, dass Ihre Bereitstellung von Edge-Server oder Edge-Server-Pool in Skype für Business Server funktionsfähig ist.'
+ms.openlocfilehash: cb239e2777926796761dd91c1460e1147772a34a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015097"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server-2015"></a>Überprüfen der Edgebereitstellung in Skype for Business Server 2015
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Überprüfen Sie Ihre edgebereitstellung in Skype für Business Server
  
-**Zusammenfassung:** Hier erfahren Sie, wie Sie sicherstellen, dass Ihre Bereitstellung der Edgeserver oder edgeserverpool Business Server 2015 in Skype funktioniert.
+**Zusammenfassung:** Erfahren Sie, wie stellen Sie sicher, dass Ihre Bereitstellung von Edge-Server oder Edge-Server-Pool in Skype für Business Server funktionsfähig ist.
   
-Nachdem Sie den Edge-Server oder Pool von Edge-Server bereitgestellt haben, müssen Sie wissen, ob sie ordnungsgemäß funktioniert. Hier sind einige Dinge, die mit bestätigt wird, ist der Edge-Umgebung verbunden helfen kann für den internen Servern und auch, die für externe Benutzer zu Ihrer Skype für Business Server 2015 Umgebung durch Ihre Kante verbinden können.
+Nachdem Sie den Edge-Server oder Pool von Edge-Server bereitgestellt haben, müssen Sie wissen, ob sie ordnungsgemäß funktioniert. Hier sind einige Dinge, die mit bestätigt wird, ist der Edge-Umgebung verbunden helfen kann von internen Servern und auch, die für externe Benutzer auf Ihre Skype für Business Server-Umgebung durch Ihre Kante verbinden können.
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Überprüfen der Konnektivität zwischen Ihren internen Servern und Ihren Edgeservern
 
-Während der Überprüfung der Konnektivität automatisch erfolgt in Edgeserver oder edgeserverpool Wenn die Edge-Server installiert sind, können Sie weiterhin dies für sich selbst mit Windows PowerShell überprüfen. Führen Sie das Get-CsManagementStoreReplicationStatus-Cmdlet auf dem internen Server, der die zentrale Verwaltung gespeichert hat, oder einem beliebigen Computer der Domäne beigetreten sind auf welche Skype für Business Server 2015-Hauptkomponenten (OcsCore.msi) installiert sind.
+Während der Überprüfung der Konnektivität automatisch erfolgt in Edgeserver oder edgeserverpool Wenn die Edge-Server installiert sind, können Sie weiterhin dies für sich selbst mit Windows PowerShell überprüfen. Führen Sie das Get-CsManagementStoreReplicationStatus-Cmdlet auf dem internen Server, der die zentrale Verwaltung gespeichert hat, oder einem beliebigen Computer der Domäne beigetreten sind auf welche Skype für Business Server-Hauptkomponenten (OcsCore.msi) installiert sind.
   
 Das erste Ergebnis beim Ausführen dieses Befehls kann für Replikation der Status „False“ statt „True“ sein. Führen Sie das cmdlet Invoke-CsManagementStoreReplication aus, wenn das der Fall ist. Lassen Sie ausreichend Zeit für den Abschluss der Replikation und führen Sie dann das cmdlet Get-CsManagementStoreReplicationStatus erneut aus.
   

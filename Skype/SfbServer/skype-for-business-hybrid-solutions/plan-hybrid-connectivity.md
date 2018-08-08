@@ -16,12 +16,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online. Die Einrichtung von hybrider Konnektivität ist der erste Schritt bei der Implementierung zahlreicher hybrider Skype for Business-Lösungen.'
-ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+description: 'Zusammenfassung: Lesen Sie dieses Thema und erfahren Sie, wie Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online geplant wird.  Die Einrichtung von hybrider Konnektivität ist der erste Schritt bei der Implementierung zahlreicher hybrider Skype for Business-Lösungen.'
+ms.openlocfilehash: 2cd4c66ebd36542fa90cb8b8bcd0aa88da0d8df0
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145365"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online
  
@@ -31,33 +32,33 @@ Dieses Thema bietet eine Übersicht und beschreibt die Infrastruktur und Systema
   
 Dieses Thema enthält die folgenden Abschnitte:
   
-- [Übersicht über die](plan-hybrid-connectivity.md#BKMK_Overview)
+- [Übersicht](plan-hybrid-connectivity.md#BKMK_Overview)
     
-- [Anforderungen an die Netzwerkinfrastruktur](plan-hybrid-connectivity.md#BKMK_Infrastructure)
+- [Infrastrukturanforderungen](plan-hybrid-connectivity.md#BKMK_Infrastructure)
     
-- [Unterstützung mit mehreren Gesamtstrukturen](plan-hybrid-connectivity.md#BKMK_MultiForest)
+- [Unterstützung für mehrere Gesamtstrukturen](plan-hybrid-connectivity.md#BKMK_MultiForest)
     
-- [Koexistenz von Exchange](plan-hybrid-connectivity.md#BKMK_Exchange)
+- [Koexistenz mit Exchange](plan-hybrid-connectivity.md#BKMK_Exchange)
     
 - [Administratoranmeldeinformationen](plan-hybrid-connectivity.md#BKMK_Credentials)
     
-- [Skype für Business Online-PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
+- [Skype for Business Online-PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
     
-- [Skype für Business-Client-Unterstützung](plan-hybrid-connectivity.md#BKMK_ClientSupport)
+- [Unterstützung für Skype for Business-Clients](plan-hybrid-connectivity.md#BKMK_ClientSupport)
     
 - [Topologieanforderungen](plan-hybrid-connectivity.md#BKMK_Topology)
     
-- [Anforderungen an den Identitätsverbund zulässige/blockiert werden aufgelistet.](plan-hybrid-connectivity.md#BKMK_Federation)
+- [Anforderungen in Bezug auf die Listen der zugelassenen und blockierten Domänen für den Partnerverbund](plan-hybrid-connectivity.md#BKMK_Federation)
     
 - [DNS-Einstellungen](plan-hybrid-connectivity.md#BKMK_DNS)
     
-- [Überlegungen zur Firewall](plan-hybrid-connectivity.md#BKMK_Firewall)
+- [Überlegungen zu Firewalls](plan-hybrid-connectivity.md#BKMK_Firewall)
     
-- [Anforderungen an Ports und Protokolle](plan-hybrid-connectivity.md#BKMK_Ports)
+- [Port- und Protokollanforderungen](plan-hybrid-connectivity.md#BKMK_Ports)
     
-- [Benutzerkonten und Daten](plan-hybrid-connectivity.md#BKMK_UserAccounts)
+- [Benutzerkonten und -daten](plan-hybrid-connectivity.md#BKMK_UserAccounts)
     
-- [Richtlinien für Benutzer und features](plan-hybrid-connectivity.md#BKMK_UserPolicies)
+- [Benutzerrichtlinien und Funktionen](plan-hybrid-connectivity.md#BKMK_UserPolicies)
     
 Nachdem Sie in diesem Thema gelesen haben und bereit zum Bereitstellen von finden Sie unter [Deploy hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)sind. Die Bereitstellungsthemen enthalten schrittweise Anleitungen zum Einrichten von hybrider Konnektivität zwischen Ihrer lokalen Bereitstellung und Skype for Business Online.
   
@@ -126,6 +127,9 @@ Sie können auch konfigurieren, hybridbereitstellungen für die Integration in l
 Um hybride Konnektivität zwischen Skype for Business Server und Skype for Business Online zu implementieren und bereitzustellen, müssen Sie in Ihrer Umgebung Folgendes konfigurieren:
   
 - Ein einzelnes lokale Bereitstellung von Skype für Business Server oder Lync Server, die in einer unterstützten Topologie bereitgestellt wird. Finden Sie in diesem Thema in der [topologieanforderungen](plan-hybrid-connectivity.md#BKMK_Topology) .
+    
+    > [!NOTE]
+    > Jede SIP-Domäne, die in Ihrer lokalen Umgebung vorhanden ist, muss auch in Ihrer Office 365-Mandanten und umgekehrt vorhanden sein. Sie können keine müssen einige SIP-Domänen online nur und einige Domänen nur lokal. Andernfalls funktioniert Anwesenheitsinformationen, Sofortnachrichten und andere Features nicht ordnungsgemäß.
     
 - Microsoft Office 365-Mandanten mit der Skype für Business Online aktiviert werden soll. 
     
@@ -205,7 +209,7 @@ Es gibt einige Unterschiede in Bezug auf die Features, die von Clients unterstü
     
 Bevor Sie sich entschließen, in dem Sie Privatbenutzer in Ihrer Organisation möchten, sollten Sie den [Desktopclient Featurevergleich für Skype für Unternehmen](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) zum Bestimmen der Client-Unterstützung für die verschiedenen Konfigurationen der Skype für Business Server überprüfen. Siehe auch:
   
-- [Planen von Clients und Geräten](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
+- [Planen für Clients und Geräte](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
     
 - [Mobiler Client Featurevergleich für Skype für Unternehmen](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
     
@@ -278,7 +282,9 @@ Darüber hinaus müssen Sie sicherstellen, dass die in der folgenden Tabelle erl
 |DNS-A-Eintrag/Einträge für den Edge-Webkonferenzdienst-FQDN, zum Beispiel „webcon.contoso.com“, aufgelöst zu der externen IP/den IPs des Webkonferenzdienst-Edgeservers  <br/> |Interne Firmennetzwerk den Computern der Benutzer verbunden  <br/> |Versetzen Sie Onlinebenutzer in die Lage, in lokal gehosteten Besprechungen Inhalte zu präsentieren oder zu betrachten. Entsprechende Inhalte sind unter anderem PowerPoint-Dateien, Whiteboards, Umfragen und freigegebene Notizen.   <br/> |
    
 Je nachdem, wie DNS in Ihrer Organisation konfiguriert ist, müssen Sie möglicherweise der intern gehosteten DNS-Zone für die entsprechenden SIP-Domäne(n) diese Einträge hinzufügen, um die interne DNS-Auflösung dieser Datensätze zu gewährleisten.
-  
+
+[!NOTE] _sipfederationtls. \<sipdomain.com\> SRV-Datensatz Auflösung aus der Edge-Server ist für die hybridkonfiguration erforderlich. Wenn der Edge-Server diese Einträge nicht auflösen kann, werden der lokale Benutzer werden nicht das Anwesenheitssymbol oder mit online-Benutzern kommunizieren.
+
 ## <a name="firewall-considerations"></a>Überlegungen zu Firewalls
 <a name="BKMK_Firewall"> </a>
 
@@ -294,7 +300,7 @@ Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](h
 Sie müssen nicht nur die Portanforderungen für die interne Kommunikation berücksichtigen, sondern auch die folgenden Ports konfigurieren, um die Hybrid-Anbindung zu aktivieren:
   
 
-|**Protokoll**|**TCP oder UDP**|**Quell-IP**|**Ziel-IP-**|**Quellport**|**Zielport**|**Notizen**|
+|**Protokoll**|**TCP oder UDP**|**Quell-IP**|**Ziel-IP**|**Quellport**|**Zielport**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Zugriffs-Edge  <br/> |Office 365  <br/> |Beliebig  <br/> |5061  <br/> |Signalisierung  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Zugriffs-Edge  <br/> |Beliebig  <br/> |5061  <br/> |Signalisierung  <br/> |

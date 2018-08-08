@@ -1,9 +1,8 @@
 ---
-title: Erstellen oder Ändern einer Agent-Gruppe in Skype for Business 2015
+title: Erstellen oder Ändern einer agentgruppe in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Erstellen oder Ändern einer agentgruppe in Reaktionsgruppe in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 5555272fdcaa7b9a3576dc2b943eaeda064e3bb5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a6b57eca83c230c86e041eb6727d5b3696b689d1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568345"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018949"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>Erstellen oder Ändern einer Agent-Gruppe in Skype for Business 2015
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Erstellen oder Ändern einer agentgruppe in Skype für Unternehmen
  
 Erstellen oder Ändern einer agentgruppe in Reaktionsgruppe in Skype für Business Server Enterprise-VoIP.
   

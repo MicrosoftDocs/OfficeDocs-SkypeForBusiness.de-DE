@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype for Business Server 2015
+title: Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,32 +13,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server.
-ms.openlocfilehash: fc36659dff4bc83cd1a7862b366c88b1f275bd14
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ca9d25ec79c6eb86fca8055b5ae00748cf9c3468
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999436"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype for Business Server 2015
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
  
 Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server.
   
 Nachdem Sie die grundlegende Enterprise-VoIP-Funktionalität für Ihre Organisation konfiguriert haben, können Sie optional eine oder mehrere erweiterte Enterprise-VoIP-Funktionen bereitstellen. Verwenden Sie hierzu die Verfahren in diesem Abschnitt. 
   
-- [Planen Sie für die medienumgehung in Skype für Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [Planen der medienumgehung in Skype für Unternehmen](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Planen für die anrufsteuerung in Skype Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Plan für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Planen für Notdienste in Skype Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Planen für Notdienste in Skype Business Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Bereitstellen von netzwerkregionen, Standorten und Subnetzen in Skype für Business 2015](deploy-network.md)
+- [Bereitstellen von netzwerkregionen, Standorten und Subnetzen in Skype für Unternehmen](deploy-network.md)
     
-- [Bereitstellen von medienumgehung in Skype für Business Server 2015](deploy-media-bypass.md)
+- [Die medienumgehung in Skype für Business Server bereitstellen](deploy-media-bypass.md)
     
-- [Bereitstellen der anrufsteuerung in Skype für Business Server 2015](deploy-call-admission-control.md)
+- [Bereitstellen Sie die anrufsteuerung in Skype für Business Server](deploy-call-admission-control.md)
     
-- [Bereitstellen von Notdienste in Skype für Business Server 2015](deploy-emergency-services.md)
+- [Notdienste in Skype für Business Server bereitstellen](deploy-emergency-services.md)
     
 

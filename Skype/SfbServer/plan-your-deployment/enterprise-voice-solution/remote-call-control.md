@@ -1,9 +1,8 @@
 ---
-title: Planen der Remoteanrufsteuerung in Skype for Business 2015
+title: Plan für die Remoteanrufsteuerung in Skype für Unternehmen
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,21 +13,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Remoteanrufsteuerung wurde Feature in früheren Versionen von Lync Server die Benutzer ihre Nebenstellentelefone über mit Lync Server steuern aktiviert. Dieses Feature wurde in Skype für Business Server mit über Arbeitsplatz anrufen ersetzt. In die Clientversionen für Skype für Business Server 2015 und Wechsel zu weiterleiten, remote Call Control ist nicht mehr verfügbar in den Client konfiguriert und wurde für die Verwendung entfernt.
-ms.openlocfilehash: e3a8031a79d547a279b377a45e1e8461cd47a2e7
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d2203840672bfc73cf478254b9d115fd0375c902
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014543"
 ---
-# <a name="plan-for-remote-call-control-in-skype-for-business-2015"></a>Planen der Remoteanrufsteuerung in Skype for Business 2015
+# <a name="plan-for-remote-call-control-in-skype-for-business"></a>Plan für die Remoteanrufsteuerung in Skype für Unternehmen
  
 Remoteanrufsteuerung wurde Feature in früheren Versionen von Lync Server die Benutzer ihre Nebenstellentelefone über mit Lync Server steuern aktiviert. Dieses Feature wurde in Skype für Business Server mit über Arbeitsplatz anrufen ersetzt.  *In die Clientversionen für Skype für Business Server 2015 und Wechsel zu weiterleiten, remote Call Control ist nicht mehr verfügbar in den Client konfiguriert und wurde für die Verwendung entfernt.* 
   
  Remoteanrufsteuerung Steuerelementbenutzer in Ihrer Organisation, die auf Front-End-Servern mit Lync Server verwaltet werden können auch weiterhin mithilfe Remoteanrufsteuerung, auch wenn sie einen Skype für die Business-Client verwenden. Für alle Benutzer in Skype für Business Server verwaltet werden, wird die Remoteanrufsteuerung jedoch nicht unterstützt. In der folgenden Tabelle können Sie sich über Server/Client-Kombinationen und darüber informieren, ob diese Remoteanrufsteuerung oder „Anruf über den Arbeitsplatz“ unterstützen können.
   
-||**Skype für Business 2015 Client With Skype-Benutzeroberfläche aktiviert**|**Skype für Business 2015 Client With Lync-Benutzeroberfläche aktiviert**|**Skype für Business 2016-Client**|**Lync 2013-Clients**|**Lync 2010-Client**|
+||**Skype für Business Client mit Skype-Benutzeroberfläche aktiviert**|**Skype für Business Client mit Lync-Benutzeroberfläche aktiviert**|**Skype für Business 2016-Client**|**Lync 2013-Clients**|**Lync 2010-Client**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| Skype for Business Server 2015 <br/> |Anruf über den Arbeitsplatz  <br/> |1 <br/> |Anruf über den Arbeitsplatz  <br/> |1 <br/> |1 <br/> |
+| Skype for Business Server <br/> |Anruf über den Arbeitsplatz  <br/> |1 <br/> |Anruf über den Arbeitsplatz  <br/> |1 <br/> |1 <br/> |
 | Lync Server 2013 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |1 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |
 | Lync Server 2010 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |1 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |
    
@@ -38,11 +38,9 @@ Weitere Informationen finden Sie unter [Remote Call Control](https://go.microsof
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Planen der Anruf über den Arbeitsplatz in Skype für Business Server 2015](call-via-work.md)
+[Planen der Anruf über den Arbeitsplatz in Skype für Business Server](call-via-work.md)
   
-[Desktopclient Featurevergleich für Skype für Unternehmen](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
+[Vergleich der Funktionen der Skype for Business-Desktopclients](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
 [Stellen Sie einen Skype für Business Anruf jedoch verwenden Telefonapparat PBX für audio](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
 

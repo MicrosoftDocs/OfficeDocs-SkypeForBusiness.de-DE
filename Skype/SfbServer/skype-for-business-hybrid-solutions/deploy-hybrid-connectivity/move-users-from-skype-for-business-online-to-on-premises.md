@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Zusammenfassung: Erfahren Sie, wie Benutzerkonten für Business Server lokal in Skype von online zu verschieben.'
-ms.openlocfilehash: 867fb34cbbb0e908fd8af521cff9a1867caa30a7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025681"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Verschieben von Benutzern von Skype für Business Online auf lokal
  
@@ -69,9 +70,7 @@ Bevor Sie beginnen, Online-Benutzer zu Ihrer lokalen Umgebung zu verschieben, ü
   Import-PSSession $CSSession -AllowClobber
   ```
 
-    Weitere Informationen dazu, wie Sie eine remote-PowerShell-Sitzung mit Skype für Business Online herstellen finden Sie unter [Connecting to Lync Online durch Verwenden von Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx).
-    
-    Weitere Informationen zur Verwendung der Skype für Business Online Connector PowerShell-Modul finden Sie unter [Using Windows PowerShell zum Verwalten von Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+    Weitere Informationen zum Verwenden von PowerShell mit Skype für Business Online finden Sie unter [Einrichten des Computers für Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 - Online-Mandanten muss für einen freigegebenen SIP-Adressraum konfiguriert werden. Zu diesem Zweck, starten Sie zuerst eine remote-Powershell-Sitzung mit Skype für Business Online. Führen Sie dann das folgende Cmdlet aus:
     
@@ -130,9 +129,9 @@ Nachdem Sie diese Schritte abgeschlossen haben, können Sie Benutzerkonten migri
     
   - Aktualisieren Sie den Eintrag **lyncdiscover.contoso.com** so, dass er auf den FQDN des lokalen Reverseproxyservers verweist.
     
-  - Update der ** *_sip* . _tls.contoso.com** SRV aufzeichnen, um die öffentliche IP-Adresse oder die VIP-Adresse des Zugriffs-edgedienst der lokalen Lync zu beheben.
+  - Update der ** *_sip* . _tls.contoso.com** SRV-Eintrag zum Auflösen in die öffentliche IP-Adresse oder die VIP-Adresse des Zugriffs-edgedienst der lokalen Lync.
     
-  - Update der ** *_sipfederationtls* . _tcp.contoso.com** SRV aufzeichnen, um die öffentliche IP-Adresse oder die VIP-Adresse des Zugriffs-edgedienst von Skype zu beheben für Business Server 2015 lokale-.
+  - Update der ** *_sipfederationtls* . _tcp.contoso.com** an die öffentliche IP-Adresse oder die VIP-Adresse des Zugriffs-edgedienst der Skype aufzulösende für Business Server 2015 lokale-SRV-Eintrag.
     
   - Wenn Ihre Organisation verwendet DNS (manchmal als "Split-Brain-DNS" bezeichnet) geteilt, stellen Sie sicher, dass Benutzer, die zum Auflösen von Namen durch die internen DNS-Zone auf den Front-End-Pool weitergeleitet werden.
     
@@ -144,9 +143,6 @@ Nachdem Sie diese Schritte abgeschlossen haben, können Sie Benutzerkonten migri
     
   ```
   $cred = Get-Credential
-  ```
-
-  ```
   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
   ```
 
@@ -191,7 +187,7 @@ Nachdem Sie diese Schritte abgeschlossen haben, können Sie Benutzerkonten migri
   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
   ```
 
-|**Active Directory-Attribut**|**Name des Attributs**|**Richtigen Wert für Online-Benutzer**|**Richtigen Wert für lokale Benutzer**|
+|**Active Directory-Attribut**|**Attributname**|**Korrekter Wert für Online-Benutzer**|**Richtigen Wert für lokale Benutzer**|
 |:-----|:-----|:-----|:-----|
 |MsRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV:  <br/> |
 |MsRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:UserName@contoso.com  <br/> |SIP:UserName@contoso.com  <br/> |

@@ -1,9 +1,8 @@
 ---
-title: Entwerfen des SIP-Trunks für E9-1-1 in Skype for Business Server 2015
+title: Entwerfen des SIP-Trunks für E9-1-1 in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planen Ihre SIP-Trunking-Topologien für eine Bereitstellung von E9-1-1, die SIP-Trunking-Anbietern in Skype für Business Server Enterprise-VoIP verwendet wird.
-ms.openlocfilehash: a04256bcad458b639777ec553289deb3c43ddd59
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8a0264bc66be97a80b9ef1d14a020f438a8a89f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974665"
 ---
-# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server-2015"></a>Entwerfen des SIP-Trunks für E9-1-1 in Skype for Business Server 2015
+# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Entwerfen des SIP-Trunks für E9-1-1 in Skype für Business Server
  
 Planen Ihre SIP-Trunking-Topologien für eine Bereitstellung von E9-1-1, die SIP-Trunking-Anbietern in Skype für Business Server Enterprise-VoIP verwendet wird.
   
@@ -32,11 +32,11 @@ Es gibt zwei Methoden, um einen SIP-Trunk in einer Skype für Business Server-Um
     
 - Verwenden Sie eine lokale Session Border Controller (SBC), um eine sichere Trennung der Vermittlungsserver und den SIP-Trunk des Anbieters Dienste bereitzustellen.
     
-Wenn Sie sich für die zweite Methode entscheiden, stellen Sie sicher, dass die Marke/das Modell des von Ihnen ausgewählten SBC die Weitergabe von PIDF-LO (Presence Information Data Format Location Object)-Standortdaten als Teil der SIP INVITE unterstützt. Andernfalls gehen die Anrufe ohne Standortinformationen beim Anbieter für die Notrufunterstützung ein. Ausführliche Informationen zu zertifizierten SBCs finden Sie unter ["Infrastruktur qualifizierte für Microsoft Lync"](https://go.microsoft.com/fwlink/p/?LinkId=248425) und ["Telefonie-Infrastruktur für Skype für Business"](https://technet.microsoft.com/en-us/office/dn947483).
+Wenn Sie sich für die zweite Methode entscheiden, stellen Sie sicher, dass die Marke/das Modell des von Ihnen ausgewählten SBC die Weitergabe von PIDF-LO (Presence Information Data Format Location Object)-Standortdaten als Teil der SIP INVITE unterstützt. Andernfalls gehen die Anrufe ohne Standortinformationen beim Anbieter für die Notrufunterstützung ein. Ausführliche Informationen zu zertifizierten SBCs finden Sie unter ["Infrastruktur qualifizierte für Microsoft Lync"](https://go.microsoft.com/fwlink/p/?LinkId=248425) und ["Telefonie-Infrastruktur für Skype für Business"](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 Über E9-1-1-Dienstanbieter erhalten Sie Zugriff auf ein SBC-Paar, um Redundanz zu gewährleisten. Sie müssen mehrere Entscheidungen bezüglich der Topologie Vermittlungsserver, und rufen Sie routing-Konfiguration. Möchten Sie beide SBCs als gleichwertig behandeln und Roundrobinrouting für Anrufe zwischen ihnen verwenden oder werden Sie einen SBC als primären und den anderen als sekundären SBC festlegen?
   
-Weitere Informationen zur Bereitstellung von SIP-Trunk in Skype für Business Server finden Sie unter [SIP-Trunking in Skype für Business Server 2015](sip-trunking.md). Zur einfacheren Bereitstellung der SIP-Trunks für E9-1-1 sollten Sie zunächst die folgenden Fragen beantworten.
+Weitere Informationen zur Bereitstellung von SIP-Trunk in Skype für Business Server finden Sie unter [SIP-Trunking in Skype für Business Server](sip-trunking.md). Zur einfacheren Bereitstellung der SIP-Trunks für E9-1-1 sollten Sie zunächst die folgenden Fragen beantworten.
   
  **Soll der SIP-Trunk über eine dedizierte geleaste oder eine gemeinsam genutzte Internetverbindung bereitgestellt werden?**
   
@@ -48,7 +48,7 @@ Weitere Informationen zur Bereitstellung von SIP-Trunk in Skype für Business Se
     
  **Sollten Sie einen separaten SIP-Trunk für jeden Zweigstellenstandort bereitstellen?**
   
-> Skype für Business Server bietet mehrere Strategien für die Verarbeitung von VoIP-ausfallsicherheit in Zweigstellen, einschließlich: müssen ausfallsichere Datennetzwerke, einen SIP-Trunk in jeder Zweigstelle bereitstellen oder pushen von Anrufen an das lokale Gateway bei Ausfällen. Weitere Informationen hierzu finden Sie unter [SIP-Trunking in Skype für Business Server 2015](sip-trunking.md).
+> Skype für Business Server bietet mehrere Strategien für die Verarbeitung von VoIP-ausfallsicherheit in Zweigstellen, einschließlich: müssen ausfallsichere Datennetzwerke, einen SIP-Trunk in jeder Zweigstelle bereitstellen oder pushen von Anrufen an das lokale Gateway bei Ausfällen. Weitere Informationen hierzu finden Sie unter [SIP-Trunking in Skype für Business Server](sip-trunking.md).
     
  **Ist die Anrufsteuerung aktiviert?**
   

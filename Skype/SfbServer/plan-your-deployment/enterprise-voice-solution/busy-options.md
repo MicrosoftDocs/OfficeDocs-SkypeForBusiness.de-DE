@@ -3,7 +3,6 @@ title: Planen der Beschäftigt-Optionen für Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,16 +11,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
-description: Informieren Sie sich über das Feature beschäftigt Optionen in Skype für Business Server 2015.
-ms.openlocfilehash: b800989d091a0363e75901c8420d5b71a8030f10
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: Informieren Sie sich über das Feature beschäftigt Optionen in Skype für Business Server.
+ms.openlocfilehash: 42e970defa9535a8ae51ec52b0f9033009e58258
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974116"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planen der Beschäftigt-Optionen für Skype for Business Server
  
-Informieren Sie sich über das Feature beschäftigt Optionen in Skype für Business Server 2015.
+Informieren Sie sich über das Feature beschäftigt Optionen in Skype für Business Server.
   
 Wird eine neue VoIP-Richtlinie eingeführt beschäftigt Optionen in der Juli 2016 kumulative Update, mit dem Sie zum Konfigurieren eingehender Anrufe verarbeitet werden, wenn ein Benutzer ist bereits in einem Anruf oder einer Konferenz oder ein Anruf in die Warteschleife gestellt. Neue oder eingehende Anrufe können mit einem Besetztzeichen abgelehnt oder an die Voicemail weitergeleitet werden. 
   

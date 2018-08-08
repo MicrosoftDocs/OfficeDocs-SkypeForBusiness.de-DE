@@ -12,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: 'Zusammenfassung: Überprüfen der Clientanforderungen für video beim Planen von Skype für Business Server 2015.'
-ms.openlocfilehash: ea4c7e1cf9e0e1df24b00e817cac22128df1d0b8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Überprüfen der Clientanforderungen für video beim Planen von Skype für Business Server.'
+ms.openlocfilehash: 4009cb348c9a839fb200901808555521f453d5b8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966756"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype für Business Client Auflösung
  
-**Zusammenfassung:** Überprüfen der Clientanforderungen für video beim Planen von Skype für Business Server 2015.
+**Zusammenfassung:** Überprüfen der Clientanforderungen für video beim Planen von Skype für Business Server.
   
 Dieser Artikel beschreibt die Unterstützung der Videohardware für Skype für Business-Videoanrufe und beschreibt, wie zu erwartenden Videoqualität für verschiedene Computer, Tablet- und Konfigurationen des mobilen Geräts zu ermitteln. 
   
@@ -86,7 +87,7 @@ Die folgenden drei Tabellen erläutern die maximalen Codierungs- und Decodierung
 > [!NOTE]
 > Die WinSAT-Bewertung ist unter Windows 7 auf maximal 7,9 beschränkt. Die maximale Codierungsfähigkeit für einen Computer ohne hardwarebeschleunigten Codierer kann daher nur unter Windows 8 oder Windows 8.1 erreicht werden, wo der maximale WinSAT-Wert bei 9,9 liegt. 
   
-**Computer mit DXVA und mit Intel HD Graphics Hardwarebeschleunigtem Codierer**
+**Computer mit DXVA und mit durch Intel HD Graphics hardwarebeschleunigtem Codierer**
 
 |**Mögliche Codiererauflösung**|**Mögliche Decodiererauflösung**|**Anforderung**|
 |:-----|:-----|:-----|

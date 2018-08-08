@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server 2015
+title: Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-description: 'Zusammenfassung: Informationen Sie zum Definieren und Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015.'
-ms.openlocfilehash: 1923b75f36690cf6c4ab49cb69591032b188ace5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen Sie zum Definieren und Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server.'
+ms.openlocfilehash: cc5990db7a1e8323205f6fbddbd937ad5ee75f19
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975330"
 ---
-# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server-2015"></a>Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server 2015
+# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Definieren und Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server 2015.
+**Zusammenfassung:** Informationen Sie zum Definieren und Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server.
   
 Die Enterprise-VoIP-Arbeitslast, einwahlkonferenzen und erweiterte Enterprise-VoIP-Anwendungen (reaktionsgruppenanwendung, anrufparkanwendung, die anrufsteuerung (CAC) usw.) sind in Front-End-Pools verfügbar. Die Funktionalität des Vermittlungsservers ist in der Front-End-Server integriert. Einen separaten eigenständigen Vermittlungsserver ist nicht erforderlich. 
   
@@ -79,7 +80,7 @@ Sie können Vermittlungsserver als auf einem Front-End-Pool verbundenen Rolle hi
    - Wenn Sie mehrere Vermittlungsserver im Pool, um hohe Verfügbarkeit bereitstellen möchten, wählen Sie **Pool mit mehreren Computern**.
     
     > [!NOTE]
-    > Sie müssen bereitstellen (... /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) vermittlungsserverpools unterstützt, die mehrere Mediation Server verfügen.
+    > Sie müssen zur vermittlungsserverpools Unterstützung mit mehreren Vermittlungsserver [Bereitstellen](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) .
   
    - Wenn Sie nur einen Vermittlungsserver im Pool bereitstellen, da Sie keine hohe Verfügbarkeit erforderlich möchten, wählen Sie **Pool mit einem Computer**. Überspringen Sie den folgenden Schritt.
     

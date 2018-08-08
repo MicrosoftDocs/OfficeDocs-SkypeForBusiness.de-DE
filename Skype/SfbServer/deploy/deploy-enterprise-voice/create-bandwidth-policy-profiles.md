@@ -1,9 +1,8 @@
 ---
-title: Erstellen von Bandbreitenrichtlinienprofilen in Skype for Business Server 2015
+title: Erstellen von Bandbreite Richtlinienprofilen in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: 6cb3e22151596fe388f5f72f3a9325c97671e257
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ddc74ad5327651225bb6f0e78f83d8248c290806
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986443"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server-2015"></a>Erstellen von Bandbreitenrichtlinienprofilen in Skype for Business Server 2015
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Erstellen von Bandbreite Richtlinienprofilen in Skype für Business Server 
  
 Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden. 
   
-Bandbreitenrichtlinien definieren Einschränkungen für die Auslastung der Bandbreite für übertragene in Echtzeit Audio- und Videodaten. Bandbreitenrichtlinien sind Richtlinienprofilen angewendeten Tobandwidth, die zu mehreren Netzwerkstandorten für die anrufsteuerung angewendet werden können.
+Bandbreitenrichtlinien definieren Einschränkungen zur Bandbreitenauslastung für in Echtzeit übertragene Audio- und Videodaten. Bandbreitenrichtlinien sind Richtlinienprofilen angewendeten Tobandwidth, die zu mehreren Netzwerkstandorten für die anrufsteuerung angewendet werden können.
   
-Hinweise zum welche Bandbreite begrenzt, Sie sollten in Ihrer Bereitstellung der Anrufsteuerung festlegen, finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Hinweise zum welche Bandbreite begrenzt, Sie sollten in Ihrer Bereitstellung der Anrufsteuerung festlegen, finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen für den Audiodatenverkehr insgesamt, einzelne Audiositzungen, den Videodatenverkehr insgesamt und einzelne Videositzungen fest. Das Bandbreitenrichtlinienprofil „5Mb_Link“ legt beispielsweise folgende Einschränkungen fest: 
   
@@ -91,8 +91,6 @@ Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Neue CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
@@ -100,4 +98,3 @@ Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen
 [Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
-

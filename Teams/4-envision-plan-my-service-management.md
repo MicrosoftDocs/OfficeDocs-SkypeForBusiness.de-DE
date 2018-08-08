@@ -2,20 +2,22 @@
 title: Planen der Verwaltung von Microsoft-Teams service
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Bereitstellen und Verwalten einer qualitativ hochwertige bereitstellungs durch die Planung für Rollen und zuweisen einen Champion Qualität.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31a5f9a88feb775ec385808ca92f3c9368cf73e6
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3857bde4a71e3745c4e83546c0ad1b0114469197
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695502"
 ---
 # <a name="plan-my-service-management"></a>Planen der Verwaltung von Meine service
 
@@ -63,8 +65,9 @@ Im Betriebshandbuch enthält eine Liste der allgemeinen Aufgaben, typische Rolle
 |Netzwerkaufgaben|Führen Sie LAN, WAN, Wi-Fi und Internetzugang|TBA|TBA|
 |Team für Clients und Endpunkte|Verwalten von Desktopbereitstellungen|TBA|TBA|
 |Ermitteln von Aufgaben|Verwalten von Identitätsinfrastruktur (Active Directory, Active Directory Federation Services, AD Azure)|TBA|TBA|
-|Übernahme/Change Management|Verwalten von zur Förderung des Bekanntheitsgrads, Schulung und Akzeptanz für die Lösung|TBA|TBA|
+|Annahme/Änderungsmanagement|Verwalten von zur Förderung des Bekanntheitsgrads, Schulung und Akzeptanz für die Lösung|TBA|TBA|
 |Exchange-Aufgaben|Verwalten der Exchange-Umgebung|TBA|TBA|
+|Telefonie-Vorgänge|Verwalten des SBC und Rufnummern|TBA|TBA|
 
 Um eine einheitliche zu erleichtern detaillierte Rollen zuordnen, einschließlich der Vorgänge betriebliche Role zugeordnet, können die [Operative Rolle Symbolleistenbefehlen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) Sie um die Details zu erfassen, die die Angaben zu Rollen und Verantwortlichkeiten bereitgestellt wird Um Cloud VoIP-Arbeitslasten zu unterstützen.
 

@@ -1,9 +1,8 @@
 ---
-title: Erstellen von regionenübergreifenden Netzwerkrouten in Skype for Business Server 2015
+title: Erstellen Sie Netzwerk regionenübergreifende Routen in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Erstellen Sie oder ändern Sie regionenübergreifende Netzwerkrouten, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: 22e7872c6faa989779a93b6524c1740386f32d7d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b099910a6881958919ed9707424a9ae77f0f8983
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978918"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server-2015"></a>Erstellen von regionenübergreifenden Netzwerkrouten in Skype for Business Server 2015
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Erstellen Sie Netzwerk regionenübergreifende Routen in Skype für Business Server
  
 Erstellen Sie oder ändern Sie regionenübergreifende Netzwerkrouten, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden. 
   
-Eine regionenübergreifende Netzwerkroute definiert die Route zwischen zwei netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine regionenübergreifende Netzwerkroute erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen.
+Eine regionenübergreifende Netzwerkroute definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine regionenübergreifende Netzwerkroute erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen.
   
 Während die Regionenverbindungen Bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen, bestimmt eine regionenübergreifende Route, welchen Verknüpfungspfad die Verbindung von einer Region zur anderen nimmt.
   
@@ -78,8 +78,6 @@ In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenüber
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Neue CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
@@ -87,4 +85,3 @@ In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenüber
 [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
 [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
-

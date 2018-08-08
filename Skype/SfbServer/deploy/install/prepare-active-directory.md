@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten von Active Directory für Skype for Business Server 2015
+title: Vorbereiten von Active Directory für Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,27 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: 'Zusammenfassung: Informationen Sie zum Vorbereiten der Active Directory-Domäne für eine Installation von Skype für Business Server 2015. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 6dfd6452e2ff0296fdeb90bd4f81296efac2be62
-ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
+description: 'Zusammenfassung: Informationen Sie zum Vorbereiten von Active Directory-Domäne für eine Installation von Skype für Business Server. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 6f562a8a229f98deabce7956d5419f45e3022c12
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998595"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>Vorbereiten von Active Directory für Skype for Business Server 2015
+# <a name="prepare-active-directory-for-skype-for-business-server"></a>Vorbereiten von Active Directory für Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zum Vorbereiten der Active Directory-Domäne für eine Installation von Skype für Business Server 2015. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem [Microsoft-Evaluierungscenter](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Zusammenfassung:** Informationen Sie zum Vorbereiten von Active Directory-Domäne für eine Installation von Skype für Business Server. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem [Microsoft-Evaluierungscenter](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Skype für Business Server arbeitet eng mit Active Directory. Sie müssen Active Directory-Domäne zur Arbeit mit Skype für Business Server vorbereiten. Dieser Prozess wird im Bereitstellungs-Assistenten erreicht und erfolgt nur einmal für die Domäne. Dies ist, da der Prozess Gruppen erstellt und ändert die Domäne, und die erforderlich ist, nur einmal. Sie können die Schritte 1 bis 5 in einer beliebigen Reihenfolge ausführen. Die Schritte 6, 7 und 8 müssen jedoch wie in der Abbildung dargestellt nacheinander und nach den Schritten 1 bis 5 ausgeführt werden. Vorbereiten von Active Directory ist Schritt 4 von 8. Weitere Informationen zur Planung von Active Directory finden Sie unter [umgebungsanforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+Skype für Business Server arbeitet eng mit Active Directory. Sie müssen Active Directory-Domäne zur Arbeit mit Skype für Business Server vorbereiten. Dieser Prozess wird im Bereitstellungs-Assistenten erreicht und erfolgt nur einmal für die Domäne. Dies ist, da der Prozess Gruppen erstellt und ändert die Domäne, und die erforderlich ist, nur einmal. Sie können die Schritte 1 bis 5 in einer beliebigen Reihenfolge ausführen. Die Schritte 6, 7 und 8 müssen jedoch wie in der Abbildung dargestellt nacheinander und nach den Schritten 1 bis 5 ausgeführt werden. Vorbereiten von Active Directory ist Schritt 4 von 8. Weitere Informationen zur Planung von Active Directory finden Sie unter [umgebungsanforderungen für Skype für Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) oder [Server-Anforderungen für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![Übersichtsdiagramm](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Vorbereiten von Active Directory
 
-Skype für Business Server 2015 ist eng in Active Directory-Domänendienste (AD DS) integriert. Bevor Skype für Business Server 2015 zum ersten Mal installiert werden kann, muss der Active Directory vorbereitet werden. Der Abschnitt des Assistenten-Bereitstellung **Vorbereiten von Active Directory** mit dem Titel wird Active Directory-Umgebung für die Verwendung mit Skype für Business Server vorbereitet.
+Skype für Business Server ist eng in Active Directory-Domänendienste (AD DS) integriert. Bevor Skype für Business Server zum ersten Mal installiert werden kann, muss der Active Directory vorbereitet werden. Der Abschnitt des Assistenten-Bereitstellung **Vorbereiten von Active Directory** mit dem Titel wird Active Directory-Umgebung für die Verwendung mit Skype für Business Server vorbereitet.
   
 > [!NOTE]
-> Skype für Business Server 2015 wird (AD DS) verwendet, um nachzuverfolgen und zu kommunizieren mit allen Servern in einer Topologie. Jeder Server muss mit der Domäne verknüpft werden, damit Skype für Business Server ordnungsgemäß ausgeführt werden kann. 
+> Skype für Business Server wird (AD DS) verwendet, um nachzuverfolgen und zu kommunizieren mit allen Servern in einer Topologie. Jeder Server muss mit der Domäne verknüpft werden, damit Skype für Business Server ordnungsgemäß ausgeführt werden kann. 
   
 > [!IMPORTANT]
 > Das Verfahren zur Vorbereitung von Active Directory muss nur einmal für jede Domäne in der Bereitstellung durchgeführt werden. 
@@ -53,7 +54,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
   
 3. Klicken Sie auf den Link **Active Directory vorbereiten**.
     
-4. **Schritt 1: Vorbereiten des Schemas**
+4. **Schritt 1: Schema vorbereiten**
     
     a. Überprüfen Sie die Voraussetzungen für Schritt 1, zu dem Sie über das Dropdownmenü unter dem Titel „Schritt 1“ gelangen.
     
@@ -65,7 +66,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     
     e. Klicken Sie auf **Fertig stellen**, um den Assistenten zum Vorbereiten des Schemas zu schließen, und kehren Sie zu den Schritten für die Vorbereitung von Active Directory zurück.
     
-5. **Schritt 2: Überprüfen der Replikation der Schemapartition**
+5. **Schritt 2: Replikation der Schemapartition überprüfen**
     
     a. Melden Sie sich beim Domänencontroller der Domäne an.
     
@@ -77,7 +78,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     
     e. Suchen Sie unter dem Schemacontainer nach **CN=ms-RTC-SIP-SchemaVersion**. Wenn dieses Objekt vorhanden ist sowie der Wert des Attributs **rangeUpper** 1150 und der Wert des Attributs **rangeLower** 3 ist, wurde das Schema erfolgreich aktualisiert und repliziert. Wenn dieses Objekt nicht vorhanden ist oder die Werte der Attribute **rangeUpper** und **rangeLower** nicht diesen Werten entsprechen, wurde das Schema nicht geändert oder repliziert.
     
-6. **Schritt 3: Aktuelle Gesamtstruktur vorbereiten**
+6. **Schritt 3: Aktuelle Gesamtstruktur vorbereiten**
     
     a. Überprüfen Sie die Voraussetzungen für Schritt 3, zu der Sie über das Dropdownmenü unter dem Titel „Schritt 3“ gelangen.
     
@@ -99,7 +100,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     
      ![Replikation der Gesamtstruktur überprüfen.](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
-7. **Schritt 4: Überprüfen der Replikation des globalen Katalogs**
+7. **Schritt 4: Replikation des globalen Katalogs überprüfen**
     
     a. Öffnen Sie **Active Directory-Benutzer und -Computer** auf einem Domänencontroller (vorzugsweise an einem Remotestandort gegenüber den anderen Domänencontrollern) in der Gesamtstruktur, in der die Gesamtstrukturvorbereitung durchgeführt wurde.
     
@@ -109,7 +110,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     
     d. Wenn die Gruppen nicht vorhanden sind, können Sie die Replikation erzwingen oder 15 Minuten warten und den rechten Fensterbereich aktualisieren. Die Replikation ist abgeschlossen, wenn die Gruppen vorhanden sind.
     
-8. **Schritt 5: Aktuelle Domäne vorbereiten**
+8. **Schritt 5: Aktuelle Domäne vorbereiten**
     
     a. Überprüfen Sie die Voraussetzungen für Schritt 5.
     
@@ -123,7 +124,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     
     Diese Schritte ausgeführt werden müssen, in jeder Domäne, in dem Skype für Business Server Objekte gefunden werden, andernfalls möglicherweise Dienste, nicht gestartet werden. Dies umfasst alle Active Directory-Objekt, wie Benutzer, Contact-Objekte, administrative Gruppen oder eine andere Art des Objekts. Set-CsUserReplicatorConfiguration - ADDomainNamingContextList können Sie nur die Domänen mit Skype für Business Server-Objekte hinzufügen, falls erforderlich.
     
-9. **Schritt 6: Überprüfen der Replikation in der Domäne**
+9. **Schritt 6: Replikation in der Domäne überprüfen**
     
     a. Klicken Sie auf die **Skype für Business Server-Verwaltungsshell** aus der Seite **Apps** um PowerShell zu starten.
     
@@ -131,7 +132,6 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     
    ```
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
- 
    ```
 
     > [!NOTE]
@@ -141,7 +141,6 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     
    ```
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
-
    ```
 
     > [!NOTE]
@@ -149,7 +148,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
   
     c. Wenn das Ergebnis **LC_DOMAINSETTINGS_STATE_READY**ist, hat die Domäne erfolgreich repliziert.
     
-10. **Schritt 7: Hinzufügen von Benutzern zum administrativen Zugriff auf die Skype Business Server-Systemsteuerung zu ermöglichen.**
+10. **Schritt 7: Benutzer hinzufügen, um den Administratorzugriff auf die Skype for Business Server-Systemsteuerung zu ermöglichen**
     
     a. Melden Sie sich als Mitglied der Gruppe „Domänen-Admins“ oder „RTCUniversalServerAdmins“ an.
     
@@ -162,7 +161,7 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     e. Vergewissern Sie sich, dass die Benutzer oder Gruppen, die von Ihnen gewählten vorhanden sind, auf die Registerkarte **Mitglieder** . Klicken Sie anschließend auf **OK**.
     
     > [!CAUTION]
-    > Die Skype Business Server-Systemsteuerung ist ein rollenbasierten. Mitgliedschaft in der Gruppe CsAdministrator bietet ein Benutzer, der die Skype für Business Server-Systemsteuerung Vollzugriff auf alle verfügbaren Konfigurationsfunktionen verwendet wird. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Informationen zu den verfügbaren Rollen finden Sie unter [umgebungsanforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). Beachten Sie, dass Benutzer nicht für Skype für Business Server aktiviert werden soll, um die Mitglieder der Verwaltungsgruppen vorgenommen werden. 
+    > Die Skype Business Server-Systemsteuerung ist ein rollenbasierten. Mitgliedschaft in der Gruppe CsAdministrator bietet ein Benutzer, der die Skype für Business Server-Systemsteuerung Vollzugriff auf alle verfügbaren Konfigurationsfunktionen verwendet wird. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Informationen zu den verfügbaren Rollen finden Sie unter [umgebungsanforderungen für Skype für Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) oder [Server-Anforderungen für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). Beachten Sie, dass Benutzer nicht für Skype für Business Server aktiviert werden soll, um die Mitglieder der Verwaltungsgruppen vorgenommen werden. 
   
     > [!CAUTION]
     > Um die Aufrechterhaltung von Sicherheit und Integrität der rollenbasierten-Steuerelement, Hinzufügen von Benutzern zu Gruppen, die definieren, welche Rolle der Benutzer bei der Verwaltung der der Skype für Business Server-Bereitstellung ausführt. 
@@ -175,6 +174,5 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
   
 
 ## <a name="see-also"></a>Siehe auch
-
-#### 
-[Active Directory-Domänendienste für Skype für Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)
+ 
+[Active Directory-Domänendienste für Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

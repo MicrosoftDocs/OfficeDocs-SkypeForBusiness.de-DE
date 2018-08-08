@@ -3,7 +3,6 @@ title: Bereitstellen der Verwaltung von Skype Room System V2 mit OMS
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 4/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,11 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie in Microsoft Operations Management Suite mit Weise integrierte, End-to-End-Verwaltung von Skype Raum Systemen v2 Geräte bereitstellen.
-ms.openlocfilehash: 7d8dc8a7e7f5a74c68fbc7bf5ecb98664c2b02ad
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+ms.openlocfilehash: d56b67d17cd66ceaf88a2cbe0b222d4769667c4c
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22109037"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Bereitstellen der Verwaltung von Skype Room System V2 mit OMS
  
@@ -41,13 +41,13 @@ Allgemein müssen Sie die folgenden Aufgaben ausführen:
 7.  [Konfigurieren Sie zusätzliche Vorgänge Management Suite-Lösungen](with-oms.md#Solutions)
 
 > [!IMPORTANT]
-> Obwohl mit minimaler Konfiguration der Vorgänge Management Suite einen Computer mit einem Windows-Betriebssystem überwachen können, sind immer noch einige Systeme spezifisch für Skype Raum Schritte, die Sie vor Beginn der Bereitstellung von Agents für alle Skype Raum Systeme durchführen müssen Geräte.
+> Obwohl mit minimaler Konfiguration der Vorgänge Management Suite einen Computer mit einem Windows-Betriebssystem überwachen können, sind noch einige Skype Raum Systeme v2-spezifische Schritte, die Sie vor Beginn der Bereitstellung von Agents zu allen Skype Raum durchführen müssen Systeme Geräte.
 > Aus diesem Grund empfiehlt es sich, dass Sie in der richtigen Reihenfolge für eine gesteuerte Setup und Konfiguration alle Konfigurationsschritte ausführen. Die Qualität des Ergebnisses End hängt die Qualität der Erstkonfiguration sehr viel.
 
 ## <a name="validate-operations-management-suite-configuration"></a>Überprüfen der Konfiguration des Operations Management Suite
 <a name="validate_OMS"> </a>
 
-Sie benötigen ein Operations Management Suite Workspace zum Erfassen von Protokollen von Skype Raum Systeme Geräten zu starten. Ein Arbeitsbereich ist eine eindeutige Protokoll Analytics-Umgebung mit einem eigenen Daten-Repository, Datenquellen und -Lösungen. Wenn Sie bereits einen vorhandenen Protokoll Analytics Arbeitsbereich haben, Sie es zum Überwachen der bereitstellungs Skype Raum Systeme verwenden oder erstellen muss ein dedizierter Protokoll Analytics Arbeitsbereich speziell können für die Überwachung des Skype Raum Systeme.
+Sie benötigen ein Operations Management Suite Workspace zum Erfassen von Protokollen von Skype Raum Systemen v2 Geräten zu starten. Ein Arbeitsbereich ist eine eindeutige Protokoll Analytics-Umgebung mit einem eigenen Daten-Repository, Datenquellen und -Lösungen. Wenn Sie bereits einen vorhandenen Protokoll Analytics Arbeitsbereich haben, können Sie es zum Überwachen der Skype Raum Systemen v2-bereitstellungs verwenden, oder erstellen muss ein dedizierter Protokoll Analytics Arbeitsbereich speziell für die Überwachung zu Skype Raum Systemen v2.
 
 Wenn Sie ein neues Protokoll Analytics Workspace erstellen müssen, führen Sie die Schritte im Artikel [Erstellen eines Arbeitsbereichs Protokoll Analytics im Azure-portal](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-create-workspace)
 
@@ -55,28 +55,28 @@ Wenn Sie ein neues Protokoll Analytics Workspace erstellen müssen, führen Sie 
 > Um Protokolldateien Analytics mit Operations Management Suite verwenden, müssen Sie ein aktives Azure-Abonnement verfügen. Wenn Sie nicht über ein Azure-Abonnement verfügen, können Sie [eine kostenlose Testversion](https://azure.microsoft.com/free) als Ausgangspunkt erstellen.
 
 
-### <a name="configure-operations-management-suite-to-collect-skype-room-systems-event-logs"></a>Konfigurieren der Vorgänge Management Suite Skype Raum Systeme Ereignisprotokolle erfassen
+### <a name="configure-operations-management-suite-to-collect-skype-room-systems-v2-event-logs"></a>Konfigurieren der Vorgänge Management Suite Skype Raum Systemen v2 Ereignisprotokolle erfassen
 
 Protokoll Analytics sammelt Ereignisse nur aus der Windows-Ereignisprotokolle, die in den Einstellungen angegeben sind. Für jedes Protokoll werden nur die Ereignisse mit der ausgewählten Schweregrade erfasst.
 
-Sie müssen so konfigurieren Sie Vorgänge Management Suite erfassen die Protokolle zum Überwachen des Status von Skype Raum Systemen Geräte- und erforderlich sind. Skype Raum Systemen v2 Geräte verwenden das Ereignisprotokoll Skype Raum Systeme.
+Sie müssen so konfigurieren Sie Vorgänge Management Suite, um die Protokolle erforderlich, um die Überwachung Skype Raum Systemen v2 Geräte- und Status gespeichert. Skype-Chatroom-Systemen v2 Geräten verwenden **Skype Raum** Systemereignisprotokoll.
 
-So konfigurieren Sie Vorgänge Management Suite zum Sammeln der Ereignisse Skype Raum Systeme finden Sie unter [Windows-Ereignisprotokoll-Datenquellen im Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+Vorgänge Management Suite erfassen die Skype Raum Systemen v2 Ereignisse konfigurieren finden Sie in [Windows-Ereignisprotokoll-Datenquellen im Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 ![Ereignisprotokoll-Einstellungen] (../../media/Deploy_OMS_2.png "Ereignisprotokoll-Einstellungen")
 
 
 > [!IMPORTANT]
-> Wählen Sie Skype Raum Systemereignisprotokoll, und wählen Sie dann das Kontrollkästchen **Fehler**, **Warnung**und **Informationen** aus.
+> Wählen Sie **Skype Raum** Systemereignisprotokoll, und wählen Sie dann das Kontrollkästchen **Fehler**, **Warnung**und **Informationen** aus.
 
 ## <a name="configure-test-devices-for-operations-management-suite-setup"></a>Konfigurieren von Testgeräten für Vorgänge Management Suite-setup
 <a name="configure_test_devices"> </a>
 
-Sie müssen vorbereiten Vorgänge Management Suite Skype Raum Systeme-bezogenen Ereignisse überwachen können. Zu, Sie müssen Vorgänge Management Suite Agents nur ein oder zwei Skype Raum Systeme Geräte bereitstellen, dass physische Zugriff auf und die haben Testgeräte einige Daten zu generieren und schieben Sie ihn in den Protokolldateien Analytics Arbeitsbereich.
+Sie müssen vorbereiten Vorgänge Management Suite Skype Raum Systemen v2-bezogenen Ereignisse überwachen können. Zu, Sie müssen Vorgänge Management Suite Agents nur ein oder zwei Skype Raum Systemen v2 Geräte bereitstellen, dass physische Zugriff auf und die haben Testgeräte einige Daten zu generieren und schieben Sie ihn in den Protokolldateien Analytics Arbeitsbereich.
 
 ### <a name="install-operations-management-suite-agents-to-test-devices"></a>Installieren der Operations Management Suite-Agents zum Testen von Geräten
 
-Bereitstellen des Vorgänge Management Suite Agents Testgeräte mithilfe der Anweisungen unter [an den Log Analytics-Dienst in Azure-Computern mit Windows eine Verbindung herstellen](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows). In diesem Artikel erhalten Sie detaillierte Informationen zu den Schritten für die Bereitstellung von Microsoft Monitoring-Agent für Windows, Anweisungen für den Erhalt der Vorgänge Management Suite Workspace-ID und der Primärschlüssel abzurufenden Skype Raum Systeme Geräte mit Ihrem Bereitstellung auf Operations Management Suite und Schritte zum Überprüfen der Agentkonnektivität zu Protokoll Analytics.
+Bereitstellen des Vorgänge Management Suite Agents Testgeräte mithilfe der Anweisungen unter [an den Log Analytics-Dienst in Azure-Computern mit Windows eine Verbindung herstellen](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows). In diesem Artikel erhalten Sie detaillierte Informationen zu den Schritten für die Bereitstellung von Microsoft Monitoring-Agent für Windows, Informationen zum Beziehen der Vorgänge Management Suite *Workspace-ID* und der *Primärschlüssel* für Skype Raum Systemen v2 Geräte erhalten möchten mit Ihrer Bereitstellung Vorgänge Management Suite und Schritte zum Überprüfen der Agentkonnektivität zu Protokoll Analytics verbunden ist.
 
 ### <a name="generate-sample-skype-room-systems-events"></a>Beispiel Skype Raum Systeme Ereignisse generieren
 
@@ -84,19 +84,19 @@ Nachdem der Agent Vorgänge Management Suite auf Testgeräte bereitgestellt wird
 
 1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](http://aka.ms/omsportal).
 
-2.  Die von einem Gerät Skype Raum Systemen generierten Ereignisse aufgelistet:
+2.  Die von einem Skype Raum Systemen v2 Gerät generierten Ereignisse aufgelistet:
     1.  Wechseln Sie auf **Protokoll suchen** und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld.
     2.  Beispielabfrage:`Event | where Source == "SRS-App"`
 
 3.  Stellen Sie sicher, dass die Abfrage Datensätze zurückgibt, die erfolgreiche Heartbeat-Ereignisse umfassen.
 
 4.  Generiert ein Hardwareproblem, und überprüfen Sie, dass die erforderlichen Ereignisse in Operations Management Suite angemeldet sind.
-    1.  Trennen Sie eine der Geräte auf den Test Skype Raum Systeme System. Dies könnte die Kamera, Freisprechtelefon, Mikrofon oder Vordergrund Raum anzeigen
+    1.  Trennen Sie eine der Geräte auf den Test Skype Raum Systemen v2 System. Dies könnte die Kamera, Freisprechtelefon, Mikrofon oder Vordergrund Raum anzeigen
     2.  Warten Sie 10 Minuten für das Ereignisprotokoll in Operations Management Suite aufgefüllt werden.
     3.  Verwenden einer Abfrage zu Liste Hardwareereignisse Fehler:`Event | where EventID == 3001`
 
 5.  Generieren eines Problems Anwendung, und überprüfen Sie, ob die erforderlichen Ereignisse protokolliert werden.
-    1.  Ändern Sie Skype Raum Systeme Anwendungskonfiguration, und geben Sie eine falsche Session Initiation Protocol (SIP) Adresse/Kennwort-Paar.
+    1.  Ändern Sie Skype-Chatroom-Systemen v2 Anwendungskonfiguration, und geben Sie eine falsche Session Initiation Protocol (SIP) Adresse/Kennwort-Paar.
     2.  Warten Sie 10 Minuten für das Ereignisprotokoll in Operations Management Suite aufgefüllt werden.
     3.  Verwenden Sie eine Abfrage Liste Anwendungsereignisse Fehler:`Event | where EventID == 2001`
 
@@ -112,30 +112,31 @@ Gehen Sie folgendermaßen vor, um die benutzerdefinierten Felder aus den aufgeze
 
 1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](http://aka.ms/omsportal).
 
-2.  Die von einem Gerät Skype Raum Systemen generierten Ereignisse aufgelistet:
+2.  Die von einem Skype Raum Systemen v2 Gerät generierten Ereignisse aufgelistet:
     1.  Wechseln Sie auf **Protokoll suchen** und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld.
     2.  Beispielabfrage:`Event | where Source == "SRS-App"`
 
 3.  Wählen Sie einen der Einträge aus, wählen Sie die Schaltfläche auf der linken Seite, und starten Sie im Feld Extraction-Assistent.
 
-![Feld Extraction-Assistent] (../../media/Deploy_OMS_3.png "Feld Extraction-Assistent")
+   ![Feld Extraction-Assistent] (../../media/Deploy_OMS_3.png "Feld Extraction-Assistent")
 
 4.  Markieren Sie die Daten aus der RenderedDescription extrahieren, und geben Sie einen Titel Feld möchten. In Tabelle 1 werden die Namen der Felder, die Sie verwenden sollten, bereitgestellt.
 
-![Definition für ein benutzerdefiniertes Feld] (../../media/Deploy_OMS_4.png "Definition für ein benutzerdefiniertes Feld")
+   ![Definition für ein benutzerdefiniertes Feld] (../../media/Deploy_OMS_4.png "Definition für ein benutzerdefiniertes Feld")
 
-5.  Verwenden Sie die Zuordnungen in Tabelle 1 dargestellt. Vorgänge Management Suite wird automatisch hinzufügen der ** \_CF** Zeichenfolge, die das neue Feld zu definieren.
+5.  Verwenden Sie die Zuordnungen in *Tabelle 1*dargestellt. Vorgänge Management Suite wird automatisch hinzufügen der ** \_CF** Zeichenfolge, die das neue Feld zu definieren.
 
 > [!IMPORTANT]
 > Denken Sie daran, dass alle JSON und Vorgänge Management Suite Felder Groß-/Kleinschreibung beachtet werden.
 
 > Achten Sie auf den Status des Kontrollkästchens EventID, in der folgenden Tabelle können. Stellen Sie sicher, dass Sie den Status dieses Kontrollkästchens für Vorgänge Management Suite zum Extrahieren von benutzerdefinierten Feldwerte erfolgreich zu bestätigen.
+> 
 > ![Definition für ein benutzerdefiniertes Feld] (../../media/Deploy_OMS_5.png "Definition für ein benutzerdefiniertes Feld") 
 
 **Tabelle 1**
 
-| **JSON-Feld**               | **OMS-benutzerdefiniertes Feld**       | **Ereignis-ID** |
-|------------------------------|----------------------------|-----------------|
+| JSON-Feld                   | Benutzerdefiniertes OMS-Feld           | Ereigniskennung        |
+|:-----------------------------|:---------------------------|:----------------|
 | Beschreibung                  | SRSEventDescription_CF     | Nicht aktiviert    |
 | ResourceState                | SRSResourceState_CF        | Nicht aktiviert    |
 | -Parameterwert                | SRSOperationName_CF        | Nicht aktiviert    |
@@ -182,7 +183,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 #### <a name="configure-the-overview-tile"></a>Konfigurieren Sie die Kachel "Übersicht"
 1.  Öffnen Sie **Designer anzeigen**.
 2.  Wählen Sie **Übersicht über die Kachel aus**, und wählen Sie dann aus dem Katalog **zweier Zahlen** .
-3.  Nennen Sie die Kachel **Skype Raum Systeme**.
+3.  Nennen Sie die Kachel **Skype Raum Systemen v2**.
 4.  Definieren Sie die **erste Kachel**:<br>
     **Legende:** Geräte, die einen Takt mindestens einmal innerhalb des letzten Monats gesendet<br>
     **Abfrage:**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
@@ -199,7 +200,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
     **Neue Gruppe:** Ausgewählt
 4.  Definieren Sie die **Kachel** -Eigenschaften:<br>
     **Legende:** Aktive Geräte (Heartbeat gesendet, die in den letzten 20 Minuten)<br>
-    **Kachel Abfrage:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+    **Kachelabfrage: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  Definieren Sie die **Liste** Eigenschaften:<br>
     **Abfrage aufgelistet:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  Definieren Sie **Spaltentitel**:<br>
@@ -216,7 +217,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
     **Neue Gruppe:** Nicht aktiviert
 3.  Definieren Sie die **Kachel** -Eigenschaften:<br>
     **Legende:** Inaktive Geräte (keine Heartbeat-Nachricht gesendet, die in den letzten 20 Minuten)<br>
-    **Kachel Abfrage:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+    **Kachelabfrage: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  Definieren Sie die **Liste** Eigenschaften:<br>
     **Abfrage aufgelistet:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  Definieren Sie **Spaltentitel**:<br>
@@ -230,11 +231,11 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 
 1.  Wählen Sie aus dem Katalog **Anzahl & Liste** aus, und fügen Sie eine neue Tile.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
-    **Gruppieren Titel:** Hardware<br>
+    **Gruppieren Titel:** Hardwarestatus<br>
     **Neue Gruppe:** Ausgewählt
 3.  Definieren Sie die **Kachel** -Eigenschaften:<br>
     **Legende:** Geräte, die in der letzten Stunde einen Hardwarefehler auftraten <br>
-    **Kachel Abfrage:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **Kachelabfrage: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definieren Sie die **Liste** Eigenschaften:<br>
     **Abfrage aufgelistet:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer```
 5.  Definieren Sie **Spaltentitel**:<br>
@@ -244,7 +245,31 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Wählen Sie **anwenden**und dann auf **Schließen**.
 
-### <a name="create-a-tile-that-displays-skype-room-systems-application-versions"></a>Erstellen von Kacheln, die Skype Raum Systeme Anwendungsversionen anzeigt
+### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Erstellen Sie eine Kachel, die Skype Raum Systemen v2 Betriebssystemversionen angezeigt wird.
+
+1.  Wählen Sie aus dem Katalog **rad & Liste** aus, und fügen Sie eine neue Tile.
+2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
+    **Gruppieren Titel:** Einzelheiten zu Syetem <br>
+    **Neue Gruppe:** Ausgewählt
+3.  **Header** -Eigenschaften zu definieren:<br>
+    **Titel:** Versionen des Betriebssystems<br>
+    **Untertitel:** Geräte, auf denen bestimmte Betriebssystemversionen
+4.  Definieren Sie die **Rad** -Eigenschaften:<br>
+    **Abfrage:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **Text zentrieren:** Geräte<br>
+    **Vorgang:** Summe
+5.  Definieren Sie **die Listeneigenschaften** .<br>
+    **Abfrage aufgelistet:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **Ausblenden Diagramm:** Ausgewählt<br>
+    **Sparklines aktivieren:** Nicht aktiviert
+6.  Definieren Sie **Spaltentitel**.<br>
+    **Name:** Anzeigename<br>
+    **Wert:** Leer lassen
+7.  **Navigation Abfrage**definiert.<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  Wählen Sie **anwenden** und dann auf **Schließen**.
+
+### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Erstellen von Kacheln, die Skype Raum Systemen v2 Anwendungsversionen anzeigt
 
 1.  Wählen Sie aus dem Katalog **rad & Liste** aus, und fügen Sie eine neue Tile.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
@@ -276,7 +301,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
     **Neue Gruppe:** Nicht aktiviert
 3.  Definieren Sie die **Kachel** -Eigenschaften.<br>
     **Legende:** Geräte, die in der letzten Stunde einen Anwendungsfehler auftreten<br>
-    **Kachel Abfrage:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **Kachelabfrage: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definieren Sie **die Listeneigenschaften** .<br>
     **Abfrage aufgelistet:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Definieren Sie **Spaltentitel**.<br>
@@ -294,7 +319,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
     **Neue Gruppe:** Nicht aktiviert
 3.  Definieren Sie die **Kachel** -Eigenschaften.<br>
     **Legende:** Geräte, auf dem die Anwendung in den letzten 24 Stunden und die Anzahl an Neustarts neu gestartet wurde<br>
-    **Kachel Abfrage:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+    **Kachelabfrage: ** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definieren Sie **die Listeneigenschaften** .<br>
     **Abfrage aufgelistet:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  Definieren Sie **Spaltentitel**.<br>
@@ -310,7 +335,7 @@ Nachdem Sie Ihre Ansichten erstellen abgeschlossen haben.
 Die Microsoft Operations Management Suite-Portal oder Vorgänge Management Suite mobilen Clients für [Windows Phone](https://www.microsoft.com/en-us/store/p/microsoft-operations-management-suite/9wzdncrfjz2r), [ios-](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859)oder [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) können Sie Ihre Ansichten zugreifen.
 
 ## <a name="configure-alerts-in-operations-management-suite"></a>Konfigurieren von Warnungen in Operations Management Suite
-<a name="Alerts"></a> Ein Skype Raum Systeme beim Gerät ein Problem auftritt, kann Microsoft Operations Management Suite Alarme, um die Administratoren mit den Details des Problems benachrichtigen auslösen.
+<a name="Alerts"></a> Bei einer Skype Raum Systemen v2 Gerät ein Problem auftritt, kann Microsoft Operations Management Suite Alarme, um die Administratoren mit den Details des Problems benachrichtigen auslösen.
 
 Vorgänge Management Suite umfasst eine integrierte Alarm-Mechanismen, die über geplanten Protokoll Suchvorgänge in geplanten Intervallen ausgeführt wird. Wenn die Ergebnisse der Suche Protokoll einige bestimmten Kriterien erfüllen, wird ein Warnung Datensatz erstellt.
 
@@ -324,12 +349,12 @@ Die Regel kann dann automatisch ausführen eine oder mehrere Aktionen zum proakt
 Finden Sie unter [Understanding Warnungen im Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) erfahren Sie mehr über die Warnungen in Operations Management Suite.
 
 > [!NOTE]
-> In den folgenden Beispielen sendet e-Mail-Benachrichtigungen, wenn ein Gerät Skype Raum Systeme ein Hardware oder ein Anwendungsfehler generiert. 
+> In den folgenden Beispielen sendet e-Mail-Benachrichtigungen, wenn ein Skype Raum Systemen v2 Gerät ein Hardware oder ein Anwendungsfehler generiert. 
 
 
-### <a name="configure-an-email-alert-for-skype-room-systems-hardware-issues"></a>Konfigurieren Sie eine e-Mail-Warnung für Hardwareprobleme Skype Raum Systeme
+### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Konfigurieren Sie eine e-Mail-Warnung für Skype Raum Systemen v2 Hardwareprobleme
 
-Konfigurieren Sie eine Warnung Regel, die Geräte Skype Raum Systeme überprüft, die innerhalb der letzten Stunde Hardwareprobleme kommuniziert haben.
+Konfigurieren Sie eine Warnung Regel, die Skype Raum Systemen v2 Geräte überprüft, die innerhalb der letzten Stunde Hardwareprobleme kommuniziert haben.
 1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](http://aka.ms/omsportal).
 
 2.  Wählen Sie die **Log-Suche**.
@@ -346,21 +371,21 @@ Konfigurieren Sie eine Warnung Regel, die Geräte Skype Raum Systeme überprüft
 4.  Nachdem die Abfrage ausgeführt wird, wählen Sie **Alert**. Die Seite **Warnungsregel hinzufügen** wird geöffnet.
 
 5.  Konfigurieren von Benachrichtigungseinstellungen mit den folgenden Informationen:<br>
-    **Regelname:** Skype-Raum Systeme Hardware Fehler Benachrichtigung<br>
+    **Regelname:** Skype-Raum Systemen v2 Hardware Fehler Benachrichtigung<br>
     **Beschreibung:** Liste der Geräte, die innerhalb der letzten Stunde ein Hardwareproblem aufgetreten ist<br>
     **Schweregrad:** Wichtige<br>
     **Abfrage:** Verwenden Sie die vorab aufgefüllten Search-Abfrage<br>
     **Zeitfenster:** 1 Stunde<br>
     **Benachrichtigungshäufigkeit:** 1 Stunde<br>
     **Anzahl der Ergebnisse:** Größer als 0<br>
-    **E-Mail-Betreff:** Skype-Raum Systeme Hardware Fehler Benachrichtigung<br>
+    **E-Mail-Betreff:** Skype-Raum Systemen v2 Hardware Fehler Benachrichtigung<br>
     **Empfänger:** Schließen Sie die e-Mail-Adressen mit Semikolons als Trennzeichen ein<br>
 
 6.  Wählen Sie **Speichern**aus.
 
-### <a name="configure-an-email-alert-for-skype-room-systems-application-issues"></a>Konfigurieren Sie eine e-Mail-Benachrichtigung bei Problemen mit Skype Raum Systeme
+### <a name="configure-an-email-alert-for-skype-room-systems-v2-application-issues"></a>Konfigurieren Sie eine e-Mail-Benachrichtigung bei Problemen mit Skype Raum Systemen v2
 
-Konfigurieren Sie eine Warnung Regel, die für Geräte Skype Raum Systeme überprüft, die Anwendungsprobleme innerhalb der letzten Stunde kommuniziert haben.
+Konfigurieren Sie eine Regel, die für Skype Raum Systeme v2 Geräte überprüft, die Anwendungsprobleme innerhalb der letzten Stunde kommuniziert haben.
 1.  Wählen Sie die **Log-Suche**.
 
 2.  Geben Sie die folgende Abfrage aus, und wählen Sie dann auf **Ausführen**.<br>
@@ -375,14 +400,14 @@ Konfigurieren Sie eine Warnung Regel, die für Geräte Skype Raum Systeme überp
 3.  Nachdem die Abfrage ausgeführt wird, wählen Sie **Alert**. Die Seite **Warnungsregel hinzufügen** wird geöffnet.
 
 4.  Konfigurieren von Benachrichtigungseinstellungen mit den folgenden Informationen:<br>
-    **Regelname:** Skype-Raum Systeme Anwendung Fehler Benachrichtigung<br>
+    **Regelname:** Skype-Raum Systemen v2 Anwendung Fehler Benachrichtigung<br>
     **Beschreibung:** Liste der Geräte, die innerhalb der letzten Stunde ein Application-Problem aufgetreten ist<br>
     **Schweregrad:** Wichtige<br>
     **Abfrage:** Verwenden Sie die vorab aufgefüllten Search-Abfrage<br>
     **Zeitfenster:** 1 Stunde<br>
     **Benachrichtigungshäufigkeit:** 1 Stunde<br>
     **Anzahl der Ergebnisse:** Größer als 0<br>
-    **E-Mail-Betreff:** Skype-Raum Systeme Anwendung Fehler Benachrichtigung<br>
+    **E-Mail-Betreff:** Skype-Raum Systemen v2 Anwendung Fehler Benachrichtigung<br>
     **Empfänger:** Schließen Sie die e-Mail-Adressen mit Semikolons als Trennzeichen ein
 
 5.  Wählen Sie **Speichern**aus.
@@ -401,15 +426,15 @@ Sie verwenden eine Seite Benachrichtigungseinstellungen Ändern einer vorhandene
 > Sie müssen möglicherweise mithilfe das Azure Portal hinzufügen oder ändern Vorgänge Management Suite Benachrichtigungen, wenn Vorgänge Management Suite Arbeitsbereich Vorgänge Management Suite Benachrichtigungen in Azure erweitern konfiguriert ist. Weitere Informationen finden Sie unter [Extend-Benachrichtigungen vom OMS-Portal in Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-alerts-extend).
 
 ## <a name="configure-all-devices-for-operations-management-suite"></a>Konfigurieren Sie aller Geräte für Vorgänge Management Suite
-<a name="configure_all_devices"></a> Nachdem Dashboards und Benachrichtigungen konfiguriert sind, können Sie einrichten und Konfigurieren von Agents Vorgänge Management Suite auf allen Geräten von Skype Raum Systeme zum Abschluss der bereitstellungs von monitoring.
+<a name="configure_all_devices"></a> Nachdem Dashboards und Benachrichtigungen konfiguriert sind, können Sie einrichten und Konfigurieren von Agents Vorgänge Management Suite auf allen Skype Raum Systemen v2 Geräten zum Abschluss der bereitstellungs von monitoring.
 
 Obwohl Sie installieren und die Vorgänge Management Suite-Agents auf jedem Gerät manuell konfigurieren können, empfiehlt es sich, dass Sie vorhandene Bereitstellung Softwaretools und Methoden nutzen.
 
-Wenn Sie Ihre Geräte Skype Raum Systeme zum ersten Mal erstellen, möchten Sie möglicherweise die Vorgänge Management Suite-Agent-Setup und Konfiguration Schritte im Rahmen des Buildprozesses enthalten. Weitere Informationen finden Sie unter [Installieren des Agents über die Befehlszeile](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).
+Wenn Sie Ihre Skype Raum Systemen v2 Geräte zum ersten Mal erstellen, möchten Sie möglicherweise die Vorgänge Management Suite-Agent-Setup und Konfiguration Schritte im Rahmen des Buildprozesses enthalten. Weitere Informationen finden Sie unter [Installieren des Agents über die Befehlszeile](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).
 
 ### <a name="deploying-operations-management-suite-agents-by-using-a-group-policy-object"></a>Bereitstellen von Operationen Management Suite-Agents mithilfe eines Gruppenrichtlinienobjekts
 
-Wenn Sie Ihre Geräte Skype Raum Systemen bereits vor der Implementierung von Operations Management Suite bereitgestellt, können Sie die bereitgestellten Skripts zum Einrichten und konfigurieren die Agents mithilfe von Gruppenrichtlinien für Active Directory.
+Wenn Sie vor der Implementierung von Operations Management Suite bereits Skype Raum Systemen v2 Geräte bereitgestellt, können Sie die bereitgestellten Skripts zum Einrichten und konfigurieren die Agents mithilfe von Gruppenrichtlinien für Active Directory.
 
 1.  Erstellen Sie einen freigegebenen Netzwerkpfad, und erteilen Sie der Gruppe " **Domänencomputer** ".
 
@@ -419,7 +444,7 @@ Wenn Sie Ihre Geräte Skype Raum Systemen bereits vor der Implementierung von Op
     1.  Öffnen Sie ein Eingabeaufforderungsfenster, und führen Sie die **MMASetup-AMD64.exe/c**
     2.  Geben Sie die Freigabe, die Sie gerade erstellt haben, und extrahieren Sie den Inhalt.
 
-4.  Erstellen eines neuen Gruppenrichtlinienobjekts, und weisen Sie es mit der Organisationseinheit, in dem Skype Raum Systeme Konten auf dem Computer gespeichert sind.
+4.  Erstellen eines neuen Gruppenrichtlinienobjekts, und weisen Sie es mit der Organisationseinheit, in dem Skype Raum Systemen v2 Konten auf dem Computer gespeichert sind.
 
 5.  PowerShell-Ausführungsrichtlinie zu konfigurieren:
     1.  Das neu erstellte Gruppenrichtlinienobjekt bearbeiten, und navigieren Sie zu Computerkonfiguration \\ Richtlinien \\ Administrative Vorlagen \\ Windows-Komponenten \\ Windows PowerShell
@@ -434,7 +459,7 @@ Wenn Sie Ihre Geräte Skype Raum Systemen bereits vor der Implementierung von Op
     6.  Wählen Sie **Hinzufügen**und dann auf **Durchsuchen**.
     7.  Wählen Sie das ps1-Skript, die, das Sie soeben kopiert.
 
-7.  Skype Raum Systeme Geräte sollten installieren und konfigurieren den Microsoft-Monitoring-Agent mit der zweiten Neustart.
+7.  Skype Raum Systemen v2 Geräte sollten installieren und konfigurieren den Microsoft-Monitoring-Agent mit der zweiten Neustart.
 
 
     ```
@@ -495,7 +520,6 @@ Vorgänge Management Suite bietet integrierte Lösungen über seine [Lösungskat
 
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-[Planen der Verwaltung von Skype Raum Systemen v2 mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[Planen der Verwaltung von Skype Room System V2 mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[Verwalten von Skype Raum Systemen v2 Geräte mit OMS](../../manage/skype-room-systems-v2/oms.md)
+[Verwalten von Skype Room Systems v2-Geräten mit OMS](../../manage/skype-room-systems-v2/oms.md)

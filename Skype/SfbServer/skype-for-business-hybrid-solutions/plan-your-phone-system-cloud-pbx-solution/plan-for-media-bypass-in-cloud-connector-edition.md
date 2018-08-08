@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lesen Sie dieses Thema, um die Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen von Medien zu umgehen Sie, finden Sie unter Deploy Medien in der Cloud Connector Edition umgehen.
-ms.openlocfilehash: a2dfca68d7bfe02ae0701dc13d76bc24121a1cb8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 70c7f8721386c3ef0270e7ef938624a70184b942
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967136"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der Medienumgehung in Cloud Connector Edition
  
@@ -35,7 +36,7 @@ Während die Signalisierung mit und ohne Medienumgehung dem gleichen Pfad folgt,
   
 Beispielsweise in der folgenden Topologie – die nicht beschäftigen medienumgehung – eine Skype für Business Client platziert einen PSTN-Anruf an eine externe Nummer, die SIP-Signale wechselt zu Office 365 und Office 365 leitet die signaldatenverkehr entsprechend der Endbenutzer VoIP Richtlinie. Für Benutzer von Cloud-Connector weist die VoIP-Richtlinie signaldatenverkehr mit dem Cloud Connector-Edgeserver, die die signaldatenverkehr dann an eine PSTN Session Border Controller (SBC) oder über die Cloud Connector Mediation-Server-Gateway weitergeleitet. Die Medien werden übertragen aus der Skype für Business-Client zum Vermittlungsserver Cloud-Connector, und klicken Sie dann auf den SBC oder Gateway, wie im folgenden Diagramm dargestellt:
   
-**Medien- und signaldatenverkehr ohne Media umgehen**
+**Medien- und Signalisierungspfade ohne Medienumgehung**
 
 ![Signalisierung ohne Medienumgehung](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
@@ -43,7 +44,7 @@ Ein eingehender Anruf aus dem PSTN verwendet den gleichen Signalisierungspfad in
   
 In der nächsten Topologie – die beschäftigen medienumgehung – Signale denselben Pfad dauert, aber die Medien werden direkt zwischen den Skype für Business-Client und die SBC oder Gateway, übertragen, wie im folgenden Diagramm dargestellt:
   
-**Medien- und signaldatenverkehr mit Medien umgehen**
+**Medien- und Signalisierungspfade mit Medienumgehung**
 
 ![Signalisierung mit Medienumgehung](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
@@ -78,7 +79,7 @@ Die erste Version von medienumgehung, ist der einzige unterstützte Client die S
   
 Weitere Informationen zu den Kanälen Version finden Sie unter [Übersicht über die Update-Kanäle für Office 365 ProPlus](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Die aktuelle Version Version der Clients in unterschiedliche Kanäle finden Sie unter [Office 365-Client Channel Versionen aktualisieren](https://technet.microsoft.com/en-us/office/mt465751.aspx). 
+Die aktuelle Version Version der Clients in unterschiedliche Kanäle finden Sie unter [Freigeben von Informationen nach Updates für Office 365 ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Kapazitätsüberlegungen für Cloud Connector mit Medienumgehung
 
@@ -111,7 +112,4 @@ Bei aktivierter Medienumgehung wird für den Mediendatenverkehr zwischen einem C
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Die medienumgehung in der Cloud Connector Edition bereitstellen](deploy-media-bypass-in-cloud-connector.md)
-

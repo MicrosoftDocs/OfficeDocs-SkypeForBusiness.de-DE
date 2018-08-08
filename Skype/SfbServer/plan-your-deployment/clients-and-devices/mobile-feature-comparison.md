@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 'Zusammenfassung: Überprüfen Sie die featureunterstützung für den mobilen Client beim Planen von Skype für Business Server 2015.'
-ms.openlocfilehash: 3ec2662915b72993de41b2398355bb4010810b3d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Überprüfen Sie die featureunterstützung für den mobilen Client beim Planen von Skype für Business Server.'
+ms.openlocfilehash: f773062744afeb97ddcd4f5e92b37ac534f05828
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223806"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Mobiler Client Featurevergleich für Skype für Unternehmen
  
-**Zusammenfassung:** Überprüfen Sie die featureunterstützung für den mobilen Client beim Planen von Skype für Business Server 2015.
+**Zusammenfassung:** Überprüfen Sie die featureunterstützung für den mobilen Client beim Planen von Skype für Business Server.
   
 In diesem Artikel werden die Features und Fähigkeiten Skype für mobile Clients Business und die Skype für Business-Desktopclient in den folgenden Kategorien verglichen:
   
@@ -46,13 +47,16 @@ In diesem Artikel werden die Features und Fähigkeiten Skype für mobile Clients
     
 -  Moderne Authentifizierung
     
-In den folgenden Tabellen sind die Features, die Skype für Benutzer in einer lokalen Bereitstellung von Skype für Business Server 2015 Unternehmen zur Verfügung stehen. Die gleichen Funktionen stehen auch Skype für Business Online und Microsoft Office 365-Benutzer, sofern nicht anders in den Fußnoten zur Tabelle angegeben.
+In den folgenden Tabellen sind die Features, die Skype für Unternehmensbenutzer in einer lokalen Bereitstellung von Skype für Business Server zur Verfügung stehen. Die gleichen Funktionen stehen auch Skype für Business Online und Microsoft Office 365-Benutzer, sofern nicht anders in den Fußnoten zur Tabelle angegeben.
   
 > [!NOTE]
 > Online-Hilfe und Ressourcen für Endbenutzer finden Sie unter [Skype für Unternehmen erkennen](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
 > Um die in anderen Skype verfügbaren Features für Business-Clients zu vergleichen, finden Sie unter [Desktopclient Featurevergleich für Skype für Unternehmen](desktop-feature-comparison.md). 
+
+> [!NOTE]
+> Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>Anmeldung, Pushbenachrichtigungen und allgemeine Funktionen
 
@@ -96,7 +100,7 @@ Auf iOS-Geräten erfolgt eine automatische Skype für Unternehmen Abmeldung nach
 ## <a name="contacts-and-contact-groups-support"></a>Unterstützung von Kontakten und Kontaktgruppen
 
 
- | Feature/Funktion  | Skype für Business Lync 2013-desktop-client  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype für Business-Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Kontaktliste anzeigen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Kontaktgruppen anzeigen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -166,7 +170,7 @@ Auf iOS-Geräten erfolgt eine automatische Skype für Unternehmen Abmeldung nach
 |In Besprechungsliste navigieren  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Teilnehmen an einer Besprechung, auch wenn Sie nicht über einen Skype für Business-Konto verfügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Anzeigen weiterer Informationen zu Besprechungsteilnehmern  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Starten einer ungeplanten Gruppenunterhaltung mit mehreren Teilnehmern direkt vom Client oder Gerät   <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Starten einer ungeplanten Gruppenunterhaltung mit mehreren Teilnehmern direkt vom Client oder Gerät   <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
    
  & #x 2776;  Für Office 365-Benutzer erfordert dieses Feature Enterprise-VoIP, das Teil der Lizenz E5 ist.
   
@@ -191,7 +195,7 @@ Auf iOS-Geräten erfolgt eine automatische Skype für Unternehmen Abmeldung nach
 |Auf Voicemail zugreifen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
 |Verwenden der Tastatur in Skype für Unternehmen  <br/> |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||
    
- & #x 2776;  Skype für Business Online und/oder Office 365 E5 Benutzer zur und Benutzer verwaltet auf Skype für Business Server 2015 oder Lync 2013 mit Enterprise-VoIP aktiviert.
+ & #x 2776;  Skype für Business Online und/oder Office 365 E5 Benutzer zur und Benutzer verwaltet auf Skype für Business Server oder Lync Server 2013 mit Enterprise-VoIP aktiviert.
   
  & #x 2777;  Bei Skype für Business Online und/oder Office 365-Benutzer wird dieses Feature von Microsoft-Partnern unterstützt.
   

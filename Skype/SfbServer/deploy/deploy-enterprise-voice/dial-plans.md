@@ -1,9 +1,8 @@
 ---
-title: Erstellen oder Ändern eines Wählplans in Skype for Business Server 2015
+title: Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Zusammenfassung: Informationen Sie zum Erstellen oder Ändern von Wähleinstellungen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 9ded641ead3aef5cb6b42b27ca06da34ba9133c6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: cafaeaa2813586e7e3cd15827745703685148d08
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501063"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980008"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server-2015"></a>Erstellen oder Ändern eines Wählplans in Skype for Business Server 2015
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server
  
 **Zusammenfassung:** Informationen Sie zum Erstellen oder Ändern von Wähleinstellungen mithilfe der Skype für Business Server-Systemsteuerung.
   
@@ -68,7 +67,7 @@ ms.locfileid: "19501063"
     
     - Um eine oder mehrere Regeln aus einer Liste von alle verfügbaren in Ihrer Bereitstellung von Enterprise-VoIP-Normalisierungsregeln auszuwählen, klicken Sie auf **auswählen**. Klicken Sie im Dialogfeld **Normalisierungsregeln auswählen** auf die Regeln, die Sie dem Wählplan zuordnen möchten und klicken Sie anschließend auf **OK**.
     
-   - Klicken Sie auf **Neu**, um eine neue Normalisierungsregel zu definieren und dem Wählplan zuzuordnen. Ausführliche Informationen zum Definieren einer neuen Regel finden Sie unter [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business 2015](normalization-rules.md).
+   - Klicken Sie auf **Neu**, um eine neue Normalisierungsregel zu definieren und dem Wählplan zuzuordnen. Ausführliche Informationen zum Definieren einer neuen Regel finden Sie unter [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business](normalization-rules.md).
     
    - Klicken Sie auf den Regelnamen und anschließend auf **Details einblenden**, um eine Normalisierungsregel zu bearbeiten, die bereits dem Wählplan zugeordnet ist. 
     
@@ -77,7 +76,7 @@ ms.locfileid: "19501063"
    - Wenn Sie eine Normalisierungsregel aus dem Wählplan entfernen möchten, markieren Sie den Regelnamen und klicken Sie auf **Entfernen**.
     
      > [!NOTE]
-     > Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein. Informationen dazu, wie Sie alle Normalisierungsregeln Einwahl bestimmen Plan erfordert, finden Sie unter [Plan für ausgehende VoIP-routing in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in der Planungsdokumentation.
+     > Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein. Informationen dazu, wie Sie alle Normalisierungsregeln Einwahl bestimmen Plan erfordert, finden Sie unter [Plan für ausgehende VoIP-routing in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in der Planungsdokumentation.
   
 10. Stellen Sie sicher, dass die Wähleinstellungen Normalisierungsregeln in der richtigen Reihenfolge angeordnet sind. Um eine Regel Position in der Liste zu ändern, markieren Sie den Namen der Regel und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
     
@@ -91,7 +90,7 @@ ms.locfileid: "19501063"
 13. Klicken Sie auf der Seite **Wählplan** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**. 
     
     > [!NOTE]
-    > Jedes Mal, wenn Sie einen Wählplan erstellen, müssen Sie den Befehl **Commit für alle Elemente ausführen** aufrufen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie einen Wählplan erstellen, müssen Sie den Befehl **Commit für alle Elemente ausführen** aufrufen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
 ### <a name="to-modify-a-dial-plan"></a>So ändern Sie einen Satz mit Wähleinstellungen
 
@@ -127,7 +126,7 @@ ms.locfileid: "19501063"
     
    - Um eine oder mehrere Regeln aus einer Liste von alle verfügbaren in Ihrer Bereitstellung von Enterprise-VoIP-Normalisierungsregeln auszuwählen, klicken Sie auf **auswählen**. Klicken Sie im Dialogfeld **Normalisierungsregeln auswählen** auf die Regeln, die Sie den Wähleinstellungen zuordnen möchten und klicken Sie anschließend auf **OK**.
     
-   - Klicken Sie auf **Neu**, um eine neue Normalisierungsregel zu definieren und dem Wählplan zuzuordnen. Ausführliche Informationen zum Definieren einer neuen Regel finden Sie unter [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business 2015](normalization-rules.md).
+   - Klicken Sie auf **Neu**, um eine neue Normalisierungsregel zu definieren und dem Wählplan zuzuordnen. Ausführliche Informationen zum Definieren einer neuen Regel finden Sie unter [Erstellen oder Ändern einer Normalisierungsregel in Skype für Business](normalization-rules.md).
     
    - Klicken Sie auf den Regelnamen und anschließend auf **Details einblenden**, um eine Normalisierungsregel zu bearbeiten, die bereits dem Wählplan zugeordnet ist. 
     
@@ -136,7 +135,7 @@ ms.locfileid: "19501063"
    - Wenn Sie eine Normalisierungsregel aus dem Wählplan entfernen möchten, markieren Sie den Regelnamen und klicken Sie auf **Entfernen**.
     
     > [!NOTE]
-    > Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein. Weitere Informationen dazu, wie Sie alle Normalisierungsregeln Einwahl bestimmen Plan erfordert, finden Sie unter [Plan für ausgehende VoIP-routing in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in der Planungsdokumentation.
+    > Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein. Weitere Informationen dazu, wie Sie alle Normalisierungsregeln Einwahl bestimmen Plan erfordert, finden Sie unter [Plan für ausgehende VoIP-routing in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in der Planungsdokumentation.
   
 10. Stellen Sie sicher, dass die Wähleinstellungen Normalisierungsregeln in der richtigen Reihenfolge angeordnet sind. Um eine Regel Position in der Liste zu ändern, markieren Sie den Namen der Regel und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
     
@@ -153,8 +152,9 @@ ms.locfileid: "19501063"
 13. Klicken Sie auf der Seite **Wählplan** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**. 
     
     > [!NOTE]
-    > Jedes Mal, wenn Sie einen Wählplan erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie einen Wählplan erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md)
+[Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md)
+

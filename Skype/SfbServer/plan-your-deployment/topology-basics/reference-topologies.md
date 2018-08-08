@@ -1,9 +1,8 @@
 ---
-title: Referenztopologien für Skype for Business Server 2015
+title: Referenztopologien für Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Referenztopologien für Skype für Business Server, einschließlich Diagramme und Entscheidungen für große, mittlerer und kleine Unternehmen.
-ms.openlocfilehash: 006f83b51eed18e008badc00fba88e4d4c3d436a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 284fd37a6f9d65bae5e5e90695db851e66af6cfc
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21710834"
 ---
-# <a name="reference-topologies-for-skype-for-business-server-2015"></a>Referenztopologien für Skype for Business Server 2015
+# <a name="reference-topologies-for-skype-for-business-server"></a>Referenztopologien für Skype für Business Server
  
 Referenztopologien für Skype für Business Server, einschließlich Diagramme und Entscheidungen für große, mittlerer und kleine Unternehmen.
   
@@ -32,11 +32,11 @@ In diesem Abschnitt werden drei Beispiele für Referenztopologien sowie die Grü
 
 Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine robuste, hochverfügbare Lösung bereitstellen können, durch die Bereitstellung von lediglich drei Servern mit Skype für Business Server.
   
-**Referenztopologie für kleine Unternehmen**
+**Referenztopologie für kleine Organisationen**
 
 ![Referenztopologie mit drei Servern (Diagramm)](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
   
-- **Paar von Standard Edition-Server bereitgestellt** Diese Organisation umfasst 4.000 Benutzer an ihrem zentralen Standort. Sie haben zwei Standard Edition-Server bereitgestellt und miteinander zusammen, um hohe Verfügbarkeit und notfallwiederherstellung zu aktivieren. Jeder Server hostet 2.000 Benutzer, die Informationen zu allen Benutzern werden aber zwischen den beiden Servern synchronisiert. Fällt ein Server aus, kann ein Administrator ein Failover für die entsprechenden Benutzer ausführen, sodass sie mit minimaler Unterbrechung vom anderen Server gehostet werden. Weitere Informationen zu hoher Verfügbarkeit und Disaster Recovery-Funktionen in Skype für Business Server finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+- **Paar von Standard Edition-Server bereitgestellt** Diese Organisation umfasst 4.000 Benutzer an ihrem zentralen Standort. Sie haben zwei Standard Edition-Server bereitgestellt und miteinander zusammen, um hohe Verfügbarkeit und notfallwiederherstellung zu aktivieren. Jeder Server hostet 2.000 Benutzer, die Informationen zu allen Benutzern werden aber zwischen den beiden Servern synchronisiert. Fällt ein Server aus, kann ein Administrator ein Failover für die entsprechenden Benutzer ausführen, sodass sie mit minimaler Unterbrechung vom anderen Server gehostet werden. Weitere Informationen zu hoher Verfügbarkeit und Disaster Recovery-Funktionen in Skype für Business Server finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
     
 - **Empfehlung der Bereitstellung eines Edgeservers.** Auch wenn die Bereitstellung eines Edgeservers für interne Chats, für Anwesenheitsinformationen und für Konferenzen nicht erforderlich ist, wird sie selbst für kleine Bereitstellungen empfohlen. Sie können Ihre Skype für Business Server Investition durch Bereitstellen eines Edgeservers zum Bereitstellen von Service für Benutzer außerhalb der Firewalls der Organisation derzeit maximieren. Dies bietet folgende Vorteile:
     
@@ -48,7 +48,7 @@ Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine robuste, ho
     
   - Ihre Benutzer können Chatnachrichten mit Benutzern von bestimmten öffentlichen Chatdiensten austauschen.
     
-- **Ausfallsicherheit für Zweigstellen.** Diese Organisation ist ein Pilotprogramm des Enterprise-VoIP-Features von Skype für Business Server ausgeführt. Einige Benutzer verwenden Skype für Business Server als die alleinige VoIP-Lösung. Einige dieser pilot Enterprise-VoIP-Benutzer befinden sich am Zweigstellenstandort. Zweigstellenstandort hat keinen die Verbindung eine zuverlässige wide Area Network (WAN) am zentralen Standort, sodass es eine Survivable Branch Appliance bereitgestellt wird. Dank der Survivable Branch-Anwendung können die Benutzer in der Zweigstelle bei Ausfall der WAN-Verbindung weiterhin Anrufe tätigen und entgegennehmen (sowohl innerhalb der Organisation als auch über das Festnetz), die Voicemailfunktion nutzen und per Chat kommunizieren. Benutzer können darüber hinaus auch dann authentifiziert werden, wenn die WAN-Verbindung nicht verfügbar ist. Weitere Informationen finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Ausfallsicherheit für Zweigstellen.** Diese Organisation ist ein Pilotprogramm des Enterprise-VoIP-Features von Skype für Business Server ausgeführt. Einige Benutzer verwenden Skype für Business Server als die alleinige VoIP-Lösung. Einige dieser pilot Enterprise-VoIP-Benutzer befinden sich am Zweigstellenstandort. Zweigstellenstandort hat keinen die Verbindung eine zuverlässige wide Area Network (WAN) am zentralen Standort, sodass es eine Survivable Branch Appliance bereitgestellt wird. Dank der Survivable Branch-Anwendung können die Benutzer in der Zweigstelle bei Ausfall der WAN-Verbindung weiterhin Anrufe tätigen und entgegennehmen (sowohl innerhalb der Organisation als auch über das Festnetz), die Voicemailfunktion nutzen und per Chat kommunizieren. Benutzer können darüber hinaus auch dann authentifiziert werden, wenn die WAN-Verbindung nicht verfügbar ist. Weitere Informationen finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **Exchange UM-Bereitstellung.** Dieser Referenztopologie enthält einen Exchange Unified Messaging (UM)-Server, der Microsoft Exchange Server nicht Skype für Business Server ausgeführt wird.
     
@@ -58,7 +58,7 @@ Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine robuste, ho
 
 Die Referenztopologie mit hoher Verfügbarkeit und einem einzelnen Rechenzentrum ist auf kleine bis mittelständische Organisationen mit einem zentralen Standort zugeschnitten. Die im folgenden Diagramm gezeigte exakte Topologie ist auf 20.000 Benutzer ausgelegt. 
   
-**Referenztopologie für mittelständische Unternehmen**
+**Referenztopologie für mittelständige Organisationen**
 
 ![Referenztopologie für ein einziges Rechenzentrum (Diagramm)](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
   
@@ -76,7 +76,7 @@ Die Referenztopologie mit hoher Verfügbarkeit und einem einzelnen Rechenzentrum
     
 - **Hohe Verfügbarkeit für Edge-Server** In diesem Beispiel-Organisation mit 20.000 Benutzern wäre nur ein Edge-Server für die Leistung ausreichend. Es wird aber ein Pool mit zwei Edgeservern bereitgestellt, um hohe Verfügbarkeit sicherzustellen.
     
-- **Optionen für Bereitstellungen an Zweigstellen.** Die Organisation in dieser Topologie verfügt über Enterprise-VoIP, die als ihre VoIP-Lösung bereitgestellt. Zweigniederlassung 1 hat keinen Link eine ausfallsichere WAN-Netzwerk (WAN) am zentralen Standort, dies ist eine Survivable Branch Appliance bereitgestellt, um zu gewährleisten, dass viele Skype für Business Server-Features für den Fall, dass die WAN-Verbindung zum zentralen Standort ausfällt. Zweigstelle 2 verfügt über eine ausfallsichere WAN-Verbindung, daher wird nur ein PSTN-Gateway benötigt. Das bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird in Zweigstelle 2 kein Vermittlungsserver benötigt. Weitere Informationen finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Optionen für Bereitstellungen an Zweigstellen.** Die Organisation in dieser Topologie verfügt über Enterprise-VoIP, die als ihre VoIP-Lösung bereitgestellt. Zweigniederlassung 1 hat keinen Link eine ausfallsichere WAN-Netzwerk (WAN) am zentralen Standort, dies ist eine Survivable Branch Appliance bereitgestellt, um zu gewährleisten, dass viele Skype für Business Server-Features für den Fall, dass die WAN-Verbindung zum zentralen Standort ausfällt. Zweigstelle 2 verfügt über eine ausfallsichere WAN-Verbindung, daher wird nur ein PSTN-Gateway benötigt. Das bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird in Zweigstelle 2 kein Vermittlungsserver benötigt. Weitere Informationen finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **DNS-Lastenausgleich.** Der Front-End-Pool und der Edgeserver-Pool wurden zum DNS-Lastenausgleich für SIP-Datenverkehr konfiguriert. Auf diese Weise sind keine Hardwaregeräte zum Lastenausgleich für die Edgeserver erforderlich und Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools werden erheblich vereinfacht, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Weitere Informationen finden Sie unter (... /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
     
@@ -96,25 +96,25 @@ Zusätzlich zu den hohe Verfügbarkeit von Pools von Front-End-Servern bereitges
   
 Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen Überblick, gefolgt von detaillierten Ansichten der zentralen Standorte.
   
-**Übersicht über die Referenztopologie für große Organisationen mit mehreren Rechenzentren**
+**Überblick über die Referenztopologie für große Organisationen mit mehreren Rechenzentren**
 
 ![Referenztopologie für mehrere Rechenzentren](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
   
-**Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts A**
+**Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts A**
 
 ![Topologie 3-2](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
   
-**Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts B**
+**Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts B**
 
 ![Topologie 3-3](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
   
-**Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts C**
+**Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts C**
 
 ![Topologie 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
   
-- **Front-End-Pools sind zum Aktivieren von Disaster Recovery verbunden.** Der Front-End-Pools an Standort A und Standort B sind miteinander, Disaster Recovery in der Unterstützung von verbunden. Wenn der Pool an einem Standort ein Fehler auftritt, kann die Benutzer von dieser Site auf den paired Front-End-Pool am anderen Standort mit mindestens Unterbrechung des Dienstes für Benutzer der Administrator Failover. Jeder dieser beiden Front-End-Pools hat sechs Server, was ausreicht, um alle 40.000 Benutzer beider Pools im Fall eines Failovers zu unterstützen. Weitere Informationen finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+- **Front-End-Pools sind zum Aktivieren von Disaster Recovery verbunden.** Der Front-End-Pools an Standort A und Standort B sind miteinander, Disaster Recovery in der Unterstützung von verbunden. Wenn der Pool an einem Standort ein Fehler auftritt, kann die Benutzer von dieser Site auf den paired Front-End-Pool am anderen Standort mit mindestens Unterbrechung des Dienstes für Benutzer der Administrator Failover. Jeder dieser beiden Front-End-Pools hat sechs Server, was ausreicht, um alle 40.000 Benutzer beider Pools im Fall eines Failovers zu unterstützen. Weitere Informationen finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
     
-- **Back-End-Servern werden gespiegelt.** Um weitere hohe Verfügbarkeit für Standardbenutzer Features bereitzustellen, hat die Organisation zwei gespiegelten Back-End-Servern für jeden Front-End-Pool bereitgestellt. Dies ist eine optionale Topologie und können Sie festlegen, stattdessen einen einzelnen Back End-Server bereitstellen. SQL-clustering und AlwaysOn Availability Groups werden ebenfalls unterstützt. Weitere Informationen finden Sie unter [hohe Verfügbarkeit von Back-End-Server in Skype für Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+- **Back-End-Servern werden gespiegelt.** Um weitere hohe Verfügbarkeit für Standardbenutzer Features bereitzustellen, hat die Organisation zwei gespiegelten Back-End-Servern für jeden Front-End-Pool bereitgestellt. Dies ist eine optionale Topologie und können Sie festlegen, stattdessen einen einzelnen Back End-Server bereitstellen. SQL-clustering und AlwaysOn Availability Groups werden ebenfalls unterstützt. Weitere Informationen finden Sie unter [hohe Verfügbarkeit von Back-End-Server in Skype für Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
     
 - **Verwenden von Standard Edition-Server an einem Zweigstellenstandort.** Diese Organisation stuft Standort C als Zweigstelle ein, da er nur 600 Mitarbeiter umfasst. Die dortigen Benutzer halten aber untereinander viele A/V-Konferenzen ab. Wenn es in Skype für Business Server als Branch-Website bereitgestellt wurde, führen die Medien für diesen Konferenzen über das WAN-Netzwerk (WAN) zu und von einem zentralen Standort, der einem Front-End-Server bereitgestellt wurde. Um diese potenziellen Auslastung der Bandbreite zu vermeiden, haben sie ein Paar von Standard Edition-Servern an diesem Standort installiert, die diese Konferenzen gehostet wird. Und da Standard Edition-Server installiert sind, Skype für Business Server per Definition hält es einem zentralen Standort und als solche in Topologie-Generator und Planungstool behandelt wird.
     
@@ -124,15 +124,18 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
     
 - **Überwachung und Archivierung** Diese Organisation hat die Überwachung und Archivierung bereitgestellt. Wenn Sie die Überwachung und den Archivierungsserver bereitstellen, wird es auf jedem Front-End-Server ausgeführt. Die Datenbanken für diese Features können mit der Back-End-Datenbank verbunden, oder auf einem separaten Server befinden. Diese Organisation hat diese Datenbanken auf einem Server, der getrennt von den Back End-Servern im zentralen Standort b befindet. Hier die Datenbanken erhalten Überwachung und Archivierung Daten von den Front-End-Servern auf allen Websites.
     
-- **Optionen für Bereitstellungen an Zweigstellen.** Diese Organisation hat tatsächlich über 50 Zweigniederlassungen, von denen nur, die zwei in die detaillierte Diagramme angezeigt werden. Zweigniederlassung 1 verfügt nicht über eine ausfallsichere WAN am zentralen Standort, zu verknüpfen, damit sie die Survivable Branch Appliances um bereitzustellen, dass Telefondienst für den Fall, dass die WAN-Verbindung zum zentralen Standort ausfällt bereitgestellt haben. Zweigniederlassung 2 verfügt jedoch über eine ausfallsichere WAN-Verbindung, damit nur vom Gateway eine public switched Telephone Network, (PSTN) benötigt. Das bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird in Zweigstelle 2 kein Vermittlungsserver benötigt. Ausführliche Informationen zu entscheiden, was am Zweigstellenstandort installiert werden finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Optionen für Bereitstellungen an Zweigstellen.** Diese Organisation hat tatsächlich über 50 Zweigniederlassungen, von denen nur, die zwei in die detaillierte Diagramme angezeigt werden. Zweigniederlassung 1 verfügt nicht über eine ausfallsichere WAN am zentralen Standort, zu verknüpfen, damit sie die Survivable Branch Appliances um bereitzustellen, dass Telefondienst für den Fall, dass die WAN-Verbindung zum zentralen Standort ausfällt bereitgestellt haben. Zweigniederlassung 2 verfügt jedoch über eine ausfallsichere WAN-Verbindung, damit nur vom Gateway eine public switched Telephone Network, (PSTN) benötigt. Das bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird in Zweigstelle 2 kein Vermittlungsserver benötigt. Ausführliche Informationen zu entscheiden, was am Zweigstellenstandort installiert werden finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **SIP-Trunking und Vermittlungsserver.** Beachten Sie, dass am zentralen Standort B der Vermittlungsserver nicht gemeinsam mit den Front-End-Servern ausgeführt wird. Der Grund dafür ist, dass für Standorte mit SIP-Trunking ein eigenständiger Vermittlungsserver empfohlen wird. In den meisten anderen Fällen empfiehlt sich die gemeinsame Ausführung des Vermittlungsservers mit dem Front-End-Server. Ausführliche Informationen zu Mediation Server-Topologien finden Sie unter [Komponenten und Topologien für den Vermittlungsserver](http://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx) in der Planungsdokumentation.
     
 - **Beständiger Chat bereitgestellt wird.** Diese Organisation hat die notwendig, den beständigen Chat aktivieren Server bereitgestellt. Es hat mehrere Persistent Chat-Front-End-Server auf beide Handle die Auslastung für die Anzahl der Benutzer im Pool, und hohen Verfügbarkeit bereitzustellen bereitgestellt. Es ist Kompatibilität für beständigen Chat bereitgestellt, und der Persistent-Chat-Speicher und dem Persistent Chat Compliance-Store auf separaten Servern befinden. Diese Informationsspeicher ausgeführt werden konnte, und können auch mit der Back-End-Server zusammengestellt werden, aber diese Organisation hat sich entschieden, um eine bessere Leistung bieten zu trennen.
+
+    > [!NOTE] 
+    > Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
     
 - **DNS-Lastenausgleich.** Der Front-End-Pool und der Edgeserverpool nutzen den DNS-Lastenausgleich. Dadurch sind keine Hardwaregeräte zum Lastenausgleich für die interne Schnittstelle der Edgeserver erforderlich und der für Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools erforderliche Zeitraum wird erheblich verringert, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Weitere Informationen finden Sie unter (... /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
     
-- **Exchange UM-Bereitstellung.** Skype für Business Server arbeitet mit Bothon lokale Bereitstellungen von Exchange UM Andhosted Exchange Unified Messaging (UM). Zentraler Standort A enthält einen Exchange Unified Messaging (UM)-Server, der Microsoft Exchange Server nicht Skype für Business Server ausgeführt wird. Die Exchange UM-Funktionalität für Skype für Business Server auf den Front-End-Pool ausgeführt wird.
+- **Exchange UM-Bereitstellung.** Skype für Business Server arbeitet mit beiden lokalen Bereitstellungen von Exchange Unified Messaging (UM) und gehostete Exchange UM. Zentraler Standort A enthält einen Exchange Unified Messaging (UM)-Server, der Microsoft Exchange Server nicht Skype für Business Server ausgeführt wird. Die Exchange UM-Funktionalität für Skype für Business Server auf den Front-End-Pool ausgeführt wird.
     
     Am zentralen Standort B wird gehostetes Exchange eingesetzt, daher wird die Exchange UM-Serverfunktionalität ebenfalls gehostet. 
     

@@ -1,9 +1,8 @@
 ---
-title: Planen für Notdienste in Skype Business Server 2015
+title: Planen für Notdienste in Skype Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Informationen zu erweiterten E9-1-1 (E9-1-1) Dienste in Skype für Business Server Enterprise-VoIP, einschließlich Speicherort Erwerb und Anrufrouting.
-ms.openlocfilehash: 7a4c03da5a7e138e68495c3bacd473f9ea073178
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f32a8dcc818795b47aa955c95084c1bc3d224236
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967311"
 ---
-# <a name="plan-for-emergency-services-in-skype-for-business-server-2015"></a>Planen für Notdienste in Skype Business Server 2015
+# <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planen für Notdienste in Skype Business Server
  
 Informationen zu erweiterten E9-1-1 (E9-1-1) Dienste in Skype für Business Server Enterprise-VoIP, einschließlich Speicherort Erwerb und Anrufrouting.
   
 Skype für Business Server unterstützt erweiterte E9-1-1 (E9-1-1) Dienste innerhalb der USA oder als Teil eines Enterprise-VoIP-Bereitstellung. E9-1-1 ist eine Notfällen-Funktion, die ordnet eine 9-1-1-anrufen mit einem Notfall Antwort Speicherort (ERL), der allgemeinen besteht (d. h., Straße)-Adressen und andere genauere Standortinformationen wie Numbers für Anrufe von Office-Gebäuden Floor und andere mandantenfähigen Funktionen. Mithilfe den bereitgestellten ERL kann einen öffentlichen Sicherheit beantworten Point (PSAP) sofort Notdienste an den Anrufer in Leiden mit geringerem versehentlich Umleiten des Responders an einem Speicherort falsche oder unklare versenden.
   
 > [!NOTE]
-> Skype für Business Server unterstützt jetzt die Konfiguration von mehreren Notfall Zahlen für einen Client an. Weitere Informationen finden Sie unter [Planen für mehrere Notfall Zahlen in Skype für Business Server 2015](multiple-emergency-numbers.md). 
+> Skype für Business Server unterstützt jetzt die Konfiguration von mehreren Notfall Zahlen für einen Client an. Weitere Informationen finden Sie unter [Planen für mehrere Notfall Zahlen in Skype für Business Server](multiple-emergency-numbers.md). 
   
 > [!NOTE]
-> Skype für Business Server verfügt über drei erweiterten Enterprise-VoIP-Funktionen: anrufsteuerung, notrufdienste (E9-1-1), und die medienumgehung. Eine Übersicht über die Planung von Informationen, die alle drei dieser Features gemeinsam ist, finden Sie unter [Einstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server 2015 Netzwerk](network-settings-for-advanced-features.md). 
+> Skype für Business Server verfügt über drei erweiterten Enterprise-VoIP-Funktionen: anrufsteuerung, notrufdienste (E9-1-1), und die medienumgehung. Eine Übersicht über die Planung von Informationen, die alle drei dieser Features gemeinsam ist, finden Sie unter [Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server](network-settings-for-advanced-features.md). 
   
 Skype für Business Server unterstützt Enhanced E9-1-1 (E9-1-1) aufrufen in Skype für Business-Clients und Lync Phone Edition-Geräte. Wenn Sie Skype für Business Server für E9-1-1, Notfall Anrufe von Skype für Unternehmen konfigurieren, oder Lync Phone Edition enthalten Emergency Response Speicherort (ERL) Informationen aus der Datenbank. ERLs bestehen aus allgemeinen (d. h., Straße)-Adressen und andere Informationen, die hilft Ihnen, um eine genauere Position in Bürogebäude und andere mandantenfähigen Betriebsanlagen zu ermitteln. Wenn ein Benutzer einen Notruf herstellt, leitet Skype für Business Server den Anruf Audio, zusammen mit den Speicherort und den Rückruf Informationen über einen Vermittlungsserver an einen E9-1-1-Dienstanbieter. Der E9-1-1-Dienstanbieter verwendet die Adresse des Anrufers, um den Anruf zu öffentlichen Sicherheit beantworten Point (PSAP) weiterleiten, die dem Standort des Anrufers dient, und sendet entlang einer Emergency Service Abfrage Schlüssel (ESQK), die der PSAP zum Nachschlagen des Anrufers ERL verwendet. 
   
@@ -65,7 +65,7 @@ Aus einer Skype für Business Server Perspektive kann der E9-1-1-Prozess in zwei
     
 In diesem Abschnitt wird die Funktionsweise dieser Schritte beschrieben.
   
-Wenn Sie Ihre Infrastruktur so konfigurieren möchten, dass der Standort von Clients automatisch erkannt wird, müssen Sie zunächst festlegen, welche Netzwerkelemente verwendet werden sollen, um Anrufer Standorten zuzuordnen. Ausführliche Informationen zu den möglichen Optionen finden Sie unter [Definieren der Netzwerkelemente zum Ermitteln des Standorts in Skype für Business Server 2015 verwendet](network-location.md). 
+Wenn Sie Ihre Infrastruktur so konfigurieren möchten, dass der Standort von Clients automatisch erkannt wird, müssen Sie zunächst festlegen, welche Netzwerkelemente verwendet werden sollen, um Anrufer Standorten zuzuordnen. Ausführliche Informationen zu den möglichen Optionen finden Sie unter [Definieren der Netzwerkelemente zum Ermitteln des Standorts in Skype für Business Server verwendet](network-location.md). 
   
 ## <a name="acquiring-a-location"></a>Abrufen eines Standorts
 
@@ -93,7 +93,7 @@ Das Verwenden eines SIP-Trunks zum Herstellen einer Verbindung mit einem qualifi
   
 Das folgende Diagramm zeigt, wie ein Notruf von weitergeleitet wird Skype für Business Server zum öffentlichen Sicherheit beantworten Point (PSAP) Wenn Sie eine SIP-Trunk und einen qualifizierten E9-1-1-Dienstanbieter verwenden.
   
-**Weiterleiten von E9-1-1-Anrufen über einen SIP-trunk**
+**Weiterleiten von E9-1-1-Anrufen über einen SIP-Trunk**
 
 ![Notrufweiterleitung vom Lync Server an PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
   
@@ -113,9 +113,9 @@ Wenn ein Notruf über einen kompatiblen Skype für Business Server-Client befind
     
 ## <a name="routing-e9-1-1-calls-by-using-an-elin-gateway"></a>Weiterleiten von E9-1-1-Anrufen über ein ELIN-Gateway
 
-Einige Partner in der Unified Communications Open Interoperability Program bieten qualifizierte Emergency Location Identification Anzahl (ELIN)-fähige Gateways, die als Alternative zu einem SIP-trunkverbindung mit einem qualifizierten E9-1-1-Dienstanbieter verwendet werden können. ELIN-Gateways unterstützen ISDN- oder zentralisierte automatische Nachricht Accounting (CAMA) eine Verbindung mit öffentlichen Telefonfestnetz (PSTN)-basierte E9-1-1-Dienste. Ausführliche Informationen zu Partnern, die die ELIN-Gateways und Links zu ihrer Dokumentation bereitstellen, finden Sie unter [Infrastruktur für Microsoft Lync qualifizierte](https://go.microsoft.com/fwlink/p/?LinkId=248425) und [Telefonie-Infrastruktur für Skype für Unternehmen](https://technet.microsoft.com/en-us/office/dn947483). 
+Einige Partner in der Unified Communications Open Interoperability Program bieten qualifizierte Emergency Location Identification Anzahl (ELIN)-fähige Gateways, die als Alternative zu einem SIP-trunkverbindung mit einem qualifizierten E9-1-1-Dienstanbieter verwendet werden können. ELIN-Gateways unterstützen ISDN- oder zentralisierte automatische Nachricht Accounting (CAMA) eine Verbindung mit öffentlichen Telefonfestnetz (PSTN)-basierte E9-1-1-Dienste. Ausführliche Informationen zu Partnern, die die ELIN-Gateways und Links zu ihrer Dokumentation bereitstellen, finden Sie unter [Infrastruktur für Microsoft Lync qualifizierte](https://go.microsoft.com/fwlink/p/?LinkId=248425) und [Telefonie-Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
-Wie SIP-Trunk-Verbindungen an E9-1-1-Dienstanbieter ELIN-Gateways bieten auch die Möglichkeit, Weiterleiten eines Notrufs an des Anrufers am besten geeignete öffentlichen Sicherheit beantworten Point (PSAP), aber diese Gateways ein ELIN als Speicherortbezeichner verwenden. Sie definieren ELINs für jede Emergency Response Speicherort (ERL) in Ihrer Organisation (Weitere Informationen hierzu finden Sie unter [Verwalten von Standorten für ELIN-Gateways in Skype für Business Server 2015](elin-gateways.md)). 
+Wie SIP-Trunk-Verbindungen an E9-1-1-Dienstanbieter ELIN-Gateways bieten auch die Möglichkeit, Weiterleiten eines Notrufs an des Anrufers am besten geeignete öffentlichen Sicherheit beantworten Point (PSAP), aber diese Gateways ein ELIN als Speicherortbezeichner verwenden. Sie definieren ELINs für jede Emergency Response Speicherort (ERL) in Ihrer Organisation (Weitere Informationen hierzu finden Sie unter [Verwalten von Standorten für ELIN-Gateways in Skype für Business Server](elin-gateways.md)). 
   
 Wenn Sie ein ELIN-Gateway für Notrufe verwenden, verwenden Sie die gleichen Skype für Business Server E9-1-1-Infrastruktur, die Sie für einen SIP-Trunk-Verbindung verwenden würden. D. h., die Standortinformationen Service-Datenbank enthält den Speicherort der Skype für Business-Client, und die Standortrichtlinie aktiviert das Feature und das routing definiert. Mit einem ELIN-Gateway müssen Sie jedoch die Standortinformationen Service-Datenbank die ELINs hinzufügen und diese auf die automatische Speicherort (Identification)-Datenbank hochladen Ihres PSTN-Betreibers haben.
   
@@ -128,7 +128,7 @@ ELIN-Gateways unterstützen Notrufe nur innerhalb des Netzwerks Ihrer Organisati
   
 Das folgende Diagramm zeigt, wie ein Notruf von weitergeleitet wird Skype für Business Server an den PSAP bei Verwendung ein ELIN-Gateways.
   
-**Weiterleiten von E9-1-1-anrufen mit einem ELIN-gateway**
+**Weiterleiten von E9-1-1-Anrufen über ein ELIN-Gateway**
 
 ![Zeigt, wie ein Anruf bei Notdiensten über den Vermittlungsserver läuft und dann zum Anbieter für die Notrufunterstützung gelangt. Danach kann optional eine Sofortnachricht an den Sicherheitsdienst vor Ort gesendet und/oder ein Rückruf zum ursprünglichen Anrufer durchgeführt werden.](../../media/Plan_LyncServer_E911_ELINCallRouting.jpg)
   

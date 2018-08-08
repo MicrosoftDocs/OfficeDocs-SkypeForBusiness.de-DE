@@ -1,9 +1,8 @@
 ---
-title: Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server 2015
+title: Konfigurieren eines Trunks ohne medienumgehung in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: 'Zusammenfassung: Konfigurieren eines Trunks ohne medienumgehung für Skype für Business Server 2015 aktiviert.'
-ms.openlocfilehash: 82b168da814da96555afe967d901f152d35718b3
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Zusammenfassung: Konfigurieren eines Trunks ohne medienumgehung für Skype für Business Server aktiviert.'
+ms.openlocfilehash: ae33fd67c85401e9fe9ce366bec75d824f7c77b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500977"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972520"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server-2015"></a>Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server 2015
+# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Konfigurieren eines Trunks ohne medienumgehung in Skype für Business Server
  
-**Zusammenfassung:** Konfigurieren eines Trunks ohne medienumgehung für Skype für Business Server 2015 aktiviert.
+**Zusammenfassung:** Konfigurieren eines Trunks ohne medienumgehung für Skype für Business Server aktiviert.
   
-Führen Sie die folgenden Schritte aus, um einen Trunk mit deaktivierter Medienumgehung zu konfigurieren. Wenn Sie einen Trunk mit medienumgehung konfigurieren möchten, finden Sie unter [Konfigurieren eines Trunks mit Medien in Skype für Business Server 2015 umgehen](configure-trunk-with-media-bypass.md).
+Führen Sie die folgenden Schritte aus, um einen Trunk mit deaktivierter Medienumgehung zu konfigurieren. Wenn Sie einen Trunk mit medienumgehung konfigurieren möchten, finden Sie unter [Konfigurieren eines Trunks mit Medien in Skype für Business Server umgehen](configure-trunk-with-media-bypass.md).
   
 Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewendet werden, die dieser Trunkkonfiguration zugewiesen sind. Eine bestimmte Trunkkonfiguration kann auf globaler Ebene (für alle Trunks, die keine speziellere Standort- oder Poolkonfiguration haben) oder für einen Standort oder Pool festgelegt werden. Die Trunkkonfiguration auf Poolebene wird verwendet, um eine bestimmte Trunkkonfiguration auf einen einzelnen Trunk anzuwenden.
   
@@ -83,7 +82,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
     
      - Zum Entfernen einer Route aus dem PSTN-Verwendungsdatensatz wählen Sie die Route aus und klicken Sie auf **Entfernen**.
     
-     - Zur Definition einer neuen Route und ihrer Zuordnung zu diesem PSTN-Verwendungsdatensatz klicken Sie auf **Neu**. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+     - Zur Definition einer neuen Route und ihrer Zuordnung zu diesem PSTN-Verwendungsdatensatz klicken Sie auf **Neu**. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
      - Zum Bearbeiten einer Route, die diesem PSTN-Verwendungsdatensatz zugeordnet wurde, wählen Sie die Route aus und klicken Sie auf **Details anzeigen**.
     
@@ -99,7 +98,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
     
      - Zum Entfernen einer Route aus dem PSTN-Verwendungsdatensatz wählen Sie die Route aus und klicken Sie auf **Entfernen**.
     
-     - Zur Definition einer neuen Route und ihrer Zuordnung zu diesem PSTN-Verwendungsdatensatz klicken Sie auf **Neu**. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+     - Zur Definition einer neuen Route und ihrer Zuordnung zu diesem PSTN-Verwendungsdatensatz klicken Sie auf **Neu**. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
      - Zum Bearbeiten einer Route, die diesem PSTN-Verwendungsdatensatz zugeordnet wurde, wählen Sie die Route aus und klicken Sie auf **Details anzeigen**.
     
@@ -125,7 +124,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
     
    - Um eine oder mehrere Regeln aus einer Liste mit allen Übersetzungsregeln auszuwählen, die in der Enterprise-VoIP-Bereitstellung verfügbar sind, klicken Sie auf **auswählen**. Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
     
-   - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - Klicken Sie auf den Regelnamen und anschließend auf **Details anzeigen**, um eine Übersetzungsregel zu bearbeiten, die dem Trunk bereits zugeordnet ist. 
     
@@ -140,7 +139,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
     
    - Um eine oder mehrere Regeln aus einer Liste mit allen Übersetzungsregeln auszuwählen, die in der Enterprise-VoIP-Bereitstellung verfügbar sind, klicken Sie auf **auswählen**. Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
     
-  - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+  - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - Klicken Sie auf den Regelnamen und anschließend auf **Details anzeigen**, um eine Übersetzungsregel zu bearbeiten, die dem Trunk bereits zugeordnet ist. 
     
@@ -161,10 +160,11 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 18. Klicken Sie auf der Seite **Trunkkonfiguration** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**. 
     
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server 2015](configure-trunk-with-media-bypass.md)
+[Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server](configure-trunk-with-media-bypass.md)
 
 [Definieren von Übersetzungsregeln](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+

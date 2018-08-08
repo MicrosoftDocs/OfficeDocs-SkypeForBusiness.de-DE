@@ -1,9 +1,8 @@
 ---
-title: Konfigurieren mehrerer Notrufnummern in Skype for Business Server 2015
+title: Konfigurieren Sie mehrerer Notfall Zahlen in Skype für Unternehmen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: In diesem Thema erfahren Sie, wie Sie in Skype for Business Server 2015 mehrere Notrufnummern konfigurieren.
-ms.openlocfilehash: ad2f048294b7eeef6d675fdf80884ae13cc75a61
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: Lesen Sie in diesem Thema erfahren, wie mehrere Notfall Nummern in Skype für Business Server konfigurieren.
+ms.openlocfilehash: 01dc72e2d165ff3c4076aa4180768ca941607b93
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985423"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>Konfigurieren mehrerer Notrufnummern in Skype for Business Server 2015
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Konfigurieren Sie mehrerer Notfall Zahlen in Skype für Unternehmen
  
-In diesem Thema erfahren Sie, wie Sie in Skype for Business Server 2015 mehrere Notrufnummern konfigurieren.
+Lesen Sie in diesem Thema erfahren, wie mehrere Notfall Nummern in Skype für Business Server konfigurieren.
   
-Skype für Business Server unterstützt jetzt mehrere Notfall Nummern für einen Client an. Mehrere Notfall Nummern ist ein neues Feature in der Juni 2016 kumulative Update. Bevor Sie Ihre Umgebung zur Unterstützung von mehreren Notfall Nummern konfigurieren, müssen Sie [mehrere Notfall Zahlen in Skype für Business Server 2015 planen](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)lesen.
+Skype für Business Server unterstützt jetzt mehrere Notfall Nummern für einen Client an. Mehrere Notfall Nummern ist ein neues Feature in der Juni 2016 kumulative Update. Bevor Sie Ihre Umgebung zur Unterstützung von mehreren Notfall Nummern konfigurieren, müssen Sie unbedingt lesen [für mehrere Notfall Zahlen in Skype für Business Server planen](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
   
 > [!NOTE]
 > Wenn Sie noch nicht auf die November 2016 aktualisiert haben kumulative Update finden Sie unter [Updates für Skype für Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). Mit der November 2016 erhöht sich Kumulatives Update, die Anzahl der Notfall Nummern für den Support von 5 bis 100. 
@@ -36,7 +36,6 @@ Der folgende Befehl erstellt über das Cmdlet „New-CsEmergency“ eine neue No
   
 ```
 > $a = New-CsEmergencyNumber -DialString 911 
-
 ```
 
 Der nächste Befehl ordnet die Nummer der angegebenen Standortrichtlinie zu, indem er den „EmergencyNumbers“-Parameter im Cmdlet „Set-CsLocationPolicy“ angibt:

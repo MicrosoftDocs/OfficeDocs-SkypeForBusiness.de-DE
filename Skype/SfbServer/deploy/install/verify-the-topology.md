@@ -1,9 +1,9 @@
 ---
-title: Prüfen der Topologie in Skype for Business Server 2015
+title: Überprüfen Sie die Topologie in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/14/2016
+ms.date: 7/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 'Zusammenfassung: Informationen zum Überprüfen der Skype für Business Server-Topologie und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 93696511ab415d4e3df65e6d2e3c5efcb621c39d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Informationen zum Überprüfen der Skype für Business Server-Topologie und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 162d3839c055bdc5dc8edd22afa754bc1e5e0237
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012652"
 ---
-# <a name="verify-the-topology-in-skype-for-business-server-2015"></a>Prüfen der Topologie in Skype for Business Server 2015
+# <a name="verify-the-topology-in-skype-for-business-server"></a>Überprüfen Sie die Topologie in Skype für Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie die Skype für Business Server-Topologie überprüfen und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem [Microsoft-Evaluierungscenter](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Zusammenfassung:** Erfahren Sie, wie die Skype für Business Server-Topologie überprüfen und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem [Microsoft-Evaluierungscenter](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Nachdem Sie die Topologie veröffentlicht und die Skype für Business Server Systemkomponenten auf jedem Server in der Topologie installiert haben, können Sie überprüfen, ob die Topologie wie erwartet funktioniert. Dazu gehören, die die Konfiguration aller Active Directory-Server weitergegeben wurde, damit die gesamte Domäne bekannt ist, dass Skype für Unternehmen verfügbar ist, in der Domäne überprüfen. Sie können die Schritte 1 bis 5 in einer beliebigen Reihenfolge ausführen. Die Schritte 6, 7 und 8 müssen jedoch wie in der Abbildung dargestellt nacheinander und nach den Schritten 1 bis 5 ausgeführt werden. Überprüfen der Topologie wird in Schritt 8 des 8.
   

@@ -1,9 +1,8 @@
 ---
-title: Anruf Admission Control endgültigen Prüfliste zur Bereitstellung von Skype für Business Server 2015
+title: Anruf Admission Control endgültigen Prüfliste zur Bereitstellung von Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Endgültige Checkliste für die Bereitstellung von Call Admission Control (CAC) in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: beec5c03f47d8f06ec862c3e9a3609fba7b66f2c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e5791aa6f3b32e423f36021314bec930fa7f74e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025674"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server-2015"></a>Bereitstellung der Anrufsteuerung: endgültige Prüfliste für Skype for Business Server 2015
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Rufen Sie die Bereitstellung der anrufsteuerung: endgültige Checkliste für Skype für Business Server
  
 Endgültige Checkliste für die Bereitstellung von Call Admission Control (CAC) in Skype für Business Server Enterprise-VoIP. 
   
@@ -31,11 +31,11 @@ Endgültige Checkliste für die Bereitstellung von Call Admission Control (CAC) 
     > [!NOTE]
     > Edge-Server sind zum Implementieren der Anrufsteuerung nicht erforderlich. 
   
-- Stellen Sie sicher, dass die Anrufsteuerung aktiviert ist, als der angegebene in [Aktivieren der anrufsteuerung in Skype für Business Server 2015](enable-call-admission-control.md).
+- Stellen Sie sicher, dass die Anrufsteuerung aktiviert ist, als der angegebene in [Aktivieren der anrufsteuerung in Skype für Business Server](enable-call-admission-control.md).
     
 - Stellen Sie sicher, dass die Anrufsteuerung an allen zentralen Standorten aktiviert ist. Dies kann über den Topologie-Generator erfolgen. Wenn eine Warnung generiert wird, wenn Sie veröffentlichen, ignoriert *jedoch nicht* .
     
-- Stellen Sie sicher, dass alle im Unternehmensnetzwerk verwalteten Subnetze in den Netzwerkkonfigurationseinstellungen konfiguriert sind. Es ist außerdem wichtig, dass jedes Subnetz einem Netzwerkstandort zugeordnet werden soll, wie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetzen in Skype für Business 2015](deploy-network.md)erläutert wird.
+- Stellen Sie sicher, dass alle im Unternehmensnetzwerk verwalteten Subnetze in den Netzwerkkonfigurationseinstellungen konfiguriert sind. Es ist außerdem wichtig, dass jedes Subnetz einem Netzwerkstandort zugeordnet werden soll, wie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Unternehmen](deploy-network.md)erläutert wird.
     
 - Stellen Sie sicher, dass die Subnetz- oder IP-Adressen aller Front-End-Server, Survivable Branch Appliances (SBAs), A/V-Konferenzserver (sofern in einem separaten Pool bereitgestellt) und Vermittlungsserver in den Netzwerkkonfigurationseinstellungen konfiguriert sind.
     

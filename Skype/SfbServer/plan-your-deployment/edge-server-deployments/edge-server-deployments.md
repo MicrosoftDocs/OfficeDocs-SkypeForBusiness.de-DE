@@ -1,9 +1,8 @@
 ---
-title: Planen der Edgeserverbereitstellungen in Skype for Business Server 2015
+title: Planen von Edge-Server-Bereitstellungen in Skype für Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,18 +12,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
-description: 'Zusammenfassung: Planen Sie für Ihre Skype für Business Server 2015 Server Edge-Umgebung. Mit diesem Thema werden Sie in die Edge-Konzepte eingeführt und es hilft Ihnen bei der Organisation von unseren ausführlicheren Themenbereichen.'
-ms.openlocfilehash: 973cda4f049f4d9d606ba1fe047c99f671ed2e86
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Zusammenfassung: Planen Sie für Ihre Skype für Business Server Edge-Umgebung. Mit diesem Thema werden Sie in die Edge-Konzepte eingeführt und es hilft Ihnen bei der Organisation von unseren ausführlicheren Themenbereichen.'
+ms.openlocfilehash: 41a1d2771e43a4e217aa8bac6b98331a31d67c92
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965443"
 ---
-# <a name="plan-for-edge-server-deployments-in-skype-for-business-server-2015"></a>Planen der Edgeserverbereitstellungen in Skype for Business Server 2015
+# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planen von Edge-Server-Bereitstellungen in Skype für Business Server
  
-**Zusammenfassung:** Planen Sie Ihre Server-Edge-Umgebung Skype for Business Server 2015. Mit diesem Thema werden Sie in die Edge-Konzepte eingeführt und es hilft Ihnen bei der Organisation von unseren ausführlicheren Themenbereichen.
+**Zusammenfassung:** Planen Sie Ihre Skype für Business Server Edge-Umgebung aus. Mit diesem Thema werden Sie in die Edge-Konzepte eingeführt und es hilft Ihnen bei der Organisation von unseren ausführlicheren Themenbereichen.
   
-Wenn Sie einen Skype für Business Server 2015 Umgebung, die auch intern funktionsfähig ist können Sie, möglicherweise für Sie im nächsten Schritt ein Edge-Server oder einem edgepool für die Umgebung einführen. Diese Rolle wäre wichtiger, wenn der Dienste von Skype für Business Server 2015 von Personen, die sich außerhalb des internen Netzwerks befinden, verwendet werden soll. Zu diesen können folgende gehören:
+Wenn Sie einen Skype für Business Server-Umgebung, die auch intern funktionsfähig ist können Sie, möglicherweise für Sie im nächsten Schritt ein Edge-Server oder einem edgepool für die Umgebung einführen. Diese Rolle wäre wichtiger, wenn der Dienste von Skype für Business Server von Personen, die sich außerhalb des internen Netzwerks befinden, verwendet werden soll. Zu diesen können folgende gehören:
   
 - Remotebenutzer: Mitarbeiter, die vorübergehend oder längerfristig standortextern arbeiten.
     
@@ -34,26 +34,29 @@ Wenn Sie einen Skype für Business Server 2015 Umgebung, die auch intern funktio
     
 - Potenzielle Kunden, Partner und sogar anonyme Benutzer, die Sie zu Meetings und Präsentationen einladen möchten.
     
-Zugriff durch externe Benutzer, die ist, was Edge-Server bereitstellen, können all dies geschieht. Internen Benutzern werden die folgenden Dienste nutzen zu können, die von Ihrer Skype für Business Server 2015 Bereitstellung gehostet werden:
+Zugriff durch externe Benutzer, die ist, was Edge-Server bereitstellen, können all dies geschieht. Internen Benutzern werden die folgenden Dienste nutzen zu können, die von Ihrer Skype für Business Server-Bereitstellung gehostet werden:
   
 - Instant Messaging und Anwesenheit für die Kommunikation: autorisierte externe Benutzer können in Sofortnachrichtenunterhaltungen und Konferenzen teilnehmen. Sie können Anwesenheitsinformationen für andere Benutzer abrufen (, wer ihre Anwesenheitsinformationen zu abrufen). Nicht möglich, Konferenzen mit mehreren Teilnehmern ist, wenn Sie einen öffentlichen IM-Dienstanbieter verwenden, der streng Peer-zu-Peer-Kommunikation ist. Aber SIP- und XMPP-Protokolle werden unterstützt.
     
-- Audio/Video (A / V) Konferenzen: autorisierte externe Benutzer in Ihrer Skype für Business Server 2015 audio und video-Konferenzen teilnehmen können.
+- Audio/Video (A / V) Konferenzen: autorisierte externe Benutzer können Ihre Skype für Business Server audio und video-Konferenzen teilnehmen.
     
 - Webkonferenzen: Ihre autorisierte externe Benutzer in Ihrer Skype für Business-Konferenzen teilnehmen können. Wenn Sie möchten, können Sie auch Teilnahme für Remotebenutzer, Verbundbenutzer und anonyme Benutzer aktivieren. Öffentliche Instant Messaging-Benutzer können nicht an Konferenzen teilnehmen. Es gibt auch Optionen, um Benutzern Anwendungs- und Desktopfreigabe teilnehmen, und auch als Besprechungsorganisatoren oder Referenten fungieren.
     
 Wie Enterprise-VoIP ist wird, den Zugriff durch Mobile Geräte unterstützt. Sie können externe Benutzer zu Besprechungen einladen, an denen diese teilnehmen sollen, und sogar anonyme Benutzer, wenn Sie diesen die Berechtigungen geben möchten.
   
 Wenn dies sinnvoll für Ihr Unternehmen erscheint, wird die Planung einer Edge-Umgebung eine große Hilfe für die Bereitstellung sein. Weitere Themen können Sie nachfolgend lesen.
+
+> [!NOTE]
+> XMPP-Gateways und -Proxys werden stehen in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype für Business Server 2019. Weitere Informationen finden Sie unter [Migrieren von XMPP-Verbund](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
   
 ## <a name="planning-topics"></a>Themen für die Planung:
 
 Zu den Artikeln für die Planung gehören folgende:
   
-- [Edge-Server System Requirements for Business Server 2015 in Skype](system-requirements.md)
+- [Systemanforderungen des Edgeservers in Skype for Business Server 2015](system-requirements.md)
     
-- [Edge-Server-umgebungsanforderungen in Skype für Business Server 2015](edge-environmental-requirements.md)
+- [Umgebungsanforderungen des Edgeservers in Skype for Business Server 2015](edge-environmental-requirements.md)
     
-- [Edge-Server-Szenarien in Skype für Business Server 2015](scenarios.md)
+- [Edgeserver-Szenarien in Skype for Business Server 2015](scenarios.md)
     
 

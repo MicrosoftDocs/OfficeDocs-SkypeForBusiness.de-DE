@@ -1,9 +1,8 @@
 ---
-title: Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server 2015
+title: Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,26 +12,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
-description: 'Zusammenfassung: Konfigurieren eines Trunks mit medienumgehung für Skype für Business Server 2015 aktiviert. Dadurch können Sie die Anzahl der Vermittlungsserver minimieren, vorausgesetzt, Ihr SIP-Trunk-Anbieter unterstützt dies.'
-ms.openlocfilehash: f8e353e7d11bb3921839f957be25e0bfb6804a03
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Zusammenfassung: Konfigurieren eines Trunks mit medienumgehung für Skype für Business Server aktiviert. Dadurch können Sie die Anzahl der Vermittlungsserver minimieren, vorausgesetzt, Ihr SIP-Trunk-Anbieter unterstützt dies.'
+ms.openlocfilehash: 48dfbfeaa72819f06f70ed2645380bc1d673ac21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501294"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002404"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server 2015
+# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server
  
-**Zusammenfassung:** Konfigurieren eines Trunks mit medienumgehung für Skype für Business Server 2015 aktiviert. Dadurch können Sie die Anzahl der Vermittlungsserver minimieren, vorausgesetzt, Ihr SIP-Trunk-Anbieter unterstützt dies.
+**Zusammenfassung:** Konfigurieren eines Trunks mit medienumgehung für Skype für Business Server aktiviert. Dadurch können Sie die Anzahl der Vermittlungsserver minimieren, vorausgesetzt, Ihr SIP-Trunk-Anbieter unterstützt dies.
   
-Führen Sie die folgenden Schritte aus, um einen Trunk mit aktivierter Medienumgehung zu konfigurieren. Um einen Trunk mit medienumgehung deaktiviert konfigurieren, finden Sie unter [Konfigurieren eines Trunks ohne Medien in Skype für Business Server 2015 umgehen](configure-trunk-without-media-bypass.md). 
+Führen Sie die folgenden Schritte aus, um einen Trunk mit aktivierter Medienumgehung zu konfigurieren. Um einen Trunk mit medienumgehung deaktiviert konfigurieren, finden Sie unter [Konfigurieren eines Trunks ohne Medien in Skype für Business Server umgehen](configure-trunk-without-media-bypass.md). 
   
-Die medienumgehung ist nützlich, wenn minimieren Sie die Anzahl der Vermittlungsserver bereitgestellt werden soll. Weitere Informationen finden Sie unter [Plan für Medien in Skype für Business 2015 umgehen](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+Die medienumgehung ist nützlich, wenn minimieren Sie die Anzahl der Vermittlungsserver bereitgestellt werden soll. Weitere Informationen finden Sie unter [Plan für Medien in Skype für Unternehmen zu umgehen.](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 Es wird dringend empfohlen, die Medienumgehung zu aktivieren. Bevor Sie die Medienumgehung aber für einen SIP-Trunk aktivieren, müssen Sie sicherstellen, dass Ihr qualifizierter SIP-Trunkanbieter die Medienumgehung unterstützt und die Anforderungen für eine erfolgreiche Aktivierung des Szenarios erfüllt. Der Anbieter erforderlich die IP-Adressen der Server im internen Netzwerk Ihrer Organisation.
   
 > [!NOTE]
-> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs (Session Border Controller). Microsoft hat eine Reihe von PSTN-Gateways mit zertifizierten Partnern getestet. Die medienumgehung wird nur mit-Produkte und auf der Seite [Telefonie-Infrastruktur für Skype für Business Server](https://technet.microsoft.com/en-us/office/dn947483.aspx) aufgelisteten Versionen unterstützt. 
+> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs (Session Border Controller). Microsoft hat eine Reihe von PSTN-Gateways mit zertifizierten Partnern getestet. Die medienumgehung wird nur mit-Produkte und auf der Seite [Telefonie-Infrastruktur für Skype für Business Server](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) aufgelisteten Versionen unterstützt. 
   
 Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, die auf Trunks angewendet werden, denen die entsprechende Trunkkonfiguration zugewiesen ist. Eine bestimmte Trunkkonfiguration kann globale Reichweite haben (für alle Trunks, die keine spezifischere Standort- oder Poolkonfiguration haben) oder einen Standort oder Pool betreffen. Eine Trunkkonfiguration auf Poolebene wird verwendet, um eine bestimmte Trunkkonfiguration auf einen einzelnen Trunk anzuwenden.
   
@@ -71,7 +70,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
 6. Aktivieren Sie das Kontrollkästchen **Medienumgehung aktivieren**, wenn Sie eine Umgehung des Vermittlungsservers zur Verarbeitung durch den Trunkpeer wünschen.
     
     > [!IMPORTANT]
-    > Damit die Medienumgehung ordnungsgemäß funktioniert, müssen das PSTN-Gateway, die IP-Nebenstellenanlage oder der SBC beim Dienstanbieter bestimmte Funktionen unterstützen. Weitere Informationen hierzu finden Sie unter [Plan für Medien in Skype für Business 2015 umgehen](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). 
+    > Damit die Medienumgehung ordnungsgemäß funktioniert, müssen das PSTN-Gateway, die IP-Nebenstellenanlage oder der SBC beim Dienstanbieter bestimmte Funktionen unterstützen. Weitere Informationen hierzu finden Sie unter [Plan für Medien in Skype für Unternehmen zu umgehen](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). 
   
 7. Aktivieren Sie das Kontrollkästchen **Zentralisierte Medienverarbeitung**, wenn ein bekannter Medienendpunkt vorhanden ist (beispielsweise ein PSTN-Gateway, bei dem der Medienendpunkt dieselbe IP-Adresse aufweist wie der signalgebende Endpunkt). Deaktivieren Sie dieses Kontrollkästchen, wenn der Trunk über keinen bekannten Medienendpunkt verfügt.
     
@@ -101,7 +100,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
     
     - Zum Entfernen einer Route aus dem PSTN-Verwendungsdatensatz wählen Sie die Route aus und klicken Sie auf **Entfernen**.
     
-   - Zur Definition einer neuen Route und ihrer Zuordnung zu diesem PSTN-Verwendungsdatensatz klicken Sie auf **Neu**. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Zur Definition einer neuen Route und ihrer Zuordnung zu diesem PSTN-Verwendungsdatensatz klicken Sie auf **Neu**. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
     - Zum Bearbeiten einer Route, die diesem PSTN-Verwendungsdatensatz zugeordnet wurde, wählen Sie die Route aus und klicken Sie auf **Details anzeigen**. 
     
@@ -117,7 +116,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
     
    - Zum Entfernen einer Route aus dem PSTN-Verwendungsdatensatz wählen Sie die Route aus und klicken Sie auf **Entfernen**.
     
-   - Zur Definition einer neuen Route und ihrer Zuordnung zu diesem PSTN-Verwendungsdatensatz klicken Sie auf **Neu**. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business 2015](create-or-modify-a-voice-route.md).
+   - Zur Definition einer neuen Route und ihrer Zuordnung zu diesem PSTN-Verwendungsdatensatz klicken Sie auf **Neu**. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
     
    - Zum Bearbeiten einer Route, die diesem PSTN-Verwendungsdatensatz zugeordnet wurde, wählen Sie die Route aus und klicken Sie auf **Details anzeigen**. 
     
@@ -143,7 +142,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
     
    - Um eine oder mehrere Regeln aus einer Liste mit allen Übersetzungsregeln auszuwählen, die in der Enterprise-VoIP-Bereitstellung verfügbar sind, klicken Sie auf **auswählen**. Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
     
-   - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - Klicken Sie auf den Regelnamen und anschließend auf **Details anzeigen**, um eine Übersetzungsregel zu bearbeiten, die dem Trunk bereits zugeordnet ist. 
     
@@ -158,7 +157,7 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
     
    - Um eine oder mehrere Regeln aus einer Liste mit allen Übersetzungsregeln auszuwählen, die in der Enterprise-VoIP-Bereitstellung verfügbar sind, klicken Sie auf **auswählen**. Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
     
-   - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - Klicken Sie auf den Regelnamen und anschließend auf **Details anzeigen**, um eine Übersetzungsregel zu bearbeiten, die dem Trunk bereits zugeordnet ist. 
     
@@ -179,15 +178,16 @@ Eine Trunkkonfiguration wie die unten beschriebene gruppiert Parametersätze, di
 19. Klicken Sie auf der Seite **Trunkkonfiguration** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**. 
     
    > [!NOTE]
-   > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Business 2015](voice-route-config-changes.md) in der Betriebsdokumentation.
+   > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
   
-Nachdem Sie den Trunk konfiguriert haben, weiterhin Konfigurieren von Medien durch die Wahl zwischen globalen Media Bypass umgehen die Optionen, wie unter [medienumgehung in Skype für Business Server 2015 bereitstellen](deploy-media-bypass.md) in der Dokumentation zur Bereitstellung beschrieben.
+Nachdem Sie den Trunk konfiguriert haben, weiterhin Konfigurieren von Medien durch die Wahl zwischen globalen Media Bypass umgehen die Optionen, wie unter [medienumgehung in Skype für Business Server bereitstellen](deploy-media-bypass.md) in der Bereitstellungsdokumentation beschrieben.
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren eines Trunks ohne medienumgehung in Skype für Business Server 2015](configure-trunk-without-media-bypass.md)
+[Konfigurieren eines Trunks ohne medienumgehung in Skype für Business Server](configure-trunk-without-media-bypass.md)
 
-[Bereitstellen von medienumgehung in Skype für Business Server 2015](deploy-media-bypass.md)
+[Die medienumgehung in Skype für Business Server bereitstellen](deploy-media-bypass.md)
 
 [Definieren von Übersetzungsregeln](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
   
 [Konfigurieren der Medienumgehung](http://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
+

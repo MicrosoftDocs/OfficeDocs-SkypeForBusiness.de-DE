@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business 2015
+title: Bereitstellen von netzwerkregionen, Standorten und Subnetzen in Skype für Unternehmen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,24 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Erstellen oder Ändern von netzwerkregionen, Netzwerkstandorten, und ordnen Sie Subnetze in Skype Netzwerk für Business Server. Alle diese für den erweiterten Enterprise-VoIP-Funktionen verwendet werden: Medien umgehen, call Admission Control und Standortbasierte Weiterleitung.'
-ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 427ab9102fe7a840aee68e0dbc2c372b908930e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568382"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980774"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business 2015
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Bereitstellen von netzwerkregionen, Standorten und Subnetzen in Skype für Unternehmen
  
 Erstellen oder Ändern von netzwerkregionen, Netzwerkstandorten, und ordnen Sie Subnetze in Skype Netzwerk für Business Server. Alle diese für den erweiterten Enterprise-VoIP-Funktionen verwendet werden: Medien umgehen, call Admission Control und Standortbasierte Weiterleitung.
   
-Die erweiterten Enterprise-VoIP-Funktionen sind [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) und [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Alle diese Features müssen Sie netzwerkregionen, Netzwerkstandorten und Subnetzen zu erstellen. Beispiel: Für alle diese Funktionen ist es erforderlich, dass jedes Subnetz in Ihrer Topologie einem bestimmten Netzwerkstandort und jeder Netzwerkstandort einer Netzwerkregion zugeordnet ist. Weitere Informationen zu dieser Begriffe finden Sie unter [Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Die erweiterten Enterprise-VoIP-Funktionen sind [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) und [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Für alle diese Funktionen müssen Sie Netzwerkregionen, Netzwerkstandorte und Subnetze erstellen. Beispiel: Für alle diese Funktionen ist es erforderlich, dass jedes Subnetz in Ihrer Topologie einem bestimmten Netzwerkstandort und jeder Netzwerkstandort einer Netzwerkregion zugeordnet ist. Weitere Informationen zu dieser Begriffe finden Sie unter [Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
   
 Für die Anrufsteuerung und E9-1-1 gelten bei den Netzwerkstandorten zusätzliche Konfigurationsanforderungen:
   
-- Die anrufsteuerung erfordert, dass ein bandbreitenrichtlinienprofil für jede Website angegeben werden, die von WAN-Bandbreite eingeschränkt wird. Wenn Sie die anrufsteuerung bereitstellen möchten, müssen Sie vor dem Konfigurieren von Netzwerkstandorten[bandbreitenrichtlinienprofile in Skype für Business Server 2015 erstellen](create-bandwidth-policy-profiles.md) .
+- Die Anrufsteuerung erfordert, dass ein Bandbreitenrichtlinienprofil für jeden Standort angegeben wird, für den WAN-Bandbreiteneinschränkungen gelten. Wenn Sie die anrufsteuerung bereitstellen möchten, müssen Sie vor dem Konfigurieren von Netzwerkstandorten [bandbreitenrichtlinienprofile in Skype für Business Server erstellen](create-bandwidth-policy-profiles.md) .
     
-- E9-1-1 erfordert, dass eine Standortrichtlinie für jede Website angegeben werden. Wenn Sie E9-1-1 bereitstellen möchten, müssen Sie vor dem Konfigurieren von Netzwerkstandorten[Standortrichtlinien in Skype für Business Server 2015 erstellen](create-location-policies.md) .
+- Für E9-1-1 ist es erforderlich, dass für jeden Standort eine Standortrichtlinie angegeben ist. Wenn Sie E9-1-1 bereitstellen möchten, müssen Sie vor dem Konfigurieren von Netzwerkstandorten [Standortrichtlinien in Skype für Business Server erstellen](create-location-policies.md) .
     
 ## <a name="create-or-modify-a-network-region"></a>Erstellen oder Ändern einer Netzwerkregion
 
@@ -314,6 +313,7 @@ Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 1
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="BKMK_AssociateSubnets"> </a>
 
+
 [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
@@ -329,3 +329,4 @@ Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 1
 [Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+

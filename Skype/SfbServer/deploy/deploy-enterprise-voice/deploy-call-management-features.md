@@ -1,9 +1,8 @@
 ---
-title: Bereitstellen der Anrufverwaltungsfunktionen in Skype for Business 2015
+title: Bereitstellen von Funktionen für die anrufverwaltung in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Bereitstellen von Funktionen für die anrufverwaltung in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 181c8e983416c91e6847869786170ad2f73c8728
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a63f53970b25c9148c65c95890df14e77feb0008
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025659"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business-2015"></a>Bereitstellen der Anrufverwaltungsfunktionen in Skype for Business 2015
+# <a name="deploy-call-management-features-in-skype-for-business"></a>Bereitstellen von Funktionen für die anrufverwaltung in Skype für Unternehmen
  
 Bereitstellen von Funktionen für die anrufverwaltung in Skype für Business Server Enterprise-VoIP.
   
@@ -38,12 +38,12 @@ In diesem Abschnitt wird beschrieben, wie diese Funktionen für die anrufverwalt
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Bereitstellungsprozess für das Parken von Anrufen in Skype für Business 2015](deployment-process-for-call-park.md)
+- [Bereitstellungsprozess für das Parken von Anrufen in Skype für Unternehmen](deployment-process-for-call-park.md)
     
-- [Deployment process for Group Call Pickup in Skype for Business 2015](deployment-process-for-group-call-pickup.md)
+- [Bereitstellungsprozess für die Gruppe aufrufen Pickup-in Skype für Unternehmen](deployment-process-for-group-call-pickup.md)
     
-- [Bereitstellungsprozess für Reaktionsgruppen in Skype für Business 2015](deployment-process-for-response-group.md)
+- [Bereitstellungsprozess für Reaktionsgruppen in Skype für Unternehmen](deployment-process-for-response-group.md)
     
-- [Bereitstellungsprozess für die ansageanwendung in Skype für Business Server 2015](deployment-process-for-the-announcement-application.md)
+- [Bereitstellungsprozess für die ansageanwendung in Skype für Business Server](deployment-process-for-the-announcement-application.md)
     
 
