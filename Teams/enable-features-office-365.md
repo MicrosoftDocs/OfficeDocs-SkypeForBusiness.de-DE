@@ -1,5 +1,5 @@
 ---
-title: Verwalten Sie Microsoft-Teams-Features in Office 365-Organisation
+title: Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,23 +8,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: Hier finden Sie Informationen zu allen Microsoft Teams-Funktionen, die Sie in Ihrer Office 365-Organisation aktivieren oder deaktivieren können, beispielsweise mandantenweite Einstellungen, E-Mail-Integration, Apps, Cloudspeicher und vieles mehr.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4e450f4ffcb178a19d185b14d65b7adb880924b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
-ms.translationtype: MT
+ms.openlocfilehash: 50650d852e87cb885beae4403022464fafb57373
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20265947"
 ---
-<a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten Sie Microsoft-Teams-Features in Office 365-Organisation
+<a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 ======================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Teams hat mehrere Einstellungen, die aktiviert oder deaktiviert werden können, auf der Ebene der Office 365-Mandanten. Mit den Teams, die aktiviert werden wird jeder Benutzer, die auch für Teams aktiviert ist die Einstellungen der Mandanten-Ebene erben.
+Microsoft Teams hat mehrere Einstellungen, die auf Office 365-Mandantenebene aktiviert oder deaktiviert werden können. Wenn Teams aktiviert ist, erben alle Benutzer, die ebenfalls für Teams aktiviert sind, die Einstellungen auf Mandantenebene.
 
 Unten sehen Sie eine Liste der Funktionen, die Office 365-Administratoren in Microsoft Teams aktivieren oder deaktivieren können. 
 
@@ -105,19 +107,19 @@ Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in 
 
 Zu den Optionen für Cloudspeicher in Microsoft Teams gehören zurzeit Box, Dropbox, Google Drive und ShareFile. Benutzer können Dateien aus Cloudspeicherdiensten in Microsoft Teams-Kanäle und -Chats hochladen und dort freigeben. Aktivieren Sie die Option für die Cloudspeicheranbieter, die Ihre Organisation verwenden möchte. 
 
-![Screenshot des Abschnitts „Custom cloud storage“ (Benutzerdefinierter Cloudspeicher)](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+![Screenshot des Abschnitts „Benutzerdefinierter Cloudspeicher“](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
-<a name="settings-by-userlicense-type"></a>Geben Sie die Einstellungen von User-Lizenz
+<a name="settings-by-userlicense-type"></a>Einstellungen nach Benutzer-/Lizenztyp
 ------------------------
-Wenn Sie Microsoft-Teams für Ihre Organisation zunächst einrichten, verwendet Sie die **Einstellungen werden vom Typ User-Lizenz** -Dropdownmenü, wählen Sie einen Lizenztyp und Teams dann für alle Benutzer des betreffenden Lizenztyps eingeschaltet.
+Bei der Ersteinrichtung von Microsoft Teams für Ihre Organisation haben Sie über das Dropdownmenü **Settings by user/license type** (Einstellungen nach Benutzer-/Lizenztyp) einen Lizenztyp ausgewählt und dann Teams für alle Benutzer des entsprechenden Lizenztyps aktiviert.
 
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
- Einige Beispiele für User-Lizenz-Typen sind **Business & Enterprise** und **Gast**. (Wenn Sie eine Education SKU-Lizenz verfügen, **Education - Fakultät und Mitarbeiter** oder **Education - Student** sind verfügbar.) ![-Steuerelement für Set-Benutzerlizenz](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
+ Beispiele für Benutzer-/Lizenztypen: **Geschäftlich und Unternehmen** und **Gast**. (Wenn Sie über eine Education-SKU-Lizenz verfügen, sind die Optionen **Ausbildungseinrichtungen – Fakultät und Mitarbeiter** oder **Ausbildungseinrichtungen – Schüler** verfügbar.)![Steuerelement zum Festlegen der Benutzerlizenz](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
 
-Sie können mehrere Lizenztypen innerhalb Ihrer Organisation, **beispielsweise sowohl Business & Enterprise** und **Gast**haben. Microsoft-Teams können nur von Benutzern basierend auf der Lizenzen, die ihnen zugewiesenen unterscheiden. Sie können die aktivieren oder deaktivieren Sie Optionen für diese Benutzer in **Teams und Kanäle**, **Anrufe und Besprechungen**und **Messaging**. Wenn Sie nur einen Lizenztyp verwenden, sollten Sie die Einstellungen als Mandanten geltende Einstellungen.
+Sie können in der Organisation über mehrere Lizenztypen verfügen, zum Beispiel sowohl **Geschäftlich und Unternehmen** als auch **Gast**. Microsoft Teams kann Benutzer nur anhand der Lizenzen unterscheiden, die Sie ihnen zugewiesen haben. Unter **Teams und Kanäle**, **Anrufe und Besprechungen** und **Messaging** können Sie Optionen für diese Benutzer aktivieren oder deaktivieren. Wenn Sie nur einen Lizenztyp verwenden, können die hier angezeigten Einstellungen als mandantenweite Einstellungen behandelt werden.
 > [!NOTE]
-> Weitere Informationen zu Gast Access finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff auf Microsoft-Teams](set-up-guests.md).
+> Weitere Details zum Gastzugriff finden Sie unter [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md).
 
 <a name="teams-and-channels"></a>Teams und Kanäle
 ------------------
