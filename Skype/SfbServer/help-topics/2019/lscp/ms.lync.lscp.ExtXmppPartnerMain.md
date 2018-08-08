@@ -12,18 +12,19 @@ localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: dd3abfd0ed390f2576271f6fecc3d27d121706c0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 62ddcf4dd58bf4c2beb041f25127d9efead9cd08
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002691"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138534"
 ---
-# <a name="xmpp-federated-partners"></a><span data-ttu-id="8a6ba-104">XMPP-Verbundpartner</span><span class="sxs-lookup"><span data-stu-id="8a6ba-104">XMPP Federated Partners</span></span>
+# <a name="xmpp-federated-partners"></a><span data-ttu-id="0db3c-104">XMPP-Verbundpartner</span><span class="sxs-lookup"><span data-stu-id="0db3c-104">XMPP Federated Partners</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="0db3c-105">XMPP-Gateways und -Proxys werden stehen in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype für Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="0db3c-105">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="0db3c-106">Weitere Informationen finden Sie unter [Migrieren von XMPP-Verbund](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .</span><span class="sxs-lookup"><span data-stu-id="0db3c-106">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
  
-<span data-ttu-id="8a6ba-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="8a6ba-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="8a6ba-107">Verwalten von XMPP-Verbundpartner für Ihre Organisation</span><span class="sxs-lookup"><span data-stu-id="8a6ba-107">Manage XMPP Federated Partners for Your Organization</span></span>](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+<span data-ttu-id="0db3c-107">Finden Sie unter [Verwalten XMPP-Verbundpartner für Ihre Organisation](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)</span><span class="sxs-lookup"><span data-stu-id="0db3c-107">See [Manage XMPP Federated Partners for Your Organization](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)</span></span>
     
  
 
