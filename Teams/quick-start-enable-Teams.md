@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Nehmen Sie dieses Handbuch beim Planen, Implementieren und Einführen von Microsoft Teams in Ihrer Organisation zu Hilfe.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
-ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.openlocfilehash: 28f286a04bf52e3d4cb4fd7ad48278843b5ed134
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19001823"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Schnellstart – Microsoft Teams-Planungshandbuch
 ==========================================================

@@ -1,5 +1,5 @@
 ---
-title: "Gastfunktionalität"
+title: Gastfunktionalität
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,15 +7,17 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Hier erhalten Sie Informationen zu der für Gastbenutzer verfügbaren Microsoft Teams-Funktionalität."
+description: Hier erhalten Sie Informationen zu der für Gastbenutzer verfügbaren Microsoft Teams-Funktionalität.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500d8b0aa1ed8f006fdbab2d67771c2d65ebaa53
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9d30b7b554b07ccc29233210419f2a3129349a1e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19178882"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -59,6 +61,8 @@ In der folgenden Tabelle werden die für die Teammitglieder einer Organisation v
 |Kanaldatei freigeben  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Chatdatei freigeben  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Apps hinzufügen (Registerkarten, Bots oder Connectors)  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Erstellen von Besprechungen oder Zeitpläne zugreifen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Access OneDrive for Business-Speicher  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Mandantenweite Gastzugriffsrichtlinien für Teams/Kanäle erstellen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Benutzer außerhalb der Office 365-Mandantendomäne einladen <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Team erstellen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
