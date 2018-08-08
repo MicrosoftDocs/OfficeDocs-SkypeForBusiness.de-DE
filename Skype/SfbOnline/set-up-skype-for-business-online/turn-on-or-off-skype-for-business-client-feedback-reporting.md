@@ -16,16 +16,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Sie können Ihre Skype für Unternehmensbenutzer mithilfe der integrierten Skype für Business app-Feedback-Tool, damit Benutzer Probleme melden, und geben Sie Feedback direkt an Microsoft zu ihren Wünschen aktivieren.
-ms.openlocfilehash: 9e995a61337a8393b869161e143d76f1df5454ae
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 09ddaa9952ab5d536c6a95937ca71c4c056a15e0
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568353"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135540"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Aktivieren oder Deaktivieren von Feedbackberichten im Skype for Business-Client
 
-Sie können Ihre Skype für Unternehmensbenutzer mithilfe der integrierten Skype für Business app-Feedback-Tool, damit Benutzer Probleme melden, und geben Sie Feedback direkt an Microsoft zu ihren Wünschen aktivieren. 
+Sie können Ihre Skype für Business Online-Benutzern mithilfe der integrierten Skype für Business app-Feedback-Tool, damit Benutzer Probleme melden, und geben Sie Feedback direkt an Microsoft zu ihren Wünschen aktivieren. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
@@ -91,7 +91,7 @@ Um Feedback reporting für Benutzer in Ihrer Organisation zu aktivieren, und erm
     
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>See Also
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

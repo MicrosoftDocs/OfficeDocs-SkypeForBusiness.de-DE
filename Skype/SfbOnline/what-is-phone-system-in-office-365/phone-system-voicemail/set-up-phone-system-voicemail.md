@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Voicemail Telefonsystem
+title: Einrichten von Voicemail für das Telefonsystem
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 93dd33eefe587c548e346974cc86fe2608b392ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f5dcf6012dc9ac6659d35c29a31ee6a5ff40eec2
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135530"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Einrichten von Voicemail Telefonsystem
+# <a name="set-up-phone-system-voicemail"></a>Einrichten von Voicemail für das Telefonsystem
 
 Dieser Artikel ist für die [Office 365-Admin](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) , möchte das Telefonsystem Voicemail-Feature für alle Benutzer im Unternehmen eingerichtet.
   
@@ -80,7 +81,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Aktivieren der Lautschrift Gotteslästerung Maskierung für Ihre Organisation
 
-Lautschrift Gotteslästerung Maskierung ist standardmäßig für Ihre Organisation deaktiviert. Ist ein geschäftlichen Anforderungen zu aktivieren, können Sie mithilfe des [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)maskieren Lautschrift Gotteslästerung aktivieren. Zu diesem Zweck führen Sie Folgendes aus:
+Lautschrift Gotteslästerung Maskierung ist standardmäßig für Ihre Organisation deaktiviert. Ist eine geschäftsanforderung zu aktivieren, können Sie mithilfe des [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx)maskieren Lautschrift Gotteslästerung aktivieren. Zu diesem Zweck führen Sie Folgendes aus:
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -88,7 +89,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>Aufzeichnung für einen Benutzer deaktivieren
 
-Benutzerrichtlinien werden vor den Standardeinstellungen für die Organisation ausgewertet. Wenn Voicemailtranskription beispielsweise für alle Benutzer aktiviert ist, können Sie mit dem Cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) eine Richtlinie zuweisen, um die Transkription für einen bestimmten Benutzer zu deaktivieren.
+Benutzerrichtlinien werden vor den Standardeinstellungen für die Organisation ausgewertet. Wenn Voicemail Lautschrift für alle Benutzer aktiviert ist, können Sie beispielsweise eine Richtlinie Lautschrift für einen bestimmten Benutzer zu deaktivieren, indem Sie mit dem Cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) zuweisen.
   
 Führen Sie zum Deaktivieren eines einzelnen Benutzers den folgenden Dienst aus:
   
@@ -98,7 +99,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Lautschrift Gotteslästerung Maskierung für einen Benutzer aktivieren
 
-Um Lautschrift Gotteslästerung Maskierung für einen bestimmten Benutzer zu aktivieren, können Sie eine Gruppenrichtlinie für die Aktivierung Lautschrift Gotteslästerung Maskierung für einen bestimmten Benutzer mit dem Cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) zuweisen.
+Um Lautschrift Gotteslästerung Maskierung für einen bestimmten Benutzer zu aktivieren, können Sie eine Gruppenrichtlinie für die Aktivierung für einen bestimmten Benutzer mithilfe des Cmdlets [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) maskieren Lautschrift Gotteslästerung zuweisen.
   
 Um Lautschrift Gotteslästerung Maskierung für einen einzelnen Benutzer zu aktivieren, führen Sie Folgendes aus:
   

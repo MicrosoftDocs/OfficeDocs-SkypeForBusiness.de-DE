@@ -12,14 +12,17 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Wählen Sie Exchange UM-Telefonzentrale, um eine automatische Telefonzentrale von Exchange UM auszuwählen, die eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
-ms.openlocfilehash: fa8733ea3c8e005c934ffaacc71a77516bc360e6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3ee269d4ab746bb46a658aae5987810d54164b0a
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987796"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138402"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Wählen Sie Exchange UM-Telefonzentrale
+
+> [!NOTE]
+> Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren. Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird aufgehoben wird Cloud Voicemail und Cloud-Telefonzentrale Features emphasised Exchange UM-Integration.  Finden Sie unter [Planen der Cloud Voicemail Service](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) [Cloud Voicemail planen Service] und [Skype für Business Server und Exchange Server-Migration planen](../../../../SfBServer2019/hybrid/plan-um-migration.md) (... /.. /.. / SfBServer2019/hybrid/plan-um-migration.md) Weitere Informationen.
  
 Verwenden Sie das Dialogfeld **Wählen Sie Exchange UM-Telefonzentrale** , um eine automatische Telefonzentrale von Exchange UM auszuwählen, die eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
   
