@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator sind online unter Erstellen eines Pools gegenüber in Skype für Business Server beschrieben.
-ms.openlocfilehash: 4f06009a45dc7cf171066fa2ba9f1e29e35bacb0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ec5dac383d8c82981d14dea7db8685d82eb26b3e
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065627"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196084"
 ---
-# <a name="lync-server-2013-scope-node"></a>Lync Server 2013-Bereichsknoten
+# <a name="skype-for-business-server-scope-node"></a>Skype für Business Server – Bereichsknoten
  
 So definieren Sie eine neue gegenüber oder Video Gateways im Topologie-Generator erforderlichen Schritte werden in [Erstellen eines Pools gegenüber in Skype für Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)online beschrieben.
   
