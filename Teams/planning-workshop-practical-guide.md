@@ -1,46 +1,50 @@
 ---
-title: "Tools und Workshops – Planen, Bereitstellen und Einführen von Microsoft Teams"
+title: Tools und Workshops – Planen, Bereitstellen und Einführen von Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/24/2018
+ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara, lolaj, rowille
-description: "Planungstools, Workshops und Kits für die ersten Schritte von Organisationen mit Microsoft Teams"
+ms.reviewer: lolaj, rowille
+description: Planungstools, Workshops und Kits für die ersten Schritte von Organisationen mit Microsoft Teams
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 353d53287260da365646271ef886c95fe839bf6a
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: 1a560c9927cec0b1b1b5fc95f088e86505fdc0cf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966151"
 ---
-<a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a><span data-ttu-id="657a6-103">Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="657a6-103">Tools and workshops: Plan, deliver, and operate Microsoft Teams</span></span>
-=============================================================
+# <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a><span data-ttu-id="4137d-103">Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="4137d-103">Tools and workshops: Plan, deliver, and adopt Microsoft Teams</span></span>
 
-<span data-ttu-id="657a6-104">Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und Einführen von Microsoft Teams in Ihrer Organisation unterstützen.</span><span class="sxs-lookup"><span data-stu-id="657a6-104">Download these tools to walk you through planning, delivering, and operating Teams in your organization.</span></span>
+<span data-ttu-id="4137d-104">Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und Einführen von Microsoft Teams in Ihrer Organisation unterstützen.</span><span class="sxs-lookup"><span data-stu-id="4137d-104">Download these tools to walk you through planning, delivering, and adopting Teams in your organization.</span></span>
 
 
-- [<span data-ttu-id="657a6-105">Microsoft Teams Customer Success Kit</span><span class="sxs-lookup"><span data-stu-id="657a6-105">Microsoft Teams Customer Success Kit</span></span>](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
+- [<span data-ttu-id="4137d-105">Microsoft Teams Customer Success Kit</span><span class="sxs-lookup"><span data-stu-id="4137d-105">Microsoft Teams Customer Success Kit</span></span>](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
-    <span data-ttu-id="657a6-106">Dieses Kit enthält eine breite Palette von Präsentationen, E-Mail-Vorlagen, Tipps und Tricks sowie Postern, die Sie beim Rollout und beim Vorantreiben der Einführung von Microsoft Teams in Ihrer Organisation verwenden können.</span><span class="sxs-lookup"><span data-stu-id="657a6-106">This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive adoption of Teams in your organization.</span></span> <span data-ttu-id="657a6-107">Ebenfalls enthalten sind zwei Schnellstarthandbücher für Administratoren und Teamleiter sowie Anwendungsfallbeispiele für die verschiedenen Abteilungen.</span><span class="sxs-lookup"><span data-stu-id="657a6-107">It includes two quick start guides for administrators, team leaders and use case examples for every department.</span></span> <span data-ttu-id="657a6-108">Nutzen Sie diese Ressourcen, um Microsoft Teams für verschiedene Funktionen in Ihrer Organisation optimal zu nutzen, zum Beispiel für Marketing, Vertrieb, Finanzen, Personalwesen, Informationstechnologie, Technik und Projektmanagement.</span><span class="sxs-lookup"><span data-stu-id="657a6-108">You’ll find tips to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.</span></span> 
+    <span data-ttu-id="4137d-106">Diese Referenz enthält eine Vielzahl von Präsentationen, e-Mail-Vorlagen, Tipps & Tricks und Poster, die Sie für die Installation und bessere die Akzeptanz von Teams in Ihrer Organisation verwenden können.</span><span class="sxs-lookup"><span data-stu-id="4137d-106">This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive the adoption of Teams in your organization.</span></span> <span data-ttu-id="4137d-107">Sie umfasst zwei Schnellstart Führungslinien für Administratoren und Teamleiter und die Groß-/Kleinschreibung Beispiele für jede Abteilung die Nutzung.</span><span class="sxs-lookup"><span data-stu-id="4137d-107">It includes two quick-start guides for administrators and team leaders, and use case examples for every department.</span></span> <span data-ttu-id="4137d-108">Verwenden Sie diese Ressourcen an verschiedenen Funktionen in Ihrer Organisation, einschließlich Marketing, Vertrieb, Finanzen, Personalwesen-Teams optimal IT, Engineering und Projektmanagement.</span><span class="sxs-lookup"><span data-stu-id="4137d-108">Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, IT, Engineering, and Project Management.</span></span> 
 
 
-- [<span data-ttu-id="657a6-109">Schnellstarthandbuch für Administratoren</span><span class="sxs-lookup"><span data-stu-id="657a6-109">Admin quick start guide</span></span>](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+- [<span data-ttu-id="4137d-109">Schnellstarthandbuch für Administratoren</span><span class="sxs-lookup"><span data-stu-id="4137d-109">Admin quick start guide</span></span>](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
-    <span data-ttu-id="657a6-110">Dieses Dokument führt Sie durch die fünf Implementierungsphasen der erfolgreichen Aktivierung von Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="657a6-110">This document walks you through the five implementation phases for successfully enabling Teams.</span></span> <span data-ttu-id="657a6-111">Es enthält einen Fragebogen zur technischen Planung, mit dem Sie Informationen zur aktuellen Office 365-Umgebung Ihrer Organisation erfassen können.</span><span class="sxs-lookup"><span data-stu-id="657a6-111">It includes a technical planning questionnaire that captures information about your organization's current Office 365 environment.</span></span> <span data-ttu-id="657a6-112">Anhand dieser Informationen kann der Workshopleiter die Workshoppräsentation anpassen.</span><span class="sxs-lookup"><span data-stu-id="657a6-112">This information lets the workshop leader customize the workshop presentation.</span></span> <span data-ttu-id="657a6-113">Der Fragebogen erfasst außerdem Ihre Entscheidungen sowie die im Workshop ermittelten nächsten Schritte.</span><span class="sxs-lookup"><span data-stu-id="657a6-113">The questionnaire also captures your decisions and next steps from the workshop.</span></span>
+    <span data-ttu-id="4137d-110">Dieses Dokument führt Sie durch die fünf Implementierungsphasen der erfolgreichen Aktivierung von Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="4137d-110">This document walks you through the five implementation phases for successfully enabling Teams.</span></span> <span data-ttu-id="4137d-111">Es enthält einen technischen Planung Fragebogen, der Informationen zu aktuellen Office 365-Umgebung Ihrer Organisation erfasst.</span><span class="sxs-lookup"><span data-stu-id="4137d-111">It includes a technical planning questionnaire that captures information about your organization’s current Office 365 environment.</span></span> <span data-ttu-id="4137d-112">Der Leiter Workshop können diese Informationen zum Anpassen der Workshop-Präsentation.</span><span class="sxs-lookup"><span data-stu-id="4137d-112">The workshop leader can use this information to customize the workshop presentation.</span></span> <span data-ttu-id="4137d-113">Der Fragebogen erfasst außerdem Ihre Entscheidungen sowie die im Workshop ermittelten nächsten Schritte.</span><span class="sxs-lookup"><span data-stu-id="4137d-113">The questionnaire also captures your decisions and next steps from the workshop.</span></span>
 
-- [<span data-ttu-id="657a6-114">Workshop: Planen, Bereitstellen und Ausführen von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="657a6-114">Workshop: Plan, deliver, & operate Teams</span></span>](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx) 
+- [<span data-ttu-id="4137d-114">Workshop: Planen, Bereitstellen und Ausführen von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="4137d-114">Workshop: Plan, deliver, & operate Teams</span></span>](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx) 
     
-    <span data-ttu-id="657a6-115">Verwenden Sie diese PowerPoint-Folien, um in Ihrer Organisation einen Workshop zur Planung des Microsoft Teams-Rollouts zu leiten.</span><span class="sxs-lookup"><span data-stu-id="657a6-115">Use this PowerPoint deck to lead a workshop with your organization to plan your Teams rollout.</span></span> <span data-ttu-id="657a6-116">Der Workshop stellt Microsoft Teams vor und führt Ihr Team durch die Entscheidungspunkte und nächsten Schritte.</span><span class="sxs-lookup"><span data-stu-id="657a6-116">The workshop introduces Teams and guides your team through decision points and next steps.</span></span>
+    <span data-ttu-id="4137d-115">Verwenden Sie diese PowerPoint-Präsentation einen Workshop mit Ihrer Organisation planen nahezubringen Teams führen.</span><span class="sxs-lookup"><span data-stu-id="4137d-115">Use this PowerPoint presentation to lead a workshop with your organization to plan your Teams rollout.</span></span> <span data-ttu-id="4137d-116">Der Workshop führt Teams und Ihr Team über Entscheidungspunkte und nächste Schritte führt.</span><span class="sxs-lookup"><span data-stu-id="4137d-116">The workshop introduces Teams, and guides your team through decision points and next steps.</span></span>
 
+- [<span data-ttu-id="4137d-117">Office 365 Government-Kunden</span><span class="sxs-lookup"><span data-stu-id="4137d-117">Office 365 Government Customers</span></span>](plan-for-government-gcc.md)
 
-### <a name="see-also"></a><span data-ttu-id="657a6-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="657a6-117">See also</span></span>
+   <span data-ttu-id="4137d-118">Ihrer Reise Teams ist ähnlich wie unsere Unternehmenskunden wünschen.</span><span class="sxs-lookup"><span data-stu-id="4137d-118">Your journey to Teams is much like our enterprise customers’ experience.</span></span> <span data-ttu-id="4137d-119">Sobald Microsoft-Teams, in der Regel für Ihre Mandanten verfügbar sind, empfehlen wir Ihnen, mit unsere Artikel [Planen für Microsoft 365 Government - GCC Bereitstellungen](plan-for-government-gcc.md) und [Admin quick Start guide](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)zu starten.</span><span class="sxs-lookup"><span data-stu-id="4137d-119">As Microsoft Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).</span></span> <span data-ttu-id="4137d-120">Unsere Übersicht über die [Sicherheit und Richtlinientreue](security-compliance-overview.md) helfen Ihnen die zu Teams in Ihrer Umgebung vertrauen.</span><span class="sxs-lookup"><span data-stu-id="4137d-120">Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.</span></span>
 
-[<span data-ttu-id="657a6-118">Bereitschaft von IT-Administratoren für Teams</span><span class="sxs-lookup"><span data-stu-id="657a6-118">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+### <a name="see-also"></a><span data-ttu-id="4137d-121">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4137d-121">See also</span></span>
 
-[<span data-ttu-id="657a6-119">Beziehen von Tools zur Unterstützung eines Rollouts von Teams</span><span class="sxs-lookup"><span data-stu-id="657a6-119">Get tools to support a rollout of Teams</span></span>](rollout-tools.md)
+[<span data-ttu-id="4137d-122">Bereitschaft von IT-Administratoren für Teams</span><span class="sxs-lookup"><span data-stu-id="4137d-122">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+
+[<span data-ttu-id="4137d-123">Beziehen von Tools zur Unterstützung eines Rollouts von Teams</span><span class="sxs-lookup"><span data-stu-id="4137d-123">Get tools to support a rollout of Teams</span></span>](rollout-tools.md)
 
 

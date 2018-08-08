@@ -1,9 +1,8 @@
 ---
-title: Aktivieren der Gruppenanrufannahme für Benutzer und Zuweisen einer Gruppennummer in Skype for Business 2015
+title: Aktivieren Sie Gruppe aufrufen Pickup-für Benutzer, und weisen Sie eine Gruppe Zahl in Skype für Unternehmen
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,40 +13,39 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Aktivieren von Benutzern für die Gruppe aufrufen Pickup-in Skype für Business Server Enterprise-VoIP, und weisen Sie eine Gruppennummer.
-ms.openlocfilehash: ce360bc1f66f3e7b55d3c0f8ea9e392d957f25ea
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 5a4173a16a40557742a7cdbd47edb917f89b4737
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006520"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business-2015"></a><span data-ttu-id="d6cd3-103">Aktivieren der Gruppenanrufannahme für Benutzer und Zuweisen einer Gruppennummer in Skype for Business 2015</span><span class="sxs-lookup"><span data-stu-id="d6cd3-103">Enable Group Call Pickup for users and assign a group number in Skype for Business 2015</span></span>
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a><span data-ttu-id="f27ae-103">Aktivieren Sie Gruppe aufrufen Pickup-für Benutzer, und weisen Sie eine Gruppe Zahl in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="f27ae-103">Enable Group Call Pickup for users and assign a group number in Skype for Business</span></span> 
  
-<span data-ttu-id="d6cd3-104">Aktivieren von Benutzern für die Gruppe aufrufen Pickup-in Skype für Business Server Enterprise-VoIP, und weisen Sie eine Gruppennummer.</span><span class="sxs-lookup"><span data-stu-id="d6cd3-104">Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.</span></span>
+<span data-ttu-id="f27ae-104">Aktivieren von Benutzern für die Gruppe aufrufen Pickup-in Skype für Business Server Enterprise-VoIP, und weisen Sie eine Gruppennummer.</span><span class="sxs-lookup"><span data-stu-id="f27ae-104">Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.</span></span>
   
-<span data-ttu-id="d6cd3-105">Nachdem Sie die orbittabelle für das Parken von Anrufen Rufnummern pickup-Gruppe hinzufügen, verwenden Sie das SEFAUtil-Tool, um Benutzer die Gruppennummern zugewiesen, und aktivieren für diese Gruppe aufrufen Pickup-.</span><span class="sxs-lookup"><span data-stu-id="d6cd3-105">After you add call pickup group numbers to the call park orbit table, you use the SEFAUtil tool to assign the group numbers to users and enable Group Call Pickup for them.</span></span>
+<span data-ttu-id="f27ae-105">Nachdem Sie die orbittabelle für das Parken von Anrufen Rufnummern pickup-Gruppe hinzufügen, verwenden Sie das SEFAUtil-Tool, um Benutzer die Gruppennummern zugewiesen, und aktivieren für diese Gruppe aufrufen Pickup-.</span><span class="sxs-lookup"><span data-stu-id="f27ae-105">After you add call pickup group numbers to the call park orbit table, you use the SEFAUtil tool to assign the group numbers to users and enable Group Call Pickup for them.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="d6cd3-106">Weisen Sie in einer hybridbereitstellung einer Gruppe anrufen Pickup-Gruppe nicht für Benutzer, die online verwaltet werden.</span><span class="sxs-lookup"><span data-stu-id="d6cd3-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="d6cd3-107">Benutzer, die online verwaltet werden können nicht in der Gruppe anrufen Pickup-teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="d6cd3-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="d6cd3-108">Das heißt, ihre Anrufe können nicht von anderen Benutzern angenommen werden und sie können die Anrufe anderer Benutzer nicht entgegennehmen.</span><span class="sxs-lookup"><span data-stu-id="d6cd3-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span> 
+> <span data-ttu-id="f27ae-106">Weisen Sie in einer hybridbereitstellung einer Gruppe anrufen Pickup-Gruppe nicht für Benutzer, die online verwaltet werden.</span><span class="sxs-lookup"><span data-stu-id="f27ae-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="f27ae-107">Benutzer, die online verwaltet werden können nicht in der Gruppe anrufen Pickup-teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="f27ae-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="f27ae-108">Das heißt, ihre Anrufe können nicht von anderen Benutzern angenommen werden und sie können die Anrufe anderer Benutzer nicht entgegennehmen.</span><span class="sxs-lookup"><span data-stu-id="f27ae-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span> 
   
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="d6cd3-109">Zuweisen einer Gruppennummer und Gruppe aufrufen Pickup-für einen Benutzer aktivieren</span><span class="sxs-lookup"><span data-stu-id="d6cd3-109">To assign a group number and enable Group Call Pickup for a user</span></span>
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="f27ae-109">Zuweisen einer Gruppennummer und Gruppe aufrufen Pickup-für einen Benutzer aktivieren</span><span class="sxs-lookup"><span data-stu-id="f27ae-109">To assign a group number and enable Group Call Pickup for a user</span></span>
 
-1. <span data-ttu-id="d6cd3-110">Melden Sie sich mit Administratorrechten an dem Computer an, auf dem Sie das SEFAUtil-Tool installiert haben.</span><span class="sxs-lookup"><span data-stu-id="d6cd3-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1. <span data-ttu-id="f27ae-110">Melden Sie sich mit Administratorrechten an dem Computer an, auf dem Sie das SEFAUtil-Tool installiert haben.</span><span class="sxs-lookup"><span data-stu-id="f27ae-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
     
-2. <span data-ttu-id="d6cd3-111">Führen Sie an der Eingabeaufforderung folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="d6cd3-111">At the command line, run:</span></span>
+2. <span data-ttu-id="f27ae-111">Führen Sie an der Eingabeaufforderung folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="f27ae-111">At the command line, run:</span></span>
     
    ```
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
-    <span data-ttu-id="d6cd3-112">Mit diesem Befehl können Sie beispielsweise einem Benutzer die Gruppennummer 199 zuweisen:</span><span class="sxs-lookup"><span data-stu-id="d6cd3-112">For example, to assign group number 199 to a user:</span></span>
+    <span data-ttu-id="f27ae-112">Mit diesem Befehl können Sie beispielsweise einem Benutzer die Gruppennummer 199 zuweisen:</span><span class="sxs-lookup"><span data-stu-id="f27ae-112">For example, to assign group number 199 to a user:</span></span>
     
    ```
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199 
    ```
 
-## <a name="see-also"></a><span data-ttu-id="d6cd3-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d6cd3-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f27ae-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f27ae-113">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="d6cd3-114">Disable-Gruppe Pickup-für Benutzer</span><span class="sxs-lookup"><span data-stu-id="d6cd3-114">Disable Group Pickup for Users</span></span>](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+[<span data-ttu-id="f27ae-114">Disable-Gruppe Pickup-für Benutzer</span><span class="sxs-lookup"><span data-stu-id="f27ae-114">Disable Group Pickup for Users</span></span>](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 
