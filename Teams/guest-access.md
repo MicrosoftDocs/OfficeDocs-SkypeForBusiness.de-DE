@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ac614aa35e3aa453a7522559e6fda8045404ae9
-ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.openlocfilehash: 405f0138cfb368d70aec9195c493e8da604177d4
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "19178997"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -38,7 +40,8 @@ Gastzugriff ist in allen Office 365 Business Premium-, Office 365 Enterprise- 
 Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jeder Benutzer kann als Gast in Microsoft-Teams hinzugefügt werden. Dies bedeutet, dass jede Person mit einem Unternehmen (mit Azure Active Directory-Konto) oder die Consumer e-Mail-Konto (mit Outlook.com, Gmail.com oder andere) als Gast in Teams mit Vollzugriff auf den Teams Chats, Besprechungen und Dateien teilnehmen kann.
 Alle Gäste in Teams unterliegen den gleichen Einhaltung von Vorschriften und Überwachung Schutz als den Rest von Office 365 und in Azure AD sicher verwaltet werden können.
 
-  
+> [!NOTE]
+> Benutzer in Ihrer Organisation mit Office 365-Abonnement-Plänen können nicht nur, wie Exchange Online – Plan 2, eingeladen werden als Gast organisationsinterne seit Teams betrachtet diese Benutzer in derselben Organisation angehören. Für diese Benutzer zu Teams verwenden müssen sie mit Office 365 Business Premium, Office 365 Enterprise und Office 365 Education Abonnements zugewiesen werden.  
       
 
 Organisationen, die Teams verwenden, können ihren Partnern externen Zugriff auf Teams, Dokumente in Kanälen, Ressourcen, Chats und Anwendungen gewähren und gleichzeitig die vollständige Kontrolle über ihre eigenen Unternehmensdaten behalten. Alle Gäste in Teams unterliegen den gleichen Einhaltung von Vorschriften und Überwachung Schutz als den Rest von Office 365 und Gäste sicher innerhalb von Azure Active Directory verwaltet werden können.  
