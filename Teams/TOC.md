@@ -17,6 +17,7 @@
 ## [Grenzwerte und Spezifikationen für Teams](limits-specifications-teams.md)
 ## [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
 ## [Beziehen von Tools zur Unterstützung eines Rollouts von Teams](rollout-tools.md)
+## [Planen der Steuerung in Teams](plan-teams-governance.md)
 ## [Planen von Microsoft 365 Government - GCC-Bereitstellungen](plan-for-government-gcc.md)
 ## Bessere Akzeptanz
 ### [Erstellen der Änderung-Strategie](change-management-strategy.md)
@@ -298,6 +299,7 @@
 # Teams für Bildungseinrichtungen
 ## [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
 ## [Ressourcen für Administratoren Education Teams](resources-teams-edu.md)
+## [Microsoft Education Governance – häufig gestellte Fragen für Administratoren](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
 # [PowerShell-Cmdlet-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
