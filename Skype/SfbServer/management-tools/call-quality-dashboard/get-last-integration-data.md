@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Zusammenfassung: Informationen Sie zum Vorgang letzten Integrationsdaten abrufen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: d3d8ec70b0b15120214fce736ea6d538dfe26ef4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bcef1a1ad8a42f01133c45a6af093e3c7d1e3123
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570199"
 ---
 # <a name="get-last-integration-data"></a>Abrufen von Integrationsdaten der letzten
  
@@ -69,7 +70,4 @@ Dieses Feature ist standardmäßig deaktiviert und muss aktiviert werden, um die
 "LastDataIntegrationStart": null,
 "LastCubeProcessingStart": "01/18/2015 10:30:16"
 }
-
 ```
-
-

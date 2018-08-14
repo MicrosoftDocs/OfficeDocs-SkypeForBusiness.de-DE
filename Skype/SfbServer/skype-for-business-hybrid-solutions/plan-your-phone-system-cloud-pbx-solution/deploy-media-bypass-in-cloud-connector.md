@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema Weitere Informationen zu den Schritten zum Bereitstellen von, dass die medienumgehung mit Cloud Connector Edition, Version 2.0 und höher.
-ms.openlocfilehash: 61beeec57bf245b899a898beb7bca8b14e462dca
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 4d0400682702c528e9e1ccb324731378d8c09b2c
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246687"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Die medienumgehung in der Cloud Connector Edition bereitstellen
  
@@ -43,7 +44,8 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 Aktivieren der medienumgehung umfasst zwei Schritte. Das Cmdlet New-CsNetworkMedia speichern nicht sofort die neue Konfiguration. Es werden nur die Einstellungen im Arbeitsspeicher erstellt. Das Objekt, das mit diesem Cmdlet erstellten muss in einer Variablen gespeichert, und klicken Sie dann an die MediaBypassSettings-Eigenschaft die Netzwerkkonfiguration zugewiesen. Weitere Informationen finden Sie unter [Beispiel: medienumgehung Website DNS-Einträgen in komplexen mit mehreren Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example).
   
-Die Replikation zwischen der lokalen und online-Komponenten kann bis zu 24 Stunden dauern, damit Microsoft empfiehlt, dass Sie die erforderlichen Befehle ausführen, bevor Benutzer aktivieren.
+Die Replikation zwischen den lokalen Komponenten und den Onlinekomponenten kann bis zu 24 Stunden dauern. Daher empfiehlt Microsoft, die notwendigen Befehle auszuführen, bevor Sie Benutzer aktivieren. 
+
   
 ## <a name="confirm-media-bypass-settings"></a>Überprüfen der Medienumgehungseinstellungen
 
@@ -54,7 +56,6 @@ Führen Sie den folgenden Befehl zum Überprüfen des Mandanten Pools online-Rep
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
-
 ```
 
 Überprüfen Sie die lokale Replikation, eine Verbindung mit der Cloud Connector Vermittlungsserver, führen Sie den folgenden Befehl in PowerShell und vergewissern Sie sich, Enabled = True und AlwaysBypass = True
@@ -67,7 +68,8 @@ Zum Überprüfen der Clienteinstellungen Abmelden bei der Skype für Business-Cl
   
 1. Öffnen Sie „%appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog“.  
     
-2. Suchen nach Hybridconfigserviceinternalurl, und bestätigen Sie, dass die URL übereinstimmt, die Sie definiert haben.
+2. Suchen Sie nach „hybridconfigserviceinternalurl“, und vergewissern Sie sich, dass die URL mit der übereinstimmt, die Sie definiert haben. 
+
     
 ## <a name="change-media-bypass-parameters"></a>Ändern von Medienumgehungsparametern
 
@@ -179,11 +181,12 @@ Mithilfe von geolocationbasierter Verwaltung des Datenverkehrs würden Sie die D
 4. Erstellen Sie die DNS-Richtlinie, die die Clientsubnetze mit den entsprechenden Zonenbereichen verbindet, um die gewünschte DNS-Auflösung sicherzustellen.
     
 An dieser Stelle geben Clients aus dem Amsterdam-Subnetz die DNS-Abfragen für „hybridvoice.adatum.biz“ ausführen, die Adressen 192.168.1.45, 192.168.1.46, 192.168.1.47 und 192.168.1.48 zurück. Clients, die die gleiche Abfrage aus Seattle ausführen, geben dagegen 10.10.1.8, 10.10.1.9 und 10.10.1.10 zurück.
+
+> [!NOTE]
+> Wenn die Appliance CCE scheinbar nicht, die aktualisierten Einstellungen zu erhalten, überprüfen Sie, um festzustellen, ob das Gerät mit den Mandanten über remote-PowerShell eine Verbindung herstellen. Remote-PowerShell können Sie überprüfen des Appliance Status mit Get-CsHybridPSTNAppliance oder mithilfe von PowerShell auf dem Host CCE um Status mit Get-CcApplianceStatus zu überprüfen.
+
   
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="Example"> </a>
 
-#### 
-
-[Planen Sie für die medienumgehung in der Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
-
+[Planen der Medienumgehung in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)

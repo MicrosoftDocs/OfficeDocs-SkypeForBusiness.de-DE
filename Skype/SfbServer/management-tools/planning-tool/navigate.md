@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Durch Navigieren Sie die Skype für Business Server 2015 Planungstool mit einer Kombination aus einer Symbolleiste, Seite-spezifischen Schaltflächen und Links und Kontext-spezifischen Bereiche. Die kontextspezifischen Bereiche bieten Entwurfsinformationen zu Planung und Kapazität, die für die Auswahloptionen auf einer bestimmten Seite relevant sind.
-ms.openlocfilehash: a2e8ff3c25476c6524656d2d11abf624603d6acd
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: aaa31f044b4a1e4cd1ad6c697f638d44ffb65202
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505153"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigieren im Planungstool in Skype for Business Server 2015
  
@@ -43,11 +44,8 @@ Zusätzlich werden in der Übersicht unterhalb des Bereichs "Aktionen" Hardwarei
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Erstellen der ersten Topologieentwurf für Skype für Business Server 2015](create-the-initial-design.md)
+[Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015](create-the-initial-design.md)
 
 [Bearbeiten des Entwurfs](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
   
 [Überprüfen der Administratorberichte](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
-

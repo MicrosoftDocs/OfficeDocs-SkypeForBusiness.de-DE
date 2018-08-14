@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Konfigurieren von OAuth aktiviert-Authentifizierung zwischen Exchange lokal und Skype für Business Online die Skype für Geschäfts- und Exchange-Integration in featureunterstützung beschriebenen Features.
-ms.openlocfilehash: adb811a8934fdc6ea574dc934efa57ee28e6fba6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cb822dd183e913fd1b3258cc136572380592733f
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138609"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>OAuth-Konfiguration zwischen Skype for Business Online und einer lokalen Bereitstellung von Exchange
  
@@ -71,7 +72,6 @@ Die nächsten beiden Befehle weisen diesem neuen Konto die „UserApplication“
   
 ```
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN> 
-
 ```
 
 ```
@@ -142,7 +142,7 @@ Geben Sie eine überprüfte Domäne für Ihre Exchange-Organisation. Diese Domä
 > [!NOTE]
 > Die erfolgreiche Ausführung des folgenden Skripts setzt voraus, dass die Windows PowerShell für Azure Active Directory mit Ihrem Microsoft Online Azure AD-Mandanten verbunden ist, wie unter Schritt 4 im vorigen Abschnitt erläutert. 
   
-1. Speichern Sie den folgenden Text in einer PowerShell-Skriptdatei, die Sie zum Beispiel „RegisterEndpoints.ps1“ nennen können. In diesem Beispiel wird einen Platzhalter alle Endpunkte für "contoso.com" registriert. Ersetzen Sie "contoso.com" durch eine Hostname Autorität für Ihre lokale Exchange-Organisation
+1. Speichern Sie den folgenden Text in einer PowerShell-Skriptdatei, die Sie zum Beispiel „RegisterEndpoints.ps1“ nennen können. In diesem Beispiel wird ein Platzhalter verwendet, um alle Endpunkte für „contoso.com“ zu registrieren. Ersetzen Sie "contoso.com" durch eine Hostname Autorität für Ihre lokale Exchange-Organisation
     
   ```
   $externalAuthority="*.<your Verified Domain>" 
@@ -167,4 +167,8 @@ Stellen Sie sicher, dass die OAuth-Konfiguration korrekt ist, indem Sie überpr�
     
 4. Starten Sie Outlook für diesen Nutzer und überprüfen Sie, ob die Unterhaltung im Ordner der aufgezeichneten Outlook-Unterhaltungen sichtbar ist.
     
+Betrachten Sie alternativ den Datenverkehr. Des Datenverkehrs in einem OAuth-Handshake ist wirklich charakteristischen (und nicht sehen, wie die Standardauthentifizierung), insbesondere zur Umgehung von Bereichen, wobei Sie Aussteller-Datenverkehr angezeigt, die folgendermaßen aussieht beginnen: 00000004-0000-0ff1-ce00-000000000000 @ (manchmal mit einem / vor das @-Zeichen), in der Token, die übergeben werden. Benutzernamen und Kennwort an, das die Punkt OAuth wird nicht angezeigt. Aber sehen Sie den Aussteller 'Office' – in diesem Fall ist "4" Skype für Unternehmen – und dem Bereich Ihres Abonnements.
 
+Wenn Sie sicherstellen möchten, dass Sie erfolgreich OAuth verwenden, stellen Sie sicher, dass Sie wissen, was zu erwarten und wissen, wie der Datenverkehr aussehen sollte. [Hier ist zu erwarten, dass](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)dies der Fall ist, hier ist ein ziemlich standard [Beispiel OAuth-Verkehr in einer Microsoft-Anwendung](http://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (sehr nützlich zu lesen, obwohl es nicht Aktualisierungstoken verwendet), und es sind Fiddler-Erweiterungen, die Sie in Ihre OAuth JWT (JSON suchen können Web Token). 
+
+Es folgt ein [Beispiel für eine einrichten](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), jedoch können Sie diesen Prozess verpflichten sich gerne Netzwerk Tracing-Tools.

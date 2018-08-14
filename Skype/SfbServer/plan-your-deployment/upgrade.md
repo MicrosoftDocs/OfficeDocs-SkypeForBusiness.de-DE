@@ -3,7 +3,7 @@ title: Planen des Upgrades auf Skype for Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,31 +14,35 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Zusammenfassung: Informationen Sie über die Dinge, dass Sie bei der Planung eines Upgrades auf Skype für Business Server 2015 berücksichtigen sollten. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: d5d7885f7392ee5316b526ff90682303f6fed421
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 15f8ba6568fc4ca26d1c9fd33a59a026a34def33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009144"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planen des Upgrades auf Skype for Business Server 2015
  
 Zusammenfassung: Informationen Sie über die Dinge, dass Sie bei der Planung eines Upgrades auf Skype für Business Server 2015 berücksichtigen sollten. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Im Rahmen des Projektplans zum Upgraden auf Skype für Business Server 2015, verwenden Sie dieses Thema um zu verstehen, wie die empfohlene Aktualisierungspfade zu Skype für Business Server 2015, die In-Place Upgrade funktioniert, was die unterstützte Koexistenzszenarien sind, und den Upgradeprozess sieht folgendermaßen aus.
+
+> [!NOTE]
+> Compliance-Upgrades in Skype für Business Server 2015 verfügbar waren, jedoch werden in Skype für Business Server 2019 nicht mehr unterstützt. Nebeneinander Koexistenz unterstützt wird, finden Sie weitere Informationen unter [Migration zu Skype für Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) .
   
 ## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>Empfohlene Aktualisierungspfade zu Skype für Business Server 2015
 
  Wenn von Lync Server 2013, Lync Server 2010 oder Office Communications Server 2007 R2 auf Skype für Business Server 2015 aktualisieren, verwenden Sie die folgenden Aktualisierungspfade:
   
 > [!CAUTION]
-> Bei direkten Upgrades werden Konferenzverzeichnisse automatisch von Lync Server 2013 zu Skype for Business Server 2015 verschoben. Wenn Sie jedoch beabsichtigen, die Konferenzverzeichnisse manuell zu verschieben, ist es sehr wichtig, dass Sie die Skype for Business Server 2015-Verwaltungsshell verwenden. Wenn Sie versuchen, die Konferenzverzeichnisse mithilfe der Lync Server 2013-Verwaltungsshell von Lync Server 2013 zu Skype for Business Server 2015 zu verschieben, kann es zu Datenverlust kommen. Im Allgemeinen gilt Folgendes: Immer dann, wenn Sie in beliebiger Kapazität mit Skype for Business Server 2015 arbeiten, sollten Sie die Skype for Business Server 2015-Toolsammlung verwenden. 
+> Bei direkten Upgrades werden Konferenzverzeichnisse automatisch von Lync Server 2013 zu Skype for Business Server 2015 verschoben. Wenn Sie jedoch beabsichtigen, die Konferenzverzeichnisse manuell zu verschieben, ist es sehr wichtig, dass Sie die Skype for Business Server 2015-Verwaltungsshell verwenden. Wenn Sie versuchen, die Konferenzverzeichnisse mithilfe der Lync Server 2013-Verwaltungsshell von Lync Server 2013 zu Skype for Business Server 2015 zu verschieben, kann es zu Datenverlust kommen. Im Allgemeinen gilt Folgendes: Immer dann, wenn Sie in beliebiger Kapazität mit Skype for Business Server 2015 arbeiten, sollten Sie die Skype for Business Server 2015-Toolsammlung verwenden.  
   
 |**Version**|**Empfehlungen**|
 |:-----|:-----|
 |Lync Server 2013  <br/> | Verwenden Sie zum Aktualisieren der Skype für Business Server-Topologie-Generator und das neue Feature für In-Place Upgrade auf jedem Server, der dem Pool zugeordnet. Ausführliche Schritte finden Sie unter [Aktualisieren von Lync Server 2013 für die Skype für Business Server 2015 planen](upgrade.md#BKMK_PlanUpgradeFromLync2013) und [Durchführen eines Upgrades auf Skype für Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md) . <br/> |
 |Lync Server 2010 + Lync Server 2013 (dualer Modus)  <br/> |Erstens Durchführen eines Upgrades auf Lync Server 2013, und dann auf Aktualisieren Skype für Business Server 2015 mithilfe des neuen Features In-Place Upgrade. Wenn Ihre Topologie aber primär Lync Server 2010 umfasst, können Sie auch ein Rollback der Lync Server 2013-Komponenten auf Lync Server 2010 und dann direkt ein Upgrade auf Skype for Business Server 2015 durchführen. In diesem Fall könnten Sie das direkte Upgrade nicht nutzen und würden die direkte Koexistenz zwischen Lync Server 2010 und Skype for Business Server 2015 verwenden. Dreifaches Vorhandensein wird nicht unterstützt, eine Koexistenz dagegen schon.  <br/> |
 |Lync Server 2010  <br/> |Wählen Sie einen neuen Skype for Business Server 2015-Pool aus und migrieren Sie dann Benutzer zu diesem neuen Pool. Anschließend können Sie den alten Lync Server 2010-Pool außer Betrieb nehmen. Ein Upgrade von Lync Server 2010 auf Skype for Business Server 2015 ist ähnlich wie ein Upgrade von Lync Server 2010 auf Lync Server 2013. Finden Sie unter [Migration von Lync Server 2010 zu Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615).  <br/> |
-|Office Communications Server 2007 R2  <br/> | Wählen Sie eine der beiden Optionen aus: <br/>  Richten Sie eine neue Skype für Business Server 2015-Umgebung. <br/>  Auch wenn Ihre Hardware und Software die Anforderungen für Skype für Business Server 2015 erfüllen, Durchführen eines Upgrades auf Lync Server 2013 und Upgraden Sie dann mithilfe des neuen Features In-Place Upgrade für Business Server 2015 auf Skype. Weitere Informationen finden Sie unter [Server-Anforderungen für Skype für Business Server 2015](requirements-for-your-environment/server-requirements.md) und [Migration von Office Communications Server 2007 R2 zu Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616).  <br/> |
+|Office Communications Server 2007 R2  <br/> | Wählen Sie zwischen zwei Optionen: <br/>  Richten Sie eine neue Skype für Business Server 2015-Umgebung. <br/>  Auch wenn Ihre Hardware und Software die Anforderungen für Skype für Business Server 2015 erfüllen, Durchführen eines Upgrades auf Lync Server 2013 und Upgraden Sie dann mithilfe des neuen Features In-Place Upgrade für Business Server 2015 auf Skype. Weitere Informationen finden Sie unter [Server-Anforderungen für Skype für Business Server 2015](requirements-for-your-environment/server-requirements.md) und [Migration von Office Communications Server 2007 R2 zu Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616).  <br/> |
    
 > [!NOTE]
 > SQL Server 2014 wird unterstützt Skype für Business Server 2015 jedoch nicht in Lync Server 2013 unterstützt wird. Wenn Sie von SQL Server 2012 auf SQL Server 2014 aktualisieren möchten muss dann der Pool zuerst auf Skype für Business Server 2015 mithilfe der In-Place Upgrade-Methode, wie in diesem Dokument beschrieben aktualisiert werden. Sie können dann aktualisieren von SQL Server 2012, um den SQL Server 2014, finden Sie unter [Aktualisieren auf SQL Server 2014](https://msdn.microsoft.com/en-us/library/bb677622%28v=sql.120%29.aspx). Weitere Informationen zum datenbankanforderungen finden Sie unter [Server-Anforderungen für Skype für Business Server 2015](requirements-for-your-environment/server-requirements.md). 
@@ -58,7 +62,7 @@ Direktes Upgrade umfasst Offlineschalten von Lync Server 2013-Pool, und aktualis
   
 ### <a name="create-an-in-place-upgrade-plan"></a>Erstellen eines Plans für ein direktes Upgrade
 
-Stellen Sie einen Plan für der umfasst:
+Stellen Sie einen Plan auf, der Folgendes umfasst:
   
 1. Kenntnis der aktuellen Topologie.
     
@@ -85,7 +89,7 @@ Es gibt zwei Methoden für direkte Upgrades:
     
 - Bei der Offline-Methode entsteht für die Benutzer eine Ausfallzeit.
     
-Es wird empfohlen, ein Upgrade Offline-Methode während eines Wartungsfensters geplant werden, und Benutzer werden die Downtime benachrichtigt.
+Wie empfehlen daher, dass ein Upgrade mithilfe der Offline-Methode während einer Wartung durchgeführt wird und die Benutzer über die geplante Ausfallzeit informiert werden.
   
 > [!NOTE]
 > Beim Upgrade eines gekoppelten Pools in Lync Server 2013, bei dem ein Upgrade beider Pools auf Skype for Business Server 2015 ausgeführt werden soll, stellen Sie sicher, dass das Upgrade des zweiten Pools unmittelbar nach dem Upgrade des ersten Pools erfolgt. Wenn ein Pool mit Lync Server 2013 und der zweite Pool mit Skype for Business Server 2015 ausgeführt wird, sind die Notfallwiederherstellungsoptionen minimiert. Wenn beispielsweise ein Pool unter Version 2013 und der zweite unter Version 2015 ausgeführt wird und es zu einem Notfall kommt, kann es zu Datenverlusten kommen, da ein Pool-Failover im Notfallmodus nicht unterstützt wird, wenn ein Poolpaar nicht unter der gleichen Version ausgeführt wird. 
@@ -182,11 +186,8 @@ Für Topologien Koexistenz von Lync Server 2010 und Lync Server 2013 angepasst w
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-#### 
-
-[Upgrade auf Skype für Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Upgrade auf Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Umgebungsanforderungen für Skype für Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
+[Anforderungen an die Umgebung für Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
-[Serveranforderungen für Skype für Business Server 2015](requirements-for-your-environment/server-requirements.md)
-
+[Serveranforderungen für Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)

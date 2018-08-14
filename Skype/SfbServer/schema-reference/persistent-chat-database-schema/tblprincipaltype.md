@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: TblPrincipalType enthält Prinzipaltypen zur Kategorisierung in der TblPrincipal-Tabelle.
-ms.openlocfilehash: 3d1ec9b83561f06d3f8b1871223aafdf5c0775cb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505125"
 ---
 # <a name="tblprincipaltype"></a>"tblprincipaltype"
  
@@ -50,7 +51,4 @@ TblPrincipalType enthält Prinzipaltypen zur Kategorisierung in der TblPrincipal
    
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [tblPrincipal](tblprincipal.md)
-

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lesen Sie dieses Thema Weitere Informationen zu konfigurieren in Exchange-Konten für Skype Raum Systemen v2 und Skype für Unternehmen.
-ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 8b0858d3d1ec5523ad95b74989a594a1cebc7848
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887898"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967782"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Konfigurieren von Konten für Skype Raum Systemen v2
  
@@ -28,11 +28,11 @@ In diesem Thema werden zum Erstellen von Skype Raum Systemen v2 in Microsoft Exc
   
 - Online-Bereitstellung: vollständig auf Office 365-Umgebung Ihrer Organisation bereitgestellt wird. Weitere Informationen finden Sie unter [Bereitstellen von Skype Raum Systemen v2 mit Office 365](with-office-365.md).
     
-- Lokale Bereitstellung: Ihrer Organisation sind, die es verwaltet, Server, auf dem Active Directory, Exchange und Skype für Business Server 2015 gehostet werden. Weitere Informationen finden Sie unter [Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server 2015](with-skype-for-business-server-2015.md)
+- Lokale Bereitstellung: Ihrer Organisation sind, die es verwaltet, Server, auf dem Active Directory, Exchange und Skype für Business Server gehostet werden. Weitere Informationen finden Sie unter [Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server](with-skype-for-business-server-2015.md)
     
 - Hybridbereitstellungen: Ihrer Organisation mit einer Kombination verschiedener Dienste, mit einigen gehostet an lokalen und der über Office 365 online gehostet. Mit Skype Raum Systemen v2 werden die folgenden hybridszenarien unterstützt: 
     
-  - Exchange Online mit Skype für Business Server 2015 lokal. Weitere Informationen finden Sie unter [Bereitstellen von Skype Raum Systemen v2 mit Exchange Online (Hybrid)](with-exchange-online.md).
+  - Exchange Online mit Skype für Business Server lokal. Weitere Informationen finden Sie unter [Bereitstellen von Skype Raum Systemen v2 mit Exchange Online (Hybrid)](with-exchange-online.md).
     
   - Exchange lokal mit Skype für Business Online. Weitere Informationen finden Sie unter [Bereitstellen von Skype Raum Systemen v2 mit Exchange lokal (Hybrid)](with-exchange-on-premises.md).
     
@@ -78,13 +78,13 @@ Während die Eigenschaften für die grundlegende Konfiguration das Benutzerkonto
    
 Die einfachste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen.
   
-Wenn Sie die Benutzeroberfläche von Office 365 über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Finden Sie unter [Erstellen eines Geräts-Kontos mithilfe von Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
+Wenn Sie die Benutzeroberfläche von Office 365 über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Finden Sie unter [Erstellen eines Geräts-Kontos mithilfe von Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Siehe auch
 
-[Planen von Skype Raum Systemen v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planung für Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Konfigurieren einer Skype Raum Systemen v2-Konsole](console.md)
+[Konfigurieren einer Konsole für Skype Room Systems v2](console.md)
   
-[Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

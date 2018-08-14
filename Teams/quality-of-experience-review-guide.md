@@ -2,7 +2,7 @@
 title: Quality of Experience überprüfen Handbuch für Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
@@ -12,11 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0a251887b6c71c113c4ec9a25a812d4b9f6b827
-ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
+ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694920"
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
@@ -105,7 +106,7 @@ _Tabelle 1: Core Ziel Health Assessment Metriken_
 |               | Qualität für verwaltete Netzwerke | Zuverlässigkeit für verwaltete Netzwerke |                      |
 |---------------|------------------------------|----------------------------------|----------------------|
 | Metrische name   | Trefferquote % der Audio-Anrufe schlechter Qualität      | Rufen Sie Setup mit Fehlern %            | Rufen Sie die Drop Fehler % |
-| Beispiel-Ziel | \<3 %                         | \<1 %                             | \<4 %                 |
+| Beispiel-Ziel | \<3%                         | \<1 %                             | \<4 %                 |
 
 Es ist wichtig, zu besprechen und definieren die Ziele Ihrer Organisation, um Ihre Geschäftsziele zu erfüllen. Idealerweise sollten Sie diesen Zielen vor der Bereitstellung identifizieren.
 
@@ -1138,12 +1139,12 @@ _In Tabelle 11 - Netzwerk leistungsanforderungen_
 
 | Metrik                           | Client zu Microsoft Edge           | Kundenedge zu Microsoft Edge    |
 |----------------------------------|------------------------------------|------------------------------------|
-| Wartezeit (unidirektional)                | \<50 ms                            | \<30 ms                            |
-| Wartezeit (Zeit oder Roundtripzeit) | \<100 ms                           | \<60 ms                            |
-| Bursts von Paketverlusten                | \<10 % Intervall 200 ms   | \<1 % Intervall 200 ms    |
+| Latenz (ein Weg)                | \<50 ms                            | \<30 ms                            |
+| Latenz (RTT oder Roundtripzeit) | \<100 ms                           | \<60 ms                            |
+| Burstverlust von Paketen                | \<10 % Intervall 200 ms   | \<1 % Intervall 200 ms    |
 | Paketverlust                      | \<1 % Intervall 15 s    | \<0,1 % Intervall 15 s  |
-| Die Kommunikation zwischen hinzukommen Jitter Paket      | \<während ein Intervall von 15 s 30 ms | \<15 ms Intervall 15 s |
-| Paket neu anordnen                   | \<0,05 % außerhalb der Reihenfolge Pakete       | \<0,01 % außerhalb der Reihenfolge Pakete      |
+| Jitter zwischen der Ankunftszeit von Paketen      | \<während ein Intervall von 15 s 30 ms | \<15 ms Intervall 15 s |
+| Neuanordnung von Paketen                   | \<0,05 % außerhalb der Reihenfolge Pakete       | \<0,01 % außerhalb der Reihenfolge Pakete      |
 
 Weitere Informationen finden Sie unter den folgenden Artikel über das [Media Quality und Netzwerk Leistung](https://aka.ms/performancerequirements) für Teams und Skype für Business Online.
 
@@ -1169,7 +1170,7 @@ Weitere Informationen finden Sie unter den folgenden Artikel über das [Media Qu
 
 -   [Einführung in Anruf Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Einrichten der Anrufanalyse von Skype for Business](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
+-   [Einrichten von Skype for Business-Anrufanalyse](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
 
 -   [Anruf Analyse- und Anrufqualität Dashboard](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
 

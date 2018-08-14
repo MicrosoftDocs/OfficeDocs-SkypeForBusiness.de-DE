@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Dimensionselemente abrufen. Der erste Dimensionselemente-Vorgang ist Teil der Daten-API für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 6da1b8f6d93dc197df320f1fb5875a6269a9b45a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e15f63d5ad52c9fbc52d692fd5bbb0480a41a50a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569278"
 ---
 # <a name="get-dimension-members"></a>Abrufen von Dimensionselementen
  
@@ -47,7 +48,6 @@ Dimensionselemente Abrufvorgang gibt die Liste der Mitglieder einer bestimmten D
 "PageNumber": 0,
 "PageSize": 8000
 }
-
 ```
 
  **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
@@ -82,7 +82,4 @@ Dimensionselemente Abrufvorgang gibt die Liste der Mitglieder einer bestimmten D
 ["[2031-01-01T00:00:00]",
 "January 2031"]]
 }
-
 ```
-
-

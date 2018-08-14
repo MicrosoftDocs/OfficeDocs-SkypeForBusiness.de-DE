@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
-ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649643"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211151"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Konfigurieren der Cloud Connector-Integration mit Ihrem Office 365-Mandanten
  
@@ -44,13 +44,13 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
   - Ändern Sie die vorhandene Webservervorlage zum Aktivieren von authentifizierten Benutzern die Registrierung, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften konfigurieren und Aktivieren von authentifizierten Benutzern die Registrierung. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
-  - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. Weitere Informationen finden Sie unter [ein Zertifikat anfordern](https://technet.microsoft.com/en-us/library/cc730689.aspx).
+  - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
 4. Exportieren Sie das SSL-Zertifikat mit dem privaten Schlüssel, und folgen Sie den Anweisungen für PSTN-Gateways Ihres Anbieters, um das Zertifikat zu importieren.
     
 ## <a name="update-the-domain-for-your-tenant"></a>Aktualisieren der Domäne für Ihren Mandanten
 
-Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Office 365 abgeschlossen und die Möglichkeit haben, DNS-Datensätze hinzuzufügen. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten, finden Sie unter [Video: Einrichten von Ihrer Domäne in Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Office 365 abgeschlossen und die Möglichkeit haben, DNS-Datensätze hinzuzufügen. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Hinzufügen von DNS-Datensätzen in Office 365 für Ihre Edges
 
@@ -64,7 +64,7 @@ Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Infor
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Einrichten von Hybrid-Anbindung zwischen Cloud Connector Edition und Office 365
 
-Führen Sie das folgende Cmdlet in einer remote-PowerShell-Sitzung, um hybridkonnektivität zwischen Ihrer Skype für Business Cloud Connector Edition-Bereitstellung und Ihres Office 365-Mandanten zu konfigurieren. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Mithilfe von Windows PowerShell zum Verwalten von Skype für Business Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Führen Sie das folgende Cmdlet in einer remote-PowerShell-Sitzung, um hybridkonnektivität zwischen Ihrer Skype für Business Cloud Connector Edition-Bereitstellung und Ihres Office 365-Mandanten zu konfigurieren. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Einrichten des Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 Mit dem Cmdlet wird der externe FQDN des Zugriffsedge eingerichtet. In der ersten der Befehle die \<externer FQDN der Access Edge\> sollte demjenigen, der für die SIP-Zugriffs-Edgeservers-Rolle sein. In der Standardeinstellung sollte dies ap.\<Domänennamen\>.
   
@@ -90,7 +90,7 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
   - Ändern Sie die vorhandene Webservervorlage, um die Registrierung authentifizierter Benutzer zuzulassen, oder erstellen Sie eine neue Webservervorlage, um andere Eigenschaften zu konfigurieren und die Registrierung authentifizierter Benutzer zuzulassen. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
     
-  - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. Weitere Informationen finden Sie unter [ein Zertifikat anfordern](https://technet.microsoft.com/library/cc730689.aspx).
+  - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
 4. Exportieren Sie das SSL-Zertifikat mit dem privaten Schlüssel, und folgen Sie den Anweisungen für PSTN-Gateways Ihres Anbieters, um das Zertifikat zu importieren.
     
@@ -102,7 +102,7 @@ Melden Sie sich bei Office 365 Admin-Portal, die Benutzer, die für VoIP online 
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Aktivieren von Benutzern für Telefonsystem in Office 365 Sprach- und Voicemail-Dienste
 
-Aktivieren Sie nach dem Hinzufügen Ihrer Benutzer zu Office 365, deren Konten für Telefonsystem in Office 365-VoIP-Dienste, einschließlich Voicemail. Um diese Funktionen zu aktivieren, müssen Sie sich bei Ihrem Office 365-Mandanten mit einem Konto anmelden, bei dem es sich um eine globale Office 365-Administratorrolle handelt, und in der Lage sein, das PowerShell-Modul remote auszuführen. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Mithilfe von Windows PowerShell zum Verwalten von Skype für Business Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+Aktivieren Sie nach dem Hinzufügen Ihrer Benutzer zu Office 365, deren Konten für Telefonsystem in Office 365-VoIP-Dienste, einschließlich Voicemail. Um diese Funktionen zu aktivieren, müssen Sie sich bei Ihrem Office 365-Mandanten mit einem Konto anmelden, bei dem es sich um eine globale Office 365-Administratorrolle handelt, und in der Lage sein, das PowerShell-Modul remote auszuführen. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Einrichten des Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
   
 - Ihre Benutzer zuweisen der Richtlinie und Konfigurieren des Benutzers geschäftliche Telefonnummer des VoIP, die Sie mit dem Wert des Parameters **Identity** angeben:
     
@@ -141,7 +141,7 @@ Um reaktivieren internationale für jeden Benutzer einzeln aufrufen, nachdem er 
   
 ## <a name="assign-users-to-pstn-sites"></a>Zuweisen von Benutzern zu PSTN-Standorten
 
-Verwenden Sie die Remote-PowerShell für Mandanten, um Benutzern einen Standort zuzuweisen, auch wenn Sie nur einen einzelnen Standort bereitgestellt haben. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Mithilfe von Windows PowerShell zum Verwalten von Skype für Business Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Verwenden Sie die Remote-PowerShell für Mandanten, um Benutzern einen Standort zuzuweisen, auch wenn Sie nur einen einzelnen Standort bereitgestellt haben. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Einrichten des Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 ```
 # Set the site to users
@@ -166,7 +166,7 @@ Wenn ein P2P-Aufruf für eine PSTN-Konferenz eskaliert wird, sendet die Skype f�
     
     Verwenden Sie die standardmäßige SIP-Domäne der Cloud-Verbindung (die erste SIP-Domäne in der INI-Datei) als Domäne des Benutzers ein.
     
-    Weisen Sie das Konto, das Sie erstellen ein Office 365-Lizenzen (beispielsweise E5).
+    Beachten Sie, dass die Lizenz-Zuordnung ist nur für die Weitergabe Benutzer in der Skype für Business online Directory erforderlich. Weisen Sie das Konto erstellen, können bis zu einer Stunde, damit die Änderungen zu übernehmen und dann entfernen die Lizenz aus dieses Konto ein Office 365-Lizenzen (beispielsweise E5).
     
 2. Starten Sie eine mit Mandanten remote PowerShell-Sitzung mithilfe Ihrer Mandanten-Admin-Anmeldeinformationen, und führen Sie dann das folgende Cmdlet für diesen Benutzer dem Vermittlungsserver und Edge-Server-FQDN festzulegen berücksichtigt, ersetzt \<DisplayName\> mit dem Anzeigenamen des Benutzers für die Konto, das Sie erstellt haben:
     

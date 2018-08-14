@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 6e294625e173854382e39abc098a0480871586ac
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3720ce118537963e5093741c4f05315e887bd60d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569747"
 ---
 # <a name="run-query"></a>Ausführen der Abfrage
  
@@ -69,7 +70,6 @@ Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für d
 "Type": 0
 }
 }
-
 ```
 
  *Filter* - eine Liste von Filterausdrücken angewendet werden soll, beispielsweise, dass sich das resultierende DataSet nur die Teilmenge der Daten, die von Interesse sind.
@@ -127,5 +127,3 @@ Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für d
  *Datenergebnis* – das Ergebnis der Abfrage. Es ist ein zweidimensionales Array, die alle Variationen der Dimensionen Mitglieder und jedes Element, enthält der Dimensionen Elementnamen als auch die aggregierten Werte aus den angegebenen enthält.
   
  *Ergebnis ist aus Cache* - Diagnose. Gibt an, ob das Ergebnis aus dem Zwischenspeicher oder aus dem QoE-Cube stammt.
-  
-

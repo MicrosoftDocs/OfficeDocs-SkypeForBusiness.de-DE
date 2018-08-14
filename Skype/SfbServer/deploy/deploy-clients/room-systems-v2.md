@@ -3,7 +3,6 @@ title: Bereitstellen von Skype Room Systems v2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,11 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie diesen Artikel, erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2.
-ms.openlocfilehash: 4ca621e17ea00a1f7f75ae0c34a1404f8962896c
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 08d7444eea06eae3de2970b368eb1201828c8a07
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019456"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -36,15 +36,11 @@ A/v-Techs für die letzte Aufgabe, aber Ihrer Organisation verwendet werden kön
 
 Während die sortierten und Geräte in Ihrer Organisation zugestellt werden, arbeiten mit Ihrer Netzwerk- und den Funktionen und die a/v-Teams dafür sorgen, dass Bereitstellung Abhängigkeiten erfüllt werden, und jede Website und Raum im Hinblick auf Leistung ist, Netzwerk, bereit und anzeigen. Stellen Sie außerdem sicher, dass die physische Installationsanforderungen erfüllt sind. Physische installationsüberlegungen finden Sie auf der Hersteller-Website, und nutzen Sie die Erfahrung Ihrer a/v-Team beim Installieren und Bereitstellen von Bildschirmen und Verkabelung ausgeführt.
 
-<!-- These are now links to nowhere; ask Lester and James about them.
+Sie können diese Abhängigkeiten in die Planung Anleitungen Links unten erkunden:
 
-You can find out more about these dependencies in the planning guidance links below:
-
--   [Network](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#check-network-availability)
--   [Certificates](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#certificates)
--   [Proxy](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#proxy)
-
--->
+-   [Überprüfen der Netzwerkverfügbarkeit](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#check-network-availability) 
+-   [Zertifikate](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#certificates)
+-   [Proxy](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#proxy)
 
 **Pro Tipp** - Wenn Sie beabsichtigen, Proxyserver verwenden, um Zugriff auf das Skype für Business Online ersten [Dieser Artikel enthält](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Beachten Sie, dass bei Skype für Business-Datenverkehr über Proxyserver, sollten umgehen von Proxyservern vollständig. Skype für Business Datenverkehr ist damit Proxy-Server sicherer machen nicht bereits verschlüsselt. Als Teil Ihrer breiter Skype für die Business-Bereitstellung wird empfohlen, dass Sie die Anleitung in [Meine Umgebung bewerten](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) für Bandbreite planen und Bewerten des Netzwerks Eignung für Real-Time-Datenverkehr zu befolgen. Verwenden Sie für die gesamte Bandbreite Planung der [MyAdvisor Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Wir empfehlen, dass Sie eine Rolle Skype Raum Systeme v2 erstellen, um entsprechend der vorgesehenen Skype Raum v2 Systemverwendung [Video, Bildschirmfreigabe, Audio], und weisen Sie eine Anzahl von Benutzern, die die Anzahl der Einheiten an jedem Standort bereitgestellt werden Skype Raum Systeme entspricht). 
 
@@ -73,8 +69,8 @@ Führen Sie zur Vorbereitung Ihrer bereitstellungs Skype Raum Systeme die folgen
 
 Je nach den Szenarien für die Zusammenarbeit, die Sie mit der Skype Raum Systemen v2-Bereitstellung aktivieren entschieden haben, müssen Sie die Features und Funktionen, die Sie für jede Skype Raum Systemen v2-Dienstkonto zuweisen, mit denen Sie bestimmen.
 
-| **Szenario**                    | **Beschreibung**                                                                                              | **Skype Raum Systeme v2 Service Account-Funktion**                          |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **Szenario** | **Beschreibung** | **Skype Raum Systeme v2 Service Account-Funktion** |
+|---------- |------------- | --- |
 | Interaktive Besprechungen            | Verwenden von Sprach-, Video- und Bildschirmfreigabe; Durchführen der Skype Raum Systemen v2 eine bookable Ressource                     | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert |
 | Einwahlkonferenzen            | Schritte Besprechungen *direkt* aus der Skype Raum Systemen v2-Konsole mit einwahlkonferenzen Koordinaten aktivieren | Für Audiokonferenzen aktiviert                                          |
 | Ausgehend/eingehende PSTN aufrufen | Aktivieren der Skype Raum Systemen v2-Konsole das tätigen und annehmen von PSTN-Anrufe                                         | Für Telefonsystem aktiviert                                                |

@@ -13,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die Edgetopologie des Umkreisnetzwerks umfasst die folgenden Komponenten. Wenn nicht anders angegeben werden die Komponenten sind Teil der Edge-Server-Szenarien in Skype für Business Server 2015 und werden im Umkreisnetzwerk. Zu den Edgekomponenten gehören:'
-ms.openlocfilehash: 48b574c749d96a0b252b2f5d90946cb3c66991a5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8a7dab2c702127bfffa8823fb364e87274cc00c2
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503305"
 ---
 # <a name="edge-network-planning-tool"></a>Edgenetzwerk (Planungstool)
  
@@ -35,9 +36,6 @@ Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die 
     
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
-[Planen von Edge-Server-Bereitstellungen in Skype für Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Planen der Edgeserverbereitstellungen in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Edge-Server System Requirements for Business Server 2015 in Skype](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
-
+[Systemanforderungen des Edgeservers in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

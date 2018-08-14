@@ -1,7 +1,7 @@
 ---
 title: Desktopclient Featurevergleich für Skype für Business Server 2015
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype für Business Server 2015 oder Skype für Business Online-Administratoren kann diese Tabellen verwenden, um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.'
-ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223924"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391819"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Desktopclient Featurevergleich für Skype für Business Server 2015
  
@@ -102,6 +102,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Chatunterstützung.
 |Freihandnachrichten senden  <br/> ||||& #x 2714;||||||
 |Freihandnachrichten empfangen  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |„Hohe Priorität“ für Chatnachrichten festlegen  <br/> |& #x 2714;||& #x 2714;|||||||
+|Übertragen von Dateien in Peer-zu-Peer-Sofortnachrichtenunterhaltungen<br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|
    
 ## <a name="meetings-support"></a>Unterstützung für Besprechungen
 <a name="BKMK_Conferencing"> </a>
@@ -288,4 +289,4 @@ Benutzerkonten können Online oder lokalen vorhanden sind, und wirkt, die für d
 
 [Planen für Clients und Geräte](clients-and-devices.md)
 
-[Neueste Updates für Versionen von Skype für Unternehmen, die Windows Installer (MSI) verwenden](../../sfb-client-updates.md)
+[Letzte Updates für Skype for Business-Versionen, die Windows Installer (MSI) verwenden](../../sfb-client-updates.md)

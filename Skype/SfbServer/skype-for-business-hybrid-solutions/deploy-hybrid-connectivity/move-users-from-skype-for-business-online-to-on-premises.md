@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Zusammenfassung: Erfahren Sie, wie Benutzerkonten für Business Server lokal in Skype von online zu verschieben.'
-ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2d49033e499d9a52af04fcb9e23d8ed483859f5
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025681"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "22301442"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Verschieben von Benutzern von Skype für Business Online auf lokal
  
@@ -191,7 +191,7 @@ Nachdem Sie diese Schritte abgeschlossen haben, können Sie Benutzerkonten migri
 |:-----|:-----|:-----|:-----|
 |MsRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV:  <br/> |
 |MsRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:UserName@contoso.com  <br/> |SIP:UserName@contoso.com  <br/> |
-|sRTCSIP UserEnabled  <br/> |Aktiviert  <br/> |True  <br/> |True  <br/> |
+|MsRTCSIP-UserEnabled  <br/> |Aktiviert  <br/> |True  <br/> |True  <br/> |
    
 10. Jeder verschobene Benutzer muss sich ab- und dann erneut anmelden. Nach der Anmeldung sollte jeder Benutzer seine Kontaktlisten überprüfen und ggf. Kontakte hinzufügen.
     

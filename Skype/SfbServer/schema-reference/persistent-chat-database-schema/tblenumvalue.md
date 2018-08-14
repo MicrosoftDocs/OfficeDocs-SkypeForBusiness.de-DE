@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: "\"TblEnumValue\" ist eine hardkodierte Tabelle mit den Werten Visibility und Behavior der Attribute, die in der Node-Tabelle verwendet werden."
-ms.openlocfilehash: 4957f87401dc93cc98d18fa5b1844e13daaefabd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e17e5fc167342c106e7b5354d90c7fc284785c3
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505076"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -47,7 +48,4 @@ ms.lasthandoff: 03/28/2018
    
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [tblNode](tblnode.md)
-

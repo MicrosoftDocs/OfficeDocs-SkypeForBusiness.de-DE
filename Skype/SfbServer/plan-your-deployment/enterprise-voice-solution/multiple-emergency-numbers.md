@@ -1,9 +1,8 @@
 ---
-title: Planen mehrerer Notrufnummern in Skype for Business Server 2015
+title: Planen von mehreren Notfall Zahlen in Skype für Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server 2015 planen.
-ms.openlocfilehash: f70132e555b79e88ca09c54c0ce02544bf3d9bf8
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: Lesen Sie in diesem Thema erfahren, wie mehrere Notfall Zahlen in Skype für Business Server planen.
+ms.openlocfilehash: 48b71f5f4810378ec05ae769de4ec57b9a840a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979783"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server-2015"></a>Planen mehrerer Notrufnummern in Skype for Business Server 2015
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen von mehreren Notfall Zahlen in Skype für Business Server
  
-In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server 2015 planen.
+Lesen Sie in diesem Thema erfahren, wie mehrere Notfall Zahlen in Skype für Business Server planen.
   
 Skype für Business Server unterstützt jetzt die Konfiguration von mehreren Notfall Zahlen für einen Client an. Mehrere Notfall Nummern ist ein neues Feature in der Juni 2016 kumulative Update. Während es in den Vereinigten Staaten eine einzige Notrufnummer gibt (911), sind in vielen Ländern mehrere Notrufnummern möglich. Im Vereinigten Königreich, unterstützt beispielsweise 999, die speziell für die Vereinigtes Königreich Notrufnummer und 112, die Notrufnummer für die Europäische Union. 
   
@@ -32,7 +32,7 @@ Diese Funktion ist auch nützlich für Versorger im Gesundheitsweisen der Verein
 
 Sie konfigurieren Notfall aufrufen, indem Sie erstellen Speicherort Ihrer Richtlinien, die definieren, wie notrufdienste implementiert werden. Verwenden Sie die Standortrichtlinie um zu definieren, welche Anzahl, bildet einen Notruf – beispielsweise 911 in den USA; 999 und im Vereinigten Königreich 112. Die Standortrichtlinie bestimmt, ob ein Benutzer für notrufdienste aktiviert ist, und wenn dies der Fall ist was das Verhalten des ein Notruf ist. Sie können auch definieren, ob die Sicherheit im Unternehmen automatisch benachrichtigt werden soll, und wie der Anruf weitergeleitet werden sollen.
   
-Weitere Informationen zum Definieren und Ändern einer ortungsrichtlinie finden Sie unter [Planen von Standortrichtlinien für Skype für Business Server 2015](location-policies.md) und [Erstellen von Standortrichtlinien in Skype für Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md). Die folgenden Themen beschreiben die Konzepte zur Standortrichtlinien; Folgen Sie jedoch die Anweisungen in [mehreren Notfall Zahlen in Skype für Business 2015 konfigurieren](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) , um mehrere Notfall Nummern konfigurieren.
+Weitere Informationen zum Definieren und Ändern einer ortungsrichtlinie finden Sie unter [Standortrichtlinien für Skype für Business Server planen](location-policies.md) und [Erstellen von Standortrichtlinien in Skype für Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Die folgenden Themen beschreiben die Konzepte zur Standortrichtlinien; Folgen Sie jedoch die Anweisungen in [mehrere Notfall Zahlen in Skype für Unternehmen konfigurieren](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) mehrere Notfall Nummern konfigurieren.
   
 Berücksichtigen Sie beim Planen mehrerer Notrufnummern Folgendes:
   
@@ -66,12 +66,12 @@ Berücksichtigen Sie vor dem Konfigurieren mehrerer Notrufnummern Folgendes:
     
 - Wenn die Benutzer eine Nummer wählen, die der Wählzeichenfolge entspricht, ist keine Wählmaske erforderlich. Wenn es sich zum Beispiel bei der vom Benutzer gewählten Nummer um 911 handelt, ist die Wählzeichenfolge 911, und es ist keine Wählmaske erforderlich. 
     
-Weitere Informationen zur Konfiguration mehrerer Notfall Zahlen finden Sie unter [Configure mehrere Emergency in Skype für Business 2015 Zahlen](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+Weitere Informationen zur Konfiguration mehrerer Notfall Zahlen finden Sie unter [Configure Zahlen von mehreren Emergency in Skype für Unternehmen](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
 Die folgende Tabelle zeigt Beispiele für Standortrichtlinien (da es sich um Beispiele handelt, sind nicht alle Attribute enthalten):
   
 
-|**Name des Standorts Richtlinie**|**E911 aktiviert**|**Notrufwählzeichenfolge**|**DFÜ-Maske**|**Notruf Zahlen**|**PSTN-Verwendung**|**Standort erforderlich**|
+|**Name der Standortrichtlinie**|**Notrufe aktiviert**|**Notrufwählzeichenfolge**|**Wählmaske**|**Notruf Zahlen**|**PSTN-Verwendung**|**Standort erforderlich**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Vereinigte Staaten  <br/> |Ja  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Ja  <br/> |
 |US-Hospital  <br/> |Ja  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Ja  <br/> |

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: 'Der Assistent für die Office Web Apps-Server definieren definiert einen neuen Office Web Apps Server in Ihrer Bereitstellung. Fügen Sie die folgenden Informationen ein:'
-ms.openlocfilehash: df8f2ba98215a597e9532e636b022edf9cb1ec19
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 41f0d247089639713243124b622f352c04ea364d
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503676"
 ---
 # <a name="add-office-web-apps-server"></a>Hinzufügen von Office Web Apps-Servern
  
@@ -33,7 +34,4 @@ Der Assistent für die **Office Web Apps-Server definieren** definiert einen neu
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Komponenten und Topologien für Konferenzen](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
-

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Benutzereinstellung erhalten möchten, der Teil der User Settings Service ist. Die User Settings Service ist Bestandteil der Repository-API für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 562886196f06030aef30efbd6f583c29d7f29e59
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e3646b1c6d5a7f959ee76565bb7b92ac84cbe8a4
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569250"
 ---
 # <a name="get-user-setting"></a>Get-Benutzereinstellung
  
@@ -52,7 +53,6 @@ Rufen Sie die Einstellung für Benutzer gibt eine Einstellung für die einzelnen
 "key": "ShowDescriptions",
 "value": "true"
 }
-
 ```
 
  *UserId* - ID des Benutzers.

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Um die PIN des Benutzers generiert werden soll, wählen Sie automatisch gültige PIN generieren.
-ms.openlocfilehash: f09103a0a1300a32098547b896dc7872b1339c6b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 83d060f210cd6a3799d372ef6a28ef6c758d61f1
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503543"
 ---
 # <a name="set-pin"></a>Festlegen der PIN
  
@@ -28,7 +29,4 @@ Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Benutzer-PINs](http://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
-

@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Jeder Datensatz steht für einen Audiodatenstrom. Eine Audiomedien Zeile enthält in der Regel zwei Audiostreams.
-ms.openlocfilehash: 63cd2f63eed5d423750a50a23ae347a97725d65f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570051"
 ---
 # <a name="audiostream-table"></a>AudioStream-Tabelle
  
 Jeder Datensatz steht für einen Audiodatenstrom. Eine Audiomedien Zeile enthält in der Regel zwei Audiostreams.
   
-|Spalte ***|Daten Typ ***|Schlüssel / Index ***|Details ***|
+|Spalte|Datentyp|Schlüssel/Index|Details|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Verweis von der [MediaLine-Tabelle](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Verweis von der [MediaLine-Tabelle](medialine-0.md).  <br/> |
@@ -55,7 +56,7 @@ Jeder Datensatz steht für einen Audiodatenstrom. Eine Audiomedien Zeile enthäl
 |**RatioStretchedSamplesAvg** <br/> |decimal(5,2)  <br/> ||Durchschnittliches Verhältnis zwischen gestreckten Samples, generiert durch audioreparatur, und standardsamples.  <br/> |
 |**RatioCompressedSamplesAvg** <br/> |decimal(5,2)  <br/> ||Durchschnittliches Verhältnis zwischen komprimierten Samples, generiert durch audioreparatur, und standardsamples.  <br/> |
 |**Eingehend** <br/> |bit  <br/> | <br/> |Streamdaten empfangen auf Empfängerseite empfangen werden.  <br/> |
-|**Ausgehende** <br/> |bit  <br/> | <br/> |Streamdaten empfangen auf der Seite Absender empfangen werden.  <br/> |
+|**Ausgehend** <br/> |bit  <br/> | <br/> |Streamdaten empfangen auf der Seite Absender empfangen werden.  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 bedeutet, dass die streamrichtung vom Anrufer zum angerufenen verläuft.  <br/> 0 bedeutet, dass die streamrichtung vom angerufenen zum Anrufer verläuft.  <br/> |
 |**JitterInterArrivalSD** <br/> |float  <br/> ||Standardabweichung für Jitter-Ankunftszeiten.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**ConcealRatioMax** <br/> |float  <br/> ||Maximales Verhältnis der Pakete, die von der Reparatur ausgeblendet.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
@@ -84,5 +85,3 @@ Jeder Datensatz steht für einen Audiodatenstrom. Eine Audiomedien Zeile enthäl
 |**AudioPostFECPLR** <br/> |float  <br/> ||Paketverlustrate nach dem Anwenden der vorwärtsfehlerkorrektur.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**EncodeStereoPercent** <br/> |float  <br/> ||Prozentsatz des Anrufs in Stereo kodiert wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**AecCaptureStereoPercent** <br/> |float  <br/> ||Prozentsatz des Anrufs in Stereo kodiert wurde von der echounterdrückung Stereo erfasst.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-   
-

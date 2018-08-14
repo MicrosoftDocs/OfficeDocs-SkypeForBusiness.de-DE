@@ -1,37 +1,41 @@
 ---
-title: Definieren von Erfolg Audiokonferenzen oder Telefonsystem mit Aufrufen plant - Microsoft-Teams
+title: Definieren von Erfolg Audiokonferenzen, Telefonsystem mit Aufrufen plant, oder Telefon System direkten Routing - Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 04/23/2018
+manager: serdars
+ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Messen Sie die Ergebnisse der Audiokonferenzen oder Telefonsystem mit Bereitstellung plant aufrufen, und stellen Sie sicher, dass Sie die Ergebnisse erzielt haben, werden sollte.
+description: Messen Sie die Ergebnisse von Ihrer Audiokonferenzen, Telefonsystem mit Aufrufen plant oder Telefon System direkten Routing-Bereitstellung, und stellen Sie sicher, dass Sie die Ergebnisse erzielt haben, werden sollte.
 MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Priority
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92504a5a17b47e1b86dc27ee7de623d7e9c4148
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 2b8ac93fe69a4d16289541a8b2a6e7982ed3902e
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695662"
 ---
 # <a name="define-my-success"></a>Meine Erfolg definieren
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen für die Definition des Erfolgs des Updates für die Bereitstellung von Audiokonferenzen oder Telefonsystem mit Aufrufen Pläne für Ihre Organisation. Gewünschten Erfolg korrekt definiert ist, können Sie Ihre Ergebnisse im Verlauf messen, durch die Bereitstellung und stellen Sie sicher, dass die Ergebnisse, die Sie zu erreichen sind, werden sollte.
+Dieser Artikel bietet eine Übersicht über die Anforderungen für die Definition des Erfolgs des Updates für die Bereitstellung von Audiokonferenzen, Telefonsystem mit Aufrufen plant oder Telefon System direkten Routing für Ihre Organisation. Gewünschten Erfolg korrekt definiert ist, können Sie Ihre Ergebnisse im Verlauf messen, durch die Bereitstellung und stellen Sie sicher, dass die Ergebnisse, die Sie zu erreichen sind, werden sollte.
 
 <!--ENDOFSECTION-->
 
 **Audiokonferenzen** bietet Organisationen mit zusätzlichen Einstiegspunkten für alle Besprechungen (ad-hoc- oder geplanten) durch Zulassen der Besprechungsteilnehmer über das Telefonfestnetz (PSTN) beitreten, indem Sie sich mit herkömmlichen Festnetz, private Branch Exchange, Nebenstellenanlage (PBX) oder Mobiltelefonen. Dies ist hilfreich, wenn der Organisator oder Teilnehmer vor einem Computer werden nicht, oder wenn datenverbindungen nicht verfügbar oder zur Unterstützung der Sprachkommunikation zu unzuverlässig sind – beispielsweise in einer remote-Bereich mit Tupfen mobile Daten Disposition, oder an eine kostenlose, öffentlichen Wi-Fi angeschlossen sein Dienst mit eingeschränkter Bandbreite oder wenn Sie möchten, dass die Teilnehmer sich einwählen, um die Besprechung mithilfe eines Telefonie-Endpunkts, der für diese leicht zugänglich ist.
 
-**Telefonsystem mit Aufrufen plant** bietet Organisationen eine Möglichkeit, ihre Jahrestag modernisieren von Benutzern ermöglichen, stellen Sie geschäftliche Anrufe von Computern und mobilen Geräten. Jahrestag Modernisierung kann eine beliebige Anzahl von Szenarien enthalten sein – eine Aktivität-basierte arbeiten Implementierung eine Haupt-Office verschieben, Office passend skalierten Aktualisierung, zurückziehen eine ältere Nebenstellenanlage-Lösung, die den Abschluss eines PSTN-Anbieter Servicevertrag und So weiter.
+**Telefonsystem mit Aufrufen plant ("aufrufen plant")** bietet Organisationen eine Möglichkeit, ihre Jahrestag modernisieren von Benutzern ermöglichen, stellen Sie geschäftliche Anrufe von Computern und mobilen Geräten. Jahrestag Modernisierung kann eine beliebige Anzahl von Szenarien enthalten sein – eine Aktivität-basierte arbeiten Implementierung eine Haupt-Office verschieben, Office passend skalierten Aktualisierung, zurückziehen eine ältere Nebenstellenanlage-Lösung, die den Abschluss eines PSTN-Anbieter Servicevertrag und So weiter. Mit Aufrufen plant erleichtert Microsoft Connectivity an das Telefonfestnetz.
+
+Organisationen, die dieselben Vorteile für aufrufen plant, oben aufgelisteten **Phone System direkten Routing ("Direktes Routing")** erteilt werden, außer dass PSTN-Konnektivität durch eine Drittanbieter anstelle von Microsoft erleichtert wird. Dadurch wird für die Bereitstellung in Länder, in dem Aufruf von plant nicht verfügbar sind, oder in Bereitstellungen, in dem eine vorhandene PSTN-Anbieter Servicevertrag verwaltet werden muss, oder Interoperabilität mit bestimmten lokalen Systemen ist erforderlich. Eine zusätzliche Szenario zu berücksichtigen sind direkte Routing ist Systeminteroperabilität Telefonie. Während der Benutzer Aufrufen in Teams gewechselt wird sind, möglicherweise einige Benutzer auf legacy-PBX-Anlagen bleiben. Beide direkte Routing ermöglicht Anwendungsfälle möglich ist. Der Anrufdatenverkehr zwischen den Benutzern auf Systeme der Vorversion und Teams Benutzer bleiben innerhalb der Organisation.
 
 <!--ENDOFSECTION-->
 
-## <a name="define-business-use-cases-for-audio-conferencing-or-phone-system-with-calling-plans"></a>Definieren Sie Anwendungsbeispiele für Audiokonferenzen oder Telefonsystem mit Aufrufen Pläne
+## <a name="define-business-use-cases-for-audio-conferencing-calling-plans-or-direct-routing"></a>Definieren Sie Anwendungsbeispiele für Audiokonferenzen, plant aufrufen oder direkten Routing
 
-Zunächst müssen Core Projektbeteiligten Anwendungsbeispiele definieren, die die Implementierung der Audiokonferenzen oder Telefonsystem mit Aufrufen plant unterstützen.
+Zunächst müssen Core Projektbeteiligten Anwendungsbeispiele definieren, die die Implementierung der Audiokonferenz, plant aufrufen oder direkten Routing zu unterstützen.
 
 Business-Anwendungsfälle sollen definieren und Dokumentieren der erwarteten und messbare Geschäftsergebnisse und umfassen Folgendes:
 
@@ -48,37 +52,49 @@ Business-Anwendungsfälle sollen definieren und Dokumentieren der erwarteten und
 >|         |
 >|---------|
 >|**Beschreibung des aktuellen Geschäftsprozesses**<br>Für interne Besprechungen und Besprechungen mit Dritten nutzt Contoso derzeit die von etablierten lokalen Telefonanbietern bereitgestellten PSTN-Konferenzdienste, die im Minutentakt abgerechnet werden.|
->|**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Contoso investiert jährlich rund 1 Million US-Dollar für den aktuellen PSTN-Konferenzdienst, wobei 75 % der Kosten auf interne Besprechungen zurückzuführen sind. Die Verwendung der herkömmlichen Telefonie Endpunkte zur Teilnahme an Besprechungen von PSTN-Konferenzdienst gehostet ist nicht mit dem Plan für die Organisation einführen Teams als Plattform für die Zusammenarbeit und modernen Communications ausgerichtet.|
+>|**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Contoso verbringt ungefähr USD1 Millionen pro Jahr für die aktuelle PSTN-Konferenz service mit 75 % der die entstandenen Kosten für interne Besprechungen. Die Verwendung der herkömmlichen Telefonie Endpunkte zur Teilnahme an Besprechungen von PSTN-Konferenzdienst gehostet ist nicht mit dem Plan für die Organisation einführen Teams als Plattform für die Zusammenarbeit und modernen Communications ausgerichtet.|
 >|**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Mit der Annahme der Microsoft-Teams, als Plattform für die Zusammenarbeit und modernen Communications werden erwartet, dass interne Benutzer in erster Linie Besprechungen beitreten, indem Sie mit ihren PCs teilnehmen mit optimierten Headsets und Besprechungsraum Geräten ausgestattet. Die Audiokonferenzdienst werden zur Unterstützung von externer Teilnehmern oder zur Unterstützung von Situationen, in dem die Verwendung von PC-Audio für den internen Teilnehmern günstiger ist nicht, verfügbar.|
 >|**Erwartete, messbare Geschäftsergebnisse**<br>Die Verschiebung Teams als Plattform für die Zusammenarbeit, mit dem Dienst Audiokonferenzen kombiniert und modernen Communications wird die Kosten zum Übermitteln des PSTN-Konferenzdienst erheblich verringert werden.|
 
+<br>
+
 > [!TIP]
-> Es folgt ein Beispiel für einen abgeschlossenen Business Anwendungsfall für Telefonsystem mit plant aufrufen:
+> Es folgt ein Beispiel für einen abgeschlossenen Business Anwendungsfall für plant aufrufen:
 >|         |
 >|---------|
 >|**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsplätze in Contosos Niederlassung sieht für jeden Schreibtisch ein Festnetztelefon vor. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Die Mitarbeiter können nur an den ihnen zugewiesenen Festnetztelefonen Telefonanrufe tätigen und empfangen.|
 >|**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Verwendungsanalyse desktop Telefone zeigt, dass nur 10 % der der Tischtelefonen aktiv verwendet werden, mit dem Rest entweder zum Weiterleiten von Anrufen an Mobiltelefone oder auf gleichzeitig Anrufen an Mobiltelefone konfiguriert. Verwalten der vorhandenen PBX-System und zugehörige Tischtelefonen trägt zur 20 % der Contoso monatliche Telefonie Servicekosten.|
->|**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Telefonsystem mit Aufrufen plant ansetzt, kann ein Benutzer privaten Computer empfangen und tätigen von Anrufen über das Datennetzwerk durch nutzen die systemeigene Microsoft-Teams app. Dadurch entfällt die Notwendigkeit einführen und Verwalten von Tischtelefonen, und öffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb nehmen, da der Telefondienst über die Cloud über das Netzwerk mit keine Abhängigkeit von einem herkömmlichen Telefonsystem übermittelt werden kann.|
->|**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Durch das Telefonsystem mit Anrufplänen werden die Büroarbeitsplätze vereinfacht, sodass Contoso seine Geschäftstätigkeit durch die Einrichtung neuer Büros mit minimalen Vorabkosten für Telefonie erweitern kann.|
+>|**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Aufrufen von Plänen zulassen des Benutzers privaten Computer empfangen und tätigen von Anrufen über das Datennetzwerk durch nutzen die systemeigene Microsoft-Teams app. Dadurch entfällt die Notwendigkeit einführen und Verwalten von Tischtelefonen, und öffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb nehmen, da der Telefondienst über die Cloud über das Netzwerk mit keine Abhängigkeit von einem herkömmlichen Telefonsystem übermittelt werden kann.|
+>|**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Aufrufen von Plänen wird Office-Arbeitsbereiche "Contoso", um ihre Vorgänge zu erweitern, durch die Einrichtung von neuen Büros mit minimalem Vorabinvestitionen Telefonkosten vereinfacht.|
 
+<br>
+
+> [!TIP]
+> Es folgt ein Beispiel für einen abgeschlossenen Business Anwendungsfall zum direkten weiterleiten:
+>|         |
+>|---------|
+>|**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsplätze in Contosos Niederlassung sieht für jeden Schreibtisch ein Festnetztelefon vor. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Die Mitarbeiter können nur an den ihnen zugewiesenen Festnetztelefonen Telefonanrufe tätigen und empfangen.|
+>|**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Verwendungsanalyse desktop Telefone zeigt, dass nur 10 % der der Tischtelefonen aktiv verwendet werden, mit dem Rest entweder zum Weiterleiten von Anrufen an Mobiltelefone oder auf gleichzeitig Anrufen an Mobiltelefone konfiguriert. Verwalten der vorhandenen PBX-System und zugehörige Tischtelefonen trägt zur 20 % der Contoso monatliche Telefonie Servicekosten.|
+>|**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Der SIP-Trunk-Anbieter Vertrag zuletzt signiert wurde und für drei Jahre direkten werden. Direkte Routing ermöglicht PSTN-Anbindung von SIP-Trunk-Dienstanbieter bereitgestellt werden und lässt auch eines Benutzers privaten Computer empfangen und tätigen von Anrufen über das Datennetzwerk durch nutzen die systemeigene Microsoft-Teams, app. Dadurch entfällt die Notwendigkeit einführen und Tischtelefonen verwalten und die Möglichkeit, das vorhandene PBX-System außer Betrieb nehmen einen begrenzte lokale Session Border Controller (SBC) Speicherbedarf Verteidigung geöffnet.|
+>|**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Direktes Routing wird Office-Arbeitsbereichen vereinfacht zulassen "Contoso", um ihre Vorgänge durch die Einrichtung von neuen Büros mit minimalem Vorabinvestitionen Telefonkosten zu erweitern.|
 
 Zusätzlich zum Definieren von Ihrem Unternehmen Anwendungsfällen Sie sowie die Project-Grenzen, die Sie darauf gerichtet sind auf Laufwerk Angaben zu festgelegt:
 
--   **Organisationsweiten Bereich:** Die Implementierung der Audiokonferenzen oder Telefonsystem mit plant aufrufen kann der gesamten Organisation oder nur für bestimmte Unternehmenseinheiten umfassen.
+-   **Organisationsweiten Bereich:** Die Implementierung der Audiokonferenz, plant aufrufen oder direkten Routing möglicherweise der gesamten Organisation oder nur für bestimmte Unternehmenseinheiten umfassen.
 
 -   **Projektplan:** Der bestimmte Zeitplan des Projekts wird ausgeführt.
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind alle Unternehmen Anwendungsfälle für Audiokonferenzen, die Sie in Ihrer Organisation erkennen können?</li><li>Was sind alle Unternehmen Anwendungsfälle für Telefonsystem mit Aufrufen plant Sie in Ihrer Organisation erkennen können?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie alle Anwendungsbeispiele für Audiokonferenzen für Ihre Organisation.</li><li>Dokumentieren Sie alle Anwendungsbeispiele für Telefonsystem mit Aufrufen Pläne für Ihre Organisation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind alle Unternehmen Anwendungsfälle für Audiokonferenzen, die Sie in Ihrer Organisation erkennen können?</li><li>Was sind alle Unternehmen Anwendungsfälle für aufrufen plant Sie in Ihrer Organisation erkennen können?</li><li>Was sind alle Unternehmen Anwendungsfälle für direkte Routing Sie in Ihrer Organisation erkennen können?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie alle Anwendungsbeispiele für Audiokonferenzen für Ihre Organisation.</li><li>Dokumentieren Sie alle Anwendungsbeispiele für aufrufen Pläne für Ihre Organisation.</li><li>Dokumentieren Sie alle Anwendungsbeispiele für das direkte Routing für Ihre Organisation.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="identify-key-stakeholders"></a>Identifizieren der wichtigsten Projektbeteiligten
 
-Die Verwendung von Unternehmen im vorherigen Schritt festgelegten Fällen umfassen einen organisationsweiten Bereich für die Audiokonferenz oder Telefonsystem mit Aufrufen plant Implementierung und basierend auf, die, können Sie die umfassende beteiligten Matrix zum Einschließen von der richtigen Personen zu abschließen. Einbinden des Projekts.
+Die im vorherigen Schritt definierten Business Anwendungsfälle enthalten einen organisationsweiten Bereich für die Audiokonferenz, plant aufrufen oder direkten Routing-Implementierung. Anhand dieses können Sie die umfassende beteiligten Matrix zum Einschließen von der richtigen Personen im Projekt einbeziehen abschließen.
 
 > [!TIP]
 > In der folgenden Beispielvorlage für diese Matrix können Sie die Projektbeteiligten dokumentieren.
@@ -98,7 +114,7 @@ Die Verwendung von Unternehmen im vorherigen Schritt festgelegten Fällen umfass
 >|Vertreter der Betriebseinheiten|<ul><li>Beitrag zu benutzerbasierte Annahme Handbücher und Materialien (engl.).</li><li>Beitrag zu, und überprüfen Sie Geschäftsfälle verwenden.</li></ul>|TBA|
 >|Bereitstellungsleiter|<ul><li>Stellen Sie sicher, dass bereitstellungsvoraussetzungen erfüllt sind.</li><li>Beteiligen Sie Ressourcen, die die integrierten Phase Aktivitäten beteiligt sein.</li><li>Teilnehmen Sie an Besprechungen, um zu prüfen und Berichte auf Bereitstellungsstatus vorbereiten.</li></ul>|TBA|
 >|IT-Administratoren|<ul><li>Unterstützung bei der Planung von Test und Ausführung. Diese Rolle ist für IT-Experten.</li></ul>|TBA|
->|Leiter des Kundendiensts|<ul><li>Werden Sie alle für den Vorgang der Audiokonferenzen oder Telefonsystem mit Dienst aufrufen Plans zuständig.</li><li>Der Besitzer der Audiokonferenzen oder Telefonsystem mit Dienst plant aufrufen.</li></ul>|TBA|
+>|Leiter des Kundendiensts|<ul><li>Werden Sie alle für den Betrieb von Audiokonferenzen, plant aufrufen oder direkte Routingdienst verantwortlich.</li><li>Besitzen Sie den Dienst Audiokonferenzen, plant aufrufen oder direkten Routing.</li></ul>|TBA|
 >|Qualitätspioniere|<ul><li>Laufwerk Qualität, Zuverlässigkeit und Benutzer Feedback an.</li><li>Identifizieren der Qualität Trends und Laufwerk Remediation mit den jeweiligen Teams.</li><li>Melden Sie über der Lenkungsausschuss wieder führende.</li><li>Bericht über die Qualität, Zuverlässigkeit und Benutzer Stimmung über Rate Meine aufrufen und Net Promoter Punktzahl.</li></ul>|TBA|
 
 <br>
@@ -118,25 +134,38 @@ Vollständige Beteiligung Projektbeteiligten in der Definition von OKRs und KSIs
 OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt, und Sie messbare Hauptergebnisse vierteljährlich definieren. Sie monatlich Hauptergebnisse überprüfen, um den Status des gesamten Projekts, verfolgen und – basierend auf Fortschritt – passen Sie vierteljährliche Pläne nach Bedarf.
 
 > [!TIP]
-> Das folgende Beispiel enthält Ziele und wesentliche Ergebnisse, die für die Implementierung von Audiokonferenzen relevant sind:
+> Beispiele für eine Audiokonferenz-Implementierung für die Überprüfung relevante OKRs können unter verwiesen werden:
 ><br>
 >
 >**Vision: Steigern der Produktivität durch Maximierung der Investition in Office 365**
->|Ziele  |Wesentliche Ergebnisse  |Aufgabe  |
+>|Ziele  |Wichtige Ergebnisse  |zu tun  |
 >|---------|---------|---------|
 >|Bereitstellen von Audiokonferenzen in Teams gegen Ende des Geschäftsjahres 2018|1. Quartal des Geschäftsjahres 2018: Globale Bereitstellung von Audiokonferenzen in Teams|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
 >|Den Legacy-PSTN-Konferenzdienst zur Mitte des Finanzjahres 2018 deaktivieren|2. Quartal des Finanzjahres 2018: Den Legacy-PSTN-Konferenzdienst deaktivieren|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
 
+<br>
 
 > [!TIP]
-> Das folgende Beispiel enthält Ziele und wesentliche Ergebnisse, die für die Implementierung eines Telefonsystems mit Anrufplänen relevant sind:
+> Beispiele für eine Implementierung aufrufen Plans für die Überprüfung relevante OKRs können unter verwiesen werden:
 ><br>
 >
 >**Vision: Steigern der Produktivität durch Maximierung der Investition in Office 365**
->|Ziele  |Wesentliche Ergebnisse  |Aufgabe  |
+>|Ziele  |Wichtige Ergebnisse  |zu tun  |
 >|---------|---------|---------|
->|Bereitstellen eines Telefonsystems mit Anrufplänen in den europäischen Zweigniederlassungen bis zum Ende des Geschäftsjahrs 2018|3. Quartal des Geschäftsjahrs 2018: Bereitstellung eines Telefonsystems mit Anrufplänen in der Niederlassung in London|Konzeptionierung<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
+>|Bereitstellen von Aufrufen in Europäischen Zweigstellen plant vom Ende des Geschäftsjahres 2018|FY18Q3: Bereitstellen von Aufrufen in London Office Pläne|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
 >|Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London bis zum Ende des Geschäftsjahrs 2018|4. Quartal des Geschäftsjahrs 2018: Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
+
+> [!TIP]
+> Beispiele für eine direkte Routing-Implementierung für die Überprüfung relevante OKRs können unter verwiesen werden:
+><br>
+>
+>**Vision: Steigern der Produktivität durch Maximierung der Investition in Office 365**
+>|Ziele  |Wichtige Ergebnisse  |zu tun  |
+>|---------|---------|---------|
+>|Ende des Geschäftsjahres 2018 bereitstellen Sie direkten Routing in Kanadische Zweigstellen|FY18Q3: Bereitstellen von direkten Routing in Toronto office|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
+>|Vorhandene PBX in Toronto Office vom Ende des Geschäftsjahres 2018 Außerbetriebnahme|FY18Q4: Außer Betrieb nehmen Sie vorhandene PBX in Toronto office|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
+
+<br>
 
 KSIs Qualität und Erfolg der wichtigsten Ergebnisse messen und ergänzen die binäre Art des OKRs (erreicht oder nicht erreicht) mit gute und/oder fehlerhafte Ergebnissen.
 
@@ -173,12 +202,13 @@ Sie müssen Business Risiken im Rahmen dieser Übung identifizieren und definier
 >|Bei der bevorstehenden Fusion werden bis zu 1.000 Personen dazukommen|Hoch|Hoch|Hoch|<ul><li>Erstellen Sie eine separate OKR, die für ihre eigenen Projektphasen (Ermitteln übergeordneter Faktoren, Onboard, Laufwerk Wert) gilt für verbundene Unternehmen</li><li>Diese OKRs in vorhandenen OKRs einzuschließen.</li></ul>|
 >|Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten der alle Informationen zur Unterstützung von Telefonnummer Portieren vorausschauendes (Customer Service-Eintrag Abrechnung Details Buchstaben der Autorisierung) erforderlich</li><li>Passen Sie die Bearbeitungszeit von Telefon Nummer Portieren Ausführung zur Erfüllung der Projektplan an</li><li>Teilen Sie den externen Teilnehmern die neuen Einwahlkonferenznummern mit.</li><li>Verwenden Sie vorübergehende Telefonnummern mit Änderung der Anrufer-ID.</li></ul>|
 >|Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Vor der Implementierung von Teams als Plattform für die Zusammenarbeit und modernen Communications, Durchführen einer Netzwerk-Bereitschaft für Websites im Bereich des Projekts</li></ul>|
+>|SBC-Konfiguration|Hoch|Hoch|Hoch|<ul><li>Bestätigen Sie vor der Implementierung von Teams als Ersatz für die vorhandene Nebenstellenanlage, dass Sie alle SBC konfigurationsanforderungen erfüllen können</li><li>Bestätigen Sie, dass SBC Supportressourcen die richtigen Qualifikationen SBC für die direkte Weiterleitung konfigurieren haben</li></ul>|
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind OKRs und KSIs Ihrer Organisation?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Telefonsystem mit Aufrufen plant in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren der OKRs KSIs, und Einrichten von Risiken registrieren.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind OKRs und KSIs Ihrer Organisation?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung des Plans Aufrufen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von direkten Routing in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die OKRs und KSIs, und legen Sie die Risiken registrieren.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -220,6 +250,6 @@ Der Lenkungsausschuss erfüllt in regelmäßigen Abständen während der Lebensd
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob einem Lenkungsausschuss für Ihre Organisation erforderlich ist.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Identifizieren der Mitglieder des Lenkungsausschusses.</li><li>Planen von Besprechungen Lenkungsausschuss.</li><li>Vorbereitung der Lenkungsausschuss Besprechungen.</li><li>Halten Sie Lenkungsausschuss Besprechungen.</li><li>Ausführen einer Aktion basierend auf Lenkungsausschuss meeting Eingabe.</li></ul>|
 
-Weitere detaillierte Anleitungen zum betreiben eine ordnungsgemäße Lenkungsausschuss finden Sie in der Lenkungsausschuss Handbuch zur Verfügung [hier](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
+Weitere detaillierte Anleitungen zum betreiben eine ordnungsgemäße Lenkungsausschuss kann im [Handbuch Lenkungsausschuss](envision-steering-committee-complete-guide.md)gefunden werden.
 
 <!--ENDOFSECTION-->

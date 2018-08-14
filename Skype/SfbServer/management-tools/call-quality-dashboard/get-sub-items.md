@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Zusammenfassung: Informationen Sie zum Vorgang untergeordnete Elemente abrufen, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 8b9ec0c1c849e22f285ef1b5bbb2db806a153b76
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bc2af38036a40b9181b8ae3ccaa39a803e4e9723
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569589"
 ---
 # <a name="get-sub-items"></a>Untergeordnete Elemente abrufen
  
@@ -60,7 +61,6 @@ Rufen Sie ein bestimmtes Element Unterelemente Unterelemente gibt.
 "userId": 0,
 "type": "json"
 }]
-
 ```
 
 Item-Objekts zurückgegebenen Elemente Vorgang enthält nur die folgenden drei Felder. 

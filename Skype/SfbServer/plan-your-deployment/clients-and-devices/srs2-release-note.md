@@ -1,7 +1,7 @@
 ---
 title: Anmerkungen zu dieser Version
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: 3c8c314000fddf78f9247efaefa989f586c1e7b4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412325"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -97,8 +98,7 @@ In diesem Update eingeführt:
 - Die Möglichkeit, Feedback geben für Öffentliche builds     
 - Verbesserte Telemetrie an Besprechung teilnehmen Zuverlässigkeit     
 - Zusätzliche OMS reporting     
-- Möglichkeit für IT-Administrator können Sie Geräte Remote konfigurieren 
-    <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- Möglichkeit für IT-Administrator können Sie Geräte Remote konfigurieren<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
@@ -139,8 +139,6 @@ In diesem Update eingeführt:
 <a name="See"> </a>  
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 
-
-#### 
 [Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Vorbereiten Sie Ihrer Skype Geschäftsumgebung](srs-v2-prep.md)
@@ -149,6 +147,6 @@ In diesem Update eingeführt:
 
 [Bekannte Probleme bei Skype Raum Systemen v2](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Planen von Skype Raum Systemen v2](skype-room-systems-v2-0.md)
+[Planung für Skype Room Systems v2](skype-room-systems-v2-0.md)
 
-[Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

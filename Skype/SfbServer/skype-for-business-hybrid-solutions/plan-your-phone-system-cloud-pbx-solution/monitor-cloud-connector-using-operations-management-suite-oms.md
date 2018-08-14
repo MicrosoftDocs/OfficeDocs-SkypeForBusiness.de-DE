@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lesen Sie in diesem Thema erfahren, wie Ihre Cloud-Connector-Version 2.1 und höher Bereitstellung überwachen, mithilfe von Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 160fcfc4baade7bc59d41771b0fd86d3cb725cab
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569761"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud-Connector mithilfe von Operationen Management Suite (OMS)
  
@@ -152,8 +153,7 @@ Diese Warnung Paar zu erstellen:
 - Die Abfrage für die Fehlermeldung ist:
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
     Die Abfrage verwendet die Computer Filter *, auf dem Computer "MediationServer" enthält* . Der Filter wählt nur auf den Computer, dessen Name die Zeichenfolge "MediationServer" enthält.
@@ -165,8 +165,7 @@ Diese Warnung Paar zu erstellen:
 - Die Abfrage für die Benachrichtigung zurücksetzen ist:
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     Die Reset-Abfrage ist genau das gegenteilige, was der Abfrage Fehler. Für jeden Computer wird es eine zurück, wenn das letzte Ereignis ist Ereignis den Dienst zu starten. nothing wird zurückgegeben, wenn das letzte Ereignis Service Stop-Ereignis ist.
@@ -178,9 +177,7 @@ So erstellen Sie diese Warnung:
 - Die Abfrage für die Fehlermeldung ist:
     
   ```
-  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName 
-== "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
+  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
     Für jeden Computer erhalten die Abfrage den letzten Leistungsindikatoren für eingehende Anrufe und ausgehende Anrufe und Summe diese beiden Werte. Wird zurückgegeben, die eine melden, wenn der Summenwert 500; überschreitet nothing wird zurückgegeben, wenn dies nicht der Fall. Kurz gesagt, würde die Abfrage eine Liste der Server zurück, deren gleichzeitige Anrufe zu viele im Zeitfenster sind.
@@ -188,10 +185,7 @@ So erstellen Sie diese Warnung:
 - Die Abfrage für die Benachrichtigung zurücksetzen ist:
     
   ```
-  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==
- "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
-
+  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     Die Reset-Abfrage ist genau das gegenteilige, was der Abfrage Fehler. Für jeden Computer erhalten die Abfrage den letzten Leistungsindikatoren für eingehende Anrufe und ausgehende Anrufe und Summe diese beiden Werte. Es wird ein Protokoll, wenn der Summenwert ist kleiner als 500 zurückgeben. Es gibt nichts anders zurück.
@@ -201,8 +195,7 @@ So erstellen Sie diese Warnung:
 Um diese Warnung zu erstellen, ist die Abfrage:
   
 ```
-search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==
- "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
+search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
 Die Abfrage erhalten alle Prozessor Usage Leistungsindikator und Service Stop-Ereignis von allen Computern und zurückgeben, die jemals ein Protokoll überschreitet entweder Prozessorverwendung 90 % oder Dienst beendet wurde. 
