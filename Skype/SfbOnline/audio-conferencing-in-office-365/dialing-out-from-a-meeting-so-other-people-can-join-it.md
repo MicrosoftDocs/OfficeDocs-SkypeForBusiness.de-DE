@@ -1,5 +1,5 @@
 ---
-title: Anruf aus einer Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können
+title: Telefonverbindung aus einer Skype für Business Besprechung, damit andere Personen sie beitreten können
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,24 +14,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 31d81b1a61838d4fcb8151ef467b14a9c1240c4b
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 392b237c36841990caacbaafd7c6d3dd8ebc7d77
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703384"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490465"
 ---
-# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Anruf aus einer Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Telefonverbindung aus einer Skype für Business Besprechung, damit andere Personen sie beitreten können
 
-Als Besprechungsorganisator können Sie mit einer Skype for Business- oder Microsoft Teams-App einen Anruf aus einer Besprechung heraus tätigen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
+> [!NOTE]
+> Wenn Sie Informationen zum Wählen von Telefonnummern, in einer Besprechung Teams suchen, finden Sie unter [Telefonverbindung aus einer Besprechung Teams, damit andere Personen sie beitreten können](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
+
+Als Organisator der Besprechung können Sie sich einwählen, bei Verwendung der Skype für Geschäfts-app an andere Personen Verknüpfung der gleichen Besprechung über das Telefon lassen. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
   
-- Sie können nur dann einen Anruf aus einer Besprechung heraus tätigen, wenn Sie über eine Skype for Business- oder Microsoft Teams-App an einer Besprechung teilnehmen.
+- Sie können Dial-Out-nur, wenn Sie an einer Besprechung mithilfe einer Skype für Geschäfts-app teilnehmen.
     
 - Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
 
@@ -54,7 +56,7 @@ Dial-out is only available to some countries/regions. Vollständige Liste finden
 
 [Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Skype für Business Add-on Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>See Also
 

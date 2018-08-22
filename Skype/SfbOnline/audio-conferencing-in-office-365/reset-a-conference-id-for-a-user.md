@@ -1,5 +1,5 @@
 ---
-title: Einrichten einer Konferenz-ID für einen Benutzer
+title: Eine Konferenz-ID für einen Benutzer in Skype für Business Online zurücksetzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,40 +14,30 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: eb827cff5bdfbc86bf85aab63a8f29165a91f034
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+description: 'Hier erfahren Sie die Schritte ein Benutzers Zurücksetzen des meeting-Konferenz-ID in Skype für Business Online sowie Get links auf meeting Update und Migration Tools. '
+ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490535"
 ---
-# <a name="reset-a-conference-id-for-a-user"></a>Einrichten einer Konferenz-ID für einen Benutzer
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Eine Konferenz-ID für einen Benutzer in Skype für Business Online zurücksetzen
+
+> [!NOTE]
+> Informationen zum Zurücksetzen des Konferenz-ID in der Microsoft-Teams, finden Sie unter [Zurücksetzen eine Konferenz-ID für einen Benutzer in Microsoft-Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
 
 Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen zusammen mit der Zugriffsnummer für Einwahl Telefonnummern, die von Anrufern zu einer Besprechung Anrufen verwendet werden können. Wenn der Benutzer die Telefonnummer wählt, wird die automatische Telefonzentrale für die Besprechung bitten Sie den Anrufer an diese Konferenz-ID eingeben, damit sie an der Besprechung teilnehmen können.
   
 > [!NOTE]
-> Ist Ihr Konferenzanbieter Microsoft, werden Ihrer Benutzer Konferenz-IDs auf dynamische nur in der Standardeinstellung festgelegt. Leider besteht keine Möglichkeit, ändern Sie ihn in die Skype für Business-Verwaltungskonsole oder mithilfe von Windows Powershell zu statischen, wie dies nun ist nicht unterstützt.
-Konferenz-IDs werden nur für Skype für Geschäfts- und Microsoft-Teams für Audiokonferenzen aktivierte Benutzer nur automatisch festgelegt. 
-  
+> Ist Ihr Konferenzanbieter Microsoft, werden Ihrer Benutzer Konferenz-IDs auf dynamische nur in der Standardeinstellung festgelegt. Leider besteht keine Möglichkeit, ändern Sie ihn in die Skype für Business-Verwaltungskonsole oder mithilfe von Windows Powershell zu statischen, wie dies nun ist nicht unterstützt. Konferenz-IDs werden nur für Skype für Unternehmensbenutzer für Audiokonferenzen aktiviert automatisch festgelegt. 
+
 ## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
-
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
-
-3. Klicken Sie auf das Menü neben **Konferenz Brücken**, und klicken Sie dann auf **Zurücksetzen Konferenz-Id** in der Dropdown-Liste.
-
-2. Klicken Sie im Fenster **Konferenz-Id zurücksetzen** klicken Sie auf **Ok**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.   
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
-    
+   
 1. Klicken Sie in der **Skype für Business Administrationscenter**auf **Audiokonferenzen** > **Benutzer**, wählen einen Benutzer aus, und klicken Sie dann im Aktionsbereich unter **Konferenz-ID** **Zurücksetzen**.
     
 2. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Ja**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.
@@ -80,7 +70,7 @@ Konferenz-IDs werden nur für Skype für Geschäfts- und Microsoft-Teams für Au
 
 - In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
     
-  - [Eine Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
     

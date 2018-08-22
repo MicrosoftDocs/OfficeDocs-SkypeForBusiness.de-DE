@@ -1,5 +1,5 @@
 ---
-title: Aktivieren bzw. Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen
+title: Aktivieren oder Deaktivieren der Eintrag und Beenden von Ansagen für Besprechungen in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,45 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 9cd2c95d0dde2e61ca1f0378fe91a215bdfc2682
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: d6d1b70713ac0cd7a38f7de9cb84f0acb54cbe30
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302151"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490485"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Aktivieren bzw. Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Aktivieren oder Deaktivieren der Eintrag und Beenden von Ansagen für Besprechungen in Skype für Business Online
 
-Wenn Sie Audiokonferenzen in Office 365 einrichten, erhalten Sie eine audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehrere Telefonnummern enthalten, mit denen Personen einen Skype für Business oder Microsoft-Teams Besprechung anrufen. 
+> [!Note]
+> Informationen zu zu- und Ansagen im Microsoft-Teams finden Sie unter [Aktivieren oder Deaktivieren von zu- und Ankündigungen für Besprechungen in Microsoft-Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams).
+
+Wenn Sie Audiokonferenzen in Office 365 einrichten, erhalten Sie eine audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehrere Telefonnummern enthalten, mit denen Personen einen Skype für Business Besprechung anrufen. 
   
-Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, die in einer Besprechung mit einem Telefon einwählt. Bitten Sie die Konferenzbrücke den Anrufer mit Ansagen aus einer Live Meeting-Telefonzentrale beantwortet, und klicken Sie dann je nach Ihrer Einstellungen kann wiedergeben Benachrichtigungen, Anrufer dokumentieren Sie ihren Namen, und richten Sie die PIN-Sicherheit. Eine PIN zu einem Skype für Business oder Microsoft-Teams Besprechungsorganisator angegeben wird, und es ermöglicht es ihnen, eine Besprechung starten, wenn die Besprechung mithilfe einer Skype für Business oder Microsoft-Teams app gestartet werden kann. Sie können, jedoch festlegen, sodass eine PIN erforderlich ist, um eine Besprechung zu starten.
+Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, die in einer Besprechung mit einem Telefon einwählt. Bitten Sie die Konferenzbrücke den Anrufer mit Ansagen aus einer Live Meeting-Telefonzentrale beantwortet, und klicken Sie dann je nach Ihrer Einstellungen kann wiedergeben Benachrichtigungen, Anrufer dokumentieren Sie ihren Namen, und richten Sie die PIN-Sicherheit. Eine PIN zu einem Skype für Business Besprechungsorganisator angegeben wird, und es ermöglicht es ihnen, eine Besprechung starten, wenn die Besprechung mithilfe der Skype für Geschäfts-app gestartet werden kann. Sie können, jedoch festlegen, sodass eine PIN erforderlich ist, um eine Besprechung zu starten.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Festlegen von Optionen für die Besprechungsteilnahme
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
-
-2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
-
-3. Klicken Sie im Bereich **Einstellungen Bridge** **und**aktivieren Sie oder deaktivieren Sie aktivieren Besprechungseintrag beenden Benachrichtigungen aktiviert werden. Diese Option ist standardmäßig aktiviert. Wenn Sie ihn deaktivieren, werden nicht Benutzer, die bereits an der Besprechung benachrichtigt, wenn ein Benutzer eingibt oder die Besprechung verlässt.
-    
-4. Wählen Sie unter **Entry/Exit Ankündigung Typ** **Namen oder Rufnummern** oder **Töne**.
-    
-5. Aktivieren oder Deaktivieren von **Ask Anrufer ihren Namen vor der Teilnahme an der Besprechung aufzeichnen**.
-    
-6. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Übernehmen**.
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     

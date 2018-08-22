@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer
+title: Deaktivieren von gebührenfreie Nummern für bestimmte Skype für Business Online-Benutzern
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,20 +13,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen verwenden können.
-ms.openlocfilehash: 4bee4449dd8e21ded52f40cc04832bd40b15c139
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 1cd144af4f57b3c4ecb19de6c4aeea36f5d2baed
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193044"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490545"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deaktivieren von gebührenfreie Nummern für bestimmte Skype für Business Online-Benutzern
+
+> [!Note]
+> Informationen zu deaktivieren Tool frei Zahlen für Teams Benutzer finden Sie unter [gebührenfreie Nummern bestimmte Teams Benutzer deaktivieren](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
 Wenn Ihre Organisation gebührenfreie Nummern in der Microsoft Audio Conferencing Bridge verfügt, können Sie erlauben oder verhindern ihrer Verwendung in Besprechungen von bestimmten Organisatoren durch.  
 
@@ -43,24 +45,8 @@ Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:
 
  - Teilnehmer können weiterhin teilnehmen an Besprechungen des Dialogfelds Organisieren von gebührenfreie Nummern. 
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer 
 
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
-
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
-
-3. Klicken Sie auf das Menü neben **Konferenz Brücken**, und klicken Sie dann auf **Bearbeiten** , in der Dropdown-Liste.
-
-4. Deaktivieren Sie im Bereich **Konferenz Bridge Anbieter** **Zulassen gebührenfreie Nummern in die Konferenzbrücke Ihrer Organisation zur Teilnahme an Besprechungen dieses Benutzers verwenden**aus. 
-
-5. Klicken Sie auf **anwenden.** 
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer. 
 

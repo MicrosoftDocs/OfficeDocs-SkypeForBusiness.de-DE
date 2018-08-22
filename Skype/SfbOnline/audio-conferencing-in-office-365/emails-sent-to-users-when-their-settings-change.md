@@ -1,5 +1,5 @@
 ---
-title: E-Mails an Benutzer gesendet werden, wenn ihre Einstellungen ändern
+title: An Benutzer gesendet wird, wenn Ändern ihrer Einstellungen für die in Skype für Business Online-e-Mails
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,19 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Hier erfahren Sie, welche Informationen automatisch gesendet, Benutzern per e-Mail beim Ändern ihrer Einstellungen für einwahlkonferenzen in Skype für Business Online. '
+ms.openlocfilehash: cfa3e86be0d282e335b20a094e60835df3471358
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490505"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change"></a>E-Mails an Benutzer gesendet werden, wenn ihre Einstellungen ändern
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>An Benutzer gesendet wird, wenn Ändern ihrer Einstellungen für die in Skype für Business Online-e-Mails
+
+> [!Note]
+> Wenn Sie für die automatische e-Mail-Informationen in Microsoft-Teams, suchen, finden Sie unter [e-Mails gesendet für Benutzer, wenn in Microsoft-Teams, deren Einstellungen ändern](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams).
 
 E-Mails werden automatisch für Benutzer, die [für die Audiokonferenz aktiviert](set-up-audio-conferencing.md) werden gesendet mithilfe von Microsoft als Anbieter von Audiokonferenzen.
   
@@ -34,7 +37,7 @@ Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audi
   
 - **Auf diese oder beim Ändern des Anbieters von Audiokonferenzen an Microsoft, wird eine Audiokonferenz-Lizenz zugewiesen.**
     
-     Diese e-Mail enthält die Konferenz-ID, die Konferenz Standardrufnummer für Besprechungen, die Audiokonferenz PIN für den Benutzer und die die Skype für Business Online Besprechung Update Tool verwenden, mit dem Aktualisieren vorhandener Besprechungen für, Anweisungen und Link der Benutzer. Finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) oder [Microsoft als Anbieter von Audiokonferenzen zuweisen](assign-microsoft-as-the-audio-conferencing-provider.md).
+     Diese e-Mail enthält die Konferenz-ID, die Konferenz Standardrufnummer für Besprechungen, die Audiokonferenz PIN für den Benutzer und die die Skype für Business Online Besprechung Update Tool verwenden, mit dem Aktualisieren vorhandener Besprechungen für, Anweisungen und Link der Benutzer. Finden Sie unter [Skype für Business Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) oder [Microsoft als Anbieter von Audiokonferenzen zuweisen](assign-microsoft-as-the-audio-conferencing-provider.md).
     
     > [!NOTE]
     > Wenn Ihre Organisation für dynamische Konferenz-IDs aktiviert wurde, weisen alle geplanten Besprechungen eines Benutzers eine eindeutige Konferenz-ID auf. Sie können die [dynamische Audiokonferenzen-IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md)einrichten. 
@@ -43,7 +46,7 @@ Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audi
     
      ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
   
-    Weitere Informationen zur Skype for Business-Lizenzierung finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md),
+    Sie können Skype erkunden für Business Lizenzierung von [Skype für Business Add-on Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)sehen.
     
 - **Sich die Konferenz-ID oder die Standardtelefonnummer eines Benutzers ändert.**
     
@@ -77,6 +80,9 @@ Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audi
     
      !["Dial-In-Konferenzen" ist deaktiviert.](../images/audio-conferencing-turned-off.png)
   
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Änderungen an den E-Mail-Nachrichten, die ihnen geschickt werden
 
 Sie können die e-Mail-Nachricht ändern, die automatisch gesendet wird, um Benutzer, einschließlich der e-Mail-Adresse und den Anzeigenamen, der in die Kontaktinformationen *aus* enthalten ist. Standardmäßig werden des Absenders der e-Mail von Office 365, aber Sie können die e-Mail-Adresse ändern und den Anzeigenamen von Windows PowerShell und das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Um die e-Mail-Adresse ändern, die die e-Mail-Nachricht an die Benutzer senden, müssen Sie folgende Aktionen ausführen:
@@ -102,18 +108,8 @@ Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microso
 
 Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails an die Benutzer gesendet, auch nicht, wenn ihnen eine Lizenz zugewiesen wird. In diesem Fall die Konferenz-ID default Conferencing Telefonnummer und wichtiger, ihre PIN-Audiokonferenzen wird nicht an den Benutzer gesendet werden. Wenn dies geschieht, müssen Sie dem Benutzer eine separate E-Mail schreiben oder ihn anrufen, um ihm diese Mitteilung zu machen.
   
-In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu den Empfang von e-Mails für Audiokonferenzen verhindern möchten, können Sie Microsoft-Teams, die Skype Business-Verwaltungskonsole oder Windows PowerShell. 
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
-
-2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
-
-3. Klicken Sie im Bereich **Bridge-Einstellungen** aktivieren oder Deaktivieren von **Benutzern Wenn Ändern ihrer Einstellungen für die Zugriffsnummer für Einwahl-e-Mails automatisch gesendet**.
-
-4. Klicken Sie auf **Speichern**.
-  
+In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu empfangen von e-Mail für Audiokonferenzen verhindern möchten, können Sie die Skype Business-Verwaltungskonsole oder Windows PowerShell. 
+ 
 ![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png)  **mithilfe der Skype für Business Administrationscenter**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.

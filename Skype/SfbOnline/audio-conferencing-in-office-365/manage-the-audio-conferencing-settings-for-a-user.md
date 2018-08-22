@@ -1,5 +1,5 @@
 ---
-title: Verwalten der Audiokonferenz Einstellungen für einen Benutzer
+title: Verwalten von Einstellungen für die Audiokonferenz für einen Benutzer in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,43 +14,25 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Als ein Office 365-Administrator können Sie die Einstellungen für die Audiokonferenz bearbeiten – wie der Anbieter, Standard gebührenpflichtige oder gebührenfreie Telefonnummer, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation. Wenn Sie Einstellungen für die Organisation bearbeiten möchten, finden Sie unter Verwalten der Audiokonferenz Einstellungen für meine Organisation.
-ms.openlocfilehash: 141ede21a99ff251786c7dfc63f4c55358b61c72
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+description: 'Sie können als ein Office 365-Administrator, der Skype für Business Audio Onlinekonferenzen Einstellungen bearbeiten – wie der Anbieter, Standard gebührenpflichtige oder gebührenfreie Telefonnummer, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation. '
+ms.openlocfilehash: ed8038955174a19e7861c872e1a095644288e6c2
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490525"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Verwalten der Audiokonferenz Einstellungen für einen Benutzer
+# <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Verwalten von Einstellungen für die Audiokonferenz für einen Benutzer in Skype für Business Online
+
+> [!Note]
+> Wenn Sie Benutzer in Microsoft-Teams verwalten möchten, finden Sie unter [verwalten die Audiokonferenz Einstellungen für einen Benutzer in Microsoft-Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
 Als ein Office 365-Administrator können Sie die Einstellungen für die Audiokonferenz bearbeiten – wie der Anbieter, Standard gebührenpflichtige oder gebührenfreie Telefonnummer, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation. Wenn Sie Einstellungen für die Organisation bearbeiten möchten, finden Sie unter [die Audiokonferenz Einstellungen für meine Organisation verwalten](manage-the-audio-conferencing-settings-for-my-organization.md).
 
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
-
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
-
-3. Ändern Sie unter **Audiokonferenzen**eine der folgenden aus:
-
-|**Einstellung**|**Beschreibung**|
-|:-----|:-----|
-|**Audiokonferenzen**|Audiokonferenzen aktivieren oder Deaktivieren für den Benutzer, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen**, und klicken Sie dann im Bereich **Audiokonferenzen** ein-/ausschalten **Audiokonferenzen** aktiviert oder deaktiviert.|
-|**Konferenz-Informationen in e-Mail senden**  |Klicken Sie auf diesen Link, nur, wenn Sie eine e-Mail an den Benutzer mit seinem Konferenz-ID und Telefonnummer sofort senden möchten. (Diese e-Mail ist die PIN nicht enthalten.) Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md).  |
-|**Konferenz-ID**  |Klicken Sie auf **Zurücksetzen Konferenz-ID** , wenn Sie die Konferenz-ID für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Zurücksetzen eine Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user.md).  |
-|**PIN-NUMMER** |Klicken Sie auf **Zurücksetzen PIN** , wenn Sie die PIN für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Audio Conferencing PIN zurücksetzen](reset-the-audio-conferencing-pin.md). |
-|**Default Conferencing gebührenpflichtige Telefonnummer** (erforderlich) |Diese werden Zahlen, die für die audiokonferenzbrücke festgelegt werden. Formatieren Sie die Zahlen in Skype für Geschäfts- und Microsoft-Teams, Besprechungsanfragen angezeigt werden soll. Um die standardmäßige gebührenpflichtige Nummer zu ändern, klicken Sie auf **Bearbeiten** weiter zu **Audiokonferenzen** und in der **Audiokonferenz** Sie im Bereich Wählen Sie eine Zahl unter **gebührenpflichtige Nummer**aus. |
-|**Invites von diesem Benutzer können die gebührenfreie Telefonnummer enthalten.**|Wenn Sie diese Einstellung ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , umschalten Sie **gebührenfreie Nummern in Besprechungsanfragen von diesem Benutzer umfassen** , aktiviert oder deaktiviert. |
-|**Dial-Out-Berechtigungen**|Wenn Sie diese Einstellung ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , wählen Sie eine Option unter **Dial-Out - Berechtigung von Besprechungen**.|
-
-![Zeigt die Audiokonferenz Einstellungen für einen Benutzer](../images/sfbaudioconf-usersettings.png)
- 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     

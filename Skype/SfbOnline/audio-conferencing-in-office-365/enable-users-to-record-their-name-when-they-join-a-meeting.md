@@ -1,5 +1,5 @@
 ---
-title: Aktivieren der Aufzeichnung des Benutzernamens beim Beitreten einer Besprechung
+title: Aktivieren von Benutzern, ihren Namen aufzuzeichnen, beim Beitritt zu einer Besprechung in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,42 +14,28 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: 940d4eefb6a997b03bb25fc558faf15ce9edb507
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: Informationen Sie zum Aktivieren oder deaktivieren, ob die Benutzer beim Beitritt zu einer Besprechung in Skype für Business Online ihre Namen festhalten können.
+ms.openlocfilehash: b920f0cfea6aa607f5bc3ea7c8a53b5668ba02da
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703494"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490725"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Aktivieren der Aufzeichnung des Benutzernamens beim Beitreten einer Besprechung
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Aktivieren von Benutzern, ihren Namen aufzuzeichnen, beim Beitritt zu einer Besprechung in Skype für Business Online
+
+> [!Note]
+> Wenn Sie Benutzern notieren deren Namen im Teams ermöglichen möchten, finden Sie unter [Aktivieren von Benutzern zum Aufzeichnen ihrer namens beim Beitritt zu einer Besprechung in Microsoft-Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
 Bei der Konfiguration von Einwahlkonferenzen in Skype for Business Online erhalten Sie Telefonnummern sowie eine so genannte Einwahl- oder Audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen, bei der bzw. denen sich um fest zugeordnete oder gemeinsam genutzte Telefonnummern handeln kann.
   
 Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Telefon in eine Besprechung einwählt. Die Konferenzbrücke nimmt den Anruf an und gibt Sprachansagen einer automatischen Telefonzentrale aus. Je nach den festgelegten Einstellungen gibt sie Benachrichtigungen wieder und fordert Anrufer auf, ihren Namen aufzuzeichnen. Zudem richtet sie die PIN-Sicherheit für die Organisatoren der Besprechung ein. Der Organisator der Besprechung erhält PINs, damit er eine Besprechung starten kann. Sie können in Ihren Einstellungen jedoch festlegen, dass zum Start einer Besprechung keine PIN erforderlich ist.
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="set-whether-callers-should-record-their-name"></a>Festlegen, ob Anrufer ihren Namen aufzeichnen sollen
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
-
-2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
-
-3. Aktivieren oder Deaktivieren von **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden**.
-
-4. Klicken Sie auf **Anwenden**.
-
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Admin Center**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     

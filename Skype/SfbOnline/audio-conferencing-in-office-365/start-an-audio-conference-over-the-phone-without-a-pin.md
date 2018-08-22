@@ -1,5 +1,5 @@
 ---
-title: Beginnen einer Audio-Konferenz über das Telefon ohne PIN
+title: Beginnen einer Audio-Konferenz über das Telefon ohne PIN in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,41 +14,33 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 4deb415e9fd7154d72b7d598bcc5dfb8eabed6ed
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f0e65b3ea4ad5c989137307a1c41bc70bc092086
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490555"
 ---
-# <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Beginnen einer Audio-Konferenz über das Telefon ohne PIN
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Beginnen einer Audio-Konferenz über das Telefon ohne PIN in Skype für Business Online
 
-Es kann für Benutzer frustrierend sein, die sich in in eine Besprechung einwählen gehalten werden, in der Besprechung Wartebereich Musik hören, weil die Skype für Business oder Microsoft-Teams Organisator die Besprechung noch nicht gestartet. 
+> [!Note]
+> Informationen zum Starten einer Audiokonferenz ohne eine PIN-Nummer im Microsoft-Teams, finden Sie unter [Beginnen einer Audio-Konferenz über das Telefon ohne PIN in Microsoft-Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
+
+Es kann für Benutzer frustrierend sein, die sich in in eine Besprechung einwählen gehalten werden, in der Besprechung Wartebereich Musik hören, weil die Skype für Business Organisator die Besprechung noch nicht gestartet. 
   
 Wenn Organisator einer Besprechung die Besprechung standardmäßig in Aufrufe ist eine PIN erforderlich, um eine Besprechung zu starten. Sie können es einrichten, damit alle Benutzer an einer Besprechung einwählen kann und keine Aufforderung des Benutzers für eine PIN, um die Besprechung zu starten. Sie können diese Einstellung für einen einzelnen Benutzer im Skype for Business Admin Center aktivieren oder deaktivieren.
   
-Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine Person die Besprechung aus einem Skype für Business oder Microsoft-Teams app gestartet wurde. Eine PIN ist nur erforderlich, wenn der Organisator einer Besprechung per Telefon an der Besprechung teilnimmt. Die PIN für Besprechungen wird an den audio-Benutzer gesendet, die **Audiokonferenz** Lizenz zugewiesen werden und für Audiokonferenzen aktiviert sind. Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md) und [E-Mails, die Benutzern beim Ändern ihrer Einstellungen für die Audiokonferenz automatisch gesendet werden](emails-sent-to-users-when-their-settings-change.md).
+Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine Person die Besprechung aus der Skype für Geschäfts-app gestartet wurde. Eine PIN ist nur erforderlich, wenn der Organisator einer Besprechung per Telefon an der Besprechung teilnimmt. Die PIN für Besprechungen wird an den audio-Benutzer gesendet, die **Audiokonferenz** Lizenz zugewiesen werden und für Audiokonferenzen aktiviert sind. Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information.md) und [E-Mails, die Benutzern beim Ändern ihrer Einstellungen für die Audiokonferenz automatisch gesendet werden](emails-sent-to-users-when-their-settings-change.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Aktivieren oder Deaktivieren anonymer Anrufer für die Teilnahme an einer Besprechung
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Klicken Sie im linken Navigationsbereich auf **Benutzer**. 
-
-2. Wählen Sie einen Benutzer in der Liste aus, und klicken Sie dann auf am oberen Rand der Seite **Bearbeiten** . 
-
-3. Klicken Sie auf das Menü neben **Konferenz Brücken**, und klicken Sie dann auf **Bearbeiten**.
-
-4. Klicken Sie im Bereich **Konferenz Bridge Anbieter** aktivieren Sie oder deaktivieren Sie **zulassen, die nicht authentifizierte Anrufer, um die ersten Personen in einer Besprechung werden. Wenn nicht, klicken Sie dann sie im Wartebereich wartet, bis ein authentifizierter Benutzer Beitritt**.
-    
-4. Klicken Sie auf **Anwenden**. 
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
     
 1. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**. 
     
@@ -58,8 +50,7 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
     
 4. Klicken Sie auf **Speichern**. 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
     
  **Mithilfe von Windows Powershell**
   
@@ -97,7 +88,7 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
     
 - Windows PowerShell bietet gegenüber einer alleinigen Verwendung von Office 365 Admin Center in Bezug auf Geschwindigkeit, Einfachheit und Produktivität unzählige Vorteile, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. In den folgenden Themen erfahren Sie mehr über diese Vorteile: 
     
-  - [Eine Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

@@ -1,5 +1,5 @@
 ---
-title: Senden einer E-Mail mit den Einwahlinformationen an einen Benutzer
+title: Senden Sie eine e-Mail an einen Benutzer mit ihren Audiokonferenzen in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Senden Sie Ihre Benutzer eine e-Mail mit ihren Audiokonferenzinformationen.
-ms.openlocfilehash: 28d3f83259033b5e587c299464a334710797e149
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+description: Senden von Ihren Benutzern eine e-Mail mit ihren Audiokonferenzinformationen in Skype für Business Online.
+ms.openlocfilehash: 1b692597f574739c8412a9ec0c6866687e169beb
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20324123"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490645"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer e-Mails an einen Benutzer mit ihren Audiokonferenzen Informationen in Skype für Business Online
 
-Manchmal Skype für Business oder Microsoft-Teams, Benutzer benötigen Sie möglicherweise dies ihre Informationen Audiokonferenzen veranlassen. Sie können diese Schritte durchführen, indem Sie mithilfe der **Skype für Business Administrationscenter** und unter den Eigenschaften für einen Benutzer auf **Konferenz Informationen per e-Mail senden** . Wenn Sie diese e-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
+> [!Note]
+> Informationen zum Senden von Informationen von Audiokonferenzen für Benutzer in Microsoft-Teams finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen in Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
+
+Manchmal Skype für Unternehmensbenutzer benötigen Sie möglicherweise dies ihre Informationen Audiokonferenzen veranlassen. Sie können diese Schritte durchführen, indem Sie mithilfe der **Skype für Business Administrationscenter** und unter den Eigenschaften für einen Benutzer auf **Konferenz Informationen per e-Mail senden** . Wenn Sie diese e-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
   
 - Die Konferenztelefon- oder Einwahltelefonnummer für den Benutzer.
     
@@ -44,14 +46,6 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden Sie eine e-Mail mit Audiokonferenzinformationen an einen Benutzer
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
-
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 

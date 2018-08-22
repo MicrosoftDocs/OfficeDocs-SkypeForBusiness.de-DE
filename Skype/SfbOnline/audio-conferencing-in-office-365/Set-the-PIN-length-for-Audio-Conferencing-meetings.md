@@ -1,5 +1,5 @@
 ---
-title: Legen Sie die PIN-Mindestlänge für Audiokonferenzen Besprechungen
+title: Einrichten der PIN-Mindestlänge für Audiokonferenzen Besprechungen in Skype für Business-Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,41 +14,32 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 16b6a34e5de790964f5472cb2ef598eebf4f838f
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 54ee8e70972a7033a9a759f8df37647ba5a2b700
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703818"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490565"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Legen Sie die PIN-Mindestlänge für Audiokonferenzen Besprechungen
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Einrichten der PIN-Mindestlänge für Audiokonferenzen Besprechungen in Skype für Business-Online
 
-Wenn Sie Audiokonferenzen für Skype für Geschäftskunden und Microsoft-Teams, einrichten, erhalten Sie eine audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen. Die Telefonnummer, die Sie festlegen, wird auf die Besprechung einladen für Skype für Geschäfts- und Microsoft-Teams, apps enthalten sein.
+
+> [!NOTE]
+> Informationen zum Festlegen von PIN-Länge in Microsoft-Teams finden Sie unter [Einrichten der PIN-Mindestlänge für Audiokonferenzen Besprechungen in Microsoft-Teams](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams).
+
+Wenn Sie Audiokonferenzen für Skype für Unternehmen einrichten, erhalten Sie eine audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen. Die Telefonnummer, die Sie festlegen, wird auf die Besprechung einladen für die Skype für Geschäfts-app enthalten sein.
   
-Die audiokonferenzbrücke beantwortet einen Anruf für Personen, die in einer Besprechung mit einem Telefon einwählen. Von einer automatischen Telefonzentrale und aktivieren Sie dann je nach Ihrer Einstellungen für den Anrufer mit Ansagen Fragen, können Benachrichtigungen wiedergeben, und bitten Anrufer, ihren Namen aufzuzeichnen. **Microsoft-Brücke Einstellungen** können Sie die Einstellungen für Benachrichtigungen für Besprechungen zu ändern und die Besprechung-Teilnahme an, und legen Sie die Länge der Stifte, die von Besprechungsorganisatoren verwendet werden. Besprechungsorganisatoren verwenden PINs Besprechungen starten, wenn die Besprechung mithilfe der Skype für Business oder Microsoft-Teams app aufgenommen werden können.
+Die audiokonferenzbrücke beantwortet einen Anruf für Personen, die in einer Besprechung mit einem Telefon einwählen. Von einer automatischen Telefonzentrale und aktivieren Sie dann je nach Ihrer Einstellungen für den Anrufer mit Ansagen Fragen, können Benachrichtigungen wiedergeben, und bitten Anrufer, ihren Namen aufzuzeichnen. **Microsoft-Brücke Einstellungen** können Sie die Einstellungen für Benachrichtigungen für Besprechungen zu ändern und die Besprechung-Teilnahme an, und legen Sie die Länge der Stifte, die von Besprechungsorganisatoren verwendet werden. Besprechungsorganisatoren verwenden PINs Besprechungen starten, wenn Beitritt zu die Besprechung mithilfe der Skype für Geschäfts-app ist nicht möglich.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>Konfigurieren der PIN-Länge
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
-
-2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
-
-3. Wählen Sie im Bereich **Bridge Einstellungen** unter **PIN-Mindestlänge**die Anzahl der Ziffern, die Sie für die PIN verwenden möchten.
-
-4. Klicken Sie auf **Anwenden**.
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
  
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
@@ -61,7 +52,7 @@ Die audiokonferenzbrücke beantwortet einen Anruf für Personen, die in einer Be
 
 - PINs können von 4 bis 12 Ziffern annehmen. Der Standardwert ist 5. PINs können nur Zahlen umfassen. Buchstaben und Sonderzeichen sind nicht zulässig.
     
-- Eine PIN ist nur erforderlich für den Organisator der Besprechung bei einer Skype für Business oder Microsoft-Teams, Benutzer die Besprechung noch nicht bereits gestartet. Wenn sich alle Teilnehmer in die Besprechung einwählen, ist die PIN erforderlich, damit der Organisator der Besprechung die Besprechung starten kann.
+- Eine PIN ist nur erforderlich für den Organisator der Besprechung bei einer Skype für Geschäftsbenutzer noch nicht die Besprechung bereits gestartet. Wenn sich alle Teilnehmer in die Besprechung einwählen, ist die PIN erforderlich, damit der Organisator der Besprechung die Besprechung starten kann.
     
 - Die PIN-Sicherheitseinstellungen gelten für alle Telefonnummern, die zu einer Microsoft-Brücke gehören. Sie gelten für alle Besprechungen, bei denen zu einer bestimmten Audiokonferenzbrücke gehörende Telefonnummern genutzt werden. 
     

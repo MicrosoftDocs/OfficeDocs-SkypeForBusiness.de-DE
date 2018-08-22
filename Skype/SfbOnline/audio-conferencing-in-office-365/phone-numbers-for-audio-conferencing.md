@@ -1,5 +1,5 @@
 ---
-title: Telefonnummern für Audiokonferenzen
+title: Telefonnummern für Audiokonferenzen in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,35 +14,36 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: 3c1440b29a2ceb35775ba3ed8151defb4093f94d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31dccb2c46ef957b9490a8a1c61f7a20563ecf92
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490496"
 ---
-# <a name="phone-numbers-for-audio-conferencing"></a>Telefonnummern für Audiokonferenzen
+# <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Telefonnummern für Audiokonferenzen in Skype für Business Online
 
-Wenn Sie **Audiokonferenzen** für Skype für Unternehmen und die Microsoft-Teams, einrichten, werden Ihrer Organisation Zugriffsnummer für Einwahl Telefonnummern automatisch zugewiesen. Sie können die Telefonnummern, die Ihre audiokonferenzbrücke zugewiesen sind, indem Sie auf die **Skype für Business Administrationscenter,** finden Sie unter > **Audiokonferenzen** > **Microsoft-Brücke**. Finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers.md).
+> [!NOTE]
+> Informationen über die Rufnummern in Microsoft-Teams, finden Sie unter [Telefonnummern für Audiokonferenzen in Microsoft-Teams](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
+
+Beim Festlegen von **Audiokonferenzen** für Skype für Unternehmen werden Zugriffsnummer für Einwahl Rufnummern Ihrer Organisation automatisch zugewiesen. Sie können die Telefonnummern, die Ihre audiokonferenzbrücke zugewiesen sind, indem Sie auf die **Skype für Business Administrationscenter,** finden Sie unter > **Audiokonferenzen** > **Microsoft-Brücke**. Finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers.md).
   
 > [!NOTE]
 > Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie möchten, um festzustellen, ob in Ihrer Stadt oder Land/Region-Einwahl Telefonnummern vorhanden sind, verwenden Sie die **Skype für Business Administrationscenter** > **VoIP** > **Telefonnummern**klicken Sie auf **Hinzufügen**, und klicken Sie dann auf **neuen Dienst Zahlen**. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Kanton** und **Ort**, um die Suchergebnisse zu filtern. Auch wenn Sie für gebührenfreie Service Zahlen suchen, wählen Sie **gebührenfreie Rufnummer** aus **Bundesland/Kanton** Liste.
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Audio Conferencing Abdeckung und zu Preisen
 
-Eine vollständige Liste aller Länder/Regionen und Städte, wo Audiokonferenzen verfügbar ist, finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Preisinformationen, finden Sie unter 
-  
-[Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+Eine vollständige Liste aller Länder/Regionen und Städte, wo Audiokonferenzen verfügbar ist, finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Preisinformationen, finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Einwahltelefonnummern in einer Besprechungseinladung
 
-Wenn eine Skype für Business Online oder Microsoft-Teams, Benutzer eine Besprechung in Outlook oder Outlook Web App plant, ist die Standardnummer für Audiokonferenzen, die für den Benutzer festgelegt ist in der besprechungseinladung enthalten. Wenn Sie eine andere Standardnummer für einen oder mehrere Benutzer auswählen möchten, können Sie, die durch das Aufrufen der **Skype für Business Administrationscenter**ändern > **Audiokonferenzen** > **Benutzer**. Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md).
+Wenn eine Skype für Business Online-Benutzer eine Besprechung in Outlook oder Outlook Web App plant, ist die Standardnummer für Audiokonferenzen, die für den Benutzer festgelegt ist in der besprechungseinladung enthalten. Wenn Sie eine andere Standardnummer für einen oder mehrere Benutzer auswählen möchten, können Sie, die durch das Aufrufen der **Skype für Business Administrationscenter**ändern > **Audiokonferenzen** > **Benutzer**. Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md).
   
 Sie können weitere Einwahlnummern anzeigen, indem Sie in der Besprechungseinladung auf **Lokale Rufnummer suchen** klicken.
   
@@ -66,7 +67,7 @@ Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zug
 > [!CAUTION]
 > Aufgrund der begrenzten Verfügbarkeit gebührenpflichtige Telefonnummer des in Venezuela, Indonesien und Vereinigte Arabische Emirate (Vereinigte Arabische Emirate) keine Organisationen aus diesen Ländern/Regionen eine Audiokonferenz gebührenpflichtige Nummer automatisch zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 
   
-Dedizierte Audiokonferenzen Telefonnummern sind Service Zahlen, die Sie erhalten möchten, und weisen Sie Ihrer Organisation können. Dienst Zahlen können mithilfe der **Skype für Business Administrationscenter**gefunden werden. Weitere Informationen hierzu finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen und die Microsoft-Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+Dedizierte Audiokonferenzen Telefonnummern sind Service Zahlen, die Sie erhalten möchten, und weisen Sie Ihrer Organisation können. Dienst Zahlen können mithilfe der **Skype für Business Administrationscenter**gefunden werden. Weitere Informationen hierzu finden Sie unter [Getting Service Rufnummern](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 Eine Liste der dieser Länder/Regionen, die Telefonnummern, die Organisationen automatisch zugewiesen haben, finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
@@ -78,7 +79,7 @@ Eine Liste der dieser Länder/Regionen, die Telefonnummern, die Organisationen a
     
 - Mit dem Cmdlet [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) können Sie die Sprachen anzeigen, die für eine fest zugeordnete Einwahltelefonnummer festgelegt werden können.
     
-- Für jede Audiokonferenz-Telefonnummer können Sie bis zu vier Sprachen einrichten - eine primäre und drei sekundäre. Sie können die Sprachen auch für eine dedizierte Audiokonferenz-Telefonnummer festlegen.
+- Sie können bis zu vier Sprachen für jede Telefonnummer für die Audiokonferenz - festlegen ein primärer und sekundärer drei. Und Sie können auch Sprachen bei einer dedizierten Audiokonferenzen Rufnummer festlegen.
     
 - Wenn die Zugriffsnummer für Einwahl-Rufnummer für einen Benutzer festlegen möchten, finden Sie unter [Festlegen von gewählte Nummern auf enthalten invites Telefonnummern](set-the-phone-numbers-included-on-invites.md).
     

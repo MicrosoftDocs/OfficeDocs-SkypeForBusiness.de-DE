@@ -1,5 +1,5 @@
 ---
-title: Anzeigen einer Liste der Audiokonferenz Zahlen
+title: Anzeigen einer Liste der Audiokonferenz Zahlen in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,47 +14,41 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: bccd4a5c02dbb6bc32c27e315b80a39705284429
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+description: 'Erfahren Sie, wie Ihre einwahlkonferenzen Zahlen zwischen in Skype für Business Online nachzuschlagen. '
+ms.openlocfilehash: 84d6f4d1d1d1358a62ec8d0eb2334c92c416adea
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490595"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers"></a>Anzeigen einer Liste der Audiokonferenz Zahlen
+# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Anzeigen einer Liste der Audiokonferenz Zahlen in Skype für Business Online
 
-Wenn Sie Audiokonferenzen für Skype für Unternehmen und die Microsoft-Teams, einrichten, können Sie die angezeigten Rufnummern anzeigen, die Ihnen für Audiokonferenzen verfügbar sind. Diese Liste müssen alle Rufnummern Audiokonferenzen, die für Ihre Organisation verfügbar sind.
+> [!NOTE]
+> Informationen zu Audiokonferenzen Zahlen in Microsoft-Teams, finden Sie unter [finden Sie eine Liste von Zahlen in Microsoft-Teams, Audiokonferenzen](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
+
+Wenn Sie Audiokonferenzen für Skype für Unternehmensbenutzer einrichten, können Sie die angezeigten Rufnummern anzeigen, die Ihnen für Audiokonferenzen verfügbar sind. Diese Liste müssen alle Rufnummern Audiokonferenzen, die für Ihre Organisation verfügbar sind.
   
  **Sie suchen Preise?** Finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **Es ist keine Ressource, die eine Auflistung aller die Einwahlnummern für Audiokonferenzen enthält.** Wenn Sie suchen, um festzustellen, ob in Ihrer Stadt oder Land/Region-Einwahl Telefonnummern vorhanden sind, gehen Sie zu **Skype für Business Administrationscenter** > **VoIP** > **Telefonnummern**klicken Sie auf **Hinzufügen**, und klicken Sie dann auf **neuen Dienst Zahlen**. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Kanton** und **Ort**, um die Suchergebnisse zu filtern. Auch wenn Sie für gebührenfreie Service Zahlen suchen, wählen Sie **gebührenfreie Rufnummer** aus **Bundesland/Kanton** Liste.
+> **Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält.** Wenn Sie suchen, um festzustellen, ob in Ihrer Stadt oder Land/Region-Einwahl Telefonnummern vorhanden sind, gehen Sie zu **Skype für Business Administrationscenter** > **VoIP** > **Telefonnummern**klicken Sie auf **Hinzufügen**, und klicken Sie dann auf **neuen Dienst Zahlen**. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Kanton** und **Ort**, um die Suchergebnisse zu filtern. Auch wenn Sie für gebührenfreie Service Zahlen suchen, wählen Sie **gebührenfreie Rufnummer** aus **Bundesland/Kanton** Liste.
   
-Wenn für Ihre Organisation nur eine Telefonnummer verfügbar ist, wird sie als Standardtelefonnummer für alle Benutzer verwendet. Wenn mehrere Telefonnummern verfügbar sind, können Sie für jeden Benutzer eine Standardtelefonnummer auswählen. Diese Standardrufnummer wird in Skype für Geschäfts- und Microsoft-Teams, besprechungseinladungen enthalten sein.
+Wenn für Ihre Organisation nur eine Telefonnummer verfügbar ist, wird sie als Standardtelefonnummer für alle Benutzer verwendet. Wenn mehrere Telefonnummern verfügbar sind, können Sie für jeden Benutzer eine Standardtelefonnummer auswählen. Diese Standardrufnummer wird in Skype für Business besprechungseinladungen enthalten sein.
   
 Finden Sie unter So ändern Sie die Telefonnummer Zugriffsnummer für Einwahl für einen einzelnen Benutzer [gewählte Nummern auf enthalten invites Telefonnummern festgelegt](set-the-phone-numbers-included-on-invites.md) .
   
 > [!NOTE]
 > Inländische Einwahlnummern sind Ihrer Organisation zugeordnet. Nur solche Nummern können als Standardtelefonnummer eingestellt werden. Internationale Einwahlnummern können von mehreren Organisationen gemeinsam verwendet werden. 
-  
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Rufnummern Audiokonferenzen an
 
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenzbrücken**. 
-2.  Zeigen Sie die Telefonnummern, die für Audiokonferenzen verfügbar sind.
-
-- Sie können auch den Speicherort und die primäre Sprache, die von der automatischen Telefonzentrale Audiokonferenzen verwendet werden, anzeigen.
-
-> [!Note]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Rufnummern Audiokonferenzen an
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     

@@ -1,5 +1,5 @@
 ---
-title: Legen Sie das Telefon, die Zahlen enthalten auf invites
+title: Einrichten des Telefons, die Zahlen enthalten auf invites in Skype für Business-Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,21 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 7aa426a1ede348e29230b177ecf790d9d32d7fbd
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490475"
 ---
-# <a name="set-the-phone-numbers-included-on-invites"></a>Legen Sie das Telefon, die Zahlen enthalten auf invites
+# <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Einrichten des Telefons, die Zahlen enthalten auf invites in Skype für Business-Online
 
-Audiokonferenzen in Office 365 ermöglicht Benutzern in Ihrer Organisation Skype für Geschäfts- und Microsoft-Teams, Besprechungen erstellen, und klicken Sie dann zulassen, dass Benutzer in diesen treffen mit einem Telefon einwählen. In Office 365 verfügen Sie über die Möglichkeit, eine audiokonferenzbrücke von Microsoft oder einem Drittanbieter-audiokonferenzbrücke, die von einem Provider genehmigte Audiokonferenzen (ACP) gehostet wird.
+> [!Note]
+> Informationen zur Besprechung Laden Sie Telefonnummern in Microsoft-Teams ein, finden Sie unter [Einrichten des Telefons, die Zahlen auf enthalten in Microsoft-Teams, lädt](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
+
+Audiokonferenzen in Office 365 ermöglicht Benutzern in Ihrer Organisation Skype für Business Besprechungen erstellen, und klicken Sie dann zulassen, dass Benutzer in diesen treffen mit einem Telefon einwählen. In Office 365 verfügen Sie über die Möglichkeit, eine audiokonferenzbrücke von Microsoft oder einem Drittanbieter-audiokonferenzbrücke, die von einem Provider genehmigte Audiokonferenzen (ACP) gehostet wird.
   
 > [!NOTE]
 > Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie suchen, um festzustellen, ob in Ihrer Stadt oder Land/Region-Einwahl Telefonnummern vorhanden sind, verwenden Sie die **Skype für Business Administrationscenter** > **VoIP** > **Telefonnummern**, klicken Sie auf neue Dienst Nummern **dann **Hinzufügen** **. Verwenden Sie die Listen für **Land/Region**, Bundesland/Kanton **** und **Ort** Ihrer Suche. Filtern > auch, wenn Sie für gebührenfreie kostenlosen Service Zahlen suchen, wählen Sie **gebührenfreie Rufnummer** aus **Bundesland/Kanton** Liste.
@@ -37,29 +40,11 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
   
 > [!NOTE]
 > Für einen Besprechungsorganisator kann maximal eine gebührenpflichtige und eine gebührenfreie Telefonnummer in der Besprechungseinladung angegeben werden. Im unteren Bereich jeder Besprechungseinladung befindet sich jedoch auch ein Link, über den eine vollständige Liste aller Einwahlnummern aufgerufen werden kann, über die Benutzer an einer Besprechung teilnehmen können. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Festlegen der Zugriffsnummer für Einwahl Standardrufnummer für Organisator einer Besprechung
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
-
-    ![Zeigt die Auswahl von Benutzern in der Microsoft-Teams und Skype für Business Admin Center](../images/teamsselectusers.png)
-
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
-
-    ![Klicken Sie auf Bearbeiten in der Microsoft-Teams und Skype für Business Admin Center](../images/teamsedituser.png)
-
-3. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**. 
-    
-    ![Klicken Sie auf Bearbeiten neben Audiokonferenzen](../images/teamseditaudioconf.png)
-
-4. Verwenden Sie die Felder **gebührenpflichtige** oder **gebührenfreie Nummer** , die Zahlen für den Benutzer eingeben.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -88,26 +73,12 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
   - **Microsoft ist der Dienstanbieter**: Verwenden Sie die **Standardnummer gebührenpflichtige** und **gebührenfreie Standardnummer** enthält, um die Standard-Zahlen für den Benutzer auszuwählen.
     
     > [!NOTE]
-    > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Wenn Sie eine gebührenfreie Telefonnummer erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen und die Microsoft-Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+    > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Wenn eine gebührenfreie Telefonnummer erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **Ein Drittanbieter ist der Dienstanbieter**: Verwenden Sie die Felder **die gebührenpflichtige Telefonnummer** und **gebührenfreie Nummer** die Zahlen für den Benutzer eingeben.
 
 
-## <a name="change-the-audio-conferencing-phone-number-for-users"></a>Ändern der Audiokonferenz Rufnummer für Benutzer
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
-
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
-
-3. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**. 
-    
-4. Verwenden Sie die Felder **gebührenpflichtige** oder **gebührenfreie Nummer** , die Zahlen für den Benutzer eingeben.
-
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Zurücksetzen von Audiokonferenz-Telefonnummern
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Wählen Sie im **Skype for Business Admin Center**die Option **Audio conferencing** (Audiokonferenz) aus.
     
@@ -118,7 +89,7 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
 Standardmäßig wird beim Ändern von Einstellungen für einen Benutzer, eine e-Mail an den Benutzer gesendet. Wie Sie diese Einstellung ändern können, erfahren Sie unter [Aktivieren Sie oder deaktivieren Sie beim Senden von e-Mails aus, wenn Audio Konferenzen Einstellungen ändern](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
-> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen Besprechungsserien und zukünftige Skype for Business- und Microsoft Teams-Besprechungen aktualisiert und an die Teilnehmer gesendet werden. 
+> Wenn Sie einen Benutzer Audiokonferenzen Einstellungen ändern, muss sich wiederholenden und zukünftigen Skype für Business Besprechungen aktualisiert und an die Teilnehmer gesendet werden. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
@@ -135,7 +106,7 @@ Standardmäßig wird beim Ändern von Einstellungen für einen Benutzer, eine e-
 - Ändern Sie mit dem Cmdlet **Set-CsOnlineDialInConferencingUserDefaultNumber** die gebührenpflichtige oder gebührenfreie Nummer für Benutzer auf Basis ihrer ursprünglichen Standardnummer oder ihres Standorts.
     
     > [!NOTE]
-    > Die BridgeID finden Sie mithilfe von **Get-CsOnlineDialInConferencingBridge**.
+    > Um die BridgeID zu suchen, verwenden Sie das Cmdlet **Get-CsOnlineDialInConferencingBridge** .
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 

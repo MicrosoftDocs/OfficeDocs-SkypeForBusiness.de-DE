@@ -1,5 +1,5 @@
 ---
-title: Aktivieren Sie oder deaktivieren Sie e-Mails senden, beim Ändern ihrer Einstellungen
+title: Aktivieren Sie oder deaktivieren Sie e-Mails senden Wenn Audiokonferenzen Einstellungen in Skype für Business Online ändern.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,21 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d52603fb0d2701cbebd58644cd002dbc94baf89
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490585"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Aktivieren Sie oder deaktivieren Sie beim Senden von e-Mails aus, wenn Audio Konferenzen Einstellungen ändern
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Aktivieren Sie oder deaktivieren Sie e-Mails senden Wenn Audiokonferenzen Einstellungen in Skype für Business Online ändern.
 
-Benutzer werden automatisch per e-Mail benachrichtigt, wenn sie für Audiokonferenzen aktiviert sind. Unter Umständen, jedoch zur Reduzierung der Anzahl der e-Mails, die an Skype für Geschäfts- und Microsoft-Teams, Benutzer gesendet werden soll. In diesem Fall können Sie die sendende e-Mail deaktivieren.
+> [!Note]
+> Wenn Sie aktivieren oder Deaktivieren der sendenden-e-Mails in Microsoft-Teams möchten, finden Sie unter [Aktivieren oder Deaktivieren der sendenden-e-Mails Wenn Audiokonferenzen Einstellungen in Microsoft-Teams, ändern](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
+
+Benutzer werden automatisch per e-Mail benachrichtigt, wenn sie für Audiokonferenzen aktiviert sind. Unter Umständen, jedoch, wenn die Anzahl der e-Mails zu reduzieren, die an Skype für Unternehmensbenutzer gesendet werden soll. In diesem Fall können Sie die sendende e-Mail deaktivieren.
   
 Wenn Sie e-Mails senden deaktivieren, werden nicht Audiokonferenzen-e-Mails gesendet werden für die Benutzer, einschließlich e-Mails für Benutzer aktiviert oder deaktiviert für Audiokonferenzen, wenn seine PIN zurückgesetzt wurde und die Konferenz-ID und das Standard-Konferenzen ändert sich phone sind .
   
@@ -51,20 +54,13 @@ Es folgt ein Beispiel der e-Mails, die an Benutzer gesendet wird, wenn sie für 
   - Wenn der Anbieter von Audiokonferenzen eines Benutzers aus Microsoft in einem anderen Anbieter oder **keiner**geändert wird.
     
   - Wenn der Anbieter von Audiokonferenzen eines Benutzers an Microsoft geändert wird.
-    
+
+
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Aktivieren oder Deaktivieren von e-Mail an Benutzer gesendet wird
 
-Sie können die Microsoft-Teams, die Skype für Business Administrationscenter oder Windows PowerShell verwenden, aktivieren oder Deaktivieren von e-Mail an Benutzer gesendet.
+Sie können die an Benutzer gesendeten E-Mails über das Skype for Business Admin Center oder über Windows PowerShell aktivieren oder deaktivieren.
 
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**. 
-
-2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
-
-3. Klicken Sie im Bereich **Bridge-Einstellungen** aktivieren oder Deaktivieren von **Benutzern Wenn Ändern ihrer Einstellungen für die Zugriffsnummer für Einwahl-e-Mails automatisch gesendet**.
-
-4. Klicken Sie auf **Speichern**.
-  
+ 
 ![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
     
 1. Klicken Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich auf **Audiokonferenzen**.

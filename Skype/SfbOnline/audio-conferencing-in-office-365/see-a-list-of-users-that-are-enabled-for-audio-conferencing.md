@@ -1,5 +1,5 @@
 ---
-title: Anzeigen einer Liste der Benutzer, die für Einwahlkonferenzen aktiviert sind
+title: Anzeigen einer Liste der Benutzer, die für Audiokonferenzen in Skype für Business Online aktiviert sind
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,35 +14,33 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 441fb797fa3e1325fe5c63a2b1d6a86d876ebb5b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490625"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Anzeigen einer Liste der Benutzer, die für Einwahlkonferenzen aktiviert sind
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Anzeigen einer Liste der Benutzer, die für Audiokonferenzen in Skype für Business Online aktiviert sind
 
-Nachdem Sie Skype für Business oder Microsoft-Teams, Benutzer in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden. Beim Betrachten der Liste wird ebenfalls für jeden Benutzer in der Liste den Typ des Audiokonferenzanbieter, die sie verwenden, die Standard-Einwahl Telefonnummer für den Benutzer angezeigt, und wenn Ihre Organisation für dynamische Konferenz-IDs, die statische Konferenz-IDs nicht aktiviert ist für Audiokonferenzen-Besprechungen, die sie organisieren.
+> [!NOTE]
+> Informationen zu den aktivierten Benutzern in Microsoft-Teams, finden Sie unter [finden Sie eine Liste von Benutzern, die für Audiokonferenzen in Microsoft-Teams aktiviert sind](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
+
+Nachdem Sie Skype für Unternehmensbenutzer in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden. Beim Betrachten der Liste wird ebenfalls für jeden Benutzer in der Liste den Typ des Audiokonferenzanbieter, die sie verwenden, die Standard-Einwahl Telefonnummer für den Benutzer angezeigt, und wenn Ihre Organisation für dynamische Konferenz-IDs, die statische Konferenz-IDs nicht aktiviert ist für Audiokonferenzen-Besprechungen, die sie organisieren.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Anzeige einer Benutzerliste
 
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-- Klicken Sie im linken Navigationsbereich auf **Benutzer**.
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
-    
+   
 - Wechseln Sie im linken Navigationsbereich zur **Audiokonferenz** > **Benutzer**.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-    
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
 - Wenn Sie die Liste der Benutzer, die aktiviert sind anzeigen, können Sie wählen Sie einen Benutzer aus der Liste aus und Aktionsbereich verwenden, um die Audiokonferenz Einstellungen für diesen Benutzer zu bearbeiten.
@@ -75,7 +73,7 @@ Nachdem Sie Skype für Business oder Microsoft-Teams, Benutzer in Ihrer Organisa
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

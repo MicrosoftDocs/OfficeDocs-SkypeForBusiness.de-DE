@@ -1,5 +1,5 @@
 ---
-title: Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen
+title: Einrichten von automatischen Telefonzentralen Sprachen für Audiokonferenzen in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,43 +14,34 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Finden Sie unter Wählen Sie die Audiokonferenz Auto attendant Sprachen für eine Audiokonferenz Zahl.
-ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: Finden Sie unter Wählen Sie die Audiokonferenz Auto attendant Sprachen für eine Audiokonferenz Zahl in Skype für Business Online.
+ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490515"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Einrichten von automatischen Telefonzentralen Sprachen für Audiokonferenzen in Skype für Business Online
 
-Die Audiokonferenz automatische Telefonzentrale für Skype für Unternehmen und die Microsoft-Teams kann Anrufer audio in einer Reihe von verschiedenen Sprachen begrüßen, beim Beitritt zu einer Besprechung.
+> [!Note]
+> Informationen zum Festlegen von der automatische Telefonzentrale Sprache in Microsoft-Teams finden Sie unter [Einrichten von automatischen Telefonzentralen Sprachen für Audiokonferenzen in Microsoft-Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
+
+Die Audiokonferenz automatische Telefonzentrale für Skype für Unternehmen kann audio Anrufer in einer Reihe von verschiedenen Sprachen begrüßen, beim Beitritt zu einer Besprechung.
   
 Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die primäre Sprache, die Sie festlegen zuerst verwendet werden und die sekundären Sprachen werden durch die automatische Telefonzentrale verwendet werden, dass Sie auswählen. 
   
 > [!NOTE]
 >  Sie können die Sprachen auf nur Telefonnummern nationalen audio Zugriff konfigurieren.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Festlegen der Konferenzen Auto attendant Sprachen
-
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
-
-1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**.
-
-2. Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie am oberen Rand der Seite aus, klicken Sie auf **Bearbeiten**.
-
-3. Wählen Sie im Bereich auf der rechten Seite die gewünschten Standardsprache und alle alternativen Sprachen. 
- 
-    > [!NOTE]
-    > Der standardmäßige und alternative Sprachen, die unterstützt werden, sind aufgeführt. Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden. 
-
-4. Klicken Sie auf **Anwenden**.
-
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **Skype für Unternehmen online verwenden**
 
 Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder [Skype für Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieses Schritts sein.
     
@@ -65,9 +56,6 @@ Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/a
   
 4. Klicken Sie auf **Speichern**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="want-else-should-i-know"></a>Was sollte ich noch wissen?
 
 - Die Liste der unterstützten Sprachen für Audiokonferenzen, finden Sie unter [Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md).
