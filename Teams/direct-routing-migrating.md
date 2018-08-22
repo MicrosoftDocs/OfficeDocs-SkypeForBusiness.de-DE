@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Hier erfahren Sie, was für die Migration zu direkten Routing von einer Skype für Business Online und Teams Konfiguration Perspektive erforderlich ist.
-ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 859ab19162f8cf16cc419f7f871fc0059e4566d6
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211144"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546597"
 ---
 # <a name="migrating-to-direct-routing"></a>Migrieren zu direkten Routing
 
@@ -79,8 +79,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Weitere Informationen zum Migrieren von Telefonsystem mit lokalen PSTN-Konnektivität in Skype für Business Server finden Sie unter den folgenden:
 
-- [Planung](https://technet.microsoft.com/en-us/library/mt455212.aspx)
-- [Bereitstellen von](https://technet.microsoft.com/en-us/library/mt634319.aspx) 
+- [Planung](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Bereitstellen von](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 Es wird empfohlen, dass Sie zuvor konfigurierten VoIP-routing-Informationen wie folgt entfernen:
 
@@ -91,8 +91,8 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 Weitere Informationen zum Migrieren von Telefonsystem mit lokalen PSTN-Anbindung über Cloud-Connector finden Sie unter den folgenden:
 
-- [Planung](https://technet.microsoft.com/en-us/library/mt605227.aspx)  
-- [Bereitstellen von](https://technet.microsoft.com/en-us/library/mt634319.aspx)
+- [Planung](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Bereitstellen von](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [Benutzerkonfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 Es wird empfohlen, dass Sie zuvor konfigurierten VoIP-routing-Informationen wie folgt entfernen:

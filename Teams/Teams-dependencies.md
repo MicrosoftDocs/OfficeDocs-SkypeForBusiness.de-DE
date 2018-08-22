@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d31bb8eafdaa6a04fe34f8433e8484ec447e7c1
-ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
+ms.openlocfilehash: 9864289048b05ed80ddfeb016bf943f3f670f5b5
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21136307"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546407"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================
@@ -55,7 +55,7 @@ Azure AD umfasst die folgenden Einstellungen zum Konfigurieren von externer Benu
 
 
 > [!NOTE]
-> Sie können auch verwalten, welche Domänen in Ihrem Mandanten als Gäste eingeladen werden können. Finden Sie unter [Zulassen/Blockieren Gast des Zugriffs auf Office 365-Gruppen](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
+> Sie können auch verwalten, welche Domänen in Ihrem Mandanten als Gäste eingeladen werden können. Finden Sie unter [Zulassen/Blockieren Gast des Zugriffs auf Office 365-Gruppen](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 Sie können in Microsoft Teams steuern, ob der Gastzugriff für Ihre Organisation aktiviert oder deaktiviert ist. Die Einstellung ist standardmäßig deaktiviert und gilt auf Mandantenebene nur für Microsoft Teams.
@@ -104,7 +104,7 @@ Um alle Gastzugriffsfunktionen in Microsoft Teams zu aktivieren, müssen Office�
 
 - In SharePoint Online: **Freigabe nur für bereits im Verzeichnis enthaltenen externen Benutzern zulassen**
     
-    Weitere Informationen finden Sie unter [Verwalten von externer Freigabe für Ihre SharePoint Online-Umgebung](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).
+    Weitere Informationen finden Sie unter [Verwalten von externer Freigabe für Ihre SharePoint Online-Umgebung](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview).
     
   
 - In Office 365-Gruppen: **Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer zulassen**

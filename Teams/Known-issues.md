@@ -3,19 +3,19 @@ title: Bekannte Probleme für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/9/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara
+ms.reviewer: marcl
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21779519"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546399"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -131,7 +131,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 ## <a name="meetings"></a>Besprechungen
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Benutzer können nicht Zugriff auf Besprechungen-Connectors jedoch über Exchange Online-Postfächer. <br/> |Kunden aktiv blockiert EWS von Diensten in Exchange Online muss jedoch innerhalb der EWS-Richtlinien kompatibel MS-Teams haben. <br/> |Damit MS-Teams kompatibel ist, müssen Sie die folgende Zeichenfolge des Benutzer-Agent für MS-Teams innerhalb der EWSAllowList hinzufügen: `*skypespaces*`, einschließlich Sternchen. Der vollständige Befehl ist:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Weitere Informationen:https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|Benutzer können nicht Zugriff auf Besprechungen-Connectors jedoch über Exchange Online-Postfächer. <br/> |Kunden aktiv blockiert EWS von Diensten in Exchange Online muss jedoch innerhalb der EWS-Richtlinien kompatibel MS-Teams haben. <br/> |Damit MS-Teams kompatibel ist, müssen Sie die folgende Zeichenfolge des Benutzer-Agent für MS-Teams innerhalb der EWSAllowList hinzufügen: `*skypespaces*`, einschließlich Sternchen. Der vollständige Befehl ist:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Weitere Informationen:https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|

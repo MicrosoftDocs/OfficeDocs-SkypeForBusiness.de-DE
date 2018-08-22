@@ -3,7 +3,7 @@ title: Quality of Experience überprüfen Handbuch für Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: ff9834b5bb59b0dd37ba5ff6d4053cd7b5188499
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694920"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546645"
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
@@ -138,7 +138,7 @@ _Tabelle 2: Service-Metriken Anrufe schlechter Qualität_
 | Jitter \>30 ms                                   | Dies ist die durchschnittliche Änderung Verzögerung zwischen aufeinander folgende Pakete. Für einige Ebenen von Jitter über Pufferung können Teams und Skype für Unternehmen anpassen. Es ist nur, wenn die Jitter überschreitet die Pufferung, dass ein Teilnehmer die Effekte der Jitter bemerkt.                                                                                                                         | Die Pakete an einem anderen kumulativ dazu führen, dass ein Lautsprecher Stimme zum automatischen auszugeben.                                                                                       |
 | Paketverlustrate \>10 % oder 0,1                    | Dies ist häufig als Prozentsatz der Pakete definiert, die verloren gegangen sind. Paketverlust wirkt sich direkt auf die Audioqualität – von kleinen, verloren Person Pakete, die fast keine Auswirkungen auf Back Bursts von Verlusten haben, Ursache Audio vollständig Ausschneiden.                                                                                                                               | Die Pakete werden verworfen und nicht eingehenden an das vorgesehene Ziel verursachen Lücken in den Medien, resultierende in verpassten Silben und Wörter und abgehackte video und Freigabe. |
 | Roundtripzeit \>500 ms                         | Dies ist der Zeitaufwand zum Abrufen von ein IP-Paket von Punkt A nach Punkt B und an Punkt A. Diese Netzwerk Verteilung Verzögerung ist mit der physischen Abstand zwischen zwei Punkte und der Lichtgeschwindigkeit verknüpft und enthält zusätzlichen Aufwand, die von den verschiedenen Geräten im Netzwerkpfad übernommen.                                                                                  | Die Pakete braucht zu lange zum am Ziel eingehen dazu führen, dass einen Effekt Walkie-talkie.                                                                                 |
-| NMOS-Beeinträchtigung Durchschnitt \> 1.0                  | Eine oder mehrere der folgenden Metriken Netzwerk zwar einzeln waren nicht schlecht, verursacht zusammen um mehr als einen Punkt der Netzwerk- [Mean Opinion Score](https://technet.microsoft.com/library/bb894481(v=office.12).aspx) (NMOS), zu löschen. Dies bedeutet nicht unbedingt die Netzwerkschnittstelle ist schlecht, aber genügend Probleme aufgetreten sind, während des Anrufs, dass Qualität reduziert wurde. | Hierbei handelt es sich um eine Kombination von Jitter Paketverlust, und – in geringerem Maße – Roundtripzeit erhöht. Der Benutzer kann eine Kombination der folgenden Symptome auftreten.          |
+| NMOS-Beeinträchtigung Durchschnitt \> 1.0                  | Eine oder mehrere der folgenden Metriken Netzwerk zwar einzeln waren nicht schlecht, verursacht zusammen um mehr als einen Punkt der Netzwerk- [Mean Opinion Score](https://docs.microsoft.com/en-us/previous-versions/office/communications-server/bb894481(v=office.12)) (NMOS), zu löschen. Dies bedeutet nicht unbedingt die Netzwerkschnittstelle ist schlecht, aber genügend Probleme aufgetreten sind, während des Anrufs, dass Qualität reduziert wurde. | Hierbei handelt es sich um eine Kombination von Jitter Paketverlust, und – in geringerem Maße – Roundtripzeit erhöht. Der Benutzer kann eine Kombination der folgenden Symptome auftreten.          |
 | Durchschnittliches Verhältnis zwischen ausgeblendeten Samples \> 7 % oder 0,07 | Eine oder mehrere der folgenden Metriken Netzwerk zwar einzeln waren nicht schlecht, verursacht dem Client selbst reparieren das Medium. Ein ausgeblendeter audio Beispiel ist ein Verfahren zur abrupten Übergang zu glätten, die in der Regel durch Initiale Netzwerkpaketen verursacht werden würde.                                                                                                                | Hohe Werte anzugeben, dass erhebliche Ebenen der Verlust zum Verbergen angewendet wurden, und ergab Audio verzerrt oder verloren.                                                  |
 
 #### <a name="client-and-device-readiness"></a>Client- und Gerätefunktionen Bereitschaft
@@ -161,7 +161,7 @@ Es wird empfohlen, dass Sie nicht in Ihrer Client-Versionen von mehr als sechs M
 Keine einer Strategie für die einzelne kann die Benutzeroberfläche, die mehr als Ihrer Strategie für die Bereitschaft Gerät auswirken. Die meisten Organisationen freuen, entfernen Sie unnötige Geräte von Benutzern (beispielsweise Telefonapparate oder anderen dedizierten Audiogeräte), und dies ist häufig als Rechtfertigung Core für den Wechsel zu Teams oder Skype für Unternehmen. Allerdings zögern gleichen Organisationen manchmal Replacement-Geräte bereitstellen, auch wenn diese Geräte kostengünstigeren wurden. Modernen Laptops und PCs, jedoch mit integrierten Mikrofon und Lautsprecher, ausgestattet sind nicht für die Business-Klasse Voice over IP (VoIP) optimiert. Dadurch wird erstellt oft eine schlechte Erfahrung für alle Teilnehmer, insbesondere dann, wenn der Lautsprecher in einer lauten Umgebung ist. Zertifizierungsprogramm für Microsoft Gerät wird sichergestellt, dass, wenn ein Benutzer einen Telefonanruf gehört mithilfe von jedem Gerät zertifiziert für Teams oder Skype für Unternehmen, eine wünschen erzeugt, die zu einem Gerät nicht zertifizierter überlegen ist.
 
 Wir empfehlen immer Teams und Skype für Unternehmensbenutzer eine zertifizierten Kopfhörer oder Lautsprecher verwenden, wenn einen Anruf durch mithilfe eines Desktopclients teilnehmen.
-Weitere Informationen zu Microsoft überprüfen zertifizierte Geräte in diesem [Artikel über das Telefone und Geräte qualifizierten](https://technet.microsoft.com/office/dn788944.aspx). Verwenden Sie den [Device Report](#devices-investigations)Unterstützung bei der Verwaltung Ihrer Geräte weiter unten in diesem Handbuch. Die Beispielberichte Rate Meine aufrufen, können auch um Ihrer Strategie für die Bereitschaft Gerät weiter zu verbessern.
+Weitere Informationen zu Microsoft überprüfen zertifizierte Geräte in diesem [Artikel über das Telefone und Geräte qualifizierten](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/ip-phones). Verwenden Sie den [Device Report](#devices-investigations)Unterstützung bei der Verwaltung Ihrer Geräte weiter unten in diesem Handbuch. Die Beispielberichte Rate Meine aufrufen, können auch um Ihrer Strategie für die Bereitschaft Gerät weiter zu verbessern.
 
 ### <a name="user-experience"></a>Benutzererfahrung
 
@@ -295,7 +295,7 @@ Erforderliche Berechtigungen
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype für Business Online mithilfe von PowerShell
 
-1.  [Verbinden mit Skype für Unternehmen Online über die PowerShell](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx).
+1.  [Verbinden mit Skype für Unternehmen Online über die PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 2.  Führen Sie den folgenden Befehl aus:  
     **.Tenantid (Get-Cstenant)**
@@ -477,7 +477,7 @@ _Tabelle 4 – Filter melden_
 
 ## <a name="import-the-cqd-templates"></a>Importieren Sie die CQD-Vorlagen
 
-Dieses Handbuch umfasst [zwei curated CQD Vorlagen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true). Diese Vorlagen die Verwendung von CQD beschleunigen und bieten Ihnen die Möglichkeit, schnell nutzen CQDs-Funktionen zu einer Beeinträchtigung der Benutzer Teams oder Skype Business wünschen. Die Vorlage alle Netzwerke optimiert gegenüber einem Gebäude entwickelt Datendatei, kann verwendet werden, während der Arbeit in Richtung sammeln und Hochladen von Erstellen von Informationen in CQD, wie im nächsten Abschnitt beschrieben.
+Dieses Handbuch umfasst [zwei curated CQD Vorlagen](https://aka.ms/qertemplates). Diese Vorlagen die Verwendung von CQD beschleunigen und bieten Ihnen die Möglichkeit, schnell nutzen CQDs-Funktionen zu einer Beeinträchtigung der Benutzer Teams oder Skype Business wünschen. Die Vorlage alle Netzwerke optimiert gegenüber einem Gebäude entwickelt Datendatei, kann verwendet werden, während der Arbeit in Richtung sammeln und Hochladen von Erstellen von Informationen in CQD, wie im nächsten Abschnitt beschrieben.
 
 **So importieren Sie die Vorlagen (. CQDX) in CQD Online**
 
@@ -1048,7 +1048,7 @@ Versionsnummern für Skype für Business 2015 und 2016 finden Sie über die folg
 
 -   [Office 365-Client-Kanal Updateversionen](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
 
--   [Office 365-Version und Build-Nummern für klicken Sie auf Ausführen](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
+-   [Office 365-Version und Build-Nummern für klicken Sie auf Ausführen](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date)
 
 -   [Skype für Business-Downloads und-Updates](https://technet.microsoft.com/office/dn788954.aspx)
 
@@ -1154,7 +1154,7 @@ Weitere Informationen finden Sie unter den folgenden Artikel über das [Media Qu
 
 ### <a name="building-data-file"></a>Erstellen von-Datendatei
 
--   [Aktivieren und Verwenden von CQD in Skype für Business Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
+-   [Aktivieren und Verwenden von CQD in Skype für Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
 
 <a name="CQD-training"></a>
 
@@ -1164,17 +1164,17 @@ Weitere Informationen finden Sie unter den folgenden Artikel über das [Media Qu
 
 -   Handbuch [Erste Schritte mit CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) und Workshop.
 
--   [CQD Dimensionen und Measures online-Entwicklerhandbuch](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
+-   [CQD Dimensionen und Measures online-Entwicklerhandbuch](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard)
 
 ### <a name="call-analytics-training"></a>Rufen Sie Analytics-Schulung
 
 -   [Einführung in Anruf Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Einrichten von Skype for Business-Anrufanalyse](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
+-   [Einrichten von Skype for Business-Anrufanalyse](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
 
--   [Anruf Analyse- und Anrufqualität Dashboard](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+-   [Anruf Analyse- und Anrufqualität Dashboard](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
--   [Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
+-   [Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
 
 ### <a name="call-analytics-support"></a>Wenden Sie Analytics
 
@@ -1190,6 +1190,6 @@ Weitere Informationen finden Sie unter den folgenden Artikel über das [Media Qu
 
 -   [Office 365 Annahme Inhaltspaket](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Skype for Business Online-Berichterstellung](https://support.office.com/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
+-   [Skype for Business Online-Berichterstellung](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Microsoft-Teams, reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
