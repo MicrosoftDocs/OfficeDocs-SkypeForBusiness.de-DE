@@ -1,5 +1,5 @@
 ---
-title: Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen
+title: Einrichten von automatischen Telefonzentralen Sprachen für Audiokonferenzen in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,74 +14,62 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Finden Sie unter Wählen Sie die Audiokonferenz Auto attendant Sprachen für eine Audiokonferenz Zahl.
-ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: Finden Sie unter Wählen Sie die Audiokonferenz Auto attendant Sprachen für eine Audiokonferenz Zahl in Skype für Business Online.
+ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490515"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a><span data-ttu-id="7d645-103">Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenzen</span><span class="sxs-lookup"><span data-stu-id="7d645-103">Set auto attendant languages for Audio Conferencing</span></span>
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a><span data-ttu-id="2f658-103">Einrichten von automatischen Telefonzentralen Sprachen für Audiokonferenzen in Skype für Business Online</span><span class="sxs-lookup"><span data-stu-id="2f658-103">Set auto attendant languages for Audio Conferencing in Skype for Business Online</span></span>
 
-<span data-ttu-id="7d645-104">Die Audiokonferenz automatische Telefonzentrale für Skype für Unternehmen und die Microsoft-Teams kann Anrufer audio in einer Reihe von verschiedenen Sprachen begrüßen, beim Beitritt zu einer Besprechung.</span><span class="sxs-lookup"><span data-stu-id="7d645-104">The Audio Conferencing auto attendant for Skype for Business and Microsoft Teams can greet audio callers in a number of different languages when they join a meeting.</span></span>
+> [!Note]
+> <span data-ttu-id="2f658-104">Informationen zum Festlegen von der automatische Telefonzentrale Sprache in Microsoft-Teams finden Sie unter [Einrichten von automatischen Telefonzentralen Sprachen für Audiokonferenzen in Microsoft-Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).</span><span class="sxs-lookup"><span data-stu-id="2f658-104">For information about setting the auto attendant language in Microsoft Teams, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).</span></span>
+
+<span data-ttu-id="2f658-105">Die Audiokonferenz automatische Telefonzentrale für Skype für Unternehmen kann audio Anrufer in einer Reihe von verschiedenen Sprachen begrüßen, beim Beitritt zu einer Besprechung.</span><span class="sxs-lookup"><span data-stu-id="2f658-105">The Audio Conferencing auto attendant for Skype for Business can greet audio callers in a number of different languages when they join a meeting.</span></span>
   
-<span data-ttu-id="7d645-105">Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen.</span><span class="sxs-lookup"><span data-stu-id="7d645-105">Choose one primary language and up to four secondary languages.</span></span> <span data-ttu-id="7d645-106">Die primäre Sprache, die Sie festlegen zuerst verwendet werden und die sekundären Sprachen werden durch die automatische Telefonzentrale verwendet werden, dass Sie auswählen.</span><span class="sxs-lookup"><span data-stu-id="7d645-106">The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select.</span></span> 
+<span data-ttu-id="2f658-106">Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen.</span><span class="sxs-lookup"><span data-stu-id="2f658-106">Choose one primary language and up to four secondary languages.</span></span> <span data-ttu-id="2f658-107">Die primäre Sprache, die Sie festlegen zuerst verwendet werden und die sekundären Sprachen werden durch die automatische Telefonzentrale verwendet werden, dass Sie auswählen.</span><span class="sxs-lookup"><span data-stu-id="2f658-107">The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select.</span></span> 
   
 > [!NOTE]
->  <span data-ttu-id="7d645-107">Sie können die Sprachen auf nur Telefonnummern nationalen audio Zugriff konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="7d645-107">You can configure the languages on domestic audio access phone numbers only.</span></span>
-  
-## <a name="set-the-conferencing-auto-attendant-languages"></a><span data-ttu-id="7d645-108">Festlegen der Konferenzen Auto attendant Sprachen</span><span class="sxs-lookup"><span data-stu-id="7d645-108">Set the conferencing auto attendant languages</span></span>
+>  <span data-ttu-id="2f658-108">Sie können die Sprachen auf nur Telefonnummern nationalen audio Zugriff konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="2f658-108">You can configure the languages on domestic audio access phone numbers only.</span></span>
 
-<span data-ttu-id="7d645-109">![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**</span><span class="sxs-lookup"><span data-stu-id="7d645-109">![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**</span></span>
-
-1. <span data-ttu-id="7d645-110">Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**.</span><span class="sxs-lookup"><span data-stu-id="7d645-110">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span>
-
-2. <span data-ttu-id="7d645-111">Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie am oberen Rand der Seite aus, klicken Sie auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="7d645-111">Select the audio conferencing phone number from the list, and at the top of the page, click **Edit**.</span></span>
-
-3. <span data-ttu-id="7d645-112">Wählen Sie im Bereich auf der rechten Seite die gewünschten Standardsprache und alle alternativen Sprachen.</span><span class="sxs-lookup"><span data-stu-id="7d645-112">In the pane on the right, choose the default language you want and any alternate languages.</span></span> 
- 
-    > [!NOTE]
-    > <span data-ttu-id="7d645-113">Der standardmäßige und alternative Sprachen, die unterstützt werden, sind aufgeführt.</span><span class="sxs-lookup"><span data-stu-id="7d645-113">The default and alternate languages that are supported are listed.</span></span> <span data-ttu-id="7d645-114">Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden.</span><span class="sxs-lookup"><span data-stu-id="7d645-114">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
-
-4. <span data-ttu-id="7d645-115">Klicken Sie auf **Anwenden**.</span><span class="sxs-lookup"><span data-stu-id="7d645-115">Click **Apply**.</span></span>
-
-<span data-ttu-id="7d645-116">![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **Skype für Unternehmen online verwenden**</span><span class="sxs-lookup"><span data-stu-id="7d645-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using Skype for Business online**</span></span>
-
-<span data-ttu-id="7d645-117">Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder [Skype für Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieses Schritts sein.</span><span class="sxs-lookup"><span data-stu-id="7d645-117">You must be an [Office 365 global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.</span></span>
-    
-1. <span data-ttu-id="7d645-118">Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz), und klicken Sie dann auf **Microsoft Bridge**.</span><span class="sxs-lookup"><span data-stu-id="7d645-118">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and then click **Microsoft bridge**.</span></span>
-    
-2. <span data-ttu-id="7d645-119">Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich, klicken Sie auf **Sprachen festlegen**.</span><span class="sxs-lookup"><span data-stu-id="7d645-119">Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**.</span></span> 
-    
-3. <span data-ttu-id="7d645-120">Klicken Sie auf der Seite **festlegen Sprachen** auf der Liste der **primären Sprache** , um die vollständige Liste der verfügbaren Sprachen anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="7d645-120">On the **Set languages** page, click the **Primary language** list to view the complete list of available languages.</span></span> <span data-ttu-id="7d645-121">Wenn Sie möchten, klicken Sie auf die **sekundären Sprachen** Listen sekundären Sprache auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="7d645-121">If you need to, click each of the **Secondary languages** lists to select secondary language.</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="7d645-122">Die primären und sekundären Sprachen, die unterstützt werden, sind aufgeführt.</span><span class="sxs-lookup"><span data-stu-id="7d645-122">The primary and secondary languages that are supported are listed.</span></span> <span data-ttu-id="7d645-123">Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden.</span><span class="sxs-lookup"><span data-stu-id="7d645-123">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
-  
-4. <span data-ttu-id="7d645-124">Klicken Sie auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="7d645-124">Click **Save**.</span></span>
-    
-> [!Note]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
-## <a name="want-else-should-i-know"></a><span data-ttu-id="7d645-125">Was sollte ich noch wissen?</span><span class="sxs-lookup"><span data-stu-id="7d645-125">Want else should I know?</span></span>
-
-- <span data-ttu-id="7d645-126">Die Liste der unterstützten Sprachen für Audiokonferenzen, finden Sie unter [Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md).</span><span class="sxs-lookup"><span data-stu-id="7d645-126">To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).</span></span>
-    
-- <span data-ttu-id="7d645-127">Sprachen können für dedizierte, aber nicht nach freigegebenen Telefonnummern festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="7d645-127">Languages can be set for dedicated but not for shared phone numbers.</span></span>
-    
-- <span data-ttu-id="7d645-128">Eine Liste der Länder/Regionen in der Audiokonferenzen in Office 365 mithilfe von Microsoft als Anbieter verfügbar ist, finden Sie unter [Rufnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="7d645-128">To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md).</span></span>
-    
-## <a name="want-to-use-windows-powershell"></a><span data-ttu-id="7d645-129">Windows PowerShell verwenden?</span><span class="sxs-lookup"><span data-stu-id="7d645-129">Want to use Windows PowerShell?</span></span>
-
-<span data-ttu-id="7d645-130">Wenn dieser Schritt automatisieren möchten, können Sie die Cmdlets [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) und [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) verwenden.</span><span class="sxs-lookup"><span data-stu-id="7d645-130">To automate this step, you can use the [Set-CsOnlineDialInConferencingServiceNumber ](https://go.microsoft.com/fwlink/?LinkId=617689) and [Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlets.</span></span>
   
-<span data-ttu-id="7d645-131">Weitere Informationen finden Sie unter [Mithilfe von Windows PowerShell allgemeine Skype Business Online Verwaltungsaufgaben ausführen](https://go.microsoft.com/fwlink/?LinkId=525038)</span><span class="sxs-lookup"><span data-stu-id="7d645-131">To learn more, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)</span></span>
-  
-## <a name="related-topics"></a><span data-ttu-id="7d645-132">See Also</span><span class="sxs-lookup"><span data-stu-id="7d645-132">Related topics</span></span>
+## <a name="set-the-conferencing-auto-attendant-languages"></a><span data-ttu-id="2f658-109">Festlegen der Konferenzen Auto attendant Sprachen</span><span class="sxs-lookup"><span data-stu-id="2f658-109">Set the conferencing auto attendant languages</span></span>
 
-[<span data-ttu-id="7d645-133">Testen oder Erwerben von Audiokonferenzen in Office 365</span><span class="sxs-lookup"><span data-stu-id="7d645-133">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+<span data-ttu-id="2f658-110">Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder [Skype für Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieses Schritts sein.</span><span class="sxs-lookup"><span data-stu-id="2f658-110">You must be an [Office 365 global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.</span></span>
+    
+1. <span data-ttu-id="2f658-111">Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz), und klicken Sie dann auf **Microsoft Bridge**.</span><span class="sxs-lookup"><span data-stu-id="2f658-111">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and then click **Microsoft bridge**.</span></span>
+    
+2. <span data-ttu-id="2f658-112">Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich, klicken Sie auf **Sprachen festlegen**.</span><span class="sxs-lookup"><span data-stu-id="2f658-112">Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**.</span></span> 
+    
+3. <span data-ttu-id="2f658-113">Klicken Sie auf der Seite **festlegen Sprachen** auf der Liste der **primären Sprache** , um die vollständige Liste der verfügbaren Sprachen anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="2f658-113">On the **Set languages** page, click the **Primary language** list to view the complete list of available languages.</span></span> <span data-ttu-id="2f658-114">Wenn Sie möchten, klicken Sie auf die **sekundären Sprachen** Listen sekundären Sprache auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="2f658-114">If you need to, click each of the **Secondary languages** lists to select secondary language.</span></span>
+    
+    > [!NOTE]
+    > <span data-ttu-id="2f658-115">Die primären und sekundären Sprachen, die unterstützt werden, sind aufgeführt.</span><span class="sxs-lookup"><span data-stu-id="2f658-115">The primary and secondary languages that are supported are listed.</span></span> <span data-ttu-id="2f658-116">Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden.</span><span class="sxs-lookup"><span data-stu-id="2f658-116">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
+  
+4. <span data-ttu-id="2f658-117">Klicken Sie auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="2f658-117">Click **Save**.</span></span>
+    
+## <a name="want-else-should-i-know"></a><span data-ttu-id="2f658-118">Was sollte ich noch wissen?</span><span class="sxs-lookup"><span data-stu-id="2f658-118">Want else should I know?</span></span>
+
+- <span data-ttu-id="2f658-119">Die Liste der unterstützten Sprachen für Audiokonferenzen, finden Sie unter [Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md).</span><span class="sxs-lookup"><span data-stu-id="2f658-119">To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).</span></span>
+    
+- <span data-ttu-id="2f658-120">Sprachen können für dedizierte, aber nicht nach freigegebenen Telefonnummern festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="2f658-120">Languages can be set for dedicated but not for shared phone numbers.</span></span>
+    
+- <span data-ttu-id="2f658-121">Eine Liste der Länder/Regionen in der Audiokonferenzen in Office 365 mithilfe von Microsoft als Anbieter verfügbar ist, finden Sie unter [Rufnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="2f658-121">To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md).</span></span>
+    
+## <a name="want-to-use-windows-powershell"></a><span data-ttu-id="2f658-122">Windows PowerShell verwenden?</span><span class="sxs-lookup"><span data-stu-id="2f658-122">Want to use Windows PowerShell?</span></span>
+
+<span data-ttu-id="2f658-123">Wenn dieser Schritt automatisieren möchten, können Sie die Cmdlets [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) und [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) verwenden.</span><span class="sxs-lookup"><span data-stu-id="2f658-123">To automate this step, you can use the [Set-CsOnlineDialInConferencingServiceNumber ](https://go.microsoft.com/fwlink/?LinkId=617689) and [Get-CsOnlineDialInConferencingLanguagesSupported ](https://go.microsoft.com/fwlink/?LinkId=617684) cmdlets.</span></span>
+  
+<span data-ttu-id="2f658-124">Weitere Informationen finden Sie unter [Mithilfe von Windows PowerShell allgemeine Skype Business Online Verwaltungsaufgaben ausführen](https://go.microsoft.com/fwlink/?LinkId=525038)</span><span class="sxs-lookup"><span data-stu-id="2f658-124">To learn more, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)</span></span>
+  
+## <a name="related-topics"></a><span data-ttu-id="2f658-125">See Also</span><span class="sxs-lookup"><span data-stu-id="2f658-125">Related topics</span></span>
+
+[<span data-ttu-id="2f658-126">Testen oder Erwerben von Audiokonferenzen in Office 365</span><span class="sxs-lookup"><span data-stu-id="2f658-126">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
