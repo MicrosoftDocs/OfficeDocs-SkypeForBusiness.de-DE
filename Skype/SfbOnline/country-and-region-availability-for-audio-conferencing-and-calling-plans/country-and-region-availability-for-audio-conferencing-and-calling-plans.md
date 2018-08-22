@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: d4fd54348cf1897a60c235f3f4fa408c051b3f0b
-ms.sourcegitcommit: 18ae1505642e985f7fb62d2e70e37e8489b5ef15
+ms.openlocfilehash: 5844b271cb89d669dac11d2dda67b62ed4bd22c1
+ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "20034646"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22554033"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -158,9 +158,6 @@ Audiokonferenz enthält die Funktion „*Rückruf*“, mit der andere Personen a
 > Ausgehende Anrufe an gebührenfreie oder freie Telefonnummern sind vielleicht nicht möglich, da einige gebührenfreie Telefonnummern nur innerhalb eines bestimmten Landes/einer bestimmten Region oder eines Gebiets innerhalb des Landes/der Region möglich sind. Wenn Sie z. B. aus den USA eine gebührenfreie Telefonnummer in Brasilien anwählen, wird die Verbindung möglicherweise nicht hergestellt, da der Anruf nicht innerhalb von Brasilien oder aus einer bestimmten Region in Brasilien getätigt wurde. Daher kann die Möglichkeit, ausgehende Anrufe an gebührenfreie Telefonnummern zu tätigen, abhängig von den Einschränkungen einer gewählten gebührenfreien Telefonnummer stark variieren. Leider können wir dieses Verhalten in Office 365 nicht steuern, daher können Sie abhängig von der gewählten gebührenfreien Telefonnummer und den Einschränkungen für diese gebührenfreie Telefonnummer unterschiedliche Erfahrungen machen. 
   
 Ausgehende Anrufe aus einer Besprechung in ein anderes Land/eine andere Region in der Welt, das bzw. die nicht in der Liste unten aufgeführt ist, ist mithilfe von [Office 365-Guthaben für Kommunikationen](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) möglich. Für diese Benutzer müssen Sie [Guthaben für Kommunikationen in Ihrer Organisation einrichten](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
-  
-> [!NOTE]
-> Während der Einführungsphase können Benutzer in allen Organisationen bei Verwendung der Rückruffunktion oder beim Hinzufügen von Personen zu einer Besprechung ohne zusätzliche Kosten aus einer Besprechung Anrufe in die folgenden Länder/Regionen tätigen. Dafür gelten jedoch die Bestimmungen unter [Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe](../legal-and-regulatory/complimentary-dial-out-period.md). 
   
 ### <a name="phone-system"></a>Telefonsystem
 Mit Telefonsystem können Sie automatische Telefonzentralen und Anrufwarteschleifen (mit gebührenpflichtigen und gebührenfreien Telefonnummern) zur Beantwortung von eingehenden Anrufen in Ihrer Organisation erstellen. Und wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business nutzen, um grundlegende Aufgaben zur Anrufkontrolle durchzuführen. Beispiele sind das Tätigen und Annehmen von Anrufen, das Weiterleiten von Anrufen und das Stummschalten bzw. Aufheben der Stummschaltung für Anrufe. **Telefonsystem**-Benutzer können auf einen Namen in ihrem Adressbuch klicken, und Skype for Business wird diese Person anrufen. Um Anrufe zu tätigen oder anzunehmen, können **Telefonsystem**-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eins der zahlreichen IP-Telefone nutzen, die mit Skype for Business verwendet werden können.
