@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der Integration zwischen lokalen Skype für Business Server und Outlook Web App
+title: Konfigurieren der Integration zwischen einer lokalen Skype for Business Server-Bereitstellung und Outlook Web App
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Zusammenfassung: Integrieren von Skype für Business Server und Outlook Web App.'
-ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ad1f6bc898a29c2a5e0f326d3a5edc4d782bab2
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995848"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22914096"
 ---
-# <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Konfigurieren der Integration zwischen lokalen Skype für Business Server und Outlook Web App
+# <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Konfigurieren der Integration zwischen einer lokalen Skype for Business Server-Bereitstellung und Outlook Web App
  
 **Zusammenfassung:** Integrieren von Skype für Business Server und Outlook Web App.
   
@@ -53,7 +53,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 
 > [!NOTE]
-> Wenn Sie Office 365 über 21Vianet in China nutzen, ersetzen Sie den Wert für den Parameter **ProxyFqdn** in diesem Beispiel („exap.um.outlook.com“) mit dem FQDN für den Dienst, der in China von 21Vianet bereitgestellt wird: „exap.um.partner.outlook.cn“.
+> Wenn Sie Office 365 über 21Vianet in China nutzen, ersetzen Sie den Wert für den Parameter ProxyFqdn in diesem Beispiel („exap.um.outlook.com“) mit dem FQDN für den Dienst, der in China von 21Vianet bereitgestellt wird: „exap.um.partner.outlook.cn“. Wenn Sie Office 365 GCC hohe verwenden, ersetzen Sie den Wert für den Parameter ProxyFqdn in diesem Beispiel wird ("exap.um.outlook.com") durch den FQDN für hohe GCC: "exap.um.office365.us".
   
 - **Identität** gibt einen eindeutigen Zeichenfolgenwert für den Hostinganbieter, den Sie erstellen (z. B. "Exchange Online"). Werte, die Leerzeichen enthalten, müssen in Anführungszeichen gesetzt werden.
     

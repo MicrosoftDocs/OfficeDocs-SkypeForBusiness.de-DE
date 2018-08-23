@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren der Weiterleitung von direkten
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599430"
+ms.locfileid: "22914752"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren der Weiterleitung von direkten
 
@@ -519,9 +519,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 Das Ergebnis ist, dass die VoIP-Richtlinie auf John Woods Anrufe angewendet werden nicht eingeschränkt, und die Logik des Routings ausgehender Anrufe für den Aufruf von USA, Kanada und International verfügbaren vor.
 
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Festlegen Sie Microsoft-Teams für die Benutzer als bevorzugter Client aufrufende
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Festlegen Sie Microsoft-Teams als bevorzugter Client aufrufende für Benutzer
 
-Direktes Routing nur die Anrufe weiterleiten an und von Benutzern Wenn diese Teams Cleint verwenden. Wenn Ihre Organisation nur Teams Client verwenden, wird "Nur Teams"-Modus in Upgrade Richtlinie empfohlen festzulegen. Wenn Sie Organisation Skype für Business Server oder Skype für Business Online verwendet wird, überprüfen Sie das folgende Dokument [Grundlegendes zu Upgrade und Koexistenz beider Weg für Skype für Unternehmen und Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) und wählen die entsprechende Option aus. 
+Direktes Routing nur weiterleiten Anrufe an und von Benutzern, wenn sie die Verwendung des Teams-Clients. Wenn Ihre Organisation nur Teams verwendet, wird "Nur Teams"-Modus in Upgrade Richtlinie empfohlen festzulegen. Wenn Ihre Organisation für Business Online Skype für Business Server oder Skype verwendet wird, finden Sie im folgenden Artikel Weitere Informationen und die entsprechende Option: [Verstehen der Koexistenz und Durchführen eines Upgrades Weg für Skype für Unternehmen und Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Siehe auch

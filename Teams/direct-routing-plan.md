@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: b6740951e65a2c917c95cce884f3c2a42ea004e7
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599462"
+ms.locfileid: "22914120"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
 
@@ -110,8 +110,8 @@ Die folgende Tabelle enthält Beispiele für DNS-Namen für den Mandanten regist
 "contoso.com"|Ja|**Gültige Namen:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>"Europe.contoso.com"|
 |Contoso.onmicrosoft.com|Nein|<br/>Mit *. onmicrosoft.com Domänen wird nicht unterstützt, für die Namen von SBC
 
-Wenn Sie einen neuen Domänennamen verwenden möchten. Beispielsweise hat Ihres Mandanten "contoso.com" als einen Domänennamen in Ihrem Mandanten registriert. Sie möchten sbc1.sip.contoso.com verwenden. Bevor Sie einen SBC mit Namen sbc1.sip.contoso.com Kopplung können müssen Sie Domain Name sip.contoso.com in "Domänen" in Ihrem Mandanten zu registrieren. Wenn Sie versuchen, eine Kopplung ein SBC sbc1.sip.contoso.com erhalten einem Fehler Sie "Kann nicht die Domäne"sbc1.sip.contoso.com"verwenden Sie, wie sie für diesen Mandanten nicht konfiguriert wurde."
-Nach dem Hinzufügen von Domänennamen müssen Sie auch zum Erstellen eines Benutzers mit UPN user@sip.contoso.com und weisen Sie eine Lizenz "Teams". Es kann den Domänennamen vollständig bereit, nachdem es "Domänen" des Mandanten, ein Benutzer mit dem neuen Namen erstellt und eine dem Benutzer zugewiesene Lizenz hinzugefügt bis zu 24 Stunden dauern. 
+Wird davon ausgegangen Sie, dass Sie einen neuen Domänennamen verwenden möchten. Ihres Mandanten hat beispielsweise "contoso.com" als ein Domänennamen in Ihrem Mandanten registriert, und Sie sbc1.sip.contoso.com verwenden möchten. Bevor Sie einen SBC mit dem Namen sbc1.sip.contoso.com Kopplung können, müssen Sie die Domäne Name sip.contoso.com in "Domänen" in Ihrem Mandanten registrieren. Wenn Sie versuchen, eine Kopplung einen SBC mit sbc1.sip.contoso.com vor den Domänennamen registrieren, erhalten Sie die folgende Fehlermeldung: "Können die Domäne"sbc1.sip.contoso.com"wie verwenden sie nicht für diesen Mandanten konfiguriert wurde."
+Nachdem Sie den Domänennamen hinzugefügt haben, müssen Sie auch zum Erstellen eines Benutzers mit UPN user@sip.contoso.com und weisen Sie eine Lizenz "Teams". Es kann bis zu 24 Stunden dauern, vollständig bereitstellen, die der Domänennamen nach dem "Domänen" Ihres Mandanten ein Benutzer mit einem neuen Namen erstellt, und der Benutzer eine Lizenz zugewiesen wurde hinzugefügt wird. 
 
 Es ist möglich, dass ein Unternehmen möglicherweise mehrere SIP-Adresse Leerzeichen in einem Mandanten muss. Beispielsweise ein Unternehmen als einen SIP-Adressraum contoso.com und fabrikam.com als zweite SIP-Adressraum möglicherweise. Einige Benutzer haben Adresse user@contoso.com und einige Benutzer haben die Adresse user@fabrikam.com. 
 

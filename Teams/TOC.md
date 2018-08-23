@@ -40,6 +40,7 @@
 ### [Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Zuweisen von Rollen und Berechtigungen in Teams](assign-roles-permissions.md)
 ### [Veröffentlichen von apps zum Teams Mandanten Apps-Katalog](tenant-apps-catalog-teams.md)
+### [Konfigurieren der Skype Besprechungen App entwickelt Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ## [Moderne Authentifizierung](sign-in-teams.md)
 ## [Kommunizieren Sie mit Benutzern in anderen Organisationen Teams](let-your-teams-users-communicate-with-other-people.md)
 ## [Bereitstellungsrichtlinien für Cloud-VoIP](cloud-voice-deployment.md)
