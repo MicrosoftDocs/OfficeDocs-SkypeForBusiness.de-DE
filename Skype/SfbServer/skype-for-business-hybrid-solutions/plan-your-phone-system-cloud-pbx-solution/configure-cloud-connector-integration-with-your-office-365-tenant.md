@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
-ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 01a3eac7356846b7d3b153ff4e01c9b52c3744ce
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211151"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599414"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Konfigurieren der Cloud Connector-Integration mit Ihrem Office 365-Mandanten
  
@@ -168,7 +168,13 @@ Wenn ein P2P-Aufruf für eine PSTN-Konferenz eskaliert wird, sendet die Skype f�
     
     Beachten Sie, dass die Lizenz-Zuordnung ist nur für die Weitergabe Benutzer in der Skype für Business online Directory erforderlich. Weisen Sie das Konto erstellen, können bis zu einer Stunde, damit die Änderungen zu übernehmen und dann entfernen die Lizenz aus dieses Konto ein Office 365-Lizenzen (beispielsweise E5).
     
-2. Starten Sie eine mit Mandanten remote PowerShell-Sitzung mithilfe Ihrer Mandanten-Admin-Anmeldeinformationen, und führen Sie dann das folgende Cmdlet für diesen Benutzer dem Vermittlungsserver und Edge-Server-FQDN festzulegen berücksichtigt, ersetzt \<DisplayName\> mit dem Anzeigenamen des Benutzers für die Konto, das Sie erstellt haben:
+2. Starten Sie eine mit Mandanten Azure AD remote PowerShell-Sitzung mit den globalen oder Benutzeranmeldeinformationen Admin, und führen Sie dann in das folgende Cmdlet die Abteilung für das Benutzerkonto Azure AD festgelegt konfigurierten Schritt 1 "HybridMediationServer":
+
+ ```
+  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+  ```
+
+3. Starten Sie einen Mandanten Skype für Business remote PowerShell-Sitzung mithilfe Ihrer Skype für Business Mandanten-Admin-Anmeldeinformationen, und führen Sie dann das folgende Cmdlet für diesen Benutzer dem Vermittlungsserver und Edge-Server-FQDN festzulegen berücksichtigt, ersetzen \<DisplayName\> mit dem Anzeigenamen für das Konto des Benutzers, die Sie in Schritt 1 erstellt haben:
     
   ```
   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>

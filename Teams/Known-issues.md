@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546399"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599368"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
   
@@ -43,6 +43,10 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |"Assignments" app bleibt Visble Wenn deaktiviert  <br/> |Wenn die app "Aufgaben" in der Verwaltungskonsole deaktiviert ist, bleibt sie innerhalb des Teams-Clients für EDU lizenzierte Benutzer sichtbar. Auswählen, wenn deaktiviert gibt einen Fehler zurück, der angibt, "Galerie zurück. Ist ein Fehler aufgetreten..."  <br/> |Keine Problemumgehung  <br/> |12/29/17  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Kann nicht als Teambesitzer Connectors löschen  <br/> |Versuch, eine Verbindung als Besitzer löschen können, die andernfalls eine Connector hinzufügen, während "Zulassen, dass Mitglieder zu erstellen, aktualisieren und Entfernen von Connectors" deaktivierte löst ist ein Fehler, der angibt, des Benutzers nicht über die Berechtigung dazu. <br/> |Vorübergehende aktivieren "Zulassen, dass Mitglieder zu erstellen, aktualisieren und Entfernen von Connectors" ansetzt, kann der Besitzer des Connectors löschen.  <br/> |7/27/18  <br/> |
 
 ## <a name="authentication"></a>Authentifizierung
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
