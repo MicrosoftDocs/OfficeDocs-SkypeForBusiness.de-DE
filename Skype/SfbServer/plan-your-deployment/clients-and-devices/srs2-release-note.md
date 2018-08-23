@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 20a378e9565a5ddea2e1951d3d26cf30878f62c9
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412325"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601983"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -25,6 +25,10 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 | Version | Veröffentlicht <br>Microsoft Store | 
 | ---     | ---                              |
+| 4.0.8.0|  07/06/2018    |   
+| 3.1.115.0|  06/18/2018    |
+| 3.1.113.0|  06/13/2018    |   
+| 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  03/16/2018    |            
 | 3.1.99.0 | 3/14/2018      |   
@@ -40,11 +44,28 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype-Chatroom-Systemen v2 Feature Einführung und Behebung
 
+### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
+In diesem Update eingeführt: 
+- Dieses Update ermöglicht sowohl Skype *und* Teams Besprechungen Unterstützung auf Geräten Raum Systeme.  Teams ist standardmäßig deaktiviert, nachdem das Update angewendet wird.  Administratoren können Teams lokal in den geräteeinstellungen oder über eine remote-Xml-Push aktivieren.
+
+### <a name="311150-06182018"></a>3.1.115.0 (18/06/2018)
+In diesem Update eingeführt: 
+- Auf einige Systeme während der app-Start beobachteten Adresse Fehler beheben.
+
+### <a name="311130-06132018"></a>3.1.113.0 (13/06/2018)
+In diesem Update eingeführt: 
+- Aktivieren von Microsoft flexibel auf mehrere Änderungen Verwalten von Windows-Updates.
+- Keine Änderung an den Endbenutzer.
+
+### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)
+In diesem Update eingeführt: 
+- Zu Adresse Konsole Reaktionsfähigkeit, die Aufnahme auf 2017 Surface Pro-basierten Geräten verbunden mit zwei Vorderseite der Raum zeigt und Videofunktionen beobachteten Probleme beheben
+- Automatisierte stellen Sie sicher, dass das System die neuesten provisioning Skript ausgeführt wird.
+
 ### <a name="311040-04162018"></a>3.1.104.0 (04/16/2018)
 In diesem Update eingeführt: 
 - Update zur Verbesserung der Bildschirmtastatur (Bildschirmtastatur) Verhalten im Fenster 10 Version 1709-basierte Systeme
 - Verbesserungen für zukünftige Betriebssystemupdates vorbereiten
-
 
 ### <a name="311000-03162018"></a>3.1.100.0 (03/16/2018)
 In diesem Update eingeführt:  

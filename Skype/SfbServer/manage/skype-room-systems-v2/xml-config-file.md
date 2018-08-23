@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Gerät Skype Raum Systemen v2, einschließlich eines benutzerdefinierten Designs verwendet.
-ms.openlocfilehash: 9e8ff661dfab6810d1072b86dddcb8621c63b8d0
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 1d8891ab318cac6849b5b6701a8aac7b87185bd6
+ms.sourcegitcommit: 38f3757feb82aeff0c03d8a3f0dde77a4cdde2ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21711051"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "22602004"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Verwalten einer Skype Room Systems v2-Konsoleneinstellung auf einem Remote-Gerät mit einer XML-Konfigurationsdatei
  
@@ -37,9 +37,7 @@ In der folgenden Tabelle wird erläutert, die Elemente in diesem Beispiel SkypeS
              <DomainUsername>Seattle\RanierConf</DomainUsername>
              <Password>password</Password>
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
-             <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
-  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
@@ -70,37 +68,37 @@ Wenn die XML-Datei falsch formatiert wurde (Elemente sind nicht funktionsfähig,
   
 **XML-Elemente**
  
-|**Element**|**Typ**|**Ebene**|**Verwendung**|
-|:-----|:-----|:-----|:-----|
-|\<SkypeSettings\>  <br/> |Container für alle Elemente.  <br/> ||Erforderlich.  <br/> |
-| \<AutoScreenShare\> <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert. <br/> |
-|\<HideMeetingName\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Falls zutreffend, sind die Besprechungsnamen ausgeblendet.  <br/> |
-|\<"Useraccount" bei\>  <br/> |Container  <br/> |Erste & #x 2776; <br/> |Container für Anmeldeinformationen-Parameter.  <br/> Anmelden bei Adresse, die Exchange-Adresse oder die e-Mail-Adresse in der Regel identisch sind, wie etwa RanierConf<span></span>@contoso.com.  <br/> |
-|\<SkypeMeetingsEnabled\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig aktiviert.  <br/> |
-|\<SkypeSignInAddress\>  <br/> |Zeichenfolge 3 <br/> ||Der Anmeldename für das Skype for Business-Gerätekonto der Konsole.  <br/> |
-|\<ExchangeAddress\>  <br/> |Zeichenfolge 3 <br/> ||Der Anmeldename für das Exchange-Gerätekonto der Konsole.  <br/> Wenn die Exchange-Adresse ausgelassen wird, wird die Skype-Anmeldeadresse nicht automatisch wiederverwendet.   <br/> |
-|\<DomainUsername\>  <br/> |Zeichenfolge & #x 2778; <br/> ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf.  <br/> |
-|\<Kennwort\>  <br/> |Zeichenfolge 3 <br/> || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.  <br/> |
-| \<ConfigureDomain\> <br/> |Zeichenfolge & #x 2778; <br/> ||Sie können mehrere durch Kommata getrennte Domänen auflisten.  <br/> |
-|\<AutoRotatePassword\>  <br/> |Boolescher Wert & #x 2777; <br/> |||
-|\<TeamsMeetingsEnabled\>  <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig deaktiviert.  <br/> Die XML-Datei wird nicht wohlgeformten betrachtet, wenn beide \<SkypeMeetingsEnabled\> und\<TeamsMeetingsEnabled\> sind deaktiviert, aber es ist akzeptabel, beide Einstellungen zur selben Zeit aktiviert haben.  <br/> |
-|\<IsTeamsDefaultClient > |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig deaktiviert. <br/>|
-|\<BluetoothAdvertisementEnabled > |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Diese Option ist standardmäßig aktiviert. <br/>|
-|\<DualScreenMode\> <br/> |Boolescher Wert & #x 2777; <br/> |Erste & #x 2776; <br/> |Dual-Screen-Modus ist aktiviert, wenn "true". Andernfalls verwendet das Gerät den Einzelbildschirmmodus.  <br/> |
-|\<SendLogs\>  <br/> |Container  <br/> |Erste & #x 2776; <br/> ||
-|\<EmailAddressForLogsAndFeedback\>  <br/> |Zeichenfolge & #x 2778; <br/> ||Damit wird eine optionale E-Mail-Adresse verwendet, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird.   <br/> |
-|\<SendLogsAndFeedback\>  <br/> |Boolescher Wert & #x 2777; <br/> || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet. <br/> |
-| \<Geräte\> <br/> |Container  <br/> |Erste & #x 2776; <br/> | Die Namen der verbundenen Audiogeräte in den untergeordneten Elementen stimmen mit den Werten in der Gerätemanager-App überein. Die Konfiguration kann ein Gerät enthalten, das derzeit nicht auf dem System vorhanden ist, wie zum Beispiel ein aktuelle nicht mit der Konsole verbundenes A/V-Gerät. Die Konfiguration würde für das entsprechende Gerät beibehalten. <br/> |
-|\<MicrophoneForCommunication\>  <br/> |Zeichenfolge 3 <br/> ||Legt das Mikrofon fest, das als Aufnahmegerät in einer Konferenz verwendet wird.  <br/> |
-|\<SpeakerForCommunication\>  <br/> |Zeichenfolge 3 <br/> ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das Lautsprechergerät festzulegen, das für die Audiowiedergabe in einem Anruf verwendet wird.  <br/> |
-|\<DefaultSpeaker\>  <br/> |Zeichenfolge 3 <br/> ||Gerät, das zum Abspielen von Audio aus einer HDMI-Erfassungsquelle verwendet wird.   <br/> |
-| \<Verwendung von Designs\> <br/> |Container  <br/> |Erste & #x 2776; <br/> |Bei einer der Funktionen, die unter Verwendung einer XML-Datei verwendet werden kann, handelt es sich um ein benutzerdefiniertes Design für Ihre Organisation. Sie werden können einen Namen des Standarddesigns, Hintergrundbild und Farbe angeben.  <br/> |
-|\<ThemeName\>  <br/> |Zeichenfolge & #x 2778; <br/> || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefiniertes Designnamen sollten stets den Namen *Custom* verwenden. Der Client Benutzeroberfläche kann festgelegt werden in der Konsole auf die Standardvorlage oder eine der Vorgaben, jedoch Anwenden eines benutzerdefinierten Designs muss festgelegt werden Remote von einem Administrator. <br/>  Werkseitig eingestellte Designs enthalten: <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Verwenden Sie zum Deaktivieren des aktuellen Designs "Kein Design" für die ThemeName. <br/> |
-|\<CustomThemeImageUrl\>  <br/> |Zeichenfolge & #x 2778; <br/> ||Erforderlich, wenn ein benutzerdefiniertes Design, andernfalls optional. Finden Sie im Abschnitt [Benutzerdefinierte Designs Bilder](xml-config-file.md#Themes) unter Weitere Details auf das Bild der benutzerdefinierten Designs. <br/> |
-|\<CustomThemeColor\>  <br/> |Container  <br/> ||Container für die \<RedComponent\>, \<GreenComponent\>, und \<BlueComponent\> Werte. diese Werte sind bei Verwendung eines benutzerdefinierten Designs erforderlich.  <br/> |
-|\<RedComponent\>  <br/> |Byte (0-255)  <br/> ||Stellt die rote Komponente dar.  <br/> |
-|\<GreenComponent\>  <br/> |Byte (0-255)  <br/> ||Stellt die grüne Komponente dar.  <br/> |
-|\<BlueComponent\>  <br/> |Byte (0-255)  <br/> ||Stellt die blaue Komponente dar.  <br/> |
+|Element|Typ|Ebene|Verwendung|
+|:--- |:--- |:--- |:--- |
+|\<SkypeSettings\>   |Container für alle Elemente.   ||Erforderlich.   |
+| \<AutoScreenShare\>  |Boolescher Wert & #x 2777;  |Erste & #x 2776;  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
+|\<HideMeetingName\>   |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet.   |
+|\<"Useraccount" bei\>   |Container   |Erste & #x 2776;  |Container für Anmeldeinformationen-Parameter.   Anmelden bei Adresse, die Exchange-Adresse oder die e-Mail-Adresse in der Regel identisch sind, wie etwa RanierConf<span></span>@contoso.com.   |
+|\<SkypeMeetingsEnabled\>  |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig aktiviert.   |
+|\<SkypeSignInAddress\>   |Zeichenfolge & #x 2778;  ||Der Anmeldename für das Skype for Business-Gerätekonto der Konsole.   |
+|\<ExchangeAddress\>   |Zeichenfolge & #x 2778;  ||Der Anmeldename für das Exchange-Gerätekonto der Konsole.   Wenn die Exchange-Adresse ausgelassen wird, wird die Skype-Anmeldeadresse nicht automatisch wiederverwendet.    |
+|\<DomainUsername\>   |Zeichenfolge & #x 2778;  ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf.   |
+|\<Kennwort\>   |Zeichenfolge 3  || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.   |
+| \<ConfigureDomain\>  |Zeichenfolge & #x 2778;  ||Sie können mehrere durch Kommata getrennte Domänen auflisten.   |
+|\<TeamsMeetingsEnabled\>   |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird nicht wohlgeformten betrachtet, wenn beide \<SkypeMeetingsEnabled\> und\<TeamsMeetingsEnabled\> sind deaktiviert, aber es ist akzeptabel, beide Einstellungen zur selben Zeit aktiviert haben.   |
+|\<IsTeamsDefaultClient > |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig deaktiviert. |
+|\<BluetoothAdvertisementEnabled > |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig aktiviert. |
+|\<DualScreenMode\>  |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Dual-Screen-Modus ist aktiviert, wenn "true". Andernfalls verwendet das Gerät den Einzelbildschirmmodus.   |
+|\<SendLogs\>   |Container   |Erste & #x 2776;  ||
+|\<EmailAddressForLogsAndFeedback\>   |Zeichenfolge & #x 2778;  ||Damit wird eine optionale E-Mail-Adresse verwendet, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird.    |
+|\<SendLogsAndFeedback\>   |Boolescher Wert & #x 2777;  || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet.  |
+| \<Geräte\>  |Container   |Erste & #x 2776;  | Die Namen der verbundenen Audiogeräte in den untergeordneten Elementen stimmen mit den Werten in der Gerätemanager-App überein. Die Konfiguration kann ein Gerät enthalten, das derzeit nicht auf dem System vorhanden ist, wie zum Beispiel ein aktuelle nicht mit der Konsole verbundenes A/V-Gerät. Die Konfiguration würde für das entsprechende Gerät beibehalten.  |
+|\<MicrophoneForCommunication\>   |Zeichenfolge & #x 2778;  ||Legt das Mikrofon fest, das als Aufnahmegerät in einer Konferenz verwendet wird.   |
+|\<SpeakerForCommunication\>   |Zeichenfolge & #x 2778;  ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das Lautsprechergerät festzulegen, das für die Audiowiedergabe in einem Anruf verwendet wird.   |
+|\<DefaultSpeaker\>   |Zeichenfolge & #x 2778;  ||Gerät, das zum Abspielen von Audio aus einer HDMI-Erfassungsquelle verwendet wird.    |
+| \<Verwendung von Designs\>  |Container   |Erste & #x 2776;  |Bei einer der Funktionen, die unter Verwendung einer XML-Datei verwendet werden kann, handelt es sich um ein benutzerdefiniertes Design für Ihre Organisation. Sie werden können einen Namen des Standarddesigns, Hintergrundbild und Farbe angeben.   |
+|\<ThemeName\>   |Zeichenfolge & #x 2778;  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefiniertes Designnamen sollten stets den Namen *Custom* verwenden. Der Client Benutzeroberfläche kann festgelegt werden in der Konsole auf die Standardvorlage oder eine der Vorgaben, jedoch Anwenden eines benutzerdefinierten Designs muss festgelegt werden Remote von einem Administrator. <br/>  Werkseitig eingestellte Designs enthalten: <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Verwenden Sie zum Deaktivieren des aktuellen Designs "Kein Design" für die ThemeName.  |
+|\<CustomThemeImageUrl\>   |Zeichenfolge & #x 2778;  ||Erforderlich, wenn ein benutzerdefiniertes Design, andernfalls optional. Finden Sie im Abschnitt [Benutzerdefinierte Designs Bilder](xml-config-file.md#Themes) unter Weitere Details auf das Bild der benutzerdefinierten Designs.  |
+|\<CustomThemeColor\>   |Container   ||Container für die \<RedComponent\>, \<GreenComponent\>, und \<BlueComponent\> Werte. diese Werte sind bei Verwendung eines benutzerdefinierten Designs erforderlich.   |
+|\<RedComponent\>   |Byte (0-255)   ||Stellt die rote Komponente dar.   |
+|\<GreenComponent\>   |Byte (0-255)   ||Stellt die grüne Komponente dar.   |
+|\<BlueComponent\>   |Byte (0-255)   ||Stellt die blaue Komponente dar.   |
+| | | |
    
 & #x 2776; Alle Elemente der ersten Ebene sind optional. Wenn ein Element der ersten Ebene ausgelassen wird, bleiben alle diesem Element untergeordneten Parameter auf dem Gerät unverändert.
   
@@ -129,8 +127,8 @@ Die Bilddatei muss genau 3840X1080 Pixel enthalten und eines der folgenden Forma
   
 Die XML-Konfigurationsdatei muss beim Starten des Geräts aktualisiert werden, damit das Designbild erkannt wird. Sobald die neue XML-Datei verarbeitet und gelöscht wurde, wird die Designgrafikdatei im Verzeichnis gelöscht.
   
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
-<a name="Themes"> </a>
+## <a name="see-also"></a>Siehe auch
+
 
 [Verwalten von Skype Room Systems v2](skype-room-systems-v2.md)
 

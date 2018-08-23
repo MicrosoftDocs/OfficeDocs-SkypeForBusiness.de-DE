@@ -1,7 +1,7 @@
 ---
 title: Version-Unterstützung
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden Lebenszyklus unterstützt Skype Raum Systemen v2.
-ms.openlocfilehash: 596197a240d4cf44e8bcf0d0069f9cad5d5e6777
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601955"
 ---
 # <a name="version-support"></a>Version-Unterstützung
  
@@ -38,11 +39,8 @@ Alle Versionen sind in der [Skype Raum Systemen v2 Anmerkungen zu dieser Version
 <a name="See"> </a>  
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 
-
-#### 
 [Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Skype-Chatroom-Systemen v2 Anmerkungen zu dieser Version](srs2-release-note.md)
 
-[Planen von Skype Raum Systemen v2](skype-room-systems-v2-0.md)
-
+[Planung für Skype Room Systems v2](skype-room-systems-v2-0.md)

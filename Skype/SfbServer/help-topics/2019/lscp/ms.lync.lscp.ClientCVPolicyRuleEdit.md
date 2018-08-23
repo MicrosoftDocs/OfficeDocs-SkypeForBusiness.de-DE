@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Eine Clientversionsrichtlinie besteht aus einer Gruppe von Clientversionsregeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten.
-ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ddebab20af21be8a6c3cbff558cec6d118dd60d0
+ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988734"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "22601913"
 ---
 # <a name="client-version-rule"></a>Clientversionsregel
  
@@ -35,7 +35,7 @@ Auf der Seite **Neue Clientversionskonfiguration erstellen** oder **Clientversio
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
   
-- **Benutzer-agent** Sie können einen Clienttyp aus der Liste auswählen. In der folgenden Tabelle sind die Codes der Benutzer-Agents definiert.
+- **Benutzer-agent** Sie können einen Clienttyp aus der Liste auswählen. In der folgenden Tabelle sind die Codes der Benutzer-Agents definiert. Diese Liste enthält Legacyclient Typen, von die einige nicht mehr unterstützt werden.  
     
 |**Clientname**|**Benutzer-Agent**|
 |:-----|:-----|

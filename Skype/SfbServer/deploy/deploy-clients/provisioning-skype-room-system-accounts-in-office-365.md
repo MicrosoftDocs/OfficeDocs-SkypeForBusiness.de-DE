@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lesen Sie dieses Thema und erfahren Sie, wie Skype Room System-Konten in Office 365 bereitgestellt werden.
-ms.openlocfilehash: b248168870366db8f685db48197badb3bacf935f
-ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
+ms.openlocfilehash: 8120fb2fe8db35eb3907128d65f5b55bb5f544ec
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22102053"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601976"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Bereitstellung von Skype Room System-Konten in Office 365
  
@@ -26,7 +26,7 @@ Der folgende Abschnitt behandelt Skype Raum Systemkonto Bereitstellung für Offi
 
 Ihr Onlinemandant muss die folgenden Anforderungen erfüllen:
   
-- Office 365-Plan muss Skype für Business Online – Plan 2, Plan 3 oder Office 365 E1, E3 oder E5 enthalten.
+- Office 365-Plan muss Skype für Business Online – Plan 2, oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zum Skype für Business Online-Pläne finden Sie unter der [Skype für Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Ihres Mandanten benötigen die Möglichkeit, Konferenzen Skype für Unternehmen aktiviert.
     
@@ -44,9 +44,9 @@ Für das Skype Room-Konto ist folgende Lizenzierung erforderlich:
   
 - Einen Skype für Business Online – Plan 2 oder Office 365 E1 oder E3 Lizenz ist erforderlich, um Skype Besprechungen zu aktivieren.
     
-- Um den Chatroom mit dem Enterprise-VoIP-Funktion berechtigen, damit der Chatroom mit einer Telefonnummer aktiviert werden kann, ist eine Skype für Business Online – Plan 2 mit dem Cloud PBX Add-on oder Office 365 E5 erforderlich ist (1).
+- Um den Chatroom mit dem Enterprise-VoIP-Funktion berechtigen, damit der Chatroom mit einer Telefonnummer aktiviert werden kann, ist eine Skype für Business Online – Plan 2 mit der Lizenz Telefonsystem oder Office 365 E5 erforderlich ist (1).
     
-- Die Verfügbarkeit der Ausstattung für Konferenzen über das Festnetz innerhalb beliebiger Besprechungen wird von der Lizenz des Besprechungsorganisators bestimmt.
+- Wenn Sie eine Zugriffsnummer für Einwahl-Funktionen aus einer Besprechung benötigen, benötigen Sie eine Audiokonferenz und Telefonsystem Lizenz.  Wenn Sie Dial-Out-Funktionen aus einer Besprechung benötigen, benötigen Sie eine nationalen oder nationalen und internationalen aufrufen planen. 
     
 - Eine Exchange Online-Lizenz ist für das Skype Room-Konto nicht erforderlich, weil das Konto als Ressourcenpostfachkonto konfiguriert sein sollte.
     
@@ -138,4 +138,7 @@ In Office 365 sieht die Standardrichtlinie für den Ablauf von Kennwörtern fü
 
 Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
+## <a name="validate"></a>Überprüfen
+
+Für die Validierung sollten Sie möglicherweise Skype für Business-Client verwenden, das Konto anmelden, die Sie erstellt haben.
 

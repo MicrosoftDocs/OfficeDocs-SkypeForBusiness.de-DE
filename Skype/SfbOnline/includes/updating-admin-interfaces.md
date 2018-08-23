@@ -1,1 +1,1 @@
-Wir aktualisieren regelmäßig die Verwaltung der Features in Microsoft Teams, daher können sich die Schritte hier von denen in Microsoft Teams und im Admin-Center von Skype for Business etwas unterscheiden.
+Die Verwaltung von Funktionen in Skype for Business Online wird ständig aktualisiert. Daher können sich die Schritte hier etwas unterscheiden.

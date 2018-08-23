@@ -1,7 +1,7 @@
 ---
 title: Vorbereiten der Umgebung
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: In diesem Artikel wird erläutert, die Infrastruktur vorbereitenden Schritte für die Bereitstellung von Skype Raum Systemen v2.
-ms.openlocfilehash: b8f1e52686cfab957f2fb81a33deecc778514673
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 694da63ea29d1d0455faa568f2ee9956fb26948f
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19179280"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601941"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -110,9 +110,9 @@ Skype Raum Systemen v2 ist darauf ausgelegt, von der Windows-Betriebssystem Prox
     
 Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten beschriebenen Endpunkten herstellen können. Die IP-Adressen können Sie anzeigen, indem Sie den Abschnitt mit den IP-Adressen unter der Tabelle erweitern, in der der Datenverkehrsfluss beschrieben wird.
   
-**Beispiele für Firewall-Proxy Host Name/externer Port**
+**Name des Firewall-Proxyhosts/Portbeispiele**
 
-|**Zweck**|**Quell- oder Anmeldeinformationen**|**Quellport**|**Ziel**|**CDN**|**ExpressRoute für Office 365**|**Ziel-IP-**|**Zielport**|
+|**Zweck**|**Quelle oder Anmeldeinformationen**|**Quellport**|**Ziel**|**CDN**|**ExpressRoute für Office 365**|**Ziel-IP**|**Zielport**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentifizierung und Identität  <br/> |Finden Sie unter [Office 365-Authentifizierung und Identität](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Portal und gemeinsame Dienste  <br/> |Finden Sie unter [Office 365-Portal und freigegebene](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
@@ -165,15 +165,12 @@ Viel wie Windows-Gerät den Namen des Computers können umbenannt werden durch K
   
 ## <a name="see-also"></a>Siehe auch
 
-#### 
-
 [Planen von Skype Raum Systemen v2](skype-room-systems-v2-0.md)
 
-[Skype-Chatroom-Systemen v2 Anforderungen](requirements.md)
+[Anforderungen für Skype Room Systems v2](requirements.md)
   
-[Bereitstellen von Skype Raum Systemen v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Bereitstellen von Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md)
+[Konfigurieren einer Konsole für Skype Room Systems v2](../../deploy/deploy-clients/console.md)
   
-[Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-
+[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

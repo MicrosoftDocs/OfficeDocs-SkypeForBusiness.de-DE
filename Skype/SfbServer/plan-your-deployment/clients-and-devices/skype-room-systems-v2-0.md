@@ -1,7 +1,7 @@
 ---
 title: Planung für Skype Room Systems v2
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: In diesem Artikel wird erläutert, die relevanten Planungsaspekte für die Bereitstellung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme.
-ms.openlocfilehash: 20c2163988d73eb704b09ee8f845a1a046a593af
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601948"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Planen von Skype Raum Systemen v2 
 
@@ -73,10 +74,10 @@ Sie müssen möglicherweise mehrere Teams Rollout koordiniert. Wir stellen eine 
 | Geräteauswahl           | IT Projektteam / a/v-Team              |             | [Geräteauswahl](#device-selection)                      |
 | Beschaffung                | IT Projektteam / a/v-Team              |             | [Beschaffung](#procurement)                      |
 | Website-Bereitschaft             | Funktionen / a/v-Team / IT Projektteams |             | [Website-Bereitschaft](../../deploy/deploy-clients/room-systems-v2.md#site-readiness)                      |
-| Bereitschaft für den Dienst          | IT Projektteam                        |             | [Service-Bereitschaft](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
+| Bereitschaft für den Dienst          | IT Projektteam                        |             | [Bereitschaft für den Dienst](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
 | Konfiguration              | IT Projektteam                        |             | [Konfiguration und Bereitstellung](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
 | Bereitstellung                 | Funktionen / a/v-Team / IT Projektteams |             | [Prüfliste für die Bereitstellung](../../deploy/deploy-clients/console.md#skype-room-systems-v2-deployment-checklist)                      |
-| Übernahme                   | Funktionen / a/v-Team / IT Projektteams |             | [Annahme](#plan-for-adoption-and-change-management)                      |
+| Übernahme                   | Funktionen / a/v-Team / IT Projektteams |             | [Übernahme](#plan-for-adoption-and-change-management)                      |
 | Wartung und Betrieb | A/v-Team / IT Projektteams              |             | [Übersicht über die Verwaltung](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)                      |
 
 
