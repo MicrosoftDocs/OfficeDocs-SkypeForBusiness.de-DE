@@ -4,12 +4,12 @@ hide_bc: true
 title: Dokumentation und praktische Leitfäden für Microsoft Teams
 description: Dokumentation und praktische Leitfäden für Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: a9fa022e0d70655f916ab76988199fa6d06b648e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 519a5a254fcc75b0f29c8f83c7bdf87b00103ccf
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546351"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289899"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -90,7 +90,7 @@ ms.locfileid: "22546351"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Cloud-VoIP</h3>
-                                                    <p>Hier finden Sie praktische Anleitungen für die ersten Schritte bei der Bereitstellung von Audiokonferenzen und Telefonsystemen mit Microsoft Teams.</p>
+                                                    <p>Bereitstellen von Audiokonferenzen Pläne, aufrufen und den Telefon-System in Teams</p>
                                                 </div>
                                             </div>
                                         </div>
