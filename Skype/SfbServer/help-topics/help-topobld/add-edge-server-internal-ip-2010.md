@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 661dd74e-c42a-4905-a9c6-6efe02acc5f8
 description: Verwenden Sie diese Seite, um die interne IP-Adresse und den internen vollqualifizierten Domänennamen (FQDN) für den Edge-Server anzugeben.
-ms.openlocfilehash: 5943c5a68932d401b12f866f41087f07b12c2291
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 255fa5e6a8268c090fbe7a6614ba86e3c39d4830
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967961"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260580"
 ---
 # <a name="add-edge-server-internal-ip-2010"></a>Hinzufügen der internen IP des Edge-Servers 2010
- 
+
 Verwenden Sie diese Seite, um die interne IP-Adresse und den internen vollqualifizierten Domänennamen (FQDN) für den Edge-Server anzugeben.
-  
-Dieser FQDN, die Sie angeben, muss mit den Namen des Computers identisch sein, die auf dem Server konfiguriert ist. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. Daher müssen Sie ein Suffix Domain Name System (DNS) konfigurieren, auf den Namen des Computers, der als ein Edge-Server bereitgestellt werden, die nicht Mitglied einer Domäne ist. Weitere Informationen zum Hinzufügen einer DNS-Suffix an einen Computernamen finden Sie unter [Konfigurieren von DNS für die Edgeunterstützung](http://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx).
-  
+
+Dieser FQDN, die Sie angeben, muss mit den Namen des Computers identisch sein, die auf dem Server konfiguriert ist. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. Daher müssen Sie ein Suffix Domain Name System (DNS) konfigurieren, auf den Namen des Computers, der als ein Edge-Server bereitgestellt werden, die nicht Mitglied einer Domäne ist. Weitere Informationen zum Hinzufügen einer DNS-Suffix an einen Computernamen finden Sie unter [Konfigurieren von DNS für die Edgeunterstützung](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx).
+
 

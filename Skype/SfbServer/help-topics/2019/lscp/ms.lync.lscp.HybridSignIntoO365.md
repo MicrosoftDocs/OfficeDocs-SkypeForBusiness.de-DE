@@ -16,21 +16,21 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Mithilfe der Skype für Business Server Hybrid Verwaltbarkeit-Assistenten können Sie Ihre Umgebung für hybride mit Skype für Business Online zu konfigurieren.
-ms.openlocfilehash: 012acb21f78707a17f8c90fde490d4d7d9a2b1fb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b656aae6b60858c4637d49532a6fcf34d8631ccc
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971139"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248404"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Hybrid-Assistent: Anmelden bei Office 365
- 
+
 Mithilfe der Skype für Business Server Hybrid Verwaltbarkeit-Assistenten können Sie Ihre Umgebung für hybride mit Skype für Business Online zu konfigurieren.
-  
+
 ## <a name="sign-in-to-office-365"></a>Melden Sie sich bei Office 365 an.
 
 Geben Sie den Benutzernamen und das Kennwort für Ihren Office 365-Mandanten ein, um ihn anmelden und Ihre lokale Bereitstellung mit Ihrem Office 365-Mandanten zu verbinden. Sie müssen das Administratorenkonto verwenden, das für die Domäne „onmicrosoft“ angelegt wurde, als Sie sich für Office 365 angemeldet haben. Beispiel: „admin@contoso.onmicrosoft.com“.
-  
-Weitere Informationen dazu, wie Sie Ihre Umgebung für die hybridumgebung konfigurieren finden Sie unter [Übersicht über die hybridbereitstellungen](http://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
-  
+
+Weitere Informationen dazu, wie Sie Ihre Umgebung für die hybridumgebung konfigurieren finden Sie unter [Übersicht über die hybridbereitstellungen](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
+
 

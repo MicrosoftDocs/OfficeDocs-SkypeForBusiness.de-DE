@@ -1,10 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: c3d89338f761f8937267b79774ea39a7c88ce4b2
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: e287cc1b6c987e29067d75e344710104cd9c2c4b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246890"
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Willkommen bei den Office-Inhalten auf „docs.microsoft.com“
 ## <a name="this-is-a-level-2-heading"></a>Dies ist eine Überschrift der Ebene 2.
@@ -17,12 +18,22 @@ ms.lasthandoff: 04/05/2018
 1. Element 2
 2. Element 3
 3. Element 4
+4. Element 5
 
 
-Hinzufügen von dieser Datei hier finden Sie eine einschließen:[!INCLUDE [sample-include-file](includes/sample-include-file.md)]
+|Spalte 1  |Spalte 2  |Spalte 3  |
+|---------|---------|---------|
+|Zeile 1     |         |         |
+|Zeile 2     |         |         |
+|Row3     |         |         |
+|Row4     |         |         |
+|Row5     |         |         |
+|Row6     |         |         |
+
+Ich bin hier dieser Datei finden Sie eine Include hinzufügen:[!INCLUDE [sample-include-file](includes/sample-include-file.md)]
 
 
-Es ist möglich, eine Markdowntabelle mit HTML-Symbolen und nur dem Linebreak-Tag so aussehen zu lassen, als enthielte sie eine Aufzählung:
+Es ist möglich, eine Tabelle Abzugsverteilung(en) in Suchen verleiten, wie sie eine Liste mit Bildaufzählungszeichen mithilfe von HTML-Symbole und nur die Zeilenumbrüche enthält:
 
 | Überschrift Zelle 1 | Überschrift Zelle 2 |
 | ---          | ---          |
@@ -32,5 +43,9 @@ Es ist möglich, eine Markdowntabelle mit HTML-Symbolen und nur dem Linebreak-Ta
 <p>Ich zeige „&#9744“; an.</p>
 <p>Ich zeige „&#x2610;“ an.</p>
 
+###<a name="this-is-heading-3"></a>Dies ist 3 Überschrift.
+
 Die Microsoft Teams-Inhalte sind jetzt verfügbar.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)
+
+Finden Sie unter [Schnellstart - Teams Planungshandbuch](quick-start-enable-Teams.md)

@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 34afa983162d48ac7c7aab3421bccbade1caee4c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90fcc979fbf765649cf65fdd029c3aa5422750d1
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998609"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245747"
 ---
 # <a name="voice-route"></a>VoIP-Route
- 
+
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
-  
+
 - [Erstellen oder Ändern einer VoIP-Route in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
-    
-- [Ändern Sie eine VoIP-Route](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
-    
+
+- [Ändern Sie eine VoIP-Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+
 Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
 

@@ -12,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 51c3b997a30a5fb574f2deb146a39ac381bac96e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 05ecb1ad0e509f093f719d0fc942bfdf0a18ff80
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003840"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260636"
 ---
 # <a name="topology-view-computer-detail"></a>Topologie: Anzeigen von Computerdetails
- 
+
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
-  
-- [Anzeigen einer Liste von Computern mit Lync Server 2010](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
-    
-- [Anzeigen von Details zu einem Dienst](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
-    
-- [Starten oder Beenden von Lync Server 2010-Diensten](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
-    
-- [Verhindern Sie neuer Verbindungen mit Diensten](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
-    
+
+- [Anzeigen einer Liste von Computern mit Lync Server 2010](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+
+- [Anzeigen von Details zu einem Dienst](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+
+- [Starten oder Beenden von Lync Server 2010-Diensten](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+
+- [Verhindern Sie neuer Verbindungen mit Diensten](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+
 Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
 

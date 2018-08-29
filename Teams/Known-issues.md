@@ -10,17 +10,17 @@ ms.reviewer: marcl
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 78cce988c89ed127ca3c3b3c2606549bf28bf37f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599368"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23243207"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
-  
+
 In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funktionsbereich.
-## 
+##
 
 ## <a name="administration"></a>Verwaltung
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -80,7 +80,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Unterstützung des Webclients in Safari  <br/> |Benutzer, die den Microsoft Teams-Webclient in Safari zu öffnen versuchen, werden aufgefordert, den Desktopclient herunterzuladen. Microsoft überprüft die Safari-Unterstützung und informiert in der [Microsoft Teams-Roadmap](http://aka.ms/TeamsRoadmap) über Updates.  <br/> |Verwendung Internetbrowser, einschließlich unterstützt: Internet Explorer 11 +, Microsoft Edge 12 +, Chrome 51.0 + und Firefox 47.0 +.  <br/> |2.11.2016  <br/> |
+|Unterstützung des Webclients in Safari  <br/> |Benutzer, die den Microsoft Teams-Webclient in Safari zu öffnen versuchen, werden aufgefordert, den Desktopclient herunterzuladen. Microsoft überprüft die Safari-Unterstützung und informiert in der [Microsoft Teams-Roadmap](https://aka.ms/TeamsRoadmap) über Updates.  <br/> |Verwendung Internetbrowser, einschließlich unterstützt: Internet Explorer 11 +, Microsoft Edge 12 +, Chrome 51.0 + und Firefox 47.0 +.  <br/> |2.11.2016  <br/> |
 
 ## <a name="channels"></a>Kanäle
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -238,6 +238,6 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |Beim Löschen eines Teams wird auch die zugeordnete Gruppe gelöscht.  <br/> |Benutzer wissen möglicherweise nicht, dass zusammen mit dem Team auch die zugrunde liegende Office 365-Gruppe gelöscht wird. Außerdem wird, wenn die zugrunde liegende Office 365-Gruppe gelöscht wird, auch das Team gelöscht.  <br/> |Diese Informationen werden in zusätzlichen Benutzermeldungen in Microsoft Teams angezeigt. Auf der Benutzeroberfläche von Office 365-Gruppen werden diese Informationen nicht angezeigt. Das Helpdesk kann eine gelöschte Group-Team wiederherstellen.  <br/> |13.03.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|  
+|:-----|:-----|:-----|:-----|
 |Teams-desktop-app mit weißer Bildschirm  <br/> | <br/> |Versuchen Sie zu löschen oder die Grafiktreiber auf dem Computer oder Start Neuinstallieren Teams über eine Befehlszeile mit einer Disable GPU kennzeichnen:<ul><li>Öffnen Sie für Windows: Das Eingabeaufforderungsfenster, und geben Sie Folgendes ein:`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Für Mac: Start Terminal und geben Sie Folgendes:`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

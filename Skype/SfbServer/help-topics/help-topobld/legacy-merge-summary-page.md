@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: Migration von Microsoft Office Communications Server 2007 R2 zu Lync Server 2013 verwendet Features des Topologie-Generator, um die vorhandenen Topologien zusammenführen. Im Fenster Zusammenfassung gibt alle Aktionen und Elemente, die Sie während der Konfiguration der Fusion der Office Communications Server 2007 R2 in die Lync Server 2013-Topologie-Generator-Konfiguration vorgenommen haben.
-ms.openlocfilehash: f757ff3b2cedc1e72c67eec501f3b446f13ec7a2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a4d0749bd4fa59598bc52e7e0c08fd810b163e86
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001574"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257178"
 ---
 # <a name="legacy-merge-summary-page"></a>Legacyzusammenführung – Zusammenfassungsseite
- 
+
 Migration von Microsoft Office Communications Server 2007 R2 zu Lync Server 2013 verwendet Features des Topologie-Generator, um die vorhandenen Topologien zusammenführen. Im Fenster Zusammenfassung gibt alle Aktionen und Elemente, die Sie während der Konfiguration der Fusion der Office Communications Server 2007 R2 in die Lync Server 2013-Topologie-Generator-Konfiguration vorgenommen haben.
-  
+
 Überprüfen Sie die Zusammenfassung, und bestimmen Sie, ob Ihre Auswahl ordnungsgemäß definiert wurden. Fahren Sie mit der Fusion, wenn Sie mit der Auswahl in der Zusammenfassung widergespiegelt zufrieden sind.
-  
+
 ## <a name="see-also"></a>Siehe auch
 
-[Migration von Office Communications Server 2007 R2 zu Lync Server 2013](http://technet.microsoft.com/library/f3fa4f5f-e9a2-4fb7-a12d-20f04173e697.aspx)
+[Migration von Office Communications Server 2007 R2 zu Lync Server 2013](https://technet.microsoft.com/library/f3fa4f5f-e9a2-4fb7-a12d-20f04173e697.aspx)

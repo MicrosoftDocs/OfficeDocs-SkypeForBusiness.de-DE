@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 85b13a9d90818eea33d43f5499aa5b5fe11ee6a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a532804c01e2f8b486d742e20a48ad4e2617abcd
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969382"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247384"
 ---
 # <a name="url-filter"></a>URL-Filter
- 
+
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
-  
-- [Ändern des Standard-URL-Filters](http://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
-    
-- [Erstellen Sie einen neuen URL-Filter zur Verarbeitung von links in Sofortnachrichtenunterhaltungen](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
-    
+
+- [Ändern des Standard-URL-Filters](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+
+- [Erstellen Sie einen neuen URL-Filter zur Verarbeitung von links in Sofortnachrichtenunterhaltungen](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+
 Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
 

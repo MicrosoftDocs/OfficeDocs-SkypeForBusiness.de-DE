@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: bbb6cd80b56d738bfc41f6712142e6c1a68f9e75
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2ac468317cbc4a3be42dc0569acf9ec0f16da8e1
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008082"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255409"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Konfigurieren einer Netzwerkregionenroute: Erstellen einer neuen oder Bearbeiten einer vorhandenen
- 
+
 Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
-  
-- [Konfigurieren von Netzwerkregionenrouten](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
-    
- 
+
+- [Konfigurieren von Netzwerkregionenrouten](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+
+
 

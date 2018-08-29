@@ -12,68 +12,68 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:'
-ms.openlocfilehash: d5bf68df276cf7c5136bf694d7592e09b1357571
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ebb2b81b5b0f351b533a8f4352d05043a9fa0de0
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991603"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253090"
 ---
 # <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
- 
+
 Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:
-  
+
 - SIP-Domäne
-    
+
 - Einfache URLs
-    
+
 - Zentraler Verwaltungsserver
-    
+
 ## <a name="sip-domain"></a>SIP-Domäne
 
-Geben Sie zum Ändern der **Standard-SIP-Domäne** den neuen Domänennamen ein. 
-  
+Geben Sie zum Ändern der **Standard-SIP-Domäne** den neuen Domänennamen ein.
+
 Geben Sie zum Hinzufügen**** weiterer unterstützter SIP-Domänen den Namen der Domäne ein, die hinzugefügt werden soll. Klicken Sie auf **Hinzufügen**, um den neuen SIP-Domänennamen (Session Initiation Protocol) zu übernehmen.
-  
+
 Wählen Sie zum Ändern eines vorhandenen zusätzlichen SIP-Domänennamens den Domänennamen aus und nehmen Sie im Textfeld Änderungen vor. Klicken Sie auf **Aktualisieren**, um die Änderung zu übernehmen.
-  
+
 Wählen Sie zum Entfernen eines definierten zusätzlichen SIP-Domänennamens den Domänennamen und klicken Sie dann auf **Entfernen**.
-  
+
 Klicken Sie, nachdem Sie alle Änderungen auf der Seite „Eigenschaften bearbeiten“ vorgenommen haben, auf **OK**, um die Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Änderungen zu verwerfen.
-  
+
 ## <a name="simple-urls"></a>Einfache URLs
 
 Zum Ändern oder Definieren der einfachen URLs müssen Sie bestimmen, welche der drei einfachen URLs Sie bearbeiten oder ändern möchten. Zur Auswahl stehen die Telefonzugriffs-URL, die Besprechungs-URL und die URL für den administrativen Zugriff.
-  
+
 Wählen Sie zum Ändern der Telefonzugriffs-URL oder der Besprechungs-URL die zu ändernde URL aus. Klicken Sie auf **URL bearbeiten**. Bearbeiten Sie anschließend die URL, und klicken Sie auf **OK**, um die URL zu speichern. Klicken Sie auf **Abbrechen**, um die Änderungen zu verwerfen.
-  
+
 Klicken Sie auf **Hinzufügen**, um eine neue URL hinzuzufügen. Geben Sie im Dialogfeld **Einfache URL hinzufügen** die URL an und klicken Sie auf **OK**, um die URL zu speichern. Aktivieren Sie **Als aktive URL für die ausgewählte Domäne festlegen**, wenn die neue URL als aktive URL festgelegt werden soll. Klicken Sie auf **Abbrechen**, um sämtliche Änderungen zu verwerfen.
-  
+
 Wählen Sie zum Festlegen einer anderen URL als aktive URL (gekennzeichnet durch ein grünes Häkchen neben der URL) die betreffende URL, und klicken Sie dann auf **Aktivieren**.
-  
+
 > [!NOTE]
-> Für jede SIP-Domäne kann nur eine aktive URL vorhanden sein. 
-  
+> Für jede SIP-Domäne kann nur eine aktive URL vorhanden sein.
+
 Wenn Sie eine URL entfernen müssen, wählen Sie sie aus und klicken Sie dann auf **Entfernen**.
-  
+
 > [!CAUTION]
-> Lesen Sie die Informationen auf der Dialogfeldseite mit den Einstellungen einfacher URLs sorgfältig durch. Das Entfernen einer Besprechungs-URL kann dazu führen, dass auf von Benutzern geplante Besprechungen kein Zugriff mehr möglich ist. Erwägen Sie die Beibehaltung der vorhandenen URL, nachdem Sie die neue Besprechungs-URL als aktiv festgelegt haben. Sobald Sie sicher sind, dass keine Benutzer mehr die alte Besprechungs-URL verwenden, können Sie sie unbesorgt entfernen. 
-  
+> Lesen Sie die Informationen auf der Dialogfeldseite mit den Einstellungen einfacher URLs sorgfältig durch. Das Entfernen einer Besprechungs-URL kann dazu führen, dass auf von Benutzern geplante Besprechungen kein Zugriff mehr möglich ist. Erwägen Sie die Beibehaltung der vorhandenen URL, nachdem Sie die neue Besprechungs-URL als aktiv festgelegt haben. Sobald Sie sicher sind, dass keine Benutzer mehr die alte Besprechungs-URL verwenden, können Sie sie unbesorgt entfernen.
+
 Zum Bearbeiten oder Ändern der URL für den administrativen Zugriff müssen Sie den Eintrag bearbeiten.
-  
+
 Klicken Sie, nachdem Sie alle Änderungen auf der Seite „Eigenschaften bearbeiten“ vorgenommen haben, auf **OK**, um die Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Änderungen zu verwerfen.
-  
+
 ## <a name="central-management-server"></a>Zentraler Verwaltungsserver
 
 Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in einen anderen verschoben werden. Wählen Sie zum Ändern des Speicherorts des zentralen Verwaltungsservers den Front-End-Pool in der Dropdownliste unter **Front-End-Server, auf dem der zentrale Verwaltungsserver installiert werden soll**. Ein Front-End-Server kann ein Front-End-Pool der Enterprise Edition oder ein Front-End-Server der Standard Edition sein.
-  
+
 > [!IMPORTANT]
-> Nachdem Sie den zentralen Verwaltungsspeicher für die Infrastruktur definiert, veröffentlicht und bereitgestellt haben, kann der Speicherort des zentralen Verwaltungsspeichers nur über einen externen Vorgang in einen anderen Front-End-Pool verschoben werden. 
-  
+> Nachdem Sie den zentralen Verwaltungsspeicher für die Infrastruktur definiert, veröffentlicht und bereitgestellt haben, kann der Speicherort des zentralen Verwaltungsspeichers nur über einen externen Vorgang in einen anderen Front-End-Pool verschoben werden.
+
 Ausführliche Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Windows PowerShell-Cmdlet-Referenz.
-  
+
 ## <a name="see-also"></a>Siehe auch
 
-Ausführliche Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [definieren und Konfigurieren der Topologie](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
-  
+Ausführliche Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [definieren und Konfigurieren der Topologie](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
+
 

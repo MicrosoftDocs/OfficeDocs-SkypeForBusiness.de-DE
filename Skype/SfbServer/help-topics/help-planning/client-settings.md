@@ -13,14 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: Das Mobilitätsfeature in Skype für Business Server 2015 unterstützt Skype für Business-Funktionen auf mobilen Geräten. Weitere Informationen hierzu finden Sie unter Planning for Mobility.
-ms.openlocfilehash: 824f47eda7b1dfcd373112aa9c704032ef01e4d3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b7ec9bee77369b297ac5c4c590f7e185eaa0f450
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248390"
 ---
 # <a name="client-settings-planning-tool"></a>Clienteinstellungen (Planungstool)
- 
-Das Mobilitätsfeature in Skype für Business Server 2015 unterstützt Skype für Business-Funktionen auf mobilen Geräten. Weitere Informationen hierzu finden Sie unter [Planning for Mobility](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
-  
+
+Das Mobilitätsfeature in Skype für Business Server 2015 unterstützt Skype für Business-Funktionen auf mobilen Geräten. Weitere Informationen hierzu finden Sie unter [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
+
 

@@ -12,31 +12,31 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Eine Clientversionsrichtlinie besteht aus einer Gruppe von Clientversionsregeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten.
-ms.openlocfilehash: ddebab20af21be8a6c3cbff558cec6d118dd60d0
-ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
+ms.openlocfilehash: affd6ddaf6fe1f8a41d8d8bd5d74e709ddb5e31e
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "22601913"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255123"
 ---
 # <a name="client-version-rule"></a>Clientversionsregel
- 
+
 Eine Clientversionsrichtlinie besteht aus einer Gruppe von Clientversionsregeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten.
-  
+
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
 Auf der Seite **Neue Clientversionskonfiguration erstellen** oder **Clientversionskonfiguration bearbeiten** können Sie die folgenden Aufgaben ausführen:
-  
+
 - Hinzufügen neuer Regeln zu einer Clientversionsrichtlinie
-    
+
 - Ändern der Regeln, aus denen eine vorhandene Clientversionsrichtlinie besteht
-    
+
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
-  
-- **Benutzer-agent** Sie können einen Clienttyp aus der Liste auswählen. In der folgenden Tabelle sind die Codes der Benutzer-Agents definiert. Diese Liste enthält Legacyclient Typen, von die einige nicht mehr unterstützt werden.  
-    
+
+- **Benutzer-agent** Sie können einen Clienttyp aus der Liste auswählen. In der folgenden Tabelle sind die Codes der Benutzer-Agents definiert. Diese Liste enthält Legacyclient Typen, von die einige nicht mehr unterstützt werden.
+
 |**Clientname**|**Benutzer-Agent**|
 |:-----|:-----|
 |Lync 2013, Lync 2010, Officecommunicator  <br/> |OC  <br/> |
@@ -55,47 +55,47 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 |Lync 2010 für Nokia  <br/> |NokiaLync  <br/> |
 |Lync 2010 für Android  <br/> |AndroidLync  <br/> |
 |Mobilitätsdienst  <br/> |McxService  <br/> |
-   
+
 - **Versionsnummer** Sie können die Versionsnummern für die folgenden Felder angeben oder Platzhalter verwenden, um die clientversionsnummer anzugeben.
-    
+
   - **Hauptversion** Gibt die Nummer, die der Hauptversion des Clients entspricht.
-    
+
   - **Nebenversion** Gibt die Nummer, die der Nebenversion des Clients entspricht.
-    
+
   - **Erstellen** Gibt die Buildnummer an, die der Haupt- und Nebenversion des Clients entspricht.
-    
+
   - **Update** Gibt die Nummer, die der aktualisierten Version des Clients entspricht.
-    
+
 - **Vergleichsvorgang** Sie können den Vergleichsvorgang für die Clientversion angeben, die Sie in den vorherigen Schritten angegeben. Die folgenden Vorgänge sind verfügbar:
-    
+
   - **Identisch mit**
-    
+
   - **Ist nicht**
-    
+
   - **Neuer als**
-    
+
   - **Neuer als oder identisch mit**
-    
+
   - **Älter als**
-    
+
   - **Älter als oder identisch mit**
-    
+
 - **Aktion** Sie können angeben, dass die Aktion ausführen, wenn die Kriterien in den vorherigen Schritten erfüllt sind. Die folgenden Aktionen sind verfügbar:
-    
+
   - **Zulassen** Ermöglicht dem Client anmelden.
-    
+
   - **Zulassen und Upgrade** Ermöglicht dem Client anmelden und Updates von Windows Server Update Service oder Microsoft Update zu erhalten. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
-    
+
     > [!NOTE]
-    > Wählen diese Aktion bewirkt, dass eine Benachrichtigung der Benutzer das nächste Mal Skype für Unternehmen anmelden angezeigt werden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden. 
-  
+    > Wählen diese Aktion bewirkt, dass eine Benachrichtigung der Benutzer das nächste Mal Skype für Unternehmen anmelden angezeigt werden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.
+
   - **Mit URL zulassen** Erlaubt die Anmeldung des Clients und zeigt eine Meldung an, wo Sie ein anderes Clientversion herunterladen. Sie geben die URL im Feld **URL** an.
-    
+
   - **Blockieren** Verhindert die Anmeldung des Clients.
-    
+
   - **Blockieren und Upgrade** Verhindert die Clientanmeldung auf und ermöglicht den Client die Updates von Windows Server Update Service oder Microsoft Update zu erhalten. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
-    
+
   - **Mit URL blockieren**   Verhindert die Anmeldung des Clients und zeigt eine Meldung an, wo eine andere Clientversion heruntergeladen werden kann. Sie geben die URL im Feld **URL** an.
-    
-Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von clientversionskonfigurationen finden Sie unter [Ändern der Standardaktion für Clients nicht explizit unterstützt oder eingeschränkt](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in der Betriebsdokumentation.
+
+Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von clientversionskonfigurationen finden Sie unter [Ändern der Standardaktion für Clients nicht explizit unterstützt oder eingeschränkt](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in der Betriebsdokumentation.
 

@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.
-ms.openlocfilehash: 4ba646ad500ec27940108a8948e372343887513d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2f1c8eea8a8d3334d5c95e0b606799ad2f9c5f6b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968003"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257486"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definieren des FQDN des PSTN-Gateways
- 
+
 Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.
-  
+
 Weitere Informationen hierzu finden Sie unter [PSTN Connectivity Components in Skype für Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
-  
+
 ## <a name="see-also"></a>Siehe auch
 
-[Bereitstellungsoptionen für PSTN-Gateway](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[Bereitstellungsoptionen für PSTN-Gateway](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

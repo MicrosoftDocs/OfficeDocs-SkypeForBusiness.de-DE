@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb38d1dc24094233bac94f75967bf8f1e42b93d
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: af9d574abb69068095c31a9aaac0270b3fc7e960
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21251884"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248803"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft-Teams, Ressourcen für Bildungseinrichtungen-admins
 ==============================================
@@ -44,15 +44,15 @@ Erstellen von benutzerdefinierten e-Mail-Nachrichten, Poster und Handzettel mit 
 
 ## <a name="call-to-action"></a>Handlungsaufforderung
 
-- Sehen Sie sich unsere praktische [Interaktive Microsoft Teams-Demo](http://teamsdemo.office.com/) an (5 Minuten).
+- Sehen Sie sich unsere praktische [Interaktive Microsoft Teams-Demo](https://teamsdemo.office.com/) an (5 Minuten).
 - Aktivieren Sie Microsoft Teams im [Office 365 Admin Center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (melden Sie sich als Office 365-Administrator an).
 - Laden Sie Microsoft Teams-Clients herunter: [Laden Sie sich Microsoft Teams auf alle Ihre Geräte](https://teams.microsoft.com/downloads).
 - Lesen Sie weitere Informationen zu Office 365 für Bildungseinrichtungen im [Ausbildung-Hilfecenter](https://support.office.com/education).
-    
+
 ## <a name="additional-resources"></a>Weitere Ressourcen
 
 - [Microsoft Teams-Roadmap](https://aka.ms/teamsroadmap)
-- Stets auf dem Laufenden mit dem [Microsoft Teams-Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
+- Stets auf dem Laufenden mit dem [Microsoft Teams-Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - Matt Sosemans Blog „The Productive Cloud“ zum Thema [PowerShell-Unterstützung in Microsoft Teams](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
 - [Vorschlag senden](https://aka.ms/eduuservoice)
 - [Kontakt zum Support](https://aka.ms/o365portal)

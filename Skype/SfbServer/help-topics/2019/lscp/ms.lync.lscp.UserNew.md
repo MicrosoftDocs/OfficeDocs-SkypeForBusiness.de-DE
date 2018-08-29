@@ -12,41 +12,41 @@ localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 4c6122844579c21ad8dbb1861a90534bc03245ce
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 5bb2d2f90a2e5170aa8f314dc807e9cdae819e91
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22138558"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23258543"
 ---
 # <a name="users-new-user"></a>Benutzer: Neuer Benutzer
- 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
-  
-- [Hinzufügen eines neuen Benutzers](http://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
-    
-- [Aktivieren oder Deaktivieren von Benutzern](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
-    
-- [Zuweisen einer Konferenzrichtlinie zum Ändern der standardmäßigen Besprechungseinstellungen für einen Benutzer](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
-    
-- [Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
-    
-- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
-    
-- [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
-    
-- [Konfigurieren der Archivierung der Benutzerkommunikation](http://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
-    
-- [Zuweisen einer Ortungsrichtlinie zu einem Benutzer](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-    
-- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
-    
-- [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
-    
-- [Konfigurieren von Telefonieoptionen für Benutzer](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
-    
-- [Zuweisen einer Richtlinie auf Benutzerebene Mobilität](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 
-    
- 
+Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+
+- [Hinzufügen eines neuen Benutzers](https://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
+
+- [Aktivieren oder Deaktivieren von Benutzern](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+
+- [Zuweisen einer Konferenzrichtlinie zum Ändern der standardmäßigen Besprechungseinstellungen für einen Benutzer](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+
+- [Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+
+- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+
+- [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+
+- [Konfigurieren der Archivierung der Benutzerkommunikation](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+
+- [Zuweisen einer Ortungsrichtlinie zu einem Benutzer](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+
+- [Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+
+- [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+
+- [Konfigurieren von Telefonieoptionen für Benutzer](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+
+- [Zuweisen einer Richtlinie auf Benutzerebene Mobilität](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+
+
+
 

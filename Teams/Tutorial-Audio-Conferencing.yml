@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4cb5a14f2bce0a9450788de178cff8e27cbc4e33
-  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
+  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
+  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 07/05/2018
-  ms.locfileid: "20201415"
+  ms.lasthandoff: 08/28/2018
+  ms.locfileid: "23253438"
 items:
 - durationInMinutes: 1
   content: >
@@ -49,7 +49,7 @@ items:
     -   Berichterstellung
 
 
-    Audiokonferenzen werden Besprechungen in Teams Features und Funktionen hinzugefügt. Es wird empfohlen, dass Sie [Besprechungen in Microsoft-Teams,](http://aka.ms/tr-meetings) bevor Sie dieses Lernprogramm ausführen.
+    Audiokonferenzen werden Besprechungen in Teams Features und Funktionen hinzugefügt. Es wird empfohlen, dass Sie [Besprechungen in Microsoft-Teams,](https://aka.ms/tr-meetings) bevor Sie dieses Lernprogramm ausführen.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -98,7 +98,7 @@ items:
     ### <a name="next-steps"></a>Nächste Schritte
 
 
-    1.  Registrieren Sie sich für [MyAdvisor](http://aka.ms/myadvisor), um personalisierte Bereitstellungsratschläge zu erhalten.
+    1.  Registrieren Sie sich für [MyAdvisor](https://aka.ms/myadvisor), um personalisierte Bereitstellungsratschläge zu erhalten.
 
     2.  Verwenden von Audiokonferenzen in Teams zu starten.
 
@@ -109,4 +109,4 @@ items:
         - Führen Sie im [Blog des Teams](https://aka.ms/teamsblog).
         - Lesen Sie die [Teams Roadmap](https://aka.ms/skype2teamsroadmap).
         - Informationen Sie zu den neuesten veröffentlichten Funktionen [Anmerkungen zu dieser Version](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](http://aka.ms/Teamsacademy).
+    5.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy).

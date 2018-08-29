@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: Ausführliche Informationen zu Zweigstellenstandorte finden Sie unter Planen für die VoIP-Ausfallsicherheit.
-ms.openlocfilehash: 1520683c7ea9bb4334bddb544da3267ff649b71e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 24c4958fb16f20e5b929219ce54e6083b8addfc6
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974606"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23262393"
 ---
 # <a name="branch-sites-planning-tool"></a>Zweigniederlassungen (Planungstool)
- 
-Ausführliche Informationen zu Zweigstellenstandorte finden Sie unter [Planning for Branch-Site Voice Resiliency](http://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
-  
+
+Ausführliche Informationen zu Zweigstellenstandorte finden Sie unter [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+
 
