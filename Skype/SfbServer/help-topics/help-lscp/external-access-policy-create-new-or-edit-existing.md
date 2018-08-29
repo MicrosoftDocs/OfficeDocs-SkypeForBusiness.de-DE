@@ -12,22 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: b9c456dab073d15a619adf7792fdb2055389999c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 53ba95cbc7220f4f530755548b335408ad9c71fe
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246589"
 ---
-# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="2ccd7-104">Richtlinie für den externen Zugriff: Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff</span><span class="sxs-lookup"><span data-stu-id="2ccd7-104">External Access Policy: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="2ccd7-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="2ccd7-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="2ccd7-107">Zurücksetzen und Löschen von Richtlinien für den externen Benutzerzugriff</span><span class="sxs-lookup"><span data-stu-id="2ccd7-107">Reset or Delete External User Access Policies</span></span>](http://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
-    
-- [<span data-ttu-id="2ccd7-108">Konfigurieren von Richtlinien zur Steuerung des Zugriffs für Verbundbenutzer</span><span class="sxs-lookup"><span data-stu-id="2ccd7-108">Configure Policies to Control Federated User Access</span></span>](http://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
-    
-- [<span data-ttu-id="2ccd7-109">Verwalten des Zugriffs durch Remotebenutzer</span><span class="sxs-lookup"><span data-stu-id="2ccd7-109">Manage Remote User Access</span></span>](http://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
-    
-- [<span data-ttu-id="2ccd7-110">Konfigurieren von Richtlinien zur Steuerung des Zugriffs durch Benutzer von Sofortnachrichten-Dienstanbieter</span><span class="sxs-lookup"><span data-stu-id="2ccd7-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](http://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
-    
+# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="b8b7c-104">Richtlinie für den externen Zugriff: Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff</span><span class="sxs-lookup"><span data-stu-id="b8b7c-104">External Access Policy: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="b8b7c-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="b8b7c-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="b8b7c-107">Zurücksetzen und Löschen von Richtlinien für den externen Benutzerzugriff</span><span class="sxs-lookup"><span data-stu-id="b8b7c-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+
+- [<span data-ttu-id="b8b7c-108">Konfigurieren von Richtlinien zur Steuerung des Zugriffs für Verbundbenutzer</span><span class="sxs-lookup"><span data-stu-id="b8b7c-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+
+- [<span data-ttu-id="b8b7c-109">Verwalten des Zugriffs durch Remotebenutzer</span><span class="sxs-lookup"><span data-stu-id="b8b7c-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+
+- [<span data-ttu-id="b8b7c-110">Konfigurieren von Richtlinien zur Steuerung des Zugriffs durch Benutzer von Sofortnachrichten-Dienstanbieter</span><span class="sxs-lookup"><span data-stu-id="b8b7c-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+
 

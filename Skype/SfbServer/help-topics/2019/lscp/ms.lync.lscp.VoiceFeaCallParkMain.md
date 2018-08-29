@@ -12,49 +12,49 @@ localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie ein Anruf geparkt wurde, wird er übertragen in eine temporäre Zahl ist, in dem der Anruf gehalten, bis jemand ruft sie ab, oder das Zeitlimit überschritten. Sie müssen eine Tabelle mit den Bereichen von Durchwahlnummern konfigurieren, die Sie für Geparkte Anrufe reservieren. Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist). Jeder Pool, der die Anwendung zum Parken ausgeführt wird kann eine oder mehrere Bereiche von Erweiterungen verfügen. Diese Bereiche müssen innerhalb der Bereitstellung eindeutig sein.
-ms.openlocfilehash: c3b87225c4cd9fa4c0736ba6ab1ba86ab3405162
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09ad7c71ee56b8d2604735257a73469e8143c105
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019610"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23255584"
 ---
-# <a name="call-park"></a><span data-ttu-id="f7d2d-106">Parken von Anrufen</span><span class="sxs-lookup"><span data-stu-id="f7d2d-106">Call Park</span></span>
- 
-<span data-ttu-id="f7d2d-107">Wenn Sie ein Anruf geparkt wurde, wird er übertragen in eine temporäre Zahl ist, in dem der Anruf gehalten, bis jemand ruft sie ab, oder das Zeitlimit überschritten. Sie müssen eine Tabelle mit den Bereichen von Durchwahlnummern konfigurieren, die Sie für Geparkte Anrufe reservieren.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-107">When a call is parked, it is transferred to a temporary number where the call is held until someone retrieves it or it times out. You need to configure a table with the ranges of extension numbers that you are reserving for parked calls.</span></span> <span data-ttu-id="f7d2d-108">Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist).</span><span class="sxs-lookup"><span data-stu-id="f7d2d-108">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="f7d2d-109">Jeder Pool, der die Anwendung zum Parken ausgeführt wird kann eine oder mehrere Bereiche von Erweiterungen verfügen.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-109">Each pool that runs the Call Park application can have one or more ranges of extensions.</span></span> <span data-ttu-id="f7d2d-110">Diese Bereiche müssen innerhalb der Bereitstellung eindeutig sein.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-110">These ranges must be globally unique across your deployment.</span></span>
-  
-<span data-ttu-id="f7d2d-111">Die Seite **Anruf Parken** zeigt eine Liste aller die Nummer des Parkens von Anrufen-Bereiche, die für Ihre Organisation definiert sind.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-111">The **Call Park** page displays a list of all the Call Park number ranges that are defined for your organization.</span></span>
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="f7d2d-112">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="f7d2d-112">Tasks you can perform</span></span>
+# <a name="call-park"></a><span data-ttu-id="0bccb-106">Parken von Anrufen</span><span class="sxs-lookup"><span data-stu-id="0bccb-106">Call Park</span></span>
 
-<span data-ttu-id="f7d2d-113">Auf der Seite **Anruf parken** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="f7d2d-113">You can perform the following tasks from the **Call Park** page:</span></span>
-  
-- <span data-ttu-id="f7d2d-114">Erstellen eines neuen Nummernbereichs</span><span class="sxs-lookup"><span data-stu-id="f7d2d-114">Create a new number range</span></span>
-    
-- <span data-ttu-id="f7d2d-115">Ändern eines vorhandenen Nummernbereichs</span><span class="sxs-lookup"><span data-stu-id="f7d2d-115">Change an existing number range</span></span>
-    
-- <span data-ttu-id="f7d2d-116">Löschen eines Nummernbereichs</span><span class="sxs-lookup"><span data-stu-id="f7d2d-116">Delete a number range</span></span>
-    
-## <a name="ui-reference"></a><span data-ttu-id="f7d2d-117">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="f7d2d-117">UI Reference</span></span>
+<span data-ttu-id="0bccb-107">Wenn Sie ein Anruf geparkt wurde, wird er übertragen in eine temporäre Zahl ist, in dem der Anruf gehalten, bis jemand ruft sie ab, oder das Zeitlimit überschritten. Sie müssen eine Tabelle mit den Bereichen von Durchwahlnummern konfigurieren, die Sie für Geparkte Anrufe reservieren.</span><span class="sxs-lookup"><span data-stu-id="0bccb-107">When a call is parked, it is transferred to a temporary number where the call is held until someone retrieves it or it times out. You need to configure a table with the ranges of extension numbers that you are reserving for parked calls.</span></span> <span data-ttu-id="0bccb-108">Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist).</span><span class="sxs-lookup"><span data-stu-id="0bccb-108">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="0bccb-109">Jeder Pool, der die Anwendung zum Parken ausgeführt wird kann eine oder mehrere Bereiche von Erweiterungen verfügen.</span><span class="sxs-lookup"><span data-stu-id="0bccb-109">Each pool that runs the Call Park application can have one or more ranges of extensions.</span></span> <span data-ttu-id="0bccb-110">Diese Bereiche müssen innerhalb der Bereitstellung eindeutig sein.</span><span class="sxs-lookup"><span data-stu-id="0bccb-110">These ranges must be globally unique across your deployment.</span></span>
 
-<span data-ttu-id="f7d2d-118">In der folgenden Liste sind die Befehle der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-118">The following list describes the commands on the page.</span></span>
-  
-- <span data-ttu-id="f7d2d-119">**Neue** Startet einen neuen Nummernbereich Parken.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-119">**New** Starts a new Call Park number range.</span></span>
-    
-- <span data-ttu-id="f7d2d-120">**Bearbeiten** Öffnet den ausgewählten Nummernbereich zur Bearbeitung, wählt alle Nummernbereiche in der Liste aus oder löscht den ausgewählten Nummernbereich.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-120">**Edit** Opens the selected number range for editing, selects all number ranges in the list, or deletes the selected number range.</span></span>
-    
-- <span data-ttu-id="f7d2d-121">**Aktualisieren** Aktualisiert die Liste der Nummernbereiche.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-121">**Refresh** Refreshes the list of number ranges.</span></span>
-    
-<span data-ttu-id="f7d2d-122">In der folgenden Liste werden die Felder der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-122">The following list describes the fields on the page.</span></span>
-  
-- <span data-ttu-id="f7d2d-123">**Name** Der eindeutige Name, der den Nummernbereich.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-123">**Name** The unique name that identifies the number range.</span></span>
-    
-- <span data-ttu-id="f7d2d-124">**Anfangsbereich gibt** Die Anfangsnummer des Bereichs.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-124">**Start range** The beginning number of the range.</span></span>
-    
-- <span data-ttu-id="f7d2d-125">**Endbereich** Die Endnummer des Bereichs.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-125">**End range** The ending number of the range.</span></span>
-    
-- <span data-ttu-id="f7d2d-126">**Ziel** Der vollqualifizierte Domänenname (FQDN) oder Dienst-ID des Anwendungsdiensts, die die Anwendung zum Parken von Anrufen für den Nummernbereich hostet.</span><span class="sxs-lookup"><span data-stu-id="f7d2d-126">**Destination** The fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application for the number range.</span></span>
-    
-<span data-ttu-id="f7d2d-127">Informationen zu parken Features und Funktionen finden Sie unter [Planen des Parkens von Anrufen in Skype für Unternehmen](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span><span class="sxs-lookup"><span data-stu-id="f7d2d-127">For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span></span> <span data-ttu-id="f7d2d-128">Ausführliche Informationen zum Arbeiten mit Parken Nummernbereiche finden Sie unter [Konfigurieren Telefon Anzahl Erweiterungen für das Parken von Anrufen](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span><span class="sxs-lookup"><span data-stu-id="f7d2d-128">For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span></span>
-  
+<span data-ttu-id="0bccb-111">Die Seite **Anruf Parken** zeigt eine Liste aller die Nummer des Parkens von Anrufen-Bereiche, die für Ihre Organisation definiert sind.</span><span class="sxs-lookup"><span data-stu-id="0bccb-111">The **Call Park** page displays a list of all the Call Park number ranges that are defined for your organization.</span></span>
+
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="0bccb-112">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="0bccb-112">Tasks you can perform</span></span>
+
+<span data-ttu-id="0bccb-113">Auf der Seite **Anruf parken** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="0bccb-113">You can perform the following tasks from the **Call Park** page:</span></span>
+
+- <span data-ttu-id="0bccb-114">Erstellen eines neuen Nummernbereichs</span><span class="sxs-lookup"><span data-stu-id="0bccb-114">Create a new number range</span></span>
+
+- <span data-ttu-id="0bccb-115">Ändern eines vorhandenen Nummernbereichs</span><span class="sxs-lookup"><span data-stu-id="0bccb-115">Change an existing number range</span></span>
+
+- <span data-ttu-id="0bccb-116">Löschen eines Nummernbereichs</span><span class="sxs-lookup"><span data-stu-id="0bccb-116">Delete a number range</span></span>
+
+## <a name="ui-reference"></a><span data-ttu-id="0bccb-117">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="0bccb-117">UI Reference</span></span>
+
+<span data-ttu-id="0bccb-118">In der folgenden Liste sind die Befehle der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="0bccb-118">The following list describes the commands on the page.</span></span>
+
+- <span data-ttu-id="0bccb-119">**Neue** Startet einen neuen Nummernbereich Parken.</span><span class="sxs-lookup"><span data-stu-id="0bccb-119">**New** Starts a new Call Park number range.</span></span>
+
+- <span data-ttu-id="0bccb-120">**Bearbeiten** Öffnet den ausgewählten Nummernbereich zur Bearbeitung, wählt alle Nummernbereiche in der Liste aus oder löscht den ausgewählten Nummernbereich.</span><span class="sxs-lookup"><span data-stu-id="0bccb-120">**Edit** Opens the selected number range for editing, selects all number ranges in the list, or deletes the selected number range.</span></span>
+
+- <span data-ttu-id="0bccb-121">**Aktualisieren** Aktualisiert die Liste der Nummernbereiche.</span><span class="sxs-lookup"><span data-stu-id="0bccb-121">**Refresh** Refreshes the list of number ranges.</span></span>
+
+<span data-ttu-id="0bccb-122">In der folgenden Liste werden die Felder der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="0bccb-122">The following list describes the fields on the page.</span></span>
+
+- <span data-ttu-id="0bccb-123">**Name** Der eindeutige Name, der den Nummernbereich.</span><span class="sxs-lookup"><span data-stu-id="0bccb-123">**Name** The unique name that identifies the number range.</span></span>
+
+- <span data-ttu-id="0bccb-124">**Anfangsbereich gibt** Die Anfangsnummer des Bereichs.</span><span class="sxs-lookup"><span data-stu-id="0bccb-124">**Start range** The beginning number of the range.</span></span>
+
+- <span data-ttu-id="0bccb-125">**Endbereich** Die Endnummer des Bereichs.</span><span class="sxs-lookup"><span data-stu-id="0bccb-125">**End range** The ending number of the range.</span></span>
+
+- <span data-ttu-id="0bccb-126">**Ziel** Der vollqualifizierte Domänenname (FQDN) oder Dienst-ID des Anwendungsdiensts, die die Anwendung zum Parken von Anrufen für den Nummernbereich hostet.</span><span class="sxs-lookup"><span data-stu-id="0bccb-126">**Destination** The fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application for the number range.</span></span>
+
+<span data-ttu-id="0bccb-127">Informationen zu parken Features und Funktionen finden Sie unter [Planen des Parkens von Anrufen in Skype für Unternehmen](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span><span class="sxs-lookup"><span data-stu-id="0bccb-127">For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span></span> <span data-ttu-id="0bccb-128">Ausführliche Informationen zum Arbeiten mit Parken Nummernbereiche finden Sie unter [Konfigurieren Telefon Anzahl Erweiterungen für das Parken von Anrufen](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span><span class="sxs-lookup"><span data-stu-id="0bccb-128">For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span></span>
+
 

@@ -12,14 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: Wählen Sie die Sprachen aus, die für Ihre Zugriffsnummer für Einwahlkonferenzen verwendet werden sollen. Weitere Informationen hierzu finden Sie unter Erstellen oder Ändern einer Zugriffsnummer für Einwahl Conferencing Zugriffsnummer.
-ms.openlocfilehash: 0ff21e6f1553d881066df98a03b0ec5c66f350a4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4fd491832cd905c8e78e01c5f06c13c44fff0412
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242176"
 ---
-# <a name="select-languages"></a><span data-ttu-id="db085-104">Auswählen von Sprachen</span><span class="sxs-lookup"><span data-stu-id="db085-104">Select Languages</span></span>
- 
-<span data-ttu-id="db085-105">Wählen Sie die Sprachen aus, die für Ihre Zugriffsnummer für Einwahlkonferenzen verwendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="db085-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="db085-106">Weitere Informationen hierzu finden Sie unter [Erstellen oder Ändern einer Zugriffsnummer für Einwahl Conferencing Zugriffsnummer](http://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="db085-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](http://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
-  
+# <a name="select-languages"></a><span data-ttu-id="af0cc-104">Auswählen von Sprachen</span><span class="sxs-lookup"><span data-stu-id="af0cc-104">Select Languages</span></span>
+
+<span data-ttu-id="af0cc-105">Wählen Sie die Sprachen aus, die für Ihre Zugriffsnummer für Einwahlkonferenzen verwendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="af0cc-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="af0cc-106">Weitere Informationen hierzu finden Sie unter [Erstellen oder Ändern einer Zugriffsnummer für Einwahl Conferencing Zugriffsnummer](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="af0cc-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
+
 
