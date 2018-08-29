@@ -12,30 +12,30 @@ localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wählen Sie alle Funktionen, die Sie für den Front-End-Pool aktivieren möchten. Zumindest müssen Sie bereitstellen, Sofortnachrichten (IM), die ist standardmäßig aktiviert und kann nicht deaktiviert werden. Außerdem haben die Möglichkeit, über die Bereitstellung von anderen Features wie Enterprise-VoIP-Konferenzen und anrufsteuerung (CAC). Einige Features sind abhängig von Ihrer Topologie.
-ms.openlocfilehash: 9a6b6f38983174e3b13982b9d273e45a7dd5dacb
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9c75e213ccef2bf76d144bddae607a0930b0093a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067819"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260510"
 ---
 # <a name="add-front-end-features"></a>Hinzufügen von Front-End-Funktionen
- 
-Wählen Sie alle Funktionen, die Sie für den Front-End-Pool aktivieren möchten. Zumindest müssen Sie bereitstellen, Sofortnachrichten (IM), die ist standardmäßig aktiviert und kann nicht deaktiviert werden. Außerdem haben die Möglichkeit, über die Bereitstellung von anderen Features wie Enterprise-VoIP-Konferenzen und anrufsteuerung (CAC). Einige Features sind abhängig von Ihrer Topologie. 
-  
+
+Wählen Sie alle Funktionen, die Sie für den Front-End-Pool aktivieren möchten. Zumindest müssen Sie bereitstellen, Sofortnachrichten (IM), die ist standardmäßig aktiviert und kann nicht deaktiviert werden. Außerdem haben die Möglichkeit, über die Bereitstellung von anderen Features wie Enterprise-VoIP-Konferenzen und anrufsteuerung (CAC). Einige Features sind abhängig von Ihrer Topologie.
+
 - Konferenzen
-    
+
 - Enterprise-VoIP
-    
+
 - Die Anrufsteuerung (CAC)
-    
+
 - Archiving
-    
+
 - Überwachung
-    
+
 > [!NOTE]
-> Wenn Sie zum Aktivieren der Anrufsteuerung in Ihrer Bereitstellung möchten, müssen Sie CAC in genau einen Pool pro zentralen Standort aktivieren. Wir empfehlen CAC, bei der Bereitstellung von VoIP-Funktionen oder A / V-Konferenzen. 
-  
-Ausführliche Informationen zum Angeben von Funktionen für einen Enterprise Edition-Pool finden Sie unter [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in der Bereitstellungsdokumentation.
-  
+> Wenn Sie zum Aktivieren der Anrufsteuerung in Ihrer Bereitstellung möchten, müssen Sie CAC in genau einen Pool pro zentralen Standort aktivieren. Wir empfehlen CAC, bei der Bereitstellung von VoIP-Funktionen oder A / V-Konferenzen.
+
+Ausführliche Informationen zum Angeben von Funktionen für einen Enterprise Edition-Pool finden Sie unter [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in der Bereitstellungsdokumentation.
+
 
