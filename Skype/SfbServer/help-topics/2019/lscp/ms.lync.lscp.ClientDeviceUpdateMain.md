@@ -12,53 +12,53 @@ localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft stellt in regelmäßigen Abständen einen neuen Satz von Geräteupdates Firmware für Skype für Business Phone Edition, die Sie importieren auf den Servern und an Benutzer verteilen können. Sie können erhalten der aktuellen Gruppe von geräteaktualisierungsregeln durch Aufrufen der Hilfe und Support-Seite auf der Microsoft-Website und Suche ForPhone Edition.Download das neueste Updatepaket und extrahieren Sie die Dateien in einen Ordner auf dem Computer, auf dem die Updates sind hochgeladen werden. Nachdem Sie die Dateien extrahiert haben, können Sie das Cmdlet Import-CsDeviceUpdate verwenden, um die Geräteaktualisierungsregeln aus der extrahierten CAB-Datei (die „UCUpdates.cab“ oder ähnlich heißt) zu importieren. Weitere Informationen hierzu finden Sie unter Import-CsDeviceUpdate.
-ms.openlocfilehash: 3c8ddfbaeabb2b70fcc2661271573ea4a7f62036
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 997570ffa8dfbf8422577784086efb8f0e4dc20a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967862"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23261721"
 ---
-# <a name="device-update"></a><span data-ttu-id="70821-106">Geräteupdate</span><span class="sxs-lookup"><span data-stu-id="70821-106">Device Update</span></span>
- 
-<span data-ttu-id="70821-107">Microsoft stellt in regelmäßigen Abständen einen neuen Satz von Geräteupdates Firmware für Skype für Business Phone Edition, die Sie importieren auf den Servern und an Benutzer verteilen können.</span><span class="sxs-lookup"><span data-stu-id="70821-107">Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users.</span></span> <span data-ttu-id="70821-108">Sie erhalten den neuesten Satz von Geräteaktualisierungsregeln, indem Sie auf der Microsoft-Website die Seite „Hilfe und Support“ aufrufen und nach „Phone Edition“ suchen.</span><span class="sxs-lookup"><span data-stu-id="70821-108">You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition."</span></span> <span data-ttu-id="70821-109">Laden Sie das aktuelle Updatepaket herunter und extrahieren Sie die Dateien in einen Ordner auf dem Computer, auf den die Updates geladen werden sollen.</span><span class="sxs-lookup"><span data-stu-id="70821-109">Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded.</span></span> <span data-ttu-id="70821-110">Nachdem Sie die Dateien extrahiert haben, können Sie das Cmdlet **Import-CsDeviceUpdate** verwenden, um die Geräteaktualisierungsregeln aus der extrahierten CAB-Datei (die „UCUpdates.cab“ oder ähnlich heißt) zu importieren.</span><span class="sxs-lookup"><span data-stu-id="70821-110">After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab).</span></span> <span data-ttu-id="70821-111">Weitere Informationen hierzu finden Sie unter [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="70821-111">For details, see [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span></span>
-  
-<span data-ttu-id="70821-112">Nach dem Import der geräteaktualisierungsregeln können Sie die Seite **Geräteupdate** verwenden, anzeigen und verwalten diese Regeln für die Geräte Ihrer Organisation.</span><span class="sxs-lookup"><span data-stu-id="70821-112">After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices.</span></span>
-  
+# <a name="device-update"></a><span data-ttu-id="273cf-106">Geräteupdate</span><span class="sxs-lookup"><span data-stu-id="273cf-106">Device Update</span></span>
+
+<span data-ttu-id="273cf-107">Microsoft stellt in regelmäßigen Abständen einen neuen Satz von Geräteupdates Firmware für Skype für Business Phone Edition, die Sie importieren auf den Servern und an Benutzer verteilen können.</span><span class="sxs-lookup"><span data-stu-id="273cf-107">Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users.</span></span> <span data-ttu-id="273cf-108">Sie erhalten den neuesten Satz von Geräteaktualisierungsregeln, indem Sie auf der Microsoft-Website die Seite „Hilfe und Support“ aufrufen und nach „Phone Edition“ suchen.</span><span class="sxs-lookup"><span data-stu-id="273cf-108">You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition."</span></span> <span data-ttu-id="273cf-109">Laden Sie das aktuelle Updatepaket herunter und extrahieren Sie die Dateien in einen Ordner auf dem Computer, auf den die Updates geladen werden sollen.</span><span class="sxs-lookup"><span data-stu-id="273cf-109">Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded.</span></span> <span data-ttu-id="273cf-110">Nachdem Sie die Dateien extrahiert haben, können Sie das Cmdlet **Import-CsDeviceUpdate** verwenden, um die Geräteaktualisierungsregeln aus der extrahierten CAB-Datei (die „UCUpdates.cab“ oder ähnlich heißt) zu importieren.</span><span class="sxs-lookup"><span data-stu-id="273cf-110">After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab).</span></span> <span data-ttu-id="273cf-111">Weitere Informationen hierzu finden Sie unter [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="273cf-111">For details, see [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).</span></span>
+
+<span data-ttu-id="273cf-112">Nach dem Import der geräteaktualisierungsregeln können Sie die Seite **Geräteupdate** verwenden, anzeigen und verwalten diese Regeln für die Geräte Ihrer Organisation.</span><span class="sxs-lookup"><span data-stu-id="273cf-112">After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices.</span></span>
+
 > [!TIP]
-> <span data-ttu-id="70821-113">Sie können die Firmwareupdates testen und dann, sofern die Tests erfolgreich waren, allen relevanten Geräten in der Organisation zur Verfügung stellen.</span><span class="sxs-lookup"><span data-stu-id="70821-113">You can test the firmware updates and then, assuming the tests succeed, make the updates available to all the relevant devices used in the organization.</span></span> 
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="70821-114">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="70821-114">Tasks you can perform</span></span>
+> <span data-ttu-id="273cf-113">Sie können die Firmwareupdates testen und dann, sofern die Tests erfolgreich waren, allen relevanten Geräten in der Organisation zur Verfügung stellen.</span><span class="sxs-lookup"><span data-stu-id="273cf-113">You can test the firmware updates and then, assuming the tests succeed, make the updates available to all the relevant devices used in the organization.</span></span>
 
-<span data-ttu-id="70821-115">Auf der Seite **Geräteupdate** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="70821-115">You can perform the following tasks on the **Device Update** page:</span></span>
-  
-- <span data-ttu-id="70821-116">Genehmigen von Geräteupdates der Liste</span><span class="sxs-lookup"><span data-stu-id="70821-116">Approve device updates in the list.</span></span>
-    
-- <span data-ttu-id="70821-117">Abbrechen oder Wiederherstellen ausstehender Geräteupdates</span><span class="sxs-lookup"><span data-stu-id="70821-117">Cancel or restore pending device updates.</span></span>
-    
-- <span data-ttu-id="70821-118">Löschen von Geräteupdates aus der Liste</span><span class="sxs-lookup"><span data-stu-id="70821-118">Delete device updates from the list.</span></span>
-    
-## <a name="ui-reference"></a><span data-ttu-id="70821-119">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="70821-119">UI Reference</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="273cf-114">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="273cf-114">Tasks you can perform</span></span>
 
-<span data-ttu-id="70821-120">In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="70821-120">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
-  
-- <span data-ttu-id="70821-121">**Bearbeiten** Diese Option können Sie folgende Aktionen ausführen:</span><span class="sxs-lookup"><span data-stu-id="70821-121">**Edit** You can use this option to do the following:</span></span>
-    
-  - <span data-ttu-id="70821-122">**Wählen Sie alle** Diese Option werden alle Geräteupdates der Liste ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="70821-122">**Select All** This option selects all device updates in the list.</span></span>
-    
-  - <span data-ttu-id="70821-123">**Löschen** Diese Option werden alle ausgewählten Geräteupdates gelöscht.</span><span class="sxs-lookup"><span data-stu-id="70821-123">**Delete** This option deletes all selected device updates.</span></span>
-    
-- <span data-ttu-id="70821-124">**Aktion** Sie können ein oder mehrere Updates in der Liste wählen und führen die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="70821-124">**Action** You can select one or more updates in the list and take the following actions:</span></span>
-    
-  - <span data-ttu-id="70821-125">**Ausstehende Updates Abbrechen** Diese Option wird verhindert, dass das ausgewählte Update Geräte der Organisation bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="70821-125">**Cancel pending updates** This option prevents the selected update from being deployed to your organization's devices.</span></span>
-    
-  - <span data-ttu-id="70821-126">**Genehmigen** Mit dieser Option können das ausgewählte Update für die Geräte Ihrer Organisation bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="70821-126">**Approve** This option allows the selected update to be deployed to your organization's devices.</span></span>
-    
-  - <span data-ttu-id="70821-127">**Stellen Sie wieder her** Mit dieser Option können ein bereits genehmigtes Update auf Geräten in Ihrer Organisation bereitgestellt werden</span><span class="sxs-lookup"><span data-stu-id="70821-127">**Restore** This option allows a previously approved update to be deployed to your organization's devices</span></span>
-    
-- <span data-ttu-id="70821-128">**Aktualisieren** Aktualisieren Sie die Liste, um den Status aller Geräteupdates zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="70821-128">**Refresh** You can refresh the list to verify the status of all device updates.</span></span>
-    
-<span data-ttu-id="70821-129">Ausführliche Informationen zu den Geräteupdate-Webdienst finden Sie unter [View Software Updates for Devices in Your Organization](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="70821-129">For details about Device Update Web service, see [View Software Updates for Devices in Your Organization](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in the Planning documentation.</span></span>
-## <a name="see-also"></a><span data-ttu-id="70821-130">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="70821-130">See also</span></span>
+<span data-ttu-id="273cf-115">Auf der Seite **Geräteupdate** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="273cf-115">You can perform the following tasks on the **Device Update** page:</span></span>
 
-[<span data-ttu-id="70821-131">Import-CsDeviceUpdate</span><span class="sxs-lookup"><span data-stu-id="70821-131">Import-CsDeviceUpdate</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
+- <span data-ttu-id="273cf-116">Genehmigen von Geräteupdates der Liste</span><span class="sxs-lookup"><span data-stu-id="273cf-116">Approve device updates in the list.</span></span>
+
+- <span data-ttu-id="273cf-117">Abbrechen oder Wiederherstellen ausstehender Geräteupdates</span><span class="sxs-lookup"><span data-stu-id="273cf-117">Cancel or restore pending device updates.</span></span>
+
+- <span data-ttu-id="273cf-118">Löschen von Geräteupdates aus der Liste</span><span class="sxs-lookup"><span data-stu-id="273cf-118">Delete device updates from the list.</span></span>
+
+## <a name="ui-reference"></a><span data-ttu-id="273cf-119">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="273cf-119">UI Reference</span></span>
+
+<span data-ttu-id="273cf-120">In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="273cf-120">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+
+- <span data-ttu-id="273cf-121">**Bearbeiten** Diese Option können Sie folgende Aktionen ausführen:</span><span class="sxs-lookup"><span data-stu-id="273cf-121">**Edit** You can use this option to do the following:</span></span>
+
+  - <span data-ttu-id="273cf-122">**Wählen Sie alle** Diese Option werden alle Geräteupdates der Liste ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="273cf-122">**Select All** This option selects all device updates in the list.</span></span>
+
+  - <span data-ttu-id="273cf-123">**Löschen** Diese Option werden alle ausgewählten Geräteupdates gelöscht.</span><span class="sxs-lookup"><span data-stu-id="273cf-123">**Delete** This option deletes all selected device updates.</span></span>
+
+- <span data-ttu-id="273cf-124">**Aktion** Sie können ein oder mehrere Updates in der Liste wählen und führen die folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="273cf-124">**Action** You can select one or more updates in the list and take the following actions:</span></span>
+
+  - <span data-ttu-id="273cf-125">**Ausstehende Updates Abbrechen** Diese Option wird verhindert, dass das ausgewählte Update Geräte der Organisation bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="273cf-125">**Cancel pending updates** This option prevents the selected update from being deployed to your organization's devices.</span></span>
+
+  - <span data-ttu-id="273cf-126">**Genehmigen** Mit dieser Option können das ausgewählte Update für die Geräte Ihrer Organisation bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="273cf-126">**Approve** This option allows the selected update to be deployed to your organization's devices.</span></span>
+
+  - <span data-ttu-id="273cf-127">**Stellen Sie wieder her** Mit dieser Option können ein bereits genehmigtes Update auf Geräten in Ihrer Organisation bereitgestellt werden</span><span class="sxs-lookup"><span data-stu-id="273cf-127">**Restore** This option allows a previously approved update to be deployed to your organization's devices</span></span>
+
+- <span data-ttu-id="273cf-128">**Aktualisieren** Aktualisieren Sie die Liste, um den Status aller Geräteupdates zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="273cf-128">**Refresh** You can refresh the list to verify the status of all device updates.</span></span>
+
+<span data-ttu-id="273cf-129">Ausführliche Informationen zu den Geräteupdate-Webdienst finden Sie unter [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="273cf-129">For details about Device Update Web service, see [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in the Planning documentation.</span></span>
+## <a name="see-also"></a><span data-ttu-id="273cf-130">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="273cf-130">See also</span></span>
+
+[<span data-ttu-id="273cf-131">Import-CsDeviceUpdate</span><span class="sxs-lookup"><span data-stu-id="273cf-131">Import-CsDeviceUpdate</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

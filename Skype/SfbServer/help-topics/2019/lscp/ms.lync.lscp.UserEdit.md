@@ -12,37 +12,37 @@ localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: cf9057fa262d13f72b536fb2269b6f73152f2d8d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3db8ee7b7e27258952a3c427cd9b66094c4659ab
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994519"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260461"
 ---
-# <a name="users-edit-user"></a><span data-ttu-id="8d811-104">Benutzer: Bearbeiten von Benutzern</span><span class="sxs-lookup"><span data-stu-id="8d811-104">Users: Edit User</span></span>
- 
-<span data-ttu-id="8d811-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="8d811-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="8d811-107">Aktivieren oder Deaktivieren von Benutzern</span><span class="sxs-lookup"><span data-stu-id="8d811-107">Enable or Disable Users</span></span>](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
-    
-- [<span data-ttu-id="8d811-108">Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="8d811-108">Enable users for Enterprise Voice in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
-    
-- [<span data-ttu-id="8d811-109">Zuweisen einer Konferenzrichtlinie zum Ändern der standardmäßigen Besprechungseinstellungen für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="8d811-109">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
-    
-- [<span data-ttu-id="8d811-110">Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen</span><span class="sxs-lookup"><span data-stu-id="8d811-110">Specify Client Versions Supported for Sign-in by a User</span></span>](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
-    
-- [<span data-ttu-id="8d811-111">Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="8d811-111">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
-    
-- [<span data-ttu-id="8d811-112">Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer</span><span class="sxs-lookup"><span data-stu-id="8d811-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
-    
-- [<span data-ttu-id="8d811-113">Konfigurieren der Archivierung der Benutzerkommunikation</span><span class="sxs-lookup"><span data-stu-id="8d811-113">Configure Archiving of a User's Communications</span></span>](http://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
-    
-- [<span data-ttu-id="8d811-114">Zuweisen einer Ortungsrichtlinie zu einem Benutzer</span><span class="sxs-lookup"><span data-stu-id="8d811-114">Assign a Location Policy to a User</span></span>](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-    
-- [<span data-ttu-id="8d811-115">Konfigurieren von Telefonieoptionen für Benutzer</span><span class="sxs-lookup"><span data-stu-id="8d811-115">Configure Telephony for Users</span></span>](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
-    
-- [<span data-ttu-id="8d811-116">Zuweisen einer Richtlinie auf Benutzerebene Mobilität</span><span class="sxs-lookup"><span data-stu-id="8d811-116">Assign a Per-User Mobility Policy</span></span>](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+# <a name="users-edit-user"></a><span data-ttu-id="a5910-104">Benutzer: Bearbeiten von Benutzern</span><span class="sxs-lookup"><span data-stu-id="a5910-104">Users: Edit User</span></span>
 
-    
- 
+<span data-ttu-id="a5910-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="a5910-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="a5910-107">Aktivieren oder Deaktivieren von Benutzern</span><span class="sxs-lookup"><span data-stu-id="a5910-107">Enable or Disable Users</span></span>](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+
+- [<span data-ttu-id="a5910-108">Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="a5910-108">Enable users for Enterprise Voice in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+
+- [<span data-ttu-id="a5910-109">Zuweisen einer Konferenzrichtlinie zum Ändern der standardmäßigen Besprechungseinstellungen für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="a5910-109">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+
+- [<span data-ttu-id="a5910-110">Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen</span><span class="sxs-lookup"><span data-stu-id="a5910-110">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+
+- [<span data-ttu-id="a5910-111">Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="a5910-111">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+
+- [<span data-ttu-id="a5910-112">Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer</span><span class="sxs-lookup"><span data-stu-id="a5910-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+
+- [<span data-ttu-id="a5910-113">Konfigurieren der Archivierung der Benutzerkommunikation</span><span class="sxs-lookup"><span data-stu-id="a5910-113">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+
+- [<span data-ttu-id="a5910-114">Zuweisen einer Ortungsrichtlinie zu einem Benutzer</span><span class="sxs-lookup"><span data-stu-id="a5910-114">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+
+- [<span data-ttu-id="a5910-115">Konfigurieren von Telefonieoptionen für Benutzer</span><span class="sxs-lookup"><span data-stu-id="a5910-115">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+
+- [<span data-ttu-id="a5910-116">Zuweisen einer Richtlinie auf Benutzerebene Mobilität</span><span class="sxs-lookup"><span data-stu-id="a5910-116">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+
+
+
 
