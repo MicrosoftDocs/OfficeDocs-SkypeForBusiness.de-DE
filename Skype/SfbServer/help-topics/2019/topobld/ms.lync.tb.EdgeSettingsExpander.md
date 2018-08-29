@@ -12,54 +12,54 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 158f0970067b94eb4c8660342da949802d57ae6f
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 972481f04f678a701c3f6c3f8bab23adbdb2ea8a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22196032"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23258522"
 ---
-# <a name="edge-settings-expander"></a><span data-ttu-id="63dc6-103">Edgeeinstellungen – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="63dc6-103">Edge Settings Expander</span></span>
- 
-<span data-ttu-id="63dc6-104">Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:</span><span class="sxs-lookup"><span data-stu-id="63dc6-104">To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:</span></span>
-  
-- <span data-ttu-id="63dc6-105">Allgemeine Einstellungen</span><span class="sxs-lookup"><span data-stu-id="63dc6-105">General settings</span></span>
-    
-- <span data-ttu-id="63dc6-106">Einstellungen für nächsten Hop</span><span class="sxs-lookup"><span data-stu-id="63dc6-106">Next hop selection settings</span></span>
-    
-- <span data-ttu-id="63dc6-107">Edgeserver-Konfiguration</span><span class="sxs-lookup"><span data-stu-id="63dc6-107">Edge Server configuration</span></span>
-    
+# <a name="edge-settings-expander"></a><span data-ttu-id="1f3e5-103">Edgeeinstellungen – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="1f3e5-103">Edge Settings Expander</span></span>
 
-## <a name="general-settings"></a><span data-ttu-id="63dc6-108">Allgemeine Einstellungen</span><span class="sxs-lookup"><span data-stu-id="63dc6-108">General settings</span></span>
+<span data-ttu-id="1f3e5-104">Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:</span><span class="sxs-lookup"><span data-stu-id="1f3e5-104">To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:</span></span>
 
-<span data-ttu-id="63dc6-p101">Vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools für den Edgeserverpool. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.</span><span class="sxs-lookup"><span data-stu-id="63dc6-p101">Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.</span></span>
-  
-<span data-ttu-id="63dc6-111">Aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen edgepool (Port 5061) aktivieren** , wenn Sie einen Verbund mit einer Skype für Business Server 2015 Server eingerichtet werden.</span><span class="sxs-lookup"><span data-stu-id="63dc6-111">Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Skype for Business Server 2015 server.</span></span>
-  
-<span data-ttu-id="63dc6-112">Geben Sie die Portnummer unter **Interner Port für die Konfigurationsreplikation (HTTPS)** an.</span><span class="sxs-lookup"><span data-stu-id="63dc6-112">Specify the port number for **Internal Configuration Replication Port (HTTPS)**.</span></span>
-  
-## <a name="next-hop-selection-settings"></a><span data-ttu-id="63dc6-113">Einstellungen für nächsten Hop</span><span class="sxs-lookup"><span data-stu-id="63dc6-113">Next hop selection settings</span></span>
+- <span data-ttu-id="1f3e5-105">Allgemeine Einstellungen</span><span class="sxs-lookup"><span data-stu-id="1f3e5-105">General settings</span></span>
 
-<span data-ttu-id="63dc6-114">Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus dem Dropdown-Listenfeld aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll.</span><span class="sxs-lookup"><span data-stu-id="63dc6-114">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box.</span></span> <span data-ttu-id="63dc6-115">Nur Directors oder -Front-Ends, die im Topologie-Generator konfiguriert wurden, wird für die Auswahl angezeigt.</span><span class="sxs-lookup"><span data-stu-id="63dc6-115">Only Directors or Front Ends that have been configured in Topology Builder will appear for selection.</span></span>
-  
-## <a name="edge-server-configuration"></a><span data-ttu-id="63dc6-116">Edgeserver-Konfiguration</span><span class="sxs-lookup"><span data-stu-id="63dc6-116">Edge Server configuration</span></span>
+- <span data-ttu-id="1f3e5-106">Einstellungen für nächsten Hop</span><span class="sxs-lookup"><span data-stu-id="1f3e5-106">Next hop selection settings</span></span>
 
-<span data-ttu-id="63dc6-117">Um die externen Einstellungen**** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst festlegen, ob separate IP-Adressen für den SIP-Zugriff, die Webkonferenzfunktion und den A/V-Dienst verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="63dc6-117">To edit or specify settings for the **External Settings** for the Edge Servers, you first must determine if you will use separate IP addresses for SIP access, web conferencing, and the Audio/Video service.</span></span>
-  
-<span data-ttu-id="63dc6-p103">Wenn separate IP-Adressen verwendet werden sollen, aktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Für jeden Dienst muss ein DNS-A-Eintrag (Host) erstellt werden.</span><span class="sxs-lookup"><span data-stu-id="63dc6-p103">If you intend to use separate IP addresses for each, select the check box **Enable separate FQDN and IP address for Web conferencing and A/V**. Each service must have a corresponding DNS host (A) record created for it.</span></span>
-  
-<span data-ttu-id="63dc6-p104">Für jeden externen Dienst geben Sie einen FQDN und einen zugeordneten Port an. Für den **SIP-Zugriff** würden z. B. „sip.contoso.com“ und der Port 5061 verwendet.</span><span class="sxs-lookup"><span data-stu-id="63dc6-p104">For each of the external-facing services, you specify a FQDN and an associated port. For example, the **SIP Access** would use sip.contoso.com with an associated port of 5061.</span></span>
-  
+- <span data-ttu-id="1f3e5-107">Edgeserver-Konfiguration</span><span class="sxs-lookup"><span data-stu-id="1f3e5-107">Edge Server configuration</span></span>
+
+
+## <a name="general-settings"></a><span data-ttu-id="1f3e5-108">Allgemeine Einstellungen</span><span class="sxs-lookup"><span data-stu-id="1f3e5-108">General settings</span></span>
+
+<span data-ttu-id="1f3e5-p101">Vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools für den Edgeserverpool. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-p101">Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.</span></span>
+
+<span data-ttu-id="1f3e5-111">Aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen edgepool (Port 5061) aktivieren** , wenn Sie einen Verbund mit einer Skype für Business Server 2015 Server eingerichtet werden.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-111">Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Skype for Business Server 2015 server.</span></span>
+
+<span data-ttu-id="1f3e5-112">Geben Sie die Portnummer unter **Interner Port für die Konfigurationsreplikation (HTTPS)** an.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-112">Specify the port number for **Internal Configuration Replication Port (HTTPS)**.</span></span>
+
+## <a name="next-hop-selection-settings"></a><span data-ttu-id="1f3e5-113">Einstellungen für nächsten Hop</span><span class="sxs-lookup"><span data-stu-id="1f3e5-113">Next hop selection settings</span></span>
+
+<span data-ttu-id="1f3e5-114">Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus dem Dropdown-Listenfeld aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-114">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box.</span></span> <span data-ttu-id="1f3e5-115">Nur Directors oder -Front-Ends, die im Topologie-Generator konfiguriert wurden, wird für die Auswahl angezeigt.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-115">Only Directors or Front Ends that have been configured in Topology Builder will appear for selection.</span></span>
+
+## <a name="edge-server-configuration"></a><span data-ttu-id="1f3e5-116">Edgeserver-Konfiguration</span><span class="sxs-lookup"><span data-stu-id="1f3e5-116">Edge Server configuration</span></span>
+
+<span data-ttu-id="1f3e5-117">Um die externen Einstellungen**** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst festlegen, ob separate IP-Adressen für den SIP-Zugriff, die Webkonferenzfunktion und den A/V-Dienst verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-117">To edit or specify settings for the **External Settings** for the Edge Servers, you first must determine if you will use separate IP addresses for SIP access, web conferencing, and the Audio/Video service.</span></span>
+
+<span data-ttu-id="1f3e5-p103">Wenn separate IP-Adressen verwendet werden sollen, aktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Für jeden Dienst muss ein DNS-A-Eintrag (Host) erstellt werden.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-p103">If you intend to use separate IP addresses for each, select the check box **Enable separate FQDN and IP address for Web conferencing and A/V**. Each service must have a corresponding DNS host (A) record created for it.</span></span>
+
+<span data-ttu-id="1f3e5-p104">Für jeden externen Dienst geben Sie einen FQDN und einen zugeordneten Port an. Für den **SIP-Zugriff** würden z. B. „sip.contoso.com“ und der Port 5061 verwendet.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-p104">For each of the external-facing services, you specify a FQDN and an associated port. For example, the **SIP Access** would use sip.contoso.com with an associated port of 5061.</span></span>
+
 > [!IMPORTANT]
-> <span data-ttu-id="63dc6-p105">Wenn Sie separate vollqualifizierte Domänennamen für die externen Dienste auswählen, muss jedem Dienst ein eindeutiger Portwert zugeordnet werden. Standardmäßig ist für SIP der Port 5061/TLS, für den Webkonferenz-Edgedienst der Port 444/TLS und für den A/V-Konferenzserver der Port 443/TLS festgelegt. Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.</span><span class="sxs-lookup"><span data-stu-id="63dc6-p105">If you select separate FQDNs for each of the external-facing services, each service must have a unique port value associated with it. By default, the SIP is on port 5061/TLS, the web conferencing edge service is on port 444/TLS, and the A/V Conferencing Server is on port 443/TLS. If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all the other services that will rely on the initially configured values.</span></span> 
-  
-<span data-ttu-id="63dc6-p106">Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige IP-Adresse für die externen Dienste verwendet, deaktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Bei Bedarf können Sie anschließend die Werte für den Pool-FQDN und den Port für den **SIP-Zugriff** ändern.</span><span class="sxs-lookup"><span data-stu-id="63dc6-p106">If you determine that your organization will use a single FQDN and IP address for the external-facing services, clear the **Enable separate FQDN and IP address for Web conferencing and A/V** check box. You can then edit the **SIP Access** pool FQDN and port values, if necessary.</span></span>
-  
-> [!IMPORTANT]
-> <span data-ttu-id="63dc6-127">Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.</span><span class="sxs-lookup"><span data-stu-id="63dc6-127">If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all other services that will rely on the initially configured values.</span></span> 
-  
-## <a name="see-also"></a><span data-ttu-id="63dc6-128">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="63dc6-128">See also</span></span> 
+> <span data-ttu-id="1f3e5-p105">Wenn Sie separate vollqualifizierte Domänennamen für die externen Dienste auswählen, muss jedem Dienst ein eindeutiger Portwert zugeordnet werden. Standardmäßig ist für SIP der Port 5061/TLS, für den Webkonferenz-Edgedienst der Port 444/TLS und für den A/V-Konferenzserver der Port 443/TLS festgelegt. Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-p105">If you select separate FQDNs for each of the external-facing services, each service must have a unique port value associated with it. By default, the SIP is on port 5061/TLS, the web conferencing edge service is on port 444/TLS, and the A/V Conferencing Server is on port 443/TLS. If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all the other services that will rely on the initially configured values.</span></span>
 
-<span data-ttu-id="63dc6-129">Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="63dc6-129">For details about defining and configuring the settings for the Edge Services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
-  
+<span data-ttu-id="1f3e5-p106">Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige IP-Adresse für die externen Dienste verwendet, deaktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Bei Bedarf können Sie anschließend die Werte für den Pool-FQDN und den Port für den **SIP-Zugriff** ändern.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-p106">If you determine that your organization will use a single FQDN and IP address for the external-facing services, clear the **Enable separate FQDN and IP address for Web conferencing and A/V** check box. You can then edit the **SIP Access** pool FQDN and port values, if necessary.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="1f3e5-127">Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.</span><span class="sxs-lookup"><span data-stu-id="1f3e5-127">If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all other services that will rely on the initially configured values.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="1f3e5-128">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="1f3e5-128">See also</span></span>
+
+<span data-ttu-id="1f3e5-129">Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="1f3e5-129">For details about defining and configuring the settings for the Edge Services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
+
 

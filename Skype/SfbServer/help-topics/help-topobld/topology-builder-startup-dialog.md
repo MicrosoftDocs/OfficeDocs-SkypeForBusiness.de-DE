@@ -12,27 +12,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung von Microsoft Lync Server 2013 konfigurieren. Beim Starten zeigt Topology Builder ein Dialogfeld mit der Aufforderung, was die Quelle des Dokuments Topologie sein wird. Wählen Sie eine der drei Optionen zur Verfügung:'
-ms.openlocfilehash: 3283b11f9b210f5458913ba4aca2104fa793e3f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5140c16f96b641dec74cb6919571365a7751ae0b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018977"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260825"
 ---
-# <a name="topology-builder-startup-dialog"></a><span data-ttu-id="176bb-105">Topologie-Generator – Startdialogfeld</span><span class="sxs-lookup"><span data-stu-id="176bb-105">Topology Builder Startup Dialog</span></span>
- 
-<span data-ttu-id="176bb-106">Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung von Microsoft Lync Server 2013 konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="176bb-106">You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="176bb-107">Beim Starten zeigt Topology Builder ein Dialogfeld mit der Aufforderung, was die Quelle des Dokuments Topologie sein wird.</span><span class="sxs-lookup"><span data-stu-id="176bb-107">On startup, Topology Builder displays a dialog that asks what the source of the topology document will be.</span></span> <span data-ttu-id="176bb-108">Wählen Sie eine der drei Optionen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="176bb-108">You select one of three options:</span></span>
-  
-- <span data-ttu-id="176bb-109">**Herunterladen der Topologie aus einer vorhandenen Bereitstellung** Wählen Sie diese Option, wenn Sie die Topologie-Generator ausgeführt haben und Ihrer Topologie an den zentralen Verwaltungsserver erfolgreich veröffentlicht haben.</span><span class="sxs-lookup"><span data-stu-id="176bb-109">**Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server.</span></span> <span data-ttu-id="176bb-110">Diese Option fordert und Downloads für eine lokale Kopie der aktuellen Konfiguration, ermöglicht es Ihnen, bearbeiten und konfigurieren die vorhandene Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="176bb-110">This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.</span></span>
-    
-- <span data-ttu-id="176bb-111">**Öffnen der Topologie aus einer lokalen Datei** Wählen Sie diese Option, wenn Sie eine Bereitstellung konfigurieren, aber die Konfiguration noch nicht veröffentlicht haben.</span><span class="sxs-lookup"><span data-stu-id="176bb-111">**Open Topology from a local file** Select this option if you are configuring a deployment but have not yet published the configuration.</span></span> <span data-ttu-id="176bb-112">Diese Option können Sie eine lokale Kopie der Konfigurationsarbeit im Topologie-Generator speichern und wieder zur es zu einem späteren Zeitpunkt.</span><span class="sxs-lookup"><span data-stu-id="176bb-112">This option allows you to save a local copy of the configuration work in Topology Builder and come back to it at a later time.</span></span>
-    
-- <span data-ttu-id="176bb-113">**Neue Topologie** Wählen Sie diese Option, um die Konfiguration eines neuen Dokuments Topologie zu beginnen.</span><span class="sxs-lookup"><span data-stu-id="176bb-113">**New Topology** Select this option to begin the configuration of a new topology document.</span></span> <span data-ttu-id="176bb-114">Diese Option öffnet eine neue topologiedokument, die Sie konfigurieren, um die Mindestanforderungen für die Bereitstellung, die Sie konfigurieren möchten.</span><span class="sxs-lookup"><span data-stu-id="176bb-114">This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.</span></span>
-    
-![Topologie-Generator – Startdialogfeld](../../media/Topology_Builder_Startup_Dialog.jpg)
-  
-## <a name="see-also"></a><span data-ttu-id="176bb-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="176bb-116">See also</span></span>
+# <a name="topology-builder-startup-dialog"></a><span data-ttu-id="b4447-105">Topologie-Generator – Startdialogfeld</span><span class="sxs-lookup"><span data-stu-id="b4447-105">Topology Builder Startup Dialog</span></span>
 
-[<span data-ttu-id="176bb-117">Einführung in Lync Server 2013 Preview</span><span class="sxs-lookup"><span data-stu-id="176bb-117">Introduction to Lync Server 2013 Preview</span></span>](http://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
-  
-[<span data-ttu-id="176bb-118">Lync Server-Verwaltungstools</span><span class="sxs-lookup"><span data-stu-id="176bb-118">Lync Server Administrative Tools</span></span>](http://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+<span data-ttu-id="b4447-106">Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung von Microsoft Lync Server 2013 konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="b4447-106">You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="b4447-107">Beim Starten zeigt Topology Builder ein Dialogfeld mit der Aufforderung, was die Quelle des Dokuments Topologie sein wird.</span><span class="sxs-lookup"><span data-stu-id="b4447-107">On startup, Topology Builder displays a dialog that asks what the source of the topology document will be.</span></span> <span data-ttu-id="b4447-108">Wählen Sie eine der drei Optionen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="b4447-108">You select one of three options:</span></span>
+
+- <span data-ttu-id="b4447-109">**Herunterladen der Topologie aus einer vorhandenen Bereitstellung** Wählen Sie diese Option, wenn Sie die Topologie-Generator ausgeführt haben und Ihrer Topologie an den zentralen Verwaltungsserver erfolgreich veröffentlicht haben.</span><span class="sxs-lookup"><span data-stu-id="b4447-109">**Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server.</span></span> <span data-ttu-id="b4447-110">Diese Option fordert und Downloads für eine lokale Kopie der aktuellen Konfiguration, ermöglicht es Ihnen, bearbeiten und konfigurieren die vorhandene Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="b4447-110">This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.</span></span>
+
+- <span data-ttu-id="b4447-111">**Öffnen der Topologie aus einer lokalen Datei** Wählen Sie diese Option, wenn Sie eine Bereitstellung konfigurieren, aber die Konfiguration noch nicht veröffentlicht haben.</span><span class="sxs-lookup"><span data-stu-id="b4447-111">**Open Topology from a local file** Select this option if you are configuring a deployment but have not yet published the configuration.</span></span> <span data-ttu-id="b4447-112">Diese Option können Sie eine lokale Kopie der Konfigurationsarbeit im Topologie-Generator speichern und wieder zur es zu einem späteren Zeitpunkt.</span><span class="sxs-lookup"><span data-stu-id="b4447-112">This option allows you to save a local copy of the configuration work in Topology Builder and come back to it at a later time.</span></span>
+
+- <span data-ttu-id="b4447-113">**Neue Topologie** Wählen Sie diese Option, um die Konfiguration eines neuen Dokuments Topologie zu beginnen.</span><span class="sxs-lookup"><span data-stu-id="b4447-113">**New Topology** Select this option to begin the configuration of a new topology document.</span></span> <span data-ttu-id="b4447-114">Diese Option öffnet eine neue topologiedokument, die Sie konfigurieren, um die Mindestanforderungen für die Bereitstellung, die Sie konfigurieren möchten.</span><span class="sxs-lookup"><span data-stu-id="b4447-114">This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.</span></span>
+
+![Topologie-Generator – Startdialogfeld](../../media/Topology_Builder_Startup_Dialog.jpg)
+
+## <a name="see-also"></a><span data-ttu-id="b4447-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b4447-116">See also</span></span>
+
+[<span data-ttu-id="b4447-117">Einführung in Lync Server 2013 Preview</span><span class="sxs-lookup"><span data-stu-id="b4447-117">Introduction to Lync Server 2013 Preview</span></span>](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+
+[<span data-ttu-id="b4447-118">Lync Server-Verwaltungstools</span><span class="sxs-lookup"><span data-stu-id="b4447-118">Lync Server Administrative Tools</span></span>](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)

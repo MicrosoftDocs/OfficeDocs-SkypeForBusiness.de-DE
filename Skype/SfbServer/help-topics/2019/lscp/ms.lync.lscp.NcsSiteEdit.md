@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 0bb98dcd5492ab8690ac9669b248b54d7424186a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 99007035d25a5ba9dbe89b8a35364975501112bf
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994955"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245530"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="4758a-104">Konfigurieren eines Netzwerkstandorts: Erstellen einer neuen oder Bearbeiten einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="4758a-104">Configure a Network Site: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="4758a-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="4758a-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="4758a-107">Konfigurieren von Netzwerkstandorten</span><span class="sxs-lookup"><span data-stu-id="4758a-107">Configuring Network Sites</span></span>](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
-    
- 
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="402d9-104">Konfigurieren eines Netzwerkstandorts: Erstellen einer neuen oder Bearbeiten einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="402d9-104">Configure a Network Site: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="402d9-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="402d9-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="402d9-107">Konfigurieren von Netzwerkstandorten</span><span class="sxs-lookup"><span data-stu-id="402d9-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+
+
 

@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
-description: Festlegen oder ändern den nächsten hoppool, den für die Kommunikation mit der internen Infrastruktur den Edge-Servern verwendet wird, wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Server-Pool aus der Liste aus. Nur Directors oder -Front-End-Servern, die im Topologie-Generator konfiguriert wurden, die in der Liste angezeigt werden.
-ms.openlocfilehash: 921bde80af4df307d2de50fe9b8f3fa7b27c8540
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus der Liste aus, um den nächsten Hoppool anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll. Nur Directors oder -Front-End-Servern, die im Topologie-Generator konfiguriert wurden, die in der Liste angezeigt werden.
+ms.openlocfilehash: 50a8aed87bd58fb6036eab1c7276152515b0b037
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245223"
 ---
-# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="15db9-104">Einstellungen unter „Nächster Hop“ für Edge – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="15db9-104">Edge Next Hop Settings Expander</span></span>
- 
-<span data-ttu-id="15db9-105">Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus der Liste aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll.</span><span class="sxs-lookup"><span data-stu-id="15db9-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="15db9-106">Nur Directors oder -Front-End-Servern, die im Topologie-Generator konfiguriert wurden, die in der Liste angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="15db9-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
-  
-<span data-ttu-id="15db9-107">Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für edgedienste finden Sie unter [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="15db9-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
-  
+# <a name="edge-next-hop-settings-expander"></a><span data-ttu-id="73519-104">Einstellungen unter „Nächster Hop“ für Edge – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="73519-104">Edge Next Hop Settings Expander</span></span>
+
+<span data-ttu-id="73519-105">Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus der Liste aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll.</span><span class="sxs-lookup"><span data-stu-id="73519-105">To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list.</span></span> <span data-ttu-id="73519-106">Nur Directors oder -Front-End-Servern, die im Topologie-Generator konfiguriert wurden, die in der Liste angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="73519-106">Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.</span></span>
+
+<span data-ttu-id="73519-107">Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für edgedienste finden Sie unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="73519-107">For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span>
+
 

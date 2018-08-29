@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 0b3df152e76e6bc1c196d239cabaee373f2d8676
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3165c6ddcd225176be44f0f3d86828d55e0ce663
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967565"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23257654"
 ---
-# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a><span data-ttu-id="57e34-104">Konfigurieren einer Netzwerkregionenroute: Erstellen einer neuen oder Bearbeiten einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="57e34-104">Configure a Network Region Route: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="57e34-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="57e34-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="57e34-107">Konfigurieren von Netzwerkregionenrouten</span><span class="sxs-lookup"><span data-stu-id="57e34-107">Configuring Network Region Routes</span></span>](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
-    
-<span data-ttu-id="57e34-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="57e34-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a><span data-ttu-id="6b3bb-104">Konfigurieren einer Netzwerkregionenroute: Erstellen einer neuen oder Bearbeiten einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="6b3bb-104">Configure a Network Region Route: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="6b3bb-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="6b3bb-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="6b3bb-107">Konfigurieren von Netzwerkregionenrouten</span><span class="sxs-lookup"><span data-stu-id="6b3bb-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+
+<span data-ttu-id="6b3bb-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="6b3bb-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
