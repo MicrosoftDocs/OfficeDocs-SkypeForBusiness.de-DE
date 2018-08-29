@@ -12,29 +12,29 @@ localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wählen Sie die Funktionen aus, die für den Edgepool aktiviert werden sollen. Der Edgepool unterstützt standardmäßig Remotebenutzer in Ihrer Organisation, die sich außerhalb der Firewall über ein VPN (Virtuelles Privates Netzwerk) anmelden. Zudem sind die folgenden Optionen für die Edgepoolfunktionen verfügbar:'
-ms.openlocfilehash: 6fdad151de5f3b864e3c93a3ce8796a36c1f2ac0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ece46e3bfc3b399939197ac22429574a739d9761
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064462"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256385"
 ---
 # <a name="add-edge-server-options"></a>Hinzufügen von Edgeserveroptionen
- 
-Wählen Sie die Funktionen aus, die für den Edgepool aktiviert werden sollen. Der Edgepool unterstützt standardmäßig Remotebenutzer in Ihrer Organisation, die sich außerhalb der Firewall über ein VPN (Virtuelles Privates Netzwerk) anmelden. Zudem sind die folgenden Optionen für die Edgepoolfunktionen verfügbar: 
-  
-- Verwendung eines einzigen vollqualifizierten Domänennamens (FQDN) und einer einzigen IP-Adresse für alle Edgedienste, einschließlich Zugriffs-Edgedienst, Webkonferenz-Edgedienst und A/V-Edgedienst. Wenn Sie die Option zur Verwendung eines einzigen FQDN und einer einzigen IP-Adresse nicht auswählen, müssen Sie bei der Bereitstellung für jeden dieser drei Edgedienste einen separaten FQDN und eine separate IP-Adresse angeben. Ausführliche Informationen über die edgedienste finden Sie unter [Komponenten erforderlich für den Zugriff externer Benutzer](http://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx) in der Planungsdokumentation.
-    
+
+Wählen Sie die Funktionen aus, die für den Edgepool aktiviert werden sollen. Der Edgepool unterstützt standardmäßig Remotebenutzer in Ihrer Organisation, die sich außerhalb der Firewall über ein VPN (Virtuelles Privates Netzwerk) anmelden. Zudem sind die folgenden Optionen für die Edgepoolfunktionen verfügbar:
+
+- Verwendung eines einzigen vollqualifizierten Domänennamens (FQDN) und einer einzigen IP-Adresse für alle Edgedienste, einschließlich Zugriffs-Edgedienst, Webkonferenz-Edgedienst und A/V-Edgedienst. Wenn Sie die Option zur Verwendung eines einzigen FQDN und einer einzigen IP-Adresse nicht auswählen, müssen Sie bei der Bereitstellung für jeden dieser drei Edgedienste einen separaten FQDN und eine separate IP-Adresse angeben. Ausführliche Informationen über die edgedienste finden Sie unter [Komponenten erforderlich für den Zugriff externer Benutzer](https://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx) in der Planungsdokumentation.
+
     > [!NOTE]
-    > Bei Auswahl dieser Option müssen Sie für jeden Edgedienst eine separate Portnummer angeben (die empfohlenen Standardporteinstellungen sind 444 für den Zugriffs-Edgedienst, 8057 für den Webkonferenz-Edgedienst und 443 für den A/V-Edgedienst). Mit dieser Option können potenzielle Konnektivitätsprobleme verhindert werden und die Konfiguration kann durch die Eingabe eines FQDN für alle drei Dienste vereinfacht werden. 
-  
-- Unterstützung für den Partnerverbund. Wählen Sie diese Option, wenn die Kommunikation zwischen internen Benutzern und Benutzern in vertrauenswürdigen Domänen außerhalb der Organisation – einschließlich Benutzern eines unterstützten öffentlichen Chatanbieters – unterstützt werden soll. Bei Auswahl dieser Option müssen Sie die Unterstützung für die jeweiligen Partnerdomänen und die gewünschten Dienstanbieter für Verbindungen mit öffentlichen Chatdiensten konfigurieren. Ausführliche Informationen zum Konfigurieren der Unterstützung für den Verbund und andere Arten von Zugriff durch externe Benutzer finden Sie unter [Configuring Support for External User Access](http://technet.microsoft.com/library/f8424f8c-f965-4414-8485-30f07e10214a.aspx) in der Dokumentation zur Bereitstellung der Edge-Server.
-    
+    > Bei Auswahl dieser Option müssen Sie für jeden Edgedienst eine separate Portnummer angeben (die empfohlenen Standardporteinstellungen sind 444 für den Zugriffs-Edgedienst, 8057 für den Webkonferenz-Edgedienst und 443 für den A/V-Edgedienst). Mit dieser Option können potenzielle Konnektivitätsprobleme verhindert werden und die Konfiguration kann durch die Eingabe eines FQDN für alle drei Dienste vereinfacht werden.
+
+- Unterstützung für den Partnerverbund. Wählen Sie diese Option, wenn die Kommunikation zwischen internen Benutzern und Benutzern in vertrauenswürdigen Domänen außerhalb der Organisation – einschließlich Benutzern eines unterstützten öffentlichen Chatanbieters – unterstützt werden soll. Bei Auswahl dieser Option müssen Sie die Unterstützung für die jeweiligen Partnerdomänen und die gewünschten Dienstanbieter für Verbindungen mit öffentlichen Chatdiensten konfigurieren. Ausführliche Informationen zum Konfigurieren der Unterstützung für den Verbund und andere Arten von Zugriff durch externe Benutzer finden Sie unter [Configuring Support for External User Access](https://technet.microsoft.com/library/f8424f8c-f965-4414-8485-30f07e10214a.aspx) in der Dokumentation zur Bereitstellung der Edge-Server.
+
     > [!NOTE]
-    > Innerhalb einer Organisation kann nur ein Front-End-Pool oder Standardedgeserver extern für den Partnerverbund veröffentlicht werden. Der Zugriff durch Partnerbenutzer, einschließlich Benutzern öffentlicher Instant Messaging-Dienste, erfolgt stets über denselben Edgepool oder einzelnen Edgeserver. Wenn Ihre Bereitstellung beispielsweise je einen Edgepool oder einzelnen Edgeserver in New York und in London umfasst und Sie die Unterstützung des Partnerverbunds für den Edgepool oder den einzelnen Edgeserver in New York aktivieren, erfolgt der Signaldatenverkehr für Partnerbenutzer über den Edgepool oder den einzelnen Edgeserver in New York. Dies gilt auch für die Kommunikation mit Benutzern in London, wenngleich ein interner Benutzer in London, der einen Partnerbenutzer in London anruft, für den A/V-Datenverkehr den Pool oder Edgeserver in London verwendet. 
-  
+    > Innerhalb einer Organisation kann nur ein Front-End-Pool oder Standardedgeserver extern für den Partnerverbund veröffentlicht werden. Der Zugriff durch Partnerbenutzer, einschließlich Benutzern öffentlicher Instant Messaging-Dienste, erfolgt stets über denselben Edgepool oder einzelnen Edgeserver. Wenn Ihre Bereitstellung beispielsweise je einen Edgepool oder einzelnen Edgeserver in New York und in London umfasst und Sie die Unterstützung des Partnerverbunds für den Edgepool oder den einzelnen Edgeserver in New York aktivieren, erfolgt der Signaldatenverkehr für Partnerbenutzer über den Edgepool oder den einzelnen Edgeserver in New York. Dies gilt auch für die Kommunikation mit Benutzern in London, wenngleich ein interner Benutzer in London, der einen Partnerbenutzer in London anruft, für den A/V-Datenverkehr den Pool oder Edgeserver in London verwendet.
+
 - XMPP-Partnerverbund aktivieren: Wählen Sie diese Option, wenn Sie die Kommunikation zwischen internen Benutzern und vertrauenswürdigen XMPP-Partnern unterstützen möchten.
-    
-Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edge-Servern zu einer vorhandenen Topologie finden Sie unter [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in der Dokumentation zur Bereitstellung der Edge-Server.
-  
+
+Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edge-Servern zu einer vorhandenen Topologie finden Sie unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in der Dokumentation zur Bereitstellung der Edge-Server.
+
 

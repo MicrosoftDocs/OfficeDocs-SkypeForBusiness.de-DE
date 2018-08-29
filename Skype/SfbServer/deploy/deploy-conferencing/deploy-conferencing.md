@@ -9,61 +9,61 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Konferenzen in Skype für Business Server bereitstellen.'
-ms.openlocfilehash: b893a78ae5abb7c920c588cae948779cc3095c63
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e004afdc420bcd99679e20c29bf6ba7efc7f735f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010519"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263823"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Bereitstellen von Konferenzen in Skype für Business Server
- 
+
 **Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie Konferenzen in Skype für Business Server bereitstellen.
-  
-Es stehen vier Typen von Konferenzen in Skype für Business Server: Webkonferenzen, Audio und Video (A / V) Konferenz-, einwahlkonferenzen und Konferenzen Sofortnachrichten (IM). Ganz nach Ihren Bedürfnissen können Sie entweder alle Konferenzarten aktivieren oder nur einen einzigen Typen nutzen. 
-  
-Wenn Sie Skype für Business Server bereitstellen, werden automatisch Instant Messaging-Konferenzfunktionen bereitgestellt. Beim Erstellen und eine neue Topologie veröffentlichen mithilfe des Topologie-Generators gibt an, ob bereitstellen Web, A / V und einwahlkonferenzen, wie in der folgenden Checklisten beschrieben: 
-  
+
+Es stehen vier Typen von Konferenzen in Skype für Business Server: Webkonferenzen, Audio und Video (A / V) Konferenz-, einwahlkonferenzen und Konferenzen Sofortnachrichten (IM). Ganz nach Ihren Bedürfnissen können Sie entweder alle Konferenzarten aktivieren oder nur einen einzigen Typen nutzen.
+
+Wenn Sie Skype für Business Server bereitstellen, werden automatisch Instant Messaging-Konferenzfunktionen bereitgestellt. Beim Erstellen und eine neue Topologie veröffentlichen mithilfe des Topologie-Generators gibt an, ob bereitstellen Web, A / V und einwahlkonferenzen, wie in der folgenden Checklisten beschrieben:
+
 - [Deployment checklist for web and audio/video conferencing](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
-    
+
 - [Prüfliste und Flussdiagramm zur Bereitstellung für Einwahlkonferenzen](deploy-conferencing.md#BKMK_DialinConferencing)
-    
+
 Bevor Sie Konferenzen bereitstellen, sollten Sie die Themen zur Planung der folgenden lesen:
-  
+
 - [Planen von Konferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md)
-    
+
 - [Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
-    
+
 - [Planen von Skype für Business Server Ihrer konferenztopologie](../../plan-your-deployment/conferencing/conferencing-topology.md)
-    
+
 - [Planen von einwahlkonferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
-    
+
 - [Planen von großen Besprechungen in Skype für Business Server](../../plan-your-deployment/conferencing/large-meetings.md)
-    
+
 ## <a name="deployment-checklist-for-web-and-audiovideo-conferencing"></a>Prüfliste zur Bereitstellung für Web- und Audio/Videokonferenzen
 <a name="BKMK_ChecklistWebConferencing"> </a>
 
-Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte zur Bereitstellung von Web- und Audio/Videokonferenzen in einer vorhandenen Topologie. Sie umfasst Verknüpfungen zur zugeordneten Planungs- und Vorgehensdokumentation. 
-  
+Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte zur Bereitstellung von Web- und Audio/Videokonferenzen in einer vorhandenen Topologie. Sie umfasst Verknüpfungen zur zugeordneten Planungs- und Vorgehensdokumentation.
+
 |**Phase**|**Schritte**|**Rollen und Gruppenmitgliedschaften**|**Dokumentation**|
 |:-----|:-----|:-----|:-----|
 |**Installieren Sie die erforderliche Hardware- und Software** <br/> |Live Meeting auf Front-End-Servern eines Front-End-Pools und Standard Edition-Server ausgeführt wird. Siehe Server- und Umgebungsanforderungen für Front-End-Server.  <br/> Wenn Sie Webkonferenzen aktivieren, müssen Sie sicherstellen, dass Skype für Business Server mit Office Web Apps Server kommunizieren kann, die zum behandeln, Freigabe und Rendern von PowerPoint-Präsentationen verwendet wird.  <br/> Für Webkonferenzen müssen Sie auch eine Dateifreigabe angeben, die als Dateispeicher verwendet werden soll.  <br/> Möchten Sie externen Benutzern mit Skype for Business-Clients erlauben, an einer Konferenz teilzunehmen? In diesem Fall müssen Sie Edgeserver bereitstellen.  <br/> |Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist  <br/> | [Serveranforderungen für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) <br> [Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Anforderungen an die Umgebung für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server](office-web-app-server.md) <br/> [Erstellen Sie eine Dateifreigabe in Skype für Business Server](../../deploy/install/create-a-file-share.md) <br/> [Planen der Edgeserverbereitstellungen in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Bereitstellen von Edgeserver in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
 |**Erstellen der geeigneten internen Topologie zur Unterstützung von Konferenzen** <br/> |Sie müssen zum Ausführen des Topologie-Generator zum Hinzufügen von Konferenzen zur Topologie, und veröffentlichen Sie die Topologie.  <br/> |Zum Definieren einer Topologie: Konto, das Mitglied der lokalen Benutzergruppe ist  <br/> So veröffentlichen die Topologie, ein Konto, das Mitglied der Gruppe Domänen-Admins und Gruppe RTCUniversalServerAdmins ist und dessen Vollzugriff-Berechtigungen (Lese-/Schreibzugriff/ändern) für die Dateifreigabe für den Skype für Dateispeicher Business Server verwendet werden soll (sodass Topologie Generator kann die erforderlichen freigegebenen Zugriffssteuerungslisten konfigurieren)  <br/> |[Erstellen Sie und veröffentlichen Sie neue Topologie in Skype für Business Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Konfigurieren von Konferenzrichtlinien und Konfigurationseinstellungen** <br/> |Verwenden Sie Skype für Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell, um Conferencing-Richtlinien und-Konfigurationseinstellungen zu konfigurieren.  <br/> |"RTCUniversalServerAdmins" Gruppe (nur Windows PowerShell) oder Zuweisung von Benutzern zur Rolle CSAdministrator  <br/> |[Verwalten von konferenzrichtlinien in Skype für Business Server](../../manage/conferencing/conferencing-policies.md) <br/> [Verwalten von besprechungskonfigurationseinstellungen in Skype für Business Server](../../manage/conferencing/meeting-configuration-settings.md) <br/> [Mit New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [Mit New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [Mit New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
-   
+
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Prüfliste und Flussdiagramm zur Bereitstellung für Einwahlkonferenzen
 <a name="BKMK_DialinConferencing"> </a>
 
  Einwahlkonferenzen ermöglichen Benutzern die Teilnahme an einer Audio/Videokonferenz, indem sie sich über das Telefonfestnetz (PSTN, Public Switched Telephone Network) einwählen.
-  
-Einige der Komponenten erforderlich für einwahlkonferenzen sind auch für Enterprise-VoIP verwendet. Angenommen, wenn Sie Enterprise-VoIP bereitstellen, müssen Sie auch Bereitstellen eines Vermittlungsservers und ein PSTN-Gateway Komponenten, die auch für einwahlkonferenzen erforderlich sind. Bereitstellen von einwahlkonferenzen, hängt daher, ob Sie auch eine Enterprise-VoIP-Lösung bereitstellen. 
-  
+
+Einige der Komponenten erforderlich für einwahlkonferenzen sind auch für Enterprise-VoIP verwendet. Angenommen, wenn Sie Enterprise-VoIP bereitstellen, müssen Sie auch Bereitstellen eines Vermittlungsservers und ein PSTN-Gateway Komponenten, die auch für einwahlkonferenzen erforderlich sind. Bereitstellen von einwahlkonferenzen, hängt daher, ob Sie auch eine Enterprise-VoIP-Lösung bereitstellen.
+
 Das Einwahlkonferenzen-Flussdiagramm zeigt die Schritte an, die, je nachdem, ob Sie auch eine Enterprise-VoIP-Lösung bereitstellen oder nicht, durchgeführt werden müssen. Die nachfolgende Tabelle bietet eine Übersicht über die erforderlichen und empfohlenen Schritte für das Bereitstellen von Einwahlkonferenzen. Außerdem enthält sie Verknüpfungen zur zugeordneten Planungs- und Vorgehensdokumentation. Weitere Informationen zum Planen einer vollständigen Enterprise-VoIP-Lösung finden Sie unter [Planen Ihrer Enterprise-VoIP-Lösung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
-  
+
 **Einwahlkonferenzen-Flussdiagramm**
 
 ![Bereitstellen eines Einwahlkonferenzflussdiagramms](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
-  
+
 **Prüfliste zur Bereitstellung von Einwahlkonferenzen**
 
 |**Phase**|**Schritte**|**Rollen und Gruppenmitgliedschaften**|**Dokumentation**|
@@ -78,9 +78,9 @@ Das Einwahlkonferenzen-Flussdiagramm zeigt die Schritte an, die, je nachdem, ob 
 |**(Optional) Überprüfen oder Ändern der Anforderungen an die persönliche Identifikationsnummer (PIN) der Benutzer.** <br/> |Verwenden Sie Skype für Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell zum Anzeigen oder ändern die Konferenz **PIN-Richtlinie**. Sie können eine PIN-Mindestlänge, eine maximale Anzahl von Anmeldeversuchen, ein PIN-Ablaufdatum und die Zulässigkeit gängiger Muster festlegen.  <br/> |"RTCUniversalServerAdmins"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> |[Verwalten von PIN-Richtlinien für einwahlkonferenzen in Skype für Business Server](../../manage/conferencing/pin-policies.md) <br/> [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
 |**(Optional) Ändern der Tastenzuordnung von DTMF-Befehlen** <br/> |Ändern Sie mithilfe des Cmdlets **Set-CsDialinConferencingDtmfConfiguration** die Tasten für DTMF-Befehle (Dual-Tone Multifrequency, Tonwahlverfahren), mit denen Teilnehmer Konferenzeinstellungen steuern können (z. B. die Stummschaltung bzw. Aufhebung der Stummschaltung oder die Sperre bzw. Aufhebung der Sperre). <br/> |"RTCUniversalServerAdmins"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> |[Verwalten der tastenzuordnung für DTMF-Befehle in Skype für Business Server](../../manage/conferencing/key-mapping-for-dtmf-commands.md) <br/> [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |
 |**(Optional) Ändern des Ankündigungsverhaltens beim Beitreten oder Verlassen einer Konferenz** <br/> |Ändern Sie mit dem Cmdlet **Set-CsDialinConferencingConfiguration** die Funktionsweise von Ankündigungen, wenn Teilnehmer einer Konferenz beitreten bzw. diese verlassen. <br/> |"RTCUniversalServerAdmins"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> |[Verwalten Sie der Konferenz teilnehmen und lassen Sie Ansagen im Skype für Business Server](../../manage/conferencing/join-and-leave-announcements.md) <br/> [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
-|**(Empfohlen) Konfigurieren von Konferenzverzeichnissen** <br/> |Verwenden Sie das Cmdlet **New-CsConferenceDirectory**, um ein Konferenzverzeichnis pro 999 Benutzer im Pool zu erstellen. <br/> |"RTCUniversalServerAdmins"  <br/> |[Erstellen von Konferenzverzeichnissen (empfohlen)](http://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
+|**(Empfohlen) Konfigurieren von Konferenzverzeichnissen** <br/> |Verwenden Sie das Cmdlet **New-CsConferenceDirectory**, um ein Konferenzverzeichnis pro 999 Benutzer im Pool zu erstellen. <br/> |"RTCUniversalServerAdmins"  <br/> |[Erstellen von Konferenzverzeichnissen (empfohlen)](https://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
 |**(Optional) Überprüfen der Einwahlkonferenzeinstellungen** <br/> |Suchen Sie mithilfe des Cmdlets **Get-CsDialinConferencingAccessNumber** nach Wähleinstellungen, deren Einwahlkonferenzregion von keiner Zugriffsnummer verwendet wird, und nach Zugriffsnummern, denen keine Region zugeordnet ist. <br/> |"RTCUniversalServerAdmins"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> CsViewOnlyAdministrator  <br/> "Cshelpdesk"  <br/> |[Konfigurieren von einwahlkonferenzen in Skype für Business Server](dial-in-conferencing.md) <br/> [Testen von einwahlkonferenzen in Skype für Business Server](../../manage/conferencing/tests.md) <br/> [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
 |**(Optional) Überprüfen von Einwahlkonferenzen** <br/> |Testen Sie mithilfe des Cmdlets **Test-CsDialInConferencing**, ob die Zugriffsnummern für den angegebenen Pool ordnungsgemäß funktionieren. <br/> |"RTCUniversalServerAdmins"  <br/> CsServerAdministrator  <br/> "Csadministrator"  <br/> |[Testen von einwahlkonferenzen in Skype für Business Server](../../manage/conferencing/tests.md) <br/> [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
 |**(Optional) Einladen von Benutzern zu Einwahlkonferenzen und Festlegen der anfänglichen PIN** <br/> |Verwenden Sie das Skript **Set-CsPinSendCAWelcomeMail** , legen Sie die anfänglichen Pins der Benutzer festzulegen und senden eine Willkommen-e-Mail, die die anfängliche PIN und ein Link zur Seite Zugriffsnummer für Einwahl-Konferenzeinstellungen enthalten. <br/> |"RTCUniversalServerAdmins"  <br/> |[Willkommen e-Mails an Zugriffsnummer für Einwahl senden Benutzer in Skype für Business Server](../../manage/conferencing/welcome-emails.md) <br/> |
-   
+
 

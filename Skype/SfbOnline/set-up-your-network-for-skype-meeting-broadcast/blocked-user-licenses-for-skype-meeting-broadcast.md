@@ -1,5 +1,5 @@
 ---
-title: Blockiert Benutzerlizenzen für die Besprechung übertragen werden Skype
+title: Blockierte Benutzerlizenzen für Skype-Livekonferenzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,54 +16,48 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Leider sind bestimmte Lizenzen für Benutzer, die blockiert werden Wenn Benutzer zu wechseln https://broadcast.skype.com und Skype Besprechung übertragen verwenden möchten. Wenn ein Benutzer diese Meldung angezeigt wird, müssen sie eine blockierte Lizenz zugewiesen werden. Wenn Sie weiterhin verwenden möchten, weisen Sie ihnen eine andere Office 365-Lizenz.
-ms.openlocfilehash: 536df828081fdda78b6a0079a53661a4b3276e3a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
-ms.translationtype: MT
+description: Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer auf https://broadcast.skype.com  gehen und Skype-Livekonferenz nutzen möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
+ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
+ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/12/2018
+ms.locfileid: "19844599"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Blockiert Benutzerlizenzen für die Besprechung übertragen werden Skype
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Blockierte Benutzerlizenzen für Skype-Livekonferenzen
 
-Leider sind bestimmte Lizenzen für Benutzer, die blockiert werden, wenn der Benutzer wechseln Sie zur https://broadcast.skype.com und Skype Besprechung übertragen verwenden möchten. Wenn ein Benutzer diese Meldung angezeigt wird, müssen sie eine blockierte Lizenz zugewiesen werden. Wenn Sie weiterhin verwenden möchten, weisen Sie ihnen eine andere Office 365-Lizenz.
+Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer auf https://broadcast.skype.com  gehen und Skype-Livekonferenz nutzen möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
   
- *"Die Unternehmensrichtlinie nicht für die Verwendung von Skype Besprechung übertragen kann. Überprüfen Sie mit Ihren Systemadministrator, um sicherzustellen, dass der Dienst aktiviert ist und dass Sie die richtige Lizenz verfügen."* 
+ *„Ihre Unternehmenslizenz ist nicht für die Verwendung von Skype-Livekonferenzen zugelassen. Bitte wenden Sie sich an Ihren Systemadministrator, um sicherzustellen, dass der Dienst aktiviert ist und dass Sie über die richtige Lizenz verfügen.“* 
   
 ## <a name="blocked-user-licenses"></a>Blockierte Benutzerlizenzen
 
-Skype Besprechung übertragen werden blockiert werden, wenn keines der folgenden Lizenzen für Benutzer, die einem Benutzer zugewiesen sind.
+Skype-Livekonferenzen werden blockiert, wenn eine der folgenden Benutzerlizenzen einem Benutzer zugewiesen sind.
   
-- Office 365 Education Fac/Personal
+- Office 365 Education Fac/Staff
     
-- Office 365 für Bildungseinrichtungen Schüler
+- Office 365 Education Student
     
-- Office 365 Education Plus Fac-Mitarbeiter
+- Office 365 Education Plus Fac/Staff
     
 - Office 365 Education Plus Student
     
-- Office 365 Education E1 Fac/Personal
+- Office 365 Education E1 Fac/Staff
     
-- Office 365 Education E1-Teilnehmer
+- Office 365 Education E1 Student
     
-- Office 365 Education E3 Fac/Personal
+- Office 365 Education E3 Fac/Staff
     
-- Office 365 Education E3 Fac/Personal große
+- Office 365 Education E3 Fac/Staff Large
     
 - Office 365 Education E3 Student
     
-- Office 365 A3 Student Verwendung Vorteil
+- Office 365 A1 student use benefit
     
-- Office 365 A5 Student Verwendung Vorteil
+- Microsoft 365 A1 student use benefits
+
     
-- Office 365 A5 PSTN-Konferenzen Student Verwendung Vorteil
-    
-- Vorteile von Microsoft 365 A3 Student verwenden
-    
-- Vorteile von Microsoft 365 A5 Student verwenden
-    
-- Vorteile für die Verwendung von Microsoft 365 A5 Studenten PSTN-Konferenz
-    
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 
 [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

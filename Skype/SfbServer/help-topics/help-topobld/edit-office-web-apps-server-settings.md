@@ -12,25 +12,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Sie bearbeiten die Eigenschaften des konfigurierten Office Web Apps Server. Die folgenden Eigenschaften stehen zur Bearbeitung zur Verfügung:'
-ms.openlocfilehash: 5d92419b844fcbf5067483aba69d857b593ebe7d
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 321f159de58779874597588a88a6bb461918d27c
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504334"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23263478"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Bearbeiten der Einstellungen von Office Web Apps-Servern
- 
+
 Sie bearbeiten die Eigenschaften des konfigurierten Office Web Apps Server. Die folgenden Eigenschaften stehen zur Bearbeitung zur Verfügung:
-  
+
  **Office Web Apps Server-FQDN**: Diese Eigenschaft definiert den vollqualifizierten Domänennamen von Office Web Apps-Server und sollte ein Domain Name System (DNS) Host A oder AAAA übereinstimmen, (Wenn IPv6 verwendet wird) Datensatz.
-  
+
  **Office Web Apps Server-Suchdienst-URL**: uniform Resource Locator (URL) für den Zugriff auf die Office Web Apps Server Clients, müssen Sie möglicherweise diese Adresse vom Standardwert bearbeiten, wenn der Server sich in einer anderen Netzwerkzone als das interne Netzwerk für befindet Ihre Bereitstellung.
-  
+
 Aktivieren Sie das Kontrollkästchen **Der Office Web Apps-Server ist in einem externen Netzwerk bereitgestellt**, wenn dieser Server in Ihrem Umkreisnetzwerk oder in einer anderen Netzwerkzone bereitgestellt wird, die sich außerhalb Ihrer internen Firewall befindet, mit der das Umkreisnetzwerk, weniger vertrauenswürdige Netzwerke und das Internet von der internen Bereitstellung getrennt werden.
-  
+
 ![Office Web Apps-Einstellungserweiterung](../../media/OfficeWebApps_Settings_Expander.jpg)
-  
+
 ## <a name="see-also"></a>Siehe auch
 
-[Komponenten und Topologien für Konferenzen](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Komponenten und Topologien für Konferenzen](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

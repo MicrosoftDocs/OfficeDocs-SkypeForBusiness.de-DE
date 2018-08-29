@@ -1,5 +1,5 @@
 ---
-title: Erstellen von benutzerdefinierten externe Zugriffsrichtlinien
+title: Erstellen von benutzerdefinierten externen Zugriffsrichtlinien
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,41 +15,42 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Skype für Business Online können Sie zusätzliche externe Zugriffsrichtlinien erstellen. Im Gegensatz zu Client oder für Konferenzen Richtlinien, wenn Sie mehrere Kombinationen verfügen, gibt es drei vordefinierten externen Zugriff-Richtlinien, die meisten Szenarien abdecken können.
-ms.openlocfilehash: 8d0cff680ebf225a9dc62e585f39ab3f0b27e3c3
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
-ms.translationtype: MT
+description: Skype ermöglicht Ihnen die Erstellung von externen Zugriffs-Richtlinien. Nicht so wie bei Conferencing-Richtlinien, bei denen Sie mehrere Kombinationen haben können, gibt es hier drei vordefinierte Richtlinien für den externen Zugriff, die die meisten Szenarien abdecken.
+ms.openlocfilehash: e166aa9af162fd6432c8932d5842ea0fd00a36b3
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568312"
 ---
-# <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externe Zugriffsrichtlinien
+# <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externen Zugriffsrichtlinien
 
-Skype für Business Online können Sie zusätzliche externe Zugriffsrichtlinien erstellen. Im Gegensatz zu Client oder für Konferenzen Richtlinien, wenn Sie mehrere Kombinationen verfügen, gibt es drei vordefinierten externen Zugriff-Richtlinien, die meisten Szenarien abdecken können. Dies sind:
+Skype ermöglicht Ihnen die Erstellung von externen Zugriffs-Richtlinien. Nicht so wie bei Conferencing-Richtlinien, bei denen Sie mehrere Kombinationen haben können, gibt es hier drei vordefinierte Richtlinien für den externen Zugriff, die die meisten Szenarien abdecken. Diese sind:
   
-- No Federated oder Skype Consumer Zugriff (_Tag: NoFederationAndPIC_ )
+- No Federated oder Skype Consumer Zugriff (_Tag: NoFederationAndPIC_)
     
-- Zugriff auf eine Föderation nur (_Tag: FederationOnly_ )
+- Nur Federated Zugriff (_Tag: FederationOnly_)
     
-- Verbund und Consumer zugreifen (_FederationAndPICDefault_)
+- Federated und Consumer Zugriff (_FederationAndPICDefault_)
     
-Richtlinien für den benutzerdefinierten externe können Sie zusätzliche erstellen Richtlinien, die durch die Einstellungen der oben genannten abgedeckt sind. Wenn die Richtlinie erstellt wurde, würden Sie alle erforderlichen Parameter festlegen erforderlich sein, und Sie konnte nicht sie später ändern. Erstellen neuer benutzerdefinierte Richtlinien können Sie auf die Funktionen wie etwa Skype Consumerzugriff oder eine Richtlinie zum Deaktivieren der öffentlichen cloud Audio/Video, das ist ein Element, das mit vordefinierten Einstellungen behandelt wurde nicht. Benutzerdefinierte externe Zugriffsrichtlinien führen Sie dieselbe Syntax wie die-Client, Mobilität und Conferencing-Richtlinien. Sie können erfahren Sie mehr über diese Einstellungen [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Richtlinien für den benutzerdefinierten externen Zugriff ermöglichen Ihnen, zusätzliche Richtlinien zu schaffen, die von den oben genannten Einstellungen nicht abgedeckt sind. Wenn die Richtlinie erstellt wurde, werden Sie aufgefortert, alle erforderlichen Parameter einzustellen, die Sie später jedoch nicht mehr ändern können. Die Erstellung neuer benutzerdefinierter Richtlinien ermöglicht Ihnen, Funktionen wie Skype Consumer Zugriff zu steuern oder eine Richtlinie zum Deaktivieren von Audio/Video aus der öffentlichen Cloud - dies war nicht von den Voreinstellungen abgedeckt. Benutzerdefinierte externe Zugriffsrichtlinien führen derselben Syntax wie die Client-, Mobilitäts- und Conferencing-Richtlinien. Weitere Informationen zu diesen Einsellungen finden Sie [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-Damit dies funktioniert, muss der Benutzer eine unterstützte Version von 2016 verwendet Klick-und-Los Skype für Geschäfts-app, die sie unterstützt. Die folgenden Mindestversion von Skype für Business 2016 Klick-und-Los-Client ist erforderlich:
+Damit dies funktioniert, muss der Benutzer eine unterstützte Version von 2016 der App Click-to-Run für Skype for Business verwenden. Die folgende Minimalversion von Skype for Business 2016 Click-to-Run ist erforderlich:
   
 |**Typ**|**Veröffentlichungsdatum**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
-|Erste Version für aktuellen Kanal  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
-|Aktueller Channel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
-|Zurückgestellte DDE-Kanal  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
+|Erste Freigabe für den aktuellen Kanal  <br/> |17.11.2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
+|Aktueller Kanal  <br/> |06.12.2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
+|Verzögerter Kanal  <br/> |22.02.2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
    
 > [!CAUTION]
-> Benutzer, die ältere Versionen von Skype für apps für Windows Business oder Macintosh-Clients verwenden weiterhin werden können Dateien übertragen. 
+> Benutzer, die ältere Versionen von Windows-Apps für Skype for Business verwenden oder Mac-Kunden können weiterhin Dateien übertragen. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Überprüfen und Starten von Windows PowerShell
 
 - **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -61,7 +62,7 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version von 2016 v
     
 - **Starten einer Windows PowerShell-Sitzung**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
@@ -75,16 +76,15 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version von 2016 v
     Import-PSSession $session
   ```
 
-  Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-## <a name="create-a-custom-external-access-policy-for-a-user"></a>Erstellen einer benutzerdefinierten externen Zugriffsrichtlinie für einen Benutzer
+## <a name="create-a-custom-external-access-policy-for-a-user"></a>Erstellen einer benutzerdefinierten Richtlinie für den externen Zugriff eines Benutzers
 
 Zu diesem Zweck führen Sie Folgendes aus:
   
 > 
   ```
-  New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True 
--EnableOutsideAccess $True
+  New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
   ```
 
 > 
@@ -94,7 +94,7 @@ Zu diesem Zweck führen Sie Folgendes aus:
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen, wenn Sie viele Dinge zu tun haben. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -109,11 +109,11 @@ Zu diesem Zweck führen Sie Folgendes aus:
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>See Also
-[Datenblöcke Point-Datei übertragen](block-point-to-point-file-transfers.md)
+[Blockieren von Punkt-zu-Punkt-Dateiübertragungen](block-point-to-point-file-transfers.md)
 
 [Einrichten von Clientrichtlinien für Ihre Organisation](set-up-client-policies-for-your-organization.md)
 
-[Einrichten von konferenzrichtlinien in Ihrer Organisation](set-up-conferencing-policies-for-your-organization.md)
+[Einrichten von Conferencing-Richtlinien für Ihre Organisation](set-up-conferencing-policies-for-your-organization.md)
 
   
  

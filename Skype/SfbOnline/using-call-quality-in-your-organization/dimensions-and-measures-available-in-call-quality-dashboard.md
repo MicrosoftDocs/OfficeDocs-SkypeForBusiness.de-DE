@@ -18,29 +18,29 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 2949f170aef6567d186adcd8414e39c7689537e2
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: 95194240a110a5372a6891c884e729b5a0cc7d43
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645210"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245437"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen
 
 Mit dem Anrufqualitäts-Dashboard (AQD) für Microsoft Teams und Skype for Business Online erhalten Sie einen Einblick in die Qualität von Anrufen, die mit Microsoft Teams- und Skype for Business-Diensten getätigt wurden. In diesem Thema finden Sie detaillierte Informationen zu den über das CQD verfügbaren Dimensionen und Kennzahlen. Weitere Informationen zum CQD und zum Aktivieren, finden Sie unter [aktivieren, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](turning-on-and-using-call-quality-dashboard.md).
-  
+
 ## <a name="first-and-second-endpoint-classification"></a>Klassifizierung des ersten und zweiten Endpunkts
 
 Viele Dimensionen und Kennzahlen im Anrufqualitäts-Dashboard (CQD) werden als erster oder zweiter Endpunkt bezeichnet. Die folgende Logik legt fest, welcher am Datenstrom oder Anruf beteiligte Endpunkt als erster Endpunkt bezeichnet wird:
-  
+
 - Zuerst wird immer Endpunkt eines Servers (a/v MCU, Vermittlungsserver usw.), wenn ein Server an den Stream/Anruf beteiligt ist.
-    
+
 - Der zweite Endpunkt ist immer ein Client-Endpunkt, es sei denn, der Datenstrom verläuft zwischen zwei Server-Endpunkten).
-    
+
 - Wenn beide Endpunkte den gleichen Typ, sind die, der Reihenfolge für das erste im Vergleich zu ist basiert zweites auf internen Reihenfolge der Benutzer-Agent Kategorie. Damit wird eine konsistente Anordnung sichergestellt.
-    
+
 Beispiel: Jede Zeile stellt ein an einem Datenstrom beteiligtes Benutzer-Agenten-Paar dar.
-  
+
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Benutzer-Agenten-Kategorie des Anrufers** <br/> |**Benutzer-Agenten-Kategorie des Angerufenen** <br/> |**First Endpoint** <br/> |**Second Endpoint** <br/> |**First Is Caller** <br/> |
@@ -51,14 +51,14 @@ Beispiel: Jede Zeile stellt ein an einem Datenstrom beteiligtes Benutzer-Agenten
 |Vermittlungsserver  <br/> |AV-MCU  <br/> |Vermittlungsserver  <br/> |AV-MCU  <br/> |TRUE  <br/> |
 |OC (Skype for Business-Client)  <br/> |OC-Telefon (Skype for Business-IP-Telefon)  <br/> |OC (Skype for Business-Client)  <br/> |OC-Telefon (Skype for Business-IP-Telefon)  <br/> |TRUE  <br/> |
 |OC-Telefon (Skype for Business-IP-Telefon)  <br/> |OC (Skype for Business-Client)  <br/> |OC (Skype for Business-Client)  <br/> |OC-Telefon (Skype for Business-IP-Telefon)  <br/> |FALSE  <br/> |
-   
+
 > [!NOTE]
 > Die Klassifizierung des ersten und zweiten Endpunkts wird unabhängig davon vorgenommen, welcher Endpunkt der Anrufer oder der Angerufene ist. Der erste Endpunkt ist die Dimension „Anrufer", mit der ermittelt werden kann, welcher Endpunkt der Anrufer oder der Angerufene war.
-  
+
 ## <a name="dimensions"></a>Dimensionen
 
 In der folgenden Tabelle finden Sie eine Auflistung der aktuell in CQD verfügbaren Dimensionen.
-  
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**Name der Dimension** <br/> |**Datentyp/Einheiten** <br/> |**Beschreibung** <br/> |**Werte** <br/> |
@@ -321,17 +321,17 @@ In der folgenden Tabelle finden Sie eine Auflistung der aktuell in CQD verfügba
 |Inside Corp Pair  <br/> |Aufgezähltes Paar  <br/> | Paar, das basierend auf der Subnetz-Zuordnung zeigt, ob sich die Endpunkte innerhalb oder außerhalb des Unternehmensnetzwerk befunden haben. Mögliche Werte: <br/>  Innerhalb:Innerhalb <br/>  Innerhalb:Außerhalb <br/>  Außerhalb:Außerhalb <br/> |**Beispielwert:** Innerhalb: innerhalb  <br/> |
 |Scenario Pair  <br/> |Aufgezähltes Paar  <br/> |Paar, das basierend auf der Subnetz-Zuordnung und den Netzwerkverbindungsdetails zeigt, ob sich die Endpunkte innerhalb oder außerhalb des Unternehmensnetzwerk befunden haben. Mögliche Werte:    <br/> **Hinweis:** Die Paare werden getrennt durch "–".           |Leere Werte in der Aufzählung deuten darauf hin, dass der Netzwerkverbindungstyp für einen oder beide Endpunkte unbekannt war. <br/>**Beispielwert:** Client-inneren – Client-Inside-wifi  <br/> |
 |Teams ist  <br/> |Boolescher Wert  <br/> |True gibt an, dass der erste oder zweite Benutzer-Agent für das Stream-Objekt einer Microsoft-Teams Endpunkt ist.  <br/> False gibt an, dass die Benutzer-Agents für die Business-Endpunkte Skype sind.  |**Beispielwert:** "True"  |
-   
+
 ### <a name="notes-on-dimension-data-typeunits"></a>Hinweise zum Typ bzw. zu den Einheiten der Dimensionsdaten:
 
 #### <a name="range"></a>Bereich
 
 Dimensionen, die als Bereich oder Gruppe von Werten bereitgestellt werden, werden in folgendem Format angezeigt:
-  
+
  _\<Sortieren Reihenfolge Zeichenfolge\> [\<Untergrenze inklusive\> - \<exklusive Obergrenze\>)_
-  
+
 Beispiel: Die Dimension „Dauer (Minuten)" gibt die Dauer des Anrufs in Sekunden an, wobei der Wert als Bereich von Werten erfasst wird.
-  
+
 |||
 |:-----|:-----|
 |**Duration (Minutes)** <br/> |**Interpretationsmethode** <br/> |
@@ -340,22 +340,22 @@ Beispiel: Die Dimension „Dauer (Minuten)" gibt die Dauer des Anrufs in Sekunde
 |065: [2 - 3)  <br/> |2 Minuten < = Dauer des Datenstroms < 3 Minuten  <br/> |
 |066: [3 - 4)  <br/> |3 Minuten < = Dauer des Datenstroms < 4 Minuten  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 Die <Sortierreihenfolge-Zeichenfolge> wird zum Steuern der Sortierreihenfolge beim Präsentieren der Daten verwendet und kann für die Filterung eingesetzt werden. Ein Filter auf „Dauer (Minuten)" < „065" würde beispielsweise Datenströme mit einer Dauer von unter 2 Minuten (die führende Null (0) wird verwendet, damit der Filter wie erwartet funktioniert).
-  
+
 > [!NOTE]
-> Der aktuelle Wert der Sortierreihenfolge-Zeichenfolge ist unerheblich. 
-  
+> Der aktuelle Wert der Sortierreihenfolge-Zeichenfolge ist unerheblich.
+
 #### <a name="enumeration-pair"></a>Aufzählungspaar
 
 Dimensionen, die als Aufzählungspaar bereitgestellt werden, werden in folgendem Format angezeigt:
-  
+
  _\<Enumerationswert von einem Endpunkt\> : \<-Enumerationswert aus den anderen Endpunkt\>_
-  
+
 Die Anordnung der Aufzahlungswerte ist konsistent, gibt jedoch nicht die Anordnung des ersten oder zweiten Endpunkts wieder.
-  
+
 Beispiel: Das Netzwerkverbindungsdetail-Paar zeigt die Netzwerkverbindungsdetail-Werte für die beiden Endpunkte an:
-  
+
 |||
 |:-----|:-----|
 |**Network Connection Detail Pair** <br/> |**Interpretationsmethode** <br/> |
@@ -363,15 +363,15 @@ Beispiel: Das Netzwerkverbindungsdetail-Paar zeigt die Netzwerkverbindungsdetail
 |Verkabelt:WiFi  <br/> |Der erste Endpunkt hat eine verkabelte Ethernet-Verbindung und der zweite Endpunkt eine WiFi-Verbindung verwendet, oder der zweite Endpunkt hat eine verkabelte Ethernet-Verbindung und der erste Endpunkt eine WiFi-Verbindung verwendet.  <br/> |
 |:WiFi  <br/> |Der erste Endpunkt hat eine WiFI-Verbindung verwendet, und die vom zweiten Endpunkt verwendete Netzwerkverbindung ist unbekannt, oder der zweite Endpunkt hat eine WiFI-Verbindung verwendet, und die vom ersten Endpunkt verwendete Netzwerkverbindung ist unbekannt.  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 #### <a name="blank-values"></a>Leere Werte
 
 In der Tabelle oben werden die möglichen Ursachen für eine leere Dimension aufgelistet. Viele Dimensionen und Kennzahlen sind leer, wenn „False" die Ausgabe für die Dimension „QoE-Bericht verfügbar" ist. Dieser Fall tritt gewöhnlich ein, wenn der Anruf nicht erfolgreich aufgebaut wurde.
-  
+
 ## <a name="measures"></a>Kennzahlen
 
 In der folgenden Tabelle werden die derzeit im Anrufqualitäts-Dashboards (CQD) verfügbaren Kennzahlen aufgelistet:
-  
+
 ||||
 |:-----|:-----|:-----|
 |**Name der Kennzahl** <br/> |**Einheiten** <br/> |**Beschreibung** <br/> |
@@ -425,10 +425,10 @@ In der folgenden Tabelle werden die derzeit im Anrufqualitäts-Dashboards (CQD) 
 |Second Feedback Token Audio Issue Count  <br/> |Anzahl bewertetet Datenströme  <br/> |Anzahl der Datenströme, für die der Benutzer des zweiten Endpunkts ein Audioproblem gemeldet hat.  <br/> |
 |First Feedback Token Video Issue Count  <br/> |Anzahl der bewerteten Datenströme.  <br/> |Anzahl der Datenströme, in dem Benutzer mit der ersten Endpunkt ein Problem mit Video angegeben.  <br/> |
 |Second Feedback Token Video Issue Count  <br/> |Anzahl der bewerteten Datenströme.  <br/> |Anzahl der Datenströme, in dem Benutzer mit den zweiten Endpunkt ein Problem mit Video angegeben.  <br/> |
-|Audio SLA Good Call Count  <br/> |Anzahl der Anrufe  <br/> |Anzahl der Audioanrufe innerhalb des Bereichs von der Skype für Business VoIP Qualität SLA ([Volumenlizenzierung für Microsoft-Produkte und Onlinedienste](http://aka.ms/voicequalitysla)) klassifiziert als Besprechung die Leistungsziele Netzwerk.  <br/> |
-|Audio SLA Poor Call Count  <br/> |Anzahl der Anrufe  <br/> |Anzahl der Audioanrufe innerhalb des Bereichs von der Skype für Business VoIP Qualität SLA ([Volumenlizenzierung für Microsoft-Produkte und Onlinedienste](http://aka.ms/voicequalitysla)) klassifiziert als nicht die Netzwerk-Leistungsziele erfüllt.  <br/> |
-|Audio SLA Call Count  <br/> |Anzahl der Anrufe  <br/> |Anzahl der Audioanrufe innerhalb des Bereichs von der Skype für Business VoIP Qualität SLA ([Volumenlizenzierung für Microsoft-Produkte und Onlinedienste](http://aka.ms/voicequalitysla)).  <br/> |
-|Audio SLA Good Call Percentage  <br/> |Prozentsatz  <br/> |Prozentsatz der Audioanrufe im Bereich der SLA zur Sprachqualität in Skype for Business ([Volumenlizenzierung für Microsoft-Produkte und -Onlinedienste](http://aka.ms/voicequalitysla)), die so klassifiziert wurden, dass sie die Ziele für die Netzwerkleistung erfüllen.  <br/> |
+|Audio SLA Good Call Count  <br/> |Anzahl der Anrufe  <br/> |Anzahl der Audioanrufe innerhalb des Bereichs von der Skype für Business VoIP Qualität SLA ([Volumenlizenzierung für Microsoft-Produkte und Onlinedienste](https://aka.ms/voicequalitysla)) klassifiziert als Besprechung die Leistungsziele Netzwerk.  <br/> |
+|Audio SLA Poor Call Count  <br/> |Anzahl der Anrufe  <br/> |Anzahl der Audioanrufe innerhalb des Bereichs von der Skype für Business VoIP Qualität SLA ([Volumenlizenzierung für Microsoft-Produkte und Onlinedienste](https://aka.ms/voicequalitysla)) klassifiziert als nicht die Netzwerk-Leistungsziele erfüllt.  <br/> |
+|Audio SLA Call Count  <br/> |Anzahl der Anrufe  <br/> |Anzahl der Audioanrufe innerhalb des Bereichs von der Skype für Business VoIP Qualität SLA ([Volumenlizenzierung für Microsoft-Produkte und Onlinedienste](https://aka.ms/voicequalitysla)).  <br/> |
+|Audio SLA Good Call Percentage  <br/> |Prozentsatz  <br/> |Prozentsatz der Audioanrufe im Bereich der SLA zur Sprachqualität in Skype for Business ([Volumenlizenzierung für Microsoft-Produkte und -Onlinedienste](https://aka.ms/voicequalitysla)), die so klassifiziert wurden, dass sie die Ziele für die Netzwerkleistung erfüllen.  <br/> |
 |Audio Good Call Stream Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, in beiden Audiostreams in den Anruf (Anrufabschnitt) nicht als schlecht basierend auf Netzwerk Metriken klassifiziert werden, hier aufgelisteten: [Stream Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Call Stream Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, in dem mindestens ein Audiostream in den Anruf (Anrufabschnitt) als schlecht basierend auf Netzwerk Metriken klassifiziert wurde, hier aufgelisteten: [Stream Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, in beiden Audiostreams in den Anruf (Anrufabschnitt) nicht klassifiziert werden konnte aufgrund fehlender Netzwerk Metriken.  <br/> |
@@ -496,13 +496,12 @@ In der folgenden Tabelle werden die derzeit im Anrufqualitäts-Dashboards (CQD) 
 |Firewall IP Blocked Media Failure Percentage  <br/> |Prozentsatz  <br/> |Prozentsatz der Datenströme, die aufgrund der Blockierung des Zugriffs auf Skype for Business-Server durch Netzwerkgeräte nicht erstellt werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert war.  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert war.  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |Prozentsatz  <br/> |Prozentsatz der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert war.  <br/> |
-   
-## <a name="related-topics"></a>See Also
+
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md)
 
 [Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Anruf Analyse- und Anrufqualität Dashboard](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
-  
- 
+

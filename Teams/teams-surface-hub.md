@@ -3,7 +3,7 @@ title: Bereitstellen von Microsoft-Teams für die Fläche Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/23/2018
+ms.date: 08/29/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981579"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246158"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft-Teams für die Fläche Hub
 ======================================
@@ -141,9 +141,6 @@ Nachdem Sie die vorhergehenden Schritte zum Aktivieren des Teams für Fläche Hu
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installieren von Teams für Fläche Hub aus dem Microsoft-Speicher 
 
-> [!NOTE]
-> Für die Verwendung der Microsoft-Teams für die Oberfläche Hub (Preview) muss das Gerät im Windows-Insider-Programm registriert werden. Um das Programm Insider lassen, müssen Sie die Fläche Hub von Cloud-Wiederherstellung zurücksetzen.<br> Um ein Mitglied der Windows-Insider Programm zu werden, muss die Fläche-Hub auf vollständige Telemetrie festgelegt werden, vor der Teilnahme an der Windows-Insider-Programm. Aufgrund von GDPR Vorschriften die Standardeinstellungen der Windows-Telemetrie kürzlich von vollständig in geändert grundlegenden in EU-Ländern. Überprüfen Sie Ihre Einstellungen vor der Teilnahme an der Windows-Insider-Programm. Versucht, das Windows-Insider Programm teilnehmen, bei Festlegung auf grundlegende Telemetrie ein Zurücksetzen des Hubs Fläche erfordern möglicherweise. Wählen Sie zum Überprüfen der Windows-Telemetrie-Einstellungen auf einen Hub Fläche **Einstellungen** > **Privacy** > **Feedback und Diagnose**und auf **vollständige**festgelegt.
-
 Diese Anweisungen sind für die Installation von Teams für Fläche Hub aus dem Microsoft Store. 
  
 1. Starten Sie den Microsoft-Speicher:<br>
@@ -201,5 +198,3 @@ Verwenden Sie Folgendes, um die Anruf- und Besprechungen Anwendung Standardricht
 
 Starten Sie das Fläche Hub-Gerät neu. Nach dem Neustart des Geräts, sollten Sie möglicherweise die Teams app aus dem Bildschirm Start starten und teilnehmen an einer Besprechung aus dem Kalender.
 
-> [!NOTE]
-> Wenn das Gerät oder die Geräte Ihrer Organisation nicht aktuell Teil der Windows-Insider-Anwendung sind, und Sie befinden sich in Ländern behandelt durch allgemeine Data Protection Regulierung (GDPR) (oder Einstelllungen Telemetrie Basisdatenträger manuell geändert haben), müssen Sie erneut überprüfen dass Sie vollständige Telemetrie zulässig haben, bevor Sie die Insider Programm teilnehmen. GDPR geändert, das Standardverhalten des Fläche Hub-Geräte in der EU für grundlegende Telemetrie festzulegen.

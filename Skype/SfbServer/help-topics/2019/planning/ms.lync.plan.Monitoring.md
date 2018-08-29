@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: In Skype für Business Server monitoring dient zum Erfassen von Informationen zur Verwendung und Quality of Experience (QoE)-Daten über die kommunikationssitzungen, an denen die Benutzer beteiligt sind.
-ms.openlocfilehash: 8caee9bfde06545a5f2c509a6305cce4d793a30f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7974f8925817a15d0144ee5324d7d7b68d61c672
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979659"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253578"
 ---
 # <a name="monitoring-planning-tool"></a>Überwachung (Planungstool)
- 
+
 In Skype für Business Server monitoring dient zum Erfassen von Informationen zur Verwendung und Quality of Experience (QoE)-Daten über die kommunikationssitzungen, an denen die Benutzer beteiligt sind.
-  
-Weitere Informationen zur Planung von Monitoring Server finden Sie unter [Planning for Monitoring](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
-  
+
+Weitere Informationen zur Planung von Monitoring Server finden Sie unter [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
+
 

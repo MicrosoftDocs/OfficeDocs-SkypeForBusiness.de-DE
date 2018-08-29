@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31b0ac1d-f320-4677-bd0f-b4b0dc84a6a2
 description: Mithilfe dieser Seite können Sie die interne IP-Adresse und den internen vollqualifizierten Domänennamen (FQDN) für den Edge-Server angeben.
-ms.openlocfilehash: 1caa3dba0b1b40d7f207b10da2075082face12b0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6106f225dbdda1f7e1300606b9cc77299482d020
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987712"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23251271"
 ---
 # <a name="add-edge-machine-internal-ip-2010"></a>Fügen Sie Edge Computer interne IP-Adresse 2010 hinzu
- 
+
 Mithilfe dieser Seite können Sie die interne IP-Adresse und den internen vollqualifizierten Domänennamen (FQDN) für den Edge-Server angeben.
-  
+
 - Geben Sie im Feld **interne IPv4-Adresse**die IP-Adresse des Edgeservers, den Sie dem Pool hinzufügen möchten.
-    
+
 - Geben Sie Sie in **Interner FQDN**den vollqualifizierten Domänennamen (FQDN) des Edgeservers, den Sie dem Pool hinzufügen möchten.
-    
-Der FQDN, die Sie angeben, muss mit den Namen des Computers identisch sein, die auf dem Server konfiguriert ist. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. Daher müssen Sie ein Suffix Domain Name System (DNS) konfigurieren, auf den Namen des Computers, der als ein Edge-Server bereitgestellt werden, die nicht Mitglied einer Domäne ist. Weitere Informationen zum Hinzufügen einer DNS-Suffix an einen Computernamen finden Sie unter [Konfigurieren von DNS für die Edgeunterstützung](http://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)
-  
+
+Der FQDN, die Sie angeben, muss mit den Namen des Computers identisch sein, die auf dem Server konfiguriert ist. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. Daher müssen Sie ein Suffix Domain Name System (DNS) konfigurieren, auf den Namen des Computers, der als ein Edge-Server bereitgestellt werden, die nicht Mitglied einer Domäne ist. Weitere Informationen zum Hinzufügen einer DNS-Suffix an einen Computernamen finden Sie unter [Konfigurieren von DNS für die Edgeunterstützung](https://technet.microsoft.com/library/955493e6-aa29-424d-bb81-1ef87b3b15e3.aspx)
+
 
