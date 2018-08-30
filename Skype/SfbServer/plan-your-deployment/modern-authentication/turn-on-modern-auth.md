@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: In diesem Artikel Gliederungen-Cmdlets, mit denen Administratoren mehr Kontrolle über Authentifizierungsmethoden erhalten verwendet innerhalb und außerhalb, eines Unternehmens. Administratoren können Authentifizierungsmethoden auf Aktivieren oder deaktivieren Sie intern oder extern mit ihrem Netzwerk.
-ms.openlocfilehash: d460632d810eace4a6b43665d1d8e3335e3eae3c
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 2922d270f7a033a1523083ed15adefc5fb5f331d
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546557"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485806"
 ---
 # <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Deaktivieren Sie Legacy-Authentifizierungsmethoden intern und extern in Ihr Netzwerk.
 
@@ -59,7 +59,7 @@ __Geben Sie 1 Beschreibung:__ Dies ist die Standardeinstellung __Szenario für M
 
 __2 Beschreibung:__ Diese Topologie NTLM *extern*blockiert, ermöglicht aber auch NTLM oder Kerberos (für Clients, die ADAL nicht unterstützen), *intern*funktioniert. Wenn Ihre Clients ADAL unterstützen wird MA intern verwendet.
 
-__3 Beschreibung:__ Diese Topologie erfordert Verwaltungs-Agent für alle Benutzer. Alle ADAL-fähige Clients funktionieren in dieser Topologie und Kennwörter werden nicht genutzt werden.
+__3 Beschreibung:__ Diese Topologie erfordert Verwaltungs-Agent für alle Benutzer. Alle ADAL-fähige Clients funktionieren in dieser Topologie und Kennwörter werden nicht genutzt werden, wenn Sie beispielsweise die Verwendung von Kennwörtern mit AUTH zertifikatbasierte deaktivieren
 
 __4 Beschreibung:__ Diese Topologie blockiert NTLM *extern* und MA intern. Sie können *Alle Clients* verwenden ältere Authentifizierung Methoden *intern* (sogar ADAL-fähige Clients).
 

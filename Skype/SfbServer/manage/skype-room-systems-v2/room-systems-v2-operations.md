@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lesen Sie in diesem Thema, um Informationen zur Verwaltung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme zu erfahren.
-ms.openlocfilehash: d8dfb5c04d73717e8f20352c6cb422498f5a9b34
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: ae5f8537db63aac74adbcdc8ec13cb7aaa44ad77
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "19179287"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485792"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype-Chatroom-Systemen v2 Wartung und Betrieb 
  
@@ -57,7 +57,7 @@ Wenn Skype Raum Systemen v2 ebenfalls nicht ausgeführt wird, möglicherweise au
 In der folgenden Tabelle sind die möglichen Remotevorgänge und die Methoden zusammengefasst, die Sie für diese Vorgänge verwenden können.
   
 
-|**Arbeitsgruppe**|**Nicht Domäne beitreten**|**Domäne beitreten**|
+|**Arbeitsgruppe **|**Nicht Mitglied einer Domäne**|**Mitglied einer Domäne**|
 |:-----|:-----|:-----|
 |Neustart  <br/> |Remotedesktop  <br/> Remote-Powershell  <br/> |Remotedesktop (Weitere Konfiguration erforderlich)  <br/> Remote-Powershell (Weitere Konfiguration erforderlich)  <br/> SCCM  <br/> |
 |Betriebssystemupdate  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
@@ -73,9 +73,9 @@ In diesem Abschnitt werden die Systemeinstellungen, von denen Skype Raum Systeme
 
 |**Einstellung**|**Ermöglicht**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |Ermöglicht das Skype Raum Systemen v2 starten  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |Ermöglicht das Skype Raum Systemen v2 starten  <br/> |
 |Strom-Management -\> AC, deaktivieren Sie auf Bildschirm nach 10 Minuten  <br/> Strom-Management -\> auf AC, setzen Sie nie System in den Energiesparmodus  <br/> |Skype-Chatroom-Systemen v2 angefügte zeigt deaktivieren und Reaktivieren von automatisch aktiviert  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.   <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
    
 Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren einer Dateielement](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)erläutert.
   
