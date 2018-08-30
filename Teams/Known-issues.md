@@ -10,17 +10,16 @@ ms.reviewer: marcl
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78cce988c89ed127ca3c3b3c2606549bf28bf37f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2b88d0767c2815e276fe791b0751fb7090f8d446
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243207"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779430"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
 In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funktionsbereich.
-##
 
 ## <a name="administration"></a>Verwaltung
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|

@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: e524ddd8c86837033fe34caba5260c3f6547987f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 81f15ee3d5cf2dda1664f3414ae11c0dea7b588e
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779268"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage
 
-Wenn Sie Service Nummern für einwahlkonferenzen Brücken, automatischen Telefonzentralen oder andere Zahlen Service verfügen, gebührenfreie Telefonnummer Zahlen oder haben mehr als 999 (Abonnent) Telefonnummern, die Sie benötigen zum Übertragen von Skype für Unternehmen, Sie müssen so [Verwalten an. Zahlen für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Wenn Sie Service Nummern für einwahlkonferenzen Brücken, automatischen Telefonzentralen oder andere Zahlen Service verfügen, gebührenfreie Telefonnummer Zahlen oder haben mehr als 999 (Abonnent) Telefonnummern, die Sie benötigen zum Übertragen von Skype für Unternehmen, Sie müssen so [Verwalten an. Zahlen für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
 
-In einigen Ländern/Regionen müssen Sie auch eine benutzerdefinierte Serviceanfrage manuell zu senden, wenn Sie Telefonnummern, erhalten Version Nummern oder Adressen ändern möchten. Zum Anzeigen der für jedes Land/Region erforderlich sind, oder erfahren mehr über Anzahl portieren, finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+In einigen Ländern/Regionen müssen Sie auch eine benutzerdefinierte Serviceanfrage manuell zu senden, wenn Sie Telefonnummern, erhalten Version Nummern oder Adressen ändern möchten. Zum Anzeigen der für jedes Land/Region erforderlich sind, oder erfahren mehr über Anzahl portieren, finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Wenn Sie benötigen zum Erstellen und übermitteln eine Service-Anforderung führen Sie folgende Schritte aus:
@@ -108,13 +109,13 @@ In einigen Ländern/Regionen müssen Sie auch eine benutzerdefinierte Serviceanf
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

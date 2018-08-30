@@ -1,5 +1,5 @@
 ---
-title: Aufrufen von Plänen bekannte Probleme
+title: Bekannte Probleme mit Anrufplänen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn known issues with the calling plan for Office 365 (PSTN Calling) and what you can do about them. '
-ms.openlocfilehash: d201db80c2da09223d8e3b1935c383089f997382
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 6846fc2e5bd2e1293ca5185a642a813275921ea4
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779298"
 ---
-# <a name="calling-plans-known-issues"></a>Aufrufen von Plänen bekannte Probleme
+# <a name="calling-plans-known-issues"></a>Bekannte Probleme mit Anrufplänen
 
 Aufrufen von Plänen in Office 365 sind ein neues Feature in Skype für Business Online gefunden. Im folgenden sind aktuelle Probleme, die werden nachverfolgt und aktiv untersucht. Sie werden potenziell aufgelöst werden, wenn das Feature für Business Online in zukünftigen Builds in Office 365 und Skype aktualisiert wird.
   
-## <a name="calling-plans-known-issues"></a>Aufrufen von Plänen bekannte Probleme
+## <a name="calling-plans-known-issues"></a>Bekannte Probleme mit Anrufplänen
 
 |**Bekanntes Problem**|**Anmerkungen**|
 |:-----|:-----|
@@ -38,13 +39,13 @@ Aufrufen von Plänen in Office 365 sind ein neues Feature in Skype für Business
 > Wenn Sie weitere Telefonnummern als dieser erhalten möchten müssen, wenden Sie [Unterstützung für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
    
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

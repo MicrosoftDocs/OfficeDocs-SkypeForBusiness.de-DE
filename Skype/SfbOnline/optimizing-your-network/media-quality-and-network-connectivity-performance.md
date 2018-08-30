@@ -1,5 +1,5 @@
 ---
-title: Medienqualität und Leistung der Netzwerk-Konnektivität
+title: Medienqualität und Leistung der Netzwerkkonnektivität
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,14 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: In diesem Thema werden die Netzwerk-Performance-Anforderungen für Skype für Business Online Services definiert und wie Sie auswählen können, mit dem Internet oder dem ExpressRoute für die Konnektivität zwischen dem Netzwerk und Skype Business Online Grundlage Ihrer Bewertung des Netzwerks Konnektivität. Wenn Sie zum Bereitstellen von Azure ExpressRoute dedizierte Konnektivität zu Office 365 entschieden haben, enthält dieses Dokument auch Anleitungen zum Planen Ihrer ExpressRoute Verbindungen in verschiedenen Skype für Business Online Bereitstellungsszenarien.
-ms.openlocfilehash: a3af3ac55d39089f2fa6146c93a92fcd174a8cb6
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 3a57ba58e2881f2e279949877d17e115cb1c23df
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779356"
 ---
-# <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Medienqualität und Konnektivität Leistung des Netzwerks in Skype für Unternehmen Online
+# <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online
 
 In diesem Thema werden die Netzwerk-Performance-Anforderungen für Skype für Business Online Services definiert und wie Sie auswählen können, mit dem Internet oder dem ExpressRoute für die Konnektivität zwischen dem Netzwerk und Skype Business Online Grundlage Ihrer Bewertung des Netzwerks Konnektivität. Wenn Sie zum Bereitstellen von Azure ExpressRoute dedizierte Konnektivität zu Office 365 entschieden haben, enthält dieses Dokument auch Anleitungen zum Planen Ihrer ExpressRoute Verbindungen in verschiedenen Skype für Business Online Bereitstellungsszenarien.
   
@@ -45,7 +46,7 @@ Es gibt zahlreiche verschiedene Faktoren beeinflussen, Skype für Business Onlin
 
 In einer Sitzung Real-Time Media haben Media erfassen und Rendern von Geräten, die von allen Teilnehmern wie Headsets und Webcams verwendet werden großen Einfluss auf die gesamte Audio- und Videoqualität. Geräte von niedrigerer Qualität oder Geräte mit falschen Treibern erzeugen Audiomedien mit einer schlechteren allgemeinen Tonqualität sowie Videomedien mit einer schlechteren Bildqualität. Zertifizierte Geräte oder Geräte von hoher Qualität dagegen verbessern Echounterdrückung, Rauschunterdrückung und Videoauflösung und verringern die Latenz.
   
-Obwohl zertifizierte Geräte Audio- und Videomedien nicht erforderliche Dialogfeldoptionen, wird das Geräte für Skype für Unternehmen für den optimalen Media-Erlebnis zertifiziert dringend empfohlen. Eine Liste mit allen Skype für Unternehmen zertifizierte Geräte finden Sie unter [Telefone und Geräte für Skype für Unternehmen](https://technet.microsoft.com/en-us/office/dn947482). Verwenden Sie die [Skype für Business Online aufrufen Qualitätsdashboard](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md), gefunden in **Skype für Business Admin center**, um sicherzustellen, dass die verwendeten Geräte ordnungsgemäß konfiguriert sind, und audio und video Medienqualität zu überwachen.
+Obwohl zertifizierte Geräte Audio- und Videomedien nicht erforderliche Dialogfeldoptionen, wird das Geräte für Skype für Unternehmen für den optimalen Media-Erlebnis zertifiziert dringend empfohlen. Eine Liste mit allen Skype für Unternehmen zertifizierte Geräte finden Sie unter [Telefone und Geräte für Skype für Unternehmen](https://technet.microsoft.com/en-us/office/dn947482). Verwenden Sie die [Skype für Business Online aufrufen Qualitätsdashboard](/microsoftteams/turning-on-and-using-call-quality-dashboard), gefunden in **Skype für Business Admin center**, um sicherzustellen, dass die verwendeten Geräte ordnungsgemäß konfiguriert sind, und audio und video Medienqualität zu überwachen.
   
 > [!TIP]
 > **Ein zertifiziertes Gerät ist erforderlich für den optimalen Skype Business Media Quality wünschen**.
@@ -126,13 +127,13 @@ Für eine optimale Skype für Business Medienqualität sind die folgenden Netzwe
   
 |||
 |:-----|:-----|
-|**Metrik** <br/> |**Ziel** <br/> |
-|Wartezeit (unidirektional)  <br/> |< 50 ms  <br/> |
-|Wartezeit (Zeit oder Roundtripzeit)  <br/> |< 100 ms  <br/> |
-|Bursts von Paketverlusten  <br/> |< 10 % in einem Intervall von 200 ms  <br/> |
+|**Metrik** <br/> |** Target** <br/> |
+|Latenz (ein Weg)  <br/> |< 50 ms  <br/> |
+|Latenz (RTT oder Roundtripzeit)  <br/> |< 100 ms  <br/> |
+|Burstverlust von Paketen  <br/> |< 10 % in einem Intervall von 200 ms  <br/> |
 |Paketverlust  <br/> |< 1% in einem Intervall von 15 s  <br/> |
-|Die Kommunikation zwischen hinzukommen Jitter Paket  <br/> |< 30 ms in einem Intervall von 15 s  <br/> |
-|Paket neu anordnen  <br/> |< 0,05 % Pakete in falscher Reihenfolge  <br/> |
+|Jitter zwischen der Ankunftszeit von Paketen  <br/> |< 30 ms in einem Intervall von 15 s  <br/> |
+|Neuanordnung von Paketen  <br/> |< 0,05 % Pakete in falscher Reihenfolge  <br/> |
    
  **Andere leistungsanforderungen Ziel:**
   
@@ -152,13 +153,13 @@ Im folgenden werden die Leistungsziele Netzwerk oder Schwellenwerte, die für di
   
 |||
 |:-----|:-----|
-|**Metrik** <br/> |**Ziel** <br/> |
-|Wartezeit (unidirektional)  <br/> |< 30 ms  <br/> |
+|**Metrik** <br/> |** Target** <br/> |
+|Latenz (ein Weg)  <br/> |< 30 ms  <br/> |
 |Wartezeit (Zeit)  <br/> |< 60 ms  <br/> |
-|Bursts von Paketverlusten  <br/> |< 1% in einem Intervall von 200 ms  <br/> |
+|Burstverlust von Paketen  <br/> |< 1% in einem Intervall von 200 ms  <br/> |
 |Paketverlust  <br/> |< 0,1% in einem Intervall von 15 s  <br/> |
-|Die Kommunikation zwischen hinzukommen Jitter Paket  <br/> |< 15 ms in einem Intervall von 15 s  <br/> |
-|Paket neu anordnen  <br/> |< 0,01% Pakete in falscher Reihenfolge  <br/> |
+|Jitter zwischen der Ankunftszeit von Paketen  <br/> |< 15 ms in einem Intervall von 15 s  <br/> |
+|Neuanordnung von Paketen  <br/> |< 0,01% Pakete in falscher Reihenfolge  <br/> |
    
  **Andere leistungsanforderungen Ziel:**
   
@@ -336,7 +337,7 @@ Es folgt eine andere Option für die Bereitstellung für Contoso. In diesem Fall
   
 ![Zwei ExpressRoute Cloud-Connector.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 
 [ExpressRoute und QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
 
