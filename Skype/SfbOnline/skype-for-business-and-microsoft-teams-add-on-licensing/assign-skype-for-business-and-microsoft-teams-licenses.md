@@ -19,56 +19,57 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-description: 'Informationen Sie zum Zuweisen von Skype für Business-Lizenzen für Telefonsystem, Audiokonferenzen, plant aufrufen und Communications haben. '
-ms.openlocfilehash: 9cc11ea1e527ccfae205152ae869316bbb3ffa88
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
-ms.translationtype: MT
+description: 'Erfahren Sie, wie Sie Skype for Business-Lizenzen für Telefonsysteme, Audiokonferenzen, Anrufpläne und Kommunikationsguthaben zuweisen. '
+ms.openlocfilehash: 8b83286ef854518197d3b04c23f49bc00ceca2ba
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253446"
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen
 
-Dieser Artikel enthält Tipps zum Zuweisen von Lizenzen für Ihre Benutzer für Funktionen wie Audiokonferenzen Telefonsystem und plant aufrufen. Darüber hinaus Skripts zum Zuweisen von Lizenzen in einer Sammeloperation.
+In diesem Artikel finden Sie Tipps zum Zuweisen von Lizenzen für Funktionen wie Audiokonferenzen, Telefonsysteme und Anrufpläne zu Ihren Benutzern. Außerdem werden Skripts für die Massenzuweisung von Lizenzen bereitgestellt.
 
 > [!IMPORTANT]
-> Informationen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-on-Lizenzierung](skype-for-business-and-microsoft-teams-add-on-licensing.md) zu **kaufen** und welche Lizenzen, die Sie kaufen müssen sie - je nach Ihrer Office 365 planen - damit Benutzer Audiokonferenzen und gebührenfreie Nummern anrufen erhalten Telefonnummern außerhalb Ihres Unternehmens.
-  
-  
+> WICHTIG: Unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md) finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und **wie Sie Lizenzen kaufen** - abhängig von Ihrem Office 365-Plan -, damit die Benutzer Audiokonferenzen und gebührenfreie Telefonnummern nutzen und Nummern außerhalb Ihres Unternehmens anrufen können.
+
+
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Telefonsystem und Anrufpläne: Tipps und Skripts für das Zuweisen von Lizenzen
 
-Was müssen Sie wissen, bevor Sie Audiokonferenzen, Telefonsystem und Planen der Aufruf von Lizenzen zuweisen
+Wichtige Informationen vor dem Zuweisen von Audiokonferenz-, Telefonsystem- und Anrufplanlizenzen
 
 - **Sie verwenden eine lokale PSTN-Anbindung für Hybridbenutzer?** In diesem Fall müssen Sie nur eine **Telefonsystemlizenz** zuweisen. Weisen Sie **KEINEN** Anrufplan zu.
-    
-- **Latenz nach dem Zuweisen von Lizenzen**: Aufgrund der Latenz zwischen Office 365 und Skype for Business Online kann es nach dem Zuweisen einer Lizenz unter Umständen bis zu 24 Stunden dauern, bis einem Benutzer ein Anrufplan zugewiesen wird. Wenn nach 24 Stunden aufrufen Planen der Benutzer zugewiesen ist nicht, nehmen Sie die [Kontakt-Unterstützung für Business-Produkte - Admin-Hilfe](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-    
+
+- **Latenz nach dem Zuweisen von Lizenzen**: Aufgrund der Latenz zwischen Office 365 und Skype for Business Online kann es nach dem Zuweisen einer Lizenz unter Umständen bis zu 24 Stunden dauern, bis einem Benutzer ein Anrufplan zugewiesen wird. Wenn dem Benutzer nach 24 Stunden kein Anrufplan zugewiesen wurde so empfehlen wir Ihnen das [Kontaktieren des Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+
 - **Fehlermeldungen**: Wenn Sie nicht die richtige Anzahl von Lizenzen erworben haben, wird eine Fehlermeldung angezeigt. Wenn Sie weitere Anrufplanlizenzen erwerben müssen, wählen Sie **Buy more** (Weitere kaufen) aus.
-    
+
 - **Nächste Schritte**: Nach dem Zuweisen von Anrufplanlizenzen zu Ihren Benutzern müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
-    
+
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Zuweisen einer Telefonsystem- und Anrufplanlizenz für einen Benutzer
 
-Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
-  
+Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>Massenzuweisen von Telefonsystem- und Anrufplanlizenzen
 
-1. Installieren Sie den **Microsoft Online Services-Anmeldeassistenten für IT-Experten RTW**. Ist das Modul nicht installiert? Finden Sie unter [Microsoft Online Services-Anmeldeassistent für IT-Experten RTW](https://go.microsoft.com/fwlink/?LinkId=625123) herunterladen.
-    
-2. Installieren Sie das **Windows Azure Active Directory-Modul**. Ist das Modul nicht installiert? Download-Anweisungen und die Syntax finden Sie unter [Verwalten von Azure Active Directory mithilfe von Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) .
-    
+1. Installieren Sie den **Microsoft Online Services-Anmeldeassistenten für IT-Experten RTW**. Ist das Modul nicht installiert? Unter [Microsoft Online Services-Anmelde-Assistent für IT-Experten RTW](https://go.microsoft.com/fwlink/?LinkId=625123) können Sie es herunterladen.
+
+2. Installieren Sie das **Windows Azure Active Directory-Modul**. Ist das Modul nicht installiert? Angaben zu Downloads und der Cmdlet-Syntax finden Sie unter[Verwalten von Azure AD mit Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628).
+
 3. Wenn die Module installiert sind, weisen Sie die Lizenzen mithilfe der Windows PowerShell-Eingabeaufforderung und der folgenden Syntax Ihren Benutzern zu:
-    
+
   In diesem Beispiel wird eine **Enterprise E3-Lizenz** zusammen mit einer Lizenz für **Telefonsysteme** und einer Lizenz für einen **Plan für Inlandsanrufe** zugewiesen.
-    
+
   Die Lizenz- oder Produktnamen im Skript sind kursiv formatiert (siehe **Für die Skripterstellung verwendete Produktnamen oder SKUs für Telefonsystem und Anrufplan** nach dem Beispiel).
-    
+
   ```
   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
-  
+
   #Example of text file:
   #user1@domain.com
   #user2@domain.com
-  
+
   #Import Module
   ipmo MSOnline
   #Authenticate to MSOLservice.
@@ -94,7 +95,7 @@ Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weiter
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOEV " -ErrorAction SilentlyContinue
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOPSTN1 " -ErrorAction SilentlyContinue
-    } 
+    }
   ```
 ### <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>Für die Skripterstellung verwendete Produktnamen oder SKUs für Telefonsystem und Anrufplan
 
@@ -108,31 +109,31 @@ Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weiter
 |Plan für Auslandsanrufe  <br/> |MCOPSTN2  <br/> |
 |Plan für Inlandsanrufe  <br/> |MCOPSTN1  <br/> |
 |Guthaben für Kommunikationen  <br/> |MCOPSTNPP  <br/> |
-   
+
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audiokonferenz: Tipps und Skripts für das Zuweisen von Lizenzen
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>Wichtige Informationen vor dem Zuweisen von Lizenzen für Audiokonferenzen
 
 - **Drittanbieter für Audiokonferenzen**: Wenn Benutzer für die Verwendung eines Drittanbieters für Audiokonferenzen eingerichtet sind und Sie diesen Benutzern eine Lizenz für **Audiokonferenzen** zuweisen, werden sie auf die Verwendung von Microsoft als Audiokonferenzanbieter umgestellt. Diese Änderung können Sie rückgängig machen und wieder den Drittanbieter festlegen.
-    
-- Nächste Schritte: Nachdem Sie **Audiokonferenzen** Lizenzen zuweisen möchten, müssen Sie kein Audiokonferenzanbieter zuweisen. Finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen].
-    
+
+- Nächste Schritte: Nachdem Sie Lizenzen für **Audiokonferenzen** zugewiesen haben, müssen Sie einen Audiokonferenzanbieter zuweisen. Siehe [Microsoft als Anbieter von Audiokonferenzen zuweisen].
+
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Zuweisen einer Lizenz für Audiokonferenzen zu einem einzelnen Benutzer
 
 Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
-  
+
 ### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>Massenzuweisen von Lizenzen für Audiokonferenzen
 
 1. Laden Sie den [Microsoft Online Services-Anmeldeassistenten für IT-Experten RTW](https://go.microsoft.com/fwlink/?LinkId=625123) herunter, und installieren Sie ihn.
-    
+
 2. Laden Sie das **Windows Azure Active Directory-Modul herunter und installieren Sie es.** Anweisungen zum Herunterladen und die cmdlet-Syntax finden Sie unter[Verwalten von Azure AD mithilfe der Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628).
-    
+
     Wenn die Module installiert sind, weisen Sie die Lizenzen mithilfe der Windows PowerShell-Eingabeaufforderung und der folgenden Syntax Ihren Benutzern zu:
-    
-    Die Lizenz- oder Produktnamen im Skript sind kursiv formatiert. Finden Sie unter [Audiokonferenzen Produktnamen oder SKUs für das Skripting verwendet](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) für alle von der Produktnamen enthält.
-    
+
+    Die Lizenz- oder Produktnamen im Skript sind kursiv formatiert. Alle Produktnamen finden Sie unter [Produktnamen für Audiokonferenzen oder für die Skripterstellung verwendete SKUs](assign-skype-for-business-and-microsoft-teams-licenses.md#sku).
+
     In diesem Beispiel wird eine Enterprise E3-Lizenz zusammen mit einer Lizenz für Audiokonferenzen zugewiesen.
-    
+
 ```
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
@@ -165,7 +166,7 @@ foreach ($user in $users)
     Write-host "Assigning License: $user"
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
-    } 
+    }
 ```
 
 ### <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>Für die Skripterstellung verwendete Produktnamen oder SKUs für Audiokonferenz
@@ -179,28 +180,27 @@ foreach ($user in $users)
 |Enterprise E3  <br/> |ENTERPRISEPACK  <br/> |
 |Enterprise E5 (ohne Audiokonferenz)  <br/> |ENTERPRISEPREMIUM_NOPSTNCONF  <br/> |
 |Enterprise E5 (mit Audiokonferenz)  <br/> |ENTERPRISEPREMIUM  <br/> |
-   
+
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
 ### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Wichtige Informationen vor dem Zuweisen von Guthaben für Kommunikationen
 
-- **Enterprise-E5 Kunden**:, auch wenn Ihre Benutzer Enterprise E5 Lizenzen zugewiesen sind, empfohlen, dass die **Kommunikation haben** Lizenzen zugewiesen.
-    
+- **Enterprise E5-Kunden**: Selbst wenn Ihren Benutzern Enterprise E5-Lizenzen zugewiesen wurden, empfehlen wir dennoch, ihnen Lizenzen für **Guthaben für Kommunikationen** zuzuweisen.
+
 - **Nächste Schritte**: Nach dem Zuweisen dieser Lizenzen müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
-    
+
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Zuweisen einer Lizenz für Guthaben für Kommunikationen zu einem einzelnen Benutzer
 
 Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
-  
-### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Zuweisen von Lizenzen in einer Sammeloperation Communications haben
+
+### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Massenzuweisung von Lizenzen für Guthaben für Kommunikationen
 
 Sehen Sie sich das Beispielskript für das Zuweisen von Lizenzen für **Audiokonferenzen** an. Aktualisieren Sie es mit den Informationen zum Zuweisen von Lizenzen für **Guthaben für Kommunikationen**.
-  
-## <a name="related-topics"></a>See Also
-  
+
+## <a name="related-topics"></a>Verwandte Themen
+
 [Einrichten von Anrufplänen](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
-  
+
 [Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
-  
-  
- 
+
+
