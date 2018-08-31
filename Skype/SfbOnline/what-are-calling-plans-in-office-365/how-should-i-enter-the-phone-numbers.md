@@ -1,5 +1,5 @@
 ---
-title: Wie sollte ich die angezeigten Rufnummern eingeben?
+title: Wie muss ich die Telefonnummern eingeben?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Telefonnummern einrichten, wenn Sie diese zu Skype für Unternehmen port. '
-ms.openlocfilehash: 74914b98ccc60984f1d2be16f6a3351e7b26b2cf
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: b5b547a88dab1c812a47c310645254985cc0b606
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780599"
 ---
-# <a name="how-should-i-enter-the-phone-numbers"></a>Wie sollte ich die angezeigten Rufnummern eingeben?
+# <a name="how-should-i-enter-the-phone-numbers"></a>Wie muss ich die Telefonnummern eingeben?
 
 Wenn Sie Rufnummern portieren, müssen Sie diese im richtigen Format eingeben. 
   
@@ -80,20 +81,20 @@ Wenn Sie Rufnummern portieren, müssen Sie diese im richtigen Format eingeben.
     
   - Die "-" wird zur Trennung nur zweier Zahlen verwendet. Es wird nicht unterstützt, um mehrere einschließen "-" in den Nummernbereich. Beispielsweise sollte **(425) 555-0649-(425) 555-1115** eingegeben werden, als **(425) 5550649 - (425) 5551115**.
     
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

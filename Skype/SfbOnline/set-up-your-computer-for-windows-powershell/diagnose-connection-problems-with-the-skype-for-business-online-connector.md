@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 7daf8702d2e21ff83bc5d246aff61bfcdb945418
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 60ed4be1d4c20426a645002f1b7a71f65f120774
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779095"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -40,9 +41,9 @@ Dieses Thema enthält Informationen, die Ihnen helfen sollen, Probleme zu diagno
     
 - [Die Möglichkeit, Verbindungen mit dem Mandanten herzustellen, wurde in Skype for Business Online deaktiviert](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [Die maximale Anzahl von gleichzeitigen Shells für den Benutzer in Skype for Business Online wurde überschritten ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKMaxNumberShellsUser)
+- [Die maximale Anzahl von gleichzeitigen nutzt für diesen Benutzer in Skype für Business Online wurde überschritten.](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKMaxNumberShellsUser)
     
-- [Die maximale Anzahl von gleichzeitigen Shells für den Mandanten in Skype for Business Online wurde überschritten ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+- [Die maximale Anzahl von gleichzeitigen nutzt für diesen Mandanten in Skype für Business Online wurde überschritten.](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>„Import-Module"-Fehler aufgrund der Windows PowerShell-Ausführungsrichtlinie
 <a name="BKMKPowerShellExecutionPolicy"> </a>
@@ -141,7 +142,7 @@ Obwohl jeder Administrator bis zu drei gleichzeitige Verbindungen mit einem Skyp
 
 - **Lösung**: ist die einzige Möglichkeit zum Beheben dieses Problems, um eine oder mehrere der vorherigen Verbindungen zu schließen. Wenn Sie mit einer Skype for Business Online-Sitzung fertig sind, sollten Sie die Sitzung mit dem Cmdlet **Remove-PSSession** beenden. Damit können Sie das Problem vermeiden.  
  
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten des Computers für Skype für das Business online Management mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
