@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8f8d6bc1e2fc08e98c11b00bfda4e66c978c69a7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4a8c3c167c8830dfc240b4ce5000f96c5ccbb3f
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241933"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779025"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>Wie ist der Status meiner Portierungsanträge?
 
@@ -42,19 +42,19 @@ Die folgende Tabelle enthält die Port Status als auch Aktionen, die Sie ergreif
 |**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja  <br/> |Ja (zu diesem Zeitpunkt kann nicht gelöscht werden die Reihenfolge Port ein Fehler aufgetreten ist. Die Port Reihenfolge neu erstellt werden soll, oder Sie müssen zur [Unterstützung von Kontakt für Business-Produkte – Admin Hilfe](https://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).  <br/> |Der riskieren Netzbetreiber hat die Reihenfolge abgelehnt.  <br/> |
 |**Abgeschlossen** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Ziffern wurden erfolgreich übertragen.  <br/> |
 |**Abgebrochen** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat den Auftrag abgebrochen.  <br/> |
-
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**
-
+   
+ **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

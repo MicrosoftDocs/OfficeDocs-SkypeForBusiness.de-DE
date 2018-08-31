@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, was Adressvalidierung ist, warum sie wichtig ist und was sie mit Notfalladressen und -diensten zu tun hat. '
-ms.openlocfilehash: c82208dd08018c812451a6a26b5a9c6e5420410d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: d5a64273ae29bac3b1f6e42212a0b50aa3dca9a5
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779115"
 ---
 # <a name="what-is-address-validation"></a>Was ist Adressvalidierung?
 
@@ -36,10 +37,11 @@ Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass
 
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
+[Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
+
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

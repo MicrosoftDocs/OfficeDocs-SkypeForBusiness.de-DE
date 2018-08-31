@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
 search.appverid: MET150
-ms.openlocfilehash: 3c2148b54c04950867feef1844a4ca1595f708e5
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 562911b6ceb4751a1a808d4e8f63ddaddddfad99
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246488"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779184"
 ---
 # <a name="pstn-usage-report"></a>Bericht „PSTN-Verbrauch“
 
@@ -31,7 +31,7 @@ Im neuen Bereich **Berichte** im Skype for Business Admin Center wird die Anruf-
   
 Checken Sie der [Übersicht über die Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) für weitere Berichte, die verfügbar sind.
   
-In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalten Sie Details auf Aktivität, einschließlich aufrufen Verwendung in Ihrer Organisation. Diese Angaben sind sehr hilfreich, wenn Sie untersuchen, für Ihre Organisation und für das Einrichten von [Communications haben](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) planen und Durchführen von anderen Business Entscheidungen
+In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalten Sie Details auf Aktivität, einschließlich aufrufen Verwendung in Ihrer Organisation. Diese Angaben sind sehr hilfreich, wenn Sie untersuchen, für Ihre Organisation und für das Einrichten von [Communications haben](/microsoftteams/what-are-communications-credits) planen und Durchführen von anderen Business Entscheidungen
   
 > [!NOTE]
 > Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden 
@@ -118,7 +118,7 @@ Der Bericht sieht wie folgt aus:
 
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

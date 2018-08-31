@@ -1,5 +1,5 @@
 ---
-title: Port Reihenfolge Kontoinformationen
+title: Kontoinformationen für Portierungsaufträge
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, welche Kontoinformationen, die Sie beim Arbeiten mit dem Assistenten für eine neue lokale Anzahl Port Reihenfolge benötigen. '
-ms.openlocfilehash: bd2f929a7268db03c1d9e3660d6f3df20ff9cc72
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 69d972709e0711f8ac17131a81c604044d869c85
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780481"
 ---
-# <a name="port-order-account-information"></a>Port Reihenfolge Kontoinformationen
+# <a name="port-order-account-information"></a>Kontoinformationen für Portierungsaufträge
 
 Wenn Sie die Seite **Kontoinformationen** im Assistenten für **Neue lokale Anzahl Port Reihenfolge** verwenden eine Port-Reihenfolge zu übermitteln, benötigen Sie fast alle dieselben Informationen, die Sie in das Geladene bereitstellen würde einschließlich:
   
@@ -66,19 +67,19 @@ Damit Bestellung Port einfach und Fehler zu vermeiden, stellen Sie sicher, dass 
 > [!CAUTION]
 > **Kündigen Sie Ihre Dienste bei Ihrem Dienstanbieter oder Netzbetreiber nicht.**> **Sie müssen Ihren vorherigen Dienst aktiv halten, um Ihre Telefonnummern zu Skype for Business Online portieren zu können.**> **Frieren Sie Ihr Konto bei Ihrem Dienstanbieter oder Netzbetreiber nicht ein. Das Einfrieren des Kontos verhindert die Änderung von Netzbetreibern für das Konto. Der autorisierte Benutzer muss einen Antrag an den aktuellen Netzbetreiber übermitteln, um das Einfrieren aufzuheben. Dieser Vorgang kann je nach Netzbetreiber 1-3 Wochen dauern.**> 
   
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-(.. / what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

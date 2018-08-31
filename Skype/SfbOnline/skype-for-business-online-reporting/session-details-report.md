@@ -1,5 +1,5 @@
 ---
-title: Session-Detailbericht
+title: Bericht „Sitzungsdetails“
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,22 +16,22 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: Das neue Office 365-Berichte Dashboard zeigt, über die Office 365-Produkte in Ihrer Organisation der Übersicht über die Aktivität. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
+description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
 search.appverid: MET150
-ms.openlocfilehash: 63d0d049e7522d1e62f717c063eb92f658a5623f
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933175"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780855"
 ---
-# <a name="session-details-report"></a>Session-Detailbericht
+# <a name="session-details-report"></a>Bericht „Sitzungsdetails“
 
 Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. **Skype für Business Sitzungsdetails** Bericht können Sie Details zu einzelnen Benutzers Anruf Erfahrungen finden Sie unter.
   
 Checken Sie [Übersicht über die Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) für weitere Berichte, die verfügbar sind.
   
-In diesem Bericht, zusammen mit den anderen Skype für Business Berichte enthalten Details auf Aktivität, einschließlich Sitzungsdetails in Ihrer Organisation. Diese Angaben sind sehr hilfreich, wenn Sie untersuchen, für Ihre Organisation und für das Einrichten von [Communications haben](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)planen und Durchführen von anderen Business Entscheidungen.
+In diesem Bericht, zusammen mit den anderen Skype für Business Berichte enthalten Details auf Aktivität, einschließlich Sitzungsdetails in Ihrer Organisation. Diese Angaben sind sehr hilfreich, wenn Sie untersuchen, für Ihre Organisation und für das Einrichten von [Communications haben](/microsoftteams/what-are-communications-credits)planen und Durchführen von anderen Business Entscheidungen.
   
 > [!NOTE]
 > Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
@@ -117,7 +117,7 @@ Für jede Sitzung ist eine Sub-Tabelle mit unterschiedlichen Daten je nach Szena
 
 - [Skype für Business PSTN Minute Pools Bericht](pstn-minute-pools-report.md) sehen Sie die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht.
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

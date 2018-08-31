@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914752"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779771"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren der Weiterleitung von direkten
 
@@ -31,7 +31,7 @@ Sie können Ihr Telefonsystem Microsoft konfigurieren und Aktivieren von Benutze
 
 - [Den SBC mit einem Microsoft-Telefonsystem Kopplung und überprüfen die Verbindung](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [Aktivieren von Benutzern für direkte Routingdienst](#enable-users-for-direct-routing-service)
-- [Sicherstellen Sie, dass Microsoft-Teams, die bevorzugte aufrufende Client für die Benutzer ist](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [Sicherstellen Sie, dass Microsoft-Teams, die bevorzugte aufrufende Client für die Benutzer ist](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>Den SBC um Routingdienst von Telefonsystem leiten Kopplung 
 
@@ -517,7 +517,6 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 </pre>
 
 Das Ergebnis ist, dass die VoIP-Richtlinie auf John Woods Anrufe angewendet werden nicht eingeschränkt, und die Logik des Routings ausgehender Anrufe für den Aufruf von USA, Kanada und International verfügbaren vor.
-
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Festlegen Sie Microsoft-Teams als bevorzugter Client aufrufende für Benutzer
 
