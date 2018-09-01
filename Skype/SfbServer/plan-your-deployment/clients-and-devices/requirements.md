@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 0cb0a2cc0508f3499c94971647a22a936fc0648d
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: ce5b8343973fca50970132accd7833641ed9c5a1
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601934"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797344"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
  
@@ -51,9 +51,9 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
 **Unterstützte Konsolen**
 |Konsole|Prozessor|RAM|Festplatte|
 |:-----|:-----|:-----|:-----|
-|[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
 |[HP Elite Segments zur Erfüllung G2 Räume](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  |  
-    
+
 - Eine der folgenden docking Station Optionen auf einen Tablet zur Besprechung sichere Raum Tabelle. 
     
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
