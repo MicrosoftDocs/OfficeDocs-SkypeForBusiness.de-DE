@@ -1,5 +1,5 @@
 ---
-title: Office 365 Enterprise E5
+title: Office 365 Enterprise E5
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,20 +19,21 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Enterprise-Plänen. '
-ms.openlocfilehash: 3749d16c1dc518133a0ab0f17f3814301660fbe2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'Erfahren Sie mehr über Add-On-Lizenzen, Funktionen und Informationen zum Kauf von Office 365 Enterprise-Plänen. '
+ms.openlocfilehash: 3138b8888468ffdfc3e91f381edc3e18fa18e465
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780649"
 ---
-# <a name="office-365-enterprise-e5"></a><span data-ttu-id="0e5fc-103">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="0e5fc-103">Office 365 Enterprise E5</span></span>
+# <a name="office-365-enterprise-e5"></a><span data-ttu-id="66181-103">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="66181-103">Office 365 Enterprise E5</span></span>
 
-<span data-ttu-id="0e5fc-p101">Der Plan [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) enthält die meisten Skype for Business- und Microsoft Teams-Funktionen. Es gibt nur einige wenige zusätzliche Optionen.</span><span class="sxs-lookup"><span data-stu-id="0e5fc-p101">The [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) plan includes most Skype for Business and Microsoft Teams features. There are just a few additional options.</span></span>
+<span data-ttu-id="66181-p101">Der Plan [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) enthält die meisten Skype for Business- und Microsoft Teams-Funktionen. Es gibt nur einige wenige zusätzliche Optionen.</span><span class="sxs-lookup"><span data-stu-id="66181-p101">The [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) plan includes most Skype for Business and Microsoft Teams features. There are just a few additional options.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0e5fc-106">**Zum Hinzufügen dieser Funktion ...**</span><span class="sxs-lookup"><span data-stu-id="0e5fc-106">**To add this feature**</span></span> <br/> |<span data-ttu-id="0e5fc-107">**... müssen Sie folgende Lizenz erwerben:**</span><span class="sxs-lookup"><span data-stu-id="0e5fc-107">**Here's what you need to buy**</span></span> <br/> |
-|<span data-ttu-id="0e5fc-108">**Audiokonferenzen sind enthalten.**</span><span class="sxs-lookup"><span data-stu-id="0e5fc-108">**Audio Conferencing is included!**</span></span> <br/> |<span data-ttu-id="0e5fc-109">Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter.</span><span class="sxs-lookup"><span data-stu-id="0e5fc-109">Once you buy the license, Microsoft will be your audio conferencing provider.</span></span>  <br/> |
-|<span data-ttu-id="0e5fc-110">**Gebührenfreie Nummern für DFÜ-Zugriff auf Ihre Besprechungen und die Möglichkeit anwählen aus einer Besprechung an eine Person hinzufügen, indem Sie eine Telefonnummer in der ganzen Welt aufrufen.**</span><span class="sxs-lookup"><span data-stu-id="0e5fc-110">**Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world.**</span></span> <br/> |[<span data-ttu-id="0e5fc-111">Communications haben</span><span class="sxs-lookup"><span data-stu-id="0e5fc-111">Communications Credits</span></span>](../set-up-communications-credits-for-your-organization.md)|
-|<span data-ttu-id="0e5fc-112">**Telefonsystem und Voicemail sind enthalten.**</span><span class="sxs-lookup"><span data-stu-id="0e5fc-112">**Phone System and voicemail is included!**</span></span> <br/> |<span data-ttu-id="0e5fc-113">Aufrufen von Plänen: von Office 365 kaufen Sie ein [Aufruf von planen](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) .</span><span class="sxs-lookup"><span data-stu-id="0e5fc-113">Calling Plans: buy a [Calling Plan](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) from Office 365.</span></span> <br/>  <span data-ttu-id="0e5fc-114">Oder verwenden Sie den [Telefondienst aus Ihrer vorhandenen Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).</span><span class="sxs-lookup"><span data-stu-id="0e5fc-114">Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).</span></span> |
+|<span data-ttu-id="66181-106">**Zum Hinzufügen dieser Funktion ...**</span><span class="sxs-lookup"><span data-stu-id="66181-106">**To add this feature**</span></span> <br/> |<span data-ttu-id="66181-107">**... müssen Sie folgende Lizenz erwerben:**</span><span class="sxs-lookup"><span data-stu-id="66181-107">**Here's what you need to buy**</span></span> <br/> |
+|<span data-ttu-id="66181-108">**Audiokonferenzen sind enthalten.**</span><span class="sxs-lookup"><span data-stu-id="66181-108">**Audio Conferencing is included!**</span></span> <br/> |<span data-ttu-id="66181-109">Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter.</span><span class="sxs-lookup"><span data-stu-id="66181-109">Once you buy the license, Microsoft will be your audio conferencing provider.</span></span>  <br/> |
+|<span data-ttu-id="66181-110">**Gebührenfreie Telefonnummern zur Einwahl in Besprechungen und die Möglichkeit, aus Besprechungen heraus weltweite Anrufe zu tätigen, um andere Personen hinzuzufügen.**</span><span class="sxs-lookup"><span data-stu-id="66181-110">**Toll free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world.**</span></span> <br/> |<span data-ttu-id="66181-111">[Guthaben für Kommunikationen](/microsoftteams/set-up-communications-credits-for-your-organization)</span><span class="sxs-lookup"><span data-stu-id="66181-111">[](/microsoftteams/set-up-communications-credits-for-your-organization)Communications Credits</span></span>|
+|<span data-ttu-id="66181-112">**Telefonsystem und Voicemail sind enthalten.**</span><span class="sxs-lookup"><span data-stu-id="66181-112">**Phone System and voicemail is included!**</span></span> <br/> |<span data-ttu-id="66181-113">Anrufpläne: Kaufen Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365) von Office 365.</span><span class="sxs-lookup"><span data-stu-id="66181-113">2. Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) from Office 365.</span></span> <br/>  <span data-ttu-id="66181-114">Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).</span><span class="sxs-lookup"><span data-stu-id="66181-114">Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).</span></span> |
