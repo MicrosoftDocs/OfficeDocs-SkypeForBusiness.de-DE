@@ -19,25 +19,26 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Premium, Office 365 ProPlus oder Skype für Business Online – Plan 2. '
-ms.openlocfilehash: dfea5167f5c24809d9a5ac8881fa26ba7af6c7ed
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'Informationen zu Add-on-Lizenzen, Funktionen und zum Erwerb von Office 365 Premium, Office 365 ProPlus oder Skype für Business Online Plan 2. '
+ms.openlocfilehash: b451a4e4844b8eccd046dc0b0d1401eaa96f472e
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248884"
 ---
 # <a name="office-365-premium-office-365-proplus-or-skype-for-business-online-plan-2"></a>Office 365 Premium, Office 365 ProPlus oder Skype for Business Online Plan 2
 
 Wenn Sie bereits den Plan [Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium), [Office 365 ProPlus](https://products.office.com/en-us/business/office-365-proplus-business-software) oder[Skype for Business Online Plan 2](https://products.office.com/en-us/skype-for-business/online) gekauft haben, müssen Sie die folgenden Add-On-Lizenzen kaufen, um weitere Skype for Business-Funktionen zu erhalten.
 
-> [!IMPORTANT] 
-> Obwohl Audiokonferenzen, Telefonsystem und Aufrufen von Plänen mit Skype für Business Online Plan 2 zum Aktivieren der Sprache Anruffunktionen erworben werden können, wird empfohlen, dass Sie einen Plan Enterprise E5 um festzustellen, ob es kosteneffektiver ist ausgewertet werden soll.
+> [!IMPORTANT]
+> Obwohl Audiokonferenzen, ein Telefonsystem und Handyverträge mit Skype for Business Online Plan 2 erworben werden können, um Voicemail-Funktionen zu aktivieren, empfehlen wir Ihnen, den Enterprise E5-Plan abzuwägen, der eventuell kosteneffektiver sein könnte.
 
 |||
 |:-----|:-----|
 |**Zum Hinzufügen dieser Funktion ...** <br/> |**... müssen Sie folgende Lizenz erwerben:** <br/> |
-|**Audiokonferenz** <br/> Kaufen Sie 1 **Audiokonferenzen** -Lizenz für jeden Benutzer, der das Planen oder eine Konferenz einwählen. Attendees do not need licenses. <br/> |**Audiokonferenzen** add-on <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
-|**Gebührenfreie Nummern für DFÜ-Zugriff auf Konferenzen und die Möglichkeit von einer Konferenz anwählen einer Person hinzufügen, indem Sie eine Telefonnummer in der ganzen Welt aufrufen** <br/> |[Communications haben](../set-up-communications-credits-for-your-organization.md)|
-|**Telefonsystem** <br/> |1. [Schalter, mit dem eine andere Office 365 für Business Plan](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Wenn Sie Office 365 ProPlus oder Skype für Business Online – Plan 2 haben empfehlen wir Aktualisieren des Plans ein Plan Enterprise E5 Cloud VoIP-Funktionen abrufen. Wenn Sie zu einer Enterprise E1 oder E3 Plan aktualisieren, sehen Sie die Option aus, um das **Telefonsystem** Add-on kaufen. <br/> 2. **Telefonsystem** Add-on <br/>  3. Aufruf von Plänen: von Office 365 kaufen Sie ein [Aufruf von planen](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) . <br/>  Oder verwenden Sie den [Telefondienst aus Ihrer vorhandenen Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Anrufpläne** <br/> |1. [Schalter, mit dem eine andere Office 365 für Business Plan](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).  <br/> 2. **Telefonsystem** Add-on <br/> 3. [aufrufen Plan](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md): Sie können nur erwerben, nachdem Sie das **Telefonsystem** Add-on kaufen. <br/> |
-   
+|**Audiokonferenz** <br/> Kaufen Sie je eine Lizenz für **Audiokonferenzen** für jede Person, die Einwahlbesprechungen planen oder abhalten möchte. Teilnehmer benötigen keine Lizenzen. <br/> |**Audiokonferenzen**-Add-On <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
+|**Gebührenfreie Nummern zur Einwahl in Konferenzen und die Möglichkeit, aus einer Konferenz heraus weltweite Anrufe zu tätigen, um so andere Personen hinzuzufügen** <br/> |[Guthaben für Kommunikationen](../set-up-communications-credits-for-your-organization.md)|
+|**Telefonsystem** <br/> |1. [Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Wenn Sie Office 365 ProPlus oder Skype für Business Online Plan 2 haben, empfehlen wir Ihnen für Cloud VoIP-Funktionen ein Upgrade zu dem Enterprise E5-Plan. Beim Upgrade zu einem Enterprise E1- oder E3-Plan sehen Sie die Option zum Kauf des **Telefonsystem**-Add-ons. <br/> 2. **Telefonsystem**-Add-On <br/>  3. Anrufpläne: Kaufen Sie einen [Anrufplan](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) von Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Anrufpläne** <br/> |1. [Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).  <br/> 2. **Telefonsystem**-Add-On <br/> 3. [Anrufplan](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md): Sie können diesen nur erwerben, nachdem Sie das **Telefonsystem**-Add-On gekauft haben. <br/> |
+
