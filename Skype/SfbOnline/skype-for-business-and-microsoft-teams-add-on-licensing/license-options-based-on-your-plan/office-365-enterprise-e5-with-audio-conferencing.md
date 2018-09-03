@@ -1,5 +1,5 @@
 ---
-title: Office 365 Enterprise E5
+title: Office 365 Enterprise E5
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,13 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Enterprise-Plänen. '
-ms.openlocfilehash: 3749d16c1dc518133a0ab0f17f3814301660fbe2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'Erfahren Sie mehr über Add-On-Lizenzen, Funktionen und Informationen zum Kauf von Office 365 Enterprise-Plänen. '
+ms.openlocfilehash: 3138b8888468ffdfc3e91f381edc3e18fa18e465
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780649"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 
@@ -34,5 +35,5 @@ Der Plan [Office 365 Enterprise E5](https://products.office.com/en-us/business/o
 |:-----|:-----|
 |**Zum Hinzufügen dieser Funktion ...** <br/> |**... müssen Sie folgende Lizenz erwerben:** <br/> |
 |**Audiokonferenzen sind enthalten.** <br/> |Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter.  <br/> |
-|**Gebührenfreie Nummern für DFÜ-Zugriff auf Ihre Besprechungen und die Möglichkeit anwählen aus einer Besprechung an eine Person hinzufügen, indem Sie eine Telefonnummer in der ganzen Welt aufrufen.** <br/> |[Communications haben](../set-up-communications-credits-for-your-organization.md)|
-|**Telefonsystem und Voicemail sind enthalten.** <br/> |Aufrufen von Plänen: von Office 365 kaufen Sie ein [Aufruf von planen](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md) . <br/>  Oder verwenden Sie den [Telefondienst aus Ihrer vorhandenen Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |
+|**Gebührenfreie Telefonnummern zur Einwahl in Besprechungen und die Möglichkeit, aus Besprechungen heraus weltweite Anrufe zu tätigen, um andere Personen hinzuzufügen.** <br/> |[Guthaben für Kommunikationen](/microsoftteams/set-up-communications-credits-for-your-organization)|
+|**Telefonsystem und Voicemail sind enthalten.** <br/> |Anrufpläne: Kaufen Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365) von Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |

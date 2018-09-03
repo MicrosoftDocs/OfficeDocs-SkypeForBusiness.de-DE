@@ -20,19 +20,19 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Erfahren Sie, wie Sie Skype for Business-Lizenzen für Telefonsysteme, Audiokonferenzen, Anrufpläne und Kommunikationsguthaben zuweisen. '
-ms.openlocfilehash: 8b83286ef854518197d3b04c23f49bc00ceca2ba
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fef4bea3971f2984e46de7a3592b1a157076c879
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253446"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780667"
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen
 
 In diesem Artikel finden Sie Tipps zum Zuweisen von Lizenzen für Funktionen wie Audiokonferenzen, Telefonsysteme und Anrufpläne zu Ihren Benutzern. Außerdem werden Skripts für die Massenzuweisung von Lizenzen bereitgestellt.
 
 > [!IMPORTANT]
-> WICHTIG: Unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md) finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und **wie Sie Lizenzen kaufen** - abhängig von Ihrem Office 365-Plan -, damit die Benutzer Audiokonferenzen und gebührenfreie Telefonnummern nutzen und Nummern außerhalb Ihres Unternehmens anrufen können.
+> Unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md) finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und **wie Sie Lizenzen kaufen** - abhängig von Ihrem Office 365-Plan -, damit die Benutzer Audiokonferenzen und gebührenfreie Telefonnummern nutzen und Nummern außerhalb Ihres Unternehmens anrufen können.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Telefonsystem und Anrufpläne: Tipps und Skripts für das Zuweisen von Lizenzen
@@ -44,9 +44,9 @@ Wichtige Informationen vor dem Zuweisen von Audiokonferenz-, Telefonsystem- und 
 - **Latenz nach dem Zuweisen von Lizenzen**: Aufgrund der Latenz zwischen Office 365 und Skype for Business Online kann es nach dem Zuweisen einer Lizenz unter Umständen bis zu 24 Stunden dauern, bis einem Benutzer ein Anrufplan zugewiesen wird. Wenn dem Benutzer nach 24 Stunden kein Anrufplan zugewiesen wurde so empfehlen wir Ihnen das [Kontaktieren des Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Fehlermeldungen**: Wenn Sie nicht die richtige Anzahl von Lizenzen erworben haben, wird eine Fehlermeldung angezeigt. Wenn Sie weitere Anrufplanlizenzen erwerben müssen, wählen Sie **Buy more** (Weitere kaufen) aus.
-
-- **Nächste Schritte**: Nach dem Zuweisen von Anrufplanlizenzen zu Ihren Benutzern müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
-
+    
+- **Nächste Schritte**: Nach dem Zuweisen von Anrufplanlizenzen zu Ihren Benutzern müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](/microsoftteams/set-up-calling-plans).
+    
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Zuweisen einer Telefonsystem- und Anrufplanlizenz für einen Benutzer
 
 Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
@@ -186,9 +186,9 @@ foreach ($user in $users)
 ### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Wichtige Informationen vor dem Zuweisen von Guthaben für Kommunikationen
 
 - **Enterprise E5-Kunden**: Selbst wenn Ihren Benutzern Enterprise E5-Lizenzen zugewiesen wurden, empfehlen wir dennoch, ihnen Lizenzen für **Guthaben für Kommunikationen** zuzuweisen.
-
-- **Nächste Schritte**: Nach dem Zuweisen dieser Lizenzen müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
-
+    
+- **Nächste Schritte**: Nach dem Zuweisen dieser Lizenzen müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](/microsoftteams/set-up-calling-plans).
+    
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Zuweisen einer Lizenz für Guthaben für Kommunikationen zu einem einzelnen Benutzer
 
 Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
@@ -198,9 +198,10 @@ Die Schritte sind die gleichen wie beim Zuweisen einer Office 365-Lizenz. Weiter
 Sehen Sie sich das Beispielskript für das Zuweisen von Lizenzen für **Audiokonferenzen** an. Aktualisieren Sie es mit den Informationen zum Zuweisen von Lizenzen für **Guthaben für Kommunikationen**.
 
 ## <a name="related-topics"></a>Verwandte Themen
-
-[Einrichten von Anrufplänen](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
-
-[Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
-
-
+  
+[Einrichten von Anrufplänen](/microsoftteams/set-up-calling-plans)
+  
+[Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits)
+  
+  
+ 

@@ -19,18 +19,19 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Anrufer-ID kann mithilfe einer Richtlinie aufgerufen CallingLineIdentity für eingehende und ausgehende Anrufe für Benutzer Telefonsystem gesteuert werden.
-ms.openlocfilehash: a1a809805b96152e4b205c8f38b3c8409014eb55
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
-ms.translationtype: MT
+description: Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefonsystem-Benutzer eingestellt werden. Dazu verwenden Sie die Richtlinie „CallingLineIdentity".
+ms.openlocfilehash: 04ee6f0bc074318f30d0257e7466d2d2ec7262aa
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23778995"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
-Anrufer-ID kann mithilfe einer Richtlinie aufgerufen CallingLineIdentity für eingehende und ausgehende Anrufe für Benutzer Telefonsystem gesteuert werden.
+Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefonsystem-Benutzer eingestellt werden. Dazu verwenden Sie die Richtlinie „CallingLineIdentity".
   
-Die Anrufer-ID-Funktionalität ist für alle Telefonsystem Benutzer unabhängig von PSTN-Anbindung verfügbar:
+Die Funktionalität der Rufnummernanzeige ist für alle Telefonsystem-Benutzer verfügbar, unabhängig der PSTN-Konnektivität:
   
 - Online-PSTN-Anbindung
     
@@ -45,15 +46,15 @@ Die Anrufer-ID-Funktionalität ist für alle Telefonsystem Benutzer unabhängig 
 
 Für die ausgehende PSTN-Anrufer-ID sind drei Optionen verfügbar:
   
-- Die Telefonnummer für den Benutzer, die Standardeinstellung zugewiesen.
+- Die dem Benutzer zugewiesene Telefonnummer (Standardoption).
     
-- Eine Telefonnummer an, die als *Dienst* klassifiziert wird und *gebührenfreie* Nummer in Ihrer aufrufen plant in Office 365-Telefon nummerieren Inventar. Es ist normalerweise eine Organisationseinheit automatische Telefonzentrale oder ein Anruf Warteschlange zugewiesen.
+- Eine Telefonnummer, die als *Servicerufnummer* und *gebührenfreie* Nummer in Ihrem Nummernverzeichnis für Office 365-Anrufpläne klassifiziert ist. Sie wird normalerweise einer automatischen Telefonzentrale oder einer Anruf-Warteschleife Ihrer Organisation zugewiesen.
     
 - Auf „Anonym" festgelegt
     
 Die folgenden Arten von Telefonnummern können Sie jedoch nicht als ausgehende Anrufer-ID nicht zuweisen:
   
-- Alle Rufnummern, die als *Benutzer* in Ihrem Telefon aufrufen plant klassifiziert werden Zahl Inventar
+- Alle Telefonnummern, die in Ihrem Anrufplan-Telefonnummernbestand als  *Benutzer* klassifiziert sind
     
 - Lokale Skype for Business Server-Telefonnummern
     
@@ -61,33 +62,33 @@ Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festleg
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Steuerung der ausgehenden Anrufer-ID durch Endbenutzer
 
-Das Attribut EnableUserOverride kann einzelne oder mehrere Benutzer ihre Anrufer-ID-Einstellung auf **Anonym**zu ändern. Dies gilt nur, wenn eine Richtlinie CallingLineIdentity mit dem Parameter CallingIDSubstitute LineURI oder Ersatz konfiguriert ist. Der Standardwert der EnableUserOverride ist False.
+Mit dem Attribut EnableUserOverride können einzelne oder mehrere Benutzer ihre Anrufer-ID-Einstellung auf **Anonym** festlegen. Dies gilt nur, wenn eine CallingLineIdentity -Richtlinie mit dem CallingIDSubstitute -Parameter LineURI oder Substitute konfiguriert ist. Der Standardwert von EnableUserOverride lautet False.
   
-Endbenutzer können ihre Anrufer-ID mithilfe der Registerkarte **Weiterleiten Einstellungen für die** in der Skype für Business-Desktopclient auf **Anonym** festgelegt.
+Ihre Endbenutzer können ihre Rufnummernanzeige im Skype for Business-Desktop-Client über die Registerkarte **Einstellungen für die Anrufweiterleitung** auf **Anonym** festlegen.
   
 ||||
 |:-----|:-----|:-----|
 |**Windows** <br/> |**Version** <br/> |**Unterstützt** <br/> |
 |Klick-und-Los  <br/> |Aktueller Kanal, Veröffentlichung am 6. Dezember 2016 - Version 1611 (Build 7571.2072)  <br/> |Ja  <br/> |
 |Klick-und-Los  <br/> |First Release für verzögerten Kanal, Veröffentlichung am 22. Februar 2017 - Version 1701 (Build 7766.2060)  <br/> |Ja  <br/> |
-|Klick-und-Los  <br/> |Zurückgestellt Kanal veröffentlicht am 13 Juni 2017 - Version 1701 (Build 7766.2092)  <br/> |Ja  <br/> |
+|Klick-und-Los  <br/> |Veröffentlichung im verzögerten Kanal am 13. Juni 2017 - Version 1701 (Build 7766.2092)  <br/> |Ja  <br/> |
 |MSI  <br/> |Skype for Business  <br/> |Nein  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |Nein  <br/> |
    
 ## <a name="inbound-caller-id"></a>Eingehende Anrufer-ID
 
-Das Attribut BlockIncomingCallerID ermöglicht die Anrufer-ID auf eingehende PSTN-Anrufe zu blockieren. Können Sie dieses Attribut festgelegt, aber es ist nicht verfügbar für die Endbenutzer auf der Seite benutzereinstellungen. Außerdem ist das Attribut zurzeit nur für Online-PSTN-Anbindung verfügbar.
+Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Sie können dieses Attribut festlegen, für die Endbenutzer ist es jedoch auf der Seite mit den Benutzereinstellungen nicht verfügbar. Außerdem ist das Attribut zurzeit nur für Online-PSTN-Anbindung verfügbar.
   
 Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](set-the-caller-id-for-a-user.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

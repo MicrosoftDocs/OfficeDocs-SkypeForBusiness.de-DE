@@ -1,5 +1,5 @@
 ---
-title: Erstellen und Verwalten von Wähleinstellungen
+title: Erstellen und Verwalten von Wählplänen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,16 +19,17 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
-ms.openlocfilehash: 5390765db0d70acb789c6dcf4a2fd4dc488e613e
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
-ms.translationtype: MT
+description: 'Erfahren Sie, wie Sie Anrufwählpläne (PSTN-Anrufwählpläne) in Office 365 erstellen und sie verwalten. '
+ms.openlocfilehash: a0bbe698e348461d9f8295035e02afcb537eb503
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779288"
 ---
-# <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wähleinstellungen
+# <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
-Nachdem Sie Wähleinstellungen für Ihre Organisation geplant und herausgefunden, dass alle Normalisierungsregeln, die zum Weiterleiten von Anrufen erstellt werden müssen, müssen Sie mithilfe von Windows PowerShell Wählpläne erstellen und ändern Sie die Einstellung.
+Wenn Sie Wählpläne für Ihre Organisation geplant und alle Normalisierungsregeln ermittelt haben, die für die Anrufweiterleitung erstellt werden müssen, müssen Sie mithilfe von Remote-PowerShell die Wählpläne erstellen und gegebenenfalls Einstellungen ändern.
   
 > [!NOTE]
 > Das Skype for Business Admin Center können Sie nicht zum Erstellen und Verwalten von Wählplänen verwenden. 
@@ -37,7 +38,7 @@ Nachdem Sie Wähleinstellungen für Ihre Organisation geplant und herausgefunden
 
  **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -49,7 +50,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
   
  **Starten einer Windows PowerShell-Sitzung**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
@@ -64,7 +65,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
     Import-PSSession $session
   ```
 
-Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="creating-and-managing-your-dial-plans"></a>Erstellen und Verwalten Ihrer Wählpläne
 
@@ -150,7 +151,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Führen Sie Folgendes, wenn Sie auch untersuchen Sie die vorhandenen Normalisierungsregeln, bestimmen, welche Art Sie löschen möchten und klicken Sie dann den Index verwenden, um ihn entfernen möchten. Das Array von Normalisierungsregeln beginnt mit dem Index 0. Wir möchten entfernen Sie die Normalisierungsregel 3 Ziffern, also so Index 1.
+Führen Sie das folgende Skript aus, wenn Sie außerdem die vorhandenen Normalisierungsregeln überprüfen möchten, bestimmen möchten, welche gelöscht werden sollen, und dann die Normalisierungsregel mithilfe ihres Index entfernen möchten. Das Array der Normalisierungsregeln beginnt bei Index 0. Wir möchten die Normalisierungsregel für drei Stellen entfernen, das ist also Index 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -176,9 +177,9 @@ Führen Sie das folgende Skript aus, um alle Benutzer zu suchen, denen der Manda
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Führen Sie die folgenden Skripts aus, um den vorhandenen lokalen Wählplan „OPDP1" als Mandantenwählplan für Ihre Organisation hinzuzufügen. Sie müssen zuerst Speichern der lokalen Wähleinstellungen eine XML-Datei, und verwenden Sie es zum Erstellen der neuen Mandanten-Wählplans.
+Führen Sie die folgenden Skripte aus, um den vorhandenen lokalen Wählplan „OPDP1" als Mandantenwählplan für Ihre Organisation hinzuzufügen. Zuerst müssen Sie den lokalen Wählplan in einer XML-Datei speichern und dann mit dieser Datei den neuen Mandantenwählplan erstellen.
   
-Führen Sie diese Option, damit die Wähleinstellungen: lokal in der XML-Datei zu speichern.
+Führen Sie das folgende Skript aus, um den lokalen Wählplan in der XML-Datei zu speichern.
   
 ```
 $DPName = "OPDP1"
@@ -202,7 +203,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+- Bei Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -216,14 +217,14 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
   - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See Also
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a>Verwandte Themen
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
