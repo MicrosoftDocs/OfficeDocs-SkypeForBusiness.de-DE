@@ -19,19 +19,19 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Das Telefonsystem in Office 365 bietet eine Standard Anrufer-ID, die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Erfahren Sie mehr dazu, wie Sie die Anrufer-ID in Ihrer Organisation mithilfe der Wechsel zu verwenden, wie die Anrufer-ID in Ihrer Organisation verwendet werden kann.
-ms.openlocfilehash: a48edfd6f0b6967f1f9c628b415f781b8c4832c7
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
-ms.translationtype: MT
+description: Das Telefonsystem in Office 365 stellt eine Standard-Rufnummernanzeige zur Verfügung, die die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Rufnummernanzeige (auch Telefonnummer-ID genannt) für einen Benutzer ändern oder sperren. Weitere Informationen zur Verwendung der Rufnummernanzeige in Ihrer Organisation finden Sie unter "Wie kann die Rufnummernanzeige in Ihrer Organisation verwendet werden?".
+ms.openlocfilehash: cf6f1aab6f865a87186b7acb793e5aa7829907aa
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500853"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780817"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
-Das Telefonsystem in Office 365 bietet eine Standard Anrufer-ID, die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Erfahren Sie mehr über die Anrufer-ID in Ihrer Organisation verwenden, [wie kann Anrufer-ID werden in Ihrer Organisation verwendeten](how-can-caller-id-be-used-in-your-organization.md)zugreifen, indem.
+Die Telefonanlage in Office 365 stellt eine Standard-Rufnummernanzeige zur Verfügung, die die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Rufnummernanzeige (auch Anrufleitung-ID genannt) für einen Benutzer ändern oder sperren. Weitere Informationen zur Verwendung der Rufnummernanzeige in Ihrer Organisation finden Sie unter [Wie kann die Anrufer-ID in Ihrer Organisation verwendet werden](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
-> Sie können nicht für Business Online eingehende Anrufe, die derzeit in Skype blockieren. 
+> Sie können eingehende Anrufe derzeit in Skype for Business Online nicht blockieren. 
   
 Es gibt Einstellungen, die Sie ändern können:
   
@@ -43,27 +43,27 @@ Es gibt Einstellungen, die Sie ändern können:
     > [!NOTE]
     > Wenn Sie den Parameter  _Service_ verwenden möchten, müssen Sie eine gültige Dienstnummer festlegen.
   
-- **Block ihren ausgehenden Anrufer-ID** Sie können die ausgehende Anrufer-ID auf ausgehende PSTN-Anrufe des Benutzers gesendet werden blockieren. Dadurch wird die Anzeige der Telefonnummer am Telefon der angerufenen Person blockiert.
+- **Blockieren der ausgehenden Rufnummernanzeige** Sie können die ausgehende Rufnummernanzeige so blockieren, dass sie bei ausgehenden PSTN-Anrufen eines Benutzers nicht gesendet wird. Dadurch wird die Anzeige der Telefonnummer am Telefon der angerufenen Person blockiert.
     
-- **Blockieren Sie ihre eingehenden Anrufer-ID** Sie können einen Benutzer aus der Anrufer-ID auf eine beliebige eingehende PSTN-Anrufe empfangen blockieren.
+- **Blockieren der eingehenden Rufnummernanzeige**: Sie können blockieren, dass der Benutzer die Rufnummernanzeige bei eingehenden PSTN-Anrufen empfängt.
     
 > [!IMPORTANT]
-> Bei Notrufen wird immer die Telefonnummer des Benutzers (Anrufer-ID) gesendet. 
+> Bei Notrufen wird immer die Telefonnummer des Benutzers (Rufnummernanzeige) gesendet. 
   
 Standardmäßig sind alle diese Anrufer-ID-Einstellungen **deaktiviert**. Dies bedeutet, dass die Telefonnummer des Skype for Business Online-Benutzers zu sehen ist, wenn der Benutzer einen Anruf bei einem PSTN-Telefon tätigt.
   
 Weitere Informationen zu diesen Einstellungen und zu ihrer Verwendung finden Sie [Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation](how-can-caller-id-be-used-in-your-organization.md).
   
-## <a name="set-your-caller-id-policy-settings"></a>Festlegen Ihrer Anrufer-ID-Richtlinieneinstellungen
+## <a name="set-your-caller-id-policy-settings"></a>Festlegen Ihrer Rufnummernanzeigen-Richtlinieneinstellungen
 
 > [!NOTE]
-> Für alle Einstellungen für die Anrufer-ID in Skype für Business Online müssen Sie Windows PowerShell, und Sie **kann nicht verwendet werden** , der **Skype für Business Administrationscenter**verwenden. 
+> Für alle Rufnummernanzeigen-Einstellungen in Skype for Business Online müssen Sie Windows PowerShell verwenden, **nicht** das **Skype for Business Admin Center**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Überprüfen und Starten von Windows PowerShell
 
 - **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -75,7 +75,7 @@ Weitere Informationen zu diesen Einstellungen und zu ihrer Verwendung finden Sie
     
 - **Starten einer Windows PowerShell-Sitzung**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
@@ -98,49 +98,49 @@ Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modul
   Import-PSSession $session
   ```
 
-Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
-### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Anzeigen aller Anrufer-ID-Richtlinieneinstellungen in Ihrer Organisation
+### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Anzeigen aller Rufnummernanzeigen-Richtlinieneinstellungen in Ihrer Organisation
 
-- Um alle Richtlinie für die Anrufer-ID in Ihrer Organisation anzuzeigen, führen Sie Folgendes aus:
+- Zeigen Sie alle Rufnummernanzeigen-Richtlinieneinstellungen in Ihrer Organisation an, indem Sie Folgendes ausführen:
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-[Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx)finden Sie weitere Beispiele und Details.
+Weitere Beispiele und Details finden Sie im Artikel zu [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
     
-### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Erstellen einer neuen Anrufer-ID-Richtlinie für Ihre Organisation
+### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Erstellen einer neuen Rufnummernanzeigen-Richtlinie für Ihre Organisation
 
 
-- Zum Erstellen einer neuen Anrufer-ID-Richtlinie, die die Anrufer-ID auf anonymen festgelegt wird, führen Sie Folgendes aus:
+- Erstellen Sie eine neue Rufnummernanzeigen-Richtlinie, mit der die Rufnummernanzeige auf Anonym festlegt wird, indem Sie Folgendes ausführen:
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
   > [!NOTE]  
-  > In allen Fällen das Feld "Dienst" sollte nicht enthalten einen anfänglichen "+".
+  > In allen Fällen sollte das Feld "Servicenummer" kein "+" enthalten.
 
-  [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx)finden Sie weitere Beispiele und Details.
+  Weitere Beispiele und Details finden Sie im Artikel zu [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
-- Um die neue Richtlinie erstellten auf Amos Marmor anwenden möchten, führen Sie Folgendes aus:
+- Um die erstellte neue Richtlinie Amos Marble zuzuweisen, führen Sie Folgendes aus:
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Weitere Informationen finden Sie im Artikel zum [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx)-Cmdlet.
     
-Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das Cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) , die vorhandene Richtlinie zu ändern, und klicken Sie dann mit dem Cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) verwenden, um die Einstellungen für die Benutzer anzuwenden.
+Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt793854.aspx)-Cmdlet Änderungen an der vorhandenen Richtlinie vornehmen und dann mit dem [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt793857.aspx)-Cmdlet die Einstellungen auf die Benutzer anwenden.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Festlegen, dass die eingehende Anrufer-ID blockiert wird
 
-- Um die eingehenden Anrufer-ID zu blockieren, führen Sie Folgendes aus:
+- Blockieren Sie die eingehende Rufnummernanzeige, indem Sie Folgendes ausführen:
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx)finden Sie weitere Beispiele und Details.
+  Weitere Beispiele und Details finden Sie im Artikel zu [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
-- Zum Anwenden von einem Benutzer in Ihrer Organisation der richtlinieneinstellung, die Sie erstellt haben, führen Sie Folgendes aus:
+- Wenden Sie die erstellte Richtlinieneinstellung auf einen Benutzer in der Organisation an, indem Sie Folgendes ausführen:
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
@@ -161,11 +161,11 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen, wenn Sie viele Dinge zu tun haben. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Sechs Gründe für die Verwendung von Windows PowerShell zum Verwalten von Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Sechs Gründe für die Verwendung von Windows PowerShell zum Verwalten von Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell verfügt im Vergleich zur ausschließlichen Verwendung des Office 365 Admin Centers über viele Vorteile in puncto Geschwindigkeit, Einfachheit und Produktivität, beispielsweise wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
@@ -175,18 +175,17 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See Also
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+  
+ ## <a name="related-topics"></a>Verwandte Themen
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Mehr über Telefonnummer-ID und Name des Anrufers](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-  
- 
  
