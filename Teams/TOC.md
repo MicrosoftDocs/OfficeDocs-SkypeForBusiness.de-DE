@@ -105,25 +105,20 @@
 <!-- ============================================================ -->
 # Verwalten
 ## [Quality of Experience überprüfen Guide](quality-of-experience-review-guide.md)
-## Rufen Sie analytics
+## Monitor Anrufqualität und QoS
+### [QoS in Microsoft Teams](QoS-in-Teams.md)
+### [Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Einrichten von Anrufen Analytics](set-up-call-analytics.md)
 ### [Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [Datenstromklassifizierung im Anrufqualitäts-Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## Problembehandlung und Support
 ### [Bekannte Probleme für Microsoft Teams](Known-issues.md)
 ### [Supportressourcen für Microsoft Teams](support-resources.md)
 ### [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ### [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 ### [Überprüfen der Dienstintegrität für Teams](service-health.md)
-## Überwachen von Anrufqualität und QoS
-### [QoS in Microsoft Teams](QoS-in-Teams.md)
-### [Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md)
-### [Verwenden der Anrufanalyse für die Problembehandlung bei schlechter Anrufqualität in Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Datenstromklassifizierung im Anrufqualitäts-Dashboard](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 
