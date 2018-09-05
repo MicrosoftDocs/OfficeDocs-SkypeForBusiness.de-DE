@@ -1,5 +1,5 @@
 ---
-title: Richten Sie eine automatische Telefonzentrale Telefonsystem
+title: Einrichten einer automatischen Telefonzentrale für das Telefonsystem
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,194 +19,203 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Informationen Sie zum Einrichten und Testen von Telefonsystem (Cloud, PBX) automatische Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation. '
-ms.openlocfilehash: dae8dc68162944f6547615626d5e94912a99caf2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'Erfahren Sie wie Sie ein Telefonsystem (Cloud PBX) mit automatischer Telefonzentrale für die effiziente Anruf-Verwaltung in Ihrem Unternehmen einrichten und testen. '
+ms.openlocfilehash: fb35e36e7d59a3d47584fd15e592f68dd3ac4ae5
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780463"
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Richten Sie eine automatische Telefonzentrale Telefonsystem
+# <a name="set-up-a-phone-system-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale für das Telefonsystem
 
-Automatische Telefonzentralen können Personen, die in Ihrer Organisation anrufen, und navigieren Sie ein Menüsystem diese an die richtige Abteilung erhalten möchten, rufen Sie Warteschlange, Person, oder der Operator. Sie können eine automatische Telefonzentrale für Ihre Organisation mithilfe der Skype für Business-Verwaltungskonsole erstellen. Zum Erstellen einer neuen automatischen Telefonzentrale, wechseln zur **Anrufrouting** im linken Navigationsbereich, und wählen Sie **automatische Telefonzentralen** > **Hinzufügen**.
+Automatische Telefonzentralen sind sehr nützlich und ermöglichen Personen, die Ihr Unternehmen anrufen, die Navigation in einem Menüsystem. Dort können sie die richtige Abteilung, die Anrufwarteschleife, eine Person oder die Vermittlung erreichen. Im Skype for Business Admin Center können Sie eine automatische Telefonzentrale für Ihre Organisation erstellen. Um eine neue automatische Telefonzentrale zu erstellen, navigieren Sie auf der linken Seite auf die **Anrufweiterleitung** und wählen dann **Automatische Telefonzentralen** > **Neu hinzufügen** aus.
   
-Wenn Sie weitere Informationen zu automatischen Telefonzentralen finden möchten, finden Sie unter [Was Telefonsystem automatischen Telefonzentralen sind?](what-are-phone-system-auto-attendants.md)
+Wenn Sie weitere Informationen zu automatischen Telefonzentralen erhalten möchten, finden Sie diese unter [Was sind automatische Telefonzentralen für Telefonsysteme?](/microsoftteams/what-are-phone-system-auto-attendants)
   
 ## <a name="step-1---getting-started"></a>Schritt 1 - Erste Schritte
 
-- Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Nachdem Sie die gebührenpflichtige oder gebührenfreie Service Zahlen erhalten möchten, sie werden angezeigt, auf die **Skype für Business Administrationscenter** > **VoIP** > Seite**Rufnummern** . Um die Rufnummern Service erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen und die Microsoft-Teams](getting-service-phone-numbers.md)oder für Übertragung und vorhandenen Service-Nummer, finden Sie unter [Übertragen von Telefonnummern zu Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Wenden Sie sich außerhalb der USA, können Sie mithilfe der Skype für Business Administrationscenter Service Zahlen abrufen; Klicken Sie [hier](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) stattdessen.
+- Bevor Sie Ihre automatischen Telefonzentralen erstellen und einrichten können, müssen Sie zum Abrufen oder Übertragen Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Service-Nummern erhalten oder übertragen. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Nummern erhalten haben, werden diese auf der Seite **Skype for Business Admin Center** > **VoIP** > **Rufnummern** angezeigt. Um Ihre Service-Rufnummern zu erhalten, finden Sie eine Anleitung unter [Service-Rufnummern für Skype for Business und Microsoft-Teams anfordern](getting-service-phone-numbers.md). Wenn Sie jedoch vorhandene Service-Nummern auf Office 365 übertragen möchen, finden Sie weitere Einzelheiten unter [Übertragen von Telefonnummern auf Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**Benutzer- (Abonnenten-)** Nummern können automatischen Telefonzentralen nicht zugeordnet werden. Außerhalb der USA, wo Sie den Skype for Business Admin Center für die Vergabe von Service-Nummer nicht nutzen können, klicken Sie stattdessen bitte [hier](/microsoftteams/manage-phone-numbers-for-your-organization).
     
     > [!CAUTION]
-    > Zum Abrufen und gebührenfreien Telefonnummern verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie [Was sind Communications haben?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) und [Communications haben für Ihre Organisation einrichten](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md). 
+    > Um gebührenfreie Servicenummern zu erhalten müssen Sie Guthaben für Kommunikationen einrichten. Hierzu finden Sie eine Anleitung unter [Was sind Guthaben für Kommunikationen?](/microsoftteams/what-are-communications-credits) und [Einrichten von Guthaben für Kommunikationen in Ihrer Organisation](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-- Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die zugewiesen sind, wirkt sich auf die Anzahl der Dienst Zahlen, die für automatische Telefonzentralen zu verwendende verfügbar sind. Die Nummern der automatischen Telefonzentralen können Ihnen ist abhängig von die Zahlen **Telefonsystem** und **Audiokonferenzen** -Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zu Lizenzierung, klicken Sie [hier](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Ihre Organisation benötigt (mindestens) eine Enterprise E3 plus **Telefonsystem**-Lizenz oder eine E5 Enterprise-Lizenz. Die Anzahl der zugewiesenen Benutzerlizenzen für das **Telefonsystem** hat einen Einfluss die Anzahl der Servicenummern, die zur Verwendung für Anrufwarteschleifen verfügbar sind. Die Nummern der automatischen Telefonzentralen, die Ihnen zur Verfügung stehen, hängen von den Nummern des **Telefonsystems** und den Lizenzen für **Audiokonferenzen**, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zur Lizenzierung finden Sie [hier](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder Aufrufen in Office 365-Pläne ihnen zuweisen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
+    > Zum Umleiten von Anrufen an einen Vermittler oder eine Menüoption, die ein Online-Benutzer mit einer **Telefonsystem**-Lizenz ist, müssen Sie diese für Enterprise-VoIP aktivieren oder ihnen in Office 365 Anruf-Pläne zuweisen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Schritt 2 - Erstellen einer neuen automatischen Telefonzentrale
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
+
 
 Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > **Automatische Telefonzentralen** und dann auf **Neu hinzufügen**:
   
 ### <a name="edit-general-info-page"></a>Seite „Allgemeine Informationen bearbeiten"
   
-![New auto attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
+![Neue automatische Telefonzentrale, Seite 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>**Name** Geben Sie einen aussagekräftigen Anzeigenamen für die automatische Telefonzentrale. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten. Er wird in der Spalte **Name** der Registerkarte **Automatische Telefonzentralen** aufgeführt.
+![Nummer 1](../images/sfbcallout1.png)<br/>**Name**: Geben Sie einen aussagekräftigen Anzeigenamen für Ihre automatische Telefonzentrale ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten. Er wird in der Spalte **Name** der Registerkarte **Automatische Telefonzentralen** aufgeführt.
 ***
 
-![Nummer 2](../images/sfbcallout2.png)<br/>**Telefonnummer** Diese Einstellung ist optional. Wenn Sie möchten, wählen Sie eine Rufnummer für die automatische Telefonzentrale. Sie können auswählen, alle verfügbaren Service gebührenpflichtige oder gebührenfreie Telefonnummer, die Sie für Ihre Organisation müssen. Wenn keine Telefonnummern aufgeführt sind, müssen Sie sich eine gebührenpflichtige oder gebührenfreie Telefonnummer besorgen. [Hier](getting-service-phone-numbers.md) werden können. <br/> <br/>
+![Nummer 2](../images/sfbcallout2.png)<br/>**Telefonnummer** Diese Einstellung ist optional. Wenn Sie möchten, wählen Sie eine Rufnummer für die automatische Telefonzentrale. Sie können alle verfügbaren gebührenpflichtigen oder gebührenfreien Service-Rufnummern auswählen, die Sie in Ihrer Organisation haben. Wenn keine Telefonnummern aufgeführt sind, müssen Sie sich eine gebührenpflichtige oder gebührenfreie Telefonnummer besorgen.  [Hier klicken](getting-service-phone-numbers.md), um diese zu erhalten. <br/> <br/>
 
-    > [!Note]
-    > **User (subscriber)** numbers can't be assigned to auto attendants.
+> [!NOTE]
+> **Benutzer- (Abonnenten-)** Nummern können automatischen Telefonzentralen nicht zugeordnet werden.
+    
 ***
 ![Nummer 3](../images/sfbcallout3.png)<br/>**Zeitzone**: Sie müssen die Zeitzone für Ihre automatische Telefonzentrale festlegen. Die Zeitzone muss jedoch nicht der Zeitzone der für Ihre Organisation angegebenen Hauptadresse entsprechen. Sie können für jede automatische Telefonzentrale eine andere Zeitzone festlegen. Die Geschäftszeiten für die automatische Telefonzentrale werden basierend auf der Zeitzone festgelegt, die Sie hier auswählen.
 ***
-![14](../images/sfbcallout4.png)<br/>**Sprache**: Wählen Sie unter den aufgeführten verfügbaren Sprachen die Sprache aus, die Sie für die automatische Telefonzentrale verwenden möchten. Die Sprache, die Sie hier festlegen, wird die Sprache, die die automatische Telefonzentrale zum interagieren mit Personen, die diese automatische Telefonzentrale anrufen, und fordert das System werden in dieser Sprache wiedergegeben werden.
+![14](../images/sfbcallout4.png)<br/>**Sprache**: Wählen Sie unter den aufgeführten verfügbaren Sprachen die Sprache aus, die Sie für die automatische Telefonzentrale verwenden möchten. Die hier festgelegte Sprache wird von der automatischen Telefonzentrale für Interaktionen mit Anrufern verwendet, und in dieser Sprache werden auch alle Systemansagen wiedergegeben.
 ***
-![Zahl 5](../images/sfbcallout5.png)<br/>**Spracherkennung** Spracherkennung verfügbar ist und wenn diese Option ausgewählt ist. Personen, die in aufrufen können Spracheingaben in der Sprache, die Sie festlegen. Sie können die Spracherkennung deaktivieren, indem Sie es löschen, wenn Sie nur Personen, die ihre Telefontastatur verwenden können möchten.
+![Nummer 5](../images/sfbcallout5.png)<br/>**Spracherkennung**: Spracherkennung ist verfügbar, und wenn diese Option aktiviert ist, können Anrufer Spracheingaben in der von Ihnen festgelegten Sprache verwenden. Wenn die Anrufer nur die Wähltastatur ihres Telefons verwenden sollen, können Sie die Spracherkennung mit der Option deaktivieren.
 ***
-![Zahl 6](../images/sfbcallout6.png)<br/>**Operator**: Diese Einstellung ist optional und muss für die automatische Telefonzentrale nicht festgelegt werden. Sie können jedoch die Option **Operator** für die Personen festlegen, die im Unterbrechungsmodus außerhalb des Kontextmenüs an eine Person, die sie unterstützen sprechen können aufrufen. <br/> <br/> Die Taste „0" wird automatisch der Vermittlung zugewiesen. <br/> <br/> Wenn Sie dies festlegen, müssen Sie auch Personen mitteilen, die aufgerufen wird, insofern Dies ist eine verfügbare Option in den **Menüoptionen im bearbeiten** auf der Seite **Geschäftszeiten Behandlung aufrufen** . Wenn Sie einen Operator für die automatische Telefonzentrale festlegen, müssen Sie geben den entsprechenden Prompt Text im Feld **Anrufer hören** oder Ändern Ihrer Audiodatei, wenn Sie diese Option. Beispiel: „Drücken Sie ‚0', um mit der Vermittlung zu sprechen". <br/><br/>  Als Vermittlung können Sie Folgendes festlegen: 
-*    **Person in Ihrem Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder Aufrufen in Office 365-Pläne zugeordnet ist. <br/>
+![Nummer 6](../images/sfbcallout6.png)<br/>**Vermittler**: Diese Einstellung ist optional und muss für die automatische Telefonzentrale nicht festgelegt werden. Sie können die Option **Vermittler** jedoch festlegen, damit Anrufer die Menüs verlassen können, um mit einer Person zu sprechen und um Hilfe zu bitten. <br/> <br/> Die Taste „0" wird automatisch der Vermittlung zugewiesen. <br/> <br/> Wenn Sie diese Funktion einrichten, müssen Sie die Anrufer darauf hinweisen, dass diese Option unter **Menüoptionen bearbeiten** auf der Seite **Anrufbehandlung während der Geschäftszeiten** verfügbar ist. Wenn Sie für Ihre automatische Telefonzentrale eine Vermittlung festlegen, müssen Sie den entsprechenden Ansagetext in das Feld **Anrufer hören** eingeben oder Ihre Audiodatei ändern, um diese Option aufzunehmen. Beispiel: „Drücken Sie ‚0', um mit der Vermittlung zu sprechen". <br/><br/>  Als Vermittlung können Sie Folgendes festlegen: 
+*    **Person in Ihrem Unternehmen** mit einer **Telefonsystem**-Lizenz, die für Enterprise Voice aktiviert oder Anruf-Plänen in Office 365 zugeordnet ist. <br/>
 
         > [!Note] 
-        > **Person in Ihrem Unternehmen** kann es sich um ein Online-Benutzer oder ein Benutzer gehostet: lokal mit Skype für Business Server 2015 oder Lync Server 2013. Lync Server 2010 wird nicht unterstützt. <br/> 
+        > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. Der Lync Server 2010 wird nicht unterstützt. <br/> 
 
-*    Eine **Anrufwarteschleife**, die Sie eingerichtet haben 
-*    Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie **Person in Ihrem Unternehmen** aus, und legen Sie diese Person Anrufe an die Voicemail weitergeleitet werden. 
+*    Eine **Anrufwarteschleife**, die Sie eingerichtet haben. 
+*    Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus und legen die Anrufe dieser Person so fest, dass sie direkt an die Voicemail weitergeleitet werden. 
    
-### <a name="select-hours-of-operation-page"></a>Seite „Geschäftszeiten auswählen"
+### <a name="select-hours-of-operation-page"></a>Auswahl der Zeiten für die Vermittler-Seite
 
-Standardmäßig werden Geschäftszeiten auf 24 Stunden am Tag, 7 Tage die Woche festgelegt, damit alle Stunden Geschäftszeiten gelten. Der Stunden, die Bestandteil von Geschäftszeiten werden nicht alle gelten Geschäftszeiten. Wenn Sie die Option **Benutzerdefiniert** und Geschäftszeiten festlegen, wird eine neue Seite wird aufgerufen, **nachdem Stunden Behandlung aufrufen** , in dem Sie den Anruf behandeln für Geschäftszeiten für die automatische Telefonzentrale konfigurieren können hinzugefügt werden.
+Standardmäßig werden Geschäftszeiten auf 24 Stunden am Tag, 7 Tage die Woche festgelegt, damit alle Zeiten als Geschäftszeiten gelten. Alle Zeiten, die nicht innerhalb der Geschäftszeiten liegen, werden als außerhalb der Geschäftszeiten angesehen. Wenn Sie die Option **Benutzerdefiniert** auswählen und Ihre Geschäftszeiten festlegen, wird eine neue Seite **Anruf-Behandlung außerhalb der Geschäftszeiten** aufgerufen, die hinzugefügt wird und in der Sie die Anrufbehandlung außerhalb der Geschäftszeiten für die automatische Telefonzentrale konfigurieren können.
   
-![New auto attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
+![Neue Geschäftszeiten für die automatische Telefonzentrale.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>Wählen Sie die Option **Benutzerdefiniert** aus, um bestimmte Geschäftszeiten im Kalender auszuwählen. Wenn Sie **Benutzerdefiniert** auswählen, werden die Geschäftszeiten standardmäßig auf Montag bis Freitag von 9:00 Uhr bis 17:00 Uhr festgelegt. 
+![Nummer 1](../images/sfbcallout1.png)<br/>Wählen Sie die Option **Benutzerdefiniert** aus, um bestimmte Geschäftszeiten im Kalender auszuwählen. Wenn Sie **Benutzerdefiniert** auswählen, werden die Geschäftszeiten standardmäßig auf Montag bis Freitag von 9:00 Uhr bis 17:00 Uhr festgelegt.
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>Um Geschäftszeiten zu ändern, markieren Sie die Geschäftszeiten an, den, die Sie mit dem Kalender festlegen möchten. Im Kalender ermöglicht Ihnen die Auswahl von Geschäftszeiten in Abständen von 30 Minuten, und der Geschäftszeiten hier gewählte festgelegt basierend auf der Zeitzone, die Sie auf der Seite " **Allgemein"** festlegen. Um einen Umbruch (beispielsweise einer Mittagspause) einzurichten, deaktivieren, oder deaktivieren die Zeit im Kalender ziehen. Sie können mehrere Umbrüche innerhalb von Geschäftszeiten festlegen. 
+![Nummer 2](../images/sfbcallout2.png)<br/>Um Geschäftszeiten zu ändern, markieren Sie die Geschäftszeiten, die Sie einstellen möchten, im Kalender. Der Kalender ermöglicht Ihnen die Auswahl von Geschäftszeiten in Abständen von 30 Minuten, und die Geschäftszeiten, die Sie hier auswählen, werden entsprechend der Zeitzone eingestellt, die Sie auf der Seite „ **Allgemeine Daten“** festlegen. Um eine Pause (beispielsweise eine Mittagspause) einzurichten, deaktivieren, oder ziehen Sie zum Deaktivieren die Zeit im Kalender. Sie können innerhalb der Geschäftszeiten mehrere Pausen festlegen. 
    
-### <a name="select-business-hours-call-handling-page"></a>Auswählen von Geschäftszeiten Anruf Behandeln von Seite
+### <a name="select-business-hours-call-handling-page"></a>Auswählen von Geschäftszeiten aus der Seite für die Anruf-Behandlung
 
 > [!TIP]
 > Wenn Sie einen benutzerdefinierten Zeitplan für die Geschäftszeiten verwenden, müssen Sie auch die Anrufbehandlung außerhalb der Geschäftszeiten einrichten. Es wird eine Seite namens **Anrufbehandlung nach Geschäftsschluss** hinzugefügt, auf der Sie diese Optionen konfigurieren können. Dafür stehen die gleichen Optionen zur Verfügung wie für **Anrufbehandlung während der Geschäftszeiten**. 
   
-Begrüßungen, Ansagen und Menüs können, die es Benutzern eingerichtet werden, die während der Geschäftszeiten Anruf in Ihrer Organisation Auto attendant Telefonnummer hören kann.
+Sie können Begrüßungen, Anweisungen und Menüs einrichten, die Anrufer hören, die die Nummer der automatischen Telefonzentrale Ihrer Organisation während der Geschäftszeiten anrufen.
   
-![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
+![Anruf-Behandlung während der Geschäftszeiten.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>**Unternehmen Begrüßung** Begrüßung während der Geschäftszeit ist optional und kann auf **keine**festgelegt werden. In diesem Fall hören der Anrufer keine Meldung oder die Ansage, bevor der Anruf durch eine der Optionen verarbeitet wird, die Sie auswählen. Sie können auch Hochladen einer Audiodatei (im WAV-, MP3- oder WMA-Format) oder erstellen eine benutzerdefinierte Begrüßung Sprachausgabe verwenden.
-*    **None** Keine Ansage wird wiedergegeben werden, wenn Personen die automatische Telefonzentrale Telefonnummer anrufen.
-*    **Erstellen eines benutzerdefinierten Ansage** Wenn Sie diese Option auswählen, geben Sie den Text (bis zu 1000 Zeichen) gelesen werden soll. Beispielsweise können Sie eingeben, "Willkommen bei Contoso. Der Anruf ist wichtig für uns." im Feld **Anrufer hören** .
-*    **Hochladen einer Audiodatei** Wenn Sie diese Option wählen, tragen Sie die Begrüßung und anschließendes hochladen Sie der Audiodatei (im WAV-, MP3 oder WMA-Format).
+![Nummer 1](../images/sfbcallout1.png)<br/>**Begrüßung durch das Unternehmen:** Die Begrüßung während der Geschäftszeiten ist optional und kann auf **keine**festgelegt werden. In diesem Fall hört der Anrufer keine Meldung oder die Ansage, bevor der Anruf durch eine der Optionen verarbeitet wird, die Sie auswählen. Sie können auch eine Audiodatei hochladen (im WAV-, MP3- oder WMA-Format) oder eine benutzerdefinierte Begrüßung der Sprachausgabe verwenden.
+*    **Keine:** Wenn Personen die automatische Telefonzentrale unter dieser Telefonnummer anrufen, wird keine Ansage wiedergegeben.
+*    **Erstellen einer benutzerdefinierten Ansage:** Wenn Sie diese Option auswählen, geben Sie den Text (bis zu 1000 Zeichen) ein, der vom System gelesen werden soll. Beispielsweise können Sie „Willkommen bei Contoso, Ihr Anruf ist uns sehr wichtig“ im Feld **Anrufer hört** eingeben.
+*    **Hochladen einer Audiodatei:** Wenn Sie diese Option wählen, zeichnen Sie die Begrüßung auf und laden Sie anschließend Ihre Audiodatei hoch (im wav-, .mp3- oder .wma-Format).
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>Sie können auswählen, was geschieht, Anrufe, die während der Geschäftszeit eingehen. Sie können aus den folgenden Optionen wählen:
-*    **Verbindung trennen** Wenn Sie diese Option auswählen, werden die Person einwählen, getrennt nach einer Begrüßung während der Geschäftszeit hören.
-*    **Umleiten von Anrufen** Dies kann verwendet werden, um den Anruf an automatisch zu senden:
-     *    **Person in Ihrem Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder Aufrufen in Office 365-Pläne zugeordnet ist. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen **Person in Ihrem Unternehmen** aus, und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. <br/><br/>   
+![Nummer 2](../images/sfbcallout2.png)<br/>Sie können auswählen, was mit Anrufen geschieht, die während der Geschäftszeiten eingehen. Sie können aus den folgenden Optionen wählen:
+*    **Verbindung trennen:** Wenn Sie diese Option auswählen, wird die Verbindung der Anrufer nach einer Begrüßung mit Informationen zu den Geschäftszeiten getrennt.
+*    **Umleiten von Anrufen:** Dies kann verwendet werden, um den Anruf automatisch weiterzuleiten, an:
+     *    **Person in Ihrem Unternehmen** mit einer **Telefonsystem**-Lizenz, die für Enterprise Voice aktiviert oder Anruf-Plänen in Office 365 zugeordnet ist. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann direkt an die Voicemail weitergeleitet werden. <br/><br/>   
         > [!Note]
-        > **Person in Ihrem Unternehmen** kann es sich um ein Online-Benutzer oder ein Benutzer gehostet: lokal mit Skype für Business Server 2015 oder Lync Server 2013. Lync Server 2010 wird nicht unterstützt. <br/><br/>
+        > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. Der Lync Server 2010 wird nicht unterstützt. <br/><br/>
 
-     *    Eine **Warteschlange rufen Sie** mithilfe einer Warteschlange aufrufen können den Anruf an eine vorhandene aufrufen Warteschlange übertragen werden, die Sie eingerichtet haben.
-     *    Erstellen Sie eine zweite Ebene im Menü Optionen, die ein Untermenü enthält-Telefonzentrale eine andere **automatische Telefonzentrale** Sie eine vorhandene verwenden können. Diese werden geschachtelte Telefonzentralen bezeichnet.
-*    **Menü Optionen Aufforderung wiedergeben** Dies können auch dazu verwendet werden, bei denen Sie eine Aufforderung einrichten, die abgespielt werden soll.
+     *    Eine **Warteschlange:** Die Verwendung einer Warteschlange ermöglicht, dass ein Anruf in eine bestehende Anruf-Warteschlange weitergeleitet werden kann, die Sie einrichten müssen.
+     *    Weitere **automatische Telefonzentrale** Sie können eine bestehende automatische Telefonzentrale verwenden, um eine zweite Ebene von Menüoptionen zu erstellen, die ein untergeordnetes Teilmenü enthält. Diese werden als geschachtelte automatische Telefonzentralen bezeichnet.
+*    **Menü-Optionen Eingabe-Aufforderung wiedergeben** Diese können auch dazu verwendet werden, damit Sie eine Eingabe-Aufforderung einrichten können, die abgespielt werden soll.
 ***
 ![Nummer 3](../images/sfbcallout3.png)<br/>**Menü-Eingabeaufforderung**: Um eine Ansage für das Hauptmenü zu erstellen, können Sie Text-zu-Sprache verwenden oder eine Audiodatei (im WAV-, MP3- oder WMA-Format) hochladen. Sie können die Ansage in das Feld **Anrufer hören** eingeben oder eine Audiodatei aufzeichnen und zum Beispiel Folgendes sagen: „Drücken oder sagen Sie ‚1' für den Vertrieb. Drücken oder sagen Sie ‚2' für den Service. Drücken oder sagen Sie ‚3' für den Kundendienst. Drücken oder sagen Sie ‚0' für die Vermittlung. Um dieses Menü erneut zu hören, drücken Sie die Sterntaste, oder sagen Sie ‚Wiederholen'." **Eine benutzerdefinierte Aufforderung erstellen**: Wenn Sie diese Option ausgewählt haben, müssen Sie den Text eingeben, der vom System vorgelesen werden soll (maximal 1.000 Zeichen). **Eine Audio-Datei hochladen**: Wenn Sie diese Option ausgewählt haben, müssen Sie die Begrüßung aufzeichnen und dann Ihre Audiodatei (im WAV-, MP3- oder WMA-Format) hochladen.
 ***
-![Nummer 4](../images/sfbcallout4.png)<br/>**Wählen Sie nach Namen** Wenn Sie diese Option auswählen, können diese Personen, die in die Suche nach Personen in Ihrer Organisation mithilfe der Verzeichnissuche aufrufen. Sie können auswählen, welche Personen für die Namensanwahl als verfügbar oder nicht verfügbar aufgelistet werden, indem Sie diese Optionen auf der Seite **Wählbereich** einrichten. Jeder Benutzer online mit einer Lizenz **Telefonsystem** oder ein beliebiger Benutzer gehostet: lokal mit Skype für Business Server 2015 oder Lync Server 2013 finden Sie über DFÜ nach Namen.<br/><br/>  **Vorsicht:** Benutzer gehostet lokale Zugriffsnummer nach Namen mit Lync 2010 **nicht erreicht werden kann** .
+![Nummer 4](../images/sfbcallout4.png)<br/>**Nach Namen wählen**: Wenn Sie diese Option auswählen, können Anrufer mit der Verzeichnissuche nach Personen in Ihrer Organisation suchen. Sie können auswählen, welche Personen für die Namensanwahl als verfügbar oder nicht verfügbar aufgelistet werden, indem Sie diese Optionen auf der Seite **Wählbereich** einrichten. Jeder Online-Benutzer mit einer **Telefonsystem**-Lizenz oder ein beliebiger Benutzer der vor Ort gehostet wird und den Skype for Business Server 2015 oder den Lync Server 2013 verwenden, finden Sie unter nach Namen wählen.<br/><br/>  
+
+> [!WARNING]
+> Benutzer, die lokal gehostet werden und Lync 2010 verwenden, können mit nach Namen wählen **nicht erreicht werden**.
 ***
 
-![Zahl 5](../images/sfbcallout5.png)<br/>**Edit menu options** Menu options can be added or removed by using key buttons on the keypad. To add a menu option, press the corresponding key on the keypad. The keys in use will change in color and the corresponding row of options will appear below. Um eine Menüoption zu löschen, klicken Sie einfach auf den entsprechenden Schlüssel für die Tastatur-Steuerelement, um dieser Schlüssel deaktivieren. Die Zeile tastenzuordnung werden entfernt.<br/><br/>  **Tipp:** Sie müssen im Menü Ansagen Text aktualisieren oder erneut zeichnet separat beim Entfernen von Optionen, da dies automatisch für die Aufforderung zur vorhandenen Menü erfolgen wird nicht hinzugefügt.  <br/><br/>  Alle Menüoption hinzugefügt und in beliebiger Reihenfolge entfernt werden kann, und die tastenzuordnungen müssen nicht zusammenhängend sein. Es ist beispielsweise möglich, erstellen Sie ein Menü mit Tasten 0, 1 und 3 auf Optionen, zugeordnet werden, während die Taste 2 nicht verwendet wird.<br/><br/> 
+![Nummer 5](../images/sfbcallout5.png)<br/>**Menüoptionen Bearbeiten:** Die Menüoptionen können über die Tastatur hinzugefügt oder entfernt werden. Um eine Menüoption hinzuzufügen, drücken Sie die entsprechende Taste auf der Tastatur. The verwendeten Tasten ändern ihre Farbe und die entsprechende Optionszeile erscheint darunter. Um eine Menü-Option zu löschen, klicken Sie einfach auf die entsprechende Taste auf der Tastatursteuerung, um diese zu deaktivieren. Die Zeile der Tastenzuordnung wird entfernt.<br/><br/>  **Tipp:** Sie müssen den Text der Eingabe-Aufforderungen aktualisieren oder die Audio-Datei erneut separat aufzeichnen, wenn Sie Optionen hinzufügen oder entfernen, da dies bei der vorhandenen Menü-Anweisung nicht automatisch erfolgt.  <br/><br/>  Jede Menüoption kann in beliebiger Reihenfolge hinzugefügt und entfernt werden und die Tastenzuordnungen müssen nicht fortlaufend sein. Es ist beispielsweise möglich, ein Menü mit Tasten 0, 1 und 3 zu erstellen, die Optionen zugeordnet sind, während die Taste 2 nicht verwendet wird.<br/><br/> 
 
-    > [!Note] 
-    > The keys * (Repeat) and # (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands. <br/><br/>
+> [!NOTE]
+> Die Tasten * (Wiederholung) und # (zurück) werden vom System reserviert und können nicht neu zugewiesen werden. Wenn die Spracherkennung aktiviert wurde, entspricht * „Wiederholen“ und # entspricht den „Zurück“-Voice-Befehlen.
 
-Um Ihre Menüoptionen im eingerichtet werden, nachdem Sie den Schlüssel ausgewählt haben, müssen Sie: 
-- **Geben Sie den Namen der option** Dies kann bis zu 64 Zeichen lang sein und kann enthalten mehrere Wörter wie "Customer Service" oder "Vorgänge und Gründe." Wenn die Spracherkennung aktiviert ist, der Name automatisch erkannt wird und Person einwählen, sehen, drücken Sie entweder 3 können, sagen Sie "3" oder sagen Sie "Customer Service" aktivieren Sie die Option Schlüssel 3 zugeordnet. 
-- Der nächste Schritt besteht aus, in dem der Anruf ist gesendet werden, wenn die entsprechende Taste gedrückt wird, oder die Option mithilfe der Spracherkennung aktiviert ist. Der Anruf kann an gesendet werden: 
-    - **Operator** Wenn Operator bereits festgelegt ist, wird es automatisch Schlüssel 0 zugeordnet, jedoch können auch gelöscht oder einem anderen Schlüssel zugewiesen. Wenn Operator auf eine beliebige Taste, nicht festgelegt ist, wird zu der VoIP-Befehl "Operator" deaktiviert. 
-    - Eine **Person in Ihrem Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder ein Aufruf von planen in Office 365 zugeordnet ist. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen **Person in Ihrem Unternehmen** aus, und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden.<br/><br/> 
+
+Um Ihre Menüoptionen einzurichten, nachdem Sie die Taste(n) ausgewählt haben, müssen Sie: 
+- **Den Namen der Option eingeben** Dieser kann bis zu 64 Zeichen lang sein und mehrere Wörter enthalten, wie „Kundenservice“ oder „Vorgänge und Gründe“. Wenn die Spracherkennung aktiviert ist, wird der Name automatisch erkannt und der Anrufer kann entweder auf 3 drücken, „drei“ oder „Kundenservice“ sagen, um die der Taste 3 zugeordnete Option auszuwählen. 
+- Der nächste Schritt besteht darin, auszuwählen, wohin der Anruf nach Betätigung der entsprechenden Taste oder der Option, die mittels Spracherkennung ausgewählt wird, gesendet wird. Der Anruf kann gesendet werden an: 
+    - **Den Vermittler:** Wenn der Vermittler bereits eingerichtet wurde, wird dieser automatisch der Taste 0 zugeordnet, kann aber auch gelöscht oder einer anderen Taste zugeordnet werden. Wenn der Vermittler keiner Taste zugeordnet ist, wird auch der VoIP-Befehl „Vermittler“ deaktiviert. 
+    - **Einer Person in Ihrem Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder Anruf-Plänen in Office 365 zugeordnet ist. Sie können es so einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann direkt an die Voicemail weitergeleitet werden.<br/><br/> 
     
         > [!Note] 
-        > **Person in Ihrem Unternehmen** kann es sich um ein Online-Benutzer oder ein Benutzer gehostet: lokal mit Skype für Business Server 2015 oder Lync Server 2013. Lync Server 2010 wird nicht unterstützt. <br/><br/>
+        > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. Der Lync Server 2010 wird nicht unterstützt. <br/><br/>
 
-    - **Aufrufen der Warteschlange** Eine Anruf Queue-Option ermöglicht den Anruf an eine vorhandene Anruf Warteschlange übertragen werden, die Sie eingerichtet haben. 
-    - **Automatische Telefonzentrale** Eine vorhandene automatische Telefonzentrale können Sie eine zweite Ebene im Menü Optionen, die mit einem Untermenü erstellen. Diese werden geschachtelte Telefonzentralen bezeichnet.<br/><br/>
+    - Eine **Warteschlange:** Die Verwendung einer Warteschlange ermöglicht, dass ein Anruf in eine bestehende Anruf-Warteschlange weitergeleitet werden kann, die Sie eingerichtet haben. 
+    - **Automatische Telefonzentrale** Sie können eine bestehende automatische Telefonzentrale verwenden, um eine zweite Ebene von Menüoptionen zu erstellen, die ein untergeordnetes Teilmenü enthält. Diese werden als geschachtelte automatische Telefonzentralen bezeichnet.<br/><br/>
     
         > [!Note]
-        > Die **Geschäftszeiten** geschachtelte (oder der zweiten Ebene) automatische Telefonzentralen wird für die Anrufe von anderen Telefonzentralen, die bereits eingerichteten gesendete einschließlich auch verwendet werden.         
+        > Die **Geschäftszeiten** geschachtelter automatischer Telefonzentralen (oder mit zweiter Ebene) werden ebenfalls eingesetzt, einschließlich der Anrufe, die von anderen Telefonzentralen eingehen, die eingerichtet wurden.         
    
-### <a name="select-holidays-page"></a>Wählen Sie Feiertage Seite 
+### <a name="select-holidays-page"></a>Auswahl der Feiertags-Seite 
 
-Sie können jede automatische Telefonzentrale bis zu 20 geplanten Feiertage hinzufügen.
+Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
   
-![Einrichten von Feiertagen in die automatische Telefonzentrale](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
+![Einrichten von Feiertagen in der automatischen Telefonzentrale](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>**Fügen Sie einen Feiertag hinzu** Geben Sie einen Namen für die neue Feiertag im Feld **Name des Feiertags** ein.<br/><br/> Namen Feiertage können bis zu 64 Zeichen lang sein und müssen für die gleichen Telefonzentrale eindeutig sein. Angenommen, Sie zwei Feiertagen, die mit dem Namen "Danksagung für geleistete" in der gleichen Telefonzentrale nicht möglich.  
+![Nummer 1](../images/sfbcallout1.png)<br/>**Fügen Sie einen Feiertag hinzu** Geben Sie Ihrem neuen Feiertag im Feld **Name des Feiertags** einen Namen.<br/><br/> Feiertags-Namen können bis zu 64 Zeichen lang sein und müssen für die gleiche Telefonzentrale eindeutig sein. Beispielsweise können Sie in derselben automatischen Telefonzentrale keine zwei Feiertage mit dem Namen „Thanksgiving“ haben.  
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>**Feiertag Begrüßung** Die Feiertag Begrüßung ist optional und kann auf **keine**festgelegt werden. In diesem Fall hören der Anrufer keine Meldung oder die Ansage, bevor der Anruf durch eine der Optionen verarbeitet wird, die Sie auswählen. Sie können auch Hochladen einer Audiodatei (im WAV-, MP3- oder WMA-Format) oder erstellen eine benutzerdefinierte Begrüßung Sprachausgabe verwenden.
-*    **None** Keine Ansage wird wiedergegeben werden, wenn Personen die automatische Telefonzentrale Telefonnummer anrufen.
-*    **Erstellen eines benutzerdefinierten Ansage** Wenn Sie diese Option auswählen, geben Sie den Text (bis zu 1000 Zeichen) gelesen werden soll. Beispielsweise können Sie "Happy neues Jahr! eingeben. Unsere Büros sind derzeit geschlossen." im Feld **Anrufer hören** .
-*    **Hochladen einer Audiodatei** Wenn Sie diese Option wählen, Aufzeichnen der Grußformel Feiertag und anschließendes Hochladen der Audiodatei (im WAV-, MP3 oder WMA-Format).  
+![Nummer 2](../images/sfbcallout2.png)<br/>**Feiertags-Begrüßung** Die Feiertags-Begrüßung ist optional und kann auf **keine**festgelegt werden. In diesem Fall hört der Anrufer keine Meldung oder die Ansage, bevor der Anruf durch eine der Optionen verarbeitet wird, die Sie auswählen. Sie können auch eine Audiodatei hochladen (im WAV-, MP3- oder WMA-Format) oder eine benutzerdefinierte Begrüßung der Sprachausgabe verwenden.
+*    **Keine:** Wenn Personen die automatische Telefonzentrale unter dieser Telefonnummer anrufen, wird keine Ansage wiedergegeben.
+*    **Erstellen einer benutzerdefinierten Ansage:** Wenn Sie diese Option auswählen, geben Sie den Text (bis zu 1000 Zeichen) ein, der vom System gelesen werden soll. Beispielsweise können Sie „Frohes Neues Jahr!“, unsere Büros sind derzeit geschlossen“ im Feld **Anrufer hört** eingeben.
+*    **Hochladen einer Audiodatei:** Wenn Sie diese Option wählen, zeichnen Sie die Begrüßung auf und laden anschließend Ihre Audiodatei hoch (im wav-, .mp3- oder .wma-Format).  
 ***
-![Nummer 3](../images/sfbcallout3.png)<br/>**Was geschieht, nachdem die Begrüßung auf Anrufe?** Sie können auswählen, was geschieht, an die Anrufe, die während dieses Feiertag eingehen. Sie können aus den folgenden Optionen wählen:
-*    **Verbindung trennen** Die Person einwählen, werden nach dem hören der Ansage Feiertag getrennt.
-*    **Umleiten von Anrufen** Dies kann verwendet werden, um den Anruf an automatisch zu senden:
-     *    Eine **Person in Ihrem Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder Aufrufen in Office 365-Pläne zugeordnet ist. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen **Person in Ihrem Unternehmen**aus, und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. <br/><br/> 
+![Nummer 3](../images/sfbcallout3.png)<br/>**Was geschieht mit den Anrufen nach der Begrüßung?** Sie können auswählen, was mit den Anrufen geschieht, die während dieses Feiertags eingehen. Sie können aus den folgenden Optionen wählen:
+*    **Verbindung trennen** Die Verbindung des Anrufers wird getrennt, nachdem er die Feiertags-Nachricht gehört hat.
+*    **Umleiten von Anrufen:** Dies kann verwendet werden, um den Anruf automatisch weiterzuleiten, an:
+     *    Eine **Person in Ihrem Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder Anruf-Plänen in Office 365 zugeordnet ist. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann direkt an die Voicemail weitergeleitet werden. <br/><br/> 
      
          > [!Note] 
-         > **Person in Ihrem Unternehmen** kann es sich um ein Online-Benutzer oder ein Benutzer gehostet: lokal mit Skype für Business Server 2015 oder Lync Server 2013. Lync Server 2010 wird nicht unterstützt.<br/><br/>
+         > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. Der Lync Server 2010 wird nicht unterstützt.<br/><br/>
 
-     *    Eine **Warteschlange aufrufen** Weiterleitung des Anrufs an eine vorhandene Warteschlange aufrufen, die Sie eingerichtet haben.
-     *    Eine andere **automatische Telefonzentrale**, erstellen Sie eine zweite Ebene im Menü Optionen, die ein Untermenü enthält. Diese werden geschachtelte Telefonzentralen bezeichnet. <br/><br/>
+     *    Eine **Anruf-Warteschlange** zur Weiterleitung des Anrufs an eine vorhandene Anruf-Warteschlange, die Sie eingerichtet haben.
+     *    Eine andere **automatische Telefonzentrale** für die Erstellng einer zweiten Ebene von Menüoptionen, die ein untergeordnetes Teilmenü enthalten. Diese werden als geschachtelte automatische Telefonzentralen bezeichnet. <br/><br/>
      
          > [!Note]
-         > Standardmäßig werden alle während eines Zeitraums Feiertag eingehenden Anrufe festgelegt, trennen Sie nach der Ansage (falls vorhanden), müssen Sie eine Umleitung angeben, wenn ein anderes Verhalten ist erwünscht.
+         > Standardmäßig werden alle während eines Feiertags eingehenden Anrufe festgelegt, deren Verbindung nach der Ansage (falls vorhanden) getrennt wird, somit müssen Sie eine Umleitung angeben, wenn ein anderes Verhalten erwünscht ist.
 
 ***
-![Nummer 4](../images/sfbcallout4.png)<br/>**Wenn möchten Sie den Feiertag So starten und beenden?** Geben Sie den Anfangstermin Feiertag im Format mm/tt/jjjj, und wählen Sie dann eine Startzeit, Enddatum und Endzeit, wie in der Tabelle Datum Bereich dazu aufgefordert werden.<br/><br/>Sie können bis zu 10 verschiedene Datumsbereiche für einen Feiertag angeben. Sie könnten beispielsweise Datumsbereiche für Silvester Feiertage für bis zu 10 Jahre hinzufügen. Ein Feiertag kann mehrere Tage umfassen.<br/><br/>Zusätzliche hinzufügen Feiertag Datum Bereiche (zum Beispiel für das nächste Jahr), klicken Sie auf **einen anderen hinzufügen**, und geben Sie einen neuen Satz von Start- und Enddatum des Feiertags.<br/><br/>Geschachtelte Feiertage werden ebenfalls unterstützt. Beispielsweise könnten Sie mehrere Feiertage Zeitrahmen von einem "Feiertag Break-schachteln: 
-*    **Dezember 24 bis Januar 3:** "Happy Feiertage! Unsere Büros sind derzeit geschlossen. Es wird auf 4. Januar öffnen Sie es erneut."
-*    **Dezember 25:** "Fröhliche Weihnachten! Unsere Büros sind derzeit geschlossen. Es wird auf 4. Januar öffnen Sie es erneut."
-*    **1. Januar:** "Happy neues Jahr! Unsere Büros sind derzeit geschlossen. Es wird auf 4. Januar öffnen Sie es erneut."
+![Nummer 4](../images/sfbcallout4.png)<br/>**Wann möchten Sie, dass der Feiertag beginnt und wann soll er enden?** Geben Sie den Anfangstermin für den Feiertag im Format mm/tt/jjjj an und wählen Sie dann eine Startzeit, ein Enddatum und einen Endzeitpunkt, wenn Sie in der Tabelle Datumsbereich dazu aufgefordert werden.<br/><br/>Sie können bis zu 10 verschiedene Datumsbereiche für einen Feiertag angeben. Sie könnten beispielsweise Datumsbereiche für Silvester-Feiertage für bis zu 10 Jahre hinzufügen. Ein Feiertag kann mehrere Tage umfassen.<br/><br/>Um Feiertagen zusätzliche Datumsbereiche hinzuzufügen, (zum Beispiel für das nächste Jahr), klicken Sie auf **Einen weiteren hinzufügen** und geben Sie einen neuen Satz von Start- und Enddatum des Feiertags ein.<br/><br/>Geschachtelte Feiertage werden ebenfalls unterstützt. Beispielsweise könnten Sie mehrere Feiertage in einen Zeitrahmen „Feiertage“ ein: 
+*    **24. Dezember bis 03. Januar:** „Fröhliche Feiertage! Unsere Büros sind derzeit geschlossen. Ab dem 4. Januar sind wir wieder für Sie da.“
+*    **25. Dezember:** „Fröhliche Weihnachten! Unsere Büros sind derzeit geschlossen. Ab dem 4. Januar sind wir wieder für Sie da.“
+*    **1. Januar:** „Frohes neues Jahr! Unsere Büros sind derzeit geschlossen. Ab dem 4. Januar sind wir wieder für Sie da.“
    
-Nachdem Sie die automatische Telefonzentrale gespeichert haben, werden auf der Registerkarte **Feiertage** , in dem Sie bearbeiten, hinzufügen oder Ändern von Feiertag Einstellungen können Feiertage angezeigt.
+Nachdem Sie die automatische Telefonzentrale gespeichert haben, erscheinen Ihre Feiertage auf der Registerkarte **Feiertage**, auf der Sie die Einstellungen zu den Feiertagen bearbeiten, hinzufügen oder ändern können.
   
 ### <a name="select-dial-scope-page"></a>Seite „Wählbereich auswählen"
 
-Auf dieser Seite können Sie die Benutzer in Ihrer Organisation aufgelistet in Ihrem Verzeichnis und bereit zur Einwahl nach Name, wenn eine Person, die Aufrufe eingefügt werden Ihrer Organisation einrichten.
+Auf dieser Seite können Sie einrichten, welche Benutzer in Ihrer Organisation im Verzeichnis aufgeführt werden und für die Namensanwahl verfügbar sein sollen, wenn jemand bei der Organisation anruft.
   
-![Dial scope for searching with dial by name.](../images/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
+![Wahlumfang für die Suche mit Namensanwahl.](../images/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
   
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Für **Einschließen** gibt es zwei Optionen:
-*    **Alle Onlinebenutzer**: Wenn Sie diese Option verwenden, können alle Benutzer in Ihrer Organisation in eine Verzeichnissuche eingeschlossen werden. Alle Online-Benutzer mit einer Lizenz **Telefonsystem** als auch Benutzer gehostet: lokal mit Skype für Business Server 2015 oder Lync Server 2013, die Pläne Aufrufen in Office 365, haben aufgeführt. 
-*    **Benutzerdefinierte** Wenn Sie diese Option verwenden, Sie können für eine Gruppe von Office 365, Verteilerliste oder Sicherheitsgruppe an, die in Ihrer Organisation erstellt wurde, suchen, und Personen hinzugefügt in Office 365, Verteilerliste, oder Sicherheitsgruppe, die entweder **sind Online-Benutzer mit einem Telefon-Lizenz** oder gehostete lokalen Skype für die Business Server 2015 oder Lync Server 2013. Sie können mehrere Office 365-Gruppen, Verteilerlisten und Sicherheitsgruppen hinzufügen. <br/><br/> 
+*    **Alle Onlinebenutzer**: Wenn Sie diese Option verwenden, können alle Benutzer in Ihrer Organisation in eine Verzeichnissuche eingeschlossen werden. Alle Online-Benutzer mit einer **Telefonsystem**-Lizenz und auch lokal gehostete Benutzer, die den Skype for Business Server 2015 oder den Lync Server 2013 verwenden, die Anruf-Pläne in Office 365 haben, werden aufgeführt. 
+*    **Benutzerdefiniert:** Wenn Sie diese Option verwenden, können Sie nach einer Gruppe von Office 365, Verteilerliste oder Sicherheitsgruppe suchen, die in Ihrer Organisation erstellt wurde und nach Personen, die in Office 365, einerVerteilerliste, oder Sicherheitsgruppe hinzugefügt wurden und entweder **Online-Benutzer mit einer Telefon-Lizenz** oder lokal gehostete, die den Skype for Business Server 2015 oder Lync Server 2013 verwenden. Sie können mehrere Office 365-Gruppen, Verteilerlisten und Sicherheitsgruppen hinzufügen. <br/><br/> 
 
     > [!Caution]
-    > Lokale Benutzer aus der Bereitstellung von Lync Server 2010 wird nicht aufgeführt, wenn jemand das Verzeichnis mit Dial sucht nach Namen. 
+    > Lokale Benutzer aus der Bereitstellung des Lync Server 2010 werden nicht aufgeführt, wenn jemand das Verzeichnis mit Namensanwahl durchsucht. 
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>Verwenden die Option **ausschließen** , haben Sie zwei Optionen:
-*    **Keine**: Wenn Sie diese Option verwenden, werden keine Onlinebenutzer von der Verzeichnissuche ausgeschlossen.. 
-*    **Benutzerdefinierte** Wenn Sie diese Option verwenden, Sie können für eine Gruppe von Office 365, Verteilerliste oder Sicherheitsgruppe an, die in Ihrer Organisation erstellt wurde, suchen und alle Personen an diese Office 365 Gruppe Verteilerliste hinzugefügt oder Sicherheitsgruppen aus Verzeichnissuche ausgeschlossen. Sie können mehrere Office 365-Gruppen, Verteilerlisten und Sicherheitsgruppen hinzufügen. <br/><br/> 
+![Nummer 2](../images/sfbcallout2.png)<br/>Bei Verwendung der Option **Ausschließen** haben Sie zwei Optionen:
+*    **Keine**: Wenn Sie diese Option verwenden, werden keine Onlinebenutzer von der Verzeichnissuche ausgeschlossen. 
+*    **Benutzerdefiniert**: Wenn Sie diese Option verwenden, können Sie nach einer Office 365-Gruppe, Verteilerliste oder Sicherheitsgruppe suchen, die in Ihrer Organisation erstellt wurde. Alle Personen, die dieser Office 365-Gruppe, Verteilerliste oder Sicherheitsgruppe hinzugefügt wurden, werden von der Verzeichnissuche ausgeschlossen. Sie können mehrere Office 365-Gruppen, Verteilerlisten und Sicherheitsgruppen hinzufügen. <br/><br/> 
 
     > [!Caution]
-    > Lokale Benutzer aus der Bereitstellung von Lync Server 2010 wird nicht aufgeführt, wenn jemand das Verzeichnis mit Dial sucht nach Namen.          
+    > Lokale Benutzer aus der Bereitstellung des Lync Server 2010 werden nicht aufgeführt, wenn jemand das Verzeichnis mit Namensanwahl durchsucht.          
    
 > [!NOTE]
-> Es kann bis zu 36 Stunden für einen neuen Benutzer haben ihre Namen in das Verzeichnis, wenn ein Benutzer Einwahl verwendet nach Namen für die Spracherkennung dauern. 
+> Es kann bis zu 36 Stunden dauern, bis der Name eines neuen Benutzer im Verzeichnis aufgelistet wird, wenn jemand die Namensanwahl mit Spracherkennung verwendet. 
   
-Nachdem Sie alle erforderlichen Felder eingeben und richten Sie arbeiten mit Menüs und Optionen, klicken Sie auf **Speichern**.
+Wenn Sie alle erforderlichen Felder ausgefüllt und die Einstellungen in den Menüs und Optionen für die Anrufbehandlung vorgenommen haben, klicken Sie auf **Speichern**.
   
-## <a name="editing-and-testing-auto-attendants"></a>Bearbeiten und Testen von automatischen Telefonzentralen
+## <a name="editing-and-testing-auto-attendants"></a>Bearbeiten und Testen einer automatischen Telefonzentrale
 
-Wenn Sie Ihre automatische Telefonzentrale gespeichert haben, wird diese auf der Seite **Automatische Telefonzentralen** aufgeführt. Dadurch können Sie schnell einige Optionen anzuzeigen, die Sie nach oben, festgelegt haben, einschließlich Name, Rufnummer, Sprache und Status.
+Wenn Sie Ihre automatische Telefonzentrale gespeichert haben, wird diese auf der Seite **Automatische Telefonzentralen** aufgeführt. Auf diese Weise sehen Sie schnell einige der Optionen, die Sie eingerichtet haben, unter anderem den Namen, die Telefonnummer, die Sprache und den Zustand.
   
 Wenn Sie eine automatische Telefonzentrale ändern möchten, wählen Sie die automatische Telefonzentrale aus, und klicken Sie dann im Bereich Aktion auf **Bearbeiten**.
   
-Sie können einen Testanruf an die automatische Telefonzentrale auch schnell mithilfe der Schaltfläche **Testen** im Aktionsbereich platzieren.
+Sie können auch einen kurzen Testanruf an die automatische Telefonzentrale tätigen, indem Sie im Aktions-Bereich die Schaltfläche **Test** verwenden.
   
 ## <a name="want-to-know-more"></a>Möchten Sie mehr wissen?
 
@@ -218,20 +227,20 @@ Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden C
   
 ||| 
 |---|---|
-[Neue CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                                                      | [Neue CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                                              |
-| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                                                      | [Neue CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                                                           |
+[New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                                                      | [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                                              |
+| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                                                      | [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                                                           |
 | [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx)                                                                      | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps)       |
-| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                                                   | [Neue CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                                                  |
-| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                                                                 | [Neue CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                                              |
-| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [Neue CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                                                                  |
-| [Neue CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                                       | [Neue CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                                                                   |
-| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                                                     | [Neue CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                                               |
+| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                                                   | [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                                                  |
+| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                                                                 | [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                                              |
+| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                                                                  |
+| [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                                       | [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                                                                   |
+| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                                                     | [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                                               |
 | [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx)                                                     | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-| [Neue CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                                                      |  |   |
+| [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                                                      |  |   |
    
 ### <a name="more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 
-- In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Dinge zu tun haben. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -246,11 +255,11 @@ Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden C
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>See Also
-[Das bietet Ihnen das Telefonsystem in Office 365](here-s-what-you-get-with-phone-system.md)
+[Das bekommen Sie mit Telefonsystem in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
     
   
  
