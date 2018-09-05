@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Ägypten verfügbar.
-ms.openlocfilehash: cc2dec14b917227c0e33016afd6a67049c62953e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: acebd35da3c464e21554cc2c97b0090f1f92d2d5
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784742"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829282"
 ---
 # <a name="availability-in-egypt"></a>Verfügbarkeit in Ägypten
 
@@ -39,7 +39,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Nicht verfügbar  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikation haben  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 

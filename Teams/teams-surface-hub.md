@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246158"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829266"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft-Teams für die Fläche Hub
 ======================================
@@ -157,7 +157,7 @@ Diese Anweisungen sind für die Installation von Teams für Fläche Hub aus dem 
 Es gibt zwei Optionen für die Anruf- und Besprechungen Anwendung Standardrichtlinie konfigurieren: 
 
 - **Option 1**: Konfigurieren von über USB-Schlüssel. 
-- **Option 2**: über MDM wie InTune konfigurieren.
+- **Option 2**: über MDM wie Intune konfigurieren.
  
 ### <a name="option-1-configure-via-usb-key"></a>Option 1: Konfigurieren von über USB-Schlüssel 
  
@@ -180,9 +180,11 @@ Die Pakete finden Sie auf dieser [Seite herunterladen](https://1drv.ms/f/s!Arcnb
 9. Starten Sie das Fläche Hub-Gerät neu. 
 10. Nach dem Neustart des Geräts, sollten Sie möglicherweise die Teams app aus dem Bildschirm Start starten und teilnehmen an einer Besprechung aus dem Kalender. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2: Konfigurieren von über MDM wie InTune 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2: Konfigurieren von über MDM wie Intune 
 
-Verwenden Sie Folgendes, um die Anruf- und Besprechungen Anwendung Standardrichtlinie über InTune konfigurieren.
+Verwenden Sie Folgendes, um die Anruf- und Besprechungen Anwendung Standardrichtlinie über Intune konfigurieren.
+
+.
 
 |Einstellung   |Wert    |Beschreibung    |
 |----------|---------|---------|
