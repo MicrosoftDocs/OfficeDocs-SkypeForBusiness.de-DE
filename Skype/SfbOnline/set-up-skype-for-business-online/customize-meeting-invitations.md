@@ -1,5 +1,5 @@
 ---
-title: Anpassen von besprechungseinladungen
+title: Anpassen von Besprechungseinladungen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,55 +16,58 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: 'Skype-besprechungseinladungen mit Grafik Logos, Hilfe und rechtliche URLs und Fußzeilentext anpassen. '
-ms.openlocfilehash: f6c5c65c1f12010a6ee6cc625748dfa0287a856a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
-ms.translationtype: MT
+description: 'Passen Sie Skype-Besprechungseinladungen mit Grafiklogo-, Hilfe- und Rechts-URLs und Fußzeilentext an. '
+ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500554"
 ---
-# <a name="customize-meeting-invitations"></a>Anpassen von besprechungseinladungen
+# <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
-Als Administrator können Sie sicherstellen, dass alle Skype für Business besprechungseinladungen enthalten hilfreiche Informationen, die Ihre Benutzer benötigen möglicherweise, wie Links zu Support-Website und Haftungsausschluss, Ihr Firmenlogo und andere Text, den Sie einschließen möchten. 
+Als Administrator können Sie sicherstellen, dass alle Besprechungseinladungen für Skype for Business hilfreiche Informationen enthalten, die Ihre Benutzer möglicherweise benötigen. Dies kann Links zur Support-Website und dem Haftungsausschluss, Ihr Firmenlogo und anderen Text, den Sie einschließen möchten, umfassen. 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Tipps zum Erstellen eines Logos für Besprechungsanfragen
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Tipps zum Erstellen eines Logos für Besprechungseinladungen
 <a name="__top"> </a>
 
-1. Erstellen Sie ein Bild, das nicht mehr als 188 Pixel breit und 30 Pixel hoch ist (es ist sehr klein).
+1. Erstellen Sie ein Bild, dessen Breite 188 Pixel und Höhe 30 Pixel nicht überschreitet (es ist sehr klein).
     
-2. Speichern Sie das Bild wird im JPG-Format.
+2. Speichern Sie das Bild im JPG-Format.
     
-3. Speichern Sie das Bild in eine zentrale Stelle, die alle Benutzer in Ihrem Unternehmen zugreifen können, wie etwa eine Netzwerkfreigabe freigegebenen OneDrive for Business-Ordner, Ablage, usw..
+3. Speichern Sie das Bild an einem zentralen Speicherort, auf den alle Benutzer in Ihrem Unternehmen zugreifen können, beispielsweise in einer Netzwerkfreigabe, einem freigegebenen OneDrive for Business-Ordner, in Dropbox usw.
     
-    Jetzt können Sie es Ihrer besprechungseinladungen hinzufügen. Finden Sie unter den nächsten Schritten.
+    Jetzt können Sie es Ihren Besprechungseinladungen hinzufügen. Nachstehend finden Sie die nächsten Schritten.
     
-## <a name="customize-your-meeting-invitations"></a>Anpassen der besprechungseinladungen
+## <a name="customize-your-meeting-invitations"></a>Anpassen Ihrer Besprechungseinladungen
 <a name="__top"> </a>
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
-    
-2. Wählen Sie das Office 365 Administrationscenter **Admin zentriert** > **Skype für Unternehmen**.
-    
-3. Wählen Sie in der Skype für Business Administrationscenter **onlinebesprechungen**. 
-    
-4. Füllen Sie die folgenden Felder:
-    
-    ![Hier ist, was es wie beim Abschluss des Formulars zum Anpassen Ihrer besprechungseinladungen aussehen könnte.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
 
-   **Logo-URL:** Geben Sie die URL ein, in dem Ihr Logo gespeichert ist. Denken Sie daran, dass es in das JPG-Format sein muss! 
+1. Melden Sie sich mit Ihrem Firmen- oder Schulkonto bei Office 365 an.
+    
+2. Wählen Sie im Office 365 Admin Center **Admin Centers** > **Skype for Business**.
+    
+3. Wählen Sie im Skype for Business Admin Center **Online Besprechungen**. 
+    
+4. Füllen Sie die folgenden Felder aus:
+    
+    ![Sehen Sie hier ein Beispiel, wie Ihre Besprechungseinladungen aussehen könnte, nachdem Sie das Formular abgeschlossen haben.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+
+   **Logo-URL:** Geben Sie die URL ein, in dem Ihr Logo gespeichert ist. Denken Sie daran, dass es im JPG-Format sein muss! 
  
-   **Hilfe-URL:** Wenn Ihre Organisation eine Support-Website Personen umfasst zu wechseln, wenn sie Probleme haben sollen, geben Sie die URL hier. 
+   **Hilfe-URL:** Wenn Ihre Organisation über eine Support-Website verfügt, auf die Personen, wenn sie Probleme erleben, zugreifen sollen, dann geben Sie hier die URL ein. 
 
-   **Rechtlichen URL:** Wenn Ihre Organisation eine juristische Website Personen umfasst zu wechseln, wenn sie Probleme haben sollen, geben Sie die URL hier.
+   **Rechts-URL:** Wenn Ihre Organisation über eine juristische Website verfügt, auf die Personen mit rechtlichen Problemen zugreifen sollen, geben Sie die hier URL ein.
     
-   **Fußzeilentext:** Geben Sie eine nur-Text-Fußnote, die für Ihre Benutzer geeignet sind.  
+   **Fußzeilentext:** Geben Sie eine Nur-Text-Fußzeile ein, die für Ihre Benutzer angemessen ist.  
   
    
 5. Klicken Sie auf **Speichern**.
     
-6. Warten Sie eine Stunde oder, damit die Änderungen in allen Office 365-Diensten aufgefüllt abrufen. Wechseln Sie zu Outlook und Planen einer Besprechung Skype können Sie sehen Ihre Änderungen aussehen. 
+6. Warten Sie etwas eine Stunde, damit die Änderungen in allen Office 365-Diensten gefüllt werden. Wechseln Sie zu Outlook und planen Sie eine Skype-Besprechung, um zu prüfen, wie Ihre Änderungen aussehen. 
     
-    ![Hier ist wie einer Einladung zu eine benutzerdefinierte, ohne die Grafik aussieht](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![So sieht eine benutzerdefinierte Einladung ohne Grafik aus](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>Verwandte Themen
 <a name="__top"> </a>
