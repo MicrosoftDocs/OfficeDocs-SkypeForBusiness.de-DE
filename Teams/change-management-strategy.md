@@ -1,19 +1,20 @@
 ---
-title: "Erstellen einer Change Management-Strategie für Microsoft Teams"
+title: Erstellen einer Change Management-Strategie für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Hier erfahren Sie, wie Sie durch die Identifizierung von wichtigen Beteiligten, Geschäftsergebnissen und Erfolgskennzahlen sowie das Management Ihrer Initiative eine Change Management-Strategie für Microsoft Teams erstellen."
+description: Hier erfahren Sie, wie Sie durch die Identifizierung von wichtigen Beteiligten, Geschäftsergebnissen und Erfolgskennzahlen sowie das Management Ihrer Initiative eine Change Management-Strategie für Microsoft Teams erstellen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73fa7f0decc5080166e85049bb7619b9b3c29ad5
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: 17fad2be5fdd25df6708c806dc7cd40e19a066b4
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843877"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 =======================================================
@@ -140,7 +141,7 @@ Wie bei jeder Kommunikations- und Einführungsinitiative sollten Sie Ihre Erfolg
 
 Dem Projektteam sollten IT-Administratoren aus Ihrer Organisation angehören. Diese Personen haben Zugriff auf die Nutzungsberichte für Microsoft Teams, die im Office 365-Verwaltungsportal zur Verfügung stehen. Diese Informationen können Aufschluss über die Nutzung von Microsoft Teams in Ihrer Firma geben. Wir empfehlen auch, direktes Feedback von den Benutzern einzuholen: Wie beurteilen sie ihre Erfahrungen mit Microsoft Teams? Haben sie Ideen für weitere Verwendungsmöglichkeiten? Die Weitergabe dieser Beispiele aus der Praxis in Ihrer eigenen Firma ist äußerst wertvoll, um im Lauf der Zeit nachhaltige Veränderungen in Ihrer Benutzercommunity zu erreichen.  
 
-Weitere Informationen zu den Microsoft Teams-Nutzungsberichten im Office 365-Verwaltungsportal finden Sie [hier](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524).
+Weitere Informationen zu den Microsoft Teams-Nutzungsberichten im Office 365-Verwaltungsportal finden Sie [hier](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524).
 
 > [!TIP]
 > Nutzen Sie Ihr öffentliches Team oder Ihre Yammer-Community, um sich Einblicke in die Nutzung zu verschaffen. Teilen Sie sie mit dem Tag #TeamsStories, sodass sie leicht abgerufen werden können.  Machen Sie jeden Monat mit #TeamsStories in Ihrem Intranet auf Mitarbeiter aufmerksam, die die Veränderungen annehmen, um die Produktivität und Zusammenarbeit in Ihrer Umgebung zu verbessern.  

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten.
-ms.openlocfilehash: 2ab4a7dc64cd08f2f7421f1ba6672892d879abd0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3b9c6e11f0f086191a9aae72e56edb1af31027c3
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784886"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848585"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenz
 
@@ -85,11 +85,11 @@ Die maximale Länge ist von den Teilnehmern der Besprechung und der Art der Auth
 
 Audiokonferenzen kann bis zu 250 Telefon Teilnehmer.
   
-Unter [Beschränkungen für Skype for Business Online](https://technet.microsoft.com/en-us/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits) finden Sie weitere Informationen zu Beschränkungen für Besprechungen.
+Unter [Beschränkungen für Skype for Business Online](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits) finden Sie weitere Informationen zu Beschränkungen für Besprechungen.
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Warum starten Benutzer empfangen von e-Mails mit ihren Audiokonferenzen Informationen?
 
-Wir haben ein neues Feature, mit das Sie die [Admin](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), kann zum Senden und Aktualisieren von Audiokonferenzen Informationen und PIN in e-Mail hinzugefügt. Erfahren Sie mehr über angezeigt wird, sowie zum deaktivieren, [Aktivieren oder Deaktivieren der sendenden-e-Mails Wenn Audiokonferenzen Einstellungen in Microsoft-Teams, ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) oder [Aktivieren oder deaktivieren Sie e-Mails senden, wenn Audiokonferenzen Einstellungen in Skype für Unternehmen ändern Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+Wir haben ein neues Feature, mit das Sie die [Admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), kann zum Senden und Aktualisieren von Audiokonferenzen Informationen und PIN in e-Mail hinzugefügt. Erfahren Sie mehr über angezeigt wird, sowie zum deaktivieren, [Aktivieren oder Deaktivieren der sendenden-e-Mails Wenn Audiokonferenzen Einstellungen in Microsoft-Teams, ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) oder [Aktivieren oder deaktivieren Sie e-Mails senden, wenn Audiokonferenzen Einstellungen in Skype für Unternehmen ändern Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>Kann Audiokonferenzen von den Benutzern werden verwendet, die Teil einer lokalen Bereitstellung von Skype für Business Server 2015 sind?
 
@@ -105,14 +105,14 @@ Unterstützung für Audiokonferenzen zur Teilnahme an einer Besprechung übertra
   
 ## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Können Benutzer während einer Besprechung Hilfe von der Vermittlung in Anspruch nehmen?
 
-Nein, kein Benutzer Vermittlung erhalten oder support durch Drücken von * 0 während der Besprechung. Wenn Probleme mit der Audiokonferenz vorhanden sind, kann ein Administrator für eine Organisation [Microsoft support für Office 365](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)wenden.
+Nein, kein Benutzer Vermittlung erhalten oder support durch Drücken von * 0 während der Besprechung. Wenn Probleme mit der Audiokonferenz vorhanden sind, kann ein Administrator für eine Organisation [Microsoft support für Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)wenden.
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>Wie können Benutzer auf ihre Konferenz-ID zugreifen oder diese ändern?
 
 Eine Skype für Business oder Microsoft-Teams, Benutzer kann die Konferenz-ID suchen, die ihnen zugewiesen ist, durch das Planen einer Besprechung in Outlook und Outlook im Web. Darüber hinaus können Benutzer die Konferenz-ID in der e-Mail suchen, die Ihnen gesendet wird, nachdem sie eingerichtet werden.
   
 > [!NOTE]
-> Benutzer können ihre Konferenz-ID nicht zurücksetzen. Die Konferenz-ID kann nur von Ihnen, die [Admin](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), für die Organisation zurückgesetzt werden. 
+> Benutzer können ihre Konferenz-ID nicht zurücksetzen. Die Konferenz-ID kann nur von Ihnen, die [Admin](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), für die Organisation zurückgesetzt werden. 
   
 Wir eine Lösung arbeiten an, die den Benutzerzugriff lassen und Zurücksetzen eine Konferenz-ID ohne Hilfe eines Unternehmens Admin.
   

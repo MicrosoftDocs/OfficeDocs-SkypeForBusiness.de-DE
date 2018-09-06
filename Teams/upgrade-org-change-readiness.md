@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36285914ac90517f54b50bb357a21822c5423f25
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc58842ce4b5ce942d3334e79af35e19664bd6c6
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242666"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848641"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -68,7 +68,7 @@ Verwenden Sie die folgenden Unterhaltung Starter Durchführen einer Bewertung de
 
 
 > [!Tip]
-> Tragen Sie Ihre frühen Übernahmen für Ihre Pilottests dient nicht nur als Peer Champions. Champions Hilfe Wechsels bekannt neuen Technologie und führen anhand eines Beispiels zu Kollegen veranschaulichen nutzen. Weitere Informationen zum Erstellen eines Programms formelle Champions finden Sie im [Handbuch für Office Annahme](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Ihre Nachzügler möglicherweise weitere überzeugende, bevor sie eine neue Technologie einführen. Wenn mehr als 20 Prozent Ihrer Organisation in dieser Zelle fällt, mehr Zeit zum kommunizieren, dass der Wert für messaging und Bereitstellung von Schulungen zugeschnitten. Darüber hinaus unterstützen sie durch die Änderung durch eine Feedbackschleife, um besser zu verstehen und beheben ihre Hesitations öffnen.
+> Tragen Sie Ihre frühen Übernahmen für Ihre Pilottests dient nicht nur als Peer Champions. Champions Hilfe Wechsels bekannt neuen Technologie und führen anhand eines Beispiels zu Kollegen veranschaulichen nutzen. Weitere Informationen zum Erstellen eines Programms formelle Champions finden Sie im [Handbuch für Office Annahme](https://fto365dev.blob.core.windows.net/media/Default/DocResources/Office_365_Adoption_Guide.pdf). Ihre Nachzügler möglicherweise weitere überzeugende, bevor sie eine neue Technologie einführen. Wenn mehr als 20 Prozent Ihrer Organisation in dieser Zelle fällt, mehr Zeit zum kommunizieren, dass der Wert für messaging und Bereitstellung von Schulungen zugeschnitten. Darüber hinaus unterstützen sie durch die Änderung durch eine Feedbackschleife, um besser zu verstehen und beheben ihre Hesitations öffnen.
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>Wie viel Prozent der Benutzer fallen in jedem Competency?
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835007"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848617"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
 
@@ -37,9 +37,9 @@ Microsoft bietet auch all-in-Cloud-VoIP-Lösungen, wie etwa aufrufen planen.  Je
 - Ihre Organisation erfordert Verbindung zu analogen Geräten von Drittanbietern Callcentern und So weiter. 
 - Ihre Organisation hat einen vorhandenen Vertrag mit einem PSTN-Betreibers.
 
-Direktes Routing unterstützt auch Benutzer, die zusätzliche Lizenz für die Microsoft aufrufen planen müssen. Weitere Informationen finden Sie unter [Aufrufen in Office 365-Pläne](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) und [Lizenzierung sowie zu weiteren Anforderungen](#licensing-and-other-requirements). 
+Direktes Routing unterstützt auch Benutzer, die zusätzliche Lizenz für die Microsoft aufrufen planen müssen. Weitere Informationen finden Sie unter [Aufrufen in Office 365-Pläne](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) und [Lizenzierung sowie zu weiteren Anforderungen](#licensing-and-other-requirements). 
 
-Mit direktem Routing Wenn Benutzer an einer geplanten Konferenz teilnehmen wird die Einwahlnummer vom Microsoft-Audiokonferenzen-Dienst bereitgestellt die entsprechenden Lizenzen erforderlich sind.  Beim wählen, platziert der Dienst Microsoft Audiokonferenzen den Anruf mithilfe der aufrufende Onlinefunktionen, der entsprechenden Lizenzen erforderlich sind. (Beachten Sie, dass die Telefonverbindung über direkte Weiterleitung nicht weitergeleitet wird.) Weitere Informationen finden Sie unter [Besprechungen mit Teams](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions). 
+Mit direktem Routing Wenn Benutzer an einer geplanten Konferenz teilnehmen wird die Einwahlnummer vom Microsoft-Audiokonferenzen-Dienst bereitgestellt die entsprechenden Lizenzen erforderlich sind.  Beim wählen, platziert der Dienst Microsoft Audiokonferenzen den Anruf mithilfe der aufrufende Onlinefunktionen, der entsprechenden Lizenzen erforderlich sind. (Beachten Sie, dass die Telefonverbindung über direkte Weiterleitung nicht weitergeleitet wird.) Weitere Informationen finden Sie unter [Besprechungen mit Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Planung der Bereitstellung von direkten Routing ist Schlüssel für eine erfolgreiche Implementierung. In diesem Artikel wird beschrieben, Infrastruktur und lizenzanforderungen und Informationen zu SBC-Konnektivität: 
 
@@ -62,15 +62,15 @@ Anforderungen an die Infrastruktur für die unterstützten SBCs, Domänen und an
 |Verbunden mit dem SBC Telefonie-trunks|Einen oder mehrere Telefonie-Trunks mit den SBC verbunden ist. An einem Ende verbindet der SBC mit der Microsoft-Telefonsystem über direkte Routing. Der SBC kann auch Verbinden mit Drittanbieter-Telefonie-Entitäten wie Nebenstellenanlagen, Analog Telefonie Adapter, und so weiter. Jeder PSTN-Konnektivitätsoption verbunden mit dem SBC funktioniert. (Hinweis: die PSTN-Trunks mit SBC konfiguriert ist, finden Sie in den SBC Lieferanten oder Trunk-Anbieter.)|
 |Office 365-Mandanten|Ein Office 365-Mandanten, mit denen Sie Ihre Benutzer Microsoft-Teams, und die Konfiguration und Verbindung mit den SBC (privat).|
 |Benutzer-Registrierung|Benutzer muss in Office 365, verwaltet werden.<br/>Sie können VoIP in Teams für einen Benutzer nicht aktivieren, wenn Ihr Unternehmen über eine lokale Skype für Business oder Lync-Umgebung mit hybridkonnektivität zu Office 365 verfügt, lokalen verwaltet.<br/><br/>Um die Registrierung eines Benutzers zu überprüfen, verwenden Sie die folgenden Skype für Business Online-PowerShell-Cmdlet aus:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Die Ausgabe des Cmdlets sollte angezeigt werden:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domänen|Eine oder mehrere Domänen in Ihrer Office 365-Mandanten.<br/><br/>**Hinweis:** Die Standarddomäne kann nicht verwendet werden *. "onmicrosoft.com" dargestellt, die für Ihre Mandanten automatisch erstellt wird.<br/><br/>Um die Domänen anzuzeigen, können Sie die folgenden Skype für Business Online-PowerShell-Cmdlets verwenden:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Weitere Informationen zu Domänen und Office 365-Mandanten finden Sie unter [Häufig gestellte Fragen zu Domänen](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domänen|Eine oder mehrere Domänen in Ihrer Office 365-Mandanten.<br/><br/>**Hinweis:** Die Standarddomäne kann nicht verwendet werden *. "onmicrosoft.com" dargestellt, die für Ihre Mandanten automatisch erstellt wird.<br/><br/>Um die Domänen anzuzeigen, können Sie die folgenden Skype für Business Online-PowerShell-Cmdlets verwenden:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Weitere Informationen zu Domänen und Office 365-Mandanten finden Sie unter [Häufig gestellte Fragen zu Domänen](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Öffentliche IP-Adresse für den SBC|Eine öffentliche IP-Adresse, die Verbindung mit dem SBC verwendet werden können. Basierend auf den Typ des SBC, kann der SBC NAT verwenden.|
 |Vollqualifizierter Domänenname (FQDN) für den SBC|Der FQDN für den SBC, wobei der Domänenteil der den FQDN eines registrierten Domänen in Office 365-Mandanten ist. Weitere Informationen finden Sie unter [SBC-Domänennamen](#sbc-domain-names).|
 |Öffentlichen DNS-Eintrag für den SBC |Einen öffentlichen DNS-Eintrag der öffentlichen IP-Adresse den FQDN SBC zuordnen. |
 |Öffentliche vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für die SBC für die gesamte Kommunikation mit direktem Routing verwendet werden soll. Weitere Informationen finden Sie unter [Öffentliche vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc).|
 |Verbindungspunkte zum direkten weiterleiten |Die Verbindungspunkte für direkte Routing sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globale FQDN muss zuerst getestet werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundären FQDN, ordnet geografisch die zweite Region Priorität.<br/>`sip3.pstnhub.microsoft.com`– Tertiäre FQDN, ordnet geografisch die dritte Priorität Region.<br/><br/>Informationen zu konfigurationsanforderungen, finden Sie unter [SIP-Signale: FQDNs und Firewallports](#sip-signaling-fqdns-and-firewall-ports).|
-|Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+|Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
 |Media Transport-Profil|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Lizenzierung und sonstige Anforderungen 
@@ -95,9 +95,9 @@ Direktes Routing unterstützt auch Benutzer, die für Microsoft aufrufen planen 
 
 Mischen von Aufrufen planen und direkte Routing-Konnektivität für den gleichen Benutzer kann ist optional, jedoch sinnvoll sein, beispielsweise, wenn der Benutzer Microsoft aufrufen planen zugeordnet ist, jedoch einige Anrufe über den SBC weiterleiten möchte. Eines der gängigsten Szenarien sind Aufrufe von Drittanbieter-PBX-Anlagen.  Mit Drittanbietern Nebenstellenanlagen werden alle Anrufe, mit Ausnahme von Anrufen an die Telefone mit diesem Nebenstellenanlagen verbunden über Microsoft aufrufen planen weitergeleitet; jedoch Anrufe an die Telefone mit Drittanbieter-PBX-Anlagen verbunden an den SBC daher bleiben innerhalb des Unternehmensnetzwerks und nicht an das Telefonfestnetz. 
 
-Weitere Informationen zur Lizenzierung Telefonsystem finden Sie unter [Optimieren Sie die Nutzung von Office mit Office 365](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2) und [Planen von Office 365-Produkten](https://technet.microsoft.com/en-us/library/office-365-plan-options.aspx). 
+Weitere Informationen zur Lizenzierung Telefonsystem finden Sie unter [Optimieren Sie die Nutzung von Office mit Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) und [Planen von Office 365-Produkten](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-Weitere Informationen zur Lizenzierung Telefonsystem finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+Weitere Informationen zur Lizenzierung Telefonsystem finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
 
 ## <a name="sbc-domain-names"></a>SBC-Domänennamen
 

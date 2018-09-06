@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464b8089c8310f7b449804ebfacc00dac383f7b5
-ms.sourcegitcommit: b0aca7e2aea5b2606ad24a6d93c31f441f3184f5
+ms.openlocfilehash: 4483bd8e86315c3ff8386e10cd46b6a37043240b
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "21343366"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848601"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -84,7 +84,7 @@ Telefonsystem bewirkt, dass alle Benutzer in Ihrer Organisation eine eindeutige 
 
 Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt.
 
-Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung muss aktiviert sein. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung muss aktiviert sein. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
 
 Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Einrichten von Voicemail Telefonsystem](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail).
 
@@ -100,9 +100,9 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 > | Emily Braun      | Online               | Ja                   | Aktiviert                     | Aktiviert                                       |
 > | Lidia Holloway   | Online               | Ja                   | Aktiviert                     | Deaktiviert                                      |
 > | Louis Lahr       | Lokal          | Ja                   | Aktiviert                     | Aktiviert                                       |
-> | Marcel Beauchamp | Lokal          | Ja                   | Deaktiviert                    | -                                           |
-> | Rachelle Cormier | Online               | Ja                   | Deaktiviert                    | -                                           |
-> | Isabell Potvin   | Lokal          | Ja                   | Deaktiviert                    | -                                           |
+> | Marcel Beauchamp | Lokal          | Ja                   | Deaktiviert                    | n/v                                           |
+> | Rachelle Cormier | Online               | Ja                   | Deaktiviert                    | n/v                                           |
+> | Isabell Potvin   | Lokal          | Ja                   | Deaktiviert                    | n/v                                           |
 
 > [!NOTE]
 > Teams und Voicemail, müssen Ihre Benutzer Exchange-Postfächer vorhanden sein. Einzelheiten finden Sie unter [wie Exchange- und Microsoft-Produktteams interagieren](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .

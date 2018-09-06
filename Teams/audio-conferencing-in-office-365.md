@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 7e76f6de9ca0f3d49e3a6dc7984a3a26804131c6
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 2979977c06e34314f90e28723a9d688053761c93
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784030"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848609"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audiokonferenzen in Office 365
 Audiokonferenzen in Office 365 ermöglicht dem Benutzer zu Besprechungen aus Telefone aufrufen. Audiokonferenzen kann bis zu 250 Telefon Teilnehmer.
@@ -42,7 +42,7 @@ Sie müssen nur eingerichtet werden Audiokonferenz für die Personen, die das Pl
 Nachdem der Teilnehmer an Besprechung teilnehmen, können sie auch ausgehende Anrufe und andere Aufrufer in einen Skype für Business oder Microsoft-Teams Besprechung einladen. Finden Sie unter [Telefonverbindung aus einer Besprechung Teams, damit andere Personen sie beitreten können](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) oder [Telefonverbindung aus einer Skype für Business Besprechung, damit andere Personen sie beitreten können](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## <a name="what-does-it-cost"></a>Was kostet?
-Info Preisgestaltung, finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+Infos über die Preisgestaltung finden Sie unter [Preise für Audiokonferenz](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="where-is-it-available"></a>Wo ist das verfügbar?
 Mit der Audiokonferenz können Ihre Benutzer gebührenpflichtigen und gebührenfreien Telefonnummern Sie in Konferenzen einwählen. Gebührenpflichtige oder (Dienst) werden automatisch als freigegebene Audiokonferenzen Zahlen für Organisationen zugewiesen, wenn sie für die Audiokonferenz aktiviert sind. Dedizierte gebührenpflichtige und gebührenfreie Nummern, die Ihrer Organisation aus anderen Städten zugewiesen werden können.
@@ -76,14 +76,14 @@ Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zug
 > [!CAUTION]
 > Aufgrund der begrenzten Verfügbarkeit gebührenpflichtige Telefonnummer des in Venezuela, Indonesien und Vereinigte Arabische Emirate (Vereinigte Arabische Emirate) keine Organisationen aus diesen Ländern/Regionen eine Audiokonferenz gebührenpflichtige Nummer automatisch zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 
   
-Eine Liste der dieser Länder/Regionen, die Telefonnummern, die Organisationen automatisch zugewiesen haben, finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnummern zugewiesen werden, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>Wie können erhalten Sie dedizierte Rufnummern?
 Dedizierte Audiokonferenzen Telefonnummern sind Service Zahlen, die Sie erhalten möchten, und weisen Sie Ihrer Organisation können. Sie können dedizierte gebührenpflichtigen und gebührenfreien Telefonnummern für Ihre Konferenzbrücken in drei verschiedene Arten abrufen:
 
 - **Verwenden Sie die Skype für Business Administrationscenter.** Für einige Länder/Regionen können Sie die Zahlen für Ihre Konferenzbrücken mithilfe der Skype für Business Administrationscenter abrufen. Finden Sie unter [Getting Service Rufnummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
     
-- **Port Ihrer vorhandenen Rufnummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
+- **Portieren von bestehenden Nummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
   
 - **Verwenden Sie ein Anforderungsformular für neue Nummern.** In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neue Rufnummern, die mit der Skype für Business Administrationscenter zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

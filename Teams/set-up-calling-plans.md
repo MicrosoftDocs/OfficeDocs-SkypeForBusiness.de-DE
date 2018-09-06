@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 12ebb45fdeb145f72e2fe4e501cc144216c155e1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 0652428cf33db0af1043fc672f1962dca1c4f9c6
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783286"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848633"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 Anrufe an andere Skype for Business-Benutzer sind kostenlos. Wenn Sie Ihren Benutzern jedoch ermöglichen möchten, Telefone außerhalb Ihres Unternehmens anzurufen, benötigen Sie einen Plan für Inlandsanrufe oder einen Plan für Auslandsanrufe in Office 365. Dies können Sie ganz leicht für Ihr Unternehmen einrichten. 
@@ -43,16 +43,16 @@ Wechseln Sie zur [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und
 2. Weisen Sie den Mitarbeitern in Ihrer Organisation zuerst die Lizenzen und dann einen Anrufplan zu. Weitere Informationen finden Sie unter [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
     
 ## <a name="step-3-get-phone-numbers"></a>Schritt 3: Abrufen von Telefonnummern
-Es gibt drei Möglichkeiten, um neue Benutzernummern vorzubereiten:
+Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:
 
 - **Verwenden Sie die Skype für Business Administrationscenter.** Für einige Länder/Regionen können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [Getting Rufnummern für Ihre Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
     
-- **Port Ihrer vorhandenen Rufnummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
+- **Portieren von bestehenden Nummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
   
 - **Verwenden Sie ein Anforderungsformular für neue Nummern.** In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neue Rufnummern, die mit der Skype für Business Administrationscenter zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Schritt 4: Hinzufügen von Notfall-Adressen und Speicherorte für Ihre Organisation
-<a name="bkmk_add_addresses"></a> Eine Notfall-Adresse muss eine Telefonnummer; zugeordnet werden Wenn diese Zuordnung geschieht variiert zwischen Ländern und Regionen. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfall Adresse zuordnen möchten, wenn Sie die Telefonnummer ein, die dem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie eine Notfall-Adresse die Telefonnummer zuordnen, beim Abrufen von Telefonnummern aus Office 365 oder Telefonnummern aus Ihren aktuellen Dienstanbieter übertragen. 
+<a name="bkmk_add_addresses"></a> Eine Notfall-Adresse muss eine Telefonnummer; zugeordnet werden Wenn diese Zuordnung geschieht variiert zwischen Ländern und Regionen. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen. 
 
 **Zum Hinzufügen einer Notfall Adresse für Ihre Organisation**
 
@@ -120,14 +120,14 @@ In **Microsoft Teams** können Benutzer ihre Telefonnummer sehen, indem sie im l
 
 Wenn Sie Erfahrung mit Windows PowerShell haben, können Sie die folgenden Cmdlets verwenden, um die Zuweisung von Telefonnummern zu Ihren Benutzern zu automatisieren. 
   
-- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/en-us/library/mt243818.aspx): Ruft die Telefonnummern aus dem Business Voice-Verzeichnis ab.
+- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/library/mt243818.aspx): Ruft die Telefonnummern aus dem Business Voice-Verzeichnis ab.
     
-- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/en-us/library/mt243817.aspx): Legt die Telefonnummern fest.
+- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/library/mt243817.aspx): Legt die Telefonnummern fest.
     
-Weitere Informationen finden Sie in der [Kurzübersicht:Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx).
+Weitere Informationen finden Sie in der [Kurzübersicht:Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx).
   
    > [!NOTE]
-   > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Supports für Business-Produkte - Administratorhilfe](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+   > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Supports für Business-Produkte - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="related-topics"></a>Verwandte Themen
