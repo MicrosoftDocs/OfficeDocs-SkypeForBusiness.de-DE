@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc6cc0f6b4208ddfe4975760a5e9d7874a7e5665
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 36285914ac90517f54b50bb357a21822c5423f25
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398045"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242666"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -31,14 +31,14 @@ Dieser Artikel ist Teil der User Readiness Stufe des Ihrem Upgrade Weg, eine Akt
 
 # <a name="assess-organizational-change-readiness"></a>Ermitteln Sie die Bereitschaft der Organisation ändern
 
-Nachdem Sie Ihr Projektteam gesichert und Vision, Umfang und die Ziele definiert haben, wird im nächsten Schritt auf Ihrem Upgrade Weg um sicherzustellen, dass Ihre Organisation und Benutzer für Teams bereit sind – eine Aktivität, die Sie parallel zu gewährleisten, dass Ihre technische Bereitschaft abschließen. Um den Wert von Teams nutzen zu können, müssen Benutzer tatsächlich verwendet werden. Aktivieren einfach Teams wird nicht gewährleistet, dass Sie Ihr Ziel erreichen.  Benutzer verfügen über verschiedene Anwendungsfälle und verschiedener Learning Formatvorlagen, und sie auf neue Technologie mit verschiedenen Geschwindigkeit anpassen. Die gute Nachricht ist, dass Verwalten von Änderung alles ganz einfach ist, aber es eine Engagement im Zusammenhang dauert. Die unten aufgeführten geführten Diskussionen sollen Ihnen Ihre Benutzerbasis zu verdeutlichen, damit Sie das richtige Maß Education zu vereinfachen und zu beschleunigen Benutzerakzeptanz vorbereiten können. Es gibt drei Möglichkeiten, den, die Sie Ihre Benutzerbasis betrachten sollten: 
+Nachdem Sie Ihr Projektteam gesichert und Vision, Umfang und die Ziele definiert haben, wird im nächsten Schritt auf Ihrem Upgrade Weg um sicherzustellen, dass Ihre Organisation und Benutzer für Teams bereit sind – eine Aktivität, die Sie parallel zu gewährleisten, dass Ihre technische Bereitschaft abschließen. Um den Wert von Teams nutzen zu können, müssen Benutzer tatsächlich verwendet werden. Aktivieren einfach Teams wird nicht gewährleistet, dass Sie Ihr Ziel erreichen.  Benutzer verfügen über verschiedene Anwendungsfälle und verschiedener Learning Formatvorlagen, und sie auf neue Technologie mit verschiedenen Geschwindigkeit anpassen. Die gute Nachricht ist, dass Verwalten von Änderung alles ganz einfach ist, aber es eine Engagement im Zusammenhang dauert. Die unten aufgeführten geführten Diskussionen sollen Ihnen Ihre Benutzerbasis zu verdeutlichen, damit Sie das richtige Maß Education zu vereinfachen und zu beschleunigen Benutzerakzeptanz vorbereiten können. Es gibt drei Möglichkeiten, den, die Sie Ihre Benutzerbasis betrachten sollten:
 
 -   **Organisationseinheit ändern Bereitschaft**: Grundlegendes zu wie schnell (oder nicht) Benutzer in der Regel reagieren, um zu ändern. Anhand dieser Informationen können zur Förderung des Bekanntheitsgrads, Schulung, zu informieren und Wert verkaufen müssen Sie möglicherweise Benutzer Akzeptanz führen.
 -   **Anwendungsfälle**: bewerten, wie die neue Technologie Benutzerproduktivität verbessert wird. Diese Informationen werden Änderung der relevanten für Benutzer basierend auf deren Funktionsweise.
 -   **Rollen**: bewerten, welche Personen oder Gruppen möglicherweise personalisierte Aufmerksamkeit erfordern. Diese Informationen ermöglicht zum Ziel Schulung und Förderung des Bekanntheitsgrads für Benutzer, die auf Sie zukommt oder mehr fokussierte Aufmerksamkeit erfordern (z. B. "Executives").
 
 > [!Note]
-> Sie können die Bewertung Aktivitäten auf jede Änderung Initiative in Ihrer Organisation die folgenden Angaben anpassen. Beheben Sie einfach die Fragen basierend auf den Bereich Ihres Projekts. In der folgenden Diskussionen kann Audio aufrufen, Audiokonferenzen oder des Upgrades von Skype für Unternehmen Teams "neue Lösung" zuweisen. 
+> Sie können die Bewertung Aktivitäten auf jede Änderung Initiative in Ihrer Organisation die folgenden Angaben anpassen. Beheben Sie einfach die Fragen basierend auf den Bereich Ihres Projekts. In der folgenden Diskussionen kann Audio aufrufen, Audiokonferenzen oder des Upgrades von Skype für Unternehmen Teams "neue Lösung" zuweisen.
 
 |    |     |
 |-----------|------------|
@@ -68,11 +68,11 @@ Verwenden Sie die folgenden Unterhaltung Starter Durchführen einer Bewertung de
 
 
 > [!Tip]
-> Tragen Sie Ihre frühen Übernahmen für Ihre Pilottests dient nicht nur als Peer Champions. Champions Hilfe Wechsels bekannt neuen Technologie und führen anhand eines Beispiels zu Kollegen veranschaulichen nutzen. Weitere Informationen zum Erstellen eines Programms formelle Champions finden Sie im [Handbuch für Office Annahme](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Ihre Nachzügler möglicherweise weitere überzeugende, bevor sie eine neue Technologie einführen. Wenn mehr als 20 Prozent Ihrer Organisation in dieser Zelle fällt, mehr Zeit zum kommunizieren, dass der Wert für messaging und Bereitstellung von Schulungen zugeschnitten. Darüber hinaus unterstützen sie durch die Änderung durch eine Feedbackschleife, um besser zu verstehen und beheben ihre Hesitations öffnen. 
+> Tragen Sie Ihre frühen Übernahmen für Ihre Pilottests dient nicht nur als Peer Champions. Champions Hilfe Wechsels bekannt neuen Technologie und führen anhand eines Beispiels zu Kollegen veranschaulichen nutzen. Weitere Informationen zum Erstellen eines Programms formelle Champions finden Sie im [Handbuch für Office Annahme](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Ihre Nachzügler möglicherweise weitere überzeugende, bevor sie eine neue Technologie einführen. Wenn mehr als 20 Prozent Ihrer Organisation in dieser Zelle fällt, mehr Zeit zum kommunizieren, dass der Wert für messaging und Bereitstellung von Schulungen zugeschnitten. Darüber hinaus unterstützen sie durch die Änderung durch eine Feedbackschleife, um besser zu verstehen und beheben ihre Hesitations öffnen.
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>Wie viel Prozent der Benutzer fallen in jedem Competency?
 
-<!-- 
+<!--
 | **Type of learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* learners seek out resources, learn by doing.                      |       |
@@ -84,7 +84,7 @@ Verwenden Sie die folgenden Unterhaltung Starter Durchführen einer Bewertung de
 | Diese Teilnehmern seek Ressourcen, dadurch erfahren. | Diese Benutzer genießen Sie die Gruppe und interaktiven Schulungen; Gehen sie zusammen mit Kollegen. | Diese Benutzer erwarten, dass "weißen Handschuh" oder Angebot einer direkten Unterstützung. |
 
 > [!Tip]
-> Nicht jeder lernen die gleiche Weise. Personen, die sich selbst motiviert sind, zeigen Sie auf Microsoft online-Videos und Schulungen Artikel. Wenn mindestens 20 Prozent Team Spieler sind, tragen Sie Schulung Team oder eines Partners interaktiven live-Schulung (persönlich oder online) bereit ein. In der Regel finden Führungskräfte oder geplant, Rollen in der Kategorie Hand-Betrieb. Dies ist eine wichtige Gruppe, die von personalisierten, kurze schulungssitzungen profitieren würden. Tragen Sie Ihre Champions, mit denen Schulungen an diese Benutzer für eine optimale wünschen übermitteln. 
+> Nicht jeder lernen die gleiche Weise. Personen, die sich selbst motiviert sind, zeigen Sie auf Microsoft online-Videos und Schulungen Artikel. Wenn mindestens 20 Prozent Team Spieler sind, tragen Sie Schulung Team oder eines Partners interaktiven live-Schulung (persönlich oder online) bereit ein. In der Regel finden Führungskräfte oder geplant, Rollen in der Kategorie Hand-Betrieb. Dies ist eine wichtige Gruppe, die von personalisierten, kurze schulungssitzungen profitieren würden. Tragen Sie Ihre Champions, mit denen Schulungen an diese Benutzer für eine optimale wünschen übermitteln.
 
 ## <a name="use-cases"></a>Anwendungsfälle
 
@@ -127,14 +127,14 @@ Die folgende Tabelle zeigt ein Beispiel für eine gezielte Anwendungsfall.
 
 
 > [!Tip]
-> Benötigen Sie Hilfe bei den ersten Schritten? Besuchen Sie die Bibliothek Produktivität: http://aka.ms/productivitylibrary.
+> Benötigen Sie Hilfe bei den ersten Schritten? Besuchen Sie die Bibliothek Produktivität: https://aka.ms/productivitylibrary.
 
 ## <a name="personas"></a>Rollen
 
-Indem Sie wie folgt Personen Level-Analysen, Verständnis von Ihrer Benutzer Rollen und Anwendungsfälle. Nutzen der Zeitpunkt, zu verstehen, die Ihre Benutzer und ihrer Funktionsweise Sie Hilfe benötigen, stellen Sie sicher, dass sie über das notwendige erfolgreich ist, wie die Änderung zu implementieren. Dies kann gezielt bereitgestellten messaging, Schulungen oder sogar Geräten wie Headsets und Webcams enthalten. Beispielsweise erwarten eine Führungskraft Angebot Schulung, auch unterwegs sind Feld Darstellung ein video sahen Belieben Trainings profitieren kann. Darüber hinaus kann Personen auf Dokumentebene Analyse identifizieren, die verschoben werden kann, Teams heute im Vergleich zu, die am besten durch das warten, bis zu einem späteren Zeitpunkt bereitgestellt werden kann. 
+Indem Sie wie folgt Personen Level-Analysen, Verständnis von Ihrer Benutzer Rollen und Anwendungsfälle. Nutzen der Zeitpunkt, zu verstehen, die Ihre Benutzer und ihrer Funktionsweise Sie Hilfe benötigen, stellen Sie sicher, dass sie über das notwendige erfolgreich ist, wie die Änderung zu implementieren. Dies kann gezielt bereitgestellten messaging, Schulungen oder sogar Geräten wie Headsets und Webcams enthalten. Beispielsweise erwarten eine Führungskraft Angebot Schulung, auch unterwegs sind Feld Darstellung ein video sahen Belieben Trainings profitieren kann. Darüber hinaus kann Personen auf Dokumentebene Analyse identifizieren, die verschoben werden kann, Teams heute im Vergleich zu, die am besten durch das warten, bis zu einem späteren Zeitpunkt bereitgestellt werden kann.
 
 Beginnen Sie mit dem durch Ihre Benutzerbasis in Gruppen Persona/Kohorte segmentieren (z. B. "Executives", "Außendienst" collaborative Arbeitskräfte oder Retail). Behalten Sie für die Verwaltung Ihrer Liste nicht mehr als acht Gruppen.
- 
+
 ### <a name="activity"></a>Aktivität
 
 Identifizieren Sie gezielte Benutzerprofile, die bestimmte technische oder Benutzer Bereitschaft Unterstützung benötigen. Nachfolgend finden Sie eine Beispiel Persona Bewertung für ein Executive-Profil.

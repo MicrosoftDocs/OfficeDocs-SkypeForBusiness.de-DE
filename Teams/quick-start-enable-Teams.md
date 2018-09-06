@@ -3,7 +3,7 @@ title: Schnellstart – Microsoft Teams-Planungshandbuch
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28f286a04bf52e3d4cb4fd7ad48278843b5ed134
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: bc4e1815b6d3b649c8af518068ca2d6ff3e9adbc
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19001823"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242814"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Schnellstart – Microsoft Teams-Planungshandbuch
 ==========================================================
@@ -29,9 +29,9 @@ Nehmen Sie dieses Handbuch beim Planen, Implementieren und Einführen von Micros
 
 ## <a name="step-1-get-your-people-together"></a>Schritt 1: Zusammenstellen des Teams
 
-Stellen Sie eine Gruppe von Personen aus Ihren Geschäfts-, IT- und Benutzercommunitys zusammen, die als Beteiligte und Entscheidungsträger für Ihre Microsoft Teams-Bereitstellung fungieren. In kleineren Organisationen können dies zwei oder drei Personen sein. Beziehen Sie auf jeden Fall Personen aus allen drei Communitys ein, um eine erfolgreiche Umstellung sicherzustellen.  
+Stellen Sie eine Gruppe von Personen aus Ihren Geschäfts-, IT- und Benutzercommunitys zusammen, die als Beteiligte und Entscheidungsträger für Ihre Microsoft Teams-Bereitstellung fungieren. In kleineren Organisationen können dies zwei oder drei Personen sein. Beziehen Sie auf jeden Fall Personen aus allen drei Communitys ein, um eine erfolgreiche Umstellung sicherzustellen.
 
-Jede Gruppe steuert wichtiges Know-how bei, wobei sich diese allgemeinen Funktionen zum Teil auch überschneiden. IT-Spezialisten konzentrieren sich oft auf die Integrität, Sicherheit und Verwaltbarkeit der Lösung und stellen gleichzeitig die End-to-End-Kohäsion sämtlicher Office 365-Dienste sicher. Geschäftsbenutzer steuern praktische Szenarien und Geschäftsanforderungen bei, die sich als wertvolle Testfälle eignen. Ein erfolgreicher Plan für Tests und die allgemeine Bereitstellung setzt beide Perspektiven voraus.    
+Jede Gruppe steuert wichtiges Know-how bei, wobei sich diese allgemeinen Funktionen zum Teil auch überschneiden. IT-Spezialisten konzentrieren sich oft auf die Integrität, Sicherheit und Verwaltbarkeit der Lösung und stellen gleichzeitig die End-to-End-Kohäsion sämtlicher Office 365-Dienste sicher. Geschäftsbenutzer steuern praktische Szenarien und Geschäftsanforderungen bei, die sich als wertvolle Testfälle eignen. Ein erfolgreicher Plan für Tests und die allgemeine Bereitstellung setzt beide Perspektiven voraus.
 
 ## <a name="step-2-prioritize-your-business-scenarios"></a>Schritt 2: Festlegen der Prioritäten für Ihre Geschäftsszenarien
 
@@ -42,7 +42,7 @@ Bei Zusammenarbeit und Kommunikation geht es um Menschen. Sprechen Sie daher nic
 
 ![Screenshot eines Beispielteams für die Microsoft 365-Bereitstellung](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
 
-Sehen Sie sich dieses kurze Video mit einfachen Ratschlägen an, die Sie beim Planen Ihrer Teams, Kanäle und Registerkarten in Microsoft Teams berücksichtigen sollten. 
+Sehen Sie sich dieses kurze Video mit einfachen Ratschlägen an, die Sie beim Planen Ihrer Teams, Kanäle und Registerkarten in Microsoft Teams berücksichtigen sollten.
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
@@ -50,7 +50,7 @@ Wenn Microsoft-Teams, nicht in Ihrem Office 365-Mandanten aktiviert ist und Sie 
 
 ## <a name="step-3-complete-technical-planning"></a>Schritt 3: Durchführen der technischen Planung
 
-Hohe Benutzerfreundlichkeit ist das Ergebnis einer effizienten technischen Planung. Wenn Ihre Organisation über mehr als 50 Arbeitsplätze und einen [berechtigten Plan](https://technet.microsoft.com/library/dn783224.aspx) verfügt, können Sie kostenlos verfügbare [FastTrack-Vorteile](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396) nutzen, die Sie bei der Planung, Bereitstellung und Diensteinführung unterstützen. Sie können diese Aufgaben auch selbst durchführen, indem Sie unsere FastTrack-Onboarding-Assistenten nutzen, die Ihnen nach der Anmeldung mit Ihrem Office 365-Konto in [FastTrack](https://fasttrack.microsoft.com/) zur Verfügung stehen. Die folgenden Informationen helfen Ihnen, diesen Schritt für Microsoft Teams durchzuführen. Lesen Sie mindestens diese vier Artikel:
+Hohe Benutzerfreundlichkeit ist das Ergebnis einer effizienten technischen Planung. Wenn Ihre Organisation über mehr als 50 Arbeitsplätze und einen [berechtigten Plan](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365) verfügt, können Sie kostenlos verfügbare [FastTrack-Vorteile](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365) nutzen, die Sie bei der Planung, Bereitstellung und Diensteinführung unterstützen. Sie können diese Aufgaben auch selbst durchführen, indem Sie unsere FastTrack-Onboarding-Assistenten nutzen, die Ihnen nach der Anmeldung mit Ihrem Office 365-Konto in [FastTrack](https://fasttrack.microsoft.com/) zur Verfügung stehen. Die folgenden Informationen helfen Ihnen, diesen Schritt für Microsoft Teams durchzuführen. Lesen Sie mindestens diese vier Artikel:
 
 1.  [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
 2.  [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md)
@@ -88,12 +88,12 @@ Mit der Bereitstellung von Software allein ist es nicht getan, wenn Sie Verände
 
 1. **Bewährte Methoden finden Sie in den [Anleitungen für die Office 365-Einführung]( https://aka.ms/office365adoptionguide)**. Dokumentieren Sie Ihre Vorgehensweise mithilfe unseres Artikels zum [Erstellen einer Change Management-Strategie für Microsoft Teams](change-management-strategy.md).
 1. **Informieren Sie sich mit den [Office 365-Aktivitätsberichten](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)** über die Verwendung in der gesamten Umgebung. Wenn Sie nicht Office 365-Administrator für Ihre Firma sind, bitten Sie den Administrator, Ihnen die Berechtigung zum Lesen von Berichten zu erteilen, damit Sie auf Aktivitätsberichte zugreifen können.
-2. **Erfassen Sie das Feedback Ihrer Mitarbeiter** zur Verwendung von Office 365 und Microsoft Teams. Verwenden Sie einen öffentlichen Kanal in Microsoft Teams, wenn Ihre Organisation aus weniger als 2.500 Personen besteht. Verwenden Sie eine öffentliche Gruppe in Yammer, wenn die Größe Ihrer Organisation dieses aktuelle Mitgliederlimit in Microsoft Teams überschreitet. 
+2. **Erfassen Sie das Feedback Ihrer Mitarbeiter** zur Verwendung von Office 365 und Microsoft Teams. Verwenden Sie einen öffentlichen Kanal in Microsoft Teams, wenn Ihre Organisation aus weniger als 2.500 Personen besteht. Verwenden Sie eine öffentliche Gruppe in Yammer, wenn die Größe Ihrer Organisation dieses aktuelle Mitgliederlimit in Microsoft Teams überschreitet.
 
 4. **Unterstützen Sie Ihre Pioniere, und streichen Sie Ihre Erfolge heraus.** Loben Sie Mitarbeiter, die diese neuen Tools einsetzen und durch innovative Verwendung die Geschäftsergebnisse Ihrer Firma positiv beeinflussen. Dies ist der ausschlaggebende Faktor für die kontinuierliche Einführung von Office 365 und Microsoft Teams.
 
 
 ## <a name="next-steps"></a>Nächste Schritte
 1. Wechseln Sie zu [Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams](planning-workshop-practical-guide.md).
-2. Laden Sie den Fragebogen zur technischen Planung unter [Schnellstarthandbuch: erfolgreiche Aktivierung von Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) herunter, und füllen Sie ihn aus.
-3. Laden Sie den Workshop zur Einführung von Microsoft Teams in Ihrer Organisation herunter: [Planen, Bereitstellen und Ausführen von Microsoft Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx).
+2. Laden Sie den Fragebogen zur technischen Planung unter [Schnellstarthandbuch: erfolgreiche Aktivierung von Microsoft Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) herunter, und füllen Sie ihn aus.
+3. Laden Sie den Workshop zur Einführung von Microsoft Teams in Ihrer Organisation herunter: [Planen, Bereitstellen und Ausführen von Microsoft Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx).

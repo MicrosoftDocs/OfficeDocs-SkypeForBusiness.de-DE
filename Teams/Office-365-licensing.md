@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25124f8e324dc2b713e9243c21b5dc4376deafb3
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: e5537ddef4c693d74c3b158a9a9b39fbc66be510
+ms.sourcegitcommit: 088003651ab18492c9520503b4f2bc0f30b0815d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21750352"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23531906"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Office 365-Lizenzierung für Microsoft Teams
 ========================================
@@ -42,9 +42,7 @@ Weitere Informationen zum Abrufen von Teams, Auschecken [Wie erhalte ich Zugriff
 > [!NOTE]
 > Microsoft Teams ist auch für gemeinnützige Organisationen verfügbar. Teams für die uns Behörden Cloud Community (GCC) 17. Juli Rollout beginnt und am Ende des August 2018 für alle berechtigten Kunden verfügbar sein. Wir arbeiten an anderen US-Regierung Wolken (GCC hohe und DoD) Microsoft-Teams Unterlagen bald verfügbar. Lesen Sie mehr im Blog Microsoft-Teams [hier](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
         
-
-
-Im Hinblick auf Teams Kernfunktionen bestehen keine Unterschiede zwischen den Office 365-Abonnements. Die Verfügbarkeit der Compliance-Funktionen richtet sich nach der jeweiligen Abonnementebene. Weitere Informationen finden Sie unter [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md).
+Im Hinblick auf Teams Kernfunktionen bestehen keine Unterschiede zwischen den Office 365-Abonnements. Die Verfügbarkeit der Compliance-Funktionen richtet sich nach der jeweiligen Abonnementebene. Weitere Informationen finden Sie unter [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md). Eine ausführliche Liste der Features in jedem Abonnement verfügbar sind finden Sie in der [Office 365 Platform Service Description](https://technet.microsoft.com/en-us/library/office-365-platform-service-description.aspx).
 
 **Cloud-Sprachfunktionen**: für Audiokonferenzen Ihre Organisation erwerben und Zuweisen einer Audiokonferenz-Lizenzvertrags an jeden Benutzer,-Einwahl Besprechungen einrichten, muss. Für aufrufen plant benötigen jeden Benutzer Telefonsystem plus eine National oder National und International aufrufen. Finden Sie weitere Informationen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 

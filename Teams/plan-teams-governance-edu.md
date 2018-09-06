@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf271132e9de19d5952e05e12b91b3a9e87ea529
-ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
+ms.openlocfilehash: 4991990143b0292f83b5c71b8b2bf01a5d612184
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "22331270"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599454"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education Governance – häufig gestellte Fragen für Administratoren
 
@@ -30,9 +30,9 @@ Zur Vermeidung von ungeeignetes oder irreführender Names oder einfach, um weite
 -   **Klassifizierung** Sie können Klassifikationen erstellen, die die Benutzer in Ihrer Organisation beim Erstellen einer Gruppe von Office 365 festlegen können. 
 
 > [!IMPORTANT]
-> Gruppenbenennungsrichtlinie erfordert Azure Active Directory Premium P1-Lizenz für eindeutige Benutzer, die Mitglieder von Gruppen für Office 365 sind.
+> Mit Office 365 Gruppen Naming Policy erfordert Azure Active Directory Premium P1 Lizenzen oder Azure AD grundlegende EDU Lizenzen für jeden einzelnen Benutzer, der Mitglied einer oder mehrerer Gruppen von Office 365 ist.
 
-Weitere Informationen finden Sie unter [Office gruppenbenennungsrichtlinie](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+Weitere Informationen finden Sie unter [Office Gruppen Richtlinie zum Benennen](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 > [!Note]
 > Wenn Teams mithilfe der Eingabe von einem anderen System (beispielsweise Schule Datensynchronisierung) automatisch erstellt werden, stellen Sie sicher, dass die eingegebenen Daten die Benennungsrichtlinie entspricht, den Sie konfiguriert haben; Erstellung schlägt fehl, wenn es nicht der Fall team.
@@ -57,6 +57,9 @@ Am Anfang jeder Semester oder Quartal benötigen Sie eine Anzahl von neuen Teams
 -   Mit PowerShell können Sie Teams und Kanäle erstellen und Konfigurieren von Einstellungen automatisch. Weitere Informationen finden Sie unter [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 -   Sie können verwenden die Microsoft Graph-API (derzeit in Beta) zu erstellen, konfigurieren, Klonen und Teams archivieren. Weitere Informationen finden Sie unter [Verwendung der Microsoft Graph-API entwickelt Microsoft-Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) .
 
+> [!TIP]
+> Schule Daten Sync erstellt eine Office 365-Gruppe für jede Klasse synchronisiert und [ausgeblendeter Gruppenmitgliedschaft ermöglicht](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) , sodass nur Lehrer und Schüler innerhalb der Klasse die Mitglieder dieser Klasse anzeigen können. Wenn Sie mit einem anderen Prozess zum Erstellen von Gruppen Klasse HiddenGroupMembershipEnabled mithilfe des Parameters des Cmdlets New-UnifiedGroup die gleichen privaten Anforderungen erfüllen.
+
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>Wie kann ich mit Teams um am Ende der Semester oder Quartal?
 
 Es wird empfohlen, zuerst wie Teams Daten behandeln, wenn die Schule Semester oder Quartal über soll überlegen:, ob es beibehalten oder löschen ihn verfügbar für Studenten, auch nachdem sie den Kurs abgeschlossen haben. Sie sollten zu den Schulkalender beachten festgelegten Richtlinien mit Feiertage Konflikt nicht. Die folgenden Tools können Sie Ihre Strategie implementieren:
@@ -66,6 +69,9 @@ Es wird empfohlen, zuerst wie Teams Daten behandeln, wenn die Schule Semester od
 
 -   **Archiv Team:** Diese Einstellung wird Teams in den schreibgeschützten Modus. Sie können weiterhin durchsucht und durchsucht, aber niemand können keine neuen Beiträge hinzufügen. [Archivierung oder Wiederherstellung ein Team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) wird beschrieben, wie Team Besitzer ein Team archivieren können; Team Besitzer können auch das [Diagramm-API (Beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) archiviert oder ein Team wiederherstellen.
  
+> [!IMPORTANT]
+> Verwenden die Office 365 Gruppen Ablaufrichtlinie erfordert Azure Active Directory Premium P1 Lizenzen für jeden einzelnen Benutzer, der Mitglied einer oder mehrerer Gruppen von Office 365 ist.
+
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>Gibt es Teamvorlagen für meine Fakultät von Mitgliedern zu verwenden, wenn ein Team erstellen?
 
 Ja. Benutzer können **Team aus vorhandenen Vorlage erstellen** auswählen, beim Erstellen eines neuen Teams, und Teams Besitzer können auch das [Diagramm-API (Beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) verwenden, erstellen Sie ein neues Team verfügbaren Vorlagen aus.

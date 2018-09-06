@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 1d6b45c13cf387ff31044ea7d439a0a1e5081eca
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20506644"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247535"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -26,7 +26,7 @@ Dieser Artikel ist Teil der erstklassige Betriebsprozesse Stufe des Ihre Upgrade
 
 # <a name="drive-operational-excellence-with-microsoft-teams"></a>Laufwerk erstklassige Betriebsprozesse mit Microsoft-Teams
 
-Technologie wird immer schneller Innovation. Ständige und Aktivieren einer modernen Arbeitsumfeld ist ein Standard in Organisationen Funktionsweise geworden. Als Microsoft-Teams, Microsoft 365 und Microsoft intelligenten Kommunikation Vision abgewickelt werden weiterhin, helfen müssen einen Betriebsplan direkten sicherzustellen, dass Ihre Organisation für langfristigen Erfolg eingerichtet ist. Ein optimaler Betriebsplan enthält Ihre Umgebung für die Integrität und die Qualität, Benutzer Momentum zur Optimierung der Annahme Fortfahren sowie die Planung für die neue Funktionalität, die über einen Zeitraum online geschaltet werden weiterhin überwachen. 
+Technologie wird immer schneller Innovation. Ständige und Aktivieren einer modernen Arbeitsumfeld ist ein Standard in Organisationen Funktionsweise geworden. Als Microsoft-Teams, Microsoft 365 und Microsoft intelligenten Kommunikation Vision abgewickelt werden weiterhin, helfen müssen einen Betriebsplan direkten sicherzustellen, dass Ihre Organisation für langfristigen Erfolg eingerichtet ist. Ein optimaler Betriebsplan enthält Ihre Umgebung für die Integrität und die Qualität, Benutzer Momentum zur Optimierung der Annahme Fortfahren sowie die Planung für die neue Funktionalität, die über einen Zeitraum online geschaltet werden weiterhin überwachen.
 
 ## <a name="monitor-for-network-health-and-quality"></a>Monitor für die Integrität des Netzwerks und Qualität
 
@@ -42,7 +42,7 @@ Um die maximalen Nutzen und Geschäftsergebnisse mit Teams nutzen zu können, m�
 
 -   Eintragen der Peer Champions zur Durchführung von Wechsels bekannt und andere Benutzern zu fördern.
 -   Überprüfen die [Office 365 Annahme Guide](https://go.microsoft.com/fwlink/?linkid=859045) Tipps zur Steigerung des Engagements und Akzeptanz fördern.
--   Nutzen das [Teams Customer Success Kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) zum Verbessern zur Förderung des Bekanntheitsgrads und bewährte Methoden freigeben.
+-   Nutzen das [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) zum Verbessern zur Förderung des Bekanntheitsgrads und bewährte Methoden freigeben.
 -   Implementieren eine formelle [Strategie Annahme und ändern](http://www.successwithteams.com/) , mit denen Annahme Wachstum bewältigen.
 
 ## <a name="prepare-for-new-functionality"></a>Vorbereiten der neuen Funktionen

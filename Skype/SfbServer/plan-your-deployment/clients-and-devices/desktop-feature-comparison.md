@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype für Business Server 2015 oder Skype für Business Online-Administratoren kann diese Tabellen verwenden, um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.'
-ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: beb118d39ea2fa98025c5038436810d90a5472ea
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391819"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263893"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Desktopclient Featurevergleich für Skype für Business Server 2015
  
@@ -120,7 +120,7 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
 |Computeraudiofunktionen hinzufügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Video hinzufügen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|& #x 2714;|
 |Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||||
-|Videobasierte Bildschirmübertragung  <br/> |& #x 2714;|& #x 2714; nur für Benutzer in Skype für Business Online verwaltet  <br/> |& #x 2714; Nur Ansicht  <br/> |||||||||
+|Videobasierte Bildschirmübertragung  <br/> |& #x 2714;|& #x 2714;|& #x 2714; Nur Ansicht  <br/> |||||||||
 |Steuerelemente für Referenten in Besprechungen verwenden  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||& #x 2714;|
 |Auf detaillierte Teilnehmerliste der Besprechung zugreifen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|
 |An Chats mit mehreren Teilnehmern teilnehmen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|
@@ -129,7 +129,7 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
 |Anonyme Teilnehmer hinzufügen (sofern aktiviert)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;||||& #x 2714;|
 |Dial-in-Audiobesprechungen verwenden  <br/> |& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714;|& #x 2714;|||& #x 2714;|
 |Besprechung mit „Jetzt besprechen“ initiieren  <br/> |& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||& #x 2714;|
-|Microsoft PowerPoint-Dateien hinzufügen und präsentieren  <br/> |& #x 2714;| & #x 2778; Nur Ansicht, Anmerkungen sind nicht verfügbar  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|Nur präsentieren  <br/> |& #x 2714;|||| & #x 2778; Nur Ansicht, Anmerkungen sind nicht verfügbar  <br/> |
+|Microsoft PowerPoint-Dateien hinzufügen und präsentieren  <br/> |& #x 2714;| & #x 2778; Anmerkungen sind nicht verfügbar  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|Nur präsentieren  <br/> |& #x 2714;|||| & #x 2778; Nur Ansicht, Anmerkungen sind nicht verfügbar  <br/> |
 |In Microsoft PowerPoint-Dateien navigieren  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||& #x 2714;|
 |OneNote-Besprechungsnotizen hinzufügen und bearbeiten  <br/> |& #x 2714;||Nur bearbeiten (nicht hinzufügen)  <br/> |& #x 2714;|& #x 2714;|||||||
 |Whiteboard verwenden  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|||||
@@ -142,9 +142,8 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
 |Teilnehmer stummschalten  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||||& #x 2714;|
 |Alle zu Teilnehmern machen  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;||||||& #x 2714;|
 |Skype Meeting Broadcast erstellen  <br/> |& #x 2714;|||||||||||
-|Planen von Besprechungen im Namen des Delegierenden durch die Stellvertretung  <br/> |& #x 2714;|Reine Skype for Business Online-Bereitstellung <br/>|& #x 2714;|||||||||
+|Planen von Besprechungen im Namen des Delegierenden durch die Stellvertretung  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||||
 |Stellvertretungen zwischen Skype for Business und Outlook synchronisieren  <br/> |& #x 2714;||& #x 2714;|||||||||
-|Videobasierte Bildschirmübertragung  <br/> |& #x 2714;| Reine Skype for Business Online-Bereitstellung <br/> |& #x 2714;||& #x 2714;|||||||
 |Videospotlight festlegen (Video sperren)  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|
 |Steuerung der Bildschirmübertragung übergeben/übernehmen  <br/> |& #x 2714;||& #x 2714;|||||||||
    
@@ -181,7 +180,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung für Vo
 |Hohes Anrufaufkommen verwalten  <br/> |||||& #x 2714;|& #x 2714;||||
 |Anruf parken  <br/> |& #x 2714;||& #x 2714; & #x 2776; |||||||
 |Gruppenanrufannahme  <br/> |& #x 2714;||& #x 2714; & #x 2776; ||||& #x 2714;|||
-|Standortbasiertes Routing  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|
+|Standortbasiertes Routing  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|
 |Reaktionsgruppe/Teamanrufgruppe verwalten  <br/> |& #x 2714;||& #x 2714;|||||||
    
  & #x 2776;  Dieses Feature ist nicht verfügbar in Skype für Business Online.
@@ -236,7 +235,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung für Ar
 
  | Feature/Funktion | Skype for Business 2015- oder Skype for Business 2016-Client | Skype for Business auf dem Mac | Lync 2013-client | Windows Store-App für Lync | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | **Communicator für Mac 2011** | Lync für Mac 2011 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Archivierung von Chats im Outlook-Ordner „Aufgezeichnete Unterhaltungen“  <br/> |& #x 2714; & #x 2776; |& #x 2714; Wenn die Server-Seite aufgezeichnete aktiviert ist  <br/> |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||In Communicator für Mac gespeichert  <br/> |In Lync für Mac gespeichert  <br/> |
+|Archivierung von Chats im Outlook-Ordner „Aufgezeichnete Unterhaltungen“  <br/> |& #x 2714; & #x 2776; |& #x 2714; Wenn der Server-Seite aufgezeichnete aktiviert ist <br/> |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||In Communicator für Mac gespeichert  <br/> |In Lync für Mac gespeichert  <br/> |
 |Archivierung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten auf Clientseite  <br/> |& #x 2714; & #x 2776; ||& #x 2714; & #x 2776; ||& #x 2714;|||||
 |Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen auf Clientseite  <br/> (nicht verfügbar in Skype für Business Online)  <br/> |& #x 2714;||& #x 2714;||& #x 2714;|||||
 |Access-Anmeldung Protokolle von Skype für Business-Symbol in der Taskleiste  <br/> |& #x 2714;||& #x 2714;|||||||
