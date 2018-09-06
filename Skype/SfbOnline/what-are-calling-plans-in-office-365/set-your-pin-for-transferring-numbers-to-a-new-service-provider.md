@@ -1,5 +1,5 @@
 ---
-title: Legen Sie Ihre PIN für die Übertragung von Zahlen mit einem neuen Dienstanbieter
+title: Festlegen Ihrer PIN zum Übertragen von Nummern zu einem neuen Dienstanbieter
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,57 +19,60 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Zum Weiterleiten oder port out Telefonnummern von Skype für Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie eine PIN manuell festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie es einschließen aus, wenn Sie eine Telefonnummer ein, port anzufordern.
-ms.openlocfilehash: 30eaed1f5ec139f82dce75cfec77c873b8f491de
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
-ms.translationtype: MT
+description: Zum Weiterleiten oder Portieren von Telefonnummern von Skype for Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie manuell eine PIN festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie sie mit einschließen, wenn Sie eine Anfrage zur Portierung einer Telefonnummer stellen.
+ms.openlocfilehash: 4dc60b489a6b382df5764f0c011f716f36a17cd8
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779141"
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Legen Sie Ihre PIN für die Übertragung von Zahlen mit einem neuen Dienstanbieter
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Festlegen Ihrer PIN zum Übertragen von Nummern zu einem neuen Dienstanbieter
 
-Für die Übertragung oder *Port out* Telefonnummern von Skype für Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, Sie müssen eine PIN manuell festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie es einschließen aus, wenn Sie eine Telefonnummer ein, port anzufordern. 
+Für die Übertragung oder *Portierung* von Telefonnummern von Skype for Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie manuell eine PIN festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie sie mit einschließen, wenn Sie eine Anfrage zur Portierung einer Telefonnummer stellen. 
   
 > [!IMPORTANT]
-> Ein Port out PIN-Nummer wird nur für Organisationen in den USA verwendet. 
+> Ein PIN-Nummer zum Wegportieren wird nur für Organisationen in den USA verwendet. 
   
-Weitere Informationen zum übertragen und Portieren in/Out-Telefonnummern finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) .
+Weitere Informationen zum Weg- oder Hin-Übertragen bzw. Portieren von Telefonnummern finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
   
-Nachfolgend finden Sie einige bestimmte Informationen über diese PIN-Nummer, die Sie kennen sollten:
+Nachfolgend finden Sie einige bestimmte Informationen über diese PIN-Nummer, die Sie wissen sollten:
   
-- Wenn Sie eine PIN nicht festgelegt ist, werden Sie kann nicht für die Übertragung oder Port out Telefonnummern von Skype für Business Online.
+- Wenn keine PIN festgelegt ist, kann keine Übertragung oder Portieren von Telefonnummern von Skype for Business Online weg stattfinden.
     
-- Sie können 6 bis 10 Ziffern (Zahlen) enthalten.
+- Sie kann 6 bis 10 Ziffern (Zahlen) enthalten.
     
-- Es kann nicht Buchstaben oder Sonderzeichen enthalten.
+- Sie kann keine Buchstaben oder Sonderzeichen enthalten.
     
-- Die Standard-PIN ist leer, aber wenn Sie eine in versetzen, kann nicht entfernt oder legen Sie es auf leer.
+- Die Standard-PIN ist leer, aber wenn Sie eine PIN eingeben, kann diese nicht entfernt oder wieder auf leer gestellt werden.
     
-- Sie können aktualisieren oder PIN ändern, nachdem Sie eine in einfügen.
+- Sie können die PIN aktualisieren oder ändern, nachdem Sie eine eingefügt haben.
     
-## <a name="set-up-your-pin"></a>Richten Sie Ihre PIN
+## <a name="set-up-your-pin"></a>Richten Sie Ihre PIN ein
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Admin zentriert** > **Skype für Unternehmen**.
+2. Navigieren Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business**.
     
-3. Wählen Sie im linken Navigationsbereich **VoIP** > **Port-Aufträge**.
+3. Wählen Sie im linken Navigationsbereich **VoIP** > **Portierungsaufträge**.
     
-4. Klicken Sie auf **festlegen einrichten und verwalten Sie die PIN** , der für die Übertragung und Portieren Nummern in einem anderen Dienst Netzbetreiber verwendet wird.
+4. Klicken Sie auf **PIN festlegen, einrichten und verwalten**, die für die Übertragung und Portierung von Nummern zu einem anderen Dienst- bzw. Netzbetreiber verwendet wird.
     
-5. In der **festlegen oder ändern Sie den Anschluss out PIN** Bereich, geben Sie Ihre PIN ein, und klicken Sie auf **Speichern**.
+5. Im Panel **Festlegen oder Ändern Ihrer Wegportierungs-PIN** geben Sie Ihre PIN ein und klicken Sie auf **Speichern**.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

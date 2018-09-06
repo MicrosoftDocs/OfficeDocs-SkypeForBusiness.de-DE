@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Business Premium-Plänen. '
-ms.openlocfilehash: 35994c5b3c446bd581e9001ea1a74dd57a2426ad
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ac7a09c99b72f643ad10516009154e65c51c1e48
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23251773"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779005"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -33,7 +33,7 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en-us/busines
 
  **Sie haben zwei Optionen, um Anrufe an Personen außerhalb Ihres Unternehmens zu tätigen oder von ihnen zu erhalten**:
 
-- **Option 1. Verwenden Sie die kostenlose [Skype-App](https://www.skype.com/)**. Wenn Sie ein sehr kleines Unternehmen haben (zum Beispiel mit ein bis zwei Mitarbeitern), ist die Verwendung der Skype-App die bessere Lösung. Sie ist für Inlands- und Auslandsanrufe kostengünstiger. Sie können weiterhin Telefon- und Videokonferenzen den Desktops für Präsentationen freigeben. [Überprüfen Sie die Zahlungssätze und -optionen](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Option 1. Verwenden Sie die kostenlose [Skype-App](https://www.skype.com/)**. Wenn Sie ein sehr kleines Unternehmen haben (zum Beispiel mit ein bis zwei Mitarbeitern), ist die Verwendung der Skype-App die bessere Lösung. Sie ist für Inlands- und Auslandsanrufe kostengünstiger. Sie können weiterhin Telefon- und Videokonferenzen abhalten und den Desktops für Präsentationen freigeben. [Überprüfen Sie die Zahlungssätze und -optionen](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
     Beachten Sie, dass die Skype-App nicht zur Office 365-Suite gehört. Daher ist sie nicht wie Skype for Business in Outlook 2016 integriert. Das bedeutet, dass Ihre Kontakte aus Outlook 2016 nicht in Skype angezeigt werden. Sie müssen Ihre Kontakte zu Skype hinzufügen.
 
@@ -43,7 +43,7 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en-us/busines
     > Sie müssen eine Einstellung vornehmen, damit Ihre Mitarbeiter mit Skype for Business nach Skype-Benutzern suchen können. Schauen Sie unter [Skype-Kontakte durch Anwender in Skype for Business hinzufügen](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md) nach.
 
 
-- **Option 2. Aktualisieren Sie Ihren Plan, und kaufen Sie ein Telefonsystem und einen Anrufplan für Inlands- oder Inlands-und Auslandsanrufe**.
+- **Option 2. Aktualisieren Sie Ihren Plan und kaufen Sie ein Telefonsystem und einen Anrufplan für Inlands- oder Inlands-und Auslandsanrufe**.
 
     > [!Important]
     > Obwohl Skype for Business Online Plan 2 im Office Business Premium-Abonnement enthalten ist, **können Cloud VoIP- Anruffunktionen nicht hinzugefügt werden**. Daher empfehlen wir, dass Sie einen Enterprise E5-Plan (oder Enterprise E3) evaluieren, um festzustellen, ob dies kosteneffektiver ist.
@@ -51,9 +51,9 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en-us/busines
 1. [Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Daher empfehlen wir, dass Sie einen Enterprise E5-Plan evaluieren, um festzustellen, ob dies kosteneffektiver ist.
 
 2. Kaufen Sie das **Telefonsystem**-Add-On.
-
-3. Kaufen Sie einen [Anrufplan für Office 365](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md): Diesen Plan können Sie erst kaufen, nachdem Sie das **Telefonsystem-** Add-On erworben haben.
-
+    
+3. Kaufen Sie einen [Anrufplan für Office 365](/MicrosoftTeams/calling-plans-for-office-365): Diesen Plan können Sie erst kaufen, nachdem Sie das **Telefonsystem-** Add-On erworben haben.
+    
     Diese zweite Option ist ideal für Unternehmen mit mehreren Mitarbeitern, die externe Telefonanrufe tätigen und erhalten.
 
 ## <a name="how-to-see-prices-and-buy"></a>So können Sie Preise anzeigen und Add-Ons kaufen
