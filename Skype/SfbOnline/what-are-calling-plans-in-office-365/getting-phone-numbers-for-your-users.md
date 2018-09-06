@@ -19,43 +19,43 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: a4ede7e5bac4b7e1fe5931f404a6d2c9e4f63056
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
-ms.translationtype: MT
+description: 'Erfahren Sie, wie Sie neue Nummern erhalten, portieren oder bestehende Nummern für Skype for Business übertragen und wie Sie Ihren Nutzern die Änderungen zeigen. '
+ms.openlocfilehash: 62eac75000ed1ff20576d3ce3f8f73719704a12e
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500863"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779540"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
 Bevor Sie Benutzer in Ihrer Organisation für das Tätigen und Erhalten von Telefonanrufen einrichten können, müssen Sie Telefonnummern für sie abrufen.
   
-Es gibt drei Möglichkeiten, um neue Benutzernummern vorzubereiten:
+Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:
 
-- **Verwenden Sie die Skype für Business Administrationscenter.** Für einige Länder/Regionen können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [Getting Rufnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md).
+- **Über das Skype for Business Admin Center.** Für einige Länder/Regionen können Sie Nummern für Ihre Benutzer mithilfe des Skype for Business Admin Centers erhalten, sehen Sie dazu [Rufnummern für Ihre Benutzer erhalten](getting-phone-numbers-for-your-users.md).
     
-- **Port Ihrer vorhandenen Rufnummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
+- **Portieren von bestehenden Nummern.** Sie können Ihre vorhandenen Telefonnummern von Ihrem derzeitigen Dienstanbieter oder Netzbetreiber zu Office 365 portieren oder übertragen. Über [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) oder [Rufnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) erhalten Sie weitere hilfreiche Informationen.  
   
-- **Verwenden Sie ein Anforderungsformular für neue Zahlen.** In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neue Rufnummern, die mit der Skype für Business Administrationscenter zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
+- **Verwenden Sie ein Anforderungsformular für neue Nummern.** Manchmal können Sie (je nach Land/Region) Ihre neuen Telefonnummern nicht über das Skype for Business Admin Center beziehen, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahlen. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
     
 Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Seite **Neue Benutzernummern hinzufügen** verwenden. Sie können nach **Land/Region**, **Bundesland** und **Ort** suchen und dann die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen.
   
 > [!NOTE]
 > Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, lesen Sie [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
-## <a name="get-new-phone-numbers-for-your-users"></a>Rufen Sie neue Rufnummern für Ihre Benutzer
+## <a name="get-new-phone-numbers-for-your-users"></a>Erhalten von neuen Telefonnummern für Ihre Benutzer
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Telefonnummern**, klicken Sie auf **neue Nummer hinzufügen** ![Schaltfläche hinzufügen](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), und klicken Sie dann auf **neue Rufnummern, die Benutzer**.
+3. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**, klicken Sie auf **Neue Nummer hinzufügen**![Hinzufügen](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png) und dann auf **Neue Benutzernummern**.
     
     > [!IMPORTANT]
-    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
+    > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **VoiP** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
     
 4. Wählen Sie auf der Seite **Neue Benutzernummern hinzufügen** die folgenden Optionen aus:
     
@@ -68,24 +68,24 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
 5. Geben Sie unter **Menge** die Anzahl der Telefonnummern ein, die Sie für Ihre Organisation benötigen, und klicken Sie auf **Hinzufügen**, um eine Reservierung zu erstellen. Sie haben zehn Minuten Zeit, um Ihre Telefonnummern auszuwählen. Wenn Sie länger als zehn Minuten brauchen, werden die Telefonnummern wieder an den Telefonnummernpool zurückgegeben.
     
     > [!NOTE]
-    > Neben **Benutzernummern insgesamt, die Sie erhalten können** können Sie die Anzahl der Telefonnummern sehen, die auf der Anzahl der Lizenzen basiert. Details finden Sie unter[Wie viele Telefonnummern zu erhalten, können Sie abrufen?](how-many-phone-numbers-can-you-get.md).
+    > Neben **Benutzernummern insgesamt, die Sie erhalten können** können Sie die Anzahl der Telefonnummern sehen, die auf der Anzahl der Lizenzen basiert. Details finden Sie unter[Wie viele Telefonnummern zu erhalten, können Sie abrufen?](/microsoftteams/how-many-phone-numbers-can-you-get).
   
 6. Sie können auf **Nummern anzeigen** klicken, um eine vollständige Liste der Telefonnummern aufzurufen. Das ist nützlich, wenn Sie keine bestimmte Telefonnummer aus der Liste auswählen möchten.
     
 7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Abrufen von Rufnummern**.
     
     > [!IMPORTANT]
-    > Die Anzahl der Rufnummern für Benutzer (Abonnenten) ist gleich der Gesamtzahl der **Nationalen aufrufen planen** und/oder **in- und International aufrufen planen** Lizenzen, die Sie zugeordnet haben multipliziert 1.1, plus 10 weitere Telefonnummern. Wenn Sie 50 Benutzer in insgesamt mit einer nationalen aufrufen planen und/oder nationalen und internationalen aufrufen planen, können Sie beispielsweise **65** Telefon Zahlen **(50 x 1.1 + 10)** erwerben. Weitere Informationen hierzu finden Sie unter [wie viele Rufnummern erhalten Sie?](how-many-phone-numbers-can-you-get.md). Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+    > Die Anzahl der Rufnummern für Benutzer (Abonnenten) ist gleich der Gesamtzahl der Lizenzen im **nationalen Anrufplan** und/oder dem **nationalen und internationalen Anrufplan**, die Sie zugeordnet haben, multipliziert mit 1,1, plus 10 weitere Telefonnummern. Wenn Sie z.B. 50 Benutzer insgesamt in einem nationalen Anrufplan und/oder nationalen und internationalen Anrufplan haben, können Sie beispielsweise **65** Telefonnummern **(50 x 1,1 + 10)** erwerben. Details finden Sie unter[Wie viele Telefonnummern können Sie erhalten?](/microsoftteams/how-many-phone-numbers-can-you-get). Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
  **Portieren oder Übertragen von Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber**
   
-- Wenn Sie maximal 999 Telefonnummern für Ihre Benutzer benötigen, können Sie den Assistenten **Neuer Portierungsauftrag für eine lokale Rufnummer** im Skype for Business Admin Center verwenden. Führen Sie die Schritte, die [Übertragung von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) für Ihre Telefonnummern über in Skype für Business Online übertragen gefunden.
+- Wenn Sie maximal 999 Telefonnummern für Ihre Benutzer benötigen, können Sie den Assistenten **Neuer Portierungsauftrag für eine lokale Rufnummer** im Skype for Business Admin Center verwenden. Führen Sie die Schritte unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) aus, um Ihre Telefonnummern zu Skype for Business Online zu übertragen.
     
 - Wenn Sie mehr als 999 Telefonnummern portieren müssen, finden Sie unter [Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage](manually-submit-a-custom-service-request.md) weitere Informationen zum Übermitteln einer Serviceanfrage für einen Portierungsauftrag oder einen Auftrag für die Portierung dieser Telefonnummern zu Office 365.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Anzeigen von Telefonnummern für Ihr Unternehmen
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -108,13 +108,13 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
+[Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Verwalten von Telefonnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

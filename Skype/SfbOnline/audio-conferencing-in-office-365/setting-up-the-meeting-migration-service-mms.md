@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: 820726451c1ed9a28d29882903348f231ee4ce16
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
-ms.translationtype: MT
+ms.openlocfilehash: 013e68ada16f15b3a410823680ec062b9fb7fa3a
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703808"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780501"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Einrichten des Meeting Migration Service (MMS)
 
-Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.  Dieses Tool migriert keine Skype für Business Besprechungen in Microsoft-Teams, Besprechungen.  
+Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren. Dieses Tool migriert Skype for Business-Besprechungen nicht zu Microsoft Team-Besprechungen.  
   
  **Anforderungen**
   
@@ -89,7 +89,7 @@ MMS aktualisiert die vorhandenen Skype for Business- und Microsoft Teams-Besprec
     
 - Wenn Sie den Benutzer zu einer neuen Audiokonferenzbrücke verschieben
     
-- Wenn die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wird. Dies ist ein komplexes Szenario, für das zusätzliche Schritte erforderlich sind. Weitere Informationen finden Sie unter [Ändern der gebührenpflichtigen oder gebührenfreien Telefonnummern in Ihrer Audiokonferenzbrücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- Wenn die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wird. Dies ist ein komplexes Szenario, für das zusätzliche Schritte erforderlich sind. Weitere Informationen finden Sie unter [Ändern der gebührenpflichtigen oder gebührenfreien Telefonnummern in Ihrer Audiokonferenzbrücke](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
     
 > [!IMPORTANT]
 > MMS aktualisiert Besprechungen nur, wenn Sie die Microsoft-Brücke verwenden. Wenn Sie einen Drittanbieter für Audiokonferenzen verwenden, müssen die Benutzer ihre Besprechungen manuell aktualisieren. In diesem Fall können Sie [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) verwenden. 
@@ -124,7 +124,7 @@ Wie lange es dauert, bis MMS die Besprechungen migriert hat, hängt davon ab, wi
     
 - MMS ersetzt alles im Informationsblock für die Onlinebesprechung, wenn eine Besprechung migriert wird. Wenn daher ein Benutzer diesen Block bearbeitet hat, werden seine Änderungen überschrieben. Alle Inhalte, die sich in den Besprechungsdetails außerhalb des Informationsblocks der Onlinebesprechung befinden, sind nicht betroffen.
     
-     ![The meeting block that gets updated by MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+     ![Der Besprechungsblock, der von MMS aktualisiert wird.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
   
 - Besprechungsinhalte, die erstellt oder an die Besprechung angehängt wurden (Whiteboards, Umfragen usw.), bleiben nach der Ausführung von MMS nicht erhalten. Wenn Ihre Besprechungsorganisatoren im Voraus Inhalte an Besprechungen angehängt haben, müssen diese Inhalte nach der Ausführung von MMS erneut erstellt werden.
     
@@ -140,7 +140,7 @@ Wie Meeting Migration Tool sendet auch MMS Besprechungsaktualisierungen im Namen
   
 ## <a name="managing-mms"></a>Verwalten von MMS
 
-Sie müssen mithilfe von Windows PowerShell zum Verwalten von MMS und überprüfen Sie den Status der laufenden Migrationen. Bei den Informationen in diesem Abschnitt wird davon ausgegangen, dass Sie mit der Nutzung von PowerShell zur Verwaltung Ihrer Skype for Business-Organisation vertraut sind. Wenn Sie mit PowerShell vertraut sind, finden Sie im Abschnitt [Mithilfe von PowerShell zum Verwalten von Ihrer Skype für Unternehmensorganisation](setting-up-the-meeting-migration-service-mms.md#WPSInfo) am Ende dieses Artikels.
+Sie müssen Windows PowerShell verwenden, um MMS zu verwalten und den Status von laufenden Migrationen zu prüfen. Bei den Informationen in diesem Abschnitt wird davon ausgegangen, dass Sie mit der Nutzung von PowerShell zur Verwaltung Ihrer Skype for Business-Organisation vertraut sind. Wenn Sie neu bei PowerShell sind, finden Sie weitere Informationen im Abschnitt [Verwenden von PowerShell zum Verwalten der Skype for Business-Organisation](setting-up-the-meeting-migration-service-mms.md#WPSInfo) am Ende dieses Artikels.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -157,7 +157,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 Damit erhalten Sie eine Übersicht in Tabellenformat aller Migrationsstatus wie im folgenden Beispiel:
   
-State UserCount---<br/> Ausstehende 21<br/>In Bearbeitung 6<br/> Fehlerhafte 2 <br/> Erfolgreiche 131
+State UserCount---------------<br/> Ausstehend 21<br/>In Bearbeitung 6<br/> Fehlgeschlagen 2 <br/> Erfolgreich 131
 > [!IMPORTANT]
 > Wenn Sie fehlgeschlagene Migrationen sehen, ergreifen Sie die nötigen Schritte, um diese Probleme so bald wie möglich zu beheben. Die Teilnehmer können sich nicht bei den von diesen Benutzern organisierten Besprechungen einwählen, bis Sie die Probleme behoben haben. Weitere Informationen finden Sie im Abschnitt [Was tue ich, wenn ein Fehler auftritt?](setting-up-the-meeting-migration-service-mms.md#Troubleshooting).
   
@@ -252,7 +252,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com
 
  **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
   
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -264,7 +264,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
   
  **Starten einer Windows PowerShell-Sitzung**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     

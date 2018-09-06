@@ -1,5 +1,5 @@
 ---
-title: Erste Service-Rufnummern
+title: Anfordern von Dienstnummern
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,41 +19,44 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-description: Sie können zusätzlich zum Abrufen von Telefonnummern für Ihre Benutzer aus Office 365, suchen und erwerben gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für die Konferenzbrücken), automatischen Telefonzentralen und Anruf Warteschlangen (auch als Dienst Zahlen bezeichnet). Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Leistungsnummern eine höhere Kapazität für gleichzeitige Anrufe.
-ms.openlocfilehash: 9a7761ca39295ef36531f74b835d9e0dbd498d51
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: Zusätzlich zu den Telefonnummern für Ihre Benutzer aus Office 365 können Sie gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen (auch Dienstnummern genannt) suchen und erwerben. Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Dienstnummern eine höhere Kapazität für gleichzeitige Anrufe.
+ms.openlocfilehash: f45bccd76e560dacc94211d6339858e82541821e
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779158"
 ---
-# <a name="getting-service-phone-numbers"></a>Erste Service-Rufnummern
+# <a name="getting-service-phone-numbers"></a>Anfordern von Dienstnummern
 
-Sie können zusätzlich zum Abrufen von Telefonnummern für Ihre Benutzer aus Office 365, suchen und erwerben gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für die Konferenzbrücken), automatischen Telefonzentralen und Anruf Warteschlangen (auch als Dienst Zahlen bezeichnet). Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Leistungsnummern eine höhere Kapazität für gleichzeitige Anrufe. Beispielsweise kann eine Zahl Service 100 s Anrufe gleichzeitig während die Telefonnummer des Benutzers nur ein paar Anrufe gleichzeitig verarbeitet werden kann.
+Zusätzlich zu den Telefonnummern für Ihre Benutzer aus Office 365 können Sie gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen (auch Dienstnummern genannt) suchen und erwerben. Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Dienstnummern eine höhere Kapazität für gleichzeitige Anrufe. Beispiel: Eine Dienstnummer kann Hunderte von Anrufen gleichzeitig verarbeiten, wohingegen eine Benutzer-Telefonnummer nur einige wenige Anrufe gleichzeitig verarbeiten kann.
   
 > [!NOTE]
-> Office 365 Communications haben muss, um die gebührenfreie Nummern erwerben zuerst festgelegt werden. Finden Sie unter [Einrichten von Communications haben für Ihre Organisation](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md). 
+> Office 365 – Guthaben für Kommunikationen müssen vor dem Erwerb von gebührenfreien Nummern eingerichtet werden. Informationen finden Sie unter [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-Ihnen stehen zwei Arten der erste Service Zahlen, damit Sie sie mit Skype für Unternehmen und die Microsoft-Teams verwenden können:
+Sie haben zwei Möglichkeiten, Dienstnummern zwecks Verwendung in Skype for Business und Microsoft Teams abzurufen:
   
-- Holen Sie neue Rufnummern, die von Office 365.
+- Abrufen neuer Telefonnummern von Office 365.
     
-- Port oder Ihre vorhandenen Zahlen von Ihrem Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen.
+- Portieren oder übertragen Sie Ihre Telefonnummern von Ihrem derzeitigen Dienstanbieter oder Netzbetreiber zu Office 365.
     
     > [!NOTE]
-    > Bei der Übertragung von Ihrem Dienst Zahlen wird dringend empfohlen, wenden Sie sich an [Microsoft support](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) , um sicherzustellen, dass die höhere aufrufende belasten berücksichtigt und ordnungsgemäß konfiguriert ist.
+    > Beim Übertragen von Dienstnummern sollten Sie sich unbedingt an den [Microsoft-Support](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) wenden, um sicherzustellen, dass die höhere Kapazität für gleichzeitige Anrufe berücksichtigt und ordnungsgemäß konfiguriert wird.
   
-## <a name="get-new-service-numbers"></a>Abrufen von neuen Leistungsnummern
+## <a name="get-new-service-numbers"></a>Abrufen von neuen Dienstnummern
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Telefonnummern** > **Hinzufügen neue Nummer**, und klicken Sie dann auf **neue Dienst Nummern**.
+3. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern** > **Hinzufügen**, und klicken Sie auf **Neue Dienstnummern**.
     
     > [!IMPORTANT] 
-    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
+    > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
     
-4. Wählen Sie auf der Seite **neue Service-Nummern hinzufügen** Folgendes ein:
+4. Wählen Sie auf der Seite **Neue Dienstnummern hinzufügen** die folgenden Optionen aus:
     
   - **Land/Region**
     
@@ -61,30 +64,30 @@ Ihnen stehen zwei Arten der erste Service Zahlen, damit Sie sie mit Skype für U
     
   - **Ort**
     
-5. Geben Sie unter **Menge** die Anzahl der Telefonnummern ein, die Sie für Ihre Organisation benötigen, und klicken Sie auf **Hinzufügen**, um eine Reservierung zu erstellen. Sie müssen 10 Minuten, um Ihre Rufnummern auszuwählen. Wenn Sie mehr als 10 Minuten in Anspruch nehmen, werden die Telefonnummern in den Pool von Telefonnummern zurückgegeben.
+5. Geben Sie unter **Menge** die Anzahl der Telefonnummern ein, die Sie für Ihre Organisation benötigen, und klicken Sie auf **Hinzufügen**, um eine Reservierung zu erstellen. Sie müssen Ihre Telefonnummern innerhalb von 10 Minuten auswählen. Wenn Sie mehr als 10 Minuten in Anspruch benötigen, werden die Telefonnummern in den Pool der Telefonnummern zurückgegeben.
     
     > [!NOTE]
-    > Sie können die Anzahl von Rufnummern, die auf die Anzahl der Lizenzen, neben aufgeführten basiert finden Sie unter **Total Service können Zahlen erwerben**. Details finden Sie unter[Wie viele Telefonnummern zu erhalten, können Sie abrufen?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md).
+    > Neben **Dienstnummern insgesamt, die Sie erhalten können** können Sie die Anzahl der Telefonnummern sehen, die auf der Anzahl der Lizenzen basiert. Details finden Sie unter[Wie viele Telefonnummern können Sie erhalten?](/microsoftteams/how-many-phone-numbers-can-you-get)
   
-6. Sie können auf **Nummern anzeigen** klicken, um eine vollständige Liste der Telefonnummern aufzurufen. Dies ist hilfreich, wenn Sie nicht, wählen eine bestimmte Rufnummer in der Liste möchten.
+6. Sie können auf **Nummern anzeigen** klicken, um eine vollständige Liste der Telefonnummern aufzurufen. Das ist nützlich, wenn Sie keine bestimmte Telefonnummer aus der Liste auswählen möchten.
     
-7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Abrufen von Rufnummern**.
+7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Nummern erwerben**.
     
-### <a name="assign-service-numbers"></a>Zuweisen von Leistungsnummern
+### <a name="assign-service-numbers"></a>Zuweisen von Dienstnummern
 
-Nachdem Sie die Rufnummern Service haben, können sie dann eine audiokonferenzbrücke zugewiesen werden. Informationen zu diesem Verfahren finden Sie unter [Ändern der gebührenpflichtigen oder gebührenfreien Telefonnummern in Ihrer Audiokonferenzbrücke](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+Sobald Sie Ihre Dienstnummern erhalten haben, können diese Nummern zu einer Audiokonferenzbrücke zugewiesen werden. Informationen zu diesem Verfahren finden Sie unter [Ändern der gebührenpflichtigen oder gebührenfreien Telefonnummern in Ihrer Audiokonferenzbrücke](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
   
-### <a name="port-or-transfer-existing-service-numbers"></a>Portieren oder Übertragen von vorhandenen Leistungsnummern
+### <a name="port-or-transfer-existing-service-numbers"></a>Portieren oder Übertragen von vorhandenen Dienstnummern
 
-Wenn Sie Leistungsnummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber übertragen möchten, müssen Sie eine Anforderung für einen Portierungsauftrag manuell an Microsoft übermitteln. Sie müssen separate Port Aufträge für jede Art von Service-Nummer (gebührenpflichtige oder gebührenfreie) senden, dass Sie mit Buchstaben der Autorisierung (Geladene) übertragen werden soll. In den Buchstaben der Autorisierung (Geladene), müssen Sie den richtigen Zahlentyp Dienst auswählen. Wenn Sie Microsoft-Supportmitarbeiter kontaktieren, stellen Sie sicher, dass Sie angeben, dass Sie beim Übertragen einer Service-Nummer (*und keine Benutzer oder den Teilnehmerzugriff Zahl*) oder die aufrufende belasten möglicherweise nicht ausreichend Anrufaufkommen behandeln. Weiterleiten von Telefonnummern oder andere Aktionen mit Ihrer Rufnummern, finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Wenn Sie Leistungsnummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber übertragen möchten, müssen Sie eine Anforderung für einen Portierungsauftrag manuell an Microsoft übermitteln. Sie müssen separate Portierungsaufträge für jeden Dienstnummern-Typ (gebührenpflichtig oder gebührenfrei) übermitteln, den Sie mit einer schriftlichen Vollmacht (Letter of Authorization; LOA) übermitteln. In der schriftlichen Vollmacht (Letter of Authorization; LOA) müssen Sie den richtigen Dienst-Nummern-Typ auswählen. Wenn Sie den Microsoft-Support kontaktieren, stellen Sie bitte sicher, dass Sie eine Dienstnummer übertragen (*und keine Benutzer- oder Abonnentennummer*), andernfalls reicht die Kapazität für gleichzeitige Anrufe möglicherweise nicht aus, um das Anrufvolumen zu verarbeiten. Informationen zum Übertragen von Telefonnummern oder zu anderen Aktionen mit Ihren Telefonnummern, finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Supports für Business-Produkte - Administratorhilfe](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
-## <a name="related-topics"></a>See Also
-[Das bietet Ihnen das Telefonsystem in Office 365](here-s-what-you-get-with-phone-system.md)
+## <a name="related-topics"></a>Verwandte Themen
+[Das bekommen Sie mit Telefonsystem in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  
