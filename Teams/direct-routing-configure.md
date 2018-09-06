@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 455ae4bd419dd4e92152615adc42f879168e4f15
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779771"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835031"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren der Weiterleitung von direkten
 
@@ -25,7 +25,7 @@ In diesem Artikel wird beschrieben, wie Microsoft Phone System direkten Routing 
 Es wird empfohlen, dass Sie bestätigen, dass Ihre SBC bereits konfiguriert wurde, wie mithilfe des Herstellers Ihres SBC empfohlen: 
 
 - Dokumentation zur Bereitstellung von AudioCodes 
-- Dokumentation zur Bereitstellung von Menüband
+- Menüband-Dokumentation zu Communications-Bereitstellung
 
 Sie können Ihr Telefonsystem Microsoft konfigurieren und Aktivieren von Benutzern mithilfe von Direct Routing, und richten Sie Microsoft-Teams, als bevorzugte aufrufenden Clients anhand der folgenden Verfahren: 
 

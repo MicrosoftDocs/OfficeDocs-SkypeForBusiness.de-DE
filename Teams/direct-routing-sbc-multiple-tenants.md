@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Informationen Sie zum Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
-ms.openlocfilehash: 80176a97152050cbddfe4d8b1c189cde377a7c25
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 062c8e597b62757f3fb91773444bece7f047ac51
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084529"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835015"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controller für mehrere Mandanten
 
@@ -51,7 +51,7 @@ Es folgen die technischen Implementierungsschritte zum Konfigurieren der Szenari
 Die detaillierte Schritte zum Bereitstellen und SBCs für einen SBC-hosting-Szenario konfigurieren finden Sie in den SBC Herstellers.
 
 - **AudioCodes:** [Direkte Routingkonfiguration Notizen](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), die Konfiguration von den SBC Hosten in "Connecting AudioCodes SBC zu Microsoft-Teams, direkte Routing Hosting-Modell Konfiguration Notiz" beschriebenen Szenario 
-- **Menüband:** Für SBC Hostingszenarios wird nur die Serie Core unterstützt. Bitte finden Sie im [Menüband SBC Core Microsoft-Teams Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
+- **Des Menübands Communications:** Für SBC Hostingszenarios wird nur die Serie Core unterstützt. Bitte finden Sie im [Menüband Communications SBC Core Microsoft Teams Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
 
 > [!NOTE]
 > Bitte achten Sie auf die Kopfzeile "Kontakt" zu konfigurieren. Die Kontakt Kopfzeile wird verwendet, um den Mandanten Kunden auf eingehende Invite-Nachricht zu suchen. 

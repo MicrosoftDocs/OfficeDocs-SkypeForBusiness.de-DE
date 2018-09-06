@@ -9,12 +9,12 @@ description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funkt
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edf168d099df6c7d799cf0e513f0343f4902b67
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64a0dd2cccfe92fe1385b40caa45551bfe91bba9
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242496"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835023"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams Cloud besprechungsaufzeichnung
 
@@ -114,9 +114,13 @@ Die Größe einer Aufzeichnung 1 Stunde beträgt 400 MB. Stellen Sie sicher, das
 ## <a name="manage-meeting-recordings"></a>Verwalten von besprechungsaufzeichnungen
 Die besprechungsaufzeichnungen gelten Inhalt im Besitz des Mandanten. Wenn der Besitzer der Aufzeichnung das Unternehmen verlässt, kann der Administrator Aufzeichnung-video-URL in Stream Microsoft im Administratormodus geöffnet. Der Administrator kann die Aufzeichnung zu löschen, Metadaten, die Aufzeichnung aktualisieren oder Ändern der Berechtigungen für das Aufzeichnen von video. Weitere Informationen zu [Admin-Funktionen in Stream-Objekt](https://docs.microsoft.com/en-us/stream/manage-content-permissions).
 
+## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Compliance und eDiscovery zur Erfüllung von Aufzeichnungen
+Die besprechungsaufzeichnungen werden im Microsoft-Stream gespeichert, die Office 365 Tier-C kompatibel ist. Zur Unterstützung der e-Discovery-Anfragen für Compliance-Admins, die Besprechungen oder Aufzeichnungen für Microsoft-Streams interessiert sind, ist die Aufzeichnung abgeschlossenen Nachricht in der Compliance Inhaltssuche-Funktionen für Microsoft-Teams, verfügbar. Compliance-Admins kann Aufzeichnungen in der Organisation für das Stichwort "Aufzeichnung" in die Betreffzeile des Elements in Content Suchvorschau Konformität suchen und entdecken die Besprechung und aufrufen. Voraussetzung für die Anzeige des alle Aufzeichnungen ist, dass sie im Microsoft-Stream mit Administratorzugriff eingerichtet werden müssen. Weitere Informationen zur [Zuweisung von Administratorberechtigungen in Stream-Objekt](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role).
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
 Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Windows PowerShell hat viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität über nur über das Office 365 Administrationscenter, beispielsweise wenn Sie ändert sich die Einstellung für viele Benutzer gleichzeitig durchführen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
 
 - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Einrichten Ihres Computers für Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)
+

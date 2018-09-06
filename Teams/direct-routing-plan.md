@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914120"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835007"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
 
@@ -220,7 +220,7 @@ Geräte, die überprüft wurden, werden als zertifiziert für Teams direkten Rou
 
 Zu den Herstellern zurzeit zertifiziert wird:
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Menüband (früher von Sonus):
+- Menüband-Kommunikation (früher von Sonus):
    - [SBC-Edge-Serie](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC-Core-Serie](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel ist die SBCs für das Unternehmen nicht verkaufen, aber ihre SBC zertifiziert ist.  
