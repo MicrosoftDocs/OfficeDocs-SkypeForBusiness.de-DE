@@ -3,7 +3,7 @@ title: Quality of Experience überprüfen Handbuch für Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 08/24/2018
+ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -12,16 +12,16 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9f50cd0751a64fb0e76793dfc45c1c2278a143b
-ms.sourcegitcommit: 77ac57c5dc3f5836915d02e3e61305f1d3ea1600
+ms.openlocfilehash: 1d3de3f704fc8c89325f671258a1005e850c2784
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "23042583"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835047"
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
-<!-- Note that the link to the Word doc is intentionally NOT the aka.ms/qerquide link -->In diesem Handbuch wird über das Laufwerk Wert Phase für Microsoft-Teams und Skype für Business Online. Sie können dieses Handbuchs [eine Word-Version herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) .
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->In diesem Handbuch wird über das Laufwerk Wert Phase für Microsoft-Teams und Skype für Business Online. Sie können dieses Handbuchs [eine Word-Version herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) .
 
 ## <a name="introduction"></a>Einführung
 
@@ -88,7 +88,7 @@ Service-Metriken bestehen bestimmte clientbasierte Metriken. Bei jedem Aufruf de
 
 Die niedrige Stream Rate (a.) stellt der Organisation Gesamtprozentsatz schlechten Qualität denen Datenströme. Diese Metrik dient zum Hervorheben von Bereichen, in Ihrer Organisation Aufwand für die stärksten wirken sich in Richtung verringern diesen Wert und Verbessern der benutzererfahrung, weshalb konzentrieren kann, [verwaltete Netzwerke](#managed-vs-unmanaged-networks) der Schwerpunkt sind, wenn a. betrachten. Externe Benutzer zu wichtig sind, aber Untersuchung unterscheidet sich für eine einzelne Organisationseinheit. Erwägen Sie, bewährte Methoden für externe Benutzer, und überprüfen Sie externe Anrufe unabhängig von der gesamten Organisation.
 
-Die tatsächliche Messung in CQD variiert je nach Arbeitslast, aber für die Zwecke der Qualität Erfahrung Überprüfung wir konzentrieren Sie sich hauptsächlich auf die Messung _Audio schlechter Prozentsatz_ . A. besteht aus den fünf Netzwerk metrischen Durchschnittswerte in der folgenden Tabelle beschrieben. Für ein Stream-Objekt als schlecht klassifiziert werden muss nur eine Metrik den definierten Schwellenwert überschreitet. Weitere Informationen zum Vorgang, Stream Klassifizierung finden Sie unter [in diesem Artikel](/skypeforbusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard).
+Die tatsächliche Messung in CQD variiert je nach Arbeitslast, aber für die Zwecke der Qualität Erfahrung Überprüfung wir konzentrieren Sie sich hauptsächlich auf die Messung _Audio schlechter Prozentsatz_ . A. besteht aus den fünf Netzwerk metrischen Durchschnittswerte in der folgenden Tabelle beschrieben. Für ein Stream-Objekt als schlecht klassifiziert werden muss nur eine Metrik den definierten Schwellenwert überschreitet. Weitere Informationen zum Vorgang, Stream Klassifizierung finden Sie unter [in diesem Artikel](stream-classification-in-call-quality-dashboard.md).
 
 > [!Note]
 > CQD enthält die "schlechter Fälligkeitsdatum an..." Maßeinheiten für ein besseres Verständnis welcher Bedingung den Stream, der als schlecht eingestuft verursacht.
@@ -269,6 +269,33 @@ CQD, Bereitstellen nicht zwar zum Analysieren von Trends und Subnetze, immer ein
 -   CQD werden bestimmte Bereiche zur weiteren Untersuchung basierend auf Trends aufrufen.
 -   CQD enthalten nicht personenbezogene Informationen.
 
+### <a name="report-editions"></a>Bericht-Editionen
+
+Es gibt zwei Bericht Editionen in CQD Online: Zusammenfassung und Detailed. Verwenden Sie das Dropdown-Menü befindet sich im blauen Balken im oberen Bereich des Bildschirms, um einen Bericht Edition zu öffnen. Der Name der ausgewählten Bericht Edition wird im oberen Bereich des Bildschirms angezeigt.
+
+-   Zusammenfassungsberichte sind statisch und können nicht bearbeitet werden, heruntergeladenen oder exportierten. 
+-   Ausführliche Berichte vollständig anpassbar sind und in eine CSV-Datei exportiert oder geklont heruntergeladen werden können.
+
+Eine vollständige Beschreibung des Unterschieds zwischen den beiden Editionen finden Sie unter [in diesem Artikel](turning-on-and-using-call-quality-dashboard.md).
+
+![Dropdown-Menü mit Zusammenfassung Berichte ausgewählt](media/qerguide-image-reportcategories.png)
+
+_Abbildung 4: CQD Berichtskategorien_
+
+Der zusammenfassende Berichte werden in vier Kategorien unterteilt:
+
+-   **Zusammenfassung Berichte** den Fokus auf Analyse Qualität Trends mit täglich, monatlich und Berichte zu helfen, Subnetze, die schlechten Qualität aufweisen. Dies ist der Standard-Angebotsseite, wenn Sie zuerst CQD Online anmelden.
+-   **Location-Enhanced Berichte** den Fokus auf die Qualität Trendanalyse basierend auf Standortinformationen. Um diese Berichte zu verwenden, müssen Sie eine Datei zum Erstellen von hochgeladen haben.
+-   **Berichte über die Zuverlässigkeit** den Fokus auf Analyse Zuverlässigkeit Trends für audio, video und Video basierende Bildschirmfreigabe (VBSS) und Anwendungsfreigabe.
+-   **Quality of Experience Reports** sind eine "abgespeckte" Version der detaillierten QER Vorlagen Konzentration auf wichtige Bereiche für die Analyse der Audioqualität und Zuverlässigkeit.
+
+### <a name="report-types"></a>Typen von Berichten
+
+Sie können zwei Arten von Berichten in CQD, je nachdem, wie Sie Ihre Daten anzeigen möchten. Obwohl dieses Handbuchs die Einzelheiten über das Erstellen eines Berichts über ein anderes verdeckt, bieten die QER CQD Vorlagen eine Mischung aus anpassbare Diagramm und Tabelle Berichte für die Verwendung:
+
+-   Diagramm Berichte erstellen graphical Balkendiagrammen zur Darstellung der Daten in einem visuellen Format. Diagramm Berichte eignen sich zum Visualisieren von Daten über einen bestimmten Zeitraum.
+-   Tabellenberichte eignen sich für die einzelnen Maßeinheiten und Dimensionen ansehen, wenn Sie die Berichte in der CSV-Dateien für die Bearbeitung in Microsoft Excel exportieren.
+
 ### <a name="tenant-id"></a>Mandanten-ID
 
 Einige Berichte CQD erfordern, dass Sie einen Filter für Ihre Mandanten-ID einschließen Daran CQD Daten aggregiert ist federated Teilnehmer Telemetrie enthalten. Obwohl dies wertvolle nachweisen kann bei der Analyse von Trends, müssen Client- und Gerätefunktionen Berichte Filtern von Daten an einen bestimmten Mandanten federated Teilnehmer Telemetrie ausgeschlossen. Wenn Sie Ihre Mandanten-ID nicht kennen, können Sie eine der folgenden Methoden verwenden, sie zu finden sind.
@@ -328,7 +355,7 @@ Um die Seite Zusammenfassungsberichte betrachten nur Teams oder Skype für Unter
 
 ![Im Dropdownmenü die Option zum Filtern von CQD Berichten nach Arbeitslast anzeigen](media/qerguide-image-productfilter.png)
 
-_Abbildung 4: Auswählen eines Filters Produkt_
+_Abbildung 5: Auswählen eines Filters Produkt_
 
 #### <a name="detailed-reports"></a>Ausführliche Berichte
 
@@ -348,7 +375,7 @@ Um eine einzelne detaillierter Bericht zu filtern, den Filter hinzufügen ``Is T
 
 ![Fügen Sie einen Filter, um einen detaillierten Bericht.](media/qerguide-image-addteamsfilter.png)
 
-_Abbildung 5: Hinzufügen eines Microsoft-Teams Filters in einem Bericht_
+_Abbildung 6: Hinzufügen eines Microsoft-Teams Filters in einem Bericht_
 
 
 ### <a name="managed-vs-unmanaged-networks"></a>Verwaltete und nicht verwalteten Netzwerken
@@ -368,7 +395,7 @@ Eine wohlgeformte CQD Abfrage enthält alle drei der folgenden Parameter:
 
 -   **Filter:** Gibt zurück, wie ich möchte das Dataset die Abfrage zu reduzieren.
 
-Alternativ können Sie dies: eine _Dimension_ ist der Grouping-Funktion, ein _Measure_ befinden sich die Daten, die ich interessiert bin und ein _Filter_ ist wie ich möchte die Ergebnisse auf diejenigen zu beschränken, die für eine Abfrage relevant sind.
+Eine andere Möglichkeit, dies ist, dass eine _Dimension_ der Grouping-Funktion ist, ein _Measure_ befinden sich die Daten, die, denen ich interessant, und ein _Filter_ ist wie ich möchte die Ergebnisse auf diejenigen zu beschränken, die für eine Abfrage relevant sind.
 
 Ein Beispiel für eine wohlgeformte Abfrage wird **Demo schlechter Datenströme [messen] Subnetz [Dimension] für das Erstellen von 6 [Filter]**. Weitere Informationen finden Sie unter [Dimensionen und Measures in CQD verfügbar](https://aka.ms/cqd-dm).
 
@@ -402,7 +429,7 @@ Ein Aufruf ist entweder als gut, schlecht oder nicht klassifizierte kategorisier
 
 -   **Nicht klassifizierte:** Ein nicht klassifizierter Stream enthalten keine umfassende Auswahl an Service Metriken. Dabei kann es sich um kurze Anrufe – normalerweise weniger als 60 Sekunden – wobei Durchschnittswerte konnte nicht berechnet werden und ein QoE-Bericht wurde nicht generiert. Die häufigste Ursache für Anrufe nicht vertraulich ist, dass es keine Paket Auslastung wenig wurde. Ein Beispiel wäre ein Teilnehmer, der teilnimmt einer Besprechung auf Stummschalten und nie spricht. Der Teilnehmer empfangen, aber nicht übertragen, Medien. Ohne Medium übertragen werden es keine Metriken verfügbar für CQD zu verwenden, um den Endpunkt ausgehende videomedienströmen klassifizieren.
 
-Weitere Informationen zum Vorgang, Stream Klassifizierung finden Sie unter [in diesem Artikel](/skypeforbusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard).
+Weitere Informationen zum Vorgang, Stream Klassifizierung finden Sie unter [in diesem Artikel](stream-classification-in-call-quality-dashboard.md).
 
 ### <a name="common-subnets"></a>Allgemeine Subnetze
 
@@ -439,13 +466,13 @@ Sie können drei verschiedene Arten CQD zugreifen:
 
 ![In den linken Navigationsbereich der Link zur Anrufqualität Dashboard aktiviert ist.] (media/qerguide-image-mopo.png "In den linken Navigationsbereich der Link zur Anrufqualität Dashboard aktiviert ist.")
 
-_Abbildung 6 – Zugriff auf CQD über die Microsoft-Teams & Skype für Business Admin Center_
+_Abbildung 7 – Zugriff auf CQD über die Microsoft-Teams & Skype für Business Admin Center_
 
 -   Wechseln Sie zu der Vorversion **Skype für Business Administrationscenter** > **Extras**, und wählen Sie den Link zur CQD, wie in der folgenden Abbildung dargestellt.
 
 ![Tools in den linken Navigationsbereich ausgewählt ist, und der Link zur CQD ausgewählt ist, klicken Sie im Hauptfenster.] (media/qerguide-image-legacyui.png "Tools in den linken Navigationsbereich ausgewählt ist, und der Link zur CQD ausgewählt ist, klicken Sie im Hauptfenster.")
 
-_Abbildung 7: Zugreifen auf CQD über die Skype für Business Administrationscenter_
+_Abbildung 8: Zugreifen auf CQD über die Skype für Business Administrationscenter_
 
 
 ### <a name="getting-started"></a>Erste Schritte
@@ -454,7 +481,7 @@ Wenn Sie zuerst CQD durchsuchen, sehen Sie auf der Seite Zusammenfassung Bericht
 
 ![Unterschiedliche Arten von Berichten, die in CQD verfügbar sind](media/qerguide-image-choosereports.png)
 
-_Abbildung 8: Navigieren zum ausführliche Berichte_
+_Abbildung 9: Navigieren zum ausführliche Berichte_
 
 Die Seite ausführliche Berichte in CQD sieht wie in der folgenden Abbildung aus.
 
@@ -467,7 +494,7 @@ Die Seite ausführliche Berichte in CQD sieht wie in der folgenden Abbildung aus
 | ![drei] (media/qerguide-image-callout3.png "drei") | Die Breadcrumb-Leiste hilft Benutzern bei ihrer aktuellen Position in der Berichtshierarchie zu identifizieren. |
 | ![vier] (media/qerguide-image-callout4.png "vier") | Berichte, die ist der untergeordneten Berichte, werden mit einer blauen Link angezeigt. Wenn Sie den Link auswählen, können Sie nach unten zu den untergeordneten Berichte anzeigen. |
 
-_Abbildung 9: ausführliche Berichtsseite_
+_Abbildung 10: ausführliche Berichtsseite_
 
 Zeigen Sie auf Balkendiagrammen und Trendlinien im Bericht detaillierte Werte angezeigt. Zeigt der Bericht, den Fokus hat im Aktionsmenü: **Bearbeiten**, **Wenn Sie den Klon**, **Löschen**, **herunterladen**und **Berichtsstruktur exportieren**.
 
@@ -484,7 +511,7 @@ Beim **Bearbeiten** eines Berichts im Menü Aktion auswählen, werden Sie Abfrag
 | ![drei] (media/qerguide-image-callout3.png "drei") | Der Abfrage-Editor zeigt eine Vorschau des Berichts. |
 | ![vier] (media/qerguide-image-callout4.png "vier") | Verwenden Sie das **Bearbeiten** am unteren Rand des Bildschirms zum Erstellen oder bearbeiten eine detaillierte Beschreibung des Berichts. |
 
-_Abbildung 10 - Abfrage-Editor_
+_Abbildung 11 - Abfrage-Editor_
 
 ### <a name="filtering-reports"></a>Filtern von Berichten
 
@@ -653,13 +680,13 @@ Die Daten Quality of Experience (QoE), die Clients zu Office 365 senden – wobe
 
   ![CQD-Bericht, der definiert, wie ein VPN-Subnetz erstellen](media/qerguide-image-vpnnetworkname.png)
 
-  _Abbildung 11: Netzwerkname mit VPN_
+  _Abbildung 12: Netzwerkname mit VPN_
 
 -   Definieren Sie einen **Namen erstellen** , indem Sie mit dem Text "VPN" in diesem Feld für VPN-Subnetze.
 
   ![CQD-Bericht, der definiert, wie eine Definition Erstellen von erstellen, die ein VPN-Subnetz umfasst.](media/qerguide-image-vpnbuildingname.png)
 
-  _Abbildung 12: Verwenden Sie zum Erstellen von Namen VPN_
+  _Abbildung 13: VPN verwenden Sie zum Erstellen von Namen_
 
 > [!IMPORTANT]
 > Bestimmte VPN-Implementierungen meldet nicht genau Subnetzinformationen. In diesem Fall in Ihre Berichte, empfehlen wir, wenn Sie die Datei zum Erstellen von anstelle eines Eintrags für das Subnetz ein VPN Subnetz hinzufügen fügen Sie separate Einträge für jede Adresse als ein separates 32-Bit-Netzwerk im VPN-Subnetz hinzu. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Beispielsweise müssen Sie anstelle einer Zeile für 172.16.18.0/24, 253 Zeilen, mit einer Zeile für jede Adresse aus 172.16.18.1/32 über 172.16.18.254/32, inklusive.
@@ -678,13 +705,13 @@ Das Dashboard CQD Zusammenfassung Berichte umfasst eine Seite **Mandanten Daten 
 
   ![Im Dialogfeld, das angezeigt wird, während Daten hochgeladen wird](media/qerguide-image-tenantdataupload.png)
 
-  _Abbildung 13: Menü Mandanten Daten hochladen_
+  _Abbildung 14: Menü Mandanten Daten hochladen_
 
 3.  Alternativ ist dies Ihre zum ersten Mal CQD besuchen, werden Sie aufgefordert, Erstellen von Daten hochzuladen. Sie können **Jetzt hochladen** , navigieren zur Seite **Mandanten Datenupload** schnell auswählen.
 
   ![Banner, die einen Benutzer das Erstellen von Datenupload benachrichtigt.](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _Abbildung 14: Building Daten hochladen banner_
+  _Abbildung 15: Erstellen von Daten hochladen banner_
 
 4.  Wählen Sie **Durchsuchen** , um eine Datendatei auszuwählen, auf der Seite **Mandanten Hochladen von Daten** .
 
@@ -694,7 +721,7 @@ Das Dashboard CQD Zusammenfassung Berichte umfasst eine Seite **Mandanten Daten 
 
   ![Beispiel für ein Dialogfeld an, die beim Importieren von Daten zum Erstellen von wird eine Fehlermeldung angezeigt.](media/qerguide-image-buildingdatauploaderror.png)
  
-  _Abbildung 15: Fehler beim Upload von Daten erstellen_
+  _Abbildung 16: Fehler beim Upload von Daten erstellen_
 
 7.  Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
 
@@ -741,7 +768,7 @@ Wechseln Sie zur Seite **Ausführliche Berichte** in CQD Online, und navigieren 
 
 ![Bericht mit Subnetze in der Datei CQD Erstellen von nicht enthalten, die Verwendung anzeigen.](media/qerguide-image-missingbuildingreport.png)
 
-_Abbildung 16: Erstellen von Bericht fehlt_
+_Abbildung 17: Erstellen von Bericht fehlt_
 
 ### <a name="building-mapping-tools"></a>Erstellen von Zuordnung tools
 
@@ -766,6 +793,36 @@ Obwohl der Netzwerk-Planner Erstellen von Zuordnung vollständig automatisieren 
 
 Es wird dringend empfohlen, dass Sie bei der Bereitstellung von Medien Arbeitslasten in Ihrem Netzwerk bewerten Sie die gesamte Auswirkung der Netzwerk-Planner nutzen. Weitere Informationen zu der Netzwerk-Planner finden Sie auf [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
+
+## <a name="diagnostic-alerts"></a>Diagnose-Warnungen
+
+Microsoft überwacht proaktiv CQD Telemetrie zum diagnostische Warnungen für bekannte Probleme zu erstellen, die sich negativ auf die benutzerfreundlichkeit auswirken. Diese Benachrichtigungen werden dann automatisch Dienstadministrator über das Nachrichtencenter gesendet. Die folgende Tabelle enthält die Diagnose Warnungen, die in der Nachrichtencenter zusammen mit Links zu weiteren Informationen angezeigt werden.
+
+_Tabelle 6: Diagnostic Benachrichtigungen_
+
+| Warnen                                                                | Weitere Informationen             |
+|----------------------------------------------------------------------|------------------------------|
+| Bekannten Clientversionen mit geringer Leistung werden verwendet                   | [Client-Versionen](#client-versions)              |
+| Audiotreiber sind Anruf setzt verursacht.                                 | [Geräte](#devices)                      |
+| Einschränkungen in der Firewall verursachen Setup anruffehlern         | [Setup-Fehler Untersuchungen](#setup-failure-investigations) |
+| Tiefe Paketinspektion verursacht Setup anruffehlern                | [Setup-Fehler Untersuchungen](#setup-failure-investigations) |
+| Meeting Room Geräte auf Wi-Fi-Netzwerke verursachen schlechter Anrufqualität | [Qualität Untersuchungen](#quality-investigations)       |
+| UDP-Datenverkehr wird dazu führt, dass Anrufe schlechter Qualität Qualität begrenzt wird,         | [TCP](#tcp)                          |
+| VPN-Verwendung wird die Anrufqualität beeinflussen.                                  | [Qualität Untersuchungen](#quality-investigations)       |
+
+
+### <a name="message-center"></a>Nachrichtencenter
+
+Der Nachrichtenstatus informiert Sie über neue Updates, Features oder Probleme. Message Center ist in Office 365 Administrationscenter Dienstadministratoren verfügbar. Jede Post bietet eine allgemeine Übersicht über wie das Update, Funktion oder Problem wirkt sich auf die Benutzer, und enthält Links zu ausführlichen Informationen.
+
+Wechseln Sie zum Öffnen der Nachrichtenstatus in Office 365 Administrationscenter zu **Integrität** > **Nachrichtencenter**, oder wählen Sie die Nachricht Center Karte auf der **Startseite** Dashboard. Das Dashboard zeigt die letzten drei Nachrichten, die veröffentlicht wurden und Links zu der vollständigen Nachricht Center-Seite.
+ 
+
+![Die Nachricht Center Karte zeigt die letzten drei Nachrichten, die veröffentlicht wurden](media/qerguide-image-messagecentercard.png)
+
+_Abbildung 18 - Nachricht Center Karte_
+
+Sie können auch die [Office 365 Admin app](https://go.microsoft.com/fwlink/p/?linkid=627216) auf dem mobilen Gerät das Nachrichtencenter anzuzeigen, das eine hervorragende Möglichkeit zum Pushbenachrichtigungen Stand ist. Weitere Informationen finden Sie unter [in diesem Artikel](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
 
 ## <a name="reliability-investigations"></a>Zuverlässigkeit Untersuchungen
 
@@ -793,7 +850,7 @@ In diesem Bericht werden angezeigt, der die Gesamtmenge des Streams, Stream Setu
 
 ![Ein Diagramm, Prozentsatz der Stream Setupfehler](media/qerguide-image-streamsetupfailures.png)
 
-_Abbildung 16 - Audiozuverlässigkeit - Stream Setupfehler_
+_Abbildung 19 - Audiozuverlässigkeit - Stream Setupfehler_
 
 ##### <a name="analysis"></a>Analyse
 
@@ -819,13 +876,17 @@ Diese Zusammenfassungsbericht wird verwendet, zu ermitteln und alle Gebäude ode
 
 ![Eine Liste der Gründe für die Anruf-Setupfehler organisiert erstellen, Netzwerk und Subnetz pro Monat](media/qerguide-image-setupfailuresbysubnet.png)
 
-_Abbildung 18: Audio Setupfehler von Subnetz_
+_Abbildung 20 - Audio Setupfehler von Subnetz_
+
+##### <a name="diagnostic-alert"></a>Diagnose-Warnung
+
+Wenn Sie erhalten identifiziert eine Diagnose-Warnung "Einschränkungen in der Firewall entstehen anruffehlern Setup" oder "Tiefe Paketinspektion verursacht Setup anruffehlern," konzentrieren Ihre Remediation auf diesen zunächst Subnetze. Die Benachrichtigung hat Subnetze identifiziert, die sich negativ auf Anruf Zuverlässigkeit auswirken. Sie können die Setupfehler-Berichte in den Abschnitt Zuverlässigkeit zur Unterstützung bei der Wartung verwenden.
 
 ##### <a name="remediation"></a>Wartung 
 
 Konzentrieren Sie sich Ihre ersten Remediation-Maßnahmen auf Gebäude oder Subnetze abgerufen, die das größte Volume der Fehler haben. Dies maximieren Auswirkung auf die Benutzeroberfläche und Ihnen dabei helfen, um schnell die Rate der Organisationseinheit Anruf Setupfehler zu reduzieren. Die folgende Tabelle enthält die beiden Gründe für Fehler bei der Installation von CQD gemeldet.
 
-_Tabelle 6 – Gründe für Setup Anruffehlern_
+_Tabelle 7 – Gründe für Setup Anruffehlern_
 
 | Rufen Sie die Ursache für Fehler bei der Installation       | Typische Ursache                    |
 |----------------------------------|----------------------------------|
@@ -834,7 +895,7 @@ _Tabelle 6 – Gründe für Setup Anruffehlern_
 
 Nun, wie Sie Ihre Remediation beginnen, können Sie sich in einem bestimmten Gebäude oder Subnetz konzentrieren. Wie in die obigen Tabelle gezeigt wird, werden diese Probleme aufgrund der Firewall oder der Proxyserver Konfigurationen. Überprüfen Sie die Optionen in der folgenden Tabelle für Remediation Aktionen.
 
-_Tabelle 7: nächste Schritte für Anruf Setup Fehler-Wartung_
+_Tabelle 8: nächste Schritte für Anruf Setup Fehler-Wartung_
 
 | Wartung           | Anleitung     |
 |-----------------------|--------------|
@@ -852,7 +913,7 @@ In diesem Bericht werden angezeigt, der die Gesamtmenge des Audiostreams insgesa
 
 ![Diagramm mit den Prozentsatz der Datenströme, die gelöscht wurden](media/qerguide-image-droppedstreamrate.png)
 
-_Abbildung 19: Initiale Stream rate_
+_Abbildung 21 - Rate Initiale Stream-Objekt_
 
 ##### <a name="analysis"></a>Analyse
 
@@ -875,7 +936,7 @@ Hier gemeldeten Fehler hervor, dass der Anruf wurde unerwartet gelöscht und ein
 
 ![Meldet, dass die Listen Anzahl und den Prozentsatz der Drop-Fehler erstellen, Netzwerk und Subnetz pro Monat geordnet](media/qerguide-image-dropfailuresbysubnet.png)
 
-_Abbildung 20 – Drop Fehler durch Subnetz_
+_Abbildung 22 – Drop Fehler durch Subnetz_
 
 ##### <a name="remediation"></a>Wartung
 
@@ -894,7 +955,7 @@ Unabhängig von der nächste Schritt ist es ratsam, dem Helpdesk benachrichtigen
 
 Die folgende Tabelle enthält einige allgemeinen Methoden zum Verwalten und Warten von Drop-Fehler.
 
-_Tabelle 8: nächste Schritte für Anruf drop-Wartung_
+_Tabelle 9: nächste Schritte für Anruf drop-Wartung_
 
 | Wartung                              | Anleitung                      |
 |------------------------------------------|-------------------------------|
@@ -924,11 +985,11 @@ Trend-Berichte anzeigen von Informationen über einen Zeitraum Qualität und die
 > Untersuchen von zwei Teilnehmern, PSTN-Anrufe und Besprechungsräumen ähneln Untersuchen von Konferenzen. Der Schwerpunkt liegt auf Isloate Gebäude oder Subnetze, die die schlechteste Qualität und identifizieren Sie den Grund für die schlechter Qualität.
 
 > [!Important]
-> VPN-basierte Berichte werden mithilfe der zweite VPN-Dimension gefiltert. Diese Dimension erfordert, dass die VPN-Netzwerkadapter als Remote Access Adapter ordnungsgemäß registriert sein.  VPN-Herstellern don'tt zuverlässig verwenden Sie dieses Flag und Ihre Mileage variiert je nach dem VPN-Anbieter in Ihrer Organisation bereitgestellt. Befolgen Sie die Anleitung konturierte [Weiter oben in diesem Handbuch](NEED LINK) zum Ändern des VPNs gibt an, ob mit dem Namen Erstellen von oder im Netzwerk benötigt.
+> VPN-basierte Berichte werden mithilfe der zweite VPN-Dimension gefiltert. Diese Dimension erfordert, dass die VPN-Netzwerkadapter als Remote Access Adapter ordnungsgemäß registriert sein. VPN-Anbieter nicht zuverlässig dieses Flag verwenden, und Ihre Mileage variiert je nach dem VPN-Anbieter in Ihrer Organisation bereitgestellt. Befolgen Sie die Anleitung konturierte [Weiter oben in diesem Handbuch](#vpn) zum Ändern des VPNs gibt an, ob mit dem Namen Erstellen von oder im Netzwerk benötigt.
 
 ![Diagramm mit den Prozentsatz Anrufe schlechter Qualität Datenströme](media/qerguide-image-audioqualityconferencing.png)
 
-_Abbildung 21 – Audioqualität - Konferenzen_
+_Abbildung 23 – Audioqualität - Konferenzen_
 
 ##### <a name="investigation"></a>Untersuchung
 
@@ -945,7 +1006,7 @@ Antworten auf die obigen Fragen unabhängig Zeit in Anspruch nehmen die mithilfe
 
 Die Qualität Zusammenfassungsberichte Sie tiefere Einblicke übergeben in was beigetragen an die Datenströme, das als schlecht klassifiziert und trägt dazu bei, um Problembereiche im verwalteten Netzwerk zu isolieren.
 
-Obwohl die Dimensionen zwischen Bericht etwas abweichen, wird jede Bericht Maßnahmen zur Datenströme gesamt, insgesamt schlechte Datenströme, a. und schlechter Qualität aufgrund von enthalten. Tabellenberichte für die einzelnen Bereiche von Interesse erstellt wurden:-Konferenzfunktion, mit zwei Teilnehmern PSTN aufrufen, VPN- und meeting Räumen. Die verwalteten Netzwerk-Vorlage enthält weitere Berichte nutzen die Standortinformationen, die über das Erstellen von Datei hochgeladen.
+Obwohl die Dimensionen zwischen Bericht etwas abweichen, wird jede Bericht Maßnahmen zur Datenströme gesamt, insgesamt schlechte Datenströme, a. und schlechter Qualität aufgrund von enthalten. Berichte für die einzelnen Bereiche von Interesse erstellt wurden:-Konferenzfunktion, mit zwei Teilnehmern PSTN aufrufen, VPN- und meeting Räumen. Die verwalteten Netzwerk-Vorlage enthält weitere Berichte nutzen die Standortinformationen, die über das Erstellen von Datei hochgeladen.
 
 > [!NOTE]
 > Achten Sie darauf, dass Sie den Monat-Jahr-Filter mit dem aktuellen Monat anpassen. Wählen Sie **Bearbeiten**aus, und passen Sie **Monat-Jahr** , um den neuen Standardmonat zu speichern.
@@ -956,7 +1017,13 @@ Obwohl die Dimensionen zwischen Bericht etwas abweichen, wird jede Bericht Maßn
 
 ![Schlechte Audiostream Zusammenfassung](media/qerguide-image-poorqualitysummary.png)
 
-_Abbildung 22 – Zusammenfassung durch Erstellen von schlechter Audiostream- und Subnetz Konferenzen_
+_Abbildung 24 – Zusammenfassung durch Erstellen von schlechter Audiostream- und Subnetz Konferenzen_
+
+##### <a name="diagnostic-alert"></a>Diagnose-Warnung
+
+Wenn Sie eine Diagnose erhalten Warnung "Meeting Room Geräte auf Wi-Fi-Netzwerke verursachen schlechter Anrufqualität," enthalten, und diese Geräte in Ihre Remediation-Maßnahmen priorisieren. Die Benachrichtigung hat Besprechungsräumen Wi-Fi identifiziert, die aktiv Anruf schlechter Qualität beitragen.
+
+Wenn Sie einen diagnostic Entgegennehmen "VPN-Verwendung wird die Anrufqualität, beeinflussen" untersuchen eine Split-tunneling-Lösung zu umgehen die VPN-Anwendung und Medien, für die direkte Verbindung mit dem Dienst ermöglichen. Die Benachrichtigung hat festgestellt, dass VPN sich negativ auf die Anrufqualität beeinflusst.
 
 ##### <a name="remediation"></a>Wartung
 
@@ -970,7 +1037,7 @@ Um Ihre Untersuchung Qualitätsprobleme rechten zu unterstützen, können Sie [R
 
 Vergessen Sie nicht, lassen Sie das Helpdesk wissen, dass diese Netzwerke Qualität, Probleme haben, sodass sie schnell selektieren und eingehende Anrufe beantworten können.
 
-_Tabelle 9: Allgemeine Beiträge zu hohe a._
+_Tabelle 10: Allgemeine Beiträge zu hohe a._
 
 | Wartung                              | Anleitung                         |
 |------------------------------------------|----------------------------------|
@@ -982,12 +1049,14 @@ _Tabelle 9: Allgemeine Beiträge zu hohe a._
 | **Clients** <br>(Skype für Unternehmen nur Online) | Ältere Clients wurden als verursacht Probleme mit Medien. Stellen Sie sicher, dass Clients innerhalb von sechs Monaten nach Veröffentlichung gepatcht werden. [MyAdvisor](https://aka.ms/myadvisor) Hinweise zum Entwickeln einer Strategie für die Bereitschaft Client verwenden und Bereitstellen von [Klick-und-Los](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus). |
 | **Geräte** | Die Verwendung der [Geräte optimiert](https://partnersolutions.skypeforbusiness.com/solutionscatalog) , damit die Benutzeroberfläche wesentlich verbessert. Optimierte Geräte dienen mit alles gleich können Sie die Arbeit mit Teams und Skype für Unternehmen zu maximieren und Erstellen von höchster Qualität. Verwenden Sie [MyAdvisor](https://aka.ms/myadvisor) Anleitungen zum Entwickeln einer Strategie für die Bereitschaft Gerät. |
 | **Treiber** | Patchen von Netzwerk (Ethernet und Wi-Fi), Audio-, Video- und USB-Treiber sollten Bestandteil Ihrer gesamten Patch-Management-Strategie sein. Viele Qualitätsprobleme werden durch Aktualisieren der Treiber gelöst. |
+| **Besprechungsräumen Wi-Fi** | Wir empfehlen dringend, Meeting Room-Geräte werden mithilfe von mindestens einem 1-Gbit/s Ethernet-Verbindung mit dem Netzwerk verbunden. Meeting Room Geräte in der Regel gehören Sie mehrere Datenströme für Audio- und Videokonferenzen sowie Besprechungsinhalte wie Bildschirmfreigabe, und haben Sie einer höheren netzwerkanforderungen als andere Teams oder Skype für die Business-Endpunkte. Besprechungsräumen sind per Definition Briefpapier Geräte, auf dem Wi-Fi Bonus nur während der Installation ausgeführt.<br><br>Besprechungsräumen müssen mit zusätzlichen Diagnose und Aufmerksamkeit, um sicherzustellen, dass die Erfahrung im Umgang mit diesen Geräten meeting oder die Erwartungen überschreiten behandelt werden soll. Qualitätsprobleme mit Besprechungsräumen sind in der Regel schnell eskaliert werden sollte, da sie häufig durch hochrangige Personal verwendet werden.<br><br>Alle Faktoren gleich (mit Ausnahme der Bequemlichkeit) ist Wi-Fi-Leistung häufig kleiner als eine drahtgebundene Verbindung. Die Steigung der Richtlinien "schalten Sie Ihr eigenes Gerät" und die Verbreitung von Laptops sind Wi-Fi-Zugriffspunkte oft überlastet. Real-Time Media möglicherweise nicht auf Wi-Fi-Netzwerke priorisiert werden, was zu Qualitätsprobleme, während der Spitzenzeiten verwenden führen kann. Diese intensiver Nutzung kann mit einer Besprechung übereinstimmen, in der Teilnehmerliste, jeweils mit eigenem Laptop und Smartphone, zu dem gleichen Wi-Fi-Zugriffspunkt als der Besprechung aller angeschlossenen zwölf Personen möglicherweise Raum Gerät.<br><br>Wi-Fi sollten nur als eine Zwischenlösung für eine mobile Installation oder wenn Wi-Fi ordnungsgemäß bereitgestellt wurden, zur Unterstützung von Unternehmensmessaging-, Real-Time-basierten Medien berücksichtigt werden. |
+
 
 ### <a name="tcp"></a>TCP
 
 TCP gilt ein Failback Transport- und nicht den primären Transport für Real-Time Media gewünschte. Der Grund dafür, dass sie ein Failback Transport ist besteht aufgrund der dynamische TCP. Beispielsweise, wenn ein Anruf erfolgt in einem Netzwerk latente und Medien Pakete verzögert werden klicken Sie dann Pakete von ein paar Sekunden vor – die eignen sich nicht mehr – konkurrieren für Bandbreite, um an den Empfänger zu abzurufen, die eine ungültige Situation verschlechtern können. Dadurch wird das audio Reparatur zusammenfügen und Dehnen Audio, wodurch hörbaren Artefakte, häufig in Form von Jitter.
 
-Die Berichte in diesem Abschnitt stellen keine Unterscheidung zwischen gute und schlechte Datenströme. UDP bevorzugte ist, suchen die Berichte für die Verwendung von TCP für Audio-, Video- und videobasierte Bildschirmfreigabe (VBSS). Dies wird hauptsächlich durch unvollständig Firewallregeln verursacht. Weitere Informationen zu Firewall-Regeln für Teams und Skype für Business Online finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips).
+Die Berichte in diesem Abschnitt stellen keine Unterscheidung zwischen gute und schlechte Datenströme. UDP bevorzugte ist, suchen die Berichte für die Verwendung von TCP für Audio-, Video- und videobasierte Bildschirmfreigabe (VBSS). Schlechte Stream Sätze werden bereitgestellt, um Hilfe UDP-Qualität und TCP Qualität verglichen werden soll, damit Sie sich konzentrieren können, auf dem die Auswirkung der höchste Wert ist. Verwendung von TCP wird hauptsächlich durch unvollständig Firewallregeln verursacht. Weitere Informationen zu Firewall-Regeln für Teams und Skype für Business Online finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips).
 
 > [!Important]
 > Bei Verwendung einer [gültigen Erstellen von Datei](#building-mapping) hochgeladen wird dringend empfohlen, sodass Sie schnell innerhalb von externen Datenströme unterscheiden können bei der Suche unter Verwendung von TCP.
@@ -1000,7 +1069,7 @@ Die Berichte in diesem Abschnitt stellen keine Unterscheidung zwischen gute und 
 TCP-Berichte gibt die TCP-Gesamtverwendung in den letzten sieben Monaten an. Alle weiteren Berichte in diesem Abschnitt Schwerpunkt auf Eingrenzung bestimmte Gebäude und Subnetzen, wo TCP am häufigsten verwendet wird. Separate Berichte stehen für Konferenzen und zwei Datenströme.
 
 ![Diagramm mit den Prozentsatz der Audiostreams, die TCP verwenden](media/qerguide-image-audiostreamswithtcp.png)
-_Abbildung 23 – Audiostreams mit TCP-Verwendung_
+_Abbildung 25 – Audiostreams mit TCP-Verwendung_
 
 
 ##### <a name="investigation"></a>Untersuchung
@@ -1020,13 +1089,11 @@ In diesem Bericht werden die Lautstärke von TCP und UDP Verwendungsberichten au
 
 ![Bericht mit der Lautstärke des Streams, die TCP und UDP verwenden](media/qerguide-image-tcpvsudp.png)
 
-_Abbildung 24 – TCP und UDP - Konferenzen_
+_In Abbildung 26 – TCP und UDP - Konferenzen_
 
 ##### <a name="analysis"></a>Analyse
 
-Obwohl Sie TCP-Nutzung so gering wie möglich sein soll, wird möglicherweise ein Bit der TCP-Verwendung in einer Bereitstellung andernfalls fehlerfrei angezeigt. Obwohl es immer einige wenige TCP Auslastung könnten, als für Audio-, Video- und VBSS möglichst wenig TCP-Verwendung finden Sie unter werden soll.
-
-Auch in den Bericht einbezogen ist die schlechter Stream Rate. Dies bietet Ihnen eine Ansicht in dem Vergleich zwischen zwei UDP und TCP zum Visualisieren wie TCP Usage allgemeine Qualität auswirkt.
+Obwohl Sie TCP-Nutzung so gering wie möglich sein soll, wird möglicherweise ein Bit der TCP-Verwendung in einer Bereitstellung andernfalls fehlerfrei angezeigt. TCP selbst wird nicht zu einem Anruf schlechter, teilnehmen, damit Stream Sätze bereitgestellt werden, um herauszufinden, ob die Nutzung des TCP als Mitwirkenden schlechter Qualität ist. 
 
 #### <a name="tcp-investigations"></a>TCP Untersuchungen
 
@@ -1040,7 +1107,11 @@ Navigieren Sie in den bereitgestellten CQD Vorlagen zu der TCP-Datenströme von 
 
 ![TCP-Nutzung durch Erstellen und Subnetz](media/qerguide-image-tcpstreams.png)
 
-_Abbildung 25 – TCP-Datenströme durch die Erstellung- und Subnetz Konferenzen_
+_Abbildung 27 – TCP-Datenströme durch die Erstellung- und Subnetz Konferenzen_
+
+##### <a name="diagnostic-alert"></a>Diagnose-Warnung
+
+Wenn Sie eine Benachrichtigung diagnostische erhalten "UDP-Datenverkehr wird begrenzt wird schlechter Anrufqualität, wodurch," konzentrieren Sie sich Ihre TCP Remediation-Maßnahmen für diese Subnetze zunächst. Die Benachrichtigung hat Subnetze identifiziert, auf dem die Verwendung von TCP sich negativ auf die Anrufqualität auswirkt.
 
 ##### <a name="remediation"></a>Wartung
 
@@ -1049,7 +1120,7 @@ In diesem Bericht identifiziert bestimmte Gebäude und Subnetze abgerufen, die d
 Die häufigste Ursache für die Verwendung von TCP fehlt Ausnahmeregeln in Firewalls oder Proxyserver. Wir sprechen Proxys im nächsten Abschnitt, also für jetzt Ihrer Arbeit Schwerpunkte auf die Firewalls. Über das Erstellen von oder Subnetz bereitgestellt, können Sie bestimmen, welche Firewall aktualisiert werden muss.
 
 
-_Tabelle 10 - Remediation * Richtlinien für die TCP-Datenströme durch Erstellen und Subnetz_
+_Tabelle 11: Remediation Richtlinien für die TCP-Datenströme durch Erstellen und Subnetz_
 
 | Wartung        | Anleitung     |
 |--------------------|--------------------------------------|
@@ -1073,7 +1144,7 @@ Der HTTP-Proxy Stream-Bericht in diesem Abschnitt der Vorlage ähnelt der TCP-Be
 
 ![Bericht der Audiostreams, die Verwendung von HTTP](media/qerguide-image-audiostreamswithhttp.png)
 
-_In Abbildung 26 – Audiostreams mit HTTP-Proxy-Verwendung_
+_Abbildung 28 – Audiostreams mit HTTP-Proxy-Verwendung_
 
 ##### <a name="analysis"></a>Analyse
 
@@ -1096,7 +1167,7 @@ In diesem Bericht identifiziert bestimmte Gebäude und Subnetze abgerufen, die z
 
 ![Bericht über HTTP-Proxy-Nutzung durch die Erstellung und Subnetz](media/qerguide-image-httpproxyusage.png)
 
-_Abbildung 27 – HTTP-Proxy-Nutzung durch die Erstellung und Subnetz_
+_Abbildung 29 – HTTP-Proxy-Nutzung durch die Erstellung und Subnetz_
 
 ##### <a name="remediation"></a>Wartung
 
@@ -1108,7 +1179,7 @@ Stellen Sie sicher, dass die erforderlichen [Office 365 FQDNs](https://aka.ms/o3
 
 Weitere Informationen zum Verwenden von Proxys mit Skype für Business Online und Teams finden Sie unter [in diesem Artikel](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
 
-## <a name="clients-and-devices"></a>Clients und Geräten
+## <a name="endpoint-investigations"></a>Endpunkt Untersuchungen
 
 In diesem Abschnitt konzentriert sich auf die Aufgaben für die Berichte zur Clientversionen und die Verwendung von zertifizierte Geräte. Berichte sind zur Verwendung für Clientversionen, Clienttyp, Capture Geräte und Treiber (Mikrofon), Videoaufnahmegeräte und Lieferanten und der Treiberversion Wi-Fi-Versionen Gliederung verfügbar.
 
@@ -1130,24 +1201,28 @@ Die Berichte in diesem Bereich konzentrieren Sie sich zum Identifizieren von Sky
 
 ![Bericht-Clients und-Geräten](media/qerguide-image-clientversionreport.png)
 
-_Abbildung 28 - Client-Version-Bericht_
+_Abbildung 30 - Client-Version-Bericht_
+
+#### <a name="diagnostic-alert"></a>Diagnose-Warnung
+
+Wenn Sie erhalten eine diagnostic alert "bekannten Clientversionen mit geringer Leistung werden verwendet", Schwerpunkt liegt auf diese Clients zuerst aktualisieren. Die Benachrichtigung hat festgestellt, dass diese Clients sich negativ auf die Anrufqualität beeinflusst werden. Bericht-Clients und Geräte (siehe oben) können Sie dazu beitragen, dass die Clients, die bekannte Probleme haben, nicht mehr aktualisiert werden.
 
 #### <a name="remediation"></a>Wartung
 
-Ein wichtiger Aspekt gesteuerter hochwertigen benutzerumgebungen müssen Sie sicherstellen, dass verwaltete Clients auf dem neuesten Stand Versionen von Skype für Unternehmen, die ausgeführt werden, zusätzlich zur Sicherstellung, dass die unterstützenden Treiber auf dem aktuellen Stand sind. Dies bietet verschiedene Vorteile, dazu zählen: 
+Ein wichtiger Aspekt treibende hochwertigen benutzerumgebungen müssen Sie sicherstellen, dass verwaltete Clients auf dem neuesten Stand Versionen von Skype für Unternehmen, die ausgeführt werden, zusätzlich zur Sicherstellung der unterstützenden Audio, Video, Netzwerk, und USB-Treiber auf dem aktuellen Stand sind. Dies bietet verschiedene Vorteile, dazu zählen: 
 
 -   Es ist einfacher, einige Versionen im Vergleich zu viele Versionen zu verwalten.
 -   Es bietet eine einheitliche Erfahrung.
 -   Es erleichtert die Problembehandlung bei Anrufqualität und Verwendbarkeit.
 -   Microsoft stellt allgemeine Verbesserungen und Optimierungen ständig über das Produkt. Sicherstellen, dass Benutzer diese Updates erhalten, die ihre Risiken der Ausführung in ein Problem, das bereits behoben ist.
 
-Einschränken des Ihre Bereitstellung Clientversionen, die weniger als sechs Monaten sind wird die gesamten Benutzeroberfläche verbessert und Verbesserung der Verwaltbarkeit im Vergleich zu großen Anzahl von verschiedenen Versionen des Clients in der gleichen Umgebung müssen.
+Einschränken des Ihre Bereitstellung Clientversionen, die weniger als sechs Monaten sind wird die gesamten Benutzeroberfläche verbessert und Verbesserung der Verwaltbarkeit durch Verringern der Anzahl der Versionen, die unterstützt werden müssen.
 
 Wenn Sie nur Office Klick-und-Los verwenden, werden Sie automatisch binnen sechs Monaten sein. Es ist keine weitere Aktion erforderlich.
 
 Wenn Sie eine Kombination von Klick-und-Los und Installer-Pakete (MSI) verfügen, können Sie den Bericht verwenden, um sicherzustellen, dass die MSI-Clients regelmäßig aktualisiert werden. Wenn Sie, dass Clients feststellen hinter sinkt, arbeiten mit dem Team verantwortlich für die Verwaltung von Office-Updates, und stellen Sie sicher, dass sie genehmigen und Bereitstellen von Client-Patches regelmäßig sind.
 
-Es ist außerdem wichtig, zu berücksichtigen und stellen Sie sicher, dass die USB- und Audiotreiber sowie gepatcht werden. Es werden einfach nicht verändert werden diese Treiber und nicht in Ihrer Strategie Patch Management einbinden.
+Außerdem ist es wichtig zu berücksichtigen, und stellen Sie sicher, dass das Netzwerk, video, USB und Audiotreiber sind gepatcht sowie. Es werden einfach nicht verändert werden diese Treiber und nicht in Ihrer Strategie Patch Management einbinden.
 
 Versionsnummern für Skype für Unternehmen finden Sie über die folgenden Links:
 
@@ -1182,7 +1257,11 @@ Gerät Berichte dienen zum Bewerten der Device-Auslastung von Volume und MOS (nu
 
 ![Bericht Geräte (Mikrofon)](media/qerguide-image-devicesmicrophone.png)
 
-_Abbildung 29 - Geräte (Mikrofon)_
+_Abbildung 31 - Geräte (Mikrofon)_
+
+##### <a name="diagnostic-alert"></a>Diagnose-Warnung
+
+Wenn Sie eine Benachrichtigung diagnostische erhalten "Audiotreiber verursachen Anruf setzt," Schwerpunktthemen zuerst Korrigieren von diese Treiber. Die Benachrichtigung hat festgestellt, dass bekannten fehlerhafte Treiber Anrufe abzulegende verursachen und sich negativ auf Anruf Zuverlässigkeit betroffen sind. Den Mikrofon-Treiber Bericht (siehe oben), die im Abschnitt Clients und Geräte zu finden ist, können Sie bei diesem Prozess hilft.
 
 ##### <a name="remediation"></a>Wartung
 
@@ -1206,9 +1285,17 @@ Wi-Fi-Treiber auch auf einer regulären Trittfrequenz sowie gepatcht werden müs
 
 ## <a name="appendix"></a>Anhang 
 
+### <a name="office-365-network-connectivity-principles"></a>Office 365 Network Connectivity Prinzipien
+
+Bevor Sie beginnen, Ihr Netzwerk für die Office 365-Netzwerkkonnektivität planen, ist es wichtig zu verstehen, die Konnektivität Grundsätze für sichere Verwaltung von Office 365-Datenverkehr und erste die bestmögliche Leistung. Im folgende Artikel helfen Ihnen das Verständnis der neuesten Anleitung zur Optimierung von Office 365-Netzwerkkonnektivität sicher:
+
+[Office 365 Network Connectivity Prinzipien](https://aka.ms/pnc)
+
 ### <a name="planning-for-wi-fi"></a>Planen von Wi-Fi
 
-Microsoft Methode zum Laufwerk Qualität und Flexibilität in der Drahtlosnetzwerke stammen aus drei Teilen: Ende zum Planen, bewährte Methoden in der Bereitstellung, und proaktive Wartung und Betrieb. Diese Lösungsübersicht führt Sie durch diesen Vorgang, um sicherzustellen, dass ein Enterprise-Klasse drahtlosen Skype Business wünschen: [sicherstellen, dass die drahtlosen Skype ein Unternehmen für Business auftreten](https://www.microsoft.com/download/details.aspx?id=47257)
+Microsoft Methode zum Laufwerk Qualität und Flexibilität in der Drahtlosnetzwerke stammen aus drei Teilen: Ende zum Planen, bewährte Methoden in der Bereitstellung, und proaktive Wartung und Betrieb. Diese Lösungsübersicht führt Sie durch diesen Vorgang, um sicherzustellen, dass ein Enterprise-Klasse drahtlosen Skype Business wünschen:
+
+[Sicherstellen, dass ein Enterprise-Klasse drahtlosen Skype Business wünschen](https://www.microsoft.com/download/details.aspx?id=47257)
 
 ### <a name="lync-networking-guide"></a>Lync-Netzwerke (engl.)
 
@@ -1218,7 +1305,7 @@ Für weitere Hintergrund auf der Teams und Skype für Netzwerke Business-Konzept
 
 Die Qualität von Real-Time-Medien (Audio, Video und Anwendungsfreigabe) Implementation wird durch die Qualität der End-to-End-Netzwerkkonnektivität erheblich beeinträchtigt. Für eine optimale Teams oder Skype für Business Medienqualität muss Ihr Netzwerk die folgenden Leistungsmetriken Netzwerk erfüllen.
 
-_In Tabelle 11 - Netzwerk leistungsanforderungen_
+_Tabelle 12 - Netzwerk leistungsanforderungen_
 
 | Metrik                            | Client zu Microsoft Edge           | Kundenedge zu Microsoft Edge    |
 |-----------------------------------|------------------------------------|------------------------------------|
@@ -1235,7 +1322,7 @@ Weitere Informationen finden Sie unter [in diesem Artikel zur Leistung von Medie
 
 #### <a name="building-data-file"></a>Erstellen von-Datendatei
 
--   [Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
+-   [Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online](turning-on-and-using-call-quality-dashboard.md)
 
 #### <a name="cqd-training"></a>CQD-Schulung
 
@@ -1249,11 +1336,11 @@ Weitere Informationen finden Sie unter [in diesem Artikel zur Leistung von Medie
 
 -   [Einführung in Anruf Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Einrichten von Anrufen Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
+-   [Einrichten von Anrufen Analytics](set-up-call-analytics.md)
 
--   [Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+-   [Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
+-   [Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Wenden Sie Analytics
 

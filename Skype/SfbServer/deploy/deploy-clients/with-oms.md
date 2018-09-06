@@ -12,23 +12,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie in Microsoft Operations Management Suite mit Weise integrierte, End-to-End-Verwaltung von Skype Raum Systemen v2 Geräte bereitstellen.
-ms.openlocfilehash: 3e6c162619d42fcf181a3f3b279f6b89106d4a1c
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 0d1cd51bb80a287078ca4d85bdaec721e78d24ff
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391777"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256350"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Bereitstellen der Verwaltung von Skype Room System V2 mit OMS
- 
+
 In diesem Artikel wird erläutert, wie einrichten und Bereitstellen von integrierte, End-to-End-Verwaltung von Skype Raum Systemen v2 Geräten mithilfe von Microsoft Operations Management Suite.
-  
+
 Sie können Microsoft Operations Management Suite um bieten grundlegende Telemetrie konfigurieren, und Warnungen, die Ihnen helfen verwalten Skype meeting Room Geräte. Der Management-Lösung Laufe der Zeit, empfiehlt es sich zum Bereitstellen von zusätzlichen Daten und Management-Funktionen für eine ausführlichere Ansicht des Geräts Verfügbarkeit und Leistung zu erstellen.
 
 Wie im folgenden Beispiel wird ein Dashboard können Sie anhand dieses Handbuchs detaillierten Status für das Gerät Verfügbarkeit, Anwendung und Hardware Integrität und Skype Raum Systemen v2 Application Version Verteilung reporting abzurufen.
 
 ![Beispiel-OMS-Ansicht für SRS v2] (../../media/Deploy_OMS_1.png "Beispiel-OMS-Ansicht für SRS v2")
-  
+
 Allgemein müssen Sie die folgenden Aufgaben ausführen:
 
 
@@ -82,7 +82,7 @@ Bereitstellen des Vorgänge Management Suite Agents Testgeräte mithilfe der Anw
 
 Nachdem der Agent Vorgänge Management Suite auf Testgeräte bereitgestellt wird, stellen Sie sicher, dass die erforderlichen Ereignisprotokolldaten von Protokolldateien Analytics gesammelt werden.
 
-1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](http://aka.ms/omsportal).
+1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](https://aka.ms/omsportal).
 
 2.  Die von einem Skype Raum Systemen v2 Gerät generierten Ereignisse aufgelistet:
     1.  Wechseln Sie auf **Protokoll suchen** und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld.
@@ -110,7 +110,7 @@ Sie können benutzerdefinierte Felder verwenden, um bestimmte Daten aus den Erei
 
 Gehen Sie folgendermaßen vor, um die benutzerdefinierten Felder aus den aufgezeichneten Ereignisprotokollen zu extrahieren:
 
-1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](http://aka.ms/omsportal).
+1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](https://aka.ms/omsportal).
 
 2.  Die von einem Skype Raum Systemen v2 Gerät generierten Ereignisse aufgelistet:
     1.  Wechseln Sie auf **Protokoll suchen** und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld.
@@ -130,8 +130,8 @@ Gehen Sie folgendermaßen vor, um die benutzerdefinierten Felder aus den aufgeze
 > Denken Sie daran, dass alle JSON und Vorgänge Management Suite Felder Groß-/Kleinschreibung beachtet werden.
 
 > Achten Sie auf den Status des Kontrollkästchens EventID, in der folgenden Tabelle können. Stellen Sie sicher, dass Sie den Status dieses Kontrollkästchens für Vorgänge Management Suite zum Extrahieren von benutzerdefinierten Feldwerte erfolgreich zu bestätigen.
-> 
-> ![Definition für ein benutzerdefiniertes Feld] (../../media/Deploy_OMS_5.png "Definition für ein benutzerdefiniertes Feld") 
+>
+> ![Definition für ein benutzerdefiniertes Feld] (../../media/Deploy_OMS_5.png "Definition für ein benutzerdefiniertes Feld")
 
 **Tabelle 1**
 
@@ -170,8 +170,8 @@ Nachdem Daten erfasst werden und benutzerdefinierte Felder zugeordnet sind, kön
 
 Sie können ein Dashboard Vorgänge Management Suite importieren und Überwachung Ihrer Geräte sofort zu starten. Führen Sie die folgenden Schritte aus, um das Dashboard zu importieren:
 
-1.  Rufen Sie die [SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) -Dashboard-Datei.
-2.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](http://aka.ms/omsportal).
+1.  Rufen Sie die [SkypeRoomSystems_v2.omsview](https://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) -Dashboard-Datei.
+2.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](https://aka.ms/omsportal).
 3.  Öffnen Sie **Designer anzeigen**.
 4.  Die Option **Importieren**aus, und wählen Sie dann die Datei **SkypeRoomSystems_v2.omsview** aus.
 5.  Wählen Sie **Speichern**aus.
@@ -349,13 +349,13 @@ Die Regel kann dann automatisch ausführen eine oder mehrere Aktionen zum proakt
 Finden Sie unter [Understanding Warnungen im Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) erfahren Sie mehr über die Warnungen in Operations Management Suite.
 
 > [!NOTE]
-> In den folgenden Beispielen sendet e-Mail-Benachrichtigungen, wenn ein Skype Raum Systemen v2 Gerät ein Hardware oder ein Anwendungsfehler generiert. 
+> In den folgenden Beispielen sendet e-Mail-Benachrichtigungen, wenn ein Skype Raum Systemen v2 Gerät ein Hardware oder ein Anwendungsfehler generiert.
 
 
 ### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Konfigurieren Sie eine e-Mail-Warnung für Skype Raum Systemen v2 Hardwareprobleme
 
 Konfigurieren Sie eine Warnung Regel, die Skype Raum Systemen v2 Geräte überprüft, die innerhalb der letzten Stunde Hardwareprobleme kommuniziert haben.
-1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](http://aka.ms/omsportal).
+1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](https://aka.ms/omsportal).
 
 2.  Wählen Sie die **Log-Suche**.
 
@@ -364,7 +364,7 @@ Konfigurieren Sie eine Warnung Regel, die Skype Raum Systemen v2 Geräte überpr
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF
     |sort by TimeGenerated desc
     ```
 
@@ -438,7 +438,7 @@ Wenn Sie vor der Implementierung von Operations Management Suite bereits Skype R
 
 1.  Erstellen Sie einen freigegebenen Netzwerkpfad, und erteilen Sie der Gruppe " **Domänencomputer** ".
 
-2.  Laden Sie die 64-Bit-Version des Operations Management Suite-Agent für Windows aus<http://go.microsoft.com/fwlink/?LinkID=517476>
+2.  Laden Sie die 64-Bit-Version des Operations Management Suite-Agent für Windows aus<https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  Extrahieren Sie den Inhalt des Setup-Pakets in der Netzwerkfreigabe aus.
     1.  Öffnen Sie ein Eingabeaufforderungsfenster, und führen Sie die **MMASetup-AMD64.exe/c**
@@ -464,34 +464,34 @@ Wenn Sie vor der Implementierung von Operations Management Suite bereits Skype R
 
     ```
     # Install-OMSAgent.ps1
-    <# 
-    Date:        04/20/2018 
-    Script:      Install-OMSAgent.ps1 
+    <#
+    Date:        04/20/2018
+    Script:      Install-OMSAgent.ps1
     Version:     1.0
-    #> 
-    
+    #>
+
     # Set the parameters
     $WorkspaceId = "<your workspace id>"
     $WorkspaceKey = "<your workspace key>"
     $SetupPath = "\\Server\Share"
-    
+
     $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
-    
+
     # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
-    
+
     # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log  
-    
+    Start-Transcript -Path C:\OMSAgentInstall.Log
+
     # Check if the Microsoft Monitoring Agent is installed
     $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
-    
-    # Check if the Microsoft Monitoring agent is installed 
+
+    # Check if the Microsoft Monitoring agent is installed
     if (!$mma)
     {
         #Install agent
         Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
     }
-    
+
     # Check if the agent has a valid configuration
     $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
     if (!$CheckOMS)
@@ -499,12 +499,12 @@ Wenn Sie vor der Implementierung von Operations Management Suite bereits Skype R
         # Apply new configuration
         $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
         $mma.ReloadConfiguration()
-    } 
-    
-    Stop-Transcript 
-    
+    }
+
+    Stop-Transcript
+
     ```
-    
+
 > [!NOTE]
 > Sie können Sie den Artikel, [Verwaltung und Wartung des Protokolldateien Analytics-Agents](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) verweisen, wenn Sie einen Agent konfigurieren, mit einem anderen Arbeitsbereich zu verschieben oder Ändern von Proxyeinstellungen nach der Erstinstallation müssen.
 
@@ -521,5 +521,5 @@ Vorgänge Management Suite bietet integrierte Lösungen über seine [Lösungskat
 ## <a name="see-also"></a>Siehe auch
 
 [Planen der Verwaltung von Skype Room System V2 mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
-  
+
 [Verwalten von Skype Room Systems v2-Geräten mit OMS](../../manage/skype-room-systems-v2/oms.md)

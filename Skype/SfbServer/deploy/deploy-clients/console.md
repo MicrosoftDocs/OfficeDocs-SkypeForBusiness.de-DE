@@ -10,40 +10,40 @@ localization_priority: Priority
 ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: In diesem Artikel wird beschrieben, wie Sie das Skype Room Systems v2-Konsolengerät und die entsprechenden Peripheriegeräte einrichten.
-ms.openlocfilehash: e9675b091723dc3b021543acedd278404788be13
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
+ms.openlocfilehash: c2be3c1a8ee36120eac0198da364ab0101ae482e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013696"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23828715"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
-In diesem Artikel wird beschrieben, wie Sie das Skype Room Systems v2-Konsolengerät und die entsprechenden Peripheriegeräte einrichten.
+In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
   
 Sie sollten nur diese Schritte ausführen, wenn die erforderlichen Skype für Geschäfts- und Exchange-Konten bereits erstellt und getestet werden, wie unter [Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)beschrieben. Sie benötigen die Hardware und Software in [Skype Raum Systemen v2 Anforderungen](../../plan-your-deployment/clients-and-devices/requirements.md)beschrieben. Dieses Thema enthält die folgenden Abschnitte:
   
-- [Vorbereiten des Installationsimages](console.md#Prep_Image)
+- [Vorbereiten der Installationsmedien](console.md#Prep_Media)
     
-- [Installieren eines Zertifikats einer privaten Zertifizierungsstelle auf dem Tablet](console.md#Certs)
+- [Installieren Sie das Zertifikat einen privates in der Konsole](console.md#Certs)
     
-- [Installieren Sie Windows 10 und die app Skype Raum Systeme v2-Konsole](console.md#Reimage)
+- [Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2](console.md#Reimage)
    
 - [Anfängliche Einrichten der Konsole](console.md#Initial)
     
-- [Bereitstellungsprüfliste für Skype Room Systems v2](console.md#Checklist)
+- [Prüfliste für die Bereitstellung von Skype Raum Systemen v2](console.md#Checklist)
     
 > [!NOTE]
 > Skype-Chatroom-Systemen v2 funktioniert nur in einer ordnungsgemäß konfigurierten Skype für Business-Umgebung, in dem die Gerät Konten wie unter [Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)ordnungsgemäß eingerichtet wurden. 
   
-## <a name="prepare-the-installation-image"></a>Vorbereiten des Installationsimages
-<a name="Prep_Image"> </a>
+## <a name="prepare-the-installation-media"></a>Vorbereiten der Installationsmedien
+<a name="Prep_Media"> </a>
 
-Installieren der Skype Raum Systemen v2-app in einem Surface Pro 4 oder Surface Pro erfordert ein USB-Speichergerät mit mindestens 32GB Arbeitsspeicher als FAT32 Datenträger formatiert. Auf dem Gerät sollten sich keine anderen Dateien befinden. Im USB-Speicher vorhandene Dateien gehen verloren. 
+Installieren der Skype Raum Systemen v2 Konsole-app erfordert ein USB-Speichergerät mit mindestens 32GB Arbeitsspeicher als FAT32 Datenträger formatiert. Auf dem Gerät sollten sich keine anderen Dateien befinden. Im USB-Speicher vorhandene Dateien gehen verloren.
   
 > [!NOTE]
-> Wenn das Konsolenimage nicht gemäß diesen Anweisungen erstellt wurde, kann dies zu unerwünschtem Verhalten führen. Update für Windows 10 Enterprise Jahrestag (Version 1607) ist für die Erstellung von Skype Raum Systemen v2 Bild nicht mehr unterstützt. 
+> Fehler beim Skype Raum Systemen v2 Installationsmedium entsprechend diese Anweisungen wahrscheinlich in unerwartetes Verhalten zu erstellen. Windows 10 Enterprise Jahrestag Update (Version 1607) ist für die Erstellung von Skype Raum Systemen v2 Installation Medien nicht mehr unterstützt.
   
 > [!NOTE]
 > Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise Jahrestag Update verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben. 
@@ -53,34 +53,40 @@ Installieren der Skype Raum Systemen v2-app in einem Surface Pro 4 oder Surface 
 3. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
 
 
-Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen. Wenn Sie fertig sind, entfernen Sie den USB-Datenträger aus dem Computer, und fahren Sie mit dem [Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2](console.md#Reimage) fort.
+Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen. Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Skype Raum Systemen v2 Konsole app](console.md#Reimage)fort.
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2
 <a name="Reimage"> </a>
 
-Jetzt müssen Sie das erstellte Image anwenden. Das Tablet wird als Appliance ausgeführt, und der Standard-Benutzer werden nur die Skype Raum Systemen v2 app ausgeführt festgelegt werden. 
-  
-1. Das Tablet muss mit einer Stromquelle verbunden sein. Beginnen Sie mit dem Gerät im vollständig ausgeschalteten Zustand. Drücken Sie gegebenenfalls den Netzschalter, und halten Sie ihn gedrückt, bis das Tablet ausgeschaltet wird.
+Nun müssen Sie die Setup-Medien anwenden, die Sie erstellt haben. Das Zielgerät wird als Appliance ausgeführt, und der Standard-Benutzer werden nur die Skype Raum Systemen v2 Konsole app ausgeführt festgelegt werden.
+
+1. Wenn das Zielgerät in ein (z. B. eine Surface Pro) Andocken installiert wird, trennen sie die Dockingstation.
+
+2. Stellen Sie sicher, dass das Gerät nicht mit dem Netzwerk verbunden ist.
+
+3. Stellen Sie sicher, dass das Gerät mit Strom verbunden ist.
+
+4. Schließen Sie den USB-Setup-Speicher an das Zielgerät.
+
+5. Starten Sie die Installationsdiskette USB. Weitere Informationen finden Sie in den Anweisungen des Herstellers. Wenn Ihr Zielgerät Surface Pro ist, gehen Sie folgendermaßen vor, der USB-Installationsdatenträger zu starten:
+
+    1. Halten Sie weiterhin die Lautstärke (-) gedrückt halten.
+
+    2. Drücken und halten.
+
+    3. Wenn Windows Setup gestartet wurde, lassen Sie die Leiser-Taste (-) los.
+
+8. Das System wird heruntergefahren, sobald die Installation abgeschlossen ist.
     
-2. Schließen Sie den USB-Installationsdatenträger an das Tablet an.
-    
-3. Drücken Sie die Leiser-Taste (-) am Tablet, und halten Sie sie gedrückt. 
-    
-4. Drücken Sie den Netzschalter am Tablet, und lassen Sie ihn wieder los.
-    
-5. Wenn Windows Setup gestartet wurde, lassen Sie die Leiser-Taste (-) los.
-    
-6. Das System wird heruntergefahren, sobald die Installation abgeschlossen ist.
-    
-Nachdem das System heruntergefahren hat, ist es sicher, entfernen Sie die Installationsdiskette USB. Jetzt können Sie das Tablet im Dock platzieren und die für Ihren Besprechungsraum benötigten Peripheriegeräte anschließen. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
+Nachdem das System heruntergefahren hat, ist es sicher, entfernen Sie die Installationsdiskette USB. Zu diesem Zeitpunkt können Sie seine andocken (bei Verwendung von einem Produkt Andocken-basierte) das Ziel Devcie versehen, fügen Sie die Peripheriegeräte für Ihre Besprechungsraum erforderlich ist und mit dem Netzwerk verbunden. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>Auswählen einer Sprache in Creators Update
 
-In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegionAndLanguage.ps1 in Szenarien, in dem impliziten Sprachauswahl den Benutzer mit dem tatsächlichen Anwendungssprache bietet keine werden sollen (z. B., sie möchten die app in Französisch angezeigt, aber es ist stattfindende nur auf Englisch verfügbar).
+In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegionAndLanguage.ps1 in Szenarien, in dem impliziten Sprachauswahl den Benutzer mit dem tatsächlichen Anwendungssprache bietet keine werden sollen (z. B. möchten sie die Konsole-app in Französisch, angezeigt, aber Es ist in Englisch stattfindende).
   
 > [!NOTE]
-> Die folgenden Anweisungen gelten nur für Geräte, die mit Windows Creators Update erstellt werden. Für Legacysysteme bzw. auf dem Markt vorhandene Systeme, für die nicht ordnungsgemäß dem neuen Bereitstellungssystem entsprechende neue Images angewendet wurden, können diese Anweisungen nicht verwendet werden. Diese Systeme sollten aber auch nicht von dem anfänglichen Problem betroffen sein, das diesen manuellen Eingriff erforderlich macht (in Anniversary Edition können Sie die App-Sprache beim Setup explizit auswählen). 
+> Die folgenden Anweisungen funktionieren nur für Konsolen mithilfe des Erstellers Windows Update erstellt. Legacy-Market/Systeme, die nicht eingerichtet wurde, die neue Bereitstellungssystem Medien mit werden nicht verwenden Sie diese Anweisungen, jedoch sollten auch nicht leiden unter das anfängliche Problem, das diese manuelle Eingriffe erfordert (Jahrestag Edition können Sie auswählen, Ihre App Sprache explizit als Teil des Setups).
   
 ### <a name="to-apply-your-desired-language"></a>So wenden Sie die gewünschte Sprache an
 
@@ -116,13 +122,13 @@ In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegion
     
 13. Starten Sie das System neu.
     
-Die gewünschte Sprache ist jetzt auf das Skype Raum Systemen v2 Gerät angewendet.
-## <a name="initial-set-up-of-the-console"></a>Anfangssetup der Konsole 
+Die gewünschte Sprache wird jetzt in der Konsole der Skype Raum Systemen v2 angewendet.
+## <a name="initial-set-up-of-the-console"></a>Anfängliche Einrichten der Konsole
 <a name="Initial"> </a>
 
-Nach der Installation von Windows gehen die Skype Raum Systemen v2-app in seiner ursprünglichen Setup-Prozess beim nächsten Starten, oder wenn die Option/Reboot ausgewählt wurde.
+Nach der Installation von Windows gehen die Skype Raum Systemen v2 Konsole app in seiner ursprünglichen Setup-Prozess beim nächsten Starten, oder wenn die Option/Reboot ausgewählt wurde.
   
-1. Daraufhin wird der Bildschirm „Benutzerkonto“ angezeigt. Geben Sie die Skype-Anmeldeadresse des Raumkontos ein, das für das Gerät verwendet werden soll. Verwenden Sie das Format „benutzer@domäne“.
+1. Der Benutzerkonto Bildschirm wird angezeigt. Geben Sie die Skype-Anmeldeadresse ein (im Format user@domain) des Raums Kontos, das mit der Konsole verwendet werden.
     
 2. Geben Sie das Kennwort für das Raumkonto ein, und geben Sie es zur Bestätigung nochmals ein.
     
@@ -142,28 +148,28 @@ Nach der Installation von Windows gehen die Skype Raum Systemen v2-app in seiner
     
 6. Klicken Sie auf **Fertig stellen**.
     
-Die app Anmelden bei Skype für Business Server mit den oben eingegebenen Anmeldeinformationen sollten sofort gestartet werden soll, und beginnen soll auch den Kalender mit Exchange diese dieselben Anmeldeinformationen verwenden wird synchronisiert. Ausführliche Informationen zum Verwenden der app finden Sie in der [Hilfe Skype Raum Systeme, Version 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Die Skype Raum Systemen v2 Konsole app Anmelden bei Skype für Business Server mit den oben eingegebenen Anmeldeinformationen sollten sofort gestartet werden soll, und beginnen soll auch die Synchronisierung der Kalender mit Exchange diese dieselben Anmeldeinformationen verwenden. Ausführliche Informationen zum Verwenden der Verwaltungskonsole app finden Sie in der [Hilfe Skype Raum Systeme, Version 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Skype Raum Systemen v2 erfordert das Vorhandensein von zertifizierten Konsole Hardware (das Logitech SmartDock). Sogar eine ordnungsgemäß erstellte Image, enthält die Skype Raum Systemen v2 app auf einem Surface Pro 4 oder Surface Pro geladen kann nicht nach der Erstinstallation Verfahren starten, es sei denn, die Konsole Hardware erkannt wird. 
+> Skype Raum Systemen v2 erfordert das Vorhandensein von zertifizierten Konsole Hardware. Sogar eine ordnungsgemäß erstellte Image, enthält die Skype Raum Systemen v2 Konsole app kann nicht nach der Erstinstallation Verfahren starten, es sei denn, die Konsole Hardware erkannt wird. Für Surface Pro-basierte Lösungen muss die Surface Pro für die zugehörige Andocken Hardware, übergeben dieses Kontrollkästchen verbunden sein.
   
 > [!NOTE]
-> Einige nicht englischsprachige Benutzer müssen beim Anfangssetup eine physische Tastatur an die Konsole anschließen, wenn auf der Bildschirmtastatur keine Symbole unterstützt werden. 
+> Möglicherweise benötigen einige Benutzer nicht-englischen eine physische Tastatur während des Setups mit der Konsole verbunden, Symbole auf der Bildschirmtastatur nicht unterstützt werden.
   
-### <a name="install-a-private-ca-certificate-on-the-tablet-device"></a>Installieren eines Zertifikats einer privaten Zertifizierungsstelle auf dem Tablet
+### <a name="install-a-private-ca-certificate-on-the-console"></a>Installieren Sie das Zertifikat einen privates in der Konsole
 <a name="Certs"> </a>
 
-Das Skype Raum Systemen v2-Gerät muss Zertifikate von der Skype für Geschäfts- und Exchange-Servern, die Verbindung mit verwendet wird. Für Office 365 geschieht dies automatisch, da diese Server öffentliche Zertifizierungsstellen verwenden, denen Windows 10 automatisch vertraut. In dem Fall, in dem die Zertifizierungsstelle privat, ist, für die Instanz einer lokalen Bereitstellung mit Active Directory und die Windows-Zertifizierungsstelle können Sie das Zertifikat zum Skype Raum Systemen v2 Gerät in eine Reihe von Methoden hinzufügen:
+Die Skype Raum Systemen v2-Konsole muss Zertifikate von der Skype für Geschäfts- und Exchange-Servern, die Verbindung mit verwendet wird. Für Office 365 geschieht dies automatisch, da diese Server öffentliche Zertifizierungsstellen verwenden, denen Windows 10 automatisch vertraut. In dem Fall, in dem die Zertifizierungsstelle privat, ist, für die Instanz einer lokalen Bereitstellung mit Active Directory und die Windows-Zertifizierungsstelle können Sie das Zertifikat der Skype Raum Systemen v2-Konsole in eine Reihe von Methoden hinzufügen:
   
-- Sie können das Gerät mit Active Directory verbinden. Dadurch werden automatisch die erforderlichen Zertifikate hinzugefügt, wenn die Zertifizierungsstelle in Active Directory veröffentlicht ist (normale Bereitstellungsoption).
+- Sie können die Konsole Active Directory teilnehmen und, die werden automatisch hinzugefügt, die erforderlichen Zertifikate erhält der Zertifizierungsstelle auf Active Directory (normale Bereitstellungsoption) veröffentlicht wird.
     
-- Sie können das Zertifikat nach der Imageerstellung manuell installieren. Zuvor müssen Sie das [Anfangssetup der Konsole](console.md#Initial) abschließen.  
+- Sie können das Zertifikat nach der Imageerstellung manuell installieren. Bevor Sie dies tun, müssen Sie die [Initial Einrichten der Konsole](console.md#Initial)durchführen.
     
 ### <a name="to-manually-install-the-certificate"></a>So installieren Sie das Zertifikat manuell 
 
 1. Laden Sie das Zertifizierungsstellenzertifikat auf Ihren Computer herunter, und speichern Sie es unter „C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer“.
     
-2. Platzieren Sie die Fläche 4 im Admin-Modus (siehe [Admin-Modus und Gerät Management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
+2. Platzieren Sie die Konsole im Admin-Modus (siehe [Admin-Modus und Gerät Management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 3. Führen Sie den folgenden Befehl aus:
     
@@ -171,10 +177,10 @@ Das Skype Raum Systemen v2-Gerät muss Zertifikate von der Skype für Geschäfts
   certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
   ```
 
-### <a name="join-an-active-directory-domain-optional"></a>Beitritt zu einer Active Directory-Domäne (optional)
+### <a name="join-an-active-directory-domain-optional"></a>Teilnehmen an einer Active Directory-Domäne (Optional)
 <a name="Certs"> </a>
 
-Sie können an Ihre Domäne Skype Raum Systemen v2 Geräte teilnehmen. Skype Raum Systemen v2 Geräte sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht mit Skype Raum Systemen v2 kompatibel sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die verhindern Skype Raum Systemen v2 automatisch gestartet. Informationen über die Verwaltung der Gruppenrichtlinienergebnisse finden Sie unter [Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md). 
+Sie können Skype Raum Systemen v2 Konsolen an Ihre Domäne beitreten. Skype Raum Systemen v2 Konsolen sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht mit Skype Raum Systemen v2 kompatibel sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die verhindern Skype Raum Systemen v2 automatisch gestartet. Informationen über die Verwaltung der Gruppenrichtlinienergebnisse finden Sie unter [Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>So verbinden Sie Skype Room Systems v2 durch einen Domänenbeitritt mit einer Domäne
 
@@ -188,7 +194,7 @@ Sie können an Ihre Domäne Skype Raum Systemen v2 Geräte teilnehmen. Skype Rau
   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
   ```
 
-Wenn Ihre vollqualifizierten Domänennamen redmond.corp.microsoft.com und Sie möchten Ihre Skype Raum Systemen v2-Geräte in "Skype Raum Systemen v2" werden beispielsweise Organisationseinheit, die ein untergeordnetes Element des einer OU "Ressourcen" ist der Befehl werden:
+Wenn Ihre vollqualifizierten Domänennamen redmond.corp.microsoft.com und Sie möchten Ihre Skype Raum Systemen v2 Konsolen "Skype Raum Systemen v2" werden beispielsweise Organisationseinheit, die ein untergeordnetes Element des einer OU "Ressourcen" ist der Befehl werden:
   
 ```
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_System,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
@@ -196,10 +202,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_Syste
 
  Wenn Sie den Computer umbenennen, wenn sie einer Domäne beitreten möchten, verwenden Sie das NewName - Flag gefolgt von der neue Name des Computers.
   
-## <a name="skype-room-systems-v2-deployment-checklist"></a>Bereitstellungsprüfliste für Skype Room Systems v2
+## <a name="skype-room-systems-v2-deployment-checklist"></a>Prüfliste für die Bereitstellung von Skype Raum Systemen v2
 <a name="Checklist"> </a>
 
-Vergewissern Sie sich abschließend anhand der folgenden Prüfliste, dass das Konsolengerät und alle Peripheriegeräte vollständig konfiguriert sind:
+Verwenden Sie die folgende Checkliste, während eine endgültige Überprüfung, dass die Konsole und alle zugehörigen Peripheriegeräte konfiguriert sind:
   
 **Anwendungseinstellungen**
 
@@ -208,9 +214,9 @@ Vergewissern Sie sich abschließend anhand der folgenden Prüfliste, dass das Ko
 |☐  <br/> |Der Name des Raumkontos und die Telefonnummer (wenn PSTN unterstützt wird) werden rechts oben auf dem Konsolenbildschirm richtig angezeigt.  <br/> |
 |☐  <br/> |Der Windows-Computername ist richtig festgelegt (hilfreich für die Remoteverwaltung).  <br/> |
 |☐  <br/> |Das Kennwort für das Administratorkonto wurde festgelegt und bestätigt.  <br/> |
-|☐  <br/> |Alle Surface Pro 4- oder Surface Pro-Systemupdates wurden angewendet.  <br/> |
+|☐  <br/> |Alle Firmwareupdates wurden angewendet  <br/> |
    
-**Audio-/Videoperipheriegeräte**
+**A/v-Peripheriegeräte**
 
 |||
 |:-----|:-----|

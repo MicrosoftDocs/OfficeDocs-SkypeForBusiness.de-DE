@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c69ffab7fcca4fa7f2374e3527793e863ee22ef6
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: fceaa215835b5ef231a29f896656835da940dbde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694834"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779806"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihr Telefonsystem mit Aufrufen plant in Plan zum Testen von Teams für Unternehmen 
 ============================================================================================
@@ -654,7 +654,7 @@ Identifizieren Sie und Dokumentieren Sie alle Kontoinformationen (einschließlic
 In der Regel finden Sie die Informationen in der neuesten Bill oder Rechnung müssen vom aktuellen Dienstanbieter.
 
 > [!TIP]
->   Sie können portieren oder Übertragung von Telefonnummern in allen derzeit Länder/Regionen unterstützt; möglicherweise die Möglichkeit, die Sie eine Port Reihenfolge Anforderung übermitteln, je nach Land/Region unterscheiden sich jedoch, in dem die Telefonnummern aus Quelle werden. Die aktuelle Liste der derzeit unterstützte Länder/Regionen finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+>   Sie können portieren oder Übertragung von Telefonnummern in allen derzeit Länder/Regionen unterstützt; möglicherweise die Möglichkeit, die Sie eine Port Reihenfolge Anforderung übermitteln, je nach Land/Region unterscheiden sich jedoch, in dem die Telefonnummern aus Quelle werden. Die aktuelle Liste der derzeit unterstützte Länder/Regionen finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 >   Weitere Informationen zum Übertragen von Telefonnummern an Telefonsystem mit Aufrufen plant – zusammen mit potenziellen Einschränkungen – finden Sie unter [Weiterleiten von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) und [gebührenfreie kostenlose einwählen Einschränkungen in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 

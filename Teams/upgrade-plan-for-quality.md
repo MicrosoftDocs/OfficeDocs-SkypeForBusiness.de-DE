@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0050834f55568a6a747d84e8efdffb3e898d226
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398029"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779948"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
@@ -148,7 +148,7 @@ Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung beha
 
 Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollten sie beginnen mit dem Inhalt im Handbuch für die Qualität Erfahrung-Überprüfung vertraut machen.
 
-Im Handbuch für die Überprüfung von Quality Erfahrung finden Sie [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Im Handbuch für die Überprüfung von Quality Erfahrung finden Sie [hier](https://aka.ms/qerguide).
 
 ## <a name="plan-for-network-quality"></a>Planen der Netzwerkqualität 
 
@@ -341,8 +341,8 @@ Die folgende Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit 
 | Bereich | Beschreibung | Verweise |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Planen der Service-management | Eine betriebsbereite Rolle Zuordnung Übung durchführen <br/> Genehmigung von verantwortlich teams <br/> Rolle Bereitschaft | [Betriebshandbuch](1-drive-value-operate-my-service.md) |
-| | Benennen Sie die Qualität Champion(s) <br/> Belohnungen Bereitschaft Qualität| [Hier erfahren Sie, CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Handbuch für die Qualität Experience-Überprüfung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Installieren von Vorlagen Qualität Erfahrung überprüfen <br/> Hochladen einer Datei zum Erstellen von | [QERLite Vorlagen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Informationen zum Erstellen von hochladen](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | Benennen Sie die Qualität Champion(s) <br/> Belohnungen Bereitschaft Qualität| [Hier erfahren Sie, CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Handbuch für die Qualität Experience-Überprüfung](https://aka.ms/qerguide) |
+| | Installieren von Vorlagen Qualität Erfahrung überprüfen <br/> Hochladen einer Datei zum Erstellen von | [QERLite Vorlagen](https://aka.ms/qertemplates) <br/> [Informationen zum Erstellen von hochladen](turning-on-and-using-call-quality-dashboard.md)|
 | Planen der Netzwerkqualität | Führen Sie die Netzwerk-Planner | [Netzwerk-Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implementieren von QoS | [Quality of Service in Microsoft-Teams](qos-in-teams.md) |
 | | Umgehen der Proxy-Server | [Proxy-Anweisungen](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |

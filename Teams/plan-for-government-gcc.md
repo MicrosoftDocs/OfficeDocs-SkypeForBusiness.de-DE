@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c54e553edb464dc094c45b4e9dd545827b625d3
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21600517"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835039"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 
@@ -64,7 +64,9 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige
 | Apps       | Apps (beispielsweise Bots, Registerkarten und Connectors) nicht verfügbar anfänglich, aber wir arbeiten sie zur Verfügung zu stellen, sobald alle ihre Komponenten die FedRAMP Moderate Compliance Leiste erfüllen. |
 | E-Mail von einem DDE-Kanal             | Die aktuelle featurearchitektur in US-Regierung Pläne wird nicht unterstützt. |
 | Einheitliche Anwesenheit            | Wir sind fertig gestellt Arbeit unseren Unternehmenskunden zuerst für dieses wichtige Features. Es wird in der Zukunft zu behördliche Kunden verfügbar sein. |
-| E-Mail-Benachrichtigungen         | Die aktuelle featurearchitektur in den Plänen US-Regierung wird nicht unterstützt. Dieses Feature verfügbar gemacht US-Regierung Plan Kunden in Zukunft laufende "Arbeit" ist. |
+| Interop Chat zwischen Teams & SfB Benutzer            | Interop ist abhängigen auf Unified Anwesenheit Service (USV) und kann nicht funktionsfähig, wenn für USV GCC Teams Mandanten aktiviert sind. |
+
+| E-Mail-Benachrichtigungen | Die aktuelle featurearchitektur in den Plänen US-Regierung wird nicht unterstützt. Dieses Feature verfügbar gemacht US-Regierung Plan Kunden in Zukunft laufende "Arbeit" ist. |
 
 
 |    |     |
@@ -84,13 +86,17 @@ Es wird empfohlen, dass Sie Ihre [Einstellungen Verwaltungs- und Sicherheitsfunk
 
 Entschlossen, dass dieser Dienst für Ihr Unternehmen geeignet ist, starten Sie den Vorgang [für diesen Dienst hier](https://products.office.com/en-us/government/eligibility-validation)anwenden.
 
-## <a name="step-5-deploy-teams-for-collaboration"></a>Schritt 5. Bereitstellen des Teams für die Zusammenarbeit
+## <a name="step-5-plan-for-governance"></a>Schritt 5. Planen der Steuerung
+
+Bestimmen der Anforderungen für die Unternehmensleitung und wie Sie diese erfüllen können. Weitere Informationen finden Sie in [Planen der Steuerung in Teams](plan-teams-governance.md) .
+
+## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen des Teams für die Zusammenarbeit
 
 Nachdem Sie Onboarded an Microsoft 365 Government - GCC, wurden haben können Sie die standardmäßige Bereitstellungsmethode der Verwendung [der schnelle](https://fasttrack.microsoft.com/fasttrack-faq) und Ihr gewählten Partner mit dem Dienst integrierte folgen.
 
 Wenn Sie bereit sind, stellen Sie so [Aktivieren Sie für die Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle](teams-overview.md)Teams bereit. Achten Sie darauf, dass Sie mit der Annahme und Änderungsmanagement Team oder Teams Champions beteiligen.
 
-## <a name="step-6-deploy-teams-for-meetings-and-voice"></a>Schritt 6. Bereitstellen des Teams für Besprechungen und VoIP
+## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Schritt 7. Bereitstellen des Teams für Besprechungen und VoIP
 
 Dies ist auch der ideale Zeitpunkt, Teams mit Ihrer breiter beteiligten Gruppe verwenden Sie zum Starten der Planung für die Einführung von Besprechungen und [Cloud-VoIP-Funktionen](cloud-voice-deployment.md).
 

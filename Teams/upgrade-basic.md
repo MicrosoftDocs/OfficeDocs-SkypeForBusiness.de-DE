@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04a5f6d09270b489d8f3a26e1b127d79b0d491b0
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 94e1fdc1caa477df281336859e4b537dfd86d080
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398109"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780659"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>Grundlegende aktualisieren 
@@ -123,7 +123,7 @@ Verwalten von Upgrade Momentum werden, da der Benutzer upgradebenachrichtigung �
 
 **Ressourcen:**
 
--   [Festlegen von Einstelllungen Upgrade und Koexistenz](upgrade-basic-powershell.md)
+-   [Festlegen von Einstelllungen Upgrade und Koexistenz](setting-your-coexistence-and-upgrade-settings.md)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -156,7 +156,7 @@ Es wird empfohlen, nachdem jeder aktualisiert wurde, senden Sie eine e-Mail-Nach
 
 **Ressourcen:**
 
--   [Festlegen der Koexistenz und Einstellungen aktualisieren](upgrade-basic-powershell.md)
+-   [Festlegen der Koexistenz und Einstellungen aktualisieren](setting-your-coexistence-and-upgrade-settings.md)
 -   [Beispiel-e-Mail: einladen von Benutzern zu Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)

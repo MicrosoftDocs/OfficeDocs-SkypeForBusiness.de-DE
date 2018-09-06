@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246506"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780911"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -55,7 +55,7 @@ Jede Art von aufrufende Plan weist eine bestimmte Anzahl von Minuten pro Monat A
 
 ## <a name="availability-of-calling-plans"></a>Verfügbarkeit von Anrufplänen
 
-Vor der Planung für die Implementierung von Aufrufen in Teams plant, stellen Sie sicher, dass der Aufruf von plant Dienst verfügbar in Ihrer Region durch die Überprüfung von [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Vor der Planung für die Implementierung von Aufrufen in Teams plant, stellen Sie sicher, dass der Aufruf von plant Dienst verfügbar in Ihrer Region durch die Überprüfung von [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Aufgrund der rechtlichen Nebenbedingungen für aufrufen plant, internationale Unternehmen zur Verfügung muss der Vertrag für Office 365-Abonnements in einem Land oder Region basieren, wenn der Dienst aufrufen Pläne verfügbar ist oder der Dienst aufrufen plant werden können erworben haben.
