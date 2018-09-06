@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Hier erfahren Sie, wie Live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad798ae4b0fa1fc5d2430f418c43c716a1f2ed74
-ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
+ms.openlocfilehash: 21f524d6156e13f5c27fe12da97dd287c9f2f3bc
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554069"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846621"
 ---
 # <a name="what-are-teams-live-events"></a>Was sind Teams live Ereignisse?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -47,8 +47,8 @@ Die live-Ereignisse in Microsoft 365 ein Spektrum der Produktionsszenarien unter
 ### <a name="streaming-platform"></a>Streaming-Plattform
 Die live-Ereignis-streaming-Plattform besteht aus den folgenden vier Teilen:
 
-- **Azure Media-Dienste** [Azure Media-Dienste](https://docs.microsoft.com/en-us/azure/media-services/previous/) können Sie die Übertragung Qualität video streaming-Dienste größere Benutzergruppen auf heutigen am häufigsten verwendeten mobilen Geräten zu erreichen.   Media-Dienste verbessert Eingabehilfen, Verteilergruppen und Skalierbarkeit und können sie einfach und kostengünstige Stream von Inhalten für Ihre lokale oder weltweit Zielgruppe – alle beim Schützen Ihrer Inhalte.
-- **Azure Content Delivery Network (CDN)**  Nachdem Ihre Stream live geschaltet wird, wird es über dem [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/en-us/azure/cdn/)bereitgestellt. Azure Media-Dienste bietet integrierte CDN für streaming-Endpunkte. Dies ermöglicht die Datenströme weltweit mit keine Pufferung angezeigt werden.
+- **Azure Media-Dienste** [Azure Media-Dienste](https://docs.microsoft.com/azure/media-services/previous/) können Sie die Übertragung Qualität video streaming-Dienste größere Benutzergruppen auf heutigen am häufigsten verwendeten mobilen Geräten zu erreichen.   Media-Dienste verbessert Eingabehilfen, Verteilergruppen und Skalierbarkeit und können sie einfach und kostengünstige Stream von Inhalten für Ihre lokale oder weltweit Zielgruppe – alle beim Schützen Ihrer Inhalte.
+- **Azure Content Delivery Network (CDN)**  Nachdem Ihre Stream live geschaltet wird, wird es über dem [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/)bereitgestellt. Azure Media-Dienste bietet integrierte CDN für streaming-Endpunkte. Dies ermöglicht die Datenströme weltweit mit keine Pufferung angezeigt werden.
 - **Enterprise Content Delivery Network (eCDN)**  Das Ziel des eCDN ist den Videoinhalt aus dem Internet und verteilen die Inhalte im gesamten Unternehmen ohne Beeinträchtigung der Leistung des Netzwerks. Eine der folgenden können certified Partner eCDN Sie um Ihr Netzwerk für Live Ereignisse frei, die in Ihrem Unternehmen zu optimieren:
     - Struktur
     - Kollective
@@ -102,12 +102,12 @@ In der folgenden Tabelle werden wichtige Funktionen und Features in live Ereigni
 |Hersteller-Client für Windows |& #x 2714; (Skype für Unternehmen) |& #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
 |Hersteller-Client auf einem Mac |X  | & #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
 |Teilnehmeranzahl in Producer-Benutzeroberfläche |X  |& #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
-|Ermöglicht es mehrere Referenten |& #x 2714; (Skype für Unternehmen) |& #x 2714; (Teams) |-  |
-Ein Referent während der Besprechung einladen |& #x 2714; (Skype für Unternehmen) |X |- |
-|Referent beitreten auf Webservern und Mobile |& #x 2714; (Skype für Unternehmen)  |X |- |
-|Referenten – PSTN-Zugang |X |& #x 2714; (Teams) |- |
-|Ein Bildschirm angezeigt |X |& #x 2714; (Teams) |- |
-|Präsentieren Sie eine PowerPoint (PPT-Freigabe) |& #x 2714; |X (per Bildschirmfreigabe gemindert) |- |
+|Ermöglicht es mehrere Referenten |& #x 2714; (Skype für Unternehmen) |& #x 2714; (Teams) |n/v  |
+Ein Referent während der Besprechung einladen |& #x 2714; (Skype für Unternehmen) |X |n/v |
+|Referent beitreten auf Webservern und Mobile |& #x 2714; (Skype für Unternehmen)  |X |n/v |
+|Referenten – PSTN-Zugang |X |& #x 2714; (Teams) |n/v |
+|Ein Bildschirm angezeigt |X |& #x 2714; (Teams) |n/v |
+|Präsentieren Sie eine PowerPoint (PPT-Freigabe) |& #x 2714; |X (per Bildschirmfreigabe gemindert) |n/v |
 |Cloud-basierten besprechungsaufzeichnung |& #x 2714; |& #x 2714; |& #x 2714; |
 |Automatische veröffentlichen Aufzeichnung in Microsoft Stream-Objekt |X |X |& #x 2714; |
 |Echtzeit Beschriftungen und Übersetzung |& #x 2714; |& #x 2714; (bald verfügbar) |X |
@@ -140,7 +140,7 @@ Sie können Teams live Ereignisse auf der ganzen Welt mehrere Regionen verwenden
 Beim Einrichten für live Ereignisse sind mehrere Schritte, die Sie durchführen müssen:
 
 ### <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>Schritt 1: Richten Sie Ihres Netzwerks für live Ereignisse in der Microsoft-Teams ein
-Die Schnellstart live Ereignisse müssen Sie zum [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft-Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+Die Schnellstart live Ereignisse müssen Sie zum [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft-Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ### <a name="step-2-get-and-assign-licenses"></a>Schritt 2: Abrufen und Zuweisen von Lizenzen
 Sicherzustellen, dass der richtige Lizenz Zuordnungen für [Erstellen und Planen Sie live Ereignisse zu können?](#who-can-create-and-schedule-live-events) und [können, die live Ereignisse überwachen?](#who-can-watch-live-events).
@@ -356,7 +356,7 @@ Wenn es auf Windows PowerShell, es darum geht alle Informationen zum Verwalten v
 Windows PowerShell verfügt im Vergleich zur ausschließlichen Verwendung des Office 365 Admin Centers über viele Vorteile in puncto Geschwindigkeit, Einfachheit und Produktivität, beispielsweise wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
- - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
+ - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ### <a name="related-topics"></a>Verwandte Themen: 
 - [Ereignisse über Microsoft 365 in Yammer, Microsoft-Teams und Stream Microsoft Live](https://docs.microsoft.com/stream/live-event-m365)

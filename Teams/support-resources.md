@@ -10,12 +10,12 @@ ms.reviewer: lolaj
 description: Eine Liste mit Supportressourcen für Microsoft Teams, damit Sie das Produkt effizienter und effektiver nutzen können
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5c0d51b5958e815d933a125cb322c4799d79de
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: b802579e21090d046dd010f5324dcc720dbdd739
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546359"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843805"
 ---
 <a name="support-resources-for-microsoft-teams"></a>Supportressourcen für Microsoft Teams
 =====================================
@@ -36,7 +36,7 @@ ms.locfileid: "22546359"
 
 -   [Microsoft Teams Developer Preview](https://go.microsoft.com/fwlink/?linkid=854397)
 
--   [Bekannte Probleme](https://docs.microsoft.com/en-us/microsoftteams/known-issues)
+-   [Bekannte Probleme](https://docs.microsoft.com/microsoftteams/known-issues)
 
 -   [Anmerkungen zu dieser Version des Microsoft Teams-Clients](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 

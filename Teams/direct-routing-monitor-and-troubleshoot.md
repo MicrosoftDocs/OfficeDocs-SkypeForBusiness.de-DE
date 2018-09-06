@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: In diesem Artikel wird beschrieben, wie zur Überwachung und Problembehandlung für die direkte Routing-Konfiguration.
-ms.openlocfilehash: 850fa11a6ebbd5e193c4fd7258d65714f1bc9499
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 1a29ec3f58666752cb22bc4a8b3adbe24a0399bf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20314969"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844773"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direkten Routing
 
@@ -72,7 +72,7 @@ Die folgenden Tools können Sie Ihre Konfiguration überwachen:
 
 Direktes Routing Service hat sehr beschreibenden Fehlercodes gemeldet Analytics aufrufen oder die SBC-Protokolle. 
 
-Das Aufrufen Qualitätsdashboard bietet Informationen zur Anrufqualität und Zuverlässigkeit. Weitere Informationen zum Beheben von Problemen mit Aufrufen Analytics finden Sie unter [aktivieren, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) und [Verwendung aufrufen Analysen für die Qualität der Anrufe schlechter Qualität Problembehandlung bei](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
+Das Aufrufen Qualitätsdashboard bietet Informationen zur Anrufqualität und Zuverlässigkeit. Weitere Informationen zum Beheben von Problemen mit Aufrufen Analytics finden Sie unter [aktivieren, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) und [Verwendung aufrufen Analysen für die Qualität der Anrufe schlechter Qualität Problembehandlung bei](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
 
 Im Fall eines WAN-anruffehlern bietet Analytics rufen Sie standard-SIP-Codes, die Sie bei der Problembehandlung zu erleichtern. 
 

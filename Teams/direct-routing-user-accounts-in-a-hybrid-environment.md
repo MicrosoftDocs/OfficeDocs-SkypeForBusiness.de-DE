@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Informationen Sie zu verschiedenen Kombinationen der Erstellung des Benutzers und welche Kombinationen unterstützt oder nicht unterstützt werden.
-ms.openlocfilehash: 03fd0f57d4c9f504c2f40d6675e44c8ba96adb13
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 04f0237dd7df6c856b6fef117f435ea2db052c82
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084525"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846261"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybridumgebung mit PSTN-Anbindung
 
@@ -66,4 +66,4 @@ Eine Skype für Business-hybridumgebung mit PSTN-Anbindung bietet Flexibilität 
 Für alle Benutzer, der Benutzer-Objekts **muss** erstellt werden, in der lokalen AD und synchronisiert auf Azure Active Directory mit dem Tool Azure Active Directory verbinden. Aktivieren von Benutzern für Teams/Skype für Business **wird nicht unterstützt** , wenn das Benutzerobjekt direkt in Azure AD in einer hybridkonfiguration erstellt wird. Für neue Benutzer, wie eine neue Mitarbeiter, wer direkt für Teams aktiviert wird, muss der Benutzer zunächst in Skype für Unternehmen lokal verwaltet werden und mit der online-Registrierung verschoben. Erstellen von Benutzern in online Skype für Geschäftskunden und Teams ohne ersten ermöglicht es ihnen im lokalen Pool mit Enterprise-VoIP **wird nicht unterstützt**.
   
 
-Der Benutzer muss für Skype für Unternehmen aktiviert sein und mit Enterprise-VoIP lokale Skype für Business Benutzer-Verwaltungstools. Aktivieren von Benutzern für Skype für Business online nur **nicht unterstützt wird**. Zum Aktivieren von Benutzern für Skype für Unternehmen in hybridkonfiguration finden Sie [in diesem Artikel](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) finden Sie weitere Details.
+Der Benutzer muss für Skype für Unternehmen aktiviert sein und mit Enterprise-VoIP lokale Skype für Business Benutzer-Verwaltungstools. Aktivieren von Benutzern für Skype für Business online nur **nicht unterstützt wird**. Zum Aktivieren von Benutzern für Skype für Unternehmen in hybridkonfiguration finden Sie [in diesem Artikel](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) finden Sie weitere Details.

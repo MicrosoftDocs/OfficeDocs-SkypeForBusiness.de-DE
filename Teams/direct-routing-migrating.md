@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Hier erfahren Sie, was für die Migration zu direkten Routing von einer Skype für Business Online und Teams Konfiguration Perspektive erforderlich ist.
-ms.openlocfilehash: 859ab19162f8cf16cc419f7f871fc0059e4566d6
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 550d256565a3c679f643d531730db066a5b514cf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546597"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844685"
 ---
 # <a name="migrating-to-direct-routing"></a>Migrieren zu direkten Routing
 
@@ -35,18 +35,18 @@ Die folgende Tabelle zeigt Endstatus für einen Benutzer für den ausgewählten 
 |---|---|---|---|---|
 |Client|Skype für Geschäftskunden und Teams |Skype for Business |Skype for Business |Microsoft Teams|
 |Lizenzen|Skype-Business Online</br>Planen von 2</br></br>MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)</br></br></br>Anrufpläne</br>Microsoft Teams|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD</br></br></br>Telefonsystem (MCOEV)</br></br>Microsoft Teams|
-OnPremLineURI |-|Die Telefonnummer synchronisiert werden muss, aus der lokalen AD. |Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden.|Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden. Wenn die Organisation der lokale Skype für Unternehmen verfügt, muss die Nummer aus der lokalen Active Directory synchronisiert werden.|
+OnPremLineURI |n/v|Die Telefonnummer synchronisiert werden muss, aus der lokalen AD. |Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden.|Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden. Wenn die Organisation der lokale Skype für Unternehmen verfügt, muss die Nummer aus der lokalen Active Directory synchronisiert werden.|
 |"Lineuri"|Aufrufen von PSTN-Telefonnummer|Legen Sie automatisch aus dem OnPremLineURI-parameter|Legen Sie automatisch aus dem OnPremLineURI-parameter|Legen Sie automatisch aus dem OnPremLineURI-parameter|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|
 |"Voicepolicy" sein|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |"Hostedvoicemailpolicy" |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
-|VoiceRoutingPolicy|Hat den Wert|Hat den Wert|Hat den Wert|-|
+|VoiceRoutingPolicy|Hat den Wert|Hat den Wert|Hat den Wert|n/v|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|Hat den Wert|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly oder Inseln|$Null|$Null|Inseln oder TeamsOnly|
 |TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – lesen Sie bitte den Hinweis unten.|Teams oder SfB |SfB|SfB|Microsoft Teams|
-|TeamsCallingPolicy</br>AllowPrivateCalling|True|-|-|True|
-|TeamsCallingPolicy</br>AllowGroupCalling|True|-|-|True|
+|TeamsCallingPolicy</br>AllowPrivateCalling|True|n/v|n/v|True|
+|TeamsCallingPolicy</br>AllowGroupCalling|True|n/v|n/v|True|
 ||||||
 
 <sup>1</sup> Auswählen des richtigen Modus von der TeamsUpgradePolicy, hängt vom Szenario ab. Bitte informieren Sie sich über die VoIP-Erfahrung in unterschiedlichen Modi [Migration und Interoperabilität Anleitungen für Organisationen](migration-interop-guidance-for-teams-with-skype.md)mit Teams zusammen mit Skype für Unternehmen.
@@ -61,9 +61,9 @@ Weitere Informationen finden Sie auf [Migration und Interoperabilität Anleitung
 
 Weitere Informationen zum Migrieren von Aufrufen plant finden Sie unter:
 
-- [Einrichten von Anrufplänen](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice-Benutzer](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](https://docs.microsoft.com/en-us/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [Einrichten von Anrufplänen](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Set-CsOnlineVoice-Benutzer](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
+- [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
 Es wird empfohlen, Previouslycconfigured Lizenzinformationen Plan wie folgt zu entfernen:
@@ -79,8 +79,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Weitere Informationen zum Migrieren von Telefonsystem mit lokalen PSTN-Konnektivität in Skype für Business Server finden Sie unter den folgenden:
 
-- [Planung](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [Bereitstellen von](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [Planung](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Bereitstellen von](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 Es wird empfohlen, dass Sie zuvor konfigurierten VoIP-routing-Informationen wie folgt entfernen:
 
@@ -91,9 +91,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 Weitere Informationen zum Migrieren von Telefonsystem mit lokalen PSTN-Anbindung über Cloud-Connector finden Sie unter den folgenden:
 
-- [Planung](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [Bereitstellen von](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [Benutzerkonfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [Planung](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Bereitstellen von](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [Benutzerkonfiguration](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 Es wird empfohlen, dass Sie zuvor konfigurierten VoIP-routing-Informationen wie folgt entfernen:
  
@@ -107,17 +107,17 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Hinweise zur Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen](migration-interop-guidance-for-teams-with-skype.md)
 
-[GRANT-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy)
+[GRANT-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[Neue CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[Neue CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
+[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
 

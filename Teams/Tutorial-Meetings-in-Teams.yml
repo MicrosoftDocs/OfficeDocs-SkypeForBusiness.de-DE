@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: f6c5be006d2e76efcd58cc4e6a63b6a0bf357570
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: a2ebb3628c2557fc41f44b12764e78c75698ed15
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253533"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23843885"
 items:
 - durationInMinutes: 1
   content: >
@@ -66,7 +66,7 @@ items:
     Wenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Besprechungen in Microsoft Teams
   durationInMinutes: 16
-  content: "\nInformationen zu Besprechungen in Microsoft Teams finden Sie unter den folgenden Links:\n-   „Teilnehmen an Besprechungen“ in [Besprechungen und Anrufe](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (geschätzte Lesedauer: 6 Minuten)\n\n-   [Video: Sofortbesprechung](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf?ui=en-US&rs=en-US&ad=US) (1:45 Minuten)\n\n-   [Video: Geplante Besprechungen](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137?ui=en-US&rs=en-US&ad=US) (1:45 Minuten)\n\n-   [9 Tipps für Besprechungen in Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (Informationen zur Besprechungslobby, anonyme Teilnahme an Besprechungen und mehr, geschätzte Lesedauer: 6 Minuten)\n"
+  content: "\nInformationen zu Besprechungen in Microsoft Teams finden Sie unter den folgenden Links:\n-   „Teilnehmen an Besprechungen“ in [Besprechungen und Anrufe](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (geschätzte Lesedauer: 6 Minuten)\n\n-   [Video: Sofortbesprechung](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1:45 Minuten)\n\n-   [Video: Geplante Besprechungen](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1:45 Minuten)\n\n-   [9 Tipps für Besprechungen in Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (Informationen zur Besprechungslobby, anonyme Teilnahme an Besprechungen und mehr, geschätzte Lesedauer: 6 Minuten)\n"
 - title: Szenario – Besprechungstypen
   durationInMinutes: 1
   content: "\nGarth arbeitet für Contoso, eine Firma mit mehreren Niederlassungen. Garth muss regelmäßig mit Personen an anderen Standorten kommunizieren:\n\n-  Sein Projektteam hält jeden Montag eine einstündige Besprechung ab. Da in Microsoft Teams bereits ein dedizierter Kanal für das Projekt vorhanden ist, plant Garth für diese regelmäßige Abstimmung eine „Kanalbesprechung“. Dies hat für Garth und sein Team mehrere Vorteile:\n   -   Alle Teammitglieder werden automatisch eingeladen.\n   -   Alle im Zusammenhang mit der Besprechung stehenden Diskussionen vor, während oder nach der Besprechung sind Teil der Kanaldiskussion.\n   -   Die Besprechung und die Diskussion sind für alle Teammitglieder sichtbar.\n-   Außerdem muss Garth sich mit einzelnen Personen abstimmen. Diese Besprechungen sollen aber nicht für andere sichtbar sein. Zu diesem Zweck plant Garth eine „private Besprechung“.\n    Private Besprechungen geben Garth die Möglichkeit, vor der Besprechung einen Chat einzuleiten. Dadurch wird die Besprechung effektiver, da Garth im Vorfeld Materialien freigeben oder mit wichtigen Teammitgliedern über die Agenda sprechen kann. Dieser Chat ist auch während der Besprechung verfügbar, sodass dort Notizen festgehalten werden können. Nach der Besprechung kann der Chat zur Nachbereitung genutzt werden.\n-   Manchmal führt das Team in seinem Kanal lebhafte Diskussionen, und Garth benötigt eine schnelle Entscheidung. Er kommt zu dem Schluss, dass die Kommunikation in Form eines Videoanrufs möglicherweise effektiver ist als die vielen einzeln eingegebenen Beiträge. Daher plant Garth in dieser Situation eine Ad-hoc-Besprechung, indem er in der aktuellen Unterhaltung die Option **Jetzt besprechen** auswählt.\n"

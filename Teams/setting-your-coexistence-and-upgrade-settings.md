@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2f5b518beceb00909e7b6b97f7bfd6eb513edd8
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 16cbe6c20661da3c4e6dd18255055b2c661a4758
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148425"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845581"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen von Einstelllungen Upgrade und Koexistenz
 
@@ -63,9 +63,9 @@ Einstellungen auf der Benutzerebene zugewiesen haben Vorrang vor Ebene der gesam
 3. Wenn Sie eine beliebige **Koexistenzmodus** als **Verwendung Org geltende Einstellungen**auswählen, müssen Sie die Option zum Aktivieren von Benachrichtigungen in Skype des Benutzers für Geschäfts-app, die auf Teams aktualisieren bald verfügbar ist. Sie können diese Benachrichtigung für den Benutzer aktivieren, durch die Option **Benachrichtigen der Skype für Geschäftsbenutzer** einschalten.
 4. Klicken Sie auf **Speichern** , nachdem Sie die Änderungen vorgenommen haben.
 
-### <a name="related-topics"></a>See Also
+### <a name="related-topics"></a>Verwandte Themen
 [Planen der Weg](upgrade-plan-journey.md)
 
 [Grundlegendes zu Koexistenz und Aktualisieren von Weg für Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[Hinweise zur Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen](https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Hinweise zur Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)

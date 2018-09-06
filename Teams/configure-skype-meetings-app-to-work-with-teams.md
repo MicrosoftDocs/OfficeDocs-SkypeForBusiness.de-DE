@@ -10,12 +10,12 @@ description: Administratoren können die Microsoft-Teams und Skype-Verwaltungsko
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82da9923c75ce905a4d0de43ffbd299626af4b3e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 686e53f3c272ab73e7934085df96cf710fecf667
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546565"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844837"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Konfigurieren der Skype Besprechungen App entwickelt Teams
 ===================================================
@@ -41,5 +41,5 @@ Benutzer, die die App Skype Besprechungen mit Teams verwenden gelten die folgend
 
 Weitere Informationen zur App Besprechungen Skype finden Sie unter:
 
-- [Was ist Skype Besprechungen App (Skype für Business Web App)](https://support.office.microsoft.com/en-us/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5?ui=en-US&rs=en-US&ad=US)
-- [Mindestnetzwerkanforderungen für die Skype-Besprechungs-App](https://technet.microsoft.com/en-us/library/mt845808.aspx)
+- [Was ist Skype Besprechungen App (Skype für Business Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [Mindestnetzwerkanforderungen für die Skype-Besprechungs-App](https://technet.microsoft.com/library/mt845808.aspx)

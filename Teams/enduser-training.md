@@ -10,12 +10,12 @@ ms.reviewer: lolaj
 description: Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2df911e814b02fe5b4d1796f075905fd73f2de3
-ms.sourcegitcommit: ddedcfe6efd4d8adec794a70c904468a45fbdeb4
+ms.openlocfilehash: d0935dce30a6973a94c6622f88cfc6647120968a
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "22415651"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843757"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================
@@ -27,7 +27,7 @@ Verwenden Sie diese Schulungsressourcen, um Ihrer Organisation die optimale Nutz
 | [Video Schulung von Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | Schulungen für Ihre Benutzer die optimale Nutzung von Teams |
 | [Hilfe für Teams](https://support.office.com/teams) | Produktdokumentation für Teams-Endbenutzer |
 | [Willkommen bei Microsoft Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)  |  Eine Anleitung, die Ihnen den Einstieg erleichtern und schnell mit der Chat zentriert Arbeitsbereich in Office 365-Teams |
-| [Wechseln Sie zu Teams von Skype für Unternehmen](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)  |  Finden Sie unter bekannte Funktionen verwenden, und informieren Sie sich über neue features |
+| [Wechseln Sie zu Teams von Skype für Unternehmen](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)  |  Finden Sie unter bekannte Funktionen verwenden, und informieren Sie sich über neue features |
 | [Teams Tipps und tricks](https://support.office.com/office-training-center/Teams-tips) |  |
 | [Was ist Teams?](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Kurzeinführung in Teams, Ihre Drehscheibe für Teamarbeit  |
 | [Microsoft Teams-Kanal auf YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |

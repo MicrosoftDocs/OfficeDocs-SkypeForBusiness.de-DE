@@ -6,19 +6,20 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "T-Bot ist ein Bot, mit dem Benutzer interagieren können, um ihm Fragen zur Verwendung von Microsoft Teams zu stellen und Antworten auf eine Vielzahl von Fragen zu erhalten."
+description: T-Bot ist ein Bot, mit dem Benutzer interagieren können, um ihm Fragen zur Verwendung von Microsoft Teams zu stellen und Antworten auf eine Vielzahl von Fragen zu erhalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8a274f9ee44536129bb8bf97629351e011b2fe9
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 1cdbe4366b84ac93236c8e9f3ca6f1eb8e3f6ba7
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843773"
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>Verwenden von T-Bot, um Benutzern bei der Verwendung von Microsoft Teams zu helfen
 ============================================
 
-Stellen Sie für die Hilfe bei der Verwendung von Microsoft Teams sicher, dass Ihre Benutzer und Pioniere mit [T-Bot](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots) vertraut sind. T-Bot ist ein Bot, mit dem Benutzer interagieren können, um ihm Fragen zur Verwendung von Microsoft Teams zu stellen und Antworten auf eine Vielzahl von Fragen zu erhalten.
+Stellen Sie für die Hilfe bei der Verwendung von Microsoft Teams sicher, dass Ihre Benutzer und Pioniere mit [T-Bot](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) vertraut sind. T-Bot ist ein Bot, mit dem Benutzer interagieren können, um ihm Fragen zur Verwendung von Microsoft Teams zu stellen und Antworten auf eine Vielzahl von Fragen zu erhalten.
 
 ![Screenshot der T-Bot-Seite in Microsoft Teams](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image1.png)
 

@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: e4270a56e24d621511c94c9dc925fb1d1ca120ba
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d33f4037517936b39bd81ccb6ec5b7df3ef5a3b8
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783070"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846437"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -52,7 +52,7 @@ Erhebung von Daten werden ausschließlich zum Bereitstellen, unterstützen und v
 |Benutzer-ID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |Für die ID wird zweimal ein Hash-Algorithmus verwendet: einmal im Client und einmal im Telemetriedienst. Der Hash-Algorithmus stellt sicher, dass die ID nicht mit einem bestimmten Nutzer verknüpft werden kann.  <br/> |
 |Geräte-ID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |Die Geräte-ID ist eine GUID, die nach dem Zufallsprinzip einmalig auf dem Gerät generiert und an den Telemetriedienst gesendet wird.  <br/> |
 
-Die statistischen Daten enthalten KEINE Informationen, anhand derer Ihre Organisation oder Ihre Benutzer identifiziert werden können. Weitere Informationen finden Sie unter [Datenschutzbestimmungen für Skype for Business](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx).
+Die statistischen Daten enthalten KEINE Informationen, anhand derer Ihre Organisation oder Ihre Benutzer identifiziert werden können. Weitere Informationen finden Sie unter [Datenschutzbestimmungen für Skype for Business](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx).
 
 Das Sammeln der statistischen Daten zum Nutzer ist standardmäßig aktiviert und kann von Administratoren oder Endbenutzern nicht deaktiviert werden.
 
@@ -73,7 +73,7 @@ Nutzungsdaten enthalten unter Umständen Informationen, anhand derer Ihr Unterne
 
 Die Nutzungsdaten enthalten KEINE Informationen, anhand derer Nutzer identifiziert werden können.
 
-Die Sammlung der Nutzungsdaten ist standardmäßig aktiviert, lokale Administratoren können sie jedoch mit der Gruppenrichtlinieneinstellung „Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren" (DisableAutomaticSendTracing) für Skype for Business Server 2015 deaktivieren. Das Deaktivieren dieser Einstellung wirkt sich auf alle Benutzer in der Organisation aus. Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) finden Sie weitere Informationen.
+Die Sammlung der Nutzungsdaten ist standardmäßig aktiviert, lokale Administratoren können sie jedoch mit der Gruppenrichtlinieneinstellung „Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren" (DisableAutomaticSendTracing) für Skype for Business Server 2015 deaktivieren. Das Deaktivieren dieser Einstellung wirkt sich auf alle Benutzer in der Organisation aus. Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) finden Sie weitere Informationen.
 
 Benutzer können die Sammlung der Nutzungsdaten nicht aktivieren oder deaktivieren.
 
@@ -94,11 +94,11 @@ Zu den Fehlerberichtsdaten zählen Informationen über Leistung und Zuverlässig
 |Unterhaltungs-Thread-ID  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA ==  <br/> ||
 |Benutzer-ID  <br/> |amosmarble <br/> |Die ID wird im Klartext übertragen, auf den der Telemetriedienst vor dem Speichern einen Hash-Algorithmus anwendet  <br/> |
 
-Die Fehlerberichterstattungsdaten können außerdem personenbezogene Informationen enthalten, beispielsweise die IP-Adresse des Benutzers und den SIP-URI (Session Initiation Protocol Uniform Resource Identifier). Unter [Datenschutzbestimmungen für Skype for Business](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) wird ausführlich erklärt, welche Daten gesammelt werden.
+Die Fehlerberichterstattungsdaten können außerdem personenbezogene Informationen enthalten, beispielsweise die IP-Adresse des Benutzers und den SIP-URI (Session Initiation Protocol Uniform Resource Identifier). Unter [Datenschutzbestimmungen für Skype for Business](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) wird ausführlich erklärt, welche Daten gesammelt werden.
 
 Für die Fehlerberichterstattung müssen zwei Voraussetzungen erfüllt sein:
 
-- Die DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung muss auf dem Server oder im Mandanten-Admin Center auf False festgelegt sein (das ist der Standardzustand). Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) finden Sie weitere Informationen.
+- Die DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung muss auf dem Server oder im Mandanten-Admin Center auf False festgelegt sein (das ist der Standardzustand). Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) finden Sie weitere Informationen.
     
 - Endbenutzer einzeln bestätigen auf der Registerkarte Allgemein (klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , und klicken Sie dann im Dialogfeld **Optionen** wird geöffnet, wobei die Registerkarte **Allgemein** angezeigt) in die Skype für Business-Client.
     
@@ -114,6 +114,6 @@ Informationen zur Einrichtung Ihres Netzwerks finden Sie unter [Einrichten Ihres
 Wenn Sie Office 365 über 21Vianet in China nutzen, finden Sie weiterführende Informationen unter [Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Programm zur Verbesserung der Benutzerfreundlichkeit](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+[Programm zur Verbesserung der Benutzerfreundlichkeit](https://www.microsoft.com/products/ceip/default.mspx)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

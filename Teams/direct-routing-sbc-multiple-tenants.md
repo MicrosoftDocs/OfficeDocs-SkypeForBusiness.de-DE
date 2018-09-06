@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Informationen Sie zum Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
-ms.openlocfilehash: 062c8e597b62757f3fb91773444bece7f047ac51
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 537058eef62197a9df8659ed4c3f50802f2f19a1
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835015"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845517"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controller für mehrere Mandanten
 
@@ -44,7 +44,7 @@ Es folgen die technischen Implementierungsschritte zum Konfigurieren der Szenari
 2. Der Name der Unterdomäne zu aktivieren.
 3. Konfigurieren Sie den Trunk aus der Netzbetreiber Benutzern Kunden Mandanten und bereitgestellt werden soll.
 
-*Stellen Sie sicher, dass Sie die Grundlagen von DNS und Verwaltung von der Domänennamen in Office 365 kennen. Überprüfen Sie vor dem Fortsetzen des Vorgangs [Hilfe zu Office 365-Domänen](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Stellen Sie sicher, dass Sie die Grundlagen von DNS und Verwaltung von der Domänennamen in Office 365 kennen. Überprüfen Sie vor dem Fortsetzen des Vorgangs [Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Bereitstellen Sie und konfigurieren Sie den SBC
 
@@ -70,7 +70,7 @@ Unterdomänen **müssen** entsprechen den Vollqualifizierten Domänennamen des T
 
 Wenn ein Anruf an den Office 365 direkten Routing-Schnittstelle ankommt, verwendet die Schnittstelle die Kopfzeile des Kontakts, um den Mandanten zu erhalten, in dem der Benutzer gesucht werden soll. Direktes Routing wird nicht verwendet, Nachschlagen Telefon auf einladen, wie einige Kunden möglicherweise nicht-DID-Nummern, die in mehreren Mandanten überlappen können. Aus diesem Grund ist der FQDN in der Kopfzeile des Kontakts erforderlich identifiziert den genauen Mandanten zum Nachschlagen von der Benutzer von der Telefonnummer.
 
-*Weitere Informationen zum Erstellen von Domänennamen in Office 365-Mandanten [Hilfe zu Office 365-Domänen](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) überprüfen.*
+*Weitere Informationen zum Erstellen von Domänennamen in Office 365-Mandanten [Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) überprüfen.*
 
 Im folgende Diagramm sind die Anforderungen zur Basis Domäne, untergeordnete Domänen und Kontakt Kopfzeile zusammengefasst.
 
@@ -101,7 +101,7 @@ Sie können nur neue Domänen hinzufügen, wenn Sie Office 365 Admin Center als 
 
 Um Ihnen die Rolle zu überprüfen, melden Sie sich der Microsoft-365-Verwaltungskonsole (https://portal.office.com), fahren Sie mit der **Benutzer** > **Aktive Benutzer**, und stellen Sie sicher, dass Sie eine globalen Administratorrolle verfügen. 
 
-Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Office 365 finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Office 365 finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Hinzufügen einer Basis Domäne, die dem Mandanten, und bestätigen Sie es
 
@@ -124,7 +124,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
 Nachdem Sie einen Domänennamen registriert haben, müssen Sie mindestens einen Benutzer hinzufügen zu aktivieren, und weisen Sie eine SIP-Adresse mit dem FQDN-Abschnitt, der die SIP-Adresse die erstellte Basiskalender Domäne entsprechen.
 
-*Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Mandanten [Hilfe zu Office 365-Domänen](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) überprüfen.*
+*Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Mandanten [Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) überprüfen.*
 
 Beispiel: test@customers.adatum.biz
 
@@ -142,7 +142,7 @@ Sie können nur neue Domänen hinzufügen, wenn Sie Office 365 Admin Center als 
 
 Um Ihnen die Rolle zu überprüfen, melden Sie sich der Microsoft-365-Verwaltungskonsole (https://portal.office.com), fahren Sie mit der **Benutzer** > **Aktive Benutzer**, und stellen Sie sicher, dass Sie eine globalen Administratorrolle verfügen. 
 
-Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Office 365 finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Office 365 finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Den Mandanten Kunden eine Unterdomäne hinzu, und bestätigen Sie es
 1. Wechseln Sie in das Microsoft 365 Administrationscenter zu **Setup** > **Domänen** > **Domäne hinzufügen**.
@@ -163,7 +163,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
     ![Erstellen der TXT-Eintrag in der Netzbetreiber DNS-Hostinganbieter](media/direct-routing-8-sbc-txt-record.png)
 
-    Weitere Informationen finden Sie in [Erstellen von DNS-Datensätze an alle DNS-Hostinganbieter für Office 365](https://support.office.com/en-us/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166?ui=en-US&rs=en-US&ad=US).
+    Weitere Informationen finden Sie in [Erstellen von DNS-Datensätze an alle DNS-Hostinganbieter für Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Gehen Sie zurück zu der Kunde Microsoft 365 Administrationscenter, und klicken Sie auf **Überprüfen**. 
 8. Klicken Sie auf der nächsten Seite Wählen Sie **ich werde die DNS-Datensätze selbst hinzufügen** , und klicken Sie auf **Weiter**.
@@ -186,7 +186,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
 Nachdem Sie einen Domänennamen registrieren, müssen Sie mindestens einen Benutzer hinzufügen zu aktivieren, und weisen Sie eine SIP-Adresse mit dem FQDN-Abschnitt, der die SIP-Adresse die erstellte Unterdomäne im Customer Mandanten übereinstimmenden.
 
-*Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Mandanten [Hilfe zu Office 365-Domänen](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) überprüfen.*
+*Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Mandanten [Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) überprüfen.*
 
 Beispiel: test@sbc1.customers.adatum.biz
 
