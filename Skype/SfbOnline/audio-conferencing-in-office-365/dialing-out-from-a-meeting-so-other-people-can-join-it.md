@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: 9edf87ee8c4b2b931463a1bb6725d8967bc2325d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 630802b034200b3ab029446f6300b1d8ddcccbb0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779230"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851449"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Anruf aus einer Skype for Business-Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können
 

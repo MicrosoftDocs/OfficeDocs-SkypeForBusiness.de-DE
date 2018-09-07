@@ -1,5 +1,5 @@
 ---
-title: Eine Konferenz-ID für einen Benutzer in Skype für Business Online zurücksetzen
+title: Eine Konferenz-ID für einen Benutzer in Skype for Business Online zurücksetzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,29 +19,29 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Hier erfahren Sie die Schritte ein Benutzers Zurücksetzen des meeting-Konferenz-ID in Skype für Business Online sowie Get links auf meeting Update und Migration Tools. '
-ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: 'Lernen Sie die Schritte zum Zurücksetzen der Konferenz-ID eines Benutzers kennen und erhalten Sie Links zu den Tools für die Aktualisierung und Migration von Besprechungen. '
+ms.openlocfilehash: 34e165d92f4dc63eea8fc31c05612b6e20b64025
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490535"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850061"
 ---
-# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Eine Konferenz-ID für einen Benutzer in Skype für Business Online zurücksetzen
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Eine Konferenz-ID für einen Benutzer in Skype for Business Online zurücksetzen
 
 > [!NOTE]
-> Informationen zum Zurücksetzen des Konferenz-ID in der Microsoft-Teams, finden Sie unter [Zurücksetzen eine Konferenz-ID für einen Benutzer in Microsoft-Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
+> Informationen zum Zurücksetzen des Konferenz-ID in Microsoft Teams, finden Sie unter [Zurücksetzen eine Konferenz-ID für einen Benutzer in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
 
-Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen zusammen mit der Zugriffsnummer für Einwahl Telefonnummern, die von Anrufern zu einer Besprechung Anrufen verwendet werden können. Wenn der Benutzer die Telefonnummer wählt, wird die automatische Telefonzentrale für die Besprechung bitten Sie den Anrufer an diese Konferenz-ID eingeben, damit sie an der Besprechung teilnehmen können.
+Eine dynamische Konferenz-ID befindet sich am Ende der Besprechungseinladungen zusammen mit den Einwahlnummern, die von den Anrufern zum Einwählen in eine Besprechung verwendet werden können. Wenn der Benutzer diese Telefonnummer wählt, wird er von der automatischen Telefonzentrale aufgefordert, diese Konferenz-ID einzugeben, damit er an der Besprechung teilnehmen kann.
   
 > [!NOTE]
-> Ist Ihr Konferenzanbieter Microsoft, werden Ihrer Benutzer Konferenz-IDs auf dynamische nur in der Standardeinstellung festgelegt. Leider besteht keine Möglichkeit, ändern Sie ihn in die Skype für Business-Verwaltungskonsole oder mithilfe von Windows Powershell zu statischen, wie dies nun ist nicht unterstützt. Konferenz-IDs werden nur für Skype für Unternehmensbenutzer für Audiokonferenzen aktiviert automatisch festgelegt. 
+> Wenn Ihr Konferenzanbieter Microsoft ist, sind die Konferenz-IDs Ihrer Benutzer standardmäßig auf "Nur dynamisch" eingestellt. Leider gibt es keine Möglichkeit, es im Skype for Business Admin Center zu ändern oder Windows PowerShell zu verwenden, damit es statisch wird, da dies nun nicht mehr unterstützt wird. Konferenz-IDs werden automatisch nur für Skype for Business-Benutzer festgelegt, die für Audiokonferenzen aktiviert sind. 
 
-## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
+## <a name="resetting-the-conference-id-for-a-user"></a>Konferenz-ID der Besprechung für einen Benutzer zurücksetzen
    
-1. Klicken Sie in der **Skype für Business Administrationscenter**auf **Audiokonferenzen** > **Benutzer**, wählen einen Benutzer aus, und klicken Sie dann im Aktionsbereich unter **Konferenz-ID** **Zurücksetzen**.
+1. Klicken Sie in der **Skype for Business Admin Center** auf **Audiokonferenzen** > **Benutzer**, wählen Sie einen Benutzer aus und klicken Sie dann im Aktionsbereich unter **Konferenz-ID** auf **Reset**.
     
-2. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Ja**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.
+2. Im Fenster **Konferenz-ID zurücksetzen?** klicken Sie auf **Ja**. Es wird automatisch eine Konferenz-ID erstellt und eine E-Mail mit der neuen Konferenz-ID an den Benutzer gesendet. Standardmäßig werden E-Mails an Benutzer gesendet, diese können jedoch deaktiviert werden.
     
 > [!NOTE]
 > Nach dem Zurücksetzen der Konferenz-ID wird die neue Konferenz-ID per E-Mail an den Benutzer geschickt. Diese E-Mail wird an die Haupt-E-Mail-Adresse geschickt. Dabei handelt es sich oftmals um das Office 365-Postfach. Die E-Mail umfasst die neue Konferenz-ID, die Standardeinwahlnummer(n) und Anweisungen, wie bestehende Besprechungen mithilfe des Skype for Business Meeting Update Tool aktualisiert werden können. 
@@ -50,15 +51,15 @@ Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen 
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
-- Sie können alle Konferenzinformationen in einer e-Mail an den Benutzer senden, die die Konferenz-ID und die Zugriffsnummer für Einwahl Telefonnummern enthält, indem Sie für den Benutzer im Aktionsbereich auf **Konferenz Informationen per e-Mail senden** . Die PIN senden nicht.
+- Sie können alle Konferenzinformationen an den Benutzer in einer E-Mail senden, die die Konferenz-ID und Einwahlnummern enthält, indem Sie im Aktionsbereich auf **Konferenzinformationen per E-Mail senden** für den Benutzer anklicken. Die PIN wird nicht gesendet.
     
-- Enthält eine Konferenz-ID 7 Ziffern, und deren Länge in der Skype für Business-Verwaltungskonsole oder mithilfe von Windows PowerShell können nicht geändert werden.
+- Eine Konferenz-ID umfasst 7 Ziffern. Die Länge kann weder im Skype for Business Admin Center noch mit der Windows PowerShell geändert werden.
     
 - Nach dem Zurücksetzen wird die neue Konferenz-ID unter **Konferenz-ID** aufgeführt.
     
-- Wenn Sie den Benutzer auf der Seite **Benutzer** auswählen, kann die Konferenz-ID für einen Benutzer für Audiokonferenzen am unteren Rand der Aktionsbereich unter **Audiokonferenzen** angezeigt werden.
+- Die Konferenz-ID für Audiokonferenzen für einen Benutzer wird unten im Bereich „Aktion" unter **Audiokonferenzen** angezeigt, wenn Sie auf der Seite **Benutzer** einen Benutzer auswählen.
     
-- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Die Benutzer können Skype für Business Besprechung Tool um vorhandenen Besprechungen zu aktualisieren. Informationen zum Herunterladen, installieren und führen Sie die Skype für Business Besprechung Update-Tools finden Sie unter:
+- Nachdem eine neue Konferenz-ID erstellt wurde, kann die alte Konferenz-ID nicht mehr verwendet werden. Sie sollten die Benutzer benachrichtigen, ihre bestehenden Besprechungseinladungen neu zu planen, um sicherzustellen, dass die neue Konferenz-ID zu den Einladungen hinzugefügt wird. Die Benutzer können das Skype for Business Meeting Migration Tool verwenden, um ihre bestehenden Besprechungen zu aktualisieren. Informationen zum Download, zur Installation und zum Ausführen des Skype for Business Meeting Update Tool finden Sie unter:
     
   - [Skype for Business (Lync) Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
@@ -84,4 +85,4 @@ Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen 
     
 ## <a name="related-topics"></a>See Also
 
-[Die Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin.md)
+[Zurücksetzen der Audiokonferenz-PIN](reset-the-audio-conferencing-pin.md)

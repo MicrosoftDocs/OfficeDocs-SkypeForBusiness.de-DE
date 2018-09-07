@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen über Add-On-Lizenzen und Features für Pläne für GOV, EDU und gemeinnützige Organisationen. '
-ms.openlocfilehash: bf1678efce8f6e08398147db7bb88c771da75bbb
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.openlocfilehash: 6e173a84fc8fbf003c021915800966691851a084
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19493982"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858519"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU und gemeinnützige Organisationen
 

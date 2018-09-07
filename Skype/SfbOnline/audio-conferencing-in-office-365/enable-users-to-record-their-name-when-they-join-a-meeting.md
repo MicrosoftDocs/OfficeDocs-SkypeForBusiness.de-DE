@@ -1,5 +1,5 @@
 ---
-title: Aktivieren von Benutzern, ihren Namen aufzuzeichnen, beim Beitritt zu einer Besprechung in Skype für Business Online
+title: Ermöglicht es Benutzern, ihren Namen aufzuzeichnen, wenn sie an einem Meeting in Skype for Business Online teilnehmen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,18 +19,18 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Informationen Sie zum Aktivieren oder deaktivieren, ob die Benutzer beim Beitritt zu einer Besprechung in Skype für Business Online ihre Namen festhalten können.
-ms.openlocfilehash: b920f0cfea6aa607f5bc3ea7c8a53b5668ba02da
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: Erfahren Sie, wie Sie aktivieren oder deaktivieren können, ob Ihre Benutzer ihre Namen aufzeichnen können, wenn sie an einem Meeting in Skype for Business Online teilnehmen.
+ms.openlocfilehash: 6022d7ebf0e653bc43373cb00faabc207f91562a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490725"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850041"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Aktivieren von Benutzern, ihren Namen aufzuzeichnen, beim Beitritt zu einer Besprechung in Skype für Business Online
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Ermöglicht es Benutzern, ihren Namen aufzuzeichnen, wenn sie an einem Meeting in Skype for Business Online teilnehmen
 
 > [!Note]
-> Wenn Sie Benutzern notieren deren Namen im Teams ermöglichen möchten, finden Sie unter [Aktivieren von Benutzern zum Aufzeichnen ihrer namens beim Beitritt zu einer Besprechung in Microsoft-Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
+> Wenn Sie Benutzern erlauben möchten, ihre Namen in Teams aufzuzeichnen, lesen Sie [Ermöglichen Sie Benutzern, ihren Namen aufzuzeichnen, wenn sie an einem Meeting in Microsoft Teams teilnehmen](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
 Bei der Konfiguration von Einwahlkonferenzen in Skype for Business Online erhalten Sie Telefonnummern sowie eine so genannte Einwahl- oder Audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen, bei der bzw. denen sich um fest zugeordnete oder gemeinsam genutzte Telefonnummern handeln kann.
   
@@ -37,9 +38,9 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
 
 ## <a name="set-whether-callers-should-record-their-name"></a>Festlegen, ob Anrufer ihren Namen aufzeichnen sollen
     
-1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
+1. Gehen Sie zum **Skype for Business Admin Center**, in der linken Navigation, zu **Audiokonferenzen** > **Microsoft Bridge-Einstellungen**.
     
-2. Unter **Teilnahme an einer Besprechung auftreten**finden Sie unter das Kontrollkästchen **Besprechungseintrag aktivieren, und beenden Sie Benachrichtigungen aktiviert werden**.
+2. Unter ** Besprechung beitreten**  sehen Sie das Kontrollkästchen ** Besprechungseintrag aktivieren und Benachrichtigungen beenden wird aktiviert** .
     
   - **Aktivierte** Anrufer werden aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen. Diese Option ist standardmäßig aktiviert.
     
@@ -56,7 +57,7 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
     
 -  In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
-  - [Sechs Gründe für die Verwendung von Windows PowerShell zur Verwaltung von Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Sechs Gründe für die Verwendung von Windows PowerShell zur Verwaltung von Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
