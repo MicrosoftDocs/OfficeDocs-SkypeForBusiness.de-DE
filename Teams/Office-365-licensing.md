@@ -9,18 +9,19 @@ audience: Admin
 ms.service: msteams
 ms.reviewer: ''
 localization_priority: Priority
+search.appverid: MET150
 description: Hier finden Sie Informationen zu den verschiedenen Office 365-Lizenzen und darüber, welche Lizenzen für die Aktivierung von Microsoft Teams erforderlich sind und wie diese Lizenzen aktiviert bzw. deaktiviert werden.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5537ddef4c693d74c3b158a9a9b39fbc66be510
-ms.sourcegitcommit: 088003651ab18492c9520503b4f2bc0f30b0815d
+ms.openlocfilehash: a4133f239c2b8f710d76d11360bb3d837037b0d5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23531906"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854101"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Office 365-Lizenzierung für Microsoft Teams
 ========================================
@@ -42,9 +43,9 @@ Weitere Informationen zum Abrufen von Teams, Auschecken [Wie erhalte ich Zugriff
 > [!NOTE]
 > Microsoft Teams ist auch für gemeinnützige Organisationen verfügbar. Teams für die uns Behörden Cloud Community (GCC) 17. Juli Rollout beginnt und am Ende des August 2018 für alle berechtigten Kunden verfügbar sein. Wir arbeiten an anderen US-Regierung Wolken (GCC hohe und DoD) Microsoft-Teams Unterlagen bald verfügbar. Lesen Sie mehr im Blog Microsoft-Teams [hier](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
         
-Im Hinblick auf Teams Kernfunktionen bestehen keine Unterschiede zwischen den Office 365-Abonnements. Die Verfügbarkeit der Compliance-Funktionen richtet sich nach der jeweiligen Abonnementebene. Weitere Informationen finden Sie unter [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md). Eine ausführliche Liste der Features in jedem Abonnement verfügbar sind finden Sie in der [Office 365 Platform Service Description](https://technet.microsoft.com/en-us/library/office-365-platform-service-description.aspx).
+Im Hinblick auf Teams Kernfunktionen bestehen keine Unterschiede zwischen den Office 365-Abonnements. Die Verfügbarkeit der Compliance-Funktionen richtet sich nach der jeweiligen Abonnementebene. Weitere Informationen finden Sie unter [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md). Eine ausführliche Liste der Features in jedem Abonnement verfügbar sind finden Sie in der [Office 365 Platform Service Description](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
-**Cloud-Sprachfunktionen**: für Audiokonferenzen Ihre Organisation erwerben und Zuweisen einer Audiokonferenz-Lizenzvertrags an jeden Benutzer,-Einwahl Besprechungen einrichten, muss. Für aufrufen plant benötigen jeden Benutzer Telefonsystem plus eine National oder National und International aufrufen. Finden Sie weitere Informationen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+**Cloud-Sprachfunktionen**: für Audiokonferenzen Ihre Organisation erwerben und Zuweisen einer Audiokonferenz-Lizenzvertrags an jeden Benutzer,-Einwahl Besprechungen einrichten, muss. Für aufrufen plant benötigen jeden Benutzer Telefonsystem plus eine National oder National und International aufrufen. Finden Sie weitere Informationen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 Alle unterstützten Abonnementpläne berechtigen zum Zugriff auf den Microsoft Teams-Webclient, die Desktopclients und die mobilen Apps.
 

@@ -10,14 +10,15 @@ ms.reviewer: ''
 description: Lernen Sie die Grenzwerte für die Spezifikationen und anderen Anforderungen für Microsoft-Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18db7bc405dcc06a14fccd1a7b3e81ee5f625d0f
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 60f90a18378dc00da7dc218a85f072cecaa8b943
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21708332"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867797"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft-Teams
 =============================================
@@ -62,7 +63,7 @@ Da Teams, die auf einer SharePoint Online-Back-End für die Dateifreigabe ausgef
 
 Jede Registerkarte Dateien in Teams führt auf einer SharePoint Online Back-End, gilt die oben genannten Speichergrenzwerte für jeden Kanal innerhalb eines Teams.
 
-Weitere Informationen finden Sie unter [SharePoint Online-Begrenzungen](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+Weitere Informationen finden Sie unter [SharePoint Online-Begrenzungen](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 <a name="messaging"></a>Messaging
 ---------

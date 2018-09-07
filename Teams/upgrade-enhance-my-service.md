@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Führen Sie regelmäßige Verkaufschancen Sie zum Verbessern des Teams Diensts nach der Aktualisierung, Überwachen der Übersicht über die Teams für interessante Feature verbessert.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efdbdd28759f42e1fcba5cb62f2c7a8a97f99bb0
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: c89894f0df37ea1e29cea65e091b7bd4f4670fc0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398093"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864455"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -31,7 +32,7 @@ Dieser Artikel bietet eine Übersicht über die Anforderungen für die optimale 
 ## <a name="enhance-my-service-overview"></a>Verbessern Sie meine Service (Übersicht)
 Nachdem Sie erfolgreich Teams in Ihrer Organisation bereitgestellt haben und den Betrieb von des Diensts mit Qualität, Zuverlässigkeit und im nächsten Schritt werden ist für regelmäßige ausgewertet werden soll, ob Sie alle Möglichkeiten zur Verbesserung Ihrer Dienste verfügen. Dies ist ein Teil der Planung, d. h. eines modernen Standards für das Cloud-Service-Management zur Verbesserung der kontinuierlichen Service. 
 
-Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben, erhalten bereitstellen regelmäßiger Updates von uns über neue und geänderte Features über unsere Nachrichtencenter Sie. 
+Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben, erhalten bereitstellen regelmäßiger Updates von uns über neue und geänderte Features über unsere Nachrichtencenter Sie. 
 
 Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie von Ihren Benutzern und internen Champions Praxis Feedback optimal nutzen, durch die Einrichtung von Feedback Kanäle in Ihrer Organisation. Diese können informelle Unterhaltungen, regulären Meeetings werden oder durch eine Teams channel oder Yammer Community. 
 

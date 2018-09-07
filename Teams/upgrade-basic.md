@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Aktionsplan für das Upgrade von Skype für Unternehmen, die Teams beschleunigten zehn-Schritt
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94e1fdc1caa477df281336859e4b537dfd86d080
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 743f07dc74f33b10e7035a52fafdb11b05d657ff
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780659"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858441"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>Grundlegende aktualisieren 

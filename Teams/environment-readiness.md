@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: dansteve
 description: Hier erfahren Sie, auf was Sie achten müssen, wenn Sie die Bereitschaft Ihrer Umgebung für Microsoft Teams überprüfen.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1121256cef2a719b9f6fccebac9a88fe9f5bea25
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 287d4a859b51446d0e5765fe5552609e7c0ff0c9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19136345"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849811"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Überprüfen der Bereitschaft Ihrer Umgebung für Microsoft Teams
 ===========================================
 
 Der Übergang zur Cloud verläuft bei jeder Organisation anders, und der aktuelle Zustand kann sich auf die Funktionsweise von Microsoft Teams auswirken.
 
-Bildungseinrichtungen werden vor der Bereitstellung von Microsoft-Teams, dringend empfohlen, [Schule Daten Sync bereitstellen](https://docs.microsoft.com/en-us/schooldatasync/) . Schule Daten Sync verwendet Ihre Schule SIS Teilnehmerliste Daten Klassen und Gruppen automatisch für Microsoft-Teams und andere Anwendungen zu erstellen.
+Bildungseinrichtungen werden vor der Bereitstellung von Microsoft-Teams, dringend empfohlen, [Schule Daten Sync bereitstellen](https://docs.microsoft.com/schooldatasync/) . Schule Daten Sync verwendet Ihre Schule SIS Teilnehmerliste Daten Klassen und Gruppen automatisch für Microsoft-Teams und andere Anwendungen zu erstellen.
 
 Um optimales Arbeiten mit Microsoft Teams sicherzustellen, müssen Exchange Online und SharePoint Online in Ihrer Organisation bereitgestellt sein. Wenn diese Dienste nicht bereitgestellt sind oder wenn Sie über ein anderes Setup verfügen, finden Sie unter diesen Links weitere Informationen:
 
@@ -38,6 +39,6 @@ Um optimales Arbeiten mit Microsoft Teams sicherzustellen, müssen Exchange Onli
 
 -   Wenn Ihre Organisation nicht über SharePoint Online verfügt, finden Sie weitere Informationen unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Wenn Ihre Organisation eine Bildungseinrichtung ist, und Sie eine Student Informationen System (SIS) verwenden, vor der Bereitstellung von Microsoft-Teams [Schule Daten Sync bereitstellen](https://docs.microsoft.com/en-us/schooldatasync/) .
+- Wenn Ihre Organisation eine Bildungseinrichtung ist, und Sie eine Student Informationen System (SIS) verwenden, vor der Bereitstellung von Microsoft-Teams [Schule Daten Sync bereitstellen](https://docs.microsoft.com/schooldatasync/) .
 
                                                                                

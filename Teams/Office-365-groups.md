@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Erfahren Sie, wie Office 365-Gruppen und -Gruppenmitgliedschaften mit Microsoft Teams funktionieren.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9d7c37a0aa53f45036388bdedfc5bdc87b1cc8a
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 9ef86beea194dde66e3ce5d7f54bde7a522dd605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520062"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850023"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365-Gruppen und Microsoft-Teams
 =====================================
@@ -33,7 +34,7 @@ Beim Erstellen von einem Microsoft-Team für die Back-End-erstellen Sie eine Off
 > [!NOTE]
 > Löschen einer Office 365-Gruppe wird entfernen Sie das Postfach alias für persistent Outlook/OWA-Unterhaltungen und Teams Besprechung eingeladen, und markieren Sie die SharePoint zum Löschen site. Es dauert ungefähr 20 Minuten zwischen das Entfernen eines Teams und ihre Auswirkung auf Outlook. Löschen ein Team aus der Teams Client wird sofort aus der Ansicht zu allen entfernt, die Mitglieder des Teams sind. Wenn Sie Mitglieder einer Office 365-Gruppe, die Teams Funktionalität aktiviert wurde entfernen, werden konnte eine Verzögerung von etwa zwei Stunden, bevor das Team aus Ansicht im Client Teams für die betroffenen Personen entfernt wird, die entfernt wurden.
 >
->Lesen Sie [diese](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) Informationen zum Wiederherstellen einer Office 365-Gruppe, die Sie gelöscht.
+>Lesen Sie [diese](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) Informationen zum Wiederherstellen einer Office 365-Gruppe, die Sie gelöscht.
 
 <a name="group-membership"></a>Gruppenmitgliedschaft:
 ----------------

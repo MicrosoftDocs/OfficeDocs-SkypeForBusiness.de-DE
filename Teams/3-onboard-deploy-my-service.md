@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Laden Sie die Website-Aktivierung Playbook zur Planung der Einführung Teams und beschleunigen und zur Optimierung Benutzerakzeptanz, Wahrnehmung der Qualität und Kundenzufriedenheit.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3e40009a76ef7c8f31d659d45de1e4acf0801ec
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: bd3b1482430a24c20d4a5969c44f4c27a8115731
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695510"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860295"
 ---
 # <a name="deploy-my-service"></a>Stellen Sie meine Dienst
 

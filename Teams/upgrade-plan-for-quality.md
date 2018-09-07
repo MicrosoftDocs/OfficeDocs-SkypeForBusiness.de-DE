@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Verwenden Sie diese Anleitung um kennen zu lernen die Anforderungen, die zum Bereitstellen und Verwalten von eine hohe Qualität Microsoft-Teams, Bereitstellung erforderlich sind.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 58f99698f5168f428900095a813a8361955255e6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779948"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854149"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
@@ -345,7 +346,7 @@ Die folgende Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit 
 | | Installieren von Vorlagen Qualität Erfahrung überprüfen <br/> Hochladen einer Datei zum Erstellen von | [QERLite Vorlagen](https://aka.ms/qertemplates) <br/> [Informationen zum Erstellen von hochladen](turning-on-and-using-call-quality-dashboard.md)|
 | Planen der Netzwerkqualität | Führen Sie die Netzwerk-Planner | [Netzwerk-Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implementieren von QoS | [Quality of Service in Microsoft-Teams](qos-in-teams.md) |
-| | Umgehen der Proxy-Server | [Proxy-Anweisungen](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Umgehen der Proxy-Server | [Proxy-Anweisungen](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implementieren von Split-Tunnel VPN | [VPN-Split Tunnel Anleitungen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimieren der Leistung von Wi-Fi-Netzwerken für Real-Time media  | Wenden Sie sich an von Drittanbietern |
 | | Implementieren von lokalen Internet Ausgang | [Lokale Internet Ausgang](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

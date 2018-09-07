@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Wenn Sie Telefonnummern für Ihre Organisation reservieren möchten, kann die Anzahl der reservierten Telefonnummern die Anzahl der zugewiesenen Lizenzen übersteigen. Dies richtet sich jedoch nach der Art der Telefonnummern und der Art der Lizenzen, die Sie gekauft haben und die Ihnen zugewiesen wurden. Sie können klicken Sie auf verschiedene Arten von Rufnummern für plant Aufrufen verwendet, um Informationen zu den verschiedenen Rufnummern finden Sie heraus, die in Skype für Business Online verwendet werden.
-ms.openlocfilehash: 53c470e528fefbb793fbb2d75d732cfb31730ef3
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: a0d4e1273a49ac4f9e82cb98c8baddf22772f9d4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784734"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856307"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Wie viele Telefonnummern können Sie erhalten?
 
 Wenn Sie Telefonnummern für Ihre Organisation reservieren möchten, kann die Anzahl der reservierten Telefonnummern die Anzahl der zugewiesenen Lizenzen übersteigen. Dies richtet sich jedoch nach der Art der Telefonnummern und der Art der Lizenzen, die Sie gekauft haben und die Ihnen zugewiesen wurden. Klicken Sie auf [verschiedene Arten von Rufnummern, die zum Aufrufen von plant](different-kinds-of-phone-numbers-used-for-calling-plans.md) , über die die verschiedenen Rufnummern finden Sie heraus, die in Skype für Business Online verwendet werden.
   
-Sehen Sie die Anzahl der Rufnummern, die Sie auf der Seite **Telefonnummern** in das Skype für Business Administrationscenter erhalten können, oder Sie können das Cmdlet [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx) ausführen.
+Sehen Sie die Anzahl der Rufnummern, die Sie auf der Seite **Telefonnummern** in das Skype für Business Administrationscenter erhalten können, oder Sie können das Cmdlet [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) ausführen.
   
 > [!IMPORTANT]
 > Die Beschränkungen unten beinhalten nicht die Telefonnummern, die Sie an Microsoft portiert oder übertragen haben. 

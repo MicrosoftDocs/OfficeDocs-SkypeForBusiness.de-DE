@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 description: Hier erhalten Sie Informationen zu Microsoft Teams, zur Infrastruktur und zur Verwendung von Teams mit Office 365.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dbee055a5d91c6e0e453f0f539cba823226c347e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967129"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867581"
 ---
 <a name="overview-of-microsoft-teams"></a>Übersicht über Microsoft Teams
 ===========================
@@ -118,10 +119,4 @@ Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 36
 
 ## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Anmerkungen zu dieser Version des Microsoft Teams-Clients](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## <a name="what-happened-to-the-teams-admin-faq"></a>Was ist mit den häufig gestellten Fragen für Microsoft Teams-Administratoren geschehen?
 
-Die häufig gestellten Fragen für Microsoft Teams-Administratoren waren anfangs bei der Veröffentlichung von Microsoft Teams praktisch. Sie sind aber schnell so unübersichtlich geworden, dass es schwer war, etwas Bestimmtes zu finden. Daher haben wir die häufig gestellten Fragen aufgeteilt und diese wertvollen Informationen in die Microsoft Teams-Dokumentation integriert, die Sie gerade lesen. In dieser Dokumentation finden Sie alle Informationen aus den häufig gestellten Fragen im entsprechenden Kontext.
-
-Wenn Sie nach einem Thema suchen, die Sie hier nicht finden können, teilen Sie uns darüber im Abschnitt **Feedback** . Versuchen wir, innerhalb von 24 Stunden auf Ihr Feedback zu reagieren.
-
-Übrigens **gibt** es nach wie vor häufig gestellte Fragen zur [Reise von Skype for Business zu Microsoft Teams](FAQ-journey.md). 

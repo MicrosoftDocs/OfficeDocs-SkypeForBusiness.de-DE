@@ -1,5 +1,5 @@
 ---
-title: Liste der Session Border Controller für die direkte Weiterleitung zertifiziert
+title: Liste der für direktes Routing zertifizierten Session Border Controller
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,48 +9,48 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
-description: Microsoft-Partner mit ausgewählten SBC-Anbietern für ihren SBC Zertifizierung arbeiten mit direktem Routing.
+description: Microsoft arbeitet mit ausgewählten SBC-Anbietern zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren.
 ms.openlocfilehash: f233bdfcb579bbab3d9c9a13f0ab500a8c512d2e
 ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23850835"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der Session Border Controller für die direkte Weiterleitung zertifiziert
+# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
-Microsoft Partner mit ausgewählten Session Border Controller (SBC) Anbietern Zertifizierung, die ihre SBCs für die Arbeit mit direktem Routing. 
+Microsoft arbeitet mit ausgewählten SBC-Anbietern (Session Border Controller) zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren. 
 
-Mit jedem Anbieter Microsoft: 
+Die Zusammenarbeit zwischen Microsoft und den einzelnen Anbietern sieht so aus: 
 
-- Gemeinsam funktioniert mit dem SBC-Anbietern auf die Gasverbund SIP-Protokolle.
-- Intensiver Tests über einen Drittanbieter-Lab führt. nur Geräte, die die Tests übergeben zertifiziert sind. 
-- Tägliche Tests mit allen zertifizierten Geräten in Produktions- und Präproduktion Umgebungen ausgeführt. Überprüfen die Geräte in Präproduktion Umgebungen wird sichergestellt, dass neue Versionen der Code in der Cloud direkten Routing mit zertifizierten SBCs funktioniert. 
-- Verfügt über einen gemeinsamen Support-Prozess mit der SBC-Anbietern.
+- Microsoft arbeitet gemeinsam mit den SBC-Anbietern an den SIP-Verbindungsprotokollen.
+- Über ein unabhängiges Labor werden intensive Tests durchgeführt. Nur Geräte, die Test bestanden haben, werden zertifiziert. 
+- Alle zertifizierten Geräte werden täglich in Produktions- und Präproduktionsumgebungen getestet. Die Validierung der Geräte in Präproduktionsumgebungen gewährleistet, dass neue Versionen des Codes für direktes Routing in der Cloud auf zertifizierten SBCs funktionieren. 
+- Microsoft stellt mit den SBC-Anbietern einen gemeinsamen Supportprozess bereit.
  
 
   > [!NOTE]
-  > Microsoft unterstützt nur Telefonsystem, wenn ein zertifiziertes Gerät oder Geräte über direkte Routing verbunden sind. Microsoft behält sich das Recht, Support-Anfragen ablehnen, in dem ein Gerät nicht zertifizierter mit dem Telefonsystem über direkte Routing verbunden ist. 
+  > Microsoft unterstützt das Telefonsystem nur, wenn zertifizierte Geräte über direktes Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, bei denen ein nicht zertifiziertes Gerät über direktes Routing mit dem Telefonsystem verbunden ist. 
 
-Die folgende Tabelle enthält die Geräte, die für die direkte Weiterleitung zertifiziert. 
+Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierten Geräte. 
 
-[Erfahren Sie mehr über die direkte Routing](https://aka.ms/dr). Wenn Sie Fragen zur SBC Zertifizierungsprogramm für das direkte Routing haben per e-Mail an drsbccertification@microsoft.com
+[Hier finden Sie weitere Informationen zu direktem Routing](https://aka.ms/dr). Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wenden Sie sich per E-Mail an drsbccertification@microsoft.com.
 
 
-|Hersteller  |Produkt  |Nicht die Medienumgehung  |Die Medienumgehung  |Softwareversion|
+|Anbieter  |Produkt  |Ohne Medienumgehung  |Medienumgehung  |Softwareversion|
 |---------|---------|---------|---------|---------|
-|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    & #10004;     |    Ausstehende      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |    & #10004;      |     Ausstehende    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |     & #10004;     |    Ausstehende     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |     & #10004;     |    Ausstehende     |    7.20A.200.055      |
-|     |    Mediant 1000 SBC   |    & #10004;      |  Ausstehende       |    7.20A.200.055   |
-|     |   Virtuelle Edition SBC    |   & #10004;   |Ausstehende         |     7.20A.200.055     |
-|[Menüband-Kommunikation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004;      |   Ausstehende      |     V6. 2     |
-|     |SBC 5210     |     & #10004;     |    Ausstehende     |    V6. 2      |
-|     | SBC 5400     |    & #10004;  |    Ausstehende     |   V6. 2    |
-|     |SBC 7000     |     & #10004;  |    Ausstehende     |    V6. 2      |
-|     | SBC Schwedisch  |   & #10004;    |    Ausstehende     |    V6. 2      |
-|     |SBC 1000   |     & #10004;   |     Ausstehende    |    V7.0.2   |& #10004; 
-|     | SBC 2000    |     & #10004;   |    Ausstehende     |    V7.0.2      |
-|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Denken Sie 365 SBC      |  & #10004;       |    Ausstehende     |   V1. 4       |
+|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    &#10004;     |    Steht noch aus      |     7.20A.200.055     |
+|  |   Mediant 800 SBC       |    &#10004;      |     Steht noch aus    |      7.20A.200.055    |
+|     |      Mediant 2600 SBC    |     &#10004;     |    Steht noch aus     |    7.20A.200.055      |
+|     |   Mediant 4000 SBC       |     &#10004;     |    Steht noch aus     |    7.20A.200.055      |
+|     |    Mediant 1000B SBC   |    &#10004;      |  Steht noch aus       |    7.20A.200.055   |
+|     |   Virtual Edition SBC    |   &#10004;   |Steht noch aus         |     7.20A.200.055     |
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   Steht noch aus      |     V6.2     |
+|     |SBC 5210     |     &#10004;     |    Steht noch aus     |    V6.2      |
+|     | SBC 5400     |    &#10004;  |    Steht noch aus     |   V6.2    |
+|     |SBC 7000     |     &#10004;  |    Steht noch aus     |    V6.2      |
+|     | SBC SWe  |   &#10004;    |    Steht noch aus     |    V6.2      |
+|     |SBC 1000   |     &#10004;   |     Steht noch aus    |    V7.0.2   |&#10004; 
+|     | SBC 2000    |     &#10004;   |    Steht noch aus     |    V7.0.2      |
+|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    Steht noch aus     |   V1.4       |
 |     |         |         |         |         |

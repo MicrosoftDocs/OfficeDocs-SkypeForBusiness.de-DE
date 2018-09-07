@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Führen Sie regelmäßige Verkaufschancen Sie Verbesserung des Diensts Teams, Überwachen der Übersicht über die Teams für interessante Feature verbessert.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98ccde7b481b8b57f32979bc73f6c69f4e0d24cd
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 57de86e056c9023bcafbf5d475081b8f50afbe36
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694810"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856029"
 ---
 # <a name="enhance-my-service"></a>Meine Service zu verbessern
 
@@ -26,11 +27,11 @@ Dieser Artikel bietet eine Übersicht über die Anforderungen für die optimale 
 ## <a name="enhance-my-service-overview"></a>Verbessern Sie meine Service (Übersicht)
 Nachdem Sie erfolgreich Audiokonferenzen oder Telefonsystem mit Diensten aufrufen Pläne für Ihre Organisation bereitgestellt haben und den Betrieb von sind des Diensts mit Qualität, Zuverlässigkeit und im nächsten Schritt besteht darin, regelmäßig bewerten, ob Sie alle Verkaufschancen zu haben Verbessern Sie Ihre Dienste. Dies ist ein Teil der Planung, d. h. eines modernen Standards für das Cloud-Service-Management zur Verbesserung der kontinuierlichen Service. 
 
-Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben erhalten bereitstellen regelmäßiger Updates Sie von uns über neue und geänderte Features über unsere Nachrichtencenter. 
+Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben erhalten bereitstellen regelmäßiger Updates Sie von uns über neue und geänderte Features über unsere Nachrichtencenter. 
 
 Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie in der Praxis Feedback von Ihren Benutzern und internen Champions erhalten von Feedback Kanäle in Ihrer Organisation herstellen. Diese können informelle Unterhaltungen, regulären Meeetings werden oder durch eine Teams channel oder Yammer Community. 
 
-Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Besuchen Sie unsere Implementierungsphasen (https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams) und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
+Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Besuchen Sie unsere Implementierungsphasen (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
 
 
 <table>

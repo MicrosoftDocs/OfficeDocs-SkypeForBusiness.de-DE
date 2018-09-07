@@ -8,17 +8,18 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Priority
+search.appverid: MET150
 description: Hier erfahren Sie, welche Hardware erfüllt sein müssen, die zum Installieren und Ausführen von Microsoft-Teams erforderlich sind.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2e9c065d170c0e535075668f8e67728f0429dc
-ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
+ms.openlocfilehash: 71dccd1e3cfe106a29d1ea67707170b787f3c14d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23289922"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867733"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Hardwareanforderungen für die Anwendung Microsoft-Teams
 
@@ -59,5 +60,5 @@ Sie können die Microsoft-Teams auf diesen mobilen Plattformen verwenden:
 
 ### <a name="related-topics"></a>Verwandte Themen
 - [Get-Teams apps](get-clients.md)
-- [Microsoft-Teams auf mobilen Geräten](https://support.office.com/en-us/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Microsoft-Teams auf mobilen Geräten](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Installieren Sie die Microsoft-Teams-app, die über eine MSI-Datei](msi-deployment.md)

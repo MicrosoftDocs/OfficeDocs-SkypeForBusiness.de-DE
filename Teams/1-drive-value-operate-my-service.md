@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Aufgaben und Aktivitäten für Teams Servicemanagement, einschließlich Dienststatus, monitoring und bewerten und sicherstellen, dass Netzwerkqualität und Verwendungsanalyse erforderlich.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 554ef6b3a974621567002dc91de8bd3d43cfbf35
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 2294ef8e983192e1b93cca0e815c54ef69e064db
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396913"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856171"
 ---
 # <a name="operate-my-service"></a>Meine Dienst betreiben
 
@@ -201,7 +202,7 @@ Nun, da Sie anstehende Änderungen an den Dienst Teams bekannt sind, besteht der
 |----|----|----|-----|
 | Veröffentlichungsstatus               | in Bearbeitung          | Ausstehende Überprüfung durch executive Sponsor.               | Ändern von Management-Team |
 | Version deaktiviert             |                      |                                                                 |                        |
-| Veröffentlichungsdatum                 |                      |                                                                 |                        |
+| Datum der Veröffentlichung                 |                      |                                                                 |                        |
 
 Weitere Informationen zur Planung für das Änderungsmanagement mit den Teams finden Sie unter [Erstellen einer Strategie für Microsoft-Teams ändern](change-management-strategy.md).
 
@@ -440,7 +441,7 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 | Aktivität                 | Beschreibung                                                                                                                                                                                                                                                                                                                                                                     | Trittfrequenz   | Team zugewiesen |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Anforderungen für Endpunkt    | Sicherstellen Sie, dass die gesamte erforderliche Software für Teams, die in [Get-Clients für Microsoft-Teams](get-clients.md)aufgeführten erfüllen Endpunkt weiterhin Teams.                                                                                                                                                                                       | Monatlich   |               |
-| Endpunkt firewalls       | Verwalten Sie die entsprechenden Ausnahmen auf der Grundlage der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips)Endpunkt Firewall. Ihre Drittanbieter müssen bestimmte Richtlinien zum Verwalten der Ausschlüsse. Abonnieren Sie den [RSS-feed](https://support.office.com/en-us/o365ip/rss) Änderungen automatisch benachrichtigt werden sollen. | Bei Bedarf |               |
+| Endpunkt firewalls       | Verwalten Sie die entsprechenden Ausnahmen auf der Grundlage der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips)Endpunkt Firewall. Ihre Drittanbieter müssen bestimmte Richtlinien zum Verwalten der Ausschlüsse. Abonnieren Sie den [RSS-feed](https://support.office.com/o365ip/rss) Änderungen automatisch benachrichtigt werden sollen. | Bei Bedarf |               |
 | Wi-Fi-Treiber            | Testen Sie und aktualisieren Sie die Wi-Fi-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Qualität überprüfen Handbuch für of Experience](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Bei Bedarf |               |
 | Endpunkt-Verwaltung      | Verwalten des Katalogs der unterstützten Endpunkten und Geräte (wie Headsets) Schnittstelle. Hersteller Verträge, Garantie, Verteilung, Replacement verwalten und Richtlinien zu reparieren.                                                                                                                                                                                                        | Monatlich   |               |
 | Endpunkt-Problembehandlung | Problembehandlung bei Aufgaben kann Überprüfen der Konnektivität, konsultieren die Liste der bekannten Probleme, Log sammeln, Analyse und Weiterleitung zu Support von Microsoft oder von Drittanbietern enthalten.                                                                                                                                                                                               | Bei Bedarf |               |

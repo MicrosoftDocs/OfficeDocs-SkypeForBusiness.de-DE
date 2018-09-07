@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
+search.appverid: MET150
 description: Weitere Informationen zum Verwalten von Mandanten geltende und von Einstellungen für Teams während des Übergangs von den Teams Erfahrung in der Office 365-Verwaltungskonsole auf die neue Microsoft-Teams & Skype für Business Admin Center.
 localization_priority: Priority
 ms.custom:
@@ -15,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5528ecfc3d47738e0f34b56f007e36d193d95da6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b81853b33f457dd8a69890774b4b7ff8902d8226
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968188"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864827"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Verwalten von Teams während des Übergangs auf die neuen Microsoft-Teams und Skype für Business Admin Center
 ======================================================
@@ -44,7 +45,7 @@ Die neue Oberfläche Admin Center wird Ihnen ein einheitliches Benutzererlebnis 
 Starten in der Mitte März 2018, wurden die folgenden Funktionen in der neuen Microsoft-Teams & Skype für Business Admin Center verfügbar: 
 
 - **Microsoft-Teams, messaging-Richtlinie**: Erstellen der Richtlinie für die Verwaltung auf Benutzerebene, die Erfahrung in der Microsoft-Teams, Client für Messaging Szenarien.
-- **Upgrade-Policy von Microsoft-Teams**: konfigurieren die Interoperabilität und Upgrade Erfahrung zwischen Skype für Unternehmen und die Microsoft-Teams. Finden Sie unter https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
+- **Upgrade-Policy von Microsoft-Teams**: konfigurieren die Interoperabilität und Upgrade Erfahrung zwischen Skype für Unternehmen und die Microsoft-Teams. Finden Sie unter https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
 - **Microsoft-Teams Gast messaging-Einstellungen**: steuern die messaging-Funktionen für Gastkonten in Microsoft-Teams. 
 - **Verbundeinstellungen**: den Verbund zwischen Mandanten für Microsoft-Teams und Skype für Unternehmen zu verwalten. 
 - **Die Verwaltung von**: Zuweisen von Richtlinien und Konfigurieren von Benutzerkonten. 

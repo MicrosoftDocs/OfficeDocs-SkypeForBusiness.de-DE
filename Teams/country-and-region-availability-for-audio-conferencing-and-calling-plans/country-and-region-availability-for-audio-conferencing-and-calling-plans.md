@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: dede3b8c1d3e844399973046d0569f8b3e3fca20
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6be4aa215277fb8e5a1d4186cdac17eed5ca3d1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785606"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853343"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -149,7 +150,7 @@ Mit Audiokonferenz können Benutzer gebührenpflichtige und gebührenfreie Telef
 
 Weitere Informationen zu Audiokonferenz finden Sie unter [Allgemeine Fragen zu Audiokonferenz](../audio-conferencing-common-questions.md).
 
-[Preise für Audiokonferenz](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
+[Preise für Audiokonferenz](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Verwenden der Rückruffunktion oder Hinzufügen anderer Personen zu einer Besprechung, sodass sie daran teilnehmen können
 Audiokonferenz enthält die Funktion „*Rückruf*“, mit der andere Personen an einer Einwahlbesprechung teilnehmen können. Mit der Dropdownliste oben können Sie nach dem Land/der Region suchen und ermitteln, ob diese Funktion verfügbar ist.
@@ -164,7 +165,7 @@ Mit Telefonsystem können Sie automatische Telefonzentralen und Anrufwarteschlei
 
 Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenz (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen suchen und anfordern. Diese werden Servicenummern genannt. Finden Sie unter [Getting Service Telefonnummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) abzurufenden Rufnummern. Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Damit diese Nummern ermittelt wird, wechseln Sie zum [Abrufen von Telefonnummern für Ihre Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
-[Preise für Telefonsystem](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+[Preise für Telefonsystem](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
 > Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. 

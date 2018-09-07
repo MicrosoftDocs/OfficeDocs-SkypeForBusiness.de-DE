@@ -7,6 +7,7 @@ ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
+search.appverid: MET150
 description: Informationen Sie zum Aktivieren oder Deaktivieren der apps in Office 365-Organisation, einschließlich Registerkarten, Connectors, Bots oder eine beliebige Kombination der drei Microsoft-Teams.
 localization_priority: Priority
 ms.custom:
@@ -14,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0be88d173186e762c2297178237004b6e583bde8
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: e9be3c44f441238033c383dc5e42240207f3095c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23834935"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867701"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 

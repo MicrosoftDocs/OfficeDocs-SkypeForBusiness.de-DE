@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: Anleitung für IT-Spezialisten das Laufwerk Office 365-Bereitstellungen in Entitäten, die Daten können US Organisationsrichtlinien behandeln
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835039"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869381"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 
@@ -38,9 +39,9 @@ Zusätzlich zu genießen die Features und Funktionen von Office 365, Vorteile f�
 -   Zugriff auf Inhalte von Ihrer Organisation Kunden ist auf überwachtes Microsoft-Mitarbeiter beschränkt.
 -   Microsoft 365 Government - erfüllt GCC Zertifizierungen und Akkreditierungen, die für uns öffentlicher Sektor-Kunden erforderlich sind.
 
-Sie können weitere Informationen zu Microsoft 365 Government - Angebot für den Kunden am [Office 365 Government plant](https://products.office.com/en-us/government/compare-office-365-government-plans), einschließlich [Berechtigung Anforderungen](https://products.office.com/en-us/government/compare-office-365-government-plans#EligibilityRequirements)US-Regierung GCC finden.
+Sie können weitere Informationen zu Microsoft 365 Government - Angebot für den Kunden am [Office 365 Government plant](https://products.office.com/government/compare-office-365-government-plans), einschließlich [Berechtigung Anforderungen](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)US-Regierung GCC finden.
 
-Die [Beschreibung der Dienste von Office 365 US-Regierung](https://technet.microsoft.com/en-us/library/mt774581.aspx) beschreibt die Plattform Vorteile, die meeting-Compliance-Bestimmungen innerhalb der USA zentraler.
+Die [Beschreibung der Dienste von Office 365 US-Regierung](https://technet.microsoft.com/library/mt774581.aspx) beschreibt die Plattform Vorteile, die meeting-Compliance-Bestimmungen innerhalb der USA zentraler.
 
 > [!Tip]
 > Möglicherweise möchten Sie übertragen von Informationen in der Beschreibung in den Tabellen in einer Excel-Arbeitsmappe, und fügen Sie zwei Spalten: **Relevant für meine Organisation Y/N** und **erfüllt die Anforderungen der Organisation Y/N**. Anschließend können Sie diese Liste mit Ihren Kollegen zu bestätigen, dass dieser Dienst Anforderungen Ihrer Organisation erfüllt überprüfen.
@@ -84,7 +85,7 @@ Es wird empfohlen, dass Sie Ihre [Einstellungen Verwaltungs- und Sicherheitsfunk
 
 ## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>Schritt 4. Für Microsoft 365 Government - GCC anwenden
 
-Entschlossen, dass dieser Dienst für Ihr Unternehmen geeignet ist, starten Sie den Vorgang [für diesen Dienst hier](https://products.office.com/en-us/government/eligibility-validation)anwenden.
+Entschlossen, dass dieser Dienst für Ihr Unternehmen geeignet ist, starten Sie den Vorgang [für diesen Dienst hier](https://products.office.com/government/eligibility-validation)anwenden.
 
 ## <a name="step-5-plan-for-governance"></a>Schritt 5. Planen der Steuerung
 

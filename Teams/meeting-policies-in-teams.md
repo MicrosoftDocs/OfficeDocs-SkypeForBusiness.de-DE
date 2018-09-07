@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: Informationen zum Verwalten von Richtlinieneinstellungen in Teams meeting.
-ms.openlocfilehash: 1e2c16acd5eb2a5605670b6c1aea66ce7336e834
-ms.sourcegitcommit: 16421e244f866e13600765a41cca509202815819
+ms.openlocfilehash: 123781a3a53d3a6da04b01701fd479d72f257426
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2018
-ms.locfileid: "22290288"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855797"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 

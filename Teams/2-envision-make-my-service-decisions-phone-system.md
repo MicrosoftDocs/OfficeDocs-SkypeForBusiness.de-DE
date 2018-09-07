@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Wählen Sie aus dem Aufruf von Plänen und Lizenzierung, notfallstandorten und Funktionen wie die Voicemail und Anrufer-ID konfigurieren, erwerben oder Rufnummern übertragen.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 90cdd9efb2d4b80f9ad8c9ef9bb38dd2adf8bbcd
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780911"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859997"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -125,7 +126,7 @@ Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt 
 
 Die Standardeinstellung ist Telefonsystem Voicemail mit Exchange Online; Es wurde jedoch eine minimale unterstützte Exchange lokale Version und Bereitstellungsmodell um Übermittlung von Voicemailnachrichten auf Benutzerpostfächer in der lokalen Exchange-Bereitstellung zu ermöglichen.
 
-Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung aktiviert werden müssen. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung aktiviert werden müssen. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
 
 >[!NOTE]
 > Als Ausweichmechanismus kann Voicemail für Telefonsysteme Nachrichten über SMTP erneut senden. Das bedeutet, dass Benutzer mit einem Postfach in einem E-Mail-System eines Drittanbieters ihre Voicemailnachrichten erhalten. Dieser Mechanismus umfasst nicht garantiert Service Betriebszeit oder andere Voicemail-Features, beispielsweise Voicemail-Ansage ändern.
@@ -145,9 +146,9 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 >|Emily Braun      |Online      |Ja |Aktiviert |Aktiviert |
 >|Lidia Holloway   |Online      |Ja |Aktiviert |Deaktiviert |
 >|Louis Lahr       |Lokal |Ja |Aktiviert |Aktiviert |
->|Marcel Beauchamp |Lokal |Ja |Deaktiviert |- |
->|Rachelle Cormier |Online      |Ja |Deaktiviert |- |
->|Isabell Potvin   |Lokal |Ja |Deaktiviert |- |
+>|Marcel Beauchamp |Lokal |Ja |Deaktiviert |n/v |
+>|Rachelle Cormier |Online      |Ja |Deaktiviert |n/v |
+>|Isabell Potvin   |Lokal |Ja |Deaktiviert |n/v |
 
 <!--ENDOFSECTION-->
 

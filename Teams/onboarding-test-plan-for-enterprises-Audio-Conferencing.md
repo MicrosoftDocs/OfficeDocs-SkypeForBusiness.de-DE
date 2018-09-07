@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Überprüfen Sie, ob über das Testen von Audiokonferenzen in Teams Features, Funktionen und Verwendbarkeit entsprechend Ihrer Organisation erfüllt sind.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8295884d973dc873a7646be629bd639adba2156a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e60a434e352c0165ef71075307617c009555ff34
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779125"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862785"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihre Audiokonferenzen in Plan zum Testen von Teams für Unternehmen 
 ===============================================================================

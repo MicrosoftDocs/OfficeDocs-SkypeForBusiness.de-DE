@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Praktische Anleitungen für die Planung, Bereitstellung und Verwaltung von Telefonsystemen mit Anrufplänen in Microsoft Teams mithilfe eines Frameworks, das die Phasen „Konzeptionierung“ (Planung), „Onboarding“ (Bereitstellung) und „Wertschöpfung“ (Einsatz) vorsieht
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: c697da99ab2ca96794448dca93f45ae29efa103d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
+ms.openlocfilehash: 2ce4d09113cc75381379fa6f9481eca2ae27c2ea
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779892"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853655"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Praktische Anleitungen für Telefonsysteme mit Anrufplänen in Microsoft Teams
 =========================================================================
@@ -27,7 +28,7 @@ Das Telefonsystem ist eine Office 365-Funktion, die das Verwalten von Anrufweit
 
 Office 365-Anrufpläne werden als Add-On-Dienst für die Telefonsystemfunktion über Microsoft Teams und Skype for Business Online bereitgestellt. Mit Anrufplänen erhalten die Mitarbeiter Ihres Unternehmens eine primäre Telefonnummer, über die sie außerhalb der Organisation Telefonanrufe über das Telefonfestnetz (Public Switched Telephone Network, PSTN) tätigen und erhalten können.
 
-Weitere Informationen finden Sie unter [Das bietet Ihnen das Telefonsystem in Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) und [Was sind Anrufpläne in Office 365?](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365).
+Weitere Informationen finden Sie unter [Das bietet Ihnen das Telefonsystem in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) und [Was sind Anrufpläne in Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365).
 
 Diese praktischen Anleitungen führen Sie durch das Framework der Office 365 FastTrack Customer Journey und seine drei Phasen (Konzeptionierung, Onboarding und Wertschöpfung), damit Sie eine erfolgreiche Implementierung des Telefonsystems mit Anrufplänen planen, bereitstellen und verwenden können.
 
@@ -150,7 +151,7 @@ Um die gewünschten Ziele und wesentlichen Ergebnisse zu erreichen, müssen Sie 
 
 Die Ermittlung der Umgebung umfasst alle zum Endbenutzercomputing gehörenden Aspekte wie die Bewertung der Bereitschaft der PCs und mobilen Geräte für die Unterstützung von Geschäftsanwendungsfällen für das Telefonsystem mit Anrufplänen – von den Hardwareanforderungen bis zu den Softwareanforderungen.
 
-Die Ermittlung der Umgebung kann auch Aufschluss darüber geben, ob Sie [Telefonnummern zu Microsoft übertragen](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) müssen. Dies hilft Ihrer Organisation, den Projektplan entsprechend anzupassen und die für die Nummernportierung notwendigen Informationen bereitzustellen. Verwenden Sie bei der Ermittlung der Umgebung den [Untersuchungsfragebogen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
+Die Ermittlung der Umgebung kann auch Aufschluss darüber geben, ob Sie [Telefonnummern zu Microsoft übertragen](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) müssen. Dies hilft Ihrer Organisation, den Projektplan entsprechend anzupassen und die für die Nummernportierung notwendigen Informationen bereitzustellen. Verwenden Sie bei der Ermittlung der Umgebung den [Untersuchungsfragebogen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
 
 Bei der Ermittlung der Umgebung muss die Bereitschaft des Netzwerks bewertet werden, um sicherzustellen, dass das Netzwerk bereit ist, die Implementierung des Telefonsystems mit Anrufplänen zu unterstützen.
 
@@ -263,8 +264,8 @@ Nachdem Sie sich vergewissert haben, dass Ihre Organisation berechtigt ist, das 
 
 Da es sich bei Anrufplänen um ein Add-On für die Telefonsystemfunktion in Office 365 handelt, benötigen Sie für die Verwendung von Anrufplänen eine aktivierte Telefonsystemlizenz.
 
-Die [Telefonsystemlizenz](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) ist im Rahmen der Office 365 E5-Abonnementpläne oder als Add-On für Office 365 E1- oder Office 365 E3-Abonnementpläne verfügbar.
-Es gibt zwei Arten von [Anrufplanlizenzen](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365):
+Die [Telefonsystemlizenz](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) ist im Rahmen der Office 365 E5-Abonnementpläne oder als Add-On für Office 365 E1- oder Office 365 E3-Abonnementpläne verfügbar.
+Es gibt zwei Arten von [Anrufplanlizenzen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365):
 
 -   Anrufplan für Inland
 -   Anrufplan für Ausland und Inland
@@ -278,11 +279,11 @@ In der Regel müssen nicht alle Mitarbeiter einer Organisation Auslandsanrufe t�
 
 Alle Minutenkontingente der einzelnen Office 365-Mandanten werden in Pools für Länder bzw. Regionen und Anrufplantypen zusammengefasst. Wenn die Obergrenze des monatlichen Minutenkontingents für den Mandanten erreicht ist, wird der Anrufplandienst (mit Ausnahme von Notrufen) für den Rest des Monats ausgesetzt. Am ersten Tag des nächsten Kalendermonats wird der Anrufplandienst automatisch wieder fortgesetzt.
 
-Sie können Guthaben für Kommunikationen für Ihre Organisation einrichten, damit Benutzer auch dann ausgehende Anrufe tätigen können, wenn das Minutenkontingent aufgebraucht ist. Sie müssen dann nicht bis zum nächsten monatlichen Abrechnungszyklus warten. Außerdem erhalten Benutzer, denen ein Anrufplan für Inland zugewiesen ist, mit [Guthaben für Kommunikationen](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) die Möglichkeit, Auslandsanrufe mit Minutenabrechnung zu tätigen.
+Sie können Guthaben für Kommunikationen für Ihre Organisation einrichten, damit Benutzer auch dann ausgehende Anrufe tätigen können, wenn das Minutenkontingent aufgebraucht ist. Sie müssen dann nicht bis zum nächsten monatlichen Abrechnungszyklus warten. Außerdem erhalten Benutzer, denen ein Anrufplan für Inland zugewiesen ist, mit [Guthaben für Kommunikationen](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) die Möglichkeit, Auslandsanrufe mit Minutenabrechnung zu tätigen.
 
-Bei der Implementierung von Kommunikationsguthaben müssen Sie zunächst überlegen, wie hoch der anfängliche Betrag für das Guthaben sein soll. Die empfohlenen Einzahlungsbeträge können Sie dem Artikel [Was ist Guthaben für Kommunikationen?](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) entnehmen.
+Bei der Implementierung von Kommunikationsguthaben müssen Sie zunächst überlegen, wie hoch der anfängliche Betrag für das Guthaben sein soll. Die empfohlenen Einzahlungsbeträge können Sie dem Artikel [Was ist Guthaben für Kommunikationen?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) entnehmen.
 
-Wenn sich Ihre Organisation für automatisches Aufladen entscheidet, finden Sie im Artikel [Was ist Guthaben für Kommunikationen?](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) außerdem eine Empfehlung für den niedrigsten Betrag, der das automatische Aufladen auslöst. Der Betrag für die automatische Auffüllung richtet sich nach der tatsächlichen Verwendung. Die Verwendung von Guthaben für Kommunikationen sollte immer überwacht werden, und der Aufladebetrag muss nach Bedarf angepasst werden.
+Wenn sich Ihre Organisation für automatisches Aufladen entscheidet, finden Sie im Artikel [Was ist Guthaben für Kommunikationen?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) außerdem eine Empfehlung für den niedrigsten Betrag, der das automatische Aufladen auslöst. Der Betrag für die automatische Auffüllung richtet sich nach der tatsächlichen Verwendung. Die Verwendung von Guthaben für Kommunikationen sollte immer überwacht werden, und der Aufladebetrag muss nach Bedarf angepasst werden.
 
 Sie können die Verwendung von Guthaben für Kommunikationen pro Benutzer steuern. Auf diese Weise können Sie sicherstellen, dass diese Möglichkeit den Personen in der Organisation zugewiesen ist, bei denen dies geschäftlich begründet ist.
 
@@ -314,30 +315,30 @@ Sie können die Verwendung von Guthaben für Kommunikationen pro Benutzer steuer
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Telefonnummern und Notfallstandorte
 
-Für Anrufpläne in Office 365 benötigt jeder Benutzer in der Organisation eine eindeutige Direktwahlnummer und eine entsprechende [validierte Notfalladresse](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
+Für Anrufpläne in Office 365 benötigt jeder Benutzer in der Organisation eine eindeutige Direktwahlnummer und eine entsprechende [validierte Notfalladresse](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
-Telefonnummern können [direkt von Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) bezogen werden. Alternativ können Sie auch vorhandene Telefonnummern [zu Microsoft übertragen (portieren)](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+Telefonnummern können [direkt von Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) bezogen werden. Alternativ können Sie auch vorhandene Telefonnummern [zu Microsoft übertragen (portieren)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
 
 > [!NOTE]
 > Die Komplexität der Portierung von Telefonnummern nach Microsoft richtet sich sehr stark nach den jeweiligen Ländern oder Regionen, Netzbetreibern, der Anzahl der beteiligten Verbindungen und vielen anderen Faktoren. Informationen zur Portierung von Telefonnummern finden Sie im [Handbuch für Nummernportierung](https://go.microsoft.com/fwlink/?linkid=859011).
 
 Wenn Sie Telefonnummern direkt von Microsoft beziehen möchten, haben Sie die folgenden Möglichkeiten:
 
-- [Skype for Business Admin Center](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
+- [Skype for Business Admin Center](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets für Remote-Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Absenden eines Formulars neue Telefon anfordern](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Absenden eines Formulars neue Telefon anfordern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 Das Anforderungsformular für neue Telefonnummern eignet sich am besten, wenn Sie den Erwerb von Telefonnummern planen, da Sie einen zusammenhängenden Nummernblock anfordern können. Es ist nicht in allen Ländern bzw. Regionen möglich, Telefonnummern über das Skype for Business Admin Center oder über Remote-Windows PowerShell zu beziehen.
 
 Die ersten beiden Methoden – Verwendung von Skype for Business Admin Center oder Remote-Windows PowerShell – eignen sich für den einmaligen, sofortigen Erwerb von Telefonnummern und in Fällen, in denen keine zusammenhängenden Nummernblöcke benötigt werden.
 
 > [!NOTE]
-> Die [Anzahl der Telefonnummern](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get), die von Microsoft bezogen werden können, ist begrenzt und basiert auf der Anzahl der Anrufplanlizenzen, die Ihre Organisation abonniert hat. Für Telefonnummern für Benutzer (Teilnehmer) gilt die Formel (Anzahl der Lizenzen für Anrufplan für Inland + Anzahl der Lizenzen für Anrufplan für Inland und Ausland) x 1,1 + 10. Wenn Sie beispielsweise 50 Benutzer mit Anrufplanlizenzen haben, können Sie 65 Telefonnummern beziehen ((50 x 1,1) + 10).
+> Die [Anzahl der Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get), die von Microsoft bezogen werden können, ist begrenzt und basiert auf der Anzahl der Anrufplanlizenzen, die Ihre Organisation abonniert hat. Für Telefonnummern für Benutzer (Teilnehmer) gilt die Formel (Anzahl der Lizenzen für Anrufplan für Inland + Anzahl der Lizenzen für Anrufplan für Inland und Ausland) x 1,1 + 10. Wenn Sie beispielsweise 50 Benutzer mit Anrufplanlizenzen haben, können Sie 65 Telefonnummern beziehen ((50 x 1,1) + 10).
 
 Wenn Sie Telefonnummern für Anrufpläne konfigurieren, muss jeder Telefonnummer eine Notfalladresse zugewiesen werden. Dies muss vor der Zuweisung der Telefonnummer zu einem Benutzer geschehen. Dieser Schritt ist für die Unterstützung von Notrufen erforderlich. Die Notfalladresse muss validiert werden, um sicherzustellen, dass sie erkannt wird und im richtigen Format vorliegt, das von Notdiensten verwendet werden kann.
 
 > [!IMPORTANT]
-> Anrufe bei Notdiensten funktionieren mit dem Anrufplandienst anders als mit herkömmlichen Telefondiensten. Es ist wichtig, dass Sie diese Unterschiede verstehen und sie allen Benutzern vermitteln. Weitere Details finden Sie unter [Nutzungsbedingungen für Notrufe](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions).
+> Anrufe bei Notdiensten funktionieren mit dem Anrufplandienst anders als mit herkömmlichen Telefondiensten. Es ist wichtig, dass Sie diese Unterschiede verstehen und sie allen Benutzern vermitteln. Weitere Details finden Sie unter [Nutzungsbedingungen für Notrufe](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions).
 
 Zusätzlich zu einer validierten Notfalladresse können Notfallstandorte festgelegt und mit einer validierten Notfalladresse verknüpft werden, um den genauen Standort an einer Adresse anzugeben. Ein Notfallstandort ist meist die Gebäudenummer, das Stockwerk, der Gebäudeflügel oder die Nummer des Zimmers, in dem sich der Benutzer befindet.
 
@@ -345,7 +346,7 @@ Zusätzlich zu einer validierten Notfalladresse können Notfallstandorte festgel
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, wie die Telefonnummern für die jeweiligen Benutzerstandorte oder Niederlassungen für die Implementierung von Anrufplänen bezogen werden sollen (über Microsoft oder durch Übertragung vorhandener Telefonnummern).</li><li>Wenn Sie sich für Microsoft entscheiden, wählen Sie die Methode zum Beziehen von Telefonnummern (durch Formularübermittlung oder automatisch) für die jeweiligen Benutzerstandorte oder Niederlassungen für die Implementierung von Anrufplänen aus.</li><li>Legen Sie fest, wie detailliert die erfassten Informationen zu den Notfallstandorten für die Benutzerstandorte oder Niederlassungen für die Implementierung von Anrufplänen sein sollen.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie den Masterplan für den Erwerb von Telefonnummern mit Details dazu, wie die Telefonnummern an jedem einzelnen Benutzerstandort oder in jeder einzelnen Niederlassung für die Implementierung von Anrufplänen bezogen werden.</li><li>Falls anwendbar, füllen Sie für jeden Standort oder jede Niederlassung das Formular <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">für die Anforderung neuer Telefonnummern</a> aus.</li><li>Wenn Sie vorhandene Telefonnummern übertragen möchten, können Sie diesen Vorgang mit Unterstützung des <a href="https://go.microsoft.com/fwlink/?linkid=859011">Handbuchs für die Nummernportierung</a> planen und die zeitgerechte Implementierung von Anrufplänen entsprechend anpassen.</li><li>Dokumentieren Sie die detaillierte Notfalladresse und die Notfallstandorte für die einzelnen Benutzerstandorte oder Niederlassungen für die Implementierung von Anrufplänen.</li></ul>
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie den Masterplan für den Erwerb von Telefonnummern mit Details dazu, wie die Telefonnummern an jedem einzelnen Benutzerstandort oder in jeder einzelnen Niederlassung für die Implementierung von Anrufplänen bezogen werden.</li><li>Falls anwendbar, füllen Sie für jeden Standort oder jede Niederlassung das Formular <a href="https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization">für die Anforderung neuer Telefonnummern</a> aus.</li><li>Wenn Sie vorhandene Telefonnummern übertragen möchten, können Sie diesen Vorgang mit Unterstützung des <a href="https://go.microsoft.com/fwlink/?linkid=859011">Handbuchs für die Nummernportierung</a> planen und die zeitgerechte Implementierung von Anrufplänen entsprechend anpassen.</li><li>Dokumentieren Sie die detaillierte Notfalladresse und die Notfallstandorte für die einzelnen Benutzerstandorte oder Niederlassungen für die Implementierung von Anrufplänen.</li></ul>
 
 > [!TIP]
 > Die Details für den Erwerb der Telefonnummern, die Telefonnummern und die Details für die Notfallstandorte können Sie mithilfe der folgenden Vorlage dokumentieren:
@@ -388,7 +389,7 @@ Voicemail für Telefonsysteme bietet Voicemailtranskription. Diese Funktion ist 
 
 ## <a name="calling-identity"></a>Anrufer-ID
 
-Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer als Anrufer-ID verwendet. Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte. In manchen Fällen muss die Anrufer-ID aus legitimen geschäftlichen Gründen maskiert werden, um die Identität der Anrufer zu schützen. Dazu wird entweder die Haupttelefonnummer der Niederlassung – in der Regel eine von der [automatischen Telefonzentrale](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants) betreute Servicenummer – als Anrufer-ID verwendet, oder die Anzeige der Anrufer-ID wird vollständig blockiert.
+Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer als Anrufer-ID verwendet. Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte. In manchen Fällen muss die Anrufer-ID aus legitimen geschäftlichen Gründen maskiert werden, um die Identität der Anrufer zu schützen. Dazu wird entweder die Haupttelefonnummer der Niederlassung – in der Regel eine von der [automatischen Telefonzentrale](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants) betreute Servicenummer – als Anrufer-ID verwendet, oder die Anzeige der Anrufer-ID wird vollständig blockiert.
 
 <br>
 |         |         |         |
@@ -409,7 +410,7 @@ Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer
 
 ## <a name="dial-plans"></a>Wählpläne
 
-Bei einem [Wählplan](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) in der Telefonsystemfunktion von Office 365 handelt es sich um eine Gruppe von Normalisierungsregeln, die gewählte Telefonnummern in ein alternatives Format (normalerweise das Format [E.164](https://go.microsoft.com/fwlink/?linkid=859014)) übersetzt, um Anrufe zu autorisieren und weiterzuleiten. 
+Bei einem [Wählplan](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) in der Telefonsystemfunktion von Office 365 handelt es sich um eine Gruppe von Normalisierungsregeln, die gewählte Telefonnummern in ein alternatives Format (normalerweise das Format [E.164](https://go.microsoft.com/fwlink/?linkid=859014)) übersetzt, um Anrufe zu autorisieren und weiterzuleiten. 
 
 Mit einem Wählplan können Benutzer Telefonnummern so wählen, wie sie es gewöhnt sind. Zum Beispiel müssen sie bei Ortsgesprächen keine Ortsvorwahl wählen, bei Inlandsanrufen keine Landeskennzahl wählen, und sie können sogar Kurzwahlnummern für ausgehende Anrufe verwenden.
 
@@ -421,7 +422,7 @@ Innerhalb der Telefonsystemfunktion in Office 36 gibt es zwei Arten von Wählpl�
     -   **Wählplan für Mandantenbenutzer**: Der Wählplan gilt nur für bestimmte Benutzer.
 
 > [!NOTE]
-> Weitere Details und Beispiele finden Sie unter [Was sind Wählpläne?](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans).
+> Weitere Details und Beispiele finden Sie unter [Was sind Wählpläne?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans).
 
 Der den Benutzern zugewiesene wirksame Wählplan stellt eine Kombination aus dem Dienstwählplan (basierend auf dem Office 365-Verwendungsstandort des Benutzers) und dem Mandantenwählplan (entweder globaler Wählplan für Mandanten oder Wählplan für Mandantenbenutzer) dar.
 
@@ -494,6 +495,6 @@ Wertschöpfung
 <br>
 ## <a name="see-also"></a>Siehe auch
 
-[Einrichten von Anrufplänen](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+[Einrichten von Anrufplänen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)

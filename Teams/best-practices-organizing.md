@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Hier erhalten Sie Informationen zu den bewährten Methoden zum Organisieren von Teams in Microsoft Teams gemäß den Anforderungen Ihrer Organisation.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be7cd35a85d220163d7d0c762883e7e1018c3115
-ms.sourcegitcommit: fa8732e704f00096c7ff041aba91e617a8d44e29
+ms.openlocfilehash: aa2d931561922a8b5e92e3ec695b4cd8ad4fdb83
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2018
-ms.locfileid: "19875253"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867589"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -36,7 +37,7 @@ Sie können mit einer kleinen Anzahl von Teammitgliedern und einem Brainstorming
 
 Wenn Sie Ihr Team erstellt haben, sollten Sie über die verschiedenen Unterhaltungsbereiche nachdenken, mit denen Sie Ihr Ziel erreichen möchten. Erstellen Sie erste Kanäle, damit die Benutzer wissen, wo sie etwas beitragen können und wo sie vorhandene Unterhaltungen finden. Vergeben Sie aussagekräftige Kanalnamen, damit leichter zu erkennen ist, was mit der Unterhaltung in dem Kanal erreicht werden soll. Sie können neue Registerkarten zu Kanälen hinzufügen, um Tools wie OneNote, Power BI oder Links zu Webseiten und anderen Inhalten hinzuzufügen, damit die Benutzer die Inhalte leicht finden und ihre Ideen beisteuern können.
 
-Erfahren Sie mehr über [Teams arbeiten](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) mit diesen Tipps für Endbenutzer. 
+Erfahren Sie mehr über [Teams arbeiten](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) mit diesen Tipps für Endbenutzer. 
 
 <a name="channel-best-practices"></a>DDE-Kanal bewährte Methoden
 ----------------------
@@ -52,6 +53,6 @@ Die **Allgemeine DDE-Kanal** ist für Sie bei der Erstellung des Teams standardm
 
 Derzeit können nicht entfernt oder Markierung als Favorit aufheben der allgemeinen Kanal. Beim Benennen von Kanäle, denken Sie daran, dass die Kanäle nach den allgemeinen DDE-Kanal alphabetisch sortiert.  Verwenden Sie in Teams mit viele Kanäle das Feature "Favoriten einen Kanal" die Kanäle steuern Sie automatisch beim Navigieren zu dem Team. 
 
-Weitere Informationen zu [Arbeitszeiten in Kanälen](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) mit diesen Tipps für Endbenutzer. 
+Weitere Informationen zu [Arbeitszeiten in Kanälen](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) mit diesen Tipps für Endbenutzer. 
 
 

@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: turgayo
 description: Verwenden Sie diese Anleitung über die erforderlichen Komponenten und der Umwelt Abhängigkeiten Teams in Ihrer Organisation bereitstellen
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02189643a08eaace7a35e505d60044254f746c4d
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 9db3bcc8e9171670288d0e5b14e120a9dd3692f0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21600525"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851055"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 

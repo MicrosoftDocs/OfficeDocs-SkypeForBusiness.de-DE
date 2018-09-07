@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Nehmen Sie dieses Handbuch beim Planen, Implementieren und Einführen von Microsoft Teams in Ihrer Organisation zu Hilfe.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4e1815b6d3b649c8af518068ca2d6ff3e9adbc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fbebf57b4da07f25d9687c27acd70e5cfd25930e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242814"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854997"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Schnellstart – Microsoft Teams-Planungshandbuch
 ==========================================================
@@ -50,7 +51,7 @@ Wenn Microsoft-Teams, nicht in Ihrem Office 365-Mandanten aktiviert ist und Sie 
 
 ## <a name="step-3-complete-technical-planning"></a>Schritt 3: Durchführen der technischen Planung
 
-Hohe Benutzerfreundlichkeit ist das Ergebnis einer effizienten technischen Planung. Wenn Ihre Organisation über mehr als 50 Arbeitsplätze und einen [berechtigten Plan](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365) verfügt, können Sie kostenlos verfügbare [FastTrack-Vorteile](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365) nutzen, die Sie bei der Planung, Bereitstellung und Diensteinführung unterstützen. Sie können diese Aufgaben auch selbst durchführen, indem Sie unsere FastTrack-Onboarding-Assistenten nutzen, die Ihnen nach der Anmeldung mit Ihrem Office 365-Konto in [FastTrack](https://fasttrack.microsoft.com/) zur Verfügung stehen. Die folgenden Informationen helfen Ihnen, diesen Schritt für Microsoft Teams durchzuführen. Lesen Sie mindestens diese vier Artikel:
+Hohe Benutzerfreundlichkeit ist das Ergebnis einer effizienten technischen Planung. Wenn Ihre Organisation über mehr als 50 Arbeitsplätze und einen [berechtigten Plan](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365) verfügt, können Sie kostenlos verfügbare [FastTrack-Vorteile](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365) nutzen, die Sie bei der Planung, Bereitstellung und Diensteinführung unterstützen. Sie können diese Aufgaben auch selbst durchführen, indem Sie unsere FastTrack-Onboarding-Assistenten nutzen, die Ihnen nach der Anmeldung mit Ihrem Office 365-Konto in [FastTrack](https://fasttrack.microsoft.com/) zur Verfügung stehen. Die folgenden Informationen helfen Ihnen, diesen Schritt für Microsoft Teams durchzuführen. Lesen Sie mindestens diese vier Artikel:
 
 1.  [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
 2.  [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md)

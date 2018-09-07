@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Zusätzlich zu den standard Audiokonferenzen pro-Benutzer-Lizenz können Organisationen Volume und Lizenzierung auch ein Bezahlung pro Minute Angebot Audio-Konferenzfunktionen für ihre Organisation zu aktivieren.
-ms.openlocfilehash: 16859697bad3ca9409c7973079b9b36ca3085576
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 251116ee5f362710c07a7a53ce4a11f53f3cd09c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783158"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855763"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
@@ -49,7 +50,7 @@ Während das Audiokonferenz pro Benutzer Lizenz Angebot Einwahl Nutzung und eini
 - Ausgehende Anrufe an externe Telefonnummern aus innerhalb einer Besprechung Ihrer Organisation.
     
 > [!NOTE]
-> Sie finden die ein- und ausgehender Verbindung Sätze, diese Arten von Anrufen durch die Überprüfung im **finden Sie unter Überstundensätze, wo Sie im Abschnitt aufrufen möchten** in [Audiokonferenzen](https://products.office.com/en-us/skype-for-business/pstn-conferencing)zugeordnet ist. 
+> Sie finden die ein- und ausgehender Verbindung Sätze, diese Arten von Anrufen durch die Überprüfung im **finden Sie unter Überstundensätze, wo Sie im Abschnitt aufrufen möchten** in [Audiokonferenzen](https://products.office.com/skype-for-business/pstn-conferencing)zugeordnet ist. 
   
 Bezahlung pro Minute in Ihrer Organisation [Communications haben](what-are-communications-credits.md) mit einer Lizenz zugewiesen, jedem Benutzer in der Reihenfolge für Audiokonferenzen funktioniert aktiviert werden muss. Wenn Sie weitere Details möchten, finden Sie unter [Einrichten von Communications haben für Ihre Organisation](set-up-communications-credits-for-your-organization.md) und/oder [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
@@ -59,11 +60,11 @@ Um Audiokonferenzen Lohn-per-Minute für Benutzer in Ihrer Organisation zu aktiv
 
  **Sie suchen Preise?** Finden Sie unter [Vorgehensweise finden Sie unter Preise und Add-On-Lizenzen erwerben](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) oder eine der folgenden:
   
-- [Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [Preise für Telefonsystem](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [Preise für Telefonsystem](https://products.office.com/skype-for-business/phone-system#Requirements)
     
-- [Preise für Anrufpläne](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Preise für Anrufpläne](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>Verwandte Themen
   

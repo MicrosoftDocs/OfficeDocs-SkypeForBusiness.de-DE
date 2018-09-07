@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 09c8ca24-d018-422f-8485-9610171016a9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,17 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Vereinigten Staaten (und in Puerto Rico) für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: f0e72dfc847903c87a1e6336b66f021df692903a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6acc294bfe9db4a80cc932b9635c14ea7551fc8c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785502"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850957"
 ---
 # <a name="phone-number-management-for-the-us"></a>Telefonnummernverwaltung für die USA
 
-In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Vereinigten Staaten (und in Puerto Rico) für Skype for Business Online und Microsoft Teams.   
+In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Vereinigten Staaten (und in Puerto Rico) für Skype for Business Online und Microsoft Teams.
+
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Was möchten Sie tun?**|**Führen Sie diese Schritte aus, und laden Sie die richtigen Formulare herunter.**|

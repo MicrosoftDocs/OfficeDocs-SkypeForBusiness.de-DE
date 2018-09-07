@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Beispiel-e-Mails und Umfragen in Conjunciton mit der beschleunigten zehn-Schritt-Aktion verwenden, Planen für das Upgrade von Skype für Unternehmen, die Teams
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 723a90609b6ef704d368e93ce915ac9027d58d4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 89a4f9f1d43c3bb10038460104fa6198c2939b87
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244516"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850883"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Beispiel-e-Mails und Umfragen für grundlegende Upgrade-Kommunikation
 
@@ -198,7 +199,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Geben Sie an, wie geübt Sie befinden sich in die folgenden Aktivitäten ausführen Teams und befinden sich eine oder mehrere Aktivitäten, denen Sie weitere Informationen zu finden möchten.
 
-|  &nbsp;  | Sehr geübt | Etwas geübt | Überhaupt nicht geübt | Möchten Sie mehr erfahren | - | Nicht sicher/nicht vertraut |   |   |   |    |
+|  &nbsp;  | Sehr geübt | Etwas geübt | Überhaupt nicht geübt | Möchten Sie mehr erfahren | n/v | Nicht sicher/nicht vertraut |   |   |   |    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------------|--------------------|-----|---------------------|---|---|---|----|
 | Verwenden von Teams für Sofortnachrichten/chatten mit anderen Personen                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
 | Verwenden des Teams für onlinebesprechungen                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |

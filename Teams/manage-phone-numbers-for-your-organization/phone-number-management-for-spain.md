@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e18d2274-cd69-47f6-9a65-1adc59dc5399
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Spanien für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: 4de5524d9e48fffa760fb9b47b5b98cffd76f983
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: b9e7c962739494ab002854758a2ec816e666c04a
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784646"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854851"
 ---
 # <a name="phone-number-management-for-spain"></a>Telefonnummernverwaltung für Spanien
 
