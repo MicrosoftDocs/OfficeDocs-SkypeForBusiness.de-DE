@@ -9,6 +9,7 @@ ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Honduras verfügbar.
-ms.openlocfilehash: 3f47c3348e9ef1c4eb98ce6e409b7ef5312b54ca
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 95c4207f148602532cd7ed27c5dc110a30a8d48b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829346"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850701"
 ---
 # <a name="availability-in-honduras"></a>Verfügbarkeit in Honduras.
 

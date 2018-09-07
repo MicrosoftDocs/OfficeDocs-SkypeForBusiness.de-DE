@@ -1,5 +1,5 @@
 ---
-title: Skype für Business mobile app-Sicherheit
+title: Sicherheit der mobilen App von Skype for Business
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: d2be8c74-3ba2-4b2d-9807-634904e1f0e8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, mobile app-Sicherheit für Ihre Benutzer eingerichtet. '
-ms.openlocfilehash: 5f0ce617ae7dc3b8b6dd75e50c9594e5d5524aa3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a87719bc4135ab429fca8425812b285a2eed5b5e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861291"
 ---
-# <a name="skype-for-business-mobile-app-security"></a>Skype für Business mobile app-Sicherheit
+# <a name="skype-for-business-mobile-app-security"></a>Sicherheit der mobilen App von Skype for Business
 
 ## <a name="skype-for-business-client-security"></a>Skype for Business Client-Sicherheitstabelle
 
@@ -37,7 +39,7 @@ Dieser Artikel beinhaltet Informationen zur Datenverschlüsselung für mobile Sk
    
 **Hinweis:** Finden Sie in [dieser Dokumentation der öffentlichen](https://docs.microsoft.com/en-us/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) für Gerät Pin Erzwingung auf alle oben genannten mobilen Plattformen verfügbar
   
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)

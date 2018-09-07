@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e62ac09f-dfdc-4306-8e06-31349a3b27f0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
-search.appverid: MET150
-ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 46a44a61777cdd4d52b9899429b4a17ffe6ad7cb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780855"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851809"
 ---
 # <a name="session-details-report"></a>Bericht „Sitzungsdetails“
 
@@ -95,9 +95,9 @@ Für jede Sitzung ist eine Sub-Tabelle mit unterschiedlichen Daten je nach Szena
 *    Auf der Registerkarte PINGSIGNALE werden die Netzwerkhops über Traceroute während der Sitzung erfasst. Der tatsächliche Medienpfad für die Sitzung verwendete variieren, und diese Daten ist nur verfügbar, wenn Audiodaten in der Sitzung ist.
 *    Auf der Registerkarte FEEDBACKREPORTS werden alle Ende des Anrufs Umfragedaten von den Benutzern in der Sitzung bereitgestellt.
 ***
-![Zahl 5](../images/sfbcallout5.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
+![Nummer 5](../images/sfbcallout5.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
 ***
-![Zahl 6](../images/sfbcallout6.png)<br/>Sie können die Berichtsdaten auch im CSV-Format in eine Excel-Datei exportieren, indem Sie auf die Schaltfläche **Exportieren** klicken oder tippen. <br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren.  
+![Nummer 6](../images/sfbcallout6.png)<br/>Sie können die Berichtsdaten auch im CSV-Format in eine Excel-Datei exportieren, indem Sie auf die Schaltfläche **Exportieren** klicken oder tippen. <br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren.  
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Möchten Sie andere Skype for Business-Berichte anzeigen?
 

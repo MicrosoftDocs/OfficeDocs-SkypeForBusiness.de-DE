@@ -9,6 +9,7 @@ ms.assetid: 91618281-947b-4039-abf5-37bf388367c9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für South Korea verfügbar.
-ms.openlocfilehash: e621af415f53a27e48bb8a9f90285f53e751c2e8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 8cea9f9fad7c861db036ee85c3c61e5e40497153
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784086"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858251"
 ---
 # <a name="availability-in-south-korea"></a>Verfügbarkeit in South Korea
 

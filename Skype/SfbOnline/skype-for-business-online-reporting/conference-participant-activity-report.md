@@ -1,5 +1,5 @@
 ---
-title: Teilnehmerliste konferenzaktivitätsbericht
+title: Bericht „Konferenzteilnehmer-Aktivität“
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c3c89995-65dd-4715-9e38-bb244c742c6b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 76d41724223e55f10bbabf566719e2bd19e24411
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933117"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864579"
 ---
-# <a name="conference-participant-activity-report"></a>Teilnehmerliste konferenzaktivitätsbericht
+# <a name="conference-participant-activity-report"></a>Bericht „Konferenzteilnehmer-Aktivität“
 
 Als ein Office 365-Administrator zeigt das neue **Berichte** Dashboard Daten für die Verwendung der Office 365-Produkte in Ihrer Organisation. Sie können den Bericht **Skype für geschäftliche Konferenz Teilnehmer Aktivität** , wie viele Sofortnachrichten, Audio/Video, Anwendungsfreigabe, finden Sie unter Web und und Anwahl/Konferenzen werden von Benutzern in Ihrer Organisation beteiligt wird.
 
@@ -64,9 +64,9 @@ In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalt
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Benutzer**, um Nutzungstrends nachzuvollziehen und um die Anzahl an eindeutigen Benutzern, die an den innerhalb Ihrer Organisation abgehaltenen Konferenzen teilgenommen haben, anzuzeigen. Es zeigt Ihnen die Gesamtanzahl der Benutzer sowie die Arten von **Chat**-, **Audio/Video**-, **Anwendungsfreigabe**-, **Web**- und **Ein-/Auswahl-Drittanbieter**-Konferenzen, die organisiert wurden.  
 ***
-![Zahl 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktive Diagrammdaten im Diagramm **Minuten** , Verwendungstrends zu verstehen und die Anzahl der Minuten angezeigt, die von Benutzern verwendet werden, wenn sie eine Konferenz mit Audio und Video und -Einwahl und Dial-Out - Microsoft als ihrer Audiokonferenzen organisieren Anbieter. Es zeigt Ihnen die Gesamtanzahl an **Audio/Video**-Minuten, die während der Konferenzen, an denen teilgenommen wurde, benötigt wurden.
+![Nummer 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktive Diagrammdaten im Diagramm **Minuten** , Verwendungstrends zu verstehen und die Anzahl der Minuten angezeigt, die von Benutzern verwendet werden, wenn sie eine Konferenz mit Audio und Video und -Einwahl und Dial-Out - Microsoft als ihrer Audiokonferenzen organisieren Anbieter. Es zeigt Ihnen die Gesamtanzahl an **Audio/Video**-Minuten, die während der Konferenzen, an denen teilgenommen wurde, benötigt wurden.
 ***
-![Zahl 6](../images/sfbcallout6.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie im Diagramm **Aktivität** auf **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web** und **Ein-/Auswahl - Drittanbieter** klicken oder tippen, um nur jene Informationen anzuzeigen, die sich auf die jeweilige Option beziehen. Durch das Ändern dieser Auswahl ändern sich die Informationen in der Rastertabelle nicht.  
+![Nummer 6](../images/sfbcallout6.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie im Diagramm **Aktivität** auf **Chat**, **Audio/Video**, **Anwendungsfreigabe**, **Web** und **Ein-/Auswahl - Drittanbieter** klicken oder tippen, um nur jene Informationen anzuzeigen, die sich auf die jeweilige Option beziehen. Durch das Ändern dieser Auswahl ändern sich die Informationen in der Rastertabelle nicht.  
 ***
 ![Anzahl 7](../images/sfbcallout7.png)<br/>Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.  
 *    Im Aktivitätsdiagramm **Aktivität** entspricht die Y-Achse der Gesamtanzahl an Chat-, Audio-/Video-, Anwendungsfreigabe-, Web- und Einwahl-/Auswahl-Drittanbieterkonferenzen, an denen Ihre Benutzer in Ihrer Organisation teilgenommen haben. 
@@ -111,7 +111,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

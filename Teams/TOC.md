@@ -65,6 +65,11 @@
 ### [Verwalten der Teams kommerziellen Testversion, zu erhalten](iw-trial-teams.md)
 ### [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](set-up-communications-credits-for-your-organization.md)
 ### [Was ist Guthaben für Kommunikationen?](what-are-communications-credits.md)
+## Unterstützte Geräte
+### [IP-Telefone](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [USB-Geräte für audio und video](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Meeting Room Geräte und Lösungen](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
 
 
@@ -197,7 +202,7 @@
 ### [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
 ### [Einrichten von Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Live-Ereignisse
-#### [Was sind Teams live Ereignisse?](what-are-teams-live-events.md)
+#### [Was sind Teams live Ereignisse?](teams-live-events/what-are-teams-live-events.md)
 
 
 

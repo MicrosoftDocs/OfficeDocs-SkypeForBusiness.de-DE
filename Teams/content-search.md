@@ -7,15 +7,16 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
+search.appverid: MET150
 description: Hier erfahren Sie mehr über die Inhaltssuche in Microsoft Teams und wie Kanalchats über Exchange, Dateiuploads/-änderungen über SharePoint und OneNote durchsucht werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44588a81050e7435344b0aa3388dd158aafc3413
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 6551d364b2dbdbd4deb1d703cb93fd94669d1cb0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843717"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857953"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================

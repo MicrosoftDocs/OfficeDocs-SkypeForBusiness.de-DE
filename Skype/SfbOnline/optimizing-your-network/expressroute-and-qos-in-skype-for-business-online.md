@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 20c654da-30ee-4e4f-a764-8b7d8844431d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 8a30e87a768c39261ad593c868b598d0f770a3be
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 81cc2f0c959bb4c611abc7ff198e6c5befc58c21
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865267"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute und QoS in Skype for Business Online
 

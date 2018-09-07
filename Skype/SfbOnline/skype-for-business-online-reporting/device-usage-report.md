@@ -1,5 +1,5 @@
 ---
-title: Gerät-Verwendungsbericht
+title: Bericht „Gerätenutzung“
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,16 +18,15 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: Das neue Office 365-Berichte Dashboard zeigt, über die Office 365-Produkte in Ihrer Organisation der Übersicht über die Aktivität. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Angenommen, Sie können die Skype für Business Gerät Verwendungsbericht verwenden, um die Geräte, einschließlich Windows-Betriebssystemen finden Sie unter und mobile Geräten, denen die Skype für Geschäfts-app installiert und es für Instant Messaging und Besprechungen verwenden. Checken Sie Aktivitätsberichte im Office 365 Administrationscenter, um mehr zu erfahren.
-search.appverid: MET150
-ms.openlocfilehash: 722a1302f3c94737b520c3c8e23101cc04629a70
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Angenommen, Sie können die Skype für Business Gerät Verwendungsbericht verwenden, um die Geräte, einschließlich Windows-Betriebssystemen finden Sie unter und mobile Geräten, denen die Skype für Geschäfts-app installiert und es für Instant Messaging und Besprechungen verwenden. Checken Sie Aktivitätsberichte im Office 365 Administrationscenter, um mehr zu erfahren.
+ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933097"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863383"
 ---
-# <a name="device-usage-report"></a>Gerät-Verwendungsbericht
+# <a name="device-usage-report"></a>Bericht „Gerätenutzung“
 
 Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Angenommen, Sie können den Bericht **Skype für die Verwendung der Business-Gerät** verwenden, um die Geräte, einschließlich Windows-Betriebssystemen finden Sie unter und mobile Geräten, denen die Skype für Geschäfts-app installiert und es für Instant Messaging und Besprechungen verwenden. 
 
@@ -51,7 +51,7 @@ In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalt
 
 Sie können eine Ansicht in die Geräte zu erhalten, die der Skype verfolgen die **Benutzer-** und **Verteilung** Diagramme für die Geschäfts-app verwenden.
   
-![Skype für Business Gerät Verwendungsbericht](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
+![Bericht „Skype for Business - verwendete Clients"](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Der Bericht **Skype für die Verwendung der Business-Gerät** kann für Trends über den letzten sieben Tagen 30 Tage, 90 Tage oder nach 180 Tagen angezeigt werden. Wenn Sie in einen bestimmten Tag im Bericht klicken, die Tabelle (siehe Nummer 7) zeigt jedoch Daten für 30 Tage, bis zu dem Datum (siehe Nummer 2) für Wenn der Bericht generiert wurde.
@@ -66,9 +66,9 @@ Sie können eine Ansicht in die Geräte zu erhalten, die der Skype verfolgen die
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktive Diagrammdaten auf das Balkendiagramm **Verteilung** um zu verstehen, Verwendung, um die Anzahl der Benutzer mit eindeutigen Geräten in Ihrer Organisation finden Sie unter. Die Gesamtzahl der **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**und **iPad** -Benutzer wird mit einem Gerät verwendet wird angezeigt. 
 ***
-![Zahl 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Beispielsweise im Diagramm **Benutzer** klicken Sie, oder tippen Sie auf **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**oder **iPad** , um herauszufinden, nur die Informationen im Zusammenhang mit jedem Befehl die EINGABETASTE. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
+![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Beispielsweise im Diagramm **Benutzer** klicken Sie, oder tippen Sie auf **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**oder **iPad** , um herauszufinden, nur die Informationen im Zusammenhang mit jedem Befehl die EINGABETASTE. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
 ***
-![Zahl 6](../images/sfbcallout6.png)<br/>Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.
+![Nummer 6](../images/sfbcallout6.png)<br/>Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.
 *    Im Diagramm **Benutzer** ist die y-Achse die Gesamtzahl der Benutzer verbunden mit einem Gerät, das die Skype für Geschäfts-app installiert hat.
 *    Die **Verteilung** Aktivität Diagramm ist die y-Achse die Anzahl der Benutzer, die mit einem bestimmten Typ des Geräts mit dem Skype für Geschäfts-app installiert verbunden sind. 
 
@@ -107,7 +107,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

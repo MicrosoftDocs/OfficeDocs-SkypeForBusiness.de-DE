@@ -1,5 +1,5 @@
 ---
-title: Richten Sie ein und Problembehandlung bei Skype für Business Online Delegierung
+title: Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: In diesem Artikel wird erläutert, wie eingerichtet und Problembehandlung bei Skype für Business Online Delegierung. Dieser Artikel enthält eine Anleitung für Setup Empfehlungen, bewährte Methoden und Schritte zur Problembehandlung.
-ms.openlocfilehash: 13df45590905bd6bbf7498ec6d2ab912cf976228
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: bb1f8639d045d156d5095e33a4a012987604c6e1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856489"
 ---
-# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Richten Sie ein und Problembehandlung bei Skype für Business Online Delegierung
+# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 
 In diesem Artikel wird erläutert, wie eingerichtet und Problembehandlung bei Skype für Business Online Delegierung. Dieser Artikel enthält eine Anleitung für Setup Empfehlungen, bewährte Methoden und Schritte zur Problembehandlung.
   
@@ -53,7 +55,7 @@ Einrichten und erste Delegierung ordnungsgemäß funktioniert, hängt Sie die fo
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
 |**Lync/Skype für grundlegende Business-Client**| Nicht unterstützt |Nicht unterstützt
-|**Skype für Business 2015**|Unterstützt | Unterstützt |
+|**Skype for Business 2015**|Unterstützt | Unterstützt |
 |**Skype für Business 2016**|Unterstützt | Unterstützt |
 
    
@@ -140,7 +142,7 @@ Wenn die Installation erfolgreich ist, die Stellvertretung sollte angezeigt werd
     
 - Exchange Online-Postfach ist nicht verfügbar, über die Skype für Business-Client. Wenn dies der Fall ist, führen Sie den [Outlook-Verbindungstest](https://testconnectivity.microsoft.com/) dafür sorgen, dass er übergibt.
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)

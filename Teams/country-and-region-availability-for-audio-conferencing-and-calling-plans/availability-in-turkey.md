@@ -9,6 +9,7 @@ ms.assetid: c34f4dba-6803-42f8-8133-6ecc5220be3c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Türkei verfügbar.
-ms.openlocfilehash: 5c88cae6d73381af875cb249d24812d3c27eb98a
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: c37bdc664e39ce8a748734732214d489f7c421e3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829322"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862861"
 ---
 # <a name="availability-in-turkey"></a>Verfügbarkeit in der Türkei
 

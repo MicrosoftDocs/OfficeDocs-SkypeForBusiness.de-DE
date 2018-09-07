@@ -9,6 +9,7 @@ ms.assetid: ba39f7c0-3bdd-4cd5-b4bc-dccda2414c3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für El Salvador verfügbar.
-ms.openlocfilehash: 2c607b85f7d4a116a2a0b629a31b1ccc816ee2b3
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: da994fbcbeeb8eb909d563acae6e67d7662a0b90
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829258"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854643"
 ---
 # <a name="availability-in-el-salvador"></a>Verfügbarkeit in El Salvador
 

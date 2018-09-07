@@ -11,15 +11,16 @@ ms.audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Informationen Sie zu Richtlinien für Messaging und wie sie Chat in Teams messaging steuern verwendet werden können.
-ms.openlocfilehash: 56aedc797fdc73ec93000ba5aced4f17de93aaa4
-ms.sourcegitcommit: b87168f58218a5a44e1f3371867401d44f6927e5
+ms.openlocfilehash: ef252f958f08c75d0fcfb8af0a06aadf776d3668
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22221804"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850917"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Was sind die Richtlinien in Teams Messaging?
 
@@ -38,5 +39,5 @@ Messaging-Richtlinien dienen zum Steuern, welche Chat und Channel messaging-Funk
 - **Verwendung Aufkleber Unterhaltungen** Wenn Sie diese aktivieren, können Benutzer in Chat Gespräche mit anderen Personen Aufkleber einschließen.
 
 
-### <a name="related-topics"></a>See Also
+### <a name="related-topics"></a>Verwandte Themen
 [Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)

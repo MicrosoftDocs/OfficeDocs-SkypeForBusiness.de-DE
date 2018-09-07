@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 63bfb6a7-7e03-4f29-8ae2-d11b92caa14d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, was Ihre Skype für geschäftliche Telefonnummer Abrechnung ist, und wechseln um zu Schritt-für-Schritt-Anleitung zum Übertragen von einer Zahl zu erhalten.
-ms.openlocfilehash: e73a8d003d3be6b14aaacc36fe0c9a8b3f4159b1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 748ea9603cf0e3fef7dc19dc2a148025e33ab205
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780929"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849783"
 ---
 # <a name="what-is-my-billing-telephone-number"></a>Wie lautet meine Telefonnummer für Abrechnung?
 

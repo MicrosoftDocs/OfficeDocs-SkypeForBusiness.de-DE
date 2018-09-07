@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, was Sie können und nicht in Skype für Business-Verwaltungskonsole und andere Features verwenden, wenn Ihren Dienst auf einem anderen Microsoft-Rechenzentrum migriert wird. '
-ms.openlocfilehash: b591b5352ba0d676462fabbaac446ecc769e204a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d0b67b7193d6bc56617807d3c14d1196ee66d76c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854199"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum verwenden kann nicht ich die Skype für Business Online Administrationscenter sofort?
 
@@ -62,7 +64,7 @@ Obwohl Sie die Skype für Business Online Administrationscenter zugreifen könne
 
 Sicher. Während wir Ihre Skype für Business Onlinedienst migrieren, können Sie weiterhin die anderen Admin Center in Office 365 (beispielsweise die Office 365 und Exchange Admin Center). Jedoch wird nicht zusammen mit der Skype für Business Online Administrationscenter, Sie während der Migration der Skype für Business Online Remote-PowerShell-Cmdlets verwenden können. 
   
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)

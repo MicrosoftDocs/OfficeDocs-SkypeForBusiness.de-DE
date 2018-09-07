@@ -1,5 +1,5 @@
 ---
-title: Blockierte Benutzerlizenzen für Skype-Livekonferenzen
+title: Blockierte Benutzerlizenzen für Skype Meeting Broadcast
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,14 +18,14 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer auf https://broadcast.skype.com  gehen und Skype-Livekonferenz nutzen möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
-ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
-ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
-ms.translationtype: HT
+ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19844599"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861405"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Blockierte Benutzerlizenzen für Skype-Livekonferenzen
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Blockierte Benutzerlizenzen für Skype Meeting Broadcast
 
 Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer auf https://broadcast.skype.com  gehen und Skype-Livekonferenz nutzen möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
   
@@ -34,11 +35,11 @@ Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer a
 
 Skype-Livekonferenzen werden blockiert, wenn eine der folgenden Benutzerlizenzen einem Benutzer zugewiesen sind.
   
-- Office 365 Education Fac/Staff
+- Office 365 Education Fac/Personal
     
-- Office 365 Education Student
+- Office 365 für Bildungseinrichtungen Schüler
     
-- Office 365 Education Plus Fac/Staff
+- Office 365 Education Plus Fac-Mitarbeiter
     
 - Office 365 Education Plus Student
     
@@ -46,7 +47,7 @@ Skype-Livekonferenzen werden blockiert, wenn eine der folgenden Benutzerlizenzen
     
 - Office 365 Education E1 Student
     
-- Office 365 Education E3 Fac/Staff
+- Office 365 Education E3 Fac/Personal
     
 - Office 365 Education E3 Fac/Staff Large
     
@@ -57,7 +58,7 @@ Skype-Livekonferenzen werden blockiert, wenn eine der folgenden Benutzerlizenzen
 - Microsoft 365 A1 student use benefits
 
     
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-topics"></a>See Also
 
 [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

@@ -8,14 +8,15 @@ ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848617"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861741"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
 
@@ -68,9 +69,9 @@ Anforderungen an die Infrastruktur für die unterstützten SBCs, Domänen und an
 |Öffentlichen DNS-Eintrag für den SBC |Einen öffentlichen DNS-Eintrag der öffentlichen IP-Adresse den FQDN SBC zuordnen. |
 |Öffentliche vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für die SBC für die gesamte Kommunikation mit direktem Routing verwendet werden soll. Weitere Informationen finden Sie unter [Öffentliche vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc).|
 |Verbindungspunkte zum direkten weiterleiten |Die Verbindungspunkte für direkte Routing sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globale FQDN muss zuerst getestet werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundären FQDN, ordnet geografisch die zweite Region Priorität.<br/>`sip3.pstnhub.microsoft.com`– Tertiäre FQDN, ordnet geografisch die dritte Priorität Region.<br/><br/>Informationen zu konfigurationsanforderungen, finden Sie unter [SIP-Signale: FQDNs und Firewallports](#sip-signaling-fqdns-and-firewall-ports).|
-|Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+|Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport-Profil|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Lizenzierung und sonstige Anforderungen 

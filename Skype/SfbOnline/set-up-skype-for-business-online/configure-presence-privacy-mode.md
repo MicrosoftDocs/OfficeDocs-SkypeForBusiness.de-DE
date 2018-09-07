@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der datenschutzmodus für Anwesenheitsinformationen
+title: Konfigurieren des vertraulichen Anwesenheitsmodus
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,14 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Informationen Sie zum Einrichten von datenschutzmodus für Ihre Benutzer, damit sie besser steuern können, wie Personen ihrer Verfügbarkeit anzeigen. '
-ms.openlocfilehash: 9181962111e8e637af816351eb88ac32f7e50dcc
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e2fb222046dc936d8fbd010dc8016da2b06e1ae8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862801"
 ---
-# <a name="configure-presence-privacy-mode"></a>Konfigurieren der datenschutzmodus für Anwesenheitsinformationen
+# <a name="configure-presence-privacy-mode"></a>Konfigurieren des vertraulichen Anwesenheitsmodus
 
 Die Skype Business Online Einstellung kann Personen besser steuern, wer anzeigen können, ob sie verfügbar ist, in einer Besprechung oder nicht im Büro sind. Ausführliche Informationen zu Skype für Business Anwesenheits- und datenschutzeinstellungen finden Sie unter [Configure Anwesenheitsinformationen in Skype für Business Online](configure-presence-in-skype-for-business-online.md). 
   
@@ -39,7 +41,7 @@ Die Skype Business Online Einstellung kann Personen besser steuern, wer anzeigen
 |**Anwesenheitsinformationen automatisch anzeigen** <br/> |Jeder Skype for Business-Benutzer, der nicht zu den Vertraulichkeitsgruppen **Extern** oder **Blockiert** gehört <br/> |
 |**Anzeigen von Anwesenheitsinformationen nur für Kontakte eines Benutzers** <br/> |Jeder Benutzer in der Kontaktliste des Benutzers, die nicht an die **externe** oder **blockiert** Privacy Gruppe gehört. <br/> Einzelne Benutzer können diese Einstellung in der Skype für Dialogfeld Business **Optionen** ändern. <br/> |
    
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)

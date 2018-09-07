@@ -1,5 +1,5 @@
 ---
-title: Weitere Informationen zum Aufrufen von Zeile-ID und Aufrufen von Anrufernamens
+title: Mehr über Telefonnummer-ID und Name des Anrufers
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, warum Sie autorisierte Personen hinzufügen, die Änderungen an das Konto vornehmen können, wenn Sie den Assistenten für neue lokale Anzahl Port Reihenfolge verwenden müssen.
-ms.openlocfilehash: 1174ba5837bb91c3251232ab48fa63c343425ac1
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 846abfd5b6973a02ad1a7388b45a79ec709695a0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865277"
 ---
-# <a name="more-about-calling-line-id-and-calling-party-name"></a>Weitere Informationen zum Aufrufen von Zeile-ID und Aufrufen von Anrufernamens
+# <a name="more-about-calling-line-id-and-calling-party-name"></a>Mehr über Telefonnummer-ID und Name des Anrufers
 
 CallerID, wie er in der Regel, bezeichnet wird besteht aus zwei Benutzern wahrgenommenen identifizierbare Teile der Informationen:
     - Eine Telefonnummer ein (normalerweise um als CLID oder Aufruf von Zeile ID bezeichnet) 
@@ -35,6 +37,6 @@ CLID & CNAM Übertragung ist der Verantwortung der Abbruch Netzbetreiber, soweit
 
 Inkonsistenzen in CNAM können durch Verzögerungen bei der anspruchsvolleren oder Abbruch Netzbetreibern aktualisieren CNAM Info in autorisierende Datenbanken wie in den USA die Groß-/Kleinschreibung verursacht werden. In Ländern, in denen keine autorisierende Datenbank für CNAM vorhanden ist, einzelne Netzbetreiber Methoden können auch Probleme mit CNAM Informationen in intakt mit den Anruf eingeht. Microsoft unterstützt derzeit ursprünglichen CNAM Informationen in Länder außer den USA nicht."
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 
 

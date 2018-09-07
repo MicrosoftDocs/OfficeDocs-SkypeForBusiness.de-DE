@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 3631967e-d342-4a8a-905d-9b65d2ab554b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Finden Sie unter Where Zuweisen einer gültigen Dienstplan für einen Benutzer nach einer Skype für Business Online Dienstplan gültige Fehler nicht zur Verfügung. '
-ms.openlocfilehash: e84cee8be48297977cddc0261316f3d6f6f22b0d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 92945ec7cb39a91c68c6fe31022feaf482e4310b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861009"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype für Business Online Dienstplan des Benutzers ist nicht zulässig
 
@@ -30,7 +32,7 @@ Es ist leider die Skype für Business Online Dienstplan, die diesem Benutzer zug
   
 Wechseln Sie zu der **Office 365 Administrationscenter** > **aktiven Benutzern** und Zuweisen einer gültigen Dienst an diesen Benutzer planen.
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)

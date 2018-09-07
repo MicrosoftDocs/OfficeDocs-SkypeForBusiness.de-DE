@@ -1,5 +1,5 @@
 ---
-title: Bericht über Peer-zu-Peer-Aktivität
+title: Bericht „Peer-zu-Peer-Aktivitäten“
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d3b2d569-4ee9-44b8-92bf-d518142f0713
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,15 +21,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-search.appverid: MET150
-ms.openlocfilehash: c5248baebf3e34b24427ecf192a1b1376c7afb4a
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933137"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860643"
 ---
-# <a name="peer-to-peer-activity-report"></a>Bericht über Peer-zu-Peer-Aktivität
+# <a name="peer-to-peer-activity-report"></a>Bericht „Peer-zu-Peer-Aktivitäten“
 
 Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie den Bericht **Skype für geschäftliche Peer-zu-Peer-Aktivität** verwenden, sehen, wie viel die Benutzer Sofortnachrichten, Audio, video, Anwendung freigeben und Übertragen von Dateien verwendet werden. 
 
@@ -69,9 +69,9 @@ Einen Einblick in die Peer-zu-Peer-Aktivitäten in Skype for Business erhalten S
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Benutzer**, um Nutzungstrends nachzuvollziehen und die Anzahl an eindeutigen Benutzern, die an den in Ihrer Organisation abgehaltenen Peer-zu-Peer-Aktivitäten teilgenommen haben, anzuzeigen. Die Gesamtzahl der Benutzer sowie die Arten von **Sofortnachrichten**, **Audio**, **Video**, **Anwendungsfreigabe**und **dateiübertragungen** wird in Peer-zu-Peer-Sitzungen angezeigt.
 ***
-![Zahl 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Minuten**, um Nutzungstrends nachzuvollziehen und zu sehen, wie viele Minuten von Benutzern für Peer-zu-Peer-Aktivitäten mit Audio und Video genutzt werden. Es zeigt Ihnen die Gesamtanzahl der Minuten für **Audio** und **Video**, die in Peer-zu-Peer-Sitzungen genutzt werden.  
+![Nummer 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Minuten**, um Nutzungstrends nachzuvollziehen und zu sehen, wie viele Minuten von Benutzern für Peer-zu-Peer-Aktivitäten mit Audio und Video genutzt werden. Es zeigt Ihnen die Gesamtanzahl der Minuten für **Audio** und **Video**, die in Peer-zu-Peer-Sitzungen genutzt werden.  
 ***
-![Zahl 6](../images/sfbcallout6.png)<br/>Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse. 
+![Nummer 6](../images/sfbcallout6.png)<br/>Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse. 
 *    Im Aktivitätsdiagramm **Aktivität** entspricht die Y-Achse der Gesamtanzahl an Chat-, Audio-, Video-, Anwendungsfreigabe- und Dateiübertragungssitzungen, die Ihre Benutzer in der Organisation abgehalten haben.
 *    Klicken Sie auf das Diagramm für **Benutzer** Aktivitäten ist die y-Achse die insgesamt Anzahl Benutzer, die für Sofortnachrichten, Audio, video, Anwendung freigeben und Übertragen von Dateien Sitzungen reserviert. 
 *    Im Aktivitätsdiagramm **Minuten** entspricht die Y-Achse der Gesamtanzahl an Minuten, die Benutzer in Ihrer Organisation mit der Nutzung von Peer-zu-Peer-Sitzungen mit Audio und Video verbracht haben. 
@@ -117,7 +117,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

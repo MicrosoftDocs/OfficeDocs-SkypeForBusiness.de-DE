@@ -7,16 +7,18 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
+search.appverid: MET150
 description: Hier finden Sie Schnellstarthandbücher, mit denen Sie sich vorbereiten und Microsoft Teams verwenden können.
 appliesto:
 - Microsoft Teams
 ms.custom:
 - NewAdminCenter_Update
-ms.openlocfilehash: b823efdb8055abe30bfd78053a30d0b56e3f194d
-ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
+ms.openlocfilehash: 1e92f08b3124c360f97374bd4e5007f6f73aee4b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850005"
 ---
 <a name="quick-start-guides-for-microsoft-teams-admins"></a>Schnellstarthandbücher für Microsoft Teams-Administratoren
 =====================================

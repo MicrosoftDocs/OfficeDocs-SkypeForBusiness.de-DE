@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: prem
 description: Anleitung zum Veröffentlichen von apps im Microsoft-Teams Mandanten Apps Katalog.
 localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 655a9da3670a7894e581cd2e6adebd02ef22706b
-ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
+ms.openlocfilehash: 11b1ccf53715b15098b772e460602ce5eddade62
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21762935"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866372"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Veröffentlichen von apps mit dem Microsoft-Teams Mandanten Apps-Katalog
 =======================================================

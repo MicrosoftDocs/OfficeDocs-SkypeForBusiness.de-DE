@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 ms.appliesto:
@@ -17,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Diese Zusammenfassung von Skype für Business Unternehmens- und Einstellungen helfen Ihnen die Weitere Informationen zu öffentlichen Instant Messaging-Diensten, Besprechungsanfragen, Aufzeichnung Anrufe Besprechungen und vieles mehr.  '
-ms.openlocfilehash: 17504d2c0e367a6bd92f427befb3aebb7ecdc364
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 95368d06cbd243aa5b57b7e68ec1e99db81b2fb0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865597"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Zusammenfassung der Skype for Business Online-Einstellungen
 
@@ -51,7 +53,7 @@ Die **Skype für Business Administrationscenter** umfasst Einstellungen für das
 |Ausgehende Verbindungen für anonyme Teilnehmer  <br/> |Zulassen, dass anonyme Skype for Business Online-Besprechungsteilnehmer die Verbindung herstellen, indem sie vom Audiokonferenzanbieter angerufen werden  <br/> |Aktiviert  <br/> |[Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Nicht archivierte Funktionen deaktivieren  <br/> | Deaktiviert Features, die erfasst werden nicht, wenn die Organisation eines [Inhalt hinzufügen zu einer Groß-/Kleinschreibung und Ort Quellen auf halten Sie in das eDiscovery Center](https://go.microsoft.com/fwlink/?LinkId=529482) in der Exchange-Verwaltungskonsole eingerichtet wurden: <br/>  Dateiübertragung mittels Chat <br/>  Freigegebene OneNote-Seiten <br/>  PowerPoint-Anmerkungen <br/>  Aktivieren Sie diese Option, wenn Sie rechtlich zur Aufbewahrung elektronisch gespeicherter Informationen verpflichtet sind. <br/> |Deaktiviert  <br/> |[Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)

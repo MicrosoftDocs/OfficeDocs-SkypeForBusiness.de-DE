@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -21,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Informationen Sie zum Einrichten Ihrer Domäne, Benutzer Sofortnachrichten und Anwesenheitsinformationen für Ihre Organisation Skype für Unternehmen zu installieren. Außerdem finden Sie unter Audiokonferenzen Telefonsystem und plant aufrufen und Skype Besprechung Übertragung einrichten. '
-ms.openlocfilehash: 264edbeeaaca9eb2b057760ec6432deedb4b78e4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252526"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864489"
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online
 
@@ -42,7 +43,7 @@ Wenn Sie **[Office 365 Business Premium](https://products.office.com/en-us/busin
 
 Gehen Sie wie folgt vor, wenn Sie Skype for Business zum Tätigen und Annehmen von **Anrufen** von Personen *außerhalb*  Ihres Unternehmens verwenden möchten:
 
-- **Option 1. Verwenden Sie die kostenlose [Skype-App](https://www.skype.com/)**. Wenn Sie ein sehr kleines Unternehmen haben (zum Beispiel mit ein bis zwei Mitarbeitern), ist die Verwendung der Skype-App die bessere Lösung. Sie ist für Inlands- und Auslandsanrufe kostengünstiger. Sie können weiterhin halten Sie Telefonkonferenzen abhalten von Videokonferenzen und Freigeben des Desktops für Präsentationen. [Checken Sie die Zahlungsoptionen und Sätze](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Option 1. Verwenden Sie die kostenlose [Skype-App](https://www.skype.com/)**. Wenn Sie ein sehr kleines Unternehmen haben (zum Beispiel mit ein bis zwei Mitarbeitern), ist die Verwendung der Skype-App die bessere Lösung. Sie ist für Inlands- und Auslandsanrufe kostengünstiger. Sie können weiterhin halten Sie Telefonkonferenzen abhalten von Videokonferenzen und Freigeben des Desktops für Präsentationen. [Überprüfen Sie die Zahlungssätze und -optionen](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
 - **Option 2. Aktualisieren Sie Ihren Plan und das Telefonsystem und eines Plans Aufrufen für Office 365 kaufen**. Die einfachste Möglichkeit, um zu ermitteln, wie viel dies Kosten, und klicken Sie dann umsteigen, zur [Unterstützung von Kontakt für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) ist und sie alles für Sie tun.
 

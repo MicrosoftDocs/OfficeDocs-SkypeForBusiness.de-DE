@@ -1,5 +1,5 @@
 ---
-title: Bericht über Benutzeraktivität
+title: Bericht „Aktivität“
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8cbe2eb2-1194-4fd7-b1ee-9f9287c82424
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-search.appverid: MET150
-ms.openlocfilehash: c827ed5c853a1f3e474f5f115a0dd1ef1975b5f7
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933107"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855575"
 ---
-# <a name="activity-report"></a>Bericht über Benutzeraktivität
+# <a name="activity-report"></a>Bericht „Aktivität“
 
 Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie mit dem Bericht **Skype for Business-Aktivität** feststellen, in welchem Umfang Ihre Benutzer Peer-zu-Peer verwenden sowie Konferenzsitzungen organisieren und daran teilnehmen. 
 
@@ -68,9 +68,9 @@ Der **Skype für geschäftliche Aktivität** e-Mail Aktivitätsbericht kann übe
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Benutzer**, um Nutzungstrends nachzuvollziehen und die Anzahl an eindeutigen Benutzern, die an den in Ihrer Organisation abgehaltenen Konferenzaktivitäten teilgenommen haben, anzuzeigen. Sie sehen die Gesamtanzahl der Benutzer zusammen mit den Arten der **Peer-zu-Peer-Sitzungen** und Informationen darüber, wie viele Konferenzsitzungen **organisiert** wurden bzw. an wie vielen **teilgenommen** wurde. 
 ***
-![Zahl 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen Sie beispielsweise im Diagramm **Aktivität** auf **Peer-zu-Peer-Sitzungen**, **Organisiert** oder **Teilgenommen**, um nur die jeweils zugehörigen Informationen anzuzeigen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert.   
+![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen Sie beispielsweise im Diagramm **Aktivität** auf **Peer-zu-Peer-Sitzungen**, **Organisiert** oder **Teilgenommen**, um nur die jeweils zugehörigen Informationen anzuzeigen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert.   
 ***
-![Zahl 6](../images/sfbcallout6.png)<br/>
+![Nummer 6](../images/sfbcallout6.png)<br/>
 Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.
 *    Im Diagramm **Aktivität** stellt die Y-Achse die Gesamtzahl der Peer-zu-Peer-Sitzungen und der Konferenzsitzungen dar, die organisiert wurden und an denen teilgenommen wurde.
 *    Klicken Sie auf das Diagramm für **Benutzer** Aktivitäten ist die y-Achse die Anzahl der eindeutigen Benutzer in jedem Peer-zu-Peer teilnehmen organisiert und Konferenz beteiligt.
@@ -115,7 +115,7 @@ Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportiere
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
 
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

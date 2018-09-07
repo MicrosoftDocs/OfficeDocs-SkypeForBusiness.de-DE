@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 305984ec-3da8-4509-bb2b-6643dcf2cb7d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Outlook im Web (Outlook Web App) in Office 365 bietet einen grundlegenden Skype for Business-Webclient über die Navigationsleiste. Dieses grundlegende Client ist für Online-Benutzern, deren Admin eine Vanity-URL für ihre Office 365-Organisation konfiguriert noch nicht, verfügbar. Solange das Konto des Benutzers online ist und verfügt nicht über eine Vanity-URL, sehen sie, auch wenn ihre Organisation einige Benutzerkonten verfügt, die lokal sind weiterhin die Erfahrung. Benutzer, Benutzerkonten: lokal (gibt an, ob sie eine Vanity-URL oder nicht verfügen) oder von Microsoft verwaltet werden, sieht die Lync-Erfahrung in Outlook Web app.'
-ms.openlocfilehash: 03491bb0cb200cac8eecb0ae2282a7003a85f8dc
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 112da508d0f21175d309679a529f86d22a37d0d4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863245"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Skype for Business Online-Support in Outlook im Web
 
@@ -41,7 +43,7 @@ In der folgenden Tabelle werden die verschiedenen Setups, die Sie möglicherweis
 |Reine auf prem  <br/> |Ja  <br/> |Lync-Weberfahrung  <br/> |
    
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)

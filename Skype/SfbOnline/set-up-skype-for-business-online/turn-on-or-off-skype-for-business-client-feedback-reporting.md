@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Sie können Ihre Skype für Unternehmensbenutzer mithilfe der integrierten Skype für Business app-Feedback-Tool, damit Benutzer Probleme melden, und geben Sie Feedback direkt an Microsoft zu ihren Wünschen aktivieren.
-ms.openlocfilehash: 09ddaa9952ab5d536c6a95937ca71c4c056a15e0
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 6d8f5c7e7c333e447b4238e47dab1fc7ad394816
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22135540"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850099"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Aktivieren oder Deaktivieren von Feedbackberichten im Skype for Business-Client
 
@@ -44,7 +45,7 @@ Sie können auch die Einstellung  _EnableOnlineFeedbackScreenshot_ verwenden, da
 
 - **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -56,7 +57,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
     
 - **Starten einer Windows PowerShell-Sitzung**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Vom **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Auf 1 April 2019, wird das Ende des Lebenszyklus Programm für die Integration von Skype für Unternehmen mit Drittanbieter-Audiokonferenzen schließt (3. Partei ACP).
-ms.openlocfilehash: 5f9ec8392328d1b231e63423e1c273348b2a617b
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: c5f39570c7f570dfc4102105a72f277221356051
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780433"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865504"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Ende der Lebensdauer Programm für die Integration von Skype für Unternehmen mit Drittanbieter-Audiokonferenzen 
 

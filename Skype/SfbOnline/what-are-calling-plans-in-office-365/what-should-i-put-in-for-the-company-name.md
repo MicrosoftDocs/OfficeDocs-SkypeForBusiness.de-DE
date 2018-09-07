@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5c274a36-9e7a-4399-af08-688ffc75b8ac
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Was für das Unternehmen in Skype für Unternehmen eingefügt, und wo Sie ihn finden können. '
-ms.openlocfilehash: 4c7cf17a0b1845b7b5383e2d7f4c6b4e5809ae22
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 4de285245348d3ca57c3891496d2f0af848cadba
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779410"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850031"
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>Was muss ich als Firmenname eingeben?
 

@@ -9,6 +9,7 @@ ms.assetid: 3cd6c094-d178-4968-85dd-ab774d12b893
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
-ms.openlocfilehash: ddbf8dccb65b0e533ebe077dd1c974ed88b45b9e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 537644c71671ccb8792d84d84a43fbe5a32a2f2d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783126"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850843"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in der Vereinigte Arabische Emirate
 

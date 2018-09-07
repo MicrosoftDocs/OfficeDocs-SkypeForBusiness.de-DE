@@ -9,6 +9,7 @@ ms.assetid: c0cf7433-3abd-4618-8d3b-74d204caf3a7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Philippinen verfügbar.
-ms.openlocfilehash: 1538c718213392ec93b3f7d8288ae2bc396bec43
-ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
+ms.openlocfilehash: 3a36c6c2bb222b656f149f270c7f4af7a76890b0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23829394"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860493"
 ---
 # <a name="availability-in-the-philippines"></a>Verfügbarkeit in Philippinen
 

@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 0326b19f-4fd1-4b74-8791-df4c09a964b9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,18 +17,18 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Mit Clientrichtlinien können Sie festlegen, welche Funktionen von Skype for Business Online Benutzern zur Verfügung gestellt werden. So können Sie beispielsweise einigen Benutzern das Recht zum Übertragen von Dateien erteilen, während Sie anderen Benutzern dieses Recht verweigern.
-ms.openlocfilehash: 93dcef25119527bce25c1155dc7c8c05ac6fe78d
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
-ms.translationtype: HT
+ms.openlocfilehash: 791d54dd12e5f222958fd4513abdeca2433cbf16
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19500635"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857861"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Einrichten von Clientrichtlinien für Ihre Organisation
 
 Mit Clientrichtlinien können Sie festlegen, welche Funktionen von Skype for Business Online Benutzern zur Verfügung gestellt werden. So können Sie beispielsweise einigen Benutzern das Recht zum Übertragen von Dateien erteilen, während Sie anderen Benutzern dieses Recht verweigern.
   
-Sie können Clientrichtlinieneinstellungen bei der Erstellung einer Richtlinie konfigurieren. Alternativ können Sie das **Set-CsClientPolicy**-Cmdlet verwenden, um die Einstellungen einer vorhandenen Richtlinie zu ändern.
+Richtlinie Clienteinstellungen auf die Uhrzeit der Erstellung eine Richtlinie konfiguriert werden können, oder kann, verwenden Sie das Cmdlet **Set-CsClientPolicy** zum Ändern der Einstellungen einer vorhandenen Richtlinie.
   
 ## <a name="set-your-client-policies"></a>Festlegen Ihrer Clientrichtlinien
 
@@ -64,75 +65,75 @@ Sie können Clientrichtlinieneinstellungen bei der Erstellung einer Richtlinie k
     Import-PSSession $session
   ```
 
-  Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Deaktivieren von Emoticons und Anwesenheitsbenachrichtigungen und Verhindern der Speicherung von Chatnachrichten
 
-- Führen Sie zum Erstellen einer neuen Richtlinie Folgendes aus:
+- Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
     
 > 
   ```
   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
   ```
 
-  Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx)-Cmdlet.
+  Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) -Cmdlet.
     
-- Führen Sie für eine Zuweisung der erstellten neuen Richtlinie zu allen Benutzern in der Organisation Folgendes aus:
+- Um die erstellte neue Richtlinie allen Benutzern in der Organisation zuzuweisen, führen Sie Folgendes aus:
     
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
   ```
 
-  Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)-Cmdlet.
+  Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) -Cmdlet.
     
-Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx)-Cmdlet Änderungen an der vorhandenen Richtlinie vornehmen und dann mit dem [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)-Cmdlet die Einstellungen auf die Benutzer anwenden.
+Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das Cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , die vorhandene Richtlinie zu ändern, und klicken Sie dann mit dem Cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) verwenden, um die Einstellungen für die Benutzer anzuwenden.
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Aktivieren von klickbaren URLs oder Hyperlinks in Chatnachrichten
 
-- Führen Sie zum Erstellen einer neuen Richtlinie Folgendes aus:
+- Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
     
 > 
   ```
   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
   ```
 
-  Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx)-Cmdlet.
+  Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) -Cmdlet.
     
-- Führen Sie für eine Zuweisung der erstellten neuen Richtlinie zu allen Benutzern in der Organisation Folgendes aus:
+- Um die erstellte neue Richtlinie allen Benutzern in der Organisation zuzuweisen, führen Sie Folgendes aus:
     
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
   ```
 
-  Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)-Cmdlet.
+  Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) -Cmdlet.
     
-Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx)-Cmdlet Änderungen an der vorhandenen Richtlinie vornehmen und dann mit dem [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)-Cmdlet die Einstellungen auf die Benutzer anwenden.
+Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das Cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , die vorhandene Richtlinie zu ändern, und klicken Sie dann mit dem Cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) verwenden, um die Einstellungen für die Benutzer anzuwenden.
   
 ### <a name="prevent-showing-recent-contacts"></a>Verhindern der Anzeige der letzten Kontakte
 
-- Führen Sie zum Erstellen einer neuen Richtlinie Folgendes aus:
+- Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
 > 
   ```
   New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   ```
 
-  Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx)-Cmdlet.
+  Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) -Cmdlet.
     
-- Führen Sie für die Zuweisung der erstellten neuen Richtlinie zu Amos Marble Folgendes aus:
+- Um die erstellte neue Richtlinie Amos Marble zuzuweisen, führen Sie Folgendes aus:
 > 
   ```
   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   ```
 
-  Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)-Cmdlet.
+  Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) -Cmdlet.
     
-  Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx)-Cmdlet Änderungen an der vorhandenen Richtlinie vornehmen und dann mit dem [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx)-Cmdlet die Einstellungen auf die Benutzer anwenden.
+  Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das Cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) , die vorhandene Richtlinie zu ändern, und klicken Sie dann mit dem Cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) verwenden, um die Einstellungen für die Benutzer anzuwenden.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Dinge zu tun haben. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -146,12 +147,12 @@ Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsClie
     
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-topics"></a>See Also
 [Erstellen von benutzerdefinierten externen Zugriffsrichtlinien](create-custom-external-access-policies.md)
 
-[Blockieren von Punkt-zu-Punkt-Dateiübertragungen](block-point-to-point-file-transfers.md)
+[Datenblöcke Point-Datei übertragen](block-point-to-point-file-transfers.md)
 
-[Einrichten von Konferenzrichtlinien für Ihre Organisation](set-up-conferencing-policies-for-your-organization.md)
+[Einrichten von konferenzrichtlinien in Ihrer Organisation](set-up-conferencing-policies-for-your-organization.md)
 
   
  

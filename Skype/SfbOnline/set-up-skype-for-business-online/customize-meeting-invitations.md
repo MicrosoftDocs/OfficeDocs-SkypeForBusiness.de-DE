@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Passen Sie Skype-Besprechungseinladungen mit Grafiklogo-, Hilfe- und Rechts-URLs und Fußzeilentext an. '
-ms.openlocfilehash: 1f53ce183ebe62923948a33a7ac6b14f3c61f04a
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
-ms.translationtype: HT
+ms.openlocfilehash: b7f9fc41257d24f6c8ffa78304164c67261573c1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19500554"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849985"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
@@ -37,18 +38,18 @@ Als Administrator können Sie sicherstellen, dass alle Besprechungseinladungen f
     
 3. Speichern Sie das Bild an einem zentralen Speicherort, auf den alle Benutzer in Ihrem Unternehmen zugreifen können, beispielsweise in einer Netzwerkfreigabe, einem freigegebenen OneDrive for Business-Ordner, in Dropbox usw.
     
-    Jetzt können Sie es Ihren Besprechungseinladungen hinzufügen. Nachstehend finden Sie die nächsten Schritten.
+    Jetzt können Sie es Ihren Besprechungseinladungen hinzufügen. Finden Sie unter den nächsten Schritten.
     
-## <a name="customize-your-meeting-invitations"></a>Anpassen Ihrer Besprechungseinladungen
+## <a name="customize-your-meeting-invitations"></a>Anpassen der besprechungseinladungen
 <a name="__top"> </a>
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
-1. Melden Sie sich mit Ihrem Firmen- oder Schulkonto bei Office 365 an.
+1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wählen Sie im Office 365 Admin Center **Admin Centers** > **Skype for Business**.
+2. Wählen Sie das Office 365 Administrationscenter **Admin zentriert** > **Skype für Unternehmen**.
     
-3. Wählen Sie im Skype for Business Admin Center **Online Besprechungen**. 
+3. Wählen Sie in der Skype für Business Administrationscenter **onlinebesprechungen**. 
     
 4. Füllen Sie die folgenden Felder aus:
     

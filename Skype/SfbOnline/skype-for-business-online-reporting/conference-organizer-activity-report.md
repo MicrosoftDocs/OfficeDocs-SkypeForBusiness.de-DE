@@ -1,5 +1,5 @@
 ---
-title: Organizer konferenzaktivitätsbericht
+title: Bericht „Aktivitäten zum Organisieren von Konferenzen“
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 03a255d4-0e1d-4b24-b73d-7a62fae36254
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Erfahren Sie, wie die Skype für organisierte Konferenz Tätigkeit Bericht abgerufen und das interpretieren und passen Sie es. '
-search.appverid: MET150
-ms.openlocfilehash: 14d82764a177d1bc483bc1c3457546352a2b4f03
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933155"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854261"
 ---
-# <a name="conference-organizer-activity-report"></a>Organizer konferenzaktivitätsbericht
+# <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 
 Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie den Bericht **Skype für geschäftliche Konferenz organisieren Aktivität** verwenden, sehen, wie viel Ihre Benutzer Konferenzen organisieren, die Sofortnachrichten, Audio/Video, Anwendungsfreigabe, Web, Dial-in/Out - 3rd Party, und Dial-in/Out - Microsoft verwenden. 
 
@@ -67,9 +67,9 @@ Sie können eine Ansicht in Ihrer Skype für Business Konferenzen erhalten, die 
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie das interaktive Diagramm enthalten und Echtzeitdaten im Diagramm **Benutzer** , Verwendungstrends zu verstehen und die Anzahl der eindeutigen Benutzer finden Sie unter den organisierte Konferenzen, die in Ihrer Organisation befinden. Es zeigt Ihnen die Gesamtzahl der Benutzer sowie die Arten von **Sofortnachrichten**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Dial-in/Out - 3rd Party**und **Microsoft/Anwahl** der Konferenzen, die organisiert wurden. 
 ***
-![Zahl 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktives Diagramm und Echtzeitdaten im Diagramm **Minuten** , zu verstehen, Verwendungstrends und die Anzahl der Minuten an, die von Benutzern verwendet werden, wenn sie eine Konferenz mit Audio und Video und -Einwahl und Dial-Out - Microsoft als ihren Konferenzen organisieren Anbieter. Es werden die Gesamtzahl der Minuten pro **a/v** **-Einwahl Microsoft Minuten**und **Dial-Out - Microsoft Minuten** angezeigt, die während Konferenzen verwendet werden, die organisiert wurden.
+![Nummer 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktives Diagramm und Echtzeitdaten im Diagramm **Minuten** , zu verstehen, Verwendungstrends und die Anzahl der Minuten an, die von Benutzern verwendet werden, wenn sie eine Konferenz mit Audio und Video und -Einwahl und Dial-Out - Microsoft als ihren Konferenzen organisieren Anbieter. Es werden die Gesamtzahl der Minuten pro **a/v** **-Einwahl Microsoft Minuten**und **Dial-Out - Microsoft Minuten** angezeigt, die während Konferenzen verwendet werden, die organisiert wurden.
 ***
-![Zahl 6](../images/sfbcallout6.png)<br/>
+![Nummer 6](../images/sfbcallout6.png)<br/>
 Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.
 *    Auf die **Aktivität** Aktivitätsdiagramm ist die y-Achse die Gesamtzahl der Sofortnachrichten, Audio/Video, Anwendungsfreigabe, Web, Dial-in/Out-3rd Party und/Anwahl Microsoft der Konferenzen, die Ihre Benutzer in Ihrer Organisation angeordnet. 
 *    Klicken Sie auf das Diagramm für **Benutzer** Aktivitäten ist die y-Achse die insgesamt Anzahl Benutzer, die für Sofortnachrichten, Audio/Video, Anwendungsfreigabe, Web, Dial-in/Out - 3rd Party und Dial-in/Out - Konferenzen, die Ihre Benutzer in Ihrer Organisation organisiert Microsoft reserviert.
@@ -122,7 +122,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

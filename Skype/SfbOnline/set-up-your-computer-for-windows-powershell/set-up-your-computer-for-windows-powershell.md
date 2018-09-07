@@ -1,5 +1,5 @@
 ---
-title: Einrichten des Computers für Windows PowerShell
+title: Einrichten Ihres Computers für Windows PowerShell
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: ebf5adf0-d848-4e99-baf4-387d1711e1d0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Informieren Sie sich die Anforderungen für die Remoteverwaltung von Skype für Business Online über Windows PowerShell, einschließlich der unterstützten Betriebssysteme.
-ms.openlocfilehash: 94f5fe81e510b5722bde38a64fe3f8473a7f5c8b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 001e8da26daaff65a1761519073667e530688243
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862593"
 ---
-# <a name="set-up-your-computer-for-windows-powershell"></a>Einrichten des Computers für Windows PowerShell
+# <a name="set-up-your-computer-for-windows-powershell"></a>Einrichten Ihres Computers für Windows PowerShell
 
 Remoteverwaltung von Skype für Business Online mithilfe von Microsoft PowerShell wird nur auf 64-Bit-Computern mit einem der folgenden Betriebssysteme unterstützt:
   
@@ -52,7 +54,7 @@ Finden Sie Informationen zum Herunterladen und installieren diese Elemente in de
     
 - [Herunterladen und Installieren von Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Diagnose von Verbindungsproblemen mit dem Skype für Business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

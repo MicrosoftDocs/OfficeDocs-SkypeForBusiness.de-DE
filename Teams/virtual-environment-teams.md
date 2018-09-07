@@ -10,17 +10,18 @@ ms.service: msteams
 ms.reviewer: jaym
 description: Erfahren Sie, wie Microsoft-Teams in einer virtualisierten Umgebung ausführen.
 localization_priority: Normal
+search.appverid: MET150
 ms.custom:
 - Devices
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47c920d46e37364782ac656b93398deb01c41e6d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5a55dba95ee57738a708db1167288cc6bd210fc6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256273"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858465"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Führen Sie Microsoft-Teams in einer virtuellen Umgebung
 ============================================

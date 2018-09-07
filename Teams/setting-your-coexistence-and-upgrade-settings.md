@@ -6,17 +6,18 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: bjwhalen
+search.appverid: MET150
 description: In diesem Artikel helfen Ihnen beim Wählen Sie des Koexistenzmodus und andere Einstellungen Koexistenz festgelegt.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16cbe6c20661da3c4e6dd18255055b2c661a4758
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 69687729ac9d9575b79e53c1ff00396d0db8e51c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23845581"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856331"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen von Einstelllungen Upgrade und Koexistenz
 

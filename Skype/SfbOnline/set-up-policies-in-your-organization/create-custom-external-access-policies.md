@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 89cbd278-5480-473c-8cd9-04e07e5f9e0b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,16 +17,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype ermöglicht Ihnen die Erstellung von externen Zugriffs-Richtlinien. Nicht so wie bei Conferencing-Richtlinien, bei denen Sie mehrere Kombinationen haben können, gibt es hier drei vordefinierte Richtlinien für den externen Zugriff, die die meisten Szenarien abdecken.
-ms.openlocfilehash: e166aa9af162fd6432c8932d5842ea0fd00a36b3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
-ms.translationtype: HT
+ms.openlocfilehash: e0af31d015c69ebd91c28a229a20d3d2c6c926c4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568312"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850157"
 ---
 # <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externen Zugriffsrichtlinien
 
-Skype ermöglicht Ihnen die Erstellung von externen Zugriffs-Richtlinien. Nicht so wie bei Conferencing-Richtlinien, bei denen Sie mehrere Kombinationen haben können, gibt es hier drei vordefinierte Richtlinien für den externen Zugriff, die die meisten Szenarien abdecken. Diese sind:
+Skype ermöglicht Ihnen die Erstellung von externen Zugriffs-Richtlinien. Nicht so wie bei Conferencing-Richtlinien, bei denen Sie mehrere Kombinationen haben können, gibt es hier drei vordefinierte Richtlinien für den externen Zugriff, die die meisten Szenarien abdecken. Dies sind:
   
 - No Federated oder Skype Consumer Zugriff (_Tag: NoFederationAndPIC_)
     
@@ -76,7 +77,7 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version von 2016 d
     Import-PSSession $session
   ```
 
-  Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Erstellen einer benutzerdefinierten Richtlinie für den externen Zugriff eines Benutzers
 
@@ -94,7 +95,7 @@ Zu diesem Zweck führen Sie Folgendes aus:
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen, wenn Sie viele Dinge zu tun haben. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -109,11 +110,11 @@ Zu diesem Zweck führen Sie Folgendes aus:
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>See Also
-[Blockieren von Punkt-zu-Punkt-Dateiübertragungen](block-point-to-point-file-transfers.md)
+[Datenblöcke Point-Datei übertragen](block-point-to-point-file-transfers.md)
 
 [Einrichten von Clientrichtlinien für Ihre Organisation](set-up-client-policies-for-your-organization.md)
 
-[Einrichten von Conferencing-Richtlinien für Ihre Organisation](set-up-conferencing-policies-for-your-organization.md)
+[Einrichten von konferenzrichtlinien in Ihrer Organisation](set-up-conferencing-policies-for-your-organization.md)
 
   
  

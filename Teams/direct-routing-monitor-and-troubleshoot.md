@@ -7,14 +7,15 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: In diesem Artikel wird beschrieben, wie zur Überwachung und Problembehandlung für die direkte Routing-Konfiguration.
-ms.openlocfilehash: 1a29ec3f58666752cb22bc4a8b3adbe24a0399bf
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 92a7f0ed27549ace44bf962a1aa7bb47e24b4ab4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844773"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857187"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direkten Routing
 

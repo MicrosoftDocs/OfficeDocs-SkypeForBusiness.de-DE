@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Administratoren können die Microsoft-Teams und Skype-Verwaltungskonsole verwenden so konfigurieren Sie die Skype Besprechungen App entwickelt Teams
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 686e53f3c272ab73e7934085df96cf710fecf667
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: d87433b57936534afad05d38cb42e64c798f74e4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23844837"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853407"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Konfigurieren der Skype Besprechungen App entwickelt Teams
 ===================================================

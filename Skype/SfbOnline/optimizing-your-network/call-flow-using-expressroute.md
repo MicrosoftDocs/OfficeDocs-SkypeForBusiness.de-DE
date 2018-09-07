@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 413acb29-ad83-4393-9402-51d88e7561ab
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: In diesem Artikel werden die wichtigsten Grundsätze zum Anruffluss für Skype for Business Online und ExpressRoute mit detaillierten Beispielen für Anrufflüsse erläutert, um Sie bei einer adäquaten Planung zu unterstützen.
-ms.openlocfilehash: 8549104b4fe27afcdb157325ea5564298a886432
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2406badc671fec8ede36039ebf230115a5920e97
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253880"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861077"
 ---
 # <a name="call-flow-using-expressroute"></a>Anruffluss mit ExpressRoute
 
