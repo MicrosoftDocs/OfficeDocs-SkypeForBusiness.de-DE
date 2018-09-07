@@ -7,15 +7,16 @@ ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
+search.appverid: MET150
 description: Diese Schulungsressourcen können von Administratoren verwendet werden, um Microsoft Teams erfolgreich bereitzustellen und einzuführen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0935dce30a6973a94c6622f88cfc6647120968a
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 47de3143800eb5be0a8bae686c9563381ab57d90
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843757"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867533"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 =====================================

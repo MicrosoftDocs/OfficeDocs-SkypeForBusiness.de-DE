@@ -9,6 +9,7 @@ ms.assetid: 98a819e4-6dd9-47ee-8c79-586aae727111
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Australien verfügbar.
-ms.openlocfilehash: d5638260ea27ef33f6934734f7df2aa4639e0128
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 97a2e1b565a47f45787bc0d732f0ee622dc3ec7d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783110"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868197"
 ---
 # <a name="availability-in-australia"></a>Verfügbarkeit in Australien
 
@@ -39,7 +40,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein. [Wenden Sie sich bitte an uns](mailto:ptnapac@microsoft.com). <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein. [Bitte kontaktieren Sie uns](mailto:ptnapac@microsoft.com). <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
 
 ## <a name="phone-system"></a>Telefonsystem
@@ -53,7 +54,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 
 ## <a name="calling-plans"></a>Anrufpläne
 > [!IMPORTANT]
-> Derzeit nur für Vorschau und frühe Anpassung in Australien verfügbar. Weitere Informationen finden Sie unter [Telstra für Office 365 aufrufen](https://aka.ms/TelstraVoicePlan).
+> Derzeit nur für Vorschau und frühe Anpassung in Australien verfügbar. Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Funktion**|**Details**|
 |:-----|:-----|

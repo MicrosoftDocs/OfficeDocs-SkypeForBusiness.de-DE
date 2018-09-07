@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: lucarras
 description: Hier erfahren Sie, wie Sie in Microsoft Teams Bots für private Chats und Kanäle hinzufügen, benutzerdefinierte Bots erstellen und Ihren eigenen Bot für private Chats querladen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08417f4aafae8c7fd844cb253a889b833d0e6266
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: 84ddb68dd5251d943e1fe3b6cca1aae2cf8fcb45
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856028"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867653"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams
 ==========================================================
