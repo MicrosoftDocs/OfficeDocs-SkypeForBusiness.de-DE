@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 2d5d3c87-af1e-487e-b86c-261f2e5a0661
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie den Notfallort für Ihre Benutzer ändern können. Mit einer unbegrenzten Anzahl von Standorten können Sie Notfallorte ändern, wenn Mitarbeiter Stockwerke oder Gebäude wechseln. '
-ms.openlocfilehash: 6f554a4233f6b3c60711281978212e1cbec35c10
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: e3805daa8248da44de84330ea5de694126e9e32c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779278"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863273"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Ändern des Notfallortes für einen Benutzer
 
@@ -37,7 +38,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Gehen Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
 3. Wechseln Sie im linken Navigationsbereich zu **Sprache** > **Sprachbenutzer**.
     
@@ -46,7 +47,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
     
 4. Suchen Sie auf der Seite **Sprachbenutzer** den Benutzer, für den Sie den Notfallort ändern möchten.
     
-5. Klicken Sie im Bereich „Aktion" unter **Notfallstandort** auf **Ändern**.
+5. Klicken Sie im Bereich „Aktion" unter **Notfallort** auf **Ändern**.
     
 6. Klicken Sie auf der Seite **Nummer zuweisen** auf **Standort ändern**. 
     
@@ -59,7 +60,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 ## <a name="related-topics"></a>Verwandte Themen
 [Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen](add-or-remove-an-emergency-address-for-your-organization.md)
 
-[Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md)
+[Hinzufügen, Ändern oder Entfernen eines Notfallorts für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
 [Was ist Adressvalidierung?](what-is-address-validation.md)
 

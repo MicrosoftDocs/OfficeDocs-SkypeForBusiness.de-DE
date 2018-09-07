@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,17 +20,17 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-description: Zusätzlich zu den Telefonnummern für Ihre Benutzer aus Office 365 können Sie gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen (auch Dienstnummern genannt) suchen und erwerben. Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Dienstnummern eine höhere Kapazität für gleichzeitige Anrufe.
-ms.openlocfilehash: f45bccd76e560dacc94211d6339858e82541821e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+description: Zusätzlich zu den Telefonnummern für Ihre Benutzer aus Office 365 können Sie gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen (auch Dienstnummern genannt) suchen und erwerben. Diensttelefonnummern haben eine höhere Kapazität für gleichzeitige Anrufe als Benutzer- oder Teilnehmerrufnummern.
+ms.openlocfilehash: a332f7b5b1d7a253453946784d16a0ac3c5b8305
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779158"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860903"
 ---
 # <a name="getting-service-phone-numbers"></a>Anfordern von Dienstnummern
 
-Zusätzlich zu den Telefonnummern für Ihre Benutzer aus Office 365 können Sie gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen (auch Dienstnummern genannt) suchen und erwerben. Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Dienstnummern eine höhere Kapazität für gleichzeitige Anrufe. Beispiel: Eine Dienstnummer kann Hunderte von Anrufen gleichzeitig verarbeiten, wohingegen eine Benutzer-Telefonnummer nur einige wenige Anrufe gleichzeitig verarbeiten kann.
+Zusätzlich zu den Telefonnummern für Ihre Benutzer aus Office 365 können Sie gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen (auch Dienstnummern genannt) suchen und erwerben. Diensttelefonnummern haben eine höhere Kapazität für gleichzeitige Anrufe als Benutzer- oder Teilnehmerrufnummern. Beispiel: Eine Dienstnummer kann Hunderte von Anrufen gleichzeitig verarbeiten, wohingegen eine Benutzer-Telefonnummer nur einige wenige Anrufe gleichzeitig verarbeiten kann.
   
 > [!NOTE]
 > Office 365 – Guthaben für Kommunikationen müssen vor dem Erwerb von gebührenfreien Nummern eingerichtet werden. Informationen finden Sie unter [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](/microsoftteams/set-up-communications-credits-for-your-organization). 
@@ -49,9 +50,9 @@ Sie haben zwei Möglichkeiten, Dienstnummern zwecks Verwendung in Skype for Busi
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Gehen Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern** > **Hinzufügen**, und klicken Sie auf **Neue Dienstnummern**.
+3. Gehen Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern** > **Hinzufügen**, und klicken Sie auf **Neue Dienstnummern**.
     
     > [!IMPORTANT] 
     > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
@@ -64,14 +65,14 @@ Sie haben zwei Möglichkeiten, Dienstnummern zwecks Verwendung in Skype for Busi
     
   - **Ort**
     
-5. Geben Sie unter **Menge** die Anzahl der Telefonnummern ein, die Sie für Ihre Organisation benötigen, und klicken Sie auf **Hinzufügen**, um eine Reservierung zu erstellen. Sie müssen Ihre Telefonnummern innerhalb von 10 Minuten auswählen. Wenn Sie mehr als 10 Minuten in Anspruch benötigen, werden die Telefonnummern in den Pool der Telefonnummern zurückgegeben.
+5. Geben Sie unter **Menge** die Anzahl der Telefonnummern ein, die Sie für Ihre Organisation benötigen, und klicken Sie auf **Hinzufügen**, um eine Reservierung zu erstellen. Sie haben 10 Minuten Zeit, um Ihre Telefonnummern auszuwählen; wenn Sie mehr als 10 Minuten benötigen, werden die Telefonnummern in den Pool der Telefonnummern zurückgegeben.
     
     > [!NOTE]
-    > Neben **Dienstnummern insgesamt, die Sie erhalten können** können Sie die Anzahl der Telefonnummern sehen, die auf der Anzahl der Lizenzen basiert. Details finden Sie unter[Wie viele Telefonnummern können Sie erhalten?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > Sie sehen die Anzahl der Telefonnummern, die auf der Anzahl der Lizenzen basiert, neben ** Gesamte Dienstnummern, die Sie erwerben können **. Details finden Sie unter[Wie viele Telefonnummern zu erhalten, können Sie abrufen?](/microsoftteams/how-many-phone-numbers-can-you-get).
   
 6. Sie können auf **Nummern anzeigen** klicken, um eine vollständige Liste der Telefonnummern aufzurufen. Das ist nützlich, wenn Sie keine bestimmte Telefonnummer aus der Liste auswählen möchten.
     
-7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Nummern erwerben**.
+7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Abrufen von Rufnummern**.
     
 ### <a name="assign-service-numbers"></a>Zuweisen von Dienstnummern
 

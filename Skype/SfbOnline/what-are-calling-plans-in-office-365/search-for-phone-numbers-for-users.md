@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,20 +21,20 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie nach Telefonnummern suchen können, die Sie Ihre Benutzer nach Land/Region, Bundesland/Region oder Stadt zuweisen und die Anzahl an Nummern angeben können, die Sie brauchen. '
-ms.openlocfilehash: 94eeed0921a769547d5047310bf224a9b90dd6f0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 057eca4ba0f884fb1c81cb8ee8e45be6a19194bf
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779400"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850147"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
-Bevor Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen und empfangen sollen, müssen Sie das **Skype for Business Admin Center**verwenden und Telefonnummern erwerben, die Benutzern zugewiesen werden können. Bei der einem Benutzer zugewiesenen Telefonnummer handelt es sich um eine Telefonnummer, die Sie für Ihre Organisation ausgewählt haben. Sie wird in der Dropdownliste aufgeführt, wenn Sie die Eigenschaften des Benutzers bearbeiten und auf **Zuweisen** klicken.
+Wenn Sie in Ihrer Organisation Benutzer einrichten, um Telefonanrufe tätigen und entgegennehmen zu können, müssen Sie das **Skype for Business Admin Center** verwenden und zunächst die Telefonnummern abrufen, die Benutzern zugewiesen werden können. Die Telefonnummer, die Sie einem Benutzer zuweisen, ist eine Telefonnummer, die Sie für Ihre Organisation ausgewählt haben. Diese Telefonnummer wird in der Dropdown-Liste aufgeführt, wenn Sie die Eigenschaften des Benutzers bearbeiten und auf **Zuweisen** klicken.
   
-Bevor Sie Telefonnummern für die Benutzer zuweisen können, müssen Sie die Seite **neue Nummern** verwenden, um nach Nummern zu suchen, die innerhalb einer Region für Sie verfügbar sind. Sie können nach **Land/Region**, **Bundesland**und **Stadt** suchen und die Anzahl von Rufnummern angeben, die Sie für Ihre Benutzer benötigen. 
+Bevor Sie Benutzern Telefonnummern zuweisen können, müssen Sie über die Seite **Neue Nummern** nach Nummern suchen, die in Ihrer Umgebung zur Verfügung stehen. Sie können nach **Land/Region**, **Bundesland** und **Ort** suchen und dann die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen. 
   
-Wenn Sie Hilfe beim Erwerben der Telefonnummern benötigen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization) oder [Kontaktieren des Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+Wenn Sie Hilfe beim Erhalt von Telefonnummern benötigen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization) oder [Kontaktieren des Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## <a name="search-for-phone-numbers"></a>Suchen nach Telefonnummern
 
@@ -63,7 +64,7 @@ Wenn Sie Hilfe beim Erwerben der Telefonnummern benötigen, lesen Sie [Verwalten
 7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Abrufen von Rufnummern**.
     
     > [!IMPORTANT]
-    > Sie können mehr Telefonnummern erwerben als Sie Lizenzen haben. Um zu bestimmen, wie viele Telefonnummern Sie erwerben können, nehmen Sie Ihre Anzahl an Lizenzen, fügen Sie 10 Prozent der Anzahl an Lizenzen und dann 10 hinzu. Falls Sie beispielsweise 100 Lizenzen für **Anrufpläne für Inlandsanrufe**  und/oder **Anrufpläne für Auslandsanrufe**  haben, können Sie 120 Telefonnummern reservieren, vorausgesetzt, dass Sie noch keine Telefonnummern für diese 100 Benutzer erworben haben. Weitere Details finden Sie unter[Wie viele Telefonnummern können Sie erhalten?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > Sie können mehr Telefonnummern erwerben als Sie Lizenzen haben. Um zu bestimmen, wie viele Telefonnummern Sie erwerben können, nehmen Sie Ihre Anzahl an Lizenzen, fügen Sie 10 Prozent der Anzahl an Lizenzen und dann 10 hinzu. Falls Sie beispielsweise 100 Lizenzen für **Anrufpläne für Inlandsanrufe** und/oder **Anrufpläne für Auslandsanrufe** haben, können Sie 120 Telefonnummern reservieren, vorausgesetzt, dass Sie noch keine Telefonnummern für diese 100 Benutzer erworben haben. Weitere Details finden Sie unter[Wie viele Telefonnummern können Sie erhalten?](/microsoftteams/how-many-phone-numbers-can-you-get)
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Allgemeine Fragen zum Übertragen von Telefonnummern](/microsoftteams/transferring-phone-numbers-common-questions)

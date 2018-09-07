@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -18,13 +19,13 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Finden Sie unter Skype for Business Online Schritte, um einem Benutzer eine Einwahlkonferenz-Lizenz, eine Konferenz-ID und viele andere Einstellungen für Einwahlkonferenzen zuzuweisen. '
-ms.openlocfilehash: 7f4387e7d818730de3b2b0336453a3f6ec9b39e7
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+description: 'Siehe Skype for Business Online-Schritte, um einem Benutzer eine Einwahlkonferenzlizenz und eine Konferenz-ID zuzuweisen, sowie viele andere Einstellungen für Einwahlkonferenzen. '
+ms.openlocfilehash: 9babf0d9df978708f231e0e3dced1329ce0af437
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780491"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851467"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Verwalten der Einstellungen von Audio Conferencing für meine Organisation in Skype for Business Online
 
@@ -37,7 +38,7 @@ Möglicherweise ist es einfacher für Sie, alle Einstellungen für Audiokonferen
 ## <a name="assign-an-audio-conferencing-license"></a>Zuweisen einer Lizenz für Audiokonferenzen
 
 > [!NOTE]
-> Sie können mithilfe des **Skype for Business Administrationscenters** keine Lizenzen zuweisen. Sie müssen das Office 365 Administrationscenter verwenden. |||UNTRANSLATED_CONTENT_START|||See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).|||UNTRANSLATED_CONTENT_END|||
+> Sie können mit dem **Skype for Business Admin Center** keine Lizenzen zuweisen. Sie müssen das Office 365 Admin Center verwenden. Siehe [Skype for Business-Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **So weisen Sie eine Lizenz für einen Benutzer zu**
 
@@ -55,7 +56,7 @@ Möglicherweise ist es einfacher für Sie, alle Einstellungen für Audiokonferen
 > [!NOTE]
 > Unter Umständen wird Microsoft nach dem Zuweisen der Lizenz nicht sofort in der Liste als Audiokonferenzanbieter angezeigt. Melden Sie sich in diesem Fall im Office 365 Admin Center ab, oder drücken Sie STRG+F5, um das Browserfenster zu aktualisieren.
 
-## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Aktivieren oder Deaktivieren der an Audiokonferenzbenutzer gesendeten E-Mails
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Aktivieren oder Deaktivieren von E-Mails an Audiokonferenzbenutzer
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
 
@@ -90,7 +91,7 @@ Sie können die E-Mail, die automatisch an Ihre Benutzer gesendet wird, ändern,
 
 - Geben Sie die E-Mail-Adresse im Parameter_SendEmailFromAddress_ ein.
 
-- Den in der E-Mail angezeigten Namen in den Parameter  _SendEmailFromDisplayName_ eingeben.
+- Geben Sie den E-Mail-Anzeigenamen in den Parameter _SendEmailFromDisplayName_ ein.
 
 - Legen Sie den Parameter _SendEmailOverride_ auf _True_fest.
 
@@ -106,7 +107,7 @@ Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microso
 
 Weitere Informationen finden Sie unter [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einstellungen für Audiokonferenzen ändern](emails-sent-to-users-when-their-settings-change.md).
 
-## <a name="reset-the-meeting-conference-id"></a>Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+## <a name="reset-the-meeting-conference-id"></a>Zurücksetzen der Besprechungs-Konferenz-ID
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
@@ -121,7 +122,7 @@ Weitere Informationen finden Sie unter [E-Mails, die automatisch an Benutzer ges
 
 Siehe [Einrichten einer Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user.md).
 
-## <a name="reset-a-conference-organizers-pin"></a>Zurücksetzen der PIN eines Organisators einer Konferenz
+## <a name="reset-a-conference-organizers-pin"></a>Zurücksetzen der PIN eines Konferenzorganisators
 
 Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen Obwohl eine Konferenz-ID automatisch erstellt und einem Benutzer zugewiesen wird, kann es jedoch geschehen, dass ein Benutzer diese nicht verwenden und sie durch eine bestimmte Zahl ersetzen möchte, oder Ihr Benutzer kann sich seine Konferenz-ID nicht merken oder hat sie verloren. Sie können das Skype for Business Administrationscenter und Windows PowerShell verwenden, um die Konferenz-ID für solche Benutzer anzuzeigen, zu ändern oder zurückzusetzen.
 
@@ -151,13 +152,13 @@ Weitere Informationen finden Sie unter [Zurücksetzen der PIN für Audiokonferen
     > [!NOTE]
     > Damit wird die Audiokonferenz-PIN nicht an den Benutzer gesendet.
 
-Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information.md).
+Siehe [Senden einer E-Mail mit den Informationen zur Audiokonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information.md).
 
-## <a name="setting-the-phone-numbers-included-on-invites"></a>Festlegen der in Einladungen enthaltenen Telefonnummern
+## <a name="setting-the-phone-numbers-included-on-invites"></a>Einstellen der in Einladungen enthaltenen Telefonnummern
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Gehen Sie zum **Office 365 Admin Center** > **Skype for Business**.
 
 3. |||UNTRANSLATED_CONTENT_START|||In the left navigation, go to **Audio conferencing** > **Users**.|||UNTRANSLATED_CONTENT_END||| Wählen Sie den Benutzer, den Sie für Audiokonferenzen aktivieren möchten.
 
@@ -254,7 +255,7 @@ Sie können zu **Audiokonferenzen** > **Benutzer** gehen und die Eigenschaften d
 
 Siehe [Anzeigen einer Liste mit Telefonnummern für Audiokonferenzen](see-a-list-of-audio-conferencing-numbers.md).
 
-## <a name="see-a-list-of-users-that-are-enabled"></a>Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+## <a name="see-a-list-of-users-that-are-enabled"></a>Hier finden Sie eine Liste der Benutzer, die aktiviert sind
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
@@ -268,7 +269,7 @@ Siehe [Anzeigen einer Liste der Benutzer, die für Einwahlkonferenzen aktiviert 
 
 Es gibt mehrere Einstellungen, die auf Organisationsebene mithilfe von Windows PowerShell verwaltet werden können. Dies macht es einfach, Einstellungen für alle Benutzer zu übernehmen.
 
-|||UNTRANSLATED_CONTENT_START|||To get more help on each cmdlet, see [Skype for Business Online cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).|||UNTRANSLATED_CONTENT_END|||
+Weitere Hilfe zu jedem Cmdlet finden Sie unter [Skype for Business Online Cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).
 
 Hier sind die Einstellungen auf Organisationsebene:
 
@@ -329,7 +330,7 @@ Hier sind die Einstellungen auf Organisationsebene:
 
     Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 
 [Verwalten der Audiokonferenzeinstellungen für einen Benutzer](manage-the-audio-conferencing-settings-for-a-user.md)
 
