@@ -8,18 +8,18 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: chenle
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 description: Hier erfahren Sie, wie Sie Berichte, um zu sehen, wie Benutzer in Ihrer Organisation Microsoft-Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9c4c811505d8f5642fe4c0b79b511624a3b07b6
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: beb9e21924ca2811ef9f7e4b302fe66451076917
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860279"
+ms.locfileid: "23883166"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Verwenden Sie Berichte für Microsoft-Teams 
 ========================================

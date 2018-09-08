@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Eintragen von Beteiligten, um das Projektteam für das Upgrade zu verarbeiten.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c4aa72a3d2c15ce71df9a018a6e51e05b9e8f25
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: fe32df433159512d4e24d2bde7c2db76db23c32a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866279"
+ms.locfileid: "23883281"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln")
 

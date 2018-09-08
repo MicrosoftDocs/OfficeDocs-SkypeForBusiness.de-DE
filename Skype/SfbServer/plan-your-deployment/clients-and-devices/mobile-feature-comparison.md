@@ -7,19 +7,19 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Zusammenfassung: Überprüfen Sie die featureunterstützung für den mobilen Client beim Planen von Skype für Business Server.'
-ms.openlocfilehash: bd60468c9b7b741350d9b778d7c3fce8846b1aa3
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: ebd8da383ad7b0fd21f308c72df0f8cee9913440
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391755"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884614"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Mobiler Client Featurevergleich für Skype für Unternehmen
  

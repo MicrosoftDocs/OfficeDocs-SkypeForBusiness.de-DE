@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Messen Sie die Ergebnisse von Ihrer Audiokonferenzen, Telefonsystem mit Aufrufen plant oder Telefon System direkten Routing-Bereitstellung, und stellen Sie sicher, dass Sie die Ergebnisse erzielt haben, werden sollte.
 MS.collection: Strat_MT_TeamsAdmin
-localization_priority: Priority
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 334e27626a5b842bce290696052352b055767053
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a285d1e1fdbf11c2450a47725330f95e9d56ab50
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866595"
+ms.locfileid: "23884425"
 ---
 # <a name="define-my-success"></a>Meine Erfolg definieren
 

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 description: Administratoren können die Teams MSI-Datei zu Massen Bereitstellen von Microsoft-Teams, um Benutzer oder Computer auszuwählen.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7176b990c41f2792f0955ac3ca2e937632a707d7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 78ceb6fa0cd70b5cf6fc25bc9537939beea99b7c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854141"
+ms.locfileid: "23882038"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installieren Sie die MSI-Datei von Microsoft-Teams
 =================================

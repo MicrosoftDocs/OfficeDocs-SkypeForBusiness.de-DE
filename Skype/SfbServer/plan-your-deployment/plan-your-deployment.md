@@ -7,19 +7,19 @@ ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 'Zusammenfassung: Lernen Sie diese Links zu Informationen zum Entwickeln von konzeptionelle, logische und physische Entwürfe zum Konfigurieren von Skype für Business Server 2015 Features, Servern und Topologien.'
-ms.openlocfilehash: ef4992a4beb7fe8621b5730d7b1a976c8f3cb80c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 937d449c1a6c32296f4725709b4cf6cf9e066eda
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991366"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881987"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Bereitstellungsplan für Skype for Business Server 2015
  

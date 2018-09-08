@@ -15,24 +15,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie die Schritte zum eines Benutzers Zurücksetzen des meeting-Konferenz-ID in der Microsoft-Teams sowie Get links auf meeting Update und Migration Tools. '
-ms.openlocfilehash: d60c1a76b4e800ef07e206df31206e6d0e0bda1a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4e338e5ad00792a48e0a6c9e0791c0c5e4b759ac
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868157"
+ms.locfileid: "23887852"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Zurücksetzen einer Konferenz-ID für einen Benutzer in Microsoft-Teams
 
 Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen zusammen mit der Zugriffsnummer für Einwahl Telefonnummern, die von Anrufern zu einer Besprechung Anrufen verwendet werden können. Wenn der Benutzer die Telefonnummer wählt, wird die automatische Telefonzentrale für die Besprechung bitten Sie den Anrufer an diese Konferenz-ID eingeben, damit sie an der Besprechung teilnehmen können.
   
 > [!NOTE]
-> Ist Ihr Konferenzanbieter Microsoft, werden Ihrer Benutzer Konferenz-IDs auf dynamische nur in der Standardeinstellung festgelegt. Leider besteht keine Möglichkeit, ändern es statisch sein, wie dies nun ist nicht unterstützt. Konferenz-IDs werden für Benutzer mit Microsoft-Teams für Audiokonferenzen nur automatisch festgelegt. 
+> Wenn Ihr Konferenzanbieter Microsoft ist, sind die Konferenz-IDs Ihrer Benutzer standardmäßig auf "Nur dynamisch" eingestellt. Leider besteht keine Möglichkeit, ändern es statisch sein, wie dies nun ist nicht unterstützt. Konferenz-IDs werden für Benutzer mit Microsoft-Teams für Audiokonferenzen nur automatisch festgelegt. 
 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
@@ -54,7 +54,7 @@ Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen 
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
-- Sie können alle Konferenzinformationen in einer e-Mail an den Benutzer senden, die die Konferenz-ID und die Zugriffsnummer für Einwahl Telefonnummern durch Klicken auf **Konferenz Informationen in e-Mail-Nachricht senden** , für den Benutzer im Abschnitt **Audiokonferenzen** enthält. Die PIN senden nicht.
+- Sie können alle Konferenzinformationen in einer e-Mail an den Benutzer senden, die die Konferenz-ID und die Zugriffsnummer für Einwahl Telefonnummern durch Klicken auf **Konferenz Informationen in e-Mail-Nachricht senden** , für den Benutzer im Abschnitt **Audiokonferenzen** enthält. Die PIN wird nicht gesendet.
     
 - Enthält eine Konferenz-ID 7 Ziffern, und deren Länge kann nicht geändert werden.
     

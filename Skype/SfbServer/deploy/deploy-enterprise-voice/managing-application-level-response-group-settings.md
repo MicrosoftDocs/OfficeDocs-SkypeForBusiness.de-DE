@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Verwalten von auf Anwendungsebene reaktionsgruppeneinstellungen, wie Musik halten und Rückruf Einstellungen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 1aa3234860193cac40e6ca8a39323013847606fb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4a44ee8988925025b81eac6bd1ee340a3bbef81b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012302"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23890943"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Verwalten von reaktionsgruppeneinstellungen auf Anwendungsebene in Skype für Unternehmen
  

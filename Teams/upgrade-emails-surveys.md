@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Beispiel-e-Mails und Umfragen in Conjunciton mit der beschleunigten zehn-Schritt-Aktion verwenden, Planen für das Upgrade von Skype für Unternehmen, die Teams
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89a4f9f1d43c3bb10038460104fa6198c2939b87
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5d51bd897920b0cf75df45c601741e2499cb382b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850883"
+ms.locfileid: "23885153"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Beispiel-e-Mails und Umfragen für grundlegende Upgrade-Kommunikation
 

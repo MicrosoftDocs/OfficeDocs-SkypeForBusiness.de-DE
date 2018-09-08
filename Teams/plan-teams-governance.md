@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Erhalten Sie Informationen zur Planung der Implementierung von Governance-Funktionen in Teams.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddb93c883786413f18f20c98452d8e04a6534ea7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 048b9dd09e9309c4aaaf1af3b92d7e24f280d088
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870101"
+ms.locfileid: "23883252"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Steuerung in Teams
 

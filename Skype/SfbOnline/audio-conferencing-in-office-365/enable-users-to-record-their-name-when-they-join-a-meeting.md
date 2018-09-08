@@ -1,5 +1,5 @@
 ---
-title: Ermöglicht es Benutzern, ihren Namen aufzuzeichnen, wenn sie an einem Meeting in Skype for Business Online teilnehmen
+title: Aktivieren von Benutzern, ihren Namen aufzuzeichnen, beim Beitritt zu einer Besprechung in Skype für Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,19 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Erfahren Sie, wie Sie aktivieren oder deaktivieren können, ob Ihre Benutzer ihre Namen aufzeichnen können, wenn sie an einem Meeting in Skype for Business Online teilnehmen.
-ms.openlocfilehash: 6022d7ebf0e653bc43373cb00faabc207f91562a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: Informationen Sie zum Aktivieren oder deaktivieren, ob die Benutzer beim Beitritt zu einer Besprechung in Skype für Business Online ihre Namen festhalten können.
+ms.openlocfilehash: 0e330d5efdd7325a8db48aa679d6ecbb9264c345
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850041"
+ms.locfileid: "23884721"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Ermöglicht es Benutzern, ihren Namen aufzuzeichnen, wenn sie an einem Meeting in Skype for Business Online teilnehmen
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Aktivieren von Benutzern, ihren Namen aufzuzeichnen, beim Beitritt zu einer Besprechung in Skype für Business Online
 
 > [!Note]
 > Wenn Sie Benutzern erlauben möchten, ihre Namen in Teams aufzuzeichnen, lesen Sie [Ermöglichen Sie Benutzern, ihren Namen aufzuzeichnen, wenn sie an einem Meeting in Microsoft Teams teilnehmen](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
@@ -38,7 +38,7 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
 
 ## <a name="set-whether-callers-should-record-their-name"></a>Festlegen, ob Anrufer ihren Namen aufzeichnen sollen
     
-1. Gehen Sie zum **Skype for Business Admin Center**, in der linken Navigation, zu **Audiokonferenzen** > **Microsoft Bridge-Einstellungen**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
 2. Unter ** Besprechung beitreten**  sehen Sie das Kontrollkästchen ** Besprechungseintrag aktivieren und Benachrichtigungen beenden wird aktiviert** .
     

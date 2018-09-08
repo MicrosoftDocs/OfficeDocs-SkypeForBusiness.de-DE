@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,23 +16,23 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefonsystem-Benutzer eingestellt werden. Dazu verwenden Sie die Richtlinie „CallingLineIdentity".
-ms.openlocfilehash: 04ee6f0bc074318f30d0257e7466d2d2ec7262aa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+description: Anrufer-ID kann mithilfe einer Richtlinie aufgerufen CallingLineIdentity für eingehende und ausgehende Anrufe für Benutzer Telefonsystem gesteuert werden.
+ms.openlocfilehash: c2a508e89f9fbf279e048fcdccca1ac1b0534305
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23778995"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883564"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
-Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefonsystem-Benutzer eingestellt werden. Dazu verwenden Sie die Richtlinie „CallingLineIdentity".
+Anrufer-ID kann mithilfe einer Richtlinie aufgerufen CallingLineIdentity für eingehende und ausgehende Anrufe für Benutzer Telefonsystem gesteuert werden.
   
-Die Funktionalität der Rufnummernanzeige ist für alle Telefonsystem-Benutzer verfügbar, unabhängig der PSTN-Konnektivität:
+Die Anrufer-ID-Funktionalität ist für alle Telefonsystem Benutzer unabhängig von PSTN-Anbindung verfügbar:
   
 - Online-PSTN-Anbindung
     
@@ -46,7 +47,7 @@ Die Funktionalität der Rufnummernanzeige ist für alle Telefonsystem-Benutzer v
 
 Für die ausgehende PSTN-Anrufer-ID sind drei Optionen verfügbar:
   
-- Die dem Benutzer zugewiesene Telefonnummer (Standardoption).
+- Die Telefonnummer für den Benutzer, die Standardeinstellung zugewiesen.
     
 - Eine Telefonnummer, die als *Servicerufnummer* und *gebührenfreie* Nummer in Ihrem Nummernverzeichnis für Office 365-Anrufpläne klassifiziert ist. Sie wird normalerweise einer automatischen Telefonzentrale oder einer Anruf-Warteschleife Ihrer Organisation zugewiesen.
     
@@ -54,7 +55,7 @@ Für die ausgehende PSTN-Anrufer-ID sind drei Optionen verfügbar:
     
 Die folgenden Arten von Telefonnummern können Sie jedoch nicht als ausgehende Anrufer-ID nicht zuweisen:
   
-- Alle Telefonnummern, die in Ihrem Anrufplan-Telefonnummernbestand als  *Benutzer* klassifiziert sind
+- Alle Rufnummern, die als *Benutzer* in Ihrem Telefon aufrufen plant klassifiziert werden Zahl Inventar
     
 - Lokale Skype for Business Server-Telefonnummern
     
@@ -64,7 +65,7 @@ Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festleg
 
 Mit dem Attribut EnableUserOverride können einzelne oder mehrere Benutzer ihre Anrufer-ID-Einstellung auf **Anonym** festlegen. Dies gilt nur, wenn eine CallingLineIdentity -Richtlinie mit dem CallingIDSubstitute -Parameter LineURI oder Substitute konfiguriert ist. Der Standardwert von EnableUserOverride lautet False.
   
-Ihre Endbenutzer können ihre Rufnummernanzeige im Skype for Business-Desktop-Client über die Registerkarte **Einstellungen für die Anrufweiterleitung** auf **Anonym** festlegen.
+Endbenutzer können ihre Anrufer-ID mithilfe der Registerkarte **Weiterleiten Einstellungen für die** in der Skype für Business-Desktopclient auf **Anonym** festgelegt.
   
 ||||
 |:-----|:-----|:-----|
@@ -77,7 +78,7 @@ Ihre Endbenutzer können ihre Rufnummernanzeige im Skype for Business-Desktop-Cl
    
 ## <a name="inbound-caller-id"></a>Eingehende Anrufer-ID
 
-Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Sie können dieses Attribut festlegen, für die Endbenutzer ist es jedoch auf der Seite mit den Benutzereinstellungen nicht verfügbar. Außerdem ist das Attribut zurzeit nur für Online-PSTN-Anbindung verfügbar.
+Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Können Sie dieses Attribut festgelegt, aber es ist nicht verfügbar für die Endbenutzer auf der Seite benutzereinstellungen. Außerdem ist das Attribut zurzeit nur für Online-PSTN-Anbindung verfügbar.
   
 Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](set-the-caller-id-for-a-user.md).
   

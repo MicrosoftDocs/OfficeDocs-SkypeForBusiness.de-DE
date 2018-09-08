@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 441fb797fa3e1325fe5c63a2b1d6a86d876ebb5b
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490625"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881995"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Anzeigen einer Liste der Benutzer, die für Audiokonferenzen in Skype für Business Online aktiviert sind
 
@@ -39,7 +40,7 @@ Nachdem Sie Skype für Unternehmensbenutzer in Ihrer Organisation für Audiokonf
 ## <a name="viewing-a-list-of-users"></a>Anzeige einer Benutzerliste
 
    
-- Wechseln Sie im linken Navigationsbereich zur **Audiokonferenz** > **Benutzer**.
+- |||UNTRANSLATED_CONTENT_START|||In the left navigation, go to **Audio conferencing** > **Users**.|||UNTRANSLATED_CONTENT_END|||
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 

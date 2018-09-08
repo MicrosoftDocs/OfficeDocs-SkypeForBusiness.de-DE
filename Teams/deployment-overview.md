@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie eine Bereitstellung von Microsoft Teams durchführen.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53c036b2fbe091688836ab54ebe27c1c66faf52d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 04ecd9ca7a610e2201fafcb5defaacb9934b3131
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867773"
+ms.locfileid: "23881956"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Übersicht über eine Microsoft Teams-Bereitstellung
 ========================================

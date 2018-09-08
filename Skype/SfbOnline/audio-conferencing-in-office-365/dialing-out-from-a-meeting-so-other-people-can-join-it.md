@@ -1,5 +1,5 @@
 ---
-title: Anruf aus einer Skype for Business-Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können
+title: Telefonverbindung aus einer Skype für Business Besprechung, damit andere Personen sie beitreten können
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,26 +15,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: 630802b034200b3ab029446f6300b1d8ddcccbb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 2fe59b977384e9c76dfde4a9fd609510dc69a5d4
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851449"
+ms.locfileid: "23887314"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Anruf aus einer Skype for Business-Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Telefonverbindung aus einer Skype für Business Besprechung, damit andere Personen sie beitreten können
 
 > [!NOTE]
 > Informationen zum Wählen von Telefonnummern während einer Team-Besprechung finden Sie unter [Anruf aus einer Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-Als Besprechungsorganisator können Sie mit einer Skype for Business-App einen Anruf aus einer Besprechung heraus tätigen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
+Als Organisator der Besprechung können Sie sich einwählen, bei Verwendung der Skype für Geschäfts-app an andere Personen Verknüpfung der gleichen Besprechung über das Telefon lassen. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
   
-- Sie können nur dann einen Anruf aus einer Besprechung heraus tätigen, wenn Sie über eine Skype for Business-App an einer Besprechung teilnehmen.
+- Sie können Dial-Out-nur, wenn Sie an einer Besprechung mithilfe einer Skype für Geschäfts-app teilnehmen.
     
 - Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
 
@@ -51,13 +51,13 @@ Als Besprechungsorganisator können Sie mit einer Skype for Business-App einen A
   
 ## <a name="supported-countries-and-regions"></a>Unterstützte Länder und Regionen
 
-Externe Nummern sind nur für einige Länder/Regionen verfügbar. Eine vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Dial-out is only available to some countries/regions. Vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie mehr über Audiokonferenzen erfahren?
 
 [Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Add-On-Lizenzierung für Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Skype für Business Add-on Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>Verwandte Themen
 

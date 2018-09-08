@@ -6,18 +6,18 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Zusammenfassung: Erfahren Sie, wie ein Edge-Server oder einem edgepool in Ihrer Skype für Business Server-Umgebung bereitstellen.'
-ms.openlocfilehash: cf379e9586b093c6aa5b09121edbc90990417de6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8ac91d87e8ce7e7fb4b2f8ba0cb80331a3ad9cca
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015162"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883887"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Skype-Edgeservers für Business Server bereitstellen
  

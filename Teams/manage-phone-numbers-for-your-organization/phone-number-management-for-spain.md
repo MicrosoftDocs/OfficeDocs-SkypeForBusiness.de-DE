@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Spanien für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: b9e7c962739494ab002854758a2ec816e666c04a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 5bbd2a1e1bf1ff9c34c5b0358512efc5374b3f22
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854851"
+ms.locfileid: "23882976"
 ---
 # <a name="phone-number-management-for-spain"></a>Telefonnummernverwaltung für Spanien
 

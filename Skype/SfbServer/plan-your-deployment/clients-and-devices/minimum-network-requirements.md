@@ -7,19 +7,19 @@ ms.date: 6/4/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Zusammenfassung: Informationen für Organisationen, die nicht verwenden von Office 365 und Besprechungen von Organisationen, die gehosteten zugreifen müssen.'
-ms.openlocfilehash: 34c3169fd36422011f9d1e9b262e774d0fb4c06b
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 53e4bd52242faa62a14b39474f1859064afcdb43
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601920"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882656"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Mindestnetzwerkanforderungen für die Skype-Besprechungs-App
  

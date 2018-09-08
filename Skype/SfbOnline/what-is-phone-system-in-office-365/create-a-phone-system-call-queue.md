@@ -16,21 +16,21 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, wie Sie Telefonsysteme für Office 365 (Cloud PBX) Anrufwarteschleifen mit einer Begrüßung der Organisation und der Weiterleitung von Anrufen an Telefonisten in Verteilersystem und Sicherheitsgruppen einrichten. Optionen für maximale Warteschleifenengröße, Zeitüberschreitung und Anrufbearbeitung können ebenfalls festgelegt werden. '
-ms.openlocfilehash: bb9812eb880ce7451c2fd30f93fa080d6ec84c87
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: b8fa32a223ed870c73228debd408fa923355ab3d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854447"
+ms.locfileid: "23890553"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Erstellen einer Telefonsystem-Anrufwarteschleife
 
-Anrufwarteschleifen für Telefonsysteme beinhalten die für einen Anruf einer Telefonnummer Ihrer Organisation verwendeten Begrüßungen, die Möglichkeit, den Anruf automatisch zu halten und nach dem nächsten verfügbaren Telefonisten zu suchen, der den Anruf entgegennehmen kann. Die Anrufer hören während dieser Zeit Musik. Sie können eine einzige Anrufwarteschleife oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen.
+System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
   
 Telefonsystem-Anrufwarteschleifen bieten:
   
@@ -38,15 +38,15 @@ Telefonsystem-Anrufwarteschleifen bieten:
     
 - Musik, während die wartenden Anrufer gehalten werden
     
-- Umleitung von Anrufen an Telefonisten in E-Mail-aktivierten Verteilerlisten und Sicherheitsgruppen.
+- Umleiten von Anrufen Agents in e-Mail-aktivierte Verteilerlisten und Sicherheitsgruppen aufrufen.
     
-- Erstellen von Einstellungen für die max. Größe von Anrufwarteschleifen, Zeitüberschreitungen und Optionen für die Anrufbehandlung.
+- Einstellungen für Anruf Warteschlange maximale Größe, Timeout und Optionen für die Behandlung Anruf tätigen.
     
-Wenn jemand eine Telefonnummer anruft, die mit einer Warteschleife eingerichtetet wurde, hört er zunächst eine Begrüßung (sofern eine eingerichtet ist) und wird anschließend in die Warteschlange aufgenommen, bis der nächste verfügbare Telefonist bereit ist. Der Anrufer hört Musik, während er sich in der Warteschleife befindet und die Anrufe werden den Telefonisten nach dem *First In, First Out* (FIFO)-Prinzip angeboten.
+Wenn angerufen werden an eine Telefonnummer, die festgelegt wird von oben mit einer Warteschlange Anruf sie hören eine Begrüßung erste (sofern eine eingerichtet ist), und anschließend wird in die Warteschlange aufgenommen werden und für den nächsten verfügbaren Anruf Agent warten. Die Person Aufrufen in werden Musik hören, während sie sind in der Warteschleife warten, und die Anrufe, um den Anruf-Agenten auf die Weise *First In, First Out* (FIFO angeboten werden).
   
-Alle in der Warteschleife wartenden Anrufe werden in einem Weiterleitungsmodus an die Telefonzentralen verteilt:
+Alle Anrufe, die in der Warteschlange werden mit einer attendant routing oder serielles routing Modus verteilt werden:
   
-- Mit einem Teilnehmer-Routing geht der erste Anruf in der Warteschleife bei allen Telefonisten gleichzeitig ein.
+- Mit attendant routing wird der erste Aufruf in der Warteschlange alle Agents gleichzeitig anrufen.
     
 - Mit seriellem Routing (serial routing) wird der erste Aufruf in der Warteschleife alle Telefonisten nacheinander anrufen.
     
@@ -61,22 +61,22 @@ Alle in der Warteschleife wartenden Anrufe werden in einem Weiterleitungsmodus a
 
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwarteschleifen wichtig:
   
-- Ihre Organisation benötigt (mindestens) eine Enterprise E3 plus **Telefonsystem**-Lizenz oder eine E5 Enterprise-Lizenz. Die Anzahl der zugewiesenen **Telefonsystem**-Benutzerlizenzen beeinflusst die Anzahl der Servicenummern, die zur Verwendung für Anrufwarteschleifen verfügbar sind. Die Anzahl der Anrufwarteschleifen, die Ihnen zur Verfügung gestellt werden, ist abhängig von der Anzahl der **Telefonsystem**- und **Audiokonferenz**-Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zu Lizenzierung finden Sie [hier](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die zugewiesen sind, wirkt sich auf die Anzahl der Dienst Zahlen, die für Anruf Warteschlangen zu verwendende verfügbar sind. Die Anzahl der Anruf Warteschlangen haben Sie können ist abhängig von der Anzahl der **Telefonsystem** und **Audiokonferenzen** Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zu Lizenzierung finden Sie [hier](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!NOTE]
-    > Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, benötigen diese eine **Telefonsystem**-Lizenz und müssen entweder für Enterprise Voice aktiviert sein oder einen Office 365 Anrufplan besitzen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, sie benötigen eine Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder Office 365 aufrufen Plans. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Weitere Informationen zu Office 365 Anrufplänen finden Sie unter [Was sind Anrufpläne in Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) und [Anrufpläne für Office 365](/microsoftteams/calling-plans-for-office-365).
     
     > [!NOTE]
-    > Benutzer, die mit Lync Server 2010 lokal gehostet werden, werden nicht als Telefonisten für Anrufwarteschleifen unterstützt. 
+    > Benutzer: lokal gehostet werden nicht mithilfe von Lync Server 2010 als ein Anruf Warteschlange Agents unterstützt. 
   
 - Nur gebührenpflichtige oder gebührenfreie Servicenummern, die Ihnen im**Skype for Business Administrationscenter** zur Verfügung stehen oder die ein anderer Anbieter an Sie übertragen hat, können an Telefonsystem-Anrufwarteschleifen zugewiesen werden. Um gebührenfreie Servicenummern zu erhalten müssen Sie Communication Credits einrichten.
     
     > [!NOTE]
     > Telefonnummern von Benutzern (Abonnenten) können Anrufwarteschleifen nicht zugewiesen werden - es können nur gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden. 
   
-- Wenn Sie eingehende Anrufe von einer Telefonsystem-Anrufwarteschleife verteilen, werden diese Clients für Telefonisten unterstützt:
+- Wenn Sie eingehende Anrufe von einer Telefonsystem Anruf Warteschlange verteilen, werden diese Clients für Call-Agenten unterstützt:
     
   - Desktopclient von Skype for Business 2016 (32- und 64-Bit-Version)
     
@@ -96,29 +96,29 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
 
   - Microsoft Teams Mac-Client
 
-  - Microsoft Teams, iPhone-App
+  - Microsoft-Teams, iPhone-app
 
-  - Microsoft Teams, Android-App
+  - Microsoft-Teams, Android-app
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Schritt 2 - Beziehen oder Übertragen von gebührenpflichtigen oder gebührenfreien Servicenummern
 
-Bevor Sie Ihre Anrufwarteschleifen erstellen und einrichten können, müssen Sie Ihre bestehenden kostenpflichtigen oder gebührenfreien Servicenummern einrichten oder übertragen. Nachdem Sie die gebührenfreien Service-Telefonnummern erhalten haben, werden diese in **Skype for Business Admin Center** > **Voice** > **Telefonnummern** angezeigt, und der **Nummerntyp** wird als **Service - gebührenfrei** aufgelistet. Um Ihre Servicerufnummern zu erhalten, siehe [Servicerufnummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md) oder falls Sie eine bestehende Servicerufnummer übertragen möchten, siehe [Rufnummern zu Office 365 übertragen](/microsoftteams/transfer-phone-numbers-to-office-365).
+Bevor Sie Ihre Anrufwarteschleifen erstellen und einrichten können, müssen Sie Ihre bestehenden kostenpflichtigen oder gebührenfreien Servicenummern einrichten oder übertragen. Nachdem Sie die gebührenfreien Service-Telefonnummern erhalten haben, werden diese in **Skype for Business Admin Center** > **Voice** > **Telefonnummern** angezeigt, und der **Nummerntyp** wird als **Service - gebührenfrei** aufgelistet. Wenn die Rufnummern Service erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen und die Microsoft-Teams,](getting-service-phone-numbers.md) oder für Übertragung und vorhandenen Service-Nummer, finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
   
 > [!NOTE]
-> Wenn Sie sich außerhalb der USA befinden, können Sie Servicenummern nicht über das Skype for Business Admin Center beziehen. Lesen Sie stattdessen unter [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization) nach, wie Sie außerhalb der USA vorgehen müssen.
+> Wenn Sie sich außerhalb der USA sind, können der Skype für Business Administrationscenter Sie um Service Zahlen zu erhalten. Wechseln Sie zum [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization) stattdessen, wie Sie von außerhalb der USA finden Sie unter.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Schritt 3 - Erstellen einer neuen Anrufwarteschleife
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > **Anrufwarteschleifen** und dann auf **Neu hinzufügen**:
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>Festlegen des Anzeigenamens, der Telefonnummer und gegebenenfalls der Domäne für die Anrufwarteschleife
 
-![Einrichten einer Anrufwarteschleife.](../images/37ecc300-a108-4294-8463-fce570dfce72.png)
+![Setting up a call queue.](../images/37ecc300-a108-4294-8463-fce570dfce72.png)
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>
-**Name**: Geben Sie einen aussagekräftigen Anzeigenamen für die Anrufwarteschleife ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten. <br/> Dieser Name wird in der Benachrichtigung über den eingehenden Anruf angezeigt.
+**Name**: Geben Sie einen aussagekräftigen Anzeigenamen für die Anrufwarteschleife ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten.<br/> Dieser Name wird in der Benachrichtigung über den eingehenden Anruf angezeigt.
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>**Telefonnummer** Wählen Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für die Anrufwarteschleife aus. Optional. <br/> Wenn keine Servicenummern aufgelistet sind, müssen Sie sich diese besorgen, damit Sie diese Anrufwarteschleife erstellen können. Um Ihre Servicenummern zu erhalten sehen Sie [Einrichten von Servicenummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md)
 ***
@@ -126,12 +126,12 @@ Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > 
    
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>Festlegen der Begrüßung und der Wartemusik, die wiedergegeben werden soll
 
-![Einrichten einer Anrufwarteschleife.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
+![Setting up a call queue.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>**Begrüßung** ist optional. Dabei handelt es sich um die Musik, die für Anrufer wiedergegeben wird, die sich in der Anrufwarteschleife befinden. <br/> Sie können eine Audiodatei (im .wav-, mp3- oder .wma-Format) hochladen.
+![Nummer 1](../images/sfbcallout1.png)<br/>**Begrüßung** ist optional. Dies ist die Ansage, die für Personen, die in Aufrufen an die Warteschlange Anrufnummer wiedergegeben wird. <br/> Sie können eine Audiodatei (WAV-, MP3 oder WMA-Format) hochladen.
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>**Wartemusik**: Sie können die Standardwartemusik verwenden, die für die Anrufwarteschleife bereitgestellt wird, oder Sie können eine Audiodatei im .wav-, .mp3- oder .wma-Format hochladen und diese als benutzerdefinierte Wartemusik verwenden. 
+![Nummer 2](../images/sfbcallout2.png)<br/>**Musik in der Warteschleife** Sie können entweder übernehmen Sie die Musik in der Warteschleife, die mit der Warteschlange Anruf bereitgestellt, oder Sie können Hochladen einer Audiodatei in WAV, mp3 oder WMA-Formate, die als Ihre benutzerdefinierte Musik in der Warteschleife verwendet. 
    
 
 ### <a name="select-the-call-distribution-method"></a>Wählen Sie die Anruf-Verteilungsmethode
@@ -159,47 +159,47 @@ Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > 
    
 ### <a name="add-call-agents-to-a-call-queue"></a>Hinzufügen von Telefonisten zu einer Anrufwarteschleife
 
-![Anrufwarteschleifen einrichten.](../images/skype-for-business-add-agents-to-call-queue.png)
+![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/><br/>Telefonisten (maximal 50) können sein:
-*    Ein Online-Benutzer mit einer **Telefonsystem**-Lizenz und Enterprise Voice oder einem Anrufplan. <br/><br/> **Hinweis:** Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, benötigen diese eine **Telefonsystem**-Lizenz und müssen entweder für Enterprise Voice aktiviert sein oder einen Anrufplan besitzen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    Online-Benutzer mit einer **Telefonsystem**-Lizenz und einem Anrufplan, die einer Office 365-Gruppe, einer e-Mail-Verteilerliste oder einer Sicherheitsgruppe hinzugefügt worden sind. Es kann bis zu 30 Minuten dauern, bis ein neuer Telefonist zu einer Verteilerliste oder Sicherheitsgruppe hinzugefügt wird und Anrufe aus einer Anrufwarteschleife empfangen kann. Es kann bis zu 48 Stunden dauern, bis eine neu erstellte Verteilerliste oder Sicherheitsgruppe zur Verwendung mit Anrufwarteschleifen zur Verfügung steht. Neu erstellte Office 365-Gruppen sind fast sofort verfügbar. <br/> 
+*    Ein Online-Benutzer mit einer **Telefonsystem**-Lizenz und Enterprise Voice oder einem Anrufplan. <br/><br/> **Hinweis:**  Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, sie benötigen eine Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder aufrufen planen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
+*    Online-Benutzer mit einer **Telefonsystem**-Lizenz und einem Anrufplan, die einer Office 365-Gruppe, einer e-Mail-Verteilerliste oder einer Sicherheitsgruppe hinzugefügt worden sind. Es kann bis zu 30 Minuten dauern, bis ein neuer Telefonist zu einer Verteilerliste oder Sicherheitsgruppe hinzugefügt wird und Anrufe aus einer Anrufwarteschleife empfangen kann. Eine neu erstellte Liste oder eine Sicherheitsgruppe Verteilergruppe kann die Verwendung mit dem Anruf Warteschlangen verfügbar bis zu 48 Stunden dauern. Neu erstellte Office 365-Gruppen sind fast sofort verfügbar. <br/> 
 
     > [!NOTE] 
-    > Benutzer, die mit Lync Server 2010 lokal gehostet werden, werden nicht unterstützt.           
+    > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.           
    
 ### <a name="set-the-maximum-queue-size-and-maximum-wait-time"></a>Festlegen der maximalen Warteschleifengröße und der maximalen Wartezeit
 
-![Eine Anrufwarteschleife einrichten.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
+![Set up a call queue.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/><br/>**Maximale Anrufe in der Warteschlange**: Legen Sie mit dieser Option fest, wie lange Anrufe maximal in der Warteschleife warten können, bis es zu einem Timeout kommt. Der Standardwert ist 50, aber kann im Bereich von 0 bis 200 liegen. Wenn dieser Grenzwert erreicht ist, wird der Anruf so behandelt, wie Sie es unter **Wenn die maximale Anzahl von Anrufen erreicht ist** eingestellt haben.
+![Nummer 1](../images/sfbcallout1.png)<br/><br/>**Maximale Anrufe in der Warteschlange**: Legen Sie mit dieser Option fest, wie lange Anrufe maximal in der Warteschleife warten können, bis es zu einem Timeout kommt. Der Standardwert ist 50, aber es kann im Bereich von 0 bis 200. wenn dieser Grenzwert erreicht ist, der Anruf verarbeitet werden in die Möglichkeit, die Sie auf die Einstellung **gewählt wird die maximale Anzahl von Anrufen erreicht** haben.
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/><br/>**Wenn die maximale Anzahl von Anrufen erreicht ist**: Wenn die maximale Größe der Warteschleife erreicht ist (die Sie mit der Einstellung **Maximale Anrufe in der Warteschlange** festgelegt haben), können Sie auswählen, was mit neuen eingehenden Anrufen geschehen soll.
+![Nummer 2](../images/sfbcallout2.png)<br/><br/>**Wenn die maximale Anzahl von Anrufen erreicht wird** Wenn die Anruf Warteschlange die maximale Größe (unter Verwendung der Einstellung **Maximum von Anrufen in der Warteschlange** festgelegt) erreicht, können Sie auswählen, was passiert, um neue eingehende Anrufe.
 *    **Mit Besetztzeichen trennen**: Der Anruf wird getrennt.
-*    **Weiterleiten an**: Wenn Sie diese Einstellung auswählen, haben Sie die folgenden Optionen:
-     *    **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer**Telefonsystem**-Lizenz, für den Enterprise Voice aktiviert ist oder der einen Anrufplan hat. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann direkt an die Voicemail weitergeleitet werden. <br/> <br/>Informationen zur erforderlichen Lizenzierung für Voicemail finden Sie unter [Einrichten von Telefonsystem-Voicemail](/microsoftteams/set-up-phone-system-voicemail). 
+*    **In diesem Anruf weiterleiten an** Wenn Sie diese Option wählen, müssen Sie diese Optionen:
+     *    **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder aufrufen planen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. <br/> <br/>Informationen zur erforderlichen Lizenzierung für Voicemail finden Sie unter [Einrichten von Telefonsystem-Voicemail](/microsoftteams/set-up-phone-system-voicemail). 
      
         > [!Note]
-        > Benutzer, die mit Lync Server 2010 lokal gehostet werden, werden nicht unterstützt.<br/>
+        > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.<br/>
      
-     *    **Anrufwarteschleife**: Sie müssen zuvor eine weitere Anrufwarteschleife eingerichtet haben, die Sie dann hier auswählen können.
-     *    **Automatische Telefonzentrale**: Sie müssen zurvor eine automatische Telefonzentrale eingerichtet haben, die Sie dann hier auswählen können. Siehe [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](set-up-a-phone-system-auto-attendant.md).
+     *    **Aufrufen der Warteschlange** Müssen Sie bereits erstellt haben andere Warteschleife der Anruf, aber nach dem Sie dies tun, können Sie diese Warteschlange Anruf auswählen.
+     *    **Automatische Telefonzentrale** Sie müssen bereits erstellt haben eine automatische Telefonzentrale, aber nach dem Sie dies tun, können Sie diese automatische Telefonzentrale auswählen. Finden Sie unter [Einrichten von einer Telefonzentrale Telefonsystem](set-up-a-phone-system-auto-attendant.md).
 ***
 ![Nummer 3](../images/sfbcallout3.png)<br/><br/>**Wie lange ein Anruf in der Warteschlange warten kann**: Sie können auch entscheiden, wie lange ein Anruf in der Warteschleife gehalten werden kann, bis es zu einem Timeout kommt und der Anruf umgeleitet werden muss. Wohin der Anruf umgeleitet wird, hängt von Ihrer Einstellung für **Wenn das Zeitlimit eines Anrufs überschritten ist** ab. Sie können eine Dauer von 0 bis 45 Minuten festlegen. <br/><br/> Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werden. Dadurch können Sie den Anruffluss mit feinerer Granularität bearbeiten. Beispielsweise könnten Sie angeben, dass alle Anrufe, die nicht innerhalb von 30 Sekunden von einem Telefonisten beantwortet werden, zu einer Directory Search-Telefonzentrale wechseln. 
 
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/><br/>**Wenn das Zeitlimit eines Anrufs überschritten ist**: Wenn der Anruf das Limit erreicht, das Sie für die Einstellung **Wie lange ein Anruf in der Warteschlange warten kann** festgelegt haben, können Sie auswählen, was mit den in der Anrufwarteschleife wartenden Anrufen geschieht:
 *    **Trennen**: Der Anruf wird getrennt.
-*    **Weiterleiten an**: Wenn Sie diese Einstellung auswählen, haben Sie die folgenden Optionen:
-     *    **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer**Telefonsystem**-Lizenz, für den Enterprise Voice aktiviert ist oder der einen Anrufplan hat. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann direkt an die Voicemail weitergeleitet werden. </br><br/>  Informationen zur erforderlichen Lizenzierung für Voicemail finden Sie unter [Einrichten von Telefonsystem-Voicemail](/microsoftteams/set-up-phone-system-voicemail). 
+*    **In diesem Anruf weiterleiten an** Wenn Sie diese Option wählen, müssen Sie diese Optionen:
+     *    **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder plant aufrufen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. </br><br/>  Informationen zur erforderlichen Lizenzierung für Voicemail finden Sie unter [Einrichten von Telefonsystem-Voicemail](/microsoftteams/set-up-phone-system-voicemail). 
 
         > [!Note]
-        > Benutzer, die mit Lync Server 2010 lokal gehostet werden, werden nicht unterstützt.<br/>
+        > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.<br/>
 
-     *    **Anrufwarteschleife**: Sie müssen zuvor eine weitere Anrufwarteschleife eingerichtet haben, die Sie dann hier auswählen können.
-     *    **Automatische Telefonzentrale**: Sie müssen zurvor eine automatische Telefonzentrale eingerichtet haben, die Sie dann hier auswählen können. Siehe [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](set-up-a-phone-system-auto-attendant.md).
+     *    **Aufrufen der Warteschlange** Müssen Sie bereits erstellt haben andere Warteschleife der Anruf, aber nach dem Sie dies tun, können Sie diese Warteschlange Anruf auswählen.
+     *    **Automatische Telefonzentrale** Sie müssen bereits erstellt haben eine automatische Telefonzentrale, aber nach dem Sie dies tun, können Sie diese automatische Telefonzentrale auswählen. Finden Sie unter [Einrichten von einer Telefonzentrale Telefonsystem](set-up-a-phone-system-auto-attendant.md).
    
 ## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Ändern der Anrufer-ID des Benutzers zu einer Rufnummer der Anrufwarteschleife
 
@@ -219,7 +219,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 Weitere Informationen zum Ändern der Anrufer-ID-Einstellungen in Ihrer Organisation finden Sie [hier](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
-## <a name="want-to-know-more"></a>Möchten Sie mehr erfahren?
+## <a name="want-to-know-more"></a>Möchten Sie mehr wissen?
 
 Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen zu erstellen und einzurichten.
   
@@ -237,7 +237,7 @@ Zum Verwalten einer Anrufwarteschleife benötigen Sie die folgenden Cmdlets.
     
 ### <a name="more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Dinge zu tun haben. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

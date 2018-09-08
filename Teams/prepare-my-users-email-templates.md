@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Verwenden von Vorlagen zum Senden von e-Mails, die den Benutzer implementieren Cloud Voice-Funktionen in Teams oder Skype für Unternehmen.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 249ea73c45868d688aad37c22cf60c19d6f2ffeb
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 33c9359709f8e770583afa995097c36d8f762b25
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858171"
+ms.locfileid: "23881833"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Vereinfachen Sie Ihr neues online Telefonsystem – Akzeptanz
 

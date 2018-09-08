@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Verwenden Sie Onboarding Prüflisten zum Vorbereiten von Office 365 für Teams und Konfigurieren von Teams Kernfunktionen, Netzwerk, und cloud-VoIP-Arbeitslasten.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e115ac93a63fb007787a4324c56793c996723c64
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7bf138a4d79fc6fd3533de381a538c88b646db55
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850205"
+ms.locfileid: "23882227"
 ---
 # <a name="prepare-my-service"></a>Meine Service vorbereiten
 

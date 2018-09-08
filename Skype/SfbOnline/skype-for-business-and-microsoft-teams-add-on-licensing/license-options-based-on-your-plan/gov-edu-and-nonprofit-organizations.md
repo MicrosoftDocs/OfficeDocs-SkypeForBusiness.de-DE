@@ -15,22 +15,22 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen über Add-On-Lizenzen und Features für Pläne für GOV, EDU und gemeinnützige Organisationen. '
-ms.openlocfilehash: 6e173a84fc8fbf003c021915800966691851a084
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: c69307833becfc6f9adc3ade2eeed962ceefcedb
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858519"
+ms.locfileid: "23883923"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU und gemeinnützige Organisationen
 
-Die meisten Features von Skype for Business sind für die Organisationen .gov, .edu und nonprofit verfügbar. Details finden Sie in der folgenden Tabelle.
+Die meisten Features von Skype for Business sind für die Organisationen .gov, .edu und nonprofit verfügbar. Finden Sie weitere Informationen in der folgenden Tabelle aus.
 
 |**Skype for Business-Feature**|**Verfügbar für .GOV (GCC)**|**Verfügbar für .GOV (nicht-GCC)**|**Verfügbar für .EDU**|**Verfügbar für gemeinnützige Organisationen**|
 |:-----|:-----|:-----|:-----|:-----|

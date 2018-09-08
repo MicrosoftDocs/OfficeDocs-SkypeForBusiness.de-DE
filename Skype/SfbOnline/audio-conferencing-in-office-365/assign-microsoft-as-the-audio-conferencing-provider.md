@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,23 +16,23 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Erfahren Sie, wie Sie Microsoft den Einwahlkonferenzanbieter für Skype for Business zuweisen.
-ms.openlocfilehash: 934513c3f119044f05835e49fe73f8aba74de753
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
-ms.translationtype: HT
+description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
+ms.openlocfilehash: 5654dc1da157498b1cb17271aa58959d2ffa541b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703728"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883455"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
 Um Audiokonferenz in Office 365 mit Skype for Business und Microsoft Teams zu verwenden, muss Benutzern in Ihrer Organisation eine Audiokonferenz-Lizenz zugewiesen worden sein. Siehe [Testen oder erwerben Sie Audiokonferenz in Office 365](try-or-purchase-audio-conferencing-in-office-365.md), um weitere Information zur Lizenzierung und zu den Kosten zu erhalten.
 
-Microsoft-Audiokonferenz liefert Telefonnummern zur Einwahl, PINs und Konferenz-IDs, die von Besprechungsteilnehmern zur Teilnahme an Besprechungen Ihrer Organisation verwendet werden können. Sie müssen nur den Mitarbeitern, die Skype for Business- oder Microsoft Team-Besprechungen planen oder leiten, Microsoft als Audiokonferenzanbieter zuweisen.
+Microsoft-Audiokonferenz liefert Telefonnummern zur Einwahl, PINs und Konferenz-IDs, die von Besprechungsteilnehmern zur Teilnahme an Besprechungen Ihrer Organisation verwendet werden können. Sie müssen nur Microsoft als Anbieter von Audiokonferenzen Personen zuweisen zu planen, oder führen Skype für Business oder Microsoft-Teams, Besprechungen, die.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -42,14 +43,14 @@ Microsoft-Audiokonferenz liefert Telefonnummern zur Einwahl, PINs und Konferenz-
 
 1. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-2. Gehen Sie im **Skype for Business Admin Center** auf der linken Navigationsseite zu **Audiokonferenz**.
+2. Navigieren Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen**.
     
 3. Wenn Sie ein Banner sehen, das Sie benachrichtigt, dass es Benutzer gibt, denen eine **Audiokonferenz**-Lizenz zugewiesen wurde, jedoch noch nicht Microsoft als ihren Audiokonferenzanbieter haben, klicken Sie auf **Klicken Sie hier, um sie zu verschieben**. Wenn das Banner im **Skype for Business Admin Center** nicht angezeigt wird, klicken Sie auf **Benutzer** und wählen Sie dann den Filter **Benutzer sind bereit, zu Audiokonferenz verschoben zu werden**.
     
-4. Wählen Sie auf der Seite Eigenschaften für den Benutzer unter **Anbietername** **Microsoft** aus der Dropdown-Liste aus.
+4. Wählen Sie auf der Eigenschaftenseite für den Benutzer, klicken Sie unter **Anbietername** **Microsoft** in der Dropdown-Liste.
     
     > [!NOTE]
-    > Da Sie Microsoft als Audiokonferenzanbieter nutzen und mehrere Telefonnummern vorhanden sind, können Sie in der Dropdown-Liste unter **Gebührenpflichtige Standardnummer** eine Standard-Audionummer für den Benutzer auswählen.
+    > Da die Verwendung von Microsoft als Anbieter von Audiokonferenzen und mehrere Telefonnummern vorhanden sind, können Sie die Dropdownliste **Standard gebührenpflichtige Nummer** verwenden, um eine Standardnummer audio für den Benutzer auszuwählen.
   
 5. Klicken Sie auf **Speichern**.
 
@@ -64,7 +65,7 @@ Um Zeit zu sparen oder den Vorgang zu automatisieren, können Sie mit dem folgen
 > Wenn Sie den Anbieter in **Microsoft** ändern, werden die Audiokonferenzinformationen für den Benutzer (Konferenzkennung, gebührenpflichtige und gebührenfreie Telefonnummern) ersetzt. Sie sollten diese Informationen speichern, bevor Sie den Anbieter ändern. 
 
   
-Um den Anbieter für eine kleine Anzahl von Benutzern in Microsoft zu ändern, können Sie das Cmdlet [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) verwenden.
+Um den Anbieter an Microsoft für eine kleine Anzahl von Benutzern zu ändern, können Sie das Cmdlet [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) verwenden.
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Verwenden eines Windows PowerShell-Skripts für eine große Anzahl von Benutzern
@@ -74,7 +75,7 @@ Wenn Sie den Anbieter in **Microsoft** ändern, werden die Audiokonferenzinforma
   
 Sie können das folgende Skript als eine PowerShell-Skriptdatei speichern und es unter Verwendung eines seine Eingabeparameter ausführen.
 
-**Beispiel 1:** Sie können dieses Skript ausführen, indem Sie eine Benutzerliste bereitstellen, die aktualisiert werden soll.
+**Beispiel 1:** Sie können dieses Skript ausführen, indem Sie eine Liste der Benutzer bereitstellen, die aktualisiert werden sollen.
    
   ```
 Script.ps1 -UserList <List of users>
@@ -88,7 +89,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**Beispiel 3:** In diesem Beispiel können Sie mit dem Skript für eine große Anzahl von Benutzern in Ihrer Organisation den Audiokonferenzanbieter von Intercall (oder einem anderen Anbieter) in **Microsoft** ändern.
+**Beispiel 3:** In diesem Beispiel können dieses Skript Sie zum Ändern der Anbieter von Audiokonferenzen aus Intercall (oder einen anderen Anbieter) **Microsoft** für eine große Anzahl Benutzer in Ihrer Organisation.
     
   ```
   Script.ps1 -ACPProviderName <Provider>

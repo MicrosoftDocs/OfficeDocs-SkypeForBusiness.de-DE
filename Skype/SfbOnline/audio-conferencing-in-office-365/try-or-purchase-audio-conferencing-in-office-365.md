@@ -1,5 +1,5 @@
 ---
-title: Testen oder erwerben Sie Audiokonferenz in Office 365 für Skype for Business Online
+title: Versuchen Sie es oder Audiokonferenzen in Office 365 für Skype für Business Online erwerben
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,20 +15,20 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 6730d8e928ab8851781e51e0392686912cf89721
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 248156cb326c4614be717b6f851d0ea04b28dd39
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860795"
+ms.locfileid: "23888314"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Testen oder erwerben Sie Audiokonferenz in Office 365 für Skype for Business Online
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Versuchen Sie es oder Audiokonferenzen in Office 365 für Skype für Business Online erwerben
 
 > [!Note]
 > Informationen zu Audiokonferenzen in Microsoft-Teams finden Sie unter [Testen oder erwerben Audiokonferenzen in Office 365 für Skype für Microsoft-Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
@@ -36,17 +36,17 @@ ms.locfileid: "23860795"
 
 Manchmal müssen Personen in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Für genau diese Situation ist die Audiokonferenzfunktion in Skype for Business gedacht. Teilnehmer können sich mit einem Telefon in Skype for Business-Besprechungen einwählen, anstatt die Skype for Business-App auf einem Mobilgerät oder PC zu verwenden.
 
-Sie müssen Audiokonferenz nur für Personen einrichten, die Besprechungen planen oder leiten möchten. Meeting-Teilnehmer, die sich in das Meeting einwählen, benötigen keinerlei zugewiesene Lizenzen und auch ein anderes Setup ist nicht erforderlich.
+Sie müssen nur eingerichtet werden Audiokonferenz für die Personen, die das Planen, oder führen Besprechungen planen. Meeting-Teilnehmer, die sich in das Meeting einwählen, benötigen keinerlei zugewiesene Lizenzen und auch ein anderes Setup ist nicht erforderlich.
 
 Infos über die Preisgestaltung finden Sie unter [Preise für Audiokonferenz](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Schritt 1: Erwerben und Zuweisen von Lizenzen für Audiokonferenz
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Schritt 1: Erwerben und Audiokonferenzen Lizenzen zuweisen
 
-Sie müssen über eine [Administrator-Rolle von Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) verfügen, um diese Schritte auszuführen.
+Sie müssen ein [zu Office 365-Administratorrollen](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieser Schritte können.
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Erwerben und Zuweisen von Benutzerlizenzen für Audiokonferenz:
 
-1. Stellen Sie fest, ob **Audiokonferenz** in Ihrem Land / Ihrer Region verfügbar ist. [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
+1. Hier erfahren Sie, ob **Audiokonferenzen** in Ihrem Land/Ihrer Region verfügbar ist. [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     
 2. Holen Sie sich Ihre Lizenzen für **Audiokonferenz**. Wenn Sie:
 
@@ -56,17 +56,17 @@ Sie müssen über eine [Administrator-Rolle von Office 365](https://support.offi
 
 3. [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) den Mitarbeitern in Ihrer Organisation zu, die Besprechungen planen oder leiten werden.
 
-4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Weitere Anweisungen finden Sie unter [Zuweisen von Lizenzen für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Anweisungen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Pay-per-Minute Lizenzen für Audiokonferenz kaufen und zuweisen:
 
 Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Lizenzen für Audiokonferenz erhalten. Weitere Informationen zu Pay-per Minute Lizenzen für Audio Conferencing finden Sie unter [Pay-per-Minute Audio Conferencing](/microsoftteams/audio-conferencing-pay-per-minute). 
   
-1. Stellen Sie fest, ob **Audiokonferenz** in Ihrem Land / Ihrer Region verfügbar ist. [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
+1. Hier erfahren Sie, ob **Audiokonferenzen** in Ihrem Land/Ihrer Region verfügbar ist. [Land und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     
 2. Holen Sie sich Ihre Lizenzen für **Audiokonferenz**. Um Pay-per-Minute Lizenzen zu erwerben, wenden Sie sich bitte an Ihren Kundenbetreuer.
     
-3. [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](/microsoftteams/set-up-communications-credits-for-your-organization). Das Einrichten von Communication Credits, finden Sie unter [Was sind Communication Credits?](/microsoftteams/what-are-communications-credits)
+3. [Einrichten von Communications haben für Ihre Organisation](/microsoftteams/set-up-communications-credits-for-your-organization) für Ihre Organisation. Das Einrichten von Communication Credits, finden Sie unter [Was sind Communication Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
     > Wenn Guthaben für Kommunikationen noch nicht eingerichtet wurden, wird die Audiokonferenz für Benutzer mit Lizenzen mit Minutenabrechnung nicht funktionieren.
@@ -84,13 +84,13 @@ Wenn Sie eine Lizenz für **Audiokonferenz**Personen in Ihrer Organisation zuwei
 
 Die folgenden Schritte sind **optional**, aber viele Administratoren führen diese gerne aus:
 
-1. [Anpassen von Besprechungseinladungen](../set-up-skype-for-business-online/customize-meeting-invitations.md). Die für den Nutzer festgelegten Einwahlnummern werden automatisch den Besprechungseinladungen hinzugefügt, die Teilnehmern zugesendet werden. Sie können jedoch Ihre eigenen Hilfe- und rechtliche Links, eine SMS und eine kleine Firmengrafik hinzufügen, wenn Sie möchten.
+1. [Anpassen von besprechungseinladungen](../set-up-skype-for-business-online/customize-meeting-invitations.md). Die für den Nutzer festgelegten Einwahlnummern werden automatisch den Besprechungseinladungen hinzugefügt, die Teilnehmern zugesendet werden. Sie können jedoch Ihre eigenen Hilfe- und rechtliche Links, eine SMS und eine kleine Firmengrafik hinzufügen, wenn Sie möchten.
 
-2. [Einrichten der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites.md). Diese Telefonnummer wird in der Besprechung angezeigt, die der Nutzer plant.
+2. [Legen Sie das Telefon, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md). Dies ist die Telefonnummer, die in der Besprechung angezeigt wird, die von einem Benutzer geplant ist.
 
 3. [Festlegen der automatischen Sprache der Telefonzentrale für Audiokonferenz](set-auto-attendant-languages-for-audio-conferencing.md), die von der automatischen Telefonzentrale von Audiokonferenz verwendet wird, um einen Anrufer zu begrüßen, wenn er sich mit einer Telefonnummer für die Audiokonferenz einwählt. Dieser Schritt gilt nur, wenn Sie Microsoft als Ihren Provider von Audio Conferencing verwenden.
 
-4. [Einrichten der Länge der PIN für Audiokonferenz-Besprechungen](set-the-pin-length-for-audio-conferencing-meetings.md).
+4. [Legen Sie die PIN für Audiokonferenzen Besprechungen](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]

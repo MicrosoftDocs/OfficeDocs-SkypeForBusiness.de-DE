@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, was Sie Drehbezugspunkten wissen sollten und wie diese in Skype für Business Online zurückzusetzen. '
-ms.openlocfilehash: 7e47f3e33dbb6811f5fabafc1ccd213f8e0bac11
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490605"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882138"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Zurücksetzen der Audiokonferenz PIN in Skype für Business Online
 

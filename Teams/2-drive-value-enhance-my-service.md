@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Führen Sie regelmäßige Verkaufschancen Sie Verbesserung des Diensts Teams, Überwachen der Übersicht über die Teams für interessante Feature verbessert.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57de86e056c9023bcafbf5d475081b8f50afbe36
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 9890da6722c2f9ba5bbbc759f105f19654ed4f27
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856029"
+ms.locfileid: "23882219"
 ---
 # <a name="enhance-my-service"></a>Meine Service zu verbessern
 
