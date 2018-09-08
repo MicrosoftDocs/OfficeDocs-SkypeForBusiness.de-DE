@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Hier erfahren Sie, wie Sie eine hybride Exchange-Organisation zur Verwendung in Microsoft Teams konfigurieren.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 046b7ab0381391b16a306d36322086882c03f18a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 02d09e235872644355481f52be8764799ad32871
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849819"
+ms.locfileid: "23881941"
 ---
-<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a><span data-ttu-id="22c10-103">Konfigurieren einer hybriden Exchange-Organisation zur Verwendung in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="22c10-103">Configure an Exchange hybrid organization for use with Microsoft Teams</span></span>
+<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a><span data-ttu-id="2f888-103">Konfigurieren einer hybriden Exchange-Organisation zur Verwendung in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2f888-103">Configure an Exchange hybrid organization for use with Microsoft Teams</span></span>
 ======================================================================
 
-<span data-ttu-id="22c10-p101">Normalerweise ist die Konfiguration von Exchange Online-Funktionen zur Verwendung mit Microsoft Teams nicht erforderlich. Für hybride Exchange-Szenarios müssen bestimmte Schritte ausgeführt werden, um die Synchronisierung von Gruppenmitgliedschaften zwischen Exchange Server (lokal) und Exchange Online zu gewährleisten. Neben verschiedenen Initialisierungsskripts beinhaltet dies die Gruppenrückschreiben-Funktionen in Azure AD Connect: [Konfigurieren von Office 365-Gruppen für lokale Exchange-Hybridbereitstellungen](https://go.microsoft.com/fwlink/?linkid=854389)</span><span class="sxs-lookup"><span data-stu-id="22c10-p101">Generally, you should not have to configure any Exchange Online functionality for use with Microsoft Teams. However, for Exchange Hybrid scenarios, there are steps necessary to ensure Group memberships are synchronized between Exchange Server (on-premises) and Exchange Online. This involves enablement of Group Writeback functionality in Azure AD Connect along with various initialization scripts: [Configure Office 365 Groups with on-premises Exchange hybrid](https://go.microsoft.com/fwlink/?linkid=854389)</span></span>
+<span data-ttu-id="2f888-p101">Normalerweise ist die Konfiguration von Exchange Online-Funktionen zur Verwendung mit Microsoft Teams nicht erforderlich. Für hybride Exchange-Szenarios müssen bestimmte Schritte ausgeführt werden, um die Synchronisierung von Gruppenmitgliedschaften zwischen Exchange Server (lokal) und Exchange Online zu gewährleisten. Neben verschiedenen Initialisierungsskripts beinhaltet dies die Gruppenrückschreiben-Funktionen in Azure AD Connect: [Konfigurieren von Office 365-Gruppen für lokale Exchange-Hybridbereitstellungen](https://go.microsoft.com/fwlink/?linkid=854389)</span><span class="sxs-lookup"><span data-stu-id="2f888-p101">Generally, you should not have to configure any Exchange Online functionality for use with Microsoft Teams. However, for Exchange Hybrid scenarios, there are steps necessary to ensure Group memberships are synchronized between Exchange Server (on-premises) and Exchange Online. This involves enablement of Group Writeback functionality in Azure AD Connect along with various initialization scripts: [Configure Office 365 Groups with on-premises Exchange hybrid](https://go.microsoft.com/fwlink/?linkid=854389)</span></span>

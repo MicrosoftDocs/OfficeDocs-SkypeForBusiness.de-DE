@@ -15,17 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom: None
 description: Weitere Informationen zur Voicemail für das Telefonsystem.
-ms.openlocfilehash: 0cf6497dc109d63de6604f7ce6ed564b15558df2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 961b45de4049b7ab323f4e2cd8a6441711078113
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849929"
+ms.locfileid: "23881872"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="1df2e-103">Lizenzoptionen basierend auf Ihrem Plan</span><span class="sxs-lookup"><span data-stu-id="1df2e-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="4e80f-103">Lizenzoptionen basierend auf Ihrem Plan</span><span class="sxs-lookup"><span data-stu-id="4e80f-103">License options based on your plan</span></span>
 
 
