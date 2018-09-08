@@ -14,18 +14,18 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Senden Sie Ihre Benutzer eine e-Mail mit ihren Audiokonferenzinformationen in Microsoft-Teams.
-ms.openlocfilehash: 3ee0d5f7eda551e5231cae535dec08439c19e081
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 85e219481884bb08a2574809b6170c232abccf83
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850777"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892092"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Senden einer e-Mails an einen Benutzer mit ihren Audiokonferenzen Informationen in Microsoft-Teams
 

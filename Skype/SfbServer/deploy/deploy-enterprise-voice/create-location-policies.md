@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lesen Sie in diesem Thema erfahren, wie konfigurieren erweiterten notrufunterstützung (E9-1-1) anhand von Standortrichtlinien in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 525c0a1a7a22a31e129c50ebebd68483a31cb87c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 01525af7c47869525c38056b00cd137ce1e5c1a5
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987264"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891939"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Erstellen von ortungsrichtlinien in Skype für Business Server
  

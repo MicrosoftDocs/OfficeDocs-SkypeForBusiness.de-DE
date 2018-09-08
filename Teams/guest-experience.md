@@ -9,16 +9,16 @@ ms.service: msteams
 ms.reviewer: laal
 search.appverid: MET150
 description: Hier erhalten Sie Informationen zu der für Gastbenutzer verfügbaren Microsoft Teams-Funktionalität.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30a3341d5e18f46f178fe95a200b23a77df4f0f1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 614821916bb271418fb13b4a41907f0b844d66fe
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865191"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892714"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
