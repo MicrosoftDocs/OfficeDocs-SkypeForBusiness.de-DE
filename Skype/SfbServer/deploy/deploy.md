@@ -7,19 +7,19 @@ ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Zusammenfassung: Erkunden Sie diese Links, um Informationen zum Installieren und Konfigurieren von Skype für Business Server 2015 und zum Upgrade von früheren Versionen von Lync Server.'
-ms.openlocfilehash: 768b2dd4ca4503ff056be596ca7971d71c3089bc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8560bd52877866f861c8c98dbf22926902a0ce1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965415"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23890987"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Bereitstellen von Skype for Business Server 2015
  
@@ -43,10 +43,10 @@ Die folgenden Artikel zum Installieren und Konfigurieren von Skype für Business
   
 ||**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
-|![Symbol für Dokumentation](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Anforderungen an die Skype for Business Server 2015-Umgebung](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Informationen Sie zu Server und umgebungsanforderungen für Skype für Business Server.  <br/> |
+|![Symbol für Dokumentation](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Anforderungen an die Skype for Business-Umgebung](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Informationen Sie zu Server und umgebungsanforderungen für Skype für Business Server.  <br/> |
 |![Symbol für Dokumentation](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Topologiegrundlagen in Skype for Business Server 2015](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |Lernen Sie Topologieoptionen und Server zusammenstellungsszenarien für Skype für Business Server.  <br/> |
 |![Numerisches Symbol für Kurzanleitung](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Installieren von Skype for Business Server 2015](install/install.md) <br/> |Informationen Sie zum Installieren von Skype für Business Server in verschiedenen Topologien, in der physischen und virtuellen Umgebungen.  <br/> |
-|![Numerisches Symbol für Kurzanleitung](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Upgrade auf Skype for Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Informationen Sie zum upgrade von früheren Versionen von Lync Server.  <br/> |
+|![Numerisches Symbol für Kurzanleitung](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Upgrade auf Skype für Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Informationen Sie zum upgrade von früheren Versionen von Lync Server.  <br/> |
 |![Numerisches Symbol für Kurzanleitung](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Konfigurieren der Clientumgebung mit Skype for Business](deploy-clients/configure-the-client-experience.md) <br/> |Lesen Sie, wie Sie die Clienterfahrung konfigurieren.  <br/> |
 |![Numerisches Symbol für Kurzanleitung](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Bereitstellen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |Informationen Sie zum Konfigurieren der erforderlichen Komponenten für eine hybridbereitstellung, und konfigurieren Sie Ihre Bereitstellung zum Verwalten von Benutzern zwischen Skype für Business Server lokal und Skype für Business Online.  <br/> |
 |![Numerisches Symbol für Kurzanleitung](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Bereitstellen von Edgeserver in Skype for Business Server 2015](deploy-edge-server/deploy-edge-server.md) <br/> |Wenn der Benutzer in Ihrer Organisation mit externen Benutzern kommunizieren, die in das interne Netzwerk angemeldet sind nicht, sollten Sie die Edge-Server bereitstellen.  <br/> |

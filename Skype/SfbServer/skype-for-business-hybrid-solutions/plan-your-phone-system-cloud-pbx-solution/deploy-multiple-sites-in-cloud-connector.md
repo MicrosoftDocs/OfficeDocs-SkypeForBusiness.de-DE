@@ -7,18 +7,18 @@ ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Informationen Sie zu mehreren PSTN-Websites in der Cloud Connector Edition bereitstellen.
-ms.openlocfilehash: c0e41408b43574fdfd3e8dc6b1d2c8ffc434d8c5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569526"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23889713"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Bereitstellen mehrerer Standorte in Cloud Connector
  
@@ -76,7 +76,7 @@ Führen Sie für jede PSTN-Website, die Sie hinzufügen möchten die Schritte un
 
 Die folgende Tabelle listet die Unterschiede zwischen einem einzelnen Standort mit HA-Unterstützung und einer Bereitstellung mit mehreren Standorten auf.
   
-|**Kategorie**|**Element**|**Einzelnen Standort mit HA**|**Mehrere Standorte**|
+|**Kategorie**|**Element**|**Einzelner Standort mit HA**|**Mehrere Standorte**|
 |:-----|:-----|:-----|:-----|
 |Einrichtung  <br/> |Freigegebener Ordner  <br/> |Erfordert den **gleiche** freigegebenen Ordner mehreren appliances <br/> |Benötigt für jede Appliance einen **unterschiedlichen** freigegebenen Ordner. <br/> |
 |Konfigurieren  <br/> |VirtualMachineDomain  <br/> |Benötigt für alle Appliances **dieselbe** Domäne. <br/> |Benötigt **dieselbe** Domäne für alle PSTN-Standorte <br/> |

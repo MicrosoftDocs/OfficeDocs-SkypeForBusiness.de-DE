@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,25 +16,25 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Erfahren Sie, wie Sie aus dem Skype for Business Administrationscenter heraus eine Liste aller Telefonnummern in Ihrer Organisation, alle den Benutzern zugewiesenen Telefonnummern und alle Nummern, die VoIP-Nutzer zugeordnet sind, anzeigen können.
-ms.openlocfilehash: cb945b8456a9443b34390b6f83606ef5570ffdaf
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+description: Erfahren Sie, wie eine Liste der Rufnummern in Ihrer Organisation, alle Zahlen, die Benutzern zugewiesen und die Nummern, die VoIP-Benutzern, aus der Skype für Business Administrationscenter zugewiesen sind, angezeigt.
+ms.openlocfilehash: b28fb7c75beefa08b35b3b35be30b58652037895
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779336"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887999"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
-Es gibt verschiedene Arten von Rufnummern, die Sie Benutzern oder anderen Diensten (Service-Rufnummern) zuweisen können, wie beispielsweise für Audiokonferenzen in Office 365.
+Es gibt verschiedene Arten von Rufnummern, die Sie auf Benutzer oder andere Dienste (Service Zahlen), wie beispielsweise für Audiokonferenzen in Office 365 zuweisen können.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>So zeigen Sie eine Liste aller Telefonnummern für Ihre Organisation an
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
@@ -43,27 +44,27 @@ Es gibt verschiedene Arten von Rufnummern, die Sie Benutzern oder anderen Dienst
 3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **Telefonnummern**.
     
     > [!IMPORTANT]
-    > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **VoiP** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. In der Spalte **Nummern** werden die zugewiesenen Telefonnummern angezeigt.
+4. Die Telefonnummern, die zugewiesen sind, finden Sie unter der Spalte **Anzahl** .
     
-5. Mithilfe der Dropdownliste können Sie die Ansicht nach folgenden Kriterien filtern:
+5. Die Dropdown-Liste können Sie Ihrer Meinung nach filtern:
     
   - **Alle** Telefonnummern einschließlich Servicetelefonnummern
     
-  - Ein **Nummernbereich**, den Sie festlegen
+  - Ein Telefon **Nummern** , die Sie festlegen.
     
-  - Rufnummern, die einem **Benutzer zugewiesen** sind.
+  - Rufnummern, die **Benutzer zugewiesen**sind.
     
-  - Telefonnummern, die für Einwahlkonferenzen **der Konferenz zugewiesen** sind.
+  - Telefonnummern, **zugewiesene Konferenz** für einwahlkonferenzen.
     
-  - Telefonnummern, die **Nicht zugewiesen** sind
+  - Rufnummern, die **nicht zugewiesen**sind.
     
-  - Der **Standort** der Telefonnummern
+  - Der **Speicherort** der aufgeführten Rufnummern.
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>So zeigen Sie alle Benutzern zugewiesenen Telefonnummern an
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 
 Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonnummern sehen, die bereits Benutzern zugewiesen sind. Außerdem möchten Sie wissen, welche Telefonnummern den Benutzern zugewiesen werden können.
@@ -75,9 +76,9 @@ Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonn
 3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **VoIP-Benutzer**.
     
     > [!IMPORTANT]
-    > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **VoiP** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. Sie können die Ansicht nach Telefonnummern filtern, die Benutzern zugewiesen sind, oder nach Telefonnummern, die Sie Benutzern zuweisen können. Sie können nach folgenden Kriterien filtern:
+4. Sie können Ihre Ansicht für Rufnummern, die Benutzern zugewiesen sind, oder Rufnummern, die Sie einem Benutzer zuweisen können filtern. Sie können nach folgenden Kriterien filtern:
     
   - **Alle** Telefonnummern einschließlich Servicetelefonnummern
     
@@ -87,7 +88,7 @@ Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonn
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>So zeigen Sie die VoIP-Benutzern zugewiesenen Telefonnummern an
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 
 Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen und empfangen sollen, müssen Sie zuerst die Telefonnummern abrufen und diese dann den Benutzern zuweisen. Wenn Sie die Telefonnummern haben, möchten Sie vielleicht nur eine Liste der Benutzer sehen, denen Telefonnummern zugewiesen sind, oder eine Liste der Benutzer, denen keine Telefonnummern zugewiesen sind, oder Sie möchten wissen, ob bestimmte Benutzer online oder lokal gehostet werden.
@@ -99,9 +100,9 @@ Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen u
 3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **VoIP-Benutzer**.
     
     > [!IMPORTANT]
-    > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **VoiP** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. Mit der Dropdownliste können Sie die Ansicht nach aktiven Benutzern, nach Online-Benutzern oder lokalen Benutzern oder nach dem Status und Typ der Lizenz für bestimmte Benutzer filtern. Sie können nach folgenden Kriterien filtern:
+4. Sie können die Dropdown-Liste verwenden, zum Filtern der Ansicht für aktive Benutzer, ob der Benutzer Online oder lokal, oder der Status und Typ der Lizenzierung für einen Benutzer ist. Sie können nach folgenden Kriterien filtern:
     
   - **Aktive Benutzer** sowie Online-Benutzer oder lokale Benutzer
     

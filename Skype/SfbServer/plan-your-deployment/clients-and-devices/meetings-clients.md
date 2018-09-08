@@ -7,19 +7,19 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App sollten beim Planen von Skype für Business Server. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.'
-ms.openlocfilehash: ba1c01625c987235c65fe2139eae4cc94989ff51
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: dc1e050bf09c7473c98af526761ef3d1aab416d9
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391762"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885629"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungen-Clients (Web App und Besprechungen App)
  
@@ -53,12 +53,12 @@ Verwendung der Skype für Business Web App, die ein Benutzer muss eine der folge
 
 | Betriebssystem | Edge | 32- und 64-Bit InternetExplorer 11 oder höher | 32- und 64-Bit InternetExplorer 10 oder höher | 32- und 64-Bit InternetExplorer 9 oder höher | 32- und 64-Bit Version von Firefox 12.X oder höher | 32- und 64-Bit Version von Chrome 18.X oder höher |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Ja  <br/> |Ja  <br/> |-  <br/> |-  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-| Windows 8.1 & #x 2776; <br/> |-  <br/> |Ja  <br/> |-  <br/> |-  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-| Windows 8 (Intel-basiert) & #x 2776; <br/> |-  <br/> |-  <br/> |Ja  <br/> |-  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-|Windows 7 mit SP1 & #x 2777; <br/> |-  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-|Windows Server 2008 R2 mit SP1 & #x 2777; <br/> |-  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-|Mac OS 10,8 und höher (Intel-basiert) & #x 2777; <br/> |-  <br/> |-  <br/> |-  <br/> |-  <br/> |Ja  <br/> |Ja & #x 2779; <br/> |
+|Windows 10  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
+| Windows 8.1 & #x 2776; <br/> |n/v  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
+| Windows 8 (Intel-basiert) & #x 2776; <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
+|Windows 7 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
+|Windows Server 2008 R2 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
+|Mac OS 10,8 und höher (Intel-basiert) & #x 2777; <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2779; <br/> |
    
 & #x 2776; Die Skype für Web-Geschäfts-App-Browser-Plug-in erfordert eine bestimmte Freigabe-Plug-Ins computerbasierter, Video, Freigabe und Anzeige von laufenden Bildschirmfreigabe und anderen Features verwenden. Ein Teilnehmer der Besprechung erhält die Option zum Installieren der Freigabe-Plug-in beim Beitritt zu der Besprechung oder wenn sie eines dieser Features initiieren. Unter Windows 8 und Windows 8.1 kann die Freigabe-Plug-In installiert werden nur, wenn Sie Internet Explorer 10 oder Internet Explorer 11 für den Desktop ausführen. Diese Funktionen sind mit anderen (Nicht-Desktop-) Versionen von Internet Explorer 10 oder Internet Explorer 11 nicht verfügbar.
   

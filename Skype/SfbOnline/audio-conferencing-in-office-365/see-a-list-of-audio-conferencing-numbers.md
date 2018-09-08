@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Ihre einwahlkonferenzen Zahlen zwischen in Skype für Business Online nachzuschlagen. '
-ms.openlocfilehash: 84d6f4d1d1d1358a62ec8d0eb2334c92c416adea
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 43442d2ecee1de30126b73dd7cce8124db650c84
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490595"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891256"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Anzeigen einer Liste der Audiokonferenz Zahlen in Skype für Business Online
 

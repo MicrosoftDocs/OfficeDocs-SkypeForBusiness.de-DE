@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Senden von Ihren Benutzern eine e-Mail mit ihren Audiokonferenzinformationen in Skype für Business Online.
-ms.openlocfilehash: 1b692597f574739c8412a9ec0c6866687e169beb
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: cd6c40594c32faa2f8f7d7dc3737b61cb5d2cd82
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490645"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890601"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer e-Mails an einen Benutzer mit ihren Audiokonferenzen Informationen in Skype für Business Online
 
@@ -84,7 +85,7 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
     
   - Geben Sie die e-Mail-Adresse in der SendEmailFromAddress-Parameter.
     
-  - Den SendEmailOverride-Parameter auf "true" festlegen.
+  - Legen Sie den Parameter SendEmailOverride auf Truefest.
     
   - Geben Sie den e-Mail-Anzeigenamen im SendEmailFromDisplayName-Parameter.
     

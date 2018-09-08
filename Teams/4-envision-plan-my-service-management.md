@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Bereitstellen und Verwalten einer qualitativ hochwertige bereitstellungs durch die Planung für Rollen und zuweisen einen Champion Qualität.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33992e8f239a723b53b87159b3c09816b6bd0b20
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a690bca5512aa7f3969a82e414156ee461ea6250
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867901"
+ms.locfileid: "23889423"
 ---
 # <a name="plan-my-service-management"></a>Planen der Verwaltung von Meine service
 

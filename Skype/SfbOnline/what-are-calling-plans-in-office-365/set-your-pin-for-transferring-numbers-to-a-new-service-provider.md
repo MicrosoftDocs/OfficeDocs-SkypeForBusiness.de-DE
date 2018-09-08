@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Zum Weiterleiten oder Portieren von Telefonnummern von Skype for Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie manuell eine PIN festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie sie mit einschließen, wenn Sie eine Anfrage zur Portierung einer Telefonnummer stellen.
-ms.openlocfilehash: 144e3b0527b8557bbbb6a7f9c1b51ad2d61a0f1f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: ef688c6aa7aabd1880513994236cb62353eab665
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851713"
+ms.locfileid: "23890108"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Festlegen Ihrer PIN zum Übertragen von Nummern zu einem neuen Dienstanbieter
 
@@ -51,13 +51,13 @@ Nachfolgend finden Sie einige bestimmte Informationen über diese PIN-Nummer, di
     
 ## <a name="set-up-your-pin"></a>Richten Sie Ihre PIN ein
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Nutzung des Skype for Business Admin Centers**
+![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business**.
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Admin zentriert** > **Skype für Unternehmen**.
     
-3. Wählen Sie im linken Navigationsbereich **VoIP** > **Portierungsaufträge**.
+3. Wählen Sie im linken Navigationsbereich **VoIP** > **Port-Aufträge**.
     
 4. Klicken Sie auf **PIN festlegen, einrichten und verwalten**, die für die Übertragung und Portierung von Nummern zu einem anderen Dienst- bzw. Netzbetreiber verwendet wird.
     

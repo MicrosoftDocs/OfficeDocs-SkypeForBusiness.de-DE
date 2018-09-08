@@ -7,7 +7,7 @@ ms.date: 3/17/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde.
-ms.openlocfilehash: 7dfbdf8348d5bf5ec51ee33d4dbd67574c509855
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 90f8722780ee6db99a739c62e6100c81a385a265
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887032"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
  
@@ -58,7 +59,7 @@ Unabhängig davon keine Konfigurationen mit mehreren Gesamtstrukturen kann die G
   
 Für eine ordnungsgemäße Identitätssynchronisierung müssen die folgenden Attribute synchronisiert werden: 
   
-|**Benutzergesamtstrukturen**|**Resource-Gesamtstrukturen**|
+|**Benutzergesamtstrukturen**|**Ressourcengesamtstrukturen**|
 |:-----|:-----|
 |Gewähltes Kontenverknüpfung-Attribut  <br/> |Gewähltes Kontenverknüpfung-Attribut  <br/> |
 |mail   <br/> |mail   <br/> |

@@ -7,18 +7,18 @@ ms.date: 06/08/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: Beschreibt, wie Teams Arbeitslast für Office 365 fließt in verschiedenen Topologien verwendet.
-ms.openlocfilehash: 69b4deb078a0626c8a7cc4dce808825f2d038bac
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e1fcd36e9f5bea175887cad827e07f6ede556740
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861817"
+ms.locfileid: "23891810"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Microsoft-Teams, Online aufrufen fließt
 

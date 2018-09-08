@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Informationen Sie zum Anzeigen einer Liste von Benutzern in Ihrer Organisation, die für einwahlkonferenzen von innerhalb von Microsoft-Teams aktiviert sind. '
-ms.openlocfilehash: 1013bb9885148edb18fdf37a08a4f77d289218aa
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855771"
+ms.locfileid: "23884447"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Anzeigen einer Liste der Benutzer, die für Audiokonferenzen in Microsoft-Teams aktiviert sind
 

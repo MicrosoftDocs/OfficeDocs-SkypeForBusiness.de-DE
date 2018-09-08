@@ -6,18 +6,18 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Zusammenfassung: Informationen Sie zum Bereitstellen von Edge-Servern in Ihrer Skype für Business Server-Umgebung.'
-ms.openlocfilehash: fc4791918ef078bc43e73f8e404aad758531eb21
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 28a3262e49816976110aab0adde07a64c8d126fb
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003124"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23890950"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Stellen Sie Edgeserver in Skype für Business Server
  

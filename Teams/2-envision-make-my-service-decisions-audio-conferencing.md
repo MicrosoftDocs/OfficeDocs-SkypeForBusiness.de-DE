@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Erfahren Sie mehr über Besprechungen, Lizenzierung und Verfügbarkeit, Konferenz Bridge Einstellungen konfigurieren, erwerben oder Übertragen von Rufnummern, wählen Sie Mandanten-Wählpläne.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e17632977816261b99e4c2ae22a70c8961a040e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: da156ea46486d1b6eddffce61cfb655aecf90d1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854053"
+ms.locfileid: "23889646"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 

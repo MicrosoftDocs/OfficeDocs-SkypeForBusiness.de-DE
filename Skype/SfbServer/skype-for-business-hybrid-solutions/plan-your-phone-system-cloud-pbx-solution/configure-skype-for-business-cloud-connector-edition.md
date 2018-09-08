@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Informationen Sie zum Konfigurieren von Skype für Business Cloud Connector Edition, eine minimale lokalen Topologie zum Aktivieren der Integration von Ihrer lokalen VoIP-Infrastruktur in Telefonsystem in Office 365 (Cloud, PBX) VoIP-Dienste in Skype für Business Online.
-ms.openlocfilehash: 6cbf01b5b155fd3e234ef2a1827eb52580d22d2f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 3872bf212d3a0a12f5fc63eb62930cfb20314f13
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885636"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Konfigurieren und Verwalten von Skype for Business Cloud Connector Edition
  
@@ -38,15 +39,15 @@ In der folgenden Tabelle finden Sie eine Auflistung der notwendigen Schritte zum
   
 |**Schritt**|**Beschreibung**|
 |:-----|:-----|
-|[Vorbereiten Sie Ihrer Appliance Cloud-Connector](prepare-your-cloud-connector-appliance.md) <br/> |Laden Sie die Installationsdatei, Zertifikate, Konfigurieren von Hyper-V und bereiten Sie Ihre Umgebung für die Bereitstellung von Cloud-Connector.  <br/> |
-|[Bereitstellen einer einzelnen Website in der Cloud-Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Erstellen Sie in Ihrer Cloud Connector-Bereitstellung einen Standort.  <br/> |
-|[Bereitstellen von mehreren Websites in der Cloud-Connector](deploy-multiple-sites-in-cloud-connector.md) <br/> |Fügen Sie Ihrer Bereitstellung Standorte hinzu, und informieren Sie sich über die Unterschiede zwischen der Bereitstellung mit einem einzelnen Standort und mit mehreren Standorten.  <br/> |
-|[Konfigurieren der Cloud Connector-Integration mit Office 365-Mandanten](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |Fügen Sie DNS-Einträge hinzu, erstellen Sie eine Hybridkonfiguration, richten Sie PSTN-Gateways ein, und aktivieren Sie Benutzer für Voicemail im Telefonsystem in Office 365.  <br/> |
-|[Überprüfen der bereitstellungs von Cloud-Connector](validate-your-cloud-connector-deployment.md) <br/> |Stellen Sie sicher, dass Ihre Bereitstellung ordnungsgemäß funktioniert.  <br/> |
-|[Durchführen eines Upgrades auf eine neue Version von Cloud-Connector](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |Aktualisieren Sie die vorhandene Cloud Connector-Bereitstellung auf Version 2.1.  <br/> |
-|[Ändern der Konfiguration einer vorhandenen Bereitstellung von Cloud-Connector](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |Ändern Sie Einstellungen in der Cloud Connector, nachdem es bereits bereitgestellt wurde.  <br/> |
+|[Vorbereiten der Cloud Connector-Appliance](prepare-your-cloud-connector-appliance.md) <br/> |Laden Sie die Installationsdatei, Zertifikate, Konfigurieren von Hyper-V und bereiten Sie Ihre Umgebung für die Bereitstellung von Cloud-Connector.  <br/> |
+|[Bereitstellen eines einzelnen Standorts in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Erstellen Sie in Ihrer Cloud Connector-Bereitstellung einen Standort.  <br/> |
+|[Bereitstellen mehrerer Standorte in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md) <br/> |Fügen Sie Ihrer Bereitstellung Standorte hinzu, und informieren Sie sich über die Unterschiede zwischen der Bereitstellung mit einem einzelnen Standort und mit mehreren Standorten.  <br/> |
+|[Konfigurieren der Cloud Connector-Integration mit Ihrem Office 365-Mandanten](configure-cloud-connector-integration-with-your-office-365-tenant.md) <br/> |Fügen Sie DNS-Einträge hinzu, erstellen Sie eine Hybridkonfiguration, richten Sie PSTN-Gateways ein, und aktivieren Sie Benutzer für Voicemail im Telefonsystem in Office 365.  <br/> |
+|[Überprüfen der Cloud Connector-Bereitstellung](validate-your-cloud-connector-deployment.md) <br/> |Stellen Sie sicher, dass Ihre Bereitstellung ordnungsgemäß funktioniert.  <br/> |
+|[Aktualisieren auf eine neue Version von Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md) <br/> |Aktualisieren Sie die vorhandene Cloud Connector-Bereitstellung auf Version 2.1.  <br/> |
+|[Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung](modify-the-configuration-of-an-existing-cloud-connector-deployment.md) <br/> |Ändern Sie Einstellungen in der Cloud Connector, nachdem es bereits bereitgestellt wurde.  <br/> |
 |[Die medienumgehung in der Cloud Connector Edition bereitstellen](deploy-media-bypass-in-cloud-connector.md) <br/> |Hier erfahren Sie, wie Sie die Medienumgehung in Cloud Connector bereitstellen.  <br/> |
-|[Cloud-Connector-Cmdlet-Referenz](cloud-connector-cmdlet-reference.md) <br/> |Erfahren Sie mehr über die in Cloud Connector verwendeten PowerShell-Cmdlets.  <br/> |
-|[Problembehandlung bei der Bereitstellung von Cloud-Connector](troubleshoot-your-cloud-connector-deployment.md) <br/> |Lösungen zu häufig auftretende Probleme mit einer Cloud-Connector-Bereitstellung.  <br/> |
+|[Cmdlet-Referenz für Cloud Connector](cloud-connector-cmdlet-reference.md) <br/> |Erfahren Sie mehr über die in Cloud Connector verwendeten PowerShell-Cmdlets.  <br/> |
+|[Problembehandlung bei Ihrer Cloud Connector-Bereitstellung](troubleshoot-your-cloud-connector-deployment.md) <br/> |Lösungen zu häufig auftretende Probleme mit einer Cloud-Connector-Bereitstellung.  <br/> |
    
 

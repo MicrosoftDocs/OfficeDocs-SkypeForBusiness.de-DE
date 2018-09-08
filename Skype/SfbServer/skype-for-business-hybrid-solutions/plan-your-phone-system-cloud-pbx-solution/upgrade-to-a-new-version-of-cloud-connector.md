@@ -7,17 +7,18 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Informationen Sie zum Aktualisieren der Cloud Connector Edition-bereitstellungs.
-ms.openlocfilehash: 925b19360115e74a147f8b32c6faa42b84971f60
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b727f3cb7feea7f080f2e75278294e855c65b197
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887537"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Aktualisieren auf eine neue Version von Cloud Connector
  
@@ -116,6 +117,6 @@ Set-CcCredential -AccountType TenantAdmin
 ## <a name="upgrade-multiple-sites-to-a-new-version"></a>Upgrade von mehreren Standorten auf eine neue Version
 <a name="BKMK_Upgrade"> </a>
 
-Führen Sie die Schritte für das Upgrade eines einzelnen Standorts nacheinander für jeden Standort in Ihrer Bereitstellung aus. Stellen Sie sicher, dass und [Überprüfen Ihrer Bereitstellung Cloud Connector](validate-your-cloud-connector-deployment.md) nach der Aktualisierung von jedem Standort.
+Führen Sie die Schritte für das Upgrade eines einzelnen Standorts nacheinander für jeden Standort in Ihrer Bereitstellung aus. Führen Sie nach dem Upgrade jedes Standorts unbedingt den Schritt [Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md) aus.
   
 

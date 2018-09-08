@@ -16,21 +16,21 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie den Notfallort für Ihre Benutzer ändern können. Mit einer unbegrenzten Anzahl von Standorten können Sie Notfallorte ändern, wenn Mitarbeiter Stockwerke oder Gebäude wechseln. '
-ms.openlocfilehash: e3805daa8248da44de84330ea5de694126e9e32c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: e8536647bedf0cdb212ca334193659a104e0e1e3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863273"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891174"
 ---
-# <a name="change-the-emergency-location-for-a-user"></a>Ändern des Notfallortes für einen Benutzer
+# <a name="change-the-emergency-location-for-a-user"></a>Change the emergency location for a user
 
-Jede aktive Telefonnummer muss eine Notfalladresse haben (wird zugeordnet, wenn Sie eine Telefonnummer in Office 365 erhalten oder wenn Sie eine Telefonnummer übertragen), wenn die Telefonnummer dem Benutzer zugewiesen wird. Wenn Sie die Nummer mit einer Notfalladresse verknüpfen, können Sie auch einen Notfallort hinzufügen, um einen genaueren Standort innerhalb eines realen Standorts bereitzustellen. Ein Notfallort kann ein Stockwerk, ein Gebäudeflügel oder die Nummer eines Büros sein, in dem sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Standorten für eine bestimmte Notfalladresse haben, und Sie können den Notfallort ändern, wenn der Benutzer in ein anderes Büro oder Gebäude umzieht - zum Beispiel, wenn der Benutzer von Stockwerk 34 in Stockwerk 35 wechselt.
+Jede aktive Telefonnummer muss eine Notfalladresse haben (wird zugeordnet, wenn Sie eine Telefonnummer in Office 365 erhalten oder wenn Sie eine Telefonnummer übertragen), wenn die Telefonnummer dem Benutzer zugewiesen wird. Wenn Sie die Nummer mit einer Notfalladresse verknüpfen, können Sie auch einen Notfallort hinzufügen, um einen genaueren Standort innerhalb eines realen Standorts bereitzustellen. Ein Notfallstandort kann ein Stockwerk, ein Gebäudeflügel oder die Nummer eines Büros sein, in dem sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Standorten für eine bestimmte Notfalladresse haben, und Sie können den Notfallort ändern, wenn der Benutzer in ein anderes Büro oder Gebäude umzieht - zum Beispiel, wenn der Benutzer von Stockwerk 34 in Stockwerk 35 wechselt.
   
 Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was diese kosten, lesen Sie [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -38,29 +38,29 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Gehen Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
-3. Wechseln Sie im linken Navigationsbereich zu **Sprache** > **Sprachbenutzer**.
+3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **VoIP-Benutzer**.
     
     > [!IMPORTANT]
-    > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. Suchen Sie auf der Seite **Sprachbenutzer** den Benutzer, für den Sie den Notfallort ändern möchten.
+4. Klicken Sie auf der Seite **VoIP-Benutzer** suchen Sie, und wählen Sie den Benutzer, dem Sie für den Notfall Speicherort ändern möchten.
     
-5. Klicken Sie im Bereich „Aktion" unter **Notfallort** auf **Ändern**.
+5. Klicken Sie im Bereich „Aktion" unter **Notfallstandort** auf **Ändern**.
     
 6. Klicken Sie auf der Seite **Nummer zuweisen** auf **Standort ändern**. 
     
-7. Geben Sie unter **Notfalladresse ändern in** den Namen der Stadt im entsprechenden Feld ein und klicken Sie auf **Suchen**.
+7. Klicken Sie unter **Notfall Adresse zu ändern**Geben Sie den Namen der Stadt ein, in das Feld, und klicken Sie auf **Suchen**.
     
-8. Wählen Sie den Notfallort aus der Liste aus, und klicken Sie dann auf **Speichern**.
+8. Wählen Sie den Notruf Speicherort aus der Liste aus, und klicken Sie dann auf **Speichern**.
     
     Wenn Sie einen neuen Notfallort hinzufügen möchten, siehe [Hinzufügen, Ändern oder Entfernen eines Notfallortes für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen](add-or-remove-an-emergency-address-for-your-organization.md)
 
-[Hinzufügen, Ändern oder Entfernen eines Notfallorts für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md)
+[Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
 [Was ist Adressvalidierung?](what-is-address-validation.md)
 
