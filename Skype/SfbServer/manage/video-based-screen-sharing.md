@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype für Business Server planen und Konfigurationsinformationen zu Bildschirmfreigabe videobasierte (VbSS)
-ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a658453af5f71d7bb8103411ed16c534e3004a03
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968326"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935475"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Video basierten für Skype für Business Server Bildschirmfreigabe 
  
@@ -120,7 +120,7 @@ Es gibt Situationen, in dem Bildschirmfreigabe-auf RDP, wie diese Übergang wird
 - Wenn Ihr Konto in einer Umgebung gehostet wird, in der das ASMCU nicht den Mindest-Build aufweist, der VbSS unterstützt.
 - Wenn eine Person, die eine ältere Version von der Skype für Business-Client verwendet die Sitzung beigetreten ist, verwenden beispielsweise jeder eine Windows-Client-Version, die 16.0.6330.1000, Skype für Business Raum Systemgeräte oder Skype für Mobile-Geschäfts-Apps niedriger ist. 
 - Wenn ein Benutzer aus der Skype für Business Web App gemeinsam verwendet.
-- Wenn jemand Skype für Businesson Mac und nicht verwaltet wird, auf Skype für Business Online.
+- Wenn jemand Skype für Unternehmen auf Mac und nicht für Business Online auf Skype verwaltet wird.
 - Wenn jemand eine beliebige Anwendung/Windows Freigabe gestartet wird.
 - Wenn jemand beginnt mit der Aufzeichnung der Sitzung.
 - Wenn jemand während der Sitzung Remotebildschirmsteuerung aufruft.
