@@ -3,7 +3,7 @@ title: Grenzwerte und Spezifikationen für Microsoft-Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -13,12 +13,12 @@ MS.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34aec991af50ef3b06d43d705e97f6e9bba70714
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8712a40e61fbef9971637a2abdddb0fe401fca02
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889817"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935792"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft-Teams
 =============================================
@@ -30,11 +30,13 @@ Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und
 
 |Funktion    | Maximale Grenzwert |
 |-----------|---------------|
-|Anzahl der Teams, die ein Benutzer erstellen kann | 250         |
+|Anzahl der Teams, die ein Benutzer erstellen kann | Kann ein Grenzwert von 250 Objekt & sup1:         |
 |Anzahl der Elemente in einem team | 2.500       |
 |Anzahl der Teams, die ein globaler Administrator erstellen können        | Unbegrenzt   |
 |Anzahl der Teams, die ein Office 365-Mandanten enthalten kann    | 500.000     |
 |Anzahl der Kanäle pro team    | 200         |
+
+& sup1; Alle Verzeichnisobjekt in Azure Active Directory wird für diese Grenze.
 
 <a name="meetings-and-calls"></a>Besprechungen und Telefonkonferenzen 
 ------------------

@@ -3,7 +3,7 @@ title: Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsof
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/31/2018
+ms.date: 09/11/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -12,12 +12,12 @@ search.appverid: MET150
 localization_priority: Normal
 description: Office 365-Benutzer, die nicht für Microsoft-Teams lizenziert sind, können eine 1 Jahr Testversion von Teams initiieren.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 10977a95d5ff86d72964270a2c6daa7d9764448e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7fba776f109b8785b72000af4981d64015f3054c
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858821"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935816"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsoft
 =======================================================
@@ -40,6 +40,8 @@ Die Servicepläne in dieses Angebot enthalten sind:
 - SharePoint Online-Kiosk
 - Schlingern
 - Yammer Enterprise
+
+Das Angebot kann bis zu 500.000 Benutzer pro Mandant zugewiesen werden. Die Testlizenz wird 2 GB an Speicher SharePoint Online für jeden Testbenutzer zugewiesen.
 
 ## <a name="who-is-eligible"></a>Wer berechtigt ist
 
