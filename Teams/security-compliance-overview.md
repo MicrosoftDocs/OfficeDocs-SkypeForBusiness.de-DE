@@ -3,22 +3,22 @@ title: Übersicht über Sicherheit und Compliance in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: Eine Übersicht über die Sicherheits- und Compliance-Funktionen von Microsoft Teams, einschließlich Überwachung und Berichterstellung, Compliancesuche in Inhalten, eDiscovery und vielem mehr
+description: Eine Übersicht über Sicherheit und Compliance-Features von Microsoft-Teams, einschließlich der Überwachung und reporting, Inhaltssuche Compliance, eDiscovery und vieles mehr.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2cf9a0b34be89b493b75473fb89efee6943977
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887040"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937898"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -224,14 +224,16 @@ Content-Suche und eDiscovery erfordern keine Aktivierung im Compliance Center & 
 <a name="location-of-data-in-teams"></a>Speicherort von Daten in Microsoft Teams
 -------------------------
 
-Die Microsoft Teams-Daten befinden sich in der geografischen Region, die Ihrem Office 365-Mandanten zugeordnet ist. Zurzeit unterstützt Teams die Regionen Amerika, EMEA und APAC. 
+Die Microsoft Teams-Daten befinden sich in der geografischen Region, die Ihrem Office 365-Mandanten zugeordnet ist. Derzeit unterstützt Teams Australien, Kanada, Indien, Japan, UK, Nord-und Südamerika, "APAC" und "EMEA" Regionen. 
 
 > [!IMPORTANT]
-> Teams derzeit bietet vor-Ort-Daten in den Vereinigten Königreich, in Kanada und Indien für neue Mandanten nur. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat. Vorhandene Mandanten aus Großbritannien, Kanada und Indien werden in den Regionen "EMEA", Nord-und Südamerika und "APAC", die jeweils bleiben, bis ein Migrationsplan (beabsichtigt in CY2019) angekündigt wird fortgesetzt.
+> Teams derzeit bietet vor-Ort-Daten in die Australien, Kanada, Indien, Japan und Großbritannien für nur neue Mandanten. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat. Vorhandene Mandanten aus Australien, Indien und Japan werden weiterhin die Teams Daten in dem Bereich "APAC" gespeichert wurden. Vorhandene Mandanten in Kanada und GB verfügen über ihre Daten in der amerikanischen Kontinent gespeichert und EMEA-Region fest.
 
-Weitere Informationen zur Einführung der Datenspeicherung für Microsoft Teams in Indien und im Vereinigten Königreich finden Sie in Ansuman Acharyas Blogbeitrag zur [Einführung der Datenspeicherung für Microsoft Teams in Indien und zu geplanten weiteren geografischen Regionen](https://go.microsoft.com/fwlink/?linkid=867773). 
+Weitere Informationen zur Einführung der Datenspeicherung für Microsoft Teams in Indien und im Vereinigten Königreich finden Sie in Ansuman Acharyas Blogbeitrag zur [Einführung der Datenspeicherung für Microsoft Teams in Indien und zu geplanten weiteren geografischen Regionen](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
-Weitere Informationen zu Kanada Daten vor-Ort-Teams finden Sie unter [Microsoft Teams startet Kanada Daten vor-Ort-, Australien und Japan bald verfügbar](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+Finden Sie weitere Informationen in Kanada Daten vor-Ort-Teams Varun Sagars Blogbeitrag, [Microsoft Teams startet Kanada Daten vor-Ort-, Australien und Japan bald verfügbar](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+
+Finden Sie weitere Informationen zu den Start des Australien und Japan Data Service für Teams Varun Sagars Blogbeitrag, [Microsoft Teams startet Australien und Japan Daten vor-Ort ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
 Wenn Sie wissen möchten, in welcher Region sich die Daten für Ihren Mandanten befinden, wechseln Sie zu [Office 365 Admin Center](https://portal.office.com/adminportal/home) > **Einstellungen** > **Organisationsprofil**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
 
@@ -240,9 +242,9 @@ Wenn Sie wissen möchten, in welcher Region sich die Daten für Ihren Mandanten 
 <a name="how-do-conditional-access-policies-work-for-teams"></a>Wie funktionieren bedingte Zugriffsrichtlinien für Teams?
 -------------------------
 
-Microsoft-Teams, umfassend nutzt Exchange Online, SharePoint Online und Skype für Unternehmen für Produktivität Hauptszenarien, Besprechungen, Kalender, online Interop-chats & Dateifreigabe. Bedingte Zugriffsrichtlinien, die für diese apps Cloud festgelegt sind gelten direkt in Microsoft-Teams - auf einem Client für Microsoft-Teams, wenn ein Benutzer bei. 
+Microsoft-Teams, umfassend nutzt Exchange Online, SharePoint Online und Skype für Business Online für Produktivität Hauptszenarien, wie Besprechungen, Kalender, interop Chats und Dateifreigabe. Bedingte Zugriffsrichtlinien, die für diese apps Cloud festgelegt sind gelten für Microsoft-Teams, wenn ein Benutzer direkt bei Microsoft-Teams - auf jedem Client anmeldet. 
 
-Microsoft-Teams, wird als Cloud-app in Azure Active Directory bedingte Zugriffsrichtlinien separat unterstützt. Bedingte Zugriffsrichtlinien, die für die Microsoft-Teams, Cloud app festgelegt sind gelten für Microsoft-Teams, wenn ein Benutzer anmeldet. Jedoch möglicherweise ohne die richtigen Richtlinien auf anderen apps wie Exchange Online und SharePoint Online Benutzer weiterhin direkt auf diese Ressourcen zugreifen können. Weitere Hinweise zum Einrichten einer bedingten Richtlinie im Azure-Portal finden Sie hier: ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Microsoft-Teams, wird als Cloud-app in Azure Active Directory bedingte Zugriffsrichtlinien separat unterstützt. Bedingte Zugriffsrichtlinien, die für die Microsoft-Teams, Cloud app festgelegt sind gelten für Microsoft-Teams, wenn ein Benutzer anmeldet. Jedoch möglicherweise ohne die richtigen Richtlinien auf anderen apps wie Exchange Online und SharePoint Online, Benutzer weiterhin direkt auf diese Ressourcen zugreifen können. Weitere Hinweise zum Einrichten einer bedingten Richtlinie im Azure-Portal finden Sie unter: ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Microsoft-Teams Desktopclients für Windows und Mac unterstützen modernen-Authentifizierung. Moderne Authentifizierung bringt Anmeldung basierend auf der Azure Active Directory Authentifizierung Library (ADAL) für Microsoft Office-Clientanwendungen auf Plattformen.
 

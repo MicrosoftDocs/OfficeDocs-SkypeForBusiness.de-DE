@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa72e0b417b324bbd66f80ae399bc15ddde779a2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4085a0da14c1b3ee298247acd28f5a7bccf2ee53
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850251"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937890"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -51,7 +51,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 ## <a name="authentication"></a>Authentifizierung
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Wenn Sie Microsoft Teams über Internet Explorer oder Microsoft Edge beitreten, entsteht im Programm eine Dauerschleife, oder das Programm stürzt ab, und die Anmeldung funktioniert nicht.   <br/> | Ihre Organisation nutzt die Option „Vertrauenswürdige Sites“ in Internet Explorer, und die Anmeldung über die webbasierte Microsoft Teams-Anwendung funktioniert nicht richtig, da vertrauenswürdige Sites für Microsoft Teams nicht zulässig sind. <br/>|Nehmen Sie mit Administratorrechten oder über ein Gruppenrichtlinienobjekt die folgenden Änderungen an den Internet Explorer-Einstellungen vor:<br/><ol><li>Klicken Sie unter **Internetoptionen** &gt; **Privacy** &gt; **Erweitert**, erste Teilnehmern und Drittanbieter-Cookies annehmen, und aktivieren Sie das Kontrollkästchen für **immer Cookies Sitzung**.</li><li>Klicken Sie auf **Internetoptionen** &gt; **Vertrauenswürdige Sites** &gt; **Sites**, und fügen Sie die folgenden:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>HINWEIS</b>: Validieren Sie immer alle vertrauenswürdigen URLs für Microsoft Teams, und lassen Sie sie zu. Die Anforderungen finden Sie im folgenden Dokument: [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01.11.2017  <br/> |
+|Wenn Sie Microsoft Teams über Internet Explorer oder Microsoft Edge beitreten, entsteht im Programm eine Dauerschleife, oder das Programm stürzt ab, und die Anmeldung funktioniert nicht.   <br/> | Ihre Organisation nutzt die Option „Vertrauenswürdige Sites“ in Internet Explorer, und die Anmeldung über die webbasierte Microsoft Teams-Anwendung funktioniert nicht richtig, da vertrauenswürdige Sites für Microsoft Teams nicht zulässig sind. <br/>|Nehmen Sie mit Administratorrechten oder über ein Gruppenrichtlinienobjekt die folgenden Änderungen an den Internet Explorer-Einstellungen vor:<br/><ol><li>Klicken Sie unter **Internetoptionen** &gt; **Privacy** &gt; **Erweitert**, erste Teilnehmern und Drittanbieter-Cookies annehmen, und aktivieren Sie das Kontrollkästchen für **immer Cookies Sitzung**.</li><li>Klicken Sie auf **Internetoptionen** &gt; **Vertrauenswürdige Sites** &gt; **Sites**, und fügen Sie die folgenden:<ul><li>https://\Login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>HINWEIS</b>: Validieren Sie immer alle vertrauenswürdigen URLs für Microsoft Teams, und lassen Sie sie zu. Die Anforderungen finden Sie im folgenden Dokument: [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01.11.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|

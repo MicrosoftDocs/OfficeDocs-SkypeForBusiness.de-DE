@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbadb9324942cdb354570673a0fd923c9e04bdbd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 134d6d310762bc43d578085fd3f1031112307ee9
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891329"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937883"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -48,11 +48,15 @@ Die Microsoft-Teams, Installation für Windows bietet herunterladbare Installer 
 > [!NOTE]
 > Die Architektur (32-Bit im Vergleich zu 64-Bit) von Microsoft-Teams, ist der Architektur von Windows und Office-Installation unabhängig.
 
-Der Windows-Client wird im Ordner „AppData“ im Profil des Benutzers bereitgestellt. Durch die Bereitstellung im lokalen Profil des Benutzers kann der Client installiert werden, ohne dass erhöhte Rechte erforderlich sind. Der Windows-Client wird an den folgenden Speicherorten installiert:
+Der Windows-Client wird in den Anwendungsdaten-Ordner befindet sich im Profil des Benutzers bereitgestellt. Bereitstellen von lokalen Profil des Benutzers ermöglicht dem Client installiert werden soll, ohne dass mit erhöhten Rechten Rechte. Der Windows-Client nutzt die folgenden Speicherorten:
 
-- %appdata%\\local\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\Teams
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+
+- Anwendungsdaten %\\Microsoft\\Teams
+
+- %LocalAppData%\\SquirrelTemp
 
 Wenn Benutzer einen Anruf über den Client für Microsoft-Teams zum ersten Mal starten, bemerken sie möglicherweise eine Warnung mit den Einstellungen der Windows-Firewall mit der Aufforderung für Benutzer, um die Kommunikation zu ermöglichen. Benutzer möglicherweise aufgefordert, diese Meldung ignorieren, da der Anruf wird arbeiten, auch wenn die Warnung geschlossen wird.
 

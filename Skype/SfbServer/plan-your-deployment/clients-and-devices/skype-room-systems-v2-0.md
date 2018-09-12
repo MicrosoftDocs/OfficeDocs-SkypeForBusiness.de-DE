@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: In diesem Artikel wird erläutert, die relevanten Planungsaspekte für die Bereitstellung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme.
-ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: f793753b6fad2c544a4ab845b5cd220792a9b8d1
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601948"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937842"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Planen von Skype Raum Systemen v2 
 
@@ -50,7 +50,7 @@ Zusätzlich zu den Kombination Surface Pro / andocken können Sie auch Skype Rau
 
 In der Regel enthalten die fasst und integrierte Einheiten vorinstallierten Software, während Sie unterstützte Komponenten für den Surface Pro Systemen einzeln kaufen, Sie die Software zu installieren müssen. Anweisungen finden Sie unter [in diesem Artikel zum Installieren von Software auf Geräten](../../deploy/deploy-clients/room-systems-scale.md). 
 
-Sie können Skype Raum Systemen v2 mit Skype für Business Online oder Skype für Business Hybrid oder lokalen Bereitstellungen bereitstellen. Microsoft-Teams Support kommt sehr bald.
+Sie können Skype Raum Systemen v2 mit Skype für Business Online oder Skype für Business Hybrid oder lokalen Bereitstellungen bereitstellen.  Informationen zu den erforderlichen Lizenzen finden Sie unter [Skype Raum Systemen v2-Lizenzierung](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
 
 |    |     |
 |-----------|------------|

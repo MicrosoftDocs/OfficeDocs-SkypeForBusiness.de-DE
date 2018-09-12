@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73ae62ea6cf521e9f45b4de05c4dc62f408827e3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a885a79ce7e0a54a58108ce9b2fcda1c54f31616
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884036"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937852"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -42,7 +42,7 @@ Erfahren Sie mehr über [Teams arbeiten](https://support.office.com/article/team
 <a name="channel-best-practices"></a>DDE-Kanal bewährte Methoden
 ----------------------
 
-Unsere Richtlinien der bewährten Methoden ist zum Erstellen von Teams mit eine größere Anzahl von Mitgliedern und mehr Kanäle.  Um eine hohe Qualität für Benutzer zu verwalten ist es hilfreich, minimieren die Anzahl der Teams, die einer Person Teilnahme erfordern.  Kanäle in einem Team sollte als Themen oder Arbeitsabläufe sichergestellt ist, zur Unterstützung des Teams organisieren ihre Arbeit auf ihre Ziele Join übermitteln betrachtet werden.  Es ist keine bestimmte Anzahl der Kanäle, die erstellt werden soll.  Jedes Team sollte Kanäle basierend auf ihrer Arbeit, Prioritäten und Formatvorlage erstellen.  In größeren Organisationen möchten möglicherweise als "Vorlagen", um die Informationen, die sie erfassen zu bestimmte Arten von Arbeit zu standardisieren Teams erstellen.  Dies ist hilfreich für strategische Kunden Verwaltung, Managmeent vor Ort, Gesundheitswesen Szenarien, Anspruch, Problemmanagement und andere Sceanrios zu einer bestimmten Branche.   
+Unsere Richtlinien der bewährten Methoden ist zum Erstellen von Teams mit eine größere Anzahl von Mitgliedern und mehr Kanäle.  Um eine hohe Qualität für Benutzer zu verwalten ist es hilfreich, minimieren die Anzahl der Teams, die einer Person Teilnahme erfordern.  Kanäle in einem Team sollte als Themen oder Arbeitsabläufe sichergestellt ist, zur Unterstützung des Teams organisieren ihre Arbeit auf ihre Ziele Join übermitteln betrachtet werden.  Es ist keine bestimmte Anzahl der Kanäle, die erstellt werden soll.  Jedes Team sollte Kanäle basierend auf ihrer Arbeit, Prioritäten und Formatvorlage erstellen.  In größeren Organisationen möchten möglicherweise als "Vorlagen", um die Informationen, die sie erfassen zu bestimmte Arten von Arbeit zu standardisieren Teams erstellen.  Dies ist hilfreich für strategische Kundenmanagement, Verwaltung von Schulungskursen, Gesundheitswesen Szenarien, Forderung Management, Problemmanagement und andere Szenarien für eine bestimmte Branche geeignet.   
 
 Die **Allgemeine DDE-Kanal** ist für Sie bei der Erstellung des Teams standardmäßig erstellt. Es gibt viele nützliche Zwecke zu diesem Channel:
 

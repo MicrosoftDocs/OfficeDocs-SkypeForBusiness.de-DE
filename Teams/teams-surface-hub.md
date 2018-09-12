@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab8bb4be2d98c33ad01827f3eb6a3c940bfb6228
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 251cc2d12dfdab2e9bc4c9bcc928e80a9c43e2c2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868221"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938000"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft-Teams für die Fläche Hub
 ======================================
@@ -185,8 +185,6 @@ Die Pakete finden Sie auf dieser [Seite herunterladen](https://1drv.ms/f/s!Arcnb
 
 Verwenden Sie Folgendes, um die Anruf- und Besprechungen Anwendung Standardrichtlinie über Intune konfigurieren.
 
-.
-
 |Einstellung   |Wert    |Beschreibung    |
 |----------|---------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
@@ -201,3 +199,5 @@ Verwenden Sie Folgendes, um die Anruf- und Besprechungen Anwendung Standardricht
 
 Starten Sie das Fläche Hub-Gerät neu. Nach dem Neustart des Geräts, sollten Sie möglicherweise die Teams app aus dem Bildschirm Start starten und teilnehmen an einer Besprechung aus dem Kalender.
 
+> [!NOTE]
+> Wenn das Gerät oder die Geräte Ihrer Organisation nicht aktuell Teil der Windows-Insider-Anwendung sind, und Sie befinden sich in Ländern behandelt durch allgemeine Data Protection Regulierung (GDPR) (oder Einstelllungen Telemetrie Basisdatenträger manuell geändert haben), müssen Sie erneut überprüfen dass Sie vollständige Telemetrie zulässig haben, bevor Sie die Insider Programm teilnehmen. GDPR geändert, das Standardverhalten des Fläche Hub-Geräte in der EU für grundlegende Telemetrie festzulegen.

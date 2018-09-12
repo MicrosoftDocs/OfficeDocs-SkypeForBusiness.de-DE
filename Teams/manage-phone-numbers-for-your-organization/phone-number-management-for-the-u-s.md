@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Vereinigten Staaten (und in Puerto Rico) für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: 25070ff377489994101b82b9b34c74c82989c546
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bb1599a3127ffb7a07ec6001a5b2b78831ae320f
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883050"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938008"
 ---
 # <a name="phone-number-management-for-the-us"></a>Telefonnummernverwaltung für die USA
 
@@ -42,7 +42,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <br/> |[Senden Sie uns](mailto:ptn@microsoft.com) Ihre PIN und eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Sie müssen Nummern von einer Office 365-Organisation zu einer anderen übertragen.  <br/> |[Senden Sie uns](mailto:ptn@microsoft.com) eine Liste der Benutzertelefonnummern (Teilnehmernummern), die Sie übertragen möchten, sowie die PIN der Quellorganisation, von der Sie die Nummern übertragen möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
    
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-topics"></a>Verwandte Themen 
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

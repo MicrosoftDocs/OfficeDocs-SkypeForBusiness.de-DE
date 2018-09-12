@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bb29766d17ea51fdac1e898fdfa6fde72526314
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7b5a0af4327169c6ba8b640e48184591002c94ea
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867597"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937876"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams
 =======================================================
@@ -25,7 +25,7 @@ Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updat
 
 Ein beliebiges Mitglied eines Teams kann ihr Team mit beliebte Clouddiensten mit Connectors verbinden, wenn die Teamberechtigungen zulassen, und alle Teammitglieder Aktivitäten von diesem Dienst benachrichtigt werden. Verbinder bleiben auch nach der Member-Funktion, die Anfangs Setup hat, die der Connector verlassen hat. Jedes Teammitglied mit den Berechtigungen zum hinzufügen/entfernen kann Konnektoren Setup anderer Mitglieder ändern.
 
-Office 365-Connectors können für Microsoft Teams- und Office 365-Gruppen verwendet werden, sodass alle Mitglieder leichter auf dem Laufenden bleiben und relevante Informationen schnell erhalten können. Da Microsoft Teams und Exchange das gleiche Connector-Modell nutzen, können Sie auf beiden Plattformen die gleichen Connectors verwenden.
+Office 365-Connectors können mit beiden Microsoft-Teams verwendet werden und Office 365-Gruppen, erleichtert es für alle Mitglieder synchronisiert bleiben und relevanten Informationen schnell zu erhalten. Microsoft-Teams und Exchange verwenden dasselbe Modell Connector, das Sie die gleichen Connectors in beiden Plattformen verwenden kann. Dabei ist zu beachten, jedoch, deaktivieren Connectors für die Office 365-Gruppe, die ein Team abhängig ist die Möglichkeit zum Erstellen von Konnektoren für dieses Team auch deaktivieren.
 
 Zurzeit können Connectors mit den Microsoft Teams-Desktopclients und -Webclients hinzugefügt werden. Von diesen Connectors gepostete Informationen können jedoch mit **allen Clients**, auch den mobilen Clients, angezeigt werden.
 

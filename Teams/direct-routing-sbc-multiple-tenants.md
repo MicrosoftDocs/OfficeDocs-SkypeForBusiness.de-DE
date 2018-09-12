@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Informationen Sie zum Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
-ms.openlocfilehash: 3073800a6c200bcaeffafb557d6ea149dee598cd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 66f529c5a64c56a25a826cac8e26b3e7219cd1de
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866459"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937992"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controller für mehrere Mandanten
 
@@ -52,7 +52,7 @@ Es folgen die technischen Implementierungsschritte zum Konfigurieren der Szenari
 Die detaillierte Schritte zum Bereitstellen und SBCs für einen SBC-hosting-Szenario konfigurieren finden Sie in den SBC Herstellers.
 
 - **AudioCodes:** [Direkte Routingkonfiguration Notizen](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), die Konfiguration von den SBC Hosten in "Connecting AudioCodes SBC zu Microsoft-Teams, direkte Routing Hosting-Modell Konfiguration Notiz" beschriebenen Szenario 
-- **Des Menübands Communications:** Für SBC Hostingszenarios wird nur die Serie Core unterstützt. Bitte finden Sie im [Menüband Communications SBC Core Microsoft Teams Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
+- **Des Menübands Communications:**  Finden Sie im [Menüband Communications SBC Core Microsoft Teams Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) Dokumentation zum Menüband Core Datenreihe SBCs zu konfigurieren und zu dieser Seite [Menüband bewährte bewährte Methode - Netzbetreibern für die Microsoft-Teams direkte Weiterleitung konfigurieren SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Bitte achten Sie auf die Kopfzeile "Kontakt" zu konfigurieren. Die Kontakt Kopfzeile wird verwendet, um den Mandanten Kunden auf eingehende Invite-Nachricht zu suchen. 

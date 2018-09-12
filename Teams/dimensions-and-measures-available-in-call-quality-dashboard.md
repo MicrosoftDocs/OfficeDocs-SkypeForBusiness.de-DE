@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 27f074526da7c63ecfdcfab912650e514c3717b3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0f23fc6ca106530f64e9854150d922b8a32da7d2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867003"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937835"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen
 
@@ -112,18 +112,18 @@ In der folgenden Tabelle finden Sie eine Auflistung der aktuell in CQD verfügba
 |Duration 60 seconds or more  <br/> |Boolescher Wert  <br/> |„True", wenn die Dauer des Datenstroms 60 Sekunden oder mehr betragen hat. Andernfalls „False".  |**Beispielwert:** true  <br/> |
 |Duration (Seconds)  <br/> |Bereich (Sekunden)  <br/> |Dauer des Datenstroms in Sekunden. Die Werte sind nach Bereich gruppiert. |  **Beispielwert:** 062: [1 -2)  <br/> |
 |Duration (Minutes)  <br/> |Bereich (Minuten)  <br/> |Dauer des Datenstroms in Minuten. Die Werte sind nach Bereich gruppiert. |  **Beispielwert:** 065: [3-4)  <br/> |
-|Datum  <br/> |String  <br/> |Datum des Streams beendet.  |**Beispielwert:** 2018-06-01  <br/> |
-|Year  <br/> |Ganze Zahl  <br/> |Jahr am Ende des Datenstroms.  | **Beispielwert:** 2018  <br/> |
-|Month  <br/> |Ganze Zahl  <br/> |Monat am Ende des Datenstroms.  | **Beispielwert:** 2  <br/> |
-|Day  <br/> |Ganze Zahl  <br/> |Tag am Ende des Datenstroms.  |**Beispielwert:** 1  <br/> |
-|Hour  <br/> |Ganze Zahl  <br/> |Stunde am Ende des Datenstroms.  | **Beispielwert:** 1  <br/> |
-|Minute  <br/> |Ganze Zahl  <br/> |Minute am Ende des Datenstroms.  | **Beispielwert:** 30  <br/> |
-|Second  <br/> |Ganze Zahl  <br/> |Zweite am Ende des Datenstroms.  |**Beispielwert:** 12  <br/> |
-|Day Of Year  <br/> |Ganze Zahl  <br/> |Tag des Jahres am Ende des Datenstroms.  | **Beispielwert:** 32  <br/> |
-|Day Of Week  <br/> |Zeichenfolge  <br/> |Tag der Woche vom Ende des Datenstroms.  | **Beispielwert:** Mittwoch  <br/> |
-|Day Number Of Week  <br/> |Ganze Zahl  <br/> |Anzahl der Tag der Woche vom Ende des Datenstroms.  | **Beispielwert:** 3  <br/> |
-|Month Year  <br/> |Zeichenfolge  <br/> |Monat und Jahr am Ende des Datenstroms.  |**Beispielwert:** 2017-02  <br/> |
-|Full Month  <br/> |Datum/Uhrzeit  <br/> |Vollständigen Monat am Ende des Datenstroms.  | **Beispielwert:** 2017-02-01 T00:00:00  <br/> |
+|Datum  <br/> |String  <br/> |Datum des Streams beendet. Werte werden in der UTC-Zeitzone gemeldet.  |**Beispielwert:** 2018-06-01  <br/> |
+|Year  <br/> |Ganze Zahl  <br/> |Jahr am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  | **Beispielwert:** 2018  <br/> |
+|Month  <br/> |Ganze Zahl  <br/> |Monat am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  | **Beispielwert:** 2  <br/> |
+|Day  <br/> |Ganze Zahl  <br/> |Tag am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  |**Beispielwert:** 1  <br/> |
+|Hour  <br/> |Ganze Zahl  <br/> |Stunde am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  | **Beispielwert:** 1  <br/> |
+|Minute  <br/> |Ganze Zahl  <br/> |Minute am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  | **Beispielwert:** 30  <br/> |
+|Second  <br/> |Ganze Zahl  <br/> |Zweite am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  |**Beispielwert:** 12  <br/> |
+|Day Of Year  <br/> |Ganze Zahl  <br/> |Tag des Jahres am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  | **Beispielwert:** 32  <br/> |
+|Day Of Week  <br/> |Zeichenfolge  <br/> |Tag der Woche vom Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  | **Beispielwert:** Mittwoch  <br/> |
+|Day Number Of Week  <br/> |Ganze Zahl  <br/> |Anzahl der Tag der Woche vom Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  | **Beispielwert:** 3  <br/> |
+|Month Year  <br/> |Zeichenfolge  <br/> |Monat und Jahr am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  |**Beispielwert:** 2017-02  <br/> |
+|Full Month  <br/> |Datum/Uhrzeit  <br/> |Vollständigen Monat am Ende des Datenstroms. Werte werden in der UTC-Zeitzone gemeldet.  | **Beispielwert:** 2017-02-01T00:00:00  <br/> |
 |First Domain  <br/> |Zeichenfolge  <br/> |Domäne des Benutzers, der den ersten Endpunkt verwendet. Wenn der erste Endpunkt ein Konferenzserver ist, handelt es sich um die Domäne des Besprechungsorganisators. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein.  <br/> |**Beispielwert:** "contoso.com"  <br/> |
 |Second Domain  <br/> |Zeichenfolge  <br/> |Domäne des Benutzers, der den zweiten Endpunkt verwendet. Wenn der zweite Endpunkt ein Konferenzserver ist, handelt es sich um die Domäne des Besprechungsorganisators. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein.  | **Beispielwert:** "contoso.com"  <br/> |
 |First User Agent Category  <br/> |Zeichenfolge  <br/> |Kategorie des Benutzer-Agenten für den ersten Endpunkt.  <br/> |Leere Werte deuten auf einen Benutzer-Agenten hin, der derzeit nicht über eine Zuordnung verfügt, wie beispielsweise ein Benutzer-Agent eines Drittanbieters.  <br/>  **Beispielwert:** OC  <br/> |
@@ -198,15 +198,15 @@ In der folgenden Tabelle finden Sie eine Auflistung der aktuell in CQD verfügba
 |Second DNS Suffix  <br/> |Zeichenfolge  <br/> |Das vom zweiten Endpunkt angegebene mit dem Netzwerkadapter verbundene DNS-Suffix. Beachten Sie, dass dieser Wert für einen beliebigen Netzwerkadaptertyp angegeben werden kann.  <br/> |Leere Werte deuten darauf hin, dass dieser Wert nicht vom Endpunkt erfasst wurde.  <br/>  **Beispielwert:** "corp.contoso.com"  <br/> |
 |First Wifi Band  <br/> |Zeichenfolge  <br/> |Das verwendete WLAN-Band, wie vom ersten Endpunkt angegeben.  <br/> |Leere Werte deuten darauf hin, dass der Wert vom Endpunkt nicht verarbeitet oder nicht erfasst wurde. <br/>  **Beispielwert:** 5,0 Ghz  <br/> |
 |Second Wifi Band  <br/> |Zeichenfolge  <br/> |Das verwendete WLAN-Band, wie vom zweiten Endpunkt angegeben.  <br/> |Leere Werte deuten darauf hin, dass der Wert vom Endpunkt nicht verarbeitet oder nicht erfasst wurde.   <br/> **Beispielwert:** 5,0 Ghz  <br/> |
-|First Wifi Signal Strength  <br/> |Zeichenfolge  <br/> |Vom ersten Endpunkt angegebene WLAN-Signalstärke in Prozent [0-99].  <br/> |Leere Werte deuten darauf hin, dass der Wert vom Endpunkt nicht verarbeitet oder nicht erfasst wurde.  <br/> **Beispielwert:** 081: [90-100)  <br/> |
-|Second Wifi Signal Strength  <br/> |Zeichenfolge  <br/> |Vom zweiten Endpunkt angegebene WLAN-Signalstärke in Prozent [0-99].  <br/> |Leere Werte deuten darauf hin, dass der Wert vom Endpunkt nicht verarbeitet oder nicht erfasst wurde.  <br/> **Beispielwert:** 081: [90-100)  <br/> |
+|First Wifi Signal Strength  <br/> |Zeichenfolge  <br/> |WiFi Signalstärke in Prozent [0-100] vom ersten Endpunkt gemeldet.  <br/> |Leere Werte deuten darauf hin, dass der Wert vom Endpunkt nicht verarbeitet oder nicht erfasst wurde.  <br/> **Beispielwert:** 081: [90-100)  <br/> |
+|Second Wifi Signal Strength  <br/> |Zeichenfolge  <br/> |WiFi Signalstärke in Prozent [0-100] vom zweiten Endpunkt gemeldet.  <br/> |Leere Werte deuten darauf hin, dass der Wert vom Endpunkt nicht verarbeitet oder nicht erfasst wurde.  <br/> **Beispielwert:** 081: [90-100)  <br/> |
 |First Wifi Battery Charge  <br/> |Bereich (Prozentsatz)  <br/> |Der vom ersten Endpunkt angegebene geschätzte verbleibende Akkustand in Prozent [0-99]. Die Werte sind nach Bereich gruppiert. 0 gibt an, dass das Gerät eingesteckt war.  <br/> |Leere Werte deuten darauf hin, dass WLAN nicht verwendet oder der Wert des Akkustands nicht erfasst wurde. <br/>   **Beispielwert:** 081: [90-100)  <br/> |
 |Second Wifi Battery Charge  <br/> |Bereich (Prozentsatz)  <br/> |Der vom zweiten Endpunkt angegebene geschätzte verbleibende Akkustand in Prozent [0-99]. Die Werte sind nach Bereich gruppiert. 0 gibt an, dass das Gerät eingesteckt war.  <br/> |Leere Werte deuten darauf hin, dass WLAN nicht verwendet oder der Wert des Akkustands nicht erfasst wurde.  <br/>  **Beispielwert:** 081: [90-100)  <br/> |
 |Audio Degradation Avg  <br/> |Bereich (Mean Opinion Score, MOS 0-5)  <br/> |Beeinträchtigung des durchschnittlichen MOS (Mean Opinion Score) für den Datenstrom. Gibt an, wie sich Netzwerkprobleme und Jitter auf die Audioqualität ausgewirkt haben. Die Werte sind nach Bereich gruppiert.  <br/> |Leere Werte deuten darauf hin, dass der Endpunkt, der den Datenstrom empfängt, keine Beeinträchtigung des MOS für das Netzwerk aufweist, oder dass es sich bei dem Datenstrom nicht um einen Audiodatenstrom handelt.   <br/> **Beispielwert:** 015: [0.01-0.02)  <br/> |
 |Jitter  <br/> |Bereich (Millisekunden)  <br/> |Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden. Die Werte sind nach Bereich gruppiert.  <br/> |Leere Werte deuten darauf hin, dass vom Endpunkt, der den Datenstrom empfängt, keine Jitter-Daten angegeben wurden.  <br/> **Beispielwert:** 065: [2-3)  <br/> |
 |Jitter Max  <br/> |Bereich (Millisekunden)  <br/> |Maximale Anzahl an Jitter-Daten für Datenstrom in Minuten. Die Werte sind nach Bereich gruppiert.  <br/> |Leere Werte deuten darauf hin, dass vom Endpunkt, der den Datenstrom empfängt, keine Jitter-Daten angegeben wurden.   <br/> **Beispielwert:** 065: [2-3)  <br/> |
-|Packet Loss Rate  <br/> |Bereich (Prozentsatz)  <br/> |Durchschnittlich Paketverlustrate für Datenstrom. Die Werte sind nach Bereich gruppiert.  <br/> |Leere Werte deuten darauf hin, dass vom Endpunkt, der den Datenstrom empfängt, keine Paketverlustdaten angegeben wurden.  <br/>  **Beispielwert:** 050: [1.8-1.9)  <br/> |
-|Packet Loss Rate Max  <br/> |Bereich (Prozentsatz)  <br/> |Maximale Paketverlustrate für Datenstrom. Die Werte sind nach Bereich gruppiert.  <br/> |Leere Werte deuten darauf hin, dass vom Endpunkt, der den Datenstrom empfängt, keine Paketverlustdaten angegeben wurden.   <br/> **Beispielwert:** 041: [0.95-1)  <br/> |
+|Packet Loss Rate  <br/> |Bereich (Verhältnis)  <br/> |Durchschnittlich Paketverlustrate für Datenstrom. Die Werte sind nach Bereich gruppiert. 0,1 gibt 10 % Paketverlusten an.  <br/> |Leere Werte deuten darauf hin, dass vom Endpunkt, der den Datenstrom empfängt, keine Paketverlustdaten angegeben wurden.  <br/>  **Beispielwert:** 015: [0.01-0.02)  <br/> |
+|Packet Loss Rate Max  <br/> |Bereich (Verhältnis)  <br/> |Maximale Paketverlustrate für Datenstrom. Die Werte sind nach Bereich gruppiert. 0,1 gibt 10 % Paketverlusten an.  <br/> |Leere Werte deuten darauf hin, dass vom Endpunkt, der den Datenstrom empfängt, keine Paketverlustdaten angegeben wurden.   <br/> **Beispielwert:** 023: [0.09-0.1)  <br/> |
 |Overall Avg Network MOS  <br/> |Bereich (MOS)  <br/> |Durchschnittlicher Netzwerk-MOS für Datenstrom. Die Werte sind nach Bereich gruppiert.  <br/> |Leere Werte deuten darauf hin, dass der Endpunkt, der den Datenstrom empfängt, keine Beeinträchtigung des MOS für das Netzwerk aufweist, oder dass es sich bei dem Datenstrom nicht um einen Audiodatenstrom handelt.   <br/> **Beispielwert:** 076: [4.4-4.5)  <br/> |
 |Ratio Concealed Samples Avg  <br/> |Bereich (Verhältnis)  <br/> |Verhältnis der Anzahl der Audioframes mit Beispielen, die durch den verdeckten Paketverlust generiert wurden, zur Gesamtzahl der Audioframes. Die Werte sind nach Bereich gruppiert. 0,1 deutet auf 10 % Frames hin, die verdeckte Beispiele enthalten.  <br/> |Leere Werte deuten darauf hin, dass dieser Wert vom Empfänger des Datenstroms nicht angezeigt wurde, oder dass der Datenstrom kein Audiodatenstrom war.   <br/> **Beispielwert:** 015: [0.01-0.02)  <br/> |
 |Ratio Stretched Samples Avg  <br/> |Bereich (Verhältnis)  <br/> |Verhältnis der Anzahl der Audioframes mit Beispielen, die gestreckt wurden, um Jitter oder Datenverlust im Verhältnis zur Gesamtzahl der Audioframes zu kompensieren. Die Werte sind nach Bereich gruppiert. 0,1 deutet auf 10 % Audioframes hin, die gestreckte Beispiele enthalten.  <br/> |Leere Werte deuten darauf hin, dass dieser Wert vom Empfänger des Datenstroms nicht angezeigt wurde, oder dass der Datenstrom kein Audiodatenstrom war.  <br/>  **Beispielwert:** 017: [0.03-0.04)  <br/> |
@@ -471,8 +471,8 @@ In der folgenden Tabelle werden die derzeit im Anrufqualitäts-Dashboards (CQD) 
 |Avg Audio Degradation  <br/> |Mean Opinion Score (MOS) von 0 bis 5  <br/> |Netzwerk-MOS-Degradierung für Datenströme im Durchschnitt. Stellt dar, wie sehr sich der Netzwerkverlust und Jitter auf die Qualität der empfangenen Audiodaten ausgewirkt hat.  <br/> |
 |Avg Jitter  <br/> |Millisekunden  <br/> |Durchschnittlicher Netzwerk-Jitter für Datenströme in Millisekunden.  <br/> |
 |Avg Jitter Max  <br/> |Millisekunden  <br/> |Maximaler Netzwerk-Jitter für Datenströme in Millisekunden.  <br/> |
-|Avg Packet Loss Rate  <br/> |Prozentsatz  <br/> |Durchschnitt des durchschnittlichen Paketverlusts für Datenströme, der in einem Intervall von 5 Sekunden berechnet wurde.  <br/> |
-|Avg Packet Loss Rate Max  <br/> |Prozentsatz  <br/> |Durchschnitt des maximalen Paketverlusts für Datenströme, der in einem Intervall von 5 Sekunden berechnet wurde.  <br/> |
+|Avg Packet Loss Rate  <br/> |Verhältnis  <br/> |Durchschnitt des durchschnittlichen Paketverlusts für Datenströme, der in einem Intervall von 5 Sekunden berechnet wurde. 0,1 gibt 10 % Paketverlusten an.  <br/> |
+|Avg Packet Loss Rate Max  <br/> |Verhältnis  <br/> |Durchschnitt des maximalen Paketverlusts für Datenströme, der in einem Intervall von 5 Sekunden berechnet wurde. 0,1 gibt 10 % Paketverlusten an.  <br/> |
 |Avg Overall Avg Network MOS  <br/> |Mean Opinion Score (MOS) von 0 bis 5  <br/> |Durchschnittlicher MOS oder durchschnittlicher Netzwerk-MOS für Datenströme. Stellt die vorhergesagte durchschnittliche Qualität der empfangenen Audiodaten dar, wobei Netzwerkverlust, Jitter und Codec berücksichtigt wird.  <br/> |
 |Avg Ratio Concealed Samples  <br/> |Verhältnis  <br/> |Durchschnitt für das durchschnittl. Verhältnis zwischen der Anzahl der Audioframes mit Beispielen, die durch Paketverlustausgleich generiert wurden, und der Gesamtzahl der Audioframes für Datenströme. 0,1 gibt an, dass 10 % der Frames Ausblendungsbeispiele enthalten haben.  <br/> |
 |Avg Ratio Stretched Samples  <br/> |Verhältnis  <br/> |Durchschnitt für das durchschnittl. Verhältnis zwischen der Anzahl der Audioframes mit Beispielen, die zum Ausgleich für Jitter oder Paketverlust gestreckt wurden, und der Gesamtzahl der Audioframes für Datenströme. 0,1 gibt an, dass 10 % der Frames Streckungsbeispiele enthalten haben.  <br/> |
