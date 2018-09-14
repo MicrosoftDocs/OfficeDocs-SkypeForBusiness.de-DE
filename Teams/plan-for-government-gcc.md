@@ -3,7 +3,7 @@ title: Planen von Microsoft 365 Government - Bereitstellungen GCC - Microsoft-Te
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/26/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430b6c6de5468442f7a290b07b28eb59d276e00c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 34c13d9094512a52c334acf2b660b11b6579c886
+ms.sourcegitcommit: 63c391ce9144ba5b296050ac189f77f5cea78707
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885772"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23973686"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 
@@ -66,8 +66,7 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige
 | E-Mail von einem DDE-Kanal             | Die aktuelle featurearchitektur in US-Regierung Pläne wird nicht unterstützt. |
 | Einheitliche Anwesenheit            | Wir sind fertig gestellt Arbeit unseren Unternehmenskunden zuerst für dieses wichtige Features. Es wird in der Zukunft zu behördliche Kunden verfügbar sein. |
 | Interop Chat zwischen Teams & SfB Benutzer            | Interop ist abhängigen auf Unified Anwesenheit Service (USV) und kann nicht funktionsfähig, wenn für USV GCC Teams Mandanten aktiviert sind. |
-
-| E-Mail-Benachrichtigungen | Die aktuelle featurearchitektur in den Plänen US-Regierung wird nicht unterstützt. Dieses Feature verfügbar gemacht US-Regierung Plan Kunden in Zukunft laufende "Arbeit" ist. |
+| E-Mail-Benachrichtigungen         | Die aktuelle featurearchitektur in den Plänen US-Regierung wird nicht unterstützt. Dieses Feature verfügbar gemacht US-Regierung Plan Kunden in Zukunft laufende "Arbeit" ist. |
 
 
 |    |     |
