@@ -1,0 +1,1 @@
+Wir aktualisieren die Verwaltung der Funktionen in Microsoft Teams häufig. Daher können sich die hier beschriebenen Schritte etwas von denen in Microsoft Teams unterscheiden.
