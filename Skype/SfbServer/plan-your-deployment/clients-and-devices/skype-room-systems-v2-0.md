@@ -1,7 +1,8 @@
 ---
 title: Planung für Skype Room Systems v2
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: In diesem Artikel wird erläutert, die relevanten Planungsaspekte für die Bereitstellung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme.
-ms.openlocfilehash: f793753b6fad2c544a4ab845b5cd220792a9b8d1
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 502e7d83c3dc729adbfbdd59764ba8fdfe1f7012
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937842"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965996"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Planen von Skype Raum Systemen v2 
 

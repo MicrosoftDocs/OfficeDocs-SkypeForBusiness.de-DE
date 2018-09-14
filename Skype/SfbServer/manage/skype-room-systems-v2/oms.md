@@ -2,6 +2,7 @@
 title: Verwalten von Skype Room Systems v2-Geräten mit OMS
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/19/2017
 ms.audience: ITPro
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 'In diesem Artikel wird die integrierte End-to-End-Bereitstellung von Skype Room System V2-Geräten mithilfe von Microsoft Operations Management Suite erläutert. '
-ms.openlocfilehash: 4290e89f2a5faba6fa4efdfb48e57345bc0c35f5
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 5c472995c4948ce83587ec130724ddf3bdb5c75f
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965919"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>Verwalten von Skype Room Systems v2-Geräten mit OMS
  
@@ -39,12 +41,9 @@ Wenn Sie diese Ereignisbeschreibungen verstehen, werden Sie schnell über Proble
 |3001  <br/> Error-Ereignis  <br/> |Dies ist eine Hardware Error-Ereignis. Die app SRS verfügt über ein Prozess, der die Integrität der verbundenen Hardwarekomponenten (Vordergrund Raum, Mikrofon, Lautsprecher und Kamera) alle 5 Minuten überprüft. Wenn eine oder mehrere Komponenten fehlerhaft sind, wird es EventID 3001 in das Ereignisprotokoll geschrieben. Dieses Ereignis wird weiterhin geschrieben werden alle 5 Minuten, bis das Problem mit dem Gerät behoben wurde.  <br/> |{"Beschreibung": " **Status Front des Raums anzeigen: instabil.** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy. ","ResourceState":"Unhealthy","OperationName":"HardwareCheckEngine","OperationResult":"Fail","OS":"Windows 10","OSVersion":"10.0.14393.1198","Alias":"alias@contoso.com","DisplayName":"Yosemite conference room","AppVersion":"2.0.58.0","IPv4Address":"10.10.10.10","IPv6Address":"IPv6Address","IPv4Address2":"10.10.10.10"} <br/>  Die Hardware-Peripheriegeräte werden entweder als „Healthy“ (Fehlerfrei) oder „Unhealthy“ (Fehlerhaft) angezeigt. <br/> In diesem Beispiel werden zwei Vorderseite Raum zeigt konfiguriert, und derzeit keine davon steht. Der Konferenz Mikrofon Status ist fehlerhaft, die möglicherweise einer Reihe von möglichen Ursachen. Da mindestens eine Ressource die Überprüfung nicht bestanden haben, wird die ResourceState als fehlerhaft aufgelistet. Senden Sie einen Techniker weiter untersuchen.  <br/> |
 |4000  <br/> Informationen  <br/> |Dies ist ein App-Neustartereignis. Immer, wenn die App neu gestartet wird, wird dieses Ereignis im Windows-Fehlerprotokoll protokolliert.  <br/> | {"Description":"App restarts.","ResourceState":"Healthy","OperationName":"Restart","OperationResult":"Pass","OS":"Windows 10","OSVersion":"10.0.14393.693","Alias":"alias@domain.com","DisplayName":"Display Name","AppVersion":"1.0.38.0","IPv4Address":"10.10.10.10","IPv6Address":"ip v6 address"} <br/> Die Skype for Business-App wird möglicherweise aufgrund einer Reihe von Ursachen neu gestartet. Vergleichen Sie die Neustartfrequenz der Geräte im selben Gebäude und in anderen Gebäuden und berücksichtigen Sie dabei Probleme wie Stromzufuhrschwankungen und Stromausfälle, da diese Hinweise auf mögliche Infrastrukturprobleme geben können. <br/> |
    
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
-<a name="Telemetry"> </a>
+## <a name="see-also"></a>Siehe auch
+<a name="Telemetry"></a>
 
-#### 
-
-[Planen der Verwaltung von Skype Raum Systemen v2 mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[Planen der Verwaltung von Skype Room System V2 mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[Bereitstellen von Skype Raum v2 systemverwaltung mit OMS](../../deploy/deploy-clients/with-oms.md)
-
+[Bereitstellen der Verwaltung von Skype Room System V2 mit OMS](../../deploy/deploy-clients/with-oms.md)

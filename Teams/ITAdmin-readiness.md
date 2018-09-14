@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42ac2b70b0ab0ba014decbef423ee82c6d45ddb2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 50e9bf67a920b36ade9eabf037bd4a0a551e7ad6
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849845"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965649"
 ---
 <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 ==================================
@@ -36,12 +36,12 @@ Hier erhalten Sie Informationen zu Microsoft Teams und zum Vorantreiben der Nutz
 | [Tutorial: Grundlegendes zu Anrufen in Microsoft Teams](tutorial-calling-in-teams.yml)  |  Diese Schulung stellt die Anruffunktionen in Microsoft Teams vor, die von der Telefonsystemfunktion in Office 365 unterstützt werden. Enthält Erläuterungen zur erforderlichen technischen Planung für die Implementierung des Telefonsystems, zur Konfiguration und zur Überwachung der Verwendung und der Anrufqualität in Ihrer Implementierung.  |
 | [Videos für Audiokonferenzen](audio-conferencing-videos.md) |Videos für IT-Administratoren, in denen Audiokonferenzen in Microsoft Teams vorgestellt werden  |
 | [Tutorial: Besprechungen in Microsoft Teams](tutorial-meetings-in-teams.yml) | Diese Schulung werden Besprechungen in Teams vorgestellt. Es werden Funktionen für die Besprechung, plus Anforderungen und Hinweise zur Planung behandelt. |
-| Bereitstellen und Ausführen von Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| Direktes Routing für Microsoft-Teams (Preview)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
-| Deep Dive into Guest Access (Tiefe Einblicke in die Gastzugriffsfunktion) <br>„Coffee in the Cloud“-Sitzung mit Laith Al und Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| e-Discovery in Microsoft Teams <br> „Coffee in the Cloud“-Sitzung mit Ansuman Acharya und Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
-| Microsoft Teams: Schrittweise Einführung in die Verwendung, Aktivierung und Verwaltung von Funktionen <br> „Microsoft Mechanics“-Sitzung mit Dan Stevenson und Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-| Verwalten der App-Funktionen in Microsoft Teams <br> „Coffee in the Cloud“-Sitzung mit Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+| Bereitstellen und Ausführen von Microsoft Teams   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Direktes Routing für Microsoft-Teams (Preview)   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
+| Deep Dive into Guest Access (Tiefe Einblicke in die Gastzugriffsfunktion) <br>„Coffee in the Cloud“-Sitzung mit Laith Al und Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+| e-Discovery in Microsoft Teams <br> „Coffee in the Cloud“-Sitzung mit Ansuman Acharya und Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
+| Microsoft Teams: Schrittweise Einführung in die Verwendung, Aktivierung und Verwaltung von Funktionen <br> „Microsoft Mechanics“-Sitzung mit Dan Stevenson und Jeremy Chapman |  <iframe width="320" height="240" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
+| Verwalten der App-Funktionen in Microsoft Teams <br> „Coffee in the Cloud“-Sitzung mit Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

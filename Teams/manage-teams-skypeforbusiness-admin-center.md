@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Teams während des Übergangs auf die neuen Microsoft-Teams und Skype für Business Admin Center
+title: Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 1e334e4978ea645527273a79f49ed097038fcb36
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885436"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965699"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Verwalten von Teams während des Übergangs auf die neuen Microsoft-Teams und Skype für Business Admin Center
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center
 ======================================================
 
 Das neue Admin Center für Microsoft Teams und Skype for Business ist in Kürze verfügbar! 
@@ -41,6 +41,7 @@ Die neue Oberfläche Admin Center wird Ihnen ein einheitliches Benutzererlebnis 
 
 ![Screenshot des Microsoft-Teams & Skype für Business Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
+## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Einstellungen migriert in der neuen Microsoft-Teams & Skype für Business-Verwaltungskonsole
 
 Starten in der Mitte März 2018, wurden die folgenden Funktionen in der neuen Microsoft-Teams & Skype für Business Admin Center verfügbar: 
 
@@ -49,15 +50,9 @@ Starten in der Mitte März 2018, wurden die folgenden Funktionen in der neuen Mi
 - **Microsoft-Teams Gast messaging-Einstellungen**: steuern die messaging-Funktionen für Gastkonten in Microsoft-Teams. 
 - **Verbundeinstellungen**: den Verbund zwischen Mandanten für Microsoft-Teams und Skype für Unternehmen zu verwalten. 
 - **Die Verwaltung von**: Zuweisen von Richtlinien und Konfigurieren von Benutzerkonten. 
-- **Audiokonferenzen**: Konfigurieren von Einwahlnummern und Einstellungen für Skype für Geschäfts- und Microsoft-Teams. 
+- **Audiokonferenzen**: Konfigurieren von Einwahlnummern und Einstellungen für Skype für Geschäfts- und Microsoft-Teams.  
 
- 
-
-## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Einstellungen migriert in der neuen Microsoft-Teams & Skype für Business-Verwaltungskonsole
-
-Die vorhandenen Einstellungen für allgemeine, e-Mail-Integration, benutzerdefinierte cloudspeicher, Anrufe und Besprechungen und Messaging in Microsoft-Teams werden (siehe Abbildung unten) in der neuen Microsoft-Teams & Skype für Business Admin Center (auch bekannt als das neue Portal Admin) migriert in den nächsten Monaten. 
-
-
+Darüber hinaus haben Ihre vorhandenen Einstellungen für allgemeine, e-Mail-Integration, benutzerdefinierte cloudspeicher, Anrufe und Besprechungen und Messaging in Microsoft-Teams, jetzt in der neuen Microsoft-Teams & Skype für Business Admin Center (auch bekannt als die neue Admin migriert wurden Portal). 
 
 > [!NOTE]
 >Sie können weiterhin das Gruppen-Dashboard im Office 365 Admin Center für die Konfiguration im Zusammenhang mit der **Teams und Kanäle**verwenden. Einstellungen für **Apps** bleibt im Bereich Teams von Office 365 Admin Center und migriert werden weiter unten. 
@@ -66,11 +61,9 @@ Die vorhandenen Einstellungen für allgemeine, e-Mail-Integration, benutzerdefin
 
 Im Hinblick auf die Einstellungen in den **Einstellungen durch Benutzer/Lizenztyp**verfügbar sofern diese im Wesentlichen eine Möglichkeit zum Konfigurieren von Benutzergruppen unterschiedlich. Nun, mit dem neuen Admin-Portal, die für jeden Benutzer einzeln möglich. 
 
-
 Festlegen der Lizenztyp werden migriert. Wenn Sie die Einstellung **Aktivieren Microsoft-Teams, aktiviert oder deaktiviert für alle Benutzer dieses Typs** zum Steuern des Zugriffs auf die Teams für Benutzer über SKUs derzeit verwenden, werden wir Ihre aktuellen Konfigurationen verwalten. Jedoch, Sie kann nicht zum Ändern dieser Einstellung in der neuen Verwaltungsportals werden. Stattdessen können Sie die entsprechenden Lizenzen Benutzern in Ihrem Mandanten über das Office 365 Administrationscenter zuweisen. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md). 
 
-Die folgende Tabelle zeigt die Abschnitte des Teams Kenntnissen, die migriert werden, und zeigt die Beziehung zwischen der aktuellen Einstellungen und Richtlinien in das neue Admin-Portal.
-
+Die folgende Tabelle gibt die Abschnitte der aktuellen Teams Erfahrung, die migriert wurden, und zeigt die Beziehung zwischen der aktuellen Einstellungen und Richtlinien in das neue Admin-Portal.
 
 |Abschnitt Teams in Office 365 Admin center  |Name der Einstellung (Mandanten Level)  |Microsoft-Teams & Skype für Business Admin Center-Richtlinie   |Stufe: Mandanten oder Benutzer   |
 |---------|---------|---------|---------|
@@ -102,10 +95,7 @@ Die folgende Tabelle zeigt die Abschnitte des Teams Kenntnissen, die migriert we
 |Messaging     |Ermöglicht es Benutzern, privat chat         |TeamsMessagingPolicy         |Benutzer         |
 
 
-
 ## <a name="manage-settings-during-the-migration"></a>Verwalten von Einstellungen für während der migration
-
-Wir planen der Migration von Teams Einstellungen in den Abschnitten in der folgenden Reihenfolge: Messaging, Besprechungen, Anrufe und schließlich die Abschnitte innerhalb der Richtlinie TeamsClient Konfiguration (Allgemein, E-Mail-Integration und benutzerdefinierte cloudspeicher).   
 
 Sie können weiterhin Ändern der Einstellungen in der Office 365-Verwaltungskonsole und der Skype für Business Admin Center bis Migration eines Bereichs für Ihre Mandanten abgeschlossen ist. 
 

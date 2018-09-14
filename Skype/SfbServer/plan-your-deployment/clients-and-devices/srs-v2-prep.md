@@ -1,7 +1,8 @@
 ---
 title: Vorbereiten der Umgebung
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: In diesem Artikel wird erläutert, die Infrastruktur vorbereitenden Schritte für die Bereitstellung von Skype Raum Systemen v2.
-ms.openlocfilehash: 694da63ea29d1d0455faa568f2ee9956fb26948f
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 8b31889d70dae54736648905204b721127b668f1
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601941"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965982"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 

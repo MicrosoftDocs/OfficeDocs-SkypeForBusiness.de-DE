@@ -1,7 +1,8 @@
 ---
 title: Bekannte Probleme
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden bekannte Probleme bei Skype Raum Systemen v2, nach Funktionsbereich.
-ms.openlocfilehash: 2880cdfd2098a0c6ac63e5aab8157e76381943f6
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 9512403d22d77505c6e2fe4f5160d40537927133
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412311"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965898"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  

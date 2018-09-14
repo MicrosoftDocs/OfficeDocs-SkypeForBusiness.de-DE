@@ -15,19 +15,19 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86fa8178b52c621c664afc49edd4f8d2c81c1fea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0ff482ccd6486fcab836565033a0cf7e02517717
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882053"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965620"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Alle Einstellungen für Teams werden bald zu der neuen Microsoft-Teams & Skype für Business-Verwaltungskonsole migriert werden. Das einzige Teams-Feature, das in der Office 365-Verwaltungskonsole verwaltet wird, ist apps. 
+Alle Einstellungen für Teams werden bald zu der neuen Microsoft-Teams & Skype für Business-Verwaltungskonsole migriert werden. Das einzige Teams-Feature, das in der Office 365-Verwaltungskonsole verwaltet wird, ist Apps. 
 
 Wenn nichts anderes angegeben ist, lautet der Standardwert für die jeweilige Option „Ein“.
 
@@ -38,7 +38,7 @@ Wenn nichts anderes angegeben ist, lautet der Standardwert für die jeweilige Op
 
 ## <a name="office-365-tenant-wide-settings"></a>Mandantenweite Einstellungen in Office 365 
 
-In den **Mandanten geltende Einstellungen**können Sie aktivieren oder Deaktivieren von apps.
+In den **Mandanten geltende Einstellungen**können Sie aktivieren oder Deaktivieren von Apps.
 
 Um **mandantenweite Einstellungen** für Microsoft Teams zu bearbeiten, wechseln Sie zum Office 365 Admin Center. Wählen Sie **Einstellungen** > **Dienste und Add-Ins** > **Microsoft Teams** aus.
 
