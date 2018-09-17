@@ -1,1 +1,1 @@
-Wir aktualisieren die Verwaltung der Funktionen in Microsoft Teams häufig. Daher können sich die hier beschriebenen Schritte etwas von denen in Microsoft Teams unterscheiden.
+Wir sind häufig aktualisieren, wie Sie Features, damit der folgenden Schritte möglicherweise ein wenig anders, was finden Sie unter verwalten können.
