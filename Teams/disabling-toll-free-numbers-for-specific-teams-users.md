@@ -1,5 +1,5 @@
 ---
-title: Gebührenfreie Nummern für bestimmte Teams Benutzer deaktivieren
+title: Deaktivieren von gebührenfreien Telefonnummern für bestimmte Microsoft Teams-Benutzer
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,47 +18,47 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen verwenden können.
+description: Administratoren können steuern, wie Organisatoren gebührenfreie Telefonnummern für ihre Besprechungen verwenden können.
 ms.openlocfilehash: 6d37fdb6e85f6c1325c4ebea179ad54aab91fa4c
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887380"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a><span data-ttu-id="7d0d9-103">Gebührenfreie Nummern für bestimmte Teams Benutzer deaktivieren</span><span class="sxs-lookup"><span data-stu-id="7d0d9-103">Disabling toll-free numbers for specific Teams users</span></span>
+# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a><span data-ttu-id="5d948-103">Deaktivieren von gebührenfreien Telefonnummern für bestimmte Microsoft Teams-Benutzer</span><span class="sxs-lookup"><span data-stu-id="5d948-103">Disabling toll-free numbers for specific users</span></span>
 
-<span data-ttu-id="7d0d9-104">Wenn Ihre Organisation gebührenfreie Nummern in der Microsoft Audio Conferencing Bridge verfügt, können Sie erlauben oder verhindern ihrer Verwendung in Besprechungen von bestimmten Organisatoren durch.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-104">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
+<span data-ttu-id="5d948-104">Wenn die Microsoft-Audiokonferenzbrücke Ihrer Organisation gebührenfreie Telefonnummern enthält, können Sie die Verwendung dieser Nummern in den Besprechungen bestimmter Organisatoren zulassen oder verhindern.</span><span class="sxs-lookup"><span data-stu-id="5d948-104">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
 
-<span data-ttu-id="7d0d9-105">Standardmäßig werden alle Benutzer in Ihrer Organisation aktiviert, für die Verwendung von gebührenfreier Nummern, was bedeutet, dass diese Nummern, falls verfügbar, von Teilnehmern verwendet werden können an einer Besprechung teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-105">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="7d0d9-106">Wenn dies nicht das gewünschte Verhalten für einige Benutzer in Ihrer Organisation ist, können Sie bestimmte Benutzer einschränken, verwenden Sie diese Nummern in ihre Besprechungen über eine gebührenfreie Nummern Aktivierung-Steuerelement.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-106">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
+<span data-ttu-id="5d948-105">Standardmäßig ist die Verwendung von gebührenfreien Telefonnummern für alle Benutzer in der Organisation aktiviert. Das heißt, wenn diese Nummern verfügbar sind, können sie von Teilnehmern für die Teilnahme an den Besprechungen der Benutzer verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="5d948-105">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="5d948-106">Wenn dieses Verhalten für einige Benutzer in der Organisation nicht gewünscht wird, können Sie über ein Steuerelement für die Aktivierung gebührenfreier Telefonnummern festlegen, dass bestimmte Benutzer diese Nummern nicht in ihren Besprechungen verwenden können.</span><span class="sxs-lookup"><span data-stu-id="5d948-106">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
 
-<span data-ttu-id="7d0d9-107">Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:</span><span class="sxs-lookup"><span data-stu-id="7d0d9-107">When toll-free numbers are disabled for a given organizer:</span></span> 
- - <span data-ttu-id="7d0d9-108">Eine gebührenfreie Nummer wird nicht mehr in seinem enthalten sein oder ihrer Besprechung eingeladen.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-108">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
- - <span data-ttu-id="7d0d9-109">Gebührenfreie Nummern werden nicht mehr auf der Seite mit "Hier finden Sie eine lokale Nummer", die in seinem verwiesen wird aufgelistet oder ihrer Besprechung eingeladen.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-109">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
- - <span data-ttu-id="7d0d9-110">Teilnehmer möglich nicht, der des angegebenen Organisators die Besprechung teilnehmen, wenn sie eine beliebige gebührenfreie Telefonnummer des Unternehmens wählen.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-110">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
- - <span data-ttu-id="7d0d9-111">Der Organisator alle Besprechungen werden automatisch neu geplant, und die gebührenfreie Telefonnummer daraus entfernt werden.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-111">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
+<span data-ttu-id="5d948-107">Wenn gebührenfreie Telefonnummern für einen bestimmten Organisator deaktiviert sind, gilt Folgendes:</span><span class="sxs-lookup"><span data-stu-id="5d948-107">When toll-free numbers are disabled for a given organizer:</span></span> 
+ - <span data-ttu-id="5d948-108">Die Besprechungseinladungen dieses Benutzers enthalten keine gebührenfreie Telefonnummer mehr.</span><span class="sxs-lookup"><span data-stu-id="5d948-108">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="5d948-109">Gebührenfreie Telefonnummern werden nicht mehr auf der Seite „Lokale Rufnummer suchen“ aufgelistet, auf die in den Besprechungseinladungen dieses Benutzers verwiesen wird.</span><span class="sxs-lookup"><span data-stu-id="5d948-109">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="5d948-110">Teilnehmer können nicht an der Besprechung des entsprechenden Organisators teilnehmen, wenn sie eine gebührenfreie Telefonnummer der Organisation wählen.</span><span class="sxs-lookup"><span data-stu-id="5d948-110">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
+ - <span data-ttu-id="5d948-111">Alle Besprechungen des Organisators werden automatisch neu geplant, und die gebührenfreie Telefonnummer wird aus den Besprechungen entfernt.</span><span class="sxs-lookup"><span data-stu-id="5d948-111">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
 
     > [!IMPORTANT]
-    > <span data-ttu-id="7d0d9-112">Dies erneut alle des Dialogfelds Organisieren der e-Mail-Einladungen an alle Teilnehmer der Besprechungen senden.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-112">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
+    > <span data-ttu-id="5d948-112">Dies bedeutet, dass alle E-Mail-Einladungen des Organisators erneut an die Teilnehmer dieser Besprechungen gesendet werden.</span><span class="sxs-lookup"><span data-stu-id="5d948-112">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
 
- - <span data-ttu-id="7d0d9-113">Teilnehmer können weiterhin teilnehmen an Besprechungen des Dialogfelds Organisieren von gebührenfreie Nummern.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-113">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
+ - <span data-ttu-id="5d948-113">Die Teilnehmer können weiterhin über gebührenpflichtige Telefonnummern an den Besprechungen des Organisators teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="5d948-113">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="7d0d9-114">Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer</span><span class="sxs-lookup"><span data-stu-id="7d0d9-114">Disabling toll-free numbers for specific users</span></span> 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="5d948-114">Deaktivieren von gebührenfreien Telefonnummern für bestimmte Benutzer</span><span class="sxs-lookup"><span data-stu-id="5d948-114">Disabling toll-free numbers for specific users</span></span> 
 
-1. <span data-ttu-id="7d0d9-115">Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-115">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="5d948-115">Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.</span><span class="sxs-lookup"><span data-stu-id="5d948-115">In the left navigation of the **Office 365 admin center, go to UsersActive users**, and then select the user or users from the list of available users.</span></span>
 
-2. <span data-ttu-id="7d0d9-116">Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-116">At the top of the page, click **Edit**.</span></span>
+2. <span data-ttu-id="5d948-116">Klicken Sie oben auf der Seite auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5d948-116">At the top of the Conference Bridges page, click Bridge Settings.</span></span>
 
-3. <span data-ttu-id="7d0d9-117">Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-117">Next to **Audio Conferencing**, click **Edit**.</span></span>
+3. <span data-ttu-id="5d948-117">Klicken Sie neben **Audiokonferenz** auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="5d948-117">Next to **Audio Conferencing**, click **Edit**.</span></span>
 
-4. <span data-ttu-id="7d0d9-118">Deaktivieren Sie **gebührenfreie Nummern in Besprechungsanfragen von diesem Benutzer gehören**.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-118">Turn off **Include toll-free numbers in meeting requests from this user**.</span></span> 
+4. <span data-ttu-id="5d948-118">Deaktivieren Sie **Include toll-free numbers in meeting requests from this user** (Gebührenfreie Telefonnummern in Besprechungsanfragen von diesem Benutzer einschließen).</span><span class="sxs-lookup"><span data-stu-id="5d948-118">Turn off **Include toll-free numbers in meeting requests from this user**.</span></span> 
 
-5. <span data-ttu-id="7d0d9-119">Klicken Sie auf **zu speichern.**</span><span class="sxs-lookup"><span data-stu-id="7d0d9-119">Click **Save.**</span></span> 
+5. <span data-ttu-id="5d948-119">Klicken Sie auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="5d948-119">Click **Save**.</span></span> 
 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
  
-<span data-ttu-id="7d0d9-120">**Verwenden von PowerShell**</span><span class="sxs-lookup"><span data-stu-id="7d0d9-120">**Using PowerShell**</span></span>  
+<span data-ttu-id="5d948-120">**Verwenden von PowerShell**</span><span class="sxs-lookup"><span data-stu-id="5d948-120">**Using Windows PowerShell**</span></span>  
 
-<span data-ttu-id="7d0d9-121">Finden Sie im [Microsoft-Teams PowerShell Verweis](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) für Weitere Informationen.</span><span class="sxs-lookup"><span data-stu-id="7d0d9-121">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="5d948-121">Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="5d948-121">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
