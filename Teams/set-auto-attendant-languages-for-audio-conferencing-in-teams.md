@@ -1,5 +1,5 @@
 ---
-title: Automatische Telefonzentrale Sprachen für Audiokonferenzen in Microsoft-Teams
+title: Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,40 +15,40 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Finden Sie unter Wählen Sie die Audiokonferenz Auto attendant Sprachen für eine Audiokonferenz Zahl in Microsoft-Teams.
-ms.openlocfilehash: 4be8da4bf65d189c2bfba5ceb8dd6cc7a1cbee53
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Hier erfahren Sie, wie Sie die Sprachen für die automatische Telefonzentrale für Audiokonferenzen für eine Audiokonferenz-Telefonnummer in Microsoft Teams auswählen.
+ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853375"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893018"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Automatische Telefonzentrale Sprachen für Audiokonferenzen in Microsoft-Teams
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams
 
-Die Audiokonferenz automatische Telefonzentrale für Microsoft-Teams kann Anrufer audio in einer Reihe von verschiedenen Sprachen begrüßen, beim Beitritt zu einer Besprechung.
+Die automatische Telefonzentrale für Audiokonferenzen für Microsoft Teams kann Audioanrufer, die an einer Besprechung teilnehmen, in einer Reihe verschiedener Sprachen begrüßen.
   
-Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die primäre Sprache, die Sie festlegen zuerst verwendet werden und die sekundären Sprachen werden durch die automatische Telefonzentrale verwendet werden, dass Sie auswählen. 
+Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus. Die automatische Telefonzentrale verwendet zuerst die von Ihnen festgelegte primäre Sprache und dann die sekundären Sprachen in der Reihenfolge der Auswahl. 
   
 > [!NOTE]
->  Sie können die Sprachen auf nur Telefonnummern nationalen audio Zugriff konfigurieren.
+>  Sie können die Sprachen nur für inländische Audiozugriffsnummern konfigurieren.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Legen Sie die Sprachen für die automatische Telefonzentrale fest
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Festlegen der Sprachen für automatische Konferenzzentralen
 
-1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenz Brücken**.
+1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).
 
-2. Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie am oberen Rand der Seite aus, klicken Sie auf **Bearbeiten**.
+2. Wählen Sie die Audiokonferenz-Telefonnummer in der Liste aus, und klicken Sie oben auf der Seite auf **Bearbeiten**.
 
-3. Wählen Sie im Bereich auf der rechten Seite die gewünschten Standardsprache und alle alternativen Sprachen. 
+3. Wählen Sie im Bereich auf der rechten Seite die gewünschte Standardsprache und gegebenenfalls alternative Sprachen aus. 
  
     > [!NOTE]
-    > Der standardmäßige und alternative Sprachen, die unterstützt werden, sind aufgeführt. Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden. 
+    > Die unterstützten Standardsprachen und alternativen Sprachen werden aufgelistet. Die Sprachen werden den Anrufern in der Reihenfolge angeboten, in der Sie sie in den Dropdownlisten auswählen. 
 
 4. Klicken Sie auf **Speichern**.
 
@@ -61,11 +61,11 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die prim�
     
 - Eine Liste der Länder/Regionen in der Audiokonferenzen in Office 365 mit Microsoft als Anbieter verfügbar ist, finden Sie unter [Rufnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md).
     
-## <a name="want-to-use-windows-powershell"></a>Wollen Sie Windows PowerShell verwenden?
+## <a name="want-to-use-windows-powershell"></a>Möchten Sie Windows PowerShell verwenden?
 
-Finden Sie im [Microsoft-Teams PowerShell Verweis](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) für Weitere Informationen.
+Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

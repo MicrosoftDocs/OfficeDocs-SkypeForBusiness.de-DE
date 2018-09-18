@@ -1,5 +1,5 @@
 ---
-title: Telefonnummern für Audiokonferenzen in Microsoft-Teams
+title: Telefonnummern für Audiokonferenzen in Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,29 +20,29 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: Erfahren Sie, welche Länder und Regionen Einwahlkonferenz-Nummern haben und wie diese automatisch zugeordnet werden.
+description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
 ms.openlocfilehash: 79e02a1216917b830629b707ffaff784d37edc1e
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23891738"
 ---
-# <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft-Teams
+# <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
-Beim Einrichten von **Audiokonferenzen** für Microsoft-Teams werden Zugriffsnummer für Einwahl Rufnummern Ihrer Organisation automatisch zugewiesen. Sie können die Telefonnummern, die Ihre audiokonferenzbrücke zugewiesen sind, indem Sie auf **Besprechungen,** finden Sie unter > **Konferenzbrücken**. Finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Wenn Sie **Audiokonferenzen** für Microsoft Teams einrichten, werden Ihrer Organisation automatisch Dial-in-Telefonnummern zugewiesen. Sie können die Ihrer Audiokonferenzbrücke zugewiesenen Telefonnummern unter **Besprechungen** > **Conference bridges** (Konferenzbrücken) anzeigen. Siehe [Anzeigen einer Liste mit Audiokonferenz-Telefonnummern](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Verfügbarkeit von Audiokonferenzen und Preise
 
-Eine vollständige Liste aller Länder/Regionen und Städte, wo Audiokonferenzen verfügbar ist, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Infos über die Preise finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Eine vollständige Liste aller Länder/Regionen und Städte, in denen Audiokonferenzen verfügbar sind, finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
-## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Einwahltelefonnummern in einer Besprechungseinladung
+## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Dial-in-Telefonnummern in einer Besprechungseinladung
 
-Wenn ein Benutzer Microsoft-Teams, eine Besprechung in Outlook oder Outlook Web App plant, ist die Standardnummer für Audiokonferenzen, die für den Benutzer festgelegt ist in der besprechungseinladung enthalten. Wenn Sie eine andere Standardnummer für einen oder mehrere Benutzer auswählen möchten, können Sie, die für **Benutzer**, den Benutzer auswählen, und Bearbeiten des Benutzers Audiokonferenzen Settigns ändern. Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites-in-teams.md).
+Wenn Microsoft Teams-Benutzer in Outlook oder Outlook Web App eine Besprechung planen, wird die für sie festgelegte standardmäßige Audiokonferenz-Telefonnummer in der Besprechungseinladung angegeben. Wenn Sie für einen oder mehrere Benutzer eine andere Standardnummer auswählen möchten, können Sie die Nummer ändern, indem Sie zu **Benutzer** wechseln, die Benutzer auswählen und ihre Audiokonferenzeinstellungen ändern. Siehe [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Zugriffsnummer für Einwahl Rufnummern für eine audiokonferenzbrücke festlegen
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Für eine Audiokonferenzbrücke festgelegte Dial-in-Telefonnummern
 
 Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sein können: **Freigegeben** und **Dediziert**. Beide Arten von Nummern können von allen Anrufern verwendet werden, um an Audiobesprechungen in Ihrer Organisation teilzunehmen.
   
@@ -59,21 +59,21 @@ Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zug
 Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnummern zugewiesen werden, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Der Land oder Region Speicherort Ihrer Organisation kann durch Anmelden bei der **Office 365 Administrationscenter** , und suchen Sie unter **Organisationsprofil**gefunden werden. 
+> Das Land bzw. die Region, in dem bzw. in der sich Ihre Organisation befindet, finden Sie nach der Anmeldung beim **Office 365 Admin Center** unter **Organisationsprofil**. 
   
 > [!CAUTION]
-> Aufgrund der begrenzten Verfügbarkeit gebührenpflichtige Telefonnummer des in Venezuela, Indonesien und Vereinigte Arabische Emirate (Vereinigte Arabische Emirate) keine Organisationen aus diesen Ländern/Regionen eine Audiokonferenz gebührenpflichtige Nummer automatisch zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 
+> Aufgrund der eingeschränkten Verfügbarkeit von gebührenpflichtigen Telefonnummern in Venezuela, Indonesien und den Vereinigten Arabischen Emiraten wird Organisationen aus diesen Ländern/Regionen nicht automatisch eine gebührenpflichtige Audiokonferenz-Telefonnummer zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 
   
 
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
-- Die Liste der unterstützten Sprachen für Audiokonferenzen, finden Sie unter [Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md).
+- Die Liste der unterstützten Sprachen für Audiokonferenzen finden Sie unter [Unterstützte Sprachen für Audiokonferenzen](audio-conferencing-supported-languages.md).
     
-- Sie können bis zu vier Sprachen für jede Telefonnummer für die Audiokonferenz - festlegen ein primärer und sekundärer drei. Und Sie können auch Sprachen bei einer dedizierten Audiokonferenzen Rufnummer festlegen.
+- Für jede Audiokonferenz-Telefonnummer können Sie bis zu vier Sprachen einrichten: eine primäre und drei sekundäre. Sie können auch die Sprachen für eine dedizierte Audiokonferenz-Telefonnummer festlegen.
     
-- Wenn die Zugriffsnummer für Einwahl-Rufnummer für einen Benutzer festlegen möchten, finden Sie unter [Festlegen von gewählte Nummern auf enthalten invites Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
+- Informationen zum Festlegen der Dial-in-Telefonnummer für einen Benutzer finden Sie unter [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
 
    
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

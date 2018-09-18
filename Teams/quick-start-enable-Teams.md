@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882083"
@@ -47,7 +47,7 @@ Sehen Sie sich dieses kurze Video mit einfachen Ratschlägen an, die Sie beim Pl
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Wenn Microsoft-Teams, nicht in Ihrem Office 365-Mandanten aktiviert ist und Sie sind ein Office 365 Administrator Folgen haben die Anweisungen im Artikel [Verwalten des Benutzerzugriffs für Teams](user-access.md) , um sicherzustellen, dass Ihre Benutzer Zugriff auf die Anwendung.
+Wenn Microsoft Teams in Ihrem Office 365-Mandanten nicht aktiviert ist und Sie Office 365-Administrator sind, stellen Sie mithilfe der Anweisungen im Artikel [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md) sicher, dass Ihre Benutzer auf die Anwendung zugreifen können.
 
 ## <a name="step-3-complete-technical-planning"></a>Schritt 3: Durchführen der technischen Planung
 

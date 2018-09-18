@@ -15,7 +15,7 @@ appliesto:
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
 ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/13/2018
 ms.locfileid: "23965523"
@@ -325,7 +325,7 @@ Wenn Sie Telefonnummern direkt von Microsoft beziehen möchten, haben Sie die fo
 
 - [Skype for Business Admin Center](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets für Remote-Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Absenden eines Formulars neue Telefon anfordern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Übermitteln eines Anforderungsformulars für neue Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
 Das Anforderungsformular für neue Telefonnummern eignet sich am besten, wenn Sie den Erwerb von Telefonnummern planen, da Sie einen zusammenhängenden Nummernblock anfordern können. Es ist nicht in allen Ländern bzw. Regionen möglich, Telefonnummern über das Skype for Business Admin Center oder über Remote-Windows PowerShell zu beziehen.
 
@@ -440,8 +440,8 @@ Normalisierungsregeln können maximal 25 Regeln in jedem Mandantenwählplan enth
 >|Name des Mandantenwählplans<br>Beschreibung  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (x7000 – x7999) für 39 quai du Président Roosevelt-Niederlassung, Issy-les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
->||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
->||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
+>||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^0?(80\d{7})\d*$<br>+33$1<br>Falsch|
+>||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>Falsch|
 
 <br>
 > [!TIP]

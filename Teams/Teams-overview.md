@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bb291c8bd338fa88d5d9b5788413c5e687fc0864
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23883779"
@@ -32,7 +32,7 @@ Microsoft Teams vereint den vollen Funktionsumfang von Office 365 in einem wirk
 
 Teams nutzt standardmäßig die in Azure Active Directory (Azure AD) gespeicherten Identitäten und wird in die anderen Dienste in Office 365 integriert, um für jedes erstellte Team eine SharePoint Online-Website und ein Exchange Online-Gruppenpostfach zu erstellen.
 
-Jeder Benutzer mit einer Business "oder" Consumer e-Mail-Konto, wie Outlook, Google Mail oder andere, kann als Gast in Teams teilnehmen. Alle Gäste in Teams unterliegen den gleichen Einhaltung von Vorschriften und Überwachung Schutz als den Rest von Office 365 und Gäste in Azure AD sicher verwaltet werden können. Administratoren können zentral verwalten wie Gäste innerhalb ihrer Office 365-Umgebung teilnehmen und auf einfache Weise anzeigen, hinzufügen oder widerrufen des Gastsystem Zugriff auf den Host-Mandanten.
+Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen. Für alle Gäste in Microsoft Teams gelten die gleichen Compliance- und Überwachungsmaßnahmen wie überall in Office 365. Gäste können in Azure AD sicher verwaltet werden. Administratoren können zentral verwalten, wie sich Gäste innerhalb der Office 365-Umgebung beteiligen. Außerdem können sie den Zugriff von Gästen auf den Hostmandanten einfach anzeigen, hinzufügen oder widerrufen.
 
 Microsoft Teams bietet Funktionen für beständigen Chat, Anrufe und Besprechungen, einfachen Zugriff auf andere Komponenten von Office 365 sowie robuste Erweiterungsmöglichkeiten.  Dadurch entsteht ein Hub für Teamarbeit, der sich für die verschiedensten Organisationsgrößen eignet – von Großunternehmen bis hin zu kleinen Organisationen.  
 
@@ -45,12 +45,12 @@ Teams basiert auf vorhandenen Microsoft-Technologien, die durch Office 365-Grup
 
 Standardmäßig wird für ein in Teams erstelltes Team jeweils eine Office 365-Gruppe mit der zugehörigen SharePoint Online-Website erstellt – einschließlich einer Dokumentbibliothek und eines Exchange Online-Gruppenpostfachs, das von Teams zum Speichern von Informationen wie zum Beispiel Besprechungseinladungen verwendet wird. Ein Team kann mithilfe vorhandener Office 365-Gruppen erstellt werden, sodass vorhandene Gruppenmitgliedschaften und Inhalte, die in SharePoint Online und Exchange Online gespeichert sind, nach Teams portiert werden können.
 
-Um die Fähigkeit von Teams zu ergänzen, wie ein, in dem informelle, Real-Time Unterhaltungen stattfinden, persistent Chat Board auch Teams bietet eine Anruf- und meeting Erfahrung basieren auf der nächsten Generation cloudbasierten-Infrastruktur, die auch von Skype und Skype für verwendet wird Business. Zu diesen Technologieinvestitionen gehören Azure-basierte Clouddienste für Medienverarbeitung und Signalisierung, der Videocodec H.264, die Audiocodecs SILK und Opus, Netzwerkresilienz, Telemetrie und Qualitätsdiagnose.
+Als Ergänzung zu Microsoft Teams als Board für beständigen Chat, auf dem formlose Echtzeitunterhaltungen stattfinden können, bietet Microsoft Teams außerdem Anruf- und Besprechungsfunktionen auf der Grundlage der cloudbasierten Infrastruktur der nächsten Generation, die auch von Skype und Skype for Business genutzt wird. Zu diesen Technologieinvestitionen gehören Azure-basierte Clouddienste für Medienverarbeitung und Signalisierung, der Videocodec H.264, die Audiocodecs SILK und Opus, Netzwerkresilienz, Telemetrie und Qualitätsdiagnose.
 
 Office 365-Gruppen nutzen in Azure Active Directory (Azure AD) gespeicherte Identitäten. Damit sind alle Authentifizierungs- und Autorisierungsfunktionen in Azure AD wie Unterstützung für mehrstufige Authentifizierung (Multi-Factor Authentication, MFA) direkt zur Verwendung durch Teams verfügbar.
 
 > [!NOTE]
-> Basierend auf Feedback von Kunden, neue Office 365 Gruppen infolge einer erstellen ein Team in Microsoft-Teams, nicht mehr in Outlook standardmäßig angezeigt. Für Kunden, die das vorhandene Verhalten der mit diesen Gruppen in Outlook fortsetzen möchten, wird die Gruppe die für die benutzerfreundlichkeit von Outlook ermöglichen können ein Exchange Online PowerShell-Cmdlet bereitgestellt werden. Gruppen über Outlook erstellt und dann später für Teams aktiviert werden weiterhin in Outlook und Teams angezeigt. Dieses Update wird schrittweise Roll out über Outlook und Teams in den nächsten Monaten.
+> Aufgrund von Kundenfeedback werden neue Office 365-Gruppen, die bei der Erstellung eines Teams in Microsoft Teams generiert werden, nicht mehr standardmäßig in Outlook angezeigt. Für Kunden, die das bisherige Verhalten (Anzeigen dieser Gruppen in Outlook) bevorzugen, wird ein Exchange Online PowerShell-Cmdlet bereitgestellt, mit dem sie Gruppen für Outlook aktivieren können. Gruppen, die über Outlook erstellt und dann später für Microsoft Teams aktiviert wurden, werden weiterhin in Outlook und in Microsoft Teams angezeigt. Dieses Update wird in den nächsten Monaten schrittweise in Outlook und Microsoft Teams eingeführt.
 
 
 <a name="microsoft-teams-and-office-365"></a>Microsoft Teams und Office 365
@@ -76,7 +76,7 @@ Hier sind gängige Anwendungsfälle für die einzelnen Anwendungen in Office 36
 
 -   Hilft Teams, die ein Projekt schnell durchlaufen und dabei Dateien freigeben und zusammen an freigegebenen Projektdokumenten arbeiten möchten.
 
--   Ermöglicht Benutzern die Verbindung eine Vielzahl von Tools in den Arbeitsbereich (beispielsweise Planner, Power BI, GitHub usw.).
+-   Ermöglicht Benutzern das Einbinden einer breiten Palette von Tools in ihren Arbeitsbereich (z. B. Planner, Power BI, GitHub usw.).
 
 ![Microsoft Outlook-Symbol](media/Overview_of_Microsoft_Teams_image2.png)
 
