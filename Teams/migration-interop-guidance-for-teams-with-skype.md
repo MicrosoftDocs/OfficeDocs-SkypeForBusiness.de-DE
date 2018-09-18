@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bfd2c7efd606a143fffca25c7379f2a29bf505da
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884235"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23999024"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Hinweise zur Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen
 
@@ -63,15 +63,14 @@ Um die Einführung der Koexistenz Modi und die ausstehenden Stilllegung der Team
 
 5.  Interoperabilität zwischen Teams und Skype für Unternehmensbenutzer ist nur möglich *, wenn der Benutzer Teams online in Skype für Unternehmen verwaltet wird*. Die Skype für Geschäftsbenutzer verwaltet werden kann entweder lokal (und erfordert die Konfiguration der Skype für hybride Business) oder online. Benutzer, die in Skype für Business lokal verwaltet werden können Teams im Inseln Modus (weiter unten in diesem Dokument definiert) verwenden, aber nicht mit der Interop Teams oder Verbund mit anderen Benutzern für die Business Skype verwenden.  
 
-6.  Einen Benutzer auf Teams aktualisieren (d. h., gewähren sie TeamsUpgradePolicy Modus = TeamsOnly), muss der Benutzer online in Skype für Unternehmen verwaltet werden. Dies ist erforderlich, um sicherzustellen, dass Interop, Verbund und vollständige Verwaltung des Benutzers Teams. Verwenden Sie zum Aktualisieren von Benutzern, die lokal sind Sie `Move-CsUser` aus der lokalen Admin tools zum ersten verschieben den Benutzer Skype für Business Online. Klicken Sie dann die online-Benutzer TeamsUpgradePolicy und TeamsInteropPolicy erteilen oder modernen Portal zuweisen TeamsOnly-Modus verwenden.
+6.  Einen Benutzer auf Teams aktualisieren (d. h., gewähren sie TeamsUpgradePolicy Modus = TeamsOnly), muss der Benutzer online in Skype für Unternehmen verwaltet werden. Dies ist erforderlich, um sicherzustellen, dass Interop, Verbund und vollständige Verwaltung des Benutzers Teams. Verwenden Sie zum Aktualisieren von Benutzern, die lokal sind Sie `Move-CsUser` aus der lokalen Admin tools zum ersten verschieben den Benutzer Skype für Business Online. Klicken Sie dann die online-Benutzer TeamsUpgradePolicy und TeamsInteropPolicy erteilen oder modernen Portal zuweisen TeamsOnly-Modus verwenden. Einmal CU8 für Skype für Business Server 2015 Konferenzfunktionalität, Kunden kann einfach verwenden das neue `-MoveToTeams` wechseln `Move-CsUser` 2 folgendermaßen in 1 kombiniert.
 
 7.  Die zentrale Richtlinien zum Verwalten von Upgrades und Interop sind TeamsUpgradePolicy und TeamsInteropPolicy.  Allerdings TeamsInteropPolicy wird gerade wird zurückgezogen und alle Funktionen werden durch TeamsUpgradePolicy ersetzt werden. Bis zum Abschluss des Übergangs Kunden müssen TeamsUpgradePolicy und TeamsInteropPolicy konsistent (als beschrieben [später](#important) in diesem Dokument) um sicherzustellen, dass ordnungsgemäße Funktion oder verwenden Sie das neue modernen Portal, die dies automatisch erfolgt.
 
 8.  Um Teams Telefonsystem Features verwenden, muss sich Benutzer in TeamsOnly-Modus (d. h., die in Skype für Business Online verwaltet und Teams aktualisiert), und muss entweder für Microsoft Phone System direkten Routing (die Sie mit Ihrer eigenen SIP Telefonsystem verwenden können konfiguriert werden Trunks und SBC) oder über ein Office 365 aufrufen planen. Direktes Routing ist [im Allgemeinen verfügbar](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) ab Juni 28, 2018.  
 
-9.  Planen von Besprechungen mit Audiokonferenz Teams ist (Einwählen oder Anwahl über PSTN) derzeit nur für Benutzer, die in Skype für Business Online verwaltet werden. Unterstützung für Benutzer mit Teams mit einer lokalen Skype für Business Konto ist geplant.
+9.  Planen von Besprechungen mit Audiokonferenz Teams ist (Einwählen oder Anwahl über PSTN) derzeit nur für Benutzer, die in Skype für Business Online verwaltet werden. Unterstützung für Benutzer mit Teams mit einer lokalen Skype für Business Konto befindet sich in TIPPEN.
 
-10. Nachrichtenrouting für Organisationen, die noch nicht für Unified Anwesenheit Service (USV) aktiviert haben, ist nicht TeamsInteropPolicy (ChatDefaultClient) oder TeamsUpgradePolicy (Modus) berücksichtigt. Wie USV Einführung über den nächsten Wochen abgeschlossen ist, wird TeamsInteropPolicy oder TeamsUpgradePolicy berücksichtigt. Schließlich nur TeamsUpgradePolicy wird berücksichtigt.
 
 ## <a name="coexistence-modes"></a>Koexistenz Modi
 
@@ -165,7 +164,7 @@ Verwenden Sie die folgende Cmdlet Syntax, wobei $policy eine der oben genannten 
 
 ## <a name="federation-considerations"></a>Verbund-Aspekte
 
-Für den Verbund von Teams an einen anderen Benutzer, die Verwendung von Skype für Unternehmen muss der Benutzer Teams online in Skype für Unternehmen verwaltet werden. Verbund bezeichnet in Pilot- und stetig immer verfügbar. Wenn Ihre Organisation Verbund erfordert, sollten Sie nicht aktualisieren, bis ein Verbund unterstützt werden. Schließlich werden können Sie den Verbund mit anderen Benutzern Teams Benutzer in Skype verwaltet für Business lokale-Teams.
+Für den Verbund von Teams an einen anderen Benutzer, die Verwendung von Skype für Unternehmen muss der Benutzer Teams online in Skype für Unternehmen verwaltet werden. Schließlich werden können Sie den Verbund mit anderen Benutzern Teams Benutzer in Skype verwaltet für Business lokale-Teams.
 
 Nachdem die verbundunterstützung aktiviert ist, steuert TeamsUpgradePolicy (zusammen mit TeamsInteropPolicy während des Übergangs) routing für eingehende federated Chats und Anrufe. Um anderen Organisationen initiieren federated Kommunikation mit Benutzern in Ihrer Organisation zu ermöglichen, ist es wird empfohlen, einen Modus wählen, das speziell entweder weiterleitet, Skype für Business oder Teams, statt der Inseln.
 </br>
@@ -267,10 +266,6 @@ Basierend auf starken Feedback von Kunden TAP und andere frühen Übernahmen, an
 |**STATUS**|Tippen Sie auf Kunden jetzt finden Sie unter drei Modi in der Admin UX. Wie für Änderung #1 Länder unterstützen, werden zusätzliche Modi zur Verfügung gestellt. SfBOnly Modus nicht aktuell hindert Benutzer mithilfe von Teams, aber er wird in der Zukunft. |
 |||
 
-## <a name="known-issues"></a>Bekannte Probleme
-
-- Beim Erstellen von neuer Unterhaltungen in Teams, führen Sie Chats noch TeamsUpgradePolicy oder TeamsInteropPolicy des Zielbenutzers berücksichtigt nicht. Ein Update geplant ist.
-- Beim Erstellen von neuer Unterhaltungen in Skype für Unternehmen, führen Sie Chats nicht noch TeamsUpgradePolicy oder TeamsInteropPolicy berücksichtigt werden, wenn die Organisation noch nicht für Interop USV/messaging aktiviert ist.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

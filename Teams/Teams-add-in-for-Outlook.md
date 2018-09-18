@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2012322b4707d4f581e4a1ff3798674b976963a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892642"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998992"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -71,6 +71,7 @@ Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwic
 
 Wenn Sie die Besprechung Teams add-in für Outlook installieren nicht, versuchen Sie diese Schritte zur Problembehandlung.
 
+- Stellen Sie sicher, dass alle verfügbaren Updates für Outlook-Desktopclient angewendet wurden 
 - Starten Sie den Desktopclient Teams neu.
 - Melden Sie sich ab und dann wieder anmelden auf dem Desktopclient Teams.
 - Starten Sie den desktop Outlook-Client neu. (Stellen Sie sicher, dass Outlook nicht im Admin-Modus ausgeführt wird.)
