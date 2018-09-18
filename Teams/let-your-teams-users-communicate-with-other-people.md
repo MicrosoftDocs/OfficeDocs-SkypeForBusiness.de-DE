@@ -3,6 +3,7 @@ title: Kommunizieren Sie mit Benutzern in einer anderen Organisation Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
+ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Finden Sie unter Konfigurieren von Teams, damit die Benutzer mit Benutzern in anderen Organisationen kommunizieren können.
-ms.openlocfilehash: da76d75ba44215b11b68550fa06d1fab87f19e56
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: d7423109d4fba01ca85c1602bfcf92190b539abf
+ms.sourcegitcommit: 116d17befc17503968e00e45be338834aa2185b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937827"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998627"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
 
@@ -30,9 +31,11 @@ Führen Sie die Schritte in diesem Artikel in folgenden Fällen aus:
     
 - Sie möchten Personen in der ganzen Welt, die Teams verwendet wird, in der Lage, zu finden, und wenden Sie sich mithilfe Ihrer e-Mail-Adresse sein. Wenn Sie und ein weiterer Benutzer aktivieren des externen Zugriffs und des jeweils anderen Domänen ermöglichen, diese verwendet werden. Wenn sie nicht funktioniert, der andere Benutzer sollten sicherstellen, dass seine oder ihre Konfiguration Ihrer Domäne blockieren nicht zur Verfügung.
 
-Gehen Sie folgendermaßen vor:
+Dadurch können Benutzer zu suchen, aufrufen, und Ihnen Sofortnachrichten senden, sowie Besprechungen mit Ihnen einrichten. Wenn Sie externe Benutzer auf Teams und Kanäle zugreifen möchten, möglicherweise Gast Access eine bessere Möglichkeit zum wechseln. Führen Sie die Schritte in diesem Artikel und stellen Sie sicher, dass zum [Aktivieren des Zugriffs Gast](set-up-guests.md) Benutzer kommunizieren können.
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
+
+Gehen Sie folgendermaßen vor.
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Schritt 1: Stellen Sie sicher, dass Sie richten Sie die Ports und URLs, die erforderlich sind.
 
