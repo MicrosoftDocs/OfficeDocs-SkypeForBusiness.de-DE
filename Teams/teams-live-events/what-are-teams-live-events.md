@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
-ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
+ms.openlocfilehash: b99bd690bf504645d2967dbab31c3f58fc50fd92
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893708"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999244"
 ---
 # <a name="what-are-teams-live-events"></a>Was sind Teams live Ereignisse?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -67,7 +67,7 @@ Beim Planen der Teams live Ereignisse in Ihrer Erstellen von großen Besprechung
 Die folgenden erforderlichen Komponenten sind erforderlich für den Benutzer ein Teams live-Ereignis planen.
 
 Hier werden die Lizenzen, die zugewiesen werden müssen:  
-- Eine Office 365 Enterprise E3 oder E5-Lizenz. 
+- Eine Lizenz für Office 365 Enterprise E1, E3 oder E5 oder eine Lizenz für Office 365 A3 oder A5. 
 - Skype für Unternehmen, und eine Microsoft-Teams und Microsoft Stream-Lizenz.
 
 Es ist wichtig, zu wissen, dass eine Office 365-Lizenz erforderlich ist, um ein live-Ereignis als authentifizierter Benutzer teilnehmen, aber dies hängt von der Produktionsmethode verwendet:

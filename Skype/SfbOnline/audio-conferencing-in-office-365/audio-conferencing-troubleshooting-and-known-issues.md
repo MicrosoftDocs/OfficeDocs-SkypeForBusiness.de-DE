@@ -15,42 +15,27 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Rufen Sie eine Liste bekannter Probleme bei Verwendung von Microsoft als Anbieternamens einwahlkonferenz, Status und umgangen. '
-ms.openlocfilehash: e5c6144081eb68426d3be53efb0ac9e9acbf41bd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887461"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999174"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problembehandlung und bekannte Probleme bei Audiokonferenzen
 
- **Dieser Artikel richtet sich an Skype for Business- und Microsoft Teams-Benutzer, die Microsoft als Audiokonferenzanbieter verwenden. Er ist nicht für Kunden gedacht, die einen Drittanbieter für Audiokonferenzen (Audio Conferencing Provider, Audiokonferenzanbieter (ACP)) verwenden.**
+ **Dieser Artikel ist für Skype für Unternehmensbenutzer, die mit Microsoft als Anbieter von Audiokonferenzen. Es gilt nicht für Kunden, die einen Drittanbieter-Audiokonferenzen (ACP) verwenden.**
   
 ## <a name="troubleshooting-and-known-issues"></a>Problembehandlung und bekannte Probleme
 
 Bei Audiokonferenzen mit Microsoft als Audiokonferenzanbieter sind aktuelle Probleme bekannt, die nachverfolgt, aktiv untersucht und potentiell gelöst werden, wenn die Funktion in zukünftigen Versionen von Office 365 aktualisiert wird.
   
-Nutzen Sie diese Dokumentation für den Moment als Referenz bei der Behandlung potentieller Probleme bei der Konfiguration und Inbetriebnahme von Audiokonferenzen für die Benutzer der Skype for Business- oder Microsoft Teams-App in Ihrer Organisation.
-  
-### <a name="microsoft-teams-app"></a>Microsoft Teams-App
-
-|**Problem**|**Verhalten/Symptome**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|PSTN-Anrufer mit der gleichen „Von"-Nummer werden in der Teilnehmerliste der Besprechung als derselbe Benutzer angezeigt.  <br/> |Wenn mehrere PSTN-Anrufer an einer Besprechung teilnehmen und ihre Anrufer-IDs als eine einzige Nummer gekennzeichnet sind, werden diese Anrufer in der Teilnehmerliste der Besprechung als ein einziger Anrufer angezeigt.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
-|Der Bereich mit den Besprechungsinformationen wird zeitweise nicht angezeigt.  <br/> |Der Bereich mit den Besprechungsinformationen wird im Teams-Client möglicherweise nicht angezeigt, wenn Benutzer versuchen, Telefonnummern einer Konferenzbrücke oder Konferenzkennungen nachzuschlagen.  <br/> |Sie können die Telefonnummern einer Konferenzbrücke oder Konferenzkennungen in den Besprechungsdetails oder im Outlook-Kalender anzeigen.  <br/> |25.9.2017  <br/> |
-|Besprechungseinladungen über das Outlook-Add-In enthalten sinnlose Zeichen in PSTN-Koordinaten für Nicht-US-Gebietsschemas.  <br/> |Beim Planen von privaten Besprechungen mit dem Outlook-Add-In für Microsoft Teams auf einem Computer mit Nicht-US-Gebietsschemas enthalten PSTN-Koordinaten möglicherweise sinnlose Zeichen.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
-|Bei der Auswahl müssen mindestens fünf Ziffern verwendet werden.  <br/> |Benutzer, die aus einer Besprechung eine Nummer zu wählen versuchen, müssen mindestens fünf Ziffern eingeben, obwohl eine Wählplan-Normalisierungsregel verfügbar ist, durch die gewählte kurze Nummern in E.164 normalisiert werden.  <br/> |Geben Sie bei der Auswahl anstelle der internen Durchwahlnummer die Nummer im vollständigen Durchwahlnummernformat oder lokalen Nummernformat ein.  <br/> |25.9.2017  <br/> |
-|Das Auswahlsteuerelement wird zeitweise nicht angezeigt.  <br/> |Das Auswahlsteuerelement ist möglicherweise im Bereich mit den Besprechungsinformationen nicht sichtbar.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
-|Statische Konferenzkennungen werden für Microsoft Teams-Besprechungen nicht unterstützt.  <br/> |Wenn der Administrator die Standardeinstellung außer Kraft setzt und sie von einer dynamischen Konferenzkennung in eine statische Konferenzkennung ändert, wird diese Einstellung für Microsoft Teams-Besprechungen nicht wirksam. Finden Sie unter [Audiokonferenzen mithilfe von dynamischen IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
-|PSTN-Besprechungs-Koordinaten sind nicht verfügbar für Benutzer von Skype-for-Business  <br/> |Wenn es sich bei dem Benutzer um einen lokalen Skype-for-Business-Benutzer handelt, der mit Lizenzen für Skype-for-Business Online, Audiokonferenzen und Teams ausgestattet ist, enthalten alle Meetings, die mit Teams geplant sind, keine PSTN-Meeting-Koordinaten. <br/> |Keine Problemumgehung  <br/> |01.02.2018  <br/> |
-   
-### <a name="skype-for-business-app"></a>Skype for Business-App
+In dieser Übung verwenden Sie dies als einen Verweis bei der Problembehandlung potenzielle Probleme mit dem Einrichten von Audiokonferenzen abrufen und für die Verwendung von Skype für Unternehmen in Ihrer Organisation Personen arbeiten.
 
 |**Problem**|**Verhalten/Symptome**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|

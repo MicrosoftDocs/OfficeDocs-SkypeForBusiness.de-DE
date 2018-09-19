@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4085a0da14c1b3ee298247acd28f5a7bccf2ee53
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 8177d7b4fa6768163c225a385229a356b49e1425
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937890"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999212"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -47,6 +47,17 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Kann nicht als Teambesitzer Connectors löschen  <br/> |Versuch, eine Verbindung als Besitzer löschen können, die andernfalls eine Connector hinzufügen, während "Zulassen, dass Mitglieder zu erstellen, aktualisieren und Entfernen von Connectors" deaktivierte löst ist ein Fehler, der angibt, des Benutzers nicht über die Berechtigung dazu. <br/> |Vorübergehende aktivieren "Zulassen, dass Mitglieder zu erstellen, aktualisieren und Entfernen von Connectors" ansetzt, kann der Besitzer des Connectors löschen.  <br/> |7/27/18  <br/> |
+
+## <a name="audio-conferencing"></a>Audiokonferenz
+|**Problem**|**Verhalten/Symptome**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|PSTN-Anrufer mit der gleichen „Von"-Nummer werden in der Teilnehmerliste der Besprechung als derselbe Benutzer angezeigt.  <br/> |Wenn mehrere PSTN-Anrufer an einer Besprechung teilnehmen und ihre Anrufer-IDs als eine einzige Nummer gekennzeichnet sind, werden diese Anrufer in der Teilnehmerliste der Besprechung als ein einziger Anrufer angezeigt.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
+|Der Bereich mit den Besprechungsinformationen wird zeitweise nicht angezeigt.  <br/> |Der Bereich mit den Besprechungsinformationen wird im Teams-Client möglicherweise nicht angezeigt, wenn Benutzer versuchen, Telefonnummern einer Konferenzbrücke oder Konferenzkennungen nachzuschlagen.  <br/> |Sie können die Telefonnummern einer Konferenzbrücke oder Konferenzkennungen in den Besprechungsdetails oder im Outlook-Kalender anzeigen.  <br/> |25.9.2017  <br/> |
+|Besprechungseinladungen über das Outlook-Add-In enthalten sinnlose Zeichen in PSTN-Koordinaten für Nicht-US-Gebietsschemas.  <br/> |Beim Planen von privaten Besprechungen mit dem Outlook-Add-In für Microsoft Teams auf einem Computer mit Nicht-US-Gebietsschemas enthalten PSTN-Koordinaten möglicherweise sinnlose Zeichen.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
+|Bei der Auswahl müssen mindestens fünf Ziffern verwendet werden.  <br/> |Benutzer, die aus einer Besprechung eine Nummer zu wählen versuchen, müssen mindestens fünf Ziffern eingeben, obwohl eine Wählplan-Normalisierungsregel verfügbar ist, durch die gewählte kurze Nummern in E.164 normalisiert werden.  <br/> |Geben Sie bei der Auswahl anstelle der internen Durchwahlnummer die Nummer im vollständigen Durchwahlnummernformat oder lokalen Nummernformat ein.  <br/> |25.9.2017  <br/> |
+|Das Auswahlsteuerelement wird zeitweise nicht angezeigt.  <br/> |Das Auswahlsteuerelement ist möglicherweise im Bereich mit den Besprechungsinformationen nicht sichtbar.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
+|Statische Konferenzkennungen werden für Microsoft Teams-Besprechungen nicht unterstützt.  <br/> |Wenn der Administrator die Standardeinstellung außer Kraft setzt und sie von einer dynamischen Konferenzkennung in eine statische Konferenzkennung ändert, wird diese Einstellung für Microsoft Teams-Besprechungen nicht wirksam. Finden Sie unter [Audiokonferenzen mithilfe von dynamischen IDs in Ihrer Organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
+|PSTN-Besprechungs-Koordinaten sind nicht verfügbar für Benutzer von Skype-for-Business  <br/> |Wenn es sich bei dem Benutzer um einen lokalen Skype-for-Business-Benutzer handelt, der mit Lizenzen für Skype-for-Business Online, Audiokonferenzen und Teams ausgestattet ist, enthalten alle Meetings, die mit Teams geplant sind, keine PSTN-Meeting-Koordinaten. <br/> |Keine Problemumgehung  <br/> |01.02.2018  <br/> |
 
 ## <a name="authentication"></a>Authentifizierung
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
