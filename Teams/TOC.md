@@ -328,7 +328,6 @@
 #### [Allgemeine Fragen zu Audiokonferenzen](audio-conferencing-common-questions.md)
 #### [Audiokonferenz mit Minutenabrechnung](audio-conferencing-pay-per-minute.md)
 #### [Unterstützte Sprachen für Audiokonferenzen](audio-conferencing-supported-languages.md)
-#### [Problembehandlung und bekannte Probleme bei Audiokonferenz](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 #### [Anrufen aus einer Besprechung, sodass andere Personen teilnehmen können](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -473,7 +472,7 @@
 #### [Überwachung und Problembehandlung von direkten Routing](direct-routing-monitor-and-troubleshoot.md)
 #### [Benutzerkonten in einer hybridumgebung mit PSTN-Anbindung](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Konfigurieren eines Session Border Controller für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
-#### [Liste der Session Border Controller für die direkte Weiterleitung zertifiziert](direct-routing-border-controllers.md)
+#### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
 ### [Microsoft-Teams, Online aufrufen fließt](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
