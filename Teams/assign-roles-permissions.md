@@ -1,9 +1,9 @@
 ---
-title: Zuweisen von Rollen und Berechtigungen in Microsoft Teams
+title: Weisen Sie Team-Besitzer und Membern im Microsoft-Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -13,20 +13,20 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da4bae93a35775141c246145e1375e73963ec120
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a2fd9f611d616f368973ced432e886bf4ba9d8f5
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892698"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021810"
 ---
-<a name="assign-roles-and-permissions-in-microsoft-teams"></a>Zuweisen von Rollen und Berechtigungen in Microsoft Teams
-===============================================
+<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Weisen Sie Team-Besitzer und Membern im Microsoft-Teams
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Es gibt in Microsoft Teams zwei Rollen: **Besitzer** und **Mitglied**. Standardmäßig wird einem Benutzer, der ein neues Team erstellt. der Status „Besitzer“ gewährt. Wenn ein Team aus einer vorhandenen Office 365-Gruppe erstellt wird, werden die Berechtigungen vererbt.
+In Microsoft-Teams, es gibt zwei Benutzerrollen: **Besitzer** und **Member**. Standardmäßig wird ein neues Team erstellt ein Benutzer den Status eines Besitzers erteilt. Wenn ein Team aus einer vorhandenen Office 365-Gruppe erstellt wird, werden Berechtigungen vererbt.
 
 Die folgende Tabelle zeigt den Unterschied zwischen Berechtigungen eines Besitzers und eines Mitglieds:
 
@@ -43,7 +43,7 @@ Die folgende Tabelle zeigt den Unterschied zwischen Berechtigungen eines Besitze
 |**Registerkarten hinzufügen**      |Ja         |Ja*         |
 |**Connectors hinzufügen**      |Ja         |Ja*         |
 |**Bots hinzufügen**      |Ja         |Ja*         |
-\* Diese Elemente können von einem Besitzer auf Teamebene deaktiviert werden. In diesem Fall verfügen Mitglieder nicht über den entsprechenden Zugriff.
+\*Diese Elemente können mithilfe eines Besitzers auf einer Teamebene deaktiviert werden in diesem Fall würde die Mitglieder nicht darauf zugreifen können.
 
 \*\*Nach dem Hinzufügen eines Mitglieds zu einem Team kann ein Besitzer auch ein Mitglied zum Status eines Besitzers hochstufen. Ein Besitzer kann auch seinen eigenen Status zu dem eines Mitglieds herabstufen.
 

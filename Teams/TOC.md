@@ -30,6 +30,8 @@
 
 ## [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
 ## [Verwalten des Benutzerzugriffs auf Teams](user-access.md)
+## [Verwenden von Microsoft-Teams, Administratorrollen zum Verwalten von Teams](using-admin-roles.md)
+## [Übersicht über die PowerShell-Teams](teams-powershell-overview.md)
 ## [Beziehen von Clients für Microsoft Teams](get-clients.md)
 ### [Hardwareanforderungen für die app Teams](hardware-requirements-for-the-teams-app.md)
 ### [Installieren von Teams, die MSI-Datei](msi-deployment.md)
@@ -38,7 +40,7 @@
 ## [Aktivieren von Teams in Ihrer Organisation](Office-365-set-up.md)
 ## [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
 ### [Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-### [Zuweisen von Rollen und Berechtigungen in Teams](assign-roles-permissions.md)
+### [Weisen Sie Team-Besitzer und Membern im Teams](assign-roles-permissions.md)
 ### [Veröffentlichen von apps zum Teams Mandanten Apps-Katalog](tenant-apps-catalog-teams.md)
 ### [Konfigurieren der Skype Besprechungen App entwickelt Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ## [Moderne Authentifizierung](sign-in-teams.md)

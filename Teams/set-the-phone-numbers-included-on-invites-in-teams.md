@@ -1,5 +1,5 @@
 ---
-title: Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
+title: Festlegen des Telefons, die Zahlen enthalten auf invites in Microsoft-Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,17 +19,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Hier finden Sie die Schritte zum Erstellen einer Standardtelefonnummer, über die Anrufer an einer Microsoft Teams-Besprechung teilnehmen können. '
-ms.openlocfilehash: eddab0762b679dba08dd9981d6ae61a1403ebf47
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+description: 'Rufen Sie die Schritte zum Erstellen einer Standardrufnummer für Anrufer teilnehmen an einer Besprechung Microsoft-Teams. '
+ms.openlocfilehash: be873d6419e74027c3db9a157c82379836a7a463
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882960"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021850"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
-Mit Audiokonferenzen in Office 365 können Benutzer in Ihrer Organisation Microsoft Teams-Besprechungen erstellen und Benutzern die telefonische Einwahl in die Besprechung ermöglichen. In Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenzbrücke oder eine Audiokonferenzbrücke von einem Drittanbieter zu verwenden, die von einem genehmigten Audiokonferenzanbieter (ACP) gehostet wird.
+Audiokonferenzen in Office 365 ermöglicht Benutzern in Ihrer Organisation zum Erstellen von Microsoft-Teams, Besprechungen, und klicken Sie dann zulassen, dass Benutzer in diesen treffen mit einem Telefon einwählen. In Office 365 verfügen Sie über die Möglichkeit, eine audiokonferenzbrücke von Microsoft oder einem Drittanbieter-audiokonferenzbrücke, die von einem Provider genehmigte Audiokonferenzen (ACP) gehostet wird.
   
 Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
   
