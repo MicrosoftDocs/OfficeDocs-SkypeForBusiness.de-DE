@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Das Telefonsystem in Office 365 bietet eine Standard Anrufer-ID, die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Erfahren Sie mehr dazu, wie Sie die Anrufer-ID in Ihrer Organisation mithilfe der Wechsel zu verwenden, wie die Anrufer-ID in Ihrer Organisation verwendet werden kann.
-ms.openlocfilehash: 9aae40de23807ff37490f72652e66845482639ec
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6b224addfcbc18ec3faad27e8369996647b51b03
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882249"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958191"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
 Das Telefonsystem in Office 365 bietet eine Standard Anrufer-ID, die dem Benutzer zugewiesene Telefonnummer ist. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Erfahren Sie mehr über die Anrufer-ID in Ihrer Organisation verwenden, [wie kann Anrufer-ID werden in Ihrer Organisation verwendeten](how-can-caller-id-be-used-in-your-organization.md)zugreifen, indem.
@@ -188,5 +188,5 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
  

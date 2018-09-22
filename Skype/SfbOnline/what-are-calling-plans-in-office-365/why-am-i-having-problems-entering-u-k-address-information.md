@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Hier sind einige Gründe, warum Sie Ihre-Adressen in Großbritannien (Großbritannien) ordnungsgemäß validiert Probleme beim werden können.
-ms.openlocfilehash: 8e60b2e59a0a7a2dccf65688ba7331bec19c2c2d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862687"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958281"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Warum habe ich Probleme beim Eingeben einer Adresse im Vereinigten Königreich?
 
@@ -117,7 +117,7 @@ Wenn Sie ein Problem, das die Postleitzahl eingeben haben, denken Sie daran:
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

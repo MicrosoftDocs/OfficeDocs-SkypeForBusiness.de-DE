@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie eine Liste der Rufnummern in Ihrer Organisation, alle Zahlen, die Benutzern zugewiesen und die Nummern, die VoIP-Benutzern, aus der Skype für Business Administrationscenter zugewiesen sind, angezeigt.
-ms.openlocfilehash: b28fb7c75beefa08b35b3b35be30b58652037895
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2f7311b3b50be7bb6cea086fdd3e9f4fe67a677b
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887999"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958231"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
@@ -117,6 +117,6 @@ Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen u
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

@@ -3,7 +3,7 @@ title: Vorbereiten der Bereitstellung von VoIP-Clouddienst Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bf138a4d79fc6fd3533de381a538c88b646db55
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b3191280621e9e8339bf1716e5eafd274170fd6b
+ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882227"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24062010"
 ---
 # <a name="prepare-my-service"></a>Meine Service vorbereiten
 
@@ -50,7 +50,7 @@ Obwohl es wird empfohlen, dass Sie die Prüflisten in Reihenfolge ausführen, wi
 Wenn Sie Onboarding-Benutzer auf eine Websitebasis sind, empfehlen wir nachdrücklich für die Verwendung der [Website Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) als zusätzliche Anleitung zu dieser Prüflisten.
 
 >[!NOTE]
->Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Verwenden Sie Office 365 Skype für Business-Verwaltungskonsole, um diese Einstellungen zu konfigurieren.
+>Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Sie verwenden das Office 365 Admin Center und Teams & Skype für Business Admin Center, um diese Einstellungen konfigurieren.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Aufsicht über den Abschluss der Onboarding Prüflisten zuständig sein?</li></ul></td></tr>

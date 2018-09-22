@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
-ms.openlocfilehash: dfb21c852142b0ba6ec90d5c216ace0eecbf8003
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: de2484dac64623ed3f37c544877d48187f5ca5f9
+ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861975"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24961004"
 ---
 # <a name="set-up-call-analytics"></a>Einrichten von Anrufen Analytics
 
@@ -71,11 +71,11 @@ Helpdesk-Agents der Stufe 1 bearbeiten Standardprobleme im Zusammenhang mit der 
     > [!NOTE]
     > Wenn Sie Sie in den **Microsoft-Teams und Skype für Business Admin Center**sind klicken Sie im linken Navigationsbereich auf **Legacy-Portal**.
   
-3. Die **Aufrufen Analytics (Preview)** klicken Sie auf **Berechtigungen**.
+3. Wählen Sie **Extras** > **Skype für aufrufen BA (Preview)** > **Einstellungen**, und klicken Sie dann auf **Berechtigungen**.
     
 4. Fügen Sie die Office 365-Sicherheitsgruppen zu den Feldern **Stufe 1** und **Stufe 2** hinzu. Sie können jeder Rolle mehrere Gruppen hinzufügen.
     
-     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](media/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](media/setup-call-analytics-image1.png)
   
  Benutzer mit einem der folgenden Berechtigungsstufen erhalten Sie auf Anrufen Analytics über den dedizierten URL *https://adminportal.services.skypeforbusiness.com*.
   

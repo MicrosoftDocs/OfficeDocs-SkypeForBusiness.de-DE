@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: In diesem Thema werden die Netzwerk-Performance-Anforderungen für Skype für Business Online Services definiert und wie Sie auswählen können, mit dem Internet oder dem ExpressRoute für die Konnektivität zwischen dem Netzwerk und Skype Business Online Grundlage Ihrer Bewertung des Netzwerks Konnektivität. Wenn Sie zum Bereitstellen von Azure ExpressRoute dedizierte Konnektivität zu Office 365 entschieden haben, enthält dieses Dokument auch Anleitungen zum Planen Ihrer ExpressRoute Verbindungen in verschiedenen Skype für Business Online Bereitstellungsszenarien.
-ms.openlocfilehash: ce4a1379310d9dd7fdcad6c8242c792103f05c18
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: dbe927794d8660a801596dac32623574e314ee44
+ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850231"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "24057611"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online
 
@@ -58,10 +58,8 @@ Es ist wichtig, denken Sie daran, dass alle Mediengeräte, Skype für Geschäfts
 
 Die Umgebung und das Umfeld, in dem sich Nutzer treffen und Audio- und Videogeräte verwenden, stellen ebenfalls einen wichtigen Faktor für die Audio- und Videoqualität dar. Nutzer, die aus einer lauten Umgebung anrufen, hören gedämpften und undeutlichen Ton mit Echos. Nutzer in einer dunklen oder lichtarmen Umgebung können keine hellen und scharfen Videos erzeugen. In einem Konferenzraum wirkt sich die Position des Mikrofons und des Videogeräts direkt auf die Ton- und Bildqualität für die Teilnehmer aus.
   
-Um einem besseren Verständnis des Benutzers Audio- und Videoerlebnis Verwendung der Skype für **Tools**-Geschäfts-app erhalten > **Optionen** > **Audiogerät** oder **Videogerät** , ändern Sie das Gerät verwendet und Anpassen der Einstellungen. Sie können auch die Audioqualität eines Aufrufs suchen, indem Sie auf **Anrufqualität überprüfen**. If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
-  
-![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
-  
+Um einem besseren Verständnis des Benutzers Audio- und Videoerlebnis Verwendung der Skype für **Tools**-Geschäfts-app erhalten > **Optionen** > **Audiogerät** oder **Videogerät** vornehmen von Änderungen an dem Gerät verwendet und Anpassen der Einstellungen.
+
 #### <a name="network"></a>Netzwerk
 
 Die Qualität des Mediums in Echtzeit über IP-Netzwerk wird erheblich beeinträchtigt, durch die Qualität der Netzwerkkonnektivität, aber vor allem von der Menge an:

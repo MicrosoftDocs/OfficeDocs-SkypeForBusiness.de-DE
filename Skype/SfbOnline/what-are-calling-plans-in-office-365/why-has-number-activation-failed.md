@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 1748211718b1e25a6f5bfcdcd512e0e2d7d2c587
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a0fd715820591943ac11da31761144df3d0427b0
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864809"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958401"
 ---
 # <a name="why-has-number-activation-failed"></a>Warum ist die Aktivierung einer Telefonnummer fehlgeschlagen?
 Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn aus irgendeinem Grund eine Telefonnummer ein aufgrund von Adresse Validierung aktiviert nicht zur Verfügung, müssen Sie eine Serviceanfrage erstellen. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
@@ -105,6 +105,6 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

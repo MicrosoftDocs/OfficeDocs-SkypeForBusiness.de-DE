@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937898"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967431"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -31,15 +31,15 @@ Dienste in den Compliance-Kategorien C und D, für die branchenführende Complia
 
 Teams auch erzwingt die gesamte Team und organisationsweite zweistufigen Authentifizierung, einmaliges Anmelden über Active Directory und die Verschlüsselung von Daten während der Übertragung und im Ruhezustand. Dateien werden in SharePoint gespeichert und durch SharePoint-Verschlüsselung gesichert werden. Notizen sind in OneNote gespeichert und durch OneNote-Verschlüsselung gesichert werden. Die OneNote-Daten werden in der SharePoint-Teamwebsite gespeichert. Die Registerkarte Wiki kann auch für die Notizen verwendet werden, und der Inhalt auch innerhalb der SharePoint-Teamwebsite gespeichert ist.
 
-Außerdem haben wir Unterstützung für Überwachungsprotokollsuche, eDiscovery und gesetzliche Aufbewahrungspflicht für Kanäle, Chats und Dateien sowie mobile Anwendungsverwaltung mit Microsoft Intune hinzugefügt. Fahren Sie mit der Office 365-Sicherheit und Compliance Center, um diese Einstellungen verwalten. 
+Außerdem haben wir Unterstützung für Überwachungsprotokollsuche, eDiscovery und gesetzliche Aufbewahrungspflicht für Kanäle, Chats und Dateien sowie mobile Anwendungsverwaltung mit Microsoft Intune hinzugefügt. Fahren Sie mit der Sicherheit in Office 365 & Compliance Center, um diese Einstellungen zu verwalten. 
 
 ## <a name="auditing-and-reporting"></a>Überwachung und Berichterstellung
 
-Audit Log Suche ist direkt in die Office 365-Sicherheit und Compliance Center und macht uneingeschränkt auf Warnungen festzulegen und/oder zu Berichten über Überwachungsereignis indem zur Verfügung gestellt, Arbeitslast bestimmten exportieren oder generisches-Ereignis wird für Admin-Verwendung und Untersuchung über ein unbegrenzte auditing Zeitachse. Alle Überwachungsprotokolldaten steht für das Einrichten von Warnungen in Office 365-Sicherheit und Compliance Center sowie zum Filtern und zur weiteren Analyse exportieren. Finden Sie in diesen [Link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) , um weitere Informationen dazu, wie Sie eine Audit Log-Suche für Microsoft-Teams, Ereignisse im Office 365-Sicherheit und Compliance Center durchführen. 
+Audit Log Suche ist direkt in die Office 365-Sicherheit und Compliance Center und macht uneingeschränkt auf Warnungen festzulegen und/oder zu Berichten über Überwachungsereignis indem zur Verfügung gestellt, Arbeitslast bestimmten exportieren oder generisches-Ereignis wird für Admin-Verwendung und Untersuchung über ein unbegrenzte auditing Zeitachse. Alle Überwachungsprotokolldaten steht für das Einrichten von Warnungen in der Office 365-Sicherheit und Compliance Center sowie zum Filtern und zur weiteren Analyse exportieren. Finden Sie in diesen [Link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) weiterführende Informationen dazu, wie Sie eine Audit Log-Suche für Microsoft-Teams, Ereignisse in der Office 365-Sicherheit und Compliance Center durchführen. 
 
 ## <a name="compliance-content-search"></a>Compliancesuche in Inhalten
 
-Inhaltssuche kann zu suchenden alle Teams Daten über Rich Filterfunktionen verwendet und auf einen bestimmten Container für die Einhaltung von Vorschriften und Aufbewahrung für eventuelle Unterstützung exportiert werden. Dies kann mit oder ohne einem eDiscovery-Fall erfolgen. Auf diese Weise können Compliance-Admins sammeln Sie allen Benutzern Teams, überprüfen und für die weitere Verarbeitung zu exportieren. Finden Sie in diesen [Link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) , um weitere Informationen dazu, wie Sie eine Compliance-Inhaltssuche für Microsoft-Teams, Inhalte im Office 365-Sicherheit und Compliance Center durchführen. 
+Inhaltssuche kann zu suchenden alle Teams Daten über Rich Filterfunktionen verwendet und auf einen bestimmten Container für die Einhaltung von Vorschriften und Aufbewahrung für eventuelle Unterstützung exportiert werden. Dies kann mit oder ohne einem eDiscovery-Fall erfolgen. Auf diese Weise können Compliance-Admins sammeln Sie allen Benutzern Teams, überprüfen und für die weitere Verarbeitung zu exportieren. Finden Sie in diesen [Link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) , um weitere Informationen dazu, wie Sie eine Compliance-Inhaltssuche für Microsoft-Teams, Inhalte auf der Office 365-Sicherheit und Compliance Center durchführen. 
 
 Tipp: Die Kind MicrosoftTeams kann über Microsoft-Teams nur Content d. h. Chat und Channel Nachrichten, Besprechungen und Telefonkonferenzen gefiltert verwendet werden. 
 
@@ -47,7 +47,7 @@ Tipp: Die Kind MicrosoftTeams kann über Microsoft-Teams nur Content d. h. Chat 
 
 Bei eDiscovery handelt es sich um den elektronischen Aspekt beim Identifizieren, Sammeln und Erzeugen von elektronisch gespeicherten Informationen (ESI) als Reaktion auf die Aufforderung zur Vorlage dieser Informationen in einem Rechtsstreit oder einer Untersuchung. Mögliche Fallmanagement, permanentes, Suche, Analyse und Exportieren von Daten für Teams. Dazu gehören Übersichten Chat, messaging und Dateien, Besprechung und Anruf. Für Teams Besprechungen und Telefonkonferenzen eine Zusammenfassung der Ereignisse, die in der Besprechung, und rufen erfolgt erstellt und in eDiscovery zur Verfügung gestellt. 
 
-Weitere Informationen dazu, wie Sie eDiscovery in Sicherheit und Compliance Center und zur Einhaltung von Bestimmungen Inhaltssuche für Teams Inhalte ausführen gehen Sie die unten aufgeführten Links: 
+Weitere Informationen dazu, wie Sie hierzu in Sicherheit und Compliance Center eDiscovery und Compliance Inhaltssuche für Teams Inhalte ausführen gehen Sie die unten aufgeführten Links: 
 
 [eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -70,7 +70,7 @@ Kunden können pro ihren Anforderungen nutzen Compliance-eDiscovery oder [Erweit
 
 ## <a name="legal-hold"></a>Gesetzliche Aufbewahrungspflicht
 
-Während einer Rechtsstreitigkeiten ist es oft erforderlich, dass alle Daten im Zusammenhang mit einem Benutzer (Verwaltungsberechtigter) oder ein Team ist in unveränderbarer Form beibehalten, sodass sie als Beweis für die Groß-/Kleinschreibung verwendet werden kann. Dies ist durch einen Benutzer (Benutzerpostfach) oder ein Team rechtliche Aufbewahrungspflicht platzieren. Wenn alle Team innerhalb Teams für Compliance-Archiv (Teilmenge der das Postfach oder eine Websitesammlung bis gezielte Abfragen oder gefilterten Inhalt) oder die Aufbewahrung für eventuelle Rechtsstreitigkeiten (gesamte Postfach oder eine Websitesammlung) festgelegt wird, wird die Sperre für das Postfach Gruppen platziert. Dadurch wird sichergestellt, dass auch wenn Endbenutzer löschen oder Bearbeiten von DDE Kanalnachrichten, die in der Gruppenpostfach aufgenommen werden, unveränderliche Kopien dieser Inhalte verwaltet und bei der Suche eDisscovery verfügbar sind. Gesetzliche Aufbewahrungspflicht wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. Finden Sie [in diesem](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) Artikel zu verstehen, Weitere Informationen zur Beibehaltung und Haltebereiche im Office 365-Sicherheit und Compliance Center helfen. 
+Während einer Rechtsstreitigkeiten ist es oft erforderlich, dass alle Daten im Zusammenhang mit einem Benutzer (Verwaltungsberechtigter) oder ein Team ist in unveränderbarer Form beibehalten, sodass sie als Beweis für die Groß-/Kleinschreibung verwendet werden kann. Dies ist durch einen Benutzer (Benutzerpostfach) oder ein Team rechtliche Aufbewahrungspflicht platzieren. Wenn alle Team innerhalb Teams für Compliance-Archiv (Teilmenge der das Postfach oder eine Websitesammlung bis gezielte Abfragen oder gefilterten Inhalt) oder die Aufbewahrung für eventuelle Rechtsstreitigkeiten (gesamte Postfach oder eine Websitesammlung) festgelegt wird, wird die Sperre für das Postfach Gruppen platziert. Dadurch wird sichergestellt, dass auch wenn Endbenutzer löschen oder Bearbeiten von DDE Kanalnachrichten, die in der Gruppenpostfach aufgenommen werden, unveränderliche Kopien dieser Inhalte verwaltet und bei der Suche eDisscovery verfügbar sind. Gesetzliche Aufbewahrungspflicht wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. Finden Sie [in diesem](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) Artikel zu verstehen, Weitere Informationen zur Beibehaltung und Haltebereiche im Compliance Center & Sicherheit in Office 365 helfen. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Protection-Informationsarchitektur für das Microsoft-Teams. 
 
@@ -87,9 +87,9 @@ In der folgenden Abbildung zeigt die Aufnahme Ablauf des Teams Besprechungen und
 
 ## <a name="retention-policies"></a>Aufbewahrungsrichtlinien
 
-Teams Unterhaltungen sind beständigen und ewig standardmäßig beibehalten. Mit der Einführung von Aufbewahrungsrichtlinien können Administratoren Aufbewahrungsrichtlinien (Aufbewahrung und Löschung) in die Sicherheit und Compliance Center für Teams Chat und Channel-Nachrichten konfigurieren. Dadurch Organisationen, die Daten für die Kompatibilität (d. h., Beibehaltung der Richtlinie) für einen bestimmten Zeitraum beibehalten oder Beseitigen der Daten (d. h., Richtlinie löschen), wenn es eine Haftung nach einem bestimmten Zeitraum berücksichtigt wird. Aufbewahrungsrichtlinien Teams stellen Sie sicher, dass sie beim Löschen von Daten aus alle Speicherorte permanente Daten in der Teams Dienst entfernt wird. 
+Teams Unterhaltungen sind beständigen und ewig standardmäßig beibehalten. Mit der Einführung von Aufbewahrungsrichtlinien können Administratoren Aufbewahrungsrichtlinien (Aufbewahrung und Löschung) im Compliance Center & Sicherheit für Teams Chat und Channel-Nachrichten konfigurieren. Dadurch Organisationen, die Daten für die Kompatibilität (d. h., Beibehaltung der Richtlinie) für einen bestimmten Zeitraum beibehalten oder Beseitigen der Daten (d. h., Richtlinie löschen), wenn es eine Haftung nach einem bestimmten Zeitraum berücksichtigt wird. Aufbewahrungsrichtlinien Teams stellen Sie sicher, dass sie beim Löschen von Daten aus alle Speicherorte permanente Daten in der Teams Dienst entfernt wird. 
 
-Zum Verwalten von Teams Aufbewahrungsrichtlinien Works verwenden Sie die Einstellungen und -Cmdlets im Office 365-Sicherheit und Compliance Center unter **Daten Governance** > **Aufbewahrung**.
+Verwenden Sie zum Verwalten von Teams Aufbewahrungsrichtlinien die Einstellungen und im Compliance Center unter **Daten Governance**& Sicherheit in Office 365-Cmdlets > **Aufbewahrung**.
 
 Aufbewahrungsrichtlinien Teams unterstützen: 
     
@@ -102,7 +102,7 @@ Aufbewahrungsrichtlinien Teams noch unterstützt nicht:
 - Erweiterte Aufbewahrungsrichtlinien gelten nicht für Teams Chat und Teams Channel Nachricht Speicherorte
 - Dauer von weniger als 30 Tagen
 
-Administratoren können separate Aufbewahrungsrichtlinien für Teams private Chats (1:1 oder 1: n-Chats) und Teams Channel Nachrichten einrichten. In vielen Fällen sollten Organisationen private chatdaten als mehrere eine Haftung als Channel-Nachrichten, die in der Regel Weitere projektbezogenen Unterhaltungen sind. Richten Sie diese Richtlinien in der Sicherheit und Compliance Center, **Daten Governance** > **Aufbewahrung**. Schalten Sie **Teams channel Nachrichten** und **Teams chats** und definieren Sie dann die Aufbewahrungsrichtlinien für diesen Speicherorten (ebenfalls in der folgenden Abbildung dargestellt). 
+Administratoren können separate Aufbewahrungsrichtlinien für Teams private Chats (1:1 oder 1: n-Chats) und Teams Channel Nachrichten einrichten. In vielen Fällen sollten Organisationen private chatdaten als mehrere eine Haftung als Channel-Nachrichten, die in der Regel Weitere projektbezogenen Unterhaltungen sind. Richten Sie diese Richtlinien in die Sicherheit & Compliance Center, **Daten Governance** > **Aufbewahrung**. Schalten Sie **Teams channel Nachrichten** und **Teams chats** und definieren Sie dann die Aufbewahrungsrichtlinien für diesen Speicherorten (ebenfalls in der folgenden Abbildung dargestellt). 
 
 Wenn Sie **Teams channel Nachrichten**aktivieren, können Sie Teams angeben, auf die diese Richtlinie angewendet wird. Beispielsweise für Teams X, Y und Z, der Administrator kann die Löschrichtlinien 1 Jahr (durch diese Teams einzeln auswählen) festgelegt, und Anwenden einer Richtlinie 3 Jahre Löschung auf den Rest der Teams. 
 
@@ -129,7 +129,7 @@ Ausführliche Informationen zur Konfiguration von Aufbewahrungsrichtlinien für 
 
 ### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>Welche Arten von Richtlinien kann ich in Aufbewahrungsrichtlinien einrichten und Funktionsweise deren?
 
-Im Sicherheit und Compliance Center Wenn Sie eine Aufbewahrungsrichtlinie für Teams oder für alle anderen Arbeitslasten einrichten können Sie zwei Haupttypen von Richtlinien einrichten: 
+Im Compliance Center & SSecurity Wenn Sie eine Aufbewahrungsrichtlinie für Teams oder für alle anderen Arbeitslasten einrichten können Sie zwei Haupttypen von Richtlinien einrichten: 
 - Permanentes: Diese Richtlinien sicher, dass Ihre Daten für einen bestimmten Zeitraum, unabhängig davon, was, in den Tools für die Endbenutzer geschieht beibehalten werden. Sie stellen Sie sicher, dass Daten aus Gründen der Einhaltung von Bestimmungen beibehalten werden und in eDiscovery bis zu diesem Zeitpunkt verfügbar läuft ab. Nach Ablauf die Zeit kann Ihre Richtlinie angeben, ob nichts Unternehmen oder Löschen der Daten. In Teams Wenn Sie eine Beibehaltung der Richtlinie für 7 Jahre erstellen, auch wenn Endbenutzer ihre Nachrichten Teams löschen werden diese Nachrichten weiterhin für eDiscovery für 7 Jahre beibehalten.
 - Löschvorgang: Diese Richtlinien sicherstellen, dass Daten keine Haftung für Ihre Organisation. Nach der angegebenen Dauer werden Daten aus allen relevanten Speicher in Teams gelöscht. 
 
@@ -159,9 +159,9 @@ Hinweis: Starten des Retention Policies Features für Teams stellt sicher, dass 
 
 Ja, Skype für Business Online und Teams interop Chats die gleiche Weise arbeiten. Nachdem die Skype für Business Online Chat in Teams stammt, wird eine Meldung in einem Teams Chat Thread und ruft in das entsprechende Postfach aufgenommen. Damit die gleiche Works – flow löscht Teams Löschrichtlinien diese Nachrichten aus der Teams Thread. Jedoch ist wenn aufgezeichnete für Skype für Business Online eingeschaltet ist und aus der Skype für Business Online Clientseite die in einem Postfach gespeichert werden werden, diese chatdaten nicht durch eine Aufbewahrungsrichtlinie Teams behandelt.
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Kann ich diese über Sicherheit und Compliance Center-Cmdlets? Was soll ich verwenden? 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Kann ich diese über Sicherheit und Compliance Center Cmdlets? Was soll ich verwenden? 
 
-Absolut. Sie können Teams Aufbewahrungsrichtlinien mithilfe von [Sicherheit und Compliance center Powershell-Cmdlets]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)erstellen. Denken Sie daran, dass diese nicht über Exchange Online-Cmdlets sind. Hier werden die Cmdlets, die wir für Teams erstellt haben. Sie führen Sie die vorhandenen Nomenklatur und-Art von Aufbewahrung heute verfügbaren Cmdlets Sicherheit und Compliance Center.
+Absolut. Sie können Teams Aufbewahrungsrichtlinien von [Sicherheit und Compliance Center Powershell-Cmdlets]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)erstellen. Denken Sie daran, dass diese nicht über Exchange Online-Cmdlets sind. Hier werden die Cmdlets, die wir für Teams erstellt haben. Sie führen Sie vorhandene Nomenklatur und Formatieren von heute verfügbaren Aufbewahrung-Cmdlets in Sicherheit und Compliance Center.
 
 |Richtlinie|Regel|
 |---|---|
@@ -217,7 +217,7 @@ Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abo
 |![Entscheidungspunktsymbol](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Entscheidungspunkt         |Verfügt Ihre Organisation über die erforderlichen Lizenzen, um die geschäftlichen Compliance- und Sicherheitsanforderungen zu erfüllen?         |
 |![Symbol für „Nächste Schritte“](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Nächste Schritte         |Überprüfen Ihrer Organisation aktuellen Lizenzierung, und vergewissern Sie sich, dass alle Unternehmen für die Einhaltung von Vorschriften und Sicherheit erfüllt.         |
 
-Bevor Sie diese Funktionen aktivieren, müssen Sie sicherstellen, dass Sie auf das Security & Compliance Center im Office 365 Admin Center zugreifen können. Mandantenadministratoren verfügen standardmäßig über Zugriff.
+Vor dem Aktivieren dieser Features, stellen Sie sicher, dass Sie Zugriff auf die Sicherheit und Compliance Center im Office 365 Administrationscenter verfügen. Mandantenadministratoren verfügen standardmäßig über Zugriff.
 
 Content-Suche und eDiscovery erfordern keine Aktivierung im Compliance Center & Sicherheit.
 
@@ -235,9 +235,9 @@ Finden Sie weitere Informationen in Kanada Daten vor-Ort-Teams Varun Sagars Blog
 
 Finden Sie weitere Informationen zu den Start des Australien und Japan Data Service für Teams Varun Sagars Blogbeitrag, [Microsoft Teams startet Australien und Japan Daten vor-Ort ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Wenn Sie wissen möchten, in welcher Region sich die Daten für Ihren Mandanten befinden, wechseln Sie zu [Office 365 Admin Center](https://portal.office.com/adminportal/home) > **Einstellungen** > **Organisationsprofil**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
+Um herauszufinden, welcher Bereich für Ihre Mandanten Daten enthält, gehen Sie zum [Office 365 Administrationscenter](https://portal.office.com/adminportal/home) > **Einstellungen** > **Profil des Unternehmens**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
 
-![Screenshot der Tabelle „Data location“ (Datenspeicherort) einschließlich Microsoft Teams im Office 365 Admin Center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Screenshot der Speicherort Datentabelle, einschließlich Teams, in der Office 365-Verwaltungskonsole.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 <a name="how-do-conditional-access-policies-work-for-teams"></a>Wie funktionieren bedingte Zugriffsrichtlinien für Teams?
 -------------------------

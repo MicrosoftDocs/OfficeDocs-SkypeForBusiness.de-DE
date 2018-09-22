@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie eine Notfalladresse und Notrufnummer für alle Ihre Benutzer einrichten, die mit dem Public Switched Telephone Network, (PSTN) arbeiten.
-ms.openlocfilehash: 053e0d13109f66b4e714b69f0bc5650e20acdb69
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 56552002c589b776935be973700cff822a9f4857
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885811"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958161"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Zuweisen oder Ändern einer Notfalladresse für einen Benutzer
 
@@ -65,7 +65,7 @@ Möchten Sie wissen, wie plant Aufrufen in Office 365 abrufen und wie viel Koste
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

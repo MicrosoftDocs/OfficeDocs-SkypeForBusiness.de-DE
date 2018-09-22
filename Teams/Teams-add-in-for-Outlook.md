@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: 07cc04f47da980bfb5a637c1cfe6bc2b72a26f8f
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998992"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967359"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -48,9 +48,9 @@ Weitere Informationen zum Konfigurieren der Authentifizierung finden Sie unter [
 
 ## <a name="enable-private-meetings"></a>Aktivieren von privaten Besprechungen
 
-Die Option „Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen) muss im [Office 365 Admin Center](https://portal.office.com/adminportal/home) aktiviert sein, damit das Plug-In bereitgestellt wird.
+Zulassen Sie, dass im Teams & Skype für Business Admin Center für das plug-in bereitgestellt Planung für private Konferenzen aktiviert werden muss. Wechseln Sie in der Verwaltungskonsole zu **Besprechungen** > **Besprechungsrichtlinien**, und wechseln Sie in den Abschnitt **Allgemein** **Planen von privaten Besprechungen zulassen** auf On.)
 
-![Screenshot der Einstellungen im Abschnitt „Anrufe und Besprechungen“ im Office 365 Admin Center](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+![Screenshot der Einstellungen in der Teams & Skype für Business Admin Center.](media/teams-add-in-for-outlook-image1.png)
 
 Der Microsoft Teams-Client ermittelt, ob die Benutzer die 32-Bit- oder 64-Bit-Version benötigen, und installiert dann das richtige Add-In.
 

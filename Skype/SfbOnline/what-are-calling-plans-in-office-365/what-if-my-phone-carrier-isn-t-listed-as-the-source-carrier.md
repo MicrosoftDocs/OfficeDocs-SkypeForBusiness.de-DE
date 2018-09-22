@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorgehen, wenn Ihr Netzbetreiber nicht in Skype für Unternehmen aufgeführt ist. '
-ms.openlocfilehash: 7e3d6e5c7b6a319cc83d85945b9fc5ab3fd9e19b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 79c493d6af5e8d56ecd430842bdf808514e749ff
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864799"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958341"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was ist, wenn mein Telefonbetreiber nicht als Quellbetreiber aufgeführt ist?
 
@@ -47,7 +47,7 @@ Ein Beispiel:
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

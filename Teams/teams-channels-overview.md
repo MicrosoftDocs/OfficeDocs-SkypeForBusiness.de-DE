@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b6c46a2ca5d68509a20b284d593d9edce080764
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 43b8a50322167ff9e5673ee62c0d53c226be632b
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889638"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967375"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -53,7 +53,7 @@ Nehmen Sie sich fünf Minuten Zeit, und sehen Sie sich dieses Video zu den bewä
 
 **Teameinstellungen** Teambesitzer können teamweite Einstellungen direkt in Microsoft Teams verwalten. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Kanälen für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden. 
 
-Wenn Sie in Office 365 als Administrator für Microsoft Teams festgelegt sind, haben Sie im Admin Center Zugriff auf systemweite Einstellungen. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
+Wenn Sie den Microsoft-Teams, Administrator in Office 365 sind, haben Sie Zugriff auf systemweiten Einstellungen im Teams & Skype für Business Admin Center. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 
 Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Microsoft Teams zu erstellen (wie Sie dies ändern, erfahren Sie unter [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md)). Benutzer einer vorhandenen Office 365-Gruppe können diese Gruppe mit Microsoft Teams-Funktionen erweitern.
 

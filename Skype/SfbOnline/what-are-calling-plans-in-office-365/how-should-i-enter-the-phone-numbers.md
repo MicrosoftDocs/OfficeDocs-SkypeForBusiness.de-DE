@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Telefonnummern einrichten, wenn Sie diese zu Skype für Unternehmen port. '
-ms.openlocfilehash: a5a3b0d5586e050a79c1aeb43967ad0d3e4bdf98
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 8d214ea7cf21ea713de28763f36b9995160fb395
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857317"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958141"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Wie muss ich die Telefonnummern eingeben?
 
@@ -97,7 +97,7 @@ Wenn Sie Rufnummern portieren, müssen Sie diese im richtigen Format eingeben.
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

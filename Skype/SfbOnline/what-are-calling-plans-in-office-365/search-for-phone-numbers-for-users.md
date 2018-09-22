@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie nach Telefonnummern suchen können, die Sie Ihre Benutzer nach Land/Region, Bundesland/Region oder Stadt zuweisen und die Anzahl an Nummern angeben können, die Sie brauchen. '
-ms.openlocfilehash: d3d131e850fef1afe95763a0e48b6c7c766b55ed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d57ccfbea0020ab3ddacd894ffa6f277798bb042
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884111"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958101"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
@@ -75,7 +75,7 @@ Wenn Sie Hilfe mit erste Rufnummern benötigen, können Sie [Telefonnummern für
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

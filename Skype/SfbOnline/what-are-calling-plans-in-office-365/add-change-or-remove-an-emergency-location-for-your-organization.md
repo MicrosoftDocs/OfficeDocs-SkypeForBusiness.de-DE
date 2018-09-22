@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: " Erfahren Sie mehr über das Hinzufügen, Ändern oder entfernen  eines von Skype for Business im Telefonfestnetz (Public Switched Telephone Networks; PSTN) für Ihre Organisation verwendeten Notfallstandorts. "
-ms.openlocfilehash: 68c4e60288a85f39b198eb0ea1bd05e6a1e7f5e6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 862d62af8db8275e304c1522ae19a80d9ebcfec4
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883678"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958271"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
@@ -86,7 +86,7 @@ Informationen zum Aufrufen von planen möchten und wie viel Kosten finden Sie [S
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

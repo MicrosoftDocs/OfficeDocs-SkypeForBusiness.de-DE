@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Siehe die Schritte zur Änderung der Notfalladressen für einen Benutzer der mit dem Telefonfestnetz (PSTN) in den USA und Europa arbeitet. '
-ms.openlocfilehash: dad05a0ea42e6007e96b34ce5e0881fa6b427b8f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 31162e24471cb4e9259678f779143900fa61ac08
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881899"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958351"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Ändern der Notfalladresse für einen Benutzer
 
@@ -71,7 +71,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

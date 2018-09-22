@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134d6d310762bc43d578085fd3f1031112307ee9
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: bfd6eead5c62865d2c0c00f8719f2e6ec188ff9c
+ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937883"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24062002"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================

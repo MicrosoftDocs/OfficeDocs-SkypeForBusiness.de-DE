@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: ec6e3cafd3df2509764b69dc5809781fc94ab882
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eecd4594d7b0f6ccc61505ed24b023f0c01a53e5
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850966"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967473"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -99,7 +99,7 @@ Die Fehlerberichterstattungsdaten können außerdem personenbezogene Information
 
 Für die Fehlerberichterstattung müssen zwei Voraussetzungen erfüllt sein:
 
-- Die DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung muss auf dem Server oder im Mandanten-Admin Center auf False festgelegt sein (das ist der Standardzustand). Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) finden Sie weitere Informationen.
+- Die Einstellung DisableAutomaticSendTracing von Gruppenrichtlinien wird auf dem Server oder in der Mandanten-Verwaltungskonsole (Dies ist der Standardzustand) auf False festgelegt. Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) finden Sie weitere Informationen.
     
 - Endbenutzer einzeln bestätigen auf der Registerkarte Allgemein (klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , und klicken Sie dann im Dialogfeld **Optionen** wird geöffnet, wobei die Registerkarte **Allgemein** angezeigt) in die Skype für Business-Client.
     

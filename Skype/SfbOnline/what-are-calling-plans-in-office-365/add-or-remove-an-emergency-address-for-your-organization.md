@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie eine Notfalladresse zu Ihrem Skype for Business-Konto hinzuzufügen. '
-ms.openlocfilehash: e89942cc53bbe82898851ab744f8ba387ea5c31d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 06cd8202198b49efbf2c478e233865a681d2ce34
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882163"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958181"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen
 
@@ -76,7 +76,7 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

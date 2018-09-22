@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Finden Sie unter Was Sie als eine Kontonummer in Skype für Unternehmen halten sollten, und finden Sie auf, die. '
-ms.openlocfilehash: ef6cdc8a5eeebb3f64a41410062b045da08b066f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3f539b886e16eaa106347fbff113763fb451ddb5
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863291"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958241"
 ---
 # <a name="what-should-i-put-in-for-the-account-number"></a>Was muss ich als Kontonummer eingeben?
 
@@ -47,7 +47,7 @@ In der Regel die Kontonummer finden Sie auf eine beliebige Bill oder Rechnung vo
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
