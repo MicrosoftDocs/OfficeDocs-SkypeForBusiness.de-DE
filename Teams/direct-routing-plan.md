@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 91d188f63a0645d0df81817dd98dbd3ef54418a9
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861741"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975202"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
 
@@ -136,7 +136,8 @@ Das Zertifikat muss von einem der folgenden Stammzertifizierungsstellen generier
 - Baltimore CyberTrust Root
 - Buypass
 - Cybertrust
-- Öffentliche primären Zertifizierungsstelle Klasse 3 
+- Öffentliche primären Zertifizierungsstelle Klasse 3
+- Comodo Secure Stammzertifizierungsstelle
 - Deutsche Telekom 
 - Globale Stammzertifizierungsstelle DigiCert 
 - Entrust

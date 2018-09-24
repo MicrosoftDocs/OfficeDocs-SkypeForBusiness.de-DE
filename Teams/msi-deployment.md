@@ -13,15 +13,18 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aaf355c1f1fc65855c7bffb7c5632929a084b88
-ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
+ms.openlocfilehash: 3141eb3f7d584e2140c95ec509e14285cc1cfe7c
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24057603"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975100"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installieren von Microsoft Teams mithilfe eines MSI-Pakets
 =================================
+
+> [!Tip]
+> Sehen Sie sich die folgenden Sitzung auf Informationen zu den Vorteilen von der Windows-Desktop-Client, wie es geplant und wie diese bereitgestellt: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
 Verwendung von System Center Configuration Manager oder Gruppenrichtlinien oder Drittanbieter-Verteilungsmechanismen für umfassenden Bereitstellung hat Microsoft MSI-Dateien ( [32-Bit-](https://aka.ms/teams32bitmsi) und [64-Bit](https://aka.ms/teams64bitmsi)) bereitgestellt, mit denen Administratoren für die Bereitstellung von Teams Massen können wählen Benutzer oder Computer. Diese Dateien können Administratoren Remotebereitstellung Teams, damit Benutzer keine die app Teams manuell herunterladen. Bei der Bereitstellung automatisch Teams werden Einführung für alle Benutzer, die auf diesem Computer anmelden. (Sie können Automatisches Starten nach der Installation der app deaktivieren. [Finden Sie weiter unten](#disable-auto-lanuch-for-the-msi-installer).) Es wird empfohlen, dass Sie das Paket auf dem Computer bereitzustellen, sodass alle neuen Benutzer des Computers auch von dieser Bereitstellung profitieren. 
  
@@ -59,7 +62,7 @@ Wenn ein Benutzer aus ihrem Benutzerprofil Teams deinstalliert, wird der MSI-Ins
 > [!TIP] 
 > [Bereitstellung von Microsoft-Teams, bereinigen Sie](.\scripts\Powershell-script-teams-deployment-clean-up.md) Skript können Sie die Schritte 1 und 2 über SCCM erreichen.  
                     
-## <a name="disable-auto-lanuch-for-the-msi-installer"></a>Deaktivieren Sie automatische Lanuch für die MSI-installer
+## <a name="disable-auto-launch-for-the-msi-installer"></a>Automatisches Starten für die MSI-Installer deaktivieren
 
 Wenn Sie Automatisches Starten deaktivieren möchten, geben Sie die folgende Befehlszeile:
 

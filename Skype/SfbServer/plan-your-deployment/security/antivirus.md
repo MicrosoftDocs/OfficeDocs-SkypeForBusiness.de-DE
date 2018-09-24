@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Übersicht über Antivirusscanner Interoperation mit Skype für Business Server.
-ms.openlocfilehash: 1078b3c0a28573e84235cbd39a11a6aa84a58b47
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 782f7bc6fe004eb5106fa07c93b6f22993849d98
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250024"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975194"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Virenscan Ausschlüsse für Skype für Business Server
 
@@ -58,6 +58,8 @@ Um sicherzustellen, dass die Antivirusscanner nicht mit dem Betrieb des Skype f�
   - HealthAgent.exe
 
   - IMMCUSvc.exe
+  
+  - LyncBackupService.exe
 
   - LysSvc.exe
 

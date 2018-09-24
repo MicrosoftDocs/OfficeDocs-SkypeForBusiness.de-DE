@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Schulungsvideos, Lernprogramme und andere Ressourcen für Administratoren zum Planen, bereitstellen und Ausführen von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6d3601e72e829f2c00fd166c3b249872e48347
-ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
+ms.openlocfilehash: e3ee2ac75015f26317f85d6cf4ecf79e71496f0b
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24960955"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975092"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 
@@ -140,7 +140,7 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Architektur</h3><p>[Video: Grundlagen - Kernkomponenten von Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                        <h3>Architektur</h3><p>[Video: Grundlagen - Kernkomponenten von Teams](http://aka.ms/teams-foundations)</p>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
                     <div class="cardText">
                         <h3>Planen und bereitstellen</h3>
                          <p>[Schnellstart: Microsoft Teams-Planungshandbuch](quick-start-enable-teams.md)</p>
-                         <p>[Video: Teams Windows-desktop-client](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                         <p>[Video: Teams Windows-desktop-client](http://aka.ms/teams-clients)</p>
                     </div>
                 </div>
             </div>
