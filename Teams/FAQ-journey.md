@@ -11,15 +11,15 @@ description: Häufig gestellte Fragen zu der Upgrade Weg von Skype für Unterneh
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c0f27a013a34a60bcaf646c50f1a736c4ef1cc5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 1a59134e48d71f9704054d01fecccff385e45e7e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892706"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015373"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Reise von Skype for Business zu Teams
 

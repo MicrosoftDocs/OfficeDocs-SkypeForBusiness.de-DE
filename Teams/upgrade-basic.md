@@ -11,15 +11,15 @@ description: Aktionsplan für das Upgrade von Skype für Unternehmen, die Teams 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea1e371ae10991c5a8d5d9121da9f78fb44af430
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883213"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015645"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>Grundlegende aktualisieren 
@@ -151,7 +151,7 @@ Benutzer können sich mit ihre täglichen Aufgaben beschäftigt. Erinnerung an d
 
 *(Aktualisieren Sie Tag)*
 
-Heute ist der Tag, den Ihre Organisation offiziell Teams als Ihrer Lösung zur Kommunikation und Zusammenarbeit aktualisiert. Aktivieren Sie bei Office 365-Admin-Portal die Option Upgrade durch Festlegen des Koexistenzmodus nur **Teams**. Benutzer erhalten in ihren Skype für Business-Client eine Benachrichtigung, dass sie auf Teams aktualisiert haben.
+Heute ist der Tag, den Ihre Organisation offiziell Teams als Ihrer Lösung zur Kommunikation und Zusammenarbeit aktualisiert. Aktivieren Sie bei der Teams & Skype für Business Admin Center die Option Upgrade durch Festlegen des Koexistenzmodus nur **Teams**. (Wechseln Sie in der Verwaltungskonsole auf die **gesamte Org Einstellungen** > **Teams aktualisieren**.) Benutzer erhalten in ihren Skype für Business-Client eine Benachrichtigung, dass sie auf Teams aktualisiert haben.
 
 Es wird empfohlen, nachdem jeder aktualisiert wurde, senden Sie eine e-Mail-Nachricht angezeigt, deren Teams begrüßt.
 

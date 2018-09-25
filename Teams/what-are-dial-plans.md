@@ -7,9 +7,12 @@ ms.reviewer: mikedav, roykuntz
 ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, welche Art von Dial Plans (Aufrufen von PSTN-Wählpläne) aufrufen mit Office 365 verfügbar sind und wie Sie eine für Ihre Organisation wählen.  '
-ms.openlocfilehash: d0a803316326ca4bc4909ad0e15fa4bfc75a3d00
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ad7419af1eb58e25effd646ec2aaaa6644ffe50d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889472"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013587"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 

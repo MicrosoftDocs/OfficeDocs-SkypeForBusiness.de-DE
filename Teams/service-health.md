@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Sie sollten überprüfen, ob der Teams-Dienst und andere Office 365-Komponenten wie Exchange, SharePoint und OneDrive for Business fehlerfrei sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c9a528187461fe513eb7aa5782696f80313bc5d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a9e04c6dfb42826bef29bcdf810833aec11c9ea2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867605"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015439"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Überprüfen der Dienstintegrität für Microsoft Teams
 ===========================================

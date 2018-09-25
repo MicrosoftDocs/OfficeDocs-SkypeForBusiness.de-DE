@@ -11,15 +11,16 @@ metadata:
   ms.date: 02/07/2018
   ms.service: msteams
   ms.topic: tutorial
+  appliesto: Microsoft Teams
   localization_priority: Normal
   search.appverid: MET150
-  ms.collection: Strat_MT_TeamsAdmin
-  ms.openlocfilehash: fffbd98547aa7d79baa413d5b4e531a771a42f35
-  ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+  ms.collection: Teams_ITAdmin_PracticalGuidance
+  ms.openlocfilehash: e55ff5788778fa1e253410c691d8b6992c0a1d61
+  ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/07/2018
-  ms.locfileid: "23882259"
+  ms.lasthandoff: 09/25/2018
+  ms.locfileid: "25017175"
 items:
 - durationInMinutes: 3
   content: "\nDiese Schulung enthält ein PowerShell-Skript, das ein öffentliches firmenweites Team in Microsoft Teams erstellt. Das Skript verwendet das PowerShell-Modul MicrosoftTeams (zurzeit als Betaversion verfügbar), um ein öffentliches firmenweites Team zu erstellen. Außerdem verwendet es das PowerShell-Modul AzureAD, um die Liste der Benutzer in Ihrem Mandanten abzurufen. \n\nDies ist ein guter Ausgangspunkt, wenn Sie ein paar einfache PowerShell-Befehle ausprobieren und sich mit diesem leistungsstarken Tool für Unternehmen vertraut machen möchten. PowerShell ist eine wichtige Komponente der Verwaltung anderer Aspekte von Azure AD-Gruppen, beispielsweise der Steuerung der Erstellung von Gruppen. Auf diese Weise verwalten Sie, wer ein Team in Microsoft Teams erstellen kann. \n\n### <a href=\"https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-sample-create-company-wide-team\" target=\"_blank\">:arrow_down: PowerShell-Skript herunterladen</a>\n\n> [!IMPORTANT]\n> Dieses PowerShell-Skript fügt nur die ersten 2.500 Mitglieder zu einem Team hinzu. 2.500 ist das aktuelle Limit für die Teamgröße. \n\n\nDiese Schulung ist für IT-Administratoren oder Microsoft Teams-Benutzer gedacht, die die Teamerstellung automatisieren möchten. Folgende Punkte werden behandelt:  \n- Installieren der entsprechenden Module in PowerShell\n- Verwenden des Skripts \n\nDiese Punkte werden nicht behandelt:\n1. Tiefe Einblicke in PowerShell. Sie erhalten hier nur die PowerShell-Informationen, die Sie benötigen, um das PowerShell-Skript zu nutzen. Weitere Informationen finden Sie unter <a href=\"https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1\" target=\"_blank\">Erste Schritte mit Windows PowerShell</a>.\n2. Funktionen des Moduls <a href=\"https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0\" target=\"_blank\">AzureAD</a>. Dieses PowerShell-Skript verwendet das Modul AzureAD für einen einzigen Befehl, mit dem die Benutzer im Mandanten abgerufen werden. \n3. Die Cmdlets im Modul <a href=\"https://github.com/MicrosoftDocs/office-docs-powershell/tree/master/teams/teams-ps/teams\" target=\"_blank\">MicrosoftTeams</a> \n4. Eine zeilenweise Beschreibung des PowerShell-Skripts \n\n\nWenn Sie Fragen oder Feedback zu dieser Schulung haben:\n  - Schreiben Sie etwas im Abschnitt für Kommentare unten auf der Seite [Nächste Schritte](company-wide-team-creation-powershell.yml#step-7) dieses Tutorials.\n  - Wenn Sie Produktfeedback geben möchten, beispielsweise Funktionswünsche, wechseln Sie zur <a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">UserVoice</a>-Website.\n"

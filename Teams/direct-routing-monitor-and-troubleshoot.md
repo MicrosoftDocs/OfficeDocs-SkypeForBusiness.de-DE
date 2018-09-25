@@ -5,17 +5,22 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: In diesem Artikel wird beschrieben, wie zur Überwachung und Problembehandlung für die direkte Routing-Konfiguration.
-ms.openlocfilehash: 92a7f0ed27549ace44bf962a1aa7bb47e24b4ab4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 46fd5ad046551d30bf3822d11864edc2a5353a26
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857187"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014933"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direkten Routing
 

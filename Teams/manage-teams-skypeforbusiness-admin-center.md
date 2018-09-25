@@ -5,23 +5,25 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
-ms.service: msteams
+ms.service:
+- msteams
+- skype-for-business-online
 ms.reviewer: ''
 search.appverid: MET150
 description: Weitere Informationen zum Verwalten von Mandanten geltende und von Einstellungen für Teams während des Übergangs von den Teams Erfahrung in der Office 365-Verwaltungskonsole auf die neue Microsoft-Teams & Skype für Business Admin Center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: e54dfb0bc62e94e0a870aefc192851ce7b8a53fe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965699"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013899"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center
 ======================================================
@@ -76,7 +78,7 @@ Die folgende Tabelle gibt die Abschnitte der aktuellen Teams Erfahrung, die migr
 |Benutzerdefinierter Cloudspeicher     |Ablage        |TeamsClientConfiguration         |Mandanten         |
 |Benutzerdefinierter Cloudspeicher     |Google-Laufwerk        |TeamsClientConfiguration         |Mandanten         |
 |Benutzerdefinierter Cloudspeicher     |ShareFile        |TeamsClientConfiguration         |Mandanten         |
-|Einstellungen nach Benutzer-/Lizenztyp     |Aktivieren Sie oder deaktivieren Sie den Microsoft-Teams für alle Benutzer          |Veraltet. Verwenden Sie Office 365 Administrationscenter, Lizenzen zuzuweisen.        |         |
+|Einstellungen nach Benutzer-/Lizenztyp     |Aktivieren Sie oder deaktivieren Sie den Microsoft-Teams für alle Benutzer          |Wird als veraltet markiert werden. Verwenden Sie Office 365 Administrationscenter, Lizenzen zuzuweisen.  Aktivieren/Deaktivieren von Gast wird zum TeamsClientConfiguration - AllowGuestUser verschoben.      |         |
 |Teams und Kanäle     |         |Umleitung zur Azure Active Directory-Gruppenmanagement (identisch mit Kenntnissen).              |Benutzer         |
 |Teams und Kanäle     |         |Umleitung zur Verwaltung von AAD (identisch mit Kenntnissen).             |Benutzer          |
 |Anrufe und Besprechungen     |„Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen)         |TeamsMeetingPolicy         |Benutzer          |

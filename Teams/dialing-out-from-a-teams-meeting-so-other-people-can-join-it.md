@@ -7,10 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, was Sie benötigen und wie Besprechungsorganisatoren mithilfe von Microsoft Teams andere Personen anrufen können.
-ms.openlocfilehash: 498f03e5ff42c3c99b6e151c05e1c6174054db46
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 7fe3cbdca38c04b498806d3bd05a4f7bef5ea290
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892994"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012737"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können
 
-Als Besprechungsorganisator können Sie mit der Microsoft Teams-App einen Anruf aus einer Besprechung heraus tätigen, damit andere Personen über ihr Telefon an dieser Besprechung teilnehmen können. Wir empfehlen, bei einem ausgehenden Anruf die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen, auch wenn dies nicht erforderlich ist. So verwenden Sie Dial-out
+Als Organisator der Besprechung können Sie sich einwählen, bei Verwendung der app Teams an um andere Personen, die die gleiche über das Telefon Besprechung teilnehmen zu lassen. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
   
 - Sie können nur dann einen Anruf aus einer Besprechung heraus tätigen, wenn Sie über Microsoft Teams an einer Besprechung teilnehmen.
     
@@ -47,7 +48,7 @@ Als Besprechungsorganisator können Sie mit der Microsoft Teams-App einen Anruf 
   
 ## <a name="supported-countries-and-regions"></a>Unterstützte Länder und Regionen
 
-Dial-out ist nur in bestimmten Ländern/Regionen verfügbar. Eine vollständige Liste finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Dial-out is only available to some countries/regions. Vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie mehr über Audiokonferenzen erfahren?
 

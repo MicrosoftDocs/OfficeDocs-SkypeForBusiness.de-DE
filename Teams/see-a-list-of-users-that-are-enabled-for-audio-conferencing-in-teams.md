@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie in Microsoft Teams eine Liste der Benutzer in Ihrer Organisation anzeigen, die für Dial-in-Konferenzen aktiviert sind. '
-ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884447"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014035"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Anzeigen einer Liste der für Audiokonferenzen aktivierten Benutzer in Microsoft Teams
 
-Nachdem Sie Microsoft Teams-Benutzer in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie eine Liste der aktivierten Benutzer anzeigen. In der Liste sehen Sie außerdem für jeden Benutzer den Typ des verwendeten Audiokonferenzanbieters, die standardmäßige Dial-in-Telefonnummer für die Benutzer und, wenn die Organisation nicht für dynamische Konferenzkennungen aktiviert ist, die statischen Konferenzkennungen für die von ihnen organisierten Audiokonferenzbesprechungen.
+Nachdem Sie die Microsoft-Teams, Benutzer in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden. Beim Betrachten der Liste wird ebenfalls für jeden Benutzer in der Liste den Typ des Audiokonferenzanbieter, die sie verwenden, die Standard-Einwahl Telefonnummer für den Benutzer angezeigt, und wenn Ihre Organisation für dynamische Konferenz-IDs, die statische Konferenz-IDs nicht aktiviert ist für Audiokonferenzen-Besprechungen, die sie organisieren.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

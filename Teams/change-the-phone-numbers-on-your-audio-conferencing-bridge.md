@@ -7,9 +7,12 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: 32376134a6faa6944c6a4bb3e36a92cf3407ebce
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23892494"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016749"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -46,7 +49,7 @@ Neben die Telefonnummern, die Konferenzbrücke bereits zugewiesen, Sie können [
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
-2. Navigieren Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business** > **VoIP** > **Telefonnummern**.
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **VoIP** > **Rufnummern**.
 
 3. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich auf **Zuweisen**.
 
@@ -65,7 +68,7 @@ Bei den Standardtelefonnummern für Benutzer handelt es sich um die Nummern, die
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Wechseln Sie auf **Office 365 Admin Center** > **Admin Centers** > **Skype für Business** > **Audiokonferenzen** > **Benutzer** und wählen Sie die Benutzer in der Liste aus.
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **Audiokonferenzen** > **Benutzer** und die Benutzer in der Liste auswählen.
 
 3. Klicken Sie im Aktionsbereich auf **Bearbeiten**.
 
@@ -129,7 +132,7 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Navigieren Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business** > **VoIP** > **Telefonnummern**.
+2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **VoIP** > **Rufnummern**.
 
 3. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich auf **Zuweisung aufheben**.
 

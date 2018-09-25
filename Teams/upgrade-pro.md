@@ -11,15 +11,15 @@ description: Verwenden Sie diese Anleitung, wenn Sie in einer großen Organisati
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff25edcfc24df1040aa7d23606e62d4beccb08dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3faa5874071f7587f94cf4f1719b877a9aed1d4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891506"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013667"
 ---
 # <a name="upgrade-pro"></a>Pro aktualisieren
 
@@ -113,5 +113,5 @@ Laufende: Verwalten Sie Momentum und die betriebsbereit Integrität Ihrer Bereit
 > Unsere Pro Upgrade Inhalte ist ständig entwickelt. Achten Sie darauf, dass wieder für die neueste Anleitung prüfen und [Teams Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)lesen. 
 
 > [!Important]
-> Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, können Sie sehen Upgradeoptionen in den PowerShell-Cmdlets oder Teams Admin Center starten. Durch die Option aktualisieren bedeutet nicht unbedingt, dass Ihre Organisation bereit, damit diese Änderung ist. Bestätigen Sie für eine optimale Benutzer wünschen, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, überprüfen Sie, ob Ihr Netzwerk ist bereit zur Unterstützung von Teams, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams.
+> Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, starten Sie möglicherweise Upgradeoptionen in die PowerShell-Cmdlets oder Teams & Skype für Business-Verwaltungskonsole sehen. Durch die Option aktualisieren bedeutet nicht unbedingt, dass Ihre Organisation bereit, damit diese Änderung ist. Bestätigen Sie für eine optimale Benutzer wünschen, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, überprüfen Sie, ob Ihr Netzwerk ist bereit zur Unterstützung von Teams, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams.
  

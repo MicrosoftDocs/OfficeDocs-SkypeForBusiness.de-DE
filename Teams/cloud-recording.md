@@ -5,17 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funktionen in Microsoft Teams
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14b7003ca1ccecd0574e9c7e06de5cd81d85547e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851175"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014179"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams Cloud besprechungsaufzeichnung
 
@@ -36,7 +37,7 @@ Für ein Teams Benutzer Besprechungen aufgezeichnet werden sollen muss Microsoft
 - Benutzer, das den Richtlinien Unternehmen zugestimmt hat, wenn durch den Administrator einrichten
 - Benutzer verfügt über ausreichend Speicherplatz im Microsoft-Stream für Aufzeichnungen gespeichert werden soll
 - Benutzer hat TeamsMeetingPolicy AllowCloudRecording Einstellung auf True festgelegt
-- Benutzer hat TeamsMeetingPolicy.AllowTranscription Einstellung Festlegung auf "true", kann Benutzer auswählen, ob auf die Aufzeichnungen automatisch aufzuzeichnen
+- Benutzer hat TeamsMeetingPolicy AllowTranscription Einstellung Festlegung auf "true", kann Benutzer auswählen, ob auf die Aufzeichnungen automatisch aufzuzeichnen
 - Benutzer ist keiner anonymen, Gast oder Verbundbenutzer in der Besprechung
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten von Teams Cloud besprechungsaufzeichnung für Benutzer in Ihrer Organisation

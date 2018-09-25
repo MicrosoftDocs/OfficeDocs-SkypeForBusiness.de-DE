@@ -11,15 +11,15 @@ description: Eintragen von Beteiligten, um das Projektteam für das Upgrade zu v
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe32df433159512d4e24d2bde7c2db76db23c32a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883281"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013033"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln")
 
@@ -54,7 +54,7 @@ Optional können Sie einem Lenkungsausschuss erstellen. Manchmal als große oder
 | Netzwerkleiter                    | Bietet Einblicke in die Netzwerkdesign und Ausführung                             | 
 | Leiter der Sicherheit                   | Bietet Einblicke in Sicherheitsentwurf Prozess und Implementierung             | 
 | Synchrone Kommunikation Leads | Eigentümer von Anwesenheitsinformationen wie Chat, Besprechungen, Tools und aufrufen                       | 
-| Asynchrone gehaltene Zusammenarbeit  | Besitzt asynchronen tooling wie SharePoint, OneDrive und usw.               | 
+| Asynchrone Zusammenarbeit Leads  | Besitzt asynchronen tooling wie SharePoint, OneDrive und usw.               | 
 | Telefonieleiter                  | Bietet Einblicke in die Telefonie Entwurf und Implementierung                      | 
 | Besitzer Service / Qualität Champion | Den Vorgang des Teams alle-nach-oben, einschließlich die Qualität des Benutzererlebnisses besitzt | 
 | Desktop- und Geräte Leads        | Bietet Unterstützung für Clients und Geräte desktop-apps                          | 

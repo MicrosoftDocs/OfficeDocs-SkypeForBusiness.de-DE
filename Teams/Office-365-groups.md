@@ -9,21 +9,21 @@ ms.service: msteams
 description: Erfahren Sie, wie Office 365-Gruppen und -Gruppenmitgliedschaften mit Microsoft Teams funktionieren.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 386dc9ba6552f4b8cb8110b3351e8073e76a6113
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: d7ce73b84dd45ebe85c82a207fdd1062703a0ffe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975108"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012945"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365-Gruppen und Microsoft-Teams
 =====================================
 
 > [!Tip]
-> Sehen Sie sich die folgenden Sitzung um zu erfahren, wie Teams interagiert mit Azure Active Directory (AAD), Gruppen von Office 365, Exchange, SHarePoint und OneDrive für Unternehmen: [Grundlagen der Microsoft-Teams](https://aka.ms/teams-foundations)
+> Sehen Sie sich die folgenden Sitzung um zu erfahren, wie Teams interagiert mit Azure Active Directory (AAD), Gruppen von Office 365, Exchange, SharePoint und OneDrive für Unternehmen: [Grundlagen der Microsoft-Teams](https://aka.ms/teams-foundations)
 
 Office 365 Gruppen ist der anwendungsübergreifender Mitgliedschaft in Office 365. Ebene der grundlegenden ist eine Office 365-Gruppe an, dass ein Objekt mit einer Liste der Elemente und eine Kopplung an eine SharePoint-Teamwebsite Yammer-Gruppe, einschließlich verwandte Arbeitslasten in Azure Active Directory Exchange-Postfach-Ressourcen, Planner, PowerBI und OneNote gemeinsam genutzt. Sie können hinzufügen oder entfernen Personen zu der Gruppe, genau wie alle anderen rollenbasierten Sicherheit-Objekts in Active Directory.
 

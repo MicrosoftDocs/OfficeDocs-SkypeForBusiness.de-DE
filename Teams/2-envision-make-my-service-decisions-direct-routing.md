@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Erfahren Sie mehr über die direkte Routing, Lizenzierung, und die Entscheidungen, die getroffen werden müssen.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a9bc4f6f29107f4bda6f8353d63064de2fd7b9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 82063cc595694c2bf60c3f6af6ab550f647c05cd
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884578"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015325"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 

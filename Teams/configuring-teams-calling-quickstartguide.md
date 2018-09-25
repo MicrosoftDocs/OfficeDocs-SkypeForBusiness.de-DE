@@ -10,15 +10,17 @@ ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
 description: Schnellstarthandbuch für das Konfigurieren von Anrufplänen in Microsoft Teams
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a4862a547df6f50d0831616a42824d9f8c3287
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882098"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015933"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams
 ==============================================================

@@ -11,15 +11,15 @@ search.appverid: MET150
 ms.reviewer: ''
 description: Anleitung zum Anmelden bei Microsoft-Teams, mithilfe der modernen Authentifizierung.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e44b05bd0daed8867247512d38f22b764351127d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e7e0f77ee5a98a8c4f28798709dcbc063424ec03
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882030"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011889"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Melden Sie sich bei Microsoft-Teams
 ==========================

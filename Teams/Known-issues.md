@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
 search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8177d7b4fa6768163c225a385229a356b49e1425
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999212"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015485"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -82,7 +83,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Ein Profilbild kann nicht gespeichert werden.  <br/> |Benutzer können ihr Profilbild nicht speichern, wenn das Exchange-Postfach lokal gehostet (verwaltet) wird.  <br/> |Keine Problemumgehung.  <br/> |28.02.2017  <br/> |
+|Ein Profilbild kann nicht gespeichert werden.  <br/> |Benutzer können nicht das Profilbild gespeichert werden, wenn das Exchange-Postfach gehosteten () lokal auf Exchange 2016 CU2 oder niedriger ist.  <br/> |Keine Problemumgehung.  <br/> |28.02.2017  <br/> |
 
 ## <a name="browser"></a>Browser
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -112,9 +113,6 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |:-----|:-----|:-----|:-----|
 |@ Erwähnungen für gelöschte Nachricht senden die Benachrichtigung mit Channel-link  <br/> |Es ist eine Benachrichtigung bekannte Einschränkung bei unter erwähnten in einer Nachricht, der gelöscht wird; die Benachrichtigung in den Feed navigiert für den DDE-Kanal, jedoch nicht für eine bestimmte Nachricht. <br/> | Entwurfsbedingt <br/> | 3/28/17  <br/>|
 
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Lokale Skype for Business-Benutzer erhalten meine Nachrichten nicht.  <br/> |Nachrichten werden nicht abgeschlossen, wenn Microsoft Teams-Benutzer versuchen, Nachrichten an andere Personen zu senden, die Skype for Business lokal verwenden.  <br/> | Interoperabilität zwischen Teams und in Skype for Business Online gehosteten Benutzern wird unterstützt. Teams-Benutzer können Einzelchats an Nicht-Teams-Benutzer senden, die Skype for Business Online verwenden. <br/> Interoperabilität zwischen Teams und in Skype for Business lokal gehosteten Benutzern wird nicht unterstützt. Teams-Benutzer können keine Einzelchats an Nicht-Teams-Benutzer senden, die Skype for Business lokal verwenden.  <br/> |2.11.2016  <br/> |
 
 ## <a name="client"></a>Client
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -152,9 +150,6 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |:-----|:-----|:-----|:-----|
 |Für manche Besprechungen ist Skype for Business erforderlich.  <br/> |Ihr Terminkalender wird in Microsoft Teams angezeigt. Um an einer Besprechung teilzunehmen, klicken Sie auf die Schaltfläche **Teilnehmen**. <br/> Solange die Entwicklung in diesem Bereich noch nicht abgeschlossen ist, gilt Folgendes: Wenn die Besprechung mit Skype for Business geplant wurde und Sie auf **Teilnehmen** klicken, wird Ihr Skype for Business-Client gestartet, um Sie an der Besprechung teilnehmen zu lassen. Besprechungen, die in Microsoft Teams geplant wurden, werden direkt im Produkt initiiert.  <br/> Diese Funktion wird in Zukunft optimiert.  <br/> |Klicken Sie auf **Teilnehmen**. Microsoft Teams entscheidet anhand der URL aus der Besprechungsbeschreibung selbst, ob Skype for Business für die Teilnahme des Benutzers an der Besprechung erforderlich ist.  <br/> |13.03.2017  <br/> |
 
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Fehlende **Besprechungen**werden mithilfe der Exchange-AutoErmittlung ermittelt. <br/> Microsoft-Teams unterstützt noch keine Postfächer in Exchange in der linken Navigationsleiste auf Symbol untergebracht <br/> |Das Symbol **Besprechungen** auf der app-Leiste ist derzeit nur für Benutzer, dessen Postfach aktiviert auf Office 365 mit mehreren Mandanten und einer Select wenige Benutzer festgelegt, deren Speicherort des Postfachs kann - lokale und Exchange dedizierten. Dies wird untersucht, jedoch gibt es keinen Zeitplan für die Bereitstellung dieser Funktion.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/>|
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -162,7 +157,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Besprechungen sind nicht verfügbar.  <br/> |Die Besprechungsfunktion und das zugehörige Symbol sind nicht verfügbar, wenn das Exchange-Postfach lokal gehostet (verwaltet) wird.  <br/> |Führen Sie ein Upgrade der lokalen Bereitstellung auf Exchange 2016 CU3 oder höher aus.  <br/> |28.02.2017  <br/> |
+|Besprechungen sind nicht verfügbar.  <br/> |Meeting-Funktionalität ist nicht verfügbar, wenn Exchange-Postfach gehosteten () lokal in der Version Exchange 2016 CU3 kleiner ist.  <br/> |Führen Sie ein Upgrade der lokalen Bereitstellung auf Exchange 2016 CU3 oder höher aus.  <br/> |28.02.2017  <br/> |
 
 ## <a name="mobile"></a>Mobil
 

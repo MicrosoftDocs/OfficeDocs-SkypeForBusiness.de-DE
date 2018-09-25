@@ -7,9 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1e4f48caff52cf648e075d9c4c4972076e124c00
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891693"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25018009"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -58,9 +61,11 @@ Weitere Informationen finden Sie unter [Add-On-Lizenzierung für Skype for Busin
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie in der linken Navigationsleiste des Office 365 Admin Center zu **Abrechnung** > **Abonnements** > **Add-Ons** > **Add-Ons kaufen**. Wählen Sie dann **Guthaben für Kommunikationen** > **Jetzt kaufen** aus.
+2. Wechseln Sie im linken Navigationsbereich des Office 365 Administrationscenter zur **Abrechnung** > **Abonnements** > **Abonnements hinzufügen**.
+
+3. Erweitern Sie **Add-on-Abonnements**, und wählen Sie dann auf **Communications haben** > **Jetzt kaufen**.
     
-3. Geben Sie Ihre Informationen auf der Seite **Communications haben** Abonnement, und klicken Sie dann auf **Weiter**:
+4. Geben Sie Ihre Informationen auf der Seite **Communications haben** Abonnement, und klicken Sie dann auf **Weiter**:
     
   - **Guthaben hinzufügen**: Geben Sie den Betrag ein, den Sie Ihrem Konto hinzufügen möchten. Wenn Sie das automatische Aufladen nicht aktivieren, werden nach dem Aufbrauchen des Guthabens die Anruffunktionen, die über das Guthaben für Kommunikationen aktiviert werden, unterbrochen (z. B. eingehende gebührenfreie Dienste). Um zu vermeiden, dass Sie den Guthabensaldo für Kommunikationen jedes Mal auffüllen müssen, wenn er 0 (null) erreicht, empfehlen wir, die automatische Aufladefunktion zu aktivieren.
     
@@ -75,7 +80,7 @@ Weitere Informationen finden Sie unter [Add-On-Lizenzierung für Skype for Busin
       > [!NOTE]
     > Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Wenn ein Guthaben nicht innerhalb von 12 Monaten ab dem Kaufdatum aufgebraucht wird, verfällt es. 
     
-4. Geben Sie Ihre Zahlungsinformationen ein, und klicken Sie auf **Bestellung aufgeben**.
+5. Geben Sie Ihre Zahlungsinformationen ein, und klicken Sie auf **Bestellung aufgeben**.
     >[!IMPORTANT]
     >Wenn Sie ein Kunde mit Volumenlizenz sind, können Sie die Nummer Ihres Enterprise-Vertrages für die Zahlung auswählen. Wenn Sie mehrere Enterprise-Vertragsnummern haben, können Sie den Enterprise-Vertrag auswählen, den Sie für die Zahlung verwenden möchten. Sie haben auch die Möglichkeit, eine Bestellnummer anzugeben, die Sie mit der Enterprise-Vertragsnummer verknüpfen können (falls zutreffend).
     
