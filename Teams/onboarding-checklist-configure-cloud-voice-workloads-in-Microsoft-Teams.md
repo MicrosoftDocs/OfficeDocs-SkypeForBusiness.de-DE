@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: Führen Sie die Core sowie die Aufgabe Aufgaben und Aktivitäten in der Prüfliste beim Konfigurieren von VoIP-Arbeitslasten Cloud in Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c81a88c7e846cd0826a896781f259aa27e177a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 1c2436cd7232fbfd00e8034c329927480f699aa9
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892682"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015693"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Konfigurieren von Cloud-VoIP-Arbeitslasten in Microsoft-Teams
 

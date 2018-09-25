@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15f812e0b12b666c838c5e2d58f24a1da678f0a1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: afdf57e4b1a37cf5cc1e1de1f4c2c86f478baf79
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849957"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016373"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 ==================================================

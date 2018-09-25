@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: rramesan
 search.appverid: MET150
 description: Aktivieren oder Deaktivieren der Funktion für den Gastzugriff in Microsoft Teams
@@ -13,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00dbeb60d941742e0ee7b345b431093c0890c14c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: cb19af107bc41fc088d7398570e34d0586b34e15
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852011"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015789"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
 ======================================

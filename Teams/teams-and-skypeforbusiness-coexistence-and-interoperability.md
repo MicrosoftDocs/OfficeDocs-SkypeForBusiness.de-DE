@@ -3,7 +3,7 @@ title: Grundlegendes zu Skype-Interoperabilität und Koexistenz für Unternehmen
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -11,15 +11,15 @@ description: Details der Skype für Geschäfts- und Microsoft-Teams Koexistenz O
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06e425f062c47f8fa05fa69e1354fee472804e90
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 158e563151fe426f6abbbeb7519ba9e793f2d202
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887570"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013409"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -48,13 +48,13 @@ Standardmäßig können Benutzer Teams zusammen mit Skype für Unternehmen als z
 In diesem Koexistenzmodus **Inseln**aufgerufen, wird jeweils der Clientanwendungen als einen separaten Bereich ausgeführt. Skype für Business kommuniziert mit Skype für Unternehmen und Teams kommuniziert mit Teams. Benutzer führen Sie beide Clients und auf dem Client, von dem die Kommunikation initiiert wurde, systemintern kommunizieren können. Daher besteht keine Notwendigkeit für die Interoperabilität im **Inseln** Modus.
 
 > [!Tip]
-> Die meisten Organisationen sind wahrscheinlich im **Inseln** Modus bereitstellen. Wenn Sie schnell Teams verschieben möchten, und Sie nicht erwarten, Koexistenz für Long zu unterstützen, wird empfohlen, dass Sie **Inseln** Modus verwenden. 
+> Wenn die bevorstehende Modi **Nur Teams** und **Skype für Unternehmen mit Zusammenarbeit für Teams** Modi verfügbar sind, sollte der Standardmodus für neue Benutzer online **Skype für Unternehmen mit Teams für die Zusammenarbeit**, sein bis Ihrer Organisation werden Verschieben Sie auf **Nur Teams**.   Vorhandene Benutzer im Modus **Inseln** sollten direkt zu **Teams** nur Kopfzeilen herunterladen verschieben, wie Ihre Organisation bereit ist. 
 
 ### <a name="skype-for-business-only"></a>Skype für Unternehmen nur
 
 In diesem Koexistenzmodus Benutzer bleiben in Skype für Unternehmen – nicht Teams – für Chat, Meeting aufrufende Funktionen und sie nicht Teams für Teams und Kanäle verwenden. In diesem Modus ist jetzt verfügbar. Allerdings werden in der aktuellen Implementierung Teams Modalitäten nicht für den Benutzer automatisch deaktiviert. Diese Funktion ist in Kürze verfügbare. In der Zwischenzeit können Administratoren die Teams-Lizenz für jeden Benutzer entfernen, die in Skype für Unternehmen als einzige Communications Anwendung bleiben müssen.
 
-### <a name="teams-only-this-mode-is-rolling-out-starting-in-summer-2018"></a>Nur Teams (in diesem Modus wird in Sommer 2018 beginnende Einführung)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>Nur Teams (in diesem Modus gestartet parallelen out Sommer 2018 und wird für alle Mandanten fallen 2018 abgeschlossen sein)
 
 Wie Ihre Organisation für einige oder alle Benutzer als einzige Kommunikation und Zusammenarbeit Tool Teams Verwendung bereit ist, können Sie diese Benutzer in den Modus **nur Teams** aktualisieren.
 
@@ -87,6 +87,7 @@ Weitere Informationen zur Koexistenz Modi, erforderliche Komponenten und Verwalt
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>Interoperabilität von Teams und Skype für Unternehmen
 
 Interoperabilität ist die Möglichkeit für Teams und Skype für Unternehmensbenutzer in derselben Organisation Kommunikation über Teams und Skype für Unternehmen.
+
 
 ### <a name="native-interop-and-interop-escalation"></a>Systemeigene interop und Interop-Eskalation
 

@@ -11,15 +11,15 @@ description: Planen des Upgrades von zuerst eintragen der Beteiligten, und klick
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07c592f8f3ef6e1021805766189e9c1cd522e8ab
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0a250c41aae8712db3964d04d375ecc834cf5d0d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883229"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017793"
 ---
 ![Sicherstellen, dass das Projekt für den Erfolg mit dem richtigen Projektteam eingerichtet ist. Definieren der Umfang, Ziele und Zeitachse. Vergewissern Sie sich technische und User Readiness. Führen Sie Ihrem Bereitstellungsplan. Verwalten von Momentum, um die Ergebnisse zu maximieren.] (media/upgrade-banner-main.png "Beginnen Sie Ihre Upgrade Reise")
 

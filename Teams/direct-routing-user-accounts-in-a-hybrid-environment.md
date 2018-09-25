@@ -5,17 +5,22 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: ''
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: Informationen Sie zu verschiedenen Kombinationen der Erstellung des Benutzers und welche Kombinationen unterstützt oder nicht unterstützt werden.
-ms.openlocfilehash: 8690d294755ed75b1c79a2c1fa61a4df196bc070
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851311"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014211"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybridumgebung mit PSTN-Anbindung
 
@@ -25,7 +30,7 @@ Dieser Artikel bezieht sich auf Umgebungen, in denen Sie alle der folgenden habe
  
 - Skype für Business Server 2015 oder Lync Server 2013 
 - Office 365-Mandanten 
-- Hybridkonnektivität zwischen dem Skype für Business Server und Skype für Business Online oder Teams Mandanten konfiguriert 
+- Hybridkonnektivität zwischen dem Skype für Business Server und Skype für Business Online oder Microsoft-Teams Mandanten konfiguriert 
 - Tätigen und Entgegennehmen von Anrufen (Public Switched Telephone Network, PSTN), zum und vom Client aktivierte Benutzer
 
  

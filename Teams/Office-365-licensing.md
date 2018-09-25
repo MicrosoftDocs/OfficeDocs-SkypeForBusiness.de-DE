@@ -13,15 +13,15 @@ search.appverid: MET150
 description: Hier finden Sie Informationen zu den verschiedenen Office 365-Lizenzen und darüber, welche Lizenzen für die Aktivierung von Microsoft Teams erforderlich sind und wie diese Lizenzen aktiviert bzw. deaktiviert werden.
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14498eef72af9f72e67ae51e3e40717ef6ce4709
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 272dd768dfa56871db8f0241ed6c046b350717d4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884053"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016853"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Office 365-Lizenzierung für Microsoft Teams
 ========================================

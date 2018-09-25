@@ -6,8 +6,12 @@ manager: serdars
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: msteams
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- msteams
+- skype-for-business-online
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -18,12 +22,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Finden Sie unter welche Probleme mit Sonderzeichen im Namen von Richtlinien und was Sie tun können sind, um es zu beheben.
-ms.openlocfilehash: 61902c3cdeafbacbf316b99834e7ac32286443b4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e1d46f70b42b96b2f3811c97d0110946fd013cd7
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853415"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017503"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Was sind die Sonderzeichen Einschränkungen in Teams Richtlinien?
 

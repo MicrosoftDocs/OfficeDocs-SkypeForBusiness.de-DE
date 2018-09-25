@@ -10,15 +10,15 @@ ms.reviewer: rowille
 description: Führen Sie die Core sowie die Aufgabe Aufgaben und Aktivitäten in der Prüfliste beim Konfigurieren von Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e55f5dc22cc806fc97249d1e6a3875439620201
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 025aa97c62692313b7a1a3e4d00a2325244ee4ea
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882123"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016117"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Konfigurieren von Microsoft-Teams Kernfunktionen
 

@@ -9,15 +9,15 @@ ms.service: msteams
 search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den verschiedenen verfügbaren Teams, Kanälen und Apps für die verschiedensten Anforderungen wie zum Beispiel Finanzen, Planung von Veranstaltungen, Vertrieb und vieles mehr.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43b8a50322167ff9e5673ee62c0d53c226be632b
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.openlocfilehash: 70591f040508453832943c65122f0fa0b07ef35b
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24967375"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014661"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================

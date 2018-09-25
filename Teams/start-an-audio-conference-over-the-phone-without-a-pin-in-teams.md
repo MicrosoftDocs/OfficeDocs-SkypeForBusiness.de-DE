@@ -7,10 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: d5b1f775-d7ed-4d30-853a-1d49f81e8fde
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- -msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,20 +21,20 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie im Teams Admin Center die Teilnahme anonymer Anrufer an einer Besprechung aktivieren oder deaktivieren. '
-ms.openlocfilehash: c68e3a0bd9992eb53811941113a30e9362c78227
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 4aec566b165385a111162641f233cd1b1e3027f4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882999"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014107"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Starten einer Audiokonferenz per Telefon ohne PIN in Microsoft Teams
 
 Für Benutzer, die sich in eine Besprechung einwählen, kann es frustrierend sein, im Wartebereich platziert zu werden und Musik zu hören, da der Microsoft Teams-Besprechungsorganisator die Besprechung noch nicht gestartet hat. 
   
-Wenn sich ein Besprechungsorganisator in die Besprechung einwählt, benötigt er zum Starten der Besprechung standardmäßig eine PIN. Sie können dies so einrichten, dass sich jeder in die Besprechung einwählen kann, ohne zur Eingabe einer PIN zum Starten der Besprechung aufgefordert zu werden. Sie können diese Einstellung für einen einzelnen Benutzer im Admin Center aktivieren oder deaktivieren.
+Wenn Organisator einer Besprechung die Besprechung standardmäßig in Aufrufe ist eine PIN erforderlich, um eine Besprechung zu starten. Sie können es einrichten, damit alle Benutzer an einer Besprechung einwählen kann und keine Aufforderung des Benutzers für eine PIN, um die Besprechung zu starten. Sie können mithilfe der Verwaltungskonsole zum Aktivieren oder deaktivieren diese Einstellung für einen einzelnen Benutzer.
   
-Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung über die Microsoft Teams-App gestartet hat. Eine PIN ist nur erforderlich, wenn der Besprechungsorganisator per Telefon an der Besprechung teilnimmt. Die PIN für Besprechungen wird an den Audiobenutzer gesendet, wenn ihm die Lizenz für **Audiokonferenzen** zugewiesen und er für Audiokonferenzen aktiviert wird. Weitere Informationen finden Sie unter [Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) und [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Audiokonferenzeinstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md).
+Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine Person die Besprechung aus der Microsoft-Teams app gestartet wurde. Eine PIN ist nur erforderlich, wenn der Organisator einer Besprechung per Telefon an der Besprechung teilnimmt. Die PIN für Besprechungen wird an den audio-Benutzer gesendet, die **Audiokonferenz** Lizenz zugewiesen werden und für Audiokonferenzen aktiviert sind. Finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) und [E-Mails, die Benutzern beim Ändern ihrer Einstellungen für die Audiokonferenz automatisch gesendet werden](emails-sent-to-users-when-their-settings-change-in-teams.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -68,7 +69,7 @@ Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Team
     
 - Wenn der anonyme Zugriff oder das Starten einer Besprechung ohne PIN deaktiviert ist, gilt Folgendes:
     
-  - Wenn die Besprechung nicht begonnen hat (also noch keine Teilnehmer anwesend sind): Der Anrufer wird nicht gefragt, ob er der Organisator ist, und er wird nicht aufgefordert, die PIN einzugeben. Da die Einstellung für den Organisator deaktiviert ist, beginnt die Besprechung, und der anonyme Anrufer nimmt an der Besprechung teil.
+  - Wenn die Besprechung noch nicht gestartet (es ist keine Empfänger in der Besprechung noch): ein Anrufer nicht aufgefordert, wenn er der Organisator ist und er nie für die PIN aufgefordert werden werden. Da die Einstellung der Organisator der OFF festgelegt ist, die Besprechung wird gestartet, und anonyme Anrufer werden an der Besprechung teilnehmen.
     
   - Wenn die Besprechung bereits begonnen hat (also bereits Teilnehmer anwesend sind): Der Anrufer wird nicht gefragt, ob er der Organisator ist, und er wird nicht aufgefordert, die PIN einzugeben. Die Besprechung wurde bereits gestartet, und der Anrufer nimmt teil.
     

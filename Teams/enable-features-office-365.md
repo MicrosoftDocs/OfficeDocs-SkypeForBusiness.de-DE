@@ -12,15 +12,15 @@ description: Informationen Sie zum Aktivieren oder Deaktivieren der apps in Offi
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ff482ccd6486fcab836565033a0cf7e02517717
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: f975ed755c66fe644c7097e218dc3be14e7c3165
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965620"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014653"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 

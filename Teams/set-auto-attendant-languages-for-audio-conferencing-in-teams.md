@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, wie Sie die Sprachen für die automatische Telefonzentrale für Audiokonferenzen für eine Audiokonferenz-Telefonnummer in Microsoft Teams auswählen.
-ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893018"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017953"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams
 
 Die automatische Telefonzentrale für Audiokonferenzen für Microsoft Teams kann Audioanrufer, die an einer Besprechung teilnehmen, in einer Reihe verschiedener Sprachen begrüßen.
   
-Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus. Die automatische Telefonzentrale verwendet zuerst die von Ihnen festgelegte primäre Sprache und dann die sekundären Sprachen in der Reihenfolge der Auswahl. 
+Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die primäre Sprache, die Sie festlegen zuerst verwendet werden und die sekundären Sprachen werden durch die automatische Telefonzentrale verwendet werden, dass Sie auswählen. 
   
 > [!NOTE]
 >  Sie können die Sprachen nur für inländische Audiozugriffsnummern konfigurieren.
@@ -48,7 +48,7 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus. Die a
 3. Wählen Sie im Bereich auf der rechten Seite die gewünschte Standardsprache und gegebenenfalls alternative Sprachen aus. 
  
     > [!NOTE]
-    > Die unterstützten Standardsprachen und alternativen Sprachen werden aufgelistet. Die Sprachen werden den Anrufern in der Reihenfolge angeboten, in der Sie sie in den Dropdownlisten auswählen. 
+    > Der standardmäßige und alternative Sprachen, die unterstützt werden, sind aufgeführt. Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden. 
 
 4. Klicken Sie auf **Speichern**.
 
