@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 048b9dd09e9309c4aaaf1af3b92d7e24f280d088
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 96772bfe77e2100be23c7e38816362b510b3c717
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883252"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002423"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Steuerung in Teams
 
@@ -88,7 +88,7 @@ Technische Anleitungen diese Einstellungen zu implementieren finden Sie unter:
 
 -   [Einrichten von Office 365 Gruppen Ablauf](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
--   [Einrichten von Teams Aufbewahrungsrichtlinien](security-compliance-overview.md#retention-policies).
+-   [Einrichten von Teams Aufbewahrungsrichtlinien](retention-policies.md).
 
 -   [Archivierung oder Wiederherstellung ein Team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype für Business Server 2015 oder Skype für Business Online-Administratoren kann diese Tabellen verwenden, um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.'
-ms.openlocfilehash: cb0955dcb695b0431e73b1f575087b06ec3b0449
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965734"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002389"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Desktopclient Featurevergleich für Skype für Business Server 2015
  
@@ -111,7 +111,8 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Chatunterstützung.
 Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung für Besprechungen.
   
 > [!NOTE]
->  Skype für Business-Meeting-Features sind nicht in Skype für Business Online eigenständig – Plan 1 verfügbar.
+>  Skype für Business-Meeting-Features sind nicht in Skype für Business Online eigenständig – Plan 1 verfügbar.  Plan 1 wird [zurückgezogen](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+).
 
 In Skype-zu-Skype-Sitzungen können Benutzer mit Skype for Business Online-Plan 1 an Desktopfreigabe- und Anwendungsfreigabesitzungen teilnehmen, wenn sie von anderen Benutzern dazu eingeladen werden, die über Zugriff auf Freigabefunktionen verfügen.   
 Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
