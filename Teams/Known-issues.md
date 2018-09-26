@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2b6a411e3dd4f2d7f337e6823cc41d98e508423
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015485"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090210"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -213,6 +213,10 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Teams Planner Integration in Planner online <br/> |Buckets in Planner Aufgaben werden in Planner online-Erfahrung nicht angezeigt.  <br/> |Keine Problemumgehung. <br/> |28.02.2017  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Registerkarte für SharePoint-Seite rendert leeren Bildschirm<br/> |SharePoint Online Vanity Domänen werden derzeit nicht unterstützt. Die Benutzeroberfläche ist ein leerer Bildschirm, wenn Attemting zum Hinzufügen einer SharePoint-Seite Registerkarte. <br/> |Keine Problemumgehung <br/> |8/20/18  <br/>|
 
 ## <a name="teams"></a>Microsoft Teams
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
