@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie Informationen zu den Schritten, mit denen Sie in Microsoft Teams einem Benutzer eine Lizenz für Dial-in-Konferenzen und eine Konferenzkennung zuweisen, sowie zu vielen anderen Einstellungen für Dial-in-Konferenzen. '
-ms.openlocfilehash: 40a6dd3e545e913a134ae7bac80b5ec3085dc96a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015333"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019094"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Verwalten der Audiokonferenzeinstellungen für meine Organisation in Microsoft Teams
 
@@ -78,13 +78,13 @@ Sie können die e-Mail-Nachricht ändern, die automatisch an Ihre Benutzer, eins
   
 ## <a name="reset-the-meeting-conference-id"></a>Zurücksetzen der Konferenzkennung der Besprechung
 
-1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
-2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-3. Klicken Sie unter **Audiokonferenz** auf **Konferenz-ID zurücksetzen**.  
+2. Klicken Sie unter **Audiokonferenz** auf **Konferenz-ID zurücksetzen**.  
 
-4. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Zurücksetzen**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+3. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Zurücksetzen**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
 Siehe [Zurücksetzen einer Konferenzkennung für einen Benutzer](reset-a-conference-id-for-a-user-in-teams.md).
   
@@ -92,60 +92,61 @@ Siehe [Zurücksetzen einer Konferenzkennung für einen Benutzer](reset-a-confere
 
 Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen Zwar eine Konferenz-ID wird automatisch erstellt und einem Benutzer zugewiesen werden, kann es jedoch Zeiten, wenn ein Benutzer nicht für diese verwenden möchten und es eine bestimmte Anzahl festgelegt werden soll, oder Ihre Benutzer können nicht merken oder verloren haben ihre Konferenz-ID. 
 
-1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
-2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-3. Klicken Sie unter **Audiokonferenz** auf **PIN zurücksetzen**, und klicken Sie dann auf **Zurücksetzen**. 
+2. Klicken Sie unter **Audiokonferenz** auf **PIN zurücksetzen**, und klicken Sie dann auf **Zurücksetzen**. 
   
-    
 Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen aktiviert werden oder wenn die PIN zurückgesetzt wird. Wenn Sie das automatische Senden von E-Mails deaktiviert haben, wird allerdings keine E-Mail zum Zurücksetzen der PIN gesendet. In diesem Fall müssen Sie die PIN manuell an den Benutzer senden. Die PIN wird nach dem Zurücksetzen nur einmal angezeigt. Nachdem sie unmittelbar nach dem Zurücksetzen angezeigt wurde, wird die PIN in den Benutzereigenschaften nicht mehr angezeigt. Stattdessen wird ***** angezeigt. 
   
 Siehe [Zurücksetzen der Audiokonferenz-PIN](reset-the-audio-conferencing-pin-in-teams.md).
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer
 
-1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
-2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-3. Klicken Sie unter **Audiokonferenz** auf **Send conference info in email** (Konferenzinformationen per E-Mail senden). 
+2. Klicken Sie unter **Audiokonferenz** auf **Send conference info in email** (Konferenzinformationen per E-Mail senden). 
 
     > [!NOTE]
     > Damit wird die Audiokonferenz-PIN nicht an den Benutzer gesendet. 
 
-  
 Siehe [Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
-## <a name="setting-the-phone-numbers-included-on-invites"></a>Festlegen der in Einladungen enthaltenen Telefonnummern
+## <a name="set-the-phone-numbers-included-on-invites"></a>Festlegen der in Einladungen enthaltenen Telefonnummern
 
-1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
-2. Klicken Sie neben **Audiokonferenz** auf **Bearbeiten**.
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+
+2. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**.
  
-3. Im Bereich **Audiokonferenz** können Sie die **Gebührenpflichtige Nummer** und, wenn dies zulässig ist, die **Gebührenfreie Nummer** festlegen.
+3. Klicken Sie im Bereich **Audiokonferenzen** können Sie die **gebührenpflichtige Telefonnummer** festlegen und, falls zulässig, die **gebührenfreie Telefonnummer**.
 
 4. Klicken Sie auf **Speichern**.
     
-Siehe [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
+Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
-## <a name="choosing-audio-conferencing-bridge-settings"></a>Auswählen von Einstellungen für die Audiokonferenzbrücke
+## <a name="choose-audio-conferencing-bridge-settings"></a>Auswählen von Audiokonferenzen Brücke
 
 **Festlegen des Besprechungsverhaltens, wenn Anrufer an einer Besprechung teilnehmen**
 
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-2. Klicken Sie oben auf der Seite **Conference Bridges** (Konferenzbrücken) auf **Bridge Settings** (Brückeneinstellungen). 
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
 
 3. Aktivieren oder deaktivieren Sie im Bereich **Bridge settings** (Brückeneinstellungen) die Option **Meeting entry and exit notifications** (Benachrichtigungen bei Zu- oder Abgang in Besprechungen).
 
     Dies ist standardmäßig aktiviert. Wenn Sie diese Option deaktivieren, werden nicht Benutzer, die bereits an der Besprechung standardmäßig benachrichtigt, wenn jemand Beitritt oder die Besprechung verlässt.
 
-4. Wählen Sie unter **Entry/exit announcement type** (Typ der Ankündigung für Zu- und Abgänge) die Option **Tones** (Töne) oder **Namen oder Telefonnummern** aus. 
+4. Wählen Sie unter **Entry/Exit Ankündigung Typ** **Töne** oder **Namen, oder Rufnummern**. 
 
-    Wenn Sie **Namen oder Telefonnummern** ausgewählt haben, können Sie auch die Option **Anrufer zur Aufnahme ihres Namens auffordern, bevor sie an der Besprechung teilnehmen** aktivieren oder deaktivieren. 
+    Wenn Sie den **Namen oder die Telefonnummern**auswählen, können Sie auch auswählen, aktivieren oder Deaktivieren von **Ask Anrufer ihren Namen vor der Teilnahme an der Besprechung aufzeichnen**. 
 
 5. Klicken Sie auf **Speichern**.
 
@@ -156,39 +157,40 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-set
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-2. Klicken Sie oben auf der Seite **Conference Bridges** (Konferenzbrücken) auf **Bridge Settings** (Brückeneinstellungen). 
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
 
-3. Geben Sie auf der Seite **Bridge settings** (Brückeneinstellungen) in der Liste **PIN-Länge** die gewünschte Anzahl der Ziffern für die PIN ein, und klicken Sie dann auf **Speichern**.
+3. Klicken Sie im Bereich **Einstellungen Bridge** Geben Sie die Anzahl der Ziffern, die Sie für die PIN-Nummer in der Liste der **PIN-Länge** verwenden möchten, und klicken Sie dann auf **Speichern**.
 
-    Die PIN muss aus vier bis zwölf Ziffern bestehen. Standardmäßig werden fünf Ziffern verwendet.
+    Die PIN muss aus 4 bis 12 Ziffern bestehen. Der Standardwert beträgt 5.
 
     
 Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Aktivieren oder Deaktivieren der an Audiobenutzer gesendeten E-Mails**
-
+ **Aktivieren oder Deaktivieren des Sendens von E-Mails an Audiobenutzer**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-2. Klicken Sie oben auf der Seite **Conference Bridges** (Konferenzbrücken) auf **Bridge Settings** (Brückeneinstellungen). 
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
 
-3. Aktivieren oder deaktivieren Sie im Bereich **Bridge settings** (Brückeneinstellungen) die Option **Automatically send emails to users if their audio conferencing settings change** (Bei einer Änderung der Audiokonferenzeinstellungen automatisch E-Mails an Benutzer senden).
+3. Klicken Sie im Bereich **Bridge-Einstellungen** aktivieren oder deaktivieren **für Benutzer-e-Mails automatisch gesendet, wenn Ändern ihrer Einstellungen für die Audiokonferenz**.
 
 4. Klicken Sie auf **Speichern**. 
  
-    Sie können dem Benutzer auch eine E-Mail mit den Audiokonferenzeinstellungen senden. Navigieren Sie dazu zu den Audiokonferenzeigenschaften des Benutzers, und klicken Sie auf **Send conference info in email** (Konferenzinformationen per E-Mail senden).
+    Sie können auch den e-Mail an den Benutzer mit den Einstellungen für Audiokonferenzen senden, indem Sie die Eigenschaften des Benutzers Audiokonferenzen und sollte und auf **Konferenz Informationen in e-Mail-Nachricht senden**.
     
     Damit wird eine E-Mail gesendet, die nur die Konferenz-ID und die Konferenztelefonnummer enthält, nicht aber die PIN.
 
-Siehe [Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Anzeigen und Festlegen der primären Sprache (Standardsprache) und der sekundären Sprachen (alternativen Sprachen) für eine Audiokonferenzbrücke
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Finden Sie unter, und legen Sie die primären (Standard) und die sekundären Sprachen (alternative) auf eine audiokonferenzbrücke
+
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-2. Wählen Sie in der Liste eine Telefonnummer aus, und klicken Sie auf **Bearbeiten**.
+2. Wählen Sie eine Telefonnummer aus der Liste aus, und klicken Sie auf **Bearbeiten**.
 
-3. Wählen Sie unter **Default language** (Standardsprache) und **Alternate languages (optional)** (Alternative Sprachen (optional)) die gewünschten Sprachen aus.
+3. Wählen Sie die Sprachen, die Sie unter **Default Language** und **(optional) alternative Sprachen**werden soll.
 
 4. Klicken Sie auf **Speichern**.
 
@@ -197,6 +199,7 @@ Siehe [Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenz
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Anzeigen von Einwahlnummern für Audiokonferenzen
 
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 

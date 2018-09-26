@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erhalten Sie Informationen zu PINs und zum Zurücksetzen von PINs in Microsoft Teams. '
-ms.openlocfilehash: b88ab6ee2cd498a38026e1fe2bfde04344514901
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014251"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019068"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams
 
@@ -35,11 +35,11 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer Beit
 
 ## <a name="reset-a-users-pin"></a>Zurücksetzen der PIN eines Benutzers
 
-1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie in der Microsoft-Teams & Skype für Business-Verwaltungskonsole im linken Navigationsbereich auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
+2. Klicken Sie unter **Audiokonferenzen**klicken Sie auf **PIN zurücksetzen**.
 
-3. Klicken Sie unter **Audiokonferenz** auf **PIN zurücksetzen**.
+3. Klicken Sie auf **Zurücksetzen**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

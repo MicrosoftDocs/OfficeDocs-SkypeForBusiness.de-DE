@@ -20,22 +20,22 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Als Office 365-Administrator können Sie die Einstellungen für Audiokonferenzen in Microsoft Teams (zum Beispiel den Anbieter, die standardmäßige gebührenpflichtige oder gebührenfreie Telefonnummer, die Konferenzkennung oder die PIN) für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. '
-ms.openlocfilehash: 11042cc385e2ad1f0635a459e4be34b2dafcd3bd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0be1276bbcba42cdf2b38c4ec1e54845608824e6
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013875"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019052"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Verwalten der Audiokonferenzeinstellungen für einen Benutzer in Microsoft Teams
 
 Sie können als ein Office 365-Administrator die Audiokonferenzeinstellungen – wie z.B. der Anbieter, gebührenpflichtige oder gebührenfreie Telefonnummer als Standard, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. Wenn Sie Einstellungen für die Organisation bearbeiten möchten, finden Sie unter [die Audiokonferenz Einstellungen für meine Organisation verwalten](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-In der Microsoft-Teams & Skype für Business Admin Center
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
 
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+2. Klicken Sie auf **Bearbeiten**.
 
 3. Ändern Sie unter **Audiokonferenzen**eine der folgenden aus:
 
@@ -47,7 +47,8 @@ In der Microsoft-Teams & Skype für Business Admin Center
 |**PIN-NUMMER** |Klicken Sie auf **Zurücksetzen PIN** , wenn Sie die PIN für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Zurücksetzen der PIN für Audiokonferenzen](reset-the-audio-conferencing-pin-in-teams.md). |
 |**Default Conferencing gebührenpflichtige Telefonnummer** (erforderlich) |Diese werden Zahlen, die für die audiokonferenzbrücke festgelegt werden. Formatieren Sie die Zahlen in Skype für Geschäfts- und Microsoft-Teams, Besprechungsanfragen angezeigt werden soll. Um die standardmäßige gebührenpflichtige Nummer zu ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , wählen Sie eine Zahl unter **gebührenpflichtige Nummer**. |
 |**Invites von diesem Benutzer können die gebührenfreie Telefonnummer enthalten.**|Wenn Sie diese Einstellung ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , umschalten Sie **gebührenfreie Nummern in Besprechungsanfragen von diesem Benutzer umfassen** , aktiviert oder deaktiviert. |
-|**Dial-Out-Berechtigungen**|Wenn Sie diese Einstellung ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , wählen Sie eine Option unter **Dial-Out - Berechtigung von Besprechungen**.|
+|**Nicht authentifizierte Benutzer können die erste Person in der Besprechung sein.**|Zum Ändern dieser Einstellung umschalten Sie **können nicht authentifizierte Benutzer die erste Person in der Besprechung werden** aktiviert oder deaktiviert.
+|**Dial-Out-Berechtigungen**|Wenn Sie diese Einstellung ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , wählen Sie eine Option unter **Anwahl von Besprechungen**.|
 
 ![Zeigt die Audiokonferenz Einstellungen für einen Benutzer](media/sfbaudioconf-usersettings.png)
  

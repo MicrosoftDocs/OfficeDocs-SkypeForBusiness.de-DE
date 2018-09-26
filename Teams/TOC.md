@@ -474,7 +474,7 @@
 #### [Sprachen für Voicemail-Ansagen und -nachrichten](languages-for-voicemail-greetings-and-messages.md)
 #### [Festlegen der Anrufer-ID für einen Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Beispiel für die Implementierung - Telefonzentralen](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Beispiel für Small Business - richten Sie eine automatische Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Einrichten von Voicemail für das Telefonsystem](set-up-phone-system-voicemail.md)
 #### [Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants.md)
 #### [Beantworten Sie die automatische Telefonzentrale, und rufen Sie die Warteschlange Anrufe direkt von Teams](answer-auto-attendant-and-call-queue-calls.md)

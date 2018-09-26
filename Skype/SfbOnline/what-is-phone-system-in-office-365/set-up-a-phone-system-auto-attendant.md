@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen Sie zum Einrichten und Testen von Telefonsystem (Cloud, PBX) automatische Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation. '
-ms.openlocfilehash: 00743fed485effe76864f3d7b619d6fb1fd28c0b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b9d6bead2fc4aec259765d322840c948eeb31ef
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884158"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019018"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale für das Telefonsystem
 
@@ -37,14 +37,14 @@ Wenn Sie weitere Informationen zu automatischen Telefonzentralen finden möchten
 ## <a name="step-1---getting-started"></a>Schritt 1 - Erste Schritte
 
 - Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Nachdem Sie die gebührenpflichtige oder gebührenfreie Service Zahlen erhalten möchten, sie werden angezeigt, auf die **Skype für Business Administrationscenter** > **VoIP** > Seite**Rufnummern** . Um die Rufnummern Service erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen und die Microsoft-Teams](getting-service-phone-numbers.md)oder für Übertragung und vorhandenen Service-Nummer, finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365). **User (subscriber)** numbers can't be assigned to auto attendants. Wenden Sie sich außerhalb der USA, können Sie mithilfe der Skype für Business Administrationscenter Service Zahlen abrufen; Klicken Sie [hier](/microsoftteams/manage-phone-numbers-for-your-organization) stattdessen.
-    
+
     > [!CAUTION]
-    > Zum Abrufen und gebührenfreien Telefonnummern verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie [Was sind Communications haben?](/microsoftteams/what-are-communications-credits) und [Communications haben für Ihre Organisation einrichten](/microsoftteams/set-up-communications-credits-for-your-organization). 
+    > Zum Abrufen und gebührenfreien Telefonnummern verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie [Was sind Communications haben?](/microsoftteams/what-are-communications-credits) und [Communications haben für Ihre Organisation einrichten](/microsoftteams/set-up-communications-credits-for-your-organization).
   
 - Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die zugewiesen sind, wirkt sich auf die Anzahl der Dienst Zahlen, die für automatische Telefonzentralen zu verwendende verfügbar sind. Die Nummern der automatischen Telefonzentralen können Ihnen ist abhängig von die Zahlen **Telefonsystem** und **Audiokonferenzen** -Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zur Lizenzierung finden Sie [hier](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder Aufrufen in Office 365-Pläne ihnen zuweisen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
+    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder Aufrufen in Office 365-Pläne ihnen zuweisen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Schritt 2 - Erstellen einer neuen automatischen Telefonzentrale
 
@@ -65,7 +65,7 @@ Klicken Sie im **Skype for Business Admin Center** auf **Anrufweiterleitung** > 
 
 > [!NOTE]
 > **User (subscriber)** numbers can't be assigned to auto attendants.
-    
+
 ***
 ![Nummer 3](../images/sfbcallout3.png)<br/>**Zeitzone**: Sie müssen die Zeitzone für Ihre automatische Telefonzentrale festlegen. Die Zeitzone muss jedoch nicht der Zeitzone der für Ihre Organisation angegebenen Hauptadresse entsprechen. Sie können für jede automatische Telefonzentrale eine andere Zeitzone festlegen. Die Geschäftszeiten für die automatische Telefonzentrale werden basierend auf der Zeitzone festgelegt, die Sie hier auswählen.
 ***
@@ -261,6 +261,7 @@ Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden C
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-    
-  
- 
+
+[Was sind automatische Telefonzentralen für das Telefonsystem?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
+
+[Beispiel für Small Business - richten Sie eine automatische Telefonzentrale](tutorial-org-aa.yml)  

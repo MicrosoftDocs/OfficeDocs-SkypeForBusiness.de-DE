@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Enthält Informationen zu automatischen Telefonzentralen Telefonsystem (Cloud, PBX) und deren Verwendung. '
-ms.openlocfilehash: d8edb924b030c9008374c8d6f49df5328b630677
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5d73a32e7df8e25c24ba7eeaa958d9b8bc4dd80d
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013803"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019102"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Was sind automatische Telefonzentralen für das Telefonsystem?
 
@@ -55,7 +55,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen
 - Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die Einfluss auf die Anzahl der Dienst Zahlen zugewiesen sind stehen für automatische Telefonzentralen verwendet werden soll. Die Anzahl der automatischen Telefonzentralen können Ihnen ist abhängig von der Zahlen **Telefonsystem** und **Audiokonferenzen** -Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zur Lizenzierung finden Sie [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
     
     > [!TIP]
-    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder zu diesen zuweisen plant aufrufen. Weitere Informationen finden Sie unter[Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder zu diesen zuweisen plant aufrufen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Zum Abrufen und gebührenfreie Service Zahlen für die automatische Telefonzentralen verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie unter [Was sind Communications haben?](what-are-communications-credits.md) und [Communications haben für Ihre Organisation einrichten](set-up-communications-credits-for-your-organization.md).
     
@@ -276,5 +276,5 @@ Sie erhalten weitere Informationen zum Anrufer-ID-Einstellungen in Ihrer Organis
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-  
- 
+[Beispiel für Small Business - richten Sie eine automatische Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+

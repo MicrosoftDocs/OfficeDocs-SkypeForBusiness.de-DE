@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0f06e291694a9a5c22d1188802ef1dabe55af7d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95d28bac036476c417ccbe7929a23ab9fb37f3a8
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016581"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25018900"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -48,7 +48,7 @@ Eine vollständige Liste der unterstützten Betriebssysteme und Browser finden S
 <a name="debug-logs"></a>Debugprotokolle
 ---------------------------
 
-Dies sind die üblichsten und für Microsoft Teams-Supportfälle erforderlichen Protokolle. Debugprotokolle werden von den Windows- und Mac-Desktopclients sowie von browserbasierten Clients erstellt. Diese Protokolle sind textbasiert und werden von unten nach oben gelesen. Sie können mit einem textbasierten Editor gelesen werden, und neue Protokolle werden bei der Anmeldung beim Client erstellt.
+Dies sind die am häufigsten verwendeten Protokolle und für alle Microsoft Support-Anfragen sind erforderlich. Debug-Protokolle werden von der Windows- und Mac-Desktopclients als auch browserbasierte Clients erzeugt. Die Protokolle sind Text basieren und werden von unten nach oben lesen. Mit einem beliebigen-basierten Texteditor gelesen werden können und neue Protokolle werden erstellt, wenn sich der Client anmelden.
 
 Debugprotokolle zeigen die folgenden Datenflüsse:
 

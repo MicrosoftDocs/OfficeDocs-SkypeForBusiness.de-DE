@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie Ihre Dial-in-Konferenznummern in Microsoft Teams nachschlagen. '
-ms.openlocfilehash: 0b7ddc14fd87d62dd276c5b8c76a67572ed484a1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017327"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019036"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
 
@@ -45,7 +45,7 @@ Weitere Informationen zum Ändern der Dial-in-Telefonnummer für einen einzelnen
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Audiokonferenz-Telefonnummern an
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
+1. Wechseln Sie in der Microsoft-Teams & Skype für Business-Verwaltungskonsole im linken Navigationsbereich zu **Besprechungen** > **Konferenzbrücken**. 
 2.  Zeigen Sie die Telefonnummern an, die für Audiokonferenzen verfügbar sind.
 
 - Außerdem können Sie den Standort sowie die primäre Sprache anzeigen, die von der automatischen Telefonzentrale für Audiokonferenzen verwendet wird.

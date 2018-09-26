@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, wie Sie die Möglichkeit zum Aufzeichnen des Benutzernamens beim Teilnehmen an einer Besprechung in Microsoft Teams aktivieren oder deaktivieren.
-ms.openlocfilehash: 8583ca92de2544946eb898d128e423b6df62cb24
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cb29fccf8e1997b4c7a82900e3fa6600c603a9a9
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012937"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019060"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung in Microsoft Teams
 
@@ -36,13 +36,15 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Festlegen, ob Anrufer ihren Namen aufzeichnen sollen
 
-1. Wechseln Sie in der Microsoft-Teams & Skype für Business-Verwaltungskonsole im linken Navigationsbereich zu **Besprechungen** > **Konferenz Brücken**. 
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
 
-2. Klicken Sie oben auf der Seite **Conference Bridges** (Konferenzbrücken) auf **Bridge Settings** (Brückeneinstellungen). 
+1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-3. Aktivieren oder deaktivieren Sie die Option **Meeting entry and exit notifications** (Benachrichtigungen bei Zu- oder Abgang in Besprechungen).
+2. Klicken Sie am oberen Rand der Seite **Konferenz Brücken** **Bridge-Einstellungen**auf. 
 
-4. Wenn Sie Benachrichtigungen aktivieren, wählen Sie unter **Entry/exit announcement type** (Typ der Ankündigung für Zu- und Abgänge) die Option **Namen oder Telefonnummern** aus. Aktivieren Sie dann **Anrufer zur Aufnahme ihres Namens auffordern, bevor sie an der Besprechung teilnehmen**.
+3. Aktivieren oder Deaktivieren von **Besprechungseintrag und Benachrichtigungen zu beenden**.
+
+4. Wenn Benachrichtigungen zu aktivieren, wählen Sie **Namen oder Telefonnummern** unter **Entry/Exit Ankündigung Typ**, und klicken Sie dann auf aktivieren **bitten Sie ihren Namen aufzeichnen müssen vor der Teilnahme an einer Besprechung Anrufer.**
 
 6. Klicken Sie auf **Speichern**.
     
@@ -61,4 +63,4 @@ Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Refere
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder Erwerben von Audiokonferenzen in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

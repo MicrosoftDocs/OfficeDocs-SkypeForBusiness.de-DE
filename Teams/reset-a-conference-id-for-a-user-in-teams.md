@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie die Schritte zum Zurücksetzen der Konferenzkennung eines Benutzers in Microsoft Teams sowie Links zu Tools, mit denen Sie Besprechungen aktualisieren und migrieren können. '
-ms.openlocfilehash: 8cc418b050b254930a74db8b0894dc14ccc090e5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bed015c92e197c1ee2dc1b48e495eee98445e3f0
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014131"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019044"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Zurücksetzen einer Konferenzkennung für einen Benutzer in Microsoft Teams
 
@@ -38,11 +38,13 @@ Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenzkennung für einen Benutzer
 
-1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
 
-2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-3. Klicken Sie unter **Audiokonferenz** auf **Konferenz-ID zurücksetzen**.
+2. Klicken Sie auf **Bearbeiten**.
+
+3. Klicken Sie unter **Audiokonferenzen** auf **Konferenz-ID zurückgesetzt**.
 
 2. Klicken Sie auf **Zurücksetzen**, klicken Sie im Fenster **Konferenz-ID zurückgesetzt** . A conference ID will be automatically created and an email sent to the user with the new conference ID. Standardmäßig werden e-Mails an Benutzer gesendet, aber dies kann deaktiviert werden.   
 
@@ -57,9 +59,9 @@ Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen 
 
 - Sie können alle Konferenzinformationen in einer e-Mail an den Benutzer senden, die die Konferenz-ID und die Zugriffsnummer für Einwahl Telefonnummern durch Klicken auf **Konferenz Informationen in e-Mail-Nachricht senden** , für den Benutzer im Abschnitt **Audiokonferenzen** enthält. Die PIN wird nicht gesendet.
     
-- Eine Konferenzkennung umfasst sieben Ziffern. Die Länge kann nicht geändert werden.
+- Enthält eine Konferenz-ID 7 Ziffern, und deren Länge kann nicht geändert werden.
     
-- Nach dem Zurücksetzen wird die neue Konferenzkennung unter **Konferenz-ID** aufgeführt.
+- Nach dem Zurücksetzen wird die neue Konferenz-ID unter **Konferenz-ID** aufgeführt.
     
 - After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. 
 
@@ -75,4 +77,4 @@ Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Refere
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Zurücksetzen der Audiokonferenz-PIN](reset-the-audio-conferencing-pin-in-teams.md)
+[Die Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin-in-teams.md)
