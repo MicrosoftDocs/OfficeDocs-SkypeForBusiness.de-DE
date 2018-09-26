@@ -235,7 +235,8 @@
 ### [Einrichten des Telefonsystems in Ihrer Organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Was sind automatische Telefonzentralen für das Telefonsystem?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-#### [Beispiel für die Implementierung - Telefonzentralen](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [Beispiel für Small Business - richten Sie eine automatische Telefonzentrale](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+
 
 ## [Einrichten Ihres Netzwerks für Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Blockierte Benutzerlizenzen für Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
