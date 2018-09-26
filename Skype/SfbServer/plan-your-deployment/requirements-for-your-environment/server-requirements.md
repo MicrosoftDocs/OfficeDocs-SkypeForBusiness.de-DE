@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.'
-ms.openlocfilehash: 3971dba6474e8ffa5fcb3b84f82f8e80729627f6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883830"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040741"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Serveranforderungen für Skype for Business Server 2015
  
@@ -90,9 +90,9 @@ Wenn Sie Skype for Business Server 2015 Standard Edition installieren, wird aut
 Skype for Business Server 2015 Enterprise Edition ist etwas komplizierter. Die Liste der unterstützten Betriebssysteme finden Sie weiter unten. (Wie Sie feststellen werden, handelt es sich nur um 64-Bit-Editionen. 32-Bit-Editionen sollten Sie nicht verwenden.)
   
 ||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2014 Enterprise (64-Bit-Edition) mit dem kumulativen Update 6 oder höher ([kumulatives Update 6 herunterladen](https://support.microsoft.com/en-us/kb/3031047/))  <br/> |Microsoft SQL Server 2012 Enterprise (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |
-|Microsoft SQL Server 2014 Standard (64-Bit-Edition) mit dem kumulativen Update 6 oder höher ([kumulatives Update 6 herunterladen](https://support.microsoft.com/en-us/kb/3031047/))  <br/> |Microsoft SQL Server 2012 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |Microsoft SQL Server 2008 R2 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |
+|:-----|:-----|:-----|:-----|
+|Microsoft SQL Server 2016 Enterprise (64-Bit-Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype für Business kumulative Update 7 oder höher ([Skype für Business kumulative Update herunterladen](https://support.microsoft.com/en-us/help/3061064)) ausführen.  <br/> |Microsoft SQL Server 2014 Enterprise (64-Bit-Edition) mit dem kumulativen Update 6 oder höher ([kumulatives Update 6 herunterladen](https://support.microsoft.com/en-us/kb/3031047/))  <br/> |Microsoft SQL Server 2012 Enterprise (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |
+|Microsoft SQL Server 2016 Standard (64-Bit-Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype für Business kumulative Update 7 oder höher ([Skype für Business kumulative Update herunterladen](https://support.microsoft.com/en-us/help/3061064)) ausführen.  <br/> |Microsoft SQL Server 2014 Standard (64-Bit-Edition) mit dem kumulativen Update 6 oder höher ([kumulatives Update 6 herunterladen](https://support.microsoft.com/en-us/kb/3031047/))  <br/> |Microsoft SQL Server 2012 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |Microsoft SQL Server 2008 R2 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |
    
 Wenn die von Ihnen gewünschte SQL Server-Edition nicht aufgeführt wird, können Sie sie nicht verwenden.
   
@@ -131,6 +131,8 @@ Für das Failoverclustering können Sie Folgendes verwenden:
   
 Zwei Knoten:
   
+- Microsoft SQL Server 2016 Standard (64-Bit-Edition) mit Service Pack 1 oder höher. Es wird empfohlen, mit dem neuesten Servicepack.
+
 - Microsoft SQL Server 2014 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.
     
 -  Microsoft SQL Server 2012 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.
@@ -138,6 +140,8 @@ Zwei Knoten:
 - Microsoft SQL Server 2008 R2 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.
     
 Sechzehn Knoten:
+
+- Microsoft SQL Server 2016 Enterprise (64-Bit-Edition) mit Service Pack 1 oder höher. Es wird empfohlen, mit dem neuesten Servicepack.
   
 - Microsoft SQL Server 2014 Enterprise (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.
     

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07f546db5acb8afa0dc457122a2462b9d0affea3
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002431"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040772"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interop für Microsoft-Teams
 
@@ -49,7 +49,9 @@ Unsere Partner haben Gateway-Lösungen zum Verbinden von Drittanbieter-Standards
 **Enterprise bereit**
 
 - HD-video (1080p) und Inhalt (VBSS)
-- Unterstützung für 323 und meeting Room Geräte SIP-Native Teams/Exchange planen - Gateway Design anstelle von VMR
+- Unterstützung für 323 und SIP-meeting Room-Geräte
+- Systemeigene Teams/Exchange-Planung
+- Design anstelle von VMR Gateway
 
 **Skalierung für die cloud**
 
@@ -86,7 +88,7 @@ Das folgende Diagramm beschreibt die allgemeine Architektur einer Teams Partner-
 
 ## <a name="business-workflow-scenarios"></a>Workflow Geschäftsszenarien
 
-- **Für Business Server Skype -> Microsoft-Teams:** Ihre Organisation verfügt Drittanbieter-Geräte und Verschieben von Skype für Business auf Prem Server in Microsoft-Teams  
+- **Für Business Server Skype -> Microsoft-Teams:** Ihre Organisation verfügt Drittanbieter-Geräte und Verschieben von Skype für Business auf Prem Server in Microsoft-Teams.  
 - **Für Business Skype-online > Microsoft-Teams:** Ihre Organisation migrieren für Business Online zu Microsoft-Teams von Skype.
 - **Cisco UC -> Microsoft-Teams:** Ihre Organisation ist das Verschieben von Cisco, die Microsoft-Teams, aber nicht ersetzen die Cisco-Geräte bereit.
 - **Gemischte Systemen -> Microsoft-Teams:** Ihre Organisation verfügt über verschiedene Systeme in Ihrer Umgebung nebeneinander (Cisco, BroadSoft, SfB Server, SfBO).

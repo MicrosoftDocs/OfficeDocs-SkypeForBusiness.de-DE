@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
-ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
+ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24974431"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040780"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interop für Microsoft-Teams
 
@@ -104,4 +104,4 @@ Sie können Teams Besprechungen mit Ihren Geräten VTC teilnehmen, wie folgt:
 - One Touch-Wählplan
     - Wenn Sie eine integrierte Teams Platz haben, können Sie einem Tastendruck Dial Funktionen von Ihrem Partner (ohne Geben Sie eine beliebige Zeichenfolge Dial) verwenden.
 
-Schließlich Engaeg mit Benutzern in Ihre Besprechungen mit der Freigabe von audio und video sowie von Teams. 
+Bitten Sie schließlich Teams Benutzer in Ihre Besprechungen mit der Freigabe von audio und video sowie Content. 

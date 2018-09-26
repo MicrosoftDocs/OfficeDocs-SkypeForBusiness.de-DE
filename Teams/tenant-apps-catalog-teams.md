@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5028f5f1ee848d4fa7af7e15083dc06d90f9f38a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 714c30326519974c1d5e0483e8c181bb6ebf2a27
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017961"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040788"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Veröffentlichen von apps mit dem Microsoft-Teams Mandanten Apps-Katalog
 =======================================================
@@ -27,9 +27,11 @@ Der Katalog von Microsoft-Teams Mandanten Apps können zum Testen und Verteilen 
 
 Führen Sie kritischen geschäftlichen Funktionen für die Benutzer, Teams Mandanten App-Katalog können Sie Ihre LOB Anwendung verteilen, die speziell für Ihre Organisation erstellt wurden und dass Sie sich verlassen. 
  
-Sie können die Teams Mandanten App-Katalog direkt vom Client Teams apps veröffentlichen.
+Melden Sie sich an Ihren Teams Client mit Ihren Anmeldeinformationen globaler Administrator und Veröffentlichen von apps für Ihre Organisation. 
 
 ## <a name="publish-an-app-to-the-tenant-apps-catalog-from-the-teams-client"></a>Veröffentlichen einer app mit dem Mandanten Apps Katalog vom Client Teams
+
+Hinweis: Sie müssen bei der Microsoft-Teams, Client mit Ihren globaler Administrator-Anmeldeinformationen zum Veröffentlichen von apps für Ihre Organisation angemeldet sein.
 
 ### <a name="get-a-teams-app-package"></a>Abrufen eines Teams app-Pakets
 
@@ -37,7 +39,7 @@ Eine app-Paket Teams wird mithilfe von [Teams App Studio](https://docs.microsoft
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Wechseln Sie zu dem Mandanten Apps Katalog
 
-Wählen Sie aus dem Microsoft-Teams Store den neuen Abschnitt mit dem Namen für Ihre Organisation bestimmte (in diesem Beispiel wird "Contoso"). Benutzer in Ihrer Organisation können apps im Katalog anzeigen und installieren Sie diese Teams, denen sie Mitglied sind. 
+Starten Sie den Client für Microsoft-Teams, und melden Sie sich mit Ihren Anmeldeinformationen globaler Administrator. Wählen Sie aus dem Microsoft-Teams Store den neuen Abschnitt mit dem Namen für Ihre Organisation bestimmte (in diesem Beispiel wird "Contoso"). Benutzer in Ihrer Organisation können apps im Katalog anzeigen und installieren Sie diese Teams, denen sie Mitglied sind. 
 
 ![Screenshot, der von den Teams App Store zeigt den app-Katalog.](media/private-app-store-teams-image01.png)
 
