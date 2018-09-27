@@ -17,6 +17,7 @@
 ## [Grenzwerte und Spezifikationen für Teams](limits-specifications-teams.md)
 ## [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
 ## [Beziehen von Tools zur Unterstützung eines Rollouts von Teams](rollout-tools.md)
+## [Plan für die Anwendungslebenszyklus-Verwaltung in Teams](plan-teams-lifecycle.md)
 ## [Planen der Steuerung in Teams](plan-teams-governance.md)
 ## [Planen von Microsoft 365 Government - GCC-Bereitstellungen](plan-for-government-gcc.md)
 ## Bessere Akzeptanz
