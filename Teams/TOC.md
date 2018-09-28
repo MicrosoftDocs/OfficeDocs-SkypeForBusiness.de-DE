@@ -187,7 +187,7 @@
 ### [Übersicht über Teams und Kanäle in Teams](teams-channels-overview.md)
 ### [Weisen Sie Team-Besitzer und Membern im Microsoft-Teams](assign-roles-permissions.md)
 ### [Bewährte Methoden zum Organisieren von Teams in Teams](best-practices-organizing.md)
-### [Tutorial: Erstellen eines firmenweiten Teams mithilfe von PowerShell](company-wide-team-creation-powershell.yml)
+### [Erstellen Sie ein Team Org geltende in Teams](create-an-org-wide-team.md)
 ## [Gastzugriff](guest-access.md)
 ### [Beitritt eines Gasts zu einem Team](guest-joins.md)
 ### [Gastfunktionalität](guest-experience.md)
