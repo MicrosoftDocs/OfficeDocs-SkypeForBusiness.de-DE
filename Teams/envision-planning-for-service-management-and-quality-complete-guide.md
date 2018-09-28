@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Sorgen Sie für eine hohe Benutzerfreundlichkeit von Microsoft Teams, indem Sie die Integrität des Diensts, des Netzwerks und der Endpunkte verwalten und operative Rollen sowie die Rolle des Qualitätspioniers definieren.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 584268a3b1b36f11518ed10e04b995b2d84b9bc1
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396879"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015581"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Planen der Dienstverwaltung und -qualität
 
@@ -141,7 +142,7 @@ Die Anleitungen im Handbuch für die Überprüfung der Erlebnisqualität konzent
 
 Wir empfehlen dringend, den Qualitätspionier frühzeitig zu ernennen. Der ernannte Qualitätspionier sollte sich dann mit dem Inhalt des Handbuchs für die Überprüfung der Erlebnisqualität vertraut machen.
 
-Das Handbuch für die Überprüfung der Erlebnisqualität finden Sie [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+Das Handbuch für die Überprüfung der Erlebnisqualität finden Sie [hier](https://aka.ms/qerguide).
 
 ## <a name="plan-for-network-quality"></a>Planen der Netzwerkqualität 
 
@@ -334,11 +335,11 @@ Diese Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit Links z
 | Bereich | Details | Verweise |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Planen der Dienstverwaltung | Durchführen einer Übung zur Zuordnung der operativen Rollen <br/> Genehmigung durch die verantwortlichen Teams <br/> Vorbereitung der Rollen | [Betriebshandbuch](1-drive-value-operate-my-service.md) |
-| | Ernennen von Qualitätspionieren <br/> Vorbereitung der Qualitätspioniere| [Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Handbuch für die Überprüfung der Erlebnisqualität](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Installieren von Vorlagen für die Überprüfung der Erlebnisqualität <br/> Hochladen einer Gebäudedatei | [QERLite-Vorlagen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Hochladen von Gebäudeinformationen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | Ernennen von Qualitätspionieren <br/> Vorbereitung der Qualitätspioniere| [Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Handbuch für die Überprüfung der Erlebnisqualität](https://aka.ms/qerguide) |
+| | Installieren von Vorlagen für die Überprüfung der Erlebnisqualität <br/> Hochladen einer Gebäudedatei | [QERLite-Vorlagen](https://aka.ms/qertemplates) <br/> [Hochladen von Gebäudeinformationen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | Planen der Netzwerkqualität | Ausführen des Netzwerkplaners | [Netzwerkplaner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implementieren von QoS | [Quality of Service in Microsoft Teams](qos-in-teams.md) |
-| | Umgehen von Proxyservern | [Anleitungen für Proxys](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Umgehen von Proxyservern | [Anleitungen für Proxys](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implementieren eines VPNs mit geteiltem Tunnel | [Anleitung für VPNs mit geteiltem Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimieren von WLAN-Netzwerken für Echtzeitmedien  | Zurateziehen von Drittanbietern |
 | | Implementieren eines lokalen Internetausgangs | [Lokaler Internetausgang](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

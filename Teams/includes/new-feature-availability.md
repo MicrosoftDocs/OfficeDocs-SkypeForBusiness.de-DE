@@ -1,2 +1,2 @@
 > [!NOTE]
-> Wird diese Funktion in Ihrem Microsoft-Teams, Client noch nicht angezeigt? Es ist derzeit eingeführt werden und möglicherweise nicht in Ihrer Organisation noch verfügbar sein. Finden Sie unter der [Teams Roadmap](http://aka.ms/TeamsRoadmap) für Nachrichten über bevorstehenden Upgrades in Teams. 
+> Sie sehen diese Funktion noch nicht im Microsoft Teams-Client? Sie wird zurzeit eingeführt und ist in Ihrer Organisation möglicherweise noch nicht verfügbar. Neuigkeiten zu bevorstehenden Versionen von Microsoft Teams finden Sie in der [Microsoft Teams-Roadmap](https://aka.ms/TeamsRoadmap).
