@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: c16f2280441ba3a253e1656d989b9a90702f4599
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 29fd127fd132d953aafcec46807e2fd6012e7c4b
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017551"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347411"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
-Beim Einrichten von **Audiokonferenzen** für Microsoft-Teams werden Zugriffsnummer für Einwahl Rufnummern Ihrer Organisation automatisch zugewiesen. Auf das Telefon finden Sie unter von Zahlen, die Ihre audiokonferenzbrücke im Microsoft-Teams & Skype für Business Admin Center zugewiesen sind, wechseln Sie zu **Besprechungen** > **Konferenzbrücken**. Finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Beim Einrichten von **Audiokonferenzen** für Microsoft-Teams werden Zugriffsnummer für Einwahl Rufnummern Ihrer Organisation automatisch zugewiesen. Auf das Telefon finden Sie unter von Zahlen, die Ihre audiokonferenzbrücke im Microsoft-Teams & Skype für Business Admin Center zugewiesen sind, wechseln Sie zu **Besprechungen** > **Konferenzbrücken**. Weitere Informationen finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Verfügbarkeit von Audiokonferenzen und Preise

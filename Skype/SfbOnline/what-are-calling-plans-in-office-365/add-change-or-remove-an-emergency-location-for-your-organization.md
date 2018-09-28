@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: " Erfahren Sie mehr über das Hinzufügen, Ändern oder entfernen  eines von Skype for Business im Telefonfestnetz (Public Switched Telephone Networks; PSTN) für Ihre Organisation verwendeten Notfallstandorts. "
-ms.openlocfilehash: 862d62af8db8275e304c1522ae19a80d9ebcfec4
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 43a8ac0759fd8dc949953fe22cb73c00a96f4314
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958271"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347053"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
@@ -38,7 +38,7 @@ Informationen zum Aufrufen von planen möchten und wie viel Kosten finden Sie [S
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Emergency Speicherorte**, und wählen Sie dann den Notruf-Adresse, die Sie einen Speicherort für hinzufügen möchten.
     
@@ -55,7 +55,7 @@ Informationen zum Aufrufen von planen möchten und wie viel Kosten finden Sie [S
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Emergency Speicherorte**, und wählen Sie dann die Notruf Adresse für die Sie einen Speicherort ändern möchten.
     
@@ -69,13 +69,13 @@ Informationen zum Aufrufen von planen möchten und wie viel Kosten finden Sie [S
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Emergency Speicherorte**, und wählen Sie dann den Notruf Adresse, die Sie einen Speicherort für entfernen möchten.
     
 4. Klicken Sie im Bereich Aktion neben **zugeordneter Speicherorte**auf **Ändern**.
     
-5. Klicken Sie unter **Zugewiesene Standorte** neben dem Link für den Standort auf **Entfernen**.
+5. Klicken Sie unter **Speicherorte zugeordnet**neben den Link für den Speicherort auf **Entfernen**.
     
 6. Klicken Sie auf **Speichern**.
     

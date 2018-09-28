@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie nach Telefonnummern suchen können, die Sie Ihre Benutzer nach Land/Region, Bundesland/Region oder Stadt zuweisen und die Anzahl an Nummern angeben können, die Sie brauchen. '
-ms.openlocfilehash: d57ccfbea0020ab3ddacd894ffa6f277798bb042
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958101"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347071"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
@@ -44,7 +44,7 @@ Wenn Sie Hilfe mit erste Rufnummern benötigen, können Sie [Telefonnummern für
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
   
@@ -59,7 +59,7 @@ Wenn Sie Hilfe mit erste Rufnummern benötigen, können Sie [Telefonnummern für
     > [!NOTE]
     > Neben **Benutzernummern insgesamt, die Sie erhalten können** können Sie die Anzahl der Telefonnummern sehen, die auf der Anzahl der Lizenzen basiert. 
   
-6. Sie können auf **Nummern anzeigen** klicken, um eine vollständige Liste der Telefonnummern aufzurufen. Das ist nützlich, wenn Sie keine bestimmte Telefonnummer aus der Liste auswählen möchten.
+6. Sie können auf **Nummern anzeigen** klicken, um eine vollständige Liste der Telefonnummern aufzurufen. Dies ist hilfreich, wenn Sie nicht, wählen eine bestimmte Rufnummer in der Liste möchten.
     
 7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Abrufen von Rufnummern**.
     

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie eine Notfalladresse zu Ihrem Skype for Business-Konto hinzuzufügen. '
-ms.openlocfilehash: 06cd8202198b49efbf2c478e233865a681d2ce34
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958181"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347059"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen
 
@@ -40,7 +40,7 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. Gehen Sie in der linken Navigationsleiste zu **VoIP** > **Notfallstandorte** und klicken auf die Schaltfläche **Neue Adresse hinzufügen**.
     
@@ -62,9 +62,9 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
     
-3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Emergency Location**, wählen Sie die Adresse, die Sie löschen möchten, und klicken Sie im Aktionsbereich auf **Löschen**.
+3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Emergency Speicherorte**, wählen Sie die Adresse, die Sie löschen möchten, und klicken Sie im Aktionsbereich auf **Löschen**.
     
     > [!IMPORTANT]
     > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.

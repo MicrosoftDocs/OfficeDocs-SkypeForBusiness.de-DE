@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie eine Notfalladresse und Notrufnummer für alle Ihre Benutzer einrichten, die mit dem Public Switched Telephone Network, (PSTN) arbeiten.
-ms.openlocfilehash: 56552002c589b776935be973700cff822a9f4857
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 10b22db9e50c1913124d021bff1cc7c285c1f52c
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958161"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347028"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Zuweisen oder Ändern einer Notfalladresse für einen Benutzer
 
@@ -38,7 +38,7 @@ Möchten Sie wissen, wie plant Aufrufen in Office 365 abrufen und wie viel Koste
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. Klicken Sie im linken Navigationsbereich Gehe zu **VoIP**und dann auf **VoIP-Benutzer**.
     

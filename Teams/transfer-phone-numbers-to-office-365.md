@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 69ed5566d516f89b5b3f2c96ab37e43690693708
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017897"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347545"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Übertragen von Telefonnummern zu Office 365
 
@@ -53,7 +53,7 @@ Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Infor
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Portierungsanträge** und klicken Sie auf **Hinzufügen**.
     
@@ -81,7 +81,7 @@ Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Infor
     
   - **Ort**, **Bundesland**, **PLZ** der Serviceadresse.
     
-6. Geben Sie auf der Seite **Telefonnummern** die Telefonnummern, die Sie übertragen möchten, im E.164-Format ein. Verwenden Sie beispielsweise für eine Telefonnummer aus Nordamerika das Format +1XXXYYYZZZZ. Trennen Sie mehrere Telefonnummern mit Kommas.
+6. Geben Sie auf der Seite **Telefonnummern** die Telefonnummern, die Sie übertragen möchten, im E.164-Format ein. Verwenden Sie beispielsweise für eine Telefonnummer aus Nordamerika das Format +1XXXYYYZZZZ. Verwenden Sie ein Komma, um mehrere Telefonnummern zu trennen.
     
     > [!NOTE]
     > Wenn Sie eine vollständige Portierung durchführen, müssen Sie die Abrechnungstelefonnummer (Billing Telephone Number, BTN) in die Liste eintragen. Wenn Sie eine teilweise Portierung durchführen, tragen Sie die Abrechnungstelefonnummer (Billing Telephone Number, BTN) nicht in die Liste ein. 
@@ -90,7 +90,7 @@ Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Infor
     
 7. Klicken Sie auf **Fortfahren**.
     
-8. Wählen Sie auf der Seite **Übertragungsdatum** in der Dropdownliste **Tag** das Datum und in der Dropdownliste **Startzeit** die Uhrzeit (EST) aus. Klicken Sie anschließend auf **Weiter**.
+8. Klicken Sie auf der Seite **übertragen Datum** in der Dropdown-Liste **Tag** wählen Sie das Datum und wählen Sie unter der Dropdown-Liste **Startzeit** die Uhrzeit (EST) ein, und klicken Sie dann auf **Weiter**.
     
 9. Überprüfen Sie auf der Seite **Genehmigungsschreiben** die folgenden Felder. Geben Sie dann unter dem Feld **Unterschrift** den Namen der Person ein, die berechtigt ist, Änderungen am Konto vorzunehmen. Dabei handelt es sich um den gleichen Namen, der auf der Seite **Kontoinformationen** unter **Genehmigende Person** verwendet wird. Klicken Sie dann auf **Weiter**.
     

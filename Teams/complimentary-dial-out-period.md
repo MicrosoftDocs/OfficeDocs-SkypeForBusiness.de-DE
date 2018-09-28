@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenz gemäß den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste verwenden.
-ms.openlocfilehash: 9e807e5bca0ed17d798a7fd71b9c8db76e146750
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9f3db1ee225633bc4a1d4084dc674d6253e49276
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017511"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347393"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -39,7 +39,7 @@ Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenz gemä�
   
 ### <a name="complimentary-dial-out-period"></a>Zeitraum für kostenlose ausgehende Anrufe
 
-Microsoft bietet Kunden, die unseren Office 365-Audiokonferenzdienst nutzen, zusätzliche Vorteile im Zusammenhang mit ausgehenden Anrufen in Besprechungen, die von Benutzern organisiert wurden und denen bis zum 30. Juni 2018 eine Office 365-Audiokonferenz-Lizenz zugewiesen wurde. Für den Zeitraum bis 30 Juni 2018 sind Benutzer von lizenzierte Benutzer organisierte Besprechungen teilnehmen zulässig, basierend auf Berechtigungen vom Organisator Besprechung mit Dial-Out-Anrufe innerhalb der Besprechung auf Telefonnummern in den folgenden 44 Ländern tätigen:
+Als ein weiterer Vorteil für Kunden, die über unsere Audiokonferenzen für Office 365-Dienst ist Microsoft zusätzliche Vorteile im Zusammenhang mit anwählen aus von einer Audiokonferenz für Office 365-Lizenz über 30 Juni 2018 zugewiesene Benutzer organisierte Besprechungen zur Verfügung. Für den Zeitraum bis 30 Juni 2018 sind Benutzer von lizenzierte Benutzer organisierte Besprechungen teilnehmen zulässig, basierend auf Berechtigungen vom Organisator Besprechung mit Dial-Out-Anrufe innerhalb der Besprechung auf Telefonnummern in den folgenden 44 Ländern tätigen:
   
 |    |
 |-----|
