@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Informationen zum Verwalten von Richtlinieneinstellungen in Teams meeting.
-ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 52efb73cb1d7774dcafe417c7a51ec7117daceec
+ms.sourcegitcommit: 2fee995f69e81ea67a93c1f6554f05815b21ff25
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015509"
+ms.lasthandoff: 09/29/2018
+ms.locfileid: "25348603"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -41,7 +41,7 @@ Besprechungsrichtlinien werden verwendet, um die Steuerung der Features, die an 
    - **Lautschrift zulassen** Wenn Sie diese aktivieren, werden Umsetzung der Besprechung für Benutzer verfügbar.
    - **Aufzeichnen von Cloud zulassen** Aktivieren Sie dies können Aufzeichnungen in die Cloud gespeichert werden soll.
    - **Zulassen von IP-video** Aktivieren Sie dies kann IP-Videos während einer Besprechung ansetzt.
-   - **Media Bitrate (Kbit/s)** Sie können die Bitrate für Besprechungen festlegen. Der Standardwert beträgt 50 MB.
+   - **[Bald verfügbar]** **Media Bitrate (Kbit/s)** Sie können die Bitrate für Besprechungen festlegen. Der Standardwert beträgt 50 MB.
 
 <a name="bkcontentsharing"> </a>
 
