@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: e44a9ecc943bd20b451458fd1c469eee4d5cd2ea
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
+ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965912"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353213"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -26,13 +26,15 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 | Version | Veröffentlicht <br>Microsoft Store | 
 | ---     | ---                              |
+| 4.0.19.0|  08/31/2018    |   
+| 4.0.18.0|  08/27/2018    |   
 | 4.0.8.0|  07/06/2018    |   
 | 3.1.115.0|  06/18/2018    |
 | 3.1.113.0|  06/13/2018    |   
 | 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  03/16/2018    |            
-| 3.1.99.0 | 3/14/2018      |   
+| 3.1.99.0 | 3/14/2018      |  
 | 3.1.98.0    | 3/8/2018    |   
 |  3.0.16.0    |  11/27/2017   |
 | 3.0.15.0 | 10/3/2017  |            
@@ -44,6 +46,18 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype-Chatroom-Systemen v2 Feature Einführung und Behebung
+
+### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
+In diesem Update eingeführt: 
+- Hotfix für Crestron-Anwendung nicht starten, die normalerweise möglich wäre durch Drücken der Taste app auf Crestron SR-Geräte. SRSv2 app neu starten nach der Installation von 4.0.19.0 erforderlich 
+
+### <a name="40180-08272018"></a>4.0.18.0 (27/08/2018)
+In diesem Update eingeführt: 
+- "Problemberichte" funktionsverbesserungen im Teams Modus (entspricht der "Feedback geben" in Skype für Business-Modus)
+- Bei aktivierter Möglichkeit Fallback von Teams Skype für Business-Modus für SIP-Anrufe
+- Verbesserte Eingabehilfen (die Sprachausgabe, Bildschirmlupe)
+- Automatisch neu gestartet app bei Bedarf nach der Bereitstellung Änderungen XML angewendet wurden
+- Sonstige fixes
 
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 In diesem Update eingeführt: 
