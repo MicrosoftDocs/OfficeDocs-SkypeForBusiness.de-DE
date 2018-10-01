@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: e22a1c853a60af06789e98c6eb73f701712f7252
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 646d525111e18752492ad7ebc346839b7d296f9b
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016333"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352314"
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Verfahrensregel für das Vereinigte Königreich (UK)
 
@@ -53,11 +53,8 @@ Einige Antworten auf Ihre Fragen erhalten Sie möglicherweise bereits auf der [S
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Beanstandungen und Schlichtung bei Streitigkeiten
 
-<<<<<<< HEAD:Teams/code-of-practice-for-the-united-kingdom-u-k.md unsere Top-Prioritäten Kundenzufriedenheit und hervorragende Service sind. Sollten Sie jedoch eine Beanstandung haben, werden wir dafür schnell eine Abhilfe suchen. Unsere [Aufrufen in Office 365 - kompatibles Behandlungscode für Großbritannien (Großbritannien) plant](complaint-handling-code-for-the-united-kingdom-u-k.md) Seite finden Sie die Verfahren für kleine Unternehmen an der Datei ein kompatibles mit uns und unsere unabhängigen Fall Lösungsschema Einzelheiten.
+Die Kundenzufriedenheit und ein hervorragender Service kommen bei uns an erster Stelle. Sollten Sie jedoch eine Beanstandung haben, werden wir dafür schnell eine Abhilfe suchen. Unsere [Aufrufen in Office 365 - kompatibles Behandlungscode für Großbritannien (Großbritannien) plant](complaint-handling-code-for-the-united-kingdom-u-k.md) Seite finden Sie die Verfahren für kleine Unternehmen an der Datei ein kompatibles mit uns und unsere unabhängigen Fall Lösungsschema Einzelheiten.
   
-=== Unsere Top-Prioritäten sind Kundenzufriedenheit und hervorragende Service. Sollten Sie jedoch eine Beanstandung haben, werden wir dafür schnell eine Abhilfe suchen. Unsere [Aufrufen in Office 365 - kompatibles Behandlungscode für Großbritannien (Großbritannien) plant](code-of-practice-for-the-united-kingdom-u-k.md) Seite finden Sie die Verfahren für kleine Unternehmen an der Datei ein kompatibles mit uns und unsere unabhängigen Fall Lösungsschema Einzelheiten.
-
->>>>>>> Master:Skype/SfbOnline/Legal-and-Regulatory/Code-of-Practice-for-the-United-Kingdom-u-k.MD
 ## <a name="4-number-porting"></a>4. Nummernportierung
 
 In einigen Fällen ist Skype for Business ggf. nicht in der Lage, die Telefonnummer eines Kunden für die Nutzung mit dem Dienst zu transferieren. Wenn das Portieren einer Nummer nicht verfügbar ist, ergreift Skype for Business alle angemessenen Schritte, um sicherzustellen, dass der Transfer der Nummer sowie die nachfolgende Aktivierung unverzüglich erfolgt, nachdem die Nummer mit dem derzeitigen Serviceanbieter des Kunden bezogen wurde.

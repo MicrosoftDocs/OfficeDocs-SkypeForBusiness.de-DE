@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: HT
+ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965523"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352298"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Praktische Anleitungen für Telefonsysteme mit Anrufplänen in Microsoft Teams
 =========================================================================
@@ -231,8 +231,7 @@ Sie müssen diesen Schritt abschließen und den operativen Plan als Teil des Erf
 <br>
 Technische Planung für das Telefonsystem mit Anrufplänen
 ------------------------------------------------------
-
-Um die technische Implementierung des Telefonsystems mit Anrufplänen zu planen, müssen Sie frühzeitig eine Reihe von Entscheidungen treffen. Damit bereiten Sie Ihre Organisation besser auf die Implementierung einer Lösung vor, die die Geschäftsanforderungen erfüllt. Diese Entscheidungen werden in einem Plan zur technischen Implementierung dokumentiert.
+<a name="technical-planning-for-phone-system-with-calling-plans"></a> Um die technischen Implementierung der Telefonsystem mit Aufrufen plant planen, eine Reihe von Entscheidungen erfolgen muss vorausschauendes besser Vorbereiten Ihrer Organisation zum Implementieren einer Lösung, die geschäftlichen Anforderungen erfüllt. Diese Entscheidungen werden in einem Plan zur technischen Implementierung dokumentiert.
 
 ## <a name="availability-of-calling-plans"></a>Verfügbarkeit von Anrufplänen
 
