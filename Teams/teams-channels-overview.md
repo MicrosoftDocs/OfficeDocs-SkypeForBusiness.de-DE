@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70591f040508453832943c65122f0fa0b07ef35b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014661"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358893"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -36,13 +36,7 @@ Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um 
 
     -   In Teamkanälen können alle Teammitglieder offene Unterhaltungen führen. Private Chats sind nur für die am Chat beteiligten Personen sichtbar.
 
-    -   Die Vorteile von Kanälen werden am deutlichsten, wenn Sie sie mit Apps erweitern, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern.
-    
-Nehmen Sie sich fünf Minuten Zeit, und sehen Sie sich dieses Video zu den bewährten Methoden für das Organisieren von Teams, Kanälen und Registerkarten an:
-
-|  |  |
-|---------|---------|
-| 5 Minuten zum Einrichten von sinnvollen Teams, Kanälen und Registerkarten   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+    -   Kanäle sind besonders nützlich, wenn mit apps erweitert, die Registerkarten, Connectors und Bots, die ihren Wert für die Mitglieder des Teams erhöhen enthalten.
 
 <a name="membership-roles-and-settings"></a>Mitgliedschaft, Rollen und Einstellungen
 ------------------------------
@@ -52,6 +46,9 @@ Nehmen Sie sich fünf Minuten Zeit, und sehen Sie sich dieses Video zu den bewä
 **Teamrollen** Es gibt in Microsoft Teams zwei Hauptrollen: einen Teambesitzer (die Person, die das Team erstellt) und Teammitglieder (die Personen, die eingeladen werden, dem Team beizutreten). Teambesitzer können jedes Mitglied ihres Teams zum Mitbesitzer ernennen – entweder dann, wenn sie das Mitglied in das Team einladen, oder auch jederzeit später, nachdem die Person dem Team beigetreten ist. Mit mehreren Teambesitzern können Sie sich die Zuständigkeit für das Verwalten der Einstellungen und der Mitgliedschaft, einschließlich Einladungen, teilen.   
 
 **Teameinstellungen** Teambesitzer können teamweite Einstellungen direkt in Microsoft Teams verwalten. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Kanälen für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden. 
+
+Drei Minuten in Anspruch nehmen dieses Handbuchs Go Auschecken video für Team-Besitzer: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Wenn Sie den Microsoft-Teams, Administrator in Office 365 sind, haben Sie Zugriff auf systemweiten Einstellungen im Teams & Skype für Business Admin Center. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 

@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a59134e48d71f9704054d01fecccff385e45e7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015373"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358901"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Reise von Skype for Business zu Teams
 
@@ -35,7 +35,7 @@ Wie Benutzer weitere Teams arbeiten, sehen wir die Möglichkeit, unsere Kommunik
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Gibt es eine verbindliche Frist, innerhalb derer die Kunden den Wechsel von Skype for Business Online zu Teams durchführen müssen?
 
-Wir haben unsere Roadmap für Teams zur Verfügung gestellt, damit Kunden Wechsel zu Teams planen und bewerten die Funktionen für Teams, relativ zur ihren Anforderungen können. Die Kunden können einen Zeitpunkt für den Wechsel zu Team wählen, der ihren Anforderungen am besten gerecht wird. Bleiben Sie auf der Basis Nachrichten über die Reise von Skype für Business Teams die [Skype für Busineses in Microsoft Teams Funktionen Roadmap](https://aka.ms/skype2teamsroadmap)ist eine hervorragende Möglichkeit – eine herunterladbare PDF-Datei (in nur auf Englisch, mindestens für jetzt), die aktuellen erwartet Microsofts zu erhalten Skype für Teams Spitze Business-Funktionen.
+Wir haben unsere Roadmap für Teams zur Verfügung gestellt, damit Kunden Wechsel zu Teams planen und bewerten die Funktionen für Teams, relativ zur ihren Anforderungen können. Die Kunden können einen Zeitpunkt für den Wechsel zu Team wählen, der ihren Anforderungen am besten gerecht wird. Bleiben Sie auf der Basis Nachrichten über die Reise von Skype für Business Teams die [Skype für Unternehmen in Microsoft Teams Funktionen Roadmap](https://aka.ms/skype2teamsroadmap)ist eine hervorragende Möglichkeit – eine herunterladbare PDF-Datei (in nur auf Englisch, mindestens für jetzt), die aktuellen erwartet Microsofts zu erhalten Skype für Teams Spitze Business-Funktionen.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Was ist die Zukunft von Skype for Business Server?
 

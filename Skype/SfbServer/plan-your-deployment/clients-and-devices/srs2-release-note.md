@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
-ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
+ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353213"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358979"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -25,10 +25,11 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 ##  <a name="version-history"></a>Versionsverlauf
 
 | Version | Veröffentlicht <br>Microsoft Store | 
-| ---     | ---                              |
-| 4.0.19.0|  08/31/2018    |   
-| 4.0.18.0|  08/27/2018    |   
-| 4.0.8.0|  07/06/2018    |   
+| ---     | ---  |
+| 4.0.27.0 |  10/1/2018    | 
+| 4.0.19.0 |  08/31/2018    |   
+| 4.0.18.0 |  08/27/2018    |   
+| 4.0.8.0 |  07/06/2018    |   
 | 3.1.115.0|  06/18/2018    |
 | 3.1.113.0|  06/13/2018    |   
 | 3.1.112.0|  06/05/2018    |   
@@ -46,6 +47,13 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype-Chatroom-Systemen v2 Feature Einführung und Behebung
+
+### <a name="40270-1012018"></a>4.0.27.0 (1/10/2018)
+In diesem Update eingeführt: 
+- Ändern von Code erforderlich sind, um die app SRSv2 höher Windows 10 Version 1803-Upgrade vorbereiten
+- Beheben von Formatierung Problem mit lokalisierten EULAs - speziell Norwegisch - die verhindert, dass der Inhalt hinter EULA OOBE-Setup-Fenster
+- Ändern von Code erforderlich, damit Skype Raum Systemen v2 Anwendung auf Systeme der Vorversion Lync Raum ausgeführt. Weitere Informationen finden Sie [hier](https://aka.ms/lrsupgrade).
+ 
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 In diesem Update eingeführt: 
