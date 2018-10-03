@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="c7aad-101">Diese Seite enthält eine Vorabversion der Software, die vor der Freigabe wesentlich ändern kann.</span><span class="sxs-lookup"><span data-stu-id="c7aad-101">This page describes pre-release software that may change substantially before it is released.</span></span> <span data-ttu-id="c7aad-102">Alle Screenshots sind Platzhalter und werden anders als was finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="c7aad-102">Any screen shots are placeholders and may look different than what you see.</span></span> 
