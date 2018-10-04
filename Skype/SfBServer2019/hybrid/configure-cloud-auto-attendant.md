@@ -11,16 +11,16 @@ localization_priority: Normal
 ms.collection: ''
 robots: noindex
 description: Anleitung für die Implementierung einer Cloud-basierten Telefonzentrale für Ihre Organisation.
-ms.openlocfilehash: 36d0b5993a86ebc8eb31f3f191a435123ef857ea
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f9040515e8099a3049180e5cac73282387fbae5
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25030833"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405137"
 ---
 # <a name="configure-cloud-auto-attendant"></a>Konfigurieren von Cloud-Telefonzentrale
 
-Skype für Business Server 2019 Hybrid Implementierungen nur Cloud Voicemail verwenden und nicht mit Exchange Online integrieren.
+Skype für Business Server 2019 Hybrid Implementierungen nur Cloud Voicemail und Cloud-Telefonzentralen verwenden und nicht mit Exchange Online integrieren.
 
 Mithilfe der Skype für Business Server 2019 mit [Phone System automatischen Telefonzentralen](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) ist noch nicht verfügbar.
 

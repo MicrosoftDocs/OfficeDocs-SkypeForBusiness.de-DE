@@ -10,17 +10,17 @@ search.appverid: MET150
 description: Informationen Sie zu den Faktoren berücksichtigen vor dem Einrichten von live Ereignisse in der Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06d433b75cd0f29f328d23cb6e110d4406123a74
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354372"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405256"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von live Ereignisse in der Microsoft-Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-Beim Planen der Teams live Ereignisse in Ihrer Erstellen von großen Besprechungen halten, gibt es mehrere Faktoren, die Sie berücksichtigen, bevor sie alle bis festgelegt wird gestartet müssen. 
+Wenn Sie Teams live Ereignisse zum Speichern von großer Besprechungen in Ihrer Organisation planen, sind verschiedene Faktoren, die Sie berücksichtigen, bevor sie alle bis festgelegt wird gestartet müssen. 
 
 ## <a name="who-can-create-and-schedule-live-events"></a>Wer kann erstellen und planen live Ereignisse? 
 Die folgenden erforderlichen Komponenten sind erforderlich für den Benutzer ein Teams live-Ereignis planen.

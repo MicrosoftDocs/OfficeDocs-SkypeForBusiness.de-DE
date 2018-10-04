@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dff1d7166451868a6d6d906b668a918fc011336
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: db8f9223c74b29f7fd2bfa27b63419abcb4219c5
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354012"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405248"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Microsoft-Teams live Ereignisse?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -50,7 +50,7 @@ Die live-Ereignisse in Microsoft 365 ein Spektrum der Produktionsszenarien unter
 
 - **Schnellstart Produktion**: die Schnellstart Produktion-Methode können Benutzer ihre live Ereignissen mithilfe von Teams Besprechungen zu erstellen. Diese Option eignet sich am besten und schnellste Option aus, wenn Sie die Audio- und Videogeräte automatisch verwenden möchten verbunden mit dem PC oder remote Referenten für das Ereignis Teilnahme einladen. Mit dieser Option können Benutzer auf einfache Weise ihre Webcams verwenden und Freigeben von ihren Bildschirm als Eingabe für das Ereignis. 
 
-! [Teams live Ereignisse] (.. /Media/Teams-Live-Events-Quick-Start.png "Screenshot mit einer live-Ereignis, das erstellt wird, indem Sie der Schnellstartleiste start Produktionsmethode] (... /Media/Teams-Live-Events-Quick-Start.png "Screenshot zeigt ein live-Ereignis, das mit der Schnellstart Produktion-Methode erzeugt wird")
+![Teams live Ereignisse] (../media/teams-live-events-quick-start.png "Screenshot zeigt ein live-Ereignis, das erzeugt wird, mithilfe der Schnellstartleiste, start Produktionsmethode")
 
 - **Externe Encoder Produktion**: externe Encoder zulassen, dass Benutzer ihre live Ereignisse direkt aus einer externen Hardware oder eine softwarebasierte Encoder mit [Microsoft Stream-Objekt](https://stream.microsoft.com)zu erstellen. Diese Option empfiehlt sich, wenn Sie bereits Studio Qualität Equipment (beispielsweise Media Mischern) verfügen, welche Unterstützung streaming an einen Dienst Real-Time Messaging Protocol (RTMP). Diese Art der Produktion wird normalerweise in großem Umfang Ereignisse wie executive Stadt Hallen – verwendet, in ein einzelner Datenstrom aus einem Media Mixer auf die Benutzergruppe gesendet wird. 
 
@@ -64,9 +64,9 @@ Die live-Ereignis-streaming-Plattform besteht aus die folgenden Teile:
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Enterprise Content Delivery Network (eCDN)
 Das Ziel des eCDN ist den Videoinhalt aus dem Internet und verteilen die Inhalte im gesamten Unternehmen ohne Beeinträchtigung der Leistung des Netzwerks. Eine der folgenden können certified Partner eCDN Sie um Ihr Netzwerk für live Ereignisse frei, die in Ihrem Unternehmen zu optimieren:
-    - [Struktur](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-    - [Kollective](http://www.kollective.com)
-    - [Lernen](http://www.ramp.com)
+- [Struktur](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+- [Kollective](http://www.kollective.com)
+- [Lernen](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Umgebung Teilnehmer 
 Umgebung der Teilnehmer ist der wichtigste Aspekt der live Ereignisse, und es ist wichtig, dass die Teilnehmer im live-Ereignis teilnehmen können, ohne Probleme. Umgebung der Teilnehmer Azure Media Player verwendet und kann über den Desktop, Browser und Mobile (iOS Android). Office 365 bietet Yammer und Teams als zwei Zusammenarbeit Hubs und die Teilnehmer live Erfahrung in diese Tools für die Zusammenarbeit integriert ist. 
