@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Zusammenfassung: Erfahren Sie mehr über das neue Skype für Unternehmen und die Schritte können zum Vorbereiten Ihrer Umgebung und Ihre Benutzer für das Update, ob Sie für Business Online, Skype für Business Server 2015, Skype für Lync Server 2013 Business Server 2015 Skype verwenden oder Lync Server 2010.'
-ms.openlocfilehash: b5bfd0c48cb1e850fdaa88a991772306430a0b9f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965677"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371173"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planen der Skype für Business 2015 Clientumgebung für Ihre Benutzer
  
@@ -80,9 +80,9 @@ Führen Sie die Schritte in diesem Abschnitt aus, wenn Sie die Skype-Clientumgeb
     
 - **Lync Server 2010** – müssen Sie Ausführen der Februar 2015 kumulative Update (4.0.7577.710) für Lync Server 2010 oder einem neueren Update. Informationen finden Sie unter [Updates für Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
- **Schritt 2:** Verwenden Sie im nächsten Schritt eine Client-Richtlinie, um die Skype-Clientumgebung mit der Skype für Business Client festzulegen. Es gibt **3 Optionen** zur Festlegung der Clientumgebung mithilfe einer Clientrichtlinie.
+  **Schritt 2:** Verwenden Sie im nächsten Schritt eine Client-Richtlinie, um die Skype-Clientumgebung mit der Skype für Business Client festzulegen. Es gibt **3 Optionen** zur Festlegung der Clientumgebung mithilfe einer Clientrichtlinie.
   
- **Option 1:** Legen Sie die Skype-Clientumgebung mithilfe einer globalen Richtlinie fest. Beachten Sie, dass die globale Richtlinie für alle Benutzer in Ihrer Bereitstellung gilt, dass Benutzer- und Standortrichtlinien jedoch Vorrang vor der globalen Richtlinie haben:
+  **Option 1:** Legen Sie die Skype-Clientumgebung mithilfe einer globalen Richtlinie fest. Beachten Sie, dass die globale Richtlinie für alle Benutzer in Ihrer Bereitstellung gilt, dass Benutzer- und Standortrichtlinien jedoch Vorrang vor der globalen Richtlinie haben:
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True

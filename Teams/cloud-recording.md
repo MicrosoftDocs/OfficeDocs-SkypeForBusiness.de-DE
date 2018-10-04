@@ -11,12 +11,12 @@ description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funkt
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019076"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375979"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams Cloud besprechungsaufzeichnung
 
@@ -75,13 +75,13 @@ Um Wert der AllowCloudRecording in der globalen Richtlinie zu ändern, verwenden
 </br>
 
 
-|Szenario|Schritte |
-|---|---|
-|Ich möchte alle Benutzer in meinem Unternehmen können ihre Besprechungen aufzeichnen |<ol><li>Bestätigen Sie globale CsTeamsMeetingPolicy hat AllowCloudRecording = True<li>Alle Benutzer haben die globalen CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = True </ol>|
-|Ich möchte, dass die meisten Benutzer können ihre Besprechungen aufzeichnen, aber bestimmte Benutzer, die nicht zulässig sind, so zeichnen Sie einzeln zu deaktivieren |<ol><li>Bestätigen GlobalCsTeamsMeetingPolicy hat AllowCloudRecording = True<li>Die Mehrheit der Benutzer haben die globalen CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = True<li>Alle anderen Benutzer gewährt wurden eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = False</ol>|
-|Ich möchte Aufzeichnung um 100 % deaktiviert werden.| <ol><li>Bestätigen Sie globale CsTeamsMeetingPolicy hat AllowCloudRecording = False<li>Alle Benutzer der globalen CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording gewährt wurden = False|
-|Ich möchte aufzeichnen, wenn Sie für die meisten Benutzer deaktiviert werden jedoch bestimmte Benutzer, die berechtigt sind, so zeichnen Sie selektiv zu aktivieren|<ol><li>Bestätigen Sie globale CsTeamsMeetingPolicy hat AllowCloudRecording = False<li>Die Mehrheit der Benutzer die globale CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording gewährt wurden = False<li>Alle anderen Benutzer gewährt wurden eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = True <ol>|
-|||
+|                                                                 Szenario                                                                 |                                                                                                                                                                         Schritte                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    Ich möchte alle Benutzer in meinem Unternehmen können ihre Besprechungen aufzeichnen                                    |                                                                     <ol><li>Bestätigen Sie globale CsTeamsMeetingPolicy hat AllowCloudRecording = True<li>Alle Benutzer haben die globalen CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = True </ol>                                                                     |
+| Ich möchte, dass die meisten Benutzer können ihre Besprechungen aufzeichnen, aber bestimmte Benutzer, die nicht zulässig sind, so zeichnen Sie einzeln zu deaktivieren |        <ol><li>Bestätigen GlobalCsTeamsMeetingPolicy hat AllowCloudRecording = True<li>Die Mehrheit der Benutzer haben die globalen CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = True<li>Alle anderen Benutzer gewährt wurden eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = False</ol>         |
+|                                                   Ich möchte Aufzeichnung um 100 % deaktiviert werden.                                                   |                                                                <ol><li>Bestätigen Sie globale CsTeamsMeetingPolicy hat AllowCloudRecording = False<li>Alle Benutzer der globalen CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording gewährt wurden = False                                                                 |
+|      Ich möchte aufzeichnen, wenn Sie für die meisten Benutzer deaktiviert werden jedoch bestimmte Benutzer, die berechtigt sind, so zeichnen Sie selektiv zu aktivieren       | <ol><li>Bestätigen Sie globale CsTeamsMeetingPolicy hat AllowCloudRecording = False<li>Die Mehrheit der Benutzer die globale CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording gewährt wurden = False<li>Alle anderen Benutzer gewährt wurden eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = True <ol> |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
 ### <a name="enabledisable-recording-transcription-for-users"></a>Aktivieren/Deaktivieren der Aufzeichnung Lautschrift für Benutzer
 

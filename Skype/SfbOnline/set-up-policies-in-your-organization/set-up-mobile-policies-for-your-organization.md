@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Sie können einrichten, wie Benutzer über die Skype for Business-App auf mobilen Geräten Verbindungen mit Skype for Business Online herstellen. Ein Beispiel hierfür wäre eine Funktion, mit der Benutzer auf ihrem Mobiltelefon Telefonanrufe tätigen und empfangen können und dazu ihre geschäftliche Rufnummer anstelle ihrer Mobiltelefonnummer verwenden können. Mit Mobilitätsrichtlinien können Sie auch festlegen, dass Anrufe nur über WLAN-Verbindungen getätigt oder empfangen werden können.
-ms.openlocfilehash: 21d1b19a72686d618bf8fca484bf828e62ee3a37
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 73699cb2c608b7a161b371d86458a18a9c9d3c40
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861527"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372030"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Einrichten von Richtlinien für mobile Geräte für Ihre Organisation
 
@@ -58,64 +58,64 @@ Richtlinieneinstellungen für mobile Geräte können Sie bei der Erstellung eine
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>Festlegen einer WLAN-Verbindung als erforderlich für Video für einen Benutzer
 
 - Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
-> 
-  ```
-  New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
-  ```
-  Weitere Informationen finden Sie im [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) -Cmdlet.
+  > 
+  > ```
+  > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
+  > ```
+  > Weitere Informationen finden Sie im [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) -Cmdlet.
     
 - Um die erstellte neue Richtlinie allen Benutzern in der Organisation zuzuweisen, führen Sie Folgendes aus:
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
-  ```
-  Weitere Informationen finden Sie im [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) -Cmdlet.
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
+  > ```
+  > Weitere Informationen finden Sie im [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) -Cmdlet.
     
   Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx)-Cmdlet Änderungen an der vorhandenen Richtlinie vornehmen und dann mit dem [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx)-Cmdlet die Einstellung auf die Benutzer anwenden.
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>Verhindern, dass ein Benutzer die Skype for Business-App verwendet
 
 - Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
-```
-New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
-```
+  ```
+  New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
+  ```
   Weitere Informationen finden Sie im [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) -Cmdlet.
     
 - Um die erstellte neue Richtlinie Amos Marble zuzuweisen, führen Sie Folgendes aus:  
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
-  ```
-  Weitere Informationen finden Sie im [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) -Cmdlet.
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
+  > ```
+  > Weitere Informationen finden Sie im [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) -Cmdlet.
     
   Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das Cmdlet [Set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) , die vorhandene Richtlinie zu ändern, und klicken Sie dann mit dem [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) -Cmdlet verwenden, um die Einstellung für die Benutzer zu übernehmen.
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>Verhindern, dass ein Benutzer Voice over IP-Anrufe über ein mobiles Gerät tätigt
 
 - Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
-> 
-  ```
-  New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
-  ```
-  Weitere Informationen finden Sie im [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) -Cmdlet.
+  > 
+  > ```
+  > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
+  > ```
+  > Weitere Informationen finden Sie im [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) -Cmdlet.
     
 - Um die erstellte neue Richtlinie allen Benutzern in der Organisation zuzuweisen, führen Sie Folgendes aus:
-> 
-  ```
-  Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
-  ```
+  > 
+  > ```
+  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
+  > ```
 
   Weitere Informationen finden Sie im [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) -Cmdlet.
     

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7269c38957df9d43295f6568a2369c34e94da93
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8877819704b438d26f981fb6816c56eb23ef9521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013073"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371342"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -63,6 +63,7 @@ Bevor Sie die Implementierung der Audiokonferenzen in Teams planen, müssen Sie 
 Nach Bestätigung, dass Ihre Organisation berechtigt ist auf der Grundlage den Audiokonferenz-Dienst zu erhalten, kompilieren Sie die Liste der Standorte oder Büros, in dem Sie den Dienst Audiokonferenzen implementieren werden, der Liste der verfügbaren Ländern und Regionen.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, an welchen Benutzerstandorten oder in welchen Niederlassungen der Audiokonferenzdienst implementiert wird.</li></ul>|
@@ -70,13 +71,14 @@ Nach Bestätigung, dass Ihre Organisation berechtigt ist auf der Grundlage den A
 
 > [!TIP]
 > Es folgt ein Beispiel einer Audiokonferenz-Aktivierung-Liste Websitevorlage:
->|Niederlassung   |Standort |PSTN-Konferenzdienst  |
->|---------|---------|---------|
->|One Epping Road|Australien|Audiokonferenzen|
->|100 Cyberport Road|Hong Kong SAR (香港特別行政區)|Legacy-PSTN-Konferenz|
->|One Marina Boulevard|Singapur|Audiokonferenzen|
->|32 London Bridge Street|Großbritannien|Audiokonferenzen|
->|39 quai du Président Roosevelt|Frankreich|Audiokonferenzen|
+> 
+> |Niederlassung   |Standort |PSTN-Konferenzdienst  |
+> |---------|---------|---------|
+> |One Epping Road|Australien|Audiokonferenzen|
+> |100 Cyberport Road|Hong Kong SAR (香港特別行政區)|Legacy-PSTN-Konferenz|
+> |One Marina Boulevard|Singapur|Audiokonferenzen|
+> |32 London Bridge Street|Großbritannien|Audiokonferenzen|
+> |39 quai du Président Roosevelt|Frankreich|Audiokonferenzen|
 
 <!--ENDOFSECTION-->
 
@@ -98,6 +100,7 @@ Der erste Aspekt beim Implementieren von Kommunikation haben entscheiden, die An
 Weitere Informationen finden Sie Informationen zu Communications haben [hier](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Wenn Ihr Unternehmen bereits die erforderlichen Audiokonferenzen Lizenzierung erworben wurde nicht, entscheiden Sie, ob Sie vorhandenen Office 365-Abonnements umsteigen oder Audiokonferenzen Add-On-Lizenzen erwerben Audiokonferenzen Lizenzen erwerben können.</li><li>Entscheiden Sie, ob Communications haben für die Audiokonferenz Implementierung erforderlich sind. Wenn ja, legen Sie den anfänglichen Auffüllungsbetrag fest. Legen Sie zudem fest, wie hoch der niedrigste Betrag sein sollte, bei dem die automatische Auffüllung ausgelöst wird.</li></ul>|
@@ -105,29 +108,26 @@ Weitere Informationen finden Sie Informationen zu Communications haben [hier](ht
 
 > [!TIP]
 > Sie können mithilfe der im folgenden Beispiel wird die Liste der Lizenz-Zuordnung für Audiokonferenzen Benutzer dokumentieren.
->|Benutzer  |Niederlassung  |Office 365-Lizenz  |
->|---------|---------|---------|
->|Adele Vance|One Epping Road|Office 365 E5|
->|Alex Wilber|One Epping Road|Office 365 E3, Add-On für Audiokonferenzen|
->|Ben Walters|One Epping Road|Office 365 E3, Add-On für Audiokonferenzen|
->|Christie Cline|One Marina Boulevard|Office 365 E3, Add-On für Audiokonferenzen|
->|Debra Berger|One Marina Boulevard|Office 365 E5|
->|Lee Gu|One Marina Boulevard|Office 365 E5|
->|Emily Braun|32 London Bridge Street|Office 365 E5|
->|Lidia Holloway|32 London Bridge Street|Office 365 E5|
->|Louis Lahr|32 London Bridge Street|Office 365 E5|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, Add-On für Audiokonferenzen|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Add-On für Audiokonferenzen|
+> 
+> |Benutzer  |Niederlassung  |Office 365-Lizenz  |
+> |---------|---------|---------|
+> |Adele Vance|One Epping Road|Office 365 E5|
+> |Alex Wilber|One Epping Road|Office 365 E3, Add-On für Audiokonferenzen|
+> |Ben Walters|One Epping Road|Office 365 E3, Add-On für Audiokonferenzen|
+> |Christie Cline|One Marina Boulevard|Office 365 E3, Add-On für Audiokonferenzen|
+> |Debra Berger|One Marina Boulevard|Office 365 E5|
+> |Lee Gu|One Marina Boulevard|Office 365 E5|
+> |Emily Braun|32 London Bridge Street|Office 365 E5|
+> |Lidia Holloway|32 London Bridge Street|Office 365 E5|
+> |Louis Lahr|32 London Bridge Street|Office 365 E5|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, Add-On für Audiokonferenzen|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Add-On für Audiokonferenzen|
 
 <br>
-> [!TIP]
-> Sie können Ihre Zahlen für die Planung des Guthabens für Kommunikationen so dokumentieren:
->|         |         |
->|---------|---------|
->|Anfangsbetrag|1.000 US-Dollar|
->|Betrag für die Auslösung der Auffüllung|400 US-Dollar|
->|Höhe des Betrags für die automatische Auffüllung|TBA|
+&gt; [!TIP]
+&gt;Ihre Planung Zahlen Communications haben kann wie folgt dokumentiert werden: &gt;|         |         | &gt;|---------|---------|
+&gt;| Anfangsgröße | 1.000 USD | &gt;| Trigger Betrag | $ 400 | &gt;| Automatische Ladeleuchte Betrag | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -149,7 +149,7 @@ Der Audiokonferenzdienst in Office 365 umfasst:
 Wenn Sie vorhandene Konferenz Bridge Telefonnummern an den Audio-Konferenzdienst übertragen müssen – vorausgesetzt, sie erfüllen länderspezifisch – Sie können diese Rufnummern der vorhandenen Konferenz Bridge an Microsoft übertragen.
 
 > [!NOTE]
-Die Komplexität der Rufnummern an Microsoft übertragen variiert stark je nach Land oder Region, Netzbetreiber, Anzahl der beteiligten Circuits und viele andere Faktoren beitragen. Arbeiten mit Ihren aktuellen Anbieter untersuchen, wie lange dies ist voraussichtlich durchführen, um sicherzustellen, dass Sie den zu einem frühen Zeitpunkt starten genug sind, um die Zeitachsen erfüllen.
+> Die Komplexität der Rufnummern an Microsoft übertragen variiert stark je nach Land oder Region, Netzbetreiber, Anzahl der beteiligten Circuits und viele andere Faktoren beitragen. Arbeiten mit Ihren aktuellen Anbieter untersuchen, wie lange dies ist voraussichtlich durchführen, um sicherzustellen, dass Sie den zu einem frühen Zeitpunkt starten genug sind, um die Zeitachsen erfüllen.
 
 Lesen Sie mehr über die Konferenz Bridge Rufnummern finden Sie in den folgenden Artikeln:
 
@@ -162,6 +162,7 @@ Lesen Sie mehr über die Konferenz Bridge Rufnummern finden Sie in den folgenden
 -   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation dedizierten Konferenz Bridge Telefonnummern benötigt.</li><li>Entscheiden Sie, wie die dedizierte Konferenz Bridge Telefonnummern für Standorte oder Büros erhalten werden im Bereich für die Implementierung von Audiokonferenzen (die von Microsoft oder Übertragung vorhandenen Telefonnummern erhalten wird,).</li><li>Wenn Sie diese von Microsoft erhalten möchten, entscheiden, die zu verwendende Methode (Formular zum Absenden oder automatisierte) für Standorte oder Büros Bereich für die Implementierung von Audiokonferenzen.</li><li>Entscheiden Sie, die spracheinstellungen für jede Telefonnummer für dedizierte Konferenz Bridge einrichten.</li><li>Entscheiden Sie Mandanten Konferenz Bridge Standardrufnummer.</li></ul>|
@@ -171,12 +172,13 @@ Es folgt ein Beispiel für eine Vorlage, die Sie zur Konferenz Bridge Details Er
 
 > [!TIP]
 > Das folgende Beispiel zeigt eine Vorlage zum Erfassen der Details von Konferenzbrücken:
->|Niederlassung   |Anschaffung der Brückennummer und Brückentyp |Brückennummer  |Brückensprache|
->|---------|---------|---------|---------|
->|One Epping Road|Neu anschaffen, dediziert|TBA|Englisch (Australien)|
->|One Marina Boulevard|Neu anschaffen, freigegeben|TBA|Englisch (Vereinigte Staaten), Chinesisch (vereinfacht)|
->|32 London Bridge Street|Port vorhanden, dediziert|+44 20 7946 0001|Englisch (Vereinigtes Königreich)|
->|39 quai du Président Roosevelt|Neu anschaffen, dediziert|TBA|Französisch (Frankreich), Englisch (Vereinigtes Königreich)|
+> 
+> |Niederlassung   |Anschaffung der Brückennummer und Brückentyp |Brückennummer  |Brückensprache|
+> |---------|---------|---------|---------|
+> |One Epping Road|Neu anschaffen, dediziert|TBA|Englisch (Australien)|
+> |One Marina Boulevard|Neu anschaffen, freigegeben|TBA|Englisch (Vereinigte Staaten), Chinesisch (vereinfacht)|
+> |32 London Bridge Street|Port vorhanden, dediziert|+44 20 7946 0001|Englisch (Vereinigtes Königreich)|
+> |39 quai du Président Roosevelt|Neu anschaffen, dediziert|TBA|Französisch (Frankreich), Englisch (Vereinigtes Königreich)|
 
 <!--ENDOFSECTION-->
 
@@ -212,6 +214,7 @@ Sie können auch zusätzliche Konfigurationen für jeden Benutzer die Verwendung
 Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren gebührenfreie Konferenz Bridge Rufnummern für von ihnen organisierte Besprechungen bereitstellen können, und gibt an, ob Teilnehmer aus Besprechungen anwählen können Organisation. Die Ebene der Dial-Out-Steuerelement umfasst vollständig verhindert ein-, nur zulassen Client-nationalen Nummern, bis zum Zulassen von Client-nationalen und internationalen Zahlen werden kann.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden, ob Ihre Organisation Beitritts- und Benachrichtigungen erfordert und – wenn dies der Fall ist – die Art der Benachrichtigung implementiert werden (Töne, Telefonnummer oder aufgezeichneten Namen).</li><li>Entscheiden Sie, die Audio-Konferenzen PIN-Mindestlänge, die den Anforderungen der Sicherheit in der Organisation entspricht.</li><li>Entscheiden Sie, ob Ihre Organisation möchte Benutzerkommunikation im Zusammenhang mit der Audiokonferenz Dienst steuern.</li><li>Wählen Sie die Telefonnummern für Konferenzbrücken aus, die jedem Besprechungsorganisator zugewiesen werden.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren gebührenfreie Konferenz Bridge Rufnummern für ihre Besprechungen verwenden müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren nicht authentifizierter Anrufer an eine Besprechung starten zu ermöglichen müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren Konferenz Anwahl gesteuert werden benötigen.</li></ul>|
@@ -219,31 +222,20 @@ Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren
 
 > [!TIP]
 > Wie im folgenden Beispiel können die Konferenz Bridge Einstellungen dokumentiert werden.
->|         |         |
->|---------|---------|
->|Benachrichtigungen beim Betreten oder Verlassen einer Besprechung aktivieren|Aktiviert|
->|Ankündigungstyp für Zu- und Abgänge|Signaltöne|
->|Anrufer zur Aufnahme ihres Namens auffordern, bevor sie an der Besprechung teilnehmen|Deaktiviert|
->|PIN-Länge|5|
->|Senden Sie automatisch E-Mails an Benutzer, wenn sich die Einwahlkonfiguration ändert.|Deaktiviert|
+> 
+> |         |         |
+> |---------|---------|
+> |Benachrichtigungen beim Betreten oder Verlassen einer Besprechung aktivieren|Aktiviert|
+> |Ankündigungstyp für Zu- und Abgänge|Signaltöne|
+> |Anrufer zur Aufnahme ihres Namens auffordern, bevor sie an der Besprechung teilnehmen|Deaktiviert|
+> |PIN-Länge|5|
+> |Senden Sie automatisch E-Mails an Benutzer, wenn sich die Einwahlkonfiguration ändert.|Deaktiviert|
 
 <br>
-> [!TIP]
-> Sie können mithilfe der im folgenden Beispiel wird die Liste Konferenz Bridge Settings Zuordnung für Audiokonferenzen Benutzer dokumentieren.
->|Benutzer  |Niederlassung  |Gebührenpflichtige Standardnummer  |Gebührenfreie Standardnummer  |Gebührenfreie Nummer zulassen  |Nicht authentifizierte Anrufer umgehen Wartebereich  |Konferenzauswahl  |
->|---------|---------|---------|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|TBA|TBA|Ja|Aktiviert|In- und Auslandsanrufe|
->|Alex Wilber|One Epping Road|TBA|TBA|Nein|Deaktiviert|Nicht zulässig|
->|Ben Walters|One Epping Road|TBA|TBA|Nein|Deaktiviert|Nicht zulässig|
->|Christie Cline|One Marina Boulevard|TBA|TBA|Ja|Deaktiviert|Inlandsanruf|
->|Debra Berger|One Marina Boulevard|TBA|TBA|Ja|Aktiviert|Inlandsanruf|
->|Lee Gu|One Marina Boulevard|TBA|TBA|Ja|Aktiviert|Inlandsanruf|
->|Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Ja|Aktiviert|Nicht zulässig|
->|Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Ja|Deaktiviert|Nicht zulässig|
->|Louis Lahr|32 London Bridge Street|+44 20 7946 0001|TBA|Ja|Deaktiviert|Nicht zulässig|
->|Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|Nein|Deaktiviert|Inlandsanruf|
->|Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Ja|Aktiviert|In- und Auslandsanrufe|
->|Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|Nein|Deaktiviert|Inlandsanruf|
+&gt; [!TIP]
+&gt;Sie können mithilfe der im folgenden Beispiel wird die Liste Konferenz Bridge Settings Zuordnung für Audiokonferenzen Benutzer dokumentieren.
+&gt;| Benutzer | Office | Die gebührenpflichtige Telefonnummer default | Gebührenfreie Telefonnummer default | Zulassen gebührenfreie | Nicht authentifizierter Anrufer umgehen die Lobby | Client-Konferenz | &gt;|---------|---------|---------|---------|---------|---------|---------|
+&gt;| Adele Vance | Eine Epping Straße | TBA | TBA | Yes | Aktiviert | Internationaler und | &gt;| Alex Wilber | Eine Epping Straße | TBA | TBA | Nicht | Deaktivierte | Nicht zulässig | &gt;| Ben Walter | Eine Epping Straße | TBA | TBA | Nicht | Deaktivierte | Nicht zulässig | &gt;| Christine Cline | One Marina Boulevard | TBA | TBA | Yes | Deaktivierte | Nationalen | &gt;| Sarah Berger | One Marina Boulevard | TBA | TBA | Yes | Aktiviert | Nationalen | &gt;| Kelly Gu | One Marina Boulevard | TBA | TBA | Yes | Aktiviert | Nationalen | &gt;| Emily Braun | 32 London Bridge Straße | + 44 20 7946 0001 | TBA | Yes | Aktiviert | Nicht zulässig | &gt;| Lidia Holloway | 32 London Bridge Straße | + 44 20 7946 0001 | TBA | Yes | Deaktivierte | Nicht zulässig | &gt;| Louis Lahr | 32 London Bridge Straße | + 44 20 7946 0001 | TBA | Yes | Deaktivierte | Nicht zulässig | &gt;| Marcel Beauchamp | 39 Quai du Président Roosevelt | TBA | TBA | Nicht | Deaktivierte | Nationalen | &gt;| Rachelle Cormier | 39 Quai du Président Roosevelt | TBA | TBA | Yes | Aktiviert | Internationaler und | &gt;| Isabell Potvin | 39 Quai du Président Roosevelt | TBA | TBA | Nicht | Deaktivierte | Nationalen |
 
 <!--ENDOFSECTION-->
 
@@ -270,6 +262,7 @@ Wenn es sich um Service Zahlen geht, müssen Sie die Audiokonferenz Implementier
 Weitere Informationen über die Gesamtzahl der Telefonnummern, die Sie herunterladen können, finden Sie unter [wie viele Rufnummern erhalten Sie?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie die Standorte oder Büros, in dem neue Telefonnummern von Microsoft erfasst wird.</li><li>Legen Sie die Art der Telefonnummern von Microsoft erworben werden.</li></ul>|
@@ -292,6 +285,7 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 -   [Allgemeine Fragen zum Übertragen von Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie die Standorte oder Büros, auf dem vorhandenen Telefonnummern an Microsoft übertragen wird.</li><li>Legen Sie die Art der Telefonnummern an Microsoft übertragen werden.</li></ul>|
@@ -323,6 +317,7 @@ Die effektive Wähleinstellungen, die Benutzern zugewiesen ist eine Kombination 
 Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation angepasste Wählpläne (geschäftlichen Anforderungen, Annahme Anforderungen usw.) erforderlich sind.</li><li>Legen Sie (falls anwendbar) den Gültigkeitsbereich für den Mandantenwählplan (globaler Wählplan für Mandanten oder Wählplan für Mandantenbenutzer) fest, um die Anforderungen für angepasste Wählpläne zu erfüllen.</li><li>Gegebenenfalls entscheiden, die Mandanten-Wählpläne, die Sie erstellen, um Standorte oder Büros unterstützt im Gültigkeitsbereich für die Cloud VoIP-Implementierung.</li><li>Gegebenenfalls entscheiden Sie, welche Benutzer benötigen, eine angepasste Wählplan und die Wähleinstellungen Mandanten für jeden Benutzer zugewiesen werden soll.</li></ul>|
@@ -330,36 +325,24 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 
 > [!TIP]
 > Wenn sie für Ihr Projekt gilt, können Sie die folgende Vorlage verwenden, um die Konfigurationen für den Mandanten Dial Plan zu dokumentieren.
->|Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
->||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
->||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
->||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
->|**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (X8000 Â €"x 8999) für Office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
->||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
->||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (X7000 Â €"x 7999) für 39 Quai du Président Roosevelt Office, Issy-Les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
->||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
->||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
+> 
+> |Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
+> ||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
+> ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
+> ||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (X8000 Â €"x 8999) für Office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
+> ||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
+> ||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (X7000 Â €"x 7999) für 39 Quai du Président Roosevelt Office, Issy-Les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
+> ||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
+> ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
 
 <br>
-> [!TIP]
-> Sie können die folgende Beispielvorlage nutzen, um Wählplanzuweisungen für Ihr Projekt zu dokumentieren:
->|Benutzer  |Niederlassung  |Typ des Wählplans  |Name des Wählplans  |
->|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
->|Alex Wilber|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
->|Ben Walters|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
->|Christie Cline|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
->|Debra Berger|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
->|Lee Gu|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Dienstwählplan|n/v|
->|Lidia Holloway|32 London Bridge Street|Dienstwählplan|n/v|
->|Louis Lahr|32 London Bridge Street|Dienstwählplan|n/v|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;Die Beispielvorlage, die ein Dokument Dial Plan Aufgaben zur Unterstützung von Ihrem Projekts genutzt werden kann: &gt;| Benutzer | Office | Wählen Sie eine Plantyp | Wählplanname | &gt;|---------|---------|---------|---------|
+&gt;| Adele Vance | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Alex Wilber | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Ben Walter | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Christine Cline | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Sarah Berger | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Kelly Gu | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Emily Braun | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Lidia Holloway | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Louis Lahr | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Marcel Beauchamp | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR | &gt;| Rachelle Cormier | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR | &gt;| Isabell Potvin | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR |
 
 <!--ENDOFSECTION-->
 

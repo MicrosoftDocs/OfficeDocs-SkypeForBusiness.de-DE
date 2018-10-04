@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Ihre Skype für Business Server 2015 Topologie Persistent Chat Server hinzufügen.'
-ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2486db39546e88c4a75e27875a84a2c3b939ae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973010"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371982"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen von Persistent Chat Server zu Ihrer Skype für Business Server 2015 Topologie
  
@@ -71,8 +71,8 @@ Wiederholen Sie für die Bereitstellung mehrerer Persistent Chat Server-Pools da
     
    - Wählen Sie entweder **Standardinstanz** aus, um die Standardinstanz zu verwenden, oder wählen Sie **Benannte Instanz** aus, um eine andere Instanz anzugeben, die Sie verwenden möchten.
     
-    > [!NOTE]
-    > Ausführliche Informationen zum Konfigurieren von SQL Server-Sicherung Datenbanken für die Wiederherstellung finden Sie unter [Configure hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > [!NOTE]
+     > Ausführliche Informationen zum Konfigurieren von SQL Server-Sicherung Datenbanken für die Wiederherstellung finden Sie unter [Configure hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. Definieren Sie SQL Server-Speichers Compliance, wenn Kompatibilität aktiviert.
     
@@ -87,8 +87,8 @@ Wiederholen Sie für die Bereitstellung mehrerer Persistent Chat Server-Pools da
     
     - Geben Sie in **Dateifreigabe** den Dateispeicher an, den Sie verwenden möchten.
     
-     > [!IMPORTANT]
-     > Sie können im Topologie-Generator den Dateispeicher definieren, bevor Sie den Dateispeicher erstellen, aber Sie den Dateispeicher, in der definierten Position, den, die Sie definieren erstellen müssen, bevor Sie die Topologie zu veröffentlichen. Wenn der Speicher noch nicht vorhanden ist, schlagen alle Veröffentlichungsversuche für die Topologie fehl. 
+      > [!IMPORTANT]
+      > Sie können im Topologie-Generator den Dateispeicher definieren, bevor Sie den Dateispeicher erstellen, aber Sie den Dateispeicher, in der definierten Position, den, die Sie definieren erstellen müssen, bevor Sie die Topologie zu veröffentlichen. Wenn der Speicher noch nicht vorhanden ist, schlagen alle Veröffentlichungsversuche für die Topologie fehl. 
   
 11. Wählen Sie den Front-End-Server-Pool als nächsten Hop für Persistent Chat Server Pool verwendet werden. Dies ist der Front-End-Server-Pool, die zur Weiterleitung von Anforderungen Persistent Chat Server in diesem Pool können.
     

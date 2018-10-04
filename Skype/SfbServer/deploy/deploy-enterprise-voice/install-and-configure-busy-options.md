@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Lesen Sie zum Installieren und Konfigurieren von beschäftigt Optionen in Skype für Business Server.
-ms.openlocfilehash: 2cca6c3b1075e1f5c7f1674a8e5609b49300bba6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884103"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370808"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installieren und Konfigurieren der Beschäftigt-Optionen für Skype for Business Server
 
@@ -49,9 +49,9 @@ Das Installationsprogramm stellt die aktuelle Version der Beschäftigt-Optionen 
 
 1. Führen Sie das Cmdlet [Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) beschäftigt Optionen global aktivieren, wie im folgenden Beispiel gezeigt aus:
 
-  ```
-  Set-CsVoicePolicy -EnableBusyOptions $true
-  ```
+   ```
+   Set-CsVoicePolicy -EnableBusyOptions $true
+   ```
 
 2. Wenn für den Standort eine VoIP-Richtlinie eingerichtet wurde, müssen Sie die Beschäftigt-Optionen dann wie folgt für die VoIP-Richtlinie aktivieren:
 

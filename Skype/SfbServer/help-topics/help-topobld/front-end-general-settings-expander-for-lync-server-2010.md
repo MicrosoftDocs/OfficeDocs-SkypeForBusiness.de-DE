@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Sie bearbeiten die Eigenschaften des Front-End-Server oder Front-End-Pools, bearbeiten oder konfigurieren die folgenden Attribute. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:'
-ms.openlocfilehash: 85aa22c5a2cb7820ff1828c850f0440653f5b9f5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3af82a83afe27ce06a3c41f881154c2850cad521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256315"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374202"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Allgemeine Front-End für Lync Server 2010-Einstellungen – Erweiterung
 
@@ -54,13 +54,13 @@ Sie bearbeiten die Eigenschaften des Front-End-Server oder Front-End-Pools, bear
 
 - Wählen Sie aus der **Edgepool zuordnen (für Medienkomponenten** Kontrollkästchen, um einen Edge-Server für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nach dem Aktivieren des Kontrollkästchens, wählen Sie eine vorhandene Edge-Server oder Pool aus der Liste aus oder klicken Sie auf **neu** , um die Definitionen für einen neuen Edge-Server oder Pool zu erstellen.
 
- **Flexibilität**
+  **Flexibilität**
 
 - Wählen Sie das Kontrollkästchen **zugeordneter Sicherungsregistrierungsstellen-Pool** einen Front-End-Server oder Front-End-Pool aus der Liste auswählen, die Sicherungsregistrierung werden (d. h., die Front-End-Server oder Front-End-Pool, die als einer sekundären Registrierung den Fall, dass die primäre ein Fehler auftritt)
 
 - Wenn Sie zugeordneter Sicherungsregistrierungsstellen-Pool ausgewählt und eine sicherungsregistrierung gewählt haben, können Sie das Kontrollkästchen für **Automatisches Failover und Failback für VoIP**aktivieren. Sie können jetzt numerische Eigenschaften für **VoIP-Failover-Erkennung interne (s)** und **VoIP Failback Intervall (s)** definieren. Weitere Informationen hierzu finden Sie unter [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
- **Webdienste**
+  **Webdienste**
 
 - Um **interne Webdienste**konfigurieren, definieren Sie die **Überwachungsports** für **HTTP** und **HTTPS**. Standardmäßig sind diese TCP-Port 80 und TCP-Port 443. Sie können auch die **veröffentlichten Ports** für **HTTP** und **HTTPS**konfigurieren. Standardmäßig sind diese TCP-Port 80 und TCP-Port 443. Auf Grundlage der interne Web Services-Konfiguration und der Lastenausgleich (Hardwaregeräte zum Lastenausgleich und DNS-Lastenausgleich) verwenden, passen Sie die Portwerte so definieren Sie die überwachungs- und veröffentlichten Ports.
 
@@ -72,7 +72,7 @@ Sie bearbeiten die Eigenschaften des Front-End-Server oder Front-End-Pools, bear
     > [!IMPORTANT]
     > Externe Webdienste und die definierten überwacht und veröffentlichten Ports sind für externe Clients und Geräten. Externe Clients und Geräten verwenden Sie die externen Webdienste überwacht und veröffentlichte Ports, die in der Regel durch Ihren Reverseproxy aufrufen zusammen mit den definierten externe Web Services vollqualifizierten Domänennamen (FQDN) definiert. Die Beziehung zwischen den externen FQDN der Webdienste und die einfachen URLs definieren die uniform Resource Locator (URL)-Adressen, die externe Clients verwendet werden, um die verfügbaren Dienste für externe Benutzer und Geräte zugreifen. Weitere Informationen zu einfachen URLs finden Sie unter [Planung für einfache URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
- **Vermittlungsserver**
+  **Vermittlungsserver**
 
 - Wählen Sie zum Konfigurieren der Eigenschaften der **Vermittlungsserver** für einen verbundenen Vermittlungsserver (d. h., einen Vermittlungsserver auf dem Front-End-Server oder Front-End-Pool bereitgestellt wird) **verbundener Vermittlungsserver aktiviert**.
 

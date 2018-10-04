@@ -13,25 +13,25 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b86804cf994ce15a9d450fbffb9c1e7cd8b5f9b4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 562ed8dbd4e4130b6ef157e600f69ea486ee813b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016053"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374225"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen, die zum Bereitstellen und Verwalten von eine hohe Qualität Microsoft-Teams, Bereitstellung erforderlich sind. Sie können eine erfolgreiche Bereitstellung durch Planung für dienstverwaltung und-Qualität während der Phase Ermitteln übergeordneter Faktoren vor der ersten Bereitstellung Pilot- oder Produktionsserverfarm sicherzustellen.
+In diesem Artikel erhalten Sie eine Übersicht über die Anforderungen, die bei einer Microsoft Teams-Bereitstellung von hoher Qualität erfüllt sein müssen. Sie können zu einer erfolgreichen Bereitstellung beitragen, indem Sie in der Konzeptionierungsphase (vor der ersten Pilot- oder Produktionsbereitstellung) die Dienstverwaltung und -qualität planen.
 
 ## <a name="service-management-for-teams"></a>Dienstverwaltung für Microsoft Teams
 
-Service-Management ist ein weites, der täglichen Vorgänge des Diensts Microsoft-Teams abdeckt, nachdem es bereitgestellt und für Benutzer aktiviert wurde. Der Teams Service umfasst Microsoft Office 365 und die Infrastrukturkomponenten, die lokal bereitgestellt haben (beispielsweise Netzwerk).
+Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des Microsoft Teams-Diensts nach der Bereitstellung und der Aktivierung für die Benutzer abdeckt. Der Teams-Dienst umfasst Microsoft Office 365 und die lokal bereitgestellten Infrastrukturkomponenten (zum Beispiel das Netzwerk).
 
-Das Konzept der Service-Management ist wahrscheinlich nicht für die meisten Organisationen ein neues Konzept. Sie haben möglicherweise bereits implementiert, Prozesse und Aufgaben, bei die vorhandene Dienste zugeordnet sind. Dies bedeutet, dass Sie wahrscheinlich was Servicelevel beim Service-Management heute zur Unterstützung von Microsoft-Teams, in der Zukunft planen erweitern können.
+Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Vermutlich haben Sie bereits Prozesse und Tasks implementiert, die mit vorhandenen Diensten verknüpft sind. Wahrscheinlich können Sie auf Vorhandenem aufbauen, wenn Sie jetzt die Dienstverwaltung für die zukünftige Unterstützung von Microsoft Teams planen.
 
-Service-Management umfasst alle Aktivitäten und Prozessen beteiligt sind Microsoft-Teams, Ende zum Verwalten. Einige Komponenten von Service-Management – die Infrastrukturkomponenten, die Office 365-Dienst selbst umfasst – Microsofts Verantwortung sind, während der Kunde verantwortlich für die Benutzer zum Verwalten der verschiedenen Aspekte der Teams, das Netzwerk ist und Endpunkte, die sie bereitstellen.
-Eine vollständige Erläuterung der die Kunden Verantwortung für Teams Service-Management und wie es auf die wichtigsten Komponenten bezieht, die die Qualität des Benutzererlebnisses unterstützt, finden Sie unter [Planen für dienstverwaltung und Qualität](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
+Die Dienstverwaltung umfasst alle Aktivitäten und Prozesse, die bei der End-to-End-Verwaltung von Microsoft Teams anfallen. Einige Komponenten der Dienstverwaltung (die Infrastrukturkomponenten, aus denen der Office 365-Dienst selbst besteht) fallen unter die Zuständigkeit von Microsoft, während der Kunde seinen Benutzern gegenüber für die Verwaltung der verschiedenen Aspekte von Microsoft Teams, dem Netzwerk und den bereitgestellten Endpunkten verantwortlich ist.
+Eine umfassende Erläuterung der Zuständigkeit des Kunden für die Verwaltung des Microsoft Teams-Diensts im Hinblick auf die für die Benutzerfreundlichkeit maßgeblichen wichtigen Komponenten finden Sie unter [Planen der Dienstverwaltung und -qualität](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
 ![Dieses Diagramm zeigt die drei Komponenten der Qualität – Office 365-Dienst, Netzwerk und Endpunkte – sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung.](media/plan-my-service-management-image1.png "Dieses Diagramm zeigt die drei Komponenten der Qualität – Office 365-Dienst, Netzwerk und Endpunkte – sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung.")
 
@@ -41,17 +41,17 @@ Eine vollständige Erläuterung der die Kunden Verantwortung für Teams Service-
 
 **Was?**, **Wer?** und **Wie?** sind drei wichtige Fragen, die im Hinblick auf die Dienstverwaltung beantwortet werden müssen.
 
-Im [Betriebshandbuch](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) können Sie alle drei dieser Fragen zu beheben. Das Handbuch enthält eine Liste der Aktivitäten aus, die für einzelne täglich, wöchentlich, monatlich und bei Bedarf ausgeführt werden. Diese Aktivitäten und Aufgaben sind äußerst wichtig für die Verwaltung von Bereitstellungsproblemen Teams hoher Qualität. Bestimmen, die zum Ausführen bestimmter Aktivitäten in Service-Management zuständig sind, ist ein wichtiger Aspekt der Planung, die Sie einem frühen Zeitpunkt in der Phase Ermitteln übergeordneter Faktoren, um sicherzustellen, dass eine erfolgreiche Bereitstellung ausführen müssen. Nachdem Sie die Aufgaben und Aktivitäten berechnet haben, müssen sie verstehen und dahinter die Gruppen oder Personen, die Sie ihnen zuweisen. Im Betriebshandbuch bietet Kenntnisse und Richtlinien zum Durchführen der Aufgaben und/oder zu externen Inhalten verweist.
+Bei der Beantwortung dieser drei Fragen können Sie das [Betriebshandbuch](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) zu Hilfe nehmen. Das Handbuch enthält Listen mit Aktivitäten, die täglich, wöchentlich, monatlich bzw. nach Bedarf ausgeführt werden müssen. Diese Aktivitäten und Aufgaben sind unerlässlich für eine dauerhaft qualitativ hochwertige Teams-Bereitstellung. Ein wichtiger Aspekt der Planung besteht darin, die Personen zu ermitteln, die für die Ausführung bestimmter Aktivitäten der Dienstverwaltung zuständig sind. Dies muss zu einem frühen Zeitpunkt in der Konzeptionierungsphase geschehen, damit eine erfolgreiche Bereitstellung sichergestellt ist. Wenn Sie die Aufgaben und Aktivitäten ermittelt haben, müssen die Gruppen oder Einzelpersonen, die Sie den Aufgaben und Aktivitäten zuweisen, diese verstehen und befolgen. Das Betriebshandbuch enthält Informationen und Anleitungen zur Ausführung der einzelnen Aufgaben und/oder Verweise auf externe Inhalte.
 
 ## <a name="plan-for-operational-role-mapping"></a>Planen der Zuordnung der operativen Rollen
 
-Planen der Verwaltung von Service von einem frühen Zeitpunkt ist wichtigen Meilenstein, da der Betriebsphase beginnt, wenn die erste Pilotbenutzer aktiviert sind. Des Projektteams überprüfen, und bestätigen Sie auf der Aufgaben und Aktivitäten, die erforderlich sind, identifizieren das Team, das für jeden Vorgang betriebliche zuständig ist und klicken Sie dann erhalten Sie eine Zusage und Abnahme pro jeweiligen Team.
+Die frühzeitige Planung der Dienstverwaltung ist ein wichtiger Meilenstein, da die Betriebsphase mit der Aktivierung der ersten Pilotbenutzer beginnt. Das Projektteam muss die erforderlichen Aufgaben und Aktivitäten überprüfen und ihnen zustimmen, die für die einzelnen operativen Aufgaben zuständigen Teams identifizieren und dann die Zusage und Genehmigung der jeweiligen Teams einholen.
 
-Nach Abnahme abgeschlossen ist, müssen Sie das zuständige Team starten operationalizing diese Rollen und Verantwortlichkeiten von. Dies kann enthalten, Schulung und Bereitschaft und Aktualisieren des Modells Personalplanung oder sicherstellen, dass externe Partner übermitteln können.
+Nach Abschluss der Genehmigung muss das zuständige Team mit der Operationalisierung dieser Rollen und Zuständigkeiten beginnen. Dazu können Schulungen und Vorbereitungsmaßnahmen, Aktualisierungen des Modells für die personelle Besetzung oder Sicherstellen der Bereitschaft externer Partner gehören.
 
 Wenn Sie die operativen Rollen frühzeitig in der Konzeptionierungsphase zuordnen, können alle Teams ihre operativen Aufgaben in der Pilotphase beginnen, den Betrieb anlaufen lassen und sicherstellen, dass nach Beginn der Bereitstellung alles bereit ist.
 
-Im Betriebshandbuch enthält eine Liste der allgemeinen Aufgaben, typische Rollen, die in den meisten Szenarien gültig sein sollte zugeordnet sind. Sie müssen diese Aufgaben funktioniert für Ihre Organisation anpassen.
+Das Betriebshandbuch enthält eine Liste mit allgemeinen Aufgaben, die typischen für die meisten Szenarien geeigneten Rollen zugeordnet sind. Sie müssen diese Zuständigkeiten an die Gegebenheiten in Ihrer Organisation anpassen.
 
 >[!TIP]
 >In der folgenden Beispielvorlage wird das Ergebnis der Zuordnung der operativen Rollen dokumentiert, die Sie für dieses Projekt vorgenommen haben:
@@ -76,13 +76,13 @@ Sie können die detailliertere Zuordnung der operativen Rollen (einschließlich 
 
 ## <a name="the-quality-champion-role"></a>Die Rolle des Qualitätspioniers
 
-Eine Gruppe oder einzelne Anforderungen für die Qualität in allen Organisationen verantwortlich sein.
-Dies ist die wichtigste Funktion im Service-Management. Die Qualität Champion ist eine Kundenrolle, die an eine Person oder Gruppe, die über ihre Benutzer wünschen engagierten ist zugewiesen ist. Diese Rolle erfordert die Fähigkeiten Trends in der Umgebung und der Unterstützung durch die anderen Teams Remediation Laufwerk entwickelt erkennen.
-Der beste Kandidaten für die Qualität Champion ist in der Regel der Customer Service Besitzer, die – je nach Größe und Komplexität der Organisation – eine beliebige Person oder Gruppe, die zur Benutzerinteraktion engagierten ist werden konnte.
+Eine Gruppe oder Einzelperson muss für die Qualität in allen Organisationen verantwortlich sein.
+Dies ist die wichtigste Rolle bei der Dienstverwaltung. Beim Qualitätspionier handelt es sich um eine Kundenrolle, die einer Person oder Gruppe zugewiesen wird, die sich stark für die Benutzerfreundlichkeit engagiert. Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann.
+Der beste Kandidat als Qualitätspionier ist normalerweise der Besitzer des Kundendiensts. Dies kann – je nach Größe und Komplexität der Organisation – eine beliebige Person oder Gruppe sein, die sich stark für die Benutzerfreundlichkeit engagiert.
 
-Die Qualität Champion nutzt vorhandenen Tools und dokumentierte Prozessen, wie etwa aufrufen Quality Dashboard (CQD) und eine Anleitung Qualität erleben Sie die Überprüfung zum Überwachen der Benutzer wünschen, identifizieren Qualität Trends und-Wartung Laufwerk bei Bedarf. Die Qualität Champion funktioniert mit den jeweiligen Teams auf Laufwerk Remediation Aktionen, einem Lenkungsausschuss-Berichte auf ihren Status und offener Probleme.
+Der Qualitätspionier nutzt vorhandene Tools und dokumentierte Prozesse, beispielsweise das Anrufqualitäts-Dashboard (AQD) und das Handbuch für die Überprüfung der Erlebnisqualität, um die Benutzerfreundlichkeit zu überwachen, Qualitätstrends zu erkennen und gegebenenfalls Verbesserungen zu fördern. Der Qualitätspionier arbeitet mit den jeweiligen Teams zusammen, um Verbesserungsmaßnahmen voranzutreiben, und unterrichtet einen Lenkungsausschuss über den Fortschritt und die offenen Probleme.
 
-Im Betriebshandbuch werden die Aufgaben und Aktivitäten im Zusammenhang mit der Rolle dokumentiert. Einem frühen Zeitpunkt in der Phase Ermitteln übergeordneter Faktoren sollten diese Rolle zugewiesen werden. Ein wichtiger Schritt in der Rolle der Qualität Champion operationalizing wird die Rolle und sicherstellen, dass die erforderlichen Kenntnisse, dass die erforderlichen Komponenten direkte Zustellung über die Aufgaben sind erlangen. Eine wichtige Aufgabe für diese Rolle ist eine regelmäßige Überprüfung der Qualität Erfahrung ausgeführt.
+Die mit der Rolle verknüpften Aufgaben und Aktivitäten sind im Betriebshandbuch dokumentiert. Diese Rolle sollte zu einem frühen Zeitpunkt in der Konzeptionierungsphase zugewiesen werden. Ein wichtiger Schritt bei der Operationalisierung der Rolle des Qualitätspioniers besteht darin, das für die Rolle erforderliche Wissen zu erwerben und sicherzustellen, dass die zur Ausführung der Aufgaben erforderlichen Komponenten vorhanden sind. Eine wichtige Aufgabe dieser Rolle besteht darin, eine regelmäßige Überprüfung der Erlebnisqualität auszuführen.
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ Das Handbuch für die Überprüfung der Erlebnisqualität enthält Aktivitäten 
 
 ![Bei einer Überprüfung der Erlebnisqualität werden die folgenden wichtigen Bereiche betrachtet: Audio, Zuverlässigkeit und Ergebnisse von Benutzerumfragen.](media/plan-my-service-management-image2.png "Bei einer Überprüfung der Erlebnisqualität werden die folgenden wichtigen Bereiche betrachtet: Audio, Zuverlässigkeit und Ergebnisse von Benutzerumfragen.")
 
-Ständig bewerten und Korrigieren von den in diesem Dokument beschriebenen Gebieten, können Sie ihre potenzielle Möglichkeit beeinträchtigen Benutzererlebnis reduziert. Die meisten Benutzer-Erlebnis Probleme in einer Bereitstellung können in die folgenden Kategorien unterteilt werden:
+Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebenen Bereiche können Sie die Wahrscheinlichkeit verringern, dass sie sich nachteilig auf die Benutzerfreundlichkeit auswirken. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 
 -   Unvollständige Firewall- oder Proxykonfiguration
 
@@ -106,15 +106,15 @@ Ständig bewerten und Korrigieren von den in diesem Dokument beschriebenen Gebie
 
 -   Problematische Subnetze oder Netzwerkgeräte
 
-Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt Verwendung Online aufrufen Quality Dashboard (CQD) als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche beschrieben, mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die maximieren. Versucht, das Netzwerk zur Verbesserung der Audioqualität Optimierungen übersetzt auch direkt in Verbesserungen bei video sowie die Desktopfreigabe.
+Die Anleitungen im Handbuch für die Überprüfung der Erlebnisqualität konzentrieren sich auf die Verwendung des online verfügbaren Anrufqualitäts-Dashboards (AQD) als primäres Tool zum Melden und Untersuchen der einzelnen beschriebenen Bereiche. Der Schwerpunkt liegt dabei auf Audio, um die Einführung und die Auswirkungen zu maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
-Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollten sie beginnen mit dem Inhalt im [Handbuch für die Qualität Experience-Überprüfung](https://aka.ms/qerguide)vertraut machen.
+Wir empfehlen dringend, den Qualitätspionier frühzeitig zu ernennen. Der ernannte Qualitätspionier sollte sich dann mit dem Inhalt des [Handbuchs für die Überprüfung der Erlebnisqualität](https://aka.ms/qerguide) vertraut machen.
 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wer für den Cloud-VoIP-Betrieb in Ihrer Organisation verantwortlich ist.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Laden Sie das vollständige Handbuch zum Planen der Dienstverwaltung herunter.</li><li>Laden Sie das Handbuch für die Überprüfung der Erlebnisqualität herunter.</li><li>Lesen Sie das gesamte Betriebshandbuch.</li><li>Stellen Sie allen Mitgliedern der Betriebsteams sämtliche Handbücher zur Verfügung, damit sie diese lesen und sich mit den operativen Anforderungen vertraut machen können.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wer für den Cloud-VoIP-Betrieb in Ihrer Organisation verantwortlich ist.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Laden Sie das vollständige Handbuch zum Planen der Dienstverwaltung herunter.</li><li>Laden Sie das Handbuch für die Überprüfung der Erlebnisqualität herunter.</li><li>Lesen Sie das gesamte Betriebshandbuch.</li><li>Stellen Sie allen Mitgliedern der Betriebsteams sämtliche Handbücher zur Verfügung, damit sie diese lesen und sich mit den operativen Anforderungen vertraut machen können.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

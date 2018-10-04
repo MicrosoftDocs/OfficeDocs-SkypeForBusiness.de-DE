@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Bearbeiten Sie die allgemeinen Einstellungen für den beständigen Chat-Server oder Persistent Chat Server Pool, indem konfigurieren diese Eigenschaften definieren:'
-ms.openlocfilehash: 7e9f71cc1c26c30d60674e229627fd75964648ec
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 912cacaa050962b85d8e3f70bec78f01306909d6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505048"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374959"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Allgemeine Einstellungen für den beständigen Chat - Erweiterung
  
@@ -105,11 +105,11 @@ Bearbeiten Sie die Einstellungen unter **Zuordnungen** für den beständigen Cha
     
 - **Datei speichern** Wählen Sie aus der Liste einen Dateispeicherort aus, oder klicken Sie auf **neu** , um einen neuen Dateispeicher zu erstellen.
     
- **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
+  **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   
- **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
+  **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
   
- **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
+  **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
   
 ## <a name="see-also"></a>Siehe auch
 

@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 6b67688c352ca58f863db051f5883973d221261a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347545"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371990"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Übertragen von Telefonnummern zu Office 365
 
@@ -61,25 +61,25 @@ Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Infor
     
 5. Geben Sie auf der Seite **Kontoinformationen** die folgenden Informationen ein und klicken Sie anschließend auf **Weiter**:
     
-  - **Kontonummer** Kontonummer für den Dienstanbieter oder Netzbetreiber.
+   - **Kontonummer** Kontonummer für den Dienstanbieter oder Netzbetreiber.
     
-  - Die **Abrechnungstelefonnummer** muss im E.164-Format vorliegen (mit +-Zeichen vor der Nummer). Verwenden Sie beispielsweise für eine Telefonnummer aus Nordamerika das Format +1XXXYYYZZZZ.
+   - Die **Abrechnungstelefonnummer** muss im E.164-Format vorliegen (mit +-Zeichen vor der Nummer). Verwenden Sie beispielsweise für eine Telefonnummer aus Nordamerika das Format +1XXXYYYZZZZ.
     
-  - **PIN zum Zulassen blockierter Nummern** PIN - falls vom aktuellen Dienstanbieter oder Netzbetreiber gefordert.
+   - **PIN zum Zulassen blockierter Nummern** PIN - falls vom aktuellen Dienstanbieter oder Netzbetreiber gefordert.
     
-  - **Firmenname** Dies ist der Name Ihres Unternehmens oder Ihrer Organisation.
+   - **Firmenname** Dies ist der Name Ihres Unternehmens oder Ihrer Organisation.
     
-    > [!NOTE]
-    > Im Feld **Firmenname** sind höchstens 25 Zeichen inklusive Leerzeichen zugelassen. Wenn der Firmenname länger als 25 Zeichen ist, werden die ersten 25 Zeichen des Namens eingereicht und der Portierungsantrag wird ausgeführt.
+     > [!NOTE]
+     > Im Feld **Firmenname** sind höchstens 25 Zeichen inklusive Leerzeichen zugelassen. Wenn der Firmenname länger als 25 Zeichen ist, werden die ersten 25 Zeichen des Namens eingereicht und der Portierungsantrag wird ausgeführt.
   
-  - **Berechtigte Person** Name der berechtigten Person.
+   - **Berechtigte Person** Name der berechtigten Person.
     
-    > [!NOTE]
-    > Im Feld **Berechtigte Person** sind höchstens 15 Zeichen inklusive Leerzeichen zugelassen. Wenn der Name der berechtigten Person länger als 15 Zeichen ist, werden die ersten 15 Zeichen des Namens eingereicht und der Portierungsantrag wird ausgeführt.
+     > [!NOTE]
+     > Im Feld **Berechtigte Person** sind höchstens 15 Zeichen inklusive Leerzeichen zugelassen. Wenn der Name der berechtigten Person länger als 15 Zeichen ist, werden die ersten 15 Zeichen des Namens eingereicht und der Portierungsantrag wird ausgeführt.
   
-  - **Serviceadresse** Serviceadresse für das Konto. Diese Adresse wird auf der Rechnung Ihres Dienstanbieters oder Netzbetreibers aufgeführt.
+   - **Serviceadresse** Serviceadresse für das Konto. Diese Adresse wird auf der Rechnung Ihres Dienstanbieters oder Netzbetreibers aufgeführt.
     
-  - **Ort**, **Bundesland**, **PLZ** der Serviceadresse.
+   - **Ort**, **Bundesland**, **PLZ** der Serviceadresse.
     
 6. Geben Sie auf der Seite **Telefonnummern** die Telefonnummern, die Sie übertragen möchten, im E.164-Format ein. Verwenden Sie beispielsweise für eine Telefonnummer aus Nordamerika das Format +1XXXYYYZZZZ. Verwenden Sie ein Komma, um mehrere Telefonnummern zu trennen.
     

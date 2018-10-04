@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie in Microsoft Operations Management Suite mit Weise integrierte, End-to-End-Verwaltung von Skype Raum Systemen v2 Geräte bereitstellen.
-ms.openlocfilehash: 4e52c416f9f35aaee1ccb3b5e8c75c29246a1c5d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5ef935f30bfdb5036c87fe24d9456af1b52925e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891248"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371380"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Bereitstellen der Verwaltung von Skype Room System V2 mit OMS
 
@@ -110,27 +110,27 @@ Sie können benutzerdefinierte Felder verwenden, um bestimmte Daten aus den Erei
 
 Gehen Sie folgendermaßen vor, um die benutzerdefinierten Felder aus den aufgezeichneten Ereignisprotokollen zu extrahieren:
 
-1.  Melden Sie sich am [Microsoft Operations Management Suite-Portal](https://aka.ms/omsportal).
+1. Melden Sie sich am [Microsoft Operations Management Suite-Portal](https://aka.ms/omsportal).
 
-2.  Die von einem Skype Raum Systemen v2 Gerät generierten Ereignisse aufgelistet:
-    1.  Wechseln Sie auf **Protokoll suchen** und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld.
-    2.  Beispielabfrage:`Event | where Source == "SRS-App"`
+2. Die von einem Skype Raum Systemen v2 Gerät generierten Ereignisse aufgelistet:
+   1.  Wechseln Sie auf **Protokoll suchen** und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld.
+   2.  Beispielabfrage:`Event | where Source == "SRS-App"`
 
-3.  Wählen Sie einen der Einträge aus, wählen Sie die Schaltfläche auf der linken Seite, und starten Sie im Feld Extraction-Assistent.
+3. Wählen Sie einen der Einträge aus, wählen Sie die Schaltfläche auf der linken Seite, und starten Sie im Feld Extraction-Assistent.
 
    ![Feld Extraction-Assistent] (../../media/Deploy_OMS_3.png "Feld Extraction-Assistent")
 
-4.  Markieren Sie die Daten aus der RenderedDescription extrahieren, und geben Sie einen Titel Feld möchten. In Tabelle 1 werden die Namen der Felder, die Sie verwenden sollten, bereitgestellt.
+4. Markieren Sie die Daten aus der RenderedDescription extrahieren, und geben Sie einen Titel Feld möchten. In Tabelle 1 werden die Namen der Felder, die Sie verwenden sollten, bereitgestellt.
 
    ![Definition für ein benutzerdefiniertes Feld] (../../media/Deploy_OMS_4.png "Definition für ein benutzerdefiniertes Feld")
 
-5.  Verwenden Sie die Zuordnungen in *Tabelle 1*dargestellt. Vorgänge Management Suite wird automatisch hinzufügen der ** \_CF** Zeichenfolge, die das neue Feld zu definieren.
+5. Verwenden Sie die Zuordnungen in *Tabelle 1*dargestellt. Vorgänge Management Suite wird automatisch hinzufügen der ** \_CF** Zeichenfolge, die das neue Feld zu definieren.
 
 > [!IMPORTANT]
 > Denken Sie daran, dass alle JSON und Vorgänge Management Suite Felder Groß-/Kleinschreibung beachtet werden.
-
+> 
 > Achten Sie auf den Status des Kontrollkästchens EventID, in der folgenden Tabelle können. Stellen Sie sicher, dass Sie den Status dieses Kontrollkästchens für Vorgänge Management Suite zum Extrahieren von benutzerdefinierten Feldwerte erfolgreich zu bestätigen.
->
+> 
 > ![Definition für ein benutzerdefiniertes Feld] (../../media/Deploy_OMS_5.png "Definition für ein benutzerdefiniertes Feld")
 
 **Tabelle 1**
@@ -462,48 +462,50 @@ Wenn Sie vor der Implementierung von Operations Management Suite bereits Skype R
 7.  Skype Raum Systemen v2 Geräte sollten installieren und konfigurieren den Microsoft-Monitoring-Agent mit der zweiten Neustart.
 
 
-    ```
-    # Install-OMSAgent.ps1
-    <#
-    Date:        04/20/2018
-    Script:      Install-OMSAgent.ps1
-    Version:     1.0
-    #>
+~~~
+```
+# Install-OMSAgent.ps1
+<#
+Date:        04/20/2018
+Script:      Install-OMSAgent.ps1
+Version:     1.0
+#>
 
-    # Set the parameters
-    $WorkspaceId = "<your workspace id>"
-    $WorkspaceKey = "<your workspace key>"
-    $SetupPath = "\\Server\Share"
+# Set the parameters
+$WorkspaceId = "<your workspace id>"
+$WorkspaceKey = "<your workspace key>"
+$SetupPath = "\\Server\Share"
 
-    $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
+$SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
 
-    # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
+# $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
 
-    # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log
+# Start PowerShell logging
+Start-Transcript -Path C:\OMSAgentInstall.Log
 
-    # Check if the Microsoft Monitoring Agent is installed
-    $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
+# Check if the Microsoft Monitoring Agent is installed
+$mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
 
-    # Check if the Microsoft Monitoring agent is installed
-    if (!$mma)
-    {
-        #Install agent
-        Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
-    }
+# Check if the Microsoft Monitoring agent is installed
+if (!$mma)
+{
+    #Install agent
+    Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
+}
 
-    # Check if the agent has a valid configuration
-    $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
-    if (!$CheckOMS)
-    {
-        # Apply new configuration
-        $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
-        $mma.ReloadConfiguration()
-    }
+# Check if the agent has a valid configuration
+$CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
+if (!$CheckOMS)
+{
+    # Apply new configuration
+    $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
+    $mma.ReloadConfiguration()
+}
 
-    Stop-Transcript
+Stop-Transcript
 
-    ```
+```
+~~~
 
 > [!NOTE]
 > Sie können Sie den Artikel, [Verwaltung und Wartung des Protokolldateien Analytics-Agents](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) verweisen, wenn Sie einen Agent konfigurieren, mit einem anderen Arbeitsbereich zu verschieben oder Ändern von Proxyeinstellungen nach der Erstinstallation müssen.

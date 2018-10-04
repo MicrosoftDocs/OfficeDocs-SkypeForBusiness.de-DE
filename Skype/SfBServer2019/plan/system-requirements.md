@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: Vorbereiten Sie Ihrer Skype Business Server 2019 Servern Infrastruktur und die Domäne mit den in diesem Thema. Hardware, OS, Datenbanken, Software, alle die Systemanforderungen und Empfehlungen, zusammen mit Zertifikat DNS, Dateifreigabe und Active Directory-Informationen sind hier zur Sicherstellung einer erfolgreichen Installation und Bereitstellung Ihrer Serverfarm.'
-ms.openlocfilehash: eb6e0b4207d266e8b3a12ab62332fd99c717c1ec
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: a5422f52e9158d01f821c0a2abd051917fbed7b1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030644"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375127"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2019"></a>Serveranforderungen für Skype für Business Server 2019
 
@@ -79,9 +79,9 @@ Empfohlene Hardware für Edgeserver, eigenständige Vermittlungsserver und Direc
 
 > [!NOTE]
 > Unabhängig von der Serverrolle, empfehlen wir auch die folgenden hardwareeinstellungen für Skype für Business Server 2019 (Dies kann variieren je nach dem Hersteller der Hardware, die Sie gekauft haben, dass Näheres Dokumentation des Herstellers Einzelheiten):
-- BIOS-Config - festgelegt werden sollte flach aus NUMA.
-- Aktivieren Sie Hyperthreading.
-- Die Einstellung der RSS-Warteschlange sollte auf 8 Warteschlange festgelegt werden.
+> - BIOS-Config - festgelegt werden sollte flach aus NUMA.
+> - Aktivieren Sie Hyperthreading.
+> - Die Einstellung der RSS-Warteschlange sollte auf 8 Warteschlange festgelegt werden.
 
    
 ## <a name="operating-systems-for-skype-for-business-server-2019"></a>Betriebssysteme für Skype für Business Server 2019

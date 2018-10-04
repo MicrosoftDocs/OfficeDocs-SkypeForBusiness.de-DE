@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Zusammenfassung: Informationen Sie zum Suchen und Lesen von Erfassungsprotokollen in Skype Centralized Logging Service für Business Server 2015.'
-ms.openlocfilehash: 4016aeaac5b693ceef620dad66031254f208bfbf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969018"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372219"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Suche nach vom zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellten Erfassungsprotokollen
  
@@ -56,9 +56,9 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
     
 2. Stellen Sie sicher, dass das Szenario „AlwaysOn“ in Ihrer Bereitstellung auf globaler Ebene ausgeführt wird, und geben Sie dann Folgendes an der Eingabeaufforderung ein:
     
-  ```
-  Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 > [!NOTE]
 > Standardmäßig werden von „Search-CsClsLogging“ die Ergebnisse der Suche an die Konsole gesendet. Wenn Sie die Suchergebnisse in eine Datei speichern möchten, verwenden Sie - OutputFilePath _ \<Zeichenfolge vollständig qualifizierte Pfad\>_. Um den OutputFilePath - Parameter zu definieren, geben Sie einen Pfad und einen Dateinamen als Teil des Parameters in ein Zeichenfolgenformat in Anführungszeichen eingeschlossen (z. b; C:\LogFiles\SearchOutput.txt). In diesen Beispiel müssen Sie sicherstellen, dass das Verzeichnis „C:\LogFiles“ vorhanden ist und Sie über Lese- und Schreibberechtigungen (NTFS-Berechtigungen) für Dateien in diesem Ordner verfügen. An die Ausgabe werden immer Daten angefügt, sie wird nicht überschrieben. Wenn Sie separate Dateien benötigen, geben Sie unterschiedliche Dateinamen für die einzelnen Suchvorgänge an. 
@@ -73,9 +73,9 @@ Beispiel:
 
 1. Um die Suche auf einen bestimmten Pool oder Computer beschränken möchten, verwenden Sie den Parameter Computer mit dem Computer durch einen vollqualifizierten Computernamen definiert, in Anführungszeichen eingeschlossen und durch ein Komma getrennt:
     
-  ```
-  Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 Beispiel:
     
@@ -85,25 +85,25 @@ Beispiel:
 
 2. Geben Sie zum Suchen auf mehreren Computern mehrere Computernamen in Anführungszeichen und durch Komma getrennt ein:
     
-  ```
-  Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
+   ```
 
 3. Wenn Sie suchen ein gesamtes Pools anstelle von einem einzelnen Computer müssen, ändern Sie den Computer Parameter - zu - Pools und entfernen Sie den Namen des Computers zu ersetzen mit den Pool oder Pools in Anführungszeichen durch Kommas getrennt.
     
     Beispiel:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. Wenn Sie die Search-Befehle verwenden, kann Pools jedes Pools in Ihrer Bereitstellung, wie Front-End-Pools, Edge-Pools, Persistent Chat Server-Pools oder andere Personen, die als Pool in Ihrer Bereitstellung definiert sind.
     
     Beispiel:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>So führen Sie eine Suche mithilfe von Zeitparametern aus
 
@@ -113,9 +113,9 @@ Beispiel:
     
     Definieren Sie einen Bereich für Datum und Uhrzeit mit - Werte von StartTime und EndTime-, können Sie beispielsweise eine Suche zwischen 8 und 9 Uhr 11/20/2012 auf dem Pool definieren. Sie können den Ausgabepfad angeben, sodass die Ergebnisse folgendermaßen in eine Datei namens „c:\logfile.txt“ geschrieben werden:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 > [!NOTE]
 > Die angegebene Uhrzeit- und Datumszeichenfolge kann „Datum Uhrzeit“ oder „Uhrzeit Datum“ lauten. "Der Befehl wird die Zeichenfolge zu analysieren und verwenden Sie die entsprechenden Werte für Datum und Uhrzeit sowie die Gebietsschema und der Kultur Einstellungen auf dem Computer, den, dem Sie aus-Cmdlet ausgeführt werden. 
@@ -142,9 +142,9 @@ Beispiel:
     
 2. Geben Sie zum Ausführen eines Befehls zum Erfassen von Ablaufverfolgungen für bestimmte Komponenten Folgendes ein:
     
-  ```
-  Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
-  ```
+   ```
+   Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
+   ```
 
 Beispiel:
     
@@ -156,21 +156,21 @@ Die Suche gibt alle Protokolleinträge zurück, die Ablaufverfolgungskomponenten
     
 3. Um die Suche mit denselben Komponenten auf nur den Front-End-Pool mit dem Namen pool01.contoso.net einzuschränken, geben Sie Folgendes ein:
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. Die Standardsuchlogik für Befehle mit mehreren Parametern besteht darin, das logische „Oder“ mit den einzelnen definierten Parametern zu verwenden. Sie können dieses Verhalten ändern, indem Sie den **MatchAll -** Parameter angeben. Geben Sie dazu Folgendes ein:
     
-  ```
-  Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 5. Wenn Ihre Szenarien für eine ständige Ausführung festgelegt sind (wie AlwaysOn) oder wenn Sie ein langfristiges Szenario festgelegt haben, werden Protokolle möglicherweise vom lokalen Computer auf die Dateifreigabe verschoben. Sie legen die Dateifreigabe  mithilfe des Parameters „CacheFileNetworkFolder“ fest, um mithilfe von „New-CsClsConfiguration“ eine neue Konfiguration zu erstellen oder mithilfe von „Set-CsClsConfiguration“ eine vorhandene Konfiguration zu ändern. Wenn die Dateifreigabe in der Auflistung der zu durchsuchenden Protokolle nicht durchsucht werden soll, verwenden Sie den Parameter „SkipNetworkLogs“ folgendermaßen:
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Lesen von Erfassungsprotokollen aus dem zentralisierten Protokollierungsdienst
 

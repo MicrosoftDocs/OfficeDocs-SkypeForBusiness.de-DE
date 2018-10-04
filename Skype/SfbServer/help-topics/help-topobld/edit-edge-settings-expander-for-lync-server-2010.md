@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Bearbeiten Sie die Einstellungen für den Edge-Server oder Edge-Pool, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: e09f20840627af19f1f9f2fa33dc5ab5f6b342f3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a3dd5fa1521bf23252bef85c3c26842258413f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975928"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371581"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Bearbeiten der Edgeeinstellungen für Lync Server 2010
  
@@ -34,14 +34,14 @@ Bearbeiten Sie die Einstellungen für den Edge-Server oder Edge-Pool, indem Sie 
   
 - Die **Interne Konfiguration Replikation Port (HTTPS)**, die standardmäßig auf TCP-Port 4443, ist der Port, der lokalen Kopie (d. h., lokal auf den Edge-Servern) Kopie des zentralen Verwaltungsspeichers über repliziert wird. Die lokale Kopie des zentralen Verwaltungsspeichers ist in die **RTCLOCAL** -Datenbank in SQL Server auf jedem Computer. Die Replikation ist unidirektional, initiiert aus den zentralen Verwaltungsserver (oder die Front-End-Server oder Front-End-Pool, der die Rolle des zentralen Verwaltungsservers beinhaltet) mit den Edgeservern und ein Port für die interne Schnittstelle ist.
     
- **Auswahl für nächsten hop**
+  **Auswahl für nächsten hop**
   
 - Wählen Sie den **nächsten hoppool**, für die Liste aus. Sie definieren Sie entweder einen Director, Director-Pool Front-End-Server oder Front-End-Pool dieser Rolle übernehmen. Der nächste hoppool ist der Server oder Serverpool, die eingehende SIP-Nachrichten vom Edge-Server akzeptieren oder interne Schnittstelle des Edgeservers Pool und Senden ausgehender SIP an die interne Schnittstelle des Edgeservers.
     
     > [!NOTE]
     > Der Director ist eine optionale Rolle, und wenn Sie sich, keine Director-Server bereitstellen entscheiden, wird die Front-End-Server (einzelner Computer oder Pool) die Director-Rolle voraus. 
   
- **Einstellungen für externe**
+  **Einstellungen für externe**
   
 In diesem Abschnitt der Eigenschaften können Sie Eigenschaften für die externen Einstellungen des Edge-Server oder Edge-Pools zu bearbeiten. Die folgenden Eigenschaften stehen zur Bearbeitung zur Verfügung:
   
@@ -61,10 +61,10 @@ In diesem Abschnitt der Eigenschaften können Sie Eigenschaften für die externe
     > [!IMPORTANT]
     > Wenn Sie ausgewählt haben, haben die **Enable separaten FQDN und IP-Adressen für Webkonferenzen und A / V** das Kontrollkästchen nur der Zugriffs-edgedienst Pool-FQDN wird zur Bearbeitung verfügbar sein. Weisen Sie unterschiedliche Ports für jede der drei edgedienste.
   
- **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
+  **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   
- **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
+  **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
   
- **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
+  **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
   
 

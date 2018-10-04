@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Dieser Artikel beschreibt die Vorteile, Planungsaspekte, und Anforderungen für die Implementierung von Microsoft Cloud Voicemail-Dienst. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Konfigurieren von Cloud Voicemail.
-ms.openlocfilehash: e307ddcb5159e51ebe26e6a5bee10f9b2ee716e9
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 8f7c2e394aa7d3f5a04961088202d1d9055eef9e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030623"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370634"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planen der Voicemail Cloud-Dienst
 
@@ -81,7 +81,7 @@ Neben den oben genannten Anforderungen die unter Anforderungen müssen zum Verbi
 
 -  Wenn Sie eine lokale nur Bereitstellung –, die, nur Exchange und Skype für Unternehmen der lokale Server, aber Sie Voicemail Cloud nutzen möchten, benötigen Sie die ON PREM-Lizenz. 
 
-##<a name="migration-and-interoperability"></a>Migration und Interoperabilität
+## <a name="migration-and-interoperability"></a>Migration und Interoperabilität
 
 Wenn Sie beabsichtigen, Skype für Business Server 2019 und/oder 2019 der Exchange-Server bereitstellen, müssen Sie die Migration sorgfältig durch, um fortgesetzte Dienst für Voicemessaging sicherzustellen planen. Berücksichtigen Sie dabei Folgendes:
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Zusammenfassung: Informationen Sie zum Verwalten der Konferenz teilnehmen und Ansagen im Skype für Business Server belassen.'
-ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33c20319142608f38451a547687bc1bc9eae47d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008491"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371588"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Verwalten Sie der Konferenz teilnehmen und lassen Sie Ansagen im Skype für Business Server
  
@@ -39,20 +39,20 @@ Sie können diese Einstellungen auf globaler oder Standortebene konfigurieren. E
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-  ```
-  Get-CsDialinConferencingConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingConfiguration
+   ```
 
 Dieses Cmdlet Ruft Informationen dazu, ob Teilnehmer ihren Namen aufzeichnen, wenn die Teilnahme an einer Konferenz erforderlich sind und wie Skype für Business Server reagiert, wenn die Teilnehmer beitreten oder diese verlassen einer Konferenz einwählen.
     
 4. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-  ```
-  Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
-[-EnableNameRecording <$true | $false>]
-[-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
-[-EntryExitAnnouncementsType <UseNames | ToneOnly]
-  ```
+   ```
+   Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
+   [-EnableNameRecording <$true | $false>]
+   [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
+   [-EntryExitAnnouncementsType <UseNames | ToneOnly]
+   ```
 
 Im folgenden Beispiel sind die Einstellungen auf Standortebene für Redmond konfiguriert. Die Ankündigungsfunktion ist aktiviert, Teilnehmer müssen jedoch nicht ihren Namen sagen, wenn sie einer Konferenz beitreten. Wenn Teilnehmer einer Konferenz beitreten oder diese verlassen, wird ein Ton abgespielt.
   

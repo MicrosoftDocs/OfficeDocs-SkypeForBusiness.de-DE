@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server 2015 zu aktualisieren.'
-ms.openlocfilehash: e5a9dd230f16313388cbb9a51e50910979e6c79c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374857"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Aktualisieren von Statistics Manager für Skype for Business Server 2015
  
@@ -49,9 +50,9 @@ Das Skript wird Ihre aktuelle Zertifikatinformationen sammeln und die alte Versi
     
 2. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Listener-Komponente:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Listener
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Listener
+   ```
 
 > [!NOTE]
 > Das Statistiken Manager-Dienstkennwort wird unverschlüsselt in der Befehlszeile wie es an das Installationsprogramm übergeben wird angezeigt. Achten Sie darauf, Ihren Bildschirm bei Bedarf entsprechend abzudecken. 
@@ -62,29 +63,29 @@ Das Skript wird Ihre aktuelle Zertifikatinformationen sammeln und die alte Versi
     
 3. Setzen Sie den Installationsprozess fort. Beachten Sie, dass Eintragungen für das Dienstkennwort und den Zertifikatfingerabdruck bereits im Voraus vorgenommen worden sind. Falls das nicht der Fall ist, tragen Sie die Werte ein, die Sie zuvor gespeichert haben, bevor Sie fortfahren.
     
-3. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Website-Komponente:
+4. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Website-Komponente:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Website
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Website
+   ```
 
-1. Beim Ausführen des Skripts sollten Sie aufgefordert werden, die alte Version des Produkts zu deinstallieren. Bestätigen Sie dies mit „Ja“.
+5. Beim Ausführen des Skripts sollten Sie aufgefordert werden, die alte Version des Produkts zu deinstallieren. Bestätigen Sie dies mit „Ja“.
     
-2. Wenn der Agent-Dienst ausgeführt wird, werden Sie aufgefordert, die Anwendung zu schließen, bevor Sie fortfahren. Warten Sie, bis die Anwendung geschlossen ist (der StatsMan-Agent-Dienst wird beendet).
+6. Wenn der Agent-Dienst ausgeführt wird, werden Sie aufgefordert, die Anwendung zu schließen, bevor Sie fortfahren. Warten Sie, bis die Anwendung geschlossen ist (der StatsMan-Agent-Dienst wird beendet).
     
-3. Setzen Sie den Installationsprozess fort. Beachten Sie, dass Eintragungen für das Dienstkennwort und den Zertifikatfingerabdruck bereits im Voraus vorgenommen worden sind. Falls das nicht der Fall ist, tragen Sie die Werte ein, die Sie zuvor gespeichert haben, bevor Sie fortfahren.
+7. Setzen Sie den Installationsprozess fort. Beachten Sie, dass Eintragungen für das Dienstkennwort und den Zertifikatfingerabdruck bereits im Voraus vorgenommen worden sind. Falls das nicht der Fall ist, tragen Sie die Werte ein, die Sie zuvor gespeichert haben, bevor Sie fortfahren.
     
-4. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Agent-Komponente:
+8. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Agent-Komponente:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Agent
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Agent
+   ```
 
-1. Beim Ausführen des Skripts sollten Sie aufgefordert werden, die alte Version des Produkts zu deinstallieren. Bestätigen Sie dies mit „Ja“.
+9. Beim Ausführen des Skripts sollten Sie aufgefordert werden, die alte Version des Produkts zu deinstallieren. Bestätigen Sie dies mit „Ja“.
     
-2. Setzen Sie den Installationsprozess fort. Beachten Sie, dass eine Eintragung für den Website-Port bereits im Voraus vorgenommen worden ist. Falls das nicht der Fall ist, tragen Sie den Wert ein, den Sie zuvor gespeichert haben, bevor Sie fortfahren.
+10. Setzen Sie den Installationsprozess fort. Beachten Sie, dass eine Eintragung für den Website-Port bereits im Voraus vorgenommen worden ist. Falls das nicht der Fall ist, tragen Sie den Wert ein, den Sie zuvor gespeichert haben, bevor Sie fortfahren.
     
-3. Stellen Sie mithilfe des Browsers sicher, dass die Website wie erwartet funktioniert.
+11. Stellen Sie mithilfe des Browsers sicher, dass die Website wie erwartet funktioniert.
     
 > [!NOTE]
 > Die Agent-Aktualisierung verwendet werden kann mit der Option - NoPrompt. Dies ermöglicht den Prozess Deinstallation/Installation im Hintergrund, führen Sie Tools wie PSExec zu Remote Ausführen des Upgrades für eine große Anzahl von Servern zu ermöglichen. 
@@ -124,9 +125,9 @@ Weitere Informationen finden Sie unter den folgenden Themen:
   
 - [Planen der Business Server 2015 für Statistiken Manager für Skype](plan.md)
     
-- [Bereitstellen von Statistiken Manager für Skype für Business Server 2015](deploy.md)
+- [Bereitstellen von Statistics Manager für Skype for Business Server 2015](deploy.md)
     
-- [Problembehandlung bei Statistiken Manager für Skype für Business Server 2015](troubleshoot.md)
+- [Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server 2015](troubleshoot.md)
     
 - [Skype für Business Server Statistiken Manager-blog](https://blogs.technet.microsoft.com/skypestatsman/)
     

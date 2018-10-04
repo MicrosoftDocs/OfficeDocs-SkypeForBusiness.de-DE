@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d97c95ed3fd4d398a4422645ab1e1491e1df6e3c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018009"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375237"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -67,18 +67,18 @@ Weitere Informationen finden Sie unter [Add-On-Lizenzierung für Skype for Busin
     
 4. Geben Sie Ihre Informationen auf der Seite **Communications haben** Abonnement, und klicken Sie dann auf **Weiter**:
     
-  - **Guthaben hinzufügen**: Geben Sie den Betrag ein, den Sie Ihrem Konto hinzufügen möchten. Wenn Sie das automatische Aufladen nicht aktivieren, werden nach dem Aufbrauchen des Guthabens die Anruffunktionen, die über das Guthaben für Kommunikationen aktiviert werden, unterbrochen (z. B. eingehende gebührenfreie Dienste). Um zu vermeiden, dass Sie den Guthabensaldo für Kommunikationen jedes Mal auffüllen müssen, wenn er 0 (null) erreicht, empfehlen wir, die automatische Aufladefunktion zu aktivieren.
+   - **Guthaben hinzufügen**: Geben Sie den Betrag ein, den Sie Ihrem Konto hinzufügen möchten. Wenn Sie das automatische Aufladen nicht aktivieren, werden nach dem Aufbrauchen des Guthabens die Anruffunktionen, die über das Guthaben für Kommunikationen aktiviert werden, unterbrochen (z. B. eingehende gebührenfreie Dienste). Um zu vermeiden, dass Sie den Guthabensaldo für Kommunikationen jedes Mal auffüllen müssen, wenn er 0 (null) erreicht, empfehlen wir, die automatische Aufladefunktion zu aktivieren.
     
-  - **Automatisch aufladen**: Wenn Sie das automatische Aufladen aktivieren, erhält Ihr Konto automatisch neues Guthaben, wenn der Saldo unter das von Ihnen festgesetzte Limit sinkt.
+   - **Automatisch aufladen**: Wenn Sie das automatische Aufladen aktivieren, erhält Ihr Konto automatisch neues Guthaben, wenn der Saldo unter das von Ihnen festgesetzte Limit sinkt.
     
-    Sie sollten die Option **Automatisches Aufladen** nutzen, um Dienstunterbrechungen zu vermeiden, falls der Guthabensaldo für Kommunikationen 0 (null) erreicht. Sie erhalten eine E-Mail, wenn Transaktionen für eine Aufladung erfolgreich waren oder fehlgeschlagen sind (z. B. im Fall einer abgelaufenen Kreditkarte) und wenn der Guthabensaldo für Kommunikationen 0 (null) erreicht.
+     Sie sollten die Option **Automatisches Aufladen** nutzen, um Dienstunterbrechungen zu vermeiden, falls der Guthabensaldo für Kommunikationen 0 (null) erreicht. Sie erhalten eine E-Mail, wenn Transaktionen für eine Aufladung erfolgreich waren oder fehlgeschlagen sind (z. B. im Fall einer abgelaufenen Kreditkarte) und wenn der Guthabensaldo für Kommunikationen 0 (null) erreicht.
     
-  - **Aufladebetrag**: Geben Sie in das Feld **Aufladen mit** den Betrag ein, der Ihrem Konto hinzugefügt werden soll, nachdem es den Kontostand, der das automatische Auffüllen auslöst, erreicht hat.
+   - **Aufladebetrag**: Geben Sie in das Feld **Aufladen mit** den Betrag ein, der Ihrem Konto hinzugefügt werden soll, nachdem es den Kontostand, der das automatische Auffüllen auslöst, erreicht hat.
     
-  - **Kontostand, der das automatische Auffüllen auslöst**: Geben Sie in das Feld **bei Guthaben unter** den Betrag ein, bei dem das automatische Aufladen „ *ausgelöst*  " wird. Nachdem Ihr Saldo diesen Betrag unterschritten hat, wird der Aufladebetrag dem Konto automatisch hinzugefügt.
+   - **Kontostand, der das automatische Auffüllen auslöst**: Geben Sie in das Feld **bei Guthaben unter** den Betrag ein, bei dem das automatische Aufladen „ *ausgelöst*  " wird. Nachdem Ihr Saldo diesen Betrag unterschritten hat, wird der Aufladebetrag dem Konto automatisch hinzugefügt.
 
       > [!NOTE]
-    > Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Wenn ein Guthaben nicht innerhalb von 12 Monaten ab dem Kaufdatum aufgebraucht wird, verfällt es. 
+     > Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Wenn ein Guthaben nicht innerhalb von 12 Monaten ab dem Kaufdatum aufgebraucht wird, verfällt es. 
     
 5. Geben Sie Ihre Zahlungsinformationen ein, und klicken Sie auf **Bestellung aufgeben**.
     >[!IMPORTANT]

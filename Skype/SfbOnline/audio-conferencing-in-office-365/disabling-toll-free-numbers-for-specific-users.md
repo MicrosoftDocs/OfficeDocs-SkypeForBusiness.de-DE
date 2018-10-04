@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen verwenden können.
-ms.openlocfilehash: b438ee16135485a79458869858c52dd35bafa560
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885171"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370611"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deaktivieren von gebührenfreie Nummern für bestimmte Skype für Business Online-Benutzern
 
@@ -64,4 +64,4 @@ Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:
 
 Den AllowTollFreeDialIn-Parameter des Set-CsOnlineDialInConferencingUser-Cmdlets können zum Aktivieren oder Deaktivieren dieses Steuerelement. Beispiel: 
 
- - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+- Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false

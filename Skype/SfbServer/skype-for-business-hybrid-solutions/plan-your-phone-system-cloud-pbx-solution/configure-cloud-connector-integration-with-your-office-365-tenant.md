@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
-ms.openlocfilehash: 6971858b4e31fb7f98a98f5c80b9bb983a11802a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886172"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375769"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Konfigurieren der Cloud Connector-Integration mit Ihrem Office 365-Mandanten
  
@@ -42,9 +42,9 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 3. Importieren Sie das Zertifikat der Stammzertifizierungsstelle für das für Ihr Gateway auf dem Vermittlungsserver ausgegebene Zertifikat. Wenn Sie ein SSL-Zertifikat für das Gateway abrufen müssen, können Sie dafür den Zertifizierungsstellen-Dienst verwenden, der auf dem Cloud Connector Active Directory-Computer ausgeführt wird. Gehen Sie dazu folgendermaßen vor:
     
-  - Ändern Sie die vorhandene Webservervorlage zum Aktivieren von authentifizierten Benutzern die Registrierung, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften konfigurieren und Aktivieren von authentifizierten Benutzern die Registrierung. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Ändern Sie die vorhandene Webservervorlage zum Aktivieren von authentifizierten Benutzern die Registrierung, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften konfigurieren und Aktivieren von authentifizierten Benutzern die Registrierung. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
-  - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
+   - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
 4. Exportieren Sie das SSL-Zertifikat mit dem privaten Schlüssel, und folgen Sie den Anweisungen für PSTN-Gateways Ihres Anbieters, um das Zertifikat zu importieren.
     
@@ -88,9 +88,9 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 3. Importieren Sie das Zertifikat der Stammzertifizierungsstelle für das für Ihr Gateway auf dem Vermittlungsserver ausgegebene Zertifikat. Wenn Sie ein SSL-Zertifikat für das Gateway abrufen müssen, können Sie dafür den Zertifizierungsstellen-Dienst verwenden, der auf dem Cloud Connector Active Directory-Computer ausgeführt wird. Gehen Sie dazu folgendermaßen vor:
     
-  - Ändern Sie die vorhandene Webservervorlage, um die Registrierung authentifizierter Benutzer zuzulassen, oder erstellen Sie eine neue Webservervorlage, um andere Eigenschaften zu konfigurieren und die Registrierung authentifizierter Benutzer zuzulassen. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
+   - Ändern Sie die vorhandene Webservervorlage, um die Registrierung authentifizierter Benutzer zuzulassen, oder erstellen Sie eine neue Webservervorlage, um andere Eigenschaften zu konfigurieren und die Registrierung authentifizierter Benutzer zuzulassen. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
     
-  - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
+   - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
 4. Exportieren Sie das SSL-Zertifikat mit dem privaten Schlüssel, und folgen Sie den Anweisungen für PSTN-Gateways Ihres Anbieters, um das Zertifikat zu importieren.
     
@@ -170,15 +170,15 @@ Wenn ein P2P-Aufruf für eine PSTN-Konferenz eskaliert wird, sendet die Skype f�
     
 2. Starten Sie eine mit Mandanten Azure AD remote PowerShell-Sitzung mit den globalen oder Benutzeranmeldeinformationen Admin, und führen Sie dann in das folgende Cmdlet die Abteilung für das Benutzerkonto Azure AD festgelegt konfigurierten Schritt 1 "HybridMediationServer":
 
- ```
-  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+   ```
 
 3. Starten Sie einen Mandanten Skype für Business remote PowerShell-Sitzung mithilfe Ihrer Skype für Business Mandanten-Admin-Anmeldeinformationen, und führen Sie dann das folgende Cmdlet für diesen Benutzer dem Vermittlungsserver und Edge-Server-FQDN festzulegen berücksichtigt, ersetzen \<DisplayName\> mit dem Anzeigenamen für das Konto des Benutzers, die Sie in Schritt 1 erstellt haben:
     
-  ```
-  Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
-  ```
+   ```
+   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
+   ```
 
     Verwenden Sie für „Identity“ den Anzeigenamen des Office 365-Benutzerkontos, das Sie für diesen Vermittlungsserver erstellt haben.
     
@@ -186,6 +186,6 @@ Wenn ein P2P-Aufruf für eine PSTN-Konferenz eskaliert wird, sendet die Skype f�
     
     Verwenden Sie für *EdgeServerExternalFQDN* den externen FQDN für Edge-Server-Zugriffsproxy definiert ist. Wenn mehrere Cloud Connector PSTN-Standorte vorhanden sind, wählen Sie den Edgeserver-Zugriffsproxy-FQDN aus, der dem Standort zugewiesen ist, an dem sich der Vermittlungsserver befindet.
     
-3. 	Wenn mehrere Cloud Connector-Vermittlungsserver (mehrere Standorte, HA) vorhanden sind, wiederholen Sie die vorherigen Schritte für jeden einzelnen Server.
+4. 	Wenn mehrere Cloud Connector-Vermittlungsserver (mehrere Standorte, HA) vorhanden sind, wiederholen Sie die vorherigen Schritte für jeden einzelnen Server.
     
 

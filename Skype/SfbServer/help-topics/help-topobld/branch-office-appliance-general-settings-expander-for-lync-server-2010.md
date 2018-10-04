@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'So bearbeiten Sie Eigenschaften für Survivable Branch Appliance oder Survivable Branch Server unter Allgemein, konfigurieren Sie:'
-ms.openlocfilehash: 9e698854e78837e213ac080ab02098f72e72fec5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c61260fda0c6a49e90ecce02674df721001af4f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374603"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für Filialanwendungen in Lync Server 2010 – Erweiterung
  
@@ -44,10 +45,10 @@ So bearbeiten Sie Eigenschaften für Survivable Branch Appliance oder einen Surv
     
     **Edgepool zuordnen (für Medienkomponenten)** Wählen Sie aus der Liste den Edgeserver oder edgepool, mit dem Sie die Survivable Branch Appliance oder einen Survivable Branch Server zuordnen möchten.
     
- **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
+  **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   
- **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
+  **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
   
- **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
+  **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
   
 

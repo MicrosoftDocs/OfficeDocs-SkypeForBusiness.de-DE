@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Dateispeicher für Ihre Skype für die Bereitstellung von Business Server 2015 ist oder wenn Sie andere vornehmen müssen Änderungen, die die aktuelle Datei vornehmen würden nicht verfügbar speichern, müssen Sie zuerst eine neue Freigabe erstellen. Dann müssen Sie folgende Schritte ausführen:'
-ms.openlocfilehash: 97364c665b81ba411c4fa341f1303c905694163a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c942e02efd40e817bfab9f404cf66ac54775acd3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250724"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374302"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Verschieben von Dateispeicherdaten in einen neuen Dateispeicher in Skype for Business Server 2015
 
@@ -35,7 +35,7 @@ Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Date
 
 1. Melden Sie sich an einem Computer als Mitglied der Gruppe RTCUniversersalServerAdmins oder CsServerAdministrator, auf dem die Skype für Business Server 2015, Verwaltungstools installiert sind.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.
+2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.
 
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie ** und dann auf **Status**. 
 
@@ -47,41 +47,41 @@ Wenn müssen Sie den Dateiserver zu entfernen, der derzeit fungiert als den Date
 
 7. Wählen Sie einen Server oder Pool aus, der den Dateispeicher verwendet, und gehen Sie wie folgt vor:
 
-1. Klicken Sie mit der rechten Maustaste auf den Server oder den Pool, und klicken Sie auf **Eigenschaften bearbeiten **. 
+8. Klicken Sie mit der rechten Maustaste auf den Server oder den Pool, und klicken Sie auf **Eigenschaften bearbeiten **. 
 
-2. Klicken Sie in **Eigenschaften bearbeiten** unter **Zuordnungen** und unter **Dateispeicher** auf **Neu**.
+9. Klicken Sie in **Eigenschaften bearbeiten** unter **Zuordnungen** und unter **Dateispeicher** auf **Neu**.
 
-3. Geben Sie in **Neuen Dateispeicher definieren** unter **Dateiserver-FQDN** den vollqualifizierten Domänennamen (FQDN) des Dateiservers ein. Geben Sie unter **Dateifreigabe** den Ordnernamen für die neue Dateifreigabe ein, und klicken Sie dann auf **OK**.
+10. Geben Sie in **Neuen Dateispeicher definieren** unter **Dateiserver-FQDN** den vollqualifizierten Domänennamen (FQDN) des Dateiservers ein. Geben Sie unter **Dateifreigabe** den Ordnernamen für die neue Dateifreigabe ein, und klicken Sie dann auf **OK**.
 
-    > [!IMPORTANT]
-    > Dieser Schritt definiert einen neuen Dateispeicher für die Verwendung im Topologie-Generator. Die Definition erfolgt nur einmal, nicht für jeden Server. Bevor Sie die Topologie veröffentlichen, müssen Sie die definierte Dateifreigabe auf dem definierten Dateiserver erstellen. Weitere Informationen hierzu finden Sie unter [Definieren des Dateispeichers für das Front-End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > Dieser Schritt definiert einen neuen Dateispeicher für die Verwendung im Topologie-Generator. Die Definition erfolgt nur einmal, nicht für jeden Server. Bevor Sie die Topologie veröffentlichen, müssen Sie die definierte Dateifreigabe auf dem definierten Dateiserver erstellen. Weitere Informationen hierzu finden Sie unter [Definieren des Dateispeichers für das Front-End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
-8. Gehen Sie für jeden Server oder Pool, der den Dateispeicher verwendet, wie folgt vor:
+11. Gehen Sie für jeden Server oder Pool, der den Dateispeicher verwendet, wie folgt vor:
 
-1. Klicken Sie mit der rechten Maustaste auf den Server oder den Pool, und klicken Sie auf **Eigenschaften bearbeiten **.
+12. Klicken Sie mit der rechten Maustaste auf den Server oder den Pool, und klicken Sie auf **Eigenschaften bearbeiten **.
 
-2. Wählen Sie in **Eigenschaften bearbeiten** unter **Zuordnungen** in **Dateispeicher** die neue Dateifreigabe aus, und klicken Sie dann auf **OK**.
+13. Wählen Sie in **Eigenschaften bearbeiten** unter **Zuordnungen** in **Dateispeicher** die neue Dateifreigabe aus, und klicken Sie dann auf **OK**.
 
-9. Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus und führen Sie dann die Skype für Business Server-Bereitstellungs-Assistenten aus, je nach Bedarf. Weitere Informationen hierzu finden Sie unter [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+14. Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus und führen Sie dann die Skype für Business Server-Bereitstellungs-Assistenten aus, je nach Bedarf. Weitere Informationen hierzu finden Sie unter [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
 
-10. Starten Sie eine Eingabeaufforderung: Klicken Sie auf **Start**, klicken Sie auf **Ausführen**, und geben Sie cmd.exe.
+15. Starten Sie eine Eingabeaufforderung: Klicken Sie auf **Start**, klicken Sie auf **Ausführen**, und geben Sie cmd.exe.
 
-11. Geben Sie an der Befehlszeile Folgendes ein:
+16. Geben Sie an der Befehlszeile Folgendes ein:
 
-  ```
-  Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-  ```
+    ```
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > Der Switch „/S“ kopiert Dateien, Verzeichnisse und Unterverzeichnisse. Der Switch „/XF“ überspringt alle Dateien mit dem Namen „Meeting.Active“. Aktuelle Versionen von „robocopy.exe“ mit dem Switch „/MT“ erhöhen die Kopiergeschwindigkeit erheblich, da mehrere Threads verwendet werden. Verwenden Sie für die Option Befehlszeilenoption/log zusammen einen Directory Pfad und Protokolldateien Dateinamen in Form von C:\Logfiles\log.txt. Mit diesem Switch wird eine Protokolldatei der Vorgänge an dem benannten Speicherort erstellt.
 
-12. Wenn das Kopieren der Daten in Lync Server-Systemsteuerung abgeschlossen ist, klicken Sie auf **Topologie**, und klicken Sie dann auf **Status**.
+17. Wenn das Kopieren der Daten in Lync Server-Systemsteuerung abgeschlossen ist, klicken Sie auf **Topologie**, und klicken Sie dann auf **Status**.
 
-13. Wählen Sie für jeden Server oder Pool, für den Sie Dienste beendet haben, den Server oder Pool aus, klicken Sie auf **Aktion** und dann auf **Alle Dienste starten**.
+18. Wählen Sie für jeden Server oder Pool, für den Sie Dienste beendet haben, den Server oder Pool aus, klicken Sie auf **Aktion** und dann auf **Alle Dienste starten**.
 
-14. Entfernen Sie den alten Dateispeicher aus der Topologie und veröffentlichen Sie dann die Topologie. Weitere Informationen hierzu finden Sie unter [Entfernen eines Dateispeichers](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+19. Entfernen Sie den alten Dateispeicher aus der Topologie und veröffentlichen Sie dann die Topologie. Weitere Informationen hierzu finden Sie unter [Entfernen eines Dateispeichers](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
 
-15. (Optional) Melden Sie sich bei dem Computer, der den soeben entfernten Dateispeicher enthält, als Mitglied der lokalen Administratorgruppe oder der Domänenadministratorgruppe an, und entfernen Sie dann die alte Dateifreigabe und das Verzeichnis.
+20. (Optional) Melden Sie sich bei dem Computer, der den soeben entfernten Dateispeicher enthält, als Mitglied der lokalen Administratorgruppe oder der Domänenadministratorgruppe an, und entfernen Sie dann die alte Dateifreigabe und das Verzeichnis.
 
 ## <a name="see-also"></a>Siehe auch
 

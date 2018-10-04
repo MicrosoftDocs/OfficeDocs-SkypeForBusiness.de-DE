@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: c705feab5ab0288fb496544c76ce7346de3bb9d5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013651"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372485"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -136,7 +136,7 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 Nachdem Sie überprüft haben, welche Skype for Business- oder Microsoft Teams-Dienste verfügbar sind, erhalten Sie weitere Informationen zum Kauf von Lizenzen und Zuweisen dieser Lizenzen zu Ihren Benutzern unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 > [!NOTE]
-
+> 
 > Wenn Sie weitere Telefonnummern, die für Ihre Benutzer erhalten müssen, finden Sie unter [Getting Rufnummern für Ihre Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) oder für Telefon Anforderung Zahlenzeichen, [Rufnummern für Ihre Organisation verwalten](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 

@@ -9,12 +9,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
-description: 'Zusammenfassung: Informationen zur Verwendung des Rechner Kapazität.'
-ms.openlocfilehash: 5d94dab15b104703efc76b227e6e9dd1286f9955
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Wie Sie das Kapazitätsrechnertool verwenden.'
+ms.openlocfilehash: 6ce37865035b22a91841e98c1f3a75d6da0cb8d2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374910"
 ---
 # <a name="skype-for-business-server-2015-capacity-planning-calculator"></a>Skype for Business Server 2015: Rechner zur Kapazitätsplanung
  
@@ -40,7 +41,7 @@ Das Nutzungsmodell enthält die folgenden Abschnitte. Damit Sie Ihre Kapazitäts
     
 - **Durchschnittliche Anzahl von Kontakten in der Kontaktliste** gibt die Anzahl von Kontakten an, die zur Überprüfung Ihrer Systemanforderungen verwendet wird. Diese Anzahl ist festgelegt und sollte von Ihnen nicht geändert werden.
     
- **Enterprise-VoIP**
+  **Enterprise-VoIP**
   
 - Geben Sie in **Nutzer, für die Enterprise-VoIP aktiviert ist** den Prozentsatz Ihrer Nutzer an, für die Enterprise-VoIP aktiviert ist. Der Standardwert ist 60 %. 
     
@@ -52,7 +53,7 @@ Das Nutzungsmodell enthält die folgenden Abschnitte. Damit Sie Ihre Kapazitäts
     
 - **In Prozentsatz der VoIP-Nutzer, die an UC-UC-Anrufen beteiligt sind** ist der Prozentsatz der Nutzer enthalten, die zwar für Enterprise-VoIP, aber nur für UC-UC-Anrufe aktiviert sind. Diese Anzahl wird auf Basis des Werts berechnet, den Sie in **Prozentsatz der VoIP-Nutzer, die an UC-PSTN-Anrufen beteiligt sind** eingegeben haben. 
     
- **Konferenzen**
+  **Konferenzen**
   
 - Geben Sie in **Prozentsatz der Nutzer in gleichzeitigen Konferenzen** den Prozentsatz an Nutzern ein, die gleichzeitig an einer Konferenz teilnehmen werden. Der Standardwert ist 5 %. 
     
@@ -70,7 +71,7 @@ Das Nutzungsmodell enthält die folgenden Abschnitte. Damit Sie Ihre Kapazitäts
     
   - Wenn 20 % Ihrer VoIP-Konferenzen Datenuploads umfassen, zum Beispiel Microsoft PowerPoint-Präsentationen, aktivieren Sie das Kontrollkästchen **Einschließlich Webkonferenzen**.
     
- **Mobilität**
+  **Mobilität**
   
 - **Prozentsatz der Benutzer für Mobilität aktiviert sind**Geben Sie den Prozentsatz der Benutzer die Verbindung mit Skype für Business Server mit mobilen Geräten aktiviert wird. Der Standardwert ist 40 %. 
     

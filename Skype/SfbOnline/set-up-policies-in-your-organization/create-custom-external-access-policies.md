@@ -16,17 +16,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Skype ermöglicht Ihnen die Erstellung von externen Zugriffs-Richtlinien. Nicht so wie bei Conferencing-Richtlinien, bei denen Sie mehrere Kombinationen haben können, gibt es hier drei vordefinierte Richtlinien für den externen Zugriff, die die meisten Szenarien abdecken.
-ms.openlocfilehash: e0af31d015c69ebd91c28a229a20d3d2c6c926c4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios.
+ms.openlocfilehash: ad40319330a66c1f0ec141531ae0ccb16a01ae07
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850157"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372601"
 ---
 # <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externen Zugriffsrichtlinien
 
-Skype ermöglicht Ihnen die Erstellung von externen Zugriffs-Richtlinien. Nicht so wie bei Conferencing-Richtlinien, bei denen Sie mehrere Kombinationen haben können, gibt es hier drei vordefinierte Richtlinien für den externen Zugriff, die die meisten Szenarien abdecken. Dies sind:
+Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios. These are:
   
 - No Federated oder Skype Consumer Zugriff (_Tag: NoFederationAndPIC_)
     
@@ -34,9 +34,9 @@ Skype ermöglicht Ihnen die Erstellung von externen Zugriffs-Richtlinien. Nicht 
     
 - Federated und Consumer Zugriff (_FederationAndPICDefault_)
     
-Richtlinien für den benutzerdefinierten externen Zugriff ermöglichen Ihnen, zusätzliche Richtlinien zu schaffen, die von den oben genannten Einstellungen nicht abgedeckt sind. Wenn die Richtlinie erstellt wurde, werden Sie aufgefortert, alle erforderlichen Parameter einzustellen, die Sie später jedoch nicht mehr ändern können. Die Erstellung neuer benutzerdefinierter Richtlinien ermöglicht Ihnen, Funktionen wie Skype Consumer Zugriff zu steuern oder eine Richtlinie zum Deaktivieren von Audio/Video aus der öffentlichen Cloud - dies war nicht von den Voreinstellungen abgedeckt. Benutzerdefinierte externe Zugriffsrichtlinien führen derselben Syntax wie die Client-, Mobilitäts- und Conferencing-Richtlinien. Weitere Informationen zu diesen Einsellungen finden Sie [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Custom external policies allow you to create additional polices that aren't covered by the settings above. When the policy was created, you would be required to set all required parameters and you couldn't alter them later. Creating new custom policies allow you to control features such as Skype consumer access or a policy to disable public cloud audio/video, which is something that wasn't covered with predefined settings. Custom external access policies follow the same syntax as client, mobility, and conferencing policies. You can find out more about those settings [here](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-Damit dies funktioniert, muss der Benutzer eine unterstützte Version von 2016 der App Click-to-Run für Skype for Business verwenden. Die folgende Minimalversion von Skype for Business 2016 Click-to-Run ist erforderlich:
+To make this work, the user must be using a supported version of 2016 Click-to-Run Skype for Business app that supports it. The following minimum version of Skype for Business 2016 Click-to-Run client is required:
   
 |**Typ**|**Veröffentlichungsdatum**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
@@ -70,32 +70,32 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version von 2016 d
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Erstellen einer benutzerdefinierten Richtlinie für den externen Zugriff eines Benutzers
 
 Zu diesem Zweck führen Sie Folgendes aus:
   
 > 
-  ```
-  New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
-  ```
-
+>   ```
+>   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
+>   ```
 > 
-  ```
-  Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
-  ```
+> 
+>   ```
+>   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
+>   ```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

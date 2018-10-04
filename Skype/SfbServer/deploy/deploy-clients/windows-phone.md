@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Zusammenfassung: Informationen Sie zum Installieren und Testen von Skype für Unternehmen auf Ihrem Windows Phone.'
-ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e135441a711655e42c37d0a9bd7ff4870da1d0d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978047"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372930"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype for Business Server 2015: Installieren und Testen von Skype for Business für Windows Phone
  
@@ -46,12 +46,12 @@ Vor dem Umleiten von Benutzern in Ihrer Organisation, um die app herunterzuladen
     
 5. Tippen Sie auf **Weiter** , und überprüfen Sie die Benachrichtigung und Telefonbuch Access-Einstellungen:
     
-  - **Pushbenachrichtigungen** Wenn Sie eine neue Sofortnachrichten oder ein Anruf erhalten möchten Sie eine Benachrichtigung erhalten. In der Regel **Ein** (empfohlen).
+   - **Pushbenachrichtigungen** Wenn Sie eine neue Sofortnachrichten oder ein Anruf erhalten möchten Sie eine Benachrichtigung erhalten. In der Regel **Ein** (empfohlen).
     
-    > [!IMPORTANT]
-    > Wenn Sie diese Berechnung zu deaktivieren, werden nicht Sie von Sofortnachrichten, anrufen oder anderen Skype Business für Windows Phone-Warnungen benachrichtigt werden, wenn die app aktiv ist. 
+     > [!IMPORTANT]
+     > Wenn Sie diese Berechnung zu deaktivieren, werden nicht Sie von Sofortnachrichten, anrufen oder anderen Skype Business für Windows Phone-Warnungen benachrichtigt werden, wenn die app aktiv ist. 
   
-  - **Telefonbuch-Zugriff zulassen** Suchen Sie nach Kontakten auf Ihrem Mobiltelefon bei der Suche nach Kontakten in Skype für Business für Windows Phone.
+   - **Telefonbuch-Zugriff zulassen** Suchen Sie nach Kontakten auf Ihrem Mobiltelefon bei der Suche nach Kontakten in Skype für Business für Windows Phone.
     
 6. Tippen Sie auf **Weiter** , um mithilfe der Skype für Business für Windows Phone zu starten.
     

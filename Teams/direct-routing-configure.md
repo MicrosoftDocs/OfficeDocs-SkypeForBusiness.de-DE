@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: be420b43ed1b826865bbe8b6f0a0c3e314fc1201
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013739"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374650"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren der Weiterleitung von direkten
 
@@ -456,31 +456,31 @@ In der folgenden Tabelle werden die routing Richtlinie "No Einschränkungen" Usa
 Die Schritte zum Erstellen von PSTN-Verwendung "International", VoIP-Route "International", VoIP-Routing-Richtlinie "No Einschränkungen,", und klicken Sie dann den Benutzer "John Woods" zuweisen lauten wie folgt.
 
 
-1.  Erstellen Sie zunächst die PSTN-Verwendung "International". Geben Sie in einer PowerShell-Remotesitzung in Skype für Business Online Folgendes ein:
+1. Erstellen Sie zunächst die PSTN-Verwendung "International". Geben Sie in einer PowerShell-Remotesitzung in Skype für Business Online Folgendes ein:
 
-  ```
-  Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
-  ```
+   ```
+   Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+   ```
 
-2.  Im nächsten Schritt erstellen Sie die neue VoIP-Route "International".
+2. Im nächsten Schritt erstellen Sie die neue VoIP-Route "International".
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-  ```
-  Die zurückgibt:
+   ```
+   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+   ```
+   Die zurückgibt:
 
-  <pre>
-  Identity                  : International 
-  Priority                      : 5
-  Description                   : 
-  NumberPattern                 : \d+
-  OnlinePstnUsages          : {International}    
-  OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-  Name                            : International
-  SupressCallerId           :
-  AlternateCallerId         :
-</pre>
-3.  Im nächsten Schritt erstellen Sie eine VoIP-Routing-Richtlinie "Ohne Einschränkungen". Die PSTN-Verwendung "" Redmond "1" und "Redmond" werden in dieser VoIP-Routingrichtlinie besondere Behandlung für Aufrufe von "+1 425 XXX XX XX" und "+1 206 XXX XX XX" als lokale oder am Standort Aufrufe nummerieren beibehalten wiederverwendet werden.
+   <pre>
+   Identity                  : International 
+   Priority                      : 5
+   Description                   : 
+   NumberPattern                 : \d+
+   OnlinePstnUsages          : {International}    
+   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
+   Name                            : International
+   SupressCallerId           :
+   AlternateCallerId         :
+   </pre>
+3. Im nächsten Schritt erstellen Sie eine VoIP-Routing-Richtlinie "Ohne Einschränkungen". Die PSTN-Verwendung "" Redmond "1" und "Redmond" werden in dieser VoIP-Routingrichtlinie besondere Behandlung für Aufrufe von "+1 425 XXX XX XX" und "+1 206 XXX XX XX" als lokale oder am Standort Aufrufe nummerieren beibehalten wiederverwendet werden.
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
@@ -503,18 +503,18 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    RouteType        : BYOT
   </pre>
 
-4.  Weisen Sie die VoIP-routing-Richtlinie für den Benutzer "John Woods" mit dem folgenden Befehl.
+4. Weisen Sie die VoIP-routing-Richtlinie für den Benutzer "John Woods" mit dem folgenden Befehl.
 
-  ```
-  Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-  ```
+   ```
+   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+   ```
 
-  Überprüfen Sie anschließend die Zuordnung mit dem Befehl aus:   
+   Überprüfen Sie anschließend die Zuordnung mit dem Befehl aus:   
 
-  ```
-  Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
-  ```
-  Die zurückgibt:
+   ```
+   Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   ```
+   Die zurückgibt:
 
 <pre>
     OnlineVoiceRoutingPolicy

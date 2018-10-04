@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype für Business Server unterstützt einfache URLs.
-ms.openlocfilehash: a67e9a8ef46b7809fdc8ce8b4eaadc2ca4720966
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028831"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374990"
 ---
 # <a name="change-simple-urls-after-migration"></a>Ändern von einfachen URLs nach der migration
 
@@ -41,8 +41,8 @@ Nach der Migration zu Skype für Business Server, müssen Ihnen bekannt sein wie
     
 2. Wählen Sie im linken Bereich, klicken Sie dann unten im Feld **URL für administrativen Zugriff** **Einfache URLs** aus, geben Sie die einfache URL für administrativen Zugriff auf die Skype Business Server-Systemsteuerung aus, und klicken Sie dann auf **OK**.
     
-    > [!TIP]
-    > Es wird empfohlen, die einfachstmögliche URL als Verwaltungs-URL zu verwenden. Die einfachste Option ist https://admin. _ \<Domäne\>_. 
+   > [!TIP]
+   > Es wird empfohlen, die einfachstmögliche URL als Verwaltungs-URL zu verwenden. Die einfachste Option ist https://admin. <em> \<Domäne\></em>. 
   
 ## <a name="see-also"></a>Siehe auch
 

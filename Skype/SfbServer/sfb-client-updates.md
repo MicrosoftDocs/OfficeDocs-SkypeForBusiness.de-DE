@@ -9,19 +9,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hier finden IT-Spezialisten Links zu den neuesten Updateinformationen für unbefristete Versionen der Clients Skype for Business 2016, Skype for Business 2015 und Lync 2013.
-ms.openlocfilehash: 148f635d081b33a80d6b138b717e87aecdd616c5
-ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
+ms.openlocfilehash: 69ff89c856204577c46f27c568f3b6d9cf5613b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23884189"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374163"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Letzte Updates für Skype for Business-Versionen, die Windows Installer (MSI) verwenden
 
 Unter den Links auf dieser Seite finden Sie weitere Informationen zu den neuesten Updates für die unbefristeten Versionen der Clients Skype for Business 2016, Skype for Business 2015 und Lync 2013 sowie die entsprechenden Downloads.
 
 > [!NOTE]
-> - Die Informationen in diesem Artikel gelten nur für unbefristete Versionen von Skype for Business, die Windows Installer-Installationstechnologie (MSI) verwenden. Dies ist beispielsweise der Fall, wenn Sie eine Volumenlizenzversion von Skype for Business, wie zum Beispiel die in Office Professional Plus 2016 enthaltene Version von Skype for Business, installiert haben.
+> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - Die Informationen in diesem Artikel gelten nicht für Office 365-Versionen von Skype for Business, wie zum Beispiel die in Office 365 ProPlus enthaltene Version von Skype for Business.
 > - Details zu den neuesten Updates für Ihren mobilen Client finden Sie im jeweiligen App Store (iTunes, Google Play oder Microsoft Store). Von dort können Sie die Updates auch installieren.
 > - Wie Sie ermitteln können, welche Version von Skype for Business Sie verwenden, erfahren Sie unter [Überprüfen der Version von Skype for Business](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016).
@@ -29,7 +29,7 @@ Unter den Links auf dieser Seite finden Sie weitere Informationen zu den neueste
 
 Die Kompatibilität von Skype for Business mit Office 365 und der lokalen Umgebung hängt von den für Ihre Bereitstellung geltenden Systemanforderungen ab:
 
-- Office 365 funktioniert mit allen Versionen von Skype for Business, die dem grundlegenden Support unterliegen, das heißt auch mit der neuesten Version von Skype for Business 2016. Vorherige Versionen von Skype for Business können, sofern sie dem erweiterten Support unterliegen, möglicherweise weiterhin mit Office 365 verwendet werden, jedoch mit reduziertem Funktionsumfang. Weitere Informationen finden Sie unter [Microsoft Lifecycle-Richtlinie](https://support.microsoft.com/lifecycle).
+- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
 
 - Halten Sie sich bei lokalen Bereitstellungen von Skype for Business Server an die Systemanforderungen für Ihre Version von Skype for Business:
 
@@ -38,6 +38,7 @@ Die Kompatibilität von Skype for Business mit Office 365 und der lokalen Umgeb
   - [Systemanforderungen für Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 
 ## <a name="skype-for-business-2016-client-updates"></a>Updates für den Skype for Business 2016-Client
+
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:---  |:---  |:---  |
 |Sicherheitsupdate für Skype for Business 2016 |[KB 4022221](https://support.microsoft.com/kb/4022221)| Juli 2018 |
@@ -171,19 +172,19 @@ Paketname|KB-Nummer|Veröffentlichungsdatum|
 
 ### <a name="lync-phone-edition-updates"></a>Updates für Lync Phone Edition
 
-Paketname|KB-Nummer|Veröffentlichungsdatum|
-|:--- |:--- |:--- |
-|Kumulatives Update für Lync Phone Edition für die Telefone Aastra 6721ip und Aastra 6725ip|[KB 4019527](https://support.microsoft.com/en-us/help/4019527) | April 2017 |
-|Kumulatives Update für Microsoft Lync Phone Edition für die Telefone HP 4110 und HP 4120|[KB 4019528](https://support.microsoft.com/en-us/help/4019528) | April 2017 |
-|Kumulatives Update für Microsoft Lync Phone Edition für die Telefone Polycom CX500, Polycom CX600 und Polycom CX3000|[KB 4019529](https://support.microsoft.com/en-us/help/4019529) | April 2017 |
-|Kumulatives Update für Lync Phone Edition für die Telefone Aastra 6721ip und Aastra 6725ip|[KB 3050585](https://support.microsoft.com/en-us/kb/3050585) | Mai 2015 |
-|Kumulatives Update für Lync Phone Edition für die Telefone HP 4110 und HP 4120|[KB 3050587](https://support.microsoft.com/en-us/kb/3050587) | Mai 2015 |
-|Kumulatives Update für Lync Phone Edition für Polycom CX500, Polycom CX600 und Polycom CX3000|[KB 3050588](https://support.microsoft.com/en-us/kb/3050588) | Mai 2015 |
-|Kumulatives Update für Lync Phone Edition für die Telefone Polycom CX700 und LG-Nortel IP Phone 8540|[KB 3050590](https://support.microsoft.com/en-us/kb/3050590) | Mai 2015 |
-|Kumulatives Update für Lync Phone Edition für die Telefone Aastra 6721ip und Aastra 6725ip |[KB 2954032](https://support.microsoft.com/kb/2954032) | April 2014|
-|Kumulatives Update für Lync Phone Edition für die Telefone HP 4110 und HP 4120 |[KB 2954033](https://support.microsoft.com/kb/2954033) | April 2014||
-|Kumulatives Update für Lync Phone Edition für die Telefone Polycom CX500, Polycom CX600 und Polycom CX3000 |[KB 2954034](https://support.microsoft.com/kb/2954034) | April 2014||
-|Kumulatives Update für Lync Phone Edition für die Telefone Polycom CX700 und LG-Nortel IP Phone 8540 |[KB 2954035](https://support.microsoft.com/kb/2954035) | April 2014||
+| Paketname                                                                                                       | KB-Nummer                                                      | Veröffentlichungsdatum |
+|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------|
+| Kumulatives Update für Lync Phone Edition für die Telefone Aastra 6721ip und Aastra 6725ip                             | [KB 4019527](https://support.microsoft.com/en-us/help/4019527) | April 2017   |
+| Kumulatives Update für Microsoft Lync Phone Edition für die Telefone HP 4110 und HP 4120                              | [KB 4019528](https://support.microsoft.com/en-us/help/4019528) | April 2017   |
+| Kumulatives Update für Microsoft Lync Phone Edition für die Telefone Polycom CX500, Polycom CX600 und Polycom CX3000 | [KB 4019529](https://support.microsoft.com/en-us/help/4019529) | April 2017   |
+| Kumulatives Update für Lync Phone Edition für die Telefone Aastra 6721ip und Aastra 6725ip                            | [KB 3050585](https://support.microsoft.com/en-us/kb/3050585)   | Mai 2015     |
+| Kumulatives Update für Lync Phone Edition für die Telefone HP 4110 und HP 4120                                        | [KB 3050587](https://support.microsoft.com/en-us/kb/3050587)   | Mai 2015     |
+| Kumulatives Update für Lync Phone Edition für Polycom CX500, Polycom CX600 und Polycom CX3000                      | [KB 3050588](https://support.microsoft.com/en-us/kb/3050588)   | Mai 2015     |
+| Kumulatives Update für Lync Phone Edition für die Telefone Polycom CX700 und LG-Nortel IP Phone 8540                  | [KB 3050590](https://support.microsoft.com/en-us/kb/3050590)   | Mai 2015     |
+| Kumulatives Update für Lync Phone Edition für die Telefone Aastra 6721ip und Aastra 6725ip                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | April 2014   |
+| Kumulatives Update für Lync Phone Edition für die Telefone HP 4110 und HP 4120                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | April 2014   |
+| Kumulatives Update für Lync Phone Edition für die Telefone Polycom CX500, Polycom CX600 und Polycom CX3000           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | April 2014   |
+| Kumulatives Update für Lync Phone Edition für die Telefone Polycom CX700 und LG-Nortel IP Phone 8540                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | April 2014   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>Lync Phone Edition-Clients im Download Center
 
@@ -246,23 +247,24 @@ Paketname|KB-Nummer|Veröffentlichungsdatum|
 
 ### <a name="attendant"></a>Vermittlung
 
-**Paketname/Link**|Veröffentlichungsdatum|
-|:--- |:--- |
-|[Lync 2010 Attendant (32 Bit)](https://www.microsoft.com/download/en/details.aspx?id=10164) | November 2010 |
-|[Lync 2010 Attendant (64 Bit)](https://www.microsoft.com/download/en/details.aspx?id=20084) | November 2010 |
+| **Paketname/Link**                                                                       | Veröffentlichungsdatum  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010 Attendant (32 Bit)](https://www.microsoft.com/download/en/details.aspx?id=10164) | November 2010 |
+| [Lync 2010 Attendant (64 Bit)](https://www.microsoft.com/download/en/details.aspx?id=20084) | November 2010 |
 
 ### <a name="attendee"></a>Teilnehmer
 
-**Paketname/Link**|Veröffentlichungsdatum|
-|:--- |:--- |
-|[Lync 2010 Attendee – Installation auf Administratorebene](https://www.microsoft.com/download/en/details.aspx?id=23396) | April 2013 |
-|[Lync 2010 Attendee – Installation auf Benutzerebene](https://www.microsoft.com/download/en/details.aspx?id=15755) | Juni 2014 |
+| **Paketname/Link**                                                                                   | Veröffentlichungsdatum |
+|:--------------------------------------------------------------------------------------------------------|:-------------|
+| [Lync 2010 Attendee – Installation auf Administratorebene](https://www.microsoft.com/download/en/details.aspx?id=23396) | April 2013   |
+| [Lync 2010 Attendee – Installation auf Benutzerebene](https://www.microsoft.com/download/en/details.aspx?id=15755)  | Juni 2014    |
 
 ### <a name="trial-software"></a>Testsoftware
-**Paketname/Link**|Veröffentlichungsdatum|
-|:--- |:--- |
-|[Lync 2010-Testsoftware (32 Bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| November 2010 |
-|[Lync 2010-Testsoftware (64 Bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| November 2010 |
+
+| **Paketname/Link**                                                                       | Veröffentlichungsdatum  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010-Testsoftware (32 Bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | November 2010 |
+| [Lync 2010-Testsoftware (64 Bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | November 2010 |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

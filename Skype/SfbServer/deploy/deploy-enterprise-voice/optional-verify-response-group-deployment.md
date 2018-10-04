@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Überprüfen Sie Ihren Erfolg Response Group Bereitstellung in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: f92181f63606ff3c4322fdefb814e9682c79b0cc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002698"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374816"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Optional) Vergewissern Sie sich reaktionsgruppenbereitstellung in Skype für Unternehmen
  
@@ -31,7 +31,7 @@ Nachdem Sie die Reaktionsgruppe konfigurieren, müssen Sie überprüfen Sie die 
     
 - Ein Agent, der in Skype für Unternehmen verwaltet wird
     
- **Scenarios**
+  **Scenarios**
   
 - Die Skype für Business-Benutzer ruft die reaktionsgruppe an.
     

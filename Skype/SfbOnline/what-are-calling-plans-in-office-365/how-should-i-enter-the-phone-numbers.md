@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Telefonnummern einrichten, wenn Sie diese zu Skype für Unternehmen port. '
-ms.openlocfilehash: 8d214ea7cf21ea713de28763f36b9995160fb395
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958141"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374087"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Wie muss ich die Telefonnummern eingeben?
 
@@ -82,10 +82,10 @@ Wenn Sie Rufnummern portieren, müssen Sie diese im richtigen Format eingeben.
     
   - Die "-" wird zur Trennung nur zweier Zahlen verwendet. Es wird nicht unterstützt, um mehrere einschließen "-" in den Nummernbereich. Beispielsweise sollte **(425) 555-0649-(425) 555-1115** eingegeben werden, als **(425) 5550649 - (425) 5551115**.
     
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+  **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
- > [!NOTE]
-> Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+  > [!NOTE]
+  > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
   
 ## <a name="related-topics"></a>Verwandte Themen

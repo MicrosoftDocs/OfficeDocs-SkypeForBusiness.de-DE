@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Hinzufügen von Archivierungsdatenbanken zu Ihrer Skype für Business Server-Bereitstellung.'
-ms.openlocfilehash: 1b6aef3d1b00a6736206cd3cf4c0061f0e720ad6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c2e92b1da9dd5e9827b362bf4979ffba075c4402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969124"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372951"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype für Business Server
  
@@ -63,19 +63,19 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
     
    - Um eine neue SQL Server-Speicher für Spiegelung anzugeben, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** einen der folgenden:
     
-    a. Geben Sie in **SQL Server-FQDN**: den FQDN des SQL-Servers, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
+     a. Geben Sie in **SQL Server-FQDN**: den FQDN des SQL-Servers, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
     
-    b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
+     b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
     
-    c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
+     c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
     
    - Wenn Sie SQL Server-Spiegelung aktivieren und eine SQL Server-spiegelungszeugen (eine dritte, separate SQL Server-Instanz, die die Integrität der primären Instanzen von SQL Server und den Spiegelserver erkennt) einschließen möchten, wählen Sie zum Aktivieren der **mithilfe von SQL Server-spiegelungszeugen Failover** Kontrollkästchen, und führen Sie dann eine der folgenden:
     
-    a. Geben Sie in **SQL Server-FQDN**: den FQDN des Servers, auf dem Sie die neue SQL Server-spiegelungszeugen erstellen möchten.
+     a. Geben Sie in **SQL Server-FQDN**: den FQDN des Servers, auf dem Sie die neue SQL Server-spiegelungszeugen erstellen möchten.
     
-    b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
+     b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
     
-    c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
+     c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
     
 10. Klicken Sie zum Speichern der Konfiguration auf **OK**.
     

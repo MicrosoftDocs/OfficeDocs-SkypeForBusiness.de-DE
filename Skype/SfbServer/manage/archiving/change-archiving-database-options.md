@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Zusammenfassung: Erfahren Sie, wie Datenbank Archivierungsoptionen für Skype für Business Server ändern.'
-ms.openlocfilehash: af1cc1e6398652efac5be20114dac6bf228ef892
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 40cb0d6a3e0a55ad5221c55105355a7838835d30
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010078"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371967"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Ändern Sie die Archivierung Datenbankoptionen in Skype für Business Server
 
@@ -47,35 +47,35 @@ Um eine der folgenden Änderungen vornehmen, müssen Sie führen Topologie-Gener
     
 7. Führen Sie im Dialogfeld **Archivierung** die folgenden Schritte aus:
     
-  - Wenn Sie zu einem anderen SQL Server-Speicher wechseln möchten, gehen Sie unter **SQL Server-Speicher für Archivierung** im Dropdown-Listenfeld wie folgt vor:
+   - Wenn Sie zu einem anderen SQL Server-Speicher wechseln möchten, gehen Sie unter **SQL Server-Speicher für Archivierung** im Dropdown-Listenfeld wie folgt vor:
     
-  - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten.
+   - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten.
     
-  - Zum Angeben eines neuen SQL Server-Speichers klicken Sie auf **Neu** und gehen dann im Dialogfeld **Neuen SQL Server-Speicher definieren** wie folgt vor:
+   - Zum Angeben eines neuen SQL Server-Speichers klicken Sie auf **Neu** und gehen dann im Dialogfeld **Neuen SQL Server-Speicher definieren** wie folgt vor:
     
-    - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten.
+     - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten.
     
-    - Klicken Sie zum Angeben eines neuen SQL Server-Speichers, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** die folgenden:
+     - Klicken Sie zum Angeben eines neuen SQL Server-Speichers, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** die folgenden:
     
-      - Geben Sie in **SQL Server-FQDN**: den FQDN des Servers, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
+       - Geben Sie in **SQL Server-FQDN**: den FQDN des Servers, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
     
-      - Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
+       - Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
     
-      - Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
+       - Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
     
-  - Wenn Sie einen SQL Server-Speicher zur Spiegelung hinzufügen oder für die SQL Server-Speicherspiegelung zu einem anderen vorhandenen SQL Server-Speicher wechseln möchten, wählen Sie **SQL Server-Speicherspiegelung aktivieren** aus und gehen Sie dann wie folgt vor:
+   - Wenn Sie einen SQL Server-Speicher zur Spiegelung hinzufügen oder für die SQL Server-Speicherspiegelung zu einem anderen vorhandenen SQL Server-Speicher wechseln möchten, wählen Sie **SQL Server-Speicherspiegelung aktivieren** aus und gehen Sie dann wie folgt vor:
     
-    - Klicken Sie auf den Namen des SQL Server-Speichers, den Sie für die Spiegelung verwenden möchten, um eines vorhandenen SQL Server-Speichers zur Spiegelung klicken Sie im Dropdown-Listenfeld **-speicherspiegel für Archivierung SQL Server** verwenden.
+     - Klicken Sie auf den Namen des SQL Server-Speichers, den Sie für die Spiegelung verwenden möchten, um eines vorhandenen SQL Server-Speichers zur Spiegelung klicken Sie im Dropdown-Listenfeld **-speicherspiegel für Archivierung SQL Server** verwenden.
     
-    - Um eine neue SQL Server-Speicher für Spiegelung anzugeben, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** einen der folgenden:
+     - Um eine neue SQL Server-Speicher für Spiegelung anzugeben, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** einen der folgenden:
     
-      a. Geben Sie in **SQL Server-FQDN**: den FQDN des SQL-Servers, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
+       a. Geben Sie in **SQL Server-FQDN**: den FQDN des SQL-Servers, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
     
-      b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
+       b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
     
-      c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
+       c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
     
-  - Wenn Sie SQL Server-Spiegelung aktivieren und hinzufügen oder Ändern einer SQL Server-spiegelungszeugen (eine dritte, separate SQL Server-Instanz, die die Integrität der primären SQL Server und den Spiegelserver Serverinstanzen erkennt) möchten, wählen Sie die **mithilfe von SQL Server-spiegelungszeugen zu Aktivierung des automatischen Failovers** Kontrollkästchen, und führen Sie dann eine der folgenden:
+   - Wenn Sie SQL Server-Spiegelung aktivieren und hinzufügen oder Ändern einer SQL Server-spiegelungszeugen (eine dritte, separate SQL Server-Instanz, die die Integrität der primären SQL Server und den Spiegelserver Serverinstanzen erkennt) möchten, wählen Sie die **mithilfe von SQL Server-spiegelungszeugen zu Aktivierung des automatischen Failovers** Kontrollkästchen, und führen Sie dann eine der folgenden:
     
       a. Geben Sie in **SQL Server-FQDN**: den FQDN des Servers, auf dem Sie die neue SQL Server-spiegelungszeugen erstellen möchten.
     
@@ -83,10 +83,10 @@ Um eine der folgenden Änderungen vornehmen, müssen Sie führen Topologie-Gener
     
       c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
     
-  - Zum Wechseln zur Integration von Microsoft Exchange zum Speichern von Archivierungsdaten und-Dateien auf Exchange-Servern (wenn alle Benutzer in Ihrer Bereitstellung auf Ihren Exchange-Servern verwaltet werden), löschen Sie alle Informationen für Archivierungsdatenbanken.
+   - Zum Wechseln zur Integration von Microsoft Exchange zum Speichern von Archivierungsdaten und-Dateien auf Exchange-Servern (wenn alle Benutzer in Ihrer Bereitstellung auf Ihren Exchange-Servern verwaltet werden), löschen Sie alle Informationen für Archivierungsdatenbanken.
     
-    > [!IMPORTANT]
-    > Wenn Sie Skype für Unternehmensbenutzer, die nicht auf Exchange-Servern verwaltet werden verfügen, löschen Sie die SQL Server-Speicherinformationen nicht. 
+     > [!IMPORTANT]
+     > Wenn Sie Skype für Unternehmensbenutzer, die nicht auf Exchange-Servern verwaltet werden verfügen, löschen Sie die SQL Server-Speicherinformationen nicht. 
   
 8. Klicken Sie zum Speichern der Konfiguration auf **OK**.
     

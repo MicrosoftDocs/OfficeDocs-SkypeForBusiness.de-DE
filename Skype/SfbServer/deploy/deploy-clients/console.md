@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
-ms.openlocfilehash: 57ee754d99c9c0fcec62347146c79e9da5995fe1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965706"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371061"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -145,7 +145,7 @@ Nach der Installation von Windows gehen die Skype Raum Systemen v2 Konsole app i
     
    - Standardlautsprecher: Der Lautsprecher, der für Audio von der HDMI-Erfassung verwendet wird
     
-    Jedes Element verfügt über ein Dropdownmenü mit Optionen, die Sie auswählen können. Sie müssen für jedes Gerät eine Auswahl treffen.
+     Jedes Element verfügt über ein Dropdownmenü mit Optionen, die Sie auswählen können. Sie müssen für jedes Gerät eine Auswahl treffen.
     
 6. Klicken Sie auf **Fertig stellen**.
     
@@ -174,9 +174,9 @@ Die Skype Raum Systemen v2-Konsole muss Zertifikate von der Skype für Geschäft
     
 3. Führen Sie den folgenden Befehl aus:
     
-  ```
-  certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
-  ```
+   ```
+   certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
+   ```
 
 ### <a name="join-an-active-directory-domain-optional"></a>Teilnehmen an einer Active Directory-Domäne (Optional)
 <a name="Certs"> </a>
@@ -191,9 +191,9 @@ Sie können Skype Raum Systemen v2 Konsolen an Ihre Domäne beitreten. Skype Rau
     
 3. Geben Sie in PowerShell den folgenden Befehl ein:
     
-  ```
-  Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
-  ```
+   ```
+   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+   ```
 
 Wenn Ihre vollqualifizierten Domänennamen redmond.corp.microsoft.com und Sie möchten Ihre Skype Raum Systemen v2 Konsolen "Skype Raum Systemen v2" werden beispielsweise Organisationseinheit, die ein untergeordnetes Element des einer OU "Ressourcen" ist der Befehl werden:
   

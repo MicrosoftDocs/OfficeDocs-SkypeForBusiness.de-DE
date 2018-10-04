@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: c1fff6e0eb1e3057ba958676422a7673c45d0544
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6feffbff265aaf114844d2125717aecdc36921ff
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260573"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375120"
 ---
 # <a name="pin-policy"></a>PIN-Richtlinie
 
@@ -30,7 +30,7 @@ Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
 
 - [Löschen Sie eine PIN-Richtlinie in Skype für Business Server](../../../manage/authentication/delete-a-pin-policy.md)
 
- **Arbeiten mit PIN-Richtlinie für einwahlkonferenzen** Diese PIN-Richtlinie ermöglicht Benutzern, die über Active Directory Domain Services Anmeldeinformationen in Ihrer Organisation für die Einwahl in Konferenzen als authentifizierte Benutzer teilnehmen, durch Eingabe einer PIN verfügen.
+  **Arbeiten mit PIN-Richtlinie für einwahlkonferenzen** Diese PIN-Richtlinie ermöglicht Benutzern, die über Active Directory Domain Services Anmeldeinformationen in Ihrer Organisation für die Einwahl in Konferenzen als authentifizierte Benutzer teilnehmen, durch Eingabe einer PIN verfügen.
 - [Erstellen oder Ändern von PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Gruppe von Benutzern](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
 - [Ändern Sie die Standardeinstellungen für Einwahlkonferenzen PIN](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)

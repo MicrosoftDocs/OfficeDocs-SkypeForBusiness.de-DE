@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f15ca933c2eaeda60308f1dd7f2cbbf996b89c42
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a751834c978c205316c1fd383f571d67d349f0b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014965"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371725"
 ---
 # <a name="prepare-my-users"></a>Vorbereiten der Benutzer
 
@@ -46,8 +46,8 @@ In der folgenden Abbildung ist ein Beispiel einer Anweisung Vision-Wert für ein
 ![Zweispaltige Tabelle mit Vision - warum wir dafür? (Organisationsebene) auf der linken und Wert - Was wird für mich? (auf Benutzerebene) auf der rechten Seite](media/prepare-my-users-new-image1.png "zweispaltige Tabelle mit Vision - Warum sind wir auf diese Weise? (Organisationsebene) auf der linken und Wert - Was wird für mich? (auf Benutzerebene) auf der rechten Seite")
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie den Vorteil und den Wert für die Benutzer auf eine Weise formuliert, die ihre erwerben-in für diese neue Lösung erhält?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Erstellen Sie Ihre Vision und den Wert-Anweisungen für Ihren aktuellen Projekt Bereich, stellt sicher, dass sie Ihre Ziele ausgerichtet.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie den Vorteil und den Wert für die Benutzer auf eine Weise formuliert, die ihre erwerben-in für diese neue Lösung erhält?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Erstellen Sie Ihre Vision und den Wert-Anweisungen für Ihren aktuellen Projekt Bereich, stellt sicher, dass sie Ihre Ziele ausgerichtet.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -57,8 +57,8 @@ In der folgenden Abbildung ist ein Beispiel einer Anweisung Vision-Wert für ein
 Bereitschaft der Organisation können Sie feststellen, wie primäre (oder nicht) Ihre Benutzer möglicherweise zum Ändern der deren Funktionsweise. Können wissen, wie Benutzer darauf reagieren können zum Ändern Ihrer Organisation proaktiv Probleme zu beheben, passen Sie Ihrem Bereitstellungsplan für eine optimale Empfang und Identifizieren von Benutzern, die den Champions oder Botschafterausschuss, um die Änderung zu vereinfachen verwendet werden können.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Sind Benutzer bereit und bereit sind, zu der neuen Lösung ändern?</li><li>Verfügen die Benutzer die Möglichkeit oder Competency, um die Änderung zu erleichtern?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die folgenden Starter Unterhaltung, um die Kultur Ihrer Organisation zu verstehen, wenn es darum geht, ändern. Diese Informationen können dabei helfen, wie viel zur Förderung des Bekanntheitsgrads und Schulung Sie möglicherweise für Ihr Projekt implementieren zu informieren.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Sind Benutzer bereit und bereit sind, zu der neuen Lösung ändern?</li><li>Verfügen die Benutzer die Möglichkeit oder Competency, um die Änderung zu erleichtern?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die folgenden Starter Unterhaltung, um die Kultur Ihrer Organisation zu verstehen, wenn es darum geht, ändern. Diese Informationen können dabei helfen, wie viel zur Förderung des Bekanntheitsgrads und Schulung Sie möglicherweise für Ihr Projekt implementieren zu informieren.
 </li></ul></td></tr>
 </table>
 
@@ -96,8 +96,8 @@ Bereitschaft der Organisation können Sie feststellen, wie primäre (oder nicht)
 Personen auf Dokumentebene Analyse gibt Ihnen Verständnis für Ihre Benutzer Rollen, Kohorten und Anwendungsfälle. Von Zeit zu verstehen, die Ihre Benutzer sind und ihre Funktionsweisen nehmen, können Sie sicherstellen, dass sie über das notwendige erfolgreich ist, wie Sie die Änderung zu implementieren. Dies kann gezielt bereitgestellten messaging, Schulungen oder sogar Geräten wie Headsets und Webcams enthalten. Beispielsweise erwarten Führungskraft Angebot Schulung, während Sie Reisen Feld Vertriebsmitarbeiter ein video sahen Belieben Trainings profitieren kann. Darüber hinaus kann Personen auf Dokumentebene Analyse identifizieren, die mithilfe der neuen Funktionalität heute im Vergleich zu die, die am besten durch das Warten bedient werden möglicherweise gestartet werden soll.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Haben für bestimmte Benutzer oder Kohorten eine Abhängigkeit Core an dieser Lösung für ihre Arbeit effektiv zu tun?</li><li>Gibt es bestimmte Anwendungsfälle, die mithilfe dieser neuen Lösung vereinfacht werden können?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Ordnen Sie Benutzer Rollen. Segmentieren Sie zunächst Ihre Benutzerbasis in Persona/Kohorte Gruppen (Führungskräfte, Außendienst, Mitarbeiter für die Zusammenarbeit, Einzelhandel usw.). Verwaltbarkeit Liste nicht mehr als acht Gruppen. (Beispiel Unterhaltung Starter, finden Sie unten.) Verwenden Sie Ihre Ergebnisse aus, um weitere Entwerfen Ihrer Benutzer Bereitschaft Kampagnen und Pilotbenutzer, von denen segmentieren, die von einer Aktualisierung später profitieren kann.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Haben für bestimmte Benutzer oder Kohorten eine Abhängigkeit Core an dieser Lösung für ihre Arbeit effektiv zu tun?</li><li>Gibt es bestimmte Anwendungsfälle, die mithilfe dieser neuen Lösung vereinfacht werden können?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Ordnen Sie Benutzer Rollen. Segmentieren Sie zunächst Ihre Benutzerbasis in Persona/Kohorte Gruppen (Führungskräfte, Außendienst, Mitarbeiter für die Zusammenarbeit, Einzelhandel usw.). Verwaltbarkeit Liste nicht mehr als acht Gruppen. (Beispiel Unterhaltung Starter, finden Sie unten.) Verwenden Sie Ihre Ergebnisse aus, um weitere Entwerfen Ihrer Benutzer Bereitschaft Kampagnen und Pilotbenutzer, von denen segmentieren, die von einer Aktualisierung später profitieren kann.
 </li><li>Anwendungsfälle zuordnen. Nachdem Sie Benutzergruppen Core, die von dieser neuen Technologie profitieren identifiziert haben, sollten Sie allgemeine Benutzersegmente. Grundlegendes zu Cross-Team Anwendungsfälle und Szenarien können Sie Ihrer Organisation arbeiten mit dieser neuen Technologie darstellen. Darüber hinaus machen Hinzufügen von Groß-/Kleinschreibung verwendende-Beispiele, die Ihre Kommunikation und Schulungspläne wirklich sie relevant für Ihre Benutzer.</li></ul></td></tr>
 </table>
 
@@ -143,13 +143,13 @@ Beispiele für Anwendungsfälle finden Sie auf der [Der schnelle Produktivität 
 Nachdem Sie verstehen, die Ihre Benutzer sind und wie diese tatsächlich in der neuen Lösung funktionieren, können Sie Ihre bereitschaftsplan entwerfen. Ihre Benutzer bereitschaftsplan beinhaltet, wie Sie kommunizieren, Schulen, und Ihre Benutzer unterstützen, als Sie Pilotprojekt integriert, und Betrieb der neue Lösung. Wie Sie in der vorherigen Schritte in diesem Artikel ermittelt haben, ist nicht Bereitschaft Stange. Beginnen Sie mit einer großer Reichweite zur Förderung des Bekanntheitsgrads und Schulungsplan, das Einbinden des Werts messaging Sie am Anfang dieses Prozesses definiert. Klicken Sie dann Ihren Messaging-, Schulungen, anpassen und support aus, um die Rollen oder Kohorten, die Sie definiert haben, je nach Bedarf. Ihr Plan personalisierte können Benutzer schneller beziehen sich auf die neue Lösung während der Vorführung, dass Sie ihren Anforderungen, die helfen verstehen, ihre Übergang zu erleichtern.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Welche bereitschaftsplan bieten Sie Hilfe zu vereinfachen und schnellere Umsetzung der neuen Lösung?</li><li>Verfügen Sie über die Rechte zur Förderung des Bekanntheitsgrads, Schulung und Support-Ressourcen, die die Möglichkeit für den Umgang mit ändern und die Benutzer Rollen, die Sie definiert haben ausgerichtet?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die Liste im folgenden Abschnitt, um Ideen für Ihr bereitschaftsplan zu generieren. Wählen Sie relevantesten diejenigen&mdash;oder eigene hinzufügen&mdash;zum Entwerfen einer bereitschaftsplan für Ihre Organisation optimiert.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Welche bereitschaftsplan bieten Sie Hilfe zu vereinfachen und schnellere Umsetzung der neuen Lösung?</li><li>Verfügen Sie über die Rechte zur Förderung des Bekanntheitsgrads, Schulung und Support-Ressourcen, die die Möglichkeit für den Umgang mit ändern und die Benutzer Rollen, die Sie definiert haben ausgerichtet?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die Liste im folgenden Abschnitt, um Ideen für Ihr bereitschaftsplan zu generieren. Wählen Sie relevantesten diejenigen&mdash;oder eigene hinzufügen&mdash;zum Entwerfen einer bereitschaftsplan für Ihre Organisation optimiert.</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>Bereitschaft Plan Ideen
 
 <table>
 <tr><th>Kommunikation</th><th>Schulung</th><th>Support</th></tr>
-<tr><td><ul><li>E-Mail-&mdash;personalisieren unsere [VoIP e-Mail-Vorlagen](prepare-my-users-email-templates.md)</li><li>Poster und digitaler Signatur </li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams und Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Artikel und Videos von Microsoft:<ul><li>[Wechseln Sie zu Teams von Skype für Unternehmen](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Video Schulung von Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Besprechungen und Telefonkonferenzen](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>Interne Unterstützung (T-Bot)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Selbsthilfe (Intranetwebsite)</li><li>[Online-Hilfe und-Vorgehensweisen](https://support.office.com/teams)</li><li>Floor-Walkers und champions</li><li>Feedbackschleife&mdash;finden Sie unter dem [Beispiel Benutzer Feedback Umfragen](prepare-my-users-feedback-templates.md)</li></td></tr>
+<tr><td><ul><li>E-Mail-&mdash;personalisieren unsere <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">VoIP e-Mail-Vorlagen</a></li><li>Poster und digitaler Signatur </li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams und Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Artikel und Videos von Microsoft:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Wechseln Sie zu Teams von Skype für Unternehmen</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Video Schulung von Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Besprechungen und Telefonkonferenzen</a></li></li></ul><li>Interne Unterstützung (T-Bot)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Selbsthilfe (Intranetwebsite)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Online-Hilfe und-Vorgehensweisen</a></li><li>Floor-Walkers und champions</li><li>Feedbackschleife&mdash;finden Sie unter dem <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">Beispiel Benutzer Feedback Umfragen</a></li></td></tr>
 </table>

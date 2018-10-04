@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: ab2aa3925ff1313798431e8f7bdec525074d2501
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 045896fe8b612e01a22360e0c12f15ebe2719c76
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885211"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374640"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Einrichten des Meeting Migration Service (MMS)
 
-Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.  Mit diesem Tool können Skype for Business-Besprechungen nicht zu Microsoft Teams-Besprechungen migriert werden.  
+Meeting Migration Service (MMS) is a Skype for Business service that runs in the background and automatically updates Skype for Business and Microsoft Teams meetings for users. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.  This tool does not migrate Skype for Business meetings into Microsoft Teams meetings.  
   
  **Anforderungen**
   
@@ -44,7 +44,7 @@ MMS aktualisiert Skype-Besprechungen für einen Benutzer in den folgenden beiden
     
 - Ein Administrator nimmt eine Änderung an den Audiokonferenzeinstellungen des Benutzers vor, die eine Aktualisierung der Audiokonferenzinformationen dieses Benutzers erfordern würde.
     
- **Häufige Szenarien, in denen MMS nicht verwendet werden kann**
+  **Häufige Szenarien, in denen MMS nicht verwendet werden kann**
   
 Im Folgenden werden einige häufige Szenarien vorgestellt, die auf Sie zutreffen könnten. Bei allen handelt es sich um unterstützte Szenarien für die Migration. MMS kann in diesen Szenarien allerdings nicht ausgeführt werden, und Sie müssen stattdessen das [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) verwenden.
   
@@ -107,15 +107,15 @@ Wenn MMS feststellt, dass die Besprechungen eines Benutzers aktualisiert werden 
   
 1. Identifizieren aller Skype for Business- und Microsoft Teams-Besprechungen, die der Benutzer in der Zukunft geplant hat
     
-  - Alle Skype for Business- oder Microsoft Teams-Besprechungen, die vor der Ausführung von MMS stattfanden, werden übersprungen.
+   - Alle Skype for Business- oder Microsoft Teams-Besprechungen, die vor der Ausführung von MMS stattfanden, werden übersprungen.
     
-  - Nur die Besprechungen, deren Organisator der Benutzer ist, werden aktualisiert
+   - Nur die Besprechungen, deren Organisator der Benutzer ist, werden aktualisiert
     
 2. Ersetzen des Informationsblocks für Onlinebesprechungen in den Besprechungsdetails
     
 3. Senden von Aktualisierungen an alle Besprechungsempfänger im Namen des Besprechungsorganisators
     
- **Wie lange dauert die Ausführung von MMS?**
+   **Wie lange dauert die Ausführung von MMS?**
   
 Wie lange es dauert, bis MMS die Besprechungen migriert hat, hängt davon ab, wie viele Benutzer betroffen sind und wie viele Skype for Business- oder Microsoft Teams-Besprechungen die einzelnen Benutzer insgesamt in ihren Kalendern haben. Die Ausführung dauert mindestens zehn Minuten. Große Migrationen können bis zu zwölf Stunden dauern; die meisten Migrationen sollten aber innerhalb von einer Stunde abgeschlossen sein.
   
@@ -141,7 +141,7 @@ Wie Meeting Migration Tool sendet auch MMS Besprechungsaktualisierungen im Namen
   
 ## <a name="managing-mms"></a>Verwalten von MMS
 
-Sie müssen mithilfe von Windows PowerShell zum Verwalten von MMS und überprüfen Sie den Status der laufenden Migrationen. Bei den Informationen in diesem Abschnitt wird davon ausgegangen, dass Sie mit der Nutzung von PowerShell zur Verwaltung Ihrer Skype for Business-Organisation vertraut sind. Wenn Sie mit PowerShell vertraut sind, finden Sie im Abschnitt [Mithilfe von PowerShell zum Verwalten von Ihrer Skype für Unternehmensorganisation](setting-up-the-meeting-migration-service-mms.md#WPSInfo) am Ende dieses Artikels.
+You need to use Windows PowerShell to manage MMS and check the status of ongoing migrations. The information in this section assumes that you're familiar with using PowerShell to manage your Skype for Business organization. If you are new to PowerShell, see the [Using PowerShell to manage your Skype for Business organization](setting-up-the-meeting-migration-service-mms.md#WPSInfo) section at the end of this article.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -181,17 +181,17 @@ Wenn Sie das  `Get-CsMeetingMigrationStatus`-Cmdlet ausführen, um eine Übersic
   
 1. Stellen Sie fest, welche Benutzer betroffen sind. Führen Sie den folgenden Befehl aus, um die Liste der betroffenen Benutzer und den spezifischen gemeldeten Fehler zu erhalten:
     
-  ```
-  Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
-  ```
+   ```
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
+   ```
 
 2. Führen Sie für jeden dieser Benutzer das [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) aus, um deren Besprechungen manuell zu migrieren.
     
 3. Wenn die Migration auch mit dem Meeting Migration Tool nicht funktioniert, haben Sie zwei Möglichkeiten:
     
-  - Weisen Sie die Benutzer an, neue Skype-Besprechungen zu erstellen.
+   - Weisen Sie die Benutzer an, neue Skype-Besprechungen zu erstellen.
     
-  - [Wenden Sie sich an den Support](https://go.microsoft.com/fwlink/p/?LinkID=518322).
+   - [Wenden Sie sich an den Support](https://go.microsoft.com/fwlink/p/?LinkID=518322).
     
 ### <a name="enabling-and-disabling-mms"></a>Aktivieren und Deaktivieren von MMS
 <a name="Troubleshooting"> </a>
@@ -273,13 +273,13 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
   
 > 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  $credential = Get-Credential
-  $session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $session
-  ```
-Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+>   ```
+>   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+>   $credential = Get-Credential
+>   $session = New-CsOnlineSession -Credential $credential
+>   Import-PSSession $session
+>   ```
+> Weitere Informationen zum Starten von Windows PowerShell finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder[Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 - In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
     

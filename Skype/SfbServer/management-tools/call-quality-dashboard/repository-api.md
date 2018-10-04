@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Zusammenfassung: Informationen Sie zu der Repository-API für die Qualitätsdashboard Anruf. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989094"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374723"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Repository-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server 2015
  
@@ -46,7 +46,7 @@ Anruf Qualitätsdashboard verwendet Repository-API, um die folgenden Information
     
 - **Die Einstellung für Benutzer** - beschreibt eine optionale Anwendungsverhalten für den Benutzer.
     
- **Cross-Origin Resource Sharing (CORS) Unterstützung für Repository-API**
+  **Cross-Origin Resource Sharing (CORS) Unterstützung für Repository-API**
   
 Repository-API unterstützt Cross-Origin Resource Sharing (CORS). CORS ist ein HTTP-Feature, mit dem eine Webanwendung in einer Domäne mit Zugriff auf Ressourcen in einer anderen Domäne. Webbrowser implementieren eine Einschränkung für die Sicherheit als [Same Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) same Origin Policy, die verhindert, eine Webseite nicht Aufrufen von APIs in einer anderen Domäne dass bezeichnet. CORS bietet auf sichere Weise zu einer Domäne (der Ursprungsdomäne) in einer anderen Domäne APIs aufrufen können. Informationen finden Sie die [Spezifikation CORS](https://www.w3.org/TR/cors/) auf CORS.
   

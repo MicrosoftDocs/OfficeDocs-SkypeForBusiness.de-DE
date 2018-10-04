@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Problembehandlung bei der Cloud Connector Edition-Bereitstellung.
-ms.openlocfilehash: 5d34cc78c7afa9a0d4e459e87d885c82b437bae0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882288"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371313"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Problembehandlung bei Ihrer Cloud Connector-Bereitstellung
  
@@ -122,17 +122,17 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     
 1. Starten Sie auf dem Hostserver eine PowerShell-Konsole als Administrator, und führen Sie Folgendes aus:
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 2. Suchen und installieren Sie alle verfügbaren Updates.
     
 3. Führen Sie in der PowerShell-Konsole das folgende Cmdlet aus:
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 - 
     
@@ -177,11 +177,11 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
   ```
 
     
--    **Problem: Das Cmdlet Get-CcRunningVersion gibt einen leeren Wert zurück, wenn eine auf dem Host bereitgestellten Appliance vorhanden ist.**
+- **Problem: Das Cmdlet Get-CcRunningVersion gibt einen leeren Wert zurück, wenn eine auf dem Host bereitgestellten Appliance vorhanden ist.**
     
-    **Lösung:** Dieser Fall kann eintreten, wenn Sie ein Upgrade von 1.3.4 oder 1.3.8 auf 1.4.1 durchführen. Nach der Installation von Version 1.4.1 mit der MSI-Datei müssen Sie `Register-CcAppliance` ausführen, bevor Sie ein anderes Cmdlet ausführen. `Register-CcAppliance` migriert die module.ini-Datei von %UserProfile%\CloudConnector auf %ProgramData%\CloudConnector. Wenn Sie diesen Vorgang nicht durchführen, wird eine neue module.ini-Datei im Ordner %ProgramData%\CloudConnector erstellt, und die Informationen der laufenden bzw. der Sicherungsversion für 1.3.4 oder 1.3.8 werden ersetzt.
+  **Lösung:** Dieser Fall kann eintreten, wenn Sie ein Upgrade von 1.3.4 oder 1.3.8 auf 1.4.1 durchführen. Nach der Installation von Version 1.4.1 mit der MSI-Datei müssen Sie `Register-CcAppliance` ausführen, bevor Sie ein anderes Cmdlet ausführen. `Register-CcAppliance` migriert die module.ini-Datei von %UserProfile%\CloudConnector auf %ProgramData%\CloudConnector. Wenn Sie diesen Vorgang nicht durchführen, wird eine neue module.ini-Datei im Ordner %ProgramData%\CloudConnector erstellt, und die Informationen der laufenden bzw. der Sicherungsversion für 1.3.4 oder 1.3.8 werden ersetzt.
     
-    Vergleichen Sie die Dateien im Ordner %UserProfile%\CloudConnector und %ProgramData%\CloudConnector module.ini. Wenn Unterschiede vorhanden sind, löschen Sie die Datei module.ini in %ProgramData%\CloudConnector und erneut ausführen `Register-CcAppliance`. Sie können auch die Datei manuell fest, um die korrekte Ausführung und Sicherungsversion ändern.
+  Vergleichen Sie die Dateien im Ordner %UserProfile%\CloudConnector und %ProgramData%\CloudConnector module.ini. Wenn Unterschiede vorhanden sind, löschen Sie die Datei module.ini in %ProgramData%\CloudConnector und erneut ausführen `Register-CcAppliance`. Sie können auch die Datei manuell fest, um die korrekte Ausführung und Sicherungsversion ändern.
     
 - **Problem: Nach der Ausführung des Switch-CcVersion-Cmdlets, um eine ältere Version wechseln, der aktuelle Version des Skripts unterscheidet, wird keine hohe Verfügbarkeit unterstützt für die alte Version.**
     
@@ -230,37 +230,37 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     
     Microsoft empfiehlt, dass Sie diese Schritte nicht spitzenauslastung Zeiten ausführen.
     
-  - Führen Sie auf der ersten Appliance das Cmdlet Remove-CcCertificationAuthorityFile zum Bereinigen von der Zertifizierungsstelle Sichern von Dateien in die \<SiteRoot\> Directory.
+   - Führen Sie auf der ersten Appliance das Cmdlet Remove-CcCertificationAuthorityFile zum Bereinigen von der Zertifizierungsstelle Sichern von Dateien in die \<SiteRoot\> Directory.
     
-  - Führen Sie das Cmdlet EINGABETASTE CcUpdate abzuleiten Dienste, und platzieren Sie jede Anwendung im Wartungsmodus aus.
+   - Führen Sie das Cmdlet EINGABETASTE CcUpdate abzuleiten Dienste, und platzieren Sie jede Anwendung im Wartungsmodus aus.
     
-  - Führen Sie die folgenden Cmdlets aus, um die Zertifizierungsstellenzertifikate und alle internen Serverzertifikate zurückzusetzen und neu zu erstellen:
+   - Führen Sie die folgenden Cmdlets aus, um die Zertifizierungsstellenzertifikate und alle internen Serverzertifikate zurückzusetzen und neu zu erstellen:
     
-    Cloud-Connector-Versionen vor 2.0:
+     Cloud-Connector-Versionen vor 2.0:
     
-    ```
-    Reset-CcCACertificate
-    Renew-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Renew-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-    Oder Cloud Connector, Version 2.0 und höher:
+     Oder Cloud Connector, Version 2.0 und höher:
     
-    ```
-    Reset-CcCACertificate
-    Update-CcServerCertificate
-    Remove-CcLegacyServerCertificate 
-    ```
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
 
-  - Führen Sie auf der ersten Appliance So sichern Sie die Zertifizierungsstellen-Dateien in das folgende Cmdlet der \<SiteRoot\> Ordner. Auf allen anderen Einheiten am gleichen Standort später mit dem Cmdlet Reset-CcCACertificate nutzen die Sicherungsdateien der Zertifizierungsstelle automatisch und Appliances verwendet das-Stammzertifikat.
+   - Führen Sie auf der ersten Appliance So sichern Sie die Zertifizierungsstellen-Dateien in das folgende Cmdlet der \<SiteRoot\> Ordner. Auf allen anderen Einheiten am gleichen Standort später mit dem Cmdlet Reset-CcCACertificate nutzen die Sicherungsdateien der Zertifizierungsstelle automatisch und Appliances verwendet das-Stammzertifikat.
     
-    ```
-    Backup-CcCertificationAuthority
-    ```
+     ```
+     Backup-CcCertificationAuthority
+     ```
 
-  - Führen Sie das Exit-CcUpdate-Cmdlet, um Dienste starten und Beenden im Wartungsmodus befindet. 
+   - Führen Sie das Exit-CcUpdate-Cmdlet, um Dienste starten und Beenden im Wartungsmodus befindet. 
     
-  - Wenn TLS zwischen dem Gateway und dem Vermittlungsserver verwendet wird, führen Sie das Cmdlet Export-CcRootCertificate aus jeder Anwendung auf der Website, und installieren Sie das exportierte Zertifikat auf PSTN-Gateways. 
+   - Wenn TLS zwischen dem Gateway und dem Vermittlungsserver verwendet wird, führen Sie das Cmdlet Export-CcRootCertificate aus jeder Anwendung auf der Website, und installieren Sie das exportierte Zertifikat auf PSTN-Gateways. 
     
 - **Problem: Erhalten Sie die folgende Fehlermeldung angezeigt, in der Cloud Connector Management Service-Protokoll, "C:\Programme\Microsoft Files\Skype für Business Cloud Connector Edition\ManagementService\CceManagementService.log": Fehler CceService: 0: Unerwartete Ausnahme beim Statusberichte zu online: System.Management.Automation.CmdletInvocationException: Fehler bei der Anmeldung für den Benutzer \<globaler Administrator\>. Erstellen Sie ein neues Credential-Objekt, und stellen Sie sicher, dass Sie den richtigen Benutzernamen und das Kennwort verwendet haben. ---\>**
     
@@ -276,43 +276,43 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     
     **Wenn Sie Cloud Connector, Version 1.4.2, ausführen**, generieren Sie mit den folgenden Schritten alle Cloud Connector-Kennwörter neu:
     
-    1. Starten Sie den Hostserver neu.
+  1. Starten Sie den Hostserver neu.
     
-    2. Löschen Sie die folgende Datei: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+  2. Löschen Sie die folgende Datei: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-    3. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie "Register-CcAppliance-lokale" die Kennwörter die Beschreibung nach erneut eingeben. Geben Sie die gleichen Kennwörter eingegebene vor dem für die Bereitstellung von Cloud-Connector ein.
+  3. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie "Register-CcAppliance-lokale" die Kennwörter die Beschreibung nach erneut eingeben. Geben Sie die gleichen Kennwörter eingegebene vor dem für die Bereitstellung von Cloud-Connector ein.
     
-    **Wenn Sie Cloud Connector, Version 2.0 oder höher, ausführen** neu zu generieren aller Cloud Connector Kennwörter folgende Schritte:
+     **Wenn Sie Cloud Connector, Version 2.0 oder höher, ausführen** neu zu generieren aller Cloud Connector Kennwörter folgende Schritte:
     
-    1. Starten Sie den Hostserver neu.
+  4. Starten Sie den Hostserver neu.
     
-    2. Löschen Sie die folgende Datei: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+  5. Löschen Sie die folgende Datei: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-    3. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie "Register-CcAppliance-lokale" die Kennwörter die Beschreibung nach erneut eingeben. 
+  6. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie "Register-CcAppliance-lokale" die Kennwörter die Beschreibung nach erneut eingeben. 
     
-    Wenn die zwischengespeicherte Kennwortdatei mit Cloud Connector, Version 1.4.2, generiert wurde, verwenden Sie das „VMAdmin“-Kennwort als „CceService“-Kennwort, wenn Sie danach gefragt werden. Geben Sie das gleiche Kennwort ein, das Sie vor der Cloud Connector-Bereitstellung für alle anderen Konten eingegeben haben.
+     Wenn die zwischengespeicherte Kennwortdatei mit Cloud Connector, Version 1.4.2, generiert wurde, verwenden Sie das „VMAdmin“-Kennwort als „CceService“-Kennwort, wenn Sie danach gefragt werden. Geben Sie das gleiche Kennwort ein, das Sie vor der Cloud Connector-Bereitstellung für alle anderen Konten eingegeben haben.
     
-    Wenn die zwischengespeicherte Kennwortdatei mit Cloud Connector, Version 1.4.2, generiert wurde und die Kennwörter von „DomainAdmin“ und „VMAdmin“ nicht übereinstimmen, müssen Sie die folgenden Schritte ausführen:
+     Wenn die zwischengespeicherte Kennwortdatei mit Cloud Connector, Version 1.4.2, generiert wurde und die Kennwörter von „DomainAdmin“ und „VMAdmin“ nicht übereinstimmen, müssen Sie die folgenden Schritte ausführen:
     
-    1. Führen Sie „Set-CcCredential -AccountType DomainAdmin“ wie folgt aus:
+  7. Führen Sie „Set-CcCredential -AccountType DomainAdmin“ wie folgt aus:
     
-    2. Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
+  8. Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
     
-    3. Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das zuvor verwendete Kennwort für „DomainAdmin“ ein.
+  9. Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das zuvor verwendete Kennwort für „DomainAdmin“ ein.
     
-    Die zwischengespeicherten Kennwortdatei mit Cloud-Connector, Version 2.0 oder höher, standardmäßig generiert wurde, verwenden VmAdmin und DomainAdmin "als CceService dasselbe Kennwort. Wenn Sie die Kennwörter "DomainAdmin" und VMAdmin geändert haben, müssen Sie die folgenden Schritte ausführen:
+     Die zwischengespeicherten Kennwortdatei mit Cloud-Connector, Version 2.0 oder höher, standardmäßig generiert wurde, verwenden VmAdmin und DomainAdmin "als CceService dasselbe Kennwort. Wenn Sie die Kennwörter "DomainAdmin" und VMAdmin geändert haben, müssen Sie die folgenden Schritte ausführen:
     
-    1. Führen Sie „Set-CcCredential -AccountType DomainAdmin“ wie folgt aus:
+  10. Führen Sie „Set-CcCredential -AccountType DomainAdmin“ wie folgt aus:
     
-        1. Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
+       1. Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
     
-        2. Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das zuvor verwendete Kennwort für „DomainAdmin“ ein.
+       2. Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das zuvor verwendete Kennwort für „DomainAdmin“ ein.
     
-    2. Führen Sie „Set-CcCredential -AccountType VmAdmin“ wie folgt aus:
+  11. Führen Sie „Set-CcCredential -AccountType VmAdmin“ wie folgt aus:
     
-        1. Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
+       1. Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
     
-        2. Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das zuvor verwendete Kennwort für „VmAdmin“ ein.  
+       2. Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das zuvor verwendete Kennwort für „VmAdmin“ ein.  
     
 - **Problem: Mit Cloud-Connector Version 2.1 oder höher, bei der Ausführung von Register-CcAppliance oder anderen Cmdlets auf der Appliance Sie erhalten eine Fehlermeldung wie etwa: "für jedes Objekt: die Eigenschaft"Common"nicht werden für dieses Objekt gefunden kann. Stellen Sie sicher, dass die Eigenschaft vorhanden ist. Unter C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 Char: 14 "**
     
@@ -344,23 +344,40 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
--  **Problem: Auf dem Hostserver oder den virtuellen Maschinen müssen Sie manuell nach Windows-Updates suchen bzw. diese installieren.**
+- **Problem: Auf dem Hostserver oder den virtuellen Maschinen müssen Sie manuell nach Windows-Updates suchen bzw. diese installieren.**
     
-    **Lösung:** Wir empfehlen Ihnen, dass Sie die Vorteile der automatisierten Betriebssystem-Updates der Skype for Business Cloud Connector Edition nutzen. Nachdem eine Appliance für die Online-Verwaltung registriert und das automatische Update des Betriebssystems aktiviert wurde, werden Windows-Updates vom Hostserver von den virtuellen Maschinen automatisch in Übereinstimmung mit den Windows-Einstellungen der Aktualisierungszeit für das Betriebssystem gesucht und installiert.
+   **Lösung:** Wir empfehlen Ihnen, dass Sie die Vorteile der automatisierten Betriebssystem-Updates der Skype for Business Cloud Connector Edition nutzen. Nachdem eine Appliance für die Online-Verwaltung registriert und das automatische Update des Betriebssystems aktiviert wurde, werden Windows-Updates vom Hostserver von den virtuellen Maschinen automatisch in Übereinstimmung mit den Windows-Einstellungen der Aktualisierungszeit für das Betriebssystem gesucht und installiert.
     
-    Wenn Sie manuell nach Windows-Updates suchen und diese installieren müssen, führen Sie die zu Ihrem Bereitstellungstyp passenden Schritte in diesem Abschnitt durch. Sie sollten das gleichzeitige Update des Hostservers und der darauf ausgeführten virtuellen Maschinen planen, um die bei Updates entstehenden Ausfallzeiten zu minimieren.
+   Wenn Sie manuell nach Windows-Updates suchen und diese installieren müssen, führen Sie die zu Ihrem Bereitstellungstyp passenden Schritte in diesem Abschnitt durch. Sie sollten das gleichzeitige Update des Hostservers und der darauf ausgeführten virtuellen Maschinen planen, um die bei Updates entstehenden Ausfallzeiten zu minimieren.
     
-    Sie können auch einen WSUS (Windows Server Update Services)-Server für die Bereitstellung von Updates für Cloud Connector-Server verwenden. Stellen Sie hierfür nur sicher, dass Sie **nicht** die automatische Installation von Windows-Update konfigurieren.
+   Sie können auch einen WSUS (Windows Server Update Services)-Server für die Bereitstellung von Updates für Cloud Connector-Server verwenden. Stellen Sie hierfür nur sicher, dass Sie **nicht** die automatische Installation von Windows-Update konfigurieren.
     
-    Weitere Informationen zum manuellen Update Ihrer Cloud Connector-Bereitstellung finden Sie im folgenden Abschnitt.
+   Weitere Informationen zum manuellen Update Ihrer Cloud Connector-Bereitstellung finden Sie im folgenden Abschnitt.
     
--   **Problem: Wenn Cloud Connector auf einen neuen Build aktualisiert werden, werden die Cloud Connector-Cmdlets nicht aktualisiert.** In diesem Fall manchmal auf, wenn ein PowerShell-Fenster geöffnet gelassen wird bei der automatischen Aktualisierung.
+- **Problem: Wenn Cloud Connector auf einen neuen Build aktualisiert werden, werden die Cloud Connector-Cmdlets nicht aktualisiert.** In diesem Fall manchmal auf, wenn ein PowerShell-Fenster geöffnet gelassen wird bei der automatischen Aktualisierung.
     
-    **Lösung:** Um die aktualisierten Cmdlets zu laden, können Sie entweder die folgenden Schritte ausführen:
+  **Lösung:** Um die aktualisierten Cmdlets zu laden, können Sie entweder die folgenden Schritte ausführen:
     
-     - Schließen Sie PowerShell in der Cloud Connector-Anwendung, und klicken Sie dann öffnen Sie PowerShell.
+   - Schließen Sie PowerShell in der Cloud Connector-Anwendung, und klicken Sie dann öffnen Sie PowerShell.
     
      - Oder führen Sie Import-Module CloudConnector-Force. 
+ 
+-   **Problem: "der Begriff 'Stop-CsWindowsService' ist nicht als den Namen eines-Cmdlet, Funktion, Skriptdatei oder betriebsbereiten Programm. erkannt" Fehler beim Versuch, EINGABETASTE CcUpdate-Cmdlet ausführen.**
+
+    **Lösung:** Löschen Sie die Datei $HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache.
+PowerShell erstellt diese Datei als Cache des Cmdlets von Modulen, die es findet, sodass es nicht alle Module jedes Mal als erneut analysieren, die langsam Dinge machen. In den meisten Fällen gab es einige eine Beschädigung der Datei, die irreführende Ergebnisse PowerShell bereitgestellt werden, wenn es wieder aus diesem Cache gelesen wurde.
+
+-   **Problem: "Import-Module CloudConnector" generiert Fehler "Import-Module: das angegebene Modul"CloudConnector"wurde nicht geladen werden, da kein gültiges Modul-Datei in einem beliebigen Modulverzeichnis gefunden wurde"**
+
+    **Lösung:**
+    - Überprüfen Sie, dass tatsächlich das Modul CloudConnector unter c:\Program Files\WindowsPowerShell\Modules vorhanden ist
+    
+    - Nachdem das Modul CloudConnector validieren unter diesem Speicherort vorhanden ist, kann die PSModulePath-Umgebungsvariable speichern den Pfad zu der Speicherorte der Module geändert werden:
+    
+     a. Temporäre ändern: Start Powershell als Administrator an, und führen Sie folgenden Befehl: $env: PSModulePath = $env: PSModulePath + "; C:\Programme\Microsoft Files\WindowsPowerShell\Modules\"
+        
+     b. Für persistent ändern, starten Sie PowerShell als Administrator an, und führen die folgenden Befehle, die jeweils: $CurrentValue = [Umgebung]:: GetEnvironmentVariable("PSModulePath", "Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Programme\Microsoft Files\WindowsPowerShell\Modules","Computer")
+
     
 ## <a name="install-windows-updates-manually"></a>Manuelles Installieren von Windows-updates
 
@@ -376,9 +393,9 @@ Stellen Sie für die manuelle Suche nach Updates eine Verbindung zu jedem Hostse
     
 2. Entfernen Sie die Instanz mit dem folgenden Cmdlet aus HA:
     
-  ```
-  Enter-CcUpdate
-  ```
+   ```
+   Enter-CcUpdate
+   ```
 
 3. 
     
@@ -386,9 +403,9 @@ Stellen Sie für die manuelle Suche nach Updates eine Verbindung zu jedem Hostse
     
 4. Legen Sie die Instanz mit dem folgenden Cmdlet erneut auf HA fest:
     
-  ```
-  Exit-CcUpdate
-  ```
+   ```
+   Exit-CcUpdate
+   ```
 
 Führen Sie für die Bereitstellungen mit mehreren Standorten die Schritte für einen einzelnen Standort für jeden Standort in der Bereitstellung aus, wobei die Updates jeweils auf einen Standort angewendet werden.
   

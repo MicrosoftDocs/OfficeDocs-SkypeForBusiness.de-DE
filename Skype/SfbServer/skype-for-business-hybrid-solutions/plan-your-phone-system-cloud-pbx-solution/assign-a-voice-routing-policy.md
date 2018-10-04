@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie eine VoIP-Richtlinie für Benutzer mit Telefonsystem im Office 365 mit lokalen PSTN-Anbindung zuweisen.'
-ms.openlocfilehash: 6acc7188cbb76c101890591a822ac03a686a8246
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 12e74a6ea4a0adf652cc4e9477d20f91b4e13732
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886062"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372409"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Zuweisen einer VoIP-Routingrichtlinie
  
@@ -50,15 +50,15 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihr Telefonsystem in Office 3
     
 3. Fügen Sie die PSTN-verwendungsdatensätzen der Richtlinie:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
+   ```
 
     Beispiel:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
+   ```
 
 ## <a name="creating-a-new-voice-routing-policy"></a>Erstellen einer neuen VoIP-Routingrichtlinie
 
@@ -70,15 +70,15 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihr Telefonsystem in Office 3
     
 3. Erstellen Sie eine neuen VoIP-Routingrichtlinie:
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
+   ```
 
     Beispiel:
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
+   ```
 
 In diesem Beispiel wird eine neue VoIP-Routingrichtlinie namens HybridVoice erstellt, der zwei PSTN-Verwendungen zugeordnet sind.
   
@@ -94,15 +94,15 @@ Unabhängig davon, ob Sie eine globale oder eine benutzerorientierte VoIP-Routin
     
 3. Weisen Sie einem Benutzer eine vorhandene VoIP-Richtlinie zu:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
+   ```
 
     Beispiel:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
+   ```
 
 In diesem Beispiel wird der Benutzer mit dem Anzeigenamen „Bob Kelly“ einer zuvor erstellten VoIP-Richtlinie mit dem Namen „HybridVoice“ zugewiesen.
   

@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Dieser Artikel führt Sie durch die Schritte zum Konfigurieren einer vorhandenen Skype für Business Server-Installation zum Verwenden des mobilitätsdienst, sodass Ihre mobilen Geräte Skype für Business Server Mobilitätsfeatures nutzen können.
-ms.openlocfilehash: c8d30f11fed3b6c45f06b7e21f0038bee0274df4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003138"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375446"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Bereitstellen und Konfigurieren von Mobilität für Skype Business Server  
  
@@ -34,7 +34,7 @@ Müssen überprüft den Artikel [für die Mobilität für Skype für Business Se
 Alle folgenden Abschnitte enthalten Schritte, bei denen davon ausgegangen wird, dass Sie das Planungsthema gelesen haben. Wenn Ihnen etwas unklar ist, können Sie dort nachlesen.
 
 > [!NOTE]
-> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
+> Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
   
 ## <a name="create-dns-records"></a>Erstellen von DNS-Einträgen
 <a name="CreateDNSRec"> </a>
@@ -247,7 +247,7 @@ Wenn Sie Fragen zur Planung, um Zertifikate haben, haben wir, die im Artikel [Pl
     
    - Wenn bereits zugewiesen, die Lyncdiscover. \<Sipdomain\> und Lyncdiscoverinternal. \<Sipdomain\> Datensätze.
     
-    Wenn mehr als ein Zertifikat zugewiesen ist, müssen Sie mehrere Zertifikate prüfen (siehe Hinweis oben).
+     Wenn mehr als ein Zertifikat zugewiesen ist, müssen Sie mehrere Zertifikate prüfen (siehe Hinweis oben).
     
 8. Wenn also finden Sie Lyncdiscover. \<Sipdomain\> und Lyncdiscoverinternal. \<Sipdomain\> Datensätze, haben Sie dies bereits konfiguriert. Sie können die MMC schließen.
     
@@ -307,7 +307,7 @@ Es sind zwei Hauptpunkte zu berücksichtigen:
     
    - Sie müssen einen Pfad für **Interne Publishing**veröffentlichen, und geben Sie den FQDN für die externe Webdienste auf dem System zum Lastenausgleich der Front-End-Pool (oder den FQDN des Director-Pool System zum Lastenausgleich, sofern vorhanden) nun, ein Beispiel wäre sfb_ pool01.contoso.Local.
     
-   - Geben Sie ** / ** wie den Pfad zu veröffentlichenden, aber Sie auch **den ursprünglichen Hostheader**weiterleiten müssen.
+   - Geben Sie ** / *** wie den Pfad zu veröffentlichenden, aber Sie auch **den ursprünglichen Hostheader**weiterleiten müssen.
     
    - Sie finden eine Option für Details oder Informationen zum **öffentlichen oder externen Namen**. Dort können Sie Folgendes eingeben:
     
@@ -315,7 +315,7 @@ Es sind zwei Hauptpunkte zu berücksichtigen:
     
    - Geben Sie als **Namen** den Wert **lyncdiscover.** <sipdomain>(Dies ist die externe AutoErmittlungsdienst-URL). Wenn Sie eine Regel für die externen Webdienste-URL auf den Front-End-Pool erstellen, müssen Sie jetzt, geben Sie den FQDN für die externe Webdienste auf dem Front-End-Pool (beispielsweise lyncwebextpool01.contoso.com).
     
-   - Wird eine Option **Pfad** vorhanden sein, und Sie müssen eingeben ** / ** hier.
+   - Wird eine Option **Pfad** vorhanden sein, und Sie müssen eingeben ** / *** hier.
     
    - Wählen Sie mit Ihrem aktuellen öffentlichen Zertifikat einen **SSL-Listener** aus.
     
@@ -353,7 +353,7 @@ Es sind zwei Hauptpunkte zu berücksichtigen:
     
    - Sie müssen einen Pfad für **Interne Publishing**veröffentlichen, und geben Sie den FQDN für die **VIP-Adresse** des Systems zum Lastenausgleich für den Front-End-Pool nun, ein Beispiel wäre sfb_pool01.contoso.local.
     
-   - Geben Sie ** / ** wie den Pfad zu veröffentlichenden, aber Sie auch **den ursprünglichen Hostheader**weiterleiten müssen.
+   - Geben Sie ** / *** wie den Pfad zu veröffentlichenden, aber Sie auch **den ursprünglichen Hostheader**weiterleiten müssen.
     
    - Sie finden eine Option für Details oder Informationen zum **öffentlichen oder externen Namen**. Dort können Sie Folgendes eingeben:
     
@@ -361,7 +361,7 @@ Es sind zwei Hauptpunkte zu berücksichtigen:
     
    - Geben Sie als **Namen** den Wert **lyncdiscover.** <sipdomain>(Dies ist die externe AutoErmittlungsdienst-URL).
     
-   - Wird eine Option **Pfad** vorhanden sein, und Sie müssen eingeben ** / ** hier.
+   - Wird eine Option **Pfad** vorhanden sein, und Sie müssen eingeben ** / *** hier.
     
    - Sie müssen einen Weblistener oder Ihren Reverseproxy Aufrufen eines für Sie erstellen können.
     
@@ -390,15 +390,15 @@ Damit Mobilclients ermitteln können, wo sich ein Benutzer befindet, muss der Au
     
 2. Führen Sie Folgendes ein, um den Wert des **proxyfqdn** für Ihre Skype für Business Server-Umgebung zu erhalten:
     
-  ```
-  Get-CsHostingProvider
-  ```
+   ```
+   Get-CsHostingProvider
+   ```
 
 3. Führen Sie dann im Shellfenster folgenden Befehl aus:
     
-  ```
-  Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
-  ```
+   ```
+   Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
+   ```
 
     Hierbei wird [identity] durch den Domänennamen des freigegebenhen SIP-Adressraums ersetzt.
     
@@ -410,7 +410,7 @@ Nachdem Sie Skype Business Server-Mobilitätsdienst und Skype für Business Serv
 Für Lync Server 2010-Clients auf Skype für Business Server 2015 müssen Sie führen Sie **Test-CsMcxP2PIM** zu testen. Die Lync Server 2010-Benutzer müssen weiterhin tatsächlichen Benutzern oder vordefinierten Testbenutzer sein und benötigen Sie ihre Anmeldeinformationen.
 
 > [!NOTE]
-> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
+> Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Testkonferenz für Skype for Business- und Lync 2013-Mobilclients
 
@@ -437,7 +437,7 @@ Für Lync Server 2010-Clients auf Skype für Business Server 2015 müssen Sie f�
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Konferenztest für Lync 2010-Mobilclients
 
 > [!NOTE]
-> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
+> Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
 
 1. Melden Sie sich als Mitglied der **CsAdministrator** -Rolle auf einem beliebigen Computer, auf dem **Skype für Business Server-Verwaltungsshell** und **Ocscore** installiert sind.
     
@@ -451,13 +451,13 @@ Für Lync Server 2010-Clients auf Skype für Business Server 2015 müssen Sie f�
 
    Sie können auch Anmeldeinformationen in einem Skript festlegen und sie an das Test-Cmdlet übergeben. Dafür sehen Sie unten ein Beispiel.
     
-  ```
-  $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
-  $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
-  $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
-  $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
-  Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
-  ```
+   ```
+   $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
+   $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
+   $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
+   $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
+   Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
+   ```
 
 Um den Befehl Verfahren überprüfen können darüber hinaus [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) "und" [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)ausgecheckt werden.
   

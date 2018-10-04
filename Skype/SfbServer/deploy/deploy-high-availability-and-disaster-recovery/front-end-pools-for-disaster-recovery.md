@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Sie können Front-End-Poolpaare verwenden, um Schutz durch Notfallwiederherstellung bereitzustellen. Dies ist jedoch nicht erforderlich.
-ms.openlocfilehash: 72083b2ec249a83c06cd8ccebe683f29d15709e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7bbb15c635b8a0b9c90d80309e49721cfe778155
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026481"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371272"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Bereitstellen Sie kombinierte Front-End-Pools für Disaster Recovery in Skype für Business Server
  
@@ -58,23 +58,23 @@ Sie können die notfallwiederherstellungstopologie eines Paars Front-End-Pools d
 
 10. Verwenden Sie die folgenden Cmdlets, um zu erzwingen, dass die Benutzer- und Konferenzdaten beider Pools miteinander synchronisiert werden:
     
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+    ```
 
-   Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen. Sie können die folgenden Cmdlets verwenden, um den Status zu überprüfen. Stellen Sie sicher, dass der Status für beide Richtungen stabil ist.
+    Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen. Sie können die folgenden Cmdlets verwenden, um den Status zu überprüfen. Stellen Sie sicher, dass der Status für beide Richtungen stabil ist.
     
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+    ```
 
-   ```
-   Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-   ```
+    ```
+    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+    ```
 
 > [!NOTE]
 > Die Option **Automatisches Failover und Failback für VoIP** und die zugehörigen Zeitintervalle im Topologie-Generator gelten nur für die VoIP-ausfallsicherheit-Funktionen, die in Lync Server eingeführt wurden. Durch Auswählen dieser Option impliziert nicht, dass die in diesem Dokument beschriebenen poolfailover automatisch erfolgt. Failover und Failback müssen immer ein Administrator manuell die Cmdlets Failover und Failback jeweils aufrufen.

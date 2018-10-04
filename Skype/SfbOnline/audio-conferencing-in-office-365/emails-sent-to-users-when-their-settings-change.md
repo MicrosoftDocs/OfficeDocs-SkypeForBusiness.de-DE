@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, welche Informationen automatisch gesendet, Benutzern per e-Mail beim Ändern ihrer Einstellungen für einwahlkonferenzen in Skype für Business Online. '
-ms.openlocfilehash: 2ffe61d165b7cbfe6f91af9b819f892f88433724
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f3b4a530e204524dcf183ac671124c6d6ff8df03
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890426"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374070"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>An Benutzer gesendete E-Mails, wenn ihre Einstellungen in Skype for Business Online geändert werden
 
@@ -34,14 +34,14 @@ ms.locfileid: "23890426"
 
 E-Mails werden automatisch für Benutzer, die [für die Audiokonferenz aktiviert](set-up-audio-conferencing.md) werden gesendet mithilfe von Microsoft als Anbieter von Audiokonferenzen.
   
-Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audiokonferenzen aktiviert sind, werden standardmäßig. Wenn Sie die Anzahl von E-Mails, die an die Benutzer gesendet werden, einschränken möchten, können Sie diese Einstellung deaktivieren. Audiokonferenzen in Office 365 sendet in den folgenden Fällen E-Mails an Benutzer:
+By default, there are four types of email that will be sent to your users who are enabled for Audio Conferencing. However, if you want to limit the number of emails sent to users, you can turn it off. Audio Conferencing in Office 365 will send email to your users' email when:
   
 - **Auf diese oder beim Ändern des Anbieters von Audiokonferenzen an Microsoft, wird eine Audiokonferenz-Lizenz zugewiesen.**
     
-     Diese e-Mail enthält die Konferenz-ID, die Konferenz Standardrufnummer für Besprechungen, die Audiokonferenz PIN für den Benutzer und die die Skype für Business Online Besprechung Update Tool verwenden, mit dem Aktualisieren vorhandener Besprechungen für, Anweisungen und Link der Benutzer. Siehe [Zuweisen von Skype for Business-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) oder [Zuweisen von Microsoft als Audiokonferenzanbieter](assign-microsoft-as-the-audio-conferencing-provider.md).
+     This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
     
     > [!NOTE]
-    > Wenn Ihre Organisation für dynamische Konferenz-IDs aktiviert wurde, weisen alle geplanten Besprechungen eines Benutzers eine eindeutige Konferenz-ID auf. Sie können die [dynamische Audiokonferenzen-IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md)einrichten. 
+    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
     So kann diese E-Mail aussehen:
     
@@ -51,10 +51,10 @@ Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audi
     
 - **Sich die Konferenz-ID oder die Standardtelefonnummer eines Benutzers ändert.**
     
-    Diese E-Mail umfasst die Konferenz-ID, die Standardeinwahlnummer sowie Anweisungen und die Verknüpfung zum Skype for Business Online Meeting Update Tool, welches zur Aktualisierung bereits für den Benutzer geplanter Besprechungen verwendet wird. Aber diese e-Mails nicht des Benutzers Audiokonferenzen PIN enthalten. Siehe [Einrichten einer Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user.md).
+    This email contains the conference ID, default conference phone number, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. But this email doesn't include the user's audio conferencing PIN. See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
     
     > [!NOTE]
-    > Wenn Ihre Organisation für dynamische Konferenz-IDs aktiviert wurde, weisen alle geplanten Besprechungen eines Benutzers eine eindeutige Konferenz-ID auf. Sie können die [dynamische Audiokonferenzen-IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md)einrichten. 
+    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
     So kann diese E-Mail aussehen:
     
@@ -62,10 +62,10 @@ Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audi
   
 - **Die PIN eines Benutzers-Audiokonferenzen wird zurückgesetzt.**
     
-    Diese e-Mail enthält der Organisator Audiokonferenzen PIN, die vorhandene Konferenz-ID und die Standardrufnummer Konferenz für den Benutzer. Finden Sie unter [der Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin.md).
+    This email contains the organizer's audio conferencing PIN, the existing conference ID, and default conference phone number for the user. See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
     
     > [!NOTE]
-    > Wenn Ihre Organisation für dynamische Konferenz-IDs aktiviert wurde, weisen alle geplanten Besprechungen eines Benutzers eine eindeutige Konferenz-ID auf. Sie können die [dynamische Audiokonferenzen-IDs in Ihrer Organisation](using-audio-conferencing-dynamic-ids-in-your-organization.md)einrichten. 
+    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
     So kann diese E-Mail aussehen:
     
@@ -73,7 +73,7 @@ Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audi
   
 - **Lizenz des Benutzers entfernt wird oder wenn Audiokonferenzen ändert von Microsoft in anderen Anbieter oder keiner.**
     
-    Dies geschieht, wenn die **Audiokonferenz** -Lizenz eines Benutzers oder beim Ändern des Anbieters von Audiokonferenzen eines Benutzers von Microsoft an einen Drittanbieter-Audiokonferenzen oder entfernt wird, wenn den Anbieter auf **keine**festlegen. Diese e-Mail enthält die Informationen für den Benutzer mit der Skype für Business Online Besprechung Update Tool Audiokonferenzen bestimmte Informationen wie die Standard Konferenz Telefon Nummer oder Konferenz-ID entfernt und Anweisungen
+    This happens when the **Audio Conferencing** license is removed from a user or when changing the audio conferencing provider of a user from Microsoft to a third-party audio conferencing provider or when setting the provider to **None**. This email contains the instructions and information for the user to use the Skype for Business Online Meeting Update Tool to remove audio conferencing specific information, such as the default conference phone number or conference ID.
     
     Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc).
     
@@ -86,7 +86,7 @@ Es gibt vier Typen von e-Mails, die an die Benutzer gesendet wird, die für Audi
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Änderungen an den E-Mail-Nachrichten, die ihnen geschickt werden
 
-Sie können die E-Mail-Nachricht ändern, die automatisch an Benutzer gesendet wird. Zu den zu ändernden Optionen gehören die E-Mail-Adresse und der Anzeigename, der in der Kontaktinformation *From* enthalten ist. Standardmäßig werden des Absenders der e-Mail von Office 365, aber Sie können die e-Mail-Adresse ändern und den Anzeigenamen von Windows PowerShell und das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . So ändern Sie die E-Mail-Adresse, die als Absender von E-Mail-Nachrichten an Benutzer verwendet wird:
+You can make changes to the email that is automatically sent to users including the email address and the display name that is included in the *From* contact information. By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet. To make changes to the email address that is sending the email to the users, you must:
   
 - Die E-Mail-Adresse in den Parameter  _SendEmailFromAddress_ eingeben.
     
@@ -101,13 +101,13 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 ```
 
 > [!NOTE]
->  Wenn Sie die Informationen der e-Mail-Adresse ändern möchten, müssen Sie sicherstellen, dass die eingehenden e-Mail-Adressrichtlinien Ihrer Umgebung-e-Mails zulassen, die die benutzerdefinierten angegeben von-Adresse stammen. Wenn Sie die Kontaktinformationen *From* außer Kraft setzen möchten, sollten Sie sicherstellen, dass die E-Mails ordnungsgemäß an Benutzer gesendet werden. Hierzu können Sie dies mit einem Benutzer in Ihrer Organisation testen.
+>  If you want to change the email address information, you need to make sure that the inbound email policies of your environment allow emails that come from the custom specified from address. If you decide to override the *From* contact information, you should verify that the emails are correctly sent to users. You can do this by testing this with one user in your organization.
   
 Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) können Sie weitere Einstellungen für Ihre Organisation (unter anderem E-Mail) verwalten.
   
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Wie gehen Sie vor, wenn Sie Benutzern keine E-Mails senden möchten?
 
-Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails an die Benutzer gesendet, auch nicht, wenn ihnen eine Lizenz zugewiesen wird. In diesem Fall die Konferenz-ID default Conferencing Telefonnummer und wichtiger, ihre PIN-Audiokonferenzen wird nicht an den Benutzer gesendet werden. Wenn dies geschieht, müssen Sie dem Benutzer eine separate E-Mail schreiben oder ihn anrufen, um ihm diese Mitteilung zu machen.
+When you disable sending emails to users, email won't be sent even when a user gets assigned a license. In this case, the conference ID, default conferencing phone number, and, more importantly, their audio conferencing PIN won't be sent to the user. When this happens, you must tell the user by sending them a separate email or by calling them.
   
 In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu empfangen von e-Mail für Audiokonferenzen verhindern möchten, können Sie die Skype Business-Verwaltungskonsole oder Windows PowerShell. 
  
@@ -126,9 +126,9 @@ In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu e
   
 1. Führen Sie das Folgende aus, um das Senden von E-Mails an alle Benutzer zu deaktivieren:
     
-  ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
-  ```
+   ```
+   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
+   ```
 
 Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) können Sie weitere Einstellungen für Ihre Organisation (unter anderem E-Mail) verwalten.
   
@@ -136,7 +136,7 @@ Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microso
 
 - Weitere Informationen zur Aktivierung und Deaktivierung automatisch verschickter E-Mails an Ihre Benutzer finden Sie unter [Aktivieren Sie oder deaktivieren Sie beim Senden von e-Mails aus, wenn Audio Konferenzen Einstellungen ändern](enable-or-disable-sending-emails-when-their-settings-change.md).
     
-- Es kann vorkommen, dass Benutzer ihre Audioinformationen verlieren. Sie müssen dann die gesamten Audioinformationen an den Benutzer senden können. Sie können diese Schritte durchführen, indem Sie mithilfe der Skype für Business Administrationscenter und Audiokonferenzen Eigenschaften für einen Benutzer auf **Konferenz Informationen per e-Mail senden** . Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information.md). Diese Informationen enthalten jedoch nicht die Audiokonferenz-PIN.
+- Sometimes users lose their audio information and you need to be able to send them all of their audio information to them. You can do this by using the Skype for Business admin center and clicking **Send conference info via email** under the audio conferencing properties for a user. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md). However, this information doesn't include the audio conferencing PIN.
     
     Hier ist ein Beispiel für eine E-Mail, die an die Benutzer gesendet wird:
     

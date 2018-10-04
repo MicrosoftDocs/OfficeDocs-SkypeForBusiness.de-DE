@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Erfahren Sie, wie die Skype für organisierte Konferenz Tätigkeit Bericht abgerufen und das interpretieren und passen Sie es. '
-ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854261"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372591"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 
@@ -81,22 +81,22 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Beispielsweise im Diagramm **Aktivität** klicken Sie oder tippen Sie auf **Sofortnachrichten**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Dial-in/Out - 3rd Party**und **Anwahl/Microsoft** um nur die Informationen im Zusammenhang mit jeweils finden Sie unter. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert.
 ***
 ![Zahl 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt Sie eine Aufschlüsselung der organisierte Konferenz Aktivitäten pro Benutzer. Zeigt alle Benutzer, die Skype für Unternehmen und Konferenzen, die sie organisiert zugewiesen haben. Sie können zusätzliche Spalten zur Tabelle hinzufügen. 
-*    **Benutzername** ist der Name des Benutzers. 
-*    **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde.<br/><br/>
-    > [!NOTE]
-    > Aktivitäten für eine gelöschte Benutzer wird weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums lizenziert wurde. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
+* **Benutzername** ist der Name des Benutzers. 
+* **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde.<br/><br/>
+  > [!NOTE]
+  > Aktivitäten für eine gelöschte Benutzer wird weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums lizenziert wurde. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
      
-*    **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde. 
-*    **Datum der letzten Aktivität (UTC)** ist das Datum der letzten Aktivität (UTC) für diesen Benutzer. 
-*    **Instant Messaging** zeigt die Gesamtanzahl der Instant Messaging-Konferenzen, die organisiert wurden. 
-*    **Audio/Video** zeigt die Gesamtanzahl der a/v-Konferenzen, die organisiert wurden.
-*    **Anwendungsfreigabe** zeigt die Gesamtanzahl der Konferenzen, die organisiert wurden mit Anwendungsfreigabe. 
-*    **Web** zeigt die Gesamtanzahl von Webkonferenzen, die organisiert wurden. 
-*    **Dial-in/Out - 3rd Party** zeigt die Gesamtanzahl der Anwahl/Audiokonferenzen, die organisiert wurden, die einen 3. Partei Audiokonferenzen verwenden. 
-*    **Microsoft/Anwahl** zeigt die Gesamtanzahl der Konferenzen, Audio/Anwahl, die organisiert wurden. 
-*    **A/v-Minuten** zeigt die Gesamtanzahl der Minuten in organisierten Konferenzen, die a/v verwendet. 
-*    **Microsoft - Einwahl Minuten** zeigt die Gesamtanzahl der Zugriffsnummer für Einwahl Minuten in Besprechungen, die organisiert wurden, die Microsoft Audiokonferenz für die Verwendung als verwendet. 
-*    **Microsoft - Anwahl Minuten** zeigt die Gesamtanzahl der Dial-Out-Minuten in Besprechungen, die organisiert wurden, die Microsoft Audiokonferenz für die Verwendung als verwendet. 
+* **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde. 
+* **Datum der letzten Aktivität (UTC)** ist das Datum der letzten Aktivität (UTC) für diesen Benutzer. 
+* **Instant Messaging** zeigt die Gesamtanzahl der Instant Messaging-Konferenzen, die organisiert wurden. 
+* **Audio/Video** zeigt die Gesamtanzahl der a/v-Konferenzen, die organisiert wurden.
+* **Anwendungsfreigabe** zeigt die Gesamtanzahl der Konferenzen, die organisiert wurden mit Anwendungsfreigabe. 
+* **Web** zeigt die Gesamtanzahl von Webkonferenzen, die organisiert wurden. 
+* **Dial-in/Out - 3rd Party** zeigt die Gesamtanzahl der Anwahl/Audiokonferenzen, die organisiert wurden, die einen 3. Partei Audiokonferenzen verwenden. 
+* **Microsoft/Anwahl** zeigt die Gesamtanzahl der Konferenzen, Audio/Anwahl, die organisiert wurden. 
+* **A/v-Minuten** zeigt die Gesamtanzahl der Minuten in organisierten Konferenzen, die a/v verwendet. 
+* **Microsoft - Einwahl Minuten** zeigt die Gesamtanzahl der Zugriffsnummer für Einwahl Minuten in Besprechungen, die organisiert wurden, die Microsoft Audiokonferenz für die Verwendung als verwendet. 
+* **Microsoft - Anwahl Minuten** zeigt die Gesamtanzahl der Dial-Out-Minuten in Besprechungen, die organisiert wurden, die Microsoft Audiokonferenz für die Verwendung als verwendet. 
 
 Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in dem Benutzerinformationen erkennbar ist, können Sie die für den Datenschutz für alle diese Berichte ändern. Checken Sie die **wie blenden Sie Ebene Benutzerdetails?** Abschnitt in der [Berichte im Office 365 Administrationscenter](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

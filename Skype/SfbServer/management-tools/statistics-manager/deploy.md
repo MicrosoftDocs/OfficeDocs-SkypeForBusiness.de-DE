@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Statistiken-Managers für Skype für Business Server 2015.'
-ms.openlocfilehash: 7730a6b933bbe1d627bffe175a24a60273be3a88
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371141"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Bereitstellen von Statistics Manager für Skype for Business Server 2015
  
@@ -87,19 +88,19 @@ Installieren Sie den Listener-Dienst auf dem Hostcomputer durch Ausführen der S
     
 2. Geben Sie auf der nächsten Seite die folgenden Informationen ein:
     
-    - **Dienstkennwort:** Dies ist das Kennwort, mit dem die Remote-Agents den Listener-Dienst authentifizieren.
+   - **Dienstkennwort:** Dies ist das Kennwort, mit dem die Remote-Agents den Listener-Dienst authentifizieren.
     
-    - **Dienst-Port:** Dies ist die HTTPS-Portnummer, die der Listener verwendet wird, um die Kommunikation mit dem Agenten. Bei der Installation wird dieser Port durch eine lokale Firewall durchgelassen, es wird eine URL-ACL erstellt und ein SSL-Zertifikat wird an diesen Port gebunden. Der Standardwert ist 8443.
+   - **Dienst-Port:** Dies ist die HTTPS-Portnummer, die der Listener verwendet wird, um die Kommunikation mit dem Agenten. Bei der Installation wird dieser Port durch eine lokale Firewall durchgelassen, es wird eine URL-ACL erstellt und ein SSL-Zertifikat wird an diesen Port gebunden. Der Standardwert ist 8443.
     
-    - **Zertifikat Fingerabdruck:** Hierbei handelt es sich um den Fingerabdruck des Zertifikats, mit denen der Listener das HTTPS-Protokoll zu verschlüsseln. Der Netzwerkdienst muss über eine Leseberechtigung für den privaten Schlüssel verfügen.
+   - **Zertifikat Fingerabdruck:** Hierbei handelt es sich um den Fingerabdruck des Zertifikats, mit denen der Listener das HTTPS-Protokoll zu verschlüsseln. Der Netzwerkdienst muss über eine Leseberechtigung für den privaten Schlüssel verfügen.
     
-    Klicken Sie auf die Schaltfläche **Auswählen...**, um den Fingerabdruck auszuwählen.
+     Klicken Sie auf die Schaltfläche **Auswählen...**, um den Fingerabdruck auszuwählen.
     
-    Sie finden den Zertifikatfingerabdruck, indem Sie den Zertifikat-Manager oder den folgenden PowerShell-Befehl verwenden:
+     Sie finden den Zertifikatfingerabdruck, indem Sie den Zertifikat-Manager oder den folgenden PowerShell-Befehl verwenden:
     
-  ```
-  Get-ChildItem -path cert:\LocalMachine\My
-  ```
+   ```
+   Get-ChildItem -path cert:\LocalMachine\My
+   ```
 
    - **Dir installieren:** Dies ist das Verzeichnis auf dem die Binärdateien installiert werden. Sie können das Standardverzeichnis über die Schaltfläche **Durchsuchen...** ändern.
     
@@ -109,7 +110,7 @@ Installieren Sie den Listener-Dienst auf dem Hostcomputer durch Ausführen der S
     
 Um die Installation zu validieren, gehen Sie wie folgt vor:
   
-1. Öffnen Sie einen Browser, und navigieren Sie zu https://localhost: \<Service-Port\>/healthcheck/
+1. Öffnen Sie einen Browser, und navigieren Sie zuhttps://localhost:\<service-port\>/healthcheck/
     
     Die Standardeinstellung ist Dienstport 8443 (sofern Sie nicht einen anderen Port festgelegt haben).
     
@@ -139,7 +140,7 @@ Installieren Sie die Website auf dem Hostcomputer durch Ausführen der StatsManW
     
 Um die Website anzeigen, öffnen Sie einen Browser, und navigieren Sie zu: http://localhost, Webport\>/.
   
-Integritätsinformationen nur anzeigen, öffnen Sie einen Browser, und navigieren zu: http://localhost: \<Webport\>/Healthcheck /.
+Integritätsinformationen nur anzeigen, öffnen Sie einen Browser, und navigieren zu: http://localhost:\<webport\>/healthcheck/.
   
 Der Standardwert für die Webportnummer lautet 8080. Sie können die Portbindung der Website über den IIS-Manager ändern.
   
@@ -157,7 +158,7 @@ Installieren Sie einen Agent auf jedem Skype für Business Server, die Sie durch
     
    - **Datendienst-URI:** Dies ist der URI der Listener sich befindet. Sollte die https://name:port Format.
     
-    Sie können einen NETBIOS-Namen oder einen FQDN verwenden. Sie können den Namen, der auch als **Betreff** oder **Alternative Antragstellernamen** des Zertifikats auf den Listener-Dienst angegeben wird, aber dies ist nicht erforderlich.
+     Sie können einen NETBIOS-Namen oder einen FQDN verwenden. Sie können den Namen, der auch als **Betreff** oder **Alternative Antragstellernamen** des Zertifikats auf den Listener-Dienst angegeben wird, aber dies ist nicht erforderlich.
     
    - **Service Fingerabdruck:** Hierbei handelt es sich um den Fingerabdruck des SSL-Zertifikats der Listener verwendeten. Der Agent verwendet diesen Fingerabdruck zur Authentifizierung des Listeners. (Er führt keine vollständige Verifizierung von Zertifikaten durch, weil es möglich ist, selbstsignierte Zertifikate zu verwenden.)
     
@@ -184,9 +185,9 @@ Gehen folgendermaßen Sie vor, um die Skype für Business Server-Topologie zu im
     
     a. Führen Sie den folgenden Befehl aus: 
     
-  ```
-  Get-CsPool | Export-Clixml -Path mypoolinfo.xml
-  ```
+   ```
+   Get-CsPool | Export-Clixml -Path mypoolinfo.xml
+   ```
     b. Kopieren Sie die Datei "mypoolinfo.xml" auf den Server, der den Listener ausgeführt wird.
     
 2. Auf dem Host, auf dem der Listener ausgeführt wird:
@@ -195,15 +196,15 @@ Gehen folgendermaßen Sie vor, um die Skype für Business Server-Topologie zu im
     
    b. Navigieren Sie zu dem Verzeichnis, in dem der Listener installiert ist. Die Standardeinstellung ist: 
     
-  ```
-  cd C:\Program Files\Skype for Business Server StatsMan Listener
-  ```
+   ```
+   cd C:\Program Files\Skype for Business Server StatsMan Listener
+   ```
 
 3. Führen Sie den folgenden Befehl aus, um zu bestätigen, welche Server hinzugefügt und aktualisiert werden:
     
-  ```
+   ```
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
-  ```
+   ```
 
 Mit dem folgenden Befehl können Sie alle Optionen anzeigen:
   
@@ -221,15 +222,15 @@ Wenn Sie möchten, zum Überwachen von Servern, die nicht in Ihrer Skype für Bu
   
 1. Navigieren Sie zu dem Verzeichnis, in dem der Listener installiert ist. Die Standardeinstellung ist: 
     
-  ```
-  cd C:\Program Files\Skype for Business Server StatsMan Listener
-  ```
+   ```
+   cd C:\Program Files\Skype for Business Server StatsMan Listener
+   ```
 
 2. Führen Sie den folgenden Befehl aus:  
     
-  ```
+   ```
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
-  ```
+   ```
 
 ## <a name="troubleshoot-your-deployment"></a>Problembehandlung Ihrer Bereitstellung
 <a name="BKMK_Troubleshoot"> </a>
@@ -273,9 +274,9 @@ Microsoft empfiehlt dringend die Verwendung eines Zertifikats, das von einer ver
   
 1. Melden Sie sich als Administrator an und geben Sie in einer PowerShell-Konsole Folgendes ein:
     
-  ```
-  New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
-  ```
+   ```
+   New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
+   ```
 
 2. Typ `certlm.msc`. Dadurch öffent sich der Zertifikat-Manager für den lokalen Computer.
     
@@ -300,9 +301,9 @@ Weitere Informationen finden Sie unter den folgenden Themen:
   
 - [Planen der Business Server 2015 für Statistiken Manager für Skype](plan.md)
     
-- [Aktualisieren von Statistiken Manager für Skype für Business Server 2015](upgrade.md)
+- [Aktualisieren von Statistics Manager für Skype for Business Server 2015](upgrade.md)
     
-- [Problembehandlung bei Statistiken Manager für Skype für Business Server 2015](troubleshoot.md)
+- [Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server 2015](troubleshoot.md)
     
 - [Skype für Business Server Statistiken Manager-blog](https://blogs.technet.microsoft.com/skypestatsman/)
     

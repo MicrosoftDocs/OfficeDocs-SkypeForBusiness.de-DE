@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Überträgt die Planung für standortbasierte für Konferenzen in Skype für Business Server Enterprise-VoIP-routing, einschließlich konsultieren Anruf.
-ms.openlocfilehash: 97ceaeb4f7e6e24cdffe3f1fd8c737de2e429e17
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888360"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373242"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Standortbasierte Weiterleitung für Konferenzen in Skype für Business Server
 
@@ -47,6 +47,7 @@ Speicherortbasierte Routing für Live Meeting-Anwendung verhindert, dass die Bet
 Diese Konferenzen speicherortbasierte Routing Einschränkungen sind in der folgenden Tabelle zusammengefasst.
 
 | |
+
 |**Benutzer in einer Konferenz an einem beliebigen Standort**|**Benutzer, die an der Konferenz teilnehmen dürfen**|**Benutzer, die nicht an der Konferenz teilnehmen dürfen**|
 |:-----|:-----|:-----|
 |Skype für Business VoIP-Client-Benutzer aus einer Website für die einzelnen Netzwerk  <br/> |Skype für Business VoIP-Client-Benutzer aus der gleichen Network-Website  <br/> Skype für Business VoIP-Client-Benutzer aus einer anderen Netzwerk-Website  <br/> Skype für Business VoIP-Client-Benutzer aus einem unbekannten Netzwerkstandort  <br/> Verbundpartner Skype Business VoIP-Client-Benutzers  <br/> Benutzer, die über PSTN-Endpunkt teilnehmen  <br/> |-  <br/> |
@@ -141,7 +142,7 @@ Beispielsweise, wenn die Anwendung "UdcAgent" den Prioritätswert "2" hat, die A
 
 Nachdem Sie den richtigen Prioritätswert für standortbasierte Routing für Konferenzen Anwendung ermittelt wird, geben Sie das folgende Cmdlet für jeden Front-End-Pool oder Standard Edition-Server, die für das Routing speicherortbasierte Hause Benutzer aktiviert:
 
-New-CsServerApplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-Priorität <Application Priority> -aktiviert $true-kritische $true - Uri https://www.microsoft.com/LCS/LBRoutingFor Beispiel:
+New-CsServerApplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-Priorität <Application Priority> -aktiviert $true-kritische $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> Beispiel:
 
 New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-Priorität 3 - aktivierten $true-kritische $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter mit diesem Cmdlet alle Front-End-Server im Pool oder Standard Edition-Server neu starten, auf dem die Speicherortbasierte Routing für Konferenzen, die Anwendung aktiviert wurde.
 

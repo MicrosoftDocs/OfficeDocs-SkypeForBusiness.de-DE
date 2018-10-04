@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Persistent Chat Server hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server 2015.'
-ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 477897362a01ae3ac6097c50eaed8f9ece31f49d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008223"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371634"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten der hohen Verfügbarkeit und der Notfallwiederherstellung für Server für beständigen Chat in Skype for Business Server 2015
  
@@ -48,15 +48,15 @@ Ausführen eines Failovers für den Server für beständigen Chat
   
 1. Entfernt den Protokollversand aus der Datenbank Persistent Chat Server-Sicherung für den Protokollversand.
     
-  - Verbinden Sie über SQL Server Management Studio mit der Datenbankinstanz, wo sich die Mgc-Sicherungsdatenbank Persistent Chat Server befindet.
+   - Verbinden Sie über SQL Server Management Studio mit der Datenbankinstanz, wo sich die Mgc-Sicherungsdatenbank Persistent Chat Server befindet.
     
-  - Öffnen Sie ein Abfragefenster zur Masterdatenbank.
+   - Öffnen Sie ein Abfragefenster zur Masterdatenbank.
     
-  - Verwenden Sie den folgenden Befehl, um den Protokollversand zu verwerfen:
+   - Verwenden Sie den folgenden Befehl, um den Protokollversand zu verwerfen:
     
-  ```
-  exec sp_delete_log_shipping_secondary_database mgc
-  ```
+   ```
+   exec sp_delete_log_shipping_secondary_database mgc
+   ```
 
 2. Kopieren Sie alle nicht kopierten Sicherungsdateien von der Sicherungsfreigabe in den Kopierzielordner des Sicherungsservers.
     
@@ -64,15 +64,15 @@ Ausführen eines Failovers für den Server für beständigen Chat
     
 4. Stellen Sie die mgc-Sicherungsdatenbank online bereit. Führen Sie im Abfragefenster, das in Schritt 1b oben geöffnet wird, folgende Aufgaben aus:
     
-  - Beenden Sie alle Verbindungen mit der mgc-Datenbank, falls vorhanden:
+   - Beenden Sie alle Verbindungen mit der mgc-Datenbank, falls vorhanden:
     
-  - Geben Sie **exec sp_who2** ein, um Verbindungen mit der mgc-Datenbank zu identifizieren.
+   - Geben Sie **exec sp_who2** ein, um Verbindungen mit der mgc-Datenbank zu identifizieren.
     
-  - **kill \<Spid\> ** an diese Verbindungen zu beenden.
+   - **kill \<Spid\> ** an diese Verbindungen zu beenden.
     
-  - Stellen Sie die Datenbank online bereit:
+   - Stellen Sie die Datenbank online bereit:
     
-  - **restore database mgc with recovery**.
+   - **restore database mgc with recovery**.
     
 5. In Skype für Business Server-Verwaltungsshell, verwenden Sie den Befehl **"Set-cspersistentchatstate"-Identity "Service: Atl-Cs-001.litwareinc.com" - PoolState FailedOver** Failover auf die Mgc-Sicherungsdatenbank. Achten Sie darauf, den vollqualifizierten Domänennamen Ihres Pools für beständigen Chat durch „atl-cs-001.litwareinc.com“ zu ersetzen.
     

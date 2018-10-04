@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Zusammenfassung: In diesem Thema finden Sie Informationen zur Integration von Skype for Business Server in Exchange Server 2016 oder Exchange Server 2013.'
-ms.openlocfilehash: 0fc7975e35d84cf6fda75addacee9ffbb8f25b52
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
-ms.translationtype: HT
+ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013237"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374217"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan zur Integration von Skype for Business mit Exchange Server
  
@@ -53,7 +53,7 @@ Der AutoErmittlungsdienst muss konfiguriert sein, damit Sie Skype for Business S
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
 ```
 
-Ist dieser Wert leer, müssen Sie dem AutoErmittlungsdienst einen URI zuweisen. Dieser URI sieht in der Regel etwa so aus: https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml
+Wenn dieser Wert leer ist, müssen Sie dem AutoErmittlungsdienst einen URI zuweisen. Dieser URI sieht in der Regel etwa so aus: https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml
   
 Sie können den URI für den AutoErmittlungsdienst zuweisen, indem Sie einen Befehl wie den folgenden ausführen:
   
@@ -71,10 +71,10 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 
 > [!NOTE]
 > Der Parameter „Identity“ im oben genannten Befehl ist optional, da Skype for Business Server nur eine einzige globale Auflistung von OAuth-Konfigurationseinstellungen zulässt. Das bedeutet unter anderem, dass Sie die URL für den AutoErmittlungsdienst mit diesem etwas einfacheren Befehl konfigurieren können: 
-  
+> 
 > [!NOTE]
-> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
-  
+> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl "<https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc>" 
+> 
 > [!NOTE]
 > Wenn Sie mit der Technologie noch nicht so vertraut sind, ist „OAuth“ ein Standardautorisierungsprotokoll, das von vielen wichtigen Websites verwendet wird. Bei „OAuth“ werden Benutzeranmeldeinformationen und -kennwörter nicht von einem Computer zum anderen übergeben. Stattdessen basieren Authentifizierung und Autorisierung auf dem Austausch von Sicherheitstokens. Diese Tokens erteilen für einen bestimmte Zeitspanne Zugriff auf einen bestimmten Satz von Ressourcen. 
   
@@ -94,20 +94,20 @@ Die folgende Tabelle zeigt Einzelheiten zu den unterstützten Funktionen in vers
 |Planen von und Teilnehmen an Onlinebesprechungen über Outlook  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
 |Anwesenheit in Outlook Web App  <br/> |J  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Antworten per Chat, Festnetzanruf, Skype-Anruf oder Videoanruf aus einer OWA-E-Mail heraus  <br/> |J  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
-|Planen von und Teilnehmen an Onlinebesprechungen über Outlook Web App  <br/> |J  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
+|Planen von und Teilnehmen an Onlinebesprechungen über Outlook  <br/> |J  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Chat/Anwesenheit in mobilen Clients  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
 |Teilnahme an Onlinebesprechungen in mobilen Clients  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
 |Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
-|Kontaktliste (über den einheitlichen Kontaktspeicher)  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Kontaktliste (über den einheitlichen Kontaktspeicher)  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Hochauflösende Kontaktfotos (Erfordert mindestens Lync 2013- oder Skype for Business-Clients. Nicht unterstützt für LWA, mobile Apps, Lync 2010, Lync für Mac und andere ältere Clients.)  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |J  <br/> |J  <br/> |
-|Besprechungsdelegation  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |Y  <br/> |
-|Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> |Y  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
+|Besprechungsdelegation  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
+|Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Durchsuchen von archivierten Inhalten  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Exchange UM-Voicemail  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
-|Serverseitig aufgezeichnete Unterhaltungen  <br/> |J  <br/> |J  <br/> |N  <br/> |J  <br/> |Y  <br/> |
+|Serverseitig aufgezeichnete Unterhaltungen  <br/> |J  <br/> |J  <br/> |N  <br/> |J  <br/> |J  <br/> |
    
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="feature_support"> </a>
 
 [Konfigurieren der Integration zwischen einer lokalen Skype for Business Server-Bereitstellung und Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)

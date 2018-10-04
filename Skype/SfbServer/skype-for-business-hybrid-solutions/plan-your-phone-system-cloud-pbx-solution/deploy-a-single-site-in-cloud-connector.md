@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Informationen Sie zu eine einzelne PSTN-Website in der Cloud Connector Edition bereitstellen.
-ms.openlocfilehash: 5acd4dbb6a6d46e8d20bbec800bcce174ea87873
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885599"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375004"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Bereitstellen eines einzelnen Standorts in Cloud Connector
  
@@ -54,21 +54,21 @@ Sie können eine vorhandene Website Cloud Connector zur Unterstützung der HA du
     
 2. Führen Sie das folgende Cmdlet nur auf dem neu hinzugefügten Hostserver aus, um die Topologieinformationen in der Konfiguration Ihres Office 365-Mandanten zu aktualisieren. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet nacheinander auf jedem der neu hinzugefügten Hostserver aus:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 3. Aktualisieren Sie die Topologie in vorhandenen Appliances, indem Sie das folgende Cmdlet auf jedem Hostserver ausführen. Führen Sie das Cmdlet nur in den vorhandenen Appliances aus.
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 4. Führen Sie das folgende Cmdlet nur auf neu hinzugefügten Hostservern aus. Führen Sie es nicht in der vorhandenen Appliance aus. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet nacheinander auf jedem der neu hinzugefügten Hostserver aus:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 > [!NOTE]
 > Wenn das Standortverzeichnis auf einen lokalen Ordnerpfad festgelegt ist, müssen Sie eine Dateifreigabe für diesen Ordner definieren und für das Standortverzeichnis in der neuen Appliance einen UNC-Pfad verwenden. Sie können für das Standortverzeichnis der ersten Appliance den lokalen Pfad beibehalten oder es so ändern, dass der UNC-Pfad für die Freigabe des gleichen Ordners verwendet wird. Wenn sich der Speicherort für das freigegebene Standortverzeichnis ändert, müssen alle bereits installierten Appliances deinstalliert und dann erneut installiert werden. > Wichtig: Das Kennwort für das Konto CceService und das CABackupFile Konto muss auf allen Einheiten, die innerhalb der Website bereitgestellt übereinstimmen, damit die Appliances die Site Directory Freigabe als auch die verschlüsselte Zertifizierungsstelle Sicherungsdatei im Websiteverzeichnis zugreifen können. 
@@ -79,14 +79,14 @@ Wenn Sie eine Appliance aus einer vorhandenen Site entfernen möchten, gehen Sie
   
 1. Führen Sie das folgende Cmdlet nur auf den Hostservern aus, die Sie aus dem Standort entfernen möchten, um die Topologieinformationen in der Konfiguration Ihres Office 365-Mandanten zu aktualisieren.
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 2. Führen Sie das folgende Cmdlet nur auf den Hostservern aus, von denen Sie alle virtuellen Maschinen der Appliance entfernen möchten.
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 

@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können mehrere Benutzer in Ihrer Skype für Business Server 2019 pilot Pool mit Skype für Business Server 2019-Systemsteuerung oder Skype für Business Server 2019-Verwaltungsshell aus Ihrem legacy-Pool verschieben.
-ms.openlocfilehash: e96ef658f566f0e069f4db6e4f2f08e0410ea260
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b01613e16e41ed2ee7aac7bc6c443e19db933c2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028656"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372509"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Verschieben Sie mehrerer Benutzer in den pilotpool
 
@@ -54,19 +54,19 @@ Sie können mehrere Benutzer in Ihrer Skype für Business Server 2019 pilot Pool
 
 1. Öffnen Sie die Skype für Business Server 2019-Verwaltungsshell. 
     
-2.  In der Befehlszeile Folgendes ein, und Ersetzen Sie **User1** und **User2** durch die betreffenden Benutzernamen, den, die Sie verschieben möchten, und Ersetzen Sie **Pool_FQDN** durch den Namen des zielpools. In diesem Beispiel wird es Benutzern Hao Chen und Katie Jordanien verschoben. 
+2. In der Befehlszeile Folgendes ein, und Ersetzen Sie **User1** und **User2** durch die betreffenden Benutzernamen, den, die Sie verschieben möchten, und Ersetzen Sie **Pool_FQDN** durch den Namen des zielpools. In diesem Beispiel wird es Benutzern Hao Chen und Katie Jordanien verschoben. 
     
-  ```
-  Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
+   ```
 
-     ![Beispiel für PowerShell Get-CsUser-cmdlet](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Beispiel für PowerShell Get-CsUser-cmdlet](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. Geben Sie an der Befehlszeile Folgendes ein: 
     
-  ```
-  Get-CsUser -Identity "User1"
-  ```
+   ```
+   Get-CsUser -Identity "User1"
+   ```
 
 4. Die Identität des **Registrar-Pools** sollten nun auf den Pool verweisen, den Sie als **Pool_FQDN** im vorherigen Schritt angegeben haben. Das Vorhandensein von diese Identität bestätigt, dass der Benutzer erfolgreich verschoben wurde. Wiederholen Sie Schritt zu überprüfen, ob **Benutzer2** verschoben wurde. 
     
@@ -81,17 +81,17 @@ In diesem Beispiel wurden alle Benutzer auf den Pool der Vorgängerversion (pool
     
 2. Geben Sie an der Befehlszeile Folgendes ein: 
     
-  ```
-  Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
+   ```
 
      ![PowerShell-Cmdlets und die Ergebnisse in der-Verwaltungsshell](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. Führen Sie **Get-CsUser** für einen der Pilotbenutzer aus. 
     
-  ```
-  Get-CsUser -Identity "Hao Chen"
-  ```
+   ```
+   Get-CsUser -Identity "Hao Chen"
+   ```
 
 4. Die **Registrar-Pool** -Identität für jeden Benutzer zeigt jetzt auf den Pool, den Sie als **Pool_FQDN** im vorherigen Schritt angegeben haben. Das Vorhandensein von diese Identität bestätigt, dass der Benutzer erfolgreich verschoben wurde. 
     

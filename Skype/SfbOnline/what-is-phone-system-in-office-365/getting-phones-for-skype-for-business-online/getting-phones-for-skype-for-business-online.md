@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: d7b8b92d268ab6ba4cf0c5dd49eab15586c95ba3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b218161268855a1b89aa54fd0e40c4b308db40d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890275"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371565"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
@@ -73,7 +73,7 @@ Für unterstützte Telefone ist die folgende Mindestsoftwareversion erforderlich
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Dezember 2016  <br/> |
    
 > [!NOTE]
-Telefone mit Lync Phone Edition (LPE), die Sie für die lokale Bereitstellung eingerichtet haben, müssen auf die Mindestversion oder höher der notwendigen Firmware aktualisiert werden, bevor die entsprechenden Benutzer zu Skype for Business Online transferiert werden. Wenn Sie Ihre Benutzer von lokal auf Skype for Business Online transferieren, bevor Sie die Firmware auf den Telefonen aktualisieren, können diese Telefone nicht mit Skype for Business Online verbunden werden. 
+> Telefone mit Lync Phone Edition (LPE), die Sie für die lokale Bereitstellung eingerichtet haben, müssen auf die Mindestversion oder höher der notwendigen Firmware aktualisiert werden, bevor die entsprechenden Benutzer zu Skype for Business Online transferiert werden. Wenn Sie Ihre Benutzer von lokal auf Skype for Business Online transferieren, bevor Sie die Firmware auf den Telefonen aktualisieren, können diese Telefone nicht mit Skype for Business Online verbunden werden. 
   
 ## <a name="required-licenses"></a>Erforderlichen Lizenzen
 

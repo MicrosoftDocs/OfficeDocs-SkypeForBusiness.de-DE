@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Informationen Sie zum Aktualisieren der Cloud Connector Edition-bereitstellungs.
-ms.openlocfilehash: b727f3cb7feea7f080f2e75278294e855c65b197
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887537"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370627"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Aktualisieren auf eine neue Version von Cloud Connector
  
@@ -76,27 +76,27 @@ Wenn der zu aktualisierende Standort nur eine Appliance umfasst, gehen Sie wie f
     
 4. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus, um die aktuelle Appliance zu registrieren:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 5. Führen Sie das folgende Cmdlet aus, um die neueste Version herunterzuladen:
     
-  ```
-  Start-CcDownload
-  ```
+   ```
+   Start-CcDownload
+   ```
 
 6. Führen Sie das folgende Cmdlet aus, um die Installation zu starten:  
     
-  ```
-  Install-CcAppliance -Upgrade
-  ```
+   ```
+   Install-CcAppliance -Upgrade
+   ```
 
 7. Führen Sie das folgende Cmdlet aus, um die neue Bereitstellung zu aktivieren und die vorherige Version zu deaktivieren:
     
-  ```
-  Switch-CcVersion
-  ```
+   ```
+   Switch-CcVersion
+   ```
 
 Wenn sich mehr als eine Appliance am Standort befindet, führen Sie die obigen Schritte aus, um die einzelnen Appliances nacheinander zu aktualisieren.
   

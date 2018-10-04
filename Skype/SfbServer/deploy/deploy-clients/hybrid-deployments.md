@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Lesen Sie in diesem Thema erfahren, wie Skype Raum System in einer hybridumgebung bereitstellen.
-ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997293"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375280"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Room System – Hybridbereitstellungen
  
@@ -28,9 +28,9 @@ Zur Veranschaulichung verwenden wir für die lokale Domäne und LyncSample.ccstp
   
 1. Erstellen Sie ein Ressourcenpostfach im Exchange Administrationscenter (LyncSample.ccsctp.net) durch Verbinden mit der Exchange Online-Verwaltungsshell wie in Exchange Online-Bereitstellung beschrieben.
     
-  ```
-  New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
-  ```
+   ```
+   New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
+   ```
 
     OWA-Konnektivität mit lrstest5@LyncSample.ccsctp.net anmelden kann überprüft werden.
     
@@ -44,8 +44,8 @@ Zur Veranschaulichung verwenden wir für die lokale Domäne und LyncSample.ccstp
     
     Nachdem das Postfach erstellt worden ist, können Sie Set-CalendarProcessing in der Exchange-Online-Verwaltungsshell verwenden, um das Postfach zu konfigurieren. Mehr dazu erfahren Sie in den Schritten 3–6 unter „Lokale Bereitstellungen mit einzelner Gesamtstruktur“.
     
-    > [!NOTE]
-    > Wenn Sie eine hybridumgebung mit Exchange Server und Exchange Online haben, fahren Sie mit der Exchange-Verwaltungsshell und Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-Chatroom. Lösen Sie anschließend die Verzeichnissynchronisierung aus. 
+   > [!NOTE]
+   > Wenn Sie eine hybridumgebung mit Exchange Server und Exchange Online haben, fahren Sie mit der Exchange-Verwaltungsshell und Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-Chatroom. Lösen Sie anschließend die Verzeichnissynchronisierung aus. 
   
     Wenn Sie das Postfach Skype Raum im Exchange Online hosten möchten, diese Schritte für die Exchange-Verwaltungsshell sind nicht erforderlich, und können Sie mit Schritt 6 fortfahren.
     

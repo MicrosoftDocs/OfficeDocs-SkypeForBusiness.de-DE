@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82063cc595694c2bf60c3f6af6ab550f647c05cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015325"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374442"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -51,6 +51,7 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation das Telefonsystem Feat
 
 > [!TIP]
 > Es folgt ein Beispiel für eine direkte Routing-Aktivierung Websiteliste.
+> 
 > | **Office**                     | **Standort**   | **Phone-Dienst** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australien      | Legacy-PSTN-Dienst |
@@ -67,17 +68,18 @@ Telefonsystem bewirkt, dass alle Benutzer in Ihrer Organisation eine eindeutige 
 
 > [!NOTE]
 > Mit direktem Routing können die Benutzer auch weiterhin mithilfe ihrer eigenen Telefonnummern, von dem PSTN-Dienstanbieter bereitgestellt.
-
+> 
 > [!TIP]
 > Die folgende Vorlage können Sie um das Telefon Zahlen Details zu dokumentieren.
->|Benutzer |Telefonnummer |
->|-----|-------------|
->|Emily Braun | + 44 23 4567 8901 |
->|Lidia Holloway | + 44 23 4567 89112 |
->|Louis Lahr | + 44 23 4567 8921 |
->|Marcel Beauchamp | TBA |
->|Rachelle Cormier | TBA |
->|Isabell Potvin | TBA |
+> 
+> |Benutzer |Telefonnummer |
+> |-----|-------------|
+> |Emily Braun | + 44 23 4567 8901 |
+> |Lidia Holloway | + 44 23 4567 89112 |
+> |Louis Lahr | + 44 23 4567 8921 |
+> |Marcel Beauchamp | TBA |
+> |Rachelle Cormier | TBA |
+> |Isabell Potvin | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -96,6 +98,7 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 
 > [!TIP]
 > Telefon System Voicemail Details für die Implementierung plant aufrufen können wie in der folgenden Tabelle dokumentiert werden.
+> 
 > | **User**         | **Exchange-Postfach** | **Aktivieren Sie Voicemail?** | **Voicemail Lautschrift** | **Voicemail Lautschrift Gotteslästerung-Maskierung** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Ja                   | Aktiviert                     | Aktiviert                                       |
@@ -104,7 +107,7 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 > | Marcel Beauchamp | Lokal          | Ja                   | Deaktiviert                    | n/v                                           |
 > | Rachelle Cormier | Online               | Ja                   | Deaktiviert                    | n/v                                           |
 > | Isabell Potvin   | Lokal          | Ja                   | Deaktiviert                    | n/v                                           |
-
+> 
 > [!NOTE]
 > Teams und Voicemail, müssen Ihre Benutzer Exchange-Postfächer vorhanden sein. Einzelheiten finden Sie unter [wie Exchange- und Microsoft-Produktteams interagieren](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .
 
@@ -201,6 +204,7 @@ Weitere Informationen finden Sie unter [SIP-Signale: FQDNs und Firewallports](ht
 
 > [!TIP]
 > Verwenden Sie die folgende Vorlage, um die SBC-Details für die Bereitstellung direkter Routing zu dokumentieren.
+> 
 > | **SBC-DNS-Name (FQDN)** | **SBC Hersteller und Modell** | **Zertifikat** | **Standort**  | **IP-Adresse** | **SIP-Signalisierung port** | **NAT?** | **Maximale gleichzeitige Sitzungen** | **Die medienumgehung aktiviert?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC-"Europe.contoso.com" | TBD | \*. contoso.com | Amsterdam | TBD | TBD | Ja | TBD | Nein |
@@ -240,13 +244,14 @@ Sie können VoIP-Routen mit direktem Routing Koexistenz mit Aufrufen plant konfi
 
 > [!TIP]
 > Verwenden Sie die folgende Vorlage, um die VoIP-Richtlinien für die Bereitstellung direkter Routing zu dokumentieren.
+> 
 > | **PSTN-Verwendung** | **VoIP-route** | **Nummernmuster** | **Priorität** | **SBC** | **Beschreibung** |
 > |----------------|-----------------|----------------------------|--------------|-----------------------------------|-----------------------------------------------------------------------------------------|
 > | UNS nur | "" Redmond "1" | \^\\+ 1 (425\|206) (\\d{7})\$ | 1 | sbc1.contoso.com sbc2.contoso.com | Aktive Route für gewählte Nummern +1 425 XXX XX XX oder +1 206 XXX XX XX |
 > | UNS nur | "" Redmond "2" | \^\\+ 1 (425\|206) (\\d{7})\$ | 2 | SBC3.contoso.com sbc4.contoso.com | Backup Route für die gewählte Nummern +1 425 XXX XX XX oder +1 206 XXX XX XX |
 > | UNS nur | "Andere + 1" | \^\\+ 1 (\\d{10})\$ | 3 | sbc5.contoso.com sbc6.contoso.com | Weiterleiten von zur gewählte Nummern + 1 XXX XXX XX XX (mit Ausnahme von +1 425 XXX XX XX oder +1 206 XXX XX XX) |
 > | International | International | \\+ d | 4 | sbc2.contoso.com sbc5.contoso.com | Route für alle Nummernmuster |
-
+> 
 > [!IMPORTANT]
 > Die PSTN-Verwendungen in VoIP-Routing-Richtlinien in der Reihenfolge angewendet, und wenn in der ersten Verwendung eine Übereinstimmung gefunden wird, werden nie andere Verwendungen ausgewertet.
 

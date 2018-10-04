@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorgehen, wenn Ihr Netzbetreiber nicht in Skype für Unternehmen aufgeführt ist. '
-ms.openlocfilehash: 79c493d6af5e8d56ecd430842bdf808514e749ff
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958341"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372830"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was ist, wenn mein Telefonbetreiber nicht als Quellbetreiber aufgeführt ist?
 
@@ -36,7 +36,7 @@ Ein Beispiel:
   
 - Wenn Sie die Anzahl von Skype für Unternehmen als Ihr Netzbetreiber portieren, möglicherweise angezeigt, dass Level3 aufgeführt.
     
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+  **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
     > [!NOTE]
     > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Sie können die Eigenschaften der Mediation Server in diesem Dialogfeld bearbeiten. Auf der linken Seite ist eine Reihe von Quicklinks zu gelangen Sie zur Einstellungen für allgemeine Einstellungen, die Einstellungen für den nächsten Hop und Einstellungen für PSTN-Gateway. In jedem Abschnitt sind die folgenden Einstellungen:'
-ms.openlocfilehash: 262cdcbbbf4c4cfcf35a01de91c88c6511da3360
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260475"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375971"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Mediation Server Allgemeine Einstellungen – Erweiterung für Lync Server 2010
 
@@ -29,13 +29,13 @@ Sie können die Eigenschaften der Mediation Server in diesem Dialogfeld bearbeit
 
 - **Zuordnungen**: Aktivieren Sie das Kontrollkästchen **edgepool zuordnen (für Medienkomponenten)** , und wählen Sie eine Edge-Server oder einem Edge-Pools für den Vermittlungsserver als Medienpfad für den externen Zugriff verwendet.
 
- **Nächster Hop**:
+  **Nächster Hop**:
 
 - **Auswahl für nächsten Hop**: den Front-End-Server oder Front-End-Pool als den Pfad für den Vermittlungsserver verwendet werden, um für die Kommunikation mit der Bereitstellung zu verwendende aus einer Liste auswählen.
 
- **PSTN-Gateway**:
+  **PSTN-Gateway**:
 
- **Mediation Server PSTN-Gateway**:
+  **Mediation Server PSTN-Gateway**:
 
 - **Überwachungsports**: Definieren Sie die Ports, die der Vermittlungsserver überwacht wird. Sie können einen Port für **TLS** oder Transport Layer Security oder **TCP**, definieren oder transport Control-Protokoll. Für den Porteintrag für TCP verfügbar sein soll müssen Sie das Kontrollkästchen für **Aktivieren TCP-Port**auswählen.
 

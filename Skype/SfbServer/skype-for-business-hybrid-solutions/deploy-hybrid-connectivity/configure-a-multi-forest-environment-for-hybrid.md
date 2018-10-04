@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde.
-ms.openlocfilehash: 90f8722780ee6db99a739c62e6100c81a385a265
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887032"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370924"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
  
@@ -70,7 +70,7 @@ Das [ausgewählte Konto Linkattribut](https://azure.microsoft.com/en-us/document
   
 Des Benutzerprinzipalname zwischen den Gesamtstrukturen nicht synchronisiert. Wir haben bei Tests festgestellt, dass wir einen eindeutigen UPN für jede Benutzergesamtstruktur verwenden mussten, da derselbe UPN nicht über mehrere Gesamtstrukturen verwendet werden kann. Daraus ergaben sich zwei Möglichkeiten: den UPN zu synchronisieren oder ihn nicht zu synchronisieren. 
   
--  Wenn der eindeutige UPN aus jeder Benutzergesamtstruktur nicht mit dem zugehörigen deaktivierten Objekt in der Ressourcengesamtstruktur synchronisiert wird, wird das einmalige Anmelden zumindest für den anfänglichen Anmeldeversuch unterbrochen (davon ausgehend, dass der Benutzer die Option zum Speichern des Kennworts ausgewählt hat). Im SfB-Client gehen wir davon aus, dass die SIP/UPN-Werte dieselben sind. Da die SIP-Adresse in diesem Szenario user@company.com ist, der UPN des aktivierten Objekts in der Benutzergesamtstruktur aber tatsächlich user@contoso.company.com lautet, tritt beim anfänglichen Anmeldeversuch ein Fehler auf und der Benutzer wird aufgefordert, seine Anmeldeinformationen einzugeben. Nach Eingabe des korrekten/tatsächlichen UPN wird die Authentifizierungsanforderung mit den Domänencontrollern in der Benutzergesamtstruktur abgeschlossen und die Anmeldung ist erfolgreich.
+- Wenn der eindeutige UPN aus jeder Benutzergesamtstruktur nicht mit dem zugehörigen deaktivierten Objekt in der Ressourcengesamtstruktur synchronisiert wird, wird das einmalige Anmelden zumindest für den anfänglichen Anmeldeversuch unterbrochen (davon ausgehend, dass der Benutzer die Option zum Speichern des Kennworts ausgewählt hat). Im SfB-Client gehen wir davon aus, dass die SIP/UPN-Werte dieselben sind. Da die SIP-Adresse in diesem Szenario user@company.com ist, der UPN des aktivierten Objekts in der Benutzergesamtstruktur aber tatsächlich user@contoso.company.com lautet, tritt beim anfänglichen Anmeldeversuch ein Fehler auf und der Benutzer wird aufgefordert, seine Anmeldeinformationen einzugeben. Nach Eingabe des korrekten/tatsächlichen UPN wird die Authentifizierungsanforderung mit den Domänencontrollern in der Benutzergesamtstruktur abgeschlossen und die Anmeldung ist erfolgreich.
     
 - Wenn der eindeutige UPN aus jeder Benutzergesamtstruktur mit dem zugehörigen deaktivierten Objekt in der Ressourcengesamtstruktur synchronisiert wird, tritt bei der AD FS-Authentifizierung ein Fehler auf. Die entsprechende Regel findet den UPN auf dem Objekt in der Ressourcengesamtstruktur, das deaktiviert wurde und nicht für die Authentifizierung verwendet werden kann. 
     

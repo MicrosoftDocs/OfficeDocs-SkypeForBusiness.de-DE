@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Zusammenfassung: Informationen Sie zum Erstellen einer neuen Archivierungsrichtlinie für Skype für Business Server.'
-ms.openlocfilehash: e900bd9ac73a6e192eba7a506d713a56a69e794d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70c955d78e6c7b259732d50c47c53e8b3bedf97c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970358"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374409"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Erstellen einer neuen Archivierungsrichtlinie in Skype für Business Server
 
@@ -46,7 +46,7 @@ So erstellen Sie eine neue Archivierungsrichtlinie über die Systemsteuerung:
     
    - Aktivieren oder deaktivieren Sie das Kontrollkästchen **Interne Kommunikation archivieren**, um die Archivierung der Kommunikation mit internen Benutzern zu aktivieren oder zu deaktivieren.
     
-  - Aktivieren oder deaktivieren Sie das Kontrollkästchen **Externe Kommunikation archivieren**, um die Archivierung der externen Kommunikation zu aktivieren oder zu deaktivieren.
+   - Aktivieren oder deaktivieren Sie das Kontrollkästchen **Externe Kommunikation archivieren**, um die Archivierung der externen Kommunikation zu aktivieren oder zu deaktivieren.
     
 6. Klicken Sie auf **Commit ausführen**.
     

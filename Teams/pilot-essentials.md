@@ -14,12 +14,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6ed0f5a93f2ba3ea46c88bbdf0fa93ebb843f9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fc88190df03ed7087013c196ac32279c88c58801
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016877"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372540"
 ---
 ![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
 
@@ -42,7 +42,7 @@ Um möglichst realistische Ergebnisse zu erzielen, sollte der Pilotphase tatsäc
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Wie verwenden Sie ein Pilotprojekts zum Projekt Richtung informieren?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Als Nächstes|<ul><li>Verwenden der folgenden Anleitung zum Entwerfen und Ausführen der formelle Pilotphase.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verwenden der folgenden Anleitung zum Entwerfen und Ausführen der formelle Pilotphase.</li></ul>|
 
 > [!Tip]
 > Verwenden Sie die Beispiel- [pilot-Ressourcen](https://aka.ms/UpgradeSuccessKit) zu entwerfen Ihrer Kommunikation, testen Sie Planung und Umfrage zu.
@@ -101,11 +101,11 @@ Nach Abschluss der Pilotphase sich Gedanken darüber machen alle Feedback Umfrag
 
 Wenn Ihre Ergebnisse anzugeben:
 
--   **Ihre pilot Ziele (beispielsweise Benutzerzufriedenheit und Netzwerkqualität) erreicht wurden**, sollten Sie mit der Einführung der nächsten Phase fortfahren können. Je nach den Zielen des Projekts kann dies eine der folgenden sein:
-   -   Erweitern Sie an zusätzliche Teilnehmer des Pilotprojekts
-   -   [Aktivieren von Teams zusammen mit Skype für Unternehmen (**Inseln** Modus) für einige oder alle Ihrer Organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
-   -   [Benutzer von Skype für Unternehmen zu Teams (**nur Teams** Modus) für einige oder alle Ihrer Organisation aktualisieren](https://aka.ms/SkypeToTeams-SetCoexistence)
--   **Der Pilotphase nicht die Ergebnisse erzielen (z. B., Benutzerzufriedenheit und Netzwerkqualität) möchten,** stellen Sie die entsprechenden Korrekturen zum Plan und der Pilotphase Laufe dauert.
+- **Ihre pilot Ziele (beispielsweise Benutzerzufriedenheit und Netzwerkqualität) erreicht wurden**, sollten Sie mit der Einführung der nächsten Phase fortfahren können. Je nach den Zielen des Projekts kann dies eine der folgenden sein:
+  -   Erweitern Sie an zusätzliche Teilnehmer des Pilotprojekts
+  -   [Aktivieren von Teams zusammen mit Skype für Unternehmen (**Inseln** Modus) für einige oder alle Ihrer Organisation](https://aka.ms/SkypeToTeams-SetCoexistence)
+  -   [Benutzer von Skype für Unternehmen zu Teams (**nur Teams** Modus) für einige oder alle Ihrer Organisation aktualisieren](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **Der Pilotphase nicht die Ergebnisse erzielen (z. B., Benutzerzufriedenheit und Netzwerkqualität) möchten,** stellen Sie die entsprechenden Korrekturen zum Plan und der Pilotphase Laufe dauert.
 
 > [!Tip]
 > Tragen Sie Ihre Teilnehmer an der Pilotphase als Peer Champions Hilfe Wechsels bekannt und integrierte neue Benutzer, Teams. Peer Champions können auf einfache Weise an andere Benutzer beziehen, ihre eigenen Erfahrungen und Befunde Freigabe und anzubieten, Unterstützung und ihrer Kollegen anzeigen. Erfahren Sie mehr über [Champions](https://go.microsoft.com/fwlink/?linkid=859068) und wie Sie diese in Ihrer eigenen Einführung verwendet werden. 

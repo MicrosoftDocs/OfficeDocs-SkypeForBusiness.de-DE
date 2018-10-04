@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Erfahren Sie, wie VoIP-ausfallsicherheit für Business Server Enterprise-VoIP an zentralen Standorten und Zweigniederlassungen in Skype zu unterstützen. Branch-Site-Optionen umfassen Survivable Branch Appliances oder Survivable Branch Servern bereitstellen.
-ms.openlocfilehash: 76b56d7e7d00ecd6d542be3f936af6f2e834974d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882303"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374759"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planen Sie für Enterprise Voice Resiliency in Skype für Business Server
 
@@ -378,12 +378,13 @@ Weitere Informationen hierzu finden Sie unter [Server-Anforderungen für Skype f
 
 **In Tabelle 2. Routen**
 
-|**Name der Route**|**Nummernmuster**|**Telefonverwendung**|**Trunk**|**Gateway**|
-|:-----|:-----|:-----|:-----|:-----|
-|Route für Ortsgespräche Redmond  <br/> |^\+1 (425|206|253)(\d{7})$  <br/> |Lokal  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
-|Route für Ortsgespräche Dallas  <br/> |^\+1 (972|214|469)(\d{7})$  <br/> |Lokal  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
-|Universalroute  <br/> |^\+?(\d\*)$  <br/> |"Globalpstnhopoff"  <br/> |Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> |Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-|Route für Dallas Benutzer  <br/> |^\+?(\d\*)$  <br/> |DallasUsers  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
+
+| **Name der Route**             | **Nummernmuster** | **Telefonverwendung**         | **Trunk**                                 | **Gateway**                                     |
+|:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
+| Route für Ortsgespräche Redmond  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Lokal  <br/> RedmondLocal  <br/>                |
+| Route für Ortsgespräche Dallas  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | Lokal  <br/>                                    |
+| Universalroute  <br/>     | ^\+?(\d\*)$  <br/> | "Globalpstnhopoff"  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Route für Dallas Benutzer  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 In Tabelle 1 wird die Telefonverwendung "globalpstnhopoff" nach der Telefonverwendung Auslastung in Anrufrichtlinie für Dallas hinzugefügt. Daher können für Anrufe die anrufrichtlinie für Dallas gilt, Routen verwendet werden, die für die Telefonverwendung globalpstnhopoff konfiguriert sind, wenn eine Route für die Telefonverwendung nicht verfügbar ist.
 

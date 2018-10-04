@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von Add-Ins für Chatrooms Persistent Chat Server in Skype für Business Server 2015.'
-ms.openlocfilehash: f96f000c4ac3a78f6ca3ba4972f295e45128ce50
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967733"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372699"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Konfigurieren von Add-Ins für beständige Chatrooms in Skype for Business Server 2015
  
@@ -46,9 +46,9 @@ So konfigurieren Sie Add-Ins für Chatrooms mithilfe der Systemsteuerung:
     
 6. Gehen Sie unter **Neues Add-In** wie folgt vor:
     
-  - Geben Sie im Feld **Name** einen Namen für das neue Add-In ein.
+   - Geben Sie im Feld **Name** einen Namen für das neue Add-In ein.
     
-  - Geben Sie unter **URL** die URL ein, die mit dem Add-In verknüpft werden soll. URLs müssen das HTTP- oder HTTPS-Protokoll verwenden.
+   - Geben Sie unter **URL** die URL ein, die mit dem Add-In verknüpft werden soll. URLs müssen das HTTP- oder HTTPS-Protokoll verwenden.
     
 7. Klicken Sie auf **Commit ausführen**.
     

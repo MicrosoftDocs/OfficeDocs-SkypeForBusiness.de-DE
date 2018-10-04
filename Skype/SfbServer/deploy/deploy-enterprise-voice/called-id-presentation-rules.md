@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine übersetzungsregel mit dem Erstellen einer Übersetzungsregel-Tool in Skype für Business Server definieren.'
-ms.openlocfilehash: 1d1d8fff6c4ab114c2c12d71ec52017d5c491bef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c50b16f2753569b1a47b37f6615ef0e7f6d26cae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886261"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370830"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server
 
@@ -46,19 +46,19 @@ Gehen Sie folgendermaßen vor, wenn Sie eine übersetzungsregel definieren durch
 
    - **Hinzuzufügende Ziffern**: (Optional) Geben Sie die Ziffern ein, die der übersetzten Nummer vorangestellt werden sollen. Geben Sie beispielsweise 011 ein, wenn bei Anwendung der Regel der übersetzten Nummer die Ziffernfolge 011 vorangestellt werden soll.
 
-    Die in diesen Feldern eingegebenen Werte werden in den Feldern **Muster für Vergleich** und **Übersetzungsregel** widergespiegelt. Wenn Sie beispielsweise die vorstehend genannten Beispielwerte verwenden, lautet der reguläre Ausdruck im Feld **Muster für Vergleich** wie folgt:
+     Die in diesen Feldern eingegebenen Werte werden in den Feldern **Muster für Vergleich** und **Übersetzungsregel** widergespiegelt. Wenn Sie beispielsweise die vorstehend genannten Beispielwerte verwenden, lautet der reguläre Ausdruck im Feld **Muster für Vergleich** wie folgt:
 
-    ^\+(\d{9}\d+)$
+     ^\+(\d{9}\d+)$
 
-    Das Feld **Übersetzungsregel** gibt ein Muster für das Format der übersetzten Nummern an. Dieses Muster besteht aus zwei Teilen:
+     Das Feld **Übersetzungsregel** gibt ein Muster für das Format der übersetzten Nummern an. Dieses Muster besteht aus zwei Teilen:
 
    - Einem Wert (z. B. $1), der die Anzahl von Ziffern im Vergleichsmuster repräsentiert
 
    - (Optional) Einem Wert, den Sie durch eine Eingabe im Feld **Hinzuzufügende Ziffern** voranstellen können
 
-    Bei Verwendung der vorstehend genannten Beispiele wird der Wert 011$1 im Feld **Übersetzungsregel** angezeigt.
+     Bei Verwendung der vorstehend genannten Beispiele wird der Wert 011$1 im Feld **Übersetzungsregel** angezeigt.
 
-    Bei Anwendung dieser Übersetzungsregel wird die Nummer +441235551010 in 011441235551010 umgewandelt.
+     Bei Anwendung dieser Übersetzungsregel wird die Nummer +441235551010 in 011441235551010 umgewandelt.
 
 6. Klicken Sie auf **OK**, um die Übersetzungsregel zu speichern.
 
@@ -87,7 +87,7 @@ Gehen Sie folgendermaßen vor, wenn Sie eine übersetzungsregel definieren durch
 
    - Geben Sie unter **Übersetzungsregel** ein Muster für das Format der übersetzten Nummern an.
 
-    Beispiel: bei Eingabe ^\+(\d{9}\d+)$ in **dieses Muster abgleichen** and011$ 1 in **übersetzungsregel**, die Regel + 441235551010 in 011441235551010 übersetzt.
+     Beispiel: bei Eingabe ^\+(\d{9}\d+)$ in **dieses Muster abgleichen** and011$ 1 in **übersetzungsregel**, die Regel + 441235551010 in 011441235551010 übersetzt.
 
 7. Klicken Sie auf **OK**, um die Übersetzungsregel zu speichern.
 

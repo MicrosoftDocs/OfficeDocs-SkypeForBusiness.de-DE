@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem gatewaypeer im Topologie-Generator in Skype für Business Server definieren.'
-ms.openlocfilehash: 6099f0542634b19bcee989e985f5a8829749daef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 1f70a1d99ebff1bbc1fbd162b322185b3cd21690
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883939"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370659"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definieren von zusätzlichen Trunks im Topologie-Generator in Skype für Business Server
  
@@ -36,22 +36,22 @@ Ein Trunk ist eine logische Verbindung zwischen einem Vermittlungsserver und ein
 1. Starten des Topologie-Generators: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype für Business Server 2015**, und klicken Sie dann auf **Skype für Business Server 2015Topology-Generator**.
     
 2. Klicken Sie unter Skype für Business Server, Ihr Sitename, **Freigegebene Komponenten**, mit der rechten Maustaste in des Knotens **Trunks** , und klicken Sie dann auf **Neuer Trunk**.
-    3. Geben Sie in **Neuen Trunk definieren** einen Anzeigenamen ein, um den Trunk eindeutig zu identifizieren. Zwei Trunks mit demselben Namen sind nicht zulässig.
+   1. Geben Sie in **Neuen Trunk definieren** einen Anzeigenamen ein, um den Trunk eindeutig zu identifizieren. Zwei Trunks mit demselben Namen sind nicht zulässig.
     
-    > [!NOTE]
-    > Wenn Sie Transport Layer Security (TLS) als Transportprotokoll angeben, müssen Sie den FQDN anstelle der IP-Adresse des Peers für den Vermittlungsserver angeben. 
+      > [!NOTE]
+      > Wenn Sie Transport Layer Security (TLS) als Transportprotokoll angeben, müssen Sie den FQDN anstelle der IP-Adresse des Peers für den Vermittlungsserver angeben. 
   
-4. Wählen Sie unter **Zugeordnetes PSTN-Gateway** den PSTN-Gatewaypeer aus, der diesem Trunk zugeordnet werden soll.
+3. Wählen Sie unter **Zugeordnetes PSTN-Gateway** den PSTN-Gatewaypeer aus, der diesem Trunk zugeordnet werden soll.
     5. Geben Sie unter **Überwachungsport für PSTN-Gateway**, den Überwachungsport ein, dass der Peer (PSTN-Gateways, IP-Nebenstellenanlage oder SBC) vom Vermittlungsserver SIP-Nachrichten erhalten, die mit diesem Trunk zugeordnet werden soll. Die standardmäßigen Peerports sind 5066 für TCP (Transmission Control Protocol) und 5067 für TLS (Transport Layer Security). Die Survivable Branch Appliance Standardports sind 5081 für TCP und 5082 für TLS.
     
-6. Klicken Sie unter **SIP-Transportprotokoll** auf den vom Peer verwendeten Transporttyp.
+4. Klicken Sie unter **SIP-Transportprotokoll** auf den vom Peer verwendeten Transporttyp.
     
     > [!NOTE]
     > Aus Sicherheitsgründen wird dringend empfohlen, einen Peer für den Vermittlungsserver bereitzustellen, der TLS verwenden kann. 
   
-7. Wählen Sie unter **Zugeordneter Vermittlungsserver**zu dem stammtrunk dieses Peers zugeordnet Pools für den Vermittlungsserver
+5. Wählen Sie unter **Zugeordneter Vermittlungsserver**zu dem stammtrunk dieses Peers zugeordnet Pools für den Vermittlungsserver
     
-8. Geben Sie unter **zugeordneter Vermittlungsserver Port**den Überwachungsport, dass der Vermittlungsserver SIP-Nachrichten vom Peer empfängt.
+6. Geben Sie unter **zugeordneter Vermittlungsserver Port**den Überwachungsport, dass der Vermittlungsserver SIP-Nachrichten vom Peer empfängt.
     
     > [!NOTE]
     > Zwei Trunks mit unterschiedlichen trunknamen können nicht mit Unterstützung mehrerer Trunks in Skype für Business Server mit dem gleichen **zugeordneter Vermittlungsserver Port** und **Überwachungsport für IP/PSTN-Gateway** konfiguriert werden
@@ -59,6 +59,6 @@ Ein Trunk ist eine logische Verbindung zwischen einem Vermittlungsserver und ein
     > [!NOTE]
     > Mit Unterstützung mehrerer Trunks in Skype für Business Server kann mehrere SIP-Signalisierung Ports auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Wenn Sie einen Trunk zu definieren, muss die Portnummer **Zugeordneter Vermittlungsserver** innerhalb des Bereichs von die Überwachungsports für das jeweilige Protokoll vom Vermittlungsserver zulässig sein. Dieser Portbereich ist unter Skype für Business Server und Vermittlungsserver Pools definiert. Mit der rechten Maustaste in des entsprechenden Vermittlungsserver Pools, und wählen Sie **Eigenschaften bearbeiten**. Geben Sie den Portbereich im Feld **Überwachungsports** an.
   
-9. Klicken Sie anschließend auf **OK**. 
+7. Klicken Sie anschließend auf **OK**. 
     
 

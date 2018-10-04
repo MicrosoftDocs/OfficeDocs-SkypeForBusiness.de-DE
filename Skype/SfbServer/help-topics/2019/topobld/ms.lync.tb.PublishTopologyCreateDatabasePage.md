@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Topologie-Generator bietet die Möglichkeit, Datenbanken auf SQL Server-Speicher zu installieren. Wenn Sie die Datenbanken mithilfe des Topologie-Generator installieren, wird die Anwendung liest Informationen aus der Topologie und installiert dann die erforderlichen Datenbanken auf dem angegebenen Computer mit SQL Server oder SQL Server-Cluster. Dies ist die einzige Art von Datenbankinstallation, die bei Verwendung des Topologie-Generators verfügbar ist. Wenn Sie eine bestimmte Datenbank auf einem bestimmten Computer installieren müssen oder wenn Sie eine verbundene Datenbank installieren müssen, müssen Sie Windows PowerShell-Befehlszeilenschnittstelle und das Cmdlet "Install-CsDatabase" stattdessen verwenden.
-ms.openlocfilehash: 087bed64e0e1d53cd610433c5695899107a9aa71
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 648dca60cd89cc9eeec7f4787b6464f716fdcee6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066112"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371520"
 ---
 # <a name="create-database"></a>Erstellen der Datenbank
  
@@ -31,9 +31,9 @@ Topologie-Generator bietet die Möglichkeit, Datenbanken auf SQL Server-Speicher
     
 3. Klicken Sie auf **Erweitert**. Wählen Sie im Dialogfeld **Speicherort für Datenbankdateien auswählen** eine der folgenden Optionen aus:
     
-  - **Speicherort für Datenbankdateien automatisch bestimmen**. Bei Auswahl dieser Option verwendet der Topologie-Generator einen integrierten Algorithmus, um den Speicherort für die Datenbankprotokolle und Datendateien auszuwählen.
+   - **Speicherort für Datenbankdateien automatisch bestimmen**. Bei Auswahl dieser Option verwendet der Topologie-Generator einen integrierten Algorithmus, um den Speicherort für die Datenbankprotokolle und Datendateien auszuwählen.
     
-  - **Mithilfe von SQL Server-Instanz Standardwerte**. Wenn Sie diese Option auswählen, wird der integrierte Algorithmus, wählen Sie die Speicherorte für die Datenbankprotokolle und Datendateien nicht verwendet. Protokoll- und Datendateien werden stattdessen in den durch den SQL Server-Standardeinstellungen Pfad (diese Pfade müssen in konfiguriert werden von SQL Server-Administrator erweiterte) angegebenen Speicherorten gespeichert. Datendateien werden in der SQL Server-Daten Datei Standardspeicherort gespeichert werden, während der Protokolldateien in der standardmäßigen SQL Server-Protokolldatei gespeichert werden.
+   - **Mithilfe von SQL Server-Instanz Standardwerte**. Wenn Sie diese Option auswählen, wird der integrierte Algorithmus, wählen Sie die Speicherorte für die Datenbankprotokolle und Datendateien nicht verwendet. Protokoll- und Datendateien werden stattdessen in den durch den SQL Server-Standardeinstellungen Pfad (diese Pfade müssen in konfiguriert werden von SQL Server-Administrator erweiterte) angegebenen Speicherorten gespeichert. Datendateien werden in der SQL Server-Daten Datei Standardspeicherort gespeichert werden, während der Protokolldateien in der standardmäßigen SQL Server-Protokolldatei gespeichert werden.
     
 4. Klicken Sie auf **OK**.
     

@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: e287cc1b6c987e29067d75e344710104cd9c2c4b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: da7786e9ae43fe6021a8358622eedcac22514e57
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246890"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370652"
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Willkommen bei den Office-Inhalten auf „docs.microsoft.com“
 ## <a name="this-is-a-level-2-heading"></a>Dies ist eine Überschrift der Ebene 2.
@@ -43,7 +43,7 @@ Es ist möglich, eine Tabelle Abzugsverteilung(en) in Suchen verleiten, wie sie 
 <p>Ich zeige „&#9744“; an.</p>
 <p>Ich zeige „&#x2610;“ an.</p>
 
-###<a name="this-is-heading-3"></a>Dies ist 3 Überschrift.
+### <a name="this-is-heading-3"></a>Dies ist 3 Überschrift.
 
 Die Microsoft Teams-Inhalte sind jetzt verfügbar.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)

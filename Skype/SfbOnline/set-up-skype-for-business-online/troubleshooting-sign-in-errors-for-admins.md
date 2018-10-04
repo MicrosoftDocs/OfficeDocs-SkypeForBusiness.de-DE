@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, häufige Ursachen für Skype für Business Online Anmelde-Fehler und Arbeit über diese Problembehandlung. '
-ms.openlocfilehash: 63bcd69fa4db2266647960c119c198797c154f75
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850213"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371149"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Problembehandlung bei Skype für Business Online Anmeldefehlern für Administratoren
 
@@ -32,23 +32,23 @@ Um Skype Business Online Fehler zu beheben, starten Sie durch Vermeidung der hä
 <a name="top"> </a>
 
 > [Kontrollkästchen für häufige Ursachen für Business Online Anmeldefehlern Skype](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
-
+> 
 > [Schritte für Lösung für einen bestimmten Fehler (nur Enterprise)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
-
+> 
 > [Hinzufügen eines firewalleintrags für msoidsvc.exe auf den Proxyserver](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
-
+> 
 > [Aktualisieren von DNS-Einstellungen](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
-
+> 
 > [Installieren Sie ein Drittanbieter-SSL-Zertifikat auf dem AD FS-server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
-
+> 
 > [Aktualisieren von Sicherheitsanmeldeinformationen](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
-
+> 
 > [Ändern Sie Registrierungsschlüssel TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
-
+> 
 > [Aktualisieren von Benutzereinstellungen in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
-
+> 
 > [Verwenden Sie die Microsoft-Supportmitarbeiter Handbuch zur Problembehandlung](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
-
+> 
 > [Weitere Informationen zu sammeln und seek zusätzliche Hilfe](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Kontrollkästchen für häufige Ursachen für Business Online Anmeldefehlern Skype
@@ -56,16 +56,17 @@ Um Skype Business Online Fehler zu beheben, starten Sie durch Vermeidung der hä
 
 Die meisten Probleme auf eine kleine Anzahl von Ursachen zurückverfolgt werden können, und viele dieser einfach zu beheben sind. Die folgende Tabelle enthält einige häufige Ursachen für Anmeldefehlern und einige Schritte, mit denen Sie oder die Benutzer zu deren Lösung beschrieben.
 
-|**Mögliche Ursache**|**Lösung**|
-|:-----|:-----|
-|Anmeldung, ein Dialogfeld wird angezeigt, die den folgenden Ausdruck enthält: **kann nicht überprüft, dass der Server für Ihre Anmeldeadresse vertrauenswürdig ist. Trotzdem verbinden?** <br/> |Stellen Sie sicher, dass der Domänenname im Dialogfeld einen vertrauenswürdigen Server in Ihrer Organisation ist – beispielsweise **domainName.contoso.com**. Bitten Sie den Benutzer das Kontrollkästchen **immer diesen Server vertrauen** aus, und klicken Sie auf **Verbinden**. <br/> Unternehmenskunden können verhindern, dass diese Meldung angezeigt wird, wenn ein Benutzer zum ersten Mal anmeldet durch Ändern der Windows-Registrierung auf dem Computer des Benutzers. Weitere Informationen hierzu finden Sie unter [Registrierungsschlüssel TrustModelData ändern](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
-|Geschriebene Anmeldeadresse, Benutzername oder das Kennwort  <br/> | Vergewissern Sie sich, dass Anmeldenamen und das Kennwort des Benutzers richtig sind. <br/>  Stellen Sie sicher, dass der Anmeldename des Benutzers wie folgt formatiert ist: **bobk@contoso.com**. Dies kann aus dem Format anders lauten, die Sie zur Anmeldung bei des Netzwerks Ihrer Organisation verwenden.  <br/>  Bitten Sie den Benutzer, versuchen erneut, sich anzumelden. <br/> |
-|Kennwort vergessen?  <br/> |Das Kennwort des Benutzers zurücksetzen und ihn oder das neue temporäre Kennwort zu benachrichtigen.  <br/> |
-|Keine Lizenz für Business Online Skype verwenden  <br/> |Vergewissern Sie sich, dass der Benutzer als einen Skype für Business Online Benutzer registriert ist. Wenn dies nicht der Fall ist, registrieren Sie den Benutzer, und klicken Sie dann bitten Sie ihn erneut anmelden.  <br/> |
-|Falsche Version von Skype für Business Online installiert  <br/> |Dieses Problem ist in der Regel zugeordnet, mit einer Fehlermeldung, die den folgenden Ausdruck enthält: **der Authentifizierungsdienst ist möglicherweise mit dieser Version des Programms nicht kompatibel**.  <br/> Bitten Sie den Benutzer zum Deinstallieren und Neuinstallieren von Skype für Business Online über das Office 365-Portal.  <br/> |
-|Problem Erwerb ein persönliches Zertifikat, das für die Anmeldung erforderlich ist  <br/> |Wenn die Adresse des Benutzers anmelden zuletzt geändert hat, müssen sie möglicherweise zwischengespeicherte Daten zu löschen. Fordern Sie Benutzer auf Abmelden klicken Sie auf Löschen Meine Info-Anmeldung auf dem Bildschirm Anmeldung verknüpfen, und versuchen Sie es erneut.  <br/> |
-|Sie richten Sie einen benutzerdefinierten Domänennamen, und die Änderungen möglicherweise nicht durch das System verbreitet abgeschlossen haben.  <br/> |Stellen Sie zunächst sicher, dass Sie die Datensätze Service DNS (Domain Name), um die Änderung geändert haben.  <br/> Wenn Sie bereits die erforderlichen DNS-Änderungen vorgenommen haben, empfehlen Sie den Benutzer, versuchen später, sich anzumelden. DNS-Änderungen können im gesamten System widergespiegelt werden bis zu 72 Stunden dauern.  <br/> |
-|Systemuhr synchron mit der Uhr des Servers  <br/> |Stellen Sie sicher, dass Ihr Netzwerk-Domänencontroller mit einem zuverlässigen externen Uhr synchronisiert werden. Weitere Informationen hierzu finden Sie unter der Microsoft Knowledge Base-Artikel 816042, [wie Sie einen autorisierenden Zeitserver in Windows Server konfigurieren](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
+
+| **Mögliche Ursache**                                                                                                                                                    | **Lösung**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Anmeldung, ein Dialogfeld wird angezeigt, die den folgenden Ausdruck enthält: **kann nicht überprüft, dass der Server für Ihre Anmeldeadresse vertrauenswürdig ist. Trotzdem verbinden?** <br/> | Stellen Sie sicher, dass der Domänenname im Dialogfeld einen vertrauenswürdigen Server in Ihrer Organisation ist – beispielsweise **domainName.contoso.com**. Bitten Sie den Benutzer das Kontrollkästchen **immer diesen Server vertrauen** aus, und klicken Sie auf **Verbinden**. <br/> Unternehmenskunden können verhindern, dass diese Meldung angezeigt wird, wenn ein Benutzer zum ersten Mal anmeldet durch Ändern der Windows-Registrierung auf dem Computer des Benutzers. Weitere Informationen hierzu finden Sie unter [Registrierungsschlüssel TrustModelData ändern](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+| Geschriebene Anmeldeadresse, Benutzername oder das Kennwort  <br/>                                                                                                               | Vergewissern Sie sich, dass Anmeldenamen und das Kennwort des Benutzers richtig sind. <br/>  Stellen Sie sicher, dass der Anmeldename des Benutzers wie folgt formatiert ist: <strong>bobk@contoso.com</strong>. Dies kann aus dem Format anders lauten, die Sie zur Anmeldung bei des Netzwerks Ihrer Organisation verwenden.  <br/>  Bitten Sie den Benutzer, versuchen erneut, sich anzumelden. <br/>                                                                                                                                                                                                                             |
+| Kennwort vergessen?  <br/>                                                                                                                                             | Das Kennwort des Benutzers zurücksetzen und ihn oder das neue temporäre Kennwort zu benachrichtigen.  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Keine Lizenz für Business Online Skype verwenden  <br/>                                                                                                                  | Vergewissern Sie sich, dass der Benutzer als einen Skype für Business Online Benutzer registriert ist. Wenn dies nicht der Fall ist, registrieren Sie den Benutzer, und klicken Sie dann bitten Sie ihn erneut anmelden.  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
+| Falsche Version von Skype für Business Online installiert  <br/>                                                                                                           | Dieses Problem ist in der Regel zugeordnet, mit einer Fehlermeldung, die den folgenden Ausdruck enthält: **der Authentifizierungsdienst ist möglicherweise mit dieser Version des Programms nicht kompatibel**.  <br/> Bitten Sie den Benutzer zum Deinstallieren und Neuinstallieren von Skype für Business Online über das Office 365-Portal.  <br/>                                                                                                                                                                                                                                                    |
+| Problem Erwerb ein persönliches Zertifikat, das für die Anmeldung erforderlich ist  <br/>                                                                                           | Wenn die Adresse des Benutzers anmelden zuletzt geändert hat, müssen sie möglicherweise zwischengespeicherte Daten zu löschen. Fordern Sie Benutzer auf Abmelden klicken Sie auf Löschen Meine Info-Anmeldung auf dem Bildschirm Anmeldung verknüpfen, und versuchen Sie es erneut.  <br/>                                                                                                                                                                                                                                                                                                                                |
+| Sie richten Sie einen benutzerdefinierten Domänennamen, und die Änderungen möglicherweise nicht durch das System verbreitet abgeschlossen haben.  <br/>                                                         | Stellen Sie zunächst sicher, dass Sie die Datensätze Service DNS (Domain Name), um die Änderung geändert haben.  <br/> Wenn Sie bereits die erforderlichen DNS-Änderungen vorgenommen haben, empfehlen Sie den Benutzer, versuchen später, sich anzumelden. DNS-Änderungen können im gesamten System widergespiegelt werden bis zu 72 Stunden dauern.  <br/>                                                                                                                                                                                                                                                        |
+| Systemuhr synchron mit der Uhr des Servers  <br/>                                                                                                                     | Stellen Sie sicher, dass Ihr Netzwerk-Domänencontroller mit einem zuverlässigen externen Uhr synchronisiert werden. Weitere Informationen hierzu finden Sie unter der Microsoft Knowledge Base-Artikel 816042, [wie Sie einen autorisierenden Zeitserver in Windows Server konfigurieren](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/>                                                                                                                                                                                                                                          |
 
 Um Skype Business Online Fehler zu beheben, starten Sie durch Vermeidung der häufigsten Ursachen der Anmeldung Probleme auftreten. Führen Sie bei Bedarf können Sie klicken Sie dann bestimmten Auflösung Schritte auf den Typ des Fehlers basieren. Wenn der Benutzer noch nicht anmelden kann, zusätzliche Informationen sammeln und dann seek zusätzliche Hilfe.
 

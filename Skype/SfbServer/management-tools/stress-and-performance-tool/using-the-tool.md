@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Um die Skype für Business Server 2015 Stress and Performance-Tool auszuführen, müssen Sie Benutzer, Kontakte und Benutzerprofile verwalten können konfigurieren das Tool zum Ausführen, und überprüfen Sie die Ausgabe oder Ergebnisse, die von dem Tool erstellt werden.
-ms.openlocfilehash: 5f73ef6733c2f09cdf3e06bc8a6495c743d8b423
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375439"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Verwenden die Skype für Business Server 2015 Stress and Performance-Tool
  
@@ -95,7 +96,7 @@ Wenn Sie auf die Schaltfläche **Erstellen Benutzer** klicken, werden die von Ih
   
 Die Erstellung des Benutzers dauert, also bitte entsprechend planen. Dieser Prozess kann einige Stunden für eine große Anzahl von Benutzern an einer beliebigen Stelle in einige Minuten für einige Benutzer nutzen.
   
-Wenn Sie keinen Zugriff auf die Active Directory-Domänencontroller in Ihrer testumgebung haben, können Sie die Erstellung des Benutzers immer noch durch Anmelden als einer der Benutzer im Bereich von Benutzern erstellen, um die eingegebenen überprüfen. Denken Sie daran, das Präfix und das Suffix wird zusammen mit der @sipDomain als Benutzernamen verwenden. Es folgt ein Beispiel: *TestUser20@contoso.net* .
+Wenn Sie keinen Zugriff auf die Active Directory-Domänencontroller in Ihrer testumgebung haben, können Sie die Erstellung des Benutzers immer noch durch Anmelden als einer der Benutzer im Bereich von Benutzern erstellen, um die eingegebenen überprüfen. Denken Sie daran, das Präfix und das Suffix wird zusammen mit der @sipDomain als Benutzernamen verwenden. Es folgt ein Beispiel: <em>TestUser20@contoso.net</em> .
   
 > [!NOTE]
 > Wenn die Benutzer bereits vorhanden ist, wird durch Klicken auf die Schaltfläche Benutzer erstellen diese mit konfigurationsänderungen aktualisiert. 
@@ -362,9 +363,9 @@ Das Load-Konfigurationstool (UserProfileGenerator.exe) erstellt eine Batchdatei,
     
 2. Navigieren Sie zum Clientordner, und führen Sie die Batchdatei **RunClient** . Können Sie die Batchdatei in Windows Explorer doppelklicken, und es werden alle Konfigurationsdateien für den Client ausgeführt. Sie können auch das Skript aus einem Clientordner ausführen, mithilfe der folgenden Syntax:
     
-  ```
-  RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
-  ```
+   ```
+   RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
+   ```
 
 Zu das Stress and Performance-Tool direkt ausgeführt, öffnen Sie ein Eingabeaufforderungsfenster, und geben Sie den folgenden Befehl an der Befehlszeile (und zum ersten Mal dabei unbedingt die Leistungsindikatoren registrieren `regsvr32 /i /n /s LyncPerfToolPerf.dll`, wie im Hinweis weiter unten in diesem Thema beschrieben):
   

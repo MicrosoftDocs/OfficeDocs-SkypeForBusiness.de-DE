@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie bearbeiten die Einstellungen für Flexibilität und konfigurieren Sie die folgenden Eigenschaften:'
-ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: db69f930dfa747e7537e529ede3b90405867ca27
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260671"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372706"
 ---
 # <a name="registrar-sba-settings-expander"></a>SBA Registrierungseinstellungen – Erweiterung
 
@@ -32,11 +32,11 @@ Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren Sie di
     > [!CAUTION]
     > Die Anzahl der Sekunden an, denen Sie für die Intervalle Failover und Failback definieren sollten sorgfältig getestet werden, um sicherzustellen, dass die Resiliency wie erwartet funktioniert. Festlegen des Intervalls auf Niedrig (d. h., kleiner als 120 Sekunden) oder das Failover und Failback festlegen zu stark möglicherweise in den tatsächlichen Failover und Failback funktioniert nicht wie erwartet.
 
- **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
+  **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
 
- **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
+  **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
 
- **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
+  **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
 
 ## <a name="see-also"></a>Siehe auch
 

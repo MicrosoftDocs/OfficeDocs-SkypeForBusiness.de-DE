@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Finden Sie unter Weiterleiten von Telefonnummern zu Office 365 Anweisungen.
-ms.openlocfilehash: 62829fff57b234380d93240183ddf8700855cb39
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015301"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375871"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Allgemeine Fragen zum Übertragen von Telefonnummern
 
@@ -69,7 +69,7 @@ Im Allgemeinen können Sie eine beliebige Telefonnummer übertragen, die von ein
     
 - Skype für hybride Business Telefonnummern. Wenn Sie diese Nummern übertragen möchten, müssen Sie e-Mail senden, um uns <ptn@microsoft.com>.
     
- **KANN NICHT ÜBERTRAGEN WERDEN:**
+  **KANN NICHT ÜBERTRAGEN WERDEN:**
   
 > [!NOTE]
 > Zu diesem Zeitpunkt können nicht Sie alle Telefonnummer oder Zahlen, die aus einem unterstützten Land/Region einschließlich Telefonnummern von einem VoIP-Telefon-Anbieter werden nicht übertragen. Eine Liste der unterstützten Ländern/Regionen finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

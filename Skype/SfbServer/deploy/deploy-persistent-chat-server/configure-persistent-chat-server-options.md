@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von Persistent Chat Server-Optionen auf globaler, Standort- oder Poolebene in Skype für Business Server 2015.'
-ms.openlocfilehash: 1da6acc83c051e2de3b2453aae04f40c5b18d456
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5d8bf63332ca991117e0fbd3beddc97855617274
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988839"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25376000"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Konfigurieren von Optionen des Servers für beständigen Chat in Skype for Business Server 2015
  
@@ -57,8 +57,8 @@ So konfigurieren Sie globale Optionen für Persistent Chat Server
     
    - Definieren Sie unter **Standardchatverlauf** die Anzahl von Chatnachrichten, die für jeden Chatroom bei der ersten Anforderung verarbeitet werden. Der Standardwert lautet 30. Dies ist der globale Standardwert und Administratoren können den Chatverlauf pro Kategorie deaktivieren.
     
-    > [!IMPORTANT]
-    > Persistent Chat Server diese Nachrichten im Arbeitsspeicher zwischengespeichert wird, wenn Sie diese Zahl erhöhen, weitere Nachrichten zwischengespeichert werden. Sie können von der Suche immer zurückliegenden Inhalte zugreifen. Die Standardanzahl einfach bestimmt die maximale Anzahl von Nachrichten, die Sie anfänglich finden Sie unter beim Verbinden mit einem Chatroom. 
+     > [!IMPORTANT]
+     > Persistent Chat Server diese Nachrichten im Arbeitsspeicher zwischengespeichert wird, wenn Sie diese Zahl erhöhen, weitere Nachrichten zwischengespeichert werden. Sie können von der Suche immer zurückliegenden Inhalte zugreifen. Die Standardanzahl einfach bestimmt die maximale Anzahl von Nachrichten, die Sie anfänglich finden Sie unter beim Verbinden mit einem Chatroom. 
   
    - Wählen Sie unter **Maximale Dateigröße (KB)** die maximale Dateigröße für jeden Chatverlauf aus. Der Standardwert lautet 20 MB (20.000 KB). Dies ist die maximale Größe einer Datei, die in einen Chatroom des Systems hochgeladen werden kann (Dateiuploads werden jeweils über die Einstellung **Kategorie** aktiviert).
     
@@ -66,7 +66,7 @@ So konfigurieren Sie globale Optionen für Persistent Chat Server
     
    - (Optional). Wählen Sie in **Raum Management URL**den Chatroom Management-URL ein. Dies ist die URL für die webbasierte benutzerdefinierte Raumverwaltung. Wenn Sie nicht mehr benötigen zum Verwalten von Chatrooms anpassen, verwenden Sie einfach die Standardeinstellung, lassen Sie diese Option leer. Nach dem Festlegen der URL wird diese sowohl als interne als auch als externe Raumverwaltungs-URL angewendet.
     
-    Wenn Sie Anpassen Ihrer Erstellung wie im Besprechungsraum und Ihren Workflow bestimmter geschäftlicher einschließen möchten, können Sie eine benutzerdefinierte Raum Management-Lösung mithilfe der Persistent Chat Server Software Development Kit (SDK) erstellen, es irgendwo hosten und die URL hier einfügen. Diese URL wird an den Client gesendet nach unten, wenn ein Benutzer versucht, anzeigen oder einen Chatroom erstellen, kann er an der benutzerdefinierten Raum Management-Lösung gerichtet ist.
+     Wenn Sie Anpassen Ihrer Erstellung wie im Besprechungsraum und Ihren Workflow bestimmter geschäftlicher einschließen möchten, können Sie eine benutzerdefinierte Raum Management-Lösung mithilfe der Persistent Chat Server Software Development Kit (SDK) erstellen, es irgendwo hosten und die URL hier einfügen. Diese URL wird an den Client gesendet nach unten, wenn ein Benutzer versucht, anzeigen oder einen Chatroom erstellen, kann er an der benutzerdefinierten Raum Management-Lösung gerichtet ist.
     
 7. Klicken Sie auf **Commit ausführen**.
     
@@ -90,8 +90,8 @@ So konfigurieren Sie Optionen für einen bestimmten Persistent Chat Server Pool.
     
    - Definieren Sie unter **Standardchatverlauf** die Anzahl von Chatnachrichten, die für jeden Chatroom bei der ersten Anforderung verarbeitet werden. Der Standardwert lautet 30. Dies ist der globale Standardwert und Administratoren können den Chatverlauf pro Kategorie deaktivieren.
     
-    > [!IMPORTANT]
-    > Persistent Chat Server diese Nachrichten im Arbeitsspeicher zwischengespeichert wird, wenn Sie diese Zahl erhöhen, weitere Nachrichten zwischengespeichert werden. Sie können von der Suche immer zurückliegenden Inhalte zugreifen. Die Standardanzahl einfach bestimmt die maximale Anzahl von Nachrichten, die Sie anfänglich finden Sie unter beim Verbinden mit einem Chatroom. 
+     > [!IMPORTANT]
+     > Persistent Chat Server diese Nachrichten im Arbeitsspeicher zwischengespeichert wird, wenn Sie diese Zahl erhöhen, weitere Nachrichten zwischengespeichert werden. Sie können von der Suche immer zurückliegenden Inhalte zugreifen. Die Standardanzahl einfach bestimmt die maximale Anzahl von Nachrichten, die Sie anfänglich finden Sie unter beim Verbinden mit einem Chatroom. 
   
    - Wählen Sie unter **Maximale Dateigröße (KB)** die maximale Dateigröße für jeden Chatverlauf aus. Der Standardwert lautet 20 MB (20.000 KB). Dies ist die maximale Größe einer Datei, die in einen Chatroom des Systems hochgeladen werden kann (Dateiuploads werden jeweils über die Einstellung **Kategorie** aktiviert).
     
@@ -99,7 +99,7 @@ So konfigurieren Sie Optionen für einen bestimmten Persistent Chat Server Pool.
     
    - Wählen Sie unter **Raumverwaltungs-URL** die Raumverwaltungs-URL aus. Dies ist die URL für die webbasierte Bereitstellung der Raumverwaltung. Wenn Sie nicht mehr benötigen zum Verwalten von Chatrooms anpassen, verwenden Sie einfach die Standardeinstellung, lassen Sie diese Option leer.
     
-    Wenn Sie Anpassen Ihrer Erstellung wie im Besprechungsraum und Ihren Workflow bestimmter geschäftlicher einschließen möchten, können Sie eine benutzerdefinierte Raum Management-Lösung mithilfe der Persistent Chat Server Software Development Kit (SDK) erstellen, es irgendwo hosten und die URL hier einfügen. Diese URL wird an den Client gesendet nach unten, wenn ein Benutzer versucht, einen Raum anzeigen/erstellen, kann er an der benutzerdefinierten Raum Management-Lösung gerichtet ist.
+     Wenn Sie Anpassen Ihrer Erstellung wie im Besprechungsraum und Ihren Workflow bestimmter geschäftlicher einschließen möchten, können Sie eine benutzerdefinierte Raum Management-Lösung mithilfe der Persistent Chat Server Software Development Kit (SDK) erstellen, es irgendwo hosten und die URL hier einfügen. Diese URL wird an den Client gesendet nach unten, wenn ein Benutzer versucht, einen Raum anzeigen/erstellen, kann er an der benutzerdefinierten Raum Management-Lösung gerichtet ist.
     
 7. Klicken Sie auf **Commit ausführen**.
     

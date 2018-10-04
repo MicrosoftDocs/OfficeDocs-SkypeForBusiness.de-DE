@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 930837f7d6accc4d7ff9d1533296267605097828
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: dc1bf738f301dfc800b0e0e4975322fae6a1568e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958091"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370709"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Warum ist für die Aktivierung einer Telefonnummer angegeben, dass die Daten aktualisiert werden?
 
@@ -51,13 +51,13 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
     
 5. Wählen Sie auf der Seite **Identify the issue** (Das Problem identifizieren) Folgendes aus, bzw. geben Sie Folgendes ein:
     
-  - **Funktion**: Wählen Sie **Domestic Calling Plan** (Anrufplan für Inland) und/oder **Domestic and International Plan** (Anrufplan für Inland und Ausland) aus.
+   - **Funktion**: Wählen Sie **Domestic Calling Plan** (Anrufplan für Inland) und/oder **Domestic and International Plan** (Anrufplan für Inland und Ausland) aus.
     
-  - **Symptom**: Geben Sie **Notrufe** ein.
+   - **Symptom**: Geben Sie **Notrufe** ein.
     
-  - **Issue summary** (Problemzusammenfassung): Geben Sie **Adressvalidierung** ein.
+   - **Issue summary** (Problemzusammenfassung): Geben Sie **Adressvalidierung** ein.
     
-  - **Issue details** (Problemdetails): Geben Sie Details zu den Adressen ein, die Sie validieren möchten:
+   - **Issue details** (Problemdetails): Geben Sie Details zu den Adressen ein, die Sie validieren möchten:
     
       - Hausnummer
     
@@ -67,8 +67,8 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
     
       - Land oder Region
     
-    > [!IMPORTANT]
-    > **Geben Sie das Land bzw. die Region ein, in dem bzw. in der wir Anrufpläne in Office 365 anbieten und in dem bzw. in der Sie beim Zuweisen einer Telefonnummer eine Notfalladresse validieren möchten.**
+     > [!IMPORTANT]
+     > **Geben Sie das Land bzw. die Region ein, in dem bzw. in der wir Anrufpläne in Office 365 anbieten und in dem bzw. in der Sie beim Zuweisen einer Telefonnummer eine Notfalladresse validieren möchten.**
   
       - Postleitzahl
     
@@ -76,19 +76,19 @@ Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen
     
 7. Wählen Sie auf der Seite **Details hinzufügen** Folgendes aus, bzw. geben Sie Folgendes ein:
     
-  - **Is your service unavailable?** (Ist Ihr Dienst nicht verfügbar?): Wählen Sie **Nein** aus.
+   - **Is your service unavailable?** (Ist Ihr Dienst nicht verfügbar?): Wählen Sie **Nein** aus.
     
-  - **How many users are affected?** (Wie viele Benutzer sind betroffen?): Wählen Sie **Some users** (Einige Benutzer) aus.
+   - **How many users are affected?** (Wie viele Benutzer sind betroffen?): Wählen Sie **Some users** (Einige Benutzer) aus.
     
-  - **Enter an email address of someone affected by this issue** (Geben Sie die E-Mail-Adresse einer von diesem Problem betroffenen Person ein): Geben Sie eine E-Mail-Adresse ein, oder lassen Sie dieses Feld leer.
+   - **Enter an email address of someone affected by this issue** (Geben Sie die E-Mail-Adresse einer von diesem Problem betroffenen Person ein): Geben Sie eine E-Mail-Adresse ein, oder lassen Sie dieses Feld leer.
     
-  - **Select Domain(s) you want to list** (Wählen Sie die Domänen aus, die Sie auflisten möchten)
+   - **Select Domain(s) you want to list** (Wählen Sie die Domänen aus, die Sie auflisten möchten)
     
-  - **Datei anfügen**: Fügen Sie eine Datei an, wenn Sie mehrere Adressen validieren möchten.
+   - **Datei anfügen**: Fügen Sie eine Datei an, wenn Sie mehrere Adressen validieren möchten.
     
-  - Klicken Sie auf **Weiter**.
+   - Klicken Sie auf **Weiter**.
     
-  - Geben Sie Ihre Kontakttelefonnummer ein.
+   - Geben Sie Ihre Kontakttelefonnummer ein.
     
 8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     

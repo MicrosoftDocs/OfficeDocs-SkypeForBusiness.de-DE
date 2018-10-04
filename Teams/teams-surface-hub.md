@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62eb0e6fbae734a83fd96f89203db0547938e9d3
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018586"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372181"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft-Teams für die Fläche Hub
 ======================================
@@ -65,7 +65,7 @@ Die Pakete finden Sie auf dieser [Seite herunterladen](https://1drv.ms/f/s!Arcnb
 5. Klicken Sie auf **Hinzufügen oder Entfernen einer Bereitstellung Paket**. 
 6. Klicken Sie auf **Paket hinzufügen**.
 7. Wählen Sie aus dem Dropdown-Menü die Option **Wechselmedium** aus. 
-8. Fügen Sie das entsprechende **TeamsRTMMode*.ppkg** -Paket, das zuvor an den USB-Schlüssel kopiert wurde. 
+8. Fügen Sie das entsprechende <strong>TeamsRTMMode*.ppkg</strong> -Paket, das zuvor an den USB-Schlüssel kopiert wurde. 
 9. Starten Sie das Fläche Hub-Gerät neu. 
 10. Nach dem Neustart des Geräts, sollten Sie möglicherweise die Teams app aus dem Bildschirm Start starten und teilnehmen an einer Besprechung aus dem Kalender. 
 

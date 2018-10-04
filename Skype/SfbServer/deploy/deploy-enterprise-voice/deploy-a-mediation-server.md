@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Zusammenfassung: Informationen Sie zum Definieren und Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server.'
-ms.openlocfilehash: fd83ecb44726f151dea83c19b9745446653ca33b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883724"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371921"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server
  
@@ -79,8 +79,8 @@ Sie können Vermittlungsserver als auf einem Front-End-Pool verbundenen Rolle hi
     
    - Wenn Sie mehrere Vermittlungsserver im Pool, um hohe Verfügbarkeit bereitstellen möchten, wählen Sie **Pool mit mehreren Computern**.
     
-    > [!NOTE]
-    > Sie müssen zur vermittlungsserverpools Unterstützung mit mehreren Vermittlungsserver [Bereitstellen](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) .
+     > [!NOTE]
+     > Sie müssen zur vermittlungsserverpools Unterstützung mit mehreren Vermittlungsserver [Bereitstellen](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) .
   
    - Wenn Sie nur einen Vermittlungsserver im Pool bereitstellen, da Sie keine hohe Verfügbarkeit erforderlich möchten, wählen Sie **Pool mit einem Computer**. Überspringen Sie den folgenden Schritt.
     

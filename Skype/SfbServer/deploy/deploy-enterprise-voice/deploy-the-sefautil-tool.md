@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Bereitstellen von dem Tool SEFAUtil in Skype für Business Server ein.
-ms.openlocfilehash: dfb2b1e4634332fcf88fdce7b09a02f925dd120e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884800"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375259"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Das Tool SEFAUtil in Skype für Unternehmen bereitstellen
  
@@ -57,9 +57,9 @@ Sie können das Tool SEFAUtil in Ihrer Bereitstellung in einem beliebigen Front-
   
 5. Aktivieren Sie die Topologie mit Ihren Änderungen. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
 6. Wenn Sie noch nicht geschehen ist, laden Sie die Skype für Business Server-Version des Tools SEFAUtil aus [diesem Speicherort](https://www.microsoft.com/en-us/download/details.aspx?id=52631), und installieren Sie es auf den vertrauenswürdigen Anwendungspool in Schritt 3 erstellte.
     
@@ -69,9 +69,9 @@ Sie können das Tool SEFAUtil in Ihrer Bereitstellung in einem beliebigen Front-
     
     b. Zeigen Sie die Anrufweiterleitungseinstellungen eines Benutzers an. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
     
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
+   ```
 
 Die Anrufweiterleitungseinstellungen für den Benutzer werden angezeigt.
     

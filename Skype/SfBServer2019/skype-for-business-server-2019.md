@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: Erkunden Sie diese Links, um Informationen zum Implementieren von Skype für Business Server 2019.'
-ms.openlocfilehash: 0597aa1ac93e943bf20556ecec8047416eacef99
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1ae2c6cb758a2cc7e948e7e20a2ce8527553f7c5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029874"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374195"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype für Business Server 2019
 
@@ -205,9 +205,11 @@ ms.locfileid: "25029874"
 -->
 
 ### <a name="featured-articles"></a>Ausgewählte Artikel
-| | | |
-|:--- |:--- |:--- |
-|**Bevor Sie beginnen** <br>[Systemanforderungen](plan/system-requirements.md) <br>[Netzwerkanforderungen](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Installieren ** <br>[Installieren von Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrieren Sie zu Skype für Business 2019](migration/migration-to-skype-for-business-server-2019.md)|**Enterprise-VoIP**<br>[Planen](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Bereitstellen](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
-|**Neue features**<br>[Neuigkeiten](whats-new.md)  |**Hybridlösungen**<br>[Planen von hybridkonnektivität](hybrid/plan-hybrid-connectivity.md)<br> [Planen der Voicemail Cloud-Dienst](hybrid/plan-cloud-voicemail.md)<br>[Planen der Anruf Data Connector](hybrid/plan-call-data-connector.md)  |  |
-| | | |
+
+|                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Bevor Sie beginnen** <br>[Systemanforderungen](plan/system-requirements.md) <br>[Netzwerkanforderungen](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Installieren ** <br>[Installieren von Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrieren Sie zu Skype für Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Enterprise-VoIP**<br>[Planen](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Bereitstellen](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **Neue features**<br>[Neuigkeiten](whats-new.md)                                                                                                                                         | **Hybridlösungen**<br>[Planen von hybridkonnektivität](hybrid/plan-hybrid-connectivity.md)<br> [Planen der Voicemail Cloud-Dienst](hybrid/plan-cloud-voicemail.md)<br>[Planen der Anruf Data Connector](hybrid/plan-call-data-connector.md) |                                                                                                                                                                                                     |
+|                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
+
 * * *   

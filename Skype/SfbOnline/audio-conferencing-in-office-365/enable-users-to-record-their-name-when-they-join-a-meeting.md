@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Informationen Sie zum Aktivieren oder deaktivieren, ob die Benutzer beim Beitritt zu einer Besprechung in Skype für Business Online ihre Namen festhalten können.
-ms.openlocfilehash: 0e330d5efdd7325a8db48aa679d6ecbb9264c345
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884721"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371758"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Aktivieren von Benutzern, ihren Namen aufzuzeichnen, beim Beitritt zu einer Besprechung in Skype für Business Online
 
@@ -42,9 +42,9 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
     
 2. Unter ** Besprechung beitreten**  sehen Sie das Kontrollkästchen ** Besprechungseintrag aktivieren und Benachrichtigungen beenden wird aktiviert** .
     
-  - **Aktivierte** Anrufer werden aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen. Diese Option ist standardmäßig aktiviert.
+   - **Aktivierte** Anrufer werden aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen. Diese Option ist standardmäßig aktiviert.
     
-  - **Nicht aktivierte** Anrufer werden nicht aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen.
+   - **Nicht aktivierte** Anrufer werden nicht aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen.
     
 3. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
     
@@ -55,7 +55,7 @@ Die Konferenzbrücke nimmt den Anruf eines Benutzers an, der sich mit einem Tele
 
 - Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings ](https://go.microsoft.com/fwlink/?LinkId=715757) nutzen.
     
--  In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Sechs Gründe für die Verwendung von Windows PowerShell zur Verwaltung von Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     

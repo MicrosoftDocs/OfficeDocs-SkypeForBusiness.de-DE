@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb19af107bc41fc088d7398570e34d0586b34e15
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015789"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370753"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
 ======================================
@@ -65,7 +65,7 @@ Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca.
   
 5. Klicken oder tippen Sie auf die Umschaltfläche neben **Microsoft Teams für alle Benutzer dieses Typs aktivieren oder deaktivieren** auf **Ein**, um Teams und Gastzugriff für Ihre Organisation zu aktivieren, und wählen Sie dann **Speichern** aus. 
     
- In den folgenden Videos erfahren Sie mehr über den Gastzugriff:  
+   In den folgenden Videos erfahren Sie mehr über den Gastzugriff:  
 
 |  |  |
 |---------|---------|

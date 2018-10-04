@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 description: 'Zusammenfassung: erfahren Sie, wie Upgrades oder Patches auf Front-End-Servern im Skype für Business Server angewendet.'
-ms.openlocfilehash: 29191192b1dab16b79cc594cc0a7b3b68aaa906f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cf209159391ef084d77b5adc639698ed766427ff
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972772"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371717"
 ---
 # <a name="patch-or-update-front-end-servers-in-skype-for-business-server"></a>Patchen oder Aktualisieren von Front-End-Servern im Skype für Business Server
  
@@ -26,21 +26,21 @@ Wenn Sie die Server in einem Front-End-Pool patchen, gehen Sie also einen Server
 
 1. Geben Sie das folgende Cmdlet ein:
     
-  ```
-  Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
-  ```
+   ```
+   Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
+   ```
 
      Wenn für dieses Cmdlet fehlende Replikate angezeigt werden, führen Sie vor dem Anwenden von Patches das folgende Cmdlet aus, um den Pool wiederherzustellen.
     
-  ```
-  Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
-  ```
+   ```
+   Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
+   ```
 
 2. Führen Sie auf dem ersten Server, auf den ein Patch angewendet werden soll, das folgende Cmdlet aus:
     
-  ```
-  Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
-  ```
+   ```
+   Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
+   ```
 
     Dieses Cmdlet verschiebt alle Dienste auf anderen Front-End-Servern im Pool, und wird von diesem Server offline geschaltet.
     
@@ -48,9 +48,9 @@ Wenn Sie die Server in einem Front-End-Pool patchen, gehen Sie also einen Server
     
 4. Führen Sie das folgende Cmdlet auf dem aktualisierten Server aus:
     
-  ```
-  Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
-  ```
+   ```
+   Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
+   ```
 
     Der Server ist wieder im Dienst.
     

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Den Add-in-Seite im Abschnitt beständigen Chat können beständigen Chat Rooms URLs zugeordnet. Diese URLs werden im Client im Chatroom des Erweiterungsbereichs für Unterhaltungen angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins weitere Add-Ins hinzufügen und Verwalter und Ersteller von Chatrooms müssen die Räume mit einem der registrierten Add-Ins verknüpfen, bevor Benutzer dieses Upgrade in ihrem Client sehen.
-ms.openlocfilehash: 5b8e39e4cd71bdbf1ec6e5e9b93a72b469ce584f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c03566bbf6556917a876744ce9d985ddf25a28ec
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258494"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373050"
 ---
 # <a name="persistent-chat-add-in"></a>Add-In für beständigen Chat
 
@@ -51,9 +51,9 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 6. Gehen Sie unter **Neues Add-In** wie folgt vor:
 
-  - Geben Sie im Feld **Name** einen Namen für das neue Add-In ein.
+   - Geben Sie im Feld **Name** einen Namen für das neue Add-In ein.
 
-  - Geben Sie unter **URL** die URL ein, die mit dem Add-In verknüpft werden soll. URLs müssen das HTTP- oder HTTPS-Protokoll verwenden.
+   - Geben Sie unter **URL** die URL ein, die mit dem Add-In verknüpft werden soll. URLs müssen das HTTP- oder HTTPS-Protokoll verwenden.
 
 7. Klicken Sie auf **Commit ausführen**.
 

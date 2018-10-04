@@ -11,34 +11,34 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 3720ce118537963e5093741c4f05315e887bd60d
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 720bcc16b89ed2cd2b92eababb389d6c363d734d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569747"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375639"
 ---
 # <a name="run-query"></a>Ausführen der Abfrage
- 
+
 **Zusammenfassung:** Informationen Sie zu den Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.
-  
+
 Führen Sie beim Abfragevorgang ist Teil der Daten-API für die Qualitätsdashboard aufrufen.
-  
+
 ## <a name="run-query"></a>Ausführen der Abfrage
 
 Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für den Cube basierend auf angegebenen Dimensionen, Maßeinheiten und Filter bietet und wieder zurückgeben Sie die Daten.
-  
+
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
 |Bereitstellen  <br/> |https://\<Portal\>/QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
-   
+
  **URI-Parameter** - None.
-  
+
  **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
-  
+
  **Anforderungstext** – hier ist ein Beispiel Anforderungsnutzlast in JSON. Sie enthält Dimensionen, Filter und Messung für eine Abfrage erforderlich.
-  
+
 ```
 {
 "Filters": [{
@@ -73,21 +73,21 @@ Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für d
 ```
 
  *Filter* - eine Liste von Filterausdrücken angewendet werden soll, beispielsweise, dass sich das resultierende DataSet nur die Teilmenge der Daten, die von Interesse sind.
-  
+
  *Dimensionen* - eine Liste der Dimensionen, die für das Aggregieren von Daten verwendet werden. Mindestens eine Dimension ist erforderlich, aber mehrere Dimensionen angegeben werden können, um zusätzliche untergeordnete Aggregations erhalten.
-  
+
  *Maßeinheiten* - eine Liste von Maßeinheiten, auch bekannt als Fakten, dass die gewünschten Metriken aggregiert werden auf die Dimensionen basieren, den Sie angegeben haben.
-  
+
  *Trend* - zusätzliche Kontrolle Anweisungen zum Anpassen der Ergebnisdaten.
-  
+
  **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
-  
+
  **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).
-  
+
  **Antwortheader** - keine zusätzlichen Header.
-  
+
  **Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON. Er enthält eine Datentabelle, die die Daten enthält, enthält auch ein Metadaten, der Ausführung der Abfrage und unabhängig davon, ob die Daten aus dem Cache werden angezeigt.
-  
+
 ```
 {
 "ExecutionTime": "00:00:00.2102630",
@@ -119,11 +119,10 @@ Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für d
 "ResultIsFromCache": false,
 "ErrorType": 0
 }
-
 ```
 
  *Ausführungszeit* - die gesamte Zeit für den Server, die Daten zurückgeben. Dies kann oder darf sich nicht Cache beziehen.
-  
+
  *Datenergebnis* – das Ergebnis der Abfrage. Es ist ein zweidimensionales Array, die alle Variationen der Dimensionen Mitglieder und jedes Element, enthält der Dimensionen Elementnamen als auch die aggregierten Werte aus den angegebenen enthält.
-  
+
  *Ergebnis ist aus Cache* - Diagnose. Gibt an, ob das Ergebnis aus dem Zwischenspeicher oder aus dem QoE-Cube stammt.

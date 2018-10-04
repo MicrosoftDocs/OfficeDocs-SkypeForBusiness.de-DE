@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a219226ca5fa7664cc83539ee4faeb9f57125c00
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4222fb19b95b9014a488d8176c63f79b6fda20be
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013297"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371195"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Quality of Service (QoS) in Microsoft Teams
 
@@ -28,7 +28,7 @@ QoS ist ein Mechanismus, mit denen Sie bestimmte Arten von Netzwerkverkehr zu pr
 ![Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste: lokale Netzwerk und Geräte Kontaktaufnahme mit einem Interconnect-Netzwerk, das wiederum eine Verbindung mit Office 365-Cloud-VoIP und Audiokonferenzen Services herstellt.] (media/Qos-in-Teams-Image1.png "Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste: lokale Netzwerk und Geräte Kontaktaufnahme mit einem Interconnect-Netzwerk, das wiederum eine Verbindung mit Office 365-Cloud-VoIP und Audiokonferenzen Services herstellt.")
 
 _Abbildung 1. Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste_
- 
+
 
 In den meisten Fällen werden im Netzwerk Interconnect einer nicht verwalteten Internet Netzwerkverbindung. Eine Option zum Beheben von End-to-End-Dienstqualität ist [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Empfohlen, Sie QoS implementieren auf die Teile des Netzwerks können Sie steuern, welche, nämlich auf Ihrem lokalen Netzwerk. Die Qualität der Kommunikation in Echtzeit Arbeitslasten in Ihrer Bereitstellung zu erhöhen wird und so genannten Chokepunkten gewährleistet in Ihrer bestehenden Bereitstellung verringern. 
 
@@ -40,7 +40,7 @@ Dieser Artikel befasst sich Teams Echtzeitkommunikation Datenverkehr zu priorisi
 Es gibt mehrere Möglichkeiten zum Priorisieren des Datenverkehrs, am häufigsten werden jedoch DSCP-Markierungen (Differentiated Services Code Point) verwendet. Sie können ("mit Tags") angewendet werden basierend auf Portbereiche und auch über den Gruppenrichtlinienobjekten. In diesem Artikel behandelt wird. Es wird empfohlen, für die Verwendung tagging basierend auf Portbereiche, da es für alle Geräte, nicht nur die der Domäne beigetreten funktionsfähig ist.
 
 Steuern der DSCP-Markierung über Gruppenrichtlinienobjekte wird sichergestellt, dass die Domäne eingebundenen Computer die richtigen Einstellungen erhalten und nur von einem Administrator verwaltet werden kann.
- 
+
 Es ist wichtig zu verstehen, dass QoS nur, funktioniert Wenn für alle Hyperlinks implementiert, die Anrufer zum angerufenen verbinden. Wenn Sie QoS auf das interne Netzwerk und ein Benutzer von einem Remotestandort aus anmeldet, können Sie nur innerhalb des internen, verwalteten Netzwerks priorisieren. Obwohl Remotestandorten eine verwaltete Verbindung durch die Implementierung eines virtuellen privaten Netzwerks (VPN) empfangen können, wird empfohlen, dass Sie vermeiden Sie die Ausführung von Real-Time Communications Datenverkehr über VPN.
 
 > [!NOTE]
@@ -71,7 +71,7 @@ Die Anleitung für die Implementierung von QoS für Teams basiert auf vier Szena
 *  **Szenario 2:** Sie bereitgestellt haben, oder bereitstellen, Teams und planen, implementieren Sie QoS über tagging Group Policy Object. Diese Vorgehensweise wird manchmal in Verbindung mit Szenario 1 verwendet. Obwohl dieses Szenario vollständig gültig ist, ist es wichtig zu verstehen, dass es nur für die Domäne eingebundener Windows-Clients eingesetzt wird. Jedes Gerät, das ein in die Domäne eingebundener Windows-Client wird nicht nicht aktiviert werden, für DSCP markieren.
 
 *  **Szenario 3:** Sie haben Skype für Business Online, einschließlich QoS-tagging, bereitgestellt und sind nun Teams bereitstellen. Wenn dies auf Sie zutrifft, respektiert Microsoft Teams die vorhandene Konfiguration und verwendet die gleichen Portbereiche und Markierungen wie der Skype for Business-Client. In den meisten Fällen wird keine zusätzliche Konfiguration erforderlich sein. 
- 
+
     > [!NOTE]
     > Wenn Sie Anwendung Namen QoS tagging über Gruppenrichtlinien verwenden, müssen Sie Teams.exe als den Namen der Anwendung hinzufügen.
 
@@ -87,7 +87,7 @@ Tabelle 1 zeigt die DSCP-Auswahlmöglichkeiten bei der Verwendung von Teams mit 
 
 
 _In Tabelle 1. DSCP Auswahlmöglichkeiten_
-    
+
 | Client-Quellportbereich |Protokoll|Medienkategorie|DSCP-Wert|DSCP-Klasse|
 |---------|---------|---------|---------|---------|
 | 50.000 – 50,019|TCP/UDP|Audio|46|Expedited Forwarding (EF)|
@@ -95,14 +95,14 @@ _In Tabelle 1. DSCP Auswahlmöglichkeiten_
 | 50,040 – 50,059|TCP/UDP|Anwendung/Desktopfreigabe|18|Assured Forwarding (AF21)|
 
 Hier sind ein paar Bedingungen, die Sie verstehen müssen, wenn Sie die Informationen in Tabelle 1 verwenden:
-    
+
 -  Wenn Sie in der Zukunft ExpressRoute implementieren möchten und noch nicht noch QoS implementiert, wird empfohlen, dass Sie die Anleitung in Tabelle 1 befolgen, sodass DSCP-Werte vom Absender zum Empfänger identisch sind. 
 
 -  Alle Clients, einschließlich mobilen Clients und Geräten von Teams, verwenden diese Portbereiche und von einer DSCP-Richtlinie, die Sie implementieren, die diese Quelle Portbereiche verwendet betroffen sind. Die nur Clients, die weiterhin dynamische Ports verwenden, sind die Clients browserbasierte (d. h., diese Clients, mit denen Teilnehmer Besprechungen beitreten, indem Sie mit ihrem Browser).
 
 -  Auch wenn der Mac-Client dieselben Portbereiche verwendet wird, verwendet der Mac-Client auch hartcodierte Werte für (Expedited FORWARDING)-Audio und Video (AF41). Diese Werte sind nicht konfigurierbar.
- 
-    
+
+
 ## <a name="source-ports-used-by-teams"></a>Von Microsoft Teams verwendete Quellports
 
 In Microsoft Teams sollte QoS basierend auf den Quellports konfiguriert werden, die von den verschiedenen Arbeitsauslastungen verwendet werden. Weder serverseitige und clientseitige Portbereiche können derzeit konfiguriert werden. 
@@ -129,12 +129,13 @@ Es gibt mehrere Ansätze zum Festlegen der richtigen DSCP Auswahlmöglichkeiten 
 -  **DSCP-Markierung am Endpunkt:** Dies ist im Allgemeinen die bevorzugte Option, da der Endpunkt selbst die richtigen Auswahlmöglichkeiten stellt. Derzeit können dazu mithilfe eines Gruppenrichtlinienobjekts, jedoch kann nur auf die Domäne eingebundener Windows-Clients verwendet werden. Mobile-Clients enthalten keinen Mechanismus zum Kennzeichnen Datenverkehr mit DSCP-Werte. Obwohl Sie nicht konfigurieren können nicht&ndash;in die Domäne eingebundener Windows-Clients für den Tag Verkehr, Clients wie Mac OS hartcodierte Tags haben und Datenverkehr immer markieren, wie oben beschrieben.
 
 -  **Port-basierte DSCP mithilfe von Zugriffssteuerungslisten (ACLs) auf Routern tagging:** Dies ist ein sehr häufiges Option in heterogenen Windows- und Mac-Umgebungen ist aufgetreten. In diesem Szenario markiert das Netzwerkteam des Datenverkehrs an die eingehende/Ausgang Router (in der Regel befindet sich auf das WAN) basierend auf der Quelle Portbereiche für jede Modalität definiert ist. Obwohl dies plattformübergreifend funktioniert, er nur Datenverkehr an den WAN-Rand kennzeichnet – ganz nicht auf den Clientcomputer – und daher birgt Verwaltungsaufwand.
-    
+
 -  **Eine Kombination von DSCP Auswahlmöglichkeiten an den Endpunkt und Port-basierte ACLs für Router:** Sie sollten diese Kombination Wenn möglich in Ihrer Umgebung. Verwenden Sie ein Gruppenrichtlinienobjekt, um die meisten Clients abzufangen und auch verwenden Sie, Port-basierte DSCP-Markierung um sicherzustellen, dass diese Mobile, Mac und andere Clients weiterhin QoS-Behandlung (zumindest teilweise) relevanten Informationen erhalten.
-    
+
 Sie können Richtlinienbasierte QoS innerhalb der Gruppenrichtlinien verwenden, um den DSCP-Wert für den Portbereich vordefinierten Quelle im Client Teams festzulegen. Verwenden Sie die in Tabelle 3 angegebenen Portbereiche zum Erstellen einer Richtlinie für jeden Workload.
 
 _Tabelle 3. Portbereiche nach Datenverkehrstyp_
+
 | Datenverkehrstyp des Clients|Anfang des Portbereichs|Ende des Portbereichs|DSCP-Wert|
 |---------|---------|---------|--------|
 | Audio|50000|50019|46|
@@ -153,52 +154,54 @@ Die neuen Richtlinien, die von die Ihnen erstellten werden nicht erst wirksam, G
 1. Öffnen Sie auf jedem Computer, für die Sie die Gruppenrichtlinie aktualisieren möchten eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole festgelegt ist, als Administrator ausführen.
 
 2. Geben Sie an der Befehlszeile
-```
+   ```
     gpudate.exe /force
-```
+   ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Überprüfen Sie die DSCP-Auswahlmöglichkeiten in das Gruppenrichtlinienobjekt
 
 Führen Sie die folgenden Schritte aus, um zu überprüfen, dass die Werte aus dem Gruppenrichtlinienobjekt festgelegt wurden.
 
-1.  Öffnen Sie eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole festgelegt ist, als Administrator ausführen.
+1. Öffnen Sie eine Befehlskonsole. Stellen Sie sicher, dass die Befehlskonsole festgelegt ist, als Administrator ausführen.
 
-2.  Geben Sie an der Befehlszeile 
-    ```
-    gpresult /R >gp.txt
-    ```
+2. Geben Sie an der Befehlszeile 
+   ```
+   gpresult /R >gp.txt
+   ```
 
-    Dies einen Bericht generiert und in eine Textdatei mit dem Namen gp.txt zu senden. Alternativ können Sie den folgenden Befehl aus, um die gleichen Daten in einem besser lesbar HTML-Bericht mit dem Namen gp.html zu erzeugen eingeben:
-    ```
-    gpresult /H >gp.html
-    ```
- 
+   Dies einen Bericht generiert und in eine Textdatei mit dem Namen gp.txt zu senden. Alternativ können Sie den folgenden Befehl aus, um die gleichen Daten in einem besser lesbar HTML-Bericht mit dem Namen gp.html zu erzeugen eingeben:
+   ```
+   gpresult /H >gp.html
+   ```
+
    ![Screenshot des Konsolenfenster des Befehls Gpresult.] (media/Qos-in-Teams-Image3.png "Screenshot des Konsolenfenster des Befehls Gpresult.")
 
-3.  Suchen Sie in der generierten Datei nach der Überschrift **Gruppenrichtlinienobjekte angewendet** , und stellen Sie sicher, dass die Namen der zuvor erstellten Gruppenrichtlinienobjekte in der Liste der Richtlinien angewendet werden. 
+3. Suchen Sie in der generierten Datei nach der Überschrift **Gruppenrichtlinienobjekte angewendet** , und stellen Sie sicher, dass die Namen der zuvor erstellten Gruppenrichtlinienobjekte in der Liste der Richtlinien angewendet werden. 
 
-4.  Öffnen Sie den Registrierungs-Editor, und wechseln Sie zu:
+4. Öffnen Sie den Registrierungs-Editor, und wechseln Sie zu:
 
-    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
+   HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-    Überprüfen Sie die Werte für die in Tabelle 3 aufgeführten Registrierungseinträge.
+   Überprüfen Sie die Werte für die in Tabelle 3 aufgeführten Registrierungseinträge.
 
-    _Tabelle 3. Werte für Windows-Registrierungseinträge für QoS_
-    
-    | Name | Typ | Daten|
-    |---------|---------|---------
-    | Application Name|REG_SZ|Teams.exe|
-    | DSCP Value|REG_SZ|46|
-    | Local IP|REG_SZ|*|
-    | Local IP Prefix Length|REG_SZ|*|
-    | Local Port|REG_SZ|50000-50019|
-    | Protokoll|REG_SZ|*|
-    | Remote IP|REG_SZ|*|
-    | Remote-IP-Präfix|REG_SZ|*|
-    | Remote Port|REG_SZ|*|
-    | Throttle Rate|REG_SZ|-1|
-    
-5.  Stellen Sie sicher, dass der Wert für den Anwendungsnamen-Eintrag für den Client korrekt ist, den Sie verwenden, und stellen Sie sicher, dass sowohl die DSCP-Wert und der lokalen Port Einträge die Einstellungen in das Gruppenrichtlinienobjekt aktualisiert.
+   _Tabelle 3. Werte für Windows-Registrierungseinträge für QoS_
+
+
+   |          Name          |  Typ  |    Daten     |
+   |------------------------|--------|-------------|
+   |    Application Name    | REG_SZ |  Teams.exe  |
+   |       DSCP Value       | REG_SZ |     46      |
+   |        Local IP        | REG_SZ |     \*      |
+   | Local IP Prefix Length | REG_SZ |     \*      |
+   |       Local Port       | REG_SZ | 50000-50019 |
+   |        Protokoll        | REG_SZ |     \*      |
+   |       Remote IP        | REG_SZ |     \*      |
+   |    Remote-IP-Präfix    | REG_SZ |     \*      |
+   |      Remote Port       | REG_SZ |     \*      |
+   |     Throttle Rate      | REG_SZ |     -1      |
+
+
+5. Stellen Sie sicher, dass der Wert für den Anwendungsnamen-Eintrag für den Client korrekt ist, den Sie verwenden, und stellen Sie sicher, dass sowohl die DSCP-Wert und der lokalen Port Einträge die Einstellungen in das Gruppenrichtlinienobjekt aktualisiert.
 
 ## <a name="validate-qos-by-analyzing-teams-traffic-on-the-network"></a>Überprüfen von QoS durch Analysieren Teams Datenverkehr im Netzwerk
 

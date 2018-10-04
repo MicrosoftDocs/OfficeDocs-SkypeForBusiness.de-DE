@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Zusammenfassung: Informationen Sie zu dem Monitoring-Dashboard in Skype für Business Server.'
-ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e12c9faed684121def2e1a4b175f2f7a9fcb534e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969389"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375273"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden das Monitoring-Dashboard in Skype für Business Server
  
@@ -42,7 +42,7 @@ Standardmäßig werden im Monitoring-Dashboard Daten für die folgenden Metriken
   
 - Eindeutige Benutzeranmeldungen
     
- **Peer-to-Peer**
+  **Peer-to-Peer**
   
 - Sitzungen insgesamt
     
@@ -58,7 +58,7 @@ Standardmäßig werden im Monitoring-Dashboard Daten für die folgenden Metriken
     
 - Durchschn. Dauer der Audiositzungen in Minuten
     
- **Konferenz**
+  **Konferenz**
   
 - Konferenzen insgesamt
     
@@ -92,7 +92,7 @@ Neben den Metriken für die Systemauslastung werden für die folgenden Metriken 
     
 - Konferenzorganisatoren mit Anruffehlern
     
- **Benutzer mit Anrufen schlechter Qualität**
+  **Benutzer mit Anrufen schlechter Qualität**
   
 - Benutzer insgesamt mit Anrufen schlechter Qualität
     

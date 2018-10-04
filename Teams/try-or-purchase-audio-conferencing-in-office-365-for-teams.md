@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: efe5ab7189a5012b27b12838844325240b5891f5
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347553"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371975"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Versuchen Sie es oder erwerben Audiokonferenzen in Office 365 für Microsoft-Teams
 
@@ -46,9 +46,9 @@ Sie müssen ein [globaler Administrator oder Abrechnungsadministrator](https://s
     
 2. Holen Sie sich Ihre Lizenzen für **Audiokonferenz**. Wenn Sie:
 
-  - **Testen Sie**, bevor Sie es kaufen, denn Sie können sich für eine kostenlose Testversion von Office 365 Enterprise E5 registrieren, die Audiokonferenz enthält. Siehe [Testversion von Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Testen Sie**, bevor Sie es kaufen, denn Sie können sich für eine kostenlose Testversion von Office 365 Enterprise E5 registrieren, die Audiokonferenz enthält. Siehe [Testversion von Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-  - **Zum Kaufen** finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Zum Kaufen** finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 3. [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) den Mitarbeitern in Ihrer Organisation zu, die Besprechungen planen oder leiten werden.
 

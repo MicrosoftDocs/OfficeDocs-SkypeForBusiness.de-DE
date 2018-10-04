@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29d362771b970c7c654a5bddcd51f2f6c0be257f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017711"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371858"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Steuerung in Teams
 
@@ -29,24 +29,26 @@ Teams bietet einen umfassenden Satz von Tools, die alle Governance-Funktionen, d
 Ihre Organisation erfordern möglicherweise, exakte Steuerelemente wie Teams mit dem Namen und klassifiziert werden, ob Gäste als Teammitglieder hinzugefügt werden können und Benutzer, Teams erstellen können zu implementieren. Sie können jeden dieser Bereiche mithilfe von Azure Active Directory (AD Azure) konfigurieren. 
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Ist Ihre Organisation eine spezielle Benennungskonvention für Teams erforderlich?</li><li>Benötigen Teams Ersteller die Möglichkeit, Teams organisationsspezifischen Klassifikationen zugewiesen?</li><li>Benötigen Sie die Möglichkeit, Teams auf Basis-Team Gäste hinzufügen einschränken?</li><li>Benötigt Ihre Organisation die einschränken, wer Teams erstellen kann?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation für Team erstellen, benennen, Klassifizierung und Gastzugriff.</li><li>Planen der Implementierung von diesen Anforderungen als Teil des Teams nahezubringen.</li><li>Kommunizieren Sie und veröffentlichen Sie Ihrer Richtlinien um Teams Benutzer des Verhaltens zu informieren, die sie erwarten können.</li></ul>|
 
 > [!TIP]
-Verwenden Sie in der folgenden Tabelle, um den Anforderungen der Organisation zu erfassen.
-|Funktion |Beschreibung |Azure AD-Premium <br> Lizenz erforderlich |Entscheidung |
-|---------|---------|---------|---------|
-|Team Benennungsrichtlinie | Verwenden Sie Präfix-Suffix-basierten, benutzerdefinierte blockierte Wörter. |P1 |TBD |
-|Team-Klassifizierung |Klassifikationen in der Teams zuweisen. |P1 |TBD |
-|Team Gastzugriff |Ermöglichen oder verhindern, dass Gäste Teams hinzugefügt wird. |Nein |TBD |
-|Teamerstellung |Team Erstellung für Administratoren zu begrenzen. |Nein |TBD|
-|Teamerstellung |Team erstellen auf Mitglieder der Gruppe Sicherheit zu begrenzen. |P1 |TBD|
-
+> Verwenden Sie in der folgenden Tabelle, um den Anforderungen der Organisation zu erfassen.
+> 
+> |Funktion |Beschreibung |Azure AD-Premium <br> Lizenz erforderlich |Entscheidung |
+> |---------|---------|---------|---------|
+> |Team Benennungsrichtlinie | Verwenden Sie Präfix-Suffix-basierten, benutzerdefinierte blockierte Wörter. |P1 |TBD |
+> |Team-Klassifizierung |Klassifikationen in der Teams zuweisen. |P1 |TBD |
+> |Team Gastzugriff |Ermöglichen oder verhindern, dass Gäste Teams hinzugefügt wird. |Nein |TBD |
+> |Teamerstellung |Team Erstellung für Administratoren zu begrenzen. |Nein |TBD|
+> |Teamerstellung |Team erstellen auf Mitglieder der Gruppe Sicherheit zu begrenzen. |P1 |TBD|
+> 
 > [!NOTE]
 > Um im voraus, [erfahren Sie mehr über das Festlegen dieser Richtlinien und welche Lizenzen benötigten](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)planen.
-
+> 
 > [!NOTE]
 > Beschränken der Gruppe und Teamwebsites erstellen kann Produktivität der Benutzer und verlangsamen, da viele Office 365-Dienste erfordern, dass für das Funktionieren des Diensts Gruppen erstellt werden. Zusätzliche Informationen navigieren Sie zu, und erweitern Sie, [Warum steuern, wer auf Office 365 Gruppen erstellt](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
@@ -72,13 +74,14 @@ Ihrer Organisation möglicherweise zusätzliche Anforderungen für das Einrichte
 | ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation für Team Ablauf, Daten Aufbewahrung und Archivierung.</li><li>Planen der Implementierung von diesen Anforderungen als Teil des Teams nahezubringen.</li><li>Kommunizieren Sie und veröffentlichen Sie Ihrer Richtlinien um Teams Benutzer des Verhaltens zu informieren, die sie erwarten können.</li></ul>|
 
 > [!TIP]
-Verwenden Sie in der folgenden Tabelle, um den Anforderungen der Organisation zu erfassen.
-|Funktion |Beschreibung |Azure AD-Premium <br>Lizenz erforderlich |Entscheidung |
-|---------|---------|---------|---------|
-|Ablaufrichtlinie |Verwalten des Lebenszyklus der Office 365-Gruppen eine Ablaufrichtlinie festlegen. |P1 |TBD|
-|Aufbewahrungsrichtlinie |Beibehalten oder Löschen von Daten (Teams Channel Nachrichten und Channel-Dateien) für einen bestimmten Zeitraum festlegen von Aufbewahrungsrichtlinien für Teams in die Sicherheit und Compliance Center. **Hinweis**: Diese Funktion erfordert Lizenzierung der Office 365 Enterprise E3 oder höher. |Nein |TBD |
-|Archivieren und Wiederherstellen |Archivieren Sie ein Team aus, wenn nicht mehr aktiv ist, aber es als Referenz beibehalten oder in der Zukunft erneut aktivieren möchten. |Nein |TBD |
-
+> Verwenden Sie in der folgenden Tabelle, um den Anforderungen der Organisation zu erfassen.
+> 
+> |Funktion |Beschreibung |Azure AD-Premium <br>Lizenz erforderlich |Entscheidung |
+> |---------|---------|---------|---------|
+> |Ablaufrichtlinie |Verwalten des Lebenszyklus der Office 365-Gruppen eine Ablaufrichtlinie festlegen. |P1 |TBD|
+> |Aufbewahrungsrichtlinie |Beibehalten oder Löschen von Daten (Teams Channel Nachrichten und Channel-Dateien) für einen bestimmten Zeitraum festlegen von Aufbewahrungsrichtlinien für Teams in die Sicherheit und Compliance Center. **Hinweis**: Diese Funktion erfordert Lizenzierung der Office 365 Enterprise E3 oder höher. |Nein |TBD |
+> |Archivieren und Wiederherstellen |Archivieren Sie ein Team aus, wenn nicht mehr aktiv ist, aber es als Referenz beibehalten oder in der Zukunft erneut aktivieren möchten. |Nein |TBD |
+> 
 > [!Note]
 > Gruppe Ablauf ist eine Azure AD Premium-Funktion. Für dieses Feature verfügbar sein soll müssen Ihre Mandanten ein Abonnement für Azure AD Premium und Lizenzen für den Administrator, die die Einstellungen und die Mitglieder der betroffenen Gruppen konfiguriert.
 

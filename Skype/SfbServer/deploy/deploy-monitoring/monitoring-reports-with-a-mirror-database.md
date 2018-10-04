@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Zusammenfassung: Erfahren Sie, wie eine Spiegeldatenbank wird von Skype für Business Server Überwachungsberichte zugeordnet.'
-ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fdca07874192a772a99145bf3ca2042995bb7aee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000771"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374365"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Ordnen Sie einer Spiegeldatenbank in Skype für Business Server Überwachungsberichte 
  
@@ -36,9 +36,9 @@ Damit die Überwachungsberichte ein automatisches Failover zur Spiegeldatenbank 
     
    - Den Namen der Datenbankinstanz, auf der die Überwachungsberichte installiert sind (z. B. **archinst**)
     
-    Wenn SQL Server Reporting Services beispielsweise auf dem Computer atl-sql-001.litwareinc.com installiert wurde und die Überwachungsberichte die Datenbankinstanz archinst verwenden, würde die URL für die Startseite wie folgt aussehen:
+     Wenn SQL Server Reporting Services beispielsweise auf dem Computer atl-sql-001.litwareinc.com installiert wurde und die Überwachungsberichte die Datenbankinstanz archinst verwenden, würde die URL für die Startseite wie folgt aussehen:
     
-    **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
 2. Nachdem Sie die Reporting Services-Startseite geöffnet haben, klicken Sie auf **ServerReports** und dann auf **Reports_Content**. Die Sie zur Seite **Reports_Content** für die Skype für Business Server-Überwachungsberichte dauert.
     

@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab2b118afd4796d7113bccee485c1a9a52b9b605
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0b87b4b4ff06e4cbdb4ed0bec70c381912537142
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012545"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372362"
 ---
 # <a name="operate-my-service"></a>Meine Dienst betreiben
 
@@ -41,8 +41,8 @@ Die Aufgaben und Aktivitäten in diesem Handbuch sind in acht Kategorien unterte
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie die Vorgänge für Teams implementiert werden.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie im Betriebshandbuch vollständig.</li><li>Implementieren Sie eine Strategie für die Vorgänge, die mit Ihrer Organisation Ziele der Qualität und Zuverlässigkeit der Cloud VoIP Arbeitslasten übermitteln abschließt.</li><li>Überprüfen Sie die Qualität der Handbuch für Experience überprüfen.</li><li> Implementieren Sie eine Strategie Vorgänge für die Qualität der Erfahrung Bewertungen um sicherzustellen, dass Ihre Cloud-VoIP-Bereitstellung auf seine Funktionen Spitzenzeiten betrieben wird regelmäßig ausführen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie die Vorgänge für Teams implementiert werden.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie im Betriebshandbuch vollständig.</li><li>Implementieren Sie eine Strategie für die Vorgänge, die mit Ihrer Organisation Ziele der Qualität und Zuverlässigkeit der Cloud VoIP Arbeitslasten übermitteln abschließt.</li><li>Überprüfen Sie die Qualität der Handbuch für Experience überprüfen.</li><li> Implementieren Sie eine Strategie Vorgänge für die Qualität der Erfahrung Bewertungen um sicherzustellen, dass Ihre Cloud-VoIP-Bereitstellung auf seine Funktionen Spitzenzeiten betrieben wird regelmäßig ausführen.</li></ul></td></tr>
 </table>
 
 
@@ -61,7 +61,7 @@ Stellen Sie sicher, dass jedes verantwortliche Team einen umfassenden Überblick
 Nachdem eine Vereinbarung erstellt wurde, sollte die entsprechende Teams zu ihrer Rollen durchsetzen beginnen.
 
 <table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td>
 <td><ul><li>Verwenden Sie dieses Dokument in der betrieblichen Rolle Zuordnung Übung zu vereinfachen.</li><li>Besprechen Sie mit der jeweiligen Supportteams, um jedes Element in der Liste der erforderlichen Aktivitäten Namen zuzuweisen.</li><li>Erlangen Sie Annahme oder Abnahme der zugewiesenen Rollen.</li><li>Stellen Sie sicher, dass die entsprechenden Teams haben die entsprechenden Schulungen, Bereitschaft und Ressourcen für die Durchführung die Aktivitäten, die von ihnen erforderlich.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams-dienstabhängigkeiten
@@ -180,17 +180,21 @@ Nun, da Sie anstehende Änderungen an den Dienst Teams bekannt sind, besteht der
 #### <a name="feature-cloud-recording-release-date-january-2018"></a>Feature: Cloud-Aufzeichnung (Datum der Veröffentlichung: Januar 2018)
 
 **Allgemeine nachverfolgen**
+
 | Ändern der Bereitschaft | Status   | Notizen/nächste Schritte | Besitzer |
 |----|----|----|-----|
 | Rechtliche Prüfung   | Abgeschlossen     | Dieses Feature ist eine Voraussetzung für die Schulung des Teams Onboarding. | Das Projektteam  |
 
 **Technische Änderungsmanagement**
-| Ändern der Bereitschaft | Status   | Notizen/nächste Schritte | Besitzer |
-|----|----|----|-----|
-| IT-Änderungen erforderlich          | Ja                  | Admin muss Aufzeichnung identifizierten nur für Benutzer zu aktivieren.      | Supportteam           |
-| Vollständige technische Bereitschaft | Ja                  |                                                                 | Supportteam  
-         |
+
+|       Ändern der Bereitschaft       | Status |                      Notizen/nächste Schritte                      |    Besitzer     |
+|------------------------------|--------|------------------------------------------------------------|--------------|
+|     IT-Änderungen erforderlich      |  Ja   | Admin muss Aufzeichnung identifizierten nur für Benutzer zu aktivieren. | Supportteam |
+| Vollständige technische Bereitschaft |  Ja   |                                                            | Supportteam |
+|                              |        |                                                            |              |
+
 **Die Verwaltung von ändern** 
+
 | Ändern der Bereitschaft | Status   | Notizen/nächste Schritte | Besitzer |
 |----|----|----|-----|
 | Beeinträchtigung für die Benutzer                  | Niedrig                  |                                                                 |                        |
@@ -199,6 +203,7 @@ Nun, da Sie anstehende Änderungen an den Dienst Teams bekannt sind, besteht der
 | Schulung bereit               | Ja                  | Schulung werden vorhandene Microsoft Video nutzen.                | Schulung-Teams          |
 
 **Nachverfolgen des Status**
+
 | Ändern der Bereitschaft | Status   | Notizen/nächste Schritte | Besitzer |
 |----|----|----|-----|
 | Veröffentlichungsstatus               | in Bearbeitung          | Ausstehende Überprüfung durch executive Sponsor.               | Ändern von Management-Team |

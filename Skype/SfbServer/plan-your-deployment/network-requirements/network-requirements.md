@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Zusammenfassung: Prüfen der Überlegungen zum Netzwerk-Komponente unter vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: 3b052977d605c923a333097ad073ad59d7d6a586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ad0e3b48a320997ddce0559e388d5cfdcab861d1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886361"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375082"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -77,6 +77,7 @@ Für Enterprise-Netzwerken, in dem internetprotokollsicherheit (IPsec) (Siehe IE
 In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahmen erläutert.
 
 **Empfohlene IPsec-Ausnahmen**
+
 |Regelname |Quell-IP |Ziel-IP |Protokoll |Quellport |Zielport |Authentifizierungsanforderung |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
 |A/V-Edgeserver, intern eingehend|Beliebig  |A/V-Edgeserver, intern|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|

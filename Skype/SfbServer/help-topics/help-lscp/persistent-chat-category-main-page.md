@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: Auf der Seite Beständiger Chat können Sie den Abschnitt Kategorie verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chat Raum ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um „Chinesische Mauern“ zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
-ms.openlocfilehash: 91065ede137d83fcebd4f3ac0948a39163852ccd
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3fdc450ee913e20885e8582bff4ba0dbdcc70867
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001238"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371936"
 ---
 # <a name="persistent-chat-category-main-page"></a>Kategorie für beständigen Chat – Hauptseite
  
@@ -53,25 +53,25 @@ Auf der Seite **Kategorie** können Sie die folgenden Aufgaben ausführen:
     
 6. Führen Sie unter **Neue Kategorie** die folgenden Schritte aus:
     
-1. Geben Sie unter **Name** einen Namen für die neue Raumkategorie an.
+7. Geben Sie unter **Name** einen Namen für die neue Raumkategorie an.
     
-2. Geben Sie unter **Beschreibung** Einzelheiten zur Raumkategorie an (z. B. eine Raumkategorie für Contoso).
+8. Geben Sie unter **Beschreibung** Einzelheiten zur Raumkategorie an (z. B. eine Raumkategorie für Contoso).
     
-3. Klicken Sie zum Steuern, ob Einladungen für Chatrooms aktiviert werden können, die dieser Kategorie angehören, aktivieren Sie oder deaktivieren Sie das Kontrollkästchen **Einladungen zu aktivieren** . Wenn ausgewählt haben, können in dieser Kategorie Chatrooms Einladungen aktiviert oder deaktiviert haben; Wenn deaktiviert, dürfen die Chatrooms in dieser Kategorie nicht Einladungen haben. Wenn ein Chatroom Einladungen weist auf, wenn ein neues Mitglied in einem Raum hinzugefügt wird, ruft er eine Benachrichtigung über die neuen Raums in ihrem Persistent Chat-Client ab.
+9. Klicken Sie zum Steuern, ob Einladungen für Chatrooms aktiviert werden können, die dieser Kategorie angehören, aktivieren Sie oder deaktivieren Sie das Kontrollkästchen **Einladungen zu aktivieren** . Wenn ausgewählt haben, können in dieser Kategorie Chatrooms Einladungen aktiviert oder deaktiviert haben; Wenn deaktiviert, dürfen die Chatrooms in dieser Kategorie nicht Einladungen haben. Wenn ein Chatroom Einladungen weist auf, wenn ein neues Mitglied in einem Raum hinzugefügt wird, ruft er eine Benachrichtigung über die neuen Raums in ihrem Persistent Chat-Client ab.
     
-4. Um Dateiuploads in Chatrooms in dieser Kategorie zu kontrollieren, aktivieren oder deaktivieren Sie das Kontrollkästchen **Dateiupload aktivieren**. Wenn diese Option ausgewählt ist, können Sie für Räume in dieser Kategorie Dateiuploads aktivieren oder deaktivieren. Wenn sie nicht ausgewählt ist, sind für Räume in dieser Kategorie keine Dateiuploads zulässig.
+10. Um Dateiuploads in Chatrooms in dieser Kategorie zu kontrollieren, aktivieren oder deaktivieren Sie das Kontrollkästchen **Dateiupload aktivieren**. Wenn diese Option ausgewählt ist, können Sie für Räume in dieser Kategorie Dateiuploads aktivieren oder deaktivieren. Wenn sie nicht ausgewählt ist, sind für Räume in dieser Kategorie keine Dateiuploads zulässig.
     
-5. Um den Chatverlauf zu kontrollieren, aktivieren Sie oder deaktivieren Sie das Kontrollkästchen **aktivieren den Chatverlauf** . Wenn Sie ausgewählt haben, werden Raum Chats persistent. Andernfalls werden Chatnachrichten nicht beibehalten. Wenn Kompatibilität aktiviert ist, Raum Chats werden in Compliance gespeichert, aber Benutzer werden nicht auf ältere Nachrichten zugreifen. Diese Option kann verwendet werden, für Räume vorgesehen für in Echtzeit, ad-hoc-Zusammenarbeit, die den Chatverlauf beibehalten werden nicht benötigen.
+11. Um den Chatverlauf zu kontrollieren, aktivieren Sie oder deaktivieren Sie das Kontrollkästchen **aktivieren den Chatverlauf** . Wenn Sie ausgewählt haben, werden Raum Chats persistent. Andernfalls werden Chatnachrichten nicht beibehalten. Wenn Kompatibilität aktiviert ist, Raum Chats werden in Compliance gespeichert, aber Benutzer werden nicht auf ältere Nachrichten zugreifen. Diese Option kann verwendet werden, für Räume vorgesehen für in Echtzeit, ad-hoc-Zusammenarbeit, die den Chatverlauf beibehalten werden nicht benötigen.
     
-7. Führen Sie unter **Kategorie bearbeiten** die folgenden Schritte aus:
+12. Führen Sie unter **Kategorie bearbeiten** die folgenden Schritte aus:
     
-  - Unter **Mitgliedschaft**im Abschnitt **Zugelassene Mitglieder** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Domänendienste Prinzipale (Benutzer, Verteilergruppen, Organisationseinheiten usw.), die als Mitglieder des Chatrooms hinzugefügt werden dürfen für die Kategorie gehören. Prinzipale, die in einer Kategorie zugelassen sind, können nach den Räumen in der Kategorie suchen (es sei denn, der Raum ist ausgeblendet; in diesem Fall können nur Mitglieder des Raums im Verzeichnis danach suchen).
+    - Unter **Mitgliedschaft**im Abschnitt **Zugelassene Mitglieder** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Domänendienste Prinzipale (Benutzer, Verteilergruppen, Organisationseinheiten usw.), die als Mitglieder des Chatrooms hinzugefügt werden dürfen für die Kategorie gehören. Prinzipale, die in einer Kategorie zugelassen sind, können nach den Räumen in der Kategorie suchen (es sei denn, der Raum ist ausgeblendet; in diesem Fall können nur Mitglieder des Raums im Verzeichnis danach suchen).
     
-  - **Die Mitgliedschaft**in den Abschnitt **abgelehnten Mitglieder** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Prinzipale wird diesen Raum Mitgliedern zugeordnet sind.
+    - **Die Mitgliedschaft**in den Abschnitt **abgelehnten Mitglieder** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Prinzipale wird diesen Raum Mitgliedern zugeordnet sind.
     
-  - **Die Mitgliedschaft**in den Abschnitt **Ersteller** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Prinzipale Ersteller für die Kategorie zugeordnet. Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.
+    - **Die Mitgliedschaft**in den Abschnitt **Ersteller** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Prinzipale Ersteller für die Kategorie zugeordnet. Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.
     
-8. Klicken Sie auf **Commit ausführen**.
+13. Klicken Sie auf **Commit ausführen**.
     
 ## <a name="see-also"></a>Siehe auch
 

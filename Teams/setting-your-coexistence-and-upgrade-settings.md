@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a83382ff46e5a698e3755f2c1d2d859dddd65f0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0b89d75f07ecfac6e37f33c27a9272187b0794a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013201"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371506"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen von Einstelllungen Upgrade und Koexistenz
 
@@ -57,13 +57,13 @@ Einstellungen auf der Benutzerebene zugewiesen haben Vorrang vor Ebene der gesam
 
 1. Im linken Navigationsbereich besuchen Sie **Benutzer**, und wählen Sie dann den Benutzer aus der Liste aus. 
 2. Klicken Sie auf der Registerkarte **Konto** für den Benutzer unterhalb von **Teams zu aktualisieren**auf **Bearbeiten**.
-- Sie können die **Koexistenz-Modus**festlegen. Wählen Sie die folgenden Optionen aus:
-    - **Verwendung Org geltende Einstellungen** - verwenden Sie diese Einstellung, wenn der Benutzer die Einstellungen in den Einstellungen für die **gesamte Org** verwenden soll. 
-    - **Inseln** - verwenden Sie diese Einstellung, wenn der Benutzer auf beide Skype für Unternehmen und Teams verwenden können soll. 
-    - **Für Unternehmen nur Skype** - verwenden Sie diese Einstellung, wenn der Benutzer für Business Skype verwenden soll. 
-    - Nur Teams werden **nur Teams** - verwenden Sie diese Einstellung, wenn Sie den Benutzer verwenden möchten. Der Benutzer wird weiterhin Skype für Business-Besprechungen teilnehmen können.
-3. Wenn Sie eine beliebige **Koexistenzmodus** als **Verwendung Org geltende Einstellungen**auswählen, müssen Sie die Option zum Aktivieren von Benachrichtigungen in Skype des Benutzers für Geschäfts-app, die auf Teams aktualisieren bald verfügbar ist. Sie können diese Benachrichtigung für den Benutzer aktivieren, durch die Option **Benachrichtigen der Skype für Geschäftsbenutzer** einschalten.
-4. Klicken Sie auf **Speichern** , nachdem Sie die Änderungen vorgenommen haben.
+3. Sie können die **Koexistenz-Modus**festlegen. Wählen Sie die folgenden Optionen aus:
+     - **Verwendung Org geltende Einstellungen** - verwenden Sie diese Einstellung, wenn der Benutzer die Einstellungen in den Einstellungen für die **gesamte Org** verwenden soll. 
+     - **Inseln** - verwenden Sie diese Einstellung, wenn der Benutzer auf beide Skype für Unternehmen und Teams verwenden können soll. 
+     - **Für Unternehmen nur Skype** - verwenden Sie diese Einstellung, wenn der Benutzer für Business Skype verwenden soll. 
+     - Nur Teams werden **nur Teams** - verwenden Sie diese Einstellung, wenn Sie den Benutzer verwenden möchten. Der Benutzer wird weiterhin Skype für Business-Besprechungen teilnehmen können.
+4. Wenn Sie eine beliebige **Koexistenzmodus** als **Verwendung Org geltende Einstellungen**auswählen, müssen Sie die Option zum Aktivieren von Benachrichtigungen in Skype des Benutzers für Geschäfts-app, die auf Teams aktualisieren bald verfügbar ist. Sie können diese Benachrichtigung für den Benutzer aktivieren, durch die Option **Benachrichtigen der Skype für Geschäftsbenutzer** einschalten.
+5. Klicken Sie auf **Speichern** , nachdem Sie die Änderungen vorgenommen haben.
 
 ### <a name="related-topics"></a>Verwandte Themen
 [Planen der Weg](upgrade-plan-journey.md)

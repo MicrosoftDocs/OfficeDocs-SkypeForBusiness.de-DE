@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60575e2b9a1398bf5eba6dfec5aa883e4478f648
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 96af6eb707c8f104a7810e924323d9f32996f8f1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014597"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374295"
 ---
 # <a name="enhance-my-service"></a>Meine Service zu verbessern
 
@@ -35,8 +35,8 @@ Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehme
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die überwacht werden sollen, öffentliche Roadmaps und anderen Dienst Ankündigungen für neue Features und Dienste, denen von Ihrer Organisation profitieren kann.</li><li>Treffen einer Entscheidung bezüglich der Trittfrequenz, in denen diese neuen Features oder Dienstleistungen Unwichtigstes zurück, die der Verantwortlichen, über Ihre Lenkungsausschuss.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Implementieren Sie eine Strategie für die Kontaktpflege Stand mit Ihren Diensten, um den größten Nutzen für Ihre Organisation abzurufen.</li><li>Laufwerk Service Weiterentwicklungen über eine vollständige Projektlebenszyklus um sicherzustellen, dass Sie ordnungsgemäß für die Auswirkung berücksichtigt haben, den sie für Ihre Bereitstellung haben.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die überwacht werden sollen, öffentliche Roadmaps und anderen Dienst Ankündigungen für neue Features und Dienste, denen von Ihrer Organisation profitieren kann.</li><li>Treffen einer Entscheidung bezüglich der Trittfrequenz, in denen diese neuen Features oder Dienstleistungen Unwichtigstes zurück, die der Verantwortlichen, über Ihre Lenkungsausschuss.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Implementieren Sie eine Strategie für die Kontaktpflege Stand mit Ihren Diensten, um den größten Nutzen für Ihre Organisation abzurufen.</li><li>Laufwerk Service Weiterentwicklungen über eine vollständige Projektlebenszyklus um sicherzustellen, dass Sie ordnungsgemäß für die Auswirkung berücksichtigt haben, den sie für Ihre Bereitstellung haben.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

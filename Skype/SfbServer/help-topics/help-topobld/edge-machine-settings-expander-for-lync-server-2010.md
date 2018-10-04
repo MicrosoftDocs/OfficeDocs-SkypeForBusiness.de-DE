@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Zum Bearbeiten der Eigenschaften für Edge-Server-Computer als einen einzigen Edge-Server oder als Mitgliedscomputer in einem edgepool, konfigurieren Sie Servername und IP-Adresse Konfigurationseinstellungen:'
-ms.openlocfilehash: ca1e53809c4f59a7b050d5cb2ae47906aa39f82f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 10709088aee9d1b5ec247804122520afa3b29dee
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001369"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373385"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edgecomputereinstellungen für Lync Server 2010
  
@@ -41,10 +41,10 @@ Zum Bearbeiten der Eigenschaften für Edge-Server-Computer als einen einzigen Ed
     > [!IMPORTANT]
     > Die Konfigurationseigenschaft für **NAT-aktivierte öffentliche IPv4-Adresse** stehen nur zur Verfügung, bearbeiten, wenn Sie ausgewählt haben, geben Sie die Netzwerkadressübersetzung (NAT) für den A / V-edgedienst
   
- **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
+  **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   
- **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
+  **Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.
   
- **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
+  **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
   
 

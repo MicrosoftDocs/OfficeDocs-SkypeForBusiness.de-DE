@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Die relevanten planungsüberlegungen für die Bereitstellung von Skype Raum Systemen v2 und das Bereitstellen und Verwalten des Systems.
-ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 49fb892e6621c3bd601425fc2ccee84313b4444c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249229"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374809"
 ---
 <h2>Skype-Raum Systemen v2 & #x 2013; <br>die nächste Generation von Skype-Chatroom-Systemen </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,7 +25,7 @@ ms.locfileid: "21249229"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transform Besprechung Leerzeichen von Bereichen kleine drängeln bis hin zu großen Konferenzräume mit einem Rich collaborative Skype Business wünschen, ist einfach zu verwenden, bereitstellen und verwalten. </p>
+                        <p>Transform Besprechung Leerzeichen zwischen kleine drängeln Bereiche und große Konferenzräume mit einer umfassenden, gemeinsame Skype Business wünschen, & #39; s einfach zu verwenden, bereitstellen und verwalten. </p>
                         <p>Starten von Besprechungen auf Zeit mit einem Tastendruck Join und dann sofort project zur Anzeige in der Raum und die Freigabe an Remoteteilnehmer übertragen. </p>
                         <p>Wählen Sie die richtigen System und audio-video-Peripheriegeräte aus einem unserer Partner: Logitech, Crestron, Polycom, Lenovo und HP.</p>
                         <p></p>

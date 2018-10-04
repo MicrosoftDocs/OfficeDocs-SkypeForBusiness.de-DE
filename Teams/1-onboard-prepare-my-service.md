@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09816666e17f657b67f8b28aa36efa3ef95e60f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013563"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374317"
 ---
 # <a name="prepare-my-service"></a>Meine Service vorbereiten
 
@@ -53,8 +53,8 @@ Wenn Sie Onboarding-Benutzer auf eine Websitebasis sind, empfehlen wir nachdrüc
 >Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Sie verwenden das Office 365 Admin Center und Teams & Skype für Business Admin Center, um diese Einstellungen konfigurieren.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Aufsicht über den Abschluss der Onboarding Prüflisten zuständig sein?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Laden Sie die Prüflisten Onboarding.</li><li>Durch die Onboarding Prüfliste Elemente schrittweise nach Plan für die Bereitstellung Ihrer Organisation arbeiten.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Aufsicht über den Abschluss der Onboarding Prüflisten zuständig sein?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Laden Sie die Prüflisten Onboarding.</li><li>Durch die Onboarding Prüfliste Elemente schrittweise nach Plan für die Bereitstellung Ihrer Organisation arbeiten.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -180,8 +180,8 @@ Nachdem die Umgebung des Benutzers und der Dienst konfiguriert haben, enthält d
 -   Direktes Routing Compliance Anforderungen identifiziert und konfiguriert wurden.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden, welche Funktionen der Audiokonferenz Feature bereitgestellt werden soll (service Entscheidung).</li><li>Identifizieren der Anforderungen an den Funktionen für Audiokonferenzen.</li><li>Identifizieren Sie die Konfiguration der dienstanforderungen für Audiokonferenzen.</li><br><li>Entscheiden Sie, ob direkten Routing oder aufrufen plant bereitgestellt und konfiguriert wird.<li>Entscheiden, welche Telefonsystem Feature Funktionen bereitgestellt werden soll (service Entscheidung).</li><li>Identifizieren der Anforderungen für Benutzer-Funktionalität für direkte Routing oder plant aufrufen.</li><li>Identifizieren Sie Service Konfigurationsaufwand für direkte Routing oder plant aufrufen.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Entwickeln Sie und Dokumentieren Sie Ihren Test Plan Ansatz.</li><li>Vorbereiten der Service-Umgebung und Benutzer für Audiokonferenzen Features im Bereich.</li><li>Vorbereiten der Service-Umgebung und Benutzer für den Aufruf von Plänen oder direkten Routing Features im Bereich.</li><li>Führen Sie Test-Überprüfung für die Audiokonferenz-Features, die Sie aktivieren möchten.</li><li>Führen Sie Test-Überprüfung für die direkte Routing oder plant aufrufen Features, die Sie aktivieren möchten.</li><li>Testen Sie für alle Fehler, bestätigen Sie, dass Ihre Konfiguration korrekt ist, Community-Artikel zu lesen und – falls erforderlich – auslösen eine Supportanfrage.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden, welche Funktionen der Audiokonferenz Feature bereitgestellt werden soll (service Entscheidung).</li><li>Identifizieren der Anforderungen an den Funktionen für Audiokonferenzen.</li><li>Identifizieren Sie die Konfiguration der dienstanforderungen für Audiokonferenzen.</li><br><li>Entscheiden Sie, ob direkten Routing oder aufrufen plant bereitgestellt und konfiguriert wird.<li>Entscheiden, welche Telefonsystem Feature Funktionen bereitgestellt werden soll (service Entscheidung).</li><li>Identifizieren der Anforderungen für Benutzer-Funktionalität für direkte Routing oder plant aufrufen.</li><li>Identifizieren Sie Service Konfigurationsaufwand für direkte Routing oder plant aufrufen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Entwickeln Sie und Dokumentieren Sie Ihren Test Plan Ansatz.</li><li>Vorbereiten der Service-Umgebung und Benutzer für Audiokonferenzen Features im Bereich.</li><li>Vorbereiten der Service-Umgebung und Benutzer für den Aufruf von Plänen oder direkten Routing Features im Bereich.</li><li>Führen Sie Test-Überprüfung für die Audiokonferenz-Features, die Sie aktivieren möchten.</li><li>Führen Sie Test-Überprüfung für die direkte Routing oder plant aufrufen Features, die Sie aktivieren möchten.</li><li>Testen Sie für alle Fehler, bestätigen Sie, dass Ihre Konfiguration korrekt ist, Community-Artikel zu lesen und – falls erforderlich – auslösen eine Supportanfrage.</li></ul></td></tr>
 </table>
 
 

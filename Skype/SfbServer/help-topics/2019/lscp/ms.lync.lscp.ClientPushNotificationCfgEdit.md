@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Pushbenachrichtigung und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile der Mobilitätsfunktion. Bei der Pushbenachrichtigung wird eine Nachricht an das PNCH gesendet. Die Nachricht wird dort gehalten, bis sie an den mobilen Client übermittelt werden kann oder das Zeitlimit abläuft.
-ms.openlocfilehash: 7954b3230f2f20ee1d7a8043fd2f7232d99352a7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 36a18e31aaa9e98b10f3085874e46784b684b386
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966222"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374667"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Mobiler Client: Erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration
  
@@ -35,9 +35,9 @@ Führen Sie die folgenden Schritte aus, um die Pushbenachrichtigung zu aktiviere
   
 2. Wählen Sie aus, welche Pushbenachrichtigungsdienste Sie aktivieren möchten, indem Sie das jeweilige Kontrollkästchen aktivieren:
     
-  - **Aktivieren von Microsoft-Pushbenachrichtigungen** aktivieren die Pushbenachrichtigung für die Cloud-basierten PNCH für Windows Phone mit der Skype für Geschäfts-app
+   - **Aktivieren von Microsoft-Pushbenachrichtigungen** aktivieren die Pushbenachrichtigung für die Cloud-basierten PNCH für Windows Phone mit der Skype für Geschäfts-app
     
-  - **Kontrollkästchen Apple-Pushbenachrichtigungen** aktivieren die Pushbenachrichtigung für die Apple-PNCH für Geräte von Apple iOS (beispielsweise iPhone, iPad) ausgeführt, und verwenden die Skype für Geschäfts-app
+   - **Kontrollkästchen Apple-Pushbenachrichtigungen** aktivieren die Pushbenachrichtigung für die Apple-PNCH für Geräte von Apple iOS (beispielsweise iPhone, iPad) ausgeführt, und verwenden die Skype für Geschäfts-app
     
 3. Klicken Sie nach Abschluss der Änderungen an der Richtlinie auf **Commit ausführen**, um Ihre Änderungen zu speichern. Falls Sie die vorgenommenen Änderungen löschen möchten, wählen Sie **Abbrechen**. Die Änderungen der Richtlinie werden dann nicht gespeichert.
     

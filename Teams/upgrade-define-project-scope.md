@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccfd6da7af2905485a6c8deb7a2dd1ae433b8da3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017937"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375219"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -68,13 +68,13 @@ Ihre Vision möglicherweise nur im Laufe der Zeit in verschiedenen Phasen realis
 
 Ihre Ziele definieren das Ergebnis zu erreichen möchten, und aktivieren Sie den Erfolg des Projekts zu messen. Ziele können als _Ziele und die wichtigsten Ergebnisse_ (OKRs) definiert werden, und die Maßeinheiten Projekterfolg können als _Indikatoren für den Erfolg_ (KSIs) definiert werden. Es ist wichtig, dass Sie die vollständige Teilnahme von Projektbeteiligten in der Definition von OKRs und KSIs, um sicherzustellen, sie fühlen sich Gesamtbetriebskosten und Ausrichten des Erfolgs definierten Projektvorgängen diese Maßnahmen erhalten. Ziele sollte eine Kombination von technischen und benutzerorientierten Erfolg enthalten. 
 
--   **OKRs** enthalten die Ziele beschrieben, die Sie am Anfang des Projekts und die wichtigsten Ergebnisse, die Sie auf einer definierten Trittfrequenz messen (z. B. monatlich oder vierteljährlich) festgelegt. Überprüfen Sie Ihre wichtigsten Ergebnisse, können Sie sicherstellen, Ihr Projektlieferumfänge befinden sich auf Zeitplan oder identifizieren und Beheben von Probleme, wenn Sie das Projekt wieder auf Kurs erhalten möchten. OKRs werden in der Regel als "erreicht" oder "nicht erreicht" kategorisiert.
--    **KSIs** Qualität und Erfolg der wichtigsten Ergebnisse messen und ergänzen die binäre Art der OKRs mit gute und/oder fehlerhafte Ergebnissen. Wenn Sie KSIs definieren, wird empfohlen, für die Verwendung von "bestimmter, messbarer, zugeordnet werden kann, realistische, Zeitangaben" (SMART) Kriterien:
-    -   Spezifisch: einen bestimmten Bereich für zur Verbesserung der Ziel-
-    -   Messbare: quantifiziert oder vorschlagen mindestens einen Indikator des Fortschritts
-    -   Zugewiesen: Geben Sie an, die er ausgeführt wird
-    -   Realistisch: state welche Ergebnisse realistisch können erreicht werden, die angegebene verfügbare Ressourcen
-    -   Zeitangaben: Geben Sie an, wenn die Ergebnisse erzielt werden kann
+- **OKRs** enthalten die Ziele beschrieben, die Sie am Anfang des Projekts und die wichtigsten Ergebnisse, die Sie auf einer definierten Trittfrequenz messen (z. B. monatlich oder vierteljährlich) festgelegt. Überprüfen Sie Ihre wichtigsten Ergebnisse, können Sie sicherstellen, Ihr Projektlieferumfänge befinden sich auf Zeitplan oder identifizieren und Beheben von Probleme, wenn Sie das Projekt wieder auf Kurs erhalten möchten. OKRs werden in der Regel als "erreicht" oder "nicht erreicht" kategorisiert.
+- **KSIs** Qualität und Erfolg der wichtigsten Ergebnisse messen und ergänzen die binäre Art der OKRs mit gute und/oder fehlerhafte Ergebnissen. Wenn Sie KSIs definieren, wird empfohlen, für die Verwendung von "bestimmter, messbarer, zugeordnet werden kann, realistische, Zeitangaben" (SMART) Kriterien:
+  -   Spezifisch: einen bestimmten Bereich für zur Verbesserung der Ziel-
+  -   Messbare: quantifiziert oder vorschlagen mindestens einen Indikator des Fortschritts
+  -   Zugewiesen: Geben Sie an, die er ausgeführt wird
+  -   Realistisch: state welche Ergebnisse realistisch können erreicht werden, die angegebene verfügbare Ressourcen
+  -   Zeitangaben: Geben Sie an, wenn die Ergebnisse erzielt werden kann
 
 In der folgenden Tabelle gezeigt, dass Beispiele für OKRs und KSIs für die anfänglichen Phasen der einen Skype für Unternehmen Teams Projekt aktualisieren.
 

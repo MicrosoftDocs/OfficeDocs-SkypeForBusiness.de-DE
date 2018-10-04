@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren der Integration von Office Web Apps Server und Skype für Business Server, für PowerPoint-Präsentationen für Webkonferenzen aktivieren.'
-ms.openlocfilehash: 558ba648cab4dfd2667251ea96bc83d313746f10
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6c7c19f7634c7b0266364d372b573d3d060d5a97
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997314"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375244"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server
  
@@ -33,7 +33,7 @@ Nachdem Office Web Apps Server erfolgreich installiert wurde und der Webfarm ord
 
 Gehen Sie dazu wie folgt vor:
   
-1.  Skype für Business Server-Topologie-Generator zu öffnen.
+1. Skype für Business Server-Topologie-Generator zu öffnen.
     
 2. Wählen Sie im Dialogfeld **Topologie-Generator** die Option **Topologie aus vorhandener Bereitstellung herunterladen** aus und klicken Sie dann auf **OK**.
     
@@ -45,9 +45,9 @@ Gehen Sie dazu wie folgt vor:
     
 6. Geben Sie im Dialogfeld **Neuen Office Web Apps-Server definieren** den vollqualifizierten Domänennamen (FQDN) Ihres Office Web Apps-Servercomputers im Feld **FQDN von Office Web Apps-Server** ein. Anschließend sollte im Feld **Office Web Apps-Server-Such-URL** automatisch die Such-URL Ihres Office Web Apps-Servers stehen.
     
-  - Wenn die Office Web Apps Server lokal installiert ist und in derselben Netzwerkzone als Skype für Business Server dann die Option sollte das **Office Web Apps Server in einem externen Netzwerk (d. h., Umkreisnetzwerk/Internet) bereitgestellt wird,** nicht ausgewählt werden.
+   - Wenn die Office Web Apps Server lokal installiert ist und in derselben Netzwerkzone als Skype für Business Server dann die Option sollte das **Office Web Apps Server in einem externen Netzwerk (d. h., Umkreisnetzwerk/Internet) bereitgestellt wird,** nicht ausgewählt werden.
     
-  - Wenn der Office Web Apps-Server außerhalb Ihrer internen Firewall bereitgestellt ist, aktivieren Sie die Option **Office Web Apps-Server ist in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt**.
+   - Wenn der Office Web Apps-Server außerhalb Ihrer internen Firewall bereitgestellt ist, aktivieren Sie die Option **Office Web Apps-Server ist in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt**.
     
 7. Klicken Sie im Dialogfeld **Neuen Office Web Apps-Server definieren** auf **OK** und klicken Sie anschließend auf **OK** im Dialogfeld **Eigenschaften bearbeiten**. Die Office Online-Such-URL wird dann unter den Zuordnungen des Pools aufgeführt.
     
@@ -85,7 +85,7 @@ Wenn Sie den Zugriff für externe Benutzer konfiguriert haben, wird auch etwa an
   
  **Office Web Apps Server-externe referentenseite: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; einbetten**
   
- **Office Web Apps Server-interne Teilnehmerseite: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; embed = True&amp;**
+ **Office Web Apps Server-interne Teilnehmerseite: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>;**
   
 Wenn Sie, dass ein LS Daten MCU-Ereignis mit der Ereignis-ID des 41033, die die Office Web Apps Server-Ermittlung bedeutet, dass ein Fehler aufgetreten ist sehen. In diesem Fall versucht Skype für Business Server so oft wie gewünscht neu konfiguriert Office Web Apps Server erkennen können. Wenn dieser Prozess, wiederholt fehlschlägt sollten Sie Office Web Apps Server aus Ihrer topologiedokument entfernen, Veröffentlichen der aktualisierten Topologie, und versuchen Sie dann Office Web Apps Server wieder zur Topologie hinzuzufügen, nachdem die Konnektivitätsprobleme behoben wurden.
   

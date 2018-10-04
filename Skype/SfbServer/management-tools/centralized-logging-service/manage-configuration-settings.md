@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Zusammenfassung: Informationen Sie zum Abrufen, aktualisieren und Erstellen von Konfigurationseinstellungen für den Dienst für die zentralisierte Protokollierung in Skype für Business Server 2015.'
-ms.openlocfilehash: 163ac9607e3b690aac2f069c38e967692721d819
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253118"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375601"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Verwalten von Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
 
@@ -66,9 +66,9 @@ Website- und Global Bereiche sind in die Cmdlets **New-**, **Set-** und **Remove
 
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
 
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
 Verwenden Sie die Cmdlets **New-CsClsConfiguration** und **Set-CsClsConfiguration** , um eine neue Konfiguration zu erstellen oder eine vorhandene Konfiguration zu aktualisieren. Beim Ausführen von **"Get-csclsconfiguration"** werden Informationen ähnlich dem folgenden Screenshot, bei die Bereitstellung aktuell die standardmäßige globale Konfiguration, aber keine Standortkonfigurationen definiert hat angezeigt:
 
@@ -80,9 +80,9 @@ Verwenden Sie die Cmdlets **New-CsClsConfiguration** und **Set-CsClsConfiguratio
 
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
 
-  ```
-  Get-CsClsConfiguration -LocalStore
-  ```
+   ```
+   Get-CsClsConfiguration -LocalStore
+   ```
 
 Wenn Sie verwenden im ersten Beispiel, in dem gibt **"Get-csclsconfiguration"** beliebigen Parametern, die Befehl Verweise keinen zentralen Verwaltungsspeichers für die Daten. Wenn Sie angeben, dass den Parameter verweist auf - LokalerSpeicher, den Befehl auf den Computer LokalerSpeicher anstelle des zentralen Verwaltungsspeichers aus.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>So rufen Sie eine Liste der aktuell definierten Szenarien ab
@@ -91,15 +91,15 @@ Wenn Sie verwenden im ersten Beispiel, in dem gibt **"Get-csclsconfiguration"** 
 
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
 
-  ```
-  Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
+   ```
 
     Um z. B. die für den globalen Bereich definierten Szenarien abzurufen:
 
-  ```
-  Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
+   ```
 
 Das Cmdlet **"Get-csclsconfiguration"** werden die Szenarien, die Teil der Konfiguration eines bestimmten Bereichs sind immer angezeigt. In den meisten Fällen werden nicht alle Szenarien angezeigt und es wird gekürzt. Der hier verwendete Befehl erstellt eine Liste aller Szenarien mit Teilinformationen darüber, welche Anbieter, Einstellungen und Flags verwendet werden.
 ### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>So aktualisieren Sie einen globalen Bereich für die zentralisierte Protokollierungsdienst mithilfe von Windows PowerShell
@@ -108,15 +108,15 @@ Das Cmdlet **"Get-csclsconfiguration"** werden die Szenarien, die Teil der Konfi
 
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Beispiel:
+   Beispiel:
 
-  ```
-  Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
+   ```
 
 Der Befehl trägt dem CLSAgent auf allen Computern und in allen Pools der Bereitstellung auf, die Größe des Rollover-Werts für die Tracing-Datei auf 40 MB festzulegen. Dieser Befehl wirkt sich auf alle Computer und Pools an allen Standorten aus und ändert deren konfigurierten Rollover-Wert in 40 MB.
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>So aktualisieren Sie einen standortbereich für die zentralisierte Protokollierungsdienst mithilfe von Windows PowerShell
@@ -125,15 +125,15 @@ Der Befehl trägt dem CLSAgent auf allen Computern und in allen Pools der Bereit
 
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Beispiel:
+   Beispiel:
 
-  ```
-  Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
+   ```
 
 > [!NOTE]
 > Wie im Beispiel gezeigt ist der Standardspeicherort der Protokolldateien „%TEMP%\Tracing“. Da es jedoch der CLSAgent ist, der die Datei tatsächlich schreibt, und da der CSLAgent als Netzwerkdienst ausgeführt wird, wird die Variable %TEMP% zu „%WINDIR%\ServiceProfiles\NetworkService\AppData\Local“ erweitert.
@@ -145,9 +145,9 @@ Der Befehl trägt dem CLSAgent auf allen Computern und in allen Pools am Standor
 
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
 
-  ```
-  New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
-  ```
+   ```
+   New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
+   ```
 
     > [!NOTE]
     > „New-CsClsConfiguration“ bietet Zugriff auf eine Vielzahl optionaler Konfigurationseinstellungen. Ausführliche Informationen zu den Konfigurationsoptionen finden Sie unter [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) und [Grundlegendes zu Centralized Logging Service Configuration Settings](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
@@ -165,9 +165,9 @@ Sie sollten sorgfältig planen die Erstellung von neuen Konfigurationen und wie 
 
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
 
-  ```
-  Remove-CsClsConfiguration -Identity <scope and name>
-  ```
+   ```
+   Remove-CsClsConfiguration -Identity <scope and name>
+   ```
 
 Um eine zentralisierte Protokollierungsdienst Konfiguration entfernen, die Sie erstellt haben, um die Zeit des Protokolls Datei Rollover zu erhöhen, erhöhen Sie die Größe der Protokolldatei Rollover, und legen Sie den Speicherort der Protokolldatei Cache wie folgt auf einer Netzwerkfreigabe aus:
 

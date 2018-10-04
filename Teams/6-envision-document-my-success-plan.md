@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cea763c3287106f2a6c98472dea0ef43ea7e28
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013795"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374210"
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren Sie meine Erfolg
 
@@ -46,10 +46,10 @@ Potenzielle Bereitstellungsmodelle umfassen Folgendes:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Bereitstellungsmodell Ausführung der Teams, das für Ihre Organisation zutrifft.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie das Teams Ausführung Bereitstellungsmodell gewählte und enthalten Sie geschäftliche und technische Nachweise.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Bereitstellungsmodell Ausführung der Teams, das für Ihre Organisation zutrifft.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie das Teams Ausführung Bereitstellungsmodell gewählte und enthalten Sie geschäftliche und technische Nachweise.</li></ul></td></tr></table>
 
-##<a name="raci-modeling"></a>RACI-Modellierung
+## <a name="raci-modeling"></a>RACI-Modellierung
 
 Verwenden, um sicherzustellen, dass Sie Klarheit ausgewählt haben, für das, was in Ihrem Projekt betreut Verantwortung Zuordnung Matrix (auch bekannt als RACI – zuständig, verantwortlich, konsultiert und informiert – Matrix). Auflisten der Person oder Gruppe, die verantwortlich und für jeden Vorgang zusammen mit Beteiligten werden in den Entscheidungsprozess gehört, und der beteiligten der einzelnen Entscheidung und während der Ausführung des Project-Aktion informiert werden verantwortlich ist.
 
@@ -70,8 +70,8 @@ Es folgt ein Beispiel einer Matrix RACI für eine Cloud-VoIP-Implementierung.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Aktivitäten/Rollen für das Projekt für den Cloud-VoIP-Implementierung von Bedeutung.</li><li>Entscheiden Sie, die Teams oder Personen, die Verantwortung Zuordnung Matrix (RACI Matrix) des Projekts Cloud VoIP Implementierung zugewiesen werden soll.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren der RACI-Matrix.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Aktivitäten/Rollen für das Projekt für den Cloud-VoIP-Implementierung von Bedeutung.</li><li>Entscheiden Sie, die Teams oder Personen, die Verantwortung Zuordnung Matrix (RACI Matrix) des Projekts Cloud VoIP Implementierung zugewiesen werden soll.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren der RACI-Matrix.</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>Vierteljährliche Ausführungsplan
 
@@ -95,8 +95,8 @@ Es folgt ein Beispiel für eine vierteljährliche Ausführungsplan für die Phas
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, den vierteljährliche Ausführungsplan um die objektive Hauptergebnisse (OKRs) zu erzielen.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den vierteljährliche Ausführungsplan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, den vierteljährliche Ausführungsplan um die objektive Hauptergebnisse (OKRs) zu erzielen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den vierteljährliche Ausführungsplan.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -117,9 +117,9 @@ Es folgt ein Beispiel für einen Kommunikations- und Governance Plan, den Sie im
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die Kommunikation und Governance-Plans, einschließlich der Häufigkeit der regulären Status Updates (täglich, wöchentlich, monatlich oder vierteljährlich), Methoden für die Durchführung von Besprechungen Update Status und der Besitzer der einzelnen Besprechung.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die Kommunikation und Governance-Plans, einschließlich der Häufigkeit der regulären Status Updates (täglich, wöchentlich, monatlich oder vierteljährlich), Methoden für die Durchführung von Besprechungen Update Status und der Besitzer der einzelnen Besprechung.</li></ul></td></tr>
 
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Kommunikation und Governance.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Kommunikation und Governance.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -178,8 +178,8 @@ Sie müssen diesen Schritt abschließen und den operativen Plan als Teil des Erf
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Sie Ihren gesamten Erfolg Plan für die Übermittlung von der Cloud VoIP Arbeitslasten dokumentieren werden.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Vergewissern Sie sich, dass alle Komponenten des Projektplans Erfolg dokumentiert sind.</li><li>Aggregierte einzelne Komponenten des Projektplans Erfolg in ein einziges zusammenfassende Dokument (optional).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Sie Ihren gesamten Erfolg Plan für die Übermittlung von der Cloud VoIP Arbeitslasten dokumentieren werden.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Vergewissern Sie sich, dass alle Komponenten des Projektplans Erfolg dokumentiert sind.</li><li>Aggregierte einzelne Komponenten des Projektplans Erfolg in ein einziges zusammenfassende Dokument (optional).</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

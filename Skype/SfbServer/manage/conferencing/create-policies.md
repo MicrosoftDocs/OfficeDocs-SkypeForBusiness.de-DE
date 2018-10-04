@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Zusammenfassung: Informationen Sie zum Erstellen von konferenzrichtlinien in Skype für Business Server.'
-ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996601"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372287"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Erstellen von konferenzrichtlinien in Skype für Business Server
  
@@ -26,7 +26,7 @@ Sie können konferenzrichtlinien mithilfe der Skype Business Server-Systemsteuer
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2.  Öffnen von Skype Business Server-Systemsteuerung.
+2. Öffnen von Skype Business Server-Systemsteuerung.
     
 3. Klicken Sie auf der linken Navigationsleiste auf **Konferenzen** und anschließend auf **Konferenzrichtlinie**.
     
@@ -36,8 +36,8 @@ Sie können konferenzrichtlinien mithilfe der Skype Business Server-Systemsteuer
     
    - Klicken Sie auf **Standortrichtlinie**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Suchfeld **Standort auswählen** einen Teil oder den gesamten Namen des Standorts ein, für den Sie eine Richtlinie erstellen möchten. Klicken Sie in der Liste der Standorte auf den gewünschten Standort und klicken Sie auf **OK**.
     
-    > [!NOTE]
-    > Der Standortname wird als Name der Konferenzrichtlinie übernommen und kann nicht geändert werden. 
+     > [!NOTE]
+     > Der Standortname wird als Name der Konferenzrichtlinie übernommen und kann nicht geändert werden. 
   
 5. Geben Sie bei **Beschreibung** eine Beschreibung für die Richtlinie ein.
     

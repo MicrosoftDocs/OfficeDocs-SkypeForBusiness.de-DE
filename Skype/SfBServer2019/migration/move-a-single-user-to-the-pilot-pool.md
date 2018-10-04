@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können einen Benutzer aus Ihrem vorversionspool in Ihrer Skype für Business Server 2019 pilot Pool mit Skype für Business Server 2019-Systemsteuerung oder Skype für Business Server 2019-Verwaltungsshell verschieben. Im folgenden Beispiel, in der Spalte Registrierungspool pool01.contoso.net Pool der Vorgängerversion ist, und alle sechs dieser Benutzer mit diesem Pool verbunden sind. Verwenden Sie die folgenden Verfahren, um einen Benutzer in Ihrer Skype für mithilfe von Skype für Business Server 2019-Systemsteuerung und Skype für Business Server-Verwaltungsshell Business Server 2019 Pool verschieben.
-ms.openlocfilehash: f04cccf29fd88bf1da95f4d67f6e47c51b878717
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028810"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372745"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Verschieben eines einzelnen Benutzers in den pilotpool
 
@@ -43,15 +43,15 @@ Sie können einen Benutzer aus Ihrem vorversionspool in Ihrer Skype für Busines
     
 2. Geben Sie an der Befehlszeile Folgendes ein: 
     
-  ```
-  Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
-  ```
+   ```
+   Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
+   ```
 
 3. Geben Sie im nächsten Schritt in der Befehlszeile Folgendes ein: 
     
-  ```
-  Get-CsUser -Identity "David Pelton"
-  ```
+   ```
+   Get-CsUser -Identity "David Pelton"
+   ```
 
 4. Die Identität des **RegistrarPool** zeigt jetzt auf das Skype für Business Server 2019 Pool. Das Vorhandensein von diese Identität bestätigt, dass der Benutzer erfolgreich verschoben wurde. 
 

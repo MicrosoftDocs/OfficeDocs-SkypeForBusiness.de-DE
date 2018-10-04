@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: In diesem Artikel wird erläutert, die Infrastruktur vorbereitenden Schritte für die Bereitstellung von Skype Raum Systemen v2.
-ms.openlocfilehash: 8b31889d70dae54736648905204b721127b668f1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965982"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371882"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -26,24 +26,24 @@ Dieser Abschnitt enthält eine Übersicht über die erforderlichen Schritte zur 
     
 2. Stellen Sie sicher, dass eine funktionierende Netzwerk-/Internetverbindung vorhanden ist, die für das Gerät verwendet werden kann.  
     
-  - Es muss eine IP-Adresse mithilfe von DHCP empfangen (Hinweis: Skype Raum Systemen v2 kann nicht mit einer statischen IP-Adresse beim ersten Start Unit konfiguriert werden)
+   - Es muss eine IP-Adresse mithilfe von DHCP empfangen (Hinweis: Skype Raum Systemen v2 kann nicht mit einer statischen IP-Adresse beim ersten Start Unit konfiguriert werden)
     
-  - Die folgenden Ports müssen geöffnet sein (zusätzlich zu den normalen Ports für Skype for Business-Medien):
+   - Die folgenden Ports müssen geöffnet sein (zusätzlich zu den normalen Ports für Skype for Business-Medien):
     
-  - HTTPS: 443
+   - HTTPS: 443
     
-  - HTTP: 80
+   - HTTP: 80
     
-  - Wenn Sie in Ihrem Netzwerk einen Proxy verwenden, benötigen Sie außerdem die Proxyadresse oder Skriptinformationen.
+   - Wenn Sie in Ihrem Netzwerk einen Proxy verwenden, benötigen Sie außerdem die Proxyadresse oder Skriptinformationen.
     
-    > [!NOTE]
-    > Skype Raum Systemen v2 HDCP-Eingang festgestellten Probleme mit HDMI verursacht wurde, nicht unterstützt werden Aufnahme Funktionalität (Video, audio). Achten Sie darauf, dass Switches angeschlossen Skype Raum Systemen V2 HDCP-Optionen deaktiviert aufweisen. 
+     > [!NOTE]
+     > Skype Raum Systemen v2 HDCP-Eingang festgestellten Probleme mit HDMI verursacht wurde, nicht unterstützt werden Aufnahme Funktionalität (Video, audio). Achten Sie darauf, dass Switches angeschlossen Skype Raum Systemen V2 HDCP-Optionen deaktiviert aufweisen. 
   
 3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Für die Erfassung der Daten müssen die folgenden Sites in der Whitelist enthalten sein:
     
-  - Clientendpunkt Telemetrie:https://vortex.data.microsoft.com/
+   - Clientendpunkt Telemetrie:https://vortex.data.microsoft.com/
     
-  - Endpunkt für Telemetrie-Einstellungen:https://settings.data.microsoft.com/
+   - Endpunkt für Telemetrie-Einstellungen:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Erstellen und Testen eines Gerätekontos
 

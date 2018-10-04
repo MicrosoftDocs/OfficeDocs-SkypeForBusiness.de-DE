@@ -22,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Informationen Sie zum Einrichten Ihrer Domäne, Benutzer Sofortnachrichten und Anwesenheitsinformationen für Ihre Organisation Skype für Unternehmen zu installieren. Außerdem finden Sie unter Audiokonferenzen Telefonsystem und plant aufrufen und Skype Besprechung Übertragung einrichten. '
-ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864489"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374475"
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online
 
@@ -54,7 +54,7 @@ Weitere Informationen finden Sie finden Sie unter [Planen der Ihrer Installation
 
 Skype for Business Online ist Bestandteil der Office 365-Suite von Diensten. Um Skype for Business Online einzurichten, müssen Sie sich bei Office 365 anmelden. Gehen Sie dabei so vor:
 
-1. Suchen Sie Ihre Office 365-Benutzer-ID (z. B.  *rob@fourthcoffee.com*  ). Sie haben vom Microsoft Online Services-Team eine E-Mail erhalten, die die Office 365-Benutzer-ID enthält, die Sie beim Erwerb von Skype for Business Online erstellt haben. Die E-Mail sieht in etwa so aus:
+1. Suchen Sie Ihre Office 365-Benutzer-ID (z. B.  <em>rob@fourthcoffee.com</em>  ). Sie haben vom Microsoft Online Services-Team eine E-Mail erhalten, die die Office 365-Benutzer-ID enthält, die Sie beim Erwerb von Skype for Business Online erstellt haben. Die E-Mail sieht in etwa so aus:
 
     ![Beispiel für die Willkommens-E-Mail, die Sie erhalten haben, nachdem Sie sich bei Skype for Business Online angemeldet haben. Sie enthält Ihre Office 365-Benutzer-ID.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -80,11 +80,11 @@ Chatnachrichten und Anwesenheit ([Steuern des Zugriffs auf Ihre Anwesenheitsinfo
 
 1. **Entscheiden Sie, mit wem Ihre Skype for Business-Benutzer kommunizieren können:**
 
-  - [Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren](allow-users-to-contact-external-skype-for-business-users.md) Sie *und*  das andere Unternehmen müssen die Systeme konfigurieren.
+   - [Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren](allow-users-to-contact-external-skype-for-business-users.md) Sie *und*  das andere Unternehmen müssen die Systeme konfigurieren.
 
-    **WICHTIG**: Wenn Sie in Ihrem Unternehmen zwei Domänen verwenden, wie zum Beispiel in rob@contosowest.com und ina@contosoeast.com, müssen Sie diesen Schritt ausführen, damit alle Benutzer miteinander kommunizieren können.
+     **WICHTIG**: Wenn Sie in Ihrem Unternehmen zwei Domänen verwenden, wie zum Beispiel in rob@contosowest.com und ina@contosoeast.com, müssen Sie diesen Schritt ausführen, damit alle Benutzer miteinander kommunizieren können.
 
-  - [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md) außerhalb Ihres Unternehmens
+   - [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md) außerhalb Ihres Unternehmens
 
 2. **Wählen Sie aus, wer sehen darf, ob Mitarbeiter online sind:** Die Funktion „Anwesenheitsinformationen" zeigt an, welche Person online ist, sowie deren Verfügbarkeit, wie „Verfügbar", „Beschäftigt", „Abwesend" oder „Hält Präsentation".
 
@@ -92,9 +92,9 @@ Chatnachrichten und Anwesenheit ([Steuern des Zugriffs auf Ihre Anwesenheitsinfo
 
     Sie können für jede Person in Ihrem Unternehmen die Standardeinstellungen auswählen:
 
-  - Die Onlinepräsenz einer Person automatisch allen Benutzern in der Organisation anzeigen
+   - Die Onlinepräsenz einer Person automatisch allen Benutzern in der Organisation anzeigen
 
-  - Die Onlinepräsenz einer Person nur ihren Kontakten anzeigen
+   - Die Onlinepräsenz einer Person nur ihren Kontakten anzeigen
 
 Anweisungen hierzu finden Sie unter [Konfigurieren der Anwesenheit in Skype for Business Online](configure-presence-in-skype-for-business-online.md).
 

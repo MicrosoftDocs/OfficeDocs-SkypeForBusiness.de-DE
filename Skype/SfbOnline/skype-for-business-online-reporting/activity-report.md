@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 26b835162f0db82a7ea4631d8add24dcd9ec79dc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855575"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374492"
 ---
 # <a name="activity-report"></a>Bericht „Aktivität“
 
@@ -78,17 +78,17 @@ Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „
 Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für diesen bestimmten Bericht. 
 ***
 ![Anzahl 7](../images/sfbcallout7.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Konferenzaktivitäten pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie ihre Konferenzaktivitäten. Sie können zusätzliche Spalten zur Tabelle hinzufügen.
-*    **Benutzername** ist der Name des Benutzers.
-*    **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde.<br/><br/>
-    > [!NOTE]
-    > Aktivitäten für eine gelöschte Benutzer wird weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums lizenziert wurde. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
+* **Benutzername** ist der Name des Benutzers.
+* **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde.<br/><br/>
+  > [!NOTE]
+  > Aktivitäten für eine gelöschte Benutzer wird weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums lizenziert wurde. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
      
-*    **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde.
-*    **Datum der letzten Aktivität (UTC)** ist der letzte Zeitpunkt, zu dem der Benutzer an einer Peer-to-Peer-Sitzung teilgenommen, eine Konferenz organisiert oder an einer Konferenz teilgenommen hat.
-*    **Peer-zu-Peer** zeigt die Gesamtzahl der Peer-zu-Peer-Konferenzsitzungen an, die der Benutzer verwendet hat.
-*    **Organisierte Konferenzen** zeigt die Gesamtzahl der von diesem Benutzer organisierten Konferenzen an.
-*    **An Konferenzen teilgenommen** zeigt die Gesamtzahl der Konferenzen an, an denen dieser Benutzer teilgenommen hat.
-*    **Zugewiesenes Produkt** bezeichnet die Office 365-Produkte, die diesem Benutzer zugewiesen sind.<br/>
+* **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde.
+* **Datum der letzten Aktivität (UTC)** ist der letzte Zeitpunkt, zu dem der Benutzer an einer Peer-to-Peer-Sitzung teilgenommen, eine Konferenz organisiert oder an einer Konferenz teilgenommen hat.
+* **Peer-zu-Peer** zeigt die Gesamtzahl der Peer-zu-Peer-Konferenzsitzungen an, die der Benutzer verwendet hat.
+* **Organisierte Konferenzen** zeigt die Gesamtzahl der von diesem Benutzer organisierten Konferenzen an.
+* **An Konferenzen teilgenommen** zeigt die Gesamtzahl der Konferenzen an, an denen dieser Benutzer teilgenommen hat.
+* **Zugewiesenes Produkt** bezeichnet die Office 365-Produkte, die diesem Benutzer zugewiesen sind.<br/>
 
 Wenn die Richtlinien Ihrer Organisation das Anzeigen von Berichten verhindern, die personenbezogene Benutzerinformationen enthalten, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Überprüfen Sie im Abschnitt **Ausblenden Benutzerdetails in den Berichten** in die [Berichte im Office 365 Administrationscenter](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

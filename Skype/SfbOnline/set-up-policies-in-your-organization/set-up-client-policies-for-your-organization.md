@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Mit Clientrichtlinien können Sie festlegen, welche Funktionen von Skype for Business Online Benutzern zur Verfügung gestellt werden. So können Sie beispielsweise einigen Benutzern das Recht zum Übertragen von Dateien erteilen, während Sie anderen Benutzern dieses Recht verweigern.
-ms.openlocfilehash: 791d54dd12e5f222958fd4513abdeca2433cbf16
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1a5e752976aaa14adeb0b2345da830c5765ce7f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857861"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373193"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Einrichten von Clientrichtlinien für Ihre Organisation
 
@@ -58,32 +58,32 @@ Richtlinie Clienteinstellungen auf die Uhrzeit der Erstellung eine Richtlinie ko
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Deaktivieren von Emoticons und Anwesenheitsbenachrichtigungen und Verhindern der Speicherung von Chatnachrichten
 
 - Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
     
 > 
-  ```
-  New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
-  ```
+>   ```
+>   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
+>   ```
 
   Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) -Cmdlet.
     
 - Um die erstellte neue Richtlinie allen Benutzern in der Organisation zuzuweisen, führen Sie Folgendes aus:
     
 > 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
-  ```
+>   ```
+>   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
+>   ```
 
   Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) -Cmdlet.
     
@@ -94,18 +94,18 @@ Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das C
 - Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
     
 > 
-  ```
-  New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
-  ```
+>   ```
+>   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
+>   ```
 
   Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) -Cmdlet.
     
 - Um die erstellte neue Richtlinie allen Benutzern in der Organisation zuzuweisen, führen Sie Folgendes aus:
     
 > 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
-  ```
+>   ```
+>   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
+>   ```
 
   Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) -Cmdlet.
     
@@ -114,18 +114,18 @@ Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das C
 ### <a name="prevent-showing-recent-contacts"></a>Verhindern der Anzeige der letzten Kontakte
 
 - Um eine neue Richtlinie für diese Einstellungen zu erstellen, führen Sie Folgendes aus:
-> 
-  ```
-  New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
-  ```
+  > 
+  > ```
+  > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
+  > ```
 
   Weitere Informationen finden Sie im [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) -Cmdlet.
     
 - Um die erstellte neue Richtlinie Amos Marble zuzuweisen, führen Sie Folgendes aus:
-> 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
-  ```
+  > 
+  > ```
+  > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
+  > ```
 
   Weitere Informationen finden Sie im [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) -Cmdlet.
     
@@ -133,7 +133,7 @@ Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das C
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

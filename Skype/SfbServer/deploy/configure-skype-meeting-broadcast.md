@@ -14,12 +14,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte, die Sie zum Konfigurieren von Skype Besprechung übertragen für Ihre lokale Skype für Business Server hybridbereitstellung ausführen müssen.'
-ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004693"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371394"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren der lokalen Bereitstellung von Skype-Livekonferenz
  
@@ -68,13 +68,13 @@ Im nächsten Schritt müssen Sie SIP Federated Domains die Liste der zulässigen
     
 3. Geben Sie als **Domänenname (oder FQDN):** die Domäne ein und wiederholen Sie diese Vorgehensweise für alle folgenden Domänen:
     
-  - noammeetings.Lync.com
+   - noammeetings.Lync.com
     
-  - emeameetings.Lync.com
+   - emeameetings.Lync.com
     
-  - apacmeetings.Lync.com
+   - apacmeetings.Lync.com
     
-  - Resources.Lync.com
+   - Resources.Lync.com
     
 Sie können auch den externen Zugriff für SIP-Verbund Domänen konfigurieren, indem Sie die folgenden Cmdlets in der Skype für Business Server-Verwaltungsshell ausführen:
   

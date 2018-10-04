@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie Informationen zu den Schritten, mit denen Sie in Microsoft Teams einem Benutzer eine Lizenz für Dial-in-Konferenzen und eine Konferenzkennung zuweisen, sowie zu vielen anderen Einstellungen für Dial-in-Konferenzen. '
-ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019094"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375863"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Verwalten der Audiokonferenzeinstellungen für meine Organisation in Microsoft Teams
 
@@ -37,7 +37,7 @@ Möglicherweise ist es einfacher für Sie, alle Audiokonferenzeinstellungen für
 ## <a name="assign-an-audio-conferencing-license"></a>Zuweisen einer Lizenz für Audiokonferenzen
 
 > [!NOTE]
-> Sie können keine Lizenzen von Teams zuweisen. Sie müssen das Office 365 Administrationscenter verwenden. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
+> Sie können mit Microsoft Teams keine Lizenzen zuweisen. Dazu müssen Sie das Office 365 Admin Center verwenden. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
   
  **So weisen Sie eine Lizenz für einen Benutzer zu**
   
@@ -46,7 +46,7 @@ Möglicherweise ist es einfacher für Sie, alle Audiokonferenzeinstellungen für
 2. Navigieren Sie in der linken Navigationsleiste des **Office 365 Admin Center** zu **Benutzer** > **Aktive Benutzer**, und wählen Sie die entsprechenden Benutzer aus der Liste der verfügbaren Benutzer aus.
     
     > [!NOTE]
-    > Wenn Sie Lizenzen für bis zu 20 Benutzer gleichzeitig zuweisen, können Sie eine der Optionen in der Dropdownliste **Ansicht auswählen** auswählen oder eine eigene Ansicht erstellen. Klicken Sie dann auf **Bearbeiten** und zweimal auf **Weiter**, wählen Sie die Lizenz aus, und klicken Sie auf **Übermitteln**.  
+    > Wenn Sie Lizenzen für bis zu 20 Benutzer gleichzeitig zuweisen, können Sie eine der Optionen in der Dropdownliste **Ansicht auswählen** auswählen oder eine eigene Ansicht erstellen. Klicken Sie dann auf **Bearbeiten** und zweimal auf **Weiter**, wählen Sie die Lizenz aus, und klicken Sie auf **Submit** (Übermitteln).  
   
 3. Klicken Sie im Aktionsbereich unter **Produktlizenzen** auf **Bearbeiten**. 
     
@@ -74,7 +74,7 @@ Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Team
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Ändern der Kontaktinformationen des Absenders in E-Mails an Benutzer
 
-Sie können die e-Mail-Nachricht ändern, die automatisch an Ihre Benutzer, einschließlich der tatsächliche e-Mail-Adresse und den Anzeigenamen der Kontaktinformationen des Absenders gesendet wird. In der Standardeinstellung der Absender der e-Mail ist Office 365, aber Sie können die e-Mail-Adresse ändern und den Anzeigenamen von Windows PowerShell. Finden Sie im [Microsoft-Teams PowerShell Verweis](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) für Weitere Informationen.
+Sie können Änderungen an der E-Mail vornehmen, die automatisch an Benutzer gesendet wird. Dazu gehören die tatsächliche E-Mail-Adresse und der Anzeigename in den Kontaktinformationen des Absenders. Standardmäßig ist Office 365 als Absender der E-Mails angegeben. Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mit Windows PowerShell ändern. Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
 ## <a name="reset-the-meeting-conference-id"></a>Zurücksetzen der Konferenzkennung der Besprechung
 
@@ -84,13 +84,13 @@ Sie können die e-Mail-Nachricht ändern, die automatisch an Ihre Benutzer, eins
 
 2. Klicken Sie unter **Audiokonferenz** auf **Konferenz-ID zurücksetzen**.  
 
-3. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Zurücksetzen**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+3. Klicken Sie im Fenster **Konferenz-ID zurücksetzen?** auf **Zurücksetzen**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. Diese Option ist standardmäßig aktiviert.
 
 Siehe [Zurücksetzen einer Konferenzkennung für einen Benutzer](reset-a-conference-id-for-a-user-in-teams.md).
   
 ## <a name="reset-a-conference-organizers-pin"></a>Zurücksetzen der PIN eines Konferenzorganisators
 
-Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen Zwar eine Konferenz-ID wird automatisch erstellt und einem Benutzer zugewiesen werden, kann es jedoch Zeiten, wenn ein Benutzer nicht für diese verwenden möchten und es eine bestimmte Anzahl festgelegt werden soll, oder Ihre Benutzer können nicht merken oder verloren haben ihre Konferenz-ID. 
+Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen Obwohl Konferenzkennungen automatisch generiert und Benutzern zugewiesen werden, kann es vorkommen, dass Benutzer diese Nummer nicht verwenden möchten und Sie daher eine bestimmte Nummer festlegen müssen. Es ist auch möglich, dass Benutzer ihre Konferenzkennung vergessen oder verloren haben. 
 
 ![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
 
@@ -205,9 +205,9 @@ Siehe [Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenz
 
 2. Wählen Sie eine Telefonnummer aus der Liste aus, und klicken Sie auf **Bearbeiten**. Hier können Sie:
     
-  - Zeigen Sie die Telefonnummern an, die von Office 365 zur Verwendung für Audiokonferenzen festgelegt werden. 
+   - Zeigen Sie die Telefonnummern an, die von Office 365 zur Verwendung für Audiokonferenzen festgelegt werden. 
     
-  - Schauen Sie den Speicherort und die primäre Sprache, die von der automatischen Telefonzentrale Audiokonferenzen verwendet werden.
+   - Schauen Sie den Speicherort und die primäre Sprache, die von der automatischen Telefonzentrale Audiokonferenzen verwendet werden.
 
   
 Finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers-in-teams.md).

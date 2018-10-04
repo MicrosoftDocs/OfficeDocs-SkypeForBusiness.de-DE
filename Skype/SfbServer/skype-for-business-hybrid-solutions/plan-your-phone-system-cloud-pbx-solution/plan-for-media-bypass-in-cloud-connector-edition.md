@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lesen Sie dieses Thema, um die Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen von Medien zu umgehen Sie, finden Sie unter Deploy Medien in der Cloud Connector Edition umgehen.
-ms.openlocfilehash: da6432f20690162a8de2a9d63438a4c4a5bf162b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886136"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371001"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der Medienumgehung in Cloud Connector Edition
  
@@ -64,7 +64,7 @@ Die medienumgehung ist außerdem hilfreich, wenn Telefoniedienste für mehrere W
     
 4. Das zentrale Gateway in Amsterdam macht die entsprechenden Routingentscheidungen und sendet dann den Datenverkehr auf einen SBC oder das Gateway in Zürich, Medien fließt direkt zwischen den Skype für Business-Client und SBC oder das Gateway in Amsterdam dagegen.
     
- Dieser Ansatz ermöglicht berücksichtigenden mehr Benutzer pro einer Cloud-Connector-Bereitstellung, in dem Cloud Connector zentrale. Obwohl Cloud Connector aus dem Medienpfad entfernt wird, können in einem Szenario mit zentralisierten mit mehreren Medien weiterhin das WAN zweimal als erforderlich, um über den zentralisierten SBC oder ein Gateway flow durchlaufen.
+   Dieser Ansatz ermöglicht berücksichtigenden mehr Benutzer pro einer Cloud-Connector-Bereitstellung, in dem Cloud Connector zentrale. Obwohl Cloud Connector aus dem Medienpfad entfernt wird, können in einem Szenario mit zentralisierten mit mehreren Medien weiterhin das WAN zweimal als erforderlich, um über den zentralisierten SBC oder ein Gateway flow durchlaufen.
   
 Wenn ein Client außerhalb des Firmennetzwerks befinden, das Tätigen eines ausgehenden Anrufs ist, fließt der Mediendatenverkehr über die Edge und Mediation Server eines Cloud-Connector und WAN-Verbindung zwischen Zürich und Amsterdam, wie im folgenden Diagramm dargestellt:
   

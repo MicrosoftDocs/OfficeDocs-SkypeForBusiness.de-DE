@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und eine neue Topologie überprüfen, bevor Sie Skype für Business Server installieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: e6013003f9ff6b4e3f39a500df9e489292264599
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885032"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371334"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Erstellen Sie und veröffentlichen Sie neue Topologie in Skype für Business Server
  
@@ -101,7 +101,7 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
     
    - Wählen Sie die Rollen aus, die installiert werden müssen, und richten Sie anschließend die Hardware für die ausgewählten Rollen ein.
     
-    In Szenario 2 verfügen Sie über eine vorhandene Bereitstellung und in Ihrer Infrastruktur sollen neue Rollen installiert werden, bzw. Sie müssen vorhandene Rollen einem neuen Front-End-Server zuordnen:
+     In Szenario 2 verfügen Sie über eine vorhandene Bereitstellung und in Ihrer Infrastruktur sollen neue Rollen installiert werden, bzw. Sie müssen vorhandene Rollen einem neuen Front-End-Server zuordnen:
     
    - In diesem Fall wählen Sie die Rollen aus, die bereitgestellt oder dem neuen Front-End-Server zugeordnet werden sollen. In beiden Fällen fahren Sie mit der Definition der Rollen fort, richten gegebenenfalls erforderliche Hardware ein und führen die Installation aus.
     
@@ -117,10 +117,10 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
     
    - Zum Verwenden der SQL-Spiegelung wählen Sie **SQL-Spiegelung aktivieren** aus und wählen Sie dann eine vorhandene Instanz aus oder erstellen Sie eine neue Instanz.
 
-    > [!NOTE]
-    > SQL-Spiegelung wird steht in Skype für Business Server 2015 jedoch nicht mehr in unterstützt Skype für Business Server 2019. Die AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL clustering Failovermethoden werden bevorzugt mit Skype für Business Server 2019.
+     > [!NOTE]
+     > SQL-Spiegelung wird steht in Skype für Business Server 2015 jedoch nicht mehr in unterstützt Skype für Business Server 2019. Die AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL clustering Failovermethoden werden bevorzugt mit Skype für Business Server 2019.
     
-    In diesem Beispiel geben Sie den **SQL Server-FQDN** ein, konfigurieren alle relevanten Einstellungen für hohe Verfügbarkeit und klicken dann auf **OK** (siehe Abbildung).
+     In diesem Beispiel geben Sie den **SQL Server-FQDN** ein, konfigurieren alle relevanten Einstellungen für hohe Verfügbarkeit und klicken dann auf **OK** (siehe Abbildung).
     
      ![SQL Server-Speicher erstellen](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
@@ -132,10 +132,10 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
     
    - Zum Definieren einer neuen Dateifreigabe wählen Sie **Neue Dateifreigabe definieren**, geben Sie im Feld **Dateiserver-FQDN** den vollqualifizierten Domänennamen des vorhandenen Dateiservers ein, auf dem sich die Dateifreigabe befinden soll, und geben Sie anschließend einen Namen für die Dateifreigabe in das Feld **Dateifreigabe** ein.
     
-    In diesem Beispiel klicken Sie auf **Neuen Dateispeicher definieren**, füllen die Felder **Dateiserver-FQDN** und **Dateifreigabe** aus und klicken auf **Weiter**.
+     In diesem Beispiel klicken Sie auf **Neuen Dateispeicher definieren**, füllen die Felder **Dateiserver-FQDN** und **Dateifreigabe** aus und klicken auf **Weiter**.
     
-    > [!NOTE]
-    > Die Dateifreigabe für Skype für Business Server verbunden werden jedoch aus Leistungsgründen nicht empfohlen. Im vorliegenden Beispiel befindet sich die Dateifreigabe auf einem dedizierten Einzelserver, der als Dateifreigabe fungieren soll. Es werden jedoch andere, robustere Dateifreigabesysteme empfohlen, z. B. DFS mit Windows Server 2012 R2. Ausführliche Informationen zu unterstützten Datei freigeben Systeme finden Sie unter [Anforderungen für Ihre Skype für Business-Umgebung](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Weitere Informationen zum Erstellen der Dateifreigabe finden Sie unter [Erstellen einer Dateifreigabe in Skype für Business Server](create-a-file-share.md). Sie können die Dateifreigabe definieren, ohne sie erstellt zu haben. Sie müssen die Dateifreigabe am definierten Speicherort erstellen, bevor Sie die Topologie veröffentlichen. 
+     > [!NOTE]
+     > Die Dateifreigabe für Skype für Business Server verbunden werden jedoch aus Leistungsgründen nicht empfohlen. Im vorliegenden Beispiel befindet sich die Dateifreigabe auf einem dedizierten Einzelserver, der als Dateifreigabe fungieren soll. Es werden jedoch andere, robustere Dateifreigabesysteme empfohlen, z. B. DFS mit Windows Server 2012 R2. Ausführliche Informationen zu unterstützten Datei freigeben Systeme finden Sie unter [Anforderungen für Ihre Skype für Business-Umgebung](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Weitere Informationen zum Erstellen der Dateifreigabe finden Sie unter [Erstellen einer Dateifreigabe in Skype für Business Server](create-a-file-share.md). Sie können die Dateifreigabe definieren, ohne sie erstellt zu haben. Sie müssen die Dateifreigabe am definierten Speicherort erstellen, bevor Sie die Topologie veröffentlichen. 
   
 10. Auf der Seite „Webdienste-URL angeben“ müssen Sie entscheiden, ob Sie die Basis-URL des internen Webdienstepools außer Kraft setzen müssen. Der Grund für eine Außerkraftsetzung liegt im Lastenausgleich. Einfacher SIP-Datenverkehr kann über einen einfachen Lastenausgleich verteilt werden. Für HTTP/S-Webdienste-Datenverkehr muss aber eine unterstützte Hardware- oder Softwarelösung für den Lastenausgleich verwendet werden. Unterstützte zum Lastenausgleich finden Sie unter [Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). Im vorliegenden Beispiel wird DNS-Lastenausgleich für SIP-Datenverkehr und zusätzlich eine unterstützte Lastenausgleichslösung verwendet. Da der Datenverkehr auf diese Weise aufgeteilt wird, muss der FQDN des internen Webdienstepools außer Kraft gesetzt werden. Würde dagegen ein einfacher Lastenausgleich für den gesamten Datenverkehr verwendet, statt den SIP-Datenverkehr durch den DNS-Lastenausgleich zu schicken, wäre eine Außerkraftsetzung der Webdienste-URL nicht erforderlich. 
     
@@ -151,7 +151,7 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
   
     - Geben Sie optional im Feld **Externe Basis-URL** die externe Basis-URL ein. Die externe Basis-URL wird zur Unterscheidung dieser URL von Ihrer internen Domänenbenennung eingegeben. Beispiel: Der Name Ihrer internen Domäne lautet „contoso.local“, der Name Ihrer externen Domäne lautet „contoso.com“. Zur Definition der URL würden Sie den Domänennamen „contoso.com“ verwenden, da dieser aus dem öffentlichen DNS auflösbar sein muss. Dies ist auch im Fall eines Reverseproxys wichtig. Der Domänenname der externen Basis-URL würde dem Domänennamen des vollqualifizierten Domänennamens des Reverseproxys entsprechen. Für Instant Messaging und Anwesenheit ist HTTP-Zugriff auf den Front-End-Pool erforderlich.
     
-     ![Webdienste überschreiben](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
+      ![Webdienste überschreiben](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. Wenn Sie auf der Seite **Funktionen auswählen** die Option **Konferenzen** ausgewählt haben, müssen Sie einen Office Web Apps Server auswählen. Klicken Sie auf **Neu**, um das Dialogfeld zu öffnen.
     

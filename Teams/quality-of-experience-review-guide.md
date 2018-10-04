@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e3ae4573531cebf8723294f42ee66453bfa73
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013811"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373175"
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
@@ -134,14 +134,14 @@ _Tabelle 2 - Core Ziel Health Assessment Metriken_
 <tr>
 <th rowspan="2" colspan="2" valign="center">Netzwerktyp</th><th rowspan="1">Ziele der Qualität</th><th colspan="2">Ziele der Zuverlässigkeit</th></tr>
 <tr><th>Schlechte Audiostream Rate</th><th>Setup-Fehlerrate</th><th>Drop-Fehlerrate</th></tr>
-<tr><td rowspan="2">**Alle**</td><td>Intern</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
+<tr><td rowspan="2"><strong>Alle</strong></td><td>Intern</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Gesamt</td><td>3,0 %</td><td>1.0 %</td><td>3,0 %</td></tr>
-<tr><td rowspan="5">**Konferenzen**</td><td>Intern</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
+<tr><td rowspan="5"><strong>Konferenzen</strong></td><td>Intern</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Interne verkabelt</td><td>1.0 %</td><td>0,5 %</td><td>1.0 %</td></tr>
 <tr><td>Wi-Fi 5 GHz interne</td><td>1.0 %</td><td>0,5 %</td><td>1.0 %</td></tr>
 <tr><td>Interne der Wi-Fi 2,4 GHz</td><td>4.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Gesamt</td><td>2.0 %</td><td>0,5 %</td><td>3,0 %</td></tr>
-<tr><td rowspan="4">**P2P**</td><td>Intern</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
+<tr><td rowspan="4"><strong>P2P</strong></td><td>Intern</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Verkabelt/Wi-Fi 5 GHz interne</td><td>1.0 %</td><td>0,5 %</td><td>1.0 %</td></tr>
 <tr><td>Verkabelt/Wi-Fi 5 GHz insgesamt</td><td>2.0 %</td><td>1.0 %</td><td>1.0 %</td></tr>
 <tr><td>Gesamt</td><td>2.0 %</td><td>1.0 %</td><td>3,0 %</td></tr>
@@ -314,15 +314,15 @@ Einige Berichte CQD erfordern, dass Sie einen Filter für Ihre Mandanten-ID eins
 
 #### <a name="azure-powershell"></a>Azure PowerShell
 
-1.  [Installieren des Microsoft Azure PowerShell Service-Management-Moduls](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
+1. [Installieren des Microsoft Azure PowerShell Service-Management-Moduls](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2.  Öffnen Sie ein Befehlsfenster Azure PowerShell und führen Sie das folgende Skript, indem Sie bei entsprechender Aufforderung Ihre Office 365-Anmeldeinformationen eingeben: 
+2. Öffnen Sie ein Befehlsfenster Azure PowerShell und führen Sie das folgende Skript, indem Sie bei entsprechender Aufforderung Ihre Office 365-Anmeldeinformationen eingeben: 
 
-  ```
-  Login-AzureRmAccount
-  ```
+   ```
+   Login-AzureRmAccount
+   ```
 
-3.  Die Mandanten-ID wird in der Ausgabe aufgeführt.
+3. Die Mandanten-ID wird in der Ausgabe aufgeführt.
 
 #### <a name="skype-for-business-online-admin-center"></a>Skype für Business Online Admin Center
 
@@ -336,15 +336,15 @@ Einige Berichte CQD erfordern, dass Sie einen Filter für Ihre Mandanten-ID eins
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype für Business Online mithilfe von PowerShell
 
-1.  [Einrichten des Computers für Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. [Einrichten des Computers für Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-2.  Führen Sie den folgenden Befehl aus:
+2. Führen Sie den folgenden Befehl aus:
 
-  ```
-  (Get-cstenant).tenantid
-  ```
+   ```
+   (Get-cstenant).tenantid
+   ```
 
-3.  Die Mandanten-ID wird als GUID angezeigt.
+3. Die Mandanten-ID wird als GUID angezeigt.
 
 ### <a name="teams-vs-skype-for-business"></a>Teams im Vergleich zu Skype für Unternehmen
 
@@ -580,22 +580,22 @@ Dieses Handbuch umfasst [zwei curated CQD Vorlagen](https://aka.ms/qertemplates)
 
 **So importieren Sie die Vorlagen (. CQDX) in CQD Online**
 
-1.  Wechseln Sie zu <https://cqd.lync.com>.
+1. Wechseln Sie zu <https://cqd.lync.com>.
 
-2.  Authentifizieren Sie mithilfe Ihrer Office 365-Administratoranmeldeinformationen ein.
+2. Authentifizieren Sie mithilfe Ihrer Office 365-Administratoranmeldeinformationen ein.
 
-  > [!NOTE]
-  > Sie benötigen die Office 365 globaler Administrator Skype für Business Administrator oder Berichtleser-Rolle auf CQD zuzugreifen. 
+   > [!NOTE]
+   > Sie benötigen die Office 365 globaler Administrator Skype für Business Administrator oder Berichtleser-Rolle auf CQD zuzugreifen. 
 
-3.  Wählen Sie im Menü **Zusammenfassung Berichte** am oberen Rand der Seite aus, und wählen Sie dann **Ausführliche Berichte**.
+3. Wählen Sie im Menü **Zusammenfassung Berichte** am oberen Rand der Seite aus, und wählen Sie dann **Ausführliche Berichte**.
 
-4.  Wählen Sie im Bereich "Zusammenfassung" **Importieren**aus. Besuchen Sie die CQDX Speicherort gespeichert, wählen Sie die Vorlage CQDX, und wählen Sie dann auf **Öffnen**.
+4. Wählen Sie im Bereich "Zusammenfassung" **Importieren**aus. Besuchen Sie die CQDX Speicherort gespeichert, wählen Sie die Vorlage CQDX, und wählen Sie dann auf **Öffnen**.
 
-5.  Nachdem die Vorlage hochgeladen wurde, wird ein Popup-Fenster Anzeigen der Meldung "Bericht Importvorgang war erfolgreich." Wählen Sie **OK.**
+5. Nachdem die Vorlage hochgeladen wurde, wird ein Popup-Fenster Anzeigen der Meldung "Bericht Importvorgang war erfolgreich." Wählen Sie **OK.**
 
-  ![Benachrichtigung, dass die Vorlage erfolgreich importiert wurde] (media/qerguide-image-importmessage.png "Benachrichtigung, dass die Vorlage erfolgreich importiert wurde")
+   ![Benachrichtigung, dass die Vorlage erfolgreich importiert wurde] (media/qerguide-image-importmessage.png "Benachrichtigung, dass die Vorlage erfolgreich importiert wurde")
 
-6.  Wiederholen Sie die Schritte 4 und 5 für die zweite CQD-Vorlage.
+6. Wiederholen Sie die Schritte 4 und 5 für die zweite CQD-Vorlage.
 
 > [!NOTE]
 > Die Vorlagen CQD werden pro Benutzer importiert. Wenn weitere Benutzer den Bericht verwenden müssen, müssen sie anmelden und die Vorlagen in ihrer Instanz CQD importieren. 
@@ -677,13 +677,13 @@ Hier sind einige Punkte zu berücksichtigen sind vor der Implementierung von Sup
 
 Die Daten Quality of Experience (QoE), die Clients zu Office 365 senden – wobei stammende CQD Daten aus ist also – ein VPN-Flag enthält. CQD wird dies als VPN erste und zweite VPN Dimensionen angezeigt. Dieses Kennzeichen nutzt VPN-Anbieter reporting Windows, dass die VPN-Netzwerkadapter registriert einen RAS-Adapter ist jedoch. Nicht alle VPN-Anbieter registrieren ordnungsgemäß RAS-Adapter. Aus diesem Grund können Sie nicht die integrierte VPN-Abfragefilter verwenden können. Es gibt zwei Ansätze für die Einbindung der VPN-Subnetze im Gebäude Informationsdatei:
 
--   Definieren Sie einen **Netzwerkname** , indem Sie mit dem Text "VPN" in diesem Feld für VPN-Subnetze.
+- Definieren Sie einen **Netzwerkname** , indem Sie mit dem Text "VPN" in diesem Feld für VPN-Subnetze.
 
   ![CQD-Bericht, der definiert, wie ein VPN-Subnetz erstellen](media/qerguide-image-vpnnetworkname.png)
 
   _Abbildung 12: Netzwerkname mit VPN_
 
--   Definieren Sie einen **Namen erstellen** , indem Sie mit dem Text "VPN" in diesem Feld für VPN-Subnetze.
+- Definieren Sie einen **Namen erstellen** , indem Sie mit dem Text "VPN" in diesem Feld für VPN-Subnetze.
 
   ![CQD-Bericht, der definiert, wie eine Definition Erstellen von erstellen, die ein VPN-Subnetz umfasst.](media/qerguide-image-vpnbuildingname.png)
 
@@ -700,31 +700,31 @@ Die Daten Quality of Experience (QoE), die Clients zu Office 365 senden – wobe
 
 Das Dashboard CQD Zusammenfassung Berichte umfasst eine Seite **Mandanten Daten hochladen** , durch Auswählen des **Mandanten Datenupload** Link-Tags in der oberen rechten Ecke (Design für das Zahnradsymbol) zugegriffen. Auf dieser Seite wird für Administratoren ihre eigenen Informationen wie die Zuordnung von IP-Adresse und geografische Informationen, zuordnen jeder drahtlosen Zugriffspunkt und die MAC-Adresse, hochladen und so weiter.
 
-1.  Wechseln Sie zu Online CQD, indem Sie auf <https://cqd.lync.com>.
+1. Wechseln Sie zu Online CQD, indem Sie auf <https://cqd.lync.com>.
 
-2.  Wählen Sie in der oberen rechten Ecke der Zahnradsymbol aus, und wählen Sie auf der Seite **Zusammenfassung Berichte** **Mandanten Hochladen von Daten** .
+2. Wählen Sie in der oberen rechten Ecke der Zahnradsymbol aus, und wählen Sie auf der Seite **Zusammenfassung Berichte** **Mandanten Hochladen von Daten** .
 
-  ![Im Dialogfeld, das angezeigt wird, während Daten hochgeladen wird](media/qerguide-image-tenantdataupload.png)
+   ![Im Dialogfeld, das angezeigt wird, während Daten hochgeladen wird](media/qerguide-image-tenantdataupload.png)
 
-  _Abbildung 14: Menü Mandanten Daten hochladen_
+   _Abbildung 14: Menü Mandanten Daten hochladen_
 
-3.  Alternativ ist dies Ihre zum ersten Mal CQD besuchen, werden Sie aufgefordert, Erstellen von Daten hochzuladen. Sie können **Jetzt hochladen** , navigieren zur Seite **Mandanten Datenupload** schnell auswählen.
+3. Alternativ ist dies Ihre zum ersten Mal CQD besuchen, werden Sie aufgefordert, Erstellen von Daten hochzuladen. Sie können **Jetzt hochladen** , navigieren zur Seite **Mandanten Datenupload** schnell auswählen.
 
-  ![Banner, die einen Benutzer das Erstellen von Datenupload benachrichtigt.](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Banner, die einen Benutzer das Erstellen von Datenupload benachrichtigt.](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _Abbildung 15: Erstellen von Daten hochladen banner_
+   _Abbildung 15: Erstellen von Daten hochladen banner_
 
-4.  Wählen Sie **Durchsuchen** , um eine Datendatei auszuwählen, auf der Seite **Mandanten Hochladen von Daten** .
+4. Wählen Sie **Durchsuchen** , um eine Datendatei auszuwählen, auf der Seite **Mandanten Hochladen von Daten** .
 
-5.  **Startdatum** Geben Sie an, nach dem Auswählen einer Datendatei, und geben Sie optional ein Enddatum.
+5. **Startdatum** Geben Sie an, nach dem Auswählen einer Datendatei, und geben Sie optional ein Enddatum.
 
-6.  Nach dem **Startdatum**auswählen, wählen Sie in der Datei in CQD hoch **Hochladen** . <br><br>Bevor Sie die Datei hochgeladen wurde, wird es überprüft. Wenn die Überprüfung fehlschlägt, wird eine Fehlermeldung angezeigt anfordern, dass Sie die Datei zu korrigieren. Die folgende Abbildung zeigt einen Fehler auftritt, wenn die Anzahl der Spalten in der Datendatei nicht korrekt ist.
+6. Nach dem **Startdatum**auswählen, wählen Sie in der Datei in CQD hoch **Hochladen** . <br><br>Bevor Sie die Datei hochgeladen wurde, wird es überprüft. Wenn die Überprüfung fehlschlägt, wird eine Fehlermeldung angezeigt anfordern, dass Sie die Datei zu korrigieren. Die folgende Abbildung zeigt einen Fehler auftritt, wenn die Anzahl der Spalten in der Datendatei nicht korrekt ist.
 
-  ![Beispiel für ein Dialogfeld an, die beim Importieren von Daten zum Erstellen von wird eine Fehlermeldung angezeigt.](media/qerguide-image-buildingdatauploaderror.png)
+   ![Beispiel für ein Dialogfeld an, die beim Importieren von Daten zum Erstellen von wird eine Fehlermeldung angezeigt.](media/qerguide-image-buildingdatauploaderror.png)
  
-  _Abbildung 16: Fehler beim Upload von Daten erstellen_
+   _Abbildung 16: Fehler beim Upload von Daten erstellen_
 
-7.  Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
+7. Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
 
 > [!NOTE]
 > Es kann zum Abschließen der Verarbeitung der Datei zum Erstellen von bis zu vier Stunden dauern. <br><br> Wenn Sie eine Datei zum Erstellen von bereits hochgeladen haben und müssen Subnetze hinzu, die möglicherweise entgangene oder ausgeschlossen werden, wurden die ursprüngliche Datei ändern, indem Sie die neue Subnetze hinzufügen, entfernen Sie die aktuelle Datei und wieder neu bearbeitete Datei hochladen. Es kann nur eine aktive Erstellen von CQD-Datendatei. 
@@ -898,11 +898,11 @@ Nun, wie Sie Ihre Remediation beginnen, können Sie sich in einem bestimmten Geb
 
 _Tabelle 8: nächste Schritte für Anruf Setup Fehler-Wartung_
 
-| Wartung           | Anleitung     |
-|-----------------------|--------------|
-| Konfigurieren von firewall(s) | Arbeiten mit Ihrem Netzwerkteam, und überprüfen Sie Ihre Konfiguration Firewall(s) anhand [der Liste der Office 365-IP-Adresse](https://aka.ms/o365ips).<br><br>Stellen Sie sicher, dass die [Medien Subnetze](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) und Ports in der Firewall-Regeln enthalten sind. <br><br>Stellen Sie sicher, dass die erforderlichen Ports (siehe unten) in der Firewall geöffnet werden. UDP sollte Priorität erteilt werden, da TCP ein Failback-Protokoll für Audio-, Video-gilt und videobasierte Bildschirmfreigabe und dessen Verwendung sich auf die Qualität des Anrufs wirkt. TCP verwendet nur Legacy RDP-Anwendungsfreigabe.<br><ul><li>**TCP:** -port 443</li><li>**UDP:** 3478 – 3481 ports</li><ul> |
-| Vergewissern Sie sich                | Verwenden Sie das [Tool zur Bewertung der Microsoft Network](https://www.microsoft.com/download/details.aspx?id=53885) , um die Konnektivität von der betroffenen Gebäude oder Subnetz mithilfe der Konnektivität Kontrollkästchen-Funktion zu überprüfen.    |
 
+|      Wartung      |                                                                                                                                                                                                                                                                                                                                                                   Anleitung                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Konfigurieren von firewall(s) | Arbeiten mit Ihrem Netzwerkteam, und überprüfen Sie Ihre Konfiguration Firewall(s) anhand [der Liste der Office 365-IP-Adresse](https://aka.ms/o365ips).<br><br>Stellen Sie sicher, dass die [Medien Subnetze](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) und Ports in der Firewall-Regeln enthalten sind. <br><br>Stellen Sie sicher, dass die erforderlichen Ports (siehe unten) in der Firewall geöffnet werden. UDP sollte Priorität erteilt werden, da TCP ein Failback-Protokoll für Audio-, Video-gilt und videobasierte Bildschirmfreigabe und dessen Verwendung sich auf die Qualität des Anrufs wirkt. TCP verwendet nur Legacy RDP-Anwendungsfreigabe.<br><ul><li>**TCP:** -port 443</li><li>**UDP:** 3478 – 3481 ports</li><ul> |
+|        Vergewissern Sie sich         |                                                                                                                                                                                                                                                                 Verwenden Sie das [Tool zur Bewertung der Microsoft Network](https://www.microsoft.com/download/details.aspx?id=53885) , um die Konnektivität von der betroffenen Gebäude oder Subnetz mithilfe der Konnektivität Kontrollkästchen-Funktion zu überprüfen.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Drop-Fehlern
 

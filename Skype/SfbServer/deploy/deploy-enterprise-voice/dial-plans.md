@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Zusammenfassung: Informationen Sie zum Erstellen oder Ändern von Wähleinstellungen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 8c4a8013268c878390fdcea08dc79e094d8fa4dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dc60b2b2f922e5f6581f6742d055243ccfe06113
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884257"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371068"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server
 
@@ -38,8 +38,8 @@ ms.locfileid: "23884257"
 
    - **Benutzerwählplan** kann auf bestimmte Benutzer oder Gruppen angewendet werden.
 
-    > [!NOTE]
-    > Nachdem Sie den Bereich für den Wählplan ausgewählt haben, kann dieser nicht mehr geändert werden.
+     > [!NOTE]
+     > Nachdem Sie den Bereich für den Wählplan ausgewählt haben, kann dieser nicht mehr geändert werden.
 
 4. Wenn Sie einen Wählplan erstellen, geben Sie im Dialogfeld **Neuer Wählplan** im Feld **Name** einen beschreibenden Namen ein. Nach dem Speichern kann dieser Name nicht mehr geändert werden.
 
@@ -48,8 +48,8 @@ ms.locfileid: "23884257"
 
 5. Das Feld **Einfacher Name** wird mit demselben Namen vorausgefüllt, der im Feld **Name** erscheint. Sie können dieses Feld optional bearbeiten, um einen aussagekräftigeren Namen anzugeben, der den Standort, Dienst oder Benutzer zur Anwendung des Wählplans besser beschreibt.
 
-    > [!IMPORTANT]
-    > Die **einfacher Name** muss für alle Wählpläne in Ihrer Bereitstellung eindeutig sein. 256 Unicodezeichen, kann jeweils ein Buchstaben oder numerische Zeichen, einen Bindestrich (-), einen Punkt (.) oder einem Unterstrich (_) nicht überschreiten. > Zeichen **nicht unterstützt** gehören, Leerzeichen und reservierte Zeichen gemäß Definition in RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). Reservierte Zeichen, die in der **Einfachen Namen** **nicht unterstützt** werden, sind: > ";" "/" "?" ":" "@" "&amp;" "=" "+""$"","
+   > [!IMPORTANT]
+   > Die **einfacher Name** muss für alle Wählpläne in Ihrer Bereitstellung eindeutig sein. 256 Unicodezeichen, kann jeweils ein Buchstaben oder numerische Zeichen, einen Bindestrich (-), einen Punkt (.) oder einem Unterstrich (_) nicht überschreiten. > Zeichen **nicht unterstützt** gehören, Leerzeichen und reservierte Zeichen gemäß Definition in RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Reservierte Zeichen, die in der **Einfachen Namen** **nicht unterstützt** werden, sind: > ";" "/" "?" ":" "@" "&amp;" "=" "+""$"","
 
 6. (Optional) Geben Sie im Feld **Beschreibung** zusätzliche beschreibende Informationen zum Wählplan ein.
 
@@ -94,7 +94,7 @@ ms.locfileid: "23884257"
 
 ### <a name="to-modify-a-dial-plan"></a>So ändern Sie einen Satz mit Wähleinstellungen
 
-1.  Melden Sie sich an dem Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder csadministrator an. Weitere Informationen hierzu finden Sie unter **Delegate Setup Permissions**.
+1. Melden Sie sich an dem Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder csadministrator an. Weitere Informationen hierzu finden Sie unter **Delegate Setup Permissions**.
 
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.
 
@@ -134,8 +134,8 @@ ms.locfileid: "23884257"
 
    - Wenn Sie eine Normalisierungsregel aus dem Wählplan entfernen möchten, markieren Sie den Regelnamen und klicken Sie auf **Entfernen**.
 
-    > [!NOTE]
-    > Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein. Weitere Informationen dazu, wie Sie alle Normalisierungsregeln Einwahl bestimmen Plan erfordert, finden Sie unter [Plan für ausgehende VoIP-routing in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in der Planungsdokumentation.
+     > [!NOTE]
+     > Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein. Weitere Informationen dazu, wie Sie alle Normalisierungsregeln Einwahl bestimmen Plan erfordert, finden Sie unter [Plan für ausgehende VoIP-routing in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in der Planungsdokumentation.
 
 10. Stellen Sie sicher, dass die Wähleinstellungen Normalisierungsregeln in der richtigen Reihenfolge angeordnet sind. Um eine Regel Position in der Liste zu ändern, markieren Sie den Namen der Regel und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
 

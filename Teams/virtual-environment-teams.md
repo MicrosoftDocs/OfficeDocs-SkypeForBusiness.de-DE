@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c420697b015d3af9cfe6fb9dd96757f1542e80
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c908cbfbd7daace3665ff99ccd3962fabf440e65
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016309"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373400"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Führen Sie Microsoft-Teams in einer virtuellen Umgebung
 ============================================
@@ -100,7 +100,7 @@ Die *CsTeamsMeetingPolicy* -Cmdlets können Administratoren steuern, welche Art 
 5.  Alle Benutzer, die in einer virtualisierten Umgebung Teams verwenden sollen zuweisen Sie die Option "AllOff" vor dem programmierte Richtlinie:<br>
 \>> *GRANT-CsTeamsMeetingPolicy - PolicyName AllOff-Identity "Benutzer-e-Mail-Id"*
 
-##<a name="known-limitations"></a>Bekannte Einschränkungen
+## <a name="known-limitations"></a>Bekannte Einschränkungen
 
 Zusätzlich zu den Audio- und Videodaten Einschränkungen Previosly erwähnt stehen Ihnen einige zusätzlichen Einschränkungen, die Benutzern in virtualisierten Umgebungen mit der Vorderseite nach möglicherweise:
 

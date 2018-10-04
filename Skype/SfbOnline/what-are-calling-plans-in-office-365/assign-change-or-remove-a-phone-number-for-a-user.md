@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie Ihren Skype for Business-Benutzern eine berufliche Telefonnummer zuweisen oder sie ändern oder entfernen können, damit Unternehmen und Kunden von außerhalb anrufen können.
-ms.openlocfilehash: 57ffe302c784ff441d124017035c8031c1c737c1
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347027"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374658"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -62,7 +62,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **VoIP-Benutzer**.
    > [!NOTE]
- Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
+   > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
  
    
     
@@ -73,7 +73,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 6. Wählen Sie auf der Seite **Nummer zuweisen** in der Dropdown-Liste **Zuzuweisende Nummer auswählen** die Telefonnummer für den Benutzer aus.
     
     > [!TIP]
-    > Wenn Sie alle aufgeführten Telefonnummern nicht angezeigt wird, müssen Sie zunächst zum [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md) . Alternativ können Sie, wenn Sie die Seite **Skype for Business Admin Center** > **VoIP** > **Telefonnummern** verwenden, auf **Hinzufügen** und dann auf **Neue Nutzernummern** klicken. 
+    > Wenn Sie alle aufgeführten Telefonnummern nicht angezeigt wird, müssen Sie zunächst zum [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md) . Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
   
 7. Um die zugeordnete Notfalladresse zuzuweisen oder zu ändern, wählen Sie unter **Auswählen des gültigen Notfallorts** den Standort aus der Liste aus. Wenn viele Standorte definiert sind, können Sie alternativ den Namen der Stadt in das Suchfeld eingeben und auf **Suchen** klicken.
     

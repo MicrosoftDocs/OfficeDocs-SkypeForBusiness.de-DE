@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Zusammenfassung: Erfahren Sie, wie die Protokollierung Centralized Logging Service (CLS) in Skype für Business Server 2015 verwenden.'
-ms.openlocfilehash: 24b4d873694088b371a4db203c0081f7e9a8f493
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b9a42c671f90d00434a94a27830753d58afb9e0b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372128"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger für Skype for Business Server 2015
  
@@ -74,35 +75,35 @@ So beenden Sie ein vorhandenes Szenario
 Um nach Protokollen gesucht, wählen Sie die Registerkarte "Suche CLS Protokolle", und klicken Sie auf die Schaltfläche "Suche speichern" nach der angezeigten Felder ausfüllen, wie unten beschrieben:
   
 > **Log File Folder** (Protokolldateiordner): Der Ordner, in dem die Ergebnisse der Protokollsuche gespeichert werden (erforderlich)
-    
+> 
 > **Log Level** (Protokollebene): Hiermit wird die unterste Ebene bestimmt, die in den Ergebnissen angezeigt wird. Wenn beispielsweise „Warning“ (Warnung) ausgewählt ist, werden nur „Warning“ (Warnung), „Error“ (Fehler) und „Fatal“ (Schwerwiegend) angezeigt. Die Standardeinstellung ist „Debug“ (Debuggen).
-    
+> 
 > **Pools** (Pools): Die Computerpools, in denen die Protokollsuche durchgeführt wird. Dies sind die übergeordneten Knoten der Strukturansicht (erforderlich).
-    
+> 
 > **Computers** (Computer): Einzelne Computer, auf denen die Protokollsuche durchgeführt wird. Dies sind alle untergeordneten Knoten in der Strukturansicht (erforderlich).
-    
+> 
 > **Start Time** (Startzeit): Der Zeitpunkt, ab dem CLS die Protokolle abfragt. (erforderlich).
-    
+> 
 > **End Time** (Endzeit): Der Zeitpunkt, bis zu dem CLS die Protokolle abfragt (erforderlich).
-    
+> 
 > **Components** (Komponenten): Hier können Sie die Komponenten auswählen, die der Abfrage hinzugefügt werden sollen (optional).
-    
+> 
 > **Call ID** (Anruf-ID): Die Anruf-ID der SIP-Dialogfelder, nach denen gefiltert werden soll. Hinweis: Bei diesem Feld wird die exakte Übereinstimmung verwendet (optional).
-    
+> 
 > **Conference ID** (Konferenz-ID): Die Konferenz-ID der Konferenzen, nach denen ggf. gefiltert werden soll. Hinweis: Bei diesem Feld wird die exakte Übereinstimmung verwendet (optional).
-    
+> 
 > **IP Address** (IP-Adresse): Die IP-Adresse, nach der gefiltert werden soll. Hinweis: Bei diesem Feld wird die exakte Übereinstimmung verwendet (optional).
-    
+> 
 > **Correlation IDs** (Korrelations-IDs): Ablaufverfolgungsanweisungen, die durch diese ID logisch miteinander verknüpft sind (optional).
-    
+> 
 > **Phone Number** (Telefonnummer): In diesem Feld können Sie nach Telefonnummer filtern (optional).
-    
+> 
 > **SIP URI** (SIP-URI): In diesem Feld können Sie nach SIP-URIs filtern (optional).
-    
+> 
 > **SIP Message Content Contains** (Inhalt der SIP-Nachricht enthält): In diesem Feld können Sie nach SIP-Nachrichteninhalten filtern. Dadurch ist eine Suche nach Teilzeichenfolgen in diesem Feld möglich (optional).
-    
+> 
 > **Match Any** (Übereinstimmung alle): Wenn dieses Kontrollkästchen aktiviert ist, werden Suchvorgänge mit logischem „Oder“ ausgeführt. Standardmäßig werden alle Parameter mit genauer Übereinstimmung gefunden.
-    
+> 
 > **Skip Network Logs** (Netzwerkprotokolle überspringen): Wenn dieses Kontrollkästchen aktiviert ist, werden keine Netzwerkprotokolle gesucht.
     
 ![CLS Logger-Suchprotokolle](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)

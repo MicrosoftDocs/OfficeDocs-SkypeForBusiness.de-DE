@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie die Integration mit Exchange-Speicher in Skype für Business Server konfigurieren.'
-ms.openlocfilehash: 5f987ef0c2c47960a71c94a3b5a692062e787ed6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35ef648a1076283f63752221a807da21bf4208ca
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988332"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370620"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Konfigurieren der Integration mit Exchange-Speicher für Skype für Business Server
  
@@ -32,9 +32,9 @@ Wenn Sie Microsoft Exchange-Integration für alle Benutzer in Ihrer Bereitstellu
     
 4. Klicken Sie in der Liste der Archivierungskonfigurationen auf den Namen der betreffenden Konfiguration auf globaler, Standort- oder Poolebene. Klicken Sie auf **Bearbeiten** und auf **Details anzeigen** und führen Sie dann eine der folgenden Aktionen aus:
     
-  - Aktivieren Sie das Kontrollkästchen **Microsoft Exchange-Integration** , zum Aktivieren der Integration mit Exchange-Speicher.
+   - Aktivieren Sie das Kontrollkästchen **Microsoft Exchange-Integration** , zum Aktivieren der Integration mit Exchange-Speicher.
     
-  - Deaktivieren Sie das Kontrollkästchen **Microsoft Exchange-Integration** , um die Integration von Exchange-Speicher zu deaktivieren.
+   - Deaktivieren Sie das Kontrollkästchen **Microsoft Exchange-Integration** , um die Integration von Exchange-Speicher zu deaktivieren.
     
 5. Klicken Sie auf **Commit ausführen**.
     

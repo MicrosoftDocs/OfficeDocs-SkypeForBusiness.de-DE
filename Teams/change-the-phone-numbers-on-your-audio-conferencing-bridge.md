@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 26a6e8dcb467ceea990b974d1687e0a5998eeb4b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016749"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372242"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -38,7 +38,7 @@ Wenn Sie Lizenzen für **Audiokonferenzen** erwerben, hostet Microsoft Ihre *Aud
 Neben die Telefonnummern, die Konferenzbrücke bereits zugewiesen, Sie können [zusätzliche Service Zahlen abrufen](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) (gebührenpflichtige und gebührenfreie Nummern für die Audiokonferenz verwendet) aus anderen Speicherorten und weisen Sie anschließend, damit Sie können zu Live Meeting-Brücke, Erweitern Sie Abdeckung für Ihre Benutzer.
   
 > [!NOTE]
-> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer*sein. Sie können den Typ der Zahl ist, navigieren Sie zur **VoIP**finden Sie unter > **Telefonnummern** und suchen Sie in der Spalte **' Zahl '** . Office 365 Communications haben muss zuerst eingerichtet werden, damit Benutzer in eine gebührenfreie Telefonnummer-Brücke einwählen können.
+> To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column. Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -101,7 +101,7 @@ Wenn Sie die Zuweisung einer Telefonnummer zu einer Konferenzbrücke aufheben, k
 
 Wenn die Rufnummer ohne Aktualisierung der Benutzer und ihrer Besprechungen entfernt wird, enthalten die vorhandenen Besprechungseinladungen dieser Benutzer möglicherweise eine Rufnummer, die für die Teilnahme an Besprechungen nicht mehr funktioniert.
 
-Für die ersten drei Schritte müssen Sie Windows PowerShell zu starten. Um herauszufinden, wie Sie dies tun, klicken Sie auf [möchten Sie wissen, wie Sie mit Windows PowerShell verwalten?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
+For the first three steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
 
 ### <a name="step-1---update-users-that-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Schritt 1 - Aktualisieren von Benutzern, für die die Rufnummer, deren Zuweisung aufgehoben werden soll, als Standardnummer festgelegt ist
 
@@ -138,8 +138,8 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 4. Klicken Sie im Bestätigungsfenster auf **Ja**.
 
-  > [!IMPORTANT]
-  > Nachdem die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wurde, ist die Telefonnummer nicht mehr für die Teilnahme der Benutzer an neuen oder bestehenden Besprechungen verfügbar.
+   > [!IMPORTANT]
+   > Nachdem die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wurde, ist die Telefonnummer nicht mehr für die Teilnahme der Benutzer an neuen oder bestehenden Besprechungen verfügbar.
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 <a name="bkPowerShell"> </a>
@@ -154,8 +154,7 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 3. Wenn Sie nicht über Version 3.0 oder eine höhere Version verfügen, müssen Sie Updates für Windows PowerShell herunterladen und installieren. Informationen zum Herunterladen von Windows PowerShell und zum Aktualisieren auf Version 4.0 finden Sie unter [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
 
-4. Außerdem müssen Sie das Windows PowerShell-Modul für Skype für Business Online installieren, mit dem Sie eine remote Windows PowerShell-Sitzung zu erstellen, die mit Skype für Business Online eine Verbindung herstellt. In diesem Modul wird nur auf 64-Bit-Computern unterstützt und kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype für Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)heruntergeladen werden.
-Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
+4. You also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module is supported only on 64-bit computers and can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
 
 Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://technet.microsoft.com/library/dn568015.aspx).
 
@@ -220,7 +219,7 @@ Um Zeit sparen, indem Sie diesen Prozess automatisieren, können Sie das [Set-Cs
 
 ## <a name="about-windows-powershell"></a>Informationen zu Windows PowerShell
 
-Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell können Sie das Verwalten von Office 365 und Skype für Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, insbesondere dann, wenn Sie mehrere Aufgaben zu tun haben. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+With Windows PowerShell you can manage users and what they are or are not allowed to do. Windows PowerShell  can help you manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, especially when you've got multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
