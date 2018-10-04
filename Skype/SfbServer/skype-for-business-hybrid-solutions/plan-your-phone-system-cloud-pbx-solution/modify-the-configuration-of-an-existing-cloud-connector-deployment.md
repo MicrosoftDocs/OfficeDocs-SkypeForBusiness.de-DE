@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Führen Sie die Schritte in diesem Thema, um die Konfiguration von einer vorhandenen Skype für Business Cloud Connector Edition 1.4.1 oder höher Bereitstellung zu ändern.
-ms.openlocfilehash: fe226e67f6f492e0fae7473156908cd4a5147ea2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885803"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375372"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung
  
@@ -31,75 +31,75 @@ Wenn die Site nur eine Appliance enthält und Sie die Konfigurationseinstellunge
   
 1. Führen Sie das folgende Cmdlet aus, um alle vorhandenen virtuellen Maschinen auf dem Hostserver zu deinstallieren:  
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Führen Sie das folgende Cmdlet aus, um die Registrierung der Appliance aufzuheben:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Aktualisieren Sie die Datei „CloudConnector.ini“ im Verzeichnis der Appliance.
     
 4. Führen Sie das folgende Cmdlet aus, um die Konfiguration zu aktualisieren: (dieser Schritt gilt nur für Version 2; für frühere Versionen, fahren Sie mit dem nächsten Schritt fort.)
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Führen Sie das folgende Cmdlet aus, um die Appliance wieder zu registrieren:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Führen Sie das folgende Cmdlet aus, um Skype for Business Cloud Connector Edition zu installieren:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 Wenn am Standort mehrere Appliances vorhanden sind, müssen Sie diese Schritte ausführen, die Datei „CloudConnector.ini“ ändern und die Appliances nacheinander erneut bereitstellen.
   
 1. Führen Sie das folgende Cmdlet, um alle vorhandenen virtuellen Computern in der aktuellen Anwendung zu deinstallieren: 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Führen Sie das folgende Cmdlet aus, um die Registrierung der Appliance aufzuheben:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Aktualisieren Sie die Datei „CloudConnector.ini“ im Verzeichnis der Appliance.
     
 4. Führen Sie das folgende Cmdlet aus, um die Konfiguration zu aktualisieren: (dieser Schritt gilt nur für Version 2; für frühere Versionen, fahren Sie mit dem nächsten Schritt fort.)
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Führen Sie das folgende Cmdlet aus, um die Appliance wieder zu registrieren:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Führen Sie das folgende Cmdlet in allen anderen Appliances am Standort aus, um die aktuelle Konfiguration zu übernehmen:
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 7. Führen Sie auf der aktuellen Anwendung Cloud Connector erneut bereitstellen, um das folgende Cmdlet aus:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="modify-the-configuration-of-multiple-sites"></a>Ändern der Konfiguration mehrerer Sites
 <a name="BKMK_MultipleSites"> </a>
@@ -115,45 +115,45 @@ Wenn Sie automatische Updates Betriebssystem oder Bits automatische Updates deak
   
 1. Die EnableAutoUpdate-Eigenschaft der Website muss auf "true" (Standardwert) festgelegt werden. Führen Sie das folgende Cmdlet aus, um sicherzustellen, dass „EnableAutoUpdate“ auf „true“ festgelegt ist:
     
-  ```
-  Get-CsHybridPSTNSite -Identity <SiteName>
-  ```
+   ```
+   Get-CsHybridPSTNSite -Identity <SiteName>
+   ```
 
 2. Erstellen Sie ein Zeitfenster für automatische Updates für den Mandanten.
     
     Dabei kann es sich um ein tägliches, wöchentliches oder monatliches Zeitfenster handeln. Für alle Zeitfenster ist eine Startzeit und eine Dauer erforderlich.
     
-  - Für tägliche Zeitfenster müssen Sie nur die Startzeit und die Dauer angeben.  
+   - Für tägliche Zeitfenster müssen Sie nur die Startzeit und die Dauer angeben.  
     
-  - Für wöchentliche Zeitfenster werden die Wochentage benötigt, das heißt ein einzelner Tag oder mehrere Tage.
+   - Für wöchentliche Zeitfenster werden die Wochentage benötigt, das heißt ein einzelner Tag oder mehrere Tage.
     
-  - Bei einem monatlichen Zeitfenster sind zwei Typen möglich. Zunächst können Sie einen Tag im Monat angeben, also einen einzigen Tag. Beim zweiten Typ können Sie Wochen im Monat sowie Wochentage angeben (ein Element oder mehrere Elemente).
+   - Bei einem monatlichen Zeitfenster sind zwei Typen möglich. Zunächst können Sie einen Tag im Monat angeben, also einen einzigen Tag. Beim zweiten Typ können Sie Wochen im Monat sowie Wochentage angeben (ein Element oder mehrere Elemente).
     
-  - Für jeden Mandanten können 20 Zeitfenster definiert sein. Das Standardzeitfenster wird für einen neuen Mandanten als Standardzeitfenster für Betriebssystemupdates und Updates der Bits erstellt. Führen Sie die folgenden Cmdlets aus, um tägliche, wöchentliche oder monatliche Zeitfenster festzulegen:
+   - Für jeden Mandanten können 20 Zeitfenster definiert sein. Das Standardzeitfenster wird für einen neuen Mandanten als Standardzeitfenster für Betriebssystemupdates und Updates der Bits erstellt. Führen Sie die folgenden Cmdlets aus, um tägliche, wöchentliche oder monatliche Zeitfenster festzulegen:
     
-  ```
-  New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
+   ```
 
-  - Weisen Sie der Website Start von Windows Update. 
+   - Weisen Sie der Website Start von Windows Update. 
     
-    Die Zeitfenster für BITS-Updates und Betriebssystemupdates werden getrennt konfiguriert. Beiden Updatearten können Sie ein oder mehrere Zeitfenstern zuweisen. Jedes Zeitfenster kann verschiedenen Sites und Zwecken zugewiesen sein (BITS-Update und Betriebssystemupdate). Führen Sie das folgende Cmdlet, um das Zeitfenster für die Website festzulegen: 
+     Die Zeitfenster für BITS-Updates und Betriebssystemupdates werden getrennt konfiguriert. Beiden Updatearten können Sie ein oder mehrere Zeitfenstern zuweisen. Jedes Zeitfenster kann verschiedenen Sites und Zwecken zugewiesen sein (BITS-Update und Betriebssystemupdate). Führen Sie das folgende Cmdlet, um das Zeitfenster für die Website festzulegen: 
     
-  ```
-  Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
-  ```
+   ```
+   Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
+   ```
 
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Aktualisieren der Anmeldeinformationen für den dedizierten Mandantenadministrator 
 <a name="BKMK_MultipleSites"> </a>
@@ -178,11 +178,11 @@ Um die lokal gespeicherten Anmeldeinformationen in der Cloud Connector-Anwendung
   
 1. Führen Sie die folgenden Befehle aus, um die Kennwörter abzurufen, die Sie später benötigen:  
     
-  - Get-CcCredential - AccountType DomainAdmin "- DisplayPassword
+   - Get-CcCredential - AccountType DomainAdmin "- DisplayPassword
     
-  - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-  - Get-CcCredential AccountType - CceService - DisplayPassword
+   - Get-CcCredential AccountType - CceService - DisplayPassword
     
 2. Ändern Sie das Kennwort Ihres Kontos auf dem Hostserver.
     
@@ -226,17 +226,17 @@ Für jede Anwendung, die am gleichen Standort PSTN angehört, benötigen Sie Fol
   
 1. Führen Sie die folgenden Befehle zum Abrufen der Kontonamen und Kennwörter, die Sie später verwenden:
     
-  ```
-  Get-CcCredential -AccountType TenantAdmin -DisplayPassword
-Get-CcCredential -AccountType TenantAdmin
-Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
-Get-CcCredential -AccountType OMSWorkspace 
-Get-CcCredential -AccountType ExternalCert -DisplayPassword
-Get-CcCredential -AccountType CABackupFile -DisplayPassword
-Get-CcCredential -AccountType CceService -DisplayPassword
-Get-CcCredential -AccountType VMAdmin -DisplayPassword
-Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-  ```
+   ```
+   Get-CcCredential -AccountType TenantAdmin -DisplayPassword
+   Get-CcCredential -AccountType TenantAdmin
+   Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
+   Get-CcCredential -AccountType OMSWorkspace 
+   Get-CcCredential -AccountType ExternalCert -DisplayPassword
+   Get-CcCredential -AccountType CABackupFile -DisplayPassword
+   Get-CcCredential -AccountType CceService -DisplayPassword
+   Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   ```
 
 2. Führen Sie das Cmdlet EINGABETASTE CcUpdate die Appliance abzuleiten und verschieben sie in den Wartungsmodus manuelle aus.
     
@@ -250,29 +250,29 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 6. Für „VmAdmin“ und „DomainAdmin“ wird standardmäßig das gleiche Kennwort wie für „CceService“ verwendet. Wenn in Schritt 1 andere Kennwörter für „DomainAdmin“, „VMAdmin“ und „CceService“ zurückgegeben wurden, müssen Sie die folgenden Schritte ausführen:
     
-1. Führen Sie „Set-CcCredential -AccountType DomainAdmin“ wie folgt aus:
+7. Führen Sie „Set-CcCredential -AccountType DomainAdmin“ wie folgt aus:
     
-  - Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
+   - Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
     
-  - Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das in Schritt 1 zurückgegebene Kennwort für „DomainAdmin“ ein.
+   - Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das in Schritt 1 zurückgegebene Kennwort für „DomainAdmin“ ein.
     
-2. Führen Sie „Set-CcCredential -AccountType VmAdmin“ wie folgt aus:
+8. Führen Sie „Set-CcCredential -AccountType VmAdmin“ wie folgt aus:
     
-  - Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
+   - Wenn Sie zur Eingabe der alten Anmeldeinformationen für das Konto aufgefordert werden, geben Sie die Anmeldeinformationen ein, die Sie für das „CceService“-Kennwort verwendet haben.
     
-  - Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das in Schritt 1 zurückgegebene Kennwort für „VmAdmin“ ein.  
+   - Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das in Schritt 1 zurückgegebene Kennwort für „VmAdmin“ ein.  
     
-7. Führen Sie das Exit-CcUpdate-Cmdlet, um die Einheit nicht mehr im Wartungsmodus manuelle verschieben.
+9. Führen Sie das Exit-CcUpdate-Cmdlet, um die Einheit nicht mehr im Wartungsmodus manuelle verschieben.
     
-8. Nachdem Sie diese Schritte auf allen Einheiten auf der gleichen PSTN-Website abgeschlossen haben, löschen Sie die folgenden Dateien in das Stammverzeichnis der Website:
+10. Nachdem Sie diese Schritte auf allen Einheiten auf der gleichen PSTN-Website abgeschlossen haben, löschen Sie die folgenden Dateien in das Stammverzeichnis der Website:
     
-  - CcLockFile
+    - CcLockFile
     
-  - Site_\<externen Sip-Edge-Pool-Fqdn\>
+    - Site_\<externen Sip-Edge-Pool-Fqdn\>
     
-  - Tenant_\<externen Sip-Edge-Pool-Fqdn\>
+    - Tenant_\<externen Sip-Edge-Pool-Fqdn\>
     
-  - TenantConfigLock_\<externen Sip-Edge-Pool-Fqdn\>
+    - TenantConfigLock_\<externen Sip-Edge-Pool-Fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>Hinzufügen einer neuen SIP-Domäne 
 <a name="BKMK_UpdatePassword"> </a>
@@ -287,9 +287,9 @@ Um eine neue SIP-Domäne (oder mehrere SIP-Domänen) Ihre vorhandene Bereitstell
     
 4. Legen Sie den Pfad für das neue externe Zertifikat des Edges wie folgt fest:
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
@@ -308,17 +308,17 @@ Wenn Sie die primäre SIP-Domäne in der Cloud Connector Bereitstellung ändern 
     
 4. Legen Sie den Pfad für das neue externe Zertifikat des Edges wie folgt fest:
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
     Entfernen Sie die Mandanten-Registrierung für jede Anwendung in einer Website, indem Sie das folgende Cmdlet in Administrator PowerShell Cloud Connector ausführen:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 6. 
     
@@ -326,33 +326,33 @@ Wenn Sie die primäre SIP-Domäne in der Cloud Connector Bereitstellung ändern 
 
 
     
-  ```
-  Remove-CsHybridPSTNSite
-  ```
+   ```
+   Remove-CsHybridPSTNSite
+   ```
 
 7. 
     
     Deinstallieren Sie jede Appliance, indem Sie das folgende Cmdlet in PowerShell Administrator auf Cloud Connector ausgeführt wird:
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 8. 
     
      Registrieren Sie jede Appliance, indem Sie das folgende Cmdlet in Administrator PowerShell Cloud Connector ausführen:
     
-  ```
-  Register-ccAppliance
-  ```
+   ```
+   Register-ccAppliance
+   ```
 
 9. 
     
      Installieren Sie jede Anwendung einzeln, indem Sie das folgende Cmdlet in Administrator PowerShell auf Cloud Connector ausführen:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>Ersetzen Sie das externe edgezertifikat durch ein neues Zertifikat
 <a name="BKMK_UpdatePassword"> </a>
@@ -363,9 +363,9 @@ Wenn Sie das externe edgezertifikat auf Ihre Cloud-Connector Appliances ersetzen
     
 2. Führen Sie den folgenden Befehl aus: 
     
-  ```
-  Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
+   ```
 
 3. 
     

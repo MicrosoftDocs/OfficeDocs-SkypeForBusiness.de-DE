@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Hinzufügen eines neuen Servers zu einem vorhandenen Pool von Servern, eine der folgenden pooltypen:'
-ms.openlocfilehash: 57f791910ea81a552c58d94c865938c3c1f82e61
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b138dc46f8259620e1e3a34bb86a83d243e9c825
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064885"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373983"
 ---
 # <a name="add-server"></a>Server hinzufügen
  
@@ -45,13 +45,13 @@ Jede der neuen Poolserver verfügt über verschiedene Anforderungen. Legen Sie i
     
 - Wählen Sie **IPv6 aktivieren,** um IPv6 für diesen Server zu aktivieren.
     
- **Director-server**
+  **Director-server**
   
 - DNS-der FQDN des neuen Servers gemäß Definition.
     
 - Wählen Sie **Alle konfigurierte IP-Adressen verwenden**, was bedeutet, dass alle IP-Adressen auf dem Computer definierten verwendet wird. Alternativ wählen Sie die **Verwendung von Grenzwert ausgewählten IP-Adressen** und geben Sie eine bestimmte IP-Adresse auf dem neuen Server. IP-Adresse des ist die einzige IP-Adresse für gehostete Dienste reagieren soll.
     
- **Vermittlungsserver**
+  **Vermittlungsserver**
   
 - DNS-der FQDN des neuen Servers gemäß Definition.
     
@@ -60,13 +60,13 @@ Jede der neuen Poolserver verfügt über verschiedene Anforderungen. Legen Sie i
     > [!NOTE]
     > Für den Vermittlungsserver ist die IP-Adresse für die primäre IP-Adresse und die PSTN-IP-Adresse eingegeben standardmäßig identisch. Die IP-Adressen können separat definiert werden, wenn Sie auf der gleichen Netzwerkschnittstelle dedizierten Netzwerkschnittstellen oder separate IP-Adressen verwenden werden. Wenn Sie zwei Netzwerkschnittstellen, einen für die LAN-Verbindung und einen für die PSTN-Verbindung verfügen, müssen Sie unterschiedliche IP-Adressen zuweisen. 
   
- **A/v-Konferenzserver**
+  **A/v-Konferenzserver**
   
 - DNS-der FQDN des neuen Servers gemäß Definition.
     
 - Wählen Sie **Alle konfigurierte IP-Adressen verwenden**, was bedeutet, dass alle IP-Adressen auf dem Computer definierten verwendet werden kann. Alternativ können Sie **Service-Verwendung einschränken ausgewählten IP-Adressen** auswählen und geben Sie eine bestimmte Adresse auf dem neuen Server. IP-Adresse des ist die einzige IP-Adresse für gehostete Dienste reagieren soll.
     
- **Vertrauenswürdiger Anwendungsserver**
+  **Vertrauenswürdiger Anwendungsserver**
   
 - DNS-der FQDN des neuen Servers gemäß Definition.
     

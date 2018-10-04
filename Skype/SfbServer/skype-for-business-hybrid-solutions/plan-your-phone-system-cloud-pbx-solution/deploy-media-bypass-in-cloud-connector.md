@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema Weitere Informationen zu den Schritten zum Bereitstellen von, dass die medienumgehung mit Cloud Connector Edition, Version 2.0 und höher.
-ms.openlocfilehash: ec6647c5d95701ea18a6d403132d50ae8e8ad8dc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890642"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375499"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Die medienumgehung in der Cloud Connector Edition bereitstellen
  
@@ -150,33 +150,33 @@ Mithilfe von geolocationbasierter Verwaltung des Datenverkehrs würden Sie die D
     
     Amsterdam
     
-  - Typ A
+   - Typ A
     
-  - Name: „hybridvoice“ in der DNS-Zone für „adatum.biz“
+   - Name: „hybridvoice“ in der DNS-Zone für „adatum.biz“
     
-  - Ziel: 192.168.1.45
+   - Ziel: 192.168.1.45
     
-    Erstellen Sie zusätzliche Einträge für weitere Vermittlungsserver.
+     Erstellen Sie zusätzliche Einträge für weitere Vermittlungsserver.
     
-  - 192.168.1.46
+   - 192.168.1.46
     
-  - 192.168.1.47
+   - 192.168.1.47
     
-  - 192.168.1.48
+   - 192.168.1.48
     
-    Seattle
+     Seattle
     
-  - Typ A
+   - Typ A
     
-  - Name: „hybridvoice“ in der DNS-Zone für „adatum.biz“
+   - Name: „hybridvoice“ in der DNS-Zone für „adatum.biz“
     
-  - Ziel: 10.10.1.8
+   - Ziel: 10.10.1.8
     
-    Erstellen Sie zusätzliche Einträge für weitere Vermittlungsserver.
+     Erstellen Sie zusätzliche Einträge für weitere Vermittlungsserver.
     
-  - 10.10.1.9
+   - 10.10.1.9
     
-  - 10.10.1.10
+   - 10.10.1.10
     
 4. Erstellen Sie die DNS-Richtlinie, die die Clientsubnetze mit den entsprechenden Zonenbereichen verbindet, um die gewünschte DNS-Auflösung sicherzustellen.
     

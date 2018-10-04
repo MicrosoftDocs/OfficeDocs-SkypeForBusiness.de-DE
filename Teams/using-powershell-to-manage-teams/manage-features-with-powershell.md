@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Informationen Sie zum Windows PowerShell verwenden, um alle Features von Microsoft-Teams verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51c3bf4f2f1ad7e2d391617d37051e1b09610a5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: eccd04023324256e40d9e06315fcd80081ffe565
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015845"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371350"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Verwenden von PowerShell zum Verwalten von Teams
 Ich würde dies als einen Referenzthema visionierung, die gemäß den Anweisungen in Feature einrichten möchten. Klicken Sie dann müsste jeder Featuregruppe alle in der Tabelle mit Links zu den Get-Help Thema aufgelisteten Cmdlets.
@@ -23,6 +23,7 @@ Ich würde dies als einen Referenzthema visionierung, die gemäß den Anweisunge
 # <a name="managing-teams-features-using-powershell"></a>Verwalten von Teams Features von PowerShell
 
 ## <a name="admin-roles"></a>Administratorrollen
+
 |Rolle |Beispiel |Cmdlet-Hilfe-link  |
 |---------|---------|---------|
 |Globaler Administrator     |         |         |
@@ -33,6 +34,7 @@ Ich würde dies als einen Referenzthema visionierung, die gemäß den Anweisunge
 Link zu Isabellas doc
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
+
 |Cmdlet-Name |Beschreibung |Cmdlet-Hilfe-link  |
 |---------|---------|---------|
 |Cmdlet-Name   |    Zweck  |    Verknüpfen Sie mit dem Cmdlet Get-Help PS     |

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Zusammenfassung: Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server zu testen.'
-ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e86e2c136edd8520f12944768e327e0870106f6e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966412"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372839"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testen von einwahlkonferenzen in Skype für Business Server
  
@@ -30,9 +30,9 @@ Zur endgültigen Bestätigung der Einwahlkonferenzkonfiguration können Sie nach
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -EmptyRegion
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -EmptyRegion
+   ```
 
     Dieses Cmdlet gibt alle Sätze mit Wähleinstellungen mit einer Region für Einwahlkonferenzen zurück, die von keiner Zugriffsnummer verwendet wird.
     
@@ -46,9 +46,9 @@ Weitere Informationen finden Sie unter [Get-CsDialInConferencingAccessNumber](ht
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -Region NULL
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -Region NULL
+   ```
 
     Dieses Cmdlet gibt alle Zugriffsnummern für Einwahlkonferenzen zurück, die keiner Region zugeordnet sind.
     
@@ -70,12 +70,12 @@ Sie müssen die folgenden Aufgaben ausführen, um sicherzustellen, dass die Webs
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
-  ```
-  $credentials = Get-Credential
+   ```
+   $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********
-Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-  ```
+   Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
+   ```
 
     In den Berichtergebnissen wird der Test entweder als erfolgreich oder mit Fehlern angezeigt, zusammen mit spezifischen Diagnoseinformationen. Die - Verbose Flag enthält weitere detaillierte Informationen über wie viele Nummern gefunden und Details.
     

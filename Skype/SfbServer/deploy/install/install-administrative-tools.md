@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Zusammenfassung: Informationen Sie zum Installieren der erforderlichen für eine Installation von Skype für Business Server administrative Tools. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a51de57ca8eaa7d303af4240b5d30e8a5ca51f70
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f5e00075f34a6a09d36dede7c4cf2ac2a6ab60f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882130"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373057"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Installieren der Verwaltungstools in Skype für Business Server
  
@@ -56,13 +56,13 @@ Schauen Sie sich das Video mit den Schritten zum **Installieren von Verwaltungst
     
     ![Hauptkomponenten auf dem Apps-Bildschirm.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Skype für Business Server-Bereitstellungs-Assistenten** Eine Bereitstellung-Programm, das ein Launch Pad enthält, für die verschiedenen Komponenten von Skype für Business Server installieren.
+   - **Skype für Business Server-Bereitstellungs-Assistenten** Eine Bereitstellung-Programm, das ein Launch Pad enthält, für die verschiedenen Komponenten von Skype für Business Server installieren.
     
-  - **Skype für Business Server-Verwaltungsshell** Eine vorkonfigurierte PowerShell-Programm, das für die Verwaltung von Skype für Business Server ermöglicht.
+   - **Skype für Business Server-Verwaltungsshell** Eine vorkonfigurierte PowerShell-Programm, das für die Verwaltung von Skype für Business Server ermöglicht.
     
-    Nach Abschluss die Installation der Kernkomponenten wird die Skype für Business Server Installations-Assistent automatisch gestartet, wie in der Abbildung dargestellt. 
+     Nach Abschluss die Installation der Kernkomponenten wird die Skype für Business Server Installations-Assistent automatisch gestartet, wie in der Abbildung dargestellt. 
     
-    ![Skype for Business Server-Bereitstellungsassistent](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Skype for Business Server-Bereitstellungsassistent](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. Zusätzlich zu den Hauptkomponenten müssen Sie auch Skype für Business Server-Topologie-Generator und Skype Business Server-Systemsteuerung auf mindestens einem Server in der Umgebung zu installieren. Klicken Sie im Bereitstellungs-Assistenten auf **Verwaltungstools installieren**.
     

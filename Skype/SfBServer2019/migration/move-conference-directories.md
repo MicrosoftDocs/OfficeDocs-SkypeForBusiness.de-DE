@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vor der Außerbetriebnahme eines Pools müssen Sie das folgende Verfahren für jedes Konferenzverzeichnis im vorversionspool ausführen.
-ms.openlocfilehash: 18cbada5833a5160fc1eb81560c56bc9fcff3e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028012"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372805"
 ---
 # <a name="move-conference-directories"></a>Verschieben von Konferenzverzeichnissen
 
@@ -25,35 +25,35 @@ Vor der Außerbetriebnahme eines Pools müssen Sie das folgende Verfahren für j
     
 2. Um die Identität der konferenzverzeichnisse in Ihrer Organisation zu beziehen, führen Sie den folgenden Befehl aus:
     
-  ```
-  Get-CsConferenceDirectory
-  ```
+   ```
+   Get-CsConferenceDirectory
+   ```
 
     Mit dem vorstehende Befehl werden alle konferenzverzeichnisse in Ihrer Organisation zurückgegeben. Aus diesem Grund möchten Sie möglicherweise das Begrenzen der Ergebnisse an den Pool wird außer Betrieb genommen. Wenn Sie den Pool mit den vollqualifizierten Domänennamen (FQDN) Namen pool01.contoso.net außer Betrieb nehmen, verwenden Sie diesen Befehl zum Begrenzen der zurückgegebenen Daten auf konferenzverzeichnisse aus diesem Pool fest:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
+   ```
 
     Dieser Befehl gibt nur die konferenzverzeichnisse zurück, bei denen die ServiceID-Eigenschaft den FQDN pool01.contoso.net enthält.
     
 3. Wenn konferenzverzeichnisse verschieben möchten, führen Sie den folgenden Befehl für jedes Konferenzverzeichnis im Pool:
     
-  ```
-  Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
+   ```
 
     Beispielsweise wenn Konferenzverzeichnis 3 verschieben möchten, verwenden Sie diesen Befehl: Angeben einer Skype für Business Server 2019 Pool als die TargetPool an:
     
-  ```
-  Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
+   ```
 
     Wenn Sie alle konferenzverzeichnisse in einem Pool verschieben möchten, verwenden Sie einen Befehl ähnlich der folgenden:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
+   ```
 
 Laden Sie [Microsoft legacy deinstallieren und Entfernen von Serverrollen](https://go.microsoft.com/fwlink/p/?linkId=246227) umfassende, schrittweisen Anweisungen Außerbetriebnahme von alten Pools.
   

@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70d75e623bae7881d44c145f518ab5d02c3f38d0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a24f4ba3c9470827c8a73bf8ac234cf7ae8467e8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014549"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372788"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -106,7 +106,7 @@ Der Webclient führt die Erkennung des Clientbrowsers Version beim Herstellen ei
 <a name="mobile-clients"></a>Mobile Clients
 --------------
 
-Die mobilen Microsoft Teams-Apps sind für Android, iOS und Windows Phone verfügbar und richten sich an Benutzer, die sich unterwegs an chatbasierten Unterhaltungen beteiligen möchten. Peer-zu-Peer-Audioanrufe sind ebenfalls möglich. Sie finden die mobilen Apps im jeweiligen mobilen Store: Google Play, Apple App Store und Microsoft Store.
+Die Microsoft-Teams, mobilen apps stehen für Android und iOS-Go Benutzer, die Teilnahme an Unterhaltungen Chat-basierte abgestimmt werden und Peer-zu-Peer-Audioanrufe zulassen. Mobiler apps finden Sie die entsprechenden mobilen Speicher Google wiedergeben und im Apple App Store. Die Windows Phone-App wurde zurückgezogen 20 Juli 2018 finden Sie [hier](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring) Weitere Informationen.
 
 Unterstützte mobile Plattformen für mobile Microsoft Teams-Apps:
 

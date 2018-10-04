@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Zusammenfassung: Erstellen Sie oder ändern Sie der VoIP-Richtlinien und konfigurieren Sie PSTN-verwendungsdatensätzen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: c1fb142718008bd2a53582a3952bd9b0b9477ca6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 53414afd6fcf3ee365caad9a168c88f101e8788b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888241"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371710"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen
 
@@ -50,8 +50,8 @@ ms.locfileid: "23888241"
 
    - **Des Wechsels der Voicemail** verhindert, dass Anrufe von wird sofort an des Benutzers Mobiltelefon Voicemail-System weitergeleitet, wenn Gleichzeitiges Klingeln konfiguriert ist und das Telefon aus, nicht genügend Batterie oder außerhalb des gültigen Bereichs aktiviert ist.
 
-    > [!NOTE]
-    > Dieses Feature ist nur über die Skype für Business Server-Verwaltungsshell konfigurierbar
+     > [!NOTE]
+     > Dieses Feature ist nur über die Skype für Business Server-Verwaltungsshell konfigurierbar
 
    - **Anrufweiterleitung** ermöglicht Benutzern das Weiterleiten von Anrufen an andere Telefone und Clientgeräte. Skype für Business Server bietet einen deutlich größeren Bereich von Konfigurationsoptionen für die anrufweiterleitung. Wenn z. B. eine Organisation nicht möchte, dass eingehende Anrufe extern an das Festnetz (Public Switched Telephone Network, PSTN) weitergeleitet werden, kann ein Administrator eine spezielle VoIP-Richtlinie anwenden, um diese Einschränkungen durchzusetzen. Diese Option ist standardmäßig aktiviert.
 
@@ -69,8 +69,8 @@ ms.locfileid: "23888241"
 
    - **Außerkraftsetzung der Bandbreitenrichtlinie** ermöglicht Administratoren, Richtlinienentscheidungen im Rahmen der Anrufsteuerung für einen bestimmten Benutzer außer Kraft zu setzen. Diese Option ist standardmäßig deaktiviert.
 
-    > [!NOTE]
-    > Die Richtlinie wird nur für eingehende Anrufe an den Benutzer, nicht jedoch für ausgehende Anrufe außer Kraft gesetzt, die vom Benutzer getätigt werden. Nachdem die Sitzung hergestellt wurde, wird die Bandbreitenauslastung genau aufgezeichnet. Diese Einstellung sollte sparsam verwendet und für angemessene Entscheidungen der Anrufsteuerung reserviert werden.
+     > [!NOTE]
+     > Die Richtlinie wird nur für eingehende Anrufe an den Benutzer, nicht jedoch für ausgehende Anrufe außer Kraft gesetzt, die vom Benutzer getätigt werden. Nachdem die Sitzung hergestellt wurde, wird die Bandbreitenauslastung genau aufgezeichnet. Diese Einstellung sollte sparsam verwendet und für angemessene Entscheidungen der Anrufsteuerung reserviert werden.
 
    - **Nachverfolgung von Missbrauch durch Anrufer** ermöglicht Nutzern das Melden von Drohanrufen (z. B. Bombendrohungen) über die Clientbenutzeroberfläche. Die Anrufe werden anschließend in den Kommunikationsdatensätzen (KDS) gekennzeichnet. Diese Option ist standardmäßig deaktiviert.
 
@@ -84,14 +84,14 @@ ms.locfileid: "23888241"
 
    - Führen Sie die folgenden Schritte aus, um einen neuen PSTN-Verwendungseintrag zu definieren und dieser VoIP-Richtlinie zuzuordnen:
 
-    a. Klicken Sie auf **Neu**.
+     a. Klicken Sie auf **Neu**.
 
-    b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. Sie möchten beispielsweise ein PSTN-Verwendung Datensatz NamedRedmond für Vollzeitmitarbeiter befindet sich in Redmond und einem anderen NamedRedmondTemps für temporäre Mitarbeiter zu erstellen.
+     b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. Sie möchten beispielsweise ein PSTN-Verwendung Datensatz NamedRedmond für Vollzeitmitarbeiter befindet sich in Redmond und einem anderen NamedRedmondTemps für temporäre Mitarbeiter zu erstellen.
 
-    > [!NOTE]
-    > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
+     > [!NOTE]
+     > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
 
-    c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
+     c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
    - Klicken Sie auf **Auswählen**, markieren Sie in der Liste der verfügbaren Routen in Ihrer Enterprise-VoIP-Bereitstellung die Routen, die Sie diesem PSTN-Verwendungseintrag zuordnen wollen und klicken Sie dann auf **OK**.
 
@@ -101,13 +101,13 @@ ms.locfileid: "23888241"
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
-    d. Klicken Sie auf **OK**.
+     d. Klicken Sie auf **OK**.
 
    - Führen Sie die folgenden Schritte aus, um einen PSTN-Verwendungseintrag zu bearbeiten, der bereits dieser VoIP-Richtlinie zugeordnet ist:
 
-    a. Markieren Sie den PSTN-Verwendungseintrag, den Sie bearbeiten möchten und klicken Sie auf **Details einblenden**.
+     a. Markieren Sie den PSTN-Verwendungseintrag, den Sie bearbeiten möchten und klicken Sie auf **Details einblenden**.
 
-    b. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
+     b. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
    - Klicken Sie auf **Auswählen**, markieren Sie in der Liste der verfügbaren Routen in Ihrer Enterprise-VoIP-Bereitstellung eine, die Sie diesem PSTN-Verwendungseintrag zuordnen wollen und klicken Sie dann auf **OK**.
 
@@ -117,7 +117,7 @@ ms.locfileid: "23888241"
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
-    c. Klicken Sie auf **OK**.
+     c. Klicken Sie auf **OK**.
 
 8. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um einen Datensatz Position in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
 
@@ -138,14 +138,14 @@ ms.locfileid: "23888241"
 
    - Führen Sie die folgenden Schritte aus, um einen neuen PSTN-Verwendungseintrag zu definieren und dieser Richtlinie für die Anrufweiterleitung und das gleichzeitige Klingeln zuzuordnen:
 
-    a. Klicken Sie auf **Neu**.
+     a. Klicken Sie auf **Neu**.
 
-    b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein.
+     b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein.
 
-    > [!NOTE]
-    > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
+     > [!NOTE]
+     > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
 
-    c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
+     c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
    - Klicken Sie auf **Auswählen**, markieren Sie in der Liste der verfügbaren Routen in Ihrer Enterprise-VoIP-Bereitstellung die Routen, die Sie diesem PSTN-Verwendungseintrag zuordnen wollen und klicken Sie dann auf **OK**.
 
@@ -155,13 +155,13 @@ ms.locfileid: "23888241"
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
-    d. Klicken Sie auf **OK**.
+     d. Klicken Sie auf **OK**.
 
    - Führen Sie die folgenden Schritte aus, um einen PSTN-Verwendungseintrag zu bearbeiten, der bereits dieser VoIP-Richtlinie zugeordnet ist:
 
-    a. Markieren Sie den PSTN-Verwendungseintrag, den Sie bearbeiten möchten und klicken Sie auf **Details einblenden**.
+     a. Markieren Sie den PSTN-Verwendungseintrag, den Sie bearbeiten möchten und klicken Sie auf **Details einblenden**.
 
-    b. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
+     b. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
    - Klicken Sie auf **Auswählen**, markieren Sie in der Liste der verfügbaren Routen in Ihrer Enterprise-VoIP-Bereitstellung die Routen, die Sie diesem PSTN-Verwendungseintrag zuordnen wollen und klicken Sie dann auf **OK**.
 
@@ -171,7 +171,7 @@ ms.locfileid: "23888241"
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
-    c. Klicken Sie auf **OK**.
+     c. Klicken Sie auf **OK**.
 
 10. (Optional) Geben Sie eine Nummer zum Testen der VoIP-Richtlinie ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Übersetzte Nummer zum Testen** angezeigt.
 
@@ -201,8 +201,8 @@ ms.locfileid: "23888241"
 
    - **Des Wechsels der Voicemail** verhindert, dass Anrufe von wird sofort an des Benutzers Mobiltelefon Voicemail-System weitergeleitet, wenn Gleichzeitiges Klingeln konfiguriert ist und das Telefon aus, nicht genügend Batterie oder außerhalb des gültigen Bereichs aktiviert ist.
 
-    > [!NOTE]
-    > Dieses Feature ist nur über die Skype für Business Server-Verwaltungsshell konfigurierbar
+     > [!NOTE]
+     > Dieses Feature ist nur über die Skype für Business Server-Verwaltungsshell konfigurierbar
 
    - **Anrufweiterleitung** ermöglicht Benutzern das Weiterleiten von Anrufen an andere Telefone und Clientgeräte. Skype für Business Server bietet einen deutlich größeren Bereich von Konfigurationsoptionen für die anrufweiterleitung. Wenn z. B. eine Organisation nicht möchte, dass eingehende Anrufe extern an das Festnetz (Public Switched Telephone Network, PSTN) weitergeleitet werden, kann ein Administrator eine spezielle VoIP-Richtlinie anwenden, um diese Einschränkungen durchzusetzen. Diese Option ist standardmäßig aktiviert.
 
@@ -233,14 +233,14 @@ ms.locfileid: "23888241"
 
    - Führen Sie die folgenden Schritte aus, um einen neuen PSTN-Verwendungseintrag zu definieren und dieser VoIP-Richtlinie zuzuordnen:
 
-    a. Klicken Sie auf **Neu**.
+     a. Klicken Sie auf **Neu**.
 
-    b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. Sie möchten beispielsweise ein PSTN-Verwendung Datensatz NamedRedmond für Vollzeitmitarbeiter befindet sich in Redmond und einem anderen Datensatz NamedRedmondTemps für temporäre Mitarbeiter zu erstellen.
+     b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. Sie möchten beispielsweise ein PSTN-Verwendung Datensatz NamedRedmond für Vollzeitmitarbeiter befindet sich in Redmond und einem anderen Datensatz NamedRedmondTemps für temporäre Mitarbeiter zu erstellen.
 
-    > [!NOTE]
-    > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
+     > [!NOTE]
+     > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
 
-    c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
+     c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
    - Klicken Sie auf **Auswählen**, markieren Sie in der Liste der verfügbaren Routen in Ihrer Enterprise-VoIP-Bereitstellung die Routen, die Sie diesem PSTN-Verwendungseintrag zuordnen wollen und klicken Sie dann auf **OK**.
 
@@ -250,13 +250,13 @@ ms.locfileid: "23888241"
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
-    d. Klicken Sie auf **OK**.
+     d. Klicken Sie auf **OK**.
 
    - Führen Sie die folgenden Schritte aus, um einen PSTN-Verwendungseintrag zu bearbeiten, der bereits dieser VoIP-Richtlinie zugeordnet ist:
 
-    a. Markieren Sie den PSTN-Verwendungsdatensatz, den Sie bearbeiten möchten und klicken Sie auf **Details anzeigen**.
+     a. Markieren Sie den PSTN-Verwendungsdatensatz, den Sie bearbeiten möchten und klicken Sie auf **Details anzeigen**.
 
-    b. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
+     b. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
    - Klicken Sie auf **Auswählen**, markieren Sie in der Liste der verfügbaren Routen in Ihrer Enterprise-VoIP-Bereitstellung die Routen, die Sie diesem PSTN-Verwendungseintrag zuordnen wollen und klicken Sie dann auf **OK**.
 
@@ -266,7 +266,7 @@ ms.locfileid: "23888241"
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
-    c. Klicken Sie auf **OK**.
+     c. Klicken Sie auf **OK**.
 
 7. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um einen Datensatz Position in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
 
@@ -287,14 +287,14 @@ ms.locfileid: "23888241"
 
    - Führen Sie die folgenden Schritte aus, um einen neuen PSTN-Verwendungseintrag zu definieren und dieser Richtlinie für die Anrufweiterleitung und das gleichzeitige Klingeln zuzuordnen:
 
-    a. Klicken Sie auf **Neu**.
+     a. Klicken Sie auf **Neu**.
 
-    b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein.
+     b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein.
 
-    > [!NOTE]
-    > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
+     > [!NOTE]
+     > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
 
-    c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
+     c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
    - Klicken Sie auf **Auswählen**, markieren Sie in der Liste der verfügbaren Routen in Ihrer Enterprise-VoIP-Bereitstellung die Routen, die Sie diesem PSTN-Verwendungseintrag zuordnen wollen und klicken Sie dann auf **OK**.
 
@@ -304,7 +304,7 @@ ms.locfileid: "23888241"
 
    - Markieren Sie die Route und klicken Sie anschließend auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde. Weitere Informationen hierzu finden Sie unter [Ändern einer VoIP-Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
-    d. Klicken Sie auf **OK**.
+     d. Klicken Sie auf **OK**.
 
    - Führen Sie die folgenden Schritte aus, um einen PSTN-Verwendungseintrag zu bearbeiten, der bereits dieser VoIP-Richtlinie zugeordnet ist:
 

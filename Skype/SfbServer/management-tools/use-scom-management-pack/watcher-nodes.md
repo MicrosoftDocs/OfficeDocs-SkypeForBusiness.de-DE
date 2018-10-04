@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Zusammenfassung: Installieren und Konfigurieren von Watcher-Knoten für Skype für synthetische Transaktionen Business Server.'
-ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015638"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375986"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installieren und Konfigurieren von Monitorknoten
  
@@ -281,9 +281,9 @@ Führen Sie im nächsten Schritt die Datei „Watchernode.msi“ aus:
     
 2. Geben Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl ein und drücken Sie dann die EINGABETASTE (achten Sie darauf, den tatsächlichen Pfad zu Ihrer Kopie der Datei „Watchernode.msi“ anzugeben):
     
-  ```
-  c:\Tools\Watchernode.msi Authentication=Negotiate
-  ```
+   ```
+   c:\Tools\Watchernode.msi Authentication=Negotiate
+   ```
 
 > [!NOTE]
 > Wie bereits erwähnt, kann die Datei „Watchernode.msi“ auch über ein Befehlsfenster ausgeführt werden. Klicken Sie zum Öffnen eines Befehlsfensters auf **Start**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung** und klicken Sie dann auf **Als Administrator ausführen**. Geben Sie den in Schritt 2 gezeigten Befehl ein, nachdem das Befehlsfenster geöffnet wurde. 

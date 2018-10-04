@@ -13,12 +13,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 0817b661d79a6adc5d3c85635dce579a841f1b49
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
+ms.openlocfilehash: 4dd22442cec0a2171a9833b043af415b02b78d99
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965507"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374333"
 ---
 # <a name="define-my-success"></a>Meine Erfolg definieren
 
@@ -46,12 +46,13 @@ Business-Anwendungsfälle sollen definieren und Dokumentieren Sie erwartet, mess
 
 > [!TIP]
 > Das folgende Beispiel zeigt einen abgeschlossenen Geschäftsanwendungsfall:
->|         |
->|---------|
->|**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsplätze in Contosos Niederlassung sieht für jeden Schreibtisch ein Festnetztelefon vor. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Die Mitarbeiter können nur an den ihnen zugewiesenen Festnetztelefonen Telefonanrufe tätigen und empfangen.|
->|**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Verwendungsanalyse desktop Telefone zeigt, dass nur 10 % der der Tischtelefonen aktiv verwendet werden, mit dem Rest entweder zum Weiterleiten von Anrufen an Mobiltelefone oder auf gleichzeitig Anrufen an Mobiltelefone konfiguriert. Verwalten der vorhandenen PBX-System und zugehörige Tischtelefonen trägt zur 20 % der Contoso monatliche Telefonie Servicekosten.|
->|**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Telefonsystem mit Aufrufen plant ansetzt, kann ein Benutzer privaten Computer empfangen und tätigen von Anrufen über das Datennetzwerk durch nutzen die systemeigene Microsoft-Teams app. Dadurch entfällt die Notwendigkeit einführen und Verwalten von Tischtelefonen, und öffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb nehmen, da der Telefondienst über die Cloud über das Netzwerk mit keine Abhängigkeit von einem herkömmlichen Telefonsystem übermittelt werden kann.|
->|**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Durch das Telefonsystem mit Anrufplänen werden die Büroarbeitsplätze vereinfacht, sodass Contoso seine Geschäftstätigkeit durch die Einrichtung neuer Büros mit minimalen Vorabkosten für Telefonie erweitern kann.|
+> 
+> |         |
+> |---------|
+> |**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsplätze in Contosos Niederlassung sieht für jeden Schreibtisch ein Festnetztelefon vor. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Die Mitarbeiter können nur an den ihnen zugewiesenen Festnetztelefonen Telefonanrufe tätigen und empfangen.|
+> |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Verwendungsanalyse desktop Telefone zeigt, dass nur 10 % der der Tischtelefonen aktiv verwendet werden, mit dem Rest entweder zum Weiterleiten von Anrufen an Mobiltelefone oder auf gleichzeitig Anrufen an Mobiltelefone konfiguriert. Verwalten der vorhandenen PBX-System und zugehörige Tischtelefonen trägt zur 20 % der Contoso monatliche Telefonie Servicekosten.|
+> |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Telefonsystem mit Aufrufen plant ansetzt, kann ein Benutzer privaten Computer empfangen und tätigen von Anrufen über das Datennetzwerk durch nutzen die systemeigene Microsoft-Teams app. Dadurch entfällt die Notwendigkeit einführen und Verwalten von Tischtelefonen, und öffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb nehmen, da der Telefondienst über die Cloud über das Netzwerk mit keine Abhängigkeit von einem herkömmlichen Telefonsystem übermittelt werden kann.|
+> |**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Durch das Telefonsystem mit Anrufplänen werden die Büroarbeitsplätze vereinfacht, sodass Contoso seine Geschäftstätigkeit durch die Einrichtung neuer Büros mit minimalen Vorabkosten für Telefonie erweitern kann.|
 
 Zusätzlich zum Definieren von Ihrem Unternehmen Anwendungsfällen Sie sowie die Project-Grenzen, die Sie darauf gerichtet sind auf Laufwerk Angaben zu festgelegt:
 
@@ -62,6 +63,7 @@ Zusätzlich zum Definieren von Ihrem Unternehmen Anwendungsfällen Sie sowie die
 -   **Projektplan:** Der bestimmte Zeitplan des Projekts wird ausgeführt.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind alle Unternehmen Anwendungsfälle für Telefonsystem mit Aufrufen plant Sie in Ihrer Organisation erkennen können?</li></ul>|
@@ -75,26 +77,28 @@ Die im vorherigen Schritt definierten Business Anwendungsfälle enthalten einen 
 
 > [!TIP]
 > In der folgenden Beispielvorlage für diese Matrix können Sie die Projektbeteiligten dokumentieren.
->|Rolle  |Beschreibung  |Name, Kontaktinformationen, Standort  |
->|---------|---------|---------|
->|Leitender Projektsponsor|<ul><li>Projektziele übernehmen Sie ultimate Autorität und Ansprechpartner für das Projekt und die Übermittlung.</li><li>Von der Project-Leiter eskaliert Probleme zu beheben.</li><li>Sponsor Kommunikation innerhalb des Unternehmens über die Ziele des Projekts.</li><li>Stellen Sie wichtige strategische Entscheidungen.</li><li>Sicherstellung der Verfügbarkeit von erforderlichen Ressourcen und Budget.</li><li>Führen Sie vierteljährlich Business Reviews (QBRs).</li><li>Laufwerk erwerben und Unterstützung der Kampagne zum Bekanntheitsgrad.</li><li>Dienen Sie als der Projektsponsor auf die Einführung Programm.</li></ul>|TBA|
->|Projektleiter|<ul><li>Verwalten Sie, und führen Sie das Projektteam.</li><li>Partner und Teams an das Projekt anderweitig zu koordinieren.</li><li>Verantwortlich für das Erstellen und Verwalten von Project-Pläne wichtige Quartale erfüllen.</li><li>Beheben Sie funktionsübergreifenden Probleme.</li><li>Stellen Sie regelmäßige Updates für Project Sponsor.</li><li>Integrieren Sie Annahme Aspekte in der alle-nach-oben-Projektplan.</li><li>Monatliche Geschäfts- und betriebsbereit Bewertungen (MBR) führen Sie QBRs dazu beitragen.</li></ul>|TBA|
->|Leiter/Architekt für Zusammenarbeit|<ul><li>Führen Sie auf der Strategie für die Zusammenarbeit durch die Unternehmensführung definiert.</li><li>Analysieren und Auswählen von Produkten für die Zusammenarbeit, die Unternehmensziele für das Unternehmen erfüllen.</li><li>Entwerfen Sie Betrieb von Produkten für die Zusammenarbeit.</li><li>Vorgang definieren und Modelle unterstützen.</li><li>Beitrag zu monatlich oder vierteljährlich Business Reviews (engl.).</li></ul>|TBA|
->|Berater|<ul><li>Werden Sie für die Konfiguration verantwortlich ist</li><li>Beitrag zu den allgemeinen Lösungsarchitektur.</li></ul>|TBA|
->|Projektmanager|<ul><li>Entwickeln Sie und verwalten Sie den Projektplan.</li><li>Verwalten Sie Projektlieferumfang in einer Reihe mit dem Projektplan und Ihrem Budget.</li><li>Aufzeichnen und Projektprobleme, einschließlich der Benutzerberechtigungen verwalten.</li><li>Durchführen Sie wöchentliche kurze Anrufe.</li><li>Verbindung mit und beinhalten Updates für Project executive Sponsor.</li><li>Arbeiten Sie mit der Architekt um die Änderung Management Ansatz und Kommunikation-Pläne zu definieren.</li></ul>|TBA|
->|Spezialist für Change Management/Einführung|<ul><li>Geben Sie Input während der Phase der Ermittlung in Annahme und Schulung Prozesse.</li><li>In der Annahme Strategie Workshop teilnehmen.</li><li>Entwickeln und die Verantwortung für die Strategie für die Einführung übernehmen.</li><li>Entwickeln und Ausführen des Kommunikationsplans.</li><li>Bereitstellen von Schulungen für Benutzer.</li><li>Feedback sammeln und Umfragen durchführen.</li></ul>|TBA|
->|Netzwerkleiter|<ul><li>Geben Sie Input während der Phase der Ermittlung in Netzwerkentwurf.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit der networking-Team während der Ausführung des Projekts.</li></ul>|TBA|
->|Leiter der Sicherheit|<ul><li>Geben Sie Eingaben während der Phase der Ermittlung in Sicherheitsentwurf und Prozesse.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit vom Security Team während der Ausführung des Projekts.</li></ul>|TBA|
->|Telefonieleiter|<ul><li>Geben Sie Eingaben während der Phase der Ermittlung in Telefonie Entwurf.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit des Teams Telefonie während der Ausführung des Projekts.</li></ul>|TBA|
->|Desktopleiter|<ul><li>Mitteilen, während der Phase der Suche in der Clients und den Aktualisierungsvorgang.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit des Teams desktop während der Ausführung des Projekts.</li></ul>|TBA|
->|Support-/Helpdeskleiter|<ul><li>Mitteilen, während der Phase der Ermittlung in Betrieb und Support-Modelle.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Teilnehmen Sie an Modell planen.</li><li>Koordinieren Sie die Arbeit der Supportteams und Ressourcen während der Ausführung des Projekts.</li></ul>|TBA|
->|Vertreter der Betriebseinheiten|<ul><li>Beitrag zu benutzerbasierte Annahme Handbücher und Materialien (engl.).</li><li>Beitrag zu, und überprüfen Sie Geschäftsfälle verwenden.</li></ul>|TBA|
->|Bereitstellungsleiter|<ul><li>Stellen Sie sicher, dass bereitstellungsvoraussetzungen erfüllt sind.</li><li>Beteiligen Sie Ressourcen, die die integrierten Phase Aktivitäten beteiligt sein.</li><li>Teilnehmen Sie an Besprechungen, um zu prüfen und Berichte auf Bereitstellungsstatus vorbereiten.</li></ul>|TBA|
->|IT-Administratoren|<ul><li>Unterstützung bei der Planung von Test und Ausführung. Diese Rolle ist für IT-Experten.</li></ul>|TBA|
->|Leiter des Kundendiensts|<ul><li>Werden Sie alle für den Betrieb von das Telefonsystem mit Dienst aufrufen Plans zuständig.</li><li>Besitzen Sie das Telefonsystem mit Dienst aufrufen plant.</li></ul>|TBA|
->|Qualitätspioniere|<ul><li>Laufwerk Qualität, Zuverlässigkeit und Benutzer Feedback an.</li><li>Identifizieren der Qualität Trends und Laufwerk Remediation mit den jeweiligen Teams.</li><li>Melden Sie über der Lenkungsausschuss wieder führende.</li><li>Bericht über die Qualität, Zuverlässigkeit und Benutzer Stimmung über Rate Meine aufrufen und Net Promoter Punktzahl.</li></ul>|TBA|
+> 
+> |Rolle  |Beschreibung  |Name, Kontaktinformationen, Standort  |
+> |---------|---------|---------|
+> |Leitender Projektsponsor|<ul><li>Projektziele übernehmen Sie ultimate Autorität und Ansprechpartner für das Projekt und die Übermittlung.</li><li>Von der Project-Leiter eskaliert Probleme zu beheben.</li><li>Sponsor Kommunikation innerhalb des Unternehmens über die Ziele des Projekts.</li><li>Stellen Sie wichtige strategische Entscheidungen.</li><li>Sicherstellung der Verfügbarkeit von erforderlichen Ressourcen und Budget.</li><li>Führen Sie vierteljährlich Business Reviews (QBRs).</li><li>Laufwerk erwerben und Unterstützung der Kampagne zum Bekanntheitsgrad.</li><li>Dienen Sie als der Projektsponsor auf die Einführung Programm.</li></ul>|TBA|
+> |Projektleiter|<ul><li>Verwalten Sie, und führen Sie das Projektteam.</li><li>Partner und Teams an das Projekt anderweitig zu koordinieren.</li><li>Verantwortlich für das Erstellen und Verwalten von Project-Pläne wichtige Quartale erfüllen.</li><li>Beheben Sie funktionsübergreifenden Probleme.</li><li>Stellen Sie regelmäßige Updates für Project Sponsor.</li><li>Integrieren Sie Annahme Aspekte in der alle-nach-oben-Projektplan.</li><li>Monatliche Geschäfts- und betriebsbereit Bewertungen (MBR) führen Sie QBRs dazu beitragen.</li></ul>|TBA|
+> |Leiter/Architekt für Zusammenarbeit|<ul><li>Führen Sie auf der Strategie für die Zusammenarbeit durch die Unternehmensführung definiert.</li><li>Analysieren und Auswählen von Produkten für die Zusammenarbeit, die Unternehmensziele für das Unternehmen erfüllen.</li><li>Entwerfen Sie Betrieb von Produkten für die Zusammenarbeit.</li><li>Vorgang definieren und Modelle unterstützen.</li><li>Beitrag zu monatlich oder vierteljährlich Business Reviews (engl.).</li></ul>|TBA|
+> |Berater|<ul><li>Werden Sie für die Konfiguration verantwortlich ist</li><li>Beitrag zu den allgemeinen Lösungsarchitektur.</li></ul>|TBA|
+> |Projektmanager|<ul><li>Entwickeln Sie und verwalten Sie den Projektplan.</li><li>Verwalten Sie Projektlieferumfang in einer Reihe mit dem Projektplan und Ihrem Budget.</li><li>Aufzeichnen und Projektprobleme, einschließlich der Benutzerberechtigungen verwalten.</li><li>Durchführen Sie wöchentliche kurze Anrufe.</li><li>Verbindung mit und beinhalten Updates für Project executive Sponsor.</li><li>Arbeiten Sie mit der Architekt um die Änderung Management Ansatz und Kommunikation-Pläne zu definieren.</li></ul>|TBA|
+> |Spezialist für Change Management/Einführung|<ul><li>Geben Sie Input während der Phase der Ermittlung in Annahme und Schulung Prozesse.</li><li>In der Annahme Strategie Workshop teilnehmen.</li><li>Entwickeln und die Verantwortung für die Strategie für die Einführung übernehmen.</li><li>Entwickeln und Ausführen des Kommunikationsplans.</li><li>Bereitstellen von Schulungen für Benutzer.</li><li>Feedback sammeln und Umfragen durchführen.</li></ul>|TBA|
+> |Netzwerkleiter|<ul><li>Geben Sie Input während der Phase der Ermittlung in Netzwerkentwurf.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit der networking-Team während der Ausführung des Projekts.</li></ul>|TBA|
+> |Leiter der Sicherheit|<ul><li>Geben Sie Eingaben während der Phase der Ermittlung in Sicherheitsentwurf und Prozesse.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit vom Security Team während der Ausführung des Projekts.</li></ul>|TBA|
+> |Telefonieleiter|<ul><li>Geben Sie Eingaben während der Phase der Ermittlung in Telefonie Entwurf.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit des Teams Telefonie während der Ausführung des Projekts.</li></ul>|TBA|
+> |Desktopleiter|<ul><li>Mitteilen, während der Phase der Suche in der Clients und den Aktualisierungsvorgang.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit des Teams desktop während der Ausführung des Projekts.</li></ul>|TBA|
+> |Support-/Helpdeskleiter|<ul><li>Mitteilen, während der Phase der Ermittlung in Betrieb und Support-Modelle.</li><li>Bei der Planung während des Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Teilnehmen Sie an Modell planen.</li><li>Koordinieren Sie die Arbeit der Supportteams und Ressourcen während der Ausführung des Projekts.</li></ul>|TBA|
+> |Vertreter der Betriebseinheiten|<ul><li>Beitrag zu benutzerbasierte Annahme Handbücher und Materialien (engl.).</li><li>Beitrag zu, und überprüfen Sie Geschäftsfälle verwenden.</li></ul>|TBA|
+> |Bereitstellungsleiter|<ul><li>Stellen Sie sicher, dass bereitstellungsvoraussetzungen erfüllt sind.</li><li>Beteiligen Sie Ressourcen, die die integrierten Phase Aktivitäten beteiligt sein.</li><li>Teilnehmen Sie an Besprechungen, um zu prüfen und Berichte auf Bereitstellungsstatus vorbereiten.</li></ul>|TBA|
+> |IT-Administratoren|<ul><li>Unterstützung bei der Planung von Test und Ausführung. Diese Rolle ist für IT-Experten.</li></ul>|TBA|
+> |Leiter des Kundendiensts|<ul><li>Werden Sie alle für den Betrieb von das Telefonsystem mit Dienst aufrufen Plans zuständig.</li><li>Besitzen Sie das Telefonsystem mit Dienst aufrufen plant.</li></ul>|TBA|
+> |Qualitätspioniere|<ul><li>Laufwerk Qualität, Zuverlässigkeit und Benutzer Feedback an.</li><li>Identifizieren der Qualität Trends und Laufwerk Remediation mit den jeweiligen Teams.</li><li>Melden Sie über der Lenkungsausschuss wieder führende.</li><li>Bericht über die Qualität, Zuverlässigkeit und Benutzer Stimmung über Rate Meine aufrufen und Net Promoter Punktzahl.</li></ul>|TBA|
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Wer füllt jede Rolle wichtige Beteiligten für Ihre Organisation?</li></ul>|
@@ -112,13 +116,14 @@ OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt,
 
 > [!TIP]
 > Das folgende Beispiel enthält Ziele und wesentliche Ergebnisse, die für die Implementierung eines Telefonsystems mit Anrufplänen relevant sind:
-><br>
->
->**Vision: Steigern der Produktivität durch Maximierung der Investition in Office 365**
->|Ziele  |Wesentliche Ergebnisse  |Aufgabe  |
->|---------|---------|---------|
->|Bereitstellen eines Telefonsystems mit Anrufplänen in den europäischen Zweigniederlassungen bis zum Ende des Geschäftsjahrs 2018|3. Quartal des Geschäftsjahrs 2018: Bereitstellung eines Telefonsystems mit Anrufplänen in der Niederlassung in London|Konzeptionierung<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
->|Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London bis zum Ende des Geschäftsjahrs 2018|4. Quartal des Geschäftsjahrs 2018: Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
+> <br>
+> 
+> **Vision: Steigern der Produktivität durch Maximierung der Investition in Office 365**
+> 
+> |Ziele  |Wesentliche Ergebnisse  |Aufgabe  |
+> |---------|---------|---------|
+> |Bereitstellen eines Telefonsystems mit Anrufplänen in den europäischen Zweigniederlassungen bis zum Ende des Geschäftsjahrs 2018|3. Quartal des Geschäftsjahrs 2018: Bereitstellung eines Telefonsystems mit Anrufplänen in der Niederlassung in London|Konzeptionierung<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
+> |Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London bis zum Ende des Geschäftsjahrs 2018|4. Quartal des Geschäftsjahrs 2018: Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
 
 KSIs Qualität und Erfolg der wichtigsten Ergebnisse messen und ergänzen die binäre Art des OKRs (erreicht oder nicht erreicht) mit gute und/oder fehlerhafte Ergebnissen.
 
@@ -136,30 +141,33 @@ Wenn Sie KSIs definieren, wird empfohlen, für die Verwendung von "bestimmter, m
 
 > [!TIP]
 > Im folgenden Beispiel sehen Sie für dieses Projekt relevante wichtige Erfolgsindikatoren:
->|Typ  |Fragen und Kriterien im Zusammenhang mit den wichtigen Erfolgsindikatoren  |Messmethode  |Erfolgskriterien  |Bemessungszeitpunkt  |Verantwortlich  |
->|---------|---------|---------|---------|---------|---------|
->|Verwendung/Einführung|Anrufqualität entspricht der vorherigen Lösung oder übertrifft diese|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach der Aktivierung und vierteljährlich|IT-Team|
->|Verwendung/Einführung|Microsoft Teams hat den Kommunikationsprozess vereinfacht.|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach der Aktivierung und vierteljährlich|Change Management-Team|
->|Verwendung/Einführung|Aktive Verwendung der Lösung durch die Benutzer|Office 365-Berichte, Anrufqualitäts-Dashboard|80 % der Benutzer sind täglich aktiv|Täglich|Change Management-Team|
->|Verwendung/Qualität|Prozentsatz der Anrufe/Konferenzen mit schlechter Qualität sollte verringert werden|Anrufqualitäts-Dashboard|< 5 % Anrufe mit schlechter Qualität pro Monat|Täglich|IT-Team|
->|Verwendung/Support|Ich weiß, wo ich technischen Support erhalte|Umfrage|Zustimmung oder starke Zustimmung bei 90% der Benutzer|Nach der Aktivierung und vierteljährlich|Change Management-Team|
->|Verwendung/Support|Ich bin zufrieden mit der Qualität des technischen Supports|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach jedem Vorfall|IT-Team|
->|Finanzen|Weniger Minuten mit Legacy-Konferenzlösung|Finanzsystem|Definierte Rendite erzielen|Basierend auf Rendite|Change Management-Team|
+> 
+> |Typ  |Fragen und Kriterien im Zusammenhang mit den wichtigen Erfolgsindikatoren  |Messmethode  |Erfolgskriterien  |Bemessungszeitpunkt  |Verantwortlich  |
+> |---------|---------|---------|---------|---------|---------|
+> |Verwendung/Einführung|Anrufqualität entspricht der vorherigen Lösung oder übertrifft diese|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach der Aktivierung und vierteljährlich|IT-Team|
+> |Verwendung/Einführung|Microsoft Teams hat den Kommunikationsprozess vereinfacht.|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach der Aktivierung und vierteljährlich|Change Management-Team|
+> |Verwendung/Einführung|Aktive Verwendung der Lösung durch die Benutzer|Office 365-Berichte, Anrufqualitäts-Dashboard|80 % der Benutzer sind täglich aktiv|Täglich|Change Management-Team|
+> |Verwendung/Qualität|Prozentsatz der Anrufe/Konferenzen mit schlechter Qualität sollte verringert werden|Anrufqualitäts-Dashboard|< 5 % Anrufe mit schlechter Qualität pro Monat|Täglich|IT-Team|
+> |Verwendung/Support|Ich weiß, wo ich technischen Support erhalte|Umfrage|Zustimmung oder starke Zustimmung bei 90% der Benutzer|Nach der Aktivierung und vierteljährlich|Change Management-Team|
+> |Verwendung/Support|Ich bin zufrieden mit der Qualität des technischen Supports|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach jedem Vorfall|IT-Team|
+> |Finanzen|Weniger Minuten mit Legacy-Konferenzlösung|Finanzsystem|Definierte Rendite erzielen|Basierend auf Rendite|Change Management-Team|
 
 Als Teil dieser Übung müssen Sie Geschäftsrisiken sowie einen Risikominderungsplan für jedes erkannte Risiko definieren. Erfassen Sie diese Informationen in einem Journal Risiken.
 
 > [!TIP]
 > Wie im folgenden Beispiel kann Ihre Risiko Register dokumentiert werden:
->|Risiko  |Wahrscheinlichkeit  |Auswirkungen  |Gesamt  |Risikominderungsplan  |
->|---------|---------|---------|---------|---------|
->|Bei der bevorstehenden Fusion werden bis zu 1.000 Personen dazukommen|Hoch|Hoch|Hoch|<ul><li>Erstellen Sie eine separate OKR, die für ihre eigenen Projektphasen (Ermitteln übergeordneter Faktoren, Onboard, Laufwerk Wert) gilt für verbundene Unternehmen</li><li>Diese OKRs in vorhandenen OKRs einzuschließen.</li></ul>|
->|Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten der alle Informationen zur Unterstützung von Telefonnummer Portieren vorausschauendes (Customer Service-Eintrag Abrechnung Details Buchstaben der Autorisierung) erforderlich</li><li>Passen Sie die Bearbeitungszeit von Telefon Nummer Portieren Ausführung zur Erfüllung der Projektplan an</li><li>Verwenden Sie vorübergehende Telefonnummern mit Änderung der Anrufer-ID.</li></ul>|
->|Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Vor der Implementierung von Teams als Plattform für die Zusammenarbeit und modernen Communications, Durchführen einer Netzwerk-Bereitschaft für Websites im Bereich des Projekts</li></ul>|
+> 
+> |Risiko  |Wahrscheinlichkeit  |Auswirkungen  |Gesamt  |Risikominderungsplan  |
+> |---------|---------|---------|---------|---------|
+> |Bei der bevorstehenden Fusion werden bis zu 1.000 Personen dazukommen|Hoch|Hoch|Hoch|<ul><li>Erstellen Sie eine separate OKR, die für ihre eigenen Projektphasen (Ermitteln übergeordneter Faktoren, Onboard, Laufwerk Wert) gilt für verbundene Unternehmen</li><li>Diese OKRs in vorhandenen OKRs einzuschließen.</li></ul>|
+> |Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten der alle Informationen zur Unterstützung von Telefonnummer Portieren vorausschauendes (Customer Service-Eintrag Abrechnung Details Buchstaben der Autorisierung) erforderlich</li><li>Passen Sie die Bearbeitungszeit von Telefon Nummer Portieren Ausführung zur Erfüllung der Projektplan an</li><li>Verwenden Sie vorübergehende Telefonnummern mit Änderung der Anrufer-ID.</li></ul>|
+> |Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Vor der Implementierung von Teams als Plattform für die Zusammenarbeit und modernen Communications, Durchführen einer Netzwerk-Bereitschaft für Websites im Bereich des Projekts</li></ul>|
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind OKRs und KSIs Ihrer Organisation?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind Ihrer Organisation & #39; s OKRs und KSIs?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren der OKRs KSIs, und Einrichten von Risiken registrieren.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -197,6 +205,7 @@ Der Lenkungsausschuss erfüllt in regelmäßigen Abständen während der Lebensd
 -   Geben Sie formelle Feedback und Empfehlungen, um die Unternehmensleitung, dem Change advisory Board oder anderen Geschäfts- und IT-Verantwortlichen, sofern gewünscht.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob einem Lenkungsausschuss für Ihre Organisation erforderlich ist.</li></ul>|

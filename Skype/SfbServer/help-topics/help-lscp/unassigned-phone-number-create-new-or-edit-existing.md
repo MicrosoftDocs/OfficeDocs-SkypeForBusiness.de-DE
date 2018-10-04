@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
-ms.openlocfilehash: 8983c52691eec7945f431be3efdce56be025ee6b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5e8648b94950750e6f750044ba4033fdf637c6f4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261406"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373670"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Nicht zugewiesene Telefonnummer: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
 
@@ -48,7 +48,7 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
 
   - **Ankündigung** Wählen Sie die Ankündigung für diesen Bereich nicht zugewiesener Nummern wiedergegeben werden soll.
 
--  Wenn Sie **Exchange UM** für **Ankündigungsdienst**ausgewählt haben:
+- Wenn Sie **Exchange UM** für **Ankündigungsdienst**ausgewählt haben:
 
   - **Telefonnummer der automatischen Telefonzentrale** Wählen Sie die Telefonnummer für die Exchange UM-Telefonzentrale aus.
 

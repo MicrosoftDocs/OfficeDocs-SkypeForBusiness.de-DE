@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde.
-ms.openlocfilehash: c07dde4db2457821a34a5419a259bfe611c3db1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030728"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375106"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
  
@@ -64,7 +64,7 @@ Das [ausgewählte Konto Linkattribut](https://azure.microsoft.com/en-us/document
   
 Die UPNs zwischen den Gesamtstrukturen nicht synchronisiert. Wir haben bei Tests festgestellt, dass wir einen eindeutigen UPN für jede Benutzergesamtstruktur verwenden mussten, da derselbe UPN nicht über mehrere Gesamtstrukturen verwendet werden kann. Daraus ergaben sich zwei Möglichkeiten: den UPN zu synchronisieren oder ihn nicht zu synchronisieren. 
   
--  Wenn der eindeutige UPN aus der Benutzergesamtstrukturen nicht auf das zugeordnete deaktivierte Objekt in der Ressourcengesamtstruktur synchronisiert wurde, würde einmaliges Anmelden (SSO) für mindestens aufgeteilt werden den ersten Anmeldung Versuch (vorausgesetzt, dass der Benutzer die Option Kennwort speichern ausgewählt). In der Skype für Business-Client wird davon ausgegangen, dass die SIP/UPN-Werte identisch sind. Da die SIP-Adresse in diesem Szenario user@company.com ist, der UPN des aktivierten Objekts in der Benutzergesamtstruktur aber tatsächlich user@contoso.company.com lautet, tritt beim anfänglichen Anmeldeversuch ein Fehler auf und der Benutzer wird aufgefordert, seine Anmeldeinformationen einzugeben. Nach Eingabe des korrekten/tatsächlichen UPN wird die Authentifizierungsanforderung mit den Domänencontrollern in der Benutzergesamtstruktur abgeschlossen und die Anmeldung ist erfolgreich.
+- Wenn der eindeutige UPN aus der Benutzergesamtstrukturen nicht auf das zugeordnete deaktivierte Objekt in der Ressourcengesamtstruktur synchronisiert wurde, würde einmaliges Anmelden (SSO) für mindestens aufgeteilt werden den ersten Anmeldung Versuch (vorausgesetzt, dass der Benutzer die Option Kennwort speichern ausgewählt). In der Skype für Business-Client wird davon ausgegangen, dass die SIP/UPN-Werte identisch sind. Da die SIP-Adresse in diesem Szenario user@company.com ist, der UPN des aktivierten Objekts in der Benutzergesamtstruktur aber tatsächlich user@contoso.company.com lautet, tritt beim anfänglichen Anmeldeversuch ein Fehler auf und der Benutzer wird aufgefordert, seine Anmeldeinformationen einzugeben. Nach Eingabe des korrekten/tatsächlichen UPN wird die Authentifizierungsanforderung mit den Domänencontrollern in der Benutzergesamtstruktur abgeschlossen und die Anmeldung ist erfolgreich.
     
 - Wenn der eindeutige UPN aus der Benutzergesamtstrukturen mit zugeordneten deaktivierte-Objekts in der Ressourcengesamtstruktur synchronisiert wurde, würde AD FS-Authentifizierung fehl. Die entsprechende Regel findet den UPN auf dem Objekt in der Ressourcengesamtstruktur, das deaktiviert wurde und nicht für die Authentifizierung verwendet werden kann. 
     

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d16c55ac5e307192f93e593bca9910e1be9393d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017135"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373786"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihre Audiokonferenzen in Plan zum Testen von Teams für Unternehmen 
 ===============================================================================
@@ -63,8 +63,8 @@ Beim Vorbereiten für Audiokonferenzen Features ausgewertet werden soll, erstell
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche testing Support- und Beteiligten Rollen, Sie benötigen für Audiokonferenzen Features in Ihrer Umgebung testen.</li><li>Entscheiden Sie, welche Ressourcen, die Sie für die testen Support- und Beteiligten Rollen zuweisen müssen, den Sie angegeben haben.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Die Testen in der Tests unterstützen beteiligten Matrix erforderlichen Support- und Beteiligten Rollen des Dokuments.</li><li>Dokumentieren Sie Kontaktinformationen sowie Details zum Besprechungsort für jede Ressource, die Sie in den Tests beteiligten Matrix der unterstützten anbieten.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche testing Support- und Beteiligten Rollen, Sie benötigen für Audiokonferenzen Features in Ihrer Umgebung testen.</li><li>Entscheiden Sie, welche Ressourcen, die Sie für die testen Support- und Beteiligten Rollen zuweisen müssen, den Sie angegeben haben.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Die Testen in der Tests unterstützen beteiligten Matrix erforderlichen Support- und Beteiligten Rollen des Dokuments.</li><li>Dokumentieren Sie Kontaktinformationen sowie Details zum Besprechungsort für jede Ressource, die Sie in den Tests beteiligten Matrix der unterstützten anbieten.
 </table>
 
 
@@ -87,7 +87,7 @@ Nun, da der Features und Audiokonferenzen Persona definiert wurden, werden die n
 #### <a name="audio-conferencing-feature-definition"></a>Audio Conferencing Featuredefinition
 
 > [!TIP]
-
+> 
 > Es folgt ein Beispiel einer Audiokonferenz Definition Vorlage, die Sie verwenden können, auf das Dokument die Audiokonferenz Verwaltung und Benutzer Gruppenfunktionen ausgewertet werden soll.
 
 | Höchste Ansprüche   | Besprechungen    | Plattformen und Geräte   | Für IT-Experten  | Zusätzliche Unternehmensgruppe, standortspezifische  | Anforderungen erfüllt neueste Teams-roadmap |
@@ -103,11 +103,11 @@ Nun, da der Features und Audiokonferenzen Persona definiert wurden, werden die n
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
 | <ul><li>Erstellen von Teams (Office-Gruppe Erstellung aktiviert)</li><li>An Teams teilnehmen</li><li>Kanäle erstellen</li><li>Besprechungen erstellen und anzeigen</li><li>Benutzerprofilbild bearbeiten</li><li>Connectors hinzufügen und konfigurieren</li><li>Registerkarten hinzufügen und konfigurieren</li><li>Bots hinzufügen und konfigurieren</li></ul> | <ul><li>Speichern und Freigeben von Dateien in Teams Unterhaltungen</li><li>Speichern und freigeben und Dateien in privaten Chats (basierend auf OneDrive)</li></ul> | <ul><li>ChatDefaultClient: Default</li><li>CallingDefaultClient: Default</li></ul>      |
 
- 
+
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li> Entscheiden Sie, welche Audiokonferenzen Kategorie Features, die Sie in Ihrer Umgebung bereitstellen können.</li><li>Identifizieren der Benutzer Audiokonferenzen Funktionalität Anforderungen, die angegebenen Ihrer aktuellen Skype für Business, Exchange und SharePoint-Bereitstellung im Querformat.</li><li>Entscheiden Sie, welche Teams Interoperabilität wünschen Sie bereitstellen müssen.</li><li>Überprüfen Sie die neuesten öffentliche Roadmap für Teams und entscheiden Sie, ob der aktuelle arbeitsauslastungsfunktionen Ihrer Bereitstellung Zeitachse erfüllen.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Audiokonferenz Kategorie Features zur Unterstützung Ihrer Audiokonferenzen-bereitstellungs erforderlich sind.</li><li>Dokumentieren der Audiokonferenz Funktionalität und Interoperabilität Anforderungen an den angegebenen Ihrer aktuellen Skype für Business, Exchange und SharePoint-Bereitstellung im Querformat.</li><li>Dokumentieren Sie, ob die neueste öffentliche Roadmap von Teams, Audiokonferenzen Funktionen darstellt die geschäftlichen Anforderungen und Timing-Anforderungen Ihrer Bereitstellung erfüllt.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li> Entscheiden Sie, welche Audiokonferenzen Kategorie Features, die Sie in Ihrer Umgebung bereitstellen können.</li><li>Identifizieren der Benutzer Audiokonferenzen Funktionalität Anforderungen, die angegebenen Ihrer aktuellen Skype für Business, Exchange und SharePoint-Bereitstellung im Querformat.</li><li>Entscheiden Sie, welche Teams Interoperabilität wünschen Sie bereitstellen müssen.</li><li>Überprüfen Sie die neuesten öffentliche Roadmap für Teams und entscheiden Sie, ob der aktuelle arbeitsauslastungsfunktionen Ihrer Bereitstellung Zeitachse erfüllen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Audiokonferenz Kategorie Features zur Unterstützung Ihrer Audiokonferenzen-bereitstellungs erforderlich sind.</li><li>Dokumentieren der Audiokonferenz Funktionalität und Interoperabilität Anforderungen an den angegebenen Ihrer aktuellen Skype für Business, Exchange und SharePoint-Bereitstellung im Querformat.</li><li>Dokumentieren Sie, ob die neueste öffentliche Roadmap von Teams, Audiokonferenzen Funktionen darstellt die geschäftlichen Anforderungen und Timing-Anforderungen Ihrer Bereitstellung erfüllt.</li></ul></td></tr>
 </table>
 
 <a name="define-and-document-your-audio-conferencing-test-plan"></a>Definieren Sie und Dokumentieren Sie Testplan Audiokonferenzen
@@ -134,7 +134,7 @@ Auf allgemeiner Ebene sollte der Testplan umfassen:
 -   **Testen Lieferumfang:** Zusammenfassung der Ergebnisse entwickelt und zur Unterstützung der Abnahme Annahme und Beenden der Tests übermittelt werden
 
 > [!TIP]
-
+> 
 >   Eine-Tests ist möglicherweise bereits in Ihrer Organisation vorhanden, aber die folgenden Anleitung widerspiegelt bewährte Methoden, die eingebunden oder separat für Teams Testfeatures in Ihrer Umgebung genutzt werden können.
 
 In die Abschnitten, die Sie folgen finden weitere vorgeschriebenen Anleitungen, die in bestimmten Entscheidungen und Vorlagen und Themen wie Ihre testing Planung berücksichtigen unterstützen.
@@ -162,10 +162,10 @@ Der Bereich für die Auswertung ordnungsgemäß Audiokonferenzen Features in der
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, Audiokonferenzen testen Bereich durch das Identifizieren von Features durch den Fokusbereich ausgewertet werden soll.</li><li>Entscheiden Sie zusätzliche Ziele und Zielsetzungen für die Auswertung.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Audiokonferenz Features nach den Fokusbereich ausgewertet werden soll.</li><li>Zusätzliche Ziele und Zielsetzungen für die Auswertung des Dokuments.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, Audiokonferenzen testen Bereich durch das Identifizieren von Features durch den Fokusbereich ausgewertet werden soll.</li><li>Entscheiden Sie zusätzliche Ziele und Zielsetzungen für die Auswertung.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Audiokonferenz Features nach den Fokusbereich ausgewertet werden soll.</li><li>Zusätzliche Ziele und Zielsetzungen für die Auswertung des Dokuments.</li></ul></td></tr>
 </table>
- 
+
 
 ### <a name="define-and-document-audio-conferencing-test-cases"></a>Definieren und Dokumentieren von Testfällen für Audiokonferenzen
 
@@ -206,8 +206,8 @@ Audiokonferenzen Validierung
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Features Audiokonferenzen, Verwaltung und Benutzer ausgewertet werden.</li><li>Entscheiden Sie, welche testumgebung zur Ausführung des Testfalls Unterstützung erforderlich ist.</li><li>Entscheiden Sie, die bei der Evaluierung Testfall erforderlichen Schritte.</li><li>Entscheiden Sie, die für die ordnungsgemäße Ausführung des Tests erforderlichen Ressourcen.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Testfälle ausgewertet werden soll, basierend auf der bereitgestellten Testfall-Vorlage.</li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Features Audiokonferenzen, Verwaltung und Benutzer ausgewertet werden.</li><li>Entscheiden Sie, welche testumgebung zur Ausführung des Testfalls Unterstützung erforderlich ist.</li><li>Entscheiden Sie, die bei der Evaluierung Testfall erforderlichen Schritte.</li><li>Entscheiden Sie, die für die ordnungsgemäße Ausführung des Tests erforderlichen Ressourcen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Testfälle ausgewertet werden soll, basierend auf der bereitgestellten Testfall-Vorlage.</li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
 </table>
 
 
@@ -236,12 +236,12 @@ Auf allgemeiner Ebene bestehen diese Ressourcen in der Regel aus:
 | Technologie    | Zugriff auf Office 365 mit die folgenden Dienste aktiviert:<ul><li>Lizenzierung der Office 365-E5 zugewiesen</li><li>Aufrufen von nationalen und internationalen Plan zugewiesen</li></ul>    | TBD                  |
 | Support       | Testen der Administrator Unterstützung Testleiter Supporttechniker Test | TBD                  |
 
-   
+
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Ressourcentypen (Personen, Technologie und Unterstützung), die Sie zur Unterstützung der Testphase benötigen.</li><li>Entscheiden Sie, die bestimmten Ressourcen erforderlich für die Ressourcentypen, den, die Sie angegeben haben.</li><li>Entscheiden Sie, ob die Details zum Beschreiben der Arten von Ressourcen, die Sie benötigen weitere bereitgestellt werden sollen.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ressourcentypen (Personen, Technologie und Unterstützung), die Sie zur Unterstützung der Testphase benötigen.</li><li>Dokumentieren Sie die entsprechenden Ressourcen für die Ressourcentypen, die Sie identifiziert erforderlich.</li><li>Wenn Sie sich, dass es erforderlich ist entscheiden, dokumentieren Sie alle Weitere Einzelheiten zu den Arten von Ressourcen, die Sie die Testphase unterstützen müssen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Ressourcentypen (Personen, Technologie und Unterstützung), die Sie zur Unterstützung der Testphase benötigen.</li><li>Entscheiden Sie, die bestimmten Ressourcen erforderlich für die Ressourcentypen, den, die Sie angegeben haben.</li><li>Entscheiden Sie, ob die Details zum Beschreiben der Arten von Ressourcen, die Sie benötigen weitere bereitgestellt werden sollen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ressourcentypen (Personen, Technologie und Unterstützung), die Sie zur Unterstützung der Testphase benötigen.</li><li>Dokumentieren Sie die entsprechenden Ressourcen für die Ressourcentypen, die Sie identifiziert erforderlich.</li><li>Wenn Sie sich, dass es erforderlich ist entscheiden, dokumentieren Sie alle Weitere Einzelheiten zu den Arten von Ressourcen, die Sie die Testphase unterstützen müssen.</li></ul></td></tr>
 </table>
 
 ### <a name="define-and-document-a-testing-timeline"></a>Definieren Sie und Dokumentieren Sie eine testing Zeitachse
@@ -277,8 +277,8 @@ Auf allgemeiner Ebene besteht in der Regel aus:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Zeitachse Aktivität und Meilenstein Aufgaben, bei denen Sie überwachen möchten.</li><li>Entscheiden Sie, welche Ressourcen Sie benötigen zuweisen.</li><li>Entscheiden Sie das Datum, an das Sie erwarten, die ausgeführt werden.</li><li>Identifizieren Sie die Übermittlung Besitzer.</li><li>Entscheiden Sie, wie lange es dauert, führen Sie die Aktivität, den Meilenstein oder die Aufgabe.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Ihre testing Zeitachse mithilfe der Vorlage bereitgestellt und umfassen:<ul><li>Timeline-Aktivität, Meilenstein und Aufgaben, die überwacht werden müssen.</li><li>Ressourcen, die zugewiesen werden müssen.</li><li>Voraussichtliche Abschlussdatum.</li><li>Übermittlung Besitzer.</li><li>Für die Durchführung der Aktivität, den Meilenstein oder die Aufgabe erforderliche Zeit.</li></ul></li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Zeitachse Aktivität und Meilenstein Aufgaben, bei denen Sie überwachen möchten.</li><li>Entscheiden Sie, welche Ressourcen Sie benötigen zuweisen.</li><li>Entscheiden Sie das Datum, an das Sie erwarten, die ausgeführt werden.</li><li>Identifizieren Sie die Übermittlung Besitzer.</li><li>Entscheiden Sie, wie lange es dauert, führen Sie die Aktivität, den Meilenstein oder die Aufgabe.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Ihre testing Zeitachse mithilfe der Vorlage bereitgestellt und umfassen:<ul><li>Timeline-Aktivität, Meilenstein und Aufgaben, die überwacht werden müssen.</li><li>Ressourcen, die zugewiesen werden müssen.</li><li>Voraussichtliche Abschlussdatum.</li><li>Übermittlung Besitzer.</li><li>Für die Durchführung der Aktivität, den Meilenstein oder die Aufgabe erforderliche Zeit.</li></ul></li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
 </table>
 
 
@@ -329,11 +329,11 @@ Dadurch werden potenzielle Auswirkungen hervorheben, die beeinträchtigen oder s
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Sie zur Unterstützung der Testaktivitäten ordnen defekt Kriterien Schweregrade.</li><li>Entscheiden Sie, welche Kriterien, die Sie dokumentieren werden, treten Probleme während der Tests reporting testing defekt.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren des testen Fehlers reporting Kriterien, die in der bereitgestellten Vorlage erforderlich.</li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Sie zur Unterstützung der Testaktivitäten ordnen defekt Kriterien Schweregrade.</li><li>Entscheiden Sie, welche Kriterien, die Sie dokumentieren werden, treten Probleme während der Tests reporting testing defekt.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren des testen Fehlers reporting Kriterien, die in der bereitgestellten Vorlage erforderlich.</li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
 </table>
 
- 
+
 ### <a name="define-and-document-exit-and-suspension-criteria"></a>Definieren Sie und Dokumentieren Sie beenden und Aussetzung Kriterien
 
 Im Rahmen der gesamten Test Plan ausführen müssen Sie Kriterien an, um den Punkt angeben, an dem Sie Testverfahren im Vergleich zu Anforderungen unterbrechen soll, die erfüllt sein müssen, damit Abnahme abrufen und Beenden der Testphase, definieren.
@@ -350,8 +350,8 @@ Im Rahmen der gesamten Test Plan ausführen müssen Sie Kriterien an, um den Pun
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Treffen einer Entscheidung bezüglich Aussetzung Kriterien, die erfüllt sein müssen, wenn Probleme mit testen identifiziert werden.</li><li>Treffen einer Entscheidung bezüglich abschlusskriterien die Genehmigung durch testing Akzeptanz und Unterstützung die Testphase erst, nachdem alle Tests beenden erfüllt sein müssen, dass Aktivitäten abgeschlossen sind.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie testing beenden und Aussetzung Kriterien in den Test- und Exit-Vorlagen zur Verfügung gestellt.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Treffen einer Entscheidung bezüglich Aussetzung Kriterien, die erfüllt sein müssen, wenn Probleme mit testen identifiziert werden.</li><li>Treffen einer Entscheidung bezüglich abschlusskriterien die Genehmigung durch testing Akzeptanz und Unterstützung die Testphase erst, nachdem alle Tests beenden erfüllt sein müssen, dass Aktivitäten abgeschlossen sind.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie testing beenden und Aussetzung Kriterien in den Test- und Exit-Vorlagen zur Verfügung gestellt.</li></ul></td></tr>
 </table>
 
 
@@ -397,11 +397,11 @@ In der Regel enthält ein Fehler Bericht und-Wartung Plan Folgendes:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden, und der Fehler Prioritäten zur Unterstützung von Testplan vereinbaren.</li><li>Entscheiden Sie den Ausweitung Punkt für jeden Bereich Fehler.</li><li>Entscheiden Sie, die Fehler Eskalation und Ursachenanalyse Plan, denen Sie folgen, basierend auf Priorität.</li><li>Entscheiden Sie, die Fehler reporting und selektieren Sie Kommunikationsplans für Eskalation.</li><li>Entscheiden Sie der Fehler Ursachenanalyse Besprechung Trittfrequenz.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Prioritäten vereinbart auf Fehler.</li><li>Den Ausweitung Punkt für jeden möglichen Fokusbereich des Dokuments.</li><li>Dokumentieren Sie den Fehler Eskalation und Ursachenanalyse Plan vereinbart auf Kriterien erfüllen.</li><li>Dokumentieren Sie Ihre reporting Richtlinien defekt.</li><li>Planen der Reihe von defekt Ursachenanalyse Besprechungen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden, und der Fehler Prioritäten zur Unterstützung von Testplan vereinbaren.</li><li>Entscheiden Sie den Ausweitung Punkt für jeden Bereich Fehler.</li><li>Entscheiden Sie, die Fehler Eskalation und Ursachenanalyse Plan, denen Sie folgen, basierend auf Priorität.</li><li>Entscheiden Sie, die Fehler reporting und selektieren Sie Kommunikationsplans für Eskalation.</li><li>Entscheiden Sie der Fehler Ursachenanalyse Besprechung Trittfrequenz.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Prioritäten vereinbart auf Fehler.</li><li>Den Ausweitung Punkt für jeden möglichen Fokusbereich des Dokuments.</li><li>Dokumentieren Sie den Fehler Eskalation und Ursachenanalyse Plan vereinbart auf Kriterien erfüllen.</li><li>Dokumentieren Sie Ihre reporting Richtlinien defekt.</li><li>Planen der Reihe von defekt Ursachenanalyse Besprechungen.</li></ul></td></tr>
 </table>
 
-   
+
 
 ### <a name="define-and-document-testing-deliverables"></a>Definieren Sie und Dokumentieren Sie testing Lieferumfang
 
@@ -434,8 +434,8 @@ Auf allgemeiner Ebene diese in der Regel umfassen, aber nicht beschränkt auf:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Lieferumfang erstellt und als Ausgabe aus jeder Testphase erfasst werden sollen. Für jede Lieferumfang, entscheiden Sie sich für die:<ul><li>Format</li><li>Besitzer</li><li>Prüfer</li><li>Eine genehmigende Person</li></ul></li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Test Plan Lieferumfang Erstellung und Bereitstellung Matrix des Dokuments.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Lieferumfang erstellt und als Ausgabe aus jeder Testphase erfasst werden sollen. Für jede Lieferumfang, entscheiden Sie sich für die:<ul><li>Format</li><li>Besitzer</li><li>Prüfer</li><li>Eine genehmigende Person</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Test Plan Lieferumfang Erstellung und Bereitstellung Matrix des Dokuments.</li></ul></td></tr>
 </table>
 
 
@@ -463,8 +463,8 @@ Bei der Bestimmung des Bandbreite und Ebene der Netzwerk-Optimierung für Websit
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Netzwerkstandorten für die Bereitstellung von Teams im Bereich Dienste sind.</li><li>Entscheiden Sie die Rollen für Teams Modalitäten im Bereich erforderlich.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Führen Sie die Netzwerk-Planner (über MyAdvisor) für die Liste der Websites, die im Gültigkeitsbereich befinden.</li><li>Dokumentüberprüfung Netzwerk Planner führt der bereitgestellten Test Plan Ergebnisse Vorlage.</li><li>Überprüfen Sie, ob die ExpressRoute (falls zutreffend), Internet und WAN-Bandbreite, die für Websites in Bereich berechnet wurde Ausrichtung Bandbreitenwerte, die derzeit zugeordnet sind.</li><li>Führen Sie für Websites, die nicht über eine ausreichende Bandbreite verfügen die Ausweitung und-Wartung Pläne und Bandbreitenprobleme zu beheben.</li><li>Richten Sie ein Netzwerk-Lösung für Websites im Bereich zur Auslastung der Bandbreite überwachen und QoS für ExpressRoute (falls zutreffend), Internet und WAN-Segmenten monitoring.</li><li>Planen einer Besprechung Lenkungsausschuss Netzwerk Planner Ergebnisse zu überprüfen.</li><li>Präsentieren Sie Bandbreite, die Planung der Ergebnisse des Verwaltungshaushaltsplans, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Netzwerkstandorten für die Bereitstellung von Teams im Bereich Dienste sind.</li><li>Entscheiden Sie die Rollen für Teams Modalitäten im Bereich erforderlich.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Führen Sie die Netzwerk-Planner (über MyAdvisor) für die Liste der Websites, die im Gültigkeitsbereich befinden.</li><li>Dokumentüberprüfung Netzwerk Planner führt der bereitgestellten Test Plan Ergebnisse Vorlage.</li><li>Überprüfen Sie, ob die ExpressRoute (falls zutreffend), Internet und WAN-Bandbreite, die für Websites in Bereich berechnet wurde Ausrichtung Bandbreitenwerte, die derzeit zugeordnet sind.</li><li>Führen Sie für Websites, die nicht über eine ausreichende Bandbreite verfügen die Ausweitung und-Wartung Pläne und Bandbreitenprobleme zu beheben.</li><li>Richten Sie ein Netzwerk-Lösung für Websites im Bereich zur Auslastung der Bandbreite überwachen und QoS für ExpressRoute (falls zutreffend), Internet und WAN-Segmenten monitoring.</li><li>Planen einer Besprechung Lenkungsausschuss Netzwerk Planner Ergebnisse zu überprüfen.</li><li>Präsentieren Sie Bandbreite, die Planung der Ergebnisse des Verwaltungshaushaltsplans, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
 </table>
 
 
@@ -477,11 +477,11 @@ Zusätzliche Anleitung zum Konfigurieren, bereitstellen und Überprüfen von QoS
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Legen Sie die QoS-Konfiguration implementiert werden.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Konfigurieren von QoS.</li><li>QoS-Überprüfung ausführen, wie von über die "Überprüfen über GPO" beschriebenen Schritte beschrieben und "Überprüfen über Nachricht Analyzer" Abschnitte oben.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Legen Sie die QoS-Konfiguration implementiert werden.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Konfigurieren von QoS.</li><li>QoS-Überprüfung ausführen, wie von über die "Überprüfen über GPO" beschriebenen Schritte beschrieben und "Überprüfen über Nachricht Analyzer" Abschnitte oben.</li></ul></td></tr>
 </table>
 
- 
+
 
 ### <a name="document-qos-configuration-validation-test-results"></a>Dokumentieren Sie QoS-Konfiguration Validierung Testergebnisse
 
@@ -499,10 +499,9 @@ Nach Abschluss QoS Validierungstests mithilfe von Gruppenrichtlinien für Websit
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr>  
-<tr><td>**Problem**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
 <tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td>**Blockierenden Person**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -510,8 +509,8 @@ Nach Abschluss QoS Validierungstests mithilfe von Gruppenrichtlinien für Websit
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Testergebnisse QoS, um sicherzustellen, dass in Echtzeit Mediendatenverkehr ordnungsgemäß wird Teams markiert und priorisiert.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokument QoS Testergebnisse in der Test Plan Ergebnis Vorlage zur Verfügung gestellt.</li><li>Ausweitung und-Wartung Pläne und Probleme zu beheben, wobei QoS möglicherweise nicht ordnungsgemäß konfiguriert oder ist nicht zur Unterstützung von Teams Mediendatenverkehr arbeiten wie erwartet, ausgeführt werden.</li></ul></td></tr><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Testergebnisse QoS, um sicherzustellen, dass in Echtzeit Mediendatenverkehr ordnungsgemäß wird Teams markiert und priorisiert.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokument QoS Testergebnisse in der Test Plan Ergebnis Vorlage zur Verfügung gestellt.</li><li>Ausweitung und-Wartung Pläne und Probleme zu beheben, wobei QoS möglicherweise nicht ordnungsgemäß konfiguriert oder ist nicht zur Unterstützung von Teams Mediendatenverkehr arbeiten wie erwartet, ausgeführt werden.</li></ul></td></tr><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li>
 </table>
 
 
@@ -532,8 +531,8 @@ Weitere Anleitungen zum Konfigurieren und Überprüfen der Bereitschaft des Netz
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die Split-Tunnel Konfiguration zu implementieren.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Split-Tunnel Konfiguration zu implementieren.</li><li>Testen und Überprüfen der Konfiguration des Split-Tunnel.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die Split-Tunnel Konfiguration zu implementieren.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Split-Tunnel Konfiguration zu implementieren.</li><li>Testen und Überprüfen der Konfiguration des Split-Tunnel.</li></ul></td></tr>
 </table>
 
 
@@ -553,10 +552,9 @@ Nach Abschluss Split-Tunnel Testkonfiguration für Websites in Bereich erstellen
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr>  
-<tr><td>**Problem**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
 <tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td>**Blockierenden Person**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -565,11 +563,11 @@ Nach Abschluss Split-Tunnel Testkonfiguration für Websites in Bereich erstellen
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Testergebnisse Split-Tunnel, um sicherzustellen, dass Teams in Echtzeit-Datenverkehr vom RAS-Lösung ausgeschlossen wird.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Split-Tunnel Connectivity Testergebnisse in der bereitgestellten Test Plan Ergebnis Vorlage des Dokuments.</li><li>Führen Sie Eskalation und-Wartung Pläne und Probleme zu beheben, auf dem ordnungsgemäßes routing existiert nicht für die Unterstützung von Teams Medien in einer geteilten Tunnel-Konfiguration.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Testergebnisse Split-Tunnel, um sicherzustellen, dass Teams in Echtzeit-Datenverkehr vom RAS-Lösung ausgeschlossen wird.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Split-Tunnel Connectivity Testergebnisse in der bereitgestellten Test Plan Ergebnis Vorlage des Dokuments.</li><li>Führen Sie Eskalation und-Wartung Pläne und Probleme zu beheben, auf dem ordnungsgemäßes routing existiert nicht für die Unterstützung von Teams Medien in einer geteilten Tunnel-Konfiguration.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
 </table>
 
-   
+
 
 <a name="execute-network-connectivity-and-performance-validation-by-using-the-network-assessment-tool-from-microsoft"></a>Führen Sie Netzwerk und die Leistung Validierung mithilfe des Tools zur Bewertung Netzwerk von Microsoft
 -----------------------------------------------------------------------------------------------------------
@@ -582,11 +580,11 @@ Zusätzliche Hinweise zum Bestätigen und Auswerten von Teams Bereitschaft des N
 > Zum Ausführen von Netzwerk-Bereitschaft Analyse und Bereitschaft für Websites im Bereich bestimmen Sie ein potenziellen Kunden für jeden Standort, die mit Ihrer Netzwerk Bereitschaft Evaluation sind hilfreich sein kann.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie dem Netzwerk Assessment and Connectivity testing Profil für Websites in Bereich.</li><li>Entscheiden Sie Netzwerk Assessment Datei konfigurationsanforderungen für Websites im Bereich.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Konfigurieren Sie im Bereich Assessment Konfiguration Datei netzwerkanforderungen für die Websites.</li><li>Führen Sie im Bereich Netzwerk Leistung und Konnektivität Überprüfung für Websites.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie dem Netzwerk Assessment and Connectivity testing Profil für Websites in Bereich.</li><li>Entscheiden Sie Netzwerk Assessment Datei konfigurationsanforderungen für Websites im Bereich.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Konfigurieren Sie im Bereich Assessment Konfiguration Datei netzwerkanforderungen für die Websites.</li><li>Führen Sie im Bereich Netzwerk Leistung und Konnektivität Überprüfung für Websites.</li></ul></td></tr>
 </table>
 
- 
+
 
 ### <a name="document-network-connectivity-and-performance-validation-test-results"></a>Dokument-Netzwerk und die Leistung Validierung Testergebnisse
 
@@ -616,21 +614,20 @@ Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Website
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr>  
-<tr><td>**Problem**: hoher Wartezeit</td><td>**Remediation:** Untersuchen Sie die Paket-routing, und implementieren Sie die optimale Route.</td></tr>
-<tr><td>**Problem**: Roundtripzeit ist nicht doppelt die Wartezeit</td><td>**Remediation:** Überprüfen Sie eine mögliche Firewall oder dem Router Konfigurationsproblem. Untersuchen Sie Datenverkehr Pfade.</td></tr>
-<tr><td>**Problem**: hohe Paketverluste </td><td>**Remediation:** Überprüfen Sie, ob über das Netzwerk Planner genügend Bandbreite zugewiesen wurde. </td></tr>
-<tr><td>**Problem**: hohe Jitter </td><td> **Remediation:** Überprüfen Sie, ob die richtigen differentiated Services Code Point (DSCP)-Werte verwendet werden. </td></tr>
-<tr><td>**Problem**: hohe Paketverluste </td><td>**Remediation:** Untersuchen von Paketverlusten. </td></tr>
-<tr><td>**Problem**: hohe Paket neu anordnen </td><td>**Remediation:** Untersuchen Sie Router Berichterstellungsdienst und Bandbreite. </td></tr>
+<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: hoher Wartezeit</td><td><strong>Remediation:</strong> Untersuchen Sie die Paket-routing, und implementieren Sie die optimale Route.</td></tr>
+<tr><td><strong>Problem</strong>: Round-Trip Zeit ist nicht & #39; die Latenz Doppelklicken t</td><td><strong>Remediation:</strong> Überprüfen Sie eine mögliche Firewall oder dem Router Konfigurationsproblem. Untersuchen Sie Datenverkehr Pfade.</td></tr>
+<tr><td><strong>Problem</strong>: hohe Paketverluste </td><td><strong>Remediation:</strong> Überprüfen Sie, ob über das Netzwerk Planner genügend Bandbreite zugewiesen wurde. </td></tr>
+<tr><td><strong>Problem</strong>: hohe Jitter </td><td> <strong>Remediation:</strong> Überprüfen Sie, ob die richtigen differentiated Services Code Point (DSCP)-Werte verwendet werden. </td></tr>
+<tr><td><strong>Problem</strong>: hohe Paketverluste </td><td><strong>Remediation:</strong> Untersuchen von Paketverlusten. </td></tr>
+<tr><td><strong>Problem</strong>: hohe Paket neu anordnen </td><td><strong>Remediation:</strong> Untersuchen Sie Router Berichterstellungsdienst und Bandbreite. </td></tr>
 <tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td>**Blockierenden Person**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
- 
+
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Netzwerk-Bewertung und Konnektivität testen Ergebnisse, um sicherzustellen, dass Sie die in [der Leistung für die Qualität und Netzwerk Konnektivität Medien](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) für die Edge-Segment und den Client Segmente beschriebenen Anforderungen erfüllen.</li><li>Haben Sie Netzwerkfunktionen zur Unterstützung von Real-Time Media für alle Websites in Bereich ausgewertet?</li><li> Wenn Ihr Netzwerk ordnungsgemäß bewertet wurde noch nicht oder wissen Sie, dass in Echtzeit Medien wird nicht unterstützt, wird Video deaktivieren und Bildschirmfreigabe-Funktionen zur Reduzierung von Netzwerk auswirken und Verbessern der benutzerfreundlichkeit von Teams für Benutzer?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Leistung des Netzwerks und Konnektivität Testergebnisse des Dokuments.</li><li>Ausweitung und-Wartung Pläne und Behandeln von Problemen mit Websites, in dem es steht nicht genügend Bandbreite oder Leistung und Konnektivität netzwerkanforderungen erfüllt werden nicht, ausgeführt.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Netzwerk-Bewertung und Konnektivität testen Ergebnisse, um sicherzustellen, dass Sie die in <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">der Leistung für die Qualität und Netzwerk Konnektivität Medien</a> für die Edge-Segment und den Client Segmente beschriebenen Anforderungen erfüllen.</li><li>Haben Sie Netzwerkfunktionen zur Unterstützung von Real-Time Media für alle Websites in Bereich ausgewertet?</li><li> Wenn Ihr Netzwerk ordnungsgemäß bewertet wurde noch nicht oder wissen Sie, dass in Echtzeit Medien wird nicht unterstützt, wird Video deaktivieren und Bildschirmfreigabe-Funktionen zur Reduzierung von Netzwerk auswirken und Verbessern der benutzerfreundlichkeit von Teams für Benutzer?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Leistung des Netzwerks und Konnektivität Testergebnisse des Dokuments.</li><li>Ausweitung und-Wartung Pläne und Behandeln von Problemen mit Websites, in dem es steht nicht genügend Bandbreite oder Leistung und Konnektivität netzwerkanforderungen erfüllt werden nicht, ausgeführt.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
 </table>
 
 
@@ -701,10 +698,10 @@ Nun, dass Sie die Nummer des Port aus der Audio-Konferenzdienst zugewiesen haben
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche National Service-Nummern, die Sie nach Land/Region auf Port, benötigen.</li><li>Entscheiden Sie, ob Sie alle gebührenfreien Telefonnummern port benötigen.</li><li>Entscheiden Sie, welche Geladene Vorlage, die Sie verwenden möchten.</li><li>Bestimmen, ob Ihre aktuellen Netzbetreiber (riskieren Netzbetreiber) Phone Number Fragmentierung zulässt (d. h., Partial-Port Orders erlaubt).</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Sammeln Sie die erforderliche Informationen und Vorbereiten Sie die Koordinations.</li><li>Herunterladen Sie, und schließen Sie die Geladene Vorlagen, die Sie benötigen.</li><li>Service und/oder gebührenfreie Nummern Portieren Anfragen zu übermitteln.</li><li>Führen Sie Test Validierung Port aus Zahlen durch Zuweisen der Audio-Konferenzdienst für DFÜ-Zugriff, und vergewissern Sie sich, dass sie funktionieren, wie in Schritt 6 weiter oben in diesem Abschnitt beschrieben.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche National Service-Nummern, die Sie nach Land/Region auf Port, benötigen.</li><li>Entscheiden Sie, ob Sie alle gebührenfreien Telefonnummern port benötigen.</li><li>Entscheiden Sie, welche Geladene Vorlage, die Sie verwenden möchten.</li><li>Bestimmen, ob Ihre aktuellen Netzbetreiber (riskieren Netzbetreiber) Phone Number Fragmentierung zulässt (d. h., Partial-Port Orders erlaubt).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Sammeln Sie die erforderliche Informationen und Vorbereiten Sie die Koordinations.</li><li>Herunterladen Sie, und schließen Sie die Geladene Vorlagen, die Sie benötigen.</li><li>Service und/oder gebührenfreie Nummern Portieren Anfragen zu übermitteln.</li><li>Führen Sie Test Validierung Port aus Zahlen durch Zuweisen der Audio-Konferenzdienst für DFÜ-Zugriff, und vergewissern Sie sich, dass sie funktionieren, wie in Schritt 6 weiter oben in diesem Abschnitt beschrieben.</li></ul></td></tr>
 </table>
-   
+
 
 ### <a name="document-service-number-porting-test-results"></a>Dokumentieren Sie Testergebnisse Portieren Service-Nummer
 
@@ -722,10 +719,9 @@ Nachdem Sie alle Nummern Portieren Tests abgeschlossen haben, erstellen Sie eine
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr>  
-<tr><td>**Problem**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
 <tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td>**Blockierenden Person**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
 > [!TIP]
@@ -733,8 +729,8 @@ Nachdem Sie alle Nummern Portieren Tests abgeschlossen haben, erstellen Sie eine
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Überprüfen Sie, ob Service Zahlen übermittelt für die Migration erfolgreich mit dem Dienst Audiokonferenzen übertragen wurden.</li><li>Überprüfen Sie, ob Sie die Nummer des Port aus, mit dem Dienst Audiokonferenzen zuweisen konnten.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Die Nummer Ihres Portieren Testergebnisse des Dokuments.</li><li>Führen Sie die Ausweitung und-Wartung Pläne und zu beheben, mit denen, die Sie die Nummer Portieren Prozess vertraut, sofern vorhanden.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Stellen Sie die Zusammenfassung Testergebnisse des Verwaltungshaushaltsplans, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Überprüfen Sie, ob Service Zahlen übermittelt für die Migration erfolgreich mit dem Dienst Audiokonferenzen übertragen wurden.</li><li>Überprüfen Sie, ob Sie die Nummer des Port aus, mit dem Dienst Audiokonferenzen zuweisen konnten.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Die Nummer Ihres Portieren Testergebnisse des Dokuments.</li><li>Führen Sie die Ausweitung und-Wartung Pläne und zu beheben, mit denen, die Sie die Nummer Portieren Prozess vertraut, sofern vorhanden.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Stellen Sie die Zusammenfassung Testergebnisse des Verwaltungshaushaltsplans, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
 </table>
 
 
@@ -782,8 +778,8 @@ Testfälle für die administrative Teams und Benutzer Audiokonferenzen Features 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Bewerten der allgemeine Testfall bestanden wurden oder Status mithilfe der Website für Audiokonferenzen Features im Bereich.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Testfall Statusergebnisse für alle Testfälle im Bereich abgeschlossen wurde.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Darstellen Sie Ergebnisse des Testfalls Status des Verwaltungshaushaltsplans alle Bereiche identifiziert, die erfordern Remediation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der allgemeine Testfall bestanden wurden oder Status mithilfe der Website für Audiokonferenzen Features im Bereich.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Testfall Statusergebnisse für alle Testfälle im Bereich abgeschlossen wurde.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Darstellen Sie Ergebnisse des Testfalls Status des Verwaltungshaushaltsplans alle Bereiche identifiziert, die erfordern Remediation.</li></ul></td></tr>
 </table>
 
 
@@ -803,10 +799,9 @@ Nachdem alle Testfälle Audiokonferenzen Features im Bereich Unterstützung von 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr>  
-<tr><td>**Problem**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
 <tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td>**Blockierenden Person**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
 
@@ -816,8 +811,8 @@ Nachdem alle Testfälle Audiokonferenzen Features im Bereich Unterstützung von 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Bewerten der allgemeine Zusammenfassung-Testergebnisse von Website für Audiokonferenzen Features im Bereich.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Testfall Zusammenfassungsbericht, nachdem alle Ergebnisse des Testfalls abgeschlossen wurden.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der allgemeine Zusammenfassung-Testergebnisse von Website für Audiokonferenzen Features im Bereich.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Testfall Zusammenfassungsbericht, nachdem alle Ergebnisse des Testfalls abgeschlossen wurden.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
 </table>
 
 
@@ -847,8 +842,8 @@ Nachdem alle Testaktivitäten abgeschlossen wurden und Mängel mit niedrig wirkt
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie den Zusammenfassung Teststatus.</li><li>Testen von Highlights und Schwachstellen zu identifizieren.</li><li>Gelernte Lektionen zu identifizieren.</li><li>Entscheiden Sie, welche Remediation Aktionen bleiben, falls vorhanden.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokument Zusammenfassung Testergebnisse enthalten:<ul><li>Status überprüfen</li><li>Highlights/Schwachstellen</li><li>Gelernte Lektionen</li></ul></li><li>Planen einer Besprechung endgültigen Lenkungsausschuss Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnisse während einer Lenkungsausschuss überprüfen endgültigen Genehmigung für das Beenden der Testphase abrufen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie den Zusammenfassung Teststatus.</li><li>Testen von Highlights und Schwachstellen zu identifizieren.</li><li>Gelernte Lektionen zu identifizieren.</li><li>Entscheiden Sie, welche Remediation Aktionen bleiben, falls vorhanden.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokument Zusammenfassung Testergebnisse enthalten:<ul><li>Status überprüfen</li><li>Highlights/Schwachstellen</li><li>Gelernte Lektionen</li></ul></li><li>Planen einer Besprechung endgültigen Lenkungsausschuss Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnisse während einer Lenkungsausschuss überprüfen endgültigen Genehmigung für das Beenden der Testphase abrufen.</li></ul></td></tr>
 </table>
 
 

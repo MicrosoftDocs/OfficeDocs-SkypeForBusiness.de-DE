@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Zusammenfassung: Informationen Sie über die Dinge, dass Sie bei der Planung eines Upgrades auf Skype für Business Server 2015 berücksichtigen sollten. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 437c54513865ceb28f717f50b4619a735720c98b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882740"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375134"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planen des Upgrades auf Skype for Business Server 2015
  
@@ -138,13 +138,13 @@ Zur Verwendung dieser Methode verschieben Sie die Benutzer in einen anderen Pool
     
 5. Installieren von neuen erforderlichen Komponenten für Skype für Business Server benötigt.
     
-6.  Starten Sie das direkte Upgrade auf jedem Front-End-Server.
+6. Starten Sie das direkte Upgrade auf jedem Front-End-Server.
     
 7. Nach Abschluss des Upgrades müssen Sie alle Dienste neu starten.
     
-  - Starten Sie für alle Front-End-Pools mithilfe des Befehls Start-CsPool neu.
+   - Starten Sie für alle Front-End-Pools mithilfe des Befehls Start-CsPool neu.
     
-  - Verwenden Sie Start-CSWindowsService für Server, die keine Front-End-Server sind.
+   - Verwenden Sie Start-CSWindowsService für Server, die keine Front-End-Server sind.
     
 > [!NOTE]
 >  Wenn Sie kein Upgrade für die bereits vorhandenen Datenbanken zur Archivierung und Überwachung durchführen möchten, entfernen Sie die Abhängigkeit, bevor Sie ein Upgrade der Topologie durchführen. Wenn Sie neue Datenbanken zur Archivierung und Überwachung erstellen möchten, können Sie einen neuen SQL-Speicher erstellen und ihn dem Pool zuweisen. Sie können die Schritte zum dazu im Thema[Durchführen eines Upgrades auf Skype für Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)suchen. > In-Place Upgrade unterstützt hohe Verfügbarkeit oder notfallwiederherstellung für Skype für Business Server nicht. Um zu vermeiden, Benutzer Dienste unterbrechen, verwenden Sie die [Benutzer verschieben-Methode (keine Benutzer Ausfallzeit)](upgrade.md#bkmk_MoveUsersMethod) zum Upgrade. > während des Upgrades das Xds-Replikat in der lokalen freigegebenen Ordner auf dem Laufwerk mit dem meisten freien Speicherplatz platziert wird. Wird dieses Laufwerk später entfernt, treten unter Umständen Probleme auf, zum Beispiel starten Dienste möglicherweise nicht.

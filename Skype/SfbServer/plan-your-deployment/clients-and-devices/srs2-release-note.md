@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: ddcc4da301d491d763baf736053fd8eaeaee1b87
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358979"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375506"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -161,7 +161,7 @@ In diesem Update eingeführt:
 - Sie können Personen aus Ihrem Verzeichnis, wo Sie ihre Verfügbarkeit sofort sehen können, oder telefonisch einladen.
 - Unterstützt Skype for Business-PSTN-Konferenzen und -PSTN-Anrufe als Ersatz für das eigenständige Konferenztelefon in Ihrem Raum.
     
- **Neue Möglichkeiten für Besprechungsräume**
+  **Neue Möglichkeiten für Besprechungsräume**
   
 - Eigene Skype-Besprechungs-App mit Optimierung für einen Touchcontroller in der Tischmitte und einen großen Bildschirm vorn im Raum
 - Nutzung vorhandener Investitionen in Bildschirme oder Projektoren
@@ -169,7 +169,7 @@ In diesem Update eingeführt:
 - Für Skype for Business zertifizierte Audio- und Videogeräte für verschiedene Raumgrößen
 - Integrierte verkabelte Erfassung zum Projizieren der Desktopfreigabe in den Raum und die Skype-Besprechung
     
- **Leicht bereitzustellen, einfach zu verwalten**
+  **Leicht bereitzustellen, einfach zu verwalten**
   
 - Immer aktive Appliance, die die Bildschirme automatisch reaktiviert, sobald Personen im Raum erkannt werden
 - Einfache Bereitstellung und Aktualisierung der UWP-App (Universal Windows Platform) für Skype-Besprechungen

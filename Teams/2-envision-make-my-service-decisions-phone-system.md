@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0794af6763dd91005bbe8dcd8b19e5a97db55d20
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014443"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374795"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -67,6 +67,7 @@ Vor der Planung für die Implementierung von Aufrufen in Teams plant, stellen Si
 Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen plant erhalten die Liste der Standorte oder Büros, in dem Sie den Dienst aufrufen plant, basierend auf der Liste der verfügbaren Ländern und Regionen implementieren können.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Standorte oder Büros aufrufen plant Sie implementieren, werden in service.</li></ul>|
@@ -74,6 +75,7 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen p
 
 > [!TIP]
 > Es folgt ein Beispiel für ein Telefonsystem mit Aufrufen plant Websiteliste-Aktivierung.
+> 
 > | **Office**                     | **Standort**   | **Phone-Dienst** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australien      | Legacy-PSTN-Dienst |
@@ -102,6 +104,7 @@ Weitere Informationen zum notfallstandorten im Verhältnis zum Aufrufen von plan
 -   [Nutzungsbedingungen für Notrufe](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, die Granularität von Notfall Standortinformationen für Standorte oder Büros im Bereich für die Implementierung plant aufrufen gesammelt werden.</li></ul>|
@@ -109,14 +112,15 @@ Weitere Informationen zum notfallstandorten im Verhältnis zum Aufrufen von plan
 
 > [!TIP]
 > Die folgende Vorlage können Sie um die Details der Telefonnummern und Details zum Besprechungsort Notfall zu dokumentieren.
->|Benutzer |Notruf Speicherort und Adresse |Telefonnummer |
->|-----|-------------------------------|-------------|
->|Emily Braun |1034/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8901 |
->|Lidia Holloway |1065/32 London Bridge Straße, London, SE1, Vereinigtes Königreich |+ 44 23 4567 89112 |
->|Louis Lahr |1023/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8921 |
->|Marcel Beauchamp |07E15D/39 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Frankreich | TBA |
->|Rachelle Cormier |07N15D/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
->|Isabell Potvin |07F05E/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
+> 
+> |Benutzer |Notruf Speicherort und Adresse |Telefonnummer |
+> |-----|-------------------------------|-------------|
+> |Emily Braun |1034/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8901 |
+> |Lidia Holloway |1065/32 London Bridge Straße, London, SE1, Vereinigtes Königreich |+ 44 23 4567 89112 |
+> |Louis Lahr |1023/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Frankreich | TBA |
+> |Rachelle Cormier |07N15D/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
+> |Isabell Potvin |07F05E/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -134,6 +138,7 @@ Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist
 Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Azure PBX-Voicemail für Exchange Server unterstützt](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie in der Implementierung aufrufen plant Telefonsystem Voicemail ermöglichen.</li><li>Wenn Exchange lokal und Ihre vorhandene Bereitstellung mit Ihren Anforderungen zur Unterstützung von Telefonsystem Voicemail nicht erfüllt, wählen Sie aus den verfügbaren Optionen (aktualisieren und für die Unterstützung von Telefonsystem Voicemail Einrichtung, Migrieren zu Exchange Online oder Nutzung der Fallback-Mechanismus wie oben beschrieben).</li><li>Entscheiden Sie, ob Sie aktivieren oder Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung in der gesamten Organisation oder für bestimmte Benutzer deaktivieren benötigen.</li></ul>|
@@ -141,14 +146,15 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 
 > [!TIP]
 > Telefon System Voicemail Details für das Telefonsystem mit Implementierung plant aufrufen können wie folgt dokumentiert werden.
->|Benutzer |Exchange-Postfach |Aktivieren Sie Voicemail? |Voicemail Lautschrift |Voicemail Lautschrift Gotteslästerung-Maskierung |
->|------------------|------------------|-------------------|----------|----------|
->|Emily Braun      |Online      |Ja |Aktiviert |Aktiviert |
->|Lidia Holloway   |Online      |Ja |Aktiviert |Deaktiviert |
->|Louis Lahr       |Lokal |Ja |Aktiviert |Aktiviert |
->|Marcel Beauchamp |Lokal |Ja |Deaktiviert |n/v |
->|Rachelle Cormier |Online      |Ja |Deaktiviert |n/v |
->|Isabell Potvin   |Lokal |Ja |Deaktiviert |n/v |
+> 
+> |Benutzer |Exchange-Postfach |Aktivieren Sie Voicemail? |Voicemail Lautschrift |Voicemail Lautschrift Gotteslästerung-Maskierung |
+> |------------------|------------------|-------------------|----------|----------|
+> |Emily Braun      |Online      |Ja |Aktiviert |Aktiviert |
+> |Lidia Holloway   |Online      |Ja |Aktiviert |Deaktiviert |
+> |Louis Lahr       |Lokal |Ja |Aktiviert |Aktiviert |
+> |Marcel Beauchamp |Lokal |Ja |Deaktiviert |n/v |
+> |Rachelle Cormier |Online      |Ja |Deaktiviert |n/v |
+> |Isabell Potvin   |Lokal |Ja |Deaktiviert |n/v |
 
 <!--ENDOFSECTION-->
 
@@ -157,6 +163,7 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer als Anrufer-ID verwendet. Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte. In einigen Fällen sind legitimen geschäftlichen Anforderungen an die Anrufer-ID, um die Identität des Aufrufers mithilfe der Office Main Zeilennummer schützen maskieren – Dies ist üblicherweise ein Service-Nummer bedient durch die automatische Telefonzentrale-Konfiguration – als Anrufer-ID, oder Blockieren von Anrufer-ID Präsentation vollständig.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob die Änderung von Anrufer-IDs für die Implementierung des Plans aufrufen erforderlich ist.</li><li>Entscheiden Sie gegebenenfalls die Typen der Änderung von Anrufer-IDs (maskieren mit Service-Nummer oder Patientenmetadaten) implementiert werden.</li><li>Gegebenenfalls entscheiden Sie, welche Benutzer benötigen, Änderung von Anrufer-IDs und den Typ der Bearbeitung der Anrufer-ID für jeden Benutzer zugewiesen werden soll.</li></ul>|
@@ -164,14 +171,15 @@ Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer
 
 > [!TIP]
 > Es folgt ein Beispiel für Anrufer-ID Maskierung Details-Dokumentation.
->|Benutzer  |Maskierung für ausgehende Anrufer-IDs aktivieren  |Art der Anrufer-ID-Maskierung  |Außerkraftsetzung durch Benutzer zulassen  | Maskierung für eingehende Anrufer-IDs aktivieren  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|Nein|n/v|Ja|Nein|
->|Lidia Holloway|Ja|Servicenummer (OrgAA, +44 20 7946 0000)|Nein|Ja|
->|Louis Lahr|Nein|n/v|Ja|Nein|
->|Marcel Beauchamp|Ja|Servicenummer (OrgAA, TBA)|Nein|Ja|
->|Rachelle Cormier|Ja|Anonymisieren|Ja|Nein|
->|Isabell Potvin|Ja|Servicenummer (OrgAA, TBA)|Nein|Ja|
+> 
+> |Benutzer  |Maskierung für ausgehende Anrufer-IDs aktivieren  |Art der Anrufer-ID-Maskierung  |Außerkraftsetzung durch Benutzer zulassen  | Maskierung für eingehende Anrufer-IDs aktivieren  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|Nein|n/v|Ja|Nein|
+> |Lidia Holloway|Ja|Servicenummer (OrgAA, +44 20 7946 0000)|Nein|Ja|
+> |Louis Lahr|Nein|n/v|Ja|Nein|
+> |Marcel Beauchamp|Ja|Servicenummer (OrgAA, TBA)|Nein|Ja|
+> |Rachelle Cormier|Ja|Anonymisieren|Ja|Nein|
+> |Isabell Potvin|Ja|Servicenummer (OrgAA, TBA)|Nein|Ja|
 
 <!--ENDOFSECTION-->
 
@@ -211,6 +219,7 @@ Weitere Informationen zum Telefonsystem und Pläne aufrufen, überprüfen Sie in
 -   [Anrufpläne](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Wenn Ihre Organisation nicht über die erforderlichen Telefonsystem-Lizenz entscheiden, ob Sie die Lizenz Telefonsystem durch Ihre vorhandenen Office 365-Abonnements umsteigen oder durch Erwerb des Telefonsystem Add-on-Diensts erwerben werden.</li><li>Entscheiden Sie, welche Benutzer erfordern, dass eine Lizenz nationalen planen aufrufen und die in- und International aufrufen planen Lizenz erforderlich.</li><li>Entscheiden Sie, ob Sie Communications haben für die Implementierung des Plans aufrufen benötigen.</li></ul>|
@@ -218,14 +227,15 @@ Weitere Informationen zum Telefonsystem und Pläne aufrufen, überprüfen Sie in
 
 > [!TIP]
 > Im folgende Beispiel können Sie um die Lizenz-Zuordnung für Telefonsystem mit plant Aufrufen von Benutzern zu dokumentieren.
->|Benutzer |Niederlassung |Office 365-Lizenz |Plan aufrufen |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |Office 365 E5 |Anrufplan für Ausland und Inland |
->|Lidia Holloway |32 London Bridge Street |Office 365 E5 |Plan für Inlandsanrufe |
->|Louis Lahr |32 London Bridge Street |Office 365 E5 |Plan für Inlandsanrufe |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Plan für Inlandsanrufe |
->|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Anrufplan für Ausland und Inland |
->|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Plan für Inlandsanrufe |
+> 
+> |Benutzer |Niederlassung |Office 365-Lizenz |Plan aufrufen |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |Office 365 E5 |Anrufplan für Ausland und Inland |
+> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |Plan für Inlandsanrufe |
+> |Louis Lahr |32 London Bridge Street |Office 365 E5 |Plan für Inlandsanrufe |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Plan für Inlandsanrufe |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Anrufplan für Ausland und Inland |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Plan für Inlandsanrufe |
 
 <!--ENDOFSECTION-->
 
@@ -240,6 +250,7 @@ Für die Implementierung des Plans aufrufen können Sie die Verwendung von Commu
 Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Communications haben?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Communications haben für die Implementierung des Audiokonferenzen oder plant aufrufen.</li></ul>|
@@ -247,23 +258,21 @@ Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Commu
 
 > [!TIP]
 > Sie mithilfe des folgenden Beispiels, um die Liste der Communications haben Zuordnung für Benutzer plant aufrufen zu dokumentieren.
->|Benutzer |Niederlassung |Plan aufrufen |Guthaben für Kommunikationen |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |Anrufplan für Ausland und Inland |Aktiviert |
->|Lidia Holloway |32 London Bridge Street |Plan für Inlandsanrufe |Deaktiviert |
->|Louis Lahr |32 London Bridge Street |Plan für Inlandsanrufe |Aktiviert |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Plan für Inlandsanrufe |Deaktiviert |
->|Rachelle Cormier |39 quai du Président Roosevelt |Anrufplan für Ausland und Inland |Aktiviert |
->|Isabell Potvin |39 quai du Président Roosevelt |Plan für Inlandsanrufe |Deaktiviert |
+> 
+> |Benutzer |Niederlassung |Plan aufrufen |Guthaben für Kommunikationen |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |Anrufplan für Ausland und Inland |Aktiviert |
+> |Lidia Holloway |32 London Bridge Street |Plan für Inlandsanrufe |Deaktiviert |
+> |Louis Lahr |32 London Bridge Street |Plan für Inlandsanrufe |Aktiviert |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Plan für Inlandsanrufe |Deaktiviert |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Anrufplan für Ausland und Inland |Aktiviert |
+> |Isabell Potvin |39 quai du Président Roosevelt |Plan für Inlandsanrufe |Deaktiviert |
 
 <br>
-> [!TIP]
-> Ihre Planung Zahlen Communications haben können wie im folgenden Beispiel dokumentiert werden.
->|         |         |
->|---------|---------|
->|Anfangsbetrag|1.000 US-Dollar|
->|Betrag für die Auslösung der Auffüllung|400 US-Dollar|
->|Höhe des Betrags für die automatische Auffüllung|TBA|
+&gt; [!TIP]
+&gt;Ihre Planung Zahlen Communications haben können wie im folgenden Beispiel dokumentiert werden.
+&gt;|         |         | &gt;|---------|---------|
+&gt;| Anfangsgröße | 1.000 USD | &gt;| Trigger Betrag | $ 400 | &gt;| Automatische Ladeleuchte Betrag | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -290,6 +299,7 @@ Die Gesamtzahl der Telefonnummern, die Sie herunterladen können, abhängig von 
 Weitere Informationen über die Gesamtzahl der Telefonnummern, die Sie herunterladen können, finden Sie unter [wie viele Rufnummern erhalten Sie?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie die Standorte oder Büros, in dem neue Telefonnummern von Microsoft erfasst wird.</li><li>Legen Sie die Art der Telefonnummern von Microsoft erworben werden.</li></ul>|
@@ -312,6 +322,7 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 -   [Allgemeine Fragen zum Übertragen von Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie die Standorte oder Büros, auf dem vorhandenen Telefonnummern an Microsoft übertragen wird.</li><li>Legen Sie die Art der Telefonnummern an Microsoft übertragen werden.</li></ul>|
@@ -343,6 +354,7 @@ Die effektive Wähleinstellungen, die Benutzern zugewiesen ist eine Kombination 
 Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation angepasste Wählpläne (geschäftlichen Anforderungen, Annahme Anforderungen usw.) erforderlich sind.</li><li>Entscheiden, falls zutreffend, den Bereich des Wählplans Mandanten (Mandanten globalen oder Mandanten Benutzer) zur Unterstützung von Ihren Anforderungen für angepasste Wähleinstellungen.</li><li>Entscheiden Sie gegebenenfalls die Mandanten-Wählpläne, die Sie erstellen, um Standorte oder Büros im Bereich für die Cloud VoIP-Implementierung unterstützt.</li><li>Gegebenenfalls entscheiden Sie, welche Benutzer benötigen, eine angepasste Wählplan und die Wähleinstellungen Mandanten für jeden Benutzer zugewiesen werden soll.</li></ul>|
@@ -350,36 +362,24 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 
 > [!TIP]
 > Wenn sie für Ihr Projekt gilt, können Sie die folgende Vorlage verwenden, um die Konfigurationen für den Mandanten Dial Plan zu dokumentieren.
->|Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
->||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
->||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
->||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
->|**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (X8000 Â €"x 8999) für Office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
->||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
->||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (X7000 Â €"x 7999) für 39 Quai du Président Roosevelt Office, Issy-Les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
->||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
->||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
+> 
+> |Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
+> ||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
+> ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
+> ||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (X8000 Â €"x 8999) für Office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
+> ||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
+> ||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (X7000 Â €"x 7999) für 39 Quai du Président Roosevelt Office, Issy-Les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
+> ||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
+> ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
 
 <br>
-> [!TIP]
-> Sie können die folgende Beispielvorlage nutzen, um Wählplanzuweisungen für Ihr Projekt zu dokumentieren:
->|Benutzer  |Niederlassung  |Typ des Wählplans  |Name des Wählplans  |
->|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
->|Alex Wilber|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
->|Ben Walters|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
->|Christie Cline|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
->|Debra Berger|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
->|Lee Gu|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Dienstwählplan|n/v|
->|Lidia Holloway|32 London Bridge Street|Dienstwählplan|n/v|
->|Louis Lahr|32 London Bridge Street|Dienstwählplan|n/v|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;Die Beispielvorlage, die ein Dokument Dial Plan Aufgaben zur Unterstützung von Ihrem Projekts genutzt werden kann: &gt;| Benutzer | Office | Wählen Sie eine Plantyp | Wählplanname | &gt;|---------|---------|---------|---------|
+&gt;| Adele Vance | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Alex Wilber | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Ben Walter | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Christine Cline | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Sarah Berger | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Kelly Gu | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Emily Braun | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Lidia Holloway | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Louis Lahr | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Marcel Beauchamp | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR | &gt;| Rachelle Cormier | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR | &gt;| Isabell Potvin | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR |
 
 <!--ENDOFSECTION-->
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d5b3f52caf7de455d2b579a3360d17e18602450
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 523530647834fa2c54d18d983f25733bbe25d1be
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014291"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372649"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Weisen Sie Team-Besitzer und Membern im Microsoft-Teams
 =================================================
@@ -30,19 +30,21 @@ In Microsoft-Teams, es gibt zwei Benutzerrollen: **Besitzer** und **Member**. St
 
 Die folgende Tabelle zeigt den Unterschied zwischen Berechtigungen eines Besitzers und eines Mitglieds:
 
-|  |Teambesitzer  |Teammitglied  |
-|---------|---------|---------|
-|**Team erstellen**     |Ja        |Nein         |
-|**Team verlassen**     |Ja         |Ja         |
-|**Teamnamen/Teambeschreibung bearbeiten**      |Ja         |Nein         |
-|**Team löschen**      |Ja         |Nein         |
-|**Kanal hinzufügen**      |Ja         |Ja*         |
-|**Kanalnamen/Kanalbeschreibung bearbeiten**      |Ja         |Ja*         |
-|**Kanal löschen**      |Ja         |Ja*         |
-|**Mitglieder hinzufügen**      |Ja**         |Nein         |
-|**Registerkarten hinzufügen**      |Ja         |Ja*         |
-|**Connectors hinzufügen**      |Ja         |Ja*         |
-|**Bots hinzufügen**      |Ja         |Ja*         |
+
+|                                   | Teambesitzer | Teammitglied |
+|-----------------------------------|------------|-------------|
+|          **Team erstellen**          |    Ja     |     Nein      |
+|          **Team verlassen**           |    Ja     |     Ja     |
+|  **Teamnamen/Teambeschreibung bearbeiten**   |    Ja     |     Nein      |
+|          **Team löschen**          |    Ja     |     Nein      |
+|          **Kanal hinzufügen**          |    Ja     |    "Ja"\*    |
+| **Kanalnamen/Kanalbeschreibung bearbeiten** |    Ja     |    "Ja"\*    |
+|        **Kanal löschen**         |    Ja     |    "Ja"\*    |
+|          **Mitglieder hinzufügen**          |  "Ja"\*\*   |     Nein      |
+|           **Registerkarten hinzufügen**            |    Ja     |    "Ja"\*    |
+|        **Connectors hinzufügen**         |    Ja     |    "Ja"\*    |
+|           **Bots hinzufügen**            |    Ja     |    Ja\*    |
+
 \*Diese Elemente können mithilfe eines Besitzers auf einer Teamebene deaktiviert werden in diesem Fall würde die Mitglieder nicht darauf zugreifen können.
 
 \*\*Nach dem Hinzufügen eines Mitglieds zu einem Team kann ein Besitzer auch ein Mitglied zum Status eines Besitzers hochstufen. Ein Besitzer kann auch seinen eigenen Status zu dem eines Mitglieds herabstufen.

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Da Skype für Business Server einem Enterprise-Klasse Communications-System handelt, sollten Sie häufig vorkommende Angriff beachten, die die Infrastruktur und Kommunikation auswirken könnten.
-ms.openlocfilehash: 59f65a6a9a4d56850908fa0749e4a672b23b7a85
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967827"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373064"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Häufige Sicherheitsbedrohungen in der modernen EDV
  
@@ -101,9 +101,9 @@ In den folgenden Tabellen wird angegeben, welche Daten über ein öffentliches N
    
 **Pflichtdaten**
 
-|**Offengelegte Daten**|**Beispieldaten**|
-|:-----|:-----|
-|IP-Adresse  <br/> |Tatsächliche Computer- oder NAT-Adresse  <br/> |
-|SIP-URI  <br/> |jeremylos@litwareinc.com  <br/> |
-   
+
+| **Offengelegte Daten** | **Beispieldaten**                            |
+|:-------------------|:---------------------------------------------------|
+| IP-Adresse  <br/>  | Tatsächliche Computer- oder NAT-Adresse  <br/> |
+| SIP-URI  <br/>     | jeremylos@litwareinc.com  <br/>                    |
 

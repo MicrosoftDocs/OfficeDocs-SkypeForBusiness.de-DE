@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Zusammenfassung: Lesen Sie dieses Thema aus, um Informationen zum Planen Ihrer Topologie Conferencing in Skype für Business Server.'
-ms.openlocfilehash: 3110588585291ccfb55b45750d336863fea7329b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006125"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375957"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planen von Skype für Business Server Ihrer konferenztopologie
  
@@ -48,9 +48,9 @@ Sie können Konferenzfunktionen in folgenden Topologien und Konfigurationen bere
 
 Bei der Bereitstellung von Einwahlkonferenzen müssen Sie Folgendes berücksichtigen:
   
--  Einwahlkonferenzen erfordert einen Vermittlungsserver zu übersetzen Signale (und Medien in einigen Konfigurationen) zwischen Skype für Business Server und dem PSTN-Gateway und ein PSTN-Gateway Signale und Medien zwischen dem Vermittlungsserver und PSTN-Gateway übersetzen .
+- Einwahlkonferenzen erfordert einen Vermittlungsserver zu übersetzen Signale (und Medien in einigen Konfigurationen) zwischen Skype für Business Server und dem PSTN-Gateway und ein PSTN-Gateway Signale und Medien zwischen dem Vermittlungsserver und PSTN-Gateway übersetzen .
     
-    Bevor Sie Einwahlkonferenzen konfigurieren können, müssen Sie entweder Enterprise Voice oder einen Vermittlungsserver und mindestens eine der folgenden Komponenten bereitstellen:
+   Bevor Sie Einwahlkonferenzen konfigurieren können, müssen Sie entweder Enterprise Voice oder einen Vermittlungsserver und mindestens eine der folgenden Komponenten bereitstellen:
     
   - PSTN-Gateway
     

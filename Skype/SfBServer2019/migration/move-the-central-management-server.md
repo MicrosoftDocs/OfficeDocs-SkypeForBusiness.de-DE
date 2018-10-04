@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Nach der Migration zu Skype für Business Server 2019, müssen Sie den zentralen Verwaltungsserver an der Skype für Business Server 2019 Front-End-Server oder Pool verschieben, bevor Sie dem-Legacyserver entfernen können.
-ms.openlocfilehash: 805b5c506fdda11bdc24144a0622e674e8ef281b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030525"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373443"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Verschieben der Vorversion zentralen Verwaltungsserver in Skype für Business Server 2019
 
@@ -35,9 +35,9 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um die Skype für Business Serv
     
 3. Geben Sie Folgendes ein, um den neuen zentralen Verwaltungsspeicher in der Skype für Business Server 2019 SQL Server-Datenbank in der Skype für Business Server-Verwaltungsshell zu erstellen:
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
+   ```
 
 4. Vergewissern Sie sich, dass der Status der **Skype für Business Server Front-End** -Dienst **gestartet**wird.
     
@@ -56,9 +56,9 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um die Skype für Business Serv
   
 5. Geben Sie Folgendes ein, um den neuen zentralen Verwaltungsspeicher auf die Skype für Business Server 2019 Standard Edition-Front-End-Server in der Skype für Business Server-Verwaltungsshell zu erstellen: 
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
+   ```
 
 6. Vergewissern Sie sich, dass der Status der **Skype für Business Server Front-End** -Dienst **gestartet**wird.
     
@@ -70,18 +70,18 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um die Skype für Business Serv
     
 3. Geben Sie in der Skype für Business Server-Verwaltungsshell Folgendes ein: 
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
     > [!CAUTION]
     > Wenn `Enable-CsTopology` ist nicht erfolgreich, lösen Sie das Problem verhindert, dass des Befehls abschließen, bevor Sie fortfahren. Wenn die **Enable-CsTopology** ist nicht erfolgreich, die Verschiebung schlägt fehl und Ihrer Topologie kann in einem Zustand belassen, in denen keine zentralen Verwaltungsspeicher vorhanden ist. 
   
 4. Geben Sie auf der Skype für Business Server 2019 Front-End-Server oder Front-End-Pool, in der Skype für Business Server-Verwaltungsshell: 
     
-  ```
-  Move-CsManagementServer
-  ```
+   ```
+   Move-CsManagementServer
+   ```
 
 5. Skype für Business Server-Verwaltungsshell zeigt den Servern, Dateispeicher, Datenbankspeicher und die Dienstverbindungspunkte aktueller Status und den Zustand vorgeschlagen. Lesen Sie die Informationen sorgfältig, und bestätigen Sie, dass dies die vorgesehene Quell-als auch ist. Geben Sie **Y** , um den Vorgang fortzusetzen oder **N** , um die Verschiebung zu beenden. 
     
@@ -99,9 +99,9 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um die Skype für Business Serv
     
 12. Geben Sie Folgendes ein, um zu bestätigen, dass die Replikation mit dem neuen zentralen Management Store in der Skype für Business Server-Verwaltungsshell ausgeführt wird: 
     
-  ```
-  Get-CsManagementStoreReplicationStatus
-  ```
+    ```
+    Get-CsManagementStoreReplicationStatus
+    ```
 
     > [!NOTE]
     > Die Replikation dauert etwas Zeit, um alle aktuellen Replikate aktualisiert. 
@@ -117,15 +117,15 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um die Skype für Business Serv
   
 3. Um die Datenbankdateien des zentralen Speicher aus der Vorversion Installation zentralen Verwaltungsserver zu entfernen, geben Sie Folgendes ein:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
+   ```
 
     Beispiel:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
+   ```
 
     In dem die _ \<FQDN von SQL Server\> _ ist entweder der Vorgängerversion Back-End-Server in einer Enterprise Edition-Bereitstellung oder der FQDN des Standard Edition-Server installieren. 
     

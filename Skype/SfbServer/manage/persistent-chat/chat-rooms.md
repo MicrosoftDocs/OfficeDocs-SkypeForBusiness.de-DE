@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Chatrooms in Skype Persistent Chat Server for Business Server 2015.'
-ms.openlocfilehash: 25d13b8b44e16d476191fdae337eb72d73e77dbc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1c197be847d2a1359a3e6203df718cc34f1d9e41
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973775"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372149"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -76,7 +76,7 @@ Zusätzlich zu den oben genannten Parametern kann mit dem Cmdlet **"Set-cspersis
     
 - Presenters: Ermöglicht Ihnen, einem Auditorium-Chatroom Referenten zuzuweisen. 
     
- Ausführliche Informationen zur Syntax, einschließlich aller Parameter finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md).
+  Ausführliche Informationen zur Syntax, einschließlich aller Parameter finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>Einen neuen Chatroom erstellen
 

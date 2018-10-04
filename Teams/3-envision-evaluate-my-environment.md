@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66b86ef8789f959de9887cc1f0b3c7c1e2e8ffa3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015573"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373314"
 ---
 # <a name="evaluate-my-environment"></a>Meine Umgebung bewerten
 
@@ -43,8 +43,8 @@ Umwelt Discovery kann auch aufdecken, ob auf [Telefonnummern an Microsoft übert
 Dieses Wissen hilft Ihrer Organisation den Projektplan entsprechend anpassen und die erforderliche Informationen für Nummern Portieren vorbereiten. Die [Umwelt Discovery für Microsoft-Teams, Einführung](environmental-discovery-for-microsoft-teams-rollout.md) von MyAdvisor können Sie die Umwelt Discovery ausführen.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Durchführung einer Analyse der Umgebung zuständig sein?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ergebnisse der Bewertung Umgebung.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Durchführung einer Analyse der Umgebung zuständig sein?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ergebnisse der Bewertung Umgebung.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -60,8 +60,8 @@ Bereitstellung eine neue Technologie zur Hand eines Benutzers werden, aber reali
 Verwenden Sie die folgenden Aspekte Bewerten Ihrer Organisation Bereitschaft zu Verwaltung der Adresse Benutzer ändern.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Hatten Sie vorherige Erfolg mit Akzeptanz Software oder Dienste?</li><li>Können Sie die Verwendung Aufnahme-verfolgen?</li><li>Verfügen Sie über die Ressourcen zum Entwerfen und Verwalten einer Erstinstallation&mdash;und laufende&mdash;Annahme Kampagne (zur Förderung des Bekanntheitsgrads, Schulung und Support)?</li><li>Verfügen Sie über eine dedizierte Benutzer Annahme/ändern Managementteam, oder können Sie in diese Ressourcen, um sicherzustellen, dass Geschäftsergebnisse investieren?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Wenn Sie alle oben genannten mit "Ja" beantwortet haben, identifizieren Sie die richtigen Benutzer Änderung Management Beteiligten und beginnen Sie der User Readiness Planung.</li><li>Wenn Sie "Nein", um einige oder alle der oben genannten beantwortet haben, sollten Sie ansprechender externe Ressourcen mit gesteuerter Änderungsmanagement und Aktivitäten im Zusammenhang mit der Annahme für Ihre Organisation unterstützen.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Hatten Sie vorherige Erfolg mit Akzeptanz Software oder Dienste?</li><li>Können Sie die Verwendung Aufnahme-verfolgen?</li><li>Verfügen Sie über die Ressourcen zum Entwerfen und Verwalten einer Erstinstallation&mdash;und laufende&mdash;Annahme Kampagne (zur Förderung des Bekanntheitsgrads, Schulung und Support)?</li><li>Verfügen Sie über eine dedizierte Benutzer Annahme/ändern Managementteam, oder können Sie in diese Ressourcen, um sicherzustellen, dass Geschäftsergebnisse investieren?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Wenn Sie beantwortet haben &quot;Ja&quot; für alle oben genannten Antworten, identifizieren Sie die richtigen Benutzer Änderung Management Beteiligten und der benutzerbereitschaft Planung beginnen.</li><li>Wenn Sie beantwortet haben &quot;keine&quot; sollten Sie einige oder alle oben genannten ansprechenden außerhalb Ressourcen mit gesteuerter Änderungsmanagement und Aktivitäten im Zusammenhang mit der Annahme für Ihre Organisation unterstützen.</li></ol></td></tr>
 </table>
 
 
@@ -216,8 +216,8 @@ Weitere Informationen finden Sie unter [Quality of Service in Microsoft-Teams](h
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Durchführung der richtigen Netzwerk Bewertung in allen Netzwerksegmenten und Organisation Speicherorte verantwortlich sein?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Führen Sie eine Bewertung detaillierte Netzwerk, um sicherzustellen, dass Ihr Netzwerk für die Bereitstellung von Microsoft-Teams bereit ist. Weitere Informationen finden Sie unter [Bereitschaft des Netzwerks](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Führen Sie basierend auf den Ergebnissen der Netzwerk-Bereitschaft für jedes Netzwerksegment Netzwerk Remediation.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Durchführung der richtigen Netzwerk Bewertung in allen Netzwerksegmenten und Organisation Speicherorte verantwortlich sein?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Führen Sie eine Bewertung detaillierte Netzwerk, um sicherzustellen, dass Ihr Netzwerk für die Bereitstellung von Microsoft-Teams bereit ist. Weitere Informationen finden Sie unter <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Bereitschaft des Netzwerks</a>.</li><li>Führen Sie basierend auf den Ergebnissen der Netzwerk-Bereitschaft für jedes Netzwerksegment Netzwerk Remediation.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -28,12 +28,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: d22dc0c3102549a8728131e20bf44ecdb0d7e8e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e1e5c362ba1074b48949fffe6b2c70579f377dda
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013539"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375068"
 ---
 # <a name="calling-plans-for-office-365"></a>Anrufpläne für Office 365
 
@@ -55,7 +55,7 @@ Ausführliche Informationen zu Einschränkungen und rechtliche Hinweise finden S
   
 ## <a name="how-to-buy-a-calling-plan"></a>Informationen zum Erwerben von Aufrufen planen
 
-1. **Sie müssen zuerst eine **Telefonsystem** Add-On-Lizenz erwerben**. Um mehr zu tun, [Melden Sie sich bei Office 365 Administrationscenter](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und **Abrechnung** > **Dienste erwerben** > **Add-on Abonnements** > **Jetzt kaufen**.
+1. <strong>Müssen Sie zuerst erwerben eine ** Telefonsystem</strong> Add-On-Lizenz<strong>. Zu tun, [Melden Sie sich bei Office 365 Administrationscenter](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) , und wählen ** Abrechnung</strong> > **Dienste erwerben** > **Add-on Abonnements** > **Jetzt kaufen**.
     
     ![Wenn Sie Ihre Cloud-PBX-Lizenzen kaufen, sehen Sie eine Option, um eine Stimme aufrufen Plan kaufen.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   

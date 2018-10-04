@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Live Meeting-Features und Funktionen in Skype für Business Server erhalten.'
-ms.openlocfilehash: b9c28c2a4f4f45bb9b79413269ebecd5a7f83464
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002871"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375797"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planen von Konferenzen in Skype for Business Server
  
@@ -72,7 +72,7 @@ Mit der AV-Konferenzfunktion können in der Besprechung Audio- und Videodaten ü
     
 - **Hinzufügen eines Benutzers durch Telefonverbindung.** Referenten und Teilnehmer, die Berechtigung erteilt wurden können PSTN-Nummern zu Konferenzen hinzufügen und auf diese Nummern Dial-Out-Konferenz.
     
- Skype für Business Server bietet verschiedene Features, die Benutzer verwenden können, so konfigurieren Sie die Videokonferenzen für den Benutzer, einschließlich der folgenden auftreten:
+  Skype für Business Server bietet verschiedene Features, die Benutzer verwenden können, so konfigurieren Sie die Videokonferenzen für den Benutzer, einschließlich der folgenden auftreten:
   
 - **Katalogansicht.** In Videokonferenzen, an denen mehr als zwei Personen teilnehmen, sehen die Benutzer automatisch alle Teilnehmer der Konferenz. Wenn die Konferenz mehr als fünf Teilnehmer hat, werden in der ersten Zeile die Videos der aktivsten Teilnehmer angezeigt und für die übrigen Teilnehmer Fotos. Die Videoaushandlung ist standardmäßig aktiviert.
     

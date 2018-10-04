@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: Erfahren Sie mehr über die umgebungsanforderungen für Edge-Server in Skype für Business Server.'
-ms.openlocfilehash: 8b384b91c90997b5008f79f44de42fe9bf35876e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 30bab83832d92fa77742bdaba39757f25e496c36
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891048"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373436"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edge-Server-umgebungsanforderungen in Skype für Business Server
  
@@ -223,23 +223,23 @@ Die DNS-Einträge werden, Sie möchten eines einzigen Edge-Server entweder öffe
     
   - Knoten 2
     
-     - Öffentliche IPs:
+    - Öffentliche IPs:
     
-       - Zugriffs-Edgeservers: 131.107.155.11 (Dies ist die primäre, mit Standardgateway auf den öffentlichen Router ex festgelegt: 131.107.155.1)
+      - Zugriffs-Edgeservers: 131.107.155.11 (Dies ist die primäre, mit Standardgateway auf den öffentlichen Router ex festgelegt: 131.107.155.1)
     
-       - Webkonferenz-Edgeserver: 131.107.155.21 (sekundär)
+      - Webkonferenz-Edgeserver: 131.107.155.21 (sekundär)
     
-       - A / V-Edgeserver: 131.107.155.31 (sekundär)
+      - A / V-Edgeserver: 131.107.155.31 (sekundär)
     
       Webkonferenzen und A / V-Edgeserver, öffentliche IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften des Internet Protocol Version 4 (TCP/IPv4) und Internetprotokoll Version 6 (TCP/IPv6) von der LAN-Verbindungseigenschaften in WindowsServer.
     
   - Private IPs:
     
-      - Zugriffs-Edgeservers: 10.45.16.11 (Dies ist die primäre, mit Standardgateway auf dem Router ex festgelegt: 10.45.16.1)
+    - Zugriffs-Edgeservers: 10.45.16.11 (Dies ist die primäre, mit Standardgateway auf dem Router ex festgelegt: 10.45.16.1)
     
-      - Webkonferenz-Edgeserver: 10.45.16.21 (sekundär)
+    - Webkonferenz-Edgeserver: 10.45.16.21 (sekundär)
     
-      - A / V-Edgeserver: 10.45.16.31 (sekundär)
+    - A / V-Edgeserver: 10.45.16.31 (sekundär)
     
       Webkonferenzen und A / V-Edgeserver, öffentliche IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Abschnitt erweitert der Eigenschaften des Internet Protocol Version 4 (TCP/IPv4) und Internetprotokoll Version 6 (TCP/IPv6) von der LAN-Verbindungseigenschaften in WindowsServer.
     

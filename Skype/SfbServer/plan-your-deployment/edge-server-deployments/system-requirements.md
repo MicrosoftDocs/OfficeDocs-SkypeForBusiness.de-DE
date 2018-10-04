@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: Informationen Sie zu den Systemanforderungen für Edge-Server in Skype für Business Server.'
-ms.openlocfilehash: 3e5bdd5ad47004f7908a8bd39cb122d1f03ce96f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886969"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374871"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Edge-Server-System Requirements in Skype für Business Server
  
@@ -99,7 +99,7 @@ Die aktuellen Reverseproxy Empfehlungen finden Sie auf der Seite [Telefonie-Infr
     
 - Eine intern gehostete Website extern mit einem voll qualifizierten Domänennamen (FQDN) zu veröffentlichen.
     
-- Alle Inhalte Ihrer gehosteten Website zu veröffentlichen. Standardmäßig können die ** / ** -Direktive, die von den meisten Webservern erkannt wird, bedeutet "Alle Inhalte auf dem Webserver veröffentlichen". Sie können auch die Richtlinie ändern – beispielsweise **/Uwca/\***, was bedeutet, dass "Veröffentlichen sämtliche Inhalte unter das virtuelle Verzeichnis Ucwa."
+- Alle Inhalte Ihrer gehosteten Website zu veröffentlichen. Standardmäßig können die ** / ***-Direktive, die von den meisten Webservern erkannt wird, bedeutet "Alle Inhalte auf dem Webserver veröffentlichen". Sie können auch die Richtlinie ändern – beispielsweise ** /Uwca/\\***, was bedeutet, dass "Veröffentlichen sämtliche Inhalte unter das virtuelle Verzeichnis Ucwa."
     
 - TLS-Verbindungen mit Clients voraussetzen, die Inhalte von Ihrer veröffentlichten Website anfordern.
     

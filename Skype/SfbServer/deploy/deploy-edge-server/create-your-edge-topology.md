@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server.'
-ms.openlocfilehash: 772a37437af902513d7245a1e8bd18a565fca5e9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b01f0c107207d79f62a092acc2e287e632969234
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883915"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372773"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Erstellen Sie eine Edge-Topologie für Skype für Business Server
  
@@ -144,7 +144,7 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
    - IPv6 für die externe Schnittstelle aktivieren
     
-    Dies sind mehr oder weniger selbsterklärend, ob Sie IPv4 oder IPv6-Adressen verwenden, und Sie diese Adressen auf Edge-Server, intern oder extern anwenden können (Sie müssen dies für Schritt 11 im Hinterkopf behalten). Sie haben auch die Möglichkeit, den Edge-Server oder den Edge-Pool konfigurieren eine Netzwerkadresse für Adresse Netzwerkadressübersetzung (NAT) für die externe IP-Adresse verwenden. Wählen Sie dafür das Kontrollkästchen **Die externe IP-Adresse dieses Edgepools wird von der NAT übersetzt** aus. Klicken Sie anschließend auf **Weiter**.
+     Dies sind mehr oder weniger selbsterklärend, ob Sie IPv4 oder IPv6-Adressen verwenden, und Sie diese Adressen auf Edge-Server, intern oder extern anwenden können (Sie müssen dies für Schritt 11 im Hinterkopf behalten). Sie haben auch die Möglichkeit, den Edge-Server oder den Edge-Pool konfigurieren eine Netzwerkadresse für Adresse Netzwerkadressübersetzung (NAT) für die externe IP-Adresse verwenden. Wählen Sie dafür das Kontrollkästchen **Die externe IP-Adresse dieses Edgepools wird von der NAT übersetzt** aus. Klicken Sie anschließend auf **Weiter**.
     
 9. Die Auswahlmöglichkeiten auf dem Bildschirm der externen FQDNs hängen von der in Schritt 7 getroffenen Auswahl ab.
     
@@ -212,10 +212,10 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
    - IPv6 für die externe Schnittstelle aktivieren
     
-    Dies sind mehr oder weniger selbsterklärend, ob Sie IPv4 oder IPv6-Adressen verwenden, und Sie diese Adressen auf Edge-Server, intern oder extern anwenden können (Sie müssen dies für Schritt 11 im Hinterkopf behalten).
+     Dies sind mehr oder weniger selbsterklärend, ob Sie IPv4 oder IPv6-Adressen verwenden, und Sie diese Adressen auf Edge-Server, intern oder extern anwenden können (Sie müssen dies für Schritt 11 im Hinterkopf behalten).
     
-    > [!NOTE]
-    > Im Gegensatz zu den anderen zwei Topologieoptionen, wenn Sie ein Hardwaregerät zum Lastenausgleich verwenden Wählen Sie **Darf nicht** die Option **wird die externe IP-Adresse des Edge-Pools von NAT übersetzt**. Dies wird **nicht unterstützt**.
+     > [!NOTE]
+     > Im Gegensatz zu den anderen zwei Topologieoptionen, wenn Sie ein Hardwaregerät zum Lastenausgleich verwenden Wählen Sie **Darf nicht** die Option **wird die externe IP-Adresse des Edge-Pools von NAT übersetzt**. Dies wird **nicht unterstützt**.
   
 9. Die Auswahlmöglichkeiten auf dem Bildschirm der externen FQDNs hängen von der in Schritt 7 getroffenen Auswahl ab.
     

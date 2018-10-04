@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fa7f3450f563dad6be2bfc857724e7c6fe2ba16
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016765"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373292"
 ---
 # <a name="plan-my-users-experience"></a>Planen von meiner Benutzer-Erlebnis
 
@@ -85,8 +85,8 @@ Manche Organisationen möchten Wi-Fi ganz zu vermeiden. In einigen Fällen wird 
 Wenn Ihre Organisation verwendet Drahtloszugriffspunkte oder Router, die das 802.11-Energiesparmodus Protokoll nicht unterstützen, können Sie Verworfene Anrufe oder Anrufe schlechter Qualität Qualität in Microsoft-Teams, die auf Windows-Geräten ausgeführt auftreten. Ist es nicht möglich, Ihre drahtlosen Zugriffspunkt oder Router zu aktualisieren, sollten Sie Windows Power Planen der Einstellungen auf Geräten aktualisieren, die auf Batterie ausgeführt. Weitere Details und Konfiguration Leitlinien wird in der folgenden [Artikel unterstützen](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)bereitgestellt.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Welche Teams Clients in Ihrer Organisation bereitgestellt werden?</li><li>Wie werden Sie zunächst Teams Clients für die Benutzer bereitstellen?</li><li>Wer für die Auswertung von Endpunkten und Geräte überprüfen verantwortlich ist diese Teams Anforderungen für eine Quality of Experience entsprechen?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Dokumentieren des Prozesses, der zum Bereitstellen von Teams-Clients ausgeführt wird.</li><li>Auswertung von Endpunkten und Geräten, und führen und-Wartung erforderlich.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Welche Teams Clients in Ihrer Organisation bereitgestellt werden?</li><li>Wie werden Sie zunächst Teams Clients für die Benutzer bereitstellen?</li><li>Wer für die Auswertung von Endpunkten und Geräte überprüfen verantwortlich ist diese Teams Anforderungen für eine Quality of Experience entsprechen?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren des Prozesses, der zum Bereitstellen von Teams-Clients ausgeführt wird.</li><li>Auswertung von Endpunkten und Geräten, und führen und-Wartung erforderlich.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -106,8 +106,8 @@ Nachdem Sie die Geräte ausgewählt haben, können Sie diese in den Pilottest Pl
 > Zu diesem Zeitpunkt sollten mithilfe von Audiogeräte, die über die Skype für Business Zertifizierungsprogramm zertifiziert wurden. Finden Sie unter dieses Programm zertifizierte Geräte in den Lösungskatalog für [USB-Geräte zertifiziert für Skype für Unternehmen](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte</td><td><ul><li>Legen Sie allgemeine Gerät-Strategie für Benutzer- und meeting Room Erfahrungen Ihres Unternehmens.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Nächste Schritte</td><td><ul><li>Führen Sie eine Übung Persona-Geräte-Zuordnung für Ihre Organisation.</li><li>Den Prozess zum Abrufen von Geräten für Benutzer und Besprechungsräumen des Dokuments.</li><li>Den Prozess für die Bereitstellung und Konfiguration von Geräten für Benutzer und Besprechungsräumen des Dokuments.</li><li>Bereitstellen von anfänglichen Geräte mit der Bereitstellung beginnen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Legen Sie allgemeine Gerät-Strategie für Benutzer- und meeting Room Erfahrungen Ihres Unternehmens.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Führen Sie eine Übung Persona-Geräte-Zuordnung für Ihre Organisation.</li><li>Den Prozess zum Abrufen von Geräten für Benutzer und Besprechungsräumen des Dokuments.</li><li>Den Prozess für die Bereitstellung und Konfiguration von Geräten für Benutzer und Besprechungsräumen des Dokuments.</li><li>Bereitstellen von anfänglichen Geräte mit der Bereitstellung beginnen.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Zusammenfassung: Informationen Sie zum Erstellen, ändern und Szenarien für die zentralisierte Protokollierungsdienst in Skype für Business Server 2015 zu entfernen.'
-ms.openlocfilehash: acfd7ae44d7fde1e585792e691c604d18471b29e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e80324d4228aec503c887927459e42188741837f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016397"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373930"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  
@@ -62,21 +62,21 @@ Wie in [Centralized Logging Service in Skype für Business 2015](centralized-log
     
     Geben Sie zum Erstellen eines Szenarios mit den definierten Optionen Folgendes ein:
     
-  ```
-  New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
-  ```
+   ```
+   New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
+   ```
 
     Beispiel:
     
-  ```
-  New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
-  ```
+   ```
+   New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
+   ```
 
     Alternatives Format mithilfe von-Name "und" – Parent:
     
-  ```
-  New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
-  ```
+   ```
+   New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
+   ```
 
 ### <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>So erstellen Sie ein neues Szenario mit mehreren Anbietern mithilfe des Cmdlets „New-CsClsScenario“
 
@@ -84,9 +84,9 @@ Wie in [Centralized Logging Service in Skype für Business 2015](centralized-log
     
 2. Für jeweils einen Geltungsbereich können Sie nur zwei Szenarien erstellen. Sie sind jedoch nicht auf eine feste Anzahl von Anbietern beschränkt. In diesem Beispiel wird davon ausgegangen, dass drei Anbieter erstellt wurden, die Sie allesamt dem Szenario zuweisen möchten, das Sie soeben erstellen. Die Variablennamen der Anbieter lauten „LyssProvider“, „ABServerProvider“ und „SIPStackProvider“. Um zu definieren, und weisen Sie mehreren Anbietern zu einem Szenario, geben Sie an einer Skype für Business Server-Verwaltungsshell oder mit Windows PowerShell-Eingabeaufforderung Folgendes ein:
     
-  ```
-  New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
-  ```
+   ```
+   New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
+   ```
 
     > [!NOTE]
     > Wie in folgende Konvention für die Erstellung einer Hashtabelle von Werten mithilfe von Windows PowerShell bekannt ist `@{<variable>=<value1>, <value2>, <value>…}` Assplatting bekannt ist. Ausführliche Informationen zu Splatting in Windows PowerShell finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760). 
@@ -97,33 +97,33 @@ Wie in [Centralized Logging Service in Skype für Business 2015](centralized-log
     
 2. Es gilt eine Beschränkung auf zwei Szenarien pro Geltungsbereich. Sie können jederzeit ändern, welche Szenarien ausgeführt werden, auch wenn gerade eine Protokollerfassungssitzung läuft. Falls Sie die ausgeführten Szenarien neu definieren, verwendet die aktuelle Protokollierungssitzung ab diesem Zeitpunkt nicht mehr das entfernte Szenario, sondern stattdessen das neue Szenario. Die Protokollinformationen, die im Rahmen des entfernten Szenarios erfasst wurden, verbleiben jedoch in den erfassten Protokollen. Um ein neues Szenario zu definieren, gehen Sie folgendermaßen (, die das Hinzufügen eines bereits definierten-Anbieters mit dem Namen "S4Provider" vorausgesetzt wird):
     
-  ```
-  Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
-  ```
+   ```
+   Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
+   ```
 
     Beispiel:
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
+   ```
 
     Falls Sie Anbieter ersetzen möchten, definieren Sie einen einzelnen Anbieter oder eine kommagetrennte Liste mit Anbietern, um die aktuelle Gruppe zu ersetzen. Für den Fall, dass Sie nur einen von vielen Anbietern ersetzen möchten, fügen Sie die aktuellen Anbieter zu den neuen Anbietern hinzu, um eine neue Gruppe von Anbietern zu erstellen, die sowohl die neuen als auch die zuvor vorhandenen Anbieter enthält. Geben Sie Folgendes ein, um sämtliche Anbieter durch eine neue Gruppe zu ersetzen:
     
-  ```
-  Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
-  ```
+   ```
+   Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
+   ```
 
     Beispiel, bei dem die aktuelle aus „$LyssProvider“, „$ABServerProvider“ und „$SIPStackProvider“ bestehende Gruppe durch „$LyssServiceProvider“ ersetzt wird:
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
+   ```
 
     Geben Sie Folgendes ein, um lediglich den Anbieter „$LyssProvider“ aus der aktuellen Gruppe mit „$LyssProvider“, „$ABServerProvider“ und „$SIPStackProvider“ durch den Anbieter „$LyssServiceProvider“ zu ersetzen:
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
+   ```
 
 ### <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>So entfernen Sie ein vorhandenes Szenario mithilfe des Cmdlets „Remove-CsClsScenario“
 
@@ -131,15 +131,15 @@ Wie in [Centralized Logging Service in Skype für Business 2015](centralized-log
     
 2. Wenn Sie ein Szenario entfernen möchten, das zuvor definiert wurde, geben Sie Folgendes ein:
     
-  ```
-  Remove-CsClsScenario -Identity <name of scope and scenario>
-  ```
+   ```
+   Remove-CsClsScenario -Identity <name of scope and scenario>
+   ```
 
     Beispiel für das Entfernen des Szenarios „site:Redmond/LyssServiceScenario“:
     
-  ```
-  Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
-  ```
+   ```
+   Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
+   ```
 
 Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, aber die Spuren, die erfasst wurden in den Protokollen für die Sie für die Suche weiterhin verfügbar sind.
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>So laden und entladen Sie das Cmdlet „Edit-CsClsScenario“ mithilfe des Moduls „ClsScenarioEdit.psm1“
@@ -151,18 +151,18 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, aber die S
   
 2. Geben Sie von der Windows PowerShell Folgendes ein:
     
-  ```
-  Import-Module "CDBurn\OCO\amd64\Support"
-  ```
+   ```
+   Import-Module "CDBurn\OCO\amd64\Support"
+   ```
 
     > [!TIP]
     > Laden des Moduls gibt Sie an der Windows PowerShell-Eingabeaufforderung zurück. Um zu bestätigen, dass das Modul geladen ist und Edit-CsClsScenario verfügbar ist, geben Sie ein `Get-Help Edit-CsClsScenario`. Daraufhin sollte die grundlegende Kurzfassung der Syntax für „EditCsClsScenario“ angezeigt werden. 
   
 3. Geben Sie zum Entladen des Moduls Folgendes ein:
     
-  ```
-  Remove-Module ClsController
-  ```
+   ```
+   Remove-Module ClsController
+   ```
 
     > [!TIP]
     > Erfolgreiche Entladen des Moduls gibt Sie an der Windows PowerShell-Eingabeaufforderung. Um zu bestätigen, dass das Modul entladen wird, geben Sie ein `Get-Help Edit-CsClsScenario`. Windows PowerShell versucht, suchen die Hilfe für das Cmdlet und ein Fehler auftritt. 
@@ -173,32 +173,32 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, aber die S
     
 2. Geben Sie von der Windows PowerShell Folgendes ein:
     
-  ```
-  Import-Module "CDBurn\OCO\amd64\Support"
-  ```
+   ```
+   Import-Module "CDBurn\OCO\amd64\Support"
+   ```
 
     > [!TIP]
     > Laden des Moduls gibt Sie an der Windows PowerShell-Eingabeaufforderung zurück. Um zu bestätigen, dass das Modul geladen ist und Edit-CsClsScenario verfügbar ist, geben Sie ein `Get-Help Edit-CsClsScenario`. Daraufhin sollte die grundlegende Kurzfassung der Syntax für „EditCsClsScenario“ angezeigt werden. 
   
 3. Geben Sie Folgendes ein, um einen Anbieter aus dem Szenario „AlwaysOn“ zu entfernen:
     
-  ```
-  Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
+   ```
 
-  Beispiel:
+   Beispiel:
     
-  ```
-  Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
+   ```
 
    Bei den Parametern „ScenarioName“ und „ProviderName“ handelt es sich um Positionsparameter (d. h., dass sie in der erwarteten Position in der Eingabeaufforderung definiert werden müssen). Der Parametername muss nicht explizit definiert werden, sofern der Szenarioname an zweiter Position und der Anbieter an dritter Position steht (in Bezug auf den Namen des Cmdlets, der an erster Position steht):
     
-  ```
-  Edit-CsClsScenario AlwaysOn ChatServer -Remove
-  ```
+   ```
+   Edit-CsClsScenario AlwaysOn ChatServer -Remove
+   ```
 
-  Die positionelle Platzieren der Parameterwerte bezieht sich nur auf - Szenario und -Anbieter. Alle anderen Parameter müssen explizit definiert werden.
+   Die positionelle Platzieren der Parameterwerte bezieht sich nur auf - Szenario und -Anbieter. Alle anderen Parameter müssen explizit definiert werden.
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>So fügen Sie ein Szenario mit dem Modul „Edit-ClsController“ hinzu
 
@@ -206,20 +206,20 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, aber die S
     
 2. Geben Sie Folgendes ein, um einen Anbieter zum Szenario „AlwaysOn“ hinzuzufügen:
     
-  ```
-  Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
+   ```
 
     Beispiel:
     
-  ```
-  Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
+   ```
 
     Mögliche Typen für „-Loglevel“ sind „Fatal“, „Error“, „Warning“, „Info“, „Verbose“, „Debug“ oder „All“. -Flags kann eines der Flags, die der Anbieter unterstützt werden, beispielsweise TF_COMPONENT, TF_DIAG. -Flags können auch sein, der alle Wert
     
-  Das vorherige Beispiel kann auch mithilfe der Positionsfunktion des Cmdlets eingegeben werden. So würden Sie beispielsweise Folgendes eingeben, um „ChatServer“ zum Szenario „AlwaysOn“ hinzuzufügen:
+   Das vorherige Beispiel kann auch mithilfe der Positionsfunktion des Cmdlets eingegeben werden. So würden Sie beispielsweise Folgendes eingeben, um „ChatServer“ zum Szenario „AlwaysOn“ hinzuzufügen:
     
-  ```
-  Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
-  ```
+   ```
+   Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
+   ```

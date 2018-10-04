@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f302ddca1470d0e35a6b983ae52afa08f2533c8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016245"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374380"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -63,6 +63,7 @@ Verwenden Sie die folgenden Unterhaltung Starter Durchführen einer Bewertung de
 | *Informed users* accept the solution as soon as its value is demonstrated.    |       |
 | *Laggards* reject the solution, even when pushed into change. |       |
 -->
+
 | Frühe Übernahmen  | Informiert Benutzer  | Nachzügler |
 |-----------------|-----------------|----------|
 | Diese Benutzer anfordern die Lösung, bevor es zur Verfügung steht. | Diese Benutzer akzeptieren Sie die Lösung als dessen Wert veranschaulicht wird. | Diese Benutzer ablehnen die Lösung, selbst wenn in einer Änderung verschoben. |
@@ -80,6 +81,7 @@ Verwenden Sie die folgenden Unterhaltung Starter Durchführen einer Bewertung de
 | *Team-players* enjoy group and interactive training; they’ll go along with coworkers. |       |
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance.      |       |
 -->
+
 | Unabhängig davon  | Team Spieler  | Angreifer Hand-Betrieb |
 |-----------------|-----------------|----------|
 | Diese Teilnehmern seek Ressourcen, dadurch erfahren. | Diese Benutzer genießen Sie die Gruppe und interaktiven Schulungen; Gehen sie zusammen mit Kollegen. | Diese Benutzer erwarten, dass "weißen Handschuh" oder Angebot einer direkten Unterstützung. |
@@ -109,10 +111,10 @@ Die folgende Tabelle enthält Beispiele von universellen Anwendungsfällen für 
 
 <table>
 <tbody>
-<tr><th width="10%">**Anwendungsfall**</th><th width="30%">**Merkmale**</th><th width="30%">**Herausforderungen**</th><th width="30%">**Mit den Teams**</th></tr>
-<tr><td>**Persönliche Produktivität**</td><td><ul><li>"Vorgehensweise" täglichen Liste</li><li>Abhängigkeit von anderen Benutzern an eine bestimmte Aufgabe</li></ul></td><td><ul><li>E-Mail-Nachrichten und Anlagen können verloren gehen</li><li>Anrufe an die Voicemail ausgeführt werden</li><li>Kollegen sind offline</li><li>Veraltete lokale Kopien aufgelistet werden, auf dem desktop</li></ul></td><td><ul><li>Senden Sie online und offline Nachrichten, die viele Personen Ausfindigmachen müssen</li><li>Permanente Gespräche mit Dateianlagen reduzieren die Notwendigkeit, mehrere Orte suchen oder mehrere Versionen verwalten</li></ul></td></tr>
-<tr><td>**Besprechungen**</td><td><ul><li>Telefonkonferenzen oder onlinebesprechungen</li><li>Internen oder externen Teilnehmern</li><li>Office und Remote-Teilnehmer</li></ul></td><td><ul><li>Wenig zu kein Kontext bereitgestellt wird, bevor Besprechungen </li><li>Remoteteilnehmern fühlen verbleibt</li><li>Mangelnde visuelle Verbindung</li><li>Auf den neuesten Stand, wenn Sie die Besprechung verpasst haben eine Herausforderung</li><li>Nach dem meeting Momentum geht verloren</li></ul></td><td><ul><li>Erstellen von Momentum vor der Besprechung mit Unterhaltung und gemeinsame Nutzung von Inhalten</li><li>Teilnehmen an für Geräte</li><li>Kontaktaufnahme mit Video und Freigabe von app sicherstellen, dass Ausrichtung</li><li>Aufzeichnen von Besprechungen für absent Teilnehmer</li><li>Aufzeichnen von Notizen, Aktionen (& #64; erwähnungen) für Accountability und leicht Nachsorge</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Alles innerhalb einer Schnittstelle!_</td></tr>
-<tr><td>**Gruppieren von Projekten**</td><td><ul><li>Viele Beteiligte Projektarbeit</li><li>Informationen und Dokumentfreigabe</li><li>Mithilfe von mehreren apps</li></ul> </td><td><ul><li>Gang Unterhaltungen Ursache mit größeren Gruppe trennen</li><li>Frustration über Doc Speicherort und versionsverwaltung</li><li>Unsicherheit accountability</li></ul> </td><td><ul><li>Halten Sie alle Unterhaltungen im Team/Channel Transparenz</li><li>Verknüpfung auf relevante Dokumente. PIN kritische sowie das Festlegen der Sichtbarkeit sicherzustellen.</li><li>Optimieren der Doc versioning</li><li>Zugriff auf Office und Drittanbieter-apps, tätigen einen true-Hub für Zusammenarbeit</li></ul> </td></tr>
+<tr><th width="10%"><strong>Anwendungsfall</strong></th><th width="30%"><strong>Merkmale</strong></th><th width="30%"><strong>Herausforderungen</strong></th><th width="30%"><strong>Mit den Teams</strong></th></tr>
+<tr><td><strong>Persönliche Produktivität</strong></td><td><ul><li>"Vorgehensweise" täglichen Liste</li><li>Abhängigkeit von anderen Benutzern an eine bestimmte Aufgabe</li></ul></td><td><ul><li>E-Mail-Nachrichten und Anlagen können verloren gehen</li><li>Anrufe an die Voicemail ausgeführt werden</li><li>Kollegen sind offline</li><li>Veraltete lokale Kopien aufgelistet werden, auf dem desktop</li></ul></td><td><ul><li>Senden Sie online und offline Nachrichten, die viele Personen Ausfindigmachen müssen</li><li>Permanente Gespräche mit Dateianlagen reduzieren die Notwendigkeit, mehrere Orte suchen oder mehrere Versionen verwalten</li></ul></td></tr>
+<tr><td><strong>Besprechungen</strong></td><td><ul><li>Telefonkonferenzen oder onlinebesprechungen</li><li>Internen oder externen Teilnehmern</li><li>Office und Remote-Teilnehmer</li></ul></td><td><ul><li>Wenig zu kein Kontext bereitgestellt wird, bevor Besprechungen </li><li>Remoteteilnehmern fühlen verbleibt</li><li>Mangelnde visuelle Verbindung</li><li>Auf den neuesten Stand, wenn Sie die Besprechung verpasst haben eine Herausforderung</li><li>Nach dem meeting Momentum geht verloren</li></ul></td><td><ul><li>Erstellen von Momentum vor der Besprechung mit Unterhaltung und gemeinsame Nutzung von Inhalten</li><li>Teilnehmen an für Geräte</li><li>Kontaktaufnahme mit Video und Freigabe von app sicherstellen, dass Ausrichtung</li><li>Aufzeichnen von Besprechungen für absent Teilnehmer</li><li>Aufzeichnen von Notizen, Aktionen (& #64; erwähnungen) für Accountability und leicht Nachsorge</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em>Alles innerhalb einer Schnittstelle!</em></td></tr>
+<tr><td><strong>Gruppieren von Projekten</strong></td><td><ul><li>Viele Beteiligte Projektarbeit</li><li>Informationen und Dokumentfreigabe</li><li>Mithilfe von mehreren apps</li></ul> </td><td><ul><li>Gang Unterhaltungen Ursache mit größeren Gruppe trennen</li><li>Frustration über Doc Speicherort und versionsverwaltung</li><li>Unsicherheit accountability</li></ul> </td><td><ul><li>Halten Sie alle Unterhaltungen im Team/Channel Transparenz</li><li>Verknüpfung auf relevante Dokumente. PIN kritische sowie das Festlegen der Sichtbarkeit sicherzustellen.</li><li>Optimieren der Doc versioning</li><li>Zugriff auf Office und Drittanbieter-apps, tätigen einen true-Hub für Zusammenarbeit</li></ul> </td></tr>
 </tbody>
 </table>
 

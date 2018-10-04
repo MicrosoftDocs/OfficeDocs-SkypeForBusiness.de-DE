@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Zusammenfassung: Erfahren Sie, wie Benutzerkonten für Business Server lokal in Skype von online zu verschieben.'
-ms.openlocfilehash: 77ef2ad5cf22632d3f81f35fc0c3a20054303e96
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 033fb0a3a2cce6c763113ca94ea8af3c652cbbf5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884531"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374358"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Verschieben von Benutzern von Skype für Business Online auf lokal
 
@@ -87,15 +87,15 @@ Nachdem Sie diese Schritte abgeschlossen haben, können Sie Benutzerkonten migri
 
 1. Stellen Sie zuerst sicher, dass Ihre Organisation für die Hybridbereitstellung konfiguriert ist, einschließlich für Azure Active Directory-Verbindungs- und Synchronisierungstools. Weitere Informationen finden Sie unter [Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
 
-  - Geben Sie in der lokalen Bereitstellung der Skype für Business Server-Verwaltungsshell die folgenden Cmdlets zum Erstellen der Hostinganbieter für Skype für Business Online. Für die Parameter Identität und Name können Sie jeden beliebigen Wert wählen.
+   - Geben Sie in der lokalen Bereitstellung der Skype für Business Server-Verwaltungsshell die folgenden Cmdlets zum Erstellen der Hostinganbieter für Skype für Business Online. Für die Parameter Identität und Name können Sie jeden beliebigen Wert wählen.
 
-  ```
-  Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-  ```
+   ```
+   Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+   ```
 
-  ```
-  New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
-  ```
+   ```
+   New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+   ```
 
 2. Vergewissern Sie sich, dass auf Ihrem lokalen Edge-Servern Sie die Zertifikatkette, die Verbindung mit Skype für Online Business ermöglicht haben wie in der folgenden Tabelle dargestellt. Sie können diese Kette hier herunterladen: [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip).
 
@@ -107,33 +107,33 @@ Nachdem Sie diese Schritte abgeschlossen haben, können Sie Benutzerkonten migri
 
 3. Aktivieren Sie im lokalen Active Directory die betroffenen Benutzerkonten für Skype für Business Server 2015 lokal. Geben Sie dafür für einen einzelnen Benutzer das folgende Cmdlet ein:
 
-  ```
-  Enable-CsUser
--Identity "username "
--SipAddress "sip: username @contoso.com"
--HostingProviderProxyFqdn "sipfed.online.lync.com"
-  ```
+   ```
+   Enable-CsUser
+   -Identity "username "
+   -SipAddress "sip: username @contoso.com"
+   -HostingProviderProxyFqdn "sipfed.online.lync.com"
+   ```
 
     Oder erstellen Sie ein Skript, das Benutzernamen aus einer Datei liest und sie als Eingabe für das Cmdlet „Enable-CsUser“ bereitstellt:
 
-  ```
-  Enable-CsUser
--Identity $Identity
--SipAddress $SipAddress
--HostingProviderProxyFqdn "sipfed.online.lync.com"
-  ```
+   ```
+   Enable-CsUser
+   -Identity $Identity
+   -SipAddress $SipAddress
+   -HostingProviderProxyFqdn "sipfed.online.lync.com"
+   ```
 
 4. Synchronisieren Sie die online-Benutzer mit den aktualisierten lokalen Benutzern. Weitere Informationen finden Sie unter [Directory Integration Tools](https://go.microsoft.com/fwlink/p/?LinkId=530320).
 
 5. Aktualisieren Sie die folgenden DNS-Einträge, um alle SIP-Datenverkehr an Ihre lokale Bereitstellung leiten:
 
-  - Aktualisieren Sie den Eintrag **lyncdiscover.contoso.com** so, dass er auf den FQDN des lokalen Reverseproxyservers verweist.
+   - Aktualisieren Sie den Eintrag **lyncdiscover.contoso.com** so, dass er auf den FQDN des lokalen Reverseproxyservers verweist.
 
-  - Update der ** *_sip* . _tls.contoso.com** SRV-Eintrag zum Auflösen in die öffentliche IP-Adresse oder die VIP-Adresse des Zugriffs-edgedienst der lokalen Lync.
+   - Update der ** *_sip* . _tls.contoso.com** SRV-Eintrag zum Auflösen in die öffentliche IP-Adresse oder die VIP-Adresse des Zugriffs-edgedienst der lokalen Lync.
 
-  - Update der ** *_sipfederationtls* . _tcp.contoso.com** an die öffentliche IP-Adresse oder die VIP-Adresse des Zugriffs-edgedienst der Skype aufzulösende für Business Server 2015 lokale-SRV-Eintrag.
+   - Update der ** *_sipfederationtls* . _tcp.contoso.com** an die öffentliche IP-Adresse oder die VIP-Adresse des Zugriffs-edgedienst der Skype aufzulösende für Business Server 2015 lokale-SRV-Eintrag.
 
-  - Wenn Ihre Organisation verwendet DNS (manchmal als "Split-Brain-DNS" bezeichnet) geteilt, stellen Sie sicher, dass Benutzer, die zum Auflösen von Namen durch die internen DNS-Zone auf den Front-End-Pool weitergeleitet werden.
+   - Wenn Ihre Organisation verwendet DNS (manchmal als "Split-Brain-DNS" bezeichnet) geteilt, stellen Sie sicher, dass Benutzer, die zum Auflösen von Namen durch die internen DNS-Zone auf den Front-End-Pool weitergeleitet werden.
 
 6. Typ der `Get-CsUser` Cmdlet einige Eigenschaften über die Benutzer überprüfen, die verschoben werden können. Sie sollten sicherstellen, dass HostingProviderProxyFQDN auf `"sipfed.online.lync.com"` festgelegt ist und die SIP-Adressen ordnungsgemäß eingerichtet sind.
 
@@ -141,16 +141,16 @@ Nachdem Sie diese Schritte abgeschlossen haben, können Sie Benutzerkonten migri
 
     Geben Sie Folgendes ein, um einen einzelnen Benutzer zu verschieben:
 
-  ```
-  $cred = Get-Credential
-  Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
-  ```
+   ```
+   $cred = Get-Credential
+   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
+   ```
 
     Verschieben mehrerer Benutzer können mit dem Cmdlet **Get-CsUSer** mit dem Parameter Filter, um die Benutzer mit einer bestimmten Eigenschaft auszuwählen. Beispielsweise können Sie alle Online-Benutzer auswählen, durch das Filtern nach {Hostinganbieter - Eq "sipfed.online.lync.om"}. Sie können dann die zurückgegebenen Benutzer an das Cmdlet **Move-CsUSer** leiten, wie unten dargestellt.
 
-  ```
-  Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
-  ```
+   ```
+   Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
+   ```
 
     Das Format der URL für der **HostedMigrationOverrideUrl** -Parameter die URL auf den Pool sein muss, auf dem der Migration gehosteten Dienst wird, im folgenden Format ausgeführt, angegeben: _Https://\<Pool-FQDN\>/HostedMigration/ hostedmigrationService.svc_.
 
@@ -179,19 +179,19 @@ Nachdem Sie diese Schritte abgeschlossen haben, können Sie Benutzerkonten migri
     > [!NOTE]
     > Standardmäßig beträgt die maximale Größe für Transaktionsprotokolldateien der rtcxds-Datenbank 16 GB. Dies ist möglicherweise nicht groß genug ist, wenn Sie eine große Anzahl von Benutzern auf einmal verschieben, insbesondere dann, wenn Sie die Spiegelung aktiviert haben. Sie können dieses Problem umgehen, indem Sie die Dateigröße erhöhen oder die Protokolldateien regelmäßig sichern. Weitere Informationen finden Sie unter [https://support.microsoft.com/kb/2756725](https://support.microsoft.com/kb/2756725).
 
-8. Dies ist ein optionaler Schritt. Wenn Sie eine Integration in Exchange 2013 Online benötigen, müssen Sie einen zusätzlichen Hostinganbieter verwenden. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Integration zwischen lokalen Skype für Business Server 2015 und Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md).
+6. Dies ist ein optionaler Schritt. Wenn Sie eine Integration in Exchange 2013 Online benötigen, müssen Sie einen zusätzlichen Hostinganbieter verwenden. Weitere Informationen hierzu finden Sie unter [Konfigurieren der Integration zwischen lokalen Skype für Business Server 2015 und Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md).
 
-9. Die Benutzer sind jetzt verschoben. Geben Sie das folgende Cmdlet ein, um zu überprüfen, ob ein Benutzer korrekte Werte für die in der folgenden Tabelle gezeigten Attribute hat:
+7. Die Benutzer sind jetzt verschoben. Geben Sie das folgende Cmdlet ein, um zu überprüfen, ob ein Benutzer korrekte Werte für die in der folgenden Tabelle gezeigten Attribute hat:
 
-  ```
-  Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
-  ```
+   ```
+   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
+   ```
 
-|**Active Directory-Attribut**|**Attributname**|**Korrekter Wert für Online-Benutzer**|**Richtigen Wert für lokale Benutzer**|
-|:-----|:-----|:-----|:-----|
-|MsRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.Online.Lync.com  <br/> |SRV:  <br/> |
-|MsRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:UserName@contoso.com  <br/> |SIP:UserName@contoso.com  <br/> |
-|MsRTCSIP-UserEnabled  <br/> |Aktiviert  <br/> |True  <br/> |True  <br/> |
+| **Active Directory-Attribut**     | **Attributname**     | **Korrekter Wert für Online-Benutzer** | **Richtigen Wert für lokale Benutzer** |
+|:-----------------------------------|:-----------------------|:----------------------------------|:----------------------------------------|
+| MsRTCSIP-DeploymentLocator  <br/>  | HostingProvider  <br/> | sipfed.Online.Lync.com  <br/>     | SRV:  <br/>                             |
+| MsRTCSIP-PrimaryUserAddress  <br/> | SIPAddress  <br/>      | SIP:UserName@contoso.com  <br/>   | SIP:UserName@contoso.com  <br/>         |
+| MsRTCSIP-UserEnabled  <br/>        | Aktiviert  <br/>         | True  <br/>                       | True  <br/>                             |
 
 10. Jeder verschobene Benutzer muss sich ab- und dann erneut anmelden. Nach der Anmeldung sollte jeder Benutzer seine Kontaktlisten überprüfen und ggf. Kontakte hinzufügen.
 

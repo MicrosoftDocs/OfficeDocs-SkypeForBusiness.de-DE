@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Dieser Abschnitt beschreibt die globalen Einstellungen und Objekte und der universellen Dienst- und Administrationsgruppen, die durch die gesamtstrukturvorbereitung erstellt werden.
-ms.openlocfilehash: 9ceece01d6f5184eb58f0906dd61540c2dcf2084
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6c031bf06310c6aba2ee18f532e95438bd495936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244337"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373535"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die durch die Vorbereitung der Gesamtstruktur in Skype für Business Server
 
@@ -111,13 +111,14 @@ Vorbereitung der Gesamtstruktur werden sowohl private als auch öffentliche ACEs
 
 **Von der Gesamtstrukturvorbereitung erstellten öffentlichen ACEs**
 
-|**ACE**|**"Rtcuniversalglobalreadonlygroup"**|
-|:-----|:-----|
-|Der Stammdomäne lesen (nicht vererbt) Systemcontainer**\*** <br/> |X  <br/> |
-|DisplaySpecifiers-Container der Konfiguration lesen (nicht vererbt)  <br/> |X  <br/> |
+
+| **ACE**                                                                 | **"Rtcuniversalglobalreadonlygroup"** |
+|:------------------------------------------------------------------------|:------------------------------------|
+| Der Stammdomäne lesen (nicht vererbt) Systemcontainer**\\**\* <br/>        | X  <br/>                            |
+| DisplaySpecifiers-Container der Konfiguration lesen (nicht vererbt)  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> **\*** ACEs, die nicht vererbt werden, gewähren keinen Zugriff auf untergeordnete Objekte im betreffenden Container. ACEs, die vererbt werden, gewähren Zugriff auf untergeordnete Objekte im betreffenden Container.
+> <strong>\\</strong>* ACEs, die nicht vererbt werden, gewähren keinen Zugriff auf untergeordnete Objekte im betreffenden Container. ACEs, die vererbt werden, gewähren Zugriff auf untergeordnete Objekte im betreffenden Container.
 
 Auf den Konfigurationscontainer unter Konfigurationsnamenskontext führt der Vorbereitung der Gesamtstruktur die folgenden Aufgaben:
 

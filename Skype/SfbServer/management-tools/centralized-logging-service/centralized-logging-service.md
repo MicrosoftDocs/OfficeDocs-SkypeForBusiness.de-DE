@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Zusammenfassung: Informationen Sie zu den Komponenten und Konfigurationseinstellungen für die zentralisierte Protokollierungsdienst in Skype für Business Server 2015.'
-ms.openlocfilehash: 922d1f24e2d57c4908744462eb1b3c8335255cfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372460"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Zentralisierter Protokollierungsdienst in Skype for Business 2015
  
@@ -31,7 +32,7 @@ Der zentralisierte Protokollierungsdienst können:
     
   - Definieren Sie ein **Szenario** oder verwenden Sie ein Standardszenario. Ein Szenario in Centralized Logging Service besteht des Bereichs (global oder Standort), Name eines Szenarios, um den Zweck der Browser und eine oder mehrere Anbieter zu identifizieren. Sie können das Standardszenario und eine definierte Szenario auf einem Computer zu einem bestimmten Zeitpunkt ausführen.
     
-  - Verwenden Sie einen vorhandenen Anbieter aus, oder erstellen Sie einen neuen Anbieter. Aprovider definiert, was die protokollierungssitzung erfasst, welche Detailebene, welche Komponenten zu verfolgen und welche Flags angewendet werden.
+  - Sie können einen vorhandenen Anbieter verwenden oder einen neuen Anbieter erstellen. Aprovider definiert, was die protokollierungssitzung erfasst, welche Detailebene, welche Komponenten zu verfolgen und welche Flags angewendet werden.
     
     > [!TIP]
     >  Wenn Sie mit OCSLogger vertraut sind, bezieht sich die Termproviders auf die Auflistung der **Komponenten** (beispielsweise S4, SIPStack), eine **logging Type** (beispielsweise WPP, EventLog oder IIS Logfile), eine **Protokollierungsstufe** (beispielsweise alle, ausführliches, Debuggen) , und die **Kennzeichen** (z. B. TF_COMPONENT, TF_DIAG). Diese Elemente werden im-Anbieter (Windows PowerShell-Variable) definiert und dem Befehl Centralized Logging Service übergeben.
@@ -50,7 +51,7 @@ Der zentralisierte Protokollierungsdienst ist ein leistungsstarkes Tool zur Prob
     
 - Zentralisierte Protokollierung Service-Controller-Cmdlets die Skype für Business Server-Verwaltungsshell starten, anhalten, Flush und Suche Befehle an die ClsAgent gesendet. Wenn Search-Befehle gesendet werden, sind diese Protokolle an die ClsControllerLib.dll zurückgegeben und aggregiert. Der Controller Befehle an den Agent sendet, erhält den Status der Befehle und wie es von allen Agents auf einem beliebigen Computer in den Suchbereich zurückgegeben und die Protokolldaten in einen sinnvollen und sortierte Ausgabe Satz aggregiert die Suche Protokolldateidaten verwaltet. Die Informationen in den folgenden Themen konzentriert sich auf die Skype für Business Server-Verwaltungsshell verwenden.
     
-**ClsController und clsagent**
+**Kommunikation zwischen ClsController und ClsAgent**
 
 ![Beziehung zwischen CLSController und CLSAgent](../../media/Ops_CLS_Architecture.jpg)
   
@@ -93,9 +94,9 @@ Der zentralisierte Protokollierungsdienst wird so konfiguriert, dass definieren,
     
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
     
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
     > [!TIP]
     > Sie können beschränken oder Erweitern Sie den Bereich der Konfigurationseinstellungen, die durch die Definition zurückgegeben werden `-Identity` und einen Bereich, z. B. "Site: Redmond", um nur die CsClsConfiguration für den Standort "Redmond" zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration möchten, können Sie die Ausgabe in eine andere Windows PowerShell-Cmdlet umleiten. Um beispielsweise Details über die Szenarien zu erhalten, die in der Konfiguration für den Standort „Redmond“ definiert sind, geben Sie Folgendes ein: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
@@ -104,7 +105,7 @@ Der zentralisierte Protokollierungsdienst wird so konfiguriert, dass definieren,
   
     Das Ergebnis des Cmdlets zeigt die aktuelle Konfiguration des Centralized Logging Service.
     
-|**Einstellung für die Konfiguration**|**Beschreibung**|
+|**Konfigurationseinstellung**|**Beschreibung**|
 |:-----|:-----|
 |**Identity** <br/> |Identifiziert den Bereich und den Namen dieser Konfiguration. Es gibt nur eine globale Konfiguration sowie eine Konfiguration pro Standort.  <br/> |
 |**Scenarios** <br/> |Auflistung aller Szenarien, die für diese Konfiguration definiert sind.  <br/> |

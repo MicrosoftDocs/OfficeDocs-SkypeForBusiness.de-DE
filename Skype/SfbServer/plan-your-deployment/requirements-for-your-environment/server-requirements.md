@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.'
-ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 5f64bbf4e455896de143991be455c3c122b4911c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040741"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374752"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Serveranforderungen für Skype for Business Server 2015
  
@@ -97,7 +97,7 @@ Skype for Business Server 2015 Enterprise Edition ist etwas komplizierter. Die 
 Wenn die von Ihnen gewünschte SQL Server-Edition nicht aufgeführt wird, können Sie sie nicht verwenden.
   
 > [!NOTE]
-> Außerdem müssen Sie SQL Server Reporting Services für die Monitoring Server-Rolle installieren. Dazu sollten Sie jedoch wissen, dass dies mit SQL AlwaysOn erst nach dem RTM unterstützt wird. 
+> Sie nun auch müssen Sie SQL Server Reporting Services für den Monitoring Server-Role zu installieren.
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange-Speicher
 Dateien mit Besprechungsinhalten, z. B. PowerPoint-Präsentationen, werden als Anlagen archiviert. Wenn Sie Skype für Geschäftsdaten für Archivierung mit Exchange Kompatibilitätsdaten speichern möchten, müssen Sie Exchange für Ihre Exchange-Bereitstellung verwenden und stellen Sie sicher, dass die maximale Speichergröße Speicherung von der Besprechung Inhaltsdateien unterstützt. Sie müssen vor dem Bereitstellen und Aktivieren der Archivierung die Option Microsoft Exchange-Integration mit Exchange bereitstellen. 

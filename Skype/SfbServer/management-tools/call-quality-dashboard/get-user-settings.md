@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Benutzereinstellungen erhalten möchten, der Teil des Diensts für Benutzer ist. Die User Settings Service ist Bestandteil der Repository-API für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 7342cce07a0ec327f4216a6ed690b1d753bf8cdc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 41bc45f63366337000ad8c263ff8e6dbcb36a3b3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569470"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375379"
 ---
 # <a name="get-user-settings"></a>Abrufen von Benutzereinstellungen
  
@@ -35,19 +35,19 @@ Get-Benutzereinstellungen gibt eine Liste der Einstellungen für einen angegeben
    
  **URI-Parameter**
   
--  *eine effektive* - Optional. Dieser Parameter gilt nur, wenn die spezielle Benutzer-ID-Standardeinstellung verwendet wird. In anderen Fällen wird sie ignoriert. `True`Gibt eine effektive benutzereinstellungen und `false` gibt nur die benutzereinstellungen (Standard).
+- *eine effektive* - Optional. Dieser Parameter gilt nur, wenn die spezielle Benutzer-ID-Standardeinstellung verwendet wird. In anderen Fällen wird sie ignoriert. `True`Gibt eine effektive benutzereinstellungen und `false` gibt nur die benutzereinstellungen (Standard).
     
- **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
+  **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
   
- **Anforderungstextkörper** – None.
+  **Anforderungstextkörper** – None.
   
- **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
+  **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
   
- **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).
+  **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).
   
- **Antwortheader** - keine zusätzlichen Header.
+  **Antwortheader** - keine zusätzlichen Header.
   
- **Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.
+  **Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.
   
 ```
 [{

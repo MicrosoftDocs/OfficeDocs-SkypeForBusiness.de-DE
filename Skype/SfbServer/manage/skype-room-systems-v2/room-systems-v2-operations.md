@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lesen Sie in diesem Thema, um Informationen zur Verwaltung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme zu erfahren.
-ms.openlocfilehash: 52e02ff1f87d06088636b2f44706ec03c62675f3
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965891"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373647"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype-Chatroom-Systemen v2 Wartung und Betrieb 
  
@@ -234,9 +234,9 @@ Die Konsole ist nun wieder in den normalen Betrieb-Modus. Das folgende Verfahren
     
 4. Starten Sie den Computer, wenn Sie fertig sind.
     
- Die Konsole wird neu gestartet, in den normalen Betrieb-Modus, die Skype Raum Systemen v2 app ausgeführt. Sie können die Tastatur entfernen, wenn es angefügt wurde, damit Sie dieses Verfahren ausführen können.
-## <a name="troubleshooting-tips"></a>Tipps zur Problembehandlung
-<a name="TS"> </a>
+   Die Konsole wird neu gestartet, in den normalen Betrieb-Modus, die Skype Raum Systemen v2 app ausgeführt. Sie können die Tastatur entfernen, wenn es angefügt wurde, damit Sie dieses Verfahren ausführen können.
+   ## <a name="troubleshooting-tips"></a>Tipps zur Problembehandlung
+   <a name="TS"> </a>
 
 - Besprechungsanfragen möglicherweise nicht angezeigt, wenn über Domänengrenzen hinweg (beispielsweise zwischen zwei Unternehmen) gesendet. In solchen Fällen sollten die IT-Administratoren, ob externe Benutzer zum Planen einer Besprechung zugelassen entscheiden.
     

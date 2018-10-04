@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: cb808cb8271cfb32174106e2692793aa41a64d50
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882113"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372820"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Einrichten des Telefons, die Zahlen enthalten auf invites in Skype für Business-Online
 
@@ -57,11 +57,11 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
   
 4. Wählen Sie die Benutzer, den, die Sie bearbeiten möchten:
     
-  - Um einen einzelnen Benutzer auszuwählen, wählen Sie den Namen des Benutzers ein.
+   - Um einen einzelnen Benutzer auszuwählen, wählen Sie den Namen des Benutzers ein.
     
-  - Wenn alle Benutzer auf der Seite auswählen möchten, aktivieren Sie das neben **Anzeigename** am Anfang der Liste.
+   - Wenn alle Benutzer auf der Seite auswählen möchten, aktivieren Sie das neben **Anzeigename** am Anfang der Liste.
     
-  - Um mehrere Benutzer auszuwählen, wählen Sie das Kontrollkästchen neben dem Namen des Benutzers.
+   - Um mehrere Benutzer auszuwählen, wählen Sie das Kontrollkästchen neben dem Namen des Benutzers.
     
 5. Wählen Sie im rechten Bereich **Bearbeiten** aus.
     
@@ -71,12 +71,12 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
     
 7. Wählen Sie auf der Seite **Eigenschaften** in der Liste **ProviderName** den Anbieter für den Benutzer ein. Füllen Sie je nach Anbieter die folgenden Felder aus.
     
-  - **Microsoft ist der Dienstanbieter**: Verwenden Sie die **Standardnummer gebührenpflichtige** und **gebührenfreie Standardnummer** enthält, um die Standard-Zahlen für den Benutzer auszuwählen.
+   - **Microsoft ist der Dienstanbieter**: Verwenden Sie die **Standardnummer gebührenpflichtige** und **gebührenfreie Standardnummer** enthält, um die Standard-Zahlen für den Benutzer auszuwählen.
     
-    > [!NOTE]
-    > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Wenn eine gebührenfreie Telefonnummer erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > [!NOTE]
+     > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Wenn eine gebührenfreie Telefonnummer erhalten möchten, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
-  - **Ein Drittanbieter ist der Dienstanbieter**: Verwenden Sie die Felder **die gebührenpflichtige Telefonnummer** und **gebührenfreie Nummer** die Zahlen für den Benutzer eingeben.
+   - **Ein Drittanbieter ist der Dienstanbieter**: Verwenden Sie die Felder **die gebührenpflichtige Telefonnummer** und **gebührenfreie Nummer** die Zahlen für den Benutzer eingeben.
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Zurücksetzen von Audiokonferenz-Telefonnummern
@@ -130,7 +130,7 @@ Standardmäßig wird beim Ändern von Einstellungen für einen Benutzer, eine e-
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-## <a name="want-to-learn-more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell finden möchten?
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell finden möchten?
 - In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)

@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Nachdem Ihre Benutzer in Skype für Business Server 2019 Pools verschoben werden, können Sie Ihre reaktionsgruppen migrieren. Migrieren von Antwort Gruppen enthält, agentgruppen, Warteschlangen, Workflows, Audiodateien kopieren und Verschieben von Kontaktobjekten Response Group aus der Bereitstellung der Vorversion in der Skype für Business Server 2019 Pool. Nach dem Migrieren von reaktionsgruppen von Vorversionen werden Anrufe an die reaktionsgruppen von der Anwendung "Reaktionsgruppe" in der Skype für Business Server 2019 Pool behandelt. Aufrufe von reaktionsgruppen werden nicht mehr vom vorversionspool behandelt.
-ms.openlocfilehash: bdff9b96b73e925fb68b4a2f9bebb9b23edb4b56
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028019"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372937"
 ---
 # <a name="migrate-response-groups"></a>Migrieren von reaktionsgruppen
 
@@ -56,15 +56,15 @@ Migrieren von Reaktionsgruppen Konfigurationen im folgende Verfahren wird davon 
     
 3. Führen Sie folgenden Befehl aus:
     
-  ```
-  Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
-  ```
+   ```
+   Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
+   ```
 
     Beispiel:
     
-  ```
-  Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
-  ```
+   ```
+   Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
+   ```
 
 4. Nach dem Migrieren der reaktionsgruppen und Agents zu den Skype für Business Server 2019 Pool, die URL, die Agents an-und Abmelden verwenden einen Skype für Business Server 2019 URL und steht im Menü **Extras** . Erinnern Sie Agents alle Verweise, wie Lesezeichen, in die neue URL zu aktualisieren. 
     
@@ -90,31 +90,31 @@ Migrieren von Reaktionsgruppen Konfigurationen im folgende Verfahren wird davon 
     
     Ausführliche Informationen zu den folgenden Cmdlets führen Sie Folgendes aus:
     
-  ```
-  Get-Help <cmdlet name> -Detailed
-  ```
+   ```
+   Get-Help <cmdlet name> -Detailed
+   ```
 
 3. Führen Sie folgenden Befehl aus:
     
-  ```
-  Get-CsRgsAgentGroup
-  ```
+   ```
+   Get-CsRgsAgentGroup
+   ```
 
 4. Stellen Sie sicher, dass alle agentgruppen in Ihrer legacy-Umgebung in der Liste enthalten sind.
     
 5. Führen Sie folgenden Befehl aus:
     
-  ```
-  Get-CsRgsQueue
-  ```
+   ```
+   Get-CsRgsQueue
+   ```
 
 6. Stellen Sie sicher, dass alle Warteschlangen in der vorgängerumgebung in der Liste enthalten sind.
     
 7. Führen Sie folgenden Befehl aus:
     
-  ```
-  Get-CsRgsWorkflow
-  ```
+   ```
+   Get-CsRgsWorkflow
+   ```
 
 8. Stellen Sie sicher, dass alle Workflows in der vorgängerumgebung in der Liste enthalten sind.
     

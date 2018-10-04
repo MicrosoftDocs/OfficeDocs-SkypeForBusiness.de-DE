@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2c47a0dec91605dea8ab9b92ffa529ed942ddcd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013033"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375740"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln")
 
@@ -34,12 +34,12 @@ Durch die Implementierung von Projektlieferumfänge Accountability führen, halt
 
 Optional können Sie einem Lenkungsausschuss erstellen. Manchmal als große oder komplexer Projekte landen mit "zu viele Köche in der Küche", was trennt die Verbindung zwischen der beteiligten Gruppen. Für diese Projekte empfiehlt es sich um eine Lenkungsausschuss zu bilden. Einem Lenkungsausschuss ist verantwortlich für die gesteuerter Entscheidungen, strategische Aufsicht, Unterstützung von Initiativen für das Projekt, bereitstellen und – bei Bedarf – Popupblockern entfernen. Sie finden weitere Informationen zum Implementieren von einem Lenkungsausschuss im [Lenkungsausschuss Guide](https://aka.ms/SteeringCommittee).
 
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Wer sind die richtigen Personen als verantwortlichen Team für dieses Projekt dienen soll?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Berücksichtigen Sie den Umfang des Projekts, und weisen Sie der Beteiligten.</li><li>Anhand der folgenden Tabelle als Richtlinie, aber beachten Sie, dass diese Liste nicht vollständig ist.<br>**Tipp**<br>Erstellen Sie eine verantwortlich-verantwortlich-konsultiert-darüber informiert [(RACI) Matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) , um weitere diejenigen unterscheiden, die von den massenversender werden wird, die einfach in einem bestimmten Bereich des Projekts dem Laufenden gehalten werden müssen.</li>
-<li>Entscheiden Sie, ob einem Lenkungsausschuss erstellen und Zuweisen von Rollen nach Bedarf.</li></ul>|
 
+|                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte                 |                                                                                                                                                                                                 <ul><li>Wer sind die richtigen Personen als verantwortlichen Team für dieses Projekt dienen soll?</li></ul>                                                                                                                                                                                                 |
+|                    ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte                    | <ul><li>Berücksichtigen Sie den Umfang des Projekts, und weisen Sie der Beteiligten.</li><li>Anhand der folgenden Tabelle als Richtlinie, aber beachten Sie, dass diese Liste nicht vollständig ist.<br><strong>Tipp</strong><br>Erstellen Sie eine verantwortlich-verantwortlich-konsultiert-darüber informiert [(RACI) Matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) , um weitere diejenigen unterscheiden, die von den massenversender werden wird, die einfach in einem bestimmten Bereich des Projekts dem Laufenden gehalten werden müssen.</li> |
+| <li>Entscheiden Sie, ob einem Lenkungsausschuss erstellen und Zuweisen von Rollen nach Bedarf.</li></ul> |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 |  Rollen                           | Verantwortung                                                                  |
 |---------------------------------|---------------------------------------------------------------------------------|

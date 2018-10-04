@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Ihre einwahlkonferenzen Zahlen zwischen in Skype für Business Online nachzuschlagen. '
-ms.openlocfilehash: 43442d2ecee1de30126b73dd7cce8124db650c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891256"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372887"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Anzeigen einer Liste der Audiokonferenz Zahlen in Skype für Business Online
 
@@ -57,9 +57,9 @@ Finden Sie unter So ändern Sie die Telefonnummer Zugriffsnummer für Einwahl f�
     
 3. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Microsoft Bridge**, und führen Sie dann:
     
-  - Sie können die Telefonnummern anzeigen, die für Audiokonferenzen verfügbar sind.
+   - Sie können die Telefonnummern anzeigen, die für Audiokonferenzen verfügbar sind.
     
-  - Sie können auch den Speicherort anzeigen, und die primären und sekundären Sprachen, die durch die Audiokonferenz verwendet werden automatische Telefonzentrale.
+   - Sie können auch den Speicherort anzeigen, und die primären und sekundären Sprachen, die durch die Audiokonferenz verwendet werden automatische Telefonzentrale.
     
 > [!NOTE]
 > Sie können wechseln Sie zur **Audiokonferenz** > **Benutzer** und wählen Sie Eigenschaften so ändern Sie die Standardeinstellung des Benutzers zu nummerieren, indem Sie eine neue Nummer aus der Liste der verfügbaren Nummern in Ihrer Organisation auswählen. Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md). 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Zusammenfassung: Informationen Sie zum Starten oder Beenden einer Centralized Logging Service Log Capture-Sitzung in Skype für Business Server 2015.'
-ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570157"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373764"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Starten oder Beenden der CLS-Protokollerfassung in Skype for Business Server 2015
  
@@ -36,15 +36,15 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Problem
     
 2. Starten Sie ein protokollierungsszenario mit Centralized Logging Service, indem Sie Folgendes eingeben:
     
-  ```
-  Start-CsClsLogging -Scenario <name of scenario>
-  ```
+   ```
+   Start-CsClsLogging -Scenario <name of scenario>
+   ```
 
     Geben Sie beispielsweise zum Starten des Szenarios **AlwaysOn** Folgendes ein:
     
-  ```
-  Start-CsClsLogging -Scenario AlwaysOn
-  ```
+   ```
+   Start-CsClsLogging -Scenario AlwaysOn
+   ```
 
     > [!NOTE]
     > Für das Szenario AlwaysOn ist keine Standarddauer festgelegt. In diesem Szenario wird ausgeführt, bis Sie explizit mit dem Cmdlet **"Stop-csclslogging"** beenden. Weitere Informationen hierzu finden Sie unter ["Stop-csclslogging"](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Für alle anderen Szenarien gilt eine Standarddauer von 4 Stunden. 
@@ -58,9 +58,9 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Problem
   
 4. Verwenden Sie zum Starten von einem anderen Szenario mit dem Cmdlet **"Start-csclslogging"** mit dem Namen des zusätzliche Szenarios wie folgt (beispielsweise das Szenario **Authentifizierung**) ausführen:
     
-  ```
-  Start-CsClsLogging -Scenario Authentication
-  ```
+   ```
+   Start-CsClsLogging -Scenario Authentication
+   ```
 
     > [!IMPORTANT]
     > Sie können jederzeit insgesamt zwei Szenarien auf einem beliebigen Computer ausführen. Wenn der Befehl einen globalen Gültigkeitsbereich hat, werden die Szenarien auf allen Computern in Ihrer Bereitstellung ausgeführt. Wenn Sie ein drittes Szenario starten möchten, müssen Sie die Protokollierung für den Computer, Pool, Standort oder globalen Gültigkeitsbereich beenden, für den das neue Szenario ausgeführt werden soll. Wenn Sie einen globalen Gültigkeitsbereich gestartet, können Sie die Protokollierung für mindestens ein Szenario für mindestens einen Computer oder Pool beenden. 
@@ -71,11 +71,11 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Problem
     
 2. Zur Verwaltung der Protokollierungsbefehle stehen zusätzliche Parameter zur Verfügung. Sie können - Dauer, passen Sie die Dauer für das Szenario ausgeführt. Auch können Sie definieren - Computer, eine Liste der Computer vollqualifizierten Domänennamen (FQDNs) durch ein Komma getrennt oder - Pools, eine durch Trennzeichen getrennte Liste mit FQDNs für Pools, die Sie auf Protokollierung ausführen möchten.
     
-    Starten Sie eine protokollierungssitzung für das Szenario UserReplicator im Pool "pool01.contoso.NET"". Außerdem legen Sie als Dauer der Protokollierungssitzung 8 Stunden fest. Geben Sie hierzu Folgendes ein:
+    Sie starten eine Protokollierungssitzung für das Szenario  UserReplicator im Pool „pool01.contoso.net“. Außerdem legen Sie als Dauer der Protokollierungssitzung 8 Stunden fest. Geben Sie hierzu Folgendes ein:
     
-  ```
-  Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-  ```
+   ```
+   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
+   ```
 
     Bei erfolgreicher Ausführung dieses Szenarios wird in etwa folgendes Ergebnis zurückgegeben:
     
@@ -111,26 +111,26 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Abfragen der zentralisierte Protokollierungsdienst um zu ermitteln, welche Szenarien derzeit ausgeführt werden, indem Sie Folgendes eingeben:
     
-  ```
-  Show-CsClsLogging
-  ```
+   ```
+   Show-CsClsLogging
+   ```
 
-  ![Windows PowerShell-Konsole nach Aufrufen von Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Windows PowerShell-Konsole nach Aufrufen von Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-  Das Ergebnis von „Show-CsClsLogging“ ist eine Zusammenfassung der ausgeführten Szenarien und der Ebenen, auf denen Sie ausgeführt werden. Weitere Informationen hierzu finden Sie unter ["Show-csclslogging"](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
+   Das Ergebnis von „Show-CsClsLogging“ ist eine Zusammenfassung der ausgeführten Szenarien und der Ebenen, auf denen Sie ausgeführt werden. Weitere Informationen hierzu finden Sie unter ["Show-csclslogging"](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     
 3. Geben Sie zum Anhalten einer aktuell ausgeführten Protokollierungssitzung mit einem bestimmten Szenario Folgendes ein:
     
-  ```
-  Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
-  ```
-  Beispiel:
+   ```
+   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
+   ```
+   Beispiel:
     
-  ```
-  Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
-  ```
+   ```
+   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
+   ```
 
-  Mit diesem Befehl wird die Protokollierung mit dem Szenario „UserReplicator“ in „pool01.contoso.net“ angehalten.
+   Mit diesem Befehl wird die Protokollierung mit dem Szenario „UserReplicator“ in „pool01.contoso.net“ angehalten.
     
     > [!NOTE]
     > Protokolle, die während dieser Protokollierungssitzung mit dem Szenario „UserReplicator“ erstellt wurden, werden nicht gelöscht. Die Protokollierung steht Ihnen noch zur Verfügung, um Suchen mit dem Befehl „Search-CsClsLogging“ auszuführen. Weitere Informationen hierzu finden Sie unter ["Search-csclslogging"](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
@@ -139,4 +139,4 @@ Das Cmdlet „Stop-CsClsLogging“ fungiert als Begleitbefehl zu „Start-CsClsL
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="stop"> </a>
 
-[Zentraler Protokollierungsdienst in Skype für Business 2015](centralized-logging-service.md)
+[Zentralisierter Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)

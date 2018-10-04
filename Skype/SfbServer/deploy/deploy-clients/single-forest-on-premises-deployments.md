@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lesen Sie dieses Thema und erfahren Sie, wie Skype Room System in einer lokalen Umgebung mit einer einzelnen Gesamtstruktur bereitgestellt wird.
-ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967905"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375301"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Room System – Lokale Bereitstellungen mit einzelner Gesamtstruktur
  
@@ -30,17 +30,17 @@ Befolgen Sie die unten aufgeführten Schritte, um ein vorhandenes Ressourcenpost
   
 1. Führen Sie den folgenden PowerShell-Befehl für die Exchange-Verwaltung aus:
     
-  ```
-  Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
 2. Wenn Sie planen, ein neues Postfach zu erstellen, führen Sie für eine lokale Exchange-Organisation mit einer einzelnen Gesamtstruktur folgenden Befehl aus:
     
-  ```
-  New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
-  Im Beispiel oben werden ein aktiviertes Benutzerkonto in Active Directory und ein Raum-Postfach für einen Konferenzraum in einer lokalen Exchange-Organisation erstellt. Der Parameter „RoomMailboxPassword“ gibt das Kennwort für das Benutzerkonto an.
+   Im Beispiel oben werden ein aktiviertes Benutzerkonto in Active Directory und ein Raum-Postfach für einen Konferenzraum in einer lokalen Exchange-Organisation erstellt. Der Parameter „RoomMailboxPassword“ gibt das Kennwort für das Benutzerkonto an.
     
 3. Konfigurieren Sie das Konto zum Lösen von Konflikten automatisch von Besprechungen akzeptieren/ablehnen. Skype Raum System ausgestattet Konferenzraum-Konten in Exchange Personen verwaltet werden können, aber beachten Sie, bis der betroffenen eine Besprechung akzeptiert er nicht im Kalender des Skype Raum System Startseite angezeigt wird.
     

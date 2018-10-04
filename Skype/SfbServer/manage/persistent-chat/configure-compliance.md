@@ -10,92 +10,92 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Zusammenfassung: Erfahren Sie, wie den Dienst Persistent Chat Server-Kompatibilität in Skype für Business Server 2015 zu konfigurieren.'
-ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d6fff09a59870c8550627bcf4222192e405c871
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026616"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375929"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren des Kompatibilitätsdienstes auf dem Server für beständigen Chat in Skype for Business Server 2015
- 
+
 **Zusammenfassung:** Erfahren Sie, wie den Dienst Persistent Chat Server-Kompatibilität in Skype für Business Server 2015 zu konfigurieren.
-  
+
 Dank der Konformität des beständigen Chats können Administratoren ein Archiv von Nachrichten des beständigen Chats und von Aktivitäten führen. Die Einhaltung von Bestimmungen und archiviert Daten im Zusammenhang mit hergeschickt Persistent Chat Server, wenn ein Teilnehmer:
-  
+
 - Verknüpft einen Raum beständigen Chat
-    
+
 - Einen Chatroom verlässt
-    
+
 - Eine Nachricht veröffentlicht
-    
+
 - Den Chatverlauf anzeigt
-    
+
 - Eine Datei hochlädt
-    
+
 - Eine Datei herunterlädt
-    
+
 Diese Informationen können bei Bedarf von der SQL-Konformitätsdatenbank abgerufen werden. 
 
 > [!NOTE]
 > Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
-  
+
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Konfigurieren des Konformitätsdiensts mit Windows PowerShell
 
 Nachdem der Konformitätsdienst mithilfe des Topologie-Generators aktiviert wurde, können Sie den Dienst mit dem Cmdlet **Set-CsPersistenChatComplianceConfiguration** konfigurieren:
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 oder
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
 Sie können die folgenden Einstellungen konfigurieren:
-  
+
 - AdapterType: Zum Konfigurieren des Adaptertyps. Ein Adapter ist ein Produkt eines Drittanbieters, das die Daten in der Konformitätsdatenbank in ein spezielles Format konvertiert. Das Standardformat ist XML.
-    
+
 - OneChatRoomPerOutputFile - dieser Parameter können Sie angeben, dass trennen, die Sie Berichte für jeden Chatroom erstellt werden soll.
-    
+
 - AddChatRoomDetails: Wenn dieser Parameter aktiviert ist, werden zu jedem Chatroom in der Datenbank zusätzliche Details aufgezeichnet. Da sich die Größe der Datenbank durch diese Einstellung erheblich erhöhen kann, ist der Parameter standardmäßig deaktiviert.
-    
+
 - AddUserDetails: Wenn dieser Parameter aktiviert ist, werden für jeden Chatroom-Benutzer in der Datenbank zusätzliche Details aufgezeichnet. Da sich die Größe der Datenbank durch diese Einstellung erheblich erhöhen kann, ist der Parameter standardmäßig deaktiviert.
-    
+
 - Identity: Dieser Parameter ermöglicht das Festlegen von Konformitätseinstellungen für eine bestimmte Sammlung, z. B. auf globaler, Standort- und Serviceebene. Der Standardwert ist die globale Ebene. 
-    
+
 - RunInterval: Dieser Parameter gibt die Zeitdauer an, bis der Server die nächste Konformitätsausgabedatei erstellt (der Standardwert ist 15 Minuten).
-    
+
 ## <a name="use-a-customized-compliance-adapter"></a>Verwenden eines benutzerdefinierten Konformitätsadapters
 
 Sie können schreiben ein benutzerdefiniertes Adapters statt des XmlAdapter, die mit Persistent Chat Server installiert ist. Hierzu müssen Sie eine .NET Framework-Assembly bereitstellen, die eine öffentliche Klasse enthält, die die **IComplianceAdapter**-Schnittstelle implementiert. Sie müssen diese Assembly im Installationsordner Persistent Chat Server der einzelnen Server in Ihrem Persistent Chat Server Pool platzieren. Jeder der Konformitätsserver kann Konformitätsdaten für Ihren Adapter bereitstellen, aber die Konformitätsserver stellen keine doppelten Konformitätsdaten für mehrere Instanzen des Adapters bereit.
-  
+
 Die Schnittstelle ist in der Assembly Compliance.dll im Namespace definiert `Microsoft.Rtc.Internal.Chat.Server.Compliance`. Die Schnittstelle definiert zwei Methoden, die Ihr benutzerdefinierter Adapter implementieren muss.
-  
+
 Der beständigen Chat Kompatibilitätsserver wird die folgende Methode aufrufen, wenn der Adapter zum ersten Mal geladen. Die `AdapterConfig` enthält den beständigen Chat Kompatibilitätskonfiguration, die für den kompatibilitätsadapter relevant sind:
-  
+
 ```
 void SetConfig(AdapterConfig config)
 ```
 
 Der Kompatibilität für Persistent Chat Server Ruft die folgende Methode in regelmäßigen Abständen als neue Daten übersetzt. Dieses Zeitintervall ist gleich der `RunInterval` wie in den beständigen Chat Kompatibilitätskonfiguration eingerichtet sind:
-  
+
 ```
 void Translate(ConversationCollection conversations)
 ```
 
 Die `ConversationCollection` enthält die unterhaltungsinformationen, die von dem Zeitpunkt der letzten erfasst wurde diese Methode wurde aufgerufen.
-  
+
 ## <a name="customize-the-xslt-definition-file"></a>Anpassen der XSLT-Definitionsdatei
 
 Die Konformitätsdaten werden als XML ausgegeben; Sie können sie mithilfe einer XSLT-Definitionsdatei in das von Ihrer Organisation bevorzugte Format umwandeln. In diesem Thema wird die vom Konformitätsdienst erstellte XML-Datei beschrieben. Zudem werden Beispiele für XSLT-Definitions- und Ausgabedateien bereitgestellt.
-  
+
 ### <a name="output-format"></a>Ausgabeformat
 
 Wie im folgenden Codebeispiel dargestellt ist die Ausgabe des Konformitätsdiensts nach Unterhaltungen (dem Unterhaltungselement) und Nachrichten (dem Nachrichtenelement) kategorisiert:
-  
+
 ```
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -112,7 +112,7 @@ Wie im folgenden Codebeispiel dargestellt ist die Ausgabe des Konformitätsdiens
 ```
 
 Ein Unterhaltungselement enthält vier Elemente („Channel“, „FirstMessage“, „StartTimeUTC“ und „EndTimeUTC“). Das Element „Channel“ enthält den Uniform Resource Identifier (URI) des Chatrooms und das Element „FirstMessage“ beschreibt das erste Element im Nachrichtenelement. Die Elemente „StartTimeUTC“ und „EndTimeUTC“ enthalten wie im folgenden Codebeispiel dargestellt Informationen zu den Start- und Endzeiten der Unterhaltung.
-  
+
 ```
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -121,7 +121,7 @@ Ein Unterhaltungselement enthält vier Elemente („Channel“, „FirstMessage
 ```
 
 Ein Nachrichtenelement enthält zwei Elemente („Sender“ und „DateTimeUTC“) und drei Attribute („Type“, „Content“ und „ID“). Das Element „Sender“ steht für den Benutzer, der die Nachricht sendet, und das Element „DateTimeUTC“ gibt an, wann ein Ereignis auftritt, wie im folgenden Codebeispiel dargestellt:
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -130,7 +130,7 @@ Ein Nachrichtenelement enthält zwei Elemente („Sender“ und „DateTimeUTC�
 ```
 
 In der folgenden Tabelle werden die Nachrichtenattribute „Type“, „Content“ und „ID“ beschrieben.
-  
+
 **Nachrichtenelementattribute**
 
 |**Attribut**|**Beschreibung**|**Optional/erforderlich**|
@@ -138,9 +138,9 @@ In der folgenden Tabelle werden die Nachrichtenattribute „Type“, „Content�
 |Typ  <br/> |Gibt den Nachrichtentyp an. Die Nachrichtentypen werden in der Tabelle „Nachrichtenelemente – Nachrichtentypen“ beschrieben.  <br/> |Erforderlich  <br/> |
 |Content  <br/> |Enthält den Inhalt der Nachricht. Nachrichten vom Typ „Join“ oder „Part“ verwenden dieses Attribut nicht.  <br/> |Optional  <br/> |
 |ID  <br/> |Gibt die eindeutige ID des Inhalts an. Dieses Attribut wird nur mit Nachrichten vom Typ „Chat“ verwendet.  <br/> |Optional  <br/> |
-   
+
 Jedes „Sender“-Element enthält fünf Attribute: „user name“, „ID“, „email“, „internal“ und „URI“. Diese Attribute sind in der folgenden Tabelle beschrieben.
-  
+
 **„Sender“-Elementattribute**
 
 |**Attribut**|**Beschreibung**|**Optional/erforderlich**|
@@ -150,11 +150,11 @@ Jedes „Sender“-Element enthält fünf Attribute: „user name“, „ID“,
 |E-Mail  <br/> |E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
 |Intern  <br/> |Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf „true“ (wahr) ist der Benutzer intern.  <br/> |Optional  <br/> |
 |Uri  <br/> |Die SIP-URI des Benutzers.  <br/> |Erforderlich  <br/> |
-   
+
 Die folgenden Beispiele zeigen den Nachrichtentypen, dass das Element Nachrichten enthalten kann. Sie enthält auch Beispiele für die Verwendung der einzelnen Elemente.
-  
+
 Join - ein Benutzer einen Chatroom betritt.
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -163,7 +163,7 @@ Join - ein Benutzer einen Chatroom betritt.
 ```
 
 Teil – ein Benutzer einen Chatroom verlässt.
-  
+
 ```
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -172,7 +172,7 @@ Teil – ein Benutzer einen Chatroom verlässt.
 ```
 
 Chat - e-Mail-Adresse des Absenders.
-  
+
 ```
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -181,7 +181,7 @@ Chat - e-Mail-Adresse des Absenders.
 ```
 
 Backchat - fordert ein Benutzer Inhalte aus den Chatverlauf.
-  
+
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -190,7 +190,7 @@ Backchat - fordert ein Benutzer Inhalte aus den Chatverlauf.
 ```
 
 Dateien hochladen - ein Benutzer eine Datei hochlädt.
-  
+
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -199,7 +199,7 @@ Dateien hochladen - ein Benutzer eine Datei hochlädt.
 ```
 
 Dateidownload – ein Benutzer eine Datei herunterlädt.
-  
+
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -210,7 +210,7 @@ Dateidownload – ein Benutzer eine Datei herunterlädt.
 ### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Standardwert beständigen Chat XSD-Ausgabe und Beispiel-XSL-Transformation
 
 Das folgende Codebeispiel enthält die standardmäßige Ausgabe des Konformitätsservers.
-  
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -224,7 +224,7 @@ Das folgende Codebeispiel enthält die standardmäßige Ausgabe des Konformität
         <xs:enumeration value="FILEDOWNLOAD"/>
       </xs:restriction>
     </xs:simpleType>
-  
+
   <xs:element name="Sender">
     <xs:complexType>
       <xs:attribute name="UserName" type="xs:string" />
@@ -309,7 +309,7 @@ Das folgende Codebeispiel enthält die standardmäßige Ausgabe des Konformität
 ```
 
 Das folgende Codebeispiel enthält ein Beispiel einer XSL-Transformation.
-  
+
 ```
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -378,5 +378,4 @@ Das folgende Codebeispiel enthält ein Beispiel einer XSL-Transformation.
       <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
    </xsl:template>
 </xsl:stylesheet>
-
 ```

@@ -11,31 +11,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: a5003186b8057804920ee5d56dd5b71516bf547f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: b349e5dc617ffe9b5247fc38d86c339f3031ceb0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965968"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373793"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
- 
+
 In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst. 
-  
+
 Die Bereitstellung planungslösung Kontenerstellung gemäß der Beschreibung unter [Bereitstellen von Skype Raum Systemen v2](../../deploy/deploy-clients/room-systems-v2.md) und Einrichten von einem Meeting-Konsole, wie beschrieben unter [Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md). Sie müssen auch auf [Skype für Business Add-on Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)verweisen.
 
 > [!NOTE]
 > Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen.  <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
-  
+
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
 
 Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach Audio- und Videodaten Peripheriegeräte skaliert. Audio und video Peripheriegeräte Verbinden mit Skype Raum Systemen v2 über ein USB- oder HDMI Verbindung auf das docking-Gerät. Sie müssen außerdem:
-  
+
 - Eine 32GB oder größeren USB-Laufwerk als startbare Windows-Installationsmedium konfigurieren Sie für Windows 10 Enterprise. 
-    
+
 - Einer der folgenden Tablets oder Konsolen:
-    
+
 **Unterstützte tablets**
+
 |Tablet|Prozessor|RAM|Festplatte|
 |:-----|:-----|:-----|:-----|
 |Surface Pro 4       |Core i5  |4GB  |128GB  |
@@ -45,27 +46,29 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
 |Surface Pro (2017)  |Core i7  |8GB  |128GB  |
 |Surface Pro (2017)  |Core i7  |16GB |512GB  |
 |Surface Pro (2017)  |Core i7  |16GB |1TB    |
-   
+
 > [!NOTE]
 > Core M3-Prozessoren werden nicht unterstützt.
 
 **Unterstützte Konsolen**
+
 |Konsole|Prozessor|RAM|Festplatte|
 |:-----|:-----|:-----|:-----|
 |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
 |[HP Elite Segments zur Erfüllung G2 Räume](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  |  
 
 - Eine der folgenden docking Station Optionen auf einen Tablet zur Besprechung sichere Raum Tabelle. 
-    
+
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
-    
+
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-    
+
   - [Polycom MSR Datenreihe](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
- 
+
 **Certified-Firmware-Versionen für USB-audio und video Peripheriegeräte**
+
 |Skype-Chatroom-Systemen v2 Peripheriegeräte|Firmwareversion zertifiziert für Skype Raum Systemen v2|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
@@ -84,27 +87,27 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
 |[Yamaha YVC 1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
-   
+
 - **USB-Extender**:
-    
+
   - USB-Anschlüsse auf Tablet Docking-Stationen sind USB 3.0 kompatibel. Einen USB-2.x Extender können jedoch dadurch so wird Sie auf beschränken USB 2.x kumulativ auf weit Ende und dadurch ist also nicht für USB-3.0 Peripheriegeräte empfohlen.
-    
+
   - Ein Extender muss USB 2.0 oder neuere Spezifikationen erfüllen.
-    
+
   - Tablet Docking-Stationen unterstützt mindestens zwei Stufen der externen USB-Hub-Erweiterung. Wenn müssen eine Verbindung herstellen mit mehr als zwei USB-Hubs in Reihe, müssen Sie die wenden Sie sich beim Hersteller Andocken zu bestätigen, dadurch wird daher unterstützt.
-    
+
 - Kabelverbindung Gigabit im Raum. Ethernet-Kabel mit entsprechender Länge.
-    
+
 - Bis zu zwei 1080p zeigt mit HDMI Verbindungen. HDMI-Kabel entsprechender Länge.
-    
+
     > [!NOTE]
     > Ein Consumer TV als Front Raum Anzeige Anforderungen für den Support/HDMI das Consumer Electronics Steuerelement (CEC)-Feature aktivieren, damit er automatisch an eine aktive Bildquelle aus dem Standbymodus wechseln kann. Dieses Feature wird auf alle TV-Geräte nicht unterstützt. 
-  
+
 > [!NOTE]
 > Skype-Chatroom-Systemen v2 wird Tastatur nicht verwendet werden. Bei Bedarf muss der Administrator die Bildschirmtastatur verwenden. USB-Tastatur oder Maus ist erforderlich, wenn das Skype Raum Systemen v2 Gerät imaging. 
-  
+
 In den folgenden Tabellen enthalten Empfehlungen für Peripheriegeräte basierend auf Raumgröße:
-  
+
 **Skype-Raum Systemen v2 Certified Audio Peripheriegeräte**
 
 |**Raumart**|**Anzahl der Personen**|**Empfohlene maximale Entfernung zwischen Mikrofon und vortragender Person**|**Gerät nach maximaler Raumgröße**|**Anmerkungen**|
@@ -113,7 +116,7 @@ In den folgenden Tabellen enthalten Empfehlungen für Peripheriegeräte basieren
 |**Klein** <br/> 16' x 16'  <br/> |4 bis 6  <br/> |2,0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Die Wiedergabelautstärke kann für größere Räume begrenzt sein.  <br/> |
 |**Mittel** <br/> 18' x 20'  <br/> |6 bis 12  <br/> |2,4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 MS  <br/> |Die Logitech MeetUp enthält eine Kamera, damit es am Anfang der Raum (nicht Mitte der Tabelle zum Erfassen von lokalen Besprechungsteilnehmer) positioniert werden muss.  <br/> Im Allgemeinen können Chatrooms mit Tabellen lange rechteckigen oder u-Form von zusätzlichen Satelliten Mikrofone profitieren.  <br/> SP 220 MS muss in einer Daisy-Chain-Konfiguration verwendet werden.  <br/> |
 |**Groß** <br/> 15' x 32'  <br/> |12-16  <br/> |3m  <br/> Diese Entfernung gilt auch für den Bereich, der von jedem weiteren Satellitenmikrofon abgedeckt wird, das mit dem entsprechenden Audiogerät verbunden ist.   <br/> |Logitech Gruppe + Satelliten Mikrofone  <br/> Polycom Trio + Satelliten Mikrofone  <br/> Polycom CX5100 + Satelliten Mikrofone  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 MS + Satelliten Mikrofone  <br/> |Alle in dieser Zeile aufgeführten Audiogeräte unterstützen Optionen für Satellitenmikrofone.  <br/> CX5100 umfasst eine integrierte 360-Grad-Kamera, sodass das Gerät in der Tischmitte positioniert werden kann.  <br/> SP 220 MS muss in einer Daisy-Chain-Konfiguration verwendet werden.  <br/> |
-   
+
 **Skype-Raum Systemen v2 Certified Video Peripheriegeräte**
 
 |Raumart|Anzahl der Personen|Gerät nach optimale Raumgröße|Kommentare|
@@ -122,7 +125,7 @@ In den folgenden Tabellen enthalten Empfehlungen für Peripheriegeräte basieren
 |**Klein** <br/> 16' x 16'  <br/> |4 bis 6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro häufig gebündelt mit Logitech Gruppe  <br/> |
 |**Mittel** <br/> 18' x 20'  <br/> |6 bis 12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
 |**Groß** <br/> 15' x 32'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-   
+
  > [!NOTE]
  > Am Anfang Raum Auflösung sollte nicht mehr als 1920x1080p festgelegt werden.
 
@@ -135,15 +138,15 @@ Um ein eigenes Bild Skype Raum Systemen v2 zu erstellen, befolgen Sie die Anweis
 
 Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), häufig zum Bereitstellen von Skype Raum Systemen v2 Konten verwendet.
 
-  
+
 ## <a name="see-also"></a>Siehe auch
 
 [Planung für Skype Room Systems v2](skype-room-systems-v2-0.md)
-  
+
 [Bereitstellen von Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
-  
+
 [Konfigurieren einer Konsole für Skype Room Systems v2](../../deploy/deploy-clients/console.md)
-  
+
 [Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype für Business Add-on Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

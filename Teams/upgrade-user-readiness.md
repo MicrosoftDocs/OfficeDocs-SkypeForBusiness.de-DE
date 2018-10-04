@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6939f28f5e7c215c96be56c7f85a536dc155f3a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: eba3174e8bce17f66a7e990c0066bc886aed9f9b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017977"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374097"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -40,14 +40,14 @@ Eine optimale Benutzer bereitschaftsplan beinhaltet, wie Sie mit kommunizieren, 
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Wie können Sie eine bereitschaftsplan zu vereinfachen und schnellere Benutzer Umsetzung der neuen Lösung erstellen?</li><li>Verfügen Sie über die Rechte zur Förderung des Bekanntheitsgrads, Schulung und Support-Ressourcen, die die Möglichkeit für den Umgang mit ändern und die Benutzer Rollen, die Sie definiert haben ausgerichtet?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Als Nächstes|<ul><li>Verwenden Sie der Liste unten, um Ideen für Ihr bereitschaftsplan zu generieren. Wählen Sie die wichtigsten Aktivitäten – oder eigene hinzufügen – Entwerfen einer bereitschaftsplan für Ihre Organisation optimiert. Denken Sie daran, eine Kombination von großer Reichweite (für die gesamte Organisation) und (für Nachzügler oder bestimmte Rollen) gezielte Kampagnen für maximale Ergebnisse zu verwenden.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verwenden Sie der Liste unten, um Ideen für Ihr bereitschaftsplan zu generieren. Wählen Sie die wichtigsten Aktivitäten – oder eigene hinzufügen – Entwerfen einer bereitschaftsplan für Ihre Organisation optimiert. Denken Sie daran, eine Kombination von großer Reichweite (für die gesamte Organisation) und (für Nachzügler oder bestimmte Rollen) gezielte Kampagnen für maximale Ergebnisse zu verwenden.</li></ul>|
 
 
 <div class="mx-tableFixed">
 <table>
 <tbody>
 <tr><th>Welche Kommunikationskanäle wird werden genutzt?</th><th>Welche Schulung Kanäle werden werden genutzt?</th><th>Welche Unterstützung wird Kanäle Sie verwenden?</th></tr>
-<tr><td><ul><li>E-Mail<br>**Tipp:** Verwenden Sie unsere Beispiel Piloten Koexistenz, und aktualisieren Sie e-Mails an Ihre e-Mail-Kampagne anpassen.</li><li>Poster und digitaler Signatur</li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams-Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Veröffentlichte Microsoft online-Artikel und videos</li><li>Ressourcen:<ul><li>[Wechseln Sie zu Teams von Skype für Unternehmen](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Video Schulung von Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)</li></ul></li><li>In der Produkt-Unterstützung (T-Bot)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Self-Service (Intranetwebsite)</li><li>[Online-Hilfe und-Vorgehensweisen](https://support.office.com/teams)</li><li>Floor-Walkers und champions</li><li>Feedbackschleife (Umfragen, Bewertungen)</li></ul></td></tr>
+<tr><td><ul><li>E-Mail<br><strong>Tipp:</strong> Verwenden Sie unsere Beispiel Piloten Koexistenz, und aktualisieren Sie e-Mails an Ihre e-Mail-Kampagne anpassen.</li><li>Poster und digitaler Signatur</li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams-Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Veröffentlichte Microsoft online-Artikel und videos</li><li>Ressourcen:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Wechseln Sie zu Teams von Skype für Unternehmen</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Video Schulung von Teams</a></li></ul></li><li>In der Produkt-Unterstützung (T-Bot)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Self-Service (Intranetwebsite)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Online-Hilfe und-Vorgehensweisen</a></li><li>Floor-Walkers und champions</li><li>Feedbackschleife (Umfragen, Bewertungen)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

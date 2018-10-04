@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Hier erhalten Sie Informationen zu Skype for Business Cloud Connector Edition, einem als Paket zusammengesetzten Satz von virtuellen Maschinen (VMs), die eine lokale PSTN-Anbindung mit dem Telefonsystem in Office 365 (Cloud-PBX) implementieren.
-ms.openlocfilehash: 58b84f083f77dde134dc0b2d7bab7fe60dcac5ea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b98ba65555e8e94c743a87299b920f9ffd5efbfb
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883619"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372524"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planen für die Skype for Business Cloud Connector-Edition
 
@@ -568,7 +568,7 @@ Sie müssen für jede SIP-Domäne „sip.sipdomain.com“ sowie den Namen der Zu
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
-- **Option 2.** Wenn Sie ein einzelnes Platzhalterzertifikat auf allen Servern der Edge-Pool verwenden Sie bereitstellen möchten, können Platzhalter SAN-Eintrag des \*. sipdomain.com anstelle der Edge-Pool-Name im Zertifikat. Der Antragstellername kann der Zugriffs-Edgepoolname eines der bereitgestellten Edgepools sein:
+- <strong>Option 2.</strong> Wenn Sie ein einzelnes Platzhalterzertifikat auf allen Servern der Edge-Pool verwenden Sie bereitstellen möchten, können Platzhalter SAN-Eintrag des \*. sipdomain.com anstelle der Edge-Pool-Name im Zertifikat. Der Antragstellername kann der Zugriffs-Edgepoolname eines der bereitgestellten Edgepools sein:
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,

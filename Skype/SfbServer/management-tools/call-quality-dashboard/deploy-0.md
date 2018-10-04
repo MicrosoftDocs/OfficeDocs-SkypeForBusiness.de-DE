@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Zusammenfassung: Informationen Sie zu den Bereitstellungsprozess für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988986"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372641"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Bereitstellen von Anrufqualität Dashboard für Skype für Business Server 2015
  
@@ -78,15 +78,15 @@ Bereitstellung von Anrufqualität Dashboard umfasst Einrichten der Infrastruktur
     
    - **Verwenden Sie mehrere Partitionen:** Die Standardeinstellung von "Mehrere Partition", die Business Intelligence-Edition oder Enterprise Edition von SQL Server erforderlich sind. Wählen Sie "Einzelpartition" Option aus, für die Standard Edition. Beachten Sie, dass Cube Verarbeitung Leistung beeinträchtigt werden kann, wenn das Einzelpartition verwendet wird.
     
-    > [!NOTE]
-    > Die Auswahl für Verwenden mehrerer Partitionen Option kann nicht geändert werden, wenn Setup abgeschlossen ist. Um es zu ändern, der Cube Feature benötigt, erste deinstalliert und anschließend erneut installiert, mit der Option "Ändern" in der Systemsteuerung. 
+     > [!NOTE]
+     > Die Auswahl für Verwenden mehrerer Partitionen Option kann nicht geändert werden, wenn Setup abgeschlossen ist. Um es zu ändern, der Cube Feature benötigt, erste deinstalliert und anschließend erneut installiert, mit der Option "Ändern" in der Systemsteuerung. 
   
    - **Partitionieren Dateiverzeichnis:** Der Pfad, in dem die Partitionen für die QoE-Archivdatenbank platziert werden soll. Dies sollte (HDD3 in die empfohlene Hardwarekonfiguration) getrennt vom OS Laufwerk und SQL-Datenbank Protokolllaufwerk Dateien auf einem Laufwerk sein. Beachten Sie, dass seit die Dateinamen in der Installation behoben werden, um alle Konflikte zu vermeiden empfohlen wird, dass ein leeres Verzeichnis ohne Dateien verwendet werden.
     
    - **SQL-Agent Job-Benutzer - Benutzernamen &amp; Kennwort:** Dienstkontoname Domäne und das Kennwort (maskiert), mit der der "QoE-Archivdaten" Schritt des Auftrags für SQL Server-Agent ausgeführt (die zum Abrufen von Daten aus der Datenbank der QoE-Metriken in Archiv DB, damit dieses Konto Lesezugriff auf den QoE-Metriken DB, benötigen die gespeicherte Prozedur ausgeführt wird  wie im Abschnitt Konten angegeben. Dieses Konto muss außerdem ein Benutzername in der QoE-Archiv SQL Server-Instanz haben).
     
-    > [!NOTE]
-    > Das Konto, das SQL Server-Instanz unter, wie beispielsweise NT-SERVICE\MSSQLSERVER ausgeführt wird benötigen Zugriffsberechtigungen für die Verzeichnisse obigen für die Installation erfolgreich ausgeführt werden kann. Weitere Informationen hierzu finden Sie unter [Konfigurieren Dateisystemberechtigungen für den Zugriff auf das Datenbankmodul](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > [!NOTE]
+     > Das Konto, das SQL Server-Instanz unter, wie beispielsweise NT-SERVICE\MSSQLSERVER ausgeführt wird benötigen Zugriffsberechtigungen für die Verzeichnisse obigen für die Installation erfolgreich ausgeführt werden kann. Weitere Informationen hierzu finden Sie unter [Konfigurieren Dateisystemberechtigungen für den Zugriff auf das Datenbankmodul](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
   
 7. Beim nächsten klicken, wird das Installationsprogramm Prüfungen und Untersuchung Bericht durchführen, wenn Probleme aufgetreten sind. Wenn alle vorausgesetzte Überprüfungen Durchgang gelangen das Installationsprogramm auf der Seite Cubekonfiguration. 
     
@@ -101,13 +101,13 @@ Bereitstellung von Anrufqualität Dashboard umfasst Einrichten der Infrastruktur
     
    - **-Cubes in Analysis-Server:** SQL Server Analysis Services-Instanznamen für wobei ist der Cube erstellt werden soll. Dies kann einem anderen Computer aber der installierende Benutzer muss ein Mitglied der Zielinstanz von SQL Server Analysis Services-Server-Administratoren sein.
     
-    > [!NOTE]
-    >  Weitere Informationen zum Konfigurieren von Analysis Services-Server-Administrator Berechtigungen finden Sie unter [Server-Administrator-Berechtigungen erteilen (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     > [!NOTE]
+     >  Weitere Informationen zum Konfigurieren von Analysis Services-Server-Administrator Berechtigungen finden Sie unter [Server-Administrator-Berechtigungen erteilen (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
   
    - **Verwenden Sie mehrere Partitionen:** Die Standardeinstellung von "Mehrere Partition", die Business Intelligence-Edition oder Enterprise Edition von SQL Server erforderlich sind. Wählen Sie "Einzelpartition" Option aus, für die Standard Edition. Beachten Sie, dass Cube Verarbeitung Leistung beeinträchtigt werden kann, wenn das Einzelpartition verwendet wird.
     
-    > [!NOTE]
-    >  Die Auswahl für Verwenden mehrerer Partitionen Option kann nicht geändert werden, wenn Setup abgeschlossen ist. Um es zu ändern, der Cube Feature benötigt, erste deinstalliert und anschließend erneut installiert, mit der Option "Ändern" in der Systemsteuerung.
+     > [!NOTE]
+     >  Die Auswahl für Verwenden mehrerer Partitionen Option kann nicht geändert werden, wenn Setup abgeschlossen ist. Um es zu ändern, der Cube Feature benötigt, erste deinstalliert und anschließend erneut installiert, mit der Option "Ändern" in der Systemsteuerung.
   
    - **Cube User - Benutzername &amp; Kennwort:** Dienstkontoname Domäne und das Kennwort (maskiert), die die Cubes Verarbeitung auslöst. Wenn QoE-Archiv-Komponente für die Installation ausgewählt wurde, in diesem Feld mit dem Wert auf der Seite Konfiguration der Archivierung für den SQL-Agent-Auftrag Benutzer bereits ausgefüllte werden, aber es wird empfohlen, ein anderes Domänenkonto Service angeben, sodass Setup gewähren kann die mindestens erforderliche Berechtigung hinzu.
     
@@ -259,7 +259,7 @@ Beispiele
     
 - Sofern Speicherort
     
- **Beispiel-SQL-Syntax**
+  **Beispiel-SQL-Syntax**
   
 ```
 INSERT INTO
@@ -290,7 +290,7 @@ Beispiele
     
 - Niederlassung geleaste
     
- **Beispiel-SQL-Syntax**
+  **Beispiel-SQL-Syntax**
   
 ```
 INSERT INTO
@@ -320,7 +320,7 @@ Beispiele
     
 - ÜBUNG
     
- **Beispiel-SQL-Syntax**
+  **Beispiel-SQL-Syntax**
   
 ```
 INSERT INTO [dbo].[CqdNetworkName] 

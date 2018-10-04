@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Informationen zum Konfigurieren von Anrufen Daten Connector, der für lokale Skype für Business Online-Tools mit angezeigt werden, um Business Telemetrie von Skype werden können.
-ms.openlocfilehash: 38e74e76e09d03036419f16807841a67fdf3433a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030574"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373299"
 ---
 # <a name="configure-call-data-connector"></a>Konfigurieren von Anruf Daten Connector
 
@@ -99,7 +99,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ```
 
 Zusätzlich zu den globalen Einstellungen für können Call Data Connector-Konfigurationseinstellungen, die auf Standortebene zugewiesen werden. Dies bietet zusätzliche Management-Flexibilität, wenn es für die Überwachung stammt. Beispielsweise kann der Administrator aktivieren Sie die Weiterleitung von Anrufen Data Connector für den Standort Redmond jedoch Call Data Connector-Weiterleitung für die Website Dublin deaktivieren, wie im folgenden Beispiel dargestellt:
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
@@ -111,6 +111,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 Einstellungen auf Standortebene haben Vorrang vor globalen Einstellungen. Nehmen wir beispielsweise bei Weiterleitung von Anrufen Data Connector auf globaler Ebene aktiviert ist, jedoch auf Standortebene (für den Standort Redmond) deaktiviert. Das bedeutet, die Aufzeichnung von kommunikationsdatensätzen und QoE-Informationen aufrufen werden nicht für Benutzer in den Standort Redmond weitergeleitet. Allerdings haben Benutzer an anderen Standorten (d. h., Benutzer, die durch die globalen Einstellungen anstelle der Redmond-websiteeinstellungen verwaltet) ihre KDS- und QoE-Informationen weitergeleitet.
 
 Werte für den am häufigsten verwendeten Einstellungen aufrufen Data Connector werden in der folgenden Tabelle aufgeführt:  
+
 |Eigenschaft|Beschreibung|Standardwert|
 |:-----|:-----|:-----|
 |EnableCallDataConnector  <br/> |Gibt an, ob Call Data Connector aktiviert ist. Bei True werden Datensätze Überwachung auf die Überwachung der online weitergeleitet.  <br/> |$False  <br/> |
@@ -121,7 +122,7 @@ Werte für den am häufigsten verwendeten Einstellungen aufrufen Data Connector 
 Deaktivieren Data Connector rufen Sie den Speicher für überwachen aus dem Front-End-Pool nicht aufheben, noch ist es deinstallieren oder anderweitig beeinträchtigt die Überwachung Back-End-Datenbank. Wenn Sie rufen Sie Data Connector deaktivieren, verhindern, dass Sie Skype für Business Server hochladen Anrufdaten in der Cloud. 
 
 Deaktivieren Sie Call Data Connector mithilfe des Set-CsCloudCallDataConnectorConfiguration-Cmdlets in der Skype für Business Server-Verwaltungsshell. Beispielsweise deaktiviert der folgende Befehl rufen Sie Data Connector auf globaler Ebene, indem es die EnableCallDataConnector-Eigenschaft auf $False festlegen:
-  
+
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
@@ -140,7 +141,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ## <a name="for-more-information"></a>Weitere Informationen
 
 Weitere Informationen in den Cmdlets können Sie den Befehl Get-Help aus der Skype für Business Server-Verwaltungsshell verwenden. Beispiel:
-  
+
 Get-Help Get-CsCloudCallDataConnector | Weitere
 
 Get-Help Set-CsCloudCallDataConnector | Weitere

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Zusammenfassung: Konfigurieren Sie Exchange Server Unified Messaging für Skype für Voicemail Business Server.'
-ms.openlocfilehash: 21664f50b657324b4e70e86da83a4abbe1c14239
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979311"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375811"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Konfigurieren von Exchange Server Unified Messaging für Voicemail on Skype for Business Server
  
@@ -109,8 +109,8 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 Um Exchange Unified Messaging (UM) arbeiten mit Enterprise-VoIP konfigurieren, benötigen Sie die folgenden Aufgaben ausführen:
 
 - Konfigurieren von Zertifikaten auf dem Server mit Exchange Unified Messaging (UM) services
-> [!NOTE]
-> Fügen Sie alle Clientzugriffs- und Postfachservern an alle UM-SIP-URI-Wählpläne. Wenn nicht, des Routings ausgehender Anrufe als nicht funktionsfähig zu erwarten. 
+  > [!NOTE]
+  > Fügen Sie alle Clientzugriffs- und Postfachservern an alle UM-SIP-URI-Wählpläne. Wenn nicht, des Routings ausgehender Anrufe als nicht funktionsfähig zu erwarten. 
 - Erstellen Sie mindestens einen UM-SIP-URI-Wählpläne, zusammen mit den Telefonnummern für den Teilnehmerzugriff nach Bedarf, und erstellen Sie entsprechende L-Wählpläne.
 
 - Verwenden Sie das Skript ExchUCUtil. ps1:
@@ -128,8 +128,8 @@ Bevor Sie beginnen, wird in die Dokumentation in diesem Abschnitt davon ausgegan
 Beachten Sie auch Folgendes:
 - Wenn Exchange UM in mehreren Gesamtstrukturen installiert ist, müssen die Exchange Server-Integrationsschritte für jede UM-Gesamtstruktur ausgeführt werden. Darüber hinaus muss jede UM-Gesamtstruktur die Gesamtstruktur vertrauen, in dem Skype für Business Server bereitgestellt wird, und die Gesamtstruktur in WhichSkype für Business Server bereitgestellt wird konfiguriert werden muss, um jedes UM-Gesamtstruktur-Vertrauensstellung, konfiguriert werden.
 - Integrationsschritte werden ausgeführt auf beide den Exchange Server-Rollen, auf dem Unified Messaging-Dienste ausgeführt werden, und klicken Sie auf dem Server mit Skype für Business Server. Führen Sie vor dem Ausführen der Lync Server 2013-Integrationsschritte der Exchange Server Unified Messaging-Integrationsschritte.
-> [!NOTE]
-> Um herauszufinden, welche Integrationsschritte auf welchen Servern und von welchen Administratorrollen durchgeführt werden, finden Sie unter [Übersicht über den Bereitstellungsprozess für die Integration lokaler Unified Messaging und Skype für Unternehmen](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
+  > [!NOTE]
+  > Um herauszufinden, welche Integrationsschritte auf welchen Servern und von welchen Administratorrollen durchgeführt werden, finden Sie unter [Übersicht über den Bereitstellungsprozess für die Integration lokaler Unified Messaging und Skype für Unternehmen](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
 
 Die folgenden Tools müssen auf jedem Server mit Exchange UM verfügbar sein:
 - Exchange-Verwaltungsshell
@@ -151,8 +151,8 @@ Bei der Integration von Microsoft Skype für Business Server mit Exchange Unifie
 
 - Erstellt einen um-Sammelanschluss für jedes UM-IP-Gateway. Die pilot-ID jedes Sammelanschlusses gibt den UM-SIP-URI-Wählplan wird von der Skype für Business Server-Front-End-Pool oder Standard Edition-Server, die mit dem UM-IP-Gateway zugeordnet ist.
 - Gewährt Skype für die Berechtigung zum Lesen von Active Directory-UM-Containerobjekten wie UM einwählen, Pläne, automatischen Telefonzentralen, UM-IP-Gateways, und UM-Sammelanschlüsse Business Server.
-> [!IMPORTANT]
-> Jede UM-Gesamtstruktur muss konfiguriert sein, damit vertraut die Gesamtstruktur, in dem Skype für Business Server bereitgestellt wird, und die Gesamtstruktur, in der Skype für Business Server 2013 bereitgestellt wird, muss als vertrauenswürdig, jede UM-Gesamtstruktur konfiguriert werden. Wenn Exchange UM in mehreren Gesamtstrukturen installiert ist, die Exchange Server-Integrationsschritte müssen für jede UM-Gesamtstruktur ausgeführt werden, oder Sie müssen die Skype für Business Server-Domäne angeben. Beispielsweise ExchUCUtil. ps1 – Gesamtstruktur: < Lync-Domäne-Controller-Fqdn >. 
+  > [!IMPORTANT]
+  > Jede UM-Gesamtstruktur muss konfiguriert sein, damit vertraut die Gesamtstruktur, in dem Skype für Business Server bereitgestellt wird, und die Gesamtstruktur, in der Skype für Business Server 2013 bereitgestellt wird, muss als vertrauenswürdig, jede UM-Gesamtstruktur konfiguriert werden. Wenn Exchange UM in mehreren Gesamtstrukturen installiert ist, die Exchange Server-Integrationsschritte müssen für jede UM-Gesamtstruktur ausgeführt werden, oder Sie müssen die Skype für Business Server-Domäne angeben. Beispielsweise ExchUCUtil. ps1 – Gesamtstruktur: < Lync-Domäne-Controller-Fqdn >. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Verwenden der Shell zum Ausführen des Skripts ExchUCUtil. ps1
 
@@ -191,8 +191,8 @@ Der Exchange-Server muss, um eine Verbindung mit Skype für Business Server mit 
 1. Auf dem Server, auf dem Exchange UM ausgeführt wird, klicken Sie auf **Start**, klicken Sie auf **Ausführen**, Typ **http://\<Name des ausstellenden Zertifizierungsstelle-Servers > / certsrv ein**, und klicken Sie dann auf **OK**.
 2. Klicken Sie unter Wählen Sie Task aus, klicken Sie auf **Download einer Zertifizierungsstellen-Zertifikat, Zertifikatkette oder einer Zertifikatsperrliste**.
 3. Klicken Sie unter **einer Zertifizierungsstellen-Zertifikat, Zertifikatkette oder einer Zertifikatsperrliste herunterladen**Kodierungsmethode **für Base 64**aus, und klicken Sie dann auf**Download des Zertifizierungsstellenzertifikats**.
-> [!NOTE]
-> Sie können auch die Distinguished Encoding Rules (DER) in diesem Schritt Codierung angeben. Wenn Sie wählen Sie aus DER Codierung, des Dateityps im nächsten Schritt dieses Verfahrens und in 10 **zum Installieren der Zertifizierungsstellen-Zertifikat Schritt** ist p7b und nicht CER. 
+   > [!NOTE]
+   > Sie können auch die Distinguished Encoding Rules (DER) in diesem Schritt Codierung angeben. Wenn Sie wählen Sie aus DER Codierung, des Dateityps im nächsten Schritt dieses Verfahrens und in 10 **zum Installieren der Zertifizierungsstellen-Zertifikat Schritt** ist p7b und nicht CER. 
 4. Klicken Sie im Dialogfeld **Dateidownload** klicken Sie auf **Speichern**, und speichern Sie die Datei auf der Festplatte auf dem Server. (Die Datei müssen entweder eine CER oder einer Erweiterung der P7B-Datei, je nach der Codierung, dass Sie im vorherigen Schritt ausgewählt haben.)
 
 **So installieren Sie das Zertifizierungsstellenzertifikat:**
