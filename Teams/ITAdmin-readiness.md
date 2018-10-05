@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Schulungsvideos, Lernprogramme und andere Ressourcen für Administratoren zum Planen, bereitstellen und Ausführen von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2750f99e47517e0b1e516b89673106b44f0c96c
-ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
+ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/04/2018
-ms.locfileid: "25402077"
+ms.locfileid: "25405160"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 
@@ -119,7 +119,8 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
 
     
 </ul>
-****************
+
+---
 
 <h2>Ausgewählte Schulung</h2>
 <ul class="panelContent cardsW">
@@ -130,6 +131,17 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
                     <div class="cardText">
                         <h3>Reise von Skype for Business zu Microsoft Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Reise von Skype for Business zu Microsoft Teams</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Zusammenarbeit</h3>
+                         <p><a href="https://aka.ms/edx-cld267x-about">Kurs: Aktivieren der Zusammenarbeit im Team mit Microsoft-Teams</a></p>
                     </div>
                 </div>
             </div>
