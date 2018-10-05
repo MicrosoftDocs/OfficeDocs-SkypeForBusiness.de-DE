@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lesen Sie in diesem Thema erfahren, wie Lync Raum Systemkomponenten Verwendung die Systemsoftware Skype Raum v2 migrieren.
-ms.openlocfilehash: 18cc3f954480a000bfe962e0a4b461e05568479b
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: c87081ccd40765b10929a0d2762d834ce6a1b2ab
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354004"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429452"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrieren von Lync Raum System (LRS) Geräte zu Skype Raum System v2 
 Lync Raum System (LRS) Geräte mit Skype Raum System Version 1 (SRS v1) Software werden [Ablauf des Supports auf 9 Oktober 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)erreichen. Dies bedeutet, dass Skype Raum Systemsoftware v1 Produktupdates oder Hotfixes nach diesem Datum nicht abgerufen werden. Kunden mit Lync Raum System im Geräte-Skype Raum Systemsoftware v1, sollten ihre Geräte auf Skype Raum System, Version 2 (SRS v2) zu aktualisieren.
@@ -42,8 +42,8 @@ Crestron wird ein Upgrade der [Crestron SR-System](https://www.crestron.com/en-u
 Bestehende Crestron RL2 (auch als Crestron RL200 bezeichnet) Kunden können ein Aktualisierungspaket zum Aktualisieren des aktuellen RL2 RL3 Verwendung erwerben eine minimale Kosten pro Gerät. Finden Sie unter Details dieses Programms [hier](https://support.crestron.com/app/answers/answer_view/a_id/1000220) oder <!-- For details, --> [e-Mail](mailto:lrsupgrade@crestron.com) Crestron LRS Support.  
 
 
-### <a name="smart-room-systems-upgrade--diy-program"></a>Intelligente Raum Systeme Upgrade & DIY Programm
-SMART LRS Kunden, ausreichend Abstand zu platzieren Crestron Hardware Rückkauf Programm arbeiten Microsoft und EFFIZIENT auch auf die Bereitstellung einer Lösung für das upgrade auf Skype Raum System v2. Microsoft ist eine DIY Lösung auch für intelligente LRS Kunden testen. Weitere Informationen zu dieser Programme werden auf dieser Seite in frühe Oktober 2018 bereitgestellt. Stellen Sie sicher, dass Sie für die Updates auf diese Upgradeoptionen zu überprüfen.
+### <a name="smart-room-systems-upgrade"></a>Intelligente Raum Systeme aktualisieren 
+SMART LRS Kunden, ausreichend Abstand zu platzieren Crestron Hardware Rückkauf Programm arbeiten Microsoft und EFFIZIENT auch auf die Bereitstellung einer Lösung für das upgrade auf Skype Raum System v2. Dieses Update wird für alle vorhandenen SMART LRS Kunden durch SMART angeboten. Weitere Informationen zu diesem Programm werden auf dieser Seite im Oktober 2018 bereitgestellt. Stellen Sie sicher, dass Sie wieder nach Updates suchen.
 
 <!--  
 For later 

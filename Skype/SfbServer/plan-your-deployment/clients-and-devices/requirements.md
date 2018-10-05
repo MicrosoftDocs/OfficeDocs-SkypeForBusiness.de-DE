@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: b349e5dc617ffe9b5247fc38d86c339f3031ceb0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373793"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429459"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
 
@@ -25,11 +25,11 @@ In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Rau
 Die Bereitstellung planungslösung Kontenerstellung gemäß der Beschreibung unter [Bereitstellen von Skype Raum Systemen v2](../../deploy/deploy-clients/room-systems-v2.md) und Einrichten von einem Meeting-Konsole, wie beschrieben unter [Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md). Sie müssen auch auf [Skype für Business Add-on Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)verweisen.
 
 > [!NOTE]
-> Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen.  <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
+> Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen. <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
 
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
 
-Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach Audio- und Videodaten Peripheriegeräte skaliert. Audio und video Peripheriegeräte Verbinden mit Skype Raum Systemen v2 über ein USB- oder HDMI Verbindung auf das docking-Gerät. Sie müssen außerdem:
+Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach Audio- und Videodaten Peripheriegeräte skaliert. Die in diesem Artikel aufgeführten Hardware unterstützt Skype und Teams Besprechung Modi.  Audio und video Peripheriegeräte Verbinden mit Skype Raum Systemen v2 über ein USB- oder HDMI Verbindung auf das docking-Gerät. Sie müssen außerdem:
 
 - Eine 32GB oder größeren USB-Laufwerk als startbare Windows-Installationsmedium konfigurieren Sie für Windows 10 Enterprise. 
 

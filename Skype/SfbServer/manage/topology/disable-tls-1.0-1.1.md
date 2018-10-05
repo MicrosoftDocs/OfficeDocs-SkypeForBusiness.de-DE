@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Zusammenfassung: Vorbereiten Sie und implementieren Sie in Ihren Umgebungen deaktivieren TLS 1.0 und 1.1.'
-ms.openlocfilehash: e220a6615ef259e5ccba5b47a9e0f992289e6af4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 784b6b307275516a18b396864d1a2c4f40c285e8
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373071"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429445"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deaktivieren Sie TLS 1.0/1.1 in Skype für Business Server 2015
 
@@ -73,7 +73,7 @@ Microsoft hat ein Whitepaper über TLS verfügbaren [hier](https://cloudblogs.mi
 
 Wenn nicht anders angegeben die folgenden Produkte sind nicht im Gültigkeitsbereich für die Unterstützung für TLS 1.0/1.1 deaktivieren und funktioniert nicht in einer Umgebung, in dem TLS 1.0 und 1.1 deaktiviert wurden.  Dies bedeutet: Wenn Sie dennoch außerhalb des Bereichs Servern oder Clients nutzen, müssen Sie aktualisieren oder entfernen Sie diese Option, wenn Sie TLS 1.0/1.1 an einer beliebigen Stelle in Ihrem Skype für Business Server-Bereitstellung lokal nicht deaktiviert werden müssen.
 
-- Lync Server 2013 *
+- Lync Server 2013
 - WindowsServer 2008 als auch eine untere
 - Lync für Mac 2011
 - Lync 2013 für Mobile - iOS, iPad, Android oder Windows Phone
@@ -84,7 +84,7 @@ Wenn nicht anders angegeben die folgenden Produkte sind nicht im Gültigkeitsber
 
 ### <a name="exceptions"></a>Ausnahmen
 
-#### <a name="lync-server-2013"></a>* Lync Server 2013
+#### <a name="lync-server-2013"></a>Lync Server 2013
 
 Lync Server 2013 übernimmt eine Abhängigkeit Windows Fabric Version 1.0.  In der Phase Design für Lync Server 2013 wurde gewählt, Windows Fabric 1.0 für die überzeugender und neue verteilte Architektur Replikation, hohe Verfügbarkeit und Fehlertoleranz bereitstellen.  Im Laufe der Zeit beide Skype für Business Server und Windows Fabric haben erheblich verbessert diese gemeinsame Architektur mit erhebliche überarbeiten in späteren Versionen.  Aktuelle Skype für Business 2015 Server wird Windows Fabric 3.0, beispielsweise verwendet.
 
@@ -92,7 +92,7 @@ Windows Fabric 1.0 **unterstützt TLS 1.2 leider nicht.  Jedoch empfohlen wird w
 
 Wenn Ihre Organisation Deaktivieren von TLS 1.0 und 1.1 erforderlich ist und Sie zurzeit Lync Server 2013 verwenden, empfehlen wir Sie beim Planen beginnen, mit der Möglichkeit möglicherweise müssen Sie bei direkten Upgrades oder Side-by-Side migrieren (neuen Pools, Benutzer verschieben) zu Skype für Business Server 2015 oder höher.  Oder Sie möchten die Beschleunigung der Migration auf Skype für Business Online.
 
-#### <a name="call-quality-dashboard"></a>* Qualitätsdashboard aufrufen
+#### <a name="call-quality-dashboard"></a>Anrufqualitäts-Dashboard
 
 Lokale aufrufen Qualitätsdashboard ist derzeit abhängig von TLS 1.0 während der Neuinstallation (erstmalig in Ihrer lokalen Umgebung installieren).  Wir sind zurzeit untersucht dieses Problem und ein Update in naher Zukunft freigeben möchten.  Wenn Sie beabsichtigen, installieren CQD und TLS 1.0 auch deaktivieren, wird empfohlen, dass Sie zuerst CQD-Installation abgeschlossen, und fahren mit TLS 1.0 zu deaktivieren.
 
@@ -118,7 +118,7 @@ Außer oben nicht anders angegeben, einmal TLS 1.0 und 1.1 deaktivierte außerha
 
 Auf allgemeiner Ebene während Skype für Business Server 2019 für Verfahren bei der Installation bereit ist erforderlich Skype für Business Server 2015, dass Sie CU6 HF2, Anwenden von Updates für vorausgesetzte .NET und SQL, Bereitstellung von erforderlichen Registrierungsschlüssel und schließlich eine Separate installieren Roundrobin der OS-Konfiguration (d. h. deaktivieren TLS 1.0 und 1.1 über den Registrierungs-Dateiimport) aktualisiert. Es ist von entscheidender Bedeutung, dass Sie alle erforderlichen Komponenten, einschließlich Skype für Business Server 2015 CU6 HF2 deaktivieren TLS 1.0 und 1.1 auf allen Servern in Ihrer Umgebung vor der Installation abgeschlossen. Jeder Skype für Business Server, einschließlich Edge-Rolle und SQL-Back-Ends, erfordert die Updates. Außerdem sicherstellen Sie, dass alle unterstützten (im Gültigkeitsbereich)-Clients, die mindestens erforderlichen Versionen aktualisiert wurden. Vergessen Sie nicht, Verwaltungscomputer sowie zu aktualisieren.
 
-Wir möchten die übliche Reihenfolge der Vorgänge von "innen nach außen" führen für das Upgrade von Skype für Unternehmensserver. Behandeln von Director-Pools, Pchat und gepaart Pools in die gleiche Weise wie gewohnt verwenden. Reihenfolge und Methoden für das Upgrade fallen [hier](topology.md) und [hier](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015).
+Wir möchten die übliche Reihenfolge der Vorgänge von "innen nach außen" führen für das Upgrade von Skype für Unternehmensserver. Behandeln von Director-Pools, Persistent Chat und gepaart Pools in die gleiche Weise wie gewohnt verwenden. Reihenfolge und Methoden für das Upgrade fallen [hier](topology.md) und [hier](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015).
 
 ### <a name="high-level-process"></a>Allgemeine Prozess
 
@@ -146,7 +146,7 @@ Umfassende Abhängigkeit aktualisieren ist erforderlich, bevor Sie beginnen, TLS
     - Microsoft ODBC-Treiber 11 für SQL Server ([Link](https://www.microsoft.com/en-us/download/details.aspx?id=36434)) oder höher
     - Gemeinsame Management Objects für SQL Server 2014 SP2 ([Link](https://www.microsoft.com/en-in/download/details.aspx?id=42295))
     - SQLSysClrTypes für SQLServer 2014 SP2 ([Link](https://www.microsoft.com/en-in/download/details.aspx?id=42295))
- 
+
 ### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>Grundlegende Schritte zum Installieren der erforderlichen Komponenten in empfohlene Reihenfolge der Vorgänge
 
 1. Installieren Sie die Skype für Business Server CU6HF2 (6.0.9319.516) auf allen Servern zu aktualisieren. 
