@@ -3,112 +3,90 @@ title: Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/23/2018
+ms.date: 10/05/2018
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
+ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
 description: Weitere Informationen zum Verwalten von Mandanten geltende und von Einstellungen für Teams während des Übergangs von den Teams Erfahrung in der Office 365-Verwaltungskonsole auf die neue Microsoft-Teams & Skype für Business Admin Center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e54dfb0bc62e94e0a870aefc192851ce7b8a53fe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 38706497fc83cdc5eea4cafb7177d23d55879bf0
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013899"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436628"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center
 ======================================================
 
-Das neue Admin Center für Microsoft Teams und Skype for Business ist in Kürze verfügbar! 
-
-Starten im März 2018, wir sind schrittweise Einstellungen auf die Microsoft-Teams & Skype für Business Admin Center migrieren, aus sowohl der aktuelle Skype für Business Admin Center und die Microsoft-Teams Erfahrung in der Office 365-Verwaltungskonsole. Wenn eine Einstellung migriert wurde, sehen Sie eine Benachrichtigung und werden zu der entsprechenden Stelle im neuen Admin Center für Microsoft Teams und Skype for Business geleitet.
-
-Wir uns weiterhin andere Funktionen von der Skype für Business Admin Center in den nächsten Monaten zu migrieren. Sie können über unsere öffentliche [Roadmap](https://aka.ms/Office365Roadmap)Stand bleiben.
-
-> [!NOTE]
-> Wir sind in Phasen müssen Sie die neue Microsoft-Teams & Skype für Business Admin Center parallelen. Alle Kunden werden daher nicht das neue Admin Center zur selben Zeit angezeigt. Wir werden Sie benachrichtigen, wenn Sie mit dem neuen Admin Center starten können.
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 ## <a name="what-is-the-new-microsoft-teams--skype-for-business-admin-center"></a>Was ist der neue Microsoft-Teams und Skype für Business Admin Center?  
 
-Die neue Oberfläche Admin Center wird Ihnen ein einheitliches Benutzererlebnis zum Verwalten von Teams und Skype für Unternehmen bereitstellen. Wir sind zusätzliche Funktionalität, Einblicke in die End-to-End- und die Möglichkeit zum Verwalten von Einstellungen für Teams auf Benutzerebene übermitteln.
+Die neue Oberfläche von Admin Center wird Ihnen ein einheitliches Benutzererlebnis zum Verwalten von Teams und Skype für Unternehmen bereitstellen. Wir sind zusätzliche Funktionalität, Einblicke in die End-to-End- und die Möglichkeit zum Verwalten von Einstellungen für Teams auf Benutzerebene übermitteln.
 
 ![Screenshot des Microsoft-Teams & Skype für Business Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
 ## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Einstellungen migriert in der neuen Microsoft-Teams & Skype für Business-Verwaltungskonsole
 
-Starten in der Mitte März 2018, wurden die folgenden Funktionen in der neuen Microsoft-Teams & Skype für Business Admin Center verfügbar: 
+Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurden, und zeigt die Beziehung zwischen der aktuellen Einstellungen und Richtlinien in das neue Administratorportal.
 
-- **Microsoft-Teams, messaging-Richtlinie**: Erstellen der Richtlinie für die Verwaltung auf Benutzerebene, die Erfahrung in der Microsoft-Teams, Client für Messaging Szenarien.
-- **Upgrade-Policy von Microsoft-Teams**: konfigurieren die Interoperabilität und Upgrade Erfahrung zwischen Skype für Unternehmen und die Microsoft-Teams. Finden Sie unter https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
-- **Microsoft-Teams Gast messaging-Einstellungen**: steuern die messaging-Funktionen für Gastkonten in Microsoft-Teams. 
-- **Verbundeinstellungen**: den Verbund zwischen Mandanten für Microsoft-Teams und Skype für Unternehmen zu verwalten. 
-- **Die Verwaltung von**: Zuweisen von Richtlinien und Konfigurieren von Benutzerkonten. 
-- **Audiokonferenzen**: Konfigurieren von Einwahlnummern und Einstellungen für Skype für Geschäfts- und Microsoft-Teams.  
-
-Darüber hinaus haben Ihre vorhandenen Einstellungen für allgemeine, e-Mail-Integration, benutzerdefinierte cloudspeicher, Anrufe und Besprechungen und Messaging in Microsoft-Teams, jetzt in der neuen Microsoft-Teams & Skype für Business Admin Center (auch bekannt als die neue Admin migriert wurden Portal). 
-
-> [!NOTE]
->Sie können weiterhin das Gruppen-Dashboard im Office 365 Admin Center für die Konfiguration im Zusammenhang mit der **Teams und Kanäle**verwenden. Einstellungen für **Apps** bleibt im Bereich Teams von Office 365 Admin Center und migriert werden weiter unten. 
-
-![Screenshot des Teams Seite im Office 365 Admin Center.](media/manage-teams-skypeforbusiness-admin-center-teams-in-O365.png)
-
-Im Hinblick auf die Einstellungen in den **Einstellungen durch Benutzer/Lizenztyp**verfügbar sofern diese im Wesentlichen eine Möglichkeit zum Konfigurieren von Benutzergruppen unterschiedlich. Nun, mit dem neuen Admin-Portal, die für jeden Benutzer einzeln möglich. 
-
-Festlegen der Lizenztyp werden migriert. Wenn Sie die Einstellung **Aktivieren Microsoft-Teams, aktiviert oder deaktiviert für alle Benutzer dieses Typs** zum Steuern des Zugriffs auf die Teams für Benutzer über SKUs derzeit verwenden, werden wir Ihre aktuellen Konfigurationen verwalten. Jedoch, Sie kann nicht zum Ändern dieser Einstellung in der neuen Verwaltungsportals werden. Stattdessen können Sie die entsprechenden Lizenzen Benutzern in Ihrem Mandanten über das Office 365 Administrationscenter zuweisen. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md). 
-
-Die folgende Tabelle gibt die Abschnitte der aktuellen Teams Erfahrung, die migriert wurden, und zeigt die Beziehung zwischen der aktuellen Einstellungen und Richtlinien in das neue Admin-Portal.
-
-|Abschnitt Teams in Office 365 Admin center  |Name der Einstellung (Mandanten Level)  |Microsoft-Teams & Skype für Business Admin Center-Richtlinie   |Stufe: Mandanten oder Benutzer   |
+|Abschnitt Teams in Office 365 Administrationscenter  |Name der Einstellung (Mandanten Level)  |Microsoft-Teams & Skype für Business Admin Center-Richtlinie   |Stufe: Mandanten oder Benutzer   |
 |---------|---------|---------|---------|
-|Allgemein     |Organisatorische Chat im persönlichen Profil anzeigen        |  TeamsClientConfiguration       |  Mandanten       |
-|Allgemein     |Verwenden Sie Skype für Unternehmen für Empfänger, die nicht über Teams verfügen         |TeamsClientConfiguration         |Mandanten         |
-|Allgemein     |T-Bot proaktiven Hilfe Nachrichten zulassen         |TeamsClientConfiguration         |Mandanten         |
-|E-Mail-Integration     |Zulassen, dass Benutzer das Senden von e-Mails an Kanäle         |TeamsClientConfiguration         |Mandanten         |
-|E-Mail-Integration     |Absender zulassen Liste         |TeamsClientConfiguration        |Mandanten         |
-|Benutzerdefinierter Cloudspeicher     |Feld         |TeamsClientConfiguration         |Mandanten         |
-|Benutzerdefinierter Cloudspeicher     |Ablage        |TeamsClientConfiguration         |Mandanten         |
-|Benutzerdefinierter Cloudspeicher     |Google-Laufwerk        |TeamsClientConfiguration         |Mandanten         |
-|Benutzerdefinierter Cloudspeicher     |ShareFile        |TeamsClientConfiguration         |Mandanten         |
-|Einstellungen nach Benutzer-/Lizenztyp     |Aktivieren Sie oder deaktivieren Sie den Microsoft-Teams für alle Benutzer          |Wird als veraltet markiert werden. Verwenden Sie Office 365 Administrationscenter, Lizenzen zuzuweisen.  Aktivieren/Deaktivieren von Gast wird zum TeamsClientConfiguration - AllowGuestUser verschoben.      |         |
+|Allgemein     |Organisatorische Chat im persönlichen Profil anzeigen        |  [TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Mandanten       |
+|Allgemein     |Verwenden Sie Skype für Unternehmen für Empfänger, die nicht über Teams verfügen         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
+|Allgemein     |T-Bot proaktiven Hilfe Nachrichten zulassen         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
+|E-Mail-Integration     |Zulassen, dass Benutzer das Senden von e-Mails an Kanäle         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
+|E-Mail-Integration     |Absender zulassen Liste         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Mandanten         |
+|Benutzerdefinierter Cloudspeicher     |Feld         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
+|Benutzerdefinierter Cloudspeicher     |Ablage        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
+|Benutzerdefinierter Cloudspeicher     |Google-Laufwerk        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
+|Benutzerdefinierter Cloudspeicher     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
+|Einstellungen nach Benutzer-/Lizenztyp     |Aktivieren Sie oder deaktivieren Sie den Microsoft-Teams für alle Benutzer          |Veraltete<sup>1</sup>        |         |
 |Teams und Kanäle     |         |Umleitung zur Azure Active Directory-Gruppenmanagement (identisch mit Kenntnissen).              |Benutzer         |
 |Teams und Kanäle     |         |Umleitung zur Verwaltung von AAD (identisch mit Kenntnissen).             |Benutzer          |
-|Anrufe und Besprechungen     |„Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen)         |TeamsMeetingPolicy         |Benutzer          |
-|Anrufe und Besprechungen     |Ad-hoc-Kanal Meetup zulassen         |TeamsMeetingPolicy         |Benutzer          |
-|Anrufe und Besprechungen     |„Allow scheduling for channel meetings“ (Planen von Kanalbesprechungen zulassen)         |TeamsMeetingPolicy         |Benutzer          |
-|Anrufe und Besprechungen     |Zulassen von Videos in Besprechungen         |TeamsMeetingPolicy         |Benutzer          |
-|Anrufe und Besprechungen     |Zulassen Sie Bildschirmfreigabe an Besprechungen         |TeamsMeetingPolicy         |Benutzer          |
-|Anrufe und Besprechungen     |Private Anrufe zulassen         |TeamsCallingPolicy         |Benutzer          |
-|Messaging     |Aktivieren Sie Giphy, damit Benutzer Unterhaltungen GIF-Dateien hinzufügen können         |TeamsMessagingPolicy         |Benutzer         |
-|Messaging     |Bewerten         |TeamsMessagingPolicy         |Benutzer         |
-|Messaging     |Aktivieren von Memes, die Benutzer Unterhaltungen hinzufügen und bearbeiten können         |TeamsMessagingPolicy         |Benutzer         |
-|Messaging     |Aktivieren Sie Aufkleber, die Benutzer Unterhaltungen hinzufügen und bearbeiten können         |TeamsMessagingPolicy         |Benutzer         |
-|Messaging     |Zulassen Sie Websitebesitzer für alle Nachrichten löschen         |TeamsMessagingPolicy         |Benutzer         |
-|Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten bearbeiten         |TeamsMessagingPolicy         |Benutzer         |
-|Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten löschen         |TeamsMessagingPolicy         |Benutzer         |
-|Messaging     |Ermöglicht es Benutzern, privat chat         |TeamsMessagingPolicy         |Benutzer         |
+|Anrufe und Besprechungen     |„Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen)         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
+|Anrufe und Besprechungen     |Ad-hoc-Kanal Meetup zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
+|Anrufe und Besprechungen     |„Allow scheduling for channel meetings“ (Planen von Kanalbesprechungen zulassen)         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
+|Anrufe und Besprechungen     |Zulassen von Videos in Besprechungen         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
+|Anrufe und Besprechungen     |Zulassen Sie Bildschirmfreigabe an Besprechungen         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
+|Anrufe und Besprechungen     |Private Anrufe zulassen         |[TeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Benutzer          |
+|Messaging     |Aktivieren Sie Giphy, damit Benutzer Unterhaltungen GIF-Dateien hinzufügen können         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Bewerten         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Aktivieren von Memes, die Benutzer Unterhaltungen hinzufügen und bearbeiten können         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Aktivieren Sie Aufkleber, die Benutzer Unterhaltungen hinzufügen und bearbeiten können         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Zulassen Sie Websitebesitzer für alle Nachrichten löschen         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten bearbeiten         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten löschen         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Ermöglicht es Benutzern, privat chat         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 
+<sup>1</sup> Gast veraltet. Aktivieren/Deaktivieren von Gast können nun im Microsoft-Teams & Skype für Business Admin Center verwaltet werden. Aktivieren/Deaktivieren von Unternehmen, Edu Student, Teams und Edu Fakultät bald unterstützt. Dies sollte durch Zuweisen von Lizenzen im Office 365 Administrationscenter verwaltet werden. Finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md).
+
+> [!NOTE]
+> Sie können weiterhin das Gruppen-Dashboard im Office 365 Administrationscenter für die Konfiguration im Zusammenhang mit der Teams und Kanäle verwenden. Einstellungen für Apps bleibt im Bereich Teams von Office 365 Administrationscenter und migriert werden weiter unten. 
 
 ## <a name="manage-settings-during-the-migration"></a>Verwalten von Einstellungen für während der migration
 
-Sie können weiterhin Ändern der Einstellungen in der Office 365-Verwaltungskonsole und der Skype für Business Admin Center bis Migration eines Bereichs für Ihre Mandanten abgeschlossen ist. 
+Sie können weiterhin Ändern der Einstellungen in der Office 365-Verwaltungskonsole und der Skype für Business Administrationscenter bis Migration eines Bereichs für Ihre Mandanten abgeschlossen ist. 
 
 Die folgende Tabelle zeigt, wo Sie Features während der Migration verwalten können.
 
-|Funktion  |Microsoft-Teams und Skype für Business Admin Center                       |Skype für Business Admin Center (Legacy)  |Office 365 Administrationscenter  |
+|Funktion  |Microsoft-Teams & Skype für Business Admin Center                       |Skype für Business Administrationscenter (Legacy)  |Office 365 Administrationscenter  |
 |---------|:---------:|:---------:|:---------:|
-|Für Messagingrichtlinien     |     X    |         |         |
-|Teams Interop-Richtlinie     |    X     |         |         |
-|Gast für Textnachrichten     |   X      |         |         |
-|Zugriff durch externe Einstellungen    |    X     |         |         |
+|Richtlinien für Messaging, Besprechungen und Ereignisse Live-Teams     |     X    |         |         |
+|Upgrade Richtlinie Teams     |    X     |         |         |
+|Gast-Einstellungen für Messaging, Besprechungen und VoIP     |   X      |         |         |
+|Teams Anwendungslebenszyklus-Verwaltung   |    X    |      |       |
+|Einstellungen für Teams   |    X    |      |       |
+|Zugriff durch externe Einstellungen     |    X    |      |       |
 |Die Verwaltung von    |         |         |    X     |    
 |Audiokonferenzen     |    X     |    X     |         |
 |Anrufpläne     |         |    X     |         |
@@ -120,8 +98,6 @@ Die folgende Tabelle zeigt, wo Sie Features während der Migration verwalten kö
 
 ## <a name="manage-settings-after-the-migration"></a>Verwalten von Einstellungen nach der migration
 
-Wir werden Sie benachrichtigen, nach der Migration für einen bestimmten Bereich innerhalb Teams abgeschlossen ist. Zu diesem Zeitpunkt können auf Ihre vorhandenen Einstellungen für diesen Abschnitt im Office 365 Admin Center finden Sie unter, aber nicht möglich, stellen Sie alle Änderungen vorhanden. In diesem Fall verwenden Sie zum Verwalten der neu migrierten Einstellungen der Microsoft-Teams & Skype für Business Admin Center.
-
-Klicken Sie nach Abschluss die Migration der diese Einstellungen werden wir sie in der Office 365-Verwaltungskonsole und der Skype für Business Admin Center zu deaktivieren.
+Klicken Sie nach Abschluss die Migration der diese Einstellungen werden wir sie in Office 365 Administrationscenter und die Skype für Business Administrationscenter zu deaktivieren, und können dann in der neuen Microsoft-Teams & Skype für Business Admin Center verwaltet werden.
 
 

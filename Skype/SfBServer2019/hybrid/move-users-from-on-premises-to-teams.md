@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Zusammenfassung: Informationen Sie zum Migrieren von benutzereinstellungen und Migrieren von Benutzern zu Teams.'
-ms.openlocfilehash: 27e8ac831f7009a373b2ed28d484f00f9462ef12
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030784"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436565"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Verschieben von Benutzern von lokalen Teams
 
@@ -27,8 +27,6 @@ Beachten Sie, nach dem Verschieben von Ihren Benutzern, Teams:
 - Sie können Skype-Besprechungen über die Skype für Business-rich-Client (Benutzer werden nicht für jedes Mal Anmeldung aufgefordert) oder über die Skype Besprechungen App (erfordert eine einmalige herunter, und Anmeldung) teilnehmen. Klickt ein Benutzer auf einen Skype für Business Link zur Besprechung innerhalb von Teams, wird die Besprechung in der entsprechenden app gestartet.
 
 - Unter Mobile werden Ihre Benutzer können vorhandene Skype für Business Besprechungen mit native app teilnehmen.
-
-    ![Mobile Skype-Besprechung](../media/mobile-skype-meeting.png)
 
 > [!NOTE]
 > Nachdem ein Benutzer auf den TeamsOnly Modus verschoben wurde, wird der Benutzer in Skype für Business Online, verwaltet.

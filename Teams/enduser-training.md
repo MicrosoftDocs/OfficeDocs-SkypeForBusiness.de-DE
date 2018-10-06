@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Schulungsvideos, Lernprogramme und andere Ressourcen für Benutzer in Ihrer Organisation zu erlernen und Verwenden von Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a14d678bb425100e989bd52a91e35e7804ff2789
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: ed20efec166c1c9599e1983b2626a826568cb523
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405152"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436672"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 
@@ -26,7 +26,7 @@ Verwenden Sie diese Schulungsressourcen, um Benutzer in Ihrer Organisation die o
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12">
+        <a href="https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -124,7 +124,19 @@ In diesem kurzen Video in Teams</h3>
 
 <h2>Ausgewählte Schulung</h2>
 <ul class="panelContent cardsW">
-    <li>
+     <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Schnelles beginnt</h3>
+                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Laden Sie dieses Schnellstart-Handbuch (PDF) zum Erlernen der Grundlagen</a></p>
+                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Führen Sie die Artikel in diesem Schnellstart, schnell schnell</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
