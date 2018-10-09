@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lesen Sie in diesem Thema erfahren, wie Lync Raum Systemkomponenten Verwendung die Systemsoftware Skype Raum v2 migrieren.
-ms.openlocfilehash: d97083b40c3a2baf926ecd61a5c9792ded6eddd5
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
+ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450518"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450648"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrieren von Lync Raum System (LRS) Geräte zu Skype Raum System v2 
 Lync Raum System (LRS) Geräte mit Skype Raum System Version 1 (SRS v1) Software werden [Ablauf des Supports auf 9 Oktober 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)erreichen. Dies bedeutet, dass Skype Raum Systemsoftware v1 Produktupdates oder Hotfixes nach diesem Datum nicht abgerufen werden. Kunden mit Lync Raum System im Geräte-Skype Raum Systemsoftware v1, sollten ihre Geräte auf Skype Raum System, Version 2 (SRS v2) zu aktualisieren.
@@ -26,7 +26,7 @@ Ihre vorhandenen Geräte **können** weiterhin funktionsfähig, nach dem Ende de
 
 ## <a name="which-devices-are-affected"></a>Welche Geräte betroffen sind?
 Hier wird die Liste der Geräte, die von dieser Änderung betroffen sind:
-- [Intelligente Raum-Systeme](https://smartkapp.com/products/smart-room-systems)
+- [Intelligente Raum-Systeme](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - Crestron RL
