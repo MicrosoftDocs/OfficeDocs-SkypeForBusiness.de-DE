@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: Erfahren Sie mehr über die umgebungsanforderungen für Edge-Server in Skype für Business Server.'
-ms.openlocfilehash: 30bab83832d92fa77742bdaba39757f25e496c36
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2fbe4f617a9a3d7fa0adebb65141596bd0c94fbe
+ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373436"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454011"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edge-Server-umgebungsanforderungen in Skype für Business Server
  
