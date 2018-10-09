@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Sie können Dateien an einen Skype für Business-Besprechung anfügen, welche Teilnehmer können dann öffnen und herunterladen. Anlagen von Skype für Business Besprechungen werden in die Postfächer der alle Teilnehmer beibehalten, dessen Postfach beweissicherungsverfahrens platziert wird, verfügt über ein Office 365-Aufbewahrungsrichtlinie angewendet oder befindet sich in einem Haltestatus Zusammenhang mit einem eDiscovery-Fall in die Office 365-Sicherheit &amp; Compliance Center. Dieser Inhalt wird zum Umschalten wiederherstellbare Elemente Ordner in ihren Postfächern gespeichert.
-ms.openlocfilehash: e72a5e5ffa47ef3e451f4f4830e8cd6c524d70a7
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: f9a18aaf556427ccc1fad2700b40f40ff057be6a
+ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436636"
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "25450456"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Beibehaltung große Dateien, einen Skype für Business Besprechung zugeordnet ist
 
@@ -32,7 +32,7 @@ Sie können Dateien an einen Skype für Business-Besprechung anfügen, welche Te
 Dateien, die in Postfächern in der Warteschleife beibehalten werden indiziert sind und können daher durchsucht werden, bei der Ausführung einer Inhaltssuche in das Wertpapier &amp; Compliance Center bei der Suche eines Teilnehmers Postfach. Allerdings angefügte Dateien, die größer als 30 MB sind mindestens zwei kleineren Dateien aufgeteilt werden und als komprimierte ZIP-Dateien gespeichert. Der *Inhalt* dieser kleineren Dateien ist nicht für die Suche indiziert und möglicherweise nicht in einer Inhalts-Suche zurückgegeben werden. Jedoch die *Metadaten* des diese Dateien (beispielsweise den Dateinamen und den Autor) wird für die Suche indiziert und möglicherweise in eine Inhaltssuche zurückgegeben werden.
   
 > [!IMPORTANT]
-> Die MaxReceiveSize und MaxSendSize auf Einstellungen für Exchange Online-Postfach können sich auf die Möglichkeit, große Dateien von Skype für Business Besprechungen beibehalten auswirken. Die Standardeinstellungen für MaxReceiveSize und MaxSendSize werden 36 MB und 35 MB. Diese Standardeinstellungen werden jedoch jede Datei aus einer Skype für geschäftliche Besprechung beizubehalten, die größer als 30 MB ist zu klein. Tatsächlich angefügt Dateien größer als 23 MB nicht beibehalten wird. Dies ist, da Exchange Online arbeitet mit Base64-Codierung von e-Mail-Anlagen und andere binären Daten. Wenn eine Nachricht codiert ist, wird die Größe ungefähr 33 % erhöht. Aus diesem Grund sollten, um sicherzustellen, dass große Dateien von Skype für Business Besprechungen beibehalten werden, erhöhen Sie den Wert für MaxReceiveSize und MaxSendSize auf 39 MB (also ungefähr 33 % größer als die 30 MB groß sein, die zuvor erläutert wurde) für Benutzer, die in der Warteschleife platziert werden. Anderenfalls möglicherweise eine große Datei, einen Skype für Business Besprechung zugeordnet ist, nicht beibehalten werden. Weitere Informationen zur Verwendung der **Set-Mailbox-MaxReceiveSize** und **Set-Mailbox MaxSendSize** Befehle in Exchange Online PowerShell finden Sie unter [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Set-Mailbox).
+> Die MaxReceiveSize und MaxSendSize auf Einstellungen für Exchange Online-Postfach können sich auf die Möglichkeit, große Dateien von Skype für Business Besprechungen beibehalten auswirken. Die Standardeinstellungen für MaxReceiveSize und MaxSendSize werden 36 MB und 35 MB. Diese Standardeinstellungen werden jedoch jede Datei aus einer Skype für geschäftliche Besprechung beizubehalten, die größer als 30 MB ist zu klein. Dies ist, da Exchange Online arbeitet mit Base64-Codierung von e-Mail-Anlagen und andere binären Daten. Wenn eine Nachricht codiert ist, wird die Größe ungefähr 33 % erhöht. Aus diesem Grund sollten, um sicherzustellen, dass große Dateien von Skype für Business Besprechungen beibehalten werden, erhöhen Sie den Wert für MaxReceiveSize und MaxSendSize auf 39 MB (also ungefähr 33 % größer als die 30 MB groß sein, die zuvor erläutert wurde) für Benutzer, die in der Warteschleife platziert werden. Anderenfalls möglicherweise eine große Datei, einen Skype für Business Besprechung zugeordnet ist, nicht beibehalten werden. Weitere Informationen zur Verwendung der **Set-Mailbox-MaxReceiveSize** und **Set-Mailbox MaxSendSize** Befehle in Exchange Online PowerShell finden Sie unter [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Set-Mailbox).
   
 Postfächer, die nicht in der Warteschleife sind haben keine Besprechungsdaten gespeichert. Halten beispielsweise in einer Besprechung drei Personen in der die Postfächer der beiden Teilnehmer für die Beibehaltung markiert sind, auf die Postfächer von diese beiden Teilnehmer die Besprechungsdaten gespeichert werden, aber nicht an das Postfach von der dritte Teilnehmer, dessen Postfach nicht auf.
   

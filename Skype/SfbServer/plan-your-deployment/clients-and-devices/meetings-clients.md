@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App sollten beim Planen von Skype für Business Server. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.'
-ms.openlocfilehash: 447bd6ea0c3e0c244d7d78e091ac405e66a4f9ef
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
+ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965713"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450634"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungen-Clients (Web App und Besprechungen App)
  
@@ -52,22 +52,20 @@ Verwendung der Skype für Business Web App, die ein Benutzer muss eine der folge
   
 **Betriebssystem und minimale Browserunterstützung für Skype für Business Web App**
 
-| Betriebssystem | Edge | 32- und 64-Bit InternetExplorer 11 oder höher | 32- und 64-Bit InternetExplorer 10 oder höher | 32- und 64-Bit InternetExplorer 9 oder höher | 32- und 64-Bit Version von Firefox 12.X oder höher | 32- und 64-Bit Version von Chrome 18.X oder höher |
+| Betriebssystem | Edge | 32- und 64-Bit InternetExplorer 11 oder höher | 32- und 64-Bit InternetExplorer 10 oder höher | 32- und 64-Bit InternetExplorer 9 oder höher | 32- und 64-Bit-Version von Safari 6.2.8 - 11.X | 32- und 64-Bit Version von Chrome 18.X oder höher |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-| Windows 8.1 & #x 2776; <br/> |n/v  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-| Windows 8 (Intel-basiert) & #x 2776; <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-|Windows 7 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-|Windows Server 2008 R2 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja & #x 2778; <br/> |
-|Mac OS 10,8 und höher (Intel-basiert) & #x 2777; <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja & #x 2779; <br/> |
+|Windows 10  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |Ja & #x 2778; <br/> |
+|Windows 8.1 & #x 2776; <br/> |n/v  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |n/v <br/> |Ja & #x 2778; <br/> |
+|Windows 8 (Intel-basiert) & #x 2776; <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |n/v <br/> |n/v  <br/> |Ja & #x 2778; <br/> |
+|Windows 7 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |n/v <br/>|Ja & #x 2778; <br/> |
+|Windows Server 2008 R2 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |n/v <br/>|Ja & #x 2778; <br/> |
+|Mac OS 10,8 und höher (Intel-basiert) & #x 2777; <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja <br/> |
    
-& #x 2776; Die Skype für Web-Geschäfts-App-Browser-Plug-in erfordert eine bestimmte Freigabe-Plug-Ins computerbasierter, Video, Freigabe und Anzeige von laufenden Bildschirmfreigabe und anderen Features verwenden. Ein Teilnehmer der Besprechung erhält die Option zum Installieren der Freigabe-Plug-in beim Beitritt zu der Besprechung oder wenn sie eines dieser Features initiieren. Unter Windows 8 und Windows 8.1 kann die Freigabe-Plug-In installiert werden nur, wenn Sie Internet Explorer 10 oder Internet Explorer 11 für den Desktop ausführen. Diese Funktionen sind mit anderen (Nicht-Desktop-) Versionen von Internet Explorer 10 oder Internet Explorer 11 nicht verfügbar.
+& #x 2776; Die Skype für Web-Geschäfts-App-Browser-Plug-in erfordert eine bestimmte Freigabe-Plug-Ins computerbasierter, Video, Freigabe und Anzeige von laufenden Bildschirmfreigabe und anderen Features verwenden. Ein Teilnehmer der Besprechung erhält die Option zum Installieren der Freigabe-Plug-in beim Beitritt zu der Besprechung oder wenn sie eines dieser Features initiieren. Unter Windows 8 und Windows 8.1 kann die Freigabe-Plug-In installiert werden nur, wenn Sie Internet Explorer 10 oder Internet Explorer 11 für den Desktop ausführen. Diese Funktionen sind mit anderen (Nicht-Desktop-) Versionen von Internet Explorer 10 oder Internet Explorer 11 nicht verfügbar. Beachten Sie, dass Firefox und Safari Version 12.0 oder höher nicht mehr unterstützt werden.
   
 & #x 2777; Klicken Sie auf unterstützte Windows 7, Windows Server 2008 R2 und Macintosh-Betriebssysteme sind alle Features verfügbar, einschließlich computerbasierter, Video, Anwendung anzeigen, Anwendungsfreigabe, desktop anzeigen und Desktopfreigabe. Um diese Funktionen zu verwenden, müssen Sie ein Plug-In installieren, wenn Sie dazu aufgefordert werden. Mac OS X Version 10.7 wird nicht mehr unterstützt.
   
 & #x 2778; Zugreifen auf das Web App von Chrome unter Windows wird ein kleines Programm gestartet, das um die Web-App in einem eingebetteten Internet Explorer-Frame zu laden. Damit die Web-App richtig geladen wird, muss eine der unterstützten Versionen von Internet Explorer installiert sein.
-  
-& #x 2779; Zugreifen auf das Web App von Chrome unter Mac startet ein kleines Programm, das um die Web-App in einem eingebetteten Safari Rahmen zu laden. Dieses Programm erfordert eine der unterstützten Versionen von Safari installiert sein, für die Web App richtig geladen.
   
 > [!NOTE]
 > Office 365-Benutzer können InternetExplorer 10 oder höher mit Skype für Unternehmen. 
@@ -104,14 +102,14 @@ Die folgende Tabelle vergleicht die besprechungsfunktionen für Benutzer des Sky
 |Audio für authentifizierte Teilnehmer zu einem Telefon wechseln  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Audio für Gastteilnehmer zu einem Telefon wechseln  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
 |Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Videobasierte Bildschirmübertragung  <br/> |& #x 2714;|& #x 2714; (für Besprechungen in Skype für Business Online gehostet werden, nur) <br/> |& #x2714;(View-only)  <br/> |||
+|Videobasierte Bildschirmübertragung  <br/> |& #x 2714;|& #x 2714; <br/> |& #x2714;(View-only)  <br/> |||
 |Steuerelemente für Referenten in Besprechungen verwenden  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Auf detaillierte Teilnehmerliste der Besprechung zugreifen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |An Chats mit mehreren Teilnehmern teilnehmen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |„Hohe Priorität“ für Chatnachrichten festlegen  <br/> |& #x 2714;|||||
-|Desktop freigeben (sofern aktiviert)  <br/> |& #x 2714;|& #x 2714;|& #x 2714; & #x 2776; (erfordert plug-in)  <br/> |& #x 2714; & #x 2776; (erfordert plug-in)  <br/> |& #x 2714; & #x 2776; (erfordert plug-in)  <br/> |
+|Desktop freigeben (sofern aktiviert)  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (erfordert plug-in)  <br/> |& #x 2714; (erfordert plug-in)  <br/> |& #x 2714; (erfordert plug-in)  <br/> |
 |Programm freigeben (sofern aktiviert)  <br/> |& #x 2714;||& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |
-|Übernehmen der Steuerung eines freigegebenen Desktops oder Programms eines anderen Benutzers  <br/> |& #x 2714;||& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |& #x 2714; (nur unter Windows; erfordert plug-in)  <br/> |
+|Übernehmen der Steuerung eines freigegebenen Desktops oder Programms eines anderen Benutzers  <br/> |& #x 2714;||& #x 2714; (& #x 2776; Klicken Sie auf nur Windows; erfordert plug-in)  <br/> |& #x 2714; (& #x 2776; Klicken Sie auf nur Windows; erfordert plug-in)  <br/> |& #x 2714; (& #x 2776; Klicken Sie auf nur Windows; erfordert plug-in)  <br/> |
 |Einem anderen Benutzer die Steuerung Ihres freigegebenen Desktops oder Programms überlassen  <br/> |& #x 2714;|||||
 |Anonyme Teilnehmer hinzufügen (sofern aktiviert)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Teilnehmer nach Namen einladen  <br/> |& #x 2714;|& #x 2714;||||
@@ -135,7 +133,7 @@ Die folgende Tabelle vergleicht die besprechungsfunktionen für Benutzer des Sky
 |Alle zu Teilnehmern machen  <br/> |& #x 2714;|||||
 |Skype Meeting Broadcast erstellen  <br/> |& #x 2714;|||||
    
- & #x 2776;  Teilnehmer können keine Desktops steuern, die von Lync für Mac 2011 oder Communicator für Mac 2011 Benutzer gemeinsam genutzt werden. Lync für Mac 2011- und Communicator für Mac 2011-Benutzer können keine Desktops steuern, die von Windows-Benutzern freigegeben wurden. Auch für die Skype for Business Web App unter Mac OS X funktioniert das nicht.
+ & #x 2776;  Teilnehmer können nicht Desktops steuern, die von Skype für Unternehmen für Mac, Lync für Mac 2011 oder Communicator für Mac 2011 Benutzer freigegeben werden. Auch für die Skype for Business Web App unter Mac OS X funktioniert das nicht.
   
  & #x 2777;  Dieses Feature erfordert Microsoft PSTN-Konferenz, Exchange Unified Messaging, Skype für Business Online oder ein 3rd von Drittanbietern für Audiokonferenzen.
   
