@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b62b3e27cf0aa10ea6719cb1f27980ee83f4421
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: 3e9cddc12a5ef4de6dfb42a714b83e29b6fb4f5f
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25455968"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456891"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft-Teams, Verwendung bezogenen Verzeichnissuche
 
@@ -28,7 +28,7 @@ Microsoft-Teams, bereichsbasierte Verzeichnissuche finden kann Organisationen vi
 
 Microsoft-Teams können Organisationen benutzerdefinierte Ansichten des Verzeichnisses für ihre Benutzer bereitstellen. Microsoft-Teams, verwendet [Exchange adressbuchrichtlinien](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) , um diese benutzerdefinierten Ansichten unterstützen. Nachdem die Richtlinien aktiviert sind, werden von der Suche für andere Benutzer (beispielsweise um einen Chat zu initiieren oder ein Team Mitglieder hinzu) zurückgegebenen Ergebnisse gemäß den konfigurierten Richtlinien zugewiesen. Benutzer werden nicht suchen oder erkennen und neue Teams außerhalb diese Richtlinien beitreten können. 
 
-## <a name="when-should-you-use-scroped-directory-searches"></a>Wann sollten Sie Scroped Verzeichnissuchen werden verwendet?
+## <a name="when-should-you-use-scoped-directory-searches"></a>Wann sollten Sie bereichsbezogenen Verzeichnissuchen werden verwendet?
 
 Szenarien, die von bereichsbezogenen Verzeichnissuchen profitieren ähneln Address Book Policy Szenarien. Sie möchten beispielsweise bereichsbezogenen Verzeichnissuche in den folgenden Situationen verwenden:
 
