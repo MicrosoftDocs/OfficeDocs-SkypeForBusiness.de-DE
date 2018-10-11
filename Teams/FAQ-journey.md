@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: bda29fd1b193253deb573d554f7f354258dabc7a
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358901"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495537"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Reise von Skype for Business zu Teams
 
@@ -55,7 +55,9 @@ Wir werden den wichtigsten Satz von Skype für Business-Funktionen in Office 365
 
 ### <a name="will-you-continue-to-invest-in-improving-skype-for-business-in-office-365"></a>Werden Sie weiterhin in die Verbesserung von Skype for Business in Office 365 investieren?
 
-Unsere Vision, intelligente Kommunikation und Zusammenarbeit zu vereinen, konzentriert sich auf Microsoft Teams. Wir möchten weiterhin die Skype für Business-Dienst und Office 365-Clients unterstützen. Das Entfernen von Skype for Business aus Office 365-Abonnements ist derzeit nicht geplant. Wir planen eine Fortsetzung der Unterstützung der Skype for Business-Clients, um den Zugriff auf den lokalen Server und Onlinedienste sicherzustellen. Es ist kein Enddatum End-of-Support zu diesem Zeitpunkt.
+Unsere Vision, intelligente Kommunikation und Zusammenarbeit zu vereinen, konzentriert sich auf Microsoft Teams. Wir möchten weiterhin die Skype für Business-Dienst und Office 365-Clients unterstützen. Wir planen eine Fortsetzung der Unterstützung der Skype for Business-Clients, um den Zugriff auf den lokalen Server und Onlinedienste sicherzustellen. Es ist kein Enddatum End-of-Support zu diesem Zeitpunkt.
+
+Starten 1 Oktober 2018, neue Office 365-Kunden mit 500 Arbeitsplätzen oder weniger werden Onboarded Teams und haben keinen Zugriff auf Skype für Business Online. Mandanten, die bereits Skype für eine Business Online dadurch weiterhin verwenden Ja (einschließlich Bereitstellung neuer Benutzer), bis sie deren Übergang Teams abgeschlossen. Finden Sie weitere Informationen finden Sie unter [Microsoft-Teams jetzt primären Client für Besprechungen und Aufrufen von in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling). 
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>Was empfehlen Sie für Kunden, die derzeit beim Bereitstellen werden – oder Planung der Bereitstellung von – Skype for Business in Office 365?
 

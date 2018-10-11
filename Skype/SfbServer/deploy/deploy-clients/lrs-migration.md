@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lesen Sie in diesem Thema erfahren, wie Lync Raum Systemkomponenten Verwendung die Systemsoftware Skype Raum v2 migrieren.
-ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 790872ceaf919d4b58bdbd753dc32e1303b2da63
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450648"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495590"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrieren von Lync Raum System (LRS) Geräte zu Skype Raum System v2 
-Lync Raum System (LRS) Geräte mit Skype Raum System Version 1 (SRS v1) Software werden [Ablauf des Supports auf 9 Oktober 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)erreichen. Dies bedeutet, dass Skype Raum Systemsoftware v1 Produktupdates oder Hotfixes nach diesem Datum nicht abgerufen werden. Kunden mit Lync Raum System im Geräte-Skype Raum Systemsoftware v1, sollten ihre Geräte auf Skype Raum System, Version 2 (SRS v2) zu aktualisieren.
+Lync Raum System (LRS) Geräte mit Skype Raum System Version 1 (SRS v1) Software [Ablauf des Supports auf 9 Oktober 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)erreicht hat. Dies bedeutet, dass Skype Raum Systeme v1 Software nicht mehr Produktupdates oder Hotfixes mehr Informationen erhalten. Kunden mit Lync Raum System im Geräte-Skype Raum Systemsoftware v1, sollten ihre Geräte auf Skype Raum System, Version 2 (SRS v2) zu aktualisieren.
 
 Skype Raum System Version 2 (SRS v2) Software arbeitet mit Microsoft-Teams, zusätzlich zu Skype Business Server und Online-Dienste für Besprechungen und Aufrufen von auf allen Geräten von SRS v2 unterstützt.
 
-Ihre vorhandenen Geräte **können** weiterhin funktionsfähig, nach dem Ende des Skype Raum Systemsoftware v1 unterstützen. Diese Software einen Software-Fehler, der ein Update freigeben Microsoft benötigt werden schließlich erreicht, oder Sie haben einen Fall, in dem eine vorhandene Kommunikationsprotokoll von Skype Raum System v1 Software Änderungen verwendet oder wird nicht mehr unterstützt. Eine solche bekannte Änderung ist das Verwerfen von TLS 1.0 / 1.1 in Microsoft Office 365. Erfahren Sie mehr über die [Vorbereitung auf das Verwerfen der TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
+Ihre vorhandenen Geräte **können** weiterhin funktionsfähig, nach dem Ende des Skype Raum Systemsoftware v1 unterstützen. Jedoch, wenn Sie diese Software ein Fehlers Software besucht, das Microsoft ein Update freigeben benötigt, wird es nicht unterstützt. Skype Raum System V1 Software wird auch nicht zur Unterstützung von TLS 1.2 aktualisiert werden. Erfahren Sie mehr über die [Vorbereitung auf das Verwerfen der TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Skype Raum System V2 ist das Hinzufügen von Unterstützung für TLS 1.2 und funktionieren weiterhin, ohne sich von diesem das verwerfen.   
 
 ## <a name="which-devices-are-affected"></a>Welche Geräte betroffen sind?
 Hier wird die Liste der Geräte, die von dieser Änderung betroffen sind:
@@ -43,7 +43,7 @@ Bestehende Crestron RL2 (auch als Crestron RL200 bezeichnet) Kunden können ein 
 
 
 ### <a name="smart-room-systems-upgrade"></a>Intelligente Raum Systeme aktualisieren 
-SMART LRS Kunden, ausreichend Abstand zu platzieren Crestron Hardware Rückkauf Programm arbeiten Microsoft und EFFIZIENT auch auf die Bereitstellung einer Lösung für das upgrade auf Skype Raum System v2. Dieses Update wird für alle vorhandenen SMART LRS Kunden durch SMART angeboten. Weitere Informationen zu diesem Programm werden auf dieser Seite im Oktober 2018 bereitgestellt. Stellen Sie sicher, dass Sie wieder nach Updates suchen.
+SMART LRS Kunden, ausreichend Abstand zu platzieren Crestron Hardware Rückkauf Programm arbeiten Microsoft und EFFIZIENT auch auf die Bereitstellung einer Lösung für das upgrade auf Skype Raum System v2. Dieses Update wird von SMART Technologies Inc. bereitgestellt werden Finden Sie weitere Informationen zu diesem [hier](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
 <!--  
 For later 
