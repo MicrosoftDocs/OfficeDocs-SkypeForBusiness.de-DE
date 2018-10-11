@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Frankreich für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: f982a239d501f5814c86db83801c400fcb1870d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 18c1b428a16b478ca0b6efd9319028dad5777cad
+ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016445"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25498172"
 ---
 # <a name="phone-number-management-for-france"></a>Telefonnummernverwaltung für Frankreich
 
@@ -40,7 +40,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
 |Rufen Sie Telefonnummern für den neuen Benutzer, die nicht aufgelistet werden in der Skype für Business Administrationscenter.   <br/> | Laden Sie das Formular zur <br/> [Anforderung neuer Telefonnummern für Frankreich (ortsgebundene Nummern) (v.3.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr-fr).pdf?raw=true) <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
-|Rufen Sie Telefonnummern für den neuen Dienst, die nicht aufgelistet werden in der Skype für Business Administrationscenter. <br/> |Laden Sie das Formular zur </br> [Neue Nummer Telefon-Anforderung für Frankreich (Service Zahlen) (v.1.2)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(service-numbers)-(v.1.2)-(fr-fr).pdf?raw=true)<br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).
+|Rufen Sie Telefonnummern für den neuen Dienst, die nicht aufgelistet werden in der Skype für Business Administrationscenter. <br/> |Laden Sie das Formular zur </br> [Neue Nummer Telefon-Anforderung für Frankreich (Service Zahlen) (v.1.2)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/New-phone-number-request-for-france-(service-numbers)-(v.1.2)-(fr-fr).pdf?raw=true)<br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).
 |Sie möchten Telefonnummern zu uns übertragen.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Schriftliche Vollmacht für Frankreich (Gratistelefonnummern) (v.2.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/> [Schriftliche Vollmacht für Frankreich (ortsgebundene Nummern) (v.2.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/>  <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
