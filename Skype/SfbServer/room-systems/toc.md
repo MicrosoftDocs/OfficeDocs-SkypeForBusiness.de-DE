@@ -5,8 +5,9 @@
 ### [Anmerkungen zu dieser Version](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Vorbereiten der Umgebung](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Anforderungen](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Online-Lizenzierung](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+### [Online-Lizenzierung](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Planen der Verwaltung von OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
+
 ## Bereitstellen von 
 ### [Übersicht über die Bereitstellung](../deploy/deploy-clients/room-systems-v2.md)
 ### [Konfigurieren von Konten](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
@@ -17,6 +18,7 @@
 ### [Konfigurieren einer Konsole](../deploy/deploy-clients/console.md)
 ### [Mithilfe von System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Verwaltung mit OMS](../deploy/deploy-clients/with-oms.md)
+
 ## Verwalten
 ### [Übersicht über die Verwaltung](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Wartung und Betrieb](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
@@ -24,7 +26,7 @@
 ### [Geräte mit OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Einstellungen für eine XML-Datei](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Verwenden Sie das Wiederherstellungstool](../manage/skype-room-systems-v2/recovery-tool.md)
-# Skype-Chatroom-Systeme (v1)
+# Lync-Chatroom-System (SRS v1)
 ## Planen
 ### [Bereitstellen von Skype Room System in Skype for Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
 ## Bereitstellen von 
@@ -43,3 +45,4 @@
 ### [Skype Raum System Raum Setup-Skripts](../deploy/deploy-clients/room-setup-scripts.md)
 ## Verwalten
 ### [Verwalten von Skype Room System-Konten](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+## [Migrieren](../deploy/deploy-clients/lrs-migration.md)

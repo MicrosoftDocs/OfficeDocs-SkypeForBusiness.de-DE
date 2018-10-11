@@ -1,73 +1,92 @@
 ---
 title: Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
 author: LaithAlShamri
-ms.author: laal
+ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 10/11/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviewer: rramesan
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Aktivieren oder Deaktivieren der Funktion für den Gastzugriff in Microsoft Teams
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3ab67b3fa9ad58c1aa3e8fdd254e3b3515743b4c
+ms.sourcegitcommit: 9dd5d8fe6888f0c7d2df1e40fdd8b4c80512f8f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370753"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25498121"
 ---
-<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a><span data-ttu-id="894c0-103">Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="894c0-103">Turn on or off guest access to Microsoft Teams</span></span>
+<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a><span data-ttu-id="90f50-103">Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="90f50-103">Turn on or off guest access to Microsoft Teams</span></span>
 ======================================
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+<span data-ttu-id="90f50-104">Als Office 365-Administrator müssen Sie die Gastfunktion aktivieren, bevor Sie oder die Benutzer Ihrer Organisation (vor allem Teambesitzer) Gäste hinzufügen können.</span><span class="sxs-lookup"><span data-stu-id="90f50-104">As the Office 365 admin, you must enable the guest feature before you or your organization's users (specifically, team owners) can add guests.</span></span> 
 
-
-
-  
-
-
-
-<span data-ttu-id="894c0-104">Als Office 365-Administrator müssen Sie die Gastfunktion aktivieren, bevor Sie oder die Benutzer Ihrer Organisation (vor allem Teambesitzer) Gäste hinzufügen können.</span><span class="sxs-lookup"><span data-stu-id="894c0-104">As the Office 365 admin, you must enable the guest feature before you or your organization's users (specifically, team owners) can add guests.</span></span> 
-
-<span data-ttu-id="894c0-105">Die Gasteinstellungen werden in Azure Active Directory festgelegt.</span><span class="sxs-lookup"><span data-stu-id="894c0-105">The guest settings are set in Azure Active Directory.</span></span> <span data-ttu-id="894c0-106">Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden.</span><span class="sxs-lookup"><span data-stu-id="894c0-106">It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization.</span></span> <span data-ttu-id="894c0-107">Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung „Wenden Sie sich an Ihren Administrator“ sehen, ist wahrscheinlich die Gastfunktion nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.</span><span class="sxs-lookup"><span data-stu-id="894c0-107">If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings haven’t become effective yet.</span></span>
+<span data-ttu-id="90f50-105">Die Gasteinstellungen werden in Azure Active Directory festgelegt.</span><span class="sxs-lookup"><span data-stu-id="90f50-105">The guest settings are set in Azure Active Directory.</span></span> <span data-ttu-id="90f50-106">Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden.</span><span class="sxs-lookup"><span data-stu-id="90f50-106">It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization.</span></span> <span data-ttu-id="90f50-107">Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung „Wenden Sie sich an Ihren Administrator“ sehen, ist wahrscheinlich die Gastfunktion nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.</span><span class="sxs-lookup"><span data-stu-id="90f50-107">If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings haven’t become effective yet.</span></span>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="894c0-108">Um die Nutzung der Gastzugriffsfunktion in vollem Umfang zu ermöglichen, müssen Sie die gegenseitige Abhängigkeit bezüglich der Kernautorisierung von Microsoft Teams, Azure Active Directory und Office 365 verstehen.</span><span class="sxs-lookup"><span data-stu-id="894c0-108">To enable the full experience of the guest access feature, it's important to understand the core authorization dependency between Microsoft Teams, Azure Active Directory, and Office 365.</span></span> <span data-ttu-id="894c0-109">Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).</span><span class="sxs-lookup"><span data-stu-id="894c0-109">For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).</span></span>
+> <span data-ttu-id="90f50-108">Um die Nutzung der Gastzugriffsfunktion in vollem Umfang zu ermöglichen, müssen Sie die gegenseitige Abhängigkeit bezüglich der Kernautorisierung von Microsoft Teams, Azure Active Directory und Office 365 verstehen.</span><span class="sxs-lookup"><span data-stu-id="90f50-108">To enable the full experience of the guest access feature, it's important to understand the core authorization dependency between Microsoft Teams, Azure Active Directory, and Office 365.</span></span> <span data-ttu-id="90f50-109">Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).</span><span class="sxs-lookup"><span data-stu-id="90f50-109">For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).</span></span>
 
-1. <span data-ttu-id="894c0-110">Melden Sie sich mit dem Konto Globaler Office 365-Administrator bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.</span><span class="sxs-lookup"><span data-stu-id="894c0-110">Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
-    
-  
-2. <span data-ttu-id="894c0-111">Wählen Sie im Navigationsmenü **Einstellungen** und dann **Dienste &amp; Add-Ins** aus.</span><span class="sxs-lookup"><span data-stu-id="894c0-111">In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.</span></span>
-    
-     ![Melden Sie sich bei Office 365 an, wechseln Sie zum Office 365 Admin Center, wechseln Sie zu „Einstellungen“, und wählen Sie „Dienste &amp; Add-Ins“ aus.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
-  
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a><span data-ttu-id="90f50-110">Konfigurieren von Gastzugriff in der Teams & Skype für Business-Verwaltungskonsole</span><span class="sxs-lookup"><span data-stu-id="90f50-110">Configure guest access in the Teams & Skype for Business admin center</span></span>
+
+1.  <span data-ttu-id="90f50-111">Melden Sie sich bei der Teams & Skype für Business Administrationscenter.</span><span class="sxs-lookup"><span data-stu-id="90f50-111">Sign in to the Teams & Skype for Business admin center.</span></span>
+
+2.  <span data-ttu-id="90f50-112">Wählen Sie **gesamte Org Einstellungen** > **Gastzugriff**.</span><span class="sxs-lookup"><span data-stu-id="90f50-112">Select **Org-wide settings** > **Guest access**.</span></span>
+
+3. <span data-ttu-id="90f50-113">Legen Sie die Umschaltfläche **Gast Zugriffsberechtigung in Microsoft-Teams** auf **aktiviert**.</span><span class="sxs-lookup"><span data-stu-id="90f50-113">Set the **Allow guest access in Microsoft Teams** toggle switch to **On**.</span></span>
+
+    ![<span data-ttu-id="90f50-114">Legen Sie Gast Access Switch auf auf zulassen</span><span class="sxs-lookup"><span data-stu-id="90f50-114">Allow guest access switch set to On</span></span> ](media/set-up-guests-image1.png)
+
+4.  <span data-ttu-id="90f50-115">Legen Sie die Schaltet für **aufrufen**, **Besprechung**und **Messaging** zum **ein-** oder **Ausschalten**, je nach dem Zugriff, den Sie zulassen möchten.</span><span class="sxs-lookup"><span data-stu-id="90f50-115">Set the toggles for **Calling**, **Meeting**, and **Messaging** to **On** or **Off**, depending on the access you want to allow.</span></span>
+
+5.  <span data-ttu-id="90f50-116">Klicken Sie auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="90f50-116">Click **Save**.</span></span>
+
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a><span data-ttu-id="90f50-117">Verwenden von PowerShell, aktivieren oder deaktivieren Sie Gastzugriff</span><span class="sxs-lookup"><span data-stu-id="90f50-117">Use PowerShell to turn guest access on or off</span></span>
+
+1.  <span data-ttu-id="90f50-118">Laden Sie die Skype für Business Online-PowerShell-Modul aushttps://www.microsoft.com/en-us/download/details.aspx?id=39366</span><span class="sxs-lookup"><span data-stu-id="90f50-118">Download the Skype for Business Online PowerShell module from https://www.microsoft.com/en-us/download/details.aspx?id=39366</span></span>
  
+2.  <span data-ttu-id="90f50-119">Verbinden Sie eine PowerShell-Sitzung mit der Skype für Business Online Endpunkt.</span><span class="sxs-lookup"><span data-stu-id="90f50-119">Connect a PowerShell session to the Skype for Business Online endpoint.</span></span>
 
-  
-3. <span data-ttu-id="894c0-113">Wählen Sie **Microsoft Teams** aus.</span><span class="sxs-lookup"><span data-stu-id="894c0-113">Select **Microsoft Teams**.</span></span>
-    
-     ![Screenshot, der die im Office 365 Admin Center ausgewählte Option für das Microsoft Teams-Add-In abbildet.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
-  
-  
-4. <span data-ttu-id="894c0-115">Wählen Sie unter **Zu konfigurierenden Benutzer-/Lizenztyp auswählen** die Option **Gast** aus.</span><span class="sxs-lookup"><span data-stu-id="894c0-115">In **Select the user/license type you want to configure**, select **Guest**.</span></span>
-   
-    ![Screenshot des Microsoft Teams-Add-Ins, der die ausgewählte Gastlizenz und die aktivierte Microsoft Teams-Option abbildet.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
-      
+    ```
+    Import-Module SkypeOnlineConnector
+    $Cred = Get-Credential
+    $CSSession = New-CsOnlineSession -Credential $Cred
+    Import-PSSession -Session $CSSession
+    ```
+3.  <span data-ttu-id="90f50-120">Überprüfen Sie die Konfiguration und wenn `AllowGuestUser` ist `$False`, verwenden Sie das Cmdlet " [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) ", um diese Liste festgelegt, `$True`.</span><span class="sxs-lookup"><span data-stu-id="90f50-120">Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.</span></span>
 
-  
-  
-5. <span data-ttu-id="894c0-117">Klicken oder tippen Sie auf die Umschaltfläche neben **Microsoft Teams für alle Benutzer dieses Typs aktivieren oder deaktivieren** auf **Ein**, um Teams und Gastzugriff für Ihre Organisation zu aktivieren, und wählen Sie dann **Speichern** aus.</span><span class="sxs-lookup"><span data-stu-id="894c0-117">Click or tap the toggle next to **Turn Microsoft Teams on or off for all users of this type** to **On** to turn on Teams and guest access for your organization, and then choose **Save**.</span></span> 
+    ```
+    Get-CsTeamsClientConfiguration
+
+    Identity                         : Global
+    AllowEmailIntoChannel            : True
+    RestrictedSenderList             :
+    AllowDropBox                     : True
+    AllowBox                         : True
+    AllowGoogleDrive                 : True
+    AllowShareFile                   : True
+    AllowOrganizationTab             : True
+    AllowSkypeBusinessInterop        : True
+    AllowTBotProactiveMessaging      : False
+    ContentPin                       : RequiredOutsideScheduleMeeting
+    AllowResourceAccountSendMessage  : True
+    ResourceAccountContentAccess     : NoAccess
+    AllowGuestUser                   : True
+    AllowScopedPeopleSearchandAccess : False
     
-   <span data-ttu-id="894c0-118">In den folgenden Videos erfahren Sie mehr über den Gastzugriff:</span><span class="sxs-lookup"><span data-stu-id="894c0-118">Watch the following videos for more details about guest access:</span></span>  
+    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
+    ```
+<span data-ttu-id="90f50-121">Sie können jetzt Gastbenutzer in Teams für Ihre Organisation verwenden.</span><span class="sxs-lookup"><span data-stu-id="90f50-121">You can now have guest users in Teams for your organization.</span></span>
+
+## <a name="more-information"></a><span data-ttu-id="90f50-122">Weitere Informationen</span><span class="sxs-lookup"><span data-stu-id="90f50-122">More information</span></span>
+
+<span data-ttu-id="90f50-123">Das folgende Video ausführliche Informationen zum Gastzugriff.</span><span class="sxs-lookup"><span data-stu-id="90f50-123">Watch the following video for more details about guest access.</span></span>
 
 |  |  |
 |---------|---------|
-| <span data-ttu-id="894c0-119">Aktivieren des Gastzugriffs in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="894c0-119">Enabling Guest Access in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
- | <span data-ttu-id="894c0-120">Hinzufügen von Gästen in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="894c0-120">Adding Guests in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+| <span data-ttu-id="90f50-124">Hinzufügen von Gästen in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="90f50-124">Adding Guests in Microsoft Teams</span></span>   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
