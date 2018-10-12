@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lesen Sie dieses Thema bietet Informationen zum Skype Raum Systemen v2 mit Office 365 bereitstellen.
-ms.openlocfilehash: 3114b3f663cc4a439ace8d5f0338b182a8b38a3b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6c59ff1aa7f32998efb5f7693d4e46b417b3fd84
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374952"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501494"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Bereitstellen von Skype Room Systems v2 mit Office 365 
 
@@ -37,7 +37,7 @@ Um Skype für Unternehmen zu aktivieren, müssen Sie über Folgendes verfügen:
 
 - Die Mandanten-Benutzer müssen Exchange-Postfächer haben.
 
-- Ihr Skype Raum Systemen v2 Konto erfordert an eine verstrichene einen Skype für Business Online (Plan 2)-Lizenz, jedoch keine Exchange Online-Lizenz erforderlich.
+- Ihr Skype Raum Systemen v2 Konto erfordert an eine verstrichene einen Skype für Business Online (Plan 2)-Lizenz, jedoch keine Exchange Online-Lizenz erforderlich. Einzelheiten finden Sie unter [Skype Raum Systemen v2-Lizenzierung](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
 
 Ausführliche Informationen zum Skype für Business Online-Pläne finden Sie unter der [Skype für Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
 
