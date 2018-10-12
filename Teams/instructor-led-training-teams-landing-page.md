@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: d6eeea78106e13cafee5096be04d344ad216c65a
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 281a864091714c1614b86b7f4f45ea48245d8108
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429438"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501487"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -43,7 +43,7 @@ ms.locfileid: "25429438"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>#ThisIsTeams - Microsoft-Teams (Übersicht)</h3>
-                                                    <p>Was ist Microsoft Teams? Besuchen Sie uns für diese 30-minütigen Ausrichtung ermitteln können, welche Teams ist und wie es für Sie arbeiten kann.</p>
+                                                    <p>Was ist Microsoft Teams? Besuchen Sie uns für diese 30-minütigen Ausrichtung ermitteln können, welche Teams ist und wie es für Sie arbeiten kann. (Benutzergruppe: alle)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +62,7 @@ ms.locfileid: "25429438"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Erste Schritte mit Teams</h3>
-                                                    <p>Aus Chat und Verwendung von Teams und Kanäle Besprechungen verlassen Benutzer in dieser Sitzung mit der Foundation Teams mit Confidence verwenden.</p>
+                                                    <p>Aus Chat und Verwendung von Teams und Kanäle Besprechungen verlassen Benutzer in dieser Sitzung mit der Foundation Teams mit Confidence verwenden. (Benutzergruppe: Endbenutzer)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ ms.locfileid: "25429438"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Verwalten des Upgrades von Skype für Unternehmen zu Teams</h3>
-                                                <p>Einblicke in die Planung und Implementierung ein erfolgreiches Upgrade von Skype für Unternehmen, Teams zu erhalten. </p>
+                                                <p>Planen und implementieren Sie ein erfolgreiches Upgrade von Skype für Unternehmen, die Teams (Zielgruppe: IT-Spezialisten Annahme ändern-Manager)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ ms.locfileid: "25429438"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Wechseln von Skype für Unternehmen zu Teams: Leitfaden für Endbenutzer</h3>
-                                                    <p>Erhalten Sie, was Sie benötigen, um schnell beginnen chatten, Besprechung und Teams einwählen, während des Übergangs von Skype für Unternehmen auf Teams.</p>
+                                                    <p>Rufen Sie, was Sie benötigen schnellen Einstieg Teams während des Übergangs von Skype für Unternehmen, die Teams. (Benutzergruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
                                     </div>
