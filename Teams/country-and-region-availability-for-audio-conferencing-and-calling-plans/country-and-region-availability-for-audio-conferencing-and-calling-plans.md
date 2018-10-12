@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d669e6a64efe3d31b7259a3c7f7eabd447d95a65
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372485"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502366"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -144,7 +144,7 @@ Nachdem Sie überprüft haben, welche Skype for Business- oder Microsoft Teams-D
 
 ### <a name="audio-conferencing"></a>Audiokonferenz
 
-Manchmal müssen Personen in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Skype for Business und Microsoft Teams enthalten genau für diese Situation die Funktion Audiokonferenz. Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Nachdem Sie sich für die Nutzung von Audiokonferenz in Ihrer Organisation entschieden haben, müssen Sie 1 **Audiokonferenz**-Lizenz für jede Person in Ihrer Organisation kaufen, die eine Audiobesprechung planen bzw. hosten möchte.
+Manchmal müssen Personen in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Skype for Business und Microsoft Teams enthalten genau für diese Situation die Funktion Audiokonferenz. Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Nachdem Sie sich, dass Sie Audiokonferenzen für Ihre Organisation verwenden möchten entschieden haben, müssen Sie eine **Audiokonferenz** -Lizenz für jede Person in Ihrer Organisation kaufen, wer wird Zeitplan-Host einer audio-Besprechung.
   
 Mit Audiokonferenz können Benutzer gebührenpflichtige und gebührenfreie Telefonnummern zum Einwählen in Besprechungen verwenden. Gebührenpflichtige Telefonnummern für die folgenden Länder oder Regionen werden automatisch als freigegebene Audiokonferenznummern in Organisationen zugewiesen, wenn diese für Audiokonferenz aktiviert sind. Für weitere Städte können Ihrer Organisation dedizierte gebührenpflichtige und gebührenfreie Telefonnummern zugewiesen werden.
 

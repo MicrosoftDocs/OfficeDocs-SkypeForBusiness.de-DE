@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, welche Art von Dial Plans (Aufrufen von PSTN-Wählpläne) aufrufen mit Office 365 verfügbar sind und wie Sie eine für Ihre Organisation wählen.  '
-ms.openlocfilehash: d9503655c6f836f0dc50d63133acddd6bc7474b4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371818"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502358"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -37,7 +37,7 @@ Ein Wählplan ist ein Norminalisierungsregelsatz, der die von einem einzelnen Be
 
 Ein Wählplan umfasst eine oder mehrere Normalisierungsregeln, die definieren, wie Rufnummern in unterschiedlichen Formaten in ein anderes Format übersetzt werden. Die gleichen Dial-Zeichenfolge kann sein und unterschiedlich übersetzt in verschiedene Wählpläne, damit je nach einem bestimmten Benutzer der Wählplan zugewiesen ist, dieselbe gewählte Nummer übersetzt und weitergeleitet werden anders.
 
-Finden Sie unter [Erstellen und Verwalten von Wählplänen](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) zum Erstellen und Verwalten von Mandanten-Wählpläne.
+Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Mandanten-Wählpläne.
 
 ## <a name="tenant-dial-plan-scope"></a>Mandantenwählplanbereich
 
@@ -59,7 +59,7 @@ Mögliche gültige Wählpläne:
 
  **Mandanten-Benutzer - Dienst Land** Wenn ein Mandant benutzerwähleinstellungen definiert und einem Benutzer zugewiesen ist, erhält der bereitgestellte Benutzer eine effektive Wählplan bestehend aus der zusammengeführten Mandanten benutzerwählplan und den Dienst Land Wählplan ihre Office 365 Usage Standort zugeordnet.
 
-Finden Sie unter [Erstellen und Verwalten von Wählplänen](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) Ihres Mandanten Wählpläne erstellen.
+Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) Ihres Mandanten Wählpläne erstellen.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planen von Mandantenwählplänen
 
@@ -97,7 +97,7 @@ Sie können ein Präfix für externen Zugriff von bis zu vier Zeichen (#, * und 
 > [!NOTE]
 > Wenn Sie ein Präfix für externen Zugriff angeben, müssen Sie keine zusätzliche Normalisierungsregel erstellen, um das Präfix aufzunehmen. 
 
-Finden Sie unter [Erstellen und Verwalten von Wählplänen](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) Ihres Mandanten Wählpläne erstellen.
+Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) Ihres Mandanten Wählpläne erstellen.
 
 ## <a name="normalization-rules"></a>Normalisierungsregeln
 
@@ -115,7 +115,7 @@ Normalisierungsregeln verwenden reguläre Ausdrücke von .NET Framework, um nume
 
 Weitere Informationen zur Verwendung von regulärer .NET Framework-Ausdrücken finden Sie unter [Reguläre Ausdrücke von .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Finden Sie unter [Erstellen und Verwalten von Wählplänen](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) zum Erstellen und Verwalten von Normalisierungsregeln Regeln für Ihre Mandanten-Wählpläne.
+Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Normalisierungsregeln Regeln für Ihre Mandanten-Wählpläne.
 
 ### <a name="sample-normalization-rules"></a>Beispiele für Normalisierungsregeln
 
@@ -152,7 +152,7 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Erstellen und Verwalten von Wählplänen](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+[Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
 
 [Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
 
