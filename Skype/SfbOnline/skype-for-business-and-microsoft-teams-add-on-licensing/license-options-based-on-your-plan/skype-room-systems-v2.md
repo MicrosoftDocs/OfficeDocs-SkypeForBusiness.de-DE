@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen Sie zu Features in Skype Raum Systemen v2 verfügbar. '
-ms.openlocfilehash: 05d07ad633dda2bb8a663e971914eecacae33d93
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3f1a72bdbbe640a615bbf17c0525d3ece00295ad
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890355"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546655"
 ---
 # <a name="skype-room-systems-v2"></a>Skype Room Systems V2
 <a name="bkmk_srs"> </a>
@@ -44,7 +44,7 @@ Die folgende Tabelle listet die Funktionen auf, die in [Skype Room Systems Versi
 |Initiieren einer Ad-hoc-Besprechung, und eine ausgehende Verbindung aus einer Besprechung Rufnummern.  <br/> |Skype for Business Standalone-Plan 2 mit Audiokonferenz  <br/> **Hinweis:** Communications haben sind optional.           |E1 oder E3 mit Audiokonferenz  <br/> ODER  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
 |Weisen Sie dem Raum eine Telefonnummer zu, und tätigen oder empfangen Sie Anrufe aus dem Raum, oder nehmen Sie über eine Telefonnummer an einer Audiokonferenz teil.  <br/> |Skype für Business eigenständig, Plan 2 in Office 365 Telefonsystem und einen Aufruf von Plan  <br/> **Hinweis:** Communications haben sind optional.           |E1 oder E3 mit Office 365-Telefonsystem und einem Office 365-Anrufplan  <br/> ODER  <br/> E5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
- **Verwenden Sie die richtige Version von Windows 10**: für Kunden, die Windows-10 Bilder auf ihren Geräten bereitstellen möchten, ist eine bestimmte Version von Windows 10 erforderlich, und dieser Version ist nur verfügbar für Volume licensing-Kunden. Sie müssen **Windows 10 Enterprise Version 1607 oder höher** für imaging Skype Raum System v2. 0-Geräte verwenden. Sie können eine Kopie aus dem [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/)abrufen.
+ **Verwenden Sie die richtige Version von Windows 10**: für Kunden, die Windows-10 Bilder auf ihren Geräten bereitstellen möchten, ist eine bestimmte Version von Windows 10 erforderlich, und dieser Version ist nur verfügbar für Volume licensing-Kunden. Sie müssen **Windows 10 Enterprise Version 1709 oder höher** für imaging Skype Raum System v2. 0-Geräte verwenden. Sie können eine Kopie aus dem [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/)abrufen.
   
 
     

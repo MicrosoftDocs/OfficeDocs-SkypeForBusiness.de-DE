@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Da Skype für Business Server einem Enterprise-Klasse Communications-System handelt, sollten Sie häufig vorkommende Angriff beachten, die die Infrastruktur und Kommunikation auswirken könnten.
-ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373064"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546783"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Häufige Sicherheitsbedrohungen in der modernen EDV
  
@@ -48,21 +48,25 @@ Ein Denial-of-Service-Angriff liegt vor, wenn der Angreifer die normale Netzwerk
     
 ## <a name="eavesdropping-sniffing-snooping"></a>Abhöraktionen ("Sniffing", "Snooping")
 
-Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies ist auch Calledsniffing Orsnooping. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird. 
+Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies wird auch als „Schnüffeln“ (auch „Lauschangriff“, englisch Sniffing oder Snooping) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird. 
   
 Die Standard-Empfehlung und die Einstellung für den Datenverkehr in Skype für Business Server wird mutual TLS (MTLS) zwischen vertrauenswürdigen Servern und TLS vom Client zum Server verwendet. Diese Schutzmaßnahme macht einen derartigen Angriff innerhalb der Zeitspanne, in der eine Unterhaltung erfolgt, äußerst schwer oder unmöglich. Mit TLS werden alle Parteien authentifiziert und der gesamte Datenverkehr wird verschlüsselt. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
   
 Das TURN-Protokoll (Traversal Using Relay NAT) setzt keine Verschlüsselung des Datenverkehrs voraus. Die Daten, die darüber versendet werden, unterliegen dem Schutz durch die Nachrichtenintegrität. Es ist rein theoretisch möglich, sie abzuhören, aber die Informationen, die über das TURN-Protokoll gesendet werden (d. h. die IP-Adressen und der Port), können direkt extrahiert werden, indem die Quell- und Zieladressen der Pakete angezeigt werden. Der A/V-Edgedienst stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenintegrität der Nachricht mithilfe des Schlüssels überprüft, der von bestimmten Objekten abgeleitet wird. Dazu gehört auch ein TURN-Kennwort, das nie als Klartext gesendet wird. Wenn SRTP (Secure Real Time Protocol) verwendet wird, so wird auch der Mediendatenverkehr verschlüsselt.
   
-## <a name="identity-spoofing-ip-address-spoofing"></a>Identitätsvortäuschung (Spoofing der IP-Adresse)
+## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>Identitätsvortäuschung (IP-Adresse und Anrufer Id Spoofing)
 
-Spoofing liegt vor, wenn Angreifer unbefugt die IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermitteln und verwenden. Nach einem erfolgreichen Angriff können sich Angreifer als die normalerweise durch diese IP-Adresse identifizierte Entität ausgeben. Im Kontext des Skype für Business Server kommt diese Situation ins Spiel nur, wenn ein Administrator die folgenden beiden aufgewendet hat:
+Identity Spoofing tritt auf, wenn der Angreifer bestimmt und eine Telefonnummer ein, der einen gültigen Benutzer (Anrufer-Id) oder eine IP-Adresse des Netzwerks, Computers oder einer Netzwerkkomponente ohne autorisiert wird dazu verwendet. Einem erfolgreichen Angriff kann der Angreifer als wäre der Angreifer die Entität, die normalerweise durch die Telefonnummer ein (Anrufer-Id) oder die IP-Adresse angegeben ist.
+
+Im Kontext des Skype für Business Server kommt IP-Adressen-Spoofing ins Spiel nur, wenn ein Administrator die folgenden beiden aufgewendet hat:
   
 - Er hat Verbindungen konfiguriert, die nur TCP (Transmission Control Protocol) unterstützen. (Dies ist nicht zu empfehlen, da die TCP-Kommunikation unverschlüsselt ist.)
     
 - Er hat die IP-Adressen dieser Verbindungen als vertrauenswürdige Hosts markiert.
     
 Dies ist für TLS-Verbindungen (Transport Layer Security) weniger ein Problem, da TLS alle Parteien authentifiziert und den gesamten Datenverkehr verschlüsselt. Die Verwendung von TLS verhindert Spoofingangriffe auf bestimmte Verbindungen (Mutual TLS-Verbindungen). Aber ein Angreifer konnte Spoofing die Adresse des DNS-Servers, der Skype für Business Server verwendet. Allerdings, da die Authentifizierung in Skype für Unternehmen mit Zertifikaten durchgeführt wird, müssten ein Angreifer kein gültiges Zertifikat erforderlich, um Spoofing eines Beteiligten bei der Kommunikation.
+
+Andererseits, kommt Anrufer-Id Spoofing ins Spiel, wenn Sie einen SIP-Trunk zwischen einem Anbieter, PSTN-Gateway oder einer anderen PBX-System und Skype für Business Server eingerichtet haben. In diesen Fällen bietet Skype für Business Server keinen Schutz vor Anrufer-Id spoofing zu verhindern. Dies bedeutet, dass eine Skype für Geschäftsbenutzer einen Anruf aus den SIP-Trunk mit einer gefälschten Anrufer-Id anzeigen Telefonnummer die Telefonnummer des anderen Skype für Geschäftsbenutzer empfangen kann. Schutz mit diesem angewendet werden soll, klicken Sie auf der Anbieterseite PSTN oder PBX-Gateway.
   
 ## <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 

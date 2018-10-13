@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: In diesem Artikel wird erläutert, wie eingerichtet und Problembehandlung bei Skype für Business Online Delegierung. Dieser Artikel enthält eine Anleitung für Setup Empfehlungen, bewährte Methoden und Schritte zur Problembehandlung.
-ms.openlocfilehash: 5af84a6731d1f1e95a8d9da70fcd7c2677f36d7d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370890"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546675"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 
@@ -89,13 +89,13 @@ Um Skype für Business Online Delegierung einzurichten, gehen Sie folgendermaße
     
 3. Wählen Sie **Hinzufügen**, wählen Sie die Stellvertretung, die Sie hinzufügen möchten, und wählen Sie dann auf **OK**.
     
-   **Keine Registerkarte Anrufweiterleitung**
+ **Keine Registerkarte Anrufweiterleitung**
   
-4. Wählen Sie in Outlook die **Datei** > **Kontoeinstellungen** > **Stellvertretungszugriff** > **Hinzufügen**.
+1. Wählen Sie in Outlook die **Datei** > **Kontoeinstellungen** > **Stellvertretungszugriff** > **Hinzufügen**.
     
-5. Suchen Sie nach, und fügen Sie den Namen der Person ein, die die Stellvertretung sein soll.
+2. Suchen Sie nach, und fügen Sie den Namen der Person ein, die die Stellvertretung sein soll.
     
-6. Wählen Sie im Menü **Kalender** aus, und wählen Sie **Editor (können lesen, erstellen und Ändern von Elementen)**.
+3. Wählen Sie im Menü **Kalender** aus, und wählen Sie **Editor (können lesen, erstellen und Ändern von Elementen)**.
     
 ### <a name="for-mac-clients---lync"></a>Für Macintosh-Clients – Lync
 
