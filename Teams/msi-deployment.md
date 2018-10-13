@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d197d431bb08027da27dd7ae61e421c9519aad1
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
+ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502198"
+ms.locfileid: "25540253"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installieren von Microsoft Teams mithilfe eines MSI-Pakets
 =================================
@@ -66,6 +66,6 @@ Wenn ein Benutzer aus ihrem Benutzerprofil Teams deinstalliert, wird der MSI-Ins
 Wenn Sie Automatisches Starten deaktivieren möchten, geben Sie die folgende Befehlszeile:
 
 ```
-msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
 
