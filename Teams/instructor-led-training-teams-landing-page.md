@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 4909c14205cd34b664603a33fcc469fc260674b9
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: 8944a17bb083dd5af17b8d217f31567fc27e83fe
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540285"
+ms.locfileid: "25546776"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -81,7 +81,7 @@ ms.locfileid: "25540285"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Verwalten des Upgrades von Skype für Unternehmen zu Teams</h3>
-                                                <p>Planen und implementieren Sie ein erfolgreiches Upgrade von Skype für Unternehmen, die Teams (Zielgruppe: IT-Spezialisten Annahme ändern-Manager)</p>
+                                                <p>Planen und implementieren Sie ein erfolgreiches Upgrade auf Teams (Zielgruppe: IT-Experten, Annahme ändern-Manager)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ ms.locfileid: "25540285"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Teams in Education - Webinare</h3>
+                                                <h3>Teams für Bildungseinrichtungen - Webinare</h3>
                                                 <p>Erfahren Sie, wie in Hochschule Teams verwenden. (Benutzergruppe: Mitarbeiter, Studenten, Wissenschaftler, Recherchieren Fakultät, IT-Experten)</p>
                                             </div>
                                         </div>
