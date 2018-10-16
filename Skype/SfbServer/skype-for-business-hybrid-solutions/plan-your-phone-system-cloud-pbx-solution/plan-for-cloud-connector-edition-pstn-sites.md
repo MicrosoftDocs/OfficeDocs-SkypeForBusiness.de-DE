@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lesen Sie dieses Thema, um Informationen zum Planen Ihrer Websites Cloud Connector Edition PSTN um effizient und Anrufrouting sicherzustellen.
-ms.openlocfilehash: 2f3c624dce8fa406724e54a405b72939951c849e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fa224bd4fa3dc1d0be5db8104e414f9a78d01b30
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890395"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576519"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Planen von PSTN-Standorten der Cloud Connector Edition
  
@@ -64,9 +64,9 @@ Das folgende Beispiel zeigt, wie Trunks mit PSTN-Websites zu gruppieren und wie 
     
   -  Portland (Vorwahl 503)
     
-Da sich Benutzer A in Redmond und Benutzer B in Bellevue in benachbarten Stadtteilen und in demselben Vorwahlbereich (425) befinden, muss Anbieter A einen Notruf von Benutzer A in Redmond in dem Trunk in Bellevue annehmen können.   
+Da Benutzer A in Redmond (-Rechenzentrum A) und Benutzer B in Bellevue (Data Center B) sind in Vororte nebeneinander und in der gleichen Ortskennzahl (425), sollten Netzbetreiber A eine Notrufnummer von Benutzer A in Redmond für den Trunk in Bellevue übernehmen können. 
   
-Daher können Benutzer A und B und die Cloud Connector Trunks für Bellevue und Redmond, wahrscheinlich am gleichen Standort PSTN werden wie in der folgenden Abbildung dargestellt. Notrufe von Benutzern in einem Büro kann an Trunks im anderen Büro weitergeleitet werden. Sie sollten jedoch mit Ihrem Netzbetreiber überprüfen, die dies funktioniert.
+Daher können Benutzer A und B und die Cloud Connector Trunks für Bellevue und Redmond, wahrscheinlich am gleichen Standort Cloud Connector PSTN werden wie in der folgenden Abbildung dargestellt. Notrufe von Benutzern in einem Büro kann an Trunks im anderen Büro weitergeleitet werden. Sie sollten jedoch mit Ihrem Netzbetreiber überprüfen, die dies funktioniert.
   
 ![Einrichten von PSTN-Standorten](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   

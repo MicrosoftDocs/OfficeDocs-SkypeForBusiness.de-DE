@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca30bce0c5a0b96ba4ebf25d71e838aa88e4a602
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546753"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576553"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -117,6 +117,10 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |:-----|:-----|:-----|:-----|
 |Umbenennen eines Kanals in Microsoft-Teams, werden den entsprechenden Ordner in SharePoint Online nicht umbenannt  <br/> |Wird ein Kanal in Microsoft-Teams, umbenannt, wird der Ordner in der SharePoint Online-Dokumentbibliothek, die an das Team entspricht nicht entsprechend geändert. Die richtigen SharePoint Online Ordnername wird am oberen Rand der Registerkarte umbenannte Channel Dateien angezeigt.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/> |
 
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|URL-Vorschau möglicherweise nicht für alle URL angezeigt.  <br/> |Einige URL kann keine Vorschau anzeigen.  Dies ist die ursprüngliche URL durch die Möglichkeit zum Anzeigen einer Vorschau abhängig. <br/> |Keine Problemumgehung <br/> |9/1/18 <br/> |
+
 ## <a name="chat"></a>Chat
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -172,6 +176,10 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Besprechungen sind nicht verfügbar.  <br/> |Meeting-Funktionalität ist nicht verfügbar, wenn Exchange-Postfach gehosteten () lokal in der Version Exchange 2016 CU3 kleiner ist.  <br/> |Führen Sie ein Upgrade der lokalen Bereitstellung auf Exchange 2016 CU3 oder höher aus.  <br/> |28.02.2017  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Kein Audio beim Freigeben von Inhalten während einer Besprechung broadcast  <br/> |Beim Freigeben von Inhalten während einer Besprechung broadcast Audio aus dem freigegebenen Inhalt (Youtube-Link oder eine gespeicherte Videodatei) werden kann nicht zu hören von Teilnehmern.  <br/> |Keine als dies ist entwurfsbedingt.  Teams unterstützt derzeit nicht Audiosignale vom gemeinsame Nutzung von Inhalten  <br/> |10/9/18  <br/> |
 
 ## <a name="mobile"></a>Mobil
 
