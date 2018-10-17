@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593703"
+ms.locfileid: "25597846"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -269,8 +269,10 @@ Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Commu
 > |Isabell Potvin |39 quai du Président Roosevelt |Plan für Inlandsanrufe |Deaktiviert |
 
 <br>
+
 > [!TIP]
 > Ihre Planung Zahlen Communications haben können wie im folgenden Beispiel dokumentiert werden.
+>
 > |         |         |
 > |---------|---------|
 > |Anfangsbetrag|1.000 US-Dollar|
@@ -380,6 +382,7 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 > ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
 
 <br>
+
 > [!TIP]
 > Sie können die folgende Beispielvorlage nutzen, um Wählplanzuweisungen für Ihr Projekt zu dokumentieren:
 >

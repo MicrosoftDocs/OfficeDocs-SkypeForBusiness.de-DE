@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593719"
+ms.locfileid: "25597838"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -128,6 +128,7 @@ Weitere Informationen finden Sie Informationen zu Communications haben [hier](ht
 
 > [!TIP]
 > Sie können Ihre Zahlen für die Planung des Guthabens für Kommunikationen so dokumentieren:
+>
 > |         |         |
 > |---------|---------|
 > |Anfangsbetrag|1.000 US-Dollar|
@@ -237,6 +238,7 @@ Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren
 > |Senden Sie automatisch E-Mails an Benutzer, wenn sich die Einwahlkonfiguration ändert.|Deaktiviert|
 
 <br>
+
 > [!TIP]
 > Sie können mithilfe der im folgenden Beispiel wird die Liste Konferenz Bridge Settings Zuordnung für Audiokonferenzen Benutzer dokumentieren.
 >

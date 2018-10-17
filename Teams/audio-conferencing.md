@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 516437ac9def60b1c06304429ca3bbe9eca63a3f
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: ff0db687ed25f756a3ba3d184b7408c5d2784b46
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593711"
+ms.locfileid: "25597854"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 ============================================================
@@ -399,6 +399,7 @@ Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren
 > |Senden Sie automatisch E-Mails an Benutzer, wenn sich die Einwahlkonfiguration ändert.|Deaktiviert|
 
 <br>
+
 > [!TIP]
 > Sie können die Zuweisungsliste für die Einstellungen der Konferenzbrücken für Benutzer von Audiokonferenzen anhand des folgenden Beispiels dokumentieren:
 >
