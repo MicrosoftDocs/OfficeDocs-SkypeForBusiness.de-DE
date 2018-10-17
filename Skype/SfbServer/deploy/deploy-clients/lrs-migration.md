@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lesen Sie in diesem Thema erfahren, wie Lync Raum Systemkomponenten Verwendung die Systemsoftware Skype Raum v2 migrieren.
-ms.openlocfilehash: 790872ceaf919d4b58bdbd753dc32e1303b2da63
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: a04eb857ee876b52507d21d5ee791ea327175921
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495590"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599204"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrieren von Lync Raum System (LRS) Geräte zu Skype Raum System v2 
 Lync Raum System (LRS) Geräte mit Skype Raum System Version 1 (SRS v1) Software [Ablauf des Supports auf 9 Oktober 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)erreicht hat. Dies bedeutet, dass Skype Raum Systeme v1 Software nicht mehr Produktupdates oder Hotfixes mehr Informationen erhalten. Kunden mit Lync Raum System im Geräte-Skype Raum Systemsoftware v1, sollten ihre Geräte auf Skype Raum System, Version 2 (SRS v2) zu aktualisieren.
 
 Skype Raum System Version 2 (SRS v2) Software arbeitet mit Microsoft-Teams, zusätzlich zu Skype Business Server und Online-Dienste für Besprechungen und Aufrufen von auf allen Geräten von SRS v2 unterstützt.
 
-Ihre vorhandenen Geräte **können** weiterhin funktionsfähig, nach dem Ende des Skype Raum Systemsoftware v1 unterstützen. Jedoch, wenn Sie diese Software ein Fehlers Software besucht, das Microsoft ein Update freigeben benötigt, wird es nicht unterstützt. Skype Raum System V1 Software wird auch nicht zur Unterstützung von TLS 1.2 aktualisiert werden. Erfahren Sie mehr über die [Vorbereitung auf das Verwerfen der TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Skype Raum System V2 ist das Hinzufügen von Unterstützung für TLS 1.2 und funktionieren weiterhin, ohne sich von diesem das verwerfen.   
+Ihre vorhandenen Geräte **können** weiterhin funktionsfähig, nach dem Ende des Skype Raum Systemsoftware v1 unterstützen. Jedoch, wenn Sie diese Software ein Fehlers Software besucht, das Microsoft ein Update freigeben benötigt, wird es nicht unterstützt. SRS v1 verwendet TLS 1.0 / 1.1 die von Microsoft in Zukunft veraltet sein wird. Erfahren Sie mehr über die [Vorbereitung auf das Verwerfen der TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Skype Raum System V2 ist das Hinzufügen von Unterstützung für TLS 1.2 und weiterhin ältere 31 Oktober 2018 arbeiten. Skype für Unternehmen für lokale Kunden sollten nicht TLS 1.0/1.1 deaktivieren, unabhängig von der allgemeinen Richtlinien für das Verwerfen der TLS 1.0/1.1 Skype Raum System V2 Annouces für TLS 1.2 nicht unterstützt.
 
 ## <a name="which-devices-are-affected"></a>Welche Geräte betroffen sind?
 Hier wird die Liste der Geräte, die von dieser Änderung betroffen sind:
@@ -74,4 +74,4 @@ Es wird empfohlen, dass Sie Lync Raum Systemkomponenten Skype Raum Systemen V2 v
 > Fingereingabe und Whiteboard-Funktionalität ist in Skype Raum System v2 noch nicht unterstützt. Unterstützung von Touch und Whiteboard ist noch nicht verarbeiteten für Skype Raum System v2 und H1 CY2019 hinzugefügt werden.
 
 > [!NOTE]
-> Skype Raum System V2 Software unterstützt derzeit nicht 1.2 TLS-Protokoll. Unterstützung für TLS 1.2 ist, die bearbeitet und wird vor dem 1/0/1.1 TLS abgeschlossen das verwerfen. Kunden Upgradging SRS v2 wird Auswirkung von TLS 1.0/1.1 das verwerfen auf Raum-Geräten mit dem neuesten Version von SRS v2 app nicht angezeigt.
+> Skype Raum System V2 Software unterstützt derzeit nicht 1.2 TLS-Protokoll. Unterstützung für TLS 1.2 ist, die bearbeitet und wird ausgeführt werden, bevor das Verwerfen der TLS 1.0/1.1. Kunden Upgradging SRS v2 wird Auswirkung von TLS 1.0/1.1 das verwerfen auf Raum-Geräten mit dem neuesten Version von SRS v2 app nicht angezeigt. Skype für Unternehmen für lokale Kunden sollten nicht TLS 1.0/1.1 deaktivieren, Skype Raum System V2 Annouces für TLS 1.2 nicht unterstützt. 

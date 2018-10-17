@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Da Skype für Business Server einem Enterprise-Klasse Communications-System handelt, sollten Sie häufig vorkommende Angriff beachten, die die Infrastruktur und Kommunikation auswirken könnten.
-ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546783"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599211"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Häufige Sicherheitsbedrohungen in der modernen EDV
  
@@ -66,7 +66,7 @@ Im Kontext des Skype für Business Server kommt IP-Adressen-Spoofing ins Spiel n
     
 Dies ist für TLS-Verbindungen (Transport Layer Security) weniger ein Problem, da TLS alle Parteien authentifiziert und den gesamten Datenverkehr verschlüsselt. Die Verwendung von TLS verhindert Spoofingangriffe auf bestimmte Verbindungen (Mutual TLS-Verbindungen). Aber ein Angreifer konnte Spoofing die Adresse des DNS-Servers, der Skype für Business Server verwendet. Allerdings, da die Authentifizierung in Skype für Unternehmen mit Zertifikaten durchgeführt wird, müssten ein Angreifer kein gültiges Zertifikat erforderlich, um Spoofing eines Beteiligten bei der Kommunikation.
 
-Andererseits, kommt Anrufer-Id Spoofing ins Spiel, wenn Sie einen SIP-Trunk zwischen einem Anbieter, PSTN-Gateway oder einer anderen PBX-System und Skype für Business Server eingerichtet haben. In diesen Fällen bietet Skype für Business Server keinen Schutz vor Anrufer-Id spoofing zu verhindern. Dies bedeutet, dass eine Skype für Geschäftsbenutzer einen Anruf aus den SIP-Trunk mit einer gefälschten Anrufer-Id anzeigen Telefonnummer die Telefonnummer des anderen Skype für Geschäftsbenutzer empfangen kann. Schutz mit diesem angewendet werden soll, klicken Sie auf der Anbieterseite PSTN oder PBX-Gateway.
+Andererseits, kommt Anrufer-Id Spoofing ins Spiel, wenn Sie einen SIP-Trunk zwischen einem Anbieter, PSTN-Gateway oder einer anderen PBX-System und Skype für Business Server eingerichtet haben. In diesen Fällen bietet Skype für Business Server keinen Schutz vor Anrufer-Id spoofing zu verhindern. Dies bedeutet, dass eine Skype für Geschäftsbenutzer kann erhalten einen Anruf von der SIP-Trunk mit einer gefälschten Anrufer-Id anzeigen die Telefonnummer oder den Anzeigenamen (falls inverssuche gilt) von einem anderen Skype für Geschäftsbenutzer. Schutz mit diesem angewendet werden soll, klicken Sie auf der Anbieterseite PSTN oder PBX-Gateway.
   
 ## <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 
