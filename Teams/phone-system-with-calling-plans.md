@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dce3118f79723bd6838579a9cda722dd4dc7bb90
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371373"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593727"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Praktische Anleitungen für Telefonsysteme mit Anrufplänen in Microsoft Teams
 =========================================================================
@@ -313,9 +313,14 @@ Sie können die Verwendung von Guthaben für Kommunikationen pro Benutzer steuer
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Telefonsystem-Add-On, Anrufplan für Inland|Deaktiviert|
 
 <br>
-&gt; [!TIP]
-&gt;Ihre Planung Zahlen Communications haben kann wie folgt dokumentiert werden: &gt;|         |         | &gt;|---------|---------|
-&gt;| Anfangsgröße | 1.000 USD | &gt;| Trigger Betrag | $ 400 | &gt;| Automatische Ladeleuchte Betrag | TBA |
+
+> [!TIP]
+> Sie können Ihre Zahlen für die Planung des Guthabens für Kommunikationen so dokumentieren:
+> |         |         |
+> |---------|---------|
+> |Anfangsbetrag|1.000 US-Dollar|
+> |Betrag für die Auslösung der Auffüllung|400 US-Dollar|
+> |Höhe des Betrags für die automatische Auffüllung|TBA|
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Telefonnummern und Notfallstandorte
 
@@ -330,7 +335,7 @@ Wenn Sie Telefonnummern direkt von Microsoft beziehen möchten, haben Sie die fo
 
 - [Skype for Business Admin Center](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets für Remote-Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Absenden eines Formulars neue Telefon anfordern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Übermitteln eines Anforderungsformulars für neue Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
 Das Anforderungsformular für neue Telefonnummern eignet sich am besten, wenn Sie den Erwerb von Telefonnummern planen, da Sie einen zusammenhängenden Nummernblock anfordern können. Es ist nicht in allen Ländern bzw. Regionen möglich, Telefonnummern über das Skype for Business Admin Center oder über Remote-Windows PowerShell zu beziehen.
 
@@ -453,13 +458,21 @@ Normalisierungsregeln können maximal 25 Regeln in jedem Mandantenwählplan enth
 > |Name des Mandantenwählplans<br>Beschreibung  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 > |---------|---------|---------|
 > |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (x7000 – x7999) für 39 quai du Président Roosevelt-Niederlassung, Issy-les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
-> ||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
-> ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
+> ||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^0?(80\d{7})\d*$<br>+33$1<br>Falsch|
+> ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>Falsch|
 
 <br>
-&gt; [!TIP]
-&gt;Die Beispielvorlage, die ein Dokument Dial Plan Aufgaben zur Unterstützung von Ihrem Projekts genutzt werden kann: &gt;| Benutzer | Office | Wählen Sie eine Plantyp | Wählplanname | &gt;|---------|---------|---------|---------|
-&gt;| Emily Braun | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Lidia Holloway | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Pradeep Gupta | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Marcel Beauchamp | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-39qdPR | &gt;| Rachelle Cormier | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-39qdPR | &gt;| Isabell Potvin | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-39qdPR |
+
+> [!TIP]
+> Sie können die folgende Beispielvorlage nutzen, um Wählplanzuweisungen für Ihr Projekt zu dokumentieren:
+> |Benutzer  |Niederlassung  |Typ des Wählplans  |Name des Wählplans  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Dienstwählplan|n/v|
+> |Lidia Holloway|32 London Bridge Street|Dienstwählplan|n/v|
+> |Pradeep Gupta|32 London Bridge Street|Dienstwählplan|n/v|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-39qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-39qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-39qdPR|
 
 ## <a name="document-technical-implementation-plan"></a>Dokumentieren des Plans für die technische Implementierung
 

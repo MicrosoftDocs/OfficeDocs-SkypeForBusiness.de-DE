@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 3d05c35929e966b150f61fe18480380dc9840d81
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 516437ac9def60b1c06304429ca3bbe9eca63a3f
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375387"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593711"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 ============================================================
@@ -306,9 +306,14 @@ Wenn sich Ihre Organisation für automatisches Aufladen entscheidet, finden Sie 
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Add-On für Audiokonferenzen|
 
 <br>
-&gt; [!TIP]
-&gt;Ihre Planung Zahlen Communications haben kann wie folgt dokumentiert werden: &gt;|         |         | &gt;|---------|---------|
-&gt;| Anfangsgröße | 1.000 USD | &gt;| Trigger Betrag | $ 400 | &gt;| Automatische Ladeleuchte Betrag | TBA |
+> [!TIP]
+> Sie können Ihre Zahlen für die Planung des Guthabens für Kommunikationen so dokumentieren:
+> |         |         |
+> |---------|---------|
+> |Anfangsbetrag|1.000 US-Dollar|
+> |Betrag für die Auslösung der Auffüllung|400 US-Dollar|
+> |Höhe des Betrags für die automatische Auffüllung|TBA|
+> 
 
 ## <a name="conference-bridge-phone-numbers"></a>Telefonnummern für Konferenzbrücken
 
@@ -394,9 +399,23 @@ Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren
 > |Senden Sie automatisch E-Mails an Benutzer, wenn sich die Einwahlkonfiguration ändert.|Deaktiviert|
 
 <br>
-&gt; [!TIP]
-&gt;Sie können die Liste Konferenz Bridge Settings Zuordnung für Audiokonferenzen Benutzer unter Verwendung des folgenden Beispiels dokumentieren: &gt;| Benutzer | Office | Die gebührenpflichtige Telefonnummer default | Gebührenfreie Telefonnummer default | Zulassen gebührenfreie | Nicht authentifizierter Anrufer umgehen die Lobby | Client-Konferenz | &gt;|---------|---------|---------|---------|---------|---------|---------|
-&gt;| Adele Vance | Eine Epping Straße | TBA | TBA | Yes | Aktiviert | Internationaler und | &gt;| Alex Wilber | Eine Epping Straße | TBA | TBA | Nicht | Deaktivierte | Nicht zulässig | &gt;| Ben Walter | Eine Epping Straße | TBA | TBA | Nicht | Deaktivierte | Nicht zulässig | &gt;| Christine Cline | One Marina Boulevard | TBA | TBA | Yes | Deaktivierte | Nationalen | &gt;| Sarah Berger | One Marina Boulevard | TBA | TBA | Yes | Aktiviert | Nationalen | &gt;| Kelly Gu | One Marina Boulevard | TBA | TBA | Yes | Aktiviert | Nationalen | &gt;| Emily Braun | 32 London Bridge Straße | + 44 20 7946 0001 | TBA | Yes | Aktiviert | Nicht zulässig | &gt;| Lidia Holloway | 32 London Bridge Straße | + 44 20 7946 0001 | TBA | Yes | Deaktivierte | Nicht zulässig | &gt;| Pradeep Gupta | 32 London Bridge Straße | + 44 20 7946 0001 | TBA | Yes | Deaktivierte | Nicht zulässig | &gt;| Marcel Beauchamp | 39 Quai du Président Roosevelt | TBA | TBA | Nicht | Deaktivierte | Nationalen | &gt;| Rachelle Cormier | 39 Quai du Président Roosevelt | TBA | TBA | Yes | Aktiviert | Internationaler und | &gt;| Isabell Potvin | 39 Quai du Président Roosevelt | TBA | TBA | Nicht | Deaktivierte | Nationalen |
+> [!TIP]
+> Sie können die Zuweisungsliste für die Einstellungen der Konferenzbrücken für Benutzer von Audiokonferenzen anhand des folgenden Beispiels dokumentieren:
+>
+> |Benutzer  |Niederlassung  |Gebührenpflichtige Standardnummer  |Gebührenfreie Standardnummer  |Gebührenfreie Nummer zulassen  |Nicht authentifizierte Anrufer umgehen Wartebereich  |Konferenzauswahl  |
+> |---------|---------|---------|---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|TBA|TBA|Ja|Aktiviert|In- und Auslandsanrufe|
+> |Alex Wilber|One Epping Road|TBA|TBA|Nein|Deaktiviert|Nicht zulässig|
+> |Ben Walters|One Epping Road|TBA|TBA|Nein|Deaktiviert|Nicht zulässig|
+> |Christie Cline|One Marina Boulevard|TBA|TBA|Ja|Deaktiviert|Inlandsanruf|
+> |Debra Berger|One Marina Boulevard|TBA|TBA|Ja|Aktiviert|Inlandsanruf|
+> |Lee Gu|One Marina Boulevard|TBA|TBA|Ja|Aktiviert|Inlandsanruf|
+> |Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Ja|Aktiviert|Nicht zulässig|
+> |Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Ja|Deaktiviert|Nicht zulässig|
+> |Pradeep Gupta|32 London Bridge Street|+44 20 7946 0001|TBA|Ja|Deaktiviert|Nicht zulässig|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|Nein|Deaktiviert|Inlandsanruf|
+> |Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Ja|Aktiviert|In- und Auslandsanrufe|
+> |Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|Nein|Deaktiviert|Inlandsanruf|
 
 ## <a name="dial-plans"></a>Wählpläne
 
@@ -444,9 +463,24 @@ Normalisierungsregeln können maximal 25 Regeln in jedem Mandantenwählplan enth
 > ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
 
 <br>
-&gt; [!TIP]
-&gt;Die Beispielvorlage, die ein Dokument Dial Plan Aufgaben zur Unterstützung von Ihrem Projekts genutzt werden kann: &gt;| Benutzer | Office | Wählen Sie eine Plantyp | Wählplanname | &gt;|---------|---------|---------|---------|
-&gt;| Adele Vance | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Alex Wilber | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Ben Walter | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Christine Cline | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Sarah Berger | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Kelly Gu | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Emily Braun | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Lidia Holloway | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Pradeep Gupta | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Marcel Beauchamp | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR | &gt;| Rachelle Cormier | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR | &gt;| Isabell Potvin | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR |
+
+> [!TIP]
+> Sie können die folgende Beispielvorlage nutzen, um Wählplanzuweisungen für Ihr Projekt zu dokumentieren:
+>
+> |Benutzer  |Niederlassung  |Typ des Wählplans  |Name des Wählplans  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Dienstwählplan|n/v|
+> |Lidia Holloway|32 London Bridge Street|Dienstwählplan|n/v|
+> |Pradeep Gupta|32 London Bridge Street|Dienstwählplan|n/v|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
 
 ## <a name="microsoft-teams-configurations"></a>Microsoft Teams-Konfigurationen
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374795"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593703"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -269,10 +269,13 @@ Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Commu
 > |Isabell Potvin |39 quai du Président Roosevelt |Plan für Inlandsanrufe |Deaktiviert |
 
 <br>
-&gt; [!TIP]
-&gt;Ihre Planung Zahlen Communications haben können wie im folgenden Beispiel dokumentiert werden.
-&gt;|         |         | &gt;|---------|---------|
-&gt;| Anfangsgröße | 1.000 USD | &gt;| Trigger Betrag | $ 400 | &gt;| Automatische Ladeleuchte Betrag | TBA |
+> [!TIP]
+> Ihre Planung Zahlen Communications haben können wie im folgenden Beispiel dokumentiert werden.
+> |         |         |
+> |---------|---------|
+> |Anfangsbetrag|1.000 US-Dollar|
+> |Betrag für die Auslösung der Auffüllung|400 US-Dollar|
+> |Höhe des Betrags für die automatische Auffüllung|TBA|
 
 <!--ENDOFSECTION-->
 
@@ -377,9 +380,23 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 > ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
 
 <br>
-&gt; [!TIP]
-&gt;Die Beispielvorlage, die ein Dokument Dial Plan Aufgaben zur Unterstützung von Ihrem Projekts genutzt werden kann: &gt;| Benutzer | Office | Wählen Sie eine Plantyp | Wählplanname | &gt;|---------|---------|---------|---------|
-&gt;| Adele Vance | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Alex Wilber | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Ben Walter | Eine Epping Straße | Mandanten Wählplan | AU-NSW-NorthRyde-OER | &gt;| Christine Cline | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Sarah Berger | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Kelly Gu | One Marina Boulevard | Mandanten Wählplan | SG-Singapur-OMB | &gt;| Emily Braun | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Lidia Holloway | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Louis Lahr | 32 London Bridge Straße | Service-Wählplan | NICHT ZUTREFFEND | &gt;| Marcel Beauchamp | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR | &gt;| Rachelle Cormier | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR | &gt;| Isabell Potvin | 39 Quai du Président Roosevelt | Mandanten Wählplan | FR-Paris-Issy-30qdPR |
+> [!TIP]
+> Sie können die folgende Beispielvorlage nutzen, um Wählplanzuweisungen für Ihr Projekt zu dokumentieren:
+>
+> |Benutzer  |Niederlassung  |Typ des Wählplans  |Name des Wählplans  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Mandantenwählplan|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Mandantenwählplan|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Dienstwählplan|n/v|
+> |Lidia Holloway|32 London Bridge Street|Dienstwählplan|n/v|
+> |Louis Lahr|32 London Bridge Street|Dienstwählplan|n/v|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Mandantenwählplan|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

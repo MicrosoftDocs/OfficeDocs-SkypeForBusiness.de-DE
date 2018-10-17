@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Zusammenfassung: Überprüfen der Aspekte beim Port-Nutzung vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: 4355bc35e5e8ddcf881e322c39661389f78dce1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884993"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593695"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports und Protokolle-Anforderungen für Server
  
@@ -31,7 +31,7 @@ Dies mag ein Bit schwierige zunächst, den schwierigsten für die Planung, dies 
   
 Sie können auch die Informationen in diesen Tabellen in Diagrammform mithilfe Protokollarbeitsauslastungen Poster von Artikel [Technical Diagrams für Skype für Business Server 2015](../../technical-diagrams.md) verknüpft suchen.
 > [!NOTE]
-> - Skype für Business Online-Benutzer sollten auf [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)verweisen. 
+> - Wenn Sie Skype für Business Online (O365) implementieren finden Sie in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybridumgebungen müssen in diesem Thema und auch die [Ports und Protokolle Anforderungen](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)Hybrid verweisen.
 > - Sie können Hardware- oder Firewalls, es ist nicht erforderlich, bestimmte Modelle oder Versionen. Wichtig ist, welche Ports weißen Liste enthalten sind, sodass die Firewall beeinträchtigt wird nicht das Funktionieren des Skype für Business Server.
   
 ## <a name="port-and-protocol-details"></a>Port- und Protokolldetails
