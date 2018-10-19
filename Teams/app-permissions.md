@@ -3,7 +3,7 @@ title: Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 08/20/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_PracticalGuidance
@@ -13,12 +13,12 @@ description: Hier erfahren Sie, welche Daten und Berechtigungen Apps von Ihrer O
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ea7aaa57f6784487d662174554ec0086a87346
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375748"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678402"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -75,18 +75,18 @@ Die unten in Großbuchstaben aufgeführten Berechtigungen, zum Beispiel RECEIVE_
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3">Einige Bots senden nur Nachrichten (POST_MESSAGE_USER). Diese & #39; Re aufgerufen &quot;Benachrichtigung nur&quot; Bots, aber der Begriff & #39; t finden Sie unter welche ein Bot zugelassen oder Aktionen nicht zulässig ist, bedeutet das, dass die Bot & #39; t eine Gesprächs Erfahrung verfügbar machen möchten. Teams verwendet dieses Feld, um die Funktionalität in der Benutzeroberfläche deaktivieren, die normalerweise aktiviert werden; der Bot ist nicht & #39; t eingeschränkt in was es & #39; s dürfen im Vergleich zu Bots, die eine Gesprächs Erfahrung verfügbar machen.</td></tr>
 <tr><td align="right"><sup>2</sup></td><td colspan="3">Zurzeit als Developer Preview verfügbar.</td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">Zurzeit als Developer Preview verfügbar. Wird gesteuert durch die boolesche Eigenschaft <code>supportsFiles</code> des Botobjekts in der Datei „manifest.json“ für die App.</td>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Unterliegt den <code>supportsFiles</code> boolesche Eigenschaft für das Bot-Objekt in der Datei manifest.json für die app.</td>
 </tr>
 </tfoot>
 </table>
 
 > [!Note]
-> <ul><li>Wenn ein Bot über eine eigene Anmeldung verfügt, wird bei der ersten Anmeldung des Benutzers eine zweite – andere – Benutzeroberfläche für die Einwilligung verwendet.</li><li>Zurzeit sind die Azure AD-Berechtigungen, die den Funktionen innerhalb einer Microsoft Teams-App (Bot, Registerkarte, Connector oder Messagingerweiterung) zugeordnet sind, vollständig von den hier aufgeführten Microsoft Teams-Berechtigungen getrennt.</li></ul>
+> <ul><li>Verfügt ein Bot eine eigene Anmeldung, es gibt eine zweite – verschiedene – Zustimmung Erfahrung beim ersten der Benutzer anmeldet.</li><li>Derzeit sind die Azure AD-Berechtigungen für jede der Funktionen innerhalb einer app Teams (Robot, Registerkarte, Verbinder oder messaging Erweiterung) völlig unabhängig von den hier aufgelisteten Teams Berechtigungen.</li></ul>
 
 
 ## <a name="tabs"></a>Registerkarten
 
-Bei einer Registerkarte handelt es sich um eine in Microsoft Teams ausgeführte Website.
+Eine Registerkarte ist eine Website innerhalb Teams ausgeführt.
 
 <table>
   <tr>
@@ -96,14 +96,14 @@ Bei einer Registerkarte handelt es sich um eine in Microsoft Teams ausgeführte 
   </tr>
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
-    <td valign="top">Keine (zurzeit)</td>
-    <td valign="top"><ul><li>Das Risikoprofil einer Registerkarte ist fast identisch mit dem der gleichen Website bei Ausführung in einer Browserregisterkarte. </li><li>Eine Registerkarte ruft auch den Kontext ab, in dem es & #39; s ausgeführt, den Anmeldenamen und UPN des aktuellen Benutzers, einschließlich der Azure AD-Objekt-ID für den aktuellen Benutzer, die die Office 365-Gruppe (Team) in der es sich befindet, die Mandanten-ID-ID , und das aktuelle Gebietsschema des Benutzers. Jedoch müsste zum Zuordnen dieser IDs, die ein Benutzer & #39; s Informationen, die Registerkarte der Benutzer für die Anmeldung bei Azure AD tätigen.</li></ul></td>
+    <td valign="top">Keine (aktuell).</td>
+    <td valign="top"><ul><li>Das Risikoprofil für eine Registerkarte ist nahezu identisch, die gleichen Website in einer Registerkarte Browser ausgeführt. </li><li>Eine Registerkarte ruft auch den Kontext ab, in dem es & #39; s ausgeführt, den Anmeldenamen und UPN des aktuellen Benutzers, einschließlich der Azure AD-Objekt-ID für den aktuellen Benutzer, die die Office 365-Gruppe (Team) in der es sich befindet, die Mandanten-ID-ID , und das aktuelle Gebietsschema des Benutzers. Jedoch müsste zum Zuordnen dieser IDs, die ein Benutzer & #39; s Informationen, die Registerkarte der Benutzer für die Anmeldung bei Azure AD tätigen.</li></ul></td>
   </tr>
   </table>
 
 ## <a name="connectors"></a>Connectors
 
-Ein Connector stellt in einem Kanal Nachrichten bereit, wenn in einem externen System Ereignisse auftreten.
+Ein Connector sendet Nachrichten an einen Kanal beim Auftreten von Ereignissen in einem externen System.
 
   <table>
   <tr>
@@ -113,18 +113,18 @@ Ein Connector stellt in einem Kanal Nachrichten bereit, wenn in einem externen S
   </tr>
   <tr>
     <td valign="top">POST_MESSAGE_CHANNEL</td>
-    <td valign="top">REPLYTO_CONNECTOR_MESSAGE: Bestimmte Connectors unterstützen <em>Nachrichten mit ausführbaren Aktionen</em>, bei denen Benutzer gezielte Antworten auf die Connectornachricht bereitstellen können, beispielsweise indem sie eine Antwort zu einem GitHub-Problem oder ein Datum zu einer Trello-Karte hinzufügen.</td>
-    <td valign="top"><ul><li>Das System, die Beiträge Connector Nachrichten & #39; t wissen, wer es & #39; s bereitstellen in oder Empfänger der Meldung: ist keine Informationen über den Empfänger anzugeben. (Der eigentliche Empfänger ist Microsoft, nicht der Mandant. Die Nachricht wird tatsächlich von Microsoft im Kanal bereitgestellt.)</li><li>Wenn Connectornachrichten in einem Kanal bereitgestellt werden, verlassen keine Daten das Unternehmensnetzwerk.</li><li>Verbinder, die bearbeitungsfähige Nachrichten (REPLYTO_CONNECTOR_MESSAGE Berechtigung) auch Don & #39 unterstützen; t finden Sie unter IP-Adresse "und" Referenz Informationen; Diese Informationen sind an Microsoft gesendet, und klicken Sie dann auf HTTP-Endpunkte, die zuvor mit Microsoft im Portal Connectors registriert wurden weitergeleitet.</li><li>Immer wenn ein Connector für einen Kanal konfiguriert wird, wird eine eindeutige URL für diese Connectorinstanz erstellt. Wenn diese Connectorinstanz gelöscht wird, kann die URL nicht mehr verwendet werden.</li><li>Connector Nachrichten können & #39; t Dateianlagen enthalten.</li><li>Die URL der Connectorinstanz sollte als geheim/vertraulich behandelt werden: Jeder, der die URL kennt, kann etwas unter der URL bereitstellen (wie bei einer E-Mail-Adresse). Aus diesem Grund es & #39; s Risiko einer Spam oder Links zu Phishing oder Malware Websites. In diesem Fall können Teambesitzer die Connectorinstanz löschen.</li><li>Wenn der Dienst, der Connectornachrichten sendet, kompromittiert wird und Spam oder Phishing- bzw. Malwarelinks sendet, kann ein Mandantenadministrator die Erstellung neuer Connectorinstanzen verhindern. Außerdem kann Microsoft diese Instanzen zentral blockieren.</li></ul></td>
+    <td valign="top">REPLYTO_CONNECTOR_MESSAGE. Bestimmte Connectors unterstützen <em>bearbeitungsfähige Nachrichten</em>, die Benutzer gezielte Antworten auf die Nachricht Connector, beispielsweise durch Hinzufügen einer Antwort auf ein Problem GitHub oder Hinzufügen eines Datums zu einer Karte Trello buchen zulassen.</td>
+    <td valign="top"><ul><li>Das System, die Beiträge Connector Nachrichten & #39; t wissen, wer es & #39; s bereitstellen in oder Empfänger der Meldung: ist keine Informationen über den Empfänger anzugeben. (Microsoft ist der eigentliche Empfänger, nicht für den Mandanten. Microsoft ist der tatsächlichen Post an den Kanal.)</li><li>Keine Daten verlässt des Firmennetzwerks befinden, wenn Connector Nachrichten an einen Kanal veröffentlicht wurden.</li><li>Verbinder, die bearbeitungsfähige Nachrichten (REPLYTO_CONNECTOR_MESSAGE Berechtigung) auch Don & #39 unterstützen; t finden Sie unter IP-Adresse "und" Referenz Informationen; Diese Informationen sind an Microsoft gesendet, und klicken Sie dann auf HTTP-Endpunkte, die zuvor mit Microsoft im Portal Connectors registriert wurden weitergeleitet.</li><li>Jedes Mal, wenn ein Connector konfiguriert ist, wird für einen Kanal wird ein eindeutiger URL für diese Connectorinstanz erstellt. Wenn dieser Connector-Instanz gelöscht wird, kann die URL nicht mehr verwendet werden.</li><li>Connector Nachrichten können & #39; t Dateianlagen enthalten.</li><li>Connector-Instanz, die URL als Schlüssel/vertraulich behandelt werden sollte: jeder Benutzer mit, dass die URL, Nachrichten veröffentlichen kann wie eine e-Mail-Adresse. Aus diesem Grund es & #39; s Risiko einer Spam oder Links zu Phishing oder Malware Websites. Würde, die auftreten, können Teams Besitzer die Connector-Instanz löschen.</li><li>Wenn der Dienst, der Connector Nachrichten waren so gefährdet werden, und starten Sie senden von Spam/Phishing/Malware Links sendet, mandantenadministrator kann verhindern, dass neue Connectorinstanzen erstellt wird und Microsoft können sie zentral blockieren.</li></ul></td>
   </tr>
 </table>
 
 > [!Note]
-> Zurzeit können Sie nicht wissen, welche Connectors Nachrichten mit ausführbaren Aktionen unterstützen (Berechtigung REPLYTO_CONNECTOR_MESSAGE).
+> Es ist nicht wissen, welche Konnektoren bearbeitungsfähige Nachrichten (REPLYTO_CONNECTOR_MESSAGE Berechtigung) unterstützt derzeit möglich.
 
 
-## <a name="outgoing-webhooks"></a>Ausgehende Webhooks
+## <a name="outgoing-webhooks"></a>Ausgehende webhooks
 
-_Ausgehende Webhooks_ werden von Teambesitzern oder Teammitgliedern spontan erstellt, wenn Querladen für einen Mandanten aktiviert ist. Es handelt sich dabei nicht um Funktionen von Microsoft Teams-Apps. Diese Informationen sind der Vollständigkeit halber enthalten.
+_Ausgehende Webhooks_ werden während der Bearbeitung durch Team Besitzer oder Teammitglieder erstellt, wenn Sideloading für einen Mandanten aktiviert ist. Sie werden nicht die Funktionen des Teams apps. Diese Informationen sind Vollständigkeit.
 
 <table>
   <tr>
@@ -133,8 +133,8 @@ _Ausgehende Webhooks_ werden von Teambesitzern oder Teammitgliedern spontan erst
     <th width="50%">Überlegungen</th>
   </tr>
     <tr>
-    <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE: Der ausgehende Webhook kann Nachrichten von Benutzern empfangen und auf diese antworten.</td>
+    <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Empfangen von Nachrichten von Benutzern und darauf antworten können.</td>
     <td valign="top">Keine</td>
-    <td valign="top"><ul><li>Ausgehende Webhooks sind mit Bots vergleichbar, verfügen aber über weniger Berechtigungen. Sie müssen, genau wie Bots, explizit erwähnt werden.</li><li>Bei der Registrierung eines ausgehenden Webhooks wird ein <em>Geheimnis</em> generiert, mit dessen Hilfe der ausgehende Webhook verifizieren kann, dass Microsoft Teams und nicht ein böswilliger Angreifer der Absender ist. Dieses Geheimnis sollte geheim bleiben, da jeder, der Zugriff darauf hat, die Identität von Microsoft Teams annehmen kann. Wenn das Geheimnis kompromittiert ist, kann der ausgehende Webhook gelöscht und erneut erstellt werden. Dann wird ein neues Geheimnis generiert.</li><li>Obwohl es & #39; s möglich, erstellen eine ausgehende Webhook, & #39; t den geheimen Schlüssel, es wird empfohlen, ihn zu überprüfen.</li><li>Als empfangen und Beantworten von Nachrichten, ausgehende Webhooks kann & #39; nicht viel t: sie können & #39; t proaktiv Senden von Nachrichten, sie können & #39; t senden oder Empfangen von Dateien, sie können & #39; sonst noch etwas Möglichkeiten, die Bots empfangen und Beantworten von außer können t Nachrichten.</li></ul></td>
+    <td valign="top"><ul><li>Ausgehende Webhooks ähneln Bots, aber deshalb mit niedrigeren Berechtigungen haben. Sie müssen explizit, genau wie Bots angegeben werden.</li><li>Wenn eine ausgehende Webhook registriert ist, wird einen <em>geheimen Schlüssel</em> generiert, sodass die ausgehende Webhook überprüfen, ob der Absender Microsoft-Teams, im Gegensatz zu einem Angreifer ist. Dieser Schlüssel sollte einen geheimen Schlüssel bleiben. Jeder Benutzer mit Zugriff auf die Datei kann Microsoft-Teams imitieren. Wenn der geheimen Schlüssel gefährdet ist, die ausgehende Webhook gelöscht und neu erstellt werden kann, und ein neuer geheimen Schlüssel generiert werden.</li><li>Obwohl es & #39; s möglich, erstellen eine ausgehende Webhook, & #39; t den geheimen Schlüssel, es wird empfohlen, ihn zu überprüfen.</li><li>Als empfangen und Beantworten von Nachrichten, ausgehende Webhooks kann & #39; nicht viel t: sie können & #39; t proaktiv Senden von Nachrichten, sie können & #39; t senden oder Empfangen von Dateien, sie können & #39; sonst noch etwas Möglichkeiten, die Bots empfangen und Beantworten von außer können t Nachrichten.</li></ul></td>
   </tr>
 </table>

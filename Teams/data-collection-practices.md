@@ -24,16 +24,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: 198c78b2c6b484d3d68c7d001de4d0db12658a2c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012841"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678378"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
-Skype für Business Server 2015, Skype für Business Online, zusammen mit Skype für Geschäfts- und Microsoft-Teams, apps Sammeln von Daten zur Unterstützung von Microsoft zu verstehen, wie diese Produkte genutzt werden und welche Arten von Fehlern, z. B. Anmeldefehlern, aufgetreten sind. Anhand dieser Informationen können wir Nutzungsmuster verstehen, neue Funktionen planen, eine Problembehandlung durchführen und Problembereiche korrigieren.
+Skype für Business Server und Skype für Business Online, zusammen mit Skype für Geschäfts- und Microsoft-Teams, apps sammeln Daten, um Microsoft zu verstehen, wie diese Produkte genutzt werden und welche Arten von Fehlern, z. B. Anmeldefehlern, aufgetreten sind. Anhand dieser Informationen können wir Nutzungsmuster verstehen, neue Funktionen planen, eine Problembehandlung durchführen und Problembereiche korrigieren.
 
 Einige Nutzungsdaten werden automatisch gesammelt, andere Daten können hingegen nur gesammelt werden, wenn der Administrator und/oder Nutzer dies zulässt. Die Datensammlung unterteilt sich in diese drei Kategorien:
 
@@ -78,7 +78,7 @@ Nutzungsdaten enthalten unter Umständen Informationen, anhand derer Ihr Unterne
 
 Die Nutzungsdaten enthalten KEINE Informationen, anhand derer Nutzer identifiziert werden können.
 
-Die Sammlung der Nutzungsdaten ist standardmäßig aktiviert, lokale Administratoren können sie jedoch mit der Gruppenrichtlinieneinstellung „Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren" (DisableAutomaticSendTracing) für Skype for Business Server 2015 deaktivieren. Das Deaktivieren dieser Einstellung wirkt sich auf alle Benutzer in der Organisation aus. Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) finden Sie weitere Informationen.
+Verwendungsdatenerfassung ist standardmäßig aktiviert, aber in der lokalen Administratoren deaktivieren können unter Verwendung der Gruppenrichtlinien DisableAutomaticSendTracing Einstellung auf Skype für Business Server. Das Deaktivieren dieser Einstellung wirkt sich auf alle Benutzer in der Organisation aus. Weitere Informationen finden Sie unter [Richtlinien für das clientbootstrapping konfigurieren](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
 
 Benutzer können die Sammlung der Nutzungsdaten nicht aktivieren oder deaktivieren.
 
@@ -103,7 +103,7 @@ Die Fehlerberichterstattungsdaten können außerdem personenbezogene Information
 
 Für die Fehlerberichterstattung müssen zwei Voraussetzungen erfüllt sein:
 
-- Die Einstellung DisableAutomaticSendTracing von Gruppenrichtlinien wird auf dem Server oder in der Mandanten-Verwaltungskonsole (Dies ist der Standardzustand) auf False festgelegt. Unter [Konfigurieren von Richtlinien für das Client-Bootstrapping in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) finden Sie weitere Informationen.
+- Die Einstellung DisableAutomaticSendTracing von Gruppenrichtlinien wird auf dem Server oder in der Mandanten-Verwaltungskonsole (Dies ist der Standardzustand) auf False festgelegt. Weitere Informationen finden Sie unter [Richtlinien für das clientbootstrapping konfigurieren](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     
 - Endbenutzer einzeln bestätigen auf der Registerkarte Allgemein (klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , und klicken Sie dann im Dialogfeld **Optionen** wird geöffnet, wobei die Registerkarte **Allgemein** angezeigt) in die Skype für Business-Client.
     

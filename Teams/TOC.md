@@ -181,6 +181,7 @@
 ### [Weisen Sie Team-Besitzer und Membern im Microsoft-Teams](assign-roles-permissions.md)
 ### [Bewährte Methoden zum Organisieren von Teams in Teams](best-practices-organizing.md)
 ### [Erstellen Sie ein Team Org geltende in Teams](create-an-org-wide-team.md)
+### [Übersicht über dynamische Mitgliedschaft für teams](dynamic-memberships.md)
 ## [Gastzugriff](guest-access.md)
 ### [Beitritt eines Gasts zu einem Team](guest-joins.md)
 ### [Gastfunktionalität](guest-experience.md)

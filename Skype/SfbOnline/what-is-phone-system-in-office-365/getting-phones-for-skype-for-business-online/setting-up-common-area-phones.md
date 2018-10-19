@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie die Schritte zur Bereitstellung, um die richtige Firmware erhalten möchten, aktualisieren sie bei Bedarf, Zuweisen von Lizenzen und Konfigurieren von Einstellungen für Telefone in öffentlichen Bereichen.
-ms.openlocfilehash: d741b2ea76b8824ed36252d1d53e3f66e0118401
-ms.sourcegitcommit: cba568455949deab3c47777cb6504b4ed889bdbd
+ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/14/2018
-ms.locfileid: "25552438"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678166"
 ---
 # <a name="set-up-common-area-phones"></a>Einrichten von Telefonen für gemeinsame Bereiche
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -137,7 +137,7 @@ Das oder die Telefone, die Sie besitzen, müssen den Modus **Telefone für gemei
 
 
 > [!NOTE]
-> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein Active Directory mit AAD synchronisiert haben, achten Sie darauf, dass die von Ihnen verwendeten Anmeldeinformationen durch die CAP-Bereitstellung geändert werden.
+> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie eine lokale Active Directory AAD synchronisiert wurden, und Sie ein Drittanbieter-IDP oder AD FS verwenden, schlägt fehl, CAP-Bereitstellung. In diesem Fall müssen Sie ein Office 365/Azure nur Active Directory-Konto (beispielsweise ein Konto mit der Domäne **"onmicrosoft.com"** ) verwenden CAP Bereitstellung arbeiten.
 
 
 ### <a name="related-topics"></a>Verwandte Themen

@@ -14,17 +14,17 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: Microsoft arbeitet mit ausgewählten SBC-Anbietern zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren.
-ms.openlocfilehash: 375c5ca46e8af7bb31ad50b8c55a4fa629b8d2dd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Microsoft-Partner mit ausgewählten SBC-Anbietern ihre SBCs Zertifizierung arbeiten mit direktem Routing.
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371796"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678450"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
-Microsoft arbeitet mit ausgewählten SBC-Anbietern (Session Border Controller) zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren. 
+Microsoft Partner mit ausgewählten Session Border Controller (SBC) Anbietern Zertifizierung, die ihre Arbeit SBCs mit direktem Routing. 
 
 Die Zusammenarbeit zwischen Microsoft und den einzelnen Anbietern sieht so aus: 
 

@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, welche Art von Dial Plans (Aufrufen von PSTN-Wählpläne) aufrufen mit Office 365 verfügbar sind und wie Sie eine für Ihre Organisation wählen.  '
-ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: a823e3665229eeb1292c4f027bda7d7e8eff79a9
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502358"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678426"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -41,7 +41,7 @@ Finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-di
 
 ## <a name="tenant-dial-plan-scope"></a>Mandantenwählplanbereich
 
-Ein Wählplan Bereich bestimmt die Hierarchieebene, an der die Wähleinstellungen angewendet werden kann. Die Bereiche werden anders als in einer Skype für Business Server 2015: Bereitstellung lokal. Clients erhalten die entsprechenden Wähleinstellungen über die Bereitstellung von Einstellungen, die automatisch bereitgestellt werden, wenn Benutzer Skype für Business Online anmelden. Sie können als Administrator verwalten und Bereichsebenen mithilfe von Remote-PowerShell zuweisen.
+Ein Wählplan Bereich bestimmt die Hierarchieebene, an der die Wähleinstellungen angewendet werden kann. Die Bereiche unterscheiden sich in einem Skype für die lokale Bereitstellung Business Server. Clients erhalten die entsprechenden Wähleinstellungen über die Bereitstellung von Einstellungen, die automatisch bereitgestellt werden, wenn Benutzer Skype für Business Online anmelden. Sie können als Administrator verwalten und Bereichsebenen mithilfe von Remote-PowerShell zuweisen.
 
 In Skype für Business Online gibt es zwei Arten von Wählplänen - bezogenen Service und Mandant (bei dem es sich um für Ihre Organisation handelt) beschränkt. Ein Wählplan bezogenen Service ist für jedes Land/Region definiert, in dem das Telefonsystem für Office 365 verfügbar ist. Jeder Benutzer wird automatisch den Dienst Land Wählplan zugewiesen, der die Office 365 Usage Standort zugewiesen, die dem Benutzer entspricht. Den Dienst Land Wählplan kann nicht geändert werden, aber Sie können Mandanten bezogenen-Wählpläne, die den Dienst Land Wählplan ergänzen erstellen. Wie Clients bereitgestellt werden, ein "effektiven Wählplan," ist eine Kombination aus dem Dienst Land Wählplan und die Wähleinstellungen entsprechend bereichsbezogenen Mandanten abgerufen. Aus diesem Grund ist es nicht erforderlich, alle Normalisierungsregeln in Wählpläne Mandanten definieren, wie sie in den Dienst Land Wähleinstellungen noch vorhanden sind möglicherweise.
 
@@ -126,14 +126,14 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Regelname** <br/> |**Beschreibung** <br/> |**Nummernmuster** <br/> |**Übersetzung** <br/> |**Beispiel** <br/> |
-|4digitExtension  <br/> |Übersetzt vierstellige Durchwahlnummern.  <br/> |^ (\\d{4}) $  <br/> |+1425555$1  <br/> |0100 wird in +14255550100 übersetzt.  <br/> |
-|5stellendurchwahl).  <br/> |Übersetzt fünfstellige Durchwahlnummern.  <br/> |^ 5 (\\d{4}) $  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
-|7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond.  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt.  <br/>|
+|4digitExtension  <br/> |Übersetzt vierstellige Durchwahlnummern.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 wird in +14255550100 übersetzt.  <br/> |
+|5digitExtension  <br/> |Übersetzt fünfstellige Durchwahlnummern.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
+|7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt.  <br/>|
 |RedmondOperator  <br/> |Übersetzt 0 in die Vorwahl des Netzbetreibers von Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 wird in +14255550100 übersetzt.  <br/> |
-|RedmondSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222).  <br/> |^ 6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |62220100 wird in +14255550100 übersetzt.  <br/> |
-|5digitRange  <br/> |Übersetzt fünfstellige Durchwahlnummern beginnend mit dem Ziffernbereich von 3 bis einschließlich 7.  <br/> |^ ([3 bis 7]\\d{4}) $  <br/> |+ 142555$ 1 <br/> |54567 wird in +14255554567 übersetzt.  <br/> |
-|PrefixAdded  <br/> |Fügt ein Länderpräfix vor einer neunstelligen Nummer mit Einschränkungen für die erste und dritte Ziffer hinzu.  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |4255554567 wird in 14255554567 übersetzt.  <br/> |
-|Keine Übersetzung  <br/> |Gleicht 5 Ziffern ab, ohne eine Übersetzung durchzuführen.  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |34567 wird in 34567 übersetzt.  <br/> |
+|RedmondSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 wird in +14255550100 übersetzt.  <br/> |
+|5digitRange  <br/> |Übersetzt fünfstellige Durchwahlnummern beginnend mit dem Ziffernbereich von 3 bis einschließlich 7.  <br/> |^([3-7]\\d{4})$  <br/> |+ 142555$ 1 <br/> |54567 wird in +14255554567 übersetzt.  <br/> |
+|PrefixAdded  <br/> |Fügt ein Länderpräfix vor einer neunstelligen Nummer mit Einschränkungen für die erste und dritte Ziffer hinzu.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 wird in 14255554567 übersetzt.  <br/> |
+|Keine Übersetzung  <br/> |Gleicht 5 Ziffern ab, ohne eine Übersetzung durchzuführen.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 wird in 34567 übersetzt.  <br/> |
 
  **Wählplan für Redmond, basierend auf den oben gezeigten Normalisierungsregeln**
 
@@ -141,7 +141,7 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 | Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert. |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Wählplan für Redmond** <br/>                                                                                                                              |
-| 5stellendurchwahl). <br/>                                                                                                                                    |
+| 5digitExtension <br/>                                                                                                                                    |
 | 7digitcallingRedmond <br/>                                                                                                                               |
 | RedmondSitePrefix <br/>                                                                                                                                  |
 | RedmondOperator <br/>                                                                                                                                    |

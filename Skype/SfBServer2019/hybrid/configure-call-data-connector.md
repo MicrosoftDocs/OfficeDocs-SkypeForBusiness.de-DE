@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Informationen zum Konfigurieren von Anrufen Daten Connector, der für lokale Skype für Business Online-Tools mit angezeigt werden, um Business Telemetrie von Skype werden können.
-ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5379b13d9b9962154a8b525109218dcf330336e4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373299"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678149"
 ---
 # <a name="configure-call-data-connector"></a>Konfigurieren von Anruf Daten Connector
 
@@ -27,10 +27,12 @@ In diesem Artikel wird beschrieben, wie Call Data Connector – ein einzelnes To
 
 Weitere Informationen zu aufrufen Data Connector Vorteile und die erforderlichen Komponenten, beispielsweise Rolle Anforderungen und Einrichten von hybridkonnektivität finden Sie unter [Planen der Call Data Connector](plan-call-data-connector.md).
 
-## <a name="enable-monitoring"></a>Aktivieren der Überwachung 
+## <a name="enable-monitoring"></a>Aktivieren der Überwachung
+ 
+Sie müssen Call Data Recording (CDR) konfigurieren und Datensammlung Quality of Experience (QoE) in Ihrer Front-End-pool-Überwachung, mit lokalen Datenbanken LCSCdr und QoEMetrics; Andernfalls wird nicht die Analytics aufrufen und die Qualität-Dashboards aufrufen entwickelt Abrufen von Daten. Bevor Sie Configure Anruf Data Connector führen Sie die Schritte in [Deploy Überwachung in Skype für Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) sowohl KDS und QoE sowie grundlegende Überwachung konfigurieren.
 
-Sie müssen Call Data Recording (CDR) und Quality of Experience (QoE)-Datensammlung konfigurieren. Andernfalls wird nicht den Analytics aufrufen und die Qualität Dashboards aufrufen anzuzeigenden Informationen erhalten. Bevor Sie Configure Anruf Data Connector, führen Sie die Schritte in [Deploy Überwachung in Skype für Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) zum Konfigurieren von KDS und QoE.
-
+> [!IMPORTANT]
+> Anruf Data Connector ist nicht funktionsfähig, wenn die Überwachung auf dem Front-End-Pool nicht aktiviert ist.
 
 ## <a name="enable-call-data-connector"></a>Anruf Daten Connector aktivieren
 

@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Informationen Sie zum Windows PowerShell verwenden, um alle Features von Microsoft-Teams verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0daff64e5a0f6f876de4adb7b60d913fbcce78cb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4c8eb0c37f71972bb20fac60706ff7a369d971d4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016077"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678346"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Verwenden von PowerShell zum Verwalten von Teams
 
@@ -33,7 +33,7 @@ Remoteverwaltung von Microsoft-Teams, mithilfe von PowerShell wird nur auf 64-Bi
 - Windows Server 2012 R2
 - Windows Server 2012
 - Windows Server 2008
-- Windows 7
+- Windows 7
     
 Zusätzlich zur ein unterstütztes Betriebssystem muss der Computer auch Folgendes ausgeführt werden:
   
@@ -48,7 +48,11 @@ Zusätzlich zur ein unterstütztes Betriebssystem muss der Computer auch Folgend
 ### <a name="step-3-download-and-install-the-teams-connector-module"></a>Schritt 3: Herunterladen Sie und installieren Sie des Teams Connector-Moduls
 [Verwenden Sie dieses Thema für die Hilfe](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
-Nachfolgend finden Sie der Link zum Herunterladen von Isabella:https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
+Installieren Sie das aktuelle Modul über die PowerShell-Katalog mit: 
+  
+  Install-Modul MicrosoftTeams
+
+Oder Weitere Informationen des Pakets finden Sie hier:https://www.powershellgallery.com/packages/MicrosoftTeams/
 
 ### <a name="step-4-connect-using-the-teams-connector-module"></a>Schritt 4: Verbinden Sie mithilfe des Teams Connector-Moduls
 [Verwenden Sie dieses Thema für die Hilfe](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 

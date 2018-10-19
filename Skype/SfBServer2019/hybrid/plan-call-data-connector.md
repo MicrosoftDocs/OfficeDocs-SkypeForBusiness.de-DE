@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung von Skype für Business Online Telemetrie-Tools zum Überwachen von einer lokale Implementierung in einer Hybrid-Szenario.
-ms.openlocfilehash: 2c491a217f02af77a25f362697e6f89aceb9470c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "25030700"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678133"
 ---
 # <a name="plan-call-data-connector"></a>Planen der Anruf Data Connector
 
@@ -57,18 +57,23 @@ Sie möchten natürlich einige Anrufqualität Daten lokal speichern. Dies mögli
 
 ## <a name="requirements"></a>Anforderungen
 
-Die folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype für Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zur Bereitstellung von Skype für Business Server und unterstützten Topologien finden Sie unter [Grundlagen der Topologie](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics).
+Die folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype für Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zur Bereitstellung von Skype für Business Server und unterstützten Topologien finden Sie unter [Grundlagen der Topologie](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Um Call Data Connector zu konfigurieren, müssen Sie folgende Aktionen ausführen:
 
-- Hybrid-Diensten. Wenn Sie Skype bereits für Business Server bereitgestellt haben, und rufen Sie Data Connector aktivieren möchten, müssen Sie sicherstellen, dass Sie hybridkonnektivität zwischen Ihrer lokalen und online-Umgebung eingerichtet haben. Dies ist eine geteilte Domänenkonfiguration bezeichnet. 
+- Aktivieren Sie Hybrid-Diensten. Wenn Sie Skype bereits für Business Server bereitgestellt haben, und rufen Sie Data Connector aktivieren möchten, müssen Sie sicherstellen, dass Sie hybridkonnektivität zwischen Ihrer lokalen und online-Umgebung eingerichtet haben. Dies ist eine geteilte Domänenkonfiguration bezeichnet. 
 
    Weitere Informationen finden Sie unter [hybridkonnektivität zwischen Skype für Business Server und Office 365 planen](plan-hybrid-connectivity.md) und [Konfigurieren von hybridkonnektivität zwischen Skype für Business Server und Office 365](configure-hybrid-connectivity.md).
 
-- Um Call Data Connector zu konfigurieren, müssen Sie Ihrem Office 365-Mandanten authentifizieren und stellen Sie sicher, dass Sie die folgenden Rollen aktiviert haben:
+-  Authentifizieren sich bei Ihrem Office 365-Mandanten, und stellen Sie sicher, dass Sie die folgenden Rollen aktiviert haben:
 
    - Skype für Business Server-Administrator 
    - Office 365 globaler Administrator 
 
 - Wenn Sie dies nicht bereits geschehen ist, aktivieren Sie rufen Qualitätsdashboard gemäß [einschalten, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](/microsoftteams/turning-on-and-using-call-quality-dashboard).
+ 
+- Aktivieren Sie den Front-End-Pool für Überwachung, mit lokalen LCSCdr und QoEMetrics-Datenbanken. Ohne diese keine Call Data Connector metrische Daten entwickelt. 
+ 
+> [!IMPORTANT]
+> Anruf Data Connector ist nicht funktionsfähig, wenn die Überwachung auf dem Front-End-Pool nicht aktiviert ist.
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Vergleich zwischen lokalen und online aufrufen Quality Dashboard (CQD)-Berichte
 
@@ -84,22 +89,4 @@ Die folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype für 
 | Anpassen von Berichten set <br> (Fügen Sie hinzu, löschen Sie, ändern Sie Berichte) | Ja | Ja |
 | Videobasierte Bildschirmfreigabe-Metriken | Ja | Nein |
 | Daten-APIs für den programmgesteuerten Zugriff <br> zu CQD | Nein | Ja |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+||||

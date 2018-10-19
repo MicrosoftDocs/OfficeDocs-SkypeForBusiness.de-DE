@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten.
-ms.openlocfilehash: d5ba9368e65afbb6228ebaff0296a57e902cc51c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b2c75a9207a0cff73f247809c2e70a7fe17d50e5
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014757"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678434"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
 
@@ -95,9 +95,9 @@ Unter [Beschränkungen für Skype for Business Online](https://technet.microsoft
 
 Wir haben ein neues Feature, mit das Sie die [Admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), kann zum Senden und Aktualisieren von Audiokonferenzen Informationen und PIN in e-Mail hinzugefügt. Erfahren Sie mehr über angezeigt wird, sowie zum deaktivieren, [Aktivieren oder Deaktivieren der sendenden-e-Mails Wenn Audiokonferenzen Einstellungen in Microsoft-Teams, ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) oder [Aktivieren oder deaktivieren Sie e-Mails senden, wenn Audiokonferenzen Einstellungen in Skype für Unternehmen ändern Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
-## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server-2015"></a>Kann Audiokonferenzen von den Benutzern werden verwendet, die Teil einer lokalen Bereitstellung von Skype für Business Server 2015 sind?
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Kann Audiokonferenzen von den Benutzern werden verwendet, die Teil einer lokalen Bereitstellung von Skype für Business Server sind?
 
-Das ist noch nicht möglich. Sie können jedoch weiterhin Audiokonferenz verwenden, zusammen mit einem PSTN-Gateway für Ihre Benutzer am Standort in Skype für Business Server 2015 verfügbar ist. 
+Das ist noch nicht möglich. Sie können jedoch weiterhin Audiokonferenz verwenden, zusammen mit einem PSTN-Gateway für Ihre Benutzer am Standort in Skype für Business Server verfügbar ist. 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Kann ein Benutzer eine persönliche Konferenz-ID erhalten?
 

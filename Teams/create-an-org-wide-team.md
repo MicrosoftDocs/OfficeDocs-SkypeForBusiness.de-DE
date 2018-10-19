@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1882e18bdf746acc6b6991e4c574ca28cb3176a6
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: 3ef4426e2dca1a6ce20657e3e7480b9ee118bfa1
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502326"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678362"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen Sie ein Team Org geltende in Microsoft-Teams
 
@@ -28,7 +28,7 @@ Mit Org geltende-Teams können globale Administratoren auf einfache Weise öffen
 ![Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende] (media/create-org-wide-team.png "Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende")
 
 > [!NOTE]
-> Wenn die Option **gesamte Org** nicht angezeigt werden, wenn Sie ein Team erstellen und Sie ein globaler Administrator sind, das Feature möglicherweise noch Rollout oder Ihrer Organisation möglicherweise mehr als die aktuelle maximale Größe von 1000 Elementen. Wir suchen, um diese in Zukunft erhöhen.
+> Wenn die Option **gesamte Org** nicht angezeigt werden, wenn Sie ein Team erstellen und Sie ein globaler Administrator sind, das Feature möglicherweise noch Rollout oder Ihrer Organisation möglicherweise mehr als die aktuelle maximale Dateigröße von 1.000 Elemente. Wir suchen, um diese in Zukunft erhöhen.
 
 Wenn ein Team Org geltende erstellt wird, werden alle globale Administratoren als Team Besitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Benutzer, die für Teams, Gastbenutzer und die meisten Chatrooms deaktiviert sind, werden nicht an das Team hinzugefügt. Verzeichnis Ihrer Organisation wird aktualisiert, sodass neue aktive Benutzer enthalten oder wenn der Benutzer ist nicht mehr in Ihrem Unternehmen arbeiten und die Lizenz Teams deaktiviert ist, automatisch Änderungen werden synchronisiert, und die Benutzer hinzugefügt oder aus dem Team entfernt werden. Teammitglieder können kein gesamte Org Team lassen. Sie können als Teambesitzer manuell hinzufügen oder Entfernen von Benutzern bei Bedarf.
 
@@ -37,9 +37,13 @@ Wenn ein Team Org geltende erstellt wird, werden alle globale Administratoren al
 
 ## <a name="best-practices"></a>Bewährte Methoden
 Wenn die für die optimale Nutzung Ihrer Org geltende Team erhalten möchten, empfehlen wir Team Besitzer die folgenden Schritte aus.
+
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Zulassen Sie nur Team Besitzer für die Bereitstellung auf den allgemeinen Kanal
 Rauschen Sie DDE-Kanal Ausführungsstapel nur Team aus, dem Besitzer der allgemeinen Kanal veröffentlichen. Besuchen Sie das Team aus, und klicken Sie auf **Weitere Optionen (...)**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Member Berechtigungen** > Wählen Sie **nur die Eigentümer Nachrichten senden können**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Deaktivieren Sie @team und @ erwähnungen [Teamname]
  Reduzieren Sie um zu verhindern, dass die gesamte Organisation überladen @mentions. Besuchen Sie das Team aus, und klicken Sie auf **Weitere Optionen (...)**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **@mentions** > deaktivieren **Member anzeigen die Option zum @team oder @[Teamname]**. 
 ### <a name="automatically-favorite-important-channels"></a>Automatisch bevorzugte wichtige Kanäle
  Bevorzugte wichtige Kanäle sicherzustellen, dass jede Person in Ihrer Organisation bestimmte Unterhaltungen abwickelt. Finden Sie weitere Informationen finden Sie unter [Automatische Favoriten Kanäle für das gesamte Team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+
+### <a name="remove-accounts-that-might-not-belong"></a>Entfernen von Konten, die möglicherweise nicht angehören.
+Obwohl die Mitglieder einer Organisation geltende Team, als Teambesitzer, lassen Sie können nicht können Sie das Teammitglied durch Entfernen von Konten, die nicht gehören verwalten. Stellen Sie sicher, dass Sie Teams verwenden, um Benutzer von Ihrem Team Org geltende zu entfernen.  Wenn Sie eine andere Möglichkeit zum Entfernen eines Benutzers, wie beispielsweise Microsoft 365 Administrationscenter oder aus einer Gruppe in Outlook verwenden, kann der Benutzer zurück an das Team der gesamte Org hinzugefügt. 

@@ -19,15 +19,15 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen verwenden können.
-ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370611"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678156"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deaktivieren von gebührenfreie Nummern für bestimmte Skype für Business Online-Benutzern
-
+ 
 > [!Note]
 > Informationen zu deaktivieren Tool frei Zahlen für Teams Benutzer finden Sie unter [gebührenfreie Nummern bestimmte Teams Benutzer deaktivieren](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
@@ -48,14 +48,15 @@ Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer 
 
+Von der **Microsoft-Teams & Skype für Business Admin Center**:
 
-1. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer. 
+1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. In the Action pane, click **Edit**. 
+2. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**.
 
-3. Deaktivieren **von gebührenfreie Nummern zum Teilnehmen an Besprechungen dieses Benutzers zulassen**. 
- 
-4. Klicken Sie auf **Speichern**. 
+3. **Gebührenfreie Nummern in Besprechungsanfragen von diesem Benutzer umfassen** auf **deaktiviert**festgelegt. 
+
+4. Klicken Sie auf **zu speichern.** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
