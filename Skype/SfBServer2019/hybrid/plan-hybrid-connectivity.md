@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Planungsüberlegungen für die Implementierung von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online oder Teams.
-ms.openlocfilehash: 90ea0b5ee73cba718c81e5614b02b5332e223acf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "25030679"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696233"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Plan hybridkonnektivität zwischen Skype für Business Server und Office 365
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 
 ## <a name="overview"></a>Übersicht
 
@@ -61,7 +59,7 @@ Die lokale Active Directory-Instanz ist autoritativ. Daher müssen Sie mit den f
 
 - Wenn Ihre Benutzer zusätzliche online-Funktionen wie Skype Besprechung übertragen oder Cloud-Voicemail nutzen möchten, müssen Sie diese die entsprechende in Office 365-Lizenz zuweisen.
 
-- Wenn Sie den Skype for Business Online-Benutzern eine Lizenz zugewiesen haben, müssen Sie sie lokal für Skype for Business oder für Enterprise-VoIP aktivieren. Weitere Informationen finden Sie unter [Aktivieren der Benutzer für Enterprise-VoIP lokal](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Weitere Informationen zu Anforderungen für Hybrid-VoIP finden Sie unter [Planen von Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype für Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+- Wenn Sie den Skype for Business Online-Benutzern eine Lizenz zugewiesen haben, müssen Sie sie lokal für Skype for Business oder für Enterprise-VoIP aktivieren. Weitere Informationen finden Sie unter [Aktivieren der Benutzer für Enterprise-VoIP lokal](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Weitere Informationen zu den Anforderungen für Hybridtelefonie finden Sie unter [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 
 ## <a name="infrastructure-requirements"></a>Infrastrukturanforderungen
@@ -76,11 +74,11 @@ Um hybridkonnektivität zwischen Ihrer lokalen Umgebung und Office 365 Kommunika
     > [!NOTE]
     > Sie können nur einen einzelnen Mandanten für eine Hybridkonfiguration mit Ihrer lokalen Bereitstellung verwenden.
 
-- Skype für Business Server-Verwaltungstools. (Wenn Sie Lync Server 2013 oder Lync Server 2010 verwenden, können Sie die Verwaltungstools von Lync Server 2013 verwenden. Weitere Informationen finden Sie unter [Lync Server 2013 Hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
+- Skype für Business Server-Verwaltungstools. (Wenn Sie Lync Server 2013 oder Lync Server 2010 verwenden, können Sie die Verwaltungstools von Lync Server 2013 verwenden. Weitere Informationen finden Sie unter [Lync Server 2013-Hybridbereitstellung](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
 - Azure Active Directory Connect zum Synchronisieren Ihres lokalen Verzeichnisses mit Office 365. Weitere Informationen finden Sie unter [Azure AD-Connect: Konten und Berechtigungen](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-    Wenn Sie einmaliges Anmelden mit Office 365 unterstützen möchten, damit Benutzer die gleichen Anmeldeinformationen wie für die lokale Bereitstellung verwenden können, können Sie die Kennwortsynchronisierungsfunktionen von Azure Active Directory (AAD) Connect nutzen. Sie können auch die Active Directory Federation Services (AD FS) für das einmalige Anmelden mit Office 365 verwenden.
+    Wenn Sie einmaliges Anmelden mit Office 365 unterstützen möchten, damit Benutzer die gleichen Anmeldeinformationen wie für die lokale Bereitstellung verwenden können, können Sie die Kennwortsynchronisierungsfunktionen von Azure Active Directory (AAD) Connect nutzen. Sie können auch die Active Directory Federation Services (AD FS) für das einmalige Anmelden mit Office 365 verwenden. 
 
 Um hybridkonnektivität zu konfigurieren, müssen Sie auch Partnerverbund zwischen Ihrer lokalen und online-Umgebung einrichten und Konfigurieren von Ihrer Skype für Business Online Mandanten für einen freigegebenen Adressraum Session Initiation Protocol (SIP). Weitere Informationen über die erforderlichen Schritte zum Konfigurieren von hybridkonnektivität finden Sie unter [Configure hybridkonnektivität](configure-hybrid-connectivity.md).
 
@@ -182,7 +180,7 @@ Um die für hybride Bereitstellung mit Skype für Business Online zu konfigurier
 ## <a name="federation-allowedblocked-lists-requirements"></a>Anforderungen in Bezug auf die Listen der zugelassenen und blockierten Domänen für den Partnerverbund
 <a name="BKMK_Federation"> </a>
 
-Die Liste der zugelassenen Domänen enthält Domänen, für die ein Partner-Edge-FQDN (vollqualifizierter Domänenname) konfiguriert ist. Diese werden mitunter als zulässige Partnerserver oder direkte Verbundpartner bezeichnet. Sie sollten mit dem Unterschied zwischen einem öffentlichen Partnerverbund und einem geschlossenen Partnerverbund vertraut sein, der in lokalen Bereitstellungen als Partnerermittlung bzw. Liste der zulässigen Partnerdomänen bezeichnet wird.
+Die Liste der zulässigen Domänen umfasst, Domänen, die einen Partner Edge vollqualifizierten Domänennamen (FQDN) konfiguriert haben. Diese werden manchmal als zulässige Partnerserver oder direkte Federation Partners beschrieben. Sie sollten mit den Unterschied zwischen offenen Verbund und geschlossen Verbund genannt Partner Suche und die Liste der zugelassenen Partner-Domäne, die jeweils in lokalen Bereitstellungen vertraut sein.
 
 Die folgenden Anforderungen müssen erfüllt sein, um eine Hybridbereitstellung erfolgreich zu konfigurieren:
 
@@ -215,7 +213,7 @@ Die Computer in Ihrem Netzwerk müssen Standard-Internet-DNS-Lookups ausführen 
 
 Je nach den Speicherort des Microsoft Online Services-Rechenzentrum, müssen Sie auch Ihre Netzwerkgeräte Firewall, um Verbindungen basierend auf Platzhalter-Domänennamen akzeptieren konfigurieren (beispielsweise alle Datenverkehr von \*. outlook.com). Wenn der Firewalls der Organisation keine Platzhalter Namen Konfigurationen unterstützen, müssen Sie manuell ermitteln der IP-Adressbereiche, die Sie zulassen möchten und die angegebenen Ports.
 
-Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://go.microsoft.com/fwlink/p/?LinkId=252942).
+Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche von Office 365](https://go.microsoft.com/fwlink/p/?LinkId=252942).
 
 ## <a name="port-and-protocol-requirements"></a>Port- und Protokollanforderungen
 <a name="BKMK_Ports"> </a>
@@ -232,7 +230,7 @@ Sie müssen nicht nur die Portanforderungen für die interne Kommunikation berü
 |STUN  <br/> |UDP  <br/> |A/V-Edge  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Geöffnet für Audio- und Videositzungen  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V-Edge  <br/> |3478  <br/> |3478  <br/> |Geöffnet für Audio- und Videositzungen  <br/> |
 
-Weitere Informationen zu Ports und Planen von Edge-Server-Firewall finden Sie unter [umgebungsanforderungen in Skype für Business Server Edge-Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Siehe auch [Ports und Protokolle-Anforderungen für Server](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) und das [Protokoll Arbeitslasten Diagramm](https://go.microsoft.com/fwlink/p/?LinkId=550989).
+Weitere Informationen zu Ports und Planen von Edge-Server-Firewall finden Sie unter [umgebungsanforderungen in Skype für Business Server Edge-Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Sehen Sie sich auch [Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) und das [Diagramm für Protokollarbeitsauslastungen](https://go.microsoft.com/fwlink/p/?LinkId=550989) an.
 
 ## <a name="user-accounts-and-data"></a>Benutzerkonten und -daten
 <a name="BKMK_UserAccounts"> </a>

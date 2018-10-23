@@ -10,20 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Eine Erläuterung zu den verfügbaren hybridlösungen in Skype für Business Server 2019.
-ms.openlocfilehash: 1d83e9f21d39bc848b854c0256e122c76b91ecf3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2909f524d1b9984fe01700a89d1bf6dc1b70f100
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030392"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696226"
 ---
 HINWEIS: DIE FOLGENDEN WERDEN AUS 2015 KOPIERT UND WIRD AUSGEFÜHRT. Zusätzliche laufender Platzhalterinhalt finden Sie [unter](#placeholder-topic-for-hybrid-solutions).
 
 
 # <a name="skype-for-business-hybrid-solutions"></a>Skype für hybridlösungen Business
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
- 
 Hier finden Sie Informationen zur Planung einer Skype für Business hybridbereitstellung. 
   
 In diesem Thema werden verschiedene Hybridkonfigurationen vorgestellt, die Ihnen bei der Ermittlung der für Ihr Unternehmen am besten geeigneten Konfiguration helfen sollen. Anschließend können Sie mehr zu der für Sie interessanten Konfiguration lesen, indem Sie den Links in diesem Thema folgen. Das Thema enthält die folgenden Abschnitte:
@@ -142,7 +140,7 @@ Integrieren von Skype für Business Server mit Exchange Online und SharePoint On
     
 - Verwenden von Skype für Unternehmen, Exchange und SharePoint integriert Features, einschließlich Unified Messaging (UM) in Office 365.
     
-Weitere Informationen finden Sie unter [Planen der Integration von Skype für Unternehmen und Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Weitere Informationen finden Sie unter [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ### <a name="exchange-server-with-skype-for-business-online"></a>Exchange Server mit Skype for Business Online
 
@@ -156,7 +154,7 @@ Integration von Exchange Server mit Skype für Business Online bietet die folgen
     
 - Verwenden Sie Skype für Business Online für Anwesenheits-, SOFORTNACHRICHTEN- und Funktionen. 
     
-Weitere Informationen finden Sie unter [Planen der Integration von Skype für Unternehmen und Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Weitere Informationen finden Sie unter [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ## <a name="tasks-for-planning-and-configuring-a-hybrid-environment"></a>Aufgaben zum Planen und Konfigurieren einer Hybridumgebung
 <a name="BKMK_Tasks"> </a>
@@ -208,11 +206,11 @@ Sie müssen auch ausführen führen Sie IT-Spezialisten Aufgaben zum Implementie
 
 Weitere Informationen finden Sie in den folgenden Ressourcen:
   
-- [Microsoft cloud-Ressourcen für IT-Architektur](https://aka.ms/clouditarch)
+- [Ressourcen zur Cloud-IT-Architektur von Microsoft](https://aka.ms/clouditarch)
     
-- [Microsoft cloudidentität für Enterprise-konstruiert](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Microsoft-Cloud-Identität für Enterprise-Architekten](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
-- [Bereiten Sie Ihre Organisation für Office 365 Enterprise](https://aka.ms/O365EntPrep)
+- [Vorbereiten Ihrer Organisation für Office 365 Enterprise](https://aka.ms/O365EntPrep)
     
 - [Planen der hybridkonnektivität zwischen Skype für Business Server und Skype Business Online oder Teams](plan-hybrid-connectivity.md)
     
@@ -220,13 +218,13 @@ Weitere Informationen finden Sie in den folgenden Ressourcen:
     
 - [Telefonsystem in Office 365 (engl.)](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Plan zur Integration von Skype for Business mit Exchange Server](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 Eine Posterversion dieses Themas können Sie hier herunterladen:
   
-- [Skype für Business-Architektur-Modelle (Pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
+- [Architekturmodelle für Skype for Business (PDF-Version)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype für Business-Architektur-Modelle (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
+- [Architekturmodelle für Skype for Business (Visio-Version)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 
 ### <a name="placeholder-topic-for-hybrid-solutions"></a>PLATZHALTERTHEMA FÜR HYBRIDLÖSUNGEN 
@@ -260,7 +258,7 @@ Berücksichtigen Sie im Hinblick auf die Unterstützung von Koexistenz mit Excha
     
   - Server Seite Unterhaltungen, Archivierung, Unified Contact Store, HighRes Foto erfordert Exchange 2013 oder höher, und Sie müssen die OAuth-Server zu-Server-Kommunikation aktivieren. Weitere Informationen finden Sie unter [Manage Server-zu-Server-Authentifizierung (OAuth) und partneranwendungen in Skype für Business Server 2015](https://technet.microsoft.com/en-us/library/jj204817.aspx).
     
-Ausführliche Informationen zum Koexistenz mit Exchange Server finden Sie unter einschließlich Unterstützung Kriterien und Einschränkungen in verschiedenen Kombinationen von lokalen und online, [Feature unterstützen](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Planen der Integration von Skype für Unternehmen und Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Details zur Koexistenz mit Exchange Server, einschließlich Unterstützungskriterien und Einschränkungen in verschiedenen Kombinationen aus lokaler Bereitstellung und Onlinebereitstellung, finden Sie unter [Unterstützung von Features](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
 
 
 

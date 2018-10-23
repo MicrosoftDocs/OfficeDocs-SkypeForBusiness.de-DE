@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Zusammenfassung: Verwalten der zweistufigen Authentifizierung in Skype für Business Server.'
-ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002857"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692740"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Verwalten der zweistufigen Authentifizierung in Skype für Business Server
  
@@ -100,7 +100,7 @@ Die Einstellung der Registrierung **SavePassword** sollte deaktiviert werden, we
 
 AD FS 2.0 stellt eine Funktion bereit, die als Tokenwiederholungserkennung bezeichnet wird und mit welcher mehrere Tokenanforderungen, in denen dasselbe Token verwendet wird, erkannt und verworfen werden können. Ist diese Funktion aktiviert, schützt die Tokenwiederholungserkennung die Integrität von Authentifizierungsanforderungen sowohl im passiven WS-Federation-Profil als auch im SAML WebSSO-Profil, indem sichergestellt wird, dass ein Token nie mehrmals verwendet wird.
   
-Diese Funktion sollte in Umgebungen aktiviert sein, in denen Sicherheit einen besonders hohen Stellenwert hat, beispielsweise bei der Nutzung von Kiosken. Weitere Informationen zu token wiedergabeschutzes finden Sie unter [Bewährte Methoden für die Secure Planung und Bereitstellung von AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+Diese Funktion sollte in Umgebungen aktiviert sein, in denen Sicherheit einen besonders hohen Stellenwert hat, beispielsweise bei der Nutzung von Kiosken. Weitere Informationen zur Tokenwiederholungserkennung (token replay detection) finden Sie unter [Best Practices for Secure Planning and Deployment of AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
   
 ## <a name="external-user-access"></a>Zugriff von externen Benutzern
 
@@ -108,5 +108,5 @@ Konfigurieren eines AD FS-Proxy oder Reverseproxy zur Unterstützung der Skype f
   
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server](configure.md)
+[Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server](configure-two-factor.md)
   

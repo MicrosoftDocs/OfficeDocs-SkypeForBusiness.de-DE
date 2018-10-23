@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung von Skype für Business Online Telemetrie-Tools zum Überwachen von einer lokale Implementierung in einer Hybrid-Szenario.
-ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678133"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696212"
 ---
 # <a name="plan-call-data-connector"></a>Planen der Anruf Data Connector
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## <a name="overview"></a>Übersicht
 In diesem Thema werden die Vorteile, Planungsaspekte, und Anforderungen für die Implementierung von Skype für Business Server rufen Sie Daten Connector. Weitere Informationen zum Konfigurieren von Data Connector aufrufen finden Sie unter [Call Data Connector konfigurieren](configure-call-data-connector.md).

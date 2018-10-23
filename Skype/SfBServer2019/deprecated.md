@@ -10,16 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features wurden aus Skype für Business Server 2019 entfernt.'
-ms.openlocfilehash: cf91b468fe1482c7348634553b6e9b196b864b2c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 926f5539a31dbcb37ff4ccb5494ccaa7be517d30
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028761"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696163"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Was ist aus Skype für Business Server 2019 veraltet 
-
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 Informationen Sie zu den Features und Funktionen, die in Skype für Business Server 2019 veraltet sind. Informationen zu neuen Features in Skype für Business Server 2019 finden Sie unter [Was ist in Skype für Business Server 2019](whats-new.md).
 
@@ -71,8 +69,8 @@ Die folgenden Tools werden mit Skype für Business Server 2019 nicht unterstütz
 
 - Rufen Sie die Qualität Methodik Dashboard
 - Microsoft-Aufruf Qualität Methodik Scorecard, v1. 5
-- Skype for Business Server 2015 – Planungstool
-- Skype für Business Server 2015 Stress and Performance-Tool
+- Skype for Business Server 2015 Planning Tool
+- Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>Siehe auch
 

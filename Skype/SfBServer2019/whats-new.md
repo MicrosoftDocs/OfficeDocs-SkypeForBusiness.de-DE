@@ -10,18 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features sind neu in Skype für Business Server 2019.'
-ms.openlocfilehash: 7b4e07ab6fbb7bfddcd056c9d6c4cd9d836d9a8e
-ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
+ms.openlocfilehash: 411ca0705fa06d0b5720656cec2fcb3cbda50eeb
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "25027326"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696156"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Was ist in Skype für Business Server 2019 
 
 **Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zu neuen Features in Skype für Business Server 2019 erhalten.  
-
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 Die folgenden: neuen Features in Skype für Business Server 2019
   

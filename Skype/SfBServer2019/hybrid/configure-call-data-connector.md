@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Informationen zum Konfigurieren von Anrufen Daten Connector, der für lokale Skype für Business Online-Tools mit angezeigt werden, um Business Telemetrie von Skype werden können.
-ms.openlocfilehash: 5379b13d9b9962154a8b525109218dcf330336e4
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678149"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696177"
 ---
 # <a name="configure-call-data-connector"></a>Konfigurieren von Anruf Daten Connector
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 In diesem Artikel wird beschrieben, wie Call Data Connector – ein einzelnes Toolset konfigurieren, die dem Skype für Server aufrufen Qualität Geschäftsdaten verwenden Skype für Business Online aufrufen Quality Dashboard (CQD) und Aufrufen Analytics (CA) Tools angezeigt wird. 
 

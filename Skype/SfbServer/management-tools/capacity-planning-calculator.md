@@ -1,5 +1,5 @@
 ---
-title: 'Skype for Business Server 2015: Rechner zur Kapazitätsplanung'
+title: Skype für Rechner Business Server-Kapazitätsplanung
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/1/2018
@@ -10,24 +10,29 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Zusammenfassung: Wie Sie das Kapazitätsrechnertool verwenden.'
-ms.openlocfilehash: 6ce37865035b22a91841e98c1f3a75d6da0cb8d2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: bb17bc7b024900627318dd64b41249c21ff8488b
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374910"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692768"
 ---
-# <a name="skype-for-business-server-2015-capacity-planning-calculator"></a>Skype for Business Server 2015: Rechner zur Kapazitätsplanung
+# <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype für Rechner Business Server-Kapazitätsplanung
  
 **Zusammenfassung:** Wie Sie das Kapazitätsrechnertool verwenden.
+
+> [!NOTE]
+> Dieser Artikel verweist auf Skype für Business Server 2015 Downloads, aber dies gilt für:
+> - Skype für Business Server 2019.
+> - Skype für Business Server 2015.
   
-[Skype für Business Server 2015 Kapazitätsrechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196) erweitert die [Skype für Business 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) und die Dokumentation an [Ihre Skype für Business Server 2015 Bereitstellung planen](https://technet.microsoft.com/en-us/library/dn951427). Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
+[Skype für Business Server Kapazitätsrechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196) erweitert die [Skype für Business Planungstool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) und in der Dokumentation zur [Ihrer Skype für Business Server-Bereitstellung planen](https://technet.microsoft.com/en-us/library/dn951427). Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
   
-Die Skype für Business Server 2015 Kapazitätsrechner hilft bestimmen Sie die Anforderungen an die Server basierend auf der Anzahl von Benutzern und der Kommunikationstools, die Ihrer Organisation verwendet werden. Nachdem Sie Ihr Benutzerprofil und die Funktionen festgelegt haben, die Sie Ihren Nutzern zur Verfügung stellen möchten, verwenden Sie den Rechner zur Bestimmung der Anzahl von Servern, des Speicherumfangs und der Bandbreite, die erforderlich sein wird. Diese Version des Rechners bietet keine Anleitungen in Hinblick auf Datenträger-E/A-Anforderungen.
+Die Skype für Business Server Kapazitätsrechner hilft bestimmen Sie die Anforderungen an die Server basierend auf der Anzahl von Benutzern und der Kommunikationstools, die Ihrer Organisation verwendet werden. Nachdem Sie Ihr Benutzerprofil und die Funktionen festgelegt haben, die Sie Ihren Nutzern zur Verfügung stellen möchten, verwenden Sie den Rechner zur Bestimmung der Anzahl von Servern, des Speicherumfangs und der Bandbreite, die erforderlich sein wird. Diese Version des Rechners bietet keine Anleitungen in Hinblick auf Datenträger-E/A-Anforderungen.
   
 Den besten Nutzen erzielen Sie mit dem Rechner, wenn Sie genaue und ausführliche Informationen zu Ihrem speziellen Benutzerprofil haben. Beispielsweise können der Prozentsatz von VoIP-aktivierten Benutzern, der Durchschnitt der Anrufe pro Benutzer und Stunde, die Anrufdauer und der Prozentsatz von gleichzeitigen Benutzern in Konferenzen einen großen Unterschied hinsichtlich der Serveranforderungen ausmachen. Die Genauigkeit der Empfehlungen, die vom Rechner erstellt werden, hängt von der Genauigkeit der Informationen ab, die Sie bereitgestellt haben.
   
-Nachdem Sie das Planungstool und der Planung Kapazitätsrechner verwendet haben, sollten Sie simulieren Ihrer vorgeschlagenen und geplanten laden, um sicherzustellen, dass Skype für Business Server 2015 angemessen bereitgestellt wird. Verwenden Sie zur Ausführung Belastungstests bei simulierten Auslastung der [Skype für Business Server 2015 Stress and Performance-Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) bei [Skype für Business Server 2015 Stress and Performance-Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx)dokumentiert.
+Nachdem Sie das Planungstool und der Planung Kapazitätsrechner verwendet haben, sollten Sie simulieren Ihrer vorgeschlagenen und geplanten laden, um sicherzustellen, dass ausreichend Skype für Business Server bereitgestellt wird. Verwenden Sie zur Ausführung Belastungstests bei simulierten Auslastung der [Skype für Business Server Stress and Performance-Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) bei [Skype für Business Server Stress and Performance-Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx)dokumentiert.
   
 ## <a name="using-the-capacity-calculator"></a>Arbeiten mit dem Kapazitätsrechner
 
@@ -85,7 +90,7 @@ Wenn Sie alle erforderliche Informationen eingegeben haben, schätzt die kapazit
     
 In den grünen Zellen werden Empfehlungen für das Nutzungsmodell angezeigt, das Sie eingegeben haben. 
   
-- **Gesamtzahl der Front-End-Server:** Die Anzahl von erforderlichen physischen Servern basiert auf speziell dafür vorgesehenen Servern, auf denen Skype for Business Server 2015 ausgeführt wird und die jeweils einen Dualprozessor mit sechs Kernen und 2.260 Megahertz aufweisen.
+- **Insgesamt Front-End-Server**: die Anzahl der physischen Servern erforderlich, basieren auf dedizierten Servern mit Skype für Business Server mit Dualprozessor, Hex-Core mit 2,260 Megazyklen.
     
     Es wird empfohlen, Hyperthreading zu aktivieren, denn damit lässt sich nachweislich die Leistung von Servern verbessern, die Audio/Video unterstützen.
     

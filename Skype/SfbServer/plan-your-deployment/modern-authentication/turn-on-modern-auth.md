@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren der Legacy-Authentifizierungsmethoden intern und extern in Ihr Netzwerk
+title: Planen von Authentifizierungsmethoden Legacy intern und extern in Ihr Netzwerk deaktivieren
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
@@ -11,14 +11,14 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: In diesem Artikel Gliederungen-Cmdlets, mit denen Administratoren mehr Kontrolle über Authentifizierungsmethoden erhalten verwendet innerhalb und außerhalb, eines Unternehmens. Administratoren können Authentifizierungsmethoden auf Aktivieren oder deaktivieren Sie intern oder extern mit ihrem Netzwerk.
-ms.openlocfilehash: f1af26c5cad98ee3416fa1bdd91d6fc8326eaf53
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371803"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692754"
 ---
-# <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Deaktivieren Sie Legacy-Authentifizierungsmethoden intern und extern in Ihr Netzwerk.
+# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planen der Legacy-Authentifizierungsmethoden intern und extern in Ihr Netzwerk zu deaktivieren.
 
 > [!NOTE]
 > Wenn Sie diesen Artikel lesen gerade, sollten Sie bereits kennen unterstützte modernen authentifizierungstopologien, ADAL, und zu modernen Authentifizierung Konfiguration, aber, falls dies nicht der Fall, hier sind die Artikel beginnen, müssen Sie: 

@@ -3,10 +3,10 @@ title: Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsof
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/10/2018
+ms.date: 10/23/2018
 ms.topic: article
 audience: Admin
-ms.reviewer: alchen
+ms.reviewer: annikae
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,20 +14,17 @@ description: Office 365-Benutzer, die nicht für Microsoft-Teams lizenziert sind
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6de25e5fe4bf844841c66f7bf797e0edb5f8844e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 891e87c69e6cd998a715ded901de15e6b7cd267e
+ms.sourcegitcommit: f9485c9b89d94da7aaed1fab94254c794b407164
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017913"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25697462"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots Teams kommerziellen Cloud-Testversion von Microsoft
 =======================================================
 
-Microsoft-Teams, ist ein hervorragendes collaborative Tool für Ihre Organisation. Sie können Personen und Teams zu besprechen und Veränderungen Ideen mithilfe der Vorteile von Office 365. Die Microsoft-Teams kommerziellen Cloud Studien bietet vorhandenen Office 365-Benutzer in Ihrer Organisation, die für Microsoft-Teams zum Initiieren einer 1 Jahr Testversion des Produkts nicht lizenziert sind. Administratoren haben die Möglichkeit zum ein-oder Ausschalten dieses Feature für Benutzer innerhalb ihrer Mandanten.
-
-> [!NOTE]
-> Dieses Angebot ist noch nicht öffentlich verfügbar, aber im nächsten Monat Rollout sein.
+Microsoft-Teams, ist ein hervorragendes collaborative Tool für Ihre Organisation. Sie können Personen und Teams zu besprechen und Veränderungen Ideen mithilfe der Vorteile von Office 365. Die Microsoft-Teams kommerziellen Cloud Studien bietet vorhandenen Office 365-Benutzer in Ihrer Organisation, die für Microsoft-Teams zum Initiieren einer 1 Jahr Testversion des Produkts nicht lizenziert sind. Administratoren haben die Möglichkeit zum ein-oder Ausschalten dieses Feature für Benutzer innerhalb ihrer Organisation.
 
 ## <a name="whats-in-the-offer"></a>Was ist in dem Angebot
 
@@ -43,20 +40,20 @@ Die Servicepläne in dieses Angebot enthalten sind:
 - Schlingern
 - Yammer Enterprise
 
-Das Angebot kann bis zu 500.000 Benutzer pro Mandant zugewiesen werden. Die Testlizenz wird 2 GB an Speicher SharePoint Online für jeden Testbenutzer zugewiesen.
+Das Angebot kann bis zu 500.000 Benutzer pro Organisation zugewiesen werden. Die Testlizenz wird 2 GB an Speicher SharePoint Online für jeden Testbenutzer zugewiesen.
 
 ## <a name="who-is-eligible"></a>Wer berechtigt ist
 
 Benutzer, die nicht mit eine Office 365-Lizenz verfügen, die Teams können das Angebot Teams kommerziellen Cloud-Testversion von Microsoft initiieren. Wenn ein Benutzer über Office 365 Business Premium (einschließlich Teams) verfügt, und die Teams Dienstplan deaktiviert ist, werden sie beispielsweise nicht für die Testversion berechtigt.
 
-Darüber hinaus Ihres Mandanten ist nicht für die Testversion If: 
+Außerdem ist Ihre Organisation nicht für die Testversion If: 
 - Sie sind ein Syndication Partner-Kunden
 - Sie sind Kunden Händlerkanäle Partner
 - Sie sind ein Kunde GCC, GOV oder EDU
 
-Darüber hinaus Wenn Ihres Mandanten nicht für die Microsoft-Teams kommerziellen Cloud Testangebot ist, werden Sie nicht die Option **dazu, Benutzern das Installieren Studien apps und Dienste aus** angezeigt.
+Darüber hinaus ist Ihre Organisation nicht für die Microsoft-Teams kommerziellen Cloud Testangebot, wird nicht die Option **dazu, Benutzern das Installieren Studien apps und Dienste aus** angezeigt.
 
-Auf der Ebene des Mandanten Teams als Dienst muss (in der Verwaltungskonsole des Teams) aktiviert werden soll. Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md). Darüber hinaus müssen Benutzer für apps und Testversionen (im Office 365 Administrationscenter) anmelden aktiviert werden. Weitere Informationen finden Sie unter [Verwalten der Testversion](#manage-the-trial) weiter unten in diesem Artikel.
+Auf Organisationsebene Teams als Dienst muss (in der Verwaltungskonsole des Teams) aktiviert werden soll. Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md). Darüber hinaus müssen Benutzer für apps und Testversionen (im Office 365 Administrationscenter) anmelden aktiviert werden. Weitere Informationen finden Sie unter [Verwalten der Testversion](#manage-the-trial) weiter unten in diesem Artikel.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Wie Benutzer für die Testversion anmelden
 
@@ -72,7 +69,7 @@ Die erste Person, die für die Testversion angemeldet ist der "Besitzer" des Abo
 
 ## <a name="manage-the-trial"></a>Verwalten der Testversion
 
-Administratoren können die Möglichkeit für Endbenutzer in trial apps und Dienste innerhalb ihrer Mandanten Anspruch zu deaktivieren. Derzeit die Testversion Teams nur Studien in dieser Kategorie ist, aber dies möglicherweise gelten für andere Programme ähnlich wie in der Zukunft. 
+Administratoren können die Möglichkeit für Endbenutzer in Anspruch Studien apps und Diensten innerhalb ihrer Organisation zu deaktivieren. Derzeit die Testversion Teams nur Studien in dieser Kategorie ist, aber dies möglicherweise gelten für andere Programme ähnlich wie in der Zukunft. 
 
 1\. Wechseln zu **Services & -add-ins**im [Office 365 Administrationscenter](https://portal.office.com/adminportal/home) > **Benutzer Apps und Diensten gehören**.
 
@@ -82,7 +79,7 @@ Administratoren können die Möglichkeit für Endbenutzer in trial apps und Dien
 
 ![Screenshot des Benutzers gehören Apps und Diensten Seite im Office 365 Administrationscenter.](media/iw-trial-enable-2.png)
 
-3\. Sie können Teams für den Mandanten deaktivieren durch das Aufrufen der Verwaltungsportals von Teams. Wenn diese Option deaktiviert ist, können nicht Benutzer beansprucht werden, dass die Teams Testversion anbieten.
+3\. Sie können Teams für Ihre Organisation deaktivieren durch das Aufrufen der Verwaltungsportals von Teams. Wenn diese Option deaktiviert ist, können nicht Benutzer beansprucht werden, dass die Teams Testversion anbieten.
 
 4\. Wenn Sie die Teams Dienstplan für einen einzelnen Benutzer, die eine Anspruch Lizenz besitzt deaktiviert haben, kann der Benutzer nicht berechtigt, eine Testlizenz beanspruchen.
 
