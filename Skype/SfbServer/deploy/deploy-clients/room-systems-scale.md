@@ -5,18 +5,19 @@ author: Turgayo
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
+ms.reviewer: Turgayo
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie dieses Thema zu erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2 auf umfangreiche Bereitstellungen.
-ms.openlocfilehash: c84517ba5ceb7eea582b379c8cabe5014dde43d5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372752"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699551"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Bereitstellen von Skype Raum Systemen v2 mithilfe von System Center Configuration Manager
 
@@ -680,7 +681,7 @@ Nachdem Sie die System Center Configuration Manager Task Sequences abgeschlossen
 
     5.  Wählen Sie die **Startkonfiguration**.
 
-    6.  Wählen Sie eine der folgenden Optionen aus:
+    6.  Führen Sie einen der folgenden Schritte aus:
 
         -   Wählen Sie **PXE-Start**, und ziehen Sie es an den Anfang der Liste. Alternativ können Sie führen Sie links auf den Netzwerkadapter, das Gerät sofort zu starten. Dies wird nicht die Startreihenfolge auswirken.
         -   Wählen Sie das USB-Laufwerk, das die Startmedien enthält.

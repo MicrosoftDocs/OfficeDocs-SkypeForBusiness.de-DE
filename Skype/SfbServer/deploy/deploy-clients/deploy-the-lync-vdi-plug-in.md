@@ -3,18 +3,19 @@ title: Bereitstellen des Lync VDI-Plug-in mit Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: krishra
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: In diesem Thema wird die Bereitstellungsverfahren für die Verwendung von Skype für Unternehmen beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop.
-ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 792e6ab2521be2eaf46bc3a43979173d878fcb63
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373344"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699693"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Bereitstellen des Lync VDI-Plug-in mit Skype für Business Server
  
@@ -121,4 +122,4 @@ Nachfolgend finden Sie mögliche Gründe für Fehler und Maßnahmen, mit denen S
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="tshoot_VDI"> </a>
 
-[Planen für Skype for Business in VDI-Umgebungen](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

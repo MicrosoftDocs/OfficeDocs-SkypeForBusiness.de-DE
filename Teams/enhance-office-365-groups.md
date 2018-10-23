@@ -12,24 +12,25 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c17a70d66c859025ed83820630ce33e1f2b10f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f5905ba16a6928b4347db9edb08e5db1c08f0cdb
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014805"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699267"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Erweitern von vorhandenen Office 365-Gruppen mit Microsoft Teams
 =======================================================
 
 Microsoft Teams-Benutzer können eine vorhandene Office 365-Gruppe mit Microsoft Teams-Funktionen erweitern. Eine öffentliche Office 365-Gruppe kann von Benutzern erweitert werden, wenn die Anzahl der Mitglieder kleiner oder gleich 2.500 ist.
 
-Benutzer sollten hierfür die Schritte zum Erstellen eines neuen Teams im Microsoft Teams-Client durchführen. Wählen Sie unten im Bildschirm **„Ja, Microsoft Teams-Funktionen hinzufügen“** und anschließend eine vorhandene Gruppe aus, die mit Microsoft Teams erweitert werden soll. Vorhandene Gruppenmitglieder werden automatisch als Mitglieder zum Team hinzugefügt.
-
-
+Zu diesem Zweck sollten Benutzer über den Ablauf des Erstellen eines neuen Teams vom Microsoft-Teams, Client wechseln. Wählen Sie **erstellen ein Team aus einer vorhandenen Office 365-Gruppe** am unteren Rand des Bildschirms aus, und wählen Sie dann die vorhandene Gruppe, die Sie mit Microsoft-Teams verbessern möchten. Vorhandene Gruppenmitglieder werden als Mitglieder des Teams automatisch hinzugefügt werden.
 
 > [!IMPORTANT]
-> Nur Besitzer einer Office 365-Gruppe verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Microsoft Teams. 
+> Nur Office 365-Gruppe Besitzer über die Berechtigung verfügen, um eine vorhandene Gruppe mit Microsoft-Teams verbessern, und dieser Gruppe muss kleiner als 2500 Benutzer enthalten. Teams, die bereits verbessert werden nicht in der Liste angezeigt.
+>
+>Die Option **Erstellen Sie ein Team aus einer vorhandenen Office 365-Gruppe** ist nicht verfügbar, es sei denn, diese Bedingungen erfüllt sind.
+
 
 Benutzer können auch eine Verteilerliste in ein Team einladen, und die Mitglieder dieser Verteilerliste werden zum Team hinzugefügt. Dies ist eine einmalige Synchronisierung, und spätere Änderungen an der Gruppenmitgliedschaft in der Verteilerliste werden in Teams nicht übernommen. 
 

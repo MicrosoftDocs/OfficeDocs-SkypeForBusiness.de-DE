@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Lesen Sie dieses Thema, um Informationen über die Bereitstellung von Skype Raum System in einer Umgebung, in denen mehrere Versionen von Skype Business Server und Lync Server.
-ms.openlocfilehash: 24015d85ef82b3a175564f92504d7c0ca46e9d54
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982748"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699721"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Überlegungen zur Skype Room System-Migration
  
@@ -22,7 +23,7 @@ Lesen Sie dieses Thema, um Informationen über die Bereitstellung von Skype Raum
   
 ## <a name="migration-considerations"></a>Überlegungen zur Migration
 
-Dieser Abschnitt enthält Hinweise, wenn Sie Skype Raum System in einer Umgebung mit mehreren Pools bereitstellen, die verschiedene Versionen von Skype für Business Server, Lync Server oder Office Communications Server 2007 R2 enthält. 
+In diesem Abschnitt erfahren Sie, wenn Sie Skype Raum System in einer Umgebung mit mehreren Pools bereitstellen, die verschiedene Versionen von Skype für Business Server oder Lync Server enthält. 
   
 Die Benutzerreplikationskomponente (User Replicator; UR) in Lync Server erhält Benutzerobjekte aus Active Directory und legt sie in der Back-End-SQL-Serverdatenbank in Lync Server ab. Nur der BENUTZERREPLIKATIONSDIENST in Lync Server 2013 kennt Skype Raum Systemobjekte. Die UR in früheren Versionen von Lync Server und Office Communications Server erkennt nicht die Active Directory-Attribute zur Bezeichnung von LRS-Objekten, und nimmt sie dementsprechend auch nicht wahr. 
   

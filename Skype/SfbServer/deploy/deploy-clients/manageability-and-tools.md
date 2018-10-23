@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lesen Sie dieses Thema und erfahren Sie mehr über Verwaltungstools für Skype Room System.
-ms.openlocfilehash: 8e509059cc2fdffc35bba0d43a84c0699aa536d5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977458"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699623"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Room System – Verbesserte Verwaltung und Tools
  
@@ -50,7 +51,7 @@ Skype-Chatroom-System kann über die System Center Operations Manager (SCOM) dur
   - Skype für Business Health Analysetool (Excel)    
   - Skype für Business Connectivity Analyzer, 32-Bit oder 64-Bit
     
-- Überprüfen Sie [nützliche neue Problembehandlung und Analysetools für Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Vergewissern Sie sich, Sie haben einen Skype für Business-Pool und einen Office Web Apps-Server und ein PowerPoint-Deck mithilfe der Skype für Business-Client freigeben können.
+- Lesen Sie das Thema [Useful new troubleshooting and analysis tools for Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/) (Praktische neue Analysetools zur Fehlerbehebung für Office 365). Vergewissern Sie sich, Sie haben einen Skype für Business-Pool und einen Office Web Apps-Server und ein PowerPoint-Deck mithilfe der Skype für Business-Client freigeben können.
     
 - Wenn Besprechungsraum bereits ein Ressourcenpostfach verfügt, aktivieren Sie es für Skype für Unternehmen.
     

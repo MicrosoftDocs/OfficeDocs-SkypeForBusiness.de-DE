@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie diesen Artikel, erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2.
-ms.openlocfilehash: 2aac9e0701372fd6f0fdfd9035dca21fbaef1c9f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890957"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699630"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -118,7 +119,7 @@ Planen der Konfiguration und Bereitstellung umfasst die folgenden wichtige Berei
 -   Gerät für die Softwareinstallation
 -   Gerätebereitstellung
 -   Skype-Chatroom-Systemen v2 Anwendung und peripherer Gerätekonfiguration
--   Testen
+-    Tests
 -   Ressourcenmanagement
 
 ### <a name="account-provisioning"></a>Bereitstellen von Konten 
@@ -193,7 +194,7 @@ Weitere Informationen zur Verwendung von XML-Konfigurationsdatei finden Sie unte
 | ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie manuell konfigurieren Sie jedes Skype Raum Systemen v2 System oder eine zentrale XML-Datei (eine pro Skype Raum Systemen v2 Gerät) verwenden.</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Definieren Sie Ihren Ansatz für die Remoteverwaltung.</li></ul>| 
 
-### <a name="testing"></a>Testen
+### <a name="testing"></a> Tests
 
 Nachdem das Skype Raum Systemen v2 System bereitgestellt wurde, sollten Sie sie testen. Überprüfen Sie, dass die Funktionen in [Skype Raum Systemen v2 Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) aufgeführten auf dem Gerät bereitgestellt werden. Es wird dringend empfohlen, dass das Bereitstellungsteam stellen Sie sicher, dass die Skype Raum Systemen v2 Microsoft Operations Management Suite Protokollierung ist (falls verwendet). Es ist außerdem wichtig, dass Sie eine Reihe von Test-Aufrufe und Besprechungen auf Anrufqualität prüfen vornehmen. Weitere Informationen finden Sie unter diese [Prüfliste für die Bereitstellung hilfreich](console.md#skype-room-systems-v2-deployment-checklist). 
 

@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lesen Sie dieses Thema bietet Informationen zum Skype Raum Systemen v2 mit Skype für Business Server bereitstellen.
-ms.openlocfilehash: db4551e91d808161d52e73033df8234001f21de3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 891f716be3a2b7d8479af83b57dfccd70500e50d
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883946"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699380"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server
   
@@ -29,7 +30,7 @@ Die einfachste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Win
   
 ## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server
 
-Bevor Sie Skype Raum Systemen v2 mit Skype für Business Server bereitstellen, achten Sie darauf, dass Sie die Anforderungen erfüllt sind. Weitere Informationen finden Sie unter [Skype Raum Systemen v2 Requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Bevor Sie Skype Raum Systemen v2 mit Skype für Business Server bereitstellen, achten Sie darauf, dass Sie die Anforderungen erfüllt sind. Weitere Informationen finden Sie unter [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, mit denen Sie die entsprechenden Berechtigungen für die zugehörigen Cmdlets ausführen.
   
@@ -125,7 +126,7 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 [Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md)
 
-[Planung für Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
   

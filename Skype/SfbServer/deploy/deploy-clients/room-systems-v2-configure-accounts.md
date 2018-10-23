@@ -5,6 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lesen Sie dieses Thema Weitere Informationen zu konfigurieren in Exchange-Konten für Skype Raum Systemen v2 und Skype für Unternehmen.
-ms.openlocfilehash: 4070757324c9c0abf56cd623ce0155649e456e3b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 38fdc37467b1a9f7b73271ac8684e86f52059981
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886485"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699679"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Konfigurieren von Konten für Skype Raum Systemen v2
  
@@ -26,7 +27,7 @@ Lesen Sie in diesem Thema erfahren Sie Skype Raum Systemen v2 und wie es mit Exc
   
 In diesem Thema werden zum Erstellen von Skype Raum Systemen v2 in Microsoft Exchange und Skype für Unternehmen verwendeten Konten vorgestellt. Bereitstellung Anweisungen für Skype Raum Systemen v2 Geräte wird unter [Konfigurieren einer Skype Raum Systemen v2 Konsole](console.md)behandelt. Ihre Infrastruktur weist wahrscheinlich eine der folgenden Konfigurationen auf:
   
-- Online-Bereitstellung: vollständig auf Office 365-Umgebung Ihrer Organisation bereitgestellt wird. Weitere Informationen finden Sie unter [Bereitstellen von Skype Raum Systemen v2 mit Office 365](with-office-365.md).
+- Online-Bereitstellung: vollständig auf Office 365-Umgebung Ihrer Organisation bereitgestellt wird. Weitere Informationen finden Sie unter [Deploy Skype Room Systems v2 with Office 365](with-office-365.md).
     
 - Lokale Bereitstellung: Ihrer Organisation sind, die es verwaltet, Server, auf dem Active Directory, Exchange und Skype für Business Server gehostet werden. Weitere Informationen finden Sie unter [Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server](with-skype-for-business-server-2015.md)
     
@@ -78,11 +79,11 @@ Während die Eigenschaften für die grundlegende Konfiguration das Benutzerkonto
    
 Die einfachste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen.
   
-Wenn Sie die Benutzeroberfläche von Office 365 über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Finden Sie unter [Erstellen eines Geräts-Kontos mithilfe von Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+Wenn Sie die Benutzeroberfläche von Office 365 über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Lesen Sie dazu [Erstellen eines Gerätekontos mithilfe von Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Siehe auch
 
-[Planung für Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Konfigurieren einer Konsole für Skype Room Systems v2](console.md)
   

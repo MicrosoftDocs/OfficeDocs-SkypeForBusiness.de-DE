@@ -7,16 +7,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: In diesem Thema wird behandelt, was Sie berücksichtigen müssen, wenn Sie Ihre vorhandenen Skype für Business Server oder Exchange Server-Bereitstellungen auf die neueste Version oder Skype für Business Online oder Exchange Online migrieren möchten.
-ms.openlocfilehash: 3678b7531d60324bd557acdd762f428b048d99fc
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 64d489a944e7b56315e4b600893b46f5c1cc3355
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696219"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699288"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planen von Skype für Business Server und Exchange Server-migration
 
-In diesem Thema wird behandelt, was Sie berücksichtigen müssen, wenn Sie Ihre vorhandenen Skype für Business Server oder Exchange Server-Bereitstellungen auf die neueste Version oder Skype für Business Online oder Exchange Online migrieren möchten. Was können Sie migrieren, und zu welchen Zeitpunkten, stark hängt, was Sie bereits in Ihrer Organisation eingerichtet haben. In der Vorschau sind wir Konzentration auf die Unterstützung von ein paar bestimmter Szenarien mit zusätzlicher Szenarios verfügbar unter allgemeine Verfügbarkeit (GA).
+In diesem Thema wird behandelt, was Sie berücksichtigen müssen, wenn Sie Ihre vorhandenen Skype für Business Server oder Exchange Server-Bereitstellungen auf die neueste Version oder Skype für Business Online oder Exchange Online migrieren möchten. Was können Sie migrieren, und zu welchen Zeitpunkten, stark hängt, was Sie bereits in Ihrer Organisation eingerichtet haben. Einige Features wie Organisation automatische Telefonzentrale, sind nicht verfügbar unter allgemeine Verfügbarkeit (GA), aber weiter unten in 2018 kommt.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Featureänderungen Sie in Exchange 2019 und Skype für Business Server 2019
 
@@ -29,7 +29,7 @@ Unified Messaging (UM) ist in Exchange 2019 veraltet. Dies bedeutet, dass Exchan
 - Voicemail
 - Automatische Telefonzentrale
 
-Wenn Sie bereitgestellt die UM-Rolle in Exchange 2013 oder den UM-Dienst im Exchange 2016 haben haben, und Sie auf Exchange 2019 aktualisieren möchten, müssen Sie Ihre Voicemail-Ansage an den Microsoft-Cloud-Voicemail-Dienst in Office 365 zu migrieren. Wenn Sie Ihre Voicemail-Ansage an die Voicemail Cloud migrieren möchten, sehen Sie sich im Abschnitt [Exchange 2013/Exchange 2016 und Skype für Business 2015 Exchange 2019 und Skype für Business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) weiter unten.
+Wenn Sie bereitgestellt die UM-Rolle in Exchange 2013 oder den UM-Dienst im Exchange 2016 haben haben und Sie auf Exchange 2019 aktualisieren möchten, müssen Sie Ihre Voicemail-Ansage an den Microsoft-Cloud-Voicemail-Dienst in Office 365 zu migrieren. Wenn Sie Ihre Voicemail-Ansage an die Voicemail Cloud migrieren möchten, sehen Sie sich im Abschnitt [Exchange 2013/Exchange 2016 und Skype für Business 2015 Exchange 2019 und Skype für Business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) weiter unten.
 > [!IMPORTANT]
 > Wenn Benutzer auf Ihren Servern Exchange 2013 oder 2016 Exchange UM-aktivierten Postfächer vorhanden sind, verschieben Sie nicht sie in Exchange 2019 vor dem upgrade Ihrer Skype für Unternehmensserver auf Skype für Business Server 2019 und Verschieben von Benutzern in einer Voicemessaging-Ausfall vermieden.
 
@@ -41,12 +41,12 @@ Cloud-Voicemail zur Voicemessaging-Funktionalität für Nebenstellenanlagen (PBX
 
 Mit Skype für Business Server 2019 verschieben wir von Exchange Online UM an die Voicemail Cloud. Wenn ein Benutzer auf einen Skype für Business 2019 Server verschoben wird, werden automatisch gestartet mit Cloud Voicemail für gehostete Voicemail konfiguriert. Wenn Sie derzeit Exchange Online UM verwenden, müssen Sie nicht als verschieben ein Benutzers für die Skype für Business Server 2019 für den Einstieg Cloud Voicemail nichts. Es gibt jedoch einige Änderungen an Funktionen, die Sie berücksichtigen müssen:
 
-- Für die Vorschau nicht Organisationseinheit automatische Telefonzentralen (Ersatz für in Exchange Online UM-Telefonzentrale) zur Verfügung. Organisatorische automatische Telefonzentrale wird bei GA verfügbar sein.
+- Organisatorische automatische Telefonzentralen (Ersatz für die automatische Telefonzentrale in Exchange Online UM) ist nicht verfügbar unter GA, jedoch werden weiter unten in 2018 zur Verfügung stehen.
 - Benutzer Voicemail-Einstellungen in Outlook im Web gelten nicht an die Cloud Voicemail.
 
 ## <a name="on-premises-um-migration-scenarios"></a>Lokale UM-Migrationsszenarien
 
-In der Vorschau haben wir die folgenden Szenarien unterstützen, die Sie migrieren von Benutzern zu Exchange 2019 und an die Cloud Voicemail aktiviert wird. Unter GA Unterstützung wir weiterer Szenarien, die Sie von zusätzlichen Versionen von Exchange und Skype für Business Server migrieren können. Wir werden auch zusätzliche Features wie Organisationseinheit automatische Telefonzentrale bieten.
+Wir unterstützen die folgenden Szenarien, die Sie migrieren von Benutzern zu Exchange 2019 und an die Cloud Voicemail aktiviert werden. Weiter unten in 2018 Unterstützung wir weiterer Szenarien, die Sie von zusätzlichen Versionen von Exchange und Skype für Business Server migrieren können. Wir werden auch zusätzliche Features wie Organisationseinheit automatische Telefonzentrale bieten.
 
 - Exchange 2013/Exchange 2016 und Skype für Business Server 2015 zu Exchange 2019 und Skype für Business Server 2019
 - Skype für Business Server 2015 Skype für Business Server 2019 mit Exchange 2013/Exchange 2016
@@ -63,12 +63,12 @@ Die Reihenfolge, in der Sie Benutzer in Exchange 2019 und Skype für Business Se
 
 | Postfach auf:            | Benutzer, die sich nicht auf Skype für Business Server 2015 | Benutzer, die sich nicht auf Skype für Business Server 2019  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
-| Exchange 2013/Exchange 2016    | Exchange UM                             | Cloud-Voicemail                          |
+| Exchange 2013/Exchange 2016    | Exchange UM                             | Exchange UM                              |
 | Exchange 2019                  | Nicht unterstützt                           | Cloud-Voicemail                          |
 
 Bevor Sie mit die Migration zu Skype für Business Server 2019 und Exchange 2019 beginnen, behalten Sie Folgendes beachten:
 
-- Cloud-Voicemail unterstützt keine Organisationseinheit automatische Telefonzentrale in Vorschau. Postfächer, die an die Cloud Voicemail weiterhin über die automatische Telefonzentrale verfügbar sein verschoben werden soll, müssen Sie mindestens einen Exchange 2013 oder 2016 Exchange-Server mit der UM-Rolle oder einen Dienst verfügbar zu halten.
+- Cloud-Voicemail unterstützt keine Organisationseinheit automatische Telefonzentrale bei GA Postfächer, die an die Cloud Voicemail weiterhin über die automatische Telefonzentrale verfügbar sein verschoben werden soll, müssen Sie mindestens einen Exchange 2013 oder 2016 Exchange-Server mit der UM-Rolle oder einen Dienst verfügbar zu halten.
 - Sie müssen mindestens einen Skype für Business 2019 Server **und** Move-Benutzer für den betreffenden Server einrichten, bevor Sie ihre Postfächer in Exchange 2019 verschieben. Ist dies nicht der Fall, führt zu dieser Postfächer keine Voicemailnachrichten empfangen wird.
 - Anrufe an die Voicemail gesendet werden an die Cloud Voicemail weitergeleitet, in dem aufgezeichnet werden. Nach Beendigung des Anrufs wird die Voicemailnachricht an das Postfach des Empfängers auf dem lokalen Exchange-2019 Server gesendet. Sie müssen berücksichtigen diese VoIP-Datenverkehr bei bestimmen, ob die Verbindung zum Internet ausreichend, um Voicemail Cloud unterstützt wird.
 
@@ -99,7 +99,7 @@ Unabhängig davon, ob Exchange UM oder Cloud Voicemail der Voicemailnachricht ve
 
 Bevor Sie mit die Migration zu Skype für Business Server 2019 beginnen, behalten Sie Folgendes beachten:
 
-- Cloud-Voicemail unterstützt keine Organisationseinheit automatische Telefonzentrale in Vorschau. Postfächer, die an die Cloud Voicemail weiterhin über die automatische Telefonzentrale verfügbar sein verschoben werden soll, müssen Sie mindestens einen Exchange 2013 oder 2016 Exchange-Server mit der UM-Rolle oder einen Dienst verfügbar zu halten.
+- Cloud-Voicemail unterstützt keine Organisationseinheit automatische Telefonzentrale bei GA Postfächer, die an die Cloud Voicemail weiterhin über die automatische Telefonzentrale verfügbar sein verschoben werden soll, müssen Sie mindestens einen Exchange 2013 oder 2016 Exchange-Server mit der UM-Rolle oder einen Dienst verfügbar zu halten.
 - Anrufe an die Voicemail gesendet werden an die Cloud Voicemail weitergeleitet, in dem aufgezeichnet werden. Nach Beendigung des Anrufs wird die Voicemailnachricht an das Postfach des Empfängers auf dem lokalen Exchange-Server gesendet. Sie müssen berücksichtigen diese VoIP-Datenverkehr bei bestimmen, ob die Verbindung zum Internet ausreichend, um Voicemail Cloud unterstützt wird.
 
 Hier sind die allgemeinen Schritte dieser Migration abschließen.
