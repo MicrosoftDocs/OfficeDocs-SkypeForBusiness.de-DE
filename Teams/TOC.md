@@ -182,6 +182,7 @@
 ### [Bewährte Methoden zum Organisieren von Teams in Teams](best-practices-organizing.md)
 ### [Erstellen Sie ein Team Org geltende in Teams](create-an-org-wide-team.md)
 ### [Übersicht über dynamische Mitgliedschaft für teams](dynamic-memberships.md)
+## [Anwesenheit](presence-admins.md)
 ## [Gastzugriff](guest-access.md)
 ### [Beitritt eines Gasts zu einem Team](guest-joins.md)
 ### [Gastfunktionalität](guest-experience.md)
@@ -211,7 +212,8 @@
 #### [Was sind Teams live Ereignisse?](teams-live-events/what-are-teams-live-events.md)
 #### [Planen von Teams live-Ereignisse](teams-live-events/plan-for-teams-live-events.md)
 #### [Einrichten von für Teams live Ereignisse](teams-live-events/set-up-for-teams-live-events.md)
-#### [Konfigurieren von Teams live-Ereignisse](teams-live-events/configure-teams-live-events.md)
+#### [Verwenden von PowerShell zum Festlegen von Richtlinien für Teams live Ereignisse](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [Konfigurieren von Einstellungen für Teams live Ereignisse](teams-live-events/configure-teams-live-events.md)
 
 
 

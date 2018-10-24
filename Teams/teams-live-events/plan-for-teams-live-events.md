@@ -6,16 +6,18 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Informationen Sie zu den Faktoren berücksichtigen vor dem Einrichten von live Ereignisse in der Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
+ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405256"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25748165"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von live Ereignisse in der Microsoft-Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -103,3 +105,9 @@ Sie können Teams live Ereignisse auf der ganzen Welt mehrere Regionen verwenden
 
 ## <a name="next-steps"></a>Nächste Schritte
 Wechseln Sie zur [für Teams live Ereignisse einrichten](set-up-for-teams-live-events.md).
+
+### <a name="related-topics"></a>Verwandte Themen
+- [Was sind Teams live Ereignisse?](what-are-teams-live-events.md)
+- [Einrichten von für Teams live Ereignisse](set-up-for-teams-live-events.md)
+- [Konfigurieren live Ereignisse Einstellungen in Teams](configure-teams-live-events.md)
+
