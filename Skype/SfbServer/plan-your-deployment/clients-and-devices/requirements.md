@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: 469a13822bb319eab1b78a418b7c2eddd182666b
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495613"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784877"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
 
@@ -26,6 +26,9 @@ Die Bereitstellung planungslösung Kontenerstellung gemäß der Beschreibung unt
 
 > [!NOTE]
 > Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen. <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
+
+> [!NOTE]
+> Wenn Sie einen Exchange-Server auf Prem verwenden, ist Skype Raum Systemen v2 die Verwendung von Exchange Server 2013 SP1 oder höher erforderlich.
 
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
 
@@ -71,19 +74,19 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Video - 1.0.156  <br/> |
-|[Logitech ConferenceCam verbinden](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Logitech Gruppe](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
+|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
+|[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4,7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
-|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
-|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
+|[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0,70232 <br/> |
+|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
-|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
+|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
-|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
+|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
 |[Yamaha YVC 1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
 
 - **USB-Extender**:
@@ -110,10 +113,10 @@ In den folgenden Tabellen enthalten Empfehlungen für Peripheriegeräte basieren
 
 |**Raumart**|**Anzahl der Personen**|**Empfohlene maximale Entfernung zwischen Mikrofon und vortragender Person**|**Gerät nach maximaler Raumgröße**|**Anmerkungen**|
 |:-----|:-----|:-----|:-----|:-----|
-|**Fokus** <br/> 10' x 9'  <br/> |2 bis 4  <br/> |1,5 m  <br/> |Logitech Connect  <br/> |Die Geräte Logitech verbinden enthalten eine Kamera müssen sie am Anfang des Raums (nicht Mitte der Tabelle) zum Erfassen von lokalen Besprechungsteilnehmer positioniert werden.  <br/> |
-|**Klein** <br/> 16' x 16'  <br/> |4 bis 6  <br/> |2,0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Die Wiedergabelautstärke kann für größere Räume begrenzt sein.  <br/> |
-|**Mittel** <br/> 18' x 20'  <br/> |6 bis 12  <br/> |2,4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 MS  <br/> |Die Logitech MeetUp enthält eine Kamera, damit es am Anfang der Raum (nicht Mitte der Tabelle zum Erfassen von lokalen Besprechungsteilnehmer) positioniert werden muss.  <br/> Im Allgemeinen können Chatrooms mit Tabellen lange rechteckigen oder u-Form von zusätzlichen Satelliten Mikrofone profitieren.  <br/> SP 220 MS muss in einer Daisy-Chain-Konfiguration verwendet werden.  <br/> |
-|**Groß** <br/> 15' x 32'  <br/> |12-16  <br/> |3m  <br/> Diese Entfernung gilt auch für den Bereich, der von jedem weiteren Satellitenmikrofon abgedeckt wird, das mit dem entsprechenden Audiogerät verbunden ist.   <br/> |Logitech Gruppe + Satelliten Mikrofone  <br/> Polycom Trio + Satelliten Mikrofone  <br/> Polycom CX5100 + Satelliten Mikrofone  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 MS + Satelliten Mikrofone  <br/> |Alle in dieser Zeile aufgeführten Audiogeräte unterstützen Optionen für Satellitenmikrofone.  <br/> CX5100 umfasst eine integrierte 360-Grad-Kamera, sodass das Gerät in der Tischmitte positioniert werden kann.  <br/> SP 220 MS muss in einer Daisy-Chain-Konfiguration verwendet werden.  <br/> |
+|**Fokus** <br/> 10' x 9'  <br/> |2 bis 4  <br/> |1,5 m   <br/> |Logitech Connect  <br/> |Die Geräte Logitech verbinden enthalten eine Kamera müssen sie am Anfang des Raums (nicht Mitte der Tabelle) zum Erfassen von lokalen Besprechungsteilnehmer positioniert werden.  <br/> |
+|**Klein** <br/> 16' x 16'  <br/> |4 bis 6  <br/> |2,0 m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Die Wiedergabelautstärke kann für größere Räume begrenzt sein.  <br/> |
+|**Mittel** <br/> 18' x 20'  <br/> |6 bis 12  <br/> |2,4 m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Polycom Trio  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 MS  <br/> |Die Logitech MeetUp enthält eine Kamera, damit es am Anfang der Raum (nicht Mitte der Tabelle zum Erfassen von lokalen Besprechungsteilnehmer) positioniert werden muss.  <br/> Im Allgemeinen können Chatrooms mit Tabellen lange rechteckigen oder u-Form von zusätzlichen Satelliten Mikrofone profitieren.  <br/> SP 220 MS muss in einer Daisy-Chain-Konfiguration verwendet werden.  <br/> |
+|**Groß** <br/> 15' x 32'  <br/> |12-16  <br/> |3 m  <br/> Diese Entfernung gilt auch für den Bereich, der von jedem weiteren Satellitenmikrofon abgedeckt wird, das mit dem entsprechenden Audiogerät verbunden ist.   <br/> |Logitech Gruppe + Satelliten Mikrofone  <br/> Polycom Trio + Satelliten Mikrofone  <br/> Polycom CX5100 + Satelliten Mikrofone  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 MS + Satelliten Mikrofone  <br/> |Alle in dieser Zeile aufgeführten Audiogeräte unterstützen Optionen für Satellitenmikrofone.  <br/> CX5100 umfasst eine integrierte 360-Grad-Kamera, sodass das Gerät in der Tischmitte positioniert werden kann.  <br/> SP 220 MS muss in einer Daisy-Chain-Konfiguration verwendet werden.  <br/> |
 
 **Skype-Raum Systemen v2 Certified Video Peripheriegeräte**
 
@@ -139,7 +142,7 @@ Darüber hinaus sollten Sie wahrscheinlich eine Kopie der [SkypeRoomProvisioning
 
 ## <a name="see-also"></a>Siehe auch
 
-[Planung für Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [Bereitstellen von Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
 

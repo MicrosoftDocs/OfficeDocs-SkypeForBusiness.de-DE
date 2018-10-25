@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Informationen Sie zum Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
-ms.openlocfilehash: 292a3e675455d112fdade04018e670b9a5f9c38f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013425"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784816"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controller für mehrere Mandanten
 
@@ -90,7 +90,7 @@ In der folgenden Tabelle ist ein Beispiel für eine Konfiguration.
 |---------|---------|---------|---------|---------|---------|
 |Customers.adatum.biz|    Base     |     In Netzbetreiber Mandanten  |    \*. customers.adatum.biz  |   adatum.biz      |NA, handelt es sich um einen Dienst Mandanten, keine Benutzer |
 |sbc1.Customers.adatum.biz|    Unterdomäne  |    In einem Mandanten Kunden  |    \*. customers.adatum.biz  | woodgrovebank.US  |  sbc1.Customers.adatum.biz|
-|sbc2.Customers.adatum.biz  |   Unterdomäne | In einem Mandanten Kunden   |   \*. customers.adatum.biz   |"contoso.com"   |sbc2.Customers.adatum.biz |
+|sbc2.Customers.adatum.biz  |   Unterdomäne | In einem Mandanten Kunden   |   \*. customers.adatum.biz   |contoso.com   |sbc2.Customers.adatum.biz |
 |SBC3.Customers.adatum.biz |   Unterdomäne | In einem Mandanten Kunden |   \*. customers.adatum.biz  |  AdventureWorks.com | SBC3.Customers.adatum.biz |
 ||         |         |         |         |         |
 
@@ -127,7 +127,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
 ### <a name="activate-the-domain-name"></a>Aktivieren Sie den Domänennamen
 
-Nachdem Sie einen Domänennamen registriert haben, müssen Sie mindestens einen Benutzer hinzufügen zu aktivieren, und weisen Sie eine SIP-Adresse mit dem FQDN-Abschnitt, der die SIP-Adresse die erstellte Basiskalender Domäne entsprechen.
+Nachdem Sie einen Domänennamen registriert haben, Sie es aktivieren, indem Sie mindestens eine E1, E3, hinzufügen müssen oder E5 lizenziert Adresse Benutzer- und Zuweisen einer SIP-Adresse mit dem FQDN Teil der SIP die erstellte Basiskalender Domäne entsprechen. 
 
 *Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Mandanten [Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) überprüfen.*
 

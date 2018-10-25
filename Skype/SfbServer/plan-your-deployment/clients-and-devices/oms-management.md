@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: In diesem Artikel werden planungsüberlegungen zur Verwendung von Operations Management Suite zum Verwalten von Skype Raum Systemen v2 Geräte in Ihrer Skype für Business Server-Implementierung für.
-ms.openlocfilehash: 14f6ba95e5b2bcf7619002bb2dbc1e9ae3eb474a
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 64f1d91840a34ed9c9845e7fb0aae1e322fab68e
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965940"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784800"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planen der Verwaltung von Skype Room System V2 mit OMS
  
@@ -38,13 +38,13 @@ Ein Administrator mit OMS sind finde Benachrichtigungen über Skype Raum v2-basi
   
 ## <a name="oms-requirements"></a>Anforderungen für OMS
 
-Sie benötigen ein gültiges Abonnement für OMS, um diese Funktion zu verwenden. Finden Sie unter [Erste Schritte mit einem Protokoll Analytics Arbeitsbereich](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json) , um ein Abonnement für Ihre Organisation zu erstellen.
+Sie benötigen ein gültiges Abonnement für OMS, um diese Funktion zu verwenden. Unter [Erste Schritte mit einem Log Analytics-Arbeitsbereich](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json) erfahren Sie, wie Sie ein Abonnement für Ihre Organisation erstellen.
   
-Machen Sie sich nach Bedarf mit der Verwendung des OMS-Ansicht-Designers vertraut. Diese Details finden Sie unter [Ansichten in Operations Management Suite (OMS) Management-Lösungen](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views) .
+Machen Sie sich nach Bedarf mit der Verwendung des OMS-Ansicht-Designers vertraut. Details hierzu finden Sie unter [Ansichten in Verwaltungslösungen der Operations Management Suite (OMS) (Preview)](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views).
   
 ### <a name="related-tasks"></a>Verwandte Aufgaben
 
-1. Nachdem OMS abonniert haben, Erstellen der benutzerdefinierten Felder (wie in [benutzerdefinierte Felder zuordnen](../../deploy/deploy-clients/with-oms.md#Custom_fields)beschrieben) benötigt, um die Informationen zu analysieren, die von Skype Raum Systemen v2 Konsolen gesendet werden soll. Dazu gehören Grundlegendes zum Schema der JSON in [die Protokolleinträge verstehen](../../manage/skype-room-systems-v2/oms.md#Telemetry)dokumentiert.
+1. Nachdem OMS abonniert haben, Erstellen der benutzerdefinierten Felder (wie in [benutzerdefinierte Felder zuordnen](../../deploy/deploy-clients/with-oms.md#Custom_fields)beschrieben) benötigt, um die Informationen zu analysieren, die von Skype Raum Systemen v2 Konsolen gesendet werden soll. Dazu gehören Grundlegendes zum Schema der JSON in [die Protokolleinträge verstehen](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries)dokumentiert.
     
 2. Entwickeln einer Skype Raum Systemen v2 Management-Ansicht in OMS. Sie können entweder [eine Skype Raum Systemen v2 Dashboard mithilfe der Importmethode erstellen](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ), oder [Erstellen Sie manuell einen Skype Raum Systemen v2 Dashboard](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
     
@@ -54,11 +54,11 @@ Jede Skype Raum Systemen v2-Konsole ist eine app auf einem Gerät Fläche 4 im K
   
 ## <a name="ongoing-management"></a>Laufende Verwaltung
 
-Bei Verwendung von OMS Skype Raum Systemen v2 Konferenz Geräte verwalten, müssen Sie verstehen, die Informationen in den Ereignisprotokollen von OMS verwendet. Finden Sie auf diese Nachrichten Health Einzelheiten in [die Protokolleinträge verstehen](../../manage/skype-room-systems-v2/oms.md#Telemetry) .
+Bei Verwendung von OMS Skype Raum Systemen v2 Konferenz Geräte verwalten, müssen Sie verstehen, die Informationen in den Ereignisprotokollen von OMS verwendet. Finden Sie auf diese Nachrichten Health Einzelheiten in [die Protokolleinträge verstehen](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries) .
   
 ### <a name="related-tasks"></a>Verwandte Aufgaben
 
-- Verstehen von Skype Raum Systemen v2 und zu deren Behebung (finden Sie im Abschnitt [zu verstehen der Protokolleinträge](../../manage/skype-room-systems-v2/oms.md#Telemetry)) generierte Benachrichtigungen
+- Verstehen von Skype Raum Systemen v2 und zu deren Behebung (finden Sie im Abschnitt [zu verstehen der Protokolleinträge](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries)) generierte Benachrichtigungen
     
 ## <a name="see-also"></a>Siehe auch
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 6ecafea114a38f857b56046c60504dd27c6617eb
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576553"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784756"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -31,7 +31,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|EAF Richtlinie in der erweiterten Risikominderung Experience Toolkit (EMET) kann nicht richtig Chrom Sandkasten Optimierungen als Bedrohung identifizieren. <br/> |Es besteht ein Problem mit Chrom Sandkasten, in dem die Richtlinie exportieren Adresse Tabelle Access Filtern (EAF) in der erweiterten Risikominderung Experience Toolkit (EMET) falsch Chrom Sandkasten Optimierungen als Bedrohung identifizieren kann. Die Registerkarten in der Webansicht Teams verhindert, dass das ordnungsgemäß gerendert wird. <br/> | EAF für Chrome deaktivieren. Lesen Sie mehr über das Problem [EMET Gegenmaßnahmen Richtlinien](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
+|EAF Richtlinie in der erweiterten Risikominderung Experience Toolkit (EMET) kann nicht richtig Chrom Sandkasten Optimierungen als Bedrohung identifizieren. <br/> |Es ist ein Problem mit Chrom Sandkasten, in dem die Richtlinie exportieren Adresse Tabelle Access Filtern (EAF) in der erweiterten Risikominderung Experience Toolkit (EMET) und in Windows Defender erweiterte Threat Protection (ATP) falsch Chrom Sandkasten identifizieren können Optimierungen als Bedrohung. Daraufhin wird Teams nicht ordnungsgemäß funktioniert.  <br/> | Um dieses Problem deaktivieren EAF für Teams zu umgehen. Lesen Sie mehr über das Problem [EMET Gegenmaßnahmen Richtlinien](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) für Weitere Informationen zu Windows Defender ATP und EAF Richtlinie, finden Sie unter [Schutz ausnutzen anpassen](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -49,7 +49,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|"Assignments" app bleibt Visble Wenn deaktiviert  <br/> |Wenn die app "Aufgaben" in der Verwaltungskonsole deaktiviert ist, bleibt sie innerhalb des Teams-Clients für EDU lizenzierte Benutzer sichtbar. Auswählen, wenn deaktiviert gibt einen Fehler zurück, der angibt, "Galerie zurück. Ist ein Fehler aufgetreten..."  <br/> |Keine Problemumgehung  <br/> |12/29/17  <br/> |
+|"Assignments" app bleibt Visble Wenn deaktiviert  <br/> |Wenn die app "Aufgaben" in der Verwaltungskonsole deaktiviert ist, bleibt sie innerhalb des Teams-Clients für EDU lizenzierte Benutzer sichtbar. Auswählen, wenn deaktiviert gibt einen Fehler zurück, der angibt, "Galerie zurück. Ist ein Fehler aufgetreten..."  <br/> |Keine Problemumgehung.  <br/> |12/29/17  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -65,7 +65,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 |Bei der Auswahl müssen mindestens fünf Ziffern verwendet werden.  <br/> |Benutzer, die aus einer Besprechung eine Nummer zu wählen versuchen, müssen mindestens fünf Ziffern eingeben, obwohl eine Wählplan-Normalisierungsregel verfügbar ist, durch die gewählte kurze Nummern in E.164 normalisiert werden.  <br/> |Geben Sie bei der Auswahl anstelle der internen Durchwahlnummer die Nummer im vollständigen Durchwahlnummernformat oder lokalen Nummernformat ein.  <br/> |25.9.2017  <br/> |
 |Das Auswahlsteuerelement wird zeitweise nicht angezeigt.  <br/> |Das Auswahlsteuerelement ist möglicherweise im Bereich mit den Besprechungsinformationen nicht sichtbar.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
 |Statische Konferenzkennungen werden für Microsoft Teams-Besprechungen nicht unterstützt.  <br/> |Wenn der Administrator die Standardeinstellung außer Kraft setzt und sie von einer dynamischen Konferenzkennung in eine statische Konferenzkennung ändert, wird diese Einstellung für Microsoft Teams-Besprechungen nicht wirksam. Finden Sie unter [Audiokonferenzen mithilfe von dynamischen IDs in Ihrer Organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
-|PSTN-Besprechungs-Koordinaten sind nicht verfügbar für Benutzer von Skype-for-Business  <br/> |Wenn es sich bei dem Benutzer um einen lokalen Skype-for-Business-Benutzer handelt, der mit Lizenzen für Skype-for-Business Online, Audiokonferenzen und Teams ausgestattet ist, enthalten alle Meetings, die mit Teams geplant sind, keine PSTN-Meeting-Koordinaten. <br/> |Keine Problemumgehung  <br/> |01.02.2018  <br/> |
+|PSTN-Besprechungs-Koordinaten sind nicht verfügbar für Benutzer von Skype-for-Business  <br/> |Wenn es sich bei dem Benutzer um einen lokalen Skype-for-Business-Benutzer handelt, der mit Lizenzen für Skype-for-Business Online, Audiokonferenzen und Teams ausgestattet ist, enthalten alle Meetings, die mit Teams geplant sind, keine PSTN-Meeting-Koordinaten. <br/> |Keine Problemumgehung.  <br/> |01.02.2018  <br/> |
 
 ## <a name="authentication"></a>Authentifizierung
 
@@ -107,7 +107,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Wenn ein Benutzer das Unternehmen verlässt, wird sie im Microsoft-Teams, als "Unbekannte Benutzer"<br/> |Wenn ein Benutzer das Unternehmen verlässt, wird sie im Microsoft-Teams, als "Unbekannte Benutzer". Zusätzlich wird auf die Registerkarte Unterhaltung angezeigt: "Unbekannte Benutzer wurde hinzugefügt, das Team." <br/> |Keine Problemumgehung  <br/> |9/12/17  <br/> |
+|Wenn ein Benutzer das Unternehmen verlässt, wird sie im Microsoft-Teams, als "Unbekannte Benutzer"<br/> |Wenn ein Benutzer das Unternehmen verlässt, wird sie im Microsoft-Teams, als "Unbekannte Benutzer". Zusätzlich wird auf die Registerkarte Unterhaltung angezeigt: "Unbekannte Benutzer wurde hinzugefügt, das Team." <br/> |Keine Problemumgehung.  <br/> |9/12/17  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -119,7 +119,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|URL-Vorschau möglicherweise nicht für alle URL angezeigt.  <br/> |Einige URL kann keine Vorschau anzeigen.  Dies ist die ursprüngliche URL durch die Möglichkeit zum Anzeigen einer Vorschau abhängig. <br/> |Keine Problemumgehung <br/> |9/1/18 <br/> |
+|URL-Vorschau möglicherweise nicht für alle URL angezeigt.  <br/> |Einige URL kann keine Vorschau anzeigen.  Dies ist die ursprüngliche URL durch die Möglichkeit zum Anzeigen einer Vorschau abhängig. <br/> |Keine Problemumgehung. <br/> |9/1/18 <br/> |
 
 ## <a name="chat"></a>Chat
 
@@ -241,7 +241,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Registerkarte für SharePoint-Seite rendert leeren Bildschirm<br/> |SharePoint Online Vanity Domänen werden derzeit nicht unterstützt. Die Benutzeroberfläche ist ein leerer Bildschirm, wenn Attemting zum Hinzufügen einer SharePoint-Seite Registerkarte. <br/> |Keine Problemumgehung <br/> |8/20/18  <br/>|
+|Registerkarte für SharePoint-Seite rendert leeren Bildschirm<br/> |SharePoint Online Vanity Domänen werden derzeit nicht unterstützt. Die Benutzeroberfläche ist ein leerer Bildschirm, wenn Attemting zum Hinzufügen einer SharePoint-Seite Registerkarte. <br/> |Keine Problemumgehung. <br/> |8/20/18  <br/>|
 
 ## <a name="teams"></a>Microsoft Teams
 
