@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lesen Sie in diesem Thema erfahren, wie Ihre Cloud-Connector-Version 2.1 und höher Bereitstellung überwachen, mithilfe von Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 19946c0d7701d2fd31c1b41cae58e08cfdf4c52d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372188"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839823"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud-Connector mithilfe von Operationen Management Suite (OMS)
 
 Lesen Sie in diesem Thema erfahren, wie Ihre Cloud-Connector-Version 2.1 und höher Bereitstellung überwachen, mithilfe von Microsoft Operations Management Suite (OMS).
 
-Sie können nun Ihre Cloud-Connector-Version 2.1 und höher Bereitstellung mithilfe von Operationen Management Suite (OMS), eine Cloud von Microsoft IT-Management-Lösung überwachen. OMS-Protokoll Analytics können Sie zum Überwachen und analysieren die Verfügbarkeit und Leistung von Ressourcen, einschließlich der physischen und virtuellen Computern. Weitere Informationen zu OMS und Protokoll Analytics, finden Sie unter [Was Vorgänge Management Suite (OMS) ist?](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview).
+Sie können nun Ihre Cloud-Connector-Version 2.1 und höher Bereitstellung mithilfe von Operationen Management Suite (OMS), eine Cloud von Microsoft IT-Management-Lösung überwachen. OMS-Protokoll Analytics können Sie zum Überwachen und analysieren die Verfügbarkeit und Leistung von Ressourcen, einschließlich der physischen und virtuellen Computern. Weitere Informationen zu OMS und Protokoll Analytics, finden Sie unter [Was Vorgänge Management Suite (OMS) ist?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
 
 Dieses Thema enthält die folgenden Abschnitte:
 
@@ -39,11 +39,11 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 Bevor Sie zum Überwachen der bereitstellungs Cloud Connector OMS verwenden können, benötigen Sie Folgendes:
 
-- **Ein Azure-Konto und einem OMS-Arbeitsbereich.** Wenn Sie bereits ein Azure-Konto besitzen, müssen Sie die Verwendung von OMS-Protokoll Analytics erstellen. Informationen dazu, wie Sie ein Azure-Konto erstellen und Einrichten von einem OMS-Arbeitsbereich finden Sie unter [Erste Schritte mit einem Protokoll Analytics Arbeitsbereich](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started).
+- **Ein Azure-Konto und einem OMS-Arbeitsbereich.** Wenn Sie bereits ein Azure-Konto besitzen, müssen Sie die Verwendung von OMS-Protokoll Analytics erstellen. Informationen dazu, wie Sie ein Azure-Konto erstellen und Einrichten von einem OMS-Arbeitsbereich finden Sie unter [Erste Schritte mit einem Protokoll Analytics Arbeitsbereich](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
 
 - **Cloud-Connector Version 2.1 oder höher**
 
-- **Protokoll Analytics neue Protokoll Suche** ist erforderlich für die Überwachung von Cloud-Connector. Weitere Informationen finden Sie unter [Upgrade Azure Protokoll Analytics Arbeitsbereich mit neue Log-Suche](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade).
+- **Protokoll Analytics neue Protokoll Suche** ist erforderlich für die Überwachung von Cloud-Connector. Weitere Informationen finden Sie unter [Upgrade Azure Protokoll Analytics Arbeitsbereich mit neue Log-Suche](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Konfigurieren von Cloud-Connector zur Verwendung von OMS
 
@@ -103,7 +103,7 @@ Im Portal OMS müssen Sie Informationen zu den Ereignisprotokollen und Leistungs
      > [!NOTE]
      > Sie müssen die Lync Server manuell in das Textfeld eingeben. Es wird nicht als Option in der Dropdown-Liste angezeigt. 
 
-     Weitere Informationen finden Sie unter [Windows-Ereignisprotokoll-Datenquellen im Protokoll Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Weitere Informationen finden Sie unter [Windows-Ereignisprotokoll-Datenquellen im Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. Wechseln Sie zu Einstellungen -\>Daten -\> Windows-Leistungsindikatoren und Leistungsindikatoren für hinzufügen: 
 
@@ -126,11 +126,11 @@ Im Portal OMS müssen Sie Informationen zu den Ereignisprotokollen und Leistungs
      > [!NOTE]
      > Sie müssen die Leistungsindikatoren manuell in das Textfeld eingeben. Sie werden nicht als Optionen in der Dropdown-Liste angezeigt. 
 
-     Weitere Informationen finden Sie unter [Windows und Linux Leistung Datenquellen im Protokoll Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Weitere Informationen finden Sie unter [Windows und Linux Leistung Datenquellen im Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>Benachrichtigungen erstellen
 
-Es gibt zwei Arten von Warnungen in OMS: Anzahl der Ergebnisse Benachrichtigungen und Benachrichtigungen für metrischen Maßeinheiten. Weitere Informationen zum Erstellen von Warnungen finden Sie unter [Arbeiten mit Warnung Regeln in Protokoll Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts-creating).
+Es gibt zwei Arten von Warnungen in OMS: Anzahl der Ergebnisse Benachrichtigungen und Benachrichtigungen für metrischen Maßeinheiten. Weitere Informationen zum Erstellen von Warnungen finden Sie unter [Arbeiten mit Warnung Regeln in Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
 
 Beim Erstellen von Warnungen, sollten Sie Folgendes berücksichtigen:
 
@@ -158,7 +158,7 @@ Diese Warnung Paar zu erstellen:
 
     Die Abfrage verwendet die Computer Filter *, auf dem Computer "MediationServer" enthält* . Der Filter wählt nur auf den Computer, dessen Name die Zeichenfolge "MediationServer" enthält.
 
-     Sie ersetzen Sie den Filter durch Ihren eigenen Computer Filter oder einfach zu entfernen. Sie können komplexe Zeichenfolge Filter ohne reguläre Ausdrücke zu erstellen. Weitere Informationen finden Sie unter [Operatoren](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Sie können auch auswählen, reguläre Ausdrücke verwendet. Darüber hinaus können Sie eine Computergruppe erstellen, indem eine Suchabfrage zu speichern und diese Gruppe als Ihren Computer Filter in der Warnung Abfrage. Weitere Informationen finden Sie unter [Computergruppen im Protokoll Analytics melden Suchvorgänge](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups).
+     Sie ersetzen Sie den Filter durch Ihren eigenen Computer Filter oder einfach zu entfernen. Sie können komplexe Zeichenfolge Filter ohne reguläre Ausdrücke zu erstellen. Weitere Informationen finden Sie unter [Operatoren](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Sie können auch auswählen, reguläre Ausdrücke verwendet. Darüber hinaus können Sie eine Computergruppe erstellen, indem eine Suchabfrage zu speichern und diese Gruppe als Ihren Computer Filter in der Warnung Abfrage. Weitere Informationen finden Sie unter [Computergruppen im Protokoll Analytics melden Suchvorgänge](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
 
     Für jeden Computer die Abfrage Fehler Ruft das letzte Ereignisprotokoll für den RTCMEDSRV Service Anfang und Stop-service. Wird zurückgegeben, die eine melden, wenn das letzte Ereignis Service Stop-Ereignis; nothing wird zurückgegeben, wenn das letzte Ereignis Service Start-Ereignis ist. Kurz gesagt, würde die Abfrage eine Liste der Server zurück, deren RTCMEDSRV im Zeitfenster beendet wurde. 
 
@@ -202,7 +202,7 @@ Die Abfrage erhalten alle Prozessor Usage Leistungsindikator und Service Stop-Er
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Analysieren der Benachrichtigungen in das Protokoll Analytics repository
 
-Verwenden Sie zum Analysieren von Benachrichtigungen in Ihrem Repository der Alert-Management-Lösung. Weitere Informationen finden Sie unter [Alert-Management-Lösung in Betrieb Management Suite (OMS)](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-solution-alert-management)
+Verwenden Sie zum Analysieren von Benachrichtigungen in Ihrem Repository der Alert-Management-Lösung. Weitere Informationen finden Sie unter [Alert-Management-Lösung in Betrieb Management Suite (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## <a name="recommended-minimal-monitoring-set"></a>Empfohlene monitoring Mindestsatz
 
@@ -244,12 +244,12 @@ Im folgenden werden die Anruf-Kapazität Leistungsindikatoren, die überwacht we
 
 Weitere Informationen zum Arbeiten mit OMS finden Sie unter den folgenden:
 
-- [Suchen nach Daten anhand Protokolldateien Suchvorgänge in Protokoll Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-searches)
+- [Suchen nach Daten anhand Protokolldateien Suchvorgänge in Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
 
 - [Azure Protokoll Analytics-Sprachreferenz (engl.)](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [Grundlegendes zu Warnungen im Protokoll Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts)
+- [Grundlegendes zu Warnungen im Protokoll Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
 
-- [Verbinden von Computern mit Windows mit dem Protokoll Analytics-Dienst in Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents)
+- [Verbinden von Computern mit Windows mit dem Protokoll Analytics-Dienst in Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
 
 

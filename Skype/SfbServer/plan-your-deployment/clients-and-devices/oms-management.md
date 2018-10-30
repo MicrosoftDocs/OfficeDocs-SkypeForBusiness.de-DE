@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: In diesem Artikel werden planungsüberlegungen zur Verwendung von Operations Management Suite zum Verwalten von Skype Raum Systemen v2 Geräte in Ihrer Skype für Business Server-Implementierung für.
-ms.openlocfilehash: 64f1d91840a34ed9c9845e7fb0aae1e322fab68e
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 26cfe0fa000a92548c81b8bab80d1bdde5ee78b4
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784800"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839357"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planen der Verwaltung von Skype Room System V2 mit OMS
  
  In diesem Artikel werden planungsüberlegungen zur Verwendung von Operations Management Suite zum Verwalten von Skype Raum Systemen v2 Geräte in Ihrer Skype für Business Server-Implementierung für.
   
-[Vorgänge Management Suite](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview) (OMS) ist eine Auflistung von Rights Management Services, die in der Cloud ab dem Anfang entwickelt wurden. Statt bereitstellen und Verwalten von lokalen Ressourcen, werden OMS-Komponenten vollständig in Azure gehostet. Konfiguration ist gering, und Sie können ausgeführt werden und als solches innerhalb weniger Minuten. Einige Arbeit Anpassung können sie bei der Verwaltung von Skype Raum v2 Conferencing-basierte Systeme durch Bereitstellen der Systemintegrität oder Fehler in Echtzeit Benachrichtigungen für einzelne Raum Systeme hilfreich, und es kann potenziell vertikales Skalieren zur Verwaltung von Tausende von Skype Raum Systemen Konferenzräume v2.
+[Vorgänge Management Suite](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview) (OMS) ist eine Auflistung von Rights Management Services, die in der Cloud ab dem Anfang entwickelt wurden. Statt bereitstellen und Verwalten von lokalen Ressourcen, werden OMS-Komponenten vollständig in Azure gehostet. Konfiguration ist gering, und Sie können ausgeführt werden und als solches innerhalb weniger Minuten. Einige Arbeit Anpassung können sie bei der Verwaltung von Skype Raum v2 Conferencing-basierte Systeme durch Bereitstellen der Systemintegrität oder Fehler in Echtzeit Benachrichtigungen für einzelne Raum Systeme hilfreich, und es kann potenziell vertikales Skalieren zur Verwaltung von Tausende von Skype Raum Systemen Konferenzräume v2.
   
 Dieser Artikel enthält eine Erörterung der Anforderungen, Design-Architektur und Implementierung bewährte Methoden für die Implementierung von OMS-Verwaltung von Skype Raum Systemen v2 Konferenz Geräte und bietet Links zu ausführlichen Artikeln zur Implementierung von OMS Verwaltung für Skype Raum Systemen v2 und kritische Referenzinformationen zur kontinuierlichen Verwaltung OMS Skype Raum Systemen v2 Chatrooms. 
   
@@ -38,9 +38,9 @@ Ein Administrator mit OMS sind finde Benachrichtigungen über Skype Raum v2-basi
   
 ## <a name="oms-requirements"></a>Anforderungen für OMS
 
-Sie benötigen ein gültiges Abonnement für OMS, um diese Funktion zu verwenden. Unter [Erste Schritte mit einem Log Analytics-Arbeitsbereich](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json) erfahren Sie, wie Sie ein Abonnement für Ihre Organisation erstellen.
+Sie benötigen ein gültiges Abonnement für OMS, um diese Funktion zu verwenden. Unter [Erste Schritte mit einem Log Analytics-Arbeitsbereich](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json) erfahren Sie, wie Sie ein Abonnement für Ihre Organisation erstellen.
   
-Machen Sie sich nach Bedarf mit der Verwendung des OMS-Ansicht-Designers vertraut. Details hierzu finden Sie unter [Ansichten in Verwaltungslösungen der Operations Management Suite (OMS) (Preview)](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views).
+Machen Sie sich nach Bedarf mit der Verwendung des OMS-Ansicht-Designers vertraut. Details hierzu finden Sie unter [Ansichten in Verwaltungslösungen der Operations Management Suite (OMS) (Preview)](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-solutions-resources-views).
   
 ### <a name="related-tasks"></a>Verwandte Aufgaben
 
@@ -50,7 +50,7 @@ Machen Sie sich nach Bedarf mit der Verwendung des OMS-Ansicht-Designers vertrau
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>Einzelne Skype Raum Systemen v2 Konsole Anforderungen
 
-Jede Skype Raum Systemen v2-Konsole ist eine app auf einem Gerät Fläche 4 im Kioskmodus ausgeführt (normalerweise konfiguriert ist die einzige app handeln, die auf dem Gerät ausgeführt werden können). Wie bei jeder Windows-app schreibt die Skype Raum Systemen v2 app Ereignisse wie beim Starten und Hardware Fehlern im Windows-Ereignisprotokoll. Hinzufügen eines OMS-Agents auf dem Gerät des Skype Raum Systemen v2 ermöglicht diese Ereignisse vom OMS erfasst werden sollen. (Einzelheiten finden Sie unter [mit dem Protokoll Analytics-Dienst in Azure-Computern mit Windows verbinden](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents) .)
+Jede Skype Raum Systemen v2-Konsole ist eine app auf einem Gerät Fläche 4 im Kioskmodus ausgeführt (normalerweise konfiguriert ist die einzige app handeln, die auf dem Gerät ausgeführt werden können). Wie bei jeder Windows-app schreibt die Skype Raum Systemen v2 app Ereignisse wie beim Starten und Hardware Fehlern im Windows-Ereignisprotokoll. Hinzufügen eines OMS-Agents auf dem Gerät des Skype Raum Systemen v2 ermöglicht diese Ereignisse vom OMS erfasst werden sollen. (Einzelheiten finden Sie unter [mit dem Protokoll Analytics-Dienst in Azure-Computern mit Windows verbinden](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents) .)
   
 ## <a name="ongoing-management"></a>Laufende Verwaltung
 

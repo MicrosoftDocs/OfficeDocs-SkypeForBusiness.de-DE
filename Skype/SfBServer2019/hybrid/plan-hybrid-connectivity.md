@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Planungsüberlegungen für die Implementierung von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online oder Teams.
-ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 17a54b4d7509684f5a74fd45549e3e0f9852a6c1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696233"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838787"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Plan hybridkonnektivität zwischen Skype für Business Server und Office 365
 
@@ -76,7 +76,7 @@ Um hybridkonnektivität zwischen Ihrer lokalen Umgebung und Office 365 Kommunika
 
 - Skype für Business Server-Verwaltungstools. (Wenn Sie Lync Server 2013 oder Lync Server 2010 verwenden, können Sie die Verwaltungstools von Lync Server 2013 verwenden. Weitere Informationen finden Sie unter [Lync Server 2013-Hybridbereitstellung](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
-- Azure Active Directory Connect zum Synchronisieren Ihres lokalen Verzeichnisses mit Office 365. Weitere Informationen finden Sie unter [Azure AD-Connect: Konten und Berechtigungen](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Azure Active Directory Connect zum Synchronisieren Ihres lokalen Verzeichnisses mit Office 365. Weitere Informationen finden Sie unter [Azure AD-Connect: Konten und Berechtigungen](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
     Wenn Sie einmaliges Anmelden mit Office 365 unterstützen möchten, damit Benutzer die gleichen Anmeldeinformationen wie für die lokale Bereitstellung verwenden können, können Sie die Kennwortsynchronisierungsfunktionen von Azure Active Directory (AAD) Connect nutzen. Sie können auch die Active Directory Federation Services (AD FS) für das einmalige Anmelden mit Office 365 verwenden. 
 
@@ -240,7 +240,7 @@ In einer hybridbereitstellung muss jeder Benutzer, die Sie online home möchten 
 Beim Synchronisieren von Benutzerkonten zwischen Ihrer Bereitstellung in lokalen und online-Mandanten mit AAD verbinden, müssen Sie, auch wenn der Benutzer nicht online in verschoben werden die Active Directory-Konten für alle Skype für Business oder Lync-Benutzer in Ihrer Organisation zu synchronisieren. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.
 
 > [!IMPORTANT]
-> Benutzerverwaltung für alle, einschließlich der Benutzer wechselt zwischen lokalen und Skype für Online Business vorgenommen werden mit der neuesten installierten Version der Verwaltungstools. Auf einem separaten Server, die Zugriff mit der vorhandenen lokalen Bereitstellung und mit dem Internet verbunden wurde, müssen die Verwaltungstools installiert werden. Das Cmdlet, um Benutzer aus der lokalen Bereitstellung nach Skype für Online Business [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps), verschieben, muss über die Verwaltung für Ihre lokale Bereitstellung verbunden ausgeführt werden. Weitere Informationen zum Verschieben von Benutzern finden Sie unter [Verschieben von Benutzern aus lokal zu Skype für Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
+> Benutzerverwaltung für alle, einschließlich der Benutzer wechselt zwischen lokalen und Skype für Online Business vorgenommen werden mit der neuesten installierten Version der Verwaltungstools. Auf einem separaten Server, die Zugriff mit der vorhandenen lokalen Bereitstellung und mit dem Internet verbunden wurde, müssen die Verwaltungstools installiert werden. Das Cmdlet, um Benutzer aus der lokalen Bereitstellung nach Skype für Online Business [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps), verschieben, muss über die Verwaltung für Ihre lokale Bereitstellung verbunden ausgeführt werden. Weitere Informationen zum Verschieben von Benutzern finden Sie unter [Verschieben von Benutzern aus lokal zu Skype für Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
 
 Sie sollten auch die folgenden benutzerbezogenen Probleme bei der Planung für eine hybridbereitstellung:
 

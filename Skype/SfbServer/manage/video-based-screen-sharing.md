@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype für Business Server planen und Konfigurationsinformationen zu Bildschirmfreigabe videobasierte (VbSS)
-ms.openlocfilehash: a7ea07f02b73b1092a11f61757318d0d653e048a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375908"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839747"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Video basierten für Skype für Business Server Bildschirmfreigabe 
  
@@ -99,8 +99,8 @@ Die Zahlen in dieser Tabelle werden durch einzelne Netzwerke und den gemeinsam v
   
 |**1080p Inhalt **|**RDP Durchschnitt**|**RDP Spitzenauslastung**|**VbSS Durchschnittliche Auslastung**|**VbSS Spitzenauslastung**|
 |:-----|:-----|:-----|:-----|:-----|
-|PPT  <br/> |200 Kbit/s  <br/> |12  <br/> |100 Kbit/s  <br/> |3 Mbit/s  <br/> |
-|CAD  <br/> |3 Mbit/s  <br/> |7mbps  <br/> |1 Mbit/s  <br/> |3 Mbit/s  <br/> |
+|PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
+|CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
 |Video  <br/> |5mbps  <br/> |7mbps  <br/> |1.3mbps  <br/> |2.2mbps  <br/> |
    
 ### <a name="network-bandwidth-requirements-for-media-traffic"></a>Anforderungen hinsichtlich der Netzwerkbandbreite für Mediendatenverkehr
@@ -109,7 +109,7 @@ Die VbSS-Bandbreite beträgt:
   
 |**Videocodec**|**Auflösung und Seitenverhältnis**|**Bitrate bei maximaler Videonutzlast (KBit/s)**|**Bitrate bei minimaler Videonutzlast (KBit/s)**|
 |:-----|:-----|:-----|:-----|
-|H. 264  <br/> |1920x1080 (16:9)  <br/> (Das Bildseitenverhältnis hängt von der Bildschirmauflösung des Übertragenden ab und ist nicht immer 16:9.)  <br/> |4000  <br/> |1500  <br/> |
+|H.264  <br/> |1920x1080 (16:9)  <br/> (Das Bildseitenverhältnis hängt von der Bildschirmauflösung des Übertragenden ab und ist nicht immer 16:9.)  <br/> |4000  <br/> |1500  <br/> |
    
 ## <a name="clients-and-servers-support"></a>Client- und Serverunterstützung
 
@@ -150,7 +150,7 @@ Der große Vorteil ist, nachdem Sie die Skype für Business Server 2015 kumulier
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Wenn Sie VbSS vollständig deaktivieren möchten, können Sie folgenden Befehl ausführen:
     
@@ -158,7 +158,7 @@ Der große Vorteil ist, nachdem Sie die Skype für Business Server 2015 kumulier
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > In einer mit mehreren Teilnehmern Skype für Business Besprechung werden die Einstellung für den Organisator der Besprechung von alle Clientendpunkte berücksichtigt. 
@@ -177,7 +177,7 @@ Der große Vorteil ist, nachdem Sie die Skype für Business Server 2015 kumulier
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Wenn Sie VbSS nach dem Deaktivieren wieder aktivieren möchten (die Funktion ist standardmäßig aktiviert), können Sie folgenden Befehl ausführen:
     
@@ -185,7 +185,7 @@ Der große Vorteil ist, nachdem Sie die Skype für Business Server 2015 kumulier
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > In einer mit mehreren Teilnehmern Skype für Business Besprechung werden die Einstellung für den Organisator der Besprechung von alle Clientendpunkte berücksichtigt. 

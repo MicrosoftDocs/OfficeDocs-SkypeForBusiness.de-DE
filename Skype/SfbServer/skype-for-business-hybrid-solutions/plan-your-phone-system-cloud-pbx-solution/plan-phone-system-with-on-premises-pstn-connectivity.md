@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
-ms.openlocfilehash: 4096dde95c4cee2871e968f4e6b91d60682e73d5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374140"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839451"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server
 
@@ -37,7 +37,7 @@ Dieser Inhalt ist relevant, wenn Sie bereits Skype für Business Server oder Lyn
 - Sie haben eine lokale Bereitstellung, und Sie einige oder alle Benutzer in Skype für Business Online verschoben werden jedoch weiterhin lokale PSTN-Anbindung verwenden möchten.
 
     > [!IMPORTANT]
-    > Um erfolgreich Benutzern für Telefonsystem in Office 365 mit lokalen PSTN-Anbindung zu ermöglichen, muss ihre SIP-Adresse in Ihrer eigenen Domäne sein. Die Verwendung der Standarddomäne für Office 365, onmicrosoft.com, wird nicht unterstützt. 
+    > Um erfolgreich Benutzern für Telefonsystem in Office 365 mit lokalen PSTN-Anbindung zu ermöglichen, muss ihre SIP-Adresse in Ihrer eigenen Domäne sein. Die Verwendung der Standarddomäne für Office 365 (onmicrosoft.com) wird nicht unterstützt. 
 
 Weitere Informationen zu Telefonsystem in Office 365-Pläne und Lizenzierung einschließlich finden, finden Sie unter [PSTN aufrufen Abonnements Skype für Unternehmen](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918).
 
@@ -52,15 +52,15 @@ Cloud-Nebenstellenanlage mit lokalen PSTN-Anbindung bietet keine dieselbe Featur
 Wenn Sie Ihre Benutzer vor einer Aktualisierung der Firma von der lokalen Verwendung zur Onlinebereitstellung übertragen, können diese Benutzer mit ihren Telefonen keine Verbindung herstellen. Um dieses Problem zu beheben, müssen die Benutzer zur lokalen Umgebung zurückübertragen werden, damit ihre Telefone dort auf die minimal erforderliche Firmware aktualisiert werden. VERSUCHEN SIE NICHT; VOR DEM ZURÜCKÜBERTRAGEN DER BENUTZER ZU IHRER LOKALEN UMGEBUNG AUF DIE MINIMAL ERFORDERLICHE FIRMWARE ZU AKTUALISIEREN ODER EIN HARDRESET DER TELEFONE DURCHZUFÜHREN.
 Wenn ein Hardreset durchgeführt wird, während das Gerät nicht mit der minimal erforderlichen Firmware ausgestattet ist, nutzt das Telefon standardmäßig die PIN-Authentifizierung, die in Skype for Business Online nicht unterstützt wird. Weitere Informationen finden Sie unter [Getting Telefone für Skype für Business Online](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
 
-Durch die Bereitstellung von Telefonsystem in Office 365 mit lokalen PSTN-Anbindung können Sie Ihre Benutzer in die Cloud über Skype für Business Online in Ihrem eigenen Tempo verschieben Beibehaltung von ihren lokalen PSTN-Anbindung. Wenn Sie über eine Nebenstellenanlage verfügen, verwenden Sie weiterhin die Festnetzanbindung für die Benutzer, die Sie in die Cloud übertragen. Nachdem ein Benutzer in Skype für Business Online und Telefonsystem in Office 365 verschoben wurde, ihren legacy PBX-Telefon funktioniert nicht mehr, aber ihre Telefonnummer leitet an keines der Skype für Business-Clients für PCs oder Smartphones sowie Skype für Business-kompatiblen Telefonapparat s. Nachdem der Port, können Telefonsystem in Office 365-Benutzer und bestehende PBX-Benutzer miteinander normalerweise aufrufen sowie PSTN-Anrufe mithilfe ihrer normalen Telefonnummer müssen/empfangen.
+Durch die Bereitstellung von Telefonsystem in Office 365 mit lokalen PSTN-Anbindung können Sie Ihre Benutzer in die Cloud über Skype für Business Online in Ihrem eigenen Tempo verschieben Beibehaltung von ihren lokalen PSTN-Anbindung. Wenn Sie über eine PBX verfügen, können Sie diese weiterhin für die PSTN-Anbindung der Benutzer verwenden, die Sie in die Cloud übertragen. Nachdem ein Benutzer in Skype für Business Online und Telefonsystem in Office 365 verschoben wurde, ihren legacy PBX-Telefon funktioniert nicht mehr, aber ihre Telefonnummer leitet an keines der Skype für Business-Clients für PCs oder Smartphones sowie Skype für Business-kompatiblen Telefonapparat s. Nachdem der Port, können Telefonsystem in Office 365-Benutzer und bestehende PBX-Benutzer miteinander normalerweise aufrufen sowie PSTN-Anrufe mithilfe ihrer normalen Telefonnummer müssen/empfangen.
 
-Möglicherweise verfügen Sie über eine benutzerdefinierte Funktion oder eine wesentliche Ergänzung Ihrer bestehenden Nebenstellenanlage, zum Beispiel über ein Callcenter. Wenn die benutzerdefinierte Funktion nicht aktuell auf Telefonsystem in Office 365 verfügbar ist, sollten Sie diese Benutzer lassen, die erfordern, benutzerdefinierte Funktion mit dem vorhandene PBX und nur Port die Benutzer lokale, die nicht auf die benutzerdefinierte Funktion Telefonsystem in Office 365 zugreifen müssen mit lokalen PSTN-Anbindung.
+Möglicherweise verfügen Sie über eine benutzerdefinierte Funktion oder ein wesentliches Add-On für Ihre ältere PBX, zum Beispiel ein Callcenter. Wenn die benutzerdefinierte Funktion nicht aktuell auf Telefonsystem in Office 365 verfügbar ist, sollten Sie diese Benutzer lassen, die erfordern, benutzerdefinierte Funktion mit dem vorhandene PBX und nur Port die Benutzer lokale, die nicht auf die benutzerdefinierte Funktion Telefonsystem in Office 365 zugreifen müssen mit lokalen PSTN-Anbindung.
 
-Eine Liste der Vorversion Nebenstellenanlagen, die interagieren direkt mit Skype für Business Server 2015 finden Sie unter [Qualifizierten Infrastruktur für Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Ist der Nebenstellenanlage nicht in dieser Liste, können Sie ein Controller für die Verbindung der Nebenstellenanlage mit Telefonsystem in Office 365 in Skype für Business Online verwenden.
+Eine Liste der Vorversion Nebenstellenanlagen, die interagieren direkt mit Skype für Business Server 2015 finden Sie unter [Qualifizierten Infrastruktur für Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Ist der Nebenstellenanlage nicht in dieser Liste, können Sie ein Controller für die Verbindung der Nebenstellenanlage mit Telefonsystem in Office 365 in Skype für Business Online verwenden.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Überlegungen zum Netzwerk in Bezug auf Qualität und Leistung
 
-Bei einen Wolke gehosteter Dienst wie Telefonsystem in Office 365 mit PSTN-Anbindung: lokal bereitstellen, müssen Sie Folgendes im Hinterkopf behalten. Befinden sich in einem rein lokalen Skype für Business Server 2015 Enterprise Voice-Bereitstellung die Infrastruktur und -Clients auf das Netzwerk des Unternehmens. Qualität und die Leistung dieses Netzwerk, die für hochwertige Audio- und Video-Wiedergabe wesentlich sind, werden unmittelbar von Mitarbeitern Ihres Unternehmens kontrolliert. In das Telefonsystem in Office 365 mit lokalen PSTN-Anbindung gibt es drei Netze sind, zwei, von denen der Kunde für zuständig ist, aber nur über ein, die Enterprise-Mitarbeiter über direkte Kontrolle hat:
+Bei einen Wolke gehosteter Dienst wie Telefonsystem in Office 365 mit PSTN-Anbindung: lokal bereitstellen, müssen Sie Folgendes im Hinterkopf behalten. Befinden sich in einem rein lokalen Skype für Business Server 2015 Enterprise Voice-Bereitstellung die Infrastruktur und -Clients auf das Netzwerk des Unternehmens. Die Qualität und Leistung dieses Netzwerks, die für hochwertige Audio- und Video-Wiedergabe wesentlich sind, werden unmittelbar von Mitarbeitern Ihres Unternehmens kontrolliert. In das Telefonsystem in Office 365 mit lokalen PSTN-Anbindung gibt es drei Netze sind, zwei, von denen der Kunde für zuständig ist, aber nur über ein, die Enterprise-Mitarbeiter über direkte Kontrolle hat:
 
 - **Microsofts globale Media Delivery Networks** Globale Cloud Netzwerk- und Infrastruktur von Microsoft. Office 365 und Telefonsystem in Office 365-Servern und Datenverkehr über dieses Netzwerk übertragen.
 
@@ -75,13 +75,13 @@ Bei einen Wolke gehosteter Dienst wie Telefonsystem in Office 365 mit PSTN-Anbin
 
 Bevor Sie Telefonsystem in Office 365 mit lokalen PSTN-Anbindung und Benutzer in Skype verschieben für Business Online konfigurieren können, müssen Sie bestätigen, dass Sie die folgenden Anforderungen erfüllt sein:
 
- **Der lokale Server-Versionen.** Die Versionen der Server in der lokalen Bereitstellung müssen in der folgenden Tabelle zur Unterstützung der Telefonsystem in Office 365 mit lokalen PSTN-Anbindung aufgeführt sein.
+ **Lokale Serverversionen.** Die Versionen der Server in der lokalen Bereitstellung müssen in der folgenden Tabelle zur Unterstützung der Telefonsystem in Office 365 mit lokalen PSTN-Anbindung aufgeführt sein.
 
 
 | **Serverrolle**                                       | **Unterstützte Versionen\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | Verbund Edge\*\*  <br/>                            | Skype for Business Server 2015  <br/>                                                                              |
-| Interner Poolserver für den nächsten Hop der Partnerverbundroute  <br/> | Skype for Business Server 2015, March 2016 Cumulative Update 6.0.9319.235 or higher (Front End or Director)  <br/> |
+| Interner Poolserver für den nächsten Hop der Partnerverbundroute  <br/> | Skype for Business Server 2015, March 2016 Cumulative Update 6.0.9319.235 or higher (Front End or Director)   <br/> |
 | Front-End-Benutzerserver  <br/>                          | Skype for Business Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 | Edgeserver  <br/>                                    | Skype for Business Server 2015  <br/>                                                                              |
 | Vermittlungsserver  <br/>                               | Skype for Business Server 2015  <br/> Lync Server 2013  <br/>                                                      |
@@ -100,7 +100,7 @@ Darüber hinaus müssen Sie Folgendes sicherstellen:
 
     Wenn Sie Lync Server 2013 verwenden, finden Sie unter [Planning for Enterprise-VoIP in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) und [Bereitstellen von Enterprise-VoIP in Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Active Directory-Synchronisierung** Sie müssen Active Directory-Synchronisierung mit Azure Active Directory verbinden konfigurieren. Weitere Informationen finden Sie unter [Verwalten von Azure Active Directory verbinden](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Active Directory-Synchronisierung** Sie müssen Active Directory-Synchronisierung mit Azure Active Directory verbinden konfigurieren. Weitere Informationen finden Sie unter [Nächste Schritte und Verwalten von Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > Die von Ihnen verwendete Version von AAD Connect muss Version 1.0.9125.0 oder höher sein. Wenn Sie mit einer früheren Version der AAD Connect-Werkzeuge oder DirSync arbeiten, führen Sie ein Upgrade auf die unterstützte Version durch. Sie können aber auch ein Upgrade Ihrer aktuellen Installation durchführen und alle benutzerdefinierten Regeln beibehalten, die Sie in Ihrer Umgebung definiert haben. 

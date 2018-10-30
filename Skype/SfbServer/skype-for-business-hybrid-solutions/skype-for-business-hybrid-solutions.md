@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Hier finden Sie Informationen zur Planung einer Skype für Business hybridbereitstellung.
-ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 736902ba25fe0f2d6aa569ba6f454aa773fec202
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891233"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839444"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Skype für hybridlösungen Business
  
@@ -68,7 +68,7 @@ Das folgende Diagramm zeigt, wie Sie Skype für Business Online in Ihre vorhande
   
 ![Skype for Business-Hybridkonfiguration](../media/4580f2c8-7008-4c6e-826c-020d0f2d1636.png)
   
-Weitere Informationen finden Sie unter [hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online planen](plan-hybrid-connectivity.md) und [Bereitstellen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) und [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
 ## <a name="take-advantage-of-phone-system-in-office-365-cloud-pbx"></a>Nutzen Sie Telefonsystem in Office 365 (Cloud, PBX)
 <a name="BKMK_CloudPBX"> </a>
@@ -140,7 +140,7 @@ Integrieren von Skype für Business Server mit Exchange Online und SharePoint On
     
 - Verwenden von Skype für Unternehmen, Exchange und SharePoint integriert Features, einschließlich Unified Messaging (UM) in Office 365.
     
-Weitere Informationen finden Sie unter [Planen der Integration von Skype für Unternehmen und Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Weitere Informationen finden Sie unter [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ### <a name="exchange-server-with-skype-for-business-online"></a>Exchange Server mit Skype for Business Online
 
@@ -154,7 +154,7 @@ Integration von Exchange Server mit Skype für Business Online bietet die folgen
     
 - Verwenden Sie Skype für Business Online für Anwesenheits-, SOFORTNACHRICHTEN- und Funktionen. 
     
-Weitere Informationen finden Sie unter [Planen der Integration von Skype für Unternehmen und Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Weitere Informationen finden Sie unter [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ## <a name="tasks-for-planning-and-configuring-a-hybrid-environment"></a>Aufgaben zum Planen und Konfigurieren einer Hybridumgebung
 <a name="BKMK_Tasks"> </a>
@@ -206,24 +206,24 @@ Sie müssen auch ausführen führen Sie IT-Spezialisten Aufgaben zum Implementie
 
 Weitere Informationen finden Sie in den folgenden Ressourcen:
   
-- [Microsoft cloud-Ressourcen für IT-Architektur](https://aka.ms/clouditarch)
+- [Ressourcen zur Cloud-IT-Architektur von Microsoft](https://aka.ms/clouditarch)
     
-- [Microsoft cloudidentität für Enterprise-konstruiert](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Microsoft-Cloud-Identität für Enterprise-Architekten](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
-- [Bereiten Sie Ihre Organisation für Office 365 Enterprise](https://aka.ms/O365EntPrep)
+- [Vorbereiten Ihrer Organisation für Office 365 Enterprise](https://aka.ms/O365EntPrep)
     
 - [Planen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online](plan-hybrid-connectivity.md)
     
-- [Bereitstellen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
     
 - [Telefonsystem in Office 365 (engl.)](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Plan zur Integration von Skype for Business mit Exchange Server](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 Eine Posterversion dieses Themas können Sie hier herunterladen:
   
-- [Skype für Business-Architektur-Modelle (Pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
+- [Architekturmodelle für Skype for Business (PDF-Version)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype für Business-Architektur-Modelle (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
+- [Architekturmodelle für Skype for Business (Visio-Version)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 

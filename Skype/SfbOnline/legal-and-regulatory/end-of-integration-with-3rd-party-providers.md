@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Auf 1 April 2019, wird das Ende des Lebenszyklus Programm für die Integration von Skype für Unternehmen mit Drittanbieter-Audiokonferenzen schließt (3. Partei ACP).
-ms.openlocfilehash: c5f39570c7f570dfc4102105a72f277221356051
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 99643ae8d7ff00ffb006ec5a19ef97ab6f551d83
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865504"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839672"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Ende der Lebensdauer Programm für die Integration von Skype für Unternehmen mit Drittanbieter-Audiokonferenzen 
 
@@ -86,13 +86,13 @@ Organisationen, die entscheiden, um den Vorgang fortzusetzen, mit einem Drittanb
 
 Um die Fragmentierung von audio in Skype für Business Besprechungen, dass einige Teilnehmer über VoIP und andere über Drittanbieter-ACPS zu verhindern, empfiehlt es sich für diese Organisationen über VoIP bei ihrer Benutzer Besprechungen zu deaktivieren. Auf diese Weise müssen alle Teilnehmer zur Teilnahme an der Audiokomponente einer Besprechung mit Drittanbietern ACPS und alle anderen Arbeitslasten der Besprechung (wie Chat oder Bildschirmfreigabe) können weiterhin über Skype für Unternehmen unterstützt werden. 
 
-- Um VoIP aus allen Besprechungen der Organisator einer bestimmten zu deaktivieren, legen Sie den AllowIPAudio-Parameter der seinem Konferenzrichtlinie auf "false" über das Set-CsConferencingPolicy-Cmdlet. Weitere Informationen finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+- Um VoIP aus allen Besprechungen der Organisator einer bestimmten zu deaktivieren, legen Sie den AllowIPAudio-Parameter der seinem Konferenzrichtlinie auf "false" über das Set-CsConferencingPolicy-Cmdlet. Weitere Informationen finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
 Im Hinblick auf die Planung und ab dem 1. April 2019 wird die Einwahlinformationen einer Drittanbieter-ACP nicht mehr automatisch in Skype für Business Besprechung Invites enthalten sein. Benutzer müssen manuell hinzufügen, dass die Einwahlinformationen auf ihre Skype für Business Besprechung eingeladen werden, wenn sie diese Informationen im Rahmen ihrer Besprechungen einschließlich fortsetzen möchten. 
 
 Beachten Sie, dass auf dem 1. April 2019 vorhandenen Besprechungen von Benutzern nicht automatisch neu geplant werden werden, um alle Drittanbieter-ACP-Einwahl Informationen zu entfernen. Organisationen, die behalten möchten VoIP für Besprechungen von ihren Benutzern sollten Sie die Integration von Drittanbieter-ACP für ihre Benutzer deaktivieren und neu Planen einer Besprechung mit der Besprechung sollte aktiviert migrationsdienst zum Entfernen der Drittanbieter-Audio Konferenzen Einwahlinformationen aus vorhandenen Besprechungen und zu verhindern, dass die Fragmentierung von Audio für die bereits geplante Besprechungen. 
 
-- Um die Integration von Drittanbieter-Audiokonferenzen für einen bestimmten Organizer deaktivieren möchten, verwenden Sie das Cmdlet "Remove-CsUserAcp". Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Um die Integration von Drittanbieter-Audiokonferenzen für einen bestimmten Organizer deaktivieren möchten, verwenden Sie das Cmdlet "Remove-CsUserAcp". Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
 - Um automatisch die Besprechungen von Benutzern nach dem Deaktivieren der Integration mit einem Drittanbieter-audio Conferencing Provider hochstufen, finden Sie unter "Wie ich Besprechung Migration manuell für einen Benutzer ausgeführt?" in der [Einstellung von Besprechung Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
 
@@ -102,11 +102,11 @@ Beachten Sie, dass auf dem 1. April 2019 vorhandenen Besprechungen von Benutzern
 
 - Es wird empfohlen, vor dem 1. April 2019, um zu verhindern, dass die Audiodaten über Teilnehmer über VoIP und über einen Drittanbieter-ACP fragmentieren VoIP für alle Besprechungen aller betroffenen Benutzer deaktiviert ist. 
 
-    - Um VoIP aus allen Besprechungen der Organisator einer bestimmten zu deaktivieren, legen Sie den AllowIPAudio-Parameter der Konferenzrichtlinie des Benutzers auf "false" über das Set-CsConferencingPolicy-Cmdlet. Weitere Informationen finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    - Um VoIP aus allen Besprechungen der Organisator einer bestimmten zu deaktivieren, legen Sie den AllowIPAudio-Parameter der Konferenzrichtlinie des Benutzers auf "false" über das Set-CsConferencingPolicy-Cmdlet. Weitere Informationen finden Sie unter [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
 - Wenn eine Organisation VoIP für alle Besprechungen deaktivieren nicht, empfiehlt es sich für Benutzer deaktiviert die Skype für Business Online Integration mit einem Drittanbieter-ACP verwenden und ihre Besprechungen hochstufen die Drittanbieter-ACP-Einwahl Informationen zu entfernen verhindern, dass Fragmentierung von Audiodaten.
 
-    - Um die Integration von Drittanbieter-Audiokonferenzen für einen bestimmten Organizer deaktivieren möchten, verwenden Sie das Cmdlet " [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps) ". 
+    - Um die Integration von Drittanbieter-Audiokonferenzen für einen bestimmten Organizer deaktivieren möchten, verwenden Sie das Cmdlet " [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) ". 
 
     - Um die Besprechungen automatisch neu zu planen, finden Sie unter "Wie ich Besprechung Migration manuell für einen Benutzer ausgeführt?" in der [Einstellung von Besprechung Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
 
@@ -116,7 +116,7 @@ Organisationen, die mithilfe von einwahlkonferenzen vollständig beenden möchte
 
 Diese Organisationen müssten die Benutzer über einen Drittanbieter-Audiokonferenzen mit deaktivieren und haben ihre Besprechungen mit der Besprechung Migration automatisch neu geplant service, um ihre einwahlkonferenzen Informationen zu entfernen. 
 
-- Um die Integration von Drittanbieter-Audiokonferenzen für einen bestimmten Organizer deaktivieren möchten, verwenden Sie das Cmdlet "Remove-CsUserAcp". Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Um die Integration von Drittanbieter-Audiokonferenzen für einen bestimmten Organizer deaktivieren möchten, verwenden Sie das Cmdlet "Remove-CsUserAcp". Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
 - Um automatisch die Besprechungen von Benutzern nach dem Deaktivieren der Integration mit einem Drittanbieter-audio Conferencing Provider hochstufen, finden Sie unter "Wie ich Besprechung Migration manuell für einen Benutzer ausgeführt?" in der [Einstellung von Besprechung Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
 
@@ -124,6 +124,6 @@ Diese Organisationen müssten die Benutzer über einen Drittanbieter-Audiokonfer
 
 - Organisationen, die nicht mehr verwenden Audiokonferenzen entscheiden werden nicht vollständig vor dem 1. April 2019 beeinträchtigt.
 
-- Um die Integration von Drittanbieter-Audiokonferenzen für einen bestimmten Organizer deaktivieren möchten, verwenden Sie das Cmdlet "Remove-CsUserAcp". Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Um die Integration von Drittanbieter-Audiokonferenzen für einen bestimmten Organizer deaktivieren möchten, verwenden Sie das Cmdlet "Remove-CsUserAcp". Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
 - Um automatisch die Besprechungen von Benutzern nach dem Deaktivieren der Integration mit Drittanbieter-Audiokonferenzen hochstufen, finden Sie unter "Wie ich Besprechung Migration manuell für einen Benutzer ausgeführt?" in der [Einstellung von Besprechung Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).

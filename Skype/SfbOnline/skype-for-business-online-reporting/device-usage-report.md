@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Angenommen, Sie können die Skype für Business Gerät Verwendungsbericht verwenden, um die Geräte, einschließlich Windows-Betriebssystemen finden Sie unter und mobile Geräten, denen die Skype für Geschäfts-app installiert und es für Instant Messaging und Besprechungen verwenden. Checken Sie Aktivitätsberichte im Office 365 Administrationscenter, um mehr zu erfahren.
-ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863383"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838680"
 ---
 # <a name="device-usage-report"></a>Bericht „Gerätenutzung“
 
@@ -66,7 +66,7 @@ Sie können eine Ansicht in die Geräte zu erhalten, die der Skype verfolgen die
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktive Diagrammdaten auf das Balkendiagramm **Verteilung** um zu verstehen, Verwendung, um die Anzahl der Benutzer mit eindeutigen Geräten in Ihrer Organisation finden Sie unter. Die Gesamtzahl der **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**und **iPad** -Benutzer wird mit einem Gerät verwendet wird angezeigt. 
 ***
-![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Beispielsweise im Diagramm **Benutzer** klicken Sie, oder tippen Sie auf **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**oder **iPad** , um herauszufinden, nur die Informationen im Zusammenhang mit jedem Befehl die EINGABETASTE. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
+![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie auf ein Element in der Legende klicken. Beispielsweise im Diagramm **Benutzer** klicken Sie, oder tippen Sie auf **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**oder **iPad** , um herauszufinden, nur die Informationen im Zusammenhang mit jedem Befehl die EINGABETASTE. Durch das Ändern dieser Auswahl ändern sich die Informationen in der Rastertabelle nicht. 
 ***
 ![Nummer 6](../images/sfbcallout6.png)<br/>Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.
 *    Im Diagramm **Benutzer** ist die y-Achse die Gesamtzahl der Benutzer verbunden mit einem Gerät, das die Skype für Geschäfts-app installiert hat.
@@ -95,7 +95,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
     
 - [Bericht „Skype for Business - Aktivitäten zum Organisieren von Konferenzen"](conference-organizer-activity-report.md) : Sie können sehen, in welchem Umfang Ihre Benutzer Konferenzen organisieren, für die Chat, Audio/Video, Anwendungsfreigabe, Web, Ein-/Auswahl (Drittanbieter) und Ein-/Auswahl (Microsoft) verwendet werden.
     
-- [Skype for Business: Konferenzteilnehmer-Aktivitätsbericht](conference-participant-activity-report.md) : Sie können sehen, an wie vielen Chats, Audio/Video-Übertragungen, Anwendungsfreigaben, Webkonferenzen und Einwahl-/Auswahlkonferenzen teilgenommen wird.
+- [Skype für Teilnehmer Business-konferenzaktivitätsbericht](conference-participant-activity-report.md) Sie können sehen, wie viele Sofortnachrichten, Audio/Video, Anwendungsfreigabe, Web und Konferenzen/Dial-Out Konferenz sind beteiligt wird.
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
@@ -108,7 +108,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

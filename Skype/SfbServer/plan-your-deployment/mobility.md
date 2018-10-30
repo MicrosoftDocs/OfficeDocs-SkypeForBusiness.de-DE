@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Plan für die Implementierung von Mobilität für Skype für Business Server.
-ms.openlocfilehash: 660f5013cd2e41ea08fdd2567fb9d51f58c1b8c6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003007"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839381"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planen Sie für die Mobilität Skype für Business Server
  
@@ -50,7 +50,7 @@ Das Mobilitätsfeature für Skype für Business Server kann zur Unterstützung v
 Bei allen diesen Funktionen kommt die Unified Communications-Web-API (UCWA) zum Einsatz. UCWA wurde in Lync Server 2013 eingeführt, und es ist noch in Verwendung für Skype für Business Server. Es ist eine zusätzliche Funktionalität für die Kommunikation mit Lync 2010-Clients und Mobility Service ("MCX") ist. Dies sind kostenlosen Dienste, die für Lync Server 2010 und 2013-Clients sowie Skype für Business-Clients erfolgreich Skype für Business Server-Bereitstellungen Zugriff auf zulassen.
   
 > [!NOTE]
-> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren. 
+> Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
   
 Es ist wichtig, beachten Sie, dass während alle diese Features zur Verfügung stehen, nachdem Mobilität implementiert wurde, sie ein wenig anders einige Geräte arbeiten können. Wir haben eine Website, die erläutert, welche Features auf welchen Geräten, unter [Mobile Client Featurevergleich für Skype für Unternehmen](clients-and-devices/mobile-feature-comparison.md)arbeiten. Wir haben auch einige hervorragende Gerät und Betriebssystem-Informationen unter [Planen von Clients und Geräten](clients-and-devices/clients-and-devices.md).
   
@@ -96,7 +96,7 @@ Es gibt vier Dienste, die Mobilität für Skype für Business Server umfassen:
     Unterstützt Skype für Business-Funktionen wie Sofortnachrichten, Anwesenheit und Kontakte auf mobilen Geräten. Der mobilitätsdienst ist auf jedem Front-End-Server in jedem Pool installiert, die für die Unterstützung von Skype für Business-Funktionen auf mobilen Geräten vorgesehen ist. Bei der Installation von Skype für Business Server 2015 wird ein neues virtuelles Verzeichnis ("MCX") unter der internen und externen Websites auf Front-End-Servern erstellt.
     
     > [!NOTE]
-    > MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
+    > Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
   
 - **AutoErmittlungsdienst**
     
@@ -197,7 +197,7 @@ Wenn Sie eine Topologie für Skype Business Server nutzen, die ein Hardwaregerä
   
 Wenn Sie Skype für mobile Clients Business nur über das interne Wi-Fi-Netzwerk unterstützen möchten, sollten Sie Ihre interne Web Services-Ends für Quelle konfigurieren, wie für externe Web Services-Ends beschrieben. In diesem Fall sollten Sie verwenden Source_addr (oder TCP) Affinität für die interne Web Services-Ends auf die Hardwaregeräts zum Lastenausgleich.
   
-Weitere Informationen zu diesen Überprüfen der Dokumentation [zum Lastenausgleich Anforderungen für Skype für Unternehmen](network-requirements/load-balancing.md) .
+Ausführlichere Informationen hierzu finden Sie in der Dokumentation zu [Load balancing requirements for Skype for Business](network-requirements/load-balancing.md).
   
 ### <a name="reverse-proxy-requirements"></a>Anforderungen an den Reverseproxy
 
@@ -233,7 +233,7 @@ Pushbenachrichtigungen werden für mobile Anwendungen verwendet, die diese Funkt
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>Möchten Sie alle Ihre Benutzer den Zugriff auf alle Features für Mobilität, oder möchten Sie die Benutzer angeben, die diese Funktionen stattdessen zugreifen können?
 
-Wir haben die Tabelle, die Ihnen bei der einige der Features, die für alle Benutzer verfügbar sind und als Standard verwenden, ob sie, wie oder nicht festgelegt sind. Eine vollständige Liste finden Sie [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+Wir haben die Tabelle, die Ihnen bei der einige der Features, die für alle Benutzer verfügbar sind und als Standard verwenden, ob sie, wie oder nicht festgelegt sind. Die vollständige Liste finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
   
 > [!NOTE]
 > Alle diese Funktionen gelten global, für bestimmte Standorte oder für bestimmte Benutzer. 

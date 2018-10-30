@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Zusammenfassung: Bereitstellung der Skype für Business Web App und Skype Besprechungen App mit Skype für Unternehmen verwendet.'
-ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 13facacfc2e42ec45e29aae1c1006c792ef6ac1e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699537"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839226"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Bereitstellen Sie herunterladbare Webclients in Skype für Business Server
 
@@ -75,7 +75,7 @@ Die Skype für Business Web App und Skype Besprechungen App unterstützen mehrst
 
 Das BranchCache-Feature in Windows 7 und Windows Server 2008 R2 kann Skype für Web-Geschäfts-App-Webkomponenten beeinträchtigen. Um Probleme für Skype für Business Web App-Benutzer zu verhindern, sicher, dass BranchCache nicht aktiviert ist.
 
-Ausführliche Informationen zu BranchCache deaktivieren finden Sie im [Bereitstellungshandbuch für BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+Ausführliche Informationen zu BranchCache deaktivieren finden Sie im [Bereitstellungshandbuch für BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Überprüfen der Skype für Business Web App-Bereitstellung
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ Dieses Verfahren ist optional und gilt für Skype für Business Server 2015 CU5 
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Die an Microsoft gesendeten Informationen entsprechen genau den Angaben unter [Skype for Business-Datensammlungsmethoden](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Die an Microsoft gesendeten Informationen entsprechen genau den Angaben unter [Skype for Business-Datensammlungsmethoden](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Legen Sie den Timeoutwert vor zurückgreifen auf die lokal gehosteten Skype Business Web App wünschen Verbindung, wenn CDN nicht verfügbar ist. Der Standardwert entspricht 6 Sekunden. Wenn der Wert auf 0 festgelegt ist, tritt kein Timeout ein.
 

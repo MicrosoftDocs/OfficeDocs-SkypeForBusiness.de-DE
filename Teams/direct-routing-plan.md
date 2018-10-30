@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017615"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839479"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
 
@@ -74,9 +74,9 @@ Anforderungen an die Infrastruktur für die unterstützten SBCs, Domänen und an
 |Öffentlichen DNS-Eintrag für den SBC |Einen öffentlichen DNS-Eintrag der öffentlichen IP-Adresse den FQDN SBC zuordnen. |
 |Öffentliche vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für die SBC für die gesamte Kommunikation mit direktem Routing verwendet werden soll. Weitere Informationen finden Sie unter [Öffentliche vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc).|
 |Verbindungspunkte zum direkten weiterleiten |Die Verbindungspunkte für direkte Routing sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globale FQDN muss zuerst getestet werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundären FQDN, ordnet geografisch die zweite Region Priorität.<br/>`sip3.pstnhub.microsoft.com`– Tertiäre FQDN, ordnet geografisch die dritte Priorität Region.<br/><br/>Informationen zu konfigurationsanforderungen, finden Sie unter [SIP-Signale: FQDNs und Firewallports](#sip-signaling-fqdns-and-firewall-ports).|
-|Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport-Profil|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Lizenzierung und sonstige Anforderungen 
@@ -113,7 +113,7 @@ Die folgende Tabelle enthält Beispiele für DNS-Namen für den Mandanten regist
 
 |**DNS-name**|**Kann für SBC-FQDN verwendet werden**|**Beispiele für die FQDN-Namen**|
 |:--- |:--- |:--- |
-"contoso.com"|Ja|**Gültige Namen:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>"Europe.contoso.com"|
+contoso.com|Ja|**Gültige Namen:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>"Europe.contoso.com"|
 |Contoso.onmicrosoft.com|Nein|<br/>Mit *. onmicrosoft.com Domänen wird nicht unterstützt, für die Namen von SBC
 
 Wird davon ausgegangen Sie, dass Sie einen neuen Domänennamen verwenden möchten. Ihres Mandanten hat beispielsweise "contoso.com" als ein Domänennamen in Ihrem Mandanten registriert, und Sie sbc1.sip.contoso.com verwenden möchten. Bevor Sie einen SBC mit dem Namen sbc1.sip.contoso.com Kopplung können, müssen Sie die Domäne Name sip.contoso.com in "Domänen" in Ihrem Mandanten registrieren. Wenn Sie versuchen, eine Kopplung einen SBC mit sbc1.sip.contoso.com vor den Domänennamen registrieren, erhalten Sie die folgende Fehlermeldung: "Können die Domäne"sbc1.sip.contoso.com"wie verwenden sie nicht für diesen Mandanten konfiguriert wurde."

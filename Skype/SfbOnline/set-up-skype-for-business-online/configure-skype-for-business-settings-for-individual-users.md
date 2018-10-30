@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: f99c99fc291a2df71a3e47448e3cc8fcf01e371f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e686e42771b22d7c8d8b21ac05998bbbd5f9ad7e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370915"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838951"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren
 
@@ -63,11 +63,11 @@ Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/ar
     
 |**Option**|**Details**|
 |:-----|:-----|
-|Audio und HD-Video  <br/> |Zulassen, dass diese Person Audiobesprechungen bzw. Audio- und Videobesprechungen aufzeichnen kann, oder die Planung von Besprechungen für keinen Benutzer zulassen (Keiner).  <br/> |
+|Audio und HD-Video  <br/> |Diese Person audio Besprechungen aufzuzeichnen, Audio- und Videodaten Besprechungen zulassen oder nicht ermöglicht es ihnen, alle Besprechungen (kein Rahmen) planen.  <br/> |
 |Unterhaltungen und Besprechungen aufzeichnen  <br/> |Wählen Sie aus, was diese Person aufzeichnen darf.  <br/> Diese Option ist nicht mit Skype für Business Basic verfügbar.  <br/> |
-|Nicht archivierte Funktionen aus Konformitätsgründen deaktivieren  <br/> | Wählen Sie diese Option aus, wenn Sie rechtlich zur Aufbewahrung elektronisch gespeicherter Informationen verpflichtet sind. <br/>  Durch Auswählen dieser Option wird deaktiviert Features, die erfasst werden nicht, wenn Sie eine [Compliance-Archiv](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) im Exchange Administrationscenter in eingerichtet haben. Die folgenden Features werden deaktiviert: <br/>  Dateiübertragung mittels Chat <br/>  Freigegebene OneNote-Seiten <br/>  PowerPoint-Anmerkungen <br/> |
+|Nicht archivierte Funktionen aus Konformitätsgründen deaktivieren  <br/> | Wählen Sie diese Option aus, wenn Sie rechtlich zur Aufbewahrung elektronisch gespeicherter Informationen verpflichtet sind. <br/>  Durch Auswählen dieser Option wird deaktiviert Features, die erfasst werden nicht, wenn Sie eine [Compliance-Archiv](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) in der Exchange-Verwaltungskonsole eingerichtet haben. Die folgenden Features werden deaktiviert: <br/>  Dateiübertragung mittels Chat <br/>  Freigegebene OneNote-Seiten <br/>  PowerPoint-Anmerkungen <br/> |
    
-Um diese Einstellung als Massenbearbeitung zu konfigurieren, verwenden Sie PowerShell. Weitere Informationen finden Sie unter [Verwalten von Richtlinien in Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+Verwenden Sie zum Konfigurieren dieser Einstellungen in einer Sammeloperation PowerShell. Finden Sie unter [Verwalten von Richtlinien in Skype für Business Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
   
 ## <a name="block-external-communications"></a>Sperren der externen Kommunikation
 <a name="__toc325019206"> </a>
@@ -84,7 +84,7 @@ Nachdem Sie die [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzu
     
 3. Klicken Sie auf **Speichern**.
     
-Um diese Einstellung als Massenbearbeitung zu konfigurieren, verwenden Sie PowerShell. Weitere Informationen finden Sie unter [Verwalten von Kommunikationen in Skype for Business Online mit externen Benutzern und Organisationen](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+Verwenden Sie zum Konfigurieren dieser Einstellungen in einer Sammeloperation PowerShell. Finden Sie unter [Verwalten der Kommunikation in Skype für Business Online mit externen Benutzern und Organisationen](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Bearbeiten von Audiokonferenzen-Einstellungen für einen Benutzer
 <a name="__toc314837483"> </a>

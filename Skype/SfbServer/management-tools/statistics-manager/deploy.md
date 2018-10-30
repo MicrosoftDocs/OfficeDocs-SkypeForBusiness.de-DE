@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Statistiken-Managers für Skype für Business Server 2015.'
-ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28ee68cc8770660587cb7d22d2ddd68c754a4fca
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371141"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838578"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Bereitstellen von Statistics Manager für Skype for Business Server 2015
+# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
  
 **Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Statistiken-Managers für Skype für Business Server 2015.
   
@@ -68,7 +68,7 @@ Um den Hostcomputer vorzubereiten, müssen Sie das Redis-System für die InMemor
     
     Nicht signierte Installer können hier heruntergeladen werden[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Falls erforderlich, stehen signierte Binärdateien über beliebte Paket-Managern: [Nuget](https://www.nuget.org/packages/Redis-64/) und [Choclatey](https://chocolatey.org/packages/redis-64).
+    Bei Bedarf sind signierte Binärdateien über häufig verwendete Paketmanager verfügbar: [Nuget](https://www.nuget.org/packages/Redis-64/) und [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Führen Sie die bereitgestellte MSI-Datei aus und folgen Sie den Aufforderungen.
     
@@ -212,7 +212,7 @@ Mit dem folgenden Befehl können Sie alle Optionen anzeigen:
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Führen Sie das folgende Skript aus, um die Informationen zu den aktuell importierten Servern anzuzeigen:  
+Um Ihre gerade importierten Serverinformationen anzuzeigen, führen Sie das folgende Skript aus: 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -299,12 +299,12 @@ Microsoft empfiehlt dringend die Verwendung eines Zertifikats, das von einer ver
 
 Weitere Informationen finden Sie unter den folgenden Themen:
   
-- [Planen der Business Server 2015 für Statistiken Manager für Skype](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Aktualisieren von Statistics Manager für Skype for Business Server 2015](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server 2015](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
-- [Skype für Business Server Statistiken Manager-blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog zu Statistics Manager für Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
     
 
