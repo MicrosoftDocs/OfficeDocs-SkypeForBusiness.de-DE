@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839479"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849406"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
 
@@ -221,16 +221,12 @@ Der Portbereich von des Prozessors Medien wird in der folgenden Tabelle gezeigt:
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Unterstützte Session Border Controller (SBCs)
 
-Microsoft unterstützt nur den zertifizierten SBC mit direktem Routing ein. Da Enterprise-VoIP für Unternehmen wichtig ist, Microsoft führt intensiven Tests mit den ausgewählten SBCs und kann mit den Herstellern SBC sicherstellen, dass die zwei Systeme kompatibel sind. 
+Microsoft unterstützt nur zertifizierten SBCs mit direktem Routing ein. Da Enterprise-VoIP für Unternehmen wichtig ist, Microsoft führt intensiven Tests mit den ausgewählten SBCs und kann mit den Herstellern SBC sicherstellen, dass die zwei Systeme kompatibel sind. 
 
-Geräte, die überprüft wurden, werden als zertifiziert für Teams direkten Routing aufgelistet. Die zertifizierte Geräte werden garantiert in allen Szenarien arbeiten. Es gibt auch eine gemeinsame supportprozesse zwischen Microsoft und die SBC-Anbietern hergestellt.  
+Geräte, die überprüft wurden, werden als zertifiziert für Teams direkten Routing aufgelistet. Die zertifizierte Geräte werden garantiert in allen Szenarien arbeiten. 
 
-Zu den Herstellern zurzeit zertifiziert wird:
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Menüband-Kommunikation (früher von Sonus):
-   - [SBC-Edge-Serie](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC-Core-Serie](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel ist die SBCs für das Unternehmen nicht verkaufen, aber ihre SBC zertifiziert ist.  
+Weitere Informationen zu unterstützten SBCs finden Sie unter [Liste der Session Border Controller certified zum direkten weiterleiten](direct-routing-border-controllers.md).
+
  
 ## <a name="see-also"></a>Siehe auch
 
