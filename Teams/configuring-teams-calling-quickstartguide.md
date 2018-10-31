@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015933"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851476"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams
 ==============================================================
@@ -35,25 +35,33 @@ Lesen Sie die Ankündigung vom 12. Dezember 2017 zu Anrufplänen in Microsoft 
 Durch Hinzufügen von Anrufplänen – einer Office 365-Funktion, die von Skype for Business unterstützt wird – können Sie jetzt mit Microsoft Teams Festnetz- und Mobiltelefone über das Telefonfestnetz (Public Switched Telephone Network, PSTN) anrufen oder von diesen angerufen werden.
 
 ![Anrufe in Microsoft Teams](media/Calling_in_Teams.png)
-
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Voraussetzungen für das Aktivieren der Registerkarte **Anrufe** in Microsoft Teams
-Um die Registerkarte **Anrufe** in Microsoft Teams zu aktivieren und Ihren Benutzern das Tätigen und Empfangen von PSTN-Anrufen zu ermöglichen, müssen Sie Benutzer für das Telefonsystem und Anrufpläne bereitstellen. Eine entsprechende Anleitung finden Sie unter [Einrichten von Anrufplänen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
-
-## <a name="teams-interop-policy-configuration"></a>Konfiguration der Interop-Richtlinie für Microsoft Teams
-Um in Microsoft Teams Anrufe empfangen zu können, müssen Sie die Upgraderichtlinie und die Interop-Richtlinie für Microsoft Teams aktualisieren. Verwenden Sie dazu das [Admin Center für Microsoft Teams und Skype for Business](https://aka.ms/teamsadmincenter) oder eine Windows PowerShell-Remotesitzung und die Skype for Business-Cmdlets [`*-CsTeamsUpgradePolicy` und `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype), um Anrufe an Microsoft Teams umzuleiten.
-
-Weitere Informationen zur Upgraderichtlinie und zur Interop-Richtlinie für Microsoft Teams finden Sie unter [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
-
-> [!TIP]
-> Die benötigten PowerShell-Cmdlets finden Sie, indem Sie „CsTeamsUpgradePolicy“ oder „CsTeamsInteropPolicy“ in das Feld **Filter** in der [Dokumentation zu den PowerShell-Cmdlets für Skype for Business](https://docs.microsoft.com/powershell/module/skype) eingeben.
-
-### <a name="default-teams-upgrade-and-interop-policies"></a>Standardmäßige Upgrade- und Interop-Richtlinien für Microsoft Teams
-Microsoft Teams enthält eine Standardrichtlinienkonfiguration, die sicherstellen soll, dass vorhandene Geschäftsworkflows bei der Bereitstellung von Microsoft Teams nicht gestört werden. VoIP-, PSTN- und Partneranrufe an Ihre Benutzer werden standardmäßig weiterhin an Skype for Business weitergeleitet, bis Sie die Richtlinie aktualisieren, um eingehende Anrufe in Microsoft Teams zu aktivieren. Dadurch werden unbeabsichtigte Unterbrechungen der VoIP-Dienste vermieden, wenn Sie mit dem Pilotprojekt und der Bereitstellung von Microsoft Teams beginnen.
-
-Für die Upgraderichtlinie für Microsoft Teams wird standardmäßig der Legacymodus beibehalten. In diesem Modus wird die Interop-Richtlinie für Microsoft Teams bei der Entscheidung berücksichtigt, wohin Chats und Anrufe weitergeleitet werden sollen: zu Microsoft Teams oder zu Skype for Business.
+Zum Aktivieren der Registerkarte **Anrufe** in Teams benötigen Benutzer 1:1 aktiviert werden, Teams aufrufen und Verwenden von Clientidentität Teams, die 1:1-Teams aufrufen unterstützt. Weitere Informationen zum Verwalten von 1:1 einwählen, Teams lesen Sie [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Um zu erfahren, welche Clients aufrufen unterstützen, lesen Sie [Grenzwerte und Spezifikationen für Microsoft-Teams](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
 
 > [!NOTE]
-> Die Verhaltensweisen der Upgraderichtlinie und der Interop-Richtlinie für Microsoft Teams werden in Kürze geändert. Dies wird unter [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) beschrieben.
+> Derzeit wird Voicemail in der Registerkarte Anrufe nicht verfügbar, wenn der Benutzer für PSTN-Anrufe aktiviert ist. 
+
+## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Voraussetzungen für das **Wähltastenfeld** im Teams aktivieren
+Zum Aktivieren der Registerkarte **Wähltastatur** in Teams und ermöglichen die Benutzer das tätigen und annehmen von PSTN-Anrufe müssen Sie die Bereitstellung von Benutzern für Telefonsystem und plant aufrufen. Zum Aufrufen von plant einrichten finden Sie unter [Einrichten von plant aufrufen](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans).
+
+> [!NOTE]
+> Sie können auch direkten Routing zulassen, dass Ihre Benutzer zu Erf und PSTN-Anrufe empfangen. Weitere Informationen zum Einrichten der direkten Routing lesen Sie [Direkten Routing konfigurieren](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
+
+## <a name="teams-interop-policy-configuration"></a>Konfiguration der Interop-Richtlinie für Microsoft Teams
+Um Teams beginnen annehmen von Anrufen zu aktivieren, müssen Sie zum Aktualisieren des Teams und Teams Interop-Richtlinie, über [Microsoft-Teams & Skype für Business-Verwaltungskonsole](https://aka.ms/teamsadmincenter) oder mithilfe von remote Windows PowerShell-Sitzung mit der Skype für Unternehmen [ `*-CsTeamsUpgradePolicy`und `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) -Cmdlets zum Umleiten von Anrufen an Teams.
+
+Weitere Informationen zu Upgrades Teams und Teams Interop-Richtlinie finden Sie unter [Migration und Interoperabilität Anleitungen für Organisationen mit Teams zusammen mit Skype für Unternehmen](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
+
+> [!TIP]
+> Um den PowerShell-Cmdlets zu suchen, die Sie benötigen, geben Sie "CsTeamsUpgradePolicy" oder "CsTeamsInteropPolicy" im Feld **Filter** in der [Skype für Business PowerShell-Cmdlet-Dokumentation](https://docs.microsoft.com/powershell/module/skype).
+
+### <a name="default-teams-upgrade-and-interop-policies"></a>Standard-Teams Upgrade und Interop-Richtlinien
+Microsoft Teams enthält eine Standardrichtlinienkonfiguration, die sicherstellen soll, dass vorhandene Geschäftsworkflows bei der Bereitstellung von Microsoft Teams nicht gestört werden. VoIP-, PSTN- und Partneranrufe an Ihre Benutzer werden standardmäßig weiterhin an Skype for Business weitergeleitet, bis Sie die Richtlinie aktualisieren, um eingehende Anrufe in Microsoft Teams zu aktivieren. Dadurch werden unbeabsichtigte Unterbrechungen der VoIP-Dienste vermieden, wenn Sie mit dem Pilotprojekt und der Bereitstellung von Microsoft Teams beginnen.
+
+Upgrade Richtlinie in der Standardeinstellung ist bei legacy-Modus, die berücksichtigt werden Teams Interop-Richtlinie, um festzustellen, wo Chats und Anrufe weitergeleitet werden – stehen aufbewahrt Teams Teams oder Skype für Unternehmen.
+
+> [!NOTE]
+> Die Verhalten des Teams aktualisieren Richtlinie und Teams Interop-Richtlinie wird bald ändern, wie beschrieben in [Migration und Interoperabilität Anleitungen für Organisationen mit Teams zusammen mit Skype für Unternehmen](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 So sieht die Standardkonfiguration der Interop-Richtlinie für Microsoft Teams aus:
 
@@ -70,19 +78,19 @@ Die Standardkonfiguration sieht die folgenden Verhaltensweisen vor:
 > Für Benutzer, für die Telefonsystem- und Anrufplanlizenzen zur Verwendung mit Skype for Business Online bereitgestellt sind und für die die standardmäßige globale Interop-Richtlinie für Microsoft Teams konfiguriert ist, gilt Folgendes. Die Registerkarte „Anrufe“ in Microsoft Teams ist aktiviert, und sie können ausgehende PSTN-Anrufe tätigen, ohne dass Administratoren tätig werden müssen.
 
 ## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>Konfigurieren von Microsoft Teams für den Empfang von eingehenden PSTN-Anrufen
-Um eingehende PSTN-Anrufe in Microsoft Teams zu empfangen, müssen Sie Microsoft Teams als Standardanwendung für Anrufe konfigurieren. Wenden Sie dazu die Upgraderichtlinie für Microsoft Teams mit der entsprechenden Interop-Richtlinie für Microsoft Teams an, die den Parameter `CallingDefaultClient` auf „Teams“ festlegt.
+Wenn in Teams eingehende PSTN-Anrufe annehmen möchten, müssen Sie Teams als Standardgerät für Anrufe Anwendung durch die Anwendung Teams Upgrade Gruppenrichtlinien mit der entsprechenden Teams Interop-Richtlinie, die festlegt konfigurieren `CallingDefaultClient` Parameter Teams.
 
 > [!IMPORTANT]
 > Wir empfehlen, diese Konfiguration zunächst auf eine Gruppe von Benutzern anzuwenden. Dann können sich diese Benutzer mit den nützlichen neuen Anruffunktionen in Microsoft Teams vertraut machen, bevor Sie allgemeinere oder die ganze Organisation betreffende Änderungen vornehmen.
 
-Wenn Sie weiterhin die Legacyupgraderichtlinie für Microsoft Teams verwenden möchten, leiten Sie mit der folgenden vorkonfigurierten Interop-Richtlinie für Microsoft Teams eingehende PSTN-Anrufe an Microsoft Teams weiter:
+Wenn Sie weiterhin der Richtlinie der Vorversion Upgrade Teams verwenden auswählen, verwenden Sie die folgenden vorkonfigurierte Teams Interop-Richtlinie eingehenden PSTN-Anrufe zu Teams weiterleiten:
 
     Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
     AllowEndUserClientOverride : False
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
-Wenn Sie die aktualisierte Upgraderichtlinie für Microsoft Teams verwenden möchten, müssen Sie Ihren Benutzern den Modus „TeamsOnly“ zuweisen.
+Wenn Sie die aktualisierte Teams Richtlinie Upgrade verwenden, müssen Sie TeamsOnly Modus, die Benutzern zugewiesen.
 
 Die oben gezeigte Richtlinie legt die folgenden Verhaltensweisen fest:
 * **Für bestehende Skype for Business-Kunden** leitet diese Richtlinie eingehende Anrufe an Microsoft Teams um. Dies gilt sowohl für VoIP-Anrufe (aus Microsoft Teams und Skype for Business) als auch für PSTN-Anrufe. 
@@ -91,12 +99,12 @@ Die oben gezeigte Richtlinie legt die folgenden Verhaltensweisen fest:
 > [!WARNING]
 > Zurzeit wirkt sich das Ändern von `CallingDefaultClient` in Microsoft Teams auch auf Anrufe an Skype for Business-IP-Telefone aus. Eingehende Anrufe werden nicht an den Telefonen empfangen und klingeln nur bei Microsoft Teams-Clients. Weitere Informationen zu vorhandenen zertifizierten SIP-Telefonen finden Sie unter [Von Skype for Business zu Microsoft Teams: Roadmap der Funktionen](https://aka.ms/skype2teamsroadmap).
 
-### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Konfigurieren von Benutzern für den Empfang von PSTN-Anrufen in Microsoft Teams
-Wenn Sie die Legacyupgraderichtlinie für Microsoft Teams verwenden, wenden Sie die Interop-Richtlinie für Microsoft Teams wie oben beschrieben über eine Windows PowerShell-Remotesitzung mit Skype for Business an, um Anrufe an Microsoft Teams umzuleiten:
+### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Zum Konfigurieren von Benutzern Empfang von PSTN-Anrufe in Teams
+Bei Verwendung der Richtlinie der Vorversion Upgrade Teams gelten Sie die Teams Interop-Richtlinie wie oben über Skype für Business remote Windows PowerShell-Sitzung zum Umleiten von Anrufen an Teams beschrieben:
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-Wenn Sie den Modus „TeamsOnly“ verwenden möchten, können Sie den Koexistenzmodus des Benutzers im Admin Center für Microsoft Teams und Skype for Business oder über eine Windows PowerShell-Remotesitzung mit Skype for Business in „TeamsOnly“ ändern, um Anrufe an Microsoft Teams umzuleiten:
+Wenn Sie entscheiden, TeamsOnly-Modus verwenden, können Sie die Benutzermodus Koexistenz zu TeamsOnly über Microsoft-Teams & Skype für Business-Verwaltungskonsole oder über Skype für Business remote Windows PowerShell-Sitzung zum Umleiten von Anrufen an Teams ändern:
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
@@ -104,7 +112,7 @@ Wenn Sie den Modus „TeamsOnly“ verwenden möchten, können Sie den Koexisten
 ## <a name="see-also"></a>Siehe auch
 [Einrichten von Anrufplänen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Hinweise zur Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Praktische Anleitungen für Telefonsysteme mit Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 
