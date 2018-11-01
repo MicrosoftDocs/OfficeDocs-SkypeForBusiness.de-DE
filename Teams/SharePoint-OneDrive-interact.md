@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869adf9401e3704cc78de5f646b0b9e676e8efe9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1c7cddeb2ee125fa54cc7db353c83157bec90d76
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016525"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890548"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams
 =============================================================================
@@ -47,10 +47,10 @@ Für jedes Team wird eine SharePoint-Website und der Standardordner **Freigegebe
 > Es ist zurzeit nicht möglich, die standardmäßige SharePoint-Website und -Dokumentbibliothek durch eine andere zu ersetzen. Sie haben uns mitgeteilt, dass Sie sich diese Möglichkeit wünschen, und wir ziehen sie in Erwägung. In der [Microsoft Teams-Roadmap](https://aka.ms/teamsroadmap) oder auf der [Microsoft Teams-UserVoice](https://aka.ms/TeamsUserVoice)-Website finden Sie Informationen zu geplanten Funktionen.
 
 > [!TIP]
-> Hinzufügen eine Registerkarte an Ihr Team, dass Links zu einer vorhandenen SharePoint-Website oder in Ihrer vorhandenen SharePoint-Dokumentbibliothek:
+> Hinzufügen eine Registerkarte an Ihr Team, die zu einer vorhandenen SharePoint-Website-Seite oder in Ihrer vorhandenen SharePoint-Dokumentbibliothek verknüpft:
 > 1. Wählen Sie das Pluszeichen (+) neben den Registerkarten.
-> 2. Wählen Sie die **Website**aus.
-> 3. Geben Sie einen Namen ein, und geben Sie die URL der SharePoint-Website oder Bibliothek.
+> 2. Wählen Sie **SharePoint** für eine vorhandene Seite der SharePoint-Website oder **Dokumentbibliothek** für eine vorhandene Dokumentbibliothek.
+> 3. Wählen Sie aus der entsprechenden Seite oder -Dokumentbibliothek.
 
 Für jeden Benutzer wird der OneDrive-Ordner **Microsoft Teams-Chatdateien** zum Speichern aller innerhalb der in privaten Chats für andere Benutzer (1:1 oder 1:viele) freigegebenen Dateien mit automatisch konfigurierten Berechtigungen verwendet, um den Zugriff auf den gewünschten Benutzer zu beschränken.
 

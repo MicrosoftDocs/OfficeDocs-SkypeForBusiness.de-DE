@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f78876064ae50221562bd42b334545f627a02fb
-ms.sourcegitcommit: 9138325ba2652a9ee3602d259de811082080e358
+ms.openlocfilehash: 7411494c3baa56c1761ee3bcd69c2d49fdd4a961
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842076"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890564"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 
@@ -116,4 +116,6 @@ Sie können einen Koexistenzmodus angeben: **nur Teams**, **Inseln** (Teams und 
 
 Hier können Sie wählen Sie die app, mit denen Benutzer teilnehmen Skype für Unternehmen Besprechungen (Skype für Geschäftskunden und die [Skype Besprechungen App](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Diese Einstellung ist nicht die Einstellung für die Koexistenz abhängig.
 
+## <a name="how-can-i-tell-which-features-are-available"></a>Wie kann ich feststellen, welche Features verfügbar sind?
 
+Finden Sie unter der [Wegweiser für Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) für Informationen zu neuen Features von Teams. Weitere Informationen zu neuen und in Kürze verfügbare Funktionen finden Sie unter der [Tech Center für Microsoft-Teams, Community-Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) für Teams und der Seite Teams [What's New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) . 

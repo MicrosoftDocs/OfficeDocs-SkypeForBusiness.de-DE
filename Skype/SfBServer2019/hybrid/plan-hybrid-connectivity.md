@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Planungsüberlegungen für die Implementierung von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online oder Teams.
-ms.openlocfilehash: d3726c2975056499ec61e12b4dd8d63f63beb3e9
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849362"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890571"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Plan hybridkonnektivität zwischen Skype für Business Server und Office 365
 
@@ -22,7 +22,7 @@ ms.locfileid: "25849362"
 
 Lesen Sie in diesem Thema erfahren, wie hybridkonnektivität zwischen Skype für Business Server und Teams oder Skype für Business Online zu planen. Einrichten von hybridkonnektivität ist der erste Schritt beim Verschieben Ihrer lokalen Umgebung in der Cloud.
 
-Wenn Sie eine lokale Umgebung und Teams verwenden, müssen Benutzer, die in Skype für Unternehmen lokal verwaltet werden nicht die Möglichkeit zum interagieren mit Skype für Unternehmensbenutzer noch kommunizieren mit Benutzern in Partnerorganisationen. Um diese Funktionalität in Teams zu erhalten, müssen diese Benutzer in die Cloud Die erforderlich sind, Konfigurieren von Skype für Business Hybrid-Modus von Skype für Business lokal verschoben werden. Darüber hinaus sollten die beste wünschen, diese Benutzer im Modus nur Teams sein, die gewährleistet alle eingehenden Anrufe und chats aus Flächen, die Benutzer in der Client des Benutzers Teams.
+Wenn Sie lokale Skype für Unternehmensbenutzer, die auch Teams (nebeneinander) verwenden verfügen, diese Benutzer müssen nicht die Möglichkeit zum interagieren mit Skype für Unternehmensbenutzer von ihrem Teams Client noch kommunizieren mit Benutzern in Partnerorganisationen, deren Teams-Client. Um diese Funktionalität in Teams zu erhalten, müssen diese Benutzer in die Cloud Die erforderlich sind, Konfigurieren von Skype für Business Hybrid-Modus von Skype für Business lokal verschoben werden. Darüber hinaus sollten die beste wünschen, diese Benutzer im Modus nur Teams sein, die gewährleistet alle eingehenden Anrufe und chats aus Flächen, die Benutzer in der Client des Benutzers Teams.
 
 Einrichten von hybridkonnektivität und verschieben alle Benutzer in der Cloud ist auch erforderlich, bevor Sie Ihre lokale Skype für die Business-Bereitstellung außer Betrieb nehmen.  Mit hybridkonnektivität einrichten können Sie Ihre Benutzer in die Cloud basierend auf Ihren Terminen und Business Bedarf verschieben. Mit direktem Routing können Sie Ihre lokale VoIP-Infrastruktur nutzen, während und nach Abschluss die Migration zur Cloud verschoben werden.
 
@@ -83,59 +83,25 @@ Nach der Konfiguration hybridkonnektivität können Sie Benutzer in Teams oder S
 ## <a name="topology-requirements"></a>Topologieanforderungen
 <a name="BKMK_Topology"> </a>
 
-Um die für hybride Bereitstellung mit Teams oder Skype für Business Online zu konfigurieren, müssen Sie einen der folgenden unterstützten Topologien aufweisen:
+Um die für hybride Bereitstellung mit **Teams oder Skype für Business Online**konfigurieren, müssen Sie einen der folgenden unterstützten Topologien aufweisen:
 
 - Eine Skype für die Bereitstellung mit allen Servern mit Skype für Business Server 2019 Business Server 2019. 
-
 - Eine Skype für die Bereitstellung mit allen Servern mit Skype für Business Server 2015 Business Server 2015.
+- Ein Lync Server 2013-Bereitstellung mit allen Servern mit Lync Server 2013.  Wenn VoIP hybridkonnektivität erforderlich ist, müssen Sie eine gemischte Version Topologie wie unten angegeben verwenden.
+- Eine Bereitstellung mit bis zu 2 verschiedenen Serverversionen wie unten aufgeführt:
+  - Skype für Business Server 2015 und Skype für Business Server 2019
+  - Lync Server 2013 und Skype für Business Server 2019
+  - Lync Server 2013 und Skype für Business Server 2015
 
-- Ein Lync Server 2013-Bereitstellung mit allen Servern mit Lync Server 2013.
+*Wenn Hybrid-VoIP in jeder Topologie gewünscht wird*, muss sowohl der Edge-Server, die als der Verbund Kante als auch für den Pool zugeordneten SIP-Verbund vorgesehen ist Skype für Business 2015 oder höher ausgeführt werden. Benutzer können auf einem Lync 2013-Pool bleiben, sofern vorhanden. Weitere Informationen finden Sie unter [Telefonsystem mit PSTN-Konnektivität in Skype für Business Server planen](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
-    Hybrid-VoIP-Konnektivität muss der Edge-Server, die als Schnittstelle für den Verbund vorgesehen ist Skype für Business 2015; der Rand erfordert auch eine Skype für Business Server-Back-End. Sie können einen Pool verwenden, der keine Benutzer enthält.
+Die folgenden Topologien, die **Lync Server 2010 werden mit Skype für Business Online unterstützt** für instant messaging und Besprechungen enthalten.  Topologien, die **Lync Server 2010 werden nicht unterstützt, für Hybrid-VoIP noch Teams**enthalten.
 
-- Eine gemischte Lync Server 2015 und Skype für die Business Server 2019 Bereitstellung mit der folgenden Serverrollen: 
+- Eine gemischte Lync Server 2010 und Skype für die Bereitstellung von Business Server 2015
+- Eine gemischte Bereitstellung von Lync Server 2010 und Lync Server 2013
+-   Ein Lync Server 2010-Bereitstellung mit allen Servern mit Lync Server 2010 mit den neuesten kumulativen Updates.
+Der Verbund Edge-Server und Hopserver für den nächsten aus den Edge-Server-Verbund müssen Lync Server 2010 mit den neuesten kumulativen Updates ausgeführt werden. Die Skype für Business Server 2015 oder Administrative Tools für Lync Server 2013 muss auf mindestens einem Server oder Verwaltungscomputer installiert werden.
 
-  - Mindestens ein Enterprise-Pool- oder Standard Edition-Server  
-
-  - Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden 
-
-  - Der dem SIP-Partnerverbund zugeordnete Edgepool 
-
-- Eine gemischte Lync Server 2013 und Skype für die Business Server 2019 Bereitstellung mit der folgenden Serverrollen in mindestens einem Standort Skype für Business Server 2019 ausgeführt: 
-
-  - Mindestens ein Enterprise-Pool- oder Standard Edition-Server  
-  - Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden 
-  - Der dem SIP-Partnerverbund zugeordnete Edgepool 
-
-- Eine gemischte Lync Server 2013 und Skype für die Business Server 2015 Bereitstellung mit der folgenden Serverrollen in mindestens einem Standort Skype für Business Server 2015 ausgeführt:
-
-  - Mindestens ein Enterprise-Pool- oder Standard Edition-Server 
-
-  - Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden
-
-  - Der dem SIP-Partnerverbund zugeordnete Edgepool
-
-- Eine gemischte Lync Server 2010 und Skype für die Business Server 2015 Bereitstellung mit der folgenden Serverrollen in mindestens einem Standort Skype für Business Server 2015 ausgeführt:
-
-  - Mindestens ein Enterprise-Pool- oder Standard Edition-Server 
-
-  - Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden
-
-  - Der dem SIP-Partnerverbund zugeordnete Edgepool für den Standort
-
-- Eine gemischte Lync Server 2010 und Lync Server 2013-Bereitstellung mit der folgenden Serverrollen in mindestens einem Standort mit Lync Server 2013:
-
-  - Mindestens ein Enterprise-Pool- oder Standard Edition-Server am Standort
-
-  - Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls am Standort vorhanden
-
-  - Der dem SIP-Partnerverbund zugeordnete Edgepool für den Standort
-
-- Ein Lync Server 2010-Bereitstellung mit allen Servern mit Lync Server 2010 mit den neuesten kumulativen Updates.
-
-  - Der Verbund Edge-Server und Hopserver für den nächsten aus den Edge-Server-Verbund müssen Lync Server 2010 mit den neuesten kumulativen Updates ausgeführt werden.
-
-  - Die Skype für Business Server 2015 oder Administrative Tools für Lync Server 2013 muss auf mindestens einem Server oder Verwaltungscomputer installiert werden.
 
 
  ## <a name="multi-forest-support"></a>Unterstützung für mehrere Gesamtstrukturen

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App sollten beim Planen von Skype für Business Server. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.'
-ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450634"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890615"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungen-Clients (Web App und Besprechungen App)
  
@@ -38,7 +38,7 @@ Höher auf diejenigen Benutzer können Besprechungen erstellen und Benutzer von 
   
 Standardmäßig wird der Hostserver für die Besprechung weisen Sie den Benutzer zum Herunterladen und Installieren von Skype für Business Web App an der Besprechung teilnehmen. Die Skype für Web-Geschäfts-App auf dem Front-End-Server gespeichert ist und ruft an Besprechungsteilnehmer gesendet. 
   
-Für Skype für Business Server 2015 Skype Besprechungen App steht als Ersatz für Skype für Web-Geschäfts-App mit CU5 beginnt, aber in [Aktivieren Skype Besprechungen App ersetzen beschriebene zusätzliche Konfiguration erfordert die Skype Besprechungen App bereitstellen Skype für Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Skype-Besprechungen App aktiviert ist, wird die neueste Version der app aus der Office 365 Content Delivery Network (CDN) und nicht aus Ihrer Skype für Business Server herunterladen werden. Für Skype für Business Server 2019 Skype Besprechungen App ist die einzige Option.
+Für Skype für Business Server Skype Besprechungen App steht als Ersatz für Skype für Web-Geschäfts-App mit CU5 beginnt, aber in [Aktivieren Skype Besprechungen App Skype ersetzen beschriebene zusätzliche Konfiguration erfordert die Skype Besprechungen App bereitstellen für Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Skype-Besprechungen App aktiviert ist, wird die neueste Version der app aus der Office 365 Content Delivery Network (CDN) und nicht aus Ihrer Skype für Business Server herunterladen werden. Für Skype für Business Server 2019 Skype Besprechungen App ist die einzige Option.
   
 Skype-Besprechungen App bietet eine vereinfachte Browserumgebung zum Herunterladen und Installieren der app und teilnehmen an Besprechungen, einschließlich per Mausklick Join für Benutzer von Internet Explorer. Skype-Besprechungen App hat auch zahlreichen Verbesserungen TheSkype für Web-Geschäfts-App für Zuverlässigkeit und die besprechungsumgebung. 
   
@@ -76,7 +76,7 @@ Die Skype Besprechungen App als einer app auf Computern mit Windows 10, Windows 
   
 Die app führt auch auf Mac OS 10.10 oder spätere Betriebssysteme mit keine bestimmten Browser Abhängigkeit. 
   
-Andere Abhängigkeiten finden Sie unter [Unterstützte Plattformen für Skype Besprechungen App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+Informationen zu anderen Abhängigkeiten finden Sie unter [Unterstützte Plattformen für die Skype-Besprechungs-App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001).
   
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
 <a name="OS-Browser"> </a>
