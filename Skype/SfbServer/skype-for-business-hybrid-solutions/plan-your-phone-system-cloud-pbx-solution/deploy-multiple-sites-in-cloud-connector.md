@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Informationen Sie zu mehreren PSTN-Websites in der Cloud Connector Edition bereitstellen.
-ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889713"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851490"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Bereitstellen mehrerer Standorte in Cloud Connector
  
@@ -74,13 +74,14 @@ Führen Sie für jede PSTN-Website, die Sie hinzufügen möchten die Schritte un
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Bereitstellung eines einzelnen Standorts mit hoher Verfügbarkeit im Vergleich zur Bereitstellung mehrerer Standorte
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>
 
-Die folgende Tabelle listet die Unterschiede zwischen einem einzelnen Standort mit HA-Unterstützung und einer Bereitstellung mit mehreren Standorten auf.
+In der folgenden Tabelle sind die Unterschiede zwischen der Bereitstellung an einem einzelnen Standort mit hoher Verfügbarkeit und der Bereitstellung an mehreren Standorten aufgelistet.
   
-|**Kategorie**|**Element**|**Einzelner Standort mit HA**|**Mehrere Standorte**|
+|**Kategorie**|**Element**|**Einzelner Standort mit hoher Verfügbarkeit**|**Mehrere Standorte**|
 |:-----|:-----|:-----|:-----|
-|Einrichtung  <br/> |Freigegebener Ordner  <br/> |Erfordert den **gleiche** freigegebenen Ordner mehreren appliances <br/> |Benötigt für jede Appliance einen **unterschiedlichen** freigegebenen Ordner. <br/> |
+|Konfigurieren  <br/> |Hostname des Geräts <br/> |**Unterschiedlich** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
+|Installationsanforderungen  <br/> |Freigegebener Ordner  <br/> |Erfordert den **gleiche** freigegebenen Ordner mehreren appliances <br/> |Benötigt für jede Appliance einen **unterschiedlichen** freigegebenen Ordner. <br/> |
 |Konfigurieren  <br/> |VirtualMachineDomain  <br/> |Benötigt für alle Appliances **dieselbe** Domäne. <br/> |Benötigt **dieselbe** Domäne für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |SIPDomains  <br/> |Domänennamen und der Reihenfolge sollte sein die **gleichen** mehreren appliances <br/> |Domänennamen und der Reihenfolge sollte sein die **gleichen** PSTN-websiteübergreifenden <br/> |
+|Konfigurieren  <br/> |SIP-Domänen  <br/> |Domänennamen und der Reihenfolge sollte sein die **gleichen** mehreren appliances <br/> |Domänennamen und der Reihenfolge sollte sein die **gleichen** PSTN-websiteübergreifenden <br/> |
 |Konfigurieren  <br/> |Standortname  <br/> |**Identischer** Standortname für alle Appliances <br/> |**Unterschiedlicher** Standortname für jeden einzelnen PSTN-Standort <br/> |
 |Konfigurieren  <br/> |Servernamen  <br/> |**Unterschiedlich** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
 |Konfigurieren  <br/> |FQDNs interner Pools  <br/> |**Identisch** für alle Appliances <br/> |**Identisch** für alle PSTN-Standorte <br/> |
@@ -88,9 +89,9 @@ Die folgende Tabelle listet die Unterschiede zwischen einem einzelnen Standort m
 |Konfigurieren  <br/> |Externer FQDN  <br/> |**Identisch** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
 |Konfigurieren  <br/> |Externe IP-Adressen  <br/> |**Unterschiedlich** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
 |Konfigurieren  <br/> |Einstellungen für PSTN-Gateway  <br/> |**Identisch** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
-|Konfigurieren  <br/> |DNS-Eintrag  <br/> |Hinzufügen von Datensätzen mit der **gleichen** externen Zugriff FQDNs und **verschiedene** IP-Adressen <br/> |Einträge mit **unterschiedlichen** externen Zugriffs-FQDNs und **unterschiedlichen** IP-Adressen <br/> |
-|Einrichtung  <br/> |Hybrid-Mandanten  <br/> |„HybridPSTNSite“ festlegen  <br/> Peer-Ziel für Fallback einrichten  <br/> |„HybridPSTNSite“ festlegen  <br/> Peer-Ziel für Fallback einrichten  <br/> |
-|Einrichtung  <br/> |Gateway  <br/> |Vermittlungsserver-Gateway **M:N**-Zuordnung an diesem Standort <br/> |PSTN-Gateways an den einzelnen PSTN-Standorten sollten nur Verbindungen mit Vermittlungsservern am gleichen Standort herstellen.  <br/> |
-|Einrichtung  <br/> |Benutzer  <br/> |„UserPSTNSettings“ festlegen  <br/> |„UserPSTNSettings“ festlegen  <br/> |
+|Konfigurieren  <br/> |DNS-Eintrag  <br/> |Hinzufügen von Datensätzen mit der **gleichen** externen Zugriff FQDNs und **verschiedene** IP-Adressen <br/> |Datensätze mit **unterschiedlichen** FQDNs für externen Zugriff und **unterschiedlichen** IP-Adressen hinzufügen <br/> |
+|Installationsanforderungen  <br/> |Hybrid-Mandanten  <br/> |„HybridPSTNSite“ festlegen  <br/> Peer-Ziel für Fallback einrichten  <br/> |„HybridPSTNSite“ festlegen  <br/> Peer-Ziel für Fallback einrichten  <br/> |
+|Installationsanforderungen  <br/> |Gateway  <br/> |Vermittlungsserver-Gateway **M:N**-Zuordnung an diesem Standort <br/> |PSTN-Gateways an den einzelnen PSTN-Standorten sollten nur Verbindungen mit Vermittlungsservern am gleichen Standort herstellen.  <br/> |
+|Installationsanforderungen  <br/> |Benutzer  <br/> |„UserPSTNSettings“ festlegen  <br/> |„UserPSTNSettings“ festlegen  <br/> |
    
 

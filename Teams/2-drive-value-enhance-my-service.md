@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96af6eb707c8f104a7810e924323d9f32996f8f1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374295"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838477"
 ---
 # <a name="enhance-my-service"></a>Meine Service zu verbessern
 
@@ -29,7 +29,7 @@ Nachdem Sie erfolgreich Audiokonferenzen oder Telefonsystem mit Diensten aufrufe
 
 Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben erhalten bereitstellen regelmäßiger Updates Sie von uns über neue und geänderte Features über unsere Nachrichtencenter. 
 
-Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie in der Praxis Feedback von Ihren Benutzern und internen Champions erhalten von Feedback Kanäle in Ihrer Organisation herstellen. Diese können informelle Unterhaltungen, regulären Meeetings werden oder durch eine Teams channel oder Yammer Community. 
+Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie in der Praxis Feedback von Ihren Benutzern und internen Champions erhalten von Feedback Kanäle in Ihrer Organisation herstellen. Diese können werden informelle Unterhaltungen, regelmäßige Besprechungen oder durch eine Teams channel oder Yammer Community. 
 
 Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Besuchen Sie unsere Implementierungsphasen (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
 

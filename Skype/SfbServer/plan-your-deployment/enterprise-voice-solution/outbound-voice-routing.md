@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Erfahren Sie mehr über ausgehende VoIP-routing in Skype für Business Server Enterprise-VoIP, einschließlich Aufruf für Routen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-verwendungsdatensätzen, und VoIP-Routen.
-ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883655"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838816"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen der ausgehende VoIP-routing in Skype für Business Server
  
@@ -44,7 +44,7 @@ Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen
   
 ### <a name="dial-plan-scope"></a>Wählplanbereich
 
-Ein Wählplan Bereich bestimmt die Hierarchieebene, an der die Wähleinstellungen angewendet werden kann. In Skype für Business Server kann ein Benutzer einen bestimmten benutzerspezifischen Wählplan zugewiesen werden. Wenn ein benutzerwählplan nicht zugewiesen ist, wird der Front-End-Pool-Wählplan angewendet. Ist kein Front-End-Pool-Pool-Wählplan, wird die Website Wähleinstellungen angewendet. Wenn für den Benutzer keine bestimmten Wählpläne gelten, wird der globale Wählplan angewendet.
+Ein Wählplan Bereich bestimmt die Hierarchieebene, an der die Wähleinstellungen angewendet werden kann. In Skype für Business Server kann ein Benutzer einen bestimmten benutzerspezifischen Wählplan zugewiesen werden. Wenn ein benutzerwählplan nicht zugewiesen ist, wird der Front-End-Pool-Wählplan angewendet. Wenn kein Wählplan der Front-End-Pool vorhanden ist, wird die Wähleinstellungen Website angewendet. Wenn für den Benutzer keine bestimmten Wählpläne gelten, wird der globale Wählplan angewendet.
   
 Clients erhalten Bereichsebenen über in-Band-bereitstellungseinstellungen, die bereitgestellt werden, wenn Benutzer Skype für Unternehmen anmelden. Als Administrator können Sie verwalten und Zuweisen von Bereichsebenen mithilfe von Skype Business Server-Systemsteuerung.
   
@@ -81,7 +81,7 @@ Führen Sie folgende Schritte aus, um einen Wählplan zu planen:
     
     Wenn Ihre Organisation einen einzigen Wählplan für mehrere Standorte verwaltet werden, müssen Sie zum Erstellen von separaten Wähleinstellungen für Enterprise-VoIP-Benutzer migrieren, die aus einer private Branch Exchange, (Nebenstellenanlage PBX) und ihren vorhandenen Erweiterungen beibehalten vorhanden sein muss.
     
-- Entscheiden Sie, ob Wählpläne auf Benutzerebene erforderlich sind. Beispielsweise gewählt, wenn Sie Benutzer an einem Zweigstellenstandort, die mit einem zentralen Standort registriert sind oder wenn Sie Benutzer, die auf einer Survivable Branch Appliance registriert sind, können Sie spezielle berücksichtigen Wählvorgang Szenarien für solche Benutzer pro Benutzer mit Pläne und Normalisierungsregeln . Weitere Informationen hierzu finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server](enterprise-voice-resiliency.md).
+- Entscheiden Sie, ob Wählpläne auf Benutzerebene erforderlich sind. Beispielsweise gewählt, wenn Sie Benutzer an einem Zweigstellenstandort, die mit einem zentralen Standort registriert sind oder wenn Sie Benutzer, die auf einer Survivable Branch Appliance registriert sind, können Sie spezielle berücksichtigen Wählvorgang Szenarien für solche Benutzer pro Benutzer mit Pläne und Normalisierungsregeln . Ausführliche Informationen finden Sie unter [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
     
 - Ermitteln Sie den Bereich für den Wählplan (wie weiter oben in diesem Thema beschrieben).
     
@@ -146,7 +146,7 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 |**Regelname**|**Beschreibung**|**Nummernmuster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |Übersetzt vierstellige Durchwahlnummern  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 wird in +14255550100 übersetzt.  <br/> |
-|5stellendurchwahl).  <br/> |Übersetzt fünfstellige Durchwahlnummern  <br/> |^ 5(\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
+|5digitExtension  <br/> |Übersetzt fünfstellige Durchwahlnummern  <br/> |^ 5(\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
 |7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt  <br/> |
 |7digitcallingDallas  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Dallas  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 wird in +19725550100 übersetzt  <br/> |
 |10digitcallingUS  <br/> |Übersetzt zehnstellige Rufnummern in US-Rufnummern  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 wird in +12065550100 übersetzt  <br/> |
@@ -163,7 +163,7 @@ Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond
 
 |**Redmond.forestFQDN**|
 |:-----|
-|5stellendurchwahl).  <br/> |
+|5digitExtension  <br/> |
 |7digitcallingRedmond  <br/> |
 |10digitcallingUS  <br/> |
 |IntlCallingUS  <br/> |
@@ -228,9 +228,9 @@ Für jede Richtlinie können Sie die folgenden Anruffunktionen aktivieren oder d
     
 - **Außerkraftsetzung der Bandbreitenrichtlinie** ermöglicht Administratoren, Richtlinienentscheidungen im Rahmen der Anrufsteuerung für einen bestimmten Benutzer außer Kraft zu setzen. Diese Option ist standardmäßig deaktiviert.
     
-- **Böswilligen aufrufen Tracing** ermöglicht es Benutzern, Melden von missbräuchlichen anrufen mithilfe der Skype für Business-Client, und klicken Sie dann Kennzeichen solcher Anrufe in die kommunikationsdatensätze. Diese Option ist standardmäßig deaktiviert.
+- **Böswilligen aufrufen Tracing** ermöglicht es Benutzern, Melden von missbräuchlichen anrufen mithilfe der Skype für Business-Client, und klicken Sie dann Kennzeichen solcher Anrufe in die kommunikationsdatensätze. Diese ist standardmäßig deaktiviert.
     
-- **Voicemail Escape** verhindert, dass Anrufe von wird unmittelbar auf dem System des Benutzers Mobiltelefon Voicemail weitergeleitet, wenn Gleichzeitiges Klingeln konfiguriert ist und das Telefon ist deaktiviert, nicht genügend Batterie oder außerhalb des gültigen Bereichs aktiviert, und basiert auf einen Wert Timer. Mit dieser Einstellung wird der Timer aktiviert und deaktiviert sowie der Wert des Timers eingestellt. Es kann nur mithilfe der Skype für Business Server-Verwaltungsshell konfiguriert werden. Diese Option ist standardmäßig deaktiviert.
+- **Voicemail Escape** verhindert, dass Anrufe von wird unmittelbar auf dem System des Benutzers Mobiltelefon Voicemail weitergeleitet, wenn Gleichzeitiges Klingeln konfiguriert ist und das Telefon ist deaktiviert, nicht genügend Batterie oder außerhalb des gültigen Bereichs aktiviert, und basiert auf einen Wert Timer. Mit dieser Einstellung wird der Timer aktiviert und deaktiviert sowie der Wert des Timers eingestellt. Es kann nur mithilfe der Skype für Business Server-Verwaltungsshell konfiguriert werden. Diese ist standardmäßig deaktiviert.
     
 - **Rufen Sie die anrufweiterleitung und gleichzeitige Klingeln PSTN-Verwendungen** können Administratoren die gleiche PSTN-Verwendung angeben, wie die VoIP-Richtlinie für die anrufweiterleitung und Gleichzeitiges Klingeln zu beschränken, die anrufweiterleitung und Gleichzeitiges Klingeln zu internen Skype für Geschäftsbenutzer nur, oder geben Sie eine benutzerdefinierte PSTN-Verwendung, die vom PSTN-Verwendung für die VoIP-Richtlinie unterscheidet. Standardmäßig wird für Anrufweiterleitung und gleichzeitiges Klingeln die gleiche PSTN-Verwendung verwendet wie bei der VoIP-Richtlinie.
     

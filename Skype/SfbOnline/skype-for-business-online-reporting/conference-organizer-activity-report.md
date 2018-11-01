@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Erfahren Sie, wie die Skype für organisierte Konferenz Tätigkeit Bericht abgerufen und das interpretieren und passen Sie es. '
-ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 871af1f9ec06f24b7c2ef6248c1d48b859bb4563
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372591"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838554"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 
@@ -78,7 +78,7 @@ Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „
 Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für diesen bestimmten Bericht. 
 ***
 ![Anzahl 7](../images/sfbcallout7.png)<br/>
-Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Beispielsweise im Diagramm **Aktivität** klicken Sie oder tippen Sie auf **Sofortnachrichten**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Dial-in/Out - 3rd Party**und **Anwahl/Microsoft** um nur die Informationen im Zusammenhang mit jeweils finden Sie unter. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert.
+Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie auf ein Element in der Legende klicken. Beispielsweise im Diagramm **Aktivität** klicken Sie oder tippen Sie auf **Sofortnachrichten**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Dial-in/Out - 3rd Party**und **Anwahl/Microsoft** um nur die Informationen im Zusammenhang mit jeweils finden Sie unter. Durch das Ändern dieser Auswahl ändern sich die Informationen in der Rastertabelle nicht.
 ***
 ![Zahl 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt Sie eine Aufschlüsselung der organisierte Konferenz Aktivitäten pro Benutzer. Zeigt alle Benutzer, die Skype für Unternehmen und Konferenzen, die sie organisiert zugewiesen haben. Sie können zusätzliche Spalten zur Tabelle hinzufügen. 
 * **Benutzername** ist der Name des Benutzers. 
@@ -110,7 +110,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
     
 - [Bericht „Skype for Business - verwendete Clients"](device-usage-report.md) : Sie können die Geräte einschließlich Windows-basierter Betriebssysteme und mobiler Geräte anzeigen, auf denen die Skype for Business-App installiert ist, und die für Chats und Besprechungen verwendet werden.
     
-- [Skype for Business: Konferenzteilnehmer-Aktivitätsbericht](conference-participant-activity-report.md) : Sie können sehen, an wie vielen Chats, Audio/Video-Übertragungen, Anwendungsfreigaben, Webkonferenzen und Einwahl-/Auswahlkonferenzen teilgenommen wird.
+- [Skype für Teilnehmer Business-konferenzaktivitätsbericht](conference-participant-activity-report.md) Sie können sehen, wie viele Sofortnachrichten, Audio/Video, Anwendungsfreigabe, Web und Konferenzen/Dial-Out Konferenz sind beteiligt wird.
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
@@ -123,7 +123,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

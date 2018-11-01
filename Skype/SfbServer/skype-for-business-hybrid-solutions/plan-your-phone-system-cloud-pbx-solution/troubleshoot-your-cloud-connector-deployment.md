@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Problembehandlung bei der Cloud Connector Edition-Bereitstellung.
-ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371313"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838621"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Problembehandlung bei Ihrer Cloud Connector-Bereitstellung
  
@@ -71,7 +71,7 @@ Cloud-Connector bietet integrierte Mechanismen zur Problembehebung einige automa
 
 Es folgen Lösungen zu häufig auftretenden Problemen:
   
-- **Problem: Die Bereitstellung schlägt fehl oder reagiert nicht mehr, wenn die Bereitstellungsskripts ausgeführt werden. Nach der Anmeldung bei den einzelnen VMs fehlt die IP-Adresse oder ist falsch für die Verwaltungs-/interne/externe Netzwerkkarte.**
+- **Problem: Die Bereitstellung schlägt fehl oder reagiert nicht mehr bei Ausführung von Bereitstellungsskripten. Nach der Anmeldung bei den einzelnen VMs fehlt die IP-Adresse oder passt nicht zur Verwaltungs-, internen bzw. externen NIC.**
     
     **Lösung:** Dieses Problem kann nicht automatisch aufgelöst werden. Während der Ausführung der VMs können diesen keine NICs hinzugefügt werden. Fahren Sie diese VMs im Hyper-V-Manager herunter und entfernen Sie sie, und führen Sie anschließend die folgenden Cmdlets aus:
     
@@ -87,7 +87,7 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     
     **Problem: Nach der Installation von Active Directory (AD) und der Gesamtstruktur wurde der CMS-Server bzw. der Vermittlungsserver nicht ordnungsgemäß zur Domäne hinzugefügt.**
     
-    **Lösung:** Um dieses Problem zu beheben, führen Sie folgende Schritte aus:
+    **Lösung:** Um dieses Problem zu beheben, führen Sie die folgenden Schritte durch:
     
   - Melden Sie sich beim Active Directory-Server an, und überprüfen Sie, ob die Domäne ordnungsgemäß erstellt wurde.
     
@@ -97,7 +97,7 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     
 - **Problem: Sie erhalten die folgende Fehlermeldung "Remove-VMSwitch: Fehler beim virtuellen Ethernet-Switch zu entfernen. Für der virtuelle Switch 'Cloud Connector Management Schalter' kann nicht gelöscht, da sie durch Ausführen von virtuellen Computern verwendet wird, oder in untergeordneten Pools zugewiesen."**
     
-    **Lösung:** "Cloud Connector Management Switch" wurde nach der Bereitstellung nicht gelöscht. Wenn Sie auf diesen Fehler stoßen, gehen Sie zu Hyper-V-Manager und überprüfen Sie, ob nicht noch ein virtueller Computer damit verbunden ist. Wenn noch virtuelle Computer verbunden sind, trennen Sie sie und löschen den Verwaltungs-Switch. Wenn der Verwaltungs-Switch immer noch nicht gelöscht werden kann, starten Sie den Hostserver neu und versuchen Sie es erneut.
+    **Lösung:** "Cloud Connector Management Switch" wurde nach der Bereitstellung nicht gelöscht. Wenn dieser Fehler auftritt, navigieren Sie zum Hyper-V-Manager, und stellen Sie sicher, dass keine andere virtuelle Maschine verbunden ist. Wenn nach wie vor virtuelle Maschinen verbunden sind, trennen Sie sie, und löschen Sie den Management-Switch. Wenn der Management-Switch nicht gelöscht werden kann, starten Sie den Hostserver neu, und versuchen Sie es erneut.
     
 - **Problem: Sie erhalten die folgende Fehlermeldung angezeigt, "Dienst RTCMRAUTH konnte nicht gestartet. Stellen Sie sicher, dass der Dienst nicht deaktiviert ist."**
     
@@ -222,7 +222,7 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Führen Sie das Cmdlet „Exit-CcUpdate“ aus, um Dienste zu starten und den Wartungsmodus zu beenden.
+3. Führen Sie das Exit-CcUpdate-Cmdlet, um Dienste starten und Beenden im Wartungsmodus befindet.
     
 4. Führen Sie das Cmdlet „Export-CcRootCertificate“ für die lokale Datei in der Appliance aus. Kopieren Sie dann das exportierte Zertifikat, und installieren Sie es in Ihren PSTN-Gateways. 
     
@@ -272,7 +272,7 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
 
 - **Problem: Nachdem Sie das Kennwort für das Host-Server-Konto Sie für die Bereitstellung verwendet ändern, Sie erhalten Sie die folgende Fehlermeldung angezeigt: "ConvertTo-SecureString: Schlüssel ist nicht gültig für die Verwendung in angegebenen Zustand." in %ProgramFiles%\Skype für Business Cloud-Connector Edition\ManagementService\CceManagementService.log oder beim Ausführen des Cmdlets Get-CcCredential.**
     
-    **Lösung:** Alle Cloud Connector Anmeldeinformationen werden in der folgenden Datei gespeichert: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Wenn das Kennwort für den Hostserver geändert wird, müssen Sie die lokal gespeicherten Anmeldeinformationen aktualisieren.
+    **Lösung:** Alle Cloud Connector Anmeldeinformationen werden in der folgenden Datei gespeichert: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Wenn sich das Kennwort auf dem Hostserver ändert, müssen Sie die lokal gespeicherten Anmeldeinformationen aktualisieren.
     
     **Wenn Sie Cloud Connector, Version 1.4.2, ausführen**, generieren Sie mit den folgenden Schritten alle Cloud Connector-Kennwörter neu:
     
@@ -280,7 +280,7 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     
   2. Löschen Sie die folgende Datei: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-  3. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie "Register-CcAppliance-lokale" die Kennwörter die Beschreibung nach erneut eingeben. Geben Sie die gleichen Kennwörter eingegebene vor dem für die Bereitstellung von Cloud-Connector ein.
+  3. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie "Register-CcAppliance-lokale" die Kennwörter die Beschreibung nach erneut eingeben. Geben Sie die gleichen Kennwörter ein, die Sie vor der Cloud Connector-Bereitstellung eingegeben haben.
     
      **Wenn Sie Cloud Connector, Version 2.0 oder höher, ausführen** neu zu generieren aller Cloud Connector Kennwörter folgende Schritte:
     
@@ -300,7 +300,7 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     
   9. Wenn Sie zur Eingabe der neuen Anmeldeinformationen für das Konto aufgefordert werden, geben Sie das zuvor verwendete Kennwort für „DomainAdmin“ ein.
     
-     Die zwischengespeicherten Kennwortdatei mit Cloud-Connector, Version 2.0 oder höher, standardmäßig generiert wurde, verwenden VmAdmin und DomainAdmin "als CceService dasselbe Kennwort. Wenn Sie die Kennwörter "DomainAdmin" und VMAdmin geändert haben, müssen Sie die folgenden Schritte ausführen:
+     Die zwischengespeicherten Kennwortdatei mit Cloud-Connector, Version 2.0 oder höher, standardmäßig generiert wurde, verwenden VmAdmin und DomainAdmin "als CceService dasselbe Kennwort. Wenn Sie die Kennwörter für „DomainAdmin“ und „VMAdmin“ geändert haben, müssen Sie die folgenden Schritte ausführen:
     
   10. Führen Sie „Set-CcCredential -AccountType DomainAdmin“ wie folgt aus:
     
@@ -326,7 +326,7 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
 
 - **Problem: Sie erhalten die folgende Fehlermeldung "Dismount-WindowsImage: Dismount-WindowsImage ist fehlgeschlagen. Fehlercode = 0xc1550115 "beim Installieren oder Aktualisieren von Cloud-Connector Edition.**
     
-    **Lösung:** Starten Sie eine PowerShell-Konsole als Administrator ausführen "DISM-Cleanup-Wim'". Dadurch werden alle Bilder einwandfreien bereinigt werden. Install-CcAppliance erneut ausführen oder warten, bis die Bits automatisch aktualisieren.
+    **Lösung:** Starten Sie eine PowerShell-Konsole als Administrator ausführen "DISM-Cleanup-Wim'". Damit werden alle von dem Problem betroffenen Images bereinigt. Führen Sie „Install-CcAppliance“ erneut aus, oder warten Sie, bis die Bits automatisch aktualisiert werden.
     
 - **Problem: Die Bereitstellung der ersten Cloud Connector Appliance in einer Umgebung HA fehlschlägt**
     

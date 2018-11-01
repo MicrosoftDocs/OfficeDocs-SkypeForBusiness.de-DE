@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde.
-ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375106"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839545"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
  
@@ -25,7 +25,7 @@ Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung,
   
 ## <a name="validate-the-forest-topology"></a>Überprüfen der Topologie der Gesamtstruktur
 
-Mehrere Benutzergesamtstrukturen werden unterstützt. Berücksichtigen Sie dabei Folgendes:   
+Mehrere Benutzergesamtstrukturen werden unterstützt. Berücksichtigen Sie dabei Folgendes: 
   
 - Für einen Einzelbenutzer-Gesamtstruktur oder Bereitstellung Gesamtstruktur mit mehreren Benutzern muss eine einzelne Bereitstellung von Skype für Business Server vorhanden sein.
     
@@ -33,7 +33,7 @@ Mehrere Benutzergesamtstrukturen werden unterstützt. Berücksichtigen Sie dabei
     
 - Exchange Server kann in eine oder mehrere Gesamtstrukturen bereitgestellt werden, oder die Gesamtstruktur mit Skype für Business Server unter Umständen nicht enthalten. Stellen Sie sicher, dass Sie das neueste kumulative Update angewendet haben.
     
-- Ausführliche Informationen zum Koexistenz mit Exchange Server finden Sie unter einschließlich Unterstützung Kriterien und Einschränkungen in verschiedenen Kombinationen von lokalen und online, [Feature unterstützen](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Planen der Integration von Skype für Unternehmen und Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+- Details zur Koexistenz mit Exchange Server, einschließlich Unterstützungskriterien und Einschränkungen in verschiedenen Kombinationen aus lokaler Bereitstellung und Onlinebereitstellung, finden Sie unter [Unterstützung von Features](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
 Weitere Informationen finden Sie unter [System Requirements](../plan/system-requirements.md).
   
@@ -43,7 +43,7 @@ Skype möglich für Unternehmensbenutzer lokal verwaltet Exchange lokal verwalte
   
 ## <a name="configure-forest-trusts"></a>Konfigurieren Sie die Gesamtstruktur-Vertrauensstellungen
 
-Die erforderlichen Vertrauensstellungen sind bidirektionale transitive Vertrauensstellungen zwischen der Ressourcengesamtstruktur und den einzelnen Benutzergesamtstrukturen. Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es für die Aktivierung der gesamtstrukturübergreifenden Authentifizierung wichtig, dass für jede dieser Gesamtstruktur-Vertrauensstellungen das Namenssuffixrouting aktiviert ist. Anweisungen finden Sie unter [Verwalten von Gesamtstruktur-Vertrauensstellungen](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+Die erforderlichen Vertrauensstellungen sind bidirektionale transitive Vertrauensstellungen zwischen der Ressourcengesamtstruktur und den einzelnen Benutzergesamtstrukturen. Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es für die Aktivierung der gesamtstrukturübergreifenden Authentifizierung wichtig, dass für jede dieser Gesamtstruktur-Vertrauensstellungen das Namenssuffixrouting aktiviert ist. Anleitungen dazu finden Sie unter [Verwalten von Gesamtstruktur-Vertrauensstellungen](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchronisieren von Konten in der Gesamtstruktur hosten Skype für Unternehmen
 
@@ -57,10 +57,10 @@ Für eine ordnungsgemäße Identitätssynchronisierung müssen die folgenden Att
 |:-----|:-----|
 |Gewähltes Kontenverknüpfung-Attribut  <br/> |Gewähltes Kontenverknüpfung-Attribut  <br/> |
 |mail   <br/> |mail   <br/> |
-|Proxyadressen  <br/> |Proxyadressen  <br/> |
-|Objekt-SID  <br/> |MsRTCSIP-OriginatorSID  <br/> |
+|ProxyAddresses  <br/> |ProxyAddresses  <br/> |
+|ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-Das [ausgewählte Konto Linkattribut](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) wird als Quelle Verankerung verwendet werden. Wenn Sie einen anderen und unveränderlich Attribut, die Sie verwenden möchten vorhanden, können Sie dies tun. Seien Sie sicher, dass die Regel der AD FS-Ansprüche bearbeiten, und wählen Sie das Attribut während der Konfigurations AAD verbinden.
+Das [ausgewählte Konto Linkattribut](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) wird als Quelle Verankerung verwendet werden. Wenn Sie einen anderen und unveränderlich Attribut, die Sie verwenden möchten vorhanden, können Sie dies tun. Seien Sie sicher, dass die Regel der AD FS-Ansprüche bearbeiten, und wählen Sie das Attribut während der Konfigurations AAD verbinden.
   
 Die UPNs zwischen den Gesamtstrukturen nicht synchronisiert. Wir haben bei Tests festgestellt, dass wir einen eindeutigen UPN für jede Benutzergesamtstruktur verwenden mussten, da derselbe UPN nicht über mehrere Gesamtstrukturen verwendet werden kann. Daraus ergaben sich zwei Möglichkeiten: den UPN zu synchronisieren oder ihn nicht zu synchronisieren. 
   
@@ -70,7 +70,7 @@ Die UPNs zwischen den Gesamtstrukturen nicht synchronisiert. Wir haben bei Tests
     
 ## <a name="create-an-office-365-tenant"></a>Erstellen eines Office 365-Mandanten
 
-Als Nächstes müssen Sie einen Office 365-Mandanten bereitstellen, der für Ihre Bereitstellung verwendet wird. Weitere Informationen finden Sie unter [Abonnements, Lizenzen, Konten, und Mandanten für Microsoft Cloud-angeboten](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Als Nächstes müssen Sie einen Office 365-Mandanten bereitstellen, der für Ihre Bereitstellung verwendet wird. Weitere Informationen finden Sie unter [Abonnements, Lizenzen, Konten, und Mandanten für Microsoft Cloud-angeboten](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Konfigurieren von Active Directory-Verbunddienste
 
@@ -86,7 +86,7 @@ Wenn Sie einen eindeutigen SIP/SMTP/UPN für Benutzer aus jeder Gesamtstruktur v
     
 Durch die Platzierung einer ADFS-Farm in jede Benutzergesamtstruktur und die Verwendung eines eindeutigen SIP-/SMTP-/UPN-Werts für jede Gesamtstruktur können wir beide Probleme beheben. Bei Authentifizierungsversuchen werden nur Konten in dieser bestimmten Benutzergesamtstruktur gesucht und zugeordnet. Damit kann ein nahtloserer Authentifizierungsprozess bereitgestellt werden. 
   
-Dies wird eine Standardbereitstellung von Windows Server 2012 R2 AD FS sein, die funktionieren sollte, bevor Sie fortfahren. Anweisungen finden Sie unter [How To Install Active Directory-Verbunddienste 2012 R2 für Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+Dies wird eine Standardbereitstellung von Windows Server 2012 R2 AD FS sein, die funktionieren sollte, bevor Sie fortfahren. Anweisungen finden Sie unter [So installieren Sie AD FS 2012 R2 für Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
 Nach der Bereitstellung müssen Sie dann die Anspruchsregel bearbeiten, damit sie mit dem zuvor ausgewählten Quellanker übereinstimmt. In der AD FS-MMC unter Vertrauensstellungen für vertrauende Seite mit der rechten Maustaste **Identity-Plattform von Microsoft Office 365**, und klicken Sie dann auf **Edit Claim Rules**. Bearbeiten Sie die erste Regel, und ändern Sie die Objekt-SID in **Hochkommas**. 
   
@@ -106,7 +106,7 @@ Grünen hervorgehobenen Attribute von Office 365 zusammengeführt wurden, das Ge
   
 Dies ist ein Testbenutzer, und Sie können sehen, dass AAD verbinden die SourceAnchor und die CloudSourceAnchor vom Benutzer identifiziert wurde und die Ressource Gesamtstruktur Objekte von Office 365, in unserem Fall 1101, also die Hochkommas zuvor ausgewählt. Dieses Objekt konnte dann zu dem zusammengeführt werden, was Sie oben sehen. 
   
-Weitere Informationen finden Sie unter [integrieren Ihre lokale Verzeichnisse mit Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
+Weitere Informationen finden Sie unter [integrieren Ihre lokale Verzeichnisse mit Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
 Verbinden von AAD sollten unter Verwendung der Standardeinstellungen, mit Ausnahme der folgenden installiert sein: 
   
@@ -116,7 +116,7 @@ Verbinden von AAD sollten unter Verwendung der Standardeinstellungen, mit Ausnah
     
 3. Identifizieren von Benutzern in lokalen Verzeichnissen: Wählen Sie **Benutzeridentitäten über mehrere Verzeichnisse vorhanden sind**, und wählen Sie die **Objekt-SID** und **MsExchangeMasterAccountSID** Attribute.
     
-4. Identifizieren von Benutzern in Azure AD: Quelle Anker: Wählen Sie das Attribut, das Sie nach dem Lesen der [Auswahl eine gute SourceAnchor-Attributs](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), User Principal Name - **UserPrincipalName**ausgewählt haben.
+4. Identifizieren von Benutzern in Azure AD: Quelle Anker: Wählen Sie das Attribut, das Sie nach dem Lesen der [Auswahl eine gute SourceAnchor-Attributs](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), User Principal Name - **UserPrincipalName**ausgewählt haben.
     
 5.  Optionale Features: Wählen Sie aus, ob Sie Exchange Hybrid bereitgestellt haben.
     

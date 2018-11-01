@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: cf9c10640b132aeea352875f2a5acafe5cd6d377
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502334"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839109"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Verwalten von Teams in der Microsoft-Teams & Skype für Business Admin Center
 ==========================================
@@ -34,7 +34,7 @@ Als IT-Administrator müssen Sie anzeigen oder Aktualisieren der Teams, die Ihre
 - Globaler Administrator
 - Teams-Dienstadministrator
 
-Weitere Informationen finden Sie Informationen zu Administratorrollen in Microsoft-Teams, [hier](using-admin-roles.md)und weitere zur Verwendung der PowerShell-Cmdlets zum Verwalten von Teams in der [Microsoft-Teams, Cmdlet-Referenz](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
+Weitere Informationen finden Sie Informationen zu Administratorrollen in Microsoft-Teams, [hier](using-admin-roles.md)und weitere zur Verwendung der PowerShell-Cmdlets zum Verwalten von Teams in der [Microsoft-Teams, Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 Dieser Artikel enthält eine Übersicht über die Verwaltungstools für Teams in der Microsoft-Teams & Skype für Business Admin Center.
 
@@ -91,7 +91,7 @@ Die Änderungen, die Sie ein Team stellen angemeldet sind. Wenn Sie Clientgruppe
 
 ## <a name="learn-more"></a>Weitere Informationen
 
-[Cmdlet-Referenz zu Microsoft-Teams](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)  
+[Cmdlet-Referenz zu Microsoft-Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 [Administratorrollen in Microsoft-Teams](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)

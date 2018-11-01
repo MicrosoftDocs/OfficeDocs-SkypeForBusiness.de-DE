@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anweisungen zum Implementieren der Cloud-basierten Voicemail für Benutzer, der in Skype für Business Server verwaltet.
-ms.openlocfilehash: 80f154a7fa8e34b7912ebf5762e5d0390e21fd22
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 05c486ed338e8e77ab68f12a64c3a59646a157d0
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696184"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838746"
 ---
 # <a name="configure-cloud-voicemail-service"></a>Konfigurieren von Voicemail von Cloud-Dienst
 
@@ -93,7 +93,7 @@ Get-CsHostedVoicemailPolicy
 
 ## <a name="assign-a-hosted-voicemail-policy"></a>Zuweisen einer voicemailrichtlinie für gehostete
 
-Standardmäßig Global gehostete voicemailrichtlinie für alle Benutzer zugewiesen ist. Wenn Sie eine andere Richtlinie, bevor Sie Benutzer für gehostete Voicemail aktivieren verwenden, müssen Sie zunächst Benutzer der gewünschten gehostete voicemailrichtlinie erteilen mithilfe des Cmdlets [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
+Standardmäßig Global gehostete voicemailrichtlinie für alle Benutzer zugewiesen ist. Wenn Sie eine andere Richtlinie, bevor Sie Benutzer für gehostete Voicemail aktivieren verwenden, müssen Sie zunächst Benutzer der gewünschten gehostete voicemailrichtlinie erteilen mithilfe des Cmdlets [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
 
 Beispielsweise weist der folgende Befehl ein nicht-globalen gehosteten voicemailrichtlinie, die einem Benutzer:
 
@@ -104,7 +104,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:Clou
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Aktivieren eines Benutzers für die Cloud-Voicemail
 
-Zum Aktivieren eines Benutzers Voicemail Anrufen an die Cloud Voicemail weitergeleitet werden sollen, verwenden Sie das [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) -Cmdlet mit dem Parameter HostedVoiceMail. 
+Zum Aktivieren eines Benutzers Voicemail Anrufen an die Cloud Voicemail weitergeleitet werden sollen, verwenden Sie das [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) -Cmdlet mit dem Parameter HostedVoiceMail. 
 
 Beispielsweise kann der folgende Befehl ein Benutzerkonto für Cloud Voicemail: 
 

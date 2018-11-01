@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype für Business Server 2019 unterstützt mehrere Standorte und mit mehreren Pool-Bereitstellungen. Bei der Migration mehrerer Pools zu Skype für Business Server 2019 ist Folgendes erforderlich:'
-ms.openlocfilehash: 9716df65acfde26c41001bbc252b746ea1bd5241
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028747"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839163"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migrieren von mehreren Standorten und pools
 
@@ -31,6 +31,6 @@ Skype für Business Server 2019 unterstützt mehrere Standorte und mit mehreren 
     
 6. Nachdem Sie sichergestellt haben, dass der Pool der Vorgängerversion leer ist, können Sie den Pool deaktivieren. 
     
-    Informationen dazu, wie Sie die Vorversion legacy-Pools und-Servern aus der vorversionsumgebung finden Sie unter [Phase 8: Außerbetriebsetzen des vorversionspools](phase-8-decommission-legacy-pools.md).
+    Informationen dazu, wie Sie die Vorversion Pools und-Servern aus der vorversionsumgebung finden Sie unter [Phase 8: Außerbetriebsetzen des vorversionspools](phase-8-decommission-legacy-pools.md).
     
 

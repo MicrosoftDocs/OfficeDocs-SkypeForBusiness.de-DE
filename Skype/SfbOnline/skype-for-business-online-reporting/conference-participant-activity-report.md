@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3786d74d7708887e680fccc813c3cf245dc7d468
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864579"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839171"
 ---
 # <a name="conference-participant-activity-report"></a>Bericht „Konferenzteilnehmer-Aktivität“
 
-Als ein Office 365-Administrator zeigt das neue **Berichte** Dashboard Daten für die Verwendung der Office 365-Produkte in Ihrer Organisation. Sie können den Bericht **Skype für geschäftliche Konferenz Teilnehmer Aktivität** , wie viele Sofortnachrichten, Audio/Video, Anwendungsfreigabe, finden Sie unter Web und und Anwahl/Konferenzen werden von Benutzern in Ihrer Organisation beteiligt wird.
+Als ein Office 365-Administrator zeigt das neue **Berichte** Dashboard Daten für die Verwendung der Office 365-Produkte in Ihrer Organisation. Sie können den Bericht **Skype für geschäftliche Konferenz Teilnehmer Aktivität** , wie viele Sofortnachrichten, Audio/Video, Anwendungsfreigabe, finden Sie unter Web und Anwahl/Konferenzen werden von Benutzern in Ihrer Organisation beteiligt wird.
 
 Checken Sie in der [Übersicht über die Berichte aus](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) , um mehr zu erfahren.
   
@@ -112,7 +112,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

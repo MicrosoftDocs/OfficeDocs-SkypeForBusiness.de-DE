@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e2499cb2d1432c4b9ad48be3333e798a3a8b1574
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860643"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838708"
 ---
 # <a name="peer-to-peer-activity-report"></a>Bericht „Peer-zu-Peer-Aktivitäten“
 
@@ -78,7 +78,7 @@ Einen Einblick in die Peer-zu-Peer-Aktivitäten in Skype for Business erhalten S
 
 Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für diesen bestimmten Bericht.
 ***
-![Anzahl 7](../images/sfbcallout7.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Beispielsweise im Diagramm **Aktivität** klicken Sie oder tippen Sie auf **Sofortnachrichten**, **Audio**, **Video**, **Anwendungsfreigabe**und **dateiübertragungen** , um nur die Informationen im Zusammenhang mit jeweils finden Sie unter. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
+![Anzahl 7](../images/sfbcallout7.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie auf ein Element in der Legende klicken. Beispielsweise im Diagramm **Aktivität** klicken Sie oder tippen Sie auf **Sofortnachrichten**, **Audio**, **Video**, **Anwendungsfreigabe**und **dateiübertragungen** , um nur die Informationen im Zusammenhang mit jeweils finden Sie unter. Durch das Ändern dieser Auswahl ändern sich die Informationen in der Rastertabelle nicht. 
 ***
 ![Zahl 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Peer-zu-Peer-Aktivitäten pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie deren Peer-zu-Peer-Aktivitäten. Sie können zusätzliche Spalten zur Tabelle hinzufügen.
 *    **Benutzername** ist der Name des Benutzers.
@@ -107,7 +107,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
     
 - [Bericht „Skype for Business - Aktivitäten zum Organisieren von Konferenzen"](conference-organizer-activity-report.md) : Sie können sehen, in welchem Umfang Ihre Benutzer Konferenzen organisieren, für die Chat, Audio/Video, Anwendungsfreigabe, Web, Ein-/Auswahl (Drittanbieter) und Ein-/Auswahl (Microsoft) verwendet werden.
     
-- [Skype for Business: Konferenzteilnehmer-Aktivitätsbericht](conference-participant-activity-report.md) : Sie können sehen, an wie vielen Chats, Audio/Video-Übertragungen, Anwendungsfreigaben, Webkonferenzen und Einwahl-/Auswahlkonferenzen teilgenommen wird.
+- [Skype für Teilnehmer Business-konferenzaktivitätsbericht](conference-participant-activity-report.md) Sie können sehen, wie viele Sofortnachrichten, Audio/Video, Anwendungsfreigabe, Web und Konferenzen/Dial-Out Konferenz sind beteiligt wird.
     
 - [Skype für Unternehmensbenutzer blockiert Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation, die vom PSTN-Anrufe tätigen blockiert wurden, finden Sie unter.
     
@@ -118,7 +118,7 @@ Wenn Richtlinien Ihrer Organisation verhindert, dass Sie Berichte anzeigen, in d
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

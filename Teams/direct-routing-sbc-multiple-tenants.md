@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Informationen Sie zum Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
-ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784816"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839087"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controller für mehrere Mandanten
 
@@ -56,7 +56,7 @@ Es folgen die technischen Implementierungsschritte zum Konfigurieren der Szenari
 Die detaillierte Schritte zum Bereitstellen und SBCs für einen SBC-hosting-Szenario konfigurieren finden Sie in den SBC Herstellers.
 
 - **AudioCodes:** [Direkte Routingkonfiguration Notizen](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), die Konfiguration von den SBC Hosten in "Connecting AudioCodes SBC zu Microsoft-Teams, direkte Routing Hosting-Modell Konfiguration Notiz" beschriebenen Szenario 
-- **Des Menübands Communications:**  Finden Sie im [Menüband Communications SBC Core Microsoft Teams Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) Dokumentation zum Menüband Core Datenreihe SBCs zu konfigurieren und zu dieser Seite [Menüband bewährte bewährte Methode - Netzbetreibern für die Microsoft-Teams direkte Weiterleitung konfigurieren SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Des Menübands Communications:**  Finden Sie im [Menüband Communications SBC Core Microsoft Teams Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) Dokumentation zum Menüband Core Datenreihe SBCs zu konfigurieren und zu dieser Seite [Menüband Best Practice - Konfigurieren von Netzbetreibern für Microsoft-Teams direkte Routing SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Bitte achten Sie auf die Kopfzeile "Kontakt" zu konfigurieren. Die Kontakt Kopfzeile wird verwendet, um den Mandanten Kunden auf eingehende Invite-Nachricht zu suchen. 

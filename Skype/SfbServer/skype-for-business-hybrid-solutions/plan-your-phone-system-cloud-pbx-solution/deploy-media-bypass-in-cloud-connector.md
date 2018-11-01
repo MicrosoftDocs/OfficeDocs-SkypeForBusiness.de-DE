@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema Weitere Informationen zu den Schritten zum Bereitstellen von, dass die medienumgehung mit Cloud Connector Edition, Version 2.0 und höher.
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375499"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839072"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Die medienumgehung in der Cloud Connector Edition bereitstellen
  
@@ -30,9 +30,9 @@ Die medienumgehung kann ein Client zum Senden von Medien direkt an den nächsten
 
 Um die medienumgehung aktivieren, müssen Sie konfigurieren den DNS-Namen des Media Bypass-Webdiensts und schalten Sie die medienumgehung in der Mandantenkonfiguration. Der Media Bypass-Webdienst wird automatisch auf jedem Vermittlungsserver bereitgestellt. Mandantenadministrator muss wählen Sie einen Namen für einen Hybrid-VoIP-Dienst (Website), und dieser Name aus einer SIP-Domäne für Hybrid-VoIP registriert sein. Der Dienstname sollten über alle Cloud Connector Einheiten und alle PSTN-Websites, unabhängig von der Standort des Clients übereinstimmen. Der Webdienst sollte nur intern im Netzwerk verfügbar sein.
   
-Mandantenadministrator muss einen DNS-A-Eintrag in der internen Active Directory-Produktion konfigurieren. Wenn Sie eine komplexe Umgebung mit mehreren Standorte haben, finden Sie im Beispiel in [Beispiel: medienumgehung Website DNS-Einträgen in komplexen mit mehreren Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example). Der DNS-Eintrag sollte nur für interne Netzwerkclients auflösen; Es sollte nicht für externe Netzwerkclients aufgelöst werden.
+Ein Mandantenadministrator muss einen DNS-A-Eintrag in der internen Active Directory-Produktionsinstanz konfigurieren. Wenn Sie eine komplexe Umgebung mit mehreren Standorte haben, finden Sie im Beispiel in [Beispiel: medienumgehung Website DNS-Einträgen in komplexen mit mehreren Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example). Der DNS-Eintrag sollte nur für interne Netzwerkclients aufgelöst werden, nicht für externe Netzwerkclients.
   
-Verbinden Sie nach der Konfiguration des DNS mit Skype für Business Online mithilfe von remote-PowerShell mit Skype Business Administratoranmeldeinformationen. Weitere Informationen finden Sie unter [Connecting to Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Nachdem Sie DNS konfiguriert haben, stellen Sie über Remote-PowerShell mit Skype for Business-Administratoranmeldeinformationen eine Verbindung mit Skype for Business Online her. Weitere Informationen finden Sie unter [Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 Geben Sie in der PowerShell-Sitzung die folgenden Befehle ein, um die Medienumgehung zu aktivieren:
   
@@ -42,7 +42,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Aktivieren der medienumgehung umfasst zwei Schritte. Das Cmdlet New-CsNetworkMedia speichern nicht sofort die neue Konfiguration. Es werden nur die Einstellungen im Arbeitsspeicher erstellt. Das Objekt, das mit diesem Cmdlet erstellten muss in einer Variablen gespeichert, und klicken Sie dann an die MediaBypassSettings-Eigenschaft die Netzwerkkonfiguration zugewiesen. Weitere Informationen finden Sie unter [Beispiel: medienumgehung Website DNS-Einträgen in komplexen mit mehreren Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example).
+Die Aktivierung der Medienumgehung besteht aus zwei Schritten. Das Cmdlet „New-CsNetworkMedia“ speichert die neue Konfiguration nicht sofort, es erstellt die Einstellungen nur im Arbeitsspeicher. Das von diesem Cmdlet erstellte Objekt muss in einer Variablen gespeichert und dann der Eigenschaft „MediaBypassSettings“ der Netzwerkkonfiguration zugewiesen werden. Weitere Informationen finden Sie unter [Beispiel: medienumgehung Website DNS-Einträgen in komplexen mit mehreren Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example).
   
 Die Replikation zwischen den lokalen Komponenten und den Onlinekomponenten kann bis zu 24 Stunden dauern. Daher empfiehlt Microsoft, die notwendigen Befehle auszuführen, bevor Sie Benutzer aktivieren. 
 
@@ -66,10 +66,9 @@ Get-CsNetworkConfiguration -LocalStore
 
 Zum Überprüfen der Clienteinstellungen Abmelden bei der Skype für Business-Client, erneut anmelden, und bestätigen Sie, dass der Client die Dienst-URL wie folgt erhalten hat:
   
-1. Öffnen Sie „%appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog“.  
+1. Öffnen Sie „%appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog“. 
     
-2. Suchen Sie nach „hybridconfigserviceinternalurl“, und vergewissern Sie sich, dass die URL mit der übereinstimmt, die Sie definiert haben. 
-
+2. Suchen Sie nach „hybridconfigserviceinternalurl“, und vergewissern Sie sich, dass die URL mit der übereinstimmt, die Sie definiert haben.
     
 ## <a name="change-media-bypass-parameters"></a>Ändern von Medienumgehungsparametern
 
@@ -91,7 +90,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Nach der Änderung kann es einige Zeit Änderungen für die Replikation auf alle Cloud Connectors dauern. Um den Status der Replikation zu überprüfen, führen Sie das folgende Cmdlet auf Cloud Connector Vermittlungsservern in PowerShell: 
+Nachdem Sie die Änderung vorgenommen haben, kann es eine Weile dauern, bis die Änderungen an alle Cloud Connector-Appliances repliziert sind. Um den Status der Replikation zu überprüfen, führen Sie das folgende Cmdlet auf Cloud Connector Vermittlungsservern in PowerShell: 
   
 ```
 Get- CsNetworkConfiguration -LocalStore
@@ -101,7 +100,7 @@ Nach der Replikation der Änderungen lehnt der Webdienst auf dem Vermittlungsser
   
 ## <a name="disable-media-bypass-permanently"></a>Dauerhaftes Deaktivieren der Medienumgehung
 
-Um die Medienumgehung dauerhaft zu deaktivieren, muss ein Mandantenadministrator die folgenden Befehle ausführen:  
+Um die Medienumgehung dauerhaft zu deaktivieren, muss ein Mandantenadministrator die folgenden Befehle ausführen: 
   
 ```
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
@@ -109,14 +108,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-Ein Administrator müssen auch die Webadressen für die medienumgehung von internen DNS-Servern zu entfernen. Nach der Änderung kann es Änderungen auf alle Cloud Connector Einheiten repliziert werden einige Zeit dauern. 
+Außerdem muss ein Administrator die Webadressen für die Medienumgehung von internen DNS-Servern entfernen. Nach der Änderung kann es Änderungen auf alle Cloud Connector Einheiten repliziert werden einige Zeit dauern. 
   
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Beispiel: DNS-Einträge für Medienumgehungs-Website in komplexen Umgebungen mit mehreren Standorten
 <a name="Example"> </a>
 
-Clients erhalten die Webadresse des Media Bypass-Webdiensts vom einen internen DNS-Server. Der Name des Webdiensts wird in allen Cloud Connector Appliances und Cloud Connector PSTN Websites übereinstimmen. In einer Umgebung mit komplexen mit mehreren Standorten wird empfohlen, die Windows 2016 DNS-Richtlinie für Geo-Location-basiertes Datenverkehr Management verwenden, damit Clients an den Webdienst umgeleitet werden können, die lokal für ihr Netzwerk ist. 
+Clients erhalten die Webadresse des Medienumgehungs-Webdiensts von einem internen DNS-Server. Der Name des Webdiensts wird in allen Cloud Connector Appliances und Cloud Connector PSTN Websites übereinstimmen. In einer komplexen Umgebung mit mehreren Standorten empfehlen wir die Verwendung einer Windows 2016-DNS-Richtlinie für geolocationbasierte Verwaltung des Datenverkehrs, damit Clients an den für ihr Netzwerk lokalen Webdienst umgeleitet werden können. 
   
-Weitere Informationen zu Windows 2016 DNS-Richtlinien finden Sie unter [Verwendung DNS-Richtlinie für Geo-Location basierte Datenverkehr Management mit primären Servern](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location).
+Weitere Informationen zu Windows 2016 DNS-Richtlinien finden Sie unter [Verwendung DNS-Richtlinie für Geo-Location basierte Datenverkehr Management mit primären Servern](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
   
 Das folgende Beispiel zeigt eine Konfiguration für eine Firma mit mehreren Standorten, in der eine Windows 2016-DNS-Richtlinie für geolocationbasierte Verwaltung des Datenverkehrs verwendet wird.
   

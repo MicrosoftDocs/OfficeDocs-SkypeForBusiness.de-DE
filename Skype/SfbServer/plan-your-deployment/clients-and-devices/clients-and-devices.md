@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Zusammenfassung: Überprüfen Sie die unterstützten Clients und Apps für Skype for Business.'
-ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
-ms.translationtype: HT
+ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965720"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839156"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planen für Clients und Geräte
 
@@ -84,7 +84,7 @@ Skype Room Systems v2 ist neueste Konferenzlösung von Microsoft, die eine vertr
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business für Surface Hub
 
-Microsoft Surface Hub ist ein All-in-One-Produktivitätsgerät, das für Brainstorming, Zusammenarbeit und Präsentationen gedacht ist. Es verfügt über einen eigenen Skalierbarkeitstest des Skype for Business-Clients, der im [Microsoft Surface Hub-Administratorhandbuch](https://docs.microsoft.com/en-us/surface-hub/).dokumentiert ist.
+Microsoft Surface Hub ist ein All-in-One-Produktivitätsgerät, das für Brainstorming, Zusammenarbeit und Präsentationen gedacht ist. Es verfügt über einen eigenen Skalierbarkeitstest des Skype for Business-Clients, der im [Microsoft Surface Hub-Administratorhandbuch](https://docs.microsoft.com/surface-hub/).dokumentiert ist.
 
 ## <a name="choosing-your-organizations-preferred-client"></a>Auswählen des bevorzugten Clients für Ihre Organisation
 <a name="BK_client_choose"> </a>
