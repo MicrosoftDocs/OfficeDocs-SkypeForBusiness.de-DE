@@ -3,7 +3,7 @@ title: Übersicht über Teams und Kanäle in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699310"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942815"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -83,3 +83,6 @@ Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln.  Diese
 
 ![Diagramm einer Hierarchie der Organisation von Teams und Kanälen in Microsoft Teams](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>Org geltende teams
+
+Wenn Ihre Organisation nicht mehr als 1.000 Benutzer umfasst, können Sie ein Team Org geltende erstellen. Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einer Organisation, um ein Team für die Zusammenarbeit angehören. Weitere Informationen, einschließlich best Practices zum Erstellen und Verwalten von einer Team Org geltende finden Sie unter [erstellen ein Teams Org geltende in Microsoft-Teams](create-an-org-wide-team.md).
