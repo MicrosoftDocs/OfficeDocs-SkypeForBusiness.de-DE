@@ -1,11 +1,15 @@
 <!-- ============================================================ -->
-# Erste Schritte
-
-## [Übersicht über Microsoft Teams](Teams-overview.md)
-## [Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
-## [Holen Sie sich Hilfe in Microsoft-Teams](get-help-in-microsoft-teams.md)
+# [Willkommen bei Microsoft Teams](teams-overview.md)
 <!-- ============================================================ -->
 
+# [Erste Schritte](get-started-with-teams-landing-page.md)
+## [Schnellstart - Teams](get-started-with-teams-quick-start.md)
+## [Erstellen Sie Ihre erste Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Integrierte frühe Übernahmen](get-started-with-teams-onboard-early-adopters.md)
+## [Überwachung der Nutzung und feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Wo Sie weiter](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Holen Sie sich Hilfe in Microsoft-Teams](get-help-in-microsoft-teams.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Planen

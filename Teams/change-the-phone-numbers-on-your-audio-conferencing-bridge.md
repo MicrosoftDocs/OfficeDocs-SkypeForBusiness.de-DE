@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: 7bd00f23a54780c94cdebeb413a8897e572ec47d
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436604"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005505"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -52,7 +52,11 @@ Neben die Telefonnummern, die Konferenzbrücke bereits zugewiesen, Sie können [
 
 4. Klicken Sie auf der Seite **Zuweisen** auf **Speichern**.
 
-Only a service toll number can be set as the default number for your conferencing bridge; **service toll-free numbers can't be set as the default number of your conferencing bridge**. Wenn Sie eine Dienst gebührenpflichtige Nummer zuweisen und es als die neue Standardnummer für Ihre audiokonferenzbrücke festlegen möchten, führen Sie diese Schritte aus:
+### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Schritt 2: Ändern der Standardrufnummer der Ihrer Konferenzbrücke (optional)
+
+Die Standardrufnummer der Ihrer Konferenzbrücke definiert die Anrufer-ID, die verwendet wird, wenn ein Teilnehmer oder der Organisator aus innerhalb einer Besprechung ein ausgehender Anruf platziert wird.
+
+Nur eine Service gebührenpflichtige Nummer kann als die Standardnummer für Ihre Konferenzbrücke festgelegt werden. **gebührenfreie Nummern Service können nicht als die Standardanzahl zulässiger Ihrer Konferenzbrücke festgelegt werden**. Wenn Sie eine Dienst gebührenpflichtige Nummer zuweisen und es als die neue Standardnummer für Ihre audiokonferenzbrücke festlegen möchten, führen Sie diese Schritte aus:
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
@@ -61,15 +65,10 @@ Only a service toll number can be set as the default number for your conferencin
 3. Markieren Sie den Dienst die gebührenpflichtige Telefonnummer, den Sie als Standard konfigurieren möchten.
 
 4. Wählen Sie **Als Standard** aus.
+ 
+### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Schritt 3: Ändern der Standard-Telefonnummern, die in der Besprechung enthalten sind lädt der Benutzer (optional)
 
-> [!NOTE]
-> Nachdem eine neue Telefonnummer zugewiesen wurde, ändert sich die Standardnummer für vorhandene Benutzer nicht, selbst wenn die Nummer als neue Standardnummer festgelegt wurde. Zum Festlegen der Standard-Gebühren oder eine gebührenfreie Telefonnummer, die hinzugefügt wird, des Organisators Besprechung Einladungen, finden Sie in den Anweisungen für [Microsoft-Teams](set-the-phone-numbers-included-on-invites-in-teams.md) oder die Anweisungen für [Skype für Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites). 
-  
-
-
-### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Schritt 2 - Ändern der Standardrufnummern, die in den Besprechungseinladungen von Benutzern enthalten sind (optional)
-
-Bei den Standardtelefonnummern für Benutzer handelt es sich um die Nummern, die in ihren Besprechungseinladungen enthalten sind, wenn sie eine Besprechung planen. Weitere Informationen finden Sie unter [Legen Sie das Telefon, den Zahlen auf enthalten in Microsoft-Teams, lädt](set-the-phone-numbers-included-on-invites-in-teams.md) oder [gewählte Nummern auf enthalten in Skype für Business Online invites Telefonnummern](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+Die Standard-Telefonnummern eines Benutzers sind invites diejenigen aus, die auf ihre Besprechung enthalten sind, wenn sie eine Besprechung planen. Weitere Informationen, einschließlich wie Rufnummern ohne Authentifizierung für neue Benutzer zugewiesen werden finden Sie unter [Legen Sie das Telefon, den Zahlen auf enthalten in Microsoft-Teams, lädt](set-the-phone-numbers-included-on-invites-in-teams.md) oder [gewählte Nummern auf enthalten in Skype für Business Online invites Telefonnummern](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
@@ -81,11 +80,11 @@ Bei den Standardtelefonnummern für Benutzer handelt es sich um die Nummern, die
 
 Nach dem Speichern der Änderungen sind die neuen Standardtelefonnummern in den Besprechungseinladungen der Organisatoren enthalten, wenn diese zum nächsten Mal eine neue Besprechung planen.
 
-### <a name="step-3---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Schritt 3 - Aktualisieren vorhandener Besprechungseinladungen von Benutzern mit Meeting Migration Service (optional)
+### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Schritt 4: Aktualisieren einer vorhandenen Besprechung zum Einladen von Benutzern mithilfe der Besprechung Migration Service (optional)
 
 Für die nächsten beiden Schritte müssen Sie Windows PowerShell zu starten.
   
-Mit Meeting Migration Service können Sie optional Besprechungseinladungen aktualisieren, die bereits vor der Änderung der Standardtelefonnummern an Benutzer in Ihrer Organisation gesendet wurden. Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Wenn Sie das Standard-Telefon Zahlen, die möglicherweise in der Besprechung eingeladen werden für einige oder alle Benutzer aktualisiert, können Sie optional Meeting-Einladungen, die bereits für Benutzer in Ihrer Organisation gesendet wurden, bevor die Standard-Rufnummern mit geändert wurden Aktualisieren der Migration Meeting-Dienst. Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Führen Sie Meeting Migration Service (MMS) für die Benutzer aus, deren Standardtelefonnummern in Schritt 2 geändert wurden. Führen Sie dazu den folgenden Befehl aus:
 
@@ -168,7 +167,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
 
  **Starten einer Windows PowerShell-Sitzung**
 
-1. Vom **Start Menu** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
 
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
 
@@ -224,7 +223,7 @@ Um Zeit sparen, indem Sie diesen Prozess automatisieren, können Sie das [Set-Cs
 
 ## <a name="about-windows-powershell"></a>Informationen zu Windows PowerShell
 
-Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell können Sie das Verwalten von Office 365 und Skype für Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, insbesondere dann, wenn Sie mehrere Aufgaben zu tun haben. Siehe folgende Themen, um Windows PowerShell zu verwenden:
+Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell können Sie das Verwalten von Office 365 und Skype für Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, insbesondere dann, wenn Sie mehrere Aufgaben zu tun haben. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 279985565bb7a8097f67e259f04f056433ccda64
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: ff664c630f5c8da8e3f63700d018b40ab9f0ef70
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540293"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005513"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Hinweise zur Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen
 
@@ -36,7 +36,7 @@ TeamsInteropPolicy wird als zuvor angekündigten im April 2018 zurückgezogen. S
     - Benutzer, die bereits Skype für Business/Lync lokal verwenden Sie ihre vorhandenen lokalen Konto.
     - Benutzer, die für die wir eine vorhandene Skype für Business Konto nicht erkennt haben einen Skype für Business-Onlinekonto automatisch bereitgestellt werden, wenn der Benutzer Teams erstellt wird. Keine Skype für Business-Lizenz ist erforderlich.
 
-4.  Wenn Sie eine lokalen Bereitstellung von entweder Skype für Geschäftskunden und Lync haben und diese Benutzer Teams Benutzer werden sollen, Sie müssen mindestens sicherstellen, dass Azure AD-Verbinden der MsRTCSIP-DeploymentLocator synchronisiert wird-Attribut in AAD, sodass diese Teams/Skype für Unternehmen Online Ihrer lokalen Umgebung ordnungsgemäß erkennt. Darüber hinaus so verschieben Sie alle Benutzer in den Modus nur Teams (d. h., aktualisieren Sie einen Benutzer), *müssen Sie Skype für Business Hybrid-Modus konfigurieren*.
+4.  Wenn Sie eine lokalen Bereitstellung von entweder Skype für Geschäftskunden und Lync haben und diese Benutzer Teams Benutzer werden sollen, Sie müssen mindestens sicherstellen, dass Azure AD-Verbinden der MsRTCSIP-DeploymentLocator synchronisiert wird-Attribut in AAD, sodass diese Teams/Skype für Unternehmen Online Ihrer lokalen Umgebung ordnungsgemäß erkennt. Darüber hinaus so verschieben Sie alle Benutzer in den Modus nur Teams (d. h., aktualisieren Sie einen Benutzer), *müssen Sie Skype für Business Hybrid-Modus konfigurieren*. Weitere Informationen finden Sie unter [Konfigurieren von Azure Active Directory verbinden für Skype für Unternehmen und Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
 5.  Interoperabilität zwischen Teams und Skype für Unternehmensbenutzer ist nur möglich *, wenn der Benutzer Teams online in Skype für Unternehmen verwaltet wird*. Der Empfänger Skype für Geschäftsbenutzer verwaltet werden kann entweder lokal (und erfordert die Konfiguration der Skype für hybride Business) oder online. Benutzer, die in Skype für Business lokal verwaltet werden können Teams im Inseln Modus (weiter unten in diesem Dokument definiert) verwenden, aber nicht mit der Interop Teams oder Verbund mit anderen Benutzern für die Business Skype verwenden.  
 
@@ -66,7 +66,7 @@ Die geplante Modi sind unten aufgeführt. SfBWithTeamsCollab und SfBWithTeamsCol
 
 |Modus|Routingverhalten|Besprechung planen|Clientumgebung|
 |---|---|---|---|
-|Inseln|Eingehende VOIP-Anrufe und Land im gleichen Client als Absender, mit Ausnahme von chats, wenn der Empfänger im Verbund befindet und Inseln-Modus sorgt sie in diesem Fall in SfB.<sup>1</sup>|Beide|Endbenutzer können Anrufe und Chats entweder Client aus initiieren und Besprechungen können entweder Client aus.|
+|Inseln|Eingehende VOIP-Anrufe und Land im gleichen Client als Absender, mit Ausnahme von chats, wenn der Empfänger im Verbund befindet und Inseln-Modus sorgt sie in diesem Fall in SfB.<sup>1</sup>|Both|Endbenutzer können Anrufe und Chats entweder Client aus initiieren und Besprechungen können entweder Client aus.|
 |SfBOnly|Eingehende Anrufe und Chats werden an Skype für Unternehmen weitergeleitet.|Skype für Unternehmen nur|Endbenutzer können Anrufe und nur von Skype für Unternehmen Chats initiieren und Skype nur für Business Besprechungen planen. (NOCH NICHT ERZWUNGEN)|
 |SfBWithTeamsCollab<sup>2</sup>|Eingehende Anrufe und Chats werden an Skype für Unternehmen weitergeleitet.|Skype für Unternehmen nur|Endbenutzer können Anrufe und nur von Skype für Unternehmen Chats initiieren und Skype nur für Business Besprechungen planen. Sie können auch Kanäle in Teams. (NOCH NICHT ERZWUNGEN)|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Eingehende Anrufe und Chats werden an Skype für Unternehmen weitergeleitet.|Nur Teams|Endbenutzer können Anrufe initiieren und Chats von Skype für Unternehmen nur und Teams Besprechungen planen. Sie können auch Kanäle in Teams. (NOCH NICHT ERZWUNGEN)|
@@ -99,17 +99,17 @@ Teams stellt alle relevante Instanzen der TeamsUpgradePolicy über integrierte, 
 
 |Identität |Modus|NotifySfbUsers|Aktion|Kommentare|
 |---|---|---|---|---|
-|Inseln|Inseln|False|Keine||
+|Inseln|Inseln|Falsch|Keine||
 |IslandsWithNotify|Inseln|True|Benachrichtigen||
-|SfBOnly|SfBOnly|False|Keine|Für den Moment, in diesem Modus erfolgt effektiv als bevorzugter Client Einstellung = SfB. Wir in Zukunft zu erwarten, dass diese Teams Funktionalität eingeschränkt wird.|
+|SfBOnly|SfBOnly|Falsch|Keine|Für den Moment, in diesem Modus erfolgt effektiv als bevorzugter Client Einstellung = SfB. Wir in Zukunft zu erwarten, dass diese Teams Funktionalität eingeschränkt wird.|
 |SfBOnlyWithNotify|SfBOnly|True|Benachrichtigen|Für den Moment, in diesem Modus erfolgt effektiv als bevorzugter Client Einstellung = SfB. Wir in Zukunft zu erwarten, dass diese Teams Funktionalität eingeschränkt wird.|
-|SfBWithTeamsCollab|SfBWithTeamsCollab|False|Keine|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird dies nur Kanäle Teams app zulassen.|
+|SfBWithTeamsCollab|SfBWithTeamsCollab|Falsch|Keine|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird dies nur Kanäle Teams app zulassen.|
 |SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|Benachrichtigen|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird dies nur Kanäle Teams app zulassen.|
-|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|False|Keine|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird diese Besprechung planen in Teams und Kanäle gestatten.|
+|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|Falsch|Keine|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird diese Besprechung planen in Teams und Kanäle gestatten.|
 |SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|Benachrichtigen|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird diese Besprechung planen in Teams und Kanäle gestatten.|
-|UpgradeToTeams|TeamsOnly|False|Upgrade|Verwenden Sie diesen Modus aus, um Benutzer auf Teams aktualisiert und Chat, aufrufen und Planen der Besprechung in Skype für Unternehmen zu vermeiden.|
-|Global|Legacy|False|Keine|Der Modus wird auf Inseln in naher Zukunft aktualisiert.|
-|NoUpgrade|Legacy|False|Keine|Diese Instanz wird bald zurückgezogen werden.|
+|UpgradeToTeams|TeamsOnly|Falsch|Upgrade|Verwenden Sie diesen Modus aus, um Benutzer auf Teams aktualisiert und Chat, aufrufen und Planen der Besprechung in Skype für Unternehmen zu vermeiden.|
+|Global|Inseln|Falsch|Keine|Das ist die Standardrichtlinie.|
+|NoUpgrade|Legacy|Falsch|Keine|Diese Instanz wird bald zurückgezogen werden.|
 |NotifyForTeams|Legacy|True|Benachrichtigen|Diese Instanz wird bald zurückgezogen werden.|
 ||||||
 
@@ -136,9 +136,9 @@ Kunden, die noch mit Legacymodus werden darauf hingewiesen, dass nur die drei be
 
 |Identität |AllowEndUserClientOverride|CallingDefaultClient|ChatDefaultClient|
 |---|---|---|---|
-|`DisallowOverrideCallingDefaultChatDefault`|False|Standard|Standard|
-|`DisallowOverrideCallingSfbChatSfb`|False|SFB|SFB|
-|`DisallowOverrideCallingTeamsChatTeams`|False|Microsoft Teams|Microsoft Teams|
+|`DisallowOverrideCallingDefaultChatDefault`|Falsch|Default (Standard)|Default (Standard)|
+|`DisallowOverrideCallingSfbChatSfb`|Falsch|SFB|SFB|
+|`DisallowOverrideCallingTeamsChatTeams`|Falsch|Microsoft Teams|Microsoft Teams|
 |||||
 
 Verwenden Sie die folgende Cmdlet Syntax, wobei $policy eine der oben genannten Werte der Identität ist:`Grant-CsTeamsInteropPolicy -PolicyName $policy -Identity $SipAddress`
@@ -168,9 +168,9 @@ Alle Kunden TeamsInteropPolicy weiterhin zu verwenden:
 
    |Identität |AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
-   |`DisallowOverrideCallingDefaultChatDefault`|False|Standard|Standard|
-   |`DisallowOverrideCallingSfbChatSfb`|False|SFB|SFB|
-   |`DisallowOverrideCallingTeamsChatTeams`|False|Microsoft Teams|Microsoft Teams|
+   |`DisallowOverrideCallingDefaultChatDefault`|Falsch|Default (Standard)|Default (Standard)|
+   |`DisallowOverrideCallingSfbChatSfb`|Falsch|SFB|SFB|
+   |`DisallowOverrideCallingTeamsChatTeams`|Falsch|Microsoft Teams|Microsoft Teams|
    |||||
 
     Verwenden Sie die folgende Cmdlet Syntax, wobei $policy eine der oben genannten Werte der Identität ist:
@@ -186,9 +186,9 @@ Alle Kunden TeamsInteropPolicy weiterhin zu verwenden:
 
     |Parameter|Wert|
     |---|---|
-    |`AllowEndUserClientOverride`|False|
-    |`CallingDefaultClient`|Standard|
-    |`ChatDefaultClient`|Standard|
+    |`AllowEndUserClientOverride`|Falsch|
+    |`CallingDefaultClient`|Default (Standard)|
+    |`ChatDefaultClient`|Default (Standard)|
     |||
 
     Wenn die Werte anders als oben angegeben werden, führen Sie Folgendes ein, um alle Mandanten-spezifische Anpassungen zu entfernen:

@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Rufen Sie die Schritte zum Erstellen einer Standardrufnummer für Anrufer teilnehmen an einer Besprechung Microsoft-Teams. '
-ms.openlocfilehash: 859bf6f4a99f95c67123385c99061b1546eaa60c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347577"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005521"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
-Audiokonferenzen in Office 365 ermöglicht Benutzern in Ihrer Organisation zum Erstellen von Microsoft-Teams, Besprechungen, und klicken Sie dann zulassen, dass Benutzer in diesen treffen mit einem Telefon einwählen. In Office 365 verfügen Sie über die Möglichkeit, eine audiokonferenzbrücke von Microsoft oder einem Drittanbieter-audiokonferenzbrücke, die von einem Provider genehmigte Audiokonferenzen (ACP) gehostet wird.
+Audiokonferenzen in Office 365 ermöglicht Benutzern in Ihrer Organisation zum Erstellen von Microsoft-Teams, Besprechungen, und klicken Sie dann zulassen, dass Benutzer in diesen treffen mit einem Telefon einwählen.
   
 Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
   
@@ -39,7 +39,15 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Festlegen oder Ändern der Standardtelefonnummer für Audiokonferenzen für einen Besprechungsorganisator oder Benutzer
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>Anfänglicher Zuweisung von Telefonnummern, die in der Besprechung enthalten sind invites für neue Benutzer
+
+Die Telefonnummern, die Bestandteil der Besprechung erhalten invites von Benutzern für Audiokonferenzen definieren, indem Sie die Standard-Konferenzen gebührenpflichtige Telefonnummer und den Standard-Konferenzen gebührenfreie Telefonnummer Zahl Einstellungen des Benutzers aktiviert. Jede Einstellung gibt an, welche gebührenpflichtige oder gebührenfreie Telefonnummer in der besprechungseinladung eines bestimmten Benutzers eingeschlossen werden sollen. Wie bereits erwähnt, enthält jede Besprechung einladen, eine gebührenpflichtige Nummer, eine optionale gebührenfreie Telefonnummer und ein Link, der die vollständige Liste der alle Zugriffsnummer für Einwahl Telefonnummern wird geöffnet, die Teilnahme an einer bestimmten Besprechung verwendet werden können.
+
+Für einen neuen Benutzer werden die standardmäßigen Conferencing gebührenfreie Nummern zugewiesen je nach Land, das in der Office 365-Profil des Benutzers festgelegt wird, wenn der Benutzer für die Audiokonferenz-Dienst aktiviert ist. Befindet sich eine gebührenpflichtige Telefonnummer in die Konferenzbrücke, die das Land des Benutzers entspricht, wird diese Nummer automatisch als die gebührenpflichtige Standardnummer des Benutzers zugeordnet werden. Wenn nicht vorhanden ist, wird die Zahl, die als die gebührenpflichtige Standardanzahl zulässiger die Konferenzbrücke definiert ist als die gebührenpflichtige Standardnummer des Benutzers zugeordnet werden.  
+
+Nachdem der Benutzer für die Audiokonferenz-Dienst aktiviert ist, können die standardmäßige gebührenpflichtigen und gebührenfreien Telefonnummern des Benutzers vom mandantenadministrator aus die Anfangswerte jederzeit geändert werden.
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Festlegen oder Ändern von Audiokonferenzen Standardrufnummer ein Organisator der Besprechung oder eines Benutzers
 
 ![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
 
