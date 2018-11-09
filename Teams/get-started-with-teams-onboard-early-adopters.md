@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: 9c1c60552dc4ef889b312e3055ff99a412362a22
+ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238136"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26031747"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Integrierte frühe Übernahmen zu Microsoft-Teams
 
@@ -91,7 +91,7 @@ Android 4.4 oder höher ausgeführt-Benutzer können die mobile app Teams aus de
 
 Es ist wichtig, zu fördern Ihrer frühen Übernahmen aktiv Teams zur Förderung neue Zusammenarbeit Erfahrungen und Entwicklung Teams Champions verwenden. Wir empfehlen die Verwendung des Kanals "Gewusst wie" im "Erste Schritte mit Teams wissen" Team Sie erstellt haben, um Anweisungen für die Benutzer Hilfe freizugeben bessere Akzeptanz. 
 
-Ausführliche Anleitungen treibende Teams Annahme für Ihre Organisation finden Sie unter [Teams einführen](adopt-microsoft-teams-landing-page.md).
+Ausführliche Anleitungen treibende Teams Annahme für Ihre Organisation finden Sie unter [Erstellen einer Strategie für Teams ändern](change-management-strategy.md). 
 
 ## <a name="next-steps"></a>Nächste Schritte
 Wechseln Sie zur [Überwachung der Nutzung und Feedback](get-started-with-teams-monitor-usage-and-feedback.md).
