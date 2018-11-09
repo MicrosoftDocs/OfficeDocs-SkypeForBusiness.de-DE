@@ -1,25 +1,25 @@
 ---
-title: Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server 2015
+title: Verwenden von Anrufqualität Dashboards für Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Zusammenfassung: Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: c4d67088fc11e05d6880d80da714f3268e0e7e2d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Zusammenfassung: Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
+ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035729"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server 2015
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Verwenden von Anrufqualität Dashboards für Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.
+**Zusammenfassung:** Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
   
 Mit CQD können IT-Profis Daten aggregieren, um die Bereiche in ihrer Umgebung zu ermitteln, in denen die Medienqualität beeinträchtigt ist. CQD ermöglicht den Vergleich von Statistiken für verschiedene Benutzergruppen und die Ermittlung von Trends und Mustern. Dabei liegt der Schwerpunkt nicht auf der Lösung individueller Probleme mit Anrufen, sondern auf der Erkennung von Problemen und Lösungen, die auf viele Benutzer in einer bestimmten Umgebung anwendbar sind.
   
@@ -101,7 +101,7 @@ Das Schema für diese Tabellen sieht aus wie folgt:
   
 **CqdBuilding**
 
-|**Spalte**|**Datentyp**|**Zulassen NULL-Werte?**|**Details**|
+|**Spalte**|**Datentyp**|**Nullen zulassen?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |BuildingKey  <br/> |int  <br/> |Nein  <br/> |Primärschlüssel für die Tabelle CqdBuilding.  <br/> |
 |BuildingName  <br/> |varchar(80)  <br/> |Nein  <br/> |Gebäudename.  <br/> |
@@ -110,8 +110,8 @@ Das Schema für diese Tabellen sieht aus wie folgt:
 |BuildingTypeId  <br/> |int  <br/> |Nein  <br/> |Fremdschlüssel, sollte mit einem der Einträge in der Tabelle CqdBuildingType übereinstimmen.  <br/> |
 |Geografische Breite  <br/> |float  <br/> |Ja  <br/> |Geografische Breite des Gebäudes.  <br/> |
 |Geografische Länge  <br/> |float  <br/> |Ja  <br/> |Geografische Länge des Gebäudes.  <br/> |
-|Stadtname  <br/> |varchar(30)  <br/> |Ja  <br/> |Name der Stadt, in dem sich das Gebäude befindet.  <br/> |
-|Postleitzahl  <br/> |varchar(25)  <br/> |Ja  <br/> |Postleitzahl des Gebäudestandortes.  <br/> |
+|CityName  <br/> |varchar(30)  <br/> |Ja  <br/> |Name der Stadt, in dem sich das Gebäude befindet.  <br/> |
+|ZipCode  <br/> |varchar(25)  <br/> |Ja  <br/> |Postleitzahl des Gebäudestandortes.  <br/> |
 |CountryShortCode  <br/> |varchar(2)  <br/> |Ja  <br/> |Kodes gemäß ISO 3166-1 Alpha-2 für das Land, in dem sich das Gebäude befindet.  <br/> |
 |StateProvinceCode  <br/> |varchar(3)  <br/> |Ja  <br/> |Abkürzung (3 Buchstaben) für das Land/die Region, in dem/der sich das Gebäude befindet.  <br/> |
 |InsideCorp  <br/> |bit  <br/> |Ja  <br/> |Bit, das angibt, ob das Gebäude Teil des Unternehmensnetzwerks ist.  <br/> |
@@ -120,7 +120,7 @@ Das Schema für diese Tabellen sieht aus wie folgt:
    
 **CqdNetwork**
 
-|**Spalte**|**Datentyp**|**Zulassen NULL-Werte?**|**Details**|
+|**Spalte**|**Datentyp**|**Nullen zulassen?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |Netzwerk  <br/> |varchar(25)  <br/> |Nein  <br/> |Subnetzadresse.  <br/> |
 |NetworkRange  <br/> |tinyint  <br/> |Ja  <br/> |Subnetzmaske  <br/> |
@@ -132,7 +132,7 @@ Standardmäßig hat dieses nächsten Tabelle einen Eintrag (0, "Unbekannt").
   
 **CqdBuildingType**
 
-|**Spalte**|**Datentyp**|**Zulassen NULL-Werte?**|**Details**|
+|**Spalte**|**Datentyp**|**Nullen zulassen?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId  <br/> |int  <br/> |Nein  <br/> |Primärschlüssel für die Tabelle CqdBuildingType.  <br/> |
 |BuildingTypeDesc  <br/> |char(18)  <br/> |Nein  <br/> |Beschreibung des Gebäudetyps.  <br/> |
@@ -141,7 +141,7 @@ Standardmäßig hat dieses nächsten Tabelle einen Eintrag (0, "Unknown", 0, nul
   
 **CqdBuildingOwnershipType**
 
-|**Spalte**|**Datentyp**|**Zulassen NULL-Werte?**|**Details**|
+|**Spalte**|**Datentyp**|**Nullen zulassen?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId  <br/> |int  <br/> |Nein  <br/> |Primärschlüssel für die Tabelle CqdBuildingOwnershipType.  <br/> |
 |OwnershipTypeDesc  <br/> |varchar(25)  <br/> |Nein  <br/> |Beschreibung des Besitztyps.  <br/> |
@@ -152,7 +152,7 @@ Standardmäßig hat dieses nächsten Tabelle einen Eintrag (0, "Unknown", 0, nul
   
 **CqdBssid**
 
-|**Spalte**|**Datentyp**|**Zulassen NULL-Werte?**|**Details**|
+|**Spalte**|**Datentyp**|**Nullen zulassen?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |bss  <br/> |nvarchar(50)  <br/> |Nein  <br/> |Primärschlüssel für die Tabelle CqdBssid. Ist die BSSID der WLAN-Zugriffspunkts.  <br/> |
 |ess  <br/> |nvarchar(50)  <br/> |Ja  <br/> |Controllerinformation zum WLAN-Zugriffspunkt.  <br/> |
@@ -174,9 +174,9 @@ Ein CQD-Stream kann von guter oder schlechter Qualität oder unqualifiziert sein
     
 - Klassifizierung kann nicht geändert werden
     
-**Definition/Klassifizierung der Anrufe schlechter Qualität**
+**Definition/Klassifizierung für Anrufe schlechter Qualität**
 
-|**Metrik**|**Schwellenwert**|
+|**Metrik**|**Grenzwert**|
 |:-----|:-----|
 |DDegradationAvg  <br/> |Größer als 1.0 (-1 Netzwerk-MOS)  <br/> |
 |RoundTrip  <br/> |Größer als 500   <br/> |
@@ -194,15 +194,15 @@ CQD verwenden nicht Anrufer/angerufenen Felder. Diese wurden umbenannte "First" 
   
  **Zweiter** Ist immer der Client-Endpunkt, falls es sich nicht um einen Server-Server-Stream handelt. 
   
-**Beispiel für die erste und zweite Klassifikation**
+**Beispiel für eine Erst- und Zweitklassifizierung**
 
-|**Endpunkt 1 UAType**|**Endpunkt 2 UUAType**|**Erster**|**Zweiter**|
+|**Endpunkt 1 UAType **|**Endpunkt 2 UUAType **|**Erster**|**Zweiter**|
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype for Business)   <br/> |Endpunkt 1  <br/> |Endpunkt 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Endpunkt 2  <br/> |Endpunkt 1  <br/> |
 |4 (Skype for Business)   <br/> |4 (Skype for Business)   <br/> |Der Anrufer in MediaLine   <br/> |Der Angerufene in MMediaLine  <br/> |
    
-Falls beide Endpunkte denselben Typ aufweisen, legt CQD den Anrufer als Ersten fest, sodass der Angerufene zum Zweiten wird. [In diesem Blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) Weitere Informationen finden Sie.
+Falls beide Endpunkte denselben Typ aufweisen, legt CQD den Anrufer als Ersten fest, sodass der Angerufene zum Zweiten wird. Weitere Informationen finden Sie in [diesem Blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx).
   
 ## <a name="accounting-for-vpn"></a>VPN-Kontoerstellung
 

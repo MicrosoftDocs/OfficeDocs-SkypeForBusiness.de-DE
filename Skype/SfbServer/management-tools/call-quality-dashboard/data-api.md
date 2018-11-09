@@ -1,28 +1,27 @@
 ---
-title: Daten-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server 2015
+title: Daten-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Zusammenfassung: Informationen Sie zu den Rata-API für die Qualitätsdashboard Anruf. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 293844d253e70e291c063d2af64226abaed3c9d9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: 'Zusammenfassung: Informationen Sie zu den Rata-API für die Qualitätsdashboard Anruf. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
+ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011078"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035631"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Daten-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server 2015
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Daten-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Rata API für Anrufqualität Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Rata API für Anrufqualität Dashboard. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
   
-Die Daten-API ermöglicht den programmgesteuerten Zugriff für die Qualitätsdashboard Aufrufen für Skype für Business Server 2015.
+Die Daten-API ermöglicht den programmgesteuerten Zugriff für die Qualitätsdashboard Aufrufen für Skype für Business Server.
   
 ## <a name="data-api-for-call-quality-dashboard"></a>Daten-API für die Qualitätsdashboard Anruf
 

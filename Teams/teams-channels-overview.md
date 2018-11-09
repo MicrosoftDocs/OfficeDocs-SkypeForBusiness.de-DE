@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942815"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038809"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -30,13 +30,15 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 
     -   Teams können auch als öffentliche und offene Teams erstellt werden, an denen alle in der Organisation teilnehmen können (maximal 2.500 Mitglieder).
     
-Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Möglich sind dynamische Teams für projektbasierte Aufgaben (zum Beispiel Einführung eines Produkts oder Einrichtung eines gemeinsamen digitalen Arbeitsraums). Eine weitere Möglichkeit sind ständige Teams, die die interne Struktur Ihrer Organisation widerspiegeln (z. B. Abteilungen und Bürostandorte). Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
+    Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Möglich sind dynamische Teams für projektbasierte Aufgaben (zum Beispiel Einführung eines Produkts oder Einrichtung eines gemeinsamen digitalen Arbeitsraums). Eine weitere Möglichkeit sind ständige Teams, die die interne Struktur Ihrer Organisation widerspiegeln (z. B. Abteilungen und Bürostandorte). Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
 
 -   **Kanäle** sind spezielle Abschnitte innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen oder anderen für Ihr Team wichtigen Aspekten organisiert werden.
 
     -   In Teamkanälen können alle Teammitglieder offene Unterhaltungen führen. Private Chats sind nur für die am Chat beteiligten Personen sichtbar.
 
     -   Kanäle sind besonders nützlich, wenn mit apps erweitert, die Registerkarten, Connectors und Bots, die ihren Wert für die Mitglieder des Teams erhöhen enthalten.
+
+[In diesem kurze Video anzeigen](https://youtu.be/hjJWtoaRJeE) , erfahren Sie mehr über die bewährten Methoden für das Erstellen von Teams und Kanäle.
 
 <a name="membership-roles-and-settings"></a>Mitgliedschaft, Rollen und Einstellungen
 ------------------------------

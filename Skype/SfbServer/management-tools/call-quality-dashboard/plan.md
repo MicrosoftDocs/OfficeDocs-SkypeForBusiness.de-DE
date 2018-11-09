@@ -1,9 +1,8 @@
 ---
-title: Planen Sie für die Qualitätsdashboard Anruf Skype für Business Server 2015
+title: Planen Sie für die Qualitätsdashboard Anruf Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,20 +10,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Erfahren Sie mehr über welche Aspekte bei der Planung für das Anrufqualität Dashboard zu.'
-ms.openlocfilehash: 05411bb62e36350dc9109ca0f8b9d74fc0541946
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375964"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035771"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>Planen Sie für die Qualitätsdashboard Anruf Skype für Business Server 2015
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen Sie für die Qualitätsdashboard Anruf Skype für Business Server 
  
 **Zusammenfassung:** Hier erfahren Sie, was Sie berücksichtigen Sie bei der Planung für das Anrufqualität Dashboard.
   
-## <a name="overview-of-the-skype-for-business-server-2015-call-quality-dashboard"></a>Übersicht über die Skype für Business Server 2015 Anrufqualität Dashboard
+## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Übersicht über die Skype für Business Server Anrufqualität Dashboard
 
-Die Skype für Business Server 2015 aufrufen Quality Dashboard (CQD) ist eine reporting Ebene auf der Basis der Qualität Erfahrung Datenbank in dem Monitoring Server in Skype für Business Server 2015 und Lync Server 2013. CQD wird Microsoft SQL Server Analysis Services verwendet, um die aggregierte Nutzung bereitstellen, und rufen Sie Informationen zur Medienqualität als auch für filtern und das Dataset beim Pivotieren. CQD Merkmale:
+Die Skype für Business Server aufrufen Quality Dashboard (CQD) ist eine reporting Ebene auf der Basis der Qualität Erfahrung Datenbank in dem Monitoring Server in Skype für Business Server. CQD wird Microsoft SQL Server Analysis Services verwendet, um die aggregierte Nutzung bereitstellen, und rufen Sie Informationen zur Medienqualität als auch für filtern und das Dataset beim Pivotieren. CQD Merkmale:
   
 - **Archivspeicher der QoE-Daten über die QoE-Archiv-Komponente des CQD.** Die QoE-Archiv-Komponente kann für eine viel Dauer länger als die Monitoring Server kann QoE-Daten gespeichert. Dies ermöglicht Trends und Berichte für bis zu sieben Monate Daten zu einem Zeitpunkt die Möglichkeit, das Fenster reporting back soweit Folie Daten vorhanden sind.
     
@@ -82,7 +81,7 @@ Die CQD Daten können über das Portal CQD angezeigt und über REST-API-Aufrufe 
   
 ### <a name="cqd-portal"></a>CQD-Portal
 
-Das Portal ist die schnellste Methode zum Anzeigen der Daten im Cube. Das Portal verfügt über mehrere integrierte Berichte, die dann sofort verwendet werden. Integrierte Berichte sind eine strukturierte Bezeichnungen nacheinander kleiner und kleinere Segmente der Anrufdaten im Benutzerhandbuch verknüpft. Integrierte Berichte markieren auch verschiedene unterschiedlichen Möglichkeiten, die die Daten angezeigt werden können, durch eine Kombination von Diagrammen und Tabellen mit unterschiedlichen Pivot-Elemente, Filter und Maßnahmen zu demonstrieren. Jeder Benutzer, die auf das Portal zugreifen, kann ein eigenes Satz von Berichten verfügen, die er anpassen und freigeben können. Weitere Informationen zur Verwendung von dem Webportal CQD finden Sie unter [Verwendung Dashboard Qualität für Skype für Business Server 2015 aufrufen](use.md).
+Das Portal ist die schnellste Methode zum Anzeigen der Daten im Cube. Das Portal verfügt über mehrere integrierte Berichte, die dann sofort verwendet werden. Integrierte Berichte sind eine strukturierte Bezeichnungen nacheinander kleiner und kleinere Segmente der Anrufdaten im Benutzerhandbuch verknüpft. Integrierte Berichte markieren auch verschiedene unterschiedlichen Möglichkeiten, die die Daten angezeigt werden können, durch eine Kombination von Diagrammen und Tabellen mit unterschiedlichen Pivot-Elemente, Filter und Maßnahmen zu demonstrieren. Jeder Benutzer, die auf das Portal zugreifen, kann ein eigenes Satz von Berichten verfügen, die er anpassen und freigeben können. Weitere Informationen zur Verwendung von dem Webportal CQD finden Sie unter [Verwendung Dashboard Qualität für Skype für Business Server aufrufen](use.md).
   
 Unterstützte Betriebssysteme für CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2 und WindowsServer 2012.
   
@@ -90,7 +89,7 @@ Unterstützte Browser für CQD Portal: InternetExplorer 11, InternetExplorer 10 
   
 ### <a name="rest-apis"></a>REST-APIs
 
-Die Daten des Cubes können auch über REST-API-Aufrufe zugegriffen werden. Über die REST-API-Aufrufe abgerufenen Daten können über den HTML-Seiten gerendert werden. Benutzer können während weiterhin Erstellen benutzerdefinierter Berichte für ihre geschäftlichen Anforderungen geeignet nutzen die Geschwindigkeit der Abfrage und das Schema auf hoher Ebene CQD übernehmen. Weitere Informationen über die API und Beispiele finden Sie unter [Entwickeln von Anrufqualität Dashboard für Skype für Business Server 2015](develop.md). 
+Die Daten des Cubes können auch über REST-API-Aufrufe zugegriffen werden. Über die REST-API-Aufrufe abgerufenen Daten können über den HTML-Seiten gerendert werden. Benutzer können während weiterhin Erstellen benutzerdefinierter Berichte für ihre geschäftlichen Anforderungen geeignet nutzen die Geschwindigkeit der Abfrage und das Schema auf hoher Ebene CQD übernehmen. Weitere Informationen über die API und Beispiele finden Sie unter [Entwickeln von Anrufqualität Dashboard für Skype für Business Server](develop.md). 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>Definieren der Anforderungen Ihrer Organisation für CQD
 
@@ -133,7 +132,7 @@ CQD verfügt über mehrere Komponenten, und es hilft Ihnen, um zu verstehen, die
 
 Alle CQD Komponenten und abhängige Komponenten können auf einem Computer installiert werden. Die single-Box-Konfiguration ist die einfachste Konfiguration und CQD eigenständig sein kann. CQD würde nur Zugriff auf die QoE-Metriken-Datenbank auf dem Monitoring Server benötigen. Der Server CQD kann einem eigenständigen Computer, einen virtuellen Computer oder den Monitoring Server, je nach der verfügbaren Ressourcen des Hostcomputers und der leistungsanforderungen kann auch sein. 
   
-Während der Installation, die Benutzer aus die Installation einfach bereitstellen muss, die Microsoft SQL Server und Microsoft SQL Server Analysis Services-Instanzen, die zuvor auf dem Computer eingerichtet worden ist, auf dem die CQD installiert werden soll. [Bereitstellen von Anrufqualität](deploy-0.md) Dashboard für Skype für Business Server 2015 finden Sie weitere Informationen.
+Während der Installation, die Benutzer aus die Installation einfach bereitstellen muss, die Microsoft SQL Server und Microsoft SQL Server Analysis Services-Instanzen, die zuvor auf dem Computer eingerichtet worden ist, auf dem die CQD installiert werden soll. [Bereitstellen von Anrufqualität](deploy-0.md) Dashboard für Skype für Business Server finden Sie weitere Informationen.
   
 ### <a name="multiserver-configuration"></a>MultiServer-Konfiguration
 
@@ -238,6 +237,8 @@ Die folgenden Betriebssysteme werden für CQD benötigt:
 - WindowsServer 2012 mit IIS 8.0
     
 - Windows Server 2012 R2 mit IIS 8,5
+
+- WindowsServer 2016 mit IIS
     
 Im folgenden sind die erforderlichen IIS-Rollendienste (in einer hierarchischen Reihenfolge):
   
@@ -289,6 +290,8 @@ Die folgenden Versionen von SQL Server werden unterstützt:
 - SQL Server 2012
     
 - SQL Server 2014
+
+- SQLServer 2016
     
 Business Intelligence oder Enterprise Edition ist aus Gründen der Systemleistung empfohlen. Diese Editionen ermöglichen die Verwendung von mehreren Partitionsdateien, die gleichzeitig, verarbeitet werden kann, die ist nützlich für die Verarbeitung der Daten übergreifende mehrere Monate oder länger. 
   

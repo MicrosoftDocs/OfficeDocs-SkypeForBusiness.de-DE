@@ -16,14 +16,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849406"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038919"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
+
+> [!Tip]
+> Sehen Sie sich die folgenden Sitzung Informationen zu den Vorteilen von Direct Routing, wie es geplant und wie diese bereitgestellt: [Direktes Routing in Microsoft-Teams](https://aka.ms/teams-direct-routing)
 
 Microsoft Phone System direkten Routing können Sie einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) auf Microsoft Telefonsystem herstellen.  Mit dieser Funktion können beispielsweise Sie lokale PSTN-Konnektivität mit Microsoft-Teams-Client konfigurieren wie in der folgenden Abbildung dargestellt: 
 

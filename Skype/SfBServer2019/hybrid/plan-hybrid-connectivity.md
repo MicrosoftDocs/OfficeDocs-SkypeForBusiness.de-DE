@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Planungsüberlegungen für die Implementierung von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online oder Teams.
-ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: 2f702989a0d40e7bce9b0f3612d67fd374d0813c
+ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890571"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238059"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Plan hybridkonnektivität zwischen Skype für Business Server und Office 365
 
@@ -25,8 +25,6 @@ Lesen Sie in diesem Thema erfahren, wie hybridkonnektivität zwischen Skype für
 Wenn Sie lokale Skype für Unternehmensbenutzer, die auch Teams (nebeneinander) verwenden verfügen, diese Benutzer müssen nicht die Möglichkeit zum interagieren mit Skype für Unternehmensbenutzer von ihrem Teams Client noch kommunizieren mit Benutzern in Partnerorganisationen, deren Teams-Client. Um diese Funktionalität in Teams zu erhalten, müssen diese Benutzer in die Cloud Die erforderlich sind, Konfigurieren von Skype für Business Hybrid-Modus von Skype für Business lokal verschoben werden. Darüber hinaus sollten die beste wünschen, diese Benutzer im Modus nur Teams sein, die gewährleistet alle eingehenden Anrufe und chats aus Flächen, die Benutzer in der Client des Benutzers Teams.
 
 Einrichten von hybridkonnektivität und verschieben alle Benutzer in der Cloud ist auch erforderlich, bevor Sie Ihre lokale Skype für die Business-Bereitstellung außer Betrieb nehmen.  Mit hybridkonnektivität einrichten können Sie Ihre Benutzer in die Cloud basierend auf Ihren Terminen und Business Bedarf verschieben. Mit direktem Routing können Sie Ihre lokale VoIP-Infrastruktur nutzen, während und nach Abschluss die Migration zur Cloud verschoben werden.
-
-In diesem Thema werden die Infrastruktur und System beschrieben, die Sie benötigen Sie Hybrid-Verbindung zwischen Ihrer vorhandenen lokalen Skype für die Business Server-Bereitstellung – mit der Benutzer konfigurieren, die in die lokale Active Directory – erstellt wurden und Teams oder Skype für Unternehmen Online. 
 
 In diesem Thema wird die Infrastruktur und Systemanforderungen, die Sie benötigen zum Konfigurieren von hybridkonnektivität zwischen den vorhandenen lokalen Skype für Business Server-Bereitstellung und Teams oder Skype für Business Online.
 

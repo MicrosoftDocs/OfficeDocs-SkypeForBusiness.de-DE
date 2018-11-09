@@ -3,24 +3,23 @@ title: Ausführen der Abfrage
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Zusammenfassung: Informationen Sie zum Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
-ms.openlocfilehash: 720bcc16b89ed2cd2b92eababb389d6c363d734d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Zusammenfassung: Informationen Sie zum Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
+ms.openlocfilehash: ac9f042a8d5b8e016a398a0daf9595ffcb9d2fcb
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375639"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035701"
 ---
 # <a name="run-query"></a>Ausführen der Abfrage
 
-**Zusammenfassung:** Informationen Sie zu den Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.
+**Zusammenfassung:** Informationen Sie zu den Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
 
 Führen Sie beim Abfragevorgang ist Teil der Daten-API für die Qualitätsdashboard aufrufen.
 

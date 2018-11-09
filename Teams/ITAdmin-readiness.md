@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Schulungsvideos, Lernprogramme und andere Ressourcen für Administratoren zum Planen, bereitstellen und Ausführen von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4036e6b740b059dc1075afe4b7ad3da7b9277c88
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838513"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038794"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 
@@ -213,6 +213,7 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
                     <div class="cardText">
                         <h3>Besprechungen</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">Tutorial: Besprechungen in Microsoft Teams</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">Video: Einführung in Besprechungen in Microsoft-Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,8 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Anrufpläne</h3>
+                        <h3>Telefonsystem</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">Video: Einführung in das Telefonsystem in Microsoft-Teams</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">Schnellstart: Konfigurieren von Aufrufen plant in Teams</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">Tutorial: Grundlegendes zu Anrufen in Microsoft Teams</a></p>
                     </div>
@@ -263,7 +265,7 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
                 <div class="card">
                     <div class="cardText">
                         <h3>Direktes Routing</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Video: Direktes Routing für Teams - Vorschau</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">Video: Direktes Routing in Microsoft-Teams</a></p>
                     </div>
                 </div>
             </div>

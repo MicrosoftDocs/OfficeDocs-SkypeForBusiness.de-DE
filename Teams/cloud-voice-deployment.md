@@ -13,18 +13,22 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c537f37534c616965b74f5ea268f547cff28d41
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016141"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038856"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice-Bereitstellung
 
-Microsoft Teams, die Drehscheibe für Teamarbeit und Kommunikation in Office 365, bietet jetzt Funktionen für Audiokonferenzen, ein Telefonsystem mit Anrufplänen und direktes Routing für Telefonsysteme, die zusätzliche Geschäftsanforderungen erfüllen. Dazu wurde die Funktionalität der Besprechungen und Anrufe in Microsoft Teams erweitert, sodass jetzt auch externe Benutzer über das Telefonfestnetz teilnehmen können.
+Microsoft-Teams, den Hub für Zusammenarbeit und Kommunikation in Office 365 und bietet nun Audiokonferenzen, Telefonsystem mit Aufrufen plant, und Telefonsystem direktes Routing-Funktionen, die durch die Erweiterung der Teams Besprechung zusätzliche unternehmensanforderungen zu erfüllen und Aufrufen von Erfahrung, um externen Teilnehmern über das öffentliche Telefonfestnetz (PSTN) verbunden sind.
+
+
+> [!Tip] 
+> Die folgenden Sitzung für eine Einführung in die Telefonsysteme Video: [Einführung in das Telefonsystem in Microsoft-Teams](https://aka.ms/teams-phone-system)
  
-Wir aktualisieren diese Seite, wenn im Lauf der Zeit zusätzliche Cloud-VoIP-Funktionen für Microsoft Teams veröffentlicht werden.
+Wir aktualisieren auf dieser Seite als zusätzliche Cloud VoIP-Funktionen für Teams über einen Zeitraum freigegeben werden.
 
 
 
@@ -33,32 +37,32 @@ Wir aktualisieren diese Seite, wenn im Lauf der Zeit zusätzliche Cloud-VoIP-Fun
 
 Mit der Funktion für Audiokonferenzen in Office 365 können Teilnehmer mit einem beliebigen Telefon an Ihren Microsoft Teams-Besprechungen teilnehmen.
 
-Das bieten Ihnen [Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365) in Office 365.
+Hier ist das Ergebnis mit [Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365) in Office 365.
 
 
-## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Telefonsystem mit Anrufplänen („Anrufpläne“) in Microsoft Teams
+## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Telefonsystem mit dem Aufrufen der Pläne ("Aufrufen von Plänen") in Microsoft-Teams
 
 Das Telefonsystem ist eine Office 365-Funktion, die das Verwalten von Anrufweiterleitung, Richtlinien und Benutzerbereitstellung ermöglicht. Dazu gehören ein Verwaltungssystem für Telefonanrufe sowie Anrufweiterleitung und Anrufsteuerung.
 
 Aufrufen von Plänen ist ein Add-On-Dienst für das Telefonsystem-Feature, über Teams und Skype für Business Online übermittelt. Aufrufen von Plänen erfordert, dass der betreffende Benutzer in Skype für Business Online Arbeit in Microsoft-Teams verwaltet werden. Aufrufen von Plänen bieten die Personen in Ihrem Unternehmen mit einer primären Rufnummer, und ermöglicht ihnen das tätigen und Entgegennehmen von Anrufen außerhalb Ihrer Organisation über das Telefonfestnetz.
 
-Weitere Informationen finden Sie unter [Das bietet Ihnen das Telefonsystem in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) und [Was sind Anrufpläne in Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365).
+Lesen Sie weitere Informationen finden Sie [hier ist das Ergebnis in das Telefonsystem in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) und [Was sind in Office 365-Pläne aufrufen?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 
-## <a name="phone-system-direct-routing-direct-routing"></a>Direktes Routing für Telefonsysteme („direktes Routing“)
+## <a name="phone-system-direct-routing-direct-routing"></a>Phone System direkte ("Direktes Routing Routing")
 
-Direktes Routing wird mit der Telefonsystemfunktion verwendet und ermöglicht den Mitarbeitern Ihrer Organisation das Tätigen und Empfangen von Telefonanrufen außerhalb der Organisation über das Telefonfestnetz (PSTN). Dabei wird die PSTN-Anbindung über Drittanbieter bereitgestellt.
+Direkte Routing Works mit dem Feature Telefonsystem um Personen in Ihrer Organisation die Möglichkeit geben tätigen und Entgegennehmen von Anrufen außerhalb der Organisation über das Telefonfestnetz, wobei PSTN-Anbindung über Drittanbieter-Dienstanbieter bereitgestellt wird.
 
-Weitere Informationen finden Sie unter [Planen von direktem Routing](direct-routing-plan.md) und [Konfigurieren von direktem Routing](direct-routing-configure.md).
+Lesen Sie weitere Informationen finden Sie [Direkten Routing planen](direct-routing-plan.md) und [Direkte Routing konfigurieren](direct-routing-configure.md).
 
-## <a name="practical-guidance-for-audio-conferencing-calling-plans-and-direct-routing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen, Anrufpläne und direktes Routing in Microsoft Teams
+## <a name="practical-guidance-for-audio-conferencing-calling-plans-and-direct-routing-in-microsoft-teams"></a>Ihnen praktische Leitfäden für Audiokonferenzen, plant aufrufen und direkte Weiterleitung im Microsoft-Teams
 
 Diese Ihnen praktische Leitfäden wird mithilfe des Office 365 schnelle Kunden Reise Frameworks organisiert und drei Phasen&mdash;Ermitteln übergeordneter Faktoren, integriert, und der Wert Laufwerk. Es wurde für die direkte Verwendung Sie planen, bereitstellen und Verwenden von Audiokonferenzen, plant aufrufen oder direkten Routing jene unterstützen.
 
 > [!div class="mx-tableFixed"]
 > |Konzeptionierung  |Onboarding  |Höhere Wertschöpfung erzielen  |
 > |---------|---------|---------|
-> |[Definieren der Erfolgskriterien](1-envision-define-my-success-cloud-voice.md) <br> Treffen der Entscheidungen über die Dienste für <br>&nbsp;&nbsp;[Audiokonferenzen](2-envision-make-my-service-decisions-audio-conferencing.md),<br>&nbsp;&nbsp;[Anrufpläne](2-envision-make-my-service-decisions-phone-system.md) oder [direktes Routing](2-envision-make-my-service-decisions-direct-routing.md) <br> [Bewerten der Umgebung](3-envision-evaluate-my-environment.md) <br> [Planen der Dienstverwaltung](4-envision-plan-my-service-management.md) <br> [Planen der Funktionen für die Benutzer](5-envision-plan-my-users-experience.md) <br> [Dokumentieren des Erfolgsplans](6-envision-document-my-success-plan.md)    | [Vorbereiten des Diensts](1-onboard-prepare-my-service.md) <br> [Vorbereiten der Benutzer](2-onboard-prepare-my-users.md) <br> [Bereitstellen des Diensts](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Verwenden des Diensts](1-drive-value-operate-my-service.md) <br> [Verbessern des Diensts](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[Meine Erfolg definieren](1-envision-define-my-success-cloud-voice.md) <br> Meine Service treffe für <br>&nbsp;&nbsp;[Audiokonferenzen](2-envision-make-my-service-decisions-audio-conferencing.md)<br>&nbsp;&nbsp;[Aufrufen von Plänen](2-envision-make-my-service-decisions-phone-system.md)oder [direkten Routing](2-envision-make-my-service-decisions-direct-routing.md) <br> [Meine Umgebung bewerten](3-envision-evaluate-my-environment.md) <br> [Planen der Verwaltung von Meine service](4-envision-plan-my-service-management.md) <br> [Planen von meiner Benutzer-Erlebnis](5-envision-plan-my-users-experience.md) <br> [Dokumentieren Sie meine Erfolg](6-envision-document-my-success-plan.md)    | [Meine Service vorbereiten](1-onboard-prepare-my-service.md) <br> [Vorbereiten der Benutzer](2-onboard-prepare-my-users.md) <br> [Stellen Sie meine Dienst](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Meine Dienst betreiben](1-drive-value-operate-my-service.md) <br> [Meine Service zu verbessern](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
 Der Inhalt in einer sortierten und Weise dargestellt wird, und ist darauf ausgelegt, die Sie über eine End-to-End-Bereitstellung Weg von seinem Anfang bis zu bringen. Wenn Sie bereits aktiv bereitstellen, empfehlen wir noch Ihnen auf die entsprechenden Abschnitten Inhalte zu verweisen.
 

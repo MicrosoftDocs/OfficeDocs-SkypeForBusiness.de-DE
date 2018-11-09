@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7f6ef1e7c20e4cc08d021d30a7b52062f08a2ac
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25705627"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038879"
 ---
 # <a name="user-presence-in-teams"></a>Vorhandensein eines Benutzers in Teams
 
@@ -66,3 +66,8 @@ Die folgenden administratoreinstellung in Skype für Unternehmen unterscheiden s
 
 > [!NOTE]
 > Die Möglichkeit zum Anpassen dieser Einstellungen einer Teams Admin wird derzeit nicht unterstützt.
+
+
+## <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype für Unternehmen
+
+Informationen zur Funktionsweise von Teams Anwesenheit bei Koexistenz mit Skype für Unternehmen finden Sie unter [Koexistenz mit Skype für Unternehmen](coexistence-chat-calls-presence.md) . 
