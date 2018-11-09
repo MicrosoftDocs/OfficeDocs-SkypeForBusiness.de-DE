@@ -3,7 +3,7 @@ title: Koexistenz mit Skype für Unternehmen
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.date: 11/7/2018
+ms.date: 04/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: francoid
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0d6e4ad171ffc99e1f0aaa1c3b93e0fd61443bc
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: d5014dd842daf9c08b2ab22abfc405586273cf47
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238106"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26215890"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype für Unternehmen
 
