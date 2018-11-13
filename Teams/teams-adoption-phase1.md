@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba79f52984b243aa0a10c425f5c5741119daf50
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 239a90c295035da629b74711a41f7cec59f4c0a9
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215895"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255721"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft-Teams Annahme Phase 1: Start
 
@@ -66,6 +66,5 @@ Der [Technische Microsoft-Community](https://aka.ms/TechCommunity) bietet Peer b
 - [Microsoft-Teams technische Community](https://aka.ms/TeamsCommunity) – erhalten Produktfragen, lernen Sie von anderen Kunden Teams, und führen Sie in unserem Blog zum bleiben auf dem aktuellen Stand zu den neuen Features und Anwendungsfälle für Teams. 
 - [Office 365 Champions Programm](https://aka.ms/O365Champions) und die Akzeptanz fördern Community – lernen Sie von Ihren Kollegen dazu, wie Sie Office 365-Arbeitslasten beispielsweise Teams, SharePoint, Yammer und anderen Produkten Akzeptanz bewährte. Für IT-Spezialisten, Geschäftsbenutzer, die "vor unbeabsichtigten" Developer öffnen, und jeder gesteuerter Akzeptanz Clouddiensten interessiert.  
 
-[Benutzerdefinierte Informationen für Office 365](https://aka.ms/CLO365) umfasst eine SharePoint Online-Vorlage und benutzerdefinierten Webpart-Klasse, die Sie verwenden können, um eine Schulungsportal für Ihre Organisation zu erstellen. Diese Quelle Lösung können Sie streamen Schulung Objekte direkt in Ihrem Office 365 Mandanten für Microsoft frei, öffnen. Sie können es für die Dienste anpassen, die Sie verwenden und zusätzliche Schulungsinhalte für die Website Funktionen hinzuzufügen. Wenn Sie bereits eine SharePoint Online-Schulungsportal verfügen, können Sie nur das Webpart direkt auf der Website Ihres Unternehmens installieren herunterladen und anschließend basierend auf Ihren implementierungsanforderungen konfigurieren.  
 
 ![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [machen Sie sich mit Teams und Kanäle](teams-adoption-understand-teams-and-channels.md)

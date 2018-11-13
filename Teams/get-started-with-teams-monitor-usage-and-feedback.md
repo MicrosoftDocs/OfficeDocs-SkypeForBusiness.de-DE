@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2683c2f116fd37f756cd111f6e3a4cc4639b629
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26031746"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283139"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen der Nutzung und Feedback im Microsoft-Teams
 Es ist wichtig, zu wissen, wie Teams von Benutzern verwendet wird und was ihre Erfahrung mit Teams ist. Verwendungsberichte können Ihnen besser verstehen Verwendungsmuster und zusammen mit Benutzerfeedback, Ihnen Insights nahezubringen breiter und wo Schulung und Kommunikation Maßnahmen priorisieren informiert.
@@ -35,7 +35,7 @@ Teams Berichte im Office 365 Administrationscenter können Sie Einblicke in Benu
 
 Wenn Sie diese Berichte anzeigen möchten, müssen Sie ein globaler Administrator in Office 365, Teams Dienstadministrator oder Leser von Berichten sein. Wechseln Sie zu Office 365 Administrationscenter, klicken Sie auf **Berichte** > **Usage**. Klicken Sie unter **Wählen Sie einen Bericht aus**klicken Sie auf **Microsoft-Teams**. Hier wählen Sie den Bericht, den Sie anzeigen möchten.
 
-- **Teams Benutzer Actvity Bericht**: in diesem Bericht werden die verschiedenen Arten von Kommunikationsaktivitäten Benutzer Teilnahme an, wie wie viele Personen in einem Kanal chat und wie viele Personen über private Chat kommunizieren.  
+- **Bericht über Benutzeraktivität Teams**: in diesem Bericht werden die verschiedenen Arten von Kommunikationsaktivitäten Benutzer Teilnahme an, wie wie viele Personen in einem Kanal chat und wie viele Personen über private Chat kommunizieren.  
 
     ![Bericht über Benutzeraktivität Teams] (media/get-started-with-teams-user-activity-report.png "Screenshot des Teams User Activity Report, eine Grafik, die die Anzahl der Benutzer nach Aktivitätstyp, gibt an, einschließlich der Kanalnachrichten, Chatnachrichten, Anrufe, Besprechungen. und andere, anzeigen") 
 - **Teams Gerät Verwendungsbericht**: in diesem Bericht werden die Verbindung von Benutzern zum Teams, einschließlich, wie viele Personen, Teams, die beim Klicken auf Go verwenden.

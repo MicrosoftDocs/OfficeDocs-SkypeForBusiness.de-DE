@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenz gemäß den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste verwenden.
-ms.openlocfilehash: 928afed68d8fa6bb6b8ae3a642c64c09e748ae06
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: f7e54c64d06b012790c630499ec31d7b2acac02a
+ms.sourcegitcommit: 853760e8d926fed7176c23754197442ccd860e6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283155"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26285917"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -48,7 +48,8 @@ Benutzer mit einer Lizenz Usage Speicherort (dieser Schritt ist dem Speicherort 
 - Alle Anrufe, die die 103,500 Minuten pro Kalendermonat überschritten werden pro Minute verwenden Communications haben an unsere veröffentlichten Zinssätze Ziel berechnet. (Hinweis: Mandanten richten Sie Communications haben und der Besprechungsorganisator Communications haben Lizenz zuweisen muss).
 - Alle ausgehenden Anrufe an Ziele nicht in der Liste der Zone A Land pro Minute verwenden Communications haben an unsere veröffentlichten Zinssätze Ziel abgerechnet werden (sofern Mandanten richten Sie Communications haben und die Communications haben Lizenz zugewiesen hat die Besprechungsorganisator).
 
-Hinweis: Sie können überwacht die Verwendung gegen Dial-Out-Minute Pool in der Skype für Business Admin Center unter Teams/Skype Admin Center > Legacy Admin Center > Berichte > PSTN Minute Pools.  In diesem kostenlosen Minute ist Pool im Bericht als "Ausgehende Anrufe an Zone eine Länder" gekennzeichnet.
+> [!NOTE]
+> Sie können die Verwendung mit ausgehender Verbindung Minute Pool in der Skype für Business Admin Center überwachen. Navigieren Sie in der Microsoft-Teams & Skype-Verwaltungskonsole **Legacy**-Portal > **Berichte** > **PSTN Minute Pools**. In diesem kostenlosen Minute ist Pool im Bericht als "Ausgehende Anrufe in Zone A Länder" gekennzeichnet
 
 E-Mail-Benachrichtigungen werden an alle Mandantenadministratoren eines bestimmten Kunden versendet, wenn die Auslastung des Pools für den Mandanten Dial-Out-Minuten 80 % und 100 % erreicht hat.
 

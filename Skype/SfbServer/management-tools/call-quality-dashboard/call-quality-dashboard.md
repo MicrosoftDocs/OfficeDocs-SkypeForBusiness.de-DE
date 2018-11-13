@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Zusammenfassung: Erfahren Sie mehr über das Aufrufen Qualitätsdashboard mit ein Berichterstellungstool für Skype für Business Server ist.'
-ms.openlocfilehash: 0b88a001e9d8c72e059469a9e9d5c12c6eee135d
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+ms.openlocfilehash: ec0924ff5e1c2d2099b004b0fd357d5e70b1f151
+ms.sourcegitcommit: 388f82c36e1c7bddf38298867882d992be989b87
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035540"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26281411"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Rufen Sie die Qualitätsdashboard für Skype für Business Server
  
 **Zusammenfassung:** Hier erfahren Sie, über das Aufrufen Qualitätsdashboard, das ein Berichterstellungstool für Skype für Business Server ist.
  
-Die Skype für Business Server aufrufen Quality Dashboard (CQD) ist eine reporting Ebene auf der Basis der Qualität Erfahrung Datenbank in dem Monitoring Server in Skype für Business Server. CQD wird Microsoft SQL Server Analysis Services verwendet, um die aggregierte Nutzung bereitstellen, und rufen Sie Informationen zur Medienqualität als auch filtern und das DataSet beim Pivotieren.
+Die Skype für Business Server aufrufen Quality Dashboard (CQD) ist eine reporting Ebene auf der Basis der Qualität Erfahrung Datenbank in dem Monitoring Server in Skype für Business Server und Lync Server 2013. CQD wird Microsoft SQL Server Analysis Services verwendet, um die aggregierte Nutzung bereitstellen, und rufen Sie Informationen zur Medienqualität als auch filtern und das DataSet beim Pivotieren.
   
 In den folgenden Themen werden in diesem Abschnitt enthalten und sollten vor der Bereitstellung von Anrufqualität Dashboard überprüft werden.
   

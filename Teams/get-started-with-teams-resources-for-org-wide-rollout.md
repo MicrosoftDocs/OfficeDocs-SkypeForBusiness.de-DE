@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6907814b8eb1226f151658fbd784641cb8edbf9d
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: 381e246edc164b5c5a3a6d88b1f5bbf4d1d868cf
+ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26031743"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238144"
 ---
 # <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a>Abrufen von Ressourcen zum Planen Ihrer Organisation geltende Implementierung von Microsoft-Teams
 
@@ -28,5 +28,4 @@ Nun, dass Sie erfolgreich Ihrer ersten Teams, Onboarded eine anfängliche Gruppe
 Im Abschnitt [Bereitstellen von Teams](deployment-overview.md) unserer Dokumentation finden IT-Spezialisten mit der Anleitung für die besten Entscheidungen für eine Organisation geltende Einführung.
 
 ## <a name="adopt-teams"></a>Einführen Teams
-Anleitungen zum Teams erfolgreich in Ihrer Organisation einführen finden Sie unter [Erstellen einer Strategie für Teams ändern](change-management-strategy.md) . 
-
+Im Abschnitt [Einführen Teams](adopt-microsoft-teams-landing-page.md) über unsere Dokumentation Schritte wie Teams erfolgreich in Ihrer Organisation einführen.

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255654"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282988"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -38,9 +38,9 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 
     -   Kanäle sind besonders nützlich, wenn mit apps erweitert, die Registerkarten, Connectors und Bots, die ihren Wert für die Mitglieder des Teams erhöhen enthalten.
 
-Zeigen Sie in diesem kurze Video an, um weitere Informationen über die bewährten Methoden für das Erstellen von Teams und Kanäle an.
+Anzuzeigen Sie weitere Informationen zu bewährten Methoden für das Erstellen von Teams und Kanäle in diesem kurze Video.
 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>Mitgliedschaft, Rollen und Einstellungen
 ------------------------------
@@ -54,7 +54,8 @@ Darüber hinaus können Teambesitzer ein Team auf der Grundlage einer vorhandene
 **Teameinstellungen** Teambesitzer können teamweite Einstellungen direkt in Microsoft Teams verwalten. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Kanälen für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden. 
 
 Drei Minuten in Anspruch nehmen dieses Handbuchs Go Auschecken video für Team-Besitzer: 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Wenn Sie den Microsoft-Teams, Administrator in Office 365 sind, haben Sie Zugriff auf systemweiten Einstellungen im Teams & Skype für Business Admin Center. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 
@@ -68,7 +69,6 @@ Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams ein
 Die folgenden Funktionsbeispiele zeigen, wie verschiedene Benutzertypen ihre Teams, Kanäle und Apps (Registerkarten, Connectors, Bots) einrichten können. Dies kann hilfreich dabei sein, eine Unterhaltung über Microsoft Teams mit Ihrer Benutzercommunity zu beginnen. Denken Sie bei Ihren Überlegungen zur Implementierung von Microsoft Teams in der Organisation daran, dass Sie Leitfäden zum Strukturieren der Teams bereitstellen können, während sich die Benutzer nach ihren eigenen Vorstellungen selbst organisieren. Dies sind nur Beispiele, die den Teams den Einstieg erleichtern sollen, indem sie ihnen die Möglichkeiten zeigen.
 
 Microsoft Teams ist gut darin, organisatorische Silos aufzubrechen und funktionsübergreifende Teams zu fördern. Ermutigen Sie also die Benutzer, sich dieses Konzept als funktionale Teams und nicht als organisatorische Silos vorzustellen.
-
 
 |Teamtypen  |Mögliche Kanäle  |Apps (Registerkarten ![Registerkartensymbol](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Connectorsymbol](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Botsymbol](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|

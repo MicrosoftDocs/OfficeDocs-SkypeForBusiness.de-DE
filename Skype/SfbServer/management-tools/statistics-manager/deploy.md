@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server bereitstellen.'
-ms.openlocfilehash: 805026cbe04010a83503bb6069bea8522ac62068
-ms.sourcegitcommit: 388f82c36e1c7bddf38298867882d992be989b87
+ms.openlocfilehash: 4d32c10852091d494f59c65648cb370878fc3413
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/12/2018
-ms.locfileid: "26281340"
+ms.locfileid: "26282980"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistiken Manager für Skype für Business Server
  
@@ -62,7 +62,7 @@ Gehen Sie folgendermaßen vor, um Statistiken Manager bereitstellen:
   
 ### <a name="prepare-the-listener-host-machine"></a>Vorbereitung des Listener-Hostcomputers
 
-Um den Hostcomputer vorzubereiten, müssen Sie das Redis-System für die InMemory-Zwischenspeicherung installieren und sicherstellen, dass ein gültiges Zertifikat auf dem Computer vorhanden ist. Microsoft empfiehlt die Installation des letzten stabilen Builds von Redis 3.0. Statistiken Manager Version 1.1 für Redis getesteten 3.0.501 und Redis 2.8.2400. 
+Um den Hostcomputer vorzubereiten, müssen Sie das Redis-System für die InMemory-Zwischenspeicherung installieren und sicherstellen, dass ein gültiges Zertifikat auf dem Computer vorhanden ist. Microsoft empfiehlt die Installation des letzten stabilen Builds von Redis 3.0. Statistiken Manager Version 2.0 wurde Redis 3.2.100 getestet. 
   
 1. Redis von folgender Website herunterladen: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     

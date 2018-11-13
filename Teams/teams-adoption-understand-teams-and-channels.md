@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6012193592b915c3f49ff5e50466c74d370e9835
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 979c288f58bfde0d65a923030f81750f90e69ba3
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215859"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255733"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Grundlegendes zu Teams und Kanäle in Microsoft-Teams
 
@@ -32,7 +32,11 @@ Die Konzepte von Teams und Kanäle sind ein wesentlicher Bestandteil einer fehle
 
 Weitere Informationen zu Teams und Kanäle finden Sie unter [Übersicht über Teams und Kanäle in Microsoft-Teams](teams-channels-overview.md). Weitere Informationen zu Teams und Office 365 Gruppen zu finden, finden Sie unter [Office 365-Gruppen und Microsoft-Teams,](office-365-groups.md) und [erfahren Sie mehr über Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
-[In diesem kurze Video anzeigen](https://youtu.be/hjJWtoaRJeE) , erfahren Sie mehr über die bewährten Methoden für das Erstellen von Teams und Kanäle.
+
+|  |  |
+|---------|---------|
+| In diesem kurze Video anzeigen   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 Team Zugriffsarten bestimmen, die zu einem Team stoßen können:
 

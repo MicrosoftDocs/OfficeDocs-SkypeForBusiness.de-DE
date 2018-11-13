@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Zusammenfassung: Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server zu erfahren.'
-ms.openlocfilehash: a7cd9fd3dd3eff7f1c9b0326d45475f95f9a909c
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b843cf44edf0c566a1c0a8a99a5ba9380d41c306
+ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283201"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26292976"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen der Business Server für den Statistiken-Manager für Skype
 
@@ -30,15 +30,15 @@ Sie können Statistiken Manager in einer lokalen Bereitstellung bereitstellen, i
 
 Dieses Thema enthält die folgenden Abschnitte:
 
-- [Features und Funktionen](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [Features und Funktionen](plan.md#BKMK_Features)
 
 - [Was ist neu in der Version 2.0](plan.md#BKMK_WhatsNew)
 
-- [Komponenten](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [Komponenten](plan.md#BKMK_Components)
 
 - [Lokale Bereitstellung](plan.md#BKMK_DeploymentOptions)
 
-- [Anforderungen](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [Anforderungen](plan.md#BKMK_Requirements)
 
 - [Hinweise zur Sicherheit](plan.md#BKMK_Security)
 
@@ -129,7 +129,7 @@ Sie müssen die folgenden Anforderungen Software, Netzwerk und Hardware berücks
 
 ### <a name="software-requirements"></a>Softwareanforderungen
 
-- Windows Server 2012 R2
+- WindowsServer 2016 und 2019
 
 - IIS (automatisch installiert)
 
@@ -182,6 +182,6 @@ Weitere Informationen finden Sie unter den folgenden Themen:
 
 - [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md)
 
-- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 
