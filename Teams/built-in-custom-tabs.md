@@ -3,7 +3,7 @@ title: Verwenden von integrierten und benutzerdefinierten Registerkarten in Micr
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,47 +12,49 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afdf57e4b1a37cf5cc1e1de1f4c2c86f478baf79
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016373"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294675"
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a><span data-ttu-id="fe072-103">Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fe072-103">Use built-in and custom tabs in Microsoft Teams</span></span>
+<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a><span data-ttu-id="df5c8-103">Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="df5c8-103">Use built-in and custom tabs in Microsoft Teams</span></span>
 ==================================================
 
-<span data-ttu-id="fe072-p101">Mit Registerkarten können Teammitglieder auf Dienste in einem dedizierten Bericht innerhalb eines Kanals zugreifen. Auf diese Weise kann das Team direkt mit den von Ihnen bereitgestellten Tools und Daten arbeiten und sich im Kontext des Kanals darüber austauschen. Für jeden neuen Kanal werden zwei neue Registerkarten standardmäßig bereitgestellt (siehe Abbildung unten):</span><span class="sxs-lookup"><span data-stu-id="fe072-p101">Tabs allow team members to access services on a dedicated canvas within a channel. This lets the team work directly with the tools and data you provide, and to have conversations about them, in the channel’s context. With every new channel, two tabs are provisioned by default, as listed and shown in the image, below:</span></span>
+<span data-ttu-id="df5c8-104">Registerkarten können Teammitglieder Zugriff auf Dienste auf einem dedizierten Zeichenbereich in einem Kanal oder in einem Chat.</span><span class="sxs-lookup"><span data-stu-id="df5c8-104">Tabs allow team members to access services on a dedicated canvas within a channel or in a chat.</span></span> <span data-ttu-id="df5c8-105">Auf diese Weise können das Team direkt mit Tools und Daten arbeiten und Gespräche über diese im Kontext des DDE-Kanal oder Chat.</span><span class="sxs-lookup"><span data-stu-id="df5c8-105">This lets the team work directly with tools and data and have conversations about them in the context of the channel or chat.</span></span> 
 
--   <span data-ttu-id="fe072-107">Unterhaltungen</span><span class="sxs-lookup"><span data-stu-id="fe072-107">Conversations</span></span>
+<span data-ttu-id="df5c8-106">Besitzer und die Teammitglieder können Registerkarten einen DDE-Kanal, private Chat und Gruppenchat zu helfen, ihre Clouddienste zu integrieren hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="df5c8-106">Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services.</span></span> <span data-ttu-id="df5c8-107">Registerkarten können hinzugefügt werden, Benutzern helfen, auf einfache Weise Zugriff und die Verwaltung der Daten benötigt wird, oder mit den meisten interagieren.</span><span class="sxs-lookup"><span data-stu-id="df5c8-107">Tabs can be added to help users easily access and manage the data they need or interact with the most.</span></span> <span data-ttu-id="df5c8-108">Dies kann sein, einen Power BI-Bericht, einem Dashboard oder sogar eine [Microsoft-Stream](https://go.microsoft.com/fwlink/?linkid=855785) Videokanal, in dem Sie Schulungsvideos veröffentlichen.</span><span class="sxs-lookup"><span data-stu-id="df5c8-108">This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.</span></span>
 
--   <span data-ttu-id="fe072-108">Dateien</span><span class="sxs-lookup"><span data-stu-id="fe072-108">Files</span></span>
+![Drei Screenshots mit verschiedenen Inhalten von Registerkarten](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
-![Screenshot des Abschnitts „Unterhaltung“ des Teams „Marketing“](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+## <a name="work-with-tabs"></a><span data-ttu-id="df5c8-110">Arbeiten mit Registerkarten</span><span class="sxs-lookup"><span data-stu-id="df5c8-110">Work with tabs</span></span>
 
-1.  <span data-ttu-id="fe072-110">Besitzer und Teammitglieder können jedem Kanal zusätzliche Registerkarten hinzufügen, um ihre Clouddienste besser integrieren zu können.</span><span class="sxs-lookup"><span data-stu-id="fe072-110">Owners and team members can add additional tabs, to each channel, to help integrate their cloud services.</span></span>
+- <span data-ttu-id="df5c8-111">Mit jeder neuen Kanal werden zwei Registerkarten Unterhaltungen und Dateien standardmäßig bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="df5c8-111">With every new channel, two tabs are provisioned by default, Conversations and Files.</span></span> 
 
-2.  <span data-ttu-id="fe072-p102">Excel-, PowerPoint-, Word- und PDF-Dateien müssen auf die **Registerkarte „Dateien“** hochgeladen werden, bevor Sie in Registerkarten konvertiert werden können. Alternativ dazu kann jede vorhandene hochgeladene Datei mit einem einzelnen Klick in eine Registerkarte konvertiert werden (siehe unten).</span><span class="sxs-lookup"><span data-stu-id="fe072-p102">Excel, PowerPoint, Word and PDF files must be uploaded to the **Files tab** before they can be converted to tabs. Alternatively, any existing uploaded, files can be converted into tabs with a single click, as shown below.</span></span>
+    ![Screenshot des Abschnitts „Unterhaltung“ des Teams „Marketing“](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+- <span data-ttu-id="df5c8-113">Mit jeder private Chat werden vier Registerkarten standardmäßig Unterhaltungen, Dateien, Organisation und Aktivität bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="df5c8-113">With every private chat, four tabs are provisioned by default, Conversations, Files, Organization, and Activity.</span></span>
+
+    ![Screenshot der Registerkarten in einem Chat.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+
+- <span data-ttu-id="df5c8-115">Besitzer und die Teammitglieder können hinzufügen weitere Registerkarten zu einem Kanal oder Chat durch Klicken auf **Hinzufügen einer Registerkarte** ![Screenshot des die Registerkarte Schaltfläche Hinzufügen mit einem Pluszeichen.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png)</span><span class="sxs-lookup"><span data-stu-id="df5c8-115">Owners and team members can add more tabs to a channel or chat by clicking **Add a tab** ![Screenshot of the Add a tab button, showing a + sign.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png)</span></span> <span data-ttu-id="df5c8-116">am oberen Rand der Kanal oder Chat.</span><span class="sxs-lookup"><span data-stu-id="df5c8-116">at the top of the channel or chat.</span></span>
+
+- <span data-ttu-id="df5c8-117">Excel, PowerPoint, Word und PDF-Dateien müssen auf die Registerkarte **Dateien** hochgeladen werden, bevor sie zur Liste der Registerkarten konvertiert werden können.</span><span class="sxs-lookup"><span data-stu-id="df5c8-117">Excel, PowerPoint, Word, and PDF files must be uploaded to the **Files** tab before they can be converted to tabs.</span></span> <span data-ttu-id="df5c8-118">Alternativ kann vorhandene hochgeladenen Dateien in eine Registerkarte mit einem Mausklick konvertiert werden soll, wie unten dargestellt.</span><span class="sxs-lookup"><span data-stu-id="df5c8-118">Alternatively, any existing uploaded file can be converted to a tab with a single click, as shown below.</span></span>
 
     ![Screenshot der Registerkarte „Dateien“ mit ausgewählter PowerPoint-Datei](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-3.  <span data-ttu-id="fe072-114">Beim Hinzufügen einer Website muss die URL mit einem **HTTPS-Präfix** beginnen, damit die Sicherheit aller ausgetauschten Informationen gewährleistet wird.</span><span class="sxs-lookup"><span data-stu-id="fe072-114">To add a website, the URL must start with an **https prefix,** so that any information exchanged remains secure.</span></span>
+- <span data-ttu-id="df5c8-120">Zum Hinzufügen einer Websites muss die URL mit einem Präfix **Https** starten, damit sicher bleiben, Informationen, die ausgetauscht werden.</span><span class="sxs-lookup"><span data-stu-id="df5c8-120">To add a website, the URL must start with an **https** prefix so information that's exchanged remains secure.</span></span>
 
-4.  <span data-ttu-id="fe072-115">Detaillierte Anweisungen werden bereitgestellt, wenn ein Teammitglied versucht, eine benutzerdefinierte Registerkarte zum Kanal hinzuzufügen.</span><span class="sxs-lookup"><span data-stu-id="fe072-115">Detailed instructions are provided when a team member attempts to add a custom tab into their channel.</span></span>
-
-5.  <span data-ttu-id="fe072-116">Wenn dem Kanal eine benutzerdefinierte Registerkarte hinzugefügt wird, wird eine **Registerkarten-Unterhaltung** begonnen, in der die Teammitglieder konzentrierte Diskussionen über den Kanal führen können.</span><span class="sxs-lookup"><span data-stu-id="fe072-116">When a Custom tab is added into a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.</span></span>
+- <span data-ttu-id="df5c8-121">Ausführliche Anweisungen werden bereitgestellt, wenn ein Teammitglied versucht, eine benutzerdefinierte Registerkarte ihren Kanal oder Chat hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="df5c8-121">Detailed instructions are provided when a team member tries to add a custom tab to their channel or chat.</span></span> <span data-ttu-id="df5c8-122">Wenn Sie einen Kanal eine benutzerdefinierte Registerkarte hinzugefügt wird, wird eine **Registerkarte Unterhaltung** erstellt, die Teammitglieder an den Schwerpunkt Diskussionen über die Inhalte ermöglicht.</span><span class="sxs-lookup"><span data-stu-id="df5c8-122">When a custom tab is added to a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.</span></span>
 
     ![Screenshot einer benutzerdefinierten Registerkarte mit einer Registerkartenunterhaltung auf der rechten Seite des Fensters](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
-6.  <span data-ttu-id="fe072-p103">Es können weitere Registerkarten zu Kanälen hinzugefügt werden, damit Benutzer problemlos auf die Daten zugreifen und diese verwalten können, die sie am nötigsten für sich und für Interaktionen benötigen. Dies kann ein Power BI-Bericht, ein Dashboard oder sogar ein [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785)-Videokanal für die Veröffentlichung von Schulungsvideos sein.</span><span class="sxs-lookup"><span data-stu-id="fe072-p103">Additional tabs can be added to channels to help users easily access and manage the data they need or interact with the most. This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.</span></span>
+## <a name="develop-custom-tabs"></a><span data-ttu-id="df5c8-124">Entwickeln von benutzerdefinierten Registerkarten</span><span class="sxs-lookup"><span data-stu-id="df5c8-124">Develop custom tabs</span></span>
 
-    ![Drei Screenshots mit verschiedenen Inhalten von Registerkarten](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+<span data-ttu-id="df5c8-125">Sie können zusätzlich zu den integrierten entwerfen und entwickeln eigener Registerkarten zum Integrieren von Teams oder mit dem Rest der Community freigeben.</span><span class="sxs-lookup"><span data-stu-id="df5c8-125">In addition to the built-in tabs, you can design and develop your own tabs to integrate to Teams or share with the rest of the community.</span></span>
 
-<a name="develop-custom-tabs"></a><span data-ttu-id="fe072-121">Entwickeln von benutzerdefinierten Registerkarten</span><span class="sxs-lookup"><span data-stu-id="fe072-121">Develop custom tabs</span></span>
--------------------
-
-<span data-ttu-id="fe072-122">Neben den integrierten Registerkarten können Organisationen auch eigene Registerkarten problemlos entwerfen und entwickeln, die in Microsoft Teams integriert und für den Rest der Community freigegeben werden können.</span><span class="sxs-lookup"><span data-stu-id="fe072-122">In addition to the built-in tabs, organizations can easily design and develop their own tabs, that can be integrated into Microsoft Teams, or shared with the rest of the community.</span></span>
-
-<span data-ttu-id="fe072-123">Das Microsoft Developer Network bietet [detaillierte Anweisungen](https://go.microsoft.com/fwlink/?linkid=855786) zum Entwerfen und Erstellen von eigenen Registerkarten sowie zum Herunterladen und Bereitstellen von [Beispielregisterkarten](https://go.microsoft.com/fwlink/?linkid=855787), die Microsoft entwickelt hat.</span><span class="sxs-lookup"><span data-stu-id="fe072-123">The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs; and download and deploy [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft.</span></span>
+<span data-ttu-id="df5c8-126">Microsoft Developer Network finden Sie [ausführliche Informationen](https://go.microsoft.com/fwlink/?linkid=855786) zum Entwerfen und Erstellen eigener und [Beispiel-Registerkarten](https://go.microsoft.com/fwlink/?linkid=855787) entwickelt von Microsoft, die Sie herunterladen können.</span><span class="sxs-lookup"><span data-stu-id="df5c8-126">The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs and [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft that you can download.</span></span>
 
 ![Screenshot einer benutzerdefinierten Beispielregisterkarte in Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+
+---

@@ -12,11 +12,11 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: dearbeen
 ms.openlocfilehash: dc9193e7dba01c353c7e21f31d4b94a54b64cf6b
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25019346"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293771"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 
@@ -167,7 +167,7 @@ Informationen Sie zum Verwalten von Teams für Ihre Organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Aktualisierung Hauptversionen</h3>
+                        <h3>Wichtige Aktualisierungen</h3>
                         <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">Einrichten von Audiokonferenz</a></p>
                     </div>
                 </div>
