@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d86183ecb8209da15edd7f97511d6297bd0910c
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215860"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255765"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren der Leistung von Feedback und Berichte für die Annahme der Microsoft-Teams
 
@@ -50,8 +50,8 @@ Bewährte Methode: Speichern Vertreter von Ihrem internen Support-Abteilung oder
 
 Es gibt drei Arten von Berichten, Sie sollten überprüfen, bereitstellen und Einführen von Microsoft-Teams:
 
-- Status – von Office 365 und der internen IT-Support-Service Abteilung.
-- Service-Aktivitäten – aus der Office 365 Berichte über Microsoft-Teams. Sie können auch Informationen aus anderen Systemen in Ihrem Unternehmen verwenden.
+- [Dienststatus](https://status.office365.com/) – von Office 365 und der internen IT-Support Abteilung.
+- [Service-Aktivitäten](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – von Office 365 anzeigen [Berichte in Microsoft-Teams](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Sie können auch Informationen aus anderen Systemen in Ihrem Unternehmen verwenden.
 - Wie zufrieden Sie Service – stammen aus internen Communityforen und Umfragen auf bestimmte Erfahrungen
 
 ![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Laufwerk zur Förderung des Bekanntheitsgrads und Schulungen zu implementieren](teams-adoption-drive-awareness.md)

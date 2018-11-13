@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Senden Sie E-Mails mit Audiokonferenzinformationen an Ihre Benutzer in Microsoft Teams.
-ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 78fc4c0c071c4cc66c4bc20339dcda52b2be2890
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347464"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283163"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams
 
-Manchmal Microsoft-Teams, Benutzer benötigen Sie möglicherweise dies ihre Informationen Audiokonferenzen veranlassen. Sie können diese Schritte durchführen, indem Sie unter den Eigenschaften für einen Benutzer auf **Konferenz Informationen per e-Mail senden** . Wenn Sie diese e-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
+Manchmal müssen Sie Microsoft Teams-Benutzern ihre Audiokonferenzinformationen senden. Dazu können Sie unter den Eigenschaften für einen Benutzer auf **Konferenzinformationen per E-Mail senden** klicken. Wenn Sie diese E-Mail senden, enthält sie alle Audiokonferenzinformationen, wie zum Beispiel:
   
 - Die Konferenztelefonnummer oder Dial-in-Telefonnummer für den Benutzer
     
@@ -62,15 +62,13 @@ Hier ist ein Beispiel für die gesendete E-Mail:
     
   - Wenn Sie manuell des Benutzers Audiokonferenzen PIN zurücksetzen.
     
-  - Wenn Sie die Konferenz-PIN des Benutzers manuell zurücksetzen.
+  - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
     
   - Wenn eine **Audiokonferenz** Lizenz daraus entfernt wird.
     
   - Wenn der Anbieter von Audiokonferenzen für einen Benutzer von Microsoft auf einen anderen Anbieter oder **None**geändert wird.
     
   - Wenn der Anbieter von Audiokonferenzen für einen Benutzer an Microsoft geändert wird.
-    
-- In der Standardeinstellung der Absender der e-Mail-Nachrichten werden von Office 365, aber Sie können die e-Mail-Adresse ändern und den Anzeigenamen mithilfe von Windows PowerShell. Finden Sie im [Microsoft-Teams PowerShell Verweis](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) für Weitere Informationen.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 

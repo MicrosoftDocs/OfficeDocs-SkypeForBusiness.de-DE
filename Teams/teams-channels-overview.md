@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038809"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255654"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 =================================================
@@ -38,7 +38,9 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 
     -   Kanäle sind besonders nützlich, wenn mit apps erweitert, die Registerkarten, Connectors und Bots, die ihren Wert für die Mitglieder des Teams erhöhen enthalten.
 
-[In diesem kurze Video anzeigen](https://youtu.be/hjJWtoaRJeE) , erfahren Sie mehr über die bewährten Methoden für das Erstellen von Teams und Kanäle.
+Zeigen Sie in diesem kurze Video an, um weitere Informationen über die bewährten Methoden für das Erstellen von Teams und Kanäle an.
+
+<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <a name="membership-roles-and-settings"></a>Mitgliedschaft, Rollen und Einstellungen
 ------------------------------
@@ -52,7 +54,7 @@ Darüber hinaus können Teambesitzer ein Team auf der Grundlage einer vorhandene
 **Teameinstellungen** Teambesitzer können teamweite Einstellungen direkt in Microsoft Teams verwalten. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Kanälen für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden. 
 
 Drei Minuten in Anspruch nehmen dieses Handbuchs Go Auschecken video für Team-Besitzer: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Wenn Sie den Microsoft-Teams, Administrator in Office 365 sind, haben Sie Zugriff auf systemweiten Einstellungen im Teams & Skype für Business Admin Center. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 

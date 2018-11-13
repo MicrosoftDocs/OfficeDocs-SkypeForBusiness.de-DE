@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371975"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283178"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Versuchen Sie es oder erwerben Audiokonferenzen in Office 365 für Microsoft-Teams
 
@@ -46,9 +46,9 @@ Sie müssen ein [globaler Administrator oder Abrechnungsadministrator](https://s
     
 2. Holen Sie sich Ihre Lizenzen für **Audiokonferenz**. Wenn Sie:
 
-   - **Testen Sie**, bevor Sie es kaufen, denn Sie können sich für eine kostenlose Testversion von Office 365 Enterprise E5 registrieren, die Audiokonferenz enthält. Siehe [Testversion von Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Versuchen Sie es** , bevor Sie es kaufen: Sie können melden Sie sich für eine kostenlose Testversion von Office 365 Enterprise E5, die Audiokonferenz enthält. Siehe [Testversion von Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Zum Kaufen** finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Kaufen**: finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 3. [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) den Mitarbeitern in Ihrer Organisation zu, die Besprechungen planen oder leiten werden.
 
@@ -74,7 +74,9 @@ Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Li
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Providers von Audiokonferenz für Personen, die Meetings führen oder planen
 
-Wenn Sie eine Lizenz für **Audiokonferenz**Personen in Ihrer Organisation zuweisen, die Meetings führen oder planen, sind diese alle eingerichtet und einsatzbereit! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
+Beim Zuordnen einer **Audiokonferenz** -Lizenzvertrags auf Personen in Ihrer Organisation ohne Skype eingeladen für Unternehmen in einen 3. Partei Audiokonferenzen integriert, sie werden alle Set up und sind Sie bereit für das Wechseln! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
+
+Wenn Sie Benutzer mit einer 3. Audiokonferenzen Anbieters aktiviert haben, müssen Sie den Anbieter von diesen Benutzer an Microsoft ändern. Wenn den Anbieter des Benutzers ändern möchten, finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen](assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Schritt 3: Andere Administratoraufgaben
 
@@ -94,7 +96,7 @@ Die folgenden Schritte sind **optional**, aber viele Administratoren führen die
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Einrichten von Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Aktivieren von Teams in Ihrer Organisation](office-365-set-up.md)
 
 [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md)
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea8de6d6bd1d5e508654d30f27ea7f83a8097030
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011969"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282949"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -31,7 +31,7 @@ Vor dem Erstellen eines Teams in unserem Produkt, es ist ratsam, zu dem Ziel, Pr
 
 Schauen Sie sich diese kurzen Video sehen Sie einige Beispiele für Zweck Cross-Organisations- oder einzelnen Teams Strukturierung:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 Sie können mit einer kleinen Anzahl von Teammitgliedern und einem Brainstorming beginnen und dann im Lauf der Zeit neue Personen oder Gruppen hinzufügen. Das Tolle an Microsoft Teams ist, dass sich neu hinzugefügte Personen oder Gruppen schnell darüber informieren können, was bereits besprochen wurde, da die Unterhaltungen und Dateien auch für später hinzugekommene Benutzer verfügbar sind. Vermeiden Sie das Erstellen von verschiedenen Teams mit den gleichen Mitgliedern, da sie sich bei diesem Ansatz möglicherweise nicht wie gewünscht auf die Verwirklichung des Projekts oder Ziels konzentrieren können. Outlook ist ein praktisches Tool zum Freigeben von derartiger gruppenweiter Kommunikation.
 

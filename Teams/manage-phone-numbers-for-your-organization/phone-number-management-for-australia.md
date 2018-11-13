@@ -23,17 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Mithilfe dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Australien für Skype für Business Online und Microsoft-Teams.
-ms.openlocfilehash: b897a9f857b6703ed0ada636c16aa76393501257
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 88db4b1410071793622c5bab7e528c51180c7a80
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014515"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283131"
 ---
 # <a name="phone-number-management-for-australia"></a>Telefon Nummer Management für Australien
-> [!IMPORTANT]
-> Australien ist nur in der Vorschau und frühe Übernahmen Kunden zur Verfügung. Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
-
 In Australien sind wir mit Telstra für den Erwerb und die Bereitstellung von Anrufplänen eine Partnerschaft eingegangen. Telstra verkauft Anrufpläne und bietet die Unterstützung für die Telefonnumernverwaltung für Benutzer- und Servicenummern für automatische Telefonzentralen und Anruf-Warteschleifen. Allerdings werden Servicenummern und Lizenzen für Audiokonferenzen weiterhin von Office 365 verkauft und verwaltet.
 
 Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).

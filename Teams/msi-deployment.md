@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540253"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282957"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installieren von Microsoft Teams mithilfe eines MSI-Pakets
 =================================
@@ -39,7 +39,7 @@ Verwendung von System Center Configuration Manager oder Gruppenrichtlinien oder 
 
 Die Teams MSI-Datei wird Program Files ein Installationsprogramm versehen. Wenn ein Benutzer ein neues Windows-Benutzerprofil anmeldet, das Installationsprogramm wird gestartet, und eine Kopie der Anwendung Teams im Anwendungsdaten-Ordner des Benutzers installiert werden. Wenn ein Benutzer bereits die Teams app im Ordner Anwendungsdaten installiert hat, wird der MSI-Installer den Prozess für diesen Benutzer übersprungen.
 
-Verwenden Sie die MSI-Datei nicht zum Bereitstellen von Updates, da der Client Update automatisch wird, wenn es erkennt, dass eine neue Version aus dem Dienst verfügbar ist. Verwenden Sie erneut bereitstellen, um der neueste Version von Installer den Prozess der erneutes Bereitstellen von MSI-Datei weiter unten beschriebenen. Wenn Sie eine ältere Version von MSI-Paket bereitstellen, den Client wird automatisch nach Möglichkeit für den Benutzer aktualisieren. Wenn eine sehr alte Version bereitgestellt, ruft ab, wird die MSI-Datei eine Anwendung Aktualisierung auszulösen, bevor der Benutzer Teams nutzen kann. 
+Verwenden Sie die MSI-Datei nicht zum Bereitstellen von Updates, da der Client Update automatisch wird, wenn es erkennt, dass eine neue Version aus dem Dienst verfügbar ist. Verwenden Sie erneut bereitstellen, um der neueste Version von Installer den Prozess der erneutes Bereitstellen von MSI-Datei weiter unten beschriebenen.Wenn Sie eine ältere Version von MSI-Paket bereitstellen, den Client wird automatisch nach Möglichkeit für den Benutzer aktualisieren. Wenn eine sehr alte Version bereitgestellt, ruft ab, wird die MSI-Datei eine Anwendung Aktualisierung auszulösen, bevor der Benutzer Teams nutzen kann. 
 
 > [!Important] 
 > Wir empfohlen nicht, die Standardspeicherorte Installation zu ändern, wie dies den Update-Ablauf unterbrechen könnten. Mit einer zu alten Version wird schließlich Benutzer Zugriff auf den Dienst blockieren. 
@@ -54,8 +54,8 @@ Verwenden Sie die MSI-Datei nicht zum Bereitstellen von Updates, da der Client U
 ## <a name="clean-up-and-redeployment-procedure"></a>Bereinigen und Verfahren für die erneute Bereitstellung
 Wenn ein Benutzer aus ihrem Benutzerprofil Teams deinstalliert, wird der MSI-Installer nachverfolgen, dass der Benutzer hat die app Teams deinstalliert und Teams nicht mehr für dieses Benutzerprofil zu installieren. Um Teams für diesen Benutzer auf einem bestimmten Computer erneut bereitstellen, auf dem sie deinstalliert wurde, führen Sie folgende Schritte aus:
 
-1. Deinstallieren von Teams App für jede Benutzerprofil installiert. 
-2. Nach dem Deinstallieren, Directory rekursiv unter % localappdata%\Microsoft\Teams\ löschen. 
+1. Deinstallieren von Teams App für jede Benutzerprofil installiert. 
+2. Nach dem Deinstallieren, Directory rekursiv unter % localappdata%\Microsoft\Teams\ löschen. 
 3. Erneutes Bereitstellen des MSI-Pakets an dem jeweiligen Computer.
 
 > [!TIP] 
@@ -63,9 +63,20 @@ Wenn ein Benutzer aus ihrem Benutzerprofil Teams deinstalliert, wird der MSI-Ins
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Automatisches Starten für die MSI-Installer deaktivieren
 
-Wenn Sie Automatisches Starten deaktivieren möchten, geben Sie die folgende Befehlszeile:
+Standardverhalten der die MSI-Datei ist, installieren Sie den Client Teams, sobald ein Benutzer anmeldet, und anschließend Teams automatisch starten. Sie können dieses Verhalten mit den Parametern unter wie folgt ändern:
 
+- Wenn ein Benutzer in Windows anmeldet, werden die Teams mit der MSI-Datei installiert werden
+- Jedoch wird der Client Teams nicht gestartet werden, bis der Benutzer Teams manuell gestartet wurde
+- Eine Verknüpfung zum Starten von Teams wird auf dem Desktop des Benutzers hinzugefügt werden
+- Nachdem manuell gestartet, Teams werden automatisch gestartet werden, wenn der Benutzer angemeldet
+
+Für 32-Bit-version
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-
+Für die 64-Bit-version
+```
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+```
+> [!Note] 
+>  Wenn Sie die MSI-Datei manuell ausführen, müssen Sie es mit erhöhten Berechtigungen ausführen. Auch wenn Sie es als Administrator Ausführen ohne mit erhöhten Berechtigungen ausführen, wird das Installationsprogramm nicht die Option zum Deaktivieren der automatischen Start konfiguriert sein.
