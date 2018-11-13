@@ -3,23 +3,24 @@ title: CQD-Entwicklungsbeispiele
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 'Zusammenfassung: Überprüfen einer Lernprogramm und Entwicklung Beispiele für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Zusammenfassung: Überprüfen einer Lernprogramm und Entwicklung Beispiele für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
+ms.openlocfilehash: 6bd6031e1d7fc94ed463c53efb068fd1e2e51378
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035743"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296126"
 ---
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
 
-**Zusammenfassung:** Überprüfen einer Lernprogramm und Entwicklung Beispiele für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Überprüfen Sie ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.
 
 Dieser Artikel enthält ein Lernprogramm und Beispiele für die Entwicklung des Anrufqualitäts-Dashboards (Call Quality Dashboard, CQD).
 
@@ -31,9 +32,9 @@ Lernprogramm: Erstellen benutzerdefinierter Berichte mit dem CQD-Datendienst und
 
 Das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) bietet schnellen und einfachen Zugriff auf die zusammengefassten Daten zur Anrufqualität für lokale Skype for Business Server-Bereitstellungen. Das CQD besteht aus drei Komponenten: der QoE-Archivdatenbank, dem Cube und dem Portal. Das Portal ist die Hauptpräsentationsebene und ist ebenfalls in drei Komponenten unterteilt:
 
-1. Data-Dienst, die für authentifizierte Benutzer über [Daten-API für aufrufen Quality Dashboard (CQD) in Skype für Business Server](data-api.md)zugegriffen werden kann.
+1. Data-Dienst, die für authentifizierte Benutzer über [Daten-API für aufrufen Quality Dashboard (CQD) in Skype für Business Server 2015](data-api.md)zugegriffen werden kann.
 
-2. Repository-Dienst, der für authentifizierte Benutzer über die [Repository-API für aufrufen Quality Dashboard (CQD) in Skype für Business Server](repository-api.md)zugänglich ist.
+2. Repository-Dienst, der für authentifizierte Benutzer über die [Repository-API für aufrufen Quality Dashboard (CQD) in Skype für Business Server 2015](repository-api.md)zugegriffen werden kann.
 
 3. das Webportal der HTML5-basierte Schnittstelle, die CQD-Benutzer sehen und mit der sie interagieren können. Auch sie ist für authentifizierte Benutzer zugänglich.
 

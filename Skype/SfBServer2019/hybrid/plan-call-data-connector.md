@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung von Skype für Business Online Telemetrie-Tools zum Überwachen von einer lokale Implementierung in einer Hybrid-Szenario.
-ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838520"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295175"
 ---
 # <a name="plan-call-data-connector"></a>Planen der Anruf Data Connector
 
@@ -46,7 +46,7 @@ Die Analytics aufrufen und CQD Tools können Sie die Qualität von Anrufen zu ü
 
 - Rufen Sie Qualitätsdashboard konzentriert sich auf die Leistung des Netzwerks und Probleme innerhalb einer Organisation. Skype für Administratoren in Unternehmen und Netzwerktechniker mit diesem Tool können Sie beheben und Optimieren der Leistung des Netzwerks.
 
-Weitere Informationen finden Sie unter [Analytics aufrufen, und rufen Sie Qualitätsdashboard](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Weitere Informationen finden Sie unter [Analytics aufrufen, und rufen Sie Qualitätsdashboard](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Sie möchten natürlich einige Anrufqualität Daten lokal speichern. Dies möglicherweise die Groß-/Kleinschreibung, z. B., wenn Sie ein Drittanbieter-Lösung mit benutzerdefinierte Berichte und Workflows.  Anruf Data Connector können Sie sendende von Daten an den online-Dienst konfigurieren und eine Kopie der Daten auf dem lokalen Server auch weiterhin, wie im folgenden Diagramm dargestellt:
 
@@ -55,7 +55,7 @@ Sie möchten natürlich einige Anrufqualität Daten lokal speichern. Dies mögli
 
 ## <a name="requirements"></a>Anforderungen
 
-Die folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype für Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zur Bereitstellung von Skype für Business Server und unterstützten Topologien finden Sie unter [Grundlagen der Topologie](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Um Call Data Connector zu konfigurieren, müssen Sie folgende Aktionen ausführen:
+Die folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype für Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zur Bereitstellung von Skype für Business Server und unterstützten Topologien finden Sie unter [Grundlagen der Topologie](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Um Call Data Connector zu konfigurieren, müssen Sie folgende Aktionen ausführen:
 
 - Aktivieren Sie Hybrid-Diensten. Wenn Sie Skype bereits für Business Server bereitgestellt haben, und rufen Sie Data Connector aktivieren möchten, müssen Sie sicherstellen, dass Sie hybridkonnektivität zwischen Ihrer lokalen und online-Umgebung eingerichtet haben. Dies ist eine geteilte Domänenkonfiguration bezeichnet. 
 

@@ -1,7 +1,7 @@
 ---
 title: Grundlegendes zu Skype-Interoperabilität und Koexistenz für Unternehmen und die Microsoft-Teams
-author: lsomi
-ms.author: lsomi
+author: arachmanGitHub
+ms.author: arachman
 manager: serdars
 ms.date: 09/21/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: 158e563151fe426f6abbbeb7519ba9e793f2d202
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851592"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296418"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -34,7 +34,7 @@ Wenn Ihr Unternehmen Skype heute für Unternehmen verwendet und für die Verwend
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Koexistenz von Teams und Skype für Unternehmen
 
-Zusätzlich zu den Zusammenarbeitsfunktionen für die bietet Teams Chat, Anrufe und Besprechung Funktionen. Je nachdem, wie Sie die zum Bereitstellen von Teams auswählen werden diese Funktionen mit den Funktionen von Skype für Unternehmen für einen bestimmten Benutzer gelieferten überlappen. Der Standardmodus ist zum Ausführen von Teams zusammen mit Skype für Unternehmen; Allerdings kann ein Benutzer einen von mehreren Koexistenz Modi zugewiesen werden, die entworfen wurden, um sicherzustellen, dass diese Funktionen für diesen Benutzer überlappen nicht.
+Zusätzlich zu den Zusammenarbeitsfunktionen für die bietet Teams Chat, Anrufe und Besprechung Funktionen. Je nachdem, wie Sie die zum Bereitstellen von Teams auswählen können diese Funktionen mit den Funktionen von Skype für Unternehmen für einen bestimmten Benutzer gelieferten überlappen. Der Standardmodus ist zum Ausführen von Teams zusammen mit Skype für Unternehmen; Allerdings kann ein Benutzer einen von mehreren Koexistenz Modi zugewiesen werden, die entworfen wurden, um sicherzustellen, dass diese Funktionen für diesen Benutzer überlappen nicht.
 
 Es wird empfohlen, dass Sie der Koexistenz Modi erläutert überprüfen, um zu bestimmen, welcher Pfad für Ihr Unternehmen geeignet ist.
 
@@ -48,7 +48,7 @@ Standardmäßig können Benutzer Teams zusammen mit Skype für Unternehmen als z
 In diesem Koexistenzmodus **Inseln**aufgerufen, wird jeweils der Clientanwendungen als einen separaten Bereich ausgeführt. Skype für Business kommuniziert mit Skype für Unternehmen und Teams kommuniziert mit Teams. Benutzer führen Sie beide Clients und auf dem Client, von dem die Kommunikation initiiert wurde, systemintern kommunizieren können. Daher besteht keine Notwendigkeit für die Interoperabilität im **Inseln** Modus.
 
 > [!Tip]
-> Skype für Business Online-Kunden empfohlenen Pfad besteht darin, beginnen Sie mit den Standardmodus **Inseln** , Laufwerk Annahme Sättigung in der Organisation, und wechseln dann schnell zu **Teams** nur Kopfzeilen herunterladen. Auf lokale und hybride werden Kunden aus den kommenden **Skype für Unternehmen mit Zusammenarbeit für Teams** Modus als Ausgangspunkt statt Inseln und Bearbeitung von dort **Nur Teams** Modus bereitstellen, sobald die Organisation einführen kann profitieren. Teams. 
+> Wenn die bevorstehende Modi **Nur Teams** und **Skype für Unternehmen mit Zusammenarbeit für Teams** Modi verfügbar sind, sollte der Standardmodus für neue Benutzer online **Skype für Unternehmen mit Teams für die Zusammenarbeit**, sein bis Ihrer Organisation werden Verschieben Sie auf **Nur Teams**.Vorhandene Benutzer im Modus **Inseln** sollten direkt zu **Teams** nur Kopfzeilen herunterladen verschieben, wie Ihre Organisation bereit ist. 
 
 ### <a name="skype-for-business-only"></a>Skype für Unternehmen nur
 
@@ -56,7 +56,7 @@ In diesem Koexistenzmodus Benutzer bleiben in Skype für Unternehmen – nicht T
 
 ### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>Nur Teams (in diesem Modus gestartet parallelen out Sommer 2018 und wird für alle Mandanten fallen 2018 abgeschlossen sein)
 
-Wie Ihre Organisation für einige oder alle Benutzer als einzige Kommunikation und Zusammenarbeit Tool Teams Verwendung bereit ist, können Sie diese Benutzer **Nur Teams** Modus aktualisieren.
+Wie Ihre Organisation für einige oder alle Benutzer als einzige Kommunikation und Zusammenarbeit Tool Teams Verwendung bereit ist, können Sie diese Benutzer in den Modus **nur Teams** aktualisieren.
 
 Ein Benutzer **nur Teams** können nur die Skype für Business-Client zur Teilnahme an vorhandenen Skype für Business Besprechungen oder Besprechungen auf Skype für Unternehmen, die von Benutzern nicht aktualisiert oder externen Parteien organisiert wurden. Ein aktualisierter Benutzer kann weiterhin mit anderen Benutzern in der Organisation zu kommunizieren, die noch Skype für Unternehmen mithilfe der Funktionen Interoperabilität zwischen Teams und Skype für Unternehmen. Allerdings kann kein aktualisierter Benutzer einen Skype für Chat, Anruf oder eine Besprechung Business initiieren.
 
@@ -64,13 +64,13 @@ Ein Benutzer **nur Teams** können nur die Skype für Business-Client zur Teilna
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>Skype für Unternehmen mit Teams für die Zusammenarbeit (in diesem Modus wird in Kürze verfügbare)
 
-Verwenden Sie diesen Modus Teams in Ihrer Umgebung einführen, während Sie weiterhin an Ihre vorhandenen Investitionen in Skype für Unternehmen nutzen. In diesem Modus Sie Skype für Unternehmen mit Chat, Anrufe und Besprechung Funktionen unverändert lassen und Hinzufügen von Teams Zusammenarbeitsfunktionen – Teams und Kanäle, den Zugriff auf Dateien in Office 365 und Anwendungen. Organisationen mit ab Punkt von Skype für Business Server vor Ort oder Hybriden sollte diesen Modus anstelle von Inseln Modus verwenden.
+Verwenden Sie diesen Modus Teams in Ihrer Umgebung einführen, während Sie weiterhin an Ihre vorhandenen Investitionen in Skype für Unternehmen nutzen. In diesem Modus Sie Skype für Unternehmen mit Chat, Anrufe und Besprechung Funktionen unverändert lassen und Hinzufügen von Teams Zusammenarbeitsfunktionen – Teams und Kanäle, den Zugriff auf Dateien in Office 365 und Anwendungen.
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-this-mode-is-upcoming"></a>Skype für Unternehmen mit Teams für die Zusammenarbeit und Besprechungen (in diesem Modus wird in Kürze verfügbare)
 
 Verwenden Sie diesen Koexistenzmodus, die die Verfügbarkeit der Teams meeting-Funktionen in Ihrer Organisation, zusätzlich zu den Zusammenarbeitsfunktionen für die, die es den Benutzern ermöglichen die neuen Funktionen wie etwa Lautschrift hochwertige nutzen beschleunigen und Übersetzung und Unterstützung für Besprechungen in Browsern.
 
-Starten Sie zusammen mit Teams für Teams und Kanäle-basierten Unterhaltungen in diesem Modus verwenden, Benutzer verwenden von Teams zum Planen und Durchführen einer Besprechung. Private Chats und VoIP und video-Anruf, bleiben auf Skype für Unternehmen. In diesem Koexistenzmodus ist besonders hilfreich für Benutzer in Skype für Business lokale Bereitstellungen, die Enterprise-VoIP, die voraussichtlich auf Teams aktualisiert werden einige Zeit in Anspruch nimmt, aber die herausragende Teams Besprechungen nutzen möchten.
+Starten Sie zusammen mit Teams für Teams und Kanäle-basierten Unterhaltungen in diesem Modus verwenden, Benutzer verwenden von Teams zum Planen und Durchführen einer Besprechung. Private Chats und VoIP und video-Anruf, bleiben auf Skype für Unternehmen. In diesem Koexistenzmodus eignet sich besonders für Benutzer in Skype für Business lokale Bereitstellungen, die Enterprise-VoIP, aufweisen, die voraussichtlich auf Teams aktualisiert werden einige Zeit in Anspruch nimmt
 
 > [!Note]
 > Wenn in bestimmten Koexistenz Modi bereitgestellt haben, können Teams und Skype für Unternehmen [interagieren](#interoperability-of-teams-and-skype-for-business), Aktivieren von Benutzern mit chat und Aufrufen voneinander, und sicherstellen, dass Communications Unze in Ihrer Organisation während Ihrer Reise Upgrade Teams bleiben. Koexistenz Modi steuern Interoperabilität. Der Koexistenzmodus des Empfängers bestimmt, ob Interoperabilität zur Verfügung stehen. Angenommen, wenn der Empfänger in einen Modus in der Chat nur in einem Client (beispielsweise Teams) verfügbar ist wird, stehen Chat Interoperabilität im Allgemeinen zur Verfügung für den Fall, dass der Initiator der anderen Client (in diesem Fall Skype für Unternehmen) verwendet, um den Chat starten. Andererseits, wenn der Empfänger in einen Modus in der Chat in beiden Clients verfügbar ist ist, Interoperabilität nicht verfügbar für die Chat – und die Nachricht wird vom Empfänger im gleichen Client in der der Initiator den Chat gestartet empfangen werden.
@@ -108,7 +108,7 @@ Je nach der Koexistenz-Modi, die Benutzern (wie oben beschrieben) zugewiesen ste
 > [!Important]
 > Interop-Erfahrungen mit einer lokalen Bereitstellung von Skype für Unternehmen erfordern, dass die lokale Umgebung im Hybridmodus mit Office 365 Skype für Unternehmen wird. Weitere Informationen hierzu finden Sie unter [Migration und Interoperabilität Anweisungen](https://aka.ms/SkypeToTeams-Interop).
 
-Diese interop Erfahrungen stehen und zwischen Benutzern, die einen der folgenden Koexistenz Modi zugewiesen haben: **Skype für Unternehmen mit Teams für die Zusammenarbeit**, **Skype für Unternehmen mit Teams für die Zusammenarbeit und Besprechungen**, **Skype für Nur Business**, oder **nur Teams**. Es ist keine Interoperabilität für Benutzer in Inseln Modus.
+Diese interop Erfahrungen stehen für Benutzer mit einer der folgenden zugewiesene Koexistenz Modi: **Skype für Unternehmen mit Teams für die Zusammenarbeit**, **Skype für Unternehmen mit Teams für die Zusammenarbeit und Besprechungen**, nur **Skype für Unternehmen **, oder **nur Teams**.
 
 
 ### <a name="native-interop-experience-limitations"></a>Einschränkungen der einheitlichen Interop-Erfahrung

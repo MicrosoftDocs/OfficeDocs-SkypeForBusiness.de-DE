@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 description: Hier erhalten Sie Informationen zu den verschiedenen Identitätsmodellen in Microsoft Teams, beispielsweise „Cloud-Identität“, „Synchronisierte Identität“ und „Partneridentität“. Außerdem erhalten Sie Informationen zur mehrstufigen Authentifizierung.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3425cfac168e65cd062af67f7e05727f2fe5a837
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 49f2a4f3396e59f056f4e06db9e9d805228f47e1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839135"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295348"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Identitätsmodelle und Authentifizierung in Microsoft Teams
 ==========================================
@@ -51,7 +51,7 @@ Zusätzliche Details finden Sie in den Leitfäden [Auswählen eines Anmeldemodel
 
 Office 365-Pläne unterstützen die mehrstufige Authentifizierung (Multi-Factor Authentication, MFA), die die Sicherheit der Benutzeranmeldungen bei Office 365-Diensten erhöht. Bei MFA für Office 365 müssen Benutzer nach der Eingabe des richtigen Kennworts einen Telefonanruf, eine SMS oder eine App-Benachrichtigung auf ihrem Smartphone bestätigen. Erst nach der erfolgreichen Überprüfung dieses zweiten Authentifizierungsfaktors können sich die Benutzer anmelden.
 
-Multi-Factor Authentication wird mit jeder Office 365-Plan unterstützt, die Microsoft-Teams enthält. Die Office 365-abonnementtarife, die Microsoft-Teams enthalten werden später im Abschnitt Lizenzierung beschrieben.
+Mehrstufige Authentifizierung wird in allen Office 365-Plänen unterstützt, in denen Microsoft Teams enthalten ist. Die Office 365-Abonnementpläne, in denen Microsoft Teams enthalten ist, werden weiter unten im Abschnitt zur Lizenzierung erläutert.
 
 Wenn sich die Benutzer für MFA registriert haben, sehen sie bei der nächsten Anmeldung eine Meldung, in der sie aufgefordert werden, ihren zweiten Authentifizierungsfaktor einzurichten. Die folgenden Authentifizierungsmethoden werden unterstützt:
 

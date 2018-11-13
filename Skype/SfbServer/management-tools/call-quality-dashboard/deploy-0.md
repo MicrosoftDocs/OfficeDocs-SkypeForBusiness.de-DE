@@ -1,25 +1,26 @@
 ---
-title: Bereitstellen Sie Anrufqualität Dashboard für Skype für Business Server
+title: Bereitstellen von Anrufqualität Dashboard für Skype für Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: 'Zusammenfassung: Informationen Sie zu den Bereitstellungsprozess für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: c9d641a8202560e558e33014670b4b1060795477
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Zusammenfassung: Informationen Sie zu den Bereitstellungsprozess für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
+ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035750"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294989"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Bereitstellen Sie Anrufqualität Dashboard für Skype für Business Server
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Bereitstellen von Anrufqualität Dashboard für Skype für Business Server 2015
  
-**Zusammenfassung:** Informationen Sie zu den Bereitstellungsprozess für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Informationen Sie zu den Bereitstellungsprozess für die Qualitätsdashboard aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.
   
 ## <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -184,27 +185,6 @@ Im nächste Schritt wird das Dashboard, der die CQD konfigurieren. Nachdem der B
 4. Klicken Sie auf **Übernehmen** auf der rechten Seite der Seite.
     
 ## <a name="known-issues"></a>Bekannte Probleme
-
-### <a name="the-cqd-shows-no-data-after-deployment"></a>Die CQD zeigt keine Daten nach der Bereitstellung
-
-Sie möglicherweise die folgende Fehlermeldung angezeigt:
-
-*Es konnte nicht die Abfrage ausführen, während es für den Cube ausgeführt wird. Verwenden Sie den Abfrage-Editor zum Ändern der Abfrage und beheben Sie etwaige Probleme. Stellen Sie außerdem sicher, dass der Cube zugegriffen werden kann.*
-
-Dies bedeutet, dass der Cube in SQL Server Analysis Services verarbeitet werden muss, bevor in CQD verwendet wird. Sie können diese Probleme beheben, indem Sie folgende Schritte:
-
-1. Öffnen Sie SQL Management Studio, und wählen Sie **Analysis Services**aus.
-
-2. Erweitern Sie die **QoECube** -Objekt, wählen Sie **QoE-Metrik**, mit der rechten Maustaste, und wählen Sie dann auf **Durchsuchen**. 
-
-    Wenn dies leer Browser zurückgegeben wird, noch nicht der Cube wurde fahren Sie noch.
-
-3. Mit der rechten Maustaste **QoE-Metrik** Angain, und wählen Sie **Prozess**.
-
-4. Nach Abschluss der Verarbeitung mit der rechten Maustaste erneut auf des Objekts, und wählen Sie **Durchsuchen** aus, zu bestätigen, dass die Browserseite nun Daten zeigt. 
-
-
-### <a name="users-have-trouble-logging-in-because-installer-fails-to-create-the-correct-settings-in-iis"></a>Benutzer haben Probleme beim Anmelden, weil Installer nicht die richtigen Einstellungen in IIS erstellt.
 
 In seltenen Fällen kann das Installationsprogramm die richtigen Einstellungen in IIS zu erstellen. Manuelle Änderung ist erforderlich, um Benutzer zur Anmeldung bei der CQD zu ermöglichen. Wenn Benutzer Probleme beim Anmelden haben, gehen Sie folgendermaßen vor:
   

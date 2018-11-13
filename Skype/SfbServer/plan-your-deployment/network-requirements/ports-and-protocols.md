@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Zusammenfassung: Überprüfen der Aspekte beim Port-Nutzung vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838607"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293861"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports und Protokolle-Anforderungen für Server
  
@@ -49,7 +49,7 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 
 |Serverrolle|Name des Diensts|Port|Protokoll|Hinweise|
 |:-----|:-----|:-----|:-----|:-----|
-|Alle Server  |SQL-Browser  |1434  |UDP  |SQL-Browser für die lokal replizierte Kopie der Datenbank zentralen Verwaltungsspeicher.  |
+|Alle Server  |SQL-Browser  |1434  |UDP  |SQL-Browser für die lokal replizierte Kopie der Datenbank des zentralen Verwaltungsspeichers.  |
 |Front-End-Server  |Skype für Business Server Front-End-Dienst  |5060  |TCP  |Wird optional von Standard Edition- und Front-End-Servern für statische Routen zu vertrauenswürdigen Diensten wie z. B. Servern für die Remoteanrufsteuerung verwendet.  |
 |Front-End-Server  |Skype für Business Server Front-End-Dienst  |5061  | TCP (TLS) |Wird von Standard Edition-Servern und Front-End-Pools für die gesamte interne SIP-Kommunikation zwischen Servern (MTLS), für die SIP-Kommunikation zwischen Server und Client (TLS) und für die SIP-Kommunikation zwischen Front-End- und Vermittlungsservern (MTLS) verwendet. Wird auch für die Kommunikation mit einem Monitoring Server verwendet.  |
 | Front-End-Server |Skype für Business Server Front-End-Dienst  |444  | HTTPS <br/> TCP  |Wird für HTTPS-Kommunikation zwischen dem Konferenzzustandsobjekt (die Skype für Business Server-Komponente, die den Konferenzstatus verwaltet) und den einzelnen Servern verwendet.  <br/> Dieser Port wird auch für die TCP-Kommunikation zwischen Survivable Branch Appliances und Front-End-Servern verwendet.  |

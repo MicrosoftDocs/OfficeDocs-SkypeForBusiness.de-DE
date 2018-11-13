@@ -4,11 +4,11 @@ hide_bc: true
 title: Skype for Business
 description: Skype for Business
 ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
-ms.translationtype: HT
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546665"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293647"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -51,7 +51,7 @@ ms.locfileid: "25546665"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Hybridlösungen</h3>
-                                                    <p>Hier finden Sie Informationen zur Planung einer Hybridbereitstellung von Skype for Business.</p>
+                                                    <p>Hier finden Sie Informationen zur Planung einer Skype für Business hybridbereitstellung.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -125,8 +125,8 @@ ms.locfileid: "25546665"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Der Weg von Skype for Business zu Microsoft Teams</h3>
-                                                    <p>Suchen Sie Leitfaden und Tools, um Ihren optimalen Pfad nach Teams zu beschreiten.</p>
+                                                    <h3>Reise von Skype for Business zu Teams</h3>
+                                                    <p>Hier finden Sie Leitfäden und Tools für Ihre optimale Pfad Teams erkunden.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -179,8 +179,8 @@ ms.locfileid: "25546665"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Endbenutzer</h3>
-                                                    <p>Hilfe, Schulungen und technischen Support für Skype for Business finden Sie unter <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <h3>Endnutzer</h3>
+                                                    <p>Hier finden Sie Hilfe, Schulung und technischen Support für Skype für Geschäftsbenutzer auf <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>ein.</p>
                                                 </div>
                                             </div>
                                         </div>

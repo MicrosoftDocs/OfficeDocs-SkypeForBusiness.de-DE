@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: 566cdfdcea7c12c053f8dac43d68ef75a3b29e4b
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283178"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296050"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Versuchen Sie es oder erwerben Audiokonferenzen in Office 365 für Microsoft-Teams
 
@@ -74,9 +74,7 @@ Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Li
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Providers von Audiokonferenz für Personen, die Meetings führen oder planen
 
-Beim Zuordnen einer **Audiokonferenz** -Lizenzvertrags auf Personen in Ihrer Organisation ohne Skype eingeladen für Unternehmen in einen 3. Partei Audiokonferenzen integriert, sie werden alle Set up und sind Sie bereit für das Wechseln! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
-
-Wenn Sie Benutzer mit einer 3. Audiokonferenzen Anbieters aktiviert haben, müssen Sie den Anbieter von diesen Benutzer an Microsoft ändern. Wenn den Anbieter des Benutzers ändern möchten, finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen](assign-microsoft-as-the-audio-conferencing-provider.md).
+Wenn Sie eine Lizenz für **Audiokonferenz**Personen in Ihrer Organisation zuweisen, die Meetings führen oder planen, sind diese alle eingerichtet und einsatzbereit! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
 
 ## <a name="step-3-other-admin-tasks"></a>Schritt 3: Andere Administratoraufgaben
 

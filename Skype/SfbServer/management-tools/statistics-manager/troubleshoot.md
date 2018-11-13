@@ -1,25 +1,26 @@
 ---
-title: Problembehandlung bei Statistiken Manager für Skype für Business Server
+title: Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server zu beheben.'
-ms.openlocfilehash: 3a0bb2530e0b19685f28a747660e59b1fceec4e8
-ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server 2015 zu beheben.'
+ms.openlocfilehash: b2c9d5b3f5e4a6df0152807d33ec832417005f99
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/13/2018
-ms.locfileid: "26292983"
+ms.locfileid: "26294818"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Problembehandlung bei Statistiken Manager für Skype für Business Server
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server 2015
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server zu beheben.
+**Zusammenfassung:** Lesen Sie in diesem Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server 2015 zu beheben.
   
 In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereitstellung von Statistiken-Manager mit der Beschreibung der Ereignisse, die möglicherweise im Ereignisprotokoll Anwendung angezeigt, und die entsprechenden Aktionen, die Sie ergreifen können, das Ereignis zu beheben. Dieses Thema enthält die folgenden Abschnitte:
   
@@ -172,12 +173,12 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
 
 Weitere Informationen finden Sie unter den folgenden Themen:
   
-- [Planen der Business Server für den Statistiken-Manager für Skype](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
     
-- [Aktualisieren von Statistiken Manager für Skype für Business Server](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
+- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Zusammenfassung: Bereitstellung der Skype für Business Web App und Skype Besprechungen App mit Skype für Unternehmen verwendet.'
-ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890689"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295114"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Bereitstellen Sie herunterladbare Webclients in Skype für Business Server
 
-**Zusammenfassung:** Bereitstellen der Skype für Business 2015 Web App und Skype Besprechungen App mit Skype für Business Server verwendet.
+**Zusammenfassung:** Bereitstellen der Skype für Business 2015 Web App und Skype Besprechungen App mit Skype für Business Server 2015 verwendet.
 
-Skype für Web-Geschäfts-App ist ein Webclient (Internet Information Services, IIS), die auf dem Server mit Skype für Business Server installiert ist, und standardmäßig wird es bei Bedarf für Meeting-Benutzer, die die Skype für Business-Client nicht noch bereitgestellt. Diese Besprechung Benutzer sind Abfragebegriff häufiger auftritt als nicht Herstellen einer Verbindung von außerhalb des Netzwerks. Wenn ein Benutzer klickt auf einer besprechungs-URL, aber keinen der Skype für Business-Client installiert, wird der Benutzer mit der Option für die Teilnahme mithilfe der neuesten Version von Skype für Business Web App oder Skype Besprechungen App angezeigt.
+Skype für Web-Geschäfts-App ist ein Webclient (Internet Information Services, IIS), die auf dem Server mit Skype für Business Server 2015 installiert ist, und standardmäßig wird es bei Bedarf für Meeting-Benutzer, die die Skype für Business-Client nicht noch bereitgestellt. Diese Besprechung Benutzer sind Abfragebegriff häufiger auftritt als nicht Herstellen einer Verbindung von außerhalb des Netzwerks. Wenn ein Benutzer klickt auf einer besprechungs-URL, aber keinen der Skype für Business-Client installiert, wird der Benutzer mit der Option für die Teilnahme mithilfe der neuesten Version von Skype für Business Web App oder Skype Besprechungen App angezeigt.
 
 Die Sprache, video und Freigabe-features in Skype für Web-Geschäfts-App erfordern ein Microsoft ActiveX-Steuerelement, das als Plug-in vom Browser des Benutzers verwendet wird. Sie können entweder installieren Sie das ActiveX-Steuerelement im Voraus zulassen, dass Benutzer auf, wenn Sie dazu aufgefordert werden, installiert werden beim ersten geschieht sie Skype für Web-Geschäfts-App verwenden oder beim ersten Zugriff auf ein Feature, das ActiveX-Steuerelement erfordert.
 
 > [!NOTE]
-> In Skype für Business Server Edge-Server-Bereitstellungen ist ein HTTPS-Reverseproxy im Umkreisnetzwerk für Skype für den Clientzugriff Web-Geschäfts-App erforderlich. Außerdem müssen Sie einfache URLs veröffentlichen. Weitere Informationen hierzu finden Sie unter [Setting Up Reverse Proxy Servers](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) und [DNS-Anforderungen für einfache URLs in Skype für Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> In Skype für Business Server 2015 Edge-Server-Bereitstellungen ist ein HTTPS-Reverseproxy im Umkreisnetzwerk für Skype für den Clientzugriff Web-Geschäfts-App erforderlich. Außerdem müssen Sie einfache URLs veröffentlichen. Weitere Informationen hierzu finden Sie unter [Setting Up Reverse Proxy Servers](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) und [DNS-Anforderungen für einfache URLs in Skype für Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Aktivieren Sie die mehrstufige Authentifizierung für Skype für Business Web App
 <a name="MFA"> </a>
@@ -75,7 +75,7 @@ Die Skype für Business Web App und Skype Besprechungen App unterstützen mehrst
 
 Das BranchCache-Feature in Windows 7 und Windows Server 2008 R2 kann Skype für Web-Geschäfts-App-Webkomponenten beeinträchtigen. Um Probleme für Skype für Business Web App-Benutzer zu verhindern, sicher, dass BranchCache nicht aktiviert ist.
 
-Ausführliche Informationen zu BranchCache deaktivieren finden Sie im [Bereitstellungshandbuch für BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+Ausführliche Informationen zu BranchCache deaktivieren finden Sie im [Bereitstellungshandbuch für BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Überprüfen der Skype für Business Web App-Bereitstellung
 <a name="MFA"> </a>
@@ -133,7 +133,7 @@ Dieses Verfahren ist optional und gilt für Skype für Business Server 2015 CU5 
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Die an Microsoft gesendeten Informationen entsprechen genau den Angaben unter [Skype for Business-Datensammlungsmethoden](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Die an Microsoft gesendeten Informationen entsprechen genau den Angaben unter [Skype for Business-Datensammlungsmethoden](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Legen Sie den Timeoutwert vor zurückgreifen auf die lokal gehosteten Skype Business Web App wünschen Verbindung, wenn CDN nicht verfügbar ist. Der Standardwert entspricht 6 Sekunden. Wenn der Wert auf 0 festgelegt ist, tritt kein Timeout ein.
 

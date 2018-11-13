@@ -16,17 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: ddfada14916b14c374479109732dbe1fa35a0174
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038919"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296317"
 ---
 # <a name="plan-direct-routing"></a>Planen der direkten Routing
-
-> [!Tip]
-> Sehen Sie sich die folgenden Sitzung Informationen zu den Vorteilen von Direct Routing, wie es geplant und wie diese bereitgestellt: [Direktes Routing in Microsoft-Teams](https://aka.ms/teams-direct-routing)
 
 Microsoft Phone System direkten Routing können Sie einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) auf Microsoft Telefonsystem herstellen.  Mit dieser Funktion können beispielsweise Sie lokale PSTN-Konnektivität mit Microsoft-Teams-Client konfigurieren wie in der folgenden Abbildung dargestellt: 
 
@@ -77,7 +74,7 @@ Anforderungen an die Infrastruktur für die unterstützten SBCs, Domänen und an
 |Öffentlichen DNS-Eintrag für den SBC |Einen öffentlichen DNS-Eintrag der öffentlichen IP-Adresse den FQDN SBC zuordnen. |
 |Öffentliche vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für die SBC für die gesamte Kommunikation mit direktem Routing verwendet werden soll. Weitere Informationen finden Sie unter [Öffentliche vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc).|
 |Verbindungspunkte zum direkten weiterleiten |Die Verbindungspunkte für direkte Routing sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globale FQDN muss zuerst getestet werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundären FQDN, ordnet geografisch die zweite Region Priorität.<br/>`sip3.pstnhub.microsoft.com`– Tertiäre FQDN, ordnet geografisch die dritte Priorität Region.<br/><br/>Informationen zu konfigurationsanforderungen, finden Sie unter [SIP-Signale: FQDNs und Firewallports](#sip-signaling-fqdns-and-firewall-ports).|
-|Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport-Profil|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
 Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
@@ -224,12 +221,16 @@ Der Portbereich von des Prozessors Medien wird in der folgenden Tabelle gezeigt:
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Unterstützte Session Border Controller (SBCs)
 
-Microsoft unterstützt nur zertifizierten SBCs mit direktem Routing ein. Da Enterprise-VoIP für Unternehmen wichtig ist, Microsoft führt intensiven Tests mit den ausgewählten SBCs und kann mit den Herstellern SBC sicherstellen, dass die zwei Systeme kompatibel sind. 
+Microsoft unterstützt nur den zertifizierten SBC mit direktem Routing ein. Da Enterprise-VoIP für Unternehmen wichtig ist, Microsoft führt intensiven Tests mit den ausgewählten SBCs und kann mit den Herstellern SBC sicherstellen, dass die zwei Systeme kompatibel sind. 
 
-Geräte, die überprüft wurden, werden als zertifiziert für Teams direkten Routing aufgelistet. Die zertifizierte Geräte werden garantiert in allen Szenarien arbeiten. 
+Geräte, die überprüft wurden, werden als zertifiziert für Teams direkten Routing aufgelistet. Die zertifizierte Geräte werden garantiert in allen Szenarien arbeiten. Es gibt auch eine gemeinsame supportprozesse zwischen Microsoft und die SBC-Anbietern hergestellt.  
 
-Weitere Informationen zu unterstützten SBCs finden Sie unter [Liste der Session Border Controller certified zum direkten weiterleiten](direct-routing-border-controllers.md).
-
+Zu den Herstellern zurzeit zertifiziert wird:
+- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
+- Menüband-Kommunikation (früher von Sonus):
+   - [SBC-Edge-Serie](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
+   - [SBC-Core-Serie](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+- ThinkTel: ThinkTel ist die SBCs für das Unternehmen nicht verkaufen, aber ihre SBC zertifiziert ist.  
  
 ## <a name="see-also"></a>Siehe auch
 

@@ -1,25 +1,26 @@
 ---
-title: Verwenden von Anrufqualität Dashboards für Skype für Business Server
+title: Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Zusammenfassung: Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Zusammenfassung: Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
+ms.openlocfilehash: 2aafd5c92a6b0b7a7985c76a20c9377fce44a5e7
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035729"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294898"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Verwenden von Anrufqualität Dashboards für Skype für Business Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server 2015
  
-**Zusammenfassung:** Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.
   
 Mit CQD können IT-Profis Daten aggregieren, um die Bereiche in ihrer Umgebung zu ermitteln, in denen die Medienqualität beeinträchtigt ist. CQD ermöglicht den Vergleich von Statistiken für verschiedene Benutzergruppen und die Ermittlung von Trends und Mustern. Dabei liegt der Schwerpunkt nicht auf der Lösung individueller Probleme mit Anrufen, sondern auf der Erkennung von Problemen und Lösungen, die auf viele Benutzer in einer bestimmten Umgebung anwendbar sind.
   

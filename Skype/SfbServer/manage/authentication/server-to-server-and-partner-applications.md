@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 'Zusammenfassung: Verwalten von OAuth und Partner Applications in Skype für Business Server.'
-ms.openlocfilehash: 6b7701ff91f323b13a97613f57f7228da18d9773
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: c4b4e7344351563219f0f64e0fa0c2e34e5829b2
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784870"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294689"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Verwalten von Server-zu-Server-Authentifizierung (OAuth) und partneranwendungen in Skype für Business Server
  
@@ -23,7 +23,7 @@ ms.locfileid: "25784870"
   
 Skype für Business Server muss sicher und nahtlos mit anderen Anwendungen und Server-Produkten zu kommunizieren. Beispielsweise können Sie Skype konfigurieren, für die Business Server damit Daten und/oder archivierten Daten Kontakt in Microsoft Exchange Server 2013 gespeichert ist. Allerdings dies nur möglich, wenn Skype für Business Server und Exchange sicher miteinander kommunizieren kann. Ebenso können Sie einen Skype für Business Server-Konferenz von Office Web Apps Server planen; In diesem Fall dies nur möglich, wenn die zwei Server (SharePoint und Skype für Business Server) einander vertrauen. Obwohl es möglich, eine Authentifizierungsmethode für die Kommunikation zwischen Skype für Business Server und Exchange jedoch einen separaten Mechanismus zum Skype für Business Server und SharePoint-Kommunikation zu verwenden ist, ein besserer und effizienter Ansatz ist die Verwendung einer standardisierte Methode für alle Server-zu-Server-Authentifizierung und Autorisierung.
   
-Mit einer einzelnen, ist die Standardmethode für die Server-zu-Server-Authentifizierung Ansatz von Skype für Business Server. Schritte mit Office Server 2013-Version, unterstützt Skype für Business Server (sowie andere Microsoft-Server-Produkte, einschließlich Exchange Server und SharePoint Server) (Open Authorization) OAuth-Protokolls für die Server-zu-Server-Authentifizierung und Autorisierung. Mit OAuth, ein standard Authorization-Protokoll verwendet, um eine Anzahl von großen Websites werden Anmeldeinformationen von Benutzern und Kennwörtern nicht von einem Computer an eine andere übergeben. Stattdessen, Authentifizierung und Autorisierung basiert auf den Austausch von Sicherheitstoken; Diese Token gewähren des Zugriffs auf eine bestimmte Gruppe von Ressourcen für einen bestimmten Zeitraum.
+Mit einer einzelnen, ist die Standardmethode für die Server-zu-Server-Authentifizierung Ansatz von Skype für Business Server. Version, Skype für Business Server (sowie andere Microsoft-Server-Produkte, einschließlich Exchange 2013 und SharePoint Server) unterstützt (Open Authorization) OAuth-Protokolls ab dem 2013 für Server-zu-Server-Authentifizierung und Autorisierung. Mit OAuth, ein standard Authorization-Protokoll verwendet, um eine Anzahl von großen Websites werden Anmeldeinformationen von Benutzern und Kennwörtern nicht von einem Computer an eine andere übergeben. Stattdessen, Authentifizierung und Autorisierung basiert auf den Austausch von Sicherheitstoken; Diese Token gewähren des Zugriffs auf eine bestimmte Gruppe von Ressourcen für einen bestimmten Zeitraum.
   
 OAuth-Authentifizierung in der Regel umfasst drei Parteien: eine einzelne autorisierungsserver und die zwei Bereiche, die miteinander kommunizieren müssen. (Sie können auch ausführen Server-zu-Server-Authentifizierung ohne Verwendung eines autorisierungsservers ein Prozess, der weiter unten in diesem Dokument erläutert werden.) Sicherheitstoken werden durch die autorisierungsserver (auch bekannt als ein Security token), die zwei Bereiche ausgegeben, die kommunizieren müssen; Diese Token stellen Sie sicher, dass Communications, die aus einem Bereich stammen von den anderen Bereich als vertrauenswürdig sein sollte. Beispielsweise könnte autorisierungsserver Token aus, die die Stellen Sie sicher, dass Benutzer aus einer bestimmten Skype für Business Server Bereich auf einem angegebenen Bereich von Exchange und umgekehrt zugreifen können.
   

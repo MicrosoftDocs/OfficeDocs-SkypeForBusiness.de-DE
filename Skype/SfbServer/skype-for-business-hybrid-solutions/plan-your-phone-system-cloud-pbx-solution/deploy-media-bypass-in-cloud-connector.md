@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema Weitere Informationen zu den Schritten zum Bereitstellen von, dass die medienumgehung mit Cloud Connector Edition, Version 2.0 und höher.
-ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839072"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296302"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Die medienumgehung in der Cloud Connector Edition bereitstellen
  
@@ -115,7 +115,7 @@ Außerdem muss ein Administrator die Webadressen für die Medienumgehung von int
 
 Clients erhalten die Webadresse des Medienumgehungs-Webdiensts von einem internen DNS-Server. Der Name des Webdiensts wird in allen Cloud Connector Appliances und Cloud Connector PSTN Websites übereinstimmen. In einer komplexen Umgebung mit mehreren Standorten empfehlen wir die Verwendung einer Windows 2016-DNS-Richtlinie für geolocationbasierte Verwaltung des Datenverkehrs, damit Clients an den für ihr Netzwerk lokalen Webdienst umgeleitet werden können. 
   
-Weitere Informationen zu Windows 2016 DNS-Richtlinien finden Sie unter [Verwendung DNS-Richtlinie für Geo-Location basierte Datenverkehr Management mit primären Servern](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
+Weitere Informationen zu Windows 2016 DNS-Richtlinien finden Sie unter [Verwendung DNS-Richtlinie für Geo-Location basierte Datenverkehr Management mit primären Servern](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location).
   
 Das folgende Beispiel zeigt eine Konfiguration für eine Firma mit mehreren Standorten, in der eine Windows 2016-DNS-Richtlinie für geolocationbasierte Verwaltung des Datenverkehrs verwendet wird.
   

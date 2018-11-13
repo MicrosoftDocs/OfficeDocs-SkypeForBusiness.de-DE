@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282957"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295288"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installieren von Microsoft Teams mithilfe eines MSI-Pakets
 =================================
@@ -63,20 +63,9 @@ Wenn ein Benutzer aus ihrem Benutzerprofil Teams deinstalliert, wird der MSI-Ins
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Automatisches Starten für die MSI-Installer deaktivieren
 
-Standardverhalten der die MSI-Datei ist, installieren Sie den Client Teams, sobald ein Benutzer anmeldet, und anschließend Teams automatisch starten. Sie können dieses Verhalten mit den Parametern unter wie folgt ändern:
+Wenn Sie Automatisches Starten deaktivieren möchten, geben Sie die folgende Befehlszeile:
 
-- Wenn ein Benutzer in Windows anmeldet, werden die Teams mit der MSI-Datei installiert werden
-- Jedoch wird der Client Teams nicht gestartet werden, bis der Benutzer Teams manuell gestartet wurde
-- Eine Verknüpfung zum Starten von Teams wird auf dem Desktop des Benutzers hinzugefügt werden
-- Nachdem manuell gestartet, Teams werden automatisch gestartet werden, wenn der Benutzer angemeldet
-
-Für 32-Bit-version
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-Für die 64-Bit-version
-```
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
-```
-> [!Note] 
->  Wenn Sie die MSI-Datei manuell ausführen, müssen Sie es mit erhöhten Berechtigungen ausführen. Auch wenn Sie es als Administrator Ausführen ohne mit erhöhten Berechtigungen ausführen, wird das Installationsprogramm nicht die Option zum Deaktivieren der automatischen Start konfiguriert sein.
+

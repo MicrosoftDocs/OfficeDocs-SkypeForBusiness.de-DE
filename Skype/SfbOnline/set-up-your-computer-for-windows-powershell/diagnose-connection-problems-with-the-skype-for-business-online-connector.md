@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: d377d234ff4242ac99d751b1c14d3270e1776c6c
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 576c7cb3cc083fcdf609419a45bf7fab7a64269b
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838768"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295896"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -112,7 +112,7 @@ Wenn Sie versuchen, eine Remoteverbindung mit Skype for Business Online herzuste
 
 Sie müssen Mitglied der Gruppe „Mandantenadministratoren" sein, um eine PowerShell-Remoteverbindung mit Skype for Business Online herzustellen. Wenn dies nicht der Fall ist, tritt beim Verbindungsversuch ein Fehler auf, und die folgende Fehlermeldung wird angezeigt:
 
-- **Fehler**: New-PSSession *: [admin.vdomain.com] Verarbeitung der Daten aus Remoteserver admin.vdomain.com konnte nicht mit die folgende Fehlermeldung angezeigt: der Benutzer 'user@foo.com' verfügt nicht über die Berechtigung zum Verwalten von diesen Mandanten. Berechtigungen können erteilt werden, indem Sie die entsprechenden RBAC-Rolle den Benutzer zuweisen. Weitere Informationen finden Sie unter der [Fehlersuche](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Fehler**: New-PSSession *: [admin.vdomain.com] Verarbeitung der Daten aus Remoteserver admin.vdomain.com konnte nicht mit die folgende Fehlermeldung angezeigt: der Benutzer 'user@foo.com' verfügt nicht über die Berechtigung zum Verwalten von diesen Mandanten. Berechtigungen können erteilt werden, indem Sie die entsprechenden RBAC-Rolle den Benutzer zuweisen. Weitere Informationen finden Sie unter der [Fehlersuche](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Lösung**: Wenn Sie annehmen, dass Sie sind, oder ein Mitglied der Gruppe Mandantenadministratoren werden sollen müssen Sie kontaktieren des Supports für Office 365.
   
@@ -121,7 +121,7 @@ Sie müssen Mitglied der Gruppe „Mandantenadministratoren" sein, um eine Power
 
 Damit Sie PowerShell mit Skype for Business Online verwalten können, muss die „EnableRemotePowerShellAccess"-Eigenschaft Ihrer PowerShell-Mandantenrichtlinie auf  `True` festgelegt sein. Wenn dies nicht der Fall ist, tritt bei der Verbindung ein Fehler auf, und die folgende Fehlermeldung wird angezeigt:
 
-- **Fehler**: New-PSSession *: [admin.vdomain.com] Verarbeitung der Daten aus Remoteserver admin.vdomain.com konnte nicht mit die folgende Fehlermeldung angezeigt: die Möglichkeit, verbinden Sie diesen Mandanten mithilfe einer remote-PowerShell-Sitzung deaktiviert wurde. Wenden Sie sich an Lync-Hilfe-Mandanten Powershell-Richtlinie von diesen Mandanten zu überprüfen. Weitere Informationen finden Sie unter der [Fehlersuche](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Fehler**: New-PSSession *: [admin.vdomain.com] Verarbeitung der Daten aus Remoteserver admin.vdomain.com konnte nicht mit die folgende Fehlermeldung angezeigt: die Möglichkeit, verbinden Sie diesen Mandanten mithilfe einer remote-PowerShell-Sitzung deaktiviert wurde. Wenden Sie sich an Lync-Hilfe-Mandanten Powershell-Richtlinie von diesen Mandanten zu überprüfen. Weitere Informationen finden Sie unter der [Fehlersuche](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Lösung**: Wenn diese Fehlermeldung angezeigt wird, müssen Sie zum Kontaktieren des Supports für Office 365 und erhalten Sie remote PowerShell-Zugriff aktiviert.
   
@@ -130,7 +130,7 @@ Damit Sie PowerShell mit Skype for Business Online verwalten können, muss die �
 
 Jeder Administrator darf maximal drei gleichzeitige Remoteverbindungen mit Skype for Business Online herstellen. Wenn drei PowerShell-Remoteverbindungen aktiv sind, tritt beim Versuch, eine vierte gleichzeitige Verbindung herzustellen, ein Fehler auf. Dabei wird die folgende Fehlermeldung angezeigt:
 
-- **Fehler**: New-PSSession *: [admin.vdomain.com] Herstellen einer Verbindung mit dem Remoteserver admin.vdomain.com konnte nicht mit die folgende Fehlermeldung angezeigt: der WS-Verwaltungsdienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen nutzt für diesen Benutzer wurde überschritten. Schließen Sie vorhandene nutzt oder lösen Sie das Kontingent für diesen Benutzer aus. Weitere Informationen finden Sie unter der [Remote Troubleshooting] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **Fehler**: New-PSSession *: [admin.vdomain.com] Herstellen einer Verbindung mit dem Remoteserver admin.vdomain.com konnte nicht mit die folgende Fehlermeldung angezeigt: der WS-Verwaltungsdienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen nutzt für diesen Benutzer wurde überschritten. Schließen Sie vorhandene nutzt oder lösen Sie das Kontingent für diesen Benutzer aus. Weitere Informationen finden Sie unter der [Remote Troubleshooting] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Lösung**: ist die einzige Möglichkeit zum Beheben dieses Problems, um eine oder mehrere der vorherigen Verbindungen zu schließen. Wenn Sie mit einer Skype for Business Online-Sitzung fertig sind, sollten Sie die Sitzung mit dem Cmdlet **Remove-PSSession** beenden. Damit können Sie das Problem vermeiden.
   
@@ -139,7 +139,7 @@ Jeder Administrator darf maximal drei gleichzeitige Remoteverbindungen mit Skype
 
 Obwohl jeder Administrator bis zu drei gleichzeitige Verbindungen mit einem Skype for Business Online-Mandanten verwenden kann, sind pro Mandant nicht mehr als neun gleichzeitige Verbindungen zulässig. So können beispielsweise drei Administratoren jeweils drei geöffnete Sitzungen haben. Wenn ein vierter Administrator eine Verbindung herzustellen versucht (sodass sich insgesamt zehn gleichzeitige Verbindungen ergeben), tritt ein Fehler auf, und die folgende Fehlermeldung wird angezeigt:
   
-- **Fehler**: New-PSSession *: [admin.vdomain.com] Herstellen einer Verbindung mit dem Remoteserver admin.vdomain.com konnte nicht mit die folgende Fehlermeldung angezeigt: der WS-Verwaltungsdienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen nutzt für diesen Mandanten wurde überschritten. Schließen Sie vorhandene nutzt, oder erhöhen Sie das Kontingent für diesen Mandanten. Weitere Informationen finden Sie unter der [Remote Troubleshooting] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
+- **Fehler**: New-PSSession *: [admin.vdomain.com] Herstellen einer Verbindung mit dem Remoteserver admin.vdomain.com konnte nicht mit die folgende Fehlermeldung angezeigt: der WS-Verwaltungsdienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen nutzt für diesen Mandanten wurde überschritten. Schließen Sie vorhandene nutzt, oder erhöhen Sie das Kontingent für diesen Mandanten. Weitere Informationen finden Sie unter der [Remote Troubleshooting] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
 - **Lösung**: ist die einzige Möglichkeit zum Beheben dieses Problems, um eine oder mehrere der vorherigen Verbindungen zu schließen. Wenn Sie mit einer Skype for Business Online-Sitzung fertig sind, sollten Sie die Sitzung mit dem Cmdlet **Remove-PSSession** beenden. Damit können Sie das Problem vermeiden.  
  

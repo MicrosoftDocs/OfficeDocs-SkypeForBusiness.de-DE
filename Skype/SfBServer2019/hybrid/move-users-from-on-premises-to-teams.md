@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Zusammenfassung: Informationen Sie zum Migrieren von benutzereinstellungen und Migrieren von Benutzern zu Teams.'
-ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
-ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
+ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25851483"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293565"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Verschieben von Benutzern von lokalen Teams
 
@@ -79,7 +79,7 @@ Wenn Ihre lokalen Benutzer lokale VoIP verfügen, haben Sie zwei Optionen:
 -  **Migrieren von Benutzern mit Telefoniefunktionen.** Benutzer können tätigen und Entgegennehmen von Anrufen über den Client Teams.  Sie können entweder Microsoft aufrufen planen direkte Routing oder Teams die Telefondienste Verbindung auswählen.  
 
     -  Planen der Aufruf von Microsoft bietet eine all-in-Cloud-VoIP-Lösung. Weitere Informationen zu Microsoft aufrufen planen finden Sie unter (Link bald verfügbar). 
-    -  Direktes Routing können Sie nahezu alle PSTN-Trunk verwenden, und Sie können Interoperabilität zwischen im Besitz des Kunden Telefoniegeräten und Microsoft Telefonsystem konfigurieren.  Weitere Informationen finden Sie unter [Planen der direkten Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) und [Direkte Routing konfigurieren](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
+    -  Direktes Routing können Sie nahezu alle PSTN-Trunk verwenden, und Sie können Interoperabilität zwischen im Besitz des Kunden Telefoniegeräten und Microsoft Telefonsystem konfigurieren.  Weitere Informationen finden Sie unter [Planen der direkten Routing](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) und [Direkte Routing konfigurieren](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
 
 -  **Migrieren von Benutzern ohne Telefoniefunktionen.** Wenn Sie Benutzer migrieren, ohne Telefoniefunktionen beizubehalten, stellen Sie sicher, dass Benutzer in der Cloud entsprechende Lizenzen haben. 
 
@@ -100,7 +100,7 @@ Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credent
 ($cred = Get-Anmeldeinformationen. Sie müssen Office 365-Admin-Anmeldeinformationen angeben.)
 
 > [!NOTE]
-> Dieser Befehl legt die TeamsUpgradePolicy TeamsOnly Modus. 
+> Dieser Befehl legt die TeamsInteropPolicy Teams und der TeamsUpgradePolicy TeamsOnly-Modus. 
  
 Nachdem der Wechsel zu Teams erfolgreich ist, wird Skype für Business-Client des Benutzers die folgende Meldung angezeigt: 
 

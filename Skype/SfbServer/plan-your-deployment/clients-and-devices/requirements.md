@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255772"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296358"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
 
@@ -26,9 +26,6 @@ Die Bereitstellung planungslösung Kontenerstellung gemäß der Beschreibung unt
 
 > [!NOTE]
 > Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen. <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
-
-> [!NOTE]
-> Wenn Sie einen Exchange-Server auf Prem verwenden, ist Skype Raum Systemen v2 die Verwendung von Exchange Server 2013 SP1 oder höher erforderlich.
 
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
 
@@ -42,11 +39,11 @@ Skype-Chatroom-Systemen v2 können anderen Raum Größen über Zubehör je nach 
 
 |Tablet|Prozessor|RAM|Festplatte|
 |:-----|:-----|:-----|:-----|
-|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
-|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
-|Surface Pro 4       |Core i5  |8GB  |256GB  |
 |Surface Pro 4       |Core i5  |4GB  |128GB  |
+|Surface Pro 4       |Core i5  |8GB  |256GB  |    
+|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
 
 > [!NOTE]
 > Core M3-Prozessoren werden nicht unterstützt.

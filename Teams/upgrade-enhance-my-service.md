@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 56c33c6c4a31da1fbfffbb903c2200cf4afedf07
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838935"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295153"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -34,7 +34,7 @@ Nachdem Sie erfolgreich Teams in Ihrer Organisation bereitgestellt haben und den
 
 Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben, erhalten bereitstellen regelmäßiger Updates von uns über neue und geänderte Features über unsere Nachrichtencenter Sie. 
 
-Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie von Ihren Benutzern und internen Champions Praxis Feedback optimal nutzen, durch die Einrichtung von Feedback Kanäle in Ihrer Organisation. Diese können werden informelle Unterhaltungen, regelmäßige Besprechungen oder durch eine Teams channel oder Yammer Community. 
+Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie von Ihren Benutzern und internen Champions Praxis Feedback optimal nutzen, durch die Einrichtung von Feedback Kanäle in Ihrer Organisation. Diese können informelle Unterhaltungen, regulären Meeetings werden oder durch eine Teams channel oder Yammer Community. 
 
 Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Unsere [Implementierungsphasen](quick-start-enable-teams.md) Laufe und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
 

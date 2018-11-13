@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde.
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839545"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295362"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
  
@@ -60,7 +60,7 @@ Für eine ordnungsgemäße Identitätssynchronisierung müssen die folgenden Att
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-Das [ausgewählte Konto Linkattribut](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) wird als Quelle Verankerung verwendet werden. Wenn Sie einen anderen und unveränderlich Attribut, die Sie verwenden möchten vorhanden, können Sie dies tun. Seien Sie sicher, dass die Regel der AD FS-Ansprüche bearbeiten, und wählen Sie das Attribut während der Konfigurations AAD verbinden.
+Das [ausgewählte Konto Linkattribut](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) wird als Quelle Verankerung verwendet werden. Wenn Sie einen anderen und unveränderlich Attribut, die Sie verwenden möchten vorhanden, können Sie dies tun. Seien Sie sicher, dass die Regel der AD FS-Ansprüche bearbeiten, und wählen Sie das Attribut während der Konfigurations AAD verbinden.
   
 Die UPNs zwischen den Gesamtstrukturen nicht synchronisiert. Wir haben bei Tests festgestellt, dass wir einen eindeutigen UPN für jede Benutzergesamtstruktur verwenden mussten, da derselbe UPN nicht über mehrere Gesamtstrukturen verwendet werden kann. Daraus ergaben sich zwei Möglichkeiten: den UPN zu synchronisieren oder ihn nicht zu synchronisieren. 
   
@@ -70,7 +70,7 @@ Die UPNs zwischen den Gesamtstrukturen nicht synchronisiert. Wir haben bei Tests
     
 ## <a name="create-an-office-365-tenant"></a>Erstellen eines Office 365-Mandanten
 
-Als Nächstes müssen Sie einen Office 365-Mandanten bereitstellen, der für Ihre Bereitstellung verwendet wird. Weitere Informationen finden Sie unter [Abonnements, Lizenzen, Konten, und Mandanten für Microsoft Cloud-angeboten](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Als Nächstes müssen Sie einen Office 365-Mandanten bereitstellen, der für Ihre Bereitstellung verwendet wird. Weitere Informationen finden Sie unter [Abonnements, Lizenzen, Konten, und Mandanten für Microsoft Cloud-angeboten](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Konfigurieren von Active Directory-Verbunddienste
 
@@ -106,7 +106,7 @@ Grünen hervorgehobenen Attribute von Office 365 zusammengeführt wurden, das Ge
   
 Dies ist ein Testbenutzer, und Sie können sehen, dass AAD verbinden die SourceAnchor und die CloudSourceAnchor vom Benutzer identifiziert wurde und die Ressource Gesamtstruktur Objekte von Office 365, in unserem Fall 1101, also die Hochkommas zuvor ausgewählt. Dieses Objekt konnte dann zu dem zusammengeführt werden, was Sie oben sehen. 
   
-Weitere Informationen finden Sie unter [integrieren Ihre lokale Verzeichnisse mit Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
+Weitere Informationen finden Sie unter [integrieren Ihre lokale Verzeichnisse mit Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
   
 Verbinden von AAD sollten unter Verwendung der Standardeinstellungen, mit Ausnahme der folgenden installiert sein: 
   
@@ -116,7 +116,7 @@ Verbinden von AAD sollten unter Verwendung der Standardeinstellungen, mit Ausnah
     
 3. Identifizieren von Benutzern in lokalen Verzeichnissen: Wählen Sie **Benutzeridentitäten über mehrere Verzeichnisse vorhanden sind**, und wählen Sie die **Objekt-SID** und **MsExchangeMasterAccountSID** Attribute.
     
-4. Identifizieren von Benutzern in Azure AD: Quelle Anker: Wählen Sie das Attribut, das Sie nach dem Lesen der [Auswahl eine gute SourceAnchor-Attributs](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), User Principal Name - **UserPrincipalName**ausgewählt haben.
+4. Identifizieren von Benutzern in Azure AD: Quelle Anker: Wählen Sie das Attribut, das Sie nach dem Lesen der [Auswahl eine gute SourceAnchor-Attributs](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), User Principal Name - **UserPrincipalName**ausgewählt haben.
     
 5.  Optionale Features: Wählen Sie aus, ob Sie Exchange Hybrid bereitgestellt haben.
     

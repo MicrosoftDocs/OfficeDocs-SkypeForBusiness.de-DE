@@ -13,20 +13,16 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85e7749bda08b1dbbf7a5afad5fc138facb62940
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 0c537f37534c616965b74f5ea268f547cff28d41
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038856"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294876"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice-Bereitstellung
 
 Microsoft-Teams, den Hub für Zusammenarbeit und Kommunikation in Office 365 und bietet nun Audiokonferenzen, Telefonsystem mit Aufrufen plant, und Telefonsystem direktes Routing-Funktionen, die durch die Erweiterung der Teams Besprechung zusätzliche unternehmensanforderungen zu erfüllen und Aufrufen von Erfahrung, um externen Teilnehmern über das öffentliche Telefonfestnetz (PSTN) verbunden sind.
-
-
-> [!Tip] 
-> Die folgenden Sitzung für eine Einführung in die Telefonsysteme Video: [Einführung in das Telefonsystem in Microsoft-Teams](https://aka.ms/teams-phone-system)
  
 Wir aktualisieren auf dieser Seite als zusätzliche Cloud VoIP-Funktionen für Teams über einen Zeitraum freigegeben werden.
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e335210a3d7b209984cee5319dd1e7e3b1bd24e4
-ms.sourcegitcommit: 0c360c68d7841e85b89e3d92baff80c42d685e81
+ms.openlocfilehash: 9bd95dc0d928a049adad06b43b9f6cacaf2c65d1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "25797319"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293580"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================
@@ -61,7 +61,7 @@ Einige Dinge bedenken:
 
       ![Screenshot zeigt ein Beispiel für eine Umschaltfläche AAD Einstellungen. ](media/guest-access-checklist-AADSettings1.png)
 
-    Zur Unterstützung der Gäste müssen **Mitglieder können einladen** auf **Ja**festgelegt werden. 
+    Mindestens zur Unterstützung von Gäste müssen **Mitglieder einladen können** auf **Ja**festgelegt werden. 
    
 > [!NOTE] 
 > Wenn Sie auf **Nein** festlegen **Mitglieder einladen können** und anschließend Gast Access in Office 365-Gruppen und Microsoft-Teams aktivieren, können Administratoren Gast Einladungen an Ihr Verzeichnis steuern. Nachdem Gäste im Verzeichnis vorhanden sind, können sie Teams von Membern von nicht-Administrator hinzugefügt werden, die Eigentümer Team sind.

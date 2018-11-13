@@ -13,12 +13,12 @@ description: Hier erfahren Sie, welche Daten und Berechtigungen Apps von Ihrer O
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 39c104d10e14e602da21761667312a917d9a9ce0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678402"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295767"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -97,7 +97,7 @@ Eine Registerkarte ist eine Website innerhalb Teams ausgeführt.
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
     <td valign="top">Keine (aktuell).</td>
-    <td valign="top"><ul><li>Das Risikoprofil für eine Registerkarte ist nahezu identisch, die gleichen Website in einer Registerkarte Browser ausgeführt. </li><li>Eine Registerkarte ruft auch den Kontext ab, in dem es & #39; s ausgeführt, den Anmeldenamen und UPN des aktuellen Benutzers, einschließlich der Azure AD-Objekt-ID für den aktuellen Benutzer, die die Office 365-Gruppe (Team) in der es sich befindet, die Mandanten-ID-ID , und das aktuelle Gebietsschema des Benutzers. Jedoch müsste zum Zuordnen dieser IDs, die ein Benutzer & #39; s Informationen, die Registerkarte der Benutzer für die Anmeldung bei Azure AD tätigen.</li></ul></td>
+    <td valign="top"><ul><li>Das Risikoprofil für eine Registerkarte ist nahezu identisch, die gleichen Website in einer Registerkarte Browser ausgeführt. </li><li>Eine Registerkarte ruft auch den Kontext ab, in dem er & #39; s ausgeführt, den Anmeldenamen und UPN des aktuellen Benutzers, einschließlich der Azure AD-Objekt-ID für den aktuellen Benutzer, die ID der Office 365 Gruppe in der sich befindet (wenn es sich um ein Team ist) , die Mandanten-ID und das aktuelle Gebietsschema des Benutzers. Jedoch müsste zum Zuordnen dieser IDs, die ein Benutzer & #39; s Informationen, die Registerkarte der Benutzer für die Anmeldung bei Azure AD tätigen.</li></ul></td>
   </tr>
   </table>
 

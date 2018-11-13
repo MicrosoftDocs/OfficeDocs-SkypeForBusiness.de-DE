@@ -1,27 +1,28 @@
 ---
-title: Repository-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server
+title: Repository-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
-description: 'Zusammenfassung: Informationen Sie zu der Repository-API für die Qualitätsdashboard Anruf. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: de933063e5768b12af5ae8dc678ec7aa2da5f168
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Zusammenfassung: Informationen Sie zu der Repository-API für die Qualitätsdashboard Anruf. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.'
+ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035556"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294429"
 ---
-# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Repository-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server
+# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Repository-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server 2015
  
-**Zusammenfassung:** Informationen Sie zu der Repository-API für Anrufqualität Dashboard. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Informationen Sie zu der Repository-API für Anrufqualität Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server 2015.
   
-Die Repository-API ermöglicht den programmgesteuerten Zugriff für die Qualitätsdashboard Aufrufen für Skype für Business Server.
+Die Repository-API ermöglicht den programmgesteuerten Zugriff für die Qualitätsdashboard Aufrufen für Skype für Business Server 2015.
   
 ## <a name="repository-api-for-call-quality-dashboard"></a>Repository-API für die Qualitätsdashboard Anruf
 

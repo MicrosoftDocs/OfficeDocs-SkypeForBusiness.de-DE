@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Bereitstellen von dem Tool SEFAUtil in Skype für Business Server ein.
-ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942807"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295888"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Das Tool SEFAUtil in Skype für Unternehmen bereitstellen
  
@@ -45,10 +45,6 @@ Sie können das Tool SEFAUtil in Ihrer Bereitstellung in einem beliebigen Front-
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
-    > [!NOTE]
-    > Pool-FQDN: Der FQDN des Servers oder Pools, der die SEFAUtil-Anwendung (normalerweise Skype für Business Front-End-Server oder Pool) gehostet wird.
-    > Pool Registrierungsstellen-FQDN: Der FQDN des der Skype für Business Front-End-Server oder Pool diesen Anwendungspool zugeordnet.
-    > Pool-Website: Der Site-ID der Website auf der in diesem Pool verwaltet wird.
 
 4. Definieren Sie das SEFAUtil-Tool als eine vertrauenswürdige Anwendung. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
     

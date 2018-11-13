@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Plan für die Implementierung von Mobilität für Skype für Business Server.
-ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 156731c765823b195ac1e78143eca91ceca9192d
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839381"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294606"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planen Sie für die Mobilität Skype für Business Server
  
@@ -233,7 +233,7 @@ Pushbenachrichtigungen werden für mobile Anwendungen verwendet, die diese Funkt
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>Möchten Sie alle Ihre Benutzer den Zugriff auf alle Features für Mobilität, oder möchten Sie die Benutzer angeben, die diese Funktionen stattdessen zugreifen können?
 
-Wir haben die Tabelle, die Ihnen bei der einige der Features, die für alle Benutzer verfügbar sind und als Standard verwenden, ob sie, wie oder nicht festgelegt sind. Die vollständige Liste finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+Wir haben die Tabelle, die Ihnen bei der einige der Features, die für alle Benutzer verfügbar sind und als Standard verwenden, ob sie, wie oder nicht festgelegt sind. Die vollständige Liste finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
   
 > [!NOTE]
 > Alle diese Funktionen gelten global, für bestimmte Standorte oder für bestimmte Benutzer. 

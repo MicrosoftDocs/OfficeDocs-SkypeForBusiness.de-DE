@@ -1,5 +1,5 @@
 ---
-title: Planen der Business Server für den Statistiken-Manager für Skype
+title: Plan for Statistics Manager for Skype for Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Zusammenfassung: Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server zu erfahren.'
-ms.openlocfilehash: b843cf44edf0c566a1c0a8a99a5ba9380d41c306
-ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
+description: 'Zusammenfassung: Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server 2015 zu erfahren.'
+ms.openlocfilehash: de4f2bedcbd03191b852366504423ebb031cf5f1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/13/2018
-ms.locfileid: "26292976"
+ms.locfileid: "26294479"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen der Business Server für den Statistiken-Manager für Skype
+# <a name="plan-for-statistics-manager-for-skype-for-business-server-2015"></a>Plan for Statistics Manager for Skype for Business Server 2015
 
-**Zusammenfassung:** Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server zu erfahren.
+**Zusammenfassung:** Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server 2015 zu erfahren.
 
  Statistiken-Manager für Skype für Business Server ist ein leistungsfähiges Tool, das Sie zum Anzeigen von Skype für Business Server Integrität und Leistung von Daten in Echtzeit ermöglicht. Sie können Leistungsdaten auf Hunderten von Servern kurzen Abständen Abfragen und sofort Anzeigen der Ergebnisse auf der Website Statistiken-Managers.
 
 Statistiken-Manager können Sie laufende Leistungsprobleme identifizieren, zeigen Sie die Ergebnisse einer geplanten Änderung für Ihre Umgebung, Nachverfolgen von Ausfällen Auflösung und vieles mehr. Sofort einsetzbar Statistiken Manager wird mit der Key Health Indicator (KHI) Schwellenwerte konfiguriert und eindeutige Bedürfnisse Ihrer Bereitstellung angepasst werden können.
 
-Sie können Statistiken Manager in einer lokalen Bereitstellung bereitstellen, in denen ein einzelner Server alle serverseitigen Statistiken Manager Komponenten hostet. Weitere Informationen zum Bereitstellen von Statistiken-Manager finden Sie unter [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md). Wenn Sie bereits über eine vorhandene Bereitstellung von Statistiken Manager verfügen, aber Sie noch nicht, Version 2.0 aktualisiert haben, finden Sie unter [Was ist neu in der Version 2.0](plan.md#BKMK_WhatsNew) und [Statistiken-Manager für Skype für Business Server aktualisieren](upgrade.md).
+Sie können Statistiken Manager in einer lokalen Bereitstellung bereitstellen, in denen ein einzelner Server alle serverseitigen Statistiken Manager Komponenten hostet. Weitere Informationen zum Bereitstellen von Statistiken-Manager finden Sie unter [Bereitstellen von Statistiken Manager für Skype für Business Server 2015](deploy.md). Wenn Sie bereits über eine vorhandene Bereitstellung von Statistiken Manager verfügen, aber Sie noch nicht, Version 1.1 aktualisiert haben, finden Sie unter [Was ist neu in Version 1.1](plan.md#BKMK_WhatsNew) und [Statistiken-Manager für Skype für Business Server 2015 aktualisieren](upgrade.md).
 
 Dieses Thema enthält die folgenden Abschnitte:
 
-- [Features und Funktionen](plan.md#BKMK_Features)
+- [Features und Funktionen](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
 
-- [Was ist neu in der Version 2.0](plan.md#BKMK_WhatsNew)
+- [Was ist neu in Version 1.1](plan.md#BKMK_WhatsNew)
 
-- [Komponenten](plan.md#BKMK_Components)
+- [Komponenten](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
 
 - [Lokale Bereitstellung](plan.md#BKMK_DeploymentOptions)
 
-- [Anforderungen](plan.md#BKMK_Requirements)
+- [Anforderungen](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
 
 - [Hinweise zur Sicherheit](plan.md#BKMK_Security)
 
@@ -77,14 +77,16 @@ Statistiken-Manager können Sie:
 
   - KHI Ansichtsdefinitionen
 
-## <a name="whats-new-in-release-20"></a>Was ist neu in der Version 2.0
+## <a name="whats-new-in-release-11"></a>Was ist neu in Version 1.1
 <a name="BKMK_WhatsNew"> </a>
 
-Im folgenden wird beschrieben, was ist neu in der Version 2.0. Wenn Sie eine vorhandene Bereitstellung von Statistiken Manager und Sie noch nicht aktualisiert haben, finden Sie unter [Statistics-Manager für Skype für Business Server aktualisieren](upgrade.md).
+Im folgenden wird beschrieben, was ist neu in Version 1.1. Wenn Sie eine vorhandene Bereitstellung von Statistiken Manager und Sie noch nicht aktualisiert haben, finden Sie unter [Upgrade-Statistiken-Manager für Skype für Business Server 2015](upgrade.md).
 
 - Szenario Ansichten wurden für Edgemedien, Fabric-Zustand, Failover und Registrierung Szenarien hinzugefügt.
 
-- Viele neue Leistungsindikatoren für SQL Server, weitere Skype für Leistungsindikatoren für die Business hinzugefügt wurden und so weiter.
+- Befehlszeile PerfAgentStorageManager.exe (mit dem Listener installiert) können jetzt Leistungsindikatordaten als eine CSV-Datei exportieren.
+
+- Viele neue Leistungsindikatoren für SQL Server, Windows Fabric-Indikatoren mehr, weitere Skype für Leistungsindikatoren für die Business hinzugefügt wurden und so weiter.
 
 - Watcher-Knoten-Integration für den Statistiken Manager-Agent - Wenn der Agent, auf einem Watcher-Knoten installiert ist wird synthetische Transaktion Statistiken als Leistungsindikatoren zu Statistiken Manager gemeldet werden.
 
@@ -129,7 +131,7 @@ Sie müssen die folgenden Anforderungen Software, Netzwerk und Hardware berücks
 
 ### <a name="software-requirements"></a>Softwareanforderungen
 
-- WindowsServer 2016 und 2019
+- Windows Server 2012 R2
 
 - IIS (automatisch installiert)
 
@@ -139,7 +141,9 @@ Sie müssen die folgenden Anforderungen Software, Netzwerk und Hardware berücks
 
 - PSExec - remote-Agent-Bereitstellung Aktionen erforderlich
 
-- .NET 4.5 (mit 2012 R2 enthalten) - Agents und serverseitige Komponenten erforderlich
+- .NET 4.5 (mit 2012 R2 enthalten) – erforderlich für serverseitige Komponenten
+
+- .NET 4.0 - für Agents erforderlich
 
 ### <a name="networking-requirements"></a>Netzwerkanforderungen
 
@@ -176,12 +180,12 @@ Der gesamte Datenverkehr zwischen Servern wird verschlüsselt.
 
 Weitere Informationen finden Sie unter den folgenden Themen:
 
-- [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
 
-- [Aktualisieren von Statistiken Manager für Skype für Business Server](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
 
-- [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
 
-- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
+- [Blog zu Statistics Manager für Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
 
 

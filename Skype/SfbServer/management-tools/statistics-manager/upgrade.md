@@ -1,5 +1,5 @@
 ---
-title: Aktualisieren von Statistiken Manager für Skype für Business Server
+title: Aktualisieren von Statistics Manager für Skype for Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server zu aktualisieren.'
-ms.openlocfilehash: 3e63210d75b7fa89bb125e990eb1cbc7c37427d4
-ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
+description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server 2015 zu aktualisieren.'
+ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/13/2018
-ms.locfileid: "26292990"
+ms.locfileid: "26295706"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistiken Manager für Skype für Business Server
+# <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Upgrade Statistics Manager for Skype for Business Server 2015
  
-**Zusammenfassung:** Gelesen Sie in diesem Thema erfahren, wie ein Upgrade Statistiken Manager für Skype für Business Server.
+**Zusammenfassung:** Gelesen Sie in diesem Thema erfahren, wie ein Upgrade Statistiken Manager für Skype für Business Server 2015.
   
 In diesem Thema wird beschrieben, wie zum Aktualisieren einer vorhandenen Installation von Statistiken Manager für Skype für Business Server – ein leistungsfähiges Tool, das Sie zum Anzeigen von Skype für Business Server Integrität und Leistung von Daten in Echtzeit ermöglicht. Sie können Leistungsdaten auf Hunderten von Servern kurzen Abständen Abfragen und sofort Anzeigen der Ergebnisse auf der Website Statistiken-Managers. 
   
-Weitere Informationen zu Statistiken Manager und die neuen Features in Version 2.0 finden Sie unter [für Statistiken Manager für Skype für Business Server planen](plan.md) und [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md).
+Weitere Informationen zu Statistiken Manager und die neuen Features in Version 1.1 finden Sie unter [für Statistiken Manager für Skype für Business Server 2015 planen](plan.md) und [Bereitstellen von Statistiken Manager für Skype für Business Server 2015](deploy.md). Informationen zu bekannten Problemen, die in Version 1.1 behoben sind, finden Sie unter [Bekannte Probleme, die in Version 1.1 behoben wurden](upgrade.md#BKMK_Fixed).
   
 Es gibt zwei Verfahren für die Aktualisierung:
   
@@ -100,19 +100,35 @@ Sollte aus irgendeinem Grund die automatisierte Aktualisierung fehlschlagen, kö
     >   Lassen Sie Redis installiert, damit die Daten im Cache während des Aktualisierungsverfahrens erhalten bleiben.
   
 2. 	Installieren Sie die neuen Versionen der Komponenten einschließlich der oben gespeicherten Werte, wenn Sie dazu aufgefordert werden. Weitere Informationen zum Installieren von Komponenten finden Sie unter [Deploy Statistics Manager](deploy.md#BKMK_Deploy).
+    
+## <a name="known-issues-fixed-in-release-11"></a>Bekannte Probleme, die in Version 1.1 behoben wurden
+<a name="BKMK_Fixed"> </a>
 
+Die folgenden bekannten Probleme wurden in der Version 1.1 behoben:
+  
+- Benutzeroberfläche/Server/Agent - zahlreiche erhebliche Zuverlässigkeit und Leistung bei
+    
+- UI - Main Filtersteuerelement jetzt sortiert ordnungsgemäß mit anderen Fällen (wurde, führt Personen vorstellen bestimmte Servern im System nicht waren, wenn ihr Gesprächspartner direkt)
+    
+- Server – Serverkomponenten werden jetzt auch auf nicht englischsprachigen Servern installiert.
+    
+- Server/Agent – In einigen Fällen wurden Agent- und Serverkomponenten im Zusammenhang mit .NET-Fehlern in Bezug auf eine bestimmte Version von .NET 4.0 nicht installiert. Dieser Fehler wurde behoben.
+    
+- Agent - erweiterte Protokollierung für den StatsMan Agent hinzugefügt. Der Agent wird nicht mehr bei der Installation auf einem Server nicht in der Topologie abstürzen, dies wird jetzt im Ereignisprotokoll zusammen mit zahlreichen möglichen fehlerbedingungen protokolliert werden.
+    
+- UI - Webclients mithilfe des Chrome-Browsers würde mehrere Anmeldung fordert sehen, wenn mit einem Clientcomputer nicht mit der gleichen Arbeitsgruppe oder Domäne als Statistiken Manager Webserver verbunden. Jetzt sollte pro Sitzung nur eine einzige Anmeldung notwendig sein.
     
 ## <a name="for-more-information"></a>Weitere Informationen
 <a name="BKMK_Fixed"> </a>
 
 Weitere Informationen finden Sie unter den folgenden Themen:
   
-- [Planen der Business Server für den Statistiken-Manager für Skype](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
     
-- [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
-- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
+- [Blog zu Statistics Manager für Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

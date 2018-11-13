@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Problembehandlung bei der Cloud Connector Edition-Bereitstellung.
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838621"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295471"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Problembehandlung bei Ihrer Cloud Connector-Bereitstellung
  
@@ -222,7 +222,7 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Führen Sie das Exit-CcUpdate-Cmdlet, um Dienste starten und Beenden im Wartungsmodus befindet.
+3. Führen Sie das Cmdlet „Exit-CcUpdate“ aus, um Dienste zu starten und den Wartungsmodus zu beenden.
     
 4. Führen Sie das Cmdlet „Export-CcRootCertificate“ für die lokale Datei in der Appliance aus. Kopieren Sie dann das exportierte Zertifikat, und installieren Sie es in Ihren PSTN-Gateways. 
     
