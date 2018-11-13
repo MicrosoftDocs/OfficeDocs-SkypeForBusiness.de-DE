@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11865d4e4258be9df2d3a8201945bffbc9117b67
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.openlocfilehash: bd69ba3592b23acdc963b8438e35ef998a3ceec1
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238098"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255741"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft-Teams
 
@@ -25,7 +25,7 @@ Verwenden Sie Wenn Sie ein kleines Unternehmen sind oder Einführung Teams begin
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -177,6 +177,7 @@ Annahme Pläne können einfache und komplexe entsprechend Ihrer Umgebung entspre
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Dieses Ergebnis und der Erfolg definieren</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimieren der Leistung von Feedback und Berichte</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Laufwerk zur Förderung des Bekanntheitsgrads und Schulungen zu implementieren</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Planen der Service Health Reviews (engl.)</a></p>
                     </div>
                 </div>
             </div>
