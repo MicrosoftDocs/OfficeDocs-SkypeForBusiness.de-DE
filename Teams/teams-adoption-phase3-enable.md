@@ -16,11 +16,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0520bfcc230cbae7d01156b2d5c2867f49ce4547
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215853"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519860"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft-Teams Annahme Phase 3 - Skalierung
 

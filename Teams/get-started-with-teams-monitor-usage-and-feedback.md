@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283139"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519864"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen der Nutzung und Feedback im Microsoft-Teams
 Es ist wichtig, zu wissen, wie Teams von Benutzern verwendet wird und was ihre Erfahrung mit Teams ist. Verwendungsberichte können Ihnen besser verstehen Verwendungsmuster und zusammen mit Benutzerfeedback, Ihnen Insights nahezubringen breiter und wo Schulung und Kommunikation Maßnahmen priorisieren informiert.
