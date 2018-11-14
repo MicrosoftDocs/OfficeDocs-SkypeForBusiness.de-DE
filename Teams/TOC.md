@@ -1,8 +1,12 @@
 <!-- ============================================================ -->
-# Erste Schritte
-
-## [Übersicht über Microsoft Teams](Teams-overview.md)
-## [Tools und Workshops: Planen, Bereitstellen und Ausführen von Microsoft Teams](planning-workshop-practical-guide.md)
+# [Willkommen bei Microsoft Teams](teams-overview.md)
+<!-- ============================================================ -->
+# [Erste Schritte](get-started-with-teams-landing-page.md)
+## [Schnellstart - Teams](get-started-with-teams-quick-start.md)
+## [Erstellen Sie Ihre erste Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Integrierte frühe Übernahmen](get-started-with-teams-onboard-early-adopters.md)
+## [Überwachung der Nutzung und feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Wo Sie weiter](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [Holen Sie sich Hilfe in Microsoft-Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
@@ -20,10 +24,28 @@
 ## [Planen der Lebenszyklusverwaltung in Microsoft Teams](plan-teams-lifecycle.md)
 ## [Planen der Steuerung in Teams](plan-teams-governance.md)
 ## [Planen von Microsoft 365 Government - GCC-Bereitstellungen](plan-for-government-gcc.md)
-## [Erstellen der Änderung-Strategie](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [Übernehmen](adopt-microsoft-teams-landing-page.md) 
 
+## [Erste Schritte](teams-adoption-get-started.md)
+## [Phase 1: Start](teams-adoption-phase1.md)
+### [Grundlegendes zu Teams und Kanäle](teams-adoption-understand-teams-and-channels.md)
+### [Erstellen Sie Ihre erste teams](teams-adoption-your-first-teams.md)
+### [Wie bereit ist Ihre Organisation für Teams?](teams-adoption-assess-readiness.md)
+## [Phase 2: Experiments](teams-adoption-phase2-experiment.md)
+### [Ihr Programm Champions erstellen](teams-adoption-create-champions-program.md)
+### [Governance Schnellstart](teams-adoption-governance-quick-start.md)
+### [Definieren der Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)
+### [Integrierte frühe Übernahmen und Feedback sammeln](teams-adoption-onboard-early-adopters.md)
+### [Integrierte Unterstützung](teams-adoption-onboard-support.md)
+## [Phase 3: Skalierung](teams-adoption-phase3-enable.md)
+### [Definieren von Ergebnissen und Erfolg](teams-adoption-define-outcomes.md)
+### [Optimieren der Leistung von Feedback und Berichte](teams-adoption-optimize-feedback-and-reporting.md)
+### [Laufwerk zur Förderung des Bekanntheitsgrads und Schulungen zu implementieren](teams-adoption-drive-awareness.md)
+### [Planen der Service Health Reviews (engl.)](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Konfigurieren und bereitstellen
@@ -127,9 +149,10 @@
 ## Monitor Anrufqualität und QoS
 ### [QoS in Microsoft Teams](QoS-in-Teams.md)
 ### [Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Einrichten von Anrufen Analytics](set-up-call-analytics.md)
 ### [Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Aktivieren und Verwenden des Anrufqualitäts-Dashboards](turning-on-and-using-call-quality-dashboard.md)
+### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Datenstromklassifizierung im Anrufqualitäts-Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## Problembehandlung und Support
 ### [Bekannte Probleme für Microsoft Teams](Known-issues.md)

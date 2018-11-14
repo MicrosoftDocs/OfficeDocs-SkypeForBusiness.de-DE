@@ -15,14 +15,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374650"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510668"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren der Weiterleitung von direkten
+
+> [!Tip]
+> Sehen Sie sich die folgenden Sitzung Informationen zu den Vorteilen von Direct Routing, wie es geplant und wie diese bereitgestellt: [Direktes Routing in Microsoft-Teams](https://aka.ms/teams-direct-routing)
 
 Wenn Sie dies nicht bereits geschehen ist, lesen [Planen direkten Routing](direct-routing-plan.md) für erforderliche Komponenten und zum Überprüfen der anderen Schritte müssen Sie ergreifen, bevor Sie das Telefonsystem Microsoft-Netzwerk konfigurieren. 
 
@@ -101,17 +104,17 @@ Es sind zusätzliche Optionen, die während der Paarung festgelegt werden könne
  
 Die folgende Tabelle enthält die zusätzlichen Parameter, die Sie beim Einrichten von Parametern für *Neu CsOnlinePstnGateway*verwenden können. 
 
-|Erforderlich?|Name|Beschreibung|Standard|Mögliche Werte|Typ und Einschränkungen|
+|Erforderlich?|Name|Beschreibung|Default (Standard)|Mögliche Werte|Typ und Einschränkungen|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Ja|FQDN|Den Vollqualifizierten Domänennamen der SBC |Keine|NoneFQDN Name, Grenzwert 63 Zeichen|Zeichenfolge, die Liste der zulässigen / nicht zulässigen Zeichen auf [Namenskonventionen in Active Directory für Computer, Domänen, Sites und OUs](https://support.microsoft.com/help/909264)|
-|Nein|MediaBypass |Der Parameter für die zukünftige Verwendung reserviert. Unterstützt die Medienumgehung der Parameter angegeben, der die SBC und der Administrator möchte, um es zu verwenden.|Keine|True<br/>False|Boolescher Wert|
+|Nein|MediaBypass |Der Parameter für die zukünftige Verwendung reserviert. Unterstützt die Medienumgehung der Parameter angegeben, der die SBC und der Administrator möchte, um es zu verwenden.|Keine|True<br/>Falsch|Boolescher Wert|
 |Ja|SipSignallingPort |Überwachungsport für die Kommunikation mit direktem Routing Services mithilfe des Protokolls Transport Layer Security (TLS) verwendet.|Keine|Alle Ports|zwischen 0 und 65535 |
-|Nein|FailoverTimeSeconds |Bei Festlegung auf 10 (Standardwert), ausgehende Anrufe, die vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden an den nächsten verfügbaren Trunk weitergeleitet werden; Wenn keine zusätzlichen Trunks vorhanden sind, wird der Anruf automatisch gelöscht. In einer Organisation mit langsamen Netzwerken und Gateway Antworten möglich, die potenziell Anrufe unnötig gelöscht wird. Der Standardwert ist 10.|10|Number|Int|
-|Nein|ForwardCallHistory |Gibt an, ob Informationen zum Anrufverlauf durch den Trunk weitergeleitet werden. Falls aktiviert, sendet der Office 365-PSTN-Proxy zwei Header: "History-Info" und weitergeleitet durch. Der Standardwert ist **"false"** ($False). |False|True<br/>False|Boolescher Wert|
-|Nein|ForwardPAI|Gibt an, ob der PAI-Header (P-Asserted-Identity) zusammen mit dem Anruf weitergeleitet wird. Mit dem PAI-Header lässt sich die Identität des Anrufers überprüfen. Der Standardwert ist **"false"** ($False).|False|True<br/>False|Boolescher Wert|
-|Nein|SendSIPOptions |Legt fest, ob ein SBC wird oder die SIP-Optionen wird nicht gesendet. Wenn deaktiviert, wird der SBC aus der Überwachung und Warnung System ausgeschlossen werden. Es wird dringend empfohlen, dass Sie SIP-Optionen aktivieren. Standardwert ist **True**. |True|True<br/>False|Boolescher Wert|
+|Nein|FailoverTimeSeconds |Bei Festlegung auf 10 (Standardwert), ausgehende Anrufe, die vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden an den nächsten verfügbaren Trunk weitergeleitet werden; Wenn keine zusätzlichen Trunks vorhanden sind, wird der Anruf automatisch gelöscht. In einer Organisation mit langsamen Netzwerken und Gateway Antworten möglich, die potenziell Anrufe unnötig gelöscht wird. Der Standardwert ist 10.| 10|Zahl|Int|
+|Nein|ForwardCallHistory |Gibt an, ob Informationen zum Anrufverlauf durch den Trunk weitergeleitet werden. Falls aktiviert, sendet der Office 365-PSTN-Proxy zwei Header: "History-Info" und weitergeleitet durch. Der Standardwert ist **"false"** ($False). |Falsch|True<br/>Falsch|Boolescher Wert|
+|Nein|ForwardPAI|Gibt an, ob der PAI-Header (P-Asserted-Identity) zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen. Der Standardwert ist **"false"** ($False).|Falsch|True<br/>Falsch|Boolescher Wert|
+|Nein|SendSIPOptions |Legt fest, ob ein SBC wird oder die SIP-Optionen wird nicht gesendet. Wenn deaktiviert, wird der SBC aus der Überwachung und Warnung System ausgeschlossen werden. Es wird dringend empfohlen, dass Sie SIP-Optionen aktivieren. Standardwert ist **True**. |True|True<br/>Falsch|Boolescher Wert|
 |Nein|MaxConcurrentSessions |Wird vom System Warnungen verwendet. Wenn Sie einen beliebigen Wert festgelegt ist, generieren Alarm System eine Benachrichtigung an den mandantenadministrator wird die Anzahl der gleichzeitigen Sitzung 90 % oder höher ist als dieser Wert. Wenn der Parameter nicht festgelegt ist, werden keine Benachrichtigungen generiert. Jedoch meldet das System der Überwachung Anzahl gleichzeitiger Sitzungen alle 24 Stunden. |NULL|NULL<br/>1 bis 100.000 ||
-|Nein|Aktiviert *|Zum Aktivieren dieser SBC für ausgehende Anrufe verwendet. Kann verwendet werden, um die SBC vorübergehend zu entfernen, während er aktualisiert wird oder während der Wartung. |False|True<br/>False|Boolescher Wert|
+|Nein|Aktiviert *|Zum Aktivieren dieser SBC für ausgehende Anrufe verwendet. Kann verwendet werden, um die SBC vorübergehend zu entfernen, während er aktualisiert wird oder während der Wartung. |Falsch|True<br/>Falsch|Boolescher Wert|
  
 ### <a name="verify-the-sbc-pairing"></a>Überprüfen Sie die SBC-Verbindung 
 

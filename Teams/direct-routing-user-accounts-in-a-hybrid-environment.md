@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Informationen Sie zu verschiedenen Kombinationen der Erstellung des Benutzers und welche Kombinationen unterstützt oder nicht unterstützt werden.
-ms.openlocfilehash: f6662a6a61e34a691cc058f20c356720a61dab54
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f742efc18de05997f73a33b96800cc10a9a9d124
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678410"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510622"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybridumgebung mit PSTN-Anbindung
 
@@ -69,7 +69,4 @@ Eine Skype für Business-hybridumgebung mit PSTN-Anbindung bietet Flexibilität 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Support-Anweisung für die hybridumgebung mit PSTN
 
-Für alle Benutzer, der Benutzer-Objekts **muss** erstellt werden, in der lokalen AD und synchronisiert auf Azure Active Directory mit dem Tool Azure Active Directory verbinden. Aktivieren von Benutzern für Teams/Skype für Business **wird nicht unterstützt** , wenn das Benutzerobjekt direkt in Azure AD in einer hybridkonfiguration erstellt wird. Für neue Benutzer, wie eine neue Mitarbeiter, wer direkt für Teams aktiviert wird, muss der Benutzer zunächst in Skype für Unternehmen lokal verwaltet werden und mit der online-Registrierung verschoben. Erstellen von Benutzern in online Skype für Geschäftskunden und Teams ohne ersten ermöglicht es ihnen im lokalen Pool mit Enterprise-VoIP **wird nicht unterstützt**.
-  
-
-Der Benutzer muss für Skype für Unternehmen aktiviert sein und mit Enterprise-VoIP lokale Skype für Business Benutzer-Verwaltungstools. Aktivieren von Benutzern für Skype für Business online nur **nicht unterstützt wird**. Zum Aktivieren von Benutzern für Skype für Unternehmen in hybridkonfiguration finden Sie [in diesem Artikel](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) finden Sie weitere Details.
+Für alle Benutzer, der Benutzer-Objekts **muss** erstellt werden, in der lokalen AD und synchronisiert auf Azure Active Directory mit dem Tool Azure Active Directory verbinden. Aktivieren von Benutzern für Teams/Skype für Business **wird nicht unterstützt** , wenn das Benutzerobjekt direkt in Azure AD in einer hybridkonfiguration erstellt wird. Für neue Benutzer, wie eine neue Mitarbeiter, wer direkt für Teams aktiviert wird, muss der Benutzer für Skype für Unternehmen für die Business-Verwaltungstools lokal Skype verwenden aktiviert sein. Erstellen von Benutzern in online Skype für Geschäftskunden und Teams ohne ersten ermöglicht es ihnen im lokalen Pool mit Enterprise-VoIP **wird nicht unterstützt**. Zum Aktivieren von Benutzern für Skype für Unternehmen in hybridkonfiguration finden Sie [in diesem Artikel](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) finden Sie weitere Details.

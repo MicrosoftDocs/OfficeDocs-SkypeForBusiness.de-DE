@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lesen Sie dieses Thema bietet Informationen zum Skype Raum Systemen v2 mit Office 365 bereitstellen.
-ms.openlocfilehash: 7b3afbb0dbefb29a5cef7a9729254c1024c0369f
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39f443acb6a0757539ee69cd5586daed09345e05
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699616"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510660"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Bereitstellen von Skype Room Systems v2 mit Office 365 
 
@@ -149,7 +149,7 @@ Nachdem Sie die vorhergehenden Schritte zum Aktivieren der Erstellung Ihres Kont
 
 4. Klicken Sie auf die Option **Lizenzen**.
 
-5. Klicken Sie im Abschnitt **Lizenzen zuweisen** müssen Sie Skype für Business Online (Plan 2) oder Skype auswählen, für Business Online (Plan 3), je nach Ihrer Lizenzierung und was Sie entschieden haben, im Hinblick auf Enterprise-VoIP benötigen. Sie müssen eine Lizenz planen 3 verwenden, wenn Sie auf Skype Raum Systemen v2 Cloud Nebenstellenanlage verwenden möchten. Minimal benötigen Sie CloudPBX für VoIP-Konnektivität. Konfigurieren Sie anschließend Hybrid-VoIP oder PSTN-Basis für die PSTN-Konnektivität-Methode aufrufen.
+5. Klicken Sie im Abschnitt **Lizenzen zuweisen** müssen Sie Skype für Business Online (Plan 2) oder Skype auswählen, für Business Online (Plan 3), je nach Ihrer Lizenzierung und was Sie entschieden haben, im Hinblick auf Enterprise-VoIP benötigen. Sie müssen eine Lizenz planen 3 verwenden, wenn Sie auf Skype Raum Systemen v2 Cloud Nebenstellenanlage verwenden möchten. Minimal benötigen Sie CloudPBX für VoIP-Konnektivität. Konfigurieren Sie anschließend Hybrid-VoIP oder PSTN-Basis für die PSTN-Konnektivität-Methode aufrufen. Einzelheiten finden Sie unter [Skype Raum Systemen v2 Lizenzen](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) .
 
 6. Klicken Sie auf **Speichern**, um die Aufgabe abzuschließen.
 
