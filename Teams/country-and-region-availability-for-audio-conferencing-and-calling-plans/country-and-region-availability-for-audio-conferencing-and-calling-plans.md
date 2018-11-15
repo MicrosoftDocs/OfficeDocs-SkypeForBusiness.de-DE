@@ -28,18 +28,18 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: d669e6a64efe3d31b7259a3c7f7eabd447d95a65
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: 8c0e287671e3131ed9b155205e90ebe6456a743b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502366"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531175"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
 Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud VoIP-Funktionen für Ihre Organisation verfügbar sind.
 ***
-## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Wählen Sie Ihr Land oder Ihre Region angezeigt, was für Ihre Organisation verfügbar ist!
+## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Wählen Sie Ihr Land oder Ihre Region angezeigt, was für Ihre Organisation verfügbar ist
 
 > [!div class="op_single_selector"]    
 > - [Argentinien](availability-in-argentina.md)

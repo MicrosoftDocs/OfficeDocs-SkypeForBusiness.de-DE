@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Verwalten von Windows-Updates für Skype Raum Systemen v2
-ms.openlocfilehash: 5765f99a247edcb6287878d4cda1154ec00782f4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294167"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532140"
 ---
 # <a name="manage-windows-updates"></a>Verwalten von Windows-Updates
 
@@ -30,13 +30,13 @@ Windows-Updates können in unterschiedliche Weise verwaltet werden:
 - Qualität Updates und Treiber werden automatisch heruntergeladen und installiert ersten Tag. 
 - Feature-Updates. Finden Sie zusätzliche Hinweise unten. 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows-Updates für Unternehmen](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb) (Gruppenrichtlinienobjekt oder Intune)   
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows-Updates für Unternehmen](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (Gruppenrichtlinienobjekt oder Intune)   
 - Updates werden von WU oder Ihre WSUS jedoch mit konfigurierten Verzögerungen über die KB ursprüngliche Version Datum heruntergeladen. 
 - In Kombination mit mehreren Organisationseinheit oder gefiltert Richtlinien, dies ermöglicht die Erstellung von Bereitstellung "Klingeltöne", wobei Administratoren festlegen können, welche Geräte Qualität Updates installieren und die Schriftarten später installieren werden. Dies ermöglicht Zuverlässigkeit und Leistung auf eine Teilmenge von Systemen vor der Einführung der Updates über die gesamte Bereitstellung der Mehraufwand von Verwalten von Windows-Updates in SCCM beispielsweise testen.
-- WSUS und Windows-Updates für Business kann sein, dass [gleichzeitig konfiguriert](https://docs.microsoft.com/en-us/windows/deployment/update/waas-integrate-wufb) , falls bandbreitenverwaltung und das Windows-Updates für Business-Steuerelement gewünscht enthält.
+- WSUS und Windows-Updates für Business kann sein, dass [gleichzeitig konfiguriert](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) , falls bandbreitenverwaltung und das Windows-Updates für Business-Steuerelement gewünscht enthält.
 - Feature-Updates. Finden Sie zusätzliche Hinweise unten.
 
-## <a name="wsussccmhttpsdocsmicrosoftcomen-uswindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - Ähnlich wie bei Windows Update für Unternehmen, wobei jedoch die Option weitere der Zielgruppenadressierung bestimmte KB innerhalb jedes "Anrufen" oder die gesamte Bereitstellung. Jedes Update kann einzeln bereitgestellt und getestet werden, anstatt sich auf nur eine Verzögerung zu verlassen. 
 - Feature-Updates. Finden Sie zusätzliche Hinweise unten.
 

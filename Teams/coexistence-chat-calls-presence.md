@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e0d6e4ad171ffc99e1f0aaa1c3b93e0fd61443bc
-ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238106"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26535919"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype für Unternehmen
 

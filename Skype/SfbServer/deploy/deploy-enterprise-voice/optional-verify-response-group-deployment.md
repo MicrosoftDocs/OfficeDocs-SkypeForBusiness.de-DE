@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Überprüfen Sie Ihren Erfolg Response Group Bereitstellung in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295160"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532176"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Optional) Vergewissern Sie sich reaktionsgruppenbereitstellung in Skype für Unternehmen
  
@@ -38,5 +38,8 @@ Nachdem Sie die Reaktionsgruppe konfigurieren, müssen Sie überprüfen Sie die 
 - Der externe Benutzer ruft die Reaktionsgruppe an.
     
 - Ein Benutzer ruft die Reaktionsgruppe an, während der Agent sich in einem Gespräch befindet; der Benutzer wird in der Warteschleife platziert.
+
+    > [!NOTE]
+    > Wenn die reaktionsgruppe nicht wie funktioniert erwartet überprüfen Sie Link "Nächste":https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

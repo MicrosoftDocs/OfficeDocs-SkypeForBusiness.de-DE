@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Informationen Sie zu mehreren PSTN-Websites in der Cloud Connector Edition bereitstellen.
-ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295713"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532369"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Bereitstellen mehrerer Standorte in Cloud Connector
  
@@ -78,6 +78,7 @@ In der folgenden Tabelle sind die Unterschiede zwischen der Bereitstellung an ei
   
 |**Kategorie**|**Element**|**Einzelner Standort mit hoher Verfügbarkeit**|**Mehrere Standorte**|
 |:-----|:-----|:-----|:-----|
+|Konfigurieren  <br/> |Hostname des Geräts <br/> |**Unterschiedlich** für alle Appliances <br/> |**Unterschiedlich** für alle PSTN-Standorte <br/> |
 |Installationsanforderungen  <br/> |Freigegebener Ordner  <br/> |Erfordert den **gleiche** freigegebenen Ordner mehreren appliances <br/> |Benötigt für jede Appliance einen **unterschiedlichen** freigegebenen Ordner. <br/> |
 |Konfigurieren  <br/> |VirtualMachineDomain  <br/> |Benötigt für alle Appliances **dieselbe** Domäne. <br/> |Benötigt **dieselbe** Domäne für alle PSTN-Standorte <br/> |
 |Konfigurieren  <br/> |SIP-Domänen  <br/> |Domänennamen und der Reihenfolge sollte sein die **gleichen** mehreren appliances <br/> |Domänennamen und der Reihenfolge sollte sein die **gleichen** PSTN-websiteübergreifenden <br/> |

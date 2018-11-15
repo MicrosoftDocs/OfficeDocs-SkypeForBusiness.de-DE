@@ -1,33 +1,32 @@
 ---
-title: Bereitstellen von Statistics Manager für Skype for Business Server 2015
+title: Bereitstellen von Statistiken Manager für Skype für Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Statistiken-Managers für Skype für Business Server 2015.'
-ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server bereitstellen.'
+ms.openlocfilehash: f408f494fc95fecdf0a0e80114d4d68d99181885
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295182"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532147"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistiken Manager für Skype für Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Statistiken-Managers für Skype für Business Server 2015.
+**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server bereitstellen.
   
  Statistiken-Manager für Skype für Business Server ist ein leistungsfähiges Tool, das Sie zum Anzeigen von Skype für Business Server Integrität und Leistung von Daten in Echtzeit ermöglicht. Sie können Leistungsdaten auf Hunderten von Servern kurzen Abständen Abfragen und sofort Anzeigen der Ergebnisse auf der Website Statistiken-Managers.
   
-Bevor Sie versuchen, Statistiken Manager zu installieren, achten Sie darauf, dass Sie mit der Software, Netzwerk und Hardware Anforderungen vertraut sind. Weitere Informationen finden Sie unter [Planen für Statistiken Manager für Skype für Business Server 2015](plan.md).
+Bevor Sie versuchen, Statistiken Manager zu installieren, achten Sie darauf, dass Sie mit der Software, Netzwerk und Hardware Anforderungen vertraut sind. Weitere Informationen finden Sie unter [Planen für Statistiken Manager für Skype für Business Server](plan.md).
   
 > [!NOTE]
-> Wenn Sie von einer früheren Version von Statistiken Manager aktualisieren, finden Sie unter [Upgrade-Statistiken-Manager für Skype für Business Server 2015](upgrade.md). 
+> Wenn Sie von einer früheren Version von Statistiken Manager aktualisieren, finden Sie unter [Statistics-Manager für Skype für Business Server aktualisieren](upgrade.md). 
   
 > [!NOTE]
 > Die Statistics Manager-Website wurde getestet und funktioniert ordnungsgemäß unter Internet Explorer 11+, Edge 20.10240+ und Chrome 46+ (aktuelle Evergreen-Version). 
@@ -62,7 +61,7 @@ Gehen Sie folgendermaßen vor, um Statistiken Manager bereitstellen:
   
 ### <a name="prepare-the-listener-host-machine"></a>Vorbereitung des Listener-Hostcomputers
 
-Um den Hostcomputer vorzubereiten, müssen Sie das Redis-System für die InMemory-Zwischenspeicherung installieren und sicherstellen, dass ein gültiges Zertifikat auf dem Computer vorhanden ist. Microsoft empfiehlt die Installation des letzten stabilen Builds von Redis 3.0. Statistiken Manager Version 1.1 für Redis getesteten 3.0.501 und Redis 2.8.2400. 
+Um den Hostcomputer vorzubereiten, müssen Sie das Redis-System für die InMemory-Zwischenspeicherung installieren und sicherstellen, dass ein gültiges Zertifikat auf dem Computer vorhanden ist. Microsoft empfiehlt die Installation des letzten stabilen Builds von Redis 3.0. Statistiken Manager Version 2.0 wurde Redis 3.2.100 getestet. 
   
 1. Redis von folgender Website herunterladen: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     
@@ -212,7 +211,7 @@ Mit dem folgenden Befehl können Sie alle Optionen anzeigen:
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Führen Sie das folgende Skript aus, um die Informationen zu den aktuell importierten Servern anzuzeigen:  
+Um Ihre gerade importierten Serverinformationen anzuzeigen, führen Sie das folgende Skript aus: 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -265,7 +264,7 @@ Fall ein Agent nicht startet, überprüfen Sie Folgendes:
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Informationen über alle Ereignisse, die möglicherweise im Ereignisprotokoll Anwendung angezeigt finden Sie unter [Problembehandlung bei Statistiken Manager für Skype für Business Server 2015](troubleshoot.md).
+Informationen über alle Ereignisse, die möglicherweise im Ereignisprotokoll Anwendung angezeigt finden Sie unter [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Erstellen eines selbstsignierten Zertifikats
 <a name="BKMK_SelfCert"> </a>
@@ -299,12 +298,12 @@ Microsoft empfiehlt dringend die Verwendung eines Zertifikats, das von einer ver
 
 Weitere Informationen finden Sie unter den folgenden Themen:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Planen der Business Server für den Statistiken-Manager für Skype](plan.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
+- [Aktualisieren von Statistiken Manager für Skype für Business Server](upgrade.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md)
     
-- [Blog zu Statistics Manager für Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

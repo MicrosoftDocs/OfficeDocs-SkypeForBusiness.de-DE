@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Informationen zum Konfigurieren von Anrufen Daten Connector, der für lokale Skype für Business Online-Tools mit angezeigt werden, um Business Telemetrie von Skype werden können.
-ms.openlocfilehash: adc1c9a1e50130796c4749a958e9030c10a09fd0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293616"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533134"
 ---
 # <a name="configure-call-data-connector"></a>Konfigurieren von Anruf Daten Connector
 
@@ -46,7 +46,7 @@ Zum Konfigurieren und Aktivieren von Data Connector aufrufen, verwenden Sie die 
 
 ### <a name="configure-your-environment"></a>Konfigurieren der Umgebung 
 
-Zum Konfigurieren Ihrer Umgebung, um eine Sammlung online zu aktivieren, müssen Sie zuerst zu Skype für Business Online PowerShell als Administrator anmelden. Weitere Informationen finden Sie unter [Verwalten von Skype für Business Online mit Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Zum Konfigurieren Ihrer Umgebung, um eine Sammlung online zu aktivieren, müssen Sie zuerst zu Skype für Business Online PowerShell als Administrator anmelden. Weitere Informationen finden Sie unter [Verwalten von Skype für Business Online mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Es gibt zwei Methoden für die Anmeldung beim Skype für Business Online PowerShell:
 
@@ -135,7 +135,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Anzeigen der lokale Daten über das online-dashboard
 
- Nach dem Aufrufen der Data-Connector aktiviert ist, können Sie auf das Dashboard Analytics rufen Sie wie beschrieben in [Verwendung aufrufen Analytics schlechten Qualität Beheben von Problemen mit](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)Ihrer lokalen Anrufdaten anzeigen.
+ Nach dem Aufrufen der Data-Connector aktiviert ist, können Sie auf das Dashboard Analytics rufen Sie wie beschrieben in [Verwendung aufrufen Analytics schlechten Qualität Beheben von Problemen mit](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)Ihrer lokalen Anrufdaten anzeigen.
 
 
 ## <a name="for-more-information"></a>Weitere Informationen

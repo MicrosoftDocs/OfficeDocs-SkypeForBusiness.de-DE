@@ -11,19 +11,19 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: In diesem Artikel Gliederungen-Cmdlets, mit denen Administratoren mehr Kontrolle über Authentifizierungsmethoden erhalten verwendet innerhalb und außerhalb, eines Unternehmens. Administratoren können Authentifizierungsmethoden auf Aktivieren oder deaktivieren Sie intern oder extern mit ihrem Netzwerk.
-ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294846"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531102"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planen der Legacy-Authentifizierungsmethoden intern und extern in Ihr Netzwerk zu deaktivieren.
 
 > [!NOTE]
 > Wenn Sie diesen Artikel lesen gerade, sollten Sie bereits kennen unterstützte modernen authentifizierungstopologien, ADAL, und zu modernen Authentifizierung Konfiguration, aber, falls dies nicht der Fall, hier sind die Artikel beginnen, müssen Sie: 
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
+>  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+>  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
   
 Modernen Authentifizierung nicht nur sicherere Methoden der Authentifizierung, wie die zweistufige Authentifizierung oder zertifikatbasierte Authentifizierung aktivieren, ohne dass ein Benutzername und Kennwort zu können durchgeführt wird die Autorisierung des Benutzers. Es ist ziemlich praktisch.
 

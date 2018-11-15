@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Zusätzlich zu den standard Audiokonferenzen pro-Benutzer-Lizenz können Organisationen Volume und Lizenzierung auch ein Bezahlung pro Minute Angebot Audio-Konferenzfunktionen für ihre Organisation zu aktivieren.
-ms.openlocfilehash: 1c66649ebb75dd89756f7da45255801e4e60fc16
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295015"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530856"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
@@ -53,7 +53,7 @@ Während das Audiokonferenz pro Benutzer Lizenz Angebot Einwahl Nutzung und eini
 - Ausgehende Anrufe an externe Telefonnummern aus innerhalb einer Besprechung Ihrer Organisation.
     
 > [!NOTE]
-> Sie finden die ein- und ausgehender Verbindung Sätze, diese Arten von Anrufen durch die Überprüfung im **finden Sie unter Überstundensätze, wo Sie im Abschnitt aufrufen möchten** in [Audiokonferenzen](https://products.office.com/skype-for-business/pstn-conferencing)zugeordnet ist. 
+> Sie finden die ein- und ausgehender Verbindung Sätze, diese Arten von Anrufen durch die Überprüfung im **finden Sie unter Überstundensätze, wo Sie im Abschnitt aufrufen möchten** in [Audiokonferenzen](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)zugeordnet ist.
   
 Bezahlung pro Minute in Ihrer Organisation [Communications haben](what-are-communications-credits.md) mit einer Lizenz zugewiesen, jedem Benutzer in der Reihenfolge für Audiokonferenzen funktioniert aktiviert werden muss. Wenn Sie weitere Details möchten, finden Sie unter [Einrichten von Communications haben für Ihre Organisation](set-up-communications-credits-for-your-organization.md) und/oder [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   

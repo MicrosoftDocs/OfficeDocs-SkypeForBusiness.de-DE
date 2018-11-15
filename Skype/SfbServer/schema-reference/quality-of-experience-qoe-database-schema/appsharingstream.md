@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream-Tabelle enthält die Quality of Experience-Metriken für die Netzwerkstreams für die Anwendungsfreigabe verwendet. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 4eeac3f7b082d4a798736bd9897b90668a1d44b2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294303"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532770"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream-Tabelle
  
@@ -25,7 +25,7 @@ AppSharingStream-Tabelle enthält die Quality of Experience-Metriken für die Ne
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primär, Fremd  <br/> |Datum und Uhrzeit, zu der die Sitzung gestartet hat.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primär, Fremd  <br/> |Sequenzielle ID zur Unterscheidung von Sitzungen, die an demselben Tag und zur gleichen Zeit gestartet genutzt.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primär, Fremd  <br/> | Finden Sie unter [MediaLine-Tabelle](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primär, Fremd  <br/> | Finden Sie unter [MediaLine-Tabelle](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |Eindeutiger Bezeichner der Anwendungsfreigabe-Datenstroms.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das „Zittern“ der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Maximale Jitter zwischen RTP Paket Eingänge erkannt. (Jitter ist ein Maß für die "Shakiness" mit einem Anruf.) Hohe Jitter-Werte werden in der Regel durch Überlastung oder einen überladenen Medienserver verursacht und zu Audio verzerrt oder verloren.  <br/> |

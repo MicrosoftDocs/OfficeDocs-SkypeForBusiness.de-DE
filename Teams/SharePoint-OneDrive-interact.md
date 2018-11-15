@@ -3,7 +3,7 @@ title: Interaktion von SharePoint Online und OneDrive for Business mit Microsoft
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/31/2018
+ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869adf9401e3704cc78de5f646b0b9e676e8efe9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d82509aedab32e7fa4fe14ea162d369a2bab5565
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295486"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532332"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams
 =============================================================================
@@ -47,11 +47,18 @@ Für jedes Team wird eine SharePoint-Website und der Standardordner **Freigegebe
 > Es ist zurzeit nicht möglich, die standardmäßige SharePoint-Website und -Dokumentbibliothek durch eine andere zu ersetzen. Sie haben uns mitgeteilt, dass Sie sich diese Möglichkeit wünschen, und wir ziehen sie in Erwägung. In der [Microsoft Teams-Roadmap](https://aka.ms/teamsroadmap) oder auf der [Microsoft Teams-UserVoice](https://aka.ms/TeamsUserVoice)-Website finden Sie Informationen zu geplanten Funktionen.
 
 > [!TIP]
-> Hinzufügen eine Registerkarte an Ihr Team, dass Links zu einer vorhandenen SharePoint-Website oder in Ihrer vorhandenen SharePoint-Dokumentbibliothek:
+> Hinzufügen eine Registerkarte an Ihr Team, die zu einer vorhandenen SharePoint-Website-Seite oder in Ihrer vorhandenen SharePoint-Dokumentbibliothek verknüpft:
 > 1. Wählen Sie das Pluszeichen (+) neben den Registerkarten.
-> 2. Wählen Sie die **Website**aus.
-> 3. Geben Sie einen Namen ein, und geben Sie die URL der SharePoint-Website oder Bibliothek.
+> 2. Wählen Sie **SharePoint** für eine vorhandene Seite der SharePoint-Website oder **Dokumentbibliothek** für eine vorhandene Dokumentbibliothek.
+> 3. Wählen Sie aus der entsprechenden Seite oder -Dokumentbibliothek.
 
 Für jeden Benutzer wird der OneDrive-Ordner **Microsoft Teams-Chatdateien** zum Speichern aller innerhalb der in privaten Chats für andere Benutzer (1:1 oder 1:viele) freigegebenen Dateien mit automatisch konfigurierten Berechtigungen verwendet, um den Zugriff auf den gewünschten Benutzer zu beschränken.
 
 ![Diagramm des OneDrive-Ordners „Microsoft Teams-Chatdateien“ für die Chats der einzelnen Benutzer](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+
+<a name="more-information"></a>Weitere Informationen
+----------------
+
+Weitere Informationen zur Funktionsweise von SharePoint mit den Teams, finden Sie unter [SharePoint und Teams: ein starkes Team](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+
+

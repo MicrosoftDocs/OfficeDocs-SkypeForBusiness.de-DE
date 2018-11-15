@@ -1,6 +1,7 @@
 ---
 title: Liste der für direktes Routing zertifizierten Session Border Controller
 ms.author: jambirk
+ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
@@ -15,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft-Partner mit ausgewählten SBC-Anbietern ihre SBCs Zertifizierung arbeiten mit direktem Routing.
-ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294811"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531000"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -59,5 +60,7 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Steht noch aus    |      V7.0.2      |
 |                                                                                                                     |    SBC Schwedisch Lite     |     &#10004;     |   Steht noch aus    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Steht noch aus    |       V1.4       |
-|                                                                                                                     |                     |                  |              |                  |
-
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Steht noch aus    |   Steht noch aus  |   Steht noch aus    |
+|                                                                                                                     |      AP 4600         |    Steht noch aus    |   Steht noch aus    |      Steht noch aus      |
+|                                                                                                                     |      VME             |    Steht noch aus    |   Steht noch aus    |      Steht noch aus      |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    Steht noch aus    |   Steht noch aus    |      Steht noch aus      |

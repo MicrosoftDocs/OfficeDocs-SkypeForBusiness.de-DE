@@ -11,12 +11,12 @@ description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funkt
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296388"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532884"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams Cloud besprechungsaufzeichnung
 
@@ -31,7 +31,7 @@ Verwandte: [Teams Besprechung aufzeichnen Endbenutzerdokumentation](https://aka.
 
 Für ein Teams Benutzer Besprechungen aufgezeichnet werden sollen muss Microsoft-Stream für den Mandanten aktiviert sein. Darüber hinaus sind die folgenden erforderlichen Komponenten für den Organisator der Besprechung und die Person, die die Aufzeichnung initiiert erforderlich:
 
-- Benutzer verfügt über eine Lizenz für Office 365 Enterprise E1, E3 oder E5
+- Benutzer verfügt über ein Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium oder Business Essentials
 - Benutzer muss für Microsoft Stream lizenziert werden
 - Benutzer hat Microsoft Stream video Berechtigungen hochladen
 - Benutzer, das den Richtlinien Unternehmen zugestimmt hat, wenn durch den Administrator einrichten

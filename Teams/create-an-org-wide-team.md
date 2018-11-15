@@ -2,6 +2,7 @@
 title: Erstellen Sie ein Team Org geltende in Microsoft-Teams
 author: LanaChin
 ms.author: v-lanac
+ms.reviewer: phlouie
 manager: serdars
 ms.date: 09/27/2018
 ms.topic: article
@@ -12,23 +13,23 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ef4426e2dca1a6ce20657e3e7480b9ee118bfa1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3980a73c817b83466c8c93c29fb60e7e20f4df48
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296279"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532809"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen Sie ein Team Org geltende in Microsoft-Teams
 
 Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einem kleinen, mittelgroßen Unternehmen angehören eines einzelnen Teams für die Zusammenarbeit. 
  
-Mit Org geltende-Teams können globale Administratoren auf einfache Weise öffentliche Teams erstellen, die in jeder Benutzer in der Organisation abruft und hält die Mitgliedschaft Stand mit Active Directory als Benutzer teilnehmen und die Organisation verlassen. Nur globale Administratoren können Org geltende Teams erstellen und ein gesamte Org Team ist derzeit auf Organisationen mit nicht mehr als 1.000 Benutzer beschränkt. Wenn diese Anforderungen erfüllt sind, sehen Admins **Org geltende** als Option unter **Datenschutz** , wenn ein Team erstellen.
+Mit Org geltende-Teams können globale Administratoren auf einfache Weise öffentliche Teams erstellen, die in jeder Benutzer in der Organisation abruft und hält die Mitgliedschaft Stand mit Active Directory als Benutzer teilnehmen und die Organisation verlassen. Nur globale Administratoren können Org geltende Teams erstellen und ein gesamte Org Team ist derzeit auf Organisationen mit nicht mehr als 2.500 Benutzer beschränkt. Wenn diese Anforderungen erfüllt sind, sehen Admins **Org geltende** als Option unter **Datenschutz** , wenn ein Team erstellen.
 
 ![Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende] (media/create-org-wide-team.png "Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende")
 
 > [!NOTE]
-> Wenn die Option **gesamte Org** nicht angezeigt werden, wenn Sie ein Team erstellen und Sie ein globaler Administrator sind, das Feature möglicherweise noch Rollout oder Ihrer Organisation möglicherweise mehr als die aktuelle maximale Dateigröße von 1.000 Elemente. Wir suchen, um diese in Zukunft erhöhen.
+> Wenn die Option **gesamte Org** nicht angezeigt werden, wenn Sie ein Team erstellen und Sie ein globaler Administrator sind, das Feature möglicherweise noch Rollout oder Ihrer Organisation möglicherweise mehr als die aktuelle maximale Größe der 2.500 Elemente. Wir suchen, um diese in Zukunft erhöhen.
 
 Wenn ein Team Org geltende erstellt wird, werden alle globale Administratoren als Team Besitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Benutzer, die für Teams, Gastbenutzer und die meisten Chatrooms deaktiviert sind, werden nicht an das Team hinzugefügt. Verzeichnis Ihrer Organisation wird aktualisiert, sodass neue aktive Benutzer enthalten oder wenn der Benutzer ist nicht mehr in Ihrem Unternehmen arbeiten und die Lizenz Teams deaktiviert ist, automatisch Änderungen werden synchronisiert, und die Benutzer hinzugefügt oder aus dem Team entfernt werden. Teammitglieder können kein gesamte Org Team lassen. Sie können als Teambesitzer manuell hinzufügen oder Entfernen von Benutzern bei Bedarf.
 

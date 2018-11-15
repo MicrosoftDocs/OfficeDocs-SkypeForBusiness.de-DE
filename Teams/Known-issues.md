@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295333"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532278"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -31,7 +31,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|EAF Richtlinie in der erweiterten Risikominderung Experience Toolkit (EMET) kann nicht richtig Chrom Sandkasten Optimierungen als Bedrohung identifizieren. <br/> |Es besteht ein Problem mit Chrom Sandkasten, in dem die Richtlinie exportieren Adresse Tabelle Access Filtern (EAF) in der erweiterten Risikominderung Experience Toolkit (EMET) falsch Chrom Sandkasten Optimierungen als Bedrohung identifizieren kann. Die Registerkarten in der Webansicht Teams verhindert, dass das ordnungsgemäß gerendert wird. <br/> | EAF für Chrome deaktivieren. Lesen Sie mehr über das Problem [EMET Gegenmaßnahmen Richtlinien](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
+|EAF Richtlinie in der erweiterten Risikominderung Experience Toolkit (EMET) kann nicht richtig Chrom Sandkasten Optimierungen als Bedrohung identifizieren. <br/> |Es ist ein Problem mit Chrom Sandkasten, in dem die Richtlinie exportieren Adresse Tabelle Access Filtern (EAF) in der erweiterten Risikominderung Experience Toolkit (EMET) und in Windows Defender erweiterte Threat Protection (ATP) falsch Chrom Sandkasten identifizieren können Optimierungen als Bedrohung. Daraufhin wird Teams nicht ordnungsgemäß funktioniert.  <br/> | Um dieses Problem deaktivieren EAF für Teams zu umgehen. Lesen Sie mehr über das Problem [EMET Gegenmaßnahmen Richtlinien](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) für Weitere Informationen zu Windows Defender ATP und EAF Richtlinie, finden Sie unter [Schutz ausnutzen anpassen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|

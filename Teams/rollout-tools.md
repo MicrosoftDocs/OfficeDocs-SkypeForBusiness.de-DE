@@ -12,17 +12,17 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71b1a01472448c6a0d8a1bdc2ba06ff88d3a8cfd
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 94c35dbf18b3afdeb62cb4bb463e040f38f37f65
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293541"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532293"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Beziehen von Tools zur Unterstützung eines Rollouts von Microsoft Teams
 =================================================
 
-Das Microsoft Teams Customer Success Kit stellt Tools zur Verfügung, die Ihre Organisation beim erfolgreichen Rollout von Microsoft Teams für Ihre Organisation unterstützen. Das Kit umfasst E-Mail-Vorlagen für Ankündigungen, Flyer, Poster sowie Countdown- und Tipps und Tricks-E-Mails. Dazu zählen auch Erste Schritte-Handbücher für Teamleiter und IT-Administratoren. Laden Sie das [Customer Success Kit](https://go.microsoft.com/fwlink/?linkid=854598) noch heute herunter.
+Das Microsoft Teams Customer Success Kit stellt Tools zur Verfügung, die Ihre Organisation beim erfolgreichen Rollout von Microsoft Teams für Ihre Organisation unterstützen. Das Kit umfasst E-Mail-Vorlagen für Ankündigungen, Flyer, Poster sowie Countdown- und Tipps und Tricks-E-Mails. Dazu zählen auch Erste Schritte-Handbücher für Teamleiter und IT-Administratoren. Laden Sie das [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) herunter.
 
 ### <a name="learn-adjust-and-repeat"></a>Lernen, Anpassen und Wiederholen
 

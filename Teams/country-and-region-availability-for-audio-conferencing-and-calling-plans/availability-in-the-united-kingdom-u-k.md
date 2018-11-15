@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams, für die nach Großbritannien verfügbar.
-ms.openlocfilehash: f3e83adc835f003091ed0a1aa38953269dbe4b95
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293988"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531135"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Verfügbarkeit in Großbritannien (Großbritannien)
 
@@ -62,7 +62,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>1200 minute nationalen aufrufen planen </li></li><li>600 Minute für in- und International plant aufrufen</li></li> 
-|Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Teilweise unterstützt: Anrufe freigegeben Kosten Zahlen aus (Präfixen 44843, 44844, 44845, 44870, 44871, 44872) werden unterstützt.  Anrufe an 449XX Präfixe werden nicht unterstützt. <br/> |
+|Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Teilweise unterstützt: Anrufe freigegeben Kosten Zahlen aus (Präfixen 44843, 44844, 44845, 44870, 44871, 44872) werden bei Verwendung von Communications haben pro Minute bezahlen unterstützt.  Anrufe an 449XX Präfixe werden nicht unterstützt. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste

@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Zusammenfassung: Erfahren Sie mehr über das neue Skype für Unternehmen und die Schritte können zum Vorbereiten Ihrer Umgebung und Ihre Benutzer für das Update, ob Sie für Business Online, Skype für Business Server 2015, Skype für Lync Server 2013 Business Server 2015 Skype verwenden oder Lync Server 2010.'
-ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Zusammenfassung: Erfahren Sie mehr über das neue Skype für Unternehmen und die Schritte können zum Vorbereiten Ihrer Umgebung und Ihre Benutzer für das Update, ob Sie für Business Online, Skype für Business Server 2019, Skype für Lync Server 2013 Business Server 2015 Skype verwenden oder Lync Server 2010.'
+ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294627"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531167"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planen der Skype für Business 2015 Clientumgebung für Ihre Benutzer
  
@@ -120,11 +120,11 @@ Dies ist der Standard-Erfahrung bei der Bereitstellung der Skype für Business-C
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>Verwenden der Lync-Clientumgebung mit einer lokalen Bereitstellung von Skype for Business Server
 <a name="LyncwithSfBServer"> </a>
 
-Führen Sie die Schritte in diesem Abschnitt, wenn Sie die Lync-Client-Erfahrung in einer lokalen Skype für Business Server 2015 Bereitstellung konfigurieren möchten.
+Führen Sie die Schritte in diesem Abschnitt, wenn Sie die Lync-Client-Erfahrung in einer lokalen Skype für Business Server-Bereitstellung konfigurieren möchten.
   
 Führen Sie die Schritte in diesem Abschnitt aus, wenn Sie die Skype-Clientumgebung in einer lokalen Bereitstellung konfigurieren möchten. Dies ist die Standardumgebung für lokale Bereitstellungen.
   
- **Schritt 1:** Stellen Sie zunächst Skype für Business Server 2015 bereit.
+ **Schritt 1:** Stellen Sie zunächst Skype für Business Server bereit.
   
  **Schritt 2:** Verwenden Sie im nächsten Schritt eine Client-Richtlinie, um die Lync-Client-Erfahrung mit der Skype für Business-Client festzulegen. Es gibt **3 Optionen** zur Festlegung der Clientumgebung mithilfe einer Clientrichtlinie.
   

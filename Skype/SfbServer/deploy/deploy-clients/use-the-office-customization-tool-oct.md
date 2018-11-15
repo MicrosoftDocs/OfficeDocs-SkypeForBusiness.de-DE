@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Zusammenfassung: Informationen zum Office-Anpassungstool mit der Skype für Business-Client verwenden.'
-ms.openlocfilehash: 98b5b663a92c659841a9d98f7fbc476f2908f73c
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6050a9e9c36fa62aff16994469e63a9689ab5958
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295478"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530678"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Verwenden Sie das Office-Anpassungstool (OAT) in Skype für Business Server
  
@@ -38,6 +38,6 @@ Administratoren verwenden das OAT zum Erstellen einer Setupanpassungsdatei MSP-D
     
 - **Outlook** Zum Anpassen von Outlook-Standardprofils des Benutzers verwendet, Exchange-Einstellungen angeben, Konten hinzufügen, Entfernen von Konten und exporteinstellungen und Senden-Empfangen-Gruppen angeben.
     
-Informationen zum OAT finden Sie unter [mithilfe des OAT zum Anpassen von Office 2013](https://docs.microsoft.com/en-us/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Beachten Sie, dass diese Informationen auch für spätere Versionen von Office gilt.
+Informationen zum OAT finden Sie unter [mithilfe des OAT zum Anpassen von Office 2013](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Beachten Sie, dass diese Informationen auch für spätere Versionen von Office gilt.
   
 

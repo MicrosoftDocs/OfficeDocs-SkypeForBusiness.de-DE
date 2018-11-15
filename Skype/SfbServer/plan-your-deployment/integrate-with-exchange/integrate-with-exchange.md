@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Zusammenfassung: In diesem Thema finden Sie Informationen zur Integration von Skype for Business Server in Exchange Server 2016 oder Exchange Server 2013.'
-ms.openlocfilehash: e46775a7a57702cd71293f2343aa2bf089491393
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294936"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532535"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan zur Integration von Skype for Business mit Exchange Server
  
@@ -63,7 +63,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 Details zum AutoErmittlungsdienst finden Sie unter [AutoErmittlungsdienst](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-Nach dem Konfigurieren des AutoErmittlungsdiensts müssen Sie die OAuth-Konfigurationseinstellungen von Skype for Business ändern. Damit stellen Sie sicher, dass Skype for Business Server „weiß“, wo der AutoErmittlungsdienst zu finden ist. Um die OAuth-Konfigurationseinstellungen in Skype for Business Server zu ändern, führen Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl aus. Geben Sie beim Ausführen dieses Befehls unbedingt den URI zu dem AutoErmittlungsdienst an, der auf Ihrem Exchange-Server ausgeführt wird, und verwenden Sie zum Verweisen auf den Dienstspeicherort **autodiscover.svc** und nicht **autodiscover.xml** (letzteres verweist auf die vom Dienst verwendete XML-Datei):
+Nach der AutoErmittlung-Dienst konfiguriert wurde, müssen Sie dann die Skype für Business Server OAuth-Konfigurationseinstellungen ändern; Dadurch wird sichergestellt, dass Skype für Business Server bekannt, wo Sie den AutoErmittlungsdienst zu finden ist. Um die OAuth-Konfigurationseinstellungen in Skype for Business Server zu ändern, führen Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl aus. Geben Sie beim Ausführen dieses Befehls unbedingt den URI zu dem AutoErmittlungsdienst an, der auf Ihrem Exchange-Server ausgeführt wird, und verwenden Sie zum Verweisen auf den Dienstspeicherort **autodiscover.svc** und nicht **autodiscover.xml** (letzteres verweist auf die vom Dienst verwendete XML-Datei):
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 

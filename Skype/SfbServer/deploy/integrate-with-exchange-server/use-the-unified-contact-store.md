@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Zusammenfassung: Konfigurieren des vereinheitlichte kontaktspeichers für Exchange Server und Skype für Business Server.'
-ms.openlocfilehash: 711dd4ea53b9985806833fbe5bc92428116bff23
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ebed3e81b12718ae053b4482455cf38bd844799c
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295383"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533068"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Konfigurieren von Skype for Business Server für die Verwendung des einheitlichen Kontaktspeichers
  
@@ -31,7 +31,7 @@ Mit dem einheitlichen Kontaktspeicher, Benutzer verwalten eine einzigen Kontaktl
 
 Wenn der Server-zu-Server-Authentifizierung zwischen Skype für Business Server und Exchange Server bereits konfiguriert ist, haben Sie auch den einheitlichen Kontaktspeicher aktiviert; Es ist keine zusätzliche Konfiguration erforderlich. Beim Benutzerkonto sind jedoch noch Konfigurationsschritte erforderlich, damit die Kontakte des Benutzers in den einheitlichen Kontaktspeicher verschoben werden. Standardmäßig werden Benutzerkontakte in Skype für Business Server und nicht in den einheitlichen Kontaktspeicher gespeichert.
   
-Zugriff auf den einheitlichen Kontaktspeicher wird mithilfe von Skype für Business Server Services Benutzerrichtlinien verwaltet. Benutzerdienst-Richtlinien verfügen nur über eine einzige Eigenschaft (UcsAllowed), die angibt, wo die Kontakte eines Benutzers gespeichert werden. Wenn ein Benutzer von einer Benutzerdienst-Richtlinie verwaltet wird, in der „UcsAllowed“ auf „True“ ($True) gesetzt ist, werden die Kontakte des Benutzers im einheitlichen Kontaktspeicher gespeichert. Wenn der Benutzer von verwaltet wird benutzerdiensterichtlinie ein Benutzers, in dem UcsAllowed auf "false" ($False) festgelegt wurde, dann werden auch seiner Kontakte in Skype für Business Server gespeichert.
+Zugriff auf den einheitlichen Kontaktspeicher wird mithilfe von Skype für Business Server Services Benutzerrichtlinien verwaltet. Benutzerdienst-Richtlinien verfügen nur über eine einzige Eigenschaft (UcsAllowed), die angibt, wo die Kontakte eines Benutzers gespeichert werden. Wenn ein Benutzer durch eine benutzerdiensterichtlinie verwaltet wird, in dem UcsAllowed auf "true" ($True) festgelegt wurde, werden Kontakte des Benutzers in dem einheitlichen Kontaktspeicher gespeichert. Wenn der Benutzer von verwaltet wird benutzerdiensterichtlinie ein Benutzers, in dem UcsAllowed auf "false" ($False) festgelegt wurde, dann werden auch seiner Kontakte in Skype für Business Server gespeichert.
   
 Wenn Sie Skype für Business Server installieren, wird eine einzelne benutzerdiensterichtlinie (auf globaler Ebene konfiguriert) ebenfalls installiert. Der Wert „UcsAllowed“ in dieser Richtlinie ist auf „True“ festgelegt, was bedeutet, dass Benutzerkontakte standardmäßig im einheitlichen Kontaktspeicher gespeichert werden (vorausgesetzt, dass dieser bereitgestellt und konfiguriert wurde). Wenn Sie alle Benutzerkontakte zum einheitlichen Kontaktspeicher migrieren möchten, müssen Sie nichts weiter tun. 
   

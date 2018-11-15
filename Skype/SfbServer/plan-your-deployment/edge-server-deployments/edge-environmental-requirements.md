@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: Erfahren Sie mehr über die umgebungsanforderungen für Edge-Server in Skype für Business Server.'
-ms.openlocfilehash: 2fbe4f617a9a3d7fa0adebb65141596bd0c94fbe
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4b8c4d63063e7dcd496d0063eff8e8f8b8027058
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295340"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532460"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edge-Server-umgebungsanforderungen in Skype für Business Server
  
@@ -362,7 +362,7 @@ Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutz
 |Zugriff/SIP (TLS)  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edge-Server-Zugriffsedge-Dienst <br/> **Öffentliche IP-Adresse:** Edge-Server-Zugriffs-Edgeservers öffentliche IP-Adresse <br/> |Client-zu-Server-SIP-Datenverkehr für den externen Benutzerzugriff  <br/> |
 |Zugriff/ SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edge-Server-Zugriffsedge-Dienst <br/> **Öffentliche IP-Adresse:** Edge-Server-Zugriffs-Edgeservers öffentliche IP-Adresse <br/> |Für Verbindungen mit Partnerverbünden und öffentlichen Instant Messaging-Diensten über SIP.  <br/> |
 |Zugriff/ SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP mit NAT:** Edge-Server-Zugriffsedge-Dienst <br/> **Öffentliche IP-Adresse:** Edge-Server-Zugriffs-Edgeservers öffentliche IP-Adresse <br/> |Beliebig  <br/> |Für Verbindungen mit Partnerverbünden und öffentlichen Instant Messaging-Diensten über SIP.  <br/> |
-|Webkonferenzen/PSOM (TLS)  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edge-Server Webkonferenz-edgedienst <br/> **Öffentliche IP-Adresse:** Edge-Server Webkonferenz-Edgeserver Service öffentliche IP-Adresse <br/> |Web-Konferenzmedien.  <br/> |
+|Webkonferenzen/PSOM (TLS)  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edge-Server Webkonferenz-edgedienst <br/> **Öffentliche IP-Adresse:** Edge-Server Webkonferenz-Edgeserver öffentliche IP-Adresse <br/> |Web-Konferenzmedien.  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**Private IP mit NAT:** Edgeserver, A / V-edgedienst <br/> **Öffentliche IP-Adresse:** Edgeserver, A / V-edgedienst öffentliche IP-Adresse <br/> |Beliebig  <br/> |Dies wird für die Weiterleitung von Mediendatenverkehr verwendet.  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**Private IP mit NAT:** Edgeserver, A / V-edgedienst <br/> **Öffentliche IP-Adresse:** Edgeserver, A / V-edgedienst öffentliche IP-Adresse <br/> |Beliebig  <br/> |Dies wird für die Weiterleitung von Mediendatenverkehr verwendet.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**Private IP mit NAT:** Edgeserver, A / V-edgedienst <br/> **Öffentliche IP-Adresse:** Edgeserver, A / V-edgedienst öffentliche IP-Adresse <br/> |Beliebig  <br/> |3478 ausgehend wird:  <br/> • Von Skype für Business Server verwendet, um den Edge-Server-Version zu bestimmen, mit dem Sie kommunizieren wird.  <br/> • Für Mediendatenverkehr zwischen dem Edge-Servern verwendet.  <br/> • Für den Verbund mit Lync Server 2010 erforderlich.  <br/> • Erforderlich, wenn mehrere edgepools in Ihrer Organisation bereitgestellt werden.  <br/> |
@@ -381,7 +381,7 @@ Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutz
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Jede:  <br/> • Front-End-Server  <br/> • Front-End-pool  <br/> • Alle Survivable Branch Appliance mit diesem Edgeserver  <br/> • Alle Survivable Branch Server mit diesem Edgeserver  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Authentifizierung von A / V-Benutzern von den Front-End-Server oder Front-End-Pool, oder Ihrer Survivable Branch Appliance oder einen Survivable Branch Server, den Edge-Server verwenden.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Beliebig  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Bevorzugter Pfad für A / V-Mediendaten zwischen Ihrem internen und externen Benutzern und Ihrer Survivable Branch Appliance oder einen Survivable Branch Server übertragen.  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Ausweichpfad für A / V-Mediendaten zwischen Ihrem internen und externen Benutzern und Ihrer Survivable Branch Appliance oder einen Survivable Branch Server übertragen, wenn keine UDP-Kommunikation nicht funktioniert. TCP wird dann für die Dateiübertragung und die Desktopfreigabe verwendet  <br/> |
-|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Jede:  <br/> • Front-End-Server, der den zentralen Verwaltungsspeicher beinhaltet  <br/> • Front-End-Pool, der den zentralen Verwaltungsspeicher beinhaltet  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Replikation von Änderungen aus Ihrer zentralen Verwaltungsspeicher an den Edge-Server zu speichern.  <br/> |
+|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Jede:  <br/> • Front-End-Server, der den zentralen Verwaltungsspeicher beinhaltet  <br/> • Front-End-Pool, der den zentralen Verwaltungsspeicher beinhaltet  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Replikation von Änderungen aus Ihrer zentralen Verwaltungsspeicher an den Edge-Server.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50001  <br/> |Beliebig  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Zentralisierte Protokollierungsdienst Controller Skype für Cmdlets für Business Server-Verwaltungsshell und Centralized Logging Service, ClsController-Befehlszeile (ClsController.exe) oder Agent (ClsAgent.exe) Befehle und Protokoll-Auflistung verwenden.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50002  <br/> |Beliebig  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Zentralisierte Protokollierungsdienst Controller Skype für Cmdlets für Business Server-Verwaltungsshell und Centralized Logging Service, ClsController-Befehlszeile (ClsController.exe) oder Agent (ClsAgent.exe) Befehle und Protokoll-Auflistung verwenden.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50003  <br/> |Beliebig  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Zentralisierte Protokollierungsdienst Controller Skype für Cmdlets für Business Server-Verwaltungsshell und Centralized Logging Service, ClsController-Befehlszeile (ClsController.exe) oder Agent (ClsAgent.exe) Befehle und Protokoll-Auflistung verwenden.  <br/> |

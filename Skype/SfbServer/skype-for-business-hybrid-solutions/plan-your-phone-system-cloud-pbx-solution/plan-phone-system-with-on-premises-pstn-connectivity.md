@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
-ms.openlocfilehash: 4096dde95c4cee2871e968f4e6b91d60682e73d5
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295456"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531602"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server
 
@@ -56,7 +56,7 @@ Durch die Bereitstellung von Telefonsystem in Office 365 mit lokalen PSTN-Anbind
 
 Möglicherweise verfügen Sie über eine benutzerdefinierte Funktion oder ein wesentliches Add-On für Ihre ältere PBX, zum Beispiel ein Callcenter. Wenn die benutzerdefinierte Funktion nicht aktuell auf Telefonsystem in Office 365 verfügbar ist, sollten Sie diese Benutzer lassen, die erfordern, benutzerdefinierte Funktion mit dem vorhandene PBX und nur Port die Benutzer lokale, die nicht auf die benutzerdefinierte Funktion Telefonsystem in Office 365 zugreifen müssen mit lokalen PSTN-Anbindung.
 
-Eine Liste der Vorversion Nebenstellenanlagen, die interagieren direkt mit Skype für Business Server 2015 finden Sie unter [Qualifizierten Infrastruktur für Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Ist der Nebenstellenanlage nicht in dieser Liste, können Sie ein Controller für die Verbindung der Nebenstellenanlage mit Telefonsystem in Office 365 in Skype für Business Online verwenden.
+Eine Liste der Vorversion Nebenstellenanlagen, die interagieren direkt mit Skype für Business Server 2015 finden Sie unter [Qualifizierten Infrastruktur für Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Ist der Nebenstellenanlage nicht in dieser Liste, können Sie ein Controller für die Verbindung der Nebenstellenanlage mit Telefonsystem in Office 365 in Skype für Business Online verwenden.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Überlegungen zum Netzwerk in Bezug auf Qualität und Leistung
 
@@ -100,7 +100,7 @@ Darüber hinaus müssen Sie Folgendes sicherstellen:
 
     Wenn Sie Lync Server 2013 verwenden, finden Sie unter [Planning for Enterprise-VoIP in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) und [Bereitstellen von Enterprise-VoIP in Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Active Directory-Synchronisierung** Sie müssen Active Directory-Synchronisierung mit Azure Active Directory verbinden konfigurieren. Weitere Informationen finden Sie unter [Nächste Schritte und Verwalten von Azure AD Connect](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Active Directory-Synchronisierung** Sie müssen Active Directory-Synchronisierung mit Azure Active Directory verbinden konfigurieren. Weitere Informationen finden Sie unter [Nächste Schritte und Verwalten von Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > Die von Ihnen verwendete Version von AAD Connect muss Version 1.0.9125.0 oder höher sein. Wenn Sie mit einer früheren Version der AAD Connect-Werkzeuge oder DirSync arbeiten, führen Sie ein Upgrade auf die unterstützte Version durch. Sie können aber auch ein Upgrade Ihrer aktuellen Installation durchführen und alle benutzerdefinierten Regeln beibehalten, die Sie in Ihrer Umgebung definiert haben. 

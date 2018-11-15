@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lesen Sie in diesem Thema erfahren, wie Business Server Enterprise-VoIP Standortrichtlinien für eine erweiterte Notfalldienste (E9-1-1)-Bereitstellung in Skype planen.
-ms.openlocfilehash: 919a09bb907bda8666c9a44ee61436643a912d61
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ed5eb479224c82757d808c202633cd79f466a543
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295280"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533215"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planen von Standortrichtlinien für Skype für Business Server
  
@@ -59,7 +59,7 @@ Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, 
 Diese Zeichenfolge Dial (weniger das führende Plus "+", aber einschließlich des Benutzers Dial Plan dazu Normalisierung) gibt an, dass ein Anruf ein Notruf ist. Die **Notrufwählzeichenfolge** veranlasst den Client, Standort- und Rückrufinformationen mit dem Anruf zu übermitteln.
   
 > [!NOTE]
-> Wenn Ihre Organisation ein Präfix für den externen Zeile nicht verwendet, müssen Sie keine entsprechende Dial Plan Normalisierungsregel erstellen, die ein "+" der 911 Zeichenfolge vor dem Senden des Anrufs an das Ausgangsrouting auf einem Server mit Skype für Business Server; hinzufügt "+" wird automatisch von der Skype für Business-Client als Ergebnis der Standortrichtlinie vorangestellt werden. Jedoch, wenn der Website ein Präfix für den externen Zugriff verwendet wird, müssen Sie eine Normalisierungsregel der betreffenden Dial Plan Richtlinie hinzuzufügen, die das Präfix für externen Zugriff entfernt und fügt die "+". Beispielsweise wenn Ihres Standorts für ein Präfix für externen Zugriff von 9 verwendet wird und ein Benutzer 9 911 anwählt um ein Notruf platzieren, der Client verwendet seine Dial Plan Richtlinie dies normalisieren auf +911 vor der die gewählte Nummer durch die Routen im Standortprofil des Anrufers ausgewertet wird. 
+> Wenn Ihre Organisation ein Präfix für den externen Zeile nicht verwendet, müssen Sie keine entsprechende Dial Plan Normalisierungsregel erstellen, die ein "+" der 911 Zeichenfolge vor dem Senden des Anrufs an das Ausgangsrouting auf einem Server mit Skype für Business Server; hinzufügt "+" wird automatisch von der Skype für Business-Client als Ergebnis der Standortrichtlinie vorangestellt werden. Jedoch, wenn der Website ein Präfix für den externen Zugriff verwendet wird, müssen Sie eine Normalisierungsregel der betreffenden Dial Plan Richtlinie hinzuzufügen, die das Präfix für externen Zugriff entfernt und fügt die "+". Beispielsweise wenn Ihres Standorts für ein Präfix für externen Zugriff von 9 verwendet wird und ein Benutzer 9 911 anwählt um ein Notruf zu platzieren, der Client verwendet die Richtlinie Dial Plan dies normalisiert werden sollen, +911, bevor die gewählte Nummer durch die Routen im Standortprofil des Anrufers ausgewertet wird. 
   
  **Notruf-Wählzeichenfolgenmasken (Notfallnummermaske)**
   

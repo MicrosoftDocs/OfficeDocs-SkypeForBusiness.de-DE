@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Erfahren Sie mehr über ausgehende VoIP-routing in Skype für Business Server Enterprise-VoIP, einschließlich Aufruf für Routen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-verwendungsdatensätzen, und VoIP-Routen.
-ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296119"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531638"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen der ausgehende VoIP-routing in Skype für Business Server
  
@@ -44,7 +44,7 @@ Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen
   
 ### <a name="dial-plan-scope"></a>Wählplanbereich
 
-Ein Wählplan Bereich bestimmt die Hierarchieebene, an der die Wähleinstellungen angewendet werden kann. In Skype für Business Server kann ein Benutzer einen bestimmten benutzerspezifischen Wählplan zugewiesen werden. Wenn ein benutzerwählplan nicht zugewiesen ist, wird der Front-End-Pool-Wählplan angewendet. Ist kein Front-End-Pool-Pool-Wählplan, wird die Website Wähleinstellungen angewendet. Wenn für den Benutzer keine bestimmten Wählpläne gelten, wird der globale Wählplan angewendet.
+Ein Wählplan Bereich bestimmt die Hierarchieebene, an der die Wähleinstellungen angewendet werden kann. In Skype für Business Server kann ein Benutzer einen bestimmten benutzerspezifischen Wählplan zugewiesen werden. Wenn ein benutzerwählplan nicht zugewiesen ist, wird der Front-End-Pool-Wählplan angewendet. Wenn kein Wählplan der Front-End-Pool vorhanden ist, wird die Wähleinstellungen Website angewendet. Wenn für den Benutzer keine bestimmten Wählpläne gelten, wird der globale Wählplan angewendet.
   
 Clients erhalten Bereichsebenen über in-Band-bereitstellungseinstellungen, die bereitgestellt werden, wenn Benutzer Skype für Unternehmen anmelden. Als Administrator können Sie verwalten und Zuweisen von Bereichsebenen mithilfe von Skype Business Server-Systemsteuerung.
   

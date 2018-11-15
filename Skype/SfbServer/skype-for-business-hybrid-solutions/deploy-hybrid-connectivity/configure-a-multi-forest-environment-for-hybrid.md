@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde.
-ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295242"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531552"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
  
@@ -66,7 +66,7 @@ Für eine ordnungsgemäße Identitätssynchronisierung müssen die folgenden Att
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-Das [ausgewählte Konto Linkattribut](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) wird als Quelle Verankerung verwendet werden. Wenn Sie einen anderen und unveränderlich Attribut vorhanden, die Sie verwenden möchten, können Sie dazu, achten Sie die AD FS-Ansprüche Regel bearbeiten, und wählen Sie das Attribut während der Konfiguration AAD verbinden.
+Das [ausgewählte Konto Linkattribut](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) wird als Quelle Verankerung verwendet werden. Wenn Sie einen anderen und unveränderlich Attribut vorhanden, die Sie verwenden möchten, können Sie dazu, achten Sie die AD FS-Ansprüche Regel bearbeiten, und wählen Sie das Attribut während der Konfiguration AAD verbinden.
   
 Des Benutzerprinzipalname zwischen den Gesamtstrukturen nicht synchronisiert. Wir haben bei Tests festgestellt, dass wir einen eindeutigen UPN für jede Benutzergesamtstruktur verwenden mussten, da derselbe UPN nicht über mehrere Gesamtstrukturen verwendet werden kann. Daraus ergaben sich zwei Möglichkeiten: den UPN zu synchronisieren oder ihn nicht zu synchronisieren. 
   
@@ -112,7 +112,7 @@ Die grün hervorgehobenen Attribute wurden von Office 365 zusammengeführt, die
   
 Dies ist ein Testbenutzer und Sie können sehen, dass AAD Connect die Attribute „sourceAnchor“ und „cloudSourceAnchor“ von den Benutzer- und den Ressourcengesamtstrukturobjekten sowie von Office 365 identifiziert hat, in unserem Fall 1101, was der zuvor ausgewählten employeeNumber entspricht. Dieses Objekt konnte dann zu dem zusammengeführt werden, was Sie oben sehen. 
   
-Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Identitäten in Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
+Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Identitäten in Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
 AAD verbinden sollte vor allem die Standardwerte verwenden installiert werden. Mit Ausnahme der folgenden Schritte aus: 
   
@@ -122,7 +122,7 @@ AAD verbinden sollte vor allem die Standardwerte verwenden installiert werden. M
     
 3.  Identifizieren von Benutzern in lokalen Verzeichnissen: Wählen Sie **Benutzeridentitäten über mehrere Verzeichnisse vorhanden sind** , und wählen Sie **Objekt-SID** und **MsExchangeMasterAccountSID** -Attribute
     
-4. Identifizieren von Benutzern in Azure AD: Quelle Anker - wählen Sie das Attribut, das Sie nach dem Lesen der [Auswahl eine gute SourceAnchor-Attributs](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/)ausgewählt haben, User Principal Name - **UserPrincipalName**
+4. Identifizieren von Benutzern in Azure AD: Quelle Anker - wählen Sie das Attribut, das Sie nach dem Lesen der [Auswahl eine gute SourceAnchor-Attributs](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)ausgewählt haben, User Principal Name - **UserPrincipalName**
     
 5.  Optionale Features - wählen Sie aus, ob Sie Exchange Hybrid oder nicht bereitgestellt haben.
     

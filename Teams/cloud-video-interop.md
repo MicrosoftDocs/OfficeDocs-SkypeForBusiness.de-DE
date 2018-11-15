@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294929"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533359"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interop für Microsoft-Teams
 
@@ -30,11 +30,11 @@ Video mit Zusammenarbeit an Inhalten Tele-hilft Ihnen die optimale Nutzung von B
 Die folgenden Partner haben video Interop-Lösungen für Microsoft-Teams. Ihr Unternehmen können mit einer beliebigen Kombination dieser Partner innerhalb des Unternehmens arbeiten. 
 
 
-|Partner|Partner-Lösung|Verfügbarkeit|
-|----|---|----|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |Jetzt verfügbar|
-|![Pexip unendlich](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip unendlich für Microsoft-Teams</a> | 19 Oktober 2018|
-|![BlueJeans-Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans-Gateway für Microsoft-Teams</a> | 31 Oktober 2018|
+|Partner|Partner-Lösung|
+|----|---|
+|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |
+|![Pexip unendlich](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip unendlich für Microsoft-Teams</a> | 
+|![BlueJeans-Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans-Gateway für Microsoft-Teams</a> |
 
 ## <a name="partner-solutions"></a>Partnerlösungen
 

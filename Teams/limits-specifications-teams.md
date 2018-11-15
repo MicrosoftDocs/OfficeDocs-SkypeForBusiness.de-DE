@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 286b29be298b5d12919dc3193602ad6331ef1a21
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 2fb9594ddc5fd82f1f11d4425f000a831e2b90e4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450448"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532309"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft-Teams
 =============================================
@@ -32,7 +32,7 @@ Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und
 |-----------|---------------|
 |Anzahl der Teams, die ein Benutzer erstellen kann | Kann ein Grenzwert von 250 Objekt & sup1:         |
 |Anzahl der Elemente in einem team | 2.500       |
-|Anzahl der Elemente in einer Organisation geltende team | 1.000       |
+|Anzahl der Elemente in einer [Organisation geltende team](create-an-org-wide-team.md) | 2.500       |
 |Anzahl der Teams, die ein globaler Administrator erstellen können        | 500.000   |
 |Anzahl der Teams, die ein Office 365-Mandanten enthalten kann    | 500.000     |
 |Anzahl der Kanäle pro team    | 200         |

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Zusammenfassung: Konfigurieren der Server-zu-Server-Authentifizierung für einen Skype für Business Server-hybridumgebung.'
-ms.openlocfilehash: 02412c152e017da95c82ff6f8ad6f08db1a105ef
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 2d4589d2d194cd885329dd701f69af7b8896f8f3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295234"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532347"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Konfigurieren Sie Server-zu-Server-Authentifizierung für einen Skype für Business Server-hybridumgebung.
 
@@ -69,19 +69,19 @@ Beachten Sie, dass sich der Bereichsname für einen Mandanten normalerweise vom 
 $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 ```
 
-Nach Abschluss des Skripts müssen Sie dann eine Vertrauensstellung zwischen Skype für Business Server und dem autorisierungsserver und eine zweite Vertrauensstellung zwischen Exchange 2013 und den autorisierungsserver konfigurieren. Das ist nur mithilfe der Microsoft Online Services-Cmdlets möglich.
+Zum Ausführen dieses Skripts muss installiert sein Skype für Business Online-Powershell-Modul und eine Verbindung mit Ihrem Mandanten mit diesem Modul. Wenn Sie diese Cmdlets nicht installiert haben, schlägt Ihr Skript fehl, weil das Get-CsTenant-Cmdlet nicht verfügbar ist. Nach Abschluss des Skripts müssen Sie dann eine Vertrauensstellung zwischen Skype für Business Server und dem autorisierungsserver und eine zweite Vertrauensstellung zwischen Exchange 2013/2016 und den autorisierungsserver konfigurieren. Das ist nur mithilfe der Microsoft Online Services-Cmdlets möglich.
 
 > [!NOTE]
-> Falls Sie die Microsoft Online Services-Cmdlets nicht installiert haben, müssen Sie zunächst zwei Dinge erledigen, bevor Sie fortfahren. Laden Sie die 64-Bit-Version des Microsoft Online Services-Anmeldeassistenten herunter, und installieren Sie sie. Nach Abschluss der Installation herunterladen und Installieren der 64-Bit-Version von der Microsoft Online Services-Modul für Windows PowerShell. Ausführliche Informationen zum Installieren und Verwenden der Microsoft Online Services-Modul finden Sie auf der Office 365-Website. Diese Anweisungen auch informiert Sie, wie Sie einmaliges Anmelden, Verbund und die Synchronisierung zwischen dem Office 365 und Active Directory konfigurieren. 
+> Wenn Sie nicht die Microsoft Online Services-Cmdlets installiert haben, müssen Sie es aus Powershell Repository mit dem Cmdlet installieren MSOnline Modul installieren. Ausführliche Informationen zum Installieren und Verwenden der Microsoft Online Services-Modul finden Sie auf der Office 365-Website. Diese Anweisungen auch informiert Sie, wie Sie einmaliges Anmelden, Verbund und die Synchronisierung zwischen dem Office 365 und Active Directory konfigurieren. 
 
-Wenn Sie diese Cmdlets nicht installiert haben, schlägt Ihr Skript fehl, weil das Get-CsTenant-Cmdlet nicht verfügbar ist.
+
 
 Nachdem Sie Office 365 konfiguriert haben, und Sie Office 365-Dienstprinzipale für Skype für Business Server und Exchange 2013 erstellt haben, müssen Sie dann Ihre Anmeldeinformationen mit diesen dienstprinzipalen zu registrieren. Zu diesem Zweck müssen Sie zunächst ein Base64-kodiertes X.509-Zertifikat anfordern, das als CER-Datei gespeichert wird. Dieses Zertifikat wird dann auf die Office 365-Dienst-Prinzipale angewendet werden.
 
-Wenn Sie das x. 509-Zertifikat abgerufen haben, starten Sie den Microsoft Online Services-Modul (klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Online Services**, und klicken Sie dann auf **Microsoft Online Services-Modul für Windows PowerShell**). Nachdem das Modul Dienste geöffnet wurde, geben Sie den folgenden zum Importieren des Microsoft Online Windows PowerShell-Moduls mit den Cmdlets, die zum Verwalten von Dienstprinzipale verwendet werden können:
+Wenn Sie das x. 509-Zertifikat abgerufen haben, öffnen Sie Powershell-Konsole, und importieren Sie das Microsoft Online Windows PowerShell-Modul mit den Cmdlets, die zum Verwalten von Dienstprinzipale verwendet werden können:
 
 ```
-Import-Module MSOnlineExtended
+Import-Module MSOnline
 ```
 
 Wenn das Modul importiert wurde, geben Sie den folgenden Befehl ein, und drücken Sie die EINGABETASTE, um zu Office 365 zu verbinden:
