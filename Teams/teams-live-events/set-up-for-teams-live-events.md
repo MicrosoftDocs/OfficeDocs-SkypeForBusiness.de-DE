@@ -1,5 +1,5 @@
 ---
-title: Einrichten von für live Ereignisse in der Microsoft-Teams
+title: Einrichten von Live-Ereignissen in Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,14 +14,14 @@ description: Informationen Sie zu den Schritten für Ereignisse in Teams, einsch
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92f227b7f625da02e003622c8ff87e744206443
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
+ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532663"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26548830"
 ---
-# <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von für live Ereignisse in der Microsoft-Teams
+# <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
@@ -31,7 +31,7 @@ Wenn Sie für live Ereignisse einrichten, sind mehrere Schritte, die Sie durchf�
 Schneller Einstieg in live Ereignisse, die Sie zum [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft-Teams,](https://docs.microsoft.com/microsoftteams/prepare-network)erforderlich.  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Schritt 2: Abrufen und Zuweisen von Lizenzen
-Sicherzustellen, dass der richtige Lizenz Zuordnungen für [Erstellen und Planen Sie live Ereignisse zu können?](#who-can-create-and-schedule-live-events) und [können, die live Ereignisse überwachen?](#who-can-watch-live-events).
+Stellen Sie sicher, dass die richtige Lizenz Zuordnungen für und [Erstellen und Planen Sie live Ereignisse zu können](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) [, die live Ereignisse überwachen können](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## <a name="step-3-set-up-live-events-policies"></a>Schritt 3: Einrichten von Richtlinien für live Ereignisse
 Live Ereignisse, die den Richtlinien verwendet werden, um zu steuern, wer in Ihrer Organisation enthalten sein können live Ereignisse und die Features, die in den Ereignissen verfügbar sind, die sie erstellen. Verwenden Sie die Standardrichtlinie oder erstellen Sie eine, oder mehr benutzerdefinierten live Ereignisse Richtlinien. Nachdem Sie eine benutzerdefinierte Richtlinie erstellen, weisen sie einem Benutzer oder Gruppen von Benutzern in Ihrer Organisation.
