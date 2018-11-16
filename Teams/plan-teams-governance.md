@@ -13,16 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5becca716ad4790cc0b156dd15895e66fea7d836
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371858"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539041"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Steuerung in Teams
 
 Teams bietet einen umfassenden Satz von Tools, die alle Governance-Funktionen, die Ihre Organisation erfordern möglicherweise implementieren. In diesem Artikel wird beschrieben, wie IT-Spezialisten die richtigen Fragen zum Ermitteln der ihren Anforderungen für die Unternehmensleitung und wie diese entsprechen. 
+
+> [!Tip] 
+> Sehen Sie sich die folgenden Sitzung lernen Sie mehr über Steuerung in Microsoft-Teams: [Steuerung und Verwaltung Lebenszyklus im Microsoft-Teams](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Erstellung von Gruppe und Team, benennen, Klassifizierung und Gastzugriff
 

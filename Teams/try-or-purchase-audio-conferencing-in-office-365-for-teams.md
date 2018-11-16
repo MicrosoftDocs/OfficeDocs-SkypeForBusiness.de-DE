@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
+ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533093"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26544404"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Versuchen Sie es oder erwerben Audiokonferenzen in Office 365 für Microsoft-Teams
 
@@ -76,7 +76,7 @@ Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Li
 
 Beim Zuordnen einer **Audiokonferenz** -Lizenzvertrags auf Personen in Ihrer Organisation ohne Skype eingeladen für Unternehmen in einen 3. Partei Audiokonferenzen integriert, sie werden alle Set up und sind Sie bereit für das Wechseln! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
 
-Wenn Sie Benutzer mit einer 3. Audiokonferenzen Anbieters aktiviert haben, müssen Sie den Anbieter von diesen Benutzer an Microsoft ändern. Wenn den Anbieter des Benutzers ändern möchten, finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen](assign-microsoft-as-the-audio-conferencing-provider.md).
+Wenn Sie Benutzer mit einer 3. Audiokonferenzen Anbieters aktiviert haben, müssen Sie den Anbieter dieser Benutzer an Microsoft ändern. Wenn den Anbieter für einen Benutzer ändern möchten, finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Schritt 3: Andere Administratoraufgaben
 

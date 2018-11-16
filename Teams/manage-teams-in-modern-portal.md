@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9c10640b132aeea352875f2a5acafe5cd6d377
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 14ab474289e5a677e1125df7146ba7c5a6fc2ca1
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531448"
+ms.locfileid: "26539057"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Verwalten von Teams in der Microsoft-Teams & Skype für Business Admin Center
 ==========================================
@@ -34,13 +34,16 @@ Als IT-Administrator müssen Sie anzeigen oder Aktualisieren der Teams, die Ihre
 - Globaler Administrator
 - Teams-Dienstadministrator
 
-Weitere Informationen finden Sie Informationen zu Administratorrollen in Microsoft-Teams, [hier](using-admin-roles.md)und weitere zur Verwendung der PowerShell-Cmdlets zum Verwalten von Teams in der [Microsoft-Teams, Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+Sie sollten auch sicherstellen, dass Ihr Konto ein nicht-Teams eine Testversion für die Verwaltung zugewiesen wurde. Als Teil des ein bekanntes Problem sollten Sie sicherstellen, dass Ihr Konto nur **eine** Administratorrolle zugewiesen wurde.  Weitere Informationen finden Sie Informationen zu Administratorrollen in Microsoft-Teams, in der [Microsoft-Teams verwenden, Administratorrollen zum Verwalten von Teams](using-admin-roles.md), und Lesen Sie dazu, wie Sie die PowerShell-Cmdlets zum Verwalten von Teams in der [Microsoft-Teams, Cmdlet-Referenz zu](https://docs.microsoft.com/powershell/teams/?view=teams-ps)verwenden.  
 
 Dieser Artikel enthält eine Übersicht über die Verwaltungstools für Teams in der Microsoft-Teams & Skype für Business Admin Center.
 
 ## <a name="teams-overview-grid"></a>Teams Übersichtsraster
 
-Verwaltungstools für Teams sind unter dem Knoten **Teams** im Microsoft-Teams & Skype für Business Admin Center. (Wählen Sie in der Verwaltungskonsole **Teams** > **Verwalten Teams**.) Jedes Team wird von einer Office 365-Gruppe, und dieser Knoten bietet eine Übersicht über alle Gruppen, die Microsoft-Teams in Ihrer Organisation aktiviert wurden.
+Verwaltungstools für Teams sind unter dem Knoten **Teams** im Microsoft-Teams & Skype für Business Admin Center. (Wählen Sie in der Verwaltungskonsole **Teams** > **Verwalten Teams**.) Jedes Team wird von einer Office 365-Gruppe, und dieser Knoten bietet einen Überblick über die Gruppen, die Microsoft-Teams in Ihrer Organisation aktiviert wurden.
+
+> [!NOTE]
+> Es werden gerade abgleichen, die zuvor erstellte Teams, um sicherzustellen, dass sie in dieser Ansicht angezeigt werden.
 
 ![Teams Übersichtsraster](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -80,7 +83,6 @@ Sie können die folgenden Elemente eines Teams ändern:
 - **Kanäle** : Sie können neue Kanäle hinzufügen oder Entfernen von vorhandenen Kanäle.  Sie den Standardwert "Allgemein" DDE-Kanal kann nicht gelöscht werden, und Sie nach der Erstellung Channel Name, nicht Beschreibung kann nur bearbeiten.
 - **Teamname**
 - **Team Beschreibung**
-- **Team Foto**
 - **Team Privacy** - öffentliche oder private
 - **Team Klassifizierung** -, die auf Ihrer Office 365 Gruppe Klassifikationen
 - **Einstellungen für Team Members** - select Team Member Einstellungen

@@ -178,7 +178,7 @@
 ## [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md)
 ## [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](ediscovery-investigation.md)
 ## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
-## [Moderne Authentifizierung](sign-in-teams.md)
+## [Melden Sie sich bei modernen Authentifikation Teams](sign-in-teams.md)
 ## [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
 ## [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
 ## [Verwenden der Inhaltssuche in Teams](content-search.md)

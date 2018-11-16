@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie diesen Artikel, erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2.
-ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510645"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539072"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -100,7 +100,7 @@ So aktivieren Sie Sie verwalten und Berichten über Computers v2 Skype Raum Syst
 Definieren Sie eine lokale Active Directory oder Azure AD-Gruppe alle Skype Raum Systemen v2 (Benutzer) Dienstkonten auf Hinzufügen, und klicken Sie dann erstellen Sie Verwendungsberichte mithilfe des Get-CSUserSession-PowerShell-Cmdlets für Ihre Bereitstellung der Skype Raum Systemen v2. Beispielsweise erstellen Sie eine Gruppe namens SkypeRoomSystemsv2 Dienstkonten. 
 
 
-Definieren einer Organisationseinheit in Ihrer lokalen Active Directory oder Azure AD-Hierarchie, die alle Skype Raum Systemen v2 Computerkonten enthalten soll (Wenn sie mit der Domäne verknüpft sind) und einer Organisationseinheit, um alle Skype Raum Systemen v2-Benutzerkonten zu halten. Wenn Sie eine Organisationseinheit für die Skype Raum Systemen v2 Konten auf dem Computer erstellen, sollten Sie Deaktivieren der Vererbung, um sicherzustellen, dass Sie nur die Richtlinien gelten, die Sie für die Domäne eingebundener Skype Raum Systemsv2 gelten soll. 
+Definieren einer Organisationseinheit in Ihrer lokalen Active Directory oder Azure AD-Hierarchie, die alle Skype Raum Systemen v2 Computerkonten enthalten soll (Wenn sie mit der Domäne verknüpft sind) und einer Organisationseinheit, um alle Skype Raum Systemen v2-Benutzerkonten zu halten. Wenn Sie eine Organisationseinheit für die Skype Raum Systemen v2 Konten auf dem Computer erstellen, sollten Sie Deaktivieren der Vererbung, um sicherzustellen, dass Sie nur die Richtlinien gelten, die Sie für die Domäne eingebundener Skype Raum Systemen v2 gelten soll. 
 
 Erstellen Sie ein Gruppenrichtlinienobjekt mit der Organisationseinheit, die Ihre Computerkonten Skype Raum Systeme enthält zugewiesen. Verwenden Sie diese Option, um: 
 
@@ -128,7 +128,7 @@ Jedes Skype Raum Systemen v2 Gerät erfordert eine dedizierte und eindeutige Res
 
 **Tipp pro** – stellen die Anzeige für diese benennt Konten beschreibende und leicht zu verstehen. Dies sind die Namen, die Benutzern angezeigt werden, wenn für Suchen und Hinzufügen von Skype Raum v2-basierte Systeme zu Besprechungen. Manche Organisationen verwenden die Konvention *Website*-*Raumname*(*Max Raum Kapazität*)-RS, also beispielsweise Curie – eine 12 Person Konferenzraum in London – möglicherweise den Anzeigenamen LON CURIE (12)-RS. 
 
-<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
+Wenn Ihre Organisation viele Konferenzräume, die mehrere erfordern verfügt, bereitgestellten Konten empfiehlt [Skype Raum Systeme Konten Provisioning Skripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) Massen-Bereitstellung mehrere Dienstkonten automatisiert zu verwenden.
 
 
 |    |     |

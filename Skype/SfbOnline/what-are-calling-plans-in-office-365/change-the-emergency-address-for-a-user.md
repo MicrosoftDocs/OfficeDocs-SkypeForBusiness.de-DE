@@ -20,13 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Siehe die Schritte zur Änderung der Notfalladressen für einen Benutzer der mit dem Telefonfestnetz (PSTN) in den USA und Europa arbeitet. '
-ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Informationen zum Ändern der Notfall-Adresse für einen Benutzer mit im Public Switched Telephone Network, (PSTN) in den USA und Europa arbeiten. '
+ROBOTS: NOINDEX
+ms.openlocfilehash: 8dac43120fafa1a98e441b983b673e78d2a24d75
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347101"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26538959"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Ändern der Notfalladresse für einen Benutzer
 
