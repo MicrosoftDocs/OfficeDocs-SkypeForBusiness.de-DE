@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype für Business Server planen und Konfigurationsinformationen zu Bildschirmfreigabe videobasierte (VbSS)
-ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531624"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561921"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Video basierten für Skype für Business Server Bildschirmfreigabe 
  
@@ -60,7 +60,7 @@ Beachten Sie auch, dass auf einen Teil der Treue/Schärfe der übertragenen Inha
 Wenn QoS für die folgenden medienports aktiviert ist, und auch VbSS aktiviert ist, während einer Konferenz, die Desktopfreigabe AS MCU in gezeigten Einstellungen für die video-Port verwendet werden soll enthält fett unten für den Bildschirm freigeben Datenverkehr. 
   
 > [!IMPORTANT]
-> Diese Einstellungen sind ein Spezialfall, und diese genauen Einstellungen müssen verwendet werden, wenn Sie diesen beiden Funktionen zu implementieren. Andere empfohlenen Einstellungen in der [Dokumentation für QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx)außer Kraft gesetzt. Fo Anwendungsfreigabe Sie müssen auch ASMCUSVC.exe in der QoS-Gruppenrichtlinienobjekt zusätzlich zum Definieren von Werten für diesen Port angeben. 
+> Diese Einstellungen sind ein Spezialfall, und diese genauen Einstellungen müssen verwendet werden, wenn Sie diesen beiden Funktionen zu implementieren. Andere empfohlenen Einstellungen in der [Dokumentation für QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx)außer Kraft gesetzt. Für die Anwendungsfreigabe müssen Sie auch ASMCUSVC.exe im Gruppenrichtlinienobjekt QoS zusätzlich zum Definieren von Werten für diesen Port angeben. 
   
 **Application Server QoS/VbSS die erforderlichen Einstellungen**
 

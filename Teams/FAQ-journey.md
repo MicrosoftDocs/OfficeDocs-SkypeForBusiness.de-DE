@@ -1,5 +1,5 @@
 ---
-title: Häufig gestellte Fragen zu - Upgrade Weg von Skype für Unternehmen, die Microsoft-Teams - Microsoft-Teams
+title: 'Häufig gestellten Fragen: Upgrade-Strategie beim Wechseln von Skype for Business zu Microsoft Teams – Microsoft Teams'
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6371e0a13bc029706b25cdb576602f18ab9b43b0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e733d38bf914080274332abfffbd33c5eaddba50
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533149"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561740"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Reise von Skype for Business zu Teams
 
@@ -35,7 +35,7 @@ Wie Benutzer weitere Teams arbeiten, sehen wir die Möglichkeit, unsere Kommunik
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Gibt es eine verbindliche Frist, innerhalb derer die Kunden den Wechsel von Skype for Business Online zu Teams durchführen müssen?
 
-Wir haben unsere Roadmap für Teams zur Verfügung gestellt, damit Kunden Wechsel zu Teams planen und bewerten die Funktionen für Teams, relativ zur ihren Anforderungen können. Die Kunden können einen Zeitpunkt für den Wechsel zu Team wählen, der ihren Anforderungen am besten gerecht wird. Bleiben Sie auf der Basis Nachrichten über die Reise von Skype für Business Teams die [Skype für Unternehmen in Microsoft Teams Funktionen Roadmap](https://aka.ms/skype2teamsroadmap)ist eine hervorragende Möglichkeit – eine herunterladbare PDF-Datei (in nur auf Englisch, mindestens für jetzt), die aktuellen erwartet Microsofts zu erhalten Skype für Teams Spitze Business-Funktionen.
+Die Kunden können einen Zeitpunkt für den Wechsel zu Team wählen, der ihren Anforderungen am besten gerecht wird. Für Kunden, die nicht ganz bereit zum Upgraden können sie weiterhin die Vorteile der Teams Realisierung von durch die Annahme es zusammen mit Skype für Unternehmen. Lesen Sie weitere Informationen finden Sie [verstehen, Teams und Skype für Interoperabilität und Koexistenz Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Was ist die Zukunft von Skype for Business Server?
 

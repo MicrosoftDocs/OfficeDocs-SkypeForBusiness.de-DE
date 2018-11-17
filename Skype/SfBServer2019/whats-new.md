@@ -3,19 +3,18 @@ title: Neuigkeiten in Skype for Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features sind neu in Skype für Business Server 2019.'
-ms.openlocfilehash: 411ca0705fa06d0b5720656cec2fcb3cbda50eeb
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: b0a7040b0d63866bffd2e86a68a7447463485b1e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696156"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561574"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Was ist in Skype für Business Server 2019 
 
@@ -26,7 +25,6 @@ Die folgenden: neuen Features in Skype für Business Server 2019
 - Cloud-Voicemail  
 - Rufen Sie Daten Connector
 - Side-by-Side-migration
-- Migration zu Teams
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Unified messaging-Dienste: Cloud-Voicemail 
 
@@ -50,14 +48,6 @@ Mit Data Connector aufrufen, können Sie die folgenden Aufgaben ausführen, mith
 - Zuweisen von Helpdesk und Administrator Rollen für aufrufen, Analyse, sodass Mitarbeiter anzeigen und beheben Verantwortungsbereich Helpdesk Webinhalte. 
 
 Weitere Informationen finden Sie unter [Planen der Call Data Connector](hybrid/plan-call-data-connector.md) .
-  
-
-
-## <a name="installation-and-upgrade-side-by-side-migration"></a>Installation und Upgrade: Side-by-Side-Migration
-
-Bei der Migration Side-by-Side Bereitstellen eines neues Servers unter Skype für Business Server 2019 zusammen mit einem entsprechenden Server, der eine vorherige Version (Skype für Business Server 2015 oder Lync Server 2013) ausgeführt wird, und klicken Sie dann auf den neuen Server übertragen Vorgänge. Wenn es erforderlich sind, um einen Rollback auf die vorherige Version wird, müssen Sie nur Vorgänge wieder auf die ursprünglichen Server verschoben. 
-
-Weitere Informationen finden Sie unter [Migration zu Skype für Business Server 2019](migration/migration-to-skype-for-business-server-2019.md).
 
 ### <a name="see-also"></a>Siehe auch
 

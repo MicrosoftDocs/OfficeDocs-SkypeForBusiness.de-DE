@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862241"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561646"
 ---
 # <a name="pstn-usage-report"></a>Bericht „PSTN-Verbrauch“
 
@@ -58,8 +58,8 @@ Der Bericht sieht wie folgt aus:
 *    **Anruf-ID** ist die ID für einen Anruf. Damit wird der Anruf eindeutig identifiziert, wenn Sie beim Microsoft-Support anrufen.
 *    **Benutzer-ID** ist der Anmeldename des Benutzers.
 *    **Rufnummer** ist die Skype for Business-Rufnummer, unter der ein eingehender Anruf empfangen wurde, oder die Nummer, die für einen ausgehenden Anruf gewählt wurde.
-*    **Benutzerstandort** ist das Land/die Region, in dem bzw. der sich der Benutzer befindet. 
-*    **Anrufer-ID** ist die Telefonnummer des Anrufers (Anrufer-ID). Bei eingehenden Anrufen handelt es sich um die Nummer, von der der Anruf ausging, und bei ausgehenden Anrufen um die Skype for Business-Nummer, von der der Anruf ausging. 
+*    **Benutzerstandort** ist das Land/die Region, in dem bzw. der sich der Benutzer befindet.  
+*    **Anrufer-ID** ist die Telefonnummer des Anrufers (Anrufer-ID). Bei eingehenden Anrufen handelt es sich um die Nummer, von der der Anruf ausging, und bei ausgehenden Anrufen um die Skype for Business-Nummer, von der der Anruf ausging.  
 *    **Anruftyp** gibt an, ob es sich um einen aus- oder eingehenden PSTN-Anruf handelte und um welchen Anruftyp es sich handelte (z. B. von einem Benutzer getätigter Anruf oder Audiokonferenz). Die folgenden Anruftypen sind möglich: 
 
      **Anrufplan-Anruftypen** 
@@ -78,10 +78,10 @@ Der Bericht sieht wie folgt aus:
      *    **ucap_out** (eine ausgehende PSTN-Anruf aus der UC-Anwendung wie automatische Telefonzentrale oder ein Anruf Warteschlange)
      *    **Hinweis:** Anrufe, die aus der UC-Anwendung an einen Benutzer übertragen wurden, wie eine automatische Telefonzentrale oder ein Anruf Warteschlange nicht in den Nutzungsbericht PSTN, da diese erscheint anrufabschnitte Audioanrufe für Peer-zu-Peer (P2P) sind. Wählen Sie Zugriff auf die P2P-Anrufe in die Skype für Business Admin Center unter "Tools > Skype für aufrufen BA" und zum Suchen nach Benutzername oder SIP-Adresse den Aufruf von Datum/Uhrzeit Korrelieren und/oder Ursprung CLID (Aufrufen von Zeile-ID). 
 *     
-     **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.  
-*    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).  
+     **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.   
+*    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).   
 *    **Zahl** ist der Typ der Telefonnummer, die Telefonnummer des Benutzers ein Dienst oder eine gebührenfreie Telefonnummer stammt.  
-*    **Startzeit (UTC)** ist die Uhrzeit, zu der der Anruf gestartet bzw. getätigt wurde.  
+*    **Startzeit (UTC)** ist die Uhrzeit, zu der der Anruf gestartet bzw. getätigt wurde.   
 *    **Dauer** gibt an, wie lange der Anruf verbunden war.  
 *    **ConfID** (Konferenzkennung) ist die Konferenzkennung der Audiokonferenz. 
 *    **Gebühren** ist der Betrag (Kosten des Anrufs), der Ihrem Konto für den Anruf belastet wird. 
@@ -92,7 +92,9 @@ Der Bericht sieht wie folgt aus:
      *    **MCOPSTN5**: Plan für Inlandsanrufe (Anrufplan mit 120 Min.) 
      *    **MCOPSTN6** - nationalen aufrufen Plan (240 min aufrufende Plan) Hinweis: eingeschränkter Verfügbarkeit
      *    **MCOMEETADD**: Audiokonferenz
-     *    **MCOMEETACPEA**: Audiokonferenz mit Minutenabrechnung 
+     *    **MCOMEETACPEA**: Audiokonferenz mit Minutenabrechnung
+> [!NOTE]
+> Sie können auch "keine Daten" in einigen Feldern finden Sie unter. "Keine Daten" bedeutet, dass das Feld nicht auf den Anruftyp oder Funktion angewendet ist. 
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
@@ -119,7 +121,7 @@ Der Bericht sieht wie folgt aus:
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
  

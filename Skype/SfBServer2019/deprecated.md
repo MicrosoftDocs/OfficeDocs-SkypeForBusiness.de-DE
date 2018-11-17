@@ -3,25 +3,24 @@ title: Was ist aus Skype für Business Server 2019 veraltet
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features wurden aus Skype für Business Server 2019 entfernt.'
-ms.openlocfilehash: 66366c2272db8d6f605fde6dc066f730543883b6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530542"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561611"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Was ist aus Skype für Business Server 2019 veraltet 
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Was ist aus Skype für Business Server 2019 veraltet
 
 Informationen Sie zu den Features und Funktionen, die in Skype für Business Server 2019 veraltet sind. Informationen zu neuen Features in Skype für Business Server 2019 finden Sie unter [Was ist in Skype für Business Server 2019](whats-new.md).
 
-Einige Aufhebung der emphasised Features sind für die Kompatibilität mit früheren Produktversionen in Skype für Business Server 2019 enthalten. 
+Einige Aufhebung der emphasised Features sind für die Kompatibilität mit früheren Produktversionen in Skype für Business Server 2019 enthalten.
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Veraltete Features in Skype für Business Server 2019 
 
@@ -31,12 +30,11 @@ Einige Aufhebung der emphasised Features sind für die Kompatibilität mit früh
 
 Skype für Business Server 2015 und seine Vorgänger konnten Sie einen Proxy Extensible Messaging and Presence Protocol (XMPP) auf dem Edge-Server und einem XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool zu konfigurieren. Diese Funktion ist nicht mehr in Skype für Business Server 2019 verfügbar.
 
-
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Beständigen Chat für Skype für Business Server
 
 Persistent Chat-Server ist eine optionale Rolle, die mehrere Benutzer in Ihrer Organisation kann an Chatroom-Unterhaltungen, die über einen Zeitraum beibehalten teilnehmen. Beständiger Chat kann nicht mit Skype für Business Server 2019 bereitgestellt werden. Diese Serverrolle wird von der Topologie-Generator, ebenso wie aus dem Code entfernt. 
 
-Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams).   
+Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL-Spiegelung für Skype für Business Server
 
@@ -46,7 +44,7 @@ SQL-Spiegelung kann nicht mit Skype für Business Server 2019 bereitgestellt wer
 
 Compliance-Upgrades in Skype für Business Server 2015 verfügbar waren, jedoch werden in Skype für Business Server 2019 nicht mehr unterstützt. Upgrade und Koexistenz nebeneinander unterstützt wird, finden Sie weitere Informationen unter [Migration zu Skype für Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) .
 
-###  <a name="mobility-service-mcx"></a>Mobilitätsdienst ("MCX")
+### <a name="mobility-service-mcx"></a>Mobilitätsdienst ("MCX")
 
 Mobility Service-Unterstützung von mobilen Clients von Vorversionen verwendet, ist nicht mehr in Skype für Business Server 2019 verfügbar. Dies wurde zuvor in Skype für Business Server 2015 vorgestellt.
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema Weitere Informationen zu den Schritten zum Bereitstellen von, dass die medienumgehung mit Cloud Connector Edition, Version 2.0 und höher.
-ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531703"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561914"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Die medienumgehung in der Cloud Connector Edition bereitstellen
  
@@ -32,7 +32,7 @@ Um die medienumgehung aktivieren, müssen Sie konfigurieren den DNS-Namen des Me
   
 Ein Mandantenadministrator muss einen DNS-A-Eintrag in der internen Active Directory-Produktionsinstanz konfigurieren. Wenn Sie eine komplexe Umgebung mit mehreren Standorte haben, finden Sie im Beispiel in [Beispiel: medienumgehung Website DNS-Einträgen in komplexen mit mehreren Umgebungen](deploy-media-bypass-in-cloud-connector.md#Example). Der DNS-Eintrag sollte nur für interne Netzwerkclients aufgelöst werden, nicht für externe Netzwerkclients.
   
-Nachdem Sie DNS konfiguriert haben, stellen Sie über Remote-PowerShell mit Skype for Business-Administratoranmeldeinformationen eine Verbindung mit Skype for Business Online her. Weitere Informationen finden Sie unter [Herstellen der Verbindung zu Skype for Business Online mit Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Nachdem Sie DNS konfiguriert haben, stellen Sie über Remote-PowerShell mit Skype for Business-Administratoranmeldeinformationen eine Verbindung mit Skype for Business Online her. Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 Geben Sie in der PowerShell-Sitzung die folgenden Befehle ein, um die Medienumgehung zu aktivieren:
   

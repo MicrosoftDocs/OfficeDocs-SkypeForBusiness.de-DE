@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: In diesem Thema wird beschrieben, Planungsleitfäden für die Bereitstellung des Vermittlungsservers.
-ms.openlocfilehash: 0e5568b93e0edb0b30bf3edf0893f5eb43ac8d19
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0b22a285be9e04929d53faffb58e0f7a3f8f3750
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967933"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561900"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Bereitstellungsrichtlinien für den Vermittlungsserver in Skype für Business Server
  
@@ -48,7 +48,7 @@ Die Skype für Business Planungstool können Sie ermitteln, ob die Verbindung de
 > [!NOTE]
 > Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten unterstützt und aufgeführtes Dokument Versionen Unified Communications Open Interoperability Program – Lync Server unter [Explore getestet, Geräte, Infrastruktur und Tools, die Unterstützung und Erweitern Ihrer Skype Business wünschen](http://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
-Wenn Zweigstellenstandorte erforderlich ist, muss eine Survivable Branch Appliance oder eine Kombination aus einem Front-End-Server, einen Vermittlungsserver und ein Gateway am Zweigstellenstandort bereitgestellt werden. (Die Annahme mit Zweigstellenstandorte ist, dass die Anwesenheit und Konferenzen nicht am Standort ausfallsichere sind.) Anleitung zum Planen von VoIP Zweigstellenstandort finden Sie unter unserer Dokumentation [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/en-us/library/gg398477%28v=ocs.15%29.aspx) für Skype für Business Server 2015 relevanten weiterhin korrekt sind.
+Wenn Zweigstellenstandorte erforderlich ist, muss eine Survivable Branch Appliance oder eine Kombination aus einem Front-End-Server, einen Vermittlungsserver und ein Gateway am Zweigstellenstandort bereitgestellt werden. (Die Annahme mit Zweigstellenstandorte ist, dass die Anwesenheit und Konferenzen nicht am Standort ausfallsichere sind.) Anleitung zum Planen von VoIP Zweigstellenstandort finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
 Für Interaktionen mit einer IP-Nebenstellenanlage Wenn die IP-Nebenstellenanlage nicht ordnungsgemäß early Media-Interaktionen mit mehreren frühe Dialoge und damit zusammenhängende Interaktionen RFC 3960, unterstützt möglich Zuschneiden des ersten Wörter der die Begrüßung für eingehende Anrufe von der IP-Nebenstellenanlage an Lync-Endpunkte. Dieses Verhalten kann Schweregrad, wenn einem Vermittlungsserver an einem zentralen Standort Weiterleiten von Anrufen für eine IP-Nebenstellenanlage beendet wird, in dem die Route an einem Zweigstellenstandort ist, da mehr Zeit benötigt wird, für die Durchführung Signale sein. Wenn Sie dieses Verhalten auftreten, ist die Bereitstellung eines Vermittlungsservers am Zweigstellenstandort die einzige Möglichkeit zur Reduzierung des ersten Wörter clipping.
   
