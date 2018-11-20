@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Von Schulungsleitern gehaltene Kurse für Microsoft-Teams
+title: Schulung mit Dozent für Microsoft Teams
 description: Melden Sie sich für Klassen von Schulungsleitern gehaltene, um alle Informationen zu Microsoft-Teams erhalten.
 author: dearbeen
 ms.topic: hub-page
@@ -9,16 +9,16 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 8944a17bb083dd5af17b8d217f31567fc27e83fe
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546776"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618596"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Von Schulungsleitern gehaltene Kurse für Microsoft-Teams</h1>
+        <h1>Schulung mit Dozent für Microsoft Teams</h1>
         <ul class="pivots">
             <li>
                 <a href="#tab1">Von Schulungsleitern gehaltene Kurse</a>
@@ -28,7 +28,7 @@ ms.locfileid: "25546776"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft ist auf eine Reihe von kostenlose, live-online-Schulungskurse entwickelt, um Sie beim Einstieg hosten und mit Teams wird ausgeführt. Wenn Sie ein Entscheidungsträger im Unternehmen, Admin, IT-Experten oder Endbenutzer sind, finden Sie eine Klasse, die für Sie geeignet ist. Besuchen Sie uns finden Sie unter Teams in Aktion, Ihre Fragen erhalten möchten, und interagieren mit unserem live Kursleiter.<br><br> Klicken Sie auf eine Kachel zu registrieren.</p>
+                                    <p>Microsoft ist auf eine Reihe von kostenlose, live-online-Schulungskurse entwickelt, um Sie beim Einstieg hosten und mit Teams wird ausgeführt.Wenn Sie ein Entscheidungsträger im Unternehmen, Admin, IT-Experten oder Endbenutzer sind, finden Sie eine Klasse, die für Sie geeignet ist. Besuchen Sie uns finden Sie unter Teams in Aktion, Ihre Fragen erhalten möchten, und interagieren mit unserem live Kursleiter. Suchen Sie <a href="https://docs.microsoft.com/microsoftteams/enduser-training">bei Bedarf Endbenutzer Schulung</a>?<br><br>Klicken Sie auf eine Kachel zu registrieren.</p>
                                 </div>
                             </li>
                             <li>
@@ -108,18 +108,18 @@ ms.locfileid: "25546776"
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Get auf Abruf Schulung und videos</h3>
-                                                <p>Abrufen der Endbenutzer Teams Schulungen und Videos on-Demand für Sie und Ihre Benutzer.</p>
+                                                <h3>Tipps und tricks</h3>
+                                                <p>Grundlegendes creative zum Optimieren der Leistung und Teams bei Ihrer täglichen Arbeit organisieren. (Benutzergruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
                                     </div>
