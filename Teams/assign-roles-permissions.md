@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 523530647834fa2c54d18d983f25733bbe25d1be
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 67685fc79f2d2cd1f3ef9f76f6802f73119be43a
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372649"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618545"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Weisen Sie Team-Besitzer und Membern im Microsoft-Teams
 =================================================
@@ -28,26 +28,28 @@ ms.locfileid: "25372649"
 
 In Microsoft-Teams, es gibt zwei Benutzerrollen: **Besitzer** und **Member**. Standardmäßig wird ein neues Team erstellt ein Benutzer den Status eines Besitzers erteilt. Wenn ein Team aus einer vorhandenen Office 365-Gruppe erstellt wird, werden Berechtigungen vererbt.
 
-Die folgende Tabelle zeigt den Unterschied zwischen Berechtigungen eines Besitzers und eines Mitglieds:
+Die folgende Tabelle zeigt den Unterschied Berechtigungen zwischen einer Besitzer und Mitglied.
 
 
 |                                   | Teambesitzer | Teammitglied |
 |-----------------------------------|------------|-------------|
-|          **Team erstellen**          |    Ja     |     Nein      |
+|          **Team erstellen**          |    Ja,<sup>1</sup>     |     Nein      |
 |          **Team verlassen**           |    Ja     |     Ja     |
 |  **Teamnamen/Teambeschreibung bearbeiten**   |    Ja     |     Nein      |
 |          **Team löschen**          |    Ja     |     Nein      |
-|          **Kanal hinzufügen**          |    Ja     |    "Ja"\*    |
-| **Kanalnamen/Kanalbeschreibung bearbeiten** |    Ja     |    "Ja"\*    |
-|        **Kanal löschen**         |    Ja     |    "Ja"\*    |
-|          **Mitglieder hinzufügen**          |  "Ja"\*\*   |     Nein      |
-|           **Registerkarten hinzufügen**            |    Ja     |    "Ja"\*    |
-|        **Connectors hinzufügen**         |    Ja     |    "Ja"\*    |
-|           **Bots hinzufügen**            |    Ja     |    Ja\*    |
+|          **Kanal hinzufügen**          |    Ja     |    Ja,<sup>2</sup>|
+| **Kanalnamen/Kanalbeschreibung bearbeiten** |    Ja     |    Ja,<sup>2</sup>|
+|        **Kanal löschen**         |    Ja     |    Ja,<sup>2</sup>|
+|          **Mitglieder hinzufügen**          |  Ja,<sup>3</sup>   |     Nein      |
+|           **Registerkarten hinzufügen**            |    Ja     |    Ja,<sup>2</sup>|
+|        **Connectors hinzufügen**         |    Ja     |    Ja,<sup>2</sup>|
+|           **Bots hinzufügen**            |    Ja     |    Ja,<sup>2</sup>|
 
-\*Diese Elemente können mithilfe eines Besitzers auf einer Teamebene deaktiviert werden in diesem Fall würde die Mitglieder nicht darauf zugreifen können.
+<sup>1</sup> Team Besitzer können Teams erstellen, es sei denn, sie haben aus auf diese Weise eingeschränkt wurde. Siehe "Berechtigungen zum Erstellen von Teams" weiter unten.
+>
+<sup>2</sup> dieser Elemente können mithilfe eines Besitzers auf einer Teamebene deaktiviert werden in diesem Fall würde die Mitglieder nicht darauf zugreifen können.
 
-\*\*Nach dem Hinzufügen eines Mitglieds zu einem Team kann ein Besitzer auch ein Mitglied zum Status eines Besitzers hochstufen. Ein Besitzer kann auch seinen eigenen Status zu dem eines Mitglieds herabstufen.
+<sup>3</sup> nach dem Hinzufügen eines Elements zu einem Team, kann ein Besitzers auch Mitglied, um den Status eines Besitzers heraufgestuft werden. Es ist außerdem möglich, dass Besitzer zu stufende Websites ihren eigenen Status auf einen Member.
 
 
 
