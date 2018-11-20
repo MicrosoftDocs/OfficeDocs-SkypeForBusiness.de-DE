@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 98d8ec4eb6f6ab943f1515900aa20debbb7933b8
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532278"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620003"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -39,7 +39,7 @@ In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, nach Funkt
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Admin-Verwaltung von Mandanten geltende Connectors ist nicht mehr verfügbar  <br/> |Beim Hinzufügen eines Connectors im Client und online-Version werden wir den Fehler: ein unerwarteter Fehler aufgetreten. Versuchen Sie es erneut. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Deaktivieren Sie mit Einstellungen für Teams. Finden Sie unter Support-Artikelhttps://msdn.microsoft.com/microsoft-teams/connectors  <br/> |21.06.2017  <br/> |
+|Admin-Verwaltung von Mandanten geltende Connectors ist nicht mehr verfügbar  <br/> |Beim Hinzufügen eines Connectors im Client und online-Version werden wir den Fehler: ein unerwarteter Fehler aufgetreten. Versuchen Sie es erneut. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Deaktivieren Sie mit Einstellungen für Teams. Finden Sie in diesem Artikel:https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.2017  <br/> |
 
 ## <a name="apps"></a>Apps
 

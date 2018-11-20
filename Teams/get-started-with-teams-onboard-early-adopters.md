@@ -1,5 +1,5 @@
 ---
-title: Integrierte frühe Übernahmen zu Microsoft-Teams
+title: Onboarding von Early Adopters von Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 4f5f4b0732aab299a2cf4038547dfa9b6bf4562d
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519869"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620099"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Integrierte frühe Übernahmen zu Microsoft-Teams
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Onboarding von Early Adopters von Microsoft Teams
 
 ## <a name="invite-users-to-teams"></a>Einladen von Benutzern, Teams
 
@@ -52,7 +52,7 @@ Wechseln zu: [Teams für Windows](#teams-for-windows) | [Teams für Mac](#teams-
 Der Teams Desktopclient ermöglicht es den Benutzern Windows- und Mac insgesamt am besten. Finden Sie weitere Informationen finden Sie unter [Abrufen von Clients für Teams (Desktopclient)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) und [hardwareanforderungen für die Microsoft-Teams, app](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> Als Administrator können Sie die Methode zum Verteilen der Installationsdateien auf Computern in Ihrer Organisation, wie System Center Configuration Manager (Windows) oder Jamf Pro (Mac OS) auswählen. Zum Abrufen der
+> Als Administrator können Sie die Methode zum Verteilen der Installationsdateien auf Computern in Ihrer Organisation, wie System Center Configuration Manager (Windows) oder Jamf Pro (Mac OS) auswählen.
 
 #### <a name="teams-for-windows"></a>Windows-Teams 
 Die einfachste Möglichkeit zum Installieren des Windows-desktop-Clients werden empfohlen:

@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1eeb32f86f678672a14d42b241e56eb9ab92b02
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9fc0a0cf983cff89482fa645c9176d66a0d9f259
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532184"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26619995"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -127,9 +127,6 @@ Mobile Apps werden nur über den jeweiligen App Store für ihre mobile Plattform
 |---------|---------|---------|
 |![Entscheidungspunktsymbol](media/Get_clients_for_Microsoft_Teams_image4.png)      |Entscheidungspunkt         |Gelten Einschränkungen, die Benutzer daran hindern, den entsprechenden Microsoft Teams-Client auf ihren Geräten zu installieren?         |
 |![Symbol für „Nächste Schritte“](media/Get_clients_for_Microsoft_Teams_image5.png)     |Nächste Schritte         |Wenn Ihre Organisation Softwareinstallationen einschränkt, stellen Sie sicher, dass dieser Prozess mit Microsoft Teams kompatibel ist. Hinweis: Administratorrechte sind zum Installieren von Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich.         |
-
-
-  <span id="_Hlk477176062" class="anchor"></span>  Entscheidungspunkt   Gelten Einschränkungen, die Benutzer daran hindern, den entsprechenden Microsoft Teams-Client auf ihren Geräten zu installieren?
 
 <a name="client-update-management"></a>Verwaltung von Clientupdates
 ------------------------
