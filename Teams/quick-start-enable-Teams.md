@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f7f4dcc7ce15549384bbdd5485bed9fbe7b7ef5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 98112579a33d633e4303bbf4f395f508b955eb8e
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012409"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625674"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Schnellstart – Microsoft Teams-Planungshandbuch
 ==========================================================
@@ -49,7 +49,7 @@ Sehen Sie sich dieses kurze Video mit einfachen Ratschlägen an, die Sie beim Pl
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Wenn Microsoft Teams in Ihrem Office 365-Mandanten nicht aktiviert ist und Sie Office 365-Administrator sind, stellen Sie mithilfe der Anweisungen im Artikel [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md) sicher, dass Ihre Benutzer auf die Anwendung zugreifen können.
+Wenn Microsoft-Teams, nicht in Ihrem Office 365-Mandanten aktiviert ist und Sie sind ein Office 365 Administrator Folgen haben die Anweisungen im Artikel [Verwalten des Benutzerzugriffs für Teams](user-access.md) , um sicherzustellen, dass Ihre Benutzer Zugriff auf die Anwendung.
 
 ## <a name="step-3-complete-technical-planning"></a>Schritt 3: Durchführen der technischen Planung
 
@@ -60,7 +60,7 @@ Hohe Benutzerfreundlichkeit ist das Ergebnis einer effizienten technischen Planu
 3.  [URLs und IP-Adressbereiche von Office 365](office-365-urls-ip-address-ranges.md)
 4.  [Gastzugriff in Microsoft Teams](guest-access.md)
 
-Für manche Organisationen sind darüber hinaus die Informationen unter [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md) relevant.
+Einige Organisationen möchten darüber hinaus [Übersicht über Sicherheit und Einhaltung von Vorschriften in Teams](security-compliance-overview.md)lesen.
 
 
 ## <a name="step-4-conduct-pilots-and-deploy-teams"></a>Schritt 4: Durchführen von Pilotprojekten und Bereitstellen von Microsoft Teams

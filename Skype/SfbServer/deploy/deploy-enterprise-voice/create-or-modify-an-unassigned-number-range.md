@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Erstellen Sie, ändern Sie oder löschen Sie nicht zugewiesener Nummernbereiche für ansageanwendung in Skype für Business Server Enterprise-VoIP. Dies wirkt sich auf den Umgang mit Anrufen an nicht zugewiesene Nummern aus.
-ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372713"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625666"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Erstellen Sie oder ändern Sie einen Bereichs nicht zugewiesenen Nummern in Skype für Business Server
  
@@ -40,7 +40,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Mit der Skype Business Server-Systemsteuerung konfigurieren nicht zugewiesener Telefonnummern
 
-1. Melden Sie sich an dem Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder csadministrator an. Weitere Informationen hierzu finden Sie unter **Delegate Setup Permissions**.
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
@@ -95,7 +95,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
 3. Verwenden Sie **New-CsUnassignedNumber** , um einen neuen Bereichs nicht zugewiesener Nummern zu erstellen. Verwenden Sie **Set-CsUnassignedNumber** , um einen vorhandenen nicht zugewiesenen Nummern ändern.
     
     > [!TIP]
-    > Wenn sich Bereiche überlappen und die Bereiche in einer bestimmten Reihenfolge angewendet werden sollen, fügen Sie den Parameter „Priority“ ein. Daraufhin wird der Bereich mit der höchsten Priorität für den Anruf angewendet. 
+    > Wenn sich Bereiche überlappen und die Bereiche in einer bestimmten Reihenfolge angewendet werden sollen, fügen Sie den Parameter „Priority“ ein. Daraufhin wird der Bereich mit der höchsten Priorität für den Anruf angewendet. Der Wert 0 gibt die höchste Priorität.
   
     Führen Sie in der Befehlszeile eine der folgenden Aktionen aus:
     
@@ -133,7 +133,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Skype Business Server-Systemsteuerung verwenden, um einen nicht zugewiesenen Nummern zu löschen
 
-1.  Melden Sie sich an dem Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder csadministrator an. Weitere Informationen hierzu finden Sie unter **Delegate Setup Permissions**.
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     
@@ -168,7 +168,7 @@ Verwenden Sie eines der folgenden Verfahren zum Konfigurieren nicht zugewiesener
   
 ## <a name="see-also"></a>Siehe auch
 
-[Neue CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
 [Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
