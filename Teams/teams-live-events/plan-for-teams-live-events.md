@@ -1,5 +1,5 @@
 ---
-title: Planen von live Ereignisse in der Microsoft-Teams
+title: Plan für Live-Ereignisse in Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -12,14 +12,14 @@ search.appverid: MET150
 description: Informationen Sie zu den Faktoren berücksichtigen vor dem Einrichten von live Ereignisse in der Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532317"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626262"
 ---
-# <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von live Ereignisse in der Microsoft-Teams
+# <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Wenn Sie Teams live Ereignisse zum Speichern von großer Besprechungen in Ihrer Organisation planen, sind verschiedene Faktoren, die Sie berücksichtigen, bevor sie alle bis festgelegt wird gestartet müssen. 
@@ -109,5 +109,5 @@ Wechseln Sie zur [für Teams live Ereignisse einrichten](set-up-for-teams-live-e
 ### <a name="related-topics"></a>Verwandte Themen
 - [Was sind Teams live Ereignisse?](what-are-teams-live-events.md)
 - [Einrichten von für Teams live Ereignisse](set-up-for-teams-live-events.md)
-- [Konfigurieren live Ereignisse Einstellungen in Teams](configure-teams-live-events.md)
+- [Konfigurieren von live Ereignisse Einstellungen in Teams](configure-teams-live-events.md)
 

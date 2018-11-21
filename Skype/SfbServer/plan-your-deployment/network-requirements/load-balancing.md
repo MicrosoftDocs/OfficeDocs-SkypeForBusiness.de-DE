@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Zusammenfassung: Überprüfen Sie den Lastenausgleich Überlegungen vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: cb0b1d8c77a4953ed7950d85bd198bfdd4823961
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882266"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626191"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Anforderungen an den Lastenausgleich für Skype for Business
  
@@ -34,7 +34,7 @@ Für sich selbst die lastenausgleichslösung für jeden Pool in Ihrer Bereitstel
     
 - Für einige Arten von Datenverkehr ist ein Hardwaregerät zum Lastenausgleich erforderlich. HTTP-Datenverkehr erfordert beispielsweise ein Hardwaregerät zum Lastenausgleich anstatt eines DNS-Lastenausgleichs. Der DNS-Lastenausgleich funktioniert nicht beim Client-zu-Server-Datenverkehr.
     
-Wenn Sie für einen Pool den DNS-Lastenausgleich verwenden möchten, aber dennoch Hardwaregeräte zum Lastenausgleich benötigen, beispielsweise für den HTTP-Datenverkehr, ist die Verwaltung der Hardwaregeräte zum Lastenausgleich jetzt erheblich einfacher. Ein Beispiel hierfür ist, dass ausschließlich der HTTP- und HTTPS-Datenverkehr verwaltet wird, während alle anderen Protokolle vom DNS-Lastenausgleich verwaltet werden. Weitere Informationen hierzu finden Sie unter [DNS-Lastenausgleich](load-balancing.md#BKMK_DNSLoadBalancing). 
+Wenn Sie für einen Pool den DNS-Lastenausgleich verwenden möchten, aber dennoch Hardwaregeräte zum Lastenausgleich benötigen, beispielsweise für den HTTP-Datenverkehr, ist die Verwaltung der Hardwaregeräte zum Lastenausgleich jetzt erheblich einfacher. Ein Beispiel hierfür ist, dass ausschließlich der HTTP- und HTTPS-Datenverkehr verwaltet wird, während alle anderen Protokolle vom DNS-Lastenausgleich verwaltet werden. Ausführliche Informationen finden Sie unter [DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing). 
   
 Für Server-zu-Server-Datenverkehr Skype für Business Server Topologie berücksichtigen zum Lastenausgleich verwendet wird. Server lesen die veröffentlichte Topologie im zentralen Verwaltungsspeicher erhalten Sie die FQDNs der Server in der Topologie, und automatisch den Datenverkehr zwischen den Servern zu verteilen. Administratoren müssen diese Art des Lastenausgleichs weder konfigurieren noch verwalten. 
   
@@ -109,7 +109,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
 > F5-Hardwaregeräte zum Lastenausgleich sind mit einer Funktion namens OneConnect ausgestattet, mit der sichergestellt wird, dass für jede Anforderung in einer TCP-Verbindung ein individueller Lastenausgleich vorgenommen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass der Hersteller des Hardwaregeräts für den Lastenausgleich dieselbe Funktion unterstützt. Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich. F5 stellt hierfür bestimmte Einstellungen bereit. 
   
 > [!CAUTION]
-> Ausführliche Informationen zum Drittanbieter Hardwaregeräte zum Lastenausgleich finden Sie unter [Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> Detaillierte Informationen zu Drittanbieter-Hardwaregeräten zum Lastenausgleich finden Sie unter [Infrastruktur für Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Director- und Front-End-Pool-Webdienste aufgeführt:
   
@@ -145,7 +145,7 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 |\<Pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Keine  <br/> |HTTPS  <br/> |
 |\<Pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Keine  <br/> |HTTP  <br/> |
    
-## <a name="dns-load-balancing"></a>DNS-Lastenausgleich
+## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BKMK_DNSLoadBalancing"> </a>
 
 Skype für Business Server ermöglicht DNS-Lastenausgleich, eine Software-Lösung, die die Verwaltung Wartungsaufwand für den Lastenausgleich in Ihrem Netzwerk erheblich beeinträchtigen können. DNS-Lastenausgleich gleicht den Netzwerkdatenverkehr, der für Skype für Business Server, wie etwa SIP-Datenverkehr und der Mediendatenverkehr eindeutig ist.

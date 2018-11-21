@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: Informationen Sie zu den Systemanforderungen für Edge-Server in Skype für Business Server.'
-ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16cc2a5e640872fe8c57113c7aaca588efab121a
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374871"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626160"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Edge-Server-System Requirements in Skype für Business Server
  

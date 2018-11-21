@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: badafff1ec2ca596828bdbcb7547cf777e08b432
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a987b6079b10a3deaf6a76dd2629be59b52a2007
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016557"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626239"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -55,7 +55,7 @@ Guthaben für Kommunikationen ist eine praktische Möglichkeit, die Minuten in A
   
 ## <a name="what-are-the-communications-credits-rates"></a>Welche Tarife gelten für Guthaben für Kommunikationen?
 
-Wenn Sie sich fragen, welche Kosten für die Anrufpläne anfallen, finden Sie Informationen zu den Tarifen für Guthaben für Kommunikationen unter [Anrufpläne](https://products.office.com/skype-for-business/pstn-calling-plans#Rates).
+Wenn Sie sich fragen, welche Kosten für die Anrufpläne anfallen, finden Sie Informationen zu den Tarifen für Guthaben für Kommunikationen unter [Anrufpläne](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates).
   
 ## <a name="what-is-it"></a>Was ist das?
 

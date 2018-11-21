@@ -14,12 +14,12 @@ description: Informationen Sie zu den Schritten für Ereignisse in Teams, einsch
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
-ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
+ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26548830"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626270"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -110,5 +110,5 @@ Wechseln Sie zur [Konfigurieren live Ereignisse Einstellungen in Teams](configur
 ### <a name="related-topics"></a>Verwandte Themen
 - [Was sind Teams live Ereignisse?](what-are-teams-live-events.md)
 - [Planen von Teams live-Ereignisse](plan-for-teams-live-events.md)
-- [Konfigurieren live Ereignisse Einstellungen in Teams](configure-teams-live-events.md)
+- [Konfigurieren von live Ereignisse Einstellungen in Teams](configure-teams-live-events.md)
 

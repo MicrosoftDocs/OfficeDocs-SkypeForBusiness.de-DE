@@ -1,5 +1,5 @@
 ---
-title: Verwenden von PowerShell zum Festlegen von live Ereignisse Richtlinien in Microsoft-Teams
+title: Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 description: Beispiele zum Festlegen von Richtlinien in Teams, um zu steuern, wer live Ereignisse in Ihrer Organisation und Features enthalten kann mithilfe von PowerShell stehen in der Ereignisse, die sie erstellen
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f802c2b67c0a4cd4b0838dd9aeec9c4bbf884968
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c198711d918914bbd6a1929514d7c2e9aa7dfe00
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535926"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626223"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von live Ereignisse Richtlinien in Microsoft-Teams
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Die folgenden Windows PowerShell-Cmdlets können Sie festlegen, und weisen Sie Richtlinieneinstellungen für live Ereignisse in Teams: 
@@ -82,15 +82,15 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 Erstellen Sie eine neue Richtlinie, die keine Planung live Ereignisse erlaubt, ausführen:
 ```
-New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy
+New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 Deaktivieren Sie live Ereignisse planen, ausführen:
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy -AllowBroadcastScheduling $false
+Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 Diese Richtlinie, und führen Sie dann weisen Sie Benutzer zu:
 ```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **Planung für eine große Anzahl von Benutzern live-Ereignis deaktivieren möchten und eine Gruppe von Benutzern so planen sie zulassen**
 
