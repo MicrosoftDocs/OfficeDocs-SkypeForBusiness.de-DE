@@ -14,18 +14,18 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bca4d2bb757f8fdcece40f82ad0ddce54c1d246
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 042c53f09fd7797c0a25703d204680885d675a29
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375566"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649700"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
 Dieser Artikel ist Teil der erstklassige Betriebsprozesse Stufe des Ihre Upgrade Reise, wodurch gestartet wird, sobald Sie die Aktualisierung von Skype für Unternehmen auf Teams abgeschlossen haben.
 
-# <a name="operate-my-service"></a>Meine Dienst betreiben
+# <a name="operate-your-service"></a>Verwenden von Ihrem Dienst
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für Teams für Ihre Organisation erfolgreich ausgeführt, nachdem Sie aktualisiert haben. Ihre Teams Dienste ordnungsgemäß funktioniert, können Sie sein sicher, dass Sie eine hohe Qualität und zuverlässige Erfahrung für Ihre Organisation zur Verfügung stellen.
 
@@ -173,7 +173,7 @@ Der erste Schritt beim Änderungsmanagement überwacht die Änderungen, die für
 Im [Blog des Microsoft-Teams,](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)erhalten Sie Informationen zu bewährten Methoden, Trends und Neuigkeiten zu Teams Produktupdates. Erwarten Sie wichtiges Feature Updates für Teams hier vorgestellt. Sie können auch den Blog über einen RSS-feed abonnieren. Anschließend können Sie [den RSS-feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) direkt in einem Kanal Teams hinzufügen, damit alle wichtigen News direkt in Teams gesendet wird.
 
 [Versionshinweise für Microsoft-Teams,](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)sind alle Features, die veröffentlicht werden dokumentiert.
-Hier finden Sie eine Liste der Features, die freigegeben wurden für Desktop, Web und mobile Geräte. Der gleiche Satz von Anmerkungen zu dieser Version sind auch auf der Registerkarte Notizen freigeben in der [Microsoft-Teams T-Bot](t-bot.md)verfügbar.
+Hier finden Sie eine Liste der Features, die freigegeben wurden für Desktop, Web und mobile Geräte. Der gleiche Satz von Anmerkungen zu dieser Version stehen ebenfalls auf der Registerkarte **What's new** in der [Hilfe](get-help-in-microsoft-teams.md)zur Verfügung.
 
 Machen Sie sich vertraut mit den verfügbaren Ressourcen, und stellen Sie sicher, dass die entsprechenden Besitzer zum Überwachen von Änderung zugewiesen.
 
@@ -284,7 +284,7 @@ Ermitteln Sie zunächst, ob dies eine Annahme oder technischen Problem ist. Begi
 
 [Informationen zum Office 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

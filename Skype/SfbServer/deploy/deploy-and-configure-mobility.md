@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Dieser Artikel führt Sie durch die Schritte zum Konfigurieren einer vorhandenen Skype für Business Server-Installation zum Verwenden des mobilitätsdienst, sodass Ihre mobilen Geräte Skype für Business Server Mobilitätsfeatures nutzen können.
-ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375446"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649715"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Bereitstellen und Konfigurieren von Mobilität für Skype Business Server  
  
@@ -27,9 +27,9 @@ Müssen überprüft den Artikel [für die Mobilität für Skype für Business Se
 |[Ändern von Zertifikaten](deploy-and-configure-mobility.md#ModCerts) <br/> |Lokaler Administrator  <br/> |
 |[Konfigurieren des Reverseproxys](deploy-and-configure-mobility.md#ConfigRP) <br/> |Lokaler Administrator  <br/> |
 |[Konfigurieren der AutoErmittlung für Mobilität mit Hybridbereitstellungen](deploy-and-configure-mobility.md#ConfigAutoD) <br/> |Domänen-Admins  <br/> |
-|[Testen der Mobilitätsbereitstellung](deploy-and-configure-mobility.md#TestMobility) <br/> |"Csadministrator"  <br/> |
-|[Konfigurieren von Pushbenachrichtigungen](deploy-and-configure-mobility.md#ConfigPush) <br/> |"RTCUniversalServerAdmins"  <br/> |
-|[Konfigurieren der Mobilitätsrichtlinie](deploy-and-configure-mobility.md#ConfigMob) <br/> |"Csadministrator"  <br/> |
+|[Testen der Mobilitätsbereitstellung](deploy-and-configure-mobility.md#TestMobility) <br/> |CsAdministrator  <br/> |
+|[Konfigurieren von Pushbenachrichtigungen](deploy-and-configure-mobility.md#ConfigPush) <br/> |RtcUniversalServerAdmins  <br/> |
+|[Konfigurieren der Mobilitätsrichtlinie](deploy-and-configure-mobility.md#ConfigMob) <br/> |CsAdministrator  <br/> |
    
 Alle folgenden Abschnitte enthalten Schritte, bei denen davon ausgegangen wird, dass Sie das Planungsthema gelesen haben. Wenn Ihnen etwas unklar ist, können Sie dort nachlesen.
 
@@ -174,7 +174,7 @@ Wenn Sie Fragen zur Planung, um Zertifikate haben, haben wir, die im Artikel [Pl
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - Wenn Sie mehrere SIP-Domänen haben, können Sie den Parameter „AllSipDomain“ nicht wie im Beispiel oben verwenden. Sie müssen stattdessen den Parameter „DomainName“ verwenden. Und wenn Sie den Parameter „DomainName“ verwenden, müssen Sie den vollqualifizierten Domänennamen für die Einträge „lyncdiscoverinternal“ und „lyncdiscover“ definieren. Ein Beispiel wäre Folgendes (ersetzen Sie den Parameter -Ca mit dem Pfad Ihrer Zertifizierungsstelle):
+   - Nun, wenn Sie mehrere SIP-Domänen verfügen, können nicht den AllSipDomain Parameter wie im obigen Beispiel verwenden. Sie müssen stattdessen den Parameter „DomainName“ verwenden. Und wenn Sie den Parameter „DomainName“ verwenden, müssen Sie den vollqualifizierten Domänennamen für die Einträge „lyncdiscoverinternal“ und „lyncdiscover“ definieren. Ein Beispiel wäre Folgendes (ersetzen Sie den Parameter -Ca mit dem Pfad Ihrer Zertifizierungsstelle):
     
    ```
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -188,7 +188,7 @@ Wenn Sie Fragen zur Planung, um Zertifikate haben, haben wir, die im Artikel [Pl
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - Wenn Sie mehrere SIP-Domänen haben, können Sie den Parameter „AllSipDomain“ nicht wie im Beispiel oben verwenden. Sie müssen stattdessen den Parameter „DomainName“ verwenden. Und wenn Sie den Parameter „DomainName“ verwenden, müssen Sie den vollqualifizierten Domänennamen für die Einträge „lyncdiscoverinternal“ und „lyncdiscover“ definieren. Ein Beispiel wäre Folgendes (ersetzen Sie den Parameter -Ca mit dem Pfad Ihrer Zertifizierungsstelle):
+   - Nun, wenn Sie mehrere SIP-Domänen verfügen, können nicht den AllSipDomain Parameter wie im obigen Beispiel verwenden. Sie müssen stattdessen den Parameter „DomainName“ verwenden. Und wenn Sie den Parameter „DomainName“ verwenden, müssen Sie den vollqualifizierten Domänennamen für die Einträge „lyncdiscoverinternal“ und „lyncdiscover“ definieren. Ein Beispiel wäre Folgendes (ersetzen Sie den Parameter -Ca mit dem Pfad Ihrer Zertifizierungsstelle):
     
    ```
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -258,7 +258,7 @@ Wenn Sie Fragen zur Planung, um Zertifikate haben, haben wir, die im Artikel [Pl
 
 Die folgenden Schritte sind nicht zur exakten Befolgung gedacht. In früheren Produktversionen wurden Sie beispielsweise durch die Konfiguration von Threat Management Gateway (TMG) geführt, und wenn Sie dies nicht verwendeten, mussten Sie von dieser Stelle an Ihre eigene Version erarbeiten.
   
-TMG ist nicht mehr von Microsoft als Produkt angeboten wird, und wenn Sie weiterhin konfigurieren müssen, können Sie die [Lync Server 2013 Schritte](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx)betrachten. Jedoch die folgende Informationen des für die direkte Verwendung im Allgemeinen empfiehlt sich, auch wenn es besteht keine Möglichkeit, die wir für jede Reverseproxy gibt es bestimmte Arbeitsschritte bereitstellen können.
+TMG wird von Microsoft nicht mehr als Produkt angeboten; wenn Sie es dennoch konfigurieren müssen, finden Sie die Schritte unter [Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Jedoch die folgende Informationen des für die direkte Verwendung im Allgemeinen empfiehlt sich, auch wenn es besteht keine Möglichkeit, die wir für jede Reverseproxy gibt es bestimmte Arbeitsschritte bereitstellen können.
   
 Es sind zwei Hauptpunkte zu berücksichtigen:
   
@@ -459,7 +459,7 @@ Für Lync Server 2010-Clients auf Skype für Business Server 2015 müssen Sie f�
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-Um den Befehl Verfahren überprüfen können darüber hinaus [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) "und" [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps)ausgecheckt werden.
+Weitere Informationen zu den Befehlsverfahren finden Sie unter [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) und [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
   
 ## <a name="configure-for-push-notifications"></a>Konfigurieren von Pushbenachrichtigungen
 <a name="ConfigPush"> </a>

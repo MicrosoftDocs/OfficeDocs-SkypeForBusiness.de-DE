@@ -1,5 +1,5 @@
 ---
-title: Betriebshandbuch für Microsoft-Teams
+title: Betriebshandbuch für Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5f0c1f83eca9bd7f48920eb603aaeabb8e1429e
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502267"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649597"
 ---
 # <a name="operate-my-service"></a>Meine Dienst betreiben
 
@@ -169,7 +169,7 @@ Der erste Schritt beim Änderungsmanagement überwacht die Änderungen, die für
 Im [Blog des Microsoft-Teams,](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)erhalten Sie Informationen zu bewährten Methoden, Trends und Neuigkeiten zu Teams Produktupdates. Erwarten Sie wichtiges Feature Updates für Teams hier vorgestellt. Sie können auch den Blog über einen RSS-feed abonnieren. Anschließend können Sie [den RSS-feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) direkt in einem Kanal Teams hinzufügen, damit alle wichtigen News direkt in Teams gesendet wird.
 
 [Versionshinweise für Microsoft-Teams,](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)sind alle Features, die veröffentlicht werden dokumentiert.
-Hier finden Sie eine Liste der Features, die freigegeben wurden für Desktop, Web und mobile Geräte. Der gleiche Satz von Anmerkungen zu dieser Version sind auch auf der Registerkarte Notizen freigeben in der [Microsoft-Teams T-Bot](t-bot.md)verfügbar.
+Hier finden Sie eine Liste der Features, die freigegeben wurden für Desktop, Web und mobile Geräte. Der gleiche Satz von Anmerkungen zu dieser Version stehen ebenfalls auf der Registerkarte **What's new** in der [Hilfe](get-help-in-microsoft-teams.md)zur Verfügung.
 
 Machen Sie sich vertraut mit den verfügbaren Ressourcen, und stellen Sie sicher, dass die entsprechenden Besitzer zum Überwachen von Änderung zugewiesen.
 
@@ -280,7 +280,7 @@ Ermitteln Sie zunächst, ob dies eine Annahme oder technischen Problem ist. Begi
 
 [Informationen zum Office 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

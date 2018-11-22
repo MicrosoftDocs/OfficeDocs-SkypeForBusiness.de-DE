@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 278e6200547966e5a41983bf3a0f76ecb0e5ca11
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532355"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649684"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -29,7 +29,7 @@ Dieser Artikel ist Teil der erstklassige Betriebsprozesse Stufe des Ihre Upgrade
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für die optimale Nutzung von Teams nach Ihrem Upgrade Betrieb erste. Kontinuierlich Überwachungsfunktionen Teams Service, können Sie sein sicher, dass Sie den größten Nutzen für Ihre Organisation liefern sind.
 
-## <a name="enhance-my-service-overview"></a>Verbessern Sie meine Service (Übersicht)
+## <a name="enhance-your-service-overview"></a>Verbessern Sie Ihre Services (Übersicht)
 Nachdem Sie erfolgreich Teams in Ihrer Organisation bereitgestellt haben und den Betrieb von des Diensts mit Qualität, Zuverlässigkeit und im nächsten Schritt werden ist für regelmäßige ausgewertet werden soll, ob Sie alle Möglichkeiten zur Verbesserung Ihrer Dienste verfügen. Dies ist ein Teil der Planung, d. h. eines modernen Standards für das Cloud-Service-Management zur Verbesserung der kontinuierlichen Service. 
 
 Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben, erhalten bereitstellen regelmäßiger Updates von uns über neue und geänderte Features über unsere Nachrichtencenter Sie. 

@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten der meine Benutzer bereitschaftsplan vor dem Upgrade von Skype für Unternehmen von Microsoft-Teams - Microsoft-Teams
+title: Vorbereiten einer bereitschaftsplan Benutzer vor dem Upgrade von Skype für Unternehmen Microsoft-Teams - Microsoft-Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eba3174e8bce17f66a7e990c0066bc886aed9f9b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: de13a3775c9ffae4fde1ffcd71be23ffab4e4a96
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374097"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649692"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -47,7 +47,7 @@ Eine optimale Benutzer bereitschaftsplan beinhaltet, wie Sie mit kommunizieren, 
 <table>
 <tbody>
 <tr><th>Welche Kommunikationskanäle wird werden genutzt?</th><th>Welche Schulung Kanäle werden werden genutzt?</th><th>Welche Unterstützung wird Kanäle Sie verwenden?</th></tr>
-<tr><td><ul><li>E-Mail<br><strong>Tipp:</strong> Verwenden Sie unsere Beispiel Piloten Koexistenz, und aktualisieren Sie e-Mails an Ihre e-Mail-Kampagne anpassen.</li><li>Poster und digitaler Signatur</li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams-Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Veröffentlichte Microsoft online-Artikel und videos</li><li>Ressourcen:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Wechseln Sie zu Teams von Skype für Unternehmen</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Video Schulung von Teams</a></li></ul></li><li>In der Produkt-Unterstützung (T-Bot)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Self-Service (Intranetwebsite)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Online-Hilfe und-Vorgehensweisen</a></li><li>Floor-Walkers und champions</li><li>Feedbackschleife (Umfragen, Bewertungen)</li></ul></td></tr>
+<tr><td><ul><li>E-Mail<br><strong>Tipp:</strong> Verwenden Sie unsere Beispiel Piloten Koexistenz, und aktualisieren Sie e-Mails an Ihre e-Mail-Kampagne anpassen.</li><li>Poster und digitaler Signatur</li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams-Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Veröffentlichte Microsoft online-Artikel und videos</li><li>Ressourcen:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Wechseln Sie zu Teams von Skype für Unternehmen</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Video Schulung von Teams</a></li></ul></li><li>In der Produkt-Unterstützung (Hilfe)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Self-Service (Intranetwebsite)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Online-Hilfe und-Vorgehensweisen</a></li><li>Floor-Walkers und champions</li><li>Feedbackschleife (Umfragen, Bewertungen)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

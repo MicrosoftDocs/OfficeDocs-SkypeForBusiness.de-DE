@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8e81a20d5c3e792f2a249b86d95a0ca22ab042e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 91608a65530c7f57772b0fe544394a669e67b2a4
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016261"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649525"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -33,9 +33,9 @@ Technologie wird immer schneller Innovation. Ständige und Aktivieren einer mode
 
 Der Status des Netzwerks wirkt sich auf die Benutzeroberfläche. Wenn ein Benutzer eine schlechte Erfahrung verfügt (beispielsweise Anruf setzt oder Verzögerung Zeit bei der Teilnahme an Besprechungen), deren korrelieren mit der Technologie erläutert selbst, und setzen diese mit den Eindruck, der nicht die Technologie funktioniert, und öffnen die Tür für nicht unterstützte apps. Implementieren einen Plan zum Überwachen und zur Abwehr von Integrität des Netzwerks können Sie einen positiven Eindruck zusätzlich zur Reduzierung von Anrufen an Ihre Helpdesk sicherstellen. Weitere Informationen finden Sie unter den folgenden Artikeln:
 
--   [Meine Dienst betreiben](upgrade-operate-my-service.md)
+-   [Verwenden von Ihrem Dienst](upgrade-operate-my-service.md)
 -   [Monitorqualität](upgrade-monitor-quality.md)
--   [Meine Service zu verbessern](upgrade-enhance-my-service.md)
+-   [Erweitern Sie den Dienst](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Laufwerk Benutzer Momentum und Akzeptanz
 
