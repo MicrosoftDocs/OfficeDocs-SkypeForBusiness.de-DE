@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
+ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532498"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26670931"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -29,7 +29,7 @@ Teams sind eine Sammlung von Personen, die auf ein gemeinsames Ziel zusammenzufa
 
 Vor dem Erstellen eines Teams in unserem Produkt, es ist ratsam, zu dem Ziel, Projekt oder Arbeitsaufgaben vorstellen und der Organisation Personen können projektbezogenen übermitteln. Wenn Sie das Team erstellt haben, fügen Sie diese Personen oder Gruppen hinzu, um mit der Zusammenarbeit zu beginnen. Dabei sollten Sie für jedes Team mehrere Besitzer festlegen (siehe [Verwalten von Teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)).
 
-Schauen Sie sich diese kurzen Video sehen Sie einige Beispiele für Zweck Cross-Organisations- oder einzelnen Teams Strukturierung:
+Schauen Sie sich in diesem kurzen Video sehen Sie einige Beispiele für Zweck Cross-Organisations- oder einzelnen Teams Strukturierung:
 
 > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
