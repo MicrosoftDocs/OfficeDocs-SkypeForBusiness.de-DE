@@ -26,14 +26,17 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Schweiz verfügbar.
-ms.openlocfilehash: 022908195a6de8aacc4ba26ebe5397b14cb763e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 22ec9173e00621694512f939818ed0987f5988d5
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012385"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674698"
 ---
 # <a name="availability-in-switzerland"></a>Verfügbarkeit in der Schweiz
+
+> [!NOTE]
+> Sie können **SERVICE** Zahlen in der Schweiz für die Verwendung mit Konferenzen, automatische Telefonzentrale, und rufen Warteschlangen, aber **Benutzeranzahl** kann nicht in der Schweiz abgerufen werden, wie die aufrufende Pläne nicht verfügbar sind.
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
@@ -44,7 +47,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Zürich</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Zurich</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
@@ -68,7 +71,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Zürich  <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Zurich  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    

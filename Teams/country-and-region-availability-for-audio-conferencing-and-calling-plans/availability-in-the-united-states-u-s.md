@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die USA verfügbar.
-ms.openlocfilehash: bc9ee6f7d82fda007cd43f143e2fd619c58b3e21
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8441420c953222538b10488d99f11c7f0f742e0d
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372113"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674802"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
@@ -61,7 +61,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 | **Funktion**                                       | **Details**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sind Anrufpläne zum Kauf verfügbar?  <br/>   | Ja  <br/>                                                                                                                                                                                                                                                                                                                      |
-| Minuten für den Aufruf von Plänen zur Verfügung.              | Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li><li>240 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>600 Minuten für in- und International plant aufrufen</li></li> |
+| Minuten für den Aufruf von Plänen zur Verfügung.              | Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li><li>240 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>Nationalen und internationalen aufrufen planen: 3000 Minuten nationalen OR - 600 Minuten internationaler (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></li> |
 | Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Zu diesem Zeitpunkt unterstützt nicht. <br/>                                                                                                                                                                                                                                                                                               |
 | Sind ausgehende Anrufe möglich?  <br/>                | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                                                                      |
 

@@ -7,17 +7,17 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviewer: laal
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast eingeladen wird, einem Team in Microsoft Teams beizutreten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2e409057d8b55d971f407543e5e7e078730ca4d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c1d1de994792aa683e6ed202c54586cd985e8ab3
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015501"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674473"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================

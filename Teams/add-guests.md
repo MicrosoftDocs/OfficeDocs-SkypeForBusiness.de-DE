@@ -3,21 +3,21 @@ title: Hinzufügen eines Gasts zu einem Team
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
-ms.reviewer: laal
+ms.reviewer: sbhatta
 description: Hier lernen Sie die verfügbaren Tools kennen, mit denen Administratoren neue Gastbenutzer zu einer Organisation hinzufügen können. Dies schließt den Microsoft Teams-Desktop, Webclients und das Portal für Azure Active Directory B2B-Zusammenarbeit ein.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a124cea08a69c01f33c99c16546c5f7bc3440f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016093"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674465"
 ---
 <a name="add-a-guest-to-a-team"></a>Hinzufügen eines Gasts zu einem Team
 =====================
@@ -46,3 +46,8 @@ Gast-Benutzer aus, die Sie bereits über Azure Active Directory B2B, Office 365 
 
 In Azure Active Directory oder im Office 365 Security &amp; Compliance Center können Sie das Hinzufügen von Gastbenutzern nachverfolgen. Das Hinzufügen eines Gasts in /+/Microsoft_Teams/+/ wird als Azure AD-Gruppenverwaltungsaktivität „Mitglied zur Gruppe hinzugefügt“ überwacht und protokolliert. Nähere Einzelheiten finden Sie unter [Überwachung eines B2B-Zusammenarbeitsbenutzers und Berichterstellung](https://go.microsoft.com/fwlink/p/?linkid=858884) und [Durchsuchen des Überwachungsprotokolls im Office 365 Security &amp; Compliance Center](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
+## <a name="more-information"></a>Weitere Informationen
+
+[Autorisieren des Zugriffs in Microsoft-Teams Gast](teams-dependencies.md)
+[Aktivieren oder Deaktivieren der Gast Access in Microsoft-Teams](set-up-guests.md)
+[Verwenden von PowerShell zur Steuerung des Zugriffs auf ein Team Gast](guest-access-powershell.md)

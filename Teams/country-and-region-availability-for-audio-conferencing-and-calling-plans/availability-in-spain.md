@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Spanien verfügbar.
-ms.openlocfilehash: 393ba45c9d16af788ca332cd24b329b213b1f4a9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a9410ddd7a64273ca56e30753c3f4ba2df2c05b3
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012993"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674738"
 ---
 # <a name="availability-in-spain"></a>Verfügbarkeit in Spanien
 
@@ -61,7 +61,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>1200 minute nationalen aufrufen planen </li></li><li>600 Minute für in- und International plant aufrufen</li></li> 
+|Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>1200 minute nationalen aufrufen planen </li></li><li>Nationalen und internationalen aufrufen planen: 1200 Minuten nationalen OR - 600 Minuten internationaler (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></li> 
 |Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Zu diesem Zeitpunkt unterstützt nicht. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) ist ein Skype for Business-Dienst, der im Hintergrund ausgeführt wird und Skype for Business- und Microsoft Teams-Besprechungen automatisch für die Benutzer aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: 4a1cdc03945e6399b4c77dd12b800fd25b2401cc
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: b5484459fc01337bd9eb2dad38e9f0e3349abd07
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561706"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674585"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Einrichten des Meeting Migration Service (MMS)
 
@@ -182,7 +182,7 @@ Wenn Sie das  `Get-CsMeetingMigrationStatus`-Cmdlet ausführen, um eine Übersic
 1. Stellen Sie fest, welche Benutzer betroffen sind. Führen Sie den folgenden Befehl aus, um die Liste der betroffenen Benutzer und den spezifischen gemeldeten Fehler zu erhalten:
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
    ```
 
 2. Führen Sie für jeden dieser Benutzer das [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) aus, um deren Besprechungen manuell zu migrieren.

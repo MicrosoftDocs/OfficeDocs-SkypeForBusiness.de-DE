@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit in Großbritannien (Großbritannien)
+title: Verfügbarkeit im Vereinigten Königreich
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams, für die nach Großbritannien verfügbar.
-ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3b6f1f9bb298e00b0d8786f7b8a04c8ab59352
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531135"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674770"
 ---
-# <a name="availability-in-the-united-kingdom-uk"></a>Verfügbarkeit in Großbritannien (Großbritannien)
+# <a name="availability-in-the-united-kingdom-uk"></a>Verfügbarkeit im Vereinigten Königreich
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
@@ -61,7 +61,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>1200 minute nationalen aufrufen planen </li></li><li>600 Minute für in- und International plant aufrufen</li></li> 
+|Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>1200 minute nationalen aufrufen planen </li></li><li>Nationalen und internationalen aufrufen planen: 1200 Minuten nationalen OR - 600 Minuten internationaler (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></li> 
 |Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Teilweise unterstützt: Anrufe freigegeben Kosten Zahlen aus (Präfixen 44843, 44844, 44845, 44870, 44871, 44872) werden bei Verwendung von Communications haben pro Minute bezahlen unterstützt.  Anrufe an 449XX Präfixe werden nicht unterstützt. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    

@@ -3,22 +3,22 @@ title: Gastfunktionalität
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/26/18
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Hier erhalten Sie Informationen zu der für Gastbenutzer verfügbaren Microsoft Teams-Funktionalität.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 921617c2f9a4a1bcc9f38030bdcea0d72c7f54aa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016517"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674553"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -31,7 +31,7 @@ Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willk
   
     
     
-![Dieser Screenshot zeigt ein Beispiel einer von einem Teambesitzer in Microsoft Teams an einen Gastbenutzer gesendete Willkommens-E-Mail-Nachricht. Die Nachricht beinhaltet Text, der vom Teambesitzer angepasst werden kann, sowie Kurzbeschreibungen der Teams-Funktionen wie Chat, Anrufe und Besprechungen.](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+![Beispiel für eine Willkommensseite e-Mail-Nachricht mit einer Teambesitzer in Microsoft-Teams an einen Gastbenutzer gesendet. Die Nachricht beinhaltet Text, der vom Teambesitzer angepasst werden kann, sowie Kurzbeschreibungen der Teams-Funktionen wie Chat, Anrufe und Besprechungen.](media/guest-experience-image1.png)
   
     
     
@@ -43,7 +43,7 @@ Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die
   
     
     
-![Screenshot, der einen Teil des Marketingkanals für Northwind Traders mit der Benachrichtigung „Dieses Team hat Gäste“ im oberen Banner sowie mit Benutzern abbildet, die mit dem Wort „GÄSTE“ neben ihrem Namen als Gäste gekennzeichnet sind.](media/33394a31-7d10-4950-8b39-b7d9953397c3.png)
+![Screenshot, der einen Teil des Marketingkanals für Northwind Traders mit der Benachrichtigung „Dieses Team hat Gäste“ im oberen Banner sowie mit Benutzern abbildet, die mit dem Wort „GÄSTE“ neben ihrem Namen als Gäste gekennzeichnet sind.](media/guest-experience-image2.png)
   
     
     
@@ -70,8 +70,57 @@ In der folgenden Tabelle werden die für die Teammitglieder einer Organisation v
 |Öffentliches Team finden und daran teilnehmen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Organisationschat anzeigen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
+In der folgenden Tabelle zeigt die verfügbaren Features aufrufende und Besprechungsanfragen an Gäste.
 
-    
+| Aufrufen von Features | Gast | E1 und E3 Benutzer | E5 und EV-Benutzer |
+| --------------- | ----- | -------------- | -------------- |
+| VOIP-Anrufe | Ja | Ja | Ja |
+| Gruppe aufrufen | Ja | Ja | Ja |
+| Die anrufsteuerungen Core unterstützt (halten, stumm schalten, Video on/off Bildschirmfreigabe) | Ja | Ja | Ja |
+| Ziel übertragen | Ja | Ja | Ja |
+| Können einen Anruf weiterleiten | Ja | Ja | Ja |
+| Konsultieren vor dem durchstellen können | Ja | Ja | Ja |
+| Können andere Benutzer zu einem Anruf über VOIP hinzufügen | Ja | Ja | Ja |
+| Können Benutzer nach Telefonnummer einen Anruf hinzufügen | Nein | Nein | Ja |
+| Forward-Ziel | Nein | Ja | Ja |
+| Rufen Sie die Gruppe Ziel | Nein | Ja | Ja |
+| Nicht beantwortete Ziel | Nein | Ja | Ja |
+| Kann das Ziel einer federated Aufrufs | Nein | Ja | Ja |
+| Können Verbundbenutzer anrufen | Nein | Ja | Ja |
+| Können sofort ihre Anrufe weiterleiten. | Nein | Nein | Ja |
+| Ihre Anrufe können gleichzeitig bei Anrufen. | Nein | Nein | Ja |
+| Kann ihre nicht entgegengenommene Anrufe weitergeleitet werden. | Nein | Nein | Ja |
+| Verpasste Anrufe können an Voicemail umgeleitet wird | Nein | Keine<sup>1</sup> |Ja |
+| Haben Sie eine Telefonnummer ein, die Anrufe empfangen zu können | Nein | Nein | Ja |
+| Wählen Sie Telefonnummern können | Nein | Nein | Ja |
+| Kann Access Einstellungen aufrufen | Nein | Nein | Ja |
+| Voicemail-Ansage zu ändern können | Nein | Keine<sup>1</sup> | Ja |
+| Klingeltöne kann geändert werden. | Nein | Nein  | Ja |
+| Unterstützt TTY | Nein | Nein | Ja |
+| Kann eine Stellvertretung werden | Nein | Nein | Ja |
+|  Kann eine als Stellvertretung in Frage | Nein | Nein | Ja |
+
+
+<sup>1</sup> dieses Feature Kürze verfügbar.
+
+
+
 > [!NOTE]
 > Office 365-Administratoren steuern die für Gäste verfügbaren Funktionen. 
   
+## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+  
+Q. Haben Gäste als Teammitglieder dieselben Funktionen zur Verfügung? A. Nein. Weitere Informationen zu welche Gastsystem oder nicht tun kann finden Sie auf Gast-Funktionen in Teams.
+
+Q. Wie viele Gäste können von mir eingeladene? A. Sie können bis zu 5 Gäste pro lizenzierten Benutzer hinzufügen.
+
+Q. Haben Gäste Zugriff auf OneDrive für Unternehmen? A. Nein.
+
+Q. Führen Sie Gäste auf SharePoint-Dateien können zugreifen? A: Ja.
+
+Q. Suchen von Gäste innerhalb von Dateien? A. Nein.
+
+Q. Werden Gäste können Dateien angefügt? A: Ja, Gastsystem kann Dateien in diesen beiden Methoden zum Anfügen: • Wählen Sie im linken Bereich Dateien aus, und navigieren Sie zum Speicherort Datei.
+• Hochladen von ihrem Computer.
+
+Q. Kann Gastsystem eine Datei in einem privaten Chat herunterladen? A: Ja, können sie eine Datei aus einem Element in einem privaten Chat erhalten und klicken Sie dann auf ihren Desktop herunterladen.

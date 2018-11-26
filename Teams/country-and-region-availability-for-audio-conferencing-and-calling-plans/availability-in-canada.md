@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: 5f0f75a747ccc80bbe4a6e0a10a925c3e6b91bdb
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: c88d233f3b4120b202ac09f2b48406d21f896b75
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495598"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674794"
 ---
 # <a name="availability-in-canada"></a>Verfügbarkeit in Kanada
 
@@ -61,7 +61,7 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 | **Funktion**                                        | **Details**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sind Anrufpläne zum Kauf verfügbar?  <br/>    | Ja  <br/>                                                                                                                                                                                                                                                                  |
-| Minuten für den Aufruf von Plänen zur Verfügung.               | Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>3000 in- und 600 internationale National und International aufrufen plant minute</li></li> |
+| Minuten für den Aufruf von Plänen zur Verfügung.               | Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>3000 minute nationalen aufrufen planen</li></li><li>Nationalen und internationalen aufrufen planen: 3000 Minuten nationalen OR - 600 Minuten internationaler (je nachdem, was zuerst im Kalendermonat erreicht wird)</li>|
 | Stellen Sie ausgehende Anrufe bei Nummern Premium können?  <br/> | Zu diesem Zeitpunkt unterstützt nicht.<br/>                                                                                                                                                                                                                                            |
 | Sind ausgehende Anrufe möglich?  <br/>                 | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                  |
 
