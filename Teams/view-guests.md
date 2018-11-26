@@ -3,29 +3,32 @@ title: Anzeigen von Gastbenutzern in einem Team
 author: LolaJacobsen
 ms.author: rramesan
 manager: serdars
-ms.date: 10/23/2017
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviwer: rramesan
+ms.reviwer: sbhatta
 search.appverid: MET150
 description: Hier erfahren Sie, wie Administratoren Informationen zu Gastbenutzern in Microsoft Teams anzeigen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0aab46d2cbaf3ffb186422a8ff83770493fa40e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: beb350905e41c6aa1e694178fc72d5ff9e123e5b
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014621"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674481"
 ---
-<a name="view-guest-users-in-a-team"></a><span data-ttu-id="fb961-103">Anzeigen von Gastbenutzern in einem Team</span><span class="sxs-lookup"><span data-stu-id="fb961-103">View guest users in a team</span></span>
+<a name="view-guest-users-in-a-team"></a><span data-ttu-id="fab72-103">Anzeigen von Gastbenutzern in einem Team</span><span class="sxs-lookup"><span data-stu-id="fab72-103">View guest users in a team</span></span>
 ==========================
-<span data-ttu-id="fb961-104">Jeder Benutzer in einem Team kann alle Mitglieder des Teams, einschließlich Gästen, über den **Verwalten Team** in Microsoft-Teams, finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="fb961-104">Anyone in a team can see all members of a team, including guests, via **Manage team** in Microsoft Teams.</span></span>  <span data-ttu-id="fb961-105">[Anzeigen, die in einem Team oder in einem Kanal wird](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) hat weitere Details.</span><span class="sxs-lookup"><span data-stu-id="fb961-105">[See who's on a team or in a channel ](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) has more details.</span></span>
+<span data-ttu-id="fab72-104">Jeder Benutzer in einem Team kann alle Mitglieder des Teams, einschließlich Gästen, über den **Verwalten Team** in Microsoft-Teams, finden Sie unter.</span><span class="sxs-lookup"><span data-stu-id="fab72-104">Anyone in a team can see all members of a team, including guests, via **Manage team** in Microsoft Teams.</span></span> <span data-ttu-id="fab72-105">[Anzeigen, die in einem Team oder in einem Kanal wird](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) hat weitere Details.</span><span class="sxs-lookup"><span data-stu-id="fab72-105">[See who's on a team or in a channel ](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) has more details.</span></span>
 
-<span data-ttu-id="fb961-106">Das Office 365 Admin Center können Sie als Administrator Gastbenutzer in den Mandanten anzeigen.</span><span class="sxs-lookup"><span data-stu-id="fb961-106">As an admin, you can use the Office 365 Admin center to view guest users in the tenant.</span></span> <span data-ttu-id="fb961-107">Allerdings zeigt diese Ansicht *Alle* Gastbenutzer in den Mandanten nicht nur Gastbenutzer in Microsoft-Teams.</span><span class="sxs-lookup"><span data-stu-id="fb961-107">However, this view shows *all* guest users in the tenant,  not just guest users in Microsoft Teams.</span></span>
-1. <span data-ttu-id="fb961-108">Melden Sie sich mit dem Konto Globaler Office 365-Administrator bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.</span><span class="sxs-lookup"><span data-stu-id="fb961-108">Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
-2. <span data-ttu-id="fb961-109">Wechseln Sie zu **Benutzer** > **Gastbenutzer**.</span><span class="sxs-lookup"><span data-stu-id="fb961-109">Go to **Users** > **Guest users**.</span></span>
+<span data-ttu-id="fab72-106">Gastbenutzer identifiziert:</span><span class="sxs-lookup"><span data-stu-id="fab72-106">To identify guest users:</span></span>
 
-![Gast Benutzer Option im Office 365 Admin Center.](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
+1.  <span data-ttu-id="fab72-107">Melden Sie sich bei Microsoft 365 Administrationscenter an.</span><span class="sxs-lookup"><span data-stu-id="fab72-107">Sign in to the Microsoft 365 admin center.</span></span>
+2.  <span data-ttu-id="fab72-108">Wählen Sie **Admin zentriert** > **Teams & Skype**.</span><span class="sxs-lookup"><span data-stu-id="fab72-108">Select **Admin centers** > **Teams & Skype**.</span></span>
+3.  <span data-ttu-id="fab72-109">Wählen Sie in der Microsoft-Teams & Skype Admin Center **Benutzer**.</span><span class="sxs-lookup"><span data-stu-id="fab72-109">In the Microsoft Teams & Skype Admin Center, select **Users**.</span></span> <span data-ttu-id="fab72-110">**Gast** an den Anzeigenamen aller Benutzer Gast angefügt wurden, werden angezeigt.</span><span class="sxs-lookup"><span data-stu-id="fab72-110">You will see **guest** appended to the display name of any guest users.</span></span>
   
+<span data-ttu-id="fab72-111">Sie können auch Gastbenutzern über ein Team identifizieren, die Sie besitzen.</span><span class="sxs-lookup"><span data-stu-id="fab72-111">You can also identify guest users from within a team that you own.</span></span>  
+
+
