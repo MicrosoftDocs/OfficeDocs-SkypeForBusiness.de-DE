@@ -1,7 +1,7 @@
 ---
-title: Microsoft-Teams Annahme Phase 3 - Skalierung
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams-Einführungsphase 3 – Skalieren
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,28 +11,28 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie die umfassende Scale-Aktivierung des Teams für Ihre Organisation unterstützen.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0520bfcc230cbae7d01156b2d5c2867f49ce4547
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 6ee818cff9e70e4baf2dba1dad07a9b1b1bdbec1
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519860"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699678"
 ---
-# <a name="microsoft-teams-adoption-phase-3---scale"></a><span data-ttu-id="2bfd6-103">Microsoft-Teams Annahme Phase 3 - Skalierung</span><span class="sxs-lookup"><span data-stu-id="2bfd6-103">Microsoft Teams adoption phase 3 - Scale</span></span>
+# <a name="microsoft-teams-adoption-phase-3---scale"></a><span data-ttu-id="423b7-103">Microsoft Teams-Einführungsphase 3 – Skalieren</span><span class="sxs-lookup"><span data-stu-id="423b7-103">Microsoft Teams adoption phase 3 - Scale</span></span>
 
-<span data-ttu-id="2bfd6-104">In dieser Phase verwenden Ihrer Befunde, talentierte Projektteam und Beziehungen mit Projektbeteiligten, Champions und frühe Übernahmen Sie die umfassende Scale-Aktivierung des Teams für Ihre Organisation unterstützen.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-104">In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization.</span></span> <span data-ttu-id="2bfd6-105">Sie werden die folgenden Schritte ausführen, wie Sie vertrauen Engagements Bezug Organisationen auf Microsoft-Teams, vorbereiten:</span><span class="sxs-lookup"><span data-stu-id="2bfd6-105">You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:</span></span>
+<span data-ttu-id="423b7-104">In dieser Phase verwenden Ihrer Befunde, talentierte Projektteam und Beziehungen mit Projektbeteiligten, Champions und frühe Übernahmen Sie die umfassende Scale-Aktivierung des Teams für Ihre Organisation unterstützen.</span><span class="sxs-lookup"><span data-stu-id="423b7-104">In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization.</span></span> <span data-ttu-id="423b7-105">Sie werden die folgenden Schritte ausführen, wie Sie vertrauen Engagements Bezug Organisationen auf Microsoft-Teams, vorbereiten:</span><span class="sxs-lookup"><span data-stu-id="423b7-105">You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:</span></span>
 
-1. <span data-ttu-id="2bfd6-106">Definieren Sie Ergebnisse und Erfolgskennzahlen.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-106">Define outcomes and success measures.</span></span>
-2. <span data-ttu-id="2bfd6-107">Service-Strategie auswählen.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-107">Select service strategy.</span></span>
-3. <span data-ttu-id="2bfd6-108">Beteiligen Sie Beteiligten.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-108">Engage stakeholders.</span></span>
-4. <span data-ttu-id="2bfd6-109">Entwerfen und eine Kampagne zum Bekanntheitsgrad starten.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-109">Design and launch an awareness campaign.</span></span>
-5. <span data-ttu-id="2bfd6-110">Entwerfen und ein Schulungsprogramm zu starten.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-110">Design and launch a training program.</span></span>
-6. <span data-ttu-id="2bfd6-111">Grundlegendes zu reporting-Tools.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-111">Understand reporting tools.</span></span>
-7. <span data-ttu-id="2bfd6-112">Laufender Geschäftsprozesse Engagements vorbereiten.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-112">Prepare for ongoing business engagement.</span></span>
-8. <span data-ttu-id="2bfd6-113">Bereiten Sie für laufende Service Health & Annahme Bewertungen vor.</span><span class="sxs-lookup"><span data-stu-id="2bfd6-113">Prepare for ongoing service health & adoption reviews.</span></span>
+1. <span data-ttu-id="423b7-106">Definieren Sie Ergebnisse und Erfolgskennzahlen.</span><span class="sxs-lookup"><span data-stu-id="423b7-106">Define outcomes and success measures.</span></span>
+2. <span data-ttu-id="423b7-107">Service-Strategie auswählen.</span><span class="sxs-lookup"><span data-stu-id="423b7-107">Select service strategy.</span></span>
+3. <span data-ttu-id="423b7-108">Beteiligen Sie Beteiligten.</span><span class="sxs-lookup"><span data-stu-id="423b7-108">Engage stakeholders.</span></span>
+4. <span data-ttu-id="423b7-109">Entwerfen und eine Kampagne zum Bekanntheitsgrad starten.</span><span class="sxs-lookup"><span data-stu-id="423b7-109">Design and launch an awareness campaign.</span></span>
+5. <span data-ttu-id="423b7-110">Entwerfen und ein Schulungsprogramm zu starten.</span><span class="sxs-lookup"><span data-stu-id="423b7-110">Design and launch a training program.</span></span>
+6. <span data-ttu-id="423b7-111">Grundlegendes zu reporting-Tools.</span><span class="sxs-lookup"><span data-stu-id="423b7-111">Understand reporting tools.</span></span>
+7. <span data-ttu-id="423b7-112">Laufender Geschäftsprozesse Engagements vorbereiten.</span><span class="sxs-lookup"><span data-stu-id="423b7-112">Prepare for ongoing business engagement.</span></span>
+8. <span data-ttu-id="423b7-113">Bereiten Sie für laufende Service Health & Annahme Bewertungen vor.</span><span class="sxs-lookup"><span data-stu-id="423b7-113">Prepare for ongoing service health & adoption reviews.</span></span>
 
-<span data-ttu-id="2bfd6-114">![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Ergebnisse definieren und den Erfolg](teams-adoption-define-outcomes.md)</span><span class="sxs-lookup"><span data-stu-id="2bfd6-114">![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)</span></span>
+<span data-ttu-id="423b7-114">![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Ergebnisse definieren und den Erfolg](teams-adoption-define-outcomes.md)</span><span class="sxs-lookup"><span data-stu-id="423b7-114">![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)</span></span>
