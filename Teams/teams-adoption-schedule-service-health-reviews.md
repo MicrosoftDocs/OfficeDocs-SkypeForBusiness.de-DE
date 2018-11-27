@@ -1,7 +1,7 @@
 ---
-title: Planen der Service Health Bewertungen für die Annahme der Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Planen von Überprüfungen der Dienstintegrität für Ihre Microsoft Teams-Einführung
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Dienststatus an Ihre Teams Annahme reporting verwenden.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 126f64cad95f889f93eacca012b6a20c9962bcd1
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 26cbc5e80ea989bff7c68b8004a3cd38b4318538
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519868"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699845"
 ---
-# <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Planen der Service Health Bewertungen für die Annahme der Microsoft-Teams
+# <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Planen von Überprüfungen der Dienstintegrität für Ihre Microsoft Teams-Einführung
 
 Planen Sie in Zusammenarbeit mit Ihrem Team technischen Implementierung, monatlich Service Health Bewertungen für Teams halten. Diese Berichte freigeben Sie Einblicke in die folgenden Maßnahmen:
 

@@ -1,7 +1,7 @@
 ---
-title: Erstellen Sie Ihren Teams bei der ersten in der Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Erstellen Ihrer ersten Teams in Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Teams Annahme Laufwerk mithilfe des Produkts.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8af87c00d15242296416f7bead06c873e75161e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 82956a64e80811efd176f853651aa9db3770afc3
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519870"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699710"
 ---
-# <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Sie Ihren Teams bei der ersten in der Microsoft-Teams
+# <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
 Die beste Möglichkeit Akzeptanz Teams ist die Verwendung des Produkts. Es wird empfohlen, dass Sie Ihre Office 365-Bereitstellung mit Teams verwalten. Erstellen Sie auch eine Community von Mitarbeitern, die auf Zusammenarbeit und Produktivität befasst sind. (Diese anfänglichen Teams können über einen Zeitraum ändern). Einige vorgeschlagene Teams sind:
 

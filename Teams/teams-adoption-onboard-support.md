@@ -1,7 +1,7 @@
 ---
-title: Integrierte Unterstützung für Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Onboarding von Support für Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Verschiebt die Supportmitarbeiter Einstieg für die Phase Experiments Ihrer Annahme Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b6fbcc35894d3f5c10d854a6608d99eba1db3b9
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 21e93c62a65b46b78c143d357a88ee2a789007bd
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519858"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699733"
 ---
-# <a name="onboard-support-for-microsoft-teams"></a>Integrierte Unterstützung für Microsoft-Teams
+# <a name="onboard-support-for-microsoft-teams"></a>Onboarding von Support für Microsoft Teams
 
 Um sicherzustellen, dass die-Marketing und Champions Teams die entsprechende Unterstützung beim Beginn der Verwendung von Teams, mit Ihren Supportmitarbeitern erfüllen Sie, und überprüfen Sie die Funktionen des Teams. Wichtige Elemente der Organisation Unterstützung können an Ihr early Firmenwerts Programm teilnehmen möchten. Fördern der Verwendung von Teams in ihre eigenen Szenarien. Schalten Sie sie über die grundlegenden Onboarding des Produkts mithilfe von unseren online Schulungsressourcen.  
 

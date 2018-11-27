@@ -1,7 +1,7 @@
 ---
-title: Laufwerk zur Förderung des Bekanntheitsgrads und Implementieren von Schulungen für Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie zu informieren und implementieren eine Schulung zur Annahme der Microsoft-Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519889"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699757"
 ---
-# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Laufwerk zur Förderung des Bekanntheitsgrads und Implementieren von Schulungen für Microsoft-Teams
+# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
 Zur Förderung des Bekanntheitsgrads und Schulungen sind-Segment die Marketing und Kommunikation Ihrer Strategie für die allgemeine Einführung. Dadurch wird sichergestellt, dass Ihre Mitarbeiter die neuen Funktionen der Microsoft-Teams und der zugrunde liegenden Office 365-Diensten und apps kennen.
    

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Zusammenfassung: Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server zu erfahren.'
-ms.openlocfilehash: 7b4c45bf3fe230c331725a4510a2a8a499300bef
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 390a49a4346af5ab1bc2005db04d99fd60bad056
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531081"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699852"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen der Business Server für den Statistiken-Manager für Skype
 
@@ -139,6 +139,7 @@ Sie müssen die folgenden Anforderungen Software, Netzwerk und Hardware berücks
 - PSExec - remote-Agent-Bereitstellung Aktionen erforderlich
 
 - .NET 4.5 (mit 2012 R2 enthalten) - Agents und serverseitige Komponenten erforderlich
+- Laden Sie die [Skype für Business Server, in Echtzeit Statistiken Manager (64-Bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>Netzwerkanforderungen
 

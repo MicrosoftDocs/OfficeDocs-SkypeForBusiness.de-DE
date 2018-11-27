@@ -1,7 +1,7 @@
 ---
-title: Governance Schnellstart für Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Schnellstart von Governance für Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Stellen Sie wichtige Entscheidungen für Phase 2 des Projektplans Annahme
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71a7870fdcfb0c8818430ee748fae68a90d9471
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7c8cf1460919019234da365626bfdf587c87249e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519859"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699797"
 ---
-# <a name="governance-quick-start-for-microsoft-teams"></a>Governance Schnellstart für Microsoft-Teams
+# <a name="governance-quick-start-for-microsoft-teams"></a>Schnellstart von Governance für Microsoft Teams
 
 Die folgenden Aktivitäten werden gleichzeitig auftreten und sie möglicherweise ganz oder teilweise wichtige Team betreffen. Es empfiehlt sich zurückstellen Sie umfangreiche Unternehmensleitung und Unterhaltungen für Sicherheit nach Abschluss der anfänglichen Experimentieren mit Teams. Dadurch wird die Entscheidungen vereinfacht, die Sie benötigen, späteren Zeitpunkt zu stellen. In dieser Phase sind einige Entscheidungen, die getroffen werden müssen. Damit sie erfolgreich sind müssen Sie zunächst die folgenden Fragen beantworten:
 

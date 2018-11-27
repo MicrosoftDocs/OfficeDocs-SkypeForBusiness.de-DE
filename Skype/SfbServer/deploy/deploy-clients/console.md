@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
-ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371061"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699430"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -47,14 +47,17 @@ Installieren der Skype Raum Systemen v2 Konsole-app erfordert ein USB-Speicherge
 > Fehler beim Skype Raum Systemen v2 Installationsmedium entsprechend diese Anweisungen wahrscheinlich in unerwartetes Verhalten zu erstellen. Windows 10 Enterprise Jahrestag Update (Version 1607) ist für die Erstellung von Skype Raum Systemen v2 Installation Medien nicht mehr unterstützt.
   
 > [!NOTE]
-> Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise Jahrestag Update verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben. 
+> Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben. 
   
-1. Laden Sie das [Skript CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+1. Laden Sie das [Skript „CreateSrsMedia.ps1“](https://go.microsoft.com/fwlink/?linkid=867842) herunter. 
 2. (Optional) Herunterladen Sie, und platzieren Sie alle gewünschten Language Pack CAB-Dateien im gleichen Verzeichnis befindet wie das Skript. Das Skript wird angegeben, in dem Sie Language Pack-Dateien für den Typ von Medien, die Sie erstellen, die Wenn Sie nicht sicher sind, wo Sie die Language Packs von erwerben sind herunterladen können.
 3. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
 
 
 Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen. Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Skype Raum Systemen v2 Konsole app](console.md#Reimage)fort.
+
+> [!TIP]
+> Sie haben möglicherweise bemerkt, dass wir bestimmte Versionen der Treiber, Skype Raum Systemen v2-Client oder Windows 10 Enterprise nicht mehr aufrufen. Hierbei handelt es sich um absichtlich, wir das Skript zum Abgleich und Kompatibilität für alle Installer überprüfen möchten. Das Skript wird automatisch suchen und abrufen, was für eine unterstützte Konfiguration benötigt wird.  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2
 <a name="Reimage"> </a>
@@ -117,7 +120,7 @@ In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegion
     
 11. Starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
     
-12. Führen Sie den folgenden Befehl aus:  
+12. Führen Sie den folgenden Befehl aus: 
     
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     
@@ -181,7 +184,7 @@ Die Skype Raum Systemen v2-Konsole muss Zertifikate von der Skype für Geschäft
 ### <a name="join-an-active-directory-domain-optional"></a>Teilnehmen an einer Active Directory-Domäne (Optional)
 <a name="Certs"> </a>
 
-Sie können Skype Raum Systemen v2 Konsolen an Ihre Domäne beitreten. Skype Raum Systemen v2 Konsolen sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht mit Skype Raum Systemen v2 kompatibel sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die verhindern Skype Raum Systemen v2 automatisch gestartet. Informationen über die Verwaltung der Gruppenrichtlinienergebnisse finden Sie unter [Verwalten von Skype Raum Systemen v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
+Sie können Skype Raum Systemen v2 Konsolen an Ihre Domäne beitreten. Skype Raum Systemen v2 Konsolen sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht mit Skype Raum Systemen v2 kompatibel sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die verhindern Skype Raum Systemen v2 automatisch gestartet. Weitere Informationen zur Verwaltung von GPO-Einstellungen finden Sie unter [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
   
 ### <a name="to-join-skype-room-system-v2-to-a-domain"></a>So verbinden Sie Skype Room Systems v2 durch einen Domänenbeitritt mit einer Domäne
 
@@ -242,7 +245,7 @@ Verwenden Sie die folgende Checkliste, während eine endgültige Überprüfung, 
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="Checklist"> </a>
 
-[Planung für Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
   

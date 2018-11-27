@@ -1,7 +1,7 @@
 ---
-title: Steigen Sie ein gesteuerter Annahme der Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Erste Schritte beim Einführen von Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie mehr über die Starts des experimentieren, und aktivieren Sie die Phasen der Übernahme der Microsoft-Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6615f296fd1ff248b2801fd44c6cc92586b27876
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 75cecfd5050ce964fd7b2dbc9dff97da2fb920b3
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519890"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699749"
 ---
-# <a name="get-started-driving-adoption-of-microsoft-teams"></a>Steigen Sie ein gesteuerter Annahme der Microsoft-Teams
+# <a name="get-started-driving-adoption-of-microsoft-teams"></a>Erste Schritte beim Einführen von Microsoft Teams
 
 Durch die Annahme der Microsoft-Teams, fahren, bietet eine hervorragende Benutzer wünschen und Geschäftswert innerhalb des Unternehmens erhöht. Unser Ziel besteht darin, abrufen und schnell, damit Sie Ihre Reise mit Teams beginnen können. Dieses Handbuch konzentriert sich auf Benutzerakzeptanz des Teams und ist abhängig von Ihrer Umgebung technische Bereitschaft, die in anderen Abschnitten der Dokumentation adressiert ist.
 

@@ -1,7 +1,7 @@
 ---
-title: 'Microsoft-Teams Annahme Phase 2: Experiments'
-author: LolaJacobsen
-ms.author: lolaj
+title: Microsoft Teams-Einführungsphase 2 – Experimentieren
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie die Experiments Phase des Teams Annahme durchführen.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d70fbe7ddfbfb820e13bbba09a78024b48a80a6
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: f77989e31e8e79f13d54f7b3506cbf5c0b19d8e5
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519857"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699725"
 ---
-# <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft-Teams Annahme Phase 2: Experiments
+# <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams-Einführungsphase 2 – Experimentieren
 
 Sie sind jetzt auf der Grundlage eine hervorragende Projektteam und wichtige Informationen zu Ihrer Organisation, und Sie können Teams experimentieren. Es wird empfohlen, Experimentieren mit 2 bis 3 in der Praxis Projekte innerhalb einer Gruppe, die durch einen Projektbeteiligten geführt werden, mit denen Sie eine positive Beziehung haben und in, deren Organisation eine ausreichende Anzahl an frühe Übernahmen sinnvollen Feedback geben. Ob Ihr Unternehmen große oder kleine ist, wird empfohlen, Abschluss dieser Phase um Einblick wie Teams verbessert die Zusammenarbeit über seine chatten und Speicherfunktionen Datei.  
 

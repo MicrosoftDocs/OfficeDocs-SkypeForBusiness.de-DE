@@ -1,7 +1,7 @@
 ---
-title: Optimieren der Leistung von Feedback und Berichte für die Annahme der Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen Sie zum Sammeln von Benutzerfeedback und an Ihre Teams Annahme reporting Dienststatus verwenden.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 5ab7a061b4f45564c6be42f708a0ded3ea00f268
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519863"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699837"
 ---
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren der Leistung von Feedback und Berichte für die Annahme der Microsoft-Teams
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
 
 Stellen Sie sicher, dass Sie Signale wieder aus Ihrem Dienst und Ihre Mitarbeiter abrufen, indem Sie die folgenden unsere best Practices für Benutzerfeedback und Service Health reporting.  In einigen Fällen müssen Sie Office 365-Administratorrechte für bestimmte verwendungs- und Integritätsdatenerfassung Berichte zugreifen. Wenn Sie nicht Office 365-Administrator für Ihre Organisation sind, arbeiten Sie mit dieser Person Berichtsrolle in der Microsoft-365-Verwaltungskonsole auf einige dieser Daten zuzugreifen erteilt werden. 
 

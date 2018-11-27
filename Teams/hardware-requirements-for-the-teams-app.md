@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b30ca95bb3ff5a01d5e8d991dda8e696148ab85c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c97ce12f2dd55807cd806afa05ea6d1813ad457b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372319"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699409"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Hardwareanforderungen für die Anwendung Microsoft-Teams
 
@@ -33,11 +33,11 @@ ms.locfileid: "25372319"
 |Festplatte    | 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Auflösung von 1024 x 768 |
 |Grafikhardware |  Mindestens 128 MB Grafikspeicher
-|Betriebssystem  |    Windows 10, Windows 8.1, Windows 8 oder Windows 7 Service Pack-1 in 32-Bit- und 64-Bit.  Verwenden Sie die neueste Version der Betriebssysteme für optimale Leistung.|
+|Betriebssystem  |    Windows 10, Windows 8.1, Windows 8 oder Windows 7 Service Pack-1 in 32-Bit- und 64-Bit. Verwenden Sie die neueste Version der Betriebssysteme für optimale Leistung.|
 |.NET version    |  Erfordert .NET 4.5 CLR oder höher       |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Kamera Standard Laptop, ein Mikrofon und Lautsprecher    | 
-|Videoanrufe und Besprechungen | Optimal mit Videoanrufen und dazu dient, onlinebesprechungen, sollten mit einem Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher).
+|Videoanrufe und Besprechungen | Optimal mit Videoanrufen und dazu dient, onlinebesprechungen, sollten mit einem Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher). Das optionale Weichzeichnen meinen Hintergrund video Effekt erfordert einen Prozessor mit Unterstützung für erweiterte Vektor Extensions 2 (AVX2).
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Hardwareanforderungen für die Teams desktop-app auf einem Mac
 
@@ -50,7 +50,7 @@ ms.locfileid: "25372319"
 |Betriebssystem  |    Mac OS X 10.11 El Capitan oder höher     |
 |Video  |    Kompatible webcam     |
 |VoIP    |  Kompatible Mikrofon und Lautsprecher, Kopfhörer mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | Optimal mit Videoanrufen und dazu dient, onlinebesprechungen, sollten mit einem Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher).
+|Videoanrufe und Besprechungen | Optimal mit Videoanrufen und dazu dient, onlinebesprechungen, sollten mit einem Computer mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher). Das optionale Weichzeichnen meinen Hintergrund video Effekt ein Prozessors mit Unterstützung für erweiterte Vektor Extensions 2 (AVX2) unterstützt bei den meisten verspätet 2013 Mac-Geräten und höher ist erforderlich.
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Hardwareanforderungen für die app Teams auf mobilen Geräten
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Zusammenfassung: Überprüfen der Faktoren für den IP-Adresse unter vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: 46d448e0004c9a83921f0c92d12513e39f076dc3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 58d359b626334b49ed08904134c758128f78673e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375203"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699416"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Konfigurieren von IP-Adresstypen in Skype for Business
 
@@ -34,7 +34,7 @@ Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahre
 
 1. Klicken Sie unter **Enterprise Edition-Front-End-Pools** mit der rechten Maustaste auf den Server in einem Pool und wählen Sie anschließend **Eigenschaften bearbeiten**. (Sie können auch den Server auswählen und dann im Menü **Aktion** auf **Eigenschaften bearbeiten** klicken.)
 
-2. Wählen Sie im Dialogfeld **Eigenschaften bearbeiten** den IP-Adressentyp, den Sie konfigurieren möchten. Wählen Sie für eine Dualstapel-Konfiguration wie in der folgenden Abbildung zu sehen **IPv4 aktivieren** und **IPv6 aktivieren**.
+2. Wählen Sie im Dialogfeld **Eigenschaften bearbeiten** den IP-Adressentyp, den Sie konfigurieren möchten. Wählen Sie für eine Konfiguration dualen **Aktivieren IPv4** und **IPv6 aktivieren**.
 
    **Dialogfeld „Eigenschaften bearbeiten“ für den Front-End-Server-Pool**
 
@@ -49,8 +49,8 @@ Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahre
 
    - **PSTN-IP-Adresse**. Geben Sie eine PSTN-IP-Adresse an, wenn auf dem Front-End-Server ein Vermittlungsserver angeordnet wird. Diese Adresse muss mit dem Format des ausgewählten Adressentyps übereinstimmen.
 
-     > [!NOTE]
-     > Die Installation von zusätzlichen Netzwerkschnittstellenkarten (NICs) zur Unterstützung von PSTN-IP-Adresskonfiguration auf Front-End-Servern wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server finden Sie unter [Server Hardware Platforms für Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> [!NOTE]
+> Die Installation von zusätzlichen Netzwerkschnittstellenkarten (NICs) zur Unterstützung von PSTN-IP-Adresskonfiguration auf Front-End-Servern wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server finden Sie unter [Server Hardware Platforms für Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Bereitstellen von IP-Adresstypen auf einem Vermittlungsserver
 
@@ -74,9 +74,14 @@ Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahre
   - **Primäre IP-Adresse**. Geben Sie eine IP-Adresse an, die der Server für sämtliche Kommunikationsvorgänge mit Ausnahme der PSTN (Public Switched Telephone Network, Telefonfestnetz)-Kommunikation verwendet. Die eingegebene IP-Adresse muss mit dem Format des ausgewählten Adressentyps übereinstimmen.
 
   - **PSTN-IP-Adresse**. Geben Sie eine PSTN-IP-Adresse an, wenn auf dem Front-End-Server ein Vermittlungsserver angeordnet wird. Diese Adresse muss mit dem Format des ausgewählten Adressentyps übereinstimmen.
+> [!IMPORTANT]
+> Wir unterstützen nur zwei Netzwerkkarten auf *dedizierten* Vermittlungsserver. Wenn die Rolle Mediation Sserver auf den Front-End verbunden ist, werden zwei Netzwerkkarten nicht unterstützt. 
 
-    > [!NOTE]
-    > Die Installation von zusätzlichen Netzwerkschnittstellenkarten (NICs) zur Unterstützung der Konfiguration der PSTN-IP-Adresse in den eigenständigen Vermittlungsserver wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server finden Sie unter [Server Hardware Platforms für Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> [!NOTE]
+> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server 2015 finden Sie unter [Hardware für Skype für Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server 2019 finden Sie unter [Hardware für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+
+
 
 ## <a name="deploy-ip-address-types-on-an-edge-server"></a>Bereitstellen von IP-Adresstypen auf einem Edgeserver
 

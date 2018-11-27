@@ -1,7 +1,7 @@
 ---
-title: Definieren der Verwendungsszenarien für Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Definieren von Verwendungsszenarios für Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Wählen Sie Verwendungsszenarien für die Phase Experiments Ihrer Annahme Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf67d949bfbd9fab37a96d1c4307674a1e5e6b97
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 3276fc721ca1551ee810625229e9e64a3f8386da
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519855"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699805"
 ---
-# <a name="define-usage-scenarios-for-microsoft-teams"></a>Definieren der Verwendungsszenarien für Microsoft-Teams
+# <a name="define-usage-scenarios-for-microsoft-teams"></a>Definieren von Verwendungsszenarios für Microsoft Teams
 
 Stellen Sie sicher, dass Sie die Business-Projekte (Szenarien) vertraut sein, die im Gültigkeitsbereich für diese Phase der Implementierung werden. Sehen Sie sich diese Liste von Beispielszenarien für umfangreiche Kandidaten für ein early Firmenwerts Programm sind. Sie können einfach Wins wie Einstieg:
 

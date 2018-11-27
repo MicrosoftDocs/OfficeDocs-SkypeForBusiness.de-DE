@@ -1,7 +1,7 @@
 ---
-title: Grundlegendes zu Teams und Kanäle in Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Vertrautmachen mit Teams und Kanälen in Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Weitere Informationen zur Strukturierung von Teams und Kanäle in Microsoft-Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 979c288f58bfde0d65a923030f81750f90e69ba3
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519854"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699717"
 ---
-# <a name="understand-teams-and-channels-in-microsoft-teams"></a>Grundlegendes zu Teams und Kanäle in Microsoft-Teams
+# <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
 Die Konzepte von Teams und Kanäle sind ein wesentlicher Bestandteil einer fehlerfreien, produktive Implementierung der Microsoft-Teams. 
 

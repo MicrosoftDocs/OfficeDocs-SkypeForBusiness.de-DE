@@ -1,7 +1,7 @@
 ---
-title: Integrierte frühe Übernahmen und Sammeln von Feedback für Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Wählen Sie für die Phase Experiments Ihrer Teams Annahme frühe Übernahmen und dann Erfassung des Feedbacks für Ihr Projekt.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1c85fead1bd1f1295a4ff3370d1b188f79eb73
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519867"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699670"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integrierte frühe Übernahmen und Sammeln von Feedback für Microsoft-Teams
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 
 Zurück zur Liste der Mitarbeiter, die Interesse an Ihr Programm für frühe Firmenwerts ausgedrückt. Entscheiden Sie, welche der diese Personen in den ersten Experimenten mit Teams teilnehmen soll. Es kann sein, alle oder nur einen Teil der Personen, die sich interessieren. Auch wenn Sie sie nicht für diese erste Projekte auswählen, weiterhin mit ihnen zu kommunizieren, damit sie Interesse bleiben und werden in der Zukunft teilnehmen möchten. Sie können ein Teil des Prozesses für die ausgewählten Projekte auf Grundlage der Gespräche mit Projektbeteiligten, technische Team und Ihre Priorisierung Übung oben gezeigten Onboarding werden. 
 

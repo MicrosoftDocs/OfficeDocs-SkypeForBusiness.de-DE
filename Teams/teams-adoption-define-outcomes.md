@@ -1,28 +1,28 @@
 ---
-title: Definieren von Ergebnissen und Erfolg für die Annahme der Microsoft-Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie die Ergebnisse und den Erfolg des Ihrer breit angelegte-Aktivierung von Teams messen.
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe4a146492712b4d18e8a4e1b18ea393a646662e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519898"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699817"
 ---
-# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und Erfolg für die Annahme der Microsoft-Teams
+# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 
 Für jeden Anwendungsszenario oder der Dienst, den Sie modernisieren, ist es wichtig, welche für Ihr Unternehmen Erfolg zu definieren. Sie werden diese Informationen haben für die anfänglichen Szenarien gesammelt, wie Sie in der vorherigen Phase zugeordnet sind. Bei der Vorbereitung für die Implementierung des Skalierung müssen Sie erneut, und erweitern diese Erfolgskriterien wichtig.
   

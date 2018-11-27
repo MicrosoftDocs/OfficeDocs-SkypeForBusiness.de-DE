@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Zusammenfassung: Informationen Sie zum Starten oder Beenden einer Centralized Logging Service Log Capture-Sitzung in Skype für Business Server 2015.'
-ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373764"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699859"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Starten oder Beenden der CLS-Protokollerfassung in Skype for Business Server 2015
  
@@ -47,7 +47,7 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Problem
    ```
 
     > [!NOTE]
-    > Für das Szenario AlwaysOn ist keine Standarddauer festgelegt. In diesem Szenario wird ausgeführt, bis Sie explizit mit dem Cmdlet **"Stop-csclslogging"** beenden. Weitere Informationen hierzu finden Sie unter ["Stop-csclslogging"](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Für alle anderen Szenarien gilt eine Standarddauer von 4 Stunden. 
+    > Für das Szenario AlwaysOn ist keine Standarddauer festgelegt. In diesem Szenario wird ausgeführt, bis Sie explizit mit dem Cmdlet **"Stop-csclslogging"** beenden. Ausführliche Informationen finden Sie unter [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Für alle anderen Szenarien gilt eine Standarddauer von 4 Stunden. 
   
 3. Drücken Sie zum Ausführen des Befehls die EINGABETASTE. 
     
@@ -86,7 +86,7 @@ Beachten Sie, dass in diesem Beispiel die Szenarien „AlwaysOn“" und „UserR
 ## <a name="stop-the-centralized-logging-service-log-capture"></a>Beenden der Protokollerfassung durch den zentralisierten Protokollierungsdienst
 <a name="stop"> </a>
 
-Eine aktuell ausgeführte Protokollierungssitzung können Sie mit dem Cmdlet „Stop-CsClsLogging“ anhalten. In der Regel keine viele Situationen, in denen Sie eine protokollierungssitzung anzuhalten müssen, vorhanden sind. Beispielsweise können Sie Protokolle durchsuchen und Konfigurationen ändern, ohne die Protokollierung zuvor anzuhalten. Wenn Sie zwei Szenarien ausführen, z. B. „AlwaysOn“ und „UserReplicator“, und Informationen zur Authentifizierung sammeln müssen, müssen Sie eines der anderen Szenarien anhalten (auf globaler Ebene oder auf Standort-, Pool- oder Computerebene), bevor Sie die Ausführung des Authentifizierungsszenarios starten können. Weitere Informationen hierzu finden Sie unter ["Stop-csclslogging"](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
+Eine aktuell ausgeführte Protokollierungssitzung können Sie mit dem Cmdlet „Stop-CsClsLogging“ anhalten. In der Regel keine viele Situationen, in denen Sie eine protokollierungssitzung anzuhalten müssen, vorhanden sind. Beispielsweise können Sie Protokolle durchsuchen und Konfigurationen ändern, ohne die Protokollierung zuvor anzuhalten. Wenn Sie zwei Szenarien ausführen, z. B. „AlwaysOn“ und „UserReplicator“, und Informationen zur Authentifizierung sammeln müssen, müssen Sie eines der anderen Szenarien anhalten (auf globaler Ebene oder auf Standort-, Pool- oder Computerebene), bevor Sie die Ausführung des Authentifizierungsszenarios starten können. Ausführliche Informationen finden Sie unter [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
   
 > [!NOTE]
 > Beim Festlegen der Szenarien, die in einer Bereitstellung, in einem Pool oder auf einem Computer ausgeführt werden können, müssen Sie unbedingt beachten, dass **pro Computer** nur zwei Szenarien ausgeführt werden können: „AlwaysOn“ und ein benutzerdefiniertes Szenario. Wenn Sie in einem Pool Aktivitäten protokollieren, sollten Sie den Pool als einzelne Entität behandeln. In den meisten Fällen ist das Ausführen verschiedener Szenarien auf jedem Computer in einem Pool nicht sinnvoll. Sinnvoll ist es dagegen, sich mit dem Problem zu befassen, zu dem Sie Daten sammeln, und zu ermitteln, welches Szenario auf einem bestimmten Computer in der gesamten Bereitstellung am hilfreichsten ist. Beispielsweise, wenn Sie das UserReplicator Szenario in Betracht ziehen, wäre es eine sehr geringe Wert in UserReplicator auf einem Edge-Server oder Edge-Pool ausgeführt. 
@@ -105,6 +105,9 @@ Beispiel:
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
+> [!NOTE]
+> Damit Sie Fragen sich möglicherweise: nun, dass Sie die Protokollierung aktiviert haben, wobei werden die Protokolle gespeichert? Da Sie in die Protokolle von Management Shell-Abfragen an die Agents CLS gesendet gespeicherte Informationen zugreifen und Sie können die Ergebnisse in mehrere mögliche Dateiformate werden, wo auf jedem Server einen Agent CLS seine Datensätze speichert tatsächlich müssen Sie wissen, nicht.  Die Protokolldateien können an einem Speicherort gespeichert werden, angeben und lesen und analysiert mithilfe einer Vielzahl von Tools, einschließlich **Snooper.exe** und ein beliebiges Tool, das eine Textdatei, wie etwa **Notepad.exe**lesen kann. Snooper.exe ist Teil der Skype für Business Server 2015-Tools zum Debuggen und steht als [Web herunterladen](https://go.microsoft.com/fwlink/p/?LinkId=285257).
+
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>So beenden Sie eine derzeit ausgeführte Centralized Logging Service-Sitzung
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
@@ -117,7 +120,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
    ![Windows PowerShell-Konsole nach Aufrufen von Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-   Das Ergebnis von „Show-CsClsLogging“ ist eine Zusammenfassung der ausgeführten Szenarien und der Ebenen, auf denen Sie ausgeführt werden. Weitere Informationen hierzu finden Sie unter ["Show-csclslogging"](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
+   Das Ergebnis von „Show-CsClsLogging“ ist eine Zusammenfassung der ausgeführten Szenarien und der Ebenen, auf denen Sie ausgeführt werden. Ausführliche Informationen finden Sie unter [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     
 3. Geben Sie zum Anhalten einer aktuell ausgeführten Protokollierungssitzung mit einem bestimmten Szenario Folgendes ein:
     
@@ -133,10 +136,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Mit diesem Befehl wird die Protokollierung mit dem Szenario „UserReplicator“ in „pool01.contoso.net“ angehalten.
     
     > [!NOTE]
-    > Protokolle, die während dieser Protokollierungssitzung mit dem Szenario „UserReplicator“ erstellt wurden, werden nicht gelöscht. Die Protokollierung steht Ihnen noch zur Verfügung, um Suchen mit dem Befehl „Search-CsClsLogging“ auszuführen. Weitere Informationen hierzu finden Sie unter ["Search-csclslogging"](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
+    > Protokolle, die während dieser Protokollierungssitzung mit dem Szenario „UserReplicator“ erstellt wurden, werden nicht gelöscht. Die Protokollierung steht Ihnen noch zur Verfügung, um Suchen mit dem Befehl „Search-CsClsLogging“ auszuführen. Ausführliche Informationen finden Sie unter [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Das Cmdlet „Stop-CsClsLogging“ fungiert als Begleitbefehl zu „Start-CsClsLogging“, beendet die Protokollierungssitzung entsprechend der Definition im aktuellen Szenario und behält die von der Protokollierungssitzung erstellten Protokolle bei. Sie können jederzeit zwei Szenarien auf einem bestimmten Computer ausführen. Das Anhalten eines Szenarios, um mithilfe eines anderen Szenarios Informationen zu sammeln, ist eine gängige Aufgabe, die Sie meistens auch bei großer Arbeitsauslastung während der Fehlerbehebung anwenden können.
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="stop"> </a>
 
-[Zentralisierter Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
