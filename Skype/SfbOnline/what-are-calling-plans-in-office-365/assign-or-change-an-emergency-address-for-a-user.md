@@ -20,25 +20,25 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Erfahren Sie, wie Sie eine Notfalladresse und Notrufnummer für alle Ihre Benutzer einrichten, die mit dem Public Switched Telephone Network, (PSTN) arbeiten.
-ms.openlocfilehash: 10b22db9e50c1913124d021bff1cc7c285c1f52c
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
+ms.openlocfilehash: c16e53df15d46457501c75ad5adcb0882d8fe875
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347028"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676397"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Zuweisen oder Ändern einer Notfalladresse für einen Benutzer
 
-Wenn Sie in Office 365-Pläne aufrufen einrichten, müssen Sie eine Telefonnummer und Notfall Adresse jeden Ihrer Benutzer zuweisen. Die Notfalladresse muss angelegt werden, bevor Sie sie einer Telefonnummer zuweisen können. Weitere Informationen finden Sie unter [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+Wenn Sie in Office 365 Anrufpläne einrichten, müssen Sie jeder Telefonnummer oder jedem Benutzer eine Notfalladresse zuweisen. In europäischen Ländern ist die Notfalladresse der Telefonnummer zugeordnet, wenn Sie sie über Office 365 abrufen oder eine Telefonnummer an Office 365 übertragen. In den USA ist die Notfalladresse der Telefonnummer zugeordnet, sobald Sie einem Benutzer zugewiesen wird. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem sie zugewiesen wurde, an einen neuen Speicherort verschoben wird. Weitere Informationen zur Notfall-Adressen und Speicherorte, finden Sie unter [Was notfallstandorten, Adressen und Anrufrouting sind?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
-Möchten Sie wissen, wie plant Aufrufen in Office 365 abrufen und wie viel Kosten, [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)finden Sie unter.
+Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was diese kosten, lesen Sie [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="assign-or-change-an-emergency-address"></a>Zuweisen oder Ändern einer Notfalladresse
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams & Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. Klicken Sie im linken Navigationsbereich Gehe zu **VoIP**und dann auf **VoIP-Benutzer**.
     
@@ -49,7 +49,7 @@ Möchten Sie wissen, wie plant Aufrufen in Office 365 abrufen und wie viel Koste
     
 5. Klicken Sie im Bereich „Aktion" unter **Notfallstandort** auf **Ändern**.
     
-    > [!NOTE]
+    > [!IMPORTANT]
     > Sie können nur eine bereits überprüfte Notfalladresse ändern. Um eine Notfall-Adresse zu ändern, die noch nicht validiert wurde, löschen Sie ihn, und erstellen Sie eine andere Adresse Notfall. 
   
 6. Klicken Sie auf der Seite **Nummer zuweisen** auf **Standort ändern**.
@@ -59,6 +59,11 @@ Möchten Sie wissen, wie plant Aufrufen in Office 365 abrufen und wie viel Koste
 8. Wählen Sie die Notfall Adresse aus der Dropdownliste Adresse aus, und klicken Sie dann auf **Speichern**. 
     
 ## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-topics"></a>Verwandte Themen
+[Hinzufügen, ändern oder Entfernen einer Notfall Adresse für Ihre Organisation](add-or-remove-an-emergency-address-for-your-organization.md)
+
+[Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md)
+
 [Was ist Adressvalidierung?](what-is-address-validation.md)
 
 [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)

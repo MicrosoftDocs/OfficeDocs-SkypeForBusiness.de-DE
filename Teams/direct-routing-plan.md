@@ -1,5 +1,5 @@
 ---
-title: Planen der direkten Routing
+title: Planen von direktem Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: a26dfc51e1a885569a37200d8613879e8f3bd484
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531987"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676552"
 ---
-# <a name="plan-direct-routing"></a>Planen der direkten Routing
+# <a name="plan-direct-routing"></a>Planen von direktem Routing
 
 > [!Tip]
 > Sehen Sie sich die folgenden Sitzung Informationen zu den Vorteilen von Direct Routing, wie es geplant und wie diese bereitgestellt: [Direktes Routing in Microsoft-Teams](https://aka.ms/teams-direct-routing)
@@ -222,6 +222,21 @@ Der Portbereich von des Prozessors Medien wird in der folgenden Tabelle gezeigt:
   > [!NOTE]
   > Microsoft empfiehlt mindestens zwei Ports pro gleichzeitigem Anruf auf die SBC.
 
+## <a name="media-traffic-codecs"></a>Mediendatenverkehr: Codecs
+
+### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Vom Abschnitt zwischen dem SBC und Cloud-Media-Prozessor oder Microsoft-Teams, Client.
+Gilt für Media Bypass Groß-/Kleinschreibung und ohne Umgehung Fällen
+
+Die direkte Routing-Schnittstelle vom Abschnitt zwischen dem Session Border Controller und Cloud-Media-Prozessor (ohne medienumgehung) oder zwischen dem Client Teams und der SBC (wenn die Medienumgehung aktiviert) können Sie die folgenden Codecs: • Non-Medien (SBC Cloud Medien umgehen Prozessor): SEIDE, g. 711, g. 722, G, 729 • Medienumgehung (SBC Teams Client): SEIDE, g. 711, g. 722, G, 729, OPUS
+
+Sie können Verwendung von bestimmten Codec auf Controller für das Angebot unerwünschten Codecs ausgeschlossen erzwingen.
+
+### <a name="leg-between-microsoft-teams-client--and-cloud-media-processor"></a>Vom Abschnitt zwischen dem Client für Microsoft-Teams und Cloud-Media-Prozessor
+Gilt für nicht-medienumgehung Fall nur. Mit Medienumgehung Media fließt direkt zwischen Teams Client und SBC
+
+Auf vom Abschnitt zwischen dem Cloud-Media-Prozessor und Client für Microsoft-Teams, verwendet SEIDE oder g. 722. Die Codec-Auswahl auf dieses Abschnitts basierend auf Microsoft Algorithmen, zu die mehrere Parameter berücksichtigen. 
+
+
 ## <a name="supported-session-border-controllers-sbcs"></a>Unterstützte Session Border Controller (SBCs)
 
 Microsoft unterstützt nur zertifizierten SBCs mit direktem Routing ein. Da Enterprise-VoIP für Unternehmen wichtig ist, Microsoft führt intensiven Tests mit den ausgewählten SBCs und kann mit den Herstellern SBC sicherstellen, dass die zwei Systeme kompatibel sind. 
@@ -233,7 +248,7 @@ Weitere Informationen zu unterstützten SBCs finden Sie unter [Liste der Session
  
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren der Weiterleitung von direkten](direct-routing-configure.md)
+[Konfigurieren von direktem Routing](direct-routing-configure.md)
 
 
 

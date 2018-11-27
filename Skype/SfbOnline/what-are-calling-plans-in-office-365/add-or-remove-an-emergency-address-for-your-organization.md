@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen
+title: Hinzufügen, ändern oder Entfernen einer Notfall Adresse für Ihre Organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,27 +20,27 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie eine Notfalladresse zu Ihrem Skype for Business-Konto hinzuzufügen. '
-ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn how to add an emergency address to your Skype for Business account. '
+ms.openlocfilehash: d4347610238230e5e509dab998b99fbd7b496833
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347059"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676407"
 ---
-# <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen, ändern oder Entfernen einer Notfall Adresse für Ihre Organisation
 
-Eine Notfalladresse muss einer Telefonnummer zugeordnet werden - aber wann das passiert, kann zwischen Ländern/Regionen variieren. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen.
+Eine Notfall-Adresse muss eine Rufnummer zugeordnet sein, wenn in diesem Fall kann jedoch unterschiedlich sein zwischen Ländern/Regionen. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen.
   
 Unabhängig davon, in welchem Land/Region Sie sich befinden, ist es möglich, einer Notfalladresse einen oder mehrere Orte hinzuzufügen oder eine Notfalladresse zu entfernen. Je nach Anzahl der physischen Standorten in Ihrer Organisation können Sie diese für Gebäude, Etagen und Büros erstellen. Finden Sie unter [Was notfallstandorten, Adressen und Anrufrouting sind?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) einige Details.
   
 Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## <a name="to-add-an-emergency-address"></a>So fügen Sie eine Notfalladresse hinzu:
+## <a name="add-an-emergency-address"></a>Fügen Sie eine Adresse Notfall
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams & Skype für Business Admin Center** > **Legacy-Portal**.
     
 3. Gehen Sie in der linken Navigationsleiste zu **VoIP** > **Notfallstandorte** und klicken auf die Schaltfläche **Neue Adresse hinzufügen**.
     
@@ -58,6 +58,21 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
     
 6. Klicken Sie nach der Überprüfung der Adresse auf **Speichern**.
     
+## <a name="change-an-emergency-address"></a>Ändern einer Notfall-Adresse
+
+1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+    
+2. Wechseln Sie zu der **Microsoft-Teams & Skype für Business Admin Center** > **Legacy-Portal**.
+    
+3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Emergency Speicherorte**, wählen Sie die Adresse, die Sie ändern möchten, und klicken Sie im Bereich Aktion auf **Bearbeiten**.
+    
+    > [!IMPORTANT]
+    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
+
+4. Nehmen Sie Ihre Änderungen vor, und klicken Sie auf **Überprüfen**.
+
+5. Klicken Sie auf **Speichern**.
+
 ## <a name="to-remove-an-emergency-address"></a>So entfernen Sie eine Notfalladresse:
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
