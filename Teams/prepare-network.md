@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 919c598b02724de2f21fce52cb5f362c8faea34b
-ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
+ms.openlocfilehash: 86c53b5eec6b332c820d827993e322f211c8a6dd
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "25456867"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716343"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
@@ -33,12 +33,12 @@ Microsoft Teams kombiniert drei Arten von Datenverkehr:
 
 Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt in Peer-zu-Peer-Szenarien direkt zwischen den Microsoft Teams-Clients und in Besprechungsszenarien zwischen der Office 365-Umgebung und den Microsoft Teams-Clients. Um den optimalen Datenverkehrsfluss sicherzustellen, muss der Datenverkehr zwischen den internen Netzwerksegmenten (zum Beispiel zwischen den Standorten über das WAN) sowie zwischen den Netzwerkstandorten und Office 365 fließen können. Wenn Sie nicht die richtigen Ports öffnen oder bestimmte Ports aktiv blockieren, führt dies zu Beeinträchtigungen.
 
-> [!IMPORTANT]
-> Zurzeit werden Besprechungen auf mobilen Geräten unter iOS und Android unterstützt, aber nicht unter Windows Phone.
+> [!NOTE]
+> Besprechungen werden auf iOS und Android mobilen Geräten unterstützt. 
 
 Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Für die beiden definierenden Netzwerksegmente (Client zum Edge von Microsoft und Kundenedge zum Edge von Microsoft) gelten die folgenden Empfehlungen.
+Sollten Sie für die zwei definierenden Netzwerksegmente (Client Microsoft Edge) und Customer Kante Microsoft Edge die folgenden Empfehlungen.
 
 
 |Wert  |Client zu Microsoft Edge  |Kundenedge zu Microsoft Edge  |
@@ -58,7 +58,7 @@ Um beide Netzwerksegmente zu testen, können Sie das [Network Assessment-Tool](h
 <a name="bandwidth-requirements"></a>Bandbreitenanforderungen
 ----------
 
-Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützung wurde ein Rechner erstellt. Den Rechner finden Sie unter [„Network Planner“ in MyAdvisor](https://aka.ms/bwcalc/).
+Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützung wurde ein Rechner erstellt. Den Rechner finden Sie unter [„Netzwerkplaner“ in MyAdvisor](https://aka.ms/bwcalc/).
 
 > [!NOTE]
 > Behandlung von Teams Bandbreite wurden verbessert Skype für Business Online: für eine hohe Qualität aufrufen oder meeting-Erfahrung (mit Audio, Video und Freigabe), Teams nur 1,2 Mbit/s benötigt. Sie können auch Skalieren bis super hochwertige weiter, wenn genügend Bandbreite vorhanden ist. Wenn eine Anforderung Teams eine Bedingung geringer Bandbreite stößt, können Teams schnell Auslastung der Bandbreite Anpassung an die verfügbare Bandbreite textlichen.

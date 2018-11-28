@@ -11,22 +11,22 @@ ms.collection: Teams_ITAdmin_Help
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android, iOS und Windows Phone) verwenden.
+description: Erfahren Sie, wie die verschiedenen verfügbaren Clients für Microsoft-Teams verwenden, die Web-, Desktop (Windows und Mac) und Mobile enthalten (Android und iOS).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f90913cfcaa3fe36380ba0c072d921c7f55fa126
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 16ee59e01a45e79bb04a410857e128df7f12934e
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649541"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716351"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
 
-Microsoft-Teams, hat die Clients verfügbar für desktop (Windows und Mac), Web und mobile (Android-, IOS- und Windows Phone). Alle diese Clients erfordern eine aktive Internetverbindung. Ein Offlinemodus wird nicht unterstützt.
+Microsoft-Teams, hat die Clients verfügbar für desktop (Windows und Mac), Web und mobile (Android und iOS). Alle diese Clients erfordern eine aktive Internetverbindung. Ein Offlinemodus wird nicht unterstützt.
 
 > [!NOTE]
 > Eine effektive November 29, 2018, werden Sie nicht mehr die Microsoft-Teams für app für Windows 10 S (Preview), aus dem Microsoft Store verfügbar verwenden können. Es wird empfohlen, dass Sie eine der Teams apps nach November 29 weiter unten in diesem Artikel beschriebenen verwenden.

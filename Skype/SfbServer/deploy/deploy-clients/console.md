@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
-ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699430"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716374"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -36,7 +36,7 @@ Sie sollten nur diese Schritte ausführen, wenn die erforderlichen Skype für Ge
 - [Prüfliste für die Bereitstellung von Skype Raum Systemen v2](console.md#Checklist)
     
 > [!NOTE]
-> Skype-Chatroom-Systemen v2 funktioniert nur in einer ordnungsgemäß konfigurierten Skype für Business-Umgebung, in dem die Gerät Konten wie unter [Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)ordnungsgemäß eingerichtet wurden. 
+> Skype-Chatroom-Systemen v2 funktioniert nur in einer ordnungsgemäß konfigurierten Skype für Business-Umgebung, in dem die Gerät Konten wie unter [Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)ordnungsgemäß eingerichtet wurden.
   
 ## <a name="prepare-the-installation-media"></a>Vorbereiten der Installationsmedien
 <a name="Prep_Media"> </a>
@@ -45,14 +45,13 @@ Installieren der Skype Raum Systemen v2 Konsole-app erfordert ein USB-Speicherge
   
 > [!NOTE]
 > Fehler beim Skype Raum Systemen v2 Installationsmedium entsprechend diese Anweisungen wahrscheinlich in unerwartetes Verhalten zu erstellen. Windows 10 Enterprise Jahrestag Update (Version 1607) ist für die Erstellung von Skype Raum Systemen v2 Installation Medien nicht mehr unterstützt.
-  
+
 > [!NOTE]
-> Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben. 
+> Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben.
   
 1. Laden Sie das [Skript „CreateSrsMedia.ps1“](https://go.microsoft.com/fwlink/?linkid=867842) herunter. 
 2. (Optional) Herunterladen Sie, und platzieren Sie alle gewünschten Language Pack CAB-Dateien im gleichen Verzeichnis befindet wie das Skript. Das Skript wird angegeben, in dem Sie Language Pack-Dateien für den Typ von Medien, die Sie erstellen, die Wenn Sie nicht sicher sind, wo Sie die Language Packs von erwerben sind herunterladen können.
 3. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
-
 
 Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen. Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Skype Raum Systemen v2 Konsole app](console.md#Reimage)fort.
 
@@ -82,10 +81,9 @@ Nun müssen Sie die Setup-Medien anwenden, die Sie erstellt haben. Das Zielgerä
 
 8. Das System wird heruntergefahren, sobald die Installation abgeschlossen ist.
     
-Nachdem das System heruntergefahren hat, ist es sicher, entfernen Sie die Installationsdiskette USB. Zu diesem Zeitpunkt können Sie seine andocken (bei Verwendung von einem Produkt Andocken-basierte) das Ziel Devcie versehen, fügen Sie die Peripheriegeräte für Ihre Besprechungsraum erforderlich ist und mit dem Netzwerk verbunden. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
+Nachdem das System heruntergefahren hat, ist es sicher, entfernen Sie die Installationsdiskette USB. Zu diesem Zeitpunkt können Sie seine andocken (bei Verwendung von einem Produkt Andocken-basierte) das Zielgerät versehen, fügen Sie die Peripheriegeräte für Ihre Besprechungsraum erforderlich ist und mit dem Netzwerk verbunden. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
   
- 
-### <a name="selecting-a-language-in-creators-update"></a>Auswählen einer Sprache in Creators Update
+### <a name="selecting-a-language"></a>Auswählen einer Sprache 
 
 In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegionAndLanguage.ps1 in Szenarien, in dem impliziten Sprachauswahl den Benutzer mit dem tatsächlichen Anwendungssprache bietet keine werden sollen (z. B. möchten sie die Konsole-app in Französisch, angezeigt, aber Es ist in Englisch stattfindende).
   
@@ -121,8 +119,9 @@ In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegion
 11. Starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
     
 12. Führen Sie den folgenden Befehl aus: 
-    
+    ```
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+    ```
     
 13. Starten Sie das System neu.
     

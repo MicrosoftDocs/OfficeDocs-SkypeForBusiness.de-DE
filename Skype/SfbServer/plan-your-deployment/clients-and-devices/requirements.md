@@ -11,21 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst.
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532073"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716451"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Anforderungen für Skype Room Systems v2
 
 In diesem Artikel werden die Anforderungen für die Unterstützung von Skype Raum Systemen v2 zusammengefasst. 
 
-Die Bereitstellung planungslösung Kontenerstellung gemäß der Beschreibung unter [Bereitstellen von Skype Raum Systemen v2](../../deploy/deploy-clients/room-systems-v2.md) und Einrichten von einem Meeting-Konsole, wie beschrieben unter [Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md). Sie müssen auch auf [Skype für Business Add-on Lizenzierung](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)verweisen.
+Die Bereitstellung planungslösung Kontenerstellung gemäß der Beschreibung unter [Bereitstellen von Skype Raum Systemen v2](../../deploy/deploy-clients/room-systems-v2.md) und Einrichten von einem Meeting-Konsole, wie beschrieben unter [Konfigurieren einer Skype Raum Systemen v2-Konsole](../../deploy/deploy-clients/console.md). 
+
+Sie müssen auch auf verweisen:
+
+- [Skype für Business Add-on Lizenzierung](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Optionen, die basierend auf Ihrem Plan zu lizenzieren: Skype Raum Systemen v2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen. <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
+> Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen. <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt.
 
 > [!NOTE]
 > Wenn Sie einen Exchange-Server auf Prem verwenden, ist Skype Raum Systemen v2 die Verwendung von Exchange Server 2013 SP1 oder höher erforderlich.
