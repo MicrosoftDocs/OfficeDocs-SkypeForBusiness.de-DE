@@ -12,18 +12,22 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb337853af524e9733d56dcb428f63268bd65b62
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: 56add7d27a367c5320243455d6891fa178526b4f
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25092700"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699741"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
 Microsoft Teams bietet umfassende Tools für die Implementierung von Prozessen für die Verwaltung des Lebenszyklus der Zusammenarbeit. Dieser Artikel führt IT-Spezialisten durch Fragen, mit denen sie ihre Anforderungen an die Lebenszyklusverwaltung und die entsprechenden Tools ermitteln können. 
 
 Die Planung der Lebenszyklusverwaltung ist deswegen so wichtig, weil Sie dabei einen Plan für die effektive Arbeitsbewältigung erstellen. Die meisten Projekte bestehen aus einem Anfang, einer Mitte und einem Ende. Bei Teams ist das auch so, aber es gibt so viele verschiedene Möglichkeiten für ihre Zusammensetzung und Verwendung, dass nicht immer offensichtlich ist, in welcher Phase ihres Lebenszyklus sie sich gerade befinden. Mithilfe eines Plans für die Lebenszyklusverwaltung können Sie die Projekte Ihrer Organisation durch diese Phasen verfolgen.
+
+> [!Tip]
+> In der folgenden Sitzung erfahren Sie mehr über den Lebenszyklus in Microsoft Teams: [Governance, Verwaltung und Lebenszyklus in Microsoft Teams](https://aka.ms/teams-governance).
+
 
 ## <a name="lifecycle-concepts"></a>Lebenszykluskonzepte
 
