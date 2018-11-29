@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: Hier lernen Sie die verfügbaren Tools kennen, mit denen Administratoren neue Gastbenutzer zu einer Organisation hinzufügen können. Dies schließt den Microsoft Teams-Desktop, Webclients und das Portal für Azure Active Directory B2B-Zusammenarbeit ein.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674465"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984734"
 ---
 <a name="add-a-guest-to-a-team"></a>Hinzufügen eines Gasts zu einem Team
 =====================
@@ -48,6 +48,6 @@ In Azure Active Directory oder im Office 365 Security &amp; Compliance Center k
 
 ## <a name="more-information"></a>Weitere Informationen
 
-[Autorisieren des Zugriffs in Microsoft-Teams Gast](teams-dependencies.md)
-[Aktivieren oder Deaktivieren der Gast Access in Microsoft-Teams](set-up-guests.md)
-[Verwenden von PowerShell zur Steuerung des Zugriffs auf ein Team Gast](guest-access-powershell.md)
+[Autorisieren des Gastzugriffs in Microsoft Teams](teams-dependencies.md)</br>
+[Aktivieren Sie oder Deaktivieren der Gast Access in Microsoft-Teams](set-up-guests.md)</br>
+[Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team](guest-access-powershell.md)
