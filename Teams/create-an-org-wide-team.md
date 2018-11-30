@@ -1,5 +1,5 @@
 ---
-title: Erstellen Sie ein Team Org geltende in Microsoft-Teams
+title: Erstellen eines organisationsweiten Teams in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: phlouie
@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3980a73c817b83466c8c93c29fb60e7e20f4df48
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532809"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993418"
 ---
-# <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen Sie ein Team Org geltende in Microsoft-Teams
+# <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
 Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einem kleinen, mittelgroßen Unternehmen angehören eines einzelnen Teams für die Zusammenarbeit. 
  
-Mit Org geltende-Teams können globale Administratoren auf einfache Weise öffentliche Teams erstellen, die in jeder Benutzer in der Organisation abruft und hält die Mitgliedschaft Stand mit Active Directory als Benutzer teilnehmen und die Organisation verlassen. Nur globale Administratoren können Org geltende Teams erstellen und ein gesamte Org Team ist derzeit auf Organisationen mit nicht mehr als 2.500 Benutzer beschränkt. Wenn diese Anforderungen erfüllt sind, sehen Admins **Org geltende** als Option unter **Datenschutz** , wenn ein Team erstellen.
+Mit Org geltende-Teams können globale Administratoren auf einfache Weise öffentliche Teams erstellen, die in jeder Benutzer in der Organisation abruft und hält die Mitgliedschaft Stand mit Active Directory als Benutzer teilnehmen und die Organisation verlassen. Nur globale Administratoren können Org geltende Teams erstellen und ein gesamte Org Team ist derzeit auf Organisationen mit nicht mehr als 2.500 Benutzer beschränkt. Wenn diese Anforderungen erfüllt sind, sehen globale Administratoren **Org geltende** als Option unter **Datenschutz** , wenn ein Team erstellen.
 
 ![Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende] (media/create-org-wide-team.png "Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende")
 
@@ -48,3 +48,11 @@ Rauschen Sie DDE-Kanal Ausführungsstapel nur Team aus, dem Besitzer der allgeme
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Entfernen von Konten, die möglicherweise nicht angehören.
 Obwohl die Mitglieder einer Organisation geltende Team, als Teambesitzer, lassen Sie können nicht können Sie das Teammitglied durch Entfernen von Konten, die nicht gehören verwalten. Stellen Sie sicher, dass Sie Teams verwenden, um Benutzer von Ihrem Team Org geltende zu entfernen.  Wenn Sie eine andere Möglichkeit zum Entfernen eines Benutzers, wie beispielsweise Microsoft 365 Administrationscenter oder aus einer Gruppe in Outlook verwenden, kann der Benutzer zurück an das Team der gesamte Org hinzugefügt. 
+
+## <a name="faq"></a>Häufig gestellte Fragen
+
+### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Gibt es eine Möglichkeit, ein gesamte Org Team als mithilfe des Teams-Clients zu erstellen? 
+
+Globale Administratoren können nur ein gesamte Org Team erstellen, mit dem Teams. Wenn Ihre Organisation erstellen von PowerShell-Teams beschränkt ist, ist es wird empfohlen so Ihrer globalen Administratoren der Sicherheitsgruppe Benutzer hinzu, die ein Team erstellen können. Weitere Informationen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
+
+Ist dies eine Option nicht, können Sie eine öffentliche Team von PowerShell erstellt und einen globalen Administrator als Teambesitzer hinzufügen. Lassen Sie anschließend den globalen Administrator **Klicken Sie auf... Weitere Optionen** neben dem Teamnamen auf **Team bearbeiten**und ändern Sie den Datenschutz auf **Org-Wide - jede Person in Ihrer Organisation automatisch eingefügt werden soll**. Beachten Sie, dass nur die Eigentümer von Teams die Option **Team bearbeiten** zugreifen können und nur globale Administratoren können die Option **gesamte Org** finden Sie unter.

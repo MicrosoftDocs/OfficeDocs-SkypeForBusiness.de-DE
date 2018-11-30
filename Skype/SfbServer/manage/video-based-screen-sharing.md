@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype für Business Server planen und Konfigurationsinformationen zu Bildschirmfreigabe videobasierte (VbSS)
-ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561921"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993433"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Video basierten für Skype für Business Server Bildschirmfreigabe 
  
@@ -120,14 +120,13 @@ Es gibt Situationen, in dem Bildschirmfreigabe-auf RDP, wie diese Übergang wird
 - Wenn Ihr Konto in einer Umgebung gehostet wird, in der das ASMCU nicht den Mindest-Build aufweist, der VbSS unterstützt.
 - Wenn eine Person, die eine ältere Version von der Skype für Business-Client verwendet die Sitzung beigetreten ist, verwenden beispielsweise jeder eine Windows-Client-Version, die 16.0.6330.1000, Skype für Business Raum Systemgeräte oder Skype für Mobile-Geschäfts-Apps niedriger ist. 
 - Wenn ein Benutzer aus der Skype für Business Web App gemeinsam verwendet.
-- Wenn jemand Skype für Unternehmen auf Mac und nicht für Business Online auf Skype verwaltet wird.
+- Wenn jemand Skype für Unternehmen auf Mac und nicht verwaltet wird, auf Skype für Business Online oder Skype für Business Server 2015 mit dem Juli, 2018 kumulative Update (oder höher).
 - Wenn jemand eine beliebige Anwendung/Windows Freigabe gestartet wird.
 - Wenn jemand beginnt mit der Aufzeichnung der Sitzung.
-- Wenn jemand während der Sitzung Remotebildschirmsteuerung aufruft.
-
-    Achtung: Nachdem die Sitzung zu RDP gewechselt hat, wechselt sie nicht wieder zu VbSS zurück. Auch hier ist ein nahtloser Übergang von VbSS vorgesehen, und der Wechsel wird voraussichtlich in den meisten Situationen nicht bemerkt werden.
-  
+- Wenn jemand während der Sitzung Remotebildschirmsteuerung aufruft. 
 - Besprechungen mit mehr als 250 Teilnehmern (bei denen VbSS derzeit nicht unterstützt wird).
+
+Achtung: Nachdem die Sitzung zu RDP gewechselt hat, wechselt sie nicht wieder zu VbSS zurück. Auch hier ist ein nahtloser Übergang von VbSS vorgesehen, und der Wechsel wird voraussichtlich in den meisten Situationen nicht bemerkt werden.
     
 > [!NOTE]
 > Es wurde auf Block nicht unterstützt, oder versucht wird, zu blockieren, Übergang von VbSS zu RDP in Skype für Business Bildschirmfreigabe. 
