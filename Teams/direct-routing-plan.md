@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676552"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131310"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -227,7 +227,9 @@ Der Portbereich von des Prozessors Medien wird in der folgenden Tabelle gezeigt:
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Vom Abschnitt zwischen dem SBC und Cloud-Media-Prozessor oder Microsoft-Teams, Client.
 Gilt für Media Bypass Groß-/Kleinschreibung und ohne Umgehung Fällen
 
-Die direkte Routing-Schnittstelle vom Abschnitt zwischen dem Session Border Controller und Cloud-Media-Prozessor (ohne medienumgehung) oder zwischen dem Client Teams und der SBC (wenn die Medienumgehung aktiviert) können Sie die folgenden Codecs: • Non-Medien (SBC Cloud Medien umgehen Prozessor): SEIDE, g. 711, g. 722, G, 729 • Medienumgehung (SBC Teams Client): SEIDE, g. 711, g. 722, G, 729, OPUS
+Die direkte Routing-Schnittstelle vom Abschnitt zwischen dem Session Border Controller und Cloud-Media-Prozessor (ohne medienumgehung) oder zwischen dem Client Teams und der SBC (wenn die Medienumgehung aktiviert), können die folgenden Codecs:
+- Nicht-medienumgehung (SBC Cloud Media Prozessor): SEIDE, g. 711, g. 722, G, 729
+- Die Medienumgehung (SBC Teams Client): SEIDE, g. 711, g. 722, G, 729, OPUS
 
 Sie können Verwendung von bestimmten Codec auf Controller für das Angebot unerwünschten Codecs ausgeschlossen erzwingen.
 

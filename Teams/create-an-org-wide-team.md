@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993418"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131302"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -55,4 +55,4 @@ Obwohl die Mitglieder einer Organisation geltende Team, als Teambesitzer, lassen
 
 Globale Administratoren können nur ein gesamte Org Team erstellen, mit dem Teams. Wenn Ihre Organisation erstellen von PowerShell-Teams beschränkt ist, ist es wird empfohlen so Ihrer globalen Administratoren der Sicherheitsgruppe Benutzer hinzu, die ein Team erstellen können. Weitere Informationen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
 
-Ist dies eine Option nicht, können Sie eine öffentliche Team von PowerShell erstellt und einen globalen Administrator als Teambesitzer hinzufügen. Lassen Sie anschließend den globalen Administrator **Klicken Sie auf... Weitere Optionen** neben dem Teamnamen auf **Team bearbeiten**und ändern Sie den Datenschutz auf **Org-Wide - jede Person in Ihrer Organisation automatisch eingefügt werden soll**. Beachten Sie, dass nur die Eigentümer von Teams die Option **Team bearbeiten** zugreifen können und nur globale Administratoren können die Option **gesamte Org** finden Sie unter.
+Ist dies eine Option nicht, können Sie eine öffentliche Team von PowerShell erstellt und einen globalen Administrator als Teambesitzer hinzufügen. Lassen Sie anschließend den globalen Administrator, klicken Sie neben dem Teamnamen **˙˙˙ Weitere Optionen** , klicken Sie auf **Team bearbeiten**, und ändern Sie den Datenschutz **Org-Wide - jede Person in Ihrer Organisation automatisch**hinzugefügt. Beachten Sie, dass nur die Eigentümer von Teams die Option **Team bearbeiten** zugreifen können und nur globale Administratoren können die Option **gesamte Org** finden Sie unter.
