@@ -3,7 +3,7 @@ title: Bereitstellen von Microsoft-Teams für die Fläche Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/26/2018
+ms.date: 12/04/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,17 +16,20 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
+ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372181"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27132003"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft-Teams für die Fläche Hub
 ======================================
 
 Vor der Bereitstellung von Microsoft-Teams für Microsoft Surface Hub Achten Sie darauf, dass Sie die Hardware, Betriebssystem und andere Voraussetzungen erfüllt sind. Weitere Informationen finden Sie im [Administratorhandbuch zu Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
+
+> [!NOTE]
+> Wenn Übergang von Skype für Business Online müssen Sie bestätigen, dass eine Lizenz Microsoft-Teams, die dem Benutzer zugeordnet ist.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installieren von Teams für Fläche Hub aus dem Microsoft-Speicher 
 
@@ -39,7 +42,7 @@ Diese Anweisungen sind für die Installation von Teams für Fläche Hub aus dem 
 3. Wenn die Installation abgeschlossen ist, starten Sie Fläche Hub neu. 
 
 > [!NOTE]
-> Tippen Sie nicht auf aus dem Angebot Seite Speicher **zu starten** .
+> Führen Sie nicht tippen Sie auf aus dem Angebot Seite Speicher **zu starten** .
 
 ## <a name="make-teams-the-default-calling-and-meetings-application"></a>Stellen Sie die Standardeinstellung Anruf- und Besprechungen Anwendung Teams
  
@@ -52,7 +55,7 @@ Es gibt zwei Optionen für die Anruf- und Besprechungen Anwendung Standardrichtl
  
 Die Pakete finden Sie auf dieser [Seite herunterladen](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Wählen Sie die entsprechenden für das Paket, das Sie planen, installieren und kopieren Sie ihn in einen USB-Schlüssel. Die richtigen .ppkg-Datei verwenden, hängt die Standardrichtlinie für die Anwendung wie folgt anwenden möchten: 
 
-|Number  |Beschreibung  |
+|Zahl  |Beschreibung  |
 |---------|---------|
 |0     | Bevorzugter Skype-app auf der Startseite, Teams Besprechungen verfügbar        |
 |1     | Teams bevorzugte app auf der Startseite, Skype Besprechungen verfügbar        |
