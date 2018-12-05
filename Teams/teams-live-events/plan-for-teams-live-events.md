@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Informationen Sie zu den Faktoren berücksichtigen vor dem Einrichten von live Ereignisse in der Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626262"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156133"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -44,17 +44,20 @@ Der Benutzer benötigt:
 - Berechtigungen zum Erstellen von live Ereignisse in Microsoft Stream (für [externe Encoder Produktion](#production)).
 
 > [!IMPORTANT]
-> Office 365 Gäste, Verbund- und anonyme Benutzer können nicht als Hersteller oder Referenten in Teams live Ereignisse eingeladen werden. Gast und Verbundbenutzer können jedoch als live-Ereignis anonyme Teilnehmer beitreten. 
+> Office 365 Gäste, Verbund- und anonyme Benutzer können nicht als Hersteller oder Referenten in Teams live Ereignisse eingeladen werden. Office 365 Gast und Verbundbenutzer können nur live Ereignisse anonym sehen Sie sich. 
  
 ## <a name="who-can-watch-live-events"></a>Wer live Ereignisse überwachen können?
 
-|**ATTENDEE Sichtbarkeit**           |**Schnellstart** |**Externe encoder**  |
-|------------------------------|-------------|------------------|
-|Öffentliche (anonyme Benutzer)      |  Ja        |  Nein              |
-|Gast-Benutzer                   |  Nein         |  Nein              |
-|Jede Person in einer verbundenen Unternehmen |  Nein         |  Nein              |
-|Jeder in Unternehmen           |  Ja        |  Ja             |
-|Spezifische Gruppen / für die Personensuche      |  Ja        |  Ja             |
+|**ATTENDEE Sichtbarkeit**       |**Schnellstart**  |**Externe encoder**  |
+|------------------------------|-----------------|----------------------|
+|Öffentliche (anonyme Benutzer)      |  Ja            |  Nein                  |
+|Gast-Benutzer                   |  Keine<sup>1</sup> |  Nein                  |
+|Jede Person in einer verbundenen Unternehmen |  Keine<sup>1</sup> |  Nein                  |
+|Jeder in Unternehmen           |  Ja            |  Ja                 |
+|Spezifische Gruppen / für die Personensuche      |  Ja            |  Ja                 |
+
+<sup>1</sup> können nur live Ereignisse als anonyme Benutzer beobachten.
+
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams live Ereignisse und Skype Besprechung übertragen
 In der folgenden Tabelle werden wichtige Funktionen und Features in live Ereignisse und wie unterscheiden sich von Skype Besprechung übertragen angebotenen behandelt. 

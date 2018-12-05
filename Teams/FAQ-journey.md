@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ec2db02fe8b91736675027aee2a08a7a8587105c
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626176"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156077"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Reise von Skype for Business zu Teams
 
@@ -97,7 +97,7 @@ Ein erfolgreiches Upgrade enthält technische Bereitschaft zusätzlich zur Annah
  
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Meine Organisation wird Teams zusammen mit Skype für Unternehmen bereits ausgeführt werden. Kann ich einfach Skype für Unternehmen deaktivieren?
 
-Nein, sollten Sie in den Modus für die Durchführung ihrer Upgrade auf Teams **Teams nur** Benutzer wechseln. Wenn Ihre Organisation für den Übergang zu Teams bereit ist, nehmen Sie die Zeit, teilen Sie den Benutzern zu informieren Sie sie wissen, was geschieht, und ihnen gestatten, einige Zeit zu Teams Akklimatisation. Dadurch wird sichergestellt, dass sie haben eine Positive Erfahrung aktualisieren und Anrufe an den Helpdesk zu verringern. Kommunikation Beispielvorlagen Laden Sie das [Upgrade erfolgreich Kit](https://aka.ms/skypetoteams-UpgradeSuccessKit).
+Nein, sollten Sie in den Modus für die Durchführung ihrer Upgrade auf Teams **Teams nur** Benutzer wechseln. Wenn Ihre Organisation für den Übergang zu Teams bereit ist, nehmen Sie die Zeit, teilen Sie den Benutzern zu informieren Sie sie wissen, was geschieht, und ihnen gestatten, einige Zeit zu Teams Akklimatisation. Dadurch wird sichergestellt, dass sie haben eine Positive Erfahrung aktualisieren und Anrufe an den Helpdesk zu verringern. Kommunikation Beispielvorlagen Laden Sie das [Upgrade erfolgreich Kit](https://aka.ms/UpgradeSuccessKit).
  
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>An wen kann ich wenden, wenn ich Fragen Informationen zum Upgradeprozess haben?
 

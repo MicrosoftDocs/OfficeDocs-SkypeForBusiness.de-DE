@@ -1,5 +1,5 @@
 ---
-title: Grundlegendes zu Skype-Interoperabilität und Koexistenz für Unternehmen und die Microsoft-Teams
+title: Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532439"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156125"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -54,7 +54,7 @@ In diesem Koexistenzmodus **Inseln**aufgerufen, wird jeweils der Clientanwendung
 
 In diesem Koexistenzmodus Benutzer bleiben in Skype für Unternehmen – nicht Teams – für Chat, Meeting aufrufende Funktionen und sie nicht Teams für Teams und Kanäle verwenden. In diesem Modus ist jetzt verfügbar. Allerdings werden in der aktuellen Implementierung Teams Modalitäten nicht für den Benutzer automatisch deaktiviert. Diese Funktion ist in Kürze verfügbare. In der Zwischenzeit können Administratoren die Teams-Lizenz für jeden Benutzer entfernen, die in Skype für Unternehmen als einzige Communications Anwendung bleiben müssen.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>Nur Teams (in diesem Modus gestartet parallelen out Sommer 2018 und wird für alle Mandanten fallen 2018 abgeschlossen sein)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Nur Teams (in diesem Modus gestartet parallelen out Sommer 2018 und wird für alle Mandanten in Kalenderjahr 2019 abgeschlossen)
 
 Wie Ihre Organisation für einige oder alle Benutzer als einzige Kommunikation und Zusammenarbeit Tool Teams Verwendung bereit ist, können Sie diese Benutzer **Nur Teams** Modus aktualisieren.
 
