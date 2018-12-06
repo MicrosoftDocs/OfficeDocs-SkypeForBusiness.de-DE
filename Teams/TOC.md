@@ -58,11 +58,10 @@
 ### [Hardwareanforderungen für die app Teams](hardware-requirements-for-the-teams-app.md)
 ### [Installieren von Teams, die MSI-Datei](msi-deployment.md)
 ### [Bereitstellen des Teams für Fläche Hub](teams-surface-hub.md)
-## [Ausführen von Teams in einer virtuellen Umgebung](virtual-environment-teams.md)
 ## [Aktivieren von Teams in Ihrer Organisation](Office-365-set-up.md)
 ## [Verwenden der Verzeichnissuche in Microsoft Teams](teams-scoped-directory-search.md)
 ## [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
-### [Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+### [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams und Skype for Business](manage-teams-skypeforbusiness-admin-center.md)
 ### [Verwalten von Teams im Microsoft-Teams & Skype für Business Admin Center](manage-teams-in-modern-portal.md)
 ### [Weisen Sie Team-Besitzer und Membern im Teams](assign-roles-permissions.md)
 ### [Veröffentlichen von apps zum Teams Mandanten Apps-Katalog](tenant-apps-catalog-teams.md)
@@ -202,7 +201,7 @@
 # Funktionen
 ## Teams und Kanäle
 ### [Übersicht über Teams und Kanäle in Teams](teams-channels-overview.md)
-### [Weisen Sie Team-Besitzer und Membern im Microsoft-Teams](assign-roles-permissions.md)
+### [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](assign-roles-permissions.md)
 ### [Bewährte Methoden zum Organisieren von Teams in Teams](best-practices-organizing.md)
 ### [Erstellen Sie ein Team Org geltende in Teams](create-an-org-wide-team.md)
 ### [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
