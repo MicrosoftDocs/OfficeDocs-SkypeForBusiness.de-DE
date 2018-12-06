@@ -3,7 +3,7 @@ title: Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 12/05/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: lucarras
 description: Hier erfahren Sie, wie Sie in Microsoft Teams Bots für private Chats und Kanäle hinzufügen, benutzerdefinierte Bots erstellen und Ihren eigenen Bot für private Chats querladen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff6cf5af3a1a2129ee22ae0ff51ac4216ccaefe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 548da99413714f3947cec909ea51301eb68d2c0d
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013361"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182385"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams
 ==========================================================
@@ -56,3 +56,14 @@ Bots können mit dem [Bot Framework-Emulator](https://go.microsoft.com/fwlink/?l
 
 
 3.  Die App-ID wird in den **Botnamen** aufgelöst. Dann können Sie eine Chatunterhaltung mit dem Bot beginnen.
+
+<a name="side-load-your-bot-for-channels"></a>Seite laden Ihrer Bot für Kanäle
+-----------------------------------
+
+Wenn Sie Ihre Bot mit Ihren Kollegen freigeben möchten, ist zum Hinzufügen und der verschiedenen Teams:
+
+1. Nachdem Sie [ein app-Paket für Ihre Bot erstellt](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload)haben, öffnen Sie Teams, und navigieren Sie zu dem Team in dem Sie Seite den Robot geladen werden werden.
+2. Wählen Sie **Weitere** (...) neben dem Teamnamen.
+3. Wählen Sie **Team verwalten** , und wählen Sie dann auf der Registerkarte **Apps** .
+4. Wählen Sie unter der unteren rechten Ecke des Bildschirms **eine benutzerdefinierte Anwendung hochladen**.
+5. Navigieren Sie zum Speicherort der app-Paket, wählen Sie sie aus, und klicken Sie dann auf **Öffnen**.

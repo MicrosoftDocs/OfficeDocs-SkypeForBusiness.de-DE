@@ -19,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: 2fe59b977384e9c76dfde4a9fd609510dc69a5d4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
+ms.openlocfilehash: d4ff0ab207d5526fe8b24f4ec791de5f952a83e3
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887314"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182342"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Telefonverbindung aus einer Skype für Business Besprechung, damit andere Personen sie beitreten können
 
@@ -37,6 +37,8 @@ Als Organisator der Besprechung können Sie sich einwählen, bei Verwendung der 
 - Sie können Dial-Out-nur, wenn Sie an einer Besprechung mithilfe einer Skype für Geschäfts-app teilnehmen.
     
 - Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
+
+Um die anderen Teilnehmer über Dial-Out-Besprechungen Ihrer Organisation hinzufügen, authentifiziert mindestens einen Benutzer aus der gleichen Organisation wie der Organisator (Ihres Unternehmens) in der Besprechung in anderen zulassen Hinzufügen von anderen Teilnehmern vorhanden sein muss über Anwahl. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

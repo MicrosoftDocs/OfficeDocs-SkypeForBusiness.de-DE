@@ -1,5 +1,5 @@
 ---
-title: Festlegen von Einstelllungen Upgrade und Koexistenz
+title: Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -13,21 +13,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28d5cd4a967245f1df18530d58ed1c2679e910e3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: fb2e7ba5f854c392d86006fdb6bd313b3fd87c68
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531862"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182455"
 ---
-# <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen von Einstelllungen Upgrade und Koexistenz
+# <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Beim upgrade Ihrer Skype für Unternehmensbenutzer Teams verwenden, haben Sie mehrere Optionen, die Sie machen einen nahtlosen Prozess für Ihre Benutzer unterstützen. Sie haben die Möglichkeit, stellen Koexistenz und Einstellungen für alle Benutzer in Ihrer Organisation gleichzeitig zu aktualisieren können, oder Sie Einstellungen Änderungen für einen einzelnen oder eine Gruppe von Benutzern in Ihrer Organisation. Beachten Sie, dass ältere Versionen von Skype für Business Clients diese Einstellungen nicht beachtet können. Weitere Informationen zu Skype für Business Clientversionen wechseln Sie zu [Skype für Unternehmen-downloads und die Seite aktualisiert](https://docs.microsoft.com/en-us/skypeforbusiness/software-updates). 
 
-Sie erhalten ein besseres Verständnis der Typen von Modi, die [Microsoft-Teams, zu verstehen und Skype für Interoperabilität und Koexistenz Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)Beitrag Ihnen zur Verfügung stehen.  
+Sie erhalten ein besseres Verständnis der Typen von Modi, die Ihnen zur Verfügung stehen, Beitrag [Microsoft-Teams, zu verstehen und Skype für Interoperabilität und Koexistenz Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) oder [Koexistenz mit Skype für Unternehmen](coexistence-chat-calls-presence.md).  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -70,4 +70,4 @@ Sie erhalten ein besseres Verständnis der Typen von Modi, die [Microsoft-Teams,
 
 [Verstehen der Koexistenz und upgrade Weg für Skype für Unternehmen und Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[Hinweise zur Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen](migration-interop-guidance-for-teams-with-skype.md)
+[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md)

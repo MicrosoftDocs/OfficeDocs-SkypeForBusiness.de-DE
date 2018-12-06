@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156125"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182463"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -128,4 +128,4 @@ Für diese Einschränkung (außer für beständigen Chat) ist eine mögliche Abh
 > [!Important]
 > Was beginnt, wie ein einfacher Chat (IM) schnell einen Anruf oder eine Ad-hoc-Besprechung ausweiten kann. Wir wissen, dass diese Szenarien für die Verwendbarkeit und benutzerfreundlichkeit von entscheidender Bedeutung sind, und wir ständig interop Erfahrungen zwischen Skype für Unternehmen und Teams weiterentwickelt sind. Kontrollkästchen für die aktuellsten Informationen zurück.
 
-Nach der Lektüre dieses Artikels finden Sie unter [Wählen Sie Ihre Reise Upgrade](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration und Interoperabilität Anleitungen](https://aka.ms/SkypeToTeams-Interop)und [Festlegen der Koexistenz und Durchführen eines Upgrades Einstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) Implementierungsdetails.
+Nach der Lektüre dieses Artikels finden Sie unter [Wählen Sie Ihre Reise Upgrade](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration und Interoperabilität Anleitungen](https://aka.ms/SkypeToTeams-Interop), [Koexistenz mit Skype für Unternehmen](coexistence-chat-calls-presence.md)und [Festlegen Ihrer Koexistenz und Durchführen eines Upgrades Einstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) für die Implementierung Details.

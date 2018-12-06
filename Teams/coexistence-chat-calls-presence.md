@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c427f1cb342b64211aeabf042b0cb00d4a89759f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156117"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182504"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -47,12 +47,13 @@ Der Parameter, mit die die Routingmethode Thread bestimmt sind:
 - Gibt an, ob die Unterhaltung neu oder Teil eines vorhandenen Threads ist
 - Gibt an, ob die Unterhaltung im Mandanten oder im Verbund ist
 - Gibt an, ob die Unterhaltung möglich ist.
-    - Interoperabilität im Mandanten erfordert, dass der Mandant entweder ist rein online oder Skype für hybride Business. Rein lokale Mandanten können nicht im Mandanten Interoperabilität haben.
-    - Wenn die Skype für Business-Konto des Absenders verwaltete am Standort ist, kann nicht der Benutzer der Client Teams für die Interoperabilität in Mandanten oder für den Verbund verwenden. Nur können, die die Skype für Business-Client für Interoperabilität und Verbund verwenden.
-    - Teams Teams Kommunikation ist immer möglich Mandanten
+    - Interoperabilität *im Mandanten* erfordert, dass der Mandant entweder ist rein online oder Skype für hybride Business. Rein lokale Mandanten können nicht im Mandanten Interoperabilität haben.
+    - *Cross-Mandanten Verbund* erfordert immer ordnungsgemäße Skype für Business Verbundkonfiguration als auch Teams Verbundkonfiguration aus beiden Mandanten. Skype für hybride Business ist nicht erforderlich, entweder-Mandanten.
+    - Wenn die Skype für Business-Konto des Absenders verwaltete am Standort ist, kann nicht der Benutzer der Client Teams für die Interoperabilität in Mandanten oder für den Verbund verwenden. Benutzer kann nur die Skype für Business-Client für Interoperabilität und Verbund verwenden.
+    - Teams Teams Kommunikation ist immer möglich Mandanten.
 
 > [!NOTE]
-> Derzeit nutzt alle einen Verbund mit Teams die Skype für Business Verbund Pipeline sowie Teams – Skype für die Business-Interoperabilität. Wir sind systemeigene Teams – Teams Verbund planen. Dokuments wird bei der Freigabe der systemeigenen Föderation aktualisiert werden
+> Derzeit nutzt alle einen Verbund mit Teams die Skype für Business Verbund Pipeline sowie Teams – Skype für die Business-Interoperabilität. Wir sind systemeigene Teams – Teams Verbund planen. Dokuments werden bei der Freigabe der systemeigenen Föderation aktualisiert.
 
 # <a name="chat-and-call-routing"></a>Chat und Anrufrouting
 

@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131302"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182520"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
 Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einem kleinen, mittelgroßen Unternehmen angehören eines einzelnen Teams für die Zusammenarbeit. 
  
-Mit Org geltende-Teams können globale Administratoren auf einfache Weise öffentliche Teams erstellen, die in jeder Benutzer in der Organisation abruft und hält die Mitgliedschaft Stand mit Active Directory als Benutzer teilnehmen und die Organisation verlassen. Nur globale Administratoren können Org geltende Teams erstellen und ein gesamte Org Team ist derzeit auf Organisationen mit nicht mehr als 2.500 Benutzer beschränkt. Wenn diese Anforderungen erfüllt sind, sehen globale Administratoren **Org geltende** als Option unter **Datenschutz** , wenn ein Team erstellen.
+Mit Org geltende-Teams können globale Administratoren auf einfache Weise öffentliche Teams erstellen, die in jeder Benutzer in der Organisation abruft und hält die Mitgliedschaft Stand mit Active Directory als Benutzer teilnehmen und die Organisation verlassen. Nur globale Administratoren können Org geltende Teams erstellen und ein gesamte Org Team ist derzeit auf Organisationen mit nicht mehr als 2.500 Benutzer beschränkt. Wenn diese Anforderungen erfüllt sind, sehen globale Administratoren **Org geltende** als Option unter **Datenschutz** , wenn ein Team erstellen. 
 
 ![Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende] (media/create-org-wide-team.png "Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende")
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Die neue Skype für Bereich Business Admin Center Berichte zeigt Sie aufrufende und audio Conferencing Aktivität in Ihrer Organisation. Sie können in Berichte bieten mehr Granularität Aufschluss über die Aktivitäten der einzelnen Benutzer zur Verfügung, der Drilldown erfolgen soll. Die Skype für Business PSTN Minute Pools Bericht können Sie beispielsweise die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht finden Sie unter.
-ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865109"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182375"
 ---
 # <a name="pstn-minute-pools-report"></a>Bericht „PSTN-Minutenpools“
 
@@ -62,7 +62,7 @@ Der Bericht sieht folgendermaßen aus:
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt Sie eine Aufschlüsselung der Minute Pools nach Lizenz (Funktion) und Speicherort der Verwendungsanalyse. 
 *    **Funktion** ist die Lizenz/Dienstplan für den Anruf verwendet. Die Lizenz-Dienst-Pläne, die in diesem Bericht angezeigt werden umfassen:
      * MCOPSTN1 - nationalen aufrufen planen (3000-minütigen US/1200-minütigen EU-Pläne
-     * MCOPSTN2: Plan für Auslandsanrufe
+     * MCOPSTN2 - National & International aufrufen planen, aus der Sie einen nationalen Pool (3000-minütigen US/Kanada/PR, 1200-minütigen Ländern) und einem internationalen Pool (600 Minuten) angezeigt werden. Minute Cap erreicht ist, wenn die nationalen OR - International Cap innerhalb der Kalendermonat erreicht wird. 
      * MCOPSTN5 - nationalen aufrufen Plan (aufrufende Plan 120 Minuten)
      * MCOPSTN6 - nationalen aufrufen Plan (aufrufende Plan 240 Minuten)
      * MCOMEETADD: Audiokonferenz
@@ -93,7 +93,7 @@ Der Bericht sieht folgendermaßen aus:
 - [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
    
