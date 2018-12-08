@@ -12,18 +12,21 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb213c236b271d5b3012847118cc54a8fa075c2e
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 2bc6d3c48dc0812311b511ead0583d3b9b9fcfa2
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649723"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201493"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden
 
+> [!Tip] 
+> Sehen Sie sich die folgenden Sitzung um kennen zu lernen [Interoperabilität und Koexistenz](https://aka.ms/teams-upgrade-coexistence-interop)
+
 Interoperabilität und Migration werden mit "Koexistenzmodus" von TeamsUpgradePolicy bestimmt verwaltet. Auswahl des Benutzers Modus steuert beide routing von eingehenden Anrufen und Chats und gibt an, ob Benutzer Besprechungen in Teams oder Skype für Unternehmen plant.  Bald wird in Verbindung mit der in Kürze verfügbare TeamsAppPermissionsPolicy, Modus auch bestimmen, in der Clientcomputer der Benutzer Chats und Anrufe initiieren kann. 
 
-TeamsInteropPolicy wird als zuvor angekündigten im April 2018 zurückgezogen. Seine Funktionalität wurde in TeamsUpgradePolicy konsolidiert wurden, und Konfigurieren von TeamsInteropPolicy ist nicht mehr erforderlich. Er wird nicht beachtet, es sei denn, TeamsUpgradePolicy Modus wurde = Legacy.  Abschluss TeamsUpgradePolicy Support *Kunden sollten ihre Konfigurationen Verwendung ein anderer Druckmodus als Legacy aktualisieren*. Erteilen von Instanzen von TeamsUpgradePolicy Modus = Legacy wird jetzt standardmäßig blockiert.
+TeamsInteropPolicy wurde zurückgezogen wurden. Seine Funktionalität wurde in TeamsUpgradePolicy konsolidiert wurden, und ist nicht mehr erforderlich und wird im Allgemeinen nicht zugesichert TeamsInteropPolicy konfigurieren. TeamsInteropPolicy wird nicht berücksichtigt, wenn TeamsUpgradePolicy Modus hat = Legacy, diesen Modus auch zurückgezogen werden.  Abschluss TeamsUpgradePolicy Support *müssen Kunden ihre Konfigurationen Verwendung ein anderer Druckmodus als Legacy aktualisieren*. Erteilen von Instanzen von TeamsUpgradePolicy Modus = Legacy wird jetzt blockiert.  Microsoft ist, entfernen Sie alle Instanzen von TeamsInteropPolicy und alle Instanzen der TeamsUpgradePolicy Modus = Legacy.
 
 ## <a name="fundamental-concepts"></a>Grundlegende Konzepte
 
@@ -45,7 +48,7 @@ TeamsInteropPolicy wird als zuvor angekündigten im April 2018 zurückgezogen. S
     - Wenn Sie Skype für Business Server 2019 oder CU8 für Skype für Business Server 2015 haben, geben Sie die `-MoveToTeams` wechseln `Move-CsUser` zum Verschieben des Benutzers direkt in Teams.
     - Andernfalls, nach dem `Move-CsUser` abgeschlossen ist, weisen Sie diesen Benutzer mithilfe von PowerShell oder der Verwaltungskonsole Teams TeamsOnly Modus. 
 
-7.  Die Core-Richtlinie für die Verwaltung des Upgrades und Interop ist TeamsUpgradePolicy. TeamsInteropPolicy wird nicht mehr berücksichtigt, außer bei Verwendung des Modus TeamsUpgradePolicy = Legacy und Kunden mithilfe des Modus = Legacy sollten Aktualisieren ihrer Konfiguration von TeamsUpgradePolicy auf einen anderen Modus verwenden.  Gewähren von Mode = Legacy wird jetzt in der Standardeinstellung blockiert, obwohl Administratoren dies außer Kraft setzen können mit `-Force` für die zurzeit. Schließlich die `-Force` Switch werden entfernt und gewähren von Mode = Legacy ist nicht möglich. 
+7.  Die Core-Richtlinie für die Verwaltung des Upgrades und Interop ist TeamsUpgradePolicy. TeamsInteropPolicy wird nicht mehr berücksichtigt, außer bei Verwendung des Modus TeamsUpgradePolicy = Legacy und Kunden mithilfe des Modus = Legacy muss Aktualisieren ihrer Konfiguration von TeamsUpgradePolicy auf einen anderen Modus verwenden.  Gewähren von Mode = Legacy ist nicht mehr zulässig. 
 
 8.  Um Teams Telefonsystem Features mit Teams verwenden, muss sich Benutzer in TeamsOnly-Modus (d. h., die in Skype für Business Online verwaltet und Teams aktualisiert), und muss entweder für die Microsoft-Telefonsystem [Direkten Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (dem Telefonsystem verwenden können konfiguriert werden mit eigenen SIP-Trunks und SBC) oder über ein Office 365 aufrufen planen.   
 
@@ -71,7 +74,7 @@ Die geplante Modi sind unten aufgeführt. SfBWithTeamsCollab und SfBWithTeamsCol
 |SfBWithTeamsCollab<sup>2</sup>|Eingehende Anrufe und Chats werden an Skype für Unternehmen weitergeleitet.|Skype für Unternehmen nur|Endbenutzer können Anrufe und nur von Skype für Unternehmen Chats initiieren und Skype nur für Business Besprechungen planen. Sie können auch Kanäle in Teams. (NOCH NICHT ERZWUNGEN)|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Eingehende Anrufe und Chats werden an Skype für Unternehmen weitergeleitet.|Nur Teams|Endbenutzer können Anrufe initiieren und Chats von Skype für Unternehmen nur und Teams Besprechungen planen. Sie können Teams Channel Unterhaltungen teilnehmen. (NOCH NICHT ERZWUNGEN)|
 |TeamsOnly|Eingehende Anrufe und Chats werden Teams weitergeleitet.|Nur Teams|Endbenutzer können Anrufe und nur von Teams Chats initiieren. Skype für Unternehmen ist nur verfügbar, an Besprechungen teilnehmen.|
-|Legacy</br>*Veraltet*|Routing TeamsInteropPolicy basiert auf|Keine Auswirkung|Keine Auswirkung. Dies ist eine temporäre Modus, in dem Übergang von TeamsInteropPolicy zu TeamsUpgradePolicy vereinfacht. TeamsUpgradePolicy wird vollständig unterstützt damit *Kunden sollten ihre Konfigurationen auf einem anderen als dem Legacy aktualisiert werden.*  Gewähren von Legacymodus wird jetzt standardmäßig blockiert. |
+|Legacy</br>*Veraltet*|Routing TeamsInteropPolicy basiert auf|Keine Auswirkung|Keine Auswirkung. Dies ist eine temporäre Modus, in dem Übergang von TeamsInteropPolicy zu TeamsUpgradePolicy vereinfacht. TeamsUpgradePolicy wird vollständig unterstützt damit *müssen Kunden ihre Konfigurationen aktualisieren, zu einem anderen als dem Legacy.*  Gewähren von Legacy-Modus ist nicht mehr möglich. |
 |||||
 
 **Hinweise:**
@@ -82,7 +85,7 @@ Finden Sie <sup>1</sup> ausführliche Informationen zum Aufrufen von PSTN Tabell
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy: Verwalten von Migration und Koexistenz
 
-TeamsUpgradePolicy macht drei Eigenschaften verfügbar. Die primären Eigenschaften sind Modus und NotifySfbUsers. Aktion ist ein legacy-Parameter und ist mit der Kombination Modus und NotifySfbUsers vollständig redundant.
+TeamsUpgradePolicy werden zwei wichtige Eigenschaften verfügbar gemacht: Modus und NotifySfbUsers. 
 </br>
 </br>
 
@@ -90,28 +93,27 @@ TeamsUpgradePolicy macht drei Eigenschaften verfügbar. Die primären Eigenschaf
 |---|---|---|---|
 |Modus|Enum|*Inseln*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>Legacy|Gibt den Modus, den in der Client ausgeführt wird. Wenn Mode = Legacy, Komponenten, die diese Richtlinie consuming berücksichtigt TeamsInteropPolicy wiederhergestellt werden. TeamsUpgradePolicy wird nun vollständig unterstützt und Kunden sollten ihre Konfigurationen mit einem anderen als dem Legacy aktualisieren.|
 |NotifySfbUsers|Bool|*False* oder true|Gibt an, ob für ein Banner in der Skype für den Benutzer darüber informiert, dass die Teams Skype für Unternehmen schnell ersetzt Business-Client angezeigt werden soll. Dies kann nicht true, wenn Mode = TeamsOnly.|
-|Aktion</br>*Veraltet*|Enum|*Keine*Aktualisierung zu benachrichtigen|Dies ist ein legacy-Parameter, der schließlich entfernt wird, da es durch die Kombination von Modus und NotifySfbUsers darstellt. |
 |||||
 
 Teams stellt alle relevante Instanzen der TeamsUpgradePolicy über integrierte, nur-Lese-Richtlinien. Aus diesem Grund nur Get- und Grant-Cmdlets sind verfügbar. Die Instanzen integrierten sind unten aufgeführt.
 </br>
 </br>
 
-|Identität |Modus|NotifySfbUsers|Aktion|Kommentare|
-|---|---|---|---|---|
-|Inseln|Inseln|Falsch|Keine||
-|IslandsWithNotify|Inseln|True|Benachrichtigen||
-|SfBOnly|SfBOnly|Falsch|Keine|Für den Moment, in diesem Modus erfolgt effektiv als bevorzugter Client Einstellung = SfB. Wir in Zukunft zu erwarten, dass diese Teams Funktionalität eingeschränkt wird.|
-|SfBOnlyWithNotify|SfBOnly|True|Benachrichtigen|Für den Moment, in diesem Modus erfolgt effektiv als bevorzugter Client Einstellung = SfB. Wir in Zukunft zu erwarten, dass diese Teams Funktionalität eingeschränkt wird.|
-|SfBWithTeamsCollab|SfBWithTeamsCollab|Falsch|Keine|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird dies nur Kanäle Teams app zulassen.|
-|SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|Benachrichtigen|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird dies nur Kanäle Teams app zulassen.|
-|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|Falsch|Keine|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird diese Besprechung planen in Teams und Kanäle gestatten.|
-|SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|Benachrichtigen|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird diese Besprechung planen in Teams und Kanäle gestatten.|
-|UpgradeToTeams|TeamsOnly|Falsch|Upgrade|Verwenden Sie diesen Modus aus, um Benutzer auf Teams aktualisiert und Chat, aufrufen und Planen der Besprechung in Skype für Unternehmen zu vermeiden.|
-|Global|Inseln|Falsch|Keine|Das ist die Standardrichtlinie.|
-|NoUpgrade|Legacy|Falsch|Keine|Diese Instanz wird bald zurückgezogen werden.|
-|NotifyForTeams|Legacy|True|Benachrichtigen|Diese Instanz wird bald zurückgezogen werden.|
-||||||
+|Identität |Modus|NotifySfbUsers|Kommentare|
+|---|---|---|---|
+|Inseln|Inseln|Falsch||
+|IslandsWithNotify|Inseln|True||
+|SfBOnly|SfBOnly|Falsch|Für den Moment, in diesem Modus erfolgt effektiv als bevorzugter Client Einstellung = SfB. Wir in Zukunft zu erwarten, dass diese Teams Funktionalität eingeschränkt wird.|
+|SfBOnlyWithNotify|SfBOnly|True|Für den Moment, in diesem Modus erfolgt effektiv als bevorzugter Client Einstellung = SfB. Wir in Zukunft zu erwarten, dass diese Teams Funktionalität eingeschränkt wird.|
+|SfBWithTeamsCollab|SfBWithTeamsCollab|Falsch|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird dies nur Kanäle Teams app zulassen.|
+|SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird dies nur Kanäle Teams app zulassen.|
+|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|Falsch|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird diese Besprechung planen in Teams und Kanäle gestatten.|
+|SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|In diesem Modus Ebene PowerShell vorhanden ist, aber noch nicht die Admin-Benutzeroberfläche zugänglich. Aus der Sicht routing ist identisch mit SfBOnly Modus. Wenn TeamsAppPolicy verfügbar ist, wird diese Besprechung planen in Teams und Kanäle gestatten.|
+|UpgradeToTeams|TeamsOnly|Falsch|Verwenden Sie diesen Modus aus, um Benutzer auf Teams aktualisiert und Chat, aufrufen und Planen der Besprechung in Skype für Unternehmen zu vermeiden.|
+|Global|Inseln|Falsch|Das ist die Standardrichtlinie.|
+|NoUpgrade|Legacy|Falsch|Diese Instanz wird bald zurückgezogen werden. Es ist nicht mehr möglich, diese Richtlinie Benutzern erteilen|
+|NotifyForTeams|Legacy|True|Diese Instanz wird bald zurückgezogen werden. Es ist nicht mehr möglich, diese Richtlinie Benutzern erteilen|
+|||||
 
 Diese Richtlinieninstanzen können einzelnen Benutzern oder für einzelne Mandanten geltende erteilt werden. Beispiel:
 - Wenn einen Benutzer ($SipAddress) auf Teams aktualisieren, gewähren Sie die Instanz "UpgradeToTeams":</br>
@@ -125,23 +127,8 @@ Diese Richtlinieninstanzen können einzelnen Benutzern oder für einzelne Mandan
 
 Wie oben beschrieben wurde TeamsInteropPolicy durch TeamsUpgradePolicy ersetzt. Alle Komponenten, die zuvor TeamsInteropPolicy berücksichtigt wurden aktualisiert, um stattdessen TeamsUpgradePolicy berücksichtigt. 
 
-Microsoft eingeführt zuvor "Legacymodus" in TeamsUpgradePolicy, um den Übergang von TeamsInteropPolicy zu TeamsUpgradePolicy zu vereinfachen. Routingkomponenten, die TeamsUpgradePolicy verstanden würde im Legacy-Modus auf TeamsInteropPolicy zurückgesetzt. TeamsUpgradePolicy Routing jetzt vollständig unterstützt, und es ist keine weitere Legacymodus verwenden müssen. *Kunden mit Legacymodus aktualisieren sollten ihre Konfiguration von TeamsUpgradePolicy zu einem anderen Modus verwenden.* 
+Microsoft eingeführt zuvor "Legacymodus" in TeamsUpgradePolicy, um den Übergang von TeamsInteropPolicy zu TeamsUpgradePolicy zu vereinfachen. Routingkomponenten, die TeamsUpgradePolicy verstanden würde im Legacy-Modus auf TeamsInteropPolicy zurückgesetzt. TeamsUpgradePolicy Routing jetzt vollständig unterstützt, und es ist keine weitere Legacymodus verwenden müssen. *Kunden mit Legacymodus aktualisieren müssen ihre Konfiguration von TeamsUpgradePolicy zu einem anderen Modus verwenden.* 
 
-Kunden, die noch mit Legacymodus werden darauf hingewiesen, dass nur die drei bestimmten Instanzen von unten aufgeführten TeamsInteropPolicy unterstützt werden. In jedem Fall der Wert der CallingDefaultClient entspricht dem Wert des ChatDefaultClient und AllowEndUserClientOverride ist immer false. 
-</br>
-</br>
-**Unterstützt werden Instanzen des TeamsInteropPolicy bei Verwendung des Modus TeamsUpgradePolicy = Legacy**
-</br>
-</br>
-
-|Identität |AllowEndUserClientOverride|CallingDefaultClient|ChatDefaultClient|
-|---|---|---|---|
-|`DisallowOverrideCallingDefaultChatDefault`|Falsch|Default (Standard)|Default (Standard)|
-|`DisallowOverrideCallingSfbChatSfb`|Falsch|SFB|SFB|
-|`DisallowOverrideCallingTeamsChatTeams`|Falsch|Microsoft Teams|Microsoft Teams|
-|||||
-
-Verwenden Sie die folgende Cmdlet Syntax, wobei $policy eine der oben genannten Werte der Identität ist:`Grant-CsTeamsInteropPolicy -PolicyName $policy -Identity $SipAddress`
 
 ## <a name="federation-considerations"></a>Verbund-Aspekte
 
@@ -159,48 +146,16 @@ Weiter unten in diesem Jahr plant Microsoft Einführung einen neuen Richtlinient
 
 Bis TeamsAppPolicy verfügbar ist, steuert TeamsUpgradePolicy im Wesentlichen routing von Anrufen und Chats als auch Besprechung planen (wie über Outlook-add-ins verfügbar gemacht werden). Da Clientverhalten Teams nicht noch vorhanden ist, werden nicht alle Modi auf modernen Portal aktiviert. Aus der Sicht routing sind die Modi SfBOnly, SfBWithTeamsCollab und SfBWithTeamsCollabAndMeetings identisch. 
 
-## <a name="action-required-for-organizations-that-were-using-teamsinteroppolicy"></a>Eine Aktion durchführen für Organisationen, die TeamsInteropPolicy verwenden
-
-Alle Kunden TeamsInteropPolicy weiterhin zu verwenden: 
-1. Stellen Sie sicher, dass Benutzer mit TeamsInteropPolicy nur eine dieser drei integrierten Instanzen, für welche CallingDefaultClient zugeordnet werden = ChatDefaultClient und für welche AllowEndUserClientOverride = False. Diese Instanzen sind:
-   </br>
-   </br>
-
-   |Identität |AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
-   |---|---|---|---|
-   |`DisallowOverrideCallingDefaultChatDefault`|Falsch|Default (Standard)|Default (Standard)|
-   |`DisallowOverrideCallingSfbChatSfb`|Falsch|SFB|SFB|
-   |`DisallowOverrideCallingTeamsChatTeams`|Falsch|Microsoft Teams|Microsoft Teams|
-   |||||
-
-    Verwenden Sie die folgende Cmdlet Syntax, wobei $policy eine der oben genannten Werte der Identität ist:
-
-    `Grant-CsTeamsInteropPolicy -PolicyName $policy -Identity $SipAddress`
-
-    **Microsoft fordert an, dass Kunden ihre Richtlinien von 30 Juni 2018 aktualisieren.** Irgendwann danach wird Microsoft anderen Instanzen von TeamsInteropPolicy entfernt werden.</br> 
-    ***Organisationen, die nicht auf eine der folgenden Instanzen aktualisieren müssen schließlich die Benutzer auf eine der folgenden Instanzen automatisch aktualisiert. Wir bevorzugen offensichtlich, dass Kunden hierzu, damit Sie auswählen können, was am besten für Ihre Benutzer ist.***
-
-2. Wenn Sie die integrierte globale Richtlinie angepasst, rückgängig machen Sie dies. Die globale Richtlinie sollten die folgenden Werte haben:
-   </br>
-   </br>
-
-    |Parameter|Wert|
-    |---|---|
-    |`AllowEndUserClientOverride`|Falsch|
-    |`CallingDefaultClient`|Default (Standard)|
-    |`ChatDefaultClient`|Default (Standard)|
-    |||
-
-    Wenn die Werte anders als oben angegeben werden, führen Sie Folgendes ein, um alle Mandanten-spezifische Anpassungen zu entfernen:
-
-    `Grant-CsTeamsInteropPolicy -PolicyName $null`
 
 
+## <a name="action-required-for-organizations-that-are-using-modelegacy-andor-teamsinteroppolicy"></a>Eine Aktion durchführen für Organisationen, die Modus verwenden = Legacy und/oder TeamsInteropPolicy
+Kunden mit Mode = Legacy in TeamsUpgradePolicy (Richtlinieninstanz = NoUpgrade oder Richtlinie Instanz = NotifyForTeams) müssen Aktualisieren ihrer Konfiguration, um eine Richtlinie mit einer anderer Druckmodus als Legacy verwenden.  Darüber hinaus sollten Kunden mit TeamsInteropPolicy Zuweisungen diese Richtlinie entfernen, da es nicht mehr vom System, mit Ausnahme von im Legacy-Modus verwendet wird, wird zurückgezogen werden.  Beachten Sie, dass es ist nicht mehr möglich, Legacymodus zu erteilen. Legacymodus und TeamsInteropPolicy werden in naher Zukunft entfernt.
 
+Aktionen erforderlich:
+ - Kunden mit TeamsInteropPolicy mit Benutzern, die *nicht* im Legacymodus: die Richtlinie hat keine Auswirkung und seine empfohlen, entfernen Sie alle Benutzer level-Zuordnungen und verwenden Sie die globale Richtlinie einfach mit Standardwerten.
+ - Kunden mit Legacymodus mit TeamsInteropPolicy routing an SfB (DisallowOverrideCallingSfbChatSfb): Diese Organisationen sollte wechseln, um einen der SfB Modi (SfBOnly, SfBWithTeamsCollab, SfbWithTeamsCollabAndMeetings) in TeamsUpgradePolicy verwenden. Aus der Sicht routing diese Modi verhält sich wie die Verwendung von Legacymodus mit TeamsInteropPolicy routing an SfB.
+  - Kunden mit Legacymodus mit TeamsInteropPolicy routing Teams (DisallowOverrideCallingTeamsChatTeams): Diese Organisationen sollte TeamsOnly Modus wechseln.  Haben Sie aus der Sicht routing, die dieser immer dieselbe. Ein Unterschied ist jedoch, dass Benutzer in Teams nur Kopfzeilen herunterladen, Chats und Anrufe initiieren, und Planen von Besprechungen in Skype für Unternehmen nicht mehr möglich. Sie können jedoch weiterhin alle Skype für Business Besprechung teilnehmen.
 
-## <a name="action-required-for-organizations-that-are-using-modelegacy"></a>Eine Aktion durchführen für Organisationen, die Modus verwenden = Legacy
-
-Kunden mit Mode = Legacy in TeamsUpgradePolicy (Richtlinieninstanz = NoUpgrade oder Richtlinie Instanz = NotifyForTeams) müssen Aktualisieren ihrer Konfiguration, um eine Richtlinie mit einer anderer Druckmodus als Legacy verwenden. 
 
  **Microsoft fordert an, dass Kunden alle Verwendung von Legacymodus durch 15 November 2018 entfernen.** Irgendwann danach wird Microsoft Instanzen von TeamsUpgradePolicy Modus entfernen = Legacy.</br> 
 
@@ -216,7 +171,7 @@ Kunden mit Mode = Legacy in TeamsUpgradePolicy (Richtlinieninstanz = NoUpgrade o
 |**SfBWithTeamsCollab**|Ein einzelner Benutzer führt beide Skype für Geschäfts- und Teams Side-by-Side. Diesen Benutzer:</br><ul><li>Verfügt über die Funktionen eines Benutzers im SfBOnly Modus.<li>Teams hat nur für die Zusammenarbeit von Gruppen (Kanäle); aktiviert werden Chat/aufrufen/Besprechung planen sind deaktiviert.</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|Ein einzelner Benutzer führt beide Skype für Geschäfts- und Teams Side-by-Side. Diesen Benutzer:<ul><li>Hat die Chat und Anruffunktionen des Benutzers im SfBOnly Modus.<li>Teams für die Zusammenarbeit von Gruppen aktiviert wurde (Kanäle - Kanal Unterhaltungen enthält); Chat und Aufrufen von sind deaktiviert.<li>Planen Sie nur Teams Besprechungen können, jedoch können Skype für Business oder Teams Besprechungen teilnehmen.</ul>|
 |**TeamsOnly**</br>(erfordert SfB Online privat)|Ein einzelner Benutzer führt nur Teams. Diesen Benutzer:<ul><li>Empfängt alle Chats, und unabhängig von ihren Teams-Client aufruft, in denen initiiert hat.<li>Können Chats und nur von Teams Anrufe initiieren.<li>Können nur in Teams Besprechungen planen Sie, aber beitreten Sie Skype für Business oder Teams Besprechungen können.<li>Können weiterhin Skype für Business IP-Telefone verwenden.</ul> |
-|**Legacy**</br>(veraltet)|In diesem Modus wurde während des Übergangs auf TeamsUpgradePolicy TeamsInteropPolicy verwendet, um sicherzustellen, dass eine konsistente nutzungserfahrung als Software Änderungen eingeführt. Dieser Modus wird nicht mehr benötigt, nun, TeamsUpgradePolicy vollständig unterstützt wird. Kunden mit Mode = Legacy sollte ihre Konfiguration auf der anderen Modi verwenden zu aktualisieren.|
+|**Legacy**</br>(veraltet)|In diesem Modus wurde während des Übergangs auf TeamsUpgradePolicy TeamsInteropPolicy verwendet, um sicherzustellen, dass eine konsistente nutzungserfahrung als Software Änderungen eingeführt. Dieser Modus wird nicht mehr benötigt, nun, TeamsUpgradePolicy vollständig unterstützt wird. Kunden mit Mode = Legacy aktualisieren muss ihre Konfiguration auf der anderen Modi verwenden.|
 |||
 
 

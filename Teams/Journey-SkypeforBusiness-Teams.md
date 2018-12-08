@@ -14,21 +14,27 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e1723e388ef58c48650a916d73d2ac09b13d00
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.openlocfilehash: 1ac410d5248149641cb29461bb6c0f73e6cbfb8d
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25012073"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201349"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype für Unternehmen so aktualisieren Sie Microsoft-Teams
-
 
 Unterstützung von Microsoft intelligenten Communications Vision, ist Microsoft-Teams, die zentrale Plattform für die Zusammenarbeit, Chat, Besprechungen, Anrufe, für die Zusammenarbeit, app-Integration und Dateispeicher, da es Menschen und. Als eine vorhandene Skype für Unternehmenskunden sind Sie eingeladen eines Upgrades auf Microsoft-Teams, diese umfassendes, Kommunikation und Zusammenarbeit-Funktionen in einem einzigen Client arbeiten-Umgebung zu bieten.
 
 Ihre Upgrade Reise kann eine Weile dauern, und wir zur Unterstützung von jedem Schritt den Weg. Ob Sie sind nur erste Schritte mit Verwendung bereits für Unternehmen, Teams zusammen mit Skype-Teams oder bereit zur Aktualisierung, wir hart arbeiten schalten Sie die richtige Ebene der Anleitung für Ihre Organisation und Fördern Sie die nächsten Schritte zur Realisierung beginnen die Wert Teams können Ihrem Unternehmen bieten.
 
 Zeigen Sie in dieser [Übersicht über](https://aka.ms/UpgradeOverview) eine Einführung in die Skype für Unternehmen zu Teams Upgrade Weg, einschließlich zentrale Konzepte, Framework und Upgradepfade an.
+
+> [!Tip]
+> Sehen Sie sich die folgenden Sitzung um kennen zu lernen die Aktualisierung von Skype für Unternehmen, die Microsoft-Teams: 
+> - [Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)
+> - [Planen des Upgrades](https://aka.ms/teams-upgrade-plan)
+> - [Interoperabilität und Koexistenz](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Administratorbenutzeroberfläche](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>Upgrade Reise-framework
 

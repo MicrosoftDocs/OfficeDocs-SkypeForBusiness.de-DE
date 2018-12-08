@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Australien verfügbar.
-ms.openlocfilehash: c715c6670a79f6bdd317eda256bf73597f45cc82
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b39e940d4a2d4a113f1090cededdd052ff9594a9
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017455"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201469"
 ---
 # <a name="availability-in-australia"></a>Verfügbarkeit in Australien
 
@@ -66,6 +66,11 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |Verfügbare Minuten für Anrufpläne  <br/> |Finden Sie unter [Telstra für Office 365 aufrufen](https://aka.ms/TelstraVoicePlan). <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Finden Sie unter [Telstra für Office 365 aufrufen](https://aka.ms/TelstraVoicePlan). <br/> |
 
+> [!IMPORTANT]
+> Australische Abonnenten löschen Zahlen (bereitgestellt von Telstra) wenden Sie sich Telstra direkt an.
+> Wenden Sie Telstra direkt, um Emergency Adressinformationen für Australien Abonnenten Zahlen (Telstra) zu aktualisieren.
+> Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
 |**Funktion**|**Details**|
@@ -74,7 +79,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 
-Wenn Sie gebührenpflichtige oder gebührenfreie Telefonnummern für automatische Telefonzentralen und Anruf Warteschlangen abrufen möchten, finden Sie unter [Telstra für Office 365 aufrufen](https://aka.ms/TelstraVoicePlan). Audiokonferenzen Service Zahlen, [wenden Sie sich uns an](mailto:ptnapac@microsoft.com).
+Wenn Sie gebührenpflichtige oder gebührenfreie Telefonnummern für automatische Telefonzentralen abrufen möchten, rufen Sie Warteschlangen oder Audiokonferenzen Service Zahlen, [wenden Sie sich uns an](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

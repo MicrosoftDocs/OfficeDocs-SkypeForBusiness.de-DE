@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a14d6db6c03b540a6495b9028a4f0342ff92636
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: bf42d76e1e17dc81b1c3d0ab603050c6e2d25d71
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716335"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201333"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -61,17 +61,11 @@ Die Debugprotokolle werden unter Verwendung der folgenden für das jeweilige Bet
 
 -   Windows:
 
-    1.  Klicken Sie mit der rechten Maustaste auf **das Microsoft Teams-Symbol im** Infobereich Ihrer Anwendung, und wählen Sie **Protokolle abrufen** aus.
-
-    2.  Auswählen von **Protokolle abrufen** aus dem Pulldownmenü **Hilfe**
-
-    3.  Tastenkombination: STRG+ALT+UMSCHALT+1
+      Tastenkombination: STRG+ALT+UMSCHALT+1
 
 -   Mac OSX:
 
-    1.  Auswählen von **Protokolle abrufen** aus dem Pulldownmenü **Hilfe**
-
-    2.  Tastenkombination: WAHLTASTE+BEFEHLSTASTE+UMSCHALT+1
+      Tastenkombination: WAHLTASTE+BEFEHLSTASTE+UMSCHALT+1
 
 Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen.
 
@@ -97,6 +91,16 @@ Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe 
 ---------------------
 
 Desktopprotokolle, auch bekannt unter Bootstrapper-Protokolle, enthalten Protokolldaten, die zwischen dem Desktopclient und dem Browser erstellt werden. Wie Medienprotokolle werden diese Protokolle nur auf Anforderung von Microsoft benötigt. Die Protokolle sind textbasiert und können mit jedem Texteditor von oben nach unten gelesen werden.
+
+Windows:
+
+  1.  Klicken Sie mit der rechten Maustaste auf **das Microsoft Teams-Symbol im** Infobereich Ihrer Anwendung, und wählen Sie **Protokolle abrufen** aus.
+
+  2.  Auswählen von **Protokolle abrufen** aus dem Pulldownmenü **Hilfe**
+
+Mac OSX ausgeführt werden:
+
+1.  Auswählen von **Protokolle abrufen** aus dem Pulldownmenü **Hilfe**
 
 |Client |Speicherort |
 |---------|---------|

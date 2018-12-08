@@ -13,19 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6e25d8e4d28a40bed33483d3ebdd6b5499f9ec1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f080d90f0a384bfdc4010a80d7c84a1b51a10754
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372022"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201365"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
 
 Microsoft Teams basiert auf der Office 365-Cloud auf Unternehmensniveau mit Hyperskalierung und bietet die erweiterten Sicherheits- und Compliance-Funktionen, die unsere Kunden erwarten.
 
-Teams ist von der Einführung an mit Stufe C konform. Dazu gehören die folgenden Standards: ISO 27001, ISO 27018, SSAE16 SOC 1 und SOC 2, HIPAA und EU-Standardvertragsklauseln (EU Model Clauses, EUMC). Microsoft klassifiziert innerhalb des Microsoft-Compliance-Frameworks Office 365-Anwendungen und -Dienste in vier Kategorien. Jede Kategorie wird durch bestimmte Compliance-Verpflichtungen definiert, die ein Office 365-Dienst oder ein zugehöriger Microsoft-Dienst erfüllen muss, um in dieser Kategorie geführt zu werden.
+Teams ist Tier D-kompatibel. Dazu gehören die folgenden Standards: ISO 27001, ISO 27018, SSAE16 SOC 1 und 2 SOC, HIPAA und EU-Modell Klauseln (EUMC). Klassifiziert werden im Rahmen des Microsoft-Kompatibilität Microsoft Office 365-Anwendungen und Dienste in vier Kategorien. Jeder Kategorie wird durch bestimmte Compliance Zusagen definiert, die für ein Office 365-Dienst oder eine verknüpfte Microsoft-Dienst in dieser Kategorie aufgelistet werden erfüllt sein müssen.
 
 Dienste in den Compliance-Kategorien C und D, für die branchenführende Compliance-Verpflichtungen gelten, sind standardmäßig aktiviert. Dienste der Kategorien A und B verfügen über Steuermöglichkeiten, mit denen diese Dienste organisationsweit aktiviert oder deaktiviert werden können. Details hierzu finden Sie im Dokument zum [Compliance-Framework für Branchenstandards und -bestimmungen](https://go.microsoft.com/fwlink/?linkid=855777). Microsoft Teams unterstützt außerdem Cloud Security Alliance-Compliance.
 
@@ -41,7 +41,7 @@ Audit Log Suche ist direkt in die Office 365-Sicherheit und Compliance Center un
 
 Inhaltssuche kann zu suchenden alle Teams Daten über Rich Filterfunktionen verwendet und auf einen bestimmten Container für die Einhaltung von Vorschriften und Aufbewahrung für eventuelle Unterstützung exportiert werden. Dies kann mit oder ohne einem eDiscovery-Fall erfolgen. Auf diese Weise können Compliance-Admins sammeln Sie allen Benutzern Teams, überprüfen und für die weitere Verarbeitung zu exportieren. Finden Sie in diesen [Link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) , um weitere Informationen dazu, wie Sie eine Compliance-Inhaltssuche für Microsoft-Teams, Inhalte auf der Office 365-Sicherheit und Compliance Center durchführen. 
 
-Tipp: Die Kind MicrosoftTeams kann über Microsoft-Teams nur Content d. h. Chat und Channel Nachrichten, Besprechungen und Telefonkonferenzen gefiltert verwendet werden. 
+Tipp: Art die Microsoft-Teams kann zum Filtern verwendet werden über Microsoft-Teams nur Content d. h. Chat und Channel Nachrichten, Besprechungen und Anrufe. 
 
 ## <a name="ediscovery"></a>eDiscovery
 
@@ -70,7 +70,7 @@ Kunden können pro ihren Anforderungen nutzen Compliance-eDiscovery oder [Erweit
 
 ## <a name="legal-hold"></a>Gesetzliche Aufbewahrungspflicht
 
-Während einer Rechtsstreitigkeiten ist es oft erforderlich, dass alle Daten im Zusammenhang mit einem Benutzer (Verwaltungsberechtigter) oder ein Team ist in unveränderbarer Form beibehalten, sodass sie als Beweis für die Groß-/Kleinschreibung verwendet werden kann. Dies ist durch einen Benutzer (Benutzerpostfach) oder ein Team rechtliche Aufbewahrungspflicht platzieren. Wenn alle Team innerhalb Teams für Compliance-Archiv (Teilmenge der das Postfach oder eine Websitesammlung bis gezielte Abfragen oder gefilterten Inhalt) oder die Aufbewahrung für eventuelle Rechtsstreitigkeiten (gesamte Postfach oder eine Websitesammlung) festgelegt wird, wird die Sperre für das Postfach Gruppen platziert. Dadurch wird sichergestellt, dass auch wenn Endbenutzer löschen oder Bearbeiten von DDE Kanalnachrichten, die in der Gruppenpostfach aufgenommen werden, unveränderliche Kopien dieser Inhalte verwaltet und bei der Suche eDisscovery verfügbar sind. Gesetzliche Aufbewahrungspflicht wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. Finden Sie [in diesem](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) Artikel zu verstehen, Weitere Informationen zur Beibehaltung und Haltebereiche im Compliance Center & Sicherheit in Office 365 helfen. 
+Während einer Rechtsstreitigkeiten ist es oft erforderlich, dass alle Daten im Zusammenhang mit einem Benutzer (Verwaltungsberechtigter) oder ein Team ist in unveränderbarer Form beibehalten, sodass sie als Beweis für die Groß-/Kleinschreibung verwendet werden kann. Dies ist durch einen Benutzer (Benutzerpostfach) oder ein Team rechtliche Aufbewahrungspflicht platzieren. Wenn alle Team innerhalb Teams für Compliance-Archiv (Teilmenge der das Postfach oder eine Websitesammlung bis gezielte Abfragen oder gefilterten Inhalt) oder die Aufbewahrung für eventuelle Rechtsstreitigkeiten (gesamte Postfach oder eine Websitesammlung) festgelegt wird, wird die Sperre für das Postfach Gruppen platziert. Dadurch wird sichergestellt, dass auch wenn Endbenutzer löschen oder Bearbeiten von DDE Kanalnachrichten, die in der Gruppenpostfach aufgenommen werden, unveränderliche Kopien dieser Inhalte verwaltet und in eDiscovery-Suche verfügbar sind. Gesetzliche Aufbewahrungspflicht wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. Finden Sie [in diesem](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) Artikel zu verstehen, Weitere Informationen zur Beibehaltung und Haltebereiche im Compliance Center & Sicherheit in Office 365 helfen. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Protection-Informationsarchitektur für das Microsoft-Teams. 
 
@@ -137,7 +137,7 @@ Um herauszufinden, welcher Bereich für Ihre Mandanten Daten enthält, gehen Sie
 
 Microsoft-Teams, umfassend nutzt Exchange Online, SharePoint Online und Skype für Business Online für Produktivität Hauptszenarien, wie Besprechungen, Kalender, interop Chats und Dateifreigabe. Bedingte Zugriffsrichtlinien, die für diese apps Cloud festgelegt sind gelten für Microsoft-Teams, wenn ein Benutzer direkt bei Microsoft-Teams - auf jedem Client anmeldet. 
 
-Microsoft-Teams, wird als Cloud-app in Azure Active Directory bedingte Zugriffsrichtlinien separat unterstützt. Bedingte Zugriffsrichtlinien, die für die Microsoft-Teams, Cloud app festgelegt sind gelten für Microsoft-Teams, wenn ein Benutzer anmeldet. Jedoch möglicherweise ohne die richtigen Richtlinien auf anderen apps wie Exchange Online und SharePoint Online, Benutzer weiterhin direkt auf diese Ressourcen zugreifen können. Weitere Hinweise zum Einrichten einer bedingten Richtlinie im Azure-Portal finden Sie unter: ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Microsoft-Teams, wird als Cloud-app in Azure Active Directory bedingte Zugriffsrichtlinien separat unterstützt. Bedingte Zugriffsrichtlinien, die für die Microsoft-Teams, Cloud app festgelegt sind gelten für Microsoft-Teams, wenn ein Benutzer anmeldet. Jedoch möglicherweise ohne die richtigen Richtlinien auf anderen apps wie Exchange Online und SharePoint Online, Benutzer weiterhin direkt auf diese Ressourcen zugreifen können. Weitere Informationen zum Einrichten einer bedingten Richtlinie im Azure-Portal, wechseln Sie zu: ()https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Microsoft-Teams Desktopclients für Windows und Mac unterstützen modernen-Authentifizierung. Moderne Authentifizierung bringt Anmeldung basierend auf der Azure Active Directory Authentifizierung Library (ADAL) für Microsoft Office-Clientanwendungen auf Plattformen.
 
