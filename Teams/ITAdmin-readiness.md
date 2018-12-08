@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Schulungsvideos, Lernprogramme und andere Ressourcen für Administratoren zum Planen, bereitstellen und Ausführen von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21a55aed41443ed0a1411384579cfad2acda7de5
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: f8f83869d715c01f678e112eb9170013f2f1b956
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26538969"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201341"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 
@@ -130,7 +130,11 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
                 <div class="card">
                     <div class="cardText">
                         <h3>Reise von Skype for Business zu Microsoft Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Reise von Skype for Business zu Microsoft Teams</a></p>
+                         <p><a href="https://aka.ms/teams-upgrade-intro">Video: Einführung in das Upgrade</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-plan">Video: Planen des Upgrades</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">Video: Interoperabilität und Koexistenz</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-admin">Video: Administratorbenutzeroberfläche</a></p>
+                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Reise von Skype for Business zu Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -165,7 +169,7 @@ Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um In
                         <h3>Planen und bereitstellen</h3>
                          <p><a href="quick-start-enable-teams.md">Schnellstart: Microsoft Teams-Planungshandbuch</a></p>
                          <p><a href="http://aka.ms/teams-clients">Video: Teams Windows-desktop-client</a></p>
-                         <p><a href="http://aka.ms/teams-governances">Video: Steuerung und Verwaltung Lebenszyklus im Microsoft-Teams</a></p>
+                         <p><a href="http://aka.ms/teams-governance">Video: Steuerung und Verwaltung Lebenszyklus im Microsoft-Teams</a></p>
                     </div>
                 </div>
             </div>

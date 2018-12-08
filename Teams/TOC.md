@@ -225,7 +225,7 @@
 ### [Aktivieren und Deaktivieren des Sendens von E-Mails, wenn sich die Audiokonferenzeinstellungen ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-
+### [Konfigurieren Sie die Desktopfreigabe in Teams](configure-desktop-sharing.md)
 ### [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md)
 ### [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
 ### [Einrichten von Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -246,7 +246,6 @@
 ### [Hinzufügen von Bots für private Chats und Kanäle in Teams](add-bots.md)
 ### [Verwenden von integrierten und benutzerdefinierten Registerkarten in Teams](built-in-custom-tabs.md)
 ### [Verwenden von Office 365 und benutzerdefinierten Connectors in Teams](office-365-custom-connectors.md)
-### [Verwenden von T-Bot, um Benutzern bei der Verwendung von Teams zu helfen](t-bot.md)
 ### [Verwenden von Berichten für Teams Aktivität](teams-activity-reports.md)
 ### [Verwenden von Inline-Nachricht Übersetzung in Teams](inline-message-translation-teams.md)
 
