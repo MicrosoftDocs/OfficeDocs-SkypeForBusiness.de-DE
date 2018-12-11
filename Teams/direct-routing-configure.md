@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der Weiterleitung von direkten
+title: Konfigurieren von direktem Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 3b023262971e9dcae111ed82d49d101437bbcda3
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510668"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214611"
 ---
-# <a name="configure-direct-routing"></a>Konfigurieren der Weiterleitung von direkten
+# <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
 > [!Tip]
 > Sehen Sie sich die folgenden Sitzung Informationen zu den Vorteilen von Direct Routing, wie es geplant und wie diese bereitgestellt: [Direktes Routing in Microsoft-Teams](https://aka.ms/teams-direct-routing)
@@ -33,8 +33,8 @@ In diesem Artikel wird beschrieben, wie Microsoft Phone System direkten Routing 
 
 Es wird empfohlen, dass Sie bestätigen, dass Ihre SBC bereits konfiguriert wurde, wie mithilfe des Herstellers Ihres SBC empfohlen: 
 
-- Dokumentation zur Bereitstellung von AudioCodes 
-- Menüband-Dokumentation zu Communications-Bereitstellung
+- [Dokumentation zur Bereitstellung von AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Menüband-Dokumentation zu Communications-Bereitstellung](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
 Sie können Ihr Telefonsystem Microsoft konfigurieren und Aktivieren von Benutzern mithilfe von Direct Routing, und richten Sie Microsoft-Teams, als bevorzugte aufrufenden Clients anhand der folgenden Verfahren: 
 
@@ -209,7 +209,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 Um eine Rufnummer für den Benutzer "Software niedrig" hinzuzufügen, würden Sie beispielsweise Folgendes eingeben: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 Die Rufnummer muss als eine vollständige e. 164-Rufnummer mit Ländercode konfiguriert werden. 
@@ -534,4 +534,4 @@ Direktes Routing nur weiterleiten Anrufe an und von Benutzern, wenn sie die Verw
 
 ## <a name="see-also"></a>Siehe auch
 
-[Planen der direkten Routing](direct-routing-plan.md)
+[Planen von direktem Routing](direct-routing-plan.md)

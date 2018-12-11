@@ -1,12 +1,12 @@
 ---
-title: Wählen Sie auf Ihrer Reise Upgrade - Microsoft-Teams
+title: Auswählen Ihrer Upgrade-Strategie – Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
 ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbeen, bjwhalen
 description: Details der Skype für Geschäfts- und Microsoft-Teams Koexistenz Optionen Modi und Upgrade Fahrten Teams von Skype für Unternehmen mit Beispielszenarien.
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f78cab154dd2b697cbee851a06ef8633b742dbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533190"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214489"
 ---
 ![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
 
@@ -85,7 +85,7 @@ Teams in der Organisation im Modus für die Auswertung **Inseln** bereitgestellt
 
 Im Laufe der Zeit können Gruppen von Benutzern, **Teams nur** Modus, gefolgt von der restlichen Organisation aktualisiert werden. Schließlich wird die gesamte Organisation bereit für die Stilllegung der Skype für Unternehmen und verwenden nur Teams für Kommunikation und Zusammenarbeit, sein oder – wenn die geschäftlichen Abläufe, dass Skype für Unternehmen für eine bestimmte Gruppe beibehalten werden – die Mehrzahl der Benutzer in der Organisation kann nur Teams verwenden. <br><br>
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkt</td><td><ul> Welche Upgrade Weg zu Ihrer Organisation & #39 geeignet ist; s geschäftlichen Anforderungen?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkt</td><td><ul> Welche Upgrade Weg ist geeignet ist, geschäftlichen Anforderungen Ihrer Organisation?<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächster Schritt</td><td><ul> Identifizieren Ihrer aktuellen Bereitstellungsmodell, verwenden Sie Groß-/Kleinschreibung Szenarien und wichtige Überlegungen für Ihre Organisation informieren der Reise Teams, die für Ihre Organisation am besten geeignet ist.<br><br></ul></td></tr>
 </table>
 
@@ -93,7 +93,7 @@ Im Laufe der Zeit können Gruppen von Benutzern, **Teams nur** Modus, gefolgt vo
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkt</td><td><ul> Welche Upgradeszenario gilt für Ihre Organisation?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul> Bestimmen die Zeitachse von Ihrer Organisation & #39; s Upgrade Reise basierend auf messaging, Besprechungen und Aufrufen von geschäftsanforderungen.<br><br> Entscheiden Sie zusätzlichen Aufwand für die Durchführung Ihrer Reise Upgrade erforderlichen.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul> Entscheiden Sie den Zeitplan Ihrer Organisation Upgrade Reise basierend auf messaging, Besprechungen und Aufrufen von geschäftsanforderungen.<br><br> Entscheiden Sie zusätzlichen Aufwand für die Durchführung Ihrer Reise Upgrade erforderlichen.<br><br></ul></td></tr>
 </table>
 
 Nachdem Sie die beste Upgrade Reise für Ihre Organisation, [Führen Sie das Upgrade auf Teams](https://aka.ms/SkypeToTeams-Upgrade)ausgewählt haben.

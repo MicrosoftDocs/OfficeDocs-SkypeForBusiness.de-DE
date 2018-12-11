@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
-ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
+ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618596"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214558"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -28,7 +28,7 @@ ms.locfileid: "26618596"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft ist auf eine Reihe von kostenlose, live-online-Schulungskurse entwickelt, um Sie beim Einstieg hosten und mit Teams wird ausgeführt.Wenn Sie ein Entscheidungsträger im Unternehmen, Admin, IT-Experten oder Endbenutzer sind, finden Sie eine Klasse, die für Sie geeignet ist. Besuchen Sie uns finden Sie unter Teams in Aktion, Ihre Fragen erhalten möchten, und interagieren mit unserem live Kursleiter. Suchen Sie <a href="https://docs.microsoft.com/microsoftteams/enduser-training">bei Bedarf Endbenutzer Schulung</a>?<br><br>Klicken Sie auf eine Kachel zu registrieren.</p>
+                                    <p>Microsoft ist auf eine Reihe von kostenlose, live-online-Schulungskurse entwickelt, um Sie beim Einstieg hosten und mit Teams wird ausgeführt.Wenn Sie ein Entscheidungsträger im Unternehmen, Admin, IT-Experten oder Endbenutzer sind, finden Sie eine Klasse, die für Sie geeignet ist. Besuchen Sie uns finden Sie unter Teams in Aktion, Ihre Fragen erhalten möchten, und interagieren mit unserem live Kursleiter. Checken Sie unseren <a href="https://docs.microsoft.com/microsoftteams/enduser-training">Endbenutzertraining bei Bedarf</a>für weitere Schulungstermine, einschließlich der Versionen des live-Schulung auf Abruf aus.<br><br>Klicken Sie auf eine Kachel zu registrieren.</p>
                                 </div>
                             </li>
                             <li>
@@ -70,6 +70,25 @@ ms.locfileid: "26618596"
                                 </a>
                             </li>
                             <li>
+                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Teams Tipps und tricks</h3>
+                                                <p>Grundlegendes creative zum Optimieren der Leistung und Teams bei Ihrer täglichen Arbeit organisieren. (Benutzergruppe: Endbenutzer)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://microsoftteams.eventbuilder.com/Upgrade%20101:%20Understanding%20your%20upgrade%20from%20Skype">
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -101,25 +120,6 @@ ms.locfileid: "26618596"
                                             <div class="cardText">
                                                 <h3>Wechseln von Skype für Unternehmen zu Teams: Leitfaden für Endbenutzer</h3>
                                                     <p>Rufen Sie, was Sie benötigen schnellen Einstieg Teams während des Übergangs von Skype für Unternehmen, die Teams. (Benutzergruppe: Endbenutzer)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Tipps und tricks</h3>
-                                                <p>Grundlegendes creative zum Optimieren der Leistung und Teams bei Ihrer täglichen Arbeit organisieren. (Benutzergruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
                                     </div>

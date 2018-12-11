@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Schulungsvideos, Lernprogramme und andere Ressourcen für Benutzer in Ihrer Organisation zu erlernen und Verwenden von Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f46eabe142ae62f1a231a14a919089e80e0c27b8
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4754a20c38c16c78744d44d78647f0efdede83e6
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676427"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214443"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 
@@ -132,18 +132,33 @@ In diesem kurzen Video in Teams</h3>
                         <h3>Schnelles beginnt</h3>
                          <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Laden Sie dieses Schnellstart-Handbuch (PDF) zum Erlernen der Grundlagen</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Führen Sie die Artikel in diesem Schnellstart, schnell schnell</a></p>
-                        <p><a href="https://teamsdemo.office.com/">Interaktive Demo Teams</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Übersicht über die Teams</h3>
+                        <p><a href="https://teamsdemo.office.com/">Interaktive Demo Teams</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">Live-Schulung auf Abruf: #ThisisTeams - wie Teams können Sie arbeiten.</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">Live-Schulung auf Abruf: Erste Schritte mit Teams</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+       <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
                         <h3>Wechseln Sie zu Teams von Skype für Unternehmen</h3>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Artikel: Schalter, mit dem Teams von Skype für Unternehmen</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">Live-Schulung auf Abruf: Upgrade 101: Verständnis des Upgrades von Skype für Unternehmen, die Teams</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">Live-Schulung auf Abruf: von Skype für Unternehmen, die Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -158,17 +173,6 @@ In diesem kurzen Video in Teams</h3>
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Video: Go to Guide für Team-Besitzer</a></p>
                          <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Video: Organisieren Sie Ihrer Teams (Liste)</a></p>
                          <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Video: Anweisungen zum Einrichten von Teams, Kanäle und Registerkarten</a></p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Live-Schulung auf Abruf</h3>
-                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams - wie Teams arbeiten können</a></p>
                     </div>
                 </div>
             </div>

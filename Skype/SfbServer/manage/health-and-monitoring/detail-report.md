@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Zusammenfassung: Informationen Sie zu den detaillierten Konferenzbericht in Skype für Business Server verwendet wird.'
-ms.openlocfilehash: ff8b7fa0643eedf7ddb38f908bc585af8bf7ac1f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 025e8bda6e26baf261aeb3729907a3f13c220774
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372347"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214595"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Konferenzdetailbericht in Skype für Business Server
 
@@ -26,13 +26,13 @@ Der detaillierte Konferenzbericht enthält ausführliche Informationen zu allen 
 
 Auf den detaillierten Konferenzbericht kann über die folgenden Berichte zugegriffen werden:
 
-- [Call Admission Control Report in Skype für Business Server](call-admission-control-report.md) (durch Klicken auf die Metrik Detail für eine Konferenz)
+- [Call Admission Control Report](call-admission-control-report.md) (durch Klicken auf die Metrik „Detail“ für eine Konferenz)
 
-- [Failure List Report in Skype für Business Server](failure-list-report.md) (durch Klicken auf die Metrik "Konferenz")
+- [Failure List Report](failure-list-report.md) (durch Klicken auf die Metrik „Konferenz“)
 
-- Der [Bericht über Benutzeraktivität in Skype für Business Server](user-activity-report.md) (durch Klicken auf die Metrik "Konferenz-URI")
+- [User Activity Report](call-diagnostic-reports-per-user.md) (durch Klicken auf die Metrik „Konferenz-URI“)
 
-Über den detaillierten Konferenzbericht können Sie den [Diagnosebericht in Skype für Business Server](diagnostic-report.md) zugreifen, durch Klicken auf die Metrik Diagnosebericht (Detail).
+Über den detaillierten Konferenzbericht können Sie die [Diagnose Berich](diagnostic-report.md) zugreifen, durch Klicken auf die Metrik Diagnosebericht (Detail).
 
 ## <a name="filters"></a>Filter
 
@@ -47,7 +47,7 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zu Konferenz
 
 | **Name**                 | **Beschreibung**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| **Konferenz-URI** <br/> | Der Konferenz zugewiesener URI. Beispiel:  <br/> SIP:kmyer@litwareinc.com;GRUU;Opaque=App:conf:Focus:ID:drg2y8v4  <br/> |
+| **Konferenz-URI** <br/> | Der Konferenz zugewiesener URI. Beispiel:  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | **Pool-FQDN** <br/>      | Vollqualifizierter Domänenname des Registrierungspools oder Edgeservers in einer Sitzung.  <br/>                             |
 | **Startzeitpunkt** <br/>     | Datum und Uhrzeit, an dem bzw. zu der Konferenz begann.  <br/>                                                                          |
 | **Organisator** <br/>      | SIP-Adresse des Benutzers, der die Sitzung organisiert hat.  <br/>                                                               |
