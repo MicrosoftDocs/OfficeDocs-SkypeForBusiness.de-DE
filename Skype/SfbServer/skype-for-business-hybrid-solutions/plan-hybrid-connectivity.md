@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Zusammenfassung: Lesen Sie dieses Thema und erfahren Sie, wie Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online geplant wird.  Die Einrichtung von hybrider Konnektivität ist der erste Schritt bei der Implementierung zahlreicher hybrider Skype for Business-Lösungen.'
-ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530888"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240763"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online
 
@@ -329,11 +329,11 @@ Beim Synchronisieren von Benutzerkonten zwischen Ihrer Bereitstellung in lokalen
 
 Sie sollten bei der Planung einer Hybridbereitstellung auch die folgenden benutzerbezogenen Aspekte berücksichtigen.
 
-- **Benutzerkontakte** Der Grenzwert für Kontakte für Lync Online-Benutzer ist 250. Kontakte über diese Nummer werden aus der Kontaktliste des Benutzers entfernt werden, wenn das Konto zu Lync Online verschoben wird.
+- **Benutzerkontakte** Der Grenzwert für Kontakte für Skype für Business Onlinebenutzer ist 250. Kontakte über diese Nummer werden aus der Kontaktliste des Benutzers entfernt werden, wenn das Konto in Skype für Business Online verschoben wird.
 
 - **Instant Messaging und Anwesenheit** Kontaktlisten der Benutzer, Gruppen und Zugriffssteuerungslisten (ACLs) werden mit dem Benutzerkonto migriert.
 
-- **Konferenzdaten, Besprechungsinhalte, und geplante Besprechungen** Dieser Inhalt wird nicht mit dem Benutzerkonto migriert. Benutzer müssen Besprechungen neu planen, nachdem ihre Konten zu Lync Online migriert wurden.
+- **Konferenzdaten, Besprechungsinhalte, und geplante Besprechungen** Dieser Inhalt wird nicht mit dem Benutzerkonto migriert. Benutzer müssen Besprechungen neu berechnen, nachdem ihre Konten in Skype für Business Online migriert wurden.
 
 ## <a name="user-policies-and-features"></a>Benutzerrichtlinien und Funktionen
 <a name="BKMK_UserPolicies"> </a>

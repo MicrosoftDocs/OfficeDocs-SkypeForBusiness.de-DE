@@ -14,16 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.'
-ms.openlocfilehash: 5f64bbf4e455896de143991be455c3c122b4911c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ae66e8994745317d8de4d033c6f6a65c6e41a9ac
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374752"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240731"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Serveranforderungen für Skype for Business Server 2015
  
 **Zusammenfassung:** Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.
+
+Wenn der gesuchte für umgebungsanforderungen, wie Active Directory, DNS oder Zertifikate, können Sie die [umgebungsanforderungen für Skype für Business Server 2015](environmental-requirements.md) Doc Auschecken.
   
 Erwartungsgemäß sind vor dem Beginn der Bereitstellung von Skype for Business Server 2015 einige Vorkehrungen zu treffen. Dieser Artikel führt Sie durch die Planung der folgenden Aspekte:
   
@@ -65,7 +67,7 @@ Nachdem Sie die Hardware eingerichtet haben, müssen Sie Betriebssysteme install
   
 |||
 |:-----|:-----|
-|Windows Server 2016  <br/> ||
+|Windows Server 2016 (Skype für Business kumulativen Update 5 oder höher erforderlich. Weitere Informationen zur Überprüfung [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 R2 Datacenter mit allen erforderlichen Updates  <br/> |Windows Server 2012 R2 Standard mit allen erforderlichen Updates  <br/> |
 |Windows Server 2012 Datacenter mit allen erforderlichen Updates  <br/> |Windows Server 2012 Standard mit erforderlichen Updates  <br/> |
    
@@ -169,7 +171,7 @@ Es gibt ein paar Dinge, die Sie für jeden Server mit Skype for Business Server�
   
 |**Software/Rolle**|**Details**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |Auf allen Skype for Business Server-Servern muss Windows PowerShell 3.0 installiert sein.  <br/> • Wenn Sie die Installation unter Windows Server 2012 oder Windows Server 2012 R2 ausführen, müssen Sie nichts mehr tun, da PowerShell bereits installiert ist.  <br/> • Wenn Sie unter Windows Server 2008 R2 ein Upgrade durchführen, können Sie [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) herunterladen, um PowerShell zu installieren. <br/> **Tipp:** Vergewissern Sie sich nach der Installation von PowerShell, dass es sich um Buildversion 6.2.9200.0 oder höher handelt. Wechseln Sie dazu zur PowerShell-Eingabeaufforderung, und geben Sie `$PSVersionTable` ein. Dadurch erhalten Sie die gewünschten Informationen.  <br/> |
+|Windows PowerShell 3.0  <br/> |Auf allen Skype for Business Server-Servern muss Windows PowerShell 3.0 installiert sein.  <br/> • Wenn Sie die Installation unter Windows Server 2012 oder Windows Server 2012 R2 ausführen, müssen Sie nichts mehr tun, da PowerShell bereits installiert ist.  <br/> • Wenn Sie unter Windows Server 2008 R2 ein Upgrade durchführen, können Sie [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) herunterladen, um PowerShell zu installieren. <br/> **Tipp:** Nachdem Sie dort die korrekte PowerShell installiert haben, überprüfen Sie, ob ihre BuildVersion 6.2.9200.0 oder neuer ist, indem Sie zur PowerShell-Eingabeaufforderung wechseln und `$PSVersionTable` eingeben. Dadurch erhalten Sie die gewünschten Informationen.<br/> |
 |Microsoft .NET Framework  <br/> |Die WCF-Dienste sind als Windows-**Funktion** unter **Server-Manager** installiert. Sie müssen nichts herunterladen. <br/> • Wenn Sie diese Funktion installieren oder wenn die Funktion bereits installiert ist und Sie sie überprüfen möchten, müssen Sie sicherstellen, dass wie in dieser Abbildung auch die Option **HTTP-Aktivierung** aktiviert und installiert ist: <br/> ![Screenshot mit der Option „HTTP-Aktivierung“ in den Funktionen von .NET Framework 4.5](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Machen Sie sich keine Sorgen, wenn ein zusätzliches Popupfenster angezeigt wird und Sie darüber informiert, dass für die HTTP-Aktivierung weitere Komponenten installiert werden müssen. Das ist normal, klicken Sie daher einfach auf „OK“, und fahren Sie fort. Wenn dieses Popupfenster nicht angezeigt wird, können Sie davon ausgehen, dass diese Komponenten bereits installiert sind, und fortfahren.  <br/> Microsoft .NET Framework wird normalerweise bei der Installation von Windows Server 2012 R2 oder Windows Server 2016 installiert. Skype for Business Server funktioniert mit den folgenden Versionen von Microsoft .NET Framework:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7 (für Skype for Business Server CU 5 oder höhere Versionen)  <br/>  .NET Framework 3.5 wurde wahrscheinlich standardmäßig auf Ihrem Windows Server 2008 R2-Computer installiert (überprüfen Sie dies unbedingt vor dem Upgrade), befindet sich aber nicht auf den Servern unter Windows Server 2012 oder Windows Server 2012 R2 (bei neuen Installationen). Um die Komponente hinzuzufügen, benötigen Sie Zugriff auf Ihr Installationslaufwerk oder auf Ihr Installationsmedium (den Ort, von dem aus Windows Server installiert wurde bzw. an dem sich die Installationsdateien jetzt befinden). Fahren Sie dann fort und installieren Sie es als eine Funktion des Server-Manager und geben Sie den Installationspfad zum Installationsmedium an (besonders den Ordner **\sources\sxs**), wenn Sie danach gefragt werden, und fahren Sie mit der Installation fort. <br/> |
 |Media Foundation  <br/> |Für Windows Server 2016, Windows Server 2012 und Windows Server 2012 R2 wird die Windows Media-Format-Laufzeitkomponente zusammen mit Microsoft Media Foundation installiert.  <br/> Alle Front-End-Server und Standard Edition-Server, die für Konferenzen verwendet werden, benötigen die Windows Media-Format-Laufzeitkomponente, damit die WMA-Dateien (Windows Media Audio) ausgeführt werden können. Über diese Dateien geben die Anwendungen für das Parken von Anrufen, für Ankündigungen und für Reaktionsgruppen Ankündigungen und Musik wieder.  <br/> |
 |Windows Identity Foundation  <br/> |Wir benötigen Windows Identity Foundation 3.5 für die Unterstützung von Szenarien mit Server-zu-Server-Authentifizierung für Skype for Business Server 2015.  <br/> • Für Windows Server 2012 und Windows Server 2012 R2 müssen Sie nichts herunterladen. Öffnen Sie den **Server-Manager** und rufen Sie den **Assistenten zum Hinzufügen von Rollen und Features** auf. **Windows Identity Foundation 3.5** wird unter dem Abschnitt **Funktionen** aufgelistet. Wenn das entsprechende Kontrollkästchen aktiviert ist, ist alles soweit in Ordnung. Andernfalls müssen Sie es auswählen und auf „Weiter“ klicken, um zur Schaltfläche **Installieren** zu gelangen. <br/> |

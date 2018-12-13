@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Überträgt die Planung für standortbasierte für Konferenzen in Skype für Business Server Enterprise-VoIP-routing, einschließlich konsultieren Anruf.
-ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373242"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240738"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Standortbasierte Weiterleitung für Konferenzen in Skype für Business Server
 
@@ -142,9 +142,13 @@ Beispielsweise, wenn die Anwendung "UdcAgent" den Prioritätswert "2" hat, die A
 
 Nachdem Sie den richtigen Prioritätswert für standortbasierte Routing für Konferenzen Anwendung ermittelt wird, geben Sie das folgende Cmdlet für jeden Front-End-Pool oder Standard Edition-Server, die für das Routing speicherortbasierte Hause Benutzer aktiviert:
 
-New-CsServerApplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-Priorität <Application Priority> -aktiviert $true-kritische $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> Beispiel:
+New-CsServerApplication-Identity Service: Registrar:`<Pool FQDN`> / LBRouting-Priorität \<Anwendungspriorität\> -aktiviert $true-kritische $true - Uri<http://www.microsoft.com/LCS/LBRouting> 
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-Priorität 3 - aktivierten $true-kritische $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter mit diesem Cmdlet alle Front-End-Server im Pool oder Standard Edition-Server neu starten, auf dem die Speicherortbasierte Routing für Konferenzen, die Anwendung aktiviert wurde.
+Beispiel:
+
+New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-Priorität 3 - aktivierten $true-kritische $true - Urihttp://www.microsoft.com/LCS/LBRouting 
+
+Neu starten Sie nach Verwendung dieses Cmdlets können Sie alle Front-End-Server in den Pool oder Standard Edition-Servern, auf dem die standortbasierte Routing für Konferenzen Anwendung aktiviert wurde.
 
 > [!IMPORTANT]
 > Speicherortbasierte Routing Bescheide zu Konferenzen oder Beratung Übertragungen wird nicht erzwungen, bis alle Front-End-Servern in der entsprechenden-Pools oder Standard Edition-Servern neu gestartet werden. Wenn Sie festlegen **-kritische** auf **$true** in der vorstehenden-Cmdlets, die Skype für Business Server-Dienste werden sofort neu gestartet. Wenn Sie keine Dienste, um sofort neu zu starten möchten, legen Sie **-kritische** auf **$false** für jetzt und anschließend mithilfe von **Set-CsServerApplication** ändern **-kritische** auf **$true** später, nach dem Neustart der Dienste.

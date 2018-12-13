@@ -1,5 +1,5 @@
 ---
-title: Grenzwerte und Spezifikationen für Microsoft-Teams
+title: Limits und Spezifikationen für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fb9594ddc5fd82f1f11d4425f000a831e2b90e4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532309"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240685"
 ---
-<a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft-Teams
+<a name="limits-and-specifications-for-microsoft-teams"></a>Limits und Spezifikationen für Microsoft Teams
 =============================================
 
 Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und anderen Anforderungen für Microsoft-Teams. 
@@ -45,7 +45,7 @@ Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und
 |Funktion     | Maximale Grenzwert |
 |------------|---------------|
 |Anzahl der Personen in einer Besprechung  | 250    |
-|Anzahl der Personen in einem privaten chat  | 20    |
+|Anzahl der Personen in einem privaten chat  | 50    |
 
 <a name="storage"></a>Speicher
 -------

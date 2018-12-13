@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Finden Sie unter Konfigurieren von Teams, damit die Benutzer mit Benutzern in anderen Organisationen kommunizieren können.
-ms.openlocfilehash: 3c01724d10867c210ff5fe13981b9ddfb801f8f1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013305"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240840"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
 
@@ -51,11 +51,11 @@ Gehen Sie folgendermaßen vor.
 
    3. Wenn Sie alle Teams Organisationen die Kommunikation mit Benutzern in Ihrer Organisation zulassen möchten, überspringen Sie Schritt 5. 
    
-   4. Wenn Sie möchten um festzulegen, welche Organisationen zu kommunizieren, können mit Benutzern in Ihrer Organisation, Hinzufügen der anderen Organisation Domäne zur Liste zugelassenen durch Klicken auf **Domäne hinzufügen**. Klicken Sie im Bereich **Hinzufügen einer Domäne** zu platzieren Domain Name klicken Sie auf **zulässige** und klicken Sie dann auf **Fertig**.
+   4. Wenn Sie möchten beschränken, welche Organisationen kommunizieren können mit Benutzern in Ihrer Organisation können Sie alle jedoch einige Domänen zulassen oder nur bestimmte Organisationen zulassen. Um alle jedoch einige Domänen zu ermöglichen, fügen Sie die Domänen an, den, die Sie blockieren, indem Sie auf **Domäne hinzufügen**möchten. Klicken Sie im Bereich **Domäne hinzufügen** tragen Sie den Domänennamen ein Klicken Sie auf **blockiert** und klicken Sie dann auf **Fertig**. Um für die Kommunikation mit bestimmten Organizatioins zu beschränken, fügen Sie diese Domänen zu der Liste mit dem Status **Alowed**. Nachdem Sie eine beliebige Domäne der Zulassungsliste hinzugefügt haben, werden für die Kommunikation mit anderen Organisationen auf nur Organisationen beschränkt, deren Domänen in der Zulassungsliste enthalten sind. 
+   
+   5. Klicken Sie auf **Speichern**. 
 
-   4. Klicken Sie auf **Speichern**. 
-
-   5. Stellen Sie sicher, dass der Administrator in der anderen Teams Organisation dieselben Schritte wird. Beispielsweise muss in ihrer Liste der **zulässigen Domänen** ihren Administrator um die Domäne für Ihr Unternehmen einzugeben, falls sie einschränken, die Organisationen mit ihren Benutzern kommunizieren können. 
+   6. Stellen Sie sicher, dass der Administrator in der anderen Teams Organisation dieselben Schritte wird. Beispielsweise muss in ihrer Liste der **zulässigen Domänen** ihren Administrator um die Domäne für Ihr Unternehmen einzugeben, falls sie einschränken, die Organisationen mit ihren Benutzern kommunizieren können. 
 
 ### <a name="step-3---test-it"></a>Schritt 3: Testen sie das Formular
 Um die Installation zu testen, benötigen Sie ein Teams-Benutzer, die nicht hinter der Firewall befindet.

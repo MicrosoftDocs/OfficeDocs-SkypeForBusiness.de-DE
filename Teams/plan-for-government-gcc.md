@@ -3,10 +3,10 @@ title: Planen von Microsoft 365 Government - Bereitstellungen GCC - Microsoft-Te
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 09/14/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lehewe
+ms.reviewer: daro
 description: Anleitung für IT-Spezialisten das Laufwerk Office 365-Bereitstellungen in Entitäten, die Daten können US Organisationsrichtlinien behandeln
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410edd32855c85d2efa5a631cb893c1a5307a5e6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cf9571a52d99e9993161b6de99a190bc9b675f78
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015125"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240910"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 
@@ -50,29 +50,87 @@ Die [Beschreibung der Dienste von Office 365 US-Regierung](https://technet.micro
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Microsoft 365 Government - GCC für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation Berechtigung Anforderungen erfüllt.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Als Nächstes|<ul><li>Verstehen der Funktionen von Microsoft 365 Government - GCC.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verstehen der Funktionen von Microsoft 365 Government - GCC.</li></ul>|
 
 > [!Note]
 > Microsoft 365 Government - GCC ist nur in den USA verfügbar. Eine Reihe von [Behörden für Office 365-Pläne](https://products.office.com/en/government/compare-office-365-government-plans)können nicht – US-Regierung Kunden auswählen.
 
 ## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Schritt 2. Verstehen Sie, welche Funktionen derzeit nicht verfügbar oder standardmäßig deaktiviert sind. 
 
-Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige Unterschiede zwischen Microsoft 365 Government - GCC und Enterprise-Pläne. In der folgenden Tabelle aufgeführten Features sind nicht verfügbar.
+Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige Unterschiede zwischen Microsoft 365 Government - GCC und Enterprise-Pläne. Finden Sie in der folgenden Tabelle sehen Sie, welche Features verfügbar sind.
 
-| Funktion                     | Grund            |
-|-----------------------------|-------------------|
-| Anruf und Meeting-Aufzeichnung  | Aufzeichnung ist abhängig von der Microsoft-Stream, die in der Zukunft in US-Regierung Plänen zur Verfügung gestellt wird. |
-| Apps       | Apps (beispielsweise Bots, Registerkarten und Connectors) nicht verfügbar anfänglich, aber wir arbeiten sie zur Verfügung zu stellen, sobald alle ihre Komponenten die FedRAMP Moderate Compliance Leiste erfüllen. |
-| E-Mail von einem DDE-Kanal             | Die aktuelle featurearchitektur in US-Regierung Pläne wird nicht unterstützt. |
-| Einheitliche Anwesenheit            | Wir sind fertig gestellt Arbeit unseren Unternehmenskunden zuerst für dieses wichtige Features. Es wird in der Zukunft zu behördliche Kunden verfügbar sein. |
-| Interop Chat zwischen Teams & SfB Benutzer            | Interop ist abhängigen auf Unified Anwesenheit Service (USV) und kann nicht funktionsfähig, wenn für USV GCC Teams Mandanten aktiviert sind. |
-| E-Mail-Benachrichtigungen         | Die aktuelle featurearchitektur in den Plänen US-Regierung wird nicht unterstützt. Dieses Feature verfügbar gemacht US-Regierung Plan Kunden in Zukunft laufende "Arbeit" ist. |
+|                             | Funktion                     | GCC            |
+|-----------------------------|-----------------------------|----------------|
+| Base | Anmeldung | Verfügbar |
+| | Anwesenheit | Verfügbar |
+| | Einheitliche Anwesenheit (Skype für Unternehmen und Teams unified) | Klicken Sie auf der Regierung Bestand |
+| Aktivität | Feed | Verfügbar |
+|  | Meine Aktivität | Verfügbar |
+| Chat | Unterhaltung | Verfügbar |
+| | Dateien | Verfügbar |
+| | Organigramm | Verfügbar |
+| | Aktivität | Verfügbar |
+| | InterOp (1:1 Teams-Skype für Business Chat) | Klicken Sie auf der Regierung Bestand |
+| Microsoft Teams | Kanalnachricht | Verfügbar |
+| | Channel-Dateien | Verfügbar |
+| | Registerkarte ' OneNote ' | Klicken Sie auf der Regierung Bestand |
+| | E-Mail von einem DDE-Kanal | Nicht verfügbar |
+| | Mitglied hinzufügen | Verfügbar |
+| | Gastzugriff | Verfügbar |
+| Besprechungen | Besprechung planen | Verfügbar |
+| | An Besprechung teilnehmen | Verfügbar |
+| | VoIP-meeting | Verfügbar |
+| | Desktopfreigabe | Verfügbar |
+| | Freigabe von geben und nehmen-Steuerelement | Verfügbar |
+| | Verbinden von einem Konferenzraum | Verfügbar |
+| | Anonyme Teilnahme | Verfügbar |
+| | Cloud-Aufzeichnung | Klicken Sie auf der Regierung Bestand |
+| | Besprechungsnotizen | Verfügbar |
+| | Übertragen von Besprechungen | Klicken Sie auf der Regierung Bestand |
+| | Verbundpartner Besprechungen | Verfügbar |
+| | Offenlegen Sie Hub-Unterstützung (Preview) | Verfügbar |
+| Anrufe | Kontakte | Verfügbar |
+| | Verlauf | Verfügbar |
+| | Voicemail | Verfügbar |
+| | VoIP-Anruf | Verfügbar |
+| | Skype für Business - Teams aufrufen | Verfügbar |
+| | Anrufpläne | Verfügbar |
+| | Audiokonferenzen (durch Zulassen der Teilnehmer beitreten über PSTN) | Verfügbar |
+| | Microsoft Telefonsystem direktes routing | Verfügbar |
+| | Lobby für PSTN-Anrufer | Verfügbar |
+| | Aufrufen der Warteschlange | Verfügbar |
+| | Unterstützung von Vorgesetzten und Delegat | Verfügbar |
+| | Konsultieren und sichere Übertragung | Verfügbar |
+| | Bahnbrechenden nicht stören | Verfügbar |
+| | Besondere ring | Verfügbar |
+| | 1:1 Gruppe Anruf Ausweitung mit Skype für Unternehmen, Teams und PSTN-Teilnehmer | Verfügbar |
+| | Gruppe weiterleiten | Verfügbar |
+| | Weiterleiten an PSTN-Anruf | Verfügbar |
+| | Notrufdienste - Pläne aufrufen | Verfügbar |
+| | Unterstützung für vorhandene zertifizierten SIP-Telefone | Verfügbar |
+| | USB HID | Verfügbar |
+| | eDiscovery für Anrufe und Besprechungen | Verfügbar |
+| | Organisation automatische Telefonzentrale | Verfügbar |
+| | Wenden Sie Skype Consumer - Teams | Verfügbar |
+| Dateien | Letzte | Verfügbar |
+| | Microsoft Teams | Verfügbar |
+| Anmelden | App-Store | Klicken Sie auf der Regierung Bestand |
+| Suche | Nachrichten | Verfügbar |
+| | Personen | Verfügbar |
+| | Dateien | Verfügbar |
+| | Schrägstrich-Befehle | Verfügbar |
+| Compliance | Compliance-Inhaltssuche | Verfügbar |
+| | Aufbewahrung | Verfügbar |
+| | Audit Log-Suche | Verfügbar |
+| | Rechtliche Aufbewahrungspflicht | Verfügbar |
+| | eDiscovery | Verfügbar |
+
 
 
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Microsoft 365 Government - Featuregruppe GCC Anforderungen Ihrer Organisation erfüllt.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Als Nächstes|<ul><li>Verstehen Sie Standardeinstellungen für Sicherheit.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verstehen Sie Standardeinstellungen für Sicherheit.</li></ul>|
 
 ## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Schritt 3. Grundlegendes zu Microsoft 365 Government - GCC standardsicherheitseinstellungen.
 

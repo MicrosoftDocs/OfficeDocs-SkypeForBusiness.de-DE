@@ -10,15 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Vor der Bereitstellung und Betrieb von Skype für Business Server müssen Sie Active Directory-Domänendienste durch Erweitern des Schemas vorbereiten. Durch die schemaerweiterungen hinzufügen die Klassen und Attribute, die von Skype für Business Server erforderlich sind.
-ms.openlocfilehash: 42b4417311c557323535aa03053ccb03d95cc840
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8594ff3a25c7af7ef8c57468a8900d3abbb7f790
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240917"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Schemaänderungen in Skype für Business Server
  
-Vor der Bereitstellung und Betrieb von Skype für Business Server müssen Sie Active Directory-Domänendienste durch Erweitern des Schemas vorbereiten. Durch die schemaerweiterungen hinzufügen die Klassen und Attribute, die von Skype für Business Server erforderlich sind. 
+Vor der Bereitstellung und Betrieb von Skype für Business Server müssen Sie Active Directory-Domänendienste durch Erweitern des Schemas vorbereiten. Durch die schemaerweiterungen hinzufügen die Klassen und Attribute, die von Skype für Business Server erforderlich sind.
+
+> [!NOTE]
+> Wenn Sie von Lync Server 2013 auf Skype für Business Server 2015 durchführen, werden keine schemaänderungen vorgenommen, und daher in diesem Artikel wird nicht angewendet.
   
 Skype für Business Server erfordert einige neue Klassen und Attribute und ändert einige vorhandene Klassen und Attribute. Darüber hinaus wird wie in früheren Versionen viel Konfigurationsinformationen für Skype für Business Server in der zentralen Verwaltungsspeichers statt in AD DS gespeichert. Die folgende Informationen wird weiterhin in AD DS in Skype für Business Server gespeichert:
   
@@ -62,8 +66,8 @@ Die folgende Tabelle beschreibt die Active Directory-Klassen, die von Skype für
 
 |**Klasse**|**Änderung**|**Klasse oder eines Attributs**|
 |:-----|:-----|:-----|
-|Benutzer  <br/> |hinzufügen: MayContain  <br/> hinzufügen: MayContain  <br/> |Proxyadressen  <br/> MsRTCSIP-UserRoutingGroupId  <br/> |
-|Kontakt  <br/> |hinzufügen: MayContain  <br/> hinzufügen: MayContain  <br/> |Proxyadressen  <br/> MsRTCSIP-UserRoutingGroupId  <br/> |
+|Benutzer  <br/> |hinzufügen: MayContain  <br/> hinzufügen: MayContain  <br/> |ProxyAddresses  <br/> MsRTCSIP-UserRoutingGroupId  <br/> |
+|Kontakt  <br/> |hinzufügen: MayContain  <br/> hinzufügen: MayContain  <br/> |ProxyAddresses  <br/> MsRTCSIP-UserRoutingGroupId  <br/> |
 |E-Mail-Empfänger  <br/> |hinzufügen: MayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |MsRTCSIP-GlobalTopologySetting  <br/> |hinzufügen: MayContain  <br/> |MsRTCSIP-MirrorBackEndServer  <br/> |
    

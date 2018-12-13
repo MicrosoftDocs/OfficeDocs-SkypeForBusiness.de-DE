@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie dieses Thema zu erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2 auf umfangreiche Bereitstellungen.
-ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699551"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240964"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Bereitstellen von Skype Raum Systemen v2 mithilfe von System Center Configuration Manager
 
@@ -504,6 +504,28 @@ Skype-Chatroom-Systemen v2 wird für Surface Pro und Surface Pro 4 unterstützt.
 
 > [!NOTE]
 > Wiederholen Sie die gleichen Schritte für andere Surface Pro Modelle möglicherweise. Weitere Informationen finden Sie unter [Manage Treiber in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+
+### <a name="create-skype-room-system-configuration-package"></a>Skype-Raum Systempakets Konfiguration erstellen
+
+1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
+
+2.  Geben Sie die folgenden Informationen, um das Paket zu erstellen:
+
+    -   Name: **SRS v2 - Setuppaket SRS konfigurieren**
+
+    -   Hersteller: **Microsoft Corporation**
+
+    -   Version: **1.0.0**
+
+    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket Quelldateien enthält** , geben Sie den Pfad zu dem Ordner **SRS v2 - SRS Setup konfigurieren** , und wählen Sie dann auf **Weiter**.
+
+3.  **Erstellen Sie ein Programm nicht**aktivieren Sie, und wählen Sie dann auf **Weiter**.
+
+4.  Überprüfen Sie die Seite **bestätigen Sie die Einstellungen** , und wählen Sie dann auf **Weiter**.
+
+5.  Wählen Sie **Schließen**aus.
+
+
 
 ## <a name="distribute-configuration-manager-packages"></a>Verteilen von Configuration Manager-Paketen
 

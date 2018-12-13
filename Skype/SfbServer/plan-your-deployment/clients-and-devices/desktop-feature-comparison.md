@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype für Business Server 2015 oder Skype für Business Online-Administratoren kann diese Tabellen verwenden, um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.'
-ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 35db705545dbec988a29b2025b4c3f1817923093
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002389"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240801"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Desktopclient Featurevergleich für Skype für Business Server 2015
  
@@ -35,13 +35,13 @@ Finden Sie unter [Featurevergleich für Skype für Business 2019 Desktopclient](
 In den folgenden Tabellen sind die Features, die mit jedem Client verfügbar sind, die mit Skype für Business Server 2015 oder Skype für Business Online arbeitet. Sie möchten möglicherweise auch auf [mobilen Client Featurevergleich für Skype für Unternehmen](mobile-feature-comparison.md) für Smartphone und Tablet-Client Feature Vergleiche verweisen. Der Client Access License oder User Subscription License werden Ihre Organisation Käufe auch auswirken für die Features für die Benutzer verfügbar sind. Gibt an, ob Sie den Full oder Basic-Client für die Benutzer bereitstellen, hängt davon ab der Lizenz oder Plans aus, den Ihre Organisation möchte kaufen. Finden Sie weitere Details der [Lizenzierungshandbuch (engl.)](https://products.office.com/en-us/skype-for-business/it-pros) .
   
 > [!IMPORTANT]
-> Skype für Business Server 2015 und Skype für Business Online unterstützt die folgenden Clients aus älteren: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition und Lync 2010 Attendant. Informationen zu diesen Clients bei Verwendung mit anderen Servern finden Sie unter der [clientvergleichstabellen für Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) und [clientvergleichstabellen für Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
+> Skype für Business Server 2015 und Skype für Business Online unterstützt die folgenden Clients aus älteren: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition und Lync 2010 Attendant. Weitere Informationen zu diesen Clients bei Verwendung mit anderen Servern finden Sie in den [Clientvergleichstabellen für Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) und den [Clientvergleichstabellen für Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
   
 > [!NOTE]
 > Der **Lync 2010 Attendant** -Client wird nicht in Skype für Business Online unterstützt.
   
 > [!NOTE]
-> Die Skype für Business Web App-Browser-Client und Skype Besprechungen App Windows 10 app nur bieten [Unterstützung von Besprechungen](desktop-feature-comparison.md#BKMK_Conferencing). Finden Sie unter [Planen von Besprechungen-Clients (Web App und Besprechungen App)](meetings-clients.md) Weitere Informationen zu dieser Clients.
+> Die Skype für Business Web App-Browser-Client und Skype Besprechungen App Windows 10 app nur bieten [Unterstützung von Besprechungen](desktop-feature-comparison.md#BKMK_Conferencing). Weitere Informationen zu diesen Clients finden Sie unter [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md).
   
 ## <a name="enhanced-presence-support"></a>Unterstützung für erweiterte Anwesenheitsinformationen
 <a name="BKMK_EnhancedPresence"> </a>
@@ -269,6 +269,8 @@ Die folgenden Funktionen sind bei Verwendung des Clients mit vollem Funktionsumf
 - Begrüßung ändern
     
 - Gruppenanrufannahme
+
+- Verpasste Anrufe benachrichtigungs-e-Mails werden nicht generiert, wenn eine Benutzerstatus UM deaktiviert ist und sie eine ältere Outlook-Client (2013 oder früher verwenden)
     
 ### <a name="online-or-hybrid-user-account-limitations"></a>Einschränkungen für Onlinebenutzerkonten oder hybride Benutzerkonten
 <a name="Online-Hybrid"> </a>

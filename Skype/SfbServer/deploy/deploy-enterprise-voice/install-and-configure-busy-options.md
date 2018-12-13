@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Lesen Sie zum Installieren und Konfigurieren von beschäftigt Optionen in Skype für Business Server.
-ms.openlocfilehash: 3cf197f58dda13ab0c1af2077a6eb0fb59dafcc4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5fdd117f2c812bba69978a7d2943321b940bcc4
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370808"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240659"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installieren und Konfigurieren der Beschäftigt-Optionen für Skype for Business Server
 
@@ -33,7 +33,7 @@ Wenn Beschäftigt-Optionen für die Organisation aktiviert wurden, können alle 
 
 Unabhängig von der Konfiguration der Beschäftigt-Optionen haben Benutzer, die sich in einem Anruf oder einer Konferenz befinden bzw. einen Anruf halten, die Möglichkeit, neue Anrufe oder Konferenzen zu beginnen.  
 
-Weitere Informationen zum Feature beschäftigt Optionen finden Sie unter [Planen für beschäftigt Optionen für Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
+Weitere Informationen zur Funktion „Beschäftigt-Optionen“ finden Sie unter [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
 
 ## <a name="install"></a>Installieren 
 
@@ -76,7 +76,7 @@ Das Installationsprogramm stellt die aktuelle Version der Beschäftigt-Optionen 
 3. Führen Sie dann das Cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) beschäftigt Optionen zur Liste der Server-Anwendungen wie im folgenden Beispiel dargestellt hinzuzufügen:
 
    ```
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri https://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
@@ -96,7 +96,7 @@ Das Installationsprogramm stellt die aktuelle Version der Beschäftigt-Optionen 
 
 ## <a name="configure"></a>Konfigurieren
 
-Um beschäftigt Optionen konfigurieren möchten, verwenden Sie das Cmdlet " [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) ".
+Zum Konfigurieren der Beschäftigt-Optionen verwenden Sie das Cmdlet [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx).  
 
 Beispiel: Mit dem folgenden Befehl werden die Beschäftigt-Optionen für den Benutzer „Ken Myer“ konfiguriert. In dieser Konfiguration wird für jeden Anruf an „Ken Myer“ ein Besetztzeichen zurückgegeben, wenn er sich bereits in einem Anruf befindet:
 
@@ -106,18 +106,17 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 
 Im nächsten Beispiel konfiguriert der Befehl die Beschäftigt-Optionen für die Benutzerin „Chrystal Velasquez“. In dieser Konfiguration werden neue eingehende Anrufe an „Chrystal Velasquez“ an Voicemail weitergeleitet, wenn sie sich bereits in einem Anruf befindet:
 
-
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Sie können die Konfigurationsinformationen zu stark ausgelastet Optionen abrufen, mit dem Cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) . Das folgende Beispiel gibt die Einstellung beschäftigt Optionen für "KenMyer@Contoso.com":
+Sie können Konfigurationsinformationen zu den Beschäftigt-Optionen abrufen, indem Sie das Cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) verwenden. Das folgende Beispiel gibt die Einstellung beschäftigt Optionen für "KenMyer@Contoso.com":
 
 ```
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-Sie können mithilfe des Cmdlets [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) beschäftigt Optionen entfernen. Mit dem folgenden Befehl werden die Beschäftigt-Optionen für „Ken Myer“ entfernt:
+Entfernen Sie die Beschäftigt-Optionen mit dem Cmdlet [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx). Mit dem folgenden Befehl werden die Beschäftigt-Optionen für „Ken Myer“ entfernt:
 
 ```
 Remove-CsBusyOptions -Identity "Ken Myer"
@@ -144,7 +143,7 @@ Nach der Installation von Optionen für beschäftigt, stellen Sie sicher, dass d
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
 Priority   : 5
-Uri        : https://www.microsoft.com/LCS/BusyOptions
+Uri        : http://www.microsoft.com/LCS/BusyOptions
 Name       : BusyOptions
 Enabled    : True
 Critical   : False
