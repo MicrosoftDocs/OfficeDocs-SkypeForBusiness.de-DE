@@ -10,128 +10,100 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Zusammenfassung: Informationen Sie zum Migrieren von benutzereinstellungen und Migrieren von Benutzern zu Teams.'
-ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6bee0562b38ce3119306e23b11ea50ebdb8ac3e9
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533141"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244032"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Verschieben von Benutzern von lokalen Teams
 
-Mit Skype für Business Server 2019 können Sie Ihre lokalen Benutzer Teams wie in diesem Artikel beschriebene migrieren.
+Wenn ein Benutzer von lokal auf Teams nur verschoben wird des Benutzers Skype für geschäftlich privat wird lokal auf online aus verschoben, und der Benutzer TeamsUpgradePolicy-Modus erhält TeamsOnly =.  Nachdem ein Benutzer wird vom lokalen TeamsOnly Modus verschoben:
 
-Beachten Sie, nach dem Verschieben von Ihren Benutzern, Teams: 
- 
-- Ihre Besprechungen zu Skype für Business Online migriert werden, und ihre Kontakte zu Teams migriert werden. 
-- Sie können Skype-Besprechungen über die Skype für Business-rich-Client (Benutzer werden nicht für jedes Mal Anmeldung aufgefordert) oder über die Skype Besprechungen App (erfordert eine einmalige herunter, und Anmeldung) teilnehmen. Klickt ein Benutzer auf einen Skype für Business Link zur Besprechung innerhalb von Teams, wird die Besprechung in der entsprechenden app gestartet.
+- Alle eingehenden Anrufe und chats von anderen Benutzern (ob von Skype für Geschäftskunden und Teams gesendet), wird in der Client des Benutzers Teams sorgt.
+- Der Benutzer wird möglicherweise mit anderen Benutzern zusammenarbeiten, die Skype für Unternehmen (entweder online oder lokal) verwenden. 
+- Der Benutzer werden kann zur Kommunikation mit Benutzern in Partnerorganisationen.
+- Neue geplant, die von diesem Benutzer sind Teams Besprechungen.
+- Benutzer kann weiterhin alle Skype für Business-Besprechungen teilnehmen.
+- Der Benutzer bereits vorhandenen geplant für die Zukunft werden lokal zu Skype für Business Online migriert.
+- Kontakte, die lokal vorhanden war, sind in Teams verfügbar, kurz nachdem der Benutzer zum ersten Mal anmeldet.
+- Anrufe oder Chats von Skype für Unternehmen kann nicht gestartet werden, noch neue Besprechungen in Skype für Unternehmen planen. Wenn sie versuchen, die Skype für Business-Client zu öffnen, werden sie umgeleitet, um Teams verwenden (siehe unten). Der Client Teams nicht installiert ist, werden sie auf die Webversion von Teams, die mit ihren Browser weitergeleitet.<br><br>
+    ![Umleiten des Benutzers auf Teams Nachricht](../media/go-to-teams-page.png)
 
-- Unter Mobile werden Ihre Benutzer können vorhandene Skype für Business Besprechungen mit native app teilnehmen.
+Werden Sie vor dem Verschieben alle Benutzer, überprüfen Sie die [erforderlichen Komponenten](move-users-between-on-premises-and-cloud.md#prerequisites) , um Benutzer in der Cloud zu verschieben. Außerdem müssen Sie überprüfen der [Migration und Interoperabilität Anleitungen für Organisationen mit Teams zusammen mit Skype für Unternehmen](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
-> [!NOTE]
-> Nachdem ein Benutzer auf den TeamsOnly Modus verschoben wurde, wird der Benutzer in Skype für Business Online, verwaltet.
+Es gibt zwei Methoden zum Verschieben eines Benutzers aus lokal Teams:
 
-## <a name="prerequisites-for-moving-on-premises-users-to-teams"></a>Erforderliche Komponenten zum Verschieben von lokalen Benutzern, Teams 
+- Wenn Sie eine Version vor Skype für Business Server 2015 CU8 verwenden, erfolgt die Verschiebung in zwei Schritten (die in Skripts verwendet werden können, die gemeinsam als einem Schritt ausgeführt werden bei Bedarf):
+    - [Der Benutzer von Skype für Business Server (lokal) auf Skype für Business Online verschoben](move-users-from-on-premises-to-skype-for-business-online.md).
+    - Nachdem der Benutzer in Skype verwaltet wird, für die Business Online, weisen Sie dem Benutzer TeamsUpgradePolicy Modus = TeamsOnly. Um TeamsOnly Modus zu erteilen, führen Sie das folgende Cmdlet aus einer Skype für Business Online-PowerShell-Fenster:`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+- Wenn Sie die Verwaltungstools von Skype für Business Server 2015 CU8 oder höher verfügen, können können Sie die oben genannten-Methode verwenden, oder Sie diese verschieben in einem Schritt wie unten beschrieben. Darüber hinaus können Sie optional eine Benachrichtigung innerhalb der Skype für Business Client vor dem Verschieben sie in Teams nur sowie optional den Teams Client automatisch von der Skype für Business Client heruntergeladen haben.
 
-Dieser Abschnitt beschreibt die erforderlichen Komponenten für Ihre lokalen Benutzer Teams verschieben. Du musst:
-- [Einrichten von hybridkonnektivität](#set-up-hybrid-connectivity) (Wenn Sie dies nicht bereits geschehen ist)
-- [Benachrichtigen Sie die Benutzer, der die Verschiebung Teams](#notify-your-users-of-the-move-to-teams) (optional)
-- [Stellen Sie sicher, dass Ihre Benutzer eine gültige Lizenz verfügen.](#make-sure-your-users-have-a-valid-license)
-- [Beachten Sie bei Anforderungen für die VoIP-Konfiguration](#voice-configuration-requirements)
-- [Zuweisen einer Richtlinie auf Teams aktualisieren](#assign-a-teams-upgrade-policy) (optional)
+## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Verschieben eines Benutzers direkt von Skype für Unternehmen lokal auf nur Teams
 
-## <a name="set-up-hybrid-connectivity"></a>Einrichten von hybridkonnektivität
-Bevor Sie Ihre Benutzer migrieren, wenn Sie nicht bereits getan haben, müssen Sie sicherstellen, dass Sie hybridkonnektivität zwischen Ihrer Skype für Business Server lokalen Umgebung und Skype für Business Online konfiguriert haben. Hybrid-Diensten ist erforderlich, Active Directory-Synchronisierung, Konfigurieren von Verbund und So weiter. Weitere Informationen finden Sie unter [Planen von hybridkonnektivität](plan-hybrid-connectivity.md) und [hybridkonnektivität konfigurieren](configure-hybrid-connectivity.md).
+Die lokale-Verwaltungstools in Skype für Business Server 2015 mit CU8 sowie in Skype für Business Server 2019, aktivieren Sie so verschieben Sie Benutzer aus lokal Teams nur im Modus in einem einzigen Schritt über entweder mit dem Cmdlet Move-CsUser in PowerShell oder der Skype für Business SE (engl.) Rver Control Panel, wie unten beschrieben.
 
-## <a name="notify-your-users-of-the-move-to-teams"></a>Benachrichtigen Sie die Benutzer, der die Verschiebung Teams 
-Dies ist ein optionaler Schritt, aber eine, die Sie berücksichtigen sollten. Um Benutzer des ausstehenden Teams Upgrades zu benachrichtigen, können Sie die lokale TeamsUpgradePolicy und TeamsUpgradeConfiguration-Cmdlets verwenden. Sie können auch automatische automatische-Download von Teams im Hintergrund vor dem Upgrade (nur Win32-Clients) konfigurieren. 
+### <a name="move-to-teams-using-move-csuser"></a>Mit der Move-CsUser Teams verschieben
 
-Verwenden Sie, um Benutzer zu benachrichtigen, dass sie Teams aktualisiert werden, beispielsweise das lokale TeamsUpgradePolicy-Cmdlet mit dem Parameter - NotifySbUser. Sie können die Richtlinie auf global, Standort, Pool oder Benutzer Ebene festlegen. Der folgende Befehl erstellt und eine Richtlinie auf Benutzerebene gewährt:
- 
-```
-New-CsTeamsUpgradePolicy -Identity UpgradeNotice -NotifySfbUser $true 
-Grant-CsTeamsUpgradePolicy -Identity user01 -PolicyName “UpgradeNotice”
-```
+Move-CsUser ist von einem lokalen Skype für Business Management Shell PowerShell-Fenster zur Verfügung. Die folgenden Schritte aus und die erforderlichen Berechtigungen sind identisch mit dem Verschieben eines Benutzers zu Skype für Online Business ein, mit der Ausnahme, dass müssen Sie auch die Option MoveToTeams angeben, und Sie müssen sicherstellen, dass der Benutzer auch eine Lizenz für Teams (zusätzlich zum Skype für Unternehmen erteilt wurde Online).
 
-Sie können diese Richtlinie mit dem Cmdlet Get-CsTeamsUpgradePolicy überprüfen.
+Wie beschrieben in [Administratorrechte erforderlich](move-users-between-on-premises-and-cloud.md#required-administrative-credentials), benötigen Sie ausreichende Berechtigungen in der lokalen Umgebung und der Office 365-Mandanten. Sie können entweder ein einzelnes Konto mit Berechtigungen in beiden Umgebungen verwenden, oder Sie eine lokale Skype für Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und verwenden können die `-Credential` Parameter zum Angeben von Anmeldeinformationen für ein Office 365 Konto mit den erforderlichen Office 365-Administratorrolle.
 
-Ihre Benutzer werden eine Benachrichtigung über den bevorstehenden Wechsel zu Teams angezeigt. Die Benachrichtigung wird auf Win32, Mac, Mobile und Web-Clients (mit der richtigen Version).
+Zum Verschieben eines Benutzers auf den Teams nur mit der Move-CsUser Modus:
 
-Sie können das automatische Herunterladen-Teams (Win32-Clients) für Benutzer mit dem lokalen TeamsUpgradeConfiguration-Cmdlet mit dem Parameter DownloadTeams aktualisierten angeben. Legen Sie diese Richtlinie auf der Ebene der Mandanten, und es können angewendet werden soll, klicken Sie auf eine globale, Standort- und pool-Ebene. Der folgende Befehl wird beispielsweise die Richtlinie auf Standortebene:
+- Geben Sie den Benutzer zu verschieben, mit der `Identity` Parameter.
+- Geben Sie die - Target-Parameter mit dem Wert "sipfed.online.lync. <span>com ".
+- Geben Sie die `MoveToTeams` wechseln.
+- Wenn Sie in beiden auf lokalen und Office 365 nicht über ein Konto mit ausreichenden Berechtigungen verfügen, verwenden Sie die `-credential` Parameter für ein Konto mit ausreichenden Berechtigungen in Office 365 bereitstellen.
+- Wenn das Konto mit Berechtigungen in Office 365 nicht in "on.microsoft. endet <span>com ", geben Sie die `-HostedMigrationOverrideUrl` Parameter mit den richtigen Wert als Beschreibung in [Administratoranmeldeinformationen erforderlich](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-```
-New-CsTeamsUpgradeConfiguration -Identity “site:redmond1” 
-```
+Die folgende Sequenz Cmdlet zum Verschieben eines Benutzers in TeamsOnly verwendet werden, und geht davon aus, die Office 365-Anmeldeinformationen ist ein separates Konto und als Eingabe für die Aufforderung Get-Credential angegeben.
 
-Standardmäßig müssen der Wert von DownloadTeams ist True, aber Sie auch NotifySfbUser auf "true", um Teams für einen bestimmten Benutzer zu aktivieren. 
+    ```
+    $cred=Get-Credential
+    $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+    ```
 
-## <a name="make-sure-your-users-have-a-valid-license"></a>Stellen Sie sicher, dass Ihre Benutzer eine gültige Lizenz verfügen.  
-Vor der Migration muss der lokale Benutzer eine gültige Lizenz, wie folgt angegeben werden:
+### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Verschieben von Skype Business Server-Systemsteuerung Teams
 
--   Benutzer benötigen eine Lizenz Teams.
--   Wenn der Benutzer für die Verwendung von lokalen Enterprise Voice konfiguriert ist, müssen sie eine online Voice-Lizenz verfügen, beim Verschieben. 
--   Wenn der Benutzer für einwahlkonferenzen lokale konfiguriert ist, müssen sie eine Lizenz für Telefonsystem (Cloud, PBX) verfügen.
+1.  Öffnen Sie die Skype für Business-Serversteuerelement Systemsteuerung app.
+2.  Wählen Sie im linken Navigationsbereich **Benutzer**.
+3.  Verwenden Sie **Suchen** , um die Benutzer zu suchen, die Sie in Teams verschieben möchten.
+4.  Wählen Sie die Benutzer, und wählen Sie dann aus der Dropdownliste **Aktion** über der Liste **ausgewählte Benutzer Teams verschieben**.
+5.  Klicken Sie im Assistenten auf **Weiter**.
+6.  Wenn Sie aufgefordert werden, melden Sie sich bei Office 365, mit einem Konto an, die in endet. onmicrosoft.com und über ausreichende Berechtigungen verfügt.
+7.  Klicken Sie auf **Weiter**, und klicken Sie dann **Weiter** noch einmal den Benutzer zu verschieben.
+8. Beachten Sie, dass Statusnachrichten bezüglich Erfolg oder Fehler am oberen Rand der wichtigsten Systemsteuerung app nicht im Assistenten bereitgestellt werden.
 
-## <a name="voice-configuration-requirements"></a>Anforderungen für die VoIP-Konfiguration
+## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Benachrichtigen Sie Ihre Skype für Business lokale Benutzer von bevorstehenden verschieben Teams
 
-Wenn Ihre lokalen Benutzer lokale VoIP verfügen, haben Sie zwei Optionen:
+Die lokale-Verwaltungstools in Skype für Business Server 2015 mit CU8 sowie in Skype für Business Server 2019, können Sie lokale Skype für geschäftliche Benutzer von bevorstehenden Wechsel zu Teams zu benachrichtigen. Wenn Sie diese Benachrichtigungen aktivieren, wird eine Benachrichtigung in ihren Skype für Business-Client (Win32, Mac, Web und Mobile) angezeigt, wie unten dargestellt. Wenn Benutzer auf die Schaltfläche **ausprobieren** klicken, wird der Teams-Client gestartet werden, falls installiert; Andernfalls werden Benutzern die Webversion von Teams in ihrem Browser navigiert werden. Standardmäßig Wenn Benachrichtigungen aktiviert sind, Win32 Skype für Business-Clients im Hintergrund den Teams-Client herunterladen, damit der rich-Client vor dem Verschieben des Benutzers in Teams nur Modus verfügbar ist; Sie können dieses Verhalten jedoch auch deaktivieren.  Benachrichtigungen konfiguriert werden, mit der lokalen Version von `TeamsUpgradePolicy`, und automatischen Download von Win32-Clients wird gesteuert, über die lokal `TeamsUpgradeConfiguration` Cmdlet.
 
--  **Migrieren von Benutzern mit Telefoniefunktionen.** Benutzer können tätigen und Entgegennehmen von Anrufen über den Client Teams.  Sie können entweder Microsoft aufrufen planen direkte Routing oder Teams die Telefondienste Verbindung auswählen.  
+![Benachrichtigung über bevorstehende ANS Teams](../media/teams-upgrade-notification.png)
 
-    -  Planen der Aufruf von Microsoft bietet eine all-in-Cloud-VoIP-Lösung. Weitere Informationen zu Microsoft aufrufen planen finden Sie unter (Link bald verfügbar). 
-    -  Direktes Routing können Sie nahezu alle PSTN-Trunk verwenden, und Sie können Interoperabilität zwischen im Besitz des Kunden Telefoniegeräten und Microsoft Telefonsystem konfigurieren.  Weitere Informationen finden Sie unter [Planen der direkten Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) und [Direkte Routing konfigurieren](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
-
--  **Migrieren von Benutzern ohne Telefoniefunktionen.** Wenn Sie Benutzer migrieren, ohne Telefoniefunktionen beizubehalten, stellen Sie sicher, dass Benutzer in der Cloud entsprechende Lizenzen haben. 
-
-## <a name="assign-a-teams-upgrade-policy"></a>Zuweisen einer Richtlinie auf Teams aktualisieren  
-Online-Tools können zum Verwalten von Richtlinien für Benutzer, wie beispielsweise routing von eingehenden Nachrichten und Anrufe steuern. Weitere Informationen finden Sie unter (Link bald verfügbar).
-
-## <a name="move-on-premises-users-to-teams"></a>Migrieren von lokalen Benutzern zu Teams
-
-Sie können Ihre lokalen Benutzer mithilfe von PowerShell-Cmdlets oder mithilfe der Skype Business Server 2019-Systemsteuerung Teams verschieben.
-
-### <a name="move-users-by-using-powershell"></a>Verschieben Sie Benutzer mithilfe von PowerShell
-Um Ihren Benutzern mithilfe von PowerShell Teams zu verschieben, werden Sie das Move-CsUser-Cmdlet mit dem Parameter MoveToTeams wie folgt verwenden:
+Um lokale Benutzer zu benachrichtigen, dass sie bald Teams aktualisiert werden, erstellen Sie eine neue Instanz des TeamsUpgradePolicy mit NotifySfBUsers = True. Weisen Sie dann die Richtlinie für die Benutzer zu benachrichtigen, entweder durch Zuweisen der Richtlinie für den Benutzer direkt oder durch Festlegen von Richtlinien auf Standort-, Pool oder globaler Ebene. Die folgenden Cmdlets erstellen, und gewähren Sie eine Richtlinie auf Benutzerebene:
 
 ```
-Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credentials $cred. 
+New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true 
+Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
-($cred = Get-Anmeldeinformationen. Sie müssen Office 365-Admin-Anmeldeinformationen angeben.)
+Automatische Downloads von Teams über die Skype für Business Win32-Client wird über das lokale TeamsUpgradeConfiguration-Cmdlet mit dem Parameter DownloadTeams gesteuert. Sie erstellen diese Konfiguration auf globaler, Standort- und Poolebene. Der folgende Befehl wird beispielsweise die Konfiguration für den Standort "redmond1" erstellt:
 
-> [!NOTE]
-> Dieser Befehl legt die TeamsUpgradePolicy TeamsOnly Modus. 
- 
-Nachdem der Wechsel zu Teams erfolgreich ist, wird Skype für Business-Client des Benutzers die folgende Meldung angezeigt: 
+`New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
 
-![Migration zu Teams Nachricht wurde ordnungsgemäß abgeschlossen](../media/teams-upgrade-complete-message.png)
+Standardmäßig ist der Wert der DownloadTeams True; Es ist jedoch *nur* berücksichtigt, wenn er NotifySfbUser = "true" für einen bestimmten Benutzer.
 
-Beachten Sie, dass Skype für Unternehmen, die dem Benutzer mit Ausnahme von zum Teilnehmen an einer Besprechung nicht mehr verfügbar ist. 
 
-In seltenen Fällen beim Verschieben von Ihren Benutzern, Teams möchten Sie möglicherweise außer Kraft setzen einwahlkonferenzen und cloud-Voice-Funktionen. Dazu können Sie mit den folgenden Parametern mit dem Befehl Move-CsUser:
-- **BypassAudioConferencingCheck:** Wenn ein Benutzer einwahlkonferenzen für lokale aktiviert hat, muss der Benutzer auch eine AudioConf Lizenz zugewiesen in Office 365 vor der Migration verfügen. Nachdem die Cloud migriert werden, wird der Benutzer für Audiokonferenzen in der Cloud bereitgestellt werden. Wenn aus irgendeinem Grund soll Verschieben eines Benutzers in der Cloud, aber die Audiokonferenz-Funktionalität nicht verwenden, können Sie sie durch die Angabe dieses Parameters überschreiben.
-- **ByPassEnterpriseVoice:** Wenn ein Benutzer Enterprise-VoIP für lokale aktiviert hat, muss der Benutzer eine zugeordnete in Office 365 vor dem Migrieren von Enterprise-VoIP-Lizenz verfügen. Nach der Migration zur Cloud wird der Benutzer für VoIP in der Cloud bereitgestellt werden. Wenn aus irgendeinem Grund soll Verschieben eines Benutzers in die Cloud aber Cloud Voice-Funktionen nicht verwenden, können Sie die Cloud VoIP durch Angabe dieses Parameters überschreiben.
- 
-### <a name="move-users-by-using-the-skype-for-business-server-control-panel"></a>Verschieben Sie Benutzer mithilfe der Skype für Business Server-Systemsteuerung 
+## <a name="see-also"></a>Siehe auch
 
-So verschieben Sie Benutzer für Teams mithilfe der Skype für die Business-Systemsteuerung:
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
 
-1. Öffnen Sie die Skype für die Business-Systemsteuerung, und melden Sie sich bei Ihrem Office 365-Konto.
+[GRANT-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy
+)
 
-2. Wählen Sie im linken Navigationsbereich **Benutzer** aus, und wählen Sie die Benutzer zum Migrieren. 
-     
-3. Wählen Sie im Menü **Aktion** **Verschieben Sie ausgewählte Benutzer in Teams**. 
+[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-    ![Durch Klicken auf Weiter, um die Migration zu bestätigen](../media/migration-confirmation.png)
-    
-4. Klicken Sie auf **Weiter** , um Ihre Migration zu bestätigen. 
-
-Nachdem der Benutzer auf Teams verschoben wird, sehen Sie Bestätigungen wie folgt:
-
-![Verschieben Sie Benutzer zur Bestätigung](../media/move-user-confirmation.png)
-<br/><br/>
-![Meldung, dass Benutzer verschoben wurden](../media/users-moved-successfully.png)
-
-Wenn die Verschiebung nicht erfolgreich war, wird eine Meldung wie die folgende angezeigt:
-
-![Nachricht, die Benutzer konnte nicht verschoben werden](../media/users-not-moved.png)
+[Koexistenz mit Skype for Business](/microsoftteams/coexistence-chat-calls-presence)

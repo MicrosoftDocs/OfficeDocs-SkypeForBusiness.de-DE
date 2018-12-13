@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Anleitung für die Konfiguration von Azure Active Directory verbinden in einer hybridumgebung.
-ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536042"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244116"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Konfigurieren von Azure AD Connect für Skype für Unternehmen und Teams 
  
@@ -35,9 +35,9 @@ Ob Sie eine lokale Active Directory-Gesamtstruktur oder mehrere Gesamtstrukturen
 
 1. Eine einzelne Gesamtstruktur, die enthält autorisierende Benutzeridentitäten und Skype für Business Server hostet. 
 
-2. Mehrere Gesamtstrukturen, von denen nur eine Skype für Business Server gehostet wird, sowie mindestens einen anderen Gesamtstrukturen, die autorisierende Benutzeridentitäten enthalten. 
+2. Mehrere Gesamtstrukturen, von denen nur eine Skype für Business Server gehostet wird, sowie mindestens einen anderen Gesamtstrukturen, die autorisierende Benutzeridentitäten (das Konto Gesamtstrukturen) enthalten. 
 
-3. Mehrere Bereitstellungen von Skype für Business Server in mehreren Gesamtstrukturen. Unterstützung für dieses Szenario komplexe wird bald vorgestellt.
+3. Mehrere Bereitstellungen von Skype für Business Server in mehreren Gesamtstrukturen. Sofern bestimmte Anforderungen erfüllt sind, können Organisationen diese Bereitstellungen mit mehreren in einer einzelnen Office 365-Mandanten konsolidieren.
 
 ### <a name="single-forest"></a>Einzelne Gesamtstruktur 
 
@@ -58,7 +58,7 @@ In diesem Szenario wird häufig als einer Topologie mit Ressourcengesamtstruktur
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>Mehrere Skype für Business Server-Bereitstellungen in mehreren Gesamtstrukturen 
 
-Microsoft wird bald Unterstützung für das Synchronisieren von mehreren Skype für Business Gesamtstrukturen in einer einzelnen online-Mandanten Ankündigung werden, sofern Zeit nur eine Bereitstellung in Hybridmodus an einer beliebigen Stelle befindet. Weitere Einzelheiten in Kürze. 
+In diesem Szenario sind mehrere Gesamtstrukturen, jede enthaltenden Skype für Business Server und einer einzelnen Office 365-Mandanten.  Jede Gesamtstruktur mit Skype für Business Server für diese AAD Verbinden mit Mandanten in Azure Active Directory synchronisiert werden können. Höchstens kann nur einer Gesamtstruktur für Skype für hybride Business zu einem bestimmten Zeitpunkt konfiguriert werden. Bevor Sie Hybrid in einer Gesamtstruktur aktivieren, müssen alle SIP-Domänen aus allen anderen Gesamtstrukturen mit [Disable-CsonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)deaktiviert werden. Weitere Einzelheiten zur Anzeige einer solchen Umgebung in Office 365 konsolidieren finden Sie unter [Cloud Konsolidierung für Teams und Skype für Unternehmen](cloud-consolidation.md).
 
 ## <a name="general-requirements"></a>Allgemeine Anforderungen 
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Planungsüberlegungen für die Implementierung von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online oder Teams.
-ms.openlocfilehash: 825057f84300d9e47427eea5b27117d168b4126f
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: ef74a0b2dcc4943b5e95ddd8ba15005e50ec6cd6
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625689"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244025"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Plan hybridkonnektivität zwischen Skype für Business Server und Office 365
 
@@ -31,7 +31,7 @@ In diesem Thema wird die Infrastruktur und Systemanforderungen, die Sie benötig
 Nachdem Sie in diesem Thema gelesen haben und zum Konfigurieren von hybridkonnektivität bereit sind, finden Sie unter [Configure hybridkonnektivität zwischen Skype für Business Server und Office 365](configure-hybrid-connectivity.md). Die Konfigurationsthemen bieten schrittweise Anweisungen zum Einrichten von hybridkonnektivität zwischen Ihrer lokalen Bereitstellung und Teams oder Skype für Business Online.
 
 
-## <a name="about-split-domain-functionality"></a>Über geteilte Domäne Funktionen
+## <a name="about-shared-sip-address-space-functionality"></a>Informationen zu freigegebenen SIP-Adressraum Funktionalität
 <a name="BKMK_Overview"> </a>
 
  Hybrid-Verbindung zwischen einer lokalen Bereitstellung von Skype für Business Server und Teams oder Skype für Business Online einrichten können Sie einige Benutzer lokal und einige Benutzer online verwaltet.
@@ -43,13 +43,9 @@ Diese Art der Konfiguration abhängig von freigegebenen SIP-Adresse Speicherplat
 Wenn freigegebenen SIP-Adressraums konfiguriert ist:
 
 - Azure Active Directory verbinden wird verwendet, um das lokale Verzeichnis mit Office 365 synchronisieren.
-
 - Benutzer, die lokal verwaltet werden interagieren mit lokalen Skype für Unternehmensserver. 
-
 - Benutzer, die online verwaltet werden möglicherweise Skype für Business Online oder Teams Dienste interagieren.
-
 - Benutzer aus beiden Umgebungen können miteinander kommunizieren. 
-
 - Die lokale Active Directory ist autorisierend. Alle Benutzer sollten zunächst in die lokale Active Directory erstellt, und klicken Sie dann mit Azure Active Directory synchronisiert werden. Auch wenn der Benutzer online verwaltet werden soll, müssen Sie zuerst erstellen Sie den Benutzer in der lokalen Umgebung, und verschieben Sie den Benutzer in online, um sicherzustellen, dass der Benutzer von lokalen Benutzern sichtbar ist. 
 
 Bevor ein Benutzer online verschoben werden kann, muss der Benutzer einen Skype für Business Online (Plan 2) Lizenz zugewiesen werden. Wenn der Benutzer Teams verwenden, muss der Benutzer auch Teams Lizenz zugewiesen werden (und die Skype für Business Lizenz muss aktiviert bleiben). Wenn Ihre Benutzer zusätzliche online-Funktionen wie Audiokonferenzen oder Telefonsystem, nutzen möchten, müssen Sie diese die entsprechende in Office 365-Lizenz zuweisen.
@@ -61,24 +57,18 @@ Bevor ein Benutzer online verschoben werden kann, muss der Benutzer einen Skype 
 Um hybridkonnektivität zwischen Ihrer lokalen Umgebung und Office 365 Kommunikationsdienste zu implementieren, müssen Sie die folgenden infrastrukturanforderungen erfüllen:
 
 - Ein einzelnes lokale Bereitstellung von Skype für Business Server oder Lync Server, die in einer unterstützten Topologie bereitgestellt wird. Finden Sie in diesem Thema in der [topologieanforderungen](plan-hybrid-connectivity.md#BKMK_Topology) .
-
 - Microsoft Office 365-Mandanten mit der Skype für Business Online aktiviert werden soll.
-
     > [!NOTE]
     > Sie können nur einen einzelnen Mandanten für eine Hybridkonfiguration mit Ihrer lokalen Bereitstellung verwenden.
-
 - Azure Active Directory Connect zum Synchronisieren Ihres lokalen Verzeichnisses mit Office 365. Weitere Informationen finden Sie unter [Azure AD-Connect: Konten und Berechtigungen](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
-
 - Skype für Business Server-Verwaltungstools.  Diese sind erforderlich, um Benutzer aus der lokalen in die Cloud zu verschieben. Diese Tools müssen auf einem Server mit Zugriff auf die lokale Bereitstellung sowie dem Internet installiert werden. 
-
 - Online-Verwaltungstools.  Entweder der Teams und Skype für Business-Verwaltungskonsole oder Windows PowerShell können Sie um Teams und Skype für Business Online zu verwalten. Um mithilfe von PowerShell zum Verwalten von Teams oder Skype für Business Online herunter, und installieren Sie die Skype für Business Online Connector. 
-
 - Freigegebenen SIP-Adressraums muss aktiviert sein, und die lokale Bereitstellung muss konfiguriert werden, um Office 365 als einen Hostinganbieter zu verwenden. Weitere Informationen über die erforderlichen Schritte zum Konfigurieren von hybridkonnektivität finden Sie unter [Configure hybridkonnektivität](configure-hybrid-connectivity.md).
 
 Nach der Konfiguration hybridkonnektivität können Sie Benutzer in Teams oder Skype für Business Online verschieben. Weitere Informationen finden Sie unter [Verschieben von Benutzern aus lokalen Teams](move-users-from-on-premises-to-teams.md) und [Verschieben von Benutzern aus lokal zu Skype für Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
 
 
-## <a name="topology-requirements"></a>Topologieanforderungen
+## <a name="server-version-requirements"></a>Anforderungen an die Server-version
 <a name="BKMK_Topology"> </a>
 
 Um die für hybride Bereitstellung mit **Teams oder Skype für Business Online**konfigurieren, müssen Sie einen der folgenden unterstützten Topologien aufweisen:
@@ -105,13 +95,18 @@ Der Verbund Edge-Server und Hopserver für den nächsten aus den Edge-Server-Ver
  ## <a name="multi-forest-support"></a>Unterstützung für mehrere Gesamtstrukturen
 <a name="BKMK_MultiForest"> </a>
 
-Wenn die folgenden Anforderungen erfüllt sind, können Benutzer auf Skype for Business-Funktionen in einer anderen Gesamtstruktur zugreifen:
+Microsoft unterstützt die folgenden Typen von hybridszenarien mit mehreren Gesamtstrukturen:
 
-- Die Benutzer werden ordnungsgemäß mit der Gesamtstruktur synchronisiert, in der Skype for Business gehostet wird: In Hybridkonfigurationen bedeutet dies, dass die Benutzer als deaktivierte Benutzerobjekte synchronisiert werden müssen.
+- **Topologie mit Ressourcengesamtstruktur.** In dieser Art von Topologie eine Gesamtstruktur, die Skype für Business Server (der Ressourcengesamtstruktur) hostet vorhanden ist und es gibt einen oder mehrere zusätzliche Gesamtstrukturen, Host-Konto Identitäten, die die Skype für Business Server in der Ressourcengesamtstruktur zugreifen. Im Allgemeinen können Benutzer Skype für Business-Funktionalität in einer anderen Gesamtstruktur zugreifen, wenn die folgenden Anforderungen erfüllt sind:
+    - Benutzer werden in der Gesamtstruktur, der als Host für Unternehmen Skype ordnungsgemäß synchronisiert. Hybridkonfigurationen bedeutet dies, dass Benutzer als deaktivierte Benutzerobjekte synchronisiert werden müssen.
+    - Die Gesamtstruktur, in der Skype for Business gehostet wird, muss der Gesamtstruktur, in der sich die Benutzer befinden, vertrauen.
+    Ausführliche auf Ressource Gesamtstruktur hybridszenarien finden Sie unter [Bereitstellen einer Topologie mit Ressourcengesamtstruktur für hybride Skype für Unternehmen](configure-a-multi-forest-environment-for-hybrid.md).
+- **Mehrere Bereitstellungen von Skype für Business Server in mehreren Gesamtstrukturen.** Diese Konfiguration kann als Ergebnis einer Fusionen und Szenarien sowie in etwas komplexerer Unternehmen entstehen.  Konsolidierung aller Benutzer aus lokal in der Cloud in einem einzelnen Office 365-Mandanten kann für jede Organisation mit mehreren Skype für Business-Bereitstellungen erzielt werden, vorausgesetzt, dass die folgenden wichtigen Anforderungen erfüllt sind: 
+    - Es muss höchstens ein Office 365-Mandanten Beteiligten. Konsolidierung in Szenarien mit mehr als eine Office 365-Mandanten wird nicht unterstützt.
+    - Zu jedem Zeitpunkt in der lokalen nur eine Skype für Business Gesamtstruktur in Hybridmodus (freigegebenen SIP-Adressraums) werden kann. Alle anderen lokalen Skype für Business Gesamtstrukturen muss vollständig lokal bleiben (und vermutlich miteinander federated). Beachten Sie, dass diese anderen lokalen Organisationen AAD synchronisieren können bei Bedarf mit [neuen Funktionen in online SIP-Domänen deaktivieren](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) ab Dezember 2018 verfügbar.
 
-- Die Gesamtstruktur, in der Skype for Business gehostet wird, muss der Gesamtstruktur, in der sich die Benutzer befinden, vertrauen.
+    Kunden mit der Bereitstellung von Skype für Unternehmen in mehreren Gesamtstrukturen müssen vollständig migrieren Sie jede Skype für Business Gesamtstruktur einzeln in der Office 365-Mandanten mithilfe von Funktionalität, Split-Domäne (Shared SIP-Adressraum), und deaktivieren Sie dann Hybrid mit der Lokale Bereitstellung, vor dem Verschieben auf das nächste Migration: Skype für die Bereitstellung von Business lokal. Darüber hinaus bleiben Sie vor, die in die Cloud migriert werden, lokale Benutzer in den Verbund mit anderen Benutzern, die nicht in der gleichen Benutzer lokalen Verzeichnis dargestellt werden. Weitere Informationen finden Sie unter [Cloud Konsolidierung für Teams und Skype für Unternehmen](cloud-consolidation.md).
 
-Ausführliche Informationen zum hybridszenarien mit mehreren Gesamtstrukturen finden Sie unter [Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen](configure-a-multi-forest-environment-for-hybrid.md).
 
 
 ## <a name="federation-requirements"></a>Anforderungen an den Identitätsverbund
@@ -122,11 +117,8 @@ Beim Hybrid konfigurieren zu können, müssen Sie sicherstellen, dass Ihre lokal
 Die folgenden Anforderungen müssen erfüllt sein, um eine Hybridbereitstellung erfolgreich zu konfigurieren:
 
 - Der Domänenabgleich muss für die lokale Bereitstellung und den Office 365-Mandanten identisch konfiguriert sein. Wenn die Partnerermittlung für die lokale Bereitstellung aktiviert ist, muss der öffentliche Partnerverbund für den Onlinemandaten konfiguriert sein. Wenn die Partnerermittlung nicht aktiviert ist, muss für den Onlinemandanten der geschlossene Partnerverbund konfiguriert sein.
-
 - Die Liste der blockierten Domänen in der lokalen Bereitstellung muss genau mit der Liste der blockierten Domänen für den Onlinemandanten übereinstimmen.
-
 - Die Liste der zugelassenen Domänen in der lokalen Bereitstellung muss genau mit der Liste der zugelassenen Domänen für den Onlinemandanten übereinstimmen.
-
 - Verbund muss für die externen Kommunikation für den online-Mandanten aktiviert sein.
 
 

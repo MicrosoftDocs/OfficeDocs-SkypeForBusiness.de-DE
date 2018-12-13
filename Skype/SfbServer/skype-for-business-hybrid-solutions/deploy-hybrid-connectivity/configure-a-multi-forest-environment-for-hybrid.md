@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde.
-ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0c5e3e25e8ba9ae5b044093be53f25a37db28525
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531552"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244018"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
  
@@ -49,7 +49,7 @@ Skype möglich für Unternehmensbenutzer lokal verwaltet Exchange lokal verwalte
   
 ## <a name="configure-forest-trusts"></a>Konfigurieren von Gesamtstruktur-Vertrauensstellungen
 
-Die erforderlichen Vertrauensstellungen sind bidirektionale transitive Vertrauensstellungen zwischen der Ressourcengesamtstruktur und den einzelnen Benutzergesamtstrukturen. Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es für die Aktivierung der gesamtstrukturübergreifenden Authentifizierung wichtig, dass für jede dieser Gesamtstruktur-Vertrauensstellungen das Namenssuffixrouting aktiviert ist. Anleitungen dazu finden Sie unter [Verwalten von Gesamtstruktur-Vertrauensstellungen](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+Die erforderlichen Vertrauensstellungen sind bidirektionale transitive Vertrauensstellungen zwischen der Ressourcengesamtstruktur und den einzelnen Benutzergesamtstrukturen. Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es für die Aktivierung der gesamtstrukturübergreifenden Authentifizierung wichtig, dass für jede dieser Gesamtstruktur-Vertrauensstellungen das Namenssuffixrouting aktiviert ist. Anleitungen dazu finden Sie unter [Verwalten von Gesamtstruktur-Vertrauensstellungen](https://technet.microsoft.com/en-us/library/cc772440.aspx). Wenn Sie Exchange Server in einer anderen Gesamtstruktur bereitgestellt haben, und Funktionen für Skype für Unternehmensbenutzer bietet, muss die Gesamtstruktur Exchange die Gesamtstruktur hosten Skype für Business Server vertrauen. Wenn Exchange in der Kontostruktur bereitgestellt wurden, würde dies effektiv bedeutet z. B., dass eine bidirektionale Vertrauensstellung zwischen Firma und Skype für Business Gesamtstrukturen in dieser Konfiguration erforderlich ist.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchronisieren von Konten in der Gesamtstruktur hosten Skype für Unternehmen
 

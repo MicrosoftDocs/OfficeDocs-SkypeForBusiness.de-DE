@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
+title: Bereitstellen einer Topologie mit Ressourcengesamtstruktur
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,32 +10,29 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde.
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2e9e3d9f1f6d276ff99ee1e346bb1812ef0c3ea7
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532431"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244011"
 ---
-# <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype für Unternehmen
+# <a name="deploy-a-resource-forest-topology"></a>Bereitstellen einer Topologie mit Ressourcengesamtstruktur
  
 Die folgenden Abschnitte enthalten Anweisungen zum Konfigurieren einer Umgebung, die mehrere Gesamtstrukturen in ein Resource-Benutzermodell-Gesamtstruktur Skype für Business-Funktionalität in einem hybridszenario bereitgestellt wurde. 
   
 ![Umgebung mit mehreren Gesamtstrukturen für eine Hybridbereitstellung](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
-## <a name="validate-the-forest-topology"></a>Überprüfen der Topologie der Gesamtstruktur
+## <a name="topology-requirements"></a>Topologieanforderungen
 
 Mehrere Benutzergesamtstrukturen werden unterstützt. Berücksichtigen Sie dabei Folgendes: 
-  
-- Für einen Einzelbenutzer-Gesamtstruktur oder Bereitstellung Gesamtstruktur mit mehreren Benutzern muss eine einzelne Bereitstellung von Skype für Business Server vorhanden sein.
     
-- Unterstützte Versionen von Lync Server und Skype für Business Server in einer hybridkonfiguration finden Sie unter [topologieanforderungen](plan-hybrid-connectivity.md#BKMK_Topology) in [hybridkonnektivität zwischen Skype für Business Server und Office 365 planen](plan-hybrid-connectivity.md).
+- Unterstützte Versionen von Lync Server und Skype für Business Server in einer hybridkonfiguration finden Sie unter [Anforderungen an die Server-Version](plan-hybrid-connectivity.md#server-version-requirements) in [hybridkonnektivität zwischen Skype für Business Server und Office 365 planen](plan-hybrid-connectivity.md).
     
 - Exchange Server kann in eine oder mehrere Gesamtstrukturen bereitgestellt werden, oder die Gesamtstruktur mit Skype für Business Server unter Umständen nicht enthalten. Stellen Sie sicher, dass Sie das neueste kumulative Update angewendet haben.
     
 - Details zur Koexistenz mit Exchange Server, einschließlich Unterstützungskriterien und Einschränkungen in verschiedenen Kombinationen aus lokaler Bereitstellung und Onlinebereitstellung, finden Sie unter [Unterstützung von Features](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-Weitere Informationen finden Sie unter [System Requirements](../plan/system-requirements.md).
   
 ## <a name="user-homing-considerations"></a>Überlegungen zum Aufenthaltsort von Benutzern
 
@@ -43,7 +40,7 @@ Skype möglich für Unternehmensbenutzer lokal verwaltet Exchange lokal verwalte
   
 ## <a name="configure-forest-trusts"></a>Konfigurieren Sie die Gesamtstruktur-Vertrauensstellungen
 
-Die erforderlichen Vertrauensstellungen sind bidirektionale transitive Vertrauensstellungen zwischen der Ressourcengesamtstruktur und den einzelnen Benutzergesamtstrukturen. Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es für die Aktivierung der gesamtstrukturübergreifenden Authentifizierung wichtig, dass für jede dieser Gesamtstruktur-Vertrauensstellungen das Namenssuffixrouting aktiviert ist. Anleitungen dazu finden Sie unter [Verwalten von Gesamtstruktur-Vertrauensstellungen](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+In einer Topologie mit Ressourcengesamtstruktur müssen die Ressourcengesamtstrukturen Skype für Business Server hosten jedes Kontostruktur vertrauen, die Benutzerkonten enthält, auf die sie zugreifen. Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es für die Aktivierung der gesamtstrukturübergreifenden Authentifizierung wichtig, dass für jede dieser Gesamtstruktur-Vertrauensstellungen das Namenssuffixrouting aktiviert ist. Anleitungen dazu finden Sie unter [Verwalten von Gesamtstruktur-Vertrauensstellungen](https://technet.microsoft.com/en-us/library/cc772440.aspx). Wenn Sie Exchange Server in einer anderen Gesamtstruktur bereitgestellt haben, und Funktionen für Skype für Unternehmensbenutzer bietet, muss die Gesamtstruktur Exchange die Gesamtstruktur hosten Skype für Business Server vertrauen. Wenn Exchange in der Kontostruktur bereitgestellt wurden, würde dies effektiv bedeutet z. B., dass eine bidirektionale Vertrauensstellung zwischen Firma und Skype für Business Gesamtstrukturen in dieser Konfiguration erforderlich ist.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchronisieren von Konten in der Gesamtstruktur hosten Skype für Unternehmen
 
@@ -94,9 +91,9 @@ Nach der Bereitstellung müssen Sie dann die Anspruchsregel bearbeiten, damit si
   
 ## <a name="configure-aad-connect"></a>Konfigurieren von AAD Connect
 
-AAD Connect wird verwendet, um die Konten zwischen den verschiedenen Gesamtstrukturen sowie zwischen den Gesamtstrukturen und Office 365 zusammenzuführen. Sie sollten AAD Connect in der Ressourcengesamtstruktur bereitstellen. AAD Connect ist erforderlich, damit Sie mehrere Gesamtstrukturen und Office 365 synchronisieren können, was von Dirsync nicht unterstützt wird. 
-  
-AAD Connect führt keine Synchronisierung der Konten zwischen lokalen Gesamtstrukturen durch. AAD Connect verwendet AD-Connectors, um Objekte zu lesen, die bereits in lokalen Gesamtstrukturen synchronisiert sind (von FIM oder ähnlichen Produkten). Dann nutzt AAD Connect Filterungsregeln, um eine einzige Darstellung des übereinstimmenden aktivierten und deaktivierten Objekts im Metaverse zu erstellen, und repliziert anschließend dieses einzelne, zusammengeführte Objekt in Office 365. 
+In Topologien mit Ressource Gesamtstrukturen ist es erforderlich, dass Benutzerattribute aus der Ressourcengesamtstruktur und alle Gesamtstrukturen Konto (s) in Azure Active Directory synchronisiert werden. Die einfachste und empfohlene Möglichkeit hierzu ist Azure AD-Connect synchronisieren und Zusammenführen von Benutzeridentitäten aus *allen* Gesamtstrukturen, die Benutzerkonten aktiviert haben und die Gesamtstruktur, die Skype für Business enthält. Details finden Sie unter [Konfigurieren von Azure Active Directory verbinden für Skype für Unternehmen und Teams](configure-azure-ad-connect.md).
+
+Beachten Sie, dass AAD Verbinden nicht Synchronisierung zwischen den Gesamtstrukturen Konten- und lokal bereitstellen. Müssen separat konfiguriert werden mithilfe von Microsoft Identity Manager oder ähnliche Produkt, wie oben beschrieben.
   
 Wenn dieser Vorgang abgeschlossen ist und AAD Connect die Zusammenführung durchführt, sollten Sie in etwa Folgendes sehen, wenn Sie sich ein Objekt im Metaverse ansehen: 
   
