@@ -36,7 +36,7 @@
 | 07.11.2018 | [Bereitstellen von Besprechungen in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | hinzugefügt |
 | 07.11.2018 | [Bereitstellen von Microsoft Teams](/MicrosoftTeams/deploy-microsoft-teams-landing-page) | hinzugefügt |
 | 07.11.2018 | [Bereitstellen von Sprache für Microsoft Teams](/MicrosoftTeams/deploy-voice-microsoft-teams-landing-page) | hinzugefügt |
-| 07.11.2018 | [Erste Schritte mit Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | hinzugefügt |
+| 07.11.2018 | [Erste Schritte mit Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | hinzugefügt |
 | 07.11.2018 | [Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?](/MicrosoftTeams/teams-adoption-assess-readiness) | hinzugefügt |
 | 07.11.2018 | [Erstellen Ihres Champions-Programms für Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | hinzugefügt |
 | 07.11.2018 | [Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | hinzugefügt |
@@ -88,7 +88,7 @@
 | 12.11.2018 | [Verwalten des Benutzerzugriffs auf Microsoft Teams](/MicrosoftTeams/user-access) | geändert |
 | 12.11.2018 | [Verwalten Ihrer Geräte in Microsoft Teams](/MicrosoftTeams/device-management) | geändert |
 | 13.11.2018 | [Einführen von Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | hinzugefügt |
-| 13.11.2018 | [Erste Schritte mit Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | hinzugefügt |
+| 13.11.2018 | [Erste Schritte mit Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | hinzugefügt |
 | 13.11.2018 | [Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | hinzugefügt |
 | 13.11.2018 | [Erste Schritte mit Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | hinzugefügt |
 | 13.11.2018 | [Überwachen der Verwendung und Feedback in Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | hinzugefügt |

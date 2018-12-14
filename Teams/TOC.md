@@ -500,6 +500,7 @@
 #### [Einrichten von Voicemail für das Telefonsystem](set-up-phone-system-voicemail.md)
 #### [Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants.md)
 #### [Beantworten Sie die automatische Telefonzentrale, und rufen Sie die Warteschlange Anrufe direkt von Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Einrichten von Telefonen in öffentlichen Bereichen in Microsoft-Teams](set-up-common-area-phones.md)
 ### Telefon System direkten Routing
 #### [Planen von direktem Routing](direct-routing-plan.md)
 #### [Konfigurieren von direktem Routing](direct-routing-configure.md)

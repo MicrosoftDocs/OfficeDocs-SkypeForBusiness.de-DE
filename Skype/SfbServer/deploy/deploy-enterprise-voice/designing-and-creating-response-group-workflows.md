@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype für Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows abgedeckt.
-ms.openlocfilehash: c141c5e933a54bc0d6234093441d1b66331713d9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372273"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264860"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Unternehmen
 
@@ -43,26 +43,26 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
 4. Klicken Sie auf der Seite **Workflow** auf **Workflow erstellen oder bearbeiten**.
 
-5. Geben Sie im Suchfeld **Dienst auswählen einen** Teil oder den Namen des **ApplicationServer** -Diensts, der den Workflow hostet, den Sie erstellen oder ändern möchten. Klicken Sie dann in der Liste mit den Diensten auf den gewünschten Dienst und klicken Sie auf **OK**.
+5. Geben Sie im Suchfeld **Dienst auswählen einen** Teil oder den Namen des **ApplicationServer** -Diensts, der den Workflow hostet, den Sie erstellen oder ändern möchten. Klicken Sie in der nun angezeigten Liste der Dienst auf den gewünschten Dienst und klicken Sie dann auf **OK**.
 
     > [!NOTE]
-    > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können auch das Konfigurationstool für Reaktionsgruppen direkt über einen Webbrowser öffnen, indem Sie die folgende URL eingeben: https:// _ \<WebPoolFqdn\>_/RgsConfig.
+    > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können auch das Konfigurationstool für Reaktionsgruppen direkt über einen Webbrowser öffnen, indem Sie die folgende URL eingeben: https://\<WebPoolFqdn\>/RgsConfig.
 
 6. Führen Sie einen der folgenden Schritte aus:
 
-   - Klicken Sie unter **Neuen Workflow erstellen** neben **Sammelanschluss** auf „Erstellen“.
+   - Klicken Sie unter **neuen Workflow erstellen**neben **Sammelanschluss**auf **Erstellen**.
 
    - Suchen Sie unter **Vorhandenen Workflow verwalten** nach dem Workflow, den Sie ändern möchten, und klicken Sie anschließend unter **Aktion** auf **Bearbeiten**.
 
 7. Falls Benutzer den Workflow bereits verwenden können, aktivieren Sie das Kontrollkästchen **Workflow aktivieren**.
 
     > [!NOTE]
-    >  Wenn Sie einen verwalteten Workflow erstellen, müssen Sie **Workflow aktivieren** auswählen. Nachdem Sie den aktiven, verwalteten Workflow gespeichert haben, können Sie ihn ändern und deaktivieren.
+    >  Wenn Sie einen verwalteten Workflow erstellen, müssen Sie **den Workflow aktivieren**auswählen. Nachdem Sie den aktiven, verwalteten Workflow gespeichert haben, können Sie ihn ändern und deaktivieren.
 
 8. Aktivieren Sie das Kontrollkästchen **Für Partnerverbund aktivieren**, um Partnerbenutzern Anrufe bei der Gruppe zu ermöglichen. Sie benötigen auch eine externe Zugriffsrichtlinie, die für die Anwendung "Reaktionsgruppe" für den Verbund konfiguriert gilt.
 
     > [!NOTE]
-    > Die globale externe Zugriffsrichtlinie gilt für die Anwendung "Reaktionsgruppe". Sie können die globale Richtlinie für den Verbund Antwort-Gruppe konfigurieren, mithilfe von Skype Business Server-Systemsteuerung oder mit dem **Set-CsExternalAccessPolicy** -Cmdlet den EnableOutsideAccess-Parameter auf True festgelegt. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Partnerverbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Ausführliche Informationen zu Richtlinien für Benutzer wie gelten finden Sie unter [Externe Zugriffsrichtlinie für Ihre Organisation verwalten](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Ausführliche Informationen zu den partnerverbundeinstellung finden Sie unter [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > Die globale externe Zugriffsrichtlinie gilt für die Anwendung "Reaktionsgruppe". Sie können die globale Richtlinie für den Verbund Antwort-Gruppe konfigurieren, mithilfe von Skype Business Server-Systemsteuerung oder mit dem **Set-CsExternalAccessPolicy** -Cmdlet den EnableOutsideAccess-Parameter auf True festgelegt. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Partnerverbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Nähere Informationen dazu, wie sich Richtlinien auf Benutzer auswirken, finden Sie unter [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Ausführliche Informationen zu den partnerverbundeinstellung finden Sie unter [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > Benutzer, die in Skype für Business Online gehostet werden können nicht tätigen von Anrufen zu Response Groups, die gehostet werden in einer lokalen Bereitstellung. Dies gilt in beiden hybridbereitstellungen und in Fällen, in dem eine lokale Bereitstellung mit einem Skype für Business Online-Bereitstellung im Verbund befindet.
@@ -109,7 +109,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
     - Um eine aufgezeichnete WAV- (Wave) oder WMA-Datei (Windows Media Audio) für die Willkommensnachricht zu verwenden, klicken Sie auf **Aufzeichnung auswählen**. Klicken Sie auf den Link **Aufzeichnung**, um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Audiodatei und klicken Sie dann auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden.
 
     > [!NOTE]
-    > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformaten finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 18. Klicken Sie unter **Schritt 4: Geschäftszeiten angeben** im Feld **Ihre Zeitzone** auf die Zeitzone des Workflows.
 
@@ -130,7 +130,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
 20. Wenn Sie einen benutzerdefinierten Zeitplan für diesen Workflow erstellen, aktivieren Sie die Kontrollkästchen für die Wochentage, an denen die Reaktionsgruppe verfügbar ist.
 
-21. Beim Erstellen eines benutzerdefinierten Zeitplans geben Sie über die Werte für **Öffnen** und **Schließen** den Zeitraum für jeden Wochentag ein, in dem die Reaktionsgruppe verfügbar ist.
+21. Wenn Sie einen benutzerdefinierten Zeitplan erstellen, geben Sie die **öffnenden** und **schließenden** Stunden für jeden Tag der Woche, die die reaktionsgruppe verfügbar ist.
 
     > [!NOTE]
     > Die Werte für **Öffnen** und **Schließen** müssen im 24-Stunden-Format angegeben werden. Wenn Ihr Büro z. B. von 9 Uhr bis 17 Uhr geöffnet und mittags geschlossen ist, können Sie die Geschäftszeiten als **Öffnen** 9:00, **Schließen** 12:00, **Öffnen** 13:00 und **Schließen** 17:00 angeben.
@@ -145,17 +145,17 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
     - Um eine aufgezeichnete Audiodatei als Nachricht zu verwenden, klicken Sie auf **Aufzeichnung auswählen**. Klicken Sie auf den Link **Aufzeichnung**, um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Datei und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden.
 
       > [!NOTE]
-      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformate finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Audiodateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Geben Sie an, wie nach Wiedergabe der Nachricht verfahren werden soll (sofern eine Nachricht konfiguriert wurde):
 
     - Klicken Sie auf **Verbindung trennen**, um die Verbindung zu trennen.
 
-    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben Sie die Voicemailadresse ein. Das Format für Voicemail-Adresse ist * \<Username\>*@ *\<DomainName\> * (beispielsweise bob@contoso.com).
+    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben Sie die Voicemailadresse ein. Das Format für Voicemail-Adresse ist * \<Username\>*@*\<DomainName\> * (beispielsweise bob@contoso.com).
 
-    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben Sie die Adresse eines Benutzers ein. Das Format der Benutzeradresse lautet _ \<Username\>_@ _\<DomainName\>_.
+    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben Sie die Adresse eines Benutzers ein. Das Format der Benutzeradresse lautet _ \<Username\>_@_\<DomainName\>_.
 
-    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben Sie die Telefonnummer ein. Das Format für die Telefonnummer ist * \<Anzahl\>*@ *\<DomainName\> * (beispielsweise +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
+    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben Sie die Telefonnummer ein. Das Format für die Telefonnummer ist * \<Anzahl\>*@*\<DomainName\> * (beispielsweise +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
 
 24. Aktivieren Sie unter **Schritt 5: Feiertage angeben** die Kontrollkästchen für einen oder mehrere Feiertagssätze, mit denen die Tage definiert werden, an denen die Reaktionsgruppe aufgrund eines Feiertags nicht verfügbar ist.
 
@@ -172,17 +172,17 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
     - Um eine aufgezeichnete Audiodatei als Nachricht zu verwenden, klicken Sie auf **Aufzeichnung auswählen**. Klicken Sie auf den Link **Aufzeichnung**, um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Datei und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden.
 
       > [!NOTE]
-      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformate finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Audiodateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Geben Sie an, wie nach Wiedergabe der Nachricht verfahren werden soll (sofern eine Nachricht konfiguriert wurde):
 
     - Klicken Sie auf **Verbindung trennen**, um die Verbindung zu trennen.
 
-    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben Sie die Voicemailadresse ein. Das Format für Voicemail-Adresse ist * \<Username\>*@ *\<DomainName\> * (beispielsweise bob@contoso.com).
+    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben Sie die Voicemailadresse ein. Das Format für Voicemail-Adresse ist * \<Username\>*@*\<DomainName\> * (beispielsweise bob@contoso.com).
 
-    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben Sie die Adresse eines Benutzers ein. Das Format der Benutzeradresse lautet _ \<Username\>_@ _\<DomainName\>_.
+    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben Sie die Adresse eines Benutzers ein. Das Format der Benutzeradresse lautet _ \<Username\>_@_\<DomainName\>_.
 
-    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben Sie die Telefonnummer ein. Das Format für die Telefonnummer ist * \<Anzahl\>*@ *\<DomainName\> * (beispielsweise +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
+    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben Sie die Telefonnummer ein. Das Format für die Telefonnummer ist * \<Anzahl\>*@*\<DomainName\> * (beispielsweise +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
 
 27. Wählen Sie unter **Schritt 6: Warteschleife konfigurieren** im Feld **Warteschleife auswählen, an die die Anrufe weitergeleitet werden** die Warteschleife aus, in der die Anrufer gehalten werden, bis ein Agent verfügbar wird.
 
@@ -193,7 +193,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
     - Klicken Sie auf **Musikdatei auswählen**, um eine aufgezeichnete Audiodatei als Wartemusik zu verwenden. Klicken Sie auf den Link **Musikdatei**, um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Datei und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden.
 
       > [!NOTE]
-      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformate finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Audiodateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Klicken Sie auf **Bereitstellen**.
 
@@ -233,7 +233,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
    ```
 
     > [!NOTE]
-    > Für Workflows für Sammelanschlüsse muss der Anruf mit der Standardaktion an eine Warteschleife weitergeleitet werden. Dieser Parameter ist für aktive Workflows erforderlich, für inaktive Workflows dagegen nicht.
+    > Workflows für Sammelanschlüsse Gruppe muss die Standardaktion des Anrufs an eine Warteschleife direktes. Dieser Parameter ist erforderlich für aktive Workflows. Es ist nicht erforderlich für inaktive Workflows.
 
     Beispiel:
 
@@ -248,13 +248,13 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 8. Der Dienstname für Lync Server-reaktionsgruppendienst abgerufen und einer Variablen zuweisen. Führen Sie an der Befehlszeile folgenden Befehl aus:
 
    ```
-   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
+   $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 9. Erstellen oder ändern Sie den Workflow. Verwenden Sie zum Erstellen eines Workflows, **New-CsRgsWorkflow**. Um einen Workflow ändern möchten, verwenden Sie **Set-CsRgsWorkflow**. Geben Sie in der Befehlszeile Folgendes ein:
 
    ```
-   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
+   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
     Beispiel:
@@ -280,7 +280,7 @@ Die Anwendung "Reaktionsgruppe" bietet Spracherkennung und Text-Sprach-Funktione
 Interaktive Workflows unterstützt bis zu zwei Stufen von Fragen, mit dem jede Frage, dass bis zu vier mögliche Antworten. Die IVR stellt dem Anrufer eine Frage, und leitet je nach Antwort des Anrufers, den Anrufer an eine Warteschleife oder stellt eine zweite Frage. Die zweite Frage kann ebenfalls vier mögliche Antworten haben. Abhängig von der Antwort auf die Frage der zweiten Ebene wird der Anrufer an die geeignete Warteschleife weitergeleitet.
 
 > [!NOTE]
-> Beim Entwerfen von anrufflüssen mithilfe von Skype für Business Server-Verwaltungsshell können Sie eine beliebige Anzahl Ebenen der IVR-Fragen und eine beliebige Anzahl von Antworten definieren. Aus Gründen der Benutzerfreundlichkeit wird jedoch empfohlen, nicht mehr als drei Frageebenen und pro Ebene nicht mehr als fünf Antworten zu definieren. Wenn Sie eine Anruffluss, die mehr als zwei Stufen von Fragen mit mehr als vier Antworten hat entwerfen, können nicht Sie mithilfe von Skype Business Server-Systemsteuerung darüber hinaus den Anruffluss bearbeiten.
+> Beim Entwerfen von anrufflüssen mithilfe von Skype für Business Server-Verwaltungsshell können Sie eine beliebige Anzahl von Ebenen der IVR-Fragen und eine beliebige Anzahl von Antworten definieren. Aus Gründen der Benutzerfreundlichkeit wird jedoch empfohlen, nicht mehr als drei Frageebenen und pro Ebene nicht mehr als fünf Antworten zu definieren. Wenn Sie eine Anruffluss, die mehr als zwei Stufen von Fragen mit mehr als vier Antworten hat entwerfen, können nicht Sie mithilfe von Skype Business Server-Systemsteuerung darüber hinaus den Anruffluss bearbeiten.
 
 Die IVR-Fragen und Antworten des Anrufers werden dem zuständigen Agent angezeigt, die den Anruf annimmt.
 
@@ -376,10 +376,10 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 
 4. Klicken Sie auf der Seite **Workflow** auf **Workflow erstellen oder bearbeiten**.
 
-5. Geben Sie im Suchfeld **Dienst auswählen einen** Teil oder den Namen des **ApplicationServer** -Diensts, der den Workflow hostet, den Sie erstellen oder ändern möchten. Klicken Sie dann in der Liste mit den Diensten auf den gewünschten Dienst und klicken Sie auf **OK**.
+5. Geben Sie im Suchfeld **Dienst auswählen einen** Teil oder den Namen des **ApplicationServer** -Diensts, der den Workflow hostet, den Sie erstellen oder ändern möchten. Klicken Sie in der nun angezeigten Liste der Dienst auf den gewünschten Dienst und klicken Sie dann auf **OK**.
 
     > [!NOTE]
-    > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können auch das Konfigurationstool für Reaktionsgruppen direkt über einen Webbrowser öffnen, indem Sie die folgende URL eingeben: https:// _ \<WebPoolFqdn\>_/RgsConfig.
+    > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können auch das Konfigurationstool für Reaktionsgruppen direkt über einen Webbrowser öffnen, indem Sie die folgende URL eingeben: https://\<WebPoolFqdn\>/RgsConfig.
 
 6. Führen Sie einen der folgenden Schritte aus:
 
@@ -390,12 +390,12 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 7. Falls Benutzer den Workflow noch nicht aufrufen sollen, müssen Sie das Kontrollkästchen **Workflow aktivieren** deaktivieren.
 
     > [!NOTE]
-    >  Wenn Sie einen verwalteten Workflow erstellen, müssen Sie **Workflow aktivieren** auswählen. Nachdem Sie den aktiven, verwalteten Workflow gespeichert haben, können Sie ihn ändern und deaktivieren.
+    >  Wenn Sie einen verwalteten Workflow erstellen, müssen Sie **den Workflow aktivieren**auswählen. Nachdem Sie den aktiven, verwalteten Workflow gespeichert haben, können Sie ihn ändern und deaktivieren.
 
 8. Aktivieren Sie das Kontrollkästchen **Für Partnerverbund aktivieren**, um Partnerbenutzern Anrufe bei der Gruppe zu ermöglichen. Sie benötigen auch eine externe Zugriffsrichtlinie, die für die Anwendung "Reaktionsgruppe" für den Verbund konfiguriert gilt.
 
     > [!NOTE]
-    > Die globale externe Zugriffsrichtlinie gilt für die Anwendung "Reaktionsgruppe". Sie können die globale Richtlinie für den Verbund Antwort-Gruppe konfigurieren, mithilfe von Skype Business Server-Systemsteuerung oder mit dem **Set-CsExternalAccessPolicy** -Cmdlet den EnableOutsideAccess-Parameter auf True festgelegt. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Partnerverbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Ausführliche Informationen zu Richtlinien für Benutzer wie gelten finden Sie unter [Externe Zugriffsrichtlinie für Ihre Organisation verwalten](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Ausführliche Informationen zu den partnerverbundeinstellung finden Sie unter **Set-CsExternalAccessPolicy** in der Dokumentation.
+    > Die globale externe Zugriffsrichtlinie gilt für die Anwendung "Reaktionsgruppe". Sie können die globale Richtlinie für den Verbund Antwort-Gruppe konfigurieren, mithilfe von Skype Business Server-Systemsteuerung oder mit dem **Set-CsExternalAccessPolicy** -Cmdlet den EnableOutsideAccess-Parameter auf True festgelegt. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Partnerverbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Nähere Informationen dazu, wie sich Richtlinien auf Benutzer auswirken, finden Sie unter [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Ausführliche Informationen zu den partnerverbundeinstellung finden Sie unter **Set-CsExternalAccessPolicy** in der Dokumentation.
 
     > [!NOTE]
     > Benutzer, die in Skype für Business Online gehostet werden können nicht tätigen von Anrufen zu Response Groups, die gehostet werden in einer lokalen Bereitstellung. Dies gilt in beiden hybridbereitstellungen und in Fällen, in dem eine lokale Bereitstellung mit einem Skype für Business Online-Bereitstellung im Verbund befindet.
@@ -410,7 +410,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 11. Geben Sie im Feld **Anzeigename** den Namen ein, der für den Workflow angezeigt werden soll (z. B. „Vertrieb-IVR-Reaktionsgruppe“).
 
     > [!NOTE]
-    > Schließen Sie nicht die "\<"oder"\>" Zeichen in den Anzeigenamen. Die folgenden Anzeigenamen sind reserviert und dürfen nicht verwendet werden: „RGS-Anwesenheitsmonitor“ oder „Ankündigungsdienst“.
+    > Schließen Sie nicht die "\<"oder"\>" Zeichen in den Anzeigenamen. Die folgenden Anzeigenamen sind reserviert und dürfen nicht verwendet werden: **RGS-Anwesenheitsmonitor** oder **Ankündigungsdienst**.
 
 12. Geben Sie unter **Telefonnummer** den Anschluss-URI für die Reaktionsgruppe ein (z. B. +14255550165).
 
@@ -439,7 +439,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
     - Um eine aufgezeichnete WAV- oder WMA-Datei für die Willkommensnachricht zu verwenden, klicken Sie auf **Aufzeichnung auswählen**. Klicken Sie auf den Link **Aufzeichnung**, um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Audiodatei und klicken Sie dann auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden.
 
     > [!NOTE]
-    > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformaten finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 18. Klicken Sie unter **Schritt 4: Geschäftszeiten angeben** im Feld **Ihre Zeitzone** auf die Zeitzone des Workflows.
 
@@ -451,13 +451,13 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
     - Wenn Sie einen vordefinierten Zeitplan für die Geschäftszeiten verwenden möchten, klicken Sie auf **Vordefinierten Zeitplan verwenden** und wählen Sie den gewünschten Zeitplan in der Dropdownliste aus.
 
       > [!NOTE]
-      > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Sie erstellen vordefinierte Zeitpläne mit dem **New-CSRgsHoursOfBusiness**-Cmdlet. Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von Geschäftszeiten in Skype für Unternehmen](optional-define-response-group-business-hours.md). Wenn Sie einen vordefinierten Zeitplan verwenden, werden die Werte für **Tag**, **Öffnen** und **Schließen**, automatisch mit den Tagen und Stunden ausgefüllt, an denen die Reaktionsgruppe verfügbar ist.
+      > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Definieren Sie vorgegebenen Zeitpläne mit dem Cmdlet **New-CsRgsHoursOfBusiness** . Weitere Informationen hierzu finden Sie unter [Reaktionsgruppe (Optional) Definieren von Geschäftszeiten in Skype für Unternehmen](optional-define-response-group-business-hours.md). Wenn Sie einen vordefinierten Zeitplan verwenden, werden die Werte für **Tag**, **Öffnen** und **Schließen**, automatisch mit den Tagen und Stunden ausgefüllt, an denen die Reaktionsgruppe verfügbar ist.
 
     - Klicken Sie auf **Benutzerdefinierten Zeitplan verwenden**, um einen benutzerdefinierten Zeitplan zu erstellen, der nur für diesen Workflow gilt.
 
 20. Wenn Sie einen benutzerdefinierten Zeitplan für diesen Workflow erstellen, aktivieren Sie die Kontrollkästchen für die Wochentage, an denen die Reaktionsgruppe verfügbar ist.
 
-21. Beim Erstellen eines benutzerdefinierten Zeitplans geben Sie über die Werte für **Öffnen** und **Schließen** den Zeitraum ein, in dem die Reaktionsgruppe verfügbar ist.
+21. Wenn Sie einen benutzerdefinierten Zeitplan erstellen, geben Sie die **öffnenden** und **schließenden** Stunden, wenn die reaktionsgruppe verfügbar ist.
 
      > [!NOTE]
      > Die Werte für **Öffnen** und **Schließen** müssen im 24-Stunden-Format angegeben werden. Wenn Ihr Büro z. B. von 9 Uhr bis 17 Uhr geöffnet und mittags geschlossen ist, können Sie die Geschäftszeiten als **Öffnen** 9:00, **Schließen** 12:00, **Öffnen** 13:00 und **Schließen** 17:00 angeben.
@@ -472,17 +472,17 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
     - Um eine aufgezeichnete Audiodatei als Nachricht zu verwenden, klicken Sie auf **Aufzeichnung auswählen**. Klicken Sie auf den Link **Aufzeichnung**, um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Datei und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden.
 
     > [!NOTE]
-    > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformaten finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Geben Sie an, wie nach Wiedergabe der Nachricht verfahren werden soll (sofern eine Nachricht konfiguriert wurde):
 
     - Klicken Sie auf **Verbindung trennen**, um die Verbindung zu trennen.
 
-    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben Sie die Voicemailadresse ein. Das Format für Voicemail-Adresse ist * \<Username\>*@ *\<Domainname\> * (beispielsweise bob@contoso.com).
+    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben Sie die Voicemailadresse ein. Das Format für Voicemail-Adresse ist * \<Username\>*@*\<Domainname\> * (beispielsweise bob@contoso.com).
 
-    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben Sie die Adresse eines Benutzers ein. Das Format der Benutzeradresse lautet _ \<Username\>_@ _\<Domainname\>_.
+    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben Sie die Adresse eines Benutzers ein. Das Format der Benutzeradresse lautet _ \<Username\>_@_\<Domainname\>_.
 
-    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben Sie die Telefonnummer ein. Das Format für die Telefonnummer ist * \<Anzahl\>*@ *\<Domainname\> * (beispielsweise +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
+    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben Sie die Telefonnummer ein. Das Format für die Telefonnummer ist * \<Anzahl\>*@*\<Domainname\> * (beispielsweise +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
 
 24. Aktivieren Sie unter **Schritt 5: Feiertage angeben** die Kontrollkästchen für einen oder mehrere Feiertagssätze, mit denen die Tage definiert werden, an denen die Reaktionsgruppe aufgrund eines Feiertags nicht verfügbar ist.
 
@@ -499,17 +499,17 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
     - Um eine aufgezeichnete Audiodatei als Nachricht zu verwenden, klicken Sie auf **Aufzeichnung auswählen**. Klicken Sie auf den Link **Aufzeichnung**, um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Datei und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden.
 
       > [!NOTE]
-      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformate finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Audiodateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Geben Sie an, wie nach Wiedergabe der Nachricht verfahren werden soll (sofern eine Nachricht konfiguriert wurde):
 
     - Klicken Sie auf **Verbindung trennen**, um die Verbindung zu trennen.
 
-    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben Sie die Voicemailadresse ein. Das Format für Voicemail-Adresse ist * \<Username\>*@ *\<Domainname\> * (beispielsweise bob@contoso.com).
+    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben Sie die Voicemailadresse ein. Das Format für Voicemail-Adresse ist * \<Username\>*@*\<Domainname\> * (beispielsweise bob@contoso.com).
 
-    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben Sie die Adresse eines Benutzers ein. Das Format der Benutzeradresse lautet _ \<Username\>_@ _\<Domainname\>_.
+    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben Sie die Adresse eines Benutzers ein. Das Format der Benutzeradresse lautet _ \<Username\>_@_\<Domainname\>_.
 
-    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben Sie die Telefonnummer ein. Das Format für die Telefonnummer ist * \<Anzahl\>*@ *\<Domainname\> * (beispielsweise +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
+    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben Sie die Telefonnummer ein. Das Format für die Telefonnummer ist * \<Anzahl\>*@*\<Domainname\> * (beispielsweise +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
 
 27. Wählen Sie unter **Schritt 6: Wartemusik konfigurieren** aus, was Anrufer beim Warten auf einen Agent hören sollen, indem Sie einen der folgenden Schritte ausführen:
 
@@ -518,7 +518,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
     - Klicken Sie auf **Musikdatei auswählen**, um eine aufgezeichnete Audiodatei als Wartemusik zu verwenden. Klicken Sie auf den Link **Musikdatei**, um eine neue Audiodatei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Datei und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden.
 
     > [!NOTE]
-    > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformaten finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 28. Geben Sie in **Schritt 7: Interaktive Sprachantwort (IVR) konfigurieren** unter **Der Benutzer hört den folgenden Text bzw. die folgende aufgezeichnete Nachricht** die Frage ein, die dem Anrufer gestellt wird. Führen Sie hierzu die folgenden Aktionen aus:
 
@@ -533,7 +533,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
     - Um eine aufgezeichnete Audiodatei mit der Frage zu verwenden, klicken Sie auf **Aufzeichnung auswählen** und dann auf den Link **Aufzeichnung**, um die Datei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Audiodatei und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen** , um die Datei zu laden, und geben Sie dann optional Sie können die Frage in das Textfeld (auf diese Weise können die Frage und Antwort des Anrufers an den zuständigen Agent weitergeleitet werden).
 
       > [!NOTE]
-      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu unterstützten Dateiformaten finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Geben Sie unter **Antwort 1** wie folgt die erste mögliche Antwort auf die Frage ein:
 
@@ -566,7 +566,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 3. Rufen Sie den Dienstnamen für den Reaktionsgruppendienst ab und weisen Sie ihn einer Variablen zu. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
 
    ```
-   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}) .ServiceId;
+   $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 4. Ein interaktiver Workflow erfordert mindestens zwei Warteschlangen und mindestens zwei Agentgruppen. Erstellen Sie zunächst die Agentgruppen. Führen Sie folgenden Befehl aus:
@@ -639,7 +639,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
     ```
 
      > [!NOTE]
-     > Allen Benutzern, die als Manager einer Reaktionsgruppe bestimmt wurden, muss die Rolle „CsResponseGroupManager“ zugewiesen sein. Falls Benutzern diese Rolle nicht zugewiesen ist, können sie keine Reaktionsgruppen verwalten.
+     > Alle Benutzer, die als Manager Mitglied einer reaktionsgruppe festgelegt wurde, müssen die Rolle CsResponseGroupManager zugewiesen werden. Falls Benutzern diese Rolle nicht zugewiesen ist, können sie keine Reaktionsgruppen verwalten.
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -651,7 +651,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 
 [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
-[Neue CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 
 [Mit New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
 

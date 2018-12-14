@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33791cc16a7d2a45e16a41e4dfefe0efff8534b1
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699662"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264910"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
 
-Verwenden Sie Wenn Sie ein kleines Unternehmen sind oder Einführung Teams beginnend mit Chat, Teams & Kanäle und Besprechungen begonnen werden soll, unsere zielgerichtete Schnellstart Anleitung zum Abrufen und fast vorgesehen ist. Wenn Sie eine große Organisation mit einer hybriden sind lokale Skype für Business Konfiguration oder wenn Sie VoIP-Funktionen Rollout möchten (wie etwa Office 365-Pläne oder Telefonsystem aufrufen), können Sie mit unserem Schnellstart-Handbuch starten, aber Sie benötigen die zusätzlichen Anleitung unten unter **tiefer Annahme Anweisungen**.
+Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit Chat begonnen werden soll, Teams & Kanäle und Besprechungen, unsere zielgerichtete verwenden [Abrufen Schritte Anleitungen](get-started-with-teams-landing-page.md), dem Sie schnell erhalten soll. Wenn Sie eine große Organisation mit einer hybriden sind oder lokalen Skype für die Business-Konfiguration, oder wenn Sie VoIP-Funktionen (wie Office 365-Pläne oder Telefonsystem aufrufen) bereitstellen möchten, können Sie mit beginnen unsere Get gestartet, Anleitungen, aber Sie benötigen die zusätzlichen Anleitung unten unter **tiefer Annahme Anweisungen**.
 
 <ul class="panelContent cardsFTitle">
     <li>
