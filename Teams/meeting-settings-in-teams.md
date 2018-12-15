@@ -1,5 +1,5 @@
 ---
-title: Verwalten von besprechungseinstellungen in Microsoft-Teams
+title: Verwalten von Besprechungseinstellungen in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Informationen Sie zum Verwalten von Einstellungen für Teams Besprechungen, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: bf7350d94f61fcbaff60dacb161d5096b8f549e7
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26671028"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283549"
 ---
-# <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von besprechungseinstellungen in Microsoft-Teams
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
 Verwenden Sie als Administrator Teams Besprechungen Einstellungen Kontrolle, ob anonyme Benutzer teilnehmen an Besprechungen Teams, besprechungseinladungen anpassen, und wenn Sie Quality of Service (QoS) aktivieren möchten Festlegen von Ports für den Datenverkehr in Echtzeit können. Diese Einstellungen gelten für alle Besprechungen von Teams, Zeitplan für Benutzer in Ihrer Organisation. Verwalten Sie diese Einstellungen von **Besprechungen** > **besprechungseinstellungen** in der Microsoft-Teams & Skype für Business Admin Center. 
 
@@ -62,7 +62,7 @@ Sie können Teams Besprechungsanfragen erfüllen der Anforderungen Ihrer Organis
     - **Fußzeile** Geben Sie Text ein, den Sie als Footer einschließen möchten. 
 3. Warten Sie eine Stunde oder, damit die Änderungen weitergegeben. Klicken Sie dann Planen einer Besprechung Teams finden in die Einladung zur Besprechung aussieht.  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings-coming-soon"></a>Legen Sie wie in Echtzeit Mediendatenverkehr für Teams Besprechungen (bald verfügbar) behandelt werden soll. 
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Legen Sie wie Real-Time Media-Datenverkehr für Teams Besprechungen behandelt werden sollen
 Wenn Sie den Netzwerkverkehr zu priorisieren Quality of Service (QoS) verwenden, können Sie QoS-Markierung aktivieren, und Sie können Portbereiche für jede Art von Mediendatenverkehr festlegen. 
 
  ![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business Administrationscenter
