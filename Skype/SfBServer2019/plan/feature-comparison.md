@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype für Business Server 2019 oder Skype für Business Online-Administratoren kann diese Tabellen verwenden, um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.'
-ms.openlocfilehash: 9d19920e16a6b9ffbeab0d1d3597fadf8a4a48b9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
+ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371320"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27282594"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Featurevergleich für Skype für Business Server 2019 Desktopclient
 
@@ -36,7 +36,7 @@ In den folgenden Tabellen sind die Features, die mit jedem Client verfügbar sin
 
 
 > [!NOTE]
-> Die Skype für Business Web App-Browser-Client und Skype Besprechungen App Windows 10 app nur bieten [Unterstützung von Besprechungen](feature-comparison.md#BKMK_Conferencing). Finden Sie unter [Planen von Besprechungen-Clients (Web App und Besprechungen App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) Weitere Informationen zu dieser Clients.
+> Die Skype für Business Web App-Browser-Client und Skype Besprechungen App Windows 10 app nur bieten [Unterstützung von Besprechungen](feature-comparison.md#BKMK_Conferencing). Weitere Informationen zu diesen Clients finden Sie unter [Plan for Meetings clients (Web App and Meetings App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md).
 
 ## <a name="enhanced-presence-support"></a>Unterstützung für erweiterte Anwesenheitsinformationen
 <a name="BKMK_EnhancedPresence"> </a>
@@ -121,7 +121,7 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
 |Desktop freigeben (sofern aktiviert)  |& #x 2714;|& #x 2714; & #x 2776; |& #x 2714; & #x 2776; (erfordert plug-in) |& #x 2714;| & #x 2714;|
 |Programm freigeben (sofern aktiviert) |& #x 2714;|Nur Ansicht   |& #x 2714;(requires plug-in)  |& #x 2714;|& #x 2714;|   
 |Anonyme Teilnehmer hinzufügen (sofern aktiviert) |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Dial-in-Audiobesprechungen verwenden |& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |
+|Verwenden Sie Einwahl Audiokonferenzen Besprechungen & #x 2777.|& #x 2714; |& #x 2714;|& #x 2714;  |& #x 2714;|& #x 2714;  |
 |Besprechung mit „Jetzt besprechen“ initiieren|& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|  
 |Microsoft PowerPoint-Dateien hinzufügen und präsentieren |& #x 2714;| & #x 2778; Anmerkungen sind nicht verfügbar   |& #x 2714;|& #x 2714;|& #x 2714;| 
 |In Microsoft PowerPoint-Dateien navigieren |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;| 

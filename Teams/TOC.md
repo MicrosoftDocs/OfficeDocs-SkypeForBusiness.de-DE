@@ -501,6 +501,9 @@
 #### [Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants.md)
 #### [Beantworten Sie die automatische Telefonzentrale, und rufen Sie die Warteschlange Anrufe direkt von Teams](answer-auto-attendant-and-call-queue-calls.md)
 #### [Einrichten von Telefonen in öffentlichen Bereichen in Microsoft-Teams](set-up-common-area-phones.md)
+#### [Parken und fortsetzen](call-park-and-retrieve.md)
+#### [Anruf-Dateifreigabe und Gruppe Anruf entgegennehmen](call-sharing-and-group-call-pickup.md)
+#### [Darstellung einer freigegebenen Linie](shared-line-appearance.md)
 ### Telefon System direkten Routing
 #### [Planen von direktem Routing](direct-routing-plan.md)
 #### [Konfigurieren von direktem Routing](direct-routing-configure.md)
