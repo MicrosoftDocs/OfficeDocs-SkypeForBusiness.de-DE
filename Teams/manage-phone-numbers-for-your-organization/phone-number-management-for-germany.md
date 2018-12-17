@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Deutschland für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: 56ad2fabe59f02cf29601363d60f7477cd7b4643
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9bebb35762985245aa90f4feeed707ca38ca1464
+ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013225"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27292933"
 ---
 # <a name="phone-number-management-for-germany"></a>Telefonnummernverwaltung für Deutschland
 
@@ -39,8 +39,8 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie Telefonnummern für den neuen Benutzer, die nicht aufgelistet werden in der Skype für Business Administrationscenter.  <br/> | In Deutschland können Sie Telefonnummern für Ihre Organisation nicht über das Skype for Business Admin Center beziehen. Sie müssen eine Anforderung für neue Telefonnummern senden. Laden Sie zunächst das Formular zur <br/> [Anforderung neuer Telefonnummern für Deutschland (ortsgebundene Nummern) (v.3.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf?raw=true) herunter. <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
-|Rufen Sie Telefonnummern für den neuen Dienst, die nicht aufgelistet werden in der Skype für Business Administrationscenter. <br/> |Laden Sie dieses Formular [neue Nummer Telefon-Anforderung für Deutschland (Service Zahlen) (v.1.2) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/new-phone-number-request-for-germany-(service-numbers)-(v.1.2)-(de-de).pdf?raw=true).<br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).
+|Rufen Sie Telefonnummern für den neuen Benutzer, die nicht aufgelistet werden in der Skype für Business Administrationscenter.  <br/> | In Deutschland können Sie Telefonnummern für Ihre Organisation nicht über das Skype for Business Admin Center beziehen. Sie müssen eine Anforderung für neue Telefonnummern senden. Laden Sie zuerst dieses Formulars. <br/> [Anforderung neuer Telefonnummern für Deutschland (ortsgebundene Nummern) (v.3.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf?raw=true) <br/> [Neue Nummer Telefon-Anforderung für Deutschland (geografische Zahlen) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>Füllen Sie es aus, und [Senden sie uns](mailto:ptneu@microsoft.com)  <br/> |
+|Rufen Sie Telefonnummern für den neuen Dienst, die nicht aufgelistet werden in der Skype für Business Administrationscenter. <br/> |Laden Sie dieses Formular [neue Nummer Telefon-Anforderung für Deutschland (Service Zahlen) (v.1.2) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/new-phone-number-request-for-germany-(service-numbers)-(v.1.2)-(de-de).pdf?raw=true)<br/> [Neue Nummer Telefon-Anforderung für Deutschland (Service Zahlen) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).
 |Sie möchten Telefonnummern zu uns übertragen.  <br/> | Laden eines Formulars. <br/> Für Benutzer Zahlen: <br/> [Schriftliche Vollmacht für Deutschland (ortsgebundene Nummern) (v.1.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> Für gebührenfreie Nummern: <br/> [Buchstaben des Autorisierung (Geladene) für Deutschland (gebührenfreie Nummern) (v.2.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Servicenummer ändern.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
