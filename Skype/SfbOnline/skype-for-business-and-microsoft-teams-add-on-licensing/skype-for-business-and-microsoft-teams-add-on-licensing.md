@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen zu den Add-on-Lizenzen, was Sie features erhalten mit, wie sie für Ihr Produkt kaufen und wie Sie mit Ihren vorhandenen Netzbetreiber mit ihnen. Erhalten Sie Informationen über Preise und Plan Details für Office 365 Kommunikation haben, und plant aufrufen. '
-ms.openlocfilehash: 778f2b829c09442f105576a2407c51e1d9799ae2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 17115e5456ee874cbdb4ed96c8616d6f1d3527b7
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883995"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297675"
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Add-On-Lizenzierung für Skype for Business und Microsoft Teams
 
@@ -59,7 +59,7 @@ Je nachdem, welchen Plan Sie bereits haben, können Sie Add-On-Lizenzen für die
 |**Funktion** <br/> |**Beschreibung** <br/> |
 |**Audiokonferenz** <br/> |In einigen Fällen müssen Personen in Ihrer Organisation ein Telefon verwenden, um einen Skype für Business oder Microsoft-Teams Besprechung, anstatt ihre Computer anrufen. Verwenden Sie das Feature Audiokonferenzen in dieser Situation.  <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) . <br/> Wenn Sie wissen möchten, was das kostet, lesen Sie [Anforderungen für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Gebührenfreie Nummern zur Einwahl in Konferenzen und die Möglichkeit, aus einer Konferenz heraus weltweite Anrufe zu tätigen, um so andere Personen hinzuzufügen** <br/> |Wenn Sie Audiokonferenzen hinzugefügt haben, sollten Sie [Guthaben für Kommunikationen einrichten](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
-|**Telefonsystem** <br/> |Eine PBX ist eine Unternehmenstelefonanlage. Beim Telefonsystem in Office 365 handelt es sich um einen gehosteten Telefondienst in Office 365. Das Telefonsystem bietet Ihnen herkömmliche und innovative PBX-Funktionen ohne die komplizierte und teure Ausrüstung. [Hier ist das Ergebnis in das Telefonsystem in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Wenn Sie sich fragen, was das kostet, lesen Sie [Anforderungen für Telefonsystem](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
+|**Telefonsystem** <br/> |Eine PBX ist eine Unternehmenstelefonanlage. Telefonsystem in Office 365 ist ein gehosteter Telefondienst. Das Telefonsystem bietet Ihnen herkömmliche und innovative PBX-Funktionen ohne die komplizierte und teure Ausrüstung. [Hier ist das Ergebnis in das Telefonsystem in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Wenn Sie sich fragen, was das kostet, lesen Sie [Anforderungen für Telefonsystem](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Anrufpläne** <br/> |Anrufe an andere Skype für Unternehmensbenutzer sind kostenlos, aber sollen die Benutzer werden sollen, rufen Sie alle Rufnummern außerhalb Ihres Unternehmens erhalten eine [Aufrufen planen](/MicrosoftTeams/calling-plans-for-office-365). Es gibt nationale Anrufpläne und nationale und international Anrufpläne bei Office 365.  <br/> Wenn Sie sich fragen, was das kostet, lesen Sie [Anforderungen für Anrufpläne](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
 |**Skype Room System, Version 2** <br/> |Dies ist keine Add-On, sondern eine Funktion, die Video, Audio und Inhaltsfreigabe für Konferenzräume bereitstellt. Finden Sie unter [Skype Raum Systemen v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 

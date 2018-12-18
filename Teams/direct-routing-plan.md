@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131310"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297881"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -147,7 +147,8 @@ Das Zertifikat muss von einem der folgenden Stammzertifizierungsstellen generier
 - Öffentliche primären Zertifizierungsstelle Klasse 3
 - Comodo Secure Stammzertifizierungsstelle
 - Deutsche Telekom 
-- Globale Stammzertifizierungsstelle DigiCert 
+- Globale Stammzertifizierungsstelle DigiCert
+- DigiCert besonders Assurance EV Stammzertifizierungsstelle
 - Entrust
 - Informationen
 - Wechseln Sie Daddy

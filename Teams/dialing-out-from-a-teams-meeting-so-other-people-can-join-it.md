@@ -21,39 +21,44 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, was Sie benötigen und wie Besprechungsorganisatoren mithilfe von Microsoft Teams andere Personen anrufen können.
-ms.openlocfilehash: 7fe3cbdca38c04b498806d3bd05a4f7bef5ea290
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012737"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297791"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können
 
-Als Organisator der Besprechung können Sie sich einwählen, bei Verwendung der app Teams an um andere Personen, die die gleiche über das Telefon Besprechung teilnehmen zu lassen. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
+Als Organisator der Besprechung können Sie sich einwählen, bei Verwendung der app Teams an um andere Personen der Telefone mit demselben Besprechung teilnehmen zu lassen.
+
+Wenn Sie eine Person anwählen, wird empfohlen, ihre vollständige Telefonnummern (einschließlich den Länder-/Regionscode) verwenden möchten.
   
-- Sie können nur dann einen Anruf aus einer Besprechung heraus tätigen, wenn Sie über Microsoft Teams an einer Besprechung teilnehmen.
-    
-- Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
+  Beachten Sie Folgendes:
+
+- Sie können anwählen nur, wenn Sie an einer Besprechung mit Teams teilnehmen.
+- Sie wurden als Organisator der Besprechung für Audiokonferenzen aktiviert.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
- **Schritt 1:** Verwenden Sie in der Besprechung die Option **Personen hinzufügen** ![Schaltfläche „Personen hinzufügen“](media/add-people-button.png), um eine Telefonnummer anzurufen.
+Gewusst wie: Dial beginnen ist hier:
+
+ **Schritt 1:** Verwenden Sie das **Hinzufügen von Personen** in der Besprechung ![Personen-Schaltfläche hinzufügen](media/add-people-button.png) Option anwählen eine Telefonnummer ein.
+ **Schritt 2:** Geben Sie die vollständige Telefonnummer, einschließlich Länder-/Regionscode im Feld **Einladen einer Person oder eine Nummer** ein.
   
-  
- **Schritt 2:** Geben Sie die vollständige Telefonnummer einschließlich Landes- und Ortsvorwahl in das Feld **Jemanden einladen oder eine Nummer wählen** ein.
-  
-![Feld „Jemanden einladen oder eine Nummer wählen“](media/invite-someone-box.png)
-  
+![Laden Sie einer Person ein, oder wählen Sie einen Feld Rufnummer](media/invite-someone-box.png)
+    
 ## <a name="supported-countries-and-regions"></a>Unterstützte Länder und Regionen
 
 Dial-out is only available to some countries/regions. Vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-  
+
+## <a name="allow-users-to-dial-in"></a>Zulassen, dass Benutzer sich einwählen
+
+Wenn Sie Anweisungen wie können die Benutzer in einer Besprechung Teams einwählen suchen, finden Sie unter [Telefonnummern für Audiokonferenzen in Microsoft-Teams](/Teams/phone-numbers-for-audio-conferencing-in-teams.md).
+
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie mehr über Audiokonferenzen erfahren?
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder Erwerben von Audiokonferenzen in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
 [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-

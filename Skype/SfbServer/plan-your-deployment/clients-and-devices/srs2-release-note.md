@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182480"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297888"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -26,6 +26,7 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 | Version | Veröffentlicht <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.64.0 | 12/14/2018   |
 | 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
@@ -49,6 +50,11 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype-Chatroom-Systemen v2 Feature Einführung und Behebung
+
+### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
+In diesem Update eingeführt:
+- Anzeigen von Inhalten auf beide Front-der Raum (zeigt auf zwei Bildschirm Raum Systemen für)
+- Designs und Front-Raum Verbesserungen der Benutzeroberfläche
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 In diesem Update eingeführt:

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server bereitstellen.'
-ms.openlocfilehash: 2813b12dfda612374f1e10d4082d54ce46d88216
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699423"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297699"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistiken Manager für Skype für Business Server
  
@@ -302,8 +302,4 @@ Weitere Informationen finden Sie unter den folgenden Themen:
     
 - [Aktualisieren von Statistiken Manager für Skype für Business Server](upgrade.md)
     
-- [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md)
-    
-- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/skypestatsman/)
-    
-
+- [Problembehandlung von Statistiken Manager für Skype für Business Server](troubleshoot.md) ß

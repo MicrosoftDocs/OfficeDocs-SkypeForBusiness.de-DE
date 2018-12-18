@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype für Business Server 2019 oder Skype für Business Online-Administratoren kann diese Tabellen verwenden, um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.'
-ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
-ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
+ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27282594"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297692"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Featurevergleich für Skype für Business Server 2019 Desktopclient
 
@@ -135,7 +135,7 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
 |Besprechungschat deaktivieren |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Teilnehmer stummschalten |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Alle zu Teilnehmern machen |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|Skype Meeting Broadcast erstellen |& #x 2714;|||||
+|Skype Meeting Broadcast erstellen |& #x 2714; & #x 2779;|||& #x 2714; & #x 2780;||
 |Planen von Besprechungen im Namen des Delegierenden durch die Stellvertretung |& #x 2714;|& #x 2714;|& #x 2714;|||
 |Stellvertretungen zwischen Skype for Business und Outlook synchronisieren |& #x 2714;||& #x 2714;||| 
 |Videospotlight festlegen (Video sperren) |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;| 
@@ -146,6 +146,10 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
  & #x 2777;  Für Skype für Business Online benötigt dieses Feature die PSTN-Konferenz von Microsoft Exchange Unified Messaging oder einen Drittanbieter-Audiokonferenzen.
 
  & #x 2778;  Lync für Mac 2011-Client kann nicht Microsoft Office 2013 PowerPoint-Präsentationen anzeigen, wenn sie an einer Konferenz mithilfe der Skype für Business Web App freigegeben wurden.
+
+& #x 2779;  Für Skype für Business 2016 apps, Sie müssen werden mithilfe von Klick-und-los, Build 16.0.4227 oder höher.
+
+& #x 2780;  Für Skype für Business 2015 apps, benötigen Sie das Update September 15.0.4747 erstellen oder höher.
 
 ## <a name="voice-telephony-support"></a>Unterstützung für VoIP (Telefonie)
 <a name="BKMK_Telephony"> </a>

@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: b56816d57b628c92e4c7f412b306ca1161021a66
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240933"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297911"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -82,8 +82,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. Es wird dringend empfohlen festlegen einen Grenzwert für den SBC mit Informationen, die in der Dokumentation SBC gefunden werden kann. Der Grenzwert wird eine Benachrichtigung auslösen, wenn SBC Ebene der Kapazität wird.
   > 2. Sie können nur den SBC mit FQDN, bei denen der Domänenteil des Namens eine der in Ihrem Mandanten entspricht, außer registrierte Domänen Kopplung \*. onmicrosoft.com. Mithilfe von \*. omicrosoft.com Domänennamen wird für die SBC-FQDN-Namen nicht unterstützt. Angenommen, Sie haben zwei Domänennamen:<br/><br/>
-  > wobei **ABC**".xyz"<br/>**ABC**. onmicrosoft.com<br/><br/>
-  > Für den Namen SBC können Sie den Namen sbc.abc.xyz. Wenn Sie versuchen, den SBC mit einem Namen sbc.xyz.abc Kopplung, wird das System können Sie nicht, wie die Domäne nicht diesen Mandanten gehört.
+  > **Contoso**.com<br/>**"Contoso"**. onmicrosoft.com<br/><br/>
+  > Für den Namen SBC können Sie den Namen sbc.contoso.com. Wenn Sie versuchen, den SBC mit einem Namen sbc.contoso.abc Kopplung, wird das System können Sie nicht, wie die Domäne nicht diesen Mandanten gehört.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
@@ -180,7 +180,7 @@ Lizenzen erforderlich:
 Optional Lizenzen: 
 
 - Plan aufrufen 
-- Audiokonferenz 
+- Audiokonferenzen 
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Stellen Sie sicher, dass der Benutzer in Skype für Business Online verwaltet wird 
 
@@ -310,7 +310,7 @@ Im folgenden Beispiel sehen Sie das Ergebnis der Ausführung der PowerShell-Befe
 Wenn Sie um die Route "" Redmond "1" zu erstellen, geben Sie Folgendes ein:
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -336,7 +336,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 Um die anderen + 1-Route zu erstellen, geben Sie Folgendes ein:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -377,7 +377,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\\+1(\d{10})$
+NumberPattern       : ^\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -444,9 +444,9 @@ In der folgenden Tabelle werden die routing Richtlinie "No Einschränkungen" Usa
 
 |**PSTN-Verwendung**|**VoIP-route**|**Nummernmuster**|**Priorität**|**SBC**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|UNS nur|"" Redmond "1"|^ + 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Aktive Route für angerufenen Zahlen +1 425 XXX XX XX oder +1 206 XXX XX XX|
-|UNS nur|"" Redmond "2"|^ + 1 (425\|206)(\d{7})$|2|SBC3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Backup Route für angerufenen Zahlen +1 425 XXX XX XX oder +1 206 XXX XX XX|
-|UNS nur|"Andere + 1"|^ + 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Route für angerufenen Zahlen + 1 XXX XXX XX XX (mit Ausnahme von +1 425 XXX XX XX oder +1 206 XXX XX XX)|
+|UNS nur|"" Redmond "1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Aktive Route für angerufenen Zahlen +1 425 XXX XX XX oder +1 206 XXX XX XX|
+|UNS nur|"" Redmond "2"|^\\+ 1 (425\|206)(\d{7})$|2|SBC3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Backup Route für angerufenen Zahlen +1 425 XXX XX XX oder +1 206 XXX XX XX|
+|UNS nur|"Andere + 1"|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Route für angerufenen Zahlen + 1 XXX XXX XX XX (mit Ausnahme von +1 425 XXX XX XX oder +1 206 XXX XX XX)|
 |International|International|\d+|4|sbc2<span></span>. contoso.biz<br/>sbc5<span></span>. contoso.biz|Route für alle Nummernmuster |
 
 

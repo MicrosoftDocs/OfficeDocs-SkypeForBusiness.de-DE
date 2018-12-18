@@ -96,7 +96,7 @@
 
 
 <!-- ============================================================ -->
-# [Aktualisieren von Skype für Unternehmen auf Teams](Journey-SkypeforBusiness-Teams.md)
+# [Upgrade von Skype for Business auf Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Reise von Skype for Business zu Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Grundlegende aktualisieren](upgrade-basic.md)
 ### [Beispiel-e-Mails und Umfragen](upgrade-emails-surveys.md)
@@ -512,6 +512,8 @@
 #### [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 #### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
+#### Technische Referenz für das direkte Routing
+##### [Trunk Failover auf ausgehende Anrufe](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft-Teams, Online aufrufen fließt](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

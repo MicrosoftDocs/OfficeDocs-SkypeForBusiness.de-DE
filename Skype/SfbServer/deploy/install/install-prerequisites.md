@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Zusammenfassung: Informationen Sie zu den Servern und Serverrollen, die Sie vor der Installation von Skype für Business Server konfigurieren müssen. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 891c463be102db2afce1ea831d7856811327ecda
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 11a4d4240415dc11ce42ceb8f9643b52c91c9e2c
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888679"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297634"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Installieren der erforderlichen Komponenten für Skype für Business Server
  
@@ -31,7 +31,7 @@ Die Installation der erforderlichen Softwarekomponenten besteht in der Einrichtu
   
 ## <a name="setup-windows-server"></a>Einrichten von Windows Server
 
-Skype für Business Server erfordert das Betriebssystem Windows Server und eine Anzahl von erforderlichen Komponenten, bevor es installiert werden kann. Weitere Informationen zur Planung der erforderlichen Komponenten finden Sie unter [Server-Anforderungen für Skype für Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+Skype für Business Server erfordert das Betriebssystem Windows Server und eine Anzahl von erforderlichen Komponenten, bevor es installiert werden kann. Weitere Informationen zur Planung der erforderlichen Komponenten finden Sie unter [Server-Anforderungen für Skype für Business Server](../../../SfBServer2019/plan/system-requirements.md). 
   
 > [!TIP]
 > Das nachfolgende Verfahren basiert auf Windows Server 2012 R2. Wenn Sie eine andere Windows Server-Version verwenden, kann die Vorgehensweise leicht abweichen. 
@@ -49,7 +49,7 @@ Schauen Sie sich das Video mit den Schritten zum **Imstallieren der erforderlich
 
 Sie können der erforderlichen Rollen und Funktionen, die mit dem Server-Manager installieren. 
     
-1. Installieren Sie die erforderliche Software Features, die in [Server-Anforderungen für Skype für Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)aufgelistet. Die erforderliche Software muss auf dem Server, auf denen Skype für Business Server ausgeführt wird.
+1. Installieren Sie die erforderliche Software Features, die in [Server-Anforderungen für Skype für Business Server](../../../SfBServer2019/plan/system-requirements.md)aufgelistet. Die erforderliche Software muss auf dem Server, auf denen Skype für Business Server ausgeführt wird.
     
     > [!CAUTION]
     > Windows Server 2012 R2 installiert nicht standardmäßig alle Quelldateien der erforderlichen Funktionen. Wenn der Server nicht mit dem Internet verbunden ist, müssen Sie das Windows Server 2012 R2-Installationsmedium einlegen und **Alternativen Quellpfad angeben** auswählen, um die erforderlichen Funktionen zu installieren. Die Quelldateien befinden sich im Verzeichnis „sources\sxs“. Wenn das Windows Server 2012 R2-Medium beispielsweise in Laufwerk D eingelegt wurde, würde der Pfad `d:\sources\sxs` lauten. Es ist wichtig, dass Sie die neuesten Updates von Windows Update verfügen. Wenn Sie nicht mit dem Internet verbunden sind, müssen Sie alle relevanten Updates sowie alle erforderlichen Komponenten über die erforderlichen Updates manuell zu installieren. 
@@ -58,10 +58,10 @@ Sie können der erforderlichen Rollen und Funktionen, die mit dem Server-Manager
     
 1. Führen Sie **Windows Update** erneut aus, um zu prüfen, ob es ein Update für die installierten Rollen und Dienste gibt.
     
-1. Wenn Sie Skype Business Server-Systemsteuerung auf diesem Server verwenden müssen Sie auch Silverlight installieren. Zum Installieren von Silverlight finden Sie unter [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
+1. Wenn Sie Skype Business Server-Systemsteuerung auf diesem Server verwenden müssen Sie auch Silverlight installieren. Informationen zur Installation von Silverlight finden Sie unter [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
 
 
 > [!IMPORTANT]
-> Für Server, die eine andere Funktion als die eines Front-End-Servers haben, z. B. Director, Persistent Chat oder Edge, sind eigene Softwarekomponenten erforderlich. Ausführliche Informationen zum die genauen erforderlichen Komponenten erforderlich, die für jeden Servertyp finden Sie unter [Anforderungen für Skype für Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+> Für Server, die eine andere Funktion als die eines Front-End-Servers haben, z. B. Director, Persistent Chat oder Edge, sind eigene Softwarekomponenten erforderlich. Ausführliche Informationen zum die genauen erforderlichen Komponenten erforderlich, die für jeden Servertyp finden Sie unter [Anforderungen für Skype für Business Server](../../../SfBServer2019/plan/system-requirements.md). 
   
 

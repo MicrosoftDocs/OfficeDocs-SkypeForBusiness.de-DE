@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server zu aktualisieren.'
-ms.openlocfilehash: f783534c52b59b5910dbd975c4e29642e18b67b7
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e2118377fc782af6818d070bc0bd3f5ddacab99e
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531476"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297895"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistiken Manager für Skype für Business Server
  
@@ -111,7 +111,3 @@ Weitere Informationen finden Sie unter den folgenden Themen:
 - [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md)
     
 - [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md)
-    
-- [Skype for Business Server Statistics Manager-Blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
-    
-
