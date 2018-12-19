@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201477"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371179"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -51,7 +51,7 @@ Standardmäßig können Benutzer Teams zusammen mit Skype für Unternehmen als z
 In diesem Koexistenzmodus **Inseln**aufgerufen, wird jeweils der Clientanwendungen als einen separaten Bereich ausgeführt. Skype für Business kommuniziert mit Skype für Unternehmen und Teams kommuniziert mit Teams. Benutzer führen Sie beide Clients und auf dem Client, von dem die Kommunikation initiiert wurde, systemintern kommunizieren können. Daher besteht keine Notwendigkeit für die Interoperabilität im **Inseln** Modus.
 
 > [!Tip]
-> Skype für Business Online-Kunden empfohlenen Pfad besteht darin, beginnen Sie mit den Standardmodus **Inseln** , Laufwerk Annahme Sättigung in der Organisation, und wechseln dann schnell zu **Teams** nur Kopfzeilen herunterladen. Auf lokale und hybride werden Kunden aus den kommenden **Skype für Unternehmen mit Zusammenarbeit für Teams** Modus als Ausgangspunkt statt Inseln und Bearbeitung von dort **Nur Teams** Modus bereitstellen, sobald die Organisation einführen kann profitieren. Teams. 
+> Skype für Business Online-Kunden empfohlenen Pfad besteht darin, beginnen Sie mit den Standardmodus **Inseln** , Laufwerk Annahme Sättigung in der Organisation, und wechseln dann schnell zu **Teams** nur Kopfzeilen herunterladen. Auf lokale und hybride können Kunden von den kommenden **Skype für Unternehmen mit Zusammenarbeit für Teams** Modus als Ausgangspunkt statt Inseln und Bearbeitung von dort **Nur Teams** Modus bereitstellen, sobald die Organisation einführen kann profitieren. Teams. 
 
 ### <a name="skype-for-business-only"></a>Skype für Unternehmen nur
 
