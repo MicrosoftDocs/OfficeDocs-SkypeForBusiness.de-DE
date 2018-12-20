@@ -24,6 +24,7 @@
 ## [Planen der Lebenszyklusverwaltung in Microsoft Teams](plan-teams-lifecycle.md)
 ## [Planen der Steuerung in Teams](plan-teams-governance.md)
 ## [Planen von Microsoft 365 Government - GCC-Bereitstellungen](plan-for-government-gcc.md)
+## [Planen von Microsoft 365 Government - GCC hohe Bereitstellungen](plan-for-government-gcc-high.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
