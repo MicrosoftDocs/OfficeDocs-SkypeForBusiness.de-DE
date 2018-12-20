@@ -3,7 +3,7 @@ title: Planen von Microsoft 365 Government - Bereitstellungen GCC - Microsoft-Te
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 12/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,19 +14,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9571a52d99e9993161b6de99a190bc9b675f78
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 978f9d6b298bb1376b236a883dad836d6e6b5860
+ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240910"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27378577"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 
 Diese Anleitung ist für IT-Spezialisten, die Bereitstellungen von Office 365 in US-Federal, Bundesland, lokalen, tribal oder räumlicher Regierungsbehörden oder anderen Entitäten, die Daten zu behandeln, die behördlichen Vorschriften und Anforderungen, fällt gesteuert werden, in dem die Verwendung von Microsoft 365 Government - eignet sich GCC Sie diese Anforderungen erfüllen.
 
 > [!NOTE]
-> Wenn Ihre Organisation bereits Microsoft 365 Government - GCC Berechtigung Anforderungen erfüllt und zum angewendet und in das Programm angenommen wurden, können Sie die Schritte 1 bis 4 überspringen und direkt mit Schritt 5, um mit der Bereitstellung beginnen. 
+> Wenn Ihre Organisation bereits Microsoft 365 Government - GCC Berechtigung Anforderungen erfüllt und zum angewendet und in das Programm angenommen wurden, können Sie die Schritte 1 und 2 überspringen und direkt mit Schritt 3 fort. 
 
 ## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Schritt 1. Bestimmen Sie, ob Ihre Organisation Microsoft 365 Government - GCC benötigt und Berechtigung Anforderungen erfüllt. 
 
@@ -46,16 +46,27 @@ Die [Beschreibung der Dienste von Office 365 US-Regierung](https://technet.micro
 > [!Tip]
 > Möglicherweise möchten Sie übertragen von Informationen in der Beschreibung in den Tabellen in einer Excel-Arbeitsmappe, und fügen Sie zwei Spalten: **Relevant für meine Organisation Y/N** und **erfüllt die Anforderungen der Organisation Y/N**. Anschließend können Sie diese Liste mit Ihren Kollegen zu bestätigen, dass dieser Dienst Anforderungen Ihrer Organisation erfüllt überprüfen.
 
-
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Microsoft 365 Government - GCC für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation Berechtigung Anforderungen erfüllt.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verstehen der Funktionen von Microsoft 365 Government - GCC.</li></ul>|
 
 > [!Note]
 > Microsoft 365 Government - GCC ist nur in den USA verfügbar. Eine Reihe von [Behörden für Office 365-Pläne](https://products.office.com/en/government/compare-office-365-government-plans)können nicht – US-Regierung Kunden auswählen.
 
-## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Schritt 2. Verstehen Sie, welche Funktionen derzeit nicht verfügbar oder standardmäßig deaktiviert sind. 
+
+## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Schritt 2. Für Microsoft 365 Government - GCC anwenden
+
+Entschlossen, dass dieser Dienst für Ihr Unternehmen geeignet ist, starten Sie den Vorgang [für diesen Dienst hier](https://products.office.com/government/eligibility-validation)anwenden.
+
+## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Schritt 3. Grundlegendes zu Microsoft 365 Government - GCC standardsicherheitseinstellungen.
+
+Es wird empfohlen, dass Sie Ihre [Einstellungen Verwaltungs- und Sicherheitsfunktionen](enable-features-office-365.md) sorgfältig überprüfen, bevor Sie sie ändern, und Auswirkungen auf die Einhaltung von Bestimmungen berücksichtigen, bevor Sie Änderungen vorgenommen werden und den Standardeinstellungen für die Sicherheit können Zeit in Anspruch nehmen.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die Standardeinstellung Microsoft 365 Government - GCC Security Settings, ändern müssen Sie zunächst kennen die Auswirkungen der Änderungen auflösen Sie vornehmen, möglicherweise.</li></ul> |
+
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Schritt 4. Verstehen Sie, welche Funktionen derzeit nicht verfügbar oder standardmäßig deaktiviert sind. 
 
 Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige Unterschiede zwischen Microsoft 365 Government - GCC und Enterprise-Pläne. Finden Sie in der folgenden Tabelle sehen Sie, welche Features verfügbar sind.
 
@@ -71,7 +82,7 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige
 | | Organigramm | Verfügbar |
 | | Aktivität | Verfügbar |
 | | InterOp (1:1 Teams-Skype für Business Chat) | Klicken Sie auf der Regierung Bestand |
-| Microsoft Teams | Kanalnachricht | Verfügbar |
+| Teams | Kanalnachricht | Verfügbar |
 | | Channel-Dateien | Verfügbar |
 | | Registerkarte ' OneNote ' | Klicken Sie auf der Regierung Bestand |
 | | E-Mail von einem DDE-Kanal | Nicht verfügbar |
@@ -116,7 +127,7 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige
 | | Microsoft Teams | Verfügbar |
 | Anmelden | App-Store | Klicken Sie auf der Regierung Bestand |
 | Suche | Nachrichten | Verfügbar |
-| | Personen | Verfügbar |
+| | Kontakte | Verfügbar |
 | | Dateien | Verfügbar |
 | | Schrägstrich-Befehle | Verfügbar |
 | Compliance | Compliance-Inhaltssuche | Verfügbar |
@@ -126,27 +137,17 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige
 | | eDiscovery | Verfügbar |
 
 
-
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Microsoft 365 Government - Featuregruppe GCC Anforderungen Ihrer Organisation erfüllt.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verstehen Sie Standardeinstellungen für Sicherheit.</li></ul>|
-
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Schritt 3. Grundlegendes zu Microsoft 365 Government - GCC standardsicherheitseinstellungen.
-
-Es wird empfohlen, dass Sie Ihre [Einstellungen Verwaltungs- und Sicherheitsfunktionen](enable-features-office-365.md) sorgfältig überprüfen, bevor Sie sie ändern, und Auswirkungen auf die Einhaltung von Bestimmungen berücksichtigen, bevor Sie Änderungen vorgenommen werden und den Standardeinstellungen für die Sicherheit können Zeit in Anspruch nehmen.
-
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die Standardeinstellung Microsoft 365 Government - GCC Security Settings, ändern müssen Sie zunächst kennen die Auswirkungen von Änderungen auflösen Sie vornehmen, möglicherweise.</li></ul> |
-
-## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>Schritt 4. Für Microsoft 365 Government - GCC anwenden
-
-Entschlossen, dass dieser Dienst für Ihr Unternehmen geeignet ist, starten Sie den Vorgang [für diesen Dienst hier](https://products.office.com/government/eligibility-validation)anwenden.
+| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob die Featuregruppe Teams Anforderungen Ihrer Organisation erfüllt.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Schritt 5. Planen der Steuerung
 
 Bestimmen der Anforderungen für die Unternehmensleitung und wie Sie diese erfüllen können. Weitere Informationen finden Sie in [Planen der Steuerung in Teams](plan-teams-governance.md) .
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Bestimmen und Dokumentieren der Governance-Anforderungen, befolgen die Richtlinien in [Planen der Steuerung in Teams](plan-teams-governance.md).</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen des Teams für die Zusammenarbeit
 
