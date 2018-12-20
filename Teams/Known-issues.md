@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5a6875ae8c30b81b6a063bb2ae59a0f72e9c677
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 4f649ebce7a1938961d1c9f9ef143617a863a924
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240794"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297739"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -163,7 +163,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Benutzer können nicht auf Besprechungen/Connectors zugreifen, verfügen aber über Exchange Online-Postfächer. <br/> |Ein Kunde blockiert aktiv EWS für Dienste in Exchange Online, jedoch muss Microsoft Teams mit den EWS-Richtlinien konform sein. <br/> |Um die Konformität von Microsoft Teams zu erzielen, müssen Sie die folgende Zeichenfolge des Benutzer-Agenten (einschließlich der Sternchen) für Microsoft Teams in „EWSAllowList“ hinzufügen: `*skypespaces*`. Der vollständige Befehl lautet: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> Weitere Informationen finden Sie unter https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30.05.2017  <br/>|
+|Benutzer können nicht auf Besprechungen/Connectors zugreifen, verfügen aber über Exchange Online-Postfächer. <br/> |Ein Kunde blockiert aktiv EWS für Dienste in Exchange Online, jedoch muss Microsoft Teams mit den EWS-Richtlinien konform sein. <br/> |Um die Konformität von Microsoft Teams zu erzielen, müssen Sie die folgenden Zeichenfolgen des Benutzer-Agenten (einschließlich der Sternchen) für Microsoft Teams in „EWSAllowList“ hinzufügen: `*skypespaces*` und `*microsoftninja*`. Der folgende Befehl kann verwendet werden: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> Weitere Informationen finden Sie unter https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30.05.2017  <br/>|
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
