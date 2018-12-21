@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Frankreich verfügbar.
-ms.openlocfilehash: d1956b9970a84ee9e1e66e6f745a29a0de04d354
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 4845b612b3a1316f8d7ac3da527ae118c6d6681c
+ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674786"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27382662"
 ---
 # <a name="availability-in-france"></a>Verfügbarkeit in Frankreich
 
@@ -62,7 +62,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Minuten für den Aufruf von Plänen zur Verfügung. |Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>1200 minute nationalen aufrufen planen </li></li><li>Nationalen und internationalen aufrufen planen: 1200 Minuten nationalen OR - 600 Minuten internationaler (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></li> 
-|Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Ja, vollständig zu diesem Zeitpunkt unterstützt. <br/> |
+|Können ausgehende französischen Nummern anrufen? <br/> | Ja, vollständig unterstützt, wenn Communications haben pro Minute Zahlen verwenden. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
