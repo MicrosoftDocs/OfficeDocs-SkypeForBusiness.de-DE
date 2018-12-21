@@ -488,6 +488,9 @@
 #### [Was sind Wählpläne?](what-are-dial-plans.md)
 #### [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
 ### Telefonsystem
+#### Telefone für Teams
+##### [Telefone für Microsoft-Teams](phones-for-teams.md)
+##### [Kaufen und Bereitstellen von Microsoft-Teams IP-Telefonen](buying-and-deploying-teams-ip-phones.md)
 #### [Was ist Telefonsystem in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Einrichten des Telefonsystems in Ihrer Organisation](setting-up-your-phone-system.md)
 #### [Ändern der Standardsprache für Voicemail-Ansagen und E-Mails](change-the-default-language-for-greetings-and-emails.md)
