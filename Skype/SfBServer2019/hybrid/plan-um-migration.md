@@ -7,12 +7,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: In diesem Thema wird behandelt, was Sie berücksichtigen müssen, wenn Sie Ihre vorhandenen Skype für Business Server oder Exchange Server-Bereitstellungen auf die neueste Version oder Skype für Business Online oder Exchange Online migrieren möchten.
-ms.openlocfilehash: 64d489a944e7b56315e4b600893b46f5c1cc3355
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3078b7a1e877422eb66040c3fa3a8b0e4fbdae
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699288"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382840"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planen von Skype für Business Server und Exchange Server-migration
 
@@ -51,7 +51,7 @@ Wir unterstützen die folgenden Szenarien, die Sie migrieren von Benutzern zu Ex
 - Exchange 2013/Exchange 2016 und Skype für Business Server 2015 zu Exchange 2019 und Skype für Business Server 2019
 - Skype für Business Server 2015 Skype für Business Server 2019 mit Exchange 2013/Exchange 2016
 
-Die folgenden Szenarien erfordern, dass keine Nebenstellenanlage oder der SBC-Konfigurationen als Teil der aktuellen Bereitstellung vorhanden und wird davon ausgegangen, dass Sie UM auf den lokalen Exchange-Servern konfiguriert haben. Jede dieser Lösung wird davon ausgegangen, dass Sie sich entschieden haben, konfigurieren Sie eine hybridbereitstellung zwischen Ihrer lokalen Skype für Business Server und Office 365. Weitere Informationen zu Skype für hybridbereitstellungen Business finden Sie unter [Skype für Business hybridlösungen](hybrid-solutions.md).
+Die folgenden Szenarien erfordern, dass keine Nebenstellenanlage oder der SBC-Konfigurationen als Teil der aktuellen Bereitstellung vorhanden und wird davon ausgegangen, dass Sie UM auf den lokalen Exchange-Servern konfiguriert haben. Jede dieser Lösung wird davon ausgegangen, dass Sie sich entschieden haben, konfigurieren Sie eine hybridbereitstellung zwischen Ihrer lokalen Skype für Business Server und Office 365. Weitere Informationen zu Skype für Business hybridbereitstellungen finden Sie unter [Planen von hybridkonnektivität](plan-hybrid-connectivity.md).
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 und Skype für Business 2015 zu Exchange 2019 und Skype für Business 2019
 

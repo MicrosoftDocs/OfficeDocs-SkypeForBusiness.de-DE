@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype für Business Server verwendet TLS und MTLS zum Verschlüsseln von Sofortnachrichten. Für den gesamten Server-zu-Server-Datenverkehr ist MTLS erforderlich, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk begrenzt ist oder die Netzwerkgrenze überschreitet. Wenn ist das Verbinden von Skype für Business Server mit 3. Partei IPPBX Systemen oder SIP-Trunks TLS optional, wird jedoch dringend empfohlen, zwischen dem Vermittlungsserver und dem Mediengateway. Wenn TLS auf dieser Verbindung konfiguriert ist, ist MTLS erforderlich. Aus diesem Grund muss das Gateway mit einem Zertifikat von einer Zertifizierungsstelle konfiguriert werden, die der Vermittlungsserver vertrauenswürdig ist.
-ms.openlocfilehash: ff2aa0a3d0727aa5ed579413fe03593568f9f773
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: d6793af3329918af6d566199f8d9fd752df49a71
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240895"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382868"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Verschlüsselung für Skype für Business Server
  
@@ -45,7 +45,7 @@ In der folgenden Tabelle sind die Protokollanforderungen für jeden Datenverkehr
 Mediendatenverkehr wird über Secure RTP (SRTP) verschlüsselt, ein Profil von RTP (Real-Time Transport-Protokoll), das Vertraulichkeit, Authentifizierung und Schutz vor Replay-Angriffen für RTP-Datenverkehr bereitstellt. Darüber hinaus werden Medien, die in beide Richtungen zwischen dem Vermittlungsserver und seinem internen nächsten Hop übertragen werden, ebenfalls über SRTP verschlüsselt. Medien, die in beide Richtungen zwischen dem Vermittlungsserver und einem Mediengateway übertragen werden, werden optional verschlüsselt (empfohlen). Der Vermittlungsserver kann die Verschlüsselung an das Mediengateway unterstützen, aber das Gateway muss MTLS und das Speichern eines Zertifikats unterstützen.
   
 > [!NOTE]
-> Wenn Sie eine hybridumgebung implementieren, müssen Sie auch die Skype für Verschlüsselungsstufe Business Server ändern. Standardmäßig ist die Verschlüsselungsstufe auf „Erforderlich“ eingestellt. Sie müssen diese Einstellung Supported ändern, mit der Skype für Business Server-Verwaltungsshell. Weitere Informationen zum Einrichten von Hybriden finden Sie unter [Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) oder [Skype für hybridlösungen Business Server 2019](../../../SfBServer2019/hybrid/hybrid-solutions.md) in der Bereitstellungsdokumentation.
+> Wenn Sie eine hybridumgebung implementieren, müssen Sie auch die Skype für Verschlüsselungsstufe Business Server ändern. Standardmäßig ist die Verschlüsselungsstufe auf „Erforderlich“ eingestellt. Sie müssen diese Einstellung Supported ändern, mit der Skype für Business Server-Verwaltungsshell. Weitere Informationen zum Einrichten von Hybriden finden Sie unter [Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md).
   
 ## <a name="fips"></a>FIPS
 

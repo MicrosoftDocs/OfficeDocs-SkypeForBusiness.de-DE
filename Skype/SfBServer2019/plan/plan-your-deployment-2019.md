@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Zusammenfassung: Lernen Sie diese Links zu Informationen zum Entwickeln von konzeptionelle, logische und physische Entwürfe zum Konfigurieren von Skype für Business Server 2019 Features, Servern und Topologien.'
-ms.openlocfilehash: 83b406401d377d8ffd4b46aee3a5264273bb142b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4ddaeac0f0e06c8e11e7a98dc46755c907b2937f
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531295"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382847"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planen Ihrer Skype für Business Server 2019 Bereitstellung
  
@@ -49,8 +49,7 @@ Die folgenden Artikel zur Planung für Skype für Business Server sind online ve
 |**[Plan zur Integration von Skype for Business mit Exchange Server](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)** <br/><br/>Bereitstellen Ihre Organisation Exchange Server und Skype für Business Server? Wenn dies der Fall ist, wie Sie integrieren können, Informationen zu Features beider Produkte lesen. Angenommen, Anwesenheitsinformationen und Archivierung von Daten.   |**[Planen für Clients und Geräte](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)** <br/><br/>Skype für Business Server unterstützt eine Auflistung von Clientschnittstellen, die Sie für die Benutzer Ihrer Organisation bereitstellen können. Sorgfältige Planung wird sichergestellt, dass die Mitarbeiter erhalten, was sie benötigen und Skype für Unternehmen zur Verfügung ist dorthin, wo sie waren.   |
 |**[Planen von Edge-Server-Bereitstellungen in Skype für Business Server](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)** <br/><br/> Kommuniziert Ihrer Organisation mit Benutzern außerhalb des internen Netzwerks? Wenn dies der Fall ist, informieren Sie sich über wie Sie die Edge-Server zur Unterstützung der Kommunikation über der Firewall Ihrer Organisation bereitstellen können.   |**[Planen Sie für hohe Verfügbarkeit und Disaster Recovery in Skype für Business Server](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** <br/><br/>Hoher Verfügbarkeit bezieht sich auf und stellen Sie sicher, dass Skype für Business Server-Dienste verfügbar sind, auch wenn Sie einen oder mehrere Server ausfällt. Für die Notfallwiederherstellung müssen die Dienste auch bei Naturkatastrophen oder von Menschen verursachten Katastrophen aktiv gehalten und so viele Daten wie möglich bewahrt werden. Lesen Sie die Themen in diesem Abschnitt zum Planen von hoher Verfügbarkeit und Disaster Recovery.   |
 |**[Planen von Konferenzen in Skype for Business Server](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> Was sind die Live Meeting-Anforderungen für Ihre Organisation? In diesem Artikel erhalten Sie Informationen zu den Funktionen und Anforderungen von Web-, Audio-/Video- und Einwahlkonferenzen.   |**[Planen der Sicherheit in Skype für Business Server](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>Hier finden Sie Ressourcen zu Benutzerauthentifizierung, Server-zu-Server-Authentifizierung und Anwendungsauthentifizierung, damit Sie besser verstehen und Planen der Authentifizierung in Skype für Business Server.   |
-|**[Skype für hybridlösungen Business](../hybrid/hybrid-solutions.md)**  <br/><br/>Haben Sie Benutzer, die auf lokale Skype für Business Server und Skype für Business Online verwaltet werden? Wenn dies der Fall ist, erhalten Sie in diesem Artikel Informationen zur Einrichtung einer Hybridbereitstellung, mit der lokale und Online-Benutzer in einer einzigen Domäne synchronisiert werden.   ||
-|||
+|**[Planen von hybridkonnektivität](../hybrid/plan-hybrid-connectivity.md)**  <br/><br/>Haben Sie Benutzer, die auf lokale Skype für Business Server und Skype für Business Online verwaltet werden? Wenn dies der Fall ist, erhalten Sie in diesem Artikel Informationen zur Einrichtung einer Hybridbereitstellung, mit der lokale und Online-Benutzer in einer einzigen Domäne synchronisiert werden.   
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Zusätzliche Ressourcen zur Planung von Skype für Business Server
 
