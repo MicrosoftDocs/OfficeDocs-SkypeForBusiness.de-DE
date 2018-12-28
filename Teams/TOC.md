@@ -90,6 +90,7 @@
 ### [Verwalten der Teams kommerziellen Testversion, zu erhalten](iw-trial-teams.md)
 ### [Aktualisieren Sie kostenlose Teams auf Office 365-Abonnement-version](upgrade-freemium.md)
 ## Unterstützte Geräte
+### [Verwalten von Geräten in Teams](device-management.md)
 ### [IP-Telefone](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB-Geräte für audio und video](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting Room Geräte und Lösungen](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -490,7 +491,7 @@
 #### [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
 ### Telefonsystem
 #### Telefone für Teams
-##### [Telefone für Microsoft-Teams](phones-for-teams.md)
+##### [Telefone für Microsoft Teams](phones-for-teams.md)
 ##### [Kaufen und Bereitstellen von Microsoft-Teams IP-Telefonen](buying-and-deploying-teams-ip-phones.md)
 #### [Was ist Telefonsystem in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Einrichten des Telefonsystems in Ihrer Organisation](setting-up-your-phone-system.md)
@@ -518,7 +519,7 @@
 #### [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 #### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
 #### Technische Referenz für das direkte Routing
-##### [Trunk Failover auf ausgehende Anrufe](direct-routing-trunk-failover-on-outbound-call.md)
+##### [Trunkfailover bei ausgehenden Anrufen](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft-Teams, Online aufrufen fließt](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

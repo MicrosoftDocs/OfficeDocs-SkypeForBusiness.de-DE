@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Geräten in Microsoft-Teams
+title: Verwalten Ihrer Geräte in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,19 +12,19 @@ description: Erfahren Sie, wie mit Teams in Ihrer Organisation verwendeten Gerä
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97fd4b8d7f613c6d3f435f2d505bbd2cf99d4b10
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: dff307b1bd4ede3e8999a78a5e6a8df36b8a1411
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531777"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458550"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>Verwalten von Geräten in Microsoft-Teams
+# <a name="manage-your-devices-in-microsoft-teams"></a>Verwalten Ihrer Geräte in Microsoft Teams
 
  Als Administrator verwalten Sie alle Geräte mit Teams in Ihrer Organisation aus dem Microsoft-Teams & Skype für Business-Verwaltungskonsole verwendet. Anzeigen und Verwalten der Geräteübersicht für Ihre Organisation, und führen Aufgaben wie das Update, neu und Monitordiagnose für Geräte. Sie können auch ein Gerät oder Gerätegruppen Konfigurationsprofile zuzuweisen. 
 
 ## <a name="what-devices-can-you-manage"></a>Welche Geräte können Sie verwalten?
-Geräte müssen für Teams zertifiziert und Teams registriert werden. Ein Gerät wird automatisch beim ersten registriert, die ein Benutzer bei Teams auf dem Gerät anmeldet. 
+Geräte müssen für Teams zertifiziert und Teams registriert werden. Ein Gerät wird automatisch beim ersten registriert, die ein Benutzer bei Teams auf dem Gerät anmeldet. Eine Liste mit zertifizierten Geräte, die verwaltet werden können, finden Sie unter [Konferenz Mobiltelefone](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=ddb1bc66-7499-4823-8d2b-a2c6dbe4f716) und [herkömmliche Telefone](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=c6536b33-f554-4b55-bd3d-c98733ebc017&page=1&filters=).
 
 > [!NOTE]
 > Wenn Sie Microsoft Intune verfügen, werden automatisch Geräte Intune registriert. Nachdem ein Gerät registriert, Gerät Compliance bestätigt wurde, und bedingte Zugriffsrichtlinien auf das Gerät angewendet werden. 

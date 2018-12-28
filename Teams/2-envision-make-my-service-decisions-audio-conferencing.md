@@ -1,9 +1,9 @@
 ---
-title: Treffe Audiokonferenzen Service - Microsoft-Teams
+title: Treffen von Entscheidungen für den Audio-Konferenzdienst – Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 12/28/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597838"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458502"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -77,7 +77,7 @@ Nach Bestätigung, dass Ihre Organisation berechtigt ist auf der Grundlage den A
 > |One Epping Road|Australien|Audiokonferenzen|
 > |100 Cyberport Road|Hong Kong SAR (香港特別行政區)|Legacy-PSTN-Konferenz|
 > |One Marina Boulevard|Singapur|Audiokonferenzen|
-> |32 London Bridge Street|Großbritannien|Audiokonferenzen|
+> |32 London Bridge Street|Vereinigtes Königreich|Audiokonferenzen|
 > |39 quai du Président Roosevelt|Frankreich|Audiokonferenzen|
 
 <!--ENDOFSECTION-->
@@ -302,7 +302,7 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 
 -   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Allgemeine Fragen zum Übertragen von Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 
@@ -360,6 +360,7 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 > ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
 
 <br>
+
 > [!TIP]
 > Sie können die folgende Beispielvorlage nutzen, um Wählplanzuweisungen für Ihr Projekt zu dokumentieren:
 >
