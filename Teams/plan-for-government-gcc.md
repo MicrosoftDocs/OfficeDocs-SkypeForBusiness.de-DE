@@ -1,9 +1,9 @@
 ---
-title: Planen von Microsoft 365 Government - Bereitstellungen GCC - Microsoft-Teams
+title: Planen von Microsoft 365 Government – GCC-Bereitstellungen – Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/19/2018
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 978f9d6b298bb1376b236a883dad836d6e6b5860
-ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
+ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27378577"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544200"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 
@@ -151,7 +151,7 @@ Bestimmen der Anforderungen für die Unternehmensleitung und wie Sie diese erfü
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen des Teams für die Zusammenarbeit
 
-Nachdem Sie Onboarded an Microsoft 365 Government - GCC, wurden haben können Sie die standardmäßige Bereitstellungsmethode der Verwendung [der schnelle](https://fasttrack.microsoft.com/fasttrack-faq) und Ihr gewählten Partner mit dem Dienst integrierte folgen.
+Nachdem Sie Onboarded an Microsoft 365 Government - GCC, wurden haben können Sie die standardmäßige Bereitstellungsmethode der Verwendung [der schnelle](https://www.microsoft.com/fasttrack) und Ihr gewählten Partner mit dem Dienst integrierte folgen.
 
 Wenn Sie bereit sind, stellen Sie so [Aktivieren Sie für die Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle](teams-overview.md)Teams bereit. Achten Sie darauf, dass Sie mit der Annahme und Änderungsmanagement Team oder Teams Champions beteiligen.
 

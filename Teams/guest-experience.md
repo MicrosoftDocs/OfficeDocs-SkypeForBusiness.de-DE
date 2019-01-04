@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 51d0de81701983fb64c60c5c4e29b9e6511b6357
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674553"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544144"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -110,17 +110,24 @@ In der folgenden Tabelle zeigt die verfügbaren Features aufrufende und Besprech
   
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
   
-Q. Haben Gäste als Teammitglieder dieselben Funktionen zur Verfügung? A. Nein. Weitere Informationen zu welche Gastsystem oder nicht tun kann finden Sie auf Gast-Funktionen in Teams.
+Q. Haben Gäste als Teammitglieder dieselben Funktionen zur Verfügung?<br>
+A. Nein. Weitere Informationen zu welche Gastsystem oder nicht tun kann finden Sie auf Gast-Funktionen in Teams.
 
-Q. Wie viele Gäste können von mir eingeladene? A. Sie können bis zu 5 Gäste pro lizenzierten Benutzer hinzufügen.
+Q. Wie viele Gäste können von mir eingeladene?<br>
+A. Sie können bis zu 5 Gäste pro lizenzierten Benutzer hinzufügen.
 
-Q. Haben Gäste Zugriff auf OneDrive für Unternehmen? A. Nein.
+Q. Haben Gäste Zugriff auf OneDrive für Unternehmen?<br>
+A. Nein.
 
-Q. Führen Sie Gäste auf SharePoint-Dateien können zugreifen? A: Ja.
+Q. Führen Sie Gäste auf SharePoint-Dateien können zugreifen?<br>
+A. Ja.
 
-Q. Suchen von Gäste innerhalb von Dateien? A. Nein.
+Q. Suchen von Gäste innerhalb von Dateien?<br>
+A. Nein.
 
-Q. Werden Gäste können Dateien angefügt? A: Ja, Gastsystem kann Dateien in diesen beiden Methoden zum Anfügen: • Wählen Sie im linken Bereich Dateien aus, und navigieren Sie zum Speicherort Datei.
+Q. Werden Gäste können Dateien angefügt?<br>
+A. Ja, Gastsystem kann Dateien in diesen beiden Methoden zum Anfügen: • Wählen Sie im linken Bereich Dateien aus, und navigieren Sie zum Speicherort Datei.
 • Hochladen von ihrem Computer.
 
-Q. Kann Gastsystem eine Datei in einem privaten Chat herunterladen? A: Ja, können sie eine Datei aus einem Element in einem privaten Chat erhalten und klicken Sie dann auf ihren Desktop herunterladen.
+Q. Kann Gastsystem eine Datei in einem privaten Chat herunterladen?<br>
+A. Ja, können sie eine Datei aus einem Element in einem privaten Chat erhalten und klicken Sie dann auf ihren Desktop herunterladen.

@@ -3,7 +3,7 @@ title: Übersicht über eine Microsoft Teams-Bereitstellung
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5e00eb139e25061726dfe080c90457efd87da96
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e878fb50157e3c62c3425dfcea6d45e29a3be781
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016469"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544136"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Übersicht über eine Microsoft Teams-Bereitstellung
 ========================================
@@ -45,7 +45,7 @@ Hier finden Sie ein Beispiel dafür, wie Sie eine Team- bzw. Kanalstruktur einri
 
 |Teamname |Kanäle  |Registerkarten  |
 |---------|---------|---------|
-|Teams bereitstellen<br></br>Mitglieder:<ul><li>Projektsponsor</li><li>Business Analyst</li><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li><li>Netzwerk IT Pro</li><li>Übernahme-Lead </li><li>Support-Lead</li></ul>Besitzer: <ul><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li></ul>      |Planung und Bereitschaft<br></br> Übernahme<br></br> Rollout<br></br> Support<br></br> Einblicke<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Link zu praktischen Anleitungen für die Microsoft Teams-Webseite ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|Teams bereitstellen<br></br>Mitglieder:<ul><li>Projektsponsor</li><li>Business Analyst</li><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li><li>Netzwerk IT Pro</li><li>Übernahme-Lead </li><li>Support-Lead</li></ul>Besitzer: <ul><li>Projektmanager</li><li>Zusammenarbeit IT Pro</li></ul>      |Planung und Bereitschaft<br></br> Übernahme<br></br> Rollout<br></br> Support<br></br> Einblicke<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Verknüpfen von Ihnen praktische Leitfäden zur Webseite Microsoft-Teams ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 So würde dieses Setup in Microsoft Teams aussehen:
 
@@ -61,3 +61,11 @@ So würde dieses Setup in Microsoft Teams aussehen:
 
 
 Um diese Entscheidungspunkte nachzuverfolgen, laden Sie den Fragebogen zur technischen Planung unter [Schnellstart: erfolgreiche Aktivierung von Microsoft Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) herunter.
+
+## <a name="how-microsoft-deployed-teams"></a>Wie Microsoft Teams bereitgestellt
+
+Wie Microsoft bereitgestellt und Microsoft-Teams für die Zusammenarbeit verwendet, finden Sie unter:
+
+- [Bereitstellen von Microsoft-Teams, optimiert für die Zusammenarbeit und verbessert die Zusammenarbeit](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
+- [Microsoft-Teams, erhöht die Zusammenarbeit in der modernen Jahrestag bei Microsoft](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
+
