@@ -3,52 +3,6 @@
 
 
 
-## <a name="week-of-november-19-2018"></a>Woche vom Montag, 19. November 2018
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 19.11.2018 | [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | geändert |
-| 19.11.2018 | [Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](/MicrosoftTeams/enable-features-office-365) | geändert |
-| 19.11.2018 | [Schulung mit Dozent für Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | geändert |
-| 19.11.2018 | [Bekannte Probleme für Microsoft Teams](/MicrosoftTeams/known-issues) | geändert |
-| 19.11.2018 | [Übersicht über Microsoft Teams](/MicrosoftTeams/teams-overview) | geändert |
-| 19.11.2018 | [Aufzeichnung einer Teams-Cloudbesprechung](/MicrosoftTeams/cloud-recording) | geändert |
-| 19.11.2018 | [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | geändert |
-| 19.11.2018 | [Beziehen von Clients für Microsoft Teams](/MicrosoftTeams/get-clients) | geändert |
-| 19.11.2018 | [Onboarding von Early Adopters von Microsoft Teams](/MicrosoftTeams/get-started-with-teams-onboard-early-adopters) | geändert |
-| 19.11.2018 | [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](/MicrosoftTeams/using-admin-roles) | geändert |
-| 19.11.2018 | [Abrufen von Ressourcen zum Plan des organisationsweiten Rollouts von Microsoft Teams](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | geändert |
-| 19.11.2018 | Verwenden von PowerShell zum Verwalten von Teams | entfernt |
-| 19.11.2018 | Verwenden von Administratorrollen zum Verwalten von Microsoft Teams | entfernt |
-| 20.11.2018 | [Einführen von Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | geändert |
-| 20.11.2018 | [Prüfliste für den Schnellstart der Microsoft Teams-Einführung](/MicrosoftTeams/teams-adoption-quick-start-checklist) | geändert |
-| 20.11.2018 | [Tools und Downloads für die Einführung](/MicrosoftTeams/adopt-tools-and-downloads) | hinzugefügt |
-| 20.11.2018 | [Tools und Downloads für die Einführung](/MicrosoftTeams/adopt-tools-and-downloads) | geändert |
-| 20.11.2018 | Was sind Messaging-Richtlinien in Teams? | entfernt |
-| 20.11.2018 | [Schnellstart – Microsoft Teams-Planungshandbuch](/MicrosoftTeams/quick-start-enable-teams) | geändert |
-| 20.11.2018 | [Übersicht über PowerShell für Microsoft Teams](/MicrosoftTeams/teams-powershell-overview) | geändert |
-| 20.11.2018 | [Häufig gestellten Fragen: Upgrade-Strategie beim Wechseln von Skype for Business zu Microsoft Teams – Microsoft Teams](/MicrosoftTeams/faq-journey) | geändert |
-| 20.11.2018 | [Plan für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | geändert |
-| 20.11.2018 | [Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | geändert |
-| 20.11.2018 | [Einrichten von Live-Ereignissen in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | geändert |
-| 20.11.2018 | [Was ist Guthaben für Kommunikationen?](/MicrosoftTeams/what-are-communications-credits) | geändert |
-| 21.11.2018 | [Betriebshandbuch für Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | geändert |
-| 21.11.2018 | [Vorbereiten der Benutzer für Microsoft Teams](/MicrosoftTeams/2-onboard-prepare-my-users) | geändert |
-| 21.11.2018 | [Einführen von Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | geändert |
-| 21.11.2018 | [Tools und Downloads für die Einführung](/MicrosoftTeams/adopt-tools-and-downloads) | geändert |
-| 21.11.2018 | [Höhere Wertschöpfung mit Microsoft Teams durch Benutzerakzeptanz](/MicrosoftTeams/continue-journey) | geändert |
-| 21.11.2018 | [Beziehen von Clients für Microsoft Teams](/MicrosoftTeams/get-clients) | geändert |
-| 21.11.2018 | [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams und Skype for Business](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | geändert |
-| 21.11.2018 | [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | geändert |
-| 21.11.2018 | [Prüfliste für den Schnellstart der Microsoft Teams-Einführung](/MicrosoftTeams/teams-adoption-quick-start-checklist) | geändert |
-| 21.11.2018 | [Erweitern Ihres Diensts nach dem Upgrade – Microsoft Teams](/MicrosoftTeams/upgrade-enhance-my-service) | geändert |
-| 21.11.2018 | [Betriebshandbuch für Microsoft Teams – Microsoft Teams](/MicrosoftTeams/upgrade-operate-my-service) | geändert |
-| 21.11.2018 | [Erstellen eines Plans für die Benutzerbereitschaft vor dem Upgrade von Skype for Business auf Microsoft Teams – Microsoft Teams](/MicrosoftTeams/upgrade-user-readiness) | geändert |
-| 22.11.2018 | [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | geändert |
-| 22.11.2018 | [Verwalten von Besprechungseinstellungen in Microsoft Teams](/MicrosoftTeams/meeting-settings-in-teams) | hinzugefügt |
-
-
 ## <a name="week-of-november-26-2018"></a>Woche vom Montag, 26. November 2018
 
 
@@ -212,3 +166,14 @@
 | 20.12.2018 | [Telefone für Microsoft Teams](/MicrosoftTeams/phones-for-teams) | hinzugefügt |
 | 20.12.2018 | [Aktualisieren der kostenlosen Version von Microsoft Teams auf die Office 365-Abonnementversion](/MicrosoftTeams/upgrade-freemium) | hinzugefügt |
 | 21.12.2018 | [Grundlegendes zum Aktualisieren von Skype for Business auf Microsoft Teams](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | geändert |
+
+
+## <a name="week-of-december-24-2018"></a>Woche vom Montag, 24. Dezember 2018
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 28.12.2018 | [Treffen von Entscheidungen für den Audio-Konferenzdienst – Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | geändert |
+| 28.12.2018 | [Besprechungen in Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | geändert |
+| 28.12.2018 | [Verwalten Ihrer Geräte in Microsoft Teams](/MicrosoftTeams/device-management) | geändert |
+| 28.12.2018 | [Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](/MicrosoftTeams/enable-features-office-365) | geändert |
