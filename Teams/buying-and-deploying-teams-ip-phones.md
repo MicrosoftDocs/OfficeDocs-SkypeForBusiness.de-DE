@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Für Kunden, die erfordern Telefonapparate und Konferenz Raum Telefone zu tätigen und annehmen von audioanrufen oder teilnehmen an Besprechungen, bietet Microsoft-Teams, immer mehr Geräte. Kunden können diese Geräte über unsere Teams Marketplace direkt erwerben.
-ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
-ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
+ms.openlocfilehash: c91a20f100e8edf9b7a6d9897b693ec0f511657f
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/08/2019
-ms.locfileid: "27747969"
+ms.locfileid: "27760559"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>Kaufen und Bereitstellen von Microsoft-Teams IP-Telefonen
 
@@ -27,7 +27,7 @@ Für Kunden, die erfordern Telefonapparate und Konferenz Raum Telefone zu tätig
 
 Telefone müssen auf eine minimale Firmware-Version in der folgenden Tabelle aufgeführt sein, um Microsoft-Teams systemeigen ausgeführt werden.
 
-|Telefonmodell|Firmwareversion|Veröffentlichungsdatum|
+|Telefonmodell|Firmwareversion|Veröffentlichungsdatum |
 |---|---|---|---|
 |AudioCodes C450HD| In Kürze verfügbar |In Kürze verfügbar|
 |Flexible Crestron P100-T/P110-T    |In Kürze verfügbar|In Kürze verfügbar
