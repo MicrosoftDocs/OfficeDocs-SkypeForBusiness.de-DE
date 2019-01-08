@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Für Kunden, die erfordern Telefonapparate und Konferenz Raum Telefone zu tätigen und annehmen von audioanrufen oder teilnehmen an Besprechungen, bietet Microsoft-Teams, immer mehr Geräte. Kunden können diese Geräte über unsere Teams Marketplace direkt erwerben.
-ms.openlocfilehash: b5dda1a8deb88278d1a3be1caefa7ef8eb90d933
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
+ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383138"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27747969"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>Kaufen und Bereitstellen von Microsoft-Teams IP-Telefonen
 
@@ -33,8 +33,8 @@ Telefone müssen auf eine minimale Firmware-Version in der folgenden Tabelle auf
 |Flexible Crestron P100-T/P110-T    |In Kürze verfügbar|In Kürze verfügbar
 |Crestron M100|2.3875.00068|Dez 2018|       
 |Polycom Trio   |In Kürze verfügbar|In Kürze verfügbar|   
-|Yealink CP 960 |73.15.0.11|Dez 2018
-|Yealink T58/T56-Serie |58.15.0.11|Dez 2018|
+|Yealink CP 960 |73.15.0.20|Dez 2018
+|Yealink T58/T56-Serie |58.15.0.20|Dez 2018|
 
 
 Die minimale Firmwareversion kann auf der Anmeldeseite von Teams überprüft werden, indem das Symbol **Einstellungen** in der oberen rechten Ecke auswählen und dann auf **zu**.
@@ -56,4 +56,4 @@ Weitere Informationen zum Abrufen von Teams, Auschecken [Wie erhalte ich Zugriff
 
 ## <a name="see-also"></a>Siehe auch
 
-[Telefone für Microsoft-Teams](phones-for-teams.md)
+[Telefone für Microsoft Teams](phones-for-teams.md)
