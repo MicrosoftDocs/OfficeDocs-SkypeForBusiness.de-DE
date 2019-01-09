@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting-Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt, und Skype für Geschäfts- und Microsoft-Teams, Besprechungen für Benutzer automatisch aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: 5b01dfc0c50ecb742e049905c81a418007ea3600
-ms.sourcegitcommit: d00b85ace80af0403efb85b71e5bcc66e76f837b
+ms.openlocfilehash: 94f3d315810e6fdee93ffa8abfe6a657ca8b43fd
+ms.sourcegitcommit: 1b9f19b1bd8f33ee2f011cd5ea2d0d75bf8647c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/22/2018
-ms.locfileid: "27411115"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27783517"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Verwenden die Migration Besprechungsdienst (MMS)
 
@@ -44,7 +44,6 @@ Standardmäßig wird MMS automatisch in beiden Fällen ausgelöst, obwohl Admini
 **Nachteile**: die Besprechung migrationsdienst kann nicht verwendet werden, wenn Folgendes zutrifft:
 
 - Das Postfach des Benutzers wird in Exchange lokal gehostet.
-- Der Benutzer ist so konfiguriert, dass einen von Drittanbietern für Audiokonferenzen verwenden. Beachten Sie, dass Audiokonferenzen anbieterunterstützung [ACP] Ende der Lebensdauer auf 1 April 2019 als [zuvor](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)geplant ist.
 - Der Benutzer wird aus der Cloud zu Skype für Business Server lokal migriert.
 
 In diesen Fällen können Endbenutzer das [Migrationstool der Besprechung](https://www.microsoft.com/en-us/download/details.aspx?id=51659) zum Migrieren ihrer eigenen Besprechungen verwenden stattdessen.
@@ -96,8 +95,8 @@ In beiden Fällen Wenn der Benutzer eine Audiokonferenz-Lizenz zugewiesen wurde,
 
 In den folgenden Fällen aktualisieren MMS vorhandenen Skype für Geschäfts- und Microsoft-Teams, Besprechungen zum Hinzufügen, entfernen oder Ändern von Zugriffsnummer für Einwahl Koordinaten:
 
-- Wenn Sie zuweisen oder entfernen eine Audiokonferenz Microsoft Service-Lizenz eines Benutzers für die Integration von Skype für Unternehmen mit Drittanbieter-Audiokonferenzen nicht aktiviert ist.
-- Wenn Sie den Anbieter von Audiokonferenzen eines Benutzers ändern, der eine Microsoft Audiokonferenzen Lizenz aus jedem anderen Anbieter an Microsoft zugewiesen hat.
+- Wenn Sie zuweisen oder entfernen Sie eine Audiokonferenz Microsoft-Dienst-Lizenz eines Benutzers und der Benutzer ist nicht für einen Drittanbieter-Audiokonferenzen aktiviert.
+- Wenn Sie den Anbieter von Audiokonferenzen eines Benutzers von einem anderen Anbieter an Microsoft, die vom Benutzer bereitgestellte ändern, werden eine Microsoft Audiokonferenzen Lizenz zugewiesen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Beachten Sie außerdem, dass Unterstützung für Drittanbieter-Audiokonferenzen [ACP] Ende der Lebensdauer auf 1 April 2019 als [zuvor](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)geplant ist.
 - Wenn Sie aktivieren oder Deaktivieren von Audiokonferenzen für einen Benutzer.
 - Beim Ändern oder Zurücksetzen die Konferenz-ID für einen Benutzer für die Verwendung von öffentlicher Besprechungen konfiguriert.
 - Wenn Sie den Benutzer zu einer neuen Audiokonferenzbrücke verschieben
@@ -108,8 +107,6 @@ Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen
 - Ändern der SIP-Adresse für den Besprechungsorganisator (entweder des SIP-Benutzernamens oder der SIP-Domäne)
 - Beim Ändern Ihrer Organisation des meeting-URL mithilfe der `Update-CsTenantMeetingUrl` Befehl.
 
-> [!NOTE]
-> MMS wird nicht ausgelöst, wenn der Benutzer für einen Drittanbieter-ACP aktiviert ist. ACP ist für das Ende der Lebensdauer auf 1 April 2019 als [zuvor](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)geplant. Wenn Sie MMS eines Benutzers Besprechung migrieren möchten, müssen Sie zuerst deaktivieren Sie ACP für den Benutzer.
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Aktualisieren von Besprechungen beim Zuweisen der TeamsUpgradePolicy
 
@@ -123,6 +120,23 @@ Beachten Sie auch Folgendes:
 - Meeting-Migration wird nur aufgerufen, wenn Sie gewähren `TeamsUpgradePolicy` für einen bestimmten Benutzer. Wenn Sie gewähren `TeamsUpgradePolicy` mit `mode=TeamsOnly` oder `mode=SfBWithTeamsCollabAndMeetings` pro Mandant geltende meeting Migration nicht aufgerufen.
 - Ein Benutzer kann nur TeamsOnly erteilt werden Modus, wenn der Benutzer online verwaltet wird. Benutzer, die lokal sind müssen verschoben werden, mithilfe von `Move-CsUser` wie weiter oben beschrieben.
 - Erteilen von ein anderer Druckmodus als TeamsOnly oder SfBWithTeamsCollabAndMeetings konvertiert nicht vorhandene Teams Besprechungen zu Skype für Business Besprechungen.
+
+### <a name="trigger-meeting-migration-manually-via-powershell"></a>Trigger Besprechung Migration manuell über die PowerShell
+
+Zusätzlich zur automatischen Besprechung Migrationen Admins können manuell auslösen Besprechung Migration für einen Benutzer durch Ausführen des Cmdlets `Start-CsExMeetingMigration`. Dieses Cmdlet nimmt eine migrationsanforderung für den angegebenen Benutzer. Das neue `TargetMeetingType` Parameter (die derzeit auf Teilnehmer in der Technologie Akzeptanzprogramm beschränkt ist) können Sie angeben, wie die Besprechungen zu migrieren: 
+
+- Mit `TargetMeetingType Current` gibt an, dass Skype für Business Besprechungen Skype für Business Besprechungen und Teams Besprechungen Teams Besprechungen bleiben. Jedoch Audiokonferenzen Koordinaten möglicherweise geändert werden, und alle lokalen Skype für Business Besprechungen würde zu Skype für Business Online migriert werden.
+- Mit `TargetMeetingType Teams` gibt an, dass alle vorhandenen Besprechung zu Teams migriert werden muss, unabhängig davon, ob die Besprechung in Skype für Geschäftskunden online und lokalen gehostet wird und unabhängig davon, ob von Audiokonferenzen Updates erforderlich sind. 
+
+Das folgende Beispiel zeigt, wie Besprechung Migration für Benutzer ashaw@contoso.com initiieren, damit alle Besprechungen zu Teams migriert werden:
+
+```
+Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
+```
+
+> [!NOTE]
+> Das Cmdlet Start-CsExMeetingMigration ist für alle Kunden verfügbar, aber der neue TargetMeetingTypeParameter ist derzeit nur für Kunden, tippen Sie zweimal auf funktionsfähig. 
+
 
 ## <a name="managing-mms"></a>Verwalten von MMS
 
@@ -168,18 +182,7 @@ Wenn Sie alle Migrationen angezeigt wird, die fehlgeschlagen sind, Ausführen ei
     - Weisen Sie die Benutzer an, neue Skype-Besprechungen zu erstellen.
     - [Wenden Sie sich an den Support](https://go.microsoft.com/fwlink/p/?LinkID=518322).
 
-### <a name="trigger-meeting-migration-manually-for-a-user"></a>Trigger Besprechung Migration manuell für einen Benutzer
 
-Zusätzlich zur automatischen Besprechung Migrationen Admins können manuell auslösen Besprechung Migration für einen Benutzer durch Ausführen des Cmdlets `Start-CsExMeetingMigration`. Dieses Cmdlet nimmt eine migrationsanforderung für den angegebenen Benutzer. Die `TargetMeetingType` Parameter können Sie angeben, wie die Besprechungen zu migrieren: 
-
-- Mit `TargetMeetingType Current` gibt an, dass Skype für Business Besprechungen Skype für Business Besprechungen und Teams Besprechungen Teams Besprechungen bleiben. Jedoch Audiokonferenzen Koordinaten möglicherweise geändert werden, und alle lokalen Skype für Business Besprechungen würde zu Skype für Business Online migriert werden.
-- Mit `TargetMeetingType Teams` gibt an, dass alle vorhandenen Besprechung zu Teams migriert werden muss, unabhängig davon, ob die Besprechung in Skype für Geschäftskunden online und lokalen gehostet wird und unabhängig davon, ob von Audiokonferenzen Updates erforderlich sind. 
-
-Das folgende Beispiel zeigt, wie Besprechung Migration für Benutzer ashaw@contoso.com initiieren, damit alle Besprechungen zu Teams migriert werden:
-
-```
-Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
-```
 ### <a name="enabling-and-disabling-mms"></a>Aktivieren und Deaktivieren von MMS
 
 MMS ist standardmäßig für alle Organisationen aktiviert, jedoch kann folgendermaßen deaktiviert werden:
