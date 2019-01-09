@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lesen Sie in diesem Thema erfahren, wie Lync Raum Systemkomponenten Verwendung die Systemsoftware Skype Raum v2 migrieren.
-ms.openlocfilehash: 7fa1b9986f16082a7e86390e5c2c94d255076cae
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b2d748a37e7e060e19d0708b6979f9254af13682
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530960"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772903"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrieren von Lync Raum System (LRS) Geräte zu Skype Raum System v2 
 Lync Raum System (LRS) Geräte mit Skype Raum System Version 1 (SRS v1) Software [Ablauf des Supports auf 9 Oktober 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018)erreicht hat. Dies bedeutet, dass Skype Raum Systeme v1 Software nicht mehr Produktupdates oder Hotfixes mehr Informationen erhalten. Kunden mit Lync Raum System im Geräte-Skype Raum Systemsoftware v1, sollten ihre Geräte auf Skype Raum System, Version 2 (SRS v2) zu aktualisieren.
@@ -38,8 +38,8 @@ Es gibt mehrere Optionen für das Upgrade von Lync Raum Systeme auf die nächste
 Crestron wird ein Upgrade der [Crestron SR-System](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) oder einer gleichwertigen für alle nicht-Crestron Lync Raum System Kunden bereitstellen. Finden Sie unter Details dieses Programms [hier](https://support.crestron.com/app/answers/answer_view/a_id/1000220) oder <!-- For details, --> [e-Mail](mailto:lrsupgrade@crestron.com) Crestron LRS Support.  
 
 
-### <a name="crestron-rl2-to-rl3"></a>Crestron RL2 auf RL3
-Bestehende Crestron RL2 (auch als Crestron RL200 bezeichnet) Kunden können ein Aktualisierungspaket zum Aktualisieren des aktuellen RL2 RL3 Verwendung erwerben eine minimale Kosten pro Gerät. Finden Sie unter Details dieses Programms [hier](https://support.crestron.com/app/answers/answer_view/a_id/1000220) oder <!-- For details, --> [e-Mail](mailto:lrsupgrade@crestron.com) Crestron LRS Support.  
+### <a name="crestron-rl2-upgrade-to-srs-v2"></a>Crestron RL2 Upgrade auf SRS V2
+Bestehende Crestron RL2 (auch als Crestron RL200 bezeichnet) Kunden können ein Upgrade Kit zum Aktualisieren des aktuellen RL2 RL3 Verwendung erwerben eine minimale Kosten pro Gerät. Finden Sie unter Details dieses Programms [hier](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT). 
 
 
 ### <a name="smart-room-systems-upgrade"></a>Intelligente Raum Systeme aktualisieren 

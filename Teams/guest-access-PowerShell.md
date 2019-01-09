@@ -1,7 +1,7 @@
 ---
 title: Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team
-author: LaithAlShamri
-ms.author: laal
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/09/17
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Verwenden Sie PowerShell, um den Gastzugriff auf Teams in Microsoft Teams zuzulassen oder zu blockieren.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa06fa8466affa62de9f8805f0cf4b4931580d3f
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: e1e8eaa8722893316f761566a425b7e8ed6f2aaa
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674449"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772721"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team
 ================================================

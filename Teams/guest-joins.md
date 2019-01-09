@@ -1,7 +1,7 @@
 ---
 title: Beitritt eines Gasts zu einem Team
-author: LolaJacobsen
-ms.author: rramesan
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
 ms.topic: article
@@ -12,17 +12,17 @@ search.appverid: MET150
 description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast eingeladen wird, einem Team in Microsoft Teams beizutreten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1d1de994792aa683e6ed202c54586cd985e8ab3
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 2360d6985b3d047dc6b5159a8dd45d0f1da38223
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674473"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772753"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
 
-Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Jeder Benutzer mit einer Business "oder" Consumer e-Mail-Konto, wie Outlook, Google Mail oder andere, kann als Gast in Teams vollen Zugriff auf Team Chats, Besprechungen und Dateien teilnehmen. Nur Personen außerhalb Ihrer Organisation, z. B. Partner oder Berater, können als Gäste hinzugefügt werden. Personen innerhalb Ihrer Organisation können als reguläre Teammitglieder beitreten.
+Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams. Nur Personen außerhalb Ihrer Organisation, z. B. Partner oder Berater, können als Gäste hinzugefügt werden. Personen innerhalb Ihrer Organisation können als reguläre Teammitglieder beitreten.
   
     
     
