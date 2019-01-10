@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, häufige Ursachen für Skype für Business Online Anmelde-Fehler und Arbeit über diese Problembehandlung. '
-ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371149"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789084"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Problembehandlung bei Skype für Business Online Anmeldefehlern für Administratoren
 
@@ -124,7 +124,7 @@ Wenn Ihre Organisation eine benutzerdefinierte Domäne verfügt, wird dieses Ver
 
   - **Name**: sip
 
-  - **Wert/Ziel**: sipdir.online.microsoft.com
+  - **Wert/Ziel**: sipdir.online.lync.com
 
 Weitere Informationen hierzu finden Sie im Microsoft Knowledge Base-Artikel 2566790, [Problembehandlung Skype für Business Online DNS-Konfigurationsprobleme in Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 

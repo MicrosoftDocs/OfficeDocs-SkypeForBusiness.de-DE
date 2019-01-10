@@ -1,5 +1,5 @@
 ---
-title: Quality of Service in Microsoft-Teams - Microsoft-Teams
+title: Quality of Service in Microsoft Teams – Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68a11fcc519b63fe04bf6eedfbf9d87b3b80b0b
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294180"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789094"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Quality of Service (QoS) in Microsoft Teams
 
@@ -248,7 +248,7 @@ Die neuen Richtlinien, die von die Ihnen erstellten werden nicht erst wirksam, G
 
 2. Geben Sie an der Befehlszeile
    ```
-    gpudate.exe /force
+    gpupdate.exe /force
    ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Überprüfen Sie die DSCP-Auswahlmöglichkeiten in das Gruppenrichtlinienobjekt
@@ -259,7 +259,7 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, dass die Werte aus d
 
 2. Geben Sie an der Befehlszeile 
    ```
-   gpresult /R >gp.txt
+   gpresult /R > gp.txt
    ```
 
    Dies einen Bericht generiert und in eine Textdatei mit dem Namen gp.txt zu senden. Alternativ können Sie den folgenden Befehl aus, um die gleichen Daten in einem besser lesbar HTML-Bericht mit dem Namen gp.html zu erzeugen eingeben:

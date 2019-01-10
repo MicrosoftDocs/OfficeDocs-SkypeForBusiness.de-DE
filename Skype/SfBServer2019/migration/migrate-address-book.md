@@ -8,26 +8,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Im Allgemeinen wird zusammen mit dem Rest der Topologie im Adressbuch migriert. Sie müssen jedoch möglicherweise einige Schritte nach der Migration ausführen, wenn Sie die folgenden in der Vorversion Umgebung angepasst:'
-ms.openlocfilehash: 01279284086499b112028644ea0e1ca2fc708dd0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370769"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788994"
 ---
 # <a name="migrate-address-book"></a>Migrieren von Adressbüchern
 
 Im Allgemeinen wird zusammen mit dem Rest der Topologie im Adressbuch migriert. Sie müssen jedoch möglicherweise einige Schritte nach der Migration ausführen, wenn Sie die folgenden in der Vorversion Umgebung angepasst: 
 
-- Legen Sie die WMI-Eigenschaft **PartitionbyOU** auf Adressbucheinträge nach Organisationseinheit (OU). 
-
 - Die Adressbuch-Normalisierungsregeln angepasst.
 
 - Der Standardwert für den **UseNormalizationRules** -Parameter auf "false" geändert. 
 
-  **Gruppierte Adressbucheinträge**
-
-Wenn Sie die **"partitionbyou"** WMI-Eigenschaft auf True, um das Erstellen von Adressbüchern für jede Organisationseinheit festlegen, müssen Sie das **"MsRTCSIP-groupingid"** Active Directory-Attribut für Benutzer und Kontakte festgelegt, wenn Gruppieren von Adressbucheinträgen fortgesetzt werden soll. Zum Gruppe Adressbucheinträgen sollten zum Einschränken des Bereichs der Adressbuch-Suchvorgänge. Schreiben Sie mithilfe des Attributs **"MsRTCSIP-groupingid"** , ein Skript zum Füllen Sie des Attributs, das Zuweisen von den gleichen Wert für alle Benutzer, die Sie gruppieren möchten. Weisen Sie beispielsweise einen single-Wert für alle Benutzer in einer Organisationseinheit. 
 
  **Beheben von Adressbuch-Normalisierungsregeln**
 
@@ -67,7 +62,7 @@ Wenn den Wert für **UseNormalizationRules** auf False festgelegt werden, sodass
 
 1. Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Skype für Business Server 2019**, und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.
 
-2. Wählen Sie eine der folgenden Optionen aus:
+2. Führen Sie einen der folgenden Schritte aus:
 
    - Wenn Ihre Bereitstellung nur Skype für Business Server 2019 umfasst, führen Sie das folgende Cmdlet auf globaler Ebene die Werte für **UseNormalizationRules** und **IgnoreGenericRules** auf "true" zu ändern: 
 

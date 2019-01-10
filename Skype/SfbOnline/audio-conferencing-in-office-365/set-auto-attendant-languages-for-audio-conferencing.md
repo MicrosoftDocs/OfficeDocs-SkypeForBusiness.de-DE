@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Wählen Sie die Audiokonferenz-Telefonzentralen-Sprache für eine Audiokonferenznummer in Skype for Business Online.
-ms.openlocfilehash: f7b7357d38941ba8d7e1f586f32daa8e02b29012
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882209"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788985"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Automatische Telefonzentralen-Spracheinstellung für Audiokonferenzen in Skype for Business Online
 
@@ -37,7 +37,7 @@ Die automatische Audiokonferenz-Telefonzentrale für Skype for Business kann Anr
 Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die primäre Sprache, die Sie festlegen zuerst verwendet werden und die sekundären Sprachen werden durch die automatische Telefonzentrale verwendet werden, dass Sie auswählen. 
   
 > [!NOTE]
->  Sie können die Sprachen auf nur Telefonnummern nationalen audio Zugriff konfigurieren.
+>  Sie können nur die Sprachen von Audiokonferenzen Zahlen ändern, die der Kategorie dedizierten sind. Die Sprachen Shared Audiokonferenzen Zahl können nicht geändert werden.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -46,9 +46,9 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die prim�
 
 Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder [Skype for Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieses Schritts sein.
     
-1. Navigieren Sie in der linken Navigationsleiste des **Skype for Business Admin Center** zu **Audio conferencing** (Audiokonferenz), und klicken Sie dann auf **Microsoft Bridge**.
+1. Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich **Legacy**-Portal. Wählen Sie einmal **Audiokonferenzen**im legacy-Portal, und klicken Sie dann auf **Microsoft-Brücke**.
     
-2. Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich, klicken Sie auf **Sprachen festlegen**. 
+2. Wählen Sie die Audiokonferenz Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich, klicken Sie auf **Sprachen festlegen**. Es ist nur möglich, die Sprachen von dedizierten Audiokonferenzen Zahlen ändern.  
     
 3. Klicken Sie auf der Seite **Sprachen festlegen** auf **Primäre Sprache**, um die vollständige Liste der verfügbaren Sprachen anzuzeigen. Wenn Sie möchten, klicken Sie auf die **Sekundären Sprachen**-Liste um sekundäre Sprache auszuwählen.
     

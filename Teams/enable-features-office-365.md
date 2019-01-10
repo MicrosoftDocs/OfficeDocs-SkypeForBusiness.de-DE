@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da071250eb45fbad9e83b2d79d6e86166072a474
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 0a36c0a23076c5aa172824fe85103c57a8494dbf
+ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240693"
+ms.lasthandoff: 12/28/2018
+ms.locfileid: "27458478"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 

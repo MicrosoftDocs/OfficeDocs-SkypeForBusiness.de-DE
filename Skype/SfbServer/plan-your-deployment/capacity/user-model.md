@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Dieser Artikel enthält Anleitungen für wie viele Server an einem Standort für die Anzahl von Benutzern an diesem Standort Sie müssen gemäß der Verwendung in Benutzermodelle in Skype for Business Server beschrieben.
-ms.openlocfilehash: 3a1838200e4590649fd290530a50fba3015b670f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261602"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789405"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Verwendung des Objektmodells für Benutzer für Skype für Business Server zum Planen der Kapazität
 
@@ -33,9 +33,9 @@ Unsere Leistungstests wurden auf der in der Tabelle unten genannten Hardware dur
 |**Hardwarekomponente**|**Empfohlen**|
 |:-----|:-----|
 |CPU  <br/> |64-Bit-Dualprozessor, Sechskern, mindestens 2,26 GHz.  <br/> Intel Itanium-Prozessoren werden für Skype für Serverrollen Business Server nicht unterstützt.  <br/> |
-|Arbeitsspeicher  <br/> |32 GB.  <br/> &bull;&nbsp;&nbsp;8 oder mehr 10.000 u/min Festplatten mit mindestens 72 GB freiem Speicherplatz.  <br/> Zwei Festplatten sollten RAID 1 verwenden und sechs Festplatten sollten RAID 10 verwenden.  <br/> – ODER –  <br/> &bull;&nbsp;&nbsp;Solid State-Laufwerke (SSDs) Leistung wie 8 Festplattenlaufwerke mit 10.000 u / mechanische.  <br/> |
-|Festplatte  <br/> ||
-|Netzwerk  <br/> |&bull;&nbsp;&nbsp;1 Dual-Port-Netzwerkadapter, 1 Gbit/s oder höher (2 empfohlen, der ein teaming mit einer einzelnen MAC-Adresse und einzelne IP-Adresse erfordert).  <br/> |
+|Arbeitsspeicher  <br/> |32 GB.  <br/> |
+|Festplatte  <br/> |8 oder mehr Festplatten mit 10.000 U/Min mit mindestens 72 GB freiem Speicher. Zwei Festplatten sollten RAID 1 verwenden und sechs Festplatten sollten RAID 10 verwenden.  <br/> – ODER – <br/>Solid State-Laufwerke (SSDs), die Leistung wie 8 Festplattenlaufwerke mit 10.000 u / mechanische bereitstellen. <br/> |
+|Netzwerk  <br/> |1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist).  <br/> |
 
 ## <a name="summary-of-results"></a>Zusammenfassung der Ergebnisse
 
@@ -81,7 +81,7 @@ Die folgende Tabelle zeigt die durchschnittliche Bandbreite für SOFORTNACHRICHT
 |1,3 KBit/s  <br/> |13 MBit/s  <br/> |
 
 > [!NOTE]
-> Zum Verbessern der Leistung Media am selben Standort A / V-Konferenzen und Vermittlungsserver Funktionalität auf Front-End-Servern, aktivieren Sie erhalten-Side Skalierung (RSS) auf die Netzwerkadapter auf Front-End-Servern. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Weitere Informationen hierzu finden Sie unter [Empfangen Seite Skalierung (RSS) in der Dokumentation zu Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zum Verbessern der Leistung Media am selben Standort A / V-Konferenzen und Vermittlungsserver Funktionalität auf Front-End-Servern, aktivieren Sie erhalten-Side Skalierung (RSS) auf die Netzwerkadapter auf Front-End-Servern. RSS ermöglicht die parallele Bearbeitung eingehender Pakete durch mehrere Prozessoren auf dem Server. Ausführliche Informationen dazu finden Sie unter [„Empfangsseitige Skalierung (RSS)“ in der Dokumentation von Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="conferencing-maximums"></a>Maximale Anzahl von Benutzern für Konferenzen
 
@@ -105,7 +105,7 @@ Sie sollten für jede 12.000 Remotebenutzer eine Edge-Server bereitstellen, die 
 Wenn Sie für die Anzahl der Benutzer für den Edge-Servern, auch die Benutzer Konto verwaltet auf Survivable Branch Appliances und Survivable Branch Servern in Zweigstellen, die einem Front-End-Pool an diesem Standort zugeordnet sind.
 
 > [!NOTE]
-> Zur Verbesserung der Leistung des A / V Conferencing-edgedienst auf den Edge-Servern sollten Sie empfangen der clientseitigen Skalierung (RSS) auf den Netzwerkadaptern auf Edge-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Details finden Sie in "[Empfangen Seite Skalierung (RSS) in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zur Verbesserung der Leistung des A / V Conferencing-edgedienst auf den Edge-Servern sollten Sie empfangen der clientseitigen Skalierung (RSS) auf den Netzwerkadaptern auf Edge-Servern aktivieren. RSS ermöglicht die parallele Bearbeitung eingehender Pakete durch mehrere Prozessoren auf dem Server. Details finden Sie in "[Empfangen Seite Skalierung (RSS) in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="director"></a>Director
 
@@ -149,13 +149,13 @@ Alle in den folgenden Tabellen gehen von einer Verwendung unter [User Models in 
 > Diese Nummer wird viel kleiner als die Zahlen für den eigenständigen Vermittlungsserver. Dies liegt daran der Front-End-Server muss verarbeiten andere Features und Funktionen für die 6600 Benutzer verwaltet, zusätzlich zu der Transcodierungsvorgabe für Sprachanrufe erforderlich ist.
 
 > [!NOTE]
-> Zum Verbessern der Leistung des Vermittlungsservers, sollten Sie empfangen der clientseitigen Skalierung (RSS) auf die Netzwerkadapter auf Ihrem Vermittlungsservern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Weitere Informationen hierzu finden Sie unter "[Receive-Side Scaling in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zum Verbessern der Leistung des Vermittlungsservers, sollten Sie empfangen der clientseitigen Skalierung (RSS) auf die Netzwerkadapter auf Ihrem Vermittlungsservern aktivieren. RSS ermöglicht die parallele Bearbeitung eingehender Pakete durch mehrere Prozessoren auf dem Server. Weitere Informationen hierzu finden Sie unter "[Receive-Side Scaling in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="back-end-server"></a>Back-End-Server
 
 Obwohl ein Großteil der Datenbankinformationen in erster Linie auf den Front-End-Servern gespeichert werden, sollten Sie sicherstellen, dass die Back-End-Server weiter oben in diesem Abschnitt und in [Server Hardware Platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)aufgeführten hardwareempfehlungen erfüllen.
 
-Es wird empfohlen, um hohe Verfügbarkeit der Back-End-Server zu ermöglichen, AlwaysOn Availability Groups oder Server-Spiegelung bereitzustellen. Weitere Informationen finden Sie unter [hohe Verfügbarkeit von Back-End-Server in Skype für Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+Es wird empfohlen, um hohe Verfügbarkeit der Back-End-Server zu ermöglichen, AlwaysOn Availability Groups oder Server-Spiegelung bereitzustellen. Weitere Informationen dazu finden Sie unter [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
 ## <a name="monitoring-and-archiving"></a>Überwachen und Archivieren
 

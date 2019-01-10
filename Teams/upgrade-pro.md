@@ -1,5 +1,5 @@
 ---
-title: Upgrade für Microsoft-Teams - Microsoft-Teams Pro
+title: Upgrade auf Pro für Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2613bd346a8780b23e1ca37fd37e148502e020c
-ms.sourcegitcommit: 4f848bba1b3522f1de573e3dac081906d47eb5ca
+ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25719127"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789384"
 ---
 # <a name="upgrade-pro"></a>Pro aktualisieren
 
@@ -61,7 +61,7 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 |**1**     |**Bewerten der vorhandenen Umgebung zum Identifizieren Risiken und Anforderungen**         |Bewerten der Umgebung, geben Sie an Risiken und Anforderungen, die Ihre gesamte Bereitstellung beeinflussen werden. Durch das Identifizieren von proaktiv dieser Elemente, können Sie die der Planung, um sicherzustellen, dass Erfolg anpassen.         |[Bewerten der Umgebung vor der Aktualisierung auf Teams](upgrade-plan-journey-evaluate-environment.md)         |
 |**2**     |**Führen Sie Office 365 und Teams technische onboarding**        |Nutzen vorhandene Onboarding Prüflisten, um Aufgaben und Aktivitäten für die Durchführung technische Bereitschaft zur Zusammenarbeit und Sprachfunktionen mit Teams zu ermitteln.         |[Vorbereiten des Diensts für das Upgrade auf Teams](upgrade-prepare-environment-prepare-service.md)         |
 |**3**     |**Optimieren der Leistung von Netzwerk für Teams, insbesondere für Real-Time Media-Szenarios**         |Wenn Sie Audio-, Video- oder Besprechungen bereitstellen, können Sie einige zusätzliche Schritte zur Optimierung Ihres Netzwerks für diese Funktionalität nutzen. Teams verwendet die Audio- und Videodaten-Technologie (Codecs), die sich auf Anpassen&mdash;und daher eine bessere Leistung unter&mdash;am Netzwerk-Bedingungen. Um eine optimale und konsistente Leistung sichergestellt ist, sollten Sie Ihr Netzwerk für Teams vorbereiten.          |[Bereiten Sie Ihr Netzwerk für das Upgrade auf Teams](upgrade-prepare-environment-prepare-network.md)         |
-|**4**     |**Bewerten der Bereitschaft der Organisation ändern und wichtige Anwendungsfälle und Rollen**        |Um den Wert von Teams nutzen zu können, müssen Benutzer tatsächlich verwendet werden. Aktivieren einfach Teams wird nicht gewährleistet, dass Sie Ihr Ziel erreichen. Benutzer verfügen über verschiedene Anwendungsfälle und verschiedener Learning Formatvorlagen, und sie auf neue Technologie mit verschiedenen Geschwindigkeit anpassen.  Grundlegendes zu Ihre Benutzerbasis können Sie das richtige Maß Education zu vereinfachen und zu beschleunigen Benutzerakzeptanz vorbereiten.         |[Organisatorische Bereitschaft](upgrade-org-change-readiness.md#organizational-change-readiness)<br><br>[Anwendungsfälle](upgrade-org-change-readiness.md#use-cases)<br><br>[Rollen](upgrade-org-change-readiness.md#personas)           |
+|**4**     |**Ermitteln Sie die Bereitschaft der Organisation ändern**        |Um den Wert von Teams nutzen zu können, müssen Benutzer tatsächlich verwendet werden. Aktivieren einfach Teams wird nicht gewährleistet, dass Sie Ihr Ziel erreichen. Benutzer verfügen über verschiedene Anwendungsfälle und verschiedener Learning Formatvorlagen, und sie auf neue Technologie mit verschiedenen Geschwindigkeit anpassen.  Grundlegendes zu Ihre Benutzerbasis können Sie das richtige Maß Education zu vereinfachen und zu beschleunigen Benutzerakzeptanz vorbereiten.         |[Organisatorische Bereitschaft](upgrade-org-change-readiness.md#organizational-change-readiness)           |
 |**5**     |**Vorbereiten einer bereitschaftsplan Benutzer definieren, wie Sie kommunizieren, Schulen und unterstützen von Benutzern**         |Stellen Sie eine optimale Receptiveness auf die neue Technologie sicher, verwenden Sie eine Kombination von großer Reichweite messaging (enthält die Vision-Wert messaging und universelle Anwendungsfälle) und messaging, Schulung und unterstützen zugeschnitten Rollen und der Kohorten, die Sie definiert haben und auch auf Ihre Nachzügler je nach Bedarf. Dieser personalisierte Plan helfen Benutzerakzeptanz vereinfachen, indem Benutzer schneller beziehen sich auf Teams, während der Vorführung, dass Sie ihren Anforderungen vertraut gemacht haben. Dies kann als pilot, integrierte und Teams Upgrade verwendet werden.         |[Vorbereiten einer bereitschaftsplan für Benutzer](upgrade-user-readiness.md)<br><br>[Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit)<br><br>[Video Schulung von Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[Wechseln Sie zu Teams von Skype für Unternehmen](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)       |
 |**6**     |**Announce die ausstehende Einführung von Microsoft-Teams**       |Bei der Kommunikation mit Ihrer Benutzer frühe hilft Benutzern Verhalten enthalten, Verwirrung verringert generiert Interesse zu Microsoft-Teams, die helfen, das Upgrade über einen Zeitraum von Skype für Unternehmen zu beschleunigen.          | [Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit)         |
 |**7**     |**Vorbereiten Sie Ihrer IT-Mitarbeiter für Teams**         |Ihre Office 365-Mandanten-Admins, technische Leads und Helpdesk sind verantwortlich für gesteuerter eine hohe Qualität Benutzeroberfläche zur Verfügung. Dies umfasst, um sicherzustellen, das Netzwerk ist bereit zur Unterstützung von Teams, Konfigurieren des Teams für Ihre Benutzer und die Einhaltung effektiv suchen und Beheben von Problemen, die auftreten können.         |[Vorbereiten der Microsoft-Teams, Ihre IT-Mitarbeiter](https://docs.microsoft.com/microsoftteams/upgrade-prepare-it-pros)<br><br>[Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit)       |
@@ -82,7 +82,7 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 |Schritt  |  |Zusammenfassung |Ressource |
 |---------|---------|---------|---------|
 |**1**     |**Die offizielle Einführung von Teams Announce**       |Kommunikation mit den Benutzern zu Beginn der Organisationseinheit Einführung von Teams, vergewissern Sie sich zur Förderung des Bekanntheitsgrads und Land Wert und mit Benutzern zu nutzen. Berücksichtigen Sie mehrere Formen der Kommunikation, einschließlich einer Veranstaltung und e-Mail.         |[Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit)          |
-|**2**     |**Aktivieren Sie den entsprechenden Koexistenzmodus für Ihre Benutzer**         |Führen Sie die Schritte, um die richtigen Koexistenz mindestens einen für Ihre Organisation festzulegen.         |[Festlegen von Einstelllungen Upgrade und Koexistenz](setting-your-coexistence-and-upgrade-settings.md)         |
+|**2**     |**Aktivieren Sie den entsprechenden Koexistenzmodus für Ihre Benutzer**         |Führen Sie die Schritte, um die richtigen Koexistenz mindestens einen für Ihre Organisation festzulegen.         |[Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)         |
 |**3**     |**Benachrichtigung bei der Übersicht über die Teams**       |Überwachen Sie Übersicht über die Teams und ständig bewerten Sie der Bereitschaft der Organisation zum richtigen Zeitpunkt für Ihre Organisation zu verschieben, Teams zu identifizieren.         |[Wegweiser für Teams](https://aka.ms/teamsroadmap)         |
 |**4**     |**Zusätzliche Kommunikationen senden und Teams Champions auf Laufwerk beteiligen** Interesse und Akzeptanz Teams       |Benutzer Akzeptanz erhöht und Verwalten von Interesse für Teams mit laufenden Kommunikations- und Champions.          |[Microsoft 365 Champions-Programm](https://aka.ms/O365Champions)         |
 

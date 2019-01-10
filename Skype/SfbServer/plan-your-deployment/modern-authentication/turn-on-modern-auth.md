@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: In diesem Artikel Gliederungen-Cmdlets, mit denen Administratoren mehr Kontrolle über Authentifizierungsmethoden erhalten verwendet innerhalb und außerhalb, eines Unternehmens. Administratoren können Authentifizierungsmethoden auf Aktivieren oder deaktivieren Sie intern oder extern mit ihrem Netzwerk.
-ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: 1761722bca624451b1cfc6acc28bed7b00eabe6d
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371186"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789260"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planen der Legacy-Authentifizierungsmethoden intern und extern in Ihr Netzwerk zu deaktivieren.
 
@@ -82,6 +82,10 @@ Auch wenn nur eine Rolle, die für einen Pool vorhanden ist:
 * Wenn beide Rollen für einen Pool vorhanden sind, aber Richtlinien nicht auf Pool-Ebene definiert, Get-wird ein Fehler zurückgegeben.
 
 Möglicherweise führen Sie eine Get-für diese Werte und Screenshot oder notieren Sie ihre Anfangszustand vor jeder Änderung Listenelementen. Sie sollten auch ein Protokoll der Änderungen in einem OneNote beibehalten.
+
+> [!NOTE]
+> 
+> Hinweis: Nach der Konfiguration der CsAuthConfig, müssen Sie Enable-CsComputer auf jedem Computer in der Reihenfolge für die Einstellungen wirksam werden ausführen.
 
 > [!IMPORTANT]
 > Wenn Sie Lync Web Access (LWA) verwenden, Forms-based Access (FBA), für den externen Zugriff verwenden müssen konfigurieren Sie LWA, damit Clients mit anonymem Zugriff auf diese Szenarien unterstützen zugreifen können. Dienstanbieter entscheidet auch, wenn Sie die Einwahl-Pin verwenden, FBA für externe Benutzer nur blockiert. Wenn sie ihre Pin ändern müssen, müssen sie ihre Corporation dazu intern Anmeldung.

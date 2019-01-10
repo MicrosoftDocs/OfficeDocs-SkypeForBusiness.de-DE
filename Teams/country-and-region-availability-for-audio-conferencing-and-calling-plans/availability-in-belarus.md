@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Belarus verfügbar.
-ms.openlocfilehash: c9ee1ce7bf93727d19cde5e79ade907aa75be923
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9df2ad1f118e5f0fe1ed1e88579fe8c14d34cf95
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013947"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789253"
 ---
 # <a name="availability-in-belarus"></a>Verfügbarkeit in Belarus
 
@@ -45,7 +45,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Nein  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar mit Communications haben Bezahlung pro minute  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 

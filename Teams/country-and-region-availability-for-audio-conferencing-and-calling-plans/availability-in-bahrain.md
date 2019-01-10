@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Bahrain verfügbar.
-ms.openlocfilehash: 164334abc83df2005163dfdfcb72579405429c2e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 78a33a13df4b495313a8e8bb258fe5b383e20f12
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013089"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789182"
 ---
 # <a name="availability-in-bahrain"></a>Verfügbarkeit in Bahrain
 
@@ -43,7 +43,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Nein  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li>Manama</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikation haben  <br/> |
    
@@ -78,7 +78,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Ist Guthaben für Kommunikationen verfügbar?  <br/> |Ja  <br/> |
+|Ist Guthaben für Kommunikationen verfügbar?  <br/> |Nein  <br/> |
    
 Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](../set-up-communications-credits-for-your-organization.md).
   

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Zusammenfassung: In diesem Thema finden Sie Informationen zur Integration von Skype for Business Server in Exchange Server 2016 oder Exchange Server 2013.'
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532535"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789398"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan zur Integration von Skype for Business mit Exchange Server
  
@@ -104,9 +104,13 @@ Die folgende Tabelle zeigt Einzelheiten zu den unterstützten Funktionen in vers
 |Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Durchsuchen von archivierten Inhalten  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
-|Exchange UM-Voicemail  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
+|Exchange UM-Voicemail  <br/> |J  <br/> |J  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |Serverseitig aufgezeichnete Unterhaltungen  <br/> |J  <br/> |J  <br/> |N  <br/> |J  <br/> |J  <br/> |
-   
+
+> [!NOTE]
+> Es ist ein Cloud-Voicemail-Dienst, der für Skype für Business Online, Skype für Business Server 2019, Skype für Business Server 2015 und Skype für Business Server 2013 unterstützt wird.
+> 
+
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
 <a name="feature_support"> </a>
 

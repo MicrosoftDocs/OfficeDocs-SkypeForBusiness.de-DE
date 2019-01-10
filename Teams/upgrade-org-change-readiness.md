@@ -3,7 +3,7 @@ title: Ermitteln Sie die Bereitschaft der organisatorischen Änderung vor dem Up
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 12/28/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d86e54bcab57f33c1b0031184282a8fc5f49b8a
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: ae90183260325cc35dcb7e2820bc9cdf94475fea
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429467"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789307"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -32,11 +32,10 @@ Dieser Artikel ist Teil der User Readiness Stufe des Ihrem Upgrade Weg, eine Akt
 
 # <a name="assess-organizational-change-readiness"></a>Ermitteln Sie die Bereitschaft der Organisation ändern
 
-Nachdem Sie Ihr Projektteam gesichert und Vision, Umfang und die Ziele definiert haben, wird im nächsten Schritt auf Ihrem Upgrade Weg um sicherzustellen, dass Ihre Organisation und Benutzer für Teams bereit sind – eine Aktivität, die Sie parallel zu gewährleisten, dass Ihre technische Bereitschaft abschließen. Um den Wert von Teams nutzen zu können, müssen Benutzer tatsächlich verwendet werden. Aktivieren einfach Teams wird nicht gewährleistet, dass Sie Ihr Ziel erreichen.  Benutzer verfügen über verschiedene Anwendungsfälle und verschiedener Learning Formatvorlagen, und sie auf neue Technologie mit verschiedenen Geschwindigkeit anpassen. Die gute Nachricht ist, dass Verwalten von Änderung alles ganz einfach ist, aber es eine Engagement im Zusammenhang dauert. Die unten aufgeführten geführten Diskussionen sollen Ihnen Ihre Benutzerbasis zu verdeutlichen, damit Sie das richtige Maß Education zu vereinfachen und zu beschleunigen Benutzerakzeptanz vorbereiten können. Es gibt drei Möglichkeiten, den, die Sie Ihre Benutzerbasis betrachten sollten:
+Nachdem Sie Ihr Projektteam gesichert und Vision, Umfang und die Ziele definiert haben, wird im nächsten Schritt auf Ihrem Upgrade Weg um sicherzustellen, dass Ihre Organisation und Benutzer für Teams bereit sind – eine Aktivität, die Sie parallel zu gewährleisten, dass Ihre technische Bereitschaft abschließen. Um den Wert von Teams nutzen zu können, müssen Benutzer tatsächlich verwendet werden. Aktivieren einfach Teams wird nicht gewährleistet, dass Sie Ihr Ziel erreichen.  Benutzer verfügen über verschiedene Anwendungsfälle und verschiedener Learning Formatvorlagen, und sie auf neue Technologie mit verschiedenen Geschwindigkeit anpassen. Die gute Nachricht ist, dass Verwalten von Änderung alles ganz einfach ist, aber es eine Engagement im Zusammenhang dauert. Die unten aufgeführten geführten Diskussionen sollen Ihnen Ihre Benutzerbasis zu verdeutlichen, damit Sie das richtige Maß Education zu vereinfachen und zu beschleunigen Benutzerakzeptanz vorbereiten können. Es gibt zwei Methoden, die Sie Ihre Benutzerbasis betrachten sollten:
 
--   **Organisationseinheit ändern Bereitschaft**: Grundlegendes zu wie schnell (oder nicht) Benutzer in der Regel reagieren, um zu ändern. Anhand dieser Informationen können zur Förderung des Bekanntheitsgrads, Schulung, zu informieren und Wert verkaufen müssen Sie möglicherweise Benutzer Akzeptanz führen.
--   **Anwendungsfälle**: bewerten, wie die neue Technologie Benutzerproduktivität verbessert wird. Diese Informationen werden Änderung der relevanten für Benutzer basierend auf deren Funktionsweise.
--   **Rollen**: bewerten, welche Personen oder Gruppen möglicherweise personalisierte Aufmerksamkeit erfordern. Diese Informationen ermöglicht zum Ziel Schulung und Förderung des Bekanntheitsgrads für Benutzer, die auf Sie zukommt oder mehr fokussierte Aufmerksamkeit erfordern (z. B. "Executives").
+- **Organisationseinheit ändern Bereitschaft**: Grundlegendes zu wie schnell (oder nicht) Benutzer in der Regel reagieren, um zu ändern. Anhand dieser Informationen können zur Förderung des Bekanntheitsgrads, Schulung, zu informieren und Wert verkaufen müssen Sie möglicherweise Benutzer Akzeptanz führen.
+- **Szenarien der Zusammenarbeit**: Grundlegendes zur Funktionsweise von Benutzern, können Sie ihre Arbeitsaktivitäten und beschleunigen von Annahme und erleichtert die Verbreitung von Skype für Unternehmen Teams zuordnen. 
 
 > [!Note]
 > Sie können die Bewertung Aktivitäten auf jede Änderung Initiative in Ihrer Organisation die folgenden Angaben anpassen. Beheben Sie einfach die Fragen basierend auf den Bereich Ihres Projekts. In der folgenden Diskussionen kann Audio aufrufen, Audiokonferenzen oder des Upgrades von Skype für Unternehmen Teams "neue Lösung" zuweisen.
@@ -89,69 +88,67 @@ Verwenden Sie die folgenden Unterhaltung Starter Durchführen einer Bewertung de
 > [!Tip]
 > Nicht jeder lernen die gleiche Weise. Personen, die sich selbst motiviert sind, zeigen Sie auf Microsoft online-Videos und Schulungen Artikel. Wenn mindestens 20 Prozent Team Spieler sind, tragen Sie Schulung Team oder eines Partners interaktiven live-Schulung (persönlich oder online) bereit ein. In der Regel finden Führungskräfte oder geplant, Rollen in der Kategorie Hand-Betrieb. Dies ist eine wichtige Gruppe, die von personalisierten, kurze schulungssitzungen profitieren würden. Tragen Sie Ihre Champions, mit denen Schulungen an diese Benutzer für eine optimale wünschen übermitteln.
 
-## <a name="use-cases"></a>Anwendungsfälle
+## <a name="assessing-teamwork-scenarios"></a>Bewerten von Szenarien der Zusammenarbeit
 
-Jede bestimmte Anwendungsfälle in Ihren zur Förderung des Bekanntheitsgrads und Schulungsplan kann Benutzer glauben, dass Sie tatsächlich ein Verständnis, an denen sie arbeiten. Neben den vorgesehenen Anwendungsfälle basierend auf Benutzerprofile sind universelle Anwendungsfälle (Szenarien, die für jede Person in Ihrer Organisation unabhängig von der Rolle gelten). Für jede ist es wichtig, identifizieren die Herausforderungen bei der aktuellen Prozess und erläutern, wie die neue Technologie für die Benutzeroberfläche optimieren kann. Klicken Sie dann anhand dieser Informationen in der Kommunikationsplan präsentieren des Werts der neuen Technologie und Wunsch in Probieren Sie es Benutzer generieren.
+Microsoft-Teams, erweitert die Funktionen von Skype für Unternehmen, eine umfassende Kommunikation und Zusammenarbeit Lösung. Berücksichtigen Sie Ihren Plan für das Upgrade von Benutzern von Skype für Unternehmen Teams entwerfen, wie Sie die Leistungsfähigkeit der Zusammenarbeit Zusammenarbeit sowohl auszeichnen Benutzer und vereinfachen ihre Übergang von Skype für Unternehmen zu Teams verwenden können.  
 
-### <a name="activity"></a>Aktivität
+Kurz gesagt ist Zusammenarbeit wie Personen zusammenarbeiten, um Aufgaben zu erhalten. Es ist über die richtigen Personen mit den entsprechenden Tools in eine Möglichkeit, die für sie geeigneten ausrichten. Teams vereint Personen, Unterhaltungen, Dateien und Projekte in einem Arbeitsbereich einen true-Hub für die Zusammenarbeit in Ihrer Organisation erstellen.
+  
+Verstehen, wie Benutzer arbeiten und wie sie zusammen stammen helfen kann Benutzer visualisieren wie Teams verwendet werden kann, die Verbreitung von Skype für Unternehmen zu erleichtern. Zwei Möglichkeiten Core Szenarien der Zusammenarbeit bedenken sollten: Personen-centric und Project-centric.
+ 
+- **Project-centric Zusammenarbeit** zentriert auf bestimmte Projekte oder Initiative (beispielsweise das Planen einer Veranstaltung Produkt). Von Bereich Planen der Verwaltung von Budgets in der marketing-anstrengungen unterstützt Project-centric Zusammenarbeit ausrichten Project Arbeitsabläufe sichergestellt ist, alle auf dem Laufenden halten. 
+- **Personen-centric Zusammenarbeit** weiterzuführen Personen mit ähnlichen Zuständigkeiten oder Attribute, die aus dem Team (beispielsweise unserem Vertrieb, Außendienst) oder über Teams (beispielsweise Peer Champions) arbeiten können. Aus chatten mit einem Kollegen zum Abrufen einer Antwort auf eine Frage zur Teilnahme an einer Besprechung Team, umfassen Personen-centric Aktivitäten gemeinsame Nutzung von Informationen und Erstellen von Rapport.
 
- Dokument fünf bis sieben universellen und zielgerichtete Anwendungsfälle für Ihre Organisation. Hier sind einige Unterhaltung Starter überprüfen Sie mit Ihrem Projektteam, gefolgt von Beispiele, die Sie für Ihre Organisation anpassen können.
+Wenn Sie die optimale Nutzung von Teams erhalten möchten, Erstellen einer Strategie für die Zusammenarbeit unterstützt, die beide Szenarien, die Benutzer ein besseres Verständnis der Funktionsweise von Teams für diese können enthält.  
+ 
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Welche Szenarien relatable Zusammenarbeit unterstützt, werden Sie zur Beschleunigung von Benutzerakzeptanz des Teams und vereinfachen des Upgrades von Skype für Business einsetzen?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die Beispiele unten, um Erstellen eigener Szenarien für die Zusammenarbeit unterstützt. Dokumentieren sie in der [Arbeitsmappe zu aktualisieren](https://aka.ms/upgradesuccesskit).</li><li>Zusätzliche Szenarien und Beispiele finden Sie auf der [Produktivität-Bibliothek](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
 
--   Was ist die Verwendung/Szenario?
+### <a name="examples"></a>Beispiele
 
--   Was sind wichtige Merkmale, die in diesem Szenario heute definieren? Welche apps verwendet werden?
+**Project-centric Zusammenarbeit: Produkt Veranstaltung** (zum Beispiel: Ihrer Organisation ist ein neues Produkt auf dem Markt starten möchten abrufen und plant eine umfassende Werbe-Ereignis, um Laufwerk zur Förderung des Bekanntheitsgrads, Leads zu generieren und zu fördern Sales).
 
--   Was sind die Herausforderungen mit diesen Anwendungsfall heute?
+| Erwägung | Notizen |
+|---------------|-------|
+| Core-Attribute |<ul><li>Cross-Team Beteiligten mit verschiedenen Project Arbeitsabläufe sichergestellt ist</li><li>Häufig verwendete gezielte Besprechungen</li><li>Viele der Teile/Personen gemeinsam (Budget, Zeitpläne, Präsentationen, Registrierung usw.)</li></ul> |
+| Zusammenarbeit Herausforderungen heute |<ul><li>Arbeitsabläufe sichergestellt ist in Silos beschränkt Einblick in Project Gesamtstatus arbeiten oder Cross-Team Maßnahmen:<br><ul><li>Getrennte Unterhaltungen und fehlenden "wer was tut" </li><li>Informationen, die an verschiedenen Orten mit keine Sichtbarkeit Cross-Team nachverfolgt</li></ul><li>Sinkender Produktivität Zeit, wenn ein neues Element auf Pinnwand und Abfangen von aus eine Besprechung fehlende schalten</li></ul>|
+| Anforderungen für die Zusammenarbeit |<ul><li>Schnellen Zugriff auf Project Zeitplan und Task-Zuordnung</li><li>Geöffnete Unterhaltung DDE-Kanal zu jeder in dem Laufenden halten</li><li>Zentraler Ort für die aktuelle Präsentationsdateien und andere Ressourcen</li><li>Möglichkeit, neues Projekt aufzurufen team schnell-Elemente nach-oben-Geschwindigkeit</li><li>Möglichkeit zum fördern und unterstützen voneinander Momentum beibehalten</li></ul>|
+| Zusammenarbeit im Team |<ul><li>Organisieren von Project-Inhalten und Thread Unterhaltungen Team/Kanäle </li><li>SharePoint für das Hosten von PPT-Dateien<sup>1</sup></li><li>Planner/Trello für das Zuweisen von einzelnen Project Aufgaben und Fälligkeitsdatum Datum<sup>1</sup></li><li>Teams für onlinebesprechungen</li><li>Teams mobile app für die Verbindung unterwegs</li></ul> | 
 
--   Optimieren Teams können wie die Benutzeroberfläche?
+Unterstützung der Integration von app oder Ausrichtung in Teams <sup>1</sup> .
 
--   Die am besten wäre Anwendungsfälle zum Hervorheben von in Ihrer Kommunikation?
+**Personen-centric Zusammenarbeit: Verkaufsteam** (zum Beispiel: Ihre Umsätze Regional verteilte team von unterwegs bleiben, bleibt in der Pipeline ausgerichtet werden muss, und wichtige Angebote und Initiativen, die zur Vorbereitung der jährliche Kontingent Ziele helfen zu verstehen)
 
-Die folgende Tabelle enthält Beispiele von universellen Anwendungsfällen für Zusammenarbeit und die Zusammenarbeit.
+| Erwägung | Notizen |
+|---------------|-------|
+| Core-Attribute | <ul><li>Remote (auf Reisen, Hotels, Kundenstandorten) arbeiten</li><li>Beziehung-Experten – externe Core</li></ul> |
+| Zusammenarbeit Herausforderungen heute |<ul><li>Jeder wiederholte Unterhaltungen mit mehreren Feld Vertriebsmitarbeiter (Chat, Anrufe, Konferenzen usw.) – können nicht zusammen gleichzeitig abgerufen werden</li><li>Verpasste Verkaufschancen aus sales "Wins" – nur Freigabe Mundpropaganda lernen</li><li>Zufällige Wiedergabe ständig zwischen Anwendungen:<ul><li>Planungsprozess für den Verkauf in Excel</li><li>Trend in Power BI</li><li>Begleitmaterial in e-Mail</li><li>Kunden-Demo Ressourcen für SharePoint</li><li>1:1-Chats und Point-in-Time-Besprechungen</li><li>Verkauf von Newsgroups in Yammer</li></ul></ul> |
+| Anforderungen für die Zusammenarbeit |<ul><li>Schnellen Zugriff auf Begleitmaterial</li><li>Experte schnell zu erreichen.</li><li>Fast Turn um für Fragen und Genehmigungen </li><li>Sales Besprechungen, Pipeline Reviews (engl.)</li><li>Sales Schulungsressourcen</li><li>Kunden-datenbankverwaltung</li></ul> |
+| Zusammenarbeit im Team |<ul><li>Teams/Kanäle Region oder Kunden entwickelt, um den Fokus Inhalte und Unterhaltungen</li><li>SharePoint für Begleitmaterial-Ressourcen<sup>1</sup></li><li>XLS/Power BI für Pipeline und Datenbanken<sup>1</sup></li><li>Teams für onlinebesprechungen</li><li>Teams mobile app für die Verbindung unterwegs</li><li>Integration von Teams app mit CRM System<sup>1</sup></li><li>Für die Informationsfreigabe und großer Reichweite SME Insights Yammer *<sup>1</sup></li></ul>|
 
-<table>
-<tbody>
-<tr><th width="10%"><strong>Anwendungsfall</strong></th><th width="30%"><strong>Merkmale</strong></th><th width="30%"><strong>Herausforderungen</strong></th><th width="30%"><strong>Mit den Teams</strong></th></tr>
-<tr><td><strong>Persönliche Produktivität</strong></td><td><ul><li>"Vorgehensweise" täglichen Liste</li><li>Abhängigkeit von anderen Benutzern an eine bestimmte Aufgabe</li></ul></td><td><ul><li>E-Mail-Nachrichten und Anlagen können verloren gehen</li><li>Anrufe an die Voicemail ausgeführt werden</li><li>Kollegen sind offline</li><li>Veraltete lokale Kopien aufgelistet werden, auf dem desktop</li></ul></td><td><ul><li>Senden Sie online und offline Nachrichten, die viele Personen Ausfindigmachen müssen</li><li>Permanente Gespräche mit Dateianlagen reduzieren die Notwendigkeit, mehrere Orte suchen oder mehrere Versionen verwalten</li></ul></td></tr>
-<tr><td><strong>Besprechungen</strong></td><td><ul><li>Telefonkonferenzen oder onlinebesprechungen</li><li>Internen oder externen Teilnehmern</li><li>Office und Remote-Teilnehmer</li></ul></td><td><ul><li>Wenig zu kein Kontext bereitgestellt wird, bevor Besprechungen </li><li>Remoteteilnehmern fühlen verbleibt</li><li>Mangelnde visuelle Verbindung</li><li>Auf den neuesten Stand, wenn Sie die Besprechung verpasst haben eine Herausforderung</li><li>Nach dem meeting Momentum geht verloren</li></ul></td><td><ul><li>Erstellen von Momentum vor der Besprechung mit Unterhaltung und gemeinsame Nutzung von Inhalten</li><li>Teilnehmen an für Geräte</li><li>Kontaktaufnahme mit Video und Freigabe von app sicherstellen, dass Ausrichtung</li><li>Aufzeichnen von Besprechungen für absent Teilnehmer</li><li>Aufzeichnen von Notizen, Aktionen (& #64; erwähnungen) für Accountability und leicht Nachsorge</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em>Alles innerhalb einer Schnittstelle!</em></td></tr>
-<tr><td><strong>Gruppieren von Projekten</strong></td><td><ul><li>Viele Beteiligte Projektarbeit</li><li>Informationen und Dokumentfreigabe</li><li>Mithilfe von mehreren apps</li></ul> </td><td><ul><li>Gang Unterhaltungen Ursache mit größeren Gruppe trennen</li><li>Frustration über Doc Speicherort und versionsverwaltung</li><li>Unsicherheit accountability</li></ul> </td><td><ul><li>Halten Sie alle Unterhaltungen im Team/Channel Transparenz</li><li>Verknüpfung auf relevante Dokumente. PIN kritische sowie das Festlegen der Sichtbarkeit sicherzustellen.</li><li>Optimieren der Doc versioning</li><li>Zugriff auf Office und Drittanbieter-apps, tätigen einen true-Hub für Zusammenarbeit</li></ul> </td></tr>
-</tbody>
-</table>
+Unterstützung der Integration von app oder Ausrichtung in Teams <sup>1</sup> .
 
+### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>Tipps zum Erkennen von "gut" für Ihre Strategie für die Zusammenarbeit
 
+Es könnte leicht abrufen eine Strategie für die Zusammenarbeit für jeden Benutzer, jedes Team und jedes Projekt bilden. Nicht für jedes Projekt oder ein Team erfordert eine vollständig definierten Zusammenarbeit-Strategie. Es folgen einige bewährten Methoden für die ersten Schritte aus:
 
-Die folgende Tabelle zeigt ein Beispiel für eine gezielte Anwendungsfall.
+- Berücksichtigen Sie Cross-Team-Projekte, die nur heraus starten oder in Kürze verfügbare.
+    - Veranstaltungsplanung – Koordination mehrerer Teams (Budget, Logistik, Präsentationen und usw.)
+    - Neue Produkt Pilot - Informationsaustausch, Erfassung des Feedbacks in einer kontrollierten Umgebung
 
-| &nbsp;   | **Marketing Anwendungsfall: für neue Produkt Einführung Kampagne arbeiten**      |
-|-----------------|------------------------------------------------------------|
-| **Merkmale** | <ul><li>Cross-Team beteiligten Status Besprechungen</li><li>Kampagne creative Material und messaging Reviews mit dar, Legal und PR-teams</li><li>Projektüberwachungs zum Starten der Endtermin</li></ul>                                                                                |
-| **Herausforderungen**      | <ul><li>Mailing creative Materialien Ergebnisse in mehreren Versionen</li><li>Gang Unterhaltungen Ursache mit größeren Gruppe trennen</li><li>Nachverfolgen der Projektnotizen in OneNote, Statusberichte in Word und Unterhaltungen in Sofortnachrichten und e-Mail-&mdash;zu viele Tools zum Verteilen, und behalten Sie ausgerichtet</li></ul>                                                                       |
-| **Mit den Teams**      | <ul><li>Permanente Gespräche mit Dateianlagen reduzieren die Notwendigkeit, mehrere Orte suchen oder mehrere Versionen verwalten</li><li>Ermöglicht die Beteiligten, schnell mit zentraler Ort für Unterhaltungen, Dateien, Projektnotizen und Status meldet – und bleiben – zu beschleunigen</li><li>PIN-Projektnotizen und Statusbericht zur Liste der Registerkarten für einfachen Zugriff</li><li>& #64; Erwähnung Teammitglieder zum Abrufen einer Antwort oder Feedback, Verwaltungsaufwand verfolgen nach unten oder warten, bis sie wieder online sind.</li></ul> |
+- Identifizieren der Benutzer Rollen und Core Arbeitsgruppen, Herstellen einer Verbindung mit den verschiedenen Möglichkeiten Interaktion miteinander in Teams
 
+    - Sales Teams/Regionen – Außendienst, einfachen Zugriff auf Ressourcen, schnelle Turn um Antworten
+    - HR – standardisierten Prozessen in allen Geschäftsbereichen, konsistenten Ansatz für Einstellung
+    - Firstline Mitarbeiter – Verbindung mit ihren Kollegen/Management, Zugriff auf Prozeduren NEO
 
-> [!Tip]
-> Benötigen Sie Hilfe bei den ersten Schritten? Besuchen Sie die Bibliothek Produktivität: https://aka.ms/productivitylibrary.
+- Berücksichtigen Sie folgende Aspekte:
 
-## <a name="personas"></a>Rollen
-
-Indem Sie wie folgt Personen Level-Analysen, Verständnis von Ihrer Benutzer Rollen und Anwendungsfälle. Nutzen der Zeitpunkt, zu verstehen, die Ihre Benutzer und ihrer Funktionsweise Sie Hilfe benötigen, stellen Sie sicher, dass sie über das notwendige erfolgreich ist, wie die Änderung zu implementieren. Dies kann gezielt bereitgestellten messaging, Schulungen oder sogar Geräten wie Headsets und Webcams enthalten. Beispielsweise erwarten eine Führungskraft Angebot Schulung, auch unterwegs sind Feld Darstellung ein video sahen Belieben Trainings profitieren kann. Darüber hinaus kann Personen auf Dokumentebene Analyse identifizieren, die verschoben werden kann, Teams heute im Vergleich zu, die am besten durch das warten, bis zu einem späteren Zeitpunkt bereitgestellt werden kann.
-
-Beginnen Sie mit dem durch Ihre Benutzerbasis in Gruppen Persona/Kohorte segmentieren (z. B. "Executives", "Außendienst" collaborative Arbeitskräfte oder Retail). Behalten Sie für die Verwaltung Ihrer Liste nicht mehr als acht Gruppen.
-
-### <a name="activity"></a>Aktivität
-
-Identifizieren Sie gezielte Benutzerprofile, die bestimmte technische oder Benutzer Bereitschaft Unterstützung benötigen. Nachfolgend finden Sie eine Beispiel Persona Bewertung für ein Executive-Profil.
-
-<table>
-<tr><th colspan="2">Rolle/Profile: Executive</th></tr>
-<tr><td>Welche Kenndaten Core Rolle definieren (d. h., die sie, sind was tun sie)</td><td><ul><li>Sprach-/Marke der Organisation intern und extern</li><li>Beziehung Experten-</li><li>Schnelles, dynamische Zeitpläne</li><li>Verwenden von mobilen Geräten zu bleiben</li><li>Abhängig von Stellvertretungen wie ihre "Augen und Ohren"</li><li>Meiste Tag ihrer an Besprechungen oder auf dem Telefon</li></ul></td></tr>
-<tr><td>Was sind häufige Verwendungsszenarien für diese Rolle?<br><ital>Rolle zuweisen Sie die universelle Anwendungsfälle oben und dann auf bestimmte Szenarien weiter auszuführen.</ital></td><td><ul><li>Persönliche Produktivität<ul><li>Kunden und Rapport-Erstellen von Anrufen</li></ul></li><li>Besprechungen<ul><li>C-Ebene/beteiligten Reviews (engl.)</li><li>1: n-: All-Hände</li></ul></li><li>Zusammenarbeit an einem Projekt</li></ul></td></tr>
-<tr><td>Welche Funktionalität ist erforderlich?</td><td><ul><li>Delegieren der Synchronisierung</li><li>Kontaktverwaltung (intern und extern)</li><li>Audio aufrufen (PC und PSTN)</li><li>Video-Anruf</li><li>Unterstützung für mehrere Geräte</li><li>Anwendungsfreigabe</li></ul></td></tr>
-<tr><td>Welche Geräte werden benötigt?</td><td><ul><li>Schreibtischtelefon, "Pucks" Freisprechen, Webcam, Desktopclient, mobiler Clients</li></ul></td></tr>
-<tr><td>Was ist der Wert für diese Rolle Teams verwenden?</td><td><ul><li>Teams mobile app bietet hohe Qualität Erfahrung Reisen: Teams unterwegs übernehmen</li><li>Optimierte Dokumentrepository bietet schnellen Zugriff auf Statusberichte und Unterhaltungen, sparen Sie Zeit und frustration</li></ul></td></tr>
-<tr><td>Welche Schulung benötigen sie?</td><td><ul><li>Weißer Handschuh</li><li>Kurze Sitzung: 15 Minuten Hands-On</li></ul></td></tr>
-<tr><td>Zeitpunkt der Einführung</td><td><ul><li>Eintragen von Benutzern ein Segment des Pilotprojekts</li><li>Schließen Sie in der Anfangsphase der Breite Einführung</li><li>Fügen Sie in der zweiten Phase des Breite Einführung nach einfarbige Ergebnisse sind nachweislich</li></ul></td></tr></table>
-
-
+    - Kleine zu starten. Speichern von Projekten für größere und komplexere für erst, nachdem Sie das Modell für die Zusammenarbeit überprüft haben.
+    - Schwerpunkt liegt auf neue Projekte. Vermeiden Sie ein vorhandenes Projekt, das ist gut ändern entwickelten wie dies Workflow unterbrochen werden kann.
+    - Berücksichtigen Sie Timing. Einführung einer neuen Strategie für die Zusammenarbeit bei Sales am Ende Ihres Geschäftsjahres ideal möglicherweise nicht.
+    - Durchlaufen. Keine Notwendigkeit, das Rad neu zu erfinden. Wenn Sie eine Zusammenarbeit Struktur, die funktioniert gefunden, wiederholen Sie es mit anderen Arbeitsgruppen und Projekte. Definieren Sie ein Team für die Vorlage aus, und legen Sie Richtlinien, damit Benutzer schnell in Teams anpassen und Bereitstellen von Konsistenz.
 
 Verwenden Sie die Informationen, die, der Sie über gesammelt haben, um Ihren [bereitschaftsplan für Benutzer](https://aka.ms/UserReadinessPlan)zu informieren.

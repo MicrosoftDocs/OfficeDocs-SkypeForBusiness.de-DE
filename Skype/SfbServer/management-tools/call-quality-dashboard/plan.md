@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Erfahren Sie mehr über welche Aspekte bei der Planung für das Anrufqualität Dashboard zu.'
-ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b524bd344ead2dbc526265f6421881cc6a848b76
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531233"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789369"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen Sie für die Qualitätsdashboard Anruf Skype für Business Server 
  
@@ -83,7 +83,7 @@ Die CQD Daten können über das Portal CQD angezeigt und über REST-API-Aufrufe 
 
 Das Portal ist die schnellste Methode zum Anzeigen der Daten im Cube. Das Portal verfügt über mehrere integrierte Berichte, die dann sofort verwendet werden. Integrierte Berichte sind eine strukturierte Bezeichnungen nacheinander kleiner und kleinere Segmente der Anrufdaten im Benutzerhandbuch verknüpft. Integrierte Berichte markieren auch verschiedene unterschiedlichen Möglichkeiten, die die Daten angezeigt werden können, durch eine Kombination von Diagrammen und Tabellen mit unterschiedlichen Pivot-Elemente, Filter und Maßnahmen zu demonstrieren. Jeder Benutzer, die auf das Portal zugreifen, kann ein eigenes Satz von Berichten verfügen, die er anpassen und freigeben können. Weitere Informationen zur Verwendung von dem Webportal CQD finden Sie unter [Verwendung Dashboard Qualität für Skype für Business Server aufrufen](use.md).
   
-Unterstützte Betriebssysteme für CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2 und WindowsServer 2012.
+Unterstützte Betriebssysteme für CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, WindowsServer 2012 und WindowsServer 2016 (Skype für nur für Business Server 2019 CQD).
   
 Unterstützte Browser für CQD Portal: InternetExplorer 11, InternetExplorer 10 und InternetExplorer 9.
   
@@ -238,7 +238,7 @@ Die folgenden Betriebssysteme werden für CQD benötigt:
     
 - Windows Server 2012 R2 mit IIS 8,5
 
-- WindowsServer 2016 mit IIS
+- WindowsServer 2016 mit IIS 10.0 (Skype für nur für Business Server 2019 CQD)
     
 Im folgenden sind die erforderlichen IIS-Rollendienste (in einer hierarchischen Reihenfolge):
   

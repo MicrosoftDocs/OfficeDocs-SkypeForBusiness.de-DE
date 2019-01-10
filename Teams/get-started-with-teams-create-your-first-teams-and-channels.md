@@ -1,5 +1,5 @@
 ---
-title: Erstellen Sie Ihre erste Teams und Kanäle in Microsoft-Teams
+title: Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496d5f941f245d513aefbf165e37c33d9e431780
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: c2cb8fb04f244139255cb363a6779379824cb709
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519891"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789323"
 ---
-# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Erstellen Sie Ihre erste Teams und Kanäle in Microsoft-Teams
+# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
 
 Einrichtung und Verwendung Ihrer ersten Satz von Teams und Kanäle Ihre Erfahrung mit Teams erstellt und identifiziert Champions, die Teams Akzeptanz in Ihrem Unternehmen helfen kann. 
 
@@ -41,7 +41,7 @@ Hier ist eine vorgeschlagene Struktur für das Team.
 | ------------ | -------------------- | -------------------- |
 | Allgemein | Alle Teams beginnen mit einem allgemeinen Kanal. Verwenden Sie dieses Kanals Ankündigungen vornehmen, als auch Grundkenntnisse zu Teams. |  |
 | Sagen Sie hi | Stellen Sie sich vor dem Team und Freigeben von Teams abgerufen werden soll. |  |
-| Wie kann ich? | Ein Kanal zu Vorgehensweise Fragen stellen.</br>Schritt 1 – installieren Sie die Desktop- und mobilen Clients.</br>Schritt 2 – Sprung in Teams.| Angeheftete Registerkarte, die mit der [Teams Hilfe-center](https://support.office.com/teams)</br>Angeheftete Registerkarte, die mit [Teams Schulungsvideos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) verknüpft</br>Angeheftete Registerkarte, die auf [Desktop- und mobilen Client Downloadlinks Teams](https://teams.microsoft.com/downloads) verknüpft |
+| Wie kann ich | Ein Kanal zu Vorgehensweise Fragen stellen.</br>Schritt 1 – installieren Sie die Desktop- und mobilen Clients.</br>Schritt 2 – Sprung in Teams.| Angeheftete Registerkarte, die mit der [Teams Hilfe-center](https://support.office.com/teams)</br>Angeheftete Registerkarte, die mit [Teams Schulungsvideos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) verknüpft</br>Angeheftete Registerkarte, die auf [Desktop- und mobilen Client Downloadlinks Teams](https://teams.microsoft.com/downloads) verknüpft |
 | Feedback | Tauschen Sie sich Ihren Erfahrungen Teams. | Angeheftete Registerkarte mit Polly-Umfrage|
 | Ideen für zukünftige teams | Tauschen Sie sich, in dem Teams zusätzlichen Wert in Ihrer Organisation steuern können. Was könnte diese Teams werden aufgerufen? Wer würde Mitglieder sein? ||
 | Support | Wenn etwas nicht wie erwartet funktionsfähig ist, verwenden Sie dieses Kanals um Hilfe zu erhalten. ||

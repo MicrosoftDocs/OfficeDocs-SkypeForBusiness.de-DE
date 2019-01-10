@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: f27acda0494a436cf4d4bb7b47f91fda2bb42f22
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371179"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789362"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -59,9 +59,11 @@ In diesem Koexistenzmodus Benutzer bleiben in Skype für Unternehmen – nicht T
 
 ### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Nur Teams (in diesem Modus gestartet parallelen out Sommer 2018 und wird für alle Mandanten in Kalenderjahr 2019 abgeschlossen)
 
+Ein Benutzer **nur Teams** können nur die Skype für Business-Client zur Teilnahme an vorhandenen Skype für Business Besprechungen oder Besprechungen auf Skype für Unternehmen, die von Benutzern nicht aktualisiert oder externen Parteien organisiert wurden. Ein aktualisierter Benutzer kann weiterhin mit anderen Benutzern in der Organisation zu kommunizieren, die noch Skype für Unternehmen mithilfe der Funktionen Interoperabilität zwischen Teams und Skype für Unternehmen. Allerdings kann kein aktualisierter Benutzer einen Skype für Chat, Anruf oder eine Besprechung Business initiieren.
+
 Wie Ihre Organisation für einige oder alle Benutzer als einzige Kommunikation und Zusammenarbeit Tool Teams Verwendung bereit ist, können Sie diese Benutzer **Nur Teams** Modus aktualisieren.
 
-Ein Benutzer **nur Teams** können nur die Skype für Business-Client zur Teilnahme an vorhandenen Skype für Business Besprechungen oder Besprechungen auf Skype für Unternehmen, die von Benutzern nicht aktualisiert oder externen Parteien organisiert wurden. Ein aktualisierter Benutzer kann weiterhin mit anderen Benutzern in der Organisation zu kommunizieren, die noch Skype für Unternehmen mithilfe der Funktionen Interoperabilität zwischen Teams und Skype für Unternehmen. Allerdings kann kein aktualisierter Benutzer einen Skype für Chat, Anruf oder eine Besprechung Business initiieren.
+Zusätzliche Überlegungen zum Verschieben zu Teams nur Kopfzeilen herunterladen finden Sie unter [Teams nur Modus Considerations](teams-only-mode-considerations.md).
 
 ![Skype für Business-Client in einem speziellen Modus, nachdem der Benutzer als Teams nur Benutzer aktualisiert wird] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype für Business-Client in einem speziellen Modus, nachdem der Benutzer als Teams nur Benutzer aktualisiert wird")
 
