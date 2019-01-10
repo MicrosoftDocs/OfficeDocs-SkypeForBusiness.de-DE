@@ -17,52 +17,52 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer auf https://broadcast.skype.com  gehen und Skype-Livekonferenz nutzen möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
-ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
+ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861405"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788965"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a><span data-ttu-id="b4001-105">Blockierte Benutzerlizenzen für Skype Meeting Broadcast</span><span class="sxs-lookup"><span data-stu-id="b4001-105">Blocked user licenses for Skype Meeting Broadcast</span></span>
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a><span data-ttu-id="b2bf7-105">Blockiert Benutzerlizenzen für das Hosten von Skype Besprechung übertragen</span><span class="sxs-lookup"><span data-stu-id="b2bf7-105">Blocked user licenses for hosting Skype Meeting Broadcast</span></span>
 
-<span data-ttu-id="b4001-106">Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer auf https://broadcast.skype.com  gehen und Skype-Livekonferenz nutzen möchten.</span><span class="sxs-lookup"><span data-stu-id="b4001-106">Unfortunately, there are certain user licenses that are blocked when users go to https://broadcast.skype.com and want to use Skype Meeting Broadcast.</span></span> <span data-ttu-id="b4001-107">Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="b4001-107">If a user sees this message, they have one of the blocked licenses assigned to them.</span></span> <span data-ttu-id="b4001-108">Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.</span><span class="sxs-lookup"><span data-stu-id="b4001-108">If you still want them to use it, assign them another Office 365 license.</span></span>
+<span data-ttu-id="b2bf7-106">Leider sind bestimmte Lizenzen für Benutzer, die blockiert werden, wenn der Benutzer wechseln Sie zur https://broadcast.skype.com und Skype Besprechung übertragen hosten möchten.</span><span class="sxs-lookup"><span data-stu-id="b2bf7-106">Unfortunately, there are certain user licenses that are blocked when users go to https://broadcast.skype.com and want to host a Skype Meeting Broadcast.</span></span> <span data-ttu-id="b2bf7-107">Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="b2bf7-107">If a user sees this message, they have one of the blocked licenses assigned to them.</span></span> <span data-ttu-id="b2bf7-108">Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.</span><span class="sxs-lookup"><span data-stu-id="b2bf7-108">If you still want them to use it, assign them another Office 365 license.</span></span>
   
- <span data-ttu-id="b4001-109">*„Ihre Unternehmenslizenz ist nicht für die Verwendung von Skype-Livekonferenzen zugelassen. Bitte wenden Sie sich an Ihren Systemadministrator, um sicherzustellen, dass der Dienst aktiviert ist und dass Sie über die richtige Lizenz verfügen.“*</span><span class="sxs-lookup"><span data-stu-id="b4001-109">*"Your company policy doesn't allow you to use Skype Meeting Broadcast. Check with your system admin to make sure the service is enabled and that you have the correct license."*</span></span> 
+ <span data-ttu-id="b2bf7-109">*„Ihre Unternehmenslizenz ist nicht für die Verwendung von Skype-Livekonferenzen zugelassen. Bitte wenden Sie sich an Ihren Systemadministrator, um sicherzustellen, dass der Dienst aktiviert ist und dass Sie über die richtige Lizenz verfügen.“*</span><span class="sxs-lookup"><span data-stu-id="b2bf7-109">*"Your company policy doesn't allow you to use Skype Meeting Broadcast. Check with your system admin to make sure the service is enabled and that you have the correct license."*</span></span> 
   
-## <a name="blocked-user-licenses"></a><span data-ttu-id="b4001-110">Blockierte Benutzerlizenzen</span><span class="sxs-lookup"><span data-stu-id="b4001-110">Blocked user licenses</span></span>
+## <a name="blocked-user-licenses"></a><span data-ttu-id="b2bf7-110">Blockierte Benutzerlizenzen</span><span class="sxs-lookup"><span data-stu-id="b2bf7-110">Blocked user licenses</span></span> 
 
-<span data-ttu-id="b4001-111">Skype-Livekonferenzen werden blockiert, wenn eine der folgenden Benutzerlizenzen einem Benutzer zugewiesen sind.</span><span class="sxs-lookup"><span data-stu-id="b4001-111">Skype Meeting Broadcast will be blocked if any of the following user licenses are assigned to a user.</span></span>
+<span data-ttu-id="b2bf7-111">Hosten von Ereignissen Skype Besprechung übertragen werden blockiert werden, wenn eines der folgenden Lizenzen für Benutzer, die einem Benutzer zugewiesen sind.</span><span class="sxs-lookup"><span data-stu-id="b2bf7-111">Hosting Skype Meeting Broadcast events will be blocked if any of the following user licenses are assigned to a user.</span></span> <span data-ttu-id="b2bf7-112">Teilnehmer, die streaming broadcast Ereignisse erfordern keine Lizenzen für alle Benutzer.</span><span class="sxs-lookup"><span data-stu-id="b2bf7-112">Attendees who are streaming broadcast events do not require any user licenses.</span></span>
   
-- <span data-ttu-id="b4001-112">Office 365 Education Fac/Personal</span><span class="sxs-lookup"><span data-stu-id="b4001-112">Office 365 Education Fac/Staff</span></span>
+- <span data-ttu-id="b2bf7-113">Office 365 Education Fac/Personal</span><span class="sxs-lookup"><span data-stu-id="b2bf7-113">Office 365 Education Fac/Staff</span></span>
     
-- <span data-ttu-id="b4001-113">Office 365 für Bildungseinrichtungen Schüler</span><span class="sxs-lookup"><span data-stu-id="b4001-113">Office 365 Education Student</span></span>
+- <span data-ttu-id="b2bf7-114">Office 365 für Bildungseinrichtungen Schüler</span><span class="sxs-lookup"><span data-stu-id="b2bf7-114">Office 365 Education Student</span></span>
     
-- <span data-ttu-id="b4001-114">Office 365 Education Plus Fac-Mitarbeiter</span><span class="sxs-lookup"><span data-stu-id="b4001-114">Office 365 Education Plus Fac/Staff</span></span>
+- <span data-ttu-id="b2bf7-115">Office 365 Education Plus Fac-Mitarbeiter</span><span class="sxs-lookup"><span data-stu-id="b2bf7-115">Office 365 Education Plus Fac/Staff</span></span>
     
-- <span data-ttu-id="b4001-115">Office 365 Education Plus Student</span><span class="sxs-lookup"><span data-stu-id="b4001-115">Office 365 Education Plus Student</span></span>
+- <span data-ttu-id="b2bf7-116">Office 365 Education Plus Student</span><span class="sxs-lookup"><span data-stu-id="b2bf7-116">Office 365 Education Plus Student</span></span>
     
-- <span data-ttu-id="b4001-116">Office 365 Education E1 Fac/Staff</span><span class="sxs-lookup"><span data-stu-id="b4001-116">Office 365 Education E1 Fac/Staff</span></span>
+- <span data-ttu-id="b2bf7-117">Office 365 Education E1 Fac/Staff</span><span class="sxs-lookup"><span data-stu-id="b2bf7-117">Office 365 Education E1 Fac/Staff</span></span>
     
-- <span data-ttu-id="b4001-117">Office 365 Education E1 Student</span><span class="sxs-lookup"><span data-stu-id="b4001-117">Office 365 Education E1 Student</span></span>
+- <span data-ttu-id="b2bf7-118">Office 365 Education E1 Student</span><span class="sxs-lookup"><span data-stu-id="b2bf7-118">Office 365 Education E1 Student</span></span>
     
-- <span data-ttu-id="b4001-118">Office 365 Education E3 Fac/Personal</span><span class="sxs-lookup"><span data-stu-id="b4001-118">Office 365 Education E3 Fac/Staff</span></span>
+- <span data-ttu-id="b2bf7-119">Office 365 Education E3 Fac/Personal</span><span class="sxs-lookup"><span data-stu-id="b2bf7-119">Office 365 Education E3 Fac/Staff</span></span>
     
-- <span data-ttu-id="b4001-119">Office 365 Education E3 Fac/Staff Large</span><span class="sxs-lookup"><span data-stu-id="b4001-119">Office 365 Education E3 Fac/Staff Large</span></span>
+- <span data-ttu-id="b2bf7-120">Office 365 Education E3 Fac/Staff Large</span><span class="sxs-lookup"><span data-stu-id="b2bf7-120">Office 365 Education E3 Fac/Staff Large</span></span>
     
-- <span data-ttu-id="b4001-120">Office 365 Education E3 Student</span><span class="sxs-lookup"><span data-stu-id="b4001-120">Office 365 Education E3 Student</span></span>
+- <span data-ttu-id="b2bf7-121">Office 365 Education E3 Student</span><span class="sxs-lookup"><span data-stu-id="b2bf7-121">Office 365 Education E3 Student</span></span>
     
-- <span data-ttu-id="b4001-121">Office 365 A1 student use benefit</span><span class="sxs-lookup"><span data-stu-id="b4001-121">Office 365 A1 student use benefit</span></span>
+- <span data-ttu-id="b2bf7-122">Office 365 A1 student use benefit</span><span class="sxs-lookup"><span data-stu-id="b2bf7-122">Office 365 A1 student use benefit</span></span>
     
-- <span data-ttu-id="b4001-122">Microsoft 365 A1 student use benefits</span><span class="sxs-lookup"><span data-stu-id="b4001-122">Microsoft 365 A1 student use benefits</span></span>
+- <span data-ttu-id="b2bf7-123">Microsoft 365 A1 student use benefits</span><span class="sxs-lookup"><span data-stu-id="b2bf7-123">Microsoft 365 A1 student use benefits</span></span>
 
     
-## <a name="related-topics"></a><span data-ttu-id="b4001-123">See Also</span><span class="sxs-lookup"><span data-stu-id="b4001-123">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="b2bf7-124">See Also</span><span class="sxs-lookup"><span data-stu-id="b2bf7-124">Related topics</span></span>
 
-[<span data-ttu-id="b4001-124">Einführung in Windows PowerShell und Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="b4001-124">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+[<span data-ttu-id="b2bf7-125">Einführung in Windows PowerShell und Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="b2bf7-125">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-[<span data-ttu-id="b4001-125">Einrichten von Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="b4001-125">Set up Skype for Business Online</span></span>](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[<span data-ttu-id="b2bf7-126">Einrichten von Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="b2bf7-126">Set up Skype for Business Online</span></span>](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
  
