@@ -239,8 +239,6 @@
 #### [Verwenden von PowerShell zum Festlegen von Richtlinien für Teams live Ereignisse](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 #### [Konfigurieren von Einstellungen für Teams live Ereignisse](teams-live-events/configure-teams-live-events.md)
 
-
-
 ## Apps und Dienste
 ### [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
 ### [Teams apps Berechtigungen und Aspekte](app-permissions.md)
@@ -519,6 +517,10 @@
 #### Technische Referenz für das direkte Routing
 ##### [Trunkfailover bei ausgehenden Anrufen](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft-Teams, Online aufrufen fließt](microsoft-teams-online-call-flows.md)
+## [Teams Analysen und Berichte](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Bericht zur Verwendung der Teams](teams-analytics-and-reports/teams-usage-report.md)
+### [Bericht über Benutzeraktivität Teams](teams-analytics-and-reports/user-activity-report.md) 
+### [Bericht zur Verwendung der Teams Gerät](teams-analytics-and-reports/device-usage-report.md)
 <!-- ============================================================ -->
 
 
@@ -529,6 +531,8 @@
 ## [Microsoft Education Governance – häufig gestellte Fragen für Administratoren](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
+# Teams für Mitarbeiter firstline
+## [Verwalten der app Schichten für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 # [PowerShell-Cmdlet-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Entwicklerdokumentation für Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform)
