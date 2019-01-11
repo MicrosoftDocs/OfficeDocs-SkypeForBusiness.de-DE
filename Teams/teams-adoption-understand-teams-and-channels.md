@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699717"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896123"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
@@ -30,12 +30,13 @@ Die Konzepte von Teams und Kanäle sind ein wesentlicher Bestandteil einer fehle
 
 - Kanäle werden die Leerzeichen für die Zusammenarbeit innerhalb eines Teams, in dem die aktuelle Arbeit geleistet wird. 
 
-Weitere Informationen zu Teams und Kanäle finden Sie unter [Übersicht über Teams und Kanäle in Microsoft-Teams](teams-channels-overview.md). Weitere Informationen zu Teams und Office 365 Gruppen zu finden, finden Sie unter [Office 365-Gruppen und Microsoft-Teams,](office-365-groups.md) und [erfahren Sie mehr über Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Weitere Informationen zu Teams und Kanäle finden Sie unter [Übersicht über Teams und Kanäle in Microsoft-Teams](teams-channels-overview.md). Umfassende Teams Annahme Anleitungen lesen Sie den [Teams Annahme Guide](https:aka.ms/teamstoolkit). Weitere Informationen zu Teams und Office 365 Gruppen zu finden, finden Sie unter [Office 365-Gruppen und Microsoft-Teams,](office-365-groups.md) und [erfahren Sie mehr über Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
 | In diesem kurze Video anzeigen   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 
 Team Zugriffsarten bestimmen, die zu einem Team stoßen können:

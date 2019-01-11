@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1facd38b3ae5e55b0928127aa054d80e7445210
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791714"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896147"
 ---
 # <a name="about-the-upgrade-framework"></a>Informationen zum Aktualisieren
 
@@ -44,7 +44,8 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 
 **Vorbereiten Ihrer Organisation für Teams**. Um ein erfolgreiches Upgrade auf Teams dazu beitragen, ist es wichtig, reservieren Sie genügend Zeit für die Vorbereitung von. Nicht nur Ihrer Organisation können schnell und einfach zu starten, stellen Sie den Wert des Teams fest, wie Teams ist bereit zur des Upgrades von Skype für Unternehmen zu beschleunigen können. Wenn Sie bereits Teams zusammen mit Skype für Unternehmen aktiviert haben, verwenden Sie diese vor dem upgrade Aktivitäten als Prüfpunkt Bereitschaft Ihrer Organisation überprüfen, bevor Sie Benutzer für Teams aktualisieren. 
 
-> [INFO] Laden Sie das [Upgrade erfolgreich Kit](https://aka.ms/UpgradeSuccessKit) für Vorlage User Readiness Materialien wie Communications und den benutzerumfragen, zusätzlich zu einer Stichprobe Upgrade Projektplan und Pilot Testplan. Elemente, die im Kit verfügbar sind, werden mit einem Sternchen (*) in den Listen unter markiert.
+> [!TIP]
+> Laden Sie das [Upgrade erfolgreich Kit](https://aka.ms/UpgradeSuccessKit) für Vorlage User Readiness Materialien wie Communications und den benutzerumfragen, zusätzlich zu einer Stichprobe Upgrade Projektplan und Pilot Testplan. Elemente, die im Kit verfügbar sind, werden mit einem Sternchen (*) in den Listen unter markiert.
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan: Erstellen Sie Ihrer Upgradeplan, um sicherzustellen, dass Ihre Organisation für langfristigen Erfolg eingerichtet ist
 
