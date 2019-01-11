@@ -1,5 +1,5 @@
 ---
-title: Tools und Downloads für Annahme
+title: Tools und Downloads für die Einführung
 description: Verwenden Sie diese Annahme Ressourcen zur Microsoft-Teams Akzeptanz und andere Office 365-Dienste.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7bf96f5da37b4f70ea24025e18b96a1061a483
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699701"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896139"
 ---
 # <a name="tools-for-driving-adoption"></a>Tools für die Akzeptanz fördern 
 
@@ -144,3 +144,6 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
 
 ### <a name="office-365-champions-program"></a>Office 365 Champions-Programm
 Das Office 365 Champions Programm ist ein kostenlose Programm, mit der Personen, die von Microsoft-Teams und andere Office 365-Dienste Weitere abrufen möchten. Unsere online-Community in der [Technischen Microsoft-Community](https://aka.ms/DriveAdoption) kombiniert mit monatlichen Community-Anrufe, die alle Komponenten der Annahme von Governance bewährte Methoden zu neuen Features gesteuerter markieren. Schließen Sie unsere Community unter https://aka.ms/O365Champions und Zugriff auf aufrecht erhalten möchten, aus anderen Kunden zu hören, und lernen Sie von Microsoft-Experten.  
+
+### <a name="teams-adoption-guide"></a>Teams Annahme Guide
+Auschecken des dieser online-Leitfaden, die Ihnen helfen einführen Teams in Ihrem Unternehmen. Sie enthält viele herunterladbare Tools, Vorlagen und anderen Ressourcen, die Sie entlang Ihrer Teams Weg unterstützen.
