@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Dieser Artikel beschreibt die Vorteile, Planungsaspekte, und Anforderungen für die Implementierung von Microsoft Cloud Voicemail-Dienst. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Konfigurieren von Cloud Voicemail.
-ms.openlocfilehash: 14df7c3d8fbe7cab0bff9482c1543e7a6084039e
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696205"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988170"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planen der Voicemail Cloud-Dienst
 
@@ -77,7 +77,7 @@ Neben den oben genannten Anforderungen die unter Anforderungen müssen zum Verbi
 
 - Eine externe Exchange-Webdienste (EWS)-URL und AutoErmittlung eingerichtet werden oder einige Cloud Voicemail-Features eingeschränkt.
 
--  Wenn Sie eine lokale nur Bereitstellung –, die, nur Exchange und Skype für Unternehmen der lokale Server, aber Sie Voicemail Cloud nutzen möchten, benötigen Sie die ON PREM-Lizenz. 
+-  Wenn Sie eine einzige lokale Bereitstellung & #x 2014; d. h., nur Exchange und Skype für Unternehmen lokalen Servern & #x 2014; aber Sie Voicemail Cloud nutzen möchten, die ON PREM-Lizenz erforderlich. 
 
 ## <a name="migration-and-interoperability"></a>Migration und Interoperabilität
 
@@ -86,7 +86,8 @@ Wenn Sie beabsichtigen, Skype für Business Server 2019 und/oder 2019 der Exchan
 - Exchange Server 2019 bietet nicht mehr Exchange UM Funktionalität.
 - Skype für Business Server 2019 integriert nicht mehr mit Exchange Online UM
 
-Interoperabilität und unterstützten Topologien für die Cloud Voicemail sind in der folgenden Tabelle aufgeführt. Für die Preview-Version funktioniert Cloud Voicemail nur mit Skype für Business Server und Exchange Server 2019 oder Exchange Online.
+Interoperabilität und unterstützten Topologien für die Cloud Voicemail aufgelisteten in der folgenden Tabelle, das die Skype vergleicht für Business Server-Versionen der Benutzer möglicherweise werden, die sich in mit der möglichen Version ihr Exchange-Postfach bereitstellen. Cloud-Voicemail funktioniert nur mit Skype für Business Server und Exchange Server 2019 oder Exchange Online.
+
 
 
 |                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |

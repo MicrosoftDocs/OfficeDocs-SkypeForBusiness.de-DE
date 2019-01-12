@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024ed8c0248d26f803c0b8cd7a4114c2c255cdd5
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 39212613b7ecf86e7138c90adfbf5dc3a021ac46
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791715"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988240"
 ---
 # <a name="teams-only-mode-considerations"></a>Teams nur Modus Aspekte
 
@@ -32,7 +32,7 @@ Tausende von Kunden, die Microsoft-Teams erfolgreich aktualisiert haben, werden 
 > [!IMPORTANT]
 > Wenn Sie nur die Upgrade-Planung beginnen, müssen Sie vollständige Upgrade in der Anleitung und Planen von Ressourcen zu überprüfen. [Beginnen Sie hier](upgrade-introduction.md). 
 
-**Überlegungen zur Koexistenz**: Organisationen, die bereits Skype für Business Online und/oder Skype verwenden, für die Business Server Teams in ihre Umgebung eine Tempo einführen können, die ihren Anforderungen erfüllt. Organisationen können inkrementell Teams an eine bestimmte Gruppe von Benutzern einführen, je nach Bedarf, und Benutzer, die Teams verwenden mit Benutzer zum Verwenden von Skype für Unternehmen und umgekehrt kommunizieren können. Zum Verwalten dieser Erfahrung, die Administratoren verwenden Koexistenz Modi, die durch die Endbenutzer-Client zu definieren, das Routingverhalten eingehender chats und aufruft, sowie, ob neue Besprechungen in Teams oder Skype für Unternehmen geplant werden. Benutzer können mit Benutzern in anderen Organisationen verbinden, wenn der Benutzer auf **Teams nur**aktualisiert wird; jedoch ist am besten bereitgestellt, wenn beide Benutzer Teams verwenden. Benutzer, die auf Teams nur aktualisiert werden, können dennoch Skype für Unternehmen Besprechungen teilnehmen. 
+**Überlegungen zur Koexistenz**: Organisationen, die bereits Skype für Business Online und/oder Skype verwenden, für die Business Server Teams in ihre Umgebung eine Tempo einführen können, die ihren Anforderungen erfüllt. Organisationen können inkrementell Teams an eine bestimmte Gruppe von Benutzern einführen, je nach Bedarf, und Benutzer, die Teams verwenden mit Benutzer zum Verwenden von Skype für Unternehmen und umgekehrt kommunizieren können. Zum Verwalten dieser Erfahrung, die Administratoren verwenden Koexistenz Modi, die durch die Endbenutzer-Client zu definieren, das Routingverhalten eingehender chats und aufruft, sowie, ob neue Besprechungen in Teams oder Skype für Unternehmen geplant werden. Benutzer können mit Benutzern in anderen Organisationen verbinden, wenn der Benutzer auf **Teams nur**aktualisiert wird; jedoch ist am besten bereitgestellt, wenn beide Benutzer Teams verwenden. Benutzer, die auf Teams nur aktualisiert werden können dennoch Skype für Business-Besprechungen teilnehmen. 
 
 > [!NOTE]
 > Benutzer, die auf Teams nur aktualisiert werden, können nicht mit Benutzern kommunizieren, die für die Consumer Skype verwenden.

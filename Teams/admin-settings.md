@@ -15,24 +15,23 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5172781911a944b5fd25042260cebdd77a48ddaa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013867"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988178"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Apps werden Registerkarten, Connectors, Bots oder eine beliebige Kombination der folgenden drei, von einem Drittanbieter-Dienst bereitgestellt. Es gibt Teams Admin Richtlinien, die im Office 365 Administrationscenter auf Steuerelement konfiguriert werden können, welche externen Drittanbieter-apps zulässig sind. Diese Richtlinien können Sie angeben, welche apps zulässig sind und nicht zulässig, neue externe app Verhalten und ob Seite laden apps zulässig ist.
+Apps werden Registerkarten, Connectors, Bots oder eine beliebige Kombination der folgenden drei, von Teams (erste Teilnehmern apps und auch bekannt als Standard-apps) oder einem Drittanbieter (auch als externe apps bezeichnet) bereitgestellt. In der Microsoft-365-Verwaltungskonsole können Sie aktivieren und Deaktivieren von Standard-apps und Konfigurieren von Einstellungen, um externe apps zu steuern. Diese Einstellungen können Sie angeben, welche externen apps zulässig sind und nicht zulässig, neue externe app Verhalten und ob Seite laden apps zulässig ist.
 
-> [!NOTE]
-> Um die Administratoreinstellungen für Apps in Microsoft Teams zu verwalten, wechseln Sie zum Office 365 Admin Center. Öffnen Sie **Einstellungen** > **Dienste und Add-Ins**, und wählen Sie dann **Microsoft Teams** aus. Wenn Sie als Office 365-Administrator angemeldet sind, können Sie diesen Link verwenden:
-> 
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+ Zum Verwalten von Einstellungen für apps in Teams Admin, wechseln Sie zur Microsoft 365 Administrationscenter, und wählen Sie **Einstellungen** > **Services & -add-ins** > **Microsoft-Teams**. Wenn Sie als Office 365-Administrator angemeldet sind, können Sie diesen Link verwenden:
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 Weitere Informationen zu Administratoreinstellungen für Apps erhalten Sie im folgenden Video: 
  
@@ -42,7 +41,7 @@ Weitere Informationen zu Administratoreinstellungen für Apps erhalten Sie im fo
 
 ## <a name="allow-external-apps-in-teams"></a>Zulassen von externen Apps in Microsoft Teams
 
-Standardmäßig ist die Option **Allow external apps in Microsoft Teams** (Externe Apps in Microsoft Teams zulassen) aktiviert, und alle Apps sind ausgewählt.  Wenn Sie diese Option deaktivieren, sind alle externen Drittanbieter-Apps deaktiviert. 
+Standardmäßig ist die Option **Allow external apps in Microsoft Teams** (Externe Apps in Microsoft Teams zulassen) aktiviert, und alle Apps sind ausgewählt.  Wenn Sie diese Einstellung deaktivieren, werden alle externen Drittanbieter-apps deaktiviert. 
 
 ## <a name="enable-new-external-apps-by-default"></a>Standardmäßiges Aktivieren von neuen externen Apps
 
@@ -53,13 +52,13 @@ Um einige Apps zu aktivieren (und andere zu deaktivieren), deaktivieren Sie **Al
 > [!NOTE]
 > Standard-apps beispielsweise derjenigen, die von Microsoft, sind von der Einstellung der **Aktivieren von neuen externen apps standardmäßig** nicht betroffen. Neue apps sind bei Microsoft veröffentlicht standardmäßig aktiviert.
 
-Wenn diese Option aktiviert ist, können Benutzer neue Apps aktivieren, sobald diese zum Microsoft Teams-App-Katalog hinzugefügt werden. Um den Microsoft Teams-App-Katalog zu öffnen, klicken Sie unten in Microsoft Teams auf **Store** und dann auf **Apps**. Wenn Sie die Verfügbarkeit von Apps steuern möchten, deaktivieren Sie diese Option. Wenn Sie die Option deaktiviert haben, müssen Sie natürlich daran denken, neue Apps regelmäßig zu überprüfen, damit Ihrer Organisation keine tollen neuen Apps entgehen. 
+Wenn diese Einstellung aktiviert ist, können Benutzer neue apps aktivieren, sobald zum Teams app-Katalog aufgenommen. Um den Microsoft Teams-App-Katalog zu öffnen, klicken Sie unten in Microsoft Teams auf **Store** und dann auf **Apps**. Wenn Sie möchten steuern, welche apps verfügbar sind, deaktivieren Sie diese Einstellung. Wenn Sie die Option deaktiviert haben, müssen Sie natürlich daran denken, neue Apps regelmäßig zu überprüfen, damit Ihrer Organisation keine tollen neuen Apps entgehen. 
 
 Querladen ist das Verfahren zum Hinzufügen einer App in Microsoft Teams, indem Sie eine ZIP-Datei direkt in ein Team hochladen. Mithilfe von Querladen können Sie Apps schon während der Entwicklung testen. Außerdem können Sie eine App nur zur internen Verwendung erstellen und für Ihr Team freigeben, ohne sie an den Microsoft Teams-App-Katalog im Office Store zu übermitteln. 
 
 Nur Teambesitzer oder Mitglieder mit den entsprechenden Berechtigungen können Apps in Microsoft Teams querladen.  
 
-![Screenshot des Abschnitts erweiterte Apps in den Mandanten geltende-Einstellungen.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+![Screenshot des Abschnitts erweiterte externe Apps.] (media/teams-tenant-wide-settings-external-apps.png "Screenshot des erweiterten externe Apps Abschnitts mit externen apps")
 
 ## <a name="creating-and-uploading-app-packages"></a>Erstellen und Hochladen von App-Paketen 
 

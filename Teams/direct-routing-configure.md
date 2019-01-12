@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297911"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988287"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -81,7 +81,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 ```
   > [!NOTE]
   > 1. Es wird dringend empfohlen festlegen einen Grenzwert für den SBC mit Informationen, die in der Dokumentation SBC gefunden werden kann. Der Grenzwert wird eine Benachrichtigung auslösen, wenn SBC Ebene der Kapazität wird.
-  > 2. Sie können nur den SBC mit FQDN, bei denen der Domänenteil des Namens eine der in Ihrem Mandanten entspricht, außer registrierte Domänen Kopplung \*. onmicrosoft.com. Mithilfe von \*. omicrosoft.com Domänennamen wird für die SBC-FQDN-Namen nicht unterstützt. Angenommen, Sie haben zwei Domänennamen:<br/><br/>
+  > 2. Sie können nur den SBC mit FQDN, bei denen der Domänenteil des Namens eine der in Ihrem Mandanten entspricht, außer registrierte Domänen Kopplung \*. onmicrosoft.com. Mithilfe von \*. onmicrosoft.com Domänennamen wird für die SBC-FQDN-Namen nicht unterstützt. Angenommen, Sie haben zwei Domänennamen:<br/><br/>
   > **Contoso**.com<br/>**"Contoso"**. onmicrosoft.com<br/><br/>
   > Für den Namen SBC können Sie den Namen sbc.contoso.com. Wenn Sie versuchen, den SBC mit einem Namen sbc.contoso.abc Kopplung, wird das System können Sie nicht, wie die Domäne nicht diesen Mandanten gehört.
 
