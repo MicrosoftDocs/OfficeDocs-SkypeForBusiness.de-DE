@@ -12,12 +12,12 @@ description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funkt
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620083"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015333"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -38,8 +38,10 @@ Für ein Teams Benutzer Besprechungen aufgezeichnet werden sollen muss Microsoft
 - Benutzer, das den Richtlinien Unternehmen zugestimmt hat, wenn durch den Administrator einrichten
 - Benutzer verfügt über ausreichend Speicherplatz im Microsoft-Stream für Aufzeichnungen gespeichert werden soll
 - Benutzer hat TeamsMeetingPolicy AllowCloudRecording Einstellung auf True festgelegt
-- Benutzer hat TeamsMeetingPolicy AllowTranscription Einstellung Festlegung auf "true", kann Benutzer auswählen, ob auf die Aufzeichnungen automatisch aufzuzeichnen
 - Benutzer ist keiner anonymen, Gast oder Verbundbenutzer in der Besprechung
+
+> [!NOTE]
+> Darüber hinaus damit können die Person, die die Aufzeichnung initiieren wählen, ob Sie die Aufzeichnung automatisch aufzuzeichnen, des Benutzers TeamsMeetingPolicy - AllowTranscription müssen festgelegt sein auf "true"
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten von Teams Cloud besprechungsaufzeichnung für Benutzer in Ihrer Organisation
 
@@ -90,7 +92,7 @@ Wenn Benutzer ihren Teams Besprechungen aufzeichnen, können sie überprüfen, o
 
 Verwenden Sie die Einstellung AllowTranscription in TeamsMeetingPolicy in Teams PowerShell Kontrolle, ob ein Aufzeichnung Initiator eine Entscheidung für die besprechungsaufzeichnung aufzuzeichnen ruft. Weitere Informationen finden Sie Informationen zum Verwalten von TeamsMeetingPolicy mit Office 365 PowerShell [hier](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Wenn der Benutzer eine benutzerdefinierte Richtlinie zugewiesen haben, erhalten sie die globale Richtlinie, die nicht deaktiviert hat in der Standardeinstellung aktiviert.
+Wenn der Benutzer eine benutzerdefinierte Richtlinie zugewiesen haben, erhalten sie die globale Richtlinie ein, die AllowTranscription standardmäßig deaktiviert hat.
 
 Verwenden Sie das folgende Cmdlet für einen Benutzer auf globale Richtlinie zurückgreifen um eine bestimmte Richtlinie-Zuordnung für einen Benutzer zu entfernen:
 

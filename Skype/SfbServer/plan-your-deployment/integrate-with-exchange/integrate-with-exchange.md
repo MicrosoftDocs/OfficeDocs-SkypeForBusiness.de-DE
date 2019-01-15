@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Zusammenfassung: In diesem Thema finden Sie Informationen zur Integration von Skype for Business Server in Exchange Server 2016 oder Exchange Server 2013.'
-ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789398"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015340"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan zur Integration von Skype for Business mit Exchange Server
  
@@ -108,7 +108,7 @@ Die folgende Tabelle zeigt Einzelheiten zu den unterstützten Funktionen in vers
 |Serverseitig aufgezeichnete Unterhaltungen  <br/> |J  <br/> |J  <br/> |N  <br/> |J  <br/> |J  <br/> |
 
 > [!NOTE]
-> Es ist ein Cloud-Voicemail-Dienst, der für Skype für Business Online, Skype für Business Server 2019, Skype für Business Server 2015 und Skype für Business Server 2013 unterstützt wird.
+> Es ist ein Cloud-Voicemail-Dienst, der für Skype für Business Online, Skype für Business Server 2019, Skype für Business Server 2015 und Lync Server 2013 unterstützt wird.
 > 
 
 ## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
