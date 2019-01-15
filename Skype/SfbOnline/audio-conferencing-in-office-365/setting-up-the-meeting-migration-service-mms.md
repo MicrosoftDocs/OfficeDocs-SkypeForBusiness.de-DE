@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting-Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt, und Skype für Geschäfts- und Microsoft-Teams, Besprechungen für Benutzer automatisch aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: 94f3d315810e6fdee93ffa8abfe6a657ca8b43fd
-ms.sourcegitcommit: 1b9f19b1bd8f33ee2f011cd5ea2d0d75bf8647c9
+ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
+ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27783517"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28019576"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Verwenden die Migration Besprechungsdienst (MMS)
 
@@ -34,7 +34,9 @@ Die Besprechung Migration Service (MMS) handelt es sich um Dienst, mit dem ein B
 
 - Bei der Migration eines Benutzers aus lokalen in die Cloud (an, ob Skype für Business Online oder TeamsOnly).
 - Wenn ein Administrator eine Änderung an den Einstellungen des Benutzers Audiokonferenzen vornimmt 
-- Wenn ein Benutzer auf TeamsOnly-Modus (nur Technologie Akzeptanzprogramm [TAP] für Kunden) aktualisiert wird
+- Wenn ein Benutzer online aktualisiert wird, nur Teams, oder wenn ein Benutzermodus in TeamsUpgradePolicy auf SfBwithTeamsCollabAndMeetings (nur TAP-Kunden) festgelegt ist
+- Bei der Verwendung von PowerShell 
+
 
 Standardmäßig wird MMS automatisch in beiden Fällen ausgelöst, obwohl Administratoren auf der Ebene der Mandanten deaktiviert werden können. Darüber hinaus können Admins ein PowerShell-Cmdlets Sie Besprechung Migration für einen bestimmten Benutzer manuell auslösen.
 
@@ -76,7 +78,7 @@ In diesem Abschnitt wird beschrieben, was geschieht, wenn MMS in jeder der folge
 
 - Wenn ein Benutzer von lokalen in die Cloud migriert
 - Wenn ein Administrator eine Änderung an den Einstellungen des Benutzers Audiokonferenzen vornimmt 
-- Wenn ein Benutzer auf TeamsOnly-Modus (nur TAP-Kunden) aktualisiert wird
+- Wenn die Benutzermodus in TeamsUpgradePolicy auf TeamsOnly oder SfBWithTeamsCollabAndMeetings (nur TAP-Kunden) festgelegt ist
 - Bei der Verwendung von PowerShell 
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>Aktualisieren von Besprechungen, wenn Sie einen lokalen Benutzer in der Cloud verschieben
@@ -111,7 +113,7 @@ Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Aktualisieren von Besprechungen beim Zuweisen der TeamsUpgradePolicy
 
 > [!NOTE]
-> In diesem Abschnitt wird in Kürze verfügbare Funktionalität, die zuerst TAP-Kunden verfügbar sein wird.
+> Dieser Abschnitt beschreibt die Funktionen, die derzeit nur TAP-Kunden zur Verfügung steht.
 
 In der Standardeinstellung meeting Migration wird automatisch ausgelöst werden, wenn ein Benutzer eine Instanz des erteilt wird `TeamsUpgradePolicy` mit `mode=TeamsOnly` oder `mode= SfBWithTeamsCollabAndMeetings`. Wenn Sie nicht möchten, um Besprechungen zu migrieren, wenn Sie eine der folgenden Modi erteilen, und geben Sie dann `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy`.
 
