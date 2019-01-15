@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f649ebce7a1938961d1c9f9ef143617a863a924
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297739"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789167"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -60,13 +60,13 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Problem**|**Verhalten/Symptome**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|PSTN-Anrufer mit der gleichen „Von"-Nummer werden in der Teilnehmerliste der Besprechung als derselbe Benutzer angezeigt.  <br/> |Wenn mehrere PSTN-Anrufer an einer Besprechung teilnehmen und ihre Anrufer-IDs als eine einzige Nummer gekennzeichnet sind, werden diese Anrufer in der Teilnehmerliste der Besprechung als ein einziger Anrufer angezeigt.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
+|PSTN-Anrufer mit der gleichen „Von"-Nummer werden in der Teilnehmerliste der Besprechung als derselbe Benutzer angezeigt.  <br/> |Wenn mehrere PSTN-Anrufer an einer Besprechung teilnehmen und ihre Anrufer-IDs als eine einzige Nummer gekennzeichnet sind, werden diese Anrufer in der Teilnehmerliste der Besprechung als ein einziger Anrufer angezeigt.  <br/> |Keine Problemumgehung.  <br/> |25.9.2017  <br/> |
 |Der Bereich mit den Besprechungsinformationen wird zeitweise nicht angezeigt.  <br/> |Der Bereich mit den Besprechungsinformationen wird im Teams-Client möglicherweise nicht angezeigt, wenn Benutzer versuchen, Telefonnummern einer Konferenzbrücke oder Konferenzkennungen nachzuschlagen.  <br/> |Sie können die Telefonnummern einer Konferenzbrücke oder Konferenzkennungen in den Besprechungsdetails oder im Outlook-Kalender anzeigen.  <br/> |25.9.2017  <br/> |
 |Besprechungseinladungen über das Outlook-Add-In enthalten sinnlose Zeichen in PSTN-Koordinaten für Nicht-US-Gebietsschemas.  <br/> |Beim Planen von privaten Besprechungen mit dem Outlook-Add-In für Microsoft Teams auf einem Computer mit Nicht-US-Gebietsschemas enthalten PSTN-Koordinaten möglicherweise sinnlose Zeichen.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
 |Bei der Auswahl müssen mindestens fünf Ziffern verwendet werden.  <br/> |Benutzer, die aus einer Besprechung eine Nummer zu wählen versuchen, müssen mindestens fünf Ziffern eingeben, obwohl eine Wählplan-Normalisierungsregel verfügbar ist, durch die gewählte kurze Nummern in E.164 normalisiert werden.  <br/> |Geben Sie bei der Auswahl anstelle der internen Durchwahlnummer die Nummer im vollständigen Durchwahlnummernformat oder lokalen Nummernformat ein.  <br/> |25.9.2017  <br/> |
 |Das Auswahlsteuerelement wird zeitweise nicht angezeigt.  <br/> |Das Auswahlsteuerelement ist möglicherweise im Bereich mit den Besprechungsinformationen nicht sichtbar.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
 |Statische Konferenzkennungen werden für Microsoft Teams-Besprechungen nicht unterstützt.  <br/> |Wenn der Administrator die Standardeinstellung außer Kraft setzt und sie von einer dynamischen Konferenzkennung in eine statische Konferenzkennung ändert, wird diese Einstellung für Microsoft Teams-Besprechungen nicht wirksam. Siehe [Verwenden von dynamischen IDs für Audiokonferenzen in Ihrer Organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
-|PSTN-Besprechungs-Koordinaten sind nicht verfügbar für Benutzer von Skype-for-Business  <br/> |Wenn es sich bei dem Benutzer um einen lokalen Skype-for-Business-Benutzer handelt, der mit Lizenzen für Skype-for-Business Online, Audiokonferenzen und Teams ausgestattet ist, enthalten alle Meetings, die mit Teams geplant sind, keine PSTN-Meeting-Koordinaten. <br/> |Keine Problemumgehung.  <br/> |01.02.2018  <br/> |
+|PSTN-Besprechungs-Koordinaten sind nicht verfügbar für lokale Benutzer von Skype for Business  <br/> |Wenn es sich bei dem Benutzer um einen lokalen Skype Business-Benutzer handelt, der mit Lizenzen für Skype for Business Online, Audiokonferenzen und Teams ausgestattet ist, enthalten alle Meetings, die mit Teams geplant sind, keine PSTN-Meeting-Koordinaten. <br/> |Keine Problemumgehung.  <br/> |01.02.2018  <br/> |
 
 ## <a name="authentication"></a>Authentifizierung
 
@@ -163,7 +163,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Benutzer können nicht auf Besprechungen/Connectors zugreifen, verfügen aber über Exchange Online-Postfächer. <br/> |Ein Kunde blockiert aktiv EWS für Dienste in Exchange Online, jedoch muss Microsoft Teams mit den EWS-Richtlinien konform sein. <br/> |Um die Konformität von Microsoft Teams zu erzielen, müssen Sie die folgenden Zeichenfolgen des Benutzer-Agenten (einschließlich der Sternchen) für Microsoft Teams in „EWSAllowList“ hinzufügen: `*skypespaces*` und `*microsoftninja*`. Der folgende Befehl kann verwendet werden: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> Weitere Informationen finden Sie unter https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30.05.2017  <br/>|
+|Benutzer können nicht auf Besprechungen/Connectors zugreifen, verfügen aber über Exchange Online-Postfächer. <br/> |Ein Kunde blockiert aktiv EWS für Dienste in Exchange Online, jedoch muss Microsoft Teams mit den EWS-Richtlinien konform sein. <br/> |Damit Microsoft Teams konform ist, müssen Sie die folgenden Zeichenfolgen des Benutzer-Agents für Microsoft Teams innerhalb von EWSAllowList hinzufügen: `*skypespaces*` und `*microsoftninja*`, einschließlich Sternchen. Der folgende Befehl kann verwendet werden: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> Weitere Informationen finden Sie unter https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30.05.2017  <br/>|
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -205,8 +205,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Benutzerprofilfotos  <br/> | Microsoft Teams verfügt zurzeit nicht über einen Mechanismus, mit dem verhindert werden kann, dass Benutzer Fotos ändern. Das BTS-Team hat sich mit dem Entwicklungsteam getroffen, das den folgenden Vorschlag eingereicht hat: Funktion 108874: IT-Richtlinie zum Deaktivieren des Hochladens von Profilfotos.   <br/> | Wenn Sie die Möglichkeit wünschen, das Hochladen von Profilfotos in Microsoft Teams zu verhindern, geben Sie hier in den Kommentaren Ihre Stimme ab, und beschreiben Sie ein Geschäftsszenario: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |01.03.2017 <br/> |
+|Benutzerprofilfotos  <br/> | Microsoft Teams verfügt zurzeit nicht über einen Mechanismus, mit dem verhindert werden kann, dass Benutzer Fotos ändern. Das BTS-Team hat sich mit dem Entwicklungsteam getroffen, das den folgenden Vorschlag eingereicht hat: Funktion 108874: IT-Richtlinie zum Deaktivieren des Hochladens von Profilfotos.   <br/> | Wenn Sie die Möglichkeit wünschen, das Hochladen von Profilfotos in Microsoft Teams zu verhindern, geben Sie hier in den Kommentaren Ihre Stimme ab, und beschreiben Sie ein Geschäftsszenario: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |01.03.2017 <br/> |
 
 ## <a name="provisioning"></a>Bereitstellung
 
@@ -227,10 +226,6 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Website-Registerkarte führt bei Kunden zu Verwirrung.  <br/> |Website-Registerkarten sind nicht mit dem Browser zu verwechseln. Eine Reihe von Websites, insbesondere solche, die Authentifizierung erfordern oder Popups verwenden, funktionieren nicht, wenn sie als Website-Registerkarte angeheftet werden.  <br/> |Wir arbeiten daran, die Benutzeroberfläche zu verbessern, damit dies für Kunden besser erkennbar ist.  <br/> |02.05.2018  <br/> |
-
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
 |Seit der Aktivierung des bedingten Zugriffs funktionieren Registerkarten nicht mehr. <br/> |Einige Registerkarten werden möglicherweise im Desktopclient nicht mehr geladen, seit im Mandanten bedingter Zugriff aktiviert wurde. Bei Verwendung des Webclients werden die Registerkarten geladen. Davon können unter anderem die folgenden Registerkarten betroffen sein: „Power BI“, „Formulare“, „VSTS“, „PowerApps“ und „SharePoint-Liste“.  <br/> |Um die betroffenen Registerkarten anzuzeigen, müssen Sie Microsoft Teams in Microsoft Edge, Internet Explorer oder Chrome verwenden, und die Erweiterung für Windows 10-Konten muss installiert sein. Für einige Registerkarten ist weiterhin die Webauthentifizierung erforderlich, die im Desktopclient nicht funktioniert, wenn eine Zertifizierungsstelle aktiviert ist. Wir arbeiten gemeinsam mit Partnern daran, diese Szenarien zu ermöglichen. Bisher haben wir Planner, OneNote und Stream aktiviert. <br/> |05.04.2018  <br/>|
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -247,7 +242,11 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Eine SharePoint-Registerkartenseite wird als leerer Bildschirm dargestellt.<br/> |Benutzerdefinierte SharePoint Online-Domänen werden zurzeit nicht unterstützt. Wenn Benutzer versuchen, eine SharePoint-Registerkartenseite hinzuzufügen, wird ein leerer Bildschirm angezeigt. <br/> |Keine Problemumgehung. <br/> |20.08.2018  <br/>|
+|Eine SharePoint-Registerkartenseite wird als leerer Bildschirm dargestellt. <br/> |Benutzerdefinierte SharePoint Online-Domänen werden zurzeit nicht unterstützt. Wenn Benutzer versuchen, eine SharePoint-Registerkartenseite hinzuzufügen, wird ein leerer Bildschirm angezeigt. <br/> |Keine Problemumgehung. <br/> |20.08.2018  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Legacy-OneNote-Registerkarte  <br/> |Legacy-OneNote-Registerkarten, die während der öffentlichen Vorschau von Microsoft Teams erstellt wurden, können nicht umbenannt oder gelöscht werden.  <br/> |Keine Problemumgehung. <br/> |08.11.2017  <br/> |
 
 ## <a name="teams"></a>Teams
 
