@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896139"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015325"
 ---
 # <a name="tools-for-driving-adoption"></a>Tools für die Akzeptanz fördern 
 
@@ -146,4 +146,7 @@ Verwenden Sie die folgenden Tools zur Unterstützung der einzelnen Phasen des Pr
 Das Office 365 Champions Programm ist ein kostenlose Programm, mit der Personen, die von Microsoft-Teams und andere Office 365-Dienste Weitere abrufen möchten. Unsere online-Community in der [Technischen Microsoft-Community](https://aka.ms/DriveAdoption) kombiniert mit monatlichen Community-Anrufe, die alle Komponenten der Annahme von Governance bewährte Methoden zu neuen Features gesteuerter markieren. Schließen Sie unsere Community unter https://aka.ms/O365Champions und Zugriff auf aufrecht erhalten möchten, aus anderen Kunden zu hören, und lernen Sie von Microsoft-Experten.  
 
 ### <a name="teams-adoption-guide"></a>Teams Annahme Guide
-Auschecken des dieser online-Leitfaden, die Ihnen helfen einführen Teams in Ihrem Unternehmen. Sie enthält viele herunterladbare Tools, Vorlagen und anderen Ressourcen, die Sie entlang Ihrer Teams Weg unterstützen.
+Auschecken die [Teams Annahme Daumenkino](https://aka.ms/teamstoolkit), ein online-Entwicklerhandbuch, die Ihnen helfen einführen Teams in Ihrem Unternehmen. Sie enthält viele herunterladbare Tools, Vorlagen und anderen Ressourcen, die Sie entlang Ihrer Teams Weg unterstützen.
+
+### <a name="teams-customer-success-kit"></a>Teams Customer Success Kit
+Das [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) enthält Tools, damit Teams in Ihrer Organisation bereitstellen. Sie umfasst e-Mail-Vorlagen für Ankündigungen, Handzettel Poster, Countdown, und Tipps & Tricks. Darüber hinaus Leitfäden für Teamleiter und IT-Administratoren erste Schritte.
