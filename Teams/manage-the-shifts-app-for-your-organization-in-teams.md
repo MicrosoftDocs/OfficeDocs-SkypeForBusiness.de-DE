@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fdd9c47e54c9ce51e736363eb47227614824a4c
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
+ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27893357"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022915"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der app Schichten für Ihre Organisation im Microsoft-Teams
 
@@ -36,7 +36,11 @@ Es ist wichtig, zu wissen, dass Schichten unterstützt derzeit keine Gastbenutze
 
 Schichten ist in allen Office 365-Abonnements, die Teams, mit ein paar Ausnahmen enthalten verfügbar. Ausnahmen sind US-Regierung Cloud-Community (GCC) und Teams frei. Schichten nicht in Office-365 US-Regierung oder Teams frei angeboten.
 
-Weitere Informationen zu Lizenzierung für Teams finden Sie unter [Office 365-Lizenzierung für Teams](Office-365-licensing.md).
+Weitere Informationen zur Lizenzierung für Teams, einschließlich einer Liste der Office 365-Abonnements, die Teams, finden Sie unter [Office 365-Lizenzierung für Teams](Office-365-licensing.md).
+
+## <a name="location-of-shifts-data"></a>Speicherort der Schichten Daten
+
+Verschiebt Daten werden derzeit in Azure in Rechenzentren in Nordamerika, Western Europa und Asien-Pazifik gespeichert. Weitere Informationen dazu, wo die Daten gespeichert ist finden Sie unter [Wo sind meine Daten](http://o365datacentermap.azurewebsites.net/)?
 
 ## <a name="set-up-shifts"></a>Einrichten von Schichten
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Hier können Sie Updates für Skype for Business Server 2015 und Lync 2013 an einer zentralen Stelle suchen und verwalten. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
-ms.openlocfilehash: 9c7d14e1439d3f7fd88ad6246495fccc1e7ef441
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 5ee195ab6837c8fb68e6768b0dadf5e014129e1b
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699437"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022892"
 ---
 # <a name="skype-for-business-server-updates"></a>Updates für Skype for Business Server
 
@@ -30,7 +30,7 @@ Informationen zu den neuesten Updates für Skype for Business Online und Office�
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
-|Updates für Skype for Business Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064) |Juli 2018  |
+|Updates für Skype for Business Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064) |Januar 2019  |
 |Kumulatives Update für Skype for Business Server, Enterprise Web App | [KB 4018462](https://support.microsoft.com/kb/4018462) |Mai 2017 |
 |Kumulatives Update für Skype for Business Server, Bandbreiten-Richtliniendienst | [KB 4012658](https://support.microsoft.com/kb/4012658) |Mai 2017 |
 |Kumulatives Update für Skype for Business Server, Unified Communications Managed API 5.0, Runtime | [KB 4012657](https://support.microsoft.com/kb/4012657) |Mai 2017 |
