@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft-Partner mit ausgewählten SBC-Anbietern ihre SBCs Zertifizierung arbeiten mit direktem Routing.
-ms.openlocfilehash: feed9c228f1bdc0fb4bb8beb8f403617e9907b9f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214550"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326843"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -63,4 +63,4 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Steht noch aus    |   Steht noch aus  |   Steht noch aus    |
 |                                                                                                                     |      AP 4600         |    Steht noch aus    |   Steht noch aus    |      Steht noch aus      |
 |                                                                                                                     |      VME             |    Steht noch aus    |   Steht noch aus    |      Steht noch aus      |
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    Steht noch aus    |   Steht noch aus    |      Steht noch aus      |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Steht noch aus    |      V3.16.2      |

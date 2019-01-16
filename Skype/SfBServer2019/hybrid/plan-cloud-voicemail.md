@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Dieser Artikel beschreibt die Vorteile, Planungsaspekte, und Anforderungen für die Implementierung von Microsoft Cloud Voicemail-Dienst. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Konfigurieren von Cloud Voicemail.
-ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: 0ea27643acce66484081034b8685c7dcad9aa311
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988170"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326771"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planen der Voicemail Cloud-Dienst
 
@@ -75,9 +75,9 @@ Neben den oben genannten Anforderungen die unter Anforderungen müssen zum Verbi
 
 - In der lokalen Benutzer für Enterprise-VoIP und gehostete Voicemail in Skype für Business Server aktiviert werden müssen.
 
-- Eine externe Exchange-Webdienste (EWS)-URL und AutoErmittlung eingerichtet werden oder einige Cloud Voicemail-Features eingeschränkt.
+- Eine externe Exchange-Webdienste (EWS)-URL und AutoErmittlung muss eingerichtet, oder einige Cloud Voicemail-Features eingeschränkt.
 
--  Wenn Sie eine einzige lokale Bereitstellung & #x 2014; d. h., nur Exchange und Skype für Unternehmen lokalen Servern & #x 2014; aber Sie Voicemail Cloud nutzen möchten, die ON PREM-Lizenz erforderlich. 
+-  Wenn eine lokale nur Deployment& #x 2014; d. h., nur Exchange und Skype für Unternehmen lokalen Servers& #x 2014; aber Sie Voicemail Cloud nutzen möchten, benötigen Sie weitere Lizenzen nicht.
 
 ## <a name="migration-and-interoperability"></a>Migration und Interoperabilität
 

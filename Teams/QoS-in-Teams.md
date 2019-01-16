@@ -1,5 +1,5 @@
 ---
-title: Quality of Service in Microsoft Teams – Microsoft Teams
+title: Implementieren von Quality of Service in Microsoft-Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789094"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326732"
 ---
-# <a name="quality-of-service-qos-in-microsoft-teams"></a>Quality of Service (QoS) in Microsoft Teams
+# <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft-Teams
 
 In diesem Artikel helfen Ihnen bei der Vorbereitung des Netzwerks Ihrer Organisation für Quality of Service (QoS) in Microsoft-Teams.
 
@@ -33,15 +33,15 @@ Beim Priorisieren von Datenverkehr für die Echtzeitkommunikation wie Anrufe ode
 
 Um QoS tatsächlich wirksam wird müssen Sie konsistente QoS-Einstellungen auf von Anfang bis Ende in Ihrer Organisation (Benutzer PCs, Netzwerk-Switches und Router in die Cloud) angewendet werden, da die Qualität der Anrufe von jeder Teil des Pfads, der zur Unterstützung der QoS-Prioritäten fehlschlägt beeinträchtigt werden kann , Video- und Bildschirm Freigaben.
 
-![Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste: lokale Netzwerk und Geräte Kontaktaufnahme mit einem Interconnect-Netzwerk, das wiederum eine Verbindung mit Office 365-Cloud-VoIP und Audiokonferenzen Services herstellt.] (media/Qos-in-Teams-Image1.png "Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste: lokale Netzwerk und Geräte Kontaktaufnahme mit einem Interconnect-Netzwerk, das wiederum eine Verbindung mit Office 365-Cloud-VoIP und Audiokonferenzen Services herstellt.")
+QoS ist ein Mechanismus, den Sie verwenden können, bestimmte Arten von Netzwerkverkehr priorisieren Beachtung von netzwerkverzögerungen über dem anderen Datenverkehr, der weniger beachtet wird. Eine einfache entsprechend besteht darin, dass QoS virtuellen erstellt "Fahrgemeinschaften Spuren" in den Daten Netzwerk, sodass einige Datentypen nie oder selten Verzögerungen auftreten.
 
-_Abbildung 1. Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste_
+Beim Priorisieren von Datenverkehr für die Echtzeitkommunikation wie Anrufe oder freigegebenen Besprechungen in Teams Sie können bieten mehr zuverlässig ein Benutzererlebnis Business-Klasse. Wenn Sie QoS nicht implementieren, freigegebenen Bildschirme in Besprechungen können fixieren, Video kann pixellate, und Farbe UMSCHALT und VoIP-Anrufe können nicht mehr abgehackte und schwierig oder unmöglich zu verstehen. Um QoS tatsächlich wirksam wird müssen Sie konsistente QoS-Einstellungen auf von Anfang bis Ende in Ihrer Organisation (Benutzer PCs, Netzwerk-Switches und Router in die Cloud) angewendet werden, da die Qualität der Anrufe von jeder Teil des Pfads, der zur Unterstützung der QoS-Prioritäten fehlschlägt beeinträchtigt werden kann , Video- und Bildschirm Freigaben.
 
-
-In den meisten Fällen werden im Netzwerk Interconnect einer nicht verwalteten Internet Netzwerkverbindung. 
+![Die Beziehung zwischen einer Organisation Netzwerke und Office 365-Dienste: lokale Netzwerk und Geräte Kontaktaufnahme mit einem Interconnect-Netzwerk, das wiederum eine Verbindung mit Office 365-Cloud-VoIP und Audiokonferenzen Services herstellt.](media/Qos-in-Teams-Image1.png) 
 
 Eine Option zum Beheben von End-to-End-Dienstqualität ist [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Dennoch wird empfohlen, dass Sie QoS auf Ihrem lokalen Netzwerk implementieren. Die Qualität der Kommunikation in Echtzeit Arbeitslasten in Ihrer Bereitstellung zu erhöhen wird und verringern so genannten Chokepunkten gewährleistet. 
 
+In den meisten Fällen werden im Netzwerk herstellen einer Verbindung mit Ihrem Unternehmen in die Cloud Internetzugang nicht verwalteten Netzwerk, in dem kann nicht zuverlässig QoS festgelegt werden. Eine Option zum tatsächlich End-to-End-Dienstqualität zulassen ist [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Empfohlen, Sie QoS implementieren auf die Teile des Netzwerks End-to-End-können Sie steuern, welche, nämlich auf Ihrem lokalen Netzwerk. Die Qualität der Kommunikation in Echtzeit Arbeitslasten in Ihrer Bereitstellung zu erhöhen wird und so genannten Chokepunkten gewährleistet in Ihrer bestehenden Bereitstellung verringern.
 
 ## <a name="prioritize-teams-network-traffic-for-qos"></a>Priorisieren von Teams Netzwerkdatenverkehr für QoS 
 
@@ -70,7 +70,7 @@ Netzwerkverkehr einen Router eingibt, wird der Datenverkehr in einer Warteschlan
 
 _Abbildung 2. Beispiele für die QoS-Warteschlangen_
 
-Nachdem diese vorhanden sind, ist es möglich, vorhersehbare QoS übermittelt werden, da die zugrunde liegenden verwalteten Netzwerks nun weiß, wie klassifizieren, markieren und Priorisieren von Datenverkehr. Aus der Sicht Teams die wichtigsten Konfigurationsschritt ist die Klassifizierung und Kennzeichnung der Pakete, aber für End-to-End-QoS erfolgreich durchgeführt werden müssen Sie auch die Konfiguration der Anwendung mit der zugrunde liegenden Netzwerkkonfiguration sorgfältig ausrichten.
+Nachdem diese vorhanden sind, ist es möglich, vorhersehbare QoS übermittelt werden, da das Netzwerk nun weiß, wie klassifizieren, markieren und Priorisieren von Datenverkehr. Aus der Sicht Teams die wichtigsten Konfigurationsschritt ist die Klassifizierung und Kennzeichnung der Pakete, aber für End-to-End-QoS erfolgreich durchgeführt werden müssen Sie auch die Konfiguration der Anwendung mit der zugrunde liegenden Netzwerkkonfiguration sorgfältig ausrichten.
 
 ## <a name="teams-qos-scenarios"></a>Teams QoS-Szenarien
 
@@ -266,8 +266,7 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, dass die Werte aus d
    ```
    gpresult /H >gp.html
    ```
-
-   ![Screenshot des Konsolenfenster des Befehls Gpresult.] (media/Qos-in-Teams-Image3.png "Screenshot des Konsolenfenster des Befehls Gpresult.")
+ ![Screenshot des Konsolenfenster des Befehls Gpresult.] (media/Qos-in-Teams-Image3.png "Screenshot des Konsolenfenster des Befehls Gpresult.")
 
 3. Suchen Sie in der generierten Datei nach der Überschrift **Gruppenrichtlinienobjekte angewendet** , und stellen Sie sicher, dass die Namen der zuvor erstellten Gruppenrichtlinienobjekte in der Liste der Richtlinien angewendet werden. 
 

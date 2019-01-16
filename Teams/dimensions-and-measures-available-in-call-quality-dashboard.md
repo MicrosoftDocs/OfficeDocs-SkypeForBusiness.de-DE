@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: b648c068131cd01f536aab65ca3cca05cfa0e7c7
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: f374a87a8cfa3645a685b6628a93b0e4d5236191
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620091"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326890"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen
 
@@ -395,7 +395,7 @@ In der folgenden Tabelle werden die derzeit im Anrufqualitäts-Dashboards (CQD) 
 |Audio OnePercent PacketLoss Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiodatenströme mit mehr als 1 % Paketverlust.  <br/> |
 |Audio OnePercent PacketLoss Percentage  <br/> |Prozentsatz  <br/> |Prozentsatz aller Audiodatenströme mit mehr als 1 % Paketverlust.  <br/> |
 |Audio Poor Due To Jitter Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, in denen die Metrik Jitter Schwellenwerte überschreiten, hier aufgelisteten: [Stream Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md).  <br/> |
-|Audio Poor Due To PacketLoss Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, in denen die Packet Verlust Metrik Schwellenwerte überschreiten, hier aufgelisteten:[Stream Klassifizierung in Aufrufen Qualitätsdashboard](stream-classification-in-call-quality-dashboard.md)  <br/> |
+|Audio Poor Due To PacketLoss Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, in denen die Packet Verlust Metrik Schwellenwerte überschreiten, hier aufgelisteten: [Stream Klassifizierung in Aufrufen Qualitätsdashboard](stream-classification-in-call-quality-dashboard.md)  <br/> |
 |Audio Poor Due To Degradation Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, in denen die Metrik Beeinträchtigung Schwellenwerte überschreiten, hier aufgelisteten: [Stream Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Due To RoundTrip Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, in denen die Roundtrip Schwellenwerte überschreiten, hier aufgelisteten: [Stream Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Due To ConcealedRatio Count  <br/> |Anzahl der Datenströme  <br/> |Anzahl der Audiostreams, wobei das Verhältnis von ausgeblendeter Schwellenwerte überschreitet, hier aufgelisteten: [Stream Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md).  <br/> |

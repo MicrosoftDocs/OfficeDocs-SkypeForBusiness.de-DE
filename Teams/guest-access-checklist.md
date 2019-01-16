@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7fa7e7d7999bd42748e1997a4ec73b37ca14a67
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772769"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326709"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================
@@ -71,7 +71,7 @@ Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microso
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Schritt 2: Konfigurieren von Office 365-Gruppen
 
-1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Einstellungen** > **Services & -Add-ins** > **Office 365-Gruppen**.
+1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Einstellungen** > **Services &-Add-ins** > **Office 365-Gruppen**.
 2. Stellen Sie sicher, dass **Let Gruppenmitglieder außerhalb der Organisation Access Gruppe Inhalt** auf **aktiviert**festgelegt ist. Wenn diese Einstellung deaktiviert ist, werden nicht Gäste auf eine beliebige Gruppe Inhalte zugreifen.
 3. Stellen Sie sicher, dass **Let Gruppenbesitzer Personen außerhalb der Organisation zu Gruppen hinzufügen** auf **aktiviert**festgelegt ist. Wenn diese Einstellung deaktiviert ist, werden nicht Besitzer Team neue Gäste hinzufügen können. Diese Einstellung muss mindestens bei Support Gast Access.
 
@@ -82,9 +82,9 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [V
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Schritt 3: Aktivieren des Zugriffs auf der Ebene der Mandant Gast
 
-Zumindest müssen Sie Microsoft-Teams, für alle Benutzer des Lizenztyps **Gast**aktivieren. 
+Zumindest müssen Sie Gast Access für Microsoft-Teams, unter der **Microsoft-Teams & Skype für Business Admin Center**aktivieren. 
 
-1. Wählen Sie in der Teams & Skype für Business Admin Center **Org geltende Einstellungen** > **Gastzugriff**.
+1. Wählen Sie in der & Teams Skype für Business Admin Center **Org geltende Einstellungen** > **Gastzugriff**.
 2. Legen Sie die Option **Zulassen Gast Access in Microsoft-Teams** auf **aktiviert**.
 
     ![Screenshot zeigt ein Beispiel für eine Umschaltfläche Teams Einstellungen](media/set-up-guests-image1.png)
@@ -99,7 +99,7 @@ Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren der Gastzug
 
 Stellen Sie sicher, dass Benutzer Gäste hinzufügen können. Hier ist wie:
 
-1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Einstellungen** > **Sicherheit und Datenschutz**.
+1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Einstellungen** > **Sicherheit & Datenschutz**.
 
      ![Screenshot zeigt ein Beispiel einer Services-Einstellungen](media/guest-access-checklist-Office365Admin_Services_addins.png)
 

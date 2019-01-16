@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: cf6f2118ff147e6c126db6fcbbd0af9dbe155e21
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699399"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326699"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen, ändern oder Entfernen einer Notfall Adresse für Ihre Organisation
 
@@ -83,7 +83,34 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
     
     > [!IMPORTANT]
     > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
+
+## <a name="troubleshooting"></a>Problembehandlung
+
+**Nummer im Status "Fehler".**
+
+Nach dem Erwerb einer Zahl zwischen Office 365-Portal, hat der Status auf **"Fehler"** aus **"Bereitstellung"** geändert.
+
+Dieses Problem tritt häufig auf, wenn über das Portal eine Notruf Adresse zeigen auf einen Speicherort an, der nicht in die Vorwahl Übereinstimmung ist eine Zahl hinzugefügt wird.
+
+Um weitere Informationen zu den Telefonnummer(n) abzurufen, die wurde nicht ordnungsgemäß aktiviert werden, führen Sie die folgenden Powershell aus:
+ 
+> [! Get-CsOnlineTelephoneNumber SYNTAX] | Where-Object {$_. ActivationState - Cnotcontains "Aktiviert"} | fl *
+
+Das Ergebnis, sodass andere Informationen wie Region, Id und ActivationState, sollten auch die stateData das enthalten.
+
+**Beispiel**für eine Zahl Madrid die stateData das zurückgegebene "EMEA-ES – alle-M_MA" werden.
+
+Wenn tatsächlich eine falsche Notfall Adresse verwendet wurde, stellen Sie sicher, dass Sie eine neue Notfall Adresse entspricht die Anzahl Ortsvorwahl erstellt haben, und weisen Sie ihr die Anzahl.
+
+1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
+2. Wechseln Sie zu der **Microsoft-Teams & Skype für Business Admin Center** > **Legacy-Portal**.
+    
+3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Rufnummern**, und doppelklicken Sie dann auf die Anzahl **"Fehler"** hat, und klicken Sie im Menü Website Rechte wählen Sie die **Neue Emergency Adresse**.
+
+
+Beachten Sie, dass nach dem Notfall Adresse ändern, die Anzahl Status in **"Anstehende Aufgaben"** geändert, und es kann bis zu 24 Stunden für die Aktivierung erfolgreich dauern.
+
 ## <a name="related-topics"></a>Verwandte Themen
 [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 

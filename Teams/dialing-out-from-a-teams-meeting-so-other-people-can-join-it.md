@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, was Sie benötigen und wie Besprechungsorganisatoren mithilfe von Microsoft Teams andere Personen anrufen können.
-ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297791"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326858"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können
 
 Als Organisator der Besprechung können Sie sich einwählen, bei Verwendung der app Teams an um andere Personen der Telefone mit demselben Besprechung teilnehmen zu lassen.
 
-Wenn Sie eine Person anwählen, wird empfohlen, ihre vollständige Telefonnummern (einschließlich den Länder-/Regionscode) verwenden möchten.
+Wenn Sie eine Person anwählen, wird empfohlen, ihre vollständige Telefonnummern (einschließlich den Länder-/Regionscode - e. 164-Format) verwenden möchten.
   
   Beachten Sie Folgendes:
 

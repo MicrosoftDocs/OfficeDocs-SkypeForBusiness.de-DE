@@ -1,5 +1,5 @@
 ---
-title: Microsoft-Teams, Verwendung bezogenen Verzeichnissuche
+title: Verwenden der Verzeichnissuche in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531826"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326819"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft-Teams, Verwendung bezogenen Verzeichnissuche
+# <a name="use-microsoft-teams-scoped-directory-search"></a>Verwenden der Verzeichnissuche in Microsoft Teams
 
 Microsoft-Teams, bereichsbasierte Verzeichnissuche finden kann Organisationen virtuelle Grenzen erstellen, die steuern, wie Benutzer suchen und mit anderen Benutzern in ihrer Organisation kommunizieren können. 
 
@@ -32,25 +32,25 @@ Microsoft-Teams können Organisationen benutzerdefinierte Ansichten des Verzeich
 
 Szenarien, die von bereichsbezogenen Verzeichnissuchen profitieren ähneln Address Book Policy Szenarien. Sie möchten beispielsweise bereichsbezogenen Verzeichnissuche in den folgenden Situationen verwenden:
 
-- Ihre Organisation verfügt über mehrere Mandanten innerhalb dessen Mandanten, die Sie trennen möchten. 
-- Ihre Schule möchte Chats zwischen Fakultät und Schüler zu beschränken. 
+- Der Mandant Ihrer Organisation enthält mehrere Unternehmen, die voneinander getrennt sein sollen. 
+- Ihre Bildungseinrichtung möchte Chats zwischen dem Lehrpersonal und den Kursteilnehmern begrenzen. 
  
 Weitere Informationen finden Sie Informationen zu wie adressbuchrichtlinien verwendet werden können [hier](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
 
 > [!IMPORTANT]
-> Adressbuchrichtlinien enthalten nur eine virtuelle Trennung von Benutzern aus der Perspektive Directory. Benutzer können weiterhin initiieren Kommunikation mit anderen Personen vollständige e-Mail-Adressen bereitstellt. 
+> Adressbuchrichtlinien enthalten nur eine virtuelle Trennung von Benutzern aus der Perspektive Directory. Benutzer können weiterhin initiieren Kommunikation mit anderen Personen vollständige e-Mail-Adressen bereitstellt. Es ist außerdem zu beachten, dass alle Benutzerdaten, die bereits, bevor Sie die Erzwingung von neuen oder aktualisierten adressbuchrichtlinien zwischengespeicherten hatte bis zu 30 Tage für Benutzer verfügbar bleiben.
 
 ## <a name="enable-scoped-directory-search"></a>Aktivieren Sie bereichsbezogenen Verzeichnissuche
 
 1.  Verwenden Sie adressbuchrichtlinien, um Ihre Organisation in virtuellen Untergruppen konfigurieren. Weitere Informationen finden Sie unter [Prozeduren für adressbuchrichtlinien](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019).
 
-2.  Melden Sie sich bei Microsoft 365 Administrationscenter, wählen Sie **Admin centers**und wählen Sie dann **Teams & Skype**.
+2.  Melden Sie sich bei Microsoft 365 Administrationscenter, wählen Sie **Admin zentriert**, und wählen Sie dann **Teams & Skype**.
  
-3.  Wählen Sie in der Microsoft-Teams & Skype für Business Administrationscenter **Org geltende Einstellungen** > **Teams Einstellungen**.
+3.  Wählen Sie in der Microsoft-Teams & Skype für Business Administrationscenter, **Org geltende Einstellungen** > **Teams Einstellungen**.
 
 4.  Aktivieren Sie unter **Search**neben- **Bereich der Verzeichnissuche in eine adressbuchrichtlinie (APB) für das Exchange-Teams**die Umschaltfläche **auf**. 
 
-    ![Bereich der Verzeichnissuche in Teams & Skype für Business-Verwaltungskonsole](media/teams-scoped-directory-search-image1.png)
+    ![Bereich der Verzeichnissuche in Teams & Skype für Business Administrationscenter](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > Hybridkonfigurationen (mit lokale Exchange-Teams) unterstützt bereichsbezogenen Search-Modus nicht. 

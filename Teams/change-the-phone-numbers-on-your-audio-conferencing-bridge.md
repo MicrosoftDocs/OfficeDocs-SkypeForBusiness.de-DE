@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1590fe63a712ece4c2f073dc6642b09ac273d32
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531776"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326874"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -220,6 +220,24 @@ Um Zeit sparen, indem Sie diesen Prozess automatisieren, können Sie das [Set-Cs
 
     > [!NOTE]
     > Der oben verwendete Standort muss mit den im Office 365 Admin Center festgelegten Kontaktinformationen der jeweiligen Benutzer übereinstimmen.
+
+## <a name="troubleshooting"></a>Problembehandlung
+
+**Aufheben der Zuweisung Schaltfläche ist deaktiviert, ausgehend**
+
+Aufheben der Zuweisung einer Zahl verwendet werden soll, aber die Schaltfläche ist abgeblendet skalierten und beim hoovering darüber, werden Sie umgeleitet zum Kontaktieren des Supports mit der folgenden Meldung _"Standard oder freigegebenen Zahlen Can´t nicht aus der Brücke zugewiesen werden. Dedizierte gebührenpflichtige oder Aufheben der Zuweisung, wenden Sie sich an Support._".
+
+Um weitere Informationen zu den Bridge(s) zu erhalten, führen Sie die folgenden Powershell aus:
+```
+Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
+```
+
+Das Ergebnis, reservieren andere Informationen wie Identität, Namen und Region, sollten auch die DefaultServiceNumber enthalten.
+
+**Beispiel**zum Aufheben der Zuweisung, die DefaultServiceNumber "8005551234"
+```
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+```
 
 ## <a name="about-windows-powershell"></a>Informationen zu Windows PowerShell
 
