@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
-ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
+ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716374"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28324934"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -41,22 +41,20 @@ Sie sollten nur diese Schritte ausführen, wenn die erforderlichen Skype für Ge
 ## <a name="prepare-the-installation-media"></a>Vorbereiten der Installationsmedien
 <a name="Prep_Media"> </a>
 
-Installieren der Skype Raum Systemen v2 Konsole-app erfordert ein USB-Speichergerät mit mindestens 32GB Arbeitsspeicher als FAT32 Datenträger formatiert. Auf dem Gerät sollten sich keine anderen Dateien befinden. Im USB-Speicher vorhandene Dateien gehen verloren.
+Installieren der Skype Raum Systemen v2 Konsole-app erfordert ein USB-Speichergerät mit mindestens 32GB Kapazität. Es sollte keine anderen Dateien auf dem Gerät vorhanden sein. alle vorhandenen Dateien auf den USB-Speicher geht verloren.
   
 > [!NOTE]
-> Fehler beim Skype Raum Systemen v2 Installationsmedium entsprechend diese Anweisungen wahrscheinlich in unerwartetes Verhalten zu erstellen. Windows 10 Enterprise Jahrestag Update (Version 1607) ist für die Erstellung von Skype Raum Systemen v2 Installation Medien nicht mehr unterstützt.
+> Fehler beim Skype Raum Systemen v2 Installationsmedium entsprechend diese Anweisungen wahrscheinlich in unerwartetes Verhalten zu erstellen.
 
 > [!NOTE]
-> Eine vorhandene v2 Skype Raum Systeme mit Windows 10 Enterprise verschieben in Skype Raum Systemen v2 Update 3 über die Windows Store ausgeführt werden, jedoch sollte eine neue Installation durchgeführt werden, wie unten beschrieben.
+> Der nachfolgend beschriebenen Vorgang ist für die Erstellung des-Installationsmedien Bild neue Skype Raum System v2 Geräte. Vorhandene Geräte aktualisieren standardmäßig automatisch aus Windows Update und den Windows Store.
   
 1. Laden Sie das [Skript „CreateSrsMedia.ps1“](https://go.microsoft.com/fwlink/?linkid=867842) herunter. 
-2. (Optional) Herunterladen Sie, und platzieren Sie alle gewünschten Language Pack CAB-Dateien im gleichen Verzeichnis befindet wie das Skript. Das Skript wird angegeben, in dem Sie Language Pack-Dateien für den Typ von Medien, die Sie erstellen, die Wenn Sie nicht sicher sind, wo Sie die Language Packs von erwerben sind herunterladen können.
-3. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
+2. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
+3. Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen.
 
-Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen. Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Skype Raum Systemen v2 Konsole app](console.md#Reimage)fort.
+Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Skype Raum Systemen v2 Konsole app](console.md#Reimage)fort.
 
-> [!TIP]
-> Sie haben möglicherweise bemerkt, dass wir bestimmte Versionen der Treiber, Skype Raum Systemen v2-Client oder Windows 10 Enterprise nicht mehr aufrufen. Hierbei handelt es sich um absichtlich, wir das Skript zum Abgleich und Kompatibilität für alle Installer überprüfen möchten. Das Skript wird automatisch suchen und abrufen, was für eine unterstützte Konfiguration benötigt wird.  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2
 <a name="Reimage"> </a>
