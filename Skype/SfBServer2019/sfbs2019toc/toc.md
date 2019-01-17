@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 6296e5ea0dde283dc46418d42db97c524277267b
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328285"
+---
 # [Skype für Business Server 2019](../skype-for-business-server-2019.md)
 
 ## [Neuigkeiten](../whats-new.md)
@@ -151,7 +159,6 @@
 ##### [Verschlüsselung](../../SfbServer/plan-your-deployment/security/encryption.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Verwaltungstools](../../SfbServer/plan-your-deployment/security/management-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Reagieren auf Bedrohungen](../../SfbServer/plan-your-deployment/security/addressing-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Bewährte Methoden](../../SfbServer/plan-your-deployment/security/best-practices.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Kapazität](../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Benutzermodell](../plan/user-model-2019.md)
 ##### [Schätzen von VoIP-Datenverkehr](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

@@ -12,12 +12,12 @@ search.appverid: MET150
 description: IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten, festlegen, welche Benutzer Gäste einladen können, und Berichte über Gastbenutzeraktivität abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4375f6e9eb0d36d05d20f96da2410767465fcc2
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772777"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328247"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Benutzerzugriffs in Microsoft Teams
 ======================================
@@ -47,7 +47,7 @@ Sie können Überprüfung Gast Access selbst, bitten Sie Gäste eigenen Mitglied
 
 Access Bewertungen stehen zur Verfügung, mit der P2 Premium Edition von Azure Active Directory, die in Microsoft Enterprise Mobilität + Sicherheit, E5 enthalten ist. Weitere Informationen finden Sie unter "eine Edition in [Azure Active Directory-Editionen](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)wählen". Jeder Benutzer, die mit diesem Feature durch Erstellen einer Überprüfung, eine Überprüfung ausfüllen oder bestätigt wird deren Zugriff interagiert muss eine Lizenz verfügen. 
 
-Wenn Sie beabsichtigen, bitten Sie Gastbenutzer ihre eigenen Access überprüfen, informieren Sie sich über Gast-Benutzer-Lizenzierung. Weitere Informationen finden Sie unter [Azure AD B2B Zusammenarbeit Lizenzierung](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+Teams verhindert nicht die Anzahl von Gästen, die Sie hinzufügen können. Die Gesamtzahl der Gäste, die Ihre Mandanten hinzugefügt werden können, jedoch basiert auf welche Ihrer AAD lizenziert sind. Weitere Informationen finden Sie unter [Azure AD B2B Zusammenarbeit Lizenzierung](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
 
 ## <a name="guest-access-latencies"></a>Gast Access Wartezeiten
 

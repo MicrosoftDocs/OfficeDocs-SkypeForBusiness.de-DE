@@ -1,9 +1,9 @@
 ---
-title: Parken und fortsetzen in Microsoft-Teams
+title: Parken und Fortsetzen von Anrufen in Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/17/2018
+ms.date: 01/16/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Verwenden Sie Parken und fortsetzen, um einen Anruf in der Warteschleife im Dienst Teams in der Cloud.
-ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: 2433a8836a037b530fbd895f7a37567f24d63b50
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294188"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328309"
 ---
-# <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und fortsetzen in Microsoft-Teams
+# <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
 Parken und Fortsetzen von Anrufen ist ein Feature, in dem einen Benutzer einen Anruf in der Warteschleife im Dienst Teams in der Cloud. Wenn Sie ein Anruf geparkt wurde, erstellt der Dienst einen eindeutigen Code für den Abruf von Anrufen. Der Benutzer, der den Anruf oder eine andere Person geparkt kann dann Code und einen unterstützten app oder ein Gerät verwenden, um den Anruf abzurufen. 
 
@@ -50,9 +50,9 @@ Parken und fortsetzen wird durch die folgenden Clients und Geräten derzeit unte
 
 | Funktion | Teams Desktop | Teams Mac-App | Teams Web App (Edge) |Mobile-iOS/Android-App-Teams | Teams IP-Telefon | Skype für Business IP-Telefon |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Parken eines Anrufs | Ja | Ja | Ja | In Kürze verfügbar | In Kürze verfügbar| Nein |
-| Abrufen eines geparkten Anrufs | Ja | Ja | Ja | In Kürze verfügbar | In Kürze verfügbar| Nein |
-| Wieder aufgehoben abgerufenen Anruf ring | Ja | Ja | Ja | In Kürze verfügbar | In Kürze verfügbar| Nein |
+| Parken eines Anrufs | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
+| Abrufen eines geparkten Anrufs | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
+| Wieder aufgehoben abgerufenen Anruf ring | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
 
 ## <a name="configuring-call-park-and-retrieve"></a>Konfigurieren von Parken und fortsetzen
 

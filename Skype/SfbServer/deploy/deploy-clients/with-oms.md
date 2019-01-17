@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie in Microsoft Operations Management Suite mit Weise integrierte, End-to-End-Verwaltung von Skype Raum Systemen v2 Geräte bereitstellen.
-ms.openlocfilehash: 5f370c7e222f75b11b41a39e99b9cba568d58241
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 9a55238296452119679ff3c07147961fcec3eb7a
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450489"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328278"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Bereitstellen der Verwaltung von Skype Room System V2 mit OMS
 
@@ -140,7 +140,7 @@ Gehen Sie folgendermaßen vor, um die benutzerdefinierten Felder aus den aufgeze
 |:-----------------------------|:---------------------------|:----------------|
 | Beschreibung                  | SRSEventDescription_CF     | Nicht aktiviert    |
 | ResourceState                | SRSResourceState_CF        | Nicht aktiviert    |
-| -Parameterwert                | SRSOperationName_CF        | Nicht aktiviert    |
+| OperationName                | SRSOperationName_CF        | Nicht aktiviert    |
 | OperationResult              | SRSOperationResult_CF      | Nicht aktiviert    |
 | OS                           | SRSOSVersion_CF            | Nicht aktiviert    |
 | OSVersion                    | SRSOSLongVersion_CF        | Nicht aktiviert    |
@@ -195,7 +195,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Erstellen von Kacheln, die aktiven Geräte anzeigt
 1.  Wählen Sie **Ansicht Dashboard** mit dem Hinzufügen der Kacheln beginnen.
-2.  Wählen Sie aus dem Katalog **Anzahl & Liste**
+2.  Wählen Sie aus dem Katalog **nummerieren & Liste**
 3.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppieren Titel:** Heartbeat-Status<br>
     **Neue Gruppe:** Ausgewählt
@@ -212,7 +212,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 8.  Wählen Sie **anwenden**und dann auf **Schließen**.
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Erstellen Sie eine Kachel, die Geräte angezeigt, die Probleme mit der Konnektivität
-1.  Wählen Sie aus dem Katalog **Anzahl & Liste** aus, und fügen Sie eine neue Tile.
+1.  Wählen Sie aus dem Katalog **nummerieren & Liste** aus, und fügen Sie eine neue Tile.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppieren Titel:** Leer lassen<br>
     **Neue Gruppe:** Nicht aktiviert
@@ -230,7 +230,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Erstellen Sie eine Kachel, die Geräte angezeigt, die ein Hardwarefehler
 
-1.  Wählen Sie aus dem Katalog **Anzahl & Liste** aus, und fügen Sie eine neue Tile.
+1.  Wählen Sie aus dem Katalog **nummerieren & Liste** aus, und fügen Sie eine neue Tile.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppieren Titel:** Hardwarestatus<br>
     **Neue Gruppe:** Ausgewählt
@@ -248,7 +248,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Erstellen Sie eine Kachel, die Skype Raum Systemen v2 Betriebssystemversionen angezeigt wird.
 
-1.  Wählen Sie aus dem Katalog **rad & Liste** aus, und fügen Sie eine neue Tile.
+1.  Wählen Sie aus dem Katalog **Rad & Liste** aus, und fügen Sie eine neue Tile.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppieren Titel:** Einzelheiten zu Syetem <br>
     **Neue Gruppe:** Ausgewählt
@@ -272,7 +272,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Erstellen von Kacheln, die Skype Raum Systemen v2 Anwendungsversionen anzeigt
 
-1.  Wählen Sie aus dem Katalog **rad & Liste** aus, und fügen Sie eine neue Tile.
+1.  Wählen Sie aus dem Katalog **Rad & Liste** aus, und fügen Sie eine neue Tile.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppieren Titel:** Skype-Chatroom-Systemen v2 Anwendungsdetails <br>
     **Neue Gruppe:** Ausgewählt
@@ -296,7 +296,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Erstellen Sie eine Kachel, die Geräte angezeigt, die einen Application-Fehler
 
-1.  Wählen Sie aus dem Katalog **Anzahl & Liste** aus, und fügen Sie eine neue Tile.
+1.  Wählen Sie aus dem Katalog **nummerieren & Liste** aus, und fügen Sie eine neue Tile.
 2.  Definieren Sie die **allgemeinen** Eigenschaften.<br>
     **Gruppieren Titel:** Leer lassen<br>
     **Neue Gruppe:** Nicht aktiviert
@@ -314,7 +314,7 @@ Alternativ können Sie Ihr eigenes Dashboard erstellen und Hinzufügen von nur K
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Erstellen von Kacheln, die Geräte anzeigt, die neu gestartet wurden
 
-1.  Wählen Sie aus dem Katalog **Anzahl & Liste** aus, und fügen Sie eine neue Tile.
+1.  Wählen Sie aus dem Katalog **nummerieren & Liste** aus, und fügen Sie eine neue Tile.
 2.  Definieren Sie die **allgemeinen** Eigenschaften.<br>
     **Gruppieren Titel:** Leer lassen<br>
     **Neue Gruppe:** Nicht aktiviert
@@ -392,7 +392,7 @@ Konfigurieren Sie eine Regel, die für Skype Raum Systeme v2 Geräte überprüft
 2.  Geben Sie die folgende Abfrage aus, und wählen Sie dann auf **Ausführen**.<br>
     ```
     Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
     | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
     | sort by TimeGenerated desc

@@ -1,9 +1,9 @@
 ---
-title: Anruf-Dateifreigabe und Gruppe Anruf entgegennehmen in Microsoft-Teams
+title: Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 01/16/19
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Rufen Sie die Freigabe, und Gruppe Anruf Pickup-kann Benutzer eingehende Anrufe mit Kollegen freigeben, sodass Anrufe erst erfasst werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: 7f05484f0ba780eb8ed00df68b455d8555c1e4c0
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283151"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328317"
 ---
-# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Anruf-Dateifreigabe und Gruppe Anruf entgegennehmen in Microsoft-Teams
+# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
 Der Anruf Freigabe und der Gruppe anrufen pickup Features von Microsoft-Teams können Benutzer freigeben, die ihre eingehenden mit Kollegen Anrufe, sodass die Kollegen Anrufe, die auftreten entgegennehmen können, wenn der Benutzer nicht verfügbar ist.
 
@@ -44,7 +44,7 @@ Benutzer müssen Enterprise-VoIP, die zum Einrichten und verwenden Anruf Freigab
 
 ## <a name="configure-group-call-pickup"></a>Konfigurieren der Gruppe Anruf Pickup-
 
-Zum Einrichten der Gruppe Anruf Pickup-ein Benutzer eine anrufgruppe zuerst konfiguriert und fügt dann die Benutzer, denen sie ihre Anrufe mit freigeben möchten. Klicken Sie dann, wählen Sie ein Gleichzeitiges Klingeln oder forward Einstellung aufrufen. Weitere Informationen finden Sie unter [anrufweiterleitung und Gleichzeitiges Klingeln in Teams aufrufen](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Zum Einrichten der Gruppe Anruf Pickup-ein Benutzer zuerst konfiguriert eine anrufgruppe (Dies ist nicht dasselbe wie eine Sicherheitsgruppe oder ein Office 365) und fügt dann die Benutzer, die sie ihre Anrufe mit freigeben möchten. Klicken Sie dann, wählen Sie ein Gleichzeitiges Klingeln oder forward Einstellung aufrufen. Weitere Informationen und schrittweise Verfahren finden Sie unter [anrufweiterleitung und Gleichzeitiges Klingeln in Teams aufrufen](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 Rufen Sie die Gruppe erstellen und die Benachrichtigung, dass Voreinstellungen benutzergesteuerten Features sind. Administratoren müssen nicht diese Funktionen für die Benutzer zu konfigurieren. Anruf Gruppen können nicht von Sicherheitsgruppen oder Office 365-Gruppen erstellt werden. Sie müssen in Teams erstellt werden.
 

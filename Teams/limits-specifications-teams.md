@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f77de0515cc026b0d225100e7528a6eae4a7965
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: aa699ebabd57299ef2ced07c2c6d0fc551ac6b17
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240685"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328255"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limits und Spezifikationen für Microsoft Teams
 =============================================
@@ -30,14 +30,14 @@ Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und
 
 |Funktion    | Maximale Grenzwert |
 |-----------|---------------|
-|Anzahl der Teams, die ein Benutzer erstellen kann | Kann ein Grenzwert von 250 Objekt & sup1:         |
+|Anzahl der Teams, die ein Benutzer erstellen kann | Kann ein limit&sup1 250-Objekt;         |
 |Anzahl der Elemente in einem team | 2.500       |
 |Anzahl der Elemente in einer [Organisation geltende team](create-an-org-wide-team.md) | 2.500       |
-|Anzahl der Teams, die ein globaler Administrator erstellen können        | 500.000   |
+|Anzahl der Teams, die ein globaler Administrator erstellen können        |  500.000   |
 |Anzahl der Teams, die ein Office 365-Mandanten enthalten kann    | 500.000     |
-|Anzahl der Kanäle pro team    | 200         |
+|Anzahl der Kanäle pro team    | 200 (einschließlich der gelöschten Kanäle)         |
 
-& sup1; Alle Verzeichnisobjekt in Azure Active Directory wird für diese Grenze.
+&sup1; Alle Verzeichnisobjekt in Azure Active Directory wird für diese Grenze.
 
 <a name="meetings-and-calls"></a>Besprechungen und Telefonkonferenzen 
 ------------------
