@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6296e5ea0dde283dc46418d42db97c524277267b
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 05cd733e96ad77b0a413c9846ceb3697b45eec13
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328285"
+ms.locfileid: "28694782"
 ---
 # [Skype für Business Server 2019](../skype-for-business-server-2019.md)
 
@@ -319,7 +319,6 @@ ms.locfileid: "28328285"
 ### [Phase 2: Vorbereiten der migration](../migration/phase-2-prepare-for-migration.md)
 #### [Anwenden von Updates auf legacy-installation](../migration/apply-updates.md)
 #### [Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung](../migration/configure-dns-records-for-pilot-pool-deployment.md)
-#### [Ausführen von Best Practices Analyzer](../migration/run-best-practices-analyzer.md)
 #### [Sichern von Systemen und Daten](../migration/back-up-systems-and-data.md)
 #### [Konfigurieren von Clients für die migration](../migration/configure-clients-for-migration.md)
 #### [Überprüfen der legacy-Umgebung, von dem Sie migrieren](../migration/verify-environment.md)
