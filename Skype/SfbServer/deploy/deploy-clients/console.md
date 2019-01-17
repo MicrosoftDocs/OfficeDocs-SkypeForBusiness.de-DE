@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
-ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 00203c8aa781c489d8a1cc8c2bf91a364bea057f
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326716"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694720"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
  
@@ -56,6 +56,13 @@ Installieren der Skype Raum Systemen v2 Konsole-app erfordert ein USB-Speicherge
 > [!CAUTION]
 > Der Name des Ordners, den Sie das Medium Erstellungsskript aus ausführen kann keine Leerzeichen enthalten. Das Skript schlägt fehl, wenn ein Leerzeichen in Ordnernamen vorhanden ist.
 
+Das Skript CreateSrsMedia.ps1 automatisiert die folgenden Aufgaben:
+
+1. Laden Sie den neueste Version MSI-Installer für Skype Raum Systemen v2.
+2. Bestimmen des Builds von Windows, die der Benutzer eingeben muss. Die am häufigsten kürzlich veröffentlichten Versionen möglicherweise oder möglicherweise nicht getestet und für die Verwendung mit Skype Raum System v2 Geräte unterstützt werden.
+3. Laden Sie die erforderliche unterstützende Komponenten.
+4. Die erforderlichen Komponenten auf dem Installationsmedium zusammenstellen.
+
 Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Skype Raum Systemen v2 Konsole app](console.md#Reimage)fort.
 
     
@@ -74,11 +81,11 @@ Nun müssen Sie die Setup-Medien anwenden, die Sie erstellt haben. Das Zielgerä
 
 5. Starten Sie die Installationsdiskette USB. Weitere Informationen finden Sie in den Anweisungen des Herstellers. Wenn Ihr Zielgerät Surface Pro ist, gehen Sie folgendermaßen vor, der USB-Installationsdatenträger zu starten:
 
-    1. Halten Sie weiterhin die Lautstärke (-) gedrückt halten.
+    a. Halten Sie weiterhin die Lautstärke (-) gedrückt halten.
 
-    2. Drücken und halten.
+    b. Drücken und halten.
 
-    3. Wenn Windows Setup gestartet wurde, lassen Sie die Leiser-Taste (-) los.
+    c. Wenn Windows Setup gestartet wurde, lassen Sie die Leiser-Taste (-) los.
 
 8. Das System wird heruntergefahren, sobald die Installation abgeschlossen ist.
     

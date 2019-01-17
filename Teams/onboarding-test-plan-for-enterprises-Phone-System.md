@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 442054ab5ea307dec078a175a28d0a1eece16453
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371417"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694790"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihr Telefonsystem mit Aufrufen plant in Plan zum Testen von Teams für Unternehmen 
 ============================================================================================
@@ -82,7 +82,7 @@ Im nächste Schritt werden mit dieser Baseline identifiziert bewerten die neuest
 -   Erfüllen Sie Ihre Benutzer, Funktionen und bereichsanforderungen in die Zeitachse Ihrer Bereitstellung, ob Sie bestätigen können, dass die neuesten öffentlichen Roadmap Telefonsystem mit Aufrufen plant Features beschrieben
 
 > [!TIP]
-> Die neueste Teams-Roadmap für die Identifizierung von Telefonsystem mit Aufrufen plant Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/skype2teamsroadmap>.
+> Die neueste Teams-Roadmap für die Identifizierung von Telefonsystem mit Aufrufen plant Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/O365Roadmap>.
 
 Nun, da das Telefonsystem mit Persona plant aufrufen und Features definiert wurden, werden die nächsten Kriterien für die Auswertung der Interoperabilität Erfahrung mit Teams. Weitere Informationen über die Interoperabilität-Erfahrung zusammen mit verfügbaren Konfigurationsoptionen finden Sie unter [Microsoft-Teams und Skype für die Business-Interoperabilität](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
@@ -233,7 +233,7 @@ Auf allgemeiner Ebene bestehen diese Ressourcen in der Regel aus:
 
 | Ressourcentyp | Erforderlichen Ressourcen                                           | Beschreibung der Ressource |
 |---------------|--------------------------------------------------------------|----------------------|
-| Personen        | Beteiligten Test Lead Tester                               | TBD                  |
+| Kontakte        | Beteiligten Test Lead Tester                               | TBD                  |
 | Technologie    | Zugriff auf Office 365 mit die folgenden Dienste aktiviert:<ul><li>Lizenzierung der Office 365-E5 zugewiesen</li><li>Aufrufen von nationalen und internationalen Plan zugewiesen</li></ul>    | TBD                  |
 | Support       | Testen der Administrator Unterstützung Testleiter Supporttechniker Test | TBD                  |
 
@@ -389,7 +389,7 @@ In der Regel enthält ein Fehler Bericht und-Wartung Plan Folgendes:
 
 | Fehler-ID                                | Beschreibung des Fehlers                                                                                 | Fehler Priorität Bewertung                                           | Zugewiesene defekt Besitzer | Zugewiesene defekt Ausweitung Punkt | Fehler Ausweitung-Methode                                          | Fehler-status | Erforderliche Auflösung nach Datum | Statusdatum |
 |------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1                                        | Wenn der Benutzer eine vierstellige Erweiterung eingibt, schlägt fehl, versucht, einen ausgehenden Anruf, setzen Sie der Anruf. | Mittel                                                               | Lisa grau             | Louis Lahr                       | Wöchentliche Ursachenanalyse überprüfen hoher Priorität e-Mails an betroffene beteiligten | Öffnen Sie die .          | ASAP                        | 1/12/2018   |
+| 1                                        | Wenn der Benutzer eine vierstellige Erweiterung eingibt, schlägt fehl, versucht, einen ausgehenden Anruf, setzen Sie der Anruf. | Mittel                                                               | Lisa grau             | Louis Lahr                       | Wöchentliche Ursachenanalyse überprüfen hoher Priorität e-Mails an betroffene beteiligten | Öffnen Sie           | ASAP                        | 1/12/2018   |
 
 
 
@@ -599,7 +599,7 @@ Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Website
 
 
 
-| Metrik                                                        |  Target                                                                                                            | Weekday: Geschäftszeiten 9:30 Uhr bis 11:00                                                                                                                                                                                                                                                                                                 | Weekday: Geschäftszeiten 14:30 Uhr bis 4:30 Uhr | Weekday: nach Stunden 10:30 Uhr auf 12:30 Uhr ausgeführt. | Wochenende: nach Stunden 9:30 Uhr um 11:30 Uhr ausgeführt. | Wochenende: nach Stunden 14:30 Uhr bis 4:30 Uhr |
+| Metrik                                                        | Target                                                                                                             | Weekday: Geschäftszeiten 9:30 Uhr bis 11:00                                                                                                                                                                                                                                                                                                 | Weekday: Geschäftszeiten 14:30 Uhr bis 4:30 Uhr | Weekday: nach Stunden 10:30 Uhr auf 12:30 Uhr ausgeführt. | Wochenende: nach Stunden 9:30 Uhr um 11:30 Uhr ausgeführt. | Wochenende: nach Stunden 14:30 Uhr bis 4:30 Uhr |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
 | Latenz (ein Weg)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Wartezeit (Roundtripzeit oder Zeit)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
@@ -615,7 +615,7 @@ Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Website
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Testen der Schwachstellen  </th></tr> 
 <tr><td><strong>Problem</strong>: hoher Wartezeit</td><td><strong>Remediation:</strong> Untersuchen Sie die Paket-routing, und implementieren Sie die optimale Route.</td></tr>
-<tr><td><strong>Problem</strong>: Round-Trip Zeit ist nicht & #39; die Latenz Doppelklicken t</td><td><strong>Remediation:</strong> Überprüfen Sie eine mögliche Firewall oder dem Router Konfigurationsproblem. Untersuchen Sie Datenverkehr Pfade.</td></tr>
+<tr><td><strong>Problem</strong>: Roundtripzeit Isn& #39; die Latenz Doppelklicken t</td><td><strong>Remediation:</strong> Überprüfen Sie eine mögliche Firewall oder dem Router Konfigurationsproblem. Untersuchen Sie Datenverkehr Pfade.</td></tr>
 <tr><td><strong>Problem</strong>: hohe Paketverluste </td><td><strong>Remediation:</strong> Überprüfen Sie, ob über das Netzwerk Planner genügend Bandbreite zugewiesen wurde. </td></tr>
 <tr><td><strong>Problem</strong>: hohe Jitter </td><td> <strong>Remediation:</strong> Überprüfen Sie, ob die richtigen differentiated Services Code Point (DSCP)-Werte verwendet werden. </td></tr>
 <tr><td><strong>Problem</strong>: hohe Paketverluste </td><td><strong>Remediation:</strong> Untersuchen von Paketverlusten. </td></tr>

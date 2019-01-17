@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 6f1068a2e77211542fd56971615bab7cf23af39e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789384"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694915"
 ---
 # <a name="upgrade-pro"></a>Pro aktualisieren
 
@@ -37,7 +37,7 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 
 ## <a name="pre-upgrade"></a>Vor dem Upgrade
 
-**Bereiten Sie Ihre Organisation für Teams.**  Um ein erfolgreiches Upgrade auf Teams dazu beitragen, ist es wichtig, reservieren Sie genügend Zeit für die Vorbereitung von. Nicht nur Ihrer Organisation können schnell und einfach zu starten, stellen Sie den Wert des Teams fest, wie Teams ist bereit zur des Upgrades von Skype für Unternehmen zu beschleunigen können. Überwachen der [Roadmap](https://aka.ms/skype2teamsroadmap) für die Verbesserungen, die für Teams geplant werden. Dies hilft Ihnen die rechts Upgrade Zeitachse für Ihre Organisation zu identifizieren. Wenn Sie bereits Teams zusammen mit Skype für Unternehmen aktiviert haben, verwenden Sie diese vor dem upgrade Aktivitäten als Prüfpunkt Bereitschaft Ihrer Organisation überprüfen, bevor Sie Benutzer für Teams aktualisieren. 
+**Bereiten Sie Ihre Organisation für Teams.**  Um ein erfolgreiches Upgrade auf Teams dazu beitragen, ist es wichtig, reservieren Sie genügend Zeit für die Vorbereitung von. Nicht nur Ihrer Organisation können schnell und einfach zu starten, stellen Sie den Wert des Teams fest, wie Teams ist bereit zur des Upgrades von Skype für Unternehmen zu beschleunigen können. Überwachen der [Roadmap](https://aka.ms/O365Roadmap) für die Verbesserungen, die für Teams geplant werden. Dies hilft Ihnen die rechts Upgrade Zeitachse für Ihre Organisation zu identifizieren. Wenn Sie bereits Teams zusammen mit Skype für Unternehmen aktiviert haben, verwenden Sie diese vor dem upgrade Aktivitäten als Prüfpunkt Bereitschaft Ihrer Organisation überprüfen, bevor Sie Benutzer für Teams aktualisieren. 
 
 > [!Tip]
 > Laden Sie das [Upgrade Erfolg Kit](https://aka.ms/UpgradeSuccessKit) für Vorlage User Readiness Materialien wie Communications und den benutzerumfragen, zusätzlich zu einem Upgrade Beispielprojektplan und pilot Testplan. Elemente, die im Kit verfügbar sind mit einem Sternchen gekennzeichnet sind (\*) in den folgenden Listen.  
@@ -123,5 +123,5 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 > Unsere Pro Upgrade Inhalte ist ständig entwickelt. Achten Sie darauf, dass wieder für die neueste Anleitung prüfen und [Teams Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)lesen. 
 
 > [!Important]
-> Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, starten Sie möglicherweise Upgradeoptionen in die PowerShell-Cmdlets oder Teams & Skype für Business-Verwaltungskonsole sehen. Durch die Option aktualisieren bedeutet nicht unbedingt, dass Ihre Organisation bereit, damit diese Änderung ist. Bestätigen Sie für eine optimale Benutzer wünschen, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, überprüfen Sie, ob Ihr Netzwerk ist bereit zur Unterstützung von Teams, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams.
+> Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, können Sie Upgradeoptionen in den PowerShell-Cmdlets oder Teams & Skype für Business-Verwaltungskonsole sehen starten. Durch die Option aktualisieren bedeutet nicht unbedingt, dass Ihre Organisation bereit, damit diese Änderung ist. Bestätigen Sie für eine optimale Benutzer wünschen, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, überprüfen Sie, ob Ihr Netzwerk ist bereit zur Unterstützung von Teams, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams.
  

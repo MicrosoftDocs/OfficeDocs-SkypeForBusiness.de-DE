@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373786"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694861"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihre Audiokonferenzen in Plan zum Testen von Teams für Unternehmen 
 ===============================================================================
@@ -80,7 +80,7 @@ Als Teil der Definition von Audiokonferenzen Feature Anforderungen für Benutzer
 -   Gibt an, ob Sie bestätigen, dass Audiokonferenzen in die neuesten öffentlichen Roadmap beschriebenen Features Ihrer Benutzer, Funktionen und bereichsanforderungen in die Zeitachse Ihrer Bereitstellung erfüllt.
 
 > [!TIP]
-> Die neueste Teams-Roadmap für die Identifizierung von Audiokonferenzen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/skype2teamsroadmap>.
+> Die neueste Teams-Roadmap für die Identifizierung von Audiokonferenzen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/O365Roadmap>.
 
 Nun, da der Features und Audiokonferenzen Persona definiert wurden, werden die nächsten Kriterien für die Auswertung der Interoperabilität Erfahrung mit Teams. Weitere Informationen über die Interoperabilität-Erfahrung zusammen mit verfügbaren Konfigurationsoptionen finden Sie unter [Microsoft-Teams und Skype für die Business-Interoperabilität](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
@@ -232,7 +232,7 @@ Auf allgemeiner Ebene bestehen diese Ressourcen in der Regel aus:
 
 | Ressourcentyp | Erforderlichen Ressourcen                                           | Beschreibung der Ressource |
 |---------------|--------------------------------------------------------------|----------------------|
-| Personen        | Beteiligten Test Lead Tester                               | TBD                  |
+| Kontakte        | Beteiligten Test Lead Tester                               | TBD                  |
 | Technologie    | Zugriff auf Office 365 mit die folgenden Dienste aktiviert:<ul><li>Lizenzierung der Office 365-E5 zugewiesen</li><li>Aufrufen von nationalen und internationalen Plan zugewiesen</li></ul>    | TBD                  |
 | Support       | Testen der Administrator Unterstützung Testleiter Supporttechniker Test | TBD                  |
 
@@ -392,7 +392,7 @@ In der Regel enthält ein Fehler Bericht und-Wartung Plan Folgendes:
 
 | Fehler-ID                                | Beschreibung des Fehlers                                                                                          | Fehler Priorität Bewertung                                           | Zugewiesene defekt Besitzer | Zugewiesene defekt Ausweitung Punkt | Fehler Ausweitung-Methode                                          | Fehler-status | Erforderliche Auflösung nach Datum | Statusdatum |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1    | Für Benutzer, die RHM aktiviert ist, wählen Sie sich werden nicht über die Teams Outlook-add-in Planung Koordinaten aufgefüllt. | Mittel                                                               | Lisa grau             | Louis Lahr                       | Wöchentliche Ursachenanalyse überprüfen hoher Priorität e-Mails an betroffene beteiligten | Öffnen Sie die .          | ASAP                        | 1/12/2018   |
+| 1    | Für Benutzer, die RHM aktiviert ist, wählen Sie sich werden nicht über die Teams Outlook-add-in Planung Koordinaten aufgefüllt. | Mittel                                                               | Lisa grau             | Louis Lahr                       | Wöchentliche Ursachenanalyse überprüfen hoher Priorität e-Mails an betroffene beteiligten | Öffnen Sie           | ASAP                        | 1/12/2018   |
 
 
 
@@ -601,7 +601,7 @@ Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Website
 
 
 
-| Metrik                                                        |  Target                                                                                                            | Weekday: Geschäftszeiten 9:30 Uhr bis 11:00                                                                                                                                                                                                                                                                                                 | Weekday: Geschäftszeiten 14:30 Uhr bis 4:30 Uhr | Weekday: nach Stunden 10:30 Uhr auf 12:30 Uhr ausgeführt. | Wochenende: nach Stunden 9:30 Uhr um 11:30 Uhr ausgeführt. | Wochenende: nach Stunden 14:30 Uhr bis 4:30 Uhr |
+| Metrik                                                        | Target                                                                                                             | Weekday: Geschäftszeiten 9:30 Uhr bis 11:00                                                                                                                                                                                                                                                                                                 | Weekday: Geschäftszeiten 14:30 Uhr bis 4:30 Uhr | Weekday: nach Stunden 10:30 Uhr auf 12:30 Uhr ausgeführt. | Wochenende: nach Stunden 9:30 Uhr um 11:30 Uhr ausgeführt. | Wochenende: nach Stunden 14:30 Uhr bis 4:30 Uhr |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
 | Latenz (ein Weg)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Wartezeit (Roundtripzeit oder Zeit)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
@@ -615,7 +615,7 @@ Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Website
 <tr><th colspan="2">Testen der highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: hoher Wartezeit</td><td><strong>Remediation:</strong> Untersuchen Sie die Paket-routing, und implementieren Sie die optimale Route.</td></tr>
-<tr><td><strong>Problem</strong>: Round-Trip Zeit ist nicht & #39; die Latenz Doppelklicken t</td><td><strong>Remediation:</strong> Überprüfen Sie eine mögliche Firewall oder dem Router Konfigurationsproblem. Untersuchen Sie Datenverkehr Pfade.</td></tr>
+<tr><td><strong>Problem</strong>: Roundtripzeit Isn& #39; die Latenz Doppelklicken t</td><td><strong>Remediation:</strong> Überprüfen Sie eine mögliche Firewall oder dem Router Konfigurationsproblem. Untersuchen Sie Datenverkehr Pfade.</td></tr>
 <tr><td><strong>Problem</strong>: hohe Paketverluste </td><td><strong>Remediation:</strong> Überprüfen Sie, ob über das Netzwerk Planner genügend Bandbreite zugewiesen wurde. </td></tr>
 <tr><td><strong>Problem</strong>: hohe Jitter </td><td> <strong>Remediation:</strong> Überprüfen Sie, ob die richtigen differentiated Services Code Point (DSCP)-Werte verwendet werden. </td></tr>
 <tr><td><strong>Problem</strong>: hohe Paketverluste </td><td><strong>Remediation:</strong> Untersuchen von Paketverlusten. </td></tr>
@@ -643,7 +643,7 @@ Durchgehen Sie, um eine partielle Port einer Zahl Service aus Ihrer aktuellen PS
 
 Identifizieren Sie die Anzahl von Tests, die Sie Port zu Office 365 als eine Einwahlnummer (Service-Nummer) für Audiokonferenzen möchten
 
-**Wichtig**
+**Wichtige**
 
 Bei der Planung Ihrer Nummern Portieren Test werden Sie die neuesten Richtlinien für Nummern Portieren Anforderungen in [Anzahl Port häufig gestellte Fragen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)zu überprüfen.
 
@@ -653,7 +653,7 @@ Identifizieren Sie und Dokumentieren Sie alle Kontoinformationen (einschließlic
 In der Regel finden Sie die Informationen in der neuesten Bill oder Rechnung müssen vom aktuellen Dienstanbieter.
 
 > [!TIP]
-> Sie können portieren oder Übertragung von Telefonnummern in allen derzeit Länder/Regionen unterstützt; möglicherweise die Möglichkeit, die Sie eine Port Reihenfolge Anforderung übermitteln, je nach Land/Region unterscheiden sich jedoch, in dem die Telefonnummern aus Quelle werden. Die aktuelle Liste der derzeit unterstützte Länder/Regionen, finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). < /br/ ><br/>
+> Sie können portieren oder Übertragung von Telefonnummern in allen derzeit Länder/Regionen unterstützt; möglicherweise die Möglichkeit, die Sie eine Port Reihenfolge Anforderung übermitteln, je nach Land/Region unterscheiden sich jedoch, in dem die Telefonnummern aus Quelle werden. Die aktuelle Liste der derzeit unterstützte Länder/Regionen finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</br/><br/>
 >   Weitere Informationen zum Übertragen von Telefonnummern an Audiokonferenzen – zusammen mit potenziellen Einschränkungen – finden Sie unter [Weiterleiten von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) und [gebührenfreie kostenlose einwählen Einschränkungen in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Schritt 3

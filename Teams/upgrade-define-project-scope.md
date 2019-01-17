@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 833720e28fd53032ca9cb65fadc39b8cb753799e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375219"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694846"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -96,7 +96,7 @@ In der folgenden Tabelle gezeigt, dass Beispiele für OKRs und KSIs für die anf
 
 
 > [!TIP]
-> Um sicherzustellen, dass Ihr Projekt planmäßig bleibt, sollten Sie kleinere, kurzfristige Meilensteine zusätzlich größer, langfristige Ziele zu definieren. Dies kann Metriken enthalten, die Sie als Teil der Pilotphase Benutzer erfasst werden. Bei den Zeitplan in Betracht ziehen, verwenden Sie die [Skype in Teams Roadmap](https://aka.ms/skype2teamsroadmap) , wenn Sie auf Features warten, die noch nicht in Teams zur Verfügung stehen.
+> Um sicherzustellen, dass Ihr Projekt planmäßig bleibt, sollten Sie kleinere, kurzfristige Meilensteine zusätzlich größer, langfristige Ziele zu definieren. Dies kann Metriken enthalten, die Sie als Teil der Pilotphase Benutzer erfasst werden. Wenn Sie den Zeitplan, verwenden Sie die [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap) Wenn Sie für Features warten, die noch nicht in Teams zur Verfügung stehen.
 
 ## <a name="risks-and-mitigation"></a>Risiken und Risikominderung
 
@@ -112,7 +112,7 @@ In der folgenden Tabelle gezeigt, dass Beispiele für OKRs und KSIs für die anf
 
 Wie Sie Ihre Upgrade Reise festzulegen, müssen Sie unbedingt eine Zeitachse für wichtige Meilensteine (beispielsweise aktivieren Teams zusammen mit Skype für Unternehmen für alle Benutzer) zusätzlich zu den Fertigstellungstermin festgelegt ist. Ein definierter Zeitplan erleichtert die Richtung einer konsistenten Endzustand Laufwerk Team Project und informiert den Zeitplan rechts Arbeit Back helfen, um sicherzustellen, dass Ihr Projekt planmäßig bleibt. Berücksichtigen Sie eine Zeitskala an, die nicht zu einer hardwarebeschleunigten ist (wobei Aufgaben übersehen werden möglicherweise) oder zu entfernten (wobei Momentum möglicherweise verloren). Die ideale Zeitachse Konten für:
  
--   **Produkt Bereitschaft für die Einhaltung von Vorschriften und Benutzer Szenario Anforderungen**: finden Sie in der [Produktübersicht](https://aka.ms/skype2teamsroadmap) zu ermitteln, wann Teams für Ihre Organisation bereit sind.
+-   **Produkt Bereitschaft für die Einhaltung von Vorschriften und Benutzer Szenario Anforderungen**: finden Sie in der [Produktübersicht](https://aka.ms/O365Roadmap) zu ermitteln, wann Teams für Ihre Organisation bereit sind.
 -   **Aktualisieren von Gruppen**: bestimmen, ob Sie Aktivieren von Teams oder Durchführen eines Upgrades von Upgrade-Gruppen, die den Zeitplan Ihrer gesamten Aktualisierungsvorgangs Reise auswirken können Benutzer.
 -   **Organisationseinheit Faktoren, wie Änderung fixieren, Ende des Geschäftsjahres, Bereitstellung Lebenszyklen**: Besprechen und das Konto für alle internen Prozesse, die den Upgrade Zeitplan beeinflussen können.
 -   **Weitere Änderungen an oder etwa zur gleichen Zeit ausgeführt werden**: berücksichtigen Bündeln von Änderungen oder auftreten und minimieren Einfluss auf die Produktivität Abstände diese um eine positive Benutzer zu vereinfachen.

@@ -1,5 +1,5 @@
 ---
-title: Stellen Sie Telefonsystem mit Aufrufen plant Service Entscheidungen - Microsoft-Teams
+title: Treffen von Entscheidungen für das Telefonsystem mit Anrufplänen – Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597846"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694759"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -29,7 +29,7 @@ Um die technischen Implementierung der Telefonsystem mit Aufrufen plant planen, 
 Mit Microsoft-Teams können Ihre Benutzer tätigen und Entgegennehmen von Anrufen zu oder aus dem öffentlichen Telefonfestnetz (PSTN). Ihre Benutzer können ihre eigenen dedizierten Rufnummern für tätigen und Empfangen von nationalen und internationalen Telefonanrufe in Teams-Clientanwendungen mit erweiterten Features, die Voicemail enthalten.
 
 > [!NOTE]
-> Die neueste Teams-Roadmap für die Identifizierung von Teams Telefonsystem mit Aufrufen planen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/skype2teamsroadmap>.
+> Die neueste Teams-Roadmap für die Identifizierung von Teams Telefonsystem mit Aufrufen planen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/O365Roadmap>.
 
 ## <a name="phone-system-in-teams"></a>Telefonsystem in Teams
 
@@ -231,11 +231,11 @@ Weitere Informationen zum Telefonsystem und Pläne aufrufen, überprüfen Sie in
 > |Benutzer |Niederlassung |Office 365-Lizenz |Plan aufrufen |
 > |----|----|----|----|
 > |Emily Braun |32 London Bridge Street |Office 365 E5 |Anrufplan für Ausland und Inland |
-> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |Plan für Inlandsanrufe |
-> |Louis Lahr |32 London Bridge Street |Office 365 E5 |Plan für Inlandsanrufe |
-> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Plan für Inlandsanrufe |
+> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |Anrufplan für Inland |
+> |Louis Lahr |32 London Bridge Street |Office 365 E5 |Anrufplan für Inland |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Anrufplan für Inland |
 > |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Anrufplan für Ausland und Inland |
-> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Plan für Inlandsanrufe |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3 Telefonsystem add-on |Anrufplan für Inland |
 
 <!--ENDOFSECTION-->
 
@@ -262,11 +262,11 @@ Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Commu
 > |Benutzer |Niederlassung |Plan aufrufen |Guthaben für Kommunikationen |
 > |----|----|----|----|
 > |Emily Braun |32 London Bridge Street |Anrufplan für Ausland und Inland |Aktiviert |
-> |Lidia Holloway |32 London Bridge Street |Plan für Inlandsanrufe |Deaktiviert |
-> |Louis Lahr |32 London Bridge Street |Plan für Inlandsanrufe |Aktiviert |
-> |Marcel Beauchamp |39 quai du Président Roosevelt |Plan für Inlandsanrufe |Deaktiviert |
+> |Lidia Holloway |32 London Bridge Street |Anrufplan für Inland |Deaktiviert |
+> |Louis Lahr |32 London Bridge Street |Anrufplan für Inland |Aktiviert |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Anrufplan für Inland |Deaktiviert |
 > |Rachelle Cormier |39 quai du Président Roosevelt |Anrufplan für Ausland und Inland |Aktiviert |
-> |Isabell Potvin |39 quai du Président Roosevelt |Plan für Inlandsanrufe |Deaktiviert |
+> |Isabell Potvin |39 quai du Président Roosevelt |Anrufplan für Inland |Deaktiviert |
 
 <br>
 
@@ -324,7 +324,7 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 
 -   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Allgemeine Fragen zum Übertragen von Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458502"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694775"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -35,7 +35,7 @@ Als Teil des erforderlichen Audiokonferenzen-Features in Microsoft-Teams definie
 -   Bestätigung, dass Audio Konferenzfunktionen in die neuesten öffentlichen Roadmap beschriebenen Teams Ihre Benutzer, Funktionen und bereichsanforderungen innerhalb der Zeitachse Ihrer Bereitstellung erfüllt.
 
 > [!NOTE]
-> Die neueste Teams-Roadmap für die Identifizierung von Teams Audiokonferenzen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/skype2teamsroadmap>.
+> Die neueste Teams-Roadmap für die Identifizierung von Teams Audiokonferenzen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/O365Roadmap>.
 
 ## <a name="meetings-in-teams"></a>Besprechungen in Microsoft Teams
 
@@ -44,7 +44,7 @@ Teams können Benutzer die Möglichkeit zum Planen und teilnehmen an onlinebespr
 Besprechungen geplant werden können, als private Konferenzen (nur eingeladene Teilnehmer können aufgenommen werden) oder DDE-Kanal Besprechungen (für alle Benutzer mit Zugriff auf den DDE-Kanal öffnen), und die Benutzer können auch in den Kanälen, spontane Besprechungen starten.
 
 > [!NOTE]
-> Weitere Informationen zu den Funktionen von Besprechungen in Teams finden Sie unter [Skype für Unternehmen zu Microsoft-Teams Funktionen Roadmap] https://aka.ms/skype2teamsroadmap).
+> Weitere Informationen zu den Funktionen von Besprechungen in Teams finden Sie in der [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
 Besprechungsteilnehmer kann Ihre Teams Besprechungen beitreten, indem Sie Telefonnummern die gebührenpflichtige oder gebührenfreie Zugriffsnummer für Einwahl Konferenzbrücke über Landlines oder Mobiltelefonen. Darüber hinaus können Benutzer den Audio-Konferenzdienst die Funktion "Anruf an mich" initiieren, damit die Konferenzbrücke, rufen Sie ihre Telefone (nützlich, wenn die Datenverbindung nicht zuverlässig ist), oder Let Besprechung in einer Besprechung teilnehmen können Organisatoren Besprechung einladen Teilnehmer durch ihre Telefone anwählen einer.
 

@@ -17,12 +17,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3c125870dc05f68bdf9baaeeb80630a98ffd62bb
-  ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+  ms.openlocfilehash: 4bb36fc10afbd9e0061da905d64999bf62bbfb4e
+  ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 11/15/2018
-  ms.locfileid: "26530982"
+  ms.lasthandoff: 01/17/2019
+  ms.locfileid: "28694767"
 items:
 - durationInMinutes: 1
   content: >
@@ -86,7 +86,7 @@ items:
     Bei Anrufen in Microsoft Teams werden grundlegende Telefonsystemfunktionen unterstützt, wie zum Beispiel Annehmen und Initiieren von Anrufen (anhand von Namen und Nummern) mit integrierter Wähltastatur, Halten und Abrufen von Anrufen, Anrufweiterleitung und gleichzeitiges Klingeln, Anrufliste, Voicemail und Notrufe.
 
 
-    Im Lauf der Zeit werden weitere erweiterte Funktionen hinzugefügt. Weitere Informationen finden Sie unter [Von Skype for Business zu Microsoft Teams: Roadmap der Funktionen](https://aka.ms/skype2teamsroadmap).
+    Im Lauf der Zeit werden weitere erweiterte Funktionen hinzugefügt. Weitere Informationen finden Sie unter [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
 
     Anrufe in Microsoft Teams werden durch das Telefonsystem (ehemals Cloud-PBX) unterstützt, den gleichen Dienst in Office 365, der auch PSTN-Anruffunktionen in Skype for Business Online ermöglicht.
@@ -98,7 +98,7 @@ items:
     <span style="color:red">**Aktion**:</span> Informieren Sie sich mithilfe der folgenden Ressourcen über die zurzeit verfügbaren Funktionen und über den Zeitplan für Funktionen, deren Entwicklung wir planen:
 
 
-    - Sehen Sie sich in der [öffentlichen Roadmap](https://aka.ms/skype2teamsroadmap) die Folie zur „Anruf-Roadmap“ an. Sie zeigt eine Übersicht über den erwarteten Zeitplan für die Veröffentlichungstermine von Funktionen.
+    - Sehen Sie sich in der [öffentlichen Roadmap](https://aka.ms/O365Roadmap) die Folie zur „Anruf-Roadmap“ an. Sie zeigt eine Übersicht über den erwarteten Zeitplan für die Veröffentlichungstermine von Funktionen.
 
     - Lesen Sie die Beschreibung der Telefonsystemfunktionen unter [Das bietet Ihnen das Telefonsystem in Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system). Berücksichtigen Sie, dass zum Zeitpunkt der Erstellung dieses Artikels einige der Funktionen möglicherweise nur für Skype for Business verfügbar sind.
 
@@ -249,4 +249,4 @@ items:
   content: "\nNun haben Sie das Telefonsystem richtig geplant und in Ihrer Umgebung bereitgestellt und müssen sicherstellen, dass es verwendet wird und eine hohe Benutzerfreundlichkeit bietet. Auf sämtliche Details einzugehen würde den Rahmen dieser Schulung sprengen. Wir möchten jedoch die Punkte hervorheben, um die Sie sich vorrangig kümmern müssen:\n\n-   Übernahme- und Änderungsmanagement Benutzer möglicherweise einfach starten mithilfe des Diensts, wenn Sie es Ihnen anbieten. Andererseits kann es auch sein, dass sie ihn nicht nutzen. Daher ist es wichtig, das Adoption and Change Management richtig durchzuführen.\n\n-   Überwachung und gesteuerter Usage Es empfiehlt sich, dass eines der Ihre KSIs die Anzahl der aktiven Benutzer werden zur einfacheren wie gut Teams gemessen wird als ein Telefon Client akzeptiert.\n\n-   Überwachen und Fördern der Qualität\n\nDie Zufriedenheit der Benutzer steht in direktem Zusammenhang mit der Qualität ihrer Anrufe. Daher ist es wichtig, dass Sie die Anrufqualität überwachen und gegebenenfalls verbessern. In der Schulung zum Anrufqualitäts-Dashboard erfahren Sie, wie Sie Berichte zur Anrufqualität erstellen. Obwohl diese Videos für Skype für Unternehmen erstellt wurden, sie gelten für Teams sowie: <https://aka.ms/sof-cqd>.\n"
 - title: Nächste Schritte
   durationInMinutes: 1
-  content: "\nWir haben mit dieser Schulung die folgenden wichtigen Lernergebnisse erzielt:\n-   Was sind Anrufe in Microsoft Teams?\n\n-   Planen von Anrufen in Microsoft Teams\n\n-   Konfigurieren von Anrufen in Microsoft Teams\n\nWeitere Informationen finden Sie unter:\n\n-   [Praktische Anleitungen für Telefonsysteme mit Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nNächste Schritte\n\n1.  Registrieren Sie sich für [MyAdvisor](https://aka.ms/myadvisor), um personalisierte Bereitstellungsratschläge zu erhalten.\n2.  Starten Sie Ihre Bereitstellung des Telefonsystems für Microsoft Teams.\n3.  Senden Sie uns Feedback:\n    - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.\n    - Wenn Sie Feedback zu Microsoft Teams geben möchten oder Ideen für neue Funktionen haben, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Bleiben Sie auf dem aktuellen Stand:\n    - Führen Sie im [Blog des Teams](https://aka.ms/teamsblog).\n    - Lesen Sie die [Teams Roadmap](https://aka.ms/skype2teamsroadmap).\n    - Informationen Sie zu den neuesten veröffentlichten Funktionen [Anmerkungen zu dieser Version](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n5.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy)."
+  content: "\nWir haben mit dieser Schulung die folgenden wichtigen Lernergebnisse erzielt:\n-   Was sind Anrufe in Microsoft Teams?\n\n-   Planen von Anrufen in Microsoft Teams\n\n-   Konfigurieren von Anrufen in Microsoft Teams\n\nWeitere Informationen finden Sie unter:\n\n-   [Praktische Anleitungen für Telefonsysteme mit Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nNächste Schritte\n\n1.  Registrieren Sie sich für [MyAdvisor](https://aka.ms/myadvisor), um personalisierte Bereitstellungsratschläge zu erhalten.\n2.  Starten Sie Ihre Bereitstellung des Telefonsystems für Microsoft Teams.\n3.  Senden Sie uns Feedback:\n    - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.\n    - Wenn Sie Feedback zu Microsoft Teams geben möchten oder Ideen für neue Funktionen haben, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Bleiben Sie auf dem aktuellen Stand:\n    - Führen Sie im [Blog des Teams](https://aka.ms/teamsblog).\n    - Lesen Sie die [Teams Roadmap](https://aka.ms/O365Roadmap).\n    - Informationen Sie zu den neuesten veröffentlichten Funktionen [Anmerkungen zu dieser Version](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n5.  Informieren Sie sich mit [weiteren Schulungen und Tutorials](https://aka.ms/Teamsacademy)."
