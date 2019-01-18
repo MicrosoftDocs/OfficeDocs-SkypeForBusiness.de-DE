@@ -1,9 +1,9 @@
 ---
-title: 'Häufig gestellte Fragen: Upgrade-Strategie beim Wechseln von Skype for Business zu Microsoft Teams – Microsoft Teams'
+title: 'Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams'
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 01/16/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,86 +14,88 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5413f09d405910bd01155dc84f2b7741ff9ddaf9
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: c030419a7176121bc102b83b7ff3551a00397b89
+ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240701"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28324942"
 ---
-# <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Reise von Skype for Business zu Teams
+# <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 
 > [!Tip]
-> Sehen Sie sich die folgende Sitzung an, um sich über das Upgrade von Skype for Business auf Microsoft Teams zu informieren: 
-> - [Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)
-> - [Planen des Upgrades](https://aka.ms/teams-upgrade-plan)
-> - [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [Das Upgrade aus Sicht des Administrators](https://aka.ms/teams-upgrade-admin)
+> Sehen Sie sich die folgenden Videos an, um sich über die Planung eines erfolgreichen Upgrades von Skype for Business auf Microsoft Teams zu informieren: 
+> - [Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro) (33 Minuten)
+> - [Planen Ihrs Upgrades](https://aka.ms/teams-upgrade-plan) (30 Minuten)
+> - [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop) (53 Minuten)
+> - [Erfahrung als Administrator](https://aka.ms/teams-upgrade-admin) (24 Minuten)
 
 
 ## <a name="intelligent-communications-vision"></a>Vision für intelligente Kommunikation
 
-### <a name="what-is-microsofts-new-vision-for-intelligent-communications-aka-unified-communications-vision"></a>Wie lautet die neue Vision von Microsoft für intelligente Kommunikation (auch als Unified Communications-Vision bekannt)?
+### <a name="what-is-microsofts-vision-for-intelligent-communications-aka-unified-communications-vision"></a>Wie lautet die neue Vision von Microsoft für intelligente Kommunikation (auch als Unified Communications-Vision bekannt)?
 
-Mit monatlich über 100 Millionen kommerziell aktiven Benutzern, die jeden Tag auf Office 365 zählen, um ihre Aufgaben zu erledigen, feiert Office 365 seit langem einen großen Erfolg. Wir arbeiten jetzt daran, die Funktionen von Skype for Business in der Cloud in Microsoft Teams zu integrieren, um einen zentralen Hub für Teamarbeit mit vollständig integrierten Sprach- und Videofunktionen bereitzustellen. Durch die engmaschige Einbeziehung der Kommunikation in Apps, die jeden Tag für die Zusammenarbeit von Teams verwendet werden, sowie durch AI, Microsoft Graph, LinkedIn und andere Datendienste und kognitive Dienste können wir intelligente Kommunikation ermöglichen und die Verwendung von Anrufen und Besprechungen revolutionieren.
+Mit monatlich über 155 Millionen kommerziell aktiven Benutzern, die jeden Tag auf Office 365 zählen, um ihre Aufgaben zu erledigen, feiert Office 365 seit langem einen großen Erfolg. Wir arbeiten jetzt daran, die Funktionen von Skype for Business in der Cloud in Microsoft Teams zu integrieren, um einen zentralen Hub für Teamarbeit mit vollständig integrierten Sprach- und Videofunktionen bereitzustellen. Durch die engmaschige Einbeziehung der Kommunikation in Apps, die jeden Tag für die Zusammenarbeit von Teams verwendet werden, sowie durch AI, Microsoft Graph, LinkedIn und andere Datendienste und kognitive Dienste können wir intelligente Kommunikation ermöglichen und die Verwendung von Anrufen und Besprechungen revolutionieren.
 
 ### <a name="why-are-you-planning-on-bringing-skype-for-business-and-teams-together"></a>Warum möchten Sie Skype for Business und Microsoft Teams zusammenbringen?
 
-Da Benutzer verstärkt in Teams arbeiten, sehen wir die Chance, unsere Kommunikationsfunktionen noch nahtloser in Microsoft Teams zu integrieren, sodass den Benutzern ein zentraler Ort für ihre Unterhaltungen, Kontakte und Inhalte zur Verfügung steht. Wir glauben, dass Microsoft Teams auch eine moderne Cloudinfrastruktur bietet, die es uns ermöglicht, unsere Ressourcen für künstliche Intelligenz, wie zum Beispiel AI, Microsoft Graph und LinkedIn, für die Bereitstellung von intelligenter Kommunikation zu nutzen. Mit Microsoft Teams schaffen wir neue Möglichkeiten für Besprechungen und Anrufe. Dazu zählen auch die Vorbereitung, die Bereitstellung und die Nachbereitung.
+Da Benutzer verstärkt in Teams arbeiten, sehen wir die Chance, unsere Kommunikationsfunktionen noch nahtloser in Microsoft Teams zu integrieren, sodass den Benutzern ein zentraler Ort für ihre Unterhaltungen, Kontakte und Inhalte zur Verfügung steht. Wir glauben, dass Teams auch eine moderne Cloudinfrastruktur bietet, die es uns ermöglicht, unsere Ressourcen für künstliche Intelligenz, wie zum Beispiel AI, Microsoft Graph und LinkedIn, für die Bereitstellung von intelligenter Kommunikation zu nutzen. Mit Teams schaffen wir neue Möglichkeiten für Besprechungen und Anrufe. Dazu zählen auch die Vorbereitung, die Bereitstellung und die Nachbereitung.
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Gibt es eine verbindliche Frist, innerhalb derer die Kunden den Wechsel von Skype for Business Online zu Microsoft Teams durchführen müssen?
 
 Die Kunden können für den Wechsel zu Microsoft Teams den Zeitpunkt wählen, der ihren Anforderungen am besten gerecht wird. Kunden, die noch nicht ganz zum Upgrade bereit sind, können die Vorteile von Microsoft Teams nutzen, indem sie die Lösung neben Skype for Business einsetzen. Weitere Informationen finden Sie unter [Grundlegendes zur Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
+Um kleinere Kunden zu unterstützen, die möglicherweise nicht über dedizierte IT-Ressourcen verfügen, bietet Microsoft bei automatischen Upgrades von Skype for Business Online auf Teams Unterstützung an. Berechtigte Kunden werden per E-Mail und Nachrichtencenter-Benachrichtigung über das Upgrade informiert. Weitere Einzelheiten sind in den Mitteilungen enthalten.
+
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Wie sieht die Zukunft von Skype for Business Server aus?
 
-Wir sind uns dessen bewusst, dass Kunden Skype for Business lokal verwenden und dass viele aufgrund ihrer Anforderungen für bestimmte Benutzer oder Standorte die lokale Skype for Business-Version verwenden müssen. Skype for Business Server 2019 wurde im Oktober 2018 veröffentlicht.
+Wir sind uns dessen bewusst, dass Kunden Skype for Business lokal verwenden und dass viele aufgrund ihrer Anforderungen für bestimmte Benutzer oder Standorte die lokale Skype for Business-Version verwenden müssen. In diesen Fällen empfehlen wir Organisationen, Teams in Verbindung mit Skype for Business vor Ort einzusetzen, um die Teamarbeit und Zusammenarbeit sowie die Integration mit anderen Produktivitätsanwendungen zu fördern. [Skype for Business Server 2019](https://docs.microsoft.com/skypeforbusiness/skype-for-business-server-2019) wurde im Oktober 2018 veröffentlicht.
 
 ### <a name="what-will-happen-to-the-skype-brand"></a>Was geschieht mit der Marke Skype?
 
-Wir sehen uns weiterhin an die Gesamtmarke Skype gebunden, die eine Familie von Kommunikationsfunktionen für das Heimanwender- und Unternehmenskundensegment darstellt. Skype wird als Produktname für unser Kundenangebot beibehalten und Skype for Business bleibt der Produktname für den lokalen Server. Die Marke Skype for Business wird auch in den Sprach- und Videofunktionen in Microsoft Teams in Erscheinung treten.
+Wir sehen uns weiterhin an die Gesamtmarke Skype gebunden, die eine Familie von Kommunikationsfunktionen für das Heimanwender- und Unternehmenskundensegment darstellt. Skype wird als Produktname für unser Kundenangebot beibehalten und Skype for Business bleibt der Produktname für den lokalen Server. Die Marke Skype wird auch in den Sprach- und Videofunktionen in Teams in Erscheinung treten.
 
-### <a name="tell-me-about-the-benefits-of-the-back-end-infrastructure"></a>Welche Vorteile bietet die Back-End-Infrastruktur?
+### <a name="what-are-the-benefits-of-teams-back-end-infrastructure"></a>Welche Vorteile bietet die Back-End-Infrastruktur von Teams?
 
 Microsoft Teams wird durch die neue Back-End-Infrastruktur von Skype unterstützt und wurde für die Cloud entwickelt. Dabei kommt eine in hohem Maß skalierbare Microservicearchitektur zum Einsatz, die effiziente Bandbreitenauslastung sowie eine robustere Telemetrie bietet und Wartung und Upgrades mit minimalen Unterbrechungen ermöglicht. Dadurch können Benutzer schneller an Besprechungen teilnehmen und die Anwendung besser im Browser nutzen, ohne Plug-Ins herunterladen zu müssen. Diese moderne Infrastruktur erleichtert die Nutzung von Microsoft Cognitive Services, wie beispielsweise Transkription, Übersetzung, Spracherkennung und Funktionen für maschinelles Lernen. So können Kommunikation und Zusammenarbeit einfacher und effektiver gestaltet werden.
 
 ### <a name="what-does-this-mean-for-existing-office-365-customers"></a>Was bedeutet das für Office 365-Bestandskunden?
 
-Neben den Innovationen in den Bereichen VoIP, Video und Besprechungen integrieren wir nach und nach die wichtigsten Skype for Business-Funktionen in Office 365 in Microsoft Teams. Kunden können ihre Skype for Business-Benutzer dann migrieren, wenn die Funktionen ihren Anforderungen gerecht werden. Wir ermutigen alle Office 365-Kunden, mit der unabhängigen Implementierung von Teams zu starten oder Teams und Skype for Business nebeneinander zu nutzen.
+Neben den Innovationen in den Bereichen VoIP, Video und Besprechungen integrieren wir nach und nach die wichtigsten Skype for Business-Funktionen in Office 365 in Teams. Wir ermutigen alle Office 365-Kunden, mit der unabhängigen Implementierung von Teams zu starten oder Teams und Skype for Business nebeneinander zu nutzen.
 
-### <a name="will-you-continue-to-invest-in-improving-skype-for-business-in-office-365"></a>Werden Sie weiterhin in die Verbesserung von Skype for Business in Office 365 investieren?
+### <a name="will-you-continue-to-invest-in-improving-skype-for-business-online"></a>Werden Sie weiterhin in die Verbesserung von Skype for Business Online investieren?
 
 Unsere Vision, intelligente Kommunikation und Zusammenarbeit zu vereinen, konzentriert sich auf Microsoft Teams. Wir planen die Fortsetzung der Unterstützung für den Skype for Business-Dienst und -Client in Office 365. Wir planen die Fortsetzung der Unterstützung der Skype for Business-Clients, um den Zugriff auf den lokalen Server und Onlinedienste sicherzustellen. Zurzeit gibt es kein Datum für das Ende des Supports.
 
-Seit dem 1. Oktober 2018 werden neue Office 365-Kunden mit 500 oder weniger Arbeitsplätzen in Microsoft Teams integriert und erhalten keinen Zugriff auf Skype for Business Online. Mandanten, die bereits Skype for Business Online verwenden, können dies weiterhin tun, bis ihr Übergang zu Microsoft Teams abgeschlossen ist. Dies gilt auch für die Bereitstellung neuer Benutzer. Weitere Informationen finden Sie unter [Microsoft Teams ist jetzt der primäre Client für Besprechungen und Anrufe in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling). 
+Seit dem 1. Oktober 2018 werden neue Office 365-Kunden mit 500 oder weniger Arbeitsplätzen in Teams integriert und erhalten keinen Zugriff auf Skype for Business Online. Mandanten, die bereits Skype for Business Online verwenden, können dies weiterhin tun, bis ihr Übergang zu Teams abgeschlossen ist. Dies gilt auch für die Bereitstellung neuer Benutzer. Weitere Informationen finden Sie unter [Microsoft Teams ist jetzt der primäre Client für Besprechungen und Anrufe in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deployingor-planning-to-deployskype-for-business-in-office-365"></a>Was empfehlen Sie Kunden, die zurzeit die Bereitstellung von Skype for Business in Office 365 durchführen (oder planen)?
 
-Kunden sollten die Microsoft Teams-Roadmap auswerten, um festzustellen, ob die Funktionen ihren Geschäftsanforderungen und ihrem Zeitplan entsprechen. Wenn ja, sollten sie ihre Strategie so anpassen, dass sie nur die Bereitstellung von Microsoft Teams vorsieht. Investitionen in Planung und Infrastruktur, wie zum Beispiel Netzwerkbewertungen, bilden die Grundlage der Bereitstellung von Microsoft Teams. Wir ermutigen alle Office 365-Kunden, mit der unabhängigen Verwendung von Microsoft Teams zu beginnen oder Microsoft Teams und Skype for Business parallel zu nutzen.
+Kunden sollten die [Skype zu Teams-Roadmap](https://aka.ms/skype2teamsroadmap) auswerten, um festzustellen, ob die Funktionen ihren Geschäftsanforderungen und ihrem Zeitplan entsprechen. Wenn ja, sollten sie ihre Strategie so anpassen, dass sie nur die Bereitstellung von Microsoft Teams vorsieht. Investitionen in Planung und Infrastruktur, wie zum Beispiel Netzwerkbewertungen, bilden die Grundlage der Bereitstellung von Microsoft Teams. Wir ermutigen alle Office 365-Kunden, mit der unabhängigen Verwendung von Microsoft Teams zu beginnen oder Microsoft Teams und Skype for Business parallel zu nutzen.
 
-### <a name="what-support-are-you-offering-to-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-in-office-365"></a>Welche Unterstützung bieten Sie Kunden, die zu Microsoft Teams wechseln möchten, insbesondere den Kunden, die sehr viel in Skype for Business in Office 365 investiert haben?
+### <a name="what-support-are-you-offering-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Welche Unterstützung bieten Sie Kunden, die zu Teams wechseln möchten, insbesondere den Kunden, die sehr viel in Skype for Business Online investiert haben?
 
-Kunden verwenden weiterhin Skype for Business in Office 365, bis Microsoft Teams ihre Geschäftsanforderungen erfüllt. Wir unterstützen Kunden, die Benutzer auf Microsoft Teams umstellen möchten, mit Tools und Anleitungen zum Steuern und Verwalten des Prozesses. Anleitungen und bewährte Methoden finden Sie unter [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). Wir bieten neuen Microsoft Teams-Benutzern Hilfe für den Übergang an, indem wir die erste Ausführung spezialisiert haben und produktinterne Nutzungshinweise zur Verfügung stellen. Beim Übergang stehen den Kunden FastTrack, der Kundendienst und Partner zur Seite.
+Kunden verwenden weiterhin Skype for Business Online, bis Teams ihre Geschäftsanforderungen erfüllt. Wir unterstützen Kunden, die Benutzer auf Microsoft Teams umstellen möchten, mit Tools und Anleitungen zum Steuern und Verwalten des Prozesses. Anleitungen und bewährte Methoden finden Sie unter [https://aka.ms/Skype2Teams](https://aka.ms/SkypeToTeams). Wir bieten neuen Microsoft Teams-Benutzern Hilfe für den Übergang an, indem wir die erste Ausführung spezialisiert haben und produktinterne Nutzungshinweise zur Verfügung stellen. Beim Übergang stehen den Kunden FastTrack, [von Kursleitern geführte Schulungen](instructor-led-training-teams-landing-page.md), der Kundendienst und Partner zur Seite.
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>Was bedeutet das aus der Perspektive der Lizenzierung? Wie wird die Nutzung der Dienste für intelligente Kommunikation in Microsoft Teams abgerechnet?
 
-Microsoft Teams ist in Office 365-Suites verfügbar. Funktionen, bei denen es sich heute in Skype for Business in Office 365 um Premium-Arbeitsauslastungen handelt, gelten auch in Microsoft Teams als Premium-Arbeitsauslastungen. Vorhandene Lizenzen werden nach Microsoft Teams übertragen. Wenn ein Kunde beispielsweise die eigenständige Audiokonferenzfunktion oder Audiokonferenzen als Bestandteil von E5 mit Skype for Business gekauft hat, sind Audiokonferenzen in ihrer heute verfügbaren Form auch in Microsoft Teams aktiviert.
+Microsoft Teams ist in Office 365-Suites verfügbar. Funktionen, bei denen es sich heute in Skype for Business Online um Premium-Arbeitsauslastungen handelt, gelten auch in Teams als Premium-Arbeitsauslastungen. Vorhandene Lizenzen werden nach Microsoft Teams übertragen. Wenn ein Kunde beispielsweise die eigenständige Audiokonferenzfunktion oder Audiokonferenzen als Bestandteil von E5 mit Skype for Business gekauft hat, sind Audiokonferenzen in ihrer heute verfügbaren Form auch in Microsoft Teams aktiviert.
 
 ### <a name="is-microsoft-planning-scheduled-upgrades"></a>Plant Microsoft geplante Upgrades?
 
 Derzeit sind keine geplanten Upgrade für Unternehmenskunden in der Planung. Kunden können sich für den Wechsel zu Microsoft Teams entscheiden, wenn die Funktionen ihren Geschäftsanforderungen entsprechen. Wir statten Administratoren und Benutzer mit Tools und Leitfäden aus, um sie beim Übergang zu Microsoft Teams zu unterstützen.
 
+Um kleinere Kunden zu unterstützen, die möglicherweise nicht über dedizierte IT-Ressourcen verfügen, bietet Microsoft bei automatischen Upgrades von Skype for Business Online auf Teams Unterstützung an. Berechtigte Kunden werden per E-Mail und Nachrichtencenter-Benachrichtigung über das Upgrade informiert. Weitere Einzelheiten sind in den Mitteilungen enthalten.
+
 ## <a name="skype-for-business-to-teams-upgrade"></a>Upgrade von Skype for Business auf Microsoft Teams
 
 ### <a name="how-long-will-it-take-to-upgrade-my-organization-to-teams"></a>Wie viel Zeit beansprucht das Upgrade meiner Organisation auf Microsoft Teams?
 
-Sie können die Umstellung Ihrer Organisation von Skype for Business auf Microsoft Teams selbst gestalten. Sie haben bei der Planung und Ausführung die Wahl zwischen zwei Hauptpfaden für das Upgrade: Upgrade Basic und Upgrade Pro. Upgrade Basic ist für kleinere Organisation geeignet oder für Organisationen, in denen Skype for Business weniger genutzt wird oder die Kernworkloads wie Chat verwenden. Über diesen Pfad erhält die gesamte Organisation gleichzeitig das Upgrade auf Microsoft Teams. Upgrade Pro ist für Organisationen mit erweiterten Funktionen für die Benutzer gedacht, die von einer phasenweisen Vorgehensweise beim Upgrade profitieren. [Sehen Sie sich beide Pfade an](https://aka.ms/skypetoteams-home), um die optimale Vorgehensweise für Ihre Organisation zu ermitteln.
+Sie können die Umstellung Ihrer Organisation von Skype for Business auf Microsoft Teams selbst gestalten. Sie haben bei der Planung und Ausführung die Wahl zwischen zwei Hauptpfaden für das Upgrade: Upgrade Basic und Upgrade Pro. Upgrade Basic ist für kleinere Organisation geeignet oder für Organisationen, in denen Skype for Business weniger genutzt wird oder die Kernworkloads wie Chat verwenden. Über diesen Pfad erhält die gesamte Organisation gleichzeitig das Upgrade auf Microsoft Teams. Upgrade Pro ist für Organisationen mit erweiterten Funktionen gedacht, die von einer phasenweisen Vorgehensweise beim Upgrade profitieren. [Sehen Sie sich beide Pfade an](https://aka.ms/skypetoteams-home), um die optimale Vorgehensweise für Ihre Organisation zu ermitteln.
  
- 
-### <a name="why-dont-i-see-a-teams-only-mode-in-my-portal"></a>Warum sehe ich in meinem Portal den Modus „Teams only“ (Nur Microsoft Teams) nicht?
+### <a name="why-dont-i-see-a-teams-only-mode-in-the-microsoft-teams--skype-for-business-admin-center"></a>Warum sehe ich im Microsoft Teams & Skype for Business Admin Center keinen „Teams Only“ (Nur Teams)-Modus?
 
-Dieser Modus wird in den nächsten Monaten aktiviert. Außerdem kommen zusätzliche Koexistenzmodi hinzu, mit deren Hilfe Ihre Organisation die für sie geeignete Strategie für die Umstellung von Skype for Business auf Microsoft Teams verwalten kann. Informieren Sie sich über die [Koexistenz- und Upgrademodi](https://aka.ms/skypetoteams-coexist), die bereits verfügbar sind oder in Kürze verfügbar sein werden.
- 
+Dieser Modus wird in den nächsten Wochen aktiviert. Außerdem kommen zusätzliche Koexistenzmodi hinzu, mit deren Hilfe Ihre Organisation die für sie geeignete Strategie für die Umstellung von Skype for Business auf Microsoft Teams verwalten kann. Informieren Sie sich über die [Koexistenz- und Upgrademodi](https://aka.ms/skypetoteams-coexist), die bereits verfügbar sind oder in Kürze verfügbar sein werden.
  
 ### <a name="what-does-it-mean-to-have-teams-be-ready-for-my-organization"></a>Was bedeutet es, dass Microsoft Teams für meine Organisation „bereit“ ist?
 
@@ -101,11 +103,11 @@ Als Skype for Business-Bestandskunde wissen Sie, dass Microsoft Teams bereit ist
  
 ### <a name="what-should-i-do-to-prepare-for-my-upgrade"></a>Was sollte ich tun, um das Upgrade vorzubereiten?
 
-Zu einem erfolgreichen Upgrade gehört das Validieren der technischen Bereitschaft sowie der Benutzerakzeptanz und -bereitschaft. Selbst wenn Microsoft Teams noch nicht für das Upgrade bereit ist, kann Ihre Organisation schon jetzt mit der Planung beginnen. Außerdem können Sie schon von Microsoft Teams profitieren, indem Sie Microsoft Teams parallel zu Skype for Business aktivieren. Beginnen Sie noch heute mit der [Umstellung von Skype auf Microsoft Teams](https://aka.ms/skypetoteams-home).
+Zu einem erfolgreichen Upgrade gehört das Validieren der technischen Bereitschaft sowie der Benutzerakzeptanz und -bereitschaft. Selbst wenn Sie feststellen, dass Ihre Organisation noch nicht bereit ist, auf Teams umzusteigen, können Sie noch heute mit dem Planungsprozess beginnen. Außerdem können Sie schon von Microsoft Teams profitieren, indem Sie Microsoft Teams parallel zu Skype for Business aktivieren. Beginnen Sie noch heute mit der [Umstellung von Skype auf Microsoft Teams](https://aka.ms/skypetoteams-home).
  
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Meine Organisation verwendet Microsoft Teams bereits parallel zu Skype for Business. Kann ich Skype for Business einfach deaktivieren?
 
-Nein, Sie sollten die Benutzer auf den Modus **Teams only** (Nur Microsoft Teams) umstellen, um das Upgrade auf Microsoft Teams abzuschließen. Wenn Ihre Organisation für den Übergang zu Microsoft Teams bereit ist, nehmen Sie sich die Zeit, die Benutzer über die Vorgänge zu informieren. Geben Sie ihnen etwas Zeit, sich an Microsoft Teams zu gewöhnen. Damit sorgen Sie dafür, dass das Upgrade für sie positiv verläuft und dass der Helpdesk seltener benötigt wird. Wenn Sie Beispielvorlagen für die Kommunikation benötigen, laden Sie das [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) herunter.
+Nein, Sie sollten die Benutzer auf den Modus **Teams only** (Nur Teams) umstellen, um das Upgrade auf Teams abzuschließen. Wenn Ihre Organisation für den Übergang zu Teams bereit ist, nehmen Sie sich die Zeit, die Benutzer über die Vorgänge zu informieren. Geben Sie ihnen etwas Zeit, sich an Teams zu gewöhnen. Damit sorgen Sie dafür, dass das Upgrade für sie positiv verläuft und dass der Helpdesk seltener benötigt wird. Wenn Sie Beispielvorlagen für die Kommunikation benötigen, laden Sie das [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) herunter.
  
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>An wen kann ich mich wenden, wenn ich Fragen zum Upgradeprozess habe?
 
@@ -119,24 +121,23 @@ Sie können die Benutzer, das heißt einzelne Personen, Benutzergruppen oder die
 
 Nach dem Upgrade der Benutzer auf Microsoft Teams (Modus **Teams only** (Nur Microsoft Teams)) gilt Folgendes:
 
--   Der Skype for Business-Client der Benutzer ist deaktiviert und kann nicht mehr verwendet werden, da alle Chats und Anrufe über Microsoft Teams laufen. Dieser Client wird für bereits geplante Skype for Business-Besprechungen verwendet. Wenn dieser Desktopclient deinstalliert wird, werden die Benutzer umgeleitet, sodass sie über Skype for Business Web App auf bereits geplante Skype for Business-Besprechungen zugreifen können.
+- Der Skype for Business-Client der Benutzer ist deaktiviert und kann nicht mehr verwendet werden, da alle Chats und Anrufe über Microsoft Teams laufen. Dieser Client wird weiterhin für bereits geplante Skype for Business-Besprechungen verwendet. Wenn dieser Desktopclient deinstalliert wird, werden die Benutzer umgeleitet, sodass sie über Skype for Business Web App auf bereits geplante Skype for Business-Besprechungen zugreifen können.
 
--   Vor dem Upgrade geplante Skype for Business-Besprechungen funktionieren wie vorgesehen, aber alle neuen Besprechungen werden in Microsoft Teams geplant.
+- Vor dem Upgrade geplante Skype for Business-Besprechungen funktionieren wie vorgesehen, aber alle neuen Besprechungen werden in Microsoft Teams geplant.
 
--  Wenn Benutzer versuchen, sich bei Skype for Business anzumelden, werden sie vom Client benachrichtigt, dass sie auf Microsoft Teams aktualisiert wurden.
+- Wenn Benutzer versuchen, sich bei Skype for Business anzumelden, werden sie vom Client benachrichtigt, dass sie auf Microsoft Teams aktualisiert wurden.
 
--   Auf mobilen Geräten müssen die Benutzer den Skype for Business-Client manuell deinstallieren.
+- Auf mobilen Geräten müssen die Benutzer den Skype for Business-Client manuell deinstallieren.
 
 ### <a name="will-users-still-be-able-to-use-skype-for-business-after-i-activate-the-upgrade-notification-in-their-client"></a>Können die Benutzer Skype for Business noch verwenden, nachdem ich die Upgradebenachrichtigung in ihrem Client aktiviert habe?
 
-Ja. Mit der Upgradebenachrichtigung werden die Benutzer lediglich darauf hingewiesen, dass Skype for Business auf Microsoft Teams aktualisiert wird, und sie werden aufgefordert, ab jetzt Microsoft Teams zu verwenden, wenn sie dies noch nicht tun. Wir empfehlen, diese Benachrichtigung mit einer Informationskampagne (E-Mails, FAQs, Helpdeskvorbereitung, Poster/Beschilderung) zu ergänzen, um über weitere organisationsspezifische Details zu informieren, beispielsweise über den Zeitplan für das Upgrade, Handlungsaufforderungen an die Benutzer, Zugriff auf Schulungen usw.
+Ja. Mit der Upgradebenachrichtigung werden die Benutzer lediglich darauf hingewiesen, dass Skype for Business auf Microsoft Teams aktualisiert wird, und sie werden aufgefordert, ab jetzt Microsoft Teams zu verwenden, wenn sie dies noch nicht tun. Wir empfehlen, diese Benachrichtigung mit einer Informationskampagne (E-Mails, FAQs, Helpdeskvorbereitung, Poster/Beschilderung) zu ergänzen, um über weitere organisationsspezifische Details zu informieren, beispielsweise über den Zeitplan für das Upgrade, Handlungsaufforderungen an die Benutzer, Zugriff auf Schulungen usw. Wenn Sie Vorlagen für die Kommunikation benötigen, laden Sie das [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) herunter.  
 
 ## <a name="skype-to-teams-roadmap"></a>Roadmap für den Übergang von Skype zu Microsoft Teams
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>Wie erfahren Kunden, wenn Skype for Business-Funktionen in Microsoft Teams verfügbar sind?
 
-Wir stellen die Informationen zu bevorstehenden Microsoft Teams-Funktionen in der [Office 365-Roadmap](https://go.microsoft.com/fwlink/?linkid=859057) bereit. Die spezifische Roadmap für den Übergang von Skype zu Microsoft Teams ist unter [https://aka.ms/skype2teamsroadmap](https://aka.ms/skype2teamsroadmap) verfügbar.
-
+Die spezifische Roadmap für den Übergang von Skype zu Teams ist unter [https://aka.ms/skype2teamsroadmap](https://aka.ms/skype2teamsroadmap) verfügbar. Wir stellen die Informationen zu bevorstehenden Teams-Funktionen in der [Office 365-Roadmap](https://go.microsoft.com/fwlink/?linkid=859057) bereit.
 
 ### <a name="which-apis-and-sdks-will-be-made-available-for-teams"></a>Welche APIs und SDKs werden für Microsoft Teams zur Verfügung gestellt?
 
@@ -144,7 +145,7 @@ Informationen zu verfügbaren APIs und SDKs finden Sie auf der [Microsoft Teams-
 
 ### <a name="will-you-support-third-party-development-opportunities-in-teams"></a>Werden Sie Entwicklungsmöglichkeiten für Drittanbieter in Microsoft Teams unterstützen?
 
-Ja. Wir unterstützen zurzeit Bots, Connectors und Erweiterungen von Drittanbietern in Microsoft Teams. Darüber hinaus steht im Microsoft Teams-App Store ein umfangreiches Ökosystem aus Add-Ins zur Verfügung.
+Ja, die Integration von Apps ist einer der Hauptvorteile bei der Einführung von Teams. Wir unterstützen zurzeit Bots, Connectors und Erweiterungen von Drittanbietern in Microsoft Teams. Darüber hinaus steht im Microsoft Teams-App Store ein umfangreiches Ökosystem aus Add-Ins zur Verfügung.
 
 ### <a name="is-teams-available-in-office-365-education"></a>Ist Microsoft Teams in Office 365 Education verfügbar?
 
@@ -152,29 +153,29 @@ Microsoft Teams ist in allen Lizenzen für die Office 365 Education-Suite verf�
 
 ### <a name="do-you-have-plans-to-offer-teams-in-the-government-community-cloud-gcc"></a>Planen Sie, Microsoft Teams in Government Community Cloud (GCC) anzubieten?
 
-Der Rollout von Microsoft Teams für Government Cloud Community (GCC) in den USA beginnt am 17. Juli. Spätestens Ende August 2018 wird Microsoft Teams dort für alle berechtigten Kunden verfügbar sein. Weitere Details finden Sie in diesem [Blogbeitrag](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
+Weitere Informationen zur Verfügbarkeit des Teams für die US Government Cloud Community (GCC) finden Sie [hier](plan-for-government-gcc.md).
 
 
 ## <a name="calling-capabilities"></a>Anruffunktionen
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Was ist der Plan für Onlinesprachfunktionen von Microsoft?
 
-Wir haben unsere zurzeit verfügbaren Telefonsystemfunktionen (ehemals Cloud-PBX) und Anruffunktionen zu Microsoft Teams hinzugefügt. Obwohl die Mehrzahl unserer Telefonsystemfunktionen in Microsoft Teams übernommen wurde, sind einige zusätzliche Unternehmensfunktionen für das vierte Quartal 2018 geplant (terminliche Änderungen vorbehalten).
+Wir haben unsere zurzeit verfügbaren [Telefonsystem](https://products.office.com/microsoft-teams/voice-calling)-Funktionen (ehemals Cloud-PBX) und Anruffunktionen zu Teams hinzugefügt. Darüber hinaus gibt es einige Funktionen, die früher nur in Skype for Business Server verfügbar waren und jetzt in Microsoft Teams verfügbar sind. Weitere Informationen finden Sie [hier](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Additional-Voice-Features-for-the-New-Year/ba-p/295062).
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>Welchen Rat geben Sie Kunden, die das Telefonsystem (Cloud-PBX) bereits in Skype for Business Online bereitgestellt haben?
 
-Kunden sollten die Teams-Roadmap auswerten, um festzustellen, wann Funktionen ihren Geschäftsanforderungen entsprechen. Wir ermutigen alle Office 365-Kunden, mit der unabhängigen Verwendung von Microsoft Teams zu beginnen oder Microsoft Teams und Skype for Business parallel zu nutzen.
+Kunden sollten die [Teams-Roadmap](https://aka.ms/skype2teamsroadmap) auswerten, um festzustellen, wann Funktionen ihren Geschäftsanforderungen entsprechen. Wir ermutigen alle Office 365-Kunden, mit der unabhängigen Verwendung von Microsoft Teams zu beginnen oder Microsoft Teams und Skype for Business parallel zu nutzen.
 
 ### <a name="when-will-hybrid-customers-be-able-to-move-to-teams"></a>Wann können Kunden, die Hybridtelefonie nutzen, zu Microsoft Teams wechseln?
 
-Wir haben basierend auf Kundenfeedback das Verbinden von Trunks oder Telefoniesystemen von Drittanbietern mit Office 365 für unsere Kunden vereinfacht. Kunden, die für Anrufe ihren eigenen Telefondienst in Microsoft Teams integrieren möchten, haben jetzt mit der allgemein verfügbaren Funktion [direktes Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359) die entsprechende Möglichkeit.  Direktes Routing und Anrufpläne sind zwei Optionen für Tonwahlverfahren in Microsoft Teams.
+Wir haben basierend auf Kundenfeedback das Verbinden von Trunks oder Telefoniesystemen von Drittanbietern mit Office 365 für unsere Kunden vereinfacht. Kunden, die für Anrufe ihren eigenen Telefondienst in Microsoft Teams integrieren möchten, haben jetzt mit der allgemein verfügbaren Funktion [direktes Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359) die entsprechende Möglichkeit. Direktes Routing und Anrufpläne sind zwei Optionen für Tonwahlverfahren in Microsoft Teams.
 
 
 ## <a name="messaging-capabilities"></a>Messagingfunktionen
 
 ### <a name="will-people-centric-conversations-be-available-in-the-new-client"></a>Stehen im neuen Client nutzerorientierte Unterhaltungen zur Verfügung?
 
-Einer der vielen Vorteile von Microsoft Teams liegt darin, dass Benutzer Zugriff auf neue Kommunikationsfunktionen erhalten. In Teams sind alle Chats nutzerorientiert. Benutzer können ihren gesamten Chatverlauf mit anderen Benutzern problemlos in ihren Clients oder Browsern überprüfen. Suchvorgänge können einfacher ausgeführt werden.
+Einer der vielen Vorteile von Teams liegt darin, dass Benutzer Zugriff auf neue Kommunikationsfunktionen erhalten. In Teams sind alle Chats nutzerorientiert. Benutzer können ihren gesamten Chatverlauf mit anderen Benutzern problemlos in ihren Clients oder Browsern überprüfen. Suchvorgänge können einfacher ausgeführt werden.
 
 ## <a name="meeting-capabilities"></a>Besprechungsfunktionen
 
@@ -188,15 +189,15 @@ Zurzeit ist nicht geplant, Drittanbieter für Audiokonferenzen in Microsoft Team
 
 ### <a name="whats-the-plan-for-video-interoperability-support-for-teams-meetings"></a>Wie sieht der Plan für die Unterstützung von Videointeroperabilität in Microsoft Teams-Besprechungen aus?
 
-Geräte für Besprechungsräume sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes. Cloud-Videointeroperabilitätsdienste zur Unterstützung von Microsoft Teams-Besprechungen mit vorhandenen VTC-Systemen sind zurzeit in Arbeit. Angebote von Pexip, Polycom und Blue Jeans werden im Herbst allgemein verfügbar sein. Kunden können weiterhin Polycom Real Connect für Office 365 mit Skype for Business Online verwenden.
+[Geräte für Besprechungsräume](https://products.office.com/microsoft-teams/across-devices) sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes. [Cloud-Videointeroperabilitätsdienste](cloud-video-interop.md) zur Unterstützung von Teams-Besprechungen mit vorhandenen VTC-Systemen sind zurzeit in Arbeit. Angebote von Pexip, Polycom und Blue Jeans werden im Herbst allgemein verfügbar sein.
 
-### <a name="will-the-latest-generation-of-skype-room-systems-v2-support-meetings-in-teams"></a>Bietet die neueste Generation von Skype Room Systems (v2) Unterstützung für Besprechungen in Microsoft Teams?
+### <a name="will-the-latest-generation-of-skype-room-systems-v2-support-meetings-in-teams"></a>Bietet die neueste Generation von Skype Room Systems (v2) Unterstützung für Besprechungen in Teams?
 
-Geräte für Besprechungsräume sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes, und wir setzen diese Dynamik mit Skype Room Systems fort. Für Skype Room Systems ist ein Update verfügbar, das die Teilnahme an Microsoft Teams-Besprechungen ermöglicht. Außerdem können Benutzer jetzt mit einer entsprechenden Erkennungsfunktion in der Nähe vorhandene Skype Room Systems-Geräte identifizieren. Unterstützung für Doppelbildschirm-Modus und Panoramavideogeräte ist für spätere Versionen geplant.
+Wir unterstützen weiterhin die Dynamik von Skype Room Systems. Für Skype Room Systems ist ein Update verfügbar, das die Teilnahme an Teams-Besprechungen ermöglicht. Außerdem können Benutzer jetzt mit einer entsprechenden Erkennungsfunktion in der Nähe vorhandene Skype Room Systems-Geräte identifizieren. Unterstützung für Doppelbildschirm-Modus und Panoramavideogeräte ist für spätere Versionen geplant.
 
-### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Wird Skype Room Systems V1 mit Unterstützung für Microsoft Teams-Besprechungen aktualisiert?
+### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Wird Skype Room Systems V1 mit Unterstützung für Teams-Besprechungen aktualisiert?
 
-Geräte für Besprechungsräume sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes. Ein Upgrade für Skype Room Systems v1 (auch als Lync Room Systems bekannt) wird die Teilnahme an Microsoft Teams-Besprechungen mit diesen Geräten ermöglichen. Im Rahmen des Upgrades werden diese Geräte außerdem aus Sicherheitsgründen von Windows 7 auf Windows 10 aktualisiert. Bei Geräten mit Touchscreens verlieren Sie den Zugriff auf Touchfunktionen wie Freihand, PowerPoint-Anmerkungen sowie Whiteboards und die Verwendung von Touchfunktionen auf dem Bildschirm des Besprechungsraums zum Starten einer Besprechung.
+Ein Upgrade für Skype Room Systems v1 (auch als Lync Room Systems bekannt) wird die Teilnahme an Teams-Besprechungen mit diesen Geräten ermöglichen. Im Rahmen des Upgrades werden diese Geräte außerdem aus Sicherheitsgründen von Windows 7 auf Windows 10 aktualisiert. Bei Geräten mit Touchscreens verlieren Sie den Zugriff auf Touchfunktionen wie Freihand, PowerPoint-Anmerkungen sowie Whiteboards und die Verwendung von Touchfunktionen auf dem Bildschirm des Besprechungsraums zum Starten einer Besprechung.
 
 ## <a name="management-capabilities"></a>Verwaltungsfunktionen
 
@@ -212,4 +213,4 @@ Microsoft Teams-Besprechungen sind jetzt auf Surface Hub-Geräten mit Anruf- und
 
 ### <a name="will-certified-skype-for-business-online-phones-work-with-teams"></a>Funktionieren zertifizierte Skype for Business Online-Telefone mit Microsoft Teams?
 
-Antworten auf alle Fragen zur Telefonkompatibilität finden Sie im [Blog zu zertifizierten Skype for Business Online-Telefonen und zur Bedeutung für Microsoft Teams](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309).
+Antworten auf alle Fragen zur Telefonkompatibilität finden Sie im [Blog zu zertifizierten Skype for Business Online-Telefonen und zur Bedeutung für Teams](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309).
