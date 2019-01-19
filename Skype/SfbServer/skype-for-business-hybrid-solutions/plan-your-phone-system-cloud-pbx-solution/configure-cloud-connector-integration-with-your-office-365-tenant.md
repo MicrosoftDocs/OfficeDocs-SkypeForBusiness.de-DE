@@ -13,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
-ms.openlocfilehash: 01e5135a4b0ac6de391140bc6fc0d80bcc00e2ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375769"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729379"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Konfigurieren der Cloud Connector-Integration mit Ihrem Office 365-Mandanten
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
 Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
   
@@ -42,7 +42,7 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 3. Importieren Sie das Zertifikat der Stammzertifizierungsstelle für das für Ihr Gateway auf dem Vermittlungsserver ausgegebene Zertifikat. Wenn Sie ein SSL-Zertifikat für das Gateway abrufen müssen, können Sie dafür den Zertifizierungsstellen-Dienst verwenden, der auf dem Cloud Connector Active Directory-Computer ausgeführt wird. Gehen Sie dazu folgendermaßen vor:
     
-   - Ändern Sie die vorhandene Webservervorlage zum Aktivieren von authentifizierten Benutzern die Registrierung, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften konfigurieren und Aktivieren von authentifizierten Benutzern die Registrierung. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Ändern Sie die vorhandene Webservervorlage zum Aktivieren von authentifizierten Benutzern die Registrierung, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften konfigurieren und Aktivieren von authentifizierten Benutzern die Registrierung. Eine detaillierte Anleitung finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
    - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
@@ -54,7 +54,7 @@ Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Off
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Hinzufügen von DNS-Datensätzen in Office 365 für Ihre Edges
 
-Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Informationen dazu, wie Sie Ihre Office 365-Mandanten DNS-Datensätze hinzufügen finden Sie unter [Hinzufügen oder Bearbeiten benutzerdefinierter DNS-Einträgen in Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Informationen zum Hinzufügen von DNS-Datensätzen zu Ihrem Office 365-Mandanten finden Sie unter [Hinzufügen oder Bearbeiten von benutzerdefinierten DNS-Datensätzen in Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Fügen Sie einen DNS-A-Eintrag für Zugriffs-Edges hinzu.
     
@@ -88,7 +88,7 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 3. Importieren Sie das Zertifikat der Stammzertifizierungsstelle für das für Ihr Gateway auf dem Vermittlungsserver ausgegebene Zertifikat. Wenn Sie ein SSL-Zertifikat für das Gateway abrufen müssen, können Sie dafür den Zertifizierungsstellen-Dienst verwenden, der auf dem Cloud Connector Active Directory-Computer ausgeführt wird. Gehen Sie dazu folgendermaßen vor:
     
-   - Ändern Sie die vorhandene Webservervorlage, um die Registrierung authentifizierter Benutzer zuzulassen, oder erstellen Sie eine neue Webservervorlage, um andere Eigenschaften zu konfigurieren und die Registrierung authentifizierter Benutzer zuzulassen. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
+   - Ändern Sie die vorhandene Webservervorlage, um die Registrierung authentifizierter Benutzer zuzulassen, oder erstellen Sie eine neue Webservervorlage, um andere Eigenschaften zu konfigurieren und die Registrierung authentifizierter Benutzer zuzulassen. Eine detaillierte Anleitung finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
     
    - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
@@ -166,7 +166,10 @@ Wenn ein P2P-Aufruf für eine PSTN-Konferenz eskaliert wird, sendet die Skype f�
     
     Verwenden Sie die standardmäßige SIP-Domäne der Cloud-Verbindung (die erste SIP-Domäne in der INI-Datei) als Domäne des Benutzers ein.
     
-    Beachten Sie, dass die Lizenz-Zuordnung ist nur für die Weitergabe Benutzer in der Skype für Business online Directory erforderlich. Weisen Sie das Konto erstellen, können bis zu einer Stunde, damit die Änderungen zu übernehmen und dann entfernen die Lizenz aus dieses Konto ein Office 365-Lizenzen (beispielsweise E5).
+    Beachten Sie, dass die Lizenz-Zuordnung ist nur für die Weitergabe Benutzer in der Skype für Business online Directory erforderlich. Zuweisen einer Office 365 (beispielsweise E5) für das Konto erstellen lizenziert, bis zu einer Stunde, damit die Änderungen weitergegeben, überprüfen die Benutzerkonten hat wurde ordnungsgemäß bereitgestellt, der Skype für Business online Directory ausgeführt wird, in der folgenden Cmdlets zulassen und dann Entfernen der Dieses Konto-Lizenz.
+    ```
+   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   ```
     
 2. Starten Sie eine mit Mandanten Azure AD remote PowerShell-Sitzung mit den globalen oder Benutzeranmeldeinformationen Admin, und führen Sie dann in das folgende Cmdlet die Abteilung für das Benutzerkonto Azure AD festgelegt konfigurierten Schritt 1 "HybridMediationServer":
 

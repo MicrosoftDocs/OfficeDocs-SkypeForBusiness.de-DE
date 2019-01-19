@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: Vorbereiten Sie Ihrer Skype Business Server 2019 Servern Infrastruktur und die Domäne mit den in diesem Thema. Hardware, OS, Datenbanken, Software, alle die Systemanforderungen und Empfehlungen, zusammen mit Zertifikat DNS, Dateifreigabe und Active Directory-Informationen sind hier zur Sicherstellung einer erfolgreichen Installation und Bereitstellung Ihrer Serverfarm.'
-ms.openlocfilehash: db5bada7b89de2fafc4d72c9fa5fcac05d8611ce
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a812c2cbc96ab80eea55072162c54bc7371a9dc5
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297768"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729351"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Systemanforderungen für Skype für Business Server 2019
  
@@ -193,9 +193,10 @@ Skype für Business Server 2019 Enterprise Edition benötigen vollständiger SQL
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-Bit-Edition), und Sie müssen mit den neuesten Updates ausführen.  <br/> ||
+|Microsoft SQL Server 2016 (64-Bit-Edition), und Sie müssen mit den neuesten Updates ausführen.  <br/> |
+Microsoft SQL Server 2017 (64-Bit-Edition), und Sie müssen mit den neuesten Updates ausführen.|
  |
-   
+
 Wenn die von Ihnen gewünschte SQL Server-Edition nicht aufgeführt wird, können Sie sie nicht verwenden.
   
 > [!NOTE]
@@ -212,13 +213,13 @@ Für das Failoverclustering können Sie Folgendes verwenden:
 Zwei Knoten:
   
 - Microsoft SQL Server 2016 Standard (64-Bit-Edition), und es wird empfohlen wird mit dem neuesten Servicepack ausgeführt.
-    
+- Microsoft SQL Server 2017 Standard (64-Bit-Edition), und es wird empfohlen wird mit dem neuesten Servicepack ausgeführt.
+
 Sechzehn Knoten:
   
 - Microsoft SQL Server 2016 Enterprise (64-Bit-Edition), und wir empfehlen mit dem neuesten Servicepack.
-    
-Wir haben einen Artikel, Configure SQL Server clustering für Skype für Business Server 2019, die die Schritte zum Abrufen von clustering bereit.
- 
+- Microsoft SQL Server 2017 Enterprise (64-Bit-Edition), und wir empfehlen mit dem neuesten Servicepack.
+
 SQL immer auf wird unterstützt, und Sie erhalten weitere genauer darüber in [hoher Verfügbarkeit von Back-End-Server in Skype für Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   
 

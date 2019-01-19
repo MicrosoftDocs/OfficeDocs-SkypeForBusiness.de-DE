@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Informationen Sie zu Business Server, einschließlich des AlwaysOn Availability Groups, AlwaysOn-Failoverclusterinstanzen, datenbankspiegelung und SQL-Failover-Clusterunterstützung in Skype unterstützten Optionen für die hohe Verfügbarkeit der Back-End-Server.
-ms.openlocfilehash: c17d4afb20a0aeef2a1dacc40080a1092fbda357
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f7d48718a47533425f3481edb0c4e71878fd7226
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789292"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729414"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back-End-Server hohe Verfügbarkeit in Skype für Business Server
  
@@ -47,7 +47,6 @@ Skype für Business Server unterstützt Spiegelung mit der folgenden Datenbankso
     
 - SQL Server 2012 SP2 und CU2, Enterprise Edition und Standard Edition
     
-- SQL Server 2008 R2 SP2 Enterprise Edition und Standard Edition
 
 > [!NOTE]
 > SQL Server 2016 ist die einzige Version von Skype für Business Server 2019 unterstützt.
@@ -113,16 +112,18 @@ Schritte für die Bereitstellung von AlwaysOn-Verfügbarkeitsgruppen finden Sie 
 
 Skype für Business Server unterstützt SQL Server-Failover-Clusterunterstützung mit der folgenden Datenbanksoftware:
   
+- SQLServer 2017, Enterprise Edition und Standard Edition
+
 - SQLServer 2016, Enterprise Edition und Standard Edition
 
 - SQLServer 2014, Enterprise Edition und Standard Edition
     
 - SQL Server 2012 SP2 und CU2, Enterprise Edition und Standard Edition
-    
-- SQL Server 2008 R2 SP2 Enterprise Edition und Standard Edition
+
+Wenn SQL-Failover-Clusterunterstützung verwenden möchten, sollten Sie zunächst einrichten und konfigurieren den SQL Server-Cluster vor der Bereitstellung von den Front-End-Pool. Bewährte Methoden und zur Einrichtung für Failover-Clusterunterstützung in SQL Server 2012 finden Sie unter [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx).
 
 > [!NOTE]
-> SQL Server 2016 ist die einzige Version von Skype für Business Server 2019 unterstützt.
+> SQL Server 2017 und SQL Server 2016 sind die einzigen Versionen von Skype für Business Server 2019 unterstützt.
     
 Wenn SQL-Failover-Clusterunterstützung verwenden möchten, sollten Sie zunächst einrichten und konfigurieren den SQL Server-Cluster vor der Bereitstellung von den Front-End-Pool. Bewährte Methoden und Anweisungen zum Failover-Clusterunterstützung in SQL Server 2014 und 2016 einrichten, finden Sie unter [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). Failover-Clusterunterstützung in SQL Server 2008 finden Sie unter [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   

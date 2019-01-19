@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Erfahren Sie mehr über welche Aspekte bei der Planung für das Anrufqualität Dashboard zu.'
-ms.openlocfilehash: b524bd344ead2dbc526265f6421881cc6a848b76
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 684ec4ead9d6292cb316f1330bace65149151fbf
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789369"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729458"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen Sie für die Qualitätsdashboard Anruf Skype für Business Server 
  
@@ -162,7 +162,7 @@ CQD, einschließlich aller Komponenten und abhängige Komponenten kann auf einem
 |||
 |:-----|:-----|
 |Unterstützte Betriebssysteme  <br/> |Windows Server 2008 R2, WindowsServer 2012, Windows Server 2012 R2  <br/> |
-|Unterstützte SQLServer  <br/> |SQL Server 2008 R2, SqlServer 2012, SqlServer 2014  <br/> |
+|Unterstützte SQLServer  <br/> |SQLServer 2012, SqlServer 2014, SqlServer 2016  <br/> |
    
 CQD verwendet Microsoft SQL Server, Microsoft SQL Server Analysis Services und Microsoft Internet Information Services, damit CQDs Mindestanforderungen für Hardware und Software im Wesentlichen die abhängigen Komponenten identisch sind. Jedoch soll auf Grundlage der Anforderungen der Organisation um Datenaktualität (die Teil des Umfangs der QoE-Daten, die die Organisation generiert, hängen) und Bereitstellungskosten, weitere Bereitstellungsaspekte erfolgen.
   
@@ -271,7 +271,7 @@ Im folgenden sind die erforderlichen IIS-Rollendienste (in einer hierarchischen 
   - IIS-Verwaltungskonsole
     
 > [!NOTE]
->  Beachten Sie Folgendes für die oben genannten Anforderungen: > 3.5 und .net Framework 4.5-Versionen verfügbar sind. Beide sind erforderlich (genauer gesagt 3.5 SP1 ist erforderlich). > In einige Systeme, wenn ASP.NET das Setup vor dem Installieren von IIS anschließend ASP.NET möglicherweise nicht registriert in IIS. Das Problem Manifeste über Abwesenheit des Anwendungspools für die entsprechende Version .net und auch die .NET CLR-Version in app-Poolkonfiguration fehlt. Um solche ein Problem unter Windows Server 2008 R2 zu beheben, führen Sie `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. Führen Sie auf Windows Server 2012 und Windows Server 2012 R2 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` gefolgt von Entfernen des Moduls "ServiceModel" aus der Standardwebsite in IIS-Manager. > Verwaltungstools ist optional, wird jedoch empfohlen.
+>  Beachten Sie Folgendes für die oben genannten Anforderungen: > 3.5 und .net Framework 4.5-Versionen verfügbar sind. Beide sind erforderlich (genauer gesagt 3.5 SP1 ist erforderlich) .> In einige Systeme, wenn ASP.NET das Setup vor dem Installieren von IIS und ASP.NET möglicherweise nicht in IIS registriert ist. Das Problem Manifeste über Abwesenheit des Anwendungspools für die entsprechende Version .net und auch die .NET CLR-Version in app-Poolkonfiguration fehlt. Um solche ein Problem unter Windows Server 2008 R2 zu beheben, führen Sie `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. Führen Sie auf Windows Server 2012 und Windows Server 2012 R2 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` gefolgt von der "ServiceModel" Modul aus der Standardwebsite in IIS Manager.>-Verwaltungstools ist optional, aber empfohlen entfernen.
   
 So installieren Sie diesen Anforderungen von PowerShell, führen Sie Folgendes:
   
@@ -285,13 +285,13 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 Die folgenden Versionen von SQL Server werden unterstützt:
   
-- SQL Server 2008 R2
-    
 - SQL Server 2012
     
 - SQL Server 2014
 
 - SQLServer 2016
+
+- SQLServer 2017
     
 Business Intelligence oder Enterprise Edition ist aus Gründen der Systemleistung empfohlen. Diese Editionen ermöglichen die Verwendung von mehreren Partitionsdateien, die gleichzeitig, verarbeitet werden kann, die ist nützlich für die Verarbeitung der Daten übergreifende mehrere Monate oder länger. 
   

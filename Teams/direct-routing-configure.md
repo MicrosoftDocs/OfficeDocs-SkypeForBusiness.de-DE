@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: d7744841b99e343339624314a94d95ab9472fa85
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988287"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729444"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -31,7 +31,7 @@ Wenn Sie dies nicht bereits geschehen ist, lesen [Planen direkten Routing](direc
 
 In diesem Artikel wird beschrieben, wie Microsoft Phone System direkten Routing konfigurieren. Es werden wie eine unterstützte Session Border Controller (SBC) zum direkten Routing Kopplung und zum Konfigurieren von Microsoft-Teams, Benutzer zum direkten Routing Verbindung zu im Public Switched Telephone Network, (PSTN) verwenden. Um die in diesem Artikel erläuterten Schritte ausgeführt haben, benötigen Administratoren mit PowerShell-Cmdlets vertraut. Weitere Informationen zum Verwenden von PowerShell finden Sie unter [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
-Es wird empfohlen, dass Sie bestätigen, dass Ihre SBC bereits konfiguriert wurde, wie mithilfe des Herstellers Ihres SBC empfohlen: 
+Es wird empfohlen, dass Sie bestätigen, dass Ihre SBC bereits konfiguriert wurde, wie vom Hersteller Ihrer SBC empfohlen: 
 
 - [Dokumentation zur Bereitstellung von AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Menüband-Dokumentation zu Communications-Bereitstellung](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
@@ -42,7 +42,7 @@ Sie können Ihr Telefonsystem Microsoft konfigurieren und Aktivieren von Benutze
 - [Aktivieren von Benutzern für direkte Routingdienst](#enable-users-for-direct-routing-service)
 - [Sicherstellen Sie, dass Microsoft-Teams, die bevorzugte aufrufende Client für die Benutzer ist](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
-## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>Den SBC um Routingdienst von Telefonsystem leiten Kopplung 
+## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>Die SBC beziehen, um die direkte Routingdienst von Telefonsystem Kopplung 
 
 Es folgen drei allgemeinen Schritte ausführen, können Sie eine Verbindung herstellen oder Paaren Sie den SBC mit der direkten Routing-Schnittstelle: 
 
@@ -50,7 +50,7 @@ Es folgen drei allgemeinen Schritte ausführen, können Sie eine Verbindung hers
 - Paar die SBC 
 - Überprüfen der Paarung 
 
-### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>Herstellen einer Verbindung mit Skype für Business Online mithilfe von PowerShell 
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Herstellen einer Verbindung mit Skype für Business Online mithilfe von PowerShell 
 
 Eine PowerShell-Sitzung mit dem Mandanten verbunden können Sie den SBC mit der direkten Routing-Schnittstelle Kopplung. Um eine PowerShell-Sitzung zu öffnen, wenden Sie sich, befolgen Sie die Schritte in [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
@@ -60,7 +60,7 @@ Nachdem Sie eine PowerShell-Remotesitzung eingerichtet haben, überprüfen Sie, 
 gcm *onlinePSTNGateway*
 ```
 
-Der Befehl gibt die hier gezeigten vier Funktionen zurück, mit der Sie die SBCs verwalten können. 
+Der Befehl gibt die hier gezeigten vier Funktionen zurück, mit der Sie den SBC verwalten können. 
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -80,8 +80,8 @@ So Paaren Sie die SBC beziehen, um den Mandanten in die PowerShell-Sitzung Folge
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
-  > 1. Es wird dringend empfohlen festlegen einen Grenzwert für den SBC mit Informationen, die in der Dokumentation SBC gefunden werden kann. Der Grenzwert wird eine Benachrichtigung auslösen, wenn SBC Ebene der Kapazität wird.
-  > 2. Sie können nur den SBC mit FQDN, bei denen der Domänenteil des Namens eine der in Ihrem Mandanten entspricht, außer registrierte Domänen Kopplung \*. onmicrosoft.com. Mithilfe von \*. onmicrosoft.com Domänennamen wird für die SBC-FQDN-Namen nicht unterstützt. Angenommen, Sie haben zwei Domänennamen:<br/><br/>
+  > 1. Es wird dringend empfohlen festlegen einen Anruf maximale Grenzwert in den SBC mit Informationen, die in der Dokumentation SBC gefunden werden kann. Der Grenzwert wird eine Benachrichtigung ausgelöst, wenn auf der Ebene der Kapazität der SBC ist.
+  > 2. Sie können nur den SBC Kopplung, wenn der Domänenteil der den FQDN, eine der in Ihrem Mandanten übereinstimmt, außer registrierte Domänen \*. onmicrosoft.com. Mithilfe von \*. onmicrosoft.com Domänennamen wird für den SBC-FQDN-Namen nicht unterstützt. Angenommen, Sie haben zwei Domänennamen:<br/><br/>
   > **Contoso**.com<br/>**"Contoso"**. onmicrosoft.com<br/><br/>
   > Für den Namen SBC können Sie den Namen sbc.contoso.com. Wenn Sie versuchen, den SBC mit einem Namen sbc.contoso.abc Kopplung, wird das System können Sie nicht, wie die Domäne nicht diesen Mandanten gehört.
 
@@ -100,9 +100,9 @@ SendSipOptions        : True
 MaxConcurrentSessions : 100 
 Enabled               : True   
 </pre>
-Es sind zusätzliche Optionen, die während der Paarung festgelegt werden können. Im vorherigen Beispiel jedoch nur die mindestens erforderlichen Parameter angezeigt werden. 
+Es sind zusätzliche Optionen, die während der Verbindungsaufbau festgelegt werden können. Im vorherigen Beispiel jedoch nur die mindestens erforderlichen Parameter angezeigt werden. 
  
-Die folgende Tabelle enthält die zusätzlichen Parameter, die Sie beim Einrichten von Parametern für *Neu CsOnlinePstnGateway*verwenden können. 
+Die folgende Tabelle enthält die zusätzlichen Parameter, die Sie verwenden können, in das Festlegen von Parametern für`New-CsOnlinePstnGateway`
 
 |Erforderlich?|Name|Beschreibung|Default (Standard)|Mögliche Werte|Typ und Einschränkungen|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -122,7 +122,7 @@ Die folgende Tabelle enthält die zusätzlichen Parameter, die Sie beim Einricht
 - Überprüfen Sie, ob in der Liste der kombinierte SBCs der SBC ist. 
 - Überprüfen Sie die SIP-Optionen. 
  
-#### <a name="validate-if-sbc-is-on-the-list-of-paired-sbcs"></a>Überprüfen Sie, ob in der Liste der kombinierte SBCs SBC ist 
+#### <a name="validate-if-the-sbc-is-on-the-list-of-paired-sbcs"></a>Überprüfen Sie, ob in der Liste der kombinierte SBCs der SBC ist 
 
 Überprüfen Sie nachdem Sie die SBC Paar, dass der SBC mithilfe des folgenden Befehls in einer remote-PowerShell-Sitzung in der Liste der kombinierte SBCs vorhanden ist:`Get-CSOnlinePSTNGateway`
 
@@ -148,11 +148,11 @@ Enabled               : True
 
 #### <a name="validate-sip-options-flow"></a>Überprüfen Sie die Optionen SIP-Fluss 
 
-Um die Verbindung mit ausgehender SIP-Optionen zu überprüfen, verwenden Sie die SBC-Management-Schnittstelle und sehen Sie, dass der SBC 200 OK-Antworten den ausgehenden Optionen abrufen.
-  
-Beim direkten Routing Optionen für eingehende Faxe erkennt, wird gestartet senden ausgehende Optionen auf den SBC-FQDN im Feld Kopfzeile Kontakt in der eingehenden Nachricht Optionen konfiguriert. 
+Um die Verbindung mit ausgehender SIP-Optionen zu überprüfen, verwenden Sie die SBC-Management-Schnittstelle, und bestätigen Sie, dass der SBC 200 OK Antworten auf ausgehenden Optionen Nachrichten empfängt.
 
-Um die Verbindung mit eingehenden SIP-Optionen zu validieren, verwenden Sie die SBC-Management-Schnittstelle und finden Sie, dass der SBC Antwort auf die Optionen für Nachrichten, die von direkten Routing wird und der Antwortcode 200 OK ist.  
+Beim direkten Routing Optionen für eingehende Faxe erkennt, wird gestartet Sendeoptionen ausgehende SIP-Nachrichten an den SBC FQDN im Feld Kopfzeile Kontakt in der eingehenden Nachricht Optionen konfiguriert. 
+
+Um die Verbindung mit eingehenden SIP-Optionen zu validieren, verwenden Sie die SBC-Management-Schnittstelle und finden Sie, dass der SBC eine Antwort auf die Optionen für Nachrichten, die von direkten Routing sendet und die gesendeten Antwortcodes 200 OK ist.
 
 ## <a name="enable-users-for-direct-routing-service"></a>Aktivieren von Benutzern für direkte Routingdienst 
 
@@ -161,20 +161,20 @@ Wenn Sie so aktivieren Sie Benutzer für die direkte Routingdienst bereit sind, 
 1. Erstellen eines Benutzers in Office 365 und eine Telefon-Lizenz zuweisen. 
 2. Stellen Sie sicher, dass der Benutzer in Skype für Business Online verwaltet wird. 
 3. Konfigurieren Sie die Telefonnummer ein, und aktivieren Sie Enterprise-VoIP und Voicemail. 
-4. Konfigurieren von VoIP-routing. Die Route wird automatisch überprüft.  
+4. Konfigurieren von VoIP-routing. Die Route wird automatisch überprüft.
 
 ### <a name="create-a-user-in-office-365-and-assign-the-license"></a>Erstellen eines Benutzers in Office 365 und Lizenz zuweisen 
 
 Es gibt zwei Optionen zum Erstellen eines neuen Benutzers in Office 365. Jedoch wird empfohlen, dass Ihre Organisation wählen und verwenden eine Option, um routing Probleme zu vermeiden: 
 
-- Erstellen Sie des Benutzers in Active Directory am Standort und synchronisieren Sie den Benutzer in die Cloud zu. Finden Sie unter [integrieren Ihre lokale Verzeichnisse mit Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).  
+- Erstellen Sie den Benutzer im lokalen Active Directory und synchronisieren Sie den Benutzer in die Cloud zu. Finden Sie unter [integrieren Ihre lokale Verzeichnisse mit Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 - Erstellen Sie den Benutzer direkt in Office 365-Administrator-Portal. Finden Sie unter [Benutzer einzeln oder in einer Sammeloperation zu Office 365 - Admin Hilfe hinzufügen](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
-  Wenn Sie das System, das mit Skype für Business 2015 oder Lync 2010/2013 lokal vorhanden ist erstellen, ist die einzige unterstützte Option den Benutzer im lokalen Active Directory erstellen und Synchronisieren des Benutzers in die Cloud (Option 1). 
+Wenn Ihre Skype für Business Online-Bereitstellung mit Skype für Business 2015 oder Lync 2010/2013 lokal vorhanden ist, ist die einzige unterstützte Option den Benutzer im lokalen Active Directory erstellen und Synchronisieren des Benutzers in die Cloud (Option 1). 
 
 Lizenzen erforderlich: 
 
-- Office 365 Enterprise E3 (einschließlich SfB Plan2, Exchange Plan2 und Teams) + Phone System  
+- Office 365 Enterprise E3 (einschließlich SfB Plan2, Exchange Plan2 und Teams) + Phone System
 - Office 365 Enterprise E5 (einschließlich SfB Plan2, Exchange Plan2, Teams und Telefonsystem) 
 
 Optional Lizenzen: 
@@ -201,15 +201,15 @@ So fügen Sie die Telefonnummer, und für Voicemail aktivieren:
  
 1. Verbinden Sie mit einer remote-PowerShell-Sitzung. 
 2. Geben Sie den Befehl aus: 
-    
+ 
 ```
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+ phone number
+Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
 ```
 
 Um eine Rufnummer für den Benutzer "Software niedrig" hinzuzufügen, würden Sie beispielsweise Folgendes eingeben: 
 
 ```
-Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 Die Rufnummer muss als eine vollständige e. 164-Rufnummer mit Ländercode konfiguriert werden. 
@@ -230,22 +230,22 @@ Anrufrouting aus den folgenden Elementen besteht:
 - VoIP Routing-Richtlinie – Container für PSTN-Verwendungen; kann an einen Benutzer oder mehreren Benutzern zugewiesen werden 
 - PSTN-Verwendungen – Container für VoIP-Routen und PSTN-Verwendungen; können in unterschiedlichen VoIP-Routing-Richtlinien gemeinsam genutzt werden 
 - VoIP-Routen-Muster und einen Satz von Online PSTN-Gateways für Anrufe verwendet, in dem anrufende Nummer mit dem Muster übereinstimmt 
-- Online PSTN-Gateway - Zeiger SBC, speichert auch die Konfiguration, die angewendet wird, wenn der Anruf über den SBC, wie P-Asserted-Identity (PAI) nach vorne oder bevorzugte Codecs platziert wird. VoIP-Routen können hinzugefügt werden 
+- Online PSTN-Gateway - Zeiger auf einen SBC speichert auch die Konfiguration, die angewendet wird, wenn der Anruf über den SBC, wie P-Asserted-Identity (PAI) nach vorne oder bevorzugte Codecs platziert wird. VoIP-Routen können hinzugefügt werden 
 
 #### <a name="creating-a-voice-routing-policy-with-one-pstn-usage"></a>Erstellen einer VoIP-Routingrichtlinie mit einem PSTN-Verwendung 
 
 Das folgende Diagramm zeigt zwei Beispiele für VoIP-Routingrichtlinien zurückgegeben in Anruffluss.
 
-**Call Flow 1 (auf der linken Seite):** Wenn ein Benutzer einen Anruf an +1 425 XXX XX XX oder +1 206 XXX XX XX herstellt, wird der Anruf weitergeleitet, um SBC sbc1<span></span>. contoso.biz oder sbc2<span></span>. contoso.biz. Wenn weder sbc1<span></span>. contoso.biz noch sbc2<span></span>. contoso.biz verfügbar sind, wird der Anruf getrennt. 
+**Call Flow 1 (auf der linken Seite):** Wenn ein Benutzer einen Anruf an +1 425 XXX XX XX oder +1 206 XXX XX XX herstellt, wird der Anruf an SBC sbc1.contoso.biz oder sbc2.contoso.biz weitergeleitet. Wenn weder sbc1.contoso.biz noch sbc2.contoso.biz verfügbar sind, wird der Anruf getrennt. 
 
-**Call Flow 2 (auf der rechten Seite):** Wenn ein Benutzer einen Anruf an +1 425 XXX XX XX oder +1 206 XXX XX XX herstellt, wird der Anruf zuerst an SBC sbc1 weitergeleitet<span></span>. contoso.biz oder sbc2<span></span>. contoso.biz. Wenn weder SBC verfügbar ist, wird die Route mit niedrigere Priorität versucht (sbc3<span></span>. contoso.biz und sbc4<span></span>. contoso.biz). Wenn keines der SBCs verfügbar sind, wird der Anruf getrennt. 
+**Call Flow 2 (auf der rechten Seite):** Wenn ein Benutzer einen Anruf an +1 425 XXX XX XX oder +1 206 XXX XX XX herstellt, wird der Anruf zuerst an SBC sbc1.contoso.biz oder sbc2.contoso.biz weitergeleitet. Wenn weder SBC verfügbar ist, werden die Route mit niedrigere Priorität haben versucht, (sbc3.contoso.biz und sbc4.contoso.biz). Wenn keines der SBCs verfügbar sind, wird der Anruf getrennt. 
 
 ![Beispiele für VoIP routing-Richtlinie](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 Während der VoIP-Route Prioritäten zugewiesen wird, werden die SBCs in die Routen in beiden Beispielen in zufälliger Reihenfolge getestet.
 
   > [!NOTE]
-  > Wenn der Benutzer auch eine Microsoft aufrufen planen Lizenz besitzt, werden Anrufe an eine andere Zahl mit Ausnahme der Zielrufnummer entsprechen die Muster + +1 425 XXX XX XX oder +1 206 XXX XX XX in der Beispielkonfiguration gelöscht. Wenn der Benutzer eine Lizenz aufrufen planen verfügt, wird der Anruf automatisch entsprechend den Richtlinien von Microsoft aufrufen planen weitergeleitet. 
+  > Wenn der Benutzer auch eine Microsoft aufrufen planen Lizenz besitzt, werden Anrufe an eine andere Zahl mit Ausnahme von Zahlen, die das Muster +1 425 XXX XX XX oder +1 206 XXX XX XX in der Beispielkonfiguration gelöscht. Wenn der Benutzer eine Lizenz aufrufen planen verfügt, wird der Anruf automatisch entsprechend den Richtlinien von Microsoft aufrufen planen weitergeleitet. 
 
 Microsoft aufrufen planen automatisch als die letzte Route gilt für alle Benutzer mit der Lizenz Microsoft aufrufen planen und erfordert keine zusätzlichen Aufruf Routingkonfiguration.
 
@@ -264,9 +264,9 @@ In der folgenden Tabelle werden die Konfiguration mit drei VoIP-Routen zusammeng
 
 |**PSTN-Verwendung**|**VoIP-route**|**Nummernmuster**|**Priorität**|**SBC**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|UNS nur|"" Redmond "1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Aktive Route für gewählte Nummern +1 425 XXX XX XX oder +1 206 XXX XX XX|
-|UNS nur|"" Redmond "2"|^\\+ 1 (425\|206)(\d{7})$|2|SBC3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Backup Route für die gewählte Nummern +1 425 XXX XX XX oder +1 206 XXX XX XX|
-|UNS nur|"Andere + 1"|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Weiterleiten von zur gewählte Nummern + 1 XXX XXX XX XX (mit Ausnahme von +1 425 XXX XX XX oder +1 206 XXX XX XX)|
+|UNS nur|"" Redmond "1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Aktive Route für gewählte Nummern +1 425 XXX XX XX oder +1 206 XXX XX XX|
+|UNS nur|"" Redmond "2"|^\\+ 1 (425\|206)(\d{7})$|2|SBC3.contoso.biz<br/>sbc4.contoso.biz|Backup Route für die gewählte Nummern +1 425 XXX XX XX oder +1 206 XXX XX XX|
+|UNS nur|"Andere + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Weiterleiten von zur gewählte Nummern + 1 XXX XXX XX XX (mit Ausnahme von +1 425 XXX XX XX oder +1 206 XXX XX XX)|
 |||||||
 
 Alle Routen die PSTN-Verwendung "Uns und Kanada" zugeordnet sind, und die PSTN-Verwendung der VoIP-Routing-Richtlinie "Nur in den USA." zugeordnet ist In diesem Beispiel wird der Benutzer Spencer Low VoIP-routing-Richtlinie zugewiesen.
@@ -275,12 +275,12 @@ Alle Routen die PSTN-Verwendung "Uns und Kanada" zugeordnet sind, und die PSTN-V
 
 Im folgenden Beispiel wir wird gezeigt, wie Routen, PSTN-Verwendungen und Routing Richtlinien konfigurieren, und weisen wir die Richtlinie für den Benutzer.
 
-**Schritt 1:** Erstellen Sie die PSTN-Verwendung "USA und Kanada".
+**Schritt 1:** Erstellen Sie die PSTN-Verwendung "USA und Kanada" an.
 
 Geben Sie in einer Skype für Business Remote-PowerShell-Sitzung Folgendes ein:
 
 ```
-Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}
+Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
 Überprüfen Sie, dass die Verwendung durch Eingabe erstellt wurde: 
@@ -292,7 +292,7 @@ Die eine Liste mit Namen zurückgibt, der abgeschnitten werden kann:
   Identity  : Global
   Usage     : {testusage, US and Canada, International, karlUsage. . .}
 ```
-Im folgenden Beispiel sehen Sie das Ergebnis der Ausführung der PowerShell-Befehl *`(Get-CSOnlinePSTNUsage).usage`* vollständige Namen (nicht abgeschnitten) angezeigt.    
+Im folgenden Beispiel sehen Sie das Ergebnis der Ausführung der PowerShell-Befehl `(Get-CSOnlinePSTNUsage).usage` vollständige Namen (nicht abgeschnitten) angezeigt. 
 <pre>
  testusage
  US and Canada
@@ -305,7 +305,7 @@ Im folgenden Beispiel sehen Sie das Ergebnis der Ausführung der PowerShell-Befe
  Two trunks
 </pre>
 
-**Schritt 2:** Erstellen Sie in einer PowerShell-Sitzung in Skype für Business Online drei Routen: 1, 2 und andere + 1, Redmond "Redmond", wie in der vorherigen Tabelle. 
+**Schritt 2:** Erstellen Sie in einer PowerShell-Sitzung in Skype für Business Online drei Routen: 1, 2 und andere + 1 Redmond "Redmond", wie in der vorherigen Tabelle. 
 
 Wenn Sie um die Route "" Redmond "1" zu erstellen, geben Sie Folgendes ein:
 
@@ -352,7 +352,7 @@ In einigen Fällen besteht Bedarf für alle Anrufe an den gleichen SBC weitergel
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
-Überprüfen Sie, ob Sie die Route durch Ausführen von ordnungsgemäß konfiguriert haben die `Get-CSOnlineVoiceRoute` Powershell-Befehl mit der Optionen wie dargestellt: 
+Überprüfen Sie, ob Sie die Route durch Ausführen von ordnungsgemäß konfiguriert haben die `Get-CSOnlineVoiceRoute` PowerShell-Befehl mit der Optionen wie dargestellt: 
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -383,7 +383,7 @@ OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
 </pre>
 
-Im Beispiel die Route, dass "Andere + 1" automatisch Priorität zugewiesen wurde. 
+Im Beispiel die Route, dass "Andere + 1" automatisch Priorität 4 zugewiesen wurde. 
 
 **Schritt 3:** Erstellen einer VoIP-Routing-Richtlinie "Nur USA" und Hinzufügen der Richtlinie die PSTN-Verwendung "USA und Kanada".
 
@@ -402,9 +402,9 @@ Description         :
 RouteType           : BYOT
 </pre>
 
-**Schritt 4:** Dem Benutzer erteilen Sie Spence Low eine VoIP-routing-Richtlinie mithilfe von PowerShell.
+**Schritt 4:** Dem Benutzer erteilen Sie Spencer Low eine VoIP-routing-Richtlinie mithilfe von PowerShell.
 
-- Geben Sie in einer Powershell-Sitzung in Skype für Business Online Folgendes ein:
+- Geben Sie in einer PowerShell-Sitzung in Skype für Business Online Folgendes ein:
 
     ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
 
@@ -426,11 +426,11 @@ Die VoIP-Routing-Richtlinie erstellt ermöglicht zuvor nur Anrufe an externe Tel
 
 Im folgenden Beispiel wird, können Sie die VoIP-Routing-Richtlinie "Ohne Einschränkungen." erstellen Die Richtlinie verwendet die PSTN-Verwendung "Uns und Kanada" erstellt, die im vorherigen Beispiel als auch die neuen PSTN-Verwendung "International". 
 
-Dies leitet alle anderen Aufrufe der SBCs sbc2<span></span>. contoso.biz und sbc5<span></span>. contoso.biz. In den Beispielen, die angezeigt werden Zuweisen von uns nur die Richtlinie für Benutzer "Software niedrig" und keine Einschränkungen für den Benutzer "John Woods".
+Dadurch werden alle anderen Anrufe SBCs sbc2.contoso.biz und der sbc5.contoso.biz. In den Beispielen, die angezeigt werden weisen die uns nur die Richtlinie für Benutzer "Niedrig" Software ", und keine Einschränkungen für den Benutzer"John Woods".
 
-Software niedrig – zulässig Anrufe nur für die USA und Kanada Zahlen. Beim Aufruf von zu "Redmond" Nummern, muss dem spezifischen Berechtigungssatz SBC verwendet werden. Außerhalb der USA Zahlen werden nicht weitergeleitet werden, es sei denn, die Lizenz planen aufrufen, das dem Benutzer zugewiesen ist.
+Software niedrig – zulässig Anrufe nur für die USA und Kanada Zahlen. Beim Aufruf an den Nummernbereich Redmond, muss dem spezifischen Berechtigungssatz SBC verwendet werden. Außerhalb der USA Zahlen werden nicht weitergeleitet werden, es sei denn, die Lizenz planen aufrufen, das dem Benutzer zugewiesen ist.
 
-John Woods – Anrufe an eine beliebige Anzahl zulässig. Beim Aufruf von zu "Redmond" Nummern, muss dem spezifischen Berechtigungssatz SBC verwendet werden. Außerhalb der USA Rufnummern weitergeleitet werden über sbc2<span></span>. contoso.biz und sbc5<span></span>. contoso.biz.
+John Woods – Anrufe an eine beliebige Anzahl zulässig. Beim Aufruf an den Nummernbereich Redmond, muss dem spezifischen Berechtigungssatz SBC verwendet werden. Außerhalb der USA Zahlen werden über sbc2.contoso.biz und sbc5.contoso.biz weitergeleitet.
 
 ![Zeigt die VoIP-Routingrichtlinie Benutzer Spencer Low zugewiesen ist](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
@@ -444,14 +444,14 @@ In der folgenden Tabelle werden die routing Richtlinie "No Einschränkungen" Usa
 
 |**PSTN-Verwendung**|**VoIP-route**|**Nummernmuster**|**Priorität**|**SBC**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|UNS nur|"" Redmond "1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Aktive Route für angerufenen Zahlen +1 425 XXX XX XX oder +1 206 XXX XX XX|
-|UNS nur|"" Redmond "2"|^\\+ 1 (425\|206)(\d{7})$|2|SBC3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Backup Route für angerufenen Zahlen +1 425 XXX XX XX oder +1 206 XXX XX XX|
-|UNS nur|"Andere + 1"|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Route für angerufenen Zahlen + 1 XXX XXX XX XX (mit Ausnahme von +1 425 XXX XX XX oder +1 206 XXX XX XX)|
-|International|International|\d+|4|sbc2<span></span>. contoso.biz<br/>sbc5<span></span>. contoso.biz|Route für alle Nummernmuster |
+|UNS nur|"" Redmond "1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Aktive Route für angerufenen Zahlen +1 425 XXX XX XX oder +1 206 XXX XX XX|
+|UNS nur|"" Redmond "2"|^\\+ 1 (425\|206)(\d{7})$|2|SBC3.contoso.biz<br/>sbc4.contoso.biz|Backup Route für angerufenen Zahlen +1 425 XXX XX XX oder +1 206 XXX XX XX|
+|UNS nur|"Andere + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>.contoso.biz|Route für angerufenen Zahlen + 1 XXX XXX XX XX (mit Ausnahme von +1 425 XXX XX XX oder +1 206 XXX XX XX)|
+|International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Route für alle Nummernmuster |
 
 
   > [!NOTE]
-  > - Die Reihenfolge der PSTN-Verwendungen in VoIP-Routing-Richtlinien ist wichtig. Die Verwendungen in Reihenfolge angewendet werden, und wenn in der ersten Verwendung eine Übereinstimmung gefunden wird, klicken Sie dann andere Verwendungen werden nie ausgewertet. Die PSTN-Verwendung "International" muss nach der PSTN-Verwendung "Uns nur." platziert werden Führen Sie zum Ändern der Reihenfolge der PSTN-Verwendungen, die `Set-CSOnlineRouteRoutingPolicy` Befehl. <br/>Ändern die Reihenfolge von "Uns und Kanada" beispielsweise vor- und "International" Sekunde bis zu der umgekehrten Reihenfolge ausführen:<br/>   `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - Die Reihenfolge der PSTN-Verwendungen in VoIP-Routing-Richtlinien ist wichtig. Die Verwendungen in Reihenfolge angewendet werden, und wenn in der ersten Verwendung eine Übereinstimmung gefunden wird, klicken Sie dann andere Verwendungen werden nie ausgewertet. Die PSTN-Verwendung "International" muss nach der PSTN-Verwendung "Uns nur." platziert werden Führen Sie zum Ändern der Reihenfolge der PSTN-Verwendungen, die `Set-CSOnlineRouteRoutingPolicy` Befehl. <br/>Ändern die Reihenfolge von "Uns und Kanada" beispielsweise vor- und "International" Sekunde bis zu der umgekehrten Reihenfolge ausführen:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - Die Priorität für "Andere + 1" und "International" VoIP-Routen werden automatisch zugewiesen. Diese nicht von Bedeutung sind, solange sie niedrigere Prioritäten als "" Redmond "1" und "Redmond 2" besitzen
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Beispiel für VoIP-Routing-Richtlinie für den Benutzer John Woods
@@ -462,13 +462,13 @@ Die Schritte zum Erstellen von PSTN-Verwendung "International", VoIP-Route "Inte
 1. Erstellen Sie zunächst die PSTN-Verwendung "International". Geben Sie in einer PowerShell-Remotesitzung in Skype für Business Online Folgendes ein:
 
    ```
-   Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
    ```
 
 2. Im nächsten Schritt erstellen Sie die neue VoIP-Route "International".
 
    ```
-   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
    ```
    Die zurückgibt:
 
@@ -476,26 +476,26 @@ Die Schritte zum Erstellen von PSTN-Verwendung "International", VoIP-Route "Inte
    Identity                  : International 
    Priority                      : 5
    Description                   : 
-   NumberPattern                 : \d+
-   OnlinePstnUsages          : {International}    
+   NumberPattern                 : .*
+   OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
    SupressCallerId           :
    AlternateCallerId         :
    </pre>
-3. Im nächsten Schritt erstellen Sie eine VoIP-Routing-Richtlinie "Ohne Einschränkungen". Die PSTN-Verwendung "" Redmond "1" und "Redmond" werden in dieser VoIP-Routingrichtlinie besondere Behandlung für Aufrufe von "+1 425 XXX XX XX" und "+1 206 XXX XX XX" als lokale oder am Standort Aufrufe nummerieren beibehalten wiederverwendet werden.
+3. Im nächsten Schritt erstellen Sie eine VoIP-Routing-Richtlinie "Ohne Einschränkungen". Die PSTN-Verwendung "" Redmond "1" und "Redmond" werden in dieser VoIP-Routingrichtlinie besondere Behandlung für Aufrufe von "+1 425 XXX XX XX" und "+1 206 XXX XX XX" als lokale Nummer oder der lokale Anrufe beibehalten wiederverwendet werden.
 
 ```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 ```
 
     Take note of the order of PSTN Usages:
 
-    a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
+    a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes. 
 
-    b.  If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
+    b.  If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
    Die zurückgibt
 
@@ -512,10 +512,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
    ```
 
-   Überprüfen Sie anschließend die Zuordnung mit dem Befehl aus:   
+   Überprüfen Sie anschließend die Zuordnung mit dem Befehl aus: 
 
    ```
-   Get-CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
    ```
    Die zurückgibt:
 
@@ -525,7 +525,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
     No Restrictions
 </pre>
 
-Das Ergebnis ist, dass die VoIP-Richtlinie auf John Woods Anrufe angewendet werden nicht eingeschränkt, und die Logik des Routings ausgehender Anrufe für den Aufruf von USA, Kanada und International verfügbaren vor.
+Das Ergebnis ist, dass die VoIP-Richtlinie auf John Woods Anrufe angewendet nicht eingeschränkt ist, und die Logik führen des Routings ausgehender Anrufe für den Aufruf von USA, Kanada und International verfügbar.
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Festlegen Sie Microsoft-Teams als bevorzugter Client aufrufende für Benutzer
 

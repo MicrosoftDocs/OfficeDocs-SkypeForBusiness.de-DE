@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: cdc180c0caa8cfe581d02a206d9b13e255214bfd
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297888"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729400"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -26,7 +26,7 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 | Version | Veröffentlicht <br>Microsoft Store | 
 | ---     | ---  |
-| 4.0.64.0 | 12/14/2018   |
+| 4.0.64.0 | 14.12.2018   |
 | 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
@@ -55,6 +55,7 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 In diesem Update eingeführt:
 - Anzeigen von Inhalten auf beide Front-der Raum (zeigt auf zwei Bildschirm Raum Systemen für)
 - Designs und Front-Raum Verbesserungen der Benutzeroberfläche
+- Client-seitigen TLS 1.2 unterstützt. Für erfordert auf Kunden vor Ort, aktivieren Threats-Kommunikation über TLS 1.2 für Skype Raum System V2 Skype für Business Server 2015 Cummulative Update 9 (CU9) oder Skype für Unternehmenseinheiten Server 2019 Cummulative Update 1 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 In diesem Update eingeführt:

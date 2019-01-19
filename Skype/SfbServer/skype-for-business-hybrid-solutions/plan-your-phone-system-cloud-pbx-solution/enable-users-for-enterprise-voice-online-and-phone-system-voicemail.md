@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Erfahren Sie, wie in Office 365-VoIP-Dienste für Ihre Skype für Unternehmensbenutzer Telefonsystem aktivieren.
-ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9f11e52a3992e484643cfea06d0720d12e3f0e77
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372670"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729293"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP online und Telefonsystem in Office 365-Voicemail
  
@@ -31,11 +31,11 @@ Der letzte Schritt bei der Bereitstellung von Telefonsystem in Office 365 mit lo
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Aktivieren Sie Telefonsystem in Office 365-VoIP-Dienste
 
-Um einen Benutzer für Telefonsystem in Office 365-VoIP und Voicemail aktivieren, müssen Sie erste Schritte, wie das Prüfen von der Skype für Business Online Connector auf Ihren Servern bereitgestellt wird und Sie Ihre Benutzer für gehostete Voicemail aktivieren ausführen.
+Um einen Benutzer für Telefonsystem in Office 365-VoIP und Voicemail aktivieren, müssen Sie erste Schritte, wie das prüfen, um festzustellen, ob die Skype für Business Online Connector auf Ihren Servern bereitgestellt wird, und aktivieren Sie Ihre Benutzer für gehostete Voicemail ausführen.
   
 ### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>So aktivieren Sie Ihre Benutzer für Telefonsystem in Office 365 Sprach- und voicemail
 
-1. Bevor Sie beginnen, überprüfen Sie, dass die Skype für Business Online Connector (Windows PowerShell-Modul) auf Front-End-Servern bereitgestellt wird. Wenn sie nicht der Fall ist, können Sie es aus [dem Downloadcenter](https://www.microsoft.com/en-us/download/details.aspx?id=39366)herunterladen. Sie finden weitere Informationen zur Verwendung in diesem Modul zur [Konfiguration des Computers für Skype für das Business Online Management](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Bevor Sie beginnen, überprüfen Sie, dass die Skype für Business Online Connector (Windows PowerShell-Modul) auf Front-End-Servern bereitgestellt wird. Wenn dies nicht der Fall ist, können Sie das Modul im [Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=39366) herunterladen. Sie finden weitere Informationen zur Verwendung in diesem Modul zur [Konfiguration des Computers für Skype für das Business Online Management](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Starten von Windows PowerShell als Administrator
     
@@ -140,7 +140,7 @@ Pro Benutzer weisen Sie Wähleinstellungen mit Windows PowerShell und dem [Grant
 
 In diesem Abschnitt wird beschrieben, wie die VoIP-Routingrichtlinien zurückgegeben Telefonsystem in Office 365-fähigen Benutzer aktualisieren.
   
-Telefonsystem in Office 365-Benutzer benötigen eine VoIP-Routing-Richtlinie zugewiesen für Anrufe erfolgreich weitergeleitet. Das ist anders als bei lokalen Unternehmens-VoIP-Benutzern, denen eine VoIP-Richtlinie zugewiesen sein muss, damit Anrufe erfolgreich weitergeleitet werden können. Die VoIP-Routing-Richtlinie sollte PSTN-Verwendungen enthalten, die autorisierten Anrufe und Routen für Telefonsystem in Office 365-Benutzer zu definieren. Sie können diese PSTN-Verwendungen aus vorhandenen VoIP-Richtlinien in neue Richtlinien für das VoIP-Routing kopieren. Weitere Informationen finden Sie unter ["New-csvoiceroutingpolicy"](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Telefonsystem in Office 365-Benutzer benötigen eine VoIP-Routing-Richtlinie zugewiesen für Anrufe erfolgreich weitergeleitet. Das ist anders als bei lokalen Unternehmens-VoIP-Benutzern, denen eine VoIP-Richtlinie zugewiesen sein muss, damit Anrufe erfolgreich weitergeleitet werden können. Die VoIP-Routing-Richtlinie sollte PSTN-Verwendungen enthalten, die autorisierten Anrufe und Routen für Telefonsystem in Office 365-Benutzer zu definieren. Sie können diese PSTN-Verwendungen aus vorhandenen VoIP-Richtlinien in neue Richtlinien für das VoIP-Routing kopieren. Weitere Informationen finden Sie unter [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
 > Alle Telefonsystem in Office 365-Benutzer werden die gleichen online VoIP-Richtlinie mit dem Namen BusinessVoice definiert die zulässige Anruffunktion zugewiesen. Beispielsweise können Sie Gleichzeitiges Klingeln. 
@@ -172,6 +172,6 @@ Telefonsystem in Office 365-Benutzer benötigen eine VoIP-Routing-Richtlinie zug
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    Weitere Informationen finden Sie unter ["Grant-csvoiceroutingpolicy"](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
+    Weitere Informationen finden Sie unter [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
     
 
