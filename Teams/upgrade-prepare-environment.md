@@ -1,9 +1,8 @@
 ---
-title: Vorbereiten der Umgebung für ein Upgrade von Skype für Unternehmen, die Microsoft-Teams - Microsoft-Teams
+title: Vorbereiten einer Umgebung für ein Upgrade von Skype für Unternehmen von Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026bc13c5f86a07fafa721abbe1d95dcff53ff13
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c59ce73f4cff16c042753a69b4d14aa79896ebe0
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015621"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349405"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
 Dieser Artikel ist Teil technische Bereitschaft Stufe des Ihrem Upgrade Weg, eine Aktivität, die gleichzeitig mit der User Readiness Phase ausgeführt werden. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
 
--   [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
--   [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
--   [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
--   [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
+- [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
+- [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
+- [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Vorbereiten der Umgebung für das Upgrade auf Teams
 
@@ -36,8 +35,8 @@ Um ein erfolgreiches Upgrade Teams in Ihrer Organisation zu fördern, ist es wic
 
 Führen Sie diese Aktivitäten parallel mit Ihrer Benutzer Bereitschaft Vorbereitung:
 
--   [Vorbereiten Ihrer IT-Mitarbeiter](upgrade-prepare-IT-pros.md) , um sicherzustellen, dass sie über das notwendige für eine erfolgreiche Aktualisierung Reise.
--   Stellen Sie sicher, dass die Umgebung alle [Voraussetzungen](upgrade-plan-journey-prerequisites.md)erfüllt, und Abhängigkeiten zwischen Office 365-Dienste und Teams verstehen.
--   [Bewerten der Umgebung](upgrade-plan-journey-evaluate-environment.md) durch Ausführen der Umwelt Discovery mithilfe eines Beispiel-Fragebogens um zu Ihrer Organisation Bereitschaft für eine erfolgreiche Aktualisierung Reise Teams verpflichten sich zu bestätigen.
--   [Vorbereiten Ihrer Netzwerk](upgrade-prepare-environment-prepare-network.md) über Planung, Vorbereitung und Nutzen der alle erforderlichen Wiederherstellungsschritte für Ihr Netzwerk zur Unterstützung von Teams Arbeitslasten.
--   [Vorbereiten des Diensts](upgrade-prepare-environment-prepare-service.md) für die Einführung mithilfe von Onboarding Prüflisten, um sicherzustellen, dass die Konfiguration des Teams zur Unterstützung der Migration von Benutzern von Skype für Unternehmen, die Teams bereit ist.
+- [Vorbereiten Ihrer IT-Mitarbeiter](upgrade-prepare-IT-pros.md) , um sicherzustellen, dass sie über das notwendige für eine erfolgreiche Aktualisierung Reise.
+- Stellen Sie sicher, dass die Umgebung alle [Voraussetzungen](upgrade-plan-journey-prerequisites.md)erfüllt, und Abhängigkeiten zwischen Office 365-Dienste und Teams verstehen.
+- [Bewerten der Umgebung](upgrade-plan-journey-evaluate-environment.md) durch Ausführen der Umwelt Discovery mithilfe eines Beispiel-Fragebogens um zu Ihrer Organisation Bereitschaft für eine erfolgreiche Aktualisierung Reise Teams verpflichten sich zu bestätigen.
+- [Vorbereiten Ihrer Netzwerk](upgrade-prepare-environment-prepare-network.md) über Planung, Vorbereitung und Nutzen der alle erforderlichen Wiederherstellungsschritte für Ihr Netzwerk zur Unterstützung von Teams Arbeitslasten.
+- [Vorbereiten des Diensts](upgrade-prepare-environment-prepare-service.md) für die Einführung mithilfe von Onboarding Prüflisten, um sicherzustellen, dass die Konfiguration des Teams zur Unterstützung der Migration von Benutzern von Skype für Unternehmen, die Teams bereit ist.

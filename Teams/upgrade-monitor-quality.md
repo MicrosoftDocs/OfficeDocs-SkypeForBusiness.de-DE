@@ -1,9 +1,8 @@
 ---
-title: Quality of Experience überprüfen Guide - Microsoft-Teams
+title: Die Qualität des Benutzererlebnisses | Microsoft-Teams | QoS | Die Anrufqualität
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf538dc4e68d3068d6ae0875ec916cdd1f8fd52
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 59acafa7555b793555b504b1555b0d6969a12b4b
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017985"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349319"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -33,17 +32,17 @@ Dieser Artikel ist Teil der erstklassige Betriebsprozesse Stufe des Ihre Upgrade
 
 Ständig bewerten und Korrigieren von der Bereiche im Handbuch beschrieben, können Sie ihre potenzielle Möglichkeit beeinträchtigen Benutzererlebnis reduziert. Die meisten Benutzer-Erlebnis Probleme in einer Bereitstellung können in die folgenden Kategorien unterteilt werden:
 
--   Unvollständige Firewall oder der Proxyserver-Konfiguration
+- Unvollständige Firewall oder der Proxyserver-Konfiguration
 
--   Schlechte Wi-Fi-Abdeckung
+- Schlechte Wi-Fi-Abdeckung
 
--   Unzureichende Bandbreite
+- Unzureichende Bandbreite
 
--   VPN
+- VPN
 
--   Verwenden von nicht optimierte oder integrierte Audiogeräten
+- Verwenden von nicht optimierte oder integrierte Audiogeräten
 
--   Problematisch Subnetze oder Netzwerkgeräte
+- Problematisch Subnetze oder Netzwerkgeräte
 
 Die Informationen der Qualität der Erfahrung überprüfen Handbuchs behandelt Verwendung Online aufrufen Quality Dashboard (CQD) als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche beschrieben, mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die maximieren. Versucht, das Netzwerk zur Verbesserung der Audioqualität Optimierungen übersetzt auch direkt in Verbesserungen bei video sowie die Desktopfreigabe.
 

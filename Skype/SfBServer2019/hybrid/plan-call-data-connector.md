@@ -1,5 +1,5 @@
 ---
-title: Planen der Anruf Data Connector
+title: Planen der Anruf Daten Connector | Rufen Sie Monitoring Hybrid Analytics Qualitätsdashboard
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +9,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung von Skype für Business Online Telemetrie-Tools zum Überwachen von einer lokale Implementierung in einer Hybrid-Szenario.
-ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530535"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349536"
 ---
 # <a name="plan-call-data-connector"></a>Planen der Anruf Data Connector
 
 ## <a name="overview"></a>Übersicht
+
 In diesem Thema werden die Vorteile, Planungsaspekte, und Anforderungen für die Implementierung von Skype für Business Server rufen Sie Daten Connector. Weitere Informationen zum Konfigurieren von Data Connector aufrufen finden Sie unter [Call Data Connector konfigurieren](configure-call-data-connector.md).
 
 > [!NOTE]
@@ -32,7 +33,7 @@ Mit Data Connector aufrufen, können Sie die folgenden Aufgaben ausführen, mith
 
 - Zeigen Sie an und beheben Sie Probleme in Ihrem Netzwerk.
 
-- Zuweisen von Helpdesk und Administrator Rollen für aufrufen, Analyse, sodass Mitarbeiter anzeigen und beheben Verantwortungsbereich Helpdesk Webinhalte. 
+- Zuweisen von Helpdesk und Administrator Rollen für aufrufen, Analyse, sodass Mitarbeiter anzeigen und beheben Verantwortungsbereich Helpdesk Webinhalte.
 
 Mit Anrufen Data Connector schiebt die Skype für Business Server Anrufdaten an den Clouddienst, damit Sie die Skype für Business Online aufrufen Analytics (CA), und rufen Sie Quality Dashboard (CQD) Tools nutzen können wie im folgenden Diagramm dargestellt:
 
@@ -52,24 +53,23 @@ Sie möchten natürlich einige Anrufqualität Daten lokal speichern. Dies mögli
 
 ![SfB Cloud-Voicemail](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-
 ## <a name="requirements"></a>Anforderungen
 
 Die folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype für Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zur Bereitstellung von Skype für Business Server und unterstützten Topologien finden Sie unter [Grundlagen der Topologie](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Um Call Data Connector zu konfigurieren, müssen Sie folgende Aktionen ausführen:
 
-- Aktivieren Sie Hybrid-Diensten. Wenn Sie Skype bereits für Business Server bereitgestellt haben, und rufen Sie Data Connector aktivieren möchten, müssen Sie sicherstellen, dass Sie hybridkonnektivität zwischen Ihrer lokalen und online-Umgebung eingerichtet haben. Dies ist eine geteilte Domänenkonfiguration bezeichnet. 
+- Aktivieren Sie Hybrid-Diensten. Wenn Sie Skype bereits für Business Server bereitgestellt haben, und rufen Sie Data Connector aktivieren möchten, müssen Sie sicherstellen, dass Sie hybridkonnektivität zwischen Ihrer lokalen und online-Umgebung eingerichtet haben. Dies ist eine geteilte Domänenkonfiguration bezeichnet.
 
    Weitere Informationen finden Sie unter [hybridkonnektivität zwischen Skype für Business Server und Office 365 planen](plan-hybrid-connectivity.md) und [Konfigurieren von hybridkonnektivität zwischen Skype für Business Server und Office 365](configure-hybrid-connectivity.md).
 
--  Authentifizieren sich bei Ihrem Office 365-Mandanten, und stellen Sie sicher, dass Sie die folgenden Rollen aktiviert haben:
+- Authentifizieren sich bei Ihrem Office 365-Mandanten, und stellen Sie sicher, dass Sie die folgenden Rollen aktiviert haben:
 
-   - Skype für Business Server-Administrator 
-   - Office 365 globaler Administrator 
+  - Skype für Business Server-Administrator
+  - Office 365 globaler Administrator
 
 - Wenn Sie dies nicht bereits geschehen ist, aktivieren Sie rufen Qualitätsdashboard gemäß [einschalten, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](/microsoftteams/turning-on-and-using-call-quality-dashboard).
- 
-- Aktivieren Sie den Front-End-Pool für Überwachung, mit lokalen LCSCdr und QoEMetrics-Datenbanken. Ohne diese keine Call Data Connector metrische Daten entwickelt. 
- 
+
+- Aktivieren Sie den Front-End-Pool für Überwachung, mit lokalen LCSCdr und QoEMetrics-Datenbanken. Ohne diese keine Call Data Connector metrische Daten entwickelt.
+
 > [!IMPORTANT]
 > Anruf Data Connector ist nicht funktionsfähig, wenn die Überwachung auf dem Front-End-Pool nicht aktiviert ist.
 

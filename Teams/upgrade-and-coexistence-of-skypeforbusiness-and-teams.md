@@ -1,9 +1,8 @@
 ---
-title: Auswählen Ihrer Upgrade-Strategie – Microsoft Teams
+title: Microsoft-Teams durchführen eines Upgrades von Skype für Unternehmen | Modi, Koexistenz
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen, bjwhalen
@@ -14,20 +13,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 9b625cbd633ad0d88c976356861b7c90e93c7a13
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214489"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349085"
 ---
 ![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
 
 Dieser Artikel ist Teil der Bereitstellung und Implementierung Stufe der Ihrem Upgrade Weg. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten ausgeführt haben:
 
--   [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
--   [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
--   [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
+- [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
+- [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
+- [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Skype für Unternehmen zu Teams Ihre Upgrade Reise
 
@@ -35,8 +34,9 @@ Als eine vorhandene Skype für Unternehmenskunden kann Ihre vollständige Überg
 
 > [!IMPORTANT]
 > Dieser Artikel beschreibt die unterschiedlichen Modi, mit denen Sie die Modalitäten in Skype für Unternehmen zu verwalten und Teams für Ihre Benutzer verfügbar sind. Wie bei jeder Bereitstellung empfehlen wir dringend Ihnen auf [den vorgesehenen Plan evaluieren](pilot-essentials.md) mit einer ausgewählten Gruppe von Benutzern vor dem Upgrade Ihrer Organisation Teams. Denken Sie daran: Einführung in die neue Technologie für Benutzer abgebrochen werden kann. Ermitteln Sie die benutzerbereitschaft und dauert Implementieren einer Kommunikations- und Schulungsplan vor der Implementierung der Modi erfunden beschrieben.
- 
+
 ## <a name="upgrade-journey-building-blocks"></a>Upgrade Reise Bausteine
+
 Um Ihre Organisation für die Reise Teams formell vorzubereiten, müssen Sie zum Starten der Planung für die Upgradeszenarien, mit denen schließlich Ihrer Organisation Teams vollständig als einzige Kommunikations- und Collaboration-Lösung zu übernehmen.
 
 Um Ihren Entscheidungsprozess zu unterstützen, machen Sie sich mit den verschiedenen Modi, Konzepte und Terminologie relevant für ein Upgrade von Skype für Unternehmen, die Teams. Weitere Informationen finden Sie unter [Microsoft-Teams und Skype für Interoperabilität und Koexistenz Business](https://aka.ms/SkypeToTeams-Coexist)
@@ -49,8 +49,8 @@ Wenn es nicht möglich, für die gesamte Organisation verschieben, Teams ist, k�
 
 Die folgende Tabelle vergleicht Upgrade und Koexistenz beider Modi.
 
-|Modus  |Situation  |Empfohlene Verwendung  |Vorteile  |Warnhinweise  |
-|---------|---------|---------|---------|---------|
+|Modus |Situation |Empfohlene Verwendung |Vorteile |Warnhinweise |
+|---|---|---|---|---|
 |Inseln |Kleinere oder einfacher Skype für die Business-Bereitstellung<br><br>Möglichkeit und Bereitschaft zur einige kurzfristige Komplexität verwalten Teams schneller zu verschieben |Wechseln Sie zu der vollständigen Teams Erfahrung so schnell wie möglich<br><br>Durchführen einer Machbarkeitsstudie (PoC) des Teams<br><br>Empfohlene Aktualisierungspfad für Organisationen, die für Business Online Skype beschlossen |Einfach zu bedienen<br><br>Erleben Sie die im Vorfeld für alle Funktionen inhaltlich Teams |Erfordert eine gute Benutzerkommunikation um Verwechslungen zu vermeiden und zur Verwendung in Richtung Teams Laufwerk<br><br>Exit-Strategie erfordert, dass Benutzer vollständig Teams eingeführt haben, vor dem Beginn der Aktualisierung auf Teams nur phase<br><br>Keine Interop für Benutzer im Modus Inseln; auch verwaltet lokale von Teams bei Skype für Business-Konto des Benutzers ist kein Verbund|
 |Skype für Unternehmen mit Teams für die Zusammenarbeit |Skype für die Business-Bereitstellung mit Anforderungen, die von Teams (beispielsweise erweiterte Compliance) noch nicht erfüllt ist<br><br>Langfristige Notwendigkeit und/oder Engagement Skype für Unternehmen|Starten Sie Teams Annahme schnell, zuerst Konzentration auf die Zusammenarbeit von Gruppen<br><br>Alle unified Communications-Arbeitslasten auf Skype für Unternehmen für jetzt gespeichert werden sollen<br><br>Empfohlene Verwendung als Ausgangspunkt für ihre Reise aus für vor Ort (oder Hybrid) starten Organisation Skype für Unternehmen|Keine überlappenden Funktionen zwischen Teams und Skype für Unternehmen<br><br>Instant messaging, Chat und Besprechung planen befinden sich in Skype für Unternehmen (verbunden mit einem Aufruf)<br><br>Interoperabilität mit Benutzern in nur-Teams|
 |Skype für Unternehmen mit Teams für die Zusammenarbeit und Besprechungen |Skype für Business-Bereitstellung mit erhebliche Verwendung von Enterprise-VoIP und Anforderungen, die durch Aufrufen von Teams noch nicht erfüllt ist<br><br>Langfristige Notwendigkeit und/oder Engagement Skype für Unternehmen<br><br>Möglicherweise von einem Drittanbieter-Meeting-Dienst verwendet|Starten Sie Teams Annahme schnell jenseits für die Gruppenzusammenarbeit<br><br>Verbessern der Benutzer Besprechungen Betrieb<br><br>Empfohlene Verwendung für auf lokale Organisationen Teams Besprechungen, bevor er bereit zur Aktualisierung von (in der Regel aufgrund von Enterprise-VoIP lokal) vollständig nutzen möchten. |Keine sich überschneidenden Funktionen<br><br>Herausragende Besprechungen auf Teams. Funktionen Roadmap, UX und Cross-Plattform, Qualität und Zuverlässigkeit<br><br>"Better Together" guter zwischen Skype für Unternehmen und Teams<br><br>Interoperabilität-Benutzer in Teams nur.|Instant messaging und Chat werden in Skype für Unternehmen (dem Aufruf von eingebunden) befinden.|
@@ -58,18 +58,22 @@ Die folgende Tabelle vergleicht Upgrade und Koexistenz beider Modi.
 |Skype für Unternehmen nur |Einige Benutzer müssen in der Skype für Unternehmen bleiben<br><br>|Grenzwerte für Benutzer Verwirrung durch die Bereitstellung nur einen einzigen Client entwickelt<br><br>Benutzer kann auch Teams Besprechungen teilnehmen, zu der sie eingeladen werden|Fahren Sie mit den unternehmensanforderungen zu erfüllen, die derzeit nur von Skype für Unternehmen erfüllt werden können<br><br>Interoperabilität mit Benutzern in nur-Teams|Interoperabilität unterstützt nur grundlegende Chat und Aufrufen von zwischen Skype für Unternehmen und Teams und Ausweitung Interop-Szenarien für die Desktopfreigabe und mit mehreren Teilnehmern Chat und Aufrufen von|
 
 ## <a name="upgrade-journeys"></a>Upgrade Fahrten
+
 Sie können mehrere Ansätze für ein Upgrade von Skype für Unternehmen, die entweder online schalten oder lokal, Teams:
-- Auf einem direkten Upgrade Weg Sie zuerst Teams zusammen mit Skype für Unternehmen im Modus **Inseln** im Rahmen der Test- und frühe Anpassung bereitstellen und Upgraden Sie dann Ihre Benutzer **Teams nur** im Modus mit dem Ziel gesetzt, um schnell abschließen Skype für Unternehmen aus der Umgebung für alle Benutzer in der Organisation. Dies ist der empfohlene Weg für Skype Business online-Kunden, wenn die betroffenen Benutzer verwechselt werden werden, mit zwei Tools die gleiche Aktion (Chat, aufrufen, die Besprechung planen) durchführen müssen. 
+
+- Auf einem direkten Upgrade Weg Sie zuerst Teams zusammen mit Skype für Unternehmen im Modus **Inseln** im Rahmen der Test- und frühe Anpassung bereitstellen und Upgraden Sie dann Ihre Benutzer **Teams nur** im Modus mit dem Ziel gesetzt, um schnell abschließen Skype für Unternehmen aus der Umgebung für alle Benutzer in der Organisation. Dies ist der empfohlene Weg für Skype Business online-Kunden, wenn die betroffenen Benutzer verwechselt werden werden, mit zwei Tools die gleiche Aktion (Chat, aufrufen, die Besprechung planen) durchführen müssen.
 - Ein schrittweises Upgrade Weg übermittelt eine bestimmte Koexistenz und Aktualisierungsmodus an eine bestimmte Gruppe von Benutzern (auch als eine *Kohorte*bezeichnet), je nach ihrer Kommunikation und die Anforderungen an die Zusammenarbeit. Im Laufe der Zeit kann die gesamte Organisation konvergieren Teams nur die Nutzung und schließlich ersetzen Skype für Unternehmen. Allerdings hat Ihre Organisation überzeugende geschäftliche Gründe, Skype für Unternehmen zu halten – wie etwa eine Abhängigkeit von einer Unified Communications Managed API UCMA-basierte Lösung, die mit Line-of-Business Applications integriert oder eine "chinesische Mauer"-Lösung derzeit für Skype für Unternehmen nur oder eine komplexe Enterprise-VoIP-Bereitstellung, die zum Upgraden auf **Teams nur**dauern wird – können Sie einen Teil der Benutzer auf **Teams** nur Kopfzeilen herunterladen Beibehaltung Skype für Unternehmensbenutzer in einem der Aktualisieren der für einen Teil des Benutzersegmente Koexistenz-Modi. Schrittweises Upgrade Weg ist der empfohlene Ansatz zum lokalen (und Hybrid) Kunden beginnend mit Skype für Unternehmen mit Teams Collaboration Koexistenz-Modus und Verschieben von dort in Teams nur Kopfzeilen herunterladen, wenn für die Benutzer die Anforderung erfüllt (möglicherweise über die Skype für Unternehmen mit Teams für die Zusammenarbeit und Besprechungen Koexistenz-Modus).
 
 > [!IMPORTANT]
 > Für beide Arten von Upgrade Weg Wenn Ihre Organisation einen Skype für Business lokale Bereitstellung nur aktuell ist müssen Sie zum Starten der Planung Skype vor der Aktualisierung auf **Teams nur** im Modus für hybride Business implementieren möchten. Dadurch können auch Interoperabilität mit Teams zu vereinfachen.
+>
 > Verwenden Sie [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) Ihrer Skype für Business Hybrid-Implementierung, leiten lassen.
 
 > [!NOTE]
 > **Nur Teams** Modus erfordert, dass die Benutzer, die Teil der Kohorten sind in Skype für Business Online verwaltet werden, und eine hybride Beziehung zwischen Ihrer Skype für die lokale Bereitstellung Business und Ihre Skype für Business Online Mandanten ist erforderlich, um zu vereinfachen die Interoperabilität zwischen Skype für Unternehmen und Teams. Für Benutzer, die Teil der Kohorten sind, bevor sie auf **Nur Teams** Modus aktualisiert haben, muss der Wechsel zu Skype für Business Online abgeschlossen werden. Skype für Business Server 2019 und Skype für Business Server 2015 mit CU8 Update kann die Abläufe bei der Aktualisierung von lokalen Benutzern auf Teams durch die Migration zu Skype für Business Online verwalten und aktualisieren die Benutzer **Nur Teams** Modus in einem Schritt vereinfachen. .
 
 ### <a name="direct-upgrade-journey"></a>Direkte Aktualisierung Reise
+
 Das direkte Upgrade Weg ist in der folgenden Abbildung dargestellt.
 
 ![Ein Screenshot des der direkten Upgrade Weg. Alle Benutzer anfänglich Teams im Inseln Modus verwenden und dann Übergang zu Teams schreibgeschützt-Modus mit der Endzustand der gesamten Organisation auf Teams aktualisiert wurden.](media/upgrade_journey_direct_upgrade.png)
@@ -77,6 +81,7 @@ Das direkte Upgrade Weg ist in der folgenden Abbildung dargestellt.
 Teams für alle Benutzer in der Organisation bereitgestellt und im **Inseln** -Modus konfiguriert ist. Wenn Ihre Organisation fest, dass der Teams bereit, um alle Ihre Kommunikation und Zusammenarbeit zu erfüllen muss, fordern Sie die Benutzer und **Teams nur** Modus zu aktualisieren. An dieser Stelle kann Skype für Unternehmen aus der Umgebung zurückgezogen werden.
 
 ### <a name="gradual-upgrade-journey"></a>Schrittweises Upgrade Reise
+
 Ein Beispiel für ein schrittweises Upgrade Weg ist in der folgenden Abbildung dargestellt.
 
 ![In der schrittweisen Aktualisierung Weg verwenden Kohorten der Benutzer anfänglich Teams im Modus für die Auswertung Inseln und klicken Sie dann in einer Vielzahl von Upgrade Modi für frühe Übernahme und Anzeigemodus Skype für Unternehmen. Einige Kohorten Übergang auf Teams-Only-Modus, während eine Gruppe von Benutzern mit Skype für Unternehmen mit Teams für die Zusammenarbeit und Besprechungen Modus bleibt.](media/upgrade_journey_gradual_upgrade.png)
@@ -88,8 +93,6 @@ Im Laufe der Zeit können Gruppen von Benutzern, **Teams nur** Modus, gefolgt vo
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkt</td><td><ul> Welche Upgrade Weg ist geeignet ist, geschäftlichen Anforderungen Ihrer Organisation?<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächster Schritt</td><td><ul> Identifizieren Ihrer aktuellen Bereitstellungsmodell, verwenden Sie Groß-/Kleinschreibung Szenarien und wichtige Überlegungen für Ihre Organisation informieren der Reise Teams, die für Ihre Organisation am besten geeignet ist.<br><br></ul></td></tr>
 </table>
-
-
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkt</td><td><ul> Welche Upgradeszenario gilt für Ihre Organisation?<br><br></ul></td></tr>

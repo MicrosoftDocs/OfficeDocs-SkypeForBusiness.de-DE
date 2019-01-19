@@ -1,5 +1,5 @@
 ---
-title: Verschieben von Benutzern von lokalen Teams
+title: Verschieben von Benutzern von Skype für Business Server 2019 Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars--
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Zusammenfassung: Informationen Sie zum Migrieren von benutzereinstellungen und Migrieren von Benutzern zu Teams.'
-ms.openlocfilehash: 6bee0562b38ce3119306e23b11ea50ebdb8ac3e9
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 75af7109de60c3d978914585105e4d2fbaad9302
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27244032"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348913"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Verschieben von Benutzern von lokalen Teams
 
 Wenn ein Benutzer von lokal auf Teams nur verschoben wird des Benutzers Skype für geschäftlich privat wird lokal auf online aus verschoben, und der Benutzer TeamsUpgradePolicy-Modus erhält TeamsOnly =.  Nachdem ein Benutzer wird vom lokalen TeamsOnly Modus verschoben:
 
 - Alle eingehenden Anrufe und chats von anderen Benutzern (ob von Skype für Geschäftskunden und Teams gesendet), wird in der Client des Benutzers Teams sorgt.
-- Der Benutzer wird möglicherweise mit anderen Benutzern zusammenarbeiten, die Skype für Unternehmen (entweder online oder lokal) verwenden. 
+- Der Benutzer wird möglicherweise mit anderen Benutzern zusammenarbeiten, die Skype für Unternehmen (entweder online oder lokal) verwenden.
 - Der Benutzer werden kann zur Kommunikation mit Benutzern in Partnerorganisationen.
 - Neue geplant, die von diesem Benutzer sind Teams Besprechungen.
 - Benutzer kann weiterhin alle Skype für Business-Besprechungen teilnehmen.
@@ -36,8 +36,8 @@ Werden Sie vor dem Verschieben alle Benutzer, überprüfen Sie die [erforderlich
 Es gibt zwei Methoden zum Verschieben eines Benutzers aus lokal Teams:
 
 - Wenn Sie eine Version vor Skype für Business Server 2015 CU8 verwenden, erfolgt die Verschiebung in zwei Schritten (die in Skripts verwendet werden können, die gemeinsam als einem Schritt ausgeführt werden bei Bedarf):
-    - [Der Benutzer von Skype für Business Server (lokal) auf Skype für Business Online verschoben](move-users-from-on-premises-to-skype-for-business-online.md).
-    - Nachdem der Benutzer in Skype verwaltet wird, für die Business Online, weisen Sie dem Benutzer TeamsUpgradePolicy Modus = TeamsOnly. Um TeamsOnly Modus zu erteilen, führen Sie das folgende Cmdlet aus einer Skype für Business Online-PowerShell-Fenster:`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
+  - [Der Benutzer von Skype für Business Server (lokal) auf Skype für Business Online verschoben](move-users-from-on-premises-to-skype-for-business-online.md).
+  - Nachdem der Benutzer in Skype verwaltet wird, für die Business Online, weisen Sie dem Benutzer TeamsUpgradePolicy Modus = TeamsOnly. Um TeamsOnly Modus zu erteilen, führen Sie das folgende Cmdlet aus einer Skype für Business Online-PowerShell-Fenster:`Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
 - Wenn Sie die Verwaltungstools von Skype für Business Server 2015 CU8 oder höher verfügen, können können Sie die oben genannten-Methode verwenden, oder Sie diese verschieben in einem Schritt wie unten beschrieben. Darüber hinaus können Sie optional eine Benachrichtigung innerhalb der Skype für Business Client vor dem Verschieben sie in Teams nur sowie optional den Teams Client automatisch von der Skype für Business Client heruntergeladen haben.
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Verschieben eines Benutzers direkt von Skype für Unternehmen lokal auf nur Teams
@@ -68,13 +68,13 @@ Die folgende Sequenz Cmdlet zum Verschieben eines Benutzers in TeamsOnly verwend
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Verschieben von Skype Business Server-Systemsteuerung Teams
 
-1.  Öffnen Sie die Skype für Business-Serversteuerelement Systemsteuerung app.
-2.  Wählen Sie im linken Navigationsbereich **Benutzer**.
-3.  Verwenden Sie **Suchen** , um die Benutzer zu suchen, die Sie in Teams verschieben möchten.
-4.  Wählen Sie die Benutzer, und wählen Sie dann aus der Dropdownliste **Aktion** über der Liste **ausgewählte Benutzer Teams verschieben**.
-5.  Klicken Sie im Assistenten auf **Weiter**.
-6.  Wenn Sie aufgefordert werden, melden Sie sich bei Office 365, mit einem Konto an, die in endet. onmicrosoft.com und über ausreichende Berechtigungen verfügt.
-7.  Klicken Sie auf **Weiter**, und klicken Sie dann **Weiter** noch einmal den Benutzer zu verschieben.
+1. Öffnen Sie die Skype für Business-Serversteuerelement Systemsteuerung app.
+2. Wählen Sie im linken Navigationsbereich **Benutzer**.
+3. Verwenden Sie **Suchen** , um die Benutzer zu suchen, die Sie in Teams verschieben möchten.
+4. Wählen Sie die Benutzer, und wählen Sie dann aus der Dropdownliste **Aktion** über der Liste **ausgewählte Benutzer Teams verschieben**.
+5. Klicken Sie im Assistenten auf **Weiter**.
+6. Wenn Sie aufgefordert werden, melden Sie sich bei Office 365, mit einem Konto an, die in endet. onmicrosoft.com und über ausreichende Berechtigungen verfügt.
+7. Klicken Sie auf **Weiter**, und klicken Sie dann **Weiter** noch einmal den Benutzer zu verschieben.
 8. Beachten Sie, dass Statusnachrichten bezüglich Erfolg oder Fehler am oberen Rand der wichtigsten Systemsteuerung app nicht im Assistenten bereitgestellt werden.
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Benachrichtigen Sie Ihre Skype für Business lokale Benutzer von bevorstehenden verschieben Teams
@@ -86,7 +86,7 @@ Die lokale-Verwaltungstools in Skype für Business Server 2015 mit CU8 sowie in 
 Um lokale Benutzer zu benachrichtigen, dass sie bald Teams aktualisiert werden, erstellen Sie eine neue Instanz des TeamsUpgradePolicy mit NotifySfBUsers = True. Weisen Sie dann die Richtlinie für die Benutzer zu benachrichtigen, entweder durch Zuweisen der Richtlinie für den Benutzer direkt oder durch Festlegen von Richtlinien auf Standort-, Pool oder globaler Ebene. Die folgenden Cmdlets erstellen, und gewähren Sie eine Richtlinie auf Benutzerebene:
 
 ```
-New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true 
+New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
@@ -95,7 +95,6 @@ Automatische Downloads von Teams über die Skype für Business Win32-Client wird
 `New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
 
 Standardmäßig ist der Wert der DownloadTeams True; Es ist jedoch *nur* berücksichtigt, wenn er NotifySfbUser = "true" für einen bestimmten Benutzer.
-
 
 ## <a name="see-also"></a>Siehe auch
 

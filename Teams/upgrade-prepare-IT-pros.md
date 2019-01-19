@@ -1,9 +1,8 @@
 ---
-title: Vorbereiten der IT-Mitarbeiter für Microsoft-Teams - Microsoft-Teams
+title: Schulung für Microsoft-Teams | IT-Support Admin Probleme
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7a552affaf0a50325e8a90c9f6c1f7f60d2c3b2
-ms.sourcegitcommit: e49e9e8e6f42738a153306ae6f2a1d0a2e46d736
+ms.openlocfilehash: 8d7030c8695ccfcbfd34fb01772eabc1f68ebf12
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25354340"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349303"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
 Dieser Artikel ist Teil technische Bereitschaft Stufe des Ihrem Upgrade Weg, eine Aktivität, die gleichzeitig mit der User Readiness Phase ausgeführt werden. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
 
--   [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
--   [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
--   [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
--   [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
+- [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
+- [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
+- [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Vorbereiten der Microsoft-Teams, Ihre IT-Mitarbeiter
 
@@ -36,18 +35,15 @@ Ihre Office 365-Mandanten-Admins, technische Leads und Helpdesk sind verantwortl
 
 Freigeben Sie die folgenden Ressourcen für Ihre IT-Mitarbeiter, und bestätigen Sie, dass sie die Unterstützung der Benutzer vor Beginn des Upgrades auf Teams bereit sind:
 
--   [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
- 
--   [Supportressourcen für Microsoft Teams](support-resources.md)
- 
--   [Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client](connectivity-issues.md)
- 
--   [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
+- [Administrator-Schulung für Microsoft Teams](itadmin-readiness.md)
+- [Supportressourcen für Microsoft Teams](support-resources.md)
+- [Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client](connectivity-issues.md)
+- [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 
 [//]: # (Bitten Sie Debbie zu überprüft:)
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Haben Sie alle Supportmitarbeiter beteiligt, die voraussichtlich die Bereitstellung und unterstützende Teams beteiligt sein?</li><li>Haben Sie Ihrem Upgrade Fortschreiten ein Schulungsplans für Onboarding zusätzlichen Personals entwickelt?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Stellen Sie sicher, dass IT-Mitarbeiter die Informationen verfügt, die sie benötigen.</li><li>Besuchen Sie Ihre Pläne für Schulung und Vorbereitung als neue Features freigegeben werden.</li></ul>|
 

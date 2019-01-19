@@ -1,20 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Schulung mit Dozent für Microsoft Teams
+title: Von Schulungsleitern gehaltene Schulungen und Videos für Administratoren von Microsoft-Teams
 description: Melden Sie sich für Klassen von Schulungsleitern gehaltene, um alle Informationen zu Microsoft-Teams erhalten.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
-ms.date: 08/24/2018
-ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214558"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349311"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -80,7 +79,7 @@ ms.locfileid: "27214558"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Teams Tipps und tricks</h3>
+                                                <h3>Teams Tipps, Tricks &</h3>
                                                 <p>Grundlegendes creative zum Optimieren der Leistung und Teams bei Ihrer täglichen Arbeit organisieren. (Benutzergruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
@@ -100,7 +99,7 @@ ms.locfileid: "27214558"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Verwalten des Upgrades von Skype für Unternehmen zu Teams</h3>
-                                                <p>Planen und implementieren Sie ein erfolgreiches Upgrade auf Teams (Zielgruppe: IT-Experten, Annahme ändern-Manager)</p>
+                                                <p>Plan & implementieren ein erfolgreiches Upgrade auf Teams (Zielgruppe: IT-Experten, Annahme ändern-Manager)</p>
                                             </div>
                                         </div>
                                     </div>

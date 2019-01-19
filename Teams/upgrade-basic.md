@@ -1,9 +1,8 @@
 ---
-title: Aktualisieren Sie grundlegende Prüfliste – Microsoft-Teams
+title: Upgrade-Checkliste | Skype-Business Teams Upgrade | Grundlegende Schritte
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,15 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b77f53398eda22ec2f3b7313d8c2b641228c5b5e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015645"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349413"
 ---
 <a name="about-upgrade-basic"></a>
-# <a name="upgrade-basic"></a>Grundlegende aktualisieren 
+
+# <a name="upgrade-basic"></a>Grundlegende aktualisieren
 
 Ist die grundlegende Upgrade Checkliste für kleineren Organisationen oder diese unter Verwendung von Skype für Instant Messaging (Chat) und Besprechungen nur für Business Online ausgelegt, eine schnellere Aktion planen, die Core, enthält empfohlene Aktivitäten und zugehörigen Ressourcen für die Implementierung einer Verschieben von Skype für Unternehmen Teams erfolgreich.
 
@@ -30,10 +30,10 @@ Diese zehn einfachen Schritte bieten alles, was Sie für ein erfolgreiches Upgra
 
 Was geschieht, nach dem Upgrade zu Skype für Unternehmen? Nachdem Ihre Benutzer Teams (**Nur Teams** Modus) aktualisiert werden:
 
--   Ihre Skype für Business-Client ist deaktiviert, und alle Chat und Anrufe go to Teams. Beachten Sie, dass dies nicht den Client auf ihren Desktops deinstalliert wird.
--   Skype für Business Besprechungen, die vor dem Upgrade Arbeit geplant wurden, wie vorgesehen, aber alle neuen Besprechungen werden in Teams geplant.
--   Wenn Benutzer versuchen, die Anmeldung bei Skype für Unternehmen, erhalten sie eine Benachrichtigung von ihrem Client, dass sie auf Teams aktualisiert haben.
--   Benutzer müssen die Skype für Business-Client auf ihren mobilen Geräten manuell zu deinstallieren.
+- Ihre Skype für Business-Client ist deaktiviert, und alle Chat und Anrufe go to Teams. Beachten Sie, dass dies nicht den Client auf ihren Desktops deinstalliert wird.
+- Skype für Business Besprechungen, die vor dem Upgrade Arbeit geplant wurden, wie vorgesehen, aber alle neuen Besprechungen werden in Teams geplant.
+- Wenn Benutzer versuchen, die Anmeldung bei Skype für Unternehmen, erhalten sie eine Benachrichtigung von ihrem Client, dass sie auf Teams aktualisiert haben.
+- Benutzer müssen die Skype für Business-Client auf ihren mobilen Geräten manuell zu deinstallieren.
 
 Finden Sie unsere [– häufig gestellte Fragen](https://aka.ms/SkypeToTeams-FAQ) für zusätzliche Fragen zu Ihrem Upgrade.
 
@@ -51,8 +51,8 @@ Leitende Führungskräfte sind verantwortlich für den Erfolg des Unternehmens. 
 
 **Ressourcen:**
 
--   [Beispiel-e-Mail: beteiligten Kommunikation](upgrade-emails-surveys.md#step-1-email)
- 
+- [Beispiel-e-Mail: beteiligten Kommunikation](upgrade-emails-surveys.md#step-1-email)
+
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
@@ -70,10 +70,10 @@ Teams bietet kompatibel Skype für Business-Funktionalität – wie Sofortnachri
 
 **Ressourcen:**
 
--   [Übersicht über Microsoft Teams](Teams-overview.md)
--   [Erfahren Sie mehr über Teams und Kanäle](teams-channels-overview.md)
--   [Technische Planung abgeschlossen](quick-start-enable-teams.md#step-3-complete-technical-planning)
--   [Verwalten von Skype-Chatroom-Systemen](https://aka.ms/srsdocs)
+- [Übersicht über Microsoft Teams](Teams-overview.md)
+- [Erfahren Sie mehr über Teams und Kanäle](teams-channels-overview.md)
+- [Technische Planung abgeschlossen](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Verwalten von Skype-Chatroom-Systemen](https://aka.ms/srsdocs)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -89,7 +89,7 @@ Benutzer, die tief auf Skype für Unternehmen übernommen werden möglicherweise
 
 **Ressourcen:**
 
--   [Finden Sie unter Verwendungsdaten in Berichte in Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Finden Sie unter Verwendungsdaten in Berichte in Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -108,8 +108,8 @@ Bereitstellen der umfangreichen Hinweis an Ihre Benutzer erhält Zeit sie mit de
 
 **Ressourcen:**
 
--   [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
--   [Beispiel-e-Mail: Ankündigung aus, wenn Benutzer über Skype für Unternehmen](upgrade-emails-surveys.md#step-4-email)
+- [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
+- [Beispiel-e-Mail: Ankündigung aus, wenn Benutzer über Skype für Unternehmen](upgrade-emails-surveys.md#step-4-email)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -118,13 +118,14 @@ Bereitstellen der umfangreichen Hinweis an Ihre Benutzer erhält Zeit sie mit de
 <a name="step-5"></a>
 
 ## <a name="step-5-activate-the-user-upgrade-notification"></a>Schritt 5. Benachrichtigung über den Benutzer aktivieren
+
 *(Etwa eine Woche vor dem Upgrade)*
 
 Verwalten von Upgrade Momentum werden, da der Benutzer upgradebenachrichtigung über das Administratorportal, bietet eine visuelle Benachrichtigung in der Skype für Business-Client, dass Benutzer von Skype für Unternehmen, die Teams aktualisiert werden.
 
 **Ressourcen:**
 
--   [Festlegen von Einstelllungen Upgrade und Koexistenz](setting-your-coexistence-and-upgrade-settings.md)
+- [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -133,13 +134,14 @@ Verwalten von Upgrade Momentum werden, da der Benutzer upgradebenachrichtigung �
 <a name="step-6"></a>
 
 ## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Schritt 6. Erinnern Sie Ihre Benutzer, die sie für Teams von Skype für Unternehmen aktualisieren können
+
 *(Etwa fünf Tage vor dem Upgrade)*
 
 Benutzer können sich mit ihre täglichen Aufgaben beschäftigt. Erinnerung an das ausstehende Upgrade hilft sicherzustellen, dass sie denken Sie daran, die Schritte zur Vorbereitung der Teams benötigten. Hierbei handelt es sich um den idealen Zeitpunkt für Benutzer verfügbar Schulung und erste Schritte mit Teams zu erinnern.
 
 **Ressourcen:**
 
--   [Beispiel-e-Mail: erinnern Sie Benutzer, Teams Einstieg](upgrade-emails-surveys.md#step-6-email)
+- [Beispiel-e-Mail: erinnern Sie Benutzer, Teams Einstieg](upgrade-emails-surveys.md#step-6-email)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -157,8 +159,8 @@ Es wird empfohlen, nachdem jeder aktualisiert wurde, senden Sie eine e-Mail-Nach
 
 **Ressourcen:**
 
--   [Festlegen der Koexistenz und Einstellungen aktualisieren](setting-your-coexistence-and-upgrade-settings.md)
--   [Beispiel-e-Mail: einladen von Benutzern zu Teams](upgrade-emails-surveys.md#step-7-email)
+- [Festlegen der Koexistenz und Einstellungen aktualisieren](setting-your-coexistence-and-upgrade-settings.md)
+- [Beispiel-e-Mail: einladen von Benutzern zu Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -174,7 +176,7 @@ Zu einer neuen Technologie anpassen kann einige Zeit dauern. Überprüfen Sie di
 
 **Ressourcen:**
 
--   [Finden Sie unter Verwendungsdaten](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [Finden Sie unter Verwendungsdaten](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -190,7 +192,7 @@ Mitarbeiterzufriedenheit Produktivität, Archivierung, beeinflussen kann und –
 
 **Ressourcen:**
 
--   [Beispiel-e-Mail: Erkundigen Sie sich bei Benutzern](upgrade-emails-surveys.md#step-9-email), plus [benutzerumfragen](upgrade-emails-surveys.md#step-9-surveys)
+- [Beispiel-e-Mail: Erkundigen Sie sich bei Benutzern](upgrade-emails-surveys.md#step-9-email), plus [benutzerumfragen](upgrade-emails-surveys.md#step-9-surveys)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -198,14 +200,14 @@ Mitarbeiterzufriedenheit Produktivität, Archivierung, beeinflussen kann und –
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>Schritt 10. Maximierung des ROI mit Teams 
+## <a name="step-10-maximize-your-roi-with-teams"></a>Schritt 10. Maximierung des ROI mit Teams
+
 *(Laufend)*
-    
+
 Nachdem der Benutzer mit Instant Messaging (Chat) und Besprechungen in Teams vertraut sind, zu fördern sie ihren Anwendungsfall erweitern, indem Sie mithilfe des Teams für die Zusammenarbeit und app-Integration, tatsächlich optimieren ihre neue Lösung und Maximierung Ihres ROI.
 
 **Ressourcen:**
 
--   [Beispiel-e-Mail: auffordern von Benutzern, Teams weiter erkunden](upgrade-emails-surveys.md#step-10-email)
+- [Beispiel-e-Mail: auffordern von Benutzern, Teams weiter erkunden](upgrade-emails-surveys.md#step-10-email)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
-

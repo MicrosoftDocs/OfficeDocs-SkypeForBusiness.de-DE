@@ -1,9 +1,8 @@
 ---
-title: Vorbereiten Ihres Netzwerks für das Upgrade auf Microsoft Teams – Microsoft Teams
+title: Bereiten Sie Ihr Netzwerk für Microsoft-Teams |  Firewall-Portanforderungen
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51559257012fc134f2bad3b94a33aad8953b0bf2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a3eb4317954e619f58236c96a2cee035f2df75e0
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374341"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349513"
 ---
 ![Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft")
 
 Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upgrade-Strategie, einer Aktivität, die Sie parallel zur Phase „Benutzerbereitschaft“ durchführen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
--   [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
--   [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
--   [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
--   [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
+- [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
+- [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-network-for-upgrading-to-teams"></a>Vorbereiten Ihres Netzwerks für das Upgrade auf Microsoft Teams
 
@@ -40,11 +39,11 @@ Wenn Sie Audio, Video oder Besprechungen bereitstellen, können Sie mit zusätzl
 
 Bevor wir die notwendigen Schritte betrachten, müssen Sie sich darüber im Klaren sein, welche Faktoren die Leistung von Microsoft Teams und damit die Zufriedenheit der Benutzer beeinflussen können. Es gibt im Wesentlichen drei Risikobereiche, die sich auf die Wahrnehmung der Netzwerkqualität durch die Benutzer auswirken:
 
--   Unzureichende verfügbare Bandbreite
+- Unzureichende verfügbare Bandbreite
 
--   Firewalls und Proxyblocker
+- Firewalls und Proxyblocker
 
--   Netzwerkbeeinträchtigungen wie beispielsweise Jitter und Paketverlust
+- Netzwerkbeeinträchtigungen wie beispielsweise Jitter und Paketverlust
 
 Mithilfe der unten beschriebenen Schritte können Sie ermitteln, ob Ihre Bereitstellung von einem dieser Faktoren betroffen sein könnte, und eine Lösung finden. Wenn Sie das Netzwerk nicht vorbereiten, führt dies wahrscheinlich zu unzufriedenen Benutzern und kostspieligen Ad-hoc-Korrekturen. Durch die Vorbereitung des Netzwerks – und der Organisation – für Microsoft Teams können Sie Ihre Erfolgschancen deutlich erhöhen.
 
@@ -59,16 +58,15 @@ Ihr Ausgangspunkt bei der Bandbreitenplanung für Microsoft Teams ist das Networ
 > [!IMPORTANT]
 > Wenn die erforderliche Bandbreite nicht verfügbar ist, verringert der Medienstapel in Microsoft Teams die Qualität der Audio/Video-Sitzung, um der niedrigeren verfügbaren Bandbreite Rechnung zu tragen. Dies wirkt sich auf die Qualität des Anrufs bzw. der Besprechung aus. Der Microsoft Teams-Client versucht, die Audioqualität gegenüber der Videoqualität zu priorisieren. Daher ist es äußerst wichtig, dass die erwartete Bandbreite verfügbar ist.
 
-
-|Aktivität  |Downloadbandbreite  |Uploadbandbreite  |Datenverkehrsfluss |
-|---------|---------|---------|---------|
-|**Peer-zu-Peer-Audioanruf**     |0,1 MBit/s         |0,1 MBit/s        |Client <> Client         |
-|**Peer-zu-Peer-Videoanruf (Vollbild)**     |4 MBit/s         |4 MBit/s         |Client <> Client          |
-|**Peer-zu-Peer-Desktopfreigabe (Auflösung 1920&#215;1080)**     |4 MBit/s         |4 MBit/s         |Client <> Client          |
-|**Besprechung mit zwei Teilnehmern**     |4 MBit/s         |4 MBit/s         |Client <> Office 365         |
-|**Besprechung mit drei Teilnehmern**     |8 MBit/s         |6,5 MBit/s         |Client <> Office 365           |
-|**Besprechung mit vier Teilnehmern**     |5,5 MBit/s         |4 MBit/s         |Client <> Office 365           |
-|**Besprechung mit fünf oder mehr Teilnehmern**     |6 MBit/s         |1,5 MBit/s         |Client <> Office 365           |
+|Aktivität |Downloadbandbreite |Uploadbandbreite |Datenverkehrsfluss |
+|---|---|---|---|
+|**Peer-zu-Peer-Audioanruf** |0,1 MBit/s |0,1 MBit/s |Client <> Client |
+|**Peer-zu-Peer-Videoanruf (Vollbild)** |4 MBit/s |4 MBit/s |Client <> Client |
+|**Peer-zu-Peer-Desktopfreigabe (Auflösung 1920&#215;1080)** |4 MBit/s |4 MBit/s |Client <> Client |
+|**Besprechung mit zwei Teilnehmern** |4 MBit/s |4 MBit/s |Client <> Office 365 |
+|**Besprechung mit drei Teilnehmern** |8 MBit/s |6,5 MBit/s |Client <> Office 365 |
+|**Besprechung mit vier Teilnehmern** |5,5 MBit/s |4 MBit/s |Client <> Office 365 |
+|**Besprechung mit fünf oder mehr Teilnehmern** |6 MBit/s |1,5 MBit/s |Client <> Office 365 |
 
 ### <a name="local-internet-egress"></a>Lokaler Internetausgang
 
@@ -78,26 +76,23 @@ Der Rücktransport des Datenverkehrs durch das WAN erhöht die Latenz und hat ne
 
 Durch Optimieren des Netzwerkpfads zum globalen Netzwerk von Microsoft wird die Leistung verbessert und letztendlich die größtmögliche Benutzerfreundlichkeit erzielt. Weitere Details finden Sie im Blogbeitrag [Erzielen der besten Konnektivität und Leistung in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-
 Für die optimale Verwendung von Echtzeitmedien in Microsoft Teams müssen die Netzwerkanforderungen für Office 365 erfüllt sein. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Die beiden definierenden Netzwerksegmente (Client zum Edge von Microsoft und Kundenedge zum Edge von Microsoft) müssen die folgenden Anforderungen erfüllen:
 
-
-|**Wert**  |**Vom Client zum Edge von Microsoft**  |**Vom Kundenedge zum Edge von Microsoft**  |
-|---------|---------|---------|
-|**Latenz (unidirektional)**     |< 50 ms          |< 30 ms          |
-|**Latenz (Roundtripzeit oder RTT)** |< 100 ms         |< 60 ms         |
-|**Burstverlust von Paketen**    |< 10 % in einem Intervall von 200 ms         |< 1% in einem Intervall von 200 ms         |
-|**Paketverlust**     |< 1 % in einem Intervall von 15 s          |< 0,1% in einem Intervall von 15 s         |
-|**Jitter zwischen der Ankunftszeit von Paketen**    |< 30 ms in einem Intervall von 15 s         |< 15 ms in einem Intervall von 15 s         |
-|**Neuanordnung von Paketen**    |< 0,05 % Pakete in falscher Reihenfolge         |< 0,01% Pakete in falscher Reihenfolge         |
+|**Wert** |**Vom Client zum Edge von Microsoft** |**Vom Kundenedge zum Edge von Microsoft** |
+|---|---|---|
+|**Latenz (unidirektional)** |< 50 ms |< 30 ms |
+|**Latenz (Roundtripzeit oder RTT)** |< 100 ms |< 60 ms |
+|**Burstverlust von Paketen** |< 10 % in einem Intervall von 200 ms |< 1% in einem Intervall von 200 ms |
+|**Paketverlust** |< 1 % in einem Intervall von 15 s |< 0,1% in einem Intervall von 15 s |
+|**Jitter zwischen der Ankunftszeit von Paketen** |< 30 ms in einem Intervall von 15 s |< 15 ms in einem Intervall von 15 s |
+|**Neuanordnung von Paketen** |< 0,05 % Pakete in falscher Reihenfolge |< 0,01% Pakete in falscher Reihenfolge |
 
 Um beide Netzwerksegmente zu testen, können Sie das [Network Assessment-Tool](https://go.microsoft.com/fwlink/?linkid=855799) verwenden. Dieses Tool kann direkt auf dem Client-PC sowie auf einem PC, der mit dem Netzwerkedge des Kunden verbunden ist, bereitgestellt werden. Das Tool selbst enthält eine begrenzte Dokumentation, eine umfassendere Dokumentation zur Verwendung des Tools finden Sie hier: [Bewertung der Netzwerkbereitschaft](https://go.microsoft.com/fwlink/?linkid=855800). Indem Sie diese Bewertung der Netzwerkbereitschaft ausführen, können Sie die Bereitschaft Ihres Netzwerks für die Ausführung von Echtzeitmedienanwendungen wie beispielsweise Microsoft Teams validieren.
 
 > [!NOTE]
 > Dabei handelt es sich um die gleiche Bewertung der Netzwerkbereitschaft, deren Ausführung wir Kunden empfehlen, die eine erfolgreiche Bereitstellung von Skype for Business anstreben.
-
 
 ### <a name="vpn"></a>VPN
 
@@ -113,13 +108,13 @@ Wie VPNs werden auch WLAN-Netzwerke nicht zwangsläufig für die Unterstützung 
 
 Beim Optimieren eines WLAN-Netzwerks kommen verschiedene Faktoren zum Tragen.
 
--   Implementieren Sie QoS oder Wi-Fi Multimedia (WMM), um sicherzustellen, dass Mediendatenverkehr gegenüber den WLAN-Netzwerken entsprechend priorisiert wird.
+- Implementieren Sie QoS oder Wi-Fi Multimedia (WMM), um sicherzustellen, dass Mediendatenverkehr gegenüber den WLAN-Netzwerken entsprechend priorisiert wird.
 
--   Planen und optimieren Sie die WLAN-Bänder und die Platzierung der Zugriffspunkte. Der 2,4-GHz-Bereich bietet zwar möglicherweise je nach Platzierung des Zugriffspunkts eine angemessene Qualität, aber Zugriffspunkte werden oft durch andere Heimanwendergeräte beeinflusst, die im gleichen Bereich betrieben werden. Der 5-GHz-Bereich ist aufgrund seiner Dichte besser für Echtzeitmedien geeignet, erfordert jedoch mehr Zugriffspunkte, um eine ausreichende Abdeckung zu erzielen. Außerdem müssen die Endpunkte diesen Bereich unterstützen und so konfiguriert sein, dass sie diese Bänder entsprechend nutzen.
+- Planen und optimieren Sie die WLAN-Bänder und die Platzierung der Zugriffspunkte. Der 2,4-GHz-Bereich bietet zwar möglicherweise je nach Platzierung des Zugriffspunkts eine angemessene Qualität, aber Zugriffspunkte werden oft durch andere Heimanwendergeräte beeinflusst, die im gleichen Bereich betrieben werden. Der 5-GHz-Bereich ist aufgrund seiner Dichte besser für Echtzeitmedien geeignet, erfordert jedoch mehr Zugriffspunkte, um eine ausreichende Abdeckung zu erzielen. Außerdem müssen die Endpunkte diesen Bereich unterstützen und so konfiguriert sein, dass sie diese Bänder entsprechend nutzen.
 
--   Wenn Dual-Band-WLAN-Netzwerke bereitgestellt sind, ziehen Sie die Implementierung von Bandsteuerung in Betracht. Bei der _Bandsteuerung_ handelt es sich um eine Technik, die von WLAN-Anbietern implementiert wird, um Dual-Band-Clients zur Verwendung des 5-GHz-Bereichs zu veranlassen.
+- Wenn Dual-Band-WLAN-Netzwerke bereitgestellt sind, ziehen Sie die Implementierung von Bandsteuerung in Betracht. Bei der _Bandsteuerung_ handelt es sich um eine Technik, die von WLAN-Anbietern implementiert wird, um Dual-Band-Clients zur Verwendung des 5-GHz-Bereichs zu veranlassen.
 
--   Wenn Zugriffspunkte im gleichen Kanal zu nah beieinander positioniert sind, können sie Signalüberlappung verursachen und unbeabsichtigt in Wettstreit miteinander treten. Dies führt zu einer mangelhaften Benutzerfreundlichkeit. Stellen Sie sicher, dass Zugriffspunkte, die sich nah beieinander befinden, nicht überlappende Kanäle verwenden.
+- Wenn Zugriffspunkte im gleichen Kanal zu nah beieinander positioniert sind, können sie Signalüberlappung verursachen und unbeabsichtigt in Wettstreit miteinander treten. Dies führt zu einer mangelhaften Benutzerfreundlichkeit. Stellen Sie sicher, dass Zugriffspunkte, die sich nah beieinander befinden, nicht überlappende Kanäle verwenden.
 
 Jeder WLAN-Anbieter hat seine eigenen Empfehlungen für die Bereitstellung seiner WLAN-Lösung. Wir empfehlen Ihnen, sich bei Ihrem Anbieter nach konkreten Anleitungen zu erkundigen.
 
@@ -138,6 +133,7 @@ Falls ein Proxyserver bereitgestellt wird, empfehlen wir, den Proxyserver für a
 <!--ENDOFSECTION-->
 
 ## <a name="additional-network-considerations"></a>Zusätzliche Netzwerküberlegungen
+
 ### <a name="external-name-resolution"></a>Externe Namensauflösung
 
 Stellen Sie sicher, dass alle Clientcomputer, auf denen der Microsoft Teams-Client ausgeführt wird, externe DNS-Abfragen auflösen können, um die von Office 365 bereitgestellten Dienste zu ermitteln.
@@ -172,17 +168,17 @@ Am besten führen Sie die Konnektivitätsüberprüfungen regelmäßig aus, um si
 
 Sie sollten Beeinträchtigungen im Netzwerk begrenzen, um die Benutzerzufriedenheit zu erhöhen. Bei Netzwerkbeeinträchtigungen handelt es sich meist um Verzögerungen (Latenzen), Paketverluste und Jitter:
 
--   **Latenz**: Diese Eigenschaft gibt an, wie lange ein IP-Paket im Netzwerk von Punkt A nach Punkt B unterwegs ist. Diese Verzögerung der Weitergabe im Netzwerk ist grundsätzlich mit der physischen Entfernung zwischen den beiden Punkten und der Lichtgeschwindigkeit verknüpft. Dazu gehört auch der Mehraufwand der zwischen den Punkten vorhandenen Router. Die Latenz wird als unidirektionale Latenz oder Roundtripzeit gemessen.
+- **Latenz**: Diese Eigenschaft gibt an, wie lange ein IP-Paket im Netzwerk von Punkt A nach Punkt B unterwegs ist. Diese Verzögerung der Weitergabe im Netzwerk ist grundsätzlich mit der physischen Entfernung zwischen den beiden Punkten und der Lichtgeschwindigkeit verknüpft. Dazu gehört auch der Mehraufwand der zwischen den Punkten vorhandenen Router. Die Latenz wird als unidirektionale Latenz oder Roundtripzeit gemessen.
 
--   **Paketverlust**: Diese Eigenschaft wird oft als prozentualer Anteil der Pakete gemessen, die in einem bestimmten Zeitfenster verloren gegangen sind. Paketverluste wirken sich direkt auf die Audioqualität aus. Möglich sind einzelne kleine verloren gegangene Pakete, die fast keine Auswirkung haben, oder andererseits direkt aufeinander folgende Burstverluste, die zu Tonaussetzern führen.
+- **Paketverlust**: Diese Eigenschaft wird oft als prozentualer Anteil der Pakete gemessen, die in einem bestimmten Zeitfenster verloren gegangen sind. Paketverluste wirken sich direkt auf die Audioqualität aus. Möglich sind einzelne kleine verloren gegangene Pakete, die fast keine Auswirkung haben, oder andererseits direkt aufeinander folgende Burstverluste, die zu Tonaussetzern führen.
 
--   **Jitter zwischen der Ankunftszeit von Paketen oder einfach Jitter**: Dies ist die durchschnittliche Änderung bei der Verzögerung zwischen aufeinander folgenden Paketen. Die meisten modernen VoIP-Softwareprogramme, wie auch Skype for Business, können ein gewisses Maß an Jitter durch Pufferung ausgleichen. Erst wenn der Jitter die Pufferung übersteigt, bemerken die Teilnehmer die Auswirkungen.
+- **Jitter zwischen der Ankunftszeit von Paketen oder einfach Jitter**: Dies ist die durchschnittliche Änderung bei der Verzögerung zwischen aufeinander folgenden Paketen. Die meisten modernen VoIP-Softwareprogramme, wie auch Skype for Business, können ein gewisses Maß an Jitter durch Pufferung ausgleichen. Erst wenn der Jitter die Pufferung übersteigt, bemerken die Teilnehmer die Auswirkungen.
 
 Die Maximalwerte für diese Beeinträchtigungen werden unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) beschrieben. Beim Testen auf diese Beeinträchtigungen unterscheiden wir zwischen zwei separaten Segmenten:
 
--   Das *Edgesegment* ist das Segment, in dem sich Ihr Router befindet. Dabei handelt es sich um das nächstgelegene logische Netzwerksegment, das an allen Ihren Standorten mit dem Internet verbunden ist. In den meisten Fällen ist dies der Verbindungspunkt des Routers oder möglicherweise ein Umkreisnetzwerk (das auch als *DMZ* und *demilitarisierte Zone* ** bezeichnet wird). Zwischen diesem Segment und dem Internet sollte kein weiterer Datenverkehr fließen, der sich auf andere Geräte als den Router auswirkt.
+- Das *Edgesegment* ist das Segment, in dem sich Ihr Router befindet. Dabei handelt es sich um das nächstgelegene logische Netzwerksegment, das an allen Ihren Standorten mit dem Internet verbunden ist. In den meisten Fällen ist dies der Verbindungspunkt des Routers oder möglicherweise ein Umkreisnetzwerk (das auch als *DMZ* und *demilitarisierte Zone* ** bezeichnet wird). Zwischen diesem Segment und dem Internet sollte kein weiterer Datenverkehr fließen, der sich auf andere Geräte als den Router auswirkt.
 
--   Das *Clientsegment* ist das logische Netzwerksegment, in dem sich Ihre Clients befinden.
+- Das *Clientsegment* ist das logische Netzwerksegment, in dem sich Ihre Clients befinden.
 
 Sie sollten beide Segmente mit dem Network Assessment-Tool testen. Zum Testen eines Segments navigieren Sie zu dem Verzeichnis, und geben Sie an der Eingabeaufforderung die Zeichenfolge **networkassessmenttool.exe** ein. Die Ergebnisse werden in die Datei „Results.tsv“ geschrieben und können mit den [Anforderungen](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) an die einzelnen Segmente verglichen werden.
 
@@ -192,19 +188,18 @@ Beachten Sie, dass beide Segmente die Anforderungen für eine Bereitstellung von
 
 ## <a name="network-remediation"></a>Netzwerkverbesserung
 
-Wenn aus den Ergebnissen der Bandbreitenplanung, der Porttests oder anderer Tests im Hinblick auf die Netzwerkanforderungen hervorgeht, dass das aktuelle Netzwerk vor der Bereitstellung von Microsoft Teams verbessert werden muss, haben Sie verschiedene Möglichkeiten: 
+Wenn aus den Ergebnissen der Bandbreitenplanung, der Porttests oder anderer Tests im Hinblick auf die Netzwerkanforderungen hervorgeht, dass das aktuelle Netzwerk vor der Bereitstellung von Microsoft Teams verbessert werden muss, haben Sie verschiedene Möglichkeiten:
 
--   Bei unzureichender Bandbreite sollten Sie die Verbindungen aktualisieren, damit der Datenverkehr zu Office 365 ungehindert fließen kann.
+- Bei unzureichender Bandbreite sollten Sie die Verbindungen aktualisieren, damit der Datenverkehr zu Office 365 ungehindert fließen kann.
 
--   Bei blockierten Ports sollten Sie Firewallregeln ändern und die Ports dann erneut testen.
+- Bei blockierten Ports sollten Sie Firewallregeln ändern und die Ports dann erneut testen.
 
--   Bei Netzwerkbeeinträchtigungen müssen Sie immer eine Ursachenanalyse durchführen.
+- Bei Netzwerkbeeinträchtigungen müssen Sie immer eine Ursachenanalyse durchführen.
 
 Sie können Quality of Service (QoS) zur Behebung von Beeinträchtigungen verwenden, indem Sie den Datenverkehr priorisieren und trennen. Manche Organisationen stellen QoS bereit, um Bandbreitenprobleme zu bewältigen oder den Umfang des fließenden Datenverkehrs einzuschränken. Dadurch wird die Qualität nicht verbessert, dafür entstehen neue Probleme. Eine Ursachenanalyse sollte immer durchgeführt werden, wenn Netzwerkbeeinträchtigungen die Anforderungen überschreiten. QoS kann eine Lösung sein. Weitere Informationen finden Sie unter [Quality of Service in Microsoft Teams](qos-in-teams.md).
 
 >[!NOTE]
 >Viele Netzwerke entwickeln sich im Lauf der Zeit weiter, sei es durch Upgrades, durch Erweiterung oder durch andere geschäftliche Anforderungen. Stellen Sie sicher, dass Sie über betriebliche Prozesse verfügen, mit denen diese Bereiche im Rahmen der Planung der Dienstverwaltung gewartet werden.
-
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkt</td><td><ul><li>Wer soll für die Ausführung ordnungsgemäßer Netzwerkbewertungen in allen Netzwerksegmenten und an allen Organisationsstandorten zuständig sein?</li></ul></td></tr>
@@ -217,10 +212,10 @@ Sie können Quality of Service (QoS) zur Behebung von Beeinträchtigungen verwen
 
 Dies sind die wesentlichen Erkenntnisse dieser Anleitung. Sie müssen die folgenden Aufgaben ausführen:
 
--   Öffnen Sie die TCP-Ports 80 und 443 für ausgehende Verbindungen von Clients, die Microsoft Teams verwenden sollen.
+- Öffnen Sie die TCP-Ports 80 und 443 für ausgehende Verbindungen von Clients, die Microsoft Teams verwenden sollen.
 
--   Öffnen Sie die UDP-Ports 3478 bis 3481 für ausgehende Verbindungen von Clients, die Microsoft Teams verwenden sollen.
+- Öffnen Sie die UDP-Ports 3478 bis 3481 für ausgehende Verbindungen von Clients, die Microsoft Teams verwenden sollen.
 
--   Stellen Sie mithilfe des [Network Planner-Tools](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) sicher, dass Sie über ausreichende Bandbreite für die Bereitstellung von Microsoft Teams verfügen.
+- Stellen Sie mithilfe des [Network Planner-Tools](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) sicher, dass Sie über ausreichende Bandbreite für die Bereitstellung von Microsoft Teams verfügen.
 
--   Führen Sie das [Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) aus, und stellen Sie sicher, dass die unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) beschriebenen Anforderungen sowohl im Edgesegment als auch im Clientsegment erfüllt sind.
+- Führen Sie das [Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) aus, und stellen Sie sicher, dass die unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) beschriebenen Anforderungen sowohl im Edgesegment als auch im Clientsegment erfüllt sind.

@@ -1,9 +1,8 @@
 ---
-title: Vorbereiten des Diensts für das Upgrade auf Teams - Microsoft-Teams
+title: Vorbereiten für Microsoft-Teams aktualisieren |  Onboarding Einführung Prüfliste
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7858737dc69f076ca059aca9de5437cb3cb88e52
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374596"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349460"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
 Dieser Artikel ist Teil technische Bereitschaft Stufe des Ihrem Upgrade Weg, eine Aktivität, die gleichzeitig mit der User Readiness Phase ausgeführt werden. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
 
--   [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
--   [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
--   [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
--   [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
+- [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
+- [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
+- [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Vorbereiten des Diensts für das Upgrade auf Teams
 
@@ -38,17 +37,17 @@ Dieser Artikel bietet eine Übersicht über die Anforderungen bei der Vorbereitu
 
 Die folgenden Prüflisten führen Sie durch die Schritte für die Bereitstellung von Microsoft-Teams in Ihrer Organisation:
 
--  [Vorbereiten der Office 365 für Teams](onboarding-checklist-enable-office-365.md)
+- [Vorbereiten der Office 365 für Teams](onboarding-checklist-enable-office-365.md)
 
--  [Konfigurieren von Teams Kernfunktionen](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [Konfigurieren von Teams Kernfunktionen](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
--  [Netzwerk konfigurieren](onboarding-checklist-configure-networking.md)
+- [Netzwerk konfigurieren](onboarding-checklist-configure-networking.md)
 
--  [Konfigurieren von VoIP-Arbeitslasten Cloud in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Konfigurieren von VoIP-Arbeitslasten Cloud in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
--  [Konfigurieren der direkten Weiterleitung von Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Konfigurieren der direkten Weiterleitung von Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-Die Aufgaben und Aktivitäten in dieser Prüflisten sind die Core "Aufgabe" Elemente, die in jeder Bereitstellung von Zusammenarbeit und Sprachfunktionen mit Teams liegen. Sie können die Prüflisten zum Einschließen von Aktivitäten und Aufgaben, die speziell für Ihre eigenen Teams Reise anpassen. 
+Die Aufgaben und Aktivitäten in dieser Prüflisten sind die Core "Aufgabe" Elemente, die in jeder Bereitstellung von Zusammenarbeit und Sprachfunktionen mit Teams liegen. Sie können die Prüflisten zum Einschließen von Aktivitäten und Aufgaben, die speziell für Ihre eigenen Teams Reise anpassen.
 
 Verwenden Sie die bereitgestellten Prüflisten zum Nachverfolgen des Status der jede einzelne Aktivität und jede Aufgabe, und um sicherzustellen, dass Sie alle wichtigen Schritte übersprungen noch nicht. Jede Aktivität enthält eine ausführliche Beschreibung der erforderlichen Aktionen und Verweise auf zusätzliche Informationen, die Sie verwenden können, um diese Aktivität abgeschlossen haben.
 
@@ -57,7 +56,7 @@ Obwohl es wird empfohlen, dass Sie die Prüflisten in Reihenfolge ausführen, wi
 Wenn Sie Onboarding-Benutzer auf eine Websitebasis sind, empfehlen wir nachdrücklich für die Verwendung der [Website Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) als zusätzliche Anleitung zu dieser Prüflisten.
 
 >[!NOTE]
->Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Sie verwenden der Microsoft-Teams & Skype für Business Admin Center, um diese Einstellungen zu konfigurieren.
+>Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Verwenden Sie die Microsoft-Teams & Skype für Business Admin Center, um diese Einstellungen zu konfigurieren.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkt</td><td><ul><li>Wer wird für die Aufsicht über den Abschluss der Onboarding Prüflisten zuständig sein?</li></ul></td></tr>
