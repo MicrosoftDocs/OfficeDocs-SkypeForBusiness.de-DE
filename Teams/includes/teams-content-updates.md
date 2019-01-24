@@ -1,50 +1,14 @@
 ---
-ms.openlocfilehash: 4216629a8b0f92092024984b21fca1b82a52a557
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 1b5df1a5cb064e50e9c3deb8fdbded1db29d88a7
+ms.sourcegitcommit: 502f85e7920b1a9a14f879d6211e10ad8daba69f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015317"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "29382479"
 ---
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
 
 
-
-
-## <a name="week-of-december-10-2018"></a>Woche vom Montag, 10. Dezember 2018
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 10.12.2018 | [Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams](/MicrosoftTeams/iw-trial-teams) | geändert |
-| 10.12.2018 | [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | geändert |
-| 10.12.2018 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | geändert |
-| 10.12.2018 | [Konfigurieren von direktem Routing](/MicrosoftTeams/direct-routing-configure) | geändert |
-| 10.12.2018 | [Auswählen Ihrer Upgrade-Strategie – Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | geändert |
-| 10.12.2018 | [Endbenutzer-Schulungen für Microsoft Teams](/MicrosoftTeams/enduser-training) | geändert |
-| 10.12.2018 | [Schulung mit Dozent für Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | geändert |
-| 11.12.2018 | [Planen von Microsoft 365 Government – GCC-Bereitstellungen – Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | geändert |
-| 11.12.2018 | [Häufig gestellten Fragen: Upgrade-Strategie beim Wechseln von Skype for Business zu Microsoft Teams – Microsoft Teams](/MicrosoftTeams/faq-journey) | geändert |
-| 11.12.2018 | [Bekannte Probleme für Microsoft Teams](/MicrosoftTeams/known-issues) | geändert |
-| 11.12.2018 | [Übersicht über Microsoft Teams](/MicrosoftTeams/teams-overview) | geändert |
-| 11.12.2018 | [Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](/MicrosoftTeams/enable-features-office-365) | geändert |
-| 12.12.2018 | [Konfigurieren von direktem Routing](/MicrosoftTeams/direct-routing-configure) | geändert |
-| 12.12.2018 | [Kommunizieren mit Microsoft Teams-Benutzern in einer anderen Organisation](/MicrosoftTeams/let-your-teams-users-communicate-with-other-people) | geändert |
-| 12.12.2018 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | geändert |
-| 12.12.2018 | [Telefonnummernverwaltung für Australien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | geändert |
-| 12.12.2018 | [Prüfliste für den Schnellstart der Microsoft Teams-Einführung](/MicrosoftTeams/teams-adoption-quick-start-checklist) | geändert |
-| 12.12.2018 | [Bekannte Probleme für Microsoft Teams](/MicrosoftTeams/known-issues) | geändert |
-| 13.12.2018 | [Trunkfailover bei ausgehenden Anrufen](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | hinzugefügt |
-| 13.12.2018 | [Einführen von Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | geändert |
-| 13.12.2018 | [Überprüfen der Bereitschaft Ihrer Umgebung für Microsoft Teams](/MicrosoftTeams/environment-readiness) | geändert |
-| 13.12.2018 | Erste Schritte mit Microsoft Teams | entfernt |
-| 13.12.2018 | [Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | hinzugefügt |
-| 14.12.2018 | [Parken und Fortsetzen von Anrufen in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | hinzugefügt |
-| 14.12.2018 | [Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams](/MicrosoftTeams/call-sharing-and-group-call-pickup) | hinzugefügt |
-| 14.12.2018 | [Teamschaltung in Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | hinzugefügt |
-| 14.12.2018 | [Teamschaltung in Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | geändert |
-| 14.12.2018 | [Besprechungsrichtlinien in Microsoft Teams](/MicrosoftTeams/meeting-policies-in-teams) | geändert |
-| 14.12.2018 | [Verwalten von Besprechungseinstellungen in Microsoft Teams](/MicrosoftTeams/meeting-settings-in-teams) | geändert |
 
 
 ## <a name="week-of-december-17-2018"></a>Woche vom Montag, 17. Dezember 2018
@@ -160,3 +124,79 @@ ms.locfileid: "28015317"
 | 11.01.2019 | [Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](/MicrosoftTeams/enable-features-office-365) | geändert |
 | 11.01.2019 | [Planen von Microsoft 365 Government – GCC High-Bereitstellungen – Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | geändert |
 | 11.01.2019 | [Überlegungen zum Teams Only-Modus](/MicrosoftTeams/teams-only-mode-considerations) | geändert |
+
+
+## <a name="week-of-january-14-2019"></a>Woche vom 14. Januar 2019
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 14. Januar 2019 | [Tools und Downloads für die Einführung](/MicrosoftTeams/adopt-tools-and-downloads) | geändert |
+| 14. Januar 2019 | [Aufzeichnung einer Teams-Cloudbesprechung](/MicrosoftTeams/cloud-recording) | geändert |
+| 14. Januar 2019 | [Erste Schritte mit dem Upgrade von Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | geändert |
+| 15. Januar 2019 | [Verwalten der App Schichten für Ihre Organisation in Microsoft Teams](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | geändert |
+| 16. Januar 2019 | [Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams](/MicrosoftTeams/faq-journey) | geändert |
+| 16. Januar 2019 | [Implementieren von QoS und Überwachung der Anrufanalyse in Microsoft Teams](/MicrosoftTeams/monitor-call-quality-qos) | hinzugefügt |
+| 16. Januar 2019 | [Quality of Service in Microsoft Teams](/MicrosoftTeams/qos-in-teams) | geändert |
+| 16. Januar 2019 | [Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | geändert |
+| 16. Januar 2019 | [Erstellen und Verwalten von Wählplänen](/MicrosoftTeams/create-and-manage-dial-plans) | geändert |
+| 16. Januar 2019 | [Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | geändert |
+| 16. Januar 2019 | [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | geändert |
+| 16. Januar 2019 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | geändert |
+| 16. Januar 2019 | [Prüfliste für den Microsoft Teams-Gastzugriff](/MicrosoftTeams/guest-access-checklist) | geändert |
+| 16. Januar 2019 | [Planen der Governance in Microsoft Teams – Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | geändert |
+| 16. Januar 2019 | [Verwenden der Verzeichnissuche in Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | geändert |
+| 16. Januar 2019 | [Parken und Fortsetzen von Anrufen in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | geändert |
+| 16. Januar 2019 | [Anruffreigabe und Annehmen von Gruppenanrufen in Microsoft Teams](/MicrosoftTeams/call-sharing-and-group-call-pickup) | geändert |
+| 16. Januar 2019 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | geändert |
+| 16. Januar 2019 | [Verwalten des Gastzugriffs in Microsoft Teams](/MicrosoftTeams/manage-guests) | geändert |
+| 17. Januar 2019 | [Treffen von Entscheidungen für den Audio-Konferenzdienst – Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | geändert |
+| 17. Januar 2019 | [Treffen von Entscheidungen für das Telefonsystem mit Anrufplänen – Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | geändert |
+| 17. Januar 2019 | [Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams](/MicrosoftTeams/faq-journey) | geändert |
+| 17. Januar 2019 | [Übersicht über Microsoft Teams](/MicrosoftTeams/teams-overview) | geändert |
+| 17. Januar 2019 | [Audiokonferenzen in Microsoft Teams](/MicrosoftTeams/tutorial-audio-conferencing) | geändert |
+| 17. Januar 2019 | [Grundlegendes zu Anrufen in Microsoft Teams](/MicrosoftTeams/tutorial-calling-in-teams) | geändert |
+| 17. Januar 2019 | [Besprechungen in Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | geändert |
+| 17. Januar 2019 | [Schnellstarthandbuch – Konfigurieren von Anrufplänen in Microsoft Teams](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | geändert |
+| 17. Januar 2019 | [Enterprise-Testplan für Audiokonferenzen in Microsoft Teams](/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing) | geändert |
+| 17. Januar 2019 | [Enterprise-Testplan für Telefonsysteme mit Anrufplänen in Microsoft Teams](/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) | geändert |
+| 17. Januar 2019 | [Definieren des Umfang Ihrer Upgrade-Reise von Skype for Business zu Teams - Microsoft Teams](/MicrosoftTeams/upgrade-define-project-scope) | geändert |
+| 17. Januar 2019 | [Upgrade auf Pro für Microsoft Teams - Microsoft Teams](/MicrosoftTeams/upgrade-pro) | geändert |
+| 17. Januar 2019 | [Beziehen von Clients für Microsoft Teams](/MicrosoftTeams/get-clients) | geändert |
+| 17. Januar 2019 | [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | geändert |
+| 18. Januar 2019 | [Konfigurieren von direktem Routing](/MicrosoftTeams/direct-routing-configure) | geändert |
+| 18. Januar 2019 | [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | geändert |
+| 18. Januar 2019 | [Microsoft Teams |  Bewerten der Umgebung | Einführung, Entdeckung](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | geändert |
+| 18. Januar 2019 | [Microsoft Teams: Häufig gestellte Fragen | Besprechungs-, Konferenz-, Anrufmöglichfunktionen](/MicrosoftTeams/faq-journey) | geändert |
+| 18. Januar 2019 | [Upgrade von Skype for Business Online auf Microsoft Teams - Microsoft Teams](/MicrosoftTeams/journey-skypeforbusiness-teams) | geändert |
+| 18. Januar 2019 | [Grundlegendes zum Aktualisieren von Skype for Business auf Microsoft Teams](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | geändert |
+| 18. Januar 2019 | [Microsoft Teams-Plan zur Benutzerakzeptanz | Bewährte Methoden](/MicrosoftTeams/continue-journey) | geändert |
+| 18. Januar 2019 | [Von einem Kursleiter durchgeführte Schulung und Videos für Microsoft Teams-Administratoren](/MicrosoftTeams/instructor-led-training-teams-landing-page) | geändert |
+| 18. Januar 2019 | [Microsoft Teams with Skype for Business - Pilotversuch | Bereitstellen, Übernehmen, Implementieren](/MicrosoftTeams/pilot-essentials) | geändert |
+| 18. Januar 2019 | [Microsoft Teams | Nur Upgrade, Inselmodus, Interop-Richtlinie](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | geändert |
+| 18. Januar 2019 | [Microsoft Teams-Upgrade von Skype for Business | Modi, Koexistenz](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | geändert |
+| 18. Januar 2019 | [Basis-Upgrade PowerShell| Microsoft Teams| Interop-Richtlinie für das Grant-Upgrade](/MicrosoftTeams/upgrade-basic-powershell) | geändert |
+| 18. Januar 2019 | [Upgrade-Prüfliste| Upgrade von Skype for Business auf Microsoft Teams | Grundlegende Schritte](/MicrosoftTeams/upgrade-basic) | geändert |
+| 18. Januar 2019 | [Projektumfang für die Einführung von Skype for Business auf Microsoft Teams | Upgrade](/MicrosoftTeams/upgrade-define-project-scope) | geändert |
+| 18. Januar 2019 | [E-Mails und Umfragen für den Übergang zu Microsoft Teams | Basis-Upgrade](/MicrosoftTeams/upgrade-emails-surveys) | geändert |
+| 18. Januar 2019 | [Microsoft Teams-Anforderungen | Dienst verbessern](/MicrosoftTeams/upgrade-enhance-my-service) | geändert |
+| 18. Januar 2019 | [Interessengruppen einbeziehen | Planen des Upgrades von Skype for Business auf Teams](/MicrosoftTeams/upgrade-enlist-stakeholders) | geändert |
+| 18. Januar 2019 | [Qualität der Benutzererfahrung | Microsoft Teams | QoS | Anrufqualität](/MicrosoftTeams/upgrade-monitor-quality) | geändert |
+| 18. Januar 2019 | [Operationen für Microsoft Teams| Service-Management- | Qualität](/MicrosoftTeams/upgrade-operate-my-service) | geändert |
+| 18. Januar 2019 | [Skype for Business auf Microsoft Teams| Benutzerakzeptanz für das Upgrade](/MicrosoftTeams/upgrade-org-change-readiness) | geändert |
+| 18. Januar 2019 | [Planen von Service-Management und Qualität | Technische Einsatzbereitschaft](/MicrosoftTeams/upgrade-plan-for-quality) | geändert |
+| 18. Januar 2019 | [Microsoft Teams-Upgrade | Fragen zur Bewertung und Entdeckung der Umgebung](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | geändert |
+| 18. Januar 2019 | [Microsoft Teams-Voraussetzungen | Upgrade der Einführung von Abhängigkeiten
+](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | geändert |
+| 18. Januar 2019 | [Upgrade-Planung von Skype for Business auf Microsoft Teams | Einführungsrahmen](/MicrosoftTeams/upgrade-plan-journey) | geändert |
+| 18. Januar 2019 | [Schulung für Microsoft Teams | Probleme beim IT-Support von Administratoren](/MicrosoftTeams/upgrade-prepare-it-pros) | geändert |
+| 18. Januar 2019 | [Vorbereiten des Netzwerks für Microsoft Teams|  Port-Firewall-Anforderungen](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | geändert |
+| 18. Januar 2019 | [Vorbereitungen für das Microsoft Teams-Upgrade|  Checkliste für das Onboarding-Rollout](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | geändert |
+| 18. Januar 2019 | [Vorbereiten einer Umgebung für das Upgrade von Skype for Business auf Teams](/MicrosoftTeams/upgrade-prepare-environment) | geändert |
+| 18. Januar 2019 | [Vorbereiten des Upgrades von Skype for Business auf Microsoft Teams | Planen der Benutzerakzeptanz](/MicrosoftTeams/upgrade-prepare-organization) | geändert |
+| 18. Januar 2019 | [Upgrade Pro für Microsoft Teams | Roadmap](/MicrosoftTeams/upgrade-pro) | geändert |
+| 18. Januar 2019 | [Upgrade einer hybriden Skype for Business-Bereitstellung auf Microsoft Teams | PSTN](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybrid) | geändert |
+| 18. Januar 2019 | [Upgrade von Skype for Business Online auf Microsoft Teams | Bereitstellen](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | geändert |
+| 18. Januar 2019 | [Upgrade von lokalen Skype for Business-Versionen auf Microsoft Teams | Bereitstellen von | Lync](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonpremises) | geändert |
+| 18. Januar 2019 | [Upgrade auf Microsoft Teams | Skype for Business Teams-Roadmap](/MicrosoftTeams/upgrade-to-teams) | geändert |
+| 18. Januar 2019 | [Vorbereiten eines Plans für die Benutzerakzeptanz; Upgrade von Skype for Business auf Teams](/MicrosoftTeams/upgrade-user-readiness) | geändert |
