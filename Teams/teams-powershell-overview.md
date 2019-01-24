@@ -1,5 +1,5 @@
 ---
-title: Teams PowerShell (Übersicht)
+title: Übersicht über PowerShell für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,20 +9,24 @@ ms.service: msteams
 description: Erfahren Sie, die PowerShell-Steuerelemente verwenden Sie zum Verwalten von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 477aa468cf057bd5f1a042acd5aff9772e8244f0
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625751"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442429"
 ---
-# <a name="teams-powershell-overview"></a>Teams PowerShell (Übersicht)
+# <a name="teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
 
-Microsoft-Teams, verfügt über einen umfassenden Satz von Tools für IT-Administratoren zur Verwaltung des Produkts über das Microsoft-Teams & Skype für Business Admin Center, PowerShell Steuerelemente und Diagramm-APIs. In diesem Handbuch wird erläutert, wie wir unsere PowerShell-Cmdlets für IT-Administratoren verwenden, strukturieren und enthält Verweise auf Weitere Dokumentation. Beachten Sie, dass unterschiedliche Teams Administratorrollen auf anderen Cmdlets zugreifen. Weitere Informationen finden Sie unter [Verwendung von Microsoft-Teams Administratorrollen zum Verwalten von Teams](using-admin-roles.md).
+Microsoft-Teams, verfügt über einen umfassenden Satz von Tools für IT-Administratoren zur Verwaltung des Produkts über die Microsoft-Teams & Skype für Business Admin Center, PowerShell Steuerelemente und Diagramm-APIs. In diesem Handbuch wird erläutert, wie wir unsere PowerShell-Cmdlets für IT-Administratoren verwenden, strukturieren und enthält Verweise auf Weitere Dokumentation. Beachten Sie, dass unterschiedliche Teams Administratorrollen auf anderen Cmdlets zugreifen. Weitere Informationen finden Sie unter [Verwendung von Microsoft-Teams Administratorrollen zum Verwalten von Teams](using-admin-roles.md).
 
 ## <a name="which-modules-do-you-need-to-use"></a>Welche Module müssen Sie verwenden?
 
-Für die Verwaltung von Microsoft-Teams, die PowerShell-Steuerelemente befinden sich in zwei verschiedene PowerShell-Module: [Microsoft Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (public Preview) und die [Skype für Business PowerShell-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Das Teams PowerShell-Modul enthält alle Cmdlets, die Sie zum Erstellen und Verwalten von Teams benötigen, während die Skype für Business PowerShell-Modul die Steuerelemente für die Verwaltung von Richtlinien, Konfigurationen und andere Tools von Teams enthält. Die Referenzdokumente für PowerShell Steuerelemente erfahren Sie, welche Modul mit dem Cmdlet enthält, das Sie untersuchen möchten. (Schließlich werden die zwei Module kombiniert werden.)
+Die Steuerelemente PowerShell zum Verwalten von Teams sind in zwei verschiedenen PowerShell Modulen: 
+- [Microsoft-Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (öffentliche Preview): der Teams PowerShell-Modul enthält alle Cmdlets müssen Sie erstellen und Verwalten von Teams.  
+- [Skype für Business PowerShell-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366): der Skype für Business PowerShell-Modul enthält die Cmdlets zum Verwalten von Richtlinien, Konfigurationen und andere Tools von Teams. 
+
+Die Referenzdokumentation für die PowerShell-Steuerelemente erfahren Sie, welche Modul mit dem Cmdlet enthält, das Sie untersuchen möchten. (Schließlich werden die zwei Module kombiniert werden.)
 
 ## <a name="what-can-each-admin-role-do"></a>Welche Vorteile jedes Administratorrolle?
 
@@ -71,7 +75,7 @@ Die Cmdlets für die Verwaltung Ihrer Konfigurations sind in der [Skype für Bus
 
 Konfigurationen werden Buckets Einstellungen verwaltet, in der Dienst, der auf der Benutzerebene nicht angegeben werden kann. Die Einstellungen werden immer in der gesamten Organisation gelten. Die globale Konfiguration ist die einzige effektive Konfiguration in Ihrer Organisation. Jedes Configuration-Typ verfügt über zwei primäre Cmdlets:
 
-- ``Get-Cs<ConfigurationName>``(z. B. ``Get-CsTeamsClientConfiguration``): 
+- Beispiel:``Get-Cs<ConfigurationName>``. 
 
 - SET-Befehle (z. B. ``Set-CsTeamsClientConfiguration``): Festlegen der Eigenschaften in die Konfiguration dieses Typs. Geben Sie die Parameter, die Sie ändern möchten.
    > Sie können die Konfiguration, die Sie in einem der folgenden beiden Methoden ändern, sind verweisen: durch Angabe -**Identity Global**, oder durch Ausführen von ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.
