@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957d1d3b708d0d35c2743b9382af3ad12aba6632
-ms.sourcegitcommit: 38f225d59929a08923e801f334fea7b3d28f537d
+ms.openlocfilehash: f50a41333956458b3db36a13b9133c1cabcc163d
+ms.sourcegitcommit: ee8996ce081039f61c070f5b0b3fd6294ea4a5f5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29454576"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29561991"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limits und Spezifikationen für Microsoft Teams
 =============================================
@@ -31,8 +31,8 @@ Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und
 |Funktion    | Maximale Grenzwert |
 |-----------|---------------|
 |Anzahl der Teams, die ein Benutzer erstellen kann | Kann ein limit&sup1 250-Objekt;         |
-|Anzahl der Elemente in einem team | US-$ 2.500       |
-|Anzahl der Elemente in einer [Organisation geltende team](create-an-org-wide-team.md) | US-$ 2.500       |
+|Anzahl der Elemente in einem team | 2.500       |
+|Anzahl der Elemente in einer [Organisation geltende team](create-an-org-wide-team.md) | 2.500       |
 |Anzahl der Teams, die ein globaler Administrator erstellen können        |  500.000   |
 |Anzahl der Teams, die ein Office 365-Mandanten enthalten kann    | 500.000     |
 |Anzahl der Kanäle pro team    | 200 (einschließlich der gelöschten Kanäle)         |
@@ -45,15 +45,12 @@ Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und
 |Funktion     | Maximale Grenzwert |
 |------------|---------------|
 |Anzahl der Personen in einer Besprechung  | 250    |
-|Anzahl der Personen in einem privaten chat  | 50%    |
+|Anzahl der Personen in einem privaten chat  | 50    |
 
-> [!IMPORTANT]
-> Kiosk Worker haben nicht die Möglichkeit zum Planen von Besprechungen Teams, wie in der Standardeinstellung AllowChannelMeetingScheduling und AllowPrivateMeetingScheduling nicht mit zur in-Band-Bereitstellung in Bezug auf die TeamsMeetingPolicy enthalten sind. Dies gilt nur für Kiosk-Worker. 
-
-<a name="storage"></a>-Speicher
+<a name="storage"></a>Speicher
 -------
 
-Jedes Team in Microsoft-Teams, hat eine Teamwebsite in SharePoint Online und für jeden Kanal in ein Team einen Ordner in der Standardeinstellung Team Site-Dokumentbibliothek abgerufen. Dateien, die innerhalb einer Unterhaltung freigegeben werden automatisch in die Dokumentbibliothek hinzugefügt, und Berechtigungen und Dateisicherheitsoptionen in SharePoint festgelegt werden innerhalb von Teams automatisch wiedergegeben.
+Jedes Team in Microsoft Teams verfügt über eine Teamsite in SharePoint Online, und jeder Kanal in einem Team erhält einen Ordner innerhalb der Dokumentbibliothek der Standardteamsite. In einer Unterhaltung freigegebene Dateien werden automatisch zur Dokumentbibliothek hinzugefügt, und in SharePoint festgelegte Berechtigungen und Dateisicherheitsoptionen werden automatisch in Teams übernommen.
 
 Wenn Sie SharePoint Online in Ihrem Mandanten aktiviert ist, können nicht Microsoft-Teams, Benutzer immer Dateien in Teams freigeben. Benutzer im privaten Chat können nicht auch Dateien freigeben, da OneDrive für Unternehmen (die SharePoint-Benutzerlizenz verbunden ist) der Funktionalität erforderlich ist.
 
@@ -63,7 +60,7 @@ Da Teams, die auf einer SharePoint Online-Back-End für die Dateifreigabe ausgef
 
 |Funktion                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|-Speicher                 |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation plus 10 GB pro erworbene Lizenz   |1 TB pro Organisation plus 10 GB pro erworbene Lizenz |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation           |
+|Speicher                 |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation plus 10 GB pro erworbene Lizenz   |1 TB pro Organisation plus 10 GB pro erworbene Lizenz |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation           |
 |Speicher für Teams Dateien |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |
 |Maximale Dateigröße beim upload       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
@@ -82,7 +79,7 @@ Microsoft-Teams, Chat Funktion arbeitet auf einem Microsoft Exchange Back-End-Ex
 |---------|---------|---------|---------|---------|
 |Die Nachrichtengröße&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
 |Grenzwert für Dateianlagen&Dagger;  | 10     | 10     | 10     | 10    |
-|Beschränken der Bilder&Dagger; |50%   |50%   |50%   |50%   |
+|Beschränken der Bilder&Dagger; |50   |50   |50   |50   |
 
 &dagger;Wenn die Nachricht diesen Grenzwert überschreitet, wird eine Vorschau der Nachricht wird generiert, und der Benutzer wird aufgefordert, Ansicht/die ursprüngliche e-Mail aus den angezeigten Link herunterladen.
 
