@@ -1,5 +1,5 @@
 ---
-title: Was sind die Richtlinien in Teams Messaging?
+title: Was sind Messaging-Richtlinien in Teams?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,14 +16,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Informationen Sie zu Richtlinien für Messaging und wie sie Chat in Teams messaging steuern verwendet werden können.
-ms.openlocfilehash: 7b9cb8a6a5c30806d44f5056e4dee0de79823841
-ms.sourcegitcommit: c6b62a64d198fe18ae53cf849d125c5143053456
+ms.openlocfilehash: 203acb58113d162e6752ca5d327b8575c58a7133
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25453794"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530936"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>Was sind die Richtlinien in Teams Messaging?
+# <a name="what-are-messaging-policies-in-teams"></a>Was sind Messaging-Richtlinien in Teams?
 
 Messaging-Richtlinien dienen zum Steuern, welche Chat und Channel messaging-Funktionen für Benutzer in Microsoft-Teams verfügbar sind. Sie können die Standardrichtlinie, die erstellt wird, oder erstellen Sie eine oder mehrere benutzerdefinierte messaging Richtlinien für die Personen in Ihrer Organisation. Nachdem Sie eine Richtlinie erstellen, weisen es einem Benutzer oder Gruppen von Benutzern in Ihrer Organisation Sie.
 
@@ -37,6 +37,8 @@ Die verfügbaren Einstellungen für die Richtlinie werden nachfolgend beschriebe
 - **Benutzer können gesendete Nachrichten löschen** Verwenden Sie diese Einstellung, damit Benutzer Nachrichten löschen, die sie im Chat senden.
 - **Benutzer können gesendete Nachrichten bearbeiten** Verwenden Sie diese Einstellung, damit Benutzer die Nachrichten zu bearbeiten, die sie im Chat senden.
 - **Lesebestätigungen** Verwenden Sie diese Einstellung an, ob Lese-Empfangsbestätigungen Benutzer gesteuert, für alle Benutzer aktiviert oder deaktiviert werden.
+<a name="bkchat"> </a>
+
 - **Chat**  Aktivieren Sie diese Einstellung, wenn die Benutzer in Ihrer Organisation die Teams app verwenden, um mit anderen Teilnehmern zu chatten können sollen.
 - **Verwendung Giphys Unterhaltungen**  Wenn Sie diese aktivieren, können Benutzer in Chat Gespräche mit anderen Personen Giphys einschließen. Giphy ist ein online-Datenbank und die Suchmaschine, mit dem Benutzer suchen und Freigeben von animierte GIF-Dateien. Jede Giphy wird eine Content Bewertung zugewiesen.
 - **Giphy zum Bewerten** 
@@ -51,4 +53,4 @@ Die verfügbaren Einstellungen für die Richtlinie werden nachfolgend beschriebe
 Wenn Sie eine benutzerdefinierte Richtlinie an Messaging erstellt haben, werden es nur aktive für einen Benutzer wenn diese Richtlinie, die einem Benutzer zugewiesen ist.  Um eine benutzerdefinierte Richtlinie für einen Benutzer in der Verwaltungskonsole Teams zuzuweisen, klicken Sie im linken Navigationsbereich auf **Benutzer** , wählen Sie den Benutzer, dem Sie die Richtlinie zuweisen möchten, und wählen Sie dann auf **Bearbeiten** , klicken Sie unter **Richtlinien zugewiesen**.
 
 ### <a name="related-topics"></a>Verwandte Themen
-[Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
+[Besprechungsrichtlinien in Microsoft Teams](meeting-policies-in-teams.md)

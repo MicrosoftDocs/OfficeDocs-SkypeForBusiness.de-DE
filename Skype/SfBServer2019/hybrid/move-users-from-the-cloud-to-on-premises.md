@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Erfahren Sie, wie Benutzer lokal von Skype für Business Online zu verschieben.
-ms.openlocfilehash: fadb3a485cac691a97f0786aea78000b6b48c344
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 7032e7f2968b7861a7fac199fd8ba949980fe770
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27247665"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530943"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Verschieben Sie Benutzer aus der Cloud, um lokal 
 
@@ -35,7 +35,7 @@ Falls erforderlich, können Sie ein Benutzer, der zuvor von lokal in die Cloud m
 Nachdem Sie einen Benutzer aus der Cloud wieder auf lokal verschieben:
 
 - Der Benutzer interagiert mit Ihrer Skype für Business Server-Bereitstellung für seine Funktionalität. 
-- Alle Kontakte, die in Skype für Business Online vorhanden war, werden wieder in Skype für Business Server migriert. Derzeit werden Kontakte, die in Teams sind nicht wieder auf lokal migriert.
+- Alle Kontakte, die in beiden Skype für Business Online oder Teams vorhanden war, werden in Skype für Business Server migriert. Die zwei Gruppen von Kontakten zusammengeführt und anschließend wieder auf lokal migriert.  Darüber hinaus werden die Kontakte, die bereits vorhandenen in Teams sind in Teams.
 - Wenn der Benutzer auch Teams verwendet wird, haben sie nicht die Möglichkeit für die Zusammenarbeit mit Skype für Unternehmensbenutzer, noch werden sie mit Benutzern in Partnerorganisationen miteinander kommunizieren können.
 - Besprechungen in Skype für Business Online handelt es sich *nicht* automatisch wieder auf lokal migriert. Benutzer verwenden entweder neu zu sollte ihre Besprechungen planen oder, falls gewünscht, Sie das [Migrationstool der Besprechung](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
 
@@ -82,4 +82,4 @@ Alternativ zu einer anderen Instanz von TeamsUpgradePolicy zuweisen, die keinen 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+Move-CsUser
