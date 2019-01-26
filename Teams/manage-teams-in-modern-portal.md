@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: Informationen Sie zum Anzeigen oder aktualisieren Ihren Teams im Microsoft-Teams & Skype für Business Admin Center.
+description: Informationen Sie zum Anzeigen oder aktualisieren Ihren Teams bei der in der Microsoft-Teams & Skype für Business Admin Center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14ab474289e5a677e1125df7146ba7c5a6fc2ca1
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: 210824858d953a99844817b3ef27265626d91928
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539057"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562783"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Verwalten von Teams in der Microsoft-Teams & Skype für Business Admin Center
 ==========================================
@@ -29,7 +29,7 @@ ms.locfileid: "26539057"
 
 ## <a name="overview"></a>Übersicht
 
-Als IT-Administrator müssen Sie anzeigen oder Aktualisieren der Teams, die Ihre Organisation für die Zusammenarbeit, oder Sie eingerichtet wurde möglicherweise Remediation-Aktionen wie dem Zuweisen der Besitzer für eigentümerloser Teams ausführen müssen. Sie können die in Ihrer Organisation über die Microsoft-Teams PowerShell-Modul und an den Microsoft-Teams & die Skype für Business Admin Center verwendeten Teams verwalten. Für vollständige Administration diese zwei Toolsets verwenden sollten Sie sicherstellen, dass Sie eine der folgenden Rollen zugewiesen werden:
+Als IT-Administrator müssen Sie anzeigen oder Aktualisieren der Teams, die Ihre Organisation für die Zusammenarbeit, oder Sie eingerichtet wurde möglicherweise Remediation-Aktionen wie dem Zuweisen der Besitzer für eigentümerloser Teams ausführen müssen. Sie können die in Ihrer Organisation über die Microsoft-Teams PowerShell-Modul und die Microsoft-Teams & Skype für Business Admin Center verwendeten Teams verwalten. Für vollständige Administration diese zwei Toolsets verwenden sollten Sie sicherstellen, dass Sie eine der folgenden Rollen zugewiesen werden:
 
 - Globaler Administrator
 - Teams-Dienstadministrator
@@ -40,7 +40,7 @@ Dieser Artikel enthält eine Übersicht über die Verwaltungstools für Teams in
 
 ## <a name="teams-overview-grid"></a>Teams Übersichtsraster
 
-Verwaltungstools für Teams sind unter dem Knoten **Teams** im Microsoft-Teams & Skype für Business Admin Center. (Wählen Sie in der Verwaltungskonsole **Teams** > **Verwalten Teams**.) Jedes Team wird von einer Office 365-Gruppe, und dieser Knoten bietet einen Überblick über die Gruppen, die Microsoft-Teams in Ihrer Organisation aktiviert wurden.
+Verwaltungstools für Teams sind unter dem Knoten **Teams** in der Microsoft-Teams & Skype für Business Admin Center. (Wählen Sie in der Verwaltungskonsole **Teams** > **Verwalten Teams**.) Jedes Team wird von einer Office 365-Gruppe, und dieser Knoten bietet einen Überblick über die Gruppen, die Microsoft-Teams in Ihrer Organisation aktiviert wurden.
 
 > [!NOTE]
 > Es werden gerade abgleichen, die zuvor erstellte Teams, um sicherzustellen, dass sie in dieser Ansicht angezeigt werden.
@@ -89,6 +89,30 @@ Sie können die folgenden Elemente eines Teams ändern:
 
 
 Die Änderungen, die Sie ein Team stellen angemeldet sind. Wenn Sie Clientgruppen (Ändern der Name, Beschreibung, Foto, private, Klassifizierung oder Teammitglieder) ändern, werden diese Änderungen an Sie über die Pipeline Audit Ergebnisarray als Attribut zugewiesen werden. Falls Sie Aktionen für Teams-spezifischen Einstellungen ausführen, werden die Änderungen nachverfolgt und Ergebnisarray als Attribut zugewiesen, die Sie im Allgemeinen Kanal des Teams.
+
+## <a name="troubleshooting"></a>Problembehandlung
+
+**Problem: Teams fehlende aus dem Team Übersichtsraster**
+
+Wenn Sie die Microsoft-Teams & Skype für Business Admin Center eingeben, fehlen unter der Option **Teams** einige Ihrer Teams aus der Liste im Raster Übersicht Teams.
+
+**Ursache**: Dieses Problem tritt auf, wenn das Team falsch (oder noch nicht) vom System ein Profil erstellt wurde die eine fehlende-Eigenschaft erkannt werden führen können.
+
+**Lösung: Legen Sie die-Eigenschaft manuell auf den richtigen Wert über MS Graph**
+
+Ersetzen Sie mit dem Cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** **{Groupid}** in der Abfrage für die tatsächliche GroupId bezieht, die Sie über die Exchange Online Powershell abrufen können, wie das Attribut "**ExternalDirectoryObjectId**".
+
+1. Access- [Diagramm-Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+
+2. Melden Sie sich bei Diagramm Explorer im Menü links
+
+3. Ändern der Abfragezeile an: PATCH > v1. 0 >https://graph.microsoft.com/v1.0/groups/{groupid}
+
+4. Fügen Sie den folgenden Wert auf den Text der Anforderung: {"ResourceProvisioningOptions": ["Team"]}
+
+5. Führen Sie die Abfrage, auf der rechten oberen Ecke.
+
+6. Bestätigen Sie, dass das Team wieder auf der Microsoft-Teams & Skype für Business Admin Center - ordnungsgemäß angezeigt wird Team (Übersicht)
 
 
 ## <a name="learn-more"></a>Weitere Informationen

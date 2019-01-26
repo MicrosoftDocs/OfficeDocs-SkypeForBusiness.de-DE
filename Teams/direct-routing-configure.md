@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 565d25566843a507cb875eb96f32531d2ee77caf
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729444"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562823"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -57,7 +57,7 @@ Eine PowerShell-Sitzung mit dem Mandanten verbunden können Sie den SBC mit der 
 Nachdem Sie eine PowerShell-Remotesitzung eingerichtet haben, überprüfen Sie, dass Sie die Befehle zum Verwalten des SBC sehen können. Um die Befehle zu überprüfen, geben Sie ein oder kopieren und Einfügen in der folgenden in der PowerShell-Sitzung und drücken Sie die EINGABETASTE: 
 
 ```
-gcm *onlinePSTNGateway*
+Get-Command *onlinePSTNGateway*
 ```
 
 Der Befehl gibt die hier gezeigten vier Funktionen zurück, mit der Sie den SBC verwalten können. 

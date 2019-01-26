@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ee02c2d8b8303bb353c2ebf1e30a72cc0e4f17
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349389"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562799"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -165,7 +165,7 @@ Updates für Teams werden automatisch an Ihre Benutzer eingeführt. Die Benutzer
 
 ### <a name="monitoring-for-change"></a>Überwachung für Änderung
 
-Der erste Schritt beim Änderungsmanagement überwacht die Änderungen, die für Teams geplant werden. Die beste Quelle für die Überwachung diese Änderungen ist [Wegweiser für Office 365](https://products.office.com/business/office-365-roadmap), die Features aufgeführt, die derzeit in der Entwicklung an Ihre Kunden eingeführt werden oder komplett gestartet haben. Sie können mithilfe des Filters für Teams-spezifischen Features suchen oder können Sie der Übersicht über die auf einer Excel-Datei zur weiteren Analyse herunterladen. Für jedes Feature bietet der Übersicht über die eine kurze Beschreibung, zusammen mit der erwarteten Veröffentlichungsdatum.
+Der erste Schritt beim Änderungsmanagement überwacht die Änderungen, die für Teams geplant werden. Die beste Quelle für die Überwachung diese Änderungen ist [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap), die Features aufgeführt, die derzeit in der Entwicklung an Ihre Kunden eingeführt werden oder komplett gestartet haben. Sie können mithilfe des Filters für Teams-spezifischen Features suchen oder können Sie der Übersicht über die auf einer Excel-Datei zur weiteren Analyse herunterladen. Für jedes Feature bietet der Übersicht über die eine kurze Beschreibung, zusammen mit der erwarteten Veröffentlichungsdatum.
 
 Im [Blog des Microsoft-Teams,](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)erhalten Sie Informationen zu bewährten Methoden, Trends und Neuigkeiten zu Teams Produktupdates. Erwarten Sie wichtiges Feature Updates für Teams hier vorgestellt. Sie können auch den Blog über einen RSS-feed abonnieren. Anschließend können Sie [den RSS-feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) direkt in einem Kanal Teams hinzufügen, damit alle wichtigen News direkt in Teams gesendet wird.
 

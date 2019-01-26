@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft-Partner mit ausgewählten SBC-Anbietern ihre SBCs Zertifizierung arbeiten mit direktem Routing.
-ms.openlocfilehash: 0230828c9aef49f8979c30d19c1d2d5e15779d84
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 611c7a4b7315b2c463ffffe8166eaeee7b6b7b7a
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326843"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562768"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -60,7 +60,7 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Steht noch aus    |      V7.0.2      |
 |                                                                                                                     |    SBC Schwedisch Lite     |     &#10004;     |   Steht noch aus    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Steht noch aus    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Steht noch aus    |   Steht noch aus  |   Steht noch aus    |
-|                                                                                                                     |      AP 4600         |    Steht noch aus    |   Steht noch aus    |      Steht noch aus      |
-|                                                                                                                     |      VME             |    Steht noch aus    |   Steht noch aus    |      Steht noch aus      |
+|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |    &#10004;     |   Steht noch aus  |   ECZ8.1.0 MR-1, GA (Build 145)  |
+|                                                                                                                     |      AP 4600         |    &#10004;   |   Steht noch aus    |     ECZ8.1.0 MR-1, GA (Build 145)  |
+|                                                                                                                     |      VME             |    &#10004;    |   Steht noch aus    |     ECZ8.1.0 MR-1, GA (Build 145)     |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Steht noch aus    |      V3.16.2      |

@@ -13,15 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c53b5eec6b332c820d827993e322f211c8a6dd
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: 2af8872253e2962322712a013cb3043a7da2d81b
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716343"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562629"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 =================================================
+
+> [!Tip]
+> Sehen Sie sich die folgenden Sitzung erfahren, wie Sie Teams nutzt Ihr Netzwerk und am besten für die optimale Netzwerkkonnektivität planen: [Teams Netzwerkplanung](https://aka.ms/teams-networking)
+
 
 Microsoft Teams kombiniert drei Arten von Datenverkehr:
 

@@ -13,14 +13,17 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Beschreibt, wie Teams Arbeitslast für Office 365 fließt in verschiedenen Topologien verwendet.
-ms.openlocfilehash: 7bb107d58290798a2f075f4c789b788c6b5080f2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013619"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562807"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Microsoft-Teams, Online aufrufen fließt
+
+> [!Tip]
+> Sehen Sie sich die folgenden Sitzung erfahren, wie Sie Teams nutzt Ihr Netzwerk und am besten für die optimale Netzwerkkonnektivität planen: [Teams Netzwerkplanung](https://aka.ms/teams-networking)
 
 ## <a name="overview"></a>Übersicht
 In diesem Dokument wird beschrieben, wie Teams Arbeitslast für Office 365 fließt in verschiedenen Topologien verwendet. Darüber hinaus gibt es eindeutige Teams Abläufe, die für die Peer-to-Peer-medienkommunikation verwendet werden. Das Dokument listet diese Datenströme und beschreibt deren Zweck und ihren Ursprung-Beendigung Netzwerken. Beispielsweise Fluss X wird vom Office 365-Client lokal verwendet, um die Kommunikation mit Office 365-Dienst in der Cloud, stammt aus dem Netzwerk Kunden und durch einen Endpunkt in Office 365-Cloud beendet und Ablauf Y wird vom Office 365-Client lokal verwendet, um die Kommunikation mit ein Dienst auf dem Internet, die Office 365 abhängig, ist vom Netzwerk Kunden stammt, und wird durch einen Endpunkt im Internet beendet.

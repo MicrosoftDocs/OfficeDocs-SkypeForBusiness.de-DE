@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a5a75d31b06976cd59d40f189fc87bf96c316e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348906"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562605"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -51,5 +51,6 @@ Der Lebenszyklus von einer bestimmten Technologie hat einen dynamischen Wachstum
 
 - Überwachen der Teams [Roadmap](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams).
 - Implementieren Sie eine Änderung Planung Formular (wie unten dargestellt) zum Vorbereiten und neuen Funktionen zu implementieren. Achten Sie darauf, dass Sie technische und User Readiness Aktivitäten umfassen.
+
 
 ![Beispielformular erwartete Veröffentlichungsdaten und Hinweise zu neuen Funktionen, mit dem nächsten Schritte und Besitzer aufgeführt anzeigt] (media/upgrade-change-plan-form.png "Beispielformular erwartete Veröffentlichungsdaten und Hinweise zu neuen Funktionen, mit dem nächsten Schritte und Besitzer aufgeführt anzeigt")

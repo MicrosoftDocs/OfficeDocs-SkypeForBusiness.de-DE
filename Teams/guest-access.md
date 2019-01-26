@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b77af005130a4e3783f69c908184a8e19b44a9c5
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: f15aeaec8ed894cf25e72c8494aed3ae36070992
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772793"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562621"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -44,7 +44,7 @@ Der Gastzugriff ist eine Einstellung auf Mandantenebene in Microsoft Teams, die 
 
 ## <a name="who-is-a-guest"></a>Wer ist Gastsystem?
 
-Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jeder Benutzer, der nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Dies bedeutet, dass jeder Benutzer mit einer Business-Konto (d. h., ein Azure Active Directory-Konto) oder die Consumer e-Mail-Konto (mit Outlook.com, Gmail.com oder andere) als Gast in Teams, mit Vollzugriff auf den Teams teilnehmen kann und Channel guter. (Sie können über Gast Einschränkungen in [Access Gast autorisieren Microsoft-Teams](teams-dependencies.md)lesen.) Alle Gäste in Teams unterliegen den gleichen Einhaltung von Vorschriften und Überwachung Schutz als den Rest von Office 365 und in Azure AD sicher verwaltet werden können. 
+Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jeder Benutzer, der nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Dies bedeutet, dass jeder Benutzer mit einer Business-Konto (d. h., ein Azure Active Directory-Konto) oder die Consumer e-Mail-Konto (mit Outlook.com, Gmail.com oder andere) als Gast in Teams, mit Vollzugriff auf den Teams teilnehmen kann und Channel guter. (Sie können über Gast Einschränkungen in [Access Gast autorisieren Microsoft-Teams](teams-dependencies.md)lesen.) Alle Gäste in Teams unterliegen den gleichen Einhaltung von Vorschriften und Überwachung Schutz als den Rest von Office 365 und in Azure AD sicher verwaltet werden können.
 
 ## <a name="why-use-guest-access"></a>Gründe für die Verwendung von Access Gast
       
