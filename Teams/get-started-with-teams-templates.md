@@ -1,9 +1,9 @@
 ---
-title: Erste Schritte mit Teams Vorlagen
+title: Erste Schritte mit Microsoft Teams-Vorlagen
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/10/2019
+ms.date: 01/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,14 +16,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ead0a3dc9e27b90c49808bcece0aab39bf01f13a
-ms.sourcegitcommit: 4c5b9e8c4bdb1187d610209d365680702d4372fd
+ms.openlocfilehash: d6b5059e5c0a4a7f49553758762905a1a3523389
+ms.sourcegitcommit: bb5fe98e73a794eb8154551a40276d9cd68bc2af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27801464"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29603802"
 ---
-# <a name="get-started-with-teams-templates"></a>Erste Schritte mit Teams Vorlagen 
+# <a name="get-started-with-teams-templates"></a>Erste Schritte mit Microsoft Teams-Vorlagen 
 
 Teams Vorlagen werden vor dem Definitionen von ein Team Struktur entwickelt, um eine geschäftlicher Bedarf oder ein Projekt erstellt. Vorlagen für Teams können schnell und erstellen umfassender Zusammenarbeit Leerzeichen mit Kanäle für verschiedene Themen und Vorinstallieren von apps in unternehmenswichtige Inhalte und Dienste abrufen. Teams Vorlagen bieten eine vordefinierte Teamstruktur, die Sie auf einfache Weise konsistent Teams innerhalb Ihrer Organisation helfen. 
 
@@ -58,178 +58,23 @@ Basisvorlage Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branche
 
 Nachdem ein Basisvorlage Typ definiert ist, können Sie erweitern oder außer Kraft setzen diese speziellen Vorlagen mit zusätzlichen Eigenschaften, die Sie angeben möchten. Jedoch einige Basisvorlage Typen enthalten Eigenschaften, die nicht überschrieben werden können. 
 
-Standardmäßig ist die Basisvorlage auf **Standard** festgelegt, die keine zusätzlichen proprietäre apps oder spezielle Eigenschaften enthält. Unten ist die aktuelle Liste der Typen Basis Vorlagen verfügbar.
+Standardmäßig ist die Basisvorlage auf **Standard** festgelegt, die keine zusätzlichen proprietäre apps oder spezielle Eigenschaften enthält. Unten ist die aktuelle Liste der Typen Basisvorlage verfügbar.
 
-| Basisvorlage-Typ | baseTemplateId | Basisvorlage proprietäre apps und spezielle Eigenschaften |
+| Basisvorlage-Typ | baseTemplateId | Eigenschaften, die im Lieferumfang von diese Basisvorlage |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | Keine zusätzliche apps und Eigenschaften |
-| Education- <br>Klasse Team<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Apps:<ul><li>OneNote-Klasse-Notizbuch (angeheftet auf der Registerkarte **Allgemein** ) </li><li>Assignments-app (angeheftet auf der Registerkarte **Allgemein** )</li></ul> Team-Eigenschaften:<ul><li>Legen Sie die Sichtbarkeit Team auf **HiddenMembership** (können nicht überschrieben werden)</li></ul> |
-| Education-<br>Mitarbeiter Team<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Apps:<ul><li>OneNote-Personal-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</li></ul> |
+| Education-<br>Klasse-Team | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Apps:<ul><li>OneNote-Klasse-Notizbuch (angeheftet auf der Registerkarte **Allgemein** ) </li><li>Assignments-app (angeheftet auf der Registerkarte **Allgemein** )</li></ul> Team-Eigenschaften:<ul><li>Legen Sie die Sichtbarkeit Team auf **HiddenMembership** (können nicht überschrieben werden)</li></ul> |
+| Education-<br>Mitarbeiter-Team | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Apps:<ul><li>OneNote-Personal-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</li></ul> |
 |Education-<br>PLC-team |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Apps:<ul><li>OneNote PLC-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</ul></li>|
+| Retail-<br>Anmelden | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften<ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul>Member-Berechtigungen<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul> |
+| Retail-<br>Manager für die Zusammenarbeit | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften:<ul><li>Team Visibility auf Private festgelegt</li></ul>Member-Berechtigungen:<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul>|
+| Gesundheitswesen-<br>Bezirk Wide |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Kanäle: <ul><li>Ansagen\*</li><li>Rufen Sie Lichtquellen</li><li>Hilfreiche Informationen\*</li><li>Huddles\*<li>Planen und Patienten Zählung\*</li><li>-Schulung und-Zertifizierung </li><li>Rundet\*</li></ul>\*Automatische favorisierte Kanäle |
+|Gesundheitswesen-<br>Krankenhaus breit | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Kanäle:<ul><li>Ansagen\*</li><li>Compliance\*</li><li>Freiheitsentziehenden</li><li>Finanzen</li><li>Hilfreiche Informationen\*</li><li>Personalwesen</li><li>Labor</li><li>Patientensicherheit und zur Verbesserung der Qualität\*</li><li>Apotheke</li></ul>\*Automatische favorisierte DDE-Kanal|
 |||
-
-<sup>1</sup> -Publikation in spät Oktober, 2018
 
 > [!NOTE]
 > Wir können Sie Hinzufügen weiterer Basisvorlage Typen in zukünftigen Versionen von Microsoft-Teams, damit die Kontrollkästchen für die aktuellsten Informationen zu Eigenschaften unterstützt.
 
-## <a name="examples"></a>Beispiele 
-
-Sie können die mithilfe einer Vorlage um ein Team erstellen mithilfe der [Microsoft Graph-API](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)starten.
-
-### <a name="create-a-team-from-a-template"></a>Erstellen Sie ein Team aus einer Vorlage
-
-#### <a name="requests"></a>Anfragen
-
-**Erstellen Sie ein Team mit standard Basisvorlage anfordern**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
-  "displayName": "Sample Team",
-  "description": "Sample Team’s Description"
-}
-
-~~~
-
-**Erstellen Sie ein Team mit zusätzlichen einen DDE-Kanal und die nicht Mitglieder löschen Kanäle zulassen**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
-  "displayName": "My Sample Team",
-  "description": "My Sample Team’s Description",
-  "channels": [
-    {
-        "displayName": "Random",
-        "isFavoriteByDefault": true
-    }
-              ],
-    "memberSettings": {
-        "allowDeleteChannels": false
-    }
-}
-
-~~~
-
-**Erstellen Sie ein Team mit allen unterstützten Eigenschaften anfordern**
-
-~~~
-POST /teams
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-{
-    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
-    "visibility": "Private",
-    "displayName": "Sample Engineering Team",
-    "description": "This is a sample engineering team, used to showcase the range of properties 
-supported by this API",
-    "channels": [
-        {
-            "displayName": "Announcements 📢",
-            "isFavoriteByDefault": true,
-            "description": "This is a sample announcements channel that is favorited by default. Use this 
-channel to make important team, product, and service announcements."
-        },
-        {
-            "displayName": "Training 🏋️",
-            "isFavoriteByDefault": true,
-            "description": "This is a sample training channel that is favorited by default and contains an 
-example of pinned website and YouTube tabs.",
-            "tabs": [
-                {
-                    "teamsApp@odata.bind":
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
-                   "name": "A Pinned Website",
-                    "configuration": {
-                        "contentUrl": "https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams"
-                    }
-                },
-                {
-                    "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
-                    "name": "A Pinned YouTube Video",
-                    "configuration": {
-                        "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?
-videoId=X8krAMdGvCQ",
-                        "websiteUrl": "https://www.youtube.com/watch?v=X8krAMdGvCQ"
-                    }
-                }
-            ]
-        },
-        {
-"displayName": "Planning 📅 ",
-            "description": "This is a sample of a channel that is not favorited by default, these channels 
-will appear in the more channels overflow menu.",
-            "isFavoriteByDefault": false
-        },
-        {
-            "displayName": "Issues and Feedback 🐞",
-            "description": "This is a sample of a channel that is not favorited by default, these channels 
-will appear in the more channels overflow menu."
-        }
-    ],
-    "memberSettings": {
-        "allowCreateUpdateChannels": true,
-        "allowDeleteChannels": true,
-        "allowAddRemoveApps": true,
-        "allowCreateUpdateRemoveTabs": true,
-        "allowCreateUpdateRemoveConnectors": true
-    },
-    "guestSettings": {
-        "allowCreateUpdateChannels": false,
-        "allowDeleteChannels": false
-    },
-    "funSettings": {
-        "allowGiphy": true,
-        "giphyContentRating": "Moderate",
-        "allowStickersAndMemes": true,
-        "allowCustomMemes": true
-    },
-    "messagingSettings": {
-        "allowUserEditMessages": true,
-        "allowUserDeleteMessages": true,
-        "allowOwnerDeleteMessages": true,
-        "allowTeamMentions": true,
-        "allowChannelMentions": true
-    },
-    "installedApps": [
-        {
-            "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.vsts')"
-        },
-        {
-            "teamsApp@odata.bind": 
-"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('1542629c-01b3-4a6d-8f76-1938b779e48d')"
-        }
-    ]
-}
-~~~
-
-### <a name="get-status"></a>Abrufen des status
-
-#### <a name="request"></a>Anforderung
-
-~~~
-GET   /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
-Authorization: Bearer <TOKEN>
-~~~
-
-#### <a name="response"></a>Reaktion
-
-~~~
-HTTP/1.1 200 OK
-Content-Type: application/json
-{
-    "status": "[InProgress|Completed|Cancelled|Failed]"
-}
-~~~
 
 ## <a name="related-topics"></a>Verwandte Themen
 
