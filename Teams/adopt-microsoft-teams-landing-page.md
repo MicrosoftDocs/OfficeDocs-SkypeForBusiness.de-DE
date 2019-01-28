@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: 41b2b503e9a3a0f3e5957879e99ffb431596d1ee
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264910"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594342"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
 
-Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit Chat begonnen werden soll, Teams & Kanäle und Besprechungen, unsere zielgerichtete verwenden [Abrufen Schritte Anleitungen](get-started-with-teams-landing-page.md), dem Sie schnell erhalten soll. Wenn Sie eine große Organisation mit einer hybriden sind oder lokalen Skype für die Business-Konfiguration, oder wenn Sie VoIP-Funktionen (wie Office 365-Pläne oder Telefonsystem aufrufen) bereitstellen möchten, können Sie mit beginnen unsere Get gestartet, Anleitungen, aber Sie benötigen die zusätzlichen Anleitung unten unter **tiefer Annahme Anweisungen**.
+Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit Chat begonnen werden soll, Teams & Kanäle und Besprechungen, unsere zielgerichtete verwenden [Abrufen Schritte Anleitungen](get-started-with-teams-quick-start.md), dem Sie schnell erhalten soll. Wenn Sie eine große Organisation mit einer hybriden sind oder lokalen Skype für die Business-Konfiguration, oder wenn Sie VoIP-Funktionen (wie Office 365-Pläne oder Telefonsystem aufrufen) bereitstellen möchten, können Sie mit beginnen unsere Get gestartet, Anleitungen, aber Sie benötigen die zusätzlichen Anleitung unten unter **tiefer Annahme Anweisungen**.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -109,7 +109,7 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Schulung und-Zertifizierung</h3>
+                        <h3>Schulung &-Zertifizierung (engl.)</h3>
                     </div>
                 </div>
             </div>

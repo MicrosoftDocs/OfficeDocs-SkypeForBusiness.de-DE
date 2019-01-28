@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: a4a839e7f903e232a3ebfe76056cfb97f2bc8219
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26670931"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594110"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -51,7 +51,7 @@ Die **Allgemeine DDE-Kanal** ist für Sie bei der Erstellung des Teams standardm
 -  Verwenden sie für ansagen, oder konfigurieren Sie den Connector SharePoint News, um Ihre modernen Statusberichte zu diesem Channel buchen.  
 -  Für neue oder einzelnen Zweck Teams kann es am Anfang der einzige Kanal sein, wie Sie entscheiden, wie Teams Ihre Ziele am besten unterstützen können.
 
-Derzeit können nicht entfernt oder Markierung als Favorit aufheben der allgemeinen Kanal. Beim Benennen von Kanäle, denken Sie daran, dass die Kanäle nach den allgemeinen DDE-Kanal alphabetisch sortiert.  Verwenden Sie in Teams mit viele Kanäle das Feature "Favoriten einen Kanal" die Kanäle steuern Sie automatisch beim Navigieren zu dem Team. 
+Derzeit können nicht entfernt oder Markierung als Favorit aufheben der allgemeinen Kanal. Beim Benennen von Kanäle, denken Sie daran, dass die Kanäle nach den allgemeinen DDE-Kanal alphabetisch sortiert. Verwenden Sie in Teams mit viele Kanäle das Feature "Favoriten einen Kanal" die Kanäle steuern Sie automatisch beim Navigieren zu dem Team. 
 
 Weitere Informationen zu [Arbeitszeiten in Kanälen](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) mit diesen Tipps für Endbenutzer. 
 

@@ -1,8 +1,8 @@
 ---
 title: Liste der für direktes Routing zertifizierten Session Border Controller
-ms.author: jambirk
+ms.author: crowe
 ms.reviewer: NMuravlyannikov
-author: jambirk
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft-Partner mit ausgewählten SBC-Anbietern ihre SBCs Zertifizierung arbeiten mit direktem Routing.
-ms.openlocfilehash: 611c7a4b7315b2c463ffffe8166eaeee7b6b7b7a
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: cf62dd1d19ec5404bda756b190502e00078d80db
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562768"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594174"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 

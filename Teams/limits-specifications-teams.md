@@ -13,17 +13,17 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a41333956458b3db36a13b9133c1cabcc163d
-ms.sourcegitcommit: ee8996ce081039f61c070f5b0b3fd6294ea4a5f5
+ms.openlocfilehash: 65f3730cdb6ad8fbca6e8f665c5ce7e919c690e4
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "29561991"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594118"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limits und Spezifikationen für Microsoft Teams
 =============================================
 
-Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und anderen Anforderungen für Microsoft-Teams. 
+Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und anderen Anforderungen für Teams. 
 
 <a name="teams-and-channels"></a>Teams und Kanäle 
 ------------------

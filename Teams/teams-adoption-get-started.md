@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75cecfd5050ce964fd7b2dbc9dff97da2fb920b3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 1817e11e0b628625aa1ae35695f60e2b80c4ab3c
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699749"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594262"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Erste Schritte beim Einführen von Microsoft Teams
 
@@ -30,7 +30,7 @@ Durch die Annahme der Microsoft-Teams, fahren, bietet eine hervorragende Benutze
 
 Stellen Sie bevor Sie beginnen sicher:
 
-- In der Umgebung werden [Teams ist aktiviert](quick-start-enable-teams.md) und Lizenzen zugewiesen. Eine minimale Lizenzen sollten zugewiesen werden an Ihr Team Core und frühen Anwender, die in dieser Phase des Projekts einbezogen werden sollen.
+- [Teams ist installiert](get-clients.md) und in Ihrer Umgebung [Lizenzen zugewiesen sind](office-365-licensing.md) . Eine minimale Lizenzen sollten zugewiesen werden an Ihr Team Core und frühen Anwender, die in dieser Phase des Projekts einbezogen werden sollen.
 
 - Sie haben die Desktop- und mobilen Anwendungen heruntergeladen haben. 
 

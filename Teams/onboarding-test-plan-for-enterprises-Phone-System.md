@@ -1,5 +1,5 @@
 ---
-title: Enterprise Testplan für Telefonsystem mit Aufrufen plant in Microsoft-Teams
+title: Enterprise-Testplan für Telefonsysteme mit Anrufplänen in Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694790"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594062"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihr Telefonsystem mit Aufrufen plant in Plan zum Testen von Teams für Unternehmen 
 ============================================================================================
@@ -72,8 +72,8 @@ Sie bei der Vorbereitung für die Auswertung Telefonsystem Funktionen aufrufen p
 <a name="define-phone-system-with-calling-plans-feature-requirements"></a>Definieren von Telefonsystem mit Aufrufen plant Feature Anforderungen 
 ------------------------------------------------------------
 
-Als Teil der Definition von Telefonsystem mit Aufrufen plant Feature Anforderungen für Benutzer im Gültigkeitsbereich wurde eine erste Schritte, die Sie während der Phase der Ermitteln übergeordneter Faktoren abgeschlossen haben, sollte der [Rolle Analyse](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness), in dem Sie Ihr Telefonsystem mit Aufrufen plant definiert Rolle und Szenarios.
-Im nächste Schritt werden mit dieser Baseline identifiziert bewerten die neueste Teams öffentliche Roadmap, um zu bestimmen:
+Als Teil des Telefonsystem mit Aufrufen plant Feature Anforderungen für Benutzer im Gültigkeitsbereich definieren finden Sie unter [Telefonsystem mit plant aufrufen](calling-plan-landing-page.md).
+Im nächsten Schritt bewerten Sie die neueste Teams öffentliche Roadmap, um zu bestimmen:
 
 -   Welche Telefonsystem mit Aufrufen plant Features, die Sie für Benutzer im Gültigkeitsbereich bereitstellen können.
 

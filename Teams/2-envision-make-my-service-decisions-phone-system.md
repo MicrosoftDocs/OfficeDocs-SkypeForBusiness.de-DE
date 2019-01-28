@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694759"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593966"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -135,7 +135,7 @@ Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist
 >[!NOTE]
 > Als Ausweichmechanismus kann Voicemail für Telefonsysteme Nachrichten über SMTP erneut senden. Das bedeutet, dass Benutzer mit einem Postfach in einem E-Mail-System eines Drittanbieters ihre Voicemailnachrichten erhalten. Dieser Mechanismus umfasst nicht garantiert Service Betriebszeit oder andere Voicemail-Features, beispielsweise Voicemail-Ansage ändern.
 
-Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Azure PBX-Voicemail für Exchange Server unterstützt](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
+Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Telefonsystem mit plant aufrufen](calling-plan-landing-page.md).
 
 <br>
 

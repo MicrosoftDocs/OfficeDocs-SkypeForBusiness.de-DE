@@ -12,12 +12,12 @@ description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funkt
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015333"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594198"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -61,7 +61,7 @@ In der Standardeinstellung kann Person im Unternehmen Inhalte in Stream-Objekt e
 
 Wenn ein Administrator Microsoft Stream [Unternehmensrichtlinie Richtlinie eingerichtet](https://docs.microsoft.com/stream/company-policy-and-consent) wurde und Mitarbeiter dieser Richtlinie zu akzeptieren erfordert, bevor das Speichern von Inhalten, müssen Benutzer vor der Aufzeichnung in Microsoft-Teams, dafür. Bevor Sie die Aufzeichnungsfunktion in der Organisation bereitstellen, stellen Sie sicher, dass Benutzer die Richtlinie zugestimmt haben.
 
-### <a name="enabledisable-cloud-recording-for-users"></a>Deaktivieren Sie Cloud für Benutzer Aufzeichnung aktivieren /
+### <a name="turn-on-or-turn-off-cloud-recording"></a>Aktivieren oder Deaktivieren der Cloud aufzeichnen
 
 Verwenden Sie die Einstellung AllowCloudRecording in TeamsMeetingPolicy in Teams PowerShell Kontrolle, ob ein Benutzer Besprechungen zulässig sind oder nicht aufgezeichnet werden sollen. Weitere Informationen finden Sie Informationen zum Verwalten von TeamsMeetingPolicy mit Office 365 PowerShell [hier](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
@@ -86,7 +86,7 @@ Um Wert der AllowCloudRecording in der globalen Richtlinie zu ändern, verwenden
 |      Ich möchte aufzeichnen, wenn Sie für die meisten Benutzer deaktiviert werden jedoch bestimmte Benutzer, die berechtigt sind, so zeichnen Sie selektiv zu aktivieren       | <ol><li>Bestätigen Sie globale CsTeamsMeetingPolicy hat AllowCloudRecording = False<li>Die Mehrheit der Benutzer die globale CsTeamsMeetingPolicy oder eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording gewährt wurden = False<li>Alle anderen Benutzer gewährt wurden eine der Richtlinien CsTeamsMeetingPolicy mit AllowCloudRecording = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
-### <a name="enabledisable-recording-transcription-for-users"></a>Aktivieren/Deaktivieren der Aufzeichnung Lautschrift für Benutzer
+### <a name="turn-on-or-turn-off-recording-transcription"></a>Aktivieren Sie oder deaktivieren Sie der Aufzeichnung Lautschrift
 
 Wenn Benutzer ihren Teams Besprechungen aufzeichnen, können sie überprüfen, ob um eine Kopie automatisch generiert werden soll, nachdem die Besprechung aufgezeichnet wird. Wenn Administratoren Lautschrift-Funktion für den Organisator der Besprechung und der Initiator Aufzeichnung deaktiviert haben, erhalten der Initiator Aufzeichnung keine Entscheidung für die besprechungsaufzeichnungen aufzuzeichnen.
 

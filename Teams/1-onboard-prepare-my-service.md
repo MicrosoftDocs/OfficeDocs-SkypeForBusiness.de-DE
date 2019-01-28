@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374317"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593934"
 ---
 # <a name="prepare-my-service"></a>Meine Service vorbereiten
 
@@ -41,7 +41,7 @@ Die folgenden Prüflisten führen Sie durch die Schritte für die Implementierun
 Die Aufgaben und Aktivitäten in dieser Prüflisten sind die Core "Aufgabe" Elemente, die in jeder Bereitstellung von Cloud-Sprachfunktionen mit Teams liegen. Sie können die Prüflisten zum Einschließen von Aktivitäten und Aufgaben, die speziell für Ihre eigenen Teams Reise anpassen.
 
 >[!NOTE]
->Diese Anleitung konzentriert sich ausschließlich auf aufrufen plant, Audiokonferenzen und direkte Routing. Wenn Sie neue Teams sind, überprüfen Sie die [Übersicht der Microsoft-Teams](teams-overview.md). Allgemeine Richtlinien zum Planen der Bereitstellung von Teams finden Sie im [Planungshandbuch für Microsoft Teams](quick-start-enable-teams.md).
+>Diese Anleitung konzentriert sich ausschließlich auf aufrufen plant, Audiokonferenzen und direkte Routing. Wenn Sie neue Teams sind, überprüfen Sie die [Übersicht der Microsoft-Teams](teams-overview.md). Starten Sie als allgemeinen Leitfaden zum Planen der Bereitstellung von Teams mit [Chat bereitstellen, Teams, Kanäle und apps im Microsoft-Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Verwenden Sie die bereitgestellten Prüflisten zum Nachverfolgen des Status der jede einzelne Aktivität und jede Aufgabe, und um sicherzustellen, dass Sie alle wichtigen Schritte übersprungen noch nicht. Jede Aktivität enthält eine ausführliche Beschreibung der erforderlichen Aktionen und Verweise auf zusätzliche Informationen, die Sie verwenden können, um diese Aktivität abgeschlossen haben.
 
@@ -50,7 +50,7 @@ Obwohl es wird empfohlen, dass Sie die Prüflisten in Reihenfolge ausführen, wi
 Wenn Sie Onboarding-Benutzer auf eine Websitebasis sind, empfehlen wir nachdrücklich für die Verwendung der [Website Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) als zusätzliche Anleitung zu dieser Prüflisten.
 
 >[!NOTE]
->Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Sie verwenden das Office 365 Admin Center und Teams & Skype für Business Admin Center, um diese Einstellungen konfigurieren.
+>Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Verwenden Sie die Office 365 Admin Center und Teams & Skype für Business Admin Center, um diese Einstellungen zu konfigurieren.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Aufsicht über den Abschluss der Onboarding Prüflisten zuständig sein?</li></ul></td></tr>
@@ -114,18 +114,18 @@ Weitere Informationen finden Sie unter:
 
 - [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
 
-- [Technische Telefonsystem mit dem Aufrufen der Pläne planen](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+- [Technische Telefonsystem mit dem Aufrufen der Pläne planen](calling-plan-landing-page.md)
 
 - [Einrichten von Aufrufen Pläne für Skype für Unternehmen und die Microsoft-Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-- [Planen der direkten Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
+- [Planen von direktem Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
-- [Konfigurieren der Weiterleitung von direkten](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+- [Konfigurieren von direktem Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
 ### <a name="execute-the-test-plan"></a>Führen Sie den Testplan
 
 [//]: # (Okay bearbeiten? "User" erschien mir etwas nicht eindeutig.)
-Nachdem die Umgebung des Benutzers und der Dienst konfiguriert haben, enthält der letzte Schritt testen Test Plan Ausführung mit Fokus auf Features und Funktionen Überprüfung. 
+Nachdem die Umgebung des Benutzers und der Dienst konfiguriert haben, enthält der letzte Schritt testen Test Plan Ausführung mit Fokus auf Features und Funktionen Überprüfung. 
 
 **Audiokonferenzen Voraussetzungen und Annahmen für Benutzer und Standorte im Bereich testen:**
 
@@ -137,7 +137,7 @@ Nachdem die Umgebung des Benutzers und der Dienst konfiguriert haben, enthält d
 
 -   Die Liste der dedizierten und freigegebene Audiokonferenz einwählen und Nummern mit bevorzugte Sprache identifiziert und konfiguriert wurden.
 
--   [Communications haben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
+-   [Communications haben](what-are-communications-credits.md) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
 
 -   Live Meeting-Konferenz Bridge audioeinstellungen wurden identifiziert und konfiguriert (PIN-Mindestlänge, Eintrag/Exit Benachrichtigungen, Aktivierung Benachrichtigung Option Sie bevorzugen).
 
@@ -155,7 +155,7 @@ Nachdem die Umgebung des Benutzers und der Dienst konfiguriert haben, enthält d
 
 -   Rufnummern, die Benutzern zugewiesen werden wurden erworben oder Microsoft und sind in den Mandanten Portal übertragen.
 
--   [Communications haben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
+-   [Communications haben](what-are-communications-credits.md) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
 
 -   Mandanten Benutzerrichtlinien und Wähleinstellungen, die Pläne aufrufen Szenarios unterstützen haben identifiziert, angewendet und konfiguriert wurden.
 

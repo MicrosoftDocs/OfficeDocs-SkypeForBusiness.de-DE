@@ -8,7 +8,6 @@ ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service:
-- skype-for-business-online
 - msteams
 ms.collection:
 - Adm_Skype4B_Online
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Dieses Thema enthält alle Länder/Regionen Benutzer ausgehende Anrufe an tätigen können, wenn sie einen Aufruf von Plan verfügen.
-ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 6843d06d99e049cdd7576c4c5618c1f5d0297133
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576576"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594326"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Benutzer können ausgehende Anrufe in diese Länder und Regionen tätigen
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532169"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593886"
 ---
 # <a name="enhance-my-service"></a>Meine Service zu verbessern
 
@@ -31,7 +31,7 @@ Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die o
 
 Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie in der Praxis Feedback von Ihren Benutzern und internen Champions erhalten von Feedback Kanäle in Ihrer Organisation herstellen. Diese können werden informelle Unterhaltungen, regelmäßige Besprechungen oder durch eine Teams channel oder Yammer Community. 
 
-Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Besuchen Sie unsere Implementierungsphasen (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
+Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Laufe [Chat bereitstellen, Teams, Kanäle und apps im Microsoft-Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
 
 
 <table>

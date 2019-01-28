@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bb2ed4352b8a3fa1bfcb4d17527ca2272f06b3c
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 5f93a3ad801e72adaa7514fef83572f7766b0ee6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349279"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594366"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -34,9 +34,9 @@ Nachdem Sie erfolgreich Teams in Ihrer Organisation bereitgestellt haben und den
 
 Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben, erhalten bereitstellen regelmäßiger Updates von uns über neue und geänderte Features über unsere Nachrichtencenter Sie.
 
-Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist. Stellen Sie sicher, dass Sie von Ihren Benutzern und internen Champions Praxis Feedback optimal nutzen, durch die Einrichtung von Feedback Kanäle in Ihrer Organisation. Diese können werden informelle Unterhaltungen, regelmäßige Besprechungen oder durch eine Teams channel oder Yammer Community.
+Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Laufe [Chat bereitstellen, Teams, Kanäle und apps im Microsoft-Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
 
-Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Unsere [Implementierungsphasen](quick-start-enable-teams.md) Laufe und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
+Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Unsere [Implementierungsphasen](deploy-chat-teams-channels-microsoft-teams-landing-page.md) Laufe und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die überwacht werden sollen, öffentliche Roadmaps und anderen Dienst Ankündigungen für neue Features und Dienste, denen von Ihrer Organisation profitieren kann.</li><li>Treffen einer Entscheidung bezüglich der Trittfrequenz, in denen diese neuen Features oder Dienstleistungen Unwichtigstes zurück, die der Verantwortlichen, über Ihre Lenkungsausschuss.</li></ul></td></tr>

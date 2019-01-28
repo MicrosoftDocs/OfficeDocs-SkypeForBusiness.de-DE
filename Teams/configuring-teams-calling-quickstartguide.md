@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1c20f87103dc91a317e58dac03389275b255f2
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 3e66005ca69a08cd0cf944455e73c155d20bfea9
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694697"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593926"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams
 ==============================================================
@@ -30,7 +30,7 @@ Dieses Handbuch soll Ihnen helfen, eine Gruppe von Benutzern vorzubereiten, dami
 Lesen Sie die Ankündigung vom 12. Dezember 2017 zu Anrufplänen in Microsoft Teams: [Der nächste Schritt bei der intelligenten Kommunikation: Anrufe in Microsoft Teams](https://aka.ms/ipyqus).
 
 > [!NOTE]
-> Wir empfehlen, bei der Planung und Umsetzung eines erfolgreichen Rollouts neben diesem Schnellstarthandbuch unsere [praktischen Anleitungen](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans) und [FastTrack](https://aka.ms/cloudvoice) zu nutzen.
+> Es wird empfohlen, die gleichzeitig mit diesem Schnellstart-Handbuch, lesen Sie die [Telefonsystem mit Aufrufen plant](calling-plan-landing-page.md) und [schnelle](https://aka.ms/cloudvoice) zur Planung und Laufwerk eine erfolgreiche Einführung.
 
 Durch Hinzufügen von Anrufplänen – einer Office 365-Funktion, die von Skype for Business unterstützt wird – können Sie jetzt mit Microsoft Teams Festnetz- und Mobiltelefone über das Telefonfestnetz (Public Switched Telephone Network, PSTN) anrufen oder von diesen angerufen werden.
 
@@ -114,7 +114,7 @@ Wenn Sie entscheiden, TeamsOnly-Modus verwenden, können Sie die Benutzermodus K
 
 [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Praktische Anleitungen für Telefonsysteme mit Anrufplänen in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
+[Telefonsystem mit Anrufplänen](calling-plan-landing-page.md)
 
 [PowerShell-Cmdlet-Referenz für Skype for Business](https://docs.microsoft.com/powershell/module/skype)
 
