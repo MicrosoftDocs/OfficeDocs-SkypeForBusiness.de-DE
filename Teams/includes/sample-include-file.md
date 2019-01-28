@@ -1,1 +1,1 @@
-<span data-ttu-id="ede81-101">Beispiel für eine Includedatei – ersetzen Sie diesen Text einfach durch Ihren eigenen.</span><span class="sxs-lookup"><span data-stu-id="ede81-101">Sample include file - just replace this text with your own.</span></span>
+<span data-ttu-id="d42dc-101">Beispiel für eine Includedatei – ersetzen Sie diesen Text einfach durch Ihren eigenen.</span><span class="sxs-lookup"><span data-stu-id="d42dc-101">Sample include file - just replace this text with your own.</span></span>
