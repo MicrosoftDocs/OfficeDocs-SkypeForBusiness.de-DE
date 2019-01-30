@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Informationen Sie zu verschiedenen Kombinationen der Erstellung des Benutzers und welche Kombinationen unterstützt oder nicht unterstützt werden.
-ms.openlocfilehash: 15513b426b37f01749c6253021ebb619385fb61e
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789207"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635724"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
 
@@ -56,16 +56,16 @@ Eine Skype für Business-hybridumgebung mit PSTN-Anbindung bietet Flexibilität 
 
 
 |**Benutzerobjekt in erstellt**  |**Skype für Business Dienstanbieter des Benutzers**|**Client des Benutzers**|**VoIP-option**|**Unterstützt**|
-|---------|---------|---------|---------|--------|
+| ------------ | --------- | --------- | --------- | -------- |
 |Lokal AD| Lokal |Skype for Business   | Enterprise-VoIP   |Ja|
 |Lokal AD|Online| Skype for Business  | Hybrid-VoIP-Konnektivität   |Ja |
 |Lokal AD|Online |Microsoft Teams |Direktes Routing  |Ja |
-|**Nicht unterstützte Kombinationen**    | |         |         |
+|**Nicht unterstützte Kombinationen**    | |         |         |      |
 |Azure AD| Lokale/Online | Skype für Business/Microsoft-Teams|Enterprise-VoIP/Hybrid-VoIP Connectivity/Direct-Routing  |Nein, muss User-Objekt erstellt werden, der lokale AD zuerst |
 |Lokal AD  |Lokal| Microsoft Teams| Enterprise-VoIP/Hybrid-VoIP Connectivity/Direct-Routing   |Nein, Microsoft-Teams, Client nicht mit lokalen Skype für Unternehmen unterstützt |     
-    
-| Lokal AD | Online | Skype für Unternehmen | Direktes Routing | Nein, direkten Routing wird mit nicht unterstützt Skype für Business-Client und Benutzer muss zunächst für Enterprise-VoIP in Skype für Unternehmen aktiviert sein ||   |         |         |         ||
+|Lokal AD  |Online |Skype for Business  | Direktes Routing  |Nein, direkten Routing wird mit nicht unterstützt Skype für Business-Client und Benutzer muss zunächst für Enterprise-VoIP in Skype für Unternehmen aktiviert werden  |
+
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Support-Anweisung für die hybridumgebung mit PSTN
 
-Für alle Benutzer, der Benutzer-Objekts **muss** erstellt werden, in der lokalen AD und synchronisiert auf Azure Active Directory mit dem Tool Azure Active Directory verbinden. Aktivieren von Benutzern für Teams/Skype für Business **wird nicht unterstützt** , wenn das Benutzerobjekt direkt in Azure AD in einer hybridkonfiguration erstellt wird. Für neue Benutzer, wie eine neue Mitarbeiter, wer direkt für Teams aktiviert wird, muss der Benutzer für Skype für Unternehmen für die Business-Verwaltungstools lokal Skype verwenden aktiviert sein. Erstellen von Benutzern in online Skype für Geschäftskunden und Teams ohne ersten ermöglicht es ihnen im lokalen Pool mit Enterprise-VoIP **wird nicht unterstützt**. Zum Aktivieren von Benutzern für Skype für Unternehmen in hybridkonfiguration finden Sie [in diesem Artikel](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) finden Sie weitere Details.
+Für alle Benutzer, der Benutzer-Objekts **muss** erstellt werden, in der lokalen AD und synchronisiert auf Azure Active Directory mit dem Tool Azure Active Directory verbinden. Aktivieren von Benutzern für Teams/Skype für Business **wird nicht unterstützt** , wenn das Benutzerobjekt direkt in Azure AD in einer hybridkonfiguration erstellt wird. Für neue Benutzer, wie eine neue Mitarbeiter, wer direkt für Teams aktiviert wird, muss der Benutzer für Skype aktiviert sein, für die Verwendung von Business lokal Skype für die Business-Verwaltungstools. Erstellen von Benutzern in online Skype für Geschäftskunden und Teams ohne ersten ermöglicht es ihnen im lokalen Pool mit Enterprise-VoIP **wird nicht unterstützt**. Zum Aktivieren von Benutzern für Skype für Unternehmen in hybridkonfiguration finden Sie [in diesem Artikel](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) finden Sie weitere Details.

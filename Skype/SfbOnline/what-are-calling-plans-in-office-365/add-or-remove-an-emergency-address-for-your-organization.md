@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326699"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635754"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen, ändern oder Entfernen einer Notfall Adresse für Ihre Organisation
 
@@ -53,6 +53,8 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
     
     > [!IMPORTANT]
     > Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse legitim und richtig formatiert ist. Es ist möglich, dass eine teilweise korrekte Notfalladresse, wie z. B. ein falsch geschriebener Name einer Stadt, bei der Validierung anerkannt wird. Trotz des Schreibfehlers besteht die Adresse die Validierung, da die Kombination aus falsch geschriebenem Ortsnamen und anderen richtigen Adressangaben ausreicht, um den Anruf an die zuständige Rettungsleitstelle weiterzuleiten. 
+    
+    > Hinweis: In Belgien, Deutschland, Frankreich, Irland, Niederlande und Spanien es ist wichtig, zu verstehen, um erfolgreich eine Rufnummer in Office 365 Setup Adresse in den Speicherort Emergency aktivieren, um die Anzahl zu erwerben verwendet werden soll, müssen übereinstimmen, die Anzahl der Ortsvorwahl der Telefonnummer.
   
     Wenn die Adresse nicht validiert werden kann, können Sie eine manuelle Überprüfungsanforderung senden, indem Sie auf **Eine Anforderung zur Überprüfung senden** klicken, wenn Sie versuchen, eine Adresse in den USA zu validieren, oder klicken Sie auf **Eine Service-Anforderung für Hilfe bei der Adressenvalidierung öffnen**, wenn Sie sich außerhalb der USA befinden.
     
