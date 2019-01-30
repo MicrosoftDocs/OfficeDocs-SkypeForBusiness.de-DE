@@ -3,7 +3,7 @@ title: Erste Schritte mit dem Upgrade von Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/14/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 3881990e6c6906f59ceef2c2c4055399457d6952
+ms.sourcegitcommit: 784dcab3923adec61449b3b901e22a991f0c262d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562760"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29662470"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Erste Schritte mit dem Upgrade von Microsoft Teams
 
@@ -34,6 +34,8 @@ Microsoft empfiehlt Kunden zum Upgraden auf Teams so schnell wie möglich zum Op
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Wie trägt Microsoft Kunden mit ihren Upgrade Teams dazu? 
 
 Microsoft ist ein Commit für den Erfolg, und bietet robuste Anleitungen um ein bewährte, End-to-End-Upgrade Erfolg Framework hilft Ihnen beim Planen und Ausführen des Upgrades für Teams erstellt. Unsere für jede Phase der Upgrade Reise, Handbuch, ob Sie nur erste Schritte sind bei der Planung, Teams zusammen mit Skype für Unternehmen, die bereits ausgeführt oder sind Sie bereit für das upgrade auf Teams.
+
+Um Hilfe zu Ihrem Upgrade Planung und Implementierung zu vereinfachen gehostet werden Microsoft kostenlosen online Training, entwickelt, um schnell machen Sie sich mit unseren Upgrade Framework, freigeben Einblicke in Ihre Benutzer für das Upgrade vorbereiten und richten Sie die verschiedene Koexistenz Optionen kann Ihre Organisation auf dem Weg Teams durchführen. Besuchen Sie uns für ein Upgrade planning Overview Sitzung: [https://aka.ms/Upgrade101](https://aka.ms/upgrade101).
  
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Warum müssen kann ich Anleitungen aktualisieren? Nehmen kann nicht ich nur Delete/Skype für Unternehmen außer Betrieb? 
 
