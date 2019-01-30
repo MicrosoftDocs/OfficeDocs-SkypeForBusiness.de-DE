@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f67a641898ca305662b5ea4b06bf772146a19a9f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595404"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635691"
 ---
 # <a name="microsoft-teams-training"></a>Schulung von Microsoft-Teams
 
@@ -116,7 +116,7 @@ ms.locfileid: "29595404"
                 <div class="card">
                     <div class="cardText">
                         <h3>Annahme Specialist-Zertifizierung</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">Frühe Januar 2019 wir veröffentlicht einen Kurs Specialist-Zertifizierung für Microsoft-Dienst Annahme mit Teams, wurde entwickelt, um Sie wie erfolgreich ist von der Annahme der Microsoft-Dienste in Ihrem Unternehmen zu vermitteln.</a></p>
+                        <p><a href="http://aka.ms/AdoptionCert">Im Januar 2019 frühe veröffentlicht wir einen Kurs Specialist-Zertifizierung für Microsoft-Dienst Annahme mit Teams. Es können Sie wie in Ihrer org Annahme von Microsoft Services Laufwerk vermitteln</a></p>
                     </div>
                 </div>
             </div>
