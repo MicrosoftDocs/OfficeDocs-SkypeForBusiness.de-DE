@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Hier erhalten Sie Informationen zu Skype for Business Cloud Connector Edition, einem als Paket zusammengesetzten Satz von virtuellen Maschinen (VMs), die eine lokale PSTN-Anbindung mit dem Telefonsystem in Office 365 (Cloud-PBX) implementieren.
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676478"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686508"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planen für die Skype for Business Cloud Connector-Edition
 
 Hier erhalten Sie Informationen zu Skype for Business Cloud Connector Edition, einem als Paket zusammengesetzten Satz von virtuellen Maschinen (VMs), die eine lokale PSTN-Anbindung mit dem Telefonsystem in Office 365 (Cloud-PBX) implementieren.
 
-Cloud Connector Edition möglicherweise die richtige Lösung für Ihre Organisation, wenn Sie nicht bereits einer vorhandenen Lync Server oder Skype für Business Server-Bereitstellung verfügen. Wenn Sie weiterhin das Telefonsystem in Office 365-Lösung für Ihr Unternehmen geeignet ist untersuchen sind, finden Sie unter [Planen von Ihrem Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](plan-your-phone-system-cloud-pbx-solution.md).
+Cloud Connector Edition möglicherweise die richtige Lösung für Ihre Organisation, wenn Sie nicht bereits einer vorhandenen Lync Server oder Skype für Business Server-Bereitstellung verfügen. Wenn Sie weiterhin das Telefonsystem in Office 365-Lösung für Ihr Unternehmen geeignet ist untersuchen sind, finden Sie unter [Microsoft Telefonie-Lösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 In diesem Dokument erläutert Cloud Connector Edition-Anforderungen und unterstützten Topologien und hilft Ihnen bei der Planung Ihrer bereitstellungs Cloud Connector Edition. Achten Sie darauf, dass Sie dieses Thema lesen, bevor Sie Ihre Cloud-Connector-Umgebung konfigurieren. Wenn Sie bereit sind, bereitstellen und Konfigurieren von Cloud-Connector Edition finden Sie [Konfigurieren und Verwalten von Skype für Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -262,7 +262,7 @@ Vor der Bereitstellung von Cloud-Connector Edition, stellen Sie sicher, dass Sie
 - Ein Office 365-Mandanten mit allen erforderlichen DNS- und SRV-Einträge erstellt werden soll.
 
     > [!IMPORTANT]
-    > Wenn Sie Ihrem Mandanten mit Cloud Connector Edition, die Verwendung von Standard-Domänensuffix, integrieren. "onmicrosoft.com" dargestellt, wie eine SIP-Domäne für Ihre Organisation wird nicht unterstützt. > Kann nicht Sip verwendet werden. \<Domänennamen\> als Namen für Ihre Cloud-Connector-Zugriffs-Edgeserver Proxy Schnittstelle, da diese DNS-Eintrag von Office 365 verwendet wird.
+    > Wenn Sie Ihrem Mandanten mit Cloud Connector Edition, die Verwendung von Standard-Domänensuffix, integrieren. "onmicrosoft.com" dargestellt, wie eine SIP-Domäne für Ihre Organisation wird nicht unterstützt. > Sip verwendet werden können. \<Domänennamen\> als Namen für Ihre Cloud-Connector-Zugriffs-Edgeserver Proxy Schnittstelle, da diese DNS-Eintrag von Office 365 verwendet wird.
 
 - Ein von einer öffentlichen Zertifizierungsstelle (CA) erhaltenes Zertifikat für den externen Edgeserver.
 
@@ -380,10 +380,10 @@ In diesem Fall alle Mediendatenverkehr mit dem Internet fließt über die Online
 |**Quell-IP**|**Ziel-IP**|**Quellport**|**Zielport**|
 |:-----|:-----|:-----|:-----|
 |Beliebig  <br/> |Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |TCP (MTLS) 5061  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |Beliebig  <br/> |TCP (MTLS) 5061  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |Beliebig  <br/> |TCP 80  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |Beliebig  <br/> |UDP 53  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |Beliebig  <br/> |TCP 53  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig   <br/> |Beliebig  <br/> |TCP (MTLS) 5061  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig   <br/> |Beliebig  <br/> |TCP 80  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig   <br/> |Beliebig  <br/> |UDP 53  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig   <br/> |Beliebig  <br/> |TCP 53  <br/> |
 |Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
 |Beliebig  <br/> |Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
 |Beliebig  <br/> |Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
@@ -402,12 +402,12 @@ In diesem Fall kann alle Mediendatenverkehr für den Endpunkt in das Internet di
 |**Quell-IP**|**Ziel-IP**|**Quellport**|**Zielport**|
 |:-----|:-----|:-----|:-----|
 |Beliebig  <br/> |Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |TCP (MTLS) 5061  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |Beliebig  <br/> |TCP (MTLS) 5061  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |Beliebig  <br/> |TCP 80  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |Beliebig  <br/> |UDP 53  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |Beliebig  <br/> |TCP 53  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig   <br/> |Beliebig  <br/> |TCP (MTLS) 5061  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig   <br/> |Beliebig  <br/> |TCP 80  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig   <br/> |Beliebig  <br/> |UDP 53  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig   <br/> |Beliebig  <br/> |TCP 53  <br/> |
 |Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |TCP 50.000-59.999  <br/> |Beliebig  <br/> |
-|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |UDP 3478; UDP 50000–59999  <br/> |Beliebig  <br/> |
+|Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |UDP 3478; UDP 50000–59999  <br/> |Beliebig   <br/> |
 |Beliebig  <br/> |Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |TCP 443; TCP 50000–59999  <br/> |
 |Beliebig  <br/> |Externe Schnittstelle des Cloud Connector Edgeservers  <br/> |Beliebig  <br/> |UDP 3478; UDP 50000–59999  <br/> |
 
@@ -526,7 +526,7 @@ Beachten Sie beim Konfigurieren der Gateway-Informationen Folgendes:
 |Connector-Domänenadministrator Cloud-Kennwort  <br/> Nur Version 1.4.2  <br/> |Kennwort für die Cloud Connector Domänenadministrator (anders Ihrer Produktionsdomäne). Der Benutzername lautet „Administrator“. Sie können den Benutzernamen nicht ändern.  <br/> ||
 |Administratorkennwort virtuelle Maschinen  <br/> Nur Version 1.4.2  <br/> |Wird im Zuge der Bereitstellung verwendet, um das Verwaltungsnetzwerk zu konfigurieren.  <br/> Der Benutzername lautet „Administrator“. Sie können den Benutzernamen nicht ändern.   <br/> ||
 |CABackupFile  <br/> Version 2.0 und höher  <br/> |Verwendet zum Speichern von Dienst der Zertifizierungsstelle aus Active Directory-Server für eine Datei bei der Bereitstellung von mehreren Appliances in einer Cloud-Connector-Website. Achten Sie darauf, für alle Appliances an einem Cloud Connector-Standort das gleiche Kennwort zu verwenden, damit die CA-Sicherungsdatei auf neu hinzugefügten Appliances erfolgreich importiert werden kann.  <br/> ||
-|Nur Version 2.0  <br/> Version 2.0 und höher  <br/> |Wird für den Cloud Connector-Verwaltungsdienst verwendet und benötigt Zugriff auf das Cloud Connector-Standortverzeichnis. Achten Sie darauf, für alle Appliances an einem Cloud Connector-Standort das gleiche Kennwort zu verwenden.   <br/> ||
+|Nur Version 2.0  <br/> Version 2.0 und höher   <br/> |Wird für den Cloud Connector-Verwaltungsdienst verwendet und benötigt Zugriff auf das Cloud Connector-Standortverzeichnis. Achten Sie darauf, für alle Appliances an einem Cloud Connector-Standort das gleiche Kennwort zu verwenden.   <br/> ||
 |Office 365-Mandantenadministrator  <br/> | Das Konto wird von Cloud Connector verwendet, um Mandanteneinstellungen für Cloud Connector zu aktualisieren und zu verwalten: <br/>  Version 2.0 und höher: Anmeldeinformationen für einen dedizierten Office 365-Konto mit Skype für Business Administratorrechte. <br/>  Versionen vor 2.0: Anmeldeinformationen für ein dediziertes Office 365-Konto mit den Rechten eines globalen Mandantenadministrators <br/> ||
 |Aktivieren von REFER-Unterstützung  <br/> |Dadurch wird festgelegt, ob „SIP REFER-Unterstützung“ in der Trunk-Konfiguration zu Ihrer IP/PBX aktiviert oder deaktiviert ist. Der Standardwert ist „True“. Wenn Ihr IP/PBX-Gateway REFER-Unterstützung unterstützt, behalten Sie „True“ bei. Andernfalls muss dieser Wert in „False“ geändert werden. Wenn Sie nicht sicher sind, ob Ihr Gateway REFER unterstützt, informieren Sie sich bitte unter [Qualified IP-PBXs and Gateways nach: ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)   <br/> ||
 |EnableFastFailoverTimer  <br/> Version 2.0 und höher  <br/> |Mit dem Standardwert "True", werden Wenn ausgehende Anrufe vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden sie zum nächsten verfügbaren Gateway weitergeleitet werden; Wenn es keine zusätzlichen Trunks sind wird der Anruf automatisch gelöscht werden.  <br/> Wenn in einer Organisation langsame Netzwerke und Gatewayreaktionen vorliegen oder der Aufbau von Anrufen mehr als zehn Sekunden in Anspruch nimmt, kann dies dazu führen, dass Anrufe unnötig getrennt werden.  <br/> Wenn Anrufe in bestimmte Länder/Regionen wie zum Beispiel in die Vereinigten Arabischen Emirate oder nach Afghanistan getätigt werden, kann der Anrufaufbau länger als zehn Sekunden dauern. Wenn vergleichbare Probleme auftreten, müssen Sie den Wert in „False“ ändern. Denken Sie daran, die entsprechende Einstellung auf dem verbundenen SBC oder Gateway zu ändern.  <br/> Gültige Werte sind „True“ oder „False“. Der Standardwert lautet „True“.  <br/> ||
@@ -705,7 +705,7 @@ Cloud Connector 2.1 und höher unterstützt das Überwachen von Cloud Connector
 
 Weitere Informationen finden Sie unter den folgenden Themen:
 
-- [Planen Sie Ihr Telefonsystem in Office 365 (PBX zu Cloud)-Lösung](plan-your-phone-system-cloud-pbx-solution.md)
+- [Microsoft-telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Konfigurieren und Verwalten von Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

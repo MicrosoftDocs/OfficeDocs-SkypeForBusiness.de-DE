@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531602"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686472"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server
 
 Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
 
-Dieser Inhalt ist relevant, wenn Sie bereits Skype für Business Server oder Lync Server 2013 lokal bereitgestellt haben. Für andere Szenarien finden Sie unter [Planen von Ihrem Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](plan-your-phone-system-cloud-pbx-solution.md).
+Dieser Inhalt ist relevant, wenn Sie bereits Skype für Business Server oder Lync Server 2013 lokal bereitgestellt haben. Für andere Szenarien finden Sie unter [Microsoft Telefonie-Lösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Telefonsystem in Office 365 mit lokalen PSTN-Anbindung können Sie Funktionen für Ihre Benutzer Telefonsystem (Cloud, PBX) nutzen. Das kann in folgenden Szenarien hilfreich sein:
 
@@ -105,12 +105,12 @@ Darüber hinaus müssen Sie Folgendes sicherstellen:
     > [!NOTE]
     > Die von Ihnen verwendete Version von AAD Connect muss Version 1.0.9125.0 oder höher sein. Wenn Sie mit einer früheren Version der AAD Connect-Werkzeuge oder DirSync arbeiten, führen Sie ein Upgrade auf die unterstützte Version durch. Sie können aber auch ein Upgrade Ihrer aktuellen Installation durchführen und alle benutzerdefinierten Regeln beibehalten, die Sie in Ihrer Umgebung definiert haben. 
 
-- **Konfigurieren einer hybridbereitstellung** Gibt an, ob alle Ihre Skype für Unternehmensbenutzer sind derzeit entweder online verwaltet oder lokal, oder wenn Sie derzeit eine Kombination haben, müssen Sie die Schritte zum Konfigurieren einer hybriden bereitstellungs von Skype für Business Server oder Lync Server 2013, wie beschrieben in [Deploy Hybrid Konnektivität zwischen Skype für Business Server und Skype für Online Business](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Weitere Informationen zu hybridbereitstellungen finden Sie unter [Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
+- **Konfigurieren einer hybridbereitstellung** Gibt an, ob alle Ihre Skype für Unternehmensbenutzer sind derzeit entweder online verwaltet oder lokal, oder wenn Sie derzeit eine Kombination haben, müssen Sie die Schritte zum Konfigurieren einer hybriden bereitstellungs von Skype für Business Server oder Lync Server 2013, wie beschrieben in [Deploy Hybrid Konnektivität zwischen Skype für Business Server und Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Weitere Informationen zu hybridbereitstellungen finden Sie unter [Planen von hybridkonnektivität zwischen Skype für Business Server und Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
 
     Wenn Sie Lync Server 2013 verwenden, finden Sie unter [Lync Server 2013 Hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
 - **Active Directory-Verbunddienste (AD FS) (empfohlen)** Wir empfehlen die Bereitstellung von AD FS für einmaliges Anmelden zu unterstützen. Weitere Informationen finden Sie unter [Active Directory-Verbunddienste (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-Informationen zum Bereitstellen von Telefonsystem in Office 365 finden Sie unter [Aktivieren von Benutzern für Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype für Business Server](enable-users-for-phone-system.md).
+Informationen zum Bereitstellen von Telefonsystem in Office 365 finden Sie unter [Einrichten von Telefonsystem in Ihrer Organisation](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 
