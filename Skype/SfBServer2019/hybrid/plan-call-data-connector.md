@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung von Skype für Business Online Telemetrie-Tools zum Überwachen von einer lokale Implementierung in einer Hybrid-Szenario.
-ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4e38f7d190cd30c1f0e39dc4cdfa5166ba6a929d
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349536"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690445"
 ---
 # <a name="plan-call-data-connector"></a>Planen der Anruf Data Connector
 
@@ -68,7 +68,7 @@ Die folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype für 
 
 - Wenn Sie dies nicht bereits geschehen ist, aktivieren Sie rufen Qualitätsdashboard gemäß [einschalten, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 
-- Aktivieren Sie den Front-End-Pool für Überwachung, mit lokalen LCSCdr und QoEMetrics-Datenbanken. Ohne diese keine Call Data Connector metrische Daten entwickelt.
+- Aktivieren Sie den Front-End-Pool für Überwachung, mit lokalen LcsCDR und QoEMetrics-Datenbanken. Ohne diese keine Call Data Connector metrische Daten entwickelt.
 
 > [!IMPORTANT]
 > Anruf Data Connector ist nicht funktionsfähig, wenn die Überwachung auf dem Front-End-Pool nicht aktiviert ist.
@@ -78,13 +78,13 @@ Die folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype für 
 | Feature-Berichte | Skype for Business Online | Skype for Business Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | Anwendungsfreigabemetrik |Ja | Begrenzt |
-| Erstellen von Kundeninformationen| Ja | Ja |
-| Drilldown-Analyse | Ja | Nein |
+| Erstellen von Kundeninformationen| Ja  | Ja  |
+| Drilldown-Analyse | Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer | Nein |
 | Medienzuverlässigkeitsmetriken | Ja | Begrenzt |
-| Sofort einsatzbereite Berichte | Ja | Ja |
+| Sofort einsatzbereite Berichte | Ja  | Ja  |
 | Übersichtsberichte | Ja | Nein |
-| Pro Benutzerberichte | Ja | Ja |
-| Anpassen von Berichten set <br> (Fügen Sie hinzu, löschen Sie, ändern Sie Berichte) | Ja | Ja |
-| Videobasierte Bildschirmfreigabe-Metriken | Ja | Nein |
+| Pro Benutzerberichte | Ja  | Ja  |
+| Anpassen von Berichten set <br> (Fügen Sie hinzu, löschen Sie, ändern Sie Berichte) | Ja  | Ja |
+| Videobasierte Bildschirmfreigabe-Metriken | Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer | Nein |
 | Daten-APIs für den programmgesteuerten Zugriff <br> zu CQD | Nein | Ja |
 ||||

@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297881"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690572"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -135,7 +135,7 @@ Microsoft empfiehlt, dass Sie das Zertifikat für die SBC anzufordern, generiert
 
 Das Zertifikat muss die SBC-FQDN im Betreff, allgemeiner Name oder Subject alternative Name-Felder aufweisen.
 
-Alternativ direkten Routing unterstützt einen Platzhalter in der allgemeine Name oder SAN und der Platzhalter standard [RFC HTTP über TLS](https://tools.ietf.org/html/rfc2818#section-3.1)entsprechen muss. Ein Beispiel wäre die Verwendung *. contoso.com im SAN, die die SBC FQDN sbc.contoso.com würde sich eine Übereinstimmung, jedoch nicht mit sbc.test.contoso.com überein.
+Alternativ direkten Routing unterstützt einen Platzhalter in SAN und der Platzhalter standard [RFC HTTP über TLS](https://tools.ietf.org/html/rfc2818#section-3.1)entsprechen muss. Ein Beispiel wäre die Verwendung *. contoso.com im SAN, die die SBC FQDN sbc.contoso.com würde sich eine Übereinstimmung, jedoch nicht mit sbc.test.contoso.com überein.
 
 Das Zertifikat muss von einem der folgenden Stammzertifizierungsstellen generiert werden:
 
