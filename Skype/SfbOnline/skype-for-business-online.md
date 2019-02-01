@@ -15,7 +15,7 @@ ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
 ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "26531748"
@@ -54,7 +54,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; Re Hilfe</h3>
+                        <h3>Wir helfen Ihnen gerne weiter</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
 
 ---
 
-<h2>What& #39; s neue</h2>
+<h2>Neuerungen</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -151,7 +151,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Neue features</h3>
+                        <h3>Neue Funktionen</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Anrufpläne in Kanada (Allgemeine Verfügbarkeit)</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Anrufpläne in Australien (nur Vorschauversion)</a></p>
                     </div>
@@ -169,8 +169,8 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Wichtige Aktualisierungen</h3>
-                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">Einrichten von Audiokonferenz</a></p>
+                        <h3>Wichtige Updates</h3>
+                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">Einrichten von Audiokonferenzen</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                 <div class="card">
                     <div class="cardText">
                         <h3>Telefonsystem</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Was ist Telefonsystem in Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s erhalten Sie in das Telefonsystem in Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Was ist Telefonsystem in Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Das bietet Ihnen Telefonsystem in Office 365</a></p>
                </div>
                 </div>
             </div>
