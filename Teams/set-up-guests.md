@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42fead56b8064d2697ca4e8b115eefd0116a5e36
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772761"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706259"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
 ======================================
@@ -28,13 +28,16 @@ Als Office 365-Administrator müssen Sie die Gastfunktion aktivieren, bevor Sie
 
 Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden. Wenn ein Benutzer die Meldung erhält "Wenden Sie sich an Ihren Administrator", wenn sie versuchen, ihr Team Gastsystem hinzuzufügen, ist es wahrscheinlich, dass das Feature Gast noch nicht aktiviert wurde, oder die Einstellungen für eine effektive sind noch nicht.
 
-
 > [!IMPORTANT]
 > Um die Nutzung der Gastzugriffsfunktion in vollem Umfang zu ermöglichen, müssen Sie die gegenseitige Abhängigkeit bezüglich der Kernautorisierung von Microsoft Teams, Azure Active Directory und Office 365 verstehen. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
 
-## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Konfigurieren von Gastzugriff in der Teams & Skype für Business-Verwaltungskonsole
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
 
-1.  Melden Sie sich bei der Teams & Skype für Business Administrationscenter.
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Konfigurieren des Zugriffs von Gast in der Teams & Skype für Business Administrationscenter
+
+1.  Melden Sie sich bei der Teams & Skype für Business Administrationscenter an.
 
 2.  Wählen Sie **gesamte Org Einstellungen** > **Gastzugriff**.
 

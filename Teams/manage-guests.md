@@ -12,12 +12,12 @@ search.appverid: MET150
 description: IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten, festlegen, welche Benutzer Gäste einladen können, und Berichte über Gastbenutzeraktivität abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 3866e4c3f8e63e9fe8518917193d4587e670ad93
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328247"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706291"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Benutzerzugriffs in Microsoft Teams
 ======================================
@@ -37,6 +37,10 @@ Azure Active Directory-Portal können Sie Gäste und deren Zugriff auf Office 36
 > [!NOTE]
 > Microsoft-Teams berücksichtigt immer externe Azure Active Directory-Einstellungen zum Zulassen oder Sperren von Gast Benutzer Ergänzungen, die dem Mandanten. Weitere Informationen finden Sie unter [Autorisieren Gast Access in Microsoft-Teams](Teams-dependencies.md).
   
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
 ## <a name="review-guest-access-periodically"></a>Überprüfen Sie regelmäßig Gastzugriff
 
 Teams können Sie 5 Gäste für jeden lizenzierten Benutzer hinzufügen. Aufgrund dieser Einschränkung oder, da Sie Ihrem Mandanten auf dem aktuellen Stand beibehalten möchten, sollten Sie überprüfen, Gast Access in regelmäßigen Abständen zum Identifizieren von Benutzern, die Zugriff haben, die sie nicht mehr benötigt werden. Azure Active Directory (AD Azure) können Sie eine Access-Überprüfung für Mitglieder der Gruppe oder Benutzer zugewiesen sind, an eine Anwendung zu erstellen. Erstellen von sich wiederholenden Access Bewertungen können Sie Zeit sparen. Wenn Sie müssen Benutzer haben Zugriff auf eine Anwendung oder sind Mitglieder einer Gruppe Benutzer regelmäßig zu überprüfen, können Sie die Häufigkeit der diese Bewertungen definieren. 

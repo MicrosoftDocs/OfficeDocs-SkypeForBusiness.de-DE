@@ -3,7 +3,7 @@ title: Prüfliste für den Microsoft Teams-Gastzugriff
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 11/09/18
+ms.date: 01/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326709"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706371"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================
@@ -39,6 +39,10 @@ Die Erfahrung Gast hat Einschränkungen Verhalten ist erwünscht. Stellen Sie si
 - Hochladen von Dateien in einer Person chat
 
 Weitere Informationen finden Sie unter [Was die Erfahrung Gast entspricht](guest-experience.md) und [Gast Access in Office 365-Gruppen](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+
+### <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Wenn Ihre Gäste Lizenz Fehlermeldungen angezeigt werden
 

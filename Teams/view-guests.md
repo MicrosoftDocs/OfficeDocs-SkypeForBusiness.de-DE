@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Administratoren Informationen zu Gastbenutzern in Microsoft Teams anzeigen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a10269076275a16f18a9cda8471a669688a1ab4
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 2b842a2434a5555fe7f65d6119750cff36e9513d
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772742"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706275"
 ---
 <a name="view-guest-users-in-a-team"></a>Anzeigen von Gastbenutzern in einem Team
 ==========================
@@ -31,4 +31,6 @@ Gastbenutzer identifiziert:
   
 Sie können auch Gastbenutzern über ein Team identifizieren, die Sie besitzen.  
 
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
 
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

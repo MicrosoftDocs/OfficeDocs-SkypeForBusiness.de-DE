@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f15aeaec8ed894cf25e72c8494aed3ae36070992
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 2c2e13a97c367a61559a33ea0229d7ef682744c7
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562621"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706267"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -31,7 +31,6 @@ Gastzugriff ist eines der Features, die für die meisten Kunden hatten. Hier wir
 - Informationen zu geplanten neuen oder aktualisierten Funktionen finden Sie in der [Microsoft Teams-Roadmap](https://aka.ms/teamsroadmap).
 - Teilen Sie uns auf der [Microsoft Teams-UserVoice](https://aka.ms/TeamsUserVoice)-Website Ihre Wünsche mit.
 - Berichten Sie unten im Abschnitt „Kommentare“ über Ihre Erfahrungen.
-
 
 Gast Access ermöglicht Teams in Ihrer Organisation für die Zusammenarbeit mit Personen außerhalb Ihrer Organisation durch gewähren sie Zugriff auf vorhandenen Teams und Kanäle in einem oder mehreren Mandanten. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams.
 
@@ -52,9 +51,9 @@ Mit Gast Access können Organisationen, mit denen Teams externen Zugriff auf Tea
 
 Teams basiert auf Office 365-Gruppen und bietet eine neue Möglichkeit zum Zugriff auf gemeinsame Elemente für ein Office 365-Gruppe. Teams ist die beste Lösung für beständigen Chat zwischen Gruppen- bzw. Teammitgliedern. Office 365-Gruppen ist ein Dienst, der anwendungsübergreifende Mitgliedschaft für bestimmte freigegebene Teamressourcen (beispielsweise eine SharePoint-Website oder ein Power BI-Dashboard) bietet, damit das Team effektiv und sicher zusammenarbeiten kann. 
 
-## <a name="how-does-guest-access-compare-to-federation-external-access"></a>Wie Vergleich Access Gast im zu den Verbund (externer Zugriff)?
+## <a name="how-does-guest-access-compare-to-external-access-federation"></a>Wie Vergleich Access Gast im zu den externen Zugriff (Verbund)?
 
-Mit den Verbund oder externen Zugriff kann ein externer Benutzer 1:1-Chats und Anrufe mit einem Benutzer in einer anderen Organisation aufweisen, mithilfe von Teams oder Skype für Unternehmen. Der Partnerbenutzer kann keine Teamressourcen zugreifen. Im Vergleich zu Gastzugriff, externer Zugriff ermöglicht Organisationen die Kommunikation (falls durch Richtlinien erlaubt) ohne ausdrückliche Einladung, aber auf chat, und rufen Sie nur beschränkt ist.
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Weitere Informationen
     

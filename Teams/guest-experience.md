@@ -13,45 +13,25 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c65d5378ebe72175ac3238ba058866c49f6c4dd
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c1fc83f0911849655c1a27bdee2d87107f6eaebc
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772801"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706315"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
 
 Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willkommensnachricht mit einigen Informationen über das Team und darüber, was er als Teammitglied zu erwarten hat. Der Gast muss die Einladung in der E-Mail-Nachricht annehmen, bevor er auf das Team und dessen Kanäle zugreifen kann.
-  
-    
-    
-
-  
-    
     
 ![Beispiel für eine Willkommensseite e-Mail-Nachricht mit einer Teambesitzer in Microsoft-Teams an einen Gastbenutzer gesendet. Die Nachricht beinhaltet Text, der vom Teambesitzer angepasst werden kann, sowie Kurzbeschreibungen der Teams-Funktionen wie Chat, Anrufe und Besprechungen.](media/guest-experience-image1.png)
-  
-    
     
 Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispielteams gezeigt, wird ein Banner mit dem Text „Dieses Team hat Gäste“ angezeigt, und neben jedem Gästenamen wird die Bezeichnung „GAST“ eingeblendet.
-  
-    
-    
-
-  
-    
     
 ![Screenshot, der einen Teil des Marketingkanals für Northwind Traders mit der Benachrichtigung „Dieses Team hat Gäste“ im oberen Banner sowie mit Benutzern abbildet, die mit dem Wort „GÄSTE“ neben ihrem Namen als Gäste gekennzeichnet sind.](media/guest-experience-image2.png)
-  
-    
-    
-In der folgenden Tabelle werden die für die Teammitglieder einer Organisation verfügbaren Microsoft Teams-Funktionen mit den für Gastbenutzer im Team verfügbaren Funktionen verglichen.
-  
-    
-    
 
+In der folgenden Tabelle werden die für die Teammitglieder einer Organisation verfügbaren Microsoft Teams-Funktionen mit den für Gastbenutzer im Team verfügbaren Funktionen verglichen.
 
 |**Funktionen in Teams**|**Teams-Benutzer in der Organisation**|**Gastbenutzer**|
 |:-----|:-----|:-----|
@@ -74,44 +54,46 @@ In der folgenden Tabelle zeigt die verfügbaren Features aufrufende und Besprech
 
 | Aufrufen von Features | Gast | E1 und E3 Benutzer | E5 und EV-Benutzer |
 | --------------- | ----- | -------------- | -------------- |
-| VOIP-Anrufe | Ja | Ja | Ja |
-| Gruppe aufrufen | Ja | Ja | Ja |
-| Die anrufsteuerungen Core unterstützt (halten, stumm schalten, Video on/off Bildschirmfreigabe) | Ja | Ja | Ja |
-| Ziel übertragen | Ja | Ja | Ja |
-| Können einen Anruf weiterleiten | Ja | Ja | Ja |
-| Konsultieren vor dem durchstellen können | Ja | Ja | Ja |
-| Können andere Benutzer zu einem Anruf über VOIP hinzufügen | Ja | Ja | Ja |
-| Können Benutzer nach Telefonnummer einen Anruf hinzufügen | Nein | Nein | Ja |
-| Forward-Ziel | Nein | Ja | Ja |
-| Rufen Sie die Gruppe Ziel | Nein | Ja | Ja |
-| Nicht beantwortete Ziel | Nein | Ja | Ja |
-| Kann das Ziel einer federated Aufrufs | Nein | Ja | Ja |
-| Können Verbundbenutzer anrufen | Nein | Ja | Ja |
-| Können sofort ihre Anrufe weiterleiten. | Nein | Nein | Ja |
-| Ihre Anrufe können gleichzeitig bei Anrufen. | Nein | Nein | Ja |
-| Kann ihre nicht entgegengenommene Anrufe weitergeleitet werden. | Nein | Nein | Ja |
+| VOIP-Anrufe | Ja | Ja  | Ja  |
+| Gruppe aufrufen | Ja | Ja  | Ja  |
+| Die anrufsteuerungen Core unterstützt (halten, stumm schalten, Video on/off Bildschirmfreigabe) | Ja | Ja  | Ja  |
+| Ziel übertragen | Ja | Ja  | Ja  |
+| Können einen Anruf weiterleiten | Ja | Ja  | Ja  |
+| Konsultieren vor dem durchstellen können | Ja | Ja  | Ja  |
+| Können andere Benutzer zu einem Anruf über VOIP hinzufügen | Ja | Ja  | Ja  |
+| Können Benutzer nach Telefonnummer einen Anruf hinzufügen | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Forward-Ziel | Nein | Ja | Ja  |
+| Rufen Sie die Gruppe Ziel | Nein | Ja | Ja  |
+| Nicht beantwortete Ziel | Nein | Ja | Ja  |
+| Kann das Ziel einer federated Aufrufs | Nein | Ja | Ja  |
+| Können Verbundbenutzer anrufen | Nein | Ja | Ja  |
+| Können sofort ihre Anrufe weiterleiten. | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Ihre Anrufe können gleichzeitig bei Anrufen. | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Kann ihre nicht entgegengenommene Anrufe weitergeleitet werden. | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
 | Verpasste Anrufe können an Voicemail umgeleitet wird | Nein | Keine<sup>1</sup> |Ja |
-| Haben Sie eine Telefonnummer ein, die Anrufe empfangen zu können | Nein | Nein | Ja |
-| Wählen Sie Telefonnummern können | Nein | Nein | Ja |
-| Kann Access Einstellungen aufrufen | Nein | Nein | Ja |
+| Haben Sie eine Telefonnummer ein, die Anrufe empfangen zu können | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Wählen Sie Telefonnummern können | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Kann Access Einstellungen aufrufen | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
 | Voicemail-Ansage zu ändern können | Nein | Keine<sup>1</sup> | Ja |
-| Klingeltöne kann geändert werden. | Nein | Nein  | Ja |
-| Unterstützt TTY | Nein | Nein | Ja |
-| Kann eine Stellvertretung werden | Nein | Nein | Ja |
-|  Kann eine als Stellvertretung in Frage | Nein | Nein | Ja |
+| Klingeltöne kann geändert werden. | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein  | Ja |
+| Unterstützt TTY | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Kann eine Stellvertretung werden | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+|  Kann eine als Stellvertretung in Frage | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
 
 
 <sup>1</sup> dieses Feature Kürze verfügbar.
 
-
-
 > [!NOTE]
 > Office 365-Administratoren steuern die für Gäste verfügbaren Funktionen. 
-  
+ 
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+ 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
   
 Q. Haben Gäste als Teammitglieder dieselben Funktionen zur Verfügung?<br>
-A. Nein. Weitere Informationen zu welche Gastsystem oder nicht tun kann finden Sie auf Gast-Funktionen in Teams.
+A. Nein. Weitere Informationen zu welche Gastsystem oder nicht tun kann finden Sie auf [Gast-Funktionen in Teams](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
 Q. Wie viele Gäste können von mir eingeladene?<br>
 A. Sie können bis zu 5 Gäste pro lizenzierten Benutzer hinzufügen.

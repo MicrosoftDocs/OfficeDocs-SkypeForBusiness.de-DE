@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07bfc162f2d3fbc59aa26dcf2cabd1bcf003e74
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772785"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706323"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================
@@ -75,7 +75,7 @@ Azure AD-Lizenzierung können Sie bis zu 5 Gäste pro Lizenz hinzufügen. Weiter
 
 In Teams können Sie steuern, ob die Erfahrung Gast aktiviert oder für Ihre Organisation deaktiviert ist. Diese Einstellung ist standardmäßig deaktiviert und auf der Ebene der Mandant gilt für Teams nur.
 
-Sie können Teams Gast Access-Einstellungen aus dem Microsoft-Teams & Skype für Business Admin Center verwalten. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md). 
+Sie können aus der Microsoft-Teams & Skype für Business Admin Center Teams Gast Access-Einstellungen verwalten. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md). 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Steuern des Zugriffs Gast in Office 365-Gruppen
@@ -116,3 +116,6 @@ Diese Einstellungen auf der Ebene der Mandanten anwenden und steuern die Gast Er
 
 Sie können SharePoint Online-Einstellungen für externe Benutzer für die mit Microsoft Teams verbundene Teamwebsite verwalten. Weitere Einzelheiten finden Sie unter [Verwalten der Einstellungen Ihrer SharePoint-Teamwebsite](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).﻿
 
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
