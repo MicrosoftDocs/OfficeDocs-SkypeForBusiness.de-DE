@@ -21,6 +21,7 @@
 ## [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](assign-roles-permissions.md)
 ## [Bewährte Methoden zum Organisieren von Teams in Teams](best-practices-organizing.md)
 ## [Erstellen Sie ein Team Org geltende in Teams](create-an-org-wide-team.md)
+## [Was sind Richtlinien Messaging?](messaging-policies-in-teams.md)
 ## [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md)
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Anwesenheit](presence-admins.md)
@@ -52,6 +53,7 @@
 ### [Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team](guest-access-PowerShell.md)
 ### [Gast Access Prüfliste](guest-access-checklist.md)
 
+## [Externen Zugriff (Verbund)](manage-external-access.md)
 
 ## [Verwalten von Teams](using-admin-roles.md)
 ### [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
@@ -114,7 +116,6 @@
 # [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Verwalten von Einstellungen für Besprechungen](meeting-settings-in-teams.md)
-## [Was sind Richtlinien Messaging?](messaging-policies-in-teams.md)
 ## [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)

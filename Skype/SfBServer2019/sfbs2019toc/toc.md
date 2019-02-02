@@ -30,8 +30,7 @@
 
 #### [Update AAD Herstellen einer Verbindung mit mehr als einer Gesamtstruktur einschließen](../hybrid/cloud-consolidation-aad-connect.md)
 
-### [Integration mit Exchange und SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
-
+### [Integration mit Exchange und SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
 ## Planen
