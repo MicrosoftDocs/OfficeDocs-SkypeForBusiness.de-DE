@@ -302,6 +302,11 @@
 ### [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 ### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
+### Standortbasiertes Routing
+#### [Speicherortbasierte Routing Terminologie](location-based-routing-terminology.md)
+#### [Planen Sie die Standortbasierte Weiterleitung für direkten Routing](location-based-routing-plan.md)
+#### [Konfigurieren von Netzwerkeinstellungen für standortbasierte Routing](location-based-routing-configure-network-settings.md)
+#### [Speicherortbasierte Routing für die direkte Weiterleitung aktivieren](location-based-routing-enable.md)
 ### Technische Referenz für das direkte Routing
 #### [Trunkfailover bei ausgehenden Anrufen](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -641,6 +646,7 @@
 
 ## Teams für Mitarbeiter firstline
 ### [Verwalten der app Schichten für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Erste Schritte mit Retail Teams Vorlagen](get-started-with-retail-teams-templates.md)
 
 ## [Planen von Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Planen von Microsoft 365 Government - GCC hoch](plan-for-government-gcc-high.md)
