@@ -13,16 +13,16 @@ search.appverid: MET150
 description: Schulungsvideos, Lernprogramme und andere Ressourcen für Benutzer in Ihrer Organisation zu erlernen und Verwenden von Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4754a20c38c16c78744d44d78647f0efdede83e6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 85500815e191363dcf8a5cd9b9c1cdd90aa769cd
+ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214443"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "29708552"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
 
-Verwenden Sie diese Schulungsressourcen, um Benutzer in Ihrer Organisation die optimale Nutzung von Teams. 
+Verwenden Sie diese Schulungsressourcen, um Benutzer in Ihrer Organisation die optimale Nutzung von Teams.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -210,7 +210,7 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Chats, Anrufe und Besprechungen</h3>
+                        <h3>Chats, Anrufe & Besprechungen</h3>
                        <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Video: Starten Sie Chats und tätigen von Anrufen</a></p>
                        <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Video: Erstellen von Sofortnachrichten Besprechungen mit Meet jetzt</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Video: Verwalten von Besprechungen</a></p>
@@ -224,7 +224,7 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Apps und tools</h3>
+                        <h3>Apps & tools</h3>
                         <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Video: Tools mit Registerkarten hinzufügen</a></p>
                         <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Video: Umwandeln einer Datei in einer Registerkarte</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Video: Verwenden Sie das Befehl</a></p>
@@ -251,8 +251,8 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Teams Tipps und tricks</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Artikel: Tipps und Tricks zur-Teams</a></p>
+                        <h3>Teams Tipps, Tricks &</h3>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Artikel: Teams Tipps & tricks</a></p>
                     </div>
                 </div>
             </div>
