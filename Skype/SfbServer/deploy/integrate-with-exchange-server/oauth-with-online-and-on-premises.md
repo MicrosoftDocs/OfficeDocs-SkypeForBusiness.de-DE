@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Konfigurieren von OAuth aktiviert-Authentifizierung zwischen Exchange lokal und Skype für Business Online die Skype für Geschäfts- und Exchange-Integration in featureunterstützung beschriebenen Features.
-ms.openlocfilehash: d4c7e491b43b457c96a69ebba1ea808054346d98
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f6108842f827cbb9cfb6761495c4787ed2b7868b
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373871"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735174"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>OAuth-Konfiguration zwischen Skype for Business Online und einer lokalen Bereitstellung von Exchange
 
@@ -30,7 +30,7 @@ Dieses Thema bezieht sich auf Exchange Server 2016 und Exchange Server 2013.
 
 -  Sie sind auf die Zuweisung bestimmter Berechtigungen angewiesen, damit Sie diesen Vorgang bzw. diese Verfahren durchführen können. Welche Berechtigungen Sie müssen finden Sie im Thema [Exchange and Shell Infrastructure Permissions](https://go.microsoft.com/fwlink/p/?LinkId=746511) .
 
-- Informationen zu Tastenkombinationen, die für die Verfahren in diesem Thema gelten, finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
+- Weitere Informationen zu Tastenkombinationen, die für die Verfahren in diesem Thema gelten könnten, finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
 ## <a name="configure-oauth-authentication-between-your-on-premises-exchange-and-skype-for-business-organizations"></a>Konfigurieren Sie OAuth-Authentifizierung zwischen Ihren lokalen Exchange- und Skype for Business-Organisationen.
 
@@ -52,7 +52,7 @@ Führen Sie den folgenden Befehl in der Exchange PowerShell in Ihrer lokalen Exc
 Get-PartnerApplication | ?{$_.ApplicationIdentifier -eq "00000002-0000-0ff1-ce00-000000000000" -and $_.Realm -eq ""} | Set-PartnerApplication -Enabled $true
 ```
 
-### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Schritt 3: Erstellen eines neuen E-Mail-Benutzerkontos für die Skype for Business Online-Partneranwendung
+### <a name="step-3-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Schritt 3: Erstellen eines neuen E-Mail-Benutzerkontos für die Skype for Business Online-Partneranwendung 
 
 Dieser Schritt wird lokal erledigt. Ein E-Mail-Benutzer wird angelegt und bekommt die entsprechenden Berechtigungen für die Verwaltungsrolle zugewiesen. Dieses Konto wird anschließend im nächsten Schritt gebraucht.
 
@@ -126,7 +126,7 @@ Verwenden Sie im nächsten Schritt Windows PowerShell, um das im vorigen Schrit
    $cer.Import($CertFile);
    $binCert = $cer.GetRawCertData();
    $credValue = [System.Convert]::ToBase64String($binCert);
-   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
    $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```

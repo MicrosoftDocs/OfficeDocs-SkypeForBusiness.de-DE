@@ -1,5 +1,5 @@
 ---
-title: Implementieren von Quality of Service in Microsoft-Teams
+title: Quality of Service in Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326732"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735130"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft-Teams
 
@@ -232,13 +232,15 @@ Zum Erstellen einer QoS-audio Richtlinie für Windows 10 Computer zuerst melden 
 
 6. Geben Sie im Dialogfeld **Richtlinienbasierte QoS** auf der ersten Seite einen Namen für die neue Richtlinie in das Feld **Name** ein. Wählen Sie die **DSCP-Wert angeben** , und legen Sie den Wert auf **46 fest**. Lassen Sie **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
 
-7. Klicken Sie auf der nächsten Seite stellen Sie sicher, dass **Alle Anwendungen** aktiviert ist, und klicken Sie dann auf **Weiter**. Diese Einstellung weist das Netzwerk zum Nachschlagen für alle Pakete mit einem DSCP-Markierung der 46, nicht nur Pakete, die von einer bestimmten Anwendung erstellt.
+7. Wählen Sie auf der nächsten Seite **nur Anwendungen mit diesem Namen ausführbare** und geben Sie den Namen **Teams.exe**, und klicken Sie dann auf **Weiter**. Diese Einstellung weist die Richtlinie nur übereinstimmenden Datenverkehr vom Client Teams priorisieren.
 
 8. Stellen Sie auf der dritten Seite sicher, dass **alle Quell-IP-Adresse** und **einer beliebigen Ziel-IP-Adresse** ausgewählt sind, und klicken Sie dann auf **Weiter**. Diese zwei Einstellungen stellen Sie sicher, dass Pakete verwaltet werden unabhängig vom Computer (IP-Adresse), die die Pakete gesendet, und welchen Computern (IP-Adresse) wird die Pakete empfangen.
 
 9. Wählen Sie auf Seite vier **TCP und UDP** aus der Dropdownliste **Wählen Sie das Protokoll, dem diese QoS-Richtlinie angewendet wird** . TCP (Transmission Control Protocol) und UDP (User Datagram Protocol) werden die am häufigsten verwendeten zwei Netzwerkprotokollen.
 
 10. Wählen Sie unter der Überschrift **Geben Sie die Quellportnummer** **aus dieser Quellport oder der Bereich**. Geben Sie in das Textfeld zugehörige den Portbereich für audio Übertragungen reserviert. Angenommen, wenn Sie Ports 50000 über Ports 50019 für audio-Datenverkehr reserviert ist, geben Sie den Portbereich, der mit diesem Format: **50000:50019**. Klicken Sie auf **Fertig stellen**.
+
+11. Wiederholen Sie die Schritte 5 bis 10, um Richtlinien für Video und Anwendung/Desktop freigeben, ersetzen die entsprechenden Werte in Schritt 6 und 10 zu erstellen.
 
 Die neuen Richtlinien, die von die Ihnen erstellten werden nicht erst wirksam, Gruppenrichtlinien auf den Clientcomputern aktualisiert wurde. Obwohl Gruppenrichtlinien allein in regelmäßigen Abständen aktualisiert wurde, können Sie eine sofortige Aktualisierung erzwingen.
 
