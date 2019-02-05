@@ -23,6 +23,7 @@
 ## [Erstellen Sie ein Team Org geltende in Teams](create-an-org-wide-team.md)
 ## [Was sind Richtlinien Messaging?](messaging-policies-in-teams.md)
 ## [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md)
+## [Erste Schritte mit Microsoft-Teams Gesundheitswesen Vorlagen](healthcare/healthcare-templates.md)
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Anwesenheit](presence-admins.md)
 ## [Kommunizieren Sie mit Benutzern in anderen Organisationen Teams](let-your-teams-users-communicate-with-other-people.md)
