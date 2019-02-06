@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen verwenden können.
-ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: f553cc3abad8f4490d06099554c188881ef47e24
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678156"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753758"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deaktivieren von gebührenfreie Nummern für bestimmte Skype für Business Online-Benutzern
  
@@ -48,7 +48,7 @@ Wenn für einen bestimmten Organizer gebührenfreie Nummern deaktiviert sind:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer 
 
-Von der **Microsoft-Teams & Skype für Business Admin Center**:
+Aus dem **Microsoft-Teams, Administrationscenter**:
 
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 

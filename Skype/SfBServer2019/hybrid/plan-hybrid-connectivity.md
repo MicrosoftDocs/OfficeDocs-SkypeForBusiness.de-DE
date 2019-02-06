@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Planungsüberlegungen für die Implementierung von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online oder Teams.
-ms.openlocfilehash: ca6fce658443cd100cc03b14730dac722337733d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9e71ec9de7e9ade3502532056ec63826d9f77597
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348944"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753950"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Plan hybridkonnektivität zwischen Skype für Business Server und Office 365
 
@@ -62,7 +62,7 @@ Um hybridkonnektivität zwischen Ihrer lokalen Umgebung und Office 365 Kommunika
     > Sie können nur einen einzelnen Mandanten für eine Hybridkonfiguration mit Ihrer lokalen Bereitstellung verwenden.
 - Azure Active Directory Connect zum Synchronisieren Ihres lokalen Verzeichnisses mit Office 365. Weitere Informationen finden Sie unter [Azure AD-Connect: Konten und Berechtigungen](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 - Skype für Business Server-Verwaltungstools.  Diese sind erforderlich, um Benutzer aus der lokalen in die Cloud zu verschieben. Diese Tools müssen auf einem Server mit Zugriff auf die lokale Bereitstellung sowie dem Internet installiert werden.
-- Online-Verwaltungstools.  Entweder der Teams und Skype für Business-Verwaltungskonsole oder Windows PowerShell können Sie um Teams und Skype für Business Online zu verwalten. Um mithilfe von PowerShell zum Verwalten von Teams oder Skype für Business Online herunter, und installieren Sie die Skype für Business Online Connector.
+- Online-Verwaltungstools.  Entweder der Teams Administrationscenter oder die Windows PowerShell können Sie um Teams und Skype für Business Online zu verwalten. Um mithilfe von PowerShell zum Verwalten von Teams oder Skype für Business Online herunter, und installieren Sie die Skype für Business Online Connector.
 - Freigegebenen SIP-Adressraums muss aktiviert sein, und die lokale Bereitstellung muss konfiguriert werden, um Office 365 als einen Hostinganbieter zu verwenden. Weitere Informationen über die erforderlichen Schritte zum Konfigurieren von hybridkonnektivität finden Sie unter [Configure hybridkonnektivität](configure-hybrid-connectivity.md).
 
 Nach der Konfiguration hybridkonnektivität können Sie Benutzer in Teams oder Skype für Business Online verschieben. Weitere Informationen finden Sie unter [Verschieben von Benutzern aus lokalen Teams](move-users-from-on-premises-to-teams.md) und [Verschieben von Benutzern aus lokal zu Skype für Business Online](move-users-from-on-premises-to-skype-for-business-online.md).

@@ -1,5 +1,5 @@
 ---
-title: Informationen zum Aktualisieren
+title: Info zum Upgrade-Framework
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,14 +14,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 5a9a2bd4bfe1122fe31951f4382340a7bbd57b1f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896147"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754567"
 ---
-# <a name="about-the-upgrade-framework"></a>Informationen zum Aktualisieren
+# <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 
 Mit denen die umständliche Ihrer Reise Upgrade dauern, haben wir eine bewährte Framework für die Implementierung der Änderung beschäftigt. Wie unten dargestellt, sollten jedem Schritt im Rahmen auf die vorherige Schritt und für eine optimale Ergebnisse builds die Schritte in der Reihenfolge.  
 
@@ -123,5 +123,5 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 > Unsere Upgrade Inhalte ist ständig entwickelt. Achten Sie darauf, dass wieder für die neueste Anleitung prüfen und [Teams Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)lesen. 
 
 > [!Important]
-> Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, starten Sie möglicherweise Upgradeoptionen in die PowerShell-Cmdlets oder Teams & Skype für Business-Verwaltungskonsole sehen. Durch die Option aktualisieren bedeutet nicht unbedingt, dass Ihre Organisation bereit, damit diese Änderung ist. Bestätigen Sie für eine optimale Benutzer wünschen, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, überprüfen Sie, ob Ihr Netzwerk ist bereit zur Unterstützung von Teams, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams.
+> Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, starten Sie möglicherweise Upgradeoptionen in den PowerShell-Cmdlets oder Teams Microsoft-Verwaltungskonsole sehen. Die Option für ein Upgrade bedeutet nicht unbedingt, dass Ihre Organisation für diese Änderung bereit ist. Bestätigen Sie für eine optimale Benutzer wünschen, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, überprüfen Sie, ob Ihr Netzwerk ist bereit zur Unterstützung von Teams, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams.
  

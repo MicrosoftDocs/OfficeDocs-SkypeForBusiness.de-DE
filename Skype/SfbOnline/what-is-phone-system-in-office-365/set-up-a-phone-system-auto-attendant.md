@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen Sie zum Einrichten und Testen von Telefonsystem (Cloud, PBX) automatische Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation. '
-ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9e84ea2130238866db61fa222169435772cc7758
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531578"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754153"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale für das Telefonsystem
 
@@ -49,9 +49,9 @@ Wenn Sie weitere Informationen zu automatischen Telefonzentralen finden möchten
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Schritt 2 - Erstellen einer neuen automatischen Telefonzentrale
 
- **Verwenden die Microsoft-Teams & Skype für Business Admin Center**
+ **Verwenden das Microsoft-Teams, Administrationscenter**
 
-In der **Microsoft-Teams & Skype für Business Admin Center**, klicken Sie auf ![Sfb-Logo-30x30.png](../images/sfb-logo-30x30.png) **Legacy-Portal** >  **Anrufrouting** > **automatische Telefonzentralen**, klicken Sie dann auf **+ Neues hinzufügen**:
+Klicken Sie in der **Microsoft-Teams, Administrationscenter**auf ![Sfb-Logo-30x30.png](../images/sfb-logo-30x30.png) **Legacy-Portal** >  **Anrufrouting** > **automatische Telefonzentralen**, klicken Sie dann auf **+ Neues hinzufügen**:
 
 ### <a name="edit-general-info-page"></a>Seite „Allgemeine Informationen bearbeiten"
 

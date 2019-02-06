@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: ccc958aaba8546f1af8f8bb1644d0fdeea8f0860
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594414"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754299"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -153,7 +153,7 @@ Benutzer können sich mit ihre täglichen Aufgaben beschäftigt. Erinnerung an d
 
 *(Aktualisieren Sie Tag)*
 
-Heute ist der Tag, den Ihre Organisation offiziell Teams als Ihrer Lösung zur Kommunikation und Zusammenarbeit aktualisiert. Aktivieren Sie bei der Teams & Skype für Business Admin Center die Option Upgrade durch Festlegen des Koexistenzmodus nur **Teams**. (Wechseln Sie in der Verwaltungskonsole auf die **gesamte Org Einstellungen** > **Teams aktualisieren**.) Benutzer erhalten in ihren Skype für Business-Client eine Benachrichtigung, dass sie auf Teams aktualisiert haben.
+Heute ist der Tag, den Ihre Organisation offiziell Teams als Ihrer Lösung zur Kommunikation und Zusammenarbeit aktualisiert. Aktivieren Sie in der Verwaltungskonsole von Microsoft-Teams, die Option Upgrade durch Festlegen des Koexistenzmodus nur **Teams**. (Wechseln Sie in der Verwaltungskonsole auf die **gesamte Org Einstellungen** > **Teams aktualisieren**.) Benutzer erhalten in ihren Skype für Business-Client eine Benachrichtigung, dass sie auf Teams aktualisiert haben.
 
 Es wird empfohlen, nachdem jeder aktualisiert wurde, senden Sie eine e-Mail-Nachricht angezeigt, deren Teams begrüßt.
 

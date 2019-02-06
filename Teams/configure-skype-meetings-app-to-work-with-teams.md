@@ -3,29 +3,29 @@ title: Konfigurieren der Skype Besprechungen App entwickelt Teams
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
-ms.date: 08/21/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Administratoren können die Microsoft-Teams und Skype-Verwaltungskonsole verwenden so konfigurieren Sie die Skype Besprechungen App entwickelt Teams
+description: Administratoren können Sie die Skype Besprechungen App entwickelt Teams konfigurieren die Microsoft-Teams-Verwaltungskonsole
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d87433b57936534afad05d38cb42e64c798f74e4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e94598822ab321ea514bb41af2fa0e4f8ee57ff0
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853407"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754575"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Konfigurieren der Skype Besprechungen App entwickelt Teams
 ===================================================
 
-Nach ein Benutzer auf die Microsoft-Teams aktualisiert wird, können Administratoren mithilfe des Microsoft-Teams und Skype-Verwaltungskonsole die bevorzugte app angeben, mit denen Benutzer Skype für Business-Besprechungen teilnehmen.
+Nach der Aktualisierung eines Benutzers auf der Microsoft-Teams, können Administratoren das Microsoft-Teams, Administrationscenter an die bevorzugte app, die Benutzern verwendet wird, Skype für Business-Besprechungen teilnehmen.
 
 Um die Skype für Besprechungen App als die bevorzugte app anzugeben:
 
-1. Melden Sie sich bei der Microsoft-Teams und Admin Center.
+1. Melden Sie sich bei der Microsoft-Teams-Verwaltungskonsole.
 2. Wählen Sie im linken Bereich, klicken Sie unter **Einstellungen für die gesamte Org** **Teams zu aktualisieren**.
 3. Die Teams aktualisieren Sie Seite unter **App-Einstellungen**, wählen Sie **Skype Besprechungen App** aus der Dropdownliste **Bevorzugter app für Benutzer Skype für Business Besprechungen beitreten** .
 

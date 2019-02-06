@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können den Typ des audio-Konferenzen und Endbenutzer-PSTN-Anrufe steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: ed61dc5c131dd38d59820f3ccda9682dcf7fd886
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882012"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753472"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
@@ -45,7 +45,7 @@ Ausgehende Anrufe für jeden Benutzer einzeln angewendet werden kann und ermögl
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Einschränken von Audiokonferenzen ausgehende Anrufe 
 
-![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+![Teams-Logo-30x30.png](../images/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
@@ -61,7 +61,7 @@ Ausgehende Anrufe für jeden Benutzer einzeln angewendet werden kann und ermögl
 
 1.  Wechseln Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen** > **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer.
 
-2.  In the Action pane, click **Edit**.
+2.  Klicken Sie im Bereich „Aktion" auf **Bearbeiten**.
 
 3.  Wählen Sie unter **Dial-Outs von Besprechungen dieses Benutzers Einschränkungen**die gewünschte Option der Dial-Out-Einschränkung.
 

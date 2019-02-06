@@ -12,17 +12,14 @@ description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funkt
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594198"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754752"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
-
-> [!Note]
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 In Microsoft-Teams können Benutzer ihre Teams Besprechungen und Gruppe Aufrufe von Audio-, Video- und Bildschirmfreigabe Aktivität erfassen aufzeichnen. Es ist auch eine Option für Aufzeichnungen automatische Lautschrift haben, damit Benutzer wieder besprechungsaufzeichnungen mit Untertitel und suchen Sie nach wichtige Diskussionselemente in der Schulungsunterlagen ausgeführt werden können. Die Aufzeichnung geschieht in der Cloud und wird in [Microsoft Stream](https://docs.microsoft.com/stream/)gespeichert, sodass Benutzer sicher in ihrer Organisation gemeinsam verwendet werden können.
 

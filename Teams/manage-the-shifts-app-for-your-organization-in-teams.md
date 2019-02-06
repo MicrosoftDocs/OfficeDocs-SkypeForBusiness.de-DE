@@ -1,5 +1,5 @@
 ---
-title: Verwalten der app Schichten für Ihre Organisation im Microsoft-Teams
+title: Verwalten der App Schichten für Ihre Organisation in Microsoft Teams
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
-ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
+ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28022915"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754527"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der app Schichten für Ihre Organisation im Microsoft-Teams
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der App Schichten für Ihre Organisation in Microsoft Teams
 
 > [!IMPORTANT]
 > Die Übermittlung wirksamer wird 1 Oktober 2019, Microsoft StaffHub zurückgezogen werden. Wir sind StaffHub Funktionen, einschließlich Zeitplan und Task Management in Microsoft-Teams erstellen. Zusätzliche Funktionen für Firstline Mitarbeiter werden über einen Zeitraum Teams einführen. Weitere Informationen finden Sie unter [Microsoft StaffHub zurückgezogen werden](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  
@@ -49,7 +49,7 @@ Verschiebt Daten werden derzeit in Azure in Rechenzentren in Nordamerika, Wester
 Schichten ist standardmäßig für alle Teams Benutzer in Ihrer Organisation aktiviert. Sie können deaktivieren oder Aktivieren der app für Ihre Organisation in der Microsoft-365-Verwaltungskonsole.
 
 1. Melden Sie sich bei Microsoft 365 Administrationscenter mit Ihrem Office 365-Admin-Konto.
-2. Wechseln Sie zu **Einstellungen** > **Services & -add-ins** > **Microsoft-Teams**. 
+2. Wechseln Sie zu **Einstellungen** > **Services &-add-ins** > **Microsoft-Teams**. 
 3. Klicken Sie unter **Einstellungen für die gesamte Mandanten** **Apps**, und deaktivieren Sie unter **Default Apps**, ein, oder aktivieren Sie das Kontrollkästchen **Schichten** deaktivieren oder aktivieren Sie die app. 
 
     ![Screenshot des Abschnitts Standard-Apps] (media/firstline-worker-enable-disable-shifts.png "Screenshot des Abschnitts Standard-Apps in der Microsoft-365-Verwaltungskonsole mit der Liste der apps, einschließlich app-Schichten")
@@ -62,13 +62,13 @@ Richtlinien für die App Setup können Sie Teams zum Hervorheben von apps, die f
  
 Teams umfasst eine integrierte FirstLineWorker app Setup-Richtlinie, die Sie in Ihrer Organisation Mitarbeiter Firstline zuweisen können. Standardmäßig enthält die Richtlinie die Aktivität, Schichten, Chat und Aufrufen von apps. 
 
-Die Richtlinie FirstLineWorker im linken Navigationsbereich von Microsoft-Teams & Skype für Business Admin Center wechseln Sie zum Anzeigen **Teams**App > **Setup Richtlinien für die App**.
+Um die Richtlinie FirstLineWorker von der Microsoft-Teams-Verwaltungskonsole im linken Navigationsbereich anzuzeigen, wechseln Sie zu **Teams app** > **Setup Richtlinien für die App**.
 
-![Screenshot der FirstLineWorker app Setup Richtlinie in der Microsoft-Teams & Skype für Business Admin Center] (media/firstline-worker-app-setup-policy.png "Screenshot der FirstLineWorker app Setup Richtlinie in der Microsoft-Teams & Skype für Business Admin Center")
+![Screenshot der FirstLineWorker app Setup Richtlinie in der Verwaltungskonsole von Microsoft-Teams] (media/firstline-worker-app-setup-policy.png "Screenshot der FirstLineWorker app Setup Richtlinie in der Verwaltungskonsole von Microsoft-Teams")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Zuweisen der Richtlinie FirstLineWorker für einzelne Benutzer
 
-1. Im linken Navigationsbereich von Microsoft-Teams & Skype für Business Admin Center wechseln Sie zu dem **Benutzer**, und klicken Sie dann auf Benutzer.
+1. Im linken Navigationsbereich von Microsoft-Teams, Administrationscenter wechseln Sie zu dem **Benutzer**, und klicken Sie dann auf Benutzer.
 2. Neben **zugewiesene Richtlinien**wählen Sie **Bearbeiten**aus.
 3. Wählen Sie unter **Teams App Setup Richtlinie** **FirstLineWorker**aus, und wählen Sie dann auf **Speichern**.
 

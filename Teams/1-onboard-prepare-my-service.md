@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 21cd36632f04060a50bd4fa6f742a5e7972ebec6
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593934"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753500"
 ---
 # <a name="prepare-my-service"></a>Meine Service vorbereiten
 
@@ -50,7 +50,7 @@ Obwohl es wird empfohlen, dass Sie die Prüflisten in Reihenfolge ausführen, wi
 Wenn Sie Onboarding-Benutzer auf eine Websitebasis sind, empfehlen wir nachdrücklich für die Verwendung der [Website Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) als zusätzliche Anleitung zu dieser Prüflisten.
 
 >[!NOTE]
->Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Verwenden Sie die Office 365 Admin Center und Teams & Skype für Business Admin Center, um diese Einstellungen zu konfigurieren.
+>Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Sie verwenden die Verwaltungskonsole von Office 365 Admin Center und Microsoft-Teams, um diese Einstellungen zu konfigurieren.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Aufsicht über den Abschluss der Onboarding Prüflisten zuständig sein?</li></ul></td></tr>

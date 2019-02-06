@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bff0bc862313ecf5ef85152797266b8cc40b2be
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e948685a1a49920ca7cf200435266e2cbaaf165d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349381"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754834"
 ---
 # <a name="upgrade-pro"></a>Pro aktualisieren
 
@@ -122,4 +122,4 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 > Unsere Pro Upgrade Inhalte ist ständig entwickelt. Achten Sie darauf, dass wieder für die neueste Anleitung prüfen und [Teams Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)lesen.
 
 > [!Important]
-> Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, können Sie Upgradeoptionen in den PowerShell-Cmdlets oder Teams & Skype für Business-Verwaltungskonsole sehen starten. Durch die Option aktualisieren bedeutet nicht unbedingt, dass Ihre Organisation bereit, damit diese Änderung ist. Bestätigen Sie für eine optimale Benutzer wünschen, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, überprüfen Sie, ob Ihr Netzwerk ist bereit zur Unterstützung von Teams, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams.
+> Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, starten Sie möglicherweise Upgradeoptionen in den PowerShell-Cmdlets oder Teams Microsoft-Verwaltungskonsole sehen. Die Option für ein Upgrade bedeutet nicht unbedingt, dass Ihre Organisation für diese Änderung bereit ist. Bestätigen Sie für eine optimale Benutzer wünschen, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, überprüfen Sie, ob Ihr Netzwerk ist bereit zur Unterstützung von Teams, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams.

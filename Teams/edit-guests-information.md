@@ -12,19 +12,19 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Administratoren im Azure Active Directory-Portal Informationen zu Gastbenutzern bearbeiten können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc3353626831f760cca0732be93cd8605207e23c
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 2e630a95ca836881d3d322b76916382c1188261f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706243"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753446"
 ---
 <a name="edit-guest-user-information"></a>Bearbeiten von Gastbenutzerinformationen
 ===========================
 
 Um Gastkonten zu bearbeiten (zum Beispiel den Anzeigenamen oder das Profilfoto), navigieren Sie zu Ihrem Azure Active Directory-Portal. Weitere Informationen finden Sie unter [Grundlegendes zu Office 365-Identitäten und Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
 
-Gast Informationen aus der Microsoft-Teams & Skype für Business Admin Center, Microsoft 365 Administrationscenter oder die Exchange-Verwaltungskonsole kann nicht derzeit nicht bearbeitet werden.
+Gast Informationen aus der Microsoft-Teams,-Verwaltungskonsole, Microsoft 365 Administrationscenter oder die Exchange-Verwaltungskonsole kann nicht derzeit nicht bearbeitet werden.
 
 ## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
 

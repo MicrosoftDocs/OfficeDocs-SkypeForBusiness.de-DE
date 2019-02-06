@@ -21,25 +21,25 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: 29fd127fd132d953aafcec46807e2fd6012e7c4b
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 280c873385b29a7381d6bb9f4d3aae2d52a3bc1d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347411"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754760"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
-Beim Einrichten von **Audiokonferenzen** für Microsoft-Teams werden Zugriffsnummer für Einwahl Rufnummern Ihrer Organisation automatisch zugewiesen. Auf das Telefon finden Sie unter von Zahlen, die Ihre audiokonferenzbrücke im Microsoft-Teams & Skype für Business Admin Center zugewiesen sind, wechseln Sie zu **Besprechungen** > **Konferenzbrücken**. Weitere Informationen finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Wenn Sie **Audiokonferenzen** für Microsoft Teams einrichten, werden Ihrer Organisation automatisch Dial-in-Telefonnummern zugewiesen. Auf das Telefon finden Sie unter von Zahlen, die Ihre audiokonferenzbrücke in der Verwaltungskonsole von Microsoft-Teams zugewiesen sind, wechseln Sie zu **Besprechungen** > **Konferenzbrücken**. Weitere Informationen finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Verfügbarkeit von Audiokonferenzen und Preise
 
-Eine vollständige Liste aller Länder/Regionen und Städte, wo Audiokonferenzen verfügbar ist, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Infos über die Preise finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Eine vollständige Liste aller Länder/Regionen und Städte, in denen Audiokonferenzen verfügbar sind, finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Dial-in-Telefonnummern in einer Besprechungseinladung
 
-Wenn ein Benutzer Microsoft-Teams, eine Besprechung in Outlook oder Outlook Web App plant, ist die Standardnummer für Audiokonferenzen, die für den Benutzer festgelegt ist in der besprechungseinladung enthalten. Wenn Sie eine andere Standardnummer für einen oder mehrere Benutzer auswählen möchten, können Sie, die für **Benutzer**, den Benutzer auswählen, und Bearbeiten des Benutzers Audiokonferenzen Einstellungen ändern. Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites-in-teams.md).
+Wenn Microsoft Teams-Benutzer in Outlook oder Outlook Web App eine Besprechung planen, wird die für sie festgelegte standardmäßige Audiokonferenz-Telefonnummer in der Besprechungseinladung angegeben. Wenn Sie eine andere Standardnummer für einen oder mehrere Benutzer auswählen möchten, können Sie, die für **Benutzer**, den Benutzer auswählen, und Bearbeiten des Benutzers Audiokonferenzen Einstellungen ändern. Siehe [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Für eine Audiokonferenzbrücke festgelegte Dial-in-Telefonnummern
@@ -62,14 +62,14 @@ Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnumm
 > Das Land bzw. die Region, in dem bzw. in der sich Ihre Organisation befindet, finden Sie nach der Anmeldung beim **Office 365 Admin Center** unter **Organisationsprofil**. 
   
 > [!CAUTION]
-> Aufgrund der begrenzten Verfügbarkeit gebührenpflichtige Telefonnummer des in Venezuela, Indonesien und Vereinigte Arabische Emirate (Vereinigte Arabische Emirate) keine Organisationen aus diesen Ländern/Regionen eine Audiokonferenz gebührenpflichtige Nummer automatisch zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 
+> Aufgrund der eingeschränkten Verfügbarkeit von gebührenpflichtigen Telefonnummern in Venezuela, Indonesien und den Vereinigten Arabischen Emiraten wird Organisationen aus diesen Ländern/Regionen nicht automatisch eine gebührenpflichtige Audiokonferenz-Telefonnummer zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 
   
 
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
 - Die Liste der unterstützten Sprachen für Audiokonferenzen finden Sie unter [Unterstützte Sprachen für Audiokonferenzen](audio-conferencing-supported-languages.md).
     
-- Sie können bis zu vier Sprachen für jede Telefonnummer für die Audiokonferenz - festlegen ein primärer und sekundärer drei. Und Sie können auch Sprachen bei einer dedizierten Audiokonferenzen Rufnummer festlegen.
+- Für jede Audiokonferenz-Telefonnummer können Sie bis zu vier Sprachen einrichten: eine primäre und drei sekundäre. Sie können auch die Sprachen für eine dedizierte Audiokonferenz-Telefonnummer festlegen.
     
 - Informationen zum Festlegen der Dial-in-Telefonnummer für einen Benutzer finden Sie unter [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
 

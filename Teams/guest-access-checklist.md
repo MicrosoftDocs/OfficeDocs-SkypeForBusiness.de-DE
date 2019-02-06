@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 660b838c38da478be2f1226fcdd1b104c3b10b54
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706371"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753932"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================
@@ -86,9 +86,9 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [V
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Schritt 3: Aktivieren des Zugriffs auf der Ebene der Mandant Gast
 
-Zumindest müssen Sie Gast Access für Microsoft-Teams, unter der **Microsoft-Teams & Skype für Business Admin Center**aktivieren. 
+Zumindest müssen Sie Gast Access für Microsoft-Teams, unter der **Microsoft-Teams, Administrationscenter**aktivieren. 
 
-1. Wählen Sie in der & Teams Skype für Business Admin Center **Org geltende Einstellungen** > **Gastzugriff**.
+1. Wählen Sie in der Verwaltungskonsole Teams **Org geltende Einstellungen** > **Gastzugriff**.
 2. Legen Sie die Option **Zulassen Gast Access in Microsoft-Teams** auf **aktiviert**.
 
     ![Screenshot zeigt ein Beispiel für eine Umschaltfläche Teams Einstellungen](media/set-up-guests-image1.png)

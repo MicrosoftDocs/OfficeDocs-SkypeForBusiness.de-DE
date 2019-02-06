@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 2fc37cbf4774f4d8f097f27d50cc3f7c8e4bf5bf
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706259"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753492"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
 ======================================
@@ -35,9 +35,9 @@ Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca.
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Konfigurieren des Zugriffs von Gast in der Teams & Skype für Business Administrationscenter
+## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Konfigurieren des Zugriffs von Gast in der Verwaltungskonsole von Microsoft-Teams
 
-1.  Melden Sie sich bei der Teams & Skype für Business Administrationscenter an.
+1.  Melden Sie sich bei der Microsoft-Teams-Verwaltungskonsole.
 
 2.  Wählen Sie **gesamte Org Einstellungen** > **Gastzugriff**.
 

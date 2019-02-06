@@ -1,5 +1,5 @@
 ---
-title: Kommunizieren Sie mit Benutzern in einer anderen Organisation Teams
+title: Kommunizieren mit Microsoft Teams-Benutzern in einer anderen Organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Finden Sie unter Konfigurieren von Teams, damit die Benutzer mit Benutzern in anderen Organisationen kommunizieren können.
-ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240840"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754728"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
 
@@ -43,7 +43,7 @@ Gehen Sie folgendermaßen vor.
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Schritt 2: Aktivieren Ihrer Organisation, um die Kommunikation mit einer anderen Organisation von Teams
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **unter Verwendung der Microsoft-Teams und Skype für Business Admin Center**
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
    1. Wechseln Sie im linken Navigationsbereich **Org geltende**Einstellungen > **externen Zugriff**. 
 

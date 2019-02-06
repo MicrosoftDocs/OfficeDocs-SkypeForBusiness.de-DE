@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: be1aa39a73cf5c4a28866ac8b702afebeb992b0d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706323"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753819"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================
@@ -75,7 +75,7 @@ Azure AD-Lizenzierung können Sie bis zu 5 Gäste pro Lizenz hinzufügen. Weiter
 
 In Teams können Sie steuern, ob die Erfahrung Gast aktiviert oder für Ihre Organisation deaktiviert ist. Diese Einstellung ist standardmäßig deaktiviert und auf der Ebene der Mandant gilt für Teams nur.
 
-Sie können aus der Microsoft-Teams & Skype für Business Admin Center Teams Gast Access-Einstellungen verwalten. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md). 
+Sie können Teams Gast Access-Einstellungen aus dem Microsoft-Teams, Administrationscenter verwalten. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md). 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Steuern des Zugriffs Gast in Office 365-Gruppen

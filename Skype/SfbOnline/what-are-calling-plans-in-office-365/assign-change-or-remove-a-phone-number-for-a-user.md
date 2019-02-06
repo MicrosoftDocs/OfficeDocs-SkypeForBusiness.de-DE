@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Erfahren Sie, wie Sie Ihren Skype for Business-Benutzern eine berufliche Telefonnummer zuweisen oder sie ändern oder entfernen können, damit Unternehmen und Kunden von außerhalb anrufen können.
-ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+ms.openlocfilehash: 4e0189f29b2e7f8324e378c4ad314f8a55a8fa0b
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374658"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754868"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -58,7 +58,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Navigieren Sie zum **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **VoIP-Benutzer**.
    > [!NOTE]
@@ -73,7 +73,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 6. Wählen Sie auf der Seite **Nummer zuweisen** in der Dropdown-Liste **Zuzuweisende Nummer auswählen** die Telefonnummer für den Benutzer aus.
     
     > [!TIP]
-    > Wenn Sie alle aufgeführten Telefonnummern nicht angezeigt wird, müssen Sie zunächst zum [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md) . Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
+    > Wenn Sie alle aufgeführten Telefonnummern nicht angezeigt wird, müssen Sie zunächst zum [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md) . Alternativ können Sie, wenn Sie die Seite **Skype for Business Admin Center** > **VoIP** > **Telefonnummern** verwenden, auf **Hinzufügen** und dann auf **Neue Nutzernummern** klicken. 
   
 7. Um die zugeordnete Notfalladresse zuzuweisen oder zu ändern, wählen Sie unter **Auswählen des gültigen Notfallorts** den Standort aus der Liste aus. Wenn viele Standorte definiert sind, können Sie alternativ den Namen der Stadt in das Suchfeld eingeben und auf **Suchen** klicken.
     
@@ -90,7 +90,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Navigieren Sie zum **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **VoIP-Benutzer**.
     
@@ -114,7 +114,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Navigieren Sie zum **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **VoIP-Benutzer**.
     

@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2243e1420e2bd1046789669168834cff2125c4ac
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: b4b80b514961057eaba1c3a11d49b0e1696110d1
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349460"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754802"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
@@ -56,7 +56,7 @@ Obwohl es wird empfohlen, dass Sie die Prüflisten in Reihenfolge ausführen, wi
 Wenn Sie Onboarding-Benutzer auf eine Websitebasis sind, empfehlen wir nachdrücklich für die Verwendung der [Website Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) als zusätzliche Anleitung zu dieser Prüflisten.
 
 >[!NOTE]
->Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Verwenden Sie die Microsoft-Teams & Skype für Business Admin Center, um diese Einstellungen zu konfigurieren.
+>Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Verwenden Sie das Microsoft-Teams, Administrationscenter, um diese Einstellungen konfigurieren.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkt</td><td><ul><li>Wer wird für die Aufsicht über den Abschluss der Onboarding Prüflisten zuständig sein?</li></ul></td></tr>

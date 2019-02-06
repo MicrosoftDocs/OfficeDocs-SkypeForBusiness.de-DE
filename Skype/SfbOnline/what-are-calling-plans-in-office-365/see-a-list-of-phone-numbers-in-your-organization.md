@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie eine Liste der Rufnummern in Ihrer Organisation, alle Zahlen, die Benutzern zugewiesen und die Nummern, die VoIP-Benutzern, aus der Skype für Business Administrationscenter zugewiesen sind, angezeigt.
-ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370699"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753482"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
@@ -39,7 +39,7 @@ Es gibt verschiedene Arten von Rufnummern, die Sie auf Benutzer oder andere Dien
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **Telefonnummern**.
     
@@ -71,14 +71,14 @@ Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonn
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **VoIP-Benutzer**.
     
     > [!IMPORTANT]
     > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
+4. Sie können Ihre Ansicht für Rufnummern, die Benutzern zugewiesen sind, oder Rufnummern, die Sie einem Benutzer zuweisen können filtern. Sie können nach folgenden Kriterien filtern:
     
    - **Alle** Telefonnummern einschließlich Servicetelefonnummern
     
@@ -95,14 +95,14 @@ Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen u
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Wechseln Sie in der linken Navigationsleiste des **Skype for Business Admin Center**zu **VoIP** > **VoIP-Benutzer**.
     
     > [!IMPORTANT]
     > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
     
-4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
+4. Sie können die Dropdown-Liste verwenden, zum Filtern der Ansicht für aktive Benutzer, ob der Benutzer Online oder lokal, oder der Status und Typ der Lizenzierung für einen Benutzer ist. Sie können nach folgenden Kriterien filtern:
     
    - **Aktive Benutzer** sowie Online-Benutzer oder lokale Benutzer
     

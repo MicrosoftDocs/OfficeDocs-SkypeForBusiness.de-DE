@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afc1d0374333fdbb0bec9246d04224c6a82f032
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 466160616adea80a2fcb6a3bfd035ca397d73754
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532702"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754426"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>Verwenden der Inlineübersetzung von Nachrichten in Microsoft Teams 
 =================================================
@@ -40,9 +40,9 @@ Sie können das Feature zum Inline-Nachricht Übersetzung mithilfe der Gruppenri
 1. Aktivieren Sie die Richtlinie mit dem Cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .
 2. Die Richtlinie hat ein paar Minuten anwenden. Benutzer müssen sich abmelden und wieder anmelden, um Teams.
 
-## <a name="enable-by-using-the-microsoft-teams--skype-for-business-admin-center"></a>Aktivieren Sie mithilfe der Microsoft-Teams & Skype für Business Admin Center
+## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>Aktivieren Sie mithilfe der Verwaltungskonsole von Microsoft-Teams
 
-Wählen Sie in der **Microsoft-Teams & Skype für Business Admin Center**in der linken Leiste **Messaging Policies** , klicken Sie dann entweder eine neue Richtlinie erstellen oder Bearbeiten einer vorhandenen Richtlinie und die Option **Benutzer können Nachrichten übersetzen** **festlegen, auf **.
+Wählen Sie in der **Microsoft-Teams, Administrationscenter**in der linken Leiste **Messaging Policies** , klicken Sie dann entweder eine neue Richtlinie erstellen oder Bearbeiten einer vorhandenen Richtlinie und legen Sie die Option **Benutzer zulassen, um Nachrichten zu übersetzen** , **Klicken Sie auf**.
 
 > [!NOTE]
 >Übersetzung wird vom Dienst erfolgt, und an den Client Layoutelemente ohne Auswirkung auf die Inhalte in die Compliance-Datensätze erfasst übermittelt. Weitere Informationen zur Übersetzung hierzu finden Sie unter [Was ist Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).

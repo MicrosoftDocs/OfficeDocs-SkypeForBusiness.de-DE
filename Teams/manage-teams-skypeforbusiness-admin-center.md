@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center
+title: Verwalten von Teams während der Übergang zur neuen Microsoft-Teams-Verwaltungskonsole
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Weitere Informationen zum Verwalten von Mandanten geltende und von Einstellungen für Teams während des Übergangs von den Teams Erfahrung in der Office 365-Verwaltungskonsole auf die neue Microsoft-Teams & Skype für Business Admin Center.
+description: Weitere Informationen zum Verwalten von Mandanten geltende und von Einstellungen für Teams während des Übergangs von den Teams Erfahrung in der Office 365-Verwaltungskonsole zur neuen Microsoft-Teams-Verwaltungskonsole.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -16,30 +16,30 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: b3305efee9636dfff391fc9a851227cf215b719a
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649533"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753536"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Verwalten von Teams während des Übergangs auf die neue Microsoft-Teams & Skype für Business Admin Center
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Teams während der Übergang zur neuen Microsoft-Teams-Verwaltungskonsole
 ======================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams--skype-for-business-admin-center"></a>Was ist der neue Microsoft-Teams und Skype für Business Admin Center?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Was ist der neue Microsoft-Teams-Verwaltungskonsole?  
 
 Die neue Oberfläche von Admin Center wird Ihnen ein einheitliches Benutzererlebnis zum Verwalten von Teams und Skype für Unternehmen bereitstellen. Wir sind zusätzliche Funktionalität, Einblicke in die End-to-End- und die Möglichkeit zum Verwalten von Einstellungen für Teams auf Benutzerebene übermitteln.
 
-![Screenshot des Microsoft-Teams & Skype für Business Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Screenshot des Teams für Microsoft-Verwaltungskonsole.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Einstellungen migriert in der neuen Microsoft-Teams & Skype für Business-Verwaltungskonsole
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Einstellungen migriert in der neuen Microsoft-Teams-Verwaltungskonsole
 
 Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurden, und zeigt die Beziehung zwischen der aktuellen Einstellungen und Richtlinien in das neue Administratorportal.
 
-|Abschnitt Teams in Office 365 Administrationscenter  |Name der Einstellung (Mandanten Level)  |Microsoft-Teams & Skype für Business Admin Center-Richtlinie   |Stufe: Mandanten oder Benutzer   |
+|Abschnitt Teams in Office 365 Administrationscenter  |Name der Einstellung (Mandanten Level)  |Microsoft-Teams, Admin Center-Richtlinie   |Stufe: Mandanten oder Benutzer   |
 |---------|---------|---------|---------|
 |Allgemein     |Organisatorische Chat im persönlichen Profil anzeigen        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Mandanten       |
 |Allgemein     |Verwenden Sie Skype für Unternehmen für Empfänger, die nicht über Teams verfügen         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
@@ -67,7 +67,7 @@ Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurd
 |Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten löschen         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 |Messaging     |Ermöglicht es Benutzern, privat chat         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 
-<sup>1</sup> Gast veraltet. Aktivieren/Deaktivieren von Gast können nun im Microsoft-Teams & Skype für Business Admin Center verwaltet werden. Aktivieren/Deaktivieren von Unternehmen, Edu Student, Teams und Edu Fakultät bald unterstützt. Dies sollte durch Zuweisen von Lizenzen im Office 365 Administrationscenter verwaltet werden. Finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md).
+<sup>1</sup> Gast veraltet. Aktivieren/Deaktivieren von Gast können jetzt in der Verwaltungskonsole von Microsoft-Teams verwaltet werden. Aktivieren/Deaktivieren von Unternehmen, Edu Student, Teams und Edu Fakultät bald unterstützt. Dies sollte durch Zuweisen von Lizenzen im Office 365 Administrationscenter verwaltet werden. Finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md).
 
 > [!NOTE]
 > Sie können weiterhin das Gruppen-Dashboard im Office 365 Administrationscenter für die Konfiguration im Zusammenhang mit der Teams und Kanäle verwenden. Einstellungen für Apps bleibt im Bereich Teams von Office 365 Administrationscenter und migriert werden weiter unten. 
@@ -78,7 +78,7 @@ Sie können weiterhin Ändern der Einstellungen in der Office 365-Verwaltungskon
 
 Die folgende Tabelle zeigt, wo Sie Features während der Migration verwalten können.
 
-|Funktion  |Microsoft-Teams & Skype für Business Admin Center                       |Skype für Business Administrationscenter (Legacy)  |Office 365 Administrationscenter  |
+|Funktion  |Microsoft-Teams, Administrationscenter                      |Skype für Business Administrationscenter (Legacy)  |Office 365 Administrationscenter  |
 |---------|:---------:|:---------:|:---------:|
 |Richtlinien für Messaging, Besprechungen und Ereignisse Live-Teams     |     X    |         |         |
 |Upgrade Richtlinie Teams     |    X     |         |         |
@@ -97,6 +97,6 @@ Die folgende Tabelle zeigt, wo Sie Features während der Migration verwalten kö
 
 ## <a name="manage-settings-after-the-migration"></a>Verwalten von Einstellungen nach der migration
 
-Klicken Sie nach Abschluss die Migration der diese Einstellungen werden wir sie in Office 365 Administrationscenter und die Skype für Business Administrationscenter zu deaktivieren, und können dann in der neuen Microsoft-Teams & Skype für Business Admin Center verwaltet werden.
+Klicken Sie nach Abschluss die Migration der diese Einstellungen werden wir sie in Office 365 Administrationscenter und die Skype für Business Administrationscenter zu deaktivieren, und können dann in der neuen Microsoft-Teams-Verwaltungskonsole verwaltet werden.
 
 

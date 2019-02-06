@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: Hier erfahren Sie, mit den verschiedenen Administratorrollen Teams verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26b9342703fbfd25992821984b2f40638d7bda62
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 824c9d93c98bb1f6fd9af0cbb93bac24f84e926e
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789198"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754315"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams
 
@@ -23,20 +23,20 @@ Azure Active Directory (AD Azure) können Sie Administratoren festlegen, die unt
 
 ## <a name="teams-roles-and-capabilities"></a>Teams Rollen und Funktionen
 
-Es stehen vier Administratorrollen für Teams zur Verfügung: Dienstadministrator Teams, Teams Communications Administrator, Teams Communications Supportspezialisten und Teams Communications Engineer Unterstützung. Überprüfen Sie in der folgenden Tabelle, um zu verstehen, was jede Rolle möglich ist, und die den Administrator tools für Business Admin Center und PowerShell in der Teams und Skype verwenden kann.
+Es stehen vier Administratorrollen für Teams zur Verfügung: Dienstadministrator Teams, Teams Communications Administrator, Teams Communications Supportspezialisten und Teams Communications Engineer Unterstützung. Überprüfen Sie die Tabelle, um zu verstehen, was jede Rolle möglich ist, und die den Administrator tools in der Microsoft-Teams-Verwaltungskonsole und PowerShell verwenden kann.
 
 <!-- add Global admin role? -->
 
 | Rolle | Können diese Aufgaben | Können die folgenden Tools zugreifen |
 |----- | ------------------ | ------------------------------ |
-| Teams-Dienstadministrator | Verwalten des Diensts Microsoft-Teams und verwalten und Erstellen von Gruppen für Office 365 | Alles in der Microsoft-Teams & Skype für Business Admin Center und zugehörige PowerShell-Steuerelemente, einschließlich:<br><br> Verwalten von Besprechungen, einschließlich Besprechungsanfragen Richtlinien, Konfigurationen und Konferenz Brücken<sup>1,3</sup><br><br> Verwalten von VoIP, darunter den Aufruf von Richtlinien und den Telefon-Zahl Inventar und Zuweisung<sup>1</sup><br><br> Verwalten von messaging, einschließlich Richtlinien<sup>1,3</sup> messaging<br><br> Verwalten von Einstellungen für alle Org geltende, einschließlich Verbund, Teams Upgrade und Teams Clienteinstellungen<sup>1,3</sup><br><br> Verwalten der Teams in der Organisation sowie die zugehörigen Einstellungen, einschließlich des Mitgliedschaftsanbieters (Gruppenmanagement über PowerShell Teammanagement in der Einführung der Administratorportal unterstützt) <sup>23</sup><br><br> Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> |
+| Teams-Dienstadministrator | Verwalten des Diensts Microsoft-Teams und verwalten und Erstellen von Gruppen für Office 365 | Alles in der Microsoft-Teams-Verwaltungskonsole und die zugehörigen PowerShell-Steuerelemente, einschließlich:<br><br> Verwalten von Besprechungen, einschließlich Besprechungsanfragen Richtlinien, Konfigurationen und Konferenz Brücken<sup>1,3</sup><br><br> Verwalten von VoIP, darunter den Aufruf von Richtlinien und den Telefon-Zahl Inventar und Zuweisung<sup>1</sup><br><br> Verwalten von messaging, einschließlich Richtlinien<sup>1,3</sup> messaging<br><br> Verwalten von Einstellungen für alle Org geltende, einschließlich Verbund, Teams Upgrade und Teams Clienteinstellungen<sup>1,3</sup><br><br> Verwalten der Teams in der Organisation sowie die zugehörigen Einstellungen, einschließlich des Mitgliedschaftsanbieters (Gruppenmanagement über PowerShell Teammanagement in der Einführung der Administratorportal unterstützt) <sup>23</sup><br><br> Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> |
 | Teams-Kommunikationsadministrator | Verwalten von Anruf- und Besprechungsfunktionen innerhalb des Microsoft Teams-Diensts | Verwalten von Besprechungen, einschließlich Besprechungsanfragen Richtlinien, Konfigurationen und Konferenz Brücken<sup>1,3</sup><br><br> Verwalten von VoIP, darunter den Aufruf von Richtlinien und den Telefon-Zahl Inventar und Zuweisung<sup>1</sup><br><br> Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> |
 | Teams-Kommunikationssupporttechniker | Problembehandlung bei Kommunikationsproblemen in Teams mithilfe von **erweiterten** Tools. | Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> |
 | Teams Communications-Supportspezialisten | Problembehandlung bei Kommunikationsproblemen in Teams mithilfe von **grundlegenden** Tools.| Zugriff auf der Profilseite des Benutzers für die Problembehandlung bei ruft in Analytics aufrufen. Kann nur Benutzerinformationen für den gesuchten Benutzer anzeigen.<sup>3</sup>
 
 <sup>1</sup> [PowerShell - Skype für Business-Modul](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - Modul für Microsoft-Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [Microsoft-Teams und Skype für Business Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [-Verwaltungskonsole Microsoft-Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
@@ -55,7 +55,7 @@ Die meisten PowerShell Tools für diese Administratorrollen live in der Skype f�
    a. $session = neue Csonlinesession<br>
    b. Import-Pssession $session<br>
    c. Verwenden Sie **Get-Modul** , um den Namen der importierten Sitzung identifizieren (einen willkürlich generierten Namen wird sein).<br>
-3. Verwendung **Get-Command - Modul** <*Namen von oben*> zum Identifizieren aller verfügbaren Cmdlets
+3. Verwendung **Get-Command - Modul** <> zum Identifizieren aller verfügbaren Cmdlets*Namen von oben*
 
 ### <a name="related-topics"></a>Verwandte Themen
 

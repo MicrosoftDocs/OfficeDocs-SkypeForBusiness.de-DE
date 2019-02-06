@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Hier erfahren Sie, was für die Migration zu direkten Routing von einer Skype für Business Online und Teams Konfiguration Perspektive erforderlich ist.
-ms.openlocfilehash: 21ca5c94e07a6ff3ae7f5eb59d3f82c3aa78cc83
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016189"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754471"
 ---
 # <a name="migrating-to-direct-routing"></a>Migrieren zu direkten Routing
 
@@ -40,7 +40,7 @@ Die folgende Tabelle zeigt Endstatus für einen Benutzer für den ausgewählten 
 |Benutzerattribute-Objekt |Telefonsystem mit Anrufplänen|Phone System mit lokalen PSTN-Anbindung über Skype für Business Server|Telefon-System mit lokalen PSTN-Anbindung über Cloud-Connector|Telefon-System mit lokalen PSTN-Anbindung über direkte Routing|
 |---|---|---|---|---|
 |Client|Skype für Geschäftskunden und Teams |Skype for Business |Skype for Business |Microsoft Teams|
-|Lizenzen|Skype-Business Online</br>Planen von 2</br></br>MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)</br></br></br>Anrufpläne</br>Microsoft Teams|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD</br></br></br>Telefonsystem (MCOEV)</br></br>Microsoft Teams|
+|Lizenzen|Skype-Business Online</br>Planen von 2</br></br>MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)</br></br></br>Anrufpläne</br>Teams|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD</br></br></br>Telefonsystem (MCOEV)</br></br>Teams|
 OnPremLineURI |n/v|Die Telefonnummer synchronisiert werden muss, aus der lokalen AD. |Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden.|Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden. Wenn die Organisation der lokale Skype für Unternehmen verfügt, muss die Nummer aus der lokalen Active Directory synchronisiert werden.|
 |"Lineuri"|Aufrufen von PSTN-Telefonnummer|Legen Sie automatisch aus dem OnPremLineURI-parameter|Legen Sie automatisch aus dem OnPremLineURI-parameter|Legen Sie automatisch aus dem OnPremLineURI-parameter|
 |EnterpriseVoiceEnabled|True|True|True|True|
@@ -50,7 +50,7 @@ OnPremLineURI |n/v|Die Telefonnummer synchronisiert werden muss, aus der lokalen
 |VoiceRoutingPolicy|Hat den Wert|Hat den Wert|Hat den Wert|n/v|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|Hat den Wert|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly oder Inseln|$Null|$Null|Inseln oder TeamsOnly|
-|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – lesen Sie bitte den Hinweis unten.|Teams oder SfB |SfB|SfB|Microsoft Teams|
+|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – lesen Sie bitte den Hinweis unten.|Teams oder SfB |SfB|SfB|Teams|
 |TeamsCallingPolicy</br>AllowPrivateCalling|True|n/v|n/v|True|
 |TeamsCallingPolicy</br>AllowGroupCalling|True|n/v|n/v|True|
 ||||||
@@ -59,7 +59,7 @@ OnPremLineURI |n/v|Die Telefonnummer synchronisiert werden muss, aus der lokalen
 
 <sup>2</sup> Als zuvor bekannt gegebenen TeamsInteropPolicy (für das Ende des Q3 gezielte) zurückgezogen und seine Funktionalität ist in TeamsUpgradePolicy konsolidiert werden. Interoperabilität und Migration werden mit "Koexistenzmodus", wie durch TeamsUpgradePolicy, bestimmt das jetzt verfügbar ist verwaltet werden. Auswahl des Benutzers Modus wird gesteuert, beide routing von eingehenden Anrufen und Chats und der Benutzer kann in der Clientcomputer Chats und Anrufe initiieren oder Besprechungen planen. Während der TeamsInteropPolicy gültig ist, muss sie während der Phaseout parallel mit TeamsUpgradePolicy festgelegt werden.  
 
-Im Rahmen der Maßnahme hat Microsoft kürzlich der "Microsoft-Teams & Skype für Business-Verwaltungskonsole" (auch bekannt als modernen Portal) entsprechend den neuen Model im Projektmanagement basierend auf Koexistenz Modi aktualisiert. In modernen Portal festgelegt konfigurieren TeamsUpgradePolicy wird nun automatisch auch TeamsInteropPolicy auf konsistente Wert, damit TeamsInteropPolicy nicht mehr in der Benutzeroberfläche verfügbar gemacht wird. Administratoren über PowerShell müssen jedoch weiterhin sowohl TeamsUpgradePolicy und TeamsInteropPolicy zusammen ordnungsgemäßes routing sicherzustellen festgelegt. Nach Abschluss der Übergang zur TeamsUpgradePolicy werden nicht mehr erforderlich, auch TeamsInteropPolicy festgelegt.
+Im Rahmen der Maßnahme aktualisiert Microsoft kürzlich im "Microsoft-Teams, Administrationscenter" (auch als modernen Portal bezeichnet) und das neue Verwaltungsmodell basierend auf Koexistenz Modi an. In modernen Portal festgelegt konfigurieren TeamsUpgradePolicy wird nun automatisch auch TeamsInteropPolicy auf konsistente Wert, damit TeamsInteropPolicy nicht mehr in der Benutzeroberfläche verfügbar gemacht wird. Administratoren über PowerShell müssen jedoch weiterhin sowohl TeamsUpgradePolicy und TeamsInteropPolicy zusammen ordnungsgemäßes routing sicherzustellen festgelegt. Nach Abschluss der Übergang zur TeamsUpgradePolicy werden nicht mehr erforderlich, auch TeamsInteropPolicy festgelegt.
 
 Weitere Informationen finden Sie auf [Migration und Interoperabilität Anleitungen für Organisationen mit Teams zusammen mit Skype für Unternehmen](migration-interop-guidance-for-teams-with-skype.md).
 
@@ -111,7 +111,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 ## <a name="related-links"></a>VERWANDTE LINKS
 
-[Hinweise zur Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen](migration-interop-guidance-for-teams-with-skype.md)
+[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md)
 
 [GRANT-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
 

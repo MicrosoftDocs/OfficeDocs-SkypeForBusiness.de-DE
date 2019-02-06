@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie Ankündigungen bei Zu- oder Abgang in einer Microsoft Teams-Besprechung aktivieren oder deaktivieren. '
-ms.openlocfilehash: 1bddd07cc251f031daf85c077601c0e670038300
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a82c1dcea0d1fa8d6eced0a22ad01b2463842f73
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347522"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754121"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams
 
@@ -38,7 +38,7 @@ Die Konferenzbrücke nimmt einen Anruf eines Benutzers an, der sich über ein Te
   
 ## <a name="setting-meeting-join-options"></a>Festlegen von Optionen für die Besprechungsteilnahme
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 

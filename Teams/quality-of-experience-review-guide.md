@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373175"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754826"
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
@@ -463,11 +463,11 @@ Sie können drei verschiedene Arten CQD zugreifen:
 
 -   Wechseln Sie zu <https://cqd.lync.com>.
 
--   Wechseln Sie zur **Microsoft-Teams & Skype für Business Admin Center** , und wählen Sie den Link zur CQD, wie in der folgenden Abbildung dargestellt.
+-   Wechseln Sie zur **Microsoft-Teams, Administrationscenter** , und wählen Sie den Link zur CQD, wie in der folgenden Abbildung dargestellt.
 
 ![In den linken Navigationsbereich der Link zur Anrufqualität Dashboard aktiviert ist.] (media/qerguide-image-mopo.png "In den linken Navigationsbereich der Link zur Anrufqualität Dashboard aktiviert ist.")
 
-_Abbildung 7 – Zugriff auf CQD über die Microsoft-Teams & Skype für Business Admin Center_
+_Abbildung 7 – zugreifen auf CQD über das Microsoft-Teams, Administrationscenter_
 
 -   Wechseln Sie zu der Vorversion **Skype für Business Administrationscenter** > **Extras**, und wählen Sie den Link zur CQD, wie in der folgenden Abbildung dargestellt.
 
@@ -635,7 +635,7 @@ _Tabelle 5: Erstellen von Dateistruktur_
 | BuildingType       | Zeichenfolge    | IT Termination            | Optional     |
 | BuildingOfficeType | Zeichenfolge    | Engineering               | Optional     |
 | Ort               | Zeichenfolge    | Seattle                   | Empfohlen |
-| Postleitzahl            | Zeichenfolge    | 98001                     | Empfohlen |
+| ZipCode            | Zeichenfolge    | 98001                     | Empfohlen |
 | Land            | Zeichenfolge    | USA                        | Empfohlen |
 | Bundesland              | Zeichenfolge    | WA                        | Empfohlen |
 | Region             | Zeichenfolge    | MSUS                      | Empfohlen |
@@ -786,7 +786,7 @@ Diese Tools basieren auf PowerShell und Active Directory (AD)-Standorte und -Die
 
 Weitere Informationen zu diesem Tool finden Sie unter [in diesem Blogbeitrag](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a>Netzwerk-Planner
+#### <a name="network-planner"></a> Netzplaner
 
 Der Netzwerk-Planner bestimmt und die netzwerkanforderungen für Ihre Cloud-VoIP-Bereitstellung in nur wenigen Schritten organisiert. Durch bereitstellen, dass Ihre Organisation Details und Cloud Voicemail Nutzung networking des, können Sie eine ungefähre Berechnung der netzwerkanforderungen für Ihre Cloud-VoIP-Bereitstellung abgerufen, verwalten und Exportieren diese Details für reporting und zur weiteren Untersuchung Bereiche anzeigen und nächste Schritte.
 
@@ -1206,7 +1206,7 @@ _Abbildung 30 - Client-Version-Bericht_
 
 #### <a name="diagnostic-alert"></a>Diagnose-Warnung
 
-Wenn Sie erhalten eine diagnostic alert "bekannten Clientversionen mit geringer Leistung werden verwendet", Schwerpunkt liegt auf diese Clients zuerst aktualisieren. Die Benachrichtigung hat festgestellt, dass diese Clients sich negativ auf die Anrufqualität beeinflusst werden. Bericht-Clients und Geräte (siehe oben) können Sie dazu beitragen, dass die Clients, die bekannte Probleme haben, nicht mehr aktualisiert werden.
+Wenn Sie erhalten eine diagnostic alert "bekannten Clientversionen mit geringer Leistung werden verwendet", Schwerpunkt liegt auf diese Clients zuerst aktualisieren. Die Benachrichtigung hat festgestellt, dass diese Clients sich negativ auf die Anrufqualität beeinflusst werden. Sie können die Client-& Geräte Bericht (siehe oben), um sicherzustellen, dass die Clients, die bekannte Probleme haben, nicht mehr aktualisiert werden.
 
 #### <a name="remediation"></a>Wartung
 
@@ -1245,7 +1245,7 @@ Der verfügbare Satz mit MOS und Metrik bieten eine Ansicht die Qualität der Er
 
 Durch Bereitstellen von Benutzern mit Geräten zertifiziert für Teams und Skype für Unternehmen, verringern Sie die Wahrscheinlichkeit solch negative Erfahrungen aufgrund des Geräts selbst (die wahrscheinlicher, beispielsweise mit integrierten Laptop-Lautsprecher und Mikrofon ist). Weitere Informationen finden Sie in diesen Artikeln auf das [Zertifizierungsprogramm](/SkypeForBusiness/certification/overview) und den [Lösungskatalog für Partner](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Gerät Berichte dienen zum Bewerten der Device-Auslastung von Volume und MOS (nur Audio), und in den zugehörigen Vorlagen unter Clients und Geräte gefunden werden können. 
+Gerät Berichte dienen zum Bewerten der Device-Auslastung von Volume und MOS (nur Audio), und in den zugehörigen Vorlagen unter Clients & Geräte gefunden werden können. 
 
 > [!IMPORTANT]
 > Es sei denn, Sie federated Teilnehmer Daten ausschließen, werden dieser Berichte Client Telemetrie von Verbund-Endpunkten enthalten. Um Verbund Endpunkte auszuschließen, müssen Sie einen Abfragefilter für **Zweiten Mandanten-ID** in Ihrer Organisation [Mandanten-ID](#tenant-id)festlegen hinzufügen. Alternativ können Sie einen [URL-Filter](#url-filter) federated Teilnehmer Telemetrie ausgeschlossen.
@@ -1262,7 +1262,7 @@ _Abbildung 31 - Geräte (Mikrofon)_
 
 ##### <a name="diagnostic-alert"></a>Diagnose-Warnung
 
-Wenn Sie eine Benachrichtigung diagnostische erhalten "Audiotreiber verursachen Anruf setzt," Schwerpunktthemen zuerst Korrigieren von diese Treiber. Die Benachrichtigung hat festgestellt, dass bekannten fehlerhafte Treiber Anrufe abzulegende verursachen und sich negativ auf Anruf Zuverlässigkeit betroffen sind. Den Mikrofon-Treiber Bericht (siehe oben), die im Abschnitt Clients und Geräte zu finden ist, können Sie bei diesem Prozess hilft.
+Wenn Sie eine Benachrichtigung diagnostische erhalten "Audiotreiber verursachen Anruf setzt," Schwerpunktthemen zuerst Korrigieren von diese Treiber. Die Benachrichtigung hat festgestellt, dass bekannten fehlerhafte Treiber Anrufe abzulegende verursachen und sich negativ auf Anruf Zuverlässigkeit betroffen sind. Den Mikrofon-Treiber Bericht (siehe oben), die in der Client-& Geräte Abschnitt gefunden wird, können Sie bei diesem Prozess hilft.
 
 ##### <a name="remediation"></a>Wartung
 
@@ -1351,7 +1351,7 @@ Weitere Informationen finden Sie unter [in diesem Artikel zur Leistung von Medie
 
 ### <a name="devices"></a>Geräte
 
--   [Skype für Business Solutions Catalog Peripheriegeräte & PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+-   [Skype für Business Solutions Katalog Peripheriegeräte & PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
 ### <a name="tenant-reporting"></a>Mandanten reporting
 

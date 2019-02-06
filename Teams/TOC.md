@@ -58,8 +58,8 @@
 
 ## [Verwalten von Teams](using-admin-roles.md)
 ### [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
-### [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams und Skype for Business](manage-teams-skypeforbusiness-admin-center.md)
-### [Verwalten von Teams in der Microsoft-Teams & Skype für Business Admin Center](manage-teams-in-modern-portal.md)
+### [Verwalten von Teams während der Übergang zur neuen Microsoft-Teams-Verwaltungskonsole](manage-teams-skypeforbusiness-admin-center.md)
+### [Verwalten von Teams in der Verwaltungskonsole von Microsoft-Teams](manage-teams-in-modern-portal.md)
 ### [Weisen Sie Team-Besitzer und Membern im Teams](assign-roles-permissions.md)
 ### [Konfigurieren der Skype Besprechungen App entwickelt Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Kommunizieren Sie mit Benutzern in anderen Organisationen Teams](let-your-teams-users-communicate-with-other-people.md)

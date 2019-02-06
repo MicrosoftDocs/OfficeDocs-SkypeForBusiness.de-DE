@@ -20,22 +20,22 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erhalten Sie Informationen zu PINs und zum Zurücksetzen von PINs in Microsoft Teams. '
-ms.openlocfilehash: 292cc1c042816236fed35b536dd529b49e902203
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 44229d57a8f09b8b687f6fc0367686e81e898c5a
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347498"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754113"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams
 
-Eine PIN ist ein Code bestehend aus Zahlen, die für jeden Benutzer von Microsoft-Teams erstellt werden, die für Audiokonferenzen aktiviert ist. Audiokonferenzen PINs von Besprechungsorganisatoren dienen zum Identifizieren, sie der Organisator der Besprechung sind und ermöglicht es ihnen, eine Besprechung über das Telefon zu starten. Wenn sie die Microsoft-Teams app verwenden, um die Besprechung beginnen, ist eine PIN nicht erforderlich. Wenn Benutzer ihre PIN vergessen, und sie können nicht gefunden werden in der e-Mail, die an sie gesendet wurde, wenn sie für die Audiokonferenz aktiviert wurden, ein Administrator kann ihre PIN zurücksetzen, oder sie können ihre eigenen PIN zurücksetzen.
+Eine PIN ist ein aus Zahlen bestehender Code, der für jeden Microsoft Teams-Benutzer erstellt wird, der für Audiokonferenzen aktiviert ist. Besprechungsorganisatoren verwenden Audiokonferenz-PINs, um sich als Besprechungsorganisator auszuweisen und Besprechungen per Telefon zu starten. Wenn der Organisator zum Starten einer Besprechung die Microsoft Teams-App verwendet, ist keine PIN erforderlich. Wenn Benutzer ihre PIN vergessen und sie nicht in der E-Mail finden, die sie bei ihrer Aktivierung für Audiokonferenzen erhalten haben, kann die PIN von einem Administrator zurückgesetzt werden. Die Benutzer können ihre PIN auch selbst zurücksetzen.
   
-Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer Beitritt mithilfe der Anwendung Microsoft-Teams, oder wenn der Organisator mit seinem PIN über das Telefon Beitritt. Wenn die Besprechung zum Starten eine PIN erfordert, werden alle Benutzer, die sich per Telefon einwählen standardmäßig im Wartebereich platziert und hören Warteschleifenmusik, bis die Besprechung beginnt. Wenn der Organisator einer Besprechung keine PIN zum Starten der Besprechung per Telefon benötigt, werden Anrufer nicht nach einer PIN gefragt, wenn sie sich für die Besprechung einwählen.
+Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer über die Microsoft Teams-App teilnimmt oder wenn der Organisator per Telefon mit seiner PIN teilnimmt. Wenn die Besprechung zum Starten eine PIN erfordert, werden alle Benutzer, die sich per Telefon einwählen standardmäßig im Wartebereich platziert und hören Warteschleifenmusik, bis die Besprechung beginnt. Wenn der Organisator einer Besprechung keine PIN zum Starten der Besprechung per Telefon benötigt, werden Anrufer nicht nach einer PIN gefragt, wenn sie sich für die Besprechung einwählen.
 
 ## <a name="reset-a-users-pin"></a>Zurücksetzen der PIN eines Benutzers
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 

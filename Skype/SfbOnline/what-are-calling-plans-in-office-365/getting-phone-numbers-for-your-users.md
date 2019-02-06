@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie Sie neue Nummern erhalten, portieren oder bestehende Nummern für Skype for Business übertragen und wie Sie Ihren Nutzern die Änderungen zeigen. '
-ms.openlocfilehash: eafbb4a302bc47375bc91b3d79ba6a49196a77be
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
+ms.openlocfilehash: 6e896d520d42ea9df512d791377bbcd2007003d8
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370736"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753768"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -34,11 +34,11 @@ Bevor Sie Benutzer in Ihrer Organisation für das Tätigen und Erhalten von Tele
   
 Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
+- **Verwenden Sie die Skype für Business Administrationscenter.** Für einige Länder/Regionen können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [Getting Rufnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md).
     
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Portieren von bestehenden Nummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) oder [Rufnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) Weitere Informationen, die Ihnen dabei zu unterstützen.  
   
-- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
+- **Verwenden Sie ein Anforderungsformular für neue Nummern.** In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neue Rufnummern, die mit der Skype für Business Administrationscenter zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
     
 Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Seite **Neue Benutzernummern hinzufügen** verwenden. Sie können nach **Land/Region**, **Bundesland** und **Ort** suchen und dann die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen.
   
@@ -51,7 +51,7 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Telefonnummern**, klicken Sie auf **neue Nummer hinzufügen** ![Schaltfläche hinzufügen](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), und klicken Sie dann auf **neue Rufnummern, die Benutzer**.
     
@@ -76,11 +76,11 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
 7. Wählen Sie die gewünschten Telefonnummern aus, und klicken Sie dann auf **Abrufen von Rufnummern**.
     
     > [!IMPORTANT]
-    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get). If you need to get more telephone numbers than this, please contact [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+    > Die Anzahl der Rufnummern für Benutzer (Abonnenten) ist gleich der Gesamtzahl der Lizenzen im **nationalen Anrufplan** und/oder dem **nationalen und internationalen Anrufplan**, die Sie zugeordnet haben, multipliziert mit 1,1, plus 10 weitere Telefonnummern. Wenn Sie z.B. 50 Benutzer insgesamt in einem nationalen Anrufplan und/oder nationalen und internationalen Anrufplan haben, können Sie beispielsweise **65** Telefonnummern **(50 x 1,1 + 10)** erwerben. Weitere Informationen hierzu finden Sie unter [wie viele Rufnummern erhalten Sie?](/microsoftteams/how-many-phone-numbers-can-you-get). Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
    **Portieren oder Übertragen von Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber**
   
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) to transfer your phone numbers over to Skype for Business Online.
+- Wenn Sie maximal 999 Telefonnummern für Ihre Benutzer benötigen, können Sie den Assistenten **Neuer Portierungsauftrag für eine lokale Rufnummer** im Skype for Business Admin Center verwenden. Führen Sie die Schritte, die [Übertragung von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) für Ihre Telefonnummern über in Skype für Business Online übertragen gefunden.
     
 - Wenn Sie mehr als 999 Telefonnummern portieren müssen, finden Sie unter [Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage](manually-submit-a-custom-service-request.md) weitere Informationen zum Übermitteln einer Serviceanfrage für einen Portierungsauftrag oder einen Auftrag für die Portierung dieser Telefonnummern zu Office 365.
     
@@ -90,7 +90,7 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**. Die für Ihre Organisation verfügbaren Telefonnummern sind unter **Nummer** aufgeführt.
     

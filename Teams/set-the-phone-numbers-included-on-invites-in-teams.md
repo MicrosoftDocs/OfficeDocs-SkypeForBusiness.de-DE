@@ -1,5 +1,5 @@
 ---
-title: Festlegen des Telefons, die Zahlen enthalten auf invites in Microsoft-Teams
+title: Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Rufen Sie die Schritte zum Erstellen einer Standardrufnummer für Anrufer teilnehmen an einer Besprechung Microsoft-Teams. '
-ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cbe7a88d1fcb857ce94a95b2a9af7a159ccef5a
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533295"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754559"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
@@ -49,15 +49,15 @@ Nachdem der Benutzer für die Audiokonferenz-Dienst aktiviert ist, können die s
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Festlegen oder Ändern von Audiokonferenzen Standardrufnummer ein Organisator der Besprechung oder eines Benutzers
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-    ![Zeigt die Auswahl von Benutzern in der Microsoft-Teams und Skype für Business Admin Center](media/teamsselectusers.png)
+    ![Zeigt die Auswahl von Benutzern in der Verwaltungskonsole von Microsoft-Teams](media/teamsselectusers.png)
 
 2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
 
-    ![Klicken Sie auf Bearbeiten in der Microsoft-Teams und Skype für Business Admin Center](media/teamsedituser.png)
+    ![Klicken Sie auf Bearbeiten in der Verwaltungskonsole von Microsoft-Teams](media/teamsedituser.png)
 
 3. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**. 
     

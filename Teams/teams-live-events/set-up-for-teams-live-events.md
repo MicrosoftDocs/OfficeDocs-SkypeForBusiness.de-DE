@@ -14,12 +14,12 @@ description: Informationen Sie zu den Schritten für Ereignisse in Teams, einsch
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626270"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754784"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -41,7 +41,7 @@ Live Ereignisse, die den Richtlinien verwendet werden, um zu steuern, wer in Ihr
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Erstellen oder Bearbeiten einer Richtlinie live Ereignisse
 
-**![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) verwenden die Microsoft-Teams & Skype für Business Administrationscenter**
+**![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) mit dem Microsoft-Teams, Administrationscenter**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Live Ereignisse Richtlinien**. 
 2. Führen Sie einen der folgenden Schritte aus:
@@ -51,7 +51,7 @@ Live Ereignisse, die den Richtlinien verwendet werden, um zu steuern, wer in Ihr
 
     Hier sind die Einstellungen, die Sie ändern können, um die Anforderungen Ihrer Organisation entsprechen.
 
-    ![Screenshot der live Ereignisse Richtlinieneinstellungen] (../media/teams-live-events-policies.png "Screenshot der live Ereignisse Richtlinieneinstellungen in der Microsoft-Teams & Skype für Business Administrationscenter") 
+    ![Screenshot der live Ereignisse Richtlinieneinstellungen] (../media/teams-live-events-policies.png "Screenshot der live Ereignisse Richtlinieneinstellungen in der Verwaltungskonsole von Microsoft-Teams") 
 
 |Einstellung  |Beschreibung  |
 |---------|---------|
@@ -68,7 +68,7 @@ Sie können auch dazu mithilfe von Windows PowerShell. Weitere Informationen fin
 
 Wenn Sie eine benutzerdefinierte live Ereignisse Richtlinie erstellt haben, weisen Sie es, die Benutzern für die Richtlinie aktiv sein. 
 
-![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business Administrationscenter
+![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) Verwenden das Microsoft-Teams, Administrationscenter
 
 1. Klicken Sie im linken Navigationsbereich besuchen Sie **Benutzer**, und wählen Sie den Benutzer.
 2. Neben **zugewiesene Richtlinien**wählen Sie **Bearbeiten**aus. 

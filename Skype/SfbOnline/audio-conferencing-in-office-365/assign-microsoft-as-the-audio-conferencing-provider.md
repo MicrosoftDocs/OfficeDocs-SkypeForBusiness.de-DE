@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 2fd01e38b05615bab79471b60aafeb8d0409c1d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0cbfe5fec234ab237bd0c6bf108cfaa968685f0f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017125"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753560"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
@@ -41,7 +41,7 @@ Microsoft-Audiokonferenz liefert Telefonnummern zur Einwahl, PINs und Konferenz-
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Verwenden des Skype for Business Admin Center
 
-1. Wechseln Sie zu der **Teams & Skype für Business Admin Center** > **Legacy-Portal**.
+1. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 2. Navigieren Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen**.
     

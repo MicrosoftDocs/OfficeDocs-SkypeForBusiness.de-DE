@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie die Schritte, die Sie Einstellungen für eine Konferenzbrücke ändern, mit der Aufforderung Anrufer und Namen und Pins für Besprechungsorganisatoren sammeln, wenn sie nicht Skype für apps Business oder Microsoft-Teams verwenden, müssen. '
-ms.openlocfilehash: 4c9a932a8ae084466756d2af5f72874d274aea2e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c6e4a0e04b1e63e02dd477e1c1d2e70cc7234052
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371620"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754720"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
 
@@ -43,7 +43,7 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden das Microsoft-Teams, Administrationscenter
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenzbrücken**. 
 
@@ -136,4 +136,4 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
   
 ## <a name="related-topics"></a>See Also
 
-[Einrichten von Audiokonferenz](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Einrichten von Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

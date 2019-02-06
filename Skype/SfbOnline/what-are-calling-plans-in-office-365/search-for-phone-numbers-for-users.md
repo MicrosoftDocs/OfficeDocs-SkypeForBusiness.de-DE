@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie Sie nach Telefonnummern suchen können, die Sie Ihre Benutzer nach Land/Region, Bundesland/Region oder Stadt zuweisen und die Anzahl an Nummern angeben können, die Sie brauchen. '
-ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
+ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347071"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753516"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
 Beim Einrichten von Benutzern in Ihrer Organisation tätigen und Entgegennehmen von Anrufen, müssen Sie die **Skype für Business Administrationscenter** verwenden und rufen Sie zunächst die Telefonnummern, die Benutzern zugewiesen werden können. Die Telefonnummer, die Sie einem Benutzer zuweisen werden eine Telefonnummer ein, der Sie für Ihre Organisation haben und in der Dropdown-Liste aufgeführt werden, wenn Sie die Eigenschaften des Benutzers bearbeiten, und klicken Sie auf **zuweisen**.
   
-Bevor Sie Benutzern Telefonnummern zuweisen können, müssen Sie über die Seite **Neue Nummern** nach Nummern suchen, die in Ihrer Umgebung zur Verfügung stehen. Sie können zum Suchen nach **Land/Region**, **Bundesland**und **Ort**, und geben Sie die Anzahl von Rufnummern, die Sie für Ihre Benutzer benötigen. 
+Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. Sie können zum Suchen nach **Land/Region**, **Bundesland**und **Ort**, und geben Sie die Anzahl von Rufnummern, die Sie für Ihre Benutzer benötigen. 
   
 Wenn Sie Hilfe mit erste Rufnummern benötigen, können Sie [Telefonnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) oder [Kontakt support für Business-Produkte - Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) sehen.
   
@@ -44,7 +44,7 @@ Wenn Sie Hilfe mit erste Rufnummern benötigen, können Sie [Telefonnummern für
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
   

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64cb77116d55d9ddf9c084bff2205ecb4ba8aaca
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593894"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753846"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen zum Verständnis der Chat, Teams, Kanäle, &-apps in Teams. Fahren Sie mit [Chat bereitstellen, Teams, Kanäle, &-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) eine Liste von wichtigen Entscheidungen zu nahezubringen Teams durchlaufen.
@@ -60,7 +60,7 @@ Drei Minuten in Anspruch nehmen dieses Handbuchs Go Auschecken video für Team-B
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
-Wenn Sie den Microsoft-Teams, Administrator in Office 365 sind, haben Sie Zugriff auf systemweiten Einstellungen in der Teams & Skype für Business Admin Center. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
+Wenn Sie den Microsoft-Teams, Administrator in Office 365 sind, haben Sie Zugriff auf eine systemweite Einstellungen in der Verwaltungskonsole von Microsoft-Teams. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 
 Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Microsoft Teams zu erstellen (wie Sie dies ändern, erfahren Sie unter [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md)). Benutzer einer vorhandenen Office 365-Gruppe können diese Gruppe mit Microsoft Teams-Funktionen erweitern.
 

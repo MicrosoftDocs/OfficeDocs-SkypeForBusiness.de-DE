@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Verwenden Sie Analytics rufen Sie Informationen zu Geräten, Netzwerke und Konnektivität Benutzer bei Problemen mit Microsoft-Teams und Skype für geschäftliche Anrufe und Besprechungen.
-ms.openlocfilehash: 45512012beb07403239ccd2f681edb7f0f9eff41
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 3e35a72150d74580d1f44623583419b37e3ad1c5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442413"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754065"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität
 
@@ -37,17 +37,17 @@ Anruf Analytics Unterstützung bei der Anruf mit der Realität Probleme mit Micr
   
 ## <a name="call-analytics-permissions"></a>Analytics Anrufberechtigungen
 
-Als Administrator verfügen Sie über Vollzugriff auf alle Funktionen der Anrufanalyse. Darüber hinaus können Sie zu support-Mitarbeiter Azure Active Directory-Rollen zuweisen. Weisen Sie die Teams Communications Support-Spezialisten-Rolle für Benutzer, die eine begrenzte Ansicht des Analytics aufrufen verfügen soll. Benutzer Zugriff auf den vollen Funktionsumfang von Analytics aufrufen benötigen weisen Sie die Teams Communications Support Engineer Rolle zu. Beide Berechtigungsstufen verhindern des Zugriffs auf den Rest der Microsoft-Teams, &, Skype für Business Admin Center.
+Als Administrator verfügen Sie über Vollzugriff auf alle Funktionen der Anrufanalyse. Darüber hinaus können Sie zu support-Mitarbeiter Azure Active Directory-Rollen zuweisen. Weisen Sie die Teams Communications Support-Spezialisten-Rolle für Benutzer, die eine begrenzte Ansicht des Analytics aufrufen verfügen soll. Benutzer Zugriff auf den vollen Funktionsumfang von Analytics aufrufen benötigen weisen Sie die Teams Communications Support Engineer Rolle zu. Beide Berechtigungsstufen verhindern des Zugriffs auf den Rest der im Microsoft-Teams, Administrationscenter.
 
 Supportmitarbeitern Communications behandeln Sie grundlegende Anrufqualität Probleme. Sie untersuchen keine Probleme bei Besprechungen. Stattdessen verwandte Informationen sammeln und dann an einen Supportmitarbeiter Communications ausweiten. Supporttechniker Communications finden Sie Informationen im detaillierten mithilfe von Anruflisten, die Communications Supportmitarbeitern ausgeblendet wurde. In der folgenden Tabelle bietet eine Übersicht über verfügbaren Informationen zu Communications-Support-Spezialisten und Communications-Supporttechniker, bei Verwendung von Analytics aufrufen.
 
 Die Ihnen zugewiesene Berechtigungsstufe entscheidet, auf welche Informationen Sie in der Anrufanalyse zugreifen können:
   
-- **Teams service oder Teams Communications-Administrator**: haben Sie Zugriff auf alle Informationen in Analytics aufrufen und die Teams & Skype für Business Admin Center.
+- **Teams service oder Teams Communications-Administrator**: haben Sie Zugriff auf alle Informationen in Analytics aufrufen und in der Microsoft-Teams-Verwaltungskonsole.
     
-- **Teams Communications unterstützen Specialist**: eine begrenzte Auswahl von Daten in Aufrufen Analytics angezeigt. Sie können Anrufe Problembehandlung, aber Sie werden Probleme bei Besprechungen an einem Teams Communications Supporttechniker übergeben. Sie haben keinen Zugriff auf den Rest der Teams &, Skype für Business Admin Center.
+- **Teams Communications unterstützen Specialist**: eine begrenzte Auswahl von Daten in Aufrufen Analytics angezeigt. Sie können Anrufe Problembehandlung, aber Sie werden Probleme bei Besprechungen an einem Teams Communications Supporttechniker übergeben. Sie haben keinen Zugriff auf den Rest der im Microsoft-Teams, Administrationscenter.
     
-- **Teams Communications Engineer Unterstützung**: finden Sie unter alle verfügbaren Daten in Analytics aufrufen und Problembehandlung bei Anrufen und Besprechungen helfen. Sie haben keinen Zugriff auf den Rest der Teams &, Skype für Business Admin Center.
+- **Teams Communications Engineer Unterstützung**: finden Sie unter alle verfügbaren Daten in Analytics aufrufen und Problembehandlung bei Anrufen und Besprechungen helfen. Sie haben keinen Zugriff auf den Rest der im Microsoft-Teams, Administrationscenter.
     
 > [!NOTE]
 > Die Rolle des Supports Specialist von Communications Support der Ebene 1 entspricht, und die Kommunikation Support Engineer Rolle Support der Ebene 2 entspricht.
@@ -66,7 +66,7 @@ Finden Sie unter Ihrer Teams und Skype Business Admin Wenn Sie Hilfe mit Berecht
     
 4. Klicken Sie im **Dashboard**in **Benutzersuche**starten Sie entweder den Namen eingeben oder sip-Adresse des Benutzers, dessen Anrufe zu beheben, oder wählen Sie **Ansicht, die Benutzer** zum Anzeigen einer Liste von Benutzern verwendet werden soll.
     
-    ![Screenshot des Felds Benutzersuche im of Analytics Aufrufen der Teams & Skype für Business Admin Center.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Screenshot des Suchfelds für Benutzer von Anrufen Analytics in der Verwaltungskonsole von Microsoft-Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 5. Wählen Sie den Benutzer aus der Liste aus.
 
@@ -76,7 +76,7 @@ Finden Sie unter Ihrer Teams und Skype Business Admin Wenn Sie Hilfe mit Berecht
   
 7. Wählen Sie die Registerkarte **Erweitert** aus, und suchen Sie dann nach gelben und roten Elementen, die auf eine schlechte Anrufqualität oder auf Verbindungsprobleme hinweisen.
     
-    Kleinere Probleme werden in der Sitzungsdetails für jeden Anruf oder Besprechung gelb angezeigt. (Beispielsweise sind im folgenden Screenshot, der Werte in Gelb für durchschnittliche Jitter, Max Jitter und durchschnittliche paketverlustrate.) Ist etwas Gelb, es ist außerhalb der normalen Bereich und als Beitrag für dieses Problem, aber es ist wahrscheinlich nicht die wichtigste Ursache des Problems. Wenn etwas rot angezeigt wird, ist ein Problem, und es ist wahrscheinlich die wichtigste Ursache für die Qualität der Anrufe schlechter Qualität für diese Sitzung. 
+    In den Sitzungsdetails für die einzelnen Anrufe oder Besprechungen werden geringfügige Probleme gelb dargestellt. (Im folgenden Screenshot zum Beispiel werden die Werte für „Durchschnittlicher Jitter", „Max. Jitter" und „Durchschnittliche Paketverlustrate" in Gelb angezeigt.) Gelbe Elemente befinden sich außerhalb des normalen Bereichs und können zum Problem beitragen. Sie sind aber wahrscheinlich nicht die Hauptursache des Problems. Rote Elemente weisen auf ein wichtiges Problem hin und stellen wahrscheinlich die Hauptursache für die schlechte Anrufqualität in dieser Sitzung dar. 
     
     ![Screenshot zeigt die Registerkarte Erweitert des Anrufverlaufs eines Benutzers ](media/use-call-analytics-to-troubleshoot-image-3.png)
   

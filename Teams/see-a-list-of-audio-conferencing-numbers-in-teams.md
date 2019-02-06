@@ -20,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie Ihre Dial-in-Konferenznummern in Microsoft Teams nachschlagen. '
-ms.openlocfilehash: e2a3684e7f2c0264e36a6e30ce2df4adf2537895
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 5c28e8555dc2c90454798a5cfc4eab2319a98184
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347377"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754922"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
 
-Wenn Sie Audiokonferenzen für Benutzer von Microsoft-Teams eingerichtet haben, können Sie die angezeigten Rufnummern anzeigen, die Ihnen für Audiokonferenzen verfügbar sind. Diese Liste müssen alle Rufnummern Audiokonferenzen, die für Ihre Organisation verfügbar sind.
+Bein Einrichten von Audiokonferenzen für Microsoft Teams-Benutzer können Sie die für Audiokonferenzen verfügbaren Telefonnummern anzeigen. Diese Liste enthält alle Audiokonferenz-Telefonnummern, die für Ihre Organisation verfügbar sind.
   
- **Sie suchen Preise?** Finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+ **Sie suchen Preise?** Lesen Sie [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
-Wenn für Ihre Organisation nur eine Telefonnummer verfügbar ist, wird sie als Standardtelefonnummer für alle Benutzer verwendet. Wenn mehrere Telefonnummern verfügbar sind, können Sie für jeden Benutzer eine Standardtelefonnummer auswählen. Diese Standardrufnummer wird in Microsoft-Teams, besprechungseinladungen enthalten sein.
+Wenn für Ihre Organisation nur eine Telefonnummer verfügbar ist, wird sie als Standardtelefonnummer für alle Benutzer verwendet. Wenn mehrere Telefonnummern verfügbar sind, können Sie für jeden Benutzer eine Standardtelefonnummer auswählen. Diese Standardnummer wird in den Einladungen für Microsoft Teams-Besprechungen angegeben.
   
 Weitere Informationen zum Ändern der Dial-in-Telefonnummer für einen einzelnen Benutzer finden Sie unter [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
   
@@ -45,7 +45,7 @@ Weitere Informationen zum Ändern der Dial-in-Telefonnummer für einen einzelnen
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Audiokonferenz-Telefonnummern an
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden des Microsoft-Teams und Skype for Business-Verwaltungskonsole
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Konferenzbrücken**. 
 2. Zeigen Sie die Telefonnummern, die für Audiokonferenzen verfügbar sind.

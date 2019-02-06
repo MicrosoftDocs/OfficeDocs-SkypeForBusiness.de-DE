@@ -1,5 +1,5 @@
 ---
-title: Teams nur Modus Aspekte
+title: Überlegungen zum Teams Only-Modus
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,20 +14,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39212613b7ecf86e7138c90adfbf5dc3a021ac46
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: d6342ba15ac05e9b26b2f62499c84fe43631ca94
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988240"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754511"
 ---
-# <a name="teams-only-mode-considerations"></a>Teams nur Modus Aspekte
+# <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 
-Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, sehen Sie jetzt die Möglichkeit, nur Teams Modus in der Microsoft-Teams & Skype für Business Admin Center zu aktualisieren.  Mit dieser Funktionalität können Sie einzelne Benutzer oder alternativ den gesamten Mandanten aktualisieren.  
+Wenn Sie bei Ihrem Office 365-Mandanten ein Administrator sind, sehen Sie jetzt die Möglichkeit, nur Teams Modus in der Microsoft-Teams-Verwaltungskonsole zu aktualisieren. Mit dieser Funktionalität können Sie einzelne Benutzer oder alternativ den gesamten Mandanten aktualisieren.  
 
 Durchführen eines Upgrades auf Teams nur Modus bietet Benutzern die Vorteile der Microsoft-Teams, die-Hub für die Zusammenarbeit in Office 365, über einen einzelnen Clientumgebung. Benutzer in Teams nur Modus werden darüber hinaus erhalten alle Anrufe und Chats in Teams, unabhängig davon, ob der Absender Skype für Geschäftskunden und Teams verwendet werden und von Interop und Federation Support profitieren.
 
-Tausende von Kunden, die Microsoft-Teams erfolgreich aktualisiert haben, werden Aspekte, die Ihre Organisation Upgrade Zeitachse und benutzerfreundlichkeit unterwegs beeinflussen können. Insbesondere müssen die Option für die Aktualisierung bedeutet dies nicht notwendigerweise, dass Ihre Organisation bereit, damit diese Änderung ist. Bestätigen Sie, dass Teams die Zusammenarbeit und Kommunikation Anforderungen erfüllt, stellen Sie sicher, dass Ihr Netzwerk bereit zur Unterstützung von Teams ist, und implementieren Sie Ihre Benutzer bereitschaftsplan vor der Aktualisierung von Benutzern, Teams, für die beste benutzerumgebung. 
+Tausende von Kunden, die Microsoft-Teams erfolgreich aktualisiert haben, werden Aspekte, die Ihre Organisation Upgrade Zeitachse und benutzerfreundlichkeit unterwegs beeinflussen können. Insbesondere müssen die Option für die Aktualisierung bedeutet dies nicht notwendigerweise, dass Ihre Organisation bereit, damit diese Änderung ist. Um ein optimales Benutzererlebnis zu erhalten, bestätigen Sie bitte, dass Teams Ihre Anforderungen für die Zusammenarbeit und Kommunikation erfüllt. Stellen Sie bitte weiterhin sicher, dass Ihr Netzwerk für die Unterstützung von Teams bereit ist, und setzen Sie vor dem Upgrade der Benutzer auf Teams Ihren Plan für die Benutzerbereitschaft um. 
 
 > [!IMPORTANT]
 > Wenn Sie nur die Upgrade-Planung beginnen, müssen Sie vollständige Upgrade in der Anleitung und Planen von Ressourcen zu überprüfen. [Beginnen Sie hier](upgrade-introduction.md). 

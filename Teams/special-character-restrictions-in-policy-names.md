@@ -22,26 +22,24 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Finden Sie unter welche Probleme mit Sonderzeichen im Namen von Richtlinien und was Sie tun können sind, um es zu beheben.
-ms.openlocfilehash: e1d46f70b42b96b2f3811c97d0110946fd013cd7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017503"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754736"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Was sind die Sonderzeichen Einschränkungen in Teams Richtlinien?
 
-**Erstellen oder Bearbeiten von Richtlinien (für messaging, Besprechungen, usw.), die den Namen in der Microsoft-Teams und Skype für Business Admin Center ein Sonderzeichen aufweisen.** 
+**Sie können nicht erstellt oder Richtlinien bearbeiten (für messaging, Besprechungen, usw.), die ein Sonderzeichen den Namen in der Microsoft-Teams, Administrator haben, zentriert**. 
 
-Wenn Sie ein Richtliniennamen Sonderzeichen enthält, werden Sie bei der Verwaltung diese Richtlinien in der Microsoft-Teams und Skype für Business Admin Center eingeschränkt werden. **Daher wird dringend empfohlen, Richtliniennamen keine Sonderzeichen enthalten**. 
+Wenn ein Richtlinienname Sonderzeichen enthält, werden Sie bei der Verwaltung diese Richtlinien in der Verwaltungskonsole von Microsoft-Teams, eingeschränkt werden. **Daher wird dringend empfohlen, Richtliniennamen keine Sonderzeichen enthalten**. 
 
-Richtliniennamen, die von PowerShell für Besprechungen und messaging in Teams können Sonderzeichen wie haben erstellt wurden @, #, $. Jedoch, wenn Sie die Richtlinie in der Microsoft-Teams und Skype für Business Admin Center ändern möchte, Sie kann nicht zu werden. 
+Richtliniennamen, die von PowerShell für Besprechungen und messaging in Teams können Sonderzeichen wie haben erstellt wurden @, #, $. Jedoch, wenn Sie die Richtlinie in der Verwaltungskonsole von Microsoft-Teams ändern möchte, Sie kann nicht zu werden. 
 
-Wenn Sie eine Richtlinie mit Sonderzeichen haben, müssen Sie die Richtlinie mithilfe von Windows PowerShell (unbegrenzt) bearbeiten oder erstellen eine neue Richtlinie in der Microsoft-Teams und Skype für Business Admin Center mit denselben Einstellungen wie die alte Richtlinie und weisen Sie es der gleichen Grupe p von Benutzern.
+Wenn Sie eine Richtlinie mit Sonderzeichen haben, müssen Sie entweder die Richtlinie mithilfe von Windows PowerShell (unbegrenzt) bearbeiten oder erstellen Sie eine neue Richtlinie in der Microsoft-Teams-Verwaltungskonsole mit denselben Einstellungen wie die alte Richtlinie und die gleiche Gruppe von Benutzern zuweisen.
 
 ## <a name="to-remove-special-characters"></a>So entfernen Sonderzeichen
-
-
 
 **Schritt 1: Stellen Sie eine Remoteverbindung mit PowerShell.** 
  [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , falls Sie noch nicht getan haben.
@@ -65,7 +63,7 @@ Wenn Sie eine Richtlinie mit Sonderzeichen haben, müssen Sie die Richtlinie mit
 
 **Schritt 3: Erstellen einer neuen Richtlinie.**
 
-Sie können entweder die neue Richtlinie mit der gleichen Einstellung mit dem Microsoft-Teams und Skype für Business-Verwaltungskonsole oder PowerShell erstellen.
+Sie können entweder die neue Richtlinie mit der gleichen Einstellung erstellen, mithilfe der Microsoft-Teams, Administrationscenter oder PowerShell.
 
 Mit dieser wird eine neue Richtlinie für Sie erstellen, aber Sie müssen die richtigen Einstellungen hinzufügen, indem Sie [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) anzeigen, und klicken Sie dann ausführen:
 
@@ -110,4 +108,4 @@ Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funkt
     > [!NOTE]
     > Das Windows PowerShell-Modul für Skype für Business Online können Sie eine remote Windows PowerShell-Sitzung zu erstellen, die mit Skype für Business Online und Microsoft-Teams, eine Verbindung herstellt. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
-### <a name="related-topics"></a>Verwandte Themen
+

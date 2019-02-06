@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db98b9b5ab460207b2dd9f9a793a486402ec29fd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326866"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754810"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Steuerung in Teams
 
@@ -116,7 +116,7 @@ Teams bietet detaillierte Funktionen zur Kontrolle messaging, Besprechung, aufru
 Eine detaillierte Liste aller Einstellungen, einschließlich technische Anleitungen für Implementierungsmethode für Ihre Organisation finden Sie unter den folgenden Artikeln:
 
 -   [Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](enable-features-office-365.md)
--   [Verwalten von Teams während des Übergangs auf die neuen Microsoft-Teams und Skype für Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+-   [Verwalten von Teams während der Übergang zur neuen Microsoft-Teams-Verwaltungskonsole](manage-teams-skypeforbusiness-admin-center.md)
 -   [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
 
 

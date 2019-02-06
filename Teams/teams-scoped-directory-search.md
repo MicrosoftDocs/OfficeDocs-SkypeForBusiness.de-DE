@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 2a4a36de9b535d7c95f93175a97ce5266fdc37ec
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326819"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754307"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Verwenden der Verzeichnissuche in Microsoft Teams
 
@@ -46,11 +46,11 @@ Weitere Informationen finden Sie Informationen zu wie adressbuchrichtlinien verw
 
 2.  Melden Sie sich bei Microsoft 365 Administrationscenter, wählen Sie **Admin zentriert**, und wählen Sie dann **Teams & Skype**.
  
-3.  Wählen Sie in der Microsoft-Teams & Skype für Business Administrationscenter, **Org geltende Einstellungen** > **Teams Einstellungen**.
+3.  Wählen Sie in der Verwaltungskonsole von Microsoft-Teams, **Org geltende Einstellungen** > **Teams Einstellungen**.
 
 4.  Aktivieren Sie unter **Search**neben- **Bereich der Verzeichnissuche in eine adressbuchrichtlinie (APB) für das Exchange-Teams**die Umschaltfläche **auf**. 
 
-    ![Bereich der Verzeichnissuche in Teams & Skype für Business Administrationscenter](media/teams-scoped-directory-search-image1.png)
+    ![Bereich der Verzeichnissuche im Microsoft-Teams, Administrationscenter](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > Hybridkonfigurationen (mit lokale Exchange-Teams) unterstützt bereichsbezogenen Search-Modus nicht. 

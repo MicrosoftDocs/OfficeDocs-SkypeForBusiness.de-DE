@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb2e7ba5f854c392d86006fdb6bd313b3fd87c68
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 5195b929cb5da2fc462cc2ed6826300d835c2b35
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182455"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753997"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 
@@ -35,7 +35,7 @@ Sie erhalten ein besseres Verständnis der Typen von Modi, die Ihnen zur Verfüg
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Upgrade Festlegen von Optionen für alle Benutzer in Ihrer Organisation
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **Verwenden der Microsoft-Teams & Skype für Business Admin Center**
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Wechseln Sie im linken Navigationsbereich **Org geltende**Einstellungen > **Teams zu aktualisieren**. 
 
@@ -53,7 +53,7 @@ Sie erhalten ein besseres Verständnis der Typen von Modi, die Ihnen zur Verfüg
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Upgrade Festlegen von Optionen für einen einzelnen Benutzer in Ihrer Organisation
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **Verwenden der Microsoft-Teams & Skype für Business Admin Center**
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Im linken Navigationsbereich besuchen Sie **Benutzer**, und wählen Sie dann den Benutzer aus der Liste aus. 
 2. Klicken Sie auf der Registerkarte **Konto** für den Benutzer unterhalb von **Teams zu aktualisieren**auf **Bearbeiten**.

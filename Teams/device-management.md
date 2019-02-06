@@ -12,16 +12,16 @@ description: Erfahren Sie, wie mit Teams in Ihrer Organisation verwendeten Gerä
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb2c6b9f0693246d9d8a724d12a33bb05805fb83
-ms.sourcegitcommit: d83da643f5e25e5287961fe723012a6ce9bb9738
+ms.openlocfilehash: eb306930b4adca9c50e46ad1515324bbac2a2e2d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29598813"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754195"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Verwalten Ihrer Geräte in Microsoft Teams
 
- Als Administrator verwalten Sie alle Geräte mit Teams in Ihrer Organisation aus der Microsoft-Teams & Skype für Business-Verwaltungskonsole verwendet. Anzeigen und Verwalten der Geräteübersicht für Ihre Organisation, und führen Aufgaben wie das Update, neu und Monitordiagnose für Geräte. Sie können auch ein Gerät oder Gerätegruppen Konfigurationsprofile zuzuweisen. 
+ Als Administrator verwalten Sie alle Geräte in Ihrer Organisation im Microsoft-Teams, Admin Center mit Teams verwendet. Anzeigen und Verwalten der Geräteübersicht für Ihre Organisation, und führen Aufgaben wie das Update, neu und Monitordiagnose für Geräte. Sie können auch ein Gerät oder Gerätegruppen Konfigurationsprofile zuzuweisen. 
 
 ## <a name="what-devices-can-you-manage"></a>Welche Geräte können Sie verwalten?
 Geräte müssen für Teams zertifiziert und Teams registriert werden. Ein Gerät wird automatisch beim ersten registriert, die ein Benutzer bei Teams auf dem Gerät anmeldet. Eine Liste mit zertifizierten Geräte, die verwaltet werden können, finden Sie unter [Konferenz Mobiltelefone](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) und [herkömmliche Telefone](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
@@ -31,7 +31,7 @@ Geräte müssen für Teams zertifiziert und Teams registriert werden. Ein Gerät
 
 ## <a name="manage-devices-in-teams"></a>Verwalten von Geräten in Teams
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business-Verwaltungskonsole
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Geräte** > **Geräte verwalten**.
 2. Wählen Sie **alle Geräte**aus.  
@@ -54,7 +54,7 @@ Verwenden Sie Konfigurationsprofile, um Einstellungen und Features für Teams Ge
 
 ### <a name="create-a-configuration-profile"></a>Erstellen Sie ein Konfigurationsprofil
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business-Verwaltungskonsole
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Geräte** > **Geräte verwalten**.
 2. Wählen Sie **Konfigurationsprofile**aus, und wählen Sie dann auf **neues Konfigurationsprofil**.
@@ -63,7 +63,7 @@ Verwenden Sie Konfigurationsprofile, um Einstellungen und Features für Teams Ge
 
 ### <a name="assign-a-configuration-profile"></a>Zuweisen eines Konfigurationsprofils
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business-Verwaltungskonsole
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Geräte** > **Geräte verwalten**.
 2. Wählen Sie **Konfigurationsprofil**aus, und klicken Sie dann unter **zugewiesen an** in das Profil, das Sie zuweisen möchten, klicken Sie auf den Link.  

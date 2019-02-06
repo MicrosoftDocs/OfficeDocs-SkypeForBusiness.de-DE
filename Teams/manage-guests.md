@@ -12,21 +12,21 @@ search.appverid: MET150
 description: IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten, festlegen, welche Benutzer Gäste einladen können, und Berichte über Gastbenutzeraktivität abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3866e4c3f8e63e9fe8518917193d4587e670ad93
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: ef7a62f46a767271f96de6f8540867aa2e8bd917
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706291"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753610"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Benutzerzugriffs in Microsoft Teams
 ======================================
 
 **Gast** ist ein Benutzer-Lizenz in Microsoft-Teams, die alle Abonnements für Office 365 Business Premium, Office 365 Enterprise und Office 365 Education enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Ausführliche Informationen zum Gastzugriff zu ermöglichen finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff auf Microsoft-Teams](set-up-guests.md).
 
-Nachdem der **Gast** User-Lizenz Typ aktiviert ist, können Sie Einstellungen konfigurieren, für Gäste über die Steuerelemente in [Microsoft-Teams, Verwalten von features in Office 365-Organisation](enable-features-office-365.md) und [Teams verwalten während des Übergangs auf die neue Microsoft beschrieben Teams und Skype für Business Admin Center](manage-teams-skypeforbusiness-admin-center.md).     
+Nachdem der **Gast** User-Lizenz Typ aktiviert ist, können Sie Einstellungen konfigurieren, für Gäste über die Steuerelemente in [Microsoft-Teams, Verwalten von features in Office 365-Organisation](enable-features-office-365.md) und [Teams verwalten während des Übergangs auf die neue Microsoft beschrieben Teams Administrationscenter](manage-teams-skypeforbusiness-admin-center.md).     
     
-IT-Administratoren können Gäste auf der Ebene der Mandant hinzufügen, festlegen und Verwalten von Gast-Richtlinien für Benutzer und Berechtigungen und Pull Berichte über Benutzeraktivität Gast. Diese Steuerelemente sind über die Microsoft-Teams & Skype für Business Admin Center verfügbar. Inhalte und Aktivitäten von Gastbenutzern unterliegen dem gleichen Compliance- und Überwachungsschutz wie der Rest von Office 365.
+IT-Administratoren können Gäste auf der Ebene der Mandant hinzufügen, festlegen und Verwalten von Gast-Richtlinien für Benutzer und Berechtigungen und Pull Berichte über Benutzeraktivität Gast. Diese Steuerelemente sind über das Microsoft-Teams, Administrationscenter verfügbar. Inhalte und Aktivitäten von Gastbenutzern unterliegen dem gleichen Compliance- und Überwachungsschutz wie der Rest von Office 365.
 
 Team Besitzer können neue Gäste einladen und ihre Teams vorhandenen Directory Gastbenutzer hinzuzufügen. Team Besitzer können Gastbenutzern über **Teams**identifizieren > **Verwalten Teams**und Set-Kanal-bezogenen Funktionen für Gäste über **Org geltende Einstellungen** > **Gast Access**, einschließlich Gästen zu erstellen, aktualisieren, sodass und Löschen Sie Kanäle, wie im folgenden Screenshot dargestellt.
 

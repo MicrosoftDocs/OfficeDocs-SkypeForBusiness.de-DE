@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren Sie die Desktopfreigabe in Microsoft-Teams
+title: Konfigurieren der Desktopfreigabe in Microsoft Teams
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -12,21 +12,21 @@ description: Konfigurieren Sie eine besprechungsrichtlinie, damit die Benutzer i
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 422d5fb3a19dad2e14e0cdf54a532b0afc6eed67
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: fcc76f79d288844611e17154359e8c9c3ab4ed23
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27202501"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754768"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a>Konfigurieren Sie die Desktopfreigabe in Microsoft-Teams
+<a name="configure-desktop-sharing-in-microsoft-teams"></a>Konfigurieren der Desktopfreigabe in Microsoft Teams
 ============================================
 
 Desktopfreigabe kann Benutzer eine Bildschirm oder app während einer Besprechung oder Chat darstellen. Administratoren können Bildschirmfreigabe in Microsoft-Teams können Benutzer einen ganzen Bildschirm, einer app oder eine Datei freizugeben, konfigurieren. Sie können anderen Benutzern erteilen oder Steuerung anfordern, PowerPoint-Freigabe ermöglichen, ein Whiteboard hinzuzufügen und freigegebene Notizen zulassen. Sie können auch konfigurieren, ob anonyme oder externe Benutzer Steuerung des freigegebenen Bildschirms anfordern können.
 
 So konfigurieren die Bildschirmfreigabe, erstellen Sie eine neue Richtlinie für Besprechungen und weisen Sie es den Benutzern, den Sie verwalten möchten.
 
-In der Microsoft-Teams & Skype für Business Admin Center:
+**In der Verwaltungskonsole von Microsoft-Teams**
 
 1. Wählen Sie **Besprechungen** > **Besprechungsrichtlinien**.
 

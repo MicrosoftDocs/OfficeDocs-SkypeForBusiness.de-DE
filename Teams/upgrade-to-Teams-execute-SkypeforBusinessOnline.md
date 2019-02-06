@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f3cdad4ab65935c2721244364861db7a140f15
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 668e44b66b08b16a04e730c43dbbe02a9edea4fe
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349295"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754632"
 ---
 ![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
 
@@ -41,7 +41,7 @@ Führen Sie die Anweisungen in diesem Artikel, wenn Sie vollständig Skype für 
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Weisen Sie den Modus für Upgrade und Koexistenz
 
-Sie können die Benutzer von Teams, die durch Zuweisen von den TeamsOnly Modus der TeamsUpgradePolicy, die ausgeführt werden kann, unter Verwendung der Microsoft-Teams & Skype für Business Admin Center oder einen Skype für Business remote Windows Powershell-Sitzung aktualisieren.
+Sie können die Benutzer von Teams, die durch Zuweisen von den TeamsOnly Modus der TeamsUpgradePolicy, die ausgeführt werden kann, über das Microsoft-Teams, Administrationscenter oder einen Skype für Business remote Windows Powershell-Sitzung aktualisieren.
 
 Weitere Informationen finden Sie unter [Festlegen der Koexistenz und Durchführen eines Upgrades Einstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) und [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
@@ -51,12 +51,12 @@ Befolgen Sie diese Schritte, um alle Benutzer gleichzeitig auf Teams aktualisier
 
 ### <a name="step-1-notify-the-users-of-the-change"></a>Schritt 1: Fordern Sie die Benutzer der Änderung
 
-1. Wählen Sie in der Microsoft-Teams & Skype für Business Admin Center **Org geltende Einstellungen** > **Teams zu aktualisieren**.
+1. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams, **Org geltende Einstellungen** > **Teams zu aktualisieren**.
 2. Ändern Sie die Option **Benachrichtigen Skype für Unternehmensbenutzer, dass ein Upgrade auf Teams verfügbar ist** unter **Koexistenzmodus**auf **aktiviert**.
 
 ### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>Schritt 2: Festlegen des Koexistenzmodus für die Benutzer
 
-1. Wählen Sie in der Microsoft-Teams & Skype für Business Admin Center **Org geltende Einstellungen**aus.
+1. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams, **Org geltende Einstellungen**aus.
 2. Wählen Sie aus der Dropdownliste **Koexistenzmodus** **Teams** nur Kopfzeilen herunterladen aus.
 
 ## <a name="upgrade-users-in-stages"></a>Aktualisieren Sie die Benutzer in Phasen
@@ -71,13 +71,13 @@ Erstellen Sie Ihre Benutzer Kohorten (Add Link zur Seite zur Auswahl)
 
 ### <a name="step-2-set-the-user-mode-to-islands"></a>Schritt 2: Festlegen des Benutzermodus Inseln
 
-1. Wählen Sie in der Microsoft-Teams & Skype für Business Admin Center **Benutzer**aus, und wählen Sie dann einen Benutzer Kohorte aus.
+1. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams **Benutzer**aus, und wählen Sie dann einen Benutzer Kohorte aus.
 2. Neben der **Aktualisierung von Teams**wählen Sie **Bearbeiten**aus.
 3. Wählen Sie im Bereich **Teams zu aktualisieren** , klicken Sie unter **Koexistenzmodus** **Inseln** aus der Dropdown-Liste.
 
 ### <a name="step-3-set-notification-for-the-user-optional"></a>Schritt 3: Einrichten der Benachrichtigung für den Benutzer (optional)
 
-1. Wählen Sie in der Microsoft-Teams & Skype für Business Admin Center **Benutzer**aus, und wählen Sie einen Benutzer Kohorte aus.
+1. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams **Benutzer**aus, und wählen Sie einen Benutzer Kohorte aus.
 2. Neben der **Aktualisierung von Teams**wählen Sie **Bearbeiten**aus.
 3. Ändern Sie im Bereich **Teams Upgrade** unter **Koexistenzmodus** **Benachrichtigen der Skype für Geschäftsbenutzer** Switch auf **aktiviert**.
 
@@ -85,7 +85,7 @@ Erstellen Sie Ihre Benutzer Kohorten (Add Link zur Seite zur Auswahl)
 
 Wenn Sie die Benutzer zum Verwenden von Teams als einzige Programmversionen aktualisieren möchten, legen Sie den Modus der Koexistenz für den Benutzer nur Teams.
 
-1. Wählen Sie in der Microsoft-Teams & Skype für Business Admin Center **Benutzer**aus, und wählen Sie dann einen Benutzer Kohorte aus.
+1. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams **Benutzer**aus, und wählen Sie dann einen Benutzer Kohorte aus.
 2. Neben der **Aktualisierung von Teams**wählen Sie **Bearbeiten**aus.
 3. Wählen Sie das **Aktualisieren von Teams** unter **Koexistenzmodus**im Bereich **Teams nur** aus der Dropdown-Liste.
 

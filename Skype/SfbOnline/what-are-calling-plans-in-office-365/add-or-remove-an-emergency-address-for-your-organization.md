@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: d2eddc3812919a187fffa01279136be2a7735095
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635754"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753676"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen, ändern oder Entfernen einer Notfall Adresse für Ihre Organisation
 
@@ -40,7 +40,7 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zu der **Microsoft-Teams & Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Gehen Sie in der linken Navigationsleiste zu **VoIP** > **Notfallstandorte** und klicken auf die Schaltfläche **Neue Adresse hinzufügen**.
     
@@ -64,7 +64,7 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zu der **Microsoft-Teams & Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Emergency Speicherorte**, wählen Sie die Adresse, die Sie ändern möchten, und klicken Sie im Bereich Aktion auf **Bearbeiten**.
     
@@ -79,7 +79,7 @@ Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [S
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Emergency Speicherorte**, wählen Sie die Adresse, die Sie löschen möchten, und klicken Sie im Aktionsbereich auf **Löschen**.
     
@@ -106,7 +106,7 @@ Wenn tatsächlich eine falsche Notfall Adresse verwendet wurde, stellen Sie sich
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zu der **Microsoft-Teams & Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Rufnummern**, und doppelklicken Sie dann auf die Anzahl **"Fehler"** hat, und klicken Sie im Menü Website Rechte wählen Sie die **Neue Emergency Adresse**.
 

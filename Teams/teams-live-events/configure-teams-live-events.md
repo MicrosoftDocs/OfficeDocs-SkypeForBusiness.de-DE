@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von live-Ereignis Einstellungen in Microsoft-Teams
+title: Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,32 +14,32 @@ description: Informationen Sie zum Verwalten von Einstellungen für Teams live E
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8e12b6b85b61bb8c6312054be07dc37365c62c0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5dec5d34721bc30001972590c4501045a6e46ca8
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532249"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754479"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von live-Ereignis Einstellungen in Microsoft-Teams
+# <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Verwenden Sie Teams live Ereignisse Einstellungen zum Konfigurieren von Einstellungen für live Ereignisse, die gehalten werden in Ihrer Organisation. Sie können eine Support-URL einrichten und Konfigurieren eines Anbieters video Verteilung von Drittanbietern für. Diese Einstellungen gelten für alle live Ereignisse, die in Ihrer Organisation erstellt werden. 
 
-Sie können diese Einstellungen in der Microsoft-Teams & Skype für Business Administrationscenter auf einfache Weise verwalten. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Live Ereignisse Einstellungen**. 
+Sie können diese Einstellungen in der Verwaltungskonsole von Microsoft-Teams auf einfache Weise verwalten. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Live Ereignisse Einstellungen**. 
 
-![Live-Ereignis-settings.png] (../media/teams-live-events-settings.png "Screenshot des Teams live Ereignisse Einstellungen, die Sie in der Microsoft-Teams & Skype für Business-Verwaltungskonsole konfigurieren können") 
+![Live-Ereignis-settings.png] (../media/teams-live-events-settings.png "Screenshot des Teams live Ereignisse Einstellungen, die Sie in der Microsoft-Teams-Verwaltungskonsole konfigurieren können") 
 
 ## <a name="set-up-event-support-url"></a>Einrichten von Ereignis Support-URL
 
 Diese URL wird Live Ereignis Teilnehmer angezeigt. Fügen Sie die Support-URL für Ihre Organisation, um Teilnehmer eine Möglichkeit zum Kontaktieren des Supports während einer live-Ereignis übergeben.
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business Administrationscenter
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) Verwenden das Microsoft-Teams, Administrationscenter
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Live-Ereignis Einstellungen**.
 2. Geben Sie unter **URL unterstützen**Ihrer Organisation Support-URL ein. 
 
-    ![Support-URL-Einstellung für live Ereignisse in der Microsoft-Teams & Skype für Business Administrationscenter] (../media/teams-live-events-settings-supporturl.png "Screenshot der URL-Einstellung für Teams live Ereignisse unterstützen")
+    ![Support-URL-Einstellung für live Ereignisse in der Verwaltungskonsole von Microsoft-Teams] (../media/teams-live-events-settings-supporturl.png "Screenshot der URL-Einstellung für Teams live Ereignisse unterstützen")
 
 ### <a name="using-windows-powershell"></a>Verwenden von Windows PowerShell
 Führen Sie Folgendes aus:
@@ -51,12 +51,12 @@ Weitere Informationen finden Sie unter [Set-CsTeamsMeetingBroadcastConfiguration
 
 Wenn Sie erworben und eine softwarelösung definiert Netzwerk (SDN) oder Enterprise Content Delivery Network (eCDN) Lösung über einen Microsoft video Partner einrichten, konfigurieren Sie den Anbieter für live Ereignisse im Teams. 
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams--skype-for-business-admin-center"></a>![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business Administrationscenter
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) Verwenden das Microsoft-Teams, Administrationscenter
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **Live-Ereignis Einstellungen**.
 2. Führen Sie unter **video Verteilung Drittanbieter**die folgenden Schritte aus: 
 
-    ![Drittanbieter - video Verteilung Anbieter Einstellungen in der Microsoft-Teams & Skype für Business Administrationscenter] (../media/teams-live-events-settings-distribution-provider.png "Screenshot der Anbieter video Verteilung von Drittanbieter - Einstellungen für live Ereignisse")
+    ![Drittanbieter - video Verteilung Anbieter Einstellungen in der Verwaltungskonsole von Microsoft-Teams] (../media/teams-live-events-settings-distribution-provider.png "Screenshot der Anbieter video Verteilung von Drittanbieter - Einstellungen für live Ereignisse")
 
     - **Verwenden Sie einen Anbieter für Drittanbieter - Verteilung** Deaktivieren Sie diese Aktivieren der video Verteilung von Drittanbieter-Anbieter.
     - **Name des Anbieters SDN** Wählen Sie den Anbieter, den Sie verwenden.

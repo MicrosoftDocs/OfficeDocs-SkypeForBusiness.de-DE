@@ -15,28 +15,29 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Informationen Sie zum Verwalten von Einstellungen für Teams Besprechungen, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: e4eba5f585f7621add95101d06194bebead507e2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283549"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754417"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
-Verwenden Sie als Administrator Teams Besprechungen Einstellungen Kontrolle, ob anonyme Benutzer teilnehmen an Besprechungen Teams, besprechungseinladungen anpassen, und wenn Sie Quality of Service (QoS) aktivieren möchten Festlegen von Ports für den Datenverkehr in Echtzeit können. Diese Einstellungen gelten für alle Besprechungen von Teams, Zeitplan für Benutzer in Ihrer Organisation. Verwalten Sie diese Einstellungen von **Besprechungen** > **besprechungseinstellungen** in der Microsoft-Teams & Skype für Business Admin Center. 
+Verwenden Sie als Administrator Teams Besprechungen Einstellungen Kontrolle, ob anonyme Benutzer teilnehmen an Besprechungen Teams, besprechungseinladungen anpassen, und wenn Sie Quality of Service (QoS) aktivieren möchten Festlegen von Ports für den Datenverkehr in Echtzeit können. Diese Einstellungen gelten für alle Besprechungen von Teams, Zeitplan für Benutzer in Ihrer Organisation. Verwalten Sie diese Einstellungen von **Besprechungen** > **besprechungseinstellungen** in der Verwaltungskonsole von Microsoft-Teams. 
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Zulassen, dass anonyme Benutzer an Besprechungen teilnehmen
 
 Mit anonyme Teilnahme kann jeder die Besprechung als anonymer Benutzer teilnehmen, indem Sie auf den Link in der Einladung. 
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business Admin Center
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **besprechungseinstellungen**. 
 2. Aktivieren Sie unter **Teilnehmer** **anonyme Benutzer können an einer Besprechung teilnehmen**. 
 
-    ![Meeting-Einstellungen-participants.png] (media/meeting-settings-participants.png "Screenshot der Teilnehmer Einstellungen für Teams Besprechungen im Microsoft-Teams & Skype für Business Admin Center")
+    ![Meeting-Einstellungen-participants.png] (media/meeting-settings-participants.png "Screenshot der Teilnehmer Einstellungen für Teams Besprechungen in der Verwaltungskonsole von Microsoft-Teams")
 
 Wenn Sie nicht, dass anonyme Benutzern die Teilnahme von Benutzern in Ihrer Organisation geplant möchten, deaktivieren Sie diese Einstellung. 
+
 ## <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
 Sie können Teams Besprechungsanfragen erfüllen der Anforderungen Ihrer Organisation anpassen. Sie können Ihrer Organisation Logo und enthalten hilfreiche Informationen, wie Links zu Support-Website und Haftungsausschluss und eine nur-Text-Fußzeile. 
@@ -49,7 +50,7 @@ Sie können Teams Besprechungsanfragen erfüllen der Anforderungen Ihrer Organis
 
 ### <a name="customize-your-meeting-invitations"></a>Anpassen der besprechungseinladungen
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business Admin Center
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **besprechungseinstellungen**.
 2. Führen Sie unter **E-Mail-Einladung**folgende Schritte aus: 
@@ -65,12 +66,12 @@ Sie können Teams Besprechungsanfragen erfüllen der Anforderungen Ihrer Organis
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Legen Sie wie Real-Time Media-Datenverkehr für Teams Besprechungen behandelt werden sollen
 Wenn Sie den Netzwerkverkehr zu priorisieren Quality of Service (QoS) verwenden, können Sie QoS-Markierung aktivieren, und Sie können Portbereiche für jede Art von Mediendatenverkehr festlegen. 
 
- ![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden die Microsoft-Teams & Skype für Business Administrationscenter
+ ![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
 1. Wechseln Sie im linken Navigationsbereich auf **Besprechungen** > **besprechungseinstellungen**. 
 2. Führen Sie unter **Netzwerk**folgende Schritte aus:
 
-    ![Meeting-Einstellungen-network.png] (media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams Besprechungen im Microsoft-Teams & Skype für Business Admin Center")
+    ![Meeting-Einstellungen-network.png] (media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams Besprechungen in der Verwaltungskonsole von Microsoft-Teams")
 
     - Um QoS-Markierung aktivieren, aktivieren Sie **Einfügen Quality of Service (QoS)-Marker für Mediendatenverkehr in Echtzeit**.
     - Um anzugeben Portbereiche neben, **Wählen Sie einen Portbereich für jede Art von Mediendatenverkehr in Echtzeit**, wählen Sie **Portbereiche angeben**und geben Sie die Start- und Enddatum Ports für Audio, Video und Bildschirmfreigabe. 

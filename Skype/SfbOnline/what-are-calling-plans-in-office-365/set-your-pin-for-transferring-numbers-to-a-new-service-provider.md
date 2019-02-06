@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Zum Weiterleiten oder Portieren von Telefonnummern von Skype for Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie manuell eine PIN festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie sie mit einschließen, wenn Sie eine Anfrage zur Portierung einer Telefonnummer stellen.
-ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
+ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347091"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753454"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Festlegen Ihrer PIN zum Übertragen von Nummern zu einem neuen Dienstanbieter
 
-Für die Übertragung oder *Portierung* von Telefonnummern von Skype for Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, müssen Sie manuell eine PIN festlegen. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie sie mit einschließen, wenn Sie eine Anfrage zur Portierung einer Telefonnummer stellen. 
+To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   
 > [!IMPORTANT]
 > Ein PIN-Nummer zum Wegportieren wird nur für Organisationen in den USA verwendet. 
@@ -55,7 +55,7 @@ Nachfolgend finden Sie einige bestimmte Informationen über diese PIN-Nummer, di
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zum **Microsoft-Teams und Skype für Business Admin Center** > **Legacy-Portal**.
+2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
     
 3. Wählen Sie im linken Navigationsbereich **VoIP** > **Port-Aufträge**.
     
