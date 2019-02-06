@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Informationen Sie zu Analytics aufrufen und Qualitätsdashboard aufrufen und verwenden sie zur Überwachung und Problembehandlung Anrufqualität.
-ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 8f664dfc8a609e23485f1dd935c00d8e5a745943
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442437"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742989"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anruf Analyse- und Anrufqualität Dashboard
 
@@ -84,6 +84,8 @@ Die Anrufanalyse und das Anrufqualitätsdashboard werden parallel ausgeführt un
 Weitere Informationen zu CQD finden Sie unter [aktivieren, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](turning-on-and-using-call-quality-dashboard.md) und [Dimensionen und Measures in Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verfügbar](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
+
+[Video: Übersicht über die Qualität aufrufen](https://aka.ms/teams-quality)
 
 [Einrichten von Anrufen Analytics](set-up-call-analytics.md)
 

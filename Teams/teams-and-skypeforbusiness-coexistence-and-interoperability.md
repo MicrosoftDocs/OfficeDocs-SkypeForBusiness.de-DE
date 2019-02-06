@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41ff5d3329d46ee9f716e09145c94ad8e2dbaea8
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349498"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743005"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -132,3 +132,7 @@ Für diese Einschränkung (außer für beständigen Chat) ist eine mögliche Abh
 > Was beginnt, wie ein einfacher Chat (IM) schnell einen Anruf oder eine Ad-hoc-Besprechung ausweiten kann. Wir wissen, dass diese Szenarien für die Verwendbarkeit und benutzerfreundlichkeit von entscheidender Bedeutung sind, und wir ständig interop Erfahrungen zwischen Skype für Unternehmen und Teams weiterentwickelt sind. Kontrollkästchen für die aktuellsten Informationen zurück.
 
 Nach der Lektüre dieses Artikels finden Sie unter [Wählen Sie Ihre Reise Upgrade](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration und Interoperabilität Anleitungen](https://aka.ms/SkypeToTeams-Interop), [Koexistenz mit Skype für Unternehmen](coexistence-chat-calls-presence.md)und [Festlegen Ihrer Koexistenz und Durchführen eines Upgrades Einstellungen](https://aka.ms/SkypeToTeams-SetCoexistence) für die Implementierung Details.
+
+## <a name="related-links"></a>Verwandte Links
+
+[Video: Verwalten von Koexistenz und Interoperabilität zwischen SfB und Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

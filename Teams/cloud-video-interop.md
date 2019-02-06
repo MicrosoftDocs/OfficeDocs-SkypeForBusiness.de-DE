@@ -1,5 +1,5 @@
 ---
-title: Cloud-Video-Interop für Microsoft-Teams
+title: Cloud-Video-Interoperabilität für Microsoft Teams
 author: lolaj
 ms.author: lolaj
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e038a4618bd456336681c2fff95936a821c770ea
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533359"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742966"
 ---
-# <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interop für Microsoft-Teams
+# <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interoperabilität für Microsoft Teams
 
 Cloud-Video-Interop können Drittanbieter-meeting Raum Geräte für die Microsoft-Teams, Besprechungen teilnehmen.
 
@@ -67,10 +67,10 @@ Das folgende Diagramm beschreibt die allgemeine Architektur einer Teams Partner-
 
 ## <a name="key-business-considerations"></a>Wesentlichen betriebswirtschaftlichen Faktoren
 
-**Microsoft-Teams, zusammen mit 3P-video-Infrastruktur**
+**Microsoft-Teams, zusammen mit Drittanbieter-video-Infrastruktur**
 
-- Haben Sie eine große Bereitstellung eines Videogeräts 3 P?
-- Haben Sie ein 3 P aufrufen, Domänencontroller in Ihrer Organisation?
+- Haben Sie eine große Bereitstellung von Drittanbieter-Videogeräte?
+- Verfügen Sie über einen Drittanbieter Anruf Domänencontroller in Ihrer Organisation?
 - Planen Sie Ihre aktuellen Anruf Controller zusammen mit Microsoft-Teams, halten?
 - Möchten Sie Ihr eigenes Video Infrarot ausführen oder gehostet werden? 
 - Planen Sie die Bereitstellung von Teams Raum Systeme? Wenn?
@@ -88,11 +88,11 @@ Das folgende Diagramm beschreibt die allgemeine Architektur einer Teams Partner-
 
 ## <a name="business-workflow-scenarios"></a>Workflow Geschäftsszenarien
 
-- **Für Business Server Skype -> Microsoft-Teams:** Ihre Organisation verfügt Drittanbieter-Geräte und Verschieben von Skype für Business auf Prem Server in Microsoft-Teams.  
-- **Für Business Skype-online > Microsoft-Teams:** Ihre Organisation migrieren für Business Online zu Microsoft-Teams von Skype.
-- **Cisco UC -> Microsoft-Teams:** Ihre Organisation ist das Verschieben von Cisco, die Microsoft-Teams, aber nicht ersetzen die Cisco-Geräte bereit.
-- **Gemischte Systemen -> Microsoft-Teams:** Ihre Organisation verfügt über verschiedene Systeme in Ihrer Umgebung nebeneinander (Cisco, BroadSoft, SfB Server, SfBO).
-- **Einen anderen Anbieter von Cloud-Meeting -> Microsoft-Teams:** Ihre Organisation wurde ein Benutzer für einen anderen Cloud Besprechung Anbieter Migrieren zu Microsoft-Teams.
+- **Für Business Server Skype-> Microsoft-Teams:** Ihre Organisation verfügt Drittanbieter-Geräte und Verschieben von Skype für Business auf Prem Server in Microsoft-Teams.  
+- **Skype für online - Business > Microsoft-Teams:** Ihre Organisation migrieren für Business Online zu Microsoft-Teams von Skype.
+- **Cisco UC-> Microsoft-Teams:** Ihre Organisation ist das Verschieben von Cisco, die Microsoft-Teams, aber nicht ersetzen die Cisco-Geräte bereit.
+- **Systeme gemischten-> Microsoft-Teams:** Ihre Organisation verfügt über verschiedene Systeme in Ihrer Umgebung nebeneinander (Cisco, BroadSoft, SfB Server, SfBO).
+- **Einen anderen Anbieter von Cloud-Meeting-> Microsoft-Teams:** Ihre Organisation wurde ein Benutzer für einen anderen Cloud Besprechung Anbieter Migrieren zu Microsoft-Teams.
 
 
 Nach dem Auswählen eines Partners oder Partner, können Sie zum [Einrichten von Cloud-Video-Interop für Microsoft-Teams,](cloud-video-interop-for-teams-set-up.md)bereit. 

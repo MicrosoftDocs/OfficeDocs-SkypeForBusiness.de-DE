@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3df6bf5654e29adf794c2d8c8337a2460e95550c
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562831"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743020"
 ---
 ![Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft")
 
@@ -222,3 +222,7 @@ Dies sind die wichtigsten Vorteile aus diesem Handbuch. Du musst:
 - Stellen Sie sicher, dass Sie genügend Bandbreite für die Bereitstellung von Teams anhand der [Planner Netzwerk](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)verfügen.
 
 - Führen Sie das [Tool zur Bewertung der Netzwerk](https://www.microsoft.com/download/details.aspx?id=53885) , und stellen Sie sicher, dass die in [der Leistung für die Qualität und Netzwerk Konnektivität Medien](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) aus der Edge-Segment und die Client-Segment beschriebenen Anforderungen erfüllt.
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Video: Netzwerkplanung](https://aka.ms/teams-networking)

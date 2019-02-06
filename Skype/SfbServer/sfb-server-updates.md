@@ -1,23 +1,22 @@
 ---
 title: Updates für Skype for Business Server
 ms.author: jambirk
-author: jambirk
+author: ariantor
 manager: serdars
-ms.date: 07/13/2018
 ms.audience: ITPro
-ms.reviewer: ariantor, arianr
+ms.reviewer: arianr
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Hier können Sie Updates für Skype for Business Server 2015 und Lync 2013 an einer zentralen Stelle suchen und verwalten. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
-ms.openlocfilehash: fba22692c29461783cc4eb73a04aa668db93362c
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 480a2d69ecf15b23b88490cfed1806f45d6beed3
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694735"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742855"
 ---
 # <a name="skype-for-business-server-updates"></a>Updates für Skype for Business Server
 

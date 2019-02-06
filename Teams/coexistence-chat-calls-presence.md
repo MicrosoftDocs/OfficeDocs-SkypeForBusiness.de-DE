@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182504"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742997"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -78,7 +78,7 @@ Führen Sie in den Tabellen, die aus:
 |--- |--- |--- |--- |--- |
 | Inseln | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Klicken Sie auf prem<br/>Klicken Sie auf prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Klicken Sie auf prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
-|TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/>|Microsoft Teams|
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
 **Tabelle 1 b: Mandanten neue Chat oder an einen Empfänger in einer SfB Anrufrouting\* Modus**
@@ -87,16 +87,16 @@ Führen Sie in den Tabellen, die aus:
 |--- |--- |--- |---   |--- |
 | Inseln |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Nicht möglich** <br/>Skype for Business<br/> |
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Klicken Sie auf prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
-|TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
 
 **Tabelle 1c: Mandanten neue Chat oder Anrufrouting an einen Empfänger der TeamsOnly-Modus**
 
 | <br/><br/> Modus   | Absender <br/><br/> Client | <br/><br/> SfB&nbsp;verwaltet | |   Empfänger <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Inseln   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Microsoft Teams* <br/>Microsoft Teams <br/>*Microsoft Teams*  |
+| Inseln   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Klicken Sie auf prem<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
-|TeamsOnly  | Microsoft Teams | Online |  &boxv; |Microsoft Teams   |
+|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>Federated routing für neue Chats oder Anrufe
@@ -116,27 +116,27 @@ Die folgenden Tabellen beschreiben, welcher Client einen Anruf über den Erstell
 
 | <br/><br/>Modus   | Absender<br/><br/> Client| <br/><br/>SfB verwaltet| | Empfänger<br/><br/> Inseln |
 |--- |--- |--- |--- |--- |
-| Inseln |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich**   <br/> Skype for Business |
+| Inseln |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich**   <br/> Skype for Business |
 | SfB\* |Skype for Business <br/>Skype for Business |Online<br/> Klicken Sie auf prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
-| TeamsOnly |Microsoft Teams |Online| &boxv;|*Skype for Business* |
+| TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
 **Tabelle 2 b: federated neue Chat oder Anrufrouting an an einen Empfänger in einer SfB\* Modus**
 
 | <br/><br/>Modus   | Absender<br/><br/> Client| <br/><br/>SfB verwaltet| |  Empfänger<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Inseln |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich** <br/>Skype for Business <br/> |  
+| Inseln |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich** <br/>Skype for Business <br/> |  
 | SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> Klicken Sie auf prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
-| TeamsOnly | Microsoft Teams|Online |&boxv; |*Skype for Business*  |
+| TeamsOnly | Teams|Online |&boxv; |*Skype for Business*  |
 |  | | | | |
 
 **Tabelle 2c: federated neue Chat oder Anrufrouting an einen Empfänger der TeamsOnly-Modus**
 
 | <br/><br/>Modus | Absender<br/><br/> Client| <br/><br/>SfB verwaltet| |  Empfänger<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Inseln  |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Microsoft Teams <br/>*Microsoft Teams* <br/>**Nicht möglich** <br/>*Microsoft Teams* |
+| Inseln  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Klicken Sie auf prem<br/> Klicken Sie auf prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Nicht möglich** <br/>*Microsoft Teams* |
 | SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> Klicken Sie auf prem| &boxv;<br/>&boxv;|*Microsoft Teams* <br/>*Microsoft Teams*   |
-| TeamsOnly |Microsoft Teams |Online |&boxv; |Microsoft Teams |
+| TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>Chats und Aufrufen von vorhandenem threads
@@ -190,7 +190,7 @@ Die Tabelle beschreibt den Herausgeber Anwesenheitsinformationen, die einen Moni
 |Watcher <br/><br/>Client| |<br/><br/>Inseln |Publisher <br/><br/>SfB\* |<br/>Nur Teams|
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv;|Skype for Business | Skype for Business | Microsoft Teams|
-|Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Microsoft Teams |
+|Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>Verbundpartner Anwesenheit
@@ -204,7 +204,7 @@ In der folgenden Tabelle wird beschrieben, die vom Herausgeber Anwesenheitsinfor
 |Watcher <br/><br/> Client | |<br/><br/> Inseln  |Publisher <br/><br/> SfB\* |<br/><br/> Nur Teams |
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Microsoft Teams  |
-|Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Microsoft Teams|
+|Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Anwesenheitsinformationen in vorhandenem threads
@@ -212,3 +212,7 @@ In der folgenden Tabelle wird beschrieben, die vom Herausgeber Anwesenheitsinfor
 Um ausrichten Anwesenheits- und Erreichbarkeit in vorhandenem Threads, das Ziel Anwesenheit verfügbar gemacht werden, dass Thread mit dem routing des Threads ausgerichtet werden sollen muss, ist es möglich, ausgehend routing.
 
 Insbesondere wenn einen Empfänger Sie zuvor eine beständige interop Unterhaltungsthreads mit hatten wurde aktualisiert, Teams, dass Thread wider präzise Anwesenheit nicht mehr und nicht mehr routingfähig sein. Sie sollten einen neuen Thread starten.
+
+## <a name="related-links"></a>Verwandte Links
+
+[Video: Verwalten von Koexistenz und Interoperabilität zwischen SfB und Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

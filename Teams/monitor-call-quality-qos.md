@@ -1,7 +1,7 @@
 ---
-title: Implementieren Sie QoS und Monitor Anrufs-Analyse in Microsoft-Teams
+title: Implementieren von QoS und Überwachung der Anrufanalyse in Microsoft Teams
 author: jambirk
-ms.author: MyAdvisor
+ms.author: jambirk
 manager: Serdars
 ms.topic: article
 ms.service: msteams
@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0f82a546057558cc6c69c9c0de19bc9ccb021cd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 505409ac51552a99fabc4eb41801a1f19a737877
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28328175"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742950"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementieren Sie QoS und Monitor Anrufqualität in Microsoft-Teams
 
@@ -37,7 +37,7 @@ Anruf Quality Dashboard (CQD) soll helfen, Administratoren und Netzwerktechniker
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Implementieren Sie QoS für Microsoft-Teams](monitor-call-quality-qos.md)
+[Video: Übersicht über die Qualität aufrufen](https://aka.ms/teams-quality)
 
 [Einrichten von Anrufen Analytics](set-up-call-analytics.md)
 
