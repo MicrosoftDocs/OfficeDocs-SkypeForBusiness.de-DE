@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Informationen Sie zu Richtlinien für Messaging und wie sie Chat in Teams messaging steuern verwendet werden können.
-ms.openlocfilehash: 5292d88c148e2bd23242f96a3593d98178b9a923
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
+ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760583"
+ms.locfileid: "29763716"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Was sind Messaging-Richtlinien in Teams?
 ::: zone target="docs"
@@ -32,7 +32,6 @@ Richtlinien können auf einfache Weise verwaltet werden, in der Verwaltungskonso
 ![Messagingrichtlinien in Teams](media/messaging-policies.png)
 ::: zone-end
 
-::: zone target="chromeless"
 Die verfügbaren Einstellungen für die Richtlinie werden nachfolgend beschrieben: 
 
 - **Websitebesitzer können gesendete Nachrichten löschen**  Verwenden Sie diese Einstellung, um Besitzer Nachrichten löschen, die Benutzer im Chat senden lassen.
@@ -51,12 +50,10 @@ Die verfügbaren Einstellungen für die Richtlinie werden nachfolgend beschriebe
 - **Verwendung Aufkleber Unterhaltungen** Wenn Sie diese aktivieren, können Benutzer in Chat Gespräche mit anderen Personen Aufkleber einschließen.
 - **Zulassen von URL-Vorschau** Verwenden Sie diese Einstellung, um die automatische URL Anzeigen der Vorschau aktiviert oder deaktiviert in Nachrichten zu aktivieren.
 - **Übersetzen von Nachrichten durch Benutzer zulassen** Aktivieren Sie diese Einstellung Benutzer Teams Nachrichten automatisch in die Sprache, die durch ihre persönliche Sprachoptionen für Office 365 angegebenen übersetzen können.
-::: zone-end
 
 ::: zone target="docs"
 Wenn Sie eine benutzerdefinierte Richtlinie an Messaging erstellt haben, werden es nur aktive für einen Benutzer wenn diese Richtlinie, die einem Benutzer zugewiesen ist.  Um eine benutzerdefinierte Richtlinie für einen Benutzer in der Verwaltungskonsole Teams zuzuweisen, klicken Sie im linken Navigationsbereich auf **Benutzer** , wählen Sie den Benutzer, dem Sie die Richtlinie zuweisen möchten, und wählen Sie dann auf **Bearbeiten** , klicken Sie unter **Richtlinien zugewiesen**.
-
+::: zone-end
 
 ### <a name="related-topics"></a>Verwandte Themen
 [Besprechungsrichtlinien in Microsoft Teams](meeting-policies-in-teams.md)
-::: zone-end
