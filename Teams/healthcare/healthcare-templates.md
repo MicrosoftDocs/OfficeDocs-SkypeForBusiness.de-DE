@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Microsoft-Teams Gesundheitswesen Vorlagen
-ms.openlocfilehash: 7d55d2d6a5f062bc5eb85b6bfc5227f7813c91ca
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735633"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760567"
 ---
 # <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Erste Schritte mit Microsoft-Teams Gesundheitswesen Vorlagen
 
@@ -34,7 +34,7 @@ Die Vorlage Bezirk ist für die Kommunikation und Zusammenarbeit innerhalb einer
 
 |Basisvorlage-Typ |baseTemplateId |Geplante Vorlage Kanäle|
 |:--- |:---|:---|
-|Gesundheitswesen - Bezirk | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Ansagen\* <br> Rufen Sie Lichtquellen\* <br> Hilfreiche Informationen\* <br> Huddles\* <br>Rundet\* <br>Schulung\* |
+|Gesundheitswesen - Bezirk | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Ansagen\* <br> Huddles\* <br> Rundet\* <br> Koordiniertes\* <br> Schulung\* |
 |     | |         |
 
 \*Automatische favorisierte 
@@ -45,7 +45,7 @@ Die Vorlage Krankenhaus ist für die Kommunikation und Zusammenarbeit zwischen m
 
 |Basisvorlage-Typ |baseTemplateId |Geplante Vorlage Kanäle|
 |:--- |:---|:---|
-|Gesundheitswesen - Krankenhaus | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Ansagen\* <br> Compliance\* <br> Hilfreiche Informationen\* <br>Freiheitsentziehenden<br>Finanzen<br>Personalwesen <br>Labor<br> Apotheke |
+|Gesundheitswesen - Krankenhaus | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Ansagen\* <br> Compliance\* <br> Freiheitsentziehenden <br> Personalwesen <br> Apotheke |
 | | |  |
 
 \*Automatische favorisierte 
@@ -58,7 +58,7 @@ Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@od
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospitalWide",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

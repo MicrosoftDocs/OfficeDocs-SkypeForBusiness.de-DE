@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Informationen Sie zu verschiedenen Kombinationen der Erstellung des Benutzers und welche Kombinationen unterstützt oder nicht unterstützt werden.
-ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 6f1cdbfc012026d7a41f5ca96e730aeb861eeb40
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635724"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760559"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
 
@@ -34,7 +34,7 @@ Dieser Artikel bezieht sich auf Umgebungen, in denen Sie alle der folgenden habe
 - Tätigen und Entgegennehmen von Anrufen (Public Switched Telephone Network, PSTN), zum und vom Client aktivierte Benutzer
 
  
-Wenn Sie eine andere Umgebung (beispielsweise Skype für Business Cloud Connector Edition) verfügen, Hybrid nicht konfiguriert ist oder Ihre Benutzer ist nicht für PSTN-Anrufe aktiviert, wird die unterstützbarkeitsmatrix abweichen.  
+Wenn Sie eine andere Umgebung (beispielsweise Skype für Business Cloud Connector Edition) verfügen, Hybrid nicht konfiguriert ist oder die Benutzer nicht für PSTN-Anrufe aktiviert sind, wird die unterstützbarkeitsmatrix abweichen.  
 
 ## <a name="about-the-combinations-and-the-supportability-statement"></a>Zu den Kombinationen und die Support-Anweisung  
 
@@ -43,12 +43,12 @@ Eine Skype für Business-hybridumgebung mit PSTN-Anbindung bietet Flexibilität 
 
 **Definitionen:**   
 - **Enterprise-VoIP:** Option zum Zugriff auf das PSTN für Benutzer mit lokalen Skype für Business-Benutzerkontos. Lokale Skype für Business Vermittlungsserver stellt zunehmende Verbindung untereinander PSTN bereit.  
-- **Hybrid-VoIP-Konnektivität:** Option zum Zugriff auf das PSTN für mit online Skype für Business-Konto. Lokale Skype für Business Vermittlungsserver stellt zunehmende Verbindung untereinander PSTN bereit. 
+- **Hybrid-VoIP-Konnektivität:** Option zum Zugriff auf das PSTN für Benutzer mit Skype für Business Online-Konto. Lokale Skype für Business Vermittlungsserver stellt zunehmende Verbindung untereinander PSTN bereit. 
 - **Direktes routing:** Option zum Zugriff auf das PSTN für Benutzer mit online Skype mit Microsoft-Teams, Client für Microsoft-Teams, Lizenz, Business-Konto. Der SBC ist mit der SIP-Proxy in Office 365 ohne lokale Software von Microsoft verbunden.
 
   
 **Die Umgebung werden folgenden Kombinationen unterstützt:**
-- **Szenario 1:** Benutzer für Unternehmen lokal Skype-Konto und das Skype für das Business-Client mit Enterprise-VoIP verwendet wird
+- **Szenario 1:** Benutzer Skype-Konto für Business lokal und verwendet die Skype für Business-Client mit Enterprise-VoIP
 - **Szenario 2:** Benutzer Skype-Konto für Unternehmen online und verwendet die Skype für Business-Client mit Hybrid-VoIP-Konnektivität
 - **Szenario 3:** Benutzer für Unternehmen online Skype-Konto mit Lizenz für den Microsoft-Teams und Teams Client verwenden
  

@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08abde935b69aa58e5e54bd50b31f1c9d554552e
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 27c27aabd9463287c15a98282d6efe114642a8a1
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742958"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760575"
 ---
 # <a name="get-started-with-teams-templates"></a>Erste Schritte mit Microsoft Teams-Vorlagen 
 
@@ -67,8 +67,8 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgelegt, die keine zus�
 |Education-<br>PLC-team |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Apps:<ul><li>OneNote PLC-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</ul></li>|
 | Retail-<br>Anmelden | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften<ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul>Member-Berechtigungen<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul> |
 | Retail-<br>Manager für die Zusammenarbeit | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften:<ul><li>Team Visibility auf Private festgelegt</li></ul>Member-Berechtigungen:<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul>|
-| Gesundheitswesen-<br>Bezirk |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Kanäle: <ul><li>Ansagen\*</li><li>Rufen Sie Lichtquellen</li><li>Hilfreiche Informationen\*</li><li>Huddles\*</li><li>Rundet</li><li>Schulung\*</li></ul>\*Automatische favorisierte Kanäle |
-|Gesundheitswesen-<br>Krankenhaus | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Kanäle:<ul><li>Ansagen\*</li><li>Compliance\*</li><li>Freiheitsentziehenden</li><li>Finanzen</li><li>Hilfreiche Informationen\*</li><li>Personalwesen</li><li>Labor</li></li><li>Apotheke</li></ul>\*Automatische favorisierte DDE-Kanal|
+| Gesundheitswesen-<br>Bezirk |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Kanäle: <ul><li>Ansagen\*</li><li>Huddles\*</li><li>Rundet</li><li>Koordiniertes\*</li><li>Schulung\*</li></ul>\*Automatische favorisierte Kanäle |
+|Gesundheitswesen-<br>Krankenhaus | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Kanäle:<ul><li>Ansagen\*</li><li>Compliance\*</li><li>Freiheitsentziehenden</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatische favorisierte DDE-Kanal|
 |||
 
 > [!NOTE]
