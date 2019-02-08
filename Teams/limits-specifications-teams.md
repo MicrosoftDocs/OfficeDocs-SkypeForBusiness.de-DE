@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f397dd63cfa50069d6072686ae3650b837ca53a1
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: 77ee256352925ad92f0d74f7a9fb60704847709a
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690467"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770908"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limits und Spezifikationen für Microsoft Teams
 =============================================
@@ -37,7 +37,7 @@ Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und
 |Anzahl der Teams, die ein Office 365-Mandanten enthalten kann    | 500.000     |
 |Anzahl der Kanäle pro team    | 200 (einschließlich der gelöschten Kanäle)         |
 
-&sup1; Alle Verzeichnisobjekt in Azure Active Directory wird für diese Grenze.
+&sup1; Alle Verzeichnisobjekt in Azure Active Directory wird für diese Grenze. Globale Administratoren sind von diesen Grenzwert, ausgenommen apps Microsoft Graph verwenden von [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference)aufrufen.
 
 > [!NOTE]
 > Kanäle unterstützen keine Sonderzeichen wie ~ # % & * {} + / \: < >? | ""in der DDE Kanalname.  

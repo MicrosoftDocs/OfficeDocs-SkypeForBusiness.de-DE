@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb84f58c48292c13bd4af6f355f5e4da22458c9
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715477"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771016"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren von Netzwerkeinstellungen für standortbasierte Routing 
+# <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren von Netzwerkeinstellungen für standortbasierte Routing
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 Wenn Sie noch nicht haben lesen [Plan Location-Based Routing für das direkte Routing getan](location-based-routing-plan.md) , um weitere Schritte anzuzeigen müssen Sie vor der Bereitstellung von Netzwerkeinstellungen für standortbasierte Routing übernehmen.
 
@@ -59,7 +61,7 @@ Die folgende Tabelle zeigt der Netzwerkstandorte, die in diesem Beispiel definie
 
 ## <a name="define-network-subnets"></a>Definieren von Netzwerksubnetzen
 
-Verwendung der ``New-Cs-TenantNetworkSubnet`` -Cmdlet zum Definieren von Netzwerksubnetzen und verknüpfen Sie diese mit Netzwerkstandorten. Jeder internen Subnetz kann nur einem einzigen Standort zugeordnet werden. 
+Verwendung der ``New-CsTenantNetworkSubnet`` -Cmdlet zum Definieren von Netzwerksubnetzen und verknüpfen Sie diese mit Netzwerkstandorten. Jeder internen Subnetz kann nur einem einzigen Standort zugeordnet werden. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -89,7 +91,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Definieren der externen Subnetze
-Verwendung der ``New-Cs-TenantTrustedIPAddress`` -Cmdlet zum Definieren von externen Subnetze und weisen Sie diese den Mandanten. Sie können eine unbegrenzte Anzahl von Subnetzen für einen Mandanten definieren. 
+Verwendung der ``New-CsTenantTrustedIPAddress`` -Cmdlet zum Definieren von externen Subnetze und weisen Sie diese den Mandanten. Sie können eine unbegrenzte Anzahl von Subnetzen für einen Mandanten definieren. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

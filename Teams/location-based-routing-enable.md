@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3468b413fedc5d3e24871a632f50b5d58c7c5467
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715453"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771008"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Speicherortbasierte Routing für die direkte Weiterleitung aktivieren
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Bevor Sie die in diesem Artikel beschriebenen Schritte ausführen, stellen Sie sicher, Sie [Plan Location-Based Routing für das direkte Routing](location-based-routing-plan.md) gelesen und die Schritte unter [Configure Netzwerkeinstellungen für standortbasierte Routing](location-based-routing-configure-network-settings.md)abgeschlossen haben.
 
@@ -34,7 +36,7 @@ In diesem Artikel wird beschrieben, wie speicherortbasierte Routing für die dir
 
 ## <a name="enable-location-based-routing-for-users"></a>Speicherortbasierte Routing für Benutzer aktivieren
 
-1. Verwendung der ``Set-CsOnlinPstnUsages`` -Cmdlet zum Festlegen von PSTN-Verwendungen. Trennen Sie mehrere Verwendungen jeder Verwendung durch ein Komma.
+1. Verwendung der ``Set-CsOnlinePstnUsages`` -Cmdlet zum Festlegen von PSTN-Verwendungen. Trennen Sie mehrere Verwendungen jeder Verwendung durch ein Komma.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 

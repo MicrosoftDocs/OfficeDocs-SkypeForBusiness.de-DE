@@ -126,6 +126,8 @@
 ##### [Übersicht über die Bereitstellung](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Einheitlicher Kontaktspeicher](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Planen von Skype für Business Server und Exchange Server-migration](../hybrid/plan-um-migration.md)
+#### [Exchange Unified Messaging-Migration Onlinesupport](../plan/exchange-unified-messaging-online-migration-support.md)
+
 ### [Überwachung](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Archiving](../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Konferenzen](../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -452,7 +454,7 @@
 
 ### [Konferenzen](../../SfbServer/manage/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Konferenzrichtlinien](../../SfbServer/manage/conferencing/conferencing-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Ansicht](../../SfbServer/manage/conferencing/view.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+##### [ansehen](../../SfbServer/manage/conferencing/view.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Erstellen von Richtlinien](../../SfbServer/manage/conferencing/create-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Ändern von Richtlinien](../../SfbServer/manage/conferencing/modify-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Zuweisen von Richtlinien](../../SfbServer/manage/conferencing/assign-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

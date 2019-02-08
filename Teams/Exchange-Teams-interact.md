@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08e77d3792c6575748b43785f21ba389a957eedb
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742840"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770900"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -35,18 +35,20 @@ Die folgende Tabelle enthält Informationen für Benutzer, für die Exchange Onl
 
 **Unterstützte Aktionen:** 
 
-| Benutzerpostfach ist gehostet in: | eDiscovery| Gesetzliche Aufbewahrungspflicht | Aufbewahrung| Teams und der DDE-Kanal-mgmt |Besprechungen erstellen und anzeigen| Benutzerprofilbild bearbeiten | Die Anrufliste... | Verwalten von Kontakten | Zugriff auf Outlook-Kontakte | Voicemail |Connectors hinzufügen und konfigurieren|Registerkarten hinzufügen und konfigurieren|Bots hinzufügen und konfigurieren| 
+| Benutzerpostfach ist gehostet in: | eDiscovery| Rechtliche&nbsp;halten | Speicherung| Teams und der DDE-Kanal-mgmt |Besprechungen erstellen und anzeigen| Benutzerprofilbild bearbeiten | Die Anrufliste... | Verwalten von Kontakten | Zugriff auf Outlook-Kontakte | Voicemail |Connectors hinzufügen und konfigurieren|Registerkarten hinzufügen und konfigurieren|Bots hinzufügen und konfigurieren| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Ja,<sup>2</sup>|Ja,<sup>2</sup>|Ja |Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja |Ja|
-|**Exchange Online Dedicated vNext**|Ja,<sup>2</sup>|Ja,<sup>2</sup>|Ja |Ja |Ja|Ja|Ja |Ja|Ja|Ja|Ja |Ja |Ja |
-|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja,<sup>2, 3</sup>|Ja<sup>4|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Ja|Nein|Ja|Ja |Ja|Nein|Nein|Ja|Ja|
-|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja,<sup>2, 3</sup>|Ja<sup>4|Ja|Ja (Exchange 2016 CU3 oder höher)|Nein|Ja|Ja |Ja|Nicht<sup>5|Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.|Nein|Ja|
-                                                            
+|**Exchange Online**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja |Ja|
+|**Exchange Online Dedicated vNext**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja |Ja|Ja|Ja |Ja|Ja|Ja|Ja |Ja |Ja |
+|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja, <sup>2, 3</sup>|Ja <sup>4|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Ja|Nein|Ja|Ja |Ja|Nein|Nein|Ja|Ja|
+|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>| Ja, <sup>2, 3</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 oder höher)|Nein|Ja|Ja |Ja|Nicht <sup>5|Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.|Nein|Ja|
+
 <sup>1</sup> exchange 2016 CU3 und oben unterstützt  
 eDiscovery- <sup>2</sup> und rechtlichen Aufbewahrungspflicht für Konformität auf Channel Nachrichten wird für alle Hostingoptionen unterstützt.  
 <sup>3</sup> private Chatnachrichten Teams sind noch nicht für die rechtlichen Aufbewahrungspflicht für diese Hostingoption unterstützt.
+
 <sup>4</sup> Aufbewahrung ein Postfachs Schatten für den online-Benutzer verwendet, um Nachrichten speichern. [Microsoft-Teams unterstützt eDiscover für Teams Benutzer in einer hybriden Exchange-Umgebung](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
-<sup>4</sup> Teams Benutzer mit Exchange-Postfach verwenden Sie Voicemail mit Teams und Voicemail-Nachrichten in Outlook, aber Voicemail-Nachrichten empfangen kann lokal werden nicht verfügbaren anzeigen oder innerhalb des Teams Clients wiedergegeben werden sollen.
+
+<sup>5</sup> Teams Benutzer mit Exchange-Postfach verwenden Sie Voicemail mit Teams und Voicemail-Nachrichten in Outlook, aber Voicemail-Nachrichten empfangen kann lokal werden nicht zum Anzeigen oder wiedergegeben werden sollen, innerhalb des Teams-Clients verfügbar.
 
 Weitere Informationen:
 

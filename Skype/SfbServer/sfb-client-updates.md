@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hier finden IT-Spezialisten Links zu den neuesten Updateinformationen für unbefristete Versionen der Clients Skype for Business 2016, Skype for Business 2015 und Lync 2013.
-ms.openlocfilehash: 25bab2e73da7bf08ed91da4534e79b1fc6bd7b92
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 62aa604385b76df94c647199994211f25f265d56
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743012"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771039"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Letzte Updates für Skype for Business-Versionen, die Windows Installer (MSI) verwenden
 
@@ -42,7 +42,12 @@ Die Kompatibilität von Skype for Business mit Office 365 und der lokalen Umgeb
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:---  |:---  |:---  |
-|Sicherheitsupdate für Skype for Business 2016 |[KB 4022221](https://support.microsoft.com/kb/4022221)| Juli 2018 |
+|Update für Skype for Business 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Januar 2018|
+|Update für Skype for Business 2016 |[KB4461545](https://support.microsoft.com/kb/4461545/) | Dezember 2018|
+|Sicherheitsupdate für Skype for Business 2016 |[KB4461473](https://support.microsoft.com/kb/4461473/) | November 2018|
+|Update für Skype for Business 2016 |[KB4092445](https://support.microsoft.com/kb/4092445/) | Oktober 2018|
+|Update für Skype for Business 2016 |[KB4032255](https://support.microsoft.com/kb/4032255/) | August 2018|
+|Sicherheitsupdate für Skype for Business 2016 |[KB 4022221](https://support.microsoft.com/kb/4022221) | Juli 2018 |
 |Update für Skype for Business 2016 |[KB 4022155](https://support.microsoft.com/en-us/help/4022155) | Juni 2018|
 |Update für Skype for Business 2016 |[KB 4018367](https://support.microsoft.com/kb/4018367) | Mai 2018|
 |Update für Skype for Business 2016 |[KB 4018323](https://support.microsoft.com/kb/4018323) | April 2018|

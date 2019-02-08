@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Dieser Artikel beschreibt die Vorteile, Planungsaspekte, und Anforderungen für die Implementierung von Microsoft Cloud Voicemail-Dienst. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Konfigurieren von Cloud Voicemail.
-ms.openlocfilehash: d1e962f36cdefafdd1efa2d02a719eed1d2e93fd
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e16ad9fb123342f7ac7e780f43bffd9b54b82ce6
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349023"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770915"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planen der Voicemail Cloud-Dienst
 
@@ -93,7 +93,7 @@ Interoperabilität und unterstützten Topologien für die Cloud Voicemail aufgel
 Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM |  | Cloud-Voicemail <br> Exchange Online UM * |
 Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | | Cloud-Voicemail <br> Exchange Online UM * |
 
-\*Bis veraltet.
+\*Bis veraltet. Weitere Informationen finden Sie unter [Exchange Unified Messaging Online Migration unterstützen](../plan/exchange-unified-messaging-online-migration-support.md) . 
 
 Microsoft empfiehlt die folgenden Pfade für die Migration:
 

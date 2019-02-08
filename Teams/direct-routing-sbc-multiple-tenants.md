@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren eines Session Border Controller für mehrere Mandanten
+title: Konfigurieren eines Session Border Controllers für mehrere Mandanten
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Informationen Sie zum Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
-ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8c962647645b742f6c7b612e25873c6486bb51a0
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532824"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771024"
 ---
-# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controller für mehrere Mandanten
+# <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
 Direktes Routing unterstützt Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
 
@@ -206,7 +206,9 @@ Erstellen Sie einen Trunk in der Customer-Domäne mit dem Befehl New-CSonlinePST
 
 Beispiel:
 
-*Neue-CSOnlinePSTNGateway – FQDN sbc1.customers.adatum.biz - SipSignallingPort 5068*
+```
+New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
+```
 
 Bereitstellung von Benutzern mit den Telefonnummern, und konfigurieren Sie VoIP-routing.
 

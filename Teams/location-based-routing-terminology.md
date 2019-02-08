@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0f399dab4097a69ef9d7a90865b81eeb206b54
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715445"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771000"
 ---
-# <a name="location-based-routing-terminology"></a>Speicherortbasierte Routing Terminologie 
+# <a name="location-based-routing-terminology"></a>Speicherortbasierte Routing Terminologie
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 Hier sind einige Begriffe und Konzepte, die in der gesamten standortbasierten Routing-Dokumentation verwendet werden. Es ist ratsam, die mit diesen Begriffen und Konzepten vertraut sein, bevor Sie in der Dokumentation tiefer erhalten.
 
