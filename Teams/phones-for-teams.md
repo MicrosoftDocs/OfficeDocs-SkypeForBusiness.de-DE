@@ -1,5 +1,5 @@
 ---
-title: Telefone für Microsoft-Teams
+title: Telefone für Microsoft Teams
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,49 +14,48 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft-Teams, und die Features, die in die Zertifizierung für Microsoft-Teams, Telefone unterstützt zertifiziert wurden.
-ms.openlocfilehash: 8f6155939cc0834bb3f9fe89a3aef02cc3169bb3
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 8605bbc1ba0f9f69c2115b89ec7332309891253d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383140"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770413"
 ---
-# <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft-Teams
+# <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
 Microsoft-Teams, unterstützt ein Portfolio Telefonapparate für Benutzer, die ein herkömmlicher erfordern. Dieser Artikel behandelt die Liste der Telefone, die für Microsoft-Teams, und die Features, die in die Zertifizierung für Microsoft-Teams, Telefone unterstützt zertifiziert wurden. Wenn Sie Informationen zu den neuesten und auf dem neuesten Stand Teams zertifizierte Geräte erhalten möchten, wechseln Sie zur [Teams Marketplace](http://office.com/teamsdevices).
 
 ## <a name="teams-certified-ip-phones"></a>Teams certified IP-Telefone
-Um einen qualitativ hochwertige und zuverlässige Umgang mit Microsoft-Teams auf Telefonen zu übermitteln, sind wir eine Partnerschaft und aktiv arbeiten mit Yealink, Crestron, Polycom und Audiocodes zu entwickeln und ein breites Portfolio-Tischtelefonen und Konferenz Raum Audiogeräte Zertifizierung.
+Um einen qualitativ hochwertige und zuverlässige Umgang mit Microsoft-Teams auf Telefonen zu übermitteln, sind wir eine Partnerschaft und aktiv arbeiten mit Yealink, Crestron, Polycom und Audiocodes zu entwickeln und ein breites Portfolio-Tischtelefonen und Konferenz Raum Audiogeräte Zertifizierung. Aktuelle unterstützten Geräte finden Sie unter [IP-Telefone](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) .
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Microsoft-Teams, Telefone Featuregruppe
 
 Eine allgemeine Reihe von Features, die in zertifizierten IP-Telefone Teams unterstützt steht in der folgenden Tabelle.
 
-
 |Funktionen |Telefon (persönliche Modus) |Raum-Konferenztelefon (gemeinsamer Modus)|
 |---------|---------|---------|
 |**Authentifizierung** | |  |
-|Anmelden mit Benutzeranmeldeinformationen |  Ja | Ja|
-|Melden Sie sich mit PC/Smartphone  | Ja |Ja|
-|Moderne Authentifizierung | Ja |Ja |
-|Telefon Sperren/Sperre aufheben | Ja |Nein |
+|Anmelden mit Benutzeranmeldeinformationen |  Ja  | Ja |
+|Melden Sie sich mit PC/Smartphone  | Ja  |Ja|
+|Moderne Authentifizierung | Ja  |Ja  |
+|Telefon Sperren/Sperre aufheben | Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer |Nein |
 |**Anrufe** |  |  |
-|Eingehend/ausgehend P2P-Aufrufe | Ja  |Ja |
-|Anruf Steuerelemente über die Benutzeroberfläche (stumm schalten, halten/fortsetzen, Weiterleitung, Anruf beenden)| Ja  |Ja |
-|PSTN-Anrufe| Ja  |Ja |
-|Visuelle Mailbox | Ja | Nein |
-|911-Unterstützung  | Ja  |Ja |
+|Eingehend/ausgehend P2P-Aufrufe | Ja   |Ja  |
+|Anruf Steuerelemente über die Benutzeroberfläche (stumm schalten, halten/fortsetzen, Weiterleitung, Anruf beenden)| Ja   |Ja  |
+|PSTN-Anrufe| Ja   |Ja  |
+|Visuelle Mailbox | Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer | Nein |
+|911-Unterstützung  | Ja   |Ja  |
 |**Kalender und Anwesenheit**|   | |
-|Zugriff auf den Kalender und Besprechungsdetails|Ja |Ja|
-|Integration von Anwesenheitsfunktionen |Ja|Ja|
-|Integration von Exchange-Kalender |Ja|Ja|
-|Integration von Kontaktbildern  |Ja|Ja|
-|Unternehmensverzeichnis Zugriff | Ja|Ja|
+|Zugriff auf den Kalender und Besprechungsdetails|Ja  |Ja |
+|Integration von Anwesenheitsfunktionen |Ja|Ja |
+|Integration von Exchange-Kalender |Ja |Ja |
+|Integration von Kontaktbildern  |Ja |Ja |
+|Unternehmensverzeichnis Zugriff | Ja |Ja |
 |**Besprechungen**|   ||
-|Per Mausklick Join für Besprechungen  | Ja  |Ja |
-|Skype für Business-Besprechungen teilnehmen | Ja  | Ja|
-|Besprechung die anrufsteuerungen (Stummschalten/stummschaltung aufheben halten/fortsetzen, Auflegen, Teilnehmer hinzufügen/entfernen)|Ja|Ja|
-|Besprechungsdetails|Ja|Nein|
+|Per Mausklick Join für Besprechungen  | Ja   |Ja  |
+|Skype für Business-Besprechungen teilnehmen | Ja   | Ja |
+|Besprechung die anrufsteuerungen (Stummschalten/stummschaltung aufheben halten/fortsetzen, Auflegen, Teilnehmer hinzufügen/entfernen)|Ja |Ja |
+|Besprechungsdetails|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Nein|
 
 Wir arbeiten ständig Features, mit denen Benutzer-Erlebnis auf Telefonen ihren Teams hinzuzufügen. Die folgenden Screenshots veranschaulichen einige der Kommunikationskanäle, die wir heute unterstützt werden.
 
@@ -125,6 +124,26 @@ Der Teams-Telefon: Benutzer können melden Sie sich ab, indem Sie die Option **A
 
 ![Abmelden von Teams](media/teams-sign-out.png)
 
+# <a name="finding-the-firmware-version-on-a-mobile-device"></a>Suchen die Firmware-Version auf einem mobilen Gerät
+
+Die minimale Firmwareversion kann auf der Anmeldeseite von Teams überprüft werden, indem das Symbol **Einstellungen** in der oberen rechten Ecke auswählen und dann auf **zu**.
+
+**Teams-Anmeldeseite**
+
+![Teams-Anmeldeseite](media/teams-sign-in-page.jpg)
+
+**Einstellungsseite**
+
+![Der Seite Einstellungen für Teams](media/teams-settings-page.jpg)
+
+## <a name="required-licenses"></a>Erforderliche Lizenzen
+
+Microsoft-Teams, Lizenzen können im Rahmen ihrer [Office 365-Abonnements](Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft-Teams auf Telefonen finden Sie unter verfügbaren [Lizenzen für Telefon](https://products.office.com/en-us/microsoft-teams/voice-calling).
+
+Weitere Informationen zum Abrufen von Teams, Auschecken [Wie erhalte ich Zugriff auf Microsoft-Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
 ## <a name="see-also"></a>Siehe auch
 
-[Kaufen und Bereitstellen von Microsoft-Teams IP-Telefonen](buying-and-deploying-teams-ip-phones.md)
+[Teams Marketplace](http://office.com/teamsdevices)
+
+[IP-Telefone](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

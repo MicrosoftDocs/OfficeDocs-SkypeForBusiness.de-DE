@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Informationen Sie zu den Bereitstellungsschritten, um die richtige Firmware erhalten möchten, aktualisieren sie bei Bedarf, Zuweisen von Lizenzen und Konfigurieren von Einstellungen für Skype für online Business-Telefone
-ms.openlocfilehash: f036f2fa47c99d1ea206192c15c901fc9391c1ee
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 04cb3aa17574f56d9069f07a10c1c6ae95f9576d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297657"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770362"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
 
@@ -184,7 +184,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter [Was sind Anrufpläne in 
     
 - Die **Telefonsperre** ist eine kürzlich eingeführte Funktion von Skype for Business-zertifizierten Telefonen, mit der Telefone gesichert werden können. Wenn die Funktion aktiviert ist, werden die Benutzer aufgefordert, nach der erfolgreichen Authentifizierung eine PIN zu erstellen. Nach der Erstellung der PIN werden die Telefone gesperrt, wenn das von Ihnen definierte Leerlauftimeout abgelaufen ist, Benutzer ihr Telefon manuell sperren oder ihre Telefonsperre über die Telefonkopplung mit ihrem PC synchronisieren. Wenn die PIN für die Telefonsperre mehrmals falsch eingegeben wird, wird der Benutzer entweder abgemeldet oder das Telefon muss mit einem Administratorcode entsperrt werden. Dies ist jedoch je nach Telefonpartner unterschiedlich. Die PIN des Benutzers muss aus 6 bis 15 Ziffern bestehen.
     
-    Sie können die standardmäßig aktivierte Telefonsperre für Ihre Organisation deaktivieren, das Leerlauftimeout ändern und mithilfe von In-Band-Einstellungen auswählen, ob Benutzer trotz der Sperre Telefonanrufe tätigen können. Weitere Details zu diesen Einstellungen finden Sie unter [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
+    Sie können die standardmäßig aktivierte Telefonsperre für Ihre Organisation deaktivieren, das Leerlauftimeout ändern und mithilfe von In-Band-Einstellungen auswählen, ob Benutzer trotz der Sperre Telefonanrufe tätigen können. Weitere Informationen zu diesen Einstellungen finden Sie unter [Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) .
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Schritt 7 (optional) - Wenn Sie Gerätekopplung und Better Together over Ethernet (BToE) verwenden
 <a name="BK_BTOE"> </a>
