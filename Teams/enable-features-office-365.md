@@ -15,16 +15,16 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: dfa908418061b4a9cc1d899d2ed64a9564b6f181
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988186"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753508"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 
-Alle Teams-Einstellungen werden in Kürze zum neuen Admin Center für Microsoft Teams und Skype for Business migriert. Apps werden als einzige Teams-Funktion im Microsoft 365 Admin Center verwaltet. 
+Alle Teams-Einstellungen werden in Kürze zum neuen Admin Center für Microsoft Teams migriert. Apps werden als einzige Teams-Funktion im Microsoft 365 Admin Center verwaltet. 
 
 Wenn nichts anderes angegeben ist, lautet der Standardwert für die jeweilige Option **Ein**.
 
@@ -38,31 +38,31 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Apps
 
-Apps sind Registerkarten, Connectors, Bots oder eine Kombination dieser drei, die von Teams (Erstanbieter-Apps, auch bekannt als Standard-Apps) oder von einem Drittanbieter (auch bekannt als externe Apps) bereitgestellt werden. Unter **Apps** können Sie Standard-Apps aktivieren bzw. deaktivieren und Einstellungen für die Steuerung externer Apps konfigurieren.  
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
 
 #### <a name="default-apps"></a>Standard-Apps
 
-Diese Apps, wie Planner, Lob und Wetter, werden von Teams bereitgestellt. Um eine App zu aktivieren, aktivieren Sie das Kontrollkästchen für diese App. Um eine App zu deaktivieren, deaktivieren Sie das Kontrollkästchen für diese App. 
+These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
 ![Screenshot des Abschnitts für Standard-Apps.](media/teams-tenant-wide-settings-default-apps.png "Screenshot des Abschnitts für Standard-Apps")
 
 #### <a name="external-apps"></a>Externe Apps
 
-Diese Apps werden von Drittanbietern bereitgestellt. Sie können die folgenden Einstellungen für externe Apps konfigurieren.
+These apps are provided by third parties. You can configure the following settings for external apps.
 
 ![Screenshot des Abschnitts für externe Apps.](media/teams-tenant-wide-settings-external-apps-settings.png "Screenshot des Abschnitts für externe Apps, mit Einstellungen, die Sie aktivieren oder deaktivieren können")
 
 - **Allow external apps in Microsoft Teams** (Externe Apps in Microsoft Teams zulassen): Wenn diese Einstellung aktiviert ist, können Benutzer externe Apps hinzufügen, die für Ihre Organisation verfügbar sind. 
 
-- **Enable new external apps by default** (Neue externe Apps standardmäßig aktivieren): Wenn diese Einstellung aktiviert ist, können Benutzer neue Apps aktivieren, sobald diese zum Microsoft Teams-App-Katalog hinzugefügt werden. Deaktivieren Sie diese Einstellung, wenn Sie neue Apps steuern möchten. Wenn Sie die Einstellung deaktiviert haben, müssen Sie natürlich daran denken, neue Apps regelmäßig zu überprüfen, damit Ihrer Organisation keine tollen neuen Apps entgehen. 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
-- **Querladen von externen Apps zulassen**: Wenn Sie einige externe Apps aktivieren und andere deaktivieren möchten, deaktivieren Sie diese Einstellung, und deaktivieren Sie anschließend in der Liste der externen Apps die Apps, auf die Benutzer nicht zugreifen sollen. Wenn diese Einstellung aktiviert ist, können Teambesitzer und Mitglieder, denen eine Berechtigung erteilt wurde, Apps in Microsoft Teams querladen. 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
 Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings"></a>Organisationsweite Einstellungen für Microsoft Teams
 
-Sie können organisationsweite Benutzereinstellungen im Admin Center für Microsoft Teams und Skype for Business steuern. Zum Bearbeiten der organisationsweiten Einstellungen wechseln Sie zum Admin Center für Microsoft Teams und Skype for Business. Wählen Sie **Org-wide settings** (Organisationsweite Einstellungen) aus. Sie können die folgenden Einstellungen konfigurieren:
+Sie können organisationsweite Benutzereinstellungen im Microsoft Teams Admin Center steuern. Um organisationsweite Einstellungen zu bearbeiten, gehen Sie zum Microsoft Teams Admin Center, und wählen Sie dann **Organisationsweite Einstellungen** aus. Sie können die folgenden Einstellungen konfigurieren.
 
 ### <a name="external-access"></a>Externer Zugriff
 
@@ -116,11 +116,11 @@ Sie können einen Koexistenzmodus angeben: **Teams only** (Nur Microsoft Teams),
 
 #### <a name="app-preferences"></a>„App preferences“ (App-Einstellungen)
 
-Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype for Business-Besprechungen verwenden (Skype for Business oder die [Skype-Besprechungs-App](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Diese Einstellung ist nicht von der Einstellung für den Koexistenzmodus abhängig.
+Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype for Business-Besprechungen verwenden (Skype for Business oder die [Skype-Besprechungs-App](https://support.office.com/de-DE/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Diese Einstellung ist nicht von der Einstellung für den Koexistenzmodus abhängig.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Woran erkenne ich, welche Funktionen verfügbar sind?
 
-In der [Office 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) finden Sie Informationen zu neuen Microsoft Teams-Funktionen. Weitere Informationen zu neuen und geplanten Funktionen finden Sie in Microsoft Teams auf der Seite [Neuigkeiten](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) und im [Microsoft Teams-Blog der Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+In der [Microsoft 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) finden Sie Informationen zu neuen Microsoft Teams-Funktionen. Weitere Informationen zu neuen und geplanten Funktionen finden Sie in Microsoft Teams auf der Seite [Neuigkeiten](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) und im [Microsoft Teams-Blog der Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Weitere Informationen
 
