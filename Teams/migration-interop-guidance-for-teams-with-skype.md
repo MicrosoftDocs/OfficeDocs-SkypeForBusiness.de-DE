@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cbce74cdc06a2f37f628dd32f6f36356c1ad27a
-ms.sourcegitcommit: 708e691b00f490da45d8d7f1d6594be29f45023b
+ms.openlocfilehash: 3e924311188e077e10e844b55e4a429ab5344dca
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29354500"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786429"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden
 
@@ -44,12 +44,10 @@ Eine Organisation mit Skype für Unternehmen beginnt, Teams einführen, können 
 
 6.  Upgrade und Interop-Verhalten werden bestimmt basierend auf Koexistenzmodus eines Benutzers, der vom TeamsUpgradePolicy verwaltet wird. TeamsInteropPolicy ist nicht mehr berücksichtigt und gewähren von Mode = Legacy ist nicht mehr zulässig. 
 
-7.  Aktualisieren eines Benutzers auf den TeamsOnly Modus wird sichergestellt, dass alle eingehenden Chats und Anrufe immer in der Client des Benutzers Teams, unabhängig davon welcher Client es Orignated aus sorgt werden. Diese Benutzer werden auch alle neue Besprechungen in Teams planen. TeamsOnly den Modus ist, muss ein Benutzer online in Skype für Unternehmen verwaltet werden. Dies ist erforderlich, um sicherzustellen, dass Interop, Verbund und vollständige Verwaltung des Benutzers Teams. Einen Benutzer auf TeamsOnly aktualisieren: A. If der Benutzer verwaltet wird, in Skype für Unternehmen online (oder nie hatte Skype-Konto), gewähren sie TeamsUpgradePolicy-Modus = TeamsOnly mithilfe der "UpgradeToTeams" Instanz von PowerShell, oder verwenden Sie das Teams Admin Center aus der TeamsOnly-Modus.
-    B. Wenn der Benutzer lokal ist, verwenden Sie `Move-CsUser` aus der lokalen Admin tools zum ersten verschieben den Benutzer Skype für Business Online. Beim Verschieben von Benutzern von lokalen sind 2 Optionen:  
-      - Wenn Sie Skype für Business Server 2019 oder CU8 für Skype für Business Server 2015 haben, können Sie angeben die `-MoveToTeams` wechseln `Move-CsUser` zum Verschieben des Benutzers direkt in Teams. Diese Option wird auch Besprechungen des Benutzers zu Teams migrieren, (obwohl Moment meeting Migration nur für Kunden TAP funktionsfähig ist). 
-       - Andernfalls, nach dem `Move-CsUser` abgeschlossen ist, weisen Sie diesen Benutzer mithilfe von PowerShell oder der Verwaltungskonsole Teams TeamsOnly Modus.  
+7.  Aktualisieren eines Benutzers auf den TeamsOnly Modus wird sichergestellt, dass alle eingehenden Chats und Anrufe immer in der Client des Benutzers Teams, unabhängig davon welcher Client es Orignated aus sorgt werden. Diese Benutzer werden auch alle neue Besprechungen in Teams planen. TeamsOnly den Modus ist, muss ein Benutzer online in Skype für Unternehmen verwaltet werden. Dies ist erforderlich, um sicherzustellen, dass Interop, Verbund und vollständige Verwaltung des Benutzers Teams. So aktualisieren einen Benutzer auf TeamsOnly:
+    - Wenn der Benutzer online in Skype für Unternehmen verwaltet wird (oder nie hatte Skype-Konto), gewähren sie TeamsUpgradePolicy Modus = TeamsOnly mithilfe der "UpgradeToTeams" Instanz von PowerShell, oder verwenden Sie das Teams Admin Center die TeamsOnly Modus aus.
+    - Wenn der Benutzer lokal ist, verwenden Sie `Move-CsUser` aus der lokalen Admin tools zum ersten verschieben den Benutzer Skype für Business Online.  Wenn Sie Skype für Business Server 2019 oder CU8 für Skype für Business Server 2015 haben, können Sie angeben die `-MoveToTeams` wechseln `Move-CsUser` so verschieben Sie den Benutzer direkt an Teams als Teil der Verschiebung online. Diese Option wird auch Besprechungen des Benutzers zu Teams migrieren, (obwohl Moment meeting Migration nur für Kunden TAP funktionsfähig ist). Wenn `-MoveToTeams` ist nicht angegeben oder nicht verfügbar ist, klicken Sie dann nach `Move-CsUser` abgeschlossen ist, weisen Sie diesen Benutzer mithilfe von PowerShell oder der Verwaltungskonsole Teams TeamsOnly Modus.  
      Weitere Informationen finden Sie unter [Verschieben von Benutzern zwischen lokalen und Cloud](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Weitere Informationen zu Migration meeting finden Sie unter [Verwenden der Besprechung Migration Service (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
-
 
 8.  Um Teams Telefonsystem Features mit Teams verwenden, muss sich Benutzer in TeamsOnly-Modus (d. h., die in Skype für Business Online verwaltet und Teams aktualisiert), und muss entweder für die Microsoft-Telefonsystem [Direkten Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (dem Telefonsystem verwenden können konfiguriert werden mit eigenen SIP-Trunks und SBC) oder über ein Office 365 aufrufen planen.   
 
@@ -77,7 +75,7 @@ Die Modi sind unten aufgeführt. SfBWithTeamsCollab und SfBWithTeamsCollabAndMee
 |TeamsOnly|Eingehende Anrufe und Chats werden Teams weitergeleitet.|Nur Teams|Endbenutzer können Anrufe und nur von Teams Chats initiieren. Skype für Unternehmen ist nur verfügbar, an Besprechungen teilnehmen.|
 |||||
 
-**Hinweise:**
+**Notizen:**
 
 Finden Sie <sup>1</sup> ausführliche Informationen zum Aufrufen von PSTN Tabelle am Ende dieses Dokuments.
 
@@ -147,7 +145,7 @@ Die Tabelle zeigt die Benutzerrichtlinien, die überprüft werden, wenn TeamsUpg
 |Besprechung planen|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-Die im folgenden dargestellt, für einen bestimmten Modus, die erwarteten Werte für diese Einstellungen anzeigen:
+Die unten angezeigt wird, für einen bestimmten Modus, die erwarteten Werte für diese Einstellungen:
 
 |Modus|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
@@ -170,21 +168,9 @@ PS C:\Users\janedoe>`
 Vor der Zustellung der automatische Umsetzung der oben beschriebenen Clientverhalten jede der Modi SfB Verhalten sich im Wesentlichen. Die Modi SfBOnly, SfBWithTeamsCollab und SfBWithTeamsCollabAndMeetings sind alle identisch wie leiten Sie eingehende Anrufe und Chats. Der einzige Unterschied ist jetzt in der Outlook-Add-Ins für Teams und Skype für Unternehmen, ob aktiviert wurden. Bis die Experiece differenzierten Client angeboten wird, ist nur 1 der Modi SfB dem Verwaltungsportal aktiviert. Aber in PowerShell sind alle Modi verfügbar.
 
 
-## <a name="teamsinteroppolicy-and-legacy-mode-being-retired"></a>TeamsInteropPolicy und Zurückziehen Legacymodus 
+## <a name="teamsinteroppolicy-and-legacy-mode-has-been-retired"></a>TeamsInteropPolicy und Legacymodus wurde zurückgezogen 
 
-TeamsInteropPolicy wurde durch TeamsUpgradePolicy ersetzt. Alle Komponenten, die zuvor TeamsInteropPolicy berücksichtigt wurden aktualisiert, um stattdessen TeamsUpgradePolicy berücksichtigt.  Microsoft hat zuvor "Legacymodus" in TeamsUpgradePolicy zur Erleichterung des Übergangs von TeamsInteropPolicy zu TeamsUpgradePolicy eingeführt. Routingkomponenten, die TeamsUpgradePolicy verstanden würde im Legacy-Modus auf TeamsInteropPolicy zurückgesetzt. Routing TeamsUpgradePolicy nun vollständig unterstützt und Legacymodus wird nicht mehr unterstützt. *Kunden mit Legacymodus aktualisieren müssen ihre Konfiguration von TeamsUpgradePolicy zu einem anderen Modus verwenden.* 
-
-
-### <a name="action-required-for-organizations-that-are-using-modelegacy-andor-teamsinteroppolicy"></a>Eine Aktion durchführen für Organisationen, die Modus verwenden = Legacy und/oder TeamsInteropPolicy
-Kunden mit Mode = Legacy in TeamsUpgradePolicy (Richtlinieninstanz = NoUpgrade oder Richtlinie Instanz = NotifyForTeams) müssen Aktualisieren ihrer Konfiguration, um eine Richtlinie mit einer anderer Druckmodus als Legacy verwenden.  Darüber hinaus sollten Kunden mit TeamsInteropPolicy Zuweisungen diese Richtlinie entfernen, da es nicht mehr vom System verwendet wird.  Beachten Sie, dass es ist nicht mehr möglich, Legacymodus zu erteilen. 
-
-Aktionen erforderlich:
- - Kunden mit TeamsInteropPolicy mit Benutzern, die *nicht* im Legacymodus: die Richtlinie hat keine Auswirkung und seine empfohlen, entfernen Sie alle Benutzer level-Zuordnungen und verwenden Sie die globale Richtlinie einfach mit Standardwerten.
- - Kunden mit Legacymodus mit TeamsInteropPolicy routing an SfB (DisallowOverrideCallingSfbChatSfb): Diese Organisationen sollte wechseln, um einen der SfB Modi (SfBOnly, SfBWithTeamsCollab, SfbWithTeamsCollabAndMeetings) in TeamsUpgradePolicy verwenden. Aus der Sicht routing diese Modi verhält sich wie die Verwendung von Legacymodus mit TeamsInteropPolicy routing an SfB.
-  - Kunden mit Legacymodus mit TeamsInteropPolicy routing Teams (DisallowOverrideCallingTeamsChatTeams): Diese Organisationen sollte TeamsOnly Modus wechseln.  Haben Sie aus der Sicht routing, die dieser immer dieselbe. Ein Unterschied ist jedoch, dass Benutzer in Teams nur Kopfzeilen herunterladen, Chats und Anrufe initiieren, und Planen von Besprechungen in Skype für Unternehmen nicht mehr möglich. Sie können jedoch weiterhin alle Skype für Business Besprechung teilnehmen.
-
-
- **Microsoft fordert an, dass Kunden alle Verwendung von Legacymodus durch 15 November 2018 entfernen.** Irgendwann danach wird Microsoft Instanzen von TeamsUpgradePolicy Modus entfernen = Legacy.</br> 
+TeamsInteropPolicy wurde durch TeamsUpgradePolicy ersetzt. Alle Komponenten, die zuvor TeamsInteropPolicy berücksichtigt wurden aktualisiert, um stattdessen TeamsUpgradePolicy berücksichtigt.  Microsoft hat zuvor "Legacymodus" in TeamsUpgradePolicy zur Erleichterung des Übergangs von TeamsInteropPolicy zu TeamsUpgradePolicy eingeführt. Routingkomponenten, die TeamsUpgradePolicy verstanden würde im Legacy-Modus auf TeamsInteropPolicy zurückgesetzt. Routing unterstützt jetzt vollständig TeamsUpgradePolicy. Legacymodus wird nicht mehr unterstützt und ist nicht mehr möglich, Legacymodus zu erteilen.
 
 
 ## <a name="detailed-mode-descriptions"></a>Beschreibungen der detaillierten Modus
@@ -193,7 +179,7 @@ Aktionen erforderlich:
 
 |Modus|Erläuterung (Includeding geplant Clientumgebung)|
 |---|---|
-|**Inseln**</br>(Standard)|Ein Benutzer führt beide Skype für Geschäfts- und Teams Side-by-Side. Diesen Benutzer:</br><ul><li>Chats können initiieren und VOIP-Anrufe in beiden Skype für Business oder Teams Client. Hinweis: Benutzer mit Skype für Unternehmen verwaltet lokale können nicht aus einer anderen Skype für Geschäftsbenutzer erreichen Teams initiieren.<li>Empfängt Chats & VOIP-Anrufe initiierte in Skype für Unternehmen von einem anderen Benutzer in ihren Skype für Business-Client.<li>Empfängt Chats & VOIP initiierte in Teams von einem anderen Benutzer in ihren Teams Client Ruft, wenn diese sich in *derselben mandantenorganisation*befinden.<li>Empfängt Chats & VOIP von Anrufen in initiierte Teams von einem anderen Benutzer in ihren Skype für Business-Client werden in einem *Verbundpartner Mandanten*. <li>Verfügt über PSTN-Funktionen wie unten angegeben:<ul><li>Wenn der Benutzer in Skype für Business lokal verwaltet wird, sind PSTN-Anrufe initiiert und in Skype für Unternehmen erhalten.<li>Wenn der Benutzer online verwaltet wird, hat der Benutzer Telefonsystem, in dem den Benutzer case:<ul><li>Initiiert und PSTN-Anrufe in Teams erhält, wenn der Benutzer für das direkte Routing konfiguriert ist<li>Initiiert und PSTN-Anrufe in Skype für Unternehmen erhält, wenn der Benutzer ein MS aufrufen planen hat oder stellt eine mit dem PSTN-Netzwerk über entweder Skype für Business Cloud Connector Edition oder einer lokalen Bereitstellung von Skype für Business Server (Hybrid-VoIP Verbindung)</ul></ul><li>Planen von Besprechungen in Teams oder Skype für Unternehmen können (und sieht standardmäßig beide-Plug-ins).<li>Kann eine beliebige Skype für Business oder Teams Besprechung teilnehmen; die Besprechung wird in den jeweiligen Client geöffnet.</ul>|
+|**Inseln**</br>(Standard)|Ein Benutzer führt beide Skype für Geschäfts- und Teams Side-by-Side. Diesen Benutzer:</br><ul><li>Chats können initiieren und VOIP-Anrufe in beiden Skype für Business oder Teams Client. Hinweis: Benutzer mit Skype für Unternehmen verwaltet lokale können nicht aus einer anderen Skype für Geschäftsbenutzer, unabhängig von der Aufgabenliste des Empfängers Modus erreichen Teams initiieren.<li>Empfängt Chats & VOIP-Anrufe initiierte in Skype für Unternehmen von einem anderen Benutzer in ihren Skype für Business-Client.<li>Empfängt Chats & VOIP initiierte in Teams von einem anderen Benutzer in ihren Teams Client Ruft, wenn diese sich in *derselben mandantenorganisation*befinden.<li>Empfängt Chats & VOIP von Anrufen in initiierte Teams von einem anderen Benutzer in ihren Skype für Business-Client werden in einem *Verbundpartner Mandanten*. <li>Verfügt über PSTN-Funktionen wie unten angegeben:<ul><li>Wenn der Benutzer in Skype für Business lokal verwaltet wird, sind PSTN-Anrufe initiiert und in Skype für Unternehmen erhalten.<li>Wenn der Benutzer online verwaltet wird, hat der Benutzer Telefonsystem, in dem den Benutzer case:<ul><li>Initiiert und PSTN-Anrufe in Teams erhält, wenn der Benutzer für das direkte Routing konfiguriert ist<li>Initiiert und PSTN-Anrufe in Skype für Unternehmen erhält, wenn der Benutzer ein MS aufrufen planen hat oder stellt eine mit dem PSTN-Netzwerk über entweder Skype für Business Cloud Connector Edition oder einer lokalen Bereitstellung von Skype für Business Server (Hybrid-VoIP Verbindung)</ul></ul><li>Planen von Besprechungen in Teams oder Skype für Unternehmen können (und sieht standardmäßig beide-Plug-ins).<li>Kann eine beliebige Skype für Business oder Teams Besprechung teilnehmen; die Besprechung wird in den jeweiligen Client geöffnet.</ul>|
 |**SfBOnly**|Ein Benutzer führt nur Skype für Unternehmen. Diesen Benutzer:</br><ul><li>Können Chats und Anrufe von Skype für Unternehmen nur initiieren.<li>Empfängt alle Chat/Aufruf in ihren Skype für Business-Client unabhängig von wobei initiiert, es sei denn, der Initiator Teams Benutzer mit Skype für Unternehmen ist der lokale verwaltet. * <li>Können nur Skype für Business Besprechungen planen, aber Skype für Business oder Teams Besprechungen beitreten können. </br> *Using Inseln Modus mit lokalen Benutzern wird nicht in Kombination mit anderen Benutzern im SfBOnly Modus empfohlen. Wenn ein Benutzer Teams mit Skype für Unternehmen, verwaltet lokale initiiert einen Anruf oder Chat an einen Benutzer SfBOnly, der SfBOnly-Benutzer ist nicht erreichbar und erhält eine verpasste Chat/Anrufe email.*|
 |**SfBWithTeamsCollab**|Ein Benutzer führt beide Skype für Geschäfts- und Teams Side-by-Side. Diesen Benutzer:</br><ul><li>Verfügt über die Funktionen eines Benutzers im SfBOnly Modus.<li>Teams hat nur für die Zusammenarbeit von Gruppen (Kanäle); aktiviert werden Chat/aufrufen/Besprechung planen sind deaktiviert.</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|Ein Benutzer führt beide Skype für Geschäfts- und Teams Side-by-Side. Diesen Benutzer:<ul><li>Hat die Chat und Anruffunktionen des Benutzers im SfBOnly Modus.<li>Teams für die Zusammenarbeit von Gruppen aktiviert wurde (Kanäle - Kanal Unterhaltungen enthält); Chat und Aufrufen von sind deaktiviert.<li>Planen Sie nur Teams Besprechungen können, jedoch können Skype für Business oder Teams Besprechungen teilnehmen.</ul>|
@@ -205,16 +191,14 @@ Aktionen erforderlich:
 
 ## <a name="related-topics"></a>Verwandte Themen
 
+[Koexistenz mit Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/coexistence-chat-calls-presence)
+
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
 [GRANT-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
 [Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[Neue CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
-
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsupgradepolicy?view=skype-ps)
-
 [Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps)
+

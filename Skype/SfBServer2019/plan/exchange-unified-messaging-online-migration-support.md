@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 abschließen. In diesem Artikel werden zusammengefasst, was betroffen Kunden kennen und tun, um für ihre Business Continuity planen sollten.
-ms.openlocfilehash: 1f755f8974ba18eba296051c547ee12b79b114d1
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29779886"
+ms.locfileid: "29786421"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange Unified Messaging-Migration Onlinesupport  
 
-Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 Außerbetriebnehmen der als Verweis auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) auf 8 Februar 2019. Dieser Artikel bietet eine Zusammenfassung der was betroffenen Kunden kennen und tun, um für ihre Business Continuity planen sollten. 
+Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 Außerbetriebnehmen der als Verweis auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) auf 8 Februar 2019. Dieser Artikel bietet eine Zusammenfassung der was betroffenen Kunden kennen und tun, um für ihre Business Continuity planen sollten. 
  
 ExchUMO wird von Kunden für Voicemail, automatische Telefonzentrale und/oder Fax Integrationsdienste bereitgestellt. Microsoft plant, damit diese Kunden zu seiner cloudbasierten Diensten migrieren, die Tausende von Kunden bereits auf Skype für Business Online und Microsoft-Teams unterstützen. 
 
@@ -54,7 +54,7 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 
 1.  **Damit Sie informiert abrufen**
  
-    Machen Sie sich mit der [Ankündigung Blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) und diesem Artikel, um eine reibungslose Migration für Ihre Benutzer zu planen. Einzelheiten über die Cloud Voicemail-Funktionen finden Sie unter [Überprüfen Skype für Business Voicemail und Optionen](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) .  
+    Machen Sie sich mit der [Ankündigung Blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) und diesem Artikel, um eine reibungslose Migration für Ihre Benutzer zu planen. Einzelheiten über die Cloud Voicemail-Funktionen finden Sie unter [Überprüfen Skype für Business Voicemail und Optionen](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) .  
  
 
 2.  **Einrichten einer Skype für Business hybridtopologie**

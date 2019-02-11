@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hier finden IT-Spezialisten Links zu den neuesten Updateinformationen für unbefristete Versionen der Clients Skype for Business 2016, Skype for Business 2015 und Lync 2013.
-ms.openlocfilehash: 62aa604385b76df94c647199994211f25f265d56
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: f3cf01aeec5117a210207cb958f7255f6592c606
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771039"
+ms.locfileid: "29786406"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Letzte Updates für Skype for Business-Versionen, die Windows Installer (MSI) verwenden
 
@@ -42,7 +42,7 @@ Die Kompatibilität von Skype for Business mit Office 365 und der lokalen Umgeb
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:---  |:---  |:---  |
-|Update für Skype for Business 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Januar 2018|
+|Update für Skype for Business 2016 |[KB4461586](https://support.microsoft.com/kb/4461586/) | Januar 2019|
 |Update für Skype for Business 2016 |[KB4461545](https://support.microsoft.com/kb/4461545/) | Dezember 2018|
 |Sicherheitsupdate für Skype for Business 2016 |[KB4461473](https://support.microsoft.com/kb/4461473/) | November 2018|
 |Update für Skype for Business 2016 |[KB4092445](https://support.microsoft.com/kb/4092445/) | Oktober 2018|
@@ -83,6 +83,11 @@ Die Kompatibilität von Skype for Business mit Office 365 und der lokalen Umgeb
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
+|Update für Skype for Business 2015/Lync 2013 |[KB4461557](https://support.microsoft.com/kb/4461557/)| Januar 2019 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013 |[KB4461487](https://support.microsoft.com/kb/4461487/)| November 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB4461446](https://support.microsoft.com/kb/4461446/)| Oktober 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB4092457](https://support.microsoft.com/kb/4092457/)| September 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB4032250](https://support.microsoft.com/kb/4032250/)| August 2018 |
 |Sicherheitsupdate für Skype for Business 2015/Lync 2013 |[ KB 4022225 ](https://support.microsoft.com/kb/4022225) | Juli 2018 |
 |Update für Skype for Business 2015/Lync 2013 |[KB 4022170 ](https://support.microsoft.com/kb/4022170) | Juni 2018 |
 |Update für Skype for Business 2015/Lync 2013 |[KB 4018377 ](https://support.microsoft.com/kb/4018377) | Mai 2018 |
@@ -135,6 +140,11 @@ Die Kompatibilität von Skype for Business mit Office 365 und der lokalen Umgeb
 
 Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
+|Update für Skype for Business 2015/Lync 2013 |[KB4461557](https://support.microsoft.com/kb/4461557/)| Januar 2019 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013 |[KB4461487](https://support.microsoft.com/kb/4461487/)| November 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB4461446](https://support.microsoft.com/kb/4461446/)| Oktober 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB4092457](https://support.microsoft.com/kb/4092457/)| September 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB4032250](https://support.microsoft.com/kb/4032250/)| August 2018 |
 |Sicherheitsupdate für Skype for Business/Lync 2013 |[KB 4022225 ](https://support.microsoft.com/kb/4022225)| Juli 2018 |
 |Update für Skype for Business 2015/Lync 2013|[KB 4022170 ](https://support.microsoft.com/kb/4022170) | Juni 2018 |
 |Update für Skype for Business 2015/Lync 2013|[KB 4018377 ](https://support.microsoft.com/kb/4018377) | Mai 2018 |

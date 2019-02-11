@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742997"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786399"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -177,7 +177,7 @@ Um wissen, welche das zu erwartende Verhalten, benötigen Sie erkennen, dass die
     * Von Skype für Unternehmen wird ein anderer Benutzer des Benutzers Inseln Skype Business Vorhandensein (sowohl im Mandanten und Verbundpartner) angezeigt. Dies wird mit den Routingtabellen oben ausgerichtet.
 
 > [!NOTE]
-> Dies ist einer kürzlich vorgenommenen Änderung aus der vorherigen Implementierung (Unified Anwesenheit genannt) der kombinierten, aggregierten Anwesenheitsstatus des Ziels Teams und Skype für Business Clients ergab. Diese vorherigen Ansatz war für Benutzer verwirrend sein, da es häufig angezeigt, die in den genauen Anwesenheitsinformationen, d. h. dass Benutzer nicht erreichbar, obwohl ihre Anwesenheit, die sie online ergab führen würde.
+> Dies ist einer kürzlich vorgenommenen Änderung aus der vorherigen Implementierung (Unified Anwesenheit genannt) der kombinierten, aggregierten Anwesenheitsstatus des Ziels Teams und Skype für Business Clients ergab. Diese vorherigen Ansatz war für Benutzer verwirrend sein, da es häufig führen würde, unrichtige Anwesenheit, d. h. dass Benutzer nicht erreichbar, obwohl ihre Anwesenheit, die sie online ergab anzeigen.
 
 ## <a name="in-tenant-presence"></a>Mandanten Anwesenheit
 
