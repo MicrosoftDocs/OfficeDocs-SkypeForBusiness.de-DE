@@ -1,5 +1,5 @@
 ---
-title: Überwachen der Verwendung und Feedback in Microsoft Teams
+title: Überwachen von Nutzung und Feedback in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,63 +7,63 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: Lernen Sie die Berichten zu sehen, wie Benutzer verwenden die Microsoft-Teams und Erfassung des Feedbacks auf Benutzererlebnis verfügbaren Optionen aus.
-localization_priority: Normal
+description: Erfahren Sie mehr über die verfügbaren Berichtsoptionen, um herauszufinden, wie Benutzer Microsoft Teams verwenden, und Feedback zu den Benutzererfahrungen zu sammeln.
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9189e2293e123b8a8b7db7a754d259ec3b67e1ab
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
-ms.translationtype: MT
+ms.openlocfilehash: cf30553d8a2b04a25fa596f6692c5f5e5522aa74
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27802603"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754689"
 ---
-# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen der Verwendung und Feedback in Microsoft Teams
-Es ist wichtig, zu wissen, wie Teams von Benutzern verwendet wird und was ihre Erfahrung mit Teams ist. Verwendungsberichte können Ihnen besser verstehen Verwendungsmuster und zusammen mit Benutzerfeedback, Ihnen Insights nahezubringen breiter und wo Schulung und Kommunikation Maßnahmen priorisieren informiert.
+# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen von Nutzung und Feedback in Microsoft Teams
+Es ist wichtig zu wissen, wie Benutzer Microsoft Teams verwenden und welche Erfahrungen sie dabei machen. Mithilfe von Nutzungsberichten können Sie Nutzungsmuster besser verstehen. In Kombination mit Feedback von Benutzern gelangen Sie so zu Einsichten, die Sie Ihrer weiteren Bereitstellung zugrunde legen und zur Priorisierung von Schulungs- und Kommunikationsinitiativen verwenden können.
 
-## <a name="monitor-usage"></a>Überwachung der Nutzung
-Für den ersten Satz von Teams wird empfohlen, dass Sie Berichte zweimal wöchentlich überprüfen, um neue Trends zu verstehen. 
+## <a name="monitor-usage"></a>Überwachen der Nutzung
+Für Ihre erste Reihe von Teams empfiehlt es sich, die Berichte zweimal wöchentlich zu überprüfen, um sich ausbildende Trends zu erkennen. 
 
-Verwendungsberichte anzeigen beispielsweise, dass Benutzer nicht viele Teams mobilen Clients verwenden. Dies kann bedeuten, dass Benutzer nicht sicher wie die Clients installiert sind. Bereitstellen von installationsanweisungen in einem Kanal erleichtert Laufwerk Verwendung von eine größere Anzahl von Clients. Oder Verwendungsberichte zeigt an, dass Benutzer in erster Linie für die private Chats Teams verwenden. In diesem Beispiel können Sie Ihr Team Szenarien zu überprüfen, da Benutzer außerhalb der anfänglichen Teams und Kanäle, die eingerichtet wurden und chatten möchten. 
+Beispielsweise können Nutzungsberichte zeigen, dass nicht viele Benutzer die mobilen Clients von Microsoft Teams verwenden. Dies kann ein Hinweis darauf sein, dass die Benutzer nicht wissen, wie sie die Clients installieren können. Das Veröffentlichen von schrittweisen Installationsanweisungen in einem Kanal kann die Verwendung einer größeren Bandbreite von Clients fördern. Oder die Nutzungsberichte zeigen beispielsweise, dass die Benutzer Microsoft Teams hauptsächliche für private Chats verwenden. In diesem Fall ist eine Überprüfung Ihrer Teamszenarien sinnvoll, da die Benutzer außerhalb der ursprünglich eingerichteten Teams und Kanäle chatten. 
 
-Hier ist wie Berichte zum Anzeigen von Teams Usage abgerufen. 
+Erfahren Sie hier, wie Sie an Berichte zur Überprüfung der Nutzung von Microsoft Teams gelangen. 
 
-### <a name="teams-analytics--reports-microsoft-teams--skype-for-business-admin-center"></a>Teams Analytics & Berichte (Microsoft-Teams und Skype für Business Admin Center)
+### <a name="teams-analytics--reports-microsoft-teams-admin-center"></a>Teams analytics & reports (Teams-Analysen und -Berichte, Microsoft Teams Admin Center)
 
-Teams-Berichten in der Microsoft-Teams & Skype für Business Admin Center können Sie Einblicke in wie Teams in Ihrer Organisation verwendet wird. Verwenden Sie die Berichte, um eine Ansicht in Teams Nutzung, Benutzeraktivität und Device-Nutzung in Ihrer Organisation zu erhalten. 
+Teams-Berichte im Microsoft Teams Admin Center geben Ihnen Einblick in die Verwendung von Microsoft Teams in Ihrer Organisation. Nutzen Sie die Berichte, um einen Einblick in die Verwendung von Microsoft Teams, die Benutzeraktivitäten und die Gerätenutzung innerhalb Ihrer Organisation zu erhalten. 
 
-Um diese Berichte anzeigen möchten, müssen Sie ein globaler Administrator in Office 365, Teams Dienstadministrator oder Skype für Business-Administrator sein. Wechseln Sie zur Microsoft-Teams & Skype für Business-Verwaltungskonsole im linken Navigationsbereich, wählen Sie **Analytics & Berichte**, und wählen Sie dann unter **Bericht**, den Bericht, den Sie ausführen möchten.
+Um diese Berichte anzuzeigen, müssen Sie ein globaler Administrator in Office 365, ein Teams-Dienstadministrator oder ein Skype for Business-Administrator sein. Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Analytics & reports** (Analysen und Berichte) und dann unter **Report** (Bericht) den Bericht aus, den Sie ausführen möchten.
 
-- **Bericht zur Verwendung der Teams**: Dieser Bericht bietet eine Übersicht über die Verwendung Aktivität bei Teams, einschließlich der aktiven Benutzer gesamt Kanäle und die Anzahl von aktiven Benutzern und Kanälen, Gäste, und Nachrichten in einzelnen Teams befinden. 
+- **Teams usage report** (Teams-Nutzungsbericht): Dieser Bericht gibt Ihnen eine Übersicht zu den Nutzungsaktivitäten in Teams, einschließlich der Gesamtzahl der aktiven Benutzer und Kanäle und der Anzahl der aktiven Benutzer und Kanäle, Gäste und Nachrichten in den einzelnen Teams. 
 
-    ![Bericht zur Verwendung der Teams] (media/teams-reports-teams-usage.png "Screenshot des Nutzungsberichts Teams im Microsoft-Teams & Skype für Business Admin Center")     
-- **Bericht über Benutzeraktivität Teams**: in diesem Bericht können Sie einen Einblick in die Arten von Aktivitäten Benutzer Teilnahme an, wie beispielsweise über 1:1-anrufen, DDE Kanalnachrichten und privaten Chatnachrichten wie viele Personen kommunizieren. 
+    ![Teams-Nutzungsbericht](media/teams-reports-teams-usage.png "Screenshot des Teams-Nutzungsberichts im Microsoft Teams Admin Center")     
+- **Teams user activity report** (Teams-Bericht über Benutzeraktivität): Mit diesem Bericht erhalten Sie Einblick in die Aktivitätsarten, an denen sich Benutzer beteiligen, etwa, wie viele Personen in Form von 1:1-Anrufen, Nachrichten in Kanälen und privaten Chatnachrichten kommunizieren. 
 
-    ![Bericht über Benutzeraktivität Teams] (media/teams-reports-user-activity.png "Screenshot des Teams User Activity Report im Microsoft-Teams & Skype für Business Admin Center") 
+    ![Teams-Bericht über Benutzeraktivität](media/teams-reports-user-activity.png "Screenshot des Teams-Berichts zur Benutzeraktivität Microsoft Teams Admin Center") 
 `
-- **Teams Gerät Verwendungsbericht**: in diesem Bericht werden die Verbindung von Benutzern zum Teams, einschließlich, wie viele Personen auf ihren mobilen Geräten, die beim Klicken auf Go Teams verwenden. 
+- **Teams device usage report** (Teams-Bericht zur Gerätenutzung): Dieser Bericht zeigt, wie Benutzer Verbindungen mit Microsoft Teams herstellen, einschließlich der Anzahl der Personen, die Teams unterwegs auf ihren mobilen Geräten verwenden. 
 
-    ![Bericht zur Verwendung der Teams Gerät] (media/teams-reports-device-usage.png "Screenshot des Nutzungsberichts Teams Gerät in der Microsoft-Teams & Skype für Business Admin Center")
+    ![Teams-Bericht zur Gerätenutzung](media/teams-reports-device-usage.png "Screenshot des Teams-Berichts zur Gerätenutzung im Microsoft Teams Admin Center")
 
-Weitere Informationen finden checken Sie [Teams Analysen und Berichte aus](teams-analytics-and-reports/teams-reporting-reference.md). 
+Weitere Informationen finden Sie unter [Teams-Analysen und -Berichte](teams-analytics-and-reports/teams-reporting-reference.md). 
 
-### <a name="teams-activity-reports-office-365-admin-center"></a>Teams Berichte (Office 365 Administrationscenter)
-Sie können auch Teams Aktivitäten über Berichte anzeigen, die aus dem Office 365 Administrationscenter verfügbar sind. Diese Berichte sind Bestandteil der Office 365-Berichte im Office 365 Administrationscenter und Informationen über Benutzeraktivität und Gerät Nutzung. 
+### <a name="teams-activity-reports-office-365-admin-center"></a>Teams-Aktivitätsberichte (Office 365 Admin Center)
+Sie können die Aktivitäten in Microsoft Teams außerdem in Berichten anzeigen, die im Office 365 Admin Center verfügbar sind. Diese Berichte sind Teil der Office 365-Berichte im Office 365 Admin Center und bieten Informationen über Benutzeraktivitäten und Gerätenutzung. 
 
-Zum Anzeigen dieser Berichte und wechseln Sie zu Office 365 Administrationscenter, klicken Sie auf **Berichte** > **Usage**. Klicken Sie unter **Wählen Sie einen Bericht aus**klicken Sie auf **Microsoft-Teams**. Hier wählen Sie den Bericht, den Sie anzeigen möchten.
+Um diese Berichte anzuzeigen, wechseln Sie zum Office 365 Admin Center, und klicken Sie auf **Berichte** > **Verwendung**. Klicken Sie unter **Bericht auswählen** auf **Microsoft Teams**. Wählen Sie hier den gewünschten Bericht aus.
 
-Weitere Informationen finden Sie wechseln Sie zum [Verwenden von Berichten für Teams Aktivität](teams-activity-reports.md).
+Weitere Informationen finden Sie unter [Verwenden von Aktivitätsberichten für Microsoft Teams](teams-activity-reports.md).
 
-### <a name="microsoft-365-usage-analytics"></a>Verwendungsanalyse für Microsoft 365
+### <a name="microsoft-365-usage-analytics"></a>Analysen zur Anwendung von Microsoft 365
 
-Sie können Microsoft 365 Verwendungsanalyse in Power BI zum Anzeigen und Analysieren von Verwendungsdaten für Teams und andere Office 365-Produkten und Diensten. Verwendungsanalyse für Microsoft 365 ist ein Inhaltspaket, die eine vordefinierte Dashboard und einer Reihe vorgefertigter Berichte enthält. Jeder Bericht können Sie bestimmte Nutzungsdaten und Einblicke in die. Zum Verbinden mit dem Content Pack Power BI benötigen und müssen ein globaler Administrator in Office 365 oder Berichte Reader sein. Wenn Sie nicht bereits Power BI, [Melden Sie sich für den kostenlosen Power BI-Dienst](https://powerbi.microsoft.com)haben. 
+Sie können die Analysen zur Anwendung von Microsoft 365 in Power BI verwenden, um Nutzungsdaten für Teams und andere Office 365-Produkte und -Dienste anzuzeigen und zu analysieren. Die Analysen zur Anwendung von Microsoft 365 stellen ein Inhaltspaket dar, das ein vorkonfiguriertes Dashboard und eine Reihe vordefinierter Berichte enthält. Jeder Bericht gibt Ihnen spezifische Nutzungsdaten und Einblicke an die Hand. Um eine Verbindung mit dem Inhaltspaket herzustellen, benötigen Sie Power BI und müssen ein globaler Administrator in Office 365 oder ein Benutzer mit Leseberechtigung für Berichte sein. Wenn Sie noch nicht über Power BI verfügen, [registrieren Sie sich für den kostenlosen Power BI-Dienst](https://powerbi.microsoft.com). 
 
-Finden Sie weitere Informationen finden Sie unter [Microsoft 365 Verwendungsanalyse](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
+Weitere Informationen finden Sie unter [Analysen zur Anwendung von Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
 
-## <a name="gather-feedback"></a>Erfassung des Feedbacks
-Die Annahme einer neuen der Zusammenarbeit geht es um Ändern des Verhaltens von Benutzern. Aktivieren der Änderung erfordert Schulung, Unterstützung und positive Beispiele. Es ist wichtig, dass Benutzer einen VoIP während des Übergangs Teams haben und ihre Erfahrungen offen freigeben können. Es wird empfohlen, mit dem Feedback Kanal im Team "Erste Schritte mit Teams wissen" Sie zum Erfassen und Beheben von Feedback von Benutzern auf ihren Erfahrungen mit Teams erstellt haben. 
+## <a name="gather-feedback"></a>Sammeln von Feedback
+Bei der Einführung einer neuen Lösung zur Zusammenarbeit geht es darum, das Verhalten der Benutzer zu ändern. Für eine erfolgreiche Änderung sind Schulung, Förderung und positive Beispiele erforderlich. Es ist wichtig, dass Benutzer während des Übergangs zur Microsoft Teams Mitsprache haben und ihre Erfahrungen offen teilen können. Wir empfehlen, den Feedbackkanal in dem von Ihnen erstellten Team "Teams kennenlernen" zu verwenden, um Feedback von Benutzern zu ihren Erfahrungen mit Microsoft Teams zu sammeln und darauf zu reagieren. 
 
 ## <a name="next-steps"></a>Nächste Schritte
-Wechseln Sie zum [Abrufen von Ressourcen zum Planen Ihrer Organisation geltende Implementierung von Teams](get-started-with-teams-resources-for-org-wide-rollout.md).
+Navigieren Sie zu [Abrufen von Ressourcen zum Planen des organisationsweiten Rollouts von Microsoft Teams](get-started-with-teams-resources-for-org-wide-rollout.md).

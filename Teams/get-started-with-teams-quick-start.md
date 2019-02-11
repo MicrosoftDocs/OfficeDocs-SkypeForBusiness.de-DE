@@ -1,47 +1,50 @@
 ---
-title: Schnellstart – Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+title: Erste Schritte mit Microsoft Teams
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: Erste Schritte mit Microsoft-Teams, von der ersten Teams und Kanäle Rollout, damit Sie Ihre Erfahrung mit Teams erstellen können, bevor Sie häufig in Ihrer Organisation bereitstellen.
-localization_priority: Normal
+description: Steigen Sie in Microsoft Teams ein, indem Sie Ihre ersten Teams und Kanäle bereitstellen, damit Sie Erfahrung in Teams aufbauen, bevor Sie es auf breiter Basis in der Organisation einführen.
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b99dc3b0aff15c417ef58affb6ac4fab5638f61c
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
-ms.translationtype: MT
+ms.openlocfilehash: 62d00335948e164302eb46cdf81a51f3edd802d3
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896131"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594374"
 ---
-# <a name="quick-start---microsoft-teams"></a>Schnellstart - Microsoft-Teams
+# <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
-Um schnell auf Teams beginnen, wird empfohlen, dass Sie zwei oder drei Teams und Kanäle für eine ausgewählte Gruppe von frühen Anwender erstellen. Nach der ersten Einführung der Teams im kleinen Maßstab, Sie erfahren Sie, Teams mithilfe von Teams und erhalten wertvolle Einblicke um informieren, wie Sie Teams in der gesamten Organisation bereitstellen. 
+Um schnell in Microsoft Teams einzusteigen, empfehlen wir Ihnen, zwei oder drei Teams und Kanäle für eine ausgewählte Gruppe aufgeschlossener Benutzer zu erstellen. Indem Sie Teams zunächst nur im kleinen Maßstab bereitstellen, lernen Sie Teams in der Praxis kennen und erhalten wertvolle Einsichten in das Bereitstellen von Teams für Ihre gesamte Organisation. Wenn Sie in einem kleinen Unternehmen arbeiten, benötigen Sie nicht mehr als diesen Schnellstartleitfaden, um Teams in Ihrer gesamten Organisation bereitzustellen.
 
-Verwenden Sie Teams, um schnell sammeln Sie ein Team mit Personen innerhalb und außerhalb Ihrer Organisation, sprechen Sie mit anderen Laufwerk fast und inklusive Unterhaltungen, sicher freigeben und anderen Personen Dokumente und Projekten durchlaufen. Passen Sie Teams, indem Finger Zugriff auf freigegebene Notizen, Webseiten und apps hinzufügen. Verwenden Sie Besprechungen und Aufrufen von für die Zusammenarbeit in Echtzeit von einem beliebigen aus Benutzer. Teams werden den Zugriff auf Office 365-Diensten und Drittanbieter-apps werden neue Schwerpunkt für Ihre Bedürfnisse Zusammenarbeit und Kommunikation zu vereinfachen. 
 
-![Erste Schritte mit Teams] (media/get-started-microsoft-teams.png "Screenshot des Teams desktop Client und mobilen Client-Benutzeroberfläche" ) 
+Mithilfe von Teams können Sie schnell ein Team mit Personen innerhalb und außerhalb Ihrer Organisation zusammenstellen, mit anderen chatten, um schnelle und inklusive Unterhaltungen zu fördern, Dokumente auf sichere Weise teilen und gemeinsam verfassen sowie Projekte durcharbeiten. Passen Sie Teams an, indem Sie Zugriff auf gemeinsame Notizen, Webseiten und Apps mit einem Fingertipp hinzufügen. Verwenden Sie Besprechungen und Anrufe, um in Echtzeit zusammenzuarbeiten, unabhängig vom Aufenthaltsort der Benutzer. Teams erleichtert Ihren Zugang zu Office 365-Diensten und Apps von Drittanbietern und wird zum neuen Gravitationszentrum für Ihre Anforderungen an Zusammenarbeit und Kommunikation. Ermutigen Sie Ihre Early Adopter, die Desktop- und die mobile Anwendung zu installieren, damit sie die beste Erfahrung und Sie das genaueste Feedback erhalten.
 
-Hier ist wie der erste Satz von Teams und Kanäle einführen, damit Ihre frühen Übernahmen chatten, Freigeben von Dateien und Zusammenarbeit gestartet werden können.
+![Erste Schritte mit Teams](media/get-started-microsoft-teams.png "Screenshot der Benutzeroberfläche des Teams-Desktopclients und des mobilen Clients" ) 
 
-- Schritt 1: [Erstellen Ihrer ersten Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
-- Schritt 2: [integrierte frühe Übernahmen](get-started-with-teams-onboard-early-adopters.md)
-- Schritt 3: [Überwachung der Nutzung und feedback](get-started-with-teams-monitor-usage-and-feedback.md)
-- Schritt 4: [Ressourcen, die Ihre Organisation geltende Einführungsplan abrufen](get-started-with-teams-resources-for-org-wide-rollout.md)
+So stellen Sie Ihre erste Reihe von Teams und Kanälen bereit, damit Ihre Early Adopter mit dem Chatten, dem Teilen von Dateien und der Zusammenarbeit beginnen können.
 
-Wenn Sie einer großen Organisation sind, haben Sie eine hybride oder lokalen Skype für die Business-Konfiguration strenge aus rechtlichen oder Compliance-Auflagen haben oder Besprechungen einführen oder VoIP-Features (wie das Aufrufen von Plänen oder Telefonsystem), finden Sie unter unsere [ausführliche Ressourcen](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) diese komplexeren Features planen. Es wird empfohlen, dass Sie weiterhin mit diesem Abschnitt erstellen Ihre Kenntnisse und Planen des Teams mit Teams beginnen. Starten von Teams mit Chat, Teams und Kanäle Rollout kleine und Erstellen von dort &ndash; diese anfänglichen Erfahrungen können Verteilen von zu Teams, Generieren von Interesse in der gesamten Organisation für die nächste Phase starten. 
+- Schritt 1: [Erstellen Sie Ihre ersten Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
+- Schritt 2: [Holen Sie Early Adopter ins Boot](get-started-with-teams-onboard-early-adopters.md)
+- Schritt 3: [Überwachen Sie Nutzung und Feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+- Schritt 4: [Rufen Sie Ressourcen zum Planen Ihrer organisationsweiten Bereitstellung ab](get-started-with-teams-resources-for-org-wide-rollout.md)
+
+Wenn Sie in einer großen Organisation arbeiten, über eine hybride oder lokale Skype for Business-Konfiguration verfügen, strengen behördlichen Vorschriften oder Complianceanforderungen genügen müssen oder die Bereitstellung von Besprechungs- und Sprachfunktionen (wie etwa Anrufplänen oder Telefonanlagen) planen, lesen Sie zuerst [Bereitstellen von Teams](how-to-roll-out-teams.md). Wir empfehlen Ihnen trotzdem, mit diesem **Erste Schritte**-Abschnitt anzufangen, um Ihre Fähigkeiten auszubauen und mit der Planung Ihrer organisationsweiten Bereitstellung zu beginnen. Setzen Sie Microsoft Teams schon bei der Planung ein! Beginnen Sie ganz einfach, indem Sie Teams mit Chat, Teams, Kanälen und Apps einführen, und bauen Sie darauf auf. Diese anfänglichen Erfahrungen helfen Ihnen, Teams bekannt zu machen und die Erwartung für Ihre nächste Einführungsphase in der ganzen Organisation zu schüren. 
+
+Wenn Sie in einem kleinen Unternehmen arbeiten, können Sie möglicherweise die gesamte Bereitstellung von Teams in Ihrer Organisation mit diesem Erste Schritte-Leitfaden bewältigen. Für kleine Unternehmen ist eine gestaffelte Bereitstellung von Teams nicht zwingend erforderlich.
 
 ## <a name="before-you-get-started"></a>Bevor Sie beginnen
 
-Stellen Sie sicher, dass Sie Teams Lizenzen für alle habe. [Vergleichen von Teams Pläne](https://products.office.com/microsoft-teams/free) und [Office 365-Lizenzierung für Teams](office-365-licensing.md)Auschecken. 
+Achten Sie darauf, dass Sie für alle Benutzer über Teams-Lizenzen verfügen. Lesen Sie [Teams-Pläne vergleichen](https://products.office.com/microsoft-teams/free) und [Office 365-Lizenzierung für Teams](office-365-licensing.md). 
 
 ## <a name="next-steps"></a>Nächste Schritte
-Wechseln Sie zum [Erstellen Ihrer ersten Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md).
+Wechseln Sie zu [Erstellen Sie Ihre ersten Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
 
-Checken Sie die [Teams Annahme Guide](https://aka.ms/teamstoolkit).
+Weitere Informationen finden Sie in unserem interaktiven [Teams Einführungsleitfaden](https://aka.ms/teamstoolkit).

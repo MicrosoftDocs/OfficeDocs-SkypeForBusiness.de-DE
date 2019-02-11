@@ -1,71 +1,70 @@
 ---
-title: Übersicht über Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+title: Willkommen bei Microsoft Teams
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.date: 11/06/18
+ms.date: 01/28/2019
 ms.reviewer: LolaJ
-description: Hier erhalten Sie Informationen zu Microsoft Teams, zur Infrastruktur und zur Verwendung von Teams mit Office 365.
+description: Finden Sie den richtigen Weg, Microsoft Teams in Ihrer Organisation bereitzustellen. Hier erhalten Sie Informationen zur Microsoft Teams-Infrastruktur und zur Verwendung von Teams mit Office 365.
 localization_priority: Priority
 search.appverid: MET150
-ms.custom:
-- NewAdminCenter_Update
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02848be0401bf06fff989b9b5ab79cdddcc70070
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 13fc63883e3dcdc5585cf68e013bbdc00bb9a503
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240677"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754852"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
+Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).
 
-Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Hier finden Sie alle Informationen, die Sie zum Planen, Bereitstellen und Verwenden von Microsoft Teams benötigen.  
+Wenn Sie neu in Teams sind und zuerst mehr erfahren möchten, lesen Sie weiter.
 
 ## <a name="overview-of-teams"></a>Übersicht über Microsoft Teams
 
-Wenn Microsoft Teams für Sie neu ist, sehen Sie sich das kurze Video [Willkommen bei Microsoft Teams](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams) an. Microsoft Teams basiert auf Office 365-Gruppen, Office Graph und den gleichen Sicherheits-, Compliance- und Verwaltungsfunktionen auf Unternehmensniveau wie alle anderen Komponenten von Office 365. Microsoft Teams nutzt in Azure Active Directory (Azure AD) gespeicherte Identitäten. Wenn Sie ein Team erstellen, werden die folgenden Elemente erstellt:
+Wenn Microsoft Teams für Sie neu ist, sehen Sie sich das kurze Video [Willkommen bei Microsoft Teams](https://youtu.be/s3aQV3T0D6c) an. Microsoft Teams basiert auf Office 365-Gruppen, Office Graph und den gleichen Sicherheits-, Compliance- und Verwaltungsfunktionen auf Unternehmensniveau wie alle anderen Komponenten von Office 365. Microsoft Teams nutzt in Azure Active Directory (Azure AD) gespeicherte Identitäten. Wenn Sie ein Team erstellen, werden die folgenden Elemente erstellt:
 - Eine neue [Office 365-Gruppe](office-365-groups.md)
 - Eine [SharePoint Online](sharepoint-onedrive-interact.md)-Website und eine SharePoint Online-Dokumentbibliothek zum Speichern von Teamdateien
 - Ein freigegebenes [Exchange Online](exchange-teams-interact.md)-Postfach und ein Exchange Online-Kalender
 - Ein OneNote-Notizbuch
 - Verbindungen mit anderen Office 365-Apps wie beispielsweise Planner und Power BI
 
-Wenn Sie ein Team anhand einer vorhandenen Gruppe erstellen, werden Mitgliedschaft, Website, Postfach und Notizbuch dieser Gruppe nach Microsoft Teams übertragen. Achten Sie auf das neue [organisationsweite Team](create-an-org-wide-team.md). Dieser besondere Teamtyp nimmt alle Benutzer in der Organisation auf und hält über Active Directory die Mitgliedschaft auf dem aktuellen Stand, wenn Benutzer der Organisation beitreten oder diese verlassen. 
+Wenn Sie ein Team aus einer vorhandenen Gruppe erstellen, werden Mitgliedschaft, Website, Postfach und Notizbuch dieser Gruppe nach Microsoft Teams übertragen. Achten Sie auf das neue [organisationsweite Team](create-an-org-wide-team.md). Dieser besondere Teamtyp nimmt alle Benutzer in der Organisation auf und hält über Active Directory die Mitgliedschaft auf dem aktuellen Stand, wenn Benutzer der Organisation beitreten oder diese verlassen. 
 
-Um Microsoft Teams anzupassen und zu erweitern, können Sie über [Registerkarten](built-in-custom-tabs.md), [Connectors](office-365-custom-connectors.md) und [Bots](add-bots.md) Drittanbieter-Apps hinzufügen. Sie können Personen von außerhalb der Organisation in Microsoft Teams einbeziehen, indem Sie sie [als Gast zu einem Team oder Kanal hinzufügen](guest-access.md). Da Microsoft Teams Bestandteil von Office 365 ist, profitieren Sie von umfassenden [Erweiterungsmöglichkeiten](https://docs.microsoft.com/en-us/microsoftteams/platform) und können einen Hub für Teamarbeit schaffen, der ganz den Anforderungen Ihrer Organisation entspricht. 
+Um Microsoft Teams anzupassen und zu erweitern, können Sie mithilfe von [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) Drittanbieter-Apps hinzufügen. Sie können Personen von außerhalb der Organisation in Microsoft Teams einbeziehen, indem Sie sie [als Gast zu einem Team oder Kanal hinzufügen](guest-access.md). Da Microsoft Teams Bestandteil von Office 365 ist, profitieren Sie von einer robusten [Entwicklungsplattform](https://docs.microsoft.com/de-DE/microsoftteams/platform) und können einen Hub für Teamarbeit schaffen, der ganz den Anforderungen Ihrer Organisation entspricht. 
 
 ![Microsoft Teams-Desktop-App und mobile App](media/teams-overview-hub.png)
 
-Microsoft Teams ist der primäre Client für intelligente Kommunikation in Office 365 und soll im Lauf der Zeit Skype for Business Online ersetzen. Weitere Informationen zu den Merkmalen und Funktionen von Skype for Business, die wir in Microsoft Teams integriert haben, finden Sie unter [Von Skype for Business zu Microsoft Teams: Roadmap der Funktionen](http://aka.ms/skype2teamsroadmap). Ergänzend zu den Funktionen für beständigen Chat und Messaging bietet Teams umfassende Möglichkeiten für Besprechungen und Anrufe mit vollständig integrierten Sprach- und Videofunktionen. Lesen Sie im Microsoft Teams-Blog den Artikel [Microsoft Teams ist jetzt eine umfassende Lösung für Besprechungen und Anrufe](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042).
 
-## <a name="teams-admin-experience"></a>Administratorfunktionen für Microsoft Teams
+## <a name="managing-teams"></a>Verwalten von Teams
 
-Wir führen zurzeit das neue Admin Center für Microsoft Teams und Skype for Business ein. Wenn Sie es noch nicht sehen – es dauert nicht mehr lange. Freuen Sie sich auf einheitliche Funktionen zum Verwalten von Microsoft Teams und Skype for Business. Wir haben seit März 2018 schrittweise Einstellungen aus dem Skype for Business Admin Center und den Microsoft Teams-Optionen im Office 365 Admin Center dorthin migriert. 
+Als Administrator können Sie Teams über das Microsoft Teams Admin Center verwalten. So erhalten Sie weitere Informationen:
+- [Verwalten von Teams im Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-in-modern-portal.md)
 
-Während der Migration verwenden Sie zwei verschiedene Verwaltungsumgebungen. Aber keine Sorge: Wir helfen Ihnen, sich zurechtzufinden. Wenn eine Einstellung migriert wurde, werden Sie benachrichtigt und zu der entsprechenden Stelle im neuen Admin Center für Microsoft Teams und Skype for Business geleitet. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams während des Übergangs zum neuen Admin Center für Microsoft Teams und Skype for Business](manage-teams-skypeforbusiness-admin-center.md). 
 
 Sehen Sie regelmäßig im [Nachrichtencenter](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) und in der [Microsoft Teams-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams) nach, um sich über die Neuigkeiten für Microsoft Teams und alle anderen Office 365-Produkte und -Dienste in Ihrer Organisation auf dem Laufenden zu halten. Sie erhalten Ankündigungen zu neuen und aktualisierten Funktionen, geplanten Änderungen und Problemen, damit Sie stets informiert und vorbereitet sind. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Upgrade von Skype for Business auf Microsoft Teams
-Sie verwenden Microsoft Teams bereits? Großartig! Verwenden Sie die hier angebotenen Ressourcen, um Microsoft Teams optimal als zentralen Hub für Zusammenarbeit in Ihrer Organisation zu nutzen. 
+Teams ist der primäre Client für intelligente Kommunikation in Office 365 und ersetzt Skype for Business Online. Weitere Informationen zu den neuen Funktionen von Teams finden Sie in der [Microsoft 365-Roadmap](http://aka.ms/O365Roadmap). Ergänzend zu den Funktionen für beständigen Chat und Messaging bietet Teams umfassende Möglichkeiten für Besprechungen und Anrufe mit vollständig integrierten Sprach- und Videofunktionen. Lesen Sie im Microsoft Teams-Blog den Artikel [Microsoft Teams ist jetzt eine umfassende Lösung für Besprechungen und Anrufe](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042).
 
-Wenn Sie Skype for Business verwenden und für das Upgrade auf Microsoft Teams bereit sind oder Skype for Business und Microsoft Teams parallel verwenden und jetzt ganz zu Microsoft Teams wechseln möchten, haben wir Tools, Tipps und Anleitungen, die Ihnen beim erfolgreichen Übergang helfen sollen. Weitere Informationen finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](journey-skypeforbusiness-teams.md).
+Wenn Sie Skype for Business verwenden und für das Upgrade auf Microsoft Teams bereit sind oder Skype for Business und Microsoft Teams parallel verwenden und jetzt ganz zu Microsoft Teams wechseln möchten, haben wir Tools, Tipps und Anleitungen, die Ihnen beim erfolgreichen Übergang helfen sollen. Weitere Informationen hierzu finden Sie unter [Upgrade to Teams](journey-skypeforbusiness-teams.md) (Upgrade zu Teams ausführen).
 
 ## <a name="teamwork-and-office-365"></a>Teamarbeit und Office 365
 Jedes Team ist anders, das heißt, es gibt keine Universallösung für die Zusammenarbeit. Office 365 ist für die individuellen Anforderungen jedes Teams konzipiert und ermöglicht Benutzern mit speziell entwickelten integrierten Anwendungen Kommunikation, Zusammenarbeit und eine Steigerung ihrer Produktivität. 
 
 Berücksichtigen Sie bei der Entscheidung über die zu verwendenden Office 365-Apps und -Dienste die in der Organisation anfallenden Arbeiten und die Unterhaltungen, die Ihre Teams führen müssen. 
 
-- **Teams** ist ein digitaler Hub, in dem Benutzer (auch von außerhalb Ihrer Organisation) eng gemeinsam an wichtigen Projekten arbeiten, aktiv miteinander in Verbindung treten und in Echtzeit zusammenarbeiten können, um ihre Produktivität zu verbessern. Unterhaltungen können direkt dort geführt werden, wo die Arbeit stattfindet, sei es bei der gemeinsamen Erstellung eines Dokuments, in einer Besprechung oder bei der gemeinsamen Arbeit in anderen Apps und Diensten. Microsoft Teams ist die richtige Anlaufstelle für formlose Chats, das schnelle Durchlaufen eines Projekts, Arbeiten mit Teamdateien und Zusammenarbeiten an freigegebenen Projektdokumenten. 
+- **Teams** als Hub für Zusammenarbeit ist der Ort, an dem sich Personen – auch Personen außerhalb Ihrer Organisation – aktiv verbinden und in Echtzeit produktiv zusammenarbeiten können. Unterhaltungen können direkt dort geführt werden, wo die Arbeit stattfindet, sei es bei der gemeinsamen Erstellung eines Dokuments, in einer Besprechung oder bei der gemeinsamen Arbeit in anderen Apps und Diensten. Microsoft Teams ist die richtige Anlaufstelle für formlose Chats, das schnelle Durchlaufen eines Projekts, Arbeiten mit Teamdateien und Zusammenarbeiten an freigegebenen Projektdokumenten. 
 
 - **Outlook** eignet sich für die Zusammenarbeit in der vertrauten Umgebung mit E-Mail und eine förmlicheren, stärker strukturierten Arbeitsweise oder in Fällen, in denen zielgerichtete, direkte Kommunikation gefragt ist. 
 
-- **SharePoint** ist für Websites, Portale, intelligente Inhaltsdienste, Automatisierung von Geschäftsprozessen und Unternehmenssuche gedacht. Mit SharePoint bleibt der Inhalt im Mittelpunkt der Teamarbeit. Alle Arten von Inhalten können im Handumdrehen teamübergreifend freigegeben werden, sodass alle Teams auf sie zugreifen können. Die enge Integration in Outlook, Yammer und Microsoft Teams ermöglicht die nahtlose Zusammenarbeit an Inhalten mit verschiedenen Möglichkeiten, Unterhaltungen zu führen.   
+- **SharePoint** ist für Websites, Portale, intelligente Inhaltsdienste, Automatisierung von Geschäftsprozessen und Unternehmenssuche gedacht. Mit SharePoint bleibt der Inhalt im Mittelpunkt der Teamarbeit. Alle Arten von Inhalten können im Handumdrehen teamübergreifend freigegeben werden, sodass alle Teams auf sie zugreifen können. Die enge Integration in Outlook, Yammer und Microsoft Teams ermöglicht die nahtlose Zusammenarbeit an Inhalten mit verschiedenen Möglichkeiten, Unterhaltungen zu führen.
 
 - **OneDrive for Business** dient zum Speichern von Dateien und zum Freigeben dieser Dateien für Personen, die von Benutzern eingeladen werden. Von Benutzern in OneDrive for Business gespeicherte Inhalte bleiben privat, bis die Benutzer sie für andere freigeben. Damit ist dies die beste Option zum Speichern von persönlichen Dokumenten und Entwürfen, die nicht freigegeben werden sollen oder noch nicht für die Freigabe bereit sind.
 

@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56add7d27a367c5320243455d6891fa178526b4f
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 5d4c8d99dcc3e1c96e5fbfce942b9def6d0db952
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699741"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754776"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -35,32 +35,32 @@ Alle folgenden Konzepte und Definitionen beeinflussen die Entscheidungen, die Si
 
 **Microsoft Teams**
 
-Ein _Team_ ist eine Sammlung von Personen, Inhalten und Tools, die die Zusammenarbeit unterstützen. Ein Team definiert, wer seine Mitglieder sind und welche Berechtigungen und Richtlinien für diese Mitglieder gelten. Teams basieren auf Office 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. Wie andere Office 365-Gruppen verfügen Teams automatisch über ein Exchange-Postfach, eine SharePoint-Website, ein OneNote-Notizbuch und andere Office 365-Ressourcen. [Hier finden Sie weitere Informationen zu Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team. Like other Office 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Kanäle**
 
-Kanäle sind die Zusammenarbeitsbereiche innerhalb eines Teams, in denen die eigentliche Arbeit stattfindet. Jeder Kanal stellt ein anderes Thema oder einen anderen Arbeitsstream innerhalb des Gesamtteams dar. Für jeden Kanal wird automatisch auf der SharePoint-Website ein Ordner erstellt, in dem alle für diesen Kanal freigegebenen Dateien gespeichert werden. So können die Benutzer für sie wichtige Dokumente leicht finden und mit ihnen arbeiten. Außerdem können Kanäle mit Apps erweitert werden, die für den jeweiligen Arbeitsstream relevant sind. Sie können zum Beispiel ein Power BI-Dashboard zu einem Kanal hinzufügen, um den Erfolg eines Projektaspekts zu verfolgen.
+Channels are the collaboration spaces within a team where the actual work is done. Each channel represents a different topic or workstream within the overall team. For each channel, a folder is automatically created on the SharePoint site to store all files shared to that channel, making it easy for users to find and work on the documents they care about. Channels can also be extended with apps that are relevant to the particular workstream—for example, you can add a Power BI dashboard to a channel to track the success of one aspect of your project.
 
 **Teamzugriffstypen**
 
 Diese bestimmen, wer dem Team beitreten kann:
 
--   _Private_ Teams sind auf Teammitglieder beschränkt, die von den Teambesitzern genehmigt werden. Dies ist eine typische Einstellung für Projektteams und virtuelle Teams in einer großen Organisation.
--   _Öffentliche_ Teams stehen allen in der Organisation offen, und alle können direkt beitreten. Dies ist hilfreich bei der Zusammenarbeit an Themen, die für Personen in verschiedenen Abteilungen, die an verschiedenen Projekten arbeiten, von allgemeinem Interesse sind. Diese Einstellung eignet sich gut als Standardeinstellung für kleinere Organisationen.
+-   _Private_ teams are restricted to team members approved by the team owner(s). This is a typical setting for project teams and virtual teams in a large organization.
+-   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
 
 **Teambenutzertypen und Administratorrollen** 
 
 Teambenutzertypen bestimmen, wie viel Kontrolle ein Teammitglied hat:
 
--   Der _Teamersteller_ verfügt über Berechtigungen zum Erstellen einer Gruppe oder eines Teams im Verzeichnis. Der Administrator kann diesen Benutzertyp auf eine Teilmenge der Administratoren oder Benutzer begrenzen. Weitere Informationen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   Der _Teambesitzer_ verwaltet die Mitgliedschaft und die Einstellungen für das Team. Pro Team sind bis zu zehn Teambesitzer möglich.
+-   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
+-   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
 -   Ein _Teammitglied_ ist ein Mitglied Ihrer Organisation, das an einem Team teilnimmt.
--   Ein _Gast_ ist ein Benutzer, der nicht zu Ihrer Organisation gehört. Jeder, der über eine E-Mail-Adresse verfügt, kann als Gast eingeladen werden, sofern Ihre Organisation den [Gastzugriff](guest-access.md) aktiviert hat.
+-   _Guest_ is a user who’s external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
 
 > [!Note]
 > Weitere Informationen zu den Möglichkeiten von Teambesitzern und Teammitgliedern finden Sie im Artikel [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md).
 
-Die Administratorrollen in Microsoft Teams bestimmen, welche Möglichkeiten den Inhabern der einzelnen Administratorrollen zur Verfügung stehen. Diese Rollen und Möglichkeiten werden in der folgenden Tabelle beschrieben.
+Teams admin roles determine what capabilities each admin role holder has. These are described in the following table.
 
 <table>
  <thead>
@@ -85,20 +85,20 @@ Die Administratorrollen in Microsoft Teams bestimmen, welche Möglichkeiten den 
 <tr>
 <td valign="top" colspan="2">Teams-Kommunikationsspezialist</td>
 <td valign="top">Ausführen einer Problembehandlung für Kommunikationsprobleme innerhalb von Microsoft Teams mithilfe von Standardtools</td>
-<td valign="top">Zugreifen auf Benutzerprofilseiten, um mit der Anrufanalyse eine Problembehandlung für Anrufe auszuführen. Kann nur Benutzerinformationen für den gesuchten Benutzer anzeigen.<sup>3</sup></td>
+<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup></td>
 </tr>
 <tr>
 <td valign="top" colspan="2">Teams-Kommunikationssupporttechniker</td>
 <td valign="top">Ausführen einer Problembehandlung für Kommunikationsprobleme innerhalb von Microsoft Teams mithilfe erweiterter Tools</td>
-<td valign="top">Zugreifen auf Benutzerprofilseiten, um mit der Anrufanalyse eine Problembehandlung für Anrufe auszuführen. Kann sämtliche Informationen in Anrufdatensätzen anzeigen.<sup>3</sup></td>
+<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can view the full call record information.<sup>3</sup></td>
 </tr>
 <tr>
 </tbody>
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell – Skype for Business-Modul</a> oder <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams und Skype for Business</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell – Microsoft Teams-Modul</a> oder <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams und Skype for Business</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">Nur <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams und Skype for Business</a></td>
+">PowerShell – Skype for Business-Modul</a> oder <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell – Microsoft Teams-Modul</a> oder <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Nur <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams</a></td>
 </tr>
 </tfoot>
 </table>
@@ -106,23 +106,23 @@ Die Administratorrollen in Microsoft Teams bestimmen, welche Möglichkeiten den 
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>Im Vorfeld zu treffende IT-Entscheidungen
 
-Bevor Sie Microsoft Teams in Ihrer Organisation einführen, sollten Sie Governancerichtlinien implementieren, die die Organisation für notwendig befunden hat. Dazu können Dinge gehören wie Benennungskonventionen, Ablaufrichtlinien, Aufbewahrungsrichtlinien und vieles mehr. Generell ist es viel einfacher, diese Anforderungen zu implementieren, bevor Sie die Bereitstellung für die gesamte Organisation skalieren.
+Before you roll Teams out to your organization, implement any governance policies that your organization has decided it requires. These can include items like naming conventions, expiration policies, retention policies, and more. Generally speaking, it’s much easier to implement these requirements prior to scaling your deployment across your organization.
 
 Weitere Informationen finden Sie unter [Planen der Governance in Microsoft Teams](plan-teams-governance.md).
 
 ## <a name="teams-lifecycle-stages"></a>Lebenszyklusphasen von Teams
 
-Allgemein ausgedrückt hat ein Team einen Zweck, der einem Projekt oder der Erreichung eines Ziels entspricht. Auch wenn ein Team auf der Grundlage gemeinsamer Interessen gebildet wurde, wird sich die Teammitgliedschaft wahrscheinlich im Lauf der Zeit ändern. Möglicherweise kommt die Diskussion zum Erliegen, nur um in einem anderen Team auf etwas andere Weise wieder aufzuleben.
+Generally speaking, a team has a purpose that’s aligned with a project or accomplishing a goal. Even if a team was formed based on a shared interest, the team membership will probably change over time and the discussion might grow stale—only to surface again in a slightly different way in a different team.
 
 Jedes Team hat einen Anfang, das heißt die Phase, in der das Team erstellt wird und die Kanäle eingerichtet werden. Außerdem hat es eine Mitte, das heißt die Phase, in der das Team genutzt wird und die Zusammenarbeit dem Rhythmus des Workflows entspricht. Manchmal gibt es auch ein Ende, das heißt die Phase, in der das Team seinen Zweck erfüllt hat und nicht mehr benötigt wird. 
 
-Weitere Informationen finden Sie unter [Verwalten von Teams im Admin Center für Microsoft Teams und Skype for Business](manage-teams-in-modern-portal.md).
+Weitere Informationen finden Sie unter [Verwalten von Teams im Admin Center für Microsoft Teams](manage-teams-in-modern-portal.md).
 
 ### <a name="stage-1-beginning"></a>Phase 1: Anfang
 
 #### <a name="create-the-team"></a>Erstellen des Teams
 
-Der erste Schritt besteht darin, das Ziel des Teams zu definieren. (Dabei kann es um Geschäftsprozesse, die Organisationsstruktur oder Projekte gehen oder einfach um die Schaffung eines offenen, unstrukturierten Hubs für Zusammenarbeit.) Die Definition des Teamziels geht Hand in Hand mit dem Identifizieren der richtigen Personen. Soweit möglich ist es eine gute Idee, die offene Zusammenarbeit zu fördern, indem Sie eine breite Mitgliedschaft anstreben. 
+The first step is to define the goal of the team (which can range from business processes to org structure to projects, or simply creating an open, unstructured collaboration hub). Defining the team goal goes hand in hand with identifying the right people. As far as practicable, it’s a good idea to foster open collaboration by aiming for broad membership. 
 
 Teambesitzer können Teammitglieder einladen, das Teambild und die Teambeschreibung festlegen sowie Berechtigungen für einzelne Mitglieder festlegen. 
 
@@ -133,15 +133,17 @@ Teambesitzer können Teammitglieder einladen, das Teambild und die Teambeschreib
 
 Teams können durch verschiedene Methoden entstehen. Beispiele:
 
--   Erstellen Sie das Team von Grund auf. Fügen Sie Mitglieder hinzu, indem Sie einzelne E-Mail-Aliase oder Benutzernamen verwenden oder eine Verteilerliste erweitern.
--   Erstellen Sie das Team aus einem vorhandenen Team, dessen Kanalkonfiguration und App-Konfigurationen Sie als Vorlage verwenden. Optional können Sie auch die Mitgliederliste dieses Teams verwenden.
+-   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
+-   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
 -   Fügen Sie ein Team zu einer vorhandenen Office 365-Gruppe hinzu. Damit erhält das Team auch Zugriff auf das zugehörige Postfach und die entsprechende SharePoint-Website.
--   Verwenden Sie zum Erstellen von Teams die Teams-APIs für Microsoft Graph oder PowerShell-Cmdlets. Die APIs können programmgesteuert Teams auf der Grundlage von Attributen des globalen Adressbuchs (wie zum Beispiel Region oder Abteilung) oder von Geschäftsprozessen (z. B. Kundenverpflichtungen oder Kurslisten) erstellen.
+-   Use the Microsoft Graph Teams APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (such as region or department) or business processes (client engagements or classroom rosters, for example).
 
 Unter den folgenden Links finden Sie weitere Informationen zum Organisieren Ihrer Teams:
 
 -   [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
--   [Übersicht über eine Microsoft Teams-Bereitstellung](deployment-overview.md)
+-   [Bereitstellen von Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+-   [Bereitstellen von Besprechungen und Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)
+-   [Bereitstellen von Cloud Voice](cloud-voice-landing-page.md)
 
 
 |    |     |
