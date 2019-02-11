@@ -1,37 +1,33 @@
 ---
-title: Abrufen von Ressourcen zum Plan des organisationsweiten Rollouts von Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+title: Wahl des Wegs für die organisationsweite Bereitstellung von Microsoft Teams
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: Wissen Sie, wo Sie ausführliche Bereitstellung und Adoptions Ressourcen für Microsoft-Teams zu suchen.
-localization_priority: Normal
+description: Erfahren Sie, wo Sie tiefgreifende Ressourcen zu Bereitstellung und Einführung von Microsoft Teams finden.
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2055a6449e29c53a3f0609110710a213631600
-ms.sourcegitcommit: 4dd2598efbfd4789587b9d816b69017817e0203b
-ms.translationtype: MT
+ms.openlocfilehash: f7dc15de1502f7c9601cc7df80e518ef36db6d7f
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26622278"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594334"
 ---
-# <a name="get-resources-to-plan-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="e3fa1-103">Abrufen von Ressourcen zum Plan des organisationsweiten Rollouts von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e3fa1-103">Get resources to plan your organization-wide rollout of Microsoft Teams</span></span>
+# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a><span data-ttu-id="8c03a-103">Wahl des Wegs für die organisationsweite Bereitstellung von Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="8c03a-103">Choose a path to your organization-wide rollout of Microsoft Teams</span></span>
 
-<span data-ttu-id="e3fa1-104">Nun, dass Sie erfolgreich Ihrer ersten Teams, Onboarded eine anfängliche Gruppe von Benutzern eingerichtet haben und gleichzeitig Nutzung, ist es sich an Ihren Go Forward Plan zum Bereitstellen von Teams über den Rest Ihrer Organisation und Annahme gleichzeitig.</span><span class="sxs-lookup"><span data-stu-id="e3fa1-104">Now that you've successfully set up your first teams, onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span>
+<span data-ttu-id="8c03a-104">Jetzt, da Sie Ihre ersten Teams erfolgreich eingerichtet, eine Anfangsgruppe von Benutzern an Bord geholt und die Nutzung vorangetrieben haben, ist es an der Zeit, Ihre weitergehenden Pläne zu betrachten, um Teams in der restlichen Organisation bereitzustellen und die Akzeptanz zu fördern.</span><span class="sxs-lookup"><span data-stu-id="8c03a-104">Now that you've successfully set up your first teams, onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.</span></span> <span data-ttu-id="8c03a-105">Beginnen Sie mit dem ersten Workload, [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span><span class="sxs-lookup"><span data-stu-id="8c03a-105">Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).</span></span>
 
-## <a name="deploy-teams"></a><span data-ttu-id="e3fa1-105">Bereitstellen von Teams</span><span class="sxs-lookup"><span data-stu-id="e3fa1-105">Deploy Teams</span></span>
-<span data-ttu-id="e3fa1-106">Im Abschnitt [Bereitstellen von Teams](deployment-overview.md) unserer Dokumentation finden IT-Spezialisten mit der Anleitung für die besten Entscheidungen für eine Organisation geltende Einführung.</span><span class="sxs-lookup"><span data-stu-id="e3fa1-106">The [Deploy Teams](deployment-overview.md) section of our documentation provides IT pros with the guidance to make the best decisions for an organization-wide rollout.</span></span>
+<span data-ttu-id="8c03a-106">Hilfe beim Festlegen Ihres Wegs beim Bereitstellen von Teams finden Sie unter [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).</span><span class="sxs-lookup"><span data-stu-id="8c03a-106">For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).</span></span>
 
-## <a name="adopt-teams"></a><span data-ttu-id="e3fa1-107">Einführen Teams</span><span class="sxs-lookup"><span data-stu-id="e3fa1-107">Adopt Teams</span></span>
-<span data-ttu-id="e3fa1-108">Im Abschnitt [Einführen Teams](adopt-microsoft-teams-landing-page.md) über unsere Dokumentation Schritte wie Teams erfolgreich in Ihrer Organisation einführen.</span><span class="sxs-lookup"><span data-stu-id="e3fa1-108">The [Adopt Teams](adopt-microsoft-teams-landing-page.md) section of our documentation steps you through how to successfully adopt Teams in your organization.</span></span>
+## <a name="let-us-know-what-you-think"></a><span data-ttu-id="8c03a-107">Teilen Sie uns Ihre Meinung mit</span><span class="sxs-lookup"><span data-stu-id="8c03a-107">Let us know what you think</span></span>
 
-## <a name="let-us-know-what-you-think"></a><span data-ttu-id="e3fa1-109">Teilen Sie uns Ihre Meinung</span><span class="sxs-lookup"><span data-stu-id="e3fa1-109">Let us know what you think</span></span>
+<span data-ttu-id="8c03a-108">:memo: Wären Sie so freundlich, <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">diese Umfrage</a> auszufüllen (nimmt etwa eine Minute in Anspruch), um uns mitzuteilen, was Sie von diesem **Erste Schritte**-Abschnitt halten?</span><span class="sxs-lookup"><span data-stu-id="8c03a-108">:memo: Will you complete <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">this survey</a> (takes about a minute) to tell us what you think of this **Get started** section?</span></span> <span data-ttu-id="8c03a-109">Sie bleiben anonym.</span><span class="sxs-lookup"><span data-stu-id="8c03a-109">It's anonymous.</span></span>
 
-<span data-ttu-id="e3fa1-110">: Memo: wird <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">dieser Umfrage</a> (dauert ungefähr eine Minute) um uns mitzuteilen Meinung in diesem Abschnitt **Erste Schritte** abgeschlossen?</span><span class="sxs-lookup"><span data-stu-id="e3fa1-110">:memo: Will you complete <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">this survey</a> (takes about a minute) to tell us what you think of this **Get started** section?</span></span> <span data-ttu-id="e3fa1-111">Es ist anonym.</span><span class="sxs-lookup"><span data-stu-id="e3fa1-111">It's anonymous.</span></span>
-
-<span data-ttu-id="e3fa1-112">Sie können auch für einen bestimmten Artikel Feedback von unterschiedlich sein und sollte mit dem **Feedback** Abschnitt dieses Artikels.</span><span class="sxs-lookup"><span data-stu-id="e3fa1-112">You can also give feedback for a specific article by going to the **Feedback** section of that article.</span></span> 
+<span data-ttu-id="8c03a-110">Sie können darüber hinaus Feedback zu einem bestimmten Artikel geben, indem Sie zum Abschnitt **Feedback** des betreffenden Artikels navigieren.</span><span class="sxs-lookup"><span data-stu-id="8c03a-110">You can also give feedback for a specific article by going to the **Feedback** section of that article.</span></span> 
