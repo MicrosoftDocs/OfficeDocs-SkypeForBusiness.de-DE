@@ -3,30 +3,6 @@
 
 
 
-## <a name="week-of-december-24-2018"></a>Woche vom Montag, 24. Dezember 2018
-
-
-| Veröffentlicht am |Titel des Themas | Änderung |
-|------|------------|--------|
-| 28. Dezember 2018 | [Treffen von Entscheidungen für den Audio-Konferenzdienst – Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | Geändert |
-| 28.12.2018 | [Besprechungen in Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | Geändert |
-| 28.12.2018 | [Verwalten Ihrer Geräte in Microsoft Teams](/MicrosoftTeams/device-management) | Geändert |
-| 28.12.2018 | [Verwalten von Microsoft Teams-Features in Ihrer Office 365-Organisation](/MicrosoftTeams/enable-features-office-365) | Geändert |
-
-
-## <a name="week-of-december-31-2018"></a>Woche vom Montag, 31. Dezember 2018
-
-
-| Veröffentlicht am |Titel des Themas | Änderung |
-|------|------------|--------|
-| 03. Januar 2019 | Installieren von Microsoft Teams mithilfe eines MSI-Pakets (mit SCCM) | entfernt |
-| 03. Januar 2019 | [Übersicht über eine Microsoft Teams-Bereitstellung](/MicrosoftTeams/deployment-overview) | Geändert |
-| 03.01.2019 | [Gastfunktionalität](/MicrosoftTeams/guest-experience) | Geändert |
-| 03.01.2019 | [Planen von Microsoft 365 Government – GCC High-Bereitstellungen – Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | Geändert |
-| 03.01.2019 | [Planen von Microsoft 365 Government – GCC-Bereitstellungen – Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | Geändert |
-| 04.01.2019 | [Aktualisieren der kostenlosen Version von Microsoft Teams auf die Office 365-Abonnementversion](/MicrosoftTeams/upgrade-freemium) | Geändert |
-
-
 ## <a name="week-of-january-07-2019"></a>Woche vom 7. Januar 2019
 
 
@@ -191,7 +167,169 @@
 | 25. Januar 2019 | [Konfigurieren von direktem Routing](/MicrosoftTeams/direct-routing-configure) | Geändert |
 | 25. Januar 2019 | [Verwalten von Microsoft Teams-Features in Ihrer Office 365-Organisation](/MicrosoftTeams/enable-features-office-365) | Geändert |
 | 25. Januar 2019 | [Gastzugriff in Microsoft Teams](/MicrosoftTeams/guest-access) | Geändert |
-| 25. Januar 2019 | [Verwalten von Teams im Admin Center für Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Geändert |
+| 25. Januar 2019 | [Verwalten von Teams im Admin Center für Microsoft Teams und Skype for Business](/MicrosoftTeams/manage-teams-in-modern-portal). | Geändert |
 | 25. Januar 2019 | [Installieren von Microsoft Teams mithilfe eines MSI-Pakets (mit SCCM)](/MicrosoftTeams/msi-deployment) | Geändert |
 | 25. Januar 2019 | [Operationen für Microsoft Teams| Dienstverwaltung | Qualität](/MicrosoftTeams/upgrade-operate-my-service) | Geändert |
 | 25. Januar 2019 | [Verwalten des Benutzerzugriffs auf Microsoft Teams](/MicrosoftTeams/user-access) | Geändert |
+
+
+## <a name="week-of-january-28-2019"></a>Woche vom 28. Januar 2019
+
+
+| Veröffentlicht am |Titel des Themas | Änderung |
+|------|------------|--------|
+| 28.1.2019 | [Technische Dokumentation zu Microsoft Teams](/MicrosoftTeams/microsoft-teams) | Geändert |
+| 28.1.2019 | [Verwalten Ihrer Geräte in Microsoft Teams](/MicrosoftTeams/device-management) | Geändert |
+| 28.1.2019 | [Erste Schritte mit Microsoft Teams-Vorlagen](/MicrosoftTeams/get-started-with-teams-templates) | Geändert |
+| 29.1.2019 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 29.1.2019 | [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | Geändert |
+| 29.1.2019 | [Microsoft Teams-Schulung](/MicrosoftTeams/training-microsoft-teams-landing-page) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für Australien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für Belgien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für Kanada](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für Frankreich](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für Deutschland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für Irland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für Spanien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für die Niederlande](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für das Vereinigte Königreich](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | Geändert |
+| 30.1.2019 | [Telefonnummernverwaltung für die USA](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | Geändert |
+| 30.1.2019 | [Erste Schritte mit dem Upgrade von Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | Geändert |
+| 31.1.2019 | [Verwenden des Add-Ins für Microsoft Teams-Besprechungen in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Geändert |
+| 31.1.2019 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+| 31.1.2019 | [Verfügbarkeit in Hongkong](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong) | Geändert |
+| 31.1.2019 | [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Geändert |
+| 31.1.2019 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
+| 1.2.2019 | [Autorisieren des Gastzugriffs in Microsoft Teams](/MicrosoftTeams/teams-dependencies) | Geändert |
+| 1.2.2019 | [Hinzufügen eines Gasts zu einem Team](/MicrosoftTeams/add-guests) | Geändert |
+| 1.2.2019 | [Administratoreinstellungen für Apps in Microsoft Teams](/MicrosoftTeams/admin-settings) | Geändert |
+| 1.2.2019 | [Bearbeiten von Gastbenutzerinformationen](/MicrosoftTeams/edit-guests-information) | Geändert |
+| 1.2.2019 | [Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team](/MicrosoftTeams/guest-access-powershell) | Geändert |
+| 1.2.2019 | [Prüfliste für den Microsoft Teams-Gastzugriff](/MicrosoftTeams/guest-access-checklist) | Geändert |
+| 1.2.2019 | [Gastzugriff in Microsoft Teams](/MicrosoftTeams/guest-access) | Geändert |
+| 1.2.2019 | [Gastfunktionalität](/MicrosoftTeams/guest-experience) | Geändert |
+| 1.2.2019 | [Beitritt eines Gasts zu einem Team](/MicrosoftTeams/guest-joins) | Geändert |
+| 1.2.2019 | [Verwalten des Gastzugriffs in Microsoft Teams](/MicrosoftTeams/manage-guests) | Geändert |
+| 1.2.2019 | [Verwalten von Teams im Admin Center für Microsoft Teams und Skype for Business](/MicrosoftTeams/manage-teams-in-modern-portal). | Geändert |
+| 1.2.2019 | [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](/MicrosoftTeams/set-up-guests) | Geändert |
+| 1.2.2019 | [Anzeigen von Gastbenutzern in einem Team](/MicrosoftTeams/view-guests) | Geändert |
+| 1.2.2019 | [Verwaltung des externen Zugriffs (Verbund) in Microsoft Teams](/MicrosoftTeams/manage-external-access) | hinzugefügt |
+| 1.2.2019 | [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](/MicrosoftTeams/location-based-routing-configure-network-settings) | hinzugefügt |
+| 1.2.2019 | [Aktivieren des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-enable) | hinzugefügt |
+| 1.2.2019 | [Planen des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-plan) | hinzugefügt |
+| 1.2.2019 | [Terminologie für das standortbasierte Routing](/MicrosoftTeams/location-based-routing-terminology) | hinzugefügt |
+| 1.2.2019 | [Endbenutzer-Schulungen für Microsoft Teams](/MicrosoftTeams/enduser-training) | Geändert |
+| 1.2.2019 | [Von einem Kursleiter durchgeführte Schulung und Videos für Microsoft Teams-Administratoren](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Geändert |
+| 1.2.2019 | [Erste Schritte mit Vorlagen für Teams im Einzelhandel](/MicrosoftTeams/get-started-with-retail-teams-templates) | hinzugefügt |
+| 1.2.2019 | [Erste Schritte mit Vorlagen für Teams im Einzelhandel](/MicrosoftTeams/get-started-with-retail-teams-templates) | Geändert |
+
+
+## <a name="week-of-february-04-2019"></a>Woche vom 4. Februar 2019
+
+
+| Veröffentlicht am |Titel des Themas | Änderung |
+|------|------------|--------|
+| 4.2.2019 | [Erste Schritte mit Microsoft Teams-Vorlagen für das Gesundheitswesen](/MicrosoftTeams/healthcare/healthcare-templates) | hinzugefügt |
+| 4.2.2019 | [Quality of Service in Microsoft Teams](/MicrosoftTeams/qos-in-teams) | Geändert |
+| 4.2.2019 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 4.2.2019 | [Erste Schritte mit Microsoft Teams-Vorlagen](/MicrosoftTeams/get-started-with-teams-templates) | Geändert |
+| 5.2.2019 | [Interaktion von Exchange und Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | Geändert |
+| 5.2.2019 | [Quality of Service in Microsoft Teams](/MicrosoftTeams/qos-in-teams) | Geändert |
+| 5.2.2019 | [Cloud-Video-Interoperabilität für Microsoft Teams](/MicrosoftTeams/cloud-video-interop) | Geändert |
+| 5.2.2019 | [Koexistenz mit Skype for Business](/MicrosoftTeams/coexistence-chat-calls-presence) | Geändert |
+| 5.2.2019 | [Anrufanalyse- und Anrufqualitäts-Dashboard](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | Geändert |
+| 5.2.2019 | [Erste Schritte mit Microsoft Teams-Vorlagen](/MicrosoftTeams/get-started-with-teams-templates) | Geändert |
+| 5.2.2019 | [Implementieren von QoS und Überwachung der Anrufanalyse in Microsoft Teams](/MicrosoftTeams/monitor-call-quality-qos) | Geändert |
+| 5.2.2019 | [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](/MicrosoftTeams/prepare-network) | Geändert |
+| 5.2.2019 | [Microsoft Teams | Nur Upgrade, Inselmodus, Interop-Richtlinie](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Geändert |
+| 5.2.2019 | [Vorbereiten des Netzwerks für Microsoft Teams|  Port-Firewall-Anforderungen](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | Geändert |
+| 6.2.2019 | [Vorbereiten der Bereitstellung des Microsoft Teams-Cloud Voice-Diensts](/MicrosoftTeams/1-onboard-prepare-my-service) | Geändert |
+| 6.2.2019 | [Microsoft Teams: Häufig gestellte Fragen | Besprechungs-, Konferenz-, Anrufmöglichfunktionen](/MicrosoftTeams/faq-journey) | Geändert |
+| 6.2.2019 | [Verwenden des Add-Ins für Microsoft Teams-Besprechungen in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Geändert |
+| 6.2.2019 | [Autorisieren des Gastzugriffs in Microsoft Teams](/MicrosoftTeams/teams-dependencies) | Geändert |
+| 6.2.2019 | [Willkommen bei Microsoft Teams](/MicrosoftTeams/teams-overview) | Geändert |
+| 6.2.2019 | [Schnellstart – Administratoren von Microsoft Teams Education](/MicrosoftTeams/teams-quick-start-edu) | Geändert |
+| 6.2.2019 | [Ändern der Einstellungen für eine Audiokonferenzbrücke](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | Geändert |
+| 6.2.2019 | [Konfigurieren der Desktopfreigabe in Microsoft Teams](/MicrosoftTeams/configure-desktop-sharing) | Geändert |
+| 6.2.2019 | [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](/MicrosoftTeams/configure-skype-meetings-app-to-work-with-teams) | Geändert |
+| 6.2.2019 | [Schnellstarthandbuch – Konfigurieren von Anrufplänen in Microsoft Teams](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | Geändert |
+| 6.2.2019 | [Chat, Teams, Kanäle und Apps in Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Geändert |
+| 6.2.2019 | [Verwalten Ihrer Geräte in Microsoft Teams](/MicrosoftTeams/device-management) | Geändert |
+| 6.2.2019 | [Anrufanalyse- und Anrufqualitäts-Dashboard](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | Geändert |
+| 6.2.2019 | [Migration zum direkten Routing](/MicrosoftTeams/direct-routing-migrating) | Geändert |
+| 6.2.2019 | [Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | Geändert |
+| 6.2.2019 | [Bearbeiten von Gastbenutzerinformationen](/MicrosoftTeams/edit-guests-information) | Geändert |
+| 6.2.2019 | [E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen in Microsoft Teams ändern](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | Geändert |
+| 6.2.2019 | [Verwalten von Microsoft Teams-Features in Ihrer Office 365-Organisation](/MicrosoftTeams/enable-features-office-365) | Geändert |
+| 6.2.2019 | [Aktivieren und Deaktivieren der bei geänderten Audiokonferenzeinstellungen gesendeten E-Mails in Microsoft Teams](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | Geändert |
+| 6.2.2019 | [Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung in Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | Geändert |
+| 6.2.2019 | [Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | Geändert |
+| 6.2.2019 | [Überwachen der Verwendung und Feedback in Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | Geändert |
+| 6.2.2019 | [Prüfliste für den Microsoft Teams-Gastzugriff](/MicrosoftTeams/guest-access-checklist) | Geändert |
+| 6.2.2019 | [Verwenden der Inlineübersetzung von Nachrichten in Microsoft Teams](/MicrosoftTeams/inline-message-translation-teams) | Geändert |
+| 6.2.2019 | [Kommunizieren mit Microsoft Teams-Benutzern in einer anderen Organisation](/MicrosoftTeams/let-your-teams-users-communicate-with-other-people) | Geändert |
+| 6.2.2019 | [Verwalten des Gastzugriffs in Microsoft Teams](/MicrosoftTeams/manage-guests) | Geändert |
+| 6.2.2019 | [Verwalten von Teams im Admin Center für Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Geändert |
+| 6.2.2019 | [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | Geändert |
+| 6.2.2019 | [Verwalten der Audiokonferenz-Einstellungen für einen Benutzer in Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | Geändert |
+| 6.2.2019 | [Verwalten der Audiokonferenz-Einstellungen für Ihre Organisation in Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams). | Geändert |
+| 6.2.2019 | [Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | Geändert |
+| 6.2.2019 | [Verwalten von Besprechungseinstellungen in Microsoft Teams](/MicrosoftTeams/meeting-settings-in-teams) | Geändert |
+| 6.2.2019 | [Telefonnummern für Audiokonferenzen in Microsoft Teams](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | Geändert |
+| 6.2.2019 | [Planen der Governance in Microsoft Teams – Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | Geändert |
+| 6.2.2019 | [Planen der Lebenszyklusverwaltung in Microsoft Teams – Microsoft Teams](/MicrosoftTeams/plan-teams-lifecycle) | Geändert |
+| 6.2.2019 | [Leitfaden zur Überprüfung der Qualität der Umgebung für Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | Geändert |
+| 6.2.2019 | [Zurücksetzen einer Konferenzkennung für einen Benutzer in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | Geändert |
+| 6.2.2019 | [Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | Geändert |
+| 6.2.2019 | [Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | Geändert |
+| 6.2.2019 | [Anzeigen einer Liste der für Audiokonferenzen aktivierten Benutzer in Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | Geändert |
+| 6.2.2019 | [Anzeigen, Ändern und Zurücksetzen einer Konferenzkennung, die einem Benutzer zugewiesen ist, in Microsoft Teams](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams) | Geändert |
+| 6.2.2019 | [Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | Geändert |
+| 6.2.2019 | [Einrichten von automatischen Telefonzentralensprachen für Audiokonferenzen in Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | Geändert |
+| 6.2.2019 | [Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | Geändert |
+| 6.2.2019 | [Festlegen der Länge der PIN für Audiokonferenzbesprechungen in Microsoft Teams](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | Geändert |
+| 6.2.2019 | [Einrichten von Anrufanalyse](/MicrosoftTeams/set-up-call-analytics) | Geändert |
+| 6.2.2019 | [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](/MicrosoftTeams/set-up-guests) | Geändert |
+| 6.2.2019 | [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | Geändert |
+| 6.2.2019 | [Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?](/MicrosoftTeams/special-character-restrictions-in-policy-names) | Geändert |
+| 6.2.2019 | [Starten einer Audiokonferenz per Telefon ohne PIN in Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | Geändert |
+| 6.2.2019 | [Microsoft Teams – Gerätenutzungsbericht](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | Geändert |
+| 6.2.2019 | [Microsoft Teams – Analyse und Berichterstellung](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | Geändert |
+| 6.2.2019 | [Microsoft Teams – Nutzungsbericht](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | Geändert |
+| 6.2.2019 | [Microsoft Teams – Benutzeraktivitätsbericht](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Geändert |
+| 6.2.2019 | [Übersicht über Teams und Kanäle in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Geändert |
+| 6.2.2019 | [Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Geändert |
+| 6.2.2019 | [Einrichten von Live-Ereignissen in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Geändert |
+| 6.2.2019 | [Überlegungen zum Teams Only-Modus](/MicrosoftTeams/teams-only-mode-considerations) | Geändert |
+| 6.2.2019 | [Übersicht über PowerShell für Microsoft Teams](/MicrosoftTeams/teams-powershell-overview) | Geändert |
+| 6.2.2019 | [Verwenden der Verzeichnissuche in Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | Geändert |
+| 6.2.2019 | [Übertragen von Telefonnummern an Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365) | Geändert |
+| 6.2.2019 | [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | Geändert |
+| 6.2.2019 | [Basis-Upgrade PowerShell| Microsoft Teams| Interop-Richtlinie für das Grant-Upgrade](/MicrosoftTeams/upgrade-basic-powershell) | Geändert |
+| 6.2.2019 | [Upgrade-Prüfliste| Upgrade von Skype for Business auf Microsoft Teams | Grundlegende Schritte](/MicrosoftTeams/upgrade-basic) | Geändert |
+| 6.2.2019 | [Info zum Upgrade-Framework](/MicrosoftTeams/upgrade-framework) | Geändert |
+| 6.2.2019 | [Vorbereitungen für das Microsoft Teams-Upgrade|  Checkliste für das Onboarding-Rollout](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | Geändert |
+| 6.2.2019 | [Upgrade Pro für Microsoft Teams | Roadmap](/MicrosoftTeams/upgrade-pro) | Geändert |
+| 6.2.2019 | [Upgrade von Skype for Business Online auf Microsoft Teams | Bereitstellen](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | Geändert |
+| 6.2.2019 | [Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | Geändert |
+| 6.2.2019 | [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](/MicrosoftTeams/using-admin-roles) | Geändert |
+| 6.2.2019 | [Aufzeichnung einer Teams-Cloudbesprechung](/MicrosoftTeams/cloud-recording) | Geändert |
+| 6.2.2019 | [Audiokonferenz mit Minutenabrechnung](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Geändert |
+| 6.2.2019 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 6.2.2019 | [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | Geändert |
+| 6.2.2019 | [Erste Schritte mit Microsoft Teams-Vorlagen](/MicrosoftTeams/get-started-with-teams-templates) | Geändert |
+| 6.2.2019 | [Erste Schritte mit Microsoft Teams-Vorlagen für das Gesundheitswesen](/MicrosoftTeams/healthcare/healthcare-templates) | Geändert |
+| 6.2.2019 | [Was sind Messaging-Richtlinien in Teams?](/MicrosoftTeams/messaging-policies-in-teams) | Geändert |
+| 7.2.2019 | [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) | hinzugefügt |
+| 7.2.2019 | Kauf und Bereitstellung von Microsoft Teams-IP-Telefonen | entfernt |
+| 7.2.2019 | [Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | Geändert |
+| 7.2.2019 | [Telefone für Microsoft Teams](/MicrosoftTeams/phones-for-teams) | Geändert |
+| 7.2.2019 | [Interaktion von Exchange und Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | Geändert |
+| 7.2.2019 | [Konfigurieren eines Session Border Controllers für mehrere Mandanten](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Geändert |
+| 7.2.2019 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+| 7.2.2019 | [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](/MicrosoftTeams/location-based-routing-configure-network-settings) | Geändert |
+| 7.2.2019 | [Aktivieren des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-enable) | Geändert |
+| 7.2.2019 | [Planen des standortbasierten Routings für direktes Routing](/MicrosoftTeams/location-based-routing-plan) | Geändert |
+| 7.2.2019 | [Terminologie für das standortbasierte Routing](/MicrosoftTeams/location-based-routing-terminology) | Geändert |
+| 8.2.2019 | [Koexistenz mit Skype for Business](/MicrosoftTeams/coexistence-chat-calls-presence) | Geändert |
+| 8.2.2019 | [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Geändert |
