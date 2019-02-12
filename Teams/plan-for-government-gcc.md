@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
-ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
+ms.openlocfilehash: 24ceb6ff76bb84f8de9d9248fc4c10a73ee454f4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27544200"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890764"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 
@@ -74,14 +74,14 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige
 |-----------------------------|-----------------------------|----------------|
 | Base | Anmeldung | Verfügbar |
 | | Anwesenheit | Verfügbar |
-| | Einheitliche Anwesenheit (Skype für Unternehmen und Teams unified) | Klicken Sie auf der Regierung Bestand |
+| | Einheitliche Anwesenheit (Skype für Unternehmen und Teams unified) | Verfügbar |
 | Aktivität | Feed | Verfügbar |
 |  | Meine Aktivität | Verfügbar |
 | Chat | Unterhaltung | Verfügbar |
 | | Dateien | Verfügbar |
 | | Organigramm | Verfügbar |
 | | Aktivität | Verfügbar |
-| | InterOp (1:1 Teams-Skype für Business Chat) | Klicken Sie auf der Regierung Bestand |
+| | InterOp (1:1 Teams-Skype für Business Chat) | Verfügbar |
 | Teams | Kanalnachricht | Verfügbar |
 | | Channel-Dateien | Verfügbar |
 | | Registerkarte ' OneNote ' | Klicken Sie auf der Regierung Bestand |
@@ -123,15 +123,15 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige
 | | eDiscovery für Anrufe und Besprechungen | Verfügbar |
 | | Organisation automatische Telefonzentrale | Verfügbar |
 | | Wenden Sie Skype Consumer - Teams | Verfügbar |
-| Dateien | Letzte | Verfügbar |
-| | Microsoft Teams | Verfügbar |
-| Anmelden | App-Store | Klicken Sie auf der Regierung Bestand |
+| Dateien | aktuell | Verfügbar |
+| | Microsoft Teams | Verfügbar |
+| abspeichern | App-Store | Klicken Sie auf der Regierung Bestand |
 | Suche | Nachrichten | Verfügbar |
 | | Kontakte | Verfügbar |
 | | Dateien | Verfügbar |
 | | Schrägstrich-Befehle | Verfügbar |
-| Compliance | Compliance-Inhaltssuche | Verfügbar |
-| | Aufbewahrung | Verfügbar |
+| Beachtung | Compliance-Inhaltssuche | Verfügbar |
+| | Speicherung | Verfügbar |
 | | Audit Log-Suche | Verfügbar |
 | | Rechtliche Aufbewahrungspflicht | Verfügbar |
 | | eDiscovery | Verfügbar |

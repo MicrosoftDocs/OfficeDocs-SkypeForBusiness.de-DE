@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Zusammenfassung: Informationen Sie zu Skype für die Integration mit Exchange und SharePoint Business Server 2015.'
-ms.openlocfilehash: f0437e4a93bfd897fb04e29ce2729a30789ce889
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: 6bd76957a18c8cfcbff02bf1d92f944bb76cb8b2
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690452"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890717"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integration mit Exchange und SharePoint
 
@@ -47,7 +47,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
 |Teilnahme an Onlinebesprechungen in mobilen Clients  <br/> |Weitere Informationen finden Sie unter [Bereitstellen von Mobilität](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
 |Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender  <br/> ||
 |Kontaktliste (über den einheitlichen Kontaktspeicher)  <br/> |Erfordert Exchange 2016 oder Exchange 2013.  <br/> Ein Lync 2013 oder Skype für Business desktop Client ist erforderlich.  <br/>  Weitere Informationen finden Sie unter [Konfigurieren von Skype für Business Server 2015 einheitlichen Kontaktspeicher verwenden](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
-|Hochauflösende Foto des Kontakts in Lync 2013-Client, Skype für Business-Client und Lync Web App.  <br/> |Erfordert Exchange 2016 oder Exchange 2013.  <br/> Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von hoch auflösenden Fotos in Skype für Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
+|Hochauflösende Foto des Kontakts in Lync 2013-Client, Skype für Business-Client und Lync Web App.  <br/> |Erfordert Exchange 2016 oder Exchange 2013.  <br/> Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von hoch auflösenden Fotos in Skype für Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Für Fotos auf die Skype für Geschäfts-app für MAC und Mobile muss Integration zwischen Skype für Business Server 2015 und Exchange Server eingerichtet werden, wie unter [Konfigurieren von partneranwendungen in Skype für Business Server und Exchange Server](../deploy/integrate-with-exchange-server/configure-partner-applications.md)beschrieben. <br/> |
 |Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden. Weitere Informationen finden Sie unter [Skype für Business hybridlösungen](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> ||
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> |Erfordert Exchange 2016 oder Exchange 2013.  <br/> Weitere Informationen finden Sie unter [Prüfliste für die Bereitstellung für die Archivierung](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
@@ -67,7 +67,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
 |Teilnehmen an Onlinebesprechungen in mobilen Clients  <br/> ||
 |Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender  <br/> ||
 |Kontaktliste (über den einheitlichen Kontaktspeicher).  <br/> |Nur Lync Server 2013. Ein Lync 2013 oder Skype für Business desktop Client ist erforderlich.  <br/> Weitere Informationen finden Sie unter [Konfigurieren von Skype für Business Server 2015 einheitlichen Kontaktspeicher verwenden](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
-|Hochauflösende Foto des Kontakts in Lync 2013-Client, Skype für Business-Client und Lync Web App.  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von hoch auflösenden Fotos in Skype für Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
+|Hochauflösende Foto des Kontakts in Lync 2013-Client, Skype für Business-Client und Lync Web App.  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von hoch auflösenden Fotos in Skype für Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Für Fotos auf die Skype für Geschäfts-app für MAC und Mobile muss Integration zwischen Skype für Business Server 2015 und Exchange Server eingerichtet werden, wie in [Configure Integration zwischen lokalen Skype für Business Server und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md)beschrieben. <br/> |
 |Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden. Weitere Informationen finden Sie unter [Skype für Business hybridlösungen](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Verpasste Unterhaltungsverlauf und Anrufprotokolle werden in Exchange-Postfach des Benutzers geschrieben.  <br/> ||
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> |Weitere Informationen finden Sie unter [Prüfliste für die Bereitstellung für die Archivierung](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |

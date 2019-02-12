@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Verwalten von Resource-Konten in Microsoft-Teams
-ms.openlocfilehash: 53d335b4f345967494767445ec206efcb6f78388
-ms.sourcegitcommit: e091201f2bcb86bee011e7ac0de741a6c673cedd
+ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770716"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890756"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>Verwalten von Ressourcenkonten in Teams 
 
@@ -33,7 +33,7 @@ In Microsoft-Teams, os Skype für Business Online, jeden Anruf Warteschlange ode
 
 Erste Schritte beim es ist wichtig, sollten Sie einige Dinge bedenken:
   
-- Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die zugewiesen sind, wirkt sich auf die Anzahl der Dienst Zahlen, die für die Ressourcenkonten zugewiesenen Warteschlangen oder automatische Telefonzentralen Aufrufen bei verfügbar sind. Die Anzahl der Ressourcenkonten ab können ist abhängig von der Anzahl der **Telefonsystem** und **Audiokonferenzen** Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zu Lizenzierung finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die zugewiesen sind, wirkt sich auf die Anzahl der Dienst Zahlen, die für die Ressourcenkonten zugewiesenen Warteschlangen oder automatische Telefonzentralen Aufrufen bei verfügbar sind. Die Anzahl der Ressourcenkonten ab können ist abhängig von der Anzahl der **Telefonsystem** und **Audiokonferenzen** Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zu Lizenzierung finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
     > [!NOTE]
     > Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, sie benötigen eine Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder Office 365 aufrufen Plans. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -89,19 +89,19 @@ Klicken Sie abschließend auf **Speichern**.
 
 Für Implementierungen sind, Hybrid mit Skype für Business Server:
 
-[Planen von Cloud-Telefonzentrale](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
+[Planen von Cloud-Telefonzentrale](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[Konfigurieren von Cloud-Telefonzentralen](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
+[Konfigurieren von Cloud-Telefonzentralen](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 Für Implementierungen in Teams oder Skype für Business Online:
 
-[Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants.md)
+[Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants)
 
-[Einrichten einer automatischen Telefonzentrale für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Einrichten einer automatischen Telefonzentrale für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Beispiel für Small Business - richten Sie eine automatische Telefonzentrale](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Erstellen einer Telefonsystem-Anrufwarteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+[Erstellen einer Telefonsystem-Anrufwarteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Neue CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
