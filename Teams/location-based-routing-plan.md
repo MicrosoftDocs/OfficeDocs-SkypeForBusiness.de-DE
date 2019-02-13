@@ -1,5 +1,5 @@
 ---
-title: Planen Sie die Standortbasierte Weiterleitung für direkten Routing
+title: Planen des standortbasierten Routings für direktes Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e11cb47aeeaf0c88ba0f6179f99195af9a7473
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
+ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771032"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29967456"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>Planen Sie die Standortbasierte Weiterleitung für direkten Routing
+# <a name="plan-location-based-routing-for-direct-routing"></a>Planen des standortbasierten Routings für direktes Routing
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -30,7 +30,7 @@ In einigen Ländern und Regionen ist es nicht zulässig, die den Anbieter (Publi
 
 Hier erhalten Sie eine Übersicht über speicherortbasierte Routing und Hinweise zur einfacheren dafür zu planen. Wenn Sie sind, zum Anwenden und standortbasierte Routing aktivieren soweit, finden Sie unter:
 - [Bereitstellen von Netzwerkeinstellungen für standortbasierte Routing](location-based-routing-configure-network-settings.md)
-- [Speicherortbasierte Routing für die direkte Weiterleitung aktivieren](location-based-routing-enable.md)
+- [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
 
 Speicherortbasierte Routing ist ein Feature, mit dem Sie gebührenpflichtige Umgehung basierend auf Gruppenrichtlinien und geografischen Standort des Benutzers zum Zeitpunkt der eine eingehende oder ausgehende PSTN-Anruf einschränken kann. 
 
@@ -235,7 +235,7 @@ Die folgenden Teams Clients werden unterstützt:
 - Teams mobilen Clients (iOS und Android)
 - Teams IP-Telefone
 
-Skype für Business Clients werden nicht unterstützt.
+Die WebClient-Teams und Skype für Business Clients werden nicht unterstützt.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Vom standortbasierten Routing nicht unterstützte Funktionen
 
@@ -251,5 +251,5 @@ Ein speicherortbasierte Routing aktiviert Benutzer auf eine PSTN-Anruf ist nicht
 Wechseln Sie zur [Netzwerkeinstellungen für standortbasierte Routing konfigurieren](location-based-routing-configure-network-settings.md).
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Speicherortbasierte Routing für die direkte Weiterleitung aktivieren](location-based-routing-enable.md)
-- [Speicherortbasierte Routing Terminologie](location-based-routing-terminology.md)
+- [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
+- [Terminologie für das standortbasierte Routing](location-based-routing-terminology.md)

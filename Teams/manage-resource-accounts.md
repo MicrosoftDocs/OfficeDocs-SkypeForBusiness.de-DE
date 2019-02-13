@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Ressourcenkonten in Teams
+title: Verwalten von Ressourcenkonten in Microsoft Teams
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Verwalten von Resource-Konten in Microsoft-Teams
-ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 3bab9f4c76a7bc5b0baf534b17ca3f5abaf11478
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890756"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964410"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>Verwalten von Ressourcenkonten in Teams 
 
@@ -95,7 +95,7 @@ Für Implementierungen sind, Hybrid mit Skype für Business Server:
 
 Für Implementierungen in Teams oder Skype für Business Online:
 
-[Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants)
+[Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants.md)
 
 [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

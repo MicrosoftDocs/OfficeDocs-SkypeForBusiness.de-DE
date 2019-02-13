@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349529"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964426"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
@@ -211,7 +211,7 @@ Zum Umgehen des Proxyservers erforderliche Konfiguration variiert je nach Herste
 
 Manche Serverhersteller Proxy enthalten, dass ein automatisierter Prozess zur Sicherstellung der Konfigurations auf dem aktuellen Stand ist. Wenn Ihr Hersteller dieser automatische Prozess zur Verfügung steht, können Sie eine aktualisierte Datei PAC aus herunterladen <https://aka.ms/o365proxies>.
 
-[Proxyserver für Skype für Unternehmen Online und Teams](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Proxyserver für Teams oder Skype für Unternehmen Online und Teams](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Firewalls
 
@@ -354,7 +354,7 @@ Die folgende Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit 
 | | | [Tool zur Bewertung der Netzwerk](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | Führen Sie Netzwerk-Bewertung | [Bereitschaft des Netzwerks](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | Plan für die Qualität der Endpunkt | Aktualisieren der Endpunkt firewalls | [Office 365-URLs und IP-Adressen](https://aka.ms/o365ips) |
-| | Überprüfen Sie die erforderliche software | [Beziehen von Clients für Microsoft Teams](get-clients.md) |
+| | Überprüfen Sie die erforderliche software | [Clients für Microsoft Teams abrufen](get-clients.md) |
 | | Implementieren der Endpunkt Wi-Fi-Empfehlungen | Wenden Sie sich an von Drittanbietern |
 | | Durchführen von Persona zum Zuordnen von Geräten <br/> Bereitstellen von Geräten und testen diese | [Client- und Gerätefunktionen - Bereitschaft Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Gerät-Katalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 

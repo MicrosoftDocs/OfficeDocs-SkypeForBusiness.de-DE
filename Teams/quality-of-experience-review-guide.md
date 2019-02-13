@@ -1,5 +1,5 @@
 ---
-title: Quality of Experience überprüfen Handbuch für Microsoft-Teams
+title: Leitfaden zur Überprüfung der Qualität der Umgebung für Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754826"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964450"
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
@@ -1172,13 +1172,13 @@ _Abbildung 29 – HTTP-Proxy-Nutzung durch die Erstellung und Subnetz_
 
 ##### <a name="remediation"></a>Wartung
 
-Es [wird empfohlen](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) , dass Sie immer Proxys für Skype für Unternehmen und Teams, insbesondere Mediendatenverkehr umgehen. Proxys sicherer nicht Skype für Unternehmen, da seine Datenverkehr bereits verschlüsselt ist. Durch Latenz und Paketverluste kann es in der Umgebung zu Leistungsproblemen kommen. Probleme wie diese führt eine negative Erfahrung mit Audio-, Video- und Bildschirmfreigabe, wobei in Echtzeit Datenströme wichtig sind.
+Es [wird empfohlen](proxy-servers-for-skype-for-business-online.md) , dass Sie immer Proxys für Skype für Unternehmen und Teams, insbesondere Mediendatenverkehr umgehen. Proxys sicherer nicht Skype für Unternehmen, da seine Datenverkehr bereits verschlüsselt ist. Durch Latenz und Paketverluste kann es in der Umgebung zu Leistungsproblemen kommen. Probleme wie diese führt eine negative Erfahrung mit Audio-, Video- und Bildschirmfreigabe, wobei in Echtzeit Datenströme wichtig sind.
 
 Die häufigste Ursache für HTTP-Verwendung fehlt Ausnahmeregeln in Proxys. Umgehen Sie mithilfe der Gebäude oder Subnetz, sofern Sie schnell ermitteln können, welche Proxy für Medien konfiguriert werden muss.
 
 Stellen Sie sicher, dass die erforderlichen [Office 365 FQDNs](https://aka.ms/o365ips) sind White im Proxy.
 
-Weitere Informationen zum Verwenden von Proxys mit Skype für Business Online und Teams finden Sie unter [in diesem Artikel](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
+Weitere Informationen zum Verwenden von Proxys mit Skype für Business Online und Teams finden Sie unter [in diesem Artikel](proxy-servers-for-skype-for-business-online.md).
 
 ## <a name="endpoint-investigations"></a>Endpunkt Untersuchungen
 
@@ -1337,11 +1337,11 @@ Weitere Informationen finden Sie unter [in diesem Artikel zur Leistung von Medie
 
 -   [Einführung in Anruf Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Einrichten von Anrufen Analytics](set-up-call-analytics.md)
+-   [Einrichten von Anrufanalyse](set-up-call-analytics.md)
 
 -   [Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Wenden Sie Analytics
 
@@ -1357,7 +1357,7 @@ Weitere Informationen finden Sie unter [in diesem Artikel zur Leistung von Medie
 
 -   [Office 365 Annahme Inhaltspaket](https://www.microsoft.com/microsoft-365/blog/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
--   [Verwendungsanalyse für Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
+-   [Analysen zur Anwendung von Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
 
 -   [Skype for Business Online-Berichterstellung](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
