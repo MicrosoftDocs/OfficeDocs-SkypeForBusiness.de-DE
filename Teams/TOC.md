@@ -16,14 +16,14 @@
 <!-- ============================================================ -->
 
 
-# [Chat, Teams, Kanäle, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Übersicht über Teams und Kanäle](teams-channels-overview.md)
 ## [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](assign-roles-permissions.md)
-## [Bewährte Methoden zum Organisieren von Teams in Teams](best-practices-organizing.md)
+## [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 ## [Erstellen Sie ein Team Org geltende in Teams](create-an-org-wide-team.md)
 ## [Was sind Richtlinien Messaging?](messaging-policies-in-teams.md)
 ## [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md)
-## [Erste Schritte mit Microsoft-Teams Gesundheitswesen Vorlagen](healthcare/healthcare-templates.md)
+## [Erste Schritte mit Microsoft Teams-Vorlagen für das Gesundheitswesen](healthcare/healthcare-templates.md)
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Anwesenheit](presence-admins.md)
 ## [Kommunizieren Sie mit Benutzern in anderen Organisationen Teams](let-your-teams-users-communicate-with-other-people.md)
@@ -38,7 +38,7 @@
 ### [Verwenden Sie integrierte und benutzerdefinierte Registerkarten](built-in-custom-tabs.md)
 ### [Verwenden Sie Office 365 und benutzerdefinierte Konnektoren](Office-365-custom-connectors.md)
 ### [Veröffentlichen von apps zum Teams Mandanten Apps-Katalog](tenant-apps-catalog-teams.md)
-### [Konfigurieren der Skype Besprechungen App entwickelt Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 
@@ -58,10 +58,10 @@
 
 ## [Verwalten von Teams](using-admin-roles.md)
 ### [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
-### [Verwalten von Teams während der Übergang zur neuen Microsoft-Teams-Verwaltungskonsole](manage-teams-skypeforbusiness-admin-center.md)
-### [Verwalten von Teams in der Verwaltungskonsole von Microsoft-Teams](manage-teams-in-modern-portal.md)
+### [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+### [Verwalten von Teams im Admin Center für Microsoft Teams](manage-teams-in-modern-portal.md)
 ### [Weisen Sie Team-Besitzer und Membern im Teams](assign-roles-permissions.md)
-### [Konfigurieren der Skype Besprechungen App entwickelt Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Kommunizieren Sie mit Benutzern in anderen Organisationen Teams](let-your-teams-users-communicate-with-other-people.md)
 ### [Verwenden von Inline-Nachricht Übersetzung](inline-message-translation-teams.md)
 ### [Verwenden der Verzeichnissuche in Microsoft Teams](teams-scoped-directory-search.md)
@@ -76,6 +76,7 @@
 ### Machen Sie sich bereit Rollout Teams
 #### [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
 #### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
+#### [Proxyserver für Teams oder Skype für Business Online](proxy-servers-for-skype-for-business-online.md)
 #### [Grenzwerte und Spezifikationen für Teams](limits-specifications-teams.md)
 #### [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
 #### [Beziehen von Tools zur Unterstützung eines Rollouts von Teams](rollout-tools.md)
@@ -98,7 +99,7 @@
 #### [Hardwareanforderungen für die app Teams](hardware-requirements-for-the-teams-app.md)
 #### [Installieren von Teams, die MSI-Datei](msi-deployment.md)
 #### [Aktivieren Sie in Ihrer Organisation Teams](Office-365-set-up.md)
-#### [URLs und IP-Adressbereiche von Office 365](office-365-urls-ip-address-ranges.md)
+#### [URLs und IP-Adressbereiche für Office 365](office-365-urls-ip-address-ranges.md)
 #### [Bereitstellen des Teams für Fläche Hub](teams-surface-hub.md)
 
 ### Lizenzierung
@@ -114,7 +115,7 @@
 <!-- ============================================================ -->
 
 
-# [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)
+# [Besprechungen und Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Verwalten von Einstellungen für Besprechungen](meeting-settings-in-teams.md)
 ## [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -268,7 +269,7 @@
 <!-- ============================================================ -->
 
 
-# [Cloud-VoIP](cloud-voice-landing-page.md)
+# [Cloud Voice](cloud-voice-landing-page.md)
 ## Telefonsystem
 ### [Was ist Telefonsystem](what-is-phone-system-in-office-365.md)
 ### [Dies erhalten Sie mit Telefonsystem](here-s-what-you-get-with-phone-system.md)
@@ -304,10 +305,10 @@
 ### [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 ### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
 ### Standortbasiertes Routing
-#### [Speicherortbasierte Routing Terminologie](location-based-routing-terminology.md)
-#### [Planen Sie die Standortbasierte Weiterleitung für direkten Routing](location-based-routing-plan.md)
-#### [Konfigurieren von Netzwerkeinstellungen für standortbasierte Routing](location-based-routing-configure-network-settings.md)
-#### [Speicherortbasierte Routing für die direkte Weiterleitung aktivieren](location-based-routing-enable.md)
+#### [Terminologie für das standortbasierte Routing](location-based-routing-terminology.md)
+#### [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
+#### [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
+#### [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
 ### Technische Referenz für das direkte Routing
 #### [Trunkfailover bei ausgehenden Anrufen](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -504,7 +505,7 @@
 #### [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](set-up-communications-credits-for-your-organization.md)
 #### [Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft-Teams, Online aufrufen fließt](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams-Onlineanruf-Datenflüsse](microsoft-teams-online-call-flows.md)
 
 ## Ihnen praktische Leitfäden für große Organisationen
 ### [Lernprogramm: Einwählen, Teams](Tutorial-calling-in-teams.yml)
@@ -574,6 +575,7 @@
 ### [Verwenden von Ihrem Dienst](upgrade-operate-my-service.md)
 ### [Monitorqualität](upgrade-monitor-quality.md)
 ### [Erweitern Sie den Dienst](upgrade-enhance-my-service.md)
+
 ## [Tutorial: Reise von Skype for Business zu Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Häufig gestellte Fragen](FAQ-journey.md)
 ## Weitere Informationen
@@ -631,9 +633,9 @@
 #### [Quality of Experience überprüfen Guide](quality-of-experience-review-guide.md)
 #### [Einrichten von QoS in Teams](QoS-in-Teams.md)
 #### [Implementieren von QoS und überwachen Sie die Anrufqualität](monitor-call-quality-qos.md)
-#### [Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Einrichten von Anrufen Analytics](set-up-call-analytics.md)
-#### [Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [Einrichten von Anrufanalyse](set-up-call-analytics.md)
+#### [Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 #### [Aktivieren und Verwenden des Anrufqualitäts-Dashboards](turning-on-and-using-call-quality-dashboard.md)
 #### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Datenstromklassifizierung im Anrufqualitäts-Dashboard](stream-classification-in-call-quality-dashboard.md)
@@ -642,12 +644,12 @@
 
 ## Microsoft Teams Education
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
-### [Ressourcen für Administratoren Education Teams](resources-teams-edu.md)
+### [Teams-Ressourcen für Administratoren in Bildungseinrichtungen](resources-teams-edu.md)
 ### [Microsoft Education Governance – häufig gestellte Fragen für Administratoren](plan-teams-governance-edu.md)
 
 ## Teams für Mitarbeiter firstline
 ### [Verwalten der app Schichten für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Erste Schritte mit Retail Teams Vorlagen](get-started-with-retail-teams-templates.md)
+### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 
 ## [Planen von Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Planen von Microsoft 365 Government - GCC hoch](plan-for-government-gcc-high.md)
