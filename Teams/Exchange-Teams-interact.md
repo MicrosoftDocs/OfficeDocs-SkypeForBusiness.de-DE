@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770900"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992817"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -46,7 +46,7 @@ Die folgende Tabelle enthält Informationen für Benutzer, für die Exchange Onl
 eDiscovery- <sup>2</sup> und rechtlichen Aufbewahrungspflicht für Konformität auf Channel Nachrichten wird für alle Hostingoptionen unterstützt.  
 <sup>3</sup> private Chatnachrichten Teams sind noch nicht für die rechtlichen Aufbewahrungspflicht für diese Hostingoption unterstützt.
 
-<sup>4</sup> Aufbewahrung ein Postfachs Schatten für den online-Benutzer verwendet, um Nachrichten speichern. [Microsoft-Teams unterstützt eDiscover für Teams Benutzer in einer hybriden Exchange-Umgebung](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> Aufbewahrung ein Postfachs Schatten für den online-Benutzer verwendet, um Nachrichten speichern. [Microsoft unterstützt die Teams eDiscovery für Teams Benutzer in einer hybriden Exchange-Umgebung](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
 
 <sup>5</sup> Teams Benutzer mit Exchange-Postfach verwenden Sie Voicemail mit Teams und Voicemail-Nachrichten in Outlook, aber Voicemail-Nachrichten empfangen kann lokal werden nicht zum Anzeigen oder wiedergegeben werden sollen, innerhalb des Teams-Clients verfügbar.
 
