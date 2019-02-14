@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Microsoft-Teams für die Fläche Hub
+title: Bereitstellen von Microsoft Teams für Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Konfigurieren von Admin-Einstellungen für Microsoft-Teams für Fläche Hub.
+description: Konfigurieren Sie die Administratoreinstellungen für Microsoft Teams für Surface Hub.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
@@ -18,75 +18,75 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
 ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 12/03/2018
 ms.locfileid: "27132003"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft-Teams für die Fläche Hub
+<a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft Teams für Surface Hub
 ======================================
 
-Vor der Bereitstellung von Microsoft-Teams für Microsoft Surface Hub Achten Sie darauf, dass Sie die Hardware, Betriebssystem und andere Voraussetzungen erfüllt sind. Weitere Informationen finden Sie im [Administratorhandbuch zu Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
+Bevor Sie Microsoft Teams für Microsoft Surface Hub bereitstellen, vergewissern Sie sich, dass die Hardware-, Betriebssystem- und anderen Anforderungen erfüllt sind. Weitere Informationen finden Sie im [Microsoft Surface Hub-Administratorhandbuch](https://docs.microsoft.com/surface-hub/).
 
 > [!NOTE]
-> Wenn Übergang von Skype für Business Online müssen Sie bestätigen, dass eine Lizenz Microsoft-Teams, die dem Benutzer zugeordnet ist.
+> Wenn Sie von Skype for Business Online wechseln, müssen Sie bestätigen, dass dem Benutzer eine Microsoft Teams-Lizenz zugewiesen ist.
 
-## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installieren von Teams für Fläche Hub aus dem Microsoft-Speicher 
+## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installieren von Teams für Surface Hub aus dem Microsoft Store 
 
-Diese Anweisungen sind für die Installation von Teams für Fläche Hub aus dem Microsoft Store. 
+Diese Anleitung bezieht sich auf die Installation von Teams für Surface Hub aus dem Microsoft Store. 
  
-1. Starten Sie den Microsoft-Speicher:<br>
-   a. Tippen Sie auf **Start** > **Alle Apps** > **Settings**.<br> b. Tippen Sie auf **Konto Fläche Hub-Gerät, Management**.<br>
-   c. Tippen Sie auf der linken Seite auf der Registerkarte **Apps und -Features** .<br> d. Tippen Sie auf der rechten Seite auf die Schaltfläche **Öffnen Store** . 
-2. Suchen Sie nach *Microsoft-Teams*, aus dem Microsoft Store. Die **Microsoft-Teams Fläche Hub** wird angezeigt. Tippen Sie auf die Schaltfläche **rufen Sie die app** zu installieren.  
-3. Wenn die Installation abgeschlossen ist, starten Sie Fläche Hub neu. 
+1. Öffnen Sie den Microsoft Store:<br>
+   a. Tippen Sie auf **Start** > **Alle Anwendungen** > **Einstellungen**.<br> b. Tippen Sie auf **Surface Hub-Gerätekonto, Verwaltung**.<br>
+   c. Tippen Sie auf der linken Seite auf die Registerkarte **Apps und Features**.<br> d. Tippen Sie auf der rechten Seite auf die Schaltfläche **Store öffnen**. 
+2. Suchen Sie *Microsoft Teams* im Microsoft Store. **Microsoft Teams für Surface Hub** wird angezeigt. Tippen Sie zum Installieren auf die Schaltfläche **App abrufen**.  
+3. Wenn die Installation abgeschlossen ist, starten Sie den Surface Hub neu. 
 
 > [!NOTE]
-> Führen Sie nicht tippen Sie auf aus dem Angebot Seite Speicher **zu starten** .
+> Tippen Sie nicht auf der Seite des Store-Eintrags auf **Starten**.
 
-## <a name="make-teams-the-default-calling-and-meetings-application"></a>Stellen Sie die Standardeinstellung Anruf- und Besprechungen Anwendung Teams
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>Festlegen von Teams als Standardanwendung für Anrufe und Besprechungen
  
-Es gibt zwei Optionen für die Anruf- und Besprechungen Anwendung Standardrichtlinie konfigurieren: 
+Es gibt zwei Möglichkeiten der Konfiguration der Standardanwendungsrichtlinie für Anrufe und Besprechungen: 
 
-- **Option 1**: Konfigurieren von über USB-Schlüssel. 
-- **Option 2**: über MDM wie Intune konfigurieren.
+- **Option 1**: Konfigurieren über USB-Stick. 
+- **Option 2**: Konfigurieren über MDM z. B. Intune.
  
-### <a name="option-1-configure-via-usb-key"></a>Option 1: Konfigurieren von über USB-Schlüssel 
+### <a name="option-1-configure-via-usb-key"></a>Option 1: Konfigurieren über USB-Stick 
  
-Die Pakete finden Sie auf dieser [Seite herunterladen](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Wählen Sie die entsprechenden für das Paket, das Sie planen, installieren und kopieren Sie ihn in einen USB-Schlüssel. Die richtigen .ppkg-Datei verwenden, hängt die Standardrichtlinie für die Anwendung wie folgt anwenden möchten: 
+Die Pakete befinden sich auf dieser [Downloadseite](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Wählen Sie das passende Paket, das Sie installieren möchten, und kopieren Sie es auf einen USB-Stick. Welche PPKG-Datei die richtige ist, hängt von der zu verwendenden Standardanwendungsrichtlinie ab: 
 
-|Zahl  |Beschreibung  |
+|Nummer  |Beschreibung  |
 |---------|---------|
-|0     | Bevorzugter Skype-app auf der Startseite, Teams Besprechungen verfügbar        |
-|1     | Teams bevorzugte app auf der Startseite, Skype Besprechungen verfügbar        |
-|2     | Teams exklusive app auf der Startseite (Skype-app nicht verfügbar)        |
+|0     | Skype als bevorzugte App auf dem Startbildschirm, Teams-Besprechungen verfügbar        |
+|1     | Teams als bevorzugte App auf dem Startbildschirm, Skype-Besprechungen verfügbar        |
+|2     | Teams als exklusive App auf dem Startbildschirm (Skype-App nicht verfügbar)        |
  
-1. Fügen Sie den USB-Schlüssel an die Fläche Hub-Gerät. 
-2. Öffnen Sie die **Einstellungen** app auf einem Gerät Fläche Hub. 
-3. Öffnen Sie die **Fläche Hub Gerätemanagement Konto**.
-4. Öffnen Sie die **Verwaltung von Geräten**. 
-5. Klicken Sie auf **Hinzufügen oder Entfernen einer Bereitstellung Paket**. 
+1. Schließen Sie den USB-Stick an das Surface Hub-Gerät an. 
+2. Öffnen Sie die **Einstellungen**-App auf einem Surface Hub-Gerät. 
+3. Öffnen Sie **Surface Hub-Gerätekonto, Verwaltung**.
+4. Öffnen Sie **Geräteverwaltung**. 
+5. Klicken Sie auf ** Bereitstellungspaket hinzufügen oder entfernen**. 
 6. Klicken Sie auf **Paket hinzufügen**.
-7. Wählen Sie aus dem Dropdown-Menü die Option **Wechselmedium** aus. 
-8. Fügen Sie das entsprechende <strong>TeamsRTMMode*.ppkg</strong> -Paket, das zuvor an den USB-Schlüssel kopiert wurde. 
-9. Starten Sie das Fläche Hub-Gerät neu. 
-10. Nach dem Neustart des Geräts, sollten Sie möglicherweise die Teams app aus dem Bildschirm Start starten und teilnehmen an einer Besprechung aus dem Kalender. 
+7. Wählen Sie die Option **Wechselmedien** aus dem Dropdown-Menü aus. 
+8. Fügen Sie das entsprechende <strong>TeamsRTMMode*.ppkg</strong>-Paket hinzu, das zuvor auf den USB-Stick kopiert wurde. 
+9. Starten Sie das Surface Hub-Gerät neu. 
+10. Nach dem Neustart des Geräts sollten Sie die Teams-App über den Startbildschirm starten und über den Kalender an einer Besprechung teilnehmen können. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2: Konfigurieren von über MDM wie Intune 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2: Konfigurieren über MDM z. B. Intune 
 
-Verwenden Sie Folgendes, um die Anruf- und Besprechungen Anwendung Standardrichtlinie über Intune konfigurieren. Siehe auch im Blog [der Microsoft-Teams für Fläche Hub-app mit Intune Bereitstellen](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/).
+Verwenden Sie die folgenden Schritte, um die Standardanwendungsrichtlinie für Anrufe und Besprechungen über Intune zu konfigurieren. Außerdem finden Sie weitere Informationen im Blogbeitrag [Bereitstellen der Microsoft Teams für Surface Hub-App mit Intune](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/).
 
 |Einstellung   |Wert    |Beschreibung    |
 |----------|---------|---------|
-| Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
-|Datentyp | Ganzzahl (0-2)   |0 – bevorzugte Skype-app auf der Startseite, Teams Besprechungen verfügbar<br>1 – Teams bevorzugte app auf der Startseite, Skype Besprechungen verfügbar<br>2 - Teams exklusive app auf der Startseite (Skype-app nicht verfügbar) |
-|Betrieb| Abrufen, festlegen        |
+|Pfad      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|Datentyp | Ganze Zahl (0-2)   |0: Skype als bevorzugte App auf dem Startbildschirm, Teams-Besprechungen verfügbar<br>1: Teams als bevorzugte App auf dem Startbildschirm, Skype-Besprechungen verfügbar<br>2: Teams als exklusive App auf dem Startbildschirm (Skype-App nicht verfügbar) |
+|Vorgänge| Abrufen, Einrichten        |
 
 |Einstellung   |Wert    |
 |----------|---------|
-| Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|Datentyp | String - Set-Zeichenfolge, die Teams Anwendungspaket-ID als **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Teams** |
-|Betrieb| Abrufen, festlegen        |
+|Pfad      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|Datentyp | String: Teams-Anwendungspaket-ID wird auf **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams** festgelegt |
+|Vorgänge| Abrufen, Einrichten        |
 
-Starten Sie das Fläche Hub-Gerät neu. Nach dem Neustart des Geräts, sollten Sie möglicherweise die Teams app aus dem Bildschirm Start starten und teilnehmen an einer Besprechung aus dem Kalender.
+Starten Sie das Surface Hub-Gerät neu. Nach dem Neustart des Geräts sollten Sie die Teams-App über den Startbildschirm starten und über den Kalender an einer Besprechung teilnehmen können.
 
