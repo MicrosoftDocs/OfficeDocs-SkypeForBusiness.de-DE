@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e30eed7432a628bbd4951867e77883143f9290eb
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015581"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964458"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Planen der Dienstverwaltung und -qualität
 
@@ -204,7 +204,7 @@ Die für die Umgehung des Proxyservers erforderliche Konfiguration ist je nach A
 
 Manche Proxyserveranbieter stellen einen automatisierten Prozess bereit, um sicherzustellen, dass die Konfiguration auf dem aktuellen Stand ist. Wenn Ihr Anbieter diesen automatischen Prozess nicht bereitstellt, können Sie unter <https://aka.ms/o365proxies> eine aktualisierte PAC-Datei herunterladen.
 
-[Proxyserver für Skype for Business Online und Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Proxyserver für Skype for Business Online und Microsoft Teams](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Firewalls
 
@@ -216,7 +216,7 @@ TCP ist zustandsbehaftet und wird daher für Echtzeitmedien nicht bevorzugt und 
 
 Eine umfassende Anleitung für das Öffnen der Firewall für Microsoft Teams finden Sie im Artikel [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips).
 
-Nach dem Öffnen der Firewall können Sie mit dem [Microsoft Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) die Konnektivität für Cloud-VoIP-Funktionen validieren.
+Nach dem Öffnen der Firewall können Sie mit dem  [Microsoft Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885)  die Konnektivität für Cloud-VoIP-Funktionen validieren.
 
 > [!IMPORTANT]
 > Die IPs und URLs von Microsoft Office 365 ändern sich im Lauf der Zeit. Wichtig ist, dass Sie im Rahmen der Planung der Dienstverwaltung sicherstellen, dass ein betrieblicher Prozess vorhanden ist und dass eine Gruppe für das Überwachen der [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips) verantwortlich ist und entsprechende Aktualisierungen vornimmt.
@@ -332,7 +332,7 @@ Organisationen können den Updateprozess nicht steuern oder über eine Richtlini
 
 Diese Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit Links zu verwandten Inhalten.
 
-| Bereich | Details | Verweise |
+| Bereich | Details | Referenzen |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Planen der Dienstverwaltung | Durchführen einer Übung zur Zuordnung der operativen Rollen <br/> Genehmigung durch die verantwortlichen Teams <br/> Vorbereitung der Rollen | [Betriebshandbuch](1-drive-value-operate-my-service.md) |
 | | Ernennen von Qualitätspionieren <br/> Vorbereitung der Qualitätspioniere| [Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Handbuch für die Überprüfung der Erlebnisqualität](https://aka.ms/qerguide) |
@@ -343,10 +343,10 @@ Diese Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit Links z
 | | Implementieren eines VPNs mit geteiltem Tunnel | [Anleitung für VPNs mit geteiltem Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimieren von WLAN-Netzwerken für Echtzeitmedien  | Zurateziehen von Drittanbietern |
 | | Implementieren eines lokalen Internetausgangs | [Lokaler Internetausgang](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | Implementieren der Netzwerkkonnektivität <br/> Validieren der Netzwerkkonnektivität | [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips) |
+| | Implementieren der Netzwerkkonnektivität <br/> Überprüfen der Netzwerkverbindung | [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips) |
 | | | [Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | Ausführen einer Netzwerkbewertung | [Bewertung der Netzwerkbereitschaft](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | Planen der Endpunktqualität | Aktualisieren der Endpunktfirewalls | [URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips) |
-| | Validieren der Softwareanforderungen | [Beziehen von Clients für Microsoft Teams](get-clients.md) |
+| | Validieren der Softwareanforderungen | [Clients für Microsoft Teams abrufen](get-clients.md) |
 | | Implementieren der WLAN-Empfehlungen für Endpunkte | Zurateziehen von Drittanbietern |
 | | Erstellen einer Zuordnung von Personas zu Geräten <br/> Bereitstellen von Geräten und Durchführen von Pilottests für die Geräte | [Client und Geräte – Vorbereitungsworkshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Gerätekatalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
