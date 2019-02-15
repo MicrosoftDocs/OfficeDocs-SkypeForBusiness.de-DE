@@ -1,5 +1,5 @@
 ---
-title: Trunk Failover auf ausgehende Anrufe
+title: Trunkfailover bei ausgehenden Anrufen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie in diesem Thema erfahren, wie behandeln Trunk Failover auf ausgehende Anrufe von Teams, Session Border Controller (SBC).
-ms.openlocfilehash: 620230ca3be07bb54386f54a983539716d07b2e9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: bab62130c060b4bfadd633c86dd75caf98b07a46
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297809"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056595"
 ---
-# <a name="trunk-failover-on-outbound-calls"></a>Trunk Failover auf ausgehende Anrufe
+# <a name="trunk-failover-on-outbound-calls"></a>Trunkfailover bei ausgehenden Anrufen
 
 In diesem Thema wird beschrieben, wie Trunk Failover auf ausgehende Anrufe--von Teams, Session Border Controller (SBC) vermieden werden.
 
@@ -34,7 +34,7 @@ Beispielsweise eine Verbindung kann Fehler auftreten, wenn ein Administrator sch
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Failover für bestimmte von Session Border Controller (SBC) der SIP-Fehlercodes
 
-Direktes Routing alle etwaigen Fehlercodes 4xx oder 6xx SIP als Antwort auf eine ausgehende INVITE-Nachricht empfängt, gilt der Anruf standardmäßig abgeschlossen. Ausgehende ein Anrufs von einem Client Teams an den Public Switched Telephone Telefon Netzwerk (PSTN) mit den folgenden Datenverkehr bedeutet: Teams Client -> direkten Routing SBC -> -> Telefonienetzwerk.
+Direktes Routing alle etwaigen Fehlercodes 4xx oder 6xx SIP als Antwort auf eine ausgehende INVITE-Nachricht empfängt, gilt der Anruf standardmäßig abgeschlossen. Ausgehende ein Anrufs von einem Client Teams an den Public Switched Telephone Telefon Netzwerk (PSTN) mit den folgenden Datenverkehr bedeutet: Teams Client-> direkten Routing-> SBC-> Telefonienetzwerk.
 
 Die Liste der SIP-Codes kann in [Session Initiation Protocol (SIP) RFC](https://tools.ietf.org/html/rfc3261)gefunden werden.
 
@@ -48,11 +48,11 @@ Standardmäßig wird der Anruf zu diesem Zeitpunkt durchgeführt werden.
 ![Zeigt nicht erreicht PSTN aufgrund Netzwerkproblem SBC](media/direct-routing-failover-response-codes1.png)
 
 Es gibt jedoch eine weitere SBC in der Route, die den Anruf potenziell bereitstellen kann.
-Wenn Sie den Parameter Set-CSOnlinePSTNGateway konfigurieren-Identität sbc1.contoso.com - ReinviteResponceCode "408", der zweite SBC werden versucht--SBC2.contoso.com in der folgenden Abbildung:
+Wenn Sie den Parameter konfigurieren `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, der zweite SBC versucht--SBC2.contoso.com in der folgenden Abbildung:
 
 ![Zeigt das Weiterleiten an die zweite SBC](media/direct-routing-failover-response-codes2.png)
 
-Das Festlegen des Parameters - FailoverResponceCodes und zum Angeben der Codes können Sie nichts Ihrer routing optimieren und vermeiden Sie potenzielle Probleme beim ein SBC tätigen Sie einen Anruf aufgrund von Netzwerk- oder andere Probleme kann nicht.
+Das Festlegen des Parameters - FailoverResponseCodes und zum Angeben der Codes können Sie nichts Ihrer routing optimieren und vermeiden Sie potenzielle Probleme beim ein SBC tätigen Sie einen Anruf aufgrund von Netzwerk- oder andere Probleme kann nicht.
 
 Standardwerte: 408, 503, 504
 

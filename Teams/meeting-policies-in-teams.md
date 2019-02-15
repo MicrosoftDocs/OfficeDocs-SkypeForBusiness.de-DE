@@ -1,5 +1,5 @@
 ---
-title: Besprechungsrichtlinien in Teams
+title: Verwalten von Besprechungsrichtlinien
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -12,13 +12,15 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
+f1keywords:
+- ms.teamsadmincenter.meetingpolicies.overview
 description: Informationen zum Verwalten von Richtlinieneinstellungen in Teams meeting.
-ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283541"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056611"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -37,7 +39,7 @@ Besprechungsrichtlinien werden verwendet, um die Steuerung der Features, die an 
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="audio--video"></a>Audio und video
+## <a name="audio--video"></a>Audio & video
    - **Lautschrift zulassen** Wenn Sie diese aktivieren, werden Umsetzung der Besprechung für Benutzer verfügbar.
    - **Aufzeichnen von Cloud zulassen** Aktivieren Sie dies können Aufzeichnungen in die Cloud gespeichert werden soll.
    - **Zulassen von IP-video** Aktivieren Sie dies kann IP-Videos während einer Besprechung ansetzt.

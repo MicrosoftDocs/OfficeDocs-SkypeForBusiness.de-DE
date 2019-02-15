@@ -1,5 +1,5 @@
 ---
-title: Was sind Messaging-Richtlinien in Teams?
+title: Verwalten von Messagingrichtlinien
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,21 +16,20 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Informationen Sie zu Richtlinien für Messaging und wie sie Chat in Teams messaging steuern verwendet werden können.
-ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
-ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
+ms.openlocfilehash: 3b360be09f8e35d560b13b40ef25a72a060e6033
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29763716"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056587"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Was sind Messaging-Richtlinien in Teams?
-::: zone target="docs"
+
 Messaging-Richtlinien dienen zum Steuern, welche Chat und Channel messaging-Funktionen für Benutzer in Microsoft-Teams verfügbar sind. Sie können die Standardrichtlinie, die erstellt wird, oder erstellen Sie eine oder mehrere benutzerdefinierte messaging Richtlinien für die Personen in Ihrer Organisation. Nachdem Sie eine Richtlinie erstellen, weisen es einem Benutzer oder Gruppen von Benutzern in Ihrer Organisation Sie.
 
 Richtlinien können auf einfache Weise verwaltet werden, in der Verwaltungskonsole Teams (http://admin.teams.microsoft.com) von **Messaging-Richtlinien** im linken Navigationsbereich klicken und sich mit Administratoranmeldeinformationen anmelden. Um die vorhandene Standardrichtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (Org geltende Standard)** , und klicken Sie auf **Bearbeiten**. Um eine neue messaging-Richtlinie zu erstellen, klicken Sie auf **neue Richtlinie**.
 
 ![Messagingrichtlinien in Teams](media/messaging-policies.png)
-::: zone-end
 
 Die verfügbaren Einstellungen für die Richtlinie werden nachfolgend beschrieben: 
 
@@ -51,9 +50,7 @@ Die verfügbaren Einstellungen für die Richtlinie werden nachfolgend beschriebe
 - **Zulassen von URL-Vorschau** Verwenden Sie diese Einstellung, um die automatische URL Anzeigen der Vorschau aktiviert oder deaktiviert in Nachrichten zu aktivieren.
 - **Übersetzen von Nachrichten durch Benutzer zulassen** Aktivieren Sie diese Einstellung Benutzer Teams Nachrichten automatisch in die Sprache, die durch ihre persönliche Sprachoptionen für Office 365 angegebenen übersetzen können.
 
-::: zone target="docs"
 Wenn Sie eine benutzerdefinierte Richtlinie an Messaging erstellt haben, werden es nur aktive für einen Benutzer wenn diese Richtlinie, die einem Benutzer zugewiesen ist.  Um eine benutzerdefinierte Richtlinie für einen Benutzer in der Verwaltungskonsole Teams zuzuweisen, klicken Sie im linken Navigationsbereich auf **Benutzer** , wählen Sie den Benutzer, dem Sie die Richtlinie zuweisen möchten, und wählen Sie dann auf **Bearbeiten** , klicken Sie unter **Richtlinien zugewiesen**.
-::: zone-end
 
 ### <a name="related-topics"></a>Verwandte Themen
 [Besprechungsrichtlinien in Microsoft Teams](meeting-policies-in-teams.md)

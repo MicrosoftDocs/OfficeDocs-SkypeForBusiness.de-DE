@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f080d90f0a384bfdc4010a80d7c84a1b51a10754
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 20b1ff0536117516484a1d9f54fc49fedbab2e12
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201365"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056523"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -31,15 +31,15 @@ Dienste in den Compliance-Kategorien C und D, für die branchenführende Complia
 
 Teams auch erzwingt die gesamte Team und organisationsweite zweistufigen Authentifizierung, einmaliges Anmelden über Active Directory und die Verschlüsselung von Daten während der Übertragung und im Ruhezustand. Dateien werden in SharePoint gespeichert und durch SharePoint-Verschlüsselung gesichert werden. Notizen sind in OneNote gespeichert und durch OneNote-Verschlüsselung gesichert werden. Die OneNote-Daten werden in der SharePoint-Teamwebsite gespeichert. Die Registerkarte Wiki kann auch für die Notizen verwendet werden, und der Inhalt auch innerhalb der SharePoint-Teamwebsite gespeichert ist.
 
-Außerdem haben wir Unterstützung für Überwachungsprotokollsuche, eDiscovery und gesetzliche Aufbewahrungspflicht für Kanäle, Chats und Dateien sowie mobile Anwendungsverwaltung mit Microsoft Intune hinzugefügt. Fahren Sie mit der Sicherheit in Office 365 & Compliance Center, um diese Einstellungen zu verwalten. 
+Außerdem haben wir Unterstützung für Überwachungsprotokollsuche, eDiscovery und gesetzliche Aufbewahrungspflicht für Kanäle, Chats und Dateien sowie mobile Anwendungsverwaltung mit Microsoft Intune hinzugefügt. Fahren Sie mit der Sicherheit in Office 365 & Compliance Center, um diese Einstellungen verwalten. 
 
 ## <a name="auditing-and-reporting"></a>Überwachung und Berichterstellung
 
-Audit Log Suche ist direkt in die Office 365-Sicherheit und Compliance Center und macht uneingeschränkt auf Warnungen festzulegen und/oder zu Berichten über Überwachungsereignis indem zur Verfügung gestellt, Arbeitslast bestimmten exportieren oder generisches-Ereignis wird für Admin-Verwendung und Untersuchung über ein unbegrenzte auditing Zeitachse. Alle Überwachungsprotokolldaten steht für das Einrichten von Warnungen in der Office 365-Sicherheit und Compliance Center sowie zum Filtern und zur weiteren Analyse exportieren. Finden Sie in diesen [Link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) weiterführende Informationen dazu, wie Sie eine Audit Log-Suche für Microsoft-Teams, Ereignisse in der Office 365-Sicherheit und Compliance Center durchführen. 
+Audit Log Suche ist direkt in die Sicherheit in Office 365 Compliance Center & und macht uneingeschränkt auf Warnungen festzulegen und/oder zu Berichten über Überwachungsereignis indem zur Verfügung gestellt, Arbeitslast bestimmten exportieren oder generisches-Ereignis wird für Admin-Verwendung und Untersuchung über ein unbegrenzte auditing Zeitachse. Alle Überwachungsprotokolldaten steht für das Einrichten von Warnungen innerhalb der Sicherheit in Office 365 Compliance Center & sowie zum Filtern und zur weiteren Analyse exportieren. Finden Sie in diesen [Link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) weiterführende Informationen dazu, wie Sie eine Audit Log-Suche für Microsoft-Teams, Ereignisse in der Sicherheit in Office 365 Compliance Center & durchführen. 
 
 ## <a name="compliance-content-search"></a>Compliancesuche in Inhalten
 
-Inhaltssuche kann zu suchenden alle Teams Daten über Rich Filterfunktionen verwendet und auf einen bestimmten Container für die Einhaltung von Vorschriften und Aufbewahrung für eventuelle Unterstützung exportiert werden. Dies kann mit oder ohne einem eDiscovery-Fall erfolgen. Auf diese Weise können Compliance-Admins sammeln Sie allen Benutzern Teams, überprüfen und für die weitere Verarbeitung zu exportieren. Finden Sie in diesen [Link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) , um weitere Informationen dazu, wie Sie eine Compliance-Inhaltssuche für Microsoft-Teams, Inhalte auf der Office 365-Sicherheit und Compliance Center durchführen. 
+Inhaltssuche kann zu suchenden alle Teams Daten über Rich Filterfunktionen verwendet und auf einen bestimmten Container für die Einhaltung von Vorschriften und Aufbewahrung für eventuelle Unterstützung exportiert werden. Dies kann mit oder ohne einem eDiscovery-Fall erfolgen. Auf diese Weise können Compliance-Admins sammeln Sie allen Benutzern Teams, überprüfen und für die weitere Verarbeitung zu exportieren. Finden Sie in diesen [Link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) , um weitere Informationen dazu, wie Sie eine Compliance-Inhaltssuche für Microsoft-Teams, Inhalte auf die Sicherheit in Office 365 Compliance Center & durchführen. 
 
 Tipp: Art die Microsoft-Teams kann zum Filtern verwendet werden über Microsoft-Teams nur Content d. h. Chat und Channel Nachrichten, Besprechungen und Anrufe. 
 
@@ -47,7 +47,7 @@ Tipp: Art die Microsoft-Teams kann zum Filtern verwendet werden über Microsoft-
 
 Bei eDiscovery handelt es sich um den elektronischen Aspekt beim Identifizieren, Sammeln und Erzeugen von elektronisch gespeicherten Informationen (ESI) als Reaktion auf die Aufforderung zur Vorlage dieser Informationen in einem Rechtsstreit oder einer Untersuchung. Mögliche Fallmanagement, permanentes, Suche, Analyse und Exportieren von Daten für Teams. Dazu gehören Übersichten Chat, messaging und Dateien, Besprechung und Anruf. Für Teams Besprechungen und Telefonkonferenzen eine Zusammenfassung der Ereignisse, die in der Besprechung, und rufen erfolgt erstellt und in eDiscovery zur Verfügung gestellt. 
 
-Weitere Informationen dazu, wie Sie hierzu in Sicherheit und Compliance Center eDiscovery und Compliance Inhaltssuche für Teams Inhalte ausführen gehen Sie die unten aufgeführten Links: 
+Weitere Informationen dazu, wie Sie hierzu in Security & Compliance Center eDiscovery und Compliance Inhaltssuche für Teams Inhalte ausführen gehen Sie die unten aufgeführten Links: 
 
 [eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -70,7 +70,7 @@ Kunden können pro ihren Anforderungen nutzen Compliance-eDiscovery oder [Erweit
 
 ## <a name="legal-hold"></a>Gesetzliche Aufbewahrungspflicht
 
-Während einer Rechtsstreitigkeiten ist es oft erforderlich, dass alle Daten im Zusammenhang mit einem Benutzer (Verwaltungsberechtigter) oder ein Team ist in unveränderbarer Form beibehalten, sodass sie als Beweis für die Groß-/Kleinschreibung verwendet werden kann. Dies ist durch einen Benutzer (Benutzerpostfach) oder ein Team rechtliche Aufbewahrungspflicht platzieren. Wenn alle Team innerhalb Teams für Compliance-Archiv (Teilmenge der das Postfach oder eine Websitesammlung bis gezielte Abfragen oder gefilterten Inhalt) oder die Aufbewahrung für eventuelle Rechtsstreitigkeiten (gesamte Postfach oder eine Websitesammlung) festgelegt wird, wird die Sperre für das Postfach Gruppen platziert. Dadurch wird sichergestellt, dass auch wenn Endbenutzer löschen oder Bearbeiten von DDE Kanalnachrichten, die in der Gruppenpostfach aufgenommen werden, unveränderliche Kopien dieser Inhalte verwaltet und in eDiscovery-Suche verfügbar sind. Gesetzliche Aufbewahrungspflicht wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. Finden Sie [in diesem](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) Artikel zu verstehen, Weitere Informationen zur Beibehaltung und Haltebereiche im Compliance Center & Sicherheit in Office 365 helfen. 
+Während einer Rechtsstreitigkeiten ist es oft erforderlich, dass alle Daten im Zusammenhang mit einem Benutzer (Verwaltungsberechtigter) oder ein Team ist in unveränderbarer Form beibehalten, sodass sie als Beweis für die Groß-/Kleinschreibung verwendet werden kann. Dies ist durch einen Benutzer (Benutzerpostfach) oder ein Team rechtliche Aufbewahrungspflicht platzieren. Wenn alle Team innerhalb Teams für Compliance-Archiv (Teilmenge der das Postfach oder eine Websitesammlung bis gezielte Abfragen oder gefilterten Inhalt) oder die Aufbewahrung für eventuelle Rechtsstreitigkeiten (gesamte Postfach oder eine Websitesammlung) festgelegt wird, wird die Sperre für das Postfach Gruppen platziert. Dadurch wird sichergestellt, dass auch wenn Endbenutzer löschen oder Bearbeiten von DDE Kanalnachrichten, die in der Gruppenpostfach aufgenommen werden, unveränderliche Kopien dieser Inhalte verwaltet und in eDiscovery-Suche verfügbar sind. Gesetzliche Aufbewahrungspflicht wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. Finden Sie [in diesem](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) Artikel zu verstehen, Weitere Informationen zur Beibehaltung und Haltebereiche in die Sicherheit in Office 365 Compliance Center & helfen. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Protection-Informationsarchitektur für das Microsoft-Teams. 
 
@@ -93,13 +93,13 @@ Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abo
 
 | Funktion für den Schutz von Informationen | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Archiv              |               -                |              -              |            -             |             Ja             |           Ja            |
-|        In-Situ-eDiscovery        |               -                |              -              |            -             |             Ja             |           Ja            |
+|              Archiv              |               -                |              -              |            -             |             Ja              |           Ja             |
+|        In-Situ-eDiscovery        |               -                |              -              |            -             |             Ja              |           Ja             |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Ja            |
-|            Gesetzliche Aufbewahrungspflicht             |               -                |              -              |            -             |             Ja             |           Ja            |
-|     Compliancesuche in Inhalten     |               -                |              -              |            -             |             Ja             |           Ja            |
-|      Überwachung und Berichterstellung       |              Ja               |             Ja             |           Ja            |             Ja             |           Ja            |
-|       Bedingte Zugriff\*        |              Ja               |             Ja             |           Ja            |             Ja             |           Ja            |
+|            Gesetzliche Aufbewahrungspflicht             |               -                |              -              |            -             |             Ja              |           Ja             |
+|     Compliancesuche in Inhalten     |               -                |             Ja              |           Ja             |             Ja              |           Ja            |
+|      Überwachung und Berichterstellung       |              Ja               |             Ja              |           Ja             |             Ja              |           Ja             |
+|       Bedingte Zugriff\*        |              Ja                |             Ja              |           Ja             |             Ja              |           Ja            |
 
 > [!NOTE]
 > \*Für bedingten Zugriff sind zusätzliche Lizenzen erforderlich.
@@ -110,9 +110,9 @@ Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abo
 |![Entscheidungspunktsymbol](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Entscheidungspunkt         |Verfügt Ihre Organisation über die erforderlichen Lizenzen, um die geschäftlichen Compliance- und Sicherheitsanforderungen zu erfüllen?         |
 |![Symbol für „Nächste Schritte“](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Nächste Schritte         |Überprüfen Ihrer Organisation aktuellen Lizenzierung, und vergewissern Sie sich, dass alle Unternehmen für die Einhaltung von Vorschriften und Sicherheit erfüllt.         |
 
-Vor dem Aktivieren dieser Features, stellen Sie sicher, dass Sie Zugriff auf die Sicherheit und Compliance Center im Office 365 Administrationscenter verfügen. Mandantenadministratoren verfügen standardmäßig über Zugriff.
+Vor dem Aktivieren dieser Features, stellen Sie sicher, dass Sie Zugriff auf die Sicherheit & Compliance Center im Office 365 Administrationscenter haben. Mandantenadministratoren verfügen standardmäßig über Zugriff.
 
-Content-Suche und eDiscovery erfordern keine Aktivierung im Compliance Center & Sicherheit.
+Content-Suche und eDiscovery erfordern keine Aktivierung von Steuerelementen in der & Security Compliance Center.
 
 <a name="location-of-data-in-teams"></a>Speicherort von Daten in Microsoft Teams
 -------------------------

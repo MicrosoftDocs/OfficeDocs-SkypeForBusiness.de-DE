@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048205"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056619"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das bekommen Sie mit Telefonsystem in Office 365
 
@@ -74,12 +74,14 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 
 Einrichten von Telefonsystem ein, in die Möglichkeit, dass am besten Ihr Unternehmen geeignet ist:
   
-- Sie können das Telefonsystem Add-on mit vorhandenen Telefonleitungen Ihres Unternehmens, oder die [Was sind in Office 365-Pläne aufrufen?](what-are-calling-plans-in-office-365.md) Dienst für eingehende und ausgehende Anrufe.
+- Sie können das Telefonsystem Add-on mit vorhandenen Telefonleitungen Ihres Unternehmens oder der Dienst [Telefonsystem mit Aufrufen Pläne](calling-plan-landing-page.md) für eingehende und ausgehende Anrufe.
     
 - Sie können neue Telefonnummern von Office 365 erhalten oder vorhandene Telefonnummern an Skype for Business übertragen. 
     
 Finden Sie in diesen Artikeln zur Planung und das Telefonsystem in Ihrem Unternehmen eingerichtet:
-  
+
+- [Telefonsystem mit Anrufplänen](calling-plan-landing-page.md)
+
 - [Einrichten von Aufrufen plant](set-up-calling-plans.md): in diesem Artikel ist eine schrittweise Anleitung zum Einrichten Ihrer Telefonnummern oder Ihre vorhandenen Telefonnummern in Skype für Unternehmen zu übertragen.
     
 - [Planen Sie Ihr Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](https://go.microsoft.com/fwlink/?LinkId=708645): in diesem Artikel erstellt das Layout aller Ihrer Bereitstellungsoptionen. Zudem erhalten Sie Informationen zum Planen der gesamten cloudbasierten Lösung. 
@@ -89,7 +91,8 @@ Finden Sie in diesen Artikeln zur Planung und das Telefonsystem in Ihrem Unterne
 - [Einrichten von Voicemail für Telefonsysteme - Administratorhilfe](set-up-phone-system-voicemail.md)
     
 - [Skype for Business entdecken](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Stellen Sie den Benutzern in Ihrem Unternehmen dieses Material bereit, um sie bei der Verwendung von Skype for Business-Funktionen zu unterstützen. 
-    
+
+
 ## <a name="availability"></a>Verfügbarkeit
 <a name="bkmk_setup"> </a>
 
