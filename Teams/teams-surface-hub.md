@@ -65,7 +65,7 @@ Die Pakete befinden sich auf dieser [Downloadseite](https://1drv.ms/f/s!ArcnbnRE
 2. Öffnen Sie die **Einstellungen**-App auf einem Surface Hub-Gerät. 
 3. Öffnen Sie **Surface Hub-Gerätekonto, Verwaltung**.
 4. Öffnen Sie **Geräteverwaltung**. 
-5. Klicken Sie auf ** Bereitstellungspaket hinzufügen oder entfernen**. 
+5. Klicken Sie auf **Bereitstellungspaket hinzufügen oder entfernen**. 
 6. Klicken Sie auf **Paket hinzufügen**.
 7. Wählen Sie die Option **Wechselmedien** aus dem Dropdown-Menü aus. 
 8. Fügen Sie das entsprechende <strong>TeamsRTMMode*.ppkg</strong>-Paket hinzu, das zuvor auf den USB-Stick kopiert wurde. 
