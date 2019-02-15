@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Kolumbien
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: In Kolumbien sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: a9cdec0d9dafd7101a252e9f95f2ac0464836f42
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 22480020b3687d42399f9e37c463ff3e792b704f
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014451"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047070"
 ---
 # <a name="availability-in-colombia"></a>Verfügbarkeit in Kolumbien
 
@@ -61,7 +61,7 @@ In Kolumbien sind die folgenden Office 365-Dienste für Skype for Business und 
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste

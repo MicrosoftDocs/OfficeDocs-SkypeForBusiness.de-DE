@@ -1,7 +1,7 @@
 ---
 title: Einrichten einer automatischen Telefonzentrale für das Telefonsystem
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 9/1/2018
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen Sie zum Einrichten und Testen von Telefonsystem (Cloud, PBX) automatische Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation. '
-ms.openlocfilehash: 9e84ea2130238866db61fa222169435772cc7758
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 79a3292ea15781d448f0931c18a9ed98cd351f01
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754153"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046764"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale für das Telefonsystem
 

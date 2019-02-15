@@ -1,7 +1,7 @@
 ---
 title: Gebührenfreie Rufnummer einwählen Einschränkungen in Vietnam
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 171ba2476bc17fcd06f0bc4cc62766c4a2d0d243
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7b1dc043b537b2ab8b4c50e57d640ed7ecf03b0e
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371210"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046432"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Vietnam
 
@@ -44,7 +44,7 @@ ms.locfileid: "25371210"
 | Abgedeckte Inseln/Gebiete  <br/>                  | Nicht zutreffend  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Nicht abgedeckte Inseln/Gebiete  <br/>              | Nicht zutreffend  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/>             | Partiell. Siehe Kommentare.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Verfügbarkeit über Mobilnetze  <br/>               | Partiell. Siehe Kommentare.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| Verfügbarkeit über Mobilnetze  <br/>               | Partiell. Siehe die Kommentare.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Kommentare, Einschränkungen und Zugriffsaspekte  <br/> | Das Nummernformat 120 XX XXX funktioniert aus den Festnetzen und Mobilnetzen von Vietnam Telecom International (VTI) und VNPT (Vietnam Post and Telecommunications). <br/>   <br/>**Hinweis:** Mobifone &amp; Vinaphone sind Teil der VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
    
 ## <a name="related-topics"></a>Verwandte Themen

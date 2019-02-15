@@ -1,7 +1,7 @@
 ---
 title: Telefonnummernverwaltung für die USA
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Vereinigten Staaten (und in Puerto Rico) für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: 1a675b0fa0b06ca3882d804d8ad80b2ec88e71a7
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: ae66b7d8b8ee6a39d5fb3be852092b9d79dcf374
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651113"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048483"
 ---
 # <a name="phone-number-management-for-the-us"></a>Telefonnummernverwaltung für die USA
 

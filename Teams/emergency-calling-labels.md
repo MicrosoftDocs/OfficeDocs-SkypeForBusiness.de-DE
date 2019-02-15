@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Sie können diese Etiketten gewendet Notfall bei Aufrufen plant in Office 365 herunterladen.
-ms.openlocfilehash: 546d5611027b142b5c7876640da7e49e91085ff1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ec2bdfade722b128fb3e34f6e30ee6f3bef04e9
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014605"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048690"
 ---
 # <a name="emergency-calling-labels"></a>Notrufdienste Etiketten
 

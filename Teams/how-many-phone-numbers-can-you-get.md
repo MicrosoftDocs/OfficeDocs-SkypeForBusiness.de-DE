@@ -1,7 +1,7 @@
 ---
 title: Wie viele Telefonnummern können Sie erhalten?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Wenn Sie Telefonnummern für Ihre Organisation reservieren möchten, kann die Anzahl der reservierten Telefonnummern die Anzahl der zugewiesenen Lizenzen übersteigen. Dies richtet sich jedoch nach der Art der Telefonnummern und der Art der Lizenzen, die Sie gekauft haben und die Ihnen zugewiesen wurden. Sie können klicken Sie auf verschiedene Arten von Rufnummern für plant Aufrufen verwendet, um Informationen zu den verschiedenen Rufnummern finden Sie heraus, die in Skype für Business Online verwendet werden.
-ms.openlocfilehash: b5c095f6030f1a5874e04df3b3be7ce9dac62dd4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4eeef8ea633b1ba26169681b2e994b6d3176fd67
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014355"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048762"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Wie viele Telefonnummern können Sie erhalten?
 

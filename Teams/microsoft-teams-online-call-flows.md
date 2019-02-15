@@ -1,7 +1,7 @@
 ---
-title: Microsoft-Teams, Online aufrufen fließt
-author: tonysmit
-ms.author: tonysmit
+title: Microsoft Teams-Onlineanruf-Datenflüsse
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
 ms.topic: article
@@ -13,14 +13,14 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Beschreibt, wie Teams Arbeitslast für Office 365 fließt in verschiedenen Topologien verwendet.
-ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: ce5af3e2f7d14eb0d07fe2838ab1a85954d55ba3
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562807"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048746"
 ---
-# <a name="microsoft-teams-online-call-flows"></a>Microsoft-Teams, Online aufrufen fließt
+# <a name="microsoft-teams-online-call-flows"></a>Microsoft Teams-Onlineanruf-Datenflüsse
 
 > [!Tip]
 > Sehen Sie sich die folgenden Sitzung erfahren, wie Sie Teams nutzt Ihr Netzwerk und am besten für die optimale Netzwerkkonnektivität planen: [Teams Netzwerkplanung](https://aka.ms/teams-networking)

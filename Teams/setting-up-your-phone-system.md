@@ -1,7 +1,7 @@
 ---
 title: Einrichten des Telefonsystems in Ihrer Organisation
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen Sie zum Einrichten von Telefonsystem (Cloud, PBX) für Ihre Organisation. '
-ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374450"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047562"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -61,7 +61,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
  
 ![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Sign in to Office 365 with your work or school account.
 
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     
@@ -88,7 +88,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 ![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Sign in to Office 365 with your work or school account.
 
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
 

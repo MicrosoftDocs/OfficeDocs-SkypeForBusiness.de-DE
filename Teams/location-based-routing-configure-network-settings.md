@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Netzwerkeinstellungen für standortbasierte Routing
+title: Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 3b818b10a333fbb7cf50cf4e49d521aa224e2d17
+ms.sourcegitcommit: b53d99d06178c26297d1349ff82d05f706dfb479
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771016"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30050764"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren von Netzwerkeinstellungen für standortbasierte Routing
+# <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -42,10 +42,10 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>Definieren von Netzwerkstandorten
 
-Verwendung der ``New-CsTenantNetworkSitePowerShell`` PowerShell-Cmdlet, um Netzwerkstandorte zu definieren. 
+Verwendung der ``New-CsTenantNetworkSite`` PowerShell-Cmdlet, um Netzwerkstandorte zu definieren. 
 
 ```
-New-CsTenantNetworkSite -NetworkRegionID <region ID>  
+New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 In diesem Beispiel erstellen wir zwei neue Netzwerkstandorte Delhi und Hyderabad, in dem Bereich Indien. 
 ```
@@ -93,16 +93,16 @@ Identity, Mask, SiteID
 ## <a name="define-external-subnets"></a>Definieren der externen Subnetze
 Verwendung der ``New-CsTenantTrustedIPAddress`` -Cmdlet zum Definieren von externen Subnetze und weisen Sie diese den Mandanten. Sie können eine unbegrenzte Anzahl von Subnetzen für einen Mandanten definieren. 
 ```
-New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
+New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Beispiel:
 ```
-New-CsTenantTrustedIPAddress -IPAddress 192.168.0.1 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## <a name="next-steps"></a>Nächste Schritte
 Wechseln Sie zur [speicherortbasierte Routing für die direkte Weiterleitung aktivieren](location-based-routing-enable.md).
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Planen Sie die Standortbasierte Weiterleitung für direkten Routing](location-based-routing-plan.md)
-- [Speicherortbasierte Routing Terminologie](location-based-routing-terminology.md)
+- [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
+- [Terminologie für das standortbasierte Routing](location-based-routing-terminology.md)

@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Kanada
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: c88d233f3b4120b202ac09f2b48406d21f896b75
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: b33d4a8ac52b0ae086e2ff344dea95d1538192f1
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674794"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046635"
 ---
 # <a name="availability-in-canada"></a>Verfügbarkeit in Kanada
 

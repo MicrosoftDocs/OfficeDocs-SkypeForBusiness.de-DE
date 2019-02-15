@@ -1,7 +1,7 @@
 ---
 title: Gebührenfreie Rufnummer einwählen Einschränkungen in der Vereinigte Arabische Emirate
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
-ms.openlocfilehash: 6a15707e31482b1d765f9525a8f127525664a6d6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 54c754f827f5e67584ea103bea8a0e1f82a07a7b
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017969"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048794"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in der Vereinigte Arabische Emirate
 

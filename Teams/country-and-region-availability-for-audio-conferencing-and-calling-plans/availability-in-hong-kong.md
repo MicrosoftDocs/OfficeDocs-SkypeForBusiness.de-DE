@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Hongkong
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Hongkong verfügbar.
-ms.openlocfilehash: e25fd1bb12f3ee7e2e0f4aac236519bab37de483
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 328688b85fa3a564d4ce6add9534404879b74618
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690549"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046998"
 ---
 # <a name="availability-in-hong-kong"></a>Verfügbarkeit in Hongkong
 

@@ -1,7 +1,7 @@
 ---
 title: Das bekommen Sie mit Telefonsystem in Office 365
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: ac97c6d194673087ad90be88e649b7cb067ba89f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017479"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048205"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das bekommen Sie mit Telefonsystem in Office 365
 
@@ -96,7 +96,7 @@ Finden Sie in diesen Artikeln zur Planung und das Telefonsystem in Ihrem Unterne
 ||||
 |:-----|:-----|:-----|
 |**Umfassende Clients** <br/> |**Mobile Clients** <br/> |**IP-Telefone** <br/> |
-| Kann mit allen unterstützten PC- und Mac-Clients in Office 365 verwendet werden. <br/> [Installieren von Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Einrichten von Skype for Business (Lync) für Mac 2011 für Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Wir haben Skype for Business-Clients für: <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Treffen Sie eine Auswahl unter den vielen mit Skype for Business kompatiblen Festnetztelefonen. Weitere Informationen finden Sie unter [Kauf von Telefonen für Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).<br/> |
+| Kann mit allen unterstützten PC- und Mac-Clients in Office 365 verwendet werden. <br/> [Installieren von Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Einrichten von Skype for Business (Lync) für Mac 2011 für Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Wir haben Skype for Business-Clients für: <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Treffen Sie eine Auswahl unter den vielen mit Skype for Business kompatiblen Festnetztelefonen. Weitere Informationen finden Sie unter [Kauf von Telefonen für Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online). <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

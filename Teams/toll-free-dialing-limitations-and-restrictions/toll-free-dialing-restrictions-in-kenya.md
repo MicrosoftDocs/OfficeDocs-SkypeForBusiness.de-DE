@@ -1,7 +1,7 @@
 ---
 title: Gebührenfreie Rufnummer einwählen Einschränkungen in Kenia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: b12bdc153bb12c293497f93e21248fbf58541c05
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b14005f511e66d628518fba2cc9024eeecd9e6f8
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017841"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048850"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Kenia
 
@@ -44,7 +44,7 @@ ms.locfileid: "25017841"
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Nicht abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Partiell. Siehe Kommentare.  <br/> |
-|Verfügbarkeit über Mobilnetze  <br/> |Partiell. Siehe Kommentare.  <br/> |
+|Verfügbarkeit über Mobilnetze  <br/> |Partiell. Siehe die Kommentare.  <br/> |
 |Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Zugriff über Festnetz: Safaricom und Airtel. Zugriff über Mobilnetz: Safaricom, Airtel und Orange.  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen

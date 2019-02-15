@@ -1,7 +1,7 @@
 ---
 title: Sprachen für Voicemail-Ansagen und -nachrichten
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardnachrichten des Systems festlegen können. '
-ms.openlocfilehash: 77500d8a84dada5f2a5005c214fded7eddb3186e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 601a23efe09a486afdcd88ad2f45ec9b9b666fd7
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013273"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047714"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Sprachen für Voicemail-Ansagen und -nachrichten
 
@@ -66,7 +66,7 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 |Spanisch  <br/> |Spanien  <br/> |es-ES  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Spanisch  <br/> |Mexiko  <br/> |es-MX  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |Ja  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |
 |Schwedisch  <br/> |Schweden  <br/> |sv-SE  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

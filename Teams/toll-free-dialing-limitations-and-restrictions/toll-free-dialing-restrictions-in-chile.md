@@ -1,7 +1,7 @@
 ---
 title: Gebührenfreie Rufnummer einwählen Einschränkungen in Chile
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 20e8fd47280eaf2eb8d26522f0db7352b0dc45d0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6e9e683d6659f4409d55b1522690a6da9b50433a
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012441"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047490"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Chile
 
@@ -44,7 +44,7 @@ ms.locfileid: "25012441"
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Nicht abgedeckte Inseln/Gebiete  <br/> |Kein Zugriff von den Osterinseln  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Partiell. Siehe Kommentare.  <br/> |
-|Verfügbarkeit über Mobilnetze  <br/> |Partiell. Siehe Kommentare.  <br/> |
+|Verfügbarkeit über Mobilnetze  <br/> |Partiell. Siehe die Kommentare.  <br/> |
 |Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Das Nummernformat 188 800 XXX XXX ist über das Telefonica-Netzwerk verfügbar. Das Nummernformat 123 XXXX XXXX ist nur über das Entel-Netzwerk verfügbar. Der Zugriff über Mobilnetze ist für beide Nummernformate möglich.  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen

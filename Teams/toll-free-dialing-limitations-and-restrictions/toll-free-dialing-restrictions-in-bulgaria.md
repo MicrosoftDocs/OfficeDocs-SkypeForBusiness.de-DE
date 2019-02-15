@@ -1,7 +1,7 @@
 ---
 title: Gebührenfreie Rufnummer einwählen Einschränkungen in Bulgarien
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 37ad8a38ff55c2dc840b1bdafea2621a6cd521bb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 345f3ee147ffc7f6191937a6a3ef9b4606ed7d3a
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013337"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047792"
 ---
 # <a name="toll-free-dialing-restrictions-in-bulgaria"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Bulgarien
 
@@ -45,7 +45,7 @@ ms.locfileid: "25013337"
 |Nicht abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Ja  <br/> |
 |Verfügbarkeit über Mobilnetze  <br/> |Partiell. Siehe Kommentare.  <br/> |
-|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Mobilgeräte-Zugriff von Vivacom und Globul Mobile.  <br/> |
+|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Mobile access from Vivacom &amp; Globul Mobile.  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Gebührenfreie Rufnummer einwählen einschränken](../toll-free-dialing-limitations-and-restrictions.md)

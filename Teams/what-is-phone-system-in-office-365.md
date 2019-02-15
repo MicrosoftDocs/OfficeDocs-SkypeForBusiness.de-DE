@@ -1,7 +1,7 @@
 ---
 title: Was ist Telefonsystem in Office 365?
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, was Telefonsystem für Sie möglich ist. '
-ms.openlocfilehash: ec9dc331d83a94563851958f5b3bc85f6c264070
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ebf8e5dbf628cf0619df0ab9906c25d75662bdc6
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016605"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048802"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist Telefonsystem in Office 365?
 

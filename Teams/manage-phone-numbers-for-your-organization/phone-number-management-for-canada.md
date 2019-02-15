@@ -1,7 +1,7 @@
 ---
 title: Telefonnummernverwaltung für Kanada
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Kanada für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: 378ec176efac54ebd291fb7fd781ca33b58e57ec
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: 2cb1e0d160585bcad75683c0d128eabd1037c70d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651097"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046618"
 ---
 # <a name="phone-number-management-for-canada"></a>Telefonnummernverwaltung für Kanada
 

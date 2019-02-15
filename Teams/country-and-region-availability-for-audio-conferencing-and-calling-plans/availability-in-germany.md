@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Deutschland
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Deutschland verfügbar.
-ms.openlocfilehash: 049c4fd1860c143b7b19bd388ac1117b964dfd09
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 65b22c4ad43564c25e337c2024c306d6960d34c9
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674746"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046666"
 ---
 # <a name="availability-in-germany"></a>Verfügbarkeit in Deutschland
 
