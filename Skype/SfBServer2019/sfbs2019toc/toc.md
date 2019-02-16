@@ -2,36 +2,13 @@
 
 ## [Neuigkeiten](../whats-new.md)
 ## [Was ist veraltet](../deprecated.md)
-## [Microsoft-telefonielösungen](../hybrid/msft-telephony-solutions.md)
+## [Microsoft-telefonielösungen](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Skype für Business-Downloads und-Updates](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Clientupdates](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Server-updates](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## Hybridlösungen für Teams und Skype für Unternehmen
-### [Planen von hybridkonnektivität](../hybrid/plan-hybrid-connectivity.md)
-
-### [Konfigurieren von hybridkonnektivität](../hybrid/configure-hybrid-connectivity.md)
-#### [Konfigurieren von Azure AD-Connect für hybridumgebungen](../hybrid/configure-azure-ad-connect.md)
-#### [Konfigurieren von Skype für hybride Business](../hybrid/configure-federation-with-skype-for-business-online.md)
-
-### [Verschieben von Benutzern zwischen lokalen und cloud](../hybrid/move-users-between-on-premises-and-cloud.md)
-#### [Verschieben von Benutzern von lokalen Teams](../hybrid/move-users-from-on-premises-to-teams.md)
-#### [Verschieben von Benutzern aus der lokalen Bereitstellung nach Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-#### [Verschieben Sie Benutzer aus der Cloud, um lokal](../hybrid/move-users-from-the-cloud-to-on-premises.md)
-#### [Verwalten der Besprechung migration](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
-
-### [Deaktivieren Sie zum Abschließen der Migration zur Cloud hybrid](../hybrid/cloud-consolidation-disabling-hybrid.md)
-
-### [Bereitstellen einer Topologie mit Ressourcengesamtstruktur](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-
-### [Cloud-Konsolidierung für Teams und Skype für Unternehmen](../hybrid/cloud-consolidation.md)
-#### [Aktualisieren des Edge-Zertifikats](../hybrid/cloud-consolidation-edge-certificates.md)
-
-#### [Update AAD Herstellen einer Verbindung mit mehr als einer Gesamtstruktur einschließen](../hybrid/cloud-consolidation-aad-connect.md)
-
-### [Integration mit Exchange und SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-
+## [Hybridlösungen für Teams und Skype für Unternehmen](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Planen
 ### [Topologiegrundlagen](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -119,13 +96,13 @@
 #### [Anruf über Arbeit](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Remoteanrufsteuerung](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### Cloud-Voicemail
-#####[Planen von Cloud-Voicemail](../hybrid/plan-cloud-voicemail.md)
-##### [Konfigurieren von Cloud-Voicemail](../hybrid/configure-cloud-voicemail.md)
+#####[Planen von Cloud-Voicemail](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [Konfigurieren von Cloud-Voicemail](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Unified Messaging](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Übersicht über die Bereitstellung](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Einheitlicher Kontaktspeicher](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
-#### [Planen von Skype für Business Server und Exchange Server-migration](../hybrid/plan-um-migration.md)
+#### [Planen von Skype für Business Server und Exchange Server-migration](../../sfbhybrid/hybrid/plan-um-migration.md)
 #### [Exchange Unified Messaging-Migration Onlinesupport](../plan/exchange-unified-messaging-online-migration-support.md)
 
 ### [Überwachung](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -160,7 +137,7 @@
 #### [Benutzermodelle](../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
-## Bereitstellen von
+## Bereitstellen
 ### [Installieren ](../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Installieren erforderlicher Komponenten](../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Create a file share](../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -434,8 +411,8 @@
 ###### [Location Trend Report](../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Meinen Anruf bewerten](../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### Rufen Sie Daten Connector
-##### [Planen der Anruf Data Connector](../hybrid/plan-call-data-connector.md)
-##### [Konfigurieren von Anruf Daten Connector](../hybrid/configure-call-data-connector.md)
+##### [Planen der Anruf Data Connector](../../sfbhybrid/hybrid/plan-call-data-connector.md)
+##### [Konfigurieren von Anruf Daten Connector](../../sfbhybrid/hybrid/configure-call-data-connector.md)
 
 ### [Archiving](../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Optionen](../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

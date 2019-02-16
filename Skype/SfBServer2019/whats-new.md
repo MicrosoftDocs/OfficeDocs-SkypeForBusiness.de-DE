@@ -1,5 +1,5 @@
 ---
-title: Neuigkeiten in Skype für Business Server 2019 | Features
+title: Neuigkeiten in Skype für Business Server 2019 | Funktionen
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features sind neu in Skype für Business Server 2019.'
-ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348884"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058982"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Was ist in Skype für Business Server 2019
 
@@ -35,7 +35,7 @@ Cloud-Voicemail aktiviert alle Ihre Skype für Business 2019 Users& #x 2014; ob 
 - Zugriff auf Voicemail in ihrer Exchange-Postfach mithilfe der Skype für Business Online, Teams oder Outlook-clients
 - Die Möglichkeit, verwenden das webbasierte Portal Verwalten ihrer Voicemail-Optionen
 
-Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](hybrid/plan-cloud-voicemail.md) und [Skype für Business Server und Exchange Server-Migration planen](hybrid/plan-um-migration.md) .
+Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../sfbhybrid/hybrid/plan-cloud-voicemail.md) und [Skype für Business Server und Exchange Server-Migration planen](../sfbhybrid/hybrid/plan-um-migration.md) .
   
 ## <a name="call-monitoring-call-data-connector"></a>Rufen Sie monitoring: Anruf Data Connector
 
@@ -47,7 +47,7 @@ Mit Data Connector aufrufen, können Sie die folgenden Aufgaben ausführen, mith
 - Zeigen Sie an und beheben Sie Probleme in Ihrem Netzwerk
 - Zuweisen von Helpdesk und Administrator Rollen für aufrufen, Analyse, sodass Mitarbeiter anzeigen und beheben Verantwortungsbereich Helpdesk Webinhalte.
 
-Weitere Informationen finden Sie unter [Planen der Call Data Connector](hybrid/plan-call-data-connector.md) .
+Weitere Informationen finden Sie unter [Planen der Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) .
 
 ### <a name="see-also"></a>Siehe auch
 

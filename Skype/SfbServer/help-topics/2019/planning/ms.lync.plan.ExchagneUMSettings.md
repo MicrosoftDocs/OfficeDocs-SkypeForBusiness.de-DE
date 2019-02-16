@@ -1,5 +1,5 @@
 ---
-title: Exchange Unified Messaging-Einstellungen (Planungstool)
+title: Exchange Unified Messaging Settings (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,23 +13,23 @@ localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype für Business Server 2015 unterstützt die Integration mit Exchange Unified Messaging (UM) zum Kombinieren von Voicemessaging und e-Mail-messaging in einer einzigen Messaginginfrastruktur.
-ms.openlocfilehash: 7e9e830b2b3db47a9cd4440c90d165dc1a9fa9ca
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f27e10fee5384c0718267ab424deacacaf24278a
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261021"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059130"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging-Einstellungen (Planungstool) in Skype für Business 2015
 
 > [!NOTE]
-> Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+> Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
 
 Skype für Business Server 2015 unterstützt die Integration mit Exchange Unified Messaging (UM) zum Kombinieren von Voicemessaging und e-Mail-messaging in einer einzigen Messaginginfrastruktur.
 
-Ausführliche Informationen finden Sie unter:
+Ausführliche Informationen finden Sie hier:
 
-- [Planen von Exchange Unified Messaging-Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [Planning for Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
 
 - "Unified Messaging" unter[https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
 

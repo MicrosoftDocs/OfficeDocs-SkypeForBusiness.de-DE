@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype für Business Server verwendet TLS und MTLS zum Verschlüsseln von Sofortnachrichten. Für den gesamten Server-zu-Server-Datenverkehr ist MTLS erforderlich, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk begrenzt ist oder die Netzwerkgrenze überschreitet. Wenn ist das Verbinden von Skype für Business Server mit 3. Partei IPPBX Systemen oder SIP-Trunks TLS optional, wird jedoch dringend empfohlen, zwischen dem Vermittlungsserver und dem Mediengateway. Wenn TLS auf dieser Verbindung konfiguriert ist, ist MTLS erforderlich. Aus diesem Grund muss das Gateway mit einem Zertifikat von einer Zertifizierungsstelle konfiguriert werden, die der Vermittlungsserver vertrauenswürdig ist.
-ms.openlocfilehash: 1a109bea59644e00b3b010c42d9b12918296b47c
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 7ed4297ef766b769827b6805087d02f0ad708fe7
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789376"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069632"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Verschlüsselung für Skype für Business Server
  
@@ -34,7 +34,7 @@ In der folgenden Tabelle sind die Protokollanforderungen für jeden Datenverkehr
 |:-----|:-----|
 |Server-zu-Server  <br/> |MTLS  <br/> |
 |Client-zu-Server  <br/> |TLS  <br/> |
-|Chat und Anwesenheit  <br/> |TLS  <br/> |
+|Chat und Anwesenheit  <br/> |TLS   <br/> |
 |Audio und Video und Desktopfreigaben von Medien  <br/> |SRTP  <br/> |
 |Desktopfreigabe (Signal)  <br/> |TLS  <br/> |
 |Webkonferenzen  <br/> |TLS  <br/> |
@@ -45,7 +45,7 @@ In der folgenden Tabelle sind die Protokollanforderungen für jeden Datenverkehr
 Mediendatenverkehr wird über Secure RTP (SRTP) verschlüsselt, ein Profil von RTP (Real-Time Transport-Protokoll), das Vertraulichkeit, Authentifizierung und Schutz vor Replay-Angriffen für RTP-Datenverkehr bereitstellt. Darüber hinaus werden Medien, die in beide Richtungen zwischen dem Vermittlungsserver und seinem internen nächsten Hop übertragen werden, ebenfalls über SRTP verschlüsselt. Medien, die in beide Richtungen zwischen dem Vermittlungsserver und einem Mediengateway übertragen werden, werden optional verschlüsselt (empfohlen). Der Vermittlungsserver kann die Verschlüsselung an das Mediengateway unterstützen, aber das Gateway muss MTLS und das Speichern eines Zertifikats unterstützen.
   
 > [!NOTE]
-> Weitere Informationen zum Einrichten von Hybriden finden Sie unter [Planen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md).
+> Weitere Informationen zum Einrichten von Hybriden finden Sie unter [Planen von hybridkonnektivität](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
   
 ## <a name="fips"></a>FIPS
 

@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 18c5c87d437235733e9ffc7c8a1ec60883a33305
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373808"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069617"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
 
@@ -86,17 +86,17 @@ CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detailli
 |**Funktion**|**Zusammenfassungsberichte**|**Detaillierte Berichte**|
 |:-----|:-----|:-----|
 |Anwendungsfreigabemetrik  <br/> |Nein  <br/> |Ja  <br/> |
-|Unterstützung von Kunden-Gebäudeinformationen  <br/> |Ja  <br/> |Ja  <br/> |
+|Unterstützung von Kunden-Gebäudeinformationen  <br/> |Ja   <br/> |Ja   <br/> |
 |Drilldown-Analyse-Support  <br/> |Nein  <br/> |Ja  <br/> |
 |Medienzuverlässigkeitsmetriken  <br/> |Nein  <br/> |Ja  <br/> |
-|Sofort einsatzbereite Berichte  <br/> |Ja  <br/> |Ja  <br/> |
-|Übersichtsberichte  <br/> |Ja  <br/> |Ja  <br/> |
+|Sofort einsatzbereite Berichte  <br/> |Ja   <br/> |Ja   <br/> |
+|Übersichtsberichte  <br/> |Ja   <br/> |Ja   <br/> |
 |Berichtssatz pro Nutzer  <br/> |Nein  <br/> |Ja  <br/> |
 |Anpassung des Berichtssatzes (Hinzufügen, Löschen, Ändern von Berichten)  <br/> |Nein  <br/> |Ja  <br/> |
 |Videobasierte Bildschirmfreigabe-Metriken  <br/> |Nein  <br/> |Ja  <br/> |
 |Videometriken  <br/> |Nein  <br/> |Ja  <br/> |
 |Verfügbare Datenmenge  <br/> |Letzte 6 Monate  <br/> |Letzte 6 Monate  <br/> |
-|Microsoft Teams-Daten  <br/> |Ja  <br/> |Ja  <br/> |
+|Microsoft Teams-Daten  <br/> |Ja  <br/> |Ja   <br/> |
    
 ### <a name="out-of-the-box-reports"></a>Sofort einsatzbereite Berichte
 
@@ -167,7 +167,7 @@ Wie es der Name bereits besagt, handelt es sich hier um das Klassifizierungskrit
 > Wenn wir von einem Datenstrom ausgehen und einer der beiden Endpunkte mit einem WLAN verbunden ist, wird er im AQD als WLAN klassifiziert. 
   
 ## <a name="selecting-product-data-to-see-in-reports"></a>Auswählen der Produktdaten, die in Berichten angezeigt werden sollen
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKProductFilter"></a>
 
 In den Zusammenfassungsberichten und erweiterten Standortberichten können Sie mithilfe der Dropdownliste **Produktfilter** alle Produktdaten, nur Microsoft Teams-Daten oder nur Skype for Business Online-Daten anzeigen.
   
@@ -176,7 +176,7 @@ In den Zusammenfassungsberichten und erweiterten Standortberichten können Sie m
 In ausführliche Berichte können Sie die Dimension **Teams ist** zum Filtern der Daten zu Microsoft-Teams oder Skype für Business Online-Daten als Teil der Definition des Berichts.
   
 ## <a name="upload-building-information"></a>Hochladen von Gebäudeinformationen
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKBuildingInformationUpload"></a>
 
 Das Dashboard für AQD-Zusammenfassungsberichte enthält die Seite **Upload von Mandantendaten**, auf die Sie zugreifen können, indem Sie rechts oben im Einstellungsmenü die Option **Upload von Mandantendaten** auswählen. Diese Seite wird von Administratoren zum Hochladen ihrer eigenen Informationen verwendet, wie z. B. Zuordnung von IP-Adressen und geografischen Informationen, Zuordnung der einzelnen Funkzugriffspunkte und ihrer MAC-Adressen usw.
   
@@ -231,7 +231,7 @@ Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um
 |BuildingType  <br/> |Zeichenfolge  <br/> |IT Termination  <br/> |
 |BuildingOfficeType  <br/> |Zeichenfolge  <br/> |Engineering  <br/> |
 |Ort  <br/> |Zeichenfolge  <br/> |Seattle  <br/> |
-|Postleitzahl  <br/> |Zeichenfolge  <br/> |98001  <br/> |
+|ZipCode  <br/> |Zeichenfolge  <br/> |98001  <br/> |
 |Land  <br/> |Zeichenfolge  <br/> |USA  <br/> |
 |Bundesland  <br/> |Zeichenfolge  <br/> |WA  <br/> |
 |Region  <br/> |Zeichenfolge  <br/> |MSUS  <br/> |
@@ -242,7 +242,7 @@ Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um
 > Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bestimmte VPN-Implementierungen meldet nicht genau die Subnetzinformationen. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich). 
   
 ## <a name="selecting-media-type-in-detailed-reports"></a>Auswählen eines Medientyps in detaillierten Berichten
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKMediaType"></a>
 
 Mit detaillierten Berichten können die Qualität und die Medienzuverlässigkeit von Medientypen für Audio, Video, Anwendungsfreigabe und videobasierte Bildschirmübertragung ermittelt werden. Dimensionen und Measures Filter, die für einen einzelnen Medientyp spezifisch sind haben "Audio", "Video", "AppSharing" oder "VBSS" als Präfix.
   
@@ -253,11 +253,11 @@ Wenn Sie die Dimensionen und Kennzahlen für einen einzelnen Medientyp anzeigen 
 ![Call Quality Dashboard Total Stream Count.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Einrichten von Skype for Business-Anrufanalyse](set-up-call-analytics.md)
+[Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md)
 
 [Verwenden Sie Analytics rufen Sie für die Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype for Business
 description: Skype for Business
-ms.openlocfilehash: 24dfdfe08474bb6f3cb715012a881760d6e7fa89
-ms.sourcegitcommit: ee8996ce081039f61c070f5b0b3fd6294ea4a5f5
+ms.openlocfilehash: 47a7383bb6383c1dad338dc022c9f4e471210a86
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "29561971"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069460"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -40,7 +40,7 @@ ms.locfileid: "29561971"
                                 </a>
                             </li>
                             <li>
-                                <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
+                                <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -106,7 +106,7 @@ ms.locfileid: "29561971"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Teams</h3>
+                                                    <h3>Microsoft Teams</h3>
                                                     <p>Holen Sie sich die Planung, das Vorgehen und den Leitfaden, die Sie für die erfolgreiche Einführung von Microsoft Teams benötigen.</p>
                                                 </div>
                                             </div>

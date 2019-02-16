@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a96205f1971207f81d6191ef46e1be25e063f4c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 6fe6a097ba413c81d90f5fe519c5d6cbf1377a98
+ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699772"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30062655"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Übersicht über dynamische Mitgliedschaft für Teams
 
@@ -33,8 +33,11 @@ Verwenden dieses Feature, ein bestimmtes Team Mitglieder Update automatisch basi
 Microsoft-Teams, kann an einer beliebigen Stelle von ein paar Minuten, bis zu 2 Stunden dauern dynamischen mitgliedschaftsänderungen aktualisiert, sobald sie in der Office 365-Gruppe für ein Team wirksam werden. 
 
 > [!NOTE]
-> - Regeln können Teammitglieder, aber nicht Team Besitzer definieren.
+> - Regeln können definieren, die ein Teammitglied ist, jedoch nicht, die ein Team Besitzer ist.
 > - Aktuelle Einschränkungen für Teams und der Kanal Größen finden Sie unter [Limits und Spezifikationen für Microsoft-Teams](limits-specifications-teams.md) .
+> - Besitzer werden nicht hinzufügen oder Entfernen von Benutzern als Mitglieder des Teams, da durch Regeln für die dynamische Gruppe Mitglieder definiert sind.
+> - Elemente werden nicht verlassen können Teams, die auf dynamische Gruppen.
+
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Erstellen und Verwalten von einer Office 365-Gruppe mit dynamischen Mitgliedschaft
 Beim Anmelden als den Mandanten Admin, befolgen Sie die Anweisungen in [einer dynamischen Gruppe erstellen und überprüfen Sie Status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Bei Bedarf finden Sie unter [Regeln für die dynamische Mitgliedschaft für Azure Active Directory-Gruppen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).

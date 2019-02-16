@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Zusammenfassung: Erkunden Sie diese Links, um Informationen zum Implementieren von Skype für Business Server 2015.'
-ms.openlocfilehash: cfd3745b2b8e43c475028595e4bd8b8e9b3b5266
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686515"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069639"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -43,7 +43,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
+        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -71,7 +71,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Bereitstellen von</h3>
+                        <h3>Bereitstellen</h3>
                     </div>
                 </div>
             </div>
@@ -172,7 +172,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
                     <div class="cardText">
                         <h3>Enterprise-VoIP</h3>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">Planen</a></p>
-                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">Bereitstellen von</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">Bereitstellen</a></p>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
                 <div class="card">
                     <div class="cardText">
                         <h3>Hybridlösungen</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planen von hybridkonnektivität</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planen von hybridkonnektivität</a></p>
                                        </div>
                 </div>
             </div>

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Zusammenfassung: Überprüfen der Aspekte beim Port-Nutzung vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: a014df31ad27e5ed89b97fd7ca09979d4cfb5661
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690474"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069512"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports und Protokolle-Anforderungen für Server
  
@@ -31,7 +31,7 @@ Dies mag ein Bit schwierige zunächst, den schwierigsten für die Planung, dies 
   
 Sie können auch die Informationen in diesen Tabellen in Diagrammform mithilfe Protokollarbeitsauslastungen Poster von Artikel [Technical Diagrams für Skype für Business Server 2015](../../technical-diagrams.md) verknüpft suchen.
 > [!NOTE]
-> - Wenn Sie Skype für Business Online (O365) implementieren finden Sie in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybridumgebungen müssen in diesem Thema und auch [Planen hybridkonnektivität](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)verweisen.
+> - Wenn Sie Skype für Business Online (O365) implementieren finden Sie in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybridumgebungen müssen in diesem Thema und auch [Planen hybridkonnektivität](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)verweisen.
 > - Sie können Hardware- oder Firewalls, es ist nicht erforderlich, bestimmte Modelle oder Versionen. Wichtig ist, welche Ports weißen Liste enthalten sind, sodass die Firewall beeinträchtigt wird nicht das Funktionieren des Skype für Business Server.
   
 ## <a name="port-and-protocol-details"></a>Port- und Protokolldetails

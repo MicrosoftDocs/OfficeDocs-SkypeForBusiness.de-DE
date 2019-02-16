@@ -1,5 +1,5 @@
 ---
-title: Übersicht über die Features (Planungstool)
+title: Feature Overview (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype für Business Server-Planungstool
-ms.openlocfilehash: 22f14c0d31eaed5a6518263b15a9962e4bd136d0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082608"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059144"
 ---
-# <a name="feature-overview-planning-tool"></a>Übersicht über die Features (Planungstool)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Skype für Business Server-Planungstool
   
@@ -90,7 +90,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     Skype für Business Server können Sie Voicemail-Nachrichten in Exchange Unified Messaging (UM) gespeichert haben. Diese Voicemailnachrichten werden dann als e-Mail-Nachrichten in die Posteingänge der Benutzer angezeigt.
 
     > [!NOTE]
-    > Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+    > Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="voice"></a>VoIP
 
@@ -105,7 +105,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     Exchange Unified Messaging (UM) kombiniert Voicemail und e-Mail in einer einzigen Messaginginfrastruktur. Skype für Business Server 2015 verwendet Exchange UM-Mailboxansage, Teilnehmerzugriff, anrufbenachrichtigungen und automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype für Business Server in einer freigegebenen Active Directory-Topologie zu integrieren.
 
     > [!NOTE]
-    > Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+    > Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="additional-deployment-options"></a>Weitere Bereitstellungsoptionen
 
@@ -151,7 +151,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
     Die Anwendung "Reaktionsgruppe" automatisch beantwortet und verteilt Anrufe an einen verfügbaren Helpdesk-Agent.
     
-- **Ankündigung**
+- **Ansage**
     
     Wenn Sie Enterprise-VoIP bereitstellen möchten, möchten Sie möglicherweise mehr konfigurieren wie Telefonanrufe behandelt werden, wenn die gewählte Nummer gültig, aber nicht in einen gemeinsamen Benutzerbereich zugeordnet ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vorab festgelegtes Ziel (Rufnummer, SIP-URI) übergeben werden, oder eine Audioansage wiedergegeben wird oder beides. Die Verwendung des Ankündigungsdiensts verhindert Situationen, in denen sich ein Anrufer verwählt und ein Besetztzeichen hört oder der SIP-Client eine Fehlermeldung empfängt. Die Ankündigungsdienstfunktion ist ein gängiges Feature bei Nebenstellenanlagen. 
     

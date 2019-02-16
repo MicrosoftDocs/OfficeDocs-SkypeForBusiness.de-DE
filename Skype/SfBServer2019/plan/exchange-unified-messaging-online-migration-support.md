@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 abschließen. In diesem Artikel werden zusammengefasst, was betroffen Kunden kennen und tun, um für ihre Business Continuity planen sollten.
-ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786421"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059166"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange Unified Messaging-Migration Onlinesupport  
 
@@ -44,7 +44,7 @@ Weitere Informationen über den Benutzer und Admin Erfahrung Auswirkung [Benutze
 Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von ExchUMO genutzt werden und wird basierend auf den folgenden Plan migrieren Kunden helfen werden. 
 
 
-|Kundengruppe |Zeitachse  |Beschreibung  |
+|Kundengruppe |Zeitachse  |Details  |
 |---------|---------|---------|
 |Kunden, die für die Migration bereit sind.<br><br>Features zum Migrieren:<br><ul><li>Voicemail</ul>   |   März – Mai 2019  |Beispiele:<ul><li>    Kunden mit Voicemail einfache Bereitstellung und Verwendung<li>Kunden, die gesamte erforderliche hergestellt für Microsoft zum Ausführen der Migrations<ul>|
 |Kunden mit erforderliche Komponenten<br><br>Features zum Migrieren:<br><ul><li>Voicemail<li>Automatische Telefonzentrale</ul> |  Möglicherweise – Dezember 2019 |Beispiele: <br><ul><li>Hybridkonfiguration nicht eingerichtet/abgeschlossen<li>Hybrid-PSTN-Nummern sind nicht eingerichtet</ul>|
@@ -59,7 +59,7 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 
 2.  **Einrichten einer Skype für Business hybridtopologie**
 
-    Wenn Sie keinen Skype für Business hybridtopologie eingerichtet haben, müssen Sie dafür, um eine reibungslose Migration Ihrer Voicemail-Benutzer zu aktivieren. Einzelheiten finden Sie unter [Konfigurieren von Skype für hybride Business](../hybrid/configure-federation-with-skype-for-business-online.md) . 
+    Wenn Sie keinen Skype für Business hybridtopologie eingerichtet haben, müssen Sie dafür, um eine reibungslose Migration Ihrer Voicemail-Benutzer zu aktivieren. Einzelheiten finden Sie unter [Konfigurieren von Skype für hybride Business](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) . 
 
     > [!Note]
     > Sie müssen nicht die Benutzer an die Voicemail-Service-Migration online zu migrieren. Jedoch ist eine hybridtopologie für lokale Benutzer den Voicemail cloudbasierten Dienst verwenden können, muss festgelegt werden.

@@ -14,18 +14,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte, die Sie zum Konfigurieren von Skype Besprechung übertragen für Ihre lokale Skype für Business Server hybridbereitstellung ausführen müssen.'
-ms.openlocfilehash: bae25dae268dd5ad3b3ab7862feb1156df850953
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 09b99cab45b8832be34a3219a222324d199c5195
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371394"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069469"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren der lokalen Bereitstellung von Skype-Livekonferenz
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
 **Zusammenfassung:** Informationen Sie zu den Schritten, die Sie zum Konfigurieren von Skype Besprechung übertragen für Ihre lokale Skype für Business Server hybridbereitstellung ausführen müssen.
   
-Skype Besprechung übertragen ist ein Onlinedienst, der Teil von Office 365 ist. Wenn Sie Skype für Business Server lokal ausgeführt werden und Skype Besprechung übertragen in Ihrer Umgebung verwenden möchten, müssen Sie die Konfiguration Schritte in diesem Thema. Bevor Sie beginnen, muss Ihre Umgebung für hybride mit Skype für Business Online konfiguriert werden. Weitere Informationen finden Sie unter [hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online planen](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) und [Bereitstellen von hybridkonnektivität zwischen Skype für Business Server und Skype für Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Skype Besprechung übertragen ist ein Onlinedienst, der Teil von Office 365 ist. Wenn Sie Skype für Business Server lokal ausgeführt werden und Skype Besprechung übertragen in Ihrer Umgebung verwenden möchten, müssen Sie die Konfiguration Schritte in diesem Thema. Bevor Sie beginnen, muss Ihre Umgebung für hybride mit Skype für Business Online konfiguriert werden. Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) und [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Konfigurieren der hybridumgebung für Skype Besprechung übertragen
 
@@ -49,7 +49,7 @@ Um den Verbund mit Skype für Business Onlineressourcen zu aktivieren, müssen S
 |:-----|:-----|
 |**Aktivieren Sie Kommunikation mit diesem Anbieter:** <br/> |Ausgewählt  <br/> |
 |**Anbietername:** <br/> |LyncOnlineResources  <br/> |
-|**Zugriffs-Edgedienst (FQDN):** <br/> |sipfed.Resources.Lync.com  <br/> |
+|**Zugriffs-Edgedienst (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
 |**Standardüberprüfungsstufe:** <br/> |Benutzern die Kommunikation mit jedem erlauben, der diesen Anbieter verwendet  <br/> |
    
 Sie können auch mit Skype-Verbund für Business Onlineressourcen aktivieren, indem Sie das folgende Cmdlet in der Skype für Business Server-Verwaltungsshell ausführen:
@@ -68,13 +68,13 @@ Im nächsten Schritt müssen Sie SIP Federated Domains die Liste der zulässigen
     
 3. Geben Sie als **Domänenname (oder FQDN):** die Domäne ein und wiederholen Sie diese Vorgehensweise für alle folgenden Domänen:
     
-   - noammeetings.Lync.com
+   - noammeetings.lync.com
     
-   - emeameetings.Lync.com
+   - emeameetings.lync.com
     
-   - apacmeetings.Lync.com
+   - apacmeetings.lync.com
     
-   - Resources.Lync.com
+   - resources.lync.com
     
 Sie können auch den externen Zugriff für SIP-Verbund Domänen konfigurieren, indem Sie die folgenden Cmdlets in der Skype für Business Server-Verwaltungsshell ausführen:
   

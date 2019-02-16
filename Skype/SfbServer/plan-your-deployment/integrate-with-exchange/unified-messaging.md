@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen der Integration von Skype für Business Server mit Exchange 2013 oder 2016.'
-ms.openlocfilehash: f560df43ab6347890cc5a3b956d43ed37a55bdf3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263900"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059187"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planen der Integration von Exchange Unified Messaging in Skype for Business
 
@@ -27,7 +27,7 @@ Skype für Business Server unterstützt die Integration mit Exchange Unified Mes
 In Microsoft Exchange Server 2013 und 2016 führt Exchange UM als Dienst auf einem Exchange-Postfachserver. Für Skype für Business Server Enterprise-VoIP-Bereitstellungen kombiniert Unified Messaging Voicemessaging und e-Mail-messaging in einer einzelnen Informationsspeicher, den Benutzer über ein Telefon (Outlook Voice Access) oder einem Computer zugreifen können. Unified Messaging und Skype für Business Server arbeiten zusammen, um Benutzern von Enterprise-VoIP-Anrufbeantwortung, Outlook Voice Access und automatische Telefonzentrale bereitzustellen.
 
 > [!NOTE]
-> Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren. Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird aufgehoben wird Cloud Voicemail und Cloud-Telefonzentrale Features emphasised Exchange UM-Integration.  Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) und [Skype für Business Server und Exchange Server-Migration planen](../../../SfBServer2019/hybrid/plan-um-migration.md) .
+> Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren. Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird aufgehoben wird Cloud Voicemail und Cloud-Telefonzentrale Features emphasised Exchange UM-Integration.  Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) und [Skype für Business Server und Exchange Server-Migration planen](../../../sfbhybrid/hybrid/plan-um-migration.md) .
 
 
 Für diese Features in einer lokalen Exchange UM-Bereitstellung unterstützt werden müssen Sie eine der folgenden ausführen:
@@ -38,7 +38,7 @@ Für diese Features in einer lokalen Exchange UM-Bereitstellung unterstützt wer
 - Microsoft Exchange Server 2019 (Skype für Business Server 2019 nur)
 
 > [!NOTE]
-> Exchange Unified Messaging als ist früher nicht mehr verfügbar in Skype für Business Server 2019, die Telefonsystem zum Aufzeichnen von Voicemailnachrichten, und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers verwendet. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) .
+> Exchange Unified Messaging als ist früher nicht mehr verfügbar in Skype für Business Server 2019, die Telefonsystem zum Aufzeichnen von Voicemailnachrichten, und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers verwendet. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>Features von integrierten Unified Messaging und Skype für Business Server
 
@@ -52,7 +52,7 @@ Skype für Business Server, Enterprise-VoIP verwendet die Infrastruktur für Exc
 
 - **Automatische Telefonzentrale** Automatische Telefonzentrale ist eine Exchange UM-Funktion, die verwendet werden kann, so konfigurieren Sie eine Telefonnummer ein, die externe Benutzer wählen können, um Unternehmensmitarbeiter zu erreichen. Diese Funktion stellt ferner verschiedene Ansagen bereit, die einem externen Anrufer die Navigation in einem Menüsystem ermöglichen. Die Liste der verfügbaren Optionen wird vom Exchange UM-Administrator auf dem Exchange UM-Server konfiguriert.
 
-- **Faxdienste** Exchange UM umfasst faxfeatures, die damit Benutzer eingehende Faxe in ihren Exchange-Postfächern empfangen können. Weitere Informationen hierzu finden Sie in der Dokumentation zu Microsoft Exchange Server [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) .
+- **Faxdienste** Exchange UM umfasst faxfeatures, die damit Benutzer eingehende Faxe in ihren Exchange-Postfächern empfangen können. Ausführliche Informationen zu diesem Thema finden Sie unter [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) in der Microsoft Exchange Server-Dokumentation.
 
     > [!NOTE]
     > Faxdienste des Exchange UM-Servers stehen nicht in Skype für Business Server-Bereitstellungen, die in Microsoft Exchange Server 2010, Exchange 2010 mit dem neuesten Servicepack, Exchange 2013 oder Exchange 2016 integriert sind.
@@ -132,13 +132,13 @@ Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messagi
 
 Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging auf Microsoft Exchange Server 2010 finden Sie unter:
 
-- [Aktivieren von Unified Messaging in Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [Aktivieren von Unified Messaging in Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Deaktivieren von Unified Messaging in Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Deaktivieren von Unified Messaging in Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-Exchange Unified Messaging ist nicht mehr vorhanden in Exchange 2019, wenn Sie die Exchange-2019 haben und entsprechende Funktionalität Sie den in der [Cloud Voicemail planen Service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md)beschriebenen Cloud Voicemail-Dienst verwenden müssen soll.
+Exchange Unified Messaging ist nicht mehr vorhanden in Exchange 2019, wenn Sie die Exchange-2019 haben und entsprechende Funktionalität Sie den in der [Cloud Voicemail planen Service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)beschriebenen Cloud Voicemail-Dienst verwenden müssen soll.
 
 
 ## <a name="see-also"></a>Siehe auch
