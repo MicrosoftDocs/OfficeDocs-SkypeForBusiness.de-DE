@@ -117,7 +117,7 @@
 
 # [Besprechungen und Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
-## [Verwalten von Besprechungsrichtlinien](meeting-policies-in-teams.md)]
+## [Verwalten von Besprechungsrichtlinien](meeting-policies-in-teams.md)
 ## [Verwalten von Einstellungen für Besprechungen](meeting-settings-in-teams.md)
 ## [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
