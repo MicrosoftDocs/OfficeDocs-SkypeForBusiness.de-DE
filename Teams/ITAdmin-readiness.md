@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Schulungsvideos, PowerPoint-Präsentationen, Lernprogramme und andere Ressourcen für Administratoren zum Planen, bereitstellen und Ausführen von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
+ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062623"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "30079133"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 
@@ -94,7 +94,7 @@ Verwenden Sie die Schulungsressourcen informieren Sie sich über Teams, andere P
 | Einführung in Besprechungen | [Video](http://aka.ms/teams-meetings-intro) | [Deck](http://aka.ms/teams-meetings-intro-deck) |
 | Einführung in die Telefon-System | [Video](http://aka.ms/teams-phone-system) | [Deck](http://aka.ms/teams-phone-system-deck) |
 | Direktes Routing | [Video](http://aka.ms/teams-direct-routing) | [Deck](http://aka.ms/teams-direct-routing-deck) |
-| Upgrade von Skype for Business auf Microsoft Teams | [Video 1: Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Planen des Upgrades](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Interoperabilität und Koexistenz](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administratorbenutzeroberfläche](https://aka.ms/teams-upgrade-admin) | [Deck](htt://aka.ms/teams-upgrade-deck)|
+| Upgrade von Skype for Business auf Microsoft Teams | [Video 1: Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Planen des Upgrades](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Interoperabilität und Koexistenz](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administratorbenutzeroberfläche](https://aka.ms/teams-upgrade-admin) | [Deck](http://aka.ms/teams-upgrade-deck)|
 
 <h2>Schnellstarthandbücher</h2>
 
