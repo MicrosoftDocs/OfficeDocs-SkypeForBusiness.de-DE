@@ -1,5 +1,5 @@
 ---
-title: Versuchen Sie es oder erwerben Audiokonferenzen in Office 365 für Microsoft-Teams
+title: Testen oder Kaufen von Audiokonferenz in Office 365 für Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 1b04a2506bd495165afcdf3e9f41ed6db6cd9252
-ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
+ms.openlocfilehash: 58abec46586e93c2eb9b7fccdc1190cf9cf4c778
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26544404"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120758"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Versuchen Sie es oder erwerben Audiokonferenzen in Office 365 für Microsoft-Teams
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Testen oder Kaufen von Audiokonferenz in Office 365 für Microsoft Teams
 
 Manchmal müssen Personen in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Microsoft-Teams, enthält das Feature Audiokonferenzen nur in dieser Situation! Personen können Microsoft-Teams, Besprechungen mit einem Telefon ein, anstatt die Microsoft-Teams app auf einem mobilen Gerät oder PC anrufen.
 
@@ -48,11 +48,11 @@ Sie müssen ein [globaler Administrator oder Abrechnungsadministrator](https://s
 
    - **Versuchen Sie es** , bevor Sie es kaufen: Sie können melden Sie sich für eine kostenlose Testversion von Office 365 Enterprise E5, die Audiokonferenz enthält. Siehe [Testversion von Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Kaufen**: finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Kaufen**: finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 3. [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) den Mitarbeitern in Ihrer Organisation zu, die Besprechungen planen oder leiten werden.
 
-4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Anweisungen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Anweisungen finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Pay-per-Minute Lizenzen für Audiokonferenz kaufen und zuweisen:
 

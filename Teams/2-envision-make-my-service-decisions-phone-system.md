@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593966"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120570"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -88,20 +88,20 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen p
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Telefonnummern und Notfallstandorte
 
-Mit Aufrufen in Office 365-Pläne muss jeder Benutzer in Ihrer Organisation eine eindeutige direkte nach innen einwählen Telefonnummer (DID) und eine entsprechende überprüfte Notfall Adresse haben. Überprüfen Sie [Verwalten Cloud VoIP Telefonnummern](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) klicken, um das Telefon Nummer Erwerb für die Implementierung des Plans aufrufen planen.
+Mit Aufrufen in Office 365-Pläne muss jeder Benutzer in Ihrer Organisation eine eindeutige direkte nach innen einwählen Telefonnummer (DID) und eine entsprechende überprüfte Notfall Adresse haben. Überprüfen Sie [Verwalten Cloud VoIP Telefonnummern](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) klicken, um das Telefon Nummer Erwerb für die Implementierung des Plans aufrufen planen.
 
 Beim Konfigurieren von Telefonnummern für den Aufruf von plant müssen Sie eine Notfall Adresse an jede Telefonnummer zuweisen, bevor Sie die Nummer, die einem Benutzer zuweisen. Dieser Schritt ist für die Unterstützung von Notrufen erforderlich. Die Notfall-Adresse muss überprüft werden, um sicherzustellen, dass es im richtigen Format von den Diensten für Notfallmaßnahmen geeignet ist.
 
 > [!IMPORTANT]
-> Notdienste aufrufen funktioniert anders im Dienst aufrufen plant als in herkömmlichen Telefondienste. Es ist wichtig, dass Sie diese Unterschiede und allen Benutzern zu kommunizieren. Einzelheiten finden Sie unter [Emergency Aufrufen von allgemeinen Geschäftsbedingungen](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) .
+> Notdienste aufrufen funktioniert anders im Dienst aufrufen plant als in herkömmlichen Telefondienste. Es ist wichtig, dass Sie diese Unterschiede und allen Benutzern zu kommunizieren. Einzelheiten finden Sie unter [Emergency Aufrufen von allgemeinen Geschäftsbedingungen](emergency-calling-terms-and-conditions.md) .
 
 Zusätzlich zur Bereitstellung einer validierten Notfall Adresse, können Sie notfallstandorten definieren und die überprüften Notfall-Adresse Geben Sie eine genauere Position innerhalb einer Adresse zuordnen. Ein Notfallstandort ist meist die Gebäudenummer, das Stockwerk, der Gebäudeflügel oder die Nummer des Zimmers, in dem sich der Benutzer befindet.
 
 Weitere Informationen zum notfallstandorten im Verhältnis zum Aufrufen von plant, überprüfen Sie in den folgenden Artikeln:
 
--   [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+-   [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](what-are-emergency-locations-addresses-and-call-routing.md)
 
--   [Nutzungsbedingungen für Notrufe](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
 <br>
 
@@ -130,7 +130,7 @@ Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt 
 
 Die Standardeinstellung ist Telefonsystem Voicemail mit Exchange Online; Es wurde jedoch eine minimale unterstützte Exchange lokale Version und Bereitstellungsmodell um Übermittlung von Voicemailnachrichten auf Benutzerpostfächer in der lokalen Exchange-Bereitstellung zu ermöglichen.
 
-Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung aktiviert werden müssen. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung aktiviert werden müssen. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md) .
 
 >[!NOTE]
 > Als Ausweichmechanismus kann Voicemail für Telefonsysteme Nachrichten über SMTP erneut senden. Das bedeutet, dass Benutzer mit einem Postfach in einem E-Mail-System eines Drittanbieters ihre Voicemailnachrichten erhalten. Dieser Mechanismus umfasst nicht garantiert Service Betriebszeit oder andere Voicemail-Features, beispielsweise Voicemail-Ansage ändern.
@@ -174,11 +174,11 @@ Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer
 > 
 > |Benutzer  |Maskierung für ausgehende Anrufer-IDs aktivieren  |Art der Anrufer-ID-Maskierung  |Außerkraftsetzung durch Benutzer zulassen  | Maskierung für eingehende Anrufer-IDs aktivieren  |
 > |---------|---------|---------|---------|---------|
-> |Emily Braun|Nein|n/v|Ja|Nein|
+> |Emily Braun|Nein|n/v|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Nein|
 > |Lidia Holloway|Ja|Servicenummer (OrgAA, +44 20 7946 0000)|Nein|Ja|
-> |Louis Lahr|Nein|n/v|Ja|Nein|
+> |Louis Lahr|Nein|n/v|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Nein|
 > |Marcel Beauchamp|Ja|Servicenummer (OrgAA, TBA)|Nein|Ja|
-> |Rachelle Cormier|Ja|Anonymisieren|Ja|Nein|
+> |Rachelle Cormier|Ja|Anonymisieren|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Nein|
 > |Isabell Potvin|Ja|Servicenummer (OrgAA, TBA)|Nein|Ja|
 
 <!--ENDOFSECTION-->
@@ -214,9 +214,9 @@ Sie können Communications haben für Ihre Organisationen durch Benutzer einrich
 
 Weitere Informationen zum Telefonsystem und Pläne aufrufen, überprüfen Sie in den folgenden Artikeln:
 
--   [Telefonsystem](https://products.office.com/skype-for-business/phone-system)
+-   [Telefonsystem](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [Anrufpläne](https://products.office.com/skype-for-business/calling-plans)
+-   [Anrufpläne](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
@@ -247,7 +247,7 @@ Bei der Implementierung von Kommunikationsguthaben müssen Sie zunächst überle
 
 Für die Implementierung des Plans aufrufen können Sie die Verwendung von Communications haben für jeden Benutzer einzeln, steuern, die welche wird sichergestellt, dass Sie diese Laufzeit Ausrichtung mit Ihrer geschäftlichen Anforderungen zugewiesen haben.
 
-Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Communications haben?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Weitere Informationen zum Communications haben, überprüfen Sie [Was sind Communications haben?](what-are-communications-credits.md).
 
 <br>
 
@@ -297,11 +297,11 @@ Die zwei Arten von Telefonnummern in Microsoft Cloud VoIP-Lösungen sind:
 
 -   Service, verfügbare Nummern als gebührenpflichtige oder gebührenfreie Service Zahlen, die höheren Kapazität für gleichzeitige Anrufe als Abonnenten Zahlen und Diensten wie etwa Audiokonferenzen, automatischen Telefonzentralen oder rufen Sie Warteschlangen zugewiesen werden können.
 
-Weitere Informationen zu den Arten von Telefonnummern finden Sie unter [verschiedenen Arten von Telefonnummern für den Aufruf von plant verwendet](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
+Weitere Informationen zu den Arten von Telefonnummern finden Sie unter [verschiedenen Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 Die Gesamtzahl der Telefonnummern, die Sie herunterladen können, abhängig von den Typ der Telefonnummer und die Anzahl der Lizenzen, die Sie erworben und Ihren Benutzern zugewiesen haben.
 
-Weitere Informationen über die Gesamtzahl der Telefonnummern, die Sie herunterladen können, finden Sie unter [wie viele Rufnummern erhalten Sie?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+Weitere Informationen über die Gesamtzahl der Telefonnummern, die Sie herunterladen können, finden Sie unter [wie viele Rufnummern erhalten Sie?](how-many-phone-numbers-can-you-get.md)
 
 <br>
 
@@ -322,9 +322,9 @@ Als Alternative (wenn es sich um eine partielle Port unterstützt wird) können 
 
 Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planung, Koordination und angemessen verwalten beteiligten erwartet. Finden Sie weitere Informationen finden Sie in den folgenden Artikeln:
 
--   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md)
 
--   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Übertragen von Telefonnummern – häufig gestellte Fragen](transferring-phone-numbers-common-questions.md)
 
 <br>
 
@@ -356,7 +356,7 @@ Die effektive Wähleinstellungen, die Benutzern zugewiesen ist eine Kombination 
 > [!IMPORTANT]
 > In jeder Mandant Wähleinstellungen kann bis zu 25 Normalisierungsregeln sein. Daher ist es wichtig, zu vermeiden, Duplizierung von Normalisierungsregeln, die bereits verfügbar sind als Teil des Diensts Wählplan.
 
-Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+Weitere Informationen zu Wählplänen finden Sie unter [Was sind Wählpläne?](what-are-dial-plans.md).
 
 <br>
 
@@ -370,7 +370,7 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 > 
 > |Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>True|
 > ||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
 > ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
 > ||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|

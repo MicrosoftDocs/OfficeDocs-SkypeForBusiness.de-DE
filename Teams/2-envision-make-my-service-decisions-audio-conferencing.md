@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694775"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120716"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -72,7 +72,7 @@ Nach Bestätigung, dass Ihre Organisation berechtigt ist auf der Grundlage den A
 > [!TIP]
 > Es folgt ein Beispiel einer Audiokonferenz-Aktivierung-Liste Websitevorlage:
 > 
-> |Niederlassung   |Standort |PSTN-Konferenzdienst  |
+> |Office   |Standort |PSTN-Konferenzdienst  |
 > |---------|---------|---------|
 > |One Epping Road|Australien|Audiokonferenzen|
 > |100 Cyberport Road|Hong Kong SAR (香港特別行政區)|Legacy-PSTN-Konferenz|
@@ -84,20 +84,20 @@ Nach Bestätigung, dass Ihre Organisation berechtigt ist auf der Grundlage den A
 
 ## <a name="licensing-for-audio-conferencing"></a>Lizenzierung für Audiokonferenzen
 
-Eine [Audiokonferenz Lizenz](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) steht als Teil der Office 365 E5 Abonnementpläne oder als Add-on-Dienst auf Office 365 E1 oder E3 für Office 365-abonnementtarife.
+Eine [Audiokonferenz Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) steht als Teil der Office 365 E5 Abonnementpläne oder als Add-on-Dienst auf Office 365 E1 oder E3 für Office 365-abonnementtarife.
 
 > [!NOTE]
 > Drittanbieter-Audiokonferenzanbieter (ACPs) unterstützt keine PSTN oder Dial-in Conferencing in Teams.
 > <br>Wenn Sie den PSTN-Konferenzdienst für Skype for Business bereits verwenden, können Sie unmittelbar die Vorteile des Audiokonferenzdiensts in Teams nutzen.
 
-Anzugebende gebührenfreie Konferenz Bridge Telefonnummern und zur Unterstützung von Konferenzen Anwahl auf internationale Telefonnummern, müssen Sie für Ihre Organisation [Communications haben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) einrichten.
+Anzugebende gebührenfreie Konferenz Bridge Telefonnummern und zur Unterstützung von Konferenzen Anwahl auf internationale Telefonnummern, müssen Sie für Ihre Organisation [Communications haben](what-are-communications-credits.md) einrichten.
 
 > [!IMPORTANT]
 > In einigen Ländern sind von nur Telefonnummern der gebührenfreie Konferenz-Brücke bedient. Zur Unterstützung der Zugriffsnummer für Einwahl in diesen Ländern müssen Sie Communications haben verwenden.
 
 Der erste Aspekt beim Implementieren von Kommunikation haben entscheiden, die Anfangsgröße des Mittel ist, die Sie kaufen möchten. Wenn Ihre Organisation entscheidet, Auto-Ladeleuchte verwenden, müssen Sie die Trigger Menge (niedrigste Betrag der Mittel) und den Auto-Ladeleuchte entscheiden. Nutzung von tatsächlichen wird die automatische Ladeleuchte bestimmen. Überwachen der Nutzung von Communications haben über einen Zeitraum, und passen Sie den Betrag Ladeleuchte nach Bedarf.
 
-Weitere Informationen finden Sie Informationen zu Communications haben [hier](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Weitere Informationen finden Sie Informationen zu Communications haben [hier](what-are-communications-credits.md).
 
 <br>
 
@@ -165,7 +165,7 @@ Lesen Sie mehr über die Konferenz Bridge Rufnummern finden Sie in den folgenden
 
 -   [Anfordern von Servicenummern](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
--   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Übertragen von Telefonnummern an Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
 
@@ -302,7 +302,7 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 
 -   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Übertragen von Telefonnummern – häufig gestellte Fragen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 
@@ -348,7 +348,7 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 > 
 > |Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>True|
 > ||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
 > ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
 > ||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|

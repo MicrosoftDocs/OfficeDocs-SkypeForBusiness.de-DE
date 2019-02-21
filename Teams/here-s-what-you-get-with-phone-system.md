@@ -1,5 +1,5 @@
 ---
-title: Das bekommen Sie mit Telefonsystem in Office 365
+title: Das Telefonsystem in Office 365 bietet Ihnen Folgendes
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056619"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120900"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das bekommen Sie mit Telefonsystem in Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das Telefonsystem in Office 365 bietet Ihnen Folgendes
 
 Eine PBX ist ein Telefonsystem in einem Unternehmen. Das Telefonsystem in Office 365 Add-on bietet Ihnen die Möglichkeit der Nebenstellenanlage, jedoch ohne die Equipment kompliziert und teuer. 
   
@@ -46,7 +46,7 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |||
 |:-----|:-----|
 |**Telefonsystem in Office 365-Funktion** <br/> |**Beschreibung** <br/> |
-|[Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants.md) <br/> |Telefonsystem Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, externe und interne Anrufer können, über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.  <br/> |
+|[Was sind automatische Telefonzentralen des Telefonsystems?](what-are-phone-system-auto-attendants.md) <br/> |Telefonsystem Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, externe und interne Anrufer können, über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.  <br/> |
 |Anruf beantworten/starten (nach Name und Nummer)  <br/> |Beantworten Sie eingehende Anrufe mit einer Touchbewegung, und tätigen Sie ausgehende Anrufe entweder durch Wählen der vollständigen Nummer oder durch Klicken auf einen Namen in Skype for Business oder Outlook.  <br/> |
 |[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Tätigen oder beantworten Sie Anrufe im Namen eines Ihrer Manager. Wenn Anrufe für eine andere Person beantwortet oder getätigt werden, werden alle Teilnehmer durch Benachrichtigungen darüber informiert.  <br/> |
 |[Anrufweiterleitung und gleichzeitiges Anrufen](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Mit diesen Funktionen können Sie Weiterleitungsregeln einrichten, damit Sie von überall aus angerufen werden können und Ihre Anrufe an Kollegen oder an Ihre Voicemail weiterleiten können.  <br/> |
@@ -86,7 +86,7 @@ Finden Sie in diesen Artikeln zur Planung und das Telefonsystem in Ihrem Unterne
     
 - [Planen Sie Ihr Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](https://go.microsoft.com/fwlink/?LinkId=708645): in diesem Artikel erstellt das Layout aller Ihrer Bereitstellungsoptionen. Zudem erhalten Sie Informationen zum Planen der gesamten cloudbasierten Lösung. 
     
-- [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing): Hier erfahren Sie, welche Lizenzen, die Sie zum Abrufen der Telefonsystem in Office 365 kaufen müssen.
+- [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Hier erfahren Sie, welche Lizenzen, die Sie zum Abrufen der Telefonsystem in Office 365 kaufen müssen.
     
 - [Einrichten von Voicemail für Telefonsysteme - Administratorhilfe](set-up-phone-system-voicemail.md)
     

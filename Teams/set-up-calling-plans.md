@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 11dfac5c72845354aeaabcc4bf15bc9ae7cf815d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047078"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120834"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 Anrufe an andere Skype for Business-Benutzer sind kostenlos. Wenn Sie Ihren Benutzern jedoch ermöglichen möchten, Telefone außerhalb Ihres Unternehmens anzurufen, benötigen Sie einen Plan für Inlandsanrufe oder einen Plan für Auslandsanrufe in Office 365. Dies können Sie ganz leicht für Ihr Unternehmen einrichten. 
@@ -39,12 +39,12 @@ Anrufe an andere Skype for Business-Benutzer sind kostenlos. Wenn Sie Ihren Benu
 Wechseln Sie zur [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) und wählen Sie Ihr Land oder Region plant aufrufen Verfügbarkeitsinformationen oder Informationen zu Audiokonferenzen, Telefonsystem, gebührenpflichtige und gebührenfreie Rufnummer abrufen Zahlen und Communications haben.
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Schritt 2: Kaufen und Zuweisen von Lizenzen
-1. Wenn das Telefonsystem in Office 365-Features nicht in Ihren Plan steht, müssen Sie möglicherweise **Telefonsystem** Add-on-Lizenzen erwerben. Nachdem Sie **Telefonsystem** Lizenzen haben, kaufen Sie [Für Office 365-Pläne aufrufen](calling-plans-for-office-365.md). [Skype für Geschäfts- und Microsoft-Teams, Add-on Lizenzierung](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)finden und die Lizenzen und Plan kaufen. 
+1. Wenn das Telefonsystem in Office 365-Features nicht in Ihren Plan steht, müssen Sie möglicherweise **Telefonsystem** Add-on-Lizenzen erwerben. Nachdem Sie **Telefonsystem** Lizenzen haben, kaufen Sie [Für Office 365-Pläne aufrufen](calling-plans-for-office-365.md). Finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)und kaufen Sie die Lizenzen und Plan. 
     
     > [!TIP]
     > **Telefonsystemlizenzen** und Anrufpläne in Office 365 gehören zusammen. Daher benötigen Sie zuerst die **Telefonsystemlizenzen**, damit die Option zum Kaufen von Anrufplänen angezeigt wird.
   
-2. Weisen Sie den Mitarbeitern in Ihrer Organisation zuerst die Lizenzen und dann einen Anrufplan zu. Weitere Informationen finden Sie unter [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. Weisen Sie zuerst die Lizenzen aus, und weisen Sie an die Personen in Ihrer Organisation aufrufen planen. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Schritt 3: Abrufen von Telefonnummern
 Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:

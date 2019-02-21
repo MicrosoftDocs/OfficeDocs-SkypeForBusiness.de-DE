@@ -228,11 +228,11 @@
 ### [Dies erhalten Sie mit Telefonsystem](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### Voicemail für Telefonsystem
 #### [Ändern der Standardsprache für Voicemail-Begrüßungen und E-Mails in Ihrer Organisation](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Sprachen für Voicemail-Ansagen und -nachrichten](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [Sprachen für Voicemail-Ansagen und -Nachrichten](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Einrichten von Voicemail für Telefonsystem - Administratorhilfe](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Einrichten einer automatischen Telefonzentrale für Telefonsystem](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Einrichten des Telefonsystems in Ihrer Organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Was sind automatische Telefonzentralen für das Telefonsystem?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Was sind automatische Telefonzentralen des Telefonsystems?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 #### [Beispiel für Small Business - richten Sie eine automatische Telefonzentrale](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
 
@@ -242,7 +242,7 @@
 ### [Aktivieren von Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [Vornehmen von Änderungen an Einstellungen für Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
-## [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+## [Skype für Business Add-on Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### Lizenzoptionen basierend auf Ihrem Plan
 #### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Office 365 Premium, Office 365 ProPlus, oder Skype für Unternehmen Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
@@ -252,11 +252,11 @@
 #### [Skype Room System, Version 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 #### [GOV, EDU und gemeinnützige Organisationen](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 #### [Skype Alter Business Online – Plan 1](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)
-### [Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+### [Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Skype für Business Lizenzen zuweisen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audiokonferenz mit Minutenabrechnung](/microsoftteams/audio-conferencing-pay-per-minute?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](/microsoftteams/set-up-communications-credits-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Anrufpläne für Office 365](/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Aufrufpläne für Office 365](/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Was ist Guthaben für Kommunikationen?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

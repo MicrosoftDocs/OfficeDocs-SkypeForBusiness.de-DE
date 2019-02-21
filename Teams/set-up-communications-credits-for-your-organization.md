@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d5e246b42a2e90bf0808a574ed27ee76a4b60280
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048285"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120916"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -44,18 +44,18 @@ Bei der Registrierung erhalten Sie je nach Land/Region eine bestimmte Anzahl Min
   
 Dazu **müssen Sie Ihren Benutzern eine Lizenz für Audiokonferenzen oder für Telefonsysteme zuweisen**.
   
-- Weisen Sie Ihren Benutzern eine Lizenz für **Audiokonferenzen** zu. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+- Weisen Sie Ihren Benutzern eine Lizenz für **Audiokonferenzen** zu. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
     
-    Nachdem Sie diese Lizenz zugewiesen haben, müssen Sie Audiokonferenzen einrichten. Schrittweise Anweisungen finden Sie unter [Testen oder erwerben Audiokonferenzen in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365).
+    Nachdem Sie diese Lizenz zugewiesen haben, müssen Sie Audiokonferenzen einrichten. Schrittweise Anweisungen finden Sie unter [Testen oder erwerben Audiokonferenzen in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Weisen Sie **Telefonsystem** und eine nationalen oder nationalen und internationalen aufrufen Planen der Lizenz für die Benutzer. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+- Weisen Sie **Telefonsystem** und eine nationalen oder nationalen und internationalen aufrufen Planen der Lizenz für die Benutzer. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
     
     > [!NOTE]
     > Obwohl es nicht für Communications haben erforderlich ist, müssen Sie auch eine **Nationalen aufrufen planen** oder einer **in- und International aufrufen planen** -Lizenz zuweisen.
   
     Nach dem Zuweisen dieser Lizenzen müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](set-up-calling-plans.md).
     
-Weitere Informationen finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Weitere Informationen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Schritt 2: Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -113,7 +113,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 Sie können sich die Informationen auch ansehen, indem Sie sich [beim Office 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnung** > **Abonnements** > **Abonnements hinzufügen** navigieren.
   
-Eine Tabelle mit den Lizenzen für die jeweilige Funktion finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -123,9 +123,7 @@ Eine Tabelle mit den Lizenzen für die jeweilige Funktion finden Sie unter [Add-
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufpläne für Office 365](calling-plans-for-office-365.md)
     
-- [Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
+- [Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
     
-- [Konfigurieren Sie den Connector Cloud](https://technet.microsoft.com/library/mt605228.aspx) , und [Laden Sie den Cloud-Connector](https://aka.ms/CloudConnectorInstaller)
-
   
  

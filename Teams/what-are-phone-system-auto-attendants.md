@@ -1,5 +1,5 @@
 ---
-title: Was sind automatische Telefonzentralen für das Telefonsystem?
+title: Was sind automatische Telefonzentralen des Telefonsystems?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Enthält Informationen zu automatischen Telefonzentralen Telefonsystem (Cloud, PBX) und deren Verwendung. '
-ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: f0b93d39bffc2c479e853228cb4d14f38d9a570d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048325"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120808"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Was sind automatische Telefonzentralen für das Telefonsystem?
+# <a name="what-are-phone-system-auto-attendants"></a>Was sind automatische Telefonzentralen des Telefonsystems?
 
 Telefonsystem in Office 365-Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, externe und interne Anrufer können, über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
   
@@ -53,10 +53,10 @@ Eine automatische Telefonzentrale Telefonsystem weist die folgenden Features:
 
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen Telefonzentralen wichtig:
   
-- Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die Einfluss auf die Anzahl der Dienst Zahlen zugewiesen sind stehen für automatische Telefonzentralen verwendet werden soll. Die Anzahl der automatischen Telefonzentralen können Ihnen ist abhängig von der Zahlen **Telefonsystem** und **Audiokonferenzen** -Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zur Lizenzierung finden Sie [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+- Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die Einfluss auf die Anzahl der Dienst Zahlen zugewiesen sind stehen für automatische Telefonzentralen verwendet werden soll. Die Anzahl der automatischen Telefonzentralen können Ihnen ist abhängig von der Zahlen **Telefonsystem** und **Audiokonferenzen** -Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zu Lizenzierung finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder zu diesen zuweisen plant aufrufen. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder zu diesen zuweisen plant aufrufen. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Zum Abrufen und gebührenfreie Service Zahlen für die automatische Telefonzentralen verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie unter [Was sind Communications haben?](what-are-communications-credits.md) und [Communications haben für Ihre Organisation einrichten](set-up-communications-credits-for-your-organization.md).
     
@@ -271,7 +271,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 Sie erhalten weitere Informationen zum Anrufer-ID-Einstellungen in Ihrer Organisation [kann Anrufer-ID werden Verwendung in Ihrer Organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization)zu ändern.
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Das bekommen Sie mit Telefonsystem in Office 365](here-s-what-you-get-with-phone-system.md)
+[Das Telefonsystem in Office 365 bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

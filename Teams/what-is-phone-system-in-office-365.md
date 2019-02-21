@@ -1,5 +1,5 @@
 ---
-title: Was ist Telefonsystem in Office 365?
+title: Was ist das Telefonsystem in Office 365?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, was Telefonsystem für Sie möglich ist. '
-ms.openlocfilehash: ebf8e5dbf628cf0619df0ab9906c25d75662bdc6
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4c05c8b5007ea5ffcba6b2c46fc36757858a0dfa
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048802"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121028"
 ---
-# <a name="what-is-phone-system-in-office-365"></a>Was ist Telefonsystem in Office 365?
+# <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 
 ## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Telefonsystem in Office 365 und Skype für Business Server
 
@@ -76,7 +76,7 @@ Aufrufen von Pläne (nationalen und nationalen und internationalen) sind in best
 Wenn Sie loslegen sind, finden Sie unter [Setting up Telefonsystem in Ihrer Organisation](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
-- [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Erwerben von Telefonen für Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)

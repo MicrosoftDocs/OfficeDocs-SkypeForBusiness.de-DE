@@ -1,5 +1,5 @@
 ---
-title: Einrichten der Common Area Phone-Lizenzvertrags für Microsoft-Teams
+title: Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Telefone in öffentlichen Bereichen für Lobbys, Empfangsbereichen und Konferenzräume einrichten '
-ms.openlocfilehash: 44cd9a4faa6c94a60d84fa825149bbf4c6b846fe
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: b7fb997a8e9367c4a3b8629f037ad79871b64b25
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27271157"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121044"
 ---
-# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Common Area Phone-Lizenzvertrags für Microsoft-Teams
+# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 
 Ein Telefon im öffentlichen Bereich wird in der Regel platziert, in einen Bereich wie eine Lobby oder einem anderen Bereich, der So rufen an viele Personen zur Verfügung steht. beispielsweise ein Empfang Bereich, Wartebereich oder Konferenz Telefon. Telefone in öffentlichen Bereichen Geräte, sondern als Benutzer eingerichtet sind, und in einem Netzwerk automatisch anmelden können.
 
@@ -50,7 +50,7 @@ Zunächst müssen Sie lediglich sind Purchase eine Lizenz Common Area Phone (CAP
 > [!NOTE]
 > Sie benötigen für das Telefonsystem keine Lizenz. Sie ist in der Lizenz Telefon für gemeinsame Bereiche enthalten.
 
-Weitere Informationen zu Lizenzen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Weitere Informationen zu Lizenzen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
 

@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649597"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120511"
 ---
 # <a name="operate-my-service"></a>Meine Dienst betreiben
 
@@ -29,9 +29,9 @@ Dieser Artikel bietet eine Übersicht über die Anforderungen für den Betrieb v
 
 Im Betriebshandbuch enthält eine Übersicht aller Aufgaben und Aktivitäten, die als Teil der Service-Management-Funktion für Microsoft-Teams, erforderlich.
 
-Service-Management ist ein weites, der täglichen Vorgänge des Diensts Microsoft-Teams abdeckt, nachdem es bereitgestellt und für Benutzer aktiviert wurde. Der Teams Service umfasst Microsoft Office 365 und die Infrastrukturkomponenten, die lokal bereitgestellt haben (beispielsweise Netzwerk).
+Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des Microsoft Teams-Diensts nach der Bereitstellung und der Aktivierung für die Benutzer abdeckt. Der Teams-Dienst umfasst Microsoft Office 365 und die lokal bereitgestellten Infrastrukturkomponenten (zum Beispiel das Netzwerk).
 
-Das Konzept der Service-Management ist wahrscheinlich nicht für die meisten Organisationen ein neues Konzept. Sie möglicherweise bereits implementiert haben, Prozesse und Aufgaben, bei die vorhandene Dienste zugeordnet sind. Dies bedeutet, dass Sie Ihre aktuellen Prozesse beim Service-Management heute planen zur Unterstützung von Teams in Zukunft wahrscheinlich erweitern können.
+Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Sie möglicherweise bereits implementiert haben, Prozesse und Aufgaben, bei die vorhandene Dienste zugeordnet sind. Dies bedeutet, dass Sie Ihre aktuellen Prozesse beim Service-Management heute planen zur Unterstützung von Teams in Zukunft wahrscheinlich erweitern können.
 
 Service-Management umfasst alle Aktivitäten und Prozessen beteiligt Teams Ende zum Verwalten. Wie bereits erwähnt einige Komponenten von Service-Management – die Infrastruktur, die der Office 365-Dienst selbst umfasst – Microsofts Verantwortung sind, während Sie mit dem Kunden verantwortlich für die Benutzer zum Verwalten der verschiedenen Aspekte der Teams, die im Netzwerk sind , und Endpunkte, die Sie bereitstellen.
 
@@ -46,7 +46,7 @@ Die Aufgaben und Aktivitäten in diesem Handbuch sind in acht Kategorien unterte
 </table>
 
 
-### <a name="operational-role-mapping"></a>Betriebliche Rolle Zuordnung
+### <a name="operational-role-mapping"></a>Zuordnung der operativen Rollen
 
 Die Planung, den, die Sie für Vorgänge während der Phase der Ermitteln übergeordneter Faktoren hat, ist entscheidend, da Operations Aktivitäten beginnen, wenn die erste Pilotbenutzer aktiviert sind. In diesem Handbuch werden die Aktivitäten und Aufgaben, die für einzelne täglich, wöchentlich, monatlich oder bei Bedarf Verwaltung eine qualitativ hochwertige Teams Bereitstellung ausgeführt werden müssen. Dieses Handbuch enthält Knowledge und Richtlinien zum diese wichtige Aktivitäten und Aufgaben ausführen.
 
@@ -80,7 +80,7 @@ Diese Technologien zusammengefügt, eine umfassende, Zusammenarbeit und intellig
 
 In diesem Handbuch wird die wichtige Bereiche der Fokus zum Verwalten des Diensts Teams behandelt. In den meisten Fällen verfügen Sie Management Servicepläne für die unterstützenden Technologien, von denen Teams abhängt. Wenn nicht, Sie ordnungsgemäße Management Servicepläne für diese Technologiekomponenten einrichten müssen (lokal und online) als auch. Dies hilft sicherzustellen, dass Ihre Benutzer eine hohe Qualität und zuverlässige Erfahrung mit Teams nutzen zu können.
 
-#### <a name="references"></a>Verweise 
+#### <a name="references"></a>Referenzen 
 
 [Übersicht über Microsoft Teams](teams-overview.md)
 
@@ -137,7 +137,7 @@ Diese Gruppen können Service Besitzer, Helpdesks, Unterstützung auf zweiter un
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Überwachung für erweiterte Szenarien
 
-Sie können Dienststatus und anstehende Änderungen überwachen, durch die Nutzung von Office 365-Dienststatus und ändert den programmgesteuerten Zugriff auf die Office 365-Communications-API. Verwenden Sie diese API zum Erstellen eigener monitoring Tools oder Verbinden Sie Ihrer vorhandenen Überwachungstools mit Office 365-Dienst Communications, potenziell vereinfachen, wie Sie Ihre Umgebung überwachen. Weitere Informationen finden Sie unter [Office 365 für Enterprise-Entwickler](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Sie können Dienststatus und anstehende Änderungen überwachen, durch die Nutzung von Office 365-Dienststatus und ändert den programmgesteuerten Zugriff auf die Office 365-Communications-API. Verwenden Sie diese API zum Erstellen eigener monitoring Tools oder Verbinden Sie Ihrer vorhandenen Überwachungstools mit Office 365-Dienst Communications, potenziell vereinfachen, wie Sie Ihre Umgebung überwachen. Weitere Informationen finden Sie unter [Office 365 für Enterprise-Entwickler](https://developer.microsoft.com/office).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
 
@@ -146,7 +146,7 @@ Sie können Dienststatus und anstehende Änderungen überwachen, durch die Nutzu
 | Monitor Dienststatus | Proaktive Überwachung Dienststatus Microsoft-Teams (und abhängigen Dienste) mithilfe der Tools verfügbar. Einschließen von abhängigen Dienste: Exchange Online, SharePoint Online, OneDrive für Unternehmen, Azure Active Directory. | In Echtzeit |               |
 | Vorfall Benachrichtigung  | Benachrichtigen Sie interne beteiligten von Ereignissen, die den Dienst Teams betreffen. Interne Beteiligten können Benutzer, Helpdesks und Vorfall-Manager enthalten.                                                                          | Bei Bedarf |               |
 
-### <a name="references"></a>Verweise 
+### <a name="references"></a>Referenzen 
 
 [Gewusst wie: Überprüfen von Office 365-Dienststatus](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
@@ -243,9 +243,9 @@ Verwendungsdaten von Teams ist im Dashboard Reporting verfügbar. Verwendungsdat
 
 Die anderen beiden Berichte sind Teams-spezifisch und bieten weitere Details zur Nutzung des Teams von einem Benutzer und Gerät Perspektive. Beide Berichte finden Sie hier:
 
-[Bericht zur Verwendung der Microsoft-Teams Gerät](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+[Microsoft Teams – Gerätenutzungsbericht](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
-[Bericht über Benutzeraktivität Microsoft-Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+[Microsoft Teams – Benutzeraktivitätsbericht](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 #### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
@@ -276,7 +276,7 @@ Ermitteln Sie zunächst, ob dies eine Annahme oder technischen Problem ist. Begi
 | (Laufwerk Wert Phase)              |                                                                                                                                  |           |               |
 | Aktualisieren von Anpassungsplan             | Aktualisieren Sie Ihre Anpassungsplan basierend auf wie gemessene Usage vergleicht auf Ihre Planung Ziele.                                         | Bei Bedarf |               |
 
-### <a name="references"></a>Verweise 
+### <a name="references"></a>Referenzen 
 
 [Informationen zum Office 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
@@ -327,7 +327,7 @@ Um NPS Umfragen für Ihre Organisation zu ermöglichen, können Sie Ihre bevorzu
 | Bewerten der Benutzer Stimmung | Erfassen Sie und bewerten Sie der Benutzer Stimmung mithilfe von Umfragen oder Interviews oder über einen Kanal Feedback in Teams oder Yammer.                                                                 | Bei Bedarf |               |
 | Aktualisieren der Annahme Pläne | Laufwerk Änderung in Ihrer Organisation basierend auf Feedback der Benutzer; Hierzu gehören Änderungen an Ihrer Kommunikationsplänen, Schulungsprogramme oder die Möglichkeit, dass Sie Unterstützung für Ihren Benutzern anbieten. | Bei Bedarf |               |
 
-### <a name="references"></a>Verweise 
+### <a name="references"></a>Referenzen 
 
 [NET Promoter Score](https://en.wikipedia.org/wiki/Net_Promoter)
 
@@ -359,11 +359,11 @@ Um die Integrität des Netzwerks sicherzustellen, müssen eine Reihe von Operati
 | Disaster Recovery und Testen der hohen Verfügbarkeit                | Führen Sie regelmäßige hohe Verfügbarkeit und Disaster Recovery-Tests für die Netzwerkinfrastruktur, um sicherzustellen, dass es sich um den angegebenen Dienst-Level-Ziele (SLOs) oder Service Level Agreements (SLAs) für den Dienst Teams erfüllt.                                                                                                                                                  | Monatlich                |               |
 
 
-### <a name="references"></a>Verweise 
+### <a name="references"></a>Referenzen 
 
-[Netzwerk-Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
+[Netzwerkplaner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips)
+[URLs und IP-Adressbereiche für Office 365](https://aka.ms/o365ips)
 
 [Erstellen von Daten-schema](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -371,13 +371,13 @@ Um die Integrität des Netzwerks sicherzustellen, müssen eine Reihe von Operati
 
 ## <a name="assess-and-ensure-quality"></a>Bewerten und Sicherstellen der Qualität 
 
-Alle Organisationen benötigen, eine Gruppe oder eine Person für die Qualität verantwortlich sein. Dies ist die wichtigste Funktion im Service-Management. Die Rolle für die Qualität Champion wird an eine Person oder Gruppe, die über ihre Benutzer wünschen engagierten ist zugewiesen.
-Diese Rolle erfordert die Fähigkeiten Trends in der Umgebung und der Unterstützung durch die anderen Teams Remediation Laufwerk entwickelt erkennen. Der beste Kandidat für einen Qualitätspionier ist normalerweise der Leiter des Kundendiensts. Je nach Größe und Komplexität der Organisation kann dies eine Person oder Gruppe mit dem Schwerpunkt auf sicherstellen, dass ein hoher Qualität Benutzererlebnis sein.
+Alle Organisationen benötigen, eine Gruppe oder eine Person für die Qualität verantwortlich sein. Dies ist die wichtigste Rolle bei der Dienstverwaltung. Die Rolle für die Qualität Champion wird an eine Person oder Gruppe, die über ihre Benutzer wünschen engagierten ist zugewiesen.
+Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann. Der beste Kandidat für einen Qualitätspionier ist normalerweise der Leiter des Kundendiensts. Je nach Größe und Komplexität der Organisation kann dies eine Person oder Gruppe mit dem Schwerpunkt auf sicherstellen, dass ein hoher Qualität Benutzererlebnis sein.
 
 Die Qualität Champion nutzt vorhandenen Tools und dokumentierte Prozessen, wie aufrufen Quality Dashboard (CQD) und die Qualität der Erfahrung überprüfen Leitfaden zum Überwachen der Benutzer wünschen, identifizieren Qualität Trends und-Wartung Laufwerk bei Bedarf.
 Die Qualität Champion sollten mit den jeweiligen Teams auf Laufwerk Remediation Aktionen und Bericht zu einem Lenkungsausschuss zu des Fortschritts und der Probleme open arbeiten.
 
-[Erleben Sie die Überprüfung Handbuch für Quality of](https://aka.ms/qerguide) enthält Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten zur Verbesserung der benutzerfreundlichkeit auswirken. Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt CQD Online als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die Maximieren Verwendung. Versucht, das Netzwerk zur Verbesserung der Audioqualität Optimierungen übersetzt auch direkt in Verbesserungen bei video sowie die Desktopfreigabe.
+[Erleben Sie die Überprüfung Handbuch für Quality of](https://aka.ms/qerguide) enthält Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten zur Verbesserung der benutzerfreundlichkeit auswirken. Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt CQD Online als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die Maximieren Verwendung. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
 Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollte sie beginnen mit der Inhalte in die Erfahrung überprüfen Handbuch für Quality of und zugehörige Schulungsmaterial vertraut machen.
 
@@ -393,11 +393,11 @@ Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Na
 
 
 
-### <a name="references"></a>Verweise 
+### <a name="references"></a>Referenzen 
 
-[Hier erfahren Sie, CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
+[Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[Informationen zum Erstellen von hochladen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[Informationen zum Erstellen von hochladen](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
 [Quality of Experience überprüfen Guide](https://aka.ms/qerguide)
 
@@ -409,16 +409,16 @@ Microsoft-Teams, Endpunkte können als jeder PC, Mac, Tablet oder Mobiltelefonnu
 
 ### <a name="endpoint-requirements"></a>Anforderungen für Endpunkt
 
-Einer der wichtigsten Vorteile von Teams ist, dass der Client automatisch auf dem aktuellen Stand ist. Die Clients auf dem PC und Mac werden aktualisiert, mit einem Hintergrund, die für neue Builds überprüft und den neuen Client heruntergeladen, wenn die app im Leerlauf befindet. Die mobilen apps Teams sind über ihre jeweiligen app Speicher aktualisiert.
+Einer der wichtigsten Vorteile von Teams ist, dass der Client automatisch auf dem aktuellen Stand ist. Die Clients für PC und Mac werden mit einem Hintergrundprozess aktualisiert, der nach neuen Builds sucht und den neuen Client herunterlädt, wenn sich die App im Leerlauf befindet. Die mobilen apps Teams sind über ihre jeweiligen app Speicher aktualisiert.
 
 Der Client Teams über Mindestanforderungen im Hinblick auf die zugrunde liegenden Softwareplattform verfügt. Diese Anforderungen möglicherweise über einen Zeitraum ändern, und daher ist es wichtig, dass Sie diese Änderungen überwachen. Der Client Teams verfügt beispielsweise über eine minimale iOS-Version. Wenn der Client einen Internetbrowser verwendet, muss der Browser ebenfalls aktualisiert werden. Eine Liste der unterstützten Plattformen finden Sie im [-Clients für Microsoft-Teams erhalten möchten](get-clients.md).
 
-### <a name="endpoint-firewalls"></a>Endpunkt firewalls
+### <a name="endpoint-firewalls"></a>Endpunktfirewalls
 
-Mithilfe der clientseitigen Firewalls können eine erhebliche Auswirkungen Benutzerinteraktion haben.
+Clientseitige Firewalls können erhebliche Auswirkungen auf die Benutzerfreundlichkeit haben.
 Mithilfe der clientseitigen Firewalls können sogar anzurufen aufgebaut wird und die Anrufqualität beeinflussen. Nachdem die entsprechenden Ausnahmen auf dem Clientfirewall konfiguriert wurden, müssen sie auf dem aktuellen Stand werden anhand der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips). Ihre Drittanbieter müssen spezifische Leitfäden dafür, wie die Ausnahmen zu aktualisieren.
 
-### <a name="wi-fi-drivers"></a>Wi-Fi-Treiber
+### <a name="wi-fi-drivers"></a>WLAN-Treiber
 
 Wi-Fi-Treiber können problematisch sein. Als Beispiel möglicherweise ein Treiber sehr aggressive roaming-Verhaltens zwischen Zugriffspunkten, die nicht benötigte-Zugriffspunkt wechseln, dem führenden Anruf schlechter Qualität auslösen kann. Ein leistungsschwachen Wi-Fi-Treiber möglicherweise durch eine Qualität Erfahrung Prüfung festgestellt werden (siehe [Erfahrung überprüfen Handbuch für Quality of](https://aka.ms/qerguide) für mehr Details). Es ist wichtig, einen Qualität datengesteuerten Prozess implementieren, der neue Wi-Fi-Treiber überwacht und stellt sicher, dass sie vor dem allgemeinen Benutzersegmente bereitgestellt wird getestet werden.
 
@@ -447,16 +447,16 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 | Aktivität                 | Beschreibung                                                                                                                                                                                                                                                                                                                                                                     | Trittfrequenz   | Team zugewiesen |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Anforderungen für Endpunkt    | Sicherstellen Sie, dass die gesamte erforderliche Software für Teams, die in [Get-Clients für Microsoft-Teams](get-clients.md)aufgeführten erfüllen Endpunkt weiterhin Teams.                                                                                                                                                                                       | Monatlich   |               |
-| Endpunkt firewalls       | Verwalten Sie die entsprechenden Ausnahmen auf der Grundlage der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips)Endpunkt Firewall. Ihre Drittanbieter müssen bestimmte Richtlinien zum Verwalten der Ausschlüsse. Abonnieren Sie den [RSS-feed](https://support.office.com/o365ip/rss) Änderungen automatisch benachrichtigt werden sollen. | Bei Bedarf |               |
-| Wi-Fi-Treiber            | Testen Sie und aktualisieren Sie die Wi-Fi-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Qualität überprüfen Handbuch für of Experience](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Bei Bedarf |               |
+| Endpunktfirewalls       | Verwalten Sie die entsprechenden Ausnahmen auf der Grundlage der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips)Endpunkt Firewall. Ihre Drittanbieter müssen bestimmte Richtlinien zum Verwalten der Ausschlüsse. Abonnieren Sie den [RSS-feed](https://support.office.com/o365ip/rss) Änderungen automatisch benachrichtigt werden sollen. | Bei Bedarf |               |
+| WLAN-Treiber            | Testen Sie und aktualisieren Sie die Wi-Fi-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Qualität überprüfen Handbuch für of Experience](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Bei Bedarf |               |
 | Endpunkt-Verwaltung      | Verwalten des Katalogs der unterstützten Endpunkten und Geräte (wie Headsets) Schnittstelle. Hersteller Verträge, Garantie, Verteilung, Replacement verwalten und Richtlinien zu reparieren.                                                                                                                                                                                                        | Monatlich   |               |
 | Endpunkt-Problembehandlung | Problembehandlung bei Aufgaben kann Überprüfen der Konnektivität, konsultieren die Liste der bekannten Probleme, Log sammeln, Analyse und Weiterleitung zu Support von Microsoft oder von Drittanbietern enthalten.                                                                                                                                                                                               | Bei Bedarf |               |
 
-### <a name="references"></a>Verweise 
+### <a name="references"></a>Referenzen 
 
-[URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips)
+[URLs und IP-Adressbereiche für Office 365](https://aka.ms/o365ips)
 
-[Beziehen von Clients für Microsoft Teams](get-clients.md)
+[Clients für Microsoft Teams abrufen](get-clients.md)
 
 [Microsoft-Teams-community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -497,25 +497,25 @@ Zur Unterstützung der Benutzer eine Organisation eine beliebige Anzahl von Aufg
 
 [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
-[Erstellen und Verwalten von Wählplänen](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
+[Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>Allgemeine Aufgaben für Audiokonferenzen
 
-[Ändern der Einstellungen für eine Audiokonferenzbrücke](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
+[Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
+[Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
-[Verwalten der Audiokonferenzeinstellungen für einen Benutzer](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+[Verwalten der Audiokonferenzeinstellungen für einen Benutzer](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Die Audiokonferenz PIN zurücksetzen](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
+[Die Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>Lizenzverwaltung
 
-Wie Ihre Organisation wächst oder verringert wird, ist es wichtig, Lizenzierung für aktuelle und zukünftige Anforderungen zu planen. Ist base Teams-Lizenz, zusätzlich zur Lizenzierung für Cloud-Sprachfunktionen ([Telefonsystem](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) und [Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing)).
+Wie Ihre Organisation wächst oder verringert wird, ist es wichtig, Lizenzierung für aktuelle und zukünftige Anforderungen zu planen. Ist base Teams-Lizenz, zusätzlich zur Lizenzierung für Cloud-Sprachfunktionen ([Telefonsystem](here-s-what-you-get-with-phone-system.md) und [Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing)).
 
-Für Teams erfordern Telefonsystem Lizenzen Lizenzen [Aufrufen planen](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) . Plan Lizenzierung aufrufen, können Sie tätigen und Entgegennehmen von Anrufen nationalen und/oder internationale. Diese Pläne basieren auf verwendungs- und Minute Pools zugeordnet werden. Provisioning [Communications haben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) , wird sichergestellt, dass Sie nie ausgeführt haben, nicht verfügbar ist.
+Für Teams erfordern Telefonsystem Lizenzen Lizenzen [Aufrufen planen](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) . Plan Lizenzierung aufrufen, können Sie tätigen und Entgegennehmen von Anrufen nationalen und/oder internationale. Diese Pläne basieren auf verwendungs- und Minute Pools zugeordnet werden. Provisioning [Communications haben](what-are-communications-credits.md) , wird sichergestellt, dass Sie nie ausgeführt haben, nicht verfügbar ist.
 
-Audiokonferenzen kann für tolled einwahlkonferenzen und nationalen Dial-Out-Konferenz-Dienste. Gebührenfreie einwahlkonferenzen oder Ausland Dial-Out-Szenarien möglicherweise führen Sie für die [Kommunikation haben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) zusätzliche Gebühren anfallen erforderlich sind.
+Audiokonferenzen kann für tolled einwahlkonferenzen und nationalen Dial-Out-Konferenz-Dienste. Gebührenfreie einwahlkonferenzen oder Ausland Dial-Out-Szenarien möglicherweise führen Sie für die [Kommunikation haben](what-are-communications-credits.md) zusätzliche Gebühren anfallen erforderlich sind.
 
 Communications haben können aufrufen planen und Audiokonferenzen Lizenzen ergänzen. Planen der Aufruf von Lizenzen und Kommunikation haben basieren auf Verwendung, und daher müssen überwacht und entsprechend für bereitgestellt werden.
 
@@ -525,7 +525,7 @@ Sie können den [PSTN-Verwendungsbericht](https://docs.microsoft.com/skypeforbus
 
 Es gibt zwei Methoden, um Zahlen in Teams zu erwerben: Sie können Telefonnummern in einen anderen Anbieter portieren oder Sie können die Zahlen direkt aus Microsoft Nummern Inventar bereitstellen. [Erste](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)Rufnummern für Ihre Benutzer werden beide Methoden beschrieben.
 
-Es besteht ein Grenzwert der Anzahl von Telefonnummern, die Sie aus dem Microsoft Nummern Bestand bereitstellen können. Die Grenzwerte werden durch eine Reihe von Faktoren, die in beschriebenen bestimmt [wie viele Rufnummern erhalten Sie?](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
+Es besteht ein Grenzwert der Anzahl von Telefonnummern, die Sie aus dem Microsoft Nummern Bestand bereitstellen können. Die Grenzwerte werden durch eine Reihe von Faktoren, die in beschriebenen bestimmt [wie viele Rufnummern erhalten Sie?](how-many-phone-numbers-can-you-get.md).
 Die Grenzwerte für die hängt vom Typ von Zahlen –-gebührenfreie Service Zahlen, gebührenpflichtige Service Nummern und Nummern Abonnenten (Benutzer). Jeder verfügt über eine eigene Grenzwerte und muss separat verwaltet werden. Wenn Sie den Grenzwert abgelaufen sind (oder Sie haben den Grenzwert erreicht), können Sie auf den Grenzwert für eine Schrittweite anwenden. Dieser Prozess wird in der Artikel in den vorherigen Absatz beschrieben.
 
 Unter Umständen bei eine Zahl steht nicht zur Verfügung, in einer Region bereitgestellt werden, auf dem Dienst verfügbar ist. Informationen über den Updateprozess für anfordernde Zahlen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
@@ -552,21 +552,21 @@ Standardmäßig haben alle Benutzer mit einem Postfach in Exchange Online Berech
 
 ![Die Schlüsselbereiche während einer Qualität Erfahrung Überarbeitung prüfen: Audio, Zuverlässigkeit und Benutzer Umfrageergebnissen.] (media/plan-my-service-management-image2.png "Die Schlüsselbereiche während einer Qualität Erfahrung Überarbeitung prüfen: Audio, Zuverlässigkeit und Benutzer Umfrageergebnissen.")
 
-Ständig bewerten und Korrigieren von der Bereiche im Handbuch beschrieben, können Sie ihre potenzielle Möglichkeit beeinträchtigen Benutzererlebnis reduziert. Die meisten Benutzer-Erlebnis Probleme in einer Bereitstellung können in die folgenden Kategorien unterteilt werden:
+Ständig bewerten und Korrigieren von der Bereiche im Handbuch beschrieben, können Sie ihre potenzielle Möglichkeit beeinträchtigen Benutzererlebnis reduziert. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 
--   Unvollständige Firewall oder der Proxyserver-Konfiguration
+-   Unvollständige Firewall- oder Proxykonfiguration
 
--   Schlechte Wi-Fi-Abdeckung
+-   Schlechte WLAN-Abdeckung
 
 -   Unzureichende Bandbreite
 
 -   VPN
 
--   Verwenden von nicht optimierte oder integrierte Audiogeräten
+-   Verwendung nicht optimierter oder integrierter Audiogeräte
 
--   Problematisch Subnetze oder Netzwerkgeräte
+-   Problematische Subnetze oder Netzwerkgeräte
 
-Die Informationen der Qualität der Erfahrung überprüfen Handbuchs behandelt Verwendung Online aufrufen Quality Dashboard (CQD) als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche beschrieben, mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die maximieren. Versucht, das Netzwerk zur Verbesserung der Audioqualität Optimierungen übersetzt auch direkt in Verbesserungen bei video sowie die Desktopfreigabe.
+Die Informationen der Qualität der Erfahrung überprüfen Handbuchs behandelt Verwendung Online aufrufen Quality Dashboard (CQD) als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche beschrieben, mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
 Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollten sie beginnen mit der Inhalt die [Erfahrung überprüfen Handbuch für Quality of](https://aka.ms/qerguide)vertraut machen.
 

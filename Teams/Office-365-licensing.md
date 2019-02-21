@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbdbaf0241da85489173d7eda0c36aac90c935e9
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: 3968b682e0b7c7bf2c7a701a40fd8073f513eb20
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495529"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120734"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Office 365-Lizenzierung für Microsoft Teams
 ========================================
@@ -44,11 +44,11 @@ Weitere Informationen zum Abrufen von Teams, Auschecken [Wie erhalte ich Zugriff
 > Microsoft Teams ist auch für gemeinnützige Organisationen verfügbar. Teams für die uns Behörden Cloud Community (GCC) 17. Juli Rollout beginnt und am Ende des August 2018 für alle berechtigten Kunden verfügbar sein. Wir arbeiten an anderen US-Regierung Wolken (GCC hohe und DoD) Microsoft-Teams Unterlagen bald verfügbar. Lesen Sie mehr im Blog Microsoft-Teams [hier](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 > [!NOTE]
-> Starten 1 Oktober 2018, neue Office 365-Kunden mit 500 Arbeitsplätzen oder weniger werden Onboarded Teams und haben keinen Zugriff auf Skype für Business Online. Mandanten, die bereits Skype für eine Business Online dadurch weiterhin verwenden Ja (einschließlich Bereitstellung neuer Benutzer), bis sie deren Übergang Teams abgeschlossen. Finden Sie weitere Informationen finden Sie unter [Microsoft-Teams jetzt primären Client für Besprechungen und Aufrufen von in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> Seit dem 1. Oktober 2018 werden neue Office 365-Kunden mit 500 oder weniger Arbeitsplätzen in Microsoft Teams integriert und erhalten keinen Zugriff auf Skype for Business Online. Mandanten, die bereits Skype for Business Online verwenden, können dies weiterhin tun, bis ihr Übergang zu Microsoft Teams abgeschlossen ist. Dies gilt auch für die Bereitstellung neuer Benutzer. Weitere Informationen finden Sie unter [Microsoft Teams ist jetzt der primäre Client für Besprechungen und Anrufe in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
         
 Im Hinblick auf Teams Kernfunktionen bestehen keine Unterschiede zwischen den Office 365-Abonnements. Die Verfügbarkeit der Compliance-Funktionen richtet sich nach der jeweiligen Abonnementebene. Weitere Informationen finden Sie unter [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md). Eine ausführliche Liste der Features in jedem Abonnement verfügbar sind finden Sie in der [Office 365 Platform Service Description](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
-**Cloud-Sprachfunktionen**: für Audiokonferenzen Ihre Organisation erwerben und Zuweisen einer Audiokonferenz-Lizenzvertrags an jeden Benutzer,-Einwahl Besprechungen einrichten, muss. Für aufrufen plant benötigen jeden Benutzer Telefonsystem plus eine National oder National und International aufrufen. Finden Sie weitere Informationen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+**Cloud-Sprachfunktionen**: für Audiokonferenzen Ihre Organisation erwerben und Zuweisen einer Audiokonferenz-Lizenzvertrags an jeden Benutzer,-Einwahl Besprechungen einrichten, muss. Für aufrufen plant benötigen jeden Benutzer Telefonsystem plus eine National oder National und International aufrufen. Weitere Informationen finden Sie finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Alle unterstützten Abonnementpläne berechtigen zum Zugriff auf den Microsoft Teams-Webclient, die Desktopclients und die mobilen Apps.
 

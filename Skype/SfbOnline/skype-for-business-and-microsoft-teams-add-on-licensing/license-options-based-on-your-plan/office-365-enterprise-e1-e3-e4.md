@@ -14,28 +14,27 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-On-Lizenzen, Funktionen und Informationen zum Kauf von Office 365 Enterprise, Plan E1, E3 und E4. '
-ms.openlocfilehash: 64bd2278e1d53c2fd363cf215095af53cd2e2697
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0ff3a0cb4ff29f98dd5a3b69490eeb2c9a513eaa
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881931"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120307"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 und E4
 
-Wenn Sie bereits den Plan [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) oder E4 gekauft haben, müssen Sie die folgenden Add-On-Lizenzen kaufen, um weitere Skype for Business- und Microsoft Teams-Funktionen zu erhalten.
+Wenn Sie die [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)oder E4 Plan bereits erworben haben, sind hier Add-on-Lizenzen erwerben, um weitere Skype für Business-Funktionen erhalten sollen Ihnen.
 
 |||
 |:-----|:-----|
 |**Zum Hinzufügen dieser Funktion ...** <br/> |**... müssen Sie folgende Lizenz erwerben:** <br/> |
-|**Audiokonferenz** <br/> Kaufen Sie 1 **Audiokonferenzen** -Lizenz für jeden Benutzer, der das Planen oder eine Konferenz einwählen. Attendees do not need licenses. <br/> |**Audiokonferenzen** Add-On <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
+|**Audiokonferenz** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**Audiokonferenzen** Add-On <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
 |**Gebührenfreie Nummern für DFÜ-Zugriff auf Ihre Besprechungen und die Möglichkeit anwählen aus einer Besprechung auf jemanden hinzufügen, indem eine Telefonnummer in der ganzen Welt** <br/> |[Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Telefonsystem** <br/> |1. **Office 365 Telefonsystem** Add-on <br/> 2. Anrufpläne: Kaufen Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365) von Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |**Voicemail für Telefonsysteme** <br/> |Kaufen Sie Exchange Online Plan 2 für E1- und E4-Pläne. <br/>Sie können auch zu einer im Lieferumfang von Exchange Online Plan 2 enthaltenen Office Suite wechseln, zum Beispiel zu Office 365 E3. |
@@ -58,7 +57,7 @@ Wenn Sie bereits den Plan [Office 365 Enterprise E1](https://products.office.com
 
 Der E3-Plan ist Teil Ihres Action Packs. So kaufen Sie die Add-Ons **Telefonsystem** und **Audiokonferenz**:
 
-1. Kaufen Sie eine E3-Arbeitsplatz von unserer [marketing-Website](https://go.microsoft.com/fwlink/?LinkId=24393). Wählen Sie die Option zum Hinzufügen des Arbeitsplatzes zu Ihrem vorhandenen Mandanten aus.
+1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
 
 2. Melden Sie sich beim Office 365 Admin Center an, und wechseln Sie zu **Abrechnung** > **Abonnements** > **Add-Ons**.
 
@@ -67,10 +66,10 @@ Der E3-Plan ist Teil Ihres Action Packs. So kaufen Sie die Add-Ons **Telefonsyst
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Warum sehe ich die Option zum Kaufen von Add-Ons nicht?
 <a name="bkmk_how"> </a>
 
-In einigen Fällen wird die Option zum Kaufen von Skype for Business- und Microsoft Teams-Add-Ons im Office 365 Admin Center nicht angezeigt.
+In einigen Fällen wird die Option zum Erwerben von Skype Business Add-Ons im Office 365 Administrationscenter nicht angezeigt.
 
-- **Sie haben Office 365 Business Premium über GoDaddy bezogen**. In diesem Fall können Sie keine Skype for Business- und Microsoft Teams-Add-Ons kaufen. Müssen Sie auf den Plan E3 wechseln (die GoDaddy nicht verkauft wurde), und klicken Sie dann können Sie kaufen sie. [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Sie haben Office 365 Business Premium über GoDaddy bezogen**. Sie können nicht in diesem Fall Skype Business Add-Ons kaufen. Müssen Sie auf den Plan E3 wechseln (die GoDaddy nicht verkauft wurde), und klicken Sie dann können Sie kaufen sie. [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **Sie verfügen über eine monatliche Verpflichtung, nicht über eine jährliche**. In einigen Fällen können Kunden mit einer monatlichen Verpflichtung die Add-Ons nicht kaufen (dies unterscheidet sich von der Zahlungsmethode, die monatlich sein kann). Dies ist ein bekanntes Problem, das wir reparieren. [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
     ![You may need an annual commitment to buy add-ons.](../../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)

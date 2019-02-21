@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Informationen Sie zu den Faktoren berücksichtigen vor dem Einrichten von live Ereignisse in der Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: cee30cc853043b4424a9a30c1ad785f77ea05f70
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297817"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120924"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -36,7 +36,7 @@ Es ist wichtig, zu wissen, dass eine Office 365-Lizenz erforderlich ist, um ein 
 - **Für Quick Start Produktion**  Der Benutzer muss eine Microsoft-Teams Lizenz zugewiesen werden.
 - **Für externe Encoder Produktion** Der Benutzer muss eine Microsoft-Stream-Lizenz zugewiesen werden.
 
-Weitere Informationen zur Lizenzierung finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Der Benutzer benötigt:
 - Planen von privaten Besprechung in Teams aktiviert (*der TeamsMeetingPolicy AllowPrivateMeetingScheduling - Parameter = True*).
@@ -53,8 +53,8 @@ Der Benutzer benötigt:
 |Öffentliche (anonyme Benutzer)      |  Ja            |  Nein                  |
 |Gast-Benutzer                   |  Keine<sup>1</sup> |  Nein                  |
 |Jede Person in einer verbundenen Unternehmen |  Keine<sup>1</sup> |  Nein                  |
-|Jeder in Unternehmen           |  Ja            |  Ja                 |
-|Spezifische Gruppen / für die Personensuche      |  Ja            |  Ja                 |
+|Jeder in Unternehmen           |  Ja             |  Ja                 |
+|Spezifische Gruppen / für die Personensuche      |  Ja             |  Ja                 |
 
 <sup>1</sup> können nur live Ereignisse als anonyme Benutzer beobachten.
 
@@ -68,7 +68,7 @@ In der folgenden Tabelle werden wichtige Funktionen und Features in live Ereigni
 |Maximale Dauer des live-Ereignis |4 Stunden |4 Stunden |4 Stunden |
 |Erstellung des Live-Ereignis |   Skype-Meeting Broadcast-Portal |Teams, Yammer über Teams | Teams, über den Teams, Stream Yammer |
 |Benutzergruppe Engagements – Yammer |& #x 2714; |& #x 2714; (integrierte Experience) |& #x 2714; (integrierte Experience) |
-|Benutzergruppe Engagements – moderiert f & A |& #x 2714;  |& #x 2714; |& #x 2714; |
+|Benutzergruppe Engagements – Q moderiert & A |& #x 2714;  |& #x 2714; |& #x 2714; |
 |Hersteller-Client für Windows |& #x 2714; (Skype für Unternehmen) |& #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
 |Hersteller-Client auf einem Mac |X  | & #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
 |Teilnehmeranzahl in Producer-Benutzeroberfläche |X  |& #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
@@ -85,7 +85,7 @@ Ein Referent während der Besprechung einladen |& #x 2714; (Skype für Unternehm
 |ATTENDEE DVR-Steuerelemente (anhalten, Zurückspulen) |& #x 2714; |& #x 2714; |& #x 2714; |
 |Partner eCDN Support |& #x 2714; (Struktur, Kollective, lernen) |& #x 2714; (Struktur, Kollective, lernen) |& #x 2714; (Struktur, Kollective, lernen) |
 |Nach dem broadcast Anwesenheitsbericht für Hersteller |& #x 2714; |& #x 2714; |X |
-|Benutzergruppe Stimmung Analyse – Live Stimmabgabe & Umfragen |& #x 2714; (Microsoft Pulse) |X |X |
+|Benutzergruppe Stimmung Analysis – Live voting & Umfragen |& #x 2714; (Microsoft Pulse) |X |X |
 
 > [!IMPORTANT]
 > Die Grenzwerte, die festgelegt werden können geändert werden.

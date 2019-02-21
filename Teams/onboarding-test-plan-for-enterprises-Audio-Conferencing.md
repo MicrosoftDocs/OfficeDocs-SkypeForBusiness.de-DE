@@ -1,5 +1,5 @@
 ---
-title: Enterprise-Testplan für Audiokonferenzen in Microsoft-Teams
+title: Enterprise-Testplan für Audiokonferenzen in Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 16207273020dbe6e1ab4e2cd5ff958fcdbe614dc
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694861"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120750"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihre Audiokonferenzen in Plan zum Testen von Teams für Unternehmen 
 ===============================================================================
@@ -494,7 +494,7 @@ Nach Abschluss QoS Validierungstests mithilfe von Gruppenrichtlinien für Websit
 
 **Überprüfung der QoS-Konfiguration über GPO und Nachricht Analyzer**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler
 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
@@ -547,7 +547,7 @@ Nach Abschluss Split-Tunnel Testkonfiguration für Websites in Bereich erstellen
 
 **Überprüfung der Split-Tunnel-Konfiguration**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler
 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
@@ -597,7 +597,7 @@ Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Website
 
 **Standort: Seattle [inneren verkabelt] Client für Office 365-Ergebnisse**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt 
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
 
 
 
@@ -714,7 +714,7 @@ Nachdem Sie alle Nummern Portieren Tests abgeschlossen haben, erstellen Sie eine
 
 **Portieren Service-Nummer**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt 
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
@@ -752,7 +752,7 @@ Nun, da Sie Testplan definiert haben, im nächsten Schritt wird die Testfälle d
 
 -   Die Liste der dedizierten und freigegebene Audiokonferenz einwählen und Zahlen – mit bevorzugte Sprache für organisatorische Standorte und Benutzer im Gültigkeitsbereich – identifiziert und konfiguriert wurden.
 
--   [Communications haben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (falls erforderlich) für Ihre Organisation für den Zugriff mit gebührenfreie Konferenz Bridge Zahlen und Support für Telefonkonferenzen internationale Dial-Out-Szenarien wurden.
+-   [Communications haben](what-are-communications-credits.md) (falls erforderlich) für Ihre Organisation für den Zugriff mit gebührenfreie Konferenz Bridge Zahlen und Support für Telefonkonferenzen internationale Dial-Out-Szenarien wurden.
 
 -   Live Meeting-Konferenz Bridge audioeinstellungen wurden identifiziert und für alle Benutzer im Gültigkeitsbereich (PIN-Mindestlänge, Eintrag/Exit Benachrichtigungen, Aktivierung Benachrichtigung Voreinstellung) konfiguriert.
 
@@ -774,7 +774,7 @@ Testfälle für die administrative Teams und Benutzer Audiokonferenzen Features 
 
 | Testfall-ID                             | Testfall Titel                             | Testfall Beschreibung                                                                            | Ergebnisse des Testfalls Zusammenfassung | Zugewiesene Fehler-ID (falls zutreffend)                                                                          |
 |------------------------------------------|---------------------------------------------|---------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------|
-| 1                                        | Planen einer Besprechung des Teams Audiokonferenzen | Planen einer onlinebesprechung aus, und stellen Sie sicher, dass die Konferenzbrücke in der Einladung angezeigt wird. |  & #9744; Übergeben Sie<br/>& #9744; Teilweise<br/> & #9744; Ein Fehler auftritt   | Für Benutzer, die RHM aktiviert ist, wählen Sie sich werden nicht Koordinaten über die Teams Outlook-Add-in Planung aufgefüllt. |
+| 1                                        | Planen einer Besprechung des Teams Audiokonferenzen | Planen einer onlinebesprechung aus, und stellen Sie sicher, dass die Konferenzbrücke in der Einladung angezeigt wird. |  & #9744; bestehen<br/>& #9744; Teilweise<br/> & #9744; Fehler   | Für Benutzer, die RHM aktiviert ist, wählen Sie sich werden nicht Koordinaten über die Teams Outlook-Add-in Planung aufgefüllt. |
 
 
 <table>
@@ -794,7 +794,7 @@ Nachdem alle Testfälle Audiokonferenzen Features im Bereich Unterstützung von 
 
 **Audiokonferenzen Teams**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt 
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>

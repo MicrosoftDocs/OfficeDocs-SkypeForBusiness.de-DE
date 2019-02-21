@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: 01a9d6262cc7c452b9d937242ca431fe9e478777
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 789584991eaf6b95541d9fc49ec094d5c0481228
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048491"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120876"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -133,7 +133,7 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 
 ***
 
-Nachdem Sie überprüft haben, welche Skype for Business- oder Microsoft Teams-Dienste verfügbar sind, erhalten Sie weitere Informationen zum Kauf von Lizenzen und Zuweisen dieser Lizenzen zu Ihren Benutzern unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Nachdem Sie überprüft haben, welche Skype for Business- oder Microsoft Teams-Dienste verfügbar sind, erhalten Sie weitere Informationen zum Kauf von Lizenzen und Zuweisen dieser Lizenzen zu Ihren Benutzern unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
 > 
@@ -178,7 +178,7 @@ Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer 
 ### <a name="calling-plans"></a>Anrufpläne
 Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe tätigen und empfangen. Zunächst müssen Sie einem Benutzer eine Telefonnummer für Benutzer (Abonnenten) (keine Servicenummer) zuweisen. Anschließend weisen Sie einen Anrufplan zu. Zur Verfügung stehen zwei Arten von Anrufplänen: **Inland** und **Inland und Ausland**. Weitere Informationen finden Sie unter [Was sind Anrufpläne?](../what-are-calling-plans-in-office-365.md).
 
-Informationen zur Lizenzierung finden Sie zudem unter [Lizenzierung von Telefonsystem und Anrufplänen](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Informationen zur Lizenzierung finden Sie zudem unter [Lizenzierung von Telefonsystem und Anrufplänen](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
 > Das Land/die Region basiert auf dem Speicherort der Benutzerlizenz unter **Office 365 Admin Center** > **Aktive Benutzer** und **nicht** auf der Abrechnungsadresse unter **Organisationsprofil** im **Office 365 Admin Center**. 

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: e96f39cbcf5dcca4c0687f89f37ead6791ff2d98
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594062"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120742"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihr Telefonsystem mit Aufrufen plant in Plan zum Testen von Teams für Unternehmen 
 ============================================================================================
@@ -171,7 +171,7 @@ Der Bereich für die Auswertung ordnungsgemäß Telefonsystem in der Regel mit A
 
 ### <a name="define-and-document-phone-system-with-calling-plans-test-cases"></a>Definieren Sie und Dokumentieren Sie Telefonsystem plant Aufrufen von Testfällen
 
-Nachdem Sie das Telefonsystem mit Funktionen aufrufen plant, Clientbereitstellung und Side-by-Side-Szenarien mit Skype für Unternehmen (falls zutreffend) definiert haben, besteht der nächste Schritt erforderlich für die Auswertung Telefonsystem plant Aufrufen von Features in Testfälle zu formulieren Bereich. Auf allgemeiner Ebene Testfälle in der Regel werden nach den Fokusbereich gruppiert und umfassen:
+Nachdem Sie das Telefonsystem mit Funktionen aufrufen plant, Clientbereitstellung und Side-by-Side-Szenarien mit Skype für Unternehmen (falls zutreffend) definiert haben, besteht der nächste Schritt erforderlich für die Auswertung Telefonsystem plant Aufrufen von Features in Testfälle zu formulieren Umfang. Auf allgemeiner Ebene Testfälle in der Regel werden nach den Fokusbereich gruppiert und umfassen:
 
 -   **Testfall Titel:** Auswerten von Fokusbereich des Features für den Test mit den (beispielsweise Telefonsystem mit plant aufrufen)
 
@@ -490,7 +490,7 @@ Nach Abschluss QoS Validierungstests mithilfe von Gruppenrichtlinien für Websit
 
 **Überprüfung der QoS-Konfiguration über GPO und Nachricht Analyzer**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler
 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
@@ -544,7 +544,7 @@ Nach Abschluss Split-Tunnel Testkonfiguration für Websites in Bereich erstellen
 
 **Überprüfung der Split-Tunnel-Konfiguration**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler
 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
@@ -595,7 +595,7 @@ Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Website
 
 **Standort: Seattle [inneren verkabelt] Client für Office 365-Ergebnisse**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt 
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
 
 
 
@@ -716,7 +716,7 @@ Nachdem Sie alle Abonnenten Zahl Tests abgeschlossen haben, erstellen Sie einen 
 
 **Portieren Service-Nummer**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt 
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>
@@ -752,7 +752,7 @@ Nun, da Sie Testplan definiert haben, im nächsten Schritt wird die Testfälle d
 
 -   Die Liste der Organisationseinheit Websites und Benutzergruppen in den Bereich ermittelt wurden.
 
--   [Communications haben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
+-   [Communications haben](what-are-communications-credits.md) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
 
 -   Telefonsystem mit Einstellungen aufrufen plant identifiziert und konfiguriert wurden.
 
@@ -774,7 +774,7 @@ Testfälle für die administrative Teams und Benutzer System Telefonfunktionen i
 | Telefonsystem mit Anrufplänen          |                              |                                                                                            |                           |                                                                            |
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | Testfall-ID                             | Testfall Titel              | Testfall Beschreibung                                                                      | Ergebnisse des Testfalls Zusammenfassung | Zugewiesene Fehler-ID (falls zutreffend)                                         |
-| 1                                        | Das ausgehende PSTN-Anrufe tätigen. | Tätigen eines ausgehenden Anrufs durch Wählen einer Rufnummer für nationalen 10 Ziffern.                              |    & #9744; Übergeben Sie<br/>& #9744; Teilweise<br/> & #9744; Ein Fehler auftritt                   | Wenn ein Benutzer eine vierstellige Zahl eingibt, schlägt fehl, der Anruf an das Telefonfestnetz platziert. |
+| 1                                        | Das ausgehende PSTN-Anrufe tätigen. | Tätigen eines ausgehenden Anrufs durch Wählen einer Rufnummer für nationalen 10 Ziffern.                              |    & #9744; bestehen<br/>& #9744; Teilweise<br/> & #9744; Fehler                   | Wenn ein Benutzer eine vierstellige Zahl eingibt, schlägt fehl, der Anruf an das Telefonfestnetz platziert. |
 
 
 
@@ -796,7 +796,7 @@ Nachdem alle Testfälle Telefonsystem mit Aufrufen plant Features im Bereich Unt
 
 **Teams Telefonsystem mit dem Aufrufen der Pläne**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Ein Fehler auftritt 
+**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
 
 <table>
 <tr><th colspan="2">Testen der highlights </th></tr>

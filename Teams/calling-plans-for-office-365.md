@@ -1,5 +1,5 @@
 ---
-title: Anrufpläne für Office 365
+title: Aufrufpläne für Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,18 +28,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 75a3e031109216899b218c2572ae5906b4be796c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 091807d63be0c2853217f2bd2c442e8023cc3169
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047987"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121004"
 ---
-# <a name="calling-plans-for-office-365"></a>Anrufpläne für Office 365
+# <a name="calling-plans-for-office-365"></a>Aufrufpläne für Office 365
 
 Anrufe an andere Skype für Unternehmen und die Microsoft-Teams sind kostenlos, aber wenn nicht bereits einen Dienstanbieter VoIP-Anrufe tätigen, und Ihre Benutzer regulären Telefone aufrufen können sollen, müssen Sie zum Aufrufen von Plan erwerben. [Was sind Anrufpläne in Office 365?](what-are-calling-plans-in-office-365.md)
   
-Es folgen die Option plant aufrufen:
+Hier sind die Pläne aufrufen-Optionen aus:
   
 - **Nationalen aufrufen planen**: lizenzierte Benutzern aufrufen können, um Zahlen befindet sich im Lands/der Region, dem sie in Office 365 zugewiesen.
     
@@ -60,19 +60,19 @@ Ausführliche Informationen zu Einschränkungen und rechtliche Hinweise finden S
     ![Wenn Sie Ihre Cloud-PBX-Lizenzen kaufen, sehen Sie eine Option, um eine Stimme aufrufen Plan kaufen.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Je nach Ihrer planen müssen Sie möglicherweise weitere Add-ons kaufen, bevor Sie Telefonsystem Lizenzen erwerben können. Weitere Informationen finden Sie finden Sie unter "Lizenzoptionen basierend auf Ihrem Plan" in [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+    > Je nach Ihrer planen müssen Sie möglicherweise weitere Add-ons kaufen, bevor Sie Telefonsystem Lizenzen erwerben können. Weitere Informationen finden Sie finden Sie unter "Lizenzoptionen basierend auf Ihrem Plan" in [Microsoft-Teams, Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Nachdem Sie Telefonsystem Lizenzen erwerben möchten, können Sie nach der Anmeldung an der **Office 365 Administrationscenter**kaufen aufrufen planen, wählen **Abrechnung** > **Dienste erwerben** > **Add-on-Abonnements**, und klicken Sie dann auf **Jetzt kaufen**. Sie sehen die es plant aufrufen.
     
     ![Nachdem Sie eine Cloud-PBX-Lizenz erwerben, können Sie VoIP aufrufen Pläne kaufen.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Sie können kaufen und verschiedene Pläne Aufrufen von anderen Benutzern zuweisen, je nach den Anforderungen Ihrer Organisation. Nachdem Sie aufrufen planen Sie müssen ausgewählt haben, fahren Sie mit Auschecken. Weisen Sie einen Plan jedem Benutzer in Office 365 Administrationscenter. Informationen hierzu finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Sie können kaufen und verschiedene Pläne Aufrufen von anderen Benutzern zuweisen, je nach den Anforderungen Ihrer Organisation. Nachdem Sie aufrufen planen Sie müssen ausgewählt haben, fahren Sie mit Auschecken. Weisen Sie einen Plan jedem Benutzer in Office 365 Administrationscenter. Informationen hierzu finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Haben Sie einen Dienstanbieter, der lokalen PSTN-Anbindung für hybridbenutzer bereitstellt?
 
 In diesem Fall müssen Sie nicht aufrufen planen kaufen. Office 365 Enterprise E5 enthält das Add-on **Telefonsystem** , damit Sie zum Auschecken wechseln können.
   
-Klicken Sie dann, Benutzern im Office 365 Administrationscenter die Enterprise E5 oder **Telefonsystem** Add-on-Lizenzen zuweisen. Informationen hierzu finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Lizenzen zuweisen](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Klicken Sie dann, Benutzern im Office 365 Administrationscenter die Enterprise E5 oder **Telefonsystem** Add-on-Lizenzen zuweisen. Informationen hierzu finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
   
 ## <a name="pricing-information"></a>Preisinformationen
 
@@ -88,9 +88,7 @@ Hier sind weitere Artikel, in denen das Einrichten Ihrer aufrufen plant erläute
   
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     
-- [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-- [Planen von Skype für Business Cloud Connector Edition](https://technet.microsoft.com/library/Mt605227.aspx): in diesem Artikel wird erläutert, wie Office 365-Telefonsystem mit eigener PSTN-Anbindung einrichten.
+- [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [Planen Sie Ihr Telefonsystem in Office 365 (PBX zu Cloud)-Lösung](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -103,9 +101,5 @@ Hier sind weitere Artikel, in denen das Einrichten Ihrer aufrufen plant erläute
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     
-- [Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
-    
-- [Konfigurieren Sie den Connector Cloud](https://technet.microsoft.com/library/mt605228.aspx) , und [Laden Sie den Cloud-Connector](https://aka.ms/CloudConnectorInstaller)
-  
-  
+- [Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
  

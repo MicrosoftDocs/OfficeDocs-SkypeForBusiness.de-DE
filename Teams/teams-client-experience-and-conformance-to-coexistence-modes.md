@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
-ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
+ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087844"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120892"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -71,7 +71,7 @@ Administratoren sollten für jede dieser Einstellungen auf die folgenden Werte f
 |SfBWithTeamsCollab oder SfBOnly|Deaktiviert|Deaktiviert|Deaktiviert|Deaktiviert|
 ||||||
 
-Vor der Einführung der automatischen Konformität des Benutzererlebnisses basierend auf Modi die `Grant-csTeamsUpgradePolicy` Cmdlet überprüft die Konfiguration der entsprechenden Einstellungen in TeamsMessagingPolicy, TeamsCallingPolicy und TeamsMeetingPolicy bestimmen, ob diese mit den angegebenen Modus kompatibel sind. Wenn eine nicht ordnungsgemäß konfiguriert sind, die Grant wird erfolgreich ausgeführt, aber eine Warnung erhalten in PowerShell, der angibt, welche spezifischen Einstellungen nicht ordnungsgemäß konfiguriert sind. Es folgt ein Beispiel für die PowerShell-Warnung kann folgendermaßen aussehen:
+Vor der Einführung der automatischen Konformität des Benutzererlebnisses basierend auf Modi die `Grant-CsTeamsUpgradePolicy` Cmdlet überprüft die Konfiguration der entsprechenden Einstellungen in TeamsMessagingPolicy, TeamsCallingPolicy und TeamsMeetingPolicy bestimmen, ob diese mit den angegebenen Modus kompatibel sind. Wenn eine nicht ordnungsgemäß konfiguriert sind, die Grant wird erfolgreich ausgeführt, aber eine Warnung erhalten in PowerShell, der angibt, welche spezifischen Einstellungen nicht ordnungsgemäß konfiguriert sind. Es folgt ein Beispiel für die PowerShell-Warnung kann folgendermaßen aussehen:
 
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`

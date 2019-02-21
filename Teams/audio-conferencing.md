@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: a3ce04974eec062360bb6b0663255f079e097554
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532233"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120684"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 ============================================================
@@ -266,19 +266,19 @@ Wenn die Nutzung des Audiokonferenzdiensts durch Ihre Organisation bestätigt is
 
 ## <a name="licensing-for-audio-conferencing"></a>Lizenzierung für Audiokonferenzen
 
-Die [Audiokonferenzlizenz](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) ist im Rahmen der Office 365 E5-Abonnementpläne oder als Add-On für Office 365 E1- oder Office 365 E3-Abonnementpläne verfügbar.
+Die [Audiokonferenzlizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) ist im Rahmen der Office 365 E5-Abonnementpläne oder als Add-On für Office 365 E1- oder Office 365 E3-Abonnementpläne verfügbar.
 
 > [!NOTE]
 > PSTN- oder Einwahlkonferenzen in Teams bieten keine Unterstützung für <sup>Drittanbieter</sup> von Audiokonferenzanbieter-Partnern (Audio Conferencing Provider, ACP). <br>Wenn Sie den PSTN-Konferenzdienst für Skype for Business bereits verwenden, können Sie unmittelbar die Vorteile des Audiokonferenzdiensts in Teams nutzen.
 
-Um gebührenfreie Telefonnummern für Konferenzbrücken zur Verfügung zu stellen und ausgehende Konferenzanrufe für internationale Telefonnummern zu unterstützen, müssen Sie [Kommunikationsguthaben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) für Ihre Organisation einrichten.
+Um gebührenfreie Telefonnummern für Konferenzbrücken zur Verfügung zu stellen und ausgehende Konferenzanrufe für internationale Telefonnummern zu unterstützen, müssen Sie [Kommunikationsguthaben](what-are-communications-credits.md) für Ihre Organisation einrichten.
 
 > [!IMPORTANT]
 > Für einige Länder/Regionen gibt es nur gebührenfreie Telefonnummern für Konferenzbrücken. In diesem Fall ist die Verwendung von Kommunikationsguthaben verpflichtend, um die Einwahl für diese Länder/Regionen zu unterstützen.
 
-Bei der Implementierung von Kommunikationsguthaben müssen Sie zunächst überlegen, wie hoch der anfängliche Betrag für das Guthaben sein soll. Die empfohlenen Einzahlungsbeträge können Sie dem Artikel [Was ist Guthaben für Kommunikationen?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) entnehmen.
+Bei der Implementierung von Kommunikationsguthaben müssen Sie zunächst überlegen, wie hoch der anfängliche Betrag für das Guthaben sein soll. Die empfohlenen Einzahlungsbeträge können Sie dem Artikel [Was ist Guthaben für Kommunikationen?](what-are-communications-credits.md) entnehmen.
 
-Wenn sich Ihre Organisation für automatisches Aufladen entscheidet, finden Sie im Artikel [Was ist Guthaben für Kommunikationen?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) außerdem eine Empfehlung für den niedrigsten Betrag, der das automatische Aufladen auslöst. Der Betrag für die automatische Auffüllung richtet sich nach der tatsächlichen Verwendung. Die Verwendung von Guthaben für Kommunikationen sollte immer überwacht werden, und der Aufladebetrag muss nach Bedarf angepasst werden.
+Wenn sich Ihre Organisation für automatisches Aufladen entscheidet, finden Sie im Artikel [Was ist Guthaben für Kommunikationen?](what-are-communications-credits.md) außerdem eine Empfehlung für den niedrigsten Betrag, der das automatische Aufladen auslöst. Der Betrag für die automatische Auffüllung richtet sich nach der tatsächlichen Verwendung. Die Verwendung von Guthaben für Kommunikationen sollte immer überwacht werden, und der Aufladebetrag muss nach Bedarf angepasst werden.
 
 <br>
 
@@ -324,7 +324,7 @@ Der Audiokonferenzdienst in Office 365 umfasst:
 -   Unterstützung für mehrere Sprachen für die Konferenzbrücke (primär oder sekundär)
 -   Eine Standardtelefonnummer für den Mandanten.
 
-Eine vollständige Beschreibung der enthaltenen Funktionen finden Sie unter [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) und [Telefonnummern für Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+Eine vollständige Beschreibung der enthaltenen Funktionen finden Sie unter [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) und [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
 > Dedizierte Telefonnummern für Konferenzbrücken werden basierend auf der Anzahl der anwendbaren Lizenzen auf die Telefonnummern angerechnet, die pro Mandant angefordert werden können. Erläuterungen hierzu finden Sie unter [Erhalten von Servicenummern für Skype for Business und Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Für gebührenfreie Telefonnummern für Konferenzbrücken ist Kommunikationsguthaben erforderlich.
@@ -334,7 +334,7 @@ Vorhandene Telefonnummern für Konferenzbrücken, die in den Audiokonferenzdiens
 > [!NOTE]
 > Die Komplexität der Portierung von Telefonnummern nach Microsoft richtet sich sehr stark nach den jeweiligen Ländern oder Regionen, Netzbetreibern, der Anzahl der beteiligten Verbindungen und vielen anderen Faktoren. Informationen zur Portierung von Telefonnummern finden Sie im [Handbuch zur Portierung von Telefonnummern](https://go.microsoft.com/fwlink/?linkid=859011).
 
-Weitere Details zum Übertragen von Telefonnummern zum Audiokonferenzdienst finden Sie unter [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+Weitere Details zum Übertragen von Telefonnummern zum Audiokonferenzdienst finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
 
 <br>
 
@@ -432,7 +432,7 @@ Innerhalb der Telefonsystemfunktion in Office 36 gibt es zwei Arten von Wählpl�
     -   **Wählplan für Mandantenbenutzer**: Der Wählplan gilt nur für bestimmte Benutzer.
 
 > [!NOTE]
-> Weitere Details und Beispiele finden Sie in der Dokumentation [Was sind Wählpläne?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans).
+> Weitere Details und Beispiele finden Sie in der Dokumentation [Was sind Wählpläne?](what-are-dial-plans.md).
 
 Der den Benutzern zugewiesene wirksame Wählplan stellt eine Kombination aus dem Dienstwählplan (basierend auf dem Office 365-Verwendungsstandort des Benutzers) und dem Mandantenwählplan (entweder globaler Wählplan für Mandanten oder Wählplan für Mandantenbenutzer) dar.
 
@@ -456,7 +456,7 @@ Normalisierungsregeln können maximal 25 Regeln in jedem Mandantenwählplan enth
 > ||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
 > ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
 > ||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
-> |**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (x8000 – x8999) für OMB-Niederlassung, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (x8000 – x8999) für OMB-Niederlassung, Singapur_|^(8\d{3})$<br>+656888$1<br>True|
 > ||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
 > ||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
 > |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (x7000 – x7999) für 39 quai du Président Roosevelt-Niederlassung, Issy-les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
