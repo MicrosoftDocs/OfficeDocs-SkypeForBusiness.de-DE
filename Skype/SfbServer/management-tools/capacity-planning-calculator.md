@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Zusammenfassung: Wie Sie das Kapazitätsrechnertool verwenden.'
-ms.openlocfilehash: c55c42942ef14d7ec1904fb8b43340d6a2babb50
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8fdd2132a60becfc68c6e8d59acd8660a33eb9b4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533413"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178661"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype für Rechner Business Server-Kapazitätsplanung
  
@@ -26,7 +26,7 @@ ms.locfileid: "26533413"
 > - Skype für Business Server 2019.
 > - Skype für Business Server 2015.
   
-Die [Skype für Business Server 2015 Kapazitätsrechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196) und [Skype für Business Server 2019 Kapazitätsrechner](https://www.microsoft.com/en-in/download/details.aspx?id=57510) ergänzen die [Skype für Business Planungstool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) und Ihre Bereitstellungsdokumentation ([Planen Ihrer Skype für Unternehmen Server 2015 Bereitstellung](../plan-your-deployment/plan-your-deployment.md) und [Planen Sie Ihre Skype für die Bereitstellung von Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) jeweils). Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
+Die [Skype für Business Server 2015 Kapazitätsrechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196) und [Skype für Business Server 2019 Kapazitätsrechner](https://www.microsoft.com/en-us/download/details.aspx?id=57509) ergänzen die [Skype für Business Planungstool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) und Ihre Bereitstellungsdokumentation ([Planen Ihrer Skype für Unternehmen Server 2015 Bereitstellung](../plan-your-deployment/plan-your-deployment.md) und [Planen Sie Ihre Skype für die Bereitstellung von Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) jeweils). Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
   
 Die Skype für Business Server Kapazitätsrechner hilft bestimmen Sie die Anforderungen an die Server basierend auf der Anzahl von Benutzern und der Kommunikationstools, die Ihrer Organisation verwendet werden. Nachdem Sie Ihr Benutzerprofil und die Funktionen festgelegt haben, die Sie Ihren Nutzern zur Verfügung stellen möchten, verwenden Sie den Rechner zur Bestimmung der Anzahl von Servern, des Speicherumfangs und der Bandbreite, die erforderlich sein wird. Diese Version des Rechners bietet keine Anleitungen in Hinblick auf Datenträger-E/A-Anforderungen.
   

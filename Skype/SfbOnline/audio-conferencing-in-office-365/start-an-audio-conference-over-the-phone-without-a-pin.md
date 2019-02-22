@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 557360c3e49e22d1e719d98e8d51fda476efd045
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3a18692dbb95e1edc2d8093bad68bc059ffbc7d8
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372736"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178492"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Beginnen einer Audio-Konferenz über das Telefon ohne PIN in Skype für Business Online
 
@@ -58,7 +58,7 @@ Eine PIN ist nicht für den Organisator der Besprechung erforderlich, wenn eine 
 - Führen Sie Folgendes aus: 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AllowPSTNOnlyMeetingsByDefault $true | $false
+  Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true | $false
   ```
 
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?

@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfa908418061b4a9cc1d899d2ed64a9564b6f181
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: bb5310823db4e0a5fa441eca885599423f240dcc
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753508"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178526"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 
@@ -54,9 +54,9 @@ These apps are provided by third parties. You can configure the following settin
 
 - **Allow external apps in Microsoft Teams** (Externe Apps in Microsoft Teams zulassen): Wenn diese Einstellung aktiviert ist, können Benutzer externe Apps hinzufügen, die für Ihre Organisation verfügbar sind. 
 
-- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
-
 - **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
+
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
 Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md). 
 
@@ -116,7 +116,7 @@ Sie können einen Koexistenzmodus angeben: **Teams only** (Nur Microsoft Teams),
 
 #### <a name="app-preferences"></a>„App preferences“ (App-Einstellungen)
 
-Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype for Business-Besprechungen verwenden (Skype for Business oder die [Skype-Besprechungs-App](https://support.office.com/de-DE/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Diese Einstellung ist nicht von der Einstellung für den Koexistenzmodus abhängig.
+Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype for Business-Besprechungen verwenden (Skype for Business oder die [Skype-Besprechungs-App](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Diese Einstellung ist nicht von der Einstellung für den Koexistenzmodus abhängig.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Woran erkenne ich, welche Funktionen verfügbar sind?
 

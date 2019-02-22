@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Teams in der Verwaltungskonsole von Microsoft-Teams
+title: Verwalten von Teams im Admin Center für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: cf4d312f8fcb7f9ba509359eaaeed415be3e9662
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754187"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178677"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams in der Verwaltungskonsole von Microsoft-Teams
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Admin Center für Microsoft Teams
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
@@ -104,15 +104,15 @@ Ersetzen Sie mit dem Cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/en-
 
 1. Access- [Diagramm-Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
-2. Melden Sie sich bei Diagramm Explorer im Menü links
+2. Melden Sie sich bei Diagramm Explorer im linken Menü auf
 
 3. Ändern der Abfragezeile an: PATCH > v1. 0 >https://graph.microsoft.com/v1.0/groups/{groupid}
 
 4. Fügen Sie den folgenden Wert auf den Text der Anforderung: {"ResourceProvisioningOptions": ["Team"]}
 
-5. Führen Sie die Abfrage, auf der rechten oberen Ecke.
+5. Führen Sie die Abfrage, auf der oberen rechten.
 
-6. Bestätigen Sie, dass das Team wieder auf das Microsoft-Teams, Administrationscenter - ordnungsgemäß angezeigt wird Team (Übersicht)
+6. Bestätigen Sie, dass das Team in der Verwaltungskonsole von Microsoft-Teams - ordnungsgemäß angezeigt Team (Übersicht)
 
 
 ## <a name="learn-more"></a>Weitere Informationen

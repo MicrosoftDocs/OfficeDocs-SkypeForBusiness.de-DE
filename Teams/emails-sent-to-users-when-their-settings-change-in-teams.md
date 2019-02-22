@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, welche Informationen automatisch per E-Mail an Benutzer gesendet werden, wenn sich ihre Dial-in-Konferenzeinstellungen in Microsoft Teams ändern. '
-ms.openlocfilehash: 1d38963771388b1aec9bb2274e23dcfd22e9fe4b
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1431cd4391219e052ec2ad3702a9e4c227912a06
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120884"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178693"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen in Microsoft Teams ändern
 
@@ -42,9 +42,9 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
     Hier ist ein Beispiel für diese E-Mail:
 
-     ![Bestätigung der Skype for Business-Lizenz](media/audio-conferencing-user-enabled.png)
+     ![Bestätigung der Skype for Business-Lizenz](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Finden Sie weitere Informationen über die Lizenzierung von [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)sehen.
+    Weitere Informationen zu Lizenzierung finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **Die Konferenzkennung oder die standardmäßige Konferenztelefonnummer eines Benutzers wird geändert.**
 
@@ -52,7 +52,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
     Hier ist ein Beispiel für diese E-Mail:
 
-     ![Die Dial-in-Konferenzinformationen wurden geändert.](media/audio-conferencing-info-change.png)
+     ![Die Dial-in-Konferenzinformationen wurden geändert.](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
 - **Die Audiokonferenz-PIN eines Benutzers wird zurückgesetzt.**
 
@@ -60,7 +60,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
     
      Hier ist ein Beispiel für diese E-Mail:
     
-     ![Die PIN für Dial-in-Konferenzen wurde geändert.](media/audio-conferencing-pin-has-changed.png)
+     ![Die PIN für Dial-in-Konferenzen wurde geändert.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **Die Lizenz eines Benutzers wird entfernt, oder der Audiokonferenzanbieter wird von Microsoft in einen anderen Anbieter oder in „Keiner“ geändert.**
 
@@ -70,7 +70,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
     Hier ist ein Beispiel für diese E-Mail:
 
-     !["Dial-In-Konferenzen" ist deaktiviert.](media/audio-conferencing-turned-off.png)
+     !["Dial-In-Konferenzen" ist deaktiviert.](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

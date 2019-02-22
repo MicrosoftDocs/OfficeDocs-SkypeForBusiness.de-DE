@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Die Themen in diesem Abschnitt können Sie verstehen, wie Sie zum Planen und Bereitstellen von Skype für Business Server, sodass ausreichend planen zu können, für die Anzahl der Benutzer in Ihrer Organisation und Plan für die Auslastung des Servers, die deren Aktivitäten generieren.
-ms.openlocfilehash: 996fd1df51442bcaadbd0ae548e9cf57e580279a
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696345"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178716"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Capacity Planning for Skype für Business Server 2019
 
@@ -171,8 +171,8 @@ Microsoft hat bei den Leistungstests für den Datenbankserver die in der folgend
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5-2673 v3-Dualprozessor, 6-Core mit 2,4 Gigahertz (GHz) oder höher.  <br/> |
 |Arbeitsspeicher  <br/> |48 GB  <br/> |
-|Festplatte  <br/> |
-ENTWEDER: • 4 oder weitere 10.000 u/Min. Festplatten mit mindestens 72 GB freiem Speicherplatz (Festplatten sollte in eine 2 x RAID 1-Konfiguration). ODER • Solid State-Laufwerke (SSDs) liefern die gleichen freiem Speicherplatz und ähnliche Leistung 4 Festplattenlaufwerke mit 10.000 u/Min. mechanische.   <br/> | | Netzwerk  <br/> | 1 Dual-Port-Netzwerkadapter, 1 Gbit/s oder höher (2 empfohlen, der ein teaming mit einer einzelnen MAC-Adresse und einzelne IP-Adresse erfordert).  <br/> |
+|Festplatte  <br/> | ENTWEDER:<br/> • Mindestens 4 Festplattenlaufwerke mit 10.000 U/min und mindestens 72 GB freiem Speicherplatz (die Festplatten sollten in einer 2x-RAID-1-Konfiguration sein). <br/>ODER <br/>• SSDs (Solid State Drives) mit einer Leistung, die mit 4 mechanischen Festplattenlaufwerken bei 10.000 U/min vergleichbar ist.   <br/> |
+|Netzwerk  <br/> | 1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist).  <br/> |
 
 **Empfohlene Konfigurationen**
 

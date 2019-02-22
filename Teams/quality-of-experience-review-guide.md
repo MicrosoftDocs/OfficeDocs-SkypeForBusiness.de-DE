@@ -1,7 +1,7 @@
 ---
 title: Leitfaden zur Überprüfung der Qualität der Umgebung für Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: rowille
 manager: serdars
 ms.date: 09/05/2018
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: c9162a10d55b224e14867866395b1e44d18e8e6e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964450"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178740"
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 
@@ -33,15 +33,15 @@ Um am stärksten zur Verbesserung der benutzerfreundlichkeit haben, müssen Unte
 
 _Abbildung 1: Schlüssel betriebliche Bereiche behandelt, die in diesem Handbuch_
 
-Ständig bewerten und Korrigieren von die Bereiche, die in diesem Handbuch beschrieben, können Sie ihre Potenzial, die sich negativ auf die Qualität Ihrer Benutzer-Erfahrung auswirken reduziert. Die meisten Benutzer-Erlebnis Probleme in einer Bereitstellung können in die folgenden Kategorien unterteilt werden:
+Ständig bewerten und Korrigieren von die Bereiche, die in diesem Handbuch beschrieben, können Sie ihre Potenzial, die sich negativ auf die Qualität Ihrer Benutzer-Erfahrung auswirken reduziert. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 
--   Unvollständige Firewall oder der Proxyserver-Konfiguration
--   Schlechte Wi-Fi-Abdeckung
+-   Unvollständige Firewall- oder Proxykonfiguration
+-   Schlechte WLAN-Abdeckung
 -   Unzureichende Bandbreite
 -   VPN
 -   Inkonsistente oder veraltete Clientversionen und Treiber
 -   Nicht optimierte oder integrierte Audiogeräte
--   Problematisch Subnetze oder Netzwerkgeräte
+-   Problematische Subnetze oder Netzwerkgeräte
 
 Durch sorgfältige Planung und Entwurf vor der Bereitstellung von Teams oder Skype für Business Online können Sie Aufwand reduzieren, die erforderlich sind, um qualitativ hochwertige guter maintain.
 
@@ -57,11 +57,17 @@ Dieses Handbuch soll auch von der festgelegten Qualität Champion(s) verwendet w
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Stellen Sie bevor Sie dieses Handbuch verwenden sicher, dass Sie die richtige Mandanten [Rollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) zugewiesen, sodass Sie CQD zugreifen können.
+Stellen Sie bevor Sie dieses Handbuch verwenden sicher, dass Sie die richtige Mandanten [Rollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) zugewiesen, sodass Sie CQD zugreifen können.
 
--   **Globalen Administratorrolle von Office 365:** Greift auf alle administrativen Funktionen in Office 365-Suite von Diensten in Ihrem Plan, einschließlich Skype für Unternehmen.
+-   **Office 365 globalen Administratorrolle** 
 
--   **Skype für Business Administratorrolle:** Skype für Unternehmen für Ihre Organisation konfiguriert, und ist berechtigt, die [Berichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Office 365 Administrationscenter anzeigen. Diese Rolle ist erforderlich, auch wenn Sie nur Teams bereitstellen.
+-   **Skype für Business Administratorrolle** 
+
+-   **Teams Service Administratorrolle** 
+
+-   **Teams Communications Supporttechniker Rolle** 
+
+-   **Teams Communications Supportspezialisten Rolle** 
 
 Alternativ können Sie ein Office 365-Benutzerkonto den Zugriff auf Berichtsfunktionen nur folgende Rolle zuweisen.
 
@@ -95,7 +101,7 @@ Die tatsächliche Messung in CQD variiert je nach Arbeitslast, aber für die Zwe
 > CQD enthält die "schlechter Fälligkeitsdatum an..." Maßeinheiten für ein besseres Verständnis welcher Bedingung den Stream, der als schlecht eingestuft verursacht.
 
 
-_Tabelle 1: Schlechte Service Metriken_
+_Tabelle 1 - Audio schlechter Qualitätsmetriken_
 
 | Metrische Durchschnitt     | Beschreibung     | Benutzererfahrung |
 |-------------|-----------------|-----------------|
@@ -139,7 +145,7 @@ _Tabelle 2 - Core Ziel Health Assessment Metriken_
 <tr><td rowspan="5"><strong>Konferenzen</strong></td><td>Intern</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Interne verkabelt</td><td>1.0 %</td><td>0,5 %</td><td>1.0 %</td></tr>
 <tr><td>Wi-Fi 5 GHz interne</td><td>1.0 %</td><td>0,5 %</td><td>1.0 %</td></tr>
-<tr><td>Interne der Wi-Fi 2,4 GHz</td><td>4.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
+<tr><td>Interne der Wi-Fi 2,4 GHz</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Gesamt</td><td>2.0 %</td><td>0,5 %</td><td>3,0 %</td></tr>
 <tr><td rowspan="4"><strong>P2P</strong></td><td>Intern</td><td>2.0 %</td><td>0,5 %</td><td>2.0 %</td></tr>
 <tr><td>Verkabelt/Wi-Fi 5 GHz interne</td><td>1.0 %</td><td>0,5 %</td><td>1.0 %</td></tr>
@@ -786,7 +792,7 @@ Diese Tools basieren auf PowerShell und Active Directory (AD)-Standorte und -Die
 
 Weitere Informationen zu diesem Tool finden Sie unter [in diesem Blogbeitrag](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a> Netzplaner
+#### <a name="network-planner"></a>Netzwerkplaner
 
 Der Netzwerk-Planner bestimmt und die netzwerkanforderungen für Ihre Cloud-VoIP-Bereitstellung in nur wenigen Schritten organisiert. Durch bereitstellen, dass Ihre Organisation Details und Cloud Voicemail Nutzung networking des, können Sie eine ungefähre Berechnung der netzwerkanforderungen für Ihre Cloud-VoIP-Bereitstellung abgerufen, verwalten und Exportieren diese Details für reporting und zur weiteren Untersuchung Bereiche anzeigen und nächste Schritte.
 
@@ -1044,7 +1050,7 @@ _Tabelle 10: Allgemeine Beiträge zu hohe a._
 |------------------------------------------|----------------------------------|
 | **Netzwerke**                                 | **Eine Überlastung**: ein Netzwerk Überbelastung oder unter bereitgestellte kann Probleme mit der Medienqualität. Arbeiten mit dem Netzwerkteam, um festzustellen, ob die Netzwerkverbindungen aus der Benutzer auf das Internet Ausgang zeigen hat genügend Bandbreite für Medien unterstützen. Der [Planner Netzwerk](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) helfen Ihnen die Bandbreite-Anforderungen Ihrer Organisation besser zu verstehen.<br><br>**Durchführen einer Netzwerk-Bereitschaft**: eine Netzwerk-Bewertung enthält Details zur Nutzung der erwarteten Bandbreite, wie bewältigen Bandbreite und Netzwerk ändert und empfohlenen Netzwerke Methoden für Teams und Skype für Unternehmen. Verwenden der obigen Tabelle als Quelle, müssen Sie eine Liste von Gebäude oder Subnetze, die eignen sich für eine Bewertung sind.<ul><li>[Microsoft-Teams, Netzwerk-Bereitschaft](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype für Business Netzwerk Bereitschaft](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Tool zur Bewertung der Microsoft Network:** Verwenden Sie dieses Tool für einen einfachen Test der Leistung des Netzwerks, um zu bestimmen, wie gut das Netzwerk für eine Teams ausführen würden oder Skype für Business Online Anruf. Das Tool können Sie die Leistung eines Subnetzes bewerten und überprüfen die Bereitschaft des Netzwerks gegen Microsoft Leistung [Anforderungen](https://aka.ms/performancerequirements).<ul><li>[Laden Sie das Tool zur Bewertung der Netzwerk](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
 | **Quality of Service (QoS)**  | QoS ist eine bewährte Tool, das Ihnen Pakete in einem Netzwerk überlastete, um sicherzustellen, dass sie am Ziel intakt eingehen und priorisieren. Berücksichtigen Sie die Implementierung der QoS in Ihrer Organisation, die die Qualität des Benutzererlebnisses maximieren, in dem Bandbreite eingeschränkt wurde. QoS helfen, Probleme, die in der Regel mit hoher Paketverlust, lösen und – in geringerem Maße – Jitter und Round-Trip Zeiten.<ul><li>[Microsoft-Teams QoS-Anweisungen](qos-in-teams.md)</li><li>[Skype für Business QoS-Anweisungen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
-| **Wi-Fi**               | Wi-Fi kann eine erhebliche Auswirkungen auf die Anrufqualität haben. Wi-Fi-Bereitstellungen nicht in der Regel berücksichtigen Sie die netzwerkanforderungen für die VoIP-Dienste und sind häufig die Ursache von schlechter Qualität. Weitere Informationen zum Optimieren der Wi-Fi-Infrastruktur finden Sie unter [in diesem Artikel zur Planung der Wi-Fi](/skypeforbusiness/certification/plan-wifi).<br><br>**WLAN-Treiber**: Stellen Sie sicher, dass wireless-Treiber auf dem aktuellen Stand sind. Dadurch wird eine beliebige benutzerfreundlich im Zusammenhang mit einer veralteten Treiber zu mindern. Viele Organisationen ohne wireless-Treiber in ihre Patch-Zyklen einzuschließen können, und diese Treiber ohne Patch Jahren. Viele drahtlose Probleme werden gelöst, indem sichergestellt wird, dass die WLAN-Treiber auf dem aktuellen Stand sind.<br><br>**WMM**: Wireless Multimedia Extensions (WMM), auch bekannt als Wi-Fi Multimedia bietet grundlegende QoS-Features für drahtlose Netzwerke. Moderne drahtlose Netzwerke müssen vielen Geräten unterstützen. Diese Geräte konkurrieren für Bandbreiten- und können dazu führen, dass Qualitätsprobleme für VoIP-Dienste, wo sind Geschwindigkeit und Wartezeit wichtiger. Wenden Sie sich an den Hersteller Ihres drahtlosen Einzelheiten und implementieren Sie WMM im drahtlosen Netzwerk Skype für Geschäfts- und Teams Medien priorisieren.<br><br>**Access Point Dichte**: Zugriffspunkte können weit auseinander oder nicht in einen ideale Ort zu sein. Um Probleme zu minimieren, setzen Sie zusätzliche Zugriffspunkte in Konferenzräumen und Speicherorte, die blockiert werden nicht durch Wände oder sonstigen Objekte, in dem das Wi-Fi-Signal schwach ist.<br><br>**Mit 2,4 GHz statt 5 GHz**: 5 GHz enthält weniger Störungen im Hintergrund und einer höheren Geschwindigkeit und bei der Bereitstellung von VoIP über Wi-Fi priorisiert werden sollte. Jedoch 5 GHz ist nicht so stark wie mit 2,4 GHz nicht zugelassen und Walls so einfach. Überprüfen Sie vom Layout erstellen, um die Häufigkeit bestimmen Sie für die optimale Verbindung verwenden können. |
+| **WLAN**               | Wi-Fi kann eine erhebliche Auswirkungen auf die Anrufqualität haben. Wi-Fi-Bereitstellungen nicht in der Regel berücksichtigen Sie die netzwerkanforderungen für die VoIP-Dienste und sind häufig die Ursache von schlechter Qualität. Weitere Informationen zum Optimieren der Wi-Fi-Infrastruktur finden Sie unter [in diesem Artikel zur Planung der Wi-Fi](/skypeforbusiness/certification/plan-wifi).<br><br>**WLAN-Treiber**: Stellen Sie sicher, dass wireless-Treiber auf dem aktuellen Stand sind. Dadurch wird eine beliebige benutzerfreundlich im Zusammenhang mit einer veralteten Treiber zu mindern. Viele Organisationen ohne wireless-Treiber in ihre Patch-Zyklen einzuschließen können, und diese Treiber ohne Patch Jahren. Viele drahtlose Probleme werden gelöst, indem sichergestellt wird, dass die WLAN-Treiber auf dem aktuellen Stand sind.<br><br>**WMM**: Wireless Multimedia Extensions (WMM), auch bekannt als Wi-Fi Multimedia bietet grundlegende QoS-Features für drahtlose Netzwerke. Moderne drahtlose Netzwerke müssen vielen Geräten unterstützen. Diese Geräte konkurrieren für Bandbreiten- und können dazu führen, dass Qualitätsprobleme für VoIP-Dienste, wo sind Geschwindigkeit und Wartezeit wichtiger. Wenden Sie sich an den Hersteller Ihres drahtlosen Einzelheiten und implementieren Sie WMM im drahtlosen Netzwerk Skype für Geschäfts- und Teams Medien priorisieren.<br><br>**Access Point Dichte**: Zugriffspunkte können weit auseinander oder nicht in einen ideale Ort zu sein. Um Probleme zu minimieren, setzen Sie zusätzliche Zugriffspunkte in Konferenzräumen und Speicherorte, die blockiert werden nicht durch Wände oder sonstigen Objekte, in dem das Wi-Fi-Signal schwach ist.<br><br>**Mit 2,4 GHz statt 5 GHz**: 5 GHz enthält weniger Störungen im Hintergrund und einer höheren Geschwindigkeit und bei der Bereitstellung von VoIP über Wi-Fi priorisiert werden sollte. Jedoch 5 GHz ist nicht so stark wie mit 2,4 GHz nicht zugelassen und Walls so einfach. Überprüfen Sie vom Layout erstellen, um die Häufigkeit bestimmen Sie für die optimale Verbindung verwenden können. |
 |**Netzwerkgerät** | In größeren Organisationen möglicherweise Hunderte von Geräten, die über das Netzwerk verteilt. Arbeiten Sie mit Ihrem Netzwerkteam, um sicherzustellen, dass die Netzwerkgeräte vom Benutzer mit dem Internet verwaltet und auf dem aktuellen Stand sind. |
 | **VPN**  | VPN-Geräte eignen sich nicht traditionell, Real-Time Media Arbeitslasten zu behandeln. Einige VPN-Konfigurationen verhindern die Verwendung von UDP (Dies ist das bevorzugte Protokoll für Medien) und stützen sich nur auf TCP. Berücksichtigen Sie die Implementierung einer [VPN-Split-Tunnel Lösung](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) zur Verringerung der VPN als Quelle von schlechter Qualität. |
 | **Clients** <br>(Skype für Unternehmen nur Online) | Ältere Clients wurden als verursacht Probleme mit Medien. Stellen Sie sicher, dass Clients innerhalb von sechs Monaten nach Veröffentlichung gepatcht werden. [MyAdvisor](https://aka.ms/myadvisor) Hinweise zum Entwickeln einer Strategie für die Bereitschaft Client verwenden und Bereitstellen von [Klick-und-Los](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus). |
@@ -1280,7 +1286,7 @@ Die nächste Aufgabe ist die Gesamtauslastung des [certified Audiogeräte](https
 
 Grafiktreiber sind wichtig, ebenfalls aktualisierte zu halten. Sicherstellen, dass regelmäßig Grafikkarten gepatcht werden helfen Grafiktreiber als Quelle von schlechter Qualität bei Videostreams ausschließen. Mit [certified Videogeräte](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) können Sie ein reibungsloses und qualitativ hochwertige Benutzererlebnis sicherstellen. Videogeräte, die systemeigene h. 264-Codierung unterstützen, werden bevorzugt CPU-Auslastung bei Videokonferenzen zu reduzieren.
 
-##### <a name="wi-fi"></a>Wi-Fi
+##### <a name="wi-fi"></a>WLAN
 
 Wi-Fi-Treiber auch auf einer regulären Trittfrequenz sowie gepatcht werden müssen und Ihre Strategie für Patch Management einbezogen werden soll. Durch aktuelle Wi-Fi-Treiber verwalten, können viele Qualitätsprobleme korrigiert werden. Weitere Informationen zum Optimieren der Wi-Fi-Infrastruktur finden Sie unter [in diesem Artikel zur Planung der Wi-Fi](/skypeforbusiness/certification/networking-wifi).
 

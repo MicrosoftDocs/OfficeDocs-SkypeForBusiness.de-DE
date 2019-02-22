@@ -3,7 +3,7 @@ title: Anrufanalyse- und Anrufqualitäts-Dashboard
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Informationen Sie zu Analytics aufrufen und Qualitätsdashboard aufrufen und verwenden sie zur Überwachung und Problembehandlung Anrufqualität.
-ms.openlocfilehash: e3d768178723a2bce611770698338d8d4e4cce61
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: b3a65c4fa6a3dfe8de6b4ef70cd7657661cf4dc9
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069609"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178669"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anrufanalyse- und Anrufqualitäts-Dashboard
 
@@ -44,7 +44,7 @@ Die Anrufanalyse und das Anrufqualitätsdashboard werden parallel ausgeführt un
 > Helpdesk-Agent-Berechtigungen und Netzwerk-Topologie hochladen verfügbar in das neue Administratorportal in den nächsten Monaten. Sie können in der Zwischenzeit weiterhin verwenden https://adminportal.services.skypeforbusiness.com für Ebene 1 und Ebene 2 Helpdesk-Zugriff.
   
 
-Anruf Analytics zeigt detaillierte Informationen zu den Geräten, Netzwerke und im Zusammenhang mit der bestimmte Aufrufe und Besprechungen für jeden Benutzer in einem Microsoft-Teams oder Skype für Konto Business Connectivity. Warum Benutzer Amos Marmor Anruf schlechter Qualität dieses Tag? Analytics anrufen verwenden, kann ein Office 365 Admin oder geschult Helpdesk-Agent des Geräts, Netzwerk, Konnektivität und anderen Faktoren im Zusammenhang mit der Amos Aufruf von Anruf Qualität und Verbindung Problemen in Microsoft-Teams und Skype für Business überprüfen.
+Anruf Analytics zeigt detaillierte Informationen zu den Geräten, Netzwerke und im Zusammenhang mit der bestimmte Aufrufe und Besprechungen für jeden Benutzer in einem Microsoft-Teams oder Skype für Konto Business Connectivity. Warum diese Benutzer einen Anruf schlechter Qualität dieses Tag? Analytics anrufen verwenden, kann ein Office 365 Admin oder geschult Helpdesk-Agent des Geräts, Netzwerk, Konnektivität und anderen Faktoren im Zusammenhang mit seinen Anruf von Anruf Qualität und Verbindung Problemen in Microsoft-Teams und Skype für Business überprüfen.
 
 Wenn Sie diese Informationen für einen Benutzer in der Microsoft-Teams-Verwaltungskonsole angezeigt wird, klicken Sie auf der Registerkarte **Anrufverlauf** für diesen Benutzer auf der Seite Benutzer Detail zeigt alle Anrufe und Besprechungen, dass der Benutzer in den letzten 30 Tagen teilgenommen hat.
 
@@ -52,7 +52,7 @@ Wenn Sie diese Informationen für einen Benutzer in der Microsoft-Teams-Verwaltu
 
 Wenn Sie weitere Informationen zu einer bestimmten Sitzung einschließlich detaillierte Medien und Netzwerke Statistiken erhalten möchten, klicken Sie auf eine Sitzung, um die Details anzuzeigen.
 
-![Rufen Sie Analytics Benutzersitzungsdaten.](media/call-analytics-user-data-session.png)
+![Rufen Sie Analytics Benutzersitzungsdaten.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 Nicht-Administratoren, beispielsweise einen externen Anbieter, Helpdesk-Agents auf Wunsch können zum Aufrufen, Analyse, verwenden Sie Berechtigungen zuweisen, damit Analytics aufrufen können, dieser Zugriff jedoch nicht den Rest von der Microsoft-Teams-Verwaltungskonsole: 
   
@@ -74,26 +74,29 @@ Details zum Einrichten der Anrufanalyse finden Sie unter [Einrichten der Anrufan
   
 Wo Zertifizierungsstelle soll helfen, Administratoren und Helpdesk-Agents Problembehandlung Anrufqualität für bestimmte Aufrufe aufrufen Quality Dashboard (CQD) soll helfen, Microsoft-Teams Admins, Skype Informationen zu Business-Administratoren, und Netzwerktechniker Optimieren der Leistung von einem Netzwerk. CQD verschiebt den Fokus von bestimmten Benutzern und stattdessen untersucht aggregierte Informationen für ein ganzes Microsoft-Teams oder Skype für Business-Organisation. Weitere Details finden Sie unter [Funktionen des Anrufqualitäts-Dashboards für Skype for Business Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Amos der Anrufe schlechter Qualität Qualität ist vielleicht ein Problem mit der, die auch zahlreiche andere Benutzer auswirkt. Der Amos einzelner Anruf Erfahrung nicht in CQD sichtbar ist, aber die allgemeine Qualität der Anrufe, die mithilfe von Microsoft-Teams oder Skype für Unternehmen werden erfasst. Durch das Anrufqualitätsdashboard können allgemeine Muster sichtbar werden, die Netzwerktechnikern fundierte Bewertungen der Anrufqualität ermöglichen. CQD bietet Berichte über die Anruf-Qualitätsmetriken, mit denen Sie Einblicke in insgesamt Qualität, Server-Client-Streams, Client-Client-Streams und Sprachqualität [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)aufrufen.
+Möglicherweise ist der Benutzer Anrufe schlechter Qualität Qualität aufgrund ein Problem mit der, die auch zahlreiche andere Benutzer auswirkt. Die Erfahrung einzelner Anruf nicht in CQD sichtbar ist, aber die allgemeine Qualität der Anrufe, die mithilfe von Microsoft-Teams oder Skype für Unternehmen werden erfasst. Durch das Anrufqualitätsdashboard können allgemeine Muster sichtbar werden, die Netzwerktechnikern fundierte Bewertungen der Anrufqualität ermöglichen. CQD bietet Berichte über die Anruf-Qualitätsmetriken, mit denen Sie Einblicke in insgesamt Qualität, Server-Client-Streams, Client-Client-Streams und Sprachqualität [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)aufrufen.
   
-![Screenshot des Anrufqualität Dashboard. Registerkarten dargestellt sind allgemeine Anrufqualität - Client, Client - Server-Client und VoIP Qualität Vereinbarung zum SERVICELEVEL.](media/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+![Screenshot des Anrufqualität Dashboard. Registerkarten dargestellt sind allgemeine Anrufqualität - Client, Client - Server-Client und VoIP Qualität Vereinbarung zum SERVICELEVEL.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-Mit der Hilfe CQDs Location-Enhanced Berichte können aggregierte Anrufqualität und Zuverlässigkeit innerhalb des Amos zum Erstellen von bewertet werden, um festzustellen, ob das Problem zu einem einzelnen Benutzer isoliert wird oder wirkt sich auf einer größeren Benutzersegment.
+Mit der Hilfe CQDs Location-Enhanced Berichte können aggregierte Anrufqualität und Zuverlässigkeit innerhalb des Benutzers zum Erstellen von bewertet werden, um festzustellen, ob das Problem zu einem einzelnen Benutzer isoliert wird oder wirkt sich auf einer größeren Benutzersegment.
 
 ![Screenshot des Anrufqualität Dashboard Speicherort mit erhöhter Berichte. Registerkarten dargestellt sind Übersicht, Gebäude - verkabelt, Gebäude - WiFi und Mobile (LZF). Ein Filter wird angewendet, um die Datenströme in einem bestimmten Gebäude anzuzeigen.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
 
 > [!NOTE]
 > Um-spezifische Erstellen von Ansichten in CQD zu aktivieren, müssen ein Administrator auf CQDs Mandanten Datenupload Seite [Informationen zum Erstellen von hochladen](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) .
 
-  
-Nicht-Administratoren, wie etwa Helpdesk-Agents auf Wunsch können zum Aufrufen Dashboard für die Qualität, verwenden Sie diese Benutzer die Rolle **Leser von Berichten** zuweisen. Benutzer mit den folgenden Rollen können aufrufen Qualitätsdashboard zugreifen:
+Nicht-Administratoren, wie etwa Helpdesk-Agents auf Wunsch können zum Aufrufen Dashboard für die Qualität, verwenden Sie diese Benutzer die Rolle **Teams Communications Supporttechniker**, **Teams Communications Supportspezialisten**oder **Leser von Berichten** zuweisen. Benutzer mit den folgenden Rollen können aufrufen Qualitätsdashboard zugreifen:
 
- - Globaler administrator
- - Skype for Business-Administrator
- - Leser von Berichten
+- Globaler Administrator
+- Skype für Business-Administratoren
+- Teams-Dienstadministrator
+- Teams-Kommunikationsadministrator
+- Teams-Kommunikationssupporttechniker
+- Teams Communications-Supportspezialisten
+- Leser von Berichten
 
 > [!NOTE]
-> Berichte Rolle keine Dateien auf CQDs Mandanten Datenupload Seite ändern oder CQD für einen Mandanten zu aktivieren.
+> Die Rollen Teams Communications Supporttechniker, Teams Communications Supportspezialisten und Berichte Reader keine Dateien auf CQDs Mandanten Datenupload Seite ändern oder CQD für einen Mandanten zu aktivieren.
 
 Weitere Informationen zu diesen Rollen finden Sie unter [Informationen zu Office 365-Administratorrollen](/office365/admin/add-users/about-admin-roles).
 

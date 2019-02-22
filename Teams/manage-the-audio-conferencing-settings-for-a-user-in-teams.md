@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Als Office 365-Administrator können Sie die Einstellungen für Audiokonferenzen in Microsoft Teams (zum Beispiel den Anbieter, die standardmäßige gebührenpflichtige oder gebührenfreie Telefonnummer, die Konferenzkennung oder die PIN) für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. '
-ms.openlocfilehash: 5b5ea2217f0bd5dce9738ab5013c176c89a9050f
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 46b3eaf393ba49a17fb92c3cbeebc1d6927f16e5
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754341"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178654"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Verwalten der Audiokonferenzeinstellungen für einen Benutzer in Microsoft Teams
 
@@ -50,7 +50,7 @@ Sie können als ein Office 365-Administrator die Audiokonferenzeinstellungen –
 |**Nicht authentifizierte Benutzer können die erste Person in der Besprechung sein.**|Zum Ändern dieser Einstellung umschalten Sie **können nicht authentifizierte Benutzer die erste Person in der Besprechung werden** aktiviert oder deaktiviert.
 |**Dial-Out-Berechtigungen**|Wenn Sie diese Einstellung ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , wählen Sie eine Option unter **Anwahl von Besprechungen**.|
 
-![Zeigt die Audiokonferenz Einstellungen für einen Benutzer](media/sfbaudioconf-usersettings.png)
+![Zeigt die Audiokonferenz Einstellungen für einen Benutzer](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

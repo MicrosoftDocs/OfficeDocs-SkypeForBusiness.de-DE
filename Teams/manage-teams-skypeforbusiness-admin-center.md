@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Teams während der Übergang zur neuen Microsoft-Teams-Verwaltungskonsole
+title: Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 581be37a3acf4b0063cf93da1ba1289cd08b2f2e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753536"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178502"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Teams während der Übergang zur neuen Microsoft-Teams-Verwaltungskonsole
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
@@ -52,6 +52,11 @@ Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurd
 |Einstellungen nach Benutzer-/Lizenztyp     |Aktivieren Sie oder deaktivieren Sie den Microsoft-Teams für alle Benutzer          |Veraltete<sup>1</sup>        |         |
 |Teams und Kanäle     |         |Umleitung zur Azure Active Directory-Gruppenmanagement (identisch mit Kenntnissen).              |Benutzer         |
 |Teams und Kanäle     |         |Umleitung zur Verwaltung von AAD (identisch mit Kenntnissen).             |Benutzer          |
+|Apps|Standardmäßiges Aktivieren von neuen externen Apps|Org geltende app-Einstellungen|Mandanten|
+|Apps|Externe apps zulassen|Org geltende app-Einstellungen|Mandanten|
+|Apps|Zulassen von externen App-<sup>2</sup> sideloading|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Benutzer|
+|Apps|Standard-apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
+|Apps|Externe apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
 |Anrufe und Besprechungen     |„Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen)         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
 |Anrufe und Besprechungen     |Ad-hoc-Kanal Meetup zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
 |Anrufe und Besprechungen     |„Allow scheduling for channel meetings“ (Planen von Kanalbesprechungen zulassen)         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
@@ -68,6 +73,13 @@ Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurd
 |Messaging     |Ermöglicht es Benutzern, privat chat         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 
 <sup>1</sup> Gast veraltet. Aktivieren/Deaktivieren von Gast können jetzt in der Verwaltungskonsole von Microsoft-Teams verwaltet werden. Aktivieren/Deaktivieren von Unternehmen, Edu Student, Teams und Edu Fakultät bald unterstützt. Dies sollte durch Zuweisen von Lizenzen im Office 365 Administrationscenter verwaltet werden. Finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md).
+<br><br>
+<sup>2</sup> Sideloading ist wie folgt aufgeteilt:
+
+- Kann einen Benutzer Sideload-apps, die auf der Benutzerebene in [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)verwaltet werden können.
+- Ermöglicht es Benutzern in einem Mandanten Interaktion mit benutzerdefinierten apps, die auf einer Ebene Mandanten in Org geltende app-Einstellungen verwaltet werden können.
+ 
+<sup>3</sup> Standard-apps und externe apps können aktiviert und deaktiviert werden auf Benutzerebene in TeamsAppPermissionPolicy. Darüber hinaus können apps Ebene der Mandant Org geltende app-Einstellungen blockiert werden, die alle Benutzer und Einstellungen auf Mandantenebene überschrieben wird. 
 
 > [!NOTE]
 > Sie können weiterhin das Gruppen-Dashboard im Office 365 Administrationscenter für die Konfiguration im Zusammenhang mit der Teams und Kanäle verwenden. Einstellungen für Apps bleibt im Bereich Teams von Office 365 Administrationscenter und migriert werden weiter unten. 

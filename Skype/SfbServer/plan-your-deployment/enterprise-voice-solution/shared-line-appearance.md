@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: In diesem Thema erfahren, wie für freigegebene Zeile Darstellung (SLA) in Skype Business Server 2015 November 2015 geplant kumulative Update.
 ms.openlocfilehash: b65d637426b0a8533089b21021bce566373ca9f1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "23884508"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planen der Funktion „Gemeinsame Leitungen“ in Skype for Business Server 2015
@@ -39,7 +39,7 @@ SLA wird nur unter den folgenden Telefone unterstützt (es ist nicht für Skype 
     
 Vereinbarung zum SERVICELEVEL ist ein neues Feature in Skype für Business Server 2015 November Kumulatives Update. 
   
-Informationen zum Bereitstellen von SLA finden Sie unter [Shared Zeile Darstellung in Skype für Business Server 2015 bereitstellen](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
+Informationen zum Bereitstellen von SLA finden Sie unter [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   
 ## <a name="feature-list"></a>Liste der Funktionen
 
