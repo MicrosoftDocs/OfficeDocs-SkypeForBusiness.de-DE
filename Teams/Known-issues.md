@@ -3,7 +3,7 @@ title: Bekannte Probleme für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 8/21/2018
+ms.date: 2/19/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789167"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120441"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -32,15 +32,15 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Die EAF-Richtlinie im Enhanced Mitigation Experience Toolkit (EMET) identifiziert möglicherweise Chromium-Sandkastenoptimierungen fälschlich als Bedrohungen. <br/> |Im Zusammenhang mit Chromium-Sandkästen besteht ein Problem, bei dem die EAF-Richtlinie (Export Address Table Access Filtering) im Enhanced Mitigation Experience Toolkit (EMET) und in Windows Defender Advanced Threat Protection (ATP) Chromium-Sandkastenoptimierungen möglicherweise fälschlich als Bedrohungen identifiziert. Dies führt dazu, dass Microsoft Teams nicht ordnungsgemäß funktioniert.  <br/> | Deaktivieren Sie EAF für Microsoft Teams, um das Problem zu umgehen. Unter [Richtlinien zu EMET-Sicherheitstechnologien zur Schadensbegrenzung](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) können Sie mehr über dieses Problem lesen. Weitere Informationen zu Windows Defender ATP und zur EAF-Richtlinie finden Sie unter [Anpassen des Exploit-Schutzes](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection). <br/> |11.10.2018 <br/> |
+|Die EAF-Richtlinie im Enhanced Mitigation Experience Toolkit (EMET) identifiziert möglicherweise Chromium-Sandkastenoptimierungen fälschlich als Bedrohungen. <br/> |Im Zusammenhang mit Chromium-Sandkästen besteht ein Problem, bei dem die EAF-Richtlinie (Export Address Table Access Filtering) im Enhanced Mitigation Experience Toolkit (EMET) und in Windows Defender Advanced Threat Protection (ATP) Chromium-Sandkastenoptimierungen möglicherweise fälschlich als Bedrohungen identifiziert. Dies führt dazu, dass Microsoft Teams nicht ordnungsgemäß funktioniert.  <br/> | Deaktivieren Sie EAF für Microsoft Teams, um das Problem zu umgehen. Unter [Richtlinien zu EMET-Sicherheitstechnologien zur Schadensbegrenzung](https://support.microsoft.com/de-DE/help/2909257/emet-mitigations-guidelines) können Sie mehr über dieses Problem lesen. Weitere Informationen zu Windows Defender ATP und zur EAF-Richtlinie finden Sie unter [Anpassen des Exploit-Schutzes](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection). <br/> |11.10.2018 <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Wenn „UsersPermissionToReadOtherUsersEnabled“ auf „False“ festgelegt ist, können keine Mitglieder zu Teams hinzugefügt werden.  <br/> |Wenn dieser Wert in AAD auf „False“ festgelegt ist, können Sie in Microsoft Teams keine externen bzw. internen Mitglieder hinzufügen. Außerdem wird die folgende Fehlermeldung angezeigt: „Mitglied konnte nicht hinzugefügt werden. Es ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut.“ Mitglieder können jedoch direkt zu Office 365-Gruppen hinzugefügt werden.    <br/> |Ändern Sie diese Einstellung in AAD in „True“.  <br/> |10.04.2018  <br/> |
+|Wenn „UsersPermissionToReadOtherUsersEnabled“ auf „False“ festgelegt ist, können keine Mitglieder zu Teams hinzugefügt werden.  <br/> |Wenn dieser Wert in AAD auf „False“ festgelegt ist, können Sie in Microsoft Teams keine externen bzw. internen Mitglieder hinzufügen. Außerdem wird die folgende Fehlermeldung angezeigt: „Mitglied konnte nicht hinzugefügt werden. Es ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut.“ Mitglieder können jedoch direkt zu Office 365-Gruppen hinzugefügt werden.    <br/> |Ändern Sie diese Einstellung in AAD in „True“.  <br/> |10.04.18  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Die Administratorverwaltung für mandantenweite Connectors ist nicht mehr verfügbar.  <br/> |Beim Versuch, einen Connector hinzuzufügen, wird in der Clientversion und in der Onlineversion die folgende Fehlermeldung angezeigt: „An unexpected error occurred. Please try again.“ (Unerwarteter Fehler. Versuchen Sie es erneut.). „Set-OrganizationConfig -ConnectorsEnabled=True“   <br/> |Verwenden Sie zum Deaktivieren die Microsoft Teams-Einstellungen. Lesen Sie diesen Supportartikel: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.2017  <br/> |
+|Die Administratorverwaltung für mandantenweite Connectors ist nicht mehr verfügbar.  <br/> |Beim Versuch, einen Connector hinzuzufügen, wird in der Clientversion und in der Onlineversion die folgende Fehlermeldung angezeigt: „An unexpected error occurred. Please try again.“ (Unerwarteter Fehler. Versuchen Sie es erneut.). „Set-OrganizationConfig -ConnectorsEnabled=True“   <br/> |Verwenden Sie zum Deaktivieren die Microsoft Teams-Einstellungen. Lesen Sie diesen Supportartikel: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.17  <br/> |
 
 ## <a name="apps"></a>Apps
 
@@ -60,12 +60,12 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Problem**|**Verhalten/Symptome**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|PSTN-Anrufer mit der gleichen „Von"-Nummer werden in der Teilnehmerliste der Besprechung als derselbe Benutzer angezeigt.  <br/> |Wenn mehrere PSTN-Anrufer an einer Besprechung teilnehmen und ihre Anrufer-IDs als eine einzige Nummer gekennzeichnet sind, werden diese Anrufer in der Teilnehmerliste der Besprechung als ein einziger Anrufer angezeigt.  <br/> |Keine Problemumgehung.  <br/> |25.9.2017  <br/> |
-|Der Bereich mit den Besprechungsinformationen wird zeitweise nicht angezeigt.  <br/> |Der Bereich mit den Besprechungsinformationen wird im Teams-Client möglicherweise nicht angezeigt, wenn Benutzer versuchen, Telefonnummern einer Konferenzbrücke oder Konferenzkennungen nachzuschlagen.  <br/> |Sie können die Telefonnummern einer Konferenzbrücke oder Konferenzkennungen in den Besprechungsdetails oder im Outlook-Kalender anzeigen.  <br/> |25.9.2017  <br/> |
-|Besprechungseinladungen über das Outlook-Add-In enthalten sinnlose Zeichen in PSTN-Koordinaten für Nicht-US-Gebietsschemas.  <br/> |Beim Planen von privaten Besprechungen mit dem Outlook-Add-In für Microsoft Teams auf einem Computer mit Nicht-US-Gebietsschemas enthalten PSTN-Koordinaten möglicherweise sinnlose Zeichen.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
-|Bei der Auswahl müssen mindestens fünf Ziffern verwendet werden.  <br/> |Benutzer, die aus einer Besprechung eine Nummer zu wählen versuchen, müssen mindestens fünf Ziffern eingeben, obwohl eine Wählplan-Normalisierungsregel verfügbar ist, durch die gewählte kurze Nummern in E.164 normalisiert werden.  <br/> |Geben Sie bei der Auswahl anstelle der internen Durchwahlnummer die Nummer im vollständigen Durchwahlnummernformat oder lokalen Nummernformat ein.  <br/> |25.9.2017  <br/> |
-|Das Auswahlsteuerelement wird zeitweise nicht angezeigt.  <br/> |Das Auswahlsteuerelement ist möglicherweise im Bereich mit den Besprechungsinformationen nicht sichtbar.  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
-|Statische Konferenzkennungen werden für Microsoft Teams-Besprechungen nicht unterstützt.  <br/> |Wenn der Administrator die Standardeinstellung außer Kraft setzt und sie von einer dynamischen Konferenzkennung in eine statische Konferenzkennung ändert, wird diese Einstellung für Microsoft Teams-Besprechungen nicht wirksam. Siehe [Verwenden von dynamischen IDs für Audiokonferenzen in Ihrer Organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Keine Problemumgehung  <br/> |25.9.2017  <br/> |
+|PSTN-Anrufer mit der gleichen „Von"-Nummer werden in der Teilnehmerliste der Besprechung als derselbe Benutzer angezeigt.  <br/> |Wenn mehrere PSTN-Anrufer an einer Besprechung teilnehmen und ihre Anrufer-IDs als eine einzige Nummer gekennzeichnet sind, werden diese Anrufer in der Teilnehmerliste der Besprechung als ein einziger Anrufer angezeigt.  <br/> |Keine Problemumgehung.  <br/> |25.09.2017  <br/> |
+|Der Bereich mit den Besprechungsinformationen wird zeitweise nicht angezeigt.  <br/> |Der Bereich mit den Besprechungsinformationen wird im Teams-Client möglicherweise nicht angezeigt, wenn Benutzer versuchen, Telefonnummern einer Konferenzbrücke oder Konferenzkennungen nachzuschlagen.  <br/> |Sie können die Telefonnummern einer Konferenzbrücke oder Konferenzkennungen in den Besprechungsdetails oder im Outlook-Kalender anzeigen.  <br/> |25.09.2017  <br/> |
+|Besprechungseinladungen über das Outlook-Add-In enthalten sinnlose Zeichen in PSTN-Koordinaten für Nicht-US-Gebietsschemas.  <br/> |Beim Planen von privaten Besprechungen mit dem Outlook-Add-In für Microsoft Teams auf einem Computer mit Nicht-US-Gebietsschemas enthalten PSTN-Koordinaten möglicherweise sinnlose Zeichen.  <br/> |Keine Problemumgehung.  <br/> |25.09.2017  <br/> |
+|Bei der Auswahl müssen mindestens fünf Ziffern verwendet werden.  <br/> |Benutzer, die aus einer Besprechung eine Nummer zu wählen versuchen, müssen mindestens fünf Ziffern eingeben, obwohl eine Wählplan-Normalisierungsregel verfügbar ist, durch die gewählte kurze Nummern in E.164 normalisiert werden.  <br/> |Geben Sie bei der Auswahl anstelle der internen Durchwahlnummer die Nummer im vollständigen Durchwahlnummernformat oder lokalen Nummernformat ein.  <br/> |25.09.2017  <br/> |
+|Das Auswahlsteuerelement wird zeitweise nicht angezeigt.  <br/> |Das Auswahlsteuerelement ist möglicherweise im Bereich mit den Besprechungsinformationen nicht sichtbar.  <br/> |Keine Problemumgehung.  <br/> |25.09.2017  <br/> |
+|Statische Konferenzkennungen werden für Microsoft Teams-Besprechungen nicht unterstützt.  <br/> |Wenn der Administrator die Standardeinstellung außer Kraft setzt und sie von einer dynamischen Konferenzkennung in eine statische Konferenzkennung ändert, wird diese Einstellung für Microsoft Teams-Besprechungen nicht wirksam. Siehe [Verwenden von dynamischen IDs für Audiokonferenzen in Ihrer Organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Keine Problemumgehung.  <br/> |25.09.2017  <br/> |
 |PSTN-Besprechungs-Koordinaten sind nicht verfügbar für lokale Benutzer von Skype for Business  <br/> |Wenn es sich bei dem Benutzer um einen lokalen Skype Business-Benutzer handelt, der mit Lizenzen für Skype for Business Online, Audiokonferenzen und Teams ausgestattet ist, enthalten alle Meetings, die mit Teams geplant sind, keine PSTN-Meeting-Koordinaten. <br/> |Keine Problemumgehung.  <br/> |01.02.2018  <br/> |
 
 ## <a name="authentication"></a>Authentifizierung
@@ -268,11 +268,11 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Der Connector funktioniert nicht, wenn Teamnamen das Zeichen „&amp;“ enthalten.  <br/> |Wenn ein Teamname mit dem Zeichen „&amp;“ erstellt wird, können Connectors im Team bzw. in der Gruppe nicht eingerichtet werden.  <br/> |Verwenden Sie in Teamnamen keine Sonderzeichen.  <br/> |21.06.2017  <br/> |
+|Der Connector funktioniert nicht, wenn Teamnamen das Zeichen „&amp;“ enthalten.  <br/> |Wenn ein Teamname mit dem Zeichen „&amp;“ erstellt wird, können Connectors im Team bzw. in der Gruppe nicht eingerichtet werden.  <br/> |Verwenden Sie in Teamnamen keine Sonderzeichen.  <br/> |21.06.17  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Maximale Anzahl von 2500 Mitgliedern pro Team  <br/> |Jedes Team in Microsoft Teams kann maximal 2500 Mitglieder enthalten.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/> |
+|Maximale Anzahl von 5000 Mitgliedern pro Team  <br/> |Jedes Team in Microsoft Teams kann maximal 5000 Mitglieder enthalten.  <br/> |Keine Problemumgehung.  <br/> |6.2.2019  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
