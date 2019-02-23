@@ -314,10 +314,12 @@
 ### Anrufer-ID
 #### [Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Festlegen der Anrufer-ID für einen Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### Automatische um-Telefonzentralen und Aufrufen von Warteschlangen
+### Automatische um-Telefonzentralen und Aufrufen von Warteschlangen 
 #### [Was sind automatische Telefonzentralen Telefonsystem](what-are-phone-system-auto-attendants.md)
-#### [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Erstellen einer Telefonsystem-Anrufwarteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](create-a-phone-system-auto-attendant.md)
+#### [Beispiel für Small Business - richten Sie eine automatische Telefonzentrale](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Verwalten von Resource-Konten in Microsoft-Teams](manage-resource-accounts.md)
+#### [Erstellen einer Telefonsystem-Anrufwarteschleife](create-a-phone-system-call-queue.md)
 #### [Beantworten Sie die automatische Telefonzentrale, und rufen Sie die Warteschlange Anrufe direkt von Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Parken und fortsetzen](call-park-and-retrieve.md)
 ### [Anruf-Dateifreigabe und Gruppe Anruf entgegennehmen](call-sharing-and-group-call-pickup.md)
@@ -664,7 +666,7 @@
 ### [Monitor Anrufqualität](monitor-call-quality-qos.md)
 #### [Quality of Experience überprüfen Guide](quality-of-experience-review-guide.md)
 #### [Einrichten von QoS in Teams](QoS-in-Teams.md)
-#### [Implementieren von QoS und überwachen Sie die Anrufqualität](monitor-call-quality-qos.md)
+##### [Set-QoS auf Windows-clients](QoS-in-Teams-clients.md)
 #### [Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Einrichten von Anrufanalyse](set-up-call-analytics.md)
 #### [Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
