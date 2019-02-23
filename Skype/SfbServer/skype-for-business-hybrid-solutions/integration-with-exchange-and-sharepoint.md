@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Zusammenfassung: Informationen Sie zu Skype für die Integration mit Exchange und SharePoint Business Server 2015.'
-ms.openlocfilehash: 6bd76957a18c8cfcbff02bf1d92f944bb76cb8b2
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890717"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210621"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integration mit Exchange und SharePoint
 
@@ -106,7 +106,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
 |Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> ||
 |Kontaktliste (über den einheitlichen Kontaktspeicher)  <br/> |Lync Server 2013 oder Skype für Business Client erforderlich  <br/> |
 |Hochauflösende Foto des Kontakts in Lync 2013, Skype für Business-Client und Lync Web App  <br/> ||
-|Besprechungsdelegation  <br/> |Unterstützt nur wenn beide Benutzer online verwaltet werden, in derselben Gesamtstruktur oder beide lokal verwaltet werden. Weitere Informationen finden Sie unter [Skype für Business hybridlösungen](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Besprechungsdelegation  <br/> |Wird nur unterstützt, wenn beide Benutzer online in derselben Gesamtstruktur oder wenn beide Benutzer lokal gehostet werden. Weitere Informationen finden Sie unter [Skype für Business hybridlösungen](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> ||
 |Durchsuchen von archivierten Inhalten  <br/> ||
 |Voicemail  <br/> ||

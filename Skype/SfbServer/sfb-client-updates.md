@@ -2,20 +2,20 @@
 title: Letzte Updates für Skype for Business-Versionen, die Windows Installer (MSI) verwenden
 ms.author: jambirk
 author: jambirk
+ms.reviewer: qingy
 manager: serdars
 ms.audience: ITPro
-ms.reviewer: qingy
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hier finden IT-Spezialisten Links zu den neuesten Updateinformationen für unbefristete Versionen der Clients Skype for Business 2016, Skype for Business 2015 und Lync 2013.
-ms.openlocfilehash: f3cf01aeec5117a210207cb958f7255f6592c606
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: aaeb13de41beff5e7e1230f84a0f7bc3a7f571e4
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786406"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210858"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Letzte Updates für Skype for Business-Versionen, die Windows Installer (MSI) verwenden
 

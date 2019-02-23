@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Richtlinien für die app Setup in Microsoft-Teams
+title: Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,14 +15,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app Setup in Microsoft-Teams und Nutzung zum Anpassen von Teams für Benutzer in Ihrer Organisation Pin apps.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fe6281015072858c959a65a6cd17ed157db0afa9
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29894284"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205763"
 ---
-# <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für die app Setup in Microsoft-Teams
+# <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -108,7 +108,7 @@ Abhängig von der Anzahl der Elemente in der Gruppe kann dieser Befehl mehrere M
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Welche integrierten app-Setup-Richtlinien sind in der Microsoft-Teams-Verwaltungskonsole enthalten?
 
-- **Global (Org geltende Standard)**: Diese Standardrichtlinie gilt für alle Benutzer in Ihrer Organisation, es sei denn, Sie eine andere Richtlinie zuweisen. Bearbeiten Sie die globale Richtlinie für die Pin-apps, die für Ihre Benutzer am wichtigsten sind. 
+- **Global (Org geltende Standard)**: Diese Standardrichtlinie gilt für alle Benutzer in Ihrer Organisation, es sei denn, Sie eine andere Richtlinie zuweisen. Bearbeiten Sie die globale Richtlinie für die Pin-apps, die für Ihre Benutzer am wichtigsten sind.
 - **FirstLineWorker**: Diese Richtlinie für Firstline Mitarbeiter ist. Sie können es Firstline Mitarbeiter in Ihrer Organisation zuweisen. Es ist wichtig, zu wissen, dass Sie wie benutzerdefinierte Richtlinien, die Sie erstellen, weisen Sie die Richtlinie, die Benutzern für die Einstellungen aktiv sein müssen. Weitere Informationen finden Sie in den Abschnitt [weisen Sie eine benutzerdefinierte Anwendung Setup-Richtlinie für Benutzer](#assign-a-custom-app-setup-policy-to-users) dieses Artikels.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Warum kann ich eine app nicht im Bereich angeheftete apps hinzufügen finden?
@@ -142,9 +142,9 @@ Um alle apps anzuzeigen, die für einen Benutzer fixiert sind, möglicherweise B
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Was muss ich über des mobilen Zugriffs Teams wissen?
 
-Die Teams mobilen Clients (iOS und Android) unterstützen nicht aktuell persönliche apps. Je nach der apps in der Richtlinie festgelegt sind apps, die auf dem Desktopclient Teams fixiert in Teams mobilen Clients möglicherweise nicht angezeigt. Persönliche Bots werden weiterhin im Chat auf mobilen Clients angezeigt. 
+Die Teams mobilen Clients (iOS und Android) derzeit nicht persönliche apps mit statischen Registerkarten unterstützen. Je nach der apps in der Richtlinie festgelegt sind apps, die auf dem Desktopclient Teams fixiert in Teams mobilen Clients möglicherweise nicht angezeigt. Persönliche Bots werden weiterhin im Chat auf mobilen Clients angezeigt.
 
-Mit den Teams mobilen Clients die Benutzer sehen Core Teams apps wie Aktivität, Chat und Teams, und Sie können einige apps erste Teilnehmern von Microsoft, wie etwa Schichten und Planner anheften.
+Mit den mobilen Clients Teams die Benutzer sehen Core Teams apps wie Aktivität, Chat und Teams und können Sie einige apps erste Teilnehmern von Microsoft, wie etwa Schichten anheften.
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Können Benutzer die Reihenfolge von apps, die über eine Richtlinie fixiert ändern?
 

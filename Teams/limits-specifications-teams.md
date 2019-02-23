@@ -3,7 +3,7 @@ title: Limits und Spezifikationen für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/31/2019
+ms.date: 10/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167c62c9f7fea440dea30b3946c95fc382a9757b
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 99e061246e673b5659c18190511dd33a5fec72ce
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992809"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210676"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limits und Spezifikationen für Microsoft Teams
 =============================================
@@ -38,9 +38,6 @@ Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und
 |Anzahl der Kanäle pro team    | 200 (einschließlich der gelöschten Kanäle)         |
 
 &sup1; Alle Verzeichnisobjekt in Azure Active Directory wird für diese Grenze. Globale Administratoren sind von diesen Grenzwert, ausgenommen apps Microsoft Graph verwenden von [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference)aufrufen.
-
-> [!NOTE]
-> Kanäle unterstützen keine Sonderzeichen wie ~ # % & * {} + / \: < >? | ""in der DDE Kanalname.  
 
 <a name="meetings-and-calls"></a>Besprechungen und Telefonkonferenzen 
 ------------------

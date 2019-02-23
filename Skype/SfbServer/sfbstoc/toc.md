@@ -8,26 +8,25 @@
 ## [Skype für Business-Downloads und-Updates](../software-updates.md)
 ### [Clientupdates](../sfb-client-updates.md)
 ### [Server-updates](../sfb-server-updates.md)
-<!--
-## [Microsoft telephony solutions](../../SFBServer2019/hybrid/msft-telephony-solutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
+## [Microsoft-telefonielösungen](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
+
+### [Planen der Telefonsystem mit lokalen PSTN-Anbindung](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 
-### [Plan Phone System with on-premises PSTN connectivity](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
-
-
-### [Plan Skype for Business Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
-#### [Plan for Cloud Connector Edition PSTN sites](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
-#### [Plan for media bypass in Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-media-bypass-in-cloud-connector-edition.md)
+### [Planen der Business Cloud Connector Edition Skype](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
+#### [Planen von PSTN-Standorten der Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
+#### [Planen der Medienumgehung in Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-media-bypass-in-cloud-connector-edition.md)
 ### [Configure Skype for Business Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-skype-for-business-cloud-connector-edition.md)
-#### [Prepare your Cloud Connector appliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/prepare-your-cloud-connector-appliance.md)
+#### [Vorbereiten der Cloud Connector-Appliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/prepare-your-cloud-connector-appliance.md)
 #### [Deploy a single site in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md)
-#### [Deploy multiple sites in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md)
+#### [Bereitstellen mehrerer Standorte in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md)
 #### [Configure Cloud Connector integration with your Office 365 tenant](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md)
 #### [Validate your Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md)
 #### [Upgrade to a new version of Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector.md)
 #### [Modify the configuration of an existing Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/modify-the-configuration-of-an-existing-cloud-connector-deployment.md)
-#### [Deploy media bypass in Cloud Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector.md)
-#### [Monitor Cloud Connector using Operations Management Suite (OMS)](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms.md)
+#### [Bereitstellen der medienumgehung in der Cloud-Connector](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector.md)
+#### [Überwachen von Cloud-Connector mithilfe von Operationen Management Suite (OMS)](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms.md)
 #### [Cloud Connector cmdlet reference](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/cloud-connector-cmdlet-reference.md)
 ##### [Backup-CcCertificationAuthority](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/backup-cccertificationauthority.md)
 ##### [Convert-CcIsoToVhdx](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/convert-ccisotovhdx.md)
@@ -53,7 +52,7 @@
 ##### [Renew-CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/renew-cccacertificate.md)
 ##### [Renew-CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/renew-ccservercertificate.md)
 ##### [Reset-CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/reset-cccacertificate.md)
-##### [Restore-CcCredentials](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/restore-cccredentials.md)
+##### [Wiederherstellung CcCredentials](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/restore-cccredentials.md)
 ##### [Search-CcLog](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/search-cclog.md)
 ##### [Set-CcApplianceDirectory](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-ccappliancedirectory.md)
 ##### [Set-CcCredential](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-cccredential.md)
@@ -67,9 +66,8 @@
 ##### [Unregister-CcAppliance](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/unregister-ccappliance.md)
 ##### [Update-CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md)
 ##### [Update-CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md)
-#### [Troubleshoot your Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
+#### [Problembehandlung bei Ihrer Cloud Connector-Bereitstellung](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
 
--->
 
 ## [Hybridlösungen für Teams und Skype für Unternehmen](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 

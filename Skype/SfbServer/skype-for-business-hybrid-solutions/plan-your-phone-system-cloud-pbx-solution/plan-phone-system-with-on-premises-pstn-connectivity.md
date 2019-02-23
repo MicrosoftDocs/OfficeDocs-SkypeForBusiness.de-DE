@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
-ms.openlocfilehash: 3856a4901666ec58b286d5edb26c7d69bba65e41
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 234c2966cb887c0adfdd15f518479ad5e363fe73
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069483"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210629"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server
 
 Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
 
-Dieser Inhalt ist relevant, wenn Sie bereits Skype für Business Server oder Lync Server 2013 lokal bereitgestellt haben. Für andere Szenarien finden Sie unter [Microsoft Telefonie-Lösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Dieser Inhalt ist relevant, wenn Sie bereits Skype für Business Server oder Lync Server 2013 lokal bereitgestellt haben. Für andere Szenarien finden Sie unter [Planen von Ihrem Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](plan-your-phone-system-cloud-pbx-solution.md).
 
  Telefonsystem in Office 365 mit lokalen PSTN-Anbindung können Sie Funktionen für Ihre Benutzer Telefonsystem (Cloud, PBX) nutzen. Das kann in folgenden Szenarien hilfreich sein:
 
@@ -111,6 +111,6 @@ Darüber hinaus müssen Sie Folgendes sicherstellen:
 
 - **Active Directory-Verbunddienste (AD FS) (empfohlen)** Wir empfehlen die Bereitstellung von AD FS für einmaliges Anmelden zu unterstützen. Weitere Informationen finden Sie unter [Active Directory-Verbunddienste (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-Informationen zum Bereitstellen von Telefonsystem in Office 365 finden Sie unter [Einrichten von Telefonsystem in Ihrer Organisation](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+Informationen zum Bereitstellen von Telefonsystem in Office 365 finden Sie unter [Aktivieren von Benutzern für Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype für Business Server](enable-users-for-phone-system.md).
 
 
