@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5310823db4e0a5fa441eca885599423f240dcc
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: b9da36d938a5b6e55920826b10f1ac2c1f528fe3
+ms.sourcegitcommit: c2e4e9b59183440d6aa903832d6d6a1769ccf57d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178526"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30274608"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
 
@@ -44,13 +44,13 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 
 These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
-![Screenshot des Abschnitts für Standard-Apps.](media/teams-tenant-wide-settings-default-apps.png "Screenshot des Abschnitts für Standard-Apps")
+![Screenshot des Abschnitts für Standard-Apps.](media/teams-manage-features-in-office365-image1.png "Screenshot des Abschnitts für Standard-Apps")
 
 #### <a name="external-apps"></a>Externe Apps
 
 These apps are provided by third parties. You can configure the following settings for external apps.
 
-![Screenshot des Abschnitts für externe Apps.](media/teams-tenant-wide-settings-external-apps-settings.png "Screenshot des Abschnitts für externe Apps, mit Einstellungen, die Sie aktivieren oder deaktivieren können")
+![Screenshot des Abschnitts für externe Apps.](media/teams-manage-features-in-office365-image2.png "Screenshot des Abschnitts für externe Apps, mit Einstellungen, die Sie aktivieren oder deaktivieren können")
 
 - **Allow external apps in Microsoft Teams** (Externe Apps in Microsoft Teams zulassen): Wenn diese Einstellung aktiviert ist, können Benutzer externe Apps hinzufügen, die für Ihre Organisation verfügbar sind. 
 

@@ -14,12 +14,12 @@ description: Informationen Sie zu den Schritten für Ereignisse in Teams, einsch
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: aaa22e0b28d883c805eaddc1e01d3cf7d2cda450
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754784"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302705"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -40,6 +40,7 @@ Live Ereignisse, die den Richtlinien verwendet werden, um zu steuern, wer in Ihr
 > Benutzer in Ihrer Organisation erhalten die globale Richtlinie, es sei denn, Sie erstellen, und weisen Sie eine benutzerdefinierte Richtlinie an. Standardmäßig in der globalen Richtlinie live-Ereignis planen für Teams Benutzer aktiviert ist, Lautschrift deaktiviert ist, kann alle Benutzer in der Organisation live Ereignisse teilnehmen und die Einstellung für die Aufzeichnung auf Aufzeichnen immer festgelegt ist. 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Erstellen oder Bearbeiten einer Richtlinie live Ereignisse
+<a name="bkcreatepolicy"> </a>
 
 **![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) mit dem Microsoft-Teams, Administrationscenter**
 

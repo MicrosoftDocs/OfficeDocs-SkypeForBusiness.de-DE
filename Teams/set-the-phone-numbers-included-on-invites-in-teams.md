@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Rufen Sie die Schritte zum Erstellen einer Standardrufnummer für Anrufer teilnehmen an einer Besprechung Microsoft-Teams. '
-ms.openlocfilehash: 8cbe7a88d1fcb857ce94a95b2a9af7a159ccef5a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: a4e6ef573d7c6b5888beee9fc9278d65b883927f
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754559"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302681"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
@@ -53,15 +53,15 @@ Nachdem der Benutzer für die Audiokonferenz-Dienst aktiviert ist, können die s
 
 1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-    ![Zeigt die Auswahl von Benutzern in der Verwaltungskonsole von Microsoft-Teams](media/teamsselectusers.png)
+    ![Zeigt die Auswahl von Benutzern in der Verwaltungskonsole von Microsoft-Teams](media/teams-set-phone-numbers-on-invites-image1.png)
 
 2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
 
-    ![Klicken Sie auf Bearbeiten in der Verwaltungskonsole von Microsoft-Teams](media/teamsedituser.png)
+    ![Klicken Sie auf Bearbeiten in der Verwaltungskonsole von Microsoft-Teams](media/teams-set-phone-numbers-on-invites-image2.png)
 
 3. Klicken Sie neben **Audiokonferenzen**auf **Bearbeiten**. 
     
-    ![Klicken Sie auf Bearbeiten neben Audiokonferenzen](media/teamseditaudioconf.png)
+    ![Klicken Sie auf Bearbeiten neben Audiokonferenzen](media/teams-set-phone-numbers-on-invites-image3.png)
 
 4. Verwenden Sie die Felder **gebührenpflichtige** oder **gebührenfreie Nummer** , die Zahlen für den Benutzer eingeben.
 

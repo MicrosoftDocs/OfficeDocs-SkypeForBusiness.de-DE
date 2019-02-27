@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app Setup in Microsoft-Teams und Nutzung zum Anpassen von Teams für Benutzer in Ihrer Organisation Pin apps.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
-ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
+ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30205763"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302689"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -47,7 +47,7 @@ Sie können die Einstellungen zum Einschließen von apps, die Sie möchten in de
 
 Das Microsoft-Teams, Administrationscenter oder die Windows PowerShell können Sie um eine benutzerdefinierte Richtlinie zu erstellen.
 
-1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**App > **Setup Richtlinien für die App**.
+1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Setup Richtlinien für die App**.
 2. Wählen Sie **neue Richtlinie**aus.
 3. Geben Sie einen beschreibenden Namen für die Richtlinie ein, und klicken Sie dann auf **apps hinzufügen**.
 4. Suchen Sie im Bereich **Hinzufügen fixiert apps** für die apps, den, die Sie hinzufügen, und klicken Sie dann auf **Hinzufügen**möchten.  Um eine Liste mit allen apps anzuzeigen, wählen Sie in der **Teams app speichern**. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **Hinzufügen**.
@@ -62,7 +62,7 @@ Das Microsoft-Teams, Administrationscenter oder die Windows PowerShell können S
 
 Sie können das Microsoft-Teams, Administrationscenter oder die Windows PowerShell verwenden, so bearbeiten Sie eine Richtlinie, einschließlich der globalen (Org geltende) Standardrichtlinie und benutzerdefinierte Richtlinien, die Sie erstellen. 
 
-1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**App > **Setup Richtlinien für die App**.
+1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Setup Richtlinien für die App**.
 2. Wählen Sie die Richtlinie, den, die Sie bearbeiten möchten. 
 3. Stellen Sie dort die gewünschten Änderungen. Sie können hinzufügen oder entfernen und Ändern der Reihenfolge von apps.
 4. Klicken Sie auf **Speichern**. 
@@ -152,7 +152,7 @@ Derzeit können Benutzer die Reihenfolge der ihre angeheftete apps auf mobilen C
 
 ### <a name="custom-teams-apps"></a>Benutzerdefinierte Teams apps
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-through-appsource-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Meine Organisation eine benutzerdefinierte Teams-Anwendung erstellt und veröffentlicht über Elemente verwenden, aber das app-Symbol wird nicht wie erwartet, wenn die app an den app-Leiste in Teams angeheftet wird angezeigt. Wie behebe ich es? 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Meine Organisation eine benutzerdefinierte Teams-Anwendung erstellt und veröffentlicht, auf Elemente verwenden oder den Mandanten app-Katalog, aber das app-Symbol wird nicht angezeigt, wie erwartet, wenn die app auf der app-Leiste in Teams fixiert ist. Wie behebe ich es? 
 
 Stellen Sie sicher, dass die Logorichtlinien befolgen, bevor Sie die app zu übermitteln. Finden Sie weitere Informationen finden Sie unter [Prüfliste für die Übermittlung Seller Dashboard](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
