@@ -682,6 +682,7 @@
 ### [Microsoft Education Governance – häufig gestellte Fragen für Administratoren](plan-teams-governance-edu.md)
 
 ## Teams für Mitarbeiter firstline
+### [Microsoft StaffHub zurückgezogen werden](microsoft-staffhub-to-be-retired.md)
 ### [Verwalten der app Schichten für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 
