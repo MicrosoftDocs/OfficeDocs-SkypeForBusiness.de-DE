@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Informationen Sie zu Analytics aufrufen und Qualitätsdashboard aufrufen und verwenden sie zur Überwachung und Problembehandlung Anrufqualität.
-ms.openlocfilehash: b3a65c4fa6a3dfe8de6b4ef70cd7657661cf4dc9
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 17a2b72e28f505e0653cc11ecf765403d7eaca03
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178669"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342173"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anrufanalyse- und Anrufqualitäts-Dashboard
 
@@ -38,11 +38,7 @@ Die Anrufanalyse und das Anrufqualitätsdashboard werden parallel ausgeführt un
 
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>Was ist die Anrufanalyse, und wann sollte ich sie verwenden?
 
-**Anruf Analytics ist jetzt im Microsoft-Teams, Administrationscenter verfügbar.** Um alle diese Informationen und Daten für einen Benutzer anzuzeigen, verwenden Sie die Registerkarte **Anrufverlauf** . Hierzu können Sie auf der Profilseite des Benutzers suchen, indem Sie entweder suchen für den Benutzer aus dem Dashboard, oder suchen den Benutzer von **Benutzern** im linken Navigationsbereich.
-
-> [!IMPORTANT]
-> Helpdesk-Agent-Berechtigungen und Netzwerk-Topologie hochladen verfügbar in das neue Administratorportal in den nächsten Monaten. Sie können in der Zwischenzeit weiterhin verwenden https://adminportal.services.skypeforbusiness.com für Ebene 1 und Ebene 2 Helpdesk-Zugriff.
-  
+**Anruf Analytics ist jetzt in der [Microsoft-Teams, Administrationscenter](https://admin.teams.microsoft.com)verfügbar.** Um alle diese Informationen und Daten für einen Benutzer anzuzeigen, verwenden Sie die Registerkarte **Anrufverlauf** . Hierzu können Sie auf der Profilseite des Benutzers suchen, indem Sie entweder suchen für den Benutzer aus dem Dashboard, oder suchen den Benutzer von **Benutzern** im linken Navigationsbereich.
 
 Anruf Analytics zeigt detaillierte Informationen zu den Geräten, Netzwerke und im Zusammenhang mit der bestimmte Aufrufe und Besprechungen für jeden Benutzer in einem Microsoft-Teams oder Skype für Konto Business Connectivity. Warum diese Benutzer einen Anruf schlechter Qualität dieses Tag? Analytics anrufen verwenden, kann ein Office 365 Admin oder geschult Helpdesk-Agent des Geräts, Netzwerk, Konnektivität und anderen Faktoren im Zusammenhang mit seinen Anruf von Anruf Qualität und Verbindung Problemen in Microsoft-Teams und Skype für Business überprüfen.
 
@@ -61,7 +57,7 @@ Nicht-Administratoren, beispielsweise einen externen Anbieter, Helpdesk-Agents a
 - **Helpdesk-Agents mit Communications unterstützen Engineer Berechtigungen**: Agents finden Sie unter alle verfügbaren Daten in Analytics aufrufen und Problembehandlung bei Anrufen und Besprechungen. Sie haben Vollzugriff auf Anruflisten und Kundeninformationen.
 
 > [!NOTE]
-> Die Rolle des Supports Specialist von Communications Support der Ebene 1 entspricht, und die Kommunikation Support Engineer Rolle Support der Ebene 2 entspricht.
+> Die Rolle des Supports Specialist von Communications entspricht Rolle des Supports von Stufe 1 über das Portal Preview und die Kommunikation Support Engineer Rolle entspricht Rolle des Supports von Tier 2 über das Portal Preview.
 
 Weitere Informationen zu den Communications Supportspezialisten und Kommunikation unterstützen Engineer Rollen finden Sie [Administratorrollen zum Verwalten von Teams verwenden Microsoft-Teams](using-admin-roles.md).
 

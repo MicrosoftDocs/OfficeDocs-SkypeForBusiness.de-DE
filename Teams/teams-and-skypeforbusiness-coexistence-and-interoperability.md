@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 028ce0fe9e1fd30f96b157cd8fd82acd8f5d1268
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743005"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342197"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -56,7 +56,7 @@ In diesem Koexistenzmodus **Inseln**aufgerufen, wird jeweils der Clientanwendung
 
 In diesem Koexistenzmodus Benutzer bleiben in Skype für Unternehmen – nicht Teams – für Chat, Meeting aufrufende Funktionen und sie nicht Teams für Teams und Kanäle verwenden. In diesem Modus ist jetzt verfügbar. Allerdings werden in der aktuellen Implementierung Teams Modalitäten nicht für den Benutzer automatisch deaktiviert. Diese Funktion ist in Kürze verfügbare. In der Zwischenzeit können Administratoren die Teams-Lizenz für jeden Benutzer entfernen, die in Skype für Unternehmen als einzige Communications Anwendung bleiben müssen.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Nur Teams (in diesem Modus gestartet parallelen out Sommer 2018 und wird für alle Mandanten in Kalenderjahr 2019 abgeschlossen)
+### <a name="teams-only"></a>Nur Teams
 
 Ein Benutzer **nur Teams** können nur die Skype für Business-Client zur Teilnahme an vorhandenen Skype für Business Besprechungen oder Besprechungen auf Skype für Unternehmen, die von Benutzern nicht aktualisiert oder externen Parteien organisiert wurden. Ein aktualisierter Benutzer kann weiterhin mit anderen Benutzern in der Organisation zu kommunizieren, die noch Skype für Unternehmen mithilfe der Funktionen Interoperabilität zwischen Teams und Skype für Unternehmen. Allerdings kann kein aktualisierter Benutzer einen Skype für Chat, Anruf oder eine Besprechung Business initiieren.
 

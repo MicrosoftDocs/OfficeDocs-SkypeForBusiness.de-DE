@@ -1,7 +1,7 @@
 ---
 title: Planen für Skype for Business in VDI-Umgebungen
-ms.author: jambirk
 author: jambirk
+ms.author: jambirk
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: In diesem Thema werden Planungsaspekte für die Verwendung von Skype für Unternehmen beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop.
-ms.openlocfilehash: e4e23ecfba1e7d789dccd5a6cea0e32733643ce4
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 0d24426ea661e5a2d445e4fd7ef90d6a41518692
+ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965691"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340412"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planen für Skype for Business in VDI-Umgebungen
  
@@ -47,9 +47,9 @@ Eine vollständige Liste der Features und unterstützten Technologien kann auf d
   
 Weitere Informationen finden Sie unter folgenden Links:
   
-- Citrix [HDX-Echtzeit Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
+- Citrix [HDX RealTime Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
     
-- [Technische Übersicht](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
+- [Technical Overview ](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
     
 - [CTX200279 Skype für die Unterstützung von Business](https://support.citrix.com/article/CTX200279)
     
@@ -91,9 +91,9 @@ Weitere Informationen finden Sie unter folgenden Links:
     
 - [Bereitstellen des Lync VDI-Plug-in mit Skype für Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
-- Citrix Knowledge Center Artikel [CTX138408](https://support.citrix.com/article/CTX138408)
+- Citrix Knowledge Center-Artikel [CTX138408](https://support.citrix.com/article/CTX138408)
     
-Der Microsoft VDI-Plug-in ist unter [2013 für Microsoft Lync VDI-Plug-in (32 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) oder [2013 für Microsoft Lync VDI-Plug-in (64 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454)verfügbar. Diese-Plug-in wird mit der Skype für trotz des Namens der Business 2015-Client unterstützt.
+Das Microsoft VDI-Plug-In steht unter [Microsoft Lync VDI 2013 Plug-In (32 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) oder [Microsoft Lync VDI 2013 Plug-In (64 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) zur Verfügung. Diese-Plug-in wird mit der Skype für trotz des Namens der Business 2015-Client unterstützt.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>Unterstützte Virtualisierungstechnologien und bekannte Einschränkungen
 <a name="Supported_virt"> </a>
@@ -104,7 +104,7 @@ Das Lync VDI-Plug-in ermöglicht Audio- und Videogeräte für unterstützte Virt
 
 Das Lync VDI-Plug-in unterstützt Vollbildansicht Remotesitzungen im persönlichen virtuellen desktop Szenario, aber nicht in der Remotedesktopsitzung-Szenario. Diese Szenarien können wie folgt beschrieben werden:
   
-- **Unterstützt: Personalisierte virtuelle Desktops oder virtuelle Desktopinfrastruktur (Virtual Desktop Infrastructure, VDI).** In diesem Szenario melden sich die einzelnen Benutzer bei einem anpassbaren virtuellen Desktop an und können Dateien auf dem Desktop speichern, die sitzungsübergreifend bestehen bleiben. Microsoft Remote Desktop Services und VMware Horizont Ansicht sind Beispiel-Implementierungen, die für die Verwendung mit Skype für Business 2015 getestet wurden. Eine weitere validierte Implementierung ist Citrix XenDesktop. Informationen zu herstellerspezifischen VDI-Umgebung und Client-Hardware, die von Microsoft getestet wurden, finden Sie unter [Infrastruktur für Microsoft Lync qualifizierte](https://go.microsoft.com/fwlink/?LinkID=313435).
+- **Unterstützt: Personalisierte virtuelle Desktops oder virtuelle Desktopinfrastruktur (Virtual Desktop Infrastructure, VDI).** In diesem Szenario melden sich die einzelnen Benutzer bei einem anpassbaren virtuellen Desktop an und können Dateien auf dem Desktop speichern, die sitzungsübergreifend bestehen bleiben. Microsoft Remote Desktop Services und VMware Horizont Ansicht sind Beispiel-Implementierungen, die für die Verwendung mit Skype für Business 2015 getestet wurden. Eine weitere validierte Implementierung ist Citrix XenDesktop. Weitere Informationen zu anbieterspezifischen VDI-Umgebungen und Clienthardware, die von Microsoft getestet wurden, finden Sie unter [Qualifizierte Infrastruktur für Microsoft Lync](https://go.microsoft.com/fwlink/?LinkID=313435).
     
 - **Nicht unterstützt: Remotedesktopsitzungen.** In diesem Szenario melden sich die einzelnen Benutzer bei einer allgemeinen virtuellen Desktopsitzung an, die nicht angepasst werden kann. Beispiele für Microsoft Remote Desktop Sitzungen (RDSH) und Citrix XenApp in Kombination mit Citrix Empfänger.
     
@@ -134,7 +134,7 @@ Lokale Computer des Benutzers muss die folgenden Anforderungen erfüllen:
     
 - Auf dem lokalen Computer müssen die Einstellungen für den Remotedesktopclient so konfiguriert sein, dass die Audiowiedergabe auf dem lokalen Computer aktiviert und die Remoteaufzeichnung deaktiviert ist. Zum Konfigurieren dieser Einstellungen für Remotedesktopverbindung in Windows finden Sie im nächsten Abschnitt "So"konfigurieren Sie Einstellungen der Remotedesktopverbindung. 
     
-Der Microsoft VDI-Plug-in ist unter [2013 für Microsoft Lync VDI-Plug-in (32 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) oder [2013 für Microsoft Lync VDI-Plug-in (64 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454)verfügbar.
+Das Microsoft VDI-Plug-In steht unter [Microsoft Lync VDI 2013 Plug-In (32 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) oder [Microsoft Lync VDI 2013 Plug-In (64 Bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) zur Verfügung.
   
 #### <a name="known-feature-limitations"></a>Bekannte Funktionseinschränkungen
 <a name="VDI_prereq"> </a>

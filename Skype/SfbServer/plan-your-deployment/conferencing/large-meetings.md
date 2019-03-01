@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu bewährten Methoden für das Implementieren und Verwalten von großen Besprechungen in Skype für Business Server erhalten.'
-ms.openlocfilehash: 0d78a679414ec9287837e494d94bdc708879f863
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d77a3b3fa5f989f36fd9097499de0fd75991b5e4
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970514"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342212"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planen von großen Besprechungen in Skype für Business Server
  
@@ -26,7 +26,7 @@ Die Größe von Besprechungen, die unterstützt Skype für Business Server, hän
 > In diesem Thema konzentriert sich auf best Practices für große Besprechungen von Skype für Business Server unterstützt. Wenn Ihre Organisation größere Besprechung Funktionen erforderlich sind, sollten Sie erwägen, implementieren eine hybridumgebung, die eine neue Onlinedienst Skype Besprechung übertragen nutzt, die Teil von Office 365 ist. 
 
 > [!NOTE]
-> Skype-Livekonferenz ermöglicht Benutzern, Besprechungen von bis zu 10.000 Teilnehmern zu hosten und an ein ebenso großes Online-Publikum zu übertragen. Für die Nutzung von Skype-Livekonferenz muss Skype for Business Server bereits in einer Hybridumgebung mit einem Office 365-Produktionsmandanten konfiguriert sein. Als Grundvoraussetzung muss bei allen Benutzern ein Online-Mandant eingerichtet sein. Wenn Sie die Bereitstellung einer hybridlösung, die Skype Besprechung übertragen nutzen können, finden Sie unter interessiert sind [Was ist eine Skype Besprechung übertragen?](https://go.microsoft.com/fwlink/?LinkId=617071) und [Konfigurieren der lokalen Bereitstellung für Skype Besprechung übertragen werden](../../deploy/configure-skype-meeting-broadcast.md). 
+> Skype-Livekonferenz ermöglicht Benutzern, Besprechungen von bis zu 10.000 Teilnehmern zu hosten und an ein ebenso großes Online-Publikum zu übertragen. Für die Nutzung von Skype-Livekonferenz muss Skype for Business Server bereits in einer Hybridumgebung mit einem Office 365-Produktionsmandanten konfiguriert sein. Als Grundvoraussetzung muss bei allen Benutzern ein Online-Mandant eingerichtet sein. Wenn Sie an der Bereitstellung einer Hybridlösung interessiert sind, die die Vorteile von Skype-Livekonferenz nutzen kann, finden Sie weitere Informationen unter [Was ist eine Skype-Livekonferenz?](https://go.microsoft.com/fwlink/?LinkId=617071)und [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Große Besprechungen weisen in der Regel folgende Merkmale auf:
   
@@ -101,6 +101,7 @@ Der Moderator Besprechung kann alle Referenten Funktionen von Skype für Busines
 - Stummschalten und Aufheben der Stummschaltung für die Zielgruppe oder für einzelne Benutzer
     
 - Verwalten der Besprechungsinhalte, einschließlich Hochladen von Inhalten, Löschen von Inhalten und Auswählen der aktiven Inhalte
+
     
 ### <a name="maintain-a-separate-calendar"></a>Pflege eines separaten Kalenders
 
@@ -186,6 +187,8 @@ Erstellen Sie eine neue Konferenzrichtlinie speziell für große Besprechungen u
     
 > [!NOTE]
 > Unterstützung für große Besprechungen in Skype for Business Server erfordert, dass die Einstellung **AllowLargeMeetings** auf true festgelegt. Wenn diese Einstellung auf true festgelegt ist, der Skype Business wünschen festgelegt ist wird von sehr großen Besprechungen optimiert werden, wenn Benutzer an der Besprechung teilzunehmen. Insbesondere wird Skype für Unternehmen in eine große Besprechung, nicht angezeigt, die Initial oder Aktualisierung der der vollständige Besprechung Teilnehmerliste, die einen Leistungsengpass für den Client und Skype für Business Server ist. Skype für Unternehmen werden stattdessen nur Informationen zu den Benutzer und die Liste mit Referenten der Besprechung angezeigt. Skype für Unternehmen wird weiterhin die Gesamtzahl der Teilnehmer in großen Besprechungen verfügbar angezeigt.
+
+
   
 Mit Ausnahme der Einstellung **Maximale Besprechungsgröße** sind alle anderen hier angegeben Konferenzrichtlinieneinstellungen erforderlich, um die Konferenzfunktionen, die für große Besprechungen nicht erforderlich sind, zu deaktivieren.
   

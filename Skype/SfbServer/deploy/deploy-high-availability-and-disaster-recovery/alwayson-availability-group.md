@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Bereitstellen Sie Bereitstellung (Installation) immer auf Verfügbarkeit in eine Gruppe Ihrer Skype zu Business Server.
-ms.openlocfilehash: eaf0c935f246cfdd00aa0707475442c88dc89b8a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b773c10766b33e57eb8a132d98ef0e0cdc180123
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374372"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342219"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Bereitstellen einer immer auf Verfügbarkeitsgruppe auf einem Back-End-Server in Skype für Business Server
  
@@ -55,7 +55,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie 
     
    - Wählen Sie die Server aus, die dem Cluster hinzugefügt werden sollen, und klicken Sie dann auf **Alle Tests ausführen**.
     
-   - Überprüfen Sie im Feld**Zusammenfassung** , die der Assistent meldet Fehler aus. Klicken Sie dann auf **Fertig stellen**, um die Überprüfung zu beenden.
+   - Überprüfen Sie im Kästchen **Zusammenfassung** alle Fehler, die der Assistent meldet. Klicken Sie dann auf **Fertig stellen**, um die Überprüfung zu beenden.
     
      Der Assistent zeigt wahrscheinlich mehrere Warnungen an, vor allem dann, wenn Sie keine freigegebenen Speicher verwenden. Sie sind nicht daran gebunden, freigegebene Speicher zu verwenden. Sie müssen jedoch angezeigte **Fehler** zuerst beheben, bevor Sie fortfahren.
     
@@ -119,7 +119,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie 
     
    - Kontrollieren Sie auf der Überprüfungsseite, dass alle Überprüfungen erfolgreich waren und klicken Sie dann auf **Weiter**.
     
-   - Prüfen Sie auf der Seite**Zusammenfassung** alle Einstellungen, und klicken Sie auf Fertig stellen.
+   - Überprüfen Sie auf der Seite **Zusammenfassung** alle Einstellungen und klicken Sie dann auf „Fertig stellen“.
     
 7. Topologie-Generator zum Erstellen des Front-End-Pools verwenden, wie im erläutert [Erstellen und veröffentlichen Sie die neue Topologie in Skype für Business Server](../../deploy/install/create-and-publish-new-topology.md). Wenn Sie dies tun, geben Sie die AG als SQL-Speicher für den Pool.
     
@@ -161,7 +161,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie 
    Get-CsPool -Identity <Pool FQDN>
    ```
 
-2. Anschließend können Sie mithilfe des Topologie-Generators die Datenbankspiegelung aus dem Pool entfernen.
+2. Verwenden Sie Topologie-Generator zum Entfernen der datenbankspiegelung aus dem Pool.
     
    - Topologie-Generator zu öffnen. Erweitern Sie in Ihrer Topologie den Eintrag **Enterprise Edition-Front-End-Pools**, klicken Sie mit der rechten Maustaste auf den Namen des Pools, und klicken Sie dann auf **Eigenschaften bearbeiten**.
     
@@ -195,7 +195,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie 
     
    - Wählen Sie die Server aus, die dem Cluster hinzugefügt werden sollen, und klicken Sie dann auf **Alle Tests ausführen**.
     
-   - Überprüfen Sie im Feld**Zusammenfassung** , die der Assistent meldet Fehler aus. Klicken Sie dann auf **Fertig stellen**, um die Überprüfung zu beenden.
+   - Überprüfen Sie im Kästchen **Zusammenfassung** alle Fehler, die der Assistent meldet. Klicken Sie dann auf **Fertig stellen**, um die Überprüfung zu beenden.
     
      Der Assistent zeigt wahrscheinlich mehrere Warnungen an, vor allem dann, wenn Sie keine freigegebenen Speicher verwenden. Sie sind nicht daran gebunden, freigegebene Speicher zu verwenden. Sie müssen jedoch angezeigte **Fehler** zuerst beheben, bevor Sie fortfahren.
     
@@ -279,7 +279,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie 
     
     - Wenn Sie sicher sind, dass alle benötigte Datenbanken auf die AG festgelegt sind, klicken Sie auf **OK**.
     
-13. Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und dann auf **Veröffentlichen**. Klicken Sie dann auf der Bestätigungsseite auf **Weiter**.
+13. Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und anschließend auf **Veröffentlichen**. Klicken Sie als Nächstes auf der Bestätigungsseite auf **Weiter**.
     
 14. Führen Sie einige abschließende Schritte, um sicherzustellen, dass die SQL-Anmeldungen auf den einzelnen Replikate in der AlwaysOn Availability Group sind.
     
@@ -327,7 +327,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie 
     
    - Wählen Sie die Server aus, die dem Cluster hinzugefügt werden sollen, und klicken Sie dann auf **Alle Tests ausführen**.
     
-   - Überprüfen Sie im Feld**Zusammenfassung** , die der Assistent meldet Fehler aus. Klicken Sie dann auf **Fertig stellen**, um die Überprüfung zu beenden.
+   - Überprüfen Sie im Kästchen **Zusammenfassung** alle Fehler, die der Assistent meldet. Klicken Sie dann auf **Fertig stellen**, um die Überprüfung zu beenden.
     
      Der Assistent zeigt wahrscheinlich mehrere Warnungen an, vor allem dann, wenn Sie keine freigegebenen Speicher verwenden. Sie sind nicht daran gebunden, freigegebene Speicher zu verwenden. Sie müssen jedoch angezeigte **Fehler** zuerst beheben, bevor Sie fortfahren.
     
@@ -411,7 +411,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie bereitstellen werden sie 
     
    - Wenn Sie sicher sind, dass alle benötigte Datenbanken auf die AG festgelegt sind, klicken Sie auf **OK**.
     
-9. Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und dann auf **Veröffentlichen**. Klicken Sie dann auf der Bestätigungsseite auf **Weiter**.
+9. Veröffentlichen der Topologie. Klicken Sie im Menü **Aktion** auf **Topologie** und anschließend auf **Veröffentlichen**. Klicken Sie als Nächstes auf der Bestätigungsseite auf **Weiter**.
     
 10. Führen Sie einige abschließende Schritte, um sicherzustellen, dass die SQL-Benutzernamen aller Replikate in die AG sind.
     

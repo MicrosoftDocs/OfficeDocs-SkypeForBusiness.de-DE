@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: Hier erfahren Sie, mit den verschiedenen Administratorrollen Teams verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 824c9d93c98bb1f6fd9af0cbb93bac24f84e926e
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 2e031c1bee98fc1790f39e888063353087a82422
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754315"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342181"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams
 
@@ -29,7 +29,7 @@ Es stehen vier Administratorrollen für Teams zur Verfügung: Dienstadministrato
 
 | Rolle | Können diese Aufgaben | Können die folgenden Tools zugreifen |
 |----- | ------------------ | ------------------------------ |
-| Teams-Dienstadministrator | Verwalten des Diensts Microsoft-Teams und verwalten und Erstellen von Gruppen für Office 365 | Alles in der Microsoft-Teams-Verwaltungskonsole und die zugehörigen PowerShell-Steuerelemente, einschließlich:<br><br> Verwalten von Besprechungen, einschließlich Besprechungsanfragen Richtlinien, Konfigurationen und Konferenz Brücken<sup>1,3</sup><br><br> Verwalten von VoIP, darunter den Aufruf von Richtlinien und den Telefon-Zahl Inventar und Zuweisung<sup>1</sup><br><br> Verwalten von messaging, einschließlich Richtlinien<sup>1,3</sup> messaging<br><br> Verwalten von Einstellungen für alle Org geltende, einschließlich Verbund, Teams Upgrade und Teams Clienteinstellungen<sup>1,3</sup><br><br> Verwalten der Teams in der Organisation sowie die zugehörigen Einstellungen, einschließlich des Mitgliedschaftsanbieters (Gruppenmanagement über PowerShell Teammanagement in der Einführung der Administratorportal unterstützt) <sup>23</sup><br><br> Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> |
+| Teams-Dienstadministrator | Verwalten des Diensts Microsoft-Teams und verwalten und Erstellen von Gruppen für Office 365 | Alles in der Microsoft-Teams-Verwaltungskonsole und die zugehörigen PowerShell-Steuerelemente, einschließlich:<br><br> Verwalten von Besprechungen, einschließlich Besprechungsanfragen Richtlinien, Konfigurationen und Konferenz Brücken<sup>1,3</sup><br><br> Verwalten von VoIP, darunter den Aufruf von Richtlinien und den Telefon-Zahl Inventar und Zuweisung<sup>1</sup><br><br> Verwalten von messaging, einschließlich Richtlinien<sup>1,3</sup> messaging<br><br> Verwalten von Einstellungen für alle Org geltende, einschließlich Verbund, Teams Upgrade und Teams Clienteinstellungen<sup>1,3</sup><br><br> Verwalten der Teams in der Organisation sowie die zugehörigen Einstellungen, einschließlich des Mitgliedschaftsanbieters (Gruppenmanagement über PowerShell Teammanagement in der Einführung der Administratorportal unterstützt) <sup>23</sup><br><br> Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> <br><br> Und die Überwachung und Problembehandlung bei Mandanten Anruf in anrufen Quality Dashboard (CQD) verfügbar machen, die Qualität und Zuverlässigkeit von Daten. Neue Berichte erstellen, aktualisieren und Berichte wie gewünscht zu entfernen. Hochladen und Aktualisieren von CQD Daten erstellen |
 | Teams-Kommunikationsadministrator | Verwalten von Anruf- und Besprechungsfunktionen innerhalb des Microsoft Teams-Diensts | Verwalten von Besprechungen, einschließlich Besprechungsanfragen Richtlinien, Konfigurationen und Konferenz Brücken<sup>1,3</sup><br><br> Verwalten von VoIP, darunter den Aufruf von Richtlinien und den Telefon-Zahl Inventar und Zuweisung<sup>1</sup><br><br> Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> |
 | Teams-Kommunikationssupporttechniker | Problembehandlung bei Kommunikationsproblemen in Teams mithilfe von **erweiterten** Tools. | Zeigen Sie Profilseite des Benutzers an und beheben Sie Anrufqualität mit erweiterten Problembehandlung Toolset<sup>3</sup> |
 | Teams Communications-Supportspezialisten | Problembehandlung bei Kommunikationsproblemen in Teams mithilfe von **grundlegenden** Tools.| Zugriff auf der Profilseite des Benutzers für die Problembehandlung bei ruft in Analytics aufrufen. Kann nur Benutzerinformationen für den gesuchten Benutzer anzeigen.<sup>3</sup>

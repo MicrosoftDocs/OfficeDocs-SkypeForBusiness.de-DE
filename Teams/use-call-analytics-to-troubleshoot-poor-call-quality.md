@@ -1,5 +1,5 @@
 ---
-title: Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität
+title: Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Verwenden Sie Analytics rufen Sie Informationen zu Geräten, Netzwerke und Konnektivität Benutzer bei Problemen mit Microsoft-Teams und Skype für geschäftliche Anrufe und Besprechungen.
-ms.openlocfilehash: 3e35a72150d74580d1f44623583419b37e3ad1c5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 9a76b683e31a0d48464b42de761108b26c8da459
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754065"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342189"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 
 Anruf Analytics Unterstützung bei der Anruf mit der Realität Probleme mit Microsoft-Teams und Skype für Unternehmen. Rufen Sie Analytics zeigt detaillierte Informationen zu den Geräten, Netzwerke und Konnektivität für die Aufrufe und Besprechungen von jedem Benutzer in Ihrer Office 365-Konto ein. Wenn Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzugefügt wurden, werden auch diese für jeden Anruf und jede Sitzung angezeigt. Anhand der über die Anrufanalyse verfügbaren Informationen können Sie herausfinden, warum bestimmte Benutzer eine schlechte Anruf- oder Besprechungsqualität wahrnehmen. 
   
@@ -60,21 +60,19 @@ Finden Sie unter Ihrer Teams und Skype Business Admin Wenn Sie Hilfe mit Berecht
 
 1. Melden Sie sich mit Ihren Teams Communications Support oder Teams-Admin-Anmeldeinformationen.
 
-2. Besuchen Sie das Office 365 Administrationscenter, und melden Sie sich mit Ihrem Konto arbeiten oder Schule. Wechseln Sie in Ihrem Webbrowser zu *https://adminportal.services.skypeforbusiness.com*.
-
-3. Wählen Sie **Admin zentriert** > **Teams & Skype**. 
+2. Wechseln Sie im Webbrowser zur *https://admin.teams.microsoft.com*.
     
-4. Klicken Sie im **Dashboard**in **Benutzersuche**starten Sie entweder den Namen eingeben oder sip-Adresse des Benutzers, dessen Anrufe zu beheben, oder wählen Sie **Ansicht, die Benutzer** zum Anzeigen einer Liste von Benutzern verwendet werden soll.
+3. Klicken Sie im **Dashboard**in **Benutzersuche**starten Sie entweder den Namen eingeben oder sip-Adresse des Benutzers, dessen Anrufe zu beheben, oder wählen Sie **Ansicht, die Benutzer** zum Anzeigen einer Liste von Benutzern verwendet werden soll.
     
     ![Screenshot des Suchfelds für Benutzer von Anrufen Analytics in der Verwaltungskonsole von Microsoft-Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
-5. Wählen Sie den Benutzer aus der Liste aus.
+4. Wählen Sie den Benutzer aus der Liste aus.
 
-6. Wählen Sie **die Anrufliste...** aus, und wählen Sie dann den Anruf oder Besprechung, den Sie behandeln möchten.
+5. Wählen Sie **die Anrufliste...** aus, und wählen Sie dann den Anruf oder Besprechung, den Sie behandeln möchten.
     
     ![Screenshot zeigt die Seite ' Versionsverlauf Anruf ' für einen Benutzer.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
-7. Wählen Sie die Registerkarte **Erweitert** aus, und suchen Sie dann nach gelben und roten Elementen, die auf eine schlechte Anrufqualität oder auf Verbindungsprobleme hinweisen.
+6. Wählen Sie die Registerkarte **Erweitert** aus, und suchen Sie dann nach gelben und roten Elementen, die auf eine schlechte Anrufqualität oder auf Verbindungsprobleme hinweisen.
     
     In den Sitzungsdetails für die einzelnen Anrufe oder Besprechungen werden geringfügige Probleme gelb dargestellt. (Im folgenden Screenshot zum Beispiel werden die Werte für „Durchschnittlicher Jitter", „Max. Jitter" und „Durchschnittliche Paketverlustrate" in Gelb angezeigt.) Gelbe Elemente befinden sich außerhalb des normalen Bereichs und können zum Problem beitragen. Sie sind aber wahrscheinlich nicht die Hauptursache des Problems. Rote Elemente weisen auf ein wichtiges Problem hin und stellen wahrscheinlich die Hauptursache für die schlechte Anrufqualität in dieser Sitzung dar. 
     
@@ -91,9 +89,9 @@ Für audio-Sitzungen, die Daten Quality of Experience (QoE) verfügen, werden in
 |Gerät nicht funktionsfähig  <br/> |Gerät  <br/> | Ein Gerät ist nicht ordnungsgemäß funktioniert. Gerät nicht funktioniert Verhältnisse verwendet werden: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
-[Einrichten von Anrufen Analytics](set-up-call-analytics.md)
+[Einrichten von Anrufanalyse](set-up-call-analytics.md)
 
-[Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
