@@ -16,20 +16,22 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
-ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
+ms.openlocfilehash: 8a97e651e703146c07450229fb4958116d0fd8a2
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27132003"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342205"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft Teams für Surface Hub
 ======================================
 
-Bevor Sie Microsoft Teams für Microsoft Surface Hub bereitstellen, vergewissern Sie sich, dass die Hardware-, Betriebssystem- und anderen Anforderungen erfüllt sind. Weitere Informationen finden Sie im [Microsoft Surface Hub-Administratorhandbuch](https://docs.microsoft.com/surface-hub/).
+Bevor Sie Teams für Surface Hub installieren, sollten Sie unbedingt die folgenden Schritte ausführen:
 
-> [!NOTE]
-> Wenn Sie von Skype for Business Online wechseln, müssen Sie bestätigen, dass dem Benutzer eine Microsoft Teams-Lizenz zugewiesen ist.
+ □ Stellen Sie sicher, dass Hardware-, Betriebssystem- und andere Anforderungen erfüllt sind. Weitere Informationen finden Sie im [Microsoft Surface Hub-Administratorhandbuch](https://docs.microsoft.com/surface-hub/).<br>
+ Stellen Sie sicher, dass das für Teams mindestens erforderliche Betriebssystemupdate installiert ist – [KB4343889](https://support.microsoft.com/help/4343889).<br>
+ □ Weisen Sie dem Hub-Gerätekonto eine Teams-Lizenz zu.<br>
+ □ Wenn Sie von Skype for Business Online wechseln, vergewissern Sie sich, dass dem Benutzer eine Teams-Lizenz zugewiesen ist.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installieren von Teams für Surface Hub aus dem Microsoft Store 
 

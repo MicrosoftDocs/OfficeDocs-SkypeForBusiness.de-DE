@@ -3,7 +3,7 @@ title: Bekannte Probleme für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/19/2019
+ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178581"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342103"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -43,6 +43,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |Die Administratorverwaltung für mandantenweite Connectors ist nicht mehr verfügbar.  <br/> |Beim Versuch, einen Connector hinzuzufügen, wird in der Clientversion und in der Onlineversion die folgende Fehlermeldung angezeigt: „An unexpected error occurred. Please try again.“ (Unerwarteter Fehler. Versuchen Sie es erneut.). „Set-OrganizationConfig -ConnectorsEnabled=True“   <br/> |Verwenden Sie zum Deaktivieren die Microsoft Teams-Einstellungen. Lesen Sie diesen Supportartikel: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.17  <br/> |
 
 ## <a name="apps"></a>Apps
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|[Bedingter Zugriff](https://docs.microsoft.com/de-DE/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser- oder IP-Adressbeschränkungen), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -226,6 +230,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
+|Website-Registerkarte führt bei Kunden zu Verwirrung.  <br/> |Website-Registerkarten sind nicht mit dem Browser zu verwechseln. Eine Reihe von Websites, insbesondere solche, die Authentifizierung erfordern oder Popups verwenden, funktionieren nicht, wenn sie als Website-Registerkarte angeheftet werden.  <br/> |Wir arbeiten daran, die Benutzeroberfläche zu verbessern, damit dies für Kunden besser erkennbar ist.  <br/> |02.05.2018  <br/>|
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
 |Seit der Aktivierung des bedingten Zugriffs funktionieren Registerkarten nicht mehr. <br/> |Einige Registerkarten werden möglicherweise im Desktopclient nicht mehr geladen, seit im Mandanten bedingter Zugriff aktiviert wurde. Bei Verwendung des Webclients werden die Registerkarten geladen. Davon können unter anderem die folgenden Registerkarten betroffen sein: „Power BI“, „Formulare“, „VSTS“, „PowerApps“ und „SharePoint-Liste“.  <br/> |Um die betroffenen Registerkarten anzuzeigen, müssen Sie Microsoft Teams in Microsoft Edge, Internet Explorer oder Chrome verwenden, und die Erweiterung für Windows 10-Konten muss installiert sein. Für einige Registerkarten ist weiterhin die Webauthentifizierung erforderlich, die im Desktopclient nicht funktioniert, wenn eine Zertifizierungsstelle aktiviert ist. Wir arbeiten gemeinsam mit Partnern daran, diese Szenarien zu ermöglichen. Bisher haben wir Planner, OneNote und Stream aktiviert. <br/> |05.04.2018  <br/>|
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -282,3 +290,6 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |:-----|:-----|:-----|:-----|
 |In der Microsoft Teams-Desktop-App wird ein weißer Bildschirm angezeigt.  <br/> | <br/> |Versuchen Sie, den Grafiktreiber auf dem Computer zu löschen oder neu zu installieren, oder starten Sie Microsoft Teams über eine Befehlszeile mit einem Flag zum Deaktivieren der GPU:<ul><li>Windows: Öffnen Sie die Eingabeaufforderung, und geben Sie Folgendes ein: `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Mac: Starten Sie Terminal, und geben Sie Folgendes ein: `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Benutzer erhält keine Willkommens-E-Mail, wenn er durch den Administrator hinzugefügt wird.  <br/> |Wenn Sie ein Mitglied mit PowerShell oder über das Teams Admin Center zu einem Team hinzufügen, erhalten Sie keine Willkommens-E-Mail von Microsoft Teams.  <br/> |Wenn Sie ein Mitglied direkt über die Teams-Benutzeroberfläche hinzufügen, wird eine E-Mail gesendet. Derzeit gibt es keine Problemumgehung beim Durchführen dieser Aufgabe durch den Administrator.  <br/> |12.2.19  <br/> |
