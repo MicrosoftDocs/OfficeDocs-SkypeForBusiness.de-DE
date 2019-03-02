@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit in der Vereinigte Arabische Emirate (Vereinigte Arabische Emirate)
+title: Verfügbarkeit in den Vereinigten Arabischen Emiraten
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 0e62e15f-e84a-42c3-87cb-adeb6dcfd761
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Vereinigte Arabische Emirate verfügbar.
-ms.openlocfilehash: 59e0aa3e70128169a95c35abfef040e517736ad3
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 5a83db3ecfc43e31193deba58271e90115143ecd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047939"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352034"
 ---
-# <a name="availability-in-the-united-arab-emirates-uae"></a>Verfügbarkeit in der Vereinigte Arabische Emirate (Vereinigte Arabische Emirate)
+# <a name="availability-in-the-united-arab-emirates-uae"></a>Verfügbarkeit in den Vereinigten Arabischen Emiraten
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 

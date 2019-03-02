@@ -3,15 +3,15 @@ title: Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 01/16/19
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Rufen Sie die Freigabe, und Gruppe Anruf Pickup-kann Benutzer eingehende Anrufe mit Kollegen freigeben, sodass Anrufe erst erfasst werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: df98dd4df064b23b687ddcc569e6c5a431137527
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328317"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351330"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
@@ -48,7 +48,7 @@ Zum Einrichten der Gruppe Anruf Pickup-ein Benutzer zuerst konfiguriert eine anr
 
 Rufen Sie die Gruppe erstellen und die Benachrichtigung, dass Voreinstellungen benutzergesteuerten Features sind. Administratoren müssen nicht diese Funktionen für die Benutzer zu konfigurieren. Anruf Gruppen können nicht von Sicherheitsgruppen oder Office 365-Gruppen erstellt werden. Sie müssen in Teams erstellt werden.
 
-Administratoren können nicht verhindern, dass Benutzer Gruppen erstellen und Ändern von anderen Anruf pickup-Einstellung. Die Funktionalität wird nicht blockiert.
+Administratoren sollten Anruf Gruppen über die **TeamsCallingPolicy AllowCallGroups** Einstellung für einen Benutzer aktivieren. Administratoren können nur gesteuert wird, ob dieser Benutzer Anruf Gruppen konfigurieren kann. Nachdem das Bit Admins "true" festgelegt ist nicht möglich, dass Benutzer aus konfigurieren, und fügen Sie dem Anruf GruppenBenutzer ihrer Wahl.
 
 ## <a name="limitations"></a>Einschränkungen
 

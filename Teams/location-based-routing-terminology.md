@@ -1,5 +1,5 @@
 ---
-title: Speicherortbasierte Routing Terminologie
+title: Terminologie für das standortbasierte Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Hier erfahren Sie, Terminologie und Konzepte speicherortbasierte Routing für das direkte Routing zugeordnet.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 122ded988b9bf3c2cd8d439e84cb132e3a3f690d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771000"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352331"
 ---
-# <a name="location-based-routing-terminology"></a>Speicherortbasierte Routing Terminologie
+# <a name="location-based-routing-terminology"></a>Terminologie für das standortbasierte Routing
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -34,6 +37,6 @@ Hier sind einige Begriffe und Konzepte, die in der gesamten standortbasierten Ro
 |Vertrauenswürdige externe IP-Adressen    |Vertrauenswürdige externe IP-Adressen sind Internet externen IP-Adressen des Unternehmensnetzwerks. Sie bestimmen, ob der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks ist, bevor Sie eine bestimmte Website Übereinstimmung gesucht. Wenn externe IP-Adresse des Benutzers eine IP-Adresse, die in der Liste der vertrauenswürdigen definiert wird übereinstimmt, überprüft speicherortbasierte Routing im interne Subnetz bestimmen, wo sich der Endpunkt des Benutzers befindet. Wenn externe IP-Adresse des Benutzers beliebige IP-Adresse übereinstimmt, die in der Liste der vertrauenswürdigen definiert ist, der Endpunkt gilt als an einem unbekannten Standort wird und alle PSTN-Anrufe zu oder von einem Benutzer, die für das Routing speicherortbasierte aktiviert ist, werden blockiert.          |
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Planen Sie die Standortbasierte Weiterleitung für direkten Routing](location-based-routing-plan.md)
-- [Konfigurieren von Netzwerkeinstellungen für standortbasierte Routing](location-based-routing-configure-network-settings.md)
-- [Speicherortbasierte Routing für die direkte Weiterleitung aktivieren](location-based-routing-enable.md)
+- [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
+- [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
+- [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)

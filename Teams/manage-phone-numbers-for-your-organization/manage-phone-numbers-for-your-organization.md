@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +25,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Je nach Land bzw. Region gelten unterschiedliche Anweisungen für das Beziehen von Telefonnummern für Benutzer in Skype for Business Online und Microsoft Teams. Folgen Sie unten dem Link für Ihr Land bzw. Ihre Region, um die benötigten Informationen anzuzeigen.
-ms.openlocfilehash: b2f20983051f55464d95ed0a36a4173c68b8b4db
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 23923d6d31222d1d97d43318227ce2b1e558d5c2
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048163"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351898"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 Es gibt drei Möglichkeiten, um Benutzer- und Servicenummern (kostenpflichtig und gebührenfrei) für Ihre Organisation zu erhalten.

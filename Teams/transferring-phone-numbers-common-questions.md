@@ -1,20 +1,19 @@
 ---
-title: Allgemeine Fragen zum Übertragen von Telefonnummern
-ms.author: tonysmit
-author: tonysmit
+title: Übertragen von Telefonnummern – häufig gestellte Fragen
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Finden Sie unter Weiterleiten von Telefonnummern zu Office 365 Anweisungen.
-ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2f69573859e04681f895dfc1a577a73f707e569a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375871"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351730"
 ---
-# <a name="transferring-phone-numbers-common-questions"></a>Allgemeine Fragen zum Übertragen von Telefonnummern
+# <a name="transferring-phone-numbers-common-questions"></a>Übertragen von Telefonnummern – häufig gestellte Fragen
 
 Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Weitere Informationen finden Sie in der [Rufnummern zu Office 365 zu übertragen](transfer-phone-numbers-to-office-365.md) .
   
@@ -133,7 +132,7 @@ Nachfolgend finden Sie weitere Informationen zur Übermittlung von Zahl Portiere
 
 Nach Abschluss der Bestellung Port dauert es zwischen 7 14 Tage verarbeitet werden. Je nach Ihren Dienstanbieter kann es jedoch bis zu 30 Tage dauern. Nachdem die Telefonnummern über Port sind, erhalten Sie eine e-Mail-Nachricht von uns darüber informiert, dass Sie so rufen eine gute sind.
   
-Sie können den Status Ihrer Bestellung Port überprüfen, durch das Aufrufen der Skype für Business Administrationscenter > **VoIP** > **Port-Aufträge**. Der Status wird im Fenster unter der Spalte **Status** angezeigt werden.
+Sie können den Status Ihrer Bestellung Port überprüfen, durch das Aufrufen der Skype für Business Admin Center > **VoIP** > **Port-Aufträge**. Der Status wird im Fenster unter der Spalte **Status** angezeigt werden.
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Können Benutzer (Abonnent) Rufnummern in Service Zahlen werden konvertiert?
 <a name="bkmk_type_1"> </a>

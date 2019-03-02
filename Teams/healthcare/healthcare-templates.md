@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Microsoft-Teams Gesundheitswesen Vorlagen
+title: Erste Schritte mit Teams Vorlagen für Unternehmen aus dem Gesundheitswesen
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Erste Schritte mit Microsoft-Teams Gesundheitswesen Vorlagen
-ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+description: Erste Schritte mit Teams Vorlagen für Unternehmen aus dem Gesundheitswesen
+ms.openlocfilehash: 98fff56720bc0d0dee530ab37c67e0e24aaba086
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760567"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351714"
 ---
-# <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Erste Schritte mit Microsoft-Teams Gesundheitswesen Vorlagen
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams Vorlagen für Unternehmen aus dem Gesundheitswesen
 
 Microsoft-Teams Vorlagen können Sie schnell und einfach Teams durch die Bereitstellung von Einstellungen, Kanäle und vorinstallierte apps einer vordefinierten Vorlage erstellen.
 
@@ -37,7 +37,7 @@ Die Vorlage Bezirk ist für die Kommunikation und Zusammenarbeit innerhalb einer
 |Gesundheitswesen - Bezirk | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Ansagen\* <br> Huddles\* <br> Rundet\* <br> Koordiniertes\* <br> Schulung\* |
 |     | |         |
 
-\*Automatische favorisierte 
+\*Automatische favorisierte
 
 ## <a name="hospital-template"></a>Krankenhaus-Vorlage
 
@@ -45,7 +45,7 @@ Die Vorlage Krankenhaus ist für die Kommunikation und Zusammenarbeit zwischen m
 
 |Basisvorlage-Typ |baseTemplateId |Geplante Vorlage Kanäle|
 |:--- |:---|:---|
-|Gesundheitswesen - Krankenhaus | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Ansagen\* <br> Compliance\* <br> Freiheitsentziehenden <br> Personalwesen <br> Apotheke |
+|Gesundheitswesen - Krankenhaus | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Ansagen\* <br> Beachtung\* <br> Freiheitsentziehenden <br> Personalwesen <br> Apotheke |
 | | |  |
 
 \*Automatische favorisierte 

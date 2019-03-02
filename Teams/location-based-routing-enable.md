@@ -1,5 +1,5 @@
 ---
-title: Speicherortbasierte Routing für die direkte Weiterleitung aktivieren
+title: Aktivieren des standortbasierten Routings für direktes Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie, wie speicherortbasierte Routing für die direkte Weiterleitung zu aktivieren.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 854f0fefc006c02bc07c73cd4519b943411094f5
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771008"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352546"
 ---
-# <a name="enable-location-based-routing-for-direct-routing"></a>Speicherortbasierte Routing für die direkte Weiterleitung aktivieren
+# <a name="enable-location-based-routing-for-direct-routing"></a>Aktivieren des standortbasierten Routings für direktes Routing
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -65,7 +68,7 @@ In diesem Artikel wird beschrieben, wie speicherortbasierte Routing für die dir
     
     ||VoIP-routing-Richtlinie 1|VoIP-routing-Richtlinie 2|
     |---------|---------|---------|
-    |VoIP-Richtlinien-ID   |VoIP-Routingrichtlinie Delhi   |VoIP-Routingrichtlinie Hyderabad    |
+    |Online VoIP-Richtlinien-ID   |Delhi online VoIP-routing-Richtlinie   |Hyderabad online VoIP-routing-Richtlinie    |
     |Online PSTN-Verwendungen  |Ferngespräche  |Long Distance, lokale, interne  |
 
     Weitere Informationen finden Sie unter [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
@@ -76,21 +79,21 @@ In diesem Artikel wird beschrieben, wie speicherortbasierte Routing für die dir
 ## <a name="enable-location-based-routing-for-network-sites"></a>Speicherortbasierte Routing für Netzwerkstandorte aktivieren
 1.  Verwendung der ``Set-CsTenantNetworkSite`` -Cmdlet zum Aktivieren speicherortbasierte Routing- und ordnen Sie VoIP-Routingrichtlinien zu Netzwerkstandorten, die zum Erzwingen von routing Einschränkungen benötigen.
     ```
-    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -OnlineVoiceRoutingPolicy <voice routing policy ID> 
+    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     In diesem Beispiel können wir speicherortbasierte Routing für die Delhi und der Hyderabad-Website. 
 
     ```
-    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "DelhiVoiceRoutingPolicy" 
-    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "HyderabadVoiceRoutingPolicy" 
+    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
+    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
     Die folgende Tabelle zeigt die Websites für standortbasierte Routing in diesem Beispiel wird aktiviert.
 
     ||Website 1 (Delhi)  |Standort 2 (Hyderabad)  |
     |---------|---------|---------|
+|Standortname    |Website 1 (Delhi)    |Standort 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |VoIP-routing-Richtlinie    | VoIP-Routingrichtlinie Delhi       |VoIP-Routingrichtlinie Hyderabad    |
     |Subnetze     |Subnetz 1 (Delhi)     |Subnetz 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Aktivieren Sie standortbasierte Routing für gateways
@@ -103,7 +106,7 @@ In diesem Artikel wird beschrieben, wie speicherortbasierte Routing für die dir
 
     In diesem Beispiel erstellen wir eine Gatewaykonfiguration für jedes Gateway. 
     ```
-    New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     Weitere Informationen finden Sie unter [Konfigurieren von direkten Routing](direct-routing-configure.md).
     
@@ -142,25 +145,25 @@ In diesem Artikel wird beschrieben, wie speicherortbasierte Routing für die dir
     |---------|---------|---------|
     |PstnGateway:Gateway 1 DEL-GW    |    True     |   Website 1 (Delhi)      |
     |PstnGateway:Gateway 2 HYD-GW     |   True      |      Standort 2 (Hyderabad)   |
-    |DEL PstnGateway:Gateway 3-PBX-Ressource    |    True     |     Website 1 (Delhi)    |
-    |PstnGateway:Gateway 4 HYD-PBX-Ressource    |    True     |    Standort 2 (Hyderabad)     |
+    |DEL PstnGateway:Gateway 3-PBX-Ressource    |    Falsch     |     Website 1 (Delhi)    |
+    |PstnGateway:Gateway 4 HYD-PBX-Ressource    |    Falsch     |    Standort 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-calling-policies"></a>Aktivieren Sie standortbasierte Routing für den Aufruf von Richtlinien
 
 Zum Erzwingen der speicherortbasierte Routing für bestimmte Benutzer einrichten der Benutzer VoIP-Richtlinie verhindert PTSN gebührenpflichtige umgehen. 
 
-Verwendung der ``Grant-TeamsCallingPolicy`` -Cmdlet zum Aktivieren der speicherortbasierte routing, indem Sie verhindern, dass PSTN Gebühren zu umgehen.
+Verwendung der ``Grant-CsTeamsCallingPolicy`` -Cmdlet zum Aktivieren der speicherortbasierte routing, indem Sie verhindern, dass PSTN Gebühren zu umgehen.
 
 ```
-Grant-TeamsCallingPolicy -PolicyName <policy name> -id <user id> 
+Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 In diesem Beispiel wird verhindert, dass wir PSTN gebührenpflichtige umgangen Benutzer1 Richtlinien aufrufen. 
 
 ```
-Grant-TeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Planen Sie die Standortbasierte Weiterleitung für direkten Routing](location-based-routing-plan.md)
-- [Konfigurieren von Netzwerkeinstellungen für standortbasierte Routing](location-based-routing-configure-network-settings.md)
-- [Speicherortbasierte Routing Terminologie](location-based-routing-terminology.md)
+- [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
+- [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
+- [Terminologie für das standortbasierte Routing](location-based-routing-terminology.md)

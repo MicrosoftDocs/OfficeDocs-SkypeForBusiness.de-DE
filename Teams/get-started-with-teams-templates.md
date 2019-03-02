@@ -7,7 +7,7 @@ ms.date: 01/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Teams Vorlagen verwenden, um ein Team mit vordefinierten Kanälen zu erstellen.
@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27c27aabd9463287c15a98282d6efe114642a8a1
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: 97504dcc6fa1cd465eae7bf0ea151cdf36f525d2
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760575"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352642"
 ---
 # <a name="get-started-with-teams-templates"></a>Erste Schritte mit Microsoft Teams-Vorlagen 
 
@@ -65,10 +65,10 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgelegt, die keine zus�
 | Education-<br>Klasse-Team | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Apps:<ul><li>OneNote-Klasse-Notizbuch (angeheftet auf der Registerkarte **Allgemein** ) </li><li>Assignments-app (angeheftet auf der Registerkarte **Allgemein** )</li></ul> Team-Eigenschaften:<ul><li>Legen Sie die Sichtbarkeit Team auf **HiddenMembership** (können nicht überschrieben werden)</li></ul> |
 | Education-<br>Mitarbeiter-Team | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Apps:<ul><li>OneNote-Personal-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</li></ul> |
 |Education-<br>PLC-team |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Apps:<ul><li>OneNote PLC-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</ul></li>|
-| Retail-<br>Anmelden | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften<ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul>Member-Berechtigungen<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul> |
+| Retail-<br>abspeichern | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften<ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul>Member-Berechtigungen<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul> |
 | Retail-<br>Manager für die Zusammenarbeit | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften:<ul><li>Team Visibility auf Private festgelegt</li></ul>Member-Berechtigungen:<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul>|
 | Gesundheitswesen-<br>Bezirk |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Kanäle: <ul><li>Ansagen\*</li><li>Huddles\*</li><li>Rundet</li><li>Koordiniertes\*</li><li>Schulung\*</li></ul>\*Automatische favorisierte Kanäle |
-|Gesundheitswesen-<br>Krankenhaus | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Kanäle:<ul><li>Ansagen\*</li><li>Compliance\*</li><li>Freiheitsentziehenden</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatische favorisierte DDE-Kanal|
+|Gesundheitswesen-<br>Krankenhaus | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Kanäle:<ul><li>Ansagen\*</li><li>Beachtung\*</li><li>Freiheitsentziehenden</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatische favorisierte DDE-Kanal|
 |||
 
 > [!NOTE]
@@ -79,6 +79,6 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgelegt, die keine zus�
 
 - [Create-team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in der Vorschau)
 - [Neues Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
-- [Administrator-Schulung für Microsoft Teams](itadmin-readiness.md)
-- [Erste Schritte mit Retail Teams Vorlagen](get-started-with-retail-teams-templates.md)
+- [Administratorschulung für Microsoft Teams](itadmin-readiness.md)
+- [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 - [Erste Schritte mit Gesundheitswesen Teams Vorlagen](healthcare/healthcare-templates.md)
