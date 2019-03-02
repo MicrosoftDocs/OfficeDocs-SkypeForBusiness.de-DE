@@ -1,5 +1,5 @@
 ---
-title: Gebührenfreie Rufnummer einwählen Einschränkungen in Taiwan
+title: Einschränkungen für gebührenfreie Telefonnummern in Taiwan
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 2ea29f57-e728-4451-ba3a-3fadea90fbf1
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 43cc5507e1cce34d70c131d9a8d8836f83494a84
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: a1b939e3051750e9bc386f01499250eb3c1d72c8
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047256"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351282"
 ---
-# <a name="toll-free-dialing-restrictions-in-taiwan"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Taiwan
+# <a name="toll-free-dialing-restrictions-in-taiwan"></a>Einschränkungen für gebührenfreie Telefonnummern in Taiwan
 
 [Suchen Sie nach einem anderen Land oder Region](../toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über die gebührenfreie Nummer Grenzen und Einschränkungen.
 

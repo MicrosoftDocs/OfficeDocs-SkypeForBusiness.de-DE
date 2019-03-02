@@ -1,28 +1,26 @@
 ---
-title: Migrieren zu direkten Routing
+title: Migration zum direkten Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Hier erfahren Sie, was für die Migration zu direkten Routing von einer Skype für Business Online und Teams Konfiguration Perspektive erforderlich ist.
-ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754471"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353114"
 ---
-# <a name="migrating-to-direct-routing"></a>Migrieren zu direkten Routing
+# <a name="migrating-to-direct-routing"></a>Migration zum direkten Routing
 
 In diesem Artikel wird beschrieben, was für die Migration zu direkten Routing von einer Skype für Business Online und Microsoft-Teams Konfiguration Perspektive erforderlich ist. Dieser Artikel behandelt die Migration aus den folgenden: 
  

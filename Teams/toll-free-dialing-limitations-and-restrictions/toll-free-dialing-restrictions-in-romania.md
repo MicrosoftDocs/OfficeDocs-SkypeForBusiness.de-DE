@@ -1,5 +1,5 @@
 ---
-title: Gebührenfreie Rufnummer einwählen Einschränkungen in Rumänien
+title: Einschränkungen für gebührenfreie Telefonnummern in Rumänien
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 039d4dd7-c070-472d-85e4-9085139c0ca2
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 84a7ee908d318dd597a74c9c64b3c978a943b589
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: be34eb843dc68a9729b92294e52e5de792b2f5b1
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046703"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350770"
 ---
-# <a name="toll-free-dialing-restrictions-in-romania"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Rumänien
+# <a name="toll-free-dialing-restrictions-in-romania"></a>Einschränkungen für gebührenfreie Telefonnummern in Rumänien
 
 [Suchen Sie nach einem anderen Land oder Region](../toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über die gebührenfreie Nummer Grenzen und Einschränkungen.
 

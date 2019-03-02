@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
+ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753846"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357770"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen zum Verständnis der Chat, Teams, Kanäle, &-apps in Teams. Fahren Sie mit [Chat bereitstellen, Teams, Kanäle, &-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) eine Liste von wichtigen Entscheidungen zu nahezubringen Teams durchlaufen.
@@ -88,7 +88,7 @@ Microsoft Teams ist gut darin, organisatorische Silos aufzubrechen und funktions
 
 Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln.  Diese Vorgehensweise eignet sich am besten für Führungskräfte, die die Motivation steigern, teamspezifische Überprüfungen durchführen, für Klarheit bezüglich der Onboardingprozesse für die Mitarbeiter sorgen, Personalpläne besprechen und die Transparenz für die Mitarbeiter in den verschiedenen Bereichen erhöhen möchten.  
 
-![Diagramm einer Hierarchie der Organisation von Teams und Kanälen in Microsoft Teams](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Diagramm einer Hierarchie der Organisation von Teams und Kanälen in Microsoft Teams](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>Org geltende teams
 

@@ -5,22 +5,20 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: In diesem Artikel wird beschrieben, wie zur Überwachung und Problembehandlung für die direkte Routing-Konfiguration.
-ms.openlocfilehash: 46fd5ad046551d30bf3822d11864edc2a5353a26
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 75f116004c0385aa7d13b0173380221304590814
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014933"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350986"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direkten Routing
 
@@ -46,7 +44,7 @@ Das folgende Diagramm zeigt ein Beispiel für die Konfiguration:
 
 ![Beispiel für die Konfiguration von SIP-Optionen](media/sip-options-config-example.png)
 
-Wenn ein Benutzer einen Anruf an Anzahl +1 425 herstellt \<alle sieben Ziffern >, direkten Routing wertet die Route. Es gibt zwei SBCs in der Route: sbc1.contoso.com und sbc2.contoso.com. Beide SBCs haben die gleiche Priorität in der Route. Vor der Entnahme eines SBC, wertet der routing-Mechanismus die Integrität der SBCs basierend auf, wenn der SBC die Optionen SIP gesendet letzten Zeit. 
+Wenn ein Benutzer einen Anruf an Anzahl +1 425 herstellt \<alle sieben Digits>, direkten Routing wertet die Route. Es gibt zwei SBCs in der Route: sbc1.contoso.com und sbc2.contoso.com. Beide SBCs haben die gleiche Priorität in der Route. Vor der Entnahme eines SBC, wertet der routing-Mechanismus die Integrität der SBCs basierend auf, wenn der SBC die Optionen SIP gesendet letzten Zeit. 
 
 Ein SBC gilt fehlerfrei, ob Statistiken zum Zeitpunkt der den Anruf senden angezeigt, dass der SBC Optionen in regelmäßigen Abständen gesendet.  
 

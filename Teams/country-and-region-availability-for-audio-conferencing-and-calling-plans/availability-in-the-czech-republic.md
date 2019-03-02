@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit in der Tschechische Republik
+title: Verfügbarkeit in der Tschechischen Republik
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 1af19363-beb6-4155-a55e-0765a3d90f02
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Tschechische Republik verfügbar.
-ms.openlocfilehash: 2df756498a3bfce7ee7ef73ba93bddb19ff5818d
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 29155f7547ea913403bbab354d266463713f3e4e
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048682"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353370"
 ---
-# <a name="availability-in-the-czech-republic"></a>Verfügbarkeit in der Tschechische Republik
+# <a name="availability-in-the-czech-republic"></a>Verfügbarkeit in der Tschechischen Republik
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
