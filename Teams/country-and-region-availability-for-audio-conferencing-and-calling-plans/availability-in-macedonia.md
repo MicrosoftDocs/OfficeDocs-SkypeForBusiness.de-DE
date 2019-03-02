@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit in Mazedonien
+title: Verfügbarkeit in der Republik Mazedonien
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 26419a93-4216-448f-bf3a-f29778c62c84
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Mazedonien verfügbar.
-ms.openlocfilehash: 7b0aecdda4e9bf67f346237f1a23c3834ece7384
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4bb35b86b4ea3ce65afe1fdbbb8d088ed3aaf7f7
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048515"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352898"
 ---
-# <a name="availability-in-macedonia"></a>Verfügbarkeit in Mazedonien
+# <a name="availability-in-macedonia"></a>Verfügbarkeit in der Republik Mazedonien
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 

@@ -1,5 +1,5 @@
 ---
-title: Allgemeine Fragen zu Audiokonferenzen
+title: Allgemeine Fragen zu Audiokonferenz
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,14 +7,13 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten.
-ms.openlocfilehash: b2c75a9207a0cff73f247809c2e70a7fe17d50e5
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 3ede756aff99f5be8d8b5f703860d54554d34ea9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678434"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353634"
 ---
-# <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
+# <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenz
 
 Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten. 
   
@@ -155,7 +154,7 @@ Planen einer Besprechung, die von allen Teilnehmern mit einem Telefon auf Zugrif
 
 [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[Telefonnummern für Audiokonferenzen in Microsoft-Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Telefonnummern für Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [Telefonnummern für Audiokonferenzen in Skype für Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

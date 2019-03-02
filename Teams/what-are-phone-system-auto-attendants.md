@@ -8,13 +8,13 @@ ms.date: 9/1/2018
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -23,32 +23,32 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Enthält Informationen zu automatischen Telefonzentralen Telefonsystem (Cloud, PBX) und deren Verwendung. '
-ms.openlocfilehash: f0b93d39bffc2c479e853228cb4d14f38d9a570d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+description: Enthält Informationen zu automatischen Telefonzentralen Telefonsystem (Cloud, PBX) und deren Verwendung.
+ms.openlocfilehash: 8ffb43d02ed100a3767fce3338b98c05760c1c9a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120808"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353506"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Was sind automatische Telefonzentralen des Telefonsystems?
 
-Telefonsystem in Office 365-Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, externe und interne Anrufer können, über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
+Telefonsystem in Office 365 bietet automatische Telefonzentralen, die verwendet werden kann, um zu externen lassen und interne Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
   
-Anrufer hören eine Reihe von Sprachanweisungen, die ihnen dabei helfen, einen Benutzer anzurufen oder jemanden in Ihrer Organisation zu finden und diese Person dann anzurufen. Eine automatische Telefonzentrale ist eine Reihe von Ansagen oder einer Audiodatei, die anstelle einer human Operator Anrufer hören, wenn sie zu einer Organisation anrufen. Bei einer automatischen Telefonzentrale können die Anrufer durch das Menüsystem navigieren, Anrufe einleiten oder Benutzer suchen, indem sie eine Wähltastatur eines Telefons (MFV) oder Spracheingaben mit Spracherkennung verwenden. 
+Eine automatische Telefonzentrale ist eine Reihe von Ansagen oder audio-Dateien, die anstelle einer human Operator Anrufer hören, wenn sie eine Organisation anrufen. Beim Aufruf von Personen einer Zahl, die eine automatische Telefonzentrale zugeordnet können ihre Optionen leiten den Anruf an einen Benutzer oder Suchen nach einer Person in Ihrer Organisation und dem betreffenden Benutzer verbinden. Sie können ihre Auswahl express und interagieren mit dem Menüsystem mithilfe eines Telefontastatur (MFV) oder die Spracherkennung.
   
-Um eine automatische Telefonzentrale für das Telefonsystem in Office 365 einzurichten, gehen Sie [Richten Sie eine automatische Telefonzentrale Telefonsystem](/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
+Um eine automatische Telefonzentrale für das Telefonsystem in Office 365 einzurichten, gehen Sie [Richten Sie eine automatische Telefonzentrale Telefonsystem](create-a-phone-system-auto-attendant.md).
   
 Eine automatische Telefonzentrale Telefonsystem weist die folgenden Features:
   
 - Sie kann Unternehmensbegrüßungen oder informative Begrüßungen bereitstellen.
-    
 - Sie kann benutzerdefinierte Unternehmensmenüs bereitstellen. Diese Menüs können Sie so anpassen, dass sie aus mehreren Ebenen bestehen.
-    
 - Es bietet Verzeichnissuche finden, die die Personen, die ermöglicht in aufrufen, um im Verzeichnis der Organisation für einen Namen zu suchen.
-    
 - Sie können einer Person, die Anrufe in erreichen, oder lassen Sie eine Nachricht für eine Person in Ihrer Organisation.
-    
+
+> [!NOTE]
+> Dieser Artikel bezieht sich auf Microsoft-Teams und Skype für Business Online.
+
 ## <a name="getting-started"></a>Erste Schritte
 
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen Telefonzentralen wichtig:
@@ -59,60 +59,57 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen
     > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder zu diesen zuweisen plant aufrufen. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Zum Abrufen und gebührenfreie Service Zahlen für die automatische Telefonzentralen verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie unter [Was sind Communications haben?](what-are-communications-credits.md) und [Communications haben für Ihre Organisation einrichten](set-up-communications-credits-for-your-organization.md).
-    
+
     > [!IMPORTANT]
-    > Telefonnummern von Benutzern (Abonnenten) können automatischen Telefonzentralen nicht zugewiesen werden - es können nur gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden. 
+    > Telefonnummern von Benutzern (Abonnenten) können automatischen Telefonzentralen nicht zugewiesen werden - es können nur gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden.
+- Eine automatische Telefonzentrale ist erforderlich, um ein Ressourcenkonto zugeordneten verfügen. Details auf Ressourcenkonten finden Sie unter [Manage Ressourcenkonten in Teams](manage-resource-accounts.md) .
+- Eine vollständige Auto attendant System wird gewöhnlich sind mehrere automatische Telefonzentralen und erfordern nur eine einzelne zugewiesene Telefonnummer für den Eintrag oder der obersten Ebene der automatischen Telefonzentrale. Andere Telefonzentralen oder Anruf Warteschlangen in der gesamten Systems werden nur eine Telefonnummer ein erforderlich, wenn Sie mehrere Einstiegspunkte in das System bereitstellen möchten.
+- Es ist möglich, eine automatische Telefonzentrale durch Zuordnen von mehr als eine Rufnummer, um die automatische Telefonzentrale Ressourcenkonto mehr als eine Telefonnummer zuweisen.
   
 ## <a name="feature-overview"></a>Funktionsübersicht
 
 ### <a name="dial-by-name"></a>Namensanwahl
 
-Die Namensanwahl ist eine Funktion einer automatischen Telefonzentrale, die auch als Verzeichnissuche bekannt ist. Sie können die Personen, die an die automatische Telefonzentrale mit VoIP (Spracherkennung) oder ihre Telefontastatur (MFV) geben einen vollständigen oder teilweisen Namen Unternehmensverzeichnis suchen, suchen die Person, und klicken Sie dann der Anruf weitergeleitet werden. Wenn Sie über Skype für Business Online-Benutzer **sind nicht erforderlich, um eine Rufnummer verfügen oder haben aufrufen plant zugewiesen werden, jedoch über ein Telefon-Lizenz verfügen** , um eine erreichbar sein, bei der Suche mit Dial nach Namen verfügen. Dial namentlich werden auch ermitteln und durchstellen von Anrufen an Skype für Business Online Benutzer, die in verschiedenen Ländern oder Regionen für multinationale Unternehmen gehostet werden.
-  
-> [!CAUTION]
-> Lokale Bereitstellung von Lync Server 2010-Benutzern wird nicht in das Verzeichnis Wenn jemand sie sucht aufgeführt. 
-  
+Dial namentlich ist ein Feature von einer automatischen Telefonzentrale, die auch als Verzeichnissuche bezeichnet. Sie können die Personen, die die automatische Telefonzentrale Verwendung von VoIP (Spracherkennung) oder die Telefonnummer Tastatur (MFV) Antworten, geben einen vollständigen oder teilweisen Namen Unternehmensverzeichnis durchsuchen, suchen Sie die Person anrufen, und veranlassen Sie der Anruf weitergeleitet werden. Benutzer, die Sie verwenden möchten, befindet sich und mit Dial namentlich erreicht haben **ist nicht erforderlich, haben eine Telefonnummer oder ihnen zugewiesen haben plant aufrufen, aber benötigen sie eine Lizenz Telefonsystem**. Dial namentlich werden auch ermitteln und durchstellen von Anrufen an Microsoft-Teams, Benutzer, die in verschiedenen Ländern oder Regionen für multinationale Unternehmen gehostet werden.
+
 ### <a name="maximum-directory-size"></a>Maximale Verzeichnisgröße
 
 Es gibt keine Beschränkung für die Active Directory-Größe für die Einwahl namentlich unterstützt wird, wenn die Telefontastatur suchen zur Eingabe von teilweiser oder vollständiger Names (Vorname Nachname, und auch LastName + FirstName). Es ist jedoch die maximale Listengröße, dass eine einzelne automatische Telefonzentrale unterstützen kann Speech Recognition Namen mit 80.000 Benutzern.
   
-||||
+|Eingabetyp|Suchformat|Maximale Anzahl der Benutzer in einer Organisation|
 |:-----|:-----|:-----|
-|**Eingabetyp** <br/> |**Suchformat** <br/> |**Maximale Anzahl der Benutzer in einer Organisation** <br/> |
-|MFV (Eingabe über die Wähltastatur)  <br/> |Teilweise  <br/> Vorname + Nachname  <br/> Nachname + Vorname  <br/> |Kein festes Limit  <br/> |
-|Sprache (Spracheingabe)  <br/> |Vorname  <br/> Nachname  <br/> Vorname + Nachname  <br/> Nachname + Vorname  <br/> |80.000 Benutzern  <br/> |
-   
+|MFV (Eingabe über die Wähltastatur) |Teilweise  <br/> Vorname + Nachname  <br/> Nachname + Vorname |Kein festes Limit  |
+|Sprache (Spracheingabe) |Vorname  <br/> Nachname  <br/> Vorname + Nachname  <br/> Nachname + Vorname  |80.000 Benutzern |
+
 > [!NOTE]
-> Bei Verwendung der Einwahl namentlich mit Speech Recognition, aber Ihre Organisation Active Directory ist größer als 80.000 Benutzern und Sie noch nicht den Bereich der Einwahl über den Namen mithilfe von DFÜ-bereichsfeature begrenzt, Dial namentlich funktioniert auch weiterhin für die über die Tastatur eine Rufnummer für Anrufer , und Spracheingaben werden für alle anderen Szenarien zur Verfügung gestellt. DFÜ-bereichsfeature können Sie die Namen einzuschränken, die durch eine Änderung der Zugriffsnummer für eine bestimmte automatische Telefonzentrale namentlich erreichbar sind. 
+> Bei Verwendung der Einwahl namentlich mit Speech Recognition, aber Ihre Organisation Active Directory ist größer als 80.000 Benutzern und Sie noch nicht den Bereich der Einwahl über den Namen mithilfe von DFÜ-bereichsfeature begrenzt, Dial namentlich funktioniert auch weiterhin für die über die Tastatur eine Rufnummer für Anrufer , und Spracheingaben werden für alle anderen Szenarien zur Verfügung gestellt. DFÜ-bereichsfeature können Sie die Namen einzuschränken, die durch eine Änderung der Zugriffsnummer für eine bestimmte automatische Telefonzentrale namentlich erreichbar sind.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Namensanwahl - Eingabe über die Wähltastatur (MFV)
 
 Personen einwählen, können Dial namentlich erreichen von Benutzern durch Angeben von entweder den vollständigen oder teilweisen Namen der Person, die sie erreichen möchten. Das gute ist, dass es sind verschiedene Formate, die verwendet werden können, wenn der Name eingegeben wurde.
-  
+
 Die Benutzer können bei der Suche im Verzeichnis Ihrer Organisation mit der Taste „0" (Null) einen Leerschritt zwischen dem Vornamen und dem Nachnamen oder dem Nachnamen und dem Vornamen eingeben. Bei der Eingabe des Namens werden sie aufgefordert, die Eingabe über die Wähltastatur mit der Rautetaste (#) zu beenden. Beispiel: „Drücken Sie nach dem Namen der gewünschten Person die Rautetaste." Wenn mehrere Namen gefunden werden, wird den Anrufern eine Liste mit Namen zur Auswahl präsentiert.
   
 Anrufer können bei der Suche nach Namen in Ihrer Organisation über die Wähltastatur eines Telefons die folgenden Suchformate verwenden:
   
-|||||
+|Namensformat|Suchtyp|Beispiel|Suchergebnis|
 |:-----|:-----|:-----|:-----|
-|**Namensformat** <br/> |**Suchtyp** <br/> |**Beispiel** <br/> |**Suchergebnis** <br/> |
-|Vorname + Nachname  <br/> |Vollständig  <br/> |Amos0Marble#  <br/> |Amos Marble  <br/> |
-|Nachname + Vorname  <br/> |Vollständig  <br/> |Marble0Amos#  <br/> |Amos Marble  <br/> |
-|Vorname  <br/> |Vollständig  <br/> |Amos#  <br/> |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus.  <br/> |
-|Nachname  <br/> |Vollständig  <br/> |Marble#  <br/> |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Mary Marble.  <br/> |
-|Vorname oder Nachname  <br/> |Teilweise  <br/> |Mar#  <br/> |Drücken Sie „1" für Mary Marble.  <br/> Drücken Sie „2" für Mary Jones.  <br/> Drücken Sie „3" für Amos Marcus.  <br/> |
-|Vorname + Nachname  <br/> |Teilweise  <br/> |Mar0Amos#  <br/> |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus.  <br/> |
-|Nachname + Vorname  <br/> |Teilweise  <br/> |Mar0Am#  <br/> |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus.  <br/> |
-   
+|Vorname + Nachname |Vollständig  |Amos0Marble# |Amos Marble |
+|Nachname + Vorname |Vollständig |Marble0Amos#  |Amos Marble |
+|Vorname  |Vollständig   |Amos#   |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus. |
+|Nachname |Vollständig |Marble#  |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Mary Marble. |
+|Vorname oder Nachname |Teilweise |Mar# |Drücken Sie „1" für Mary Marble.  <br/> Drücken Sie „2" für Mary Jones.  <br/> Drücken Sie „3" für Amos Marcus. |
+|Vorname + Nachname |Teilweise |Mar0Amos# |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus. |
+|Nachname + Vorname |Teilweise |Mar0Am# |Drücken Sie „1" für Amos Marble.  <br/> Drücken Sie „2" für Amos Marcus. |
+
 Bei der Suche nach Personen über die Wähltastatur eines Telefons können verschiedene Sonderzeichen verwendet werden. Beispielsweise die Person gebeten, verwenden Sie die Rautetaste (#), während für ein Leerzeichen zwischen Null (0)-Taste verwendet wird. Wenn die Anrufer die Sterntaste (*) drücken, wird die Liste der übereinstimmenden Namen wiederholt.
   
-|||
+|Sonderzeichen auf der Wähltastatur eines Telefons|Bedeutung|
 |:-----|:-----|
-|**Sonderzeichen auf der Wähltastatur eines Telefons** <br/> |**Bedeutung** <br/> |
-|# (Rautetaste)  <br/> |Endzeichen bei der Eingabe eines Namens  <br/> |
-|0 (Null)  <br/> |Leerschritt zwischen Namen  <br/> |
-|* (Sterntaste)  <br/> |Wiederholt die Liste der übereinstimmenden Namen.  <br/> |
-   
+|# (Rautetaste) |Endzeichen bei der Eingabe eines Namens |
+|0 (Null) |Leerschritt zwischen Namen |
+|* (Sterntaste)  |Wiederholt die Liste der übereinstimmenden Namen. |
+
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Namensanwahl - Namenserkennung mit Sprache
 
 Personen können andere Personen in ihrer Organisation über ihre VoIP (Spracherkennung) suchen. Sie können auch erreichen alle in Active Directory des Unternehmens sagen Sie den Namen der Person, die sie suchen möchten. Mithilfe von Spracheingaben erkennen Namen in verschiedenen Formaten, einschließlich FirstName, LastName, FirstName LastName, oder LastName + FirstName.
@@ -123,16 +120,15 @@ Wie bei der Eingabe über die Wähltastatur eines Telefons wird den Anrufern, we
   
 Die Anrufer können Namen in den folgenden Formaten sagen:
   
-|||||
+|Nennen Sie mit der Sprache|Suchtyp|Beispiel|Suchergebnis|
 |:-----|:-----|:-----|:-----|
-|**Nennen Sie mit der Sprache** <br/> |**Suchtyp** <br/> |**Beispiel** <br/> |**Suchergebnis** <br/> |
-|Vorname + Nachname  <br/> |Vollständig  <br/> |Amos Marble  <br/> |Amos Marble  <br/> |
-|Nachname + Vorname  <br/> |Vollständig  <br/> |Marble Amos  <br/> |Amos Marble  <br/> |
-|Vorname  <br/> |Vollständig  <br/> |Amos  <br/> |Drücken oder sagen Sie „1" für Amos Marble.  <br/> Drücken oder sagen Sie „2" für Amos Jones.  <br/> |
-|Nachname  <br/> |Vollständig  <br/> |Marble  <br/> |Drücken oder sagen Sie „1" für Amos Marble.  <br/> Drücken oder sagen Sie „2" für Ben Marble.  <br/> |
-   
+|Vorname + Nachname |Vollständig |Amos Marble |Amos Marble |
+|Nachname + Vorname |Vollständig  |Marble Amos |Amos Marble |
+|Vorname |Vollständig |Amos |Drücken oder sagen Sie „1" für Amos Marble.  <br/> Drücken oder sagen Sie „2" für Amos Jones. |
+|Nachname |Vollständig |Marble |Drücken oder sagen Sie „1" für Amos Marble.  <br/> Drücken oder sagen Sie „2" für Ben Marble. |
+
 > [!NOTE]
-> Es kann bis zu 36 Stunden für einen neuen Benutzer ihre Namen in das Verzeichnis mit Namen für die Spracherkennung für Einwahl aufgeführt haben dauern. 
+> Es kann bis zu 36 Stunden für einen neuen Benutzer ihre Namen in das Verzeichnis mit Namen für die Spracherkennung für Einwahl aufgeführt haben dauern.
   
 ### <a name="language-support"></a>Sprachunterstützung
 
@@ -140,49 +136,48 @@ Für Text-zu-Sprache sind die folgenden Sprachen verfügbar:
   
 ||||
 |:-----|:-----|:-----|
-|Arabisch (EG)  <br/> |Englisch (NZ)  <br/> |Koreanisch (KO)  <br/> |
-|Chinesisch (HK)  <br/> |Englisch (Großbritannien)  <br/> |Norwegisch (NO)  <br/> |
-|Chinesisch (TW)  <br/> |Englisch (USA)  <br/> |Polnisch (PL)  <br/> |
-|Chinesisch (ZH)  <br/> |Finnisch (FI)  <br/> |Portugiesisch (BR)  <br/> |
-|Dänisch (DA)  <br/> |Französisch (CA)  <br/> |Portugiesisch (PT)  <br/> |
-|Niederländisch (NL)  <br/> |Französisch (FR)  <br/> |Russisch (RU)  <br/> |
-|Englisch (AU)  <br/> |Deutsch (DE)  <br/> |Spanisch (ES)  <br/> |
-|Englisch (CA)  <br/> |Italienisch (IT)  <br/> |Spanisch (MX)  <br/> |
-|Englisch (IN)  <br/> |Japanisch (JP)  <br/> |Schwedisch (SV)  <br/> |
-   
+|Arabisch (EG)  |Englisch (NZ)  |Koreanisch (KO)  |
+|Chinesisch (HK)  |Englisch (Großbritannien) |Norwegisch (NO)  |
+|Chinesisch (TW) |Englisch (USA) |Polnisch (PL)  |
+|Chinesisch (ZH) |Finnisch (FI) |Portugiesisch (BR) |
+|Dänisch (DA)  |Französisch (CA)  |Portugiesisch (PT) |
+|Niederländisch (NL)   |Französisch (FR)  |Russisch (RU) |
+|Englisch (AU)  |Deutsch (DE) |Spanisch (ES)  |
+|Englisch (CA)  |Italienisch (IT) |Spanisch (MX)|
+|Englisch (IN)  |Japanisch (JP) |Schwedisch (SV)|
+
 Spracherkennung für automatische Telefonzentralen ist in den folgenden Sprachen verfügbar:
   
 |||
 |:-----|:-----|
-|Chinesisch (ZH)  <br/> |Französisch (FR)  <br/> |
-|Englisch (AU)  <br/> |Deutsch (DE)  <br/> |
-|Englisch (CA)  <br/> |Italienisch (IT)  <br/> |
-|Englisch (IN)  <br/> |Japanisch (JP)  <br/> |
-|Englisch (Großbritannien)  <br/> |Portugiesisch (BR)  <br/> |
-|Englisch (USA)  <br/> |Spanisch (ES)  <br/> |
-|Französisch (CA)  <br/> |Spanisch (MX)  <br/> |
-   
+|Chinesisch (ZH)  |Französisch (FR)  |
+|Englisch (AU)  |Deutsch (DE)  |
+|Englisch (CA)  |Italienisch (IT)  |
+|Englisch (IN)  |Japanisch (JP)  |
+|Englisch (Großbritannien)  |Portugiesisch (BR)  |
+|Englisch (USA)  |Spanisch (ES)  |
+|Französisch (CA)   |Spanisch (MX)  |
+
 Die folgenden Sprachbefehle sind in den vierzehn (14) für Spracherkennung unterstützten Sprachen verfügbar:
   
-|||
+|Sprachbefehl|Bedeutung|
 |:-----|:-----|
-|**Sprachbefehl** <br/> |**Bedeutung** <br/> |
-|Ja  <br/> |Ja - entspricht dem Drücken von „1" für „Ja".  <br/> |
-|Nein  <br/> |Nein - entspricht dem Drücken von „2" für „Nein".  <br/> |
-|Wiederholen  <br/> |Wiederholt die Liste der Optionen - entspricht dem Drücken von „*" zum Wiederholen der Liste der Optionen.  <br/> |
-|Vermittlung  <br/> |Zurück zur Vermittlung - entspricht dem Drücken von „0" für „Vermittlung".  <br/> |
-|Hauptmenü  <br/> |Die Anrufer gelangen zum Hauptmenü der automatischen Telefonzentrale.  <br/> |
-|Null  <br/> |Entspricht dem Drücken von „0" (standardmäßig identisch mit „Vermittlung").  <br/> |
-|Eins  <br/> |Entspricht dem Drücken von „1".  <br/> |
-|Zwei  <br/> |Entspricht dem Drücken von „2".  <br/> |
-|Drei  <br/> |Entspricht dem Drücken von „3".  <br/> |
-|Vier  <br/> |Entspricht dem Drücken von „4".  <br/> |
-|Fünf  <br/> |Entspricht dem Drücken von „5".  <br/> |
-|Sechs  <br/> |Entspricht dem Drücken von „6".  <br/> |
-|Sieben  <br/> |Entspricht dem Drücken von „7".  <br/> |
-|Acht  <br/> |Entspricht dem Drücken von „8".  <br/> |
-|Neun  <br/> |Entspricht dem Drücken von „9".  <br/> |
-   
+|Ja |Ja - entspricht dem Drücken von „1" für „Ja". |
+|Nein |Nein - entspricht dem Drücken von „2" für „Nein". |
+|Wiederholen |Wiederholt die Liste der Optionen - entspricht dem Drücken von „*" zum Wiederholen der Liste der Optionen. |
+|Vermittlung |Zurück zur Vermittlung - entspricht dem Drücken von „0" für „Vermittlung". |
+|Hauptmenü  |Die Anrufer gelangen zum Hauptmenü der automatischen Telefonzentrale. |
+|Null |Entspricht dem Drücken von „0" (standardmäßig identisch mit „Vermittlung").|
+|Eins |Entspricht dem Drücken von „1". |
+|Zwei |Entspricht dem Drücken von „2". |
+|Drei|Entspricht dem Drücken von „3".|
+|Vier |Entspricht dem Drücken von „4". |
+|Fünf |Entspricht dem Drücken von „5". |
+|Sechs  |Entspricht dem Drücken von „6". |
+|Sieben |Entspricht dem Drücken von „7".|
+|Acht |Entspricht dem Drücken von „8".|
+|Neun  |Entspricht dem Drücken von „9".|
+
 ### <a name="using-the-operator-option"></a>Verwenden der Vermittlungsoption
 
 Bei der Verwendung der Vermittlung für eine automatische Telefonzentrale handelt es sich um eine optionale Einstellung, mit der die Anrufer die Möglichkeit haben, mit einer echten Person zu sprechen.
@@ -190,19 +185,18 @@ Bei der Verwendung der Vermittlung für eine automatische Telefonzentrale handel
 Die Taste „0" und der Sprachbefehl „Vermittlung" (in allen für Spracherkennung unterstützten Sprachen) sind standardmäßig der Vermittlung zugewiesen.
   
 > [!NOTE]
-> Sie können die Schaltfläche festlegen, die für den **Operator** mit **Menüoptionen**auf einen anderen Schlüssel abgelegt wird. 
+> Sie können die Schaltfläche festlegen, die für den **Operator** mit **Menüoptionen**auf einen anderen Schlüssel abgelegt wird.
   
 Als Vermittlung können Sie Folgendes festlegen:
   
-- Eine Skype für Business Online Benutzer mit einem **Telefonsystem** lizenzieren, die Enterprise-VoIP aktiviert oder hat aufrufen plant zugeordnet ist, diese. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann automatisch direkt an die Voicemail weitergeleitet werden.
-    
+- Ein Microsoft-Teams, Benutzer mit einem **Telefonsystem** lizenzieren, die Enterprise-VoIP aktiviert oder hat aufrufen plant zugeordnet ist, diese. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann automatisch direkt an die Voicemail weitergeleitet werden.
+
     > [!NOTE]
-    > Benutzer gehostet: lokal mit Lync Server 2010 kann nicht als Operator verwendet werden. 
+    > Benutzer gehostet: lokal mit Lync Server 2010 kann nicht als Operator verwendet werden.
   
 - Eine andere für Ihre Organisation eingerichtete automatische Telefonzentrale
-    
 - Eine beliebige in Ihrer Organisation eingerichtete Anrufwarteschleife. Weitere Informationen zum Anruf Warteschlangen finden Sie unter [Erstellen einer Telefonsystem Anruf Warteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
-    
+
 ### <a name="business-hours-and-call-handling"></a>Geschäftszeiten und Anrufbehandlung
 
 Geschäftszeiten werden für jede automatische Telefonzentrale festgelegt. Wenn Geschäftszeiten festgelegt sind, werden alle Tage und alle Stunden am Tag Geschäftszeiten berücksichtigt, da standardmäßig ein Zeitplan 24/7 festgelegt ist. Geschäftszeiten kann mit Breaks rechtzeitig während der Tag und alle der Stunden, die nicht festgelegt werden, wie Geschäftszeiten Geschäftszeiten gelten festgelegt werden. Sie können unterschiedliche eingehende Anrufbehandlung Optionen und anderen Ansage (die optionale sind), und beide für Geschäftszeiten und Geschäftszeiten festgelegt sein.
@@ -210,20 +204,17 @@ Geschäftszeiten werden für jede automatische Telefonzentrale festgelegt. Wenn 
 Jede automatische Telefonzentrale hat Anrufbehandlung Optionen, die festgelegt werden können:
   
 - Sie können festlegen, dass ein Anruf direkt nach der Begrüßung getrennt wird.
-    
 - Sie können auch folgende Aktionen ausführen:
-    
-  - Leiten den Anruf an einen Skype für Business Online-Benutzer, der über eine Lizenz **Telefonsystem** verfügt, die Enterprise-VoIP aktiviert ist, oder sie zugewiesen wurde plant aufrufen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann automatisch direkt an die Voicemail weitergeleitet werden.
-    
+  - Umleiten des Anrufs an einen Microsoft-Teams, Benutzer, der über eine Lizenz **Telefonsystem** verfügt, die Enterprise-VoIP aktiviert ist, oder sie zugewiesen wurde plant aufrufen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann automatisch direkt an die Voicemail weitergeleitet werden.
+
     > [!NOTE]
-    > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt. 
+    > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.
   
   - Umleiten des Anrufs an eine Warteschleife Anruf. Weitere Informationen zum Anruf Warteschlangen finden Sie unter [Erstellen einer Telefonsystem Anruf Warteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
-    
+
   - Leiten Sie den Anruf an eine andere automatische Telefonzentrale, die Sie eingerichtet haben.
-    
 - Menüoptionen erstellen und eine Menüansage für die Anrufer wiedergeben. Beispiel: „Drücken Sie ‚1' für den Vertrieb oder ‚2' für den Service. Durch Drücken von ‚0' können Sie jederzeit mit der Vermittlung sprechen."
-    
+
 ### <a name="menu-options"></a>Menüoptionen
 
 System-Telefonzentralen Phone können Sie Menüansagen ("drücken Sie 1 für den Vertrieb, 2 für Dienste drücken") erstellen und Einrichten von Menüoptionen für das Anrufrouting basierend auf der Auswahl des Benutzers. Durch Einrichten von Menüoptionen für eine automatische Telefonzentrale können Organisationen die Anrufer interaktiv schneller an ihr Ziel führen, ohne dass dazu Vermittlungsmitarbeiter für die Abwicklung der eingehenden Anrufe benötigt werden. Menüansagen können erstellt werden, mithilfe der Sprachausgabe (vom System generierte Ansagen) oder durch Hochladen einer Audiodatei, die aufgezeichnet wurden. Bei der Spracherkennung werden Sprachbefehle für Freisprechnavigation verwendet, aber die Anrufer können auch mithilfe der Wähltastatur eines Telefons in den Menüs navigieren.
@@ -231,19 +222,16 @@ System-Telefonzentralen Phone können Sie Menüansagen ("drücken Sie 1 für den
 Tasten 0 bis 9 können in eine automatische Telefonzentrale mit der Skype für Business Administrationscenter **Menüoptionen** zugewiesen werden. Verschiedene Sätze von Menüoptionen können erstellt werden, für die Geschäftszeiten und außerhalb der Geschäftszeiten, und Sie aktivieren oder deaktivieren Sie namentlich in den **Optionen im Menü**wählen können. Schlüssel können zum Weiterleiten der Anrufe für zugeordnet werden:
   
 - Eine Vermittlung, die standardmäßig der Taste „0" zugeordnet ist. Jedoch möglich erneut zugewiesen an eine beliebige Taste, oder aus dem Menü entfernt.
-    
 - Eine Warteschlange Anruf.
-    
 - Eine andere automatische Telefonzentrale. Menüs mit mehreren Ebenen können eingerichtet werden, zeigen Sie eine **Menüoption** in eine automatische Telefonzentrale an eine andere automatische Telefonzentrale mit einem eigenen Satz von Menüoptionen, die eine "geschachtelte" Automatische Telefonzentrale bezeichnet wird.
-    
-- Eine Skype für Business Online Benutzer mit einem **Telefonsystem** lizenzieren, die Enterprise-VoIP aktiviert oder hat aufrufen plant zugeordnet ist, diese. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann automatisch direkt an die Voicemail weitergeleitet werden.
-    
+- Ein Microsoft-Teams, Benutzer mit einem **Telefonsystem** lizenzieren, die Enterprise-VoIP aktiviert oder hat aufrufen plant zugeordnet ist, diese. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann automatisch direkt an die Voicemail weitergeleitet werden.
+
     > [!NOTE]
-    > Benutzer gehostet: lokal mit Lync Server 2010 kann nicht im **Menüoptionen**verwendet werden. 
+    > Benutzer gehostet: lokal mit Lync Server 2010 kann nicht im **Menüoptionen**verwendet werden.
   
 Der Name des jede Menüoption wird ein Spracherkennung Schlüsselwort, wenn die Spracherkennung aktiviert wurde. Beispielsweise können Anrufer sagen Sie "1", um die Menüoption, Schlüssel 1 zugeordnet sind, wählen oder sie können einfach sagen "Sales", um die gleichen Menüoption mit dem Namen "Sales".
   
-Um eine automatische Telefonzentrale und den Menüoptionen einzurichten, gehen Sie [Richten Sie eine automatische Telefonzentrale Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
+Um eine automatische Telefonzentrale und den Menüoptionen einzurichten, gehen Sie [Richten Sie eine automatische Telefonzentrale Telefonsystem](create-a-phone-system-auto-attendant.md).
   
 ### <a name="getting-service-numbers-for-an-auto-attendant"></a>Beziehen von Servicenummern für eine automatische Telefonzentrale
 
@@ -258,19 +246,20 @@ Sie können die Identität eines Benutzers schützen, indem Sie seine Anrufer-ID
   
 Zu diesem Zweck führen Sie Folgendes aus:
   
-```
+``` Powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
 Wenden Sie die Richtlinie für den Benutzer mit dem Cmdlet **Grant-CallingLineIdentity** an. Zu diesem Zweck führen Sie Folgendes aus:
   
-```
+``` Powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
 Sie erhalten weitere Informationen zum Anrufer-ID-Einstellungen in Ihrer Organisation [kann Anrufer-ID werden Verwendung in Ihrer Organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization)zu ändern.
   
 ## <a name="related-topics"></a>Verwandte Themen
+
 [Das Telefonsystem in Office 365 bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
@@ -278,4 +267,3 @@ Sie erhalten weitere Informationen zum Anrufer-ID-Einstellungen in Ihrer Organis
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Beispiel für Small Business - richten Sie eine automatische Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
-
