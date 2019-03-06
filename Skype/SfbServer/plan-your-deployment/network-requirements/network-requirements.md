@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Zusammenfassung: Prüfen der Überlegungen zum Netzwerk-Komponente unter vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: fd21ada12a8e2b05654fe6809dd5147480b0e306
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214512"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408172"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -80,21 +80,21 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahm
 
 |Regelname |Quell-IP |Ziel-IP |Protokoll |Quellport |Zielport |Authentifizierungsanforderung |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|A/V-Edgeserver, intern eingehend|Beliebig  |A/V-Edgeserver, intern|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Edgeserver, extern eingehend|Beliebig  |A/V-Edgeserver, extern|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Edgeserver, intern ausgehend|A/V-Edgeserver, intern  |A/V-Edgeserver, extern |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Edgeserver, extern ausgehend|A/V-Edgeserver, extern |Beliebig |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Vermittlungsserver, eingehend|Beliebig  |Vermittlungsserver |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Vermittlungsserver, ausgehend|Vermittlungsserver  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Konferenzzentrale, eingehend|Beliebig  |Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Konferenzzentrale (ausgehend)|Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Konferenzserver, eingehend|Beliebig|Front-End-Server|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Konferenzen, ausgehend|Front-End-Server|Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Exchange, eingehend|Beliebig|Exchange Unified Messaging|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Anwendungsfreigabeserver, eingehend|Beliebig|Anwendungsfreigabeserver|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Anwendungsfreigabeserver, ausgehend|Anwendungsfreigabeserver| Beliebig |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Exchange, ausgehend|Exchange Unified Messaging|Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Clients| Beliebig  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|A/V-Edgeserver, intern eingehend|Beliebig  |A/V-Edgeserver, intern|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|A/V-Edgeserver, extern eingehend|Beliebig  |A/V-Edgeserver, extern|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|A/V-Edgeserver, intern ausgehend|A/V-Edgeserver, intern  |A/V-Edgeserver, extern |UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|A/V-Edgeserver, extern ausgehend|A/V-Edgeserver, extern |Beliebig |UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Vermittlungsserver, eingehend|Beliebig  |Vermittlungsserver |UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Vermittlungsserver, ausgehend|Vermittlungsserver  |Beliebig|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Konferenzzentrale, eingehend|Beliebig  |Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird |UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Konferenzzentrale (ausgehend)|Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird  |Beliebig|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|A/V-Konferenzserver, eingehend|Beliebig|Front-End-Server|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|A/V-Konferenzen, ausgehend|Front-End-Server|Beliebig|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Exchange, eingehend|Beliebig|Exchange Unified Messaging|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Anwendungsfreigabeserver, eingehend|Beliebig|Anwendungsfreigabeserver|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Anwendungsfreigabeserver, ausgehend|Anwendungsfreigabeserver| Beliebig |UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Exchange, ausgehend|Exchange Unified Messaging|Beliebig|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
+|Clients| Beliebig  |Beliebig|UDP und TCP|Beliebig  |Beliebig |Nicht authentifizieren|
 |         |         |         |         |         |         |         |
 
 
@@ -137,7 +137,7 @@ Die Stereoversion des G.722-Codec wird von Systemen verwendet, die auf dem Lync-
 |**Videocodec**|**Auflösung und Seitenverhältnis**|**Bitrate bei maximaler Videonutzlast (KBit/s)**|**Bitrate bei minimaler Videonutzlast (KBit/s)**|
 |:-----|:-----|:-----|:-----|
 |H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15  <br/> |
-|H.264/RTVideo  <br/> |424x240 (16:9))  <br/> 320x240 (4:3  <br/> |350  <br/> |100  <br/> |
+|H.264/RTVideo  <br/> |424 x 240 (16:9)  <br/> 320 x 240 (4:3)  <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480x270 (16:9)  <br/> 424x320 (4:3)  <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640x360 (16:9)  <br/> 640x480 (4:3)  <br/> |800  <br/> |300  <br/> |
 |H.264  <br/> |848x480 (16:9)  <br/> |1500  <br/> |400  <br/> |

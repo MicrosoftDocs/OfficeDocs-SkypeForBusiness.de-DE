@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Lesen Sie in diesem Thema erfahren, wie Lync Raum Systemkomponenten Verwendung die Systemsoftware Skype Raum v2 migrieren.
-ms.openlocfilehash: 22693913c613f87c3f11ad5b421d771b661d9b91
-ms.sourcegitcommit: 502f85e7920b1a9a14f879d6211e10ad8daba69f
+ms.openlocfilehash: c01b579e73775e5f6b237f74975681fef7ea45ea
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "29382471"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408212"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrieren von Lync Raum System (LRS) Geräte zu Skype Raum System v2
 
@@ -41,7 +41,7 @@ Es gibt mehrere Optionen für das Upgrade von Lync Raum Systeme auf die nächste
 
 ### <a name="crestron-hardware-trade-in-program"></a>Crestron Hardware Rückkauf Programm
 
-Crestron wird ein Upgrade der [Crestron SR-System](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) oder einer gleichwertigen für alle nicht-Crestron Lync Raum System Kunden bereitstellen. Finden Sie unter Details dieses Programms [hier](https://support.crestron.com/app/answers/answer_view/a_id/1000220) oder <!-- For details, --> [e-Mail](mailto:lrsupgrade@crestron.com) Crestron LRS Support.  
+Crestron wird ein Upgrade der [Crestron SR-System](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) oder einer gleichwertigen für alle nicht-Crestron Lync Raum System Kunden (z. B. Smart oder Polycom LRS) bereitstellen. Finden Sie unter Details dieses Programms [hier](https://support.crestron.com/app/answers/answer_view/a_id/1000220) oder <!-- For details, --> [e-Mail](mailto:lrsupgrade@crestron.com) Crestron LRS Support.  
 
 ### <a name="crestron-rl2-upgrade-to-srs-v2"></a>Crestron RL2 Upgrade auf SRS v2
 
@@ -49,17 +49,8 @@ Bestehende Crestron RL2 (auch als Crestron RL200 bezeichnet) Kunden können ein 
 
 ### <a name="smart-room-systems-upgrade"></a>Intelligente Raum Systeme aktualisieren
 
-SMART LRS Kunden, ausreichend Abstand zu platzieren Crestron Hardware Rückkauf Programm arbeiten Microsoft und EFFIZIENT auch auf die Bereitstellung einer Lösung für das upgrade auf Skype Raum System v2. Dieses Update wird von SMART Technologies Inc. bereitgestellt werden Finden Sie weitere Informationen zu diesem [hier](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
+Intelligente LRS Kunden, ausreichend Abstand zu platzieren Crestron Hardware Rückkauf Programm funktioniert SMART auch auf die Bereitstellung einer Lösung für das upgrade auf Skype Raum System v2. Dieses Update wird durch SMART Technologies Inc. an Kunden unter Produktsupport bereitgestellt. Finden Sie weitere Informationen zu diesem [hier](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
-Um diese Option verwenden zu können, müssen Kunden außerdem einen [Logitech Bildschirm freigeben](https://www.logitech.com/en-us/product/screen-share) Adapter kaufen. Microsoft stellt Anweisungen zur Verwendung dieser Adapter mit Skype Raum Systemsoftware v2 bereit.
-
-Suchen Sie in Kürze Upgrade Anweisungen auf dieser Seite.
-  
-<!-- 
-### Summary of upgrade options
-
-This table lists summary of all available options for existing LRS devices:
--->
 
 ## <a name="what-should-you-do"></a>Was sollten Sie tun?
 

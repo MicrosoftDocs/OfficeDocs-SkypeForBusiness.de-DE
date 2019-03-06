@@ -1,5 +1,5 @@
 ---
-title: Implementieren von Quality of Service in Microsoft-Teams-clients
+title: Quality of Service in Microsoft Teams-Clients
 author: jambirk
 ms.author: jambirk
 manager: Serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Quality of Service (QoS) für Microsoft-Teams, Clients zu implementieren.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 157754f38f1304aa0cfe8d48b225b470ec015f4b
-ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
+ms.openlocfilehash: b1f80ede0432c3666a1974b1e0c8d7fa3dc2bbfc
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30211781"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408267"
 ---
 # <a name="set-qos-on-windows-clients"></a>Set-QoS auf Windows-clients
 

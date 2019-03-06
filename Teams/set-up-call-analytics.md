@@ -1,11 +1,11 @@
 ---
-title: Einrichten von Anrufen Analytics
+title: Einrichten von Anrufanalyse
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article
-ms.assetid: ''
+ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
-ms.openlocfilehash: 489dceae4924f3f720fd60f86423781c1aa31b41
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 4d6216fe1771158453ca32bbabfed5fcf9b09156
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754551"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408291"
 ---
-# <a name="set-up-call-analytics"></a>Einrichten von Anrufen Analytics
+# <a name="set-up-call-analytics"></a>Einrichten von Anrufanalyse
 
 Als eine Teams oder Skype für Business Online Admin, können Analytics rufen Sie für die Problembehandlung bei Skype für Unternehmen und Microsoft-Teams, rufen Sie die Qualität und Verbindung Probleme. Dabei kann es hilfreich sein, die folgenden Funktionen in der Anrufanalyse einzurichten:
   
@@ -94,9 +94,9 @@ Wenn Sie eine TSV- oder CSV-Datei von Grund auf neu erstellen, lesen Sie [Dateif
 ## <a name="related-topics"></a>Verwandte Themen
 <a name="BKMK_UploadFiles"> </a>
 
-[Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Anruf Analyse- und Anrufqualität Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

@@ -20,16 +20,17 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
+  - M365-voice
   - Adm_Skype4B_Online
   - Teams_ITadmin_Training
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: c309f4882cc12c3d8ccb9a0d9bccadb6d1cd459e
-  ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+  ms.openlocfilehash: f6138e8279ca0c45c186cc3c9e60bf7952a6d14f
+  ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/22/2019
-  ms.locfileid: "30210770"
+  ms.lasthandoff: 03/05/2019
+  ms.locfileid: "30408368"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft-Teams](/MicrosoftTeams/Teams-overview.md) und [Skype für Unternehmen](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) sind im Lieferumfang von Office 365, die Chat, Telefongespräche, Voicemail, Besprechungen, Dateien und apps zusammen an einem Ort bereitstellen. Verwenden sie beide [**Telefonsystem**](/MicrosoftTeams/what-is-phone-system-in-office-365) , um Remote Call Control und PBX-Funktionen in der Office 365-Cloud zu aktivieren. \n\nTelefonsystem ermöglicht es Ihnen, Ihre vorhandene PBX-System mit einem [Satz von Features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) , die enthalten, Voicemail und [automatischen Telefonzentralen](/microsoftteams/what-are-phone-system-auto-attendants), welche können Personen, die Ihr Unternehmen aufrufen ein Menüsystem zum Abrufen dieser an die richtige Abteilung navigieren, Person, oder die Operator. Automatische Telefonzentralen können mit Teams oder Skype für Unternehmen verwendet werden. Erstellen Sie eine automatische Telefonzentrale-System für Ihre Organisation die Skype für Business Administrationscenter verwenden.\n\nWenn Sie gefragt werden, um eine automatische Telefonzentrale einzurichten, werden in diesem Artikel über das Planen und Implementieren von automatischen Telefonzentralen für eine hypothetische small Business geführt. Es ist nicht um eine Lösung für alle einzusetzen, aber es ist ein guter Ausgangspunkt. \n\n## <a name=\"before-you-begin\"></a>Vorbereitung\n\nEs wird davon ausgegangen, dass Sie bereits folgende Entscheidungen getroffen haben: \n- [Einrichten von Telefonsystem in Ihrer Organisation](/MicrosoftTeams/setting-up-your-phone-system.md) mit einer [Planen aufrufen](/MicrosoftTeams/what-are-calling-plans-in-office-365) von Telefonnummern für die Benutzer verwenden.\n- [Einrichten von Voicemail für das Telefonsystem](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- Überprüft [Was Phone System automatischen Telefonzentralen sind?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) um ein besseres Verständnis der Features Telefonsystem abzurufen, die mit einer automatischen Telefonzentrale interagieren können.\n\nZufrieden erkennen können, dass die meisten Teil der Planung und Design erfolgen können darüber hinaus vermutlich über ein Whiteboard übertragen oder Indexkarten: müssen eine sorgfältige Planung technisch Just nicht zur Verfügung.\n"
