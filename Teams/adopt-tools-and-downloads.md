@@ -1,11 +1,11 @@
 ---
 title: Tools und Downloads für die Einführung
 description: Verwenden Sie diese Annahme Ressourcen zur Microsoft-Teams Akzeptanz und andere Office 365-Dienste.
-layout: LandingPage
 ms.topic: landing-page
 author: karuanag
 ms.author: karuanag
 manager: serdars
+layout: LandingPage
 ms.date: 11/20/2018
 ms.service: msteams
 ms.custom: Adopt
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 0e127be7c64dfadcc8cf01e2abcd4bb069d92b78
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015325"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408243"
 ---
 # <a name="tools-for-driving-adoption"></a>Tools für die Akzeptanz fördern 
 
@@ -149,4 +149,4 @@ Das Office 365 Champions Programm ist ein kostenlose Programm, mit der Personen,
 Auschecken die [Teams Annahme Daumenkino](https://aka.ms/teamstoolkit), ein online-Entwicklerhandbuch, die Ihnen helfen einführen Teams in Ihrem Unternehmen. Sie enthält viele herunterladbare Tools, Vorlagen und anderen Ressourcen, die Sie entlang Ihrer Teams Weg unterstützen.
 
 ### <a name="teams-customer-success-kit"></a>Teams Customer Success Kit
-Das [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) enthält Tools, damit Teams in Ihrer Organisation bereitstellen. Sie umfasst e-Mail-Vorlagen für Ankündigungen, Handzettel Poster, Countdown, und Tipps & Tricks. Darüber hinaus Leitfäden für Teamleiter und IT-Administratoren erste Schritte.
+Das [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) enthält Tools, damit Teams in Ihrer Organisation bereitstellen. Sie umfasst e-Mail-Vorlagen für Ankündigungen, Handzettel Poster, Countdown und Tipps & Tricks. Darüber hinaus Leitfäden für Teamleiter und IT-Administratoren erste Schritte.
