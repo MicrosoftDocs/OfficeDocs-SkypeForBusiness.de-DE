@@ -1,19 +1,21 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Von Schulungsleitern gehaltene Schulungen und Videos für Administratoren von Microsoft-Teams
+title: Von einem Kursleiter durchgeführte Schulung und Videos für Microsoft Teams-Administratoren
 description: Melden Sie sich für Klassen von Schulungsleitern gehaltene, um alle Informationen zu Microsoft-Teams erhalten.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
-ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.collection:
+- Teams_ITAdmin_Training
+- M365-collaboration
+ms.openlocfilehash: f3797407d02717109f1d8ab8b288cd68f9defe57
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349311"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461220"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -138,6 +140,44 @@ ms.locfileid: "29349311"
                                             <div class="cardText">
                                                 <h3>Teams für Bildungseinrichtungen - Webinare</h3>
                                                 <p>Erfahren Sie, wie in Hochschule Teams verwenden. (Benutzergruppe: Mitarbeiter, Studenten, Wissenschaftler, Recherchieren Fakultät, IT-Experten)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="successful meeting" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Optimieren von Teams Besprechungen</h3>
+                                                <p>Hier erfahren Sie, wie Sie Teams für Ihre vor, während, nutzen und buchen Besprechungen wünschen. (Benutzergruppe: Endbenutzer)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="mobile user" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Firstline Mitarbeiter mit Teams</h3>
+                                                <p>Lernen Sie die neu veröffentlichter Firstline Worker-Funktionen in Teams. (Benutzergruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
                                     </div>

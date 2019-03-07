@@ -126,6 +126,7 @@
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Verwalten von Besprechungsrichtlinien](meeting-policies-in-teams.md)
 ## [Verwalten von Einstellungen für Besprechungen](meeting-settings-in-teams.md)
+## [Anpassen von Besprechungseinladungen](customize-meeting-invitations-in-teams.md)
 ## [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -138,7 +139,7 @@
 ## [Audiokonferenzen](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Audiokonferenzen in Office 365](audio-conferencing-in-office-365.md)
-### [Allgemeine Fragen zu Audiokonferenz](audio-conferencing-common-questions.md)
+### [Allgemeine Fragen zu Audiokonferenzen](audio-conferencing-common-questions.md)
 ### [Lernprogramm: Audiokonferenzen in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Testen oder Erwerben von Audiokonferenzen in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Zeitraum für kostenlose ausgehende Anrufe in Audiokonferenzen](complimentary-dial-out-period.md)
@@ -203,7 +204,7 @@
 <!-- ============================================================ -->
 
 ### Referenz
-#### [Unterstützte Sprachen für Audiokonferenz](audio-conferencing-supported-languages.md)
+#### [In Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md)
 
 #### [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -329,11 +330,11 @@
 ### [Einrichten von Aufrufen Pläne für Ihre Organisation](set-up-calling-plans.md)
 ### [Schnellstart-Handbuch: Konfigurieren von Aufrufen Pläne](configuring-teams-calling-quickstartguide.md)
 
-## [Telefon System direkten Routing](direct-routing-landing-page.md)
+## [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
 ### [Planen von direktem Routing](direct-routing-plan.md)
 ### [Konfigurieren von direktem Routing](direct-routing-configure.md)
 ### [Migrieren zu direkten Routing](direct-routing-migrating.md)
-### [Überwachung und Problembehandlung von direkten Routing](direct-routing-monitor-and-troubleshoot.md)
+### [Überwachung und Problembehandlung von direktem Routing](direct-routing-monitor-and-troubleshoot.md)
 ### [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 ### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
@@ -470,7 +471,7 @@
 #### [Telefonnummernverwaltung für die USA](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [Gebührenfreie Rufnummer einwählen einschränken](toll-free-dialing-limitations-and-restrictions.md)
+### [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentinien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -681,7 +682,7 @@
 ### [Microsoft Education Governance – häufig gestellte Fragen für Administratoren](plan-teams-governance-edu.md)
 
 ## Teams für Mitarbeiter firstline
-### [Microsoft StaffHub zurückgezogen werden](microsoft-staffhub-to-be-retired.md)
+### [Microsoft StaffHub soll eingestellt werden](microsoft-staffhub-to-be-retired.md)
 ### [Verwalten der app Schichten für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 
