@@ -12,27 +12,29 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie die Experiments Phase des Teams Annahme durchführen.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f77989e31e8e79f13d54f7b3506cbf5c0b19d8e5
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 23622e076b470dbb2fb9607c90cbc1f864fb42e1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699725"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464644"
 ---
-# <a name="microsoft-teams-adoption-phase-2---experiment"></a><span data-ttu-id="b19d2-103">Microsoft Teams-Einführungsphase 2 – Experimentieren</span><span class="sxs-lookup"><span data-stu-id="b19d2-103">Microsoft Teams adoption phase 2 - Experiment</span></span>
+# <a name="microsoft-teams-adoption-phase-2---experiment"></a><span data-ttu-id="dc64b-103">Microsoft Teams-Einführungsphase 2 – Experimentieren</span><span class="sxs-lookup"><span data-stu-id="dc64b-103">Microsoft Teams adoption phase 2 - Experiment</span></span>
 
-<span data-ttu-id="b19d2-104">Sie sind jetzt auf der Grundlage eine hervorragende Projektteam und wichtige Informationen zu Ihrer Organisation, und Sie können Teams experimentieren.</span><span class="sxs-lookup"><span data-stu-id="b19d2-104">You are now armed with a great project team and critical information about your organization, and you are ready to experiment with Teams.</span></span> <span data-ttu-id="b19d2-105">Es wird empfohlen, Experimentieren mit 2 bis 3 in der Praxis Projekte innerhalb einer Gruppe, die durch einen Projektbeteiligten geführt werden, mit denen Sie eine positive Beziehung haben und in, deren Organisation eine ausreichende Anzahl an frühe Übernahmen sinnvollen Feedback geben.</span><span class="sxs-lookup"><span data-stu-id="b19d2-105">We recommend experimenting with 2 to 3 real world projects within a group that is led by a stakeholder with whom you have a positive relationship and in whose organization there are a sufficient number of early adopters to provide meaningful feedback.</span></span> <span data-ttu-id="b19d2-106">Ob Ihr Unternehmen große oder kleine ist, wird empfohlen, Abschluss dieser Phase um Einblick wie Teams verbessert die Zusammenarbeit über seine chatten und Speicherfunktionen Datei.</span><span class="sxs-lookup"><span data-stu-id="b19d2-106">Whether your organization is large or small, we recommend completing this phase to gain insight into how Teams can improve your collaboration beyond using its chat and file storage features.</span></span>  
+<span data-ttu-id="dc64b-104">Sie sind jetzt auf der Grundlage eine hervorragende Projektteam und wichtige Informationen zu Ihrer Organisation, und Sie können Teams experimentieren.</span><span class="sxs-lookup"><span data-stu-id="dc64b-104">You are now armed with a great project team and critical information about your organization, and you are ready to experiment with Teams.</span></span> <span data-ttu-id="dc64b-105">Es wird empfohlen, Experimentieren mit 2 bis 3 in der Praxis Projekte innerhalb einer Gruppe, die durch einen Projektbeteiligten geführt werden, mit denen Sie eine positive Beziehung haben und in, deren Organisation eine ausreichende Anzahl an frühe Übernahmen sinnvollen Feedback geben.</span><span class="sxs-lookup"><span data-stu-id="dc64b-105">We recommend experimenting with 2 to 3 real world projects within a group that is led by a stakeholder with whom you have a positive relationship and in whose organization there are a sufficient number of early adopters to provide meaningful feedback.</span></span> <span data-ttu-id="dc64b-106">Ob Ihr Unternehmen große oder kleine ist, wird empfohlen, Abschluss dieser Phase um Einblick wie Teams verbessert die Zusammenarbeit über seine chatten und Speicherfunktionen Datei.</span><span class="sxs-lookup"><span data-stu-id="dc64b-106">Whether your organization is large or small, we recommend completing this phase to gain insight into how Teams can improve your collaboration beyond using its chat and file storage features.</span></span>  
 
-<span data-ttu-id="b19d2-107">In dieser Phase können Sie die folgenden Schritte ausführen:</span><span class="sxs-lookup"><span data-stu-id="b19d2-107">You will complete the following steps in this phase:</span></span>
+<span data-ttu-id="dc64b-107">In dieser Phase können Sie die folgenden Schritte ausführen:</span><span class="sxs-lookup"><span data-stu-id="dc64b-107">You will complete the following steps in this phase:</span></span>
 
-1. <span data-ttu-id="b19d2-108">[Ihr Programm Champions erstellen](teams-adoption-create-champions-program.md).</span><span class="sxs-lookup"><span data-stu-id="b19d2-108">[Create your champions program](teams-adoption-create-champions-program.md).</span></span>
-2. <span data-ttu-id="b19d2-109">[Abschließen Ihrer Governance quick start](teams-adoption-governance-quick-start.md).</span><span class="sxs-lookup"><span data-stu-id="b19d2-109">[Complete your governance quick start](teams-adoption-governance-quick-start.md).</span></span>
-3. <span data-ttu-id="b19d2-110">[Definieren der Anwendungsfälle](teams-adoption-define-usage-scenarios.md).</span><span class="sxs-lookup"><span data-stu-id="b19d2-110">[Define your use cases](teams-adoption-define-usage-scenarios.md).</span></span>
-4. <span data-ttu-id="b19d2-111">[Finalize frühe Firmenwerts Programmteilnehmer](teams-adoption-onboard-early-adopters.md).</span><span class="sxs-lookup"><span data-stu-id="b19d2-111">[Finalize early adopter program participants](teams-adoption-onboard-early-adopters.md).</span></span>
-5. <span data-ttu-id="b19d2-112">[Richten Sie Ihr Feedback Kanäle](teams-adoption-onboard-early-adopters.md#gather-feedback).</span><span class="sxs-lookup"><span data-stu-id="b19d2-112">[Set up your feedback channels](teams-adoption-onboard-early-adopters.md#gather-feedback).</span></span>
-6. <span data-ttu-id="b19d2-113">[Schalten Sie das Supportpersonal an Bord](teams-adoption-onboard-support.md).</span><span class="sxs-lookup"><span data-stu-id="b19d2-113">[Bring your support staff on board](teams-adoption-onboard-support.md).</span></span>
+1. <span data-ttu-id="dc64b-108">[Ihr Programm Champions erstellen](teams-adoption-create-champions-program.md).</span><span class="sxs-lookup"><span data-stu-id="dc64b-108">[Create your champions program](teams-adoption-create-champions-program.md).</span></span>
+2. <span data-ttu-id="dc64b-109">[Abschließen Ihrer Governance quick start](teams-adoption-governance-quick-start.md).</span><span class="sxs-lookup"><span data-stu-id="dc64b-109">[Complete your governance quick start](teams-adoption-governance-quick-start.md).</span></span>
+3. <span data-ttu-id="dc64b-110">[Definieren der Anwendungsfälle](teams-adoption-define-usage-scenarios.md).</span><span class="sxs-lookup"><span data-stu-id="dc64b-110">[Define your use cases](teams-adoption-define-usage-scenarios.md).</span></span>
+4. <span data-ttu-id="dc64b-111">[Finalize frühe Firmenwerts Programmteilnehmer](teams-adoption-onboard-early-adopters.md).</span><span class="sxs-lookup"><span data-stu-id="dc64b-111">[Finalize early adopter program participants](teams-adoption-onboard-early-adopters.md).</span></span>
+5. <span data-ttu-id="dc64b-112">[Richten Sie Ihr Feedback Kanäle](teams-adoption-onboard-early-adopters.md#gather-feedback).</span><span class="sxs-lookup"><span data-stu-id="dc64b-112">[Set up your feedback channels](teams-adoption-onboard-early-adopters.md#gather-feedback).</span></span>
+6. <span data-ttu-id="dc64b-113">[Schalten Sie das Supportpersonal an Bord](teams-adoption-onboard-support.md).</span><span class="sxs-lookup"><span data-stu-id="dc64b-113">[Bring your support staff on board](teams-adoption-onboard-support.md).</span></span>
 
-<span data-ttu-id="b19d2-114">![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Ihr Programm Champions erstellen](teams-adoption-create-champions-program.md)</span><span class="sxs-lookup"><span data-stu-id="b19d2-114">![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Create your champions program](teams-adoption-create-champions-program.md)</span></span>
+<span data-ttu-id="dc64b-114">![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Ihr Programm Champions erstellen](teams-adoption-create-champions-program.md)</span><span class="sxs-lookup"><span data-stu-id="dc64b-114">![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Create your champions program](teams-adoption-create-champions-program.md)</span></span>
